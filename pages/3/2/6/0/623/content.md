@@ -375,38 +375,44 @@ In fact, it induces an equivalence of categories also on the corresponding [[hom
 
 =--
 
-### Further structure on the Moore complex 
+### Hypercrossed complex structure {#HypercrossedComplex}
 
-In the case of simplicial Abelian groups or more generally, simplicial modules over a ring, the Moore complex of such an object is merely a chain complex of the same sort of objects by the [[Dold-Kan correspondence]]. Various non-commutative forms of that result have been proved, for instance,  [[group T-complex]]es are equivalent to [[crossed complex]]es, by a result of Ashley,
++-- {: .un_prop }
+###### Proposition
 
-* N. Ashley, _Simplicial $T$-Complexes: a non abelian version of a theorem of Dold--Kan_ , Dissertations Math., 165, (1989), 11--58.
+The Moore complex of a [[simplicial group]] is naturally a [[hypercrossed complex]].
 
-In general, for simplicial groups, the Moore complex has a beautiful structure of pairings described by [[Pilar Carrasco]], in her thesis and in the resulting paper,
+=--
 
-* P. Carrasco and [[Antonio Cegarra|A. M. Cegarra]], Group-theoretic Algebraic Models for Homotopy Types , J. Pure Appl. Alg., 75, (1991), 195--235
+This has been established in ([CarrascoCegarra](#CarrascoCegarra)).
 
-The resulting structure is that of a [[hypercrossed complex]]. Typically one has pairings 
-$$N G_p \times N G_q \to N G_{p+q}.$$
-These are well understood in low dimensions, see the entry on [[hypercrossed complex]] for more details. 
+Typically one has pairings  $N G_p \times N G_q \to N G_{p+q}$.
+These are well understood in low dimensions:
 
 * Suppose that $G$ is a simplicial group with Moore complex $N G$, which satisfies $N G_k = 1$ for $k\gt 1$, then $(G_1,G_0,d_1,d_0)$ has the structure of a [[2-group]]. The [[interchange law]] is satisfied since the corresponding equation in $G_1$ is always the image of an element in $N G_2$, and here that must be trivial. If one thinks of the 2-group as being specified by a [[crossed module]] $(C,P,\delta, a)$, then in terms of the original simplicial group, $G$,  $N G_0 = G_0 = P$, $N G_1 \cong C$, $ \partial = \delta$ and the action of $P$ on $C$ translates to an action of $N G_0$ on $N G_1$ using conjugation by $s_0(p)$, i.e., for $p\in G_0$ and $c\in N G_1$, 
 $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 
 
-* Suppose next that $N G_k = 1$ for $k \gt 2$, then the Moore complex is a [[2-crossed module]] in the sense of Conduch&#233;.  Such objects model all [[homotopy 3-type]]s.  They are related to the [[crossed square]]s of Guin-Valery and [[Jean-Louis Loday|Loday]], in that there is a functor from crossed squares to $2$-crossed modules which preserves homotopy types, but crossed squares have the advantage that there is a homotopically defined functor with values in crossed squares, related to classical homotopy invariants of pairs and triads, and which satisfies a [[higher homotopy van Kampen theorem]], so that some calculations are possible. 
+* Suppose next that $N G_k = 1$ for $k \gt 2$, then the Moore complex is a [[2-crossed module]]/[[crossed square]]. 
 
 ## References
 
-A discussion with an emphasis of its generalization to the non-abelian situation is in section 1.3.3 of
-
-* [[Tim Porter]], _[[Crossed Menagerie]]_
 
 A standard textbook reference for the abelian version is
 
 * [[Paul Goerss]], Jardine, _Simplicial homotopy theory_ ([chapter 3](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi))
 {#GoerssJardine}
- 
+
 Notice that these authors write "normalized chain complex" for the complex that elsewhere in the literature would be called just "Moore complex", whereas what Goerss--Jardine call "Moore complex" is sometime maybe just called "alternating sum complex".
 
+A discussion with an emphasis of the generalization to non-abelian simplicial groups is in section 1.3.3 of
+
+* [[Tim Porter]], _[[Crossed Menagerie]]_
+
+ 
+The discusson of the hypercrossed complex structure on the Moore complex of a general simplicial group is in
+
+* [[Pilar Carrasco]], [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_ , J. Pure Appl. Alg., 75, (1991), 195--235
+{#CarrascoCegarra}
 
 [[!redirects Moore-complex]]
