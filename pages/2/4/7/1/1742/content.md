@@ -20,7 +20,7 @@
 
 ## Idea
 
-The __triangle identities__ or __zigzag identities__ are identities satisfied by the unit and counit of an [[adjunction]].
+The __triangle identities__ or __zigzag identities__ are identities satisfied by the [[unit of an adjunction|unit and counit]] of an [[adjunction]].
 
 ## Statement
 
@@ -101,7 +101,20 @@ With labels left implicit, this notation becomes very economical:
 [[adjunction-up-string-minimal.png:pic]], [[adjunction-down-string-minimal.png:pic]].
 
 
+## Related concepts
+
+* [[adjunction]]
+
+* **zig-zag law** / **triangle identity**
+
+* [[unit of an adjunction]]
+
+* [[adjunct]]
+
+
 [[!redirects zigzag identities]]
 [[!redirects zigzag identity]]
 [[!redirects zig-zag identities]]
 [[!redirects zig-zag identity]]
+[[!redirects zig-zag law]]
+[[!redirects triangle identity]]
