@@ -110,40 +110,77 @@ See [[etale geometric morphism]] for more details.
 See [[base change geometric morphism]].
 
 
-## Examples
+### As $(\infty,1)$-sheaves on the big $(\infty,1)$-site of an object {#SheavesOnBigSite}
 
-The following proposition makes manifest the way in which $\mathbf{H}/X$ is the category of $(\infty,1)$-sheaves over $X$, or rather: over the [[big site]] of $X$:
+We spell out how $\mathbf{H}/X$ is the [[(∞,1)-category of (∞,1)-sheaves]] over the [[big site]] of $X$.
 
 +-- {: .un_prop}
 ###### Proposition
 **(forming overcategories commutes with passing to presheaves)**
 
-Let $C$ be a [[small (∞,1)-category]] and $p : K \to C$
-a [[diagram]]. Write $C_{/p}$ 
-and $PSh(C)/_{j p}$ for the corresponding [[over (∞,1)-categories]], where 
-$j : C \to PSh(C)$ is the [[(∞,1)-Yoneda embedding]].
+Let $C$ be a [[small (∞,1)-category]] and $X : K \to C$
+a [[diagram]]. Write $C_{/X}$ 
+and $PSh(C)/_{X}$ for the corresponding [[over (∞,1)-categories]], where 
+-- notationally implicitly -- we use the [[(∞,1)-Yoneda embedding]] $C \to PSh(C)$.
 
 Then we have an [[equivalence of (∞,1)-categories]]
 
 $$
-  PSh(C_{/p}) \stackrel{\simeq}{\to} PSh(C)_{/j p}
+  PSh(C/X) \stackrel{\simeq}{\to} PSh(C)/X
   \,.
 $$
 
 =--
 
-
+This appears as [[Higher Topos Theory|HTT, 5.1.6.12]]. For more on this see [[(∞,1)-category of (∞,1)-presheaves]].
 
 +-- {: .un_remark}
 ###### Remark
 
-Here we may think of $C_{/p}$ as the [[big site]] of the object $c \in PSh(C)$, hence of $PSh(C_{/p})$ as presheaves on $c$.
+Here we may think of $C/X$ as the [[big site]] of the object $c \in PSh(C)$, hence of $PSh(C/X)$ as presheaves on $X$.
 
 =--
 
-This appears as [[Higher Topos Theory|HTT, 5.1.6.12]]. For more on this see [[(∞,1)-category of (∞,1)-presheaves]].
++-- {: .un_prop}
+###### Proposition
+
+Let $C$ be equipped with a [[subcanonical coverage]], let $X \in C$ and regard $C/X$ as an [[(∞,1)-site]] with the [[big site]]-[[coverage]]. Then we have
+
+$$
+  Sh(C/X) \simeq Sh(C)/X
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion of <a href="http://ncatlab.org/nlab/show/adjoint+(infinity%2C1)-functor#OnSlices">adjoint (∞,1)-functors on over-(∞,1)-categories</a> [[adjoint (∞,1)-functor]]s we have that the adjunction
+
+$$
+  (F \dashv i) : Sh(C) \stackrel{\overset{F}{\leftarrow}}{\hookrightarrow}
+  PSh(C)
+$$
+
+passes to an adjunction on the [[over-(∞,1)-categories]]
+
+$$
+  (F/X \dashv i/X) : Sh(C)/X \stackrel{\overset{F}{\leftarrow}}{\hookrightarrow}
+  PSh(C)/X
+  \,,
+$$
+
+(where we are using that $F  i X \simeq X$ by the assumption that the coverage is subcanonical, so that the representable $X$ is a [[(∞,1)-sheaf]]), such that $i/X$ is still a [[full and faithful (∞,1)-functor]] (where we are using that the unit $X \to F i X$ is an equivalence, since $X$ is a sheaf). 
+
+Since moreover the [[(∞,1)-limit]]s in $Sh(C)/X$ are computed as limits in $Sh(C)$ over diagrams with a bottom element adjoined (as discussed at <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#InOvercategories">limits in over-(∞,1)-categories</a>) it follows that with $F$ preserving all finite limits, so does $F/X$.
+
+In summary we have that $(F/X \dashv i/X)$ is a [[reflective sub-(∞,1)-category]] of $PSh(C/X)$ hence is the [[(∞,1)-category of (∞,1)-sheaves]] on the category $C/X$ for _some_ [[(∞,1)-site]]-structure. But since $F/X$ inverts precisely those morphisms that are inverted by $F$ under the projection $PSh(C)/X \to PSh(C)$, it follows that this is the [[big site]] structure on $C/X$ (this is the defining property of the big site).
 
 
+=--
+
+Specifically for the $(\infty,1)$-topos $\mathbf{H} = $ [[∞Grpd]] we also have the following characterization.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -151,7 +188,7 @@ This appears as [[Higher Topos Theory|HTT, 5.1.6.12]]. For more on this see [[(�
 For $\mathbf{H} = $ [[∞Grpd]] we have that for $X \in \infty Grp$ any [[∞-groupoid]] the corresponding over-$(\infty,1)$-topos is equivalent to the [[(∞,1)-category of (∞,1)-presheaves]] on $X$:
 
 $$
-  \infty Grpd/X \simeq [X^{op}, \infty Grpd]
+  \infty Grpd/X \simeq PSh(X) \simeq [X, \infty Grpd]
   \,.
 $$
 
