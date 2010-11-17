@@ -63,7 +63,7 @@ The set $J$ can be taken to be that of all generating acyclic cofibrations, if t
 
 =--
 
-+-- {: .un_theorem}
++-- {: .un_theorem #ModelStructureTheorem}
 ###### Theorem
 
 The [[forgetful functor]] [[adjunction]]
@@ -93,6 +93,8 @@ Since fibrations in $Alg C$ are created in $C$, and any algebraically fibrant ob
 =--
 
 ## Details
+
+We spell out the constructions and lemmas that yield the [theorem on the model structure](#ModelStructureTheorem). In the course of this we also discuss a few results of interest in their own right, such as the monadicity, local presentability and combinatoriality of $Alg C$.
 
 ### The left adjoint
 
