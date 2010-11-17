@@ -98,7 +98,7 @@ We spell out the constructions and lemmas that yield the [theorem on the model s
 
 ### The left adjoint
 
-We describe explicitly the [[left adjoint]] $F : C \to Alg C$. This follows [[Richard Garner]]'s improved version of the [[small object argument]] ([Garner](#Garner)).
+We describe explicitly the [[left adjoint]] $F : C \to Alg C$ to the [[forgetful functor]] $U : Alg C \to C$. This follows [[Richard Garner]]'s improved version of the [[small object argument]] ([Garner](#Garner)).
 
 
 For $X \in C$ define a new object $X_\infty$ inductively as follows.
