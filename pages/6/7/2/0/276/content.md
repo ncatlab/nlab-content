@@ -29,6 +29,7 @@ See also [[homotopy n-type]].
 
 One way to think of a crossed complex is as a chain complex in which the bottom part is a crossed module and the rest is a chain complex of modules over the fundamental group of the crossed complex (that is its cokernel).  This is easy to think of in the case where there is a single object (*crossed complex of groups*), and it is a simple step to extend to the many object case.
 
+Later on we will look in a bit more detail at the fundamental crossed complex of a filtered space, and that is a good example to keep in mind.  For simplicity assume we have a CW-complex, or similar space, together with a filtration by some nice subspaces.  We have the fundamental groupoid, $\Pi_1(X_1,X_0)$, of the '1-skeleton' based at the vertices. For any vertex $x$, we then have $\pi_2(X_2,X_1,x)$, the relative homotopy group of the 2-dimensional stuff relative to the 1-dimensional stuff, based at $x$.  Varying $x$ we get a family of groups which we think of as a groupoid having just vertex groups without any arrows joining distinct vertices. In the next dimension we have $\pi_3(X_3,X_2,x)$, which is the relative homotopy group taking account of the 3-cells modulo the 2-cells, (which is abelian), and so on. Change of base point gives an action of  $\Pi_1(X_1,X_0)$ on all of these. It was studying these groups , actions etc. that gave the abstract definition that follows.
 
 ## Definition
 
