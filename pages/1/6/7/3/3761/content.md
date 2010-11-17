@@ -3,7 +3,7 @@
 [[!include monoidal categories - contents]]
 </div>
 
-#Contens#
+#Contents#
 * automatic table of contents
 {:toc}
 
