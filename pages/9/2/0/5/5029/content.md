@@ -87,6 +87,8 @@ is that of **concrete objects** in $\mathbf{H}$, the analog of [[concrete sheave
 
 * **$(\infty,1)$-quasitopos**
 
+## References
+
 The definition as it stands, originated out of a discussion between [[Urs Schreiber]] and [[David Carchedi]]. The suggestion to rephrase the definition in terms of bisites came from [[Mike Shulman]].
 
 [[!redirects (∞,1)-quasitopos]]
