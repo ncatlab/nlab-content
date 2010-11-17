@@ -1,0 +1,1 @@
+Pilar Carrasco Carrasco is a Spanish mathematician and expert on homotopical and homological algebra, especially with regard to [[crossed modules]] and their higher dimensional analogues. Her web page in the Departamento de &#193;lgebra, at Granada is [here](http://www.ugr.es/~mcarrasc/).
