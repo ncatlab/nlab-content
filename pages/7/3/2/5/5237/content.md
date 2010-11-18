@@ -31,6 +31,8 @@ For $C$ a [[monoidal category]], the **category of [[monoid]]s** $Mon(C)$  in th
 
 =--
 
+If $Assoc$ denotes the [[associative operad]] in $C$, then $Mon(C) = Alg_C Assoc$ is the category of [[algebras over an operad]] for $Assoc$.
+
 
 ## Properties
 
