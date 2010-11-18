@@ -109,7 +109,11 @@
 
 #### general
 
-* [[model structure on simplicial T-algebras]], on [[homotopy T-algebra]]s
+* [[model structure on monoids|on monoids]]
+
+* [[model structure on simplicial T-algebras|on simplicial T-algebras]], on [[homotopy T-algebra]]s
+
+* [[model structure on algebras over a monad|on algebas over a monad]]
 
 * [[model structure on algebras over an operad|on algebras over an operad]],
   [[model structure on modules over an algebra over an operad|on modules over an algebra over an operad]]
