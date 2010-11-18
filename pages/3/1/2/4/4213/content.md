@@ -97,5 +97,5 @@ See [[oplax monoidal functor]] for more details.
 
 ## References
 
-* [[Max Kelly]], _Doctrinal Adjunction_ (1974)
+* [[Max Kelly]], _Doctrinal Adjunction_ Lecture Notes in Mathematics, (1974), Volume 420/1974
 {#Kelly}
