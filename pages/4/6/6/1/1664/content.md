@@ -19,3 +19,5 @@ If $G$ is a [[simplicial group]] then its [[Moore complex]] is a normal complex 
 ##Remark
 
 There is an obvious generalisation to normal complex of groupoids, provided one keeps to working with groupoids all having the same set of objects and morphisms which are the identity on objects.  
+
+Likewise, one can talk about normal complexes in a [[semi-abelian category]].
