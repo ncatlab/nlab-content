@@ -1,0 +1,106 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The _monoid axiom_ is an extra condition on a [[monoidal model category]] that helps to make its [[model structure on monoids in a monoidal model category]] exist and be well behaved.
+
+## Definition
+
++-- {: .un_defn}
+###### Definition
+
+We say a [[monoidal model category]] satisfies the **monoid axiom** if every morphism that is obtained as a [[transfinite composition]] of [[pushout]]s of [[tensor product]]s of acyclic fibrations with any object is a weak equivalence.
+
+=--
+
+This appears as [SchwedeShipley, def. 3.3.](#SchwedeShipley).
+
+## Properties 
+
++-- {: .un_lemma}
+###### Lemma
+
+Let $C$ be a 
+
+* [[cofibrantly generated model category]];
+
+* [[symmetric monoidal category]];
+
+* [[monoidal model category]].
+
+Then if the monoid axiom hold for the set of generating acyclic cofibrations it holds for all acyclic cofibrations.
+
+=--
+
+This is ([SchwedeShipley, lemma 3.5](#SchwedeShipley)).
+
++-- {: .un_theorem #ExistenceOfModelstructureOnMonoids}
+###### Theorem
+
+If a [[monoidal model category]] satisfies the monoid axiom and 
+
+* it is a [[cofibrantly generated model category]];
+
+* all objects are [[small object]]s,
+
+then the [[transferred model structure]] along the [[free functor]]/[[forgetful functor]] [[adjunction]] $(F \dashv U) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C$ exists on its [[category of monoids]] and hence provides a [[model structure on monoids in a monoidal model category|model structure on monoids]].
+
+=--
+
+This is part of ([SchwedeShipley, theorem 4.1](#SchwedeShipley)).
+
+## Examples
+
++-- {: .un_prop}
+###### Proposition
+
+Monoidal model categories thatt satisfy the monoid axiom (as well as the other conditions sufficient for the [above theorem](ExistenceOfModelstructureOnMonoids) on the existence of transferred model structures on categories of monoids) include
+
+* the standard [[model structure on simplicial sets]];
+
+* the projective [[model structure on chain complexes]] for connective chanin complexes with fibrations the surjections in positibe degree
+
+* the [[model structure on symmetric spectra]]
+
+* the [[model structure on Gamma-spaces]]
+
+=--
+
+This is in ([SchwedeShipley, section 5](#SchwedeShipley)).
+
+## References
+
+* [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
+{#SchwedeShipley}
+
+[[!redirects model structure on monoids]]
+
+
+
