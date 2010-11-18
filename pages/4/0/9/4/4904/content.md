@@ -115,9 +115,13 @@ This is theorem 1.3 in ([Badzioch](#Badzioch)).
 
 ## Related concepts
 
+* [[model structure on monoids]]
+
 * [[algebra over a monad]]
 
   [[∞-algebra over an (∞,1)-monad]] 
+
+  * [[model structure on algebras over a monad]]
 
 * [[algebra over an algebraic theory]] 
 
