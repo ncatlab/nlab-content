@@ -45,6 +45,49 @@ Typically one uses on $Mon(C)$ the [[transferred model structure]] along this ad
 
 ## Properties
 
+### Existence
+
++-- {: .un_theorem}
+###### Theorem
+
+If $C$ is [[monoidal model category]] that
+
+* satisfies the [[monoid axiom in a monoidal model category]];
+
+* is a [[cofibrantly generated model category]];
+
+* all objects are [[small object]]s,
+
+then the [[transferred model structure]] along the [[free functor]]/[[forgetful functor]] [[adjunction]] $(F \dashv U) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C$ exists on its [[category of monoids]].
+=--
+
+This is part of ([SchwedeShipley, theorem 4.1](#SchwedeShipley)).
+
+
++-- {: .un_theorem}
+###### Theorem
+
+If the symmetric monoidal model category $C$ 
+
+* is a [[cofibrantly generated model category]]
+
+* its unit is cofibrant
+
+* it a suitable [[interval object]] 
+
+then the transferred model structure on monoids exists.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regard monoids a [[algebras over an operad]] for the [[associative operad]]. Then apply the existence results discussed at [[model structure on algebras over an operad]]. See there for more details.
+
+=--
+
+### Homotopy pushouts
+
 Suppose the transferred model structure exists on $Mon(C)$. By the discussion of <a href="http://ncatlab.org/nlab/show/category+of+monoids#FreeMonoids">free monoids</a> at [[category of monoids]] we have that then [[pushout]]s of the form
 
 $$
@@ -63,12 +106,26 @@ exist in $Mon(C)$, for all $f : A \to B$ in $C$
 +-- {: .un_prop}
 ###### Proposition
 
+Let the monoidal model category $C$ be 
+
+* [[symmetric monoidal category|symmetric monoidal]];
+
+* and satisfy the [[monoid axiom in a monoidal model category]]. 
+
 If $f : A\to B$ is an acyclic cofibration in the model structure on $C$, then the pushout $X \to P$ as above is a weak equivalence in $Mon(C)$.
 
 =--
 
 This is [SchwedeShipley, lemma 6.2](#SchwedeShipley).
 
++-- {: .proof}
+###### Proof
+
+Use the description of the pushout as a [[transfinite composition|transfinite composite]] of pushouts as described at [[category of monoids]] in the section <a href="http://ncatlab.org/nlab/show/category+of+monoids#FreeMonoids">free and relative free monoids</a>.
+
+One sees that the [[pushout product axiom]] implies that all the intermediate pushouts produce acyclic cofibrations and the [[monoid axiom in a monoidal model category]] implies then that each $P_{n-1} \to P_n$ is a weak equivalence. Moreover, all these moprhisms are of the kind used in the monoid axioms, so also their [[transfinite composition]] is a weak equivalence.
+
+=--
 
 ## Related concepts
 
