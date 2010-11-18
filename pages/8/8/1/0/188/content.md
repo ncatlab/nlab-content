@@ -1,5 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Monoids
-* ten of clubs
+* table of contents
 {:toc}
 
 ## Definitions
@@ -58,6 +74,16 @@ Similarly, a monoid in $(C,\otimes,I)$ may be defined as the [[hom-object]] of a
 
 For more on this see also [[group]].
 
+
+## Properties
+
+### Preservation by lax monoidal functors
+
+Monoid structure is preserved by [[lax monoidal functor]]s. Comonoid structure by [[oplax monoidal functor]]s. See there for more.
+
+### Category of monoids
+
+For special properties of categories of monoids, see [[category of monoids]].
 
 ## Examples
 
