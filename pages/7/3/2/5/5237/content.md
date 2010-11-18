@@ -33,16 +33,11 @@ For $C$ a [[monoidal category]], the **category of [[monoid]]s** $Mon(C)$  in th
 
 If $Assoc$ denotes the [[associative operad]] in $C$, then $Mon(C) = Alg_C Assoc$ is the category of [[algebras over an operad]] for $Assoc$.
 
-
-## Properties
-
-### Free and relative free monoids {#FreeMonoids}
-
 +-- {: .un_lemma}
 ###### Observation
 
 
-Any category of monoids comes with a [[forgetful functor]]
+Every category of monoids comes with a [[forgetful functor]]
 
 $$
   U : Mon(C) \to C
@@ -51,10 +46,34 @@ $$
 
 =--
 
+
+
+## Properties
+
+### General properties
+
++-- {: .un_theorem}
+###### Theorem
+
+Let $C$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]].
+
+Then
+
+1. $U : Mon(C) \to C$ is a finitary [[monadic functor]].
+
+1. If $C$ is a $\lambda$-[[locally presentable category]] then so is $Mon(C)$.
+
+=--
+
+This appears in ([Porst, page 7](#Porst)).
+
+
+### Free and relative free monoids {#FreeMonoids}
+
 +-- {: .un_prop}
 ###### Proposition
 
-Let $C$ be a [[monoidal category]] with [[coproduct]]s. Then the forgetful functor $U$ has a [[left adjoint]] $F_C : C \to Mon(C)$. On an object $X \in C$ the underlying object of $F_C X$ is
+Let $C$ be a [[monoidal category]] with countable [[coproduct]]s that are preserved by the [[tensor product]]. Then the forgetful functor $U$ has a [[left adjoint]] $F_C : C \to Mon(C)$. On an object $X \in C$ the underlying object of $F_C X$ is
 
 $$
   U_C F_C X 
@@ -235,12 +254,38 @@ Finally we need to check the universal property of the cocone $P$ obtained this 
 
 =--
 
+### Structure induced from monoidal functors
+
+If $F : C\to D$ is a [[lax monoidal functor]] then it induces canonically a functor between categories of monoids
+
+$$
+  Mon(F) : Mon(C) \to Mon(D)
+  \,.
+$$
+
+
+
 ### Model structure
 
 If $C$ is a [[monoidal model category]], then $Mon(C)$ may inherit itself the structure of a [[model category]]. See [[model structure on monoids in a monoidal model category]].
 
 
 ## References
+
+A general discussion of categories of monoids in [[symmetric monoidal categories]] is in
+
+* [[Hans Porst]], _On Categories of Monoids, Comonoids and bimonoids_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.4291&rep=rep1&type=pdf))
+{#Porst}
+
+Free monoid constructions are discussed in 
+
+* [[Eduardo Dubuc]], _Free monoids_ Algebra J. 29, 208&#8211;228 (1974)
+
+* [[Max Kelly]], _A unified treatment of transfinite constructions for free algebras, free monoids,colimits, associated sheaves, and so on_ Bull. Austral. Math. Soc. 22(1), 1&#8211;83 (1980)
+
+* [[Stephen Lack]], _Note on the construction of free monoids_ Appl Categor Struct (2010) 18:17&#8211;29 
+
+The detailed discussion of pushouts along free monoid morphisms is in the proof of lemma 6.2 of
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
 {#SchwedeShipley}
