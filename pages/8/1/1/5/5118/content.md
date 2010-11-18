@@ -90,7 +90,7 @@ We discuss how a monoidal Quillen adjunction $(L \dashv R) : C \stackrel{\overse
 
 The [[lax monoidal functor]] $R : C \to D$ induces (as described there) a functor $R : Mon(C) \to Mon(D)$ on monoids (which by slight abuse of notation we denote by the same symbol). While the left adjoint $L$ will not extend to monoids unless $R$ is a [[strong monoidal functor]] there is nevertheless an adjoint $L^{mon}$ to $R : Mon(C) \to Mon(D)$.
 
-As described at [[category of monoids]], if $C$ has [[coproduct]]s, then we have a [[free functor]]/[[forgetful functor]] [[adjunction]]
+As described at [[category of monoids]], if $C$ has countable [[coproduct]]s preserved by the [[tensor product]], then we have a [[free functor]]/[[forgetful functor]] [[adjunction]]
 
 $$
   (F \dashv U) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
@@ -201,9 +201,10 @@ while the adjunct of the top/right composite is that of the diagonal, which is
 $$
   L(X \otimes X) \stackrel{\tilde e}{\to} L X \otimes L X
   \stackrel{f_1 \otimes f_1}{\to} Y \otimes Y \to Y
+  \,.
 $$
 
-which by the definition of $f$ in terms of its components, this is 
+This in turn is by the definition of $f$ in terms of its components equal to
 
 $$
   L(X \otimes X) \stackrel{\tilde e}{\to} L X \otimes L X
@@ -271,6 +272,8 @@ We say a model category structure on $Mon(C)$ is _created_ by $U_C$ if
 * every cofibrant object in $Mon(C)$ is a [[retract]] of a $(F \dashv U)$-[[cell object]].
 
 =--
+
+and we also assume from now on that the model structure on $Mon(C)$ is created by $U_C$.
 
 +-- {: .un_theorem #LiftedQuillenAdjunction}
 ###### Theorem
