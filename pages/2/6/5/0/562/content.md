@@ -115,6 +115,11 @@ is a morphism of fibrations.  There is an alternate characterization in terms of
 
 A **two-sided fibration**, or a **fibration from $B$ to $A$**, is a span $A \leftarrow E \rightarrow B$ such that $E\to A$ is a fibration, $E\to B$ is an opfibration, and the structure "commutes" in a natural way.  Such two-sided fibrations correspond to pseudofunctors $A^{op}\times B \to Cat$.  If they are discrete, they correspond to functors $A^{op}\times B\to Set$, i.e. to [[profunctors]] from $B$ to $A$.
 
+Explicitly, a **two-sided discrete fibration** is a span $p \colon E \to A$, $q \colon E \to B$ such that 
+1. each $a \to pe$ in $A$ has a unique lift in $E$ that has codomain $e$ and is in the fiber over $qe$
+1. each $qe \to b$ in $B$ has a unique lift in $E$ that has domain $e$ and is in the fiber over $pe$
+1. for each $f\colon e \to e'$ in $E$, the codomain of the lift of $qf$ equals the domain of the lift of $pf$ and their composite is $f$.
+
 Note that a pseudofunctor $A^{op}\times B \to Cat$ can also be represented by an opfibration $E_1\to A^{op}\times B$ and by a fibration $E_2\to A\times B^{op}$, but there is no simple relationship between the three categories $E$, $E_1$, and $E_2$.
 
 
