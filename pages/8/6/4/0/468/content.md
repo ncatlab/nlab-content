@@ -1,8 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 The _pushout-product axtiom_ is a compatibility condition between 
 
@@ -16,7 +34,7 @@ on a category.
 
 This is relevant in [[enriched homotopy theory]], which pairs [[enriched category theory]] with [[homotopy theory]].
 
-#Definition#
+## Definition
 
 Let $C$ be a [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal category]] equipped with a [[model category]] structure. 
 
@@ -38,10 +56,13 @@ $$
 
 is a [[Quillen bifunctor]].
 
-#Remarks#
+## Remarks
 
 * This implies in particular that tensoring with cofibrant objects preserves cofibrations and acyclic cofibrations.
 
 * However the tensor product of two (acyclic) cofibrations is in general not an (acyclic) cofibration.
 
 * The pushout-product axiom makes sense more generally in the context of a [[two-variable adjunction]] between model categories.  This is important in [[enriched homotopy theory]].
+
+
+[[!redirects pushout product axiom]]
