@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -47,7 +46,7 @@ $A_\infty$-categories in this linear sense are a [[horizontal categorification]]
 
 A category $C$ such that
 
-1. for all $X,Y$ in $Ob(C)$ the [[hom-set|Hom-set]]s $Hom_C(X,Y)$ are finite dimensional [[chain complex]]es of $\matbf{Z}$-graded modules
+1. for all $X,Y$ in $Ob(C)$ the [[hom-set|Hom-set]]s $Hom_C(X,Y)$ are finite dimensional [[chain complex]]es of $\mathbf{Z}$-graded modules
 
 2. for all objects $X_1,...,X_n$ in $Ob(C)$ there is a family of linear composition maps (the higher compositions)
 $m_n : Hom_C(X_0,X_1) \otimes Hom_C(X_1,X_2) \otimes \cdots \otimes Hom_C(X_{n-1},X_n) \to Hom_C(X_0,X_n)$ of degree $n-2$ (homological grading convention is used) for $n\geq1$
