@@ -18,7 +18,7 @@
 * tic
 {:toc}
 
-#Idea#
+## Idea
 
 In [[category theory]] a limit of a [[diagram]] $F : D \to C$ in a [[category]] $C$ is an [[object]] $lim F$ of $C$ equipped with morphisms to the objects $F(d)$ for all $d \in D$, such that everything in sight commutes. Moreover, the limit $lim F$ is the _universal_ object with this property, i.e. the "most optimized solution" to the problem of finding such an object.
 
@@ -29,7 +29,7 @@ Often, the general theory of limits (but not colimits!) works better if the sour
 
 In some cases the category-theoretic notion of limit does reproduce notions of limit as known from analysis. See the examples below.
 
-## Global versus local ##
+### Global versus local 
 
 In correspondence to the _local_ defintion of [[adjoint functor]]s (as discussed there), there is a _local_ definition of limits (in terms of cones), that defines a limit (if it exists) for each individual diagram, and there is a _global_ definition, which defines the limit for _all_ diagrams (in terms of an [[adjoint functor|adjoint]]).
 
@@ -38,7 +38,7 @@ If all limits over the given shape of diagrams exist in a category, then both de
 See also the analogous discussion at [[homotopy limit]].
 
 
-# Terminology and notation #
+## Terminology and notation 
 
 A limit is taken over a [[functor]] $F : D^{op} \to C$ and since the functor comes equipped with the information about what its domain is, one can just write $\lim F$ for its limit. But often it is helpful to indicate how the functor is evaluated on objects, in which case the limit is written $\lim_{d \in D} F(d)$; this is used particularly when $F$ is given by a formula (as with other notation with bound variables.)
 
@@ -48,7 +48,7 @@ Correspondingly, the symbols $\underset{\leftarrow}lim$ and $\underset{\rightarr
 
 Confusingly, many authors restrict the meanings of these alternative terms to (co)limits whose sources are [[direction|directed set]]s; see [[directed limit]].  In fact, this is the original meaning; projective and inductive limits in this sense were studied in algebra before the general category-theoretic notion of (co)limit.
 
-# Local definition in terms of representable functors #
+## Local definition in terms of representable functors 
 
 There is a general abstract definition of limits
 in terms of representable functors, which we 
@@ -58,7 +58,7 @@ universal cones, which is described further below.
 
 Let in the following $D$ be a [[small category]] and [[Set]] the category of sets (possibly realized as the category $U Set$ of $U$-small sets with respect to a given [[Grothendieck universe]].) 
 
-## Limit of a Set-valued functors ##
+### Limit of a Set-valued functors 
 
 The **limit of a Set-valued functor** $F : D^{op} \to Set$ is the [[hom-set]] 
 $$
@@ -110,7 +110,7 @@ $$
 where $Hom(S, F(-)) : D^{op} \to Set$.
 
 
-## Limit of a functor with values in an arbitrary category ##
+### Limit of a functor with values in an arbitrary category 
 
 The above formula generalizes straightforwardly to
 a notion of limit for 
@@ -163,7 +163,7 @@ $$
   \,.
 $$
 
-## Generalization to weighted limits ##
+### Generalization to weighted limits 
 
 In the above formulation, there is an evident
 generalization to [[weighted limit]]s:
@@ -202,7 +202,7 @@ $$
 
 naturally in $c \in C$.
 
-## Relation to continuous functors ##
+### Relation to continuous functors 
 
 The very definition of limit as above asserts
 that the covariant [[hom-functor]] 
@@ -213,13 +213,13 @@ to saying that the [[hom-functor]] is a
 [[continuous functor]].
 
 
-# Definition in terms of universal cones #
+## Definition in terms of universal cones 
 
 Unwrapping the above abstract definition of limits
 yields the following more hands-on description  in terms
 of universal cones.
 
-## Unwrapping ##
+### Unwrapping 
 
 Let $F : D^{op} \to C$ be a functor.
 
@@ -325,7 +325,8 @@ $$
 $$
 An illustrative example is the following: a limit of the [[identity functor]] $Id_c:C\to C$ is, if it exists, an [[initial object]] of $C$.
 
-# Global Definition in terms of adjoint of the constant diagram functor #
+
+## Global Definition in terms of adjoint of the constant diagram functor 
 
 Given categories $D$ and $C$, limits over functors $D^{op} \to C$ may exist for some functors, but not for all. If it does exist for all functors, then the above _local definition_ of limits is equivalent to the following _global definition_.
 
@@ -354,14 +355,10 @@ $$
   \,.
 $$
 
-Compare this with the discussion at [[Kan extension]].
-
-
-## Relation to Kan extension ##
 
 From this perspective, a limit is a special case of a [[Kan extension]], as described there, namely a Kan extension to the [[point]].
 
-# Generalizations #
+## Generalizations 
 
 The notion of limit, being fundamental to category theory, generalizes to many other situations.  Examples include the following.
 
@@ -372,7 +369,7 @@ The notion of limit, being fundamental to category theory, generalizes to many o
 * One expects that similarly, all sorts of [[higher categories]] have their own appropriate notions of limit and colimit.  
 
 
-#Examples#
+## Examples
 
 * For a pedagogical list of examples see [[limits and colimits by example]].
 
@@ -385,7 +382,9 @@ Here are some important examples of limits, classified by the shape of the [[dia
 * A limit over a [[finite category]] is a [[finite limit]].
 * Another important "shape" of limits are those that give rise to [[end]]s.
 
-# Computation of limits #
+## Properties
+
+### Existence
 
 Frequently some limits can be computed in terms of other limits.  This makes things easier since we only have to assume that categories have, or functors preserve, some easier-to-verify class of limits in order to obtain results about a larger one.
 
@@ -414,18 +413,7 @@ Conversely, if both of these products exist and so does the equalizer of this pa
 
 Another example is that all [[finite limits]] can be computed in terms of [[pullbacks]] and a [[terminal object]].
 
-
-#Properties#
-
-+-- {: .un_prop}
-###### Limits in Set are hom-sets
-
-For $F : D^{op} \to Set$ any functor and $const_{*} : D^{op} \to Set$ the functor constant on the [[point]], the limit of $F$ is the [[hom-set]]
-$$
-  lim F \simeq [D^{op}, Set](const_{*}, F)
-$$
-in the [[functor category]], i.e. the set of [[natural transformation]]s from the constant functor into $F$.
-=--
+### Interaction with $Hom$-functor
 
 +-- {: .un_prop}
 ###### Covariant Hom commutes with limits
@@ -441,6 +429,22 @@ $$
 Depending on how one introduces limits this holds by definition or is an easy consequence.
 
 
+
+
+### In $Set$
+
++-- {: .un_prop}
+###### Limits in Set are hom-sets
+
+For $F : D^{op} \to Set$ any functor and $const_{*} : D^{op} \to Set$ the functor constant on the [[point]], the limit of $F$ is the [[hom-set]]
+$$
+  lim F \simeq [D^{op}, Set](const_{*}, F)
+$$
+in the [[functor category]], i.e. the set of [[natural transformation]]s from the constant functor into $F$.
+=--
+
+### In functor categories
+
 +-- {: .un_prop}
 ###### Proposition -- limits in functor categories are computed pointwise
 
@@ -448,6 +452,8 @@ Let $D$ be a small category and let $D'$ be any category. Let $C$ be a category 
 * $[D',C]$ admits $D$-shaped limits;
 * these limits are computed objectwise ("pointwise") in $C$:  for $F : D^{op} \to [D',C]$ a functor we have for all $d' \in D'$ that $(lim F)(d') \simeq lim (F(-)(d'))$. Here the limit on the right is in $C$.
 =--
+
+### Compatibility with adjoints
 
 +-- {: .un_prop}
 ###### Proposition -- right adjoints commute with limits
@@ -483,6 +489,10 @@ $$
 Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniquenes of representing objects implies that $R (lim F) \simeq lim (G \circ F)$.
 =--
 
+### Commutativity with limits and colimits
+
+
+
 +-- {: .un_prop}
 ###### Proposition -- small limits commute with small limits
 
@@ -507,9 +517,10 @@ This follows from the above proposition and the characterization of the limit as
 
 See [[limits and colimits by example]] for what this formula says for instance for the special case $C =$ [[Set]].
 
-## Commutativity of limits with colimits ##
-
 In general limits do not commute with colimits. But under a number of special conditions of interest they do. More on that at [[commutativity of limits and colimits]].
+
+
+
 
 
 [[!redirects limits]]
