@@ -301,10 +301,7 @@ between the transferred model structures on monoids.
 
 =--
 
-This is theorem 3.12 in ([SchwedeShipley](#SchwedeShipley)). Its proof uses the following technical lemmas
-
-+-- {: .un_lemma #OneTechnicalLemma}
-###### Lemma
+This is theorem 3.12 in ([SchwedeShipley](#SchwedeShipley)). Its proof uses the following technical lemmas.
 
 Let $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ be a monoidal Quillen adjunction between monoidal model categories with cofibrant unit objects.
 
@@ -316,7 +313,74 @@ $$
   Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)
 $$
 
-described above exists (just as an adjunction, not yet assumed to be a Quillen adjunction). Then for every monoid $B \in Mon(D)$ which is an $(L^\mon \dashv R)$-[[cell object]], the [[adjunct]]
+described above exists (just as an adjunction, not yet assumed to be a Quillen adjunction).
+
++-- {: .un_lemma #VeryFirstTechnicalLemma}
+###### Lemma
+
+The morphism
+
+$$
+  L^{mon} I_D \to I_C
+$$
+
+induced by the oplax counit $\tilde e : L I_D \to I_C$ of the oplax monoidal functor is an [[isomorphism]] of monoids.
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+We have that $I_D$ and $I_C$ are the [[initial object]]s in $Mon(D)$ and $Mon(C)$, respectively.  Because $L^{mon}$ is [[left adjoint]], it preserves these initial objects, so that there is _some_ isomorphism as claimed. It is hence sufficient to show that the oplax counit induces a morphism of monoids at all, by  the universal property of the initial object it will be an isomorphism.
+
+It is clear that
+
+$$
+  \coprod_n \mu^n {\tilde e}^{\otimes n} : F L I_D \to I_C
+$$
+
+is a morphism of monoids, because
+
+$$
+  \array{
+    (L I)^{\otimes k} \otimes (L I)^{\otimes (n-k)}
+    &\stackrel{\mu_I^k {\tilde e}^{\otimes k} \otimes \mu_I^{n-k}{\tilde e}^{\otimes (n-k)}}{\to}&
+    I \otimes I
+    \\
+    \downarrow && \downarrow
+    \\
+    (L I)^{\otimes n}
+    &\stackrel{\mu^n_I {\tilde e}^{n}}{\to}& I
+  }
+$$
+
+commutes. So we have to show that this morphism
+coequalizes the two morphisms in the definition  of $L^{mon} I_D$.
+By the same argument as in the [above proof](#AdjunctionOnMonoids) this is equivalent to showing that 
+
+$$
+  \array{
+    I_C \otimes I_C &\stackrel{e \otimes e}{\to}& 
+    R I_C \otimes R I_C
+    \\
+    \downarrow && \downarrow
+    \\
+    && R (I_C \otimes I_C)
+    \\
+    \downarrow && \downarrow
+    \\
+    I_C &\stackrel{e}{\to}& R I_C
+  }
+$$
+
+commutes. This follows from the unitality of the [[lax monoidal functor]] $R$.
+
+=--
+
++-- {: .un_lemma #OneTechnicalLemma}
+###### Lemma
+
+For every monoid $B \in Mon(D)$ which is an $(L^\mon \dashv R)$-[[cell object]], the $(L \dashv R)$-[[adjunct]]
 
 $$
  \chi_B :  L B \to L^{mon} B
@@ -331,15 +395,69 @@ This is proposition 5.1 in ([SchwedeShipley](#SchwedeShipley)).
 +-- {: .proof}
 ###### Proof 
 
-We first show this for $B = I_D$ the tensor unit in $D$, which in $Mon(D)$ is the [[initial object]]s. Since $L^{mon}$ is a [[left adjoint]] it sends this initial object to he initial object in $Mon(D)$, $L^{mon} : I_D \mapsto I_C$. One checks 
-  
-(...) 
+We first show this for $B = I_D$ the tensor unit in $D$, which in $Mon(D)$ is the [[initial object]]s:
 
-that the [[unit of an adjunction|adjunction unit]] $I_C \to R L^{mon} I_D \stackrel{\simeq}{\to} R(I_C)$ is the lax monoidal unit. Therefore by the axioms on monoidal Quillen adjunctions its adjunct $\chi_I$ is a weak equivalence.
+* We claim hat the [[unit of an adjunction|adjunction unit]] $I_C \to R L^{mon} I_D \stackrel{\simeq}{\to} R(I_C)$ is the lax monoidal unit $e$ of $R$. 
 
-Now the strategy is to proceed from here by induction over the cells of the [[cell object]] of which every cofibrant monoid is, by assumption, a retract.
+  To see this, use that by the [previous lemma](#VeryFirstTechnicalLemma) the $(L \dashv R)$-[[adjunct]] of $I \to R L^{mon} I \to R I$ is $L I \to L^{mon} I \stackrel{\coprod_n \mu^n {\tilde e}^{\otimes n}}{\to} I$. Here the first morphism factors through the single power of $L I$, hence this is indeed $\tilde e : L I_D \to I_C$.
+
+  Therefore by the axioms on monoidal Quillen adjunctions the
+$(L \dashv R)$-adjunct $\chi_I$ is a weak equivalence.
+
+We now proceed from this by induction over the cells of the [[cell object]] $B$.
+
+So assume now that we have already shown that on some cell object $B$ the morphism $\chi_B$ is a weak equivalence. We want to deduce then that that after forming a new monoid $P$ by cell attachment, i.e. by a pushout
+
+$$
+  \array{
+    F K &\to& F'
+    \\
+    \downarrow && \downarrow 
+    \\
+    B &\to& P
+  }
+$$
+
+for $K \to K'$ a cofibration in $D$, also $\chi_P : L P \to L^{mon} P $ is a weak equivalence.
+
+* We claim that $B$ is cofibrant and that we can without restriction assume $K$ and $K'$ to be cofibrant in $D$.
+
+  The first statement follows from an inductive application of [SchwedeShipleyAlgebras, lemma 6.2](#SchwedeShipleyAlgebras). For the second statement notice that since $F$ is left adjoint and preserves pushouts in $D$, we have that $P$ is also the pushout of the diagram
+
+  $$
+    \left(
+    \array{
+      F B &\to& F( B \coprod_K K' )
+      \\
+      \downarrow && \downarrow 
+      \\
+      B &\to& P
+    }
+    \right)
+    =
+    \left(  
+       \array{
+          && F K &\to& F K' 
+          \\
+          && \downarrow && \downarrow
+          \\
+          F B &\to& F B
+          \\
+          \downarrow &&&& \downarrow
+          \\
+          B && \to && P
+       }
+    \right)
+    \,.
+  $$
+
+  Since cofibrations are preserved under pushout, it follows that also $B \coprod_K K'$ is cofibrant if $K \to K'$ is a cofibration. So $B \to B \coprod_K K'$ can be used in place of $K \to K'$.
+
+Now
 
 (...)
+
+(quite a bit still to be filled in)
 
 =--
 
