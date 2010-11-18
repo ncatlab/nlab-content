@@ -90,10 +90,16 @@ preserves and reflects fibrations and weak equivalences.
 See for instance ([BergerMoerdijk 2.5](#BergerMoerdijkResolution)).
 
 
+### Model structure on monoids
+
+See [[model structure on monoids in a monoidal model category]].
+
 
 ## Related concepts
 
 * [[monoidal Quillen adjunction]]
+
+* [[model structure on monoids in a monoidal model category]]
 
 ## References 
 
