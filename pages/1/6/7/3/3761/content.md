@@ -1,7 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-</div>
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents
@@ -36,6 +46,15 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 
 * [[Mike Shulman]], _Constructing symmetric monoidal bicategories_ ([arXiv:1004.0993](http://arxiv.org/abs/1004.0993))
 
+## Related concepts
+
+* [[monoidal category]]
+
+* **monoidal bicategory**
+
+* [[monoidal (∞,1)-category]]
+
+
 ## References
 
 Slightly different definitions of these various structures can be found in the following sequence of papers:
@@ -51,6 +70,7 @@ Slightly different definitions of these various structures can be found in the f
 * [[Paddy McCrudden|McCrudden]], in "Balanced coalgebroids," defined braided and sylleptic monoidal *bicategories* (not Gray monoids).
 
 * [[Chris Schommer-Pries]], in his [Ph. D. thesis](http://sites.google.com/site/chrisschommerpriesmath/Home/Schommer-Pries-Thesis.pdf), gave the full definition of braided, sylleptic, and symmetric monoidal bicategories and also assembled them into a [[tricategory]].
+
 
 [[!redirects Gray monoid]]
 [[!redirects Gray-monoid]]
