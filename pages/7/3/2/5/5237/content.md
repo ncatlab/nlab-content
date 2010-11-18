@@ -139,7 +139,7 @@ $$
 by setting on subsets $S \subset \mathbf{n}$
 
 $$
-  K_S := X \otimes V_1 \otimes X \otimes V_2 \otimes  \cdots \otimes V_n 
+  K_S := X \otimes V_1 \otimes X \otimes V_2 \otimes  \cdots \otimes V_n \otimes X
 $$
 
 where
@@ -181,6 +181,36 @@ $$
   \,.
 $$
 
+This gives the underlying object of the monoid $P$. Take the monoid structure on it as follows. The unit of $P$ is the composite
+
+$$
+ e_P : I_C \stackrel{e_X}{\to} X \to P
+$$
+
+with the unit of $X$. The product we take to be the image in the colimit of compatible morphisms $P_k \otimes P_k \to P_{k + l}$ defined by induction on $lk + l$ as follows. we observe that we have a pushout diagram
+
+$$
+  \array{
+     Q_k \otimes (X \otimes L)^{\otimes l}
+    \coprod_{Q_k \otimes Q_l}
+    (X \otimes L)^{\otimes l} \otimes X \otimes Q_l
+    &\to&
+    (X \otimes L)^{\otimes k} \otimes X \otimes (X \otimes L)^{\otimes l} \otimes X
+    \\
+    \downarrow && \downarrow
+    \\
+    P_{k-1} \otimes P_l \coprod_{P_{k-1} \otimes P_{l-1}}
+    P_k \otimes P_{l-1}
+    &\to&
+    P_k \otimes P_l
+  }
+  \,,
+$$
+
+where $Q_n := (\lim_{\to} K)_n$ is the colimit as in the above at stage $n$.
+
+There is a morphism from the bottom left object to $P_{k+l}$ given by the induction assumption. Moreover we have a morphism from the top right object to $P_{k+1}$ obtained by first multiplying the two adjacent factors of $X$ and then applying the morphism $(X \otimes L)^{\otimes k+l} \otimes X \to P_{k+l}$.
+These are compatible and hence give the desired morphism $P_k \otimes P_k \to P_{k+l}$.
 
 
 =--
@@ -190,18 +220,11 @@ This construction is spelled out for instance in the proof of [SchwedeShipley, l
 +-- {: .proof}
 ###### Proof 
 
-First we need to discuss that this definition is actually consistent, in that the morphism $\lim_\to K^- \to P_{n-1}$ is well defined.
+First we need to discuss that this definition is actually consistent, in that the morphism $\lim_\to K^- \to P_{n-1}$ is well defined and the monoid structure on $P$ is well defined.
 
 (...)
 
-
-We now equip $P$ with the following structure of a monoid in $C$:
-
-(...)
-
-We claim that this makes $X \to P$ indeed a morphism of monoids:
-
-(...)
+That $X \to P$ is a morphism of monoids follows then essentially by the definition of the monoid structure on $P$.
 
 Finally we need to check the universal property of the cocone $P$ obtained this way:
 
