@@ -55,7 +55,7 @@ $$
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $C$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]].
+Let $C$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]] with countable [[coproducts]].
 
 Then
 
