@@ -10,7 +10,7 @@ Our system will have $n$ deterministic sequential processes $Q_1, \ldots, Q_n$ E
 
 There is a natural way to understand the possible behaviours of the concurrent execution of these processes. We associate to each process a different coordinate  direction in the topological space, $\mathbb{R}^n$. The state of the system correponds to a point in $\mathbb{R}^n$ whose $i^{th}$ coordinate describes the state or  'local time' of the  $i^{th}$ process.
 
-(To be continued... with a PICTURE!)
+(To be continued... with a PICTURE! Here is the picture.)
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
