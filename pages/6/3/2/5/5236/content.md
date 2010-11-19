@@ -10,7 +10,11 @@ Our system will have $n$ deterministic sequential processes $Q_1, \ldots, Q_n$ E
 
 There is a natural way to understand the possible behaviours of the concurrent execution of these processes. We associate to each process a different coordinate  direction in the topological space, $\mathbb{R}^n$. The state of the system correponds to a point in $\mathbb{R}^n$ whose $i^{th}$ coordinate describes the state or  'local time' of the  $i^{th}$ process.
 
-(To be continued... with a PICTURE! Here is the picture.)
+We assume that each process starts at (local time) 0 and finishes at (local time) 1; the $P$ and $V$ actions correspond to seuences of real numbers between 0 and 1, which reflect the order of the $P$s and $V$s.  The initial state is $(0,\ldots,0)$ and the final state $(1,\ldots, 1)$.
+
+To look at a particular example more closely, we suppose $n = 2$ and the two processes look like $T_1= P a.P b.V b.V a$ and $T_2 = P b.P a.V a.V b$.  This gives rise to the two dimensional progress graph below:
+
+
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -102,6 +106,7 @@ There is a natural way to understand the possible behaviours of the concurrent e
   </g>
 </svg>
 
+(To be continued.)
 
 ##References##
 
