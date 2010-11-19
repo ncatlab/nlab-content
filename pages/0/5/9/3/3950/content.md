@@ -146,7 +146,7 @@ Therefore, in an equippable 2-category, we can define the composite of codiscret
 
 +-- {: .un_prop}
 ###### Proposition
-If $K$ is equippable, there is a 2-category $CodCofib(K)$, with the same objects as $K$, and with codiscrete cofibrations as 1-morphisms.  Moreover, there is a locally fully faithful identity-on-objects (pseudo) 2-functor $(-)_* K\to CdCofib(K)$ such that each 1-morphism $f_*$ has a right adjoint.  Therefore, $K$ is canonically a [[2-category equipped with proarrows]] (hence the term "equippable").
+If $K$ is equippable, there is a 2-category $CodCofib(K)$, with the same objects as $K$, and with codiscrete cofibrations as 1-morphisms.  Moreover, there is a locally fully faithful identity-on-objects (pseudo) 2-functor $(-)_* K\to CodCofib(K)$ such that each 1-morphism $f_*$ has a right adjoint.  Therefore, $K$ is canonically a [[2-category equipped with proarrows]] (hence the term "equippable").
 =--
 +-- {: .proof}
 ###### Proof
