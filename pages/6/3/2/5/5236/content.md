@@ -106,10 +106,56 @@ To look at a particular example more closely, we suppose $n = 2$ and the two pro
   </g>
 </svg>
 
+The shaded area in the picture represents those states that correspond to 'mutual exclusion'. Suppose we look at a state $(x,y)$ with $Pb\lt x\lt Vb$, but $Pb\lt y\lt Vb$.  In such a state, both $T_1$ and $T_2$ have acquired $b$ and not yet relinquished it, which is impossible since $b$ can only be viewed by at most on process at any time.  Such states are in the **forbidden region**.
+
+##Formalising $PV$-programs##
+The PV language was introduced in 1968 by [[E. W. Dijkstra]] as an example 
+of a toy language allowing concurrent execution of sequential processes . 
+The PV language offers only two instructions called ${P}$ and ${V}$ as abbreviations for the Dutch terms _Prolaag_, short for _probeer te verlagen_, literally "try to reduce,"  and _Verhogen_ ("increase"). The effectively refer 
+
+Let $S$ be a set whose elements 
+are called the _semaphores_. Each semaphore _s_ is associated with an _arity_ that 
+is an integer $\alpha_s\geq 2$. We suppose that for each integer $\alpha  \geq 2$, there exist 
+infinitely many semaphores whose arity is $\alpha$. The only instructions are ${P}(s)$ 
+and ${V}(s)$, where $s$ is some semaphore. The terms, $P$, of the language, called _processes_, are the 
+finite sequences of instructions. When $\mathbb{P}$ is a process and $j$, an integer less or 
+equal to the length of $\mathbb{P}$, we denote by $\mathbb{P}(j )$ the $j^{th}$ instruction of the process, 
+in particular $\mathbb{P}(1)$ is the first instruction. 
+
+We will separate the instructions of a process by a dot, mostly in order to make 
+them easier to read. For example we have the processes 
+
+$${P}(a).{V}(a)$$ 
+
+$$P(a).P(b).V(a).V(b)$$
+ as we discussed more informally earlier. 
+
+
+
+##Formalising $PV$-programs and their semantics##
+
++--{: .un_defn}
+######Definition######
+A **PV program** is a finite sequence of processes separated by the operator 
+$\mid$, which should be read _run concurrently with_.
+=--
+
+
+For instance,  ${P}(a).{V}(a) | {P}(a).{V}(a) $
+is an example of a PV program made of two copies of a process, whilst 
+$${P}(a).{P}(b).{V}(a).{V}(b) | {P}(b).{P}(a).{V}(b).{V}(a)$$ 
+is an example made of two distinct processes. 
+
 (To be continued.)
 
 ##References##
 
-(This entry is adapted from the treatment of the idea in the following paper:)
+This entry is partially adapted from the treatment of the idea in the following paper:)
 
  *  [[Eric Goubault]], [[Some geometric perspectives in concurrency theory]], 
+
+
+and from 
+
+
+* [[Emmanuel Haucourt]], [Concurrency and Directed Algebraic Topology](http://www.lix.polytechnique.fr/Labo/Emmanuel.Haucourt/uploads/lectures-cdat.pdf), Notes &#201;cole Polytechique, Jan.  2010.
