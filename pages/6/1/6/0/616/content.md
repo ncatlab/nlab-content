@@ -16,11 +16,11 @@ Categorical aspects are looked at in
 
 The fundamental category of a pospace is discussed in
 
-* Lisbeth Fajstrup, [[Eric Goubault]], Emmanuel Haucourt, and  Martin Raussen. Components of the fundamental category. Appl.Cat. Struct. Vol. 12, pp.81-108, 2004
+* [[Lisbeth Fajstrup]], [[Eric Goubault]], [[Emmanuel Haucourt]], and  [[Martin Raussen]], Components of the fundamental category. Appl.Cat. Struct. Vol. 12, pp.81-108, 2004
 
 and the possibility of an analogue of covering spaces in
 
-* Lisbeth Fajstrup,  Dicovering spaces. Algebraic topological methods in computer science (Stanford, CA, 2001). Homology Homotopy Appl. 5 (2003), no. 2, 1-17 
+* [[Lisbeth Fajstrup]],  Dicovering spaces. Algebraic topological methods in computer science (Stanford, CA, 2001). Homology Homotopy Appl. 5 (2003), no. 2, 1-17 
 ([HHA](http://www.intlpress.com/HHA/v5/n2/))
 
 
@@ -71,18 +71,18 @@ IBFI, Schloss Dagstuhl, Germany, 2005.
 * L. Fajstrup, Dipaths and dihomotopies in a cubical complex, Adv. in Appl.
 Math. 35 (2) (2005) 188&#8211;206.
 
-* M. Raussen, Deadlocks and dihomotopy in mutual exclusion models, in: R. Kopperman, M. B. Smyth, D. Spreen, J. Webster (Eds.), Spatial
+* [[M. Raussen]], Deadlocks and dihomotopy in mutual exclusion models, in: R. Kopperman, M. B. Smyth, D. Spreen, J. Webster (Eds.), Spatial
 Representation: Discrete vs. Continuous Computational Models, no. 04351 in
 Dagstuhl Seminar Proceedings, IBFI, Schloss Dagstuhl, Germany, 2005.
 
-* U. Fahrenberg, M. Raussen, Reparametrizations of continuous paths, available
+* U. Fahrenberg, [[M. Raussen]], Reparametrizations of continuous paths, available
 as [preprint R-2006-22](http://www.math.aau.dk/research/reports/2006.htm)  (2006).
 
 
-* E. Goubault, E. Haucourt, Directed algebraic topology and concurrency, ([web](http://iml.univ-mrs.fr/lafont/Geocal/goubault2.pdf))
+* [[E. Goubault]], [[E. Haucourt]], Directed algebraic topology and concurrency, ([web](http://iml.univ-mrs.fr/lafont/Geocal/goubault2.pdf))
 (2006).23
 
-* E. Goubault, E. Haucourt, Components of the fundamental category, II,
+* [[E. Goubault]], [[Emmanuel Haucourt|E. Haucourt]], Components of the fundamental category, II,
 technical reports, CEA, Saclay (2006).
 
 * M. Raussen, Invariants of directed spaces, available as preprint R-2006-28 ([web](http://bib.mathematics.dk/preprint.php?id=DMF-2006-08-002 ))(2006).
