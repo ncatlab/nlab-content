@@ -118,11 +118,12 @@ Conversely, every choice for $f_1$ extends to a morphism $f$ in $Mon(C)$ this wa
 =--
 
 
-+-- {: .un_remark}
-###### Remark/Example
++-- {: .un_example}
+###### Examples
 
-Free algebras of the form $F(A)$ are called **[[tensor algebra]]**s, at lest for $C = $ [[Vect]] and similar.
+Free algebras of the form $F(A)$ are called **[[tensor algebra]]**s, at least for $C = $ [[Vect]] and similar.
 
+The elements of the free algebra $F(A)$ are somtimes called [[lists]], at least for $C = $ [[Set]] and similar.
 =--
 
 
