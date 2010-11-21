@@ -19,7 +19,7 @@ ${\vdash}_\Lambda \phi $ means $\phi \in \Lambda$.)
  The elements of $\mathfrak{A}^\Lambda_\omega$ are the equivalence 
 classes:
   
-$$||\phi|| = \{\psi \mid \vdash_\Lambda \phi\leftrightarrow \psi\},$$
+$${\left\|\phi\right\|} = \{\psi \mid \vdash_\Lambda \phi\leftrightarrow \psi\},$$
  
 with the operations 
 
