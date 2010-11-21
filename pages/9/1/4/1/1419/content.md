@@ -2,3 +2,5 @@
 
 
 category: people
+
+[[!redirects E. Goubault]]
