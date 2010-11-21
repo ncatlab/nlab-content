@@ -96,39 +96,30 @@ In other words, a circle with direction determined by the anticlockwise sense. A
 
 So far there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by  [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. 
 
-Note that a directed space is generalised space; not every directed space need be a space in the traditional sense, in accordance with the [[red herring principle]].
+Note that a directed space is like a generalised space; not every directed space need be a space in the traditional sense, in accordance with the [[red herring principle]]. As an instance of this, note that [[Marco Grandis]] in his book [[Directed Algebraic Topology]] handles the directed homotopy of small categories, and of cubical complexes, since this is useful for comparison an interpretation of directed homotopy 'invariants'.
 
 Directed spaces are studied in [[directed homotopy theory]], a relatively young topic. In generalization of how a [[topological space]] has a [[fundamental groupoid]], a [[directed space]] has a [[fundamental category]].
 
-+--{.query}
-[[Tim Porter|Tim]]: Originally **directed space** was used to indicate a space together with a closed direceted partial order on it. If the space is nice enough then there are directed paths which cannot be traversed in both directions. It may be worth giving that definition as then the difference between directed and undirected homotopies between paths could be addressed. 
-
-The notions of [[fundamental category]] and many of the applications of these notions by workers in directed homotopy theory have used the above definition at some point and  Marco's *d-space* is motivated by that. 
-
-[[Urs Schreiber|Urs]]: thanks, I wasn't aware of that. Could you provide a reference? Or the detailed original definition itself?
-
-_Toby_: While we await Tim\'s reply, I expect that he simply means a [[pospace]] such that the partial order is a [[direction]].
-
-By the way, if there are different notions of directed space, then we can move the one below to [[d-space]].
-=--
 
 
 
 ### Homotopy-theoretic perspective
 
-From a [[homotopy theory|homotopy theoretic]] perspective one would wish that notions of directed spaces serve to generalize the [[homotopy hypothesis]] -- which identifies ordinary (undirected) [[topological space]]s with [[∞-groupoid]]s, i.e. with [[(∞,0)-category|(∞,0)-categories]] -- to a more general context where [[(∞,0)-category|(∞,0)-categories]] are generalized to [[(∞,n)-category|(∞,r)-categories]] with $r \gt 0$: 
+From a [[homotopy theory|homotopy theoretic]] perspective one would wish that notions of directed spaces might serve to generalize the [[homotopy hypothesis]] -- which identifies ordinary (undirected) [[topological space]]s with [[∞-groupoid]]s, i.e., with [[(∞,0)-category|(∞,0)-categories]] -- to a more general context where [[(∞,0)-category|(∞,0)-categories]] are generalized to [[(∞,n)-category|(∞,r)-categories]] with $r \gt 0$: 
 
-an [[(∞,r)-category]] in this context should correspond to a **$r$-directed topological space** , one that comes equipped with a notion of orientation of its $k$-cells for $0 \leq k \leq r$.
+An [[(∞,r)-category]] in this context might correspond to a **$r$-directed topological space** , one that comes equipped with a notion of orientation of its $k$-cells for $0 \leq k \leq r$, but was impartial on direction above that dimension.
 
-If such a definition exists, it will probably need to use [[filtered topological space]]s instead of bare topological spaces.
+If such a definition exists, it may need to use [[filtered topological space]]s instead of bare topological spaces.
 
-Even in the absence of a homotopy-theoretic definition of $r$-directed space in this sense, from the perspective of [[homotopy theory]] one might take the standpoint of the [[homotopy hypothesis]] and _define_ a (nice) $r$-diected space to be an [[(∞,n)-category|(∞,r)-category]], just as it makes good sense and is nowadays common practice in [[algebraic topology]] to _define_ a nice [[topological space]] to be an [[∞-groupoid]].
+Even in the absence of a homotopy-theoretic definition of $r$-directed space in this sense, from the perspective of [[homotopy theory]] one might take the standpoint of the [[homotopy hypothesis]] and _define_ a (nice) $r$-directed space to be an [[(∞,n)-category|(∞,r)-category]], just as it makes good sense and is nowadays common practice in [[algebraic topology]] to _define_ a nice [[topological space]] to be an [[∞-groupoid]].
 
 See [[(n,r)-category]] for more on that.
 
 +--{.query}
 
 [[Urs Schreiber]]: I haven't looked at Marco Grandis' book yet: does it say anything about the homotopy hypothesis in the context of the definition of directed space used there?
+
+[[Tim Porter]]: No.
 
 =--
 
@@ -168,6 +159,8 @@ _Toby_: I don\'t think that you need internal homs and all that.  But see my edi
 
 [[Urs Schreiber|Urs]]: I think we need directed homotopies to check if a "constructed" directed space is actually a directed object in the original definition: that original definition asks us to check if the internal hom $[I,X]$ is weakly equivalent to $X$. Well, I made up this definition because I think it is the right abstraction, but there is room of course to debate this. But if we accept it then we should try to define the internal hom of Grandis' directed spaces. There is an obvious solution which one should check the details of: namely a directed topological space should be one which singles out not only subsets of $hom(I,X)$ but subsets of $hom(I^{\times n}, X)$ for all $n$, closed under the obvious reparameterization and gluing. This would induce an obvious notion of directed homotopies and should induce in an obvious way an internal hom for directed topological spaces. I'd think. But I don't feel like investing much time into finalizing this idea right now...
 
+[[Tim Porter]]: As I have now looked at Marco's book, there are results on exponentiable d-spaces.(p.59).  I can give details if anyone is still interested.
+
 =--
 
 
@@ -179,7 +172,7 @@ The above definition is from
 
 This has now developed into a book
 
-* [[Marco Grandis]], _[[Directed Algebraic Topology]], Models of non-reversible worlds_ , Cambridge University Press
+* [[Marco Grandis]], _[[Directed Algebraic Topology]], Models of non-reversible worlds_ , Cambridge University Press, 2009.
 
 
 A discussion of reparameterization of directed paths in directed topological spaces is in
