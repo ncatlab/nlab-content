@@ -11,3 +11,6 @@ Selected publications include
 * J.-M. Cordier, _Homologie de Steenrod-Sitnikov et limite homotopique alg&#232;brique_, manuscripta math 59 (1987) 35-52.
 
 together with several joint with [[Dominique Bourn]] and [[Tim Porter]]. 
+
+
+category: people
