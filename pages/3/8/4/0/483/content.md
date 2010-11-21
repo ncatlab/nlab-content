@@ -6,26 +6,97 @@
 
 ## Idea
 
-A _directed topological space_ is a [[topological space]] $X$ in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions, in some sense: instead these $k$-dimensional _paths_ may have a _direction_ .
+A _directed topological space_ is a [[topological space]] $X$ in which there is some 'sense of direction'. This can happen in various different ways and the level of the 'directedness' can be different in different situations, so naturally there are several 'competing' ideas, but the beginning of a consensus on what the overarching idea is.
 
-+--{.query}
-[[Eric]]: What does it mean for a $k$-cell to be _traversable_?
 
-[[Urs Schreiber]]: notice that this here is the "idea" section, not a formal definition. The idea is that everyone has an idea of what "to traverse" means and that this gives a good idea  for what the direction in "directed space" is about"!
+If one bases homotopy theory on the idea of a [[singular simplex]] or more generally a singular cell of any shape, then there is no way in which a 'sense of direction' can be encode.  If we have a path in a space we can go along it (traverse it) in either direction, from 0 to 1 or from 1 to 0.  From this perspective a directed space is one in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions, in some sense: instead these $k$-dimensional _paths_ may have a _direction_ .
 
-[[Eric]]: Unfortunately, not <i>everyone</i> has an idea of what it means to traverse a $k$-cell or I wouldn't ask :)  These $k$-cells must themselves be directed with directed boundaries, right? I can imagine a directed 2-cell might have 2 directed 1-cells for a boundary, but even with this simple case, I am capable of confusing myself and it is not obvious what traversing the 2-cell should look like.
+As an example one can base the 'sense of direction' on a closed [[preorder]] or [[partial order]], (that is a [[pospace]]),so that the paths from the directed interval $[0,1]$ with the usual order to the space $X$, can only be 'traversed' in one direction. Another example which does not fit into this first type would be the directed circle.
 
-Is the boundary of a directed $k$-cell a directed $(k-1)$-chain?
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="90.218414"
+   height="86.221573"
+   id="svg2383"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="d-circle.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs2385">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3170"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 372.04724 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1052.3622 : 372.04724 : 1"
+       inkscape:persp3d-origin="526.18109 : 248.03149 : 1"
+       id="perspective2392" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.86831673"
+     inkscape:cx="292.72913"
+     inkscape:cy="256.93488"
+     inkscape:current-layer="layer1"
+     id="namedview2387"
+     showgrid="false"
+     inkscape:window-width="663"
+     inkscape:window-height="701"
+     inkscape:window-x="20"
+     inkscape:window-y="22" />
+  <metadata
+     id="metadata2389">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-393.3659,-193.1045)">
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:url(#Arrow1Lstart);marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 479.08786,236.21529 C 479.08786,259.73666 459.99806,278.82647 436.47668,278.82647 C 412.95531,278.82647 393.86551,259.73666 393.86551,236.21529 C 393.86551,212.69392 412.95531,193.60411 436.47668,193.60411 C 459.99806,193.60411 479.08786,212.69392 479.08786,236.21529 z"
+       id="path3164" />
+  </g>
+</svg>
+In other words, a circle with direction determined by the anticlockwise sense. Again it is easy to see that there are certain paths that respect the direction, 'directed paths' whilst others do not. 
 
-[Edit: I've started a thread on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=84). I think we can remove this query box.]
 
-[[Urs Schreiber]]: okay, thanks. So that means the above Idea section needs to be improved then!
+So far there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by  [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. 
 
-=--
-
-So far there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by by [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. 
-
-Note that a directed space is generalised space; not every directed space is a space in the old sense, in accordance with the [[red herring principle]].
+Note that a directed space is generalised space; not every directed space need be a space in the traditional sense, in accordance with the [[red herring principle]].
 
 Directed spaces are studied in [[directed homotopy theory]], a relatively young topic. In generalization of how a [[topological space]] has a [[fundamental groupoid]], a [[directed space]] has a [[fundamental category]].
 
