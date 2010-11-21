@@ -1,9 +1,14 @@
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
 ##Idea#
 [[crossed complex|Crossed complexes]] are a useful extension of [[crossed module]]s allowing not only the encoding of an algebraic model for the [[homotopy 2-type]], but also information on the '[[complex of chains on the universal cover]]'.  The category of crossed complexes is a [[monoidal closed category]] equivalent to various types of [[strict infinity-groupoid]]. 
 
 To model the [[homotopy 3-type]] of a space, we can use either a [[2-crossed module]] or a [[crossed square]] (or various other algebraic models to be added some time in the future). A [[crossed complex]] is a 'hybrid', part [[crossed module]] but with a 'tail' which is a [[chain complex]]. What would be the 'hybrid' between a 2-crossed module and a chain complex? Are there examples that are easily constructed? What sort of information do they encode? Are they easy to analyse, understand, ... and useful?
 
-##Definition#
+##Definition##
  A __2-crossed complex__ is a [[normal complex   of  groups]]
 
  $$\ldots \to C_n \stackrel{\partial_n}{\longrightarrow} C_{n-1} \longrightarrow \ldots \longrightarrow C_0,$$
@@ -21,13 +26,10 @@ To model the [[homotopy 3-type]] of a space, we can use either a [[2-crossed mod
 
 ##Examples:#
 
-* As any [[crossed module]] gives a [[2-crossed module]] with trivial Peiffer lifting (see the entry on [[2-crossed module]]), it is not unexpected that any [[crossed complex]] can be considered as a 2-crossed complex with trivial Peiffer lifting. This gives an embedding of the category $Crs$ into the category $2 Crs$).  This embedding has a left adjoint given by 'killing off' the Peiffer lifting.
-
 * Any 2-crossed module clearly gives a 2-crossed complex (with trivial 'tail').
+ 
 
-### From simplicial groups to 2-crossed complexes
-
-If $G$ is a simplicial group then 
+* _From simplicial groups to 2-crossed complexes_.  If $G$ is a simplicial group, then 
 
 $$ \ldots \to C(G)_3 \to  \frac{\mathcal{N}G_2}{d_0(\mathcal{N}G_3\cap D_3)} \to \mathcal{N}G_1\to \mathcal{N}G_0,$$
 
@@ -41,3 +43,14 @@ $${C}(G)_{n} = \frac{\mathcal{N}G_n}{(\mathcal{N}G_n\cap D_n)d_0(\mathcal{N}G_{n
 
 
 The Moore complex of a simplicial group $G$ has the structure of a 2-crossed complex if and only if for each $n\gt 2$, $\mathcal{N}G_n\cap D_n$ is trivial. This means that the axioms of a [[group T-complex]] are almost satisfied, but not necessarily in  dimension 2.
+
+##Crossed complexes and 2-crossed complexes.
+Any [[crossed complex]] can be given the structure of a 2-crossed complex simply by defining a trivial Peiffer lifting, $\{-,-\}$. As the Peiffer lifting covers the Peiffer commutators in $C_1$, and these are trivial (since the bottom of the crossed complex is a crossed module), this trivial Peiffer lifting works and gives a 2-crossed complex structure.  This defines a functor from the category of crossed complexes to that of 2-crossed complexes.
+
+Any 2-crossed complex which has a Peiffer lifting that is trivial $\{x,y\} = 1$, for al $x,y \in C_1$) is isomorphic to a crossed complex in this sense.
+
+This functor, from $Crs$ to $2-Crs$, has a left adjoint which is the identity on the subcategory of $2-Crs$ with trivial Peiffer liftings, so $Crs$ is equivalent to a reflective subcategory of $2-Crs$
+
+##References##
+
+See the [[Crossed Menagerie]], chapter 4.
