@@ -19,3 +19,5 @@ Most of interesting people for nlab will have their own pages in $n$lab; many  o
 * Paul Smith's [noncommutative algebra and geometry page](http://www.math.washington.edu/~smith/Research/research.html) has a large list of links to homepages of geometers and algebraists
 
 * [[Charles Weibel]] has [here](http://www.math.rutgers.edu/~weibel) lots of writings including a growing book on [[algebraic K-theory]] and lecture notes on motivic cohomology with Mazza and Voevodsky
+
+* pointers to several similar collections in answers to MathOverflow question [free-high-quality-mathematical-writing-online](http://mathoverflow.net/questions/1722/free-high-quality-mathematical-writing-online)
