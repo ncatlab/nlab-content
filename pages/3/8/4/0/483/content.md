@@ -1,4 +1,14 @@
-[[!redirects directed space]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
 # Contents
 * automatic table of contents goes here
@@ -262,3 +272,4 @@ _Toby_: I\'ll discuss this at [[directed object]].
 
 [[!redirects d-space]]
 [[!redirects d-spaces]]
+[[!redirects directed space]]
