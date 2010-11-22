@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -8,7 +21,7 @@
 
 The collection $[S^\bullet,R]$ of $R$-valued functions on a [[simplicial set]] $S^\bullet$ is a commutative [[cosimplicial algebra]]. Under the [[monoidal DoldKan correspondence]] it maps to its [[Moore complex|Moore cochain complex]] $C^\bullet([S^\bullet,R])$ which is a [[dg-algebra]] under the [[cup product]]: this is the **cochain complex of the simplicial set**.
 
-Notably, this cochain complex is an $E_\infty$-[[E-|algebra]] (an [[algebra over an operad|algebra]] over the [[E-infinity operad|E-∞ operad]]). In [[chain homology and cohomology|cohomology]] it becomes a [[graded algebra|graded-commutative algebra]].
+Notably, this cochain complex is an [[E-∞ algebra]] (an [[algebra over an operad|algebra]] over the [[E-∞ operad]]). In [[chain homology and cohomology|cohomology]] it becomes a [[graded algebra|graded-commutative algebra]].
 
 ## Definition
 
@@ -81,7 +94,7 @@ is a [[symmetric monoidal functor|symmetric]] [[lax monoidal functor]].
 +-- {: .proof}
 ###### Proof
 
-For instance Prop 3.8 in _May03_ .
+For instance Prop 3.8 in ([May03](#May03)) .
 
 =--
 
@@ -112,7 +125,7 @@ In both these cases the complex of binary operations in these operads has a 0-cy
 +-- {: .proof}
 ###### Proof
 
-The statement for the Eilenberg--Zilber operad goes back to _HinSch87_ . A good review is in _May03_ . The statement for the Barrat--Eccles operad is in _BerFre01_ .
+The statement for the Eilenberg--Zilber operad goes back to [HinSch87](HinSch87) . A good review is in ([May03](#May03)) . The statement for the Barrat--Eccles operad is in ([BerFre01](#BerFre01)) .
 
 =--
 
@@ -125,30 +138,32 @@ The statement for the Eilenberg--Zilber operad goes back to _HinSch87_ . A good 
 
 
 
-## References
+## References {#References}
 
-An explicit description of the cochains that express the homotopy symmetry of the cup product is discussion from page 30 on of the old
+An explicit description of the cochains that express the homotopy symmetry of the cup product is given from page 30 on of the old
 
-* N. Steenrod, [[SteenrodOnCohomologyOperations.pdf:file]], Colloquium lectures (1957)
+* [[Norman Steenrod]], _[[SteenrodOnCohomologyOperations.pdf:file]]_ , Colloquium lectures (1957)
 
-The modern operad theoretic statement that for $S \in$ [[SSet]] a [[simplicial set]], the cochain complex  $C^\bullet([S,R])$ is an $E_\infty$-[[E-infinity-algebra|algebra]] apparently goes back to 
+The modern [[operad]]-theoretic statement that for $S \in$ [[SSet]] a [[simplicial set]], the cochain complex  $C^\bullet([S,R])$ is an [[E-∞ algebra]] apparently goes back to 
 
-* _HinSch87_ -- V. Hinich and V. Schechtman, _On homotopy limits of homotopy algebras_, in _K-theory, arithmetic and geometry_, Lecture notes Vol. 1289, Berlin 1987 pp. 240--264 
+* V. Hinich and V. Schechtman, _On homotopy limits of homotopy algebras_, in _K-theory, arithmetic and geometry_, Lecture notes Vol. 1289, Berlin 1987 pp. 240--264 
+{#HinSch87}
 
 A particularly clear exposition is in
 
-* M. Mandell, _Cochain multiplication_, Amer. J. Math.  124 (2002)
+* [[Michael Mandell]], _Cochain multiplication_, Amer. J. Math.  124 (2002)
 
 This in turn is nicely reviewed and spelled out in section 3 of 
 
-* _May03_ -- [[Peter May]], _Operads and sheaf cohomology_ (2003) (unpublished private notes -- but maybe we get permission to upload them here?)
+* [[Peter May]], _Operads and sheaf cohomology_ (2003) (unpublished private notes -- but maybe we get permission to upload them here?)
+{#May03}
 
 These describe actions of the [[EilenbergZilber operad]] on $C^\bullet([S^\bullet,R])$. 
 
 An action of instead the [[Barratt-Eccles operad]] is described in 
 
-* _BerFre01_ -- [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0109158v2))
-
+* [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0109158v2))
+{#BerFre01}
 
 
 [[!redirects cochains on simplicial sets]]
