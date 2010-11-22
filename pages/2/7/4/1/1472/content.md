@@ -25,7 +25,7 @@ This entry discusses fundamental physics from the [[nPOV]].
 * automatic table of contents goes here
 {:toc}
 
-## Survey
+## The basic stuctures {#BasicStructures}
 
 ### Dynamics in space {#Fundamentals}
 
@@ -33,7 +33,7 @@ Physics is _dynamics_ in _spaces_ .
 
 [[higher topos theory|Higher topos theory]] provides the formalizations of this most fundamental aspect of physics.
 
-* A general context of **[[space]]s** is an [[(∞,1)-topos]] $\mathbf{H}$. 
+* A general context of **[[space]]s** is a [[big topos|big]] [[(∞,1)-topos]] $\mathbf{H}$. 
 
 * A general context for **[[higher geometry|geometrical]] spaces** is a [[local (∞,1)-topos]].
 
@@ -137,13 +137,15 @@ But special aspects of quantization are quite well understood. See for instance
 
 
 
-## Further details
+## Details
 
-We look at some aspects of the above story in more detail.
+We look at some aspects of the [above story](#BasicStructures) in more detail.
 
 ### Gauge theory {#GaugeTheory}
 
-The mathematical model for a [[gauge field]] in physics is a [[cocycle]] in [[differential cohomology]]. The development of [[differential cohomology]] has to a fair extent been motivated by and influenced by its application to fundamental theoretical physics in general and [[gauge theory]] in particular.  
+The discovery of [[gauge theory]] in fundamental physics is the discovery of [[groupoid]]s. The notion of [[gauge transformation]] is close to synonymous to the notion [[isomorphism]] and more generally [[equivalence in an (∞,1)-category]].
+
+More precisely, the mathematical model for a [[gauge field]] in physics is a [[cocycle]] in [[differential cohomology]]. The development of [[differential cohomology]] has to a fair extent been motivated by and influenced by its application to fundamental theoretical physics in general and [[gauge theory]] in particular.  
 
 Around 1850 Maxwell realized that the  [[field strength]] of the [[electromagnetic field]] is modeled by a closed [[differential form|differential 2-form]] on [[spacetime]]. In the 1930s Dirac observed that more precisely this 2-form is the [[curvature]] 2-form of a [[circle group|U(1)]]-[[principal bundle]] with [[connection on a bundle|connection]], hence that the electromagnetic field is modeled as what today is called a degree 2-cocycle in _[[ordinary differential cohomology]]_ .
 
@@ -227,15 +229,29 @@ geometry: $String(n)$ naturally has the structure of a [[Lie 2-group]]. This all
 
 
 
+### Phenomenological models: the standard model and gravity
 
+Theoretical physics consists of two parts: theory and models, laws and initial conditions, axioms and phenomenology.
 
-### History of the development of FQFT
+For instance the theory called [[general relativity]] describes the classical dynamics of [[gravity]], but does not predict the value of the [[cosmological constant]]. Rather, for each choice of the latter does the theory predict a certain dynamics the large-scale universe.
 
-> the following a stub obtained from copy-and-pasting material that [[David Ben-Zvi]] mentioned [here](http://golem.ph.utexas.edu/category/2009/07/a_prehistory_of_ncategorical_p_1.html#c025075)
+The theory that describes the fundamental forces and particles except gravity is [[Yang-Mills theory]]. This, too, does not predict the fundamental particle species seen in experiments, but for a correct choice and identification of these, the theory does predict the dynamics of these particles, as observed in accelerators.
 
-Kontsevich's 1994 ICM article, is one of the seminal papers of the 1990s. This paper invented the categorical side of mirror symmetry (homological mirror symmetry), discovered D-[[brane]]s (before physicists realized their role --- and directly inspiring many physicists) and the fact that they naturally form [[dg-category|dg-categories]] and $A_\infty$-[[A-infinity-category|category]], and thus led to a deluge of papers involving [[category theory]] and [[higher category theory]] in close relation with mathematical physics.
+The total collection of these choices of fundamental particles that are observed in experiments is called the [[standard model of particle physics]]. It consists basically of 
 
-In particular the [[FQFT|Moore--Segal paper]] should be seen in the light of this development. On a similar note, roughly contemporary with Moore--Segal (which is [arXiv:math/0609042](http://www.arxiv.org/abs/math/0609042) though developed earlier) are the works of [[Kevin Costello]] on [[TCFT]] ([arXiv:math/0412149](http://www.arxiv.org/abs/math/0412149)) and Kontsevich--Soibelman ([arXiv:math/0606241](http://www.arxiv.org/abs/math/0606241) --- some of the results were lectured on in various places by Kontsevich in 2003 and in particular helped inspire Costello) proving a much stronger result, which is the [[TCFT]] (or equivalently differential graded or $A_\infty$-) version of the classification of open-closed 2d [[TQFT]]s. These papers were directly motivated by [[homological mirror symmetry]] and topological [[string theory]], and have greatly influenced work in areas such as [[string topology]] which you mention and the [[cobordism hypothesis]] ([[On the Classification of Topological Field Theories|Hopkins-Lurie]] started from Costello's paper and abstracted the argument, before the general argument in n-dimensions came around). 
+1. a choice of [[gauge group]] $G$, such that all observed [[gauge field]]s are componens of a [[connection on a bundle|connection]] on a $G$-[[principal bundle]];
+
+1. a choice of linear [[representation]] $\rho$ of $G$, such that all observed [[fermion]] fields are components of [[section]]s of a $\rho$-[[associated bundle]].
+
+What precisely the "standard" model of parrticle physics is changes slightly over time, as new experimental insights are gained. Its particles were added item-by-item as they were discovered. More recently the mass of the particles called [[neutrino]]s, which was originally thought to be precisely 0, was measured to be very small, bu non-vanishing.
+
+The standard model as far as understood today exhibits a curious mixture of pattern and irregularity. This seems to suggest that it ought to have a more fundamental description in terms of a conceptually simpler structure out of which these patterns with their irregularities emerge. Since also the force of [[gravity]] is not presently included in the [[quantization]] of the standard model, it may seem plausible be that this underlying structure may be related to [[quantum gravity]].
+
+We discuss in the following some of the proposals that have been suggested for how to formalize this situation.
+
+#### Spectral standard model and gravity
+
+(...)
 
 
 
@@ -269,14 +285,29 @@ A historical introduction to some aspects of [[n-categories]] (for low $n$) in p
 
 * [[John Baez]] and [[Aaron Lauda]], _A prehistory of $n$-categorical physics_ ([pdf](http://math.ucr.edu/home/baez/history.pdf)), to appear in _Deep Beauty: Mathematical Innovation and the Search for an Underlying Intelligibility of the Quantum World_, ed. Hans Halvorson.
 
-[[Jim Stasheff]] is also writing a historical introduction to applications of more [[homotopy theory|homotopy theoretic]] [[higher category theory]]:
+A historical introduction to applications in physics of more [[homotopy theory|homotopy theoretic]] [[higher category theory]] (revolving around [[BV-BRST formalism]]) is in:
 
-* [[Jim Stasheff]], [[A Survey of Cohomological Physics]] 
+* [[Jim Stasheff]], _[[A Survey of Cohomological Physics]]_ 
 
 The following book-to-be aims to give picture of the present state of the art of describing the category-theoretic structure of the universe, as far as fundamental physics is concerned
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Branislav Jurco]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
+### On formal quantum field theory
+
+#### FQFT
+
+> the following paragraph obtained from copy-and-pasting material that [[David Ben-Zvi]] mentioned [here](http://golem.ph.utexas.edu/category/2009/07/a_prehistory_of_ncategorical_p_1.html#c025075)
+
+Kontsevich's 1994 ICM article, is one of the seminal papers of the 1990s. This paper invented the categorical side of mirror symmetry (homological mirror symmetry), discovered D-[[brane]]s (before physicists realized their role --- and directly inspiring many physicists) and the fact that they naturally form [[dg-category|dg-categories]] and $A_\infty$-[[A-infinity-category|category]], and thus led to a deluge of papers involving [[category theory]] and [[higher category theory]] in close relation with mathematical physics.
+
+In particular the [[FQFT|Moore--Segal paper]] should be seen in the light of this development. On a similar note, roughly contemporary with Moore--Segal (which is [arXiv:math/0609042](http://www.arxiv.org/abs/math/0609042) though developed earlier) are the works of [[Kevin Costello]] on [[TCFT]] ([arXiv:math/0412149](http://www.arxiv.org/abs/math/0412149)) and Kontsevich--Soibelman ([arXiv:math/0606241](http://www.arxiv.org/abs/math/0606241) --- some of the results were lectured on in various places by Kontsevich in 2003 and in particular helped inspire Costello) proving a much stronger result, which is the [[TCFT]] (or equivalently differential graded or $A_\infty$-) version of the classification of open-closed 2d [[TQFT]]s. These papers were directly motivated by [[homological mirror symmetry]] and topological [[string theory]], and have greatly influenced work in areas such as [[string topology]] which you mention and the [[cobordism hypothesis]] ([[On the Classification of Topological Field Theories|Hopkins-Lurie]] started from Costello's paper and abstracted the argument, before the general argument in n-dimensions came around). 
+
+For the moment see the references at [[FQFT]] for more.  
+
+#### AQFT
+
+For the moment see the references at [[AQFT]] for more.
 
 ### On the quantization procedure {#LitOnQuantization}
 
