@@ -137,9 +137,9 @@ But special aspects of quantization are quite well understood. See for instance
 
 
 
-## Details
+## The detailed structures
 
-We look at some aspects of the [above story](#BasicStructures) in more detail.
+We look at some aspects of the [above](#BasicStructures) general abstract story in more detail.
 
 ### Gauge theory {#GaugeTheory}
 
@@ -251,8 +251,25 @@ We discuss in the following some of the proposals that have been suggested for h
 
 #### Spectral standard model and gravity
 
-(...)
+A fundamental [[relativistic particle]] is technically a 1-dimensional [[sigma-model]] [[QFT]] on 1-[[dimension]]al [[cobordism]]s with target the [[spacetime]] $X$ that it propagates in. Since both [[gravity]] as well as [[Yang-Mills field]]s are encoded in [[connection on a bundle|connections]] it is plausible to assume that the only background field on $X$ that the particle couples to is a connection $\nabla_\rho$ on a $\rho$-[[associated bundle]] over a $G$-[[principal bundle]].
 
+Here 
+
+* roughly every [[semisimple Lie algebra]] summand in $\mathrak{g} = Lie(G)$ is one [[gauge field]] -- a bosonic field;
+
+* every [[irreducible representation]] that $\rho$ decomposes into is one matter particle species -- a [[spinors in Yang-Mills theory|fermion field]].
+
+This way a single $\sigma$-model may encode a rich multiple particle content and we shall speak of a single particle with different _excitations_ or _modes_ .
+
+An early proposal for a single unified connection $\nabla$ that would subsume both gravity as well as Yang-Mills forces in a phenomenologically realistic way is the [[Kaluza-Klein mechanism]]. This assumes a single [[Levi-Civita connection]] but on a [[pseudo-Riemannian manifold]] $X$ which is locally of the form $X_4 \times F_{d}$ with $F_d$ a 4-[[dimension]]al pseudo-Riemannian manifold and $X_d$ a $d$-dimensional [[Riemannian manifold]] of very small Riemannian volume. As described in more detail, this makes the [[isometry]] groups of $F_d$ appear as extra [[gauge group]] factors on $X_4$. As also described in more detail there, while this Ansatz reproduces the correct general form of gravity coupled to Yang-Mills forces, in its original form it does also have some phenomenologically unviable aspects.
+
+It was observed by [[Alain Connes]] and colaborators that the Kaluza-Klein mechanism works better when used not [[internalization|internal]] to the [[category]] [[Diff]] of [[smooth manifold]]s but in context for more general [[higher geometry|geometry]]: [[noncommmutative geometry]].
+
+This more general geometry turns out to model exactly the most general $\sigma$-model backgrounds for a 1-dimensional [[FQFT]]: such is algebraically spefified by
+
+1. the ([[Hilbert space|Hilbert]]) space $\mathcal{H}$ of [[state]]s that it assigns to the point;
+
+1. An [[associative algebra]] $A \hookrightarrow \mathcal{H}$ whose [[monoid|multiplication operation]] $A\otimes A \to A$ is the [[operator product expansion|operator product]] assigned to the trivalent interaction vertex
 
 
 
