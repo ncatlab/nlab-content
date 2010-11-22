@@ -38,7 +38,7 @@ is
   1. for all cofibrant objects $x,y \in D$ the oplax monoidal transformation
 
      $$
-       L(x \otimes y) \to L(x) \otimes L(y)
+       \tilde\nabla_{x,y} : L(x \otimes y) \to L(x) \otimes L(y)
      $$
 
      is a weak equivalence in $C$    
@@ -46,10 +46,10 @@ is
   1. for some (hence any) cofibrant [[resolution]] $q : \hat I_D \stackrel{\simeq}{\to} I_D$ of the monoidal unit object in $D$, the composite
 
      $$
-       L(\hat I_D) \stackrel{L(q)}{\to} L(I_D) \to I_C
+       L(\hat I_D) \stackrel{L(q)}{\to} L(I_D) \stackrel{\tilde e}{\to} I_C
      $$
 
-     is a weak equivalence in $C$.
+     with the oplax monoidal counit is a weak equivalence in $C$.
 
 This is called a **strong monoidal Quillen adjunction** if $L$ is a [[strong monoidal functor]]. 
 
@@ -88,7 +88,9 @@ This is proposition 3.16 in ([SchwedeShipley](#SchwedeShipley)).
 We discuss how a monoidal Quillen adjunction $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ induces, under mild conditions, an adjunction $(L^{mon} \dashv R) : Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)$ on the corresponding [[categories of monoids]]. In the following secton we discuss how this is itself a Quillen adjunction
 
 
-The [[lax monoidal functor]] $R : C \to D$ induces (as described there) a functor $R : Mon(C) \to Mon(D)$ on monoids (which by slight abuse of notation we denote by the same symbol). While the left adjoint $L$ will not extend to monoids unless $R$ is a [[strong monoidal functor]] there is nevertheless an adjoint $L^{mon}$ to $R : Mon(C) \to Mon(D)$.
+The [[lax monoidal functor]] $R : C \to D$ induces (as described there) a functor $R : Mon(C) \to Mon(D)$ on monoids (which by slight abuse of notation we denote by the same symbol). Write $\mabla_{X,Y} : R X \otimes R Y \to R(X \otimes Y)$ for the lax monoidal structure on $R$. This induces canonically the structure of a [[oplax monoidal functor]] (as described there) on the left adjoint  $L : D \to C$. Write $\tilde\nabla : L(X \otimes Y) \to L X \otimes L Y$ for this oplax structure.
+
+While $L$ will not extend to a functor on the [[category of monoids]] unless $R$ is a [[strong monoidal functor]] there is nevertheless an adjoint $L^{mon}$ to $R : Mon(C) \to Mon(D)$.
 
 As described at [[category of monoids]], if $C$ has countable [[coproduct]]s preserved by the [[tensor product]], then we have a [[free functor]]/[[forgetful functor]] [[adjunction]]
 
@@ -131,14 +133,14 @@ in $Mon(C)$ of the following two morphisms
     L F_D B
     \simeq
    \coprod_{n \in \mathbb{N}} L( B^{\otimes n})
-    \stackrel{\coprod \tilde e}{\to}
+    \stackrel{\coprod \tilde \nabla}{\to}
    \coprod_{n \in \mathbb{N}}
    (L B)^{\otimes n}
    \simeq
    F_C L B
   $$
 
-  which is componentwise given by the [[lax comonoidal functor|lax comonoidal structure]] on $L$ induced by the lax monoidal structure on $R$.
+  which is componentwise given by the [[oplax monoidal functor|oplax monoidal structure]] on $L$ induced by the lax monoidal structure on $R$.
 
 =--
 
@@ -199,7 +201,7 @@ $$
 while the adjunct of the top/right composite is that of the diagonal, which is
 
 $$
-  L(X \otimes X) \stackrel{\tilde e}{\to} L X \otimes L X
+  L(X \otimes X) \stackrel{\tilde \nabla}{\to} L X \otimes L X
   \stackrel{f_1 \otimes f_1}{\to} Y \otimes Y \to Y
   \,.
 $$
@@ -207,7 +209,7 @@ $$
 This in turn is by the definition of $f$ in terms of its components equal to
 
 $$
-  L(X \otimes X) \stackrel{\tilde e}{\to} L X \otimes L X
+  L(X \otimes X) \stackrel{\tilde \nabla}{\to} L X \otimes L X
   \stackrel{f_2}{\to}Y
   \,.
 $$
@@ -262,13 +264,13 @@ Take this to be given componentwise by the oplax counit $\tilde e$.
 This does coequalize then:  for one route is
 
 $$
-  L( (K) \otimes (K)  ) \to L(K \otimes K) \stackrel{\tilde e}{\to} L(K) \otimes L(K)
+  L( (K) \otimes (K)  ) \to L(K \otimes K) \stackrel{\tilde \nabla}{\to} L(K) \otimes L(K)
 $$
 
 and the other 
 
 $$
-  K( (K) \otimes (K) ) \stackrel{\tilde e}{\to} L K \otimes L K
+  K( (K) \otimes (K) ) \stackrel{\tilde \nabla}{\to} L K \otimes L K
   \stackrel{Id}{\to}
   L K \otimes L K
   \,.
@@ -303,21 +305,12 @@ We assume for this section that the monoidal model category $C$
 
 =--
 
+Then by ([SchwedeShipleyAlgebras](SchwedeShipleyAlgebras)) the [[transferred model structure|transferred]] [[model structure on monoids in a monoidal model category]] $Mon(C)$ exists.
 
-For the purposes of the following statement, we define
-
-+-- {: .un_def #CreatedModelStructure}
-###### Definition
-
-We say a model category structure on $Mon(C)$ is _created_ by $U_C$ if
-
-* it is the [[transferred model structure]];
-
-* every cofibrant object in $Mon(C)$ is a [[retract]] of a $(F \dashv U)$-[[cell object]].
+Notice also that by cofibrant generation every cofibrant object in $Mon(C)$ is a [[retract]] of a $(F \dashv U)$-[[cell object]]. 
 
 =--
 
-and we also assume from now on that the model structure on $Mon(C)$ is created by $U_C$.
 
 +-- {: .un_theorem #LiftedQuillenAdjunction}
 ###### Theorem
