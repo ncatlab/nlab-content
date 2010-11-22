@@ -55,7 +55,7 @@ $$
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $C$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]] with countable [[coproducts]].
+Let $C$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]] with countable [[coproducts]] which is [[locally presentable category|locally presentable]].
 
 Then
 
