@@ -15,12 +15,11 @@
 
 
 #Contents#
-
 * tic
 {:toc}
 
 
-#Idea#
+## Idea
 
 There are well-known _geometric models_ for some [[cohomology theory|cohomology theories]]. For instance
 
@@ -56,7 +55,11 @@ The following is going to be an exposition of this partial result:
 
   * [[(2,1)-dimensional Euclidean field theories]]
 
-#References#
+See also the entry
+
+* [[2-spectral triple]].
+
+## References
 
 A recent survey of the program is
 
@@ -75,6 +78,7 @@ This latest development on this is in
 * [[Stephan Stolz]], [[Peter Teichner]], _Super symmetric field theories and integral modular forms_ ([pdf](http://www.nd.edu/~stolz/SusyQFT.pdf))
 
 > **warning** [[Urs Schreiber|I]] am being told that this is by now outdated and to be replaced by an improved version, which however is apparently not available yet
+
 
 
 [[!redirects geometric models for elliptic cohomology]]
