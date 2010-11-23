@@ -440,6 +440,11 @@ A detailed review of how the traditional Lie integration of [[Lie algebra]]s and
 * [[Marius Crainic]], [[Rui Fernandes]], _Integrability of Lie brackets_ ([arXiv:math.DG/0105033](http://arxiv.org/abs/math/0105033))
 {#Crainic}
 
+The description of Lie integration with values in [[∞-Lie groupoid]]s regarded as simplicial presheaves on [[CartSp]] is in
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
+
+
 A characterization of the [[∞-stack]]s obtained by Lie integration as above is in [theorem 5.3](http://www.math.harvard.edu/~lurie/papers/moduli.pdf#page=12) of 
 
 * [[Jacob Lurie]], _[[Moduli Problems and DG-Lie Algebras]]_ , 
