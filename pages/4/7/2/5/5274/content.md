@@ -22,6 +22,8 @@ An isomorphism of Gelfand triples $(B_1,H_1,B^*_1)\to (B_2,H_2,B^*_2)$ is a unit
 
 ## Links and references
 
+* [[rigged Hilbert space]]
+
 * wikipedia [rigged Hilbert space](http://en.wikipedia.org/wiki/Rigged_Hilbert_space)
 
 * MathOverflow question: [good-references-for-rigged-hilbert-spaces](http://mathoverflow.net/questions/43313/good-references-for-rigged-hilbert-spaces)
