@@ -114,7 +114,51 @@ takes morphisms in $J$ to [[epimorphism]]s in [[Set]].
 
 ### In abelian categories 
 
-The term _injective object_ is used most frequently in the context that $C$ is an [[abelian category]].  In this case the class $J$ of monomorphisms is the same as the class of morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is [[exact sequence|exact]].  An [[object]] $I$ of an abelian category $C$ is then **injective** if it satisfies the following equivalent conditions:
+The term _injective object_ is used most frequently in the context that $C$ is an [[abelian category]].  
+
++-- {: .un_lemma}
+###### Observation
+
+
+For $C$ an [[abelian category]] the class $J$ of monomorphisms is the same as the class of morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is [[exact sequence|exact]].  
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of [[abelian category]] every monomorphism $A \hookrightarrow B$ is a [[kernel]], hence a [[pullback]] of the form
+
+$$
+  \array{
+    A &\to& 0
+    \\
+    \downarrow && \downarrow
+    \\
+    B &\to& C
+  }
+$$
+
+for $0$ the [[zero object]]. By the <a href="http://ncatlab.org/nlab/show/pullback#Pasting">pasting law</a> for pullbacks we find that also the left square in 
+
+$$
+  \array{
+    0 &\to& A &\to& 0
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& B &\to& C
+  }
+$$
+
+is a pullback, hence $0 \to A \to B$ is exact.
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+An [[object]] $I$ of an abelian category $C$ is then **injective** if it satisfies the following equivalent conditions:
 
 * the [[hom-functor]] $Hom_C(-, I) : C^{op} \to Set$ is [[exact functor|exact]];
 
@@ -131,6 +175,8 @@ $$
   }
   \,.
 $$
+
+=--
 
 ### In chain complexes
 
@@ -181,7 +227,7 @@ A general discussion can be found in
 
 The general notion of injective objects is in section 9.5, the case of injective complexes in section 14.1.
 
-Using tools from the theory of [[accesible categories]], injective objects are discussed in
+Using tools from the theory of [[accessible categories]], injective objects are discussed in
 
 * [[Jiri Rosicky]], _Injectivity and accessible categories_ ([ps](http://www.math.muni.cz/~rosicky/papers/acc5.ps))
 
