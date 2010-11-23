@@ -134,8 +134,6 @@
 
     * [[BV-BRST formalism]]
 
-    * [[AKSZ theory]]
-
     * [[geometric ∞-function theory]]
 
   * Models
@@ -198,12 +196,16 @@
         * [[RR field]]
         * [[D'Auria-Fre formulation of supergravity]]
         * [[BF-theory]]
-          * [[gravity as a BF-theory]]
 
-    * [[sigma-model]]
+          * [[gravity as a BF-theory]]
 
     * [[holonomic quantum fields]]
 
+    * [[sigma-model]]
+
+      * [[relativistic particle]], [[superparticle]]
+
+      * [[AKSZ theory]]
 
 * [[string theory|String Theory]]
 
