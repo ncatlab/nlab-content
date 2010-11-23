@@ -217,7 +217,7 @@ A [[double complex]] is naturally filtered in two ways: by columns and by rows. 
 
 (...)
 
-### Grothendieck spectral sequence
+### Grothendieck spectral sequence {#GrothendieckSpectralSequence}
 
 Let $\mathcal{A} \stackrel{F}{\to} \mathcal{B} \stackrel{G}{\to} \mathcal{C}$ be two [[left exact functor]]s between [[abelian categories]].
 
