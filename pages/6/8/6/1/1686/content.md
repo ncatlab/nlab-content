@@ -267,6 +267,24 @@ and hence computes the cohomology of $X$ with coefficients in $A$ in terms of th
 
 =--
 
+#### Base change spectral sequence for $Tor$ and $Ext$
+
+For $R$ a [[ring]] write $R$[[Mod]] for its category of [[modules]].
+Given a [[homomorphism]] of [[ring]]s $f : R_1 \to R_2$ and an $R_2$-[[module]] $N$ there are composites of [[base change]] along $f$ with the [[hom-functor]] and the [[tensor product]] functor
+
+$$
+  R_1 Mod \stackrel{\otimes_{R_1} R_2}{\to} R_2 Mod \stackrel{\otimes_{R_2} N}{\to} Ab
+$$
+
+$$
+  R_1 Mod \stackrel{Hom_{R_1 Mod}(-,R_2)}{\to}
+  R_2 Mod
+  \stackrel{Hom_{R_2}(-,N)}{\to}
+  \,.
+$$
+
+The [[derived functor]]s of $Hom_{R_2}(-,N)$ and $\otimes_{R_2} N$ are the [[Ext]]- and the [[Tor]]-functors, respectively, so the Grothendieck spectral sequence applied to these composites yields a  [[base change]] spectral sequence for these.
+
 ## Properties
 
 +-- {: .un_lemma}
