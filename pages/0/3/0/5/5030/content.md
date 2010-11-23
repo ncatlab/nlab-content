@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 =--
 =--
 
@@ -13,39 +17,14 @@
 * table of contents
 {:toc}
 
-## Idea
-
-The [[(∞,1)-category]] analog of the notion of [[cartesian closed category]]
 
 ## Definition
 
-Let $C$ be an [[(∞,1)-category]] with all [[(∞,1)-limit|product]]s. This makes it a [[symmetric monoidal (∞,1)-category]] with tensor product the cartesian product.
+An [[(∞,1)-category]] with [[(∞,1)-product]]s $\times$ which is a [[closed monoidal (∞,1)-category]] with respect to $\otimes := \times$ is called a **cartesian closed $(\infty,1)$-category.
 
-If this makes $C$ a [[closed monoidal (∞,1)-category]], we say it is **cartesian closed monoidal**.
+## Examples
 
-In detail, if for all [[object]]s $X \in C$ the [[(∞,1)-functor]]
-
-$$
-  (-) \times X : C \to C
-$$
-
-admits a right [[adjoint (∞,1)-functor]]
-
-$$
-  [X,-] : C \to C
-$$
-
-we say that $C$ is a **cartesian closed $(\infty,1)$-catgory.
-
-## Properties
-
-It should follow that the adjunction [[equivalence in a quasicategory|equivalence]]
-
-$$
-  C(X \times Y, Z) \simeq C(X,[Y,Z])
-$$
-
-is natural also in $Y$.
+Every [[(∞,1)-topos]] is a cartesian closed $(\infty,1)$-category. See the section <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-topos#ClosedMonoidalStructure">Closed monoidal structure</a>.
 
 [[!redirects cartesian closed (∞,1)-category]]
 
