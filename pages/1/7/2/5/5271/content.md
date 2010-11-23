@@ -31,9 +31,9 @@ One way to define what this means classically is to give an [[action functional]
 
 * [[Green-Schwarz action functional]].
 
-The [[quantization]] of this actional functional to a 1-dimensional worldvolume [[QFT]] is still largely an open problem.
+The [[quantization]] of this action functional to a 1-dimensional worldvolume [[QFT]] is still largely an open problem.
 
-An axiomatic desfiption of the worldvolume QFT of the superparticle can be given in terms of [[FQFT]] as a representation of a category of super-[[cobordisms]]. One such approach is described at
+An axiomatic description of the worldvolume QFT of the superparticle can be given in terms of [[FQFT]] as a representation of a category of super-[[cobordisms]]. One such approach is described at
 
 * [[(1,1)-dimensional Euclidean field theories and K-theory]].
 
@@ -42,3 +42,5 @@ The algebraic data encoded by such a representation is essentially that of a
 * [[spectral triple]].
 
 See there for more details.
+
+[[!redirects superparticles]]
