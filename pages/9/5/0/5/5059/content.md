@@ -26,7 +26,7 @@
 
 The _Green-Schwarz action functional_ is the [[action functional]] of a [[sigma-model]] that describes the propagation of a fundamental $p$-[[brane]] $\Sigma$ on a [[supermanifold]] [[spacetime]].
 
-For $p = 0$ this is the **Green-Schwarz superparticle.
+For $p = 0$ this is the **Green-Schwarz [[superparticle]]**.
 
 For $p = 1$ the **Green-Schwarz superstring** (at the center of attention in [[string theory]]).
 
