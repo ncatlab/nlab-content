@@ -68,7 +68,7 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 
 ## Wikis and encyclopedia-like collections
 
-* [eom.springer.de](http://eom.springer.de) 8000 encyclopaedia of math articles
+* [eom.springer.de](http://eom.springer.de)  encyclopaedia of math articles with approximately 8000 entries
 
 * [[HomePage|nlab]] this wiki on higher category theory and applications
 * Joyal's CatLab: [[joyalscatlab:HomePage]]
