@@ -9,14 +9,14 @@
   * [[bornological vector space|Bornological Vector Spaces]]
   * [[barrelled topological vector space|Barrelled Vector Spaces]]
 
+* [[linear operator]] 
+  * [[bounded linear operator|bounded]], [[unbounded linear operator|unbounded]], [[self-adjoint operator|self-adjoint]]
+  * [[spectrum of an operator]]
 * [[operator algebras]]
-  
-  * [[linear operator]] / [[bounded linear operator|bounded]], [[unbounded linear operator|unbounded]], [[self-adjoint operator|self-adjoint]]
-
 * [[spectral theory]]
 * Topics in Functional Analysis
   * [[basis in functional analysis|Bases]]
   * [[algebraic theories in functional analysis|Algebraic Theories in Functional Analysis]]
   * [[an elementary treatment of Hilbert spaces|An Elementary Treatment of Hilbert Spaces]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/functional+analysis+-+contents)</div>
+<div markdown="1">[Edit this sidebar](/nlab/edit/functional+analy0sis+-+contents)</div>
