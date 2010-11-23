@@ -20,8 +20,6 @@ A closed monoidal category $C$ is a [[monoidal category]] that is also a [[close
 it has for each [[object]] $X$ a [[functor]] $(-) \otimes X : C \to C$ of forming the [[tensor product]] with $X$, as well as a functor $[X,-] : C \to C$ of forming the [[internal-hom]] with $X$, and these form a pair of [[adjoint functor]]s.
 
 
-## Formalization ##
-
 The strategy for formalizing the idea of a closed category, that "the collection of morphisms from $a$ to $b$ can be regarded as an object of $C$ itself", is to mimic the situation in [[Set]] where for any three objects (sets) $a$, $b$, $c$ we have an isomorphism
 $$
   Hom(a \otimes b, c) \simeq Hom(a, Hom(b,c))
@@ -71,6 +69,15 @@ If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functo
  * If $M$ is a monoidal category and $Set^{M^{op}}$ is endowed with the tensor product given by the induced [[Day convolution]] product, then $Set^{M^{op}}$ is biclosed monoidal. 
 
  * The category of [[species]], with the monoidal structure given by substitution product of species, is closed monoidal (each functor $- \circ G$ admits a right adjoint) but not biclosed monoidal. 
+
+
+## Related concepts
+
+* [[monoidal category]], [[monoidal (∞,1)-category]]
+
+* [[symmetric monoidal category]], [[symmetric monoidal (∞,1)-category]]
+
+* **closed monoidal category** ,  [[closed monoidal (∞,1)-category]]
 
 
 ##References#
