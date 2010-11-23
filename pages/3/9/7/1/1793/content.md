@@ -56,7 +56,10 @@ Let $C$ be an [[abelian category]].
 
 Recall that by the dual [[Dold-Kan correspondence]] the category $C^\Delta$ of [[cosimplicial object]]s in $C$ is equivalent to the catagory $Ch^\bullet_+(C)$ of [[cochain complex]]es in non-negative degree. This means that we can transfer results discussed at [[model structure on cosimplicial objects]] to cochain complexes (see [Bousfield2003, section 4.4](http://arxiv.org/PS_cache/math/pdf/0312/0312531v1.pdf) for more).
 
-#### General results
+#### General results {#GeneralResults}
+
++-- {: .un_theorem}
+###### Theorem
 
 Let $G \in Obj(C)$ be a [[class]] of objects, such that $C$ has enough $G$-[[injective object]]s. 
 
@@ -68,17 +71,33 @@ Then there is a model category structure $Ch^\bullet_+(C)_G$ whose
 
 * $f$ is a fibration if it is degreewise a [[split epimorphism]] with $G$-injective kernel.
  
-If for example we take $G$ to be the class of all objects of $C$, then this induces a model structure $Ch^\bullet_+(C)_{tot}$ whose
+=--
+
+See [Bousfield2003, section 4.4](http://arxiv.org/PS_cache/math/pdf/0312/0312531v1.pdf).
+
+If we take $G$ to be the class of all objects of $C$ this gives the following structire.
+
++-- {: .un_corollary}
+###### Corollary
+
+There is a model structure on $Ch^\bullet_+(C)_{tot}$ whose
 
 * weak equivalences are cochain [[homotopy equivalence]]s;
 
-* fibrations are morphisms that are degreewise [[split epimorphism]]s;
+* fibrations are thee morphisms that are degreewise [[split epimorphism]]s and whose [[kernel]]s are [[injective object]]s;
 
-* cofibration are morphisms that are in positive degree [[split monomorphism]]s.
+* cofibration are the morphisms that are in positive degree [[monomorphism]]s.
 
-As an example of that, if $C = $ [[Vect]] is a category of [[vector space]]s over some field, we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence. 
+=--
+
++-- {: .un_example}
+###### Example
+
+If $C = $ [[Vect]] is a category of [[vector space]]s over some field, we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence. 
 
 This is the model structure which induces the [[transferred model structure|transferred]] [[model structure on dg-algebra]]s over a field. 
+
+=--
 
 #### The projective model structure {#CochainNonNegProj}
 
@@ -574,6 +593,43 @@ Let $R$ be an associative ring and $\mathcal{A} = R$[[Mod]].
 
 ## Properties
 
+### Left/right exact functors and Quillen adjunctions {#ExactFuncsAndQuillenFuncs}
+
+Let $\mathcal{A}$ and $\mathcal{B}$ be [[abelian categories]]. Let the [[categories of chain complexes]] $Ch_\bullet^+(\mathcal{A})$ and $Ch_\bullet^+(\mathcal{B})$ be equipped with the model structure described [above](#GeneralResults) where fibrations are the degreewise [[split monomorphism]]s with [[injective object|injective]] [[kernel]]s.
+
++-- {: .un_prop}
+###### Proposition
+
+If 
+
+$$
+  (L \dashv R) : \mathcal{A} \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} \mathcal{B}
+$$ 
+
+is a pair of [[adjoint functor]]s where $L$ preserves [[monomorphism]]s, then 
+
+$$
+  (Ch_\bullet^+(L)
+    \dashv
+   Ch_\bullet(R) : Ch_\bullet^+(\mathcal{A}) 
+   \stackrel{\overset{Ch_\bullet^+(L)}{\leftarrow}}{\underset{Ch_\bullet(R)}{\to}}
+   Ch_\bullet^+(\mathcal{B})
+$$
+
+is a [[Quillen adjunction]].
+
+=--
+ 
++-- {: .proof}
+###### Proof
+
+Every functor preserves split epimorphism. Being a [[right adjoint]] in particular $R$ is a [[left exact functor]] and hence preserves kernels. Using the characterization of [[injective object]]s as those $I$ for which $Hom(-,I)$ sends monomorphisms to epimorphisms, we have that $R$ preserves injectives because $L$ preserves monomorphisms, by the adjunction isomorphism.
+
+Hence $L$ preserves all cofibrations and $R$ all fibrations.
+
+=--
+
+
 ### Inclusion into simplicial objects
 
 Let $\mathcal{A} = $ [[Ab]] be the category of [[abelian group]]s. The [[Dold-Kan correspondence]] provides a [[Quillen equivalence]]
@@ -605,6 +661,7 @@ $$
 $$
 
 With due care this descends to the [[local model structure on simplicial presheaves]] which [[presentable (infinity,1)-category|presents]] the [[(∞,1)-sheaf (∞,1)-topos]] on $C$. Then the above Quillen adjunction serves to embed [[abelian sheaf cohomology]] on $C$ into the larger context of [[nonabelian cohomology]] on $C$. See [[cohomology]] for more on this.
+
 
 ## History and references {#References}
 
