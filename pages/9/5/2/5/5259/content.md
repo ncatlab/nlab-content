@@ -18,7 +18,7 @@
 
 The _spectral action_ is a natural [[functional]] on the space of [[spectral triple]]s. 
 
-Since a spectral triple encode [[Riemannian geometry]] in a generalized context of [[noncommutative geometry]] a functional on a space of spectral triples is comparable to the [[Einstein-Hilbert action]] functional on the space of ordinary Rimennian manifolds. And indeed, on spectral triples corresponding to ordinary Riemannian geometry the spectral action reduces to the Einstein-Hilbert action plus a series of integral over higher [[curvature]] invarianrs. 
+Since a spectral triple encodes [[Riemannian geometry]] in a generalized context of [[noncommutative geometry]], a functional on a space of spectral triples is comparable to the [[Einstein-Hilbert action]] functional on the space of ordinary Riemennian manifolds. And indeed, on spectral triples corresponding to ordinary Riemannian geometry the spectral action reduces to the Einstein-Hilbert action plus a series of integral over higher [[curvature]] invariants. 
 
 
 ## Applications
