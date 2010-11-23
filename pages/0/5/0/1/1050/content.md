@@ -74,18 +74,18 @@ is the equalizer of $F(f), F(g): F(c) \stackrel{\to}{\to} F(d)$, whenever $i: e 
  
 
 
-## Terminology
++-- {: .un_remark}
+###### Terminology
 
 Frequently the term "left exact" is restricted to the case that $C$ has all [[finite limits]]. If so,  then the general case is called a [[flat functor]]. 
 
-+-- {: .query}
-Conceivably, it might be used also in the more general case, but to refer to a weaker notion: a functor that preserves those finite limits that exist.  Certainly that\'s how I would interpret 'finitely continuous functor'.  ---Toby
-=--
-
 'Left exact' is sometimes abbreviated **lex**.  In particular, [[Lex]] is the 2-category of categories with [[finite limits]] and lex functors.  See also [[continuous functor]].   Similarly, but more rarely, 'right exact' is sometimes abbreviated as **rex**.
 
-## Between abelian categories
+=--
 
+## Properties
+
+### On abelian categories
 
 
 +-- {: .un_prop}
@@ -96,6 +96,9 @@ A functor $F : C \to D$ between [[abelian categories]] is left exact if and only
 A functor $F : C \to D$ between [[abelian categories]] is right exact if and only if it preserves [[direct sums]] and [[cokernels]].  
 
 =--
+
++-- {: .un_corollary}
+###### Corollary
 
 In particular for $0 \to A \to B \to C \to 0$ is an [[exact sequence]] in the abelian category $C$, we have that 
 
@@ -125,11 +128,17 @@ In particular for $0 \to A \to B \to C \to 0$ is an [[exact sequence]] in the ab
 
 Also: if $F$ is exact then it preserves [[chain homology]].
 
-## In higher category theory
+=--
 
-The notion of exact functor has straightforward analogs in [[higher category theory]].
 
-For [[(∞,1)-category]] theory see [[exact (∞,1)-functor]].
+
+
+
+## Related concepts
+
+* **exact functor**
+
+*  [[exact (∞,1)-functor]]
 
 
 ## References
