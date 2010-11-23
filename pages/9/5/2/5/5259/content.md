@@ -34,3 +34,11 @@ The notion of [[spectral triple]] and of spectral action was introduced in
 A discussion specifically of the spectral action is in
 
 * [[Ali Chamseddine]], [[Alain Connes]], _The Spectral Action Principle_ [arXiv:hep-th/9606001](http://arxiv.org/abs/hep-th/9606001),
+
+Earlier articles on this include
+
+* [[Ali Chamseddine]], _Remarks on the Spectral Action Principle_ ([arxiv:hep-th/9806046](http://arxiv.org/abs/hep-th/9806046))
+
+A claim that the spectral action for something like a [[2-spectral triple]] does reproduce the effective background action of [[string theory]] is in 
+
+* [[Ali Chamseddine]], _An Effective Superstring Spectral Action_ ([arXiv](http://arxiv.org/abs/hep-th/9705153))
