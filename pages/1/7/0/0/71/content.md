@@ -59,6 +59,60 @@ $$
 $$
 from the [[simplex category]] $\Delta$ to the category of [[strict omega-category|strict omega-categories]].
 
+##Link to cyclic polytopes##
+
+There is a convex-geometric perspective on orientals outlined by Kapranov and
+Voevodsky (see [Literature](/nlab/show/oriental#lit) below).  I will try to explain the punch-line first, then go into details.  
+
+In $O(\Delta^n)$, denote the source of the $n$-morphism corresponding to the $n$-face in $\Delta^n$ by $\hat 0_{n-1}$, and denote its target by $\hat 1_{n-1}$.  Since
+these are source and target of the same morphism, they both have the same
+source, and both have the same target.  Write $\hat 0_{n-2}$ for this source,
+and $\hat 1_{n-2}$ for this target.  Inductively define $\hat 0_k$ and $\hat 1_k$
+for all $0\leq k \leq n-1$.  
+
+The promised punchline is that the $(k+1)$-morphisms from $\hat 0_k$ to $\hat 1_k$ are in natural correspondence to the triangulations of the $(k+1)$-dimensional cyclic polytope with $n+1$ vertices.  
+
+For example, when $k=1$, we have $\hat 0_1$ is the 1-morphism $0\rightarrow 1\rightarrow \dots \rightarrow n$, and $\hat 1_1$ is the 1-morphism $0\rightarrow n$.  The 2-morphisms from $\hat 0_1$ to $\hat 1_1$ consist of triangulations of the $(n+1)$-gon.  See the diagrams above for examples.  
+
+###Details###
+
+We are going to embed the simplex $\Delta^n$ inside $\mathbb {R}^n$, so we can
+think (convex-)geometrically about it.  
+
+Let me get the main convex-geometric definitions out of the way at the beginning.  
+
+The _moment curve_ in $\mathbb {R}^d$ is defined parametrically by $p(t)=(t,t^2,\dots,t^d)$.  
+
+A _cyclic polytope_ of dimension $d$ with $n$ vertices
+is the convex hull of $n$ points on the moment curve in $\mathbb {R}^d$.  For
+many purposes, the choice of the $n$ points is irrelevant; for example, the face
+lattice of the polytope does not depend on which points were chosen.  
+
+A _triangulation_ of a polytope is a subdivision of the polytope into
+maximal-dimensional simplices, which overlap only on their boundaries, and 
+all of whose vertices are vertices of the original polytope.  
+
+To fix an embedding of $\Delta^n$ into $\mathbb {R}^n$, choose real numbers $a_0\lt a_1\lt\dots\lt a_{n}$, and embed $\Delta^n$ inside $\mathbb {R}^n$ so that its $i$-th vertex is at $p(a_i)$.  
+
+Now, as already described above, we have that $\hat 0_{n-1}$ and $\hat 1_{n-1}$ 
+are compositions of the morphisms corresponding to some $n-1$-faces, so that the morphism  coming from the unique $n$-face of $\Delta_n$ goes from $\hat 0_{n-1}$ to $\hat 1_{n-1}$.  Which faces belong to which $(n-1)$-morphism?  
+
+The answer is very simple: $\hat 0_{n-1}$ is the composition of the _lower_ faces, while $\hat 1_{n-1}$ is the composition of the _upper_ faces, where lower and upper are always taken with respect to the final co-ordinate.  
+
+Now, project into $\mathbb {R}^{n-1}$ by forgetting the last co-ordinate.  The 
+image of $\Delta^n$ inside $\mathbb {R}^{n-1}$ is the convex hull of $n+1$ points
+on the moment curve in $\mathbb {R}^{n-1}$, that is to say, it is a cyclic polytope
+with $n+1$ vertics in dimension $n-1$.  
+
+$\hat 0_{n-2}$ consists of the lower faces of this cyclic polytope (where, as always, we take upper/lower with respect to the final co-ordinate, though note that in this case, the final co-ordinate is the $n-1$-st co-ordinate, since we have already forgotten the $n$-th co-ordinate).  Similarly, $\hat 1_{n-2}$ consists of the upper faces of this cyclic polytope.  
+
+The projections of $\hat 0_{n-1}$ and $\hat 1_{n-1}$, meanwhile, are triangulations
+of this cyclic polytope.   The cyclic polytope of dimension $n-1$ with $n+1$ vertices
+has only two triangulations, so these are all of them.  
+
+In general, $\hat 0_{k}$ consists of the lower faces of the image of the 
+projection of $\Delta_n$ into $\mathbb {R}^{k+1}$ by forgetting the last $n-k+1$ coordinates, while $\hat 1_k$ consists of the upper faces of the image.  And then $\hat 0_{k+1}$, $\hat 1_{k+1}$ correspond to particular triangulations of this image and, indeed, the $(k+1)$-morphisms from $\hat 0_k$ to $\hat 1_k$ correspond bijectively to triangulations of the image (which is a cyclic polytope).  
+
 #Applications#
 
 ## $\omega$-Nerve ##
@@ -134,11 +188,18 @@ It should be true that $\Pi_\omega(\Delta^n)$ is the _free $\omega$-groupoid_ on
 
 
 
-#Literature#
+#Literature {#lit}#
 
 The orientals were introduced in
 
 * Ross Street, _The algebra of oriented simplexes_, J. Pure Appl. Algebra 49 (1987) 283-335; MR89a:18019 ([pdf](http://www.math.mq.edu.au/~street/aos.pdf)).
+
+The link to cyclic polytopes is discussed in
+
+* M. Kapranov and V. Voevodsky, _Combinatorial-geometric aspects of polycategory theory: pasting schemes and higher Bruhat orders (list of results)_.
+International Category Theory Meeting (Bangor, 1989 and Cambridge, 1990).
+Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 32 (1991), no. 1, 11&#8211;27.
+([pdf](http://archive.numdam.org/article/CTGDC_1991__32_1_11_0.pdf)).
 
 The $\omega$-groupoids $\Pi_\omega(\Delta^{n})$ are discussed in detail in
 
