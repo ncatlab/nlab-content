@@ -249,7 +249,7 @@ The standard model as far as understood today exhibits a curious mixture of patt
 
 We discuss in the following some of the proposals that have been suggested for how to formalize this situation.
 
-#### Spectral standard model and gravity
+#### Spectral standard model and gravity {#SpecStandModAndGravity}
 
 A fundamental [[relativistic particle]] is technically a 1-dimensional [[sigma-model]] [[QFT]] on 1-[[dimension]]al [[cobordism]]s with target the [[spacetime]] $X$ that it propagates in. Since both [[gravity]] as well as [[Yang-Mills field]]s are encoded in [[connection on a bundle|connections]] it is plausible to assume that the only background field on $X$ that the particle couples to is a connection $\nabla_\rho$ on a $\rho$-[[associated bundle]] over a $G$-[[principal bundle]].
 
@@ -263,14 +263,37 @@ This way a single $\sigma$-model may encode a rich multiple particle content and
 
 An early proposal for a single unified connection $\nabla$ that would subsume both gravity as well as Yang-Mills forces in a phenomenologically realistic way is the [[Kaluza-Klein mechanism]]. This assumes a single [[Levi-Civita connection]] but on a [[pseudo-Riemannian manifold]] $X$ which is locally of the form $X_4 \times F_{d}$ with $F_d$ a 4-[[dimension]]al pseudo-Riemannian manifold and $X_d$ a $d$-dimensional [[Riemannian manifold]] of very small Riemannian volume. As described in more detail, this makes the [[isometry]] groups of $F_d$ appear as extra [[gauge group]] factors on $X_4$. As also described in more detail there, while this Ansatz reproduces the correct general form of gravity coupled to Yang-Mills forces, in its original form it does also have some phenomenologically unviable aspects.
 
-It was observed by [[Alain Connes]] and colaborators that the Kaluza-Klein mechanism works better when used not [[internalization|internal]] to the [[category]] [[Diff]] of [[smooth manifold]]s but in context for more general [[higher geometry|geometry]]: [[noncommmutative geometry]].
+It was observed by [[Alain Connes]] and colaborators that the Kaluza-Klein mechanism works better when used not [[internalization|internal]] to the [[category]] [[Diff]] of [[smooth manifold]]s but in context for more general [[higher geometry|geometry]]: [[noncommutative geometry]].
 
-This more general geometry turns out to model exactly the most general $\sigma$-model backgrounds for a 1-dimensional [[FQFT]]: such is algebraically spefified by
+This more general geometry turns out to model exactly the most general $\sigma$-model backgrounds for a 1-dimensional [[FQFT]]: becuase such is algebraically specified by
 
 1. the ([[Hilbert space|Hilbert]]) space $\mathcal{H}$ of [[state]]s that it assigns to the point;
 
 1. An [[associative algebra]] $A \hookrightarrow \mathcal{H}$ whose [[monoid|multiplication operation]] $A\otimes A \to A$ is the [[operator product expansion|operator product]] assigned to the trivalent interaction vertex
 
+   $$
+     \array{
+       \bullet
+       \\
+       & \searrow
+       \\
+       && \bullet & \to
+       \\
+       & \nearrow
+       \\
+       \bullet
+     }
+   $$
+
+1. A [[Dirac operator]] $D$ whose [[Dyson formula]] exponential $\exp(t D^2 + \theta D)$ is assigned to a piece of 1-dimensional cobordism of superlength $(t, \theta)$.
+
+This data is that of [[spectral triple]], which is well known to enocode Riemannian noncommutative geometry (rather: _spectral geometry_ ). It is therefore natural to search for a Kaluza-Klein ansatz in spectral geometry that would produce the standard model context.
+
+A very detailed such construction was given by [[Alain Connes]] (see the [references below](#FunctorialSpectral)).
+
+It turns out that the realistic model has $K$-theory dimension $D = 4+6$. 
+
+By the result at [[(1,1)-dimensional Euclidean field theories and K-theory]] this $K$-theory dimension is precisely the intrinsic dimension of target space as seen by the superparticle. Moreover, $D = 4+6$ is precisely the dimension for whic the 2-dimensional super-[[CFT]] [[sigma-model]] is critical and hence allows to lift the 1-dimensional superparticle described here to [[string theory]].
 
 
 ## References
@@ -314,17 +337,73 @@ The following book-to-be aims to give picture of the present state of the art of
 
 #### FQFT
 
-> the following paragraph obtained from copy-and-pasting material that [[David Ben-Zvi]] mentioned [here](http://golem.ph.utexas.edu/category/2009/07/a_prehistory_of_ncategorical_p_1.html#c025075)
-
 Kontsevich's 1994 ICM article, is one of the seminal papers of the 1990s. This paper invented the categorical side of mirror symmetry (homological mirror symmetry), discovered D-[[brane]]s (before physicists realized their role --- and directly inspiring many physicists) and the fact that they naturally form [[dg-category|dg-categories]] and $A_\infty$-[[A-infinity-category|category]], and thus led to a deluge of papers involving [[category theory]] and [[higher category theory]] in close relation with mathematical physics.
 
 In particular the [[FQFT|Moore--Segal paper]] should be seen in the light of this development. On a similar note, roughly contemporary with Moore--Segal (which is [arXiv:math/0609042](http://www.arxiv.org/abs/math/0609042) though developed earlier) are the works of [[Kevin Costello]] on [[TCFT]] ([arXiv:math/0412149](http://www.arxiv.org/abs/math/0412149)) and Kontsevich--Soibelman ([arXiv:math/0606241](http://www.arxiv.org/abs/math/0606241) --- some of the results were lectured on in various places by Kontsevich in 2003 and in particular helped inspire Costello) proving a much stronger result, which is the [[TCFT]] (or equivalently differential graded or $A_\infty$-) version of the classification of open-closed 2d [[TQFT]]s. These papers were directly motivated by [[homological mirror symmetry]] and topological [[string theory]], and have greatly influenced work in areas such as [[string topology]] which you mention and the [[cobordism hypothesis]] ([[On the Classification of Topological Field Theories|Hopkins-Lurie]] started from Costello's paper and abstracted the argument, before the general argument in n-dimensions came around). 
 
+> (in parts taken from [here](http://golem.ph.utexas.edu/category/2009/07/a_prehistory_of_ncategorical_p_1.html#c025075))
+
 For the moment see the references at [[FQFT]] for more.  
+
+##### On functorial spectral geometry {#FunctorialSpectral}
+
+Literature on the relation between [[spectral triple]]s and 1-dimensional super-QFT is to appear shortly. Spectral background for the standard model have been considered here:
+
+The first proposal for such compactifications, which already came very close to the standard model, is decades old by now.
+
+
+* [[Alain Connes]],  [[John Lott]], _Particle Models And Noncommutative Geometry_ Nucl.Phys.Proc.Suppl.18B:29-47,1991 ([spires](http://www.slac.stanford.edu/spires/find/hep/www?rawcmd=find+author+Connes+and+author+Lott&FORMAT=WWW&SEQUENCE=))
+
+This is reviewed in  
+
+* Daniel Kastler, Thomas Schucker, _The Standard Model a la Connes-Lott_ [arXiv:hep-th/9412185](http://arxiv.org/abs/hep-th/9412185) .
+
+As far as I can tell, at that time the Yang-Mills terms were stilll included by hand. The main point of the spectral approach was to realize that it could nicely explain the Higgs boson and its Yukawa coupling terms to the fermions. It did (and does) so by realizing the Higgs boson as an internal part of an ordinary minimally coupled connection 1-form - an internal gauge boson.
+
+A few years later Connes apparently realized that also the gravitational and gauge kinetic Yang-Mills terms had an inherent operator-theoretic formulation, namely the [[spectral action]] principle.
+
+This is indicated in
+
+
+* [[Alain Connes]], _Gravity coupled with matter and foundation of non-commutative geometry_ [arXiv:hep-th/9603053](http://arxiv.org/abs/hep-th/9603053)
+
+and fully formulated in 
+
+
+* [[Ali Chamseddine]], [[Alain Connes]], _The Spectral Action Principle_ [arXiv:hep-th/9606001](http://arxiv.org/abs/hep-th/9606001),
+
+both of which start by presenting the general spectral idea and then working out how to realize the standard model in detail.
+
+A useful discussion of the details of the realization of the standard model in this approach is
+
+* C. P. Martin, Jose M. Gracia-Bondia, Joseph C. Varilly, _The Standard Model as a noncommutative geometry: the low energy regime_ ([arXiv:hep-th/9605001](http://arxiv.org/abs/hep-th/9605001)) .
+
+This is in particular designed to take the ordinary physicst by the hand and introduce him or her gently to the operator-theoretic spectral description by motivating these by the structure of the standard model.
+
+So already over ten years ago people had a pretty good idea that and how the standard model action has an elegant descritption as a spectral action. 
+
+The only problem was: this description was wrong. But only in the sense in which  ideas in physics tend to be wrong - not entirely wrong but not quite right.
+
+Namely, instead of containing the fermionic particle content of the standard model, these spectral models produced four copies of every fermion in the standard model. A slight overkill. 
+
+By a remarkable synchronicity, it seems that there was no progress on this aspect for about ten years, and now two preprints appear almost simultaneously, presenting the solution:
+
+
+* [[John Barrett]], _A Lorentzian version of the non-commutative geometry of the standard model of particle physics_ [arXiv:hep-th/0608221](http://arxiv.org/abs/hep-th/0608221).
+
+
+* [[Alain Connes]], _Noncommutative Geometry and the standard model with neutrino mixing_ [arXiv:hep-th/0608226](http://arxiv.org/abs/hep-th/0608226)
+
+And the modification needed to get this solution is rather tiny, just a small change in the real structure $J$ of the spectral triple from ten years ago.
+
+A survey is also at
+
+* [[Urs Schreiber]], _Connes on spectral geometry of the standard model IV_ ([blog entry](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_3.html))
 
 #### AQFT
 
 For the moment see the references at [[AQFT]] for more.
+
 
 ### On the quantization procedure {#LitOnQuantization}
 
