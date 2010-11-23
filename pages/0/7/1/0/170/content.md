@@ -25,11 +25,24 @@ A _2-spectral triple_ is the algebraic data encoding the [[geometry]] of a [[Rie
 
 Analogous to how a [[spectral triple]] may be thought of as characterizing the worldline theory of a [[relativistic particle|superparticle]] propagating on a Riemannian manifold with [[spin structure]], so a 2-spectral triple is essentially nothing but the algebraic descitpion of a 2-dimensional [[CFT|SCFT]] describing the worldvolume theory of the fundamental [[brane|super-1-brane]] (the [[string theory|string]]) on a target with string structure.
 
-There are several candidate formalizations of 2-spectral triple. One that has achived a certain maturation is indicated at [[(2,1)-dimensional Euclidean field theories and tmf]].
+## Definition
+
+There are several candidate formalizations of 2-spectral triple. One that has achived a certain formal maturity is indicated at [[(2,1)-dimensional Euclidean field theories and tmf]].
 
 ## References
 
-A discussion for how ordinary [[spectral triple]]s arise as point particle limits of [[vertex operator algebra]]s for 2d [[CFT]]s:
+Early attempts to understand the [[string theory|string]]'s worldvolume CFT as a higher spectral triple appear in secton 7.2 of 
+
+* [[Jürg Fröhlich]], Oiver Grandjean, [[Andreas Recknagel]], _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132)).
+
+Similar considerations are in
+
+* [[Ali Chamseddine]], _An Effective Superstring Spectral Action_ ([arXiv](http://arxiv.org/abs/hep-th/9705153)),
+
+which claims to show that the corresponding [[spectral action]] reproduces the correct effective background action known in [[string theory]].
+
+
+A detailed derivation of how ordinary [[spectral triple]]s arise as point particle limits of [[vertex operator algebra]]s for 2d [[CFT]]s:
 
 * [[Daniel Roggenkamp]], [[Katrin Wendland]], _Limits and Degenerations of Unitary Conformal Field Theories_ ([arXiv:hep-th/0308143](http://arxiv.org/abs/hep-th/0308143))
 
