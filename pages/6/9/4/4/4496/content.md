@@ -16,7 +16,9 @@
 
 ## Idea
 
-By _hypercohomology_ is usually meant is a generalization of [[derived functor]] [[cohomology]]. Whereas derived functor cohomology works for single objects, hypercohomology works for complexes of objects. Hypercohomology of an object considered as a complex concentrated in degree zero agrees with cohomology of the object.
+Ordinary [[abelian sheaf cohomology]] is often  considered exclusively with coefficients being [[Eilenberg-MacLane object]]s $\mathbf{B}^n A$ given by [[chain complex]]es concentrated in degree $n$. If more generally any chain complex is allowed as a coefficient object, one speaks for emphasis of **hyper-cohomology**.
+
+If abelian sheaf cohomology is thought of given by the [[derived functor]] of the [[global section]]s functor, then hypercohomology is given by the corresponding [[hyper-derived functor]].
 
 In the literature, hypercohomology is typically denoted by blackboard bold.
 
