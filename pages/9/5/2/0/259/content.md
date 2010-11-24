@@ -18,13 +18,15 @@
 
 ## Idea
 
-The notion of quasi-category is a [[geometric definition of higher category]] that relaxes the [[Kan complex|Kan condition]] on a simplicial set.
-
-Just as a [[Kan complex]] is a model in terms of [[simplicial set]]s of an [[∞-groupoid]] -- also called an [[(∞,0)-category]] --  a [[quasi-category]] is a model in terms of [[simplicial set]]s of an [[(∞,1)-category]].
+The notion of _quasi-category_ is a [[geometric definition of higher categories|geometric model]] for [[(∞,1)-category]].
+ 
+In analogy to how a [[Kan complex]] is a model in terms of [[simplicial set]]s of an [[∞-groupoid]] -- also called an [[(∞,0)-category]] --  a [[quasi-category]] is a model in terms of [[simplicial set]]s of an [[(∞,1)-category]].
 
 
 ## Definition
 
++-- {: .un_defn}
+###### Definition
 
 A **quasi-category** or **[[weak Kan complex]]** is a [[simplicial set]] $C$ satisfying the following equivalent conditions
 
@@ -39,22 +41,43 @@ A **quasi-category** or **[[weak Kan complex]]** is a [[simplicial set]] $C$ sat
   (induced from the inner horn inclusion $\Lambda[2]_1 \to \Delta[2]$)
   is an acyclic [[Kan fibration]].
 
-The second condition says manifestly that a quasi-category is a simplicial set in which composition of any two composable edges is defined up to a contractible space of choices. This is the [[coherence law]] on compositon.
+=--
 
 The equivalence of these two definitions is due to [[Andre Joyal]] and recalled as [[Higher Topos Theory|HTT, corollary 2.3.2.2]].
 
-An **[[algebraic quasi-category]]** is a quasi-category equipped with a _choice_ of inner horn fillers. While quasi-categories provide a [[geometric definition of higher categories]], algebraic quasi-categories provide an [[algebraic definition of higher categories]].
++-- {: .un_remark}
+###### Remark
 
-## Remarks
+The second condition says manifestly that a quasi-category is a simplicial set in which composition of any two composable edges is defined up to a contractible space of choices. This is the [[coherence law]] on compositon.
 
-### General
+=--
 
-* Compare with the definition of a [[Kan complex]] in which _all_ horns are required to have fillers: a quasi-category is a structure slightly weaker than a Kan complex. Indeed, while we can think of a Kan complex as an [[∞-groupoid]] (that is an $(\infty,0)$-category), in which _all_ morphisms are [[equivalence]]s, a quasi-category is a model for an [[(∞,1)-category]], in which only all [[k-morphism]]s for $k \geq 2$ are required to be [[equivalence]]s.  
++-- {: .un_defn}
+###### Definition
 
-* One may try to further weaken the filler conditions in order to describe [[(∞,n)-categories]] for $n \gt 1$. One approach along these lines is the theory of [[weak complicial set]]s.
+An **[[algebraic quasi-category]]** is a quasi-category equipped with a _choice_ of inner horn fillers. 
 
-* In older literature, such as [[The Joy of Cats]], the term "quasicategory" was sometimes used for a "very large" category whose objects are [[large categories]] or otherwise built out of [[proper classes]], but nowadays this usage is fairly archaic.  See also [[metacategory]]
+=--
 
+While quasi-categories provide a [[geometric definition of higher categories]], algebraic quasi-categories provide an [[algebraic definition of higher categories]]. For more details on this see [[model structure on algebraic fibrant objects]].
+
+
+
+
++-- {: .un_remark}
+###### Remarek on terminology
+
+In older literature, such as [[The Joy of Cats]], the term "quasicategory" was sometimes used for a "very large" category whose objects are [[large categories]] or otherwise built out of [[proper classes]], but nowadays this usage is fairly archaic.  See also [[metacategory]]
+
+=--
+
+## Properties
+
+### Relation to simplicially enriched categories
+
+The [[homotopy coherent nerve]] relats quasi-categories with another model for $(\infty,1)$-categories: [[simplicially enriched categories]].
+
+See [[relation between quasi-categories and simplicial categories]] for more.
 
 ### Higher associahedra in quasi-categories
 
@@ -74,7 +97,7 @@ The two basic examples for quasi-categories are
 
 Since the nerve of a category is a [[Kan complex]] iff the category is a [[groupoid]. quasi-categories are a minimal common generalization of Kan complexes and nerves of categories.
 
-By the [[homotopy hypothesis]] every Kan complex arises, up to equivalence, as the [[fundamental ∞-groupoid]] of a [[topological space]]. 
+By the [[homotopy hypothesis]]-theorem every Kan complex arises, up to equivalence, as the [[fundamental ∞-groupoid]] of a [[topological space]]. 
 
 Analogously, every [[directed topological space]] $X$ has naturally a [[fundamental (∞,1)-category]] given by a quasi-category whose $k$-cells are maps $\Delta^k_{Top} \to X$ that map the 1-[[simplicial skeleton|skeleton]] of the topological simplex in an order-preserving way to directed paths in $X$.
 
@@ -107,6 +130,11 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 * [[opposite quasi-category]]
 
+
+
+## Related concepts
+
+* One may try to further weaken the filler conditions in order to describe [[(∞,n)-categories]] for $n \gt 1$. One approach along these lines is the theory of [[weak complicial set]]s.
 
 
 
