@@ -623,7 +623,7 @@ The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop sp
 
 Generalizations of Hochschild cohomology with the circle replaced by more general spaces is surveyed in 
 
-* Gr&#233;gory Ginot, _Higher order Hochschild cohomology ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
+* [[Grégory Ginot]], _Higher order Hochschild cohomology ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
 
 
 Interesting wishlists for treatments of Hochschild cohomology are in [this](http://mathoverflow.net/questions/28472/book-on-hochschild-cohomology) MO discussion.
