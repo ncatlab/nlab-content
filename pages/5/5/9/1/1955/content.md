@@ -24,6 +24,8 @@ The definition, concrete as it is, applies of course also to function rings on s
 
 This shows that the concrete algebraic construction  of K&#228;hler differential forms over plain rings, traditionally thought of as their very definition, does in fact not correctly capture their nature. There is another definition -- obtained from the [[nPOV]] -- which does capture the situation correctly:
 
+
+
 ### The correct definition of the notion of _module_ ...
 
 In fact, already the definition of [[module]] has to be freed from it concrete realization in the context of ordinary rings, to exhibit its true nature. What this is has been established long ago in
@@ -223,6 +225,17 @@ Furthermore, if $R$ is in characteristic zero, one may introduce **K&#228;hler $
 
 Compare the role of [[universal differential envelope]] and [[Amitsur complex]] for  analogous constructions in the noncommutative case. The appropriate extension of the module of relative K&#228;hler differentials to the derived setting is the [[cotangent complex]] of Grothendieck--Illusie. 
 
+#### Relation to Hochschild homology
+
+The module of K&#228;hler differentials on $R$ is isomorphism to the first [[Hochschild homology]] of $R$
+
+$$
+  \Omega_K^1(R) \simeq HH_1(R,R)
+  \,.
+$$
+
+Under mild conditions the anaous statement is true for higher K&#228;hler differentials and higher Hochschild homology: this is the [[Hochschild-Kostant-Rosenberg theorem]].
+
 
 ### Over smooth rings regarded as ordinary rings {#SmoothOrPlain}
 
@@ -231,6 +244,7 @@ We have seen that we define K&#228;hler differentials $\Omega^1_K(A)$ for any [[
 The following special case deserves special attention:
 
 The algebra $A = C^\infty(X)$ of smooth functions on some smooth space $X$ (a [[smooth manifold]] or a [[generalized smooth space]]) is in particular a commutative algebra. So one might think that its K&#228;hler differentials form the ordinary [[differential form]]s on $X$ -- in analogy to the case when $A$ consists of the algebraic functions on an affine [[algebraic variety]] in which case K&#228;hler differentials are often taken as a _definition_ of 1-forms.  
+
 
 #### The problem and its solution
 
