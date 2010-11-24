@@ -14,7 +14,7 @@
 
 ## Idea
 
-Gel'fand triple equips a Hilbert space with a dense topological vector subspace  of good "test" functions, so that the dual of the subspace of test functions enhaces the Hilbert space by embedding it into a larger TVS whose elements can be considered as generalized eigenvectors for the continuous [[spectrum of an operator|spectrum]] of normal (possibly unbounded) linear operators. 
+A _Gel'fand triple_ is a structure that equips a [[Hilbert space]] with a dense [[topological vector space|topological vector subspace]]  of good "test" functions, so that the dual of the subspace of test functions enhaces the Hilbert space by embedding it into a larger [[TVS]] whose elements can be considered as generalized [[eigenvector]]s for the continuous [[spectrum of an operator|spectrum]] of [[normal operator|normal]] (possibly [[unbounded operator|unbounded]]) [[linear operator]]s. 
 
 ## Definition
 
@@ -78,7 +78,7 @@ Related early works include
 
 * Ciprian Foia&#351;, _D&#233;compositions int&#233;grales des familles spectrales et semi-spectrales en op&#233;rateurs qui sortent de l'espace hilbertien_, Acta Sci. Math. Szeged __20__, 1959, 117&#8211;-155. [MR115092](http://www.ams.org/mathscinet-getitem?mr=115092)
 
-John Roberts continued the study in the context of quantum mechanics (in his thesis work suggested by Dirac), changing the name to rigged.
+John Roberts continued the study in the context of [[quantum mechanics]] (in his thesis work suggested by [[Paul Dirac]]), changing the name to rigged.
 
 * [[John Roberts]], _The Dirac bra and ket formalism_, J. Mathematical Phys. 7 (1966), 1097--1104, [MR216836](http://www.ams.org/mathscinet-getitem?mr=216836), _Rigged Hilbert spaces in quantum mechanics_ , Comm. Math. Physics __3__, n. 2 (1966), 98--119, [MR228243](http://www.ams.org/mathscinet-getitem?mr=228243), [euclid](http://projecteuclid.org/euclid.cmp/1103839388)
 
