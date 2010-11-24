@@ -265,16 +265,12 @@ $$
 
 =--
 
+This is ([Dugger, theorem 1.1](#Dugger)) building on results in ([DuggerUniversalHomotopy](#DuggerUniversalHomotopy)).
+
+
 +-- {: .proof}
 ###### Proof
 
-This is theorem 1.1. in 
-
-* [[Dan Dugger]], _[[Combinatorial model categories have presentations]]_
-
-building on results in
-
-* [[Dan Dugger]], _[[Universal homotopy theories]]_
 
 The proof proceeds (the way Dugger presents it, at least) in roughly three steps:
 
@@ -535,6 +531,12 @@ Smith's theorem appears as proposition A.2.6.8  in [[Higher Topos Theory|HTT]], 
 Dugger's theorem is in 
 
 * [[Daniel Dugger]], _Combinatorial model categories have presentations_ ([arXiv](http://arxiv.org/abs/math/0007068))
+{#Dugger}
+
+based on results in
+
+* [[Dan Dugger]], _[[Universal homotopy theories]]_
+{#DuggerUniversalHomotopy}
 
 [[!redirects Smith's theorem]]
 [[!redirects Smith theorem]]
