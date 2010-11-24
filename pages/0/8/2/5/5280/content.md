@@ -1,3 +1,10 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Statement
+
 The Cantor-Schroeder-Bernstein theorem says that the order relation on cardinalities of [[set]]s is antisymmetric. In other words, define an order on sets by $X \leq Y$ if there exists a monomorphism $f: X \to Y$. Then, if both $X \leq Y$ and $Y \leq X$, there exists an [[isomorphism]] of sets $X \cong Y$. 
 
 ## Proof 
@@ -14,10 +21,10 @@ Let $f: P X \to P X$ be an order-preserving map. Then there exists $S$ in $P X$ 
 +-- {: .proof}
 ###### Proof 
 Let $S$ be the (internal) intersection of $U = \{T \in PX: f(T) \leq T\}$. 
-Since $S \leq T$ for every $T$ in $U$, we have $f(S) \leq f(T) \leq T$ for every $T$ in $U$. Thus $f(S) \leq S$ by definition of $S$. Applying $f$ again, we get $f f(S) \leq f(S)$. Hence $f(S)$ belongs to $U$. But then $S \leq f(S)$ by definition of $S$.
+Since $S \leq T$ for every $T$ in $U$, we have $f(S) \leq f(T) \leq T$ for every $T$ in $U$. Hence $f(S) \leq S$ by definition of $S$. Applying $f$ again, we get $f f(S) \leq f(S)$. Hence $f(S)$ belongs to $U$. But then $S \leq f(S)$ by definition of $S$.
 =--
 
-**Remark:** This proof _is_ intuitionistically valid. It can be seen as a special case of a result of Lambek on the initial [[algebra of an endofunctor]]. 
+**Remark:** The preceding proof _is_ intuitionistically valid. It can be seen as a special case of a result of Lambek on the initial [[algebra of an endofunctor]]. 
 
 +-- {: .proof}
 ######Proof of Cantor-Schroeder-Bernstein
@@ -59,5 +66,7 @@ In a celebrated work, Timothy Gowers gave a negative solution in the case of [[B
 
 ## References 
 
-* W.T. Gowers, A Solution to the Schroeder-Bernstein Problem for Banach Spaces, Bulletin of the London Mathematical Society, Volume 28, Issue 3, 297-304 [(abstract)](http://blms.oxfordjournals.org/content/28/3/297.abstract)
+* P.T. Johnstone, Sketches of an Elephant: A Topos Theory Conpendium, Vol. I, Clarendon Press, Oxford (2002)
+
+* W.T. Gowers, A Solution to the Schroeder-Bernstein Problem for Banach Spaces, Bulletin of the London Mathematical Society, Volume 28, Issue 3 (1996), 297-304 [(abstract)](http://blms.oxfordjournals.org/content/28/3/297.abstract)
 
