@@ -24,6 +24,8 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 
 * [ICM archive](http://www.mathunion.org/ICM) past ICM proceedings
 
+* project [euclid](http://projecteuclid.org/DPubS?Service=UI&version=1.0&verb=Display&handle=euclid&page=browse) list of journals (colors denote levels of free access)
+
 * *huge* MPIM list of [electronic journals](http://rzblx1.uni-regensburg.de/ezeit/fl.phtml?bibid=MPIMA&colors=3&lang=en&notation=SA-SP) -- most are  available only locally, but many free ones listed as well
 
 * Polish virtual [math library](http://matwbn.icm.edu.pl/index.php?jez=en) (cf. semi-commercial [impan journals](http://journals.impan.gov.pl)) -- Polish journals
