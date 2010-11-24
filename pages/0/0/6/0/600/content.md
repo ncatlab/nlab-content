@@ -2,7 +2,7 @@
 
 In the context of [[groupoidification]] and [[geometric function theory]] one thinks of a [[span]] as a generalized linear map. The _span trace_ is the corresponding generalization of the notion of a trace of a linear map.
 
-This is just the general [[trace]] of an endomorphism which is definable in any compact symmetric [[monoidal category]], of which $Span$ is an example (as described below). 
+This is just the general [[trace]] of an [[endomorphism]] which is definable in any [[compact closed category|compact/autonomous]] [[symmetric monoidal category|symmetric monoidal (2-)category]], of which $Span$ is an example (as described below).
 
 In the context of [[FQFT]] a useful aspect of the span trace is that it is manifestly dual to the [[co-span co-trace]], which, as described there, corresponds under the interpretation of spans as [[cobordism]]s to gluing of the two ends of a cobordism. 
 
@@ -22,7 +22,9 @@ $$
   }
 $$
 
-a [[span]] with identical left and right index object $X$, its _span trace_ $tr(R)$ is the composite of the result 
+a [[span]] with identical left and right index object $X$, the simplest way to define its __span trace__ $tr(R)$ is as by regarding it as a map $R\to X\times X$, then pulling back along the [[diagonal morphism]] $X\to X\times X$.
+
+This can be expressed in terms of the [[bicategory]] [[Span]] in several ways.  For instance, we can regarding it as the composite of the result 
 
 $$
   \array{
@@ -76,6 +78,7 @@ $$
   }
   \,.
 $$
+
 
 ## Definition for multispans
 
@@ -267,7 +270,7 @@ By the above, every cone over the pullback diagram with a functor $h : Q \to B$,
 
 #Remarks#
 
-* The dual notion is that of [[co-span co-trace]]
+* The dual notion is that of [[co-span co-trace]].
 
 #References#
 
