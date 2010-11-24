@@ -23,11 +23,11 @@
 
 A _2-spectral triple_ is the algebraic data encoding the [[geometry]] of a [[Riemannian manifold]] with [[string structure]].
 
-Analogous to how a [[spectral triple]] may be thought of as characterizing the worldline theory of a [[relativistic particle|superparticle]] propagating on a Riemannian manifold with [[spin structure]], so a 2-spectral triple is essentially nothing but the algebraic descitpion of a 2-dimensional [[CFT|SCFT]] describing the worldvolume theory of the fundamental [[brane|super-1-brane]] (the [[string theory|string]]) on a target with string structure.
+Analogous to how a [[spectral triple]] may be thought of as characterizing the worldline theory of a [[relativistic particle|superparticle]] propagating on a Riemannian manifold with [[spin structure]], so a 2-spectral triple is essentially nothing but the algebraic description of a 2-dimensional [[CFT|SCFT]] describing the worldvolume theory of the fundamental [[brane|super-1-brane]] (the [[string theory|string]]) on a target with string structure.
 
 ## Definition
 
-There are several candidate formalizations of 2-spectral triple. One that has achived a certain formal maturity is indicated at [[(2,1)-dimensional Euclidean field theories and tmf]].
+There are several candidate formalizations of 2-spectral triple. One that has achieved a certain formal maturity is indicated at [[(2,1)-dimensional Euclidean field theories and tmf]].
 
 ## References
 
