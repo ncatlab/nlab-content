@@ -287,16 +287,62 @@ Notice that the function algebra on the derived loop space is just the different
 
 ### Function algebra on derived loop space {#FuncsOnDerivedLoopSpace}
 
-Let $T$ be a [[Lawvere theory]]  (a [[category]] with [[product]]s such that every object is a power of a given generating object) that contains the theory of commutative $k$-algebras , regarded as an [[(∞,1)-algebraic theory]]. 
+We discuss how the Hochschild complex is the function algebra on a [[derived loop space]] object in the context of [[derived geometry]].
 
-We consider [[derived loop space]] objects in the category
+
+Let $T$ be a [[Lawvere theory]] that contains the theory of commutative $k$-algebras , regarded as an [[(∞,1)-algebraic theory]]. 
+
+Let 
 
 $$
-  C := T Alg_\infty^{op}
+  T \subset C \subset  T Alg_\infty^{op}
 $$
 
-of formal duals of $(\infty,1)$-$T$-algebras.
+be a [[subcanonical coverage|subcanonical]] [[small site]] that is a full 
+[[sub-(∞,1)-category]] of formal duals of $\infty$-$T$-algebras, closed under [[(∞,1)-limit]]s in $T Alg_\infty^{op}$.
 
+Let $\mathbf{H} = Sh_{(\infty,1)}(C)$ be the [[(∞,1)-sheaf (∞,1)-topos]] over $C$. 
+
+We write $\mathcal{O}(X) \in T Alg_\infty$ for an object that under the [[(∞,1)-Yoneda embedding]] $T Alg_\infty^{op} \to \mathbf{H}$ maps to an object called $X$.
+
++-- {: .un_def}
+###### Definition
+
+For $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ an ordinary $T$-algebra, we say that the [[free loop space object]] $\mathcal{L}X$ of $X$ formed in $\mathbf{H}$ is the **[[derived loop space]]** of $X$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+We have that $\mathcal{O}(\mathcal{L}X)$ is given by the [[(∞,1)-pushout]] in $T Alg_\infty$ 
+
+$$
+  \mathcal{O}\mathcal{L}X \simeq \mathcal{O}(X) \coprod_{\mathcal{O}(X)\otimes \mathcal{O}(X) } \mathcal{O}(X)
+$$
+
+hence the universal [[cocone]]
+
+$$
+  \array{
+    \mathcal{O}\mathcal{L}X &\leftarrow&
+    \mathcal{O}(X)
+    \\
+    \uparrow && \uparrow
+    \\
+    \mathcal{O}(X) &\leftarrow& \mathcal{O}(X) \otimes \mathcal{O}(X)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[∞-stackification]] $L : PSh_{(\infty,1)}(C) \to \mathbf{H}$ is a [[left exact (∞,1)-functor]] and hence preserves finite [[(∞,1)-limit]]s, we have that the defining pullback for $\mathcal{L}X$ may be computed in the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$. Since the [[(∞,1)-Yoneda embedding]] preserves all [[(∞,1)-limit]]s this in turn may be computed in the [[(∞,1)-site]] $C$, hence by assumption in $T Alg_\infty$. The relevant $(\infty,1)$-pullback there is the claimed $(\infty,1)$-pushout in the [[opposite (∞,1)-category]] $T Alg_\infty$. 
+
+=--
 
 +-- {: .un_prop}
 ###### Proposition
@@ -574,7 +620,14 @@ The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop sp
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], 
   _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
  
+
+Generalizations of Hochschild cohomology with the circle replaced by more general spaces is surveyed in 
+
+* Gr&#233;gory Ginot, _Higher order Hochschild cohomology ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
+
+
 Interesting wishlists for treatments of Hochschild cohomology are in [this](http://mathoverflow.net/questions/28472/book-on-hochschild-cohomology) MO discussion.
+
 
 [[!redirects Hochschild homology]]
 
