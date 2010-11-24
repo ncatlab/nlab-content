@@ -281,9 +281,90 @@ Notice that the function algebra on the derived loop space is just the different
 
 
 
-## Details {#Details}
+## Definition {#Details}
 
-### The Hochschild chain complex {#HochschildChainComplex}
+
+We start with the general-abstract definition of Hochschild homology and then look at special and more traditional cases.
+
+### General abstract
+
++-- {: .un_def}
+###### Definition
+
+Given an [[(∞,1)-topos]] $\mathbf{H}$, the **Hochschild cohomology** of an [[object]] $X \in \mathbf{H}$ is the [[cohomology]] (with whatever coefficients) of the [[free loop space object]] $\mathcal{L}X \simeq X^{S^1}$.
+
+More generally, for $K$ any [[∞-groupoid]], the **higher order Hochschild cohomology** of $X$ given by $K$ is the [[cohomology]] of the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">powering</a> $X^K$.
+
+=--
+
+Notice that this defines Hochschild cohomology for [[∞-stack]]s. Usually Hochschild cohomology is formulated in terms of the corresponding [[function algebras on ∞-stacks]] $\mathcal{O}(X)$, under [[Isbell duality]]. The Hochschild cohomology of $X$ then corresponds to what is called the Hochschild _homology_ of $\mathcal{O}(X)$.
+
+The following definition formalizes a special class of case of the above general abstract definition that reproduces the notion of Hochschild homology for [[(∞,1)-algebraic theory|∞-algebra]]s as usually understood.
+
++-- {: .un_def}
+###### Definition
+
+Let $T$ be an [[(∞,1)-algebraic theory]] and $T Alg_\infty$ its [[(∞,1)-category]] of $\infty$-algebras. Let $C$ with $T \hookrightarrow C \hookrightarrow T Alg_\infty^{op}$ be a [[small (∞,1)-category|small]] full [[sub-(∞,1)-category]] of $T Alg_\infty^{op}$ which is closed under [[(∞,1)-limit]]s in $T Alg$ and equipped with the structure of a [[subcanonical coverage|subcanonical]] [[(∞,1)-site]]. 
+
+Take $\mathbf{H} := Sh(C)$ the [[(∞,1)-category of (∞,1)-sheaves]] on $C$. This is an [[(∞,1)-topos]] for [[derived geometry]] modeled on $T Alg_\infty$.  Write $C \hookrightarrow \mathbf{H}$ for the [[(∞,1)-Yoneda embedding]].
+
+For $X \in C\stackrel{}{\hookrightarrow} \mathbf{H} $ write $\mathcal{O}(X)$ for the same object regarded as an object of $T Alg_\infty$.
+
+=--
+
++-- {: .un_def}
+###### Proposition/Definition 
+
+In the context of the above definition we have 
+
+$$
+  \mathcal{O} (\mathcal{L}X) \simeq S^1 \cdot \mathcal{O}(X) \in T Alg_\infty
+  \,.
+$$
+
+This object we call the **Hochschild homology complex** of $\mathcal{O}X$.
+
+Generally for higher order Hochschild homology we have
+
+$$
+  \mathcal{O}X^K \simeq K \cdot \mathcal{O}(X) \in T Alg_\infty
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Because the [[(∞,1)-Yoneda embedding]] preserves [[(∞,1)-limits]] the limit $X^K$ may be computed in $C$. By assumption $C$ is closed under limits in $T Alg_\infty^{op}$. The limit $X^K$ in $T Alg^{op}$ is the colimit $K \cdot \mathcal{O}(X)$ in the [[opposite (∞,1)-category]] of $\infty$-algebras.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Let $T$ be a [[Lawvere theory]] regarded as a 0-[[truncated]] [[(∞,1)-algebraic theory]]. 
+
+Then for $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ and $K \in \infty Grpd$ the higher order Hochschild homology complex $K \cdot \mathcal{O}(X)$ is presented in the [[model structure on simplicial T-algebras]] (if that is a [[simplicial model category]]) by the orinary [[tensoring]] $K \cdot \mathcal{O}(X)$ for $K$ any [[simplicial set]] incarnation of the $\infty$-groupoid.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The $(\infty,1)$-tensoring in an $(\infty,1)$-category [[presentable (∞,1)-category|presnted]] by a [[simplicial model category]] is modeled by the ordinary tensoring of the latter.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+For $T$ the theory of ordinary [[associative algebra]]s this reproduces the definition of higher order Hochschild cohomology by ([Pirashvili](#Pirashvili)).
+
+=--
+
+
+### The Hochschild chain complex of an associatve algebra {#HochschildChainComplex}
 
 We define and describe the Hochschild (co)chain complex explicitly, without worrying about where it comes from conceptually. The following sections then discuss the general abstract concepts of which the Hochschild complex is a model.
 
@@ -626,6 +707,8 @@ strategy: for $T$ a general [[monad]] proceed as above but replace the bar compl
 
 (...)
 
+## Properties
+
 
 ### Hochschild cohomology and extensions {#Extensions}
 
@@ -860,8 +943,12 @@ The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop sp
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], 
   _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
  
+The definition of higher order Hochschild complex as (implicitly) the tensoring of an algebra with a simplicial set is due to 
 
-Generalizations of Hochschild cohomology with the circle replaced by more general spaces is surveyed in 
+* [[Teimuraz Pirashvili]], _Hodge decomposition for higher order Hochschild homology_ Annales Scientifiques de l'&#201;cole Normale Sup&#233;rieure Volume 33, Issue 2, March 2000, Pages 151-179 ([ps](http://www.mathematik.uni-bielefeld.de/sfb343/preprints/pr98058.ps.gz))
+{#Pirashvili}
+
+A survey of higher order Hochschild (co)homology and further developments and results are described in
 
 * [[Grégory Ginot]], _Higher order Hochschild cohomology ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
 
