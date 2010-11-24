@@ -55,6 +55,12 @@ On the other hand, products of $C$-objects in $Top$ need not land in $C$, so in 
 
 * others to be written.
 
+## Counter examples
+
+* [[locally compact topological space]]s are not cartesian closed
+
+  As a counterexam consider $\mathbb{N}^{\mathbb{N}}$ where $\mathbb{N}$ has the usual discrete topology. Discrete spaces are of course locally compact, and the compact-open topology is the usual product topology. But this exponential is not locally compact, because there is an explicit homeomorphism between this space and the space of irrationals in the interval  (0,1) with its usual subspace topology. This homeomorphism is given by the regular continued fraction expansion.
+
 
 ## "Nice" versus "convenient" categories of spaces
 {#NvC}
