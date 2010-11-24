@@ -105,7 +105,7 @@ $$
 $$
 Classically, this is almost equivalent to the existence of a [[surjection]] $S_2 \to S_1$, except when $S_1$ is [[empty set|empty]].  Even restricting to [[inhabited sets]], these are not equivalent conditions in [[constructive mathematics]], so one may instead define that $|S_1| \leq |S_2|$ if there exists a [[subset]] $X$ of $S_2$ and a surjection $X \to S_1$.  Another alternative is to require that $S_1$ (or $X$) be a [[decidable subset]] of $S_2$.  All of these definitions are equivalent using [[excluded middle]].
 
-This order relation is [[antisymmetric relation|antisymmetric]] (and therefore a [[partial order]]) by the (Cantor--)Schroeder--Bernstein Theorem (proved by Cantor using the [[well-ordering theorem]], then proved by Schroeder and Bernstein without it).  That is, if $S_1 \hookrightarrow S_2$ and $S_2 \hookrightarrow S_1$ exist, then a bijection $S_1 \cong S_2$ exists.  This theorem is not constructively valid, however.
+This order relation is [[antisymmetric relation|antisymmetric]] (and therefore a [[partial order]]) by the [[Cantor-Schroeder-Bernstein theorem]] (proved by Cantor using the [[well-ordering theorem]], then proved by Schroeder and Bernstein without it).  That is, if $S_1 \hookrightarrow S_2$ and $S_2 \hookrightarrow S_1$ exist, then a bijection $S_1 \cong S_2$ exists.  This theorem is not constructively valid, however.
 
 The well-ordered cardinals are [[well-order|well-ordered]] by the ordering $\lt$ on [[ordinal numbers]].  Assuming the [[axiom of choice]], this agrees with the previous order in the sense that $\kappa \leq \lambda$ iff $\kappa \lt \lambda$ or $\kappa = \lambda$.  Another definition is to define that $\kappa \lt \lambda$ if $\kappa^+ \leq \lambda$, using the successor operation below.
 
