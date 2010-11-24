@@ -1,8 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
 [[!include model category theory - contents]]
-</div>
-
-
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -10,20 +19,20 @@
 
 ## Idea
 
-Depending on the chosen [[model category]] structure, the [[category]] [[SSet]] of [[simplicial set]]s may model [[∞-groupoids]] (for the standard [[model structure on simplicial sets]]) or [[(∞,1)-categories]] in the form of [[quasi-categories]] (for the [[Joyal model structure]]) on [[SSet]].
+Depending on the chosen [[model category]] structure, the [[category]] [[sSet]] of [[simplicial set]]s may model [[∞-groupoids]] (for the standard [[model structure on simplicial sets]]) or [[(∞,1)-categories]] in the form of [[quasi-categories]] (for the [[Joyal model structure]]) on [[SSet]].
 
-Accordingly, there are [[model category]] structures on [[SSet]]-[[enriched categories]] that similarly model [[(n,r)-categories]] with $r$ shifted up by 1:
+Accordingly, there are [[model category]] structures on [[sSet-categories]] that similarly model [[(n,r)-categories]] with $r$ shifted up by 1:
 
 * there is a model structure on $SSet$-enriched categories whose fibrant objects are [[∞-groupoid]]/[[Kan complex]]-enriched categories and which models [[(∞,1)-categories]];
 
-* there is another model structure on $SSet$-enriched categories whose fibrant objects are [[(∞,1)-category]]/[[quasi-category]]-enriched categories, and which model [[(∞,2)-categories]].
+* there is another model structure on [[sSet-categories]] whose fibrant objects are [[(∞,1)-category]]/[[quasi-category]]-enriched categories, and which model [[(∞,2)-categories]].
 
 ## Model for $(\infty,1)$-categories
 
 Here we describe the model category structure on [[SSet Cat]] that 
 makes it a model for the [[(∞,1)-category of (∞,1)-categories]].
 
-**Definition** An [[sSet]]-[[enriched functor]] $F : C \to D$ between [[sSet]]-[[enriched categories]] is called a **weak equivalence** precisely if
+**Definition** An [[sSet]]-[[enriched functor]] $F : C \to D$ between [[sSet-categories]] is called a **weak equivalence** precisely if
 
 * it is **essentially surjective** in that the induced functor of [[homotopy category|homotopy categories]] is an ordinary [[essentially surjective functor]];
 
