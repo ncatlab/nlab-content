@@ -278,16 +278,132 @@ The above identifies Hochschild homology objects of function algebras with funct
 
 Notice that the function algebra on the derived loop space is just the differential forms as a graded algebra, without the differential. The differential itself comes from the $S^1$-action on the loop space.
 
-> ...details later... but see the above references...
 
 
 
 ## Details {#Details}
 
+### The Hochschild chain complex {#HochschildChainComplex}
+
+We define and describe the Hochschild (co)chain complex explicitly, without worrying about where it comes from conceptually. The following sections then discuss the general abstract concepts of which the Hochschild complex is a model.
+
+Throughout, let $A$ be an [[associative algebra]] (over some ring $k$).
+
+
++-- {: .un_def #PlainBarComplex}
+###### Definition
+
+The [[bar complex]] of $A$ is the [[connective]] [[chain complex]]
+
+$$
+  \mathrm{B}_\bullet A :=
+  (
+    \cdots \to A^{\otimes_k n}
+    \stackrel{\partial}{\to}
+    A^{\otimes_k n-1}
+    \to \cdots
+    \to A \otimes_k A \otimes_k A 
+    \stackrel{\partial}{\to}
+    A \otimes_k A
+    \stackrel{\partial}{\to}
+    A
+  )
+$$
+
+which in degree $n$ has the $(n+1)$ [[tensor power]] of $A$ with itself, and whose [[differential]] is given by 
+
+$$
+  \partial(a_0, a_1, \cdots a_n)
+  :=
+  (a_0 a_1, a_2, \cdots, a_n)
+  - 
+  (a_0, a_1 a_2 , a_3, \cdots, a_n)
+  + 
+  \cdots
+  - (-1)^n (a_0, a_1, \cdots, a_{n-1} a_n)
+  \,,
+$$ 
+
+regarded as a chain complex in $A$-[[bimodule]]s for the evident bimodule structure in each degree.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+Let $N$ be an $A$-[[bimodule]]. The **Hochschild chain complex** $C_\bullet(A,N)$ of $A$ with coefficients in $N$ is the chain complex obtained by taking in the [bar complex](#PlainBarComplex) degreewise the [[tensor product]] of $A$-bimodules with $N$:
+
+$$
+  C_\bullet(A,B) := N_{A \otimes A^{op}}\mathrm{B}_\bullet A
+  \,.
+$$
+
+The **Hochschild homology** of $A$ with coefficients in $N$ is the [[homology]] of the Hochschild chain complex, written
+
+$$
+  HH_n(A,N) := H_n( C_\bullet(A,N))
+  \,.
+$$
+
+=--
+
+
++-- {: .un_lemma}
+###### Observation
+
+At the level of the underlying $k$-[[module]]s we have natural isomorphisms
+
+$$
+  N_{A \otimes_k A^{op}} A^{\otimes_k (n+2)}
+  \simeq
+  N \otimes_k \otimes A^{\otimes_k n}
+$$
+
+given on elements by sending
+
+$$
+  (\nu, (a_0, a_1, \cdots, a_n, a_{n+1}))
+  \sim
+  (a_{n+1} \nu a_{0}, (1, a_1, \cdots, a_n, 1))
+  \mapsto
+  (a_0 \nu a_{n+1}, a_1, \cdots, a_n)
+  \,.
+$$
+
+The action of the differential in $C_\bullet(A,N)$ on elements of the latter form is then
+
+$$
+  \partial(\nu, a_1, \cdots, a_n)
+  =
+  (\nu a_1, a_2, \cdots, a_n)
+  -
+  (\nu, a_1 a_2, a_3, \cdots)
+  + 
+  \cdots
+  +  
+  (-1)^n
+  (\nu , a_1, \cdots, a_{n-1} a_n)
+  - (-1)^{n}
+  (a_n \nu, a_1, a_2, \cdots, a_{n-1})
+  \,.
+$$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+In words this means that the Hochschild complex is obtained froms the bar complex by "gluing the two ends of a sequence of elements of $A$ to a circle by a bimodule".
+
+The fact that the circle appears here has in fact a deep significance: the Hochschild chain complex may be understood in [[higher geometry]] as encoding functions on a [[free loop space object]] of whatever $A$ behaves like being functions on.
+
+=--
+
 
 ### As function algebras on derived loop spaces {#FuncsOnDerivedLoopSpace}
 
 We discuss how the Hochschild complex is the function algebra on a [[derived loop space]] object in the context of [[derived geometry]].
+
 
 #### For commutative $k$-Algebras
 
@@ -394,10 +510,10 @@ Since [[∞-stackification]] $L : PSh_{(\infty,1)}(C) \to \mathbf{H}$ is a [[lef
 +-- {: .un_prop}
 ###### Proposition
 
-The $\infty$-algebra $\mathcal{O} \mathcal{L}X$ of functions on the derived loop space of $X$ is when modeled by a simplicial algebra in $CAlg_k^{\Delta^{op}}$ under the [[monoidal Dold-Kan correspondence]] equivalent to the Hochschild homology complex of $\mathcal{O}X$.
+The $\infty$-algebra $\mathcal{O} \mathcal{L}X$ of functions on the derived loop space of $X$ is when modeled by a simplicial algebra in $CAlg_k^{\Delta^{op}}$ under the [[monoidal Dold-Kan correspondence]] equivalent to the Hochschild chain complex of $\mathcal{O}X$ with coefficients in itself:
 
 $$
-  \mathcal{O} \mathcal{L}X \simeq HH_\bullet(\mathcal{O}X)
+  \mathcal{O} \mathcal{L}X \simeq C_\bullet(\mathcal{O}(X), \mathcal{O}(X))
   \,.
 $$
 
@@ -489,6 +605,19 @@ But this ordinary pushout it manifestly the claimed one.
 
 =--
 
+
++-- {: .un_remark}
+###### Remark
+
+This derivation
+
+* crucially uses the assumption that $A$ is a commutative algebra;
+
+* curiously does _not_ make use of any specific property of the set of morphisms $\{T[k] \coprod T[l] \to T[k+l] \}$ at which we are considering the left Bousfield localization. The entire construction proceeds entirely at the underlying simplicial sets of our simplicial algebras. In fact, the resulting homotopy pushout $\mathcal{O}(X) \coprod_{\mathcal{O}(X) \otimes \mathcal{O}(X)} \mathrm{B}\mathcal{O}(X)$ is a simplicial copresheaf on $T$ that no longer preserves any products: there is no manifest algebra structure.
+
+  But also, this object is far from being fibant in the localized model structure $[T, sSet]_{proj,prod}$. The Bousfield localization, hence the information about the set of maps at which we are localizing, hence the algebra structure, kicks in only once we pass now to the fibrant [[resolution]] of our pushout. That **fibrant replacement equips the Hochschild chain complex with the structure of an $\infty$-algebra.**
+
+=--
 
 
 #### For general $T$-algebras {#LoopSpaceForGeneralTAlgebras}
@@ -597,6 +726,44 @@ $$
   \,.
 $$
 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Write $C_\bullet(R,R) = ( \cdots \to R \otimes_k R \otimes_k R \stackrel{\partial}{\to} R \otimes_k R)$ for the chain chomplex of Hochschild chains. We claim that the identification of its homology in lowest degree with K&#228;hler differentials is established by identifying an element $(f ,g) \in R \otimes_k R$  with the K&#228;hler differential $f \wedge d g$.
+
+For observe that under this identification with $(a,b,c) \in R \otimes_k R \otimes_k R$ any element its differential is
+
+$$
+  \begin{aligned}
+    \partial (f,g,h)
+    &=
+    (f g, h) - (f, g h) + (h f, g)
+    \\
+    &
+    \sim
+    f g \wedge d h -  f \wedge d (g h) + f h \wedge d g
+  \end{aligned}
+  \,.
+$$  
+
+The term on the right is precisely the term by which one has to quotient out the module of formal expressions $f \wedge d g$ to get the module of [[Kähler differential]]s: setting it to 0 is the [[derivation]] property of $d$
+
+$$
+  (\partial (f,g,h) = 0)
+  \Leftrightarrow
+  f \wedge ( f(g h) = h \wedge d g + g \wdge d h )
+  \,.
+$$
+
+Therefore we have manifestly
+
+$$
+  \Omega^1_K(R) \simeq C_1(R,R)/im(\partial)
+  \,.
+$$
 
 =--
 
