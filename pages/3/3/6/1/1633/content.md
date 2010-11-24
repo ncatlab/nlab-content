@@ -1,3 +1,4 @@
+[[!redirects locally compact space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -57,3 +58,4 @@ Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever 
 
 
 [[!redirects locally compact Hausdorff space]]
+
