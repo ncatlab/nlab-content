@@ -825,6 +825,9 @@ or as  ([Ginzburg, theorem 9.1.3](#Ginzburg)).
 =--
 
 
+### Relation to cyclic (co)homology
+
+There is an evident rotation-[[action]] on Hochschild (co)chains. Passing to the cyclically invariant (co)chains yields [[cyclic (co)homology]].
 
  
 ## References
