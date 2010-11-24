@@ -169,8 +169,8 @@ $$
 
 =--
 
-+-- {: .un_cor}
-###### Corollary
++-- {: .un_prop}
+###### Proposition
 
 Finite colimits may be taken out of the internal hom: For $I$ a finite $(\infty,1)$-category and $X : I \to \mathbf{H}$ a [[diagram]], we have for all $A \in \mathbf{H}$
 
@@ -226,6 +226,65 @@ $$
 Finally, because $L$ is a  [[left exact (∞,1)-functor]] this is also the [[(∞,1)-limit]] in $\mathbf{H}$.
 
 
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For $S \in$ [[∞Grpd]] write $LConst S$ for its [[inverse image]] under the [[global section]] [[(∞,1)-geometric morphism]] $(LConst \dashv \Gamma) : \mathbf{H} \to \infty Grpd$: the [[constant ∞-stack]] on $S$.
+
+Then the internal hom $[LConst S,A]$ coincides with the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">∞-tensoring</a> of $A$ by $S$:
+
+$$
+  [LConst S, A] \simeq A^S
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the above we have
+
+$$
+  [LConst S, A](U) \simeq \mathbf{H}(LConst S \times L y(U), A)
+  \,.
+$$
+
+As the notation indicates, $LConst S$ is precisely $L Const S$: the [[∞-stackification]] of the [[(∞,1)-presheaf]] that is literally constant on $S$. Morover $L$ is a [[left exact (∞,1)-functor]] and hence commutes with [[(∞,1)-product]]s, so that
+
+$$
+  \cdots \simeq \mathbf{H}(L(Const S \times y(U)), A)
+  \,.
+$$
+
+By the defining geometric embedding $(L \dashv i)$ this is
+
+$$
+  \cdots \simeq PSh_C(Const S \times y(U), A)
+  \,.
+$$
+
+Since limits of [[(∞,1)-presheaves]] are taken objectwise, we have in the first argument the [[tensoring]] of $y(U)$ over $S$
+
+$$
+  \cdots \simeq PSh_C(S \cdot y(U), A)
+  \,.
+$$
+
+By the defining property of tensoring and cotensoring (or explicitly writing out $S \cdot y(U) = {\lim_\to}_{S} const y(U) $, taking the colimit out of the hom, thus turning it into a limit and then inserting that back in the second argument) this is
+
+$$
+  \cdots \simeq PSh_C(y(U), A^S)
+  \,.
+$$
+
+So finally with the [[(∞,1)-Yoneda lemma]] we have
+
+$$
+  \cdots \simeq A^S(U)
+  \,.
+$$
 
 =--
 
@@ -272,9 +331,9 @@ and with an intrinsic notion of
 
 In classical topos theory, cohomology and homotopy of a topos $E$ are defined in terms of [[simplicial object]]s in $C$. If $E$ is a [[sheaf topos]] with [[site]] $C$ and [[point of a topos|enough point]]s, then  this classical construction is secretly really a model for the intrinsic cohomology and homotopy in the above sense of the  [[hypercomplete (∞,1)-topos]] of [[∞-stack]]s on $C$.
 
-The beginning of a list of all the structures that exist intrinsically in an $(\infty,1)$-topos is at
+The beginning of a list of all the structures that exist intrinsically in a big $(\infty,1)$-topos is at
 
-* [[schreiber:structures in an (∞,1)-topos]].
+* [[cohesive (∞,1)-topos]].
 
 But **$(\infty,1)$-topos theory** in the style of an $\infty$-analog of the [[Elephant]] is only barely beginning to be conceived. 
 
