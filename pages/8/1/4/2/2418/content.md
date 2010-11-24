@@ -39,7 +39,7 @@ recall the big diagram from the end of the [[(1,1)-dimensional Euclidean field t
 The **goal** now is to replace everywhere [[topological K-theory]] by [[tmf]].
 
 
-previously we had assumed that $X$ has [[string structure]]. Now we assume [[String structure]].
+previously we had assumed that $X$ has [[spin structure]]. Now we assume [[String structure]].
 
 So we are looking for a diagram of the form
 
@@ -74,9 +74,9 @@ $$
   }
 $$
 
-the vertical maps here are due to various theorems by various people -- except for the "physical quantization" on the left, that is ued in physics but hasn't been formalized
+the vertical maps here are due to various theorems by various people -- except for the "physical quantization" on the left, that is used in physics but hasn't been formalized
 
-the **horizontal maps are the conjecure we are after** in the Stolz-Teichner program: The top horizontal map will involve making the notion of $(2|1)$EFT _local_ by refining it to an _extended_ [[FQFT]]s. This will not be considered here.
+the **horizontal maps are the conjecture we are after** in the Stolz-Teichner program: The top horizontal map will involve making the notion of $(2|1)$EFT _local_ by refining it to an _extended_ [[FQFT]]s. This will not be considered here.
 
 
 we will explain the following items
@@ -126,7 +126,7 @@ such that
 
 1. **integrality** $\tilde f(q) = \sum_{k = -N}^\infty a_k \cdot q^k$ then $a_k \in \mathbb{Z}$
 
-by this definition, modular forms are not relly functions on the upper half plane, but function on a [[moduli space]] of [[torus|tori]]. See the following definition:
+by this definition, modular forms are not really functions on the upper half plane, but functions on a [[moduli space]] of [[torus|tori]]. See the following definition:
 
 if the weight vanishes, we say that modular form is a **[[modular function]]** .
 
