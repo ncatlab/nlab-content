@@ -1,6 +1,71 @@
-> under construction
 
-Cyclic homology and cyclic cohomology...See also [[cycle category]], [[cyclic object]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Cyclic homology_ is [[Hochschild homology]] on cyclically invariant chains.
+
+We may understand [[Hochschild homology]] as the [[cohomology]] of [[free loop space object]]s (as described there). These free loop space objects are canonically equipped with a [[circle group]]-[[action]] that rotates the loops. _Cyclic homology_ is the corresponding $S^1$-[[equivariant cohomology]] of free loop space objects.
+
+## Definition
+
+### The chain complex for cyclic homology
+
+Let $A$ be an [[associative algebra]] over a [[ring]] $k$. Write $C_\bullet(A,A)$ for the [[Hochschild homology]] [[chain complex]] of $A$ with coefficients in $A$.
+
+For each $n \in \mathbb{N}$ let $\lambda : C_n(A,A) \to C_n(A,A)$ be the $k$-linear map that cyclically permutes the elements and introduces a sign:
+
+$$
+  \lambda : (a_0, a_1, \cdots, a_{n-1}, a_n)
+  \mapsto 
+   (-1)^n
+   (a_n, a_0  , \cdots, a_{n-1})
+  \,.
+$$
+
+
++-- {: .un_defn}
+###### Definition
+
+The **cyclic homology complex** $C^\lambda_\bullet(A)$ of $A$ is the quotient of the Hochschild homology complex of $A$ by cyclic permutations:
+
+$$
+  C_\bullet^\lambda(A) := C_\bullet(A,A)/im(Id-\lambda)
+  \,.
+$$
+
+The [[homology]] of the cyclic complex, denoted
+
+$$
+  HC_n(A) := H_n( C_\bullet^\lambda(A) )
+$$
+
+is called the **cyclic homology** of $A$.
+
+
+=--
+
+
+## Related concepts
+
+* [[cycle category]]
+
+* [[cyclic object]].
+
+## References
+
 
 * [[J-L. Loday]], _Cyclic homology_, Grundleheren Math.Wiss. 301, Springer 2nd ed.
 
@@ -15,3 +80,5 @@ Cyclic homology and cyclic cohomology...See also [[cycle category]], [[cyclic ob
 * [[Max Karoubi]], _Homologie cyclique et K-th&#233;orie_, Ast&#233;rique __149__, Soci&#233;t&#233; Math&#233;matique de France (1987). 
 
 [[!redirects cyclic homology]]
+
+[[!redirects cyclic (co)homology]]
