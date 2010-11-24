@@ -48,14 +48,15 @@ $$
 
 is a [[homotopy equivalence]] of [[Kan complex]]es.
 
-We now look at model category structure on _strictly_ product preserving functors $C \to sSet$, which gives an equivalent model for $Alg_{(\infty,1)}(C)$. See [[model structure on simplicial algebras]].
+We now look at model category structure on _strictly_ product preserving functors $C \to sSet$, which gives an equivalent model for $Alg_{(\infty,1)}(C)$. See [[model structure on homotopy T-algebras]].
 
 +-- {: .un_prop}
 ###### Proposition
+**(first model structure)**
 
-Let $C$ be a [[category]] with finite [[product]]s, and let $sAlg(C) \subset Func(C,sSet)$ be the [[full subcategory]] of the [[functor category]] from $C$ to [[sSet]] on those functors that preserve these products.  
+Let $T$ be a [[category]] with finite [[product]]s, and let $T Alg^{\Delta^{op}} \subset Func(T,sSet)$ be the [[full subcategory]] of the [[functor category]] from $T$ to [[sSet]] on those functors that preserve these products.  
 
-Then $sAlg(C)$ carries the structure of a [[model category]] $sAlg(C)_{proj}$ where the weak equivalences and the fibrations are objectwise those in the standard [[model structure on simplicial sets]]. 
+Then $T Alg^{\Delta^{op}}$ carries the structure of a [[model category]] $sAlg(C)_{proj}$ where the weak equivalences and the fibrations are objectwise those in the standard [[model structure on simplicial sets]]. 
 
 =--
 
@@ -97,6 +98,21 @@ $$
 is an [[equivalence of quasi-categories|equivalence]].
 
 A comprehensive statement of these facts is in [[Higher Topos Theory|HTT, section 5.5.9]].
+
++-- {: .un_prop}
+###### Proposition
+**(second model structure)**
+
+Let $T$ be the [[Lawvere theory]] for commutative [[associative algebra]]s over a ring $k$. Then $CAlg_k$ becomes a [[simplicial model category]] with
+
+* weak equivalences the morphisms whose underlying morphusms of simplicial sets are weak equivalences;
+
+* fibrations the morphisms $X \to Y$ such that $X \to \pi_0 X \times_{\pi_0 Y} Y$ is a degreewise surjection.
+
+=--
+
+This appears as ([GoerssSchemmerhorn, theorem 4.17](#GoerssSchemmerhorn)).
+
 
 ## Properties
 
@@ -140,9 +156,13 @@ This is theorem 1.3 in ([Badzioch](#Badzioch)).
 
 ## References
 
-The classical referenceis
+The classical reference for the transferred model structure on simplicial $T$-algebras is
 
 * [[Dan Quillen]], _Homotopical Algebra_ Lectures Notes in Mathematics 43, SpringerVerlag, Berlin, (1967)
+
+The simplicial model structure on ordinary simplicial algebras is in
+
+* [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_ ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/ucnotes.pdf))
 
 In 
 
@@ -155,7 +175,6 @@ The fact that the model structure on simplicial $T$-algebras serves to model $\i
 
 * [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
 {#Bergner}.
-
 
 
 The Quillen equivalence to the model structure on homotopy $T$-algebras is in 
