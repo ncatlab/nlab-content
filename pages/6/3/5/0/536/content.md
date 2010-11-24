@@ -8,9 +8,6 @@
 =--
 =--
 
-
-
-
 # Algebraic theories
 * tic
 {: toc}
@@ -20,11 +17,13 @@
 
 An _algebraic [[theory]]_ is a concept in [[universal algebra]] that describes a specific type of algebraic gadget, such as [[group|groups]] or [[ring|rings]]. An individual group or ring is a _model_ of the appropriate theory. Roughly speaking, an algebraic theory consists of a specification of operations and laws that these operations must satisfy.
 
-## History and commentary
+## Commentary
 
 Traditionally, algebraic theories were described in terms of [[logic|logical syntax]], as [[theory|first-order theories]] whose [[signature]]s have only function symbols, no relation symbols, and all of whose axioms are universally quantified equations.  Such descriptions are like presentations of a theory, analogous to generator and relations presentations of groups. In particular, different logical presentations can lead to equivalent mathematical objects. 
 
-In his thesis, Lawvere undertook a more invariant description of (finitary) algebraic theories via the notion of [[Lawvere theory]]. Here the definable operations of an algebraic theory are packaged together in the form of a universal model of a theory, so that for example the Lawvere theory of groups is the (2-)initial object in the (2-)category of categories with finite products and equipped with a group object. Traditional (set-theoretic) models of the theory are product-preserving functors from the theory to the category of sets. 
+In his thesis, Lawvere undertook a more invariant description of (finitary) algebraic theories via the notion of [[Lawvere theory]]. Here all the definable operations of an algebraic theory, or rather their equivalence classes modulo the equational axioms imposed by the theory, are packaged together to form the morphisms of a category with finite products, for which every object is a finite power of a generating object. In the great semantic expansion envisaged by Lawvere for what constitutes a "model", the category so formed becomes a universal model of the theory, and carries all the information of the theory, independent of a particular presentation. Lawvere considers _this_ category, this universal model, to be the theory. To give an example, the universal model of the theory of groups, i.e., the Lawvere theory of groups, is the (2-)initial object in the (2-)category of categories with finite products and equipped with a group object. Traditional (set-theoretic) models of the theory are neatly defined as product-preserving functors from the Lawvere theory to the category of sets. 
+
+Moreover, the categorical construction of the Lawvere theory is described very easily and elegantly: it is the category opposite to the category of (finitely generated) free algebras of the theory. 
 
 Lawvere's program can be extended to cover certain theories with infinitary operations as well. In the best-behaved case, one has algebraic theories involving only operations of arity bounded by some [[cardinal number]], and these can be understood category-theoretically with a suitable generalization of Lawvere theories.  In the bounded case, the Lawvere theory can be described by a small category, and the category of models will be very well behaved, in particular it is a [[locally presentable category]]. In such cases there is a satisfying duality between syntax and semantics along the lines of [[Gabriel-Ulmer duality]]. 
 
@@ -40,7 +39,7 @@ These examples go outside the bounded (small theory) case. Locally small theorie
 
 In the worst case, there are algebraic theories where the number of definable operations explodes, so that there may be a proper class of operations of some fixed arity. In these case there are no free algebras, and Lawvere's reformulation no longer applies. An example is the theory of complete Boolean algebras. (Note: category theorists who define a category $U: A \to Set$ over sets to be [[algebraic category|algebraic]] if it is [[monadic functor|monadic]] would therefore not consider the variety of algebras in such cases to be "algebraic"). 
 
-Further commentary on these aspects may be found in the dozen or so comments in [this thread](http://golem.ph.utexas.edu/category/2009/04/report_on_88th_peripatetic_sem.html#c023188).
+Further commentary on these aspects may be found in the dozen or so comments in [this thread](http://golem.ph.utexas.edu/category/2009/04/report_on_88th_peripatetic_sem.html#c023188), dated April 13 - May 7, 2009.
 
 In summary, then, here is the connection between the logical and categorial descriptions, based on [Johnstone][], &#167;&#167;3.7&8.  Say that a category $C$ is:
 
@@ -50,15 +49,24 @@ In summary, then, here is the connection between the logical and categorial desc
 
 Then any small algebraic category is algebraic, and any algebraic category is large algebraic, but neither implication may be reversed.
 
+## Variations 
+
+Algebraic theories can be extended or specialized in various directions. Here are a few variations on the theme. 
+
 _[[essentially algebraic theory|Essentially algebraic theories]]_ allow for partially-defined operations.  Just as finitary algebraic theories can be understood as Lawvere theories, which live in the [[doctrine]] of [[cartesian monoidal category|cartesian monoidal categories]], so finitary essentially algebraic theories can be understood by a generalisation to [[finitely complete category|finitely complete categories]].
+
+_[[multi-sorted theory|Multi-sorted theories]]_ allow for more than one sort or type in the theory. 
 
 _[[commutative algebraic theory|Commutative algebraic theories]]_ form an important subclass. Their categories of models are closed: the Hom sets have a natural model-structure, and the enriched Hom-functor has a left adjoint, _tensor-product_. The theory of complete lattices and suprema-preserving functions is an interesting (non-finitary) example.
 
 ## Lawvere theories and monads 
 
 We flesh out the relationships between theories and [[monad]]s, starting from the most general situation and then adding conditions to cut down on the size of theories. The term "[[Lawvere theory]]" as used here will mean 
+a large (but locally small) [[infinitary Lawvere theory]]. 
 
-### The large theory of a monad
+For the moment we discuss the single-sorted case. The many-sorted case should be a straightforward extension. 
+
+### Large Lawvere theory of a monad
 
 Let $T: Set \to Set$ be a [[monad]] on [[Set]], with unit $u: 1 \to T$ and multiplication $m: T T \to T$. 
 
@@ -110,10 +118,13 @@ where the last composite uses the fact that $Y$ is product-preserving. Putting $
 
 $$T(Y(1)) \to Set(Y(1)^{Y(1)}, Y(1)) \stackrel{ev_{id}}{\to} Y(1)$$ 
 
-and this defines the putative algebra structure on $X$. 
+and this defines the algebra structure on $X$. The model $M_X$ is the functor which sends the set $[n]$ (as an object in $Kl(T)$) to $Alg(T[n], X)$, and there is an isomorphism 
 
-To be continued. 
+$$Alg(T[n], X) \cong Set([n], Y(1)) \cong Y(n)$$ 
+
+The proof that this isomorphism is natural with respect to homomorphisms of free algebras $T[n] \to T[m]$ is an exercise in chasing definitions which we leave to the reader. 
 =--
+
 
 ### The monad of a locally small Lawvere theory 
 
@@ -131,7 +142,7 @@ Morphism composition in $C$ induces a map $\xi: T[m] \times T[n]^m \to T[n]$:
 
 $$T[m] \times T[n]^m = C(i[m], i[1]) \times C(i[n], i[1])^m \cong C(i[m], i[1]) \times C(i[n], i[m]) \stackrel{comp}{\to} C(i[n], i[1]) = T[n]$$ 
 
-Putting $[m] = T[n]$, there is a map $T T[n] \to T[n]$ that sends $\theta \in T T[n]$ to $\xi(\theta, 1_{T[n]} \in T[n]$. This is evidently natural in $[n]$ and defines a natural transformation $m: T T \to T$. 
+Putting $[m] = T[n]$, there is a map $T T[n] \to T[n]$ that sends $\theta \in T T[n]$ to $\xi(\theta, 1_{T[n]}) \in T[n]$. This is evidently natural in $[n]$ and defines a natural transformation $m: T T \to T$. 
 
 
 ## Metaphor
