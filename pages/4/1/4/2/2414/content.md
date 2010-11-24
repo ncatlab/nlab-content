@@ -43,7 +43,7 @@ Next
 
 ## $(1,1)d$ EFTs
 
-recall the **commercial for supergeometry**  with which we ended [last time](Axiomatic field theories and their motivation from topology): the grading introduced by supergemetry makes it possible to have push-forward diagrams of the kind:
+recall the **commercial for supergeometry**  with which we ended [[Axiomatic field theories and their motivation from topology|last time]]: the grading introduced by supergeometry makes it possible to have push-forward diagrams of the kind:
 
 $$
   \array{
