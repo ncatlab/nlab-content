@@ -62,6 +62,10 @@ Closely related to both these perspectives, a modern point of view on differenti
 
 A multitude of notions of cohomology and its variants are unified from the $n$POV when viewed as [[derived hom space|∞-categorical hom-spaces]] in [[(∞,1)-topoi]]. See [[cohomology]].
 
+#### Hochschild (co)homology
+
+Specifically, the subject of [[Hochschild cohomology]], when generalized to _higher order Hochschild cohomology_ effectively merges into the canonical concept of [[(∞,1)-powering]] of an [[(∞,1)-topos]] over [[∞Grpd]]. See [[Hochschild cohomology]] for details.
+
 ### In homotopy theory {#InHomotopyTheory}
 
 The study of [[homotopy theory]] originated in the study of categories such as those of [[topological space]]s and other objects such as [[chain complex]]es whose [[morphism]]s were known to admit a notion of [[homotopy]]. Historically, in a sequence of steps formalisms were proposed that would organize the rich interesting structure found in such situations. As a first approximation the notion of [[homotopy category]] and [[derived category]] was introduced in order to deal with structures "up to homotopy". But it was clear that the [[homotopy category]] captured only a very small part of the interesting information. Quillen introduced the notion of [[model category]] as a formalization of the full structure, and this formalization turned out to yield a powerful theory that today provides a powerful toolset for dealing with homotopy theoretic situations.
