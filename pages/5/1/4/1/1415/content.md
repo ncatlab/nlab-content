@@ -2,11 +2,11 @@
 
 This Sandbox is specifically for mucking about with SVGs.  The point is that these pictures can get rather large (particularly if automatically generated - does anyone write their own?).  A Sandbox, such as [[Sandbox|this one]] is for trying things out.  Usually those are little things, such as getting the correct syntax for something, so if the Sandbox gets really big and takes ages to load and resubmit, it gets difficult to try out lots of little changes.  One SVG, such as my original one, can easily swamp the 'box.  However, as I've found out, getting SVGs to work in Instiki can take a little tweaking so this 'box is for that.
 
-One shouldn't leave an SVG [fort worth web development](http://thefowlergroup.com/fort-worth-texas-web-development/) here for long.  I don't think that there's much to be learnt from looking through someone else's SVG code (unlike in the original [[Sandbox]] where it can be useful to scan through and see how something is done).  Rather, you should muck about with your SVG, get it right, and then transfer it across to the requisite page.
+One shouldn't leave an SVG here for long.  I don't think that there's much to be learnt from looking through someone else's SVG code (unlike in the original [[Sandbox]] where it can be useful to scan through and see how something is done).  Rather, you should muck about with your SVG, get it right, and then transfer it across to the requisite page.
 
 A reasonable rule would be that the author should delete it when they are finished with it, and that the maximum lifespan of a picture here is, say, 1 week.  To make this easier to police, please timestamp your SVGs.
 
-Obviously as we play with these then we'll learn various [fort worth search engine optimization](http://www.thefowlergroup.com/fort-worth-texas-search-engine-optimization-seo-experts/) strategies.  These should be added to the [[FAQ]] or [[HowTo]] pages as appropriate.  Maybe we should have a list of SVGs in the n-Lab so that people can find examples of what can be done and how to do it, this could be commented with what has had to be done to get it to work in Instiki.  If someone has a particularly nice example, or one they're particularly proud of, but doesn't really fit into an "honest" page on the n-Lab then may I suggest they put it on their userpage (I'll probably do that with the "map of manifolds" one since it doesn't really fit anywhere else).
+Obviously as we play with these then we'll learn various strategies.  These should be added to the [[FAQ]] or [[HowTo]] pages as appropriate.  Maybe we should have a list of SVGs in the n-Lab so that people can find examples of what can be done and how to do it, this could be commented with what has had to be done to get it to work in Instiki.  If someone has a particularly nice example, or one they're particularly proud of, but doesn't really fit into an "honest" page on the n-Lab then may I suggest they put it on their userpage (I'll probably do that with the "map of manifolds" one since it doesn't really fit anywhere else).
 
 
 ##### Original import from the [[Sandbox]] #####
@@ -62,7 +62,7 @@ Doing a quick LaTeX -> Inkscape -> SVG -> nLab test [[Bruce Bartlett]]:
 
 (removed; see [revision 10](http://ncatlab.org/nlab/revision/Sandbox+>+SVG/10))
 
-As you can see, the trouble with this method is that Inkscape is exporting the text as spline primitives... which takes up way too much space. I guess that just returns to the old problem: you can't mix MathML and SVG. Now I remember (I _knew_ there was some kind of nasty problem with this MathML, SVG and Instiki thing and [fort worth web design](http://www.thefowlergroup.com/fort-worth-texas-web-design/)... and now 
+As you can see, the trouble with this method is that Inkscape is exporting the text as spline primitives... which takes up way too much space. I guess that just returns to the old problem: you can't mix MathML and SVG. Now I remember (I _knew_ there was some kind of nasty problem with this MathML, SVG and Instiki thing... and now 
 I remember).  [[Bruce Bartlett]]
 
 Ok, I'm giving it another go. Now I'm trying Andrew's method --- you do a diagram:
