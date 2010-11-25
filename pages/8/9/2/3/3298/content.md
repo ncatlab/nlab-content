@@ -884,7 +884,15 @@ From the above we see that this is the same as finding an $k$-split extension of
 See for instance [Ginzburg, section 7](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf) and for more see [[deformation quantization]].
 
 
-### Hochschild (co)homology and differential forms/vector fields {#HochschildKostantRosenberg} 
+
+
+
+
+### Algebra structure on $(HH^\bullet(A,A), HH_\bullet(A,A))$ {#AlgebraStrucOnHochschild}
+
+
+#### Differential calculus {#DifferentialCalculus}
+
 
 It turns out that
 
@@ -894,9 +902,12 @@ It turns out that
 
 * there are  natural pairings between $HH_\bullet(\mathcal{O}(X), \mathcal{O}(X))$ and $HH^\bullet(\mathcal{O}(X), \mathcal{O}(X))$ that mimic the structure of the natural pairings between vector fields and differential forms on [[smooth manifold]].
 
+See ([TamarkinTsygan](#TamarkinTsygan)).
+
+
 One way to understand or interpret this conceptually is to regard the [[derived loop space]] object of a 0-[[truncated]] object $X$ to consist of [[infinitesimal object|infinitesimal]] loops in $X$.
 
-#### Hochschild-Kostant-Rosenberg theorem
+##### Hochschild-Kostant-Rosenberg theorem {#HochschildKostantRosenberg} 
 
 The **[[Hochschild-Kostant-Rosenberg theorem]]** states that under suitable conditions, the Hochschild homology of an algebra (with coeficients in itself) computes the wedge powers of its [[Kähler differential]]s.
 
@@ -1000,9 +1011,65 @@ $$
 This is reviewed for instance as ([Weibel, theorem 9.4.7](#Weibel)) or as ([Ginzburg, theorem 9.1.3](#Ginzburg)).
 
 
-#### Differential calculus on $(HH^\bullet(A,A), HH_\bullet(A,A))$
 
-See ([TamarkinTsygan](#TamarkinTsygan)).
+#### String topology BV-algebra {#StringTopology}
+
+Let $X$ be a [[compact manifold]] [[oriented]] [[smooth manifold]] of [[dimension]] $d$. Write $C^\bullet(X)$ for the [[dg-algebra]] of cochains for [[singular cohomology]] of $X$. Write $L X$ for the topological [[free loop space]] of $X$ and $H_\bullet(L X)$ for its [[singular homology]].
+
+
++-- {: .un_theorem }
+###### Theorem
+
+There is a linera isomorphism of degree $d$
+
+$$
+  \mathbb{D}
+  :
+  HH^{-p-q}(C^\bullet(X), C^\bullet(X)^{\vee})
+    \simeq
+  HH^{-p}(C^\bullet(X), C^\bullet(X))
+  \,.
+$$
+
+=--
+
+This is due to ([FelixThomasVigue-Poirrier, section 7](#FelixThomasVigue-Poirrier))).
+
++-- {: .un_theorem }
+###### Theorem
+**(Jones' theorem)**
+
+There is an [[isomorphism]]
+
+$$
+  J 
+  : 
+  H_{p+q}(L X) 
+    \stackrel{\simeq}{\to}  
+  HH^{-p-d}(C^\bullet(X), C^\bullet(X)^{\vee})
+$$
+
+such that the canonical [[string topology]] [[BV-operator]] $\Delta$ of the [[BV-algebra]] $H_{\bullet + d}(L X)$ and the [[Connes coboundary]] $B^\vee$ on $HH^{\bullet-d}(C^\bullet(X), C^\bullet(X)^{\vee})$ satisfy
+
+$$
+  J \circ \Delta = B^{\vee} \circ J
+  \,.
+$$
+
+=--
+
+This is due to ([Jones](#Jones)).
+
+
++-- {: .un_theorem }
+###### Theorem
+
+The [[Connes coboundary]] defines via the isomorphism $\mathbb{D}$ from above the structure of a [[BV-algebra]] on $HH^\bullet(C^\bullet(X), C^\bullet(X))$.
+
+
+=--
+
+This is ([Menichi, theorem 3](#Menichi)).
 
 
 ### Relation to cyclic (co)homology
@@ -1050,6 +1117,18 @@ A survey of higher order Hochschild (co)homology and further developments and re
 
 * [[Grégory Ginot]], _Higher order Hochschild cohomology ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
 
+Jones's theorem is due to
+
+* J. D. S. Jones, _Cyclic homology and equivariant homology_ , Invent. Math. 87
+(1987), no. 2, 403{423.
+{#Jones}
+
+The BV-algebra structure on Hochschild cohomology of singular cochain algebras is discussed in
+
+* Y. F&eacute;lix, J.-C. Thomas, M. Vigu&eacute;-Poirrier, _The Hochschild cohomology of a closed manifold_ Publ. Math. IH&Eacute;S Sci. (2004) no 99, 235-252
+{#FelixThomasVigue-Poirrier}
+
+* Luc Menichi, _Batalin-Vilkovisky algebra structures on Hochschild cohomology_ ([pdf](http://math.univ-angers.fr/perso/lmenichi/BV_Hochschild.pdf))
 
 The abstract differential caclulus on $(HH^\bullet(A,A), HH_\bullet(A,A))$ is discussed for instance in
 
