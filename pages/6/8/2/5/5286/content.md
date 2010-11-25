@@ -37,9 +37,7 @@ A **Batalin-Vilkovisky algebra** or **BV-algebra** for short is
 +-- {: .un_theorem}
 ###### Theorem
 
-The [[operad]] for BV-algebras is the [[homology]] of the [[little k-cubes operad|framed little disks operad]].
-
-Accordingly the [[homology]] of an [[En-algebra|E2-algebra]] in chain complexes is a BV-algebra.
+The [[operad]] for BV-algebras is the [[homology]] of the [[framed little 2-disk operad]].
 
 =--
 
@@ -53,7 +51,7 @@ This is due to ([Getzler](#Getzler))
 
 ## References
 
-* [[Ezra Getzler]] (1994)
+* [[Ezra Getzler]], _Batalin-Vilkovisky algebras and two-dimensional topological field theories_ , Comm. Math. Phys. 159 (1994), no. 2, 265&#8211;285. ([arXiv](http://arxiv.org/abs/hep-th/9212043))
 {#Getzler}
 
 
