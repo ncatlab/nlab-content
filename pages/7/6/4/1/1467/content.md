@@ -113,4 +113,8 @@ Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even
 [[!redirects compact convergence spaces]]
 [[!redirects compact locales]]
 
+[[!redirects compact manifold]]
+[[!redirects compact manifolds]]
+
+
 [[!redirects compact]]
