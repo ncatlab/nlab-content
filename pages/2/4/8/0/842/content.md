@@ -703,6 +703,8 @@ See [[Higher Topos Theory|HTT, section 4.4.4]].
 
 #### Models {#ModelsForTensoring}
 
+We discuss models for $(\infty,1)$-(co)limits in terms of ordinary [[category theory]] and [[homotopy theory]].
+
 +-- {: .un_lemma}
 ###### Observation
 
@@ -840,3 +842,5 @@ A detailed account is in [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/
 [[!redirects limit in an (∞,1)-category]]
 [[!redirects limits in an (∞,1)-category]]
 [[!redirects limits in (∞,1)-categories]]
+
+[[!redirects (∞,1)-powering]]
