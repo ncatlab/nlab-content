@@ -199,3 +199,7 @@ A detailed discussion of $E_k$ in the context of [[(∞,1)-operads]] is in
 
 [[!redirects E-k operad]]
 [[!redirects E-k operad]]
+
+
+[[!redirects little disk operad]]
+[[!redirects little 2-disk operad]]
