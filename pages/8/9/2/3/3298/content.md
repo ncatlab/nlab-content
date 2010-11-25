@@ -388,12 +388,11 @@ We demonstrate how the above $(\infty,1)$-category theoretic definition of highe
 
 Let $T$ be a [[Lawvere theory]] regarded as a 0-[[truncated]] [[(∞,1)-algebraic theory]]. 
 
-Consider a [[model structure on simplicial T-algebras]] [[presentable (∞,1)-category|presenting]] $T Alg_\infty$ such that 
+Consider a [[model structure on simplicial T-algebras]]/on [[homtoopy T-algebras]] [[presentable (∞,1)-category|presenting]] $T Alg_\infty$ such that 
 
 1. it is a [[simplicial model category]];
 
-1. simplicially constant simplicial algebras are fibrant.
-
+1. simplicially constant simplicial algebras are cofibrant.
 
 Then for $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ and $K \in \infty Grpd$ the higher order Hochschild homology complex $K \cdot \mathcal{O}(X)$  is presented by the ordinary [[tensoring]] $K \cdot \mathcal{O}(X)$ in the model category, for $K$ any [[simplicial set]] incarnation of the $\infty$-groupoid.
 
@@ -402,7 +401,7 @@ Then for $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ and $K \in \inf
 +-- {: .proof}
 ###### Proof
 
-The $(\infty,1)$-tensoring in an $(\infty,1)$-category [[presentable (∞,1)-category|presented]] by a [[simplicial model category]] is modeled by the ordinary [[tensoring]] of the latter on a fibrant [[resolution]] of the given object. This is discussed in the section <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#ModelsForTensoring">∞-tensoring -- models</a>.
+The $(\infty,1)$-tensoring in an $(\infty,1)$-category [[presentable (∞,1)-category|presented]] by a [[simplicial model category]] is modeled by the ordinary [[tensoring]] of the latter on a cofibrant [[resolution]] of the given object. This is discussed in the section <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#ModelsForTensoring">∞-tensoring -- models</a>.
 
 =--
 
@@ -411,7 +410,9 @@ The $(\infty,1)$-tensoring in an $(\infty,1)$-category [[presentable (∞,1)-cat
 
 We can always use the [[model structure on homotopy T-algebras]] to satisfy the assumption of the above proposition. That is a [[simplicial model category]] for every $T$ and every ordinary algebra is fibrant in this structure. 
 
-If however we find a simplicial [[model structure on simplicial T-algebras]] then the coproduct is the tensor product of algebras, and we get explicitly Pirashvili's formulation, as described in the next example.
+Notice that in this model category if $\mathcal{O}(X)$ is fibrant, then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathfrak{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homtopy T-algebra]].
+
+On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kann correspondence]]) Pirashvili's formulation of higher order Hochschid homology, as described in the next example.
 
 =--
 
