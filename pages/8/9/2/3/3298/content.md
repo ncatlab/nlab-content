@@ -379,7 +379,7 @@ For $A$ an ordinary associatve algebra, hence in particular an $E_1$-algebra, an
 
 We unwind the above generall abstract definition in special classes of examples and find more explicit and more traditional definitions of Hochschild homology.
 
-#### Pirashvili's higher order Hochschild homology
+#### Pirashvili's higher order Hochschild homology {#PirashviliHigherOrder}
 
 We demonstrate how the above $(\infty,1)$-category theoretic definition of higher order Hochschild homology reproduces the simplicial definition by ([Pirashvili](#Pirashvili)).
 
@@ -927,7 +927,7 @@ This is reviewed for instance as ([Weibel, theorem 9.4.7](#Weibel)) or as ([Ginz
 +-- {: .un_lemma }
 ###### Observation
 
-The higher order Hochschild homology $\mathcal{O} X^{S^d}$ of an object $X$ with respect to the $n$-sphere $S^d$ and with coefficients in a [[integral transforms on sheaves|geometric function object]] is naturally an $E_{d+1}$-algebra: an [[algebra over an operad]] over the [[little k-cubes operad]] for $k = d+1$ .
+The [higher order Hochschild homology](PirashviliHigherOrder) $\mathcal{O} (X^{S^d})$ of an object $X$ with respect to the $d$-[[sphere]] $S^d$ and with coefficients in a [[integral transforms on sheaves|geometric function object]] is naturally an [[Ek-Algebras|E(d+1)-algebra)]]: an [[algebra over an operad]] over the [[little k-cubes operad]] for $k = d+1$ .
 
 For let $\Sigma^{d+1} = D^{d+1}\setminus \coprod_r D^{d+1}$ be the $(d+1)$-[[ball]] with $r$ small $d+1$-balls taken out. We have a [[cospan]] of boundary inclusions
 
@@ -943,19 +943,24 @@ $$
 
 in [[∞Grpd]] and under $LConst : \infty Grpd \to \mathbf{H}$ then also in our [[(∞,1)-topos]].
 
-Applying the <a href="http://ncatlab.org/nlab/show/(infinity,1)-topos#ClosedMonoidalStructure">(∞,1)-topos internal hom</a> into a given object $X \in \mathbf{H}$ to this [[cospan]] produces the [[span]]
+Applying the <a href="http://ncatlab.org/nlab/show/(infinity,1)-topos#ClosedMonoidalStructure">(∞,1)-topos internal hom</a> $[-,X]$ or equivalent the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-powering</a> $X^{(-)}$ into a given object $X \in \mathbf{H}$ to this [[cospan]] produces the [[span]]
 
 $$
   \array{
      && X^{\Sigma^{d+1}}
      \\
-     & {}^{\mathllap{i}}\swarrow && \searrow^{mathrlap{o}}
+     & {}^{\mathllap{i_r}}\swarrow && \searrow^{mathrlap{o}}
      \\
      \prod_r X^{S^d} &&&& X^{S^d}
   }
 $$ 
 
-in $\mathbf{H}$. Then the [[integral transforms on sheaves]] $o_! i^*$
+in $\mathbf{H}$. Then the [[integral transforms on sheaves]] 
+
+$$
+  o_1 i_r^* : \prod_r \mathbf{H}/X^{S^d} \to \mathbf{H}/X^{d}
+$$
+
 induced by these spans constitute the $E_n$-action on the function objects on $X^{S^d}$.
 
 =--
