@@ -1,3 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Intuitionistic logic was introduced by Heyting as a
 formalism intended to encode Brouwer's [[constructive mathematics|constructivism]].
 It is most easily described as [[classical logic]] without
