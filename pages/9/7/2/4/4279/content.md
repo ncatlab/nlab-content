@@ -102,7 +102,7 @@ A state $\rho$ of a representation is called a **vector state** if there is a $x
 Normal states are vector states if $\mathcal{R}$ is a [[von Neumann algebra]] with a separating vector. More precisely: Let $\mathcal{R}$ be a von Neumman algebra acting on a Hilbert space $\mathcal{H}$, let $\rho$ be a normal state of $\mathcal{R}$ and $x \in \mathcal{H}$ be a separating vector for $\mathcal{R}$, then there is a $y \in \mathcal{H}$ such that $\rho(R) = \langle Ry, y \rangle$ for all $R \in \mathcal{R}$.
 =--
 
-This appeas as [KadisonRingrose, theorem 7.2.3](#KadisonRingrose).
+This appears as [KadisonRingrose, theorem 7.2.3](#KadisonRingrose).
 
 The set of states of an $C^*$-algebra is sometimes called the **state space**.
 
@@ -124,7 +124,7 @@ An important theorem for the physical interpretation of states is [[Fell's theor
 
 ## References 
 
-* Richard Kadison, John Ringrose, _Fundamentals of the theory of operator algebras_ AMS (1991)
+* Richard Kadison, John Ringrose, _Fundamentals of the theory of operator algebras_,AMS (1991)
 {#KadisonRingrose}
 
 
