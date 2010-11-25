@@ -310,7 +310,7 @@ Follows by the above from the equivalence $[LConst S^1 , X] \simeq X^{S^1}$ disc
 
 =--
 
-#### Intrinsic circle action
+#### Intrinsic circle action {#CircleAction}
 
 
 
