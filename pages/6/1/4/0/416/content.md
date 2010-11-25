@@ -43,3 +43,5 @@ where $C(-,-)$ is the $V$-valued hom of $C$ and $V(-,-)$ is the internal-hom of 
 [[!redirects powers]]
 [[!redirects cotensors]]
 [[!redirects cotensored category]]
+
+[[!redirects powering]]
