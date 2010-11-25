@@ -6,24 +6,12 @@
 
 ## Idea
 
-The notion of smooth $(\infty,1)$-algebra is the analog in [[higher category theory]] of [[smooth algebra]].
+The notion of smooth $(\infty,1)$-algebra is the analog in [[higher category theory]] of [[smooth algebra]]. This is the basis for the [[derived geometry]] version of [[differential geometry]]/[[synthetic differential geometry]].
 
 ## Definition
 
-A [[smooth algebra]] is an algebra over [[CartSp]] regarded as a [[Lawvere theory]]. 
+A **smooth $\infty$-algebra** is an [[∞-algebra over an (∞,1)-algebraic theory]] $T$ for $T$ the ordinary [[Lawvere theory]] of [[smooth algebra]]s.
 
-Accordingly, a smooth $(\infty,1)$-algebra is an algebra over [[CartSp]] regarded as an [[(∞,1)-algebraic theory]]: a product-preserving [[(∞,1)-functor]] $CartSp \to $ [[∞Grpd]].
-
-The [[(∞,1)-category]] of smooth $(\infty,1)$-algebras is accordingly the full [[sub-(∞,1)-category]]
-
-$$
-  (\infty,1)Func_\times(CartSp, \infty Grpd) \subset
-  Func(CartSp, \infty Grpd)
-$$
-
-on product-preserving $(\infty,1)$-functors of the [[(∞,1)-category of (∞,1)-functors]] from [[CartSp]] to [[∞Grpd]].
-
-As described at [[(∞,1)-algebraic theory]], this may be [[presentable (∞,1)-category|presented]] by for instance a [[model category]] structure on [[simplicial object]]s in the category of [[smooth algebra]]s, or by a model structure on simplicial co-presheaves.
 
 ## Applications
 
