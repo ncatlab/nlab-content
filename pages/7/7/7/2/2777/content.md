@@ -10,7 +10,7 @@ These are notes on
 
 * [[Jacob Lurie]], _$\mathbb{E}[k]$-Algebras_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
-Using the definition of the notion [[(∞,1)-operad]] in terms of a [[vertical categorification]] of the notion of [[category of operators]], the article discusses the $(\infty,1)$-version $\mathbb{E}_k$ of the [[little cubes operad]]s.
+Using the definition of the notion [[(∞,1)-operad]] in terms of a [[vertical categorification]] of the notion of [[category of operators]], the article discusses the  $\mathbb{E}_k$- or [[little cubes operad]]s and its [[En-algebras]].
 
 A major application in the second part of the article is the study of [[topological chiral homology]].
 
