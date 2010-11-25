@@ -30,9 +30,23 @@ This carries an <a href="http://ncatlab.org/nlab/show/free+loop+space+object#Cir
 
 =--
 
-After unwinding what this means in algebraic terms, one obtains the tradional way of conceiving Hochschild cohomology as well as various generalizations.
+Even more general abstractly, if one passes to _higher order Hochschild cohomology_ the concept effectively merges into the canonical concept of <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-powering</a> of any [[(∞,1)-topos]] over [[∞Grpd]].
 
-Hochschild homology and cohomology are characteristic objects associated to  a [[bimodule]] $N$ over a [[monoid]] $A$, in a context where $A$ is really to be thought of as a [[algebra in an (infinity,1)-category|monoid in an monoidal (∞,1)-category]].
++-- {: .standout}
+
+For $K$ an [[∞-groupoid]] and $X \in \mathbf{H}$ an object in an [[(∞,1)-topos]], the higher order Hochschild cohomology of $X$ parameterized by $K$ is the cohomology of the $(\infty,1)$-[[powering]] 
+
+$$
+  [K,X] \simeq X^K
+  \simeq {\lim_\leftarrow}_K X
+  \,.
+$$
+
+=--
+
+After unwinding what this means in algebraic terms, one obtains the tradional way of conceiving Hochschild cohomology as well as various generalizations such as [[topological chiral homology]], [[blob homology]] and [[factorization algebra]]s.
+
+Ordinary Hochschild homology and cohomology are characteristic objects associated to  a [[bimodule]] $N$ over a [[monoid]] $A$, in a context where $A$ is really to be thought of as a [[algebra in an (infinity,1)-category|monoid in an monoidal (∞,1)-category]].
 
 If the [[monoid]] in  question plays the role of an _algebra of functions_ on a [[space]] $X$, $A = C(X)$,
 then this has geometric interpretations. Notably
@@ -267,16 +281,6 @@ $$
   \,.
 $$
 
-### Differential forms and Hochschild (co)homology
-
-The above identifies Hochschild homology objects of function algebras with function algebras on a [[free loop space object]]. If one adds to this the observation that for a sufficiently wel behaved ordinary space regarded as [[derived stack]] its free loop space object is essentially the formal dual of the algebra of [[Kähler differential]] forms, one recovers from a [[higher geometry]] picture the stamenet of the Hochschild-Kostant-Rosenberg theorem mentioned above. Details are in
-
-* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322))
-
-* [[Bertrand Toen]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
-
-Notice that the function algebra on the derived loop space is just the differential forms as a graded algebra, without the differential. The differential itself comes from the $S^1$-action on the loop space.
-
 
 
 
@@ -287,18 +291,30 @@ We start with the general-abstract definition of Hochschild homology and then lo
 
 ### General abstract {#GeneralAbstractDefinition}
 
+We look at the very general abstract definition of Hochschild (co)homology and some important subcases.
+
 #### Hochschild homology
 
 +-- {: .un_def}
 ###### Definition
 
-Given an [[(∞,1)-topos]] $\mathbf{H}$, the **Hochschild cohomology** of an [[object]] $X \in \mathbf{H}$ is the [[cohomology]] (with whatever coefficients) of the [[free loop space object]] $\mathcal{L}X \simeq X^{S^1}$.
+Given an [[(∞,1)-topos]] $\mathbf{H}$, the **Hochschild cohomology** of an [[object]] $X \in \mathbf{H}$ is the [[cohomology]] (with whatever coefficients) of the [[free loop space object]] 
 
-More generally, for $K$ any [[∞-groupoid]], the **higher order Hochschild cohomology** of $X$ given by $K$ is the [[cohomology]] of the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">powering</a> $X^K$.
+$$
+  \mathcal{L}X \simeq [S^1,X] \simeq X^{S^1}
+  \,.
+$$
+
+More generally, for $K$ any [[∞-groupoid]], the **higher order Hochschild cohomology** of $X$ given by $K$ is the [[cohomology]] of the <a href="http://ncatlab.org/nlab/show/(infinity,1)-topos#ClosedMonoidalStructure">(∞,1)-topos internal hom</a> [K, X], equivalently the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-powering</a> of $X$ by $K$, equivalently the [[(∞,1)-limit]] ${\lim_\leftarrow}_K X$ over the [[diagram]] $K$ of the [[(∞,1)-functor]] $const X : K \to \mathbf{H}$ constant on $X$:
+
+$$
+  [K, X] \simeq X^K \simeq {\lim_\leftarrow}_K X
+  \,.
+$$
 
 =--
 
-Notice that this defines Hochschild cohomology for [[∞-stack]]s. Usually Hochschild cohomology is formulated in terms of the corresponding [[function algebras on ∞-stacks]] $\mathcal{O}(X)$, under [[Isbell duality]]. The Hochschild cohomology of $X$ then corresponds to what is called the Hochschild _homology_ of $\mathcal{O}(X)$.
+This defines Hochschild cohomology very generally for [[∞-stack]]s, which we think of as geoemtric objects in [[higher geometry]]. Usually Hochschild cohomology is formulated in terms of the corresponding [[function algebras on ∞-stacks]] $\mathcal{O}(X)$, under [[Isbell duality]]. The Hochschild cohomology of $X$ then corresponds to what is called the Hochschild _homology_ of $\mathcal{O}(X)$.
 
 The following definition formalizes a special class of cases of the above general abstract definition that reproduces the notion of Hochschild homology for [[(∞,1)-algebraic theory|∞-algebra]]s as usually understood.
 
@@ -351,6 +367,8 @@ Because the [[(∞,1)-Yoneda embedding]] preserves [[(∞,1)-limits]] the limit 
 
 =--
 
+This definition of general higher order Hochschild homology by $(\infty,1)$-tensoring is almost explicit in ([GinotTradlerZeinalian](#GinotTradlerZeinalian)).
+
 #### Topological chiral homology {#TopologicalChiralHomology}
 
 Notice that the tensoring that gives the Hochschild homology is given by the $\infty$-colimit ove the constant functor
@@ -373,6 +391,8 @@ $$
 is called the [[topological chiral homology]] of $X$.
 
 For $A$ an ordinary associatve algebra, hence in particular an $E_1$-algebra, and $X$ the circle, this reproduces the ordinary Hochschild homology of $A$ (see below).
+
+For more details see ([GinotTradlerZeinalian](#GinotTradlerZeinalian)).
 
 ### Specific concrete
 
@@ -409,7 +429,7 @@ The $(\infty,1)$-tensoring in an $(\infty,1)$-category [[presentable (∞,1)-cat
 
 We can always use the [[model structure on homotopy T-algebras]] to satisfy the assumption of the above proposition. That is a [[simplicial model category]] for every $T$ and every ordinary algebra is fibrant in this structure. 
 
-Notice that in this model category if $\mathcal{O}(X)$ is fibrant, then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathfrak{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homotopy T-algebra]].
+Notice that in this model category if $\mathcal{O}(X)$ is fibrant, then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathcal{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homotopy T-algebra]].
 
 On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]) Pirashvili's formulation of higher order Hochschid homology, as described below in [Examples -- Simplicial algebra on the circle](#SimplicialCircleAlgebra).
 
@@ -1064,6 +1084,7 @@ This derivation
 
 ### Algebra structure on $(HH^\bullet(A,A), HH_\bullet(A,A))$ {#AlgebraStrucOnHochschild}
 
+There is rich algebraic structure on Hochschild homology and cohomology itself, and on the pairing of the to. We describe various aspects of this.
 
 #### Differential calculus {#DifferentialCalculus}
 
@@ -1462,7 +1483,7 @@ or in chapter 4 of
 
 An original paper on this is
 
-* Tsygan and Feigin,  _Additive K-theory_ 1980-s (LNM 1289, editor Manin, pp 67-209, seminar 1984-1986 in Moscow)
+* [[Boris Tsygan]],  Feigin,  _Additive K-theory_ 1980-s (LNM 1289, editor Manin, pp 67-209, seminar 1984-1986 in Moscow)
 
  
 The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop space object]]s and their [[geometric ∞-function theory]] is discussed in
@@ -1473,7 +1494,6 @@ The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop sp
 
 * [[Bertrand Toen]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
 
-
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], 
   _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
 {#Ben-ZviFrancisNadler}
@@ -1483,9 +1503,14 @@ The definition of higher order Hochschild complex as (implicitly) the tensoring 
 * [[Teimuraz Pirashvili]], _Hodge decomposition for higher order Hochschild homology_ Annales Scientifiques de l'&#201;cole Normale Sup&#233;rieure Volume 33, Issue 2, March 2000, Pages 151-179 ([ps](http://www.mathematik.uni-bielefeld.de/sfb343/preprints/pr98058.ps.gz))
 {#Pirashvili}
 
-A survey of higher order Hochschild (co)homology and further developments and results are described in
+A survey of traditional higher order Hochschild (co)homology and further developments and results are described in
 
 * [[Grégory Ginot]], _Higher order Hochschild cohomology ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
+
+A discussion of higher order Hochschild cohomology from a more general $(\infty,1)$-categorical perspective is in 
+
+* [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_ ([pdf](http://websupport1.citytech.cuny.edu/faculty/ttradler/HighHoch.pdf))
+{#GinotTradlerZeinalian}
 
 Jones's theorem is due to
 
@@ -1505,6 +1530,13 @@ The abstract differential caclulus on $(HH^\bullet(A,A), HH_\bullet(A,A))$ is di
 * [[Dmitry Tamarkin]], [[Boris Tsygan]], _Cyclic Formality and Index Theorems_ ,  Letters in Mathematical Physics
 Volume 56, Number 2, 85-97 ([journal](http://www.springerlink.com/content/u33hv13g0669h414/))
 {#TamarkinTsygan}
+
+A detailed discussion of the relation between functions on the derived loop space differential forms is in
+
+* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322))
+
+* [[Bertrand Toen]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
+
 
 A review of Deligne's conjecture and its solutions is in
 
