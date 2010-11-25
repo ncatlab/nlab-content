@@ -380,21 +380,27 @@ We demonstrate how the above $(\infty,1)$-category theoretic definition of highe
 
 Let $T$ be a [[Lawvere theory]] regarded as a 0-[[truncated]] [[(∞,1)-algebraic theory]]. 
 
-Then for $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ and $K \in \infty Grpd$ the higher order Hochschild homology complex $K \cdot \mathcal{O}(X)$ is presented in a [[model structure on simplicial T-algebras]] that is a [[simplicial model category]] by the ordinary [[tensoring]] $K \cdot \mathcal{O}(X)$ for $K$ any [[simplicial set]] incarnation of the $\infty$-groupoid.
+Then for $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ and $K \in \infty Grpd$ the higher order Hochschild homology complex $K \cdot \mathcal{O}(X)$ is presented in a [[model structure on simplicial T-algebras]] such that 
+
+1. it is a [[simplicial model category]] 
+
+1. simplicially constant simplicial algebras are fibrant
+
+by the ordinary [[tensoring]] $K \cdot \mathcal{O}(X)$ for $K$ any [[simplicial set]] incarnation of the $\infty$-groupoid.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The $(\infty,1)$-tensoring in an $(\infty,1)$-category [[presentable (∞,1)-category|presnted]] by a [[simplicial model category]] is modeled by the ordinary tensoring of the latter.
+The $(\infty,1)$-tensoring in an $(\infty,1)$-category [[presentable (∞,1)-category|presented]] by a [[simplicial model category]] is modeled by the ordinary [[tensoring]] of the latter on a fibrant [[resolution]] of the given object. This is discussed in the section <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#ModelsForTensoring">∞-tensoring -- models</a>.
 
 =--
 
 +-- {: .un_remark}
 ###### Remark
 
-Notice that we can always use the [[model structure on homotopy T-algebras]] to satisfy the assumption of the above proposition. That is a [[simplicial model category]] for every $T$. 
+We can always use the [[model structure on homotopy T-algebras]] to satisfy the assumption of the above proposition. That is a [[simplicial model category]] for every $T$ and every ordinary algebra is fibrant in this structure. 
 
 If however we find a simplicial [[model structure on simplicial T-algebras]] then the coproduct is the tensor product of algebras, and we get explicitly Pirashvili's formulation, as described in the next example.
 
