@@ -24,7 +24,7 @@ From the [[nPOV]] on [[cohomology]], the notion of Hochschild cohomology is the 
 
 +-- {: .standout}
 
-Hochschild cohomology is the [[cohomology]] $\mathbf{H}(\mathcal{L}X,C)$ of [[free loop space object]]s $\mathcal{L}X$ in a [[derived stack]] [[(∞,1)-topos]] $\mathbf{H}$ with coefficients in [[quasicoherent ∞-stack|quasicoherent ∞-stacks of modules]] $C$. 
+Hochschild cohomology is the [[cohomology]] $\mathbf{H}(\mathcal{L}X,C)$ of [[free loop space object]]s $\mathcal{L}X$ in a [[derived stack]] [[(∞,1)-topos]] $\mathbf{H}$. 
 
 This naturally inherits an $S^1$-action from the [[free loop space object]]. The $S^1$-[[equivariant cohomology]] refinement of Hochschild cohomology is [[cyclic cohomology]].
 
@@ -286,7 +286,7 @@ Notice that the function algebra on the derived loop space is just the different
 
 We start with the general-abstract definition of Hochschild homology and then look at special and more traditional cases.
 
-### General abstract
+### General abstract {#GeneralAbstractDefinition}
 
 #### Hochschild homology
 
@@ -388,13 +388,14 @@ We demonstrate how the above $(\infty,1)$-category theoretic definition of highe
 
 Let $T$ be a [[Lawvere theory]] regarded as a 0-[[truncated]] [[(∞,1)-algebraic theory]]. 
 
-Then for $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ and $K \in \infty Grpd$ the higher order Hochschild homology complex $K \cdot \mathcal{O}(X)$ is presented in a [[model structure on simplicial T-algebras]] such that 
+Consider a [[model structure on simplicial T-algebras]] [[presentable (∞,1)-category|presenting]] $T Alg_\infty$ such that 
 
-1. it is a [[simplicial model category]] 
+1. it is a [[simplicial model category]];
 
-1. simplicially constant simplicial algebras are fibrant
+1. simplicially constant simplicial algebras are fibrant.
 
-by the ordinary [[tensoring]] $K \cdot \mathcal{O}(X)$ for $K$ any [[simplicial set]] incarnation of the $\infty$-groupoid.
+
+Then for $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ and $K \in \infty Grpd$ the higher order Hochschild homology complex $K \cdot \mathcal{O}(X)$  is presented by the ordinary [[tensoring]] $K \cdot \mathcal{O}(X)$ in the model category, for $K$ any [[simplicial set]] incarnation of the $\infty$-groupoid.
 
 =--
 
@@ -799,95 +800,6 @@ This derivation
 ## Properties
 
 
-### Hochschild cohomology and extensions {#Extensions}
-
-+-- {: .un_def }
-###### Definition
-
-An [[exact sequence]] $0 \to N \to E \to R$ of $k$-modules where
-$E \to R$ is a surjective morphism of $k$-algebras is
-called a **$k$-split** extension or a **Hochschild extension** of $R$ by $E$ if the sequence is a [[split sequence]] as a sequence of $k$-[[module]]s.
-
-Two extensions are _equivalent_ if there is an isomorphism or $k$-algebra $E \stackrel{\simeq}{\to} E'$ that makes
-
-$$
-  \array{
-    N &\to& E &\to& R
-    \\
-    \downarrow^{\mathrlap{=}} && \downarrow && \downarrow^{\mathrlap{=}}
-    \\
-    N &\to& E' &\to& R
-  }
-$$
-
-commute.
-
-=--
-
-
-+-- {: .un_remark }
-###### Remark
-
-Due to the $k$-splitness assumption there is an isomorphism of $k$-modules $E \simeq R \oplus N$ and this is equipped with a $k$-algebra structure such that the product on the $R$ [[direct sum]]mand is that of $R$. From this we find that the product on $E$ is of the form
-
-$$
-  (r_1, n_1) \cdot (r_2, n_2) =
-  (r_1 r_2 , r_1 n_2 + r_2 n_1 + f(r_1, r_2))
-  \,,
-$$
-
-where $f : R \otimes_k R \to N$ is some $k$-linear map. Since the product on $E$ is (by definition) associative, it follows that for $f$ that this satisfies for all $r_0, r_1, r_2 \in R$ the _cocycle equation_
-
-$$
-  r_0 f(r_1, r_2) - f(r_0 r_1, r_2) + f(r_0 , r_1 r_2) - f(r_0, r_1) r_2 = 0
-$$
-
-as an equation in $N$. This says that $f$ must be a Hochschild cocycle
-
-$$
-  f \in HH^2(R,N)
-  \,.
-$$ 
-
-=--
-
-
-Conversely, every such cocycle yields a $k$-split extension of $R$ by $N$ this way:
-
-
-
-+-- {: .un_theorem }
-###### Theorem
-
-For $R$ a $k$-algebra and $N$ an $R$-[[bimodule]], equivalence
-classes of Hochschild extensions of $R$ by $N$ are in bijection with
-degree 2 Hochschild cohomology $HH^2(R,N)$.
-
-=--
-
-See for instance [[An Introduction to Homological Algebra|Weibel, theorem 9.3.1]].
-
-
-### Hochschild cohomology and deformations {#Deformations}
-
-As a special case of the above statement about extensions of $R$, we obtain a statement about _deformation_ of $R$.
-
-A standard problem is to deform a $k$-algebra $R$ by introducing a new "parameter" $t$ that squares to 0 -- $t \cdot t = 0$ and a new product
-
-$$
-  r_1 \cdot_t r_2 = r_1 r_2 + t f(r_1, r_2)  
-  \,.
-$$
-
-From the above we see that this is the same as finding an $k$-split extension of $R$ by itself. So in particular such extensions are given by Hochschild cocycles $f \in HH^2(R,R)$.
-
-See for instance [Ginzburg, section 7](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf) and for more see [[deformation quantization]].
-
-
-
-
-
-
 ### Algebra structure on $(HH^\bullet(A,A), HH_\bullet(A,A))$ {#AlgebraStrucOnHochschild}
 
 
@@ -966,7 +878,7 @@ Write $\Omega^0(R/k) := R \simeq HH_0(R,R)$.
 
 For $n \geq 2$ Write $\Omega^n(R/k) = \wedge^n_R \Omega(R/k)$ for the $n$-fold [[exterior algebra|wedge product]] of $\Omega(R/k)$ with itself: the degree $n$-K&#228;hler-differentials.
 
-+-- {: .num_theorem }
++-- {: .un_theorem }
 ###### Theorem
 
 The isomorphism $\Omega^1(R/k) \simeq H_1(R,R)$ extends to a graded ring morphism
@@ -980,10 +892,9 @@ $$
 
 If the $k$-algebra $R$ is sufficiently well-behaved, then this morphism is an [[isomorphism]] that identifies the Hochschild homology of $R$ in degree $n$ with $\Omega^n(R/k)$ for all $n$:
 
-+-- {: .num_theorem }
++-- {: .un_theorem }
 ###### Theorem
 **(Hochschild-Kostant-Rosenberg theorem)**
-
 
 
 If $k$ is a [[field]] and $R$ a commutative $k$-[[algebra]] which is 
@@ -1011,8 +922,86 @@ $$
 This is reviewed for instance as ([Weibel, theorem 9.4.7](#Weibel)) or as ([Ginzburg, theorem 9.1.3](#Ginzburg)).
 
 
+#### $E_n$-algebra structure: Deligne-Kontsevich conjecture/theorem {#EnAlgebraStructure}
 
-#### String topology BV-algebra {#StringTopology}
++-- {: .un_lemma }
+###### Observation
+
+The higher order Hochschild homology $\mathcal{O} X^{S^d}$ of an object $X$ with respect to the $n$-sphere $S^d$ and with coefficients in a [[integral transforms on sheaves|geometric function object]] is naturally an $E_{d+1}$-algebra: an [[algebra over an operad]] over the [[little k-cubes operad]] for $k = d+1$ .
+
+For let $D^{d+1}$ be the $(d+1)$-disk and 
+
+$$
+  \array{
+     && D^{d+1}
+     \\
+     & \nearrow && \nwarrow
+     \\
+     \coprod_r S^d  &&&& S^d
+  }
+$$
+
+a configuration of $r$ $d$-spheres in $D^{d+1}$, with the right leg denoting the boundary of $D^{d+1}$. Interal-homming this [[cospan]] into the object $X$ produces the [[span]]
+
+$$
+  \array{
+     && X^{D^{d+1}}
+     \\
+     & \swarrow && \searrow
+     \\
+     \prod_r X^{S^d} &&&& X^{S^d}
+  }
+  \,.
+$$ 
+
+Then the [[integral transforms on sheaves]] induced by these spans constitute the $E_n$-action on the function objects on $X^{S^d}$.
+
+=--
+
+This was observed in ([Ben-ZviFrancisNadler, corollary 6.8](#Ben-ZviFrancisNadler)).
+
+
+#### $HH$ of constant $\infty$-stacks: String topology BV-algebra {#StringTopology}
+
+Let $T$ be the [[algebraic theory]] of ordinary [[associative algebra]]s over a [[field]] $k$, regarded as an [[(∞,1)-algebraic theory]] and let $\mathbf{H}$ be the [[(∞,1)-topos]] of $(\infty,1)$-sheaves over a small site in $T Alg_\infty^{op}$.
+
+Under the [[inverse image]] of the [[global section]] [[(∞,1)-geometric morphism]] and the [[homotopy hypothesis]]-equivalence
+
+$$
+  \mathbf{H} \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
+  \infty Grpd
+  \stackrel{\overset{\Pi}{\leftarrow}}{\underset{|-|}{\to}}
+  Top
+$$
+
+we may regard every [[topological space]] $X$ as a [[constant ∞-stack]] $LConst X$, an object in $\mathbf{H}$.
+
+
++-- {: .un_prop }
+###### Proposition
+
+The function algebra on $LConst X$ is the cosimplicial algebra of singular cochains on $X$. Under the [[monoidal Dold-Kan correspondence]] it identifies with the cochain [[dg-algebra]] $C^\bullet(X)$ that computes the [[singular cohomology]] of $X$.
+
+=--
+
+This has maybe been first made explicit by [[Bertrand Toen]]. Details are at [[function algebras on ∞-stacks]].
+
+
++-- {: .un_prop }
+###### Corollary
+
+The Hochschild homology of $C^\bullet(X)$ is the [[singular cohomology]] of the [[free loop space]] $L X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply the [central identification](#GeneralAbstractDefinition) $\mathcal{O} \mathcal{L}(LConst X)  \simeq S^1 \cdot \mathcal{O}(LConst X)$. Then observe that the [[free loop space object]] $\mathcal{L} LConst X$  of the constant $\infty$-stack is the constant $\infty$-stack on the ordinary [[free loop space]], because $LConst$ is a [[left exact (∞,1)-functor]] and because $\mathcal{L}X \simeq L X$ in [[Top]]. Then use by the above remark that $\mathcal{O} LConst L X$ is singular cochains on $L X$. 
+
+=--
+
+This result, which follows directly from the general abstract desciption of Hichschild homology is known as **Jones' theorem**. We now review the results in the literature on this point.
 
 Let $X$ be a [[compact manifold]] [[oriented]] [[smooth manifold]] of [[dimension]] $d$. Write $C^\bullet(X)$ for the [[dg-algebra]] of cochains for [[singular cohomology]] of $X$. Write $L X$ for the topological [[free loop space]] of $X$ and $H_\bullet(L X)$ for its [[singular homology]].
 
@@ -1020,7 +1009,7 @@ Let $X$ be a [[compact manifold]] [[oriented]] [[smooth manifold]] of [[dimensio
 +-- {: .un_theorem }
 ###### Theorem
 
-There is a linera isomorphism of degree $d$
+There is a linear isomorphism of degree $d$
 
 $$
   \mathbb{D}
@@ -1076,6 +1065,99 @@ This is ([Menichi, theorem 3](#Menichi)).
 
 There is an evident rotation-[[action]] on Hochschild (co)chains. Passing to the cyclically invariant (co)chains yields [[cyclic (co)homology]].
 
+
+### Further
+
+#### Hochschild cohomology and extensions {#Extensions}
+
++-- {: .un_def }
+###### Definition
+
+An [[exact sequence]] $0 \to N \to E \to R$ of $k$-modules where
+$E \to R$ is a surjective morphism of $k$-algebras is
+called a **$k$-split** extension or a **Hochschild extension** of $R$ by $E$ if the sequence is a [[split sequence]] as a sequence of $k$-[[module]]s.
+
+Two extensions are _equivalent_ if there is an isomorphism or $k$-algebra $E \stackrel{\simeq}{\to} E'$ that makes
+
+$$
+  \array{
+    N &\to& E &\to& R
+    \\
+    \downarrow^{\mathrlap{=}} && \downarrow && \downarrow^{\mathrlap{=}}
+    \\
+    N &\to& E' &\to& R
+  }
+$$
+
+commute.
+
+=--
+
+
++-- {: .un_remark }
+###### Remark
+
+Due to the $k$-splitness assumption there is an isomorphism of $k$-modules $E \simeq R \oplus N$ and this is equipped with a $k$-algebra structure such that the product on the $R$ [[direct sum]]mand is that of $R$. From this we find that the product on $E$ is of the form
+
+$$
+  (r_1, n_1) \cdot (r_2, n_2) =
+  (r_1 r_2 , r_1 n_2 + r_2 n_1 + f(r_1, r_2))
+  \,,
+$$
+
+where $f : R \otimes_k R \to N$ is some $k$-linear map. Since the product on $E$ is (by definition) associative, it follows that for $f$ that this satisfies for all $r_0, r_1, r_2 \in R$ the _cocycle equation_
+
+$$
+  r_0 f(r_1, r_2) - f(r_0 r_1, r_2) + f(r_0 , r_1 r_2) - f(r_0, r_1) r_2 = 0
+$$
+
+as an equation in $N$. This says that $f$ must be a Hochschild cocycle
+
+$$
+  f \in HH^2(R,N)
+  \,.
+$$ 
+
+=--
+
+
+Conversely, every such cocycle yields a $k$-split extension of $R$ by $N$ this way:
+
+
+
++-- {: .un_theorem }
+###### Theorem
+
+For $R$ a $k$-algebra and $N$ an $R$-[[bimodule]], equivalence
+classes of Hochschild extensions of $R$ by $N$ are in bijection with
+degree 2 Hochschild cohomology $HH^2(R,N)$.
+
+=--
+
+See for instance [[An Introduction to Homological Algebra|Weibel, theorem 9.3.1]].
+
+
+#### Hochschild cohomology and deformations {#Deformations}
+
+As a special case of the above statement about extensions of $R$, we obtain a statement about _deformation_ of $R$.
+
+A standard problem is to deform a $k$-algebra $R$ by introducing a new "parameter" $t$ that squares to 0 -- $t \cdot t = 0$ and a new product
+
+$$
+  r_1 \cdot_t r_2 = r_1 r_2 + t f(r_1, r_2)  
+  \,.
+$$
+
+From the above we see that this is the same as finding an $k$-split extension of $R$ by itself. So in particular such extensions are given by Hochschild cocycles $f \in HH^2(R,R)$.
+
+See for instance [Ginzburg, section 7](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf) and for more see [[deformation quantization]].
+
+
+
+
+
+
+
  
 ## References
  
@@ -1107,6 +1189,7 @@ The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop sp
 
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], 
   _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
+{#Ben-ZviFrancisNadler}
  
 The definition of higher order Hochschild complex as (implicitly) the tensoring of an algebra with a simplicial set is due to 
 
