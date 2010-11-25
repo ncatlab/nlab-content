@@ -324,14 +324,22 @@ $$
   \,,
 $$
 
-where on the right we have the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-tensoring</a> of $T Alg_\infty$ over $\infty Grpd$.
+where on the right we have the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-tensoring</a> of $T Alg_\infty$ over $\infty Grpd$, which is the [[(∞,1)-colimit]] over the [[diagram]] $S^1$ of the [[(∞,1)-functor]] constant on $\mathcal{O}(X)$
+
+$$
+  S^1 \cdot \mathcal{O}(X) \simeq {\lim_{\to}}_{S^1} \mathcal{O}(X)
+  \,.
+$$
 
 This object we call the **Hochschild homology complex** of $\mathcal{O}X$.
 
 Generally for higher order Hochschild homology we have
 
 $$
-  \mathcal{O}X^K \simeq K \cdot \mathcal{O}(X) \in T Alg_\infty
+  \mathcal{O}(X^K) \simeq K \cdot \mathcal{O}(X) 
+   \simeq
+   {\lim_{\to}}_{K} \mathcal{O}(X)
+   \in T Alg_\infty
   \,.
 $$
 
@@ -449,8 +457,14 @@ Generally, for $K$ any simplicial set, $K \cdot A$ is the simplicial algebra who
 
 =--
 
+## Examples
 
-#### The Hochschild chain complex of an associative algebra {#HochschildChainComplex}
+### The Hochschild chain complex of an associative algebra {#HochschildChainComplex}
+
+We consider in detail the classical case of Hichschild (co)homology of an [[]associative algebra].
+
+
+#### Elementary description 
 
 We spell out explicitly the Hochschild chain complex for an 
 [[associative algebra]] (over some ring $k$) with coefficients in a [[bimodule]].
@@ -566,18 +580,15 @@ The fact that the circle appears here has in fact a deep significance: the Hochs
 =--
 
 
-#### By homotopy pushouts {#FuncsOnDerivedLoopSpace}
+#### As function algebra on the derived loop space {#FuncsOnDerivedLoopSpace}
 
-We discuss in an alternative way how the Hochschild complex is the function algebra on a [[derived loop space]] object in the context of [[derived geometry]].
+We derive in an alternative way how the Hochschild complex of an ordinary associative algebra $\mathcal{O}(X)$ is the function algebra on the [[derived loop space]] object $\mathcal{L}X$ in the context of [[derived geometry]].
 
 
-We describe the situation for ordinary commutative associative algebras.
-
-Let $T$ be the [[Lawvere theory]] of ordiary commutative [[associative algebra]]s over a [[field]] $k$. We shall regard this as an [[(∞,1)-algebraic theory]]. 
+So let now $T$ be the [[Lawvere theory]] of ordiary commutative [[associative algebra]]s over a [[field]] $k$, regard as a 0-[[truncated]] [[(∞,1)-algebraic theory]]. 
 
 +-- {: .un_def}
 ###### Proposition
-
 
 The [[(∞,1)-category]] $CAlg(k)_\infty$ of [[algebras over a Lawvere theory|∞-algebras]] over $T$ is [[presentable (∞,1)-category|presented]] by the [[model structure on simplicial T-algebras|model structure on simplicial commutative k-algebras]] $(CAlg_k^{\Delta^{op}})_{proj}$.
 
@@ -873,7 +884,19 @@ From the above we see that this is the same as finding an $k$-split extension of
 See for instance [Ginzburg, section 7](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf) and for more see [[deformation quantization]].
 
 
-### Hochschild homology and K&#228;hler differentials {#HochschildKostantRosenberg} 
+### Hochschild (co)homology and differential forms/vector fields {#HochschildKostantRosenberg} 
+
+It turns out that
+
+* Hochschild homology of $\mathcal{O}(X)$ encodes [[Kähler differential form]]s on $X$;
+
+* Hochschild cohomology of $\mathcal{O}(X)$ encodes [[multivector field]]s on $X$;
+
+* there are  natural pairings between $HH_\bullet(\mathcal{O}(X), \mathcal{O}(X))$ and $HH^\bullet(\mathcal{O}(X), \mathcal{O}(X))$ that mimic the structure of the natural pairings between vector fields and differential forms on [[smooth manifold]].
+
+One way to understand or interpret this conceptually is to regard the [[derived loop space]] object of a 0-[[truncated]] object $X$ to consist of [[infinitesimal object|infinitesimal]] loops in $X$.
+
+#### Hochschild-Kostant-Rosenberg theorem
 
 The **[[Hochschild-Kostant-Rosenberg theorem]]** states that under suitable conditions, the Hochschild homology of an algebra (with coeficients in itself) computes the wedge powers of its [[Kähler differential]]s.
 
@@ -974,16 +997,12 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
+This is reviewed for instance as ([Weibel, theorem 9.4.7](#Weibel)) or as ([Ginzburg, theorem 9.1.3](#Ginzburg)).
 
-This is reviewed for instance as theorem 9.4.7 of
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+#### Differential calculus on $(HH^\bullet(A,A), HH_\bullet(A,A))$
 
-or as  ([Ginzburg, theorem 9.1.3](#Ginzburg)).
-
-=--
+See ([TamarkinTsygan](#TamarkinTsygan)).
 
 
 ### Relation to cyclic (co)homology
@@ -998,6 +1017,7 @@ The traditional story of Hochschild (co)homology is exposed for instance
 in chapter 9 of
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+{#Weibel}
 
 or in chapter 4 of
  
@@ -1030,6 +1050,12 @@ A survey of higher order Hochschild (co)homology and further developments and re
 
 * [[Grégory Ginot]], _Higher order Hochschild cohomology ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
 
+
+The abstract differential caclulus on $(HH^\bullet(A,A), HH_\bullet(A,A))$ is discussed for instance in
+
+* [[Dmitry Tamarkin]], [[Boris Tsygan]], _Cyclic Formality and Index Theorems_ ,  Letters in Mathematical Physics
+Volume 56, Number 2, 85-97 ([journal](http://www.springerlink.com/content/u33hv13g0669h414/))
+{#TamarkinTsygan}
 
 For references on [[topological chiral homology]] see there.
 
