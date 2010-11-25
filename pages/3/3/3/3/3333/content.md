@@ -465,8 +465,7 @@ $$
 
 ### Free topological loop spaces
 
-* From the above [[limit]] description we see that in [[Top]] this yields a version for the ordinary free loop space of a [[topological space]].
-
+In [[Top]] the notion of free loop space objects reproduces the standard notion of topological [[free loop space]]s.
 
 ### Details for $\mathcal{L} \mathbf{B}G$
 
