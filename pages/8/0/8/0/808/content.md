@@ -14,7 +14,11 @@ A **connection** can mean
 
 * [[connection for a coring]]
 
-which are all very similar or special cases of each other, and also
+which are all very similar and often special cases of each other, sort of dual construction
+
+* [[hom-connection]],
+
+and also
 
 * [[connection on a cubical set]]
 
