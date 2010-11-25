@@ -17,6 +17,10 @@ and quantum cohomology_, AMS, University Lecture Series __6__, 1994.; [revised p
 
 * [[Joel W. Robbin]], Yongbin Ruan, Dietmar A. Salamon,  _The moduli space of regular stable maps_, Math. Z. __259__ (2008), no. 3, 525--574, [doi](http://dx.doi.org/10.1007/s00209-007-0237-x), [MR2010a:58014](http://www.ams.org/mathscinet-getitem?mr=2010a:58014) 
 
+* Joel W. Robbin, Dietmar A. Salamon, _Feynman path integrals and the metaplectic representation_, Math. Z. __221__ (1996), no. 2, 307&#8211;-335, [MR98f:58051](http://www.ams.org/mathscinet-getitem?mr=98f:58051), [doi](http://dx.doi.org/10.1007/BF02622118)
+
+* [[Joel W. Robbin]], Dietmar A. Salamon, _Phase functions and path integrals_, Symplectic geometry (Proc., ed. D. Salamon), 203&#8211;-226, London Math. Soc. Lecture Note Ser. __192__, Cambridge Univ. Press 1993, [[RobbinSalamonPhaseFunctionsPathIntegrals.djvu:file]].
+
 category: people
 
 [[!redirects Dietmar A. Salamon]]
