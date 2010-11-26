@@ -99,6 +99,10 @@ it is shown that _cofibrant_ $\omega$-categories with respect to the canonical m
 We had some blog discussion about this at
 [Freely generated omega-categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html).
 
+## Related concepts
+
+* [[[model structure on strict omega-categories]]
+
 ## References
 
 * [[joyalscatlab:HomePage|Joyal's CatLat]], _[[joyalscatlab:Model structures on Cat]]_
