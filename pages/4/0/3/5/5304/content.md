@@ -1,5 +1,1 @@
-
-
-* [website](http://www.pps.jussieu.fr/~metayer/)
-
-category: people
+&lt; [[Francois Metayer]]
