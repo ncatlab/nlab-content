@@ -14,4 +14,7 @@ The closely related notion of a [[cyclic order]] is not actually a binary relati
 The study of orders is [[order theory]].
 
 
+[[!redirects order]]
 [[!redirects orders]]
+[[!redirects order relation]]
+[[!redirects order relations]]
