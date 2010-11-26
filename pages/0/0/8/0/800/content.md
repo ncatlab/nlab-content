@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
@@ -27,39 +27,42 @@ Equivalence of categories generalises to [[higher category theory|higher categor
 +-- {: .un_defn}
 ###### Definition
 
-An **equivalence** between two categories $C$ and $D$ is a [[functor]]
+An **equivalence** between two categories $C$ and $D$ is a pair of [[functor]]s 
 
 $$
-  F\colon C \to D
+  C \stackrel{\overset{G}{\leftarrow}}{\underset{F}{\to}} D
 $$
 
-that is
-
-*  [[essentially surjective functor|essentially surjective]],
-*  [[full functor|full]], and
-*  [[faithful functor|faithful]].
-=--
-
-+-- {: .un_defn}
-###### Definition
-
-An __equivalence__ between two $\infty$-categories $C$ and $D$ is an $\infty$-[[infinity-functor|functor]]
+such that there are [[natural isomorphism]]s 
 
 $$
-  F\colon C \to D
+  F \circ G \simeq Id_D
 $$
 
-that is essentially $k$-[[k-surjectivity|surjective]] for all $k$.
+and 
+
+$$
+  G \circ F \simeq Id_C
+  \,.
+$$
 =--
 
 This is called an **[[adjoint equivalence]]** if in addition $F$ and $G$ form a pair of [[adjoint functor]]s.
 
-=--
-
 +-- {: .un_defn}
 ###### Definition
 
-Two categories (or $\infty$-categories) are called **equivalent** if there exists an equivalence between them.
+Two categories are called **equivalent** if there exists an equivalence between them.
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+A [[functor]] $F\colon C \to D$ is part of an equivalence precisely if 
+
+* it is an [[essentially surjective functor]]
+
+* and it is a [[full and faithful functor]].
 =--
 
 +-- {: .un_remark}
@@ -68,8 +71,8 @@ Two categories (or $\infty$-categories) are called **equivalent** if there exist
 The definitions above work regardless of [[foundations]], if the term 'functor' is interpreted in an appropriate way.  For details, see the discussion of [Variants](#Variants) below.
 =--
 
-+-- {: .un_prop}
-###### Proposition
++-- {: .un_lemma}
+###### Observation
 
 Regarded as [[object]]s in the [[2-category]] [[Cat]], two categories are equivalent precisely if there is an [[equivalence in a 2-category]] between them.
 =--
@@ -77,7 +80,7 @@ Regarded as [[object]]s in the [[2-category]] [[Cat]], two categories are equiva
 
 ## Variants {#Variants}
 
-We discuss some possible variants of the definition of equivalence of categories, each of which comes from a different perspective on [[Cat]].
+We discuss some possible variants of the definition of equivalence of categories, each of which comes naturally from a different view of [[Cat]].
 
 The first, _isomorphism_, comes from viewing $Cat$ as a mere category; it is too strong and is really only of historical interest.  The next, _strong equivalence_, comes from viewing $Cat$ as a [[strict 2-category]]; it is the most common definition given and is correct if and only if the [[axiom of choice]] holds.  The next definition, _weak equivalence_, comes from viewing $Cat$ as a [[model category]]; it is correct with or without choice and is about as simple to define as strong equivalence. The last, _anaequivalence_, comes from viewing $Cat$ as a [[bicategory]] that is not (without the axiom of choice) equivalent (as a bicategory!) to the strict $2$-category that defines strong equivalence; it is also always correct.
 
@@ -106,20 +109,6 @@ If you think of $Cat$ as the [[strict 2-category]] of (strict) categories, funct
 +-- {: .query}
 If possible, use or modify the counterexample to isomorphism to show how choice follows if strong equivalence is assumed correct.
 =--
-
-
-### Adjoint equivalence
-
-Any strong equivalence can be improved to an __[[adjoint equivalence]]__: a strong equivalence whose natural isomorphisms satisfy the [[adjoint functor|triangle identities]].  In that case, $G$ is called [[generalized the|the]] __adjoint inverse__ of $F$ (so $F$ is the adjoint inverse of $G$).  When working in the strict $2$-category $Cat$, a good rule of thumb is that it is okay to consider either
-
-*  a functor with the _property_ of being a _general_ equivalence or
-*  a functor with the _structure_ of being an _adjoint_ equivalence (that is, a functor $G$ and a pair of natural isomorphisms $F G \cong 1$ and $1 \cong G F$ satisfying the triangle identities),
-
-whereas considering
-
-* a functor with the _structure_ of being a _general_ equivalence (that is, merely a functor $G$ and a pair of natural isomorphisms $F G \cong 1$ and $1 \cong G F$)
-
-is fraught with peril.  For instance, an adjoint inverse is unique up to unique isomorphism (much as a strict inverse is unique up to equality), while a weak inverse is not.  Including adjoint equivalences is also the only way to make a higher-categorical structure completely _[[algebraic definition of higher category|algebraic]]_.
 
 
 ### Weak equivalence
@@ -151,6 +140,20 @@ If you accept the axiom of choice, then you don\'t have to worry about the diffe
 It\'s also possible to use foundations (such as [[type theory]] or [[FOLDS]]) in which isomorphism and strong equivalence are impossible to state.  In such a case, one usually drops the prefixes 'weak' and 'ana&#8209;'.  In the $n$-Lab, we prefer to remain agnostic about foundations but usually drop these prefixes as well, leaving it up to the reader to insert them if necessary.
 
 
+## Adjoint equivalence
+
+Any equivalence can be improved to an __[[adjoint equivalence]]__: a strong equivalence or anaequivalence whose natural isomorphisms satisfy the [[adjoint functor|triangle identities]].  In that case, $G$ is called [[generalized the|the]] __adjoint inverse__ of $F$ (so $F$ is the adjoint inverse of $G$).  When working in the $2$-category $Cat$, a good rule of thumb is that it is okay to consider either
+
+*  a functor with the _property_ of being a _general_ equivalence or
+*  a functor with the _structure_ of being an _adjoint_ equivalence (that is, a functor $G$ and a pair of natural isomorphisms $F G \cong 1$ and $1 \cong G F$ satisfying the triangle identities),
+
+whereas considering
+
+* a functor with the _structure_ of being a _general_ equivalence (that is, merely a functor $G$ and a pair of natural isomorphisms $F G \cong 1$ and $1 \cong G F$)
+
+is fraught with peril.  For instance, an adjoint inverse is unique up to unique isomorphism (much as a strict inverse is unique up to equality), while a weak inverse or anainverse is not.  Including adjoint equivalences is also the only way to make a higher-categorical structure completely _[[algebraic definition of higher category|algebraic]]_.
+
+
 ## In higher categories
 
 All of the above types of equivalence make sense for $n$-[[n-category|categories]] and $\infty$-categories defined using an [[algebraic definition of higher category]]; again, it is the weak notion that is usually wanted.  When using a [[geometric definition of higher category]], often isomorphism cannot even be written down, so equivalence comes more naturally.
@@ -167,26 +170,42 @@ For example, assuming choice, a [[strict 2-functor]] between strict $2$-categori
 As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricategory]] of $Gray$ by formally inverting all such weak equivalences.  Note that even with the axiom of choice, $Bicat$ is *not* equivalent (as a tricategory) to $Gray$, even though by the coherence theorem for tricategories it is equivalent to *some* Gray-category; see [here](http://arxiv.org/abs/math/0612299).
 
 
-[[!redirects equivalent category]]
-[[!redirects equivalent categories]]
 [[!redirects equivalence of categories]]
 [[!redirects equivalences of categories]]
+[[!redirects equivalent category]]
+[[!redirects equivalent categories]]
+
 [[!redirects isomorphism of categories]]
 [[!redirects isomorphisms of categories]]
+[[!redirects isomorphic category]]
+[[!redirects isomorphic categories]]
+
+[[!redirects adjoint equivalence of categories]]
+[[!redirects adjoint equivalences of categories]]
+
 [[!redirects equivalence of n-categories]]
 [[!redirects equivalences of n-categories]]
 [[!redirects equivalence of infinity-categories]]
 [[!redirects equivalences of infinity-categories]]
 [[!redirects equivalence of higher categories]]
 [[!redirects equivalences of higher categories]]
-[[!redirects isomorphism of groupoids]]
-[[!redirects isomorphisms of groupoids]]
+
 [[!redirects equivalence of groupoids]]
 [[!redirects equivalences of groupoids]]
-[[!redirects equivalence of 2-groupoids]]
-[[!redirects equivalences of 2-groupoids]]
+[[!redirects equivalent groupoid]]
+[[!redirects equivalent groupoids]]
+
+[[!redirects isomorphism of groupoids]]
+[[!redirects isomorphisms of groupoids]]
+[[!redirects isomorphic groupoid]]
+[[!redirects isomorphic groupoids]]
+
+[[!redirects adjoint equivalence of groupoids]]
+[[!redirects adjoint equivalences of groupoids]]
+
 [[!redirects equivalence of n-groupoids]]
 [[!redirects equivalences of n-groupoids]]
 [[!redirects equivalence of infinity-groupoids]]
 [[!redirects equivalences of infinity-groupoids]]
-
+[[!redirects equivalence of higher groupoids]]
+[[!redirects equivalences of higher groupoids]]
