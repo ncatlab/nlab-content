@@ -309,7 +309,9 @@ $$(w + \alpha x)(u + \alpha v) = (w u - \lambda v\bar{x}) + \alpha (u x + \bar{w
 
 together with commutativity and trivial conjugation in $W$, we infer commutativity in $V$. 
 
-Hence the doubling process may be iterated three times at most. 
+Hence the doubling process may be iterated three times at most.
+
+This same result can also be proven using [[string diagram]] calculus.  See [this paper](http://math.ucr.edu/home/baez/Hurwitz.pdf) for a nice exposition of that route.
 
 ## Hurwitz's Theorem
 
@@ -334,6 +336,8 @@ $$N(u + e) = N(u) + N(e) = -1 + 1 = 0$$
 
 which contradicts the assumption that all nonzero elements are invertible.
 =--
+
+In particular, any division composition algebra is a [[normed division algebra]].
 
 Now let $V$ be a division composition algebra, with $V = W + \alpha W$, where $0 \neq \alpha \in W^\perp$. Put $j = \alpha/N(\alpha)^{1/2}$, so that $N(j) = 1$, $j \perp W$, and $V = W + j W$. We have the following possibilities. 
 
@@ -450,6 +454,8 @@ For all $u$, $v$ in a composition algebra, the third alternative law holds: $u(v
 * Markus Rost, _On the dimension of a composition algebra_, Documenta  Mathematica __1__ (1996), 209-214, [files](http://www.math.uni-bielefeld.de/documenta/vol-01/10.html) Abstract: "The possible dimensions of a composition algebra are 1, 2, 4, or 8. We give a tensor categorical argument."
 
 * John Baez's [comment](http://golem.ph.utexas.edu/category/2010/03/division_algebras_and_supersym.html#c032790)
+
+* Bruce W. Westbury, [Hurwitz's Theorem](http://math.ucr.edu/home/baez/Hurwitz.pdf).
 
 * John H. Conway, Derek A. Smith, _On Quaternions and Octonions_, A.K. Peters, 2003. 
 
