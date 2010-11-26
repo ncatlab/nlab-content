@@ -1,5 +1,3 @@
-[[!redirects ∞-algebra over an (∞,1)-algebraic theory]]
-[[!redirects ∞-algebra over an (∞,1)-monad]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -38,3 +36,8 @@ For the moment see [[(∞,1)-algebraic theory]].
    * [[model structure on algebras over an operad]]
 
 
+[[!redirects ∞-algebra over an (∞,1)-algebraic theory]]
+[[!redirects ∞-algebra over an (∞,1)-monad]]
+
+[[!redirects ∞-algebra]]
+[[!redirects ∞-algebras]]
