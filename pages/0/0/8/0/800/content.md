@@ -15,37 +15,42 @@
 
 ## Idea
 
-Two [[categories]] are _equivalent_ if there are [[functor]]s going back and forth between them whose two composites are both [[isomorphic]] to the [[identity functor]].
+Two [[categories]] are _equivalent_ if they have the same properties &#8212;although this only applies (by definition) to properties that are not [[evil]].  An _equivalence_ between categories is a [[functor]] that realises this.
 
-If one works with [[internal categories]] where the [[axiom of choice]] may fail, slight variants of this definition are appropriate.
+If one works with [[internal categories]] or doubts the [[axiom of choice]], some care must be taken in the definition.
 
-One may think of two categories $C$ and $D$ as being equivalent if any non-[[evil]] property of categories holds for $C$ if and only if it holds for $D$; this generalises to [[higher category theory|higher categories]] and ultimately to equivalence of $\infty$-[[infinity-category|categories]].  Of course, the definition of 'evil' refers to equivalence, so this is circular; it\'s possible to formalise these notions of evil through a language such as [[FOLDS]], but normally one formalises them by defining equivalence as done here.
+Equivalence of categories generalises to [[higher category theory|higher categories]] and ultimately to equivalence of $\infty$-[[infinity-category|categories]].
 
 
-## Definition
+## Definitions
 
 +-- {: .un_defn}
 ###### Definition
 
-An **equivalence** between two categories $C$ and $D$ is a pair of [[functor]]s 
+An **equivalence** between two categories $C$ and $D$ is a [[functor]]
 
 $$
-  C \stackrel{\overset{G}{\leftarrow}}{\underset{F}{\to}} D
+  F\colon C \to D
 $$
 
-such that there are [[natural isomorphism]]s 
+that is
+
+*  [[essentially surjective functor|essentially surjective]],
+*  [[full functor|full]], and
+*  [[faithful functor|faithful]].
+=--
+
++-- {: .un_defn}
+###### Definition
+
+An __equivalence__ between two $\infty$-categories $C$ and $D$ is an $\infty$-[[infinity-functor|functor]]
 
 $$
-  F \circ G \simeq Id_D
+  F\colon C \to D
 $$
 
-and 
-
-$$
-  G \circ F \simeq Id_C
-  \,.
-$$
-
+that is essentially $k$-[[k-surjectivity|surjective]] for all $k$.
+=--
 
 This is called an **[[adjoint equivalence]]** if in addition $F$ and $G$ form a pair of [[adjoint functor]]s.
 
@@ -54,42 +59,25 @@ This is called an **[[adjoint equivalence]]** if in addition $F$ and $G$ form a 
 +-- {: .un_defn}
 ###### Definition
 
-Two categoruies are called **equivalent** if there exists an equivalence between them.
-
+Two categories (or $\infty$-categories) are called **equivalent** if there exists an equivalence between them.
 =--
-
-## Properties
-
-+-- {: .un_prop}
-###### Proposition
-
-
-In a context where the [[axiom of choice]] does hold a [[functor]] $F : C \to D$ is part of an equivalence precisely if 
-
-* it is an [[essentially surjective functor]]
-
-* and it is a [[full and faithful functor]].
-
-=--
-
 
 +-- {: .un_remark}
 ###### Remark
 
-For situations where the axiom of choice may not hold, see the discussion of [Variants](#Variants) below.
-
+The definitions above work regardless of [[foundations]], if the term 'functor' is interpreted in an appropriate way.  For details, see the discussion of [Variants](#Variants) below.
 =--
 
-+-- {: .un_lemma}
-###### Observation
++-- {: .un_prop}
+###### Proposition
 
 Regarded as [[object]]s in the [[2-category]] [[Cat]], two categories are equivalent precisely if there is an [[equivalence in a 2-category]] between them.
-
 =--
+
 
 ## Variants {#Variants}
 
-We discuss some possible variants of the definition of equivalence of categories.
+We discuss some possible variants of the definition of equivalence of categories, each of which comes from a different perspective on [[Cat]].
 
 The first, _isomorphism_, comes from viewing $Cat$ as a mere category; it is too strong and is really only of historical interest.  The next, _strong equivalence_, comes from viewing $Cat$ as a [[strict 2-category]]; it is the most common definition given and is correct if and only if the [[axiom of choice]] holds.  The next definition, _weak equivalence_, comes from viewing $Cat$ as a [[model category]]; it is correct with or without choice and is about as simple to define as strong equivalence. The last, _anaequivalence_, comes from viewing $Cat$ as a [[bicategory]] that is not (without the axiom of choice) equivalent (as a bicategory!) to the strict $2$-category that defines strong equivalence; it is also always correct.
 
@@ -98,9 +86,9 @@ It\'s also possible to define 'category' in such a way that only a correct defin
 
 ### Isomorphism
 
-Categories $C$ and $D$ are __isomorphic__ if there exist functors $F: C \to D$ and $G: D \to C$ such that $F G$ and $G F$ are each [[equality|equal]] to the appropriate [[identity functor]].  In this case, we say that $F$ is an __isomorphism__ from $C$ to $D$ (so $G$ is an isomorphism from $D$ to $C$) and call the pair $(F,G)$ an __isomorphism__ between $C$ and $D$.  The functor $G$ is called the __strict inverse__ of $F$ (so $F$ is the strict inverse of $G$).
+Two [[strict categories]] $C$ and $D$ are __isomorphic__ if there exist [[strict functors]] $F\colon C \to D$ and $G\colon D \to C$ such that $F G$ and $G F$ are each [[equality|equal]] to the appropriate [[identity functor]].  In this case, we say that $F$ is an __isomorphism__ from $C$ to $D$ (so $G$ is an isomorphism from $D$ to $C$) and call the pair $(F,G)$ an __isomorphism__ between $C$ and $D$.  The functor $G$ is called the __strict inverse__ of $F$ (so $F$ is the strict inverse of $G$).
 
-If you think of $Cat$ as the category of categories and functors, then this is the usual notion of [[isomorphism]] in a category.  This is the most obvious notion of equivalence of categories and the first to be considered, but it is simply too strong for the purposes to which [[category theory]] is put.
+If you think of $Cat$ as the category of (strict) categories and functors, then this is the usual notion of [[isomorphism]] in a category.  This is the most obvious notion of equivalence of categories and the first to be considered, but it is simply too strong for the purposes to which [[category theory]] is put.
 
 +-- {: .query}
 Give an intuitively clear counterexample here.
@@ -109,15 +97,18 @@ Give an intuitively clear counterexample here.
 
 ### Strong equivalence
 
-Categories $C$ and $D$ are __strongly equivalent__ if there exist functors $F: C \to D$ and $G: D \to C$ such that $F G$ and $G F$ are each naturally isomorphic (isomorphic in the relevant [[functor category]]) to the appropriate identity functor.  In this case, we say that $F$ is a __strong equivalence__ from $C$ to $D$ (so $G$ is a strong equivalence from $D$ to $C$).  The functor $G$ is called a __weak inverse__ of $F$ (so $F$ is a weak inverse of $G$).
+Two strict categories $C$ and $D$ are __strongly equivalent__ if there exist strict functors $F\colon C \to D$ and $G\colon D \to C$ such that $F G$ and $G F$ are each naturally isomorphic (isomorphic in the relevant [[functor category]]) to the appropriate identity functor.  In this case, we say that $F$ is a __strong equivalence__ from $C$ to $D$ (so $G$ is a strong equivalence from $D$ to $C$).  The functor $G$ is called a __weak inverse__ of $F$ (so $F$ is a weak inverse of $G$).
 
 Note that an isomorphism is precisely a strong equivalence in which the natural isomorphisms are [[identity natural transformation]]s.
 
-If you think of $Cat$ as the strict $2$-category of categories, functors, and [[natural transformation]]s, then this is the usual notion of [[equivalence]] in a $2$-[[2-category|category]].  This is the first 'correct' definition of equivalence to be considered and the one most often seen today; it is only correct using the axiom of choice.
+If you think of $Cat$ as the [[strict 2-category]] of (strict) categories, functors, and [[natural transformation]]s, then this is the usual notion of [[equivalence]] in a $2$-[[2-category|category]].  This is the first 'correct' definition of equivalence to be considered and the one most often seen today; it is only correct using the axiom of choice.
 
 +-- {: .query}
 If possible, use or modify the counterexample to isomorphism to show how choice follows if strong equivalence is assumed correct.
 =--
+
+
+### Adjoint equivalence
 
 Any strong equivalence can be improved to an __[[adjoint equivalence]]__: a strong equivalence whose natural isomorphisms satisfy the [[adjoint functor|triangle identities]].  In that case, $G$ is called [[generalized the|the]] __adjoint inverse__ of $F$ (so $F$ is the adjoint inverse of $G$).  When working in the strict $2$-category $Cat$, a good rule of thumb is that it is okay to consider either
 
@@ -133,7 +124,7 @@ is fraught with peril.  For instance, an adjoint inverse is unique up to unique 
 
 ### Weak equivalence
 
-Categories $C$ and $D$ are __weakly equivalent__ if there exist a category $X$ and functors $F: X \to D$ and $G: X \to C$ that are [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  In this case, we say that $F$ is a __weak equivalence__ from $X$ to $D$ (so $G$ is an equivalence from $X$ to $C$) and call the [[span]] $(X,F,G)$ a __weak equivalence__ between $C$ and $D$.
+Two strict categories $C$ and $D$ are __weakly equivalent__ if there exist a category $X$ and strict functors $F\colon X \to D$ and $G\colon X \to C$ that are [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  In this case, we say that $F$ is a __weak equivalence__ from $X$ to $D$ (so $G$ is an equivalence from $X$ to $C$) and call the [[span]] $(X,F,G)$ a __weak equivalence__ between $C$ and $D$.
 
 A functor with a weak inverse is necessarily essentially surjective and fully faithful; the converse is equivalent to the axiom of choice.  Thus any strong equivalence becomes a weak equivalence in which $X$ is taken to be either $C$ or $D$ (or even built symmetrically out of $C$ and $D$ if you\'re so inclined); a weak equivalence becomes a strong equivalence using the axiom of choice to find weak inverses and composing across $X$.
 
@@ -142,9 +133,9 @@ If you think of $Cat$ as the model category of categories and functors with the 
 
 ### Anaequivalence
 
-Categories $C$ and $D$ are __anaequivalent__ if there exist [[anafunctor]]s $F: C \to D$ and $G: D \to C$ such that $F G$ and $G F$ are each ananaturally isomorphic (isomorphic in the relevant [[anafunctor category]]) to the appropriate [[identity anafunctor]].  In this case, we say that $F$ is an __anaequivalence__ from $C$ to $D$ (so $G$ is an anaequivalence from $D$ to $C$).  The functor $G$ is called an __anainverse__ of $F$ (so $F$ is an anainverse of $G$).
+Two categories $C$ and $D$ are __anaequivalent__ if there exist [[anafunctor]]s $F\colon C \to D$ and $G\colon D \to C$ such that $F G$ and $G F$ are each ananaturally isomorphic (isomorphic in the relevant [[anafunctor category]]) to the appropriate [[identity anafunctor]].  In this case, we say that $F$ is an __anaequivalence__ from $C$ to $D$ (so $G$ is an anaequivalence from $D$ to $C$).  The functor $G$ is called an __anainverse__ of $F$ (so $F$ is an anainverse of $G$).
 
-Any functor is an anafunctor, so any strong equivalence is an anaequivalence.  Using the axiom of choice, any anafunctor is [[ananatural isomorphism|ananaturally isomorphic]] to a functor, so any anaequivalence defines a strong equivalence.  Using the definition of an anafunctor as an appropriate span of functors, a weak equivalence defines two anafunctors which form an anaequivalence; conversely, either anafunctor in an anaequivalence is (as a span) a weak equivalence.
+Any strict functor is an anafunctor, so any strong equivalence is an anaequivalence.  Using the axiom of choice, any anafunctor is [[ananatural isomorphism|ananaturally isomorphic]] to a strict functor, so any anaequivalence defines a strong equivalence.  Using the definition of an anafunctor as an appropriate span of strict functors, a weak equivalence defines two anafunctors which form an anaequivalence; conversely, either anafunctor in an anaequivalence is (as a span) a weak equivalence.
 
 If you think of $Cat$ as the [[bicategory]] of categories, anafunctors, and [[ananatural transformation]]s, then this is the usual notion of [[equivalence]] in a $2$-category.  It\'s fairly straightforward to turn any discussion of functors and strong equivalences in a context where the axiom of choice is assumed into a discussion of anafunctors and anaequivalences in a more general context.
 
@@ -198,3 +189,4 @@ As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricat
 [[!redirects equivalences of n-groupoids]]
 [[!redirects equivalence of infinity-groupoids]]
 [[!redirects equivalences of infinity-groupoids]]
+
