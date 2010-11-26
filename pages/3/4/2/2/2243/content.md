@@ -44,6 +44,10 @@
 
   * [[motivic cohomology]]
 
+* [[Hochschild cohomology]], [[cyclic cohomology]]
+
+  * [[string topology]]
+
 * [[nonabelian cohomology]]
 
   * [[principal ∞-bundle]]
@@ -69,10 +73,7 @@
   * [[Lie algebra cohomology]], [[nonabelian Lie algebra cohomology]], [[Lie algebra extensions]]
 
 
-* [[Hochschild cohomology]]
-
-  * [[cyclic cohomology]]
-
+ 
 * [[?ech cohomology]], [[hypercohomology]]
 
 
