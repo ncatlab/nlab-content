@@ -99,7 +99,7 @@
 
 * [[model structure on cubical sets|on cubical sets]]
 
-* [[canonical model structure|on strict ∞-groupoids]]
+* [[model structure on strict ∞-groupoids|on strict ∞-groupoids]]
 
 * [[model structure on chain complexes|on chain complexes]]/[[model structure on cosimplicial abelian groups]] 
 
@@ -142,6 +142,7 @@
 
 * [[model structure for Cartesian fibrations|for Cartesian fibrations]]
 
+
 ### for $(\infty,1)$-operads
 
 * [[model structure on operads|on operads]]
@@ -159,7 +160,7 @@
 
 * [[canonical model structure|on higher categories in general]]
 
-* [[canonical model structure|canonical/folk model structure on categories]]
+* [[model structure on strict ∞-categories|on strict ∞-categories]]
 
 ### for $\infty$-sheaves / $\infty$-stacks
 
