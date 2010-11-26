@@ -1,16 +1,95 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Equivalence of categories
 * table of contents
 {: toc}
 
 ## Idea
 
-Two [[category|categories]] $C$ and $D$ are said to be _equivalent_ if any non-[[evil]] property of categories holds for $C$ if and only if it holds for $D$; this generalises to [[higher category theory|higher categories]] and ultimately to equivalence of $\infty$-[[infinity-category|categories]].  Of course, the definition of 'evil' refers to equivalence, so this is circular; it\'s possible to formalise these notions of evil through a language such as [[FOLDS]], but normally one formalises them by defining equivalence as done here.
+Two [[categories]] are _equivalent_ if there are [[functor]]s going back and forth between them whose two composites are both [[isomorphic]] to the [[identity functor]].
+
+If one works with [[internal categories]] where the [[axiom of choice]] may fail, slight variants of this definition are appropriate.
+
+One may think of two categories $C$ and $D$ as being equivalent if any non-[[evil]] property of categories holds for $C$ if and only if it holds for $D$; this generalises to [[higher category theory|higher categories]] and ultimately to equivalence of $\infty$-[[infinity-category|categories]].  Of course, the definition of 'evil' refers to equivalence, so this is circular; it\'s possible to formalise these notions of evil through a language such as [[FOLDS]], but normally one formalises them by defining equivalence as done here.
 
 
-## Definitions
+## Definition
 
-We give four definitions of equivalence of categories, each of which comes naturally from a different view of [[Cat]].
++-- {: .un_defn}
+###### Definition
+
+An **equivalence** between two categories $C$ and $D$ is a pair of [[functor]]s 
+
+$$
+  C \stackrel{\overset{G}{\leftarrow}}{\underset{F}{\to}} D
+$$
+
+such that there are [[natural isomorphism]]s 
+
+$$
+  F \circ G \simeq Id_D
+$$
+
+and 
+
+$$
+  G \circ F \simeq Id_C
+  \,.
+$$
+
+
+This is called an **[[adjoint equivalence]]** if in addition $F$ and $G$ form a pair of [[adjoint functor]]s.
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+Two categoruies are called **equivalent** if there exists an equivalence between them.
+
+=--
+
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+
+
+In a context where the [[axiom of choice]] does hold a [[functor]] $F : C \to D$ is part of an equivalence precisely if 
+
+* it is an [[essentially surjective functor]]
+
+* and it is a [[full and faithful functor]].
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+For situations where the axiom of choice may not hold, see the discussion of [Variants](#Variants) below.
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+Regarded as [[object]]s in the [[2-category]] [[Cat]], two categories are equivalent precisely if there is an [[equivalence in a 2-category]] between them.
+
+=--
+
+## Variants {#Variants}
+
+We discuss some possible variants of the definition of equivalence of categories.
 
 The first, _isomorphism_, comes from viewing $Cat$ as a mere category; it is too strong and is really only of historical interest.  The next, _strong equivalence_, comes from viewing $Cat$ as a [[strict 2-category]]; it is the most common definition given and is correct if and only if the [[axiom of choice]] holds.  The next definition, _weak equivalence_, comes from viewing $Cat$ as a [[model category]]; it is correct with or without choice and is about as simple to define as strong equivalence. The last, _anaequivalence_, comes from viewing $Cat$ as a [[bicategory]] that is not (without the axiom of choice) equivalent (as a bicategory!) to the strict $2$-category that defines strong equivalence; it is also always correct.
 
