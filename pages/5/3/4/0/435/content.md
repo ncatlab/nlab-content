@@ -95,7 +95,7 @@ Simplicially enriched categories as models for $(\infty,1)$-categories are discu
 
 Homotopy coherent category theory on $sSet$-categories is discussed in 
 
-* [[Jean-Marc Cordier]] [[Timothy Porter]], _Homotopy coherent category theory_  ([pdf](http://www.ams.org/journals/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
+* [[Jean-Marc Cordier]], and [[Timothy Porter]], _Homotopy coherent category theory_  ([pdf](http://www.ams.org/journals/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
 
 which describes resolutions of the simplicial functor categories between two simplicial categories and
 
