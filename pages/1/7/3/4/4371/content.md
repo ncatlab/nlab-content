@@ -1,3 +1,4 @@
+
 # Double negation
 * table of contents
 {: toc}
@@ -32,6 +33,7 @@ The notion of double negation sublocale may be [[categorification|categorified]]
 
 [[!redirects double negation]]
 [[!redirects double negations]]
+[[!redirects double-negation]]
 
 [[!redirects double negation sublocale]]
 [[!redirects double negation sublocales]]
