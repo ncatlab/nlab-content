@@ -32,7 +32,7 @@ The Cayley--Dickson construction applies to an algebra with [[involution]]; by t
 *  $\mathbb{H}$ is associative but noncommutative and with nontrivial involution,
 *  $\mathbb{O}$ is neither associative, commutative, nor with trivial involution.
 
-However, these algebras do all have some useful algebraic properties; in particular, they are all [[alternative algebra|alternative]] (a weak version of associativity).
+However, these algebras do all have some useful algebraic properties; in particular, they are all [[alternative algebra|alternative]] (a weak version of associativity).  They are also all [[composition algebra]]s.
 
 A __normed field__ is a commutative normed division algebra; it follows from the preceding that the only normed fields are $\mathbb{R}$ and $\mathbb{C}$.
 
