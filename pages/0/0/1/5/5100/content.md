@@ -19,31 +19,5 @@ Let  $\mathbb{C}$ and $\mathbb{D}$ be $\mathbb{E}$-[[indexed categories]], that 
 
 Then an **$\mathbb{E}$-indexed functor** $F:{\mathbb{C}}\to{\mathbb{D}}$ is a [[pseudonatural transformation]] $F \colon \mathbb{C} \Rightarrow \mathbb{D}$: it assigns to each [[object]] $A$ of $\mathbb{E}$ a [[functor]] $F^A:{\mathbb{C}}^A\to{\mathbb{D}}^A$ and to each [[morphism]] $f:A\to B$ of $\mathbb{E}$ a [[natural isomorphism]] $\mathbb{D}(f) \circ F^B \cong F^A \circ \mathbb{C}(f)$ that is coherent with respect to the structural isomorphisms of $\mathbb{C}$ and $\mathbb{D}$ (see [[pseudonatural transformation]] for details).
 
-+-- {: .query}
-
-
-[[Finn Lawler|Finn]]:  The components of the transformation $F$ are not invertible in general --- it's the 2-cells in the naturality squares for $F$ that are isos.
-
-You might be thinking of [[lax natural transformations]].  B&#233;nabou has done some work on generalizing Grothendieck's correspondence between pseudofunctors (i.e. indexed categories) and fibrations where lax transformations turn up.  See e.g. some lecture notes [here](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf).
-
-Finn, after I wrote my comment somebody completely rewrote the page; you saw a comment which referred to a previous version.  I had copied the original version directly from the [[Elephant]]; it says "natural isomorphism" quite clearly on page 260.  Perhaps this new definition is better.  Who knows.  Anyways, I've deleted the reference since the page now describes something different. -- [[Adam]]
-
-[[Finn Lawler|Finn]]:  You can see the revision history of a page by clicking on the **History** link below.  After you created the page [[Urs Schreiber|Urs]] tidied it up but didn't change the content.
-
-The Elephant gives essentially the same definition as above; in particular, the 'natural isomorphism' it mentions is (in this page's notation) between $\mathbb{D}(f) \circ F^B$ and $F^A \circ \mathbb{C}(f)$ as above, not $F^B$ and $F^A$ as you'd written.
-
-Finn, you can see the revision history of a page by clicking on the **History** link below.  The original version of the page contained the text "natural isomorphism", and the current page does not contain that text.  There's nothing wrong with that (perhaps it's a change for the better), but my comment certainly isn't relevant to the new content, and you responded as if I was commenting on the new content.  -- [[Adam]]
-
-[[Finn Lawler|Finn]]:
-> The original version of the page contained the text "natural isomorphism", and the current page does not contain that text.
-
-That's because I changed it at the same time as I responded to your initial comment.  I have changed it slightly again in a way that I hope makes things clearer.
-
-The best place to discuss nLab pages is not here on the lab itself but on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum).  If you'd like to discuss this page further then that's the place to do it.
-
-Finn, I like your new version of the page better, but I am still pretty confused about Johnstone's choice of language in the Elephant.  But we can discuss it elsewhere.  Feel free to delete this conversation if you feel it is crufting up the page.  Thanks for your patience! -- [[Adam]]
-
-=--
-
 
 [[!redirects indexed functors]]
