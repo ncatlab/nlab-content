@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 #### Mathematics
-+--{: .hide}
++-- {: .hide}
 [[!include mathematicscontents]]
 =--
 =--
@@ -48,6 +48,13 @@ Brouwer never accepted a complete axiomatisation of intuitionistic mathematics. 
 *  There\'s also some stuff about [[choice sequence]]s that I don\'t really understand.
 
 Although it\'s not enough to derive all of the above, much of the essence of intuitionistic mathematics can be summarised in the theorem that every (set-theoretic) [[function]] from the [[unit interval]] to the [[real line]] is [[uniformly continuous map|uniformly continuous]].
+
+
+## Feel
+
+In intuitionistic mathematics, already [[set theory]] behaves a lot like [[topology]], a point stressed by [[Frank Waaldijk]] ([web](http://www.fwaaldijk.nl/mathematics.html)).
+
+Although intuitionstic mathematics does not accept [[function sets]] (much less [[power sets]]), it seems to allow for both [[induction|inductive]] and [[coinduction|coinductive]] structures; see [a Caf&#233; comment](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html#c020731).
 
 
 [[!redirects intuitionistic mathematics]]
