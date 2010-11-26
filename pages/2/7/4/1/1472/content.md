@@ -27,6 +27,8 @@ This entry discusses fundamental physics from the [[nPOV]].
 
 ## The basic stuctures {#BasicStructures}
 
+We discuss the set of the scene of fundamental physics. 
+
 ### Dynamics in space {#Fundamentals}
 
 Physics is _dynamics_ in _spaces_ . 
@@ -86,17 +88,17 @@ These are all [[topological quantum field theories]]. But by the [[holographic p
 
 ### Quantum dynamics
 
-The [[quantum mechanics]] associated with such [[sigma-model]] is the collection of data given by
+The [[quantum mechanics]] associated with such [[sigma-model]]s is the collection of data given by
 
-* on each closed piece $\Sigma_{d-n}$ of worldvolume of codimension $n$ the [[n-vector space]] of [[state]]s of the system;
+* on each closed piece $\Sigma_{d-n}$ of worldvolume [[cobordism]] of codimension $n$ the [[n-vector space]] of [[state]]s of the system;
 
 * on each piece with boundary $\partial \Sigma_{in} \to \Sigma \leftarrow \partial \Sigma_{out}$ a [[morphism]] between these $n$-vector spaces encoding the propagation of states;
 
-* on each open subset $U \subset \Sigma$ the _algebra of observables_ .
+* on each open subset $U \subset \Sigma$ the _algebra of [[observable]]s_ .
 
 Two dual formalizations axiomatize this:
 
-* [[AQFT]]/[[factorization algebra]]s: the assignment of algebras of observables is encoded in an [[(∞,1)-presheaf|(∞,n)-copresheaf]] on $\Sigma$ with suitable properties;
+* [[AQFT]]/[[factorization algebra]]s: the assignment of algebras of observables is encoded in an [[(∞,1)-presheaf|(∞,n)-copresheaf]] of [[∞-algebra]]s on $\Sigma$ with suitable properties;
 
 * [[FQFT]]: the assignment of spaces of states and propagators is encoded in an [[(∞,n)-functor]] on the [[(∞,n)-category of cobordisms]] (see [[cobordism hypothesis]]).
 
@@ -243,9 +245,9 @@ The total collection of these choices of fundamental particles that are observed
 
 1. a choice of linear [[representation]] $\rho$ of $G$, such that all observed [[fermion]] fields are components of [[section]]s of a $\rho$-[[associated bundle]].
 
-What precisely the "standard" model of parrticle physics is changes slightly over time, as new experimental insights are gained. Its particles were added item-by-item as they were discovered. More recently the mass of the particles called [[neutrino]]s, which was originally thought to be precisely 0, was measured to be very small, bu non-vanishing.
+What precisely the "standard" model of particle physics is changes slightly over time, as new experimental insights are gained. Its particles were added item-by-item as they were discovered. More recently the mass of the particles called [[neutrino]]s, which was originally thought to be precisely 0, was measured to be very small, bu non-vanishing.
 
-The standard model as far as understood today exhibits a curious mixture of pattern and irregularity. This seems to suggest that it ought to have a more fundamental description in terms of a conceptually simpler structure out of which these patterns with their irregularities emerge. Since also the force of [[gravity]] is not presently included in the [[quantization]] of the standard model, it may seem plausible be that this underlying structure may be related to [[quantum gravity]].
+The standard model as far as understood today exhibits a curious mixture of pattern and irregularity. This seems to suggest that it ought to have a more fundamental description in terms of a conceptually simpler structure out of which these patterns with their irregularities emerge. Since also the force of [[gravity]] is not presently included in the [[quantization]] of the standard model, it may seem plausible that this underlying structure is related to [[quantum gravity]].
 
 We discuss in the following some of the proposals that have been suggested for how to formalize this situation.
 
@@ -255,17 +257,17 @@ A fundamental [[relativistic particle]] is technically a 1-dimensional [[sigma-m
 
 Here 
 
-* roughly every [[semisimple Lie algebra]] summand in $\mathrak{g} = Lie(G)$ is one [[gauge field]] -- a bosonic field;
+* roughly every [[semisimple Lie algebra]] [[direct sum|summand]] in $\mathfrak{g} = Lie(G)$ is one [[gauge field]] -- a bosonic field;
 
 * every [[irreducible representation]] that $\rho$ decomposes into is one matter particle species -- a [[spinors in Yang-Mills theory|fermion field]].
 
-This way a single $\sigma$-model may encode a rich multiple particle content and we shall speak of a single particle with different _excitations_ or _modes_ .
+This way a single $\sigma$-model may encode a rich multiple particle content and we shall speak of a single [[superparticle]] with different _excitations_ or _modes_ .
 
-An early proposal for a single unified connection $\nabla$ that would subsume both gravity as well as Yang-Mills forces in a phenomenologically realistic way is the [[Kaluza-Klein mechanism]]. This assumes a single [[Levi-Civita connection]] but on a [[pseudo-Riemannian manifold]] $X$ which is locally of the form $X_4 \times F_{d}$ with $F_d$ a 4-[[dimension]]al pseudo-Riemannian manifold and $X_d$ a $d$-dimensional [[Riemannian manifold]] of very small Riemannian volume. As described in more detail, this makes the [[isometry]] groups of $F_d$ appear as extra [[gauge group]] factors on $X_4$. As also described in more detail there, while this Ansatz reproduces the correct general form of gravity coupled to Yang-Mills forces, in its original form it does also have some phenomenologically unviable aspects.
+An early proposal for a single unified connection $\nabla$ that would subsume both gravity as well as Yang-Mills forces in a phenomenologically realistic way is the [[Kaluza-Klein mechanism]]. This assumes a single [[Levi-Civita connection]] but on a [[pseudo-Riemannian manifold]] $X$ which is locally of the [[product]] form $X_4 \times F_{d}$ with $F_d$ a 4-[[dimension]]al pseudo-Riemannian manifold and $X_d$ a $d$-dimensional [[Riemannian manifold]] of very small Riemannian volume. As described in more detail at [[Kaluza-Klein mechanism]], this makes the [[isometry]] groups of $F_d$ appear as extra [[gauge group]] factors as seen on $X_4$. As also described in more detail there, while this Ansatz does reproduce the correct general form of gravity coupled to Yang-Mills forces, in its original form it does also have some phenomenologically unviable aspects.
 
 It was observed by [[Alain Connes]] and colaborators that the Kaluza-Klein mechanism works better when used not [[internalization|internal]] to the [[category]] [[Diff]] of [[smooth manifold]]s but in context for more general [[higher geometry|geometry]]: [[noncommutative geometry]].
 
-This more general geometry turns out to model exactly the most general $\sigma$-model backgrounds for a 1-dimensional [[FQFT]]: becuase such is algebraically specified by
+This more general geometry turns out to model exactly the most general $\sigma$-model backgrounds for a 1-dimensional [[FQFT]]: because such is algebraically specified by
 
 1. the ([[Hilbert space|Hilbert]]) space $\mathcal{H}$ of [[state]]s that it assigns to the point;
 
@@ -293,10 +295,13 @@ A very detailed such construction was given by [[Alain Connes]] (see the [refere
 
 It turns out that the realistic model has $K$-theory dimension $D = 4+6$. 
 
-By the result at [[(1,1)-dimensional Euclidean field theories and K-theory]] this $K$-theory dimension is precisely the intrinsic dimension of target space as seen by the superparticle. Moreover, $D = 4+6$ is precisely the dimension for whic the 2-dimensional super-[[CFT]] [[sigma-model]] is critical and hence allows to lift the 1-dimensional superparticle described here to [[string theory]].
+By the result at [[(1,1)-dimensional Euclidean field theories and K-theory]] this $K$-theory dimension is precisely the intrinsic dimension of target space as seen by the [[superparticle]]. Moreover, $D = 4+6$ is precisely the dimension for whic the 2-dimensional super-[[CFT]] [[sigma-model]] is critical and hence allows to lift the 1-dimensional superparticle described here to [[string theory]].
 
+This means that Connes' [[spectral triple]] whose particle spectrum reproduces the [[standard model of particle physics]] has a chance of being the point particle limit or [[decategorification]] of the kind of [[2-spectral triple]] -- a 2-dimensional [[CFT|superconformal field theory]] -- of the kind that is considered in [[string theory]]. If so the lift of Connes' model to the corresponding element in the [[moduli space]] of 2-spectral triples called the [[landscape of string theory vacua]] might provide, via the second quantization of the latter, a (perturbative) quantization of the [[spectral action]] of the former.
 
 ## References
+
+We list various references related to higher category  theory and fundamental physics.
 
 ### Introductions to category theory in physics {#CatsinPhysics}
 
@@ -308,7 +313,7 @@ In
 
 the authors try to motivate and introduce some basic concepts of [[category theory]] for an audience familiar with standard physics and in particular with [[quantum mechanics]]. The article focuses towards the end on [[monoidal categories]], their description in terms of [[string diagram]]s and [[quantum mechanics in terms of dagger-compact categories]].
 
-More details on the use of string diagrams in dagger-categories for the description of quantum mechanics is is
+More details on the use of string diagrams in [[dagger-categories]] for the description of quantum mechanics is is
 
 * [[Bob Coecke]], _Kindergarten quantum mechanics_ ([arXiv:quant-ph/0510032](http://arxiv.org/abs/quant-ph/0510032))
 
@@ -335,7 +340,13 @@ The following book-to-be aims to give picture of the present state of the art of
 
 ### On formal quantum field theory
 
-#### FQFT
+There are two axiomatizations of [[QFT]]: [[FQFT]] and [[AQFT]]. 
+
+* [FQFT references](#FQFTReferences)
+
+* [AQFT references](#AQFTReferences)
+
+#### FQFT {#FQFTReferences}
 
 Kontsevich's 1994 ICM article, is one of the seminal papers of the 1990s. This paper invented the categorical side of mirror symmetry (homological mirror symmetry), discovered D-[[brane]]s (before physicists realized their role --- and directly inspiring many physicists) and the fact that they naturally form [[dg-category|dg-categories]] and $A_\infty$-[[A-infinity-category|category]], and thus led to a deluge of papers involving [[category theory]] and [[higher category theory]] in close relation with mathematical physics.
 
@@ -400,7 +411,7 @@ A survey is also at
 
 * [[Urs Schreiber]], _Connes on spectral geometry of the standard model IV_ ([blog entry](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_3.html))
 
-#### AQFT
+#### AQFT {#AQFTReferences}
 
 For the moment see the references at [[AQFT]] for more.
 
