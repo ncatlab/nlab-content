@@ -1,23 +1,43 @@
-## Definition. ##  
-Let $J$ and $C$ be arbitrary categories.  The diagonal
-functor $\Delta=\Delta_J\colon C\to C^J$ is the functor sending each
+# The diagonal functor
+* table of contents
+{: toc}
+
+## Idea
+
+The diagonal functor is a [[categorification]] of the [[diagonal function]].
+
+
+## Definitions
+
+Let $C$ be a [[category]].  The __(binary) diagonal functor of $C$__ is the [[functor]] $\Delta\colon C \to C \times C$ given by $\Delta(x) = (x,x)$, regardless of whether $x$ is an [[object]] or an [[morphism|arrow]] of $C$.
+
+More generally, let $J$ and $C$ be arbitrary categories.  The __$J$-ary diagonal
+functor of $C$__ is the functor $\Delta_J\colon C\to C^J$ sending each
 object $c$ to the constant functor $\Delta c$ (the functor having
 value $c$ for each object of $J$ and value $1_c$ for each arrow of
-$J$), and each arrow $f\colon c\to c'$ of $C$ to the the natural
-transformation $\Delta f \colon \Delta c \stackrel{.}{\to} \Delta c'$
+$J$), and each arrow $f\colon c\to c'$ of $C$ to the the [[natural
+transformation]] $\Delta f\colon \Delta c \stackrel{.}{\to} \Delta c'$
 which has the same value $f$ at each object $j$ of $J$. 
 
 
-Since $C$ is $J$-cocomplete ($J$-complete) iff $\Delta$ has a left
-(right) adjoint, the general adjoint functor theorem may be
-used in some cases to prove cocompleteness (completeness).  For this
-to work, $\Delta$ must at least preserve small limits (colimits).
+## Properties
 
-## Proposition. ##
+Since $C$ is $J$-cocomplete ($J$-complete) iff $\Delta$ has a left
+(right) [[adjoint functor|adjoint]], the general [[adjoint functor theorem]] may be
+used in some cases to prove [[cocomplete category|cocompleteness]] ([[complete category|completeness]]).  For this
+to work, $\Delta$ must at least preserve small [[limits]] ([[colimits]]).
+
++-- {: .un_prop}
+###### Proposition
+
 Let $P$ and $C$ be arbitrary categories. Then
 $\Delta_P\colon C\to C^P$ preserves _all_ limits that exist in $C$.
+=--
 
-Before the proof, recall that limits in functor categories are
++-- {: .proof}
+###### Proof
+
+First, recall that limits in [[functor categories]] are
 calculated pointwise. In some detail, if for an object 
 $p\in \mathrm{obj}(P)$
 we write $E_p:X^P\to X$ for the ''evaluate at $p$'' functor (with
@@ -55,3 +75,9 @@ $\Delta_P\nu\colon \Delta_J(\Delta_P(\ell))
 have $(\Delta_P\nu)_{j,p}=\nu_j=j\text{th component of the limiting cone of
 }E_p\circ(\Delta_P\circ F)$, we are done by the theorem
 on pointwise limits.
+=--
+
+
+[[!redirects diagonal functor]]
+[[!redirects diagonal functors]]
+[[!redirects diagonal functors preserve limits]]
