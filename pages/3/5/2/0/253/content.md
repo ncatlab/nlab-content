@@ -13,15 +13,6 @@
 =--
 =--
 
-* [[category]]
-
-* **bicategory**
-
-* [[tricategory]]
-
-* [[tetracategory]]
-
-***
 
 # Bicategories
 * table of contents
@@ -123,6 +114,17 @@ We often use "2-category" to mean a strict or weak 2-category without prejudice,
 Moreover, in most cases the prefix is unnecessary, since once we know we are working in a bicategory, there is usually no point in considering strict notions at all.  Fully weak limits are really the only sensible ones to ask for in a bicategory, and likewise for fully weak adjunctions and equivalences.  Even in a strict 2-category, while we might need to say "strict" sometimes to be clear, we don\'t need to say "$2$-", since we know that we are not working in a mere category.  (Max Kelly pushed this point.)
 
 When we do have a strict 2-category, however, other strict notions can be quite technically useful, even if our ultimate interest is in the weak ones.  This is somewhat analogous to the use of strict structures to model weak ones in [[homotopy theory]]; see [here](http://arxiv.org/abs/math/0702535) and [here](http://arxiv.org/abs/math/0607646) for good introductions to this sort of thing.
+
+
+## Related concepts
+
+* [[category]]
+
+* **bicategory**
+
+* [[tricategory]]
+
+* [[tetracategory]]
 
 
 ## Discussion
