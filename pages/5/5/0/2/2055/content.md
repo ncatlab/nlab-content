@@ -138,7 +138,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [God plays dice](http://godplaysdice.blogspot.com) (probability, combinatorics, puzzles, financial math)
 
-* [Good Math, Bad Math](http://scienceblogs.com/goodmath) (dedicated to chasing math crackpots)
+* [Good Math, Bad Math](http://scientopia.org/blogs/goodmath/) (dedicated to chasing math crackpots)
 
 * [Gyre and Gimble](http://sixwingedseraph.wordpress.com/) (Charles Wells: foundations, categories, computer science)
 
