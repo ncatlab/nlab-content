@@ -54,7 +54,7 @@ $$
   \,.
 $$
 
-Here me may take $n = \infty$ and say that an [[(∞,1)-topos]] is [[locally n-connected (∞,1)-topos|locally contractible]] if we have an [[essential geometric morphism]]
+Here we may take $n = \infty$ and say that an [[(∞,1)-topos]] is [[locally n-connected (∞,1)-topos|locally contractible]] if we have an [[essential geometric morphism]]
 
 $$
   (\Pi \dashv LConst \dashv \Gamma)
