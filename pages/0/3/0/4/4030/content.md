@@ -56,7 +56,7 @@ $$
   \,.
 $$
 
-This left adjoint $\Pi_0$ is the lowest degree incarnation of a general construction of [[homotopy groups in an (∞,1)-topos]].
+This left adjoint $\Pi_0$ is the lowest degree incarnation of a general construction of [[homotopy groups in an (∞,1)-topos]]. It is often called the **connected component** functor, and generalises the functor, also denoted $\pi_0$ or $\Pi_0$, which to a space assigns the set of connected components of that space.
 
 +-- {: .un_prop}
 ###### Proposition
