@@ -99,7 +99,7 @@ In $sA$ we have
 
 * the cofibrations are cofibrations in the [[Reedy model structure]] on $[\Delta^{op}, A]$.
 
-* the fibrant objects are precisely the Reedy-fibrant objects all whose face and degenarcy maps are week equivalences in $A$.
+* the fibrant objects are precisely the Reedy-fibrant objects all whose face and degenarcy maps are weak equivalences in $A$.
 
 =--
 
@@ -112,7 +112,7 @@ This is theorem 1.2 of
 
 The simplicial enrichment is theorem 6.1
 
-The charaxcterization of the fibrant objects is theorem 5.7.
+The characterization of the fibrant objects is theorem 5.7.
 
 =--
 
