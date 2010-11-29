@@ -63,6 +63,50 @@ $$
 * For $C$ a category with [[zero object]] the equalizer of a morphism $f : c \to d$ with the corresponding [[zero morphism]] is the [[kernel]] of $f$.
 
 
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+
+A category has equalizers if it has [[product]]s and [[pullback]]s.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $S \stackrel{\overset{g}{\to}}{\underset{f}{\to}} T$ the given diagram, first form the [[pullback]]
+
+$$
+  \array{
+    S \times_{f,g} S &\to& S
+    \\
+    \downarrow && \downarrow^{\mathrlap{g}}
+    \\
+    S &\stackrel{f}{\to}& T
+  }
+  \,.
+$$
+
+This gives a morphism $S \times_{f,g} S \to S \times S$ into the [[product]].
+
+Define $eq(f,g)$ to be the further pullback
+
+$$
+  \array{
+     eq(f,g) &\to& S \times_{f,g} S
+     \\
+     \downarrow && \downarrow 
+     \\
+     S &\stackrel{(id, id)}{\to}&  S \times S
+  }
+  \,.
+$$
+
+One checks that the vertical morphism $eq(f,g) \to S$ equalizes $f$ and $g$ and that it does so universally.
+=--
+
+
 [[!redirects equalizers]]
 [[!redirects equaliser]]
 [[!redirects equalisers]]
