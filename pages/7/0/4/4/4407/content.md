@@ -7,7 +7,7 @@
 
 Classically, the **fundamental theorem of algebra** states that 
 
-* The [[field]] of [[complex number]]s $\mathbb{C}$ is [[algebraically closed field|algebraically closed]]. In other words, every [[polynomial]] with coefficients in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
+* The [[field]] of [[complex number]]s $\mathbb{C}$ is [[algebraically closed field|algebraically closed]]. In other words, every nonconstant [[polynomial]] with coefficients in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
 
 Many proofs of this theorem are known; some use [[complex analysis]] (the reciprocal of a [[polynomial]] cannot be bounded), some use [[algebraic topology]] (the degree of a map is invariant with respect to homotopy), and some use advanced calculus (polynomial functions on the complex numbers are [[open map|open mappings]]). All of these proofs involve, at some level, the fact that the real numbers are [[Dedekind real number|Dedekind complete]], which has as a classical consequence the fact that the real numbers are [[archimedean field|archimedean]]. 
 
@@ -27,7 +27,7 @@ If $F$ is real closed, then $K = F[\sqrt{-1}]$ is algebraically closed.
 
 +-- {: .proof} 
 ###### Proof 
-We must show that any [[irreducible polynomial]] $p$ with coefficients in $K$ has a root in $K$. 
+We must show that any [[irreducible polynomial]] $p$ of degree greater than $0$ with coefficients in $K$ has a root in $K$. 
 
 The [[splitting field]] of $p$ is a finite [[Galois extension]] $L$ of $F$, with [[Galois group]] $G$. If $G(2)$ is the [[Sylow group|Sylow 2-group]] of $G$, then the [[fixed field]] of $G(2)$ is an odd degree extension of $F$, given by the splitting field of an odd degree irreducible polynomial $q$ over $F$. But since $F$ is real closed, $q$ has a root in $F$; by irreducibility, the degree must be $1$, so that in fact $G = G(2)$. We have ${|G|} \gt 1$ since the splitting field contains $K$. 
 
@@ -67,7 +67,7 @@ As noted above, many proofs of the fundamental theorem are known. The following 
 
 [^1]: Maybe the bit involving compactness wasn't available in Gauss's time. It would be interesting to write this bit out so that the entire proof would be understood by an eighteenth-century mathematician. 
 
-Let $f\colon \mathbb{C} \to \mathbb{C}$ be a polynomial mapping, and suppose $f$ has no zero. 
+Let $f\colon \mathbb{C} \to \mathbb{C}$ be a nonconstant polynomial mapping, and suppose $f$ has no zero. 
 
 1. First, ${|f(z)|}$ attains an absolute (positive) minimum. For, choose any $z' \in \mathbb{C}$. Since $\lim_{z \to \infty} f(z) = \infty$, there exists some [[compact subspace|compact]] [[ball]] $B$ containing $z'$ so that ${|f(z)|} \gt {|f(z')|}$ whenever $z \notin B$. By compactness, ${|f(z)|}$ attains an absolute minimum for $z$ ranging over $B$; by choice of $B$, it is the same minimum as for $z$ ranging over all of $\mathbb{C}$. 
 
