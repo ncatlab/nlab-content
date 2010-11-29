@@ -11,3 +11,6 @@ See also
 * M.V. Bondarko, _Differential graded motives: weight complex, weight filtrations and spectral sequences for realizations; Voevodsky vs. Hanamura_, [math.AG/0601713](http://de.arxiv.org/abs/math/0601713)
 
 * M.V. Bondarko, _Weight structures and motives; comotives, coniveau and Chow-weight spectral sequences: a survey_, [arxiv:0903.0091](http://de.arxiv.org/abs/0903.0091)
+
+* V.  Voevodsky, _Motives over simplicial schemes_, Journal of K-Theory, Volume 5, Issue 01 , pp 1 - 38, 
+(preliminary version in K-theory preprint archive: [here].(http://www.math.uiuc.edu/K-theory/0638/)
