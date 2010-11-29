@@ -16,7 +16,7 @@
 
 ## Idea
 
-A (smooth) prinicpal bibundle is a (smooth) [[principal bundle]] and notably a [[groupoid principal bundle]] with compatible [[actions]] on both the left and right.
+A (smooth) principal bibundle is a (smooth) [[principal bundle]] and notably a [[groupoid principal bundle]] with compatible [[actions]] on both the left and right.
 
 They arise in two related situations: as the objects used to define [[nonabelian bundle gerbe]]s and as [[anafunctor]]-like morphisms between [[Lie groupoid]]s. The former is a special case of the latter. The general concept of [[bundle]] has no action and so there is nothing to do to make it a bibundle.  However, suppose that $G$ is a [[group]] and you are interested in [[G-bundle]]s.  Then a __$G$-bibundle__ is a bundle that is simultaneously a left $G$-bundle and a right $G$-bundle, such that the left and right actions of $G$ commute. This is a bibundle in the first sense. 
 
