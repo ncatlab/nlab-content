@@ -29,6 +29,14 @@ How much choice is needed to prove that every element of $K[\mathrm{i}]$ has a s
 Note that there is never any trouble finding a square root of $y$ if we assume that $y \neq 0$, nor (obviously) is there any trouble if we assume that $y = 0$.  Accordingly, the classical results hold for [[discrete fields]], but this doesn\'t apply to analysis.
 
 
+## Related concepts
+
+* [[root]]
+
+* **square root**
+
+* [[root of unity]]
+
 ## References
 
 *  [[Fred Richman]]; 1998; _The fundamental theorem of algebra: a constructive development without choice_; [Fred Richman's Documents](http://math.fau.edu/richman/HTML/DOCS.HTM)
