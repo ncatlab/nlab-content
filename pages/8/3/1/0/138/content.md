@@ -20,22 +20,38 @@
 
 ## Idea
 
-A _hypercover_ is the generalization of a [[Cech nerve]] of a [[cover]].
+A _hypercover_ is the generalization of a [[Cech nerve]] of a [[cover]]: it is a simplicial [[resolution]] of an object obtained by iteratively applying covering families.
 
 ## Definition
 
-For $C$ a [[site]] and $[C^{op}, sSet]$ the category of [[simplicial presheaves]] on $C$, a morphism $(Y \to X) \in [C^{op}, sSet]$ with $X$ a [[representable functor|representable]] is called a **hypercover** if
 
-1. $Y$ is degreewise a [[coproduct]] of [[representable functor|representables]],
++-- {: .un_defn}
+###### Definition
 
-   $Y = \int^{[n] \in \Delta} \Delta[n] \cdot \coprod_{i_n} U_{i_n} \;\,,
-    \;\;\; with \{U_{i_n} \in C\}$ ;
+Let 
 
-1. with $Y \to X$ regarded as a presheaf of [[augmented simplicial set]]s, for all $n \in \mathbb{N}$ the morphism $Y_{n+1} \to (\mathbf{cosk}_n Y)_{n+1}$ into the $n+1$-cells of the $n$-[[coskeleton]] is a [[local epimorphism]] with respect to the given [[Grothendieck topology]] on $C$.
+$$
+  (L \dashv i) : Sh(C) \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
+  PSh(C)
+$$
 
-The local epimorphisms here are 
+be the [[geometric embedding]] defining a [[sheaf topos]] $Sh(C)$ into a [[presheaf topos]] $PSh(C)$. A morphism
 
-* in degree 0: $Y_0 \to X$;
+$$
+  (Y \stackrel{f}{\to} X) \in PSh(C)^{\Delta^{op}}
+$$
+
+in the [[category of simplicial objects]] in $PSh(C)$, hence the category of [[simplicial presheaves]], is called a **hypercover** if for all $n \in \mathbb{N}$ the canonical morphism
+
+$$
+  Y_{n} \to (\mathbf{cosk}_{n-1} Z)_n \times_{(\mathbf{cosk}_{n-1} X)_n} X_n
+$$
+
+in $PSh(C)$ are [[local epimorphism]]s (meaning that under [[sheafification]] $L$ they are sent to [[isomorphism]]s). Here $\mathbf{cosk}_n : PSh(C)^{\Delta^{op}} \to PSh(C)^{\Delta^{op}}$ is the [[coskeleton]] functor in degree $n$.
+
+In low degree the local epimorphisms here are  
+
+* in degree 0: $Y_0 \to X_0$;
 
 * in degree 1: $Y_1 \to Y_0 \times_X Y_0$
 
@@ -45,14 +61,75 @@ A hypercover is called **bounded** by $n \in \mathbb{N}$ if for all $k \geq n$ t
 
 The smallest $n$ for which this holds is called the **height** of the hypercover.
 
-A hypercover that also satisfies a cofibrancy condition in the projective [[local model structure on simplicial presheaves]] is called a **[[split hypercover]] (see there for details).
+A hypercover that also satisfies a cofibrancy condition in the projective [[local model structure on simplicial presheaves]] (being locally a coproduct of represetables with degenerate cells splitting of as a direct summand) is called a **[[split hypercover]]
 
-## Examples
+=--
 
-For $U = \{U_i \to X\}$ a [[cover]], the [[Cech nerve]] projection $C(U) \to X$ is a hypercover of height 0.
++-- {: .un_remark}
+###### Remark
+
+This is equivalent to saying that $f : Y \to X$ is a _local_ acyclic fibration: for all $U \in C$ and $n \in \mathbb{N}$ every lifting problem
+
+$$
+  \left(
+  \array{
+    \partial \Delta[n] \cdot U &\to& Y
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    \Delta[n]\cdot U &\to& X
+  }
+  \right)
+  \;\;\simeq
+  \;\;
+  \left(
+  \array{
+    \partial \Delta[n] &\to& Y(U)
+    \\
+    \downarrow && \downarrow^{\mathrlap{f(U)}}
+    \\
+    \Delta[n] &\to& X(U)
+  }
+  \right)
+$$
+
+has a solution $(\sigma_i)$ after refining to some [[covering]] family $\{U_i \to U\}$ of $U$
+
+$$
+  \forall i :
+  \left(
+  \array{
+    \partial \Delta[n] &\to& Y(U_i)
+    \\
+    \downarrow &{}^{\mathllap{\exists \sigma_i}}\nearrow& \downarrow^{\mathrlap{f(U_i)}}
+    \\
+    \Delta[n] &\to& X(U_i)
+  }
+  \right)
+  \,,
+$$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+If the [[topos]] $Sh(C)$ has [[point of a topos|enough points]] a morphism $f : Y \to X$ in $Sh(C)^{\Delta^{op}}$ is a hypercover if all its [[stalk]]s are acyclic [[Kan fibration]]s.
+
+=--
+
+In this form the notion of hypercover appears for instance in ([Brown](#Brown)).
 
 
 ## Properties
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $U = \{U_i \to X\}$ a [[cover]], the [[Cech nerve]] projection $C(U) \to X$ is a hypercover of height 0.
+
+=--
 
 ### Hypercover homology {#HypercoverHomology}
 
@@ -79,17 +156,56 @@ $$
 
 =--
 
+### Descent and cohomology
+
+The following theorem characterizes the [[∞-stack]]/[[(∞,1)-sheaf]]-condition for the [[presentable (∞,1)-category|presentation]] of an [[(∞,1)-topos]] by a [[local model structure on simplicial presheaves]] in terms of descent along hypercovers.
+
++-- {: .un_prop}
+###### Theorem
+
+In the [[local model structure on simplicial presheaves]] $PSh(C)^{\Delta^{op}}$ an object is fibrant precisely if it is fibrant in the global [[model structure on simplicial presheaves]] and in addition satisfies [[descent]] along all hypercovers over representables that are degreewise [[coproduct]]s of representables.
+
+=--
+
+This is the central theorem in ([DuggerHollanderIsaksen](#DuggerHollanderIsaksen)).
+
+The following theorem is a corollary of this theorem, using the discussion at [[abelian sheaf cohomology]]. But historically it predates the above theorem.
+
++-- {: .un_prop}
+###### Theorem
+**(Verdier's hypercovering theorem)
+
+For $X$ a [[topological space]] and $F$ a [[sheaf]] of [[abelian group]]s on $X$, we have that the [[abelian sheaf cohomology]] of $X$ with coefficients in $F$ is given
+
+$$
+  H^q(X, F) \simeq {\lim_{\to}}_{Y \to X} H^q(Hom_{Sh}(Y^\bullet,F))
+$$
+
+by computing for each hypercover $Y \to X$ the [[cochain cohomology]] of the [[Moore complex]] of the cosimplicial abelian group obtained by evaluating $F$ degreewise on the hypercover, and then taking  the [[colimit]] of the result over the [[poset]] of all hypercovers over $X$.
+
+=--
+
+A proof of this result in terms of the structure of a [[category of fibrant objects]] on the category of simplicial presheaves appears in ([Brown, section 3](#Brown)).
 
 ## Reference
 
+An early standard reference is
 
-A thorough discussion is given in 
+* M. Artin and B. Mazur, _&Eacute;tale Homotopy_ , Lecture Notes in Mathematics 100, Springer- Verlag, Berline-Heidelberg-New York (1972).
 
-* [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/))
-
-See also the remark at the end of section 2, on p. 6 of
+The modern reformulation of their notion of hypercover in terms of simplicial presheaves is mentioned for instance at the end of section 2, on [p. 6](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=6) of
 
 * Jardine, _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+
+A discussion in a topos with enough points in in 
+
+* Kenneth Brown, _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_
+{#Brown}
+
+A thorough discussion of hypercovers over representables and their role in [[descent]] for simplicial presheaves is in
+
+* [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/))
+{#DuggerHollanderIsaksen}
 
 
 [[!redirects hypercovers]]
