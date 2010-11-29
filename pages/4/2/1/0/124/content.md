@@ -1,26 +1,21 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include topos theory - contents]]
 =--
 #### Category Theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-
-
-
-# Contents #
+# Contents
 * table of contents
 {:toc}
-
 
 ## Idea 
 
@@ -45,7 +40,7 @@ From this point of view, the objects of a topos (regarded as a category) should 
 Finally, mixing this point of view with the second one, we can regard toposes over a given topos $E$ instead as "toposes in the $E$-world of mathematics."  For this reason, theory of toposes over a given base is formally quite similar to that of arbitrary toposes.  And coming full circle, this fact allows the use of "base change arguments" as a very useful technical tool, even if our interest is only in one or two particular toposes *qua* categories.
 
 
-## Definition 
+## Definitions
 
 A quick formal definition is that an **(elementary) topos** is a [[category]] which
 
@@ -74,6 +69,21 @@ There are two kinds of morphisms between toposes that one considers:
 * [[logical morphism]] -- this is the kind of morphism that regards a topos in terms of its [[internal logic]].
 
 Accordingly there is a [[2-category]] [[Toposes]] of toposes.
+
+
+### Grothendieck toposes
+
+The above is the definition of an *elementary* topos.  We also have the (historically earlier) notion of [[Grothendieck topos]]: a __Grothendieck topos__ is a topos is neither too small nor too large, in that it is:
+
+*  [[cocomplete category|cocomplete]] (not too small), and
+*  has a [[small set|small]] [[generating set]] (not too large).
+
+Equivalently, a Grothendieck topos is any category [[equivalence of categories|equivalent]] to the category of [[sheaves]] of some small [[site]].
+
+
+### $W$-toposes
+
+There is a further elementary property of [[Set]] that might have gone into the definition of elementary topos but historically did not: the existence of a [[natural numbers object]].  Any topos with this property is called a __topos with NNO__ or a __$W$-topos__.  The latter term comes from the result that any such topos must have (not only an NNO but also) all [[W-types]].
 
 
 ## Properties
@@ -186,17 +196,28 @@ There is also
 
 
 
+[[!redirects topos]]
 [[!redirects topoi]]
 [[!redirects toposes]]
-[[!redirects Lawvere-Tierney topos]]
-[[!redirects Lawvere--Tierney topos]]
-[[!redirects Lawvere?Tierney topos]]
 [[!redirects elementary topos]]
-[[!redirects Lawvere-Tierney topoi]]
-[[!redirects Lawvere--Tierney topoi]]
-[[!redirects Lawvere?Tierney topoi]]
 [[!redirects elementary topoi]]
-[[!redirects Lawvere-Tierney toposes]]
-[[!redirects Lawvere--Tierney toposes]]
-[[!redirects Lawvere?Tierney toposes]]
 [[!redirects elementary toposes]]
+[[!redirects Lawvere-Tierney topos]]
+[[!redirects Lawvere-Tierney topoi]]
+[[!redirects Lawvere-Tierney toposes]]
+[[!redirects Lawvere?Tierney topos]]
+[[!redirects Lawvere?Tierney topoi]]
+[[!redirects Lawvere?Tierney toposes]]
+[[!redirects Lawvere--Tierney topos]]
+[[!redirects Lawvere--Tierney topoi]]
+[[!redirects Lawvere--Tierney toposes]]
+
+[[!redirects W-topos]]
+[[!redirects W-topoi]]
+[[!redirects W-toposes]]
+[[!redirects topos with NNO]]
+[[!redirects topoi with NNO]]
+[[!redirects toposes with NNO]]
+[[!redirects topos with an NNO]]
+[[!redirects topoi with NNOs]]
+[[!redirects toposes with NNOs]]
