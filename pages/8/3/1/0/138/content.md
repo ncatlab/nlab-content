@@ -47,7 +47,7 @@ $$
   Y_{n} \to (\mathbf{cosk}_{n-1} Z)_n \times_{(\mathbf{cosk}_{n-1} X)_n} X_n
 $$
 
-in $PSh(C)$ are [[local epimorphism]]s (meaning that under [[sheafification]] $L$ they are sent to [[isomorphism]]s). Here $\mathbf{cosk}_n : PSh(C)^{\Delta^{op}} \to PSh(C)^{\Delta^{op}}$ is the [[coskeleton]] functor in degree $n$.
+in $PSh(C)$ are [[local epimorphism]]s. Here $\mathbf{cosk}_n : PSh(C)^{\Delta^{op}} \to PSh(C)^{\Delta^{op}}$ is the [[coskeleton]] functor in degree $n$.
 
 In low degree the local epimorphisms here are  
 
