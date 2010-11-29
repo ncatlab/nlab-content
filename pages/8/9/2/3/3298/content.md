@@ -367,7 +367,7 @@ Because the [[(∞,1)-Yoneda embedding]] preserves [[(∞,1)-limits]] the limit 
 
 =--
 
-This definition of general higher order Hochschild homology by $(\infty,1)$-tensoring is almost explicit in ([GinotTradlerZeinalian](#GinotTradlerZeinalian)).
+This definition of general higher order Hochschild homology by $(\infty,1)$-copowering is explicit in [To&#235;nVezzosi](#ToenVezzosi) (for ordinary Hochschild homology, hence $K = S^1$) and almost explicit in ([GinotTradlerZeinalian](#GinotTradlerZeinalian)) (for higher order Hochschild homology for [[dg-algebra]]s).
 
 #### Topological chiral homology {#TopologicalChiralHomology}
 
@@ -1534,8 +1534,8 @@ A detailed discussion of the relation between functions on the derived loop spac
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322))
 
-* [[Bertrand Toen]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
-
+* [[Bertrand Toën]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
+{#ToenVezzosi}
 
 A review of Deligne's conjecture and its solutions is in
 
