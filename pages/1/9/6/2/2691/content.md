@@ -19,8 +19,15 @@ By the dual [[Dold-Kan correspondence]] cochain complexes in non-negative degree
 
 The model structure on dg-algebras is such a model.
 
+## General
 
-## Definition 
+The category of [[dg-algebra]]s is that of [[monoid]]s in a [[category of chain complexes]]. Accordingly general results on a [[model structure on monoids in a monoidal model category]] apply.  
+
+Below we spellout special cases, such as restricting to commutative monoids when working over a field of characteristic 0, or restricting to non-negatively graded cochain dg-algebras.
+
+## Non-negatively graded cochain dg-algebras
+
+### Definition 
 
 Write $dgAlg$ for the [[category]] of cochain [[dg-algebra]]s in non-negative degree over a [[field]] $k$ of characteristic 0. Write $C dgAlg \subset dgAlg$ for the [[subcategory]] of (graded-)commutative dg-algebras.
 
@@ -61,9 +68,10 @@ Evidently every object in $dgAlg$ and in $C dgAlg$ is fibrant. Therefore these m
 
 The nature of the cofibrations is discussed below.
 
-## Properties
 
-### Cofibrations: Sullivan algebras {#SullivanAlgebras}
+### Properties
+
+#### Cofibrations: Sullivan algebras {#SullivanAlgebras}
 
 In this section we describe the cofibrations in the model structure on $C dgAlg_\mathbb{N}$ of **non-negatively graded** dg-algebras. Notice that it is these that are in the image of the dual [[monoidal Dold-Kan correspondence]].
 
@@ -207,7 +215,7 @@ are sets of generating cofibrations and acyclic cofibrations, respectively, exhi
 =--
 
 
-### Commutative vs. non-commutative dg-algebras {#CommVsNoncomm}
+#### Commutative vs. non-commutative dg-algebras {#CommVsNoncomm}
 
 +-- {: .un_prop }
 ###### Observation
@@ -264,6 +272,34 @@ This is in II.1.5 of
 =--
 
 
+## Unbounded dg-algebras {#Unbounded}
+
+### Definition
+
+
++-- {: .un_theorem }
+###### Theorem
+
+For $k$ a [[field]] of [[characteristic]] 0 let $dgcAlg$ be the category of undounded commutative dg-algebras. With fibrations the degreewise surjections and weak equivalences the [[quasi-isomorphism]]s this is a 
+
+* [[model category]]
+
+which is
+
+* [[proper model category|proper]];
+
+* [[combinatorial model category|combinatorial]].
+
+=--
+
+Discussion of this is in ([To&#235;nVezzosi](#ToenVezzosi)):
+
+* in lemma 2.3.1.1 they state that $cdgAlg_+$ constitutes the first two items in a triple which they call an _HA context_ .
+
+* this implies their assumption 1.1.0.4 which asserts properness and
+  combinatoriality
+
+
 
 ## References
 
@@ -301,6 +337,10 @@ This is also the structure used in
 where aspects of its relation to the [[model structure on cosimplicial rings]] is discussed. (See [[monoidal Dold-Kan correspondence]] for
 more on this).
 
+Disucssion of the model structure on unbounded dg-algebras over a field of characteristic 0 is in 
+
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _HAG II, geometric stacks and applicatons_ ([arXiv:math/0404373v4](http://arxiv4.library.cornell.edu/abs/math/0404373v4))
+{#ToenVezzosi}
 
 [[!redirects model structure on dg-rings]]
 [[!redirects model structure on dg-algebra]]
