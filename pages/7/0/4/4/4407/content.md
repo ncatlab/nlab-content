@@ -7,7 +7,7 @@
 
 Classically, the **fundamental theorem of algebra** states that 
 
-* The [[field]] of [[complex number]]s $\mathbb{C}$ is [[algebraically closed field|algebraically closed]]. In other words, every polynomial with coefficients in $\mathbb{C}$ has a root in $\mathbb{C}$. 
+* The [[field]] of [[complex number]]s $\mathbb{C}$ is [[algebraically closed field|algebraically closed]]. In other words, every [[polynomial]] with coefficients in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
 
 Many proofs of this theorem are known; some use [[complex analysis]] (the reciprocal of a [[polynomial]] cannot be bounded), some use [[algebraic topology]] (the degree of a map is invariant with respect to homotopy), and some use advanced calculus (polynomial functions on the complex numbers are [[open map|open mappings]]). All of these proofs involve, at some level, the fact that the real numbers are [[Dedekind real number|Dedekind complete]], which has as a classical consequence the fact that the real numbers are [[archimedean field|archimedean]]. 
 
