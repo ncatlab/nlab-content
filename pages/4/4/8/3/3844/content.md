@@ -32,7 +32,7 @@ In as far as an [[algebraic theory]] or [[Lawvere theory]] is nothing but a [[sm
 
 An **$(\infty,1)$-Lawvere theory** is (given by a syntactic $(\infty,1)$-category that is) an [[(∞,1)-category]] $C$ with finite [[limit in a quasi-category|(∞,1)-product]]s. An $(\infty,1)$-algebra for the theory is an [[(∞,1)-functor]] $C \to $ [[∞Grpd]] that preserves these products.
 
-The $(\infty,1)$-category of $(\infty,1)$-algebras is the full [[sub-quasi-category|(∞,1)-subcategory]]
+The $(\infty,1)$-category of [[∞-algebras over an (∞,1)-algebraic theory]] is the full [[sub-(∞,1)-category]]
 
 $$
   Alg_{(\infty,1)}(C) \hookrightarrow PSh_{(\infty,1)}(C^{op})
