@@ -363,7 +363,85 @@ By the above theorem and the <a href="http://ncatlab.org/nlab/show/Quillen+equiv
 
 =--
 
+### For cubical sets {#Cubical}
 
+Also [[cubical set]]s may serve as a model for homotopy theory.
+
+There is an evident [[simplicial set]]-valued [[functor]]
+
+$$
+  \Box \to sSet
+$$
+
+from the [[cube category]] to [[sSet]], which sends the cubical $n$-cube to the simplicial $n$-cube
+
+$$
+  \mathbf{1}^n \mapsto (\Delta[1])^{\times n}
+  \,.
+$$
+
+Similarly there is a canonical [[Top]]-valued functor
+
+$$
+  \Box \to Top
+$$
+
+$$
+  \mathbf{1}^n \mapsto (\Delta^1_{Top})^n
+  \,.
+$$
+
+The corresponding [[nerve and realization]] [[adjunction]]
+
+$$
+  (|-| \dashv Sing_\Box) : Top \stackrel{\overset{|-|}{\leftarrow}}{\underset{Sing_\Box}{\to}} Set^{\Box^{op}}
+$$
+
+is the cubical analogue of the simplicial nerve and realization discussed [above](#ForKanComplexes).
+
++-- {: .un_theorem}
+###### Theorem
+
+
+There is a [[model structure on cubical sets]] $Set^{\Box^{op}}$ whose
+
+* weak equivalences are the morphisms that become weak equivalences under geometric realization $|-|$;
+
+* cofibrations are the [[monomorphism]]s.
+
+=--
+
+This is [Jardine, sections 3.](#Jardine)
+
++-- {: .un_theorem}
+###### Theorem
+
+The [[unit of an adjunction|unit of the adjunction]]
+
+$$
+  A \to Sing_\Box(|A|)
+$$
+
+is a weak equivalence in $Set^{\Box}$ for every cubical set $A$.
+
+The counit of the adjunction
+
+$$
+  |Sing_\Box X| \to X
+$$
+
+is a weak equivalence in $Top$ for every topological space $X$.
+
+It follows that we have an [[equivalence of categories]] induced on the [[homotopy categories]]
+
+$$
+  Ho(Top) \simeq Ho(Set^{\Box^{op}})
+  \,.
+$$
+
+=--
+
+This is [Jardine, theorem 29, corollary 30](#Jardine).
 
 ### For $cat^n$ groups
 
@@ -431,3 +509,8 @@ More literature on models of homotopy types by strict higher groupoids is at
 * [[Ronnie Brown]], _Computing Homotopy Types Using Crossed $N$-Cubes of Groups_ ([arXiv](http://arxiv.org/abs/math/0109091))
 
 * [[Simona Paoli]], _Internal categorical structures in homotopical algebra_, to appear in _[[johnbaez:Towards Higher Categories]]_, eds. [[John Baez]] and [[Peter May]]  ([pdf](http://www.maths.mq.edu.au/~simonap/paoli_IMA.pdf))
+
+The homotopy theory of [[cubical set]]s is discussed in 
+
+* Jardine, _Model structure on cubical sets_ ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf))
+{#Jardine}
