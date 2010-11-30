@@ -1,20 +1,33 @@
-#Contents#
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
 * automatics TOC goes here
 {:toc}
 
 
-#Idea#
+## Idea
 
 ... [[derived algebraic geometry]] ... [[higher algebra]] ...[[generalized scheme]]...
 
-#Definition#
+
+
+## Definition
 
 Let $k$ be a commutative [[ring]].
 
 A **derived scheme** (over $k$) is a [[generalized scheme]] in the sense of locally affine $\mathcal{G}$-[[structured (infinity,1)-topos]] for $\mathcal{G} = \mathcal{G}_{Zar}(k)$ the Zariski [[geometry (for structured (infinity,1)-toposes)]].
 
-#Special cases #
+## Special cases 
 
 A [[n-truncated structured (infinity,1)-topos|0-trucated]] and [[n-localic (infinity,1)-topos|0-localic]] derived scheme is precisely an ordinary [[scheme]].
 
@@ -38,12 +51,14 @@ For more comments on this see also
 
 * [[scheme as locally affine structured (infinity,1)-topos]].
 
-# related concepts #
+## Related concepts 
 
 Notice that for [[generalized scheme]]s the Zariski [[geometry (for structured (infinity,1)-toposes)]] $\mathcal{G}_{Zar}(k)$ is not interchangeable with the &#233;tale geometry $\maathcal{G}_{et}(k)$. Instead $\mathcal{G}_{et}(k)$-[[generalized scheme]]s are [[derived Deligne-Mumford stack]]s.
 
-# References #
+##  References 
 
 section 4.2 in 
 
-* [[Jacob Lurie]], [[Structured Spaces]]
+* [[Jacob Lurie]], _[[Structured Spaces]]_
+
+[[!redirects derived schemes]]
