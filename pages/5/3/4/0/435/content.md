@@ -72,14 +72,25 @@ By a web of [[Quillen equivalence]]s this is related to the other incarnations o
 
 ### Properties
 
-#### Homotopy Kan extension
+#### Simplicial localization
 
-See [[homotopy Kan extension]] for the moment.
+To every [[category with weak equivalences]] $(C,W)$ is associatated its [[simplicial localization]] $L_W C$, which is an $sSet$-category with the property that its [[homotopy category of an (∞,1)-category]] coincides with the [[homotopy category]] $Ho_W(C)$.
+
 
 
 #### Model structure
 
-See [[model structure on sSet-categories]] for the moment.
+There is a [[model structure on sSet-categories]] that presents the [[(∞,1)-category]] [[(∞,1)Cat]].
+
+
+#### Homotopy Kan extension
+
+The notion of [[homotopy Kan extension]] and hence in particular that of [[homotopy limit]] and [[homotopy colimit]] has a direct formulation in terms of [[Kan-complex]] enriched categories.  See [[homotopy Kan extension]] for more..
+
+#### Presentation of $(\infty,1)$-topos theory
+
+All of [[(∞,1)-topos theory]] can be modeled in terms of $sSet$-categories. ([To&#235;nVezzosi](#Toenvezzosie)). There is a notion of [[sSet-site]] $C$ that models the notion of [[(∞,1)-site]] and a [[model structure on sSet-enriched presheaves]] on $sSet$-sites that is a [[presentable (∞,1)-category|presentation]] for the [[∞-stack]] [[(∞,1)-topos]]es on $C$.
+
 
 
 ## As models for $(\infty,2)$-categories
@@ -89,9 +100,20 @@ See [[(∞,2)-category]] for the moment.
 
 ## References
 
+The original references on homotopy theory in terms of $sSet$-categories are
+
+* [[William Dwyer]], [[Dan Kan]], _Simplicial localization of categories_, J. Pure and Appl. Algebra 17 (1980), 267-284.
+
+* [[William Dwyer]], [[Dan Kan]], _Equivalences between homotopy theories of diagrams_ , in Algebraic topology and algebraic K-theory, Annals of Math. Studies 113, Princeton University Press, Princeton, 1987, 180-205.
+
 Simplicially enriched categories as models for $(\infty,1)$-categories are discussed in some detail in section A.3 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+as well as in section 2 of 
+
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Topos theory_ ([arXiv:0207028](http://arxiv.org/abs/math/0207028))
+{#ToenVezzosi}
 
 Homotopy coherent category theory on $sSet$-categories is discussed in 
 
