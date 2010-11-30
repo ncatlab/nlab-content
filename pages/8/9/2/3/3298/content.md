@@ -431,7 +431,7 @@ We can always use the [[model structure on homotopy T-algebras]] to satisfy the 
 
 Notice that in this model category even if $\mathcal{O}(X)$ is fibrant (which it is if $\mathcal{O}X$ is an ordinary algebra), then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathcal{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homotopy T-algebra]].
 
-On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]) Pirashvili's formulation of higher order Hochschild homology for ordinary algebras, as described below in [Examples -- Simplicial algebra on the circle](#SimplicialCircleAlgebra).
+On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]) Pirashvili's formulation of higher order Hochschild homology for ordinary algebras, as described below in [Examples -- Simplicial algebra on the circle](#TensoringWithSimplicialCircleAlgebra).
 
 More generally, the assumptions are satisfied for the [[model structure on dg-algebras|model structure on unbounded commutative dg-algebras]] over a field of characteristic 0 and even more generally for the homotopy contexts considered in ([To&#235;nVezzosi](#ToenVezzosiStacks)).
 
@@ -445,7 +445,133 @@ More generally, the assumptions are satisfied for the [[model structure on dg-al
 
 We consider in detail the classical case of Hichschild (co)homology of an [[associative algebra]].
 
-#### The simplicial circle algebra {#SimplicialCircleAlgebra}
+#### The simplicial circle algebra
+
+We shall use two different equivalent models of the circle in $\infty Grpd$ in terms of models in $sSet$:
+
+1. the simplicial set $\Delta[1]/\partial \Delta[1]$
+
+   This is not fibrant (not a [[Kan complex]]). On the contrary, this is
+   the smalles simplicial model available for the circle, with the least 
+   number of horn fillers.
+
+   In low degrees it looks as follows
+
+   $$
+     \array{
+       \vdots && \vdots
+       \\
+       (\Delta[1]/\partial\Delta[1])_3
+        & = &
+       (* * * *) \coprod (* \to * * *) \coprod (* * \to * *) \coprod (* * * \to * ) 
+       &
+       \\
+       \\
+       (\Delta[1]/\partial\Delta[1])_2 
+         & = & (* * *) \coprod (*\to* *) \coprod (* * \to *)
+       \\
+       \\
+       (\Delta[1]/\partial\Delta[1])_1 & = & (* *) \coprod  (* \to *)
+       \\
+       \\
+       (\Delta[1]/\partial\Delta[1])_0 & = &  (*) 
+     }
+     \,.
+   $$
+
+   Here for instance the expression $(* * \to * )$ denotes the morphism of simplicial sets $\Delta[2] \to \Delta[1]/\partial \Delta[1]$ that sends the first edge (the 2-face) of the 2-simplex to the unique degenerate 1-cell and the second edge (the 0-face) to the unique non-degenerate 1-cell of $\Delta[1]/ \partial \Delta[1]$.
+
+1. the [[nerve]] of the [[delooping]] [[groupoid]] $\mathbf{B}\mathbb{Z}$ of the additive group of [[integer]]s.
+
+   This model is fibrant (is a [[Kan complex]]) and makes manifest the group structure on $S^1$, which is the [[strict 2-group]] structure on $\mathbf{B}\athbb{Z}$ or equivalently the structure of a [[simplicial group]] on its [[nerve]].
+
+   $$
+      \mathbf{B}\mathbb{Z} \times \mathbf{B}\mathbb{Z} \to 
+        \mathbf{B}\mathbb{Z}
+   $$
+
+   $$
+      ((* \stackrel{k}{\to} * ), (* \stackrel{l}{\to} * ))
+      \mapsto
+      (* \stackrel{k+l}{\to} * )
+      \,.
+   $$
+
+Let $k$ be a [[field]].
+
++-- {: .un_prop}
+###### Proposition
+
+Under the [[monoidal Dold-Kan correspondence]] the free simplicial algebras $(\Delta[1]/\partial \Delta[1]) \cdot k $ identifies with the [[ring of dual numbers]] over $k$ equipped with the trivial differential
+
+$$
+  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
+  \simeq
+  (k \oplus k \langle\epsilon\rangle, d = 0)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the above description of $\Delta[1]/\partial \Delta[1]$ the only two nondegenerate elements are the unique 0-vertex and the generating 1-cell. Accordingly the [[normalized chain complex]] is
+
+$$
+  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
+  =
+  (\cdots \to 0 \to 0 \to k \stackrel{0}{\to} k)
+  \,. 
+$$
+
+This already gives the claim by degree counting. One can also check explicitly that the product given by the [[Eilenberg-Zilber map]]
+
+$$
+  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
+  \otimes_k
+  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
+  \stackrel{\nabla}{\to}
+  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k \otimes 
+  (\Delta[1]/\partial \Delta[1]) \cdot k)
+  \to 
+  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
+$$
+
+is that of the ring of dual numbers.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This is the [[singular homology]] of the circle
+
+$$
+  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
+  \simeq
+  H_\bullet(S^1, k)
+  \,.
+$$
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+The evident inclusion of simplicial sets
+
+$$
+  \mathbf{B}\mathbb{Z} \to (\Delta[1]/\partial \Delta[1]) \cdot k
+$$
+
+is a morphism of simplicial abelian groups.
+
+=--
+
+
+
+#### Tensoring with the simplicial circle algebra {#TensoringWithSimplicialCircleAlgebra}
 
 Let $A \in CAlg_k$ be a commutative [[associative algebra]] over a commutative [[ring]] $k$.
 
@@ -453,35 +579,9 @@ Above in the section on [Higher order Hochschild homology](#PirashviliHigherOrde
 
 We describe now in detail what this simplicial circle algebra looks like. The proof that this construction is indeed homotopy-good is given below in [As functions on the derived loop space](#FuncsOnDerivedLoopSpace)
 
-First of all notice what our simplicial model of the circle looks like in low degrees
-
-$$
-  \array{
-    \vdots && \vdots
-    \\
-    (\Delta[1]/\partial\Delta[1])_3
-     & = &
-    (* * * *) \coprod (* \to * * *) \coprod (* * \to * *) \coprod (* * * \to * ) 
-    &
-    \\
-    \\
-    (\Delta[1]/\partial\Delta[1])_2 
-      & = & (* * *) \coprod (*\to* *) \coprod (* * \to *)
-    \\
-    \\
-    (\Delta[1]/\partial\Delta[1])_1 & = & (* *) \coprod  (* \to *)
-    \\
-    \\
-    (\Delta[1]/\partial\Delta[1])_0 & = &  (*) 
-  }
-  \,.
-$$
-
-Here for instance the expression $(* * \to * )$ denotes the morphism of simplicial sets $\Delta[2] \to \Delta[1]/\partial \Delta[1]$ that sends the first edge (the 2-face) of the 2-simplex to the unique degenerate 1-cell and the second edge (the 0-face) to the unique non-degenerate 1-cell of $\Delta[1]/ \partial \Delta[1]$.
 
 
-
-When forming the tensoring with $A$, we get this same structure, but with one copy of $A$ for each item in parenthesis. 
+When forming the [[copower]]ing of $A$ with the simplicial circle $S^1$, we get the same structure as displayed above, but with one copy of $A$ for each item in parenthesis. 
 
 To be very explicit, we recall and demonstrate the following elementary fact.
 
