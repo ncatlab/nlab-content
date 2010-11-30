@@ -280,7 +280,7 @@ This is in II.1.5 of
 +-- {: .un_theorem }
 ###### Theorem
 
-For $k$ a [[field]] of [[characteristic]] 0 let $dgcAlg$ be the category of undounded commutative dg-algebras. With fibrations the degreewise surjections and weak equivalences the [[quasi-isomorphism]]s this is a 
+For $k$ a [[field]] of [[characteristic]] 0 let $cdgAlg$ be the category of undounded commutative dg-algebras. With fibrations the degreewise surjections and weak equivalences the [[quasi-isomorphism]]s this is a 
 
 * [[model category]]
 
@@ -299,7 +299,32 @@ Discussion of this is in ([To&#235;nVezzosi](#ToenVezzosi)):
 * this implies their assumption 1.1.0.4 which asserts properness and
   combinatoriality
 
+### Properties
 
+Let $cdgAg_k$ be the projective model structure on commutative unbounded dg-algebras from above
+
++-- {: .un_prop }
+###### Proposition
+
+For cofibrant $A \in cdgAlg_k$, the functor
+
+$$
+  A\otimes_k (-) : k Mod \to A Mod
+$$
+
+preserves [[quasi-isomorphism]]s.
+
+For $A,B \in cdgAlg_k$, their [[derived functor|derived]] [[coproduct]] in $k Mod$ coincides in the [[homotopy category]] with the derived [[tensor product]] in $k Mod$: the morphism
+
+$$
+  A \coprod_k^{L} B \stackrel{}{\to} A \otimes_k^L B
+$$
+
+is an isomorphism in $Ho(k Mod)$.
+
+=--
+
+This follows by the above with ([To&#235;nVezzosi, assumption 1.1.0.4, and page 8](#ToenVezzosi)).
 
 ## References
 
