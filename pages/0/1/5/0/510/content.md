@@ -113,6 +113,8 @@ One realization of this kind of idea is the notion of [[combinatorial spectrum]]
 
 ## Examples 
 
+* [[sphere spectrum]]
+
 * [[Eilenberg-MacLane spectrum]]
 
 * [[K-theory spectrum]]
