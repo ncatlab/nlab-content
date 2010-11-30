@@ -1,7 +1,18 @@
 
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+#### AQFT
++--{: .hide}
 [[!include AQFT and operator algebra contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -17,5 +28,9 @@ A vector $x \in \mathcal{H}$ is a **separating vector** if $M(x) = 0$ implies $M
 ## Properties
 
 The notions of separating vector is dual to that of [[cyclic vector]] with respect to the [[commutant]] $\mathcal{M}'$, that is a vector is cyclic for $\mathcal{M}$ iff it is separating for $\mathcal{M}'$.
+
+## Applications
+
+In the context of [[AQFT]] separating vectors appear as _vacuum [[state]]s_ . See [[Reeh-Schlieder theorem]].
 
 [[!redirects separating vectors]]
