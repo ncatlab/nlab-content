@@ -44,10 +44,10 @@ $$
 in the [[category of simplicial objects]] in $PSh(C)$, hence the category of [[simplicial presheaves]], is called a **hypercover** if for all $n \in \mathbb{N}$ the canonical morphism
 
 $$
-  Y_{n} \to (\mathbf{cosk}_{n-1} Z)_n \times_{(\mathbf{cosk}_{n-1} X)_n} X_n
+  Y_{n} \to (\mathbf{cosk}_{n-1} Y)_n \times_{(\mathbf{cosk}_{n-1} X)_n} X_n
 $$
 
-in $PSh(C)$ are [[local epimorphism]]s. Here $\mathbf{cosk}_n : PSh(C)^{\Delta^{op}} \to PSh(C)^{\Delta^{op}}$ is the [[coskeleton]] functor in degree $n$.
+in $PSh(C)$ are [[local epimorphism]]s (in other words, $f$ is a "[[Reedy model structure|Reedy]] local-epimorphism").  Here $\mathbf{cosk}_n : PSh(C)^{\Delta^{op}} \to PSh(C)^{\Delta^{op}}$ is the [[coskeleton]] functor in degree $n$.
 
 In low degree the local epimorphisms here are  
 
@@ -119,6 +119,8 @@ If the [[topos]] $Sh(C)$ has [[point of a topos|enough points]] a morphism $f : 
 =--
 
 In this form the notion of hypercover appears for instance in ([Brown](#Brown)).
+
+In some situations, we may be interested primarily in hypercovers that are built out of data entirely in the site $C$.  We obtain such hypercovers by restricting $X$ to be a discrete simplicial object which is representable, and each $Y_n$ to be a coproduct of representables.  This notion can equivalently be formulated in terms of diagrams $(\Delta/A) \to C$, where $A$ is some simplicial set and $(\Delta/A)$ is its [[category of simplices]].
 
 
 ## Properties
