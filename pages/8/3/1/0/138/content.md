@@ -57,7 +57,7 @@ In low degree the local epimorphisms here are
 
 * and so on.
 
-A hypercover is called **bounded** by $n \in \mathbb{N}$ if for all $k \geq n$ the morphisms $Y_{k+1} \to (\mathbf{cosk}_{n})_{k+1}$ are [[isomorphism]]s.
+A hypercover is called **bounded** by $n \in \mathbb{N}$ if for all $k \geq n$ the morphisms $Y_{k} \to (\mathbf{cosk}_{k-1} Y)_k \times_{(\mathbf{cosk}_{k-1} X)_k} X_k$ are [[isomorphism]]s.
 
 The smallest $n$ for which this holds is called the **height** of the hypercover.
 
