@@ -6,9 +6,11 @@ In Algebraic Topology, profinite homotopy types are frequently encountered. This
 
 One origin of the theory can be found in [[Grothendieck's Galois theory]], in which he defined an [[algebraic fundamental group]] of a scheme using its _finite_ 'covering spaces'.  These correspond to the finite field extensions in the [[Grothendieck's Galois theory|The classical case of fields]], and from that perspective one can ask what the higher profinite homotopy n-types of a scheme should classify.    
 
- In the 1960s Artin and Mazur constructed a functor which associates to
-each locally noetherian scheme $X$ its &#233;tale homotopy type $X_{et}$ , an object of
-$pro\Ho(SSets)$, the [[pro-object|pro-category]] of the homotopy category $Ho(SSets)$ of simplicial sets. They observed that this did not correspond to a homotopy category of a [[model category]] on a category of pro simplicial sets.
+In the 1960s Artin and Mazur constructed a functor which associates to
+each locally noetherian scheme $X$ its [[etale homotopy type|étale homotopy type]], $X_{et}$ , an object of
+$pro\Ho(SSets)$, the [[pro-object|pro-category]] of the homotopy category $Ho(SSets)$ of simplicial sets. They observed that this did not correspond to a homotopy category of a [[model category]] on a category of pro simplicial sets. 
+
+Friedlander gave a rigidified version of the Artin-Mazur homotop type, which he called the [[etale topological type|étale topological type]] of the scheme. This was used by Quillen in the proof of the Adams conjecture, a result purely in Algebraic Topology.
 
 * Dennis Sullivan introduced profinite completions into topology in his work:
 D. Sullivan, _Genetics of homotopy theory and the Adams conjecture_, 
@@ -23,7 +25,9 @@ A. Bousfield and D. Kan, 1972, _Homotopy limits, Completions and localizations_,
 * In the 1990s, Morel and Voevodsky, defined a neat framework
 for the use of topological methods in algebraic geometry. They embedded the
 category of smooth schemes of 'finite type over a field k into a larger category
-of 'k-spaces', which carries the structure of a closed model category. The study of these k-spaces is linked to &#233;tale homotopy theory, see Schmidt, _On the &#233;tale homotopy type of
+of 'k-spaces', which carries the structure of a closed model category. The study of these k-spaces is linked to [[etale homotopy theory|étale homotopy theory]], see Schmidt, _On the &#233;tale homotopy type of
 Morel-Voevodsky spaces_, and Isaksen, _Etale realization on the $A^1$-homotopy theory of schemes_. Adv. in Math. 184, 37--63 (2004).
+
+
 
 [[!redirects profinite homotopy theory]]
