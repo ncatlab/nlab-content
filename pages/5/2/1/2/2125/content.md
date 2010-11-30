@@ -669,7 +669,7 @@ $(V \otimes W)^n = \oplus_{p+q = n} V^p \otimes W^q$ whose
 coboundary map is given on homogeneous elements 
 $\nu \otimes \omega\in V^p \otimes W^q$ by
   $$
-    d (\nu \otimes \omega) = (d_V \nu) \otimes \omega + (-)^{p} \vu \otimes d_W \omega
+    d (\nu \otimes \omega) = (d_V \nu) \otimes \omega + (-)^{p} \nu \otimes d_W \omega
     \,.
   $$
 
