@@ -1,18 +1,23 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
 [[!include higher geometry - contents]]
+=--
+=--
+=--
 
-***
-
-[[!include higher algebra - contents]]
-</div>
 
 #Contents#
-
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
-# Idea #
+
+## Idea 
+
 A general idea of [[Alexander Grothendieck]] was that to study a geometry more general than [[scheme]]s instead of the gluing of [[affine scheme]]s as [[ringed space]s, one glues the functors of points; hence **a [[space]] is simply a [[sheaf]] of sets on some [[site]] $Loc$ of local models with a [[Grothendieck topology]]** $\tau$ on it. 
 
 An algebraic [[scheme]] $X$ is a [[ringed space]] that is locally isomorphic to an [[affine scheme]]. Alternatively (see Gabriel-Demazure), it is a presheaf of sets on $Aff=CommRing^{op}$ locally representable in Zariski topology on $Aff$. The second approach [[Alexander Grothendieck]] calls functor of points approach. 
@@ -40,13 +45,13 @@ Aspects of toric geometry and the foundations of the geometry over a field of on
 Several different definitions by several authors exist.
 
 
-# locally affine structured (∞,1)-toposes #
+## Locally affine structured (∞,1)-toposes 
 
 This is the definition in the context of 
 
-* [[Jacob Lurie]], [[Structured Spaces]].
+* [[Jacob Lurie]], _[[Structured Spaces]]_
 
-## Idea ##
+### Idea 
 
 The notion of [[structured (∞,1)-topos]] is in particular a [[vertical categorification|categorification]] of the notion of [[ringed space]]. In fact it is more general also in that it allows a choice of local model spaces: for $\mathcal{G}$ an [[(∞,1)-category]] of local models that is a [[geometry (for structured (∞,1)-toposes)]], a $\mathcal{G}$-[[structured (∞,1)-topos]] is a generalization of a space with a [[structure sheaf]] of functions that may take values in the objects of $\mathcal{G}$.
 
@@ -58,7 +63,7 @@ A $\mathcal{G}$-scheme is a locally affine [[structured (∞,1)-topos]].
 
 =--
 
-## Definition in the variant of Lurie##
+### Definition in the variant of Lurie##
 
 Let $\mathcal{G}$ be a [[geometry (for structured (∞,1)-toposes)]]. Write $\mathcal{G}_0$ for the underlying
 discrete geometry. The identity functor
@@ -71,7 +76,7 @@ is then a morphism of geometries.
 
 Recall the notation $LTop(\mathcal{G})$ for the [[(∞,1)-category]] of $\mathcal{G}$-[[structured (∞,1)-topos]]es and [[geometric morphism]]s between them.
 
-### affine $\mathcal{G}$-schemes ###
+#### Affine $\mathcal{G}$-schemes 
 
 +-- {: .un_theorem}
 ###### Theorem ( [[Structured Spaces|StSp]] 2.1.1 )
@@ -126,7 +131,7 @@ A $\mathcal{G}$-[[structured (∞,1)-topos]] in the image of this functor is an 
 
 =--
 
-### $\mathcal{G}$-schemes ###
+#### $\mathcal{G}$-Schemes 
 
 +-- {: .un_defn}
 ###### Definition (geometric scheme, [[Structured Spaces|StSp]] 2.3.9)
@@ -171,7 +176,7 @@ that $(\mathcal{X}, \mathcal{O}'_{\mathcal{X}})$ is a $\mathcal{G}$-scheme.
 =--
 
 
-### smooth $\mathcal{G}$-schemes ###
+#### Smooth $\mathcal{G}$-schemes 
 
 Let $\Tau$ be a [[pregeometry (for structured (∞,1)-toposes)]] and let $\Tau \hookrightarrow \mathcal{G}$ be an inclusion into an enveloping [[geometry (for structured (∞,1)-toposes)]].
 
@@ -188,17 +193,17 @@ With an envelope $\Tau \hookrightarrow \mathcal{G}$ fixed, a $\mathcal{G}$-schem
 
 
 
-### Examples ###
+#### Examples
 
-#### ordinary schemes ####
+##### Ordinary schemes 
 
 See the discussion at [[derived scheme]] for how ordinary [[scheme]]s are special cases of [[generalized scheme]]s.
 
-#### ordinary Deligne-Mumford stacks ####
+##### Ordinary Deligne-Mumford stacks 
 
 See the discussion at [[derived Deligne-Mumford stack]] for how ordinary [[Deligne-Mumford stack]]s are special cases of [[derived Deligne-Mumford stack]]s.
 
-#### derived schemes ####
+##### Derived schemes
 
 +-- {: .un_defn}
 ###### Definition (derived scheme, [[Structured Spaces]], 4.2.8)
@@ -209,7 +214,7 @@ A **[[derived scheme]]** over $k$ is a $\mathcal{T}_{Zar}(k)$-scheme.
 
 =--
 
-#### derived Deligne-Mumford stacks ####
+##### Derived Deligne-Mumford stacks
 
 +-- {: .un_defn}
 ###### Definition (derived Deligne-Mumford stack, [[Structured Spaces]], 4.3.19)
@@ -225,7 +230,7 @@ Zoran: there is a serious collision here with the terminology in algebraic geome
 
 =--
 
-#### derived schemes with $E_\infty$-ring valued structure sheaves ####
+##### Derived schemes with $E_\infty$-ring valued structure sheaves 
 
 The above [[derived scheme]]s have structure sheaves with values in [[simplicial object|simplicial]] commutative rings. There is also a notion of derived scheme whose structure sheaf takes values in [[E-infinity ring]]s. The theory of these is to be described in full detail in 
 
@@ -235,7 +240,7 @@ An indication of some details is in
 
 * [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
 
-#### derived smooth manifolds ####
+##### Derived smooth manifolds 
 
 ...A $\mathcal{T}_{diff}$-scheme...
 
@@ -243,9 +248,8 @@ See
 
 * [[derived smooth manifold]].
 
-### References ###
+#### References 
 
-The theory of $\mathcal{G}$-schemes is due to [[Jacob Lurie]].
 
 Generalized schemes are definition 2.3.9 of
 
@@ -253,15 +257,12 @@ Generalized schemes are definition 2.3.9 of
 
 The definition of affine $\mathcal{G}$-schemes (absolute spectra) is in section 2.2.
 
-# Generalized schemes of Durov #
+## Generalized schemes of Durov 
 
 N. Durov replaces the commutative rings by commutative [[algebraic monad]]s (aka generalized rings) in sets and defines spectra in that context, and glues them together. This way he defines what he calls __generalized schemes__: in a nutshell generalized schemes are schemes glued from affine spectra of generalized rings. The corresponding category of quasicoherent $\mathcal{O}$-modules is not abelian in general. See also the separate entry [[generalized scheme after Durov]].
 
-#Brave new schemes#
 
-Brave new algebraic geometry is a case of homotopic algebraic geometry where the local models are ringed spectra in the sense of stable homotopy theory. So one can talk about brave new schemes and brave new stacks...
-
-# Other generalized schemes #
+## Other generalized schemes 
 
 O. Gabber considers replacing rings by *almost rings*, this results in the theory of [[almost schemes]].
 
