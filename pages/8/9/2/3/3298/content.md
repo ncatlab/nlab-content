@@ -411,7 +411,7 @@ Consider a [[model structure on simplicial T-algebras]]/on [[homotopy T-algebras
 
 1. it is a [[simplicial model category]];
 
-1. [[tensoring]] with simplicial sets preserves cofibrant replacement.
+1. [[tensoring]] with simplicial sets preserves weak equivalences and hence cofibrant replacement.
 
 Then for $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ and $K \in \infty Grpd$ the higher order Hochschild homology complex $K \cdot \mathcal{O}(X)$  is presented by the ordinary [[tensoring]] $K \cdot \mathcal{O}(X)$ in the model category, for $K$ any [[simplicial set]] incarnation of the $\infty$-groupoid.
 
@@ -431,7 +431,10 @@ We can always use the [[model structure on homotopy T-algebras]] to satisfy the 
 
 Notice that in this model category even if $\mathcal{O}(X)$ is fibrant (which it is if $\mathcal{O}X$ is an ordinary algebra), then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathcal{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homotopy T-algebra]].
 
-On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]) Pirashvili's formulation of higher order Hochschild homology, as described below in [Examples -- Simplicial algebra on the circle](#SimplicialCircleAlgebra).
+On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]) Pirashvili's formulation of higher order Hochschild homology for ordinary algebras, as described below in [Examples -- Simplicial algebra on the circle](#SimplicialCircleAlgebra).
+
+More generally, the assumptions are satisfied for the [[model structure on dg-algebras|model structure on unbounded commutative dg-algebras]] over a field of characteristic 0 and even more generally for the homotopy contexts considered in ([To&#235;nVezzosi](#ToenVezzosiStacks)).
+
 
 =--
 
@@ -1291,7 +1294,7 @@ The function algebra on $LConst X$ is the cosimplicial algebra of singular cocha
 
 =--
 
-This has maybe been first made explicit by [[Bertrand Toen]]. Details are at [[function algebras on ∞-stacks]].
+This has maybe been first made explicit by [[Bertrand Toën]]. Details are at [[function algebras on ∞-stacks]].
 
 
 +-- {: .un_prop }
@@ -1491,7 +1494,7 @@ The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop sp
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322))
 
-* [[Bertrand Toen]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
+* [[Bertrand Toën]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
 
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], 
   _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
@@ -1510,6 +1513,11 @@ A discussion of higher order Hochschild cohomology from a more general $(\infty,
 
 * [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_ ([pdf](http://websupport1.citytech.cuny.edu/faculty/ttradler/HighHoch.pdf))
 {#GinotTradlerZeinalian}
+
+General homotopy-theoretic setups and results for contexts in which this makes sense are in
+
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _HAG II, geometric stacks and applicatons_ ([arXiv:math/0404373v4](http://arxiv4.library.cornell.edu/abs/math/0404373v4))
+{#ToenVezzosiStacks}
 
 Jones's theorem is due to
 
@@ -1541,6 +1549,8 @@ A review of Deligne's conjecture and its solutions is in
 
 * [[Kathryn Hess]], _Deligne's Hochschild cohomology conjecture_ ([pdf](http://sma.epfl.ch/~hessbell/Pub_DeligneColloq.pdf))
 {#Hess}
+
+
 
 For references on [[topological chiral homology]] see there.
 
