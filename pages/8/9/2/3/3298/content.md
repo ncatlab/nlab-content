@@ -445,7 +445,9 @@ More generally, the assumptions are satisfied for the [[model structure on dg-al
 
 We consider in detail the classical case of Hichschild (co)homology of an [[associative algebra]].
 
-#### The simplicial circle algebra
+#### The simplicial circle algebra {#SimplicialCircleAlgebra}
+
+In this section we construct the simplicial algebra of $k$-valued functions on the circle $S^1 \cdot k$, disccuss how this is the same as functions on the [[odd line]] $k^{0|1}$ and how therefore for every algebra $A$ we have that the [[copowering]] $S^1 \cdot A$ is canonically equipped with a [[differential]] on its [[homology]]. How this $S^1 \cdot A$ is explicitly the Hochschild complex of $A$ is then discussed in the [next section](#TensoringWithSimplicialCircleAlgebra).
 
 We shall use two different equivalent models of the circle in $\infty Grpd$ in terms of models in $sSet$:
 
@@ -556,16 +558,55 @@ $$
 
 =--
 
++-- {: .un_corollary}
+###### Corollary
+
+We have also
+
+$$
+  (\mathbf{B}\mathbb{Z}) \cdot k
+  \simeq
+  (k \oplus k \epsilon, d = 0)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The simplicial/dg $k$-algebra $k$ is clearly cofibrant. 
+Therefore by the [[pushout-product axiom]] of the [[copowering]] operation in a [[simplicial model category]] the functor $(-) \cdot k$ preserves acyclic cofibrations and hence by the [[factorization lemma]] all weak equivalences between cofibrant objects, hence between all simplicial sets.
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+Let $A$ be any $k$-algebra. It follows that the [[homology]] of $S^1 \cdot A$ is canomically equipped with a [[differential]]
+
+$$
+  d : H_\bullet(S^1 \cdot A) \to H_{\bullet-1}(S^1 \cdot A)
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using the monoidal structure $N_\bullet(S^1)\otimes N_\bullet(S^1) \to N_\bullet(S^1)$ we have that $N_\bullet(S^1 \cdot A) \simeq N_\bullet((S^1 \cdot k) \otimes_k A)$ is a free $N_\bullet(S^1 \cdot k)$-[[module]] and hence inherits a canonical $N_\bullet(S^1 \cdot k)$-[[action]]. This is the circle action in question. By the above this is equivalent to an action of $(k \oplus k \epsilon)$. The differential is the image of this action on the nilpotent element $\epsilon$ of degree -1.
+
+=--
+
+
 +-- {: .un_lemma}
 ###### Observation
 
-The evident inclusion of simplicial sets
+Passing to the invariant under this action leads from Hochschild to [[cyclic homology]].
 
-$$
-  \mathbf{B}\mathbb{Z} \to (\Delta[1]/\partial \Delta[1]) \cdot k
-$$
-
-is a morphism of simplicial abelian groups.
+(...)
 
 =--
 
@@ -690,9 +731,21 @@ is the morphism between [[tensor power]]s of $A$ of the cardinalities of $S$ and
 
 =--
 
+Also notice that
 
++-- {: .un_cor}
+###### Proposition
 
-So we see that in low degree the simplicial algebra $(\Delta[1]/\partial \Delta[1])$ has the components 
+$$
+  K \cdot A
+  \simeq
+  (K \cdot k) \otimes_k A
+  \,.
+$$
+
+=--
+
+So we see that in low degree the simplicial algebra $(\Delta[1]/\partial \Delta[1]) \cdot A$ has the components 
 
 $$
   \array{
