@@ -837,7 +837,7 @@ $$
   \,.
 $$
 
-Notice that for the last one we had to cyclically permute the source in order to disply the maps in this planar fashion.
+Notice that for the last one we had to cyclically permute the source in order to display the maps in this planar fashion.
 
 So therefore we get the tensorings
 
@@ -901,6 +901,65 @@ This we describe in more detail in the section [Explicit description of the Hoch
 Generally, for $K$ any simplicial set, $K \cdot A$ is the simplicial algebra whose Moore complex is the complex that ([Pirashvili](#Pirashvili)) uses to define higher order Hochschild homology.
 
 
+#### Identification with K&#228;hler differential forms
+
+
++-- {: .un_prop #K&#228;hler1Forms}
+###### Proposition
+
+The [[homology]] of the Hochschild complex $S^1 \circ A$ in degree 1 is the  [[Kähler differential form]]s of $A$
+
+$$
+  \Omega_K(A/k) \simeq HH_1(A,A)
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+claim that the identification of the homology in lowest degree with K&#228;hler differentials is established by identifying an element 
+
+$$
+  (f ,g) \in A \otimes_k A
+$$  
+
+with the K&#228;hler form $f \wedge d g$.
+
+For observe that under this identification with $(a,b,c) \in A \otimes_k A \otimes_k A$ any element its differential is
+
+$$
+  \begin{aligned}
+    \partial (f,g,h)
+    &=
+    (f g, h) - (f, g h) + (h f, g)
+    \\
+    &
+    \sim
+    f g \wedge d h -  f \wedge d (g h) + f h \wedge d g
+  \end{aligned}
+  \,.
+$$  
+
+The term on the right is precisely the term by which one has to quotient out the module of formal expressions $f \wedge d g$ to get the module of [[Kähler differential]]s: setting it to 0 is the [[derivation]] property of $d$
+
+$$
+  (\partial (f,g,h) = 0)
+  \Leftrightarrow
+  f \wedge ( f(g h) = h \wedge d g + g \wedge d h )
+  \,.
+$$
+
+Therefore we have manifestly
+
+$$
+  \Omega^1_K(A) \simeq C_1(A,A)/im(\partial)
+  \,.
+$$
+
+=--
 
 
 #### Explicit description of the Hochschild complex {#ExplicitHochschildChains}
@@ -1017,6 +1076,9 @@ In words this means that the Hochschild complex is obtained froms the bar comple
 The fact that the circle appears here has in fact a deep significance: the Hochschild chain complex may be understood in [[higher geometry]] as encoding functions on a [[free loop space object]] of whatever $A$ behaves like being functions on.
 
 =--
+
+
+
 
 
 #### As function algebra on the derived loop space {#FuncsOnDerivedLoopSpace}
@@ -1261,56 +1323,15 @@ One way to understand or interpret this conceptually is to regard the [[derived 
 
 The **[[Hochschild-Kostant-Rosenberg theorem]]** states that under suitable conditions, the Hochschild homology of an algebra (with coeficients in itself) computes the wedge powers of its [[Kähler differential]]s.
 
-+-- {: .un_prop }
-###### Proposition
-
-For a $k$-algebra $R$, its module of [[Kähler differential]]s coincides with its first Hochschild homology
+Let $A$ be an [[associative algebra]] over $k$. Recall the natural [identification](#K&#228;hler1Forms)
 
 $$
-  \Omega(R/k) \simeq HH_1(R,R)
-  \,.
+  HH_1(A,A) \simeq \Omega^1(A)
 $$
 
+of the first Hochschild homology of $A$ with coefficients in itself and degree-1 [[Kähler differential form]]s of $A$.
 
-=--
 
-+-- {: .proof}
-###### Proof
-
-Write $C_\bullet(R,R) = ( \cdots \to R \otimes_k R \otimes_k R \stackrel{\partial}{\to} R \otimes_k R)$ for the chain chomplex of Hochschild chains. We claim that the identification of its homology in lowest degree with K&#228;hler differentials is established by identifying an element $(f ,g) \in R \otimes_k R$  with the K&#228;hler differential $f \wedge d g$.
-
-For observe that under this identification with $(a,b,c) \in R \otimes_k R \otimes_k R$ any element its differential is
-
-$$
-  \begin{aligned}
-    \partial (f,g,h)
-    &=
-    (f g, h) - (f, g h) + (h f, g)
-    \\
-    &
-    \sim
-    f g \wedge d h -  f \wedge d (g h) + f h \wedge d g
-  \end{aligned}
-  \,.
-$$  
-
-The term on the right is precisely the term by which one has to quotient out the module of formal expressions $f \wedge d g$ to get the module of [[Kähler differential]]s: setting it to 0 is the [[derivation]] property of $d$
-
-$$
-  (\partial (f,g,h) = 0)
-  \Leftrightarrow
-  f \wedge ( f(g h) = h \wedge d g + g \wdge d h )
-  \,.
-$$
-
-Therefore we have manifestly
-
-$$
-  \Omega^1_K(R) \simeq C_1(R,R)/im(\partial)
-  \,.
-$$
-
-=--
 
 Write $\Omega^0(R/k) := R \simeq HH_0(R,R)$.
 
