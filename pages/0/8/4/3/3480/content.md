@@ -416,7 +416,7 @@ This Hopf-direction has been advanced by many authors including [[Shahn Majid]] 
 
 * K. Szlachanyi, _Fiber functors, monoidal sites and Tannaka duality for bialgebroids_, [arxiv/0907.1578](http://arxiv.org/abs/0907.1578)
 
-More on Tannak duality for Hopf algebras is in 
+More on Tannaka duality for Hopf algebras is in 
 
 * [[Daniel Schäppi]], _Tannak duality for comonoids in cosmoi_ ([arXiv:0911.0977](http://arxiv.org/abs/0911.0977))
 
