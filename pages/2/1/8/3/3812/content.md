@@ -6,7 +6,7 @@
 
 A **triangulation** of a [[topological space]] $Y$ is a [[simplicial set]] $X$ together with a [[homeomorphism]] $h: R X \to Y$, where $R$ denotes the [[geometric realization]] [[functor]].
 
-(Usually, in classical algebraic and geometric topology, the $X$ here is taken to be a [[simplicial complex]], but the difference does not really matter if one is considering uses in homotopy theoretic contexts. For the reason, see the discussion at [[subdivision]]. When considering polyhedral structure as such, for instance for PL manifolds, the simplical complex version would be needed.)
+(Usually, in classical algebraic and geometric topology, the $X$ here is taken to be a [[simplicial complex]], but the difference does not really matter if one is considering uses in homotopy theoretic contexts. For the reason, see the discussion at [[subdivision]]. When considering polyhedral structure as such, for instance for PL manifolds, the simplical complex version would be needed. In such a case we may refer to a [[classical triangulation]].)
 
 Explicitly, $R X$ is given by a [[coend]] formula
 
