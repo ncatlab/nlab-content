@@ -901,8 +901,10 @@ This we describe in more detail in the section [Explicit description of the Hoch
 Generally, for $K$ any simplicial set, $K \cdot A$ is the simplicial algebra whose Moore complex is the complex that ([Pirashvili](#Pirashvili)) uses to define higher order Hochschild homology.
 
 
+
 #### Identification with K&#228;hler differential forms
 
+We spell out in detail how in degree 0 and 1 the [[homology]] of the Hochschild complex of $A$ is that of its [[Kähler differential form]]s. Under mild conditions on $A$ this is also true in higher degrees, which is the statement of the [Hochschild-Kostant-Rosenberg theorem](#HochschildKostantRosenberg)
 
 +-- {: .un_prop #K&#228;hler1Forms}
 ###### Proposition
@@ -910,25 +912,34 @@ Generally, for $K$ any simplicial set, $K \cdot A$ is the simplicial algebra who
 The [[homology]] of the Hochschild complex $S^1 \circ A$ in degree 1 is the  [[Kähler differential form]]s of $A$
 
 $$
-  \Omega_K(A/k) \simeq HH_1(A,A)
+  HH_1(A,A) \simeq \Omega_K(A/k)
   \,.
 $$
 
+The [[isomorphism]] is induced by the identifications
+
+$$
+  \array{
+    \vdots
+    \\
+    (\stackrel{f}{(* * * ), \stackrel{g}{*\to *}}, \stackrel{h}{* * \to *}) 
+     & \mapsto & f \wedge d g \wedge d h
+    \\
+    (\stackrel{f}{(* *)}, \stackrel{g}{(* \to *)}) &\mapsto& f \wedge d g
+    \\
+    (\stackrel{f}{(*)}) & \mapsto & f 
+  }
+  \,,
+$$
+
+where on the left we display elements of $A^{\otimes_k}$ under the [above](#TensoringWithSimplicialCircleAlgebra) identification of these tensor powers in $S^1 \cdot A$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-claim that the identification of the homology in lowest degree with K&#228;hler differentials is established by identifying an element 
-
-$$
-  (f ,g) \in A \otimes_k A
-$$  
-
-with the K&#228;hler form $f \wedge d g$.
-
-For observe that under this identification with $(a,b,c) \in A \otimes_k A \otimes_k A$ any element its differential is
+The [[Moore complex]]-differential acts on  $(f,g,h) \in A \otimes_k A \otimes_k A$ by
 
 $$
   \begin{aligned}
@@ -961,8 +972,11 @@ $$
 
 =--
 
+#### The simplicial circle action
 
-#### Explicit description of the Hochschild complex {#ExplicitHochschildChains}
+(...)
+
+#### Traditional description of the Hochschild complex {#ExplicitHochschildChains}
 
 We spell out explicitly the Hochschild chain complex for an 
 [[associative algebra]] (over some ring $k$) with coefficients in a [[bimodule]].
