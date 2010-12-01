@@ -116,7 +116,7 @@ As a [[groupoid object in an (infinity,1)-category|groupoid object]] this is sti
 
 ### Decategorification: the ordinary moduli stack of elliptic curves
 
-To simplifyx this we takea drastic step and apply a lot of [[decategorification]]: by applying the [[homotopy group]] [[(∞,1)-functor]] to all the $E_\infty$-rings involved these are sent to graded ordinary [[ring]]s $\pi_*(tmf)$, $\pi_*(M U)$ etc. The result is an ordinary [[simplicial object|simplicial]] [[scheme]]
+To simplify this we take a drastic step and apply a lot of [[decategorification]]: by applying the [[homotopy group]] [[(∞,1)-functor]] to all the $E_\infty$-rings involved these are sent to graded ordinary [[ring]]s $\pi_*(tmf)$, $\pi_*(M U)$ etc. The result is an ordinary [[simplicial object|simplicial]] [[scheme]]
 
 $$
   \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spect (\pi_*(tmf \wedge M U \wedge  M U)) \stackrel{\to}{\to} Spec ( \pi_*(tmf \wedge M U))
@@ -130,7 +130,7 @@ This general Ansatz is discussed in ([Hopkins](#Hopkins)).
 This simplicial scheme, which is degreewise the formal dual of a graded ring of [[generalized (Eilenberg-Steenrod) cohomology|generalized homology]]-groups one can show is in fact a [[groupoid]], hence a [[stack]]: effectively the [[moduli stack of elliptic curves]]. $\mathcal{M}_{ell}$. See ([Henriques](#HenriquesModuli)).
 
 
-In fact if in this construction one replaced $Spec tmf$ by the point, one obatins the simplicial scheme
+In fact if in this construction one replaced $Spec tmf$ by the point, one obtains the simplicial scheme
 
 $$
   \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spect (\pi_*(M U \wedge M U)) \stackrel{\to}{\to} Spec ( \pi_*(M U))
@@ -155,7 +155,7 @@ $$
 
 But it turns out that even if the derived structure sheaf does not exist, this spectral sequence may still converge and may still compute the homotopy groups of the ring spectrum that one started with. This gives one way to compute the homotopy groups of $tmf$. 
 
-For the case of $tmf$ one finds that the homotopy sheaves $\pi_q(\mathcal{O}(\mathcal{M}_{ell}))$ are simple: they vanish in odd degree and are [[tensor power]]s $\omega^{\otimes k}$ of the canoical line bundle $\omega$ in even degree $2 k$, where the fiber of $\omega$ over an [[elliptic curve]] is the [[tangent space]] of that curve at its identity element. A [[section]] of $\omega^{\otimes k}$ is a [[modular form]] of weight $k$. So the whole problem of computing the homotopy groups of $tmf$ boils down to computing the [[abelian sheaf cohomology]] of the moduli stack of elliptic curves with coefficvients in these abelian groups of modular forms --- and then examining the resulting spectral sequence.
+For the case of $tmf$ one finds that the homotopy sheaves $\pi_q(\mathcal{O}(\mathcal{M}_{ell}))$ are simple: they vanish in odd degree and are [[tensor power]]s $\omega^{\otimes k}$ of the canonical line bundle $\omega$ in even degree $2 k$, where the fiber of $\omega$ over an [[elliptic curve]] is the [[tangent space]] of that curve at its identity element. A [[section]] of $\omega^{\otimes k}$ is a [[modular form]] of weight $k$. So the whole problem of computing the homotopy groups of $tmf$ boils down to computing the [[abelian sheaf cohomology]] of the moduli stack of elliptic curves with coefficients in these abelian groups of modular forms --- and then examining the resulting spectral sequence.
 
 This can be done quite explicitly in terms of a long but fairly elementary computation  in ordinary algebra. A detailed discussion of this computation is in ([Henriques](#Henriques))
 
@@ -179,5 +179,5 @@ More details are at
 
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
 
-and in the series of lectrue notes linked to there.
+and in the series of lecture notes linked to there.
 
