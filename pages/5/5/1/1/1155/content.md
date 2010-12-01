@@ -1,7 +1,14 @@
-<div class="rightHandSide toc">
-[[!include stable homotopy theory - contents]]
-</div>
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -79,13 +86,15 @@ In fact, this can be made precise: starting from a spectrum of simplicial sets, 
 [[Mike Shulman|I]] don't know whether anyone has gone back to treat these from a "modern" standpoint, such as by putting a [[model category]] structure on combinatorial spectra.  They do seem less interesting and useful from a modern standpoint, because no one has ever managed to give them a [[smash product]] which is associative and unital on the point-set level; thus they don't provide a good framework for talking about ($A_\infty$ or $E_\infty$) ring spectra, module spectra, and other aspects of [[brave new algebra]].  It's also not clear how hard anyone has tried, though.  Presumably one would have to modify the definition by incorporating the "symmetries" somehow, as is done for example by passing from ordinary simplicial-set spectra to [[symmetric spectrum|symmetric spectra]].
 
 
-#References#
+## References
 
-* Dan Kan, "Semisimplicial spectra"
+An early reference seems to be
 
-Part II, section 7 of 
+* [[Dan Kan]], _Semisimplicial spectra_
 
-* Ken Brown, [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]
+The definition is recalled in part II, section 7 of 
+
+* Ken Brown, _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_
 
 ***
 
