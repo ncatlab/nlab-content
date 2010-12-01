@@ -1660,11 +1660,13 @@ The definition of higher order Hochschild complex as (implicitly) the tensoring 
 
 A survey of traditional higher order Hochschild (co)homology and further developments and results are described in
 
-* [[Grégory Ginot]], _Higher order Hochschild cohomology ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
+* [[Grégory Ginot]], _Higher order Hochschild cohomology 
+  ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
 
 A discussion of higher order Hochschild cohomology from a more general $(\infty,1)$-categorical perspective is in 
 
-* [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, [arxiv/1011.6483](http://arxiv.org/abs/1011.6483){#GinotTradlerZeinalian}
+* [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, ([arxiv/1011.6483](http://arxiv.org/abs/1011.6483))
+{#GinotTradlerZeinalian}
 
 General homotopy-theoretic setups and results for contexts in which this makes sense are in
 
