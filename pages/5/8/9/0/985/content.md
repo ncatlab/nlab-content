@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-For a sufficiently nice topological space, the fundamental group at a point can be reconstructed as a group of deck transformations of the [[universal covering space]], which is the same as the automorphisms of the fiber over that point of the projection map. The deck transformations are monodromies induced by loops at the base point; intuitively they can be taken infinitesimally, and viewed as symmetries of the point. The functor which assigns to a point the fiber functor over it, generalizes to fiber functors in Tannakian formalism of Grothendieck which defines in more general setups the fundamental groupoid as the group of automorphisms of the appropriate fiber functor. See also [[fundamental group of a topos]]. 
+For a sufficiently nice [[topological space]], the [[fundamental group]] at a point can be reconstructed as a group of [[deck transformation]]s of the [[universal covering space]], which is the same as the [[automorphism]]s of the [[fiber]] over that point of the projection map. The deck transformations are monodromies induced by loops at the base point;. The functor which assigns to a point the fiber functor over it, generalizes to fiber functors in [[Tannaka duality|Tannakian formalism]] of Grothendieck which defines in more general setups the [[fundamental groupoid]] as the group of automorphisms of the appropriate fiber functor. See also [[fundamental group of a topos]]. 
 
 Grothendieck's [[Galois theory]] was constructed in order to define for [[scheme]]s an analogue of the familiar correspondence
 
@@ -120,9 +131,12 @@ and, a current state of the art decription is in
 
 A modern approach from classical via Grothendieck up to [[categorical Galois theory]] based on precategories and adjunctions is in 
 
-* F. Borceux, G. Janelidze, _[[Galois theories]]_, Cambridge Studies in Adv. Math. __72__, 2001. xiv+341 pp.
+* [[Francis Borceux]], [[George Janelidze]], _[[Galois theories]]_, Cambridge Studies in Adv. Math. __72__, 2001. xiv+341 pp.
 
 The application of a general Tannakian theorem of Saavaedra Rivano, as corrected by Deligne, to the "differential Galois theory" for differential instead of algebraic equation is in the last chapter of Deligne's [[Catégories Tannakiennes]].
+
+* [[George Janelidze]], Dietmar Schumacher, [[Ross Street]], _Galois theory in variable categories_   Applied Categorical Structures
+Volume 1, Number 1, 103-110, DOI:
 
 [[!redirects Grothendieck Galois theory]]
 [[!redirects Grothendieck's Galois theory]]
