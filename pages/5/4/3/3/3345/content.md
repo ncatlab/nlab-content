@@ -107,5 +107,15 @@ This is [Jardine, theorem 29, corollary 30](#Jardine).
 
 ## References
 
+The model structure on cubical sets is given in
+
 * Jardine, _Model structure on cubical sets_ (2002) ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf)) 
 {#Jardine}
+
+There is also the old work
+
+* Victor Gugenheim, _On supercomplexes_ Trans. Amer. Math. Soc. 85 (1957), 35&#8211;51
+
+in which "supercomplexes" are discussed, that combine simplicial sets and cubical sets (def 5). There are functors from simplicial sets to supercomplexes (after Defn 5) and, implicitly, from supercomplexes to cubical sets (in Appendix II). This was written in 1956, long before people were thinking as formally as nowadays and long before Quillen model theory, but a comparison of the homotopy categories might be in there.
+
+[[!redirects model structures on cubical sets]]
