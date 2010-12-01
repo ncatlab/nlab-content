@@ -62,11 +62,15 @@ In good cases, the intrinsic properties of $X$ do not depend on whether one rega
 
 ## References
 
-Some aspects of an axiomatic characterization of petit vs. gros toposes is in 
+The suggestion that a notion of _gros topos_ is needed apparently goes back to some remarks in _[[Pursuing Stacks]]_ and in more explicit fashion to
+
+* [[Bill Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986)
+
+Ever since then Lawvere has been suggesting and refining axioms that would characterize gros toposes.  The currently most recent incarnation of this axiom system is that for a [[cohesive topos]], discussed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
-A definition of gros vs petit toposes and remarks on applications in [[Galois theory]] is in
+Another definition of gros vs petit toposes and remarks on applications in [[Galois theory]] is in
 
 * Nick Duncan, _Gros and petit toposes_ ([pdf](http://www.cheng.staff.shef.ac.uk/pssl88/pssl88-duncan.pdf))
 
