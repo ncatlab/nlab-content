@@ -138,6 +138,100 @@ For the analog statement in [[(∞,1)-category]] theory see
 at [[(∞,1)-category of (∞,1)-presheaves]].
 
 
+### Limits
+
++-- {: .un_prop}
+###### Proposition
+
+A  [[limit]] in an [[under category]] is computed as a limit in the underlying category.
+
+Precisely: let $C$ be a [[category]], $t \in C$ an [[object]], and $t/C$ the corresponding [[under category]], and $p : t/C \to C$ the obvious projection.
+
+Let $F : D \to t/C$ be any [[functor]]. Then, if it exists, the [[limit]] over $p \circ F$ in $C$ is the image under $p$ of the limit over $F$:
+
+$$
+  p(\lim F)  \simeq \lim (p F)
+$$
+
+and $\lim F$ is uniquely characterized by $\lim (p F)$.
+
+
+=--
+ 
++-- {: .proof}
+###### Proof
+
+Over a morphism $\gamma : d \to d'$ in $D$ the limiting cone over $p F$  (which exists by assumption) looks like
+
+$$
+  \array{
+    && \lim p F
+    \\
+    & \swarrow && \searrow
+    \\
+    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
+  }
+$$
+
+
+By the universal property of the limit this has a unique
+lift to a cone in the [[under category]] $t/C$ over $F$:
+
+$$
+  \array{
+    && t 
+    \\
+    & \swarrow &\downarrow & \searrow
+    \\
+    && \lim p F
+    \\
+    \downarrow & \swarrow && \searrow & \downarrow
+    \\
+    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
+  }
+$$
+
+
+It therefore remains to show that this is indeed a limiting cone over $F$. Again, this is immediate from the universal property of the limit in $C$. For let $t \to Q$ be another cone over $F$ in $t/C$, then $Q$ is another cone over $p F$ in $C$ and we get in $C$ a universal morphism $Q \to \lim p F$
+
+$$
+  \array{
+    && t
+    \\
+    & \swarrow & \downarrow & \searrow
+    \\
+    && Q
+    \\
+    \downarrow & \swarrow &\downarrow & \searrow & \downarrow
+    \\
+    && \lim p F
+    \\
+    \downarrow & \swarrow && \searrow & \downarrow
+    \\
+    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
+  }
+$$
+
+
+A glance at the diagram above shows that
+the composite $t \to Q \to \lim p F$ constitutes a morphism
+of cones in $C$ into the limiting cone over $p F$. Hence it must equal our morphism $t \to \lim p F$, by the universal property of $\lim p F$, and hence the above diagram does commute as indicated.
+
+This shows that the morphism $Q \to \lim p F$
+which was the unique one giving a cone morphism on $C$ does lift to a
+cone morphism in $t/C$, which is then necessarily unique, too.  This demonstrates the required universal property of $t \to \lim p F$ and 
+thus identifies it with $\lim F$.
+
+
+=--
+
+* Remark: One often says "$p$ reflects limits" to express the conclusion of this proposition. A conceptual way to consider this result is by appeal to a more general one: if $U: A \to C$ is [[monadic functor|monadic]] (i.e., has a left adjoint $F$ such that the canonical comparison functor $A \to (U F)-Alg$ is an equivalence), then $U$ both reflects and preserves limits. In the present case, the projection $p: A = t/C \to C$ is monadic, is essentially the category of algebras for the monad $T(-) = t + (-)$, at least if $C$ admits binary coproducts. (Added later: the proof is even simpler: if $U: A \to C$ is the underlying functor for the category of algebras of an _endofunctor_ on $C$ (as opposed to algebras of a monad), then $U$ reflects and preserves limits; then apply this to the endofunctor $T$ above.) 
+
+
+
+
+
+
 
 ## Related concepts
 
