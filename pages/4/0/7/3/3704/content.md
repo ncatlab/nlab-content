@@ -43,7 +43,7 @@ We list various concepts in quantum mechanics and their corresponding incarnatio
 
 An [[observable]] in quantum mechanics formulated on a [[Hilbert space]] is modeled by a [[self-adjoint operator]], and the classical measurement outcomes of this operator provide, at least under some assumptions, an [[orthogonal basis]] on the [[Hilbert space]].
 
-That, more abstractly, the notion of orthognal basis of an object can be phrased intrinsically inside any suitable $\dagger$-compact category is the point made in ([CoeckePavlovicVicary](#CoeckePavlovicVicary))
+That, more abstractly, the notion of orthogonal basis of an object can be phrased intrinsically inside any suitable $\dagger$-compact category is the point made in ([CoeckePavlovicVicary](#CoeckePavlovicVicary))
 
 
 ### Complex phases
@@ -117,7 +117,7 @@ The formalization of orthogonal bases in $\dagger$-compact categories is in
 * [[Bob Coecke]], [[Dusko Pavlovic]], [[Jamie Vicary]], _A new description of orthogonal bases_ ([arXiv:0810.0812](http://arxiv.org/abs/0810.0812))
 {#CoeckePavlovicVicary}
 
-The role of comoplex numbers in general $\dagger$-compact categories is discussed in
+The role of complex numbers in general $\dagger$-compact categories is discussed in
 
 * [[Jamie Vicary]], _Completeness and the complex numbers_ ([arXiv:0807.2927](http://arxiv.org/abs/0807.2927)) 
 {#Vicary}
