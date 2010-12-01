@@ -21,7 +21,7 @@
 ## Idea 
 
 _Geometric realization_ is the operation that builds from a [[simplicial set]] $X$ a [[topological space]] $|X|$ obtained by interpreting each 
-element in $X_n$ -- each abstract $n$-simplex in $X$ -- as one copy of the standard topological $n$-simplex $\Delta^n_{Top}$ and then guing together all these along their boundaries to a big topological space, using the information encoded in the face and degeneracy maps of $X$ on how these simplices are supposed to be stuck together.
+element in $X_n$ -- each abstract $n$-simplex in $X$ -- as one copy of the standard topological $n$-simplex $\Delta^n_{Top}$ and then gluing together all these along their boundaries to a big topological space, using the information encoded in the face and degeneracy maps of $X$ on how these simplices are supposed to be stuck together. It generalises the geometric realization of [[simplicial complex]]es as described at that entry.
 
 This is the special case of the general notion of [[nerve and realization]] that is induced from the standard [[simplicial set|cosimplicial]] [[topological space]] $[n] \mapsto \Delta^n_{Top}$.
 
@@ -162,7 +162,7 @@ R(X \times Y) & \cong & R((X \otimes_{\Delta} \hom) \times (Y \otimes_{\Delta} \
  
 ## Examples 
 
-* For $G$ a [[group]], $\mathbf{B}G$ its one-object [[groupoid]] obtained by [[delooping]], $N(\mathbf{B}G)$ the corresponding simplicial [[nerve]] [[Kan complex]], we have that the geometric realization
+* For $G$ a [[group]], $\mathbf{B}G$, its one-object [[groupoid]] obtained by [[delooping]], $N(\mathbf{B}G)$ the corresponding simplicial [[nerve]] [[Kan complex]], we have that the geometric realization
   $$
     \mathcal{B}G = |N\mathbf{B}G|
   $$
