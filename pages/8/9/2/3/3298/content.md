@@ -1011,7 +1011,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-Under the identification of $HH_\bullet(A,A) = H_\bullet(S^1 \cdot A)$ with K&#228;hler differential forms, the [[cup product]] on homology identifies with the [[exterior algebra|wedge product]] of differential forms.
+Under the identification of $HH_\bullet(A,A) = H_\bullet(S^1 \cdot A)$ with K&#228;hler differential forms, the [[cup product]] on homology identifies with the [[exterior algebra|wedge product]] of differential 0- and 1-forms.
 
 =---
 
@@ -1064,8 +1064,6 @@ $$
   \nabla(\omega, \lambda) = f h \wedge d q \wedge d q
   \,.
 $$ 
-
-Similarly in higher degrees.
 
 =--
 
