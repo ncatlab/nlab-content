@@ -470,10 +470,15 @@ We can always use the [[model structure on homotopy T-algebras]] to satisfy the 
 
 Notice that in this model category even if $\mathcal{O}(X)$ is fibrant (which it is if $\mathcal{O}X$ is an ordinary algebra), then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathcal{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homotopy T-algebra]].
 
-On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]) Pirashvili's formulation of higher order Hochschild homology for ordinary algebras, as described below in [Examples -- Simplicial algebra on the circle](#TensoringWithSimplicialCircleAlgebra).
+On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]). 
 
-More generally, the assumptions are satisfied for the [[model structure on dg-algebras|model structure on unbounded commutative dg-algebras]] over a field of characteristic 0 and even more generally for the homotopy contexts considered in ([To&#235;nVezzosi](#ToenVezzosiStacks)).
+This is the case for the tensoring of [[dg-algebra]]s over simplicial sets and leads to [[Teimuraz Pirashvili]]'s formulation of higher order Hochschild homology for ordinary algebras ([Pirashvili](#Pirashvili)). 
 
+This we describe below 
+
+* for ordinary Hochschild homology in [Examples -- Simplicial algebra on the circle](#TensoringWithSimplicialCircleAlgebra);
+
+* for higher order Hochschild homology of dg-algebras in [Higher order Hochschild homology modeled on cdg-algebras](#OvercdgAlgs).
 
 =--
 
@@ -1662,8 +1667,6 @@ This follows from ([To&#235;nVezzosi, assumption 1.1.0.6](#ToenVezzosiStacks)).
 We discuss a concrete model for the $(\infty,1)$-copowering of 
 $(cdgAlg_k)^\circ$ over [[∞Grpd]] in terms of the ordinary [[copowering]] of the [[category of chain complexes]] $Ch^\bullet(k)$ over [[sSet]].
 
-> the proofs following in this section are under construction and may need scrutinizationn
-
 +-- {: .un_prop}
 ###### Proposition
 
@@ -1671,8 +1674,14 @@ The [[(∞,1)-limit|(∞,1)-copowering]] of $(dgcAlg_k)^\circ$ over [[∞Grpd]] 
 
 =--
 
+
+
 +-- {: .proof}
 ###### Proof
+
+This follows from ([GinotTradlerZeinalian, theorem 4.2.7](#GinotTradlerZeinalian)), which asserts that the [[derived functor]] of this tensoring is the unique [[(∞,1)-functor]], up to equivalence, satisfying the axioms of $(\infty,1)$-copowering.
+
+> here is something that is almost an alternative proof, to be polished or to be discarded
 
 Pass to the [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] $[\Delta^{op}, dgcAlg_k]$ whose weak equivalences are those morphisms that become weak equivalences in $dgcAlg_k$ under [[homotopy colimit]] over $\Delta^{op}$ (described at [[simplicial model category]]). In that structure $(\infty,1)$-copowering is modeled by the [[derived functor]] of the ordinary copowering (as discussed at [[(∞,1)-colimit|(∞,1)-copowering]]). 
 
@@ -1713,6 +1722,21 @@ Given all of the above, this is ([GinotTradlerZeinalian, theorem 4.2.2 (3)](#Gin
 
 =--
 
+
++-- {: .un_prop}
+###### Proposition
+
+The copowering
+
+$$
+  sSet \times cdgAlg_k \to cdgAlg_k
+$$
+
+preserves weak equivalences in both arguments.
+
+=--
+
+This is essentially due to ([Piashvili](#Pirashvili)). The full statement is ([GinotTradlerZeinalian, prop. 4.2.1](#GinotTradlerZeinalian)).
 
 
 #### Jones' theorem {#JonesTheorem}
