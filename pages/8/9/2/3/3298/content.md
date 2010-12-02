@@ -580,35 +580,6 @@ Therefore by the [[pushout-product axiom]] of the [[copowering]] operation in a 
 
 =--
 
-+-- {: .un_corollary}
-###### Corollary
-
-Let $A$ be any $k$-algebra. It follows that the [[homology]] of $S^1 \cdot A$ is canomically equipped with a [[differential]]
-
-$$
-  d : H_\bullet(S^1 \cdot A) \to H_{\bullet-1}(S^1 \cdot A)
-  \,.
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Using the monoidal structure $N_\bullet(S^1)\otimes N_\bullet(S^1) \to N_\bullet(S^1)$ we have that $N_\bullet(S^1 \cdot A) \simeq N_\bullet((S^1 \cdot k) \otimes_k A)$ is a free $N_\bullet(S^1 \cdot k)$-[[module]] and hence inherits a canonical $N_\bullet(S^1 \cdot k)$-[[action]]. This is the circle action in question. By the above this is equivalent to an action of $(k \oplus k \epsilon)$. The differential is the image of this action on the nilpotent element $\epsilon$ of degree -1.
-
-=--
-
-
-+-- {: .un_lemma}
-###### Observation
-
-Passing to the invariant under this action leads from Hochschild to [[cyclic homology]].
-
-(...)
-
-=--
 
 
 
@@ -1556,7 +1527,7 @@ for the [[(∞,1)-category of (∞,1)-sheaves]] on $C$. We have a derived [[Isbe
 $$
   (\mathcal{O} \dashv j) 
     : 
-  (cdgAlg_k^+)^\circ
+  (cdgAlg_k^{op})^\circ
    \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{j}{\to}}
   \mathbf{H}
 $$
@@ -1601,7 +1572,7 @@ The [[copowering]] of $dgcAlg_k$ over [[sSet]] preserves all weak equivalences.
 +-- {: .proof}
 ###### Proof
 
-For any simplicial set $K$ and any $A \in dgcAlg$, we have that $K \cdot A = (K \cdot k) \otines_k A$. One finds that $(K \cdot k)$ is cofibrant. The claim then follows with the previous statement.
+For any simplicial set $K$ and any $A \in dgcAlg$, we have that $K \cdot A = (K \cdot k) \otimes_k A$. One finds that $(K \cdot k)$ is cofibrant. The claim then follows with the previous statement.
 
 =--
 
@@ -1634,6 +1605,8 @@ This means that the assumption of section [Pirashvili's higher Hochschild homolo
 This follows from ([To&#235;nVezzosi, assumption 1.1.0.6](#ToenVezzosiStacks)).
 
 
+#### The copowering of $dgcAlg_k$ over $sSet$
+
 The following proposition says that the 1-categorical [[copowering]] of $dgcAlg$ over $sFinSet$ does model the $(\infty,1)$-categorical copowering.
 
 +-- {: .un_prop}
@@ -1649,12 +1622,17 @@ preserves [[homotopy colimit]]s in the first argument.
 
 =--
 
-+-- {: .proof}
-###### Proof
-
 This is the statement of ([GinotTradlerZeinalian, theorem 4.2.2 (3)](#GinotTradlerZeinalian)) after noticing that their def. 3.1.1 describes the copowering.
 
+We now spell this out this operation.
+
++-- {: .un_prop}
+###### Example
+
+(...)
+
 =--
+
 
 #### Jones' theorem
 
@@ -2015,10 +1993,6 @@ Hochschild cohomology of ordinary algebras was introduced in
 
 * [[Gerhard Hochschild]], _On the cohomology groups of an associative algebra_ 
 The Annals of Mathematics, Second Series, Vol. 46, No. 1 (Jan., 1945), pp. 58-6 ([JSTOR](http://www.jstor.org/stable/1969145))
-
-There is also 
-
-* [[Boris Tsygan]],  Feigin,  _Additive K-theory_ 1980-s (LNM 1289, editor Manin, pp 67-209, seminar 1984-1986 in Moscow)
 
 A textbook discussion is for instance in chapter 9 of
 
