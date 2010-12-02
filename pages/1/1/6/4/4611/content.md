@@ -27,6 +27,12 @@ Gabriel and Ulmer proved that an [[inhabited set|inhabited]] category is sifted 
 Note that this condition holds in particular if $D$ has finite [[coproducts]], since then it is nonempty (it has an [[initial object]]) and each category of cospans has an initial object (the coproduct).
 
 
+## Related concepts
+
+* **sifted category**
+
+* [[sifted (∞,1)-category]]
+
 ## References
 
 *  P. Gabriel and F. Ulmer, _Lokal pr&#228;sentierbare Kategorien_ , Springer LNM
