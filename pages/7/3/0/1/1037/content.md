@@ -412,6 +412,8 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 #### 5.5.8 Nonabelian Derived Categories
 
+* [[sifted (∞,1)-category]]
+
 * [[(∞,1)-algebraic theory]]
 
 #### 5.5.9 Quillen's model for $\mathcal{P}_\Sigma(C)$
