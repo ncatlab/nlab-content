@@ -904,7 +904,7 @@ Generally, for $K$ any simplicial set, $K \cdot A$ is the simplicial algebra who
 
 #### Identification with K&#228;hler differential forms
 
-We spell out in detail how in degree 0 and 1 the [[homology]] of the Hochschild complex of $A$ is that of its [[Kähler differential form]]s. Under mild conditions on $A$ this is also true in higher degrees, which is the statement of the [Hochschild-Kostant-Rosenberg theorem](#HochschildKostantRosenberg)
+We spell out in detail how in degree 0 and 1 the [[homology]] of the Hochschild complex of $A$ is that of its [[Kähler differential form]]s. Under mild conditions on $A$ this is also true in higher degrees, which is the statement of the [Hochschild-Kostant-Rosenberg theorem](#HochschildKostantRosenberg).
 
 +-- {: .un_prop #K&#228;hler1Forms}
 ###### Proposition
@@ -912,7 +912,7 @@ We spell out in detail how in degree 0 and 1 the [[homology]] of the Hochschild 
 The [[homology]] of the Hochschild complex $S^1 \circ A$ in degree 1 is the  [[Kähler differential form]]s of $A$
 
 $$
-  HH_1(A,A) \simeq \Omega_K(A/k)
+  HH_1(A,A) \simeq \Omega^1_K(A/k)
   \,.
 $$
 
@@ -922,12 +922,12 @@ $$
   \array{
     \vdots
     \\
-    (\stackrel{f}{(* * * ), \stackrel{g}{*\to *}}, \stackrel{h}{* * \to *}) 
+     (f \in A_{(* * * )}, g \in A_{(*\to * *)}, h \in A_{(* * \to *)} 
      & \mapsto & f \wedge d g \wedge d h
     \\
-    (\stackrel{f}{(* *)}, \stackrel{g}{(* \to *)}) &\mapsto& f \wedge d g
+    (f \in A_{(* *)}, g \in A_{* \to *}) &\mapsto& f \wedge d g
     \\
-    (\stackrel{f}{(*)}) & \mapsto & f 
+    (f \in A_{(*)}) & \mapsto & f 
   }
   \,,
 $$
@@ -939,7 +939,7 @@ where on the left we display elements of $A^{\otimes_k}$ under the [above](#Tens
 +-- {: .proof}
 ###### Proof
 
-The [[Moore complex]]-differential acts on  $(f,g,h) \in A \otimes_k A \otimes_k A$ by
+By the above discussion, the [[Moore complex]]-differential acts on  $(f,g,h) \in A \otimes_k A \otimes_k A$ by
 
 $$
   \begin{aligned}
@@ -954,12 +954,12 @@ $$
   \,.
 $$  
 
-The term on the right is precisely the term by which one has to quotient out the module of formal expressions $f \wedge d g$ to get the module of [[Kähler differential]]s: setting it to 0 is the [[derivation]] property of $d$
+The last term on the right is precisely the term by which one has to quotient out the module of formal expressions $f \wedge d g$ to get the module of [[Kähler differential]]s: setting it to 0 is the [[derivation]] property of $d$
 
 $$
   (\partial (f,g,h) = 0)
   \Leftrightarrow
-  f \wedge ( f(g h) = h \wedge d g + g \wedge d h )
+  f \wedge ( d(g h) = h \wedge d g + g \wedge d h )
   \,.
 $$
 
@@ -967,6 +967,42 @@ Therefore we have manifestly
 
 $$
   \Omega^1_K(A) \simeq C_1(A,A)/im(\partial)
+  \,.
+$$
+
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+We may also compute the $\partial$-homology on the [[normalized chain complex]], which is in degree 1 the quotient of $A \otimes_k A$ by the image of the degeneracy map $\sigma : A \to A \otimes_k A$, which is
+
+$$
+  \left(
+    \array{
+      (*) &\to& (* *)
+      \\
+      \coprod && \coprod
+      \\
+      \emptyset &\to& (* \to *)
+    }
+  \right)
+  \cdot 
+  A  
+$$
+
+and thus maps
+
+$$
+  f \mapsto f \wedge d 1
+  \,.
+$$
+
+So passage to the normalized chains imposes the condition
+
+$$
+  d 1 = 0
   \,.
 $$
 
