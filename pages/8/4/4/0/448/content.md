@@ -20,7 +20,7 @@ A _simplicial complex_ $K$ is a set of objects, $V(K)$, called **vertices** and 
 
 We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ elements it is said to be a **$p$-simplex**.  The set of $p$-simplices of $K$ is denoted by $K_p$. The **dimension** of $K$ is the largest $p$ such that $K_p$ is non-empty.
 
-## Simplicial complexes v. simplicial sets
+##Simplicial complexes v. simplicial sets
 
 Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]], but only 'in some sense'. To get from a simplicial complex to a fairly small simplicial set, you  pick a [[total order]] on the set of vertices. Without an order on the vertices, you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$. (If you do not pick an order then you can still form a simplicial set where to each $n$-simplex of the original simplicial complex will correspond to $(n+1)!$ simplices of that associated simplicial set. The result is unwealdy to say the least, but can be useful under some circumstances.)
 
@@ -39,22 +39,22 @@ It follows from this characterization that the category of simplicial complexes 
 ##Geometric realisations and Polyhedra##
 An abstract simplicial complex is a combinatorial gadget that models certain aspects of a spatial configuration.  Sometimes it is useful, perhaps even necessary, to produce a topological space from that data in a simplicial complex. 
 
-
-
 ### Idea
-
-To each simplicial complex $K$, one can associate a topological space called the _polyhedron_ of $K$ often also called or  _geometric realisation_ of $K$ and denoted $|K|$.   
+To each simplicial complex $K$, one can associate a topological space called the _polyhedron_ of $K$ often also called the  _geometric realisation_ of $K$ and denoted $|K|$.   (This is essentially a special case of the geometric realisation of a simplicial sets.)
 
 
 This can be constructed by taking a copy $K(\sigma)$ of a standard topological $p$-simplex for each $p$-simplex of $K$ and then 'gluing' them together according to the face relations encoded in $K$.
 
+We therefore first need the definition of a standard $p$-simplex
++--{: .un_defn}
+######Definition######
+The _standard (topological) $p$-simplex_ is (usually)  taken to be the convex hull of the basis vectors $\mathbf{e}_1, \mathbf{e}_2,\ldots, \mathbf{e}_{p+1}$ in $\mathbb{R}^{p+1}$.
+=--
 
+###Intuition
+The geometric realisation $|K|$ of a simplicial complex, $K$  is then constructed by taking, for each abstract $p$-simplex, $\sigma\in S(K)$, a copy, $K(\sigma)$ of such a standard topological $p$-simplex, and then 'gluing' faces together, so whenever $\tau$ is a face of $\sigma$ we identify $K(\tau)$ with the corresponding face of $K(\sigma)$. This space is usually denoted $\Delta^p$.
 
-#### Definition
-
-The _standard (topological) $p$-simplex_ is usually  taken to be the convex hull of the basis vectors $\mathbf{e}_1, \mathbf{e}_2,\ldots, \mathbf{e}_{p+1}$ in $\mathbb{R}^{p+1}$, to represent each abstract $p$-simplex, $\sigma\in S(K)$, and then 'gluing' faces together, so whenever $\tau$ is a face of $\sigma$ we identify $K(\tau)$ with the corresponding face of $K(\sigma)$. This space is usually denoted $\Delta^p$.
-
-#### Canonical constructions
+###Canonical construction
 
 As a set, $|K|$ is constructed as follows: 
 
@@ -83,9 +83,9 @@ Note that if $s \subseteq t$ is an inclusion of simplices in $K$, then there is 
 
 ### Triangulable spaces
 
-If a topological space can be described up to homeomorphism as the geometric realization of a simplicial complex, we say it is **triangulable**, and a **triangulation** of a space $X$ is a simplicial complex $K$ together with a homeomorphism $h: |K| \to X$. 
+If a topological space can be described up to homeomorphism as the geometric realization of a simplicial complex, we say it is **triangulable**, and a **triangulation** of a space $X$ is a simplicial complex $K$ together with a homeomorphism $h: |K| \to X$. (This is discussed in a bit more detail in the entry on [[classical triangulation]]. 
 
-There is another stronger notion of triangulation used by topologists: a **piecewise-linear (PL) structure** on a space $X$ is a triangulation where the link of every simplex in $K$ is a PL triangulation of a sphere. 
+There is another stronger notion of triangulation used by geometric topologists: a **piecewise-linear (PL) structure** on a space $X$ is a triangulation where the link of every simplex in $K$ is a PL triangulation of a sphere. 
 
 +--{.query} 
 This is as best as I can make out from reading Wikipedia. The definition looks recursive. Obviously I haven't filled in the definition of link. 
@@ -93,7 +93,7 @@ This is as best as I can make out from reading Wikipedia. The definition looks r
 
 #### Examples from manifold theory
 
-* All [[manifold|smooth manifolds]] are triangulable and in fact admit PL structures. 
+* All [[manifold|smooth manifolds]] are triangulable and,  in fact, admit PL structures. 
 
 * All topological manifolds in dimensions 2 and 3 admit PL structures, and are in fact smoothable (admit a smooth manifold structure). 
 
