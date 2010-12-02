@@ -160,7 +160,7 @@ the definition of subobject).
 
 ## Cocompleteness of algebras of monads over $Set$
 
-First, the category of algebras of a monad $T$ on $Set$ has coequalizers; see the proof of proposition 3.4 (page 278 of 303) of [Toposes, Triples, Theories](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf) by Barr and Wells. So we have only to prove the following. 
+First, the category of algebras of a monad $T$ on $Set$ has coequalizers; see the proof of proposition 3.4 (page 278 of 303) of [Toposes, Triples, and Theories](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf) by Barr and Wells. So we have only to prove the following. 
 
 +-- {: .un_prop} 
 ######Proposition 
@@ -175,9 +175,9 @@ $$F U F U A_i \stackrel{\overset{\varepsilon F U A_i}{\to}}{\underset{F U \varep
 
 and since $F(\sum_i U A_i)$ is the coproduct $\sum_i F U A_i$ in the category of algebras, i.e., since coproducts of free algebras exist, the coproduct of the $A_i$ is constructed as a coequalizer of the pair
 
-$$\sum_i (\varepsilon F U A_i, F U \varepsilon A_i): \sum_i F U F U A_i \stackrel{\to}{\to} \sum_i F U A_i$$ 
+$$(\sum_i \varepsilon F U A_i, \sum_i F U \varepsilon A_i): \sum_i F U F U A_i \stackrel{\to}{\to} \sum_i F U A_i$$ 
 
-obtained by summing over all the canonical pairs. 
+obtained by summing over $i$ each of the parallel pairs. 
 =--
 
 ## Over a cocomplete cartesian closed category 
@@ -186,11 +186,11 @@ If $T$ is a [[finitary monad]] defined on a cocomplete cartesian closed category
 
 $$U: X^T \to X$$ 
 
-reflects reflexive coequalizers (since the underlying functor reflects classes of colimits preserved by the monad). Since the parallel pairs in the proof of the preceding proposition are reflexive, we see by adapting that proof that $X^T$ has coproducts. Finally, we have 
+reflects reflexive coequalizers (since the underlying functor reflects classes of colimits preserved by the monad). Since the parallel pairs in the proof of the preceding proposition are reflexive, we see by adapting that proof that $X^T$ has coproducts. It remains only to prove the following. 
 
 +-- {: .un_lem}
 ######Lemma
-If a category has finite products and reflexive coequalizers, then it has general coequalizers. 
+If a category has finite coproducts and reflexive coequalizers, then it has general coequalizers. 
 =-- 
 
 +-- {: .proof}
