@@ -130,7 +130,7 @@ This is discussed at [[fundamental ∞-groupoid of a locally ∞-connected (∞,
 
 ### References {#LocalContractionRef}
 
-Essentially the constrution of $\mathbb{L} \Pi$ as above is an old construction in terms of -- somewhat implicitly -- the structure of a [[category of fibrant objects]] on [[simplicial object]]s in a [[topos]]:
+Essentially the construction of $\mathbb{L} \Pi$ as above is an old construction in terms of -- somewhat implicitly -- the structure of a [[category of fibrant objects]] on [[simplicial object]]s in a [[topos]]:
 
 the discussion on page 18 of
 
