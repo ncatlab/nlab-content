@@ -142,6 +142,8 @@ A category whose set of morphisms is (essentially) $U$-small may be called a $U$
 
 A category whose set of morphisms is $U$-moderate may be called a $U$-[[large category|moderate category]]; again '$U$-large' may mean not $U$-small, $U$-moderate, or both.  In practice, most $U$-moderate categories are locally $U$-small, and vice versa, but there is no theorem that this must be true.  Note that $U Set$ itself is $U$-moderate and locally $U$-small but not $U$-small.
 
+All notions of category theory that reference size, such as [[complete category|completeness]] and [[locally presentable category|local presentability]], must then be relativized to $U$.  In order to move from a category defined in one universe to another, we need a procedure of [[universe enlargement]].
+
 
 ### Presheaf categories
 
