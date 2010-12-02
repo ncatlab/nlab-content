@@ -314,9 +314,42 @@ $$
 
 =--
 
-This defines Hochschild cohomology very generally for [[∞-stack]]s, which we think of as geoemtric objects in [[higher geometry]]. Usually Hochschild cohomology is formulated in terms of the corresponding [[function algebras on ∞-stacks]] $\mathcal{O}(X)$, under [[Isbell duality]]. The Hochschild cohomology of $X$ then corresponds to what is called the Hochschild _homology_ of $\mathcal{O}(X)$.
+This defines Hochschild cohomology very generally for [[∞-stack]]s, which we think of as geoemtric objects in [[higher geometry]]. 
 
-The following definition formalizes a special class of cases of the above general abstract definition that reproduces the notion of Hochschild homology for [[(∞,1)-algebraic theory|∞-algebra]]s as usually understood.
+Usually Hochschild cohomology is formulated in terms of the corresponding [[function algebras on ∞-stacks]] $\mathcal{O}(X)$, under [[Isbell duality]]. The Hochschild cohomology of $X$ then corresponds to what is called the Hochschild _homology_ of $\mathcal{O}(X)$.
+
++-- {: .un_def}
+###### Definition
+
+If $\mathbf{H}$ admits [[function algebras on ∞-stacks]]
+
+$$
+  Alg^{op} \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{}{\to}}
+  \mathbf{H}
+$$
+
+say  a full [[sub-(∞,1)-category]] of $\mathbf{H}$ consists of **$\mathcal{O}$-perfect objects** if on these $\mathcal{O}$ commutes with [[(∞,1)-limit]]s.
+
+Then for $X$ an $\mathcal{O}$-perfect object we have that the Hochschild homology object 
+
+$$
+  \mathcal{O}(X^{K}) \simeq K \cdot \mathcal{O}(X)
+$$
+
+is given by the [[(∞,1)-limit|(∞,1)-copowering]] of $\mathcal{O}(X)$ over the $\infty$-groupoid $K$.
+
+We call the object $K \cdot \mathcal{O}(X)$ the **Hochschild complex** of $X$.
+
+=--
+
++-- {: .un_example}
+###### Example
+
+For $\mathcal{O}$ the functor that forms [[symmetric monoidal (∞,1)-category|symmetric monoidal (∞,1)-categories]] of [[quasicoherent sheaf|quasicoherent ∞-stacks of modules]] over [[∞-stack]]s over an [[(∞,1)-site]] of [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]] for the ordinary theory of commutative $k$-algebras this has setup been considered in detail in ([Ben-ZviFrancisNadler](#Ben-ZviFrancisNadler)).
+
+=--
+
+The following definition formalizes large class of $\mathcal{O}$-perfect objects given by [[representable functor|representables]].
 
 +-- {: .un_def}
 ###### Definition
@@ -367,7 +400,13 @@ Because the [[(∞,1)-Yoneda embedding]] preserves [[(∞,1)-limits]] the limit 
 
 =--
 
-This definition of general higher order Hochschild homology by $(\infty,1)$-copowering is explicit in [To&#235;nVezzosi](#ToenVezzosi) (for ordinary Hochschild homology, hence $K = S^1$) and almost explicit in ([GinotTradlerZeinalian](#GinotTradlerZeinalian)) (for higher order Hochschild homology for [[dg-algebra]]s).
+This definition of general higher order Hochschild homology by $(\infty,1)$-copowering is 
+
+* explicit in [To&#235;nVezzosi](#ToenVezzosi), for ordinary Hochschild homology, hence $K = S^1$,
+
+* almost explicit in ([GinotTradlerZeinalian](#GinotTradlerZeinalian)), for higher order Hochschild homology for [[dg-algebra]]s. Details on that are below in the section [Higher order Hochschild homology modeled on cdg-algebras](#OvercdgAlgs)
+
+* explicit in [Ben-Zvi/Francis/Nadler, corollary 4.12](#Ben-ZviFrancisNadler) for HH with values in [[quasicoherent sheaf|quasicoherent ∞-stacks]] and over perfect $\infty$-stacks (see there for details).
 
 #### Topological chiral homology {#TopologicalChiralHomology}
 
@@ -441,9 +480,13 @@ More generally, the assumptions are satisfied for the [[model structure on dg-al
 
 ## Examples
 
+We first give a detailed discussion of the standard Hochschild complex of a commutative algebra, but  from the general abstract $(\infty,1)$-category theoretic point of view. 
+
+Then we look in detail at higher order Hochschild homology in the $(\infty,1)$-topos over an [[(∞,1)-site]] of formal duals of [[dg-algebra]]s. In this context the classical [theorem by Jones](#JonesTheorem) on Hochschild homology and loop space cohomology is a natural consequence of the general machinery.
+
 ### The Hochschild chain complex of an associative algebra {#HochschildChainComplex}
 
-We consider in detail the classical case of Hichschild (co)homology of an [[associative algebra]].
+We consider in detail the classical case of Hochschild (co)homology of an [[associative algebra]].
 
 #### The simplicial circle algebra {#SimplicialCircleAlgebra}
 
@@ -1496,7 +1539,7 @@ This derivation
 =--
 
 
-### Higher order Hochschild homology modeled on cdg-algebras
+### Higher order Hochschild homology modeled on cdg-algebras {#OvercdgAlgs}
 
 We discuss details of Hochschild homology in the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] over an [[(∞,1)-site]] of formal duals of commutative [[dg-algebra]]s over a field, [[presentable (∞,1)-category|presented]] by the [[model structure on dg-algebras]].
 
@@ -1633,7 +1676,7 @@ The [[(∞,1)-limit|(∞,1)-copowering]] of $(dgcAlg_k)^\circ$ over [[∞Grpd]] 
 
 Pass to the [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] $[\Delta^{op}, dgcAlg_k]$ whose weak equivalences are those morphisms that become weak equivalences in $dgcAlg_k$ under [[homotopy colimit]] over $\Delta^{op}$ (described at [[simplicial model category]]). In that structure $(\infty,1)$-copowering is modeled by the [[derived functor]] of the ordinary copowering (as discussed at [[(∞,1)-colimit|(∞,1)-copowering]]). 
 
-By the theorems at [[model structure on algebras over an operad]] and [[model structure on monoids]] and using the result at [[(2,1)-algebraic theory of E-∞ algebras]] we have that the model structure on the [[category of monoids]] $dgCAlg_k = CMon(Ch_\bullet(k))$ [[presentable (∞,1)-category|presents]] the [[(∞,1)-category]] of [[commutative monoids in a symmetric monoidal (∞,1)-category]].
+Along the line of the rectification theorems at [[model structure on algebras over an operad]] we shouldd have that the model structure on the [[category of monoids|model structure on commutative monoids]] $dgCAlg_k = CMon(Ch_\bullet(k))$ [[presentable (∞,1)-category|presents]] the [[(∞,1)-category]] of [[commutative monoids in a symmetric monoidal (∞,1)-category]].
 
 As described there, $(\infty,1)$-colimits of such commutative monoids over [[sifted (∞,1)-categories]] are computed in the underlying symmetric monoidal $(\infty,1)$-category.
 
@@ -1672,10 +1715,38 @@ Given all of the above, this is ([GinotTradlerZeinalian, theorem 4.2.2 (3)](#Gin
 
 
 
-#### Jones' theorem
+#### Jones' theorem {#JonesTheorem}
 
+Jones' theorem asserts that the Hochschild homology of the dg-algebra of differential forms on a manifold computes the homology of the corresponding loop space. We discuss now how this result follows using derived loop spaces of [[constant ∞-stack]]s.
+
+For $X$ a manifold, write $LConst X$ for the $\infty$-stack constant on its homotopy type. Then
+
+$$
+  \mathcal{O} LConst X \simeq C^\bullet(X,k) \simeq \Omega^bullet(X)
+$$
+
+is the the $k$-valued [[singular cohomology|singular cochain]] complex of $X$, which by the [[de Rham theorem]] is equivalent to the [[de Rham dg-algebra]].
+
+Since $LConst$ is a [[left exact (∞,1)-functor]] it commutes with forming [[free loop space object]]s and therefore
+
+$$
+  \mathcal{L} LConst X \simeq LConst L X
+  \,.
+$$
+
+
+So
+
+$$
+  \mathcal{O} \mathcal{L} LConst X \simeq C^\bullet(L X, k)
+$$
+
+is the singular cochain complex of the [[free loop space]] of $X$.
+
+By the above this is indeed the Hochschild homology of $C^\bullet(X)$.
 
 (...)
+
 
 
 ## Properties
@@ -2042,21 +2113,7 @@ or in chapter 4 of
 * [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603))
 {#Ginzburg}
 
-
- 
-The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop space object]]s and their [[geometric ∞-function theory]] is discussed in
-
-* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
-
-* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322))
-
-* [[Bertrand Toën]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
-
-* [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], 
-  _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
-{#Ben-ZviFrancisNadler}
- 
-The definition of higher order Hochschild complex as (implicitly) the tensoring of an algebra with a simplicial set is due to 
+The definition of the higher order Hochschild complex as (implicitly) the tensoring of an algebra with a simplicial set is due to 
 
 * [[Teimuraz Pirashvili]], _Hodge decomposition for higher order Hochschild homology_ Annales Scientifiques de l'&#201;cole Normale Sup&#233;rieure Volume 33, Issue 2, March 2000, Pages 151-179 ([ps](http://www.mathematik.uni-bielefeld.de/sfb343/preprints/pr98058.ps.gz))
 {#Pirashvili}
@@ -2066,12 +2123,30 @@ A survey of traditional higher order Hochschild (co)homology and further develop
 * [[Grégory Ginot]], _Higher order Hochschild cohomology 
   ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
 
-A discussion of higher order Hochschild cohomology from a more general $(\infty,1)$-categorical perspective is in 
+A considerably refined discussion of this which almost makes the construction of Hochschild complexes as an $(\infty,1)$-copowering operation manifest is in
 
 * [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, ([arxiv/1011.6483](http://arxiv.org/abs/1011.6483))
 {#GinotTradlerZeinalian}
 
-General homotopy-theoretic setups and results for contexts in which this makes sense are in
+
+The full $(\infty,1)$-categorical picture of Hochschild homology as the cohomology of [[derived stack|derived]] [[free loop space object]]s is due to
+
+* [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], 
+  _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
+{#Ben-ZviFrancisNadler}
+
+based on
+
+* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322)) .
+
+Specifically the dicussion of differential forms via such an $\infty$-category theoretic perspective of the HKR-theorem is discussed in 
+
+* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
+
+* [[Bertrand Toën]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
+
+ 
+General homotopy-theoretic setups and results for contexts in which this makes sense are discussed in
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _HAG II, geometric stacks and applicatons_ ([arXiv:math/0404373v4](http://arxiv4.library.cornell.edu/abs/math/0404373v4))
 {#ToenVezzosiStacks}
@@ -2095,18 +2170,10 @@ The abstract differential caclulus on $(HH^\bullet(A,A), HH_\bullet(A,A))$ is di
 Volume 56, Number 2, 85-97 ([journal](http://www.springerlink.com/content/u33hv13g0669h414/))
 {#TamarkinTsygan}
 
-A detailed discussion of the relation between functions on the derived loop space differential forms is in
-
-* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322))
-
-* [[Bertrand Toën]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
-{#ToenVezzosi}
-
 A review of Deligne's conjecture and its solutions is in
 
 * [[Kathryn Hess]], _Deligne's Hochschild cohomology conjecture_ ([pdf](http://sma.epfl.ch/~hessbell/Pub_DeligneColloq.pdf))
 {#Hess}
-
 
 
 For references on [[topological chiral homology]] see there.
