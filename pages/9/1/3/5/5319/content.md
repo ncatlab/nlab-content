@@ -70,6 +70,34 @@ The **barycentric subdivision**, $sd K$, of $K$ is the simplicial complex specif
 $$\sigma_0\subset  \ldots \subset\sigma_q.$$
 =--
 
+##Triangulations and Covers##
+We now need a bit more terminology:
+
++--{: .un_defn}
+######Definition: 
+ Given any vertex $v$ of $K$, its **star** is defined by 
+
+$$st( v) = \{ \alpha \in |K| \mid \alpha(v)\neq 0\}.$$
+
+=--
+
+The set, $st(v)$, is open in $|K|$. We have 
+
+$$st(v) = \bigcup \{\langle s \rangle\mid v is a vertex of s\},$$
+
+the union of the interiors of those simplices that have $s$ as a vertex.  These vertex stars give an [[open cover]], $\mathcal{U}$, of $|K|$ and the following classical result tells us that the nerve $N(\mathcal{U}$ of this covering is $K$ itself (up to isomorphism):
+
++--{: .un_prop}
+######Proposition(cf. Spanier, , p. 114)
+Let $\mathcal{U} = \{st(v)\mid v \in V(K)\}$.  The vertex map $\phi$ from $K$ to $N(\mathcal{U})$ defined by 
+
+$$\phi (v) = \langle st(v)\rangle$$
+
+is a simplicial isomorphism
+
+$$\phi : K \cong N(\mathcal{U}).$$
+=--
+
 
 
 
