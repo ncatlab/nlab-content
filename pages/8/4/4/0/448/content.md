@@ -30,7 +30,11 @@ We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ element
 
 1. Given any two sets $X$ and $Y$, and a relation $R\subseteq X\times Y$, there are two simplicial complexes that encode information on the relation. These are generalisations of the nerve and the Vietoris complex. They are studied in detail in [[Dowker's theorem]].
 
-1.  If $(P,\leq)$ is a [[poset]], then the [[nerve]] of the associated category has a simple description.
+1.  If $(P,\leq)$ is a [[poset]], then the [[nerve]] of the associated category has a simple description. The vertices are the points of $P$ and the simplices are the [[flag|flags]].
+
+
+1. **Buildings:**
+An important class of simplicial complexes is provided by the notion of [[building]], due to Jacques Tits.  
 
 
 ##Simplicial complexes v. simplicial sets
@@ -126,9 +130,6 @@ As an important step:
 
 (These statements should actually be treated as conjectures for the moment until I write out careful proofs. The basic technique is subdivision.) 
 
-#### Buildings
-
-An important class of simplicial complexes is provided by the notion of [[building]], due to Jacques Tits. More generally, many simplicial complexes are built from [[flag|flags]] in posets. 
 
 ## References
 
