@@ -33,6 +33,8 @@ Inserters and strict inserters can be described as a certain sort of [[weighted 
 $$1 \;\rightrightarrows\; I$$
 where $1$ is the [[terminal category]] and $I$ is the [[interval category]].  Note that inserters are not equivalent to any sort of [[conical limit|conical]] 2-limit.
 
+An inserter in $K^{op}$ (see [[opposite 2-category]]) is called a **coinserter** in $K$.
+
 ## Properties
 
 * Any inserter is a [[faithful morphism]], but not in general fully faithful.
@@ -44,3 +46,7 @@ where $1$ is the [[terminal category]] and $I$ is the [[interval category]].  No
 [[!redirects inserters]]
 [[!redirects strict inserter]]
 [[!redirects strict inserters]]
+[[!redirects coinserter]]
+[[!redirects coinserters]]
+[[!redirects strict coinserter]]
+[[!redirects strict coinserters]]
