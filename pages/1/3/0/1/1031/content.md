@@ -204,6 +204,8 @@ $$
 
 =--
 
+(This also follows from the general theory of [[generalized kernels]].)
+
 ## Related concepts
 
 * **kernel**
