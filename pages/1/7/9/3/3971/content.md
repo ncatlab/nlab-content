@@ -60,7 +60,13 @@ For example, in the coinverter-invertee example above, the right clas of the fac
 
 ## References
 
-This sort of idea has been thought of by various people at various times.  The above version, especially the view of factorization systems, is a slight modification of one presented by [[Richard Garner]] to the Sydney category seminar in February 2010.
+This sort of idea has been thought of by various people at various times.  The above version, especially the view of factorization systems, is a slight modification of one presented by [[Richard Garner]] to the Sydney category seminar in February 2010.  Other references include
+
+* Betti, Schumacher, and [[Ross Street|Street]], "Factorizations in bicategories" (unpublished)
+
+* Betti, "Adjointness in descent theory", JPAA
+
+* [[Mathieu Dupont]], *Abelian categories in dimension 2*, [arXiv:0809.1760](http://arxiv.org/abs/0809.1760), section 1.2.2
 
 
 [[!redirects generalized kernels]]
