@@ -1010,7 +1010,70 @@ $$
 
 #### The simplicial circle action
 
-(...)
+The [[automorphism 2-group]] of the categorical circle is
+
+$$
+  Aut_{\infty Grpd}(\mathbf{B}\mathbb{Z}, \mathbf{B}\mathbb{Z})
+  \simeq
+  \coprod_{n \in \mathbb{Z}} \mathbf{B}\mathbb{Z}
+  \,.
+$$
+
+The group of objects may be identified with the [[integer]]s, acting by multiplication on themselves. The group of morphisms on each object may also be identified with the group on integers, acting by natural automorphisms
+
+$$
+  \array{
+     * &\stackrel{r}{\to}& *
+     \\
+     {}^{\mathllap{k}}\downarrow && \downarrow^{\mathrlap{k}}
+     \\
+     * &\stackrel{r}{\to}& *
+  }
+  \,.
+$$
+
+We shall see that under the identification of $(\mathbf{B}\mathbb{Z}) \cdot k \simeq C^\infty(k^{0|1})$ with functions on the [[odd line]],in degree 0 this corresponds to the even vector field $\theta \partial/\partial \theta$ on the odd line, and in degree 1 to the odd vector field $\partial/\partial\that$.
+
+For consider the [[right homotopy]] that exhibits the morphism 1 in $Aut(\mathbf{B}\mathbb{Z})$.
+
+$$
+  \array{  
+    && \mathbf{B}\mathbb{Z}
+    \\
+    &{}^{\mathllap{Id}}\nearrow & \uparrow
+    \\
+    \mathbf{B}\mathbb{Z} &\to& \mathbf{B}\mathbb{Z}^{I} 
+    \\
+    &  {}_{\mathllap{Id}}\searrow
+    \\
+    && \mathbf{B}\mathbb{Z}
+  }
+  \,.
+$$
+
+This sends the point of $\mathbf{B}\mathbb{Z}$ to $(* \stackrel{1}{\to} *)$ in $\mathbf{B}\mathbb{Z}$.
+
+This means that under [[copowering]]
+
+$$
+  (\mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}^I)\cdot A
+$$
+
+we get in degree 0 the morphism
+
+$$
+  A_{*} \stackrel{Id}{\to} A_{* \to *} \hookrightarrow \bigotimes_r A_{* \stackrel{r}{\to} *}
+  \,.
+$$
+
+Under the above identification of the homology of $\mathbf{B}\mathbb{Z} \cdot A$ with K&#228;hler forms, this is on elements the map
+
+$$
+  f \mapsto d f
+  \,.
+$$
+
+
 
 #### Traditional description of the Hochschild complex {#ExplicitHochschildChains}
 
