@@ -1525,6 +1525,142 @@ This derivation
 =--
 
 
+### Higher order Hochschild homology modeled on cdg-algebras
+
+We discuss details of Hochschild homology in the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] over an [[(∞,1)-site]] of commutative [[dg-algebra]]s over a field, [[presentable (∞,1)-category|presented]] by the [[model structure on dg-algebras]].
+
+
+#### The setup
+
++-- {: .un_def}
+###### Proposition/Definition 
+
+Let $k$ be a [[field]] or [[characteristic]] 0. Write $cdgAlk_k^+$ for the category of graded-commutative cochain [[dg-algebra]]s in non-positive degree and $cdgAlk_k$ for the same without degree bound.
+
+There are the standard projective [[model structures on dg-algebras]] on these category. Let
+
+$$
+  C \hookrightarrow ((cdgAlg_k^+)^{op})^\circ
+$$
+
+be a [[small (∞,1)-category|small]] full [[sub-(∞,1)-category]] of the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by this model strucure, and let $C$ be equipped with the structure of a [[subcanonical coverage|subcanonical]] [[(∞,1)-site]].
+
+Write
+
+$$
+  \mathbf{H} := Sh_{(\infty,1)}(C)
+$$
+
+for the [[(∞,1)-category of (∞,1)-sheaves]] on $C$. We have a derived [[Isbell duality]] 
+
+$$
+  (\mathcal{O} \dashv j) 
+    : 
+  (cdgAlg_k^+)^\circ
+   \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{j}{\to}}
+  \mathbf{H}
+$$
+
+where the [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\mathcal{O}$ is the [[Yoneda extension]] of the inclusion $cdgAlg^+_k \hookrightarrow cdgAlg_k$. (This is discussed in detail at [[function algebras on ∞-stacks]].)
+
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The inclusion
+
+$$
+  cdgAlg^+_k \hookrightarrow cdgAlg_k
+$$
+
+is a _homotopical context_ in the sense of ([To&#235;nVezzosi, def. 1.1.0.11](#ToenVezzosiStacks)).
+
+
+=--
+
+This is ([To&#235;nVezzosi, lemma 2.3.11](#ToenVezzosiStacks)). We need of this statement the following implications.
+
++-- {: .un_prop}
+###### Corollary
+
+For $B \in (dgcAlg_k)_{proj}$ a cofibrant object, the [[tensor product]] with $B$ preserves weak equivalences.
+
+=--
+
+This follows from ([To&#235;nVezzosi, assumption 1.1.0.4](#ToenVezzosiStacks)).
+
++-- {: .un_prop}
+###### Corollary
+
+The [[copowering]] of $dgcAlg_k$ over [[sSet]] preserves all weak equivalences.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For any simplicial set $K$ and any $A \in dgcAlg$, we have that $K \cdot A = (K \cdot k) \otines_k A$. One finds that $(K \cdot k)$ is cofibrant. The claim then follows with the previous statement.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This means that the assumption of section [Pirashvili's higher Hochschild homology](#PirashviliHigherOrder) is satisfied, and that we may compute higher order Hochschild homology in $\mathbf{H}$ by copowering in $cdgAlg$ over $sSet$.
+
+=--
+
++-- {: .un_prop}
+###### Corollary
+
+* the inclusion
+
+  $$
+    (cdgAlg_k^+)^{op} \hookrightarrow (cdgAlg_k)^{op}
+  $$
+
+  preserves [[homotopy limit]]s, hence the induced inclusion
+
+  $$
+    ((cdgAlg_k^+)^{op})^\circ \hookrightarrow ((cdgAlg_k)^{op})^\circ
+  $$
+
+  preserves [[(∞,1)-limit]]s.
+
+=--
+
+This follows from ([To&#235;nVezzosi, assumption 1.1.0.6](#ToenVezzosiStacks)).
+
+
+The following proposition says that the 1-categorical [[copowering]] of $dgcAlg$ over $sFinSet$ does model the $(\infty,1)$-categorical copowering.
+
++-- {: .un_prop}
+###### Proposition
+
+The [[copowering]] functor of $dgcAlg_k$ over $sFinSet$ 
+
+$$
+  (-)\cdot (-) : sFinSet \times dgcAlg_k \to dgcAlg
+$$
+
+preserves [[homotopy colimit]]s in the first argument.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is the statement of ([GinotTradlerZeinalian, theorem 4.2.2 (3)](#GinotTradlerZeinalian)) after noticing that their def. 3.1.1 describes the copowering.
+
+=--
+
+#### Jones' theorem
+
+
+(...)
+
 
 ## Properties
 
@@ -1875,9 +2011,16 @@ See for instance [Ginzburg, section 7](http://arxiv.org/PS_cache/math/pdf/0506/0
  
 ## References
  
-The traditional story of Hochschild (co)homology is exposed for instance
+Hochschild cohomology of ordinary algebras was introduced in
 
-in chapter 9 of
+* [[Gerhard Hochschild]], _On the cohomology groups of an associative algebra_ 
+The Annals of Mathematics, Second Series, Vol. 46, No. 1 (Jan., 1945), pp. 58-6 ([JSTOR](http://www.jstor.org/stable/1969145))
+
+There is also 
+
+* [[Boris Tsygan]],  Feigin,  _Additive K-theory_ 1980-s (LNM 1289, editor Manin, pp 67-209, seminar 1984-1986 in Moscow)
+
+A textbook discussion is for instance in chapter 9 of
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 {#Weibel}
@@ -1887,9 +2030,6 @@ or in chapter 4 of
 * [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603))
 {#Ginzburg}
 
-An original paper on this is
-
-* [[Boris Tsygan]],  Feigin,  _Additive K-theory_ 1980-s (LNM 1289, editor Manin, pp 67-209, seminar 1984-1986 in Moscow)
 
  
 The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop space object]]s and their [[geometric ∞-function theory]] is discussed in
@@ -1964,5 +2104,4 @@ Interesting wishlists for treatments of Hochschild cohomology are in [this](http
 
 
 [[!redirects Hochschild homology]]
-
 [[!redirects Hochschild complex]]
