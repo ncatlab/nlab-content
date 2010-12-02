@@ -22,7 +22,7 @@ Let $X$ be a [[polyhedron]] (in the sense of polyhedral space), i.e. a space hom
 
 +--{: .un_defn}
 ######Definition
-A **classical triangulation** of $X$ is a pair $(K,f)$, where $K$ isn a simplicial complex and $f : |K|\to X$ is a homeomorphism. 
+A **classical triangulation** of $X$ is a pair $(K,f)$, where $K$ is a simplicial complex and $f : |K|\to X$ is a homeomorphism. 
 =--
  (In this context we will often drop the term 'classical' referring to 'triangulation' if there is little risk of confusion.)
 
@@ -69,3 +69,9 @@ The **barycentric subdivision**, $sd K$, of $K$ is the simplicial complex specif
 
 $$\sigma_0\subset  \ldots \subset\sigma_q.$$
 =--
+
+
+
+
+
+category:motivation
