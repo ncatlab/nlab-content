@@ -33,6 +33,8 @@ Equifiers and strict equifiers can be described as a certain sort of [[weighted 
 $$\array{ & \to \\ 1 & \Downarrow\Downarrow & Ppr\\ & \to } $$
 where $1$ is the [[terminal category]] and $Ppr$ is the walking [[parallel pair]] of arrows.  Note that this cannot be re-expressed as any sort of [[conical limit|conical]] 2-limit.
 
+An equifier in $K^{op}$ (see [[opposite 2-category]]) is called a **coequifier** in $K$.
+
 ## Properties
 
 * The above explicit definition makes it clear that any equifier is a [[fully faithful morphism]].
@@ -45,3 +47,7 @@ where $1$ is the [[terminal category]] and $Ppr$ is the walking [[parallel pair]
 [[!redirects equifiers]]
 [[!redirects strict equifier]]
 [[!redirects strict equifiers]]
+[[!redirects coequifier]]
+[[!redirects coequifiers]]
+[[!redirects strict coequifier]]
+[[!redirects strict coequifiers]]
