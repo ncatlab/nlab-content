@@ -1,4 +1,21 @@
-#Definition#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 A **pre-abelian category** is an [[additive category]] (an [[Ab-enriched category]] with finite biproducts) such that every morphism has a [[kernel]] and a [[cokernel]].  Equivalently, it is an [[Ab-enriched category]] category with all finite [[limits]] and [[colimits]], since an [[equalizer]] of $f$ and $g$ in an Ab-enriched category is the same as a kernel of $f-g$, and dually.
 
@@ -8,11 +25,11 @@ A\stackrel{p}\to \coker(\ker f)\stackrel{\bar{f}}\to\ker(\coker f)\stackrel{i}\t
 $$
 where $p$ is a cokernel, hence [[epimorphism|epic]], and $i$ is a kernel, and hence [[monomorphism|monic]].
 
-#Remarks#
+## Remarks
 
 * The concept "pre-abelian category" is part of a sequence of concepts of [[additive and abelian categories]].
 
-# Examples #
+## Examples 
 
 * Of course, any [[abelian category]] is pre-abelian.
 
