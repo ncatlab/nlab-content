@@ -151,7 +151,7 @@ equivalence, we find that these $K$ are _exactly_ the [[hypercover|hypercovering
 sections of $p$ give a simplicial set, $\Gamma(K)$ and varying $K$ amongst the 
 hypercoverings gives a pro-simplicial set (still in $proHo(\mathbf{S})$ not in
 $Hopro(\mathbf{S})$ unfortunately) which determines the Artin--Mazur
-pro-homotopy type of $\mathbb{E}$
+[[etale homotopy type|pro-homotopy type]] of $\mathbb{E}$
 
 
 ###Links with derived category theory###
