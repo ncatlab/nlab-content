@@ -4,14 +4,14 @@
 
 ## Idea
 
-The Hochschild-Kostant-Rosenberg theory identifies the [[Hochschild cohomology]] and homology of certain function algebras with [[Kähler differential]]s and [[derivation]]s.
-
-There is also a noncommutative analogue due to [[Alain Connes]]. 
+The _Hochschild-Kostant-Rosenberg theorem_ identifies the [[Hochschild homology]] and -cohomology of certain [[algebra]]s with [[Kähler differential]]s and [[derivation]]s, respectibely
 
 
 ## Details
 
-The **[[Hochschild-Kostant-Rosenberg theorem]]** states that under suitable conditions, the Hochschild homology of an algebra (with coeficients in itself) computes the wedge powers of its [[Kähler differential]]s.
+### For commutative $k$-algebras
+
+First notice that we always have the following statement about the situation in degree 1.
 
 +-- {: .un_prop }
 ###### Proposition
@@ -28,7 +28,11 @@ $$
 
 Write $\Omega^0(R/k) := R \simeq HH_0(R,R)$.
 
-For $n \geq 2$ Write $\Omega^n(R/k) = \wedge^n_R \Omega(R/k)$ for the $n$-fold [[exterior algebra|wedge product]] of $Omega(R/k)$ with itself: the degree $n$-K&#228;hler forms.
+The HKR-theorem generalizes this to higher degrees.
+
+#### As an isomorphism of chain complexes
+
+For $n \geq 2$ write $\Omega^n(R/k) = \wedge^n_R \Omega(R/k)$ for the $n$-fold [[exterior algebra|wedge product]] of $Omega(R/k)$ with itself: the degree $n$-K&#228;hler forms.
 
 +-- {: .num_theorem }
 ###### Theorem
@@ -48,26 +52,27 @@ If the $k$-algebra $R$ is sufficiently well-behaved, then this morphism is an [[
 ###### Theorem
 **(Hochschild-Kostant-Rosenberg theorem)**
 
+If $k$ is a [[field]] and $A$ a commutative $k$-[[algebra]] which is 
 
+* essentially of finite type (finitely presented)
 
-If $k$ is a [[field]] and $R$ a commutative $k$-[[algebra]] which is 
+* [[smooth scheme|smooth]] over $k$, meaning:
 
-* essentially of finite type 
+  * the  $A$-[[module]] of [[Kähler differential]]s $\Omega^1_k(A)$ is a [[projective object]] in $A Mod$_k.
 
-* smooth over $R$
-
-then there is an [[isomorphism]] of graded $R$-algebras
+then there is an [[isomorphism]] of graded $k$-algebras
 
 $$
-  \psi : \Omega^\bullet(R/k) \stackrel{\simeq}{\to}
-  H_\bullet(R,R)
+  \psi : \Omega^\bullet(A/k) \stackrel{\simeq}{\to}
+  H_\bullet(A,A)
   \,.
 $$
 
 Moreover, dually, there is an isomorphism of Hochschild cohomology with wedge products of derivations:
 
 $$
-  \wedge^\bullet_R Der(R,R) \simeq HH^\bullet(R,R)
+  \wedge^\bullet_k Der_k(A,A) \simeq HH^\bullet(A,A)
+  \,.
 $$
 
 
@@ -84,10 +89,9 @@ or as theorem 9.1.3 in [Ginzburg](http://arxiv.org/PS_cache/math/pdf/0506/050660
 
 =--
 
+#### As an isomorphism of $\infty$-algebras
+
 Actually, the HKR theorem holds on the level of chains: there is a quasi-isomorphism of dg vector spaces from polyvector fields (with zero differential) to the Hochschild cochain complex (with Hochschild differential).
-
-
-## Some additional remarks
 
 The HKR map is a map of dg vector spaces, but not a map of dg algebras nor a map of dg Lie algebras. However, the [[Kontsevich formality|formality theorem]] of Kontsevich states that nevertheless the HKR map can be extended to an $L_\infty$ quasi-isomorphism. See [this MO post](http://mathoverflow.net/questions/32889/a-few-questions-about-kontsevich-formality) for details. 
 
@@ -95,13 +99,23 @@ The HKR map is only an isomorphism of vector spaces, not an isomorphism of algeb
 
 
 
+
+### For non-commutative algebras
+
+There is also a noncommutative analogue due to [[Alain Connes]]. 
+
+(...)
+
+
+
+
 ## References
 
 The original source is
 
-* Gerhard P. Hochschild, Bertram Kostant, Alex Rosenberg, _Differential forms on regular affine algebras_, Transactions AMS __102__ (1962), No.3, 383--408 (reprinted in G. P. Hochschild, Collected Papers. Volume I 1955-1966, Springer 2009, 265-290) [DOI:10.2307/1993614](http://dx.doi.org/10.2307/1993614).
+* [[Gerhard Hochschild]], [[Bertram Kostant]], [[Alexander Rosenberg]], _Differential forms on regular affine algebras_, Transactions AMS __102__ (1962), No.3, 383--408 (reprinted in G. P. Hochschild, Collected Papers. Volume I 1955-1966, Springer 2009, 265-290) [DOI:10.2307/1993614](http://dx.doi.org/10.2307/1993614).
 
-Textbook references include
+Standard textbook references include
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ section 9.4 
 
