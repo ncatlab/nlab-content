@@ -125,7 +125,7 @@ $$
 
 **Proof**
 
-This is discuseed at [[schreiber:homotopy ∞-groupoid]].
+This is discussed at [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]] and [[cohesive (∞,1)-topos]].
 
 
 ### References {#LocalContractionRef}
