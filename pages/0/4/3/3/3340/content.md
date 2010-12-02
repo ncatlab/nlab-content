@@ -53,10 +53,9 @@ $$
 $$
 
 is called the **cyclic homology** of $A$.
-
-
 =--
 
+If $I\subset A$ is an ideal, then the **relative cyclic homology** groups $HC_n(A,I)$ are the homology groups of the complex $C_\bullet(A,I) = ker(C_\bullet(A)\to C_\bullet(A/I))$.
 
 ## Related concepts
 
@@ -66,13 +65,13 @@ is called the **cyclic homology** of $A$.
 
 ## References
 
-* [[Boris Tsygan]], [[Boris Feigin]],  _Additive K-theory_, in LNM 1289 (1987), edited by Yu. I. Manin, pp. 67--209, seminar 1984-1986 in Moscow), [MR89a:18017](http://www.ams.org/mathscinet-getitem?mr=923136)
+* [[Boris Tsygan]], [[Boris Feigin]],  _[[Additive K-theory]]_, in LNM 1289 (1987), edited by Yu. I. Manin, pp. 67--209, seminar 1984-1986 in Moscow), [MR89a:18017](http://www.ams.org/mathscinet-getitem?mr=923136)
 
-* [[J-L. Loday]], _Cyclic homology_, Grundleheren Math.Wiss. 301, Springer 2nd ed.
+* [[J-L. Loday]], _Cyclic homology_, Grundleheren Math.Wiss. __301__, Springer, 2nd ed.
 
 * [[Masoud Khalkhali]], _A short survey of cyclic cohomology_, [arxiv/1008.1212](http://arxiv.org/abs/1008.1212)
 
-* [[Alain Connes]], _Noncommutative geometry_, Academic Press 1994, 661 p. [PDF](http://www.alainconnes.org/docs/book94bigpdf.pdf) 
+* [[Alain Connes]], _Noncommutative geometry_, Acad. Press 1994, 661 p. [PDF](http://www.alainconnes.org/docs/book94bigpdf.pdf) 
 
 * [[D. Kaledin]], _Tokyo lectures "Homological methods in non-commutative geometry"_, [pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf), [TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex); and related but different [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul)
 
