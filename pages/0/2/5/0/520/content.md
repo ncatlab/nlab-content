@@ -1,14 +1,38 @@
-#Definition#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 A __pointed set__ is a [[set]] $S$ equipped with a chosen element $s$ of $S$. (Compare [[inhabited set]], where the element is not specified.)
 
 Since we can identify a (set-theoretic) element of $S$ with a (category-theoretic) [[global element]] (a morphism $s: 1 \to S$), we see that a pointed set is an object of the [[under category]] $\pt \downarrow \Set$, or coslice category $1/\Set$, of objects under the [[singleton]] $\{\bullet\}$.
 
-# The category of pointed sets
+## The category of pointed sets
 
-The category $Set_*$ of pointed sets is this under category or coslice category.
+### Definition
 
-A morphism $(S_1, s_1) \to (S_2, s_2)$ is a map between sets which maps these chosen elements to each other, i.e., commuting triangles
++-- {: .un_defn}
+###### Definition
+
+The [[category]] $Set_*$ of pointed sets is the [[under category]] $*/Set$ of [[Set]] under the singleton set.
+
+=--
+
+
+So a morphism $(S_1, s_1) \to (S_2, s_2)$ is a map between sets which maps these chosen elements to each other, i.e., commuting triangles
 
 $$
   \array{
@@ -23,9 +47,22 @@ $$
  \,.
 $$
 
-The category $Set_*$ naturally comes with the functor $p : Set_* \to Set$ which forgets the tip of these triangles.
+The category $Set_*$ naturally comes with [[forgetful functor]] $p : Set_* \to Set$ which forgets the tip of these triangles.
 
-#Interpretation as universal Set-bundle #
+### Properties
+
++-- {: .un_prop}
+###### Proposition
+
+Equipped with the [[smash product]] $\otimes := \wedge$ of pointed set, $(Set_*, \weedge)$ is a [[closed monoidal category|closed]] [[symmetric monoidal category]].
+
+The [[internal hom]] $Set_*(X,Y)$ is the [[hom-set]] in $*/Set$ pointed by the morphism $X \to Y$ that sends everything to the basepoint in $Y$.
+
+=--
+
+
+
+#### Interpretation as universal Set-bundle 
 
 The morphism $Set_* \to Set$ is an example of a 
 [[generalized universal bundle]]: the _universal [[Set]]-bundle_. 
@@ -66,7 +103,7 @@ The way in which $Set_* \to Set$ is the "universal Set-bundle" is discussed pret
 (The discussion there becomes more manifestly one of bundles if one regards all morphisms $C \to Set$ appearing there as being the right legs of [[anafunctor]]s. )
 
 
-#Interpretation as 2-subobject-classfier#
+#### Interpretation as 2-subobject-classfier
 
 Observing that usual morphism into the [[subobject classifier]] $\Omega$ of the [[topos]] [[Set]] is the 
 [[universal truth-value bundle]] 
@@ -86,3 +123,5 @@ the relation between these higher classifiers and higher [[generalized universal
 * David Roberts, Urs Schreiber, _The inner automorphism 3-group of a strict 2-group_, Journal of Homotopy and Related Structures, Vol. 3(2008), No. 1, pp. 193-244, ([arXiv](http://arxiv.org/abs/0708.1741v2)).
 
 [[!redirects pointed sets]]
+
+[[!redirects category of pointed sets]]
