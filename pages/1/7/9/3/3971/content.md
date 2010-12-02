@@ -1,10 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-In an [[Ab-enriched category]], it is natural to produce an [[image]] factorization of a morphism by first forming its [[kernel]] and then the [[cokernel]] of the kernel.  Similarly, in a [[regular category]] we can produce an image factorization by first forming the [[kernel pair]] and then the [[coequalizer]] of the kernel pair.  Several similar situations arise in the study of [[2-categories]] as well.  The theory of **generalized kernels** in enriched categories subsumes all of these examples.
+In an [[Ab-enriched category]], it is natural to produce an [[image]] factorization of a morphism by first forming its [[kernel]] and then the [[cokernel]] of the kernel.  Similarly, in a [[regular category]] we can produce an image factorization by first forming the [[kernel pair]] and then the [[coequalizer]] of the kernel pair.  Several similar situations arise in the study of [[2-categories]] as well.  The theory of **generalized kernels** in [[enriched categories]] subsumes all of these examples.
 
 ## Generalized kernels and their quotients
 
@@ -57,6 +69,12 @@ Now this data is exactly the required input for the construction of a *free* [[n
 
 For example, in the coinverter-invertee example above, the right clas of the factorization system produced in this way consists of [[conservative functor|conservative]] functors.
 
+
+## Related concepts
+
+* [[kernel]], [[cokernel]]
+
+* **generalized kernel**
 
 ## References
 
