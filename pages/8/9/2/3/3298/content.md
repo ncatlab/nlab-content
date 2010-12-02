@@ -1498,15 +1498,17 @@ This derivation
 
 ### Higher order Hochschild homology modeled on cdg-algebras
 
-We discuss details of Hochschild homology in the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] over an [[(∞,1)-site]] of commutative [[dg-algebra]]s over a field, [[presentable (∞,1)-category|presented]] by the [[model structure on dg-algebras]].
+We discuss details of Hochschild homology in the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] over an [[(∞,1)-site]] of formal duals of commutative [[dg-algebra]]s over a field, [[presentable (∞,1)-category|presented]] by the [[model structure on dg-algebras]].
 
 
-#### The setup
+#### The $(\infty,1)$-topos and its function $\infty$-algebras
+
+We discuss some basic aspects of the $(\infty,1)$-topos over a site of duals of cdg-algebras and of cdg-algebras of functions on its objects.
 
 +-- {: .un_def}
 ###### Proposition/Definition 
 
-Let $k$ be a [[field]] or [[characteristic]] 0. Write $cdgAlk_k^+$ for the category of graded-commutative cochain [[dg-algebra]]s in non-positive degree and $cdgAlk_k$ for the same without degree bound.
+Let $k$ be a [[field]] of [[characteristic]] 0. Write $cdgAlk_k^+$ for the category of graded-commutative cochain [[dg-algebra]]s in non-positive degree and $cdgAlk_k$ for the same without degree bound.
 
 There are the standard projective [[model structures on dg-algebras]] on these category. Let
 
@@ -1552,6 +1554,13 @@ is a _homotopical context_ in the sense of ([To&#235;nVezzosi, def. 1.1.0.11](#T
 =--
 
 This is ([To&#235;nVezzosi, lemma 2.3.11](#ToenVezzosiStacks)). We need of this statement the following implications.
+
++-- {: .un_prop}
+###### Corollary
+
+$(dgcAlg_k, \otimes_k)$ is a [[symmetric monoidal category|symmetric]] [[monoidal model category]].
+
+=--
 
 +-- {: .un_prop}
 ###### Corollary
@@ -1605,33 +1614,62 @@ This means that the assumption of section [Pirashvili's higher Hochschild homolo
 This follows from ([To&#235;nVezzosi, assumption 1.1.0.6](#ToenVezzosiStacks)).
 
 
-#### The copowering of $dgcAlg_k$ over $sSet$
+#### The copowering of cdg-algebras over $\infty Grpd$ {#CopoweringOfCdgAlgs}
 
-The following proposition says that the 1-categorical [[copowering]] of $dgcAlg$ over $sFinSet$ does model the $(\infty,1)$-categorical copowering.
+We discuss a concrete model for the $(\infty,1)$-copowering of 
+$(cdgAlg_k)^\circ$ over [[∞Grpd]] in terms of the ordinary [[copowering]] of the [[category of chain complexes]] $Ch^\bullet(k)$ over [[sSet]].
+
+> the proofs following in this section are under construction and may need scrutinizationn
 
 +-- {: .un_prop}
 ###### Proposition
 
-The [[copowering]] functor of $dgcAlg_k$ over $sFinSet$ 
-
-$$
-  (-)\cdot (-) : sFinSet \times dgcAlg_k \to dgcAlg
-$$
-
-preserves [[homotopy colimit]]s in the first argument.
+The [[(∞,1)-limit|(∞,1)-copowering]] of $(dgcAlg_k)^\circ$ over [[∞Grpd]] is modeled by the ordinary [[copowering]] of the underlying [[category of chain complexes]] over [[sSet]].
 
 =--
 
-This is the statement of ([GinotTradlerZeinalian, theorem 4.2.2 (3)](#GinotTradlerZeinalian)) after noticing that their def. 3.1.1 describes the copowering.
++-- {: .proof}
+###### Proof
 
-We now spell this out this operation.
+Pass to the [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] $[\Delta^{op}, dgcAlg_k]$ whose weak equivalences are those morphisms that become weak equivalences in $dgcAlg_k$ under [[homotopy colimit]] over $\Delta^{op}$ (described at [[simplicial model category]]). In that structure $(\infty,1)$-copowering is modeled by the [[derived functor]] of the ordinary copowering (as discussed at [[(∞,1)-colimit|(∞,1)-copowering]]). 
+
+By the theorems at [[model structure on algebras over an operad]] and [[model structure on monoids]] and using the result at [[(2,1)-algebraic theory of E-∞ algebras]] we have that the model structure on the [[category of monoids]] $dgCAlg_k = CMon(Ch_\bullet(k))$ [[presentable (∞,1)-category|presents]] the [[(∞,1)-category]] of [[commutative monoids in a symmetric monoidal (∞,1)-category]].
+
+As described there, $(\infty,1)$-colimits of such commutative monoids over [[sifted (∞,1)-categories]] are computed in the underlying symmetric monoidal $(\infty,1)$-category.
+
+By a result discussed at [[sifted (∞,1)-category]] the opposite of the [[simplex category]] is a sifted $(\infty,1)$-category.
+
+So finally we have that the homotopy colimit over simplicial cdg-algebras is computed in the model structure of the underlying chain complexes.
+
+=--
 
 +-- {: .un_prop}
-###### Example
+###### Observation
+
+This 1-categorical copowering of the chain complexes underlying a dgc-algebra is what is described in ([GinotTradlerZeinalian, def 3.1.1](#GinotTradlerZeinalian)):
 
 (...)
 
+
 =--
+
++-- {: .un_prop}
+###### Corollary
+
+
+This 1-categorical [[copowering]] model of the $(\infty,1)$-categorical copowering preserves [[homotopy colimit]]s of simplicial sets.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Given all of the above, this is ([GinotTradlerZeinalian, theorem 4.2.2 (3)](#GinotTradlerZeinalian)) .
+
+
+=--
+
 
 
 #### Jones' theorem
