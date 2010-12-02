@@ -902,17 +902,17 @@ Generally, for $K$ any simplicial set, $K \cdot A$ is the simplicial algebra who
 
 
 
-#### Identification with K&#228;hler differential forms
+#### Identification with K&#228;hler differential forms {#IdWithK&#228;hlerForOrdAlgebra}
 
 We spell out in detail how in degree 0 and 1 the [[homology]] of the Hochschild complex of $A$ is that of its [[Kähler differential form]]s. Under mild conditions on $A$ this is also true in higher degrees, which is the statement of the [Hochschild-Kostant-Rosenberg theorem](#HochschildKostantRosenberg).
 
 +-- {: .un_prop #K&#228;hler1Forms}
 ###### Proposition
 
-The [[homology]] of the Hochschild complex $S^1 \circ A$ in degree 1 is the  [[Kähler differential form]]s of $A$
+The [[homology]] of the Hochschild complex $S^1 \cdot A$ in degree 1 is the  [[Kähler differential form]]s of $A$
 
 $$
-  HH_1(A,A) \simeq \Omega^1_K(A/k)
+  HH_1(A,A) = H_\bullet(S^1\cdot A) \simeq \Omega^1_K(A/k)
   \,.
 $$
 
@@ -923,7 +923,7 @@ $$
     \vdots
     \\
      (f \in A_{(* * * )}, g \in A_{(*\to * *)}, h \in A_{(* * \to *)} 
-     & \mapsto & f \wedge d g \wedge d h
+     & \mapsto & \frac{1}{2} f \wedge d g \wedge d h
     \\
     (f \in A_{(* *)}, g \in A_{* \to *}) &\mapsto& f \wedge d g
     \\
@@ -1008,33 +1008,136 @@ $$
 
 =--
 
-#### The simplicial circle action
++-- {: .un_prop}
+###### Proposition
+
+Under the identification of $HH_\bullet(A,A) = H_\bullet(S^1 \cdot A)$ with K&#228;hler differential forms, the [[cup product]] on homology identifies with the [[exterior algebra|wedge product]] of differential forms.
+
+=---
+
++-- {: .proof}
+###### Proof
+
+Under the [[monoidal Dold-Kan correspondence]] the product on the [[Moore complex]] $N_\bullet(S^1 \cdot A)$ is given by the [[Eilenberg-Zilber map]] $\nabla$
+
+$$
+  N_\bullet(S^1 \cdot A) \otimes_k
+  N_\bullet(S^1 \cdots)
+  \stackrel{\nabla}{\to}
+  N_\bullet((S^1 \cdot A) \otimes (S^1 \cdot A))
+  \stackrel{N_\bullet(\cdot)}{\to}
+  N_\bullet(S^1 \cdot A)
+  \,,
+$$
+
+where for $\omega \in (S^1\cdot A)_p $ and $\lambda \in (S^1 \cdot A)_q$ we have
+
+$$
+  \nabla : \omega \otimes \lambda \mapsto 
+  \sum_{(\mu,\nu)\in Shuff(p,q)} sign(\mu,\nu) s_\nu(\omega) \otimes s_\mu(\lambda)
+  \,.
+$$
+
+For instance for $\omega = f \wedge d g \in (S^1 \cdot A )_0$  we have
+
+$$
+  s_1 (f \wedge d g) = f \wedge d g \wedge d 1
+$$
+
+and
+
+$$
+  s_2(h \wedge d q) = (h \wedge d 1 \wedge d q)
+$$
+
+and the tensor product (in $(S^1 \cdot A)_2$!) is componentwise
+
+$$
+  s_1(f \wedge d g) \otimes s_2(h \wedge d q) = (f \otimes h) \wedge 
+   d(g \otimes 1) \wedge d(1 \otimes q) 
+  \,.
+$$
+
+Therefore
+
+$$
+  \nabla(\omega, \lambda) = f h \wedge d q \wedge d q
+  \,.
+$$ 
+
+Similarly in higher degrees.
+
+=--
+
+
+#### The simplicial circle action {#SimplicialCircleActionForOrdAlgebra}
+
+We describe the canonical [[action]] of the [[automorphism 2-group]] of the circle $S^1$ on $S^1 \cdot A$ and how its degree-1 part induces under the [above](#IdWithK&#228;hlerForOrdAlgebra) identification $H_\bullet(S^1 \cdot A) \simeq \Omega^\bullet_K(A)$ the action of the de Rham differential.
+
++-- {: .un_prop}
+###### Proposition
+
 
 The [[automorphism 2-group]] of the categorical circle is
 
 $$
   Aut_{\infty Grpd}(\mathbf{B}\mathbb{Z}, \mathbf{B}\mathbb{Z})
   \simeq
-  \coprod_{n \in \mathbb{Z}} \mathbf{B}\mathbb{Z}
+  \coprod_{\{+1,-1\}} \mathbf{B}\mathbb{Z}
   \,.
 $$
 
-The group of objects may be identified with the [[integer]]s, acting by multiplication on themselves. The group of morphisms on each object may also be identified with the group on integers, acting by natural automorphisms
+=--
+
++-- {: .proof}
+###### Proof
+
+We may compute the automorphism 2-group in the full [[sub-(∞,1)-category]] [[Grpd]] $\subset$ [[∞Grpd]], whose morphisms are [[functor]]s and 2-morphisms are [[natural isomorphism]]s (see the statement about [[homotopy n-type|homotopy 1-types]] at [[homotopy hypothesis]] for details). A functor between [[delooping]] [[groupoid]]s $\mathbf{B}G \to \mathbf{B}H$ is precisely a [[group]] [[homomorphism]] $G \to H$. The additive group endomorphisms of $\mathbb{Z}$ are precisely given by multiplication with elements in $\mathbb{Z}$, the two automorphisms in there are $\pm 1$.
+
+The natural transformations between such functors are 
 
 $$
+  \left(
+    \array{
+      & \nearrow \searrow^{\mathrlap{\pm 1}}
+      \\
+      \mathbf{B}\mathbb{Z}
+      & \Downarrow^{r}&
+      \mathbf{B}\mathbb{Z}
+      \\
+      & \searrow \nearrow_{\mathrlap{\pm 1}}
+    }
+  \right)
+  \;\;
+    :
+  \;\;
+  \left(
+  \array{
+    *
+    \\
+    \downarrow^{\mathrlap{1}}
+    \\
+    *    
+  }
+  \right)
+  \;\;
+   \mapsto
+  \;\;
+  \left(
   \array{
      * &\stackrel{r}{\to}& *
      \\
-     {}^{\mathllap{k}}\downarrow && \downarrow^{\mathrlap{k}}
+     {}^{\mathllap{\pm 1}}\downarrow && \downarrow^{\mathrlap{\pm 1}}
      \\
      * &\stackrel{r}{\to}& *
   }
+  \right)
   \,.
 $$
 
-We shall see that under the identification of $(\mathbf{B}\mathbb{Z}) \cdot k \simeq C^\infty(k^{0|1})$ with functions on the [[odd line]],in degree 0 this corresponds to the even vector field $\theta \partial/\partial \theta$ on the odd line, and in degree 1 to the odd vector field $\partial/\partial\that$.
+=--
 
-For consider the [[right homotopy]] that exhibits the morphism 1 in $Aut(\mathbf{B}\mathbb{Z})$.
+Now consider the [[right homotopy]] that exhibits the morphism 1 in $Aut(\mathbf{B}\mathbb{Z})_{Id}$.
 
 $$
   \array{  
@@ -1042,7 +1145,7 @@ $$
     \\
     &{}^{\mathllap{Id}}\nearrow & \uparrow
     \\
-    \mathbf{B}\mathbb{Z} &\to& \mathbf{B}\mathbb{Z}^{I} 
+    \mathbf{B}\mathbb{Z} &\stackrel{\eta}{\to}& \mathbf{B}\mathbb{Z}^{I} 
     \\
     &  {}_{\mathllap{Id}}\searrow
     \\
@@ -1051,9 +1154,14 @@ $$
   \,.
 $$
 
-This sends the point of $\mathbf{B}\mathbb{Z}$ to $(* \stackrel{1}{\to} *)$ in $\mathbf{B}\mathbb{Z}$.
+This sends 
 
-This means that under [[copowering]]
+$$
+  \eta : * \mapsto (* \stackrel{1}{\to} * )
+  \,.
+$$
+
+This means that under [[copowering]] this on $A$
 
 $$
   (\mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}^I)\cdot A
@@ -1073,6 +1181,17 @@ $$
   \,.
 $$
 
+
+
++-- {: .un_remark}
+###### Remark
+**(automorphisms of the odd line)**
+
+This means that under the identification of $(\mathbf{B}\mathbb{Z}) \cdot k \simeq C^\infty(k^{0|1})$ with functions on the [[odd line]],in degree 0 this corresponds to the even vector field $\theta \partial/\partial \theta$ on the odd line, and in degree 1 to the odd vector field $\partial/\partial\that$.
+
+(...)
+
+=--
 
 
 #### Traditional description of the Hochschild complex {#ExplicitHochschildChains}
