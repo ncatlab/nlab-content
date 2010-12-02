@@ -14,11 +14,24 @@
 * automatic table of contents goes here
 {:toc}
 
-## Definition
+##Idea and definition##
+A polyhedron is a space made up of very simple bits 'glued' together. The 'bits' are **simplices** of different dimensions. An abstract simplicial complex is a neat combinatorial way of giving the corresponding 'gluing' instructions, a bit like to plan of a construction kit!
 
++--{: .un_defn}
+######Definition#######
 A _simplicial complex_ $K$ is a set of objects, $V(K)$, called **vertices** and a set, $S(K)$, of finite non-empty subsets of $V(K)$, called **[[simplex|simplices]]**.  The simplices satisfy the condition that if $\sigma \subset V(K)$ is a simplex and $\tau \subset \sigma$, $\tau \ne \emptyset$, then $\tau$ is also a simplex.  
-
+=--
 We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ elements it is said to be a **$p$-simplex**.  The set of $p$-simplices of $K$ is denoted by $K_p$. The **dimension** of $K$ is the largest $p$ such that $K_p$ is non-empty.
+
+##Examples##
+1. Any (undirected simple) graph gives a simplicial complex. The usual definition of graph is that it is an ordered pair $(V,E)$ where $V$ is a set of vertices, and $E$ a set of (unordered) pairs of vertices. This is the simplest form of graph; it is undirected, edges do not have a 'start' and 'finish', (or 'head' and 'tail') and 'simple', in as much as there can be at most one edge between a given pair of vertices. (The case of a 'multigraph' where there can be multiple edges between vertices, and perhaps loops at a vertex, does not correspond to a simplicial complex, but does give a [[simplicial set]].)  A graph is a 1-dimensional simplicial complex.
+
+1. Given a space and an [[open cover]], the nerve of the cover is a simplicial complex (see [[Čech methods]] and the discussion there). The [[Vietoris complex]] is another given by a related method.
+
+1. Given any two sets $X$ and $Y$, and a relation $R\subseteq X\times Y$, there are two simplicial complexes that encode information on the relation. These are generalisations of the nerve and the Vietoris complex. They are studied in detail in [[Dowker's theorem]].
+
+1.  If $(P,\leq)$ is a [[poset]], then the [[nerve]] of the associated category has a simple description.
+
 
 ##Simplicial complexes v. simplicial sets
 
