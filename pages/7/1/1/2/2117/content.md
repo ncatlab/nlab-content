@@ -50,6 +50,8 @@ An [[infinite set]] is a simple example, as [[finite mathematics]] can be done i
 
 In general, we need some axioms to state the existence of such universes; we can think of these as [[large cardinal]] axioms.  (The existence of an infinite set is the [[axiom of infinity]]; the existence of a Grothendieck universe is the existence of an [[inaccessible cardinal]].)
 
+The use of such universes is convenient when we want to work with [[large categories]] "as if they were small."  That is, if we redefine "small" to mean "element of some fixed universe," then the categories of all small structures of some sort will still be sets (rather than [[proper classes]]) in the bigger ambient universe, and thus we can for instance form [[functor categories]] between them freely.  We do sometimes then need a way to "move a category" from one universe to another; see [[universe enlargement]].
+
 
 ## Reflection
 
