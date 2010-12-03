@@ -1,6 +1,19 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
 [[!include manifolds and cobordisms - contents]]
-</div>
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -17,7 +30,8 @@ $$
 In particular, $\pi_n M O$ is naturally identified with the set of cobordism classes of closed $n$-manifolds.
 
 ## Definition
-For any $n\geq 1$, let $E_n\to BO(n)$ be the $\mathbb{R}^n$-bundle associated to the principal bundle $EO(n)\to BO(n)$ by the defining representation of $O(n)$. The inclusion $O(n)\equiv O(n)\times\{1\}\hookrightarrow O(n+1)$ induces a map $\varphi_n:BO(n)\to BO(n+1)$. One sees that $\varphi_n^*E_{n+1}\simeq E_n\oplus\mathbb{R}$. therefore, passing to [[Thom space]]s, 
+
+For any $n\geq 1$, let $E_n\to BO(n)$ be the $\mathbb{R}^n$-bundle [[associated bundle|associated to]] the [[universal principal bundle]] $E O(n)\to B O(n)$ by the defining [[representation]] of the [[orthogonal group]] $O(n)$. The inclusion $O(n)\equiv O(n)\times\{1\}\hookrightarrow O(n+1)$ induces a map $\varphi_n:B O(n)\to B O(n+1)$. One sees that $\varphi_n^*E_{n+1}\simeq E_n\oplus\mathbb{R}$. therefore, passing to [[Thom space]]s, 
 $$
 \Sigma Th(E_n)\simeq Th(E_n)\wedge Th(\mathbb{R})\simeq Th(E_n\oplus \mathbb{R})\simeq Th(\varphi_n^*E_{n+1})\to Th(E_{n+1}).
 $$
@@ -25,13 +39,16 @@ Hence, setting $M O(n):=Th(E_n)$, we get a system of maps
 $$
 \Sigma M O(n) \to M O(n+1),
 $$ 
-and so a [[spectrum]] $M O$, which is called the Thom spectrum.
+and so a [[spectrum]] $M O$, which is called the **Thom spectrum** .
 
 ## Properties
+
 The isomorphisms 
+
 $$
-\pi_n M O\simeq \Omega_n=\{closed n-manifolds\}/cobordism
+  \pi_n M O\simeq \Omega_n=\{closed n-manifolds\}/cobordism
 $$
+
 date back to the fundamental work of [[René Thom]] and is based on the [[fiber integration|Pontrjagin-Thom construction]]. The homotopy equivalence $\Omega^\infty M O \simeq B Cob_\infty$ is the content of Galatius-Madsen-Tillmann-Weiss theorem, and is now seen as a part of the [[cobordism hypothesis]] theorem.
 
 ## Generalizations
