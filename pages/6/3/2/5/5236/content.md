@@ -150,7 +150,7 @@ is an example made of two distinct processes.
 
 ##References##
 
-This entry is partially adapted from the treatment of the idea in the following paper:)
+This entry is partially adapted from the treatment of the idea in the following paper:
 
  *  [[Eric Goubault]], [[Some geometric perspectives in concurrency theory]], 
 
