@@ -489,9 +489,12 @@ We first give a detailed discussion of the standard Hochschild complex of a comm
 
 Then we look in detail at higher order Hochschild homology in the $(\infty,1)$-topos over an [[(∞,1)-site]] of formal duals of [[dg-algebra]]s. In this context the classical [theorem by Jones](#JonesTheorem) on Hochschild homology and loop space cohomology is a natural consequence of the general machinery.
 
+
 ### The Hochschild chain complex of an associative algebra {#HochschildChainComplex}
 
-We consider in detail the classical case of Hochschild (co)homology of an [[associative algebra]].
+We consider in detail the classical case of Hochschild (co)homology of an [[associative algebra]] approaching it from the general abstract perspective on Hochschild homology. 
+
+This section focuses on exposition. The formal context in which the constructions considered here follow from first principles is discussed below in [Higher order Hochschild homology modeled on cdg-algebras](#OvercdgAlgs)
 
 #### The simplicial circle algebra {#SimplicialCircleAlgebra}
 
@@ -502,7 +505,7 @@ We shall use two different equivalent models of the circle in $\infty Grpd$ in t
 1. the simplicial set $\Delta[1]/\partial \Delta[1]$
 
    This is not fibrant (not a [[Kan complex]]). On the contrary, this is
-   the smalles simplicial model available for the circle, with the least 
+   the smallest simplicial model available for the circle, with the least 
    number of horn fillers.
 
    In low degrees it looks as follows
@@ -533,7 +536,7 @@ We shall use two different equivalent models of the circle in $\infty Grpd$ in t
 
 1. the [[nerve]] of the [[delooping]] [[groupoid]] $\mathbf{B}\mathbb{Z}$ of the additive group of [[integer]]s.
 
-   This model is fibrant (is a [[Kan complex]]) and makes manifest the group structure on $S^1$, which is the [[strict 2-group]] structure on $\mathbf{B}\athbb{Z}$ or equivalently the structure of a [[simplicial group]] on its [[nerve]].
+   This model is fibrant (is a [[Kan complex]]) and makes manifest the group structure on $S^1$, which is the [[strict 2-group]] structure on $\mathbf{B}\mathbb{Z}$ or equivalently the structure of a [[simplicial group]] on its [[nerve]].
 
    $$
       \mathbf{B}\mathbb{Z} \times \mathbf{B}\mathbb{Z} \to 
@@ -1462,7 +1465,7 @@ $$
   \,,
 $$
 
-where both morphissm are simple the product on $\mathcal{O}(X) \in CAlg_k$. By general properties of [[homotopy pushout]]s and the injective [[model structure on simplicial presheaves]] we have that this homotopy pushout is computed by an ordinary pushout once we pass to a weakly equivalent diagram in which one of the two morphism is a cofibration of simplicial algebras.
+where both morphism are simple the product on $\mathcal{O}(X) \in CAlg_k$. By general properties of [[homotopy pushout]]s and the injective [[model structure on simplicial presheaves]] we have that this homotopy pushout is computed by an ordinary pushout once we pass to a weakly equivalent diagram in which one of the two morphism is a cofibration of simplicial algebras.
 
 $$
   \array{
@@ -1558,7 +1561,7 @@ We discuss some basic aspects of the $(\infty,1)$-topos over a site of duals of 
 
 Let $k$ be a [[field]] of [[characteristic]] 0. Write $cdgAlk_k^+$ for the category of graded-commutative cochain [[dg-algebra]]s in non-positive degree and $cdgAlk_k$ for the same without degree bound.
 
-There are the standard projective [[model structures on dg-algebras]] on these category. Let
+There are the standard projective [[model structures on dg-algebras]] on these categories. Let
 
 $$
   C \hookrightarrow ((cdgAlg_k^+)^{op})^\circ
@@ -1619,48 +1622,66 @@ For $B \in (dgcAlg_k)_{proj}$ a cofibrant object, the [[tensor product]] with $B
 
 This follows from ([To&#235;nVezzosi, assumption 1.1.0.4](#ToenVezzosiStacks)).
 
-+-- {: .un_prop}
+
+
++-- {: .un_prop #cdgAlgInclusionPreservesLimits}
 ###### Corollary
 
-The [[copowering]] of $dgcAlg_k$ over [[sSet]] preserves all weak equivalences.
+The inclusion
+
+$$
+  (cdgAlg_k^+)^{op} \hookrightarrow (cdgAlg_k)^{op}
+$$
+
+preserves [[homotopy limit]]s, hence the induced inclusion
+
+$$
+  ((cdgAlg_k^+)^{op})^\circ \hookrightarrow ((cdgAlg_k)^{op})^\circ
+$$
+
+preserves [[(∞,1)-limit]]s.
+
+=--
+
+This follows from ([To&#235;nVezzosi, assumption 1.1.0.6](#ToenVezzosiStacks)).
+
++-- {: .un_prop}
+###### Observation
+
+The [[monoidal Dold-Kan correspondence]] provides a [[Quillen equivalence]]
+
+$$
+  (\Gamma^{cmon} \dashv N_\bullet)
+  : 
+  cAlg_k^{\Delta^{op}}  
+    \stackrel{\overset{\Gamma^{cmon}}{\leftarrow}}{\underset{N_\bullet}{\to}}
+  cdgAlg_k^+ 
+$$
+
+(since $k$ is assumed to be of characteristic 0). Under this equivalence we have that $U \in cAlg_k \hookrightarrow cAlg_k^{\Delta^{op}} \hookrightarrow \mathbf{H}$ is $\mathcal{O}$-perfect:
+
+$$
+  \mathcal{O} X^{K} \simeq K \cdot \mathcal{O}(X)
+$$ 
+
+and this recovers the constructions discussed above in [The Hochschild chain complex of an associative algebra](#HochschildChainComplex).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-For any simplicial set $K$ and any $A \in dgcAlg$, we have that $K \cdot A = (K \cdot k) \otimes_k A$. One finds that $(K \cdot k)$ is cofibrant. The claim then follows with the previous statement.
+Since the [[(∞,1)-Yoneda embedding]] $y$ commutes with [[(∞,1)-limit]]s we have that the powering $(y(U))^{K} \simeq y(U^K)$ is still representable. Therefore 
+
+$$
+  \mathcal{O} ((y(U))^K) \simeq \mathcal{O}(U^K) \;\; 
+  \in (cdgAlg_k^+)^{op} \hookrightarrow (cdgAlg_k)^{op}
+$$
+
+is simply the formal dual of $U^K$, which is $K \cdot \mathcal{O}(U)$ formed in $cdgAlg_k$  by formal duality. By the [above proposition](cdgAlgInclusionPreservesLimits) the inclusion 
+$cdgAlg_k^+ \hookrightarrow cdgAlg_k$ preserves this $(\infty,1)$-colimit.
 
 =--
-
-+-- {: .un_remark}
-###### Remark
-
-This means that the assumption of section [Pirashvili's higher Hochschild homology](#PirashviliHigherOrder) is satisfied, and that we may compute higher order Hochschild homology in $\mathbf{H}$ by copowering in $cdgAlg$ over $sSet$.
-
-=--
-
-+-- {: .un_prop}
-###### Corollary
-
-* the inclusion
-
-  $$
-    (cdgAlg_k^+)^{op} \hookrightarrow (cdgAlg_k)^{op}
-  $$
-
-  preserves [[homotopy limit]]s, hence the induced inclusion
-
-  $$
-    ((cdgAlg_k^+)^{op})^\circ \hookrightarrow ((cdgAlg_k)^{op})^\circ
-  $$
-
-  preserves [[(∞,1)-limit]]s.
-
-=--
-
-This follows from ([To&#235;nVezzosi, assumption 1.1.0.6](#ToenVezzosiStacks)).
-
 
 #### The copowering of cdg-algebras over $\infty Grpd$ {#CopoweringOfCdgAlgs}
 
@@ -1739,17 +1760,45 @@ preserves weak equivalences in both arguments.
 This is essentially due to ([Piashvili](#Pirashvili)). The full statement is ([GinotTradlerZeinalian, prop. 4.2.1](#GinotTradlerZeinalian)).
 
 
++-- {: .un_remark}
+###### Remark
+
+This means that the assumption of section [Pirashvili's higher Hochschild homology](#PirashviliHigherOrder) is satisfied, and that we may compute higher order Hochschild homology in $\mathbf{H}$ by copowering in $cdgAlg$ over $sSet$.
+
+=--
+
+
 #### Jones' theorem {#JonesTheorem}
 
 Jones' theorem asserts that the Hochschild homology of the dg-algebra of differential forms on a manifold computes the homology of the corresponding loop space. We discuss now how this result follows using derived loop spaces of [[constant ∞-stack]]s.
 
-For $X$ a manifold, write $LConst X$ for the $\infty$-stack constant on its homotopy type. Then
++-- {: .un_prop}
+###### Fact
+
+
+For $X$ a [[manifold]], $\Omega^\bullet(X)$ its [[de Rham dg-algebra]] and $L X$ its [[free loop space]], we have
 
 $$
-  \mathcal{O} LConst X \simeq C^\bullet(X,k) \simeq \Omega^bullet(X)
+  H^\bullet(L X, \mathbb{R}) \simeq HH_\bullet(\Omega^\bullet(X), \Omega^\bullet(X))
+  \,.
 $$
 
-is the the $k$-valued [[singular cohomology|singular cochain]] complex of $X$, which by the [[de Rham theorem]] is equivalent to the [[de Rham dg-algebra]].
+=--
+
+We sketch the proof in terms of the above derived loop space technology.
+
++-- {: .proof}
+###### Proof 
+
+Set $k = \mathbb{R}$. Write $LConst X \in \mathbf{H}$ for the [[constant ∞-stack]] on the [[homotopy type]] of $X$, regarded as a [[topological space]] $\simeq$ [[∞Grpd]]. Then
+
+$$
+  \mathcal{O} LConst X \simeq C^\bullet(X,k) \simeq \Omega^\bullet(X)
+  \in
+  cdgAlg_{\mathbb{R}}
+$$
+
+is (...) the the $k$-valued [[singular cohomology|singular cochain]] complex of $X$, which by the [[de Rham theorem]] is equivalent to the [[de Rham dg-algebra]].
 
 Since $LConst$ is a [[left exact (∞,1)-functor]] it commutes with forming [[free loop space object]]s and therefore
 
@@ -1758,20 +1807,20 @@ $$
   \,.
 $$
 
-
-So
+Since $LConst X$ is $\mathcal{O}$-perfect (...) we have by the above copowering-description of the Hochschild complexes that the cohomology of the loop space of $X$
 
 $$
-  \mathcal{O} \mathcal{L} LConst X \simeq C^\bullet(L X, k)
+  \mathcal{O} ((LConst X)^{S^1}) \simeq C^\bullet(L X, k)
 $$
 
-is the singular cochain complex of the [[free loop space]] of $X$.
+is given by the Hochschild complex of the dg-algebra $\Omega^\bullet(X)$
 
-By the above this is indeed the Hochschild homology of $C^\bullet(X)$.
+$$
+  \mathcal{O} ((LConst X)^{S^1}) \simeq S^1 \cdot \Omega^\bullet(X)
+  \,.
+$$
 
-(...)
-
-
+=--
 
 ## Properties
 
