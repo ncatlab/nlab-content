@@ -361,7 +361,7 @@ Write $[C^{op}, sSet]_{proj,loc}$ for the
 By general results on left Bousfield localization, this exists always for $S$ a [[small set]], notably for $f$ the set of [[Cech nerve]] projections $C(U) \to X$ for [[cover]]s $\{U_i \to X\}$ of the [[Grothendieck topology]] on $C$. By general results on the [[local model structure on simplicial presheaves]], the localization also exists for $S$ the class of all (split) hypercovers. 
 
 
-### The Yoneda-Quillen-adjunction
+### The Yoneda-Quillen-adjunction {#YonedaQuillenAdjunction}
 
 We relate now the [model structure on cosimplicial T-algebras](#ModelTAlg) with the [model structure on simplicial presheaves](#ModelPresheaves) over $C \subset T Alg^{op}$ using the [function algebra functor](#Line) $\mathcal{O}$ and the [prolonged Yoneda embedding](#ProlongedYoneda) $j$.
 
@@ -901,6 +901,29 @@ $$
 =--
 
 This is considered in ([Ben-Zvi/Nadler, prop. 3.1](#BenZviNadler)).
+
++-- {: .un_lemma}
+###### Observation
+
+The above [Yoneda-Quillen adjunction](#YonedaQuillenAdjunction) for $T$ the theory of commutative $k$-algebras is compatible with this in that it also does  model the $(\infty,1)$-Yoneda extension of the inclusion
+
+$$
+  T Alg_k^{op} \hookrightarrow (T Alg_k^{\Delta})^{op}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the general discussion of cofibrant replacement in the projective [[model structure on simplicial presheaves]] we have that every $X \in [C^{op}, sSet]_{proj,loc}$ has a cofibrant resolution of the form $\int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot \coprod_{i_n} U_{i_n}$, where the integrand the integrand we have the [[fat simplex]] tensored degreewise with a coproduct of representables such that the degenerate cells split off as direct summands (a [[split hypercover]]). This makes $[n] \mapsto \coprod_{i_n} U_{i_n}$ [[Reedy model structure|Reedy cofibrant]] an therefore the whole coend is a model for its [[homotopy colimit]].
+
+Since both the simplex as well as the [[fat simplex]] $\mathbf{\Delta}$ are Reedy cofibrant cosimplicial simplicial sets, this is moreover equivalent to $\int^{[k]} \mathbf{\Delta}[k] \cdot \coprod_{i_n} U_{i_n}$ and this is still cofibrant. Now the left Quillen functor $\mathcal{O}$ takes this to $\int^{[k]} \mathbf{\Delta}[k] \cdot \coprod_{i_n} \mathcal{O}(U_{i_n})$. Since every object in $(T Alg^{\Delta})^{op}$ is cofibrant, this coend is still a homotopy colimit.
+
+This shows that the [[derived functor]] of the left Quillen functor $\mathcal{O}$ sends the decomposition of any $\infty$-stack as the $(\infty,1)$-colimit over representable to the $(\infty,1)$-colimit of the images of these representables.
+
+=--
+
 
 ## Examples and applications {#Examples}
 
