@@ -66,6 +66,16 @@ a large (but locally small) [[infinitary Lawvere theory]].
 
 For the moment we discuss the single-sorted case. The many-sorted case should be a straightforward extension. 
 
+First, the definition. For any cardinal n, let $[n]$ be a set of that cardinality (sometimes we just use $n$). 
+
++-- {: .un_def}
+######Definition: 
+A Lawvere theory is a locally small category $C$ with small products that is equipped with an object $x$ such that the (unique-up-to-isomorphism) product-preserving functor 
+$$i: Set^{op} \to C: [1] \mapsto x$$ 
+is essentially surjective. 
+=--
+
+
 ### Large Lawvere theory of a monad
 
 Let $T: Set \to Set$ be a [[monad]] on [[Set]], with unit $u: 1 \to T$ and multiplication $m: T T \to T$. 
