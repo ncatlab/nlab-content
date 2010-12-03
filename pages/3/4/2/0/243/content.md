@@ -283,6 +283,75 @@ where the right hand denotes the [[weighted limit]] over $F$ with weight $Hom_C 
 
 ## Properties {#Properties}
 
+### $Set$-enriched coends as ordinary colimits {#SetCoendsAsColimits}
+
+Let the enriching category be $\mathcal{V} = $ [[Set]]. We describe a special way in this case to express ends/coends that give [[weighted limits]]/colimits in terms of ordinary (co)limits over categories of elements.
+
+Consider
+
+* $C$ a $Set$-enriched category/[[locally small category]] 
+  [[tensoring|tensored]] over [[Set]]; 
+
+* $D$ be a [[small category]];
+
+* $F : D \to C$ a functor;
+
+* $W : D^{op} \to Set$ another functor;
+
+* $el W \to D^{op}$ the [[category of elements]] of $W$.
+
++-- {: .un_prop}
+###### Proposition
+
+We have a natural isomorphism in $C$
+
+$$
+  \int^{d \in D} W(d) \cdot F(d)
+  \simeq
+  \lim_{\to}(
+    (el W)^{op} \to D \stackrel{F}{\to} C
+  )
+$$
+
+between the coend as indicated and the [[colimit]] over the opposite of the 
+category of elements of $W$.
+
+=--
+
+This is equation (3.34) in ([Kelly](#Kelly)) in view of (3.70).
+
++-- {: .un_example}
+###### Example
+
+If $W = D(-,e)$ is a [[representable functor]], then 
+
+$$
+  (el W)^{op} = D/e
+$$
+
+is the [[over category]] over the representing object $e$. This has a [[terminal object]], namely $(e \stackrel{Id}{\to} e$). Therefore
+
+$$
+  \lim_\to( D/e \to D \stackrel{F}{\to} C) \simeq F(e)
+  \,.
+$$
+
+Since this is natural in $e$, the above proposition asserts a [[natural isomorphism]]
+
+$$
+  F(-) \simeq \int^{k \in D} D(k,-) \cdot F(k)
+  \,.
+$$
+
+This statement is sometimes called the [[co-Yoneda lemma]].
+
+
+
+
+=--
+
+
+### Commutativity of ends and coends
 
 Ordinary [[limit]]s commute with each other, if both limits exist separately. The analogous statement does hold for ends and coends. Since there it looks like the commutativity of two integrals, it is called the _Fubini theorem_ for ends (for instance [Kelly, p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29)).
 
@@ -383,8 +452,9 @@ More specifically, traditionally this is thought of as applying to the case wher
 The standard reference is
 
 
-* [[Max Kelly]], _Basic concepts in enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
-
+* [[Max Kelly]], _Basic concepts in enriched category theory_ 
+  ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+  {#Kelly}
 
   * ends of $V$-valued bifunctors are discussed in section 2.1
 
