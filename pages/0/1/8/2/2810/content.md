@@ -133,6 +133,12 @@ $$
 This is discussed and realized in section 1.2. of ([Lurie](#Lurie)). The tensor product is defined in appendix B.7.
 
 
+### Homology: Poisson operads
+
+For an $E_k$-operad in a [[category of chain complexes]], its [[homology]] is the [[Poisson operad]] $P_{k}$.
+
+See for instance [Costello](#Costello)
+
 ## Related concepts
 
 * [[A-∞ operad]]
@@ -171,6 +177,11 @@ A detailed discussion of $E_k$ in the context of [[(∞,1)-operads]] is in
 An elementary computation of the [[homology]] of the little $n$-disk operad in terms of _solar system calculus_ is in
 
 * Dev Sinha, _The homology of the little disks operad_ ([arXiv:math/0610236](http://arxiv.org/abs/math/0610236))
+
+For the relation to Poisson Operads see
+
+* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html#[[P_0%20operad]])) 
+
 
 [[!redirects little k-cubes operad]]
 [[!redirects little n-cubes operad]]
