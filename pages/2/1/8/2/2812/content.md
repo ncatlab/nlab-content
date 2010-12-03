@@ -162,7 +162,7 @@ These describe actions of the [[EilenbergZilber operad]] on $C^\bullet([S^\bul
 
 An action of instead the [[Barratt-Eccles operad]] is described in 
 
-* [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0109158v2))
+* [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_ ([arXiv:0109158](http://arxiv.org/abs/math/0109158))
 {#BerFre01}
 
 
