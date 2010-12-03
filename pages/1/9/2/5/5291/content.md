@@ -35,7 +35,9 @@ A **Poisson algebra** is
 
 *  A __[[Poisson manifold]]__ is a [[smooth manifold]] whose associatve algebra of [[smooth function]]s with values in the [[real line]] $\mathbb{R}$ that is equipped with the structure of a Poisson algebra (over $\mathbb{R}$).
 
-*  A [[Gerstenhaber algebra]] is a graded analog of a Poisson algebra.
+* A [[Poisson n-algebra]] is a Poisson algebra in chain complexes with a bracket of degree $1-n$.
+
+  *  A [[Gerstenhaber algebra]] is a Poisson 2-algebra.
 
 
 [[!redirects Poisson algebra]]
