@@ -230,7 +230,7 @@ $$
   F(c,c)
   \to 
   \prod_{c \in Obj(C)}
-  F(c)
+  F(c,c)
   \stackrel{\stackrel{\rho}{\to}}{\stackrel{\lambda}{\to}}  
   \prod_{c_1,c_2 \in Obj(C)}
   [C(c_1,c_2),F(c_1,c_2)]
