@@ -29,9 +29,10 @@ a homology theory in the sense of Steenrod--Eilenberg axioms. It is also not the
 
 
 
-##Definitions##
-
-Given a (compact) space $X$ and a finite open cover, $\alpha$, of $X$, we can
+##Nerve of an open cover##
++--{: .un_defn}
+######Definition######
+Given a (compact) space $X$ and a (finite) open cover, $\alpha$, of $X$, we can
 form a [[simplicial set]], $C(X,\alpha)$, called the *nerve of the cover* whose $n$-[[simplex|simplices]] are $(n + 1)$-strings
 of open sets  from $\alpha$, i.e. $\langle U_0, \ldots, U_n\rangle$, each $U_i \in \alpha$,
 satisfying $\cap U_i \neq \emptyset$.
@@ -43,8 +44,10 @@ a map
 $$C(X,\alpha)\to C(X,\beta)$$
 
 dependent on the choice of $U$ for each
-$V$, but independent 'up to homotopy'.  
+$V$, but independent 'up to homotopy' (see below).  
+=--
 
+##Application of &#268;ech methods##
 Applying one's favourite homotopy
 functor, $F : \mathbf{S}\to \mathbf{A}$, to each $C(X,\alpha)$ and to these homotopy
 classes of induced transition maps, yields an inverse  system of objects in
@@ -77,7 +80,7 @@ introduced hypercoverings and in Artin and Mazur (SLN 100), you can find their u
 in homotopy theory.  (The work of Lubkin (1967) should also be
 mentioned here as it contains much that is parallel to the development by
 Verdier, Artin and Mazur and is sometimes much easier to decipher for the
-non-specialist algebraic geometer.)
+non-specialist algebraic geometer. A summary of his construction is given under [[Lubkin's construction]].)
 
 Given that a [[Grothendieck topology]] is essentially about abstracting a notion
 of '[[cover|covering]]', it is not surprising that 
