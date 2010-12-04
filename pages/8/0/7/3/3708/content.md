@@ -305,9 +305,9 @@ That this is a bijection is the statement of the above lemma.
 =--
 
 
-## In higher category theory
+## Related concepts
 
-See [[tangent (infinity,1)-category]].
+* [[tangent (∞,1)-category]].
 
 ## References
 
