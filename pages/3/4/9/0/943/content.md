@@ -92,26 +92,32 @@ Along with the entry on [[nice category of spaces]], see also [[subsequential sp
 
 ## Historical remarks 
 
-The phrase "convenient category of topological spaces" predates Steenrod's paper by a number of years. Indeed, Ronnie Brown had written the following in the introduction to his paper Function Spaces and Product Topologies: 
+The phrase "convenient category of topological spaces" predates Steenrod's paper by a number of years. Indeed, Ronnie Brown had written the following in the Introduction to his paper "Ten topologies for $X \times Y$": 
 
 * "It may be that the category of Hausdorff k-spaces is adequate and convenient for all purposes of topology."
+
+The requirements for convenience were spelled out in the sequel "Function spaces and product topologiea".
 
 In point of fact, Brown (not Steenrod, as has sometimes been assumed) was the first to prove that Hausdorff k-spaces (with the "kelleyfied" weakening of the compact-open topology on function spaces) formed what is now called a cartesian closed category (see his 1961 thesis). Note that this predates the formal introduction of cartesian closed categories in Lawvere's thesis by a couple of years; in fact there is clear anticipation in Brown's thesis of the notions of monoidal closed and cartesian closed categories, which was to attract much attention throughout the sixties. 
 
 Of course, as has often been emphasized by Lawvere, the need for and convenience of considering function spaces is a very old idea in geometry (going back to the roots of the calculus of variations for example). The constructions of exponentials of topological spaces via the compact-open topology had been known for a long time; see for example Kelley's General Topology (1955). The relevance of what are today called Kelley spaces (or k-spaces[^1]) had also been recognized; for example, Kelley's book indicates the completeness of function spaces (wrt the compact-open topology) when the base is a complete uniform space and the exponent is a k-space. However, the problem of obtaining a class of spaces _closed_ under function spaces wasn't solved prior to Brown's thesis. Brown also observed the relevance of k-spaces to studies of how products interact with quotient spaces. The general appreciation of the connection between cartesian closure and preservation of quotients under products came with the appreciation of the conceptual simplicity of categorical adjunctions, namely the point that the functor $- \times X$ preserves colimits if it has an exponential right adjoint $(-)^X$. 
 
-Appreciation of the role of convenient categories was in full force by the early seventies (for a sample, see May's Geometry of Iterated Loop Spaces, where the category of Hausdorff k-spaces plays a foundational role). The notion of a "convenient category" is recognized elsewhere too (and not just within the categorical community); see for example Convenient Categories for Analysis by Kriegl and Michor. 
+Appreciation of the role of convenient categories was in full force by the early seventies (for a sample, see May's Geometry of Iterated Loop Spaces, where the category of Hausdorff k-spaces plays a foundational role). The notion of a "convenient category" is recognized elsewhere too (and not just within the categorical community); see for example the book by Kriegl and Michor. 
 
 [^1]: The 'k' may refer to 'kompacte' rather than Kelley's initial. 
 
 ## References
 
-* [[Ronnie Brown]], Some problems of algebraic topology: a study of functions spaces, function complexes, and FD-complexes, PhD dissertation (part A), Oxford University, 1961 [(link)](http://www.bangor.ac.uk/~mas010/pdffiles/rbthesisptA.pdf)
+* [[Ronnie Brown]], Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes, DPhil thesis (part A), Oxford University, 1961 [(link)](http://www.bangor.ac.uk/~mas010/pdffiles/rbthesisptA.pdf)
+* [[Ronnie Brown]], Ten topologies for $X\times Y$, Quart. J.Math.
+(2) 14 (1963),  303-319.
 * [[Ronnie Brown]],  Function spaces and product topologies,  Quart. J. Math. (2) 15  (1964), 238--250.
 * [[Norman Steenrod]], A convenient category of topological spaces, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
 * Booth, P.; Tillotson, J., Monoidal closed, Cartesian closed and convenient categories of topological spaces. Pacific J. Math. 88 (1980), no. 1, 35--53. 
 * Peter T. Johnstone, On a topological topos, Proc. London Math. Soc. (3) 38 (1979) 237&#8211;271.
 * Edwin Spanier, "Quasi-topologies", Duke Mathematical Journal 30 (1) (1963), 1&#8211;14.
+* Kriegl, A.; Michor, P.W., The convenient setting of global analysis, Mathematical Surveys and Monographs, Volume 53.
+American Mathematical Society, Providence, RI (1997). 
 
 
 [[!redirects convenient category of topological spaces]]
