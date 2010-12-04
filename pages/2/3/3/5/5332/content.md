@@ -24,7 +24,7 @@ Where a [[fivebrane structure]] is a trivialization of a class in [[integral coh
 the second fractional [[Pontryagin class]] 
 
 $$
-  \frac{1}{6} p_2 : \mathcal{B}String \to \mathbf{B}^8 \mathbb{Z}
+  \frac{1}{6} p_2 : \mathcal{B}String \to \mathcal{B}^8 \mathbb{Z}
 $$ 
 
 in the [[(∞,1)-topos]] $\mathbf{H} = $ [[∞Grpd]] $\simeq$ [[Top]] has a refinement to $\mathbf{H} = $ [[?LieGrpd]] of the form 
