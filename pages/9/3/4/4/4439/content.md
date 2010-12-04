@@ -23,7 +23,9 @@ Literature on [[string theory]].
 
 * Barton Zwiebach, _A first course in string theory_, 
 
-* Joseph Polchinski, String theory, 2 vols. 
+* Joseph Polchinski, _String theory_, 2 vols. 
+
+* Joe Polchinski, _Joe's Little Book of String_, class notes, UCSB Phys 230A, String Theory, Winter 2010, [pdf](http://www.itp.ucsb.edu/~joep/JLBS.pdf)
 
 * A. M. Polyakov, _Gauge fields and strings_, 
 
