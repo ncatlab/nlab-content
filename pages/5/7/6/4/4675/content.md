@@ -504,6 +504,12 @@ In physics this is the curvature data familiar from the [[Green-Schwarz mechanis
 
 (...)
 
+## Related concepts
+
+* **differential string structure**
+
+* [[differential fivebrane structure]]
+
 ## References
 
 A discussion of differential string structures in terms of [[bundle 2-gerbe]]s is given in
@@ -513,5 +519,5 @@ A discussion of differential string structures in terms of [[bundle 2-gerbe]]s i
 
 The [[∞-Lie algebra cohomology]]-data for the description of twisted differential string structures in terms of [[∞-Chern-Weil homomorphism]] is in 
 
-* H. Sati, U. Schreiber, J. Stasheff, _Twisted differential string and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#SSSIII">web</a>)
+* [[Hisham Sati]], [[Urs Schreiber, [[Jim Stasheff]], _Twisted differential string and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#SSSIII">web</a>)
 {#SSSIII}
