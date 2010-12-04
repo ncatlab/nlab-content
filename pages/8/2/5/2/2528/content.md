@@ -39,7 +39,7 @@ Many properties of relations can also be predicated of prerelations, but not all
 
 ## Formalisation
 
-Many [[foundations]] based on [[type theory]], such as those of Per Martin-L&#246;f and Thierry Coquand, use [[type|types]] (sometimes called 'sets', but they don\'t have [[quotient set|quotients]]) which behave something like presets (and are sometimes even called 'presets').  A [[set]] (sometimes called '[[setoid]]') is defined as above, as a type with an equality relation.  However, these usually (always?) come equipped with '[[identity type|identity]]' relations, which are equality relations in all but name; this amounts to saying that every preset has a [[free object|free]] set, a [[completely presented set]].  (Note that the cofree set on a preset always exists; it is a [[subsingleton]].)  They usually (always?) also adopt an [[axiom of choice]] for prefunctions that, together with the identity relations, proves [[COSHEP]] (a weak form of the full axiom of choice) for general sets.
+Many [[foundations]] based on [[type theory]], such as those of Per Martin-L&#246;f and Thierry Coquand, use [[type|types]] (sometimes called 'sets', but they don\'t have [[quotient set|quotients]]) which behave something like presets (and are sometimes even called 'presets').  A [[set]] (sometimes called '[[setoid]]') is defined as above, as a type with an equality relation.  However, these usually (always?) come equipped with '[[identity type|identity]]' relations, which are equality relations in all but name; this amounts to saying that every preset has a [[free object|free]] set, a __completely presented set__.  (Note that the cofree set on a preset always exists; it is a [[subsingleton]].)  They usually (always?) also adopt an [[axiom of choice]] for prefunctions that, together with the identity relations, proves [[COSHEP]] (a weak form of the full axiom of choice) for general sets.
 
 I ([[Toby Bartels]]) have developed type-theoretic foundations in which presets are *not* equipped with identity relations (only metamathematical identity or interconvertibilty *judgements*).  I probably should finish writing that up now; but see [[tobybartels:preset]] for some discussion.  COSHEP is not provable in the base theory, although it is provable in the impredicative version (where identity relations can be defined).  A similar result holds for [[SEAR+?]].
 
@@ -59,6 +59,13 @@ The construction of $R$ above may also be done with entire relations if the [[ax
 See also the discussion at [[net]] about how to force the domain of a net to be [[partially ordered|partial order]], by using either entire relations or prefunctions as nets.
 
 
+## Fixing inadequate foundations
+
+Sometimes one finds a [[foundation]] of [[predicative mathematics]] in which it appears to be impossible to construct [[quotient sets]], leading to much hand-wringing.  (For a simple example, simply remove the axiom of [[power sets]] from [[ZFC]].)  However, if you reinterpret the nominal 'sets' as presets and define a set as a preset equipped with an equivalence prerelation, then quotient sets exist after all.  (In impredicative mathematics, there is a more familiar construction of a quotient set available, as a subset of a power set.)
+
+Assuming that the original foundation had equality relations on its sets, there will be identity relations on the presets, leading to a special class of sets (those which arise from equipping a preset with its identity relation) which we may call the __completely presented sets__.
+
+
 [[!redirects preset]]
 [[!redirects presets]]
 [[!redirects pre-set]]
@@ -73,3 +80,6 @@ See also the discussion at [[net]] about how to force the domain of a net to be 
 [[!redirects prerelations]]
 [[!redirects pre-relation]]
 [[!redirects pre-relations]]
+
+[[!redirects completely presented set]]
+[[!redirects completely presented sets]]
