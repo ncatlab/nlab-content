@@ -1,3 +1,13 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -24,11 +34,13 @@ $$
 
 From this perspective a choice of orientation is the first in a series of special structures on $X$ that continue with
 
-* [[Spin structure]]
+* **orientation**
 
-* [[String structure]]
+* [[spin structure]]
 
-* [[Fivebrane structure]]
+* [[string structure]], [[differential string structure]]
+
+* [[fivebrane structure]], [[differential fivebrane structure]]
 
 ## Orientation in generalized cohomology
 
