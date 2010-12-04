@@ -96,7 +96,7 @@ The phrase "convenient category of topological spaces" predates Steenrod's paper
 
 * "It may be that the category of Hausdorff k-spaces is adequate and convenient for all purposes of topology."
 
-The requirements for convenience were spelled out in the sequel "Function spaces and product topologiea".
+The requirements for convenience were spelled out in the sequel "Function spaces and product topologies".
 
 In point of fact, Brown (not Steenrod, as has sometimes been assumed) was the first to prove that Hausdorff k-spaces (with the "kelleyfied" weakening of the compact-open topology on function spaces) formed what is now called a cartesian closed category (see his 1961 thesis). Note that this predates the formal introduction of cartesian closed categories in Lawvere's thesis by a couple of years; in fact there is clear anticipation in Brown's thesis of the notions of monoidal closed and cartesian closed categories, which was to attract much attention throughout the sixties. 
 
