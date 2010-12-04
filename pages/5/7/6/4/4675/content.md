@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -506,9 +505,15 @@ In physics this is the curvature data familiar from the [[Green-Schwarz mechanis
 
 ## Related concepts
 
-* **differential string structure**
+[[Whitehead tower]] of the [[orthogonal group]]
 
-* [[differential fivebrane structure]]
+* [[orientation]]
+
+* [[spin structure]]
+
+* [[string structure]],  **differential string structure**
+
+* [[fivebrane structure]], [[differential fivebrane structure]]
 
 ## References
 
@@ -519,5 +524,9 @@ A discussion of differential string structures in terms of [[bundle 2-gerbe]]s i
 
 The [[∞-Lie algebra cohomology]]-data for the description of twisted differential string structures in terms of [[∞-Chern-Weil homomorphism]] is in 
 
-* [[Hisham Sati]], [[Urs Schreiber, [[Jim Stasheff]], _Twisted differential string and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#SSSIII">web</a>)
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential string and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#SSSIII">web</a>)
 {#SSSIII}
+
+The full cocycles are described in
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cocycles for differential characteristic classes_ ([web](http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+%28%E2%88%9E%2C1%29-topos+--+references#FSS))
