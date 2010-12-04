@@ -15,7 +15,7 @@
 
 ##Classical Triangulations##
 ###Aim###
-The aim of this entry is to describe some of the classical versions of important concepts which are needed elsewhere. This may serve as an entry point for someone versed in a more classical version of algebraic topology, or being adept at the nPOV, and its ramifications, needs to bridge the gap to more classical ideas to understand some more classically written source. (It may also be useful if some classically written source is not at hand when you need it!) The exposition will be fairly 'classical with asides to explain the significance for later developments and for connections to the nPOV.
+The aim of this entry is to describe some of the classical versions of important concepts which are needed elsewhere. This may serve as an entry point for someone versed in a more classical version of algebraic topology, or being adept at the nPOV, and its ramifications, needs to bridge the gap to more classical ideas to understand some more classically written source. (It may also be useful if some classically written source is not at hand when you need it!) The exposition will be fairly 'classical' with asides to explain the significance for later developments and for connections to the nPOV.
 
 ##Triangulations &#224; l'ancienne##
 Let $X$ be a [[polyhedron]] (in the sense of polyhedral space), i.e. a space homeomorphic to the [[geometric realisation]] of a [[simplicial complex]]. 
@@ -43,6 +43,11 @@ c) the mapping from $|K^\prime|$ to $|K|$, that extends the mapping of vertices 
 
 The interpretation, in [[simplicial complex]], of the points of $|K|$ as convex combinations of the  vertices, allows an interpretation to be ascribed to $K^\prime$.  The general question of the meaning of 'refinements' that  will be examined later may need a deeper  examination of this subdivision process as it is a simple case of such a refinement.  
 
+###Properties of Classical Subdivisions###
+
+* Any subdivision of a subdivision of $K$ is a subdivision of $K$.
+
+* If $K'$ and  $K''$ are subdivisions of $K$ then there is a subdivision $K'''$  of $K$ that is a subdivision of both $K'$ and $K''$.
 
 ##Barycentric subdivision (classical geometric forms)
 The barycentric subdivision is one of the best known and most useful natural subdivisions available in general.  (Other are also used, for instance, the middle edge or [[ordinal subdivision]].)  The barycentric subdivision has the good property that it exists without recourse to the realisation process, although usually introduced via that process. It is in that form that it is  discussed in [[subdivision]].  Here we give the 'classical' form and go from that towards the other functorial form.
@@ -88,7 +93,7 @@ $$st(v) = \bigcup \{\langle s \rangle\mid v is a vertex of s\},$$
 the union of the interiors of those simplices that have $s$ as a vertex.  These vertex stars give an [[open cover]], $\mathcal{U}$, of $|K|$ and the following classical result tells us that the nerve $N(\mathcal{U})$ of this covering is $K$ itself (up to isomorphism):
 
 +--{: .un_prop}
-######Proposition(cf. Spanier, , p. 114)
+######Proposition (cf. Spanier, p. 114)
 Let $\mathcal{U} = \{st(v)\mid v \in V(K)\}$.  The vertex map $\phi$ from $K$ to $N(\mathcal{U})$ defined by 
 
 $$\phi (v) = \langle st(v)\rangle$$
