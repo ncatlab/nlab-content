@@ -101,7 +101,7 @@ More generally, following the general definition of [[twisted cohomology]] -- th
 
 $$
   \array{
-    String_{diff,tw}(X) &\to& H_{diff}(X,\mathbf{B}^7 U(1))
+    Fivebrane_{diff,tw}(X) &\to& H_{diff}(X,\mathbf{B}^7 U(1))
     \\
     \downarrow && \downarrow
     \\
