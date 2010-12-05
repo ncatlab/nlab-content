@@ -64,14 +64,14 @@ is a simplex of $K$;
  * for each $v\in V(K)$,  
 $$\sum_{\alpha \in V(K)} \alpha (v) = 1.$$
  
-(We then give this set a topology (see [[simpliial complex]]).)
+(We then give this set a topology (see [[simplicial complex]]).)
 
 +--{: .un_defn}
 ######Definition
-For $s\in K$, the **open simplex**, $\langle s \rangle\subet |K|$ is defined  by 
-$$\langle s \rangle = \{ \alpha \in |K| \mid \alpha(v) \neq 0 \Rightleftarrow v\in s\}.$$
+For $s\in K$, the **open simplex**, $\langle s \rangle\subset |K|$ is defined  by 
+$$\langle s \rangle = \{ \alpha \in |K| \mid \alpha(v) \neq 0 \Leftrightarrow v\in s\}.$$
 =--
-Beware although a closed simplex  will be a closed subset of $|K|$, an open simplex need not be open in $|K|. However every $\langle s \rangle$ is and open set of $|s|$. (see Spanier, p. 112, for a discussion.)
+Beware although a closed simplex  will be a closed subset of $|K|$, an open simplex need not be open in $|K|$. However every $\langle s \rangle$ is and open set of $|s|$. (see Spanier, p. 112, for a discussion.)
 
 ##Barycentric subdivision (classical geometric forms)
 The barycentric subdivision is one of the best known and most useful natural subdivisions available in general.  (Other are also used, for instance, the middle edge or [[ordinal subdivision]].)  The barycentric subdivision has the good property that it exists without recourse to the realisation process, although usually introduced via that process. It is in that form that it is  discussed in [[subdivision]].  Here we give the 'classical' form and go from that towards the other functorial form.
@@ -103,7 +103,7 @@ $$\sigma_0\subset  \ldots \subset\sigma_q.$$
 We now need a bit more terminology:
 
 +--{: .un_defn}
-######Definition: 
+######Definition 
  Given any vertex $v$ of $K$, its **star** is defined by 
 
 $$st( v) = \{ \alpha \in |K| \mid \alpha(v)\neq 0\}.$$
