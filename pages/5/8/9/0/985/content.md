@@ -52,6 +52,10 @@ It is not obvious, but a strict epimorphism is an epimorphism.
 
 In what follows, Let $C$ be a [[category]] and $F:C \to Set$ a [[functor]]. The axioms presented here are as in
 
+J. P. Murre, _Lectures on an introduction to Grothendieck's theory of the fundamental group_, Tata Inst. of Fund. Res. Lectures on Mathematics 40, Bombay, 1967. iv+176+iv pp.
+
+and copied also in 
+
 * [[Eduardo Dubuc]], C. S. de la Vega _On the Galois theory on Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv](http://arxiv.org/abs/math.CT/0009145)
 
 Some terminology: $X\in C$ is called _finite_ if $F(X)$ is a finite [[set]]. Let $\int_F C$ denote the [[category of elements]] of $F$, in which an object $(X,a)$ is called finite if $X$ is finite.
