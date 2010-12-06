@@ -20,10 +20,19 @@ $$
 
 =--
 
-Remark: locally of finite type is just strengthening the variant of the 
-notion of etale: in the case of non-Noetherian schemes Grothendieck requires instead that etale morphisms be locally of finite presentation; for the purpose of etale topology the locally of finite type is required. 
++-- {: .un_remark}
+###### Remark
+
+The condition of being locally of finite type is just strengthening the variant of the  notion of &#233;tale: in the case of non-Noetherian schemes Grothendieck requires instead that &#233;tale morphisms be locally of finite presentation; for the purpose of [[étale topology]] locally of finite type is required. 
+
+=--
+
++-- {: .un_remark}
+###### Remark
 
 The [[étale site]] has [[covering]]s given by the &#233;tale covers.
+
+=--
 
 ## Properties
 
