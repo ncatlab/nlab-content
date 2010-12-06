@@ -13,12 +13,6 @@
 =--
 =--
 
-* [[coimage]]
-
-* **image**
-
-***
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -108,7 +102,7 @@ Note that some authors drop the "regular" and simply call these constructions th
 
 ### Comparison of regular images and coimages
 
-Suppose that $M_1$ and $M_2$ are two classes with $M_1\subseteq M_2$.  If $f$ has both an $M_1$-image $im_1(f)$ and an $M_2$-image $im_2(f)$, then by universality, the latter must factor through the former.  See [[2-stage factorization system]].
+Suppose that $M_1$ and $M_2$ are two classes with $M_1\subseteq M_2$.  If $f$ has both an $M_1$-image $im_1(f)$ and an $M_2$-image $im_2(f)$, then by universality, the latter must factor through the former.  The correspondence between images and factorization systems also extends to pairs; see [[ternary factorization system]].
 
 As a special case of this, we have:
 
