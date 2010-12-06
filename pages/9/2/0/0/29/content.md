@@ -57,3 +57,5 @@ In [[n-category|higher categories]], isomorphisms generalise to [[equivalence]]s
 [[!redirects isomorphisms]]
 [[!redirects iso]]
 [[!redirects isic]]
+
+[[!redirects isomorphic]]
