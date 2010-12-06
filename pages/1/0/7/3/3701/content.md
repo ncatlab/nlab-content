@@ -25,7 +25,7 @@ An __open__ in the real line is a [[binary relation]] ${\sim}$ on the [[rational
 3. If $a \sim b \gt c \sim d$, then $a \sim d$.
 4. If $b \sim c$ whenever $a \lt b$ and $c \lt d$, then $a \sim d$.
 
-Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a \geq b$.  Property (2) is motivated because $(a,d) \subseteq (b,c)$ whenever $a \geq b$ and $c \geq d$.  Property (4) is somewhat technical; it keeps $\{(a,b) \;|\; a \lt b \;\Rightarrow\; 0 \lt a \lt b \lt 1\}$ from being an open, while $\{(a,b) \;|\; a \lt b \Rightarrow 0 \leq a \lt b \leq 1}$ is allowed.
+Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a \geq b$.  Property (2) is motivated because $(a,d) \subseteq (b,c)$ whenever $a \geq b$ and $c \geq d$.  Property (4) is somewhat technical; it keeps $\{(a,b) \;|\; a \lt b \;\Rightarrow\; 0 \lt a \lt b \lt 1\}$ from being an open, while $\{(a,b) \;|\; a \lt b \;\Rightarrow\; 0 \leq a \lt b \leq 1\}$ is allowed.
 
 The really interesting property is property (3).  It in fact generalises as follows:
 
