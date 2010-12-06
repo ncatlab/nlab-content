@@ -7,14 +7,14 @@
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
 =--
 =--
+=--
 
-* [[fundamental groupoid]], [[fundamental ∞-groupoid]]
 
-* [[fundamental category]], **fundamental $(\infty,1)$-category**
-
-***
 
 #Contents#
 * table of contents
@@ -145,6 +145,13 @@ For $k \geq 3$ these retracts are the identity on 1-faces, hence trivially prese
 If $X$ is undirected in that _all_ paths are labeled as directed -- $D = X^{[0,1]}$ -- then $\Pi(X,D)$ coincides with the [[fundamental ∞-groupoid]] $\Pi(X)$ of $X$.
 
 =--
+
+## Related concepts
+
+* [[fundamental groupoid]], [[fundamental ∞-groupoid]]
+
+* [[fundamental category]], **fundamental $(\infty,1)$-category**
+
 
 ## References 
 
