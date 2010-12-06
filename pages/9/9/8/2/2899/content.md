@@ -33,7 +33,7 @@ A [[morphism]] of [[schemes]] is an **&#233;tale morphism** if the following equ
 +-- {: .un_defn}
 ###### Definition
 
-A collection of &#233;tale morphisms $\{U_i \to X\}$ that [[cover]] $X$ is called an [[étale cover]].
+Jointly surjective collection of &#233;tale morphisms $\{U_i \to X\}$ is called an [[étale cover]].
 
 =--
 
@@ -136,13 +136,16 @@ A proof is in ([Deligne](#Deligne)).
 &#201;tale morphisms are used to define small and big [[etale site|étale sites]] and [[étale cohomology]]. 
 
 ## References
-
-A classical reference is
+The classical references are
 
 * [[Pierre Deligne]] et al., _Cohomologie &#233;tale_ , Lecture Notes in Mathematics, no. 569, Springer-Verlag, 1977.
 {#Deligne}
 
+* [[J. Milne]], _Etale cohomology_, Princeton Mathematical Series __33__, 1980. xiii+323 pp.
+
 Lecture notes are
+
+* [[J. Milne]], _Lectures on etale cohomology_, [pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf)
 
 * [[Aise Johan de Jong]], _&#201;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong}
