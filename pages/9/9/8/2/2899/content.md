@@ -104,7 +104,7 @@ This appears for instance as [de Jong, prop. 3.1 ii)](#deJong).
 
 
 
-### As locally constant sheaves
+### As locally constant sheaves {#AsLocallyConstantSheaves}
 
 +-- {: .un_prop}
 ###### Proposition
@@ -112,10 +112,10 @@ This appears for instance as [de Jong, prop. 3.1 ii)](#deJong).
 A [[sheaf]] $F$ on a scheme $X$ corresponds to an &#233;tale morphism $Y \to X$ precisely if there is an [[étale cover]] $\{U_i \to X\}$ such that each restriction
 
 $$
-  F|_{U_i} \simeq LConst Ki
+  F|_{U_i} \simeq LConst K_i
 $$
 
-is [[isomorphic]] to a [[constant sheaf]].
+is [[isomorphic]] to a [[constant sheaf]] on a [[set]] $K_i$.
 
 =--
 
@@ -125,7 +125,7 @@ A proof is in ([Deligne](#Deligne)).
 
 ## Examples
 
-* A finite separable [[field extension]] $K \hookrightarrow L$ corresponds dually to an &#233;tale morphism $Spec L \to Spec K$. These are the morphisms classified by [[Galois theory]].
+* A finite separable [[field extension]] $K \hookrightarrow L$ corresponds dually to an &#233;tale morphism $Spec L \to Spec K$. These are the morphisms classified by classical [[Galois theory]].
 
 
 
@@ -133,8 +133,7 @@ A proof is in ([Deligne](#Deligne)).
 
 ## The &#233;tale sites
 
-&#201;tale morphisms are used to define small and big [[etale site|étale sites]] and [[étale cohomology]]. &#201;tale topology has similar cohomological properties to complex [[analytic topology]], and in particular it is much finer for cohomological purposes than the [[Zariski topology]]. 
-
+&#201;tale morphisms are used to define small and big [[etale site|étale sites]] and [[étale cohomology]]. 
 
 ## References
 
@@ -145,7 +144,7 @@ A classical reference is
 
 Lecture notes are
 
-* de Jong, _&#201;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
+* [[Aise Johan de Jong]], _&#201;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong}
 
 [[!redirects etale morphism]]
