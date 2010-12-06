@@ -417,7 +417,7 @@ In more modern terminology as [[Kan complex]]es can be considered as [[∞-group
 
 The homotopy coherent nerve operation was introduced, explicitly, in
 
-* [[Jean-Marc Cordier]], _Sur la notion  de diagramme homotopiquement coh&#233;rent_, Cahier Top. et Geom. Diff. XXIII 1, 1982, 93-112
+* [[Jean-Marc Cordier]], _Sur la notion  de diagramme homotopiquement coh&#233;rent_, Cahier Top. et Geom. Diff. XXIII 1, 1982, 93-112, available from [numdam](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1982__23_1)
 
 Cordier made the link with earlier work by R.D. Leitch.
 
