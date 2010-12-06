@@ -97,6 +97,10 @@
 
   * [[model structure for right fibrations|for right/left fibrations]]
 
+* [[model structure on simplicial groupoids]]
+
+  * [[model structure on simplicial groups]]
+
 * [[model structure on cubical sets|on cubical sets]]
 
 * [[model structure on strict ∞-groupoids|on strict ∞-groupoids]]
