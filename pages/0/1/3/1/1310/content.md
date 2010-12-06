@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -129,8 +129,6 @@ that this is to be thought of as the Chevalley-Eilenberg algebra
 of the [[Lie ∞-algebroid]] $g$ whose space of objects is characterized
 dually by the algebra $A$.
 
-The category DGCAs is naturally equipped with the 
-[[model structure on dg-algebras]]. 
 
 **Definition**
 
