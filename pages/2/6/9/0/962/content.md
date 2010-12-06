@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc} 
@@ -107,9 +123,6 @@ One may consider the [[vertical categorification]] of this situation from the no
 
 ## References
 
-+-- {: .query}
-[[Tim Porter|Tim]]:  Some of these references will need to be shifted to more appropriate entries perhaps, but those entries do not yet exist!
-=--
 
 The above was taken from an article: 
 
