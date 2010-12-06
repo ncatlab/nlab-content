@@ -1,6 +1,15 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -110,17 +119,32 @@ These in turn are manifestly the homotopy classes of maps $X \to \hat{B}$ such t
 
 =--
 
-More precisely, we use the characterization of the [homotopy fibers of (∞,1)-functor categories](http://ncatlab.org/nlab/show/fiber+sequence#OfFuncCats) (as described there) in terms of [[hom-object in a quasi-category|hom-object]] in the [[over quasi-category|over (∞,1)-category]] $\mathbf{H}_{/B}$ as
+More generally:
+
++-- {: .un_prop}
+###### Proposition
+
+We have a natural equivalence
 
 $$
   \mathbf{H}_{[c]}(X,f)  
   \simeq
   \mathbf{H}_{/B}(c,f)
-  \,.
+  \,,
 $$
+
+where on the right we have the [[derived hom space]] in the [[over-(∞,1)-topos]] over $B$ from the twisting cocycle $c : X \to X$ to the morphism $f : \hat B \to B$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use the characterization of the [homotopy fibers of (∞,1)-functor categories](http://ncatlab.org/nlab/show/fiber+sequence#OfFuncCats) (as described there) in terms of [[hom-object in a quasi-category|hom-object]] in the [[over quasi-category|over (∞,1)-category]] $\mathbf{H}_{/B}$.
 
 On the right, the objects are morphism $X \to \hat B$ equipped with equivalences from $X \to \hat B \stackrel{f}{\to} B$ to $c : X \to B$.
 
+=--
 
 
 
@@ -429,7 +453,7 @@ For the special case of [[generalized (Eilenberg?Steenrod) cohomology]] twisted 
 This in turn is based on the definition of twisted K-theory given in 
 
 * [[Michael Atiyah]] and [[Graeme Segal]], _Twisted K-theory_ . Ukr. Mat. Visn., 1(3):287&#8211;330, 2004.
-<http://front.math.ucdavis.edu/0407.5054>
+&lt;http://front.math.ucdavis.edu/0407.5054>
 
 Details on Larmore's work on twisted cohomology are at
 
