@@ -445,7 +445,12 @@ The description of Lie integration with values in [[∞-Lie groupoid]]s regarded
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
 
 
+
 A characterization of the [[∞-stack]]s obtained by Lie integration as above is in [theorem 5.3](http://www.math.harvard.edu/~lurie/papers/moduli.pdf#page=12) of 
 
 * [[Jacob Lurie]], _[[Moduli Problems and DG-Lie Algebras]]_ , 
+
+The Lie integration- of [[Lie infinity-algebroid representation|Lie algebroid representations]] $\mathfrak{a} \to end(V)$ to morphisms of [[∞-categories]] $A \to Ch_\bullet^\circ$ is discussed in
+
+* [[Camilo Arias Abad]], [[Florian Schätz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv:1011.4693](http://arxiv.org/abs/1011.4693))
 
