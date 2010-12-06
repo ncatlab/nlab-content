@@ -317,6 +317,14 @@ We denote by $k$ a [[field]]. It is our purpose to show that the [[opposite cate
 =--
 
 
+## Galois theory in topos theory
+
+An [[etale morphism]] $f : Y \to X$ corresponds to a [[locally constant sheaf]] on $X$ with respect to the [[etale topology]], in that it is equivalently a morphism for wich there is an [[etale cover]] $\{U_i \to X\}$ such that $f$ is a [[constant sheaf]] on each $U_i$. 
+
+Accordingly in [[topos theory]] Galois theory is generally about the classification of [[locally constant sheaves]]. The Galois group corresponds to the [[fundamental group of a topos|fundamental group of the topos]] . 
+
+(...)
+
 ## Related entries
 
 * [[Grothendieck's Galois theory]]
@@ -331,7 +339,7 @@ We denote by $k$ a [[field]]. It is our purpose to show that the [[opposite cate
 
 Lecture notes on the Galois theory for schemes are in
 
-* [[Hendrik Lenstra]], _Galois theory for schemes_ , Mathematisch Instituut Universiteit van Amsterdam (1985)
+* [[Hendrik Lenstra]], _Galois theory for schemes_ , Mathematisch Instituut Universiteit van Amsterdam (1985) ([pdf](http://websites.math.leidenuniv.nl/algebra/GSchemes.pdf))
 
 Some of the material above is taken from this.
 
