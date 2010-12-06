@@ -218,6 +218,8 @@ The notion of nerve and realization (not with these names yet) was introduced an
 
 * [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor](http://www.jstor.org/stable/1993103)).
 
-In fact, in that very article apparantly what is now called [[Kan extension]] is first discussed.
+In fact, in that very article apparently what is now called [[Kan extension]] is first discussed.
 
 Also, in that article, as an example of the general mechanism, also the [[Dold?Kan correspondence]] was found and discussed, independently of the work by Dold and Puppe shortly before, who used a much less general-nonsense approach.
+
+We should also mention the treatment in Leinster's book and the relation to the notions of dense subcategory or adequate subcategory in the sense of Isbell. 
