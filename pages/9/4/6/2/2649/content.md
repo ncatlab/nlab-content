@@ -40,4 +40,8 @@ By this definition, the [[initial object]] of $C$ is *not* connected (except for
 
 ## Examples
 
-* Objects in a [[locally connected topos]] are coproducts of connected objects. 
+* Connected objects in $Top$ are precisely [[connected space]]s. 
+
+* For a group $G$, connected objects in $G$-$Set$ are precisely the (inhabited) transitive $G$-sets. 
+
+* Objects in a [[locally connected topos]] such as $G$-$Set$ are coproducts of connected objects. 
