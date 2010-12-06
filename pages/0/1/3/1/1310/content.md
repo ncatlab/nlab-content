@@ -1,20 +1,21 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
-
-This entry discusses the conceptual notion of [[representations]] of [[Lie ∞-algebroids]] and their realization in terms of
-**modules for [[differential graded algebras]]**
-and of modules of [[differential graded coalgebras]]. 
-See the remarks at [[rational homotopy theory]] and
-[[Lie theory]] for background on the Lie-theoretic interpretation
-differential graded (co)algebra.
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 Recall that an $L_\infty$-[[Lie infinity-algebroid|algebroid]] is both a
 [[horizontal categorification]] as well as a 
@@ -112,8 +113,9 @@ for special cases.
 
 
 
-#Definition#
+## Definition
 
+### Representations
 
 Recall that we take, by definition, [[Lie ∞-algebroids]] to be 
 [[duality|dual]] to non-negatively-graded,  graded-commutative 
@@ -128,7 +130,7 @@ of the [[Lie ∞-algebroid]] $g$ whose space of objects is characterized
 dually by the algebra $A$.
 
 The category DGCAs is naturally equipped with the 
-[[model structure on differential graded algebras]]. 
+[[model structure on dg-algebras]]. 
 
 **Definition**
 
@@ -179,14 +181,9 @@ a **twisting map** $\rho^* : V \to (\wedge^\bullet V) \wedge (g^*) \wedge (\wedg
 
 which may be thought of as the dual of the representation morphism (see the examples below).
 
-# DG-category of Lie-$\infty$-algebroid representations #
+### dg-Category of representations 
 
-In 
-
-* Jonathan Block, _Duality and equivalence of module categories in noncommutative geometry I_
-([arXiv]())
-
-the [[dg-category]] $Rep(g,A)$ of proper representations of a Lie-$\infty$-algebroid
+In [Block](#Block) the [[dg-category]] $Rep(g,A)$ of proper representations of a Lie-$\infty$-algebroid
 $(g,A)$ in the above sense -- called dg-algebra modules there -- is defined.
 
 **Definition**
@@ -215,8 +212,9 @@ $$
 with Lie representations of $(g,A)$ as objects and chain comoplexes as above as hom-objects is a [[dg-category]].
 
 
-## relation to coherent complexes of sheaves ##
+## Properties
 
+### Relation to coherent complexes of sheaves 
 
 **Theorem**
 
@@ -228,7 +226,7 @@ $Ho Rep(T_{hol} X)$ of the [[dg-category]] $Rep(T_{hol} X)$ is [[equivalence of 
 to the _bounded derived category of complexes of sheaves with coherent cohomology_ on $X$
 (see [[coherent sheaf]]).
 
-This is theorem 2.22, p. 17 of Block's article.
+This is [Block, theorem 2.22](#Block).
 
 The objects of $Rep(T_{hol} X)$ are literally complexes of smooth vector bundles that are equipped with "half a flat connection", namely with a flat covariant derivative only along holomorphic tangent vectors. It is an old result that holomorphic vector bundles are equivalent to such smooth vector bundles with "half a flat connection". This is what the theorem is based on.
 
@@ -236,18 +234,14 @@ The objects of $Rep(T_{hol} X)$ are literally complexes of smooth vector bundles
 
 
 
-## relation to D-modules ##
+### Relation to D-modules 
 
 For $(g,A) = T X$ the tangent Lie algebroid of a smooth manifold $X$, it should be true,
 up to technicalities to be spelled out here eventually, that $Ho Rep(T X)$ is equivelent
 to the derived category of [[D-modules]] on $X$, or the like.
 
 
-#Coalgebraic formulation #
-
-...
-
-#Examples#
+## Examples
 
 * ordinary representation of a Lie algebra on a vector space: $CE_\rho(g,V)$ is essentially the Chevalley-Eilenberg complex that computes the cohomology of $g$ with coefficients in $V$.
 
@@ -256,34 +250,26 @@ to the derived category of [[D-modules]] on $X$, or the like.
 * [[adjoint representation]] of $L_\infty$-[[L-∞-algebras|algebras]]
 
 
-#References#
+## References
 
-This definition appears in
+The general definition of representation of $\infty$-Lie algebroids as above appears in
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], [[schreiber:differential twisted String and Fivebrane structures|Differential twisted String and Fivebrane structures]]
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Differential twisted string- and fivebrane structures_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">web</a>)
 
-The definition of the dg-category of dg-algebra modules and its
-equivalence in special cases to derived categories of coherent complexes of sheaves is
-in
+The definition of the dg-category of representation of a tangent Lie algebroid and its equivalence in special cases to derived categories of complexes of coherent sheaves is in
 
-* Jonathan Block, _Duality and equivalence of module categories in noncommutative geometry I_
+* [[Jonathan Block]], _Duality and equivalence of module categories in noncommutative geometry I_
 ([arXiv](http://arxiv.org/abs/math/0509284))
+{#Block}
+
+For the case of Lie 1-algebroids essentially the same definition appears also in
+
+* [[Camilo Arias Abad]], [[Marius Crainic]], _Representations up to homotopy of Lie algebroids_ ([arXiv](http://arxiv.org/abs/0901.0319))
 
 
-A blog discussion of this is at
+The [[Lie integration]] of representations of Lie 1-algebroids $\mathfrak{a} \to end(V)$ to morphisms of [[∞-categories]] $A \to Ch_\bullet^\circ$ is discussed in
 
-* Urs Schreiber,  [Block on L-∞ Module Categories](http://golem.ph.utexas.edu/category/2008/06/block_on_loo_module_categories.html)
-
-The same definition, up to inessential technical details, appears also in
-
-* Camilo Arias Abad, Marius Crainic, _Representations up to homotopy of Lie algebroids_ ([arXiv](http://arxiv.org/abs/0901.0319))
-
-
-Some further discussion and examples of Lie-$\infty$-algebroid representations is at
-
-* Urs Schreiber, [On Lie-oo theory](http://golem.ph.utexas.edu/category/2008/05/action_lie_infinityalgebroids.html)
-
-* Hisham Sati, Urs Schreiber, Jim Stasheff, _Twisted differential String- and Fivebrane structures_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/5twist.pdf))
+* [[Camilo Arias Abad]], [[Florian Schätz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv:1011.4693](http://arxiv.org/abs/1011.4693))
 
 
 [[!redirects Lie infinity-algebroid representations]]
@@ -291,3 +277,6 @@ Some further discussion and examples of Lie-$\infty$-algebroid representations i
 [[!redirects Lie-∞ algebroid representation]]
 [[!redirects Lie-∞ algebroid representations]]
 [[!redirects Lie ∞-algebroid representations]]
+
+[[!redirects representation up to homotopy]]
+[[!redirects representations up to homotopy]]
