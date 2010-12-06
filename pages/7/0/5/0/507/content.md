@@ -205,6 +205,14 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[sheaf]]
 * [[local homeomorphism]]
 
+#### C1.4 Continuous maps
+
+(...)
+
+#### C1.5 Some topological properties of toposes
+
+* [[locally connected topos]]
+
 ### C2 Sheaves on a site
 
 #### C2.1 Sites and coverages
