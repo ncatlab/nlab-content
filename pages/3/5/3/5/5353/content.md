@@ -34,7 +34,7 @@ This appears for instance as ([de Jong, lemma 3.3](#deJong)).
 
 ## References
 
-* de Jong, _&#201;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
+* [[Aise Johan de Jong]], _&#201;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong}
 
 
