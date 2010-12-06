@@ -17,14 +17,8 @@
 =--
 =--
 
-* **$\infty$-Lie algebra cocycle**
-
-* [[Chern-Simons element]]
-
-* [[invariant polynomial]]
 
 
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -336,6 +330,14 @@ Since [[∞-stackification]] preserves finite [[(∞,1)-limit]]s, this is suffic
 * For $\mathfrak{g}$ and $\mathfrak{h}$ ordinary [[Lie algebra]]s, and $der(\mathfrak{h})$ the Lie algebra of [[derivation]]s of $\mathfrak{h}$, a morphism $\mathfrak{g}\to der(\mathfrak{h})$ is a cocycle in [[nonabelian Lie algebra cohomology]] and the extension it classifies is an ordinary [[Lie algebra extension]].
 
 * The [[string Lie 2-algebra]] is the $b \mathbb{R}$-extension of a semisimple [[Lie algebra]] $\mathfrak{g}$ with bilinear [[invariant polynomial]] $\langle -,-\rangle$ corresponding to the 3-cocycle $\langle -,[-,-]\rangle \in CE(\mathfrak{g})$.
+
+## Related concepts
+
+* **$\infty$-Lie algebra cocycle**
+
+* [[Chern-Simons element]]
+
+* [[invariant polynomial]]
 
 
 ## References
