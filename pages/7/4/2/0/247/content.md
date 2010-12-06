@@ -11,8 +11,7 @@ For my own reference: some pages that I'm planning to do some work on:
 * [[generalized multicategory]], [[virtual double category]], [[virtual equipment]]
 * functoriality of [[codiscrete cofibrations]],
 * create a separate page [[two-sided fibration]], also work on [[fibration in a 2-category]]
-* give an example at [[monadicity theorem]].
-* [[image]]
+* categories over computads at [[monadicity theorem]].
 * copy some stuff over from my personal web
 
 And here's how to make a barred arrow $A &#8696; B$, since I always forget:
