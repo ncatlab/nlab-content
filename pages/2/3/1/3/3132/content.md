@@ -8,3 +8,5 @@ Janelidze's old webpage at Razmadze Institute in Tbilisi: [link](http://www.rmi.
 
 
 category: people
+[[!redirects G. Janelidze]]
+[[!redirects G. Z. Dzhanelidze]]
