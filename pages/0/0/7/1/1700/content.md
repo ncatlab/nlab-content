@@ -102,11 +102,13 @@ where on the right we have the [[limit]] over the [[poset]] of subfield of the [
 
 =--
 
+Since each group $Gal(E/K)$ is finite, the above isomorphism can be used to equip $Gal(L/K)$ with a [[profinite space|profinite topology]] (i.e. take the limit in the category of [[topological groups]], where each $Gal(E/K)$ has the discrete topology), making it into a [[profinite group]].  We henceforth consider $Gal(L/K)$ as a profinite group in this way.
+
 
 +-- {: .un_theorem }
 ###### Main theorem of classical Galois theory
 
-Let $K \subset L$ be a [Galois extension])(#GaloisExtension) of fields with [Galois group](#GaloisGroup). Then the intermediate fields of $k \subset L$ correspond bijectively to the closed subgroups of $G$.
+Let $K \subset L$ be a [Galois extension](#GaloisExtension) of fields with [Galois group](#GaloisGroup) $G$. Then the intermediate fields of $K \subset L$ correspond bijectively to the closed subgroups of $G$.
 
 More precisely, the maps 
 
@@ -132,7 +134,7 @@ are bijective and inverse to each other. This correspondence reverses the inclus
 
 If $E$ corresponds to $H$, then we have
 
-1. $K \subset E$ is finite precisely if $H$ is open
+1. $K \subset E$ is finite precisely if $H$ is open (in the profinite topology on $G$)
 
    $[E:K] \simeq index[G:K]$ if $H$ is open;
 
@@ -145,6 +147,9 @@ If $E$ corresponds to $H$, then we have
    $Gal(E/K) \simeq G/H$ (as [[topological group]]s) if $K \subset E$ is Galois. 
 
 =--
+
+This suggests that more fundamental than the subgroups of a Galois group $G$ are its quotients by subgroups, which can be identified with transitive $G$-sets.  This naturally raises the question of what corresponds to non-transitive $G$-sets.
+
 
 ### In terms of separable algebras
 
@@ -177,7 +182,7 @@ This is an element of $A$ that only depends on $f$, and not on the choice of bas
 
 Let $A$ be a [[ring]], $B$ an $A$-[[algebra]], and suppose that $B$ is finitely generated and free as an $A$-module. For every $b \in B$ the map $mult_b : B \to B$ defined by $mult_b : x \mapsto b x$ is $A$-linear, and the [[trace]] $Tr(b)$ or $Tr_{B/A}(b)$ is defined to be $Tr(mult_b)$. The map $Tr  B \to A$ is easily seen to be $A$-linear and to satisfy $Tr(a) = rank_A(B) \cdot a$ for $a \in A$.
 
-The $A$-[[module]] $Hom_A(N,N)$ (underlying which is the [[hom-set]] in the [[category]] of [[module]]s) is clearly free over $A$ with the same rank as $B$. Define the $A$-linear map $\phi : B \to Hom_A(B,A)$ by 
+The $A$-[[module]] $Hom_A(B,A)$ (underlying which is the [[hom-set]] in the [[category]] of [[module]]s) is clearly free over $A$ with the same rank as $B$. Define the $A$-linear map $\phi : B \to Hom_A(B,A)$ by 
 
 $$
   \phi(x) : y \mapsto Tr(x y)
@@ -273,7 +278,7 @@ This defines the [[category]] $FEt_X$ of finite &#233;tale covers of $X$.
 +-- {: .un_theorem #TheoremGaloisTheoryForSchemes}
 ###### Theorem
 
-Let $X$ be a [[connected]] [[scheme]]. Then there exists a [[profinite group]] $\pi_1(X)$ -- the [[fundamental group]] of $X$ --  uniquely determined up to [[isomorphism]], such that the [category of finite &#233;tale coverings](#FiniteEtMorphisms) $FEex$ is [[equivalence of categories|equivalent]] to the category $\pi_1(X)Set$ of finite [[permutation representation]]s of $\pi_1(X)$ ([[finite set]]s on which $\pi_1(X)$ acts continuously).
+Let $X$ be a [[connected]] [[scheme]]. Then there exists a [[profinite group]] $\pi_1(X)$ -- the [[fundamental group]] of $X$ --  uniquely determined up to [[isomorphism]], such that the [category of finite &#233;tale coverings](#FiniteEtMorphisms) $FEex$ is [[equivalence of categories|equivalent]] to the category $Fin \pi_1(X) Set$ of finite [[permutation representation]]s of $\pi_1(X)$ ([[finite set]]s, with the [[discrete topology]], on which $\pi_1(X)$ acts continuously).
 
 =--
 
@@ -317,6 +322,10 @@ We denote by $k$ a [[field]]. It is our purpose to show that the [[opposite cate
 * [[Grothendieck's Galois theory]]
 
 * [[geometric homotopy groups in an (∞,1)-topos]]
+
+* [[fundamental group of a topos]]
+
+* [[fundamental ∞-groupoid of an (∞,1)-topos]]
 
 ## References
 
