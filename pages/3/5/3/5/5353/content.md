@@ -12,10 +12,10 @@
 For $X$ a [[scheme]], a set $\{p_i : U_i \to X\}$ of [[étale morphism]]s that [[cover]] $X$
 
 $$
-  X \simeq \coprod_i p_i(U_i)
+  X = \union_i p_i(U_i)
 $$
 
-is an **&#233;tale cover** of $X$.
+(union of set-theoretical images) is an **&#233;tale cover** of $X$.
 
 =--
 
