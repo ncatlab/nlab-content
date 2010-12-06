@@ -329,9 +329,15 @@ We denote by $k$ a [[field]]. It is our purpose to show that the [[opposite cate
 
 ## References
 
-The discussion of Galois theory for schemes is taken in part from
+Lecture notes on the Galois theory for schemes are in
 
 * [[Hendrik Lenstra]], _Galois theory for schemes_ , Mathematisch Instituut Universiteit van Amsterdam (1985)
+
+Some of the material above is taken from this.
+
+A comprehensive textbook is
+
+* [[Francis Borceux]], [[George Janelidze]], _Galois theories_ Cambridge University Press (2001)
 
 See also
 
