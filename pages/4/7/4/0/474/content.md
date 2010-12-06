@@ -6,14 +6,14 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
 =--
 =--
+=--
 
-* [[fundamental groupoid]], [[fundamental ∞-groupoid]]
 
-* **fundamental category**, [[fundamental (∞,1)-category]]
-
-***
 
 #Contents#
 * table of contents
@@ -31,6 +31,13 @@ In generalization to how a [[topological space]] $X$ has a [[fundamental groupoi
 A [[stratified space]] has a 'fundamental $n$-category with duals', which  generalizes the [[fundamental groupoid|fundamental n-groupoid]] of a plain old space.  When a path crosses a codimension-$1$ stratum, "something interesting happens" &#8211; i.e., a catastrophe.   So, we say such a path gives a noninvertible morphism.   The idea is that going along such a path and then going back is not "the same" as having stayed put. So, going back along such a path is not its inverse, just its [[dual morphism|dual]].
 
 See Caf&#233; [discussion] (http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006196)
+
+
+## Related concepts
+
+* [[fundamental groupoid]], [[fundamental ∞-groupoid]]
+
+* **fundamental category**, [[fundamental (∞,1)-category]]
 
 
 ## References
