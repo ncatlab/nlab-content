@@ -9,15 +9,19 @@
 +-- {: .un_defn}
 ###### Definition
 
-For $X$ a [[scheme]], a set $\{p_i : U_i \to X\}$ of [[étale morphism]]s that [[cover]] $X$
+An **&#233;tale cover** of an algebraic [[scheme]] $X$ is a set 
+$\{p_i : U_i \to X\}$ of [[étale morphism]]s locally of finite type
+which are jointly surjective in the sense that $X$ equals the union of
+set-theoretic images:
 
 $$
-  X = \union_i p_i(U_i)
+  X = \union_i p_i(U_i).
 $$
-
-(union of set-theoretical images) is an **&#233;tale cover** of $X$.
 
 =--
+
+Remark: locally of finite type is just strengthening the variant of the 
+notion of etale: in the case of non-Noetherian schemes Grothendieck requires instead that etale morphisms be locally of finite presentation; for the purpose of etale topology the locally of finite type is required. 
 
 The [[étale site]] has [[covering]]s given by the &#233;tale covers.
 
