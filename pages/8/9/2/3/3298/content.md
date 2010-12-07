@@ -1822,7 +1822,69 @@ $$
 
 =--
 
-#### The cotangent complex 
+#### The cotangent complex as functions on the derived loop space
+
+Along the lines discussed above we have
+
++-- {: .un_prop}
+###### Claim
+
+There is an isomorphism
+
+$$
+  \mathcal{O}(S^1) \simeq k \oplus k[-1]
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Corollary
+
+We have that 
+
+$$
+  [S^1, Spec A] : U \mapsto cdgAlg_k(A, \mathcal{O}(U) \oplus \mathcal{O}(U)[-1])
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+$$
+  \begin{aligned}
+    [S^1, Spec A](U) & \simeq \mathbf{H}(S^1 \times U , Spec A)
+    \\
+    & \simeq cdgAlg_k(A, \mathcal{O}(S^1 \times U))
+    \\
+    & \simeq cdgAlg_k(A, \mathcal{O}(U) \oplus \mathcal{O}(U)[-1])
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This identifies $[S^1 , Spec A]$ with what in [[supergeometry]] is known as the internal hom out of the [[odd line]].
+
+Over $U = pt$ we have that an algebra homomorphism $x^* : A \to k \oplus k[1]$ of degree 1 sends an element $f \in a$ to two numbers $f(x) + v(f)_x \epsilon$ such that $f \cdot g$ is mapped to
+
+$$
+  (f(x) + v(f)_x \epsilon) (g(x) + v(g)_x \epsilon)
+  =
+  f(x)g(x) + (f(x) v(g)_x + g(x)v(f)_x)\epsilon)
+  \,.
+$$
+
+This shows that $(-)(x) : A \to k$ is a point of $A$, of course, and $v(-)_x : A \to k$ a [[derivation]].
+
+=--
+
+(...)
 
 
 ## Properties
