@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 # Contents
 * the following line creates the automatic table of contents
 {:toc}
@@ -6,7 +17,7 @@
 
 In [[physics]] there are (at least) two different concepts that go by the name **gauge group**:
 
-* a _local gauge group_ $G$ is a structure group of of $G$-[[principal bundle]]s in the configuration space of a classical [[gauge theory]];
+* a _local gauge group_ $G$ is a structure group of of $G$-[[principal bundle]]s in the configuration space of a classical [[gauge theory]]: it acts by [[gauge transformation]]s on the space of field configurations.
 
 * a _global gauge group_ is a group of [[automorphism]]s that acts on the ([[local net]] of) [[observable]]s of a [[quantum field theory]].
 
@@ -22,7 +33,7 @@ In  [[AQFT]] gauge groups are introduced via a [[net of C-star-systems]].
 
 In [[Yang-Mills theory]] and other [[gauge theories]] the _gauge groups_ is the structure group $G$ of the $G$-[[principal bundle]] on which the [[Yang-Mills field]] is a [[connection on a bundle|connection]].
 
-Local gauge groups are are visible in the [[Lagrangian mechanics|Lagrangian]] approach to [[quantum field theory]], where they act on the configuration space on which the [[action functional]] is a function. A large machinery has been developed to handle the ([[path integral]]) [[quantization]] of [[action functional]]s on such configuration spaces. See for instance [[BV-BRST formalism]].
+Local gauge groups are are visible in the [[Lagrangian mechanics|Lagrangian]] approach to [[quantum field theory]], where they act on the configuration space on which the [[action functional]] is a function by [[gauge transformation]]s. A large machinery has been developed to handle the ([[path integral]]) [[quantization]] of [[action functional]]s on such configuration spaces. See for instance [[BV-BRST formalism]].
 
 ## References
 
