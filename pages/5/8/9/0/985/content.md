@@ -113,7 +113,10 @@ This is a variant of the theorem in the setting of [[locales]] from
 * [[Andre Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
 
 ## References
+
 The original development of the theory by [[Grothendieck]]  is in [[SGA1]]. 
+
+* [[Alexander Grothendieck]], (1971), S.G.A.1 - Revetements  &#233;tales et groupe fondamental, Lecture Notes in Maths. 224, Springer-Verlag. 
 
 A more recent treatment can be found in
 
