@@ -489,6 +489,143 @@ We first give a detailed discussion of the standard Hochschild complex of a comm
 
 Then we look in detail at higher order Hochschild homology in the $(\infty,1)$-topos over an [[(∞,1)-site]] of formal duals of [[dg-algebra]]s. In this context the classical [theorem by Jones](#JonesTheorem) on Hochschild homology and loop space cohomology is a natural consequence of the general machinery.
 
+### Gradings and conventions
+
+We need to deal with [[derived geometry]] with [[k-morphisms]] of higher groupoids in positive degree, and homological degress of derived function algebras in negative degree.
+
+We recall the grading situation from [[function algebras on ∞-stacks]].
+
+Functions on an $\infty$-groupoid $K$, modeled as a [[simplicial set]] form a [[cosimplicial algebra]] $\mathcal{O}(K)$, which under the [[monoidal Dold-Kan correspondence]] maps to a cochain [[dg-algebra]] $C^\bullet(\mathcal{O}(K))$ in non-negative degree
+
+$$
+  \left(
+    \array{
+        \vdots
+       \\
+       \downarrow \downarrow \downarrow \downarrow      
+        \\
+        K_2
+       \\
+       \downarrow^{\partial_0} \downarrow^{\partial_1} \downarrow^{\partial_2}
+       \\
+       K_1
+       \\
+       \downarrow^{\partial_0} \downarrow^{\partial_1}
+       \\
+       K_0
+     }
+  \right)
+   \stackrel{\mathcal{O}}{\mapsto}
+  \left(
+  \array{
+    \vdots
+    \\
+    \uparrow \uparrow \uparrow \uparrow   
+    \\
+    \mathcal{O}(K_2)
+    \\
+    \uparrow^{\partial_0^*} \uparrow^{\partial_1^*} \uparrow^{\partial_2^*}
+    \\
+    \mathcal{O}(K_1)
+    \\
+    \uparrow^{\partial_0^*} \uparrow^{\partial_1^*}
+    \\
+    \mathcal{O}(K_0)
+  }
+  \right)
+  \stackrel{C^\bullet}{\mapsto}
+  \left(
+    \cdots
+    \\
+    \uparrow^{\sum_i (-1)^i \partial_i^*}
+    \\
+    A_2
+    \\
+    \uparrow^{\sum_i (-1)^i \partial_i^*}
+    \\
+    A_1
+    \\
+    \uparrow^{\sum_i (-1)^i \partial_i^*}
+    \\
+    A_0
+  \right)
+  \,.
+$$
+
+On the other hand in derived geometry, a representable $X$ has itself a _simplicial algebra_ of function, which under the [[monoidal Dold-Kan correspondence]] also identifies with a cochain dg-algebra, but then mecessarily in non-posuitive degree to match with the above convention. So qw write
+
+$$
+  \mathcal{O}(X)
+  =
+  \left(
+   \array{
+     \mathcal{O}(X)_0
+     \\
+     \uparrow \uparrow
+     \\
+     \mathcal{O}(X)_{-1}
+     \\
+     \uparrow \uparrow \uparrow
+     \\
+     \mathcal{O}(X)_{-2}
+     \\
+     \uparrow \uparrow \uparrow
+     \\
+     \vdots
+   }
+  \right)
+  \stackrel{C^\bullet}{\mapsto}
+  \left(
+    \array{
+       \mathcal{O}(X)_0
+       \\
+       \uparrow
+       \\
+       \mathcal{O}(X)_{-1}
+       \\
+       \uparrow
+       \\
+       \mathcal{O}(X)_{-2}
+       \\
+       \uparrow
+       \\
+       \vdots
+    }
+  \right)
+  \,.
+$$
+
+For $X_\bullet$ an [[∞-stack]] that is degreewise representable, its function algebra is in generally an unbounded cochain dg-algebra with mixed contributions as above
+
+$$
+  \mathcal{O}(X_\bullet)
+   =
+  \left(
+     \array{
+        \vdots
+        \\
+        \uparrow^d
+        \\
+        \mathcal{O}(X_1)_0 \oplus \mathcal{O}(X_2)_{-1} \oplus 
+          \mathcal{O}(X_3)_{-2}\cdots
+        \\
+        \uparrow^{d}
+        \\
+        \mathcal{O}(X_0)_0 \oplus \mathcal{O}(X_1)_{-1} \oplus 
+          \mathcal{O}(X_2)_{-2}\cdots
+        \\
+        \uparrow^{d}
+        \\
+        \mathcal{O}(X_0)_{-1} \oplus \mathcal{O}(X_1)_{-2} \oplus 
+          \mathcal{O}(X_2)_{-3}\cdots       
+        \\
+        \uparrow^{d}
+        \\
+        \vdots
+     }
+  \right)
+  \,.
+$$ 
 
 ### The Hochschild chain complex of an associative algebra {#HochschildChainComplex}
 
