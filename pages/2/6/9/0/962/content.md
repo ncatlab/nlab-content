@@ -133,14 +133,21 @@ The general construction of the first geometric homotopy group of objects in a [
 * [[Peter Johnstone]], _Topos theory_ 
 
 
+A discussion of the fundamental groupoid for a general topos is in 
 
-References on [[Grothendieck's Galois theory]] include
+* [[Eduardo Dubuc]], _The fundamental progroupoid of a general topos_ ([arXiv](http://arxiv.org/abs/0706.1771))
 
-* [[Alexander Grothendieck]], (1971), S.G.A.1 - Revetements  &#233;tales et groupe fondamental, Lecture Notes in Maths. 224, Springer-Verlag. 
+A discussion for "locally simply connected" toposes is in
+
+* [[Michael Barr]], [[Radu Diaconescu]], _On locally simply connected toposes and their fundamental groups_ ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1981__22_3_301_0))
+{#BarrDiaconescu}
+ 
 
 
 
-On Shape and strong shape:
+
+Other references are
+
 
 * D.A. Edwards and H. M. Hastings, (1976), &#268;ech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag. 
 
