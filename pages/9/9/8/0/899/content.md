@@ -1,10 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-A _topological group_ is a [[topological space]] with a continuous [[group]] structure. 
+A _topological group_ is a [[topological space]] with a continuous [[group]] structure: a [[group object]] in the [[category]] [[Top]].
 
 ## Definition
 
@@ -48,7 +60,7 @@ in other words such that $x \sim_U y \Rightarrow f(x) \sim_V f(y)$. Hence $f$ is
 
 ## Unitary representation on Hilbert spaces
 
-**Definition.** A unitary representation $R$ of a topological group $G$ in the [[Hilbert space]] $\mathcal{H}$ is a continuous homomorphism
+**Definition.** A unitary [[representation]] $R$ of a topological group $G$ in a [[Hilbert space]] $\mathcal{H}$ is a continuous [[homomorphism]]
 
 $$
    R: G \to \mathcal{U}(\mathcal{H})
@@ -72,6 +84,14 @@ $$
          g \mapsto (R_g: f(x) \mapsto f(x g))
 $$
 and this will generally not be continuous in the norm topology, but is always continuous in the strong topology. 
+
+## Related concepts
+
+* [[group]]
+
+* **topological group**
+
+* [[Lie group]]
 
 ## References
 
