@@ -323,8 +323,23 @@ An [[etale morphism]] $f : Y \to X$ corresponds to a [[locally constant sheaf]] 
 
 Accordingly in [[topos theory]] Galois theory is generally about the classification of [[locally constant sheaves]]. The Galois group corresponds to the [[fundamental group of a topos|fundamental group of the topos]] . 
 
-(...)
 
+
+##'La Longue Marche &#224; travers la Th&#233;orie de Galois'
+
+Between January and June 1981, Grothendieck wrote about 1600 manuscript pages of a work with the above title. The subject is the [absolute Galois group](#AbsoluteGaloisGroup), $Gal(\overline{\mathbb{Q}},\mathbb{Q})$ of the rational numbers and its **geometric** action on moduli spaces of Riemann surfaces. This is discussed in [[Long March]]. Other entries that relate to this include [[anabelian geometry]], [[children's drawings]] (in other words _Dessins d'enfants_, which is the study of graphs embedded on surfaces, their classification and the link between this and Riemann surfaces) and the [[Grothendieck-Teichmuller group]]. 
+
+The anabelian question is: _how much information about the isomorphism calss of an algebraic variety, $X$ is contained in the &#233;tale fundamental group of $X$?_  Grothendieck calls varieties which are completely determined by the [[etale fundamental group|étale fundmental group]], _anabelian varieties_.  His anabelian dream was to classify the anabelian varieties in all dimensions over all fields.  This can be seen to relate to questions of the &#233;tale homotopy types of varieties.
++--{: .query}
+Tim: I have a feeling that this anabelian question should have a form that generalises to higher dimensions. (Not that I can shed much light on progress in dimension one.) Perhaps there is an anabelian version of the homotopy hypothesis or something of that nature.
+=--
+
+
+
+
+
+
+(...)
 ## Related entries
 
 * [[Grothendieck's Galois theory]]
