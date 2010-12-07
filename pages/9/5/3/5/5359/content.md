@@ -81,7 +81,7 @@ A **blob $n$-category** $C$ is given by
 
 * bordism $n$-category
 
-  For $X$ a [[topological space]], the blob $n$-category $Bord_n(X)$ sends a $k$-ball $B$ for $k \lt n$ to the set of $k$-dimensional submanifolds $W \hookrightarrow B \times \mathbb{R}^\infty$ such that the projection $W \to B$ is transverse to $\partial B$. An $n$-ball is sent to homeomorphism classes rel boundary of such submanifolds.
+  The blob $n$-category $Bord_n$ of $n$-dimensional [[cobordism]]s sends a $k$-ball $B$ for $k \lt n$ to the set of $k$-dimensional submanifolds $W \hookrightarrow B \times \mathbb{R}^\infty$ such that the projection $W \to B$ is transverse to $\partial B$. An $n$-ball is sent to homeomorphism classes rel boundary of such submanifolds.
 
   This is ([MorrisonWalker, example 6.2.6](#MorrisonWalker))).
 
