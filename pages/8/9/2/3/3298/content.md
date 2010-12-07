@@ -489,13 +489,11 @@ We first give a detailed discussion of the standard Hochschild complex of a comm
 
 Then we look in detail at higher order Hochschild homology in the $(\infty,1)$-topos over an [[(∞,1)-site]] of formal duals of [[dg-algebra]]s. In this context the classical [theorem by Jones](#JonesTheorem) on Hochschild homology and loop space cohomology is a natural consequence of the general machinery.
 
-### Gradings and conventions
+### Gradings and conventions {#GradingsAndConventions}
 
-We need to deal with [[derived geometry]] with [[k-morphisms]] of higher groupoids in positive degree, and homological degress of derived function algebras in negative degree.
+In [[derived geometry]] two categorical gradings interact: a [[cohesive (∞,1)-topos|cohesive]] $\infty$-groupoid $X$ has a space of [[k-morphism]]s $X_k$ for all non-negative $k$, and each such has itself a _[[simplicial T-algebra]]_ of functions with a component in each non-positive degree. But the directions of the face maps are opposite. We recall the grading situation from [[function algebras on ∞-stacks]].
 
-We recall the grading situation from [[function algebras on ∞-stacks]].
-
-Functions on an $\infty$-groupoid $K$, modeled as a [[simplicial set]] form a [[cosimplicial algebra]] $\mathcal{O}(K)$, which under the [[monoidal Dold-Kan correspondence]] maps to a cochain [[dg-algebra]] $C^\bullet(\mathcal{O}(K))$ in non-negative degree
+Functions on a bare $\infty$-groupoid $K$, modeled as a [[simplicial set]], form a [[cosimplicial algebra]] $\mathcal{O}(K)$, which under the [[monoidal Dold-Kan correspondence]] identifies with a cochain [[dg-algebra]] (meaning: with positively graded differential) in non-negative degree
 
 $$
   \left(
@@ -515,7 +513,9 @@ $$
        K_0
      }
   \right)
+   \;\;\;\;\;
    \stackrel{\mathcal{O}}{\mapsto}
+   \;\;\;\;\;
   \left(
   \array{
     \vdots
@@ -533,30 +533,48 @@ $$
     \mathcal{O}(K_0)
   }
   \right)
-  \stackrel{C^\bullet}{\mapsto}
+   \;\;\;\;\;
+  \stackrel{\sim}{\leftrightarrow}
+   \;\;\;\;\;
   \left(
-    \cdots
-    \\
-    \uparrow^{\sum_i (-1)^i \partial_i^*}
-    \\
-    A_2
-    \\
-    \uparrow^{\sum_i (-1)^i \partial_i^*}
-    \\
-    A_1
-    \\
-    \uparrow^{\sum_i (-1)^i \partial_i^*}
-    \\
-    A_0
+    \array{
+     \cdots
+     \\
+     \uparrow^{\mathrlap{\sum_i (-1)^i \partial_i^*}}
+     \\
+     A_2
+     \\
+     \uparrow^{\mathrlap{\sum_i (-1)^i \partial_i^*}}
+     \\
+     A_1
+     \\
+     \uparrow^{\mathrlap{\sum_i (-1)^i \partial_i^*}}
+     \\
+     A_0
+     \\
+     \uparrow
+     \\
+     0
+     \\
+     \uparrow
+     \\
+     0
+     \\
+     \uparrow
+     \\
+     \vdots
+   }
   \right)
   \,.
 $$
 
-On the other hand in derived geometry, a representable $X$ has itself a _simplicial algebra_ of function, which under the [[monoidal Dold-Kan correspondence]] also identifies with a cochain dg-algebra, but then mecessarily in non-posuitive degree to match with the above convention. So qw write
+On the other hand, a representable $X$ has itself a _[[simplicial T-algebra]]_ of functions, which under the monoidal Dold-Kan correspondence also identifies with a cochain dg-algebra, but then mecessarily in non-positive degree to match with the above convention. So we write
 
 $$
   \mathcal{O}(X)
+   \;\;\;\;\;
   =
+   \;\;\;\;\;
   \left(
    \array{
      \mathcal{O}(X)_0
@@ -569,14 +587,28 @@ $$
      \\
      \mathcal{O}(X)_{-2}
      \\
-     \uparrow \uparrow \uparrow
+     \uparrow \uparrow \uparrow \uparrow
      \\
      \vdots
    }
   \right)
-  \stackrel{C^\bullet}{\mapsto}
+   \;\;\;\;\;
+  \stackrel{\sim}{\leftrightarrow}
+   \;\;\;\;\;
   \left(
     \array{
+        \vdots
+        \\
+        \uparrow
+        \\
+        0
+        \\
+        \uparrow
+        \\
+        0
+        \\
+        \uparrow
+        \\
        \mathcal{O}(X)_0
        \\
        \uparrow
@@ -595,29 +627,39 @@ $$
   \,.
 $$
 
-For $X_\bullet$ an [[∞-stack]] that is degreewise representable, its function algebra is in generally an unbounded cochain dg-algebra with mixed contributions as above
+Taking this together, for $X_\bullet$ a general [[∞-stack]], its function algebra is generally an _unbounded_ cochain dg-algebra with mixed contributions as above, the simplicial degrees contributing in the positive direction, and the homological resolution degrees in the negative direction:
 
 $$
   \mathcal{O}(X_\bullet)
+   \;\;\;\;\;
    =
+   \;\;\;\;\;
   \left(
      \array{
+        \vdots
+        \\
+        \uparrow
+        \\
+        \bigoplus_{k-p = q} \mathcal{O}(X_k)_{-p}
+        \\
+        \uparrow
+        \\
         \vdots
         \\
         \uparrow^d
         \\
         \mathcal{O}(X_1)_0 \oplus \mathcal{O}(X_2)_{-1} \oplus 
-          \mathcal{O}(X_3)_{-2}\cdots
+          \mathcal{O}(X_3)_{-2} \oplus \cdots
         \\
         \uparrow^{d}
         \\
         \mathcal{O}(X_0)_0 \oplus \mathcal{O}(X_1)_{-1} \oplus 
-          \mathcal{O}(X_2)_{-2}\cdots
+          \mathcal{O}(X_2)_{-2} \oplus \cdots
         \\
         \uparrow^{d}
         \\
         \mathcal{O}(X_0)_{-1} \oplus \mathcal{O}(X_1)_{-2} \oplus 
-          \mathcal{O}(X_2)_{-3}\cdots       
+          \mathcal{O}(X_2)_{-3}\oplus \cdots       
         \\
         \uparrow^{d}
         \\
@@ -1599,12 +1641,18 @@ We discuss some basic aspects of the $(\infty,1)$-topos over a site of duals of 
 +-- {: .un_def}
 ###### Proposition/Definition 
 
-Let $k$ be a [[field]] of [[characteristic]] 0. Write $cdgAlk_k^+$ for the category of graded-commutative cochain [[dg-algebra]]s in non-positive degree and $cdgAlk_k$ for the same without degree bound.
+Let $k$ be a [[field]] of [[characteristic]] 0. Write 
+
+* $cdgAlg_k$ for the category of graded-commutative cochain [[dg-algebra]]s in arbitrary degree;
+
+* $cdgAlk_k^-$ for the full [[subcategory]] on objects in non-positive degree
+
+* $cdgAlk_k^+$ for the full [[subcategory]] on objects in non-negative degree
 
 There are the standard projective [[model structures on dg-algebras]] on these categories. Let
 
 $$
-  C \hookrightarrow ((cdgAlg_k^+)^{op})^\circ
+  C \hookrightarrow ((cdgAlg_k^-)^{op})^\circ
 $$
 
 be a [[small (∞,1)-category|small]] full [[sub-(∞,1)-category]] of the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by this model strucure, and let $C$ be equipped with the structure of a [[subcanonical coverage|subcanonical]] [[(∞,1)-site]].
@@ -1636,7 +1684,7 @@ where the [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\mathcal{O}$ is the
 The inclusion
 
 $$
-  cdgAlg^+_k \hookrightarrow cdgAlg_k
+  cdgAlg^-_k \hookrightarrow cdgAlg_k
 $$
 
 is a _homotopical context_ in the sense of ([To&#235;nVezzosi, def. 1.1.0.11](#ToenVezzosiStacks)).
@@ -1649,7 +1697,7 @@ This is ([To&#235;nVezzosi, lemma 2.3.11](#ToenVezzosiStacks)). We need of this 
 +-- {: .un_prop}
 ###### Corollary
 
-$(dgcAlg_k, \otimes_k)$ is a [[symmetric monoidal category|symmetric]] [[monoidal model category]].
+$(cdgAlg_k, \otimes_k)$ is a [[symmetric monoidal category|symmetric]] [[monoidal model category]].
 
 =--
 
@@ -1670,13 +1718,13 @@ This follows from ([To&#235;nVezzosi, assumption 1.1.0.4](#ToenVezzosiStacks)).
 The inclusion
 
 $$
-  (cdgAlg_k^+)^{op} \hookrightarrow (cdgAlg_k)^{op}
+  (cdgAlg_k^-)^{op} \hookrightarrow (cdgAlg_k)^{op}
 $$
 
 preserves [[homotopy limit]]s, hence the induced inclusion
 
 $$
-  ((cdgAlg_k^+)^{op})^\circ \hookrightarrow ((cdgAlg_k)^{op})^\circ
+  ((cdgAlg_k^-)^{op})^\circ \hookrightarrow ((cdgAlg_k)^{op})^\circ
 $$
 
 preserves [[(∞,1)-limit]]s.
@@ -1715,15 +1763,15 @@ Since the [[(∞,1)-Yoneda embedding]] $y$ commutes with [[(∞,1)-limit]]s we h
 
 $$
   \mathcal{O} ((y(U))^K) \simeq \mathcal{O}(U^K) \;\; 
-  \in (cdgAlg_k^+)^{op} \hookrightarrow (cdgAlg_k)^{op}
+  \in (cdgAlg_k^-)^{op} \hookrightarrow (cdgAlg_k)^{op}
 $$
 
 is simply the formal dual of $U^K$, which is $K \cdot \mathcal{O}(U)$ formed in $cdgAlg_k$  by formal duality. By the [above proposition](cdgAlgInclusionPreservesLimits) the inclusion 
-$cdgAlg_k^+ \hookrightarrow cdgAlg_k$ preserves this $(\infty,1)$-colimit.
+$cdgAlg_k^- \hookrightarrow cdgAlg_k$ preserves this $(\infty,1)$-colimit.
 
 =--
 
-#### The copowering of cdg-algebras over $\infty Grpd$ {#CopoweringOfCdgAlgs}
+##### The copowering of cdg-algebras over $\infty Grpd$ {#CopoweringOfCdgAlgs}
 
 We discuss a concrete model for the $(\infty,1)$-copowering of 
 $(cdgAlg_k)^\circ$ over [[∞Grpd]] in terms of the ordinary [[copowering]] of the [[category of chain complexes]] $Ch^\bullet(k)$ over [[sSet]].
@@ -1815,7 +1863,6 @@ Jones' theorem asserts that the Hochschild homology of the dg-algebra of differe
 +-- {: .un_prop}
 ###### Fact
 
-
 For $X$ a [[manifold]], $\Omega^\bullet(X)$ its [[de Rham dg-algebra]] and $L X$ its [[free loop space]], we have
 
 $$
@@ -1862,21 +1909,60 @@ $$
 
 =--
 
-#### The cotangent complex as functions on the derived loop space
+#### The circle and the odd line
 
 
 +-- {: .un_prop}
 ###### Proposition
 
-There is an isomorphism
+The dg-algebra of functions on the circle is a [[formal dg-algebra]]
+equivalent to the [[ring of dual numbers]] with the nilpotent generator
+in degree 1: we have a weak equivalence
 
 $$
-  \mathcal{O}(S^1) \simeq k \oplus k[-1]
+  \mathcal{O}(S^1) \stackrel{\simeq}{\to} k \oplus k[-1]
 $$
 
-in $cdgAlg_k$.
+in $cdgAlg_k^+$.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+Since every $\infty$-groupoid is the $\infty$-colimit over the diagram constant on the point over itself, and since $\mathcal{O}$ is left adjoint, we have
+
+$$
+  \mathcal{O}(S^1)
+  \simeq
+  \mathcal{O}({\lim_\to}_{S^1} *)
+  \simeq
+  {\lim_{\leftarrow}}_{S^1} \mathcal{O}(*)
+  \simeq
+  {\lim_{\leftarrow}}_{S^1} k
+  \,,
+$$
+
+where the $\infty$-limit on the right is taken in $(cdgAlg_k)^\circ$.
+
+There is a [[Quillen adjunction]]
+
+$$
+  cdgAlg_k^+ \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}}
+  cdgAlg_k
+$$
+
+given by the inclusion of the full subcategory, and therefore the corresponding
+derived $\infty$-functor preserves $\infty$-limits. So we can compute the limit there, and hence due to the [[monoidal Dold-Kan correspondence]] in cosimplicial algebras. 
+
+Using the results at [[function algebras on infinity-stacks]] we find that $\mathcal{O}(S^1)$ a model for the [[singular cohomology]] of the circle. 
+
+
+=--
+
+
+#### The cotangent complex as functions on the derived loop space
+
 
 +-- {: .un_prop}
 ###### Corollary
@@ -1906,26 +1992,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
-###### Remark
-
-This identifies $[S^1 , Spec A]$ with what in [[supergeometry]] is known as the internal hom out of the [[odd line]].
-
-Over $U = pt$ we have that an algebra homomorphism $x^* : A \to k \oplus k[1]$ of degree 1 sends an element $f \in a$ to two numbers $f(x) + v(f)_x \epsilon$ such that $f \cdot g$ is mapped to
-
-$$
-  (f(x) + v(f)_x \epsilon) (g(x) + v(g)_x \epsilon)
-  =
-  f(x)g(x) + (f(x) v(g)_x + g(x)v(f)_x)\epsilon)
-  \,.
-$$
-
-This shows that $(-)(x) : A \to k$ is a point of $A$, of course, and $v(-)_x : A \to k$ a [[derivation]].
-
-=--
-
 (...)
-
 
 ## Properties
 
