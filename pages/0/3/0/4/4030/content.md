@@ -100,6 +100,29 @@ $$
 
 exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[Set]] as being the [[localization]] of $E$ at those morphisms that induce isomorphisms of connected components.
 
+## Properties
+
++-- {: .un_defn}
+###### Definition
+
+For $C$ and $C$ [[cartesian closed categories]], a [[functor]] $F : C \to D$ that preserves [[product]]s is called a **[[cartesian closed functor]]** if the canonical [[natural transformation]]
+
+$$
+  F(B^A) \to (F(B))^{F(A)}
+$$ 
+
+(which is the [[adjunct]] of $F(A) \times F(B^A) \simeq F(A \times B^A) \to F(B)$) is an [[isomorphism]].
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+The [[constant sheaf]]-functor $\Delta : \mathcal{S} \to \mathcal{E}$ is a [[cartesian closed functor]] precisely if $\mathcal{E}$ is a locally connected topos.
+
+=--
+
 
 ## Examples {#Examples}
 
@@ -125,6 +148,8 @@ exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[
   If $C$ furthermore has a terminal object $1$, then the global sections functor $\Gamma\colon Sh(C)\to Set$ (the right adjoint of $LConst$) is simply given by evaluation at $1$, and so the unit $S \to \Gamma LConst S \cong LConst S(1)$ is an isomorphism.  Thus in this case $Sh(C)$ is additionally [[connected topos|connected]].  This situation also applies to $C=CartSp$.
 
 =--
+
+
 
 ## Related entries
 
