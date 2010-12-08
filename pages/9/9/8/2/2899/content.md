@@ -131,9 +131,11 @@ A proof is in ([Deligne](#Deligne)).
 
 
 
-## The &#233;tale sites
+## Related concepts
 
-&#201;tale morphisms are used to define small and big [[etale site|étale sites]] and [[étale cohomology]]. 
+* **&#233;tale morphism**, [[étale site]], [[étale cohomology]]
+
+* [[étale (∞,1)-site]]
 
 ## References
 
