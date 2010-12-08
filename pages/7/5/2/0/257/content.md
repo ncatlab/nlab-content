@@ -108,6 +108,8 @@ This is least obvious in the case of $W$. In the presence of functorial factoriz
 
 ## Examples
 
+Every category with limits and colimits carries the [[trivial model structure]] whose weak equivalences are the [[isomorphism]]s and all morphisms are cofibrations and fibrations.
+
 ### Classical model structures
 
 The archetypical model structures are the
