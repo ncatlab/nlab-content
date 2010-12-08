@@ -225,7 +225,7 @@ The Quillen equivalence to the model structure on homotopy $T$-algebras is in
 
 Discussion of simplicial commutative associative algbras over a ring in the context of [[derived geometry]] is in
 
-* [[nLab:Bertrand Toën]], [[nLab:Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications _ ([arXiv](http://arxiv.org/abs/math/0404373))
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications _ ([arXiv](http://arxiv.org/abs/math/0404373))
 {#ToenVezzosi}.
 
 
@@ -233,3 +233,6 @@ Discussion of simplicial commutative associative algbras over a ring in the cont
 [[!redirects model structure on simplicial T-algebras]]
 
 [[!redirects simplicial T-algebra]]
+
+[[!redirects simplicial algebra]]
+[[!redirects simplicial algebras]]
