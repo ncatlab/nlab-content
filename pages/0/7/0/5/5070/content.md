@@ -34,3 +34,5 @@ This is naturally a [[topological space]], a [[manifold]], a [[smooth manifold]]
 * **plane**
 
 [[!redirects planes]]
+
+[[!redirects Euclidean plane]]
