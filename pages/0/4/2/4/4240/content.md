@@ -18,8 +18,23 @@ $$ a \triangleright a = a $$
 
 or equivalently
 
-$$a \triangleleft a = a$$
+$$a \triangleleft a = a \, .$$
 
+In other words, a quandle is a set $Q$ equipped with two binary operations, $\triangleright$ and $\triangleleft$, obeying the laws:
+
+\[ a \triangleright (b \triangleright c) = (a \triangleright b)\triangleright (a \triangleright  c)   \]
+
+\[ (c \triangleleft b) \triangleleft a = (c \triangleleft a)\triangleleft (b \triangleleft a)  \]
+
+\[ (a \triangleright b)\triangleleft a = b \]
+
+\[ a \triangleright (b \triangleleft a) = a \]
+
+\[    a \triangleright a = a \]
+
+\[  a \triangleleft a = a  \]
+
+Given laws 3 and 4, the operation $\triangleright$ determines the operation $\triangleleft$, and vice versa, and then law 1 is equivalent to law 2, while law 5 is equivalent to law 6.  So, this definition has a certain redundancy built in.  See [[rack]] for more discussion of related points.
 
 ##Examples##
 
@@ -49,6 +64,23 @@ or equivalently
 $$ (b \triangleleft a) \triangleleft a = b$$
 
 Any [[symmetric space]] gives an involutory quandle, where $a \triangleright b$ is the result of 'reflecting $b$ through $a$'.
+In fact this leads to an elegant definition of symmetric spaces.  Note that involutory quandles are algebras of a certain [[Lawvere theory]], since [[rack|racks]] are already algebras of a Lawvere theory, and involutory quandles are racks obeying some extra equational laws.  We may thus define involutory quandle objects in any [[category]] with finite [[products]], such as the category of [[smooth manifolds]].  Loos has shown that a connected symmetric space is the the same as an involutory quandle object $Q$ in the category of smooth manifolds with the additional properties that:
+
+* each point $a$ is an _isolated_ fixed point of the operation $a \triangleright -$.  
+
+* $Q$ is connected.  
+
+This fact is Theorem I.4.3. in:
+
+* Wolgang Bertram, _The Geometry of Jordan and Lie Structures_, Lecture Notes in Mathematics **1754**, Springer, Berlin, 2000.
+
+He attributes this result to:
+
+* Ottmar Loos, _Symmetric Spaces I_, Chapter II, Benjamin, New York, 1969.
+
+[[!redirects quandles]]
+
+
 
 
 ## References ##
