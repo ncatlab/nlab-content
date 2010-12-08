@@ -17,7 +17,7 @@
 
 This entry provides hyperlinks for central keywords of the text
 
-* [[Jacob Lurie]], _Structured Spaces_ ([arXiv](http://arxiv.org/abs/0905.0459))
+* [[Jacob Lurie]], _Structured Spaces_ ([arXiv:0905.0459](http://arxiv.org/abs/0905.0459))
 
 ## Survey ##
 
