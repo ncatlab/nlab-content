@@ -43,22 +43,21 @@ $$
 
 ### The CE-algebra of a vector bundle with anchor ###
 
-Given this data of a vector bundle $E \to X$ with anchor map $\rho$ as above, one obtains the structure of a [[dg-algebra]] on the [[exterior algebra]] $\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*$ of smooth sections of the dual bundle by generalizing the familiar formula for the [[deRham complex|deRham differential]]: 
-
-for $\omega \in \wedge^{n-1} \Gamma(E)^*$ for all $v_i \in \Gamma(E)$ the differential is given by
+Given this data of a vector bundle $E \to X$ with anchor map $\rho$ as above, one obtains the structure of a [[dg-algebra]] on the [[exterior algebra]] $\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*$ of smooth sections of the dual bundle by the formula
 
 $$
-  (d \omega)(v_1, \cdots,v_n)
-  =
-  const
-  \sum_{\sigma} \pm \rho(v_{\sigma_1})(\omega(v_{\sigma_2}, \cdots, v_{\sigma_n}))
-  \pm
-  const
-  \sum_{\sigma} \omega([v_{\sigma_1}, v_{\sigma_2}], v_{\sigma_3}, \cdots, v_{\sigma_n})
+  (d\omega)(e_0, \cdots, e_n)
+  = 
+  \sum_{\sigma \in Shuff(1,n)} sgn(\sigma) \rho(e_{\sigma(0)})(\omega(e_{\sigma(1)}, \cdots, e_{\sigma(n)}))
+  +
+  \sum_{\sigma \in Shuff(2,n-1)} sign(\sigma) 
+   \omega([e_{\sigma(0)},e_{\sigma(1)}],e_{\sigma(2)}, \cdots, e_{\sigma(n)} )
   \,,
 $$
 
-where the sums are over all permutations $\sigma$ of $\{1, \cdots, n\}$.
+for all $\omega \in \wedge^n_{C^\infty(X)} \Gamma(E)^*$ and $(e_i \in \Gamma(E))$, where $Shuff(p,q)$ denotes the set of $(p,q)$-[[shuffle]]s $\sigma$ and $sgn(\sigma)$ the [[signature]] $\in \{\pm 1\}$ of the corresponding [[permutation]].
+
+More details on this are at [[Chevalley-Eilenberg algebra]].
 
 Conversely, one finds that every [[semi-free dga]] finitely generated in degree 1 over $C^\infty(X)$ arises this way, so that one may turn this around:
 
@@ -116,7 +115,7 @@ This is the special case of a [[Lie-Rinehart pair]] $(A,\mathfrak{g})$ where the
 
     1. in the vector bundle definition given by $E = T X$, $\rho = \mathrm{Id}$;
 
-    2. in the [[Chevalley?Eilenberg algebra]] definition: $\mathrm{CE}(T X) = (\Omega^\bullet(X), d_{deRham})$;
+    2. in the [[Chevalley-Eilenberg algebra]] definition: $\mathrm{CE}(T X) = (\Omega^\bullet(X), d_{deRham})$;
 
 * An [[action Lie algebroid]] is the Lie version of an [[action groupoid]].
 
