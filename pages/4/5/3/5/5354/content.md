@@ -39,8 +39,7 @@ The [[abelian sheaf cohomology]] of the &#233;tale site is called [[étale cohom
 
 ## Properties
 
-
-
+### Cohomology
 
 +-- {: .un_prop}
 ###### Proposition
@@ -67,6 +66,11 @@ $$
 
 This appears for instance in ([deJong, prop. 3.4](#deJong)).
 
+
+### Derived geometry
+
+The [[derived geometry]] of the &#233;tale site is the [[étale (∞,1)-site]]. The precise statement is at <a href="http://nlab.mathforge.org/nlab/show/%C3%A9tale+(infinity%2C1)-site#AsDerivedGeometry">derived &#233;tale geometry</a>.
+
 ## Related concepts
 
 * [[étale morphism]], **&#233;tale site**, [[étale cohomology]]
@@ -86,7 +90,7 @@ Lecture notes are
 
 * [[James Milne]], _Lectures on etale cohomology_ ([pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
 
-* [[Aise Johan de Jong]], _&#201;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
+* [[Aise Johan de Jong]], _&Eacute;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong}
 
 
