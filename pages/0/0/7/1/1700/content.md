@@ -19,7 +19,7 @@ Classical Galois theory classifies [[field extension]]s. This is a special case 
 
 ## Classical Galois theory for fields {#ClassicalGaloisTheory}
 
-### Galois theory of fields
+### Galois theory of fields {#GaloisTheoryForFields}
 
 +-- {: .un_def #GaloisExtension}
 ###### Definition
@@ -317,13 +317,42 @@ We denote by $k$ a [[field]]. It is our purpose to show that the [[opposite cate
 =--
 
 
-## Galois theory in topos theory
+## Galois theory in topos theory {#GaloisInTopos}
 
-An [[etale morphism]] $f : Y \to X$ corresponds to a [[locally constant sheaf]] on $X$ with respect to the [[etale topology]], in that it is equivalently a morphism for which there is an [[etale cover]] $\{U_i \to X\}$ such that $f$ is a [[constant sheaf]] on each $U_i$. 
+One notices that [classicall Galois theory](#ClassicalGaloisTheory) has an equivalent reformulation in [[topos theory]]. That puts it into a wider general absztract context and leads to a topos-theoretic general Galois theory.
+
+### Reformulation of classical Galois theory
+
++-- {: .un_prop }
+###### Observation
+
+The [[étale morphism]]s $f : Y \to X$ corresponds precisely to the [[locally constant sheaves]] on $X$ with respect to the [[etale topology]], in that it is equivalently a morphism for which there is an [[etale cover]] $\{U_i \to X\}$ such that $f$ is a [[constant sheaf]] on each $U_i$. 
+
+For $K$ a [[field]] let $Et(K)$ be its [[small site|small]] [[étale site]]. And 
+
+$$
+  \mathcal{E} := Sh(Et(K))
+$$
+
+the [[sheaf topos]] over it. This topos is a
+
+* [[local topos]];
+
+* [[locally connected topos]];
+
+* [[connected topos]].
+
+Then Galois extensions of $K$ correspond precisely to the [[locally constant object]]s in $\mathcal{E}$. The full [[subcategory]] on them is the [[Galois topos]] $Gal(\mathcal{E}) \hookrightarrow \mathcal{E}$.
+
+The Galois group is the [[fundamental group of a topos|fundamental group of the topos]].
+
+=--
+
+### Topos-theoretic Galois theory
 
 Accordingly in [[topos theory]] Galois theory is generally about the classification of [[locally constant sheaves]]. The Galois group corresponds to the [[fundamental group of a topos|fundamental group of the topos]] . 
 
-
+(...)
 
 ##'La Longue Marche &#224; travers la Th&#233;orie de Galois'
 
