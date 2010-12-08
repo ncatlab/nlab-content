@@ -63,7 +63,7 @@ Then $T Alg^{\Delta^{op}}$ carries the structure of a [[model category]] $sAlg(C
 This is due to ([Quillen](#Quillen)).
 
 
-The inclusion $i : sAlg(C) \hookrightarrow sPSh(C^{op})_{proj}$ into the projective [[model structure on simplicial presheaves]] evidently preserves fibrations and acylclic fibrations and gives a [[Quillen adjunction]]
+The inclusion $i : sAlg(C) \hookrightarrow sPSh(C^{op})_{proj}$ into the projective [[model structure on simplicial presheaves]] evidently preserves fibrations and acyclic fibrations and gives a [[Quillen adjunction]]
 
 $$
   sAlg(C)_{proj}
@@ -116,6 +116,8 @@ This appears as ([GoerssSchemmerhorn, theorem 4.17](#GoerssSchemmerhorn)).
 
 ## Properties
 
+### Relation to homotopy $T$-algebras
+
 +-- {: .un_theorem}
 ###### Theorem
 
@@ -125,9 +127,49 @@ There is a [[Quillen equivalence]] between the model structure on simplicial $T$
 
 This is theorem 1.3 in ([Badzioch](#Badzioch)).
 
+### Homotopy groups
+
+Let $T$ be an _abelian Lawvere theory_,  a theory that contains the theory of [[abelian group]], $Ab \to T$. Then every simplicial $T$-algebra has an underlying abelian [[simplicial group]] and is necessarily a [[Kan complex]].
+
++-- {: .un_prop}
+###### Observation
+
+The [[homotopy group]]s $\pi_*$ of a simplicial abelian $T$-agebra form an $\mathbb{N}$-graded $T$-algebra $\pi_*(A)$
+
+=--
+
++-- {: .un_prop}
+###### Observation
+
+The inclusion of the full [[subcategory]] $i : T Alg \hookrightarrow T Alg^{\Delta^{op}}$ of ordinary $T$-algebra as the simplicially constant ones constitutes a [[Quillen adjunction]]
+
+$$
+  (\pi_0  \dashv i) : T Alg \stackrel{\overset{\pi_0}{\leftarrow}}{\underset{i}{\hookrightarrow}}
+  T Alg^{\Delta^{op}}
+$$
+
+from the [[trivial model structure]] on $T Alg$.
+
+The [[derived functor]] $\mathbb{R} i : T Alg \to Ho(T Alg^{\Delta^{op}})$ is a  [[full and faithful functor]].
+
+=--
+
+This allows us to think of ordinary $T$-algebras a sitting inside $\infty$-$T$-algebras.
+
+
+> all this is certainly true for ordinary $k$-algebras. Need to spell out general proof.
+
+
 ## Examples
 
-* A [[simplicial ring]]s is a simplicial $T$-algebras for $T$ the Lawvere theory of rings. See there for more on the model category structure
+### Simplicial ordinary $k$-algebras
+
+A [[simplicial ring]]s is a simplicial $T$-algebras for $T$ the Lawvere theory of rings. 
+
+Let $k$ be an ordinary commutative ring and $T$ the theory of commutative [[associative algebra]]s over $k$. We write $T Alg$ as $sCAlg_k$ or $CAlg_k^{op}$.
+
+Such simplicial $k$-algebras are discussed for instance in ([To&#235;nVezzosi, section 2.2.1](#ToenVezzosi)).
+
 
 ## Related concepts
 
@@ -176,11 +218,16 @@ The fact that the model structure on simplicial $T$-algebras serves to model $\i
 * [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
 {#Bergner}.
 
-
 The Quillen equivalence to the model structure on homotopy $T$-algebras is in 
 
 * [[Bernard Badzioch]], _Algebraic theories in homotopy theory_ Annals of Mathematics, 155 (2002), 895-913 ([JSTOR](http://www.jstor.org/stable/3062135))
 {#Badzioch}
+
+Discussion of simplicial commutative associative algbras over a ring in the context of [[derived geometry]] is in
+
+* [[nLab:Bertrand Toën]], [[nLab:Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications _ ([arXiv](http://arxiv.org/abs/math/0404373))
+{#ToenVezzosi}.
+
 
 
 [[!redirects model structure on simplicial T-algebras]]
