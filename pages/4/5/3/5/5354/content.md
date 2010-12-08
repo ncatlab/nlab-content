@@ -67,6 +67,12 @@ $$
 
 This appears for instance in ([deJong, prop. 3.4](#deJong)).
 
+## Related concepts
+
+* [[étale morphism]], **&#233;tale site**, [[étale cohomology]]
+
+* [[étale (∞,1)-site]]
+
 ## References
 
 The classical references are
