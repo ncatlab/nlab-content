@@ -53,7 +53,7 @@ For more comments on this see also
 
 ## Related concepts 
 
-Notice that for [[generalized scheme]]s the Zariski [[geometry (for structured (infinity,1)-toposes)]] $\mathcal{G}_{Zar}(k)$ is not interchangeable with the &#233;tale geometry $\maathcal{G}_{et}(k)$. Instead $\mathcal{G}_{et}(k)$-[[generalized scheme]]s are [[derived Deligne-Mumford stack]]s.
+Notice that for [[generalized scheme]]s the Zariski [[geometry (for structured (infinity,1)-toposes)]] $\mathcal{G}_{Zar}(k)$ is not interchangeable with the [[étale (∞,1)-site]] $\mathcal{G}_{et}(k)$. Instead $\mathcal{G}_{et}(k)$-[[generalized scheme]]s are [[derived Deligne-Mumford stack]]s.
 
 ##  References 
 
