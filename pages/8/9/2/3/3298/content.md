@@ -24,17 +24,17 @@ From the general abstract point of view on [[cohomology]], the notion of Hochsch
 
 +-- {: .standout}
 
-Hochschild cohomology is the [[cohomology]] $\mathbf{H}(\mathcal{L}X,C)$ of [[free loop space object]]s $\mathcal{L}X$ in a [[derived stack]] [[(∞,1)-topos]] $\mathbf{H}$. 
+For $X$ an object in a [[derived stack]] [[(∞,1)-topos]] $\mathbf{H}$, and $\mathcal{O}(X)$ its  [[∞-algebra]] of functions, Hochschild homology of $\mathcal{O}(X)$ is the [[cohomology]] of the [[free loop space object]] $\mathcal{L}X \simeq X^{S^1}$.
 
-This carries an <a href="http://ncatlab.org/nlab/show/free+loop+space+object#CircleAction">intrinsic circle action</a> from the [[free loop space object]]. The $S^1$-[[equivariant cohomology]] version of Hochschild cohomology is [[cyclic cohomology]].
+This carries an <a href="http://ncatlab.org/nlab/show/free+loop+space+object#CircleAction">intrinsic circle action</a> induced from the automorphisms of $S^1$. The $S^1$-[[equivariant cohomology]] of $\mathcal{L}X$ is the [[cyclic homology]] of $\mathcal{O}(X)$.
 
 =--
 
-Even more general abstractly, if one passes to _higher order Hochschild cohomology_ the concept effectively merges into the canonical concept of <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-powering</a> of any [[(∞,1)-topos]] over [[∞Grpd]].
+Even more general abstractly, if one passes to _higher order Hochschild homology_ the concept effectively merges into the canonical concept of <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-powering</a> of any [[(∞,1)-topos]] over [[∞Grpd]].
 
 +-- {: .standout}
 
-For $K$ an [[∞-groupoid]] and $X \in \mathbf{H}$ an object in an [[(∞,1)-topos]], the higher order Hochschild cohomology of $X$ parameterized by $K$ is the cohomology of the $(\infty,1)$-[[powering]] 
+For $K$ any [[∞-groupoid]] and $X \in \mathbf{H}$ an object in an [[(∞,1)-topos]], the higher order Hochschild hohomology of $\mathcal{O}(X)$ parameterized by $K$ is the [[cohomology]] of the $(\infty,1)$-[[powering]] 
 
 $$
   [K,X] \simeq X^K
@@ -44,52 +44,12 @@ $$
 
 =--
 
-After unwinding what this means in algebraic terms, one obtains the tradional way of conceiving Hochschild cohomology as well as various generalizations such as [[topological chiral homology]], [[blob homology]] and [[factorization algebra]]s.
+After unwinding what this means in algebraic terms, one obtains the tradional way of conceiving Hochschild homology as well as various generalizations such as [[topological chiral homology]], [[blob homology]] and [[factorization algebra]]s.
 
-Ordinary Hochschild homology and cohomology are characteristic objects associated to  a [[bimodule]] $N$ over a [[monoid]] $A$, in a context where $A$ is really to be thought of as a [[algebra in an (infinity,1)-category|monoid in an monoidal (∞,1)-category]].
-
-If the [[monoid]] in  question plays the role of an _algebra of functions_ on a [[space]] $X$, $A = C(X)$,
-then this has geometric interpretations. Notably
-  
-* the _Hochschild homology_ of $A$ regarded as a bimodule over itself 
-  tends to be like the algebra of 
-  [[Kähler differential]]s $\Omega^\bullet_K(A)$ on $A$, and hence is something like the algebra of [[differential form]]s on $X$;
-    
-* the _Hochschild cohomology_ of $A$ regarded as a bimodule over itself
-  tends to be like the algebra of [[derivation]]s $Der(A)$ of $A$, 
-  and hence something like the [[vector field]]s on $X$.
-
-The seminal [[Hochschild-Kostant-Rosenberg theorem]] states that under suitable [[smooth scheme|smoothness]] conditions on $A$, these statements become exactly true.    
+### The Hochschild complex {#TraditionalIdeas}
  
-Notice that differential forms are objects in [[de Rham cohomology]] but 
-are still computed by the Hochschild _homology_ of $A$. 
-The terminology reflects the dualization in passing from the [[space]] $X$ to the algebra of functions $A = C(X)$ on it:
-it is the Hochschild _homology_ of algebra objects that relates to the
-_[[cohomology]]_ of [[space]]s.
-
-Below in section 
-
-* [General abstract Hochschild cohomology](#nPOV)
-
-we discuss a conceptual interpretation of Hochschild homology,
-that will explain _why_ this is true, and what Hochschild
-homology is conceptually, from the [[nPOV]] on [[cohomology]], as 
-described there.
-
-Complementary to that, in the section 
-
-* [Traditional description of Hochschild cohomology](#TraditionalIdeas)
-
-we describe the original definition of Hochschild cohomology and 
-the evolution of its understanding approaching the general abstract point of view.
-
-Then in [Definition](#Details) we give the precise details and then discuss and prove various properties and examples.
- 
- 
-### Traditional description of Hochschild cohomology {#TraditionalIdeas}
- 
-Originally the notion of Hochschild cohomology was introduced as the 
-[[cochain cohomology]] of a certain [[cochain complex]] associated to any [[bimodule]] $N$ over some [[algebra]] $A$: its [[bar complex]], written 
+Originally the notion of Hochschild homology was introduced as the 
+[[chain homology]] of a certain [[chain complex]] associated to any [[bimodule]] $N$ over some [[algebra]] $A$: its [[bar complex]], written 
  
 $$
   C_\bullet(N,A) := N \otimes_{A \otimes A^{op}} \mathrm{B}_\bullet A
@@ -119,168 +79,24 @@ $$
   Z(A) := A \otimes_{A \otimes A^{op}} A
 $$
  
-In parallel to this formal understanding of Hochschild homology, its
-conceptual meaning has been better understood: from staring at the explicit description of $C_\bullet(N,A)$ one sees that it has something to do with [[loop space object]]s: a chain in $C_n(N,A)$ is usefully thought of as  a circle with $n$ marked points. One of these points is labeled $N$, the  other are labeled $A$. The [[differential]] on $C_\bullet(N,A)$ acts by taking tensor products over $A$ separately of all neighbour pairs of
-bimodules sitting on this circle, and taking the alternating sum of this
-as a collection of such circles with $(n-1)$ marked points.
- 
-A fully geometric understanding of these was given by Ben-Zvi/Nadler/Francis in their work on [[derived stack|derived]] [[loop space object]]s and their [[geometric ∞-function theory]]. This we unify now with our general abstract perspective on [[cohomology]] in order to give the following general abstract perspective on Hochschild cohomology, proper. 
-
- 
-Very concretely, Hochschild homology can be computed by the Hochschild chain complex, defined by (FILL IN). Hochschild cohomology can be computed by the Hochschild cochain complex, defined by (FILL IN). One has a cup product on the Hochschild cochain complex, defined by (FILL IN). This gives a dg algebra structure on the Hochschild cochain complex. One also has a bracket, called the Gerstenhaber bracket, defined by (FILL IN). This gives a dg Lie algebra structure on the Hochschild cochain complex. This dg Lie algebra is the one which controls the [[deformation theory|deformations]] of the algebra $A$.
-
-
-
-### General abstract Hochschild cohomology {#nPOV}
-
-Let $\mathbf{H}$ [[(∞,1)-topos]] [[(∞,1)-category of (∞,1)-sheaves|of (∞,1)-sheaves]] and let $\mathbf{K}$ the $(\infty,2)$-topos of $(\infty,2)$-sheaves on a [[site]] $C$, such that the [[quasicoherent ∞-stack]]
+If here $A = \mathcal{O}(X)$ can be identified with an $\infty$-algebra of functions on an object $X$, and if taking functions commputes with $(\infty,1)$-pullbacks, then 
 
 $$
-  C : C^{op} \to (\infty,1)Cat
-$$
-
-$$
-  U \mapsto Stab(C_{/U})
-$$ 
-
-as described at [[schreiber:∞-vector bundle]]
-does indeed satisfy [[descent]] in that it is indeed an object 
-in $\mathbf{K}$.
-
-Recall that for $X \in \mathbf{H} \subset \mathbf{K}$ any object, its [[free loop space object]] $\mathcal{L} X$ is the $(\infty,1)$-[[pullback]]
-
-$$
-  \array{
-     && \mathcal{L} X
-     \\
-     & \swarrow && \searrow
-     \\
-     X &&&& X
-     \\
-     & {}_{\mathllap{(Id,Id)}}\searrow && \swarrow_{\mathrlap{(Id,Id)}}
-     \\
-     && X \times X
-  }
-  \,.
-$$
-
-Notice that this is usefully thought of as the [[span trace]] of the 
-[[identity]] [[span]]
-
-$$
-  \mathcal{L} X 
-  = 
-  Tr
-  \left(
-    \array{
-      && X
-      \\
-      & {}^{\mathllap{Id}}\swarrow && \searrow^{\mathrlap{Id}}
-      \\
-      X &&&& X
-    }
-  \right)
-  \,.
-$$
-
-Assume that $X$ is such that on it $C$ satisfies the axioms
-of [[geometric function theory]] (see [[geometric ∞-function theory]] for more details).
-
-Then:
-
-The **Hochschild cohomology of $X$** is the [[cohomology]] of 
-the [[free loop space object]] $\mathcal{L}X$
-with coefficients in $C$:
-
-$$
-  HH(X) = \mathbf{H}(\mathcal{L}X, C) =: C(\mathcal{L}X)
-  \,.
-$$
-
-$$
-  HH^n(X) := HH_n(C(X)) := \pi_0\Omega^n\mathbf{H}(\mathcal{L}X, C)
-  \,.
-$$
-
-By the assumption that $C(-)$ is a 
-[[geometric function theory|geometric function object]] on $X$ we can rewrite 
-
-$$
-  HH(X) = \mathbf{H}(\mathcal{L}X,C) =: C(\mathcal{K}X)
-$$
-
-as 
-
-$$
-  \cdots \simeq C(X) \otimes_{C(X)\otimes C(X)^{op}}
-   C(X)
-  \,.
-$$
-
-This is hence indeed the Hochschild homology object $HH_\bullet(A) = A \otimes_{A \otimes A^{op}} A$ 
-of the algebra object $A = \infty Mod(X)$, regarded  as a bimodule over itself.
-
-More generally, let $f : Y \to X$ be a morphism in $\mathbf{H}$ and 
-consider the [[span trace]] 
-
-$$
-  \mathcal{L}_X Y :=
-  Tr
-  \left(
-    \array{
-      && Y
-      \\
-      & {}^{\mathllap{f}}\swarrow && \searrow^{\mathrlap{f}}
-      \\
-      X &&&& X
-    }
-  \right)
-$$
-
-which is the $(\infty,1)$-[[pullback]]
-
-$$
-  \array{
-    && \mathcal{L}_X Y
-    \\
-    & \swarrow && \searrow
-    \\
-    Y &&&& X
-    \\
-    & {}_{\mathllap{f,f}}\searrow && \swarrow_{\mathrlap{Id,Id}}
-    \\
-    && X \times X
-  }
-  \,.
-$$
-
-Then we take the Hochschild cohomology of $Y$ relative to $f : Y \to X$
-to be 
-
-$$
-  HH(Y,X) := \mathbf{K}(\mathcal{L}_X Y, C) =: \infty Mod(\mathcal{L}_X Y)
-  \,.
-$$
-
-In the case that $f$ is such that $C(-) = \mathbf{K}(-,C)$ satisfies 
-[[geometric function theory]]
-on it, this is
-
-$$
-  \cdots = C( Y \times_{X \times X} Y)
+  Z(\mathcal{O}(X)) \simeq \mathcal{O}(X \times_{X \times X} X)
   \simeq
-  C(Y) \otimes_{C(X) \otimes C(X)^{op}} C(X)
-  \,.
+  \mathcal{O}(\mathcal{L}X)
 $$
 
-This is indeed the Hochschild homology object of the $C(X)$-bimodule
-object structure on $C(Y)$ induced from $f^*$:
+is the $\infty$-algebra of functions on the [[free loop space object]] of $X$.
+ 
 
-$$
-  \cdots =: HH_\bullet(C(Y), C(X))
-  \,.
-$$
+### Properties
 
+By the [Hochschild-Kostant-Rosenberg theorem](#HochschildKostantRosenberg) and its generalizations, the Hochschild homology $HH_\bullet(\mathcal{O}(X),\mathcal{O}(X))$ of an ordinary algebra tends to behave like the algebra of [[Kähler differentials]] of $\mathcal{O}(X)$. More generally, this computes the [[cotangent complex]] of the $\infty$-algebra $\mathcal{O}(X)$. The [[cup product]] gives the wedge product of forms and the $S^1$-action the de Rham differential. 
+
+Dually this means that in [[derived geometry]] the free loop space object $\mathcal{L} X$ consists of [[infinitesimal object|infinitesimal]] loops in $X$ (in ordinary geometry it would be equal to $Spec A$, consisting only of constant loops).
+
+Analogously, Hochschild _cohomology_ $HH^\bullet(\mathcal{O}(X), \mathcal{O}(X))$ of  $\mathcal{O}(X)$ computes the [[multivector field]]s on $X$. There are pairing operations on HH homology and cohomology that make them support a general differential calculus on $X$, which makes sense even if $\mathcal{O}(X)$ is a noncommutative algebra.
 
 
 
