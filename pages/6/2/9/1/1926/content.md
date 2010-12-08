@@ -108,7 +108,7 @@ The **disscrete geometry** $\mathcal{G}^0$ on $\mathcal{G}$ is given by
 
 * the [[Grothendieck topology]] on $\mathcal{G}$ is trivial: a [[sieve]] is covering only if it is maximal.
 
-Every (essentially small) [[(infinity,1)-category]] $C$ becomes a 
+Every [[small (∞,1)-category]] $C$ becomes a 
 geometry by regarding it as a discrete geometry in the above way.
 
 =--
@@ -316,11 +316,21 @@ $$
 
 ## Examples 
 
-### Deligne-Mumford stacks 
+### &#201;tale geometry
 
-There is a geometry $\mathcal{G} = \mathcal{G}_{et}(k)$, the _etale geometry_, such that $\mathcal{G}$-[[generalized scheme]]s that are [[n-localic (∞,1)-topos|1-localic]] are precisely [[Deligne-Mumford stack]]s. See there for more details.
+If we regard the ordinary [[étale site]] as a pregeometry $\mathcal{T}_{et}$, then its geometric envelope $\mathcal{G}_{et}$ is the [[étale (∞,1)-site]]. See <a href="http://nlab.mathforge.org/nlab/show/%C3%A9tale+(infinity%2C1)-site#AsDerivedGeometry">derived &#233;tale geometry</a> for the precise statement
 
-### Derived smooth manifolds 
+
++-- {: .un_prop}
+###### Proposition 
+
+The [n-localic (∞,1)-topos|1-localic]] $\mathcal{G}_{et}$-[[generalized scheme]]s  are precisely [[Deligne-Mumford stack]]s (without the separation axiom). 
+
+=--
+
+See [[Deligne-Mumford stack]] for details.
+
+### Smooth geometry
 
 There should be a geometry $\mathcal{G}$ such that $\mathcal{G}$-[[generalized scheme]]s are precisely [[derived smooth manifold]]s.
 
@@ -333,9 +343,9 @@ The general theory is developed in
 
 The definition of a **geometry** $\mathcal{G}$ is def. 1.2.5.
 
-A $\mathcal{G}$-stucture on an [[(infinity,1)-topos]] is in def. 1.2.8.
+A $\mathcal{G}$-stucture on an [[(∞,1)-topos]] is in def. 1.2.8.
 
-The notion of $\mathcal{G}$-spectrum -- which are [[(infinity,1)-topos]]es -- is the subject of section 2.1 .
+The notion of $\mathcal{G}$-spectrum -- which are [[(∞,1)-topos]]es -- is the subject of section 2.1 .
 
 The inclusion
 
