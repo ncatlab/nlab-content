@@ -10,15 +10,6 @@
 =--
 
 
-* [[∞-Lie algebra cohomology]]
-
-* **Chevalley-Eilenberg algebra**
-
-* [[Weil algebra]]
-
-* [[invariant polynomial]]
-
-***
 
 
 # Contents
@@ -30,9 +21,9 @@
 
 The _Chevalley-Eilenberg algebra_ $CE(\mathfrak{g})$ of a [[Lie algebra]] is a [[differential graded algebra]] of elements dual to $\mathfrak{g}$ whose [[differential]] encodes the Lie bracket on $\mathfrak{g}$.
 
-The [[cochain cohomology]] of the underlying cochain complex is the [[Lie algebra cohomology]] of $\mathfrak{g}$.
+The [[cochain cohomology]] of the underlying [[cochain complex]] is the [[Lie algebra cohomology]] of $\mathfrak{g}$.
 
-This generalizes to a notion of Chevalley-Eilenberg algebra for $\mathfrak{g}$ an [[L-∞-algebra]].
+This generalizes to a notion of Chevalley-Eilenberg algebra for $\mathfrak{g}$ an [[L-∞-algebra]], a [[Lie algebroid]] and generally an [[∞-Lie algebroid]].
 
 ## Grading conventions {#GradingConvention}
 
@@ -58,7 +49,7 @@ A plain vector space, such as the dual $\mathfrak{g}^*$ of the vector space unde
 
 
 
-## Of a Lie algebra {#OfLieAlgebra}
+## Of Lie algebras {#OfLieAlgebra}
 
 ### Definition {#DefForLieAlg}
 
@@ -128,8 +119,7 @@ $$
   \,.
 $$
 
-
-## For $L_\infty$-algebras
+## Of $L_\infty$-algebras
 
 The equivalence between Lie algebras and differential graded algebras/coalgebras discussed above  suggests a grand generalization by simply generalizing the [[Grassmann algebra]] over a [[vector space]] $\mathfrak{g}^*$ to the Grassmann algebra over a [[graded vector space]].
 
@@ -149,11 +139,46 @@ So _every_ commutative [[semifree dga]] (degreewise finite-dimensional) is the C
 This means that many constructions involving [[dg-algebra]]s are secretly about [[∞-Lie theory]]. For instance the [[Sullivan construction]] in [[rational homotopy theory]] may be interpreted in terms of [[Lie integration]] of $L_\infty$-algebras.
 
 
+## Of Lie algebroids {#OfLieAlgebroids}
 
+For $\mathfrak{a}$ a [[Lie algebroid]] given as 
+
+* a [[vector bundle]] $E\to X$ 
+
+* with anchor map $\rho : E \to T X$ 
+
+* and bracket $[-,-] : \Gamma(E)\wedge_{C^\infty(X)} \Gamma(E) \to \Gamma(E)$ 
+
+the corresponding Chevalley-Eilenberg algebra is
+
+$$
+  CE(\mathfrak{a}) := (\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*, d)
+  \,,
+$$
+
+where now the [[tensor product]]s and dualization is over the ring $C^\infty(X)$ of [[smooth function]]s on the base space $X$ (with values in the [[real number]]s). The differential $d$ is given by the formula
+
+$$
+  (d\omega)(e_0, \cdots, e_n)
+  = 
+  \sum_{\sigma \in Shuff(1,n)} sgn(\sigma) \rho(e_{\sigma(0)})(\omega(e_{\sigma(1)}, \cdots, e_{\sigma(n)}))
+  +
+  \sum_{\sigma \in Shuff(2,n-1)} sign(\sigma) 
+   \omega([e_{\sigma(0)},e_{\sigma(1)}],e_{\sigma(2)}, \cdots, e_{\sigma(n)} )
+  \,,
+$$
+
+for all $\omega \in \wedge^n_{C^\infty(X)} \Gamma(E)^*$ and $(e_i \in \Gamma(E))$, where $Shuff(p,q)$ denotes the set of $(p,q)$-[[shuffle]]s $\sigma$ and $sgn(\sigma)$ the [[signature]] $\in \{\pm 1\}$ of the corresponding [[permutation]].
+
+For $X = *$ the point we have that $\mathfrak{a}$ is a Lie algebra and this definition reproduces the above definition of the CE-algebra of a Lie algebra (possibly up to an irrelevant global sign).
+
+## Of $\infty$-Lie algebroids
+
+See [[∞-Lie algebroid]].
 
 ## Examples
 
-### Abelian Chevalley-Eilenberg algebra
+### Of abelian Lie $n$-algebras
 
 The CE-algebra of the Lie algebra of the [[circle group]] $\mathfrak{u}(1)$ is the graded-commutative dg-algebra on a single generator in degree 1 with vanishing differential.
 
@@ -169,6 +194,47 @@ $$
 $$
 
 and cyclically.
+
+### Of the tangent Lie algebroid $T X$
+
+For $X$ a [[smooth manifold]] and $T X$ its [[tangent Lie algebroid]], the corresponding CE-algebra is the [[de Rham algebra]] of $X$.
+
+$$
+  CE(T X) = (\wedge^\bullet_{C^\infty(X)} \Gamma(T^* X), d_{dR})
+  \,.
+$$
+
+For $(v_i \in \Gamma(T X))$ [[vector field]]s and $\omega \in \Omega^n = \wedge^n_{C^\infty(X)} \Gamma(T X)^*$ a [[differential form]] of degree $n$, 
+the [formula for the CE-differential](#OfLieAlgebroids)
+
+$$
+  (d\omega)(v_0, \cdots, v_n)
+  = 
+  \sum_{\sigma \in Sh(1,n)} sgn(\sigma) v_{\sigma(0)}(\omega(v_{\sigma(1)}, \cdots, v_{\sigma(n)}))
+  +
+  \sum_{\sigma \in Shuff(2,n-1)} sgn(\sigma) 
+   \omega([v_{\sigma(0)},v_{\sigma(1)}],v_{\sigma(2)}, \cdots, v_{\sigma(n)} )
+  \,,
+$$
+
+is indeed that for the de Rham differential.
+
+### Of the string Lie 2-algebra
+
+For $\mathfrak{g}$ a semisimple Lie algebra with binary [[invariant polynomial]] $\langle -,-\rangle$ -- the [[Killing form]] -- , the CE-algebra of the [[string Lie 2-algebra]] is
+
+$$
+  CE(\mathfrak{string}) = (\wedge^\bullet( \mathfrak{g}^+ \oplus \mathbb{R}^*[1]), d_{string})
+$$
+
+where the differential restricted to $\mathfrak{g}^*$ is $[-,-]^*$ while on the new generator $b$ spanning $\mathbb{R}^*[1]$ is it
+
+$$
+  d b = \langle -, [-,-]\rangle \in \wedge^3 \mathfrak{g}^*
+  \,.
+$$
+
+
 
 
 ### Weil algebra
@@ -209,22 +275,6 @@ $$
 
 This is what one often sees as the definition of a cocycle in [[Lie algebra cohomology]]. However, from the general point of view of [[cohomology]], it is better to think of the cocycle equivalently as the morphism $\mathfrak{g} \to b^{n-1}\mathfrak{u}(1)$.
 
-### Of the string Lie 2-algebra
-
-For $\mathfrak{g}$ a semisimple Lie algebra with binary [[invariant polynomial]] $\langle -,-\rangle$, the CE-algebra of the [[string Lie 2-algebra]] is
-
-$$
-  CE(\mathfrak{string}) = (\wedge^\bullet( \mathfrak{g}^+ \oplus \mathbb{R}^*[1]), d_{strring})
-$$
-
-where the differential restricted to $\mathfrak{g}^*$ is $[-,-]^*$ while on the new generator $b$ spanning $\mathbb{R}^*[1]$ is it
-
-$$
-  d b = \langle -, [-,-]\rangle \in wedge^3 \mathfrak{g}^*
-  \,.
-$$
-
-
 
 ### BRST complex
 
@@ -242,6 +292,18 @@ In this context
 * etc.
 
 If $N$ is itself a [[chain complex]], then this is called a [[BV-BRST formalism|BV-BRST complex]]
+
+## Related concepts
+
+* [[∞-Lie algebra cohomology]]
+
+* **Chevalley-Eilenberg algebra**
+
+* [[Weil algebra]]
+
+* [[invariant polynomial]]
+
+
 
 ## References
 
