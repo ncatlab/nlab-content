@@ -36,6 +36,14 @@ Given a [[scheme]] $X$ of finite type, the small [[étale site]] $Et(X)$ is the 
 The **&#233;tale cohomology** $H_{et}^\bullet(X,A)$ for $A \in Sh(Et(X), Ab)$ of $X$ is the [[abelian sheaf cohomology]] with respect to this site.
 
 
+
+## Related concepts
+
+* [[étale morphism]], [[étale site]], **&#233;tale cohomology**
+
+* [[étale (∞,1)-site]]
+
+
 ## References
 
 
