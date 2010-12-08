@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -170,7 +175,13 @@ If $(\infty,1)$-categories are [[presentable (∞,1)-category|presented]] by [[m
 
   The [[(∞,1)-category of (∞,1)-sheaves]] on this site is just the [[(∞,1)-category of (∞,1)-presheaves]] itself. The localization is an equivalence.
 
+* [[étale (∞,1)-site]]
 
+## Related concepts
+
+* [[site]]
+
+* **$(\infty,1)$-site**
 
 ## References
 
