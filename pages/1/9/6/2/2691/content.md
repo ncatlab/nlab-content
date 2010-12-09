@@ -331,11 +331,13 @@ This follows by the above with ([To&#235;nVezzosi, assumption 1.1.0.4, and page 
 
 ## Related concepts
 
+* [[model structure on dg-operads]]
+
 * [[model structure on dg-algebras over an operad]]
 
-* **model structure on dg-algebras**
+  * **model structure on dg-algebras**
 
-* [[model structure on dg-categories]]
+  * [[model structure on dg-categories]]
 
 
 ## References
@@ -381,11 +383,8 @@ Disucssion of the model structure on unbounded dg-algebras over a field of chara
 
 A general discussion of algebras over an operad in unbounded chain complexes is in
 
-* [[Vladimir Hinich]], 
-
-  _Homological algebra of homotopy algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9702015))
-
-  _Erratum_ ([arXiv](http://arxiv.org/abs/math/0309453))
+* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+{#Hinich}
 
 For more see [[model structure on dg-algebras over an operad]].
 [[!redirects model structure on dg-rings]]
