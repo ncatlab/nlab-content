@@ -11,6 +11,10 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
 =--
 =--
 
@@ -32,40 +36,98 @@ This means that in as far as the [[model structure on simplicial presheaves]] mo
 
 The construction of the model structure on [[sSet]]-[[enriched category|enriched categories]] closely follows the discussion of the [[model structure on simplicial presheaves]], only that everything now takes place in [[enriched category theory]].
 
-To define the [[model category|model structure]] first consider the ordinary [[category]]
++-- {: .un_def}
+###### Notation and conventions
 
-$$
-  sPSh(C) := sSet Cat(C^{op}, sSet)
-$$
+Regard the [[closed monoidal  category]]  [[sSet]] as a [[simplicially enriched category]] in the canonical way.
 
-of [[sSet]]-[[enriched functor]]s.
+For $C$ any $sSet$-category, write $sk_1 C$ for its underlying ordinary [[category]].
 
-A morphism $f : A \to B$ in $sPSh(C)$ is a transformation  given by a collection of morphisms $f_c : A(c) \to B(c)$ in [[sSet]].
+Write $[C^{op}, sSet]$ for the [[enriched functor category]].
 
-The **global projective model structure** on $sPSh(C)$ has (as the [[global model  structure on simplicial presheaves]]) as fibrations and weak equivalences the objectwise fibrations and weak equivalences, i.e. those transformations for which all $f_c$ are a fibration or weak equivalence, respectively.
+=--
 
-But $sPSh(C)$ is naturally enriched to an [[sSet]]-[[enriched functor category]], 
+Hence the ordinary category $sk_1 [C^{op}, sSet]$ has as objects [[enriched functor]]s $C^{op} \to sSet$ and a morphism $f : A \to B$ in $sk_1 [C^{op}, sSet]$ is a [[natural transformation]]  given by a collection of morphisms $f_c : A(c) \to B(c)$ in [[sSet]], for each object $c \in C$.
 
-$$
-  sPSh(C)_{proj} := [C^{op}, SSet]
-$$
 
-and with the above model structure this extends to the structure of a [[simplicial model category]], called the **global projective simplicial model structure on SSet-presheaves**.
++-- {: .un_defn}
+###### Definition
+**(global model structure)**
 
-The model structure that we are after is the left [[Bousfield localization]] 
-$
-  sPSh(C)_{proj}^{l loc}
-$
-of $sPSh(C)_{proj}$ at the following set of morphisms (...see [TV page 14](http://arxiv.org/PS_cache/math/pdf/0207/0207028v4.pdf#page=14)...)
+Let be $C$ a [[simplicially enriched category]]. 
 
+The **global projective model structure** $sk_1[C^{op},sSet]_{proj}$ on $sk_1[C^{op}, sSet]$ 
+
+* fibrations and weak equivalences are those transformations that are objectwise fibrations and weak equivalences in the standard [[model structure on simplicial sets]].
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The global projective model structure on $sk_1 [C^{op}, sSet]$ makes the $sSet$-category $[C^{op}, sSet]$ a [[combinatorial simplicial model category]].
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+For $C$ an [[sSet-site]], the **local projective model structure** on $sk_1 [C^{op}, sSet]$ is the [[Bousfield localization of model categories|left Bousfield localization]] of $sk_1 [C^{op}, sSet]_{proj}$ at...
+
+=--
+
+This appears on ([To&#235;nVezzosi, page 14](#Toenvezzosi)).
+
+
+
+## Properties
+
+### Over an unenriched site
 
 It seems that the claim is that, indeed, in the special case that $C$ happens to be an ordinary category, the model structure on $sPSh(C)_{proj}^{l loc}$ reproduces the projective [[local model structure on simplicial presheaves]].
 
+### Presentation of $(\infty,1)$-toposes
+
+
++-- {: .un_defn}
+###### Definition
+
+For an [[sSet-site]] $C$ regarded as an [[(∞,1)-site]], the local model structure on $[C^{op}, sSet]$ is a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-sheaves]] on $C$, in that there is an [[equivalence of (∞,1)-categories]]
+
+$$
+  ([C^{op}, sSet]_{loc})^\circ \simeq Sh_{(\infty,1)}(C)
+  \,.
+$$
+
+=--
+
+This is [Lurie, prop. 6.5.2.14, remark 6.5.2.15](#Lurie).
+
+## Examples
+
+### Derived geometry
+
+Where a [[topos]] or [[(∞,1)-topos]] over an ordinary [[site]] encodes [[higher geometry]], over a genuine [[sSet-site]] one speaks of [[derived geometry]]. An [[∞-stack]] on such a higher site is also called a [[derived stack]]. 
+
+Therefore the model structure on $sSet$-presheaves serves to model contexts of derived geometry. For instance over the [[etale (∞,1)-site]].
+
+(...)
+
 ## References
 
-The theory of model structures on SSet-enriched presheaf categories was developed in
+The theory of model structures on $sSet$-enriched presheaf categories was developed in
 
-* [[Bertrand Toen]], [[Gabriele Vezzosi]], _Topos Theory_ ([arXiv](http://arxiv.org/abs/math/0207028))
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Topos Theory_ ([arXiv](http://arxiv.org/abs/math/0207028))
+{#ToenVezzosi}
+
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_ Proceedings of the Program _Stacks, Intersection theory and Non-abelian Hodge Theory_ , MSRI, Berkeley, January-May
+2002 ([arXiv:0212330](http://arxiv.org/abs/math/0212330))
+
+The relation to intrinsically defined [[(∞,1)-topos theory]] is around remark 6.5.2.15 of
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+{#Lurie}
+
 
 
 [[!redirects model structure on SimpSet-enriched presheaves]]
