@@ -59,7 +59,7 @@ This appears as ([Hinich, theorem 4.1.1](#Hnich)).
 
 ### Simplicial enrichment {#SimplicialEnrichment}
 
-We discuss how the [above model structure](#ModelStructure) on $Alg_{Ch_\bullet(k)}(P)$ is enhanced to a [[simplicial model category]] structure.
+We discuss how the [above model structure](#ModelStructure) on $Alg_{Ch_\bullet(k)}(P)$ is _almost_ enhanced to a [[simplicial model category]] structure.
 
 we have the standard definition of polynomial [[differential forms on simplices]].
 
@@ -99,7 +99,7 @@ $$
 
 or equivalently a [[cosimplicial object]] in the [[opposite category]] $cdgAlg_k^{op}$.
 
-By the general definition of [[simplicial forms on presheaves]] this extends by left [[Kan extension]] to a functor
+By the general definition of [[differential forms on presheaves]] this extends by left [[Kan extension]] to a functor
 
 $$
   \Omega^\bullet_{poly} : sSet \to cdgAlg_k^{op}
@@ -116,29 +116,61 @@ where on the right be have the [[coend]] over the [[copowering]] of $cdgAlg_k^{o
 
 =--
 
-+-- {: .un_defn #SimplicialEnrichment}
++-- {: .un_defn #SimplicialHomObjects}
 ###### Definition
 
 For $P$ a dg-operad as above, define [[sSet]]-[[hom-object]]s between objects $A,B \in Alg(P)$ by
 
 $$
-  Alg_P(A,P) := ([n] \mapsto Hom_{Alg_P}(A, B \otimes \Omega^\bullet_{poly}(\Delta^n))
+  Alg_P(A,B) := ([n] \mapsto Hom_{Alg_P}(A, B \otimes \Omega^\bullet_{poly}(\Delta^n))
   \in sSet
   \,.
 $$
  
 =--
 
-
-
 +-- {: .un_prop}
 ###### Proposition
 
-These simplicial hom-objects satisfy the axioms of a [[simplicial model category]].
+These simplicial hom-objects satisfy the dual of the [[pushout-product axiom]] (see [[enriched model category]]).
 
 =--
 
 This is ([Hinich, lemma 4.8.4](#Hinich)).
+
+
+
++-- {: .un_prop }
+###### Proposition
+
+For $S$ a degreewise finite simplicial set, we have a [[natural isomorphism]]
+
+$$
+  Hom_{Alg_P}(A, B \otimes \Omega^\bullet_{poly}(S))
+  \simeq
+  Hom_{sSet}(S, Alg_P(A,B))
+  \,.
+$$
+
+=--
+
+This is ([Hinich, lemma 4.8.3](#Hinich)).
+
++-- {: .un_prop }
+###### Proposition
+
+The [[homotopy category]] of $Alg_P$ is given by
+
+$$
+  Ho(Alg_P)(A,B) \simeq \pi_0 Alg_P(Q A,B)
+  \,,
+$$
+
+where $Q A$ is a cofibrant [[resolution]] of $A$.
+
+=--
+
+This appears as ([Hinich, section 4.8.10](#Hinich)).
 
 
 ## Related concepts
