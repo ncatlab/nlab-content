@@ -41,7 +41,7 @@ The $(\infinity,n)$-category of cobordisms is the subject of the [[cobordism hyp
 
 ## Definition
 
-### Lurie's definition
+### As an $n$-fold complete Segal space
 
 Here is an outline of the idea of the definition of 
 $Bord_{(\infty,n)}$ as given in 
@@ -98,6 +98,10 @@ $$
 
 This, then, is a model for the [[(∞,n)-category]] of extended $n$-dimensional cobordisms.
 
+### As a blob $n$-category
+
+There is a definition of a [[blob n-category]] of $n$-cobordisms. See there for more details.
+
 
 ## Properties {#Properties}
 
@@ -118,6 +122,8 @@ $$
 
 to some symmetric monoidal $\infty$-groupoid $S$ is a [[genus]].
 
+
+
 ## References
 
 A specific realization of this idea in terms of [[(∞,n)-category]] modeled as [[n-fold complete Segal space]] is in (definition 2.2.9, page 36)
@@ -132,7 +138,8 @@ A detailed construction of the [[(n,r)-category|(2,2)-category]] of cobordisms i
 
 For a discussion of the relation of $Bord_{(\infty,\infty)}$ to the [[Thom spectrum]] and the [[cobordism ring]] see also
 
-$
+* [[John Francis]], _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
+
 
 Other discussions of higher categories of cobordisms are
 
