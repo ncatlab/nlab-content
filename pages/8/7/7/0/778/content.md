@@ -72,15 +72,20 @@ Do you assume the existence of a zero-object in a pretriangulated dg-category (t
 _Zoran_: I took the conventions from Keller's article, as far as I recall. You are welcome to enter and explain the equivalent variants of the definition, and other variations if you are currently thinking on this subject. If you can cite the references for the proofs or reasoning supporting it, even better. I am concentrating on another subject at the very moment.
 =--
 
+## Properties
+
+* There is a [[model structure on dg-categories]].
+
 ## References
 
-*  A. I. Bondal, M. M. Kapranov, _Enhanced triangulated categories_, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669--683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93--107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
+*  A. I. Bondal, [[Mikhail Kapranov]], _Enhanced triangulated categories_, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669--683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93--107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
 
-* Bernhard Keller, _On differential graded categories_  International Congress of Mathematicians. Vol. II,  151--190, Eur. Math. Soc., Z&#252;rich, 2006. ([arXiv](http://arxiv.org/abs/math/0601185))
+* [[Bernhard Keller]], _On differential graded categories_  International Congress of Mathematicians. Vol. II,  151--190, Eur. Math. Soc., Z&#252;rich, 2006. ([arXiv](http://arxiv.org/abs/math/0601185))
 
-* Bertrand To&#235;n, _Lectures on dg-categories_ ([pdf](http://www.math.univ-toulouse.fr/~toen/swisk.pdf)) (these lectures also inspired [[Dmitry Kaledin]]'s [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul))
 
-* B. Keller, _Deriving DG categories_,  Ann. Sci. &#201;cole Norm. Sup. (4)  27  (1994),  no. 1, 63--102 (<a href="http://www.numdam.org/item?id=ASENS_1994_4_27_1_63_0">numdam</a>)
+* [[Bertrand Toën]], _Lectures on dg-categories_ ([pdf](http://www.math.univ-toulouse.fr/~toen/swisk.pdf)) (these lectures also inspired [[Dmitry Kaledin]]'s [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul))
+
+* [[Bernhard Keller]], _Deriving DG categories_,  Ann. Sci. &#201;cole Norm. Sup. (4)  27  (1994),  no. 1, 63--102 (<a href="http://www.numdam.org/item?id=ASENS_1994_4_27_1_63_0">numdam</a>)
 
 * [[Bernhard Keller|B. Keller]], _A remark on tilting theory and DG algebras_,  Manuscripta Math.  79  (1993),  no. 3-4, 247--252.
 
@@ -101,46 +106,6 @@ Compos. Math. 143 (2007), no. 5, 1335--1358.
 
 See also [[motives and dg-categories]].
 
-+--{.query}
-
-[[Tim Porter|Tim]] : Is there an nLab policy on the meaning of chain complexes and dg-algebras?  Are the differentials of degree +1 or -1?
-
-[[Urs Schreiber|Urs]]: to me it seems that one should stick to
-
-$$
-  \array{
-    & \mathbf{name of differential} & \mathbf{degree of differential}
-    \\
-    chain complex & boundary operator & -1
-    \\
-    cochain complex & coboundary operator & +1
-  }
-$$
-
-if one runs into a differential that feels like it 
-ought to be called
-a "boundary operator" but which still raises degree 
-instead of lowering it one should be prepared to 
-admit that one should choose the other overall sign
-convention for the grading.
-
-[[Tim Porter|Tim]] : That would be my choice as well.  I believe the Toen convention is with cochain complexes however. All the dgas tend to have cochain complexes underlying them, so perhaps we should provide some new entries to set up a suitable set of notation and terminology. We will need it if we start talking about infinity algebras whether Lie or otherwise.
-
-[[Urs Schreiber|Urs]]: okay, let's choose here the above convention by default and add remarks where usage in the literature differs from ours. (on the other hand everyone reading anything differential graded will have to develop a certain tolerance for the inevitable mess of sign and grading conventions that haunts the literature)
-
-[[Tim Porter|Tim]] : There is a fail-safe convention and that is to say $dg^-$ if chain enriched and $dg^+$ if cochain enriched.  What gets very confusing is, for instance, in Tabuada's thesis 
-
-arXiv:0710.4303,
-
-he is probably using $dg^+$ but in the comparison paper of dg-cat wih $SSet$-cat (arXiv:0711.3845) explicitly states 
-
-'Let $Ch$ denote the category of complexes
-over $k$ and $Ch\geq 0$ the full subcategory of positive graded complexes. Throughout
-this article we consider homological notation (the differential decreases the degree).'
-
-To go from $SSet$-cat to $dg^+$-cat you need a bar /  cobar construction it seems.
-
-=--
 
 
 [[!redirects dg-category]]
