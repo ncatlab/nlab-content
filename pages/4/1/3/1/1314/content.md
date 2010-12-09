@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -21,7 +25,7 @@ By the discussion at [[differential forms on presheaves]], each such extends to 
 
 ## Definition
 
-### Polynomial differential forms
+### Polynomial differential forms {#Polynomial}
 
 Let $k$ be a commutative ring.
 
@@ -134,6 +138,36 @@ then
 
 $$d\Phi =\sum_{1\leq i_1\lt\ldots\lt i_p\leq n} d\Phi_{i_1\ldots i_p} \wedge d b_{i_1} \wedge \ldots d b_{i_p},$$
 
+## Properties
+
+
++-- {: .num_prop }
+###### Proposition
+
+Let $k$ be a [[field]] of [[characteristic]] 0. Let $\Omega^\bullet_{poly} : sSet \to cdgAlg_k^{op}$ be the left [[Kan extension]] of $\Omega^\bullet_{poly} : \Delta \to cdgAlg_k^{op}$ from [above](#Polynomial).
+
+This is the [[left adjoint]] of a [[Quillen adjunction]]
+
+$$
+  (\Omega^\bullet_{poly} \dashv R)
+  : 
+  sSet \stackrel{\overset{R}{\leftarrow}}{\underset{\Omega^\bullet_{poly}}{\to}}
+  cdgAlg_k^{op}
+$$
+
+for the standard [[model structure on simplicial sets]] and the projective [[model structure on dg-algebras|model structure on commutative dg-algebras]].
+
+=--
+
+This is shown in ([BousfieldGugenheim, section 8](#BousfieldGugenheim)).
+
+So in particular $\Omega^\bullet_{poly}$ sends cofibrations of simplicial sets to fibrations of dg-algebras. Hence for $i : \partial \Delta[k] \hookrightarrow \Delta[k]$ a boundary inclusion the corresponding restriction
+
+$$
+  i^* : \Omega^\bullet_{poly}(\Delta^k) \to \Omega^\bullet_{poly}(\partial \Delta^k)
+$$
+
+is degreewise surjective.
 
 ## Applications
 
@@ -144,6 +178,12 @@ Applications include
 * the [[sSet]]-[[enriched category|enrichment]] of the [[model structure on dg-algebras over an operad]].
 
 ##References
+
+An original reference is
+
+* A. K. Bousfield and V. K. A. M. Gugenheim, _On PL De Rham Theory and Rational Homotopy Type_ , Memoirs of the A. M. S., vol. 179, 1976.
+{#BousfieldGugenheim}
+
 
 A standard textbook is
 
