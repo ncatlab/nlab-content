@@ -138,15 +138,43 @@ then
 
 $$d\Phi =\sum_{1\leq i_1\lt\ldots\lt i_p\leq n} d\Phi_{i_1\ldots i_p} \wedge d b_{i_1} \wedge \ldots d b_{i_p},$$
 
-## Properties
-
-
-+-- {: .num_prop }
-###### Proposition
+## Properties {#Properties}
 
 Let $k$ be a [[field]] of [[characteristic]] 0. Let $\Omega^\bullet_{poly} : sSet \to cdgAlg_k^{op}$ be the left [[Kan extension]] of $\Omega^\bullet_{poly} : \Delta \to cdgAlg_k^{op}$ from [above](#Polynomial).
 
-This is the [[left adjoint]] of a [[Quillen adjunction]]
++-- {: .un_def }
+###### Definition
+
+For $S \in sSet$,  define a morphism of graded $k$-vector spaces
+
+$$
+  \int : \Omega^\bullet_{poly}(S) \to C^\bullet(S, k)
+$$
+
+from polynomial differential forms on simplices to [[cochains on simplicial sets]] by sending $\omega \in \Omega^n_{poly}(K)$ to the cochain that sends $\sigma \in K_n$ to
+
+$$
+  \int_\sigma f := \int_{\Delta^n} f_{max}(\sigma) d t_1 \wedge \cdots d t_n
+  \,,
+$$
+
+where on the right we have the ordinary [[integral]] of the $1,\cdots,n$-component of the restriction of $f$ to $\sigma$.
+
+=--
+
++-- {: .un_prop }
+###### Proposition
+
+The morphism $\int$ is a [[quasi-isomorphism]] of cochain complexes.
+
+=--
+
+This is ([BousfieldGugenheim, theorem 2.2, corollary 3.4](#BousfieldGugenheim)).
+
++-- {: .un_prop }
+###### Proposition
+
+The functor $\Omega^\bullet_{poly}$ is the [[left adjoint]] of a [[Quillen adjunction]]
 
 $$
   (\Omega^\bullet_{poly} \dashv R)
@@ -192,5 +220,5 @@ Pures et Appliqu&#233;es, Universit&#233; des Sciences et techniques, Lille, Vol
 
 This is based on
 
-* Dennis Sullivan, _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1977__47__269_0))
+* [[Dennis Sullivan]], _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1977__47__269_0))
 
