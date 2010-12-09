@@ -67,7 +67,7 @@ This definition is supposed to model the following ideas:
 
 * in view of the [[nerve theorem]] the condition that $\lim_\to C(U)$ is contractible means that $U$ itself is contractible, as seen by the [[Grothendieck topology]] on $C$. This reflects the _local_ aspect of cohesion: we only specify cohesive structure on contractible lumps of points;
 
-* in view of this the remaining condition that $Hom_C(*,C(U))$ is contractible is the $\infty$-analog of the condition on a [[concrete site]] that $Hom_C(*.\coprod_i U_i) \to Hom_C(*, U)$ is surjective.  This expresses that the notion of topology on $C$ and its concreteness over [[Set]] are consistent.
+* in view of this the remaining condition that $Hom_C(*,C(U))$ is contractible is the $\infty$-analog of the condition on a [[concrete site]] that $Hom_C(*,\coprod_i U_i) \to Hom_C(*, U)$ is surjective.  This expresses that the notion of topology on $C$ and its concreteness over [[Set]] are consistent.
 
 =--
 
@@ -106,7 +106,7 @@ The following [[site]]s are $\infty$-cohesive:
     -- in which case the sheaf topos models generalized [[smooth space]]s such as [[diffeological space]]s, the [[(∞,1)-sheaf (∞,1)-topos]] is that of [[∞-Lie groupoid]]s;
 
 
-* the site [[ThCartSp]] $ \subset \mathbb{L}$ of [[smooth loci]] consisting smoth loci of the form $R^n \times D^l_{(k)}$ with the second factor infinitesimal, where covering families those of the form $\{U_i \times D^l_{(k)} \to U \times D^l_{(k)}\} with $\{U_i \to U\}$ a covering family in $CartSp$ as above. 
+* the site [[ThCartSp]] $ \subset \mathbb{L}$ of [[smooth loci]] consisting smoth loci of the form $R^n \times D^l_{(k)}$ with the second factor infinitesimal, where covering families those of the form $\{U_i \times D^l_{(k)} \to U \times D^l_{(k)}\}$ with $\{U_i \to U\}$ a covering family in $CartSp$ as above. 
 
   This is a site of definition for the [[Cahiers topos]].
 
