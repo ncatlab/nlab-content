@@ -19,6 +19,8 @@ By the dual [[Dold-Kan correspondence]] cochain complexes in non-negative degree
 
 The model structure on dg-algebras is such a model.
 
+More generally, there are model structures on categories of [[algebras over an operad]] in chain complexes. These are discussed at [[model structure on dg-algebras over an operad]].
+
 ## General
 
 The category of [[dg-algebra]]s is that of [[monoid]]s in a [[category of chain complexes]]. Accordingly general results on a [[model structure on monoids in a monoidal model category]] apply.  
@@ -326,6 +328,16 @@ is an isomorphism in $Ho(k Mod)$.
 
 This follows by the above with ([To&#235;nVezzosi, assumption 1.1.0.4, and page 8](#ToenVezzosi)).
 
+
+## Related concepts
+
+* [[model structure on dg-algebras over an operad]]
+
+* **model structure on dg-algebras**
+
+* [[model structure on dg-categories]]
+
+
 ## References
 
 
@@ -367,6 +379,15 @@ Disucssion of the model structure on unbounded dg-algebras over a field of chara
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _HAG II, geometric stacks and applicatons_ ([arXiv:math/0404373v4](http://arxiv4.library.cornell.edu/abs/math/0404373v4))
 {#ToenVezzosi}
 
+A general discussion of algebras over an operad in unbounded chain complexes is in
+
+* [[Vladimir Hinich]], 
+
+  _Homological algebra of homotopy algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9702015))
+
+  _Erratum_ ([arXiv](http://arxiv.org/abs/math/0309453))
+
+For more see [[model structure on dg-algebras over an operad]].
 [[!redirects model structure on dg-rings]]
 [[!redirects model structure on dg-algebra]]
 [[!redirects Sullival algebra]]
