@@ -1671,6 +1671,11 @@ This means that the assumption of section [Pirashvili's higher Hochschild homolo
 
 =--
 
+##### The powering of cdg-algebras over $\infty Grpd$
+
+>  by using polynomial [[differential forms on simplices]], $dgAlg_k$ becomes _almost_ an $sSet_{Quillen}$ enriched model category, with powering given by $A^S = A \otimes_k \Omega^\bullet_{poly}(S)$
+
+> more details for the moment at [[model structure on dg-algebras over an operad]] 
 
 #### Jones' theorem {#JonesTheorem}
 
