@@ -49,4 +49,9 @@ is an example for the adjunction induced from a [[dualizing object]].
 
 ### Differential forms on simplicial sets
 
-There are various vriant of [[differential forms on simplices]]. Each gives rise to a notion of differential forms on [[simplicial set]]s. This is also known as the [[Sullivan construction]] in [[rational homotopy theory]].
+There are various variant of [[differential forms on simplices]]. Each gives rise to a notion of differential forms on [[simplicial set]]s. This is also known as the [[Sullivan construction]] in [[rational homotopy theory]].
+
+
+
+
+[[!redirects differential forms on simplicial sets]]
