@@ -328,6 +328,9 @@ is an isomorphism in $Ho(k Mod)$.
 
 This follows by the above with ([To&#235;nVezzosi, assumption 1.1.0.4, and page 8](#ToenVezzosi)).
 
+#### Simplicial enrichment
+
+The model structure on unbounded dg-algebras is _almost_ $sSet_{Quillen}$-enriched. See the section <a href="http://ncatlab.org/nlab/show/model+structure+on+dg-algebras+over+an+operad#SimplicialEnrichment">simplicial enrichment</a> at [[model structure on dg-algebras over an operad]] for details.
 
 ## Related concepts
 
