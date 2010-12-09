@@ -124,11 +124,13 @@
 
 #### specific
 
-* [[model structure on dg-algebras|on dg-algebras]] and on [[simplicial ring|on simplicial rings]]/[[model structure on cosimplicial rings|on cosimplicial rings]] 
+* [[model structure on dg-algebras over an operad|on dg-algebras over an operad]]
 
-  related by the [[monoidal Dold-Kan correspondence]]
+  * [[model structure on dg-algebras|on dg-algebras]] and on [[simplicial ring|on simplicial rings]]/[[model structure on cosimplicial rings|on cosimplicial rings]] 
 
-* [[model structure on dg-Lie algebras|on dg-Lie algebras]] / [[model structure on dg-coalgebras|on dg-coalgebras]]
+    related by the [[monoidal Dold-Kan correspondence]]
+
+  * [[model structure on dg-Lie algebras|on dg-Lie algebras]] / [[model structure on dg-coalgebras|on dg-coalgebras]]
 
 ### for stabilized structures
 
@@ -146,6 +148,9 @@
 
 * [[model structure for Cartesian fibrations|for Cartesian fibrations]]
 
+### for stable $(\infty,1)$-categories
+
+* [[model structure on dg-categories|on dg-categories]]
 
 ### for $(\infty,1)$-operads
 
