@@ -107,6 +107,8 @@ The construction of $\Omega^\bullet_{poly}$ is a special case of the following g
 
 ##### Differential forms on presheaves {#FormsOnPresheaves}
 
+See [[differential forms on presheaves]] for more.
+
 Let $C$ be any [[small category]], write $PSh(C) = [C^{op}, Set]$ for its category of [[presheaf|presheaves]] and let
 
 $$
