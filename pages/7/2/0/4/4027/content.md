@@ -18,6 +18,8 @@
 
 The **Sullivan construction** constructs a ([[rational topological space|rational]]) [[topological space]] from a [[dg-algebra]] (a graded commutative cochain dg-algebra in positive degree).
 
+This is the special case of the construction of [[differential forms on presheaves]] from the definition of polynomial [[differential forms on simplices]].
+
 It is one part of an [[equivalence of categories]] between the [[homotopy category]] of (connected, simply connected) [[dg-algebra]]s and that of ([[simply connected]]) [[rational topological space]]s.
 As such it is a central tool in [[rational homotopy theory]]. 
 
