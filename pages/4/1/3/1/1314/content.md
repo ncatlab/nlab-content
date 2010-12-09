@@ -1,17 +1,77 @@
-<div class="rightHandSide toc">
-[[!include differential graded objects - contents]]
-</div>
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-##Idea 
+## Idea 
+
+There are various [[simplicial object|simplicial]] [[dg-algebra]]s that assign to the standard $n$-[[simplex]] a kind of [[de Rham algebra]] on $\Delta^n$.
+
+By the discussion at [[differential forms on presheaves]], each such extends to a notion of differential forms on simplicial sets. 
+
+## Definition
+
+### Polynomial differential forms
+
+Let $k$ be a commutative ring.
+
++-- {: .un_defn}
+###### Definition
+
+For $n \in \mathbb{N}$ let $\Omega_{poly}^\bullet(\Delta^n)$ be the commutative [[dg-algebra]] of **[[polynomial]] [[differential form]]s** on the $n$-[[simplex]]:
+
+as a graded algebra it is 
+
+$$
+  \Omega_{poly}^{\bullet}(\Delta^n)
+  :=
+  k[t_0, \cdots, t_n, d t_0, \cdots, d t_n]/(\sum t_i -1, \sum d t_i)
+$$
+
+with the differential the usual de Rham differential under the embedding $\Omega^\bullet_{poly}(\Delta^n) \hookrightarrow \Omega^\bullet(\Delta^n)$.
+
+For $f : [k] \to [l]$ a [[morphism]] in the [[simplex category]] let
+
+$$
+  \Omega^\bullet_{poly}(f) : \Omega^\bullet_{poly}(\Delta^l) \to \Omega^\bullet_{poly}(\Delta^k)
+$$
+
+be the morphism of dg-algebras given on generators by 
+
+$$
+  \Omega^\bullet_{poly}(f) : t_i \mapsto \sum_{f(j) = i} t_j
+  \,..
+$$
+
+This yields a [[simplicial object|simplicial]] commutative dg-algebra
+
+$$
+  \Omega^\bullet_{poly}(\Delta^{(-)}) : \Delta^{op} \to cdgAlg_k
+$$
+
+or equivalently a [[cosimplicial object]] in the [[opposite category]] $cdgAlg_k^{op}$.
+
+=--
+
+By left [[Kan extension]] this extends to all [[simplicial set]]s
+
+$$
+  \Omega^\bullet_{poly} : sSet \to cdgAlg_k^{op}
+  \,.
+$$
 
 
-Following ideas of Thom and Whitney, [[Dennis Sullivan]] -- in his work on [[rational homotopy theory]] -- defined an algebra of [[differential form]]s on a [[polytope|polyhedron]]. 
-
-## Definition: differential forms on $\mathbf{\Delta}^n$
+### Smooth differential forms
 
 Recall that the standard [[topological space|topological]] $n$-[[simplex]]  $\mathbf{\Delta}^n \subset \mathbb{R}^{n+1}$ is specified by 
 
@@ -75,30 +135,22 @@ then
 $$d\Phi =\sum_{1\leq i_1\lt\ldots\lt i_p\leq n} d\Phi_{i_1\ldots i_p} \wedge d b_{i_1} \wedge \ldots d b_{i_p},$$
 
 
+## Applications
+
+Applications include
+
+* the [[Sullivan construction]] in [[rational homotopy theory]];
+
+* the [[sSet]]-[[enriched category|enrichment]] of the [[model structure on dg-algebras over an operad]].
+
 ##References
 
-The source used was:
+A standard textbook is
 
 *  S. Halperin, _Lecture Notes on Minimal Models_, Publications de l'U.E.R. Math&#233;matiques 
 Pures et Appliqu&#233;es, Universit&#233; des Sciences et techniques, Lille, Vol 3 (1981) Fasc.3. 
 
-This in turn used ideas from 
+This is based on
 
-* Dennis Sullivan, 
-_Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1977__47__269_0))
+* Dennis Sullivan, _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1977__47__269_0))
 
-## Discussion
-
-Originally [[Tim Porter]] started this entry with the following words:
-
-This is the first of a series developing the theory of:
-** Differential forms on polyhedra and simplicial sets _&#224; l&#224;_ 
-Sullivan-Thom-Whitney** (which has been adapted from Halperin, 
-(see references)). The following is the first of three 
-linked entries dealing with that the initial part of his theory.
-
-***
-
-[[Eric]]: There are many additional references to existing literature that might be of interest here for applications, but I don't have time to list them. A good start would be Dodziuk and a google search on "Whitney Forms" including higher order Whitney forms.
-
-It would also be great if we could discuss the "de Rham map" and the "Whitney map" (see [String Coffee Table](http://golem.ph.utexas.edu/string/archives/000298.html#c000624))
