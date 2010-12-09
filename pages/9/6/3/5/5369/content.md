@@ -71,3 +71,7 @@ The model structure on dg-categories is due to
 It is reproduced as theorem 4.1 in 
 
 * [[Bernhard Keller]], _On differential graded categories_ ([pdf](http://atlas.mat.ub.es/grgta/articles/Keller.pdf))
+
+There is also 
+
+* David Rosoff, _Mapping spaces of $A_\infty$-algebras_ ([pdf](http://www.math.washington.edu/~rosoff/ainfs.pdf))
