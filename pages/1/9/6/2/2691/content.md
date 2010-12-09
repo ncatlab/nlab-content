@@ -15,11 +15,12 @@
 
 ## Idea 
 
-By the dual [[Dold-Kan correspondence]] cochain complexes in non-negative degree are equivalent to [[cosimplicial object|cosimplicial]] abelian groups. Moreover, the [[monoidal Dold-Kan correspondence]] maps [[cosimplicial algebra]]s to [[dg-algebra]]s, but this is no longer an equivalence of ordinary categories. It should, however, be an equivalence of the full [[(∞,1)-category|(∞,1)-categories]] of these objects. This, in turn, should be modeled by a [[model category]] structures.
+A [[model category]] structure on a category of [[dg-algebra]]s tends to present an [[(∞,1)-category]] of [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]]. 
 
-The model structure on dg-algebras is such a model.
+For dg-algebras bounded in negative or positive degrees, the [[monoidal Dold-Kan correspondence]] asserts that their model category structures are [[Quillen equivalence|Quillen equivalent]] to the corresponding [[model structure on simplicial algebras|model structure on (co)simplicial algebras]]. This case plays a central role in [[rational homotopy theory]].
 
-More generally, there are model structures on categories of [[algebras over an operad]] in chain complexes. These are discussed at [[model structure on dg-algebras over an operad]].
+The case of model structures on unbounded dg-algebras may be thought of as induced from this by passage to the [[derived geometry]] modeled on formal duaals of the bounded dg-algebras. This is described at [[dg-geometry]].
+
 
 ## General
 
