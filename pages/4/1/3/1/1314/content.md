@@ -197,6 +197,27 @@ $$
 
 is degreewise surjective.
 
++-- {: .un_prop #RespectForProduct}
+###### Proposition
+
+The functor $\Omega^\bullet_{poly}$ is a [[lax monoidal functor]] whose lax monoidal structure map
+
+$$
+  \nabla_{X,Y}
+  :
+  \Omega^\bullet_{poly}(X)
+  \otimes
+  \Omega^\bullet_{poly}(Y)
+  \to 
+  \Omega^\bullet_{poly}(X \times Y)
+$$
+
+is a [[quasi-isomorphism]].
+
+=--
+
+This is reviewed for instance in ([Hess, page 12](#Hess)).
+
 ## Applications
 
 Applications include
@@ -212,7 +233,6 @@ An original reference is
 * A. K. Bousfield and V. K. A. M. Gugenheim, _On PL De Rham Theory and Rational Homotopy Type_ , Memoirs of the A. M. S., vol. 179, 1976.
 {#BousfieldGugenheim}
 
-
 A standard textbook is
 
 *  S. Halperin, _Lecture Notes on Minimal Models_, Publications de l'U.E.R. Math&#233;matiques 
@@ -222,3 +242,7 @@ This is based on
 
 * [[Dennis Sullivan]], _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1977__47__269_0))
 
+A useful survey is in 
+
+* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+{#Hess}
