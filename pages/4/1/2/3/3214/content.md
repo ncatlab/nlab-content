@@ -35,6 +35,8 @@ This appears as ([To&#235;nVezzosi, def. 3.1.1](#ToenVezzosi))
 
 ## Properties
 
+### Relation to $(\infty,1)$-sites
+
 +-- {: .un_defn}
 ###### Proposition
 
@@ -42,7 +44,23 @@ Under the identification of [[simplicially enriched categories]] with models for
 
 =--
 
-Because as discussed at [[(∞,1)-site]], that is equivalently an [[(∞,1)-category]] equipped with the structure of a site on its [[homotopy category of an (∞,1)-category]].
+Because, as discussed at [[(∞,1)-site]], that is equivalently an [[(∞,1)-category]] equipped with the structure of a site on its [[homotopy category of an (∞,1)-category]].
+
+### Relation to $(\infty,1)$-toposes
+
++-- {: .un_defn}
+###### Proposition
+
+For $C$ an $sSet$-site, the local [[model structure on sSet-presheaves]] is a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-topos]] $Sh_\infty(C)$ over the [[(∞,1)-site]] corresponding to $C$
+
+$$
+ ([C^{op}, sSet]_{loc})^\circ \simeq Sh_\infty(C)
+  \,.
+$$
+
+=--
+
+
 
 ## Examples
 
