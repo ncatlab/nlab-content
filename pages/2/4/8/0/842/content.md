@@ -844,3 +844,4 @@ A detailed account is in [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/
 [[!redirects limits in (∞,1)-categories]]
 
 [[!redirects (∞,1)-powering]]
+[[!redirects (∞,1)-copower]]
