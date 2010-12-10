@@ -384,7 +384,7 @@ $$
   \,.
 $$
 
-On the other hand, a representable $X$ has itself a _[[simplicial T-algebra]]_ of functions, which under the monoidal Dold-Kan correspondence also identifies with a cochain dg-algebra, but then mecessarily in non-positive degree to match with the above convention. So we write
+On the other hand, a representable $X$ has itself a _[[simplicial T-algebra]]_ of functions, which under the monoidal Dold-Kan correspondence also identifies with a cochain dg-algebra, but then necessarily in non-positive degree to match with the above convention. So we write
 
 $$
   \mathcal{O}(X)
@@ -1447,19 +1447,51 @@ This derivation
 
 ### Higher order Hochschild homology modeled on cdg-algebras {#OvercdgAlgs}
 
-We discuss details of Hochschild homology in the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] over an [[(∞,1)-site]] of formal duals of commutative [[dg-algebra]]s over a field, [[presentable (∞,1)-category|presented]] by the [[model structure on dg-algebras]].
+We discuss details of Hochschild homology in the context of [[dg-geometry]]:  the [[(∞,1)-topos]] over an [[(∞,1)-site]] of formal duals of commutative [[dg-algebra]]s over a field, [[presentable (∞,1)-category|presented]] by the [[model structure on dg-algebras]].
 
 
-The following assumes familiarity with the entries
+Fix a [[field]] $k$ of [[characteristic]] 0. We consider now the context of [[dg-geometry]] with its [[function algebras on ∞-stacks]] taking values in unbounded dg-algebras, exhibited by the [[adjoint (∞,1)-functor]]s
 
-* the [[model structure on dg-algebras]]
+$$
+  (\mathcal{O} \dashv Spec) : 
+   (cdgAlg_k^{op})^\circ
+   \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
+   \mathbf{H} := Sh((cdgAlg_k^-)^{op})
+   \,.
+$$
 
-* [[dg-geometry]].
+For the discussion of Hochschild homology in this $\mathbf{H}$, the main fact about the [[model structure on dg-algebras]] that we need is this:
+
++-- {: .un_prop #PoweringAndCopoweringIndgContext}
+###### Proposition
+
+In the [[model structure on dg-algebras|projective model structure on unbounded commutative dg-algebras]] over $k$ we have that
+
+1. the [[derived functor|derived]] [[copower]]ing of $cdgAlg_k$ over [[sSet]] is presented by the ordinary powering of $cdgAlg_k$ over $sSet$;
+
+1. the [[derived functor|derived]] [[power]]ing of $cdgAlg_k$ over degreewise finite simplicial sets is presented by forming polynomial [[differential forms on simplices]], $S \mapsto \Omega^\bullet_{poly}(S)$.
+
+=--
+
+This is discussed in detail at [[model structure on dg-algebras]] in the sections <a href="http://nlab.mathforge.org/nlab/show/model+structure+on+dg-algebras#DerivedCopowering">Derived copowering</a> and <a href="http://nlab.mathforge.org/nlab/show/model+structure+on+dg-algebras#DerivedPowering">Derived powering</a>.
+
+#### Higher order Hochschild complexes
+
+By the [above fact](#PoweringAndCopoweringIndgContext)
+[Pirashvili's copowering definition](#PirashviliHigherOrder) of higher order Hochschild homology holds true in dg-geometry. For $X$ a [[manifold]] regarded as a [[topological space]] and then as a [[constant ∞-stack]] in $\mathbf{H}$ we have for any $A \in cdgAlg_k$
+
+$$
+  \mathcal{O}[X, Spec A]
+  \simeq
+  X \cdot A
+$$
+
+in $cdgAlg_k$.
 
 
 #### Jones' theorem {#JonesTheorem}
 
-Jones' theorem asserts that the Hochschild homology of the dg-algebra of differential forms on a manifold computes the homology of the corresponding loop space. We discuss now how this result follows using derived loop spaces of [[constant ∞-stack]]s.
+[Jones' theorem](#JonesTheorem) asserts that the Hochschild homology of the dg-algebra of differential forms on a manifold computes the homology of the corresponding loop space. We discuss now how this result follows using derived loop spaces of [[constant ∞-stack]]s.
 
 +-- {: .un_prop}
 ###### Fact
@@ -1510,54 +1542,91 @@ $$
 
 =--
 
-#### The circle and the odd line
+#### The circle and the odd line {#CircleAndOddLine}
 
+Consider as before the categorical [[circle]] $S^1$ as the corresponding [[constant ∞-stack]] in $\mathbf{H}$. We describe the function $\infty$-algebra on $S^1$. Below this will serve to explain the nature of the canonical circle action on the Hochschild complex of a cdg-algebra.
 
 +-- {: .un_prop}
 ###### Proposition
 
-The dg-algebra of functions on the circle is a [[formal dg-algebra]]
-equivalent to the [[ring of dual numbers]] with the nilpotent generator
-in degree 1: we have a weak equivalence
+We have an equivalence
 
 $$
-  \mathcal{O}(S^1) \stackrel{\simeq}{\to} k \oplus k[-1]
+  \mathcal{O}(S^1) \simeq (k \oplus k[-1])
+  \,,
 $$
 
-in $cdgAlg_k^+$.
+where on the right we have the [[ring of dual numbers]] over $k$, regarded as a [[dg-algebra]] with the odd generator in degree 1 and trivial differential.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Since every $\infty$-groupoid is the $\infty$-colimit over the diagram constant on the point over itself, and since $\mathcal{O}$ is left adjoint, we have
+Every [[∞-groupoid]] is the [[(∞,1)-colimit]] over itself (as described there) of the [[(∞,1)-functor]] constant on the point. This [[(∞,1)-colimit]] is preserved by the left [[adjoint (∞,1)-functor]] $LConst : \infty Grpd \to \mathbf{H}$, so that we have
 
 $$
-  \mathcal{O}(S^1)
-  \simeq
-  \mathcal{O}({\lim_\to}_{S^1} *)
-  \simeq
-  {\lim_{\leftarrow}}_{S^1} \mathcal{O}(*)
-  \simeq
-  {\lim_{\leftarrow}}_{S^1} k
-  \,,
+  S^1 \simeq {\lim_{\to}}_{S^1} *
 $$
 
-where the $\infty$-limit on the right is taken in $(cdgAlg_k)^\circ$.
-
-There is a [[Quillen adjunction]]
+in $\mathcal{H}$. The [[(∞,1)-functor]] $\mathcal{O}$ is also left adjoint, so that 
 
 $$
-  cdgAlg_k^+ \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}}
-  cdgAlg_k
+  \mathcal{O}(S^1) \simeq {\lim_{\leftarrow}}_{S^1} \mathcal{O}(*)
 $$
 
-given by the inclusion of the full subcategory, and therefore the corresponding
-derived $\infty$-functor preserves $\infty$-limits. So we can compute the limit there, and hence due to the [[monoidal Dold-Kan correspondence]] in cosimplicial algebras. 
+in $cdgAlg_k^\circ$.  Since the point is representable, we have by the definition of $\mathcal{O}$ as the left $(\infty,1)$-[[Kan extension]] of the inclusion $(cdgAlg_^-k)^{op} \hookrightarrow (cdgAlg_k)^{op}$ that this is
 
-Using the results at [[function algebras on infinity-stacks]] we find that $\mathcal{O}(S^1)$ a model for the [[singular cohomology]] of the circle. 
+$$
+  \cdots \simeq {\lim_{\leftarrow}}_{S^1} k
+  \,.
+$$
 
+This is the formula for the $(\infty,1)$-power of the cdg-algebra $k$ by by $\infty$-groupoid $S^1$. By the [above fact](#PoweringAndCopoweringIndgContext), using that the circle is a finite $(\infty,1)$-groupoid, this is given by the cdg-algebra of polynomial [[differential forms on simplices]] of $S^1$
+
+$$
+  \cdots \simeq \Omega^\bullet_{poly}(S^1)
+  \,.
+$$
+
+By a central theorem of [[rational homotopy theory]] (recalled at [[differential forms on simplices]]) this is equivalent to the [[singular cohomology|singular cochains]] on the circle
+
+$$
+  \cdots \simeq C^\bullet(S^1, k)
+  \,.
+$$
+
+But $S^1 \simeq \mathcal{B}\mathbb{Z}$ is a [[classifying space]] of a Lie algebra, so that this is a [[formal dg-algebra]], equivalent to its [[cochain cohomology]]. Over the field $k$ of characteristic 0 this is 
+
+$$
+  H^n(S^1, k) = 
+  \left\{
+     \array{
+        k & for\; n = 0
+        \\
+        k & for \; n = 1
+        \\
+        0 & otherwise
+     }
+  \right.
+  \,.
+$$ 
+
+Therefore
+
+$$
+  \cdots \simeq k \oplus k[-1]
+   \,.
+$$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This means that $Spec \mathcal{O}(S^1)$ is no longer the circle itself, but the [[odd line]], regarded with its canonical $\mathbb{Z}$-grading.
+
+This point is amplified in ([Ben-ZivNadler](#Ben-ZviNadler)).
 
 =--
 
@@ -1988,6 +2057,7 @@ based on
 Specifically the dicussion of differential forms via such an $\infty$-category theoretic perspective of the HKR-theorem is discussed in 
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
+{#Ben-ZviNadler}
 
 * [[Bertrand Toën]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
 
