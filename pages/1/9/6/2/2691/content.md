@@ -566,7 +566,40 @@ is a [[Kan fibration]], which is acyclic if $i$ or $p$ is.
 
 =--
 
-This follows the proof of ([BousfieldGugenheim, prop. 5.3](#BousfieldGugenheim)). See also the discussion at [[model structure on dg-algebras over an operad]].
+This implies in particular that for $A$ cofibrant, $cdgAlg_k(A,B)$ is a [[Kan complex]].
+
+
+The proof works along the lines of ([BousfieldGugenheim, prop. 5.3](#BousfieldGugenheim)). See also the discussion at [[model structure on dg-algebras over an operad]].
+
+
++-- {: .proof}
+###### Proof
+
+We give the proof for a special case. The general case is analogous.
+
+We show that for $A$ cofibrant, and for any $B$ (automatically fibrant), $cdgAlg_k(A,B)$ is a [[Kan complex]].
+
+
+By a standard fact in [[rational homotopy theory]] (due to [BousfieldGugenheim](#BousfieldGugenheim), discussed at [[differential forms on simplices]]) we have that $\Omega^\bullet_{poly} : sSet \to cdgAlg^+_k$ is a left [[Quillen adjunction|Quillen functor]], hence in particular sends acylcic cofibrations to acyclic cofibrations, hence homotopy-equivalent [[monomorphism]]s of simplicial sets to acylic fibrations of dg-algebras. 
+
+Specifically for each [[horn]] inclusion $\Lambda[n]_k \hookrightarrow \Delta[n]$ we have that the restriction map $\Omega^\bullet_{poly}(\Delta[n]) \to \Omega^\bullet_{poly}(\Lambda[n]_k)$ is an acyclic fibration in $cdgAlg_k^*$, hence in $cdgAlg_k$.
+
+A $k$-horn in $cdgAlg_k(A,B)$ is a morphism $A \to B \otimes \Omega^\bullet_{poly}(\Lambda[n]_k)$. A filler for this horn is a lift $\sigma$ in 
+
+$$
+  \array{
+    && B \otimes \Omega^\bullet_{poly}(\Delta[n])
+    \\
+    & {}^{\mathllap{\sigma}}\nearrow & \downarrow
+    \\
+    A &\to& B \otimes \Omega^\bullet_{poly}(\Lambda[n]_k)
+  }
+  \,.
+$$
+
+If $A$ is cofibrant, then such a lift does always exist.
+
+=--
 
 +-- {: .un_prop }
 ###### Proposition
@@ -645,6 +678,8 @@ all simplicial sets. (...)
 =--
 
 This appears as ([GinotTradlerZeinalian, def 3.1.1](#GinotTradlerZeinalian)).
+
+That this does indeed land in _commutative_ dg-algebras uses results of ([GinotTradlerZeinalian, Chen model](#GinotTradlerZeinalianChenModel)).
 
 +-- {: .un_prop}
 ###### Proposition
@@ -1000,6 +1035,11 @@ The derived copowering of unbounded commutative dg-algebras over $sSet$ is discu
 
 * [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, ([arxiv/1011.6483](http://arxiv.org/abs/1011.6483))
 {#GinotTradlerZeinalian}
+
+The _commutative_ product on the dg-algebra of the higher order Hochschild complex is discussed in
+
+* [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _A Chen model for mapping spaces and the surface product_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.2231v1.pdf))
+{#GinotTradlerZeinalianChenModel}
 
 
 For more see [[model structure on dg-algebras over an operad]].
