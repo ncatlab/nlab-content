@@ -30,7 +30,7 @@ Every [[Banach space]] is a Fr&#233;chet space.
 
 If $X$ is a [[compact space|compact]] [[smooth manifold]], then the space of [[smooth map|smooth maps]] on $X$ is a Fr&#233;chet space.  This can be extended to some non-compact manifolds, in particular when $X$ is the [[real line]].
 
-The [[Lebesgue space]] $L^p(\mathbb{R})$ is *not* a Fr&#233;chet space, because it is not locally convex.
+The [[Lebesgue space]] $L^p(\mathbb{R})$ for p &lt; 1 is *not* a Fr&#233;chet space, because it is not locally convex.
 
 
 ## References
