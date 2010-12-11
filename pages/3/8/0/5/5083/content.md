@@ -13,24 +13,28 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Just as the [[shape of an (∞,1)-topos]] is the functor $\infty Gpd\to \infty Gpd$ which it *corepresents* (after identifying ∞-groupoids with their presheaf (∞,1)-topoi), so the *coshape* of an (∞,1)-topos is the functor $\infty Gpd^{op}\to \infty Gpd$ which it *represents*.
+
+Unlike the shape, which is only (co)representable (by an ∞-groupoid) when the topos is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]], the coshape is *always* representable, albeit possibly by a *large* ∞-groupoid---specifically the ∞-groupoid of [[point of a topos|points]] of the (∞,1)-topos in question.
+
+
 ## Definition
 
 +-- {: .un_defn}
 ###### Definition
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] we say its **co-shape** $\Gamma \mathbf{H}$  is the object
+For $\mathbf{H}$ an [[(∞,1)-topos]] we say its **co-shape** $\Gamma \mathbf{H}$ is the functor $\Gamma(\mathbf{H}) \colon \infty Gpd^{op}\to \infty Gpd$ defined by
 
 $$
-  \Gamma(\mathbf{H}) : A
-  \mapsto
-  (\infty,1)Topos((\infty,1)PSh(A), \mathbf{H})
-  \in
-  (\infty,1)\hat Sh(\infty Grpd)
+  \Gamma(\mathbf{H})(A) =
+  Topos(PSh(A), \mathbf{H})
 $$
-
-in the [[huge (∞,1)-sheaf (∞,1)-topos]] on [[∞Grpd]].
 
 =--
+
+We can, if we wish, regard $\Gamma \mathbf{H}$ as an object of the [[very large (∞,1)-sheaf (∞,1)-topos]] on [[∞Grpd]].
 
 +-- {: .un_remark}
 ###### Remark
