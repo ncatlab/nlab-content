@@ -50,6 +50,11 @@ geometry, and, of course, $\infty$-[[infinity-groupoid|groupoids]].)
 
 ## More recent developments
 
-*  Baues has developed an approach to Whitehead's basic programme using a mix of [[cofibration category|cofibration categories]] and categories with a particular type of [[cylinder functor]], that he calls [[I-category|I-categories]]. These are treated in separate entries. Cofibration categories are very similar to the dual of K.S. Brown's Abstract homotopy theory, as discussed in [[category of fibrant objects]] and [[BrownAHT]].
+*  [[Baues]] has developed an approach to Whitehead's basic programme using a mix of [[cofibration category|cofibration categories]] and categories with a particular type of [[cylinder functor]], that he calls [[I-category|I-categories]]. These are treated in separate entries. Cofibration categories are very similar to the dual of K.S. Brown's abstract homotopy theory, as discussed in [[category of fibrant objects]] and [[BrownAHT]].
 
 *  [[Ronnie Brown]]'s [[nonabelian algebraic topology]] has developed Whitehead's theory of crossed complexes along the lines suggested by the original papers of Whitehead, but extending that, in particular, using generalisations of van Kampen's theorem. (This is discussed in detail in the entry: [[nonabelian algebraic topology]].)
+
+##References
+*  [[Hans-Joachim Baues]], _[[Algebraic Homotopy]]_, Cambridge studies in advanced mathematics 15, Cambridge University Press, (1989); 
+*   [[Hans-Joachim Baues]], _[[Combinatorial Homotopy and 4-Dimensional Complexes]]_, de Gruyter Expositions in Mathematics 2, Walter de Gruyter, (1991);
+*   [[Hans-Joachim Baues]], _[[Homotopy Types]]_, in I.M.James, ed., _Handbook of Algebraic Topology_, 1--72, Elsevier, (1995);
