@@ -1,6 +1,6 @@
 ## Idea
 
-A *pullback in a derivator* is the generalization to the context of a [[derivator]] of the notion of [[pullback]] in ordinary category theory.  Viewing a derivator as the "shadow" of an [[(∞,1)-category]], the notion of monomorphism therein coincides with the notion of [[homotopy pullback]] in an $(\infty,1)$-category.
+A *pullback in a derivator* is the generalization to the context of a [[derivator]] of the notion of [[pullback]] in ordinary category theory.  Viewing a derivator as the "shadow" of an [[(∞,1)-category]], the notion of pullback therein coincides with the notion of [[homotopy pullback]] in an $(\infty,1)$-category.
 
 ## Definition
 
