@@ -1,7 +1,7 @@
 ##Combinatorial Homotopy and 4-Dimensional Complexes.
 
 
-This book by [[Baues]] handles the classification of 4-dimensional complexes. [[Henry Whitehead]] commented in his famous paper, _[[Combinatorial homotopy I]]_, (1949), ' What has been achieved so far is a purely algebraic description of the homotopy type of any 3-dimensional complex and of any finite, simply connected 4-dimensional complex.'' (This case of simply connected 4-dimensional complexes had been treated by him in another paper in that same year of 1949.)
+This book by [[Baues]] handles the classification of 4-dimensional complexes. [[Henry Whitehead]] commented in his famous paper, _[[Combinatorial homotopy I]]_, (1949), 'What has been achieved so far is a purely algebraic description of the homotopy type of any 3-dimensional complex and of any finite, simply connected 4-dimensional complex.' (This case of simply connected 4-dimensional complexes had been treated by him in another paper in that same year of 1949.)
 This book by Baues gives a solution in the non-simply connected case.
 
 #Contents#
