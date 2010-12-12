@@ -16,6 +16,14 @@ A collection of elements $(w_i)_{i \in I}$ of $N$ is called a [[basis]] of $N$ (
 
 If $N$ has a basis it is called _free_ (over $A$). For many examples of $A$ (the __invariant basis number rings__), the [[cardinality]] $# I$ only depends on $N$ and not on the choice of basis. It is called the **rank** of $N$ over $A$, notation: $rank_A(M)$. In any case, $N$ is called the __free module of rank $# I$__. If $N$ is a [[finitely generated]] free module then the rank is finite.
 
+All of the following are invariant basis rings (source: [Wikipedia](http://en.wikipedia.org/wiki/Invariant_basis_number)):
+
+*  any nontrivial [[commutative ring]] $K$,
+*  the [[group ring]] $K(G)$ for $K$ any [[field]] (or nontrival commutative ring?) and $G$ any [[group]],
+*  any [[Noetherian ring]].
+
+Besides the [[trivial ring]] (over which any module is free with any set as basis), an example of a ring without invariant basis number is the ring of $\aleph_0$-dimensional square [[matrix|matrices]] (over any ring) in which each column has only finitely many nonzero entries (which allows multiplication to be defined).  As a module over itself, this ring is free on any inhabited finite set, as may be shown by using the equation $\aleph_0 = n \aleph_0$ (applied to the columns).
+
 
 ## Hereditary rank of a pure set
 
