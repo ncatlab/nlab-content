@@ -497,7 +497,7 @@ $$
   \,.
 $$
 
-The constraint is such that $C_3$ is the local connection 3-form on the [[circle n-bundle with connection|circle 3-bundle with connection]] over which the homotopy-pullback is computed (the _twist_ of the twisted differential string structure) and $\mathcal{G}_4$ and $\mathcal{G}_4$ is its [[curvature]] 4-form. 
+The constraint is such that $C_3$ is the local connection 3-form on the [[circle n-bundle with connection|circle 3-bundle with connection]] over which the homotopy-pullback is computed (the _twist_ of the twisted differential string structure) and $\mathcal{G}_4$ is its [[curvature]] 4-form. 
 
 In physics this is the curvature data familiar from the [[Green-Schwarz mechanism]]. $C_3$ is the [[supergravity C-field]].
 
