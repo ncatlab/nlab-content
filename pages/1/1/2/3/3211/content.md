@@ -136,6 +136,8 @@ This $QC$ is indeed an [[∞-stack]] on the [[model site]] $C := Comm(\mathcal{C
 
 This is ([To&#235;nVezzosiII, theorem 1.3.7.2](#ToenVezzsoi).
 
+> notice: the $QC$ defined this way is not yet stabilized
+
 ## Related concepts
 
 * [[quasicoherent sheaf]]
