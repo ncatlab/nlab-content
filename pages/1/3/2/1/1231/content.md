@@ -73,5 +73,9 @@ Koszul duality is also discussed in [[John Baez]]' [This Week's Finds in Mathema
 
 in "the Everything Seminar" [koszul-duality-and-lie-algebroids](http://cornellmath.wordpress.com/2008/03/25/koszul-duality-and-lie-algebroids) and at MathOverflow: [What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality), [Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality)
 
+A "curved" generalization:
+
+* Joseph Hirsh, Joan Mill&#232;s, _Curved Koszul duality theory_, Max Planck preprint MPIM2010-104, [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=4217)
+
 
 [[!redirects Koszul dual]]
