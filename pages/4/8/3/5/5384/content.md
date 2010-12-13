@@ -13,11 +13,11 @@ Entries on the [[HomePage|nLab]] that use the **implicit $\infty$-category theor
 
 In this convention
 
-* _category_ means _[[(∞,1)-category]]_, and so $Cat$ means [[(∞,1)Cat]]
+* _category_ means _[[(∞,1)-category]]_, and so $Cat$ means _[[(∞,1)Cat]]_
 
-* _topos_ means _[[(∞,1)-topos]]_, and so $Topos$ means [[(∞,1)Topos]]
+* _topos_ means _[[(∞,1)-topos]]_, and so $Topos$ means _[[(∞,1)Topos]]_
 
-* _groupoid_ means _[[∞-groupoid]]_, and so $Gpd$ means [[?Gpd]]
+* _groupoid_ means _[[∞-groupoid]]_, and so $Gpd$ means _[[?Gpd]]_
 
 * _$n$-category_ means _[[(∞,n)-category]]_
 
@@ -27,7 +27,7 @@ In this convention
 
 * _sheaf_ means _[[(∞,1)-sheaf]]_ , a.k.a. _[[∞-stack]]_   
 
-* _limit_ means [[(∞,1)-limit]]
+* _limit_ means _[[(∞,1)-limit]]_
 
 * _algebraic theory_ means _[[(∞,1)-algebraic theory]]_
 
