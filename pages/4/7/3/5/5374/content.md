@@ -163,7 +163,7 @@ $cdgAlg_k^- \hookrightarrow cdgAlg_k$ preserves this $(\infty,1)$-colimit.
 
 * [[rational homotopy theory]]: [[function algebras on ∞-stacks]]
 
-(...)
+* [[perfect ∞-stack]]s and their [[geometric ∞-function theory]]
 
 
 ## References
@@ -173,7 +173,12 @@ Various [[model category]] presentations of dg-geometry are presented in
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications _ ([arXiv](http://arxiv.org/abs/math/0404373))
 {#ToenVezzosiStacks}
 
-The $(\mathcal{O} \dashv Spec)$-adjunction for dg-geoemtry is studied in 
+The [[geometric ∞-function theory]] of [[perfect ∞-stack]]s in dg-geometry, and the corresponding [[Hochschild cohomology]] is considered in
+
+* [[David Ben-Zvi|Ben-Zvi]], [[John Francis]],  [[David Nadler]], _Integral transforms and Drinfeld centers in derived algebraic geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
+{#Ben-ZviFrancisNadler}
+
+The $(\mathcal{O} \dashv Spec)$-adjunction for dg-geometry is studied in 
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
 {#Ben-ZviNadler}
