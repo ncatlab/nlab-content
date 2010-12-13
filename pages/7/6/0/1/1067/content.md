@@ -47,4 +47,12 @@ There is a [[model category]] structure on the category $Ch(A)$ of chain complex
 
 See [[model structure on chain complexes]].
 
+## Related concepts
+
+* [[cochain complex]]
+
+* [[bounded chain complex]]
+
+* [[perfect chain complex]]
+
 [[!redirects chain complexes]]
