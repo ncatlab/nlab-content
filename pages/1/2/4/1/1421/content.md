@@ -17,7 +17,7 @@
 
 ## Idea
 
-In the context of [[dg-geometry]] an [[∞-stack]] $X$ is called _perfect_ if its [[(∞,1)-category]] $QC(X)$ of [[quasicoherent ∞-stack]]s (of [[module]]s over the [[structure sheaf]] $\mathcal{O}(X)$) is generated from modules that are locally [[perfect chain complex]]es.
+In the context of [[dg-geometry]] an [[∞-stack]] $X$ is called _perfect_ if its [[(∞,1)-category]] $QC(X)$ of [[quasicoherent ∞-stack]]s (of [[module]]s over the [[structure sheaf]] $\mathcal{O}(X)$) is generated from compact objects/dualizable obkects: modules that are locally [[perfect chain complex]]es.
 
 
  
@@ -41,7 +41,7 @@ of the [[opposite (∞,1)-category]] of these $\infty$-algebras.
 +-- {: .un_defn}
 ###### Definition
 
-The [[(∞,2)-sheaf]] of [[quasicoherent ∞-stack]]s is
+The [[(∞,2)-presheaf]] of [[quasicoherent ∞-stack]]s is
 
 $$
   Mod : C^{op} \to (\infty,1)Cat
@@ -64,10 +64,29 @@ where on the right we take the $(\infty,1)$-category of $\infty$-modules over th
 For $X \in Sh_{(\infty,1)}(C)$ an [[∞-stack]] in [[dg-geometry]], write
 
 $$
-  QC(X) := Sh_{(\infty,2)}(C)\left( X, Mod \right)
+  QC(X) := PSh_{(\infty,2)}(C)\left( X, Mod \right)
 $$
 
 for the $(\infty,1)$-category of **quasicoherent $\infty$-stacks** on $X$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+By the [[co-Yoneda lemma]] we may express every $X \in Sh_{(\infty,1)}(C)$ as an [[(∞,1)-colimit]] of [[representable functor|representables]] 
+
+$$
+  X \simeq {\lim_\to}_i U_i = {\lim_\to}_i Spec A_i
+  \,.
+$$
+
+We have then
+
+$$
+  QC(X) \simeq {\lim_\leftarrow}_i QC(U_i) \simeq {\lim_\leftarrow}_i A_i Mod
+  \,.
+$$
 
 =--
 
