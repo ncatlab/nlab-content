@@ -22,4 +22,6 @@ Moduli space of Higgs bundles over an algebraic curve is one of the principal to
 
 * [[Carlos Simpson]], _Higgs bundles and local systems_, Publ. Math&#233;matiques de l'IH&#201;S __75__ (1992), p. 5-95, [numdam](http://www.numdam.org/item?id=PMIHES_1992__75__5_0), [MR94d:32027](http://www.ams.org/mathscinet-getitem?mr=94d:32027)
 
+* David Baraglia, _Cyclic Higgs bundles and the affine Toda equations_, [arxiv/1011.6421](http://arxiv.org/abs/1011.6421)
+
 [[!redirects Higgs bundles]]
