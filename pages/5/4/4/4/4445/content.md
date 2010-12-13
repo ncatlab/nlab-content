@@ -1,4 +1,3 @@
-
 > under construction
 
 #Contents#
@@ -18,7 +17,7 @@ The [[category]] $Sh(X_\bullet)$ of sheaves on the simplicial space is defined t
   * equipped for each $\alpha : [n] \to [m]$ with morphisms  
 
     $$
-      S(\alpha) : Y(\alpha)^* S_n \to S_m
+      S(\alpha) : X(\alpha)^* S_n \to S_m
     $$ 
 
   * such that 
@@ -30,13 +29,13 @@ The [[category]] $Sh(X_\bullet)$ of sheaves on the simplicial space is defined t
 
       $$
         \array{
-          Y(\beta)^* Y(\alpha)^* S_n 
-          &\stackrel{Y(\beta)^* S(\alpha)}{\to}& 
-          Y(\beta)^* S_m
+          X(\beta)^* X(\alpha)^* S_n 
+          &\stackrel{X(\beta)^* S(\alpha)}{\to}& 
+          X(\beta)^* S_m
           \\
           {\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{S(\beta)}}
           \\
-          Y(\beta \alpha)^* S_m &\underset{S(\beta \alpha)}{\to}&
+          X(\beta \alpha)^* S_m &\underset{S(\beta \alpha)}{\to}&
           S_k
         }
       $$
