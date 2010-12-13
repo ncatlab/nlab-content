@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
 #### Higher geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
@@ -17,7 +21,7 @@
 
 ## Idea
 
-In the context of [[dg-geometry]] an [[∞-stack]] $X$ is called _perfect_ if its [[(∞,1)-category]] $QC(X)$ of [[quasicoherent ∞-stack]]s (of [[module]]s over the [[structure sheaf]] $\mathcal{O}(X)$) is generated from compact objects/dualizable obkects: modules that are locally [[perfect chain complex]]es.
+In the context of [[dg-geometry]] an [[∞-stack]] $X$ is called _perfect_ if its [[(∞,1)-category]] $QC(X)$ of [[quasicoherent ∞-stack]]s (of [[module]]s over the [[structure sheaf]] $\mathcal{O}(X)$) is generated from compact objects/dualizable objects: modules that are locally [[perfect chain complex]]es.
 
 
  
