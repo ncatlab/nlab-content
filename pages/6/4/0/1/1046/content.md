@@ -95,3 +95,8 @@ category: category
 [[!redirects ? Grpd]]
 [[!redirects ∞-Grpd]]
 [[!redirects infinity-Grpd]]
+[[!redirects ?Gpd]]
+[[!redirects ? Gpd]]
+[[!redirects ∞-Gpd]]
+[[!redirects infinity-Gpd]]
+[[!redirects Infinity-Gpd]]
