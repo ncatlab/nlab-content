@@ -319,7 +319,7 @@ We denote by $k$ a [[field]]. It is our purpose to show that the [[opposite cate
 
 ## Galois theory in topos theory {#GaloisInTopos}
 
-One notices that [classicall Galois theory](#ClassicalGaloisTheory) has an equivalent reformulation in [[topos theory]]. That puts it into a wider general absztract context and leads to a topos-theoretic general Galois theory.
+One notices that [classical Galois theory](#ClassicalGaloisTheory) has an equivalent reformulation in [[topos theory]]. That puts it into a wider general abstract context and leads to a topos-theoretic general Galois theory.
 
 ### Reformulation of classical Galois theory
 
@@ -358,7 +358,7 @@ Accordingly in [[topos theory]] Galois theory is generally about the classificat
 
 Between January and June 1981, Grothendieck wrote about 1600 manuscript pages of a work with the above title. The subject is the [absolute Galois group](#AbsoluteGaloisGroup), $Gal(\overline{\mathbb{Q}},\mathbb{Q})$ of the rational numbers and its **geometric** action on moduli spaces of Riemann surfaces. This is discussed in [[Long March]]. Other entries that relate to this include [[anabelian geometry]], [[children's drawings]] (in other words _Dessins d'enfants_, which is the study of graphs embedded on surfaces, their classification and the link between this and Riemann surfaces) and the [[Grothendieck-Teichmuller group]]. 
 
-The anabelian question is: _how much information about the isomorphism calss of an algebraic variety, $X$ is contained in the &#233;tale fundamental group of $X$?_  Grothendieck calls varieties which are completely determined by their [[etale fundamental group|étale fundmental group]], _anabelian varieties_.  His anabelian dream was to classify the anabelian varieties in all dimensions over all fields.  This can be seen to relate to questions of the &#233;tale homotopy types of varieties.
+The anabelian question is: _how much information about the isomorphism class of an algebraic variety, $X$ is contained in the &#233;tale fundamental group of $X$?_  Grothendieck calls varieties which are completely determined by their [[etale fundamental group|étale fundmental group]], _anabelian varieties_.  His anabelian dream was to classify the anabelian varieties in all dimensions over all fields.  This can be seen to relate to questions of the &#233;tale homotopy types of varieties.
 +--{: .query}
 Tim: I have a feeling that this anabelian question should have a form that generalises to higher dimensions. (Not that I can shed much light on progress in dimension one.) Perhaps there is an anabelian version of the homotopy hypothesis or something of that nature.
 =--
