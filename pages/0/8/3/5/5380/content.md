@@ -30,13 +30,26 @@ is the corresponding projective space.
 
 For $T$ the theory of commutative [[ring]]s, $\mathbb{A}^1$ is the standard [[affine line]]. In this case $\mathbb{P}_n$ is (...)
 
-**Claim**
++-- {: .un_prop}
+###### Proposition
 
-For $R$ a commutative ring, an [[action]] of $\mathbb{G}$ on $Spec R$ is equivalently a $\mathbb{Z}$-grading on $R$.
+For $R$ a commutative ring, there is a [[natural isomorphism]] between
 
-Sketch of the proof:
+* $\mathbb{Z}$-gradings on $R$;
 
-Notice that the product structure on $\mathbb{G}$
+* $\mathbb{G}$-[[action]]s on $R$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First notice the structure of $\mathbb{G}$.
+
+We have that $\mathbb{G} = Spec \mathbb{Z}[t, t^{-1}] \simeq 
+\mathbb{Z}[ [ t ] ]$.
+
+The product structure on $\mathbb{G}$
 
 $$
   \mathbb{G} \times \mathbb{G} \to \mathbb{G}
@@ -45,7 +58,8 @@ $$
 is dually the ring homomorphism
 
 $$
-  \mathbb{Z}[t_1, t_2] \leftarrow \mathbb{Z}[t]
+  \mathbb{Z}[ [ t_1, t_2] ] \leftarrow \mathbb{Z}[ [t ] ]
+  \,.
 $$
 
 given by
@@ -55,7 +69,27 @@ $$
   \,.
 $$
 
-Let $R$ be a $\mathbb{Z}$-graded commutative ring. Then $X = Spec R$ comes with a $\mathbb{G}$-action given as follows: the action morphism
+The unit 
+
+$$
+  * \to \mathbb{G}
+$$
+
+is dually the ring homomorphism
+
+$$
+  \mathbb{Z} \leftarrow \mathbb{Z}[ [ t ] ]
+$$
+
+given by
+
+$$
+  t \mapsto 1 
+  \,.
+$$
+
+
+Now for the first direction, let $R$ be a $\mathbb{Z}$-graded commutative ring. Then $X = Spec R$ comes with a $\mathbb{G}$-action given as follows: the action morphism
 
 $$
  \rho :  X \times \mathbb{G} \to X
@@ -64,7 +98,7 @@ $$
 is dually the ring homomorphism
 
 $$
-  R \otimes \mathbb{Z}[t] \leftarrow R
+  R \otimes \mathbb{Z}[ [t ] ] \leftarrow R
 $$
 
 defined on homogeneous elements $r$ of degree $n$ by
@@ -82,27 +116,63 @@ $$
      \\
      {}^{\mathllap{\rho} \times Id}\downarrow && \downarrow^{\mathrlap{\rho}}
      \\
-     X \times \mathbb{G} &\to& X
+     X \times \mathbb{G} &\stackrel{\rho}{\to}& X
   }
 $$
 
-is equivalently the equation
+1is equivalently the equation
 
 $$
   r (t_1)^n \cdot (t_2)^n = r (t_1 \cdot t_2)^n
-  \,.
 $$
 
-Similarly the unitality of the action is the equation
+for all $n \in \mathbb{Z}$. Similarly the [[unitality]] of the action is the equation
 
 $$
   (1)^n = 1
   \,.
 $$
 
-Conversely, one finds that for every $R$ equipping $Spec R$ with a $\mathbb{G}$-action is the same as putting a $\mathbb{Z}$-grading on $R$.
+Conversely, given an action of $\mathbb{G}$ on $Spec R$ we have some morphism
+
+$$
+  R[ [ t ] ] \leftarrow R
+$$
+
+that sends
+
+$$
+  r \mapsto \sum_{n \in \mathbb{Z}} r_n t^n
+  \,.
+$$
+
+
+By the action property we have that 
+
+$$
+  \sum_n r_n (t_1 t_2)^n = \sum_{n,k} (r_n)_k t_1^n t_2^k
+  \,.
+$$
+
+Hence 
+
+$$
+  (r_n)_k = 
+  \left\{
+    \array{
+       r_n & if \; n = k
+       \\
+       0 & otherwise
+    }
+  \right.
+$$
+
+and so the morphism gives a decomposition of $R$ into pieces labeled by $\mathbb{Z}$.
+
+=--
 
 ## References
+
 
 An introduction to projective spaces over the theory of ordinary commutative rings is in
 
