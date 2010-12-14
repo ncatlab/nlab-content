@@ -6,6 +6,20 @@ such that $F(a) = 0$.
 One sometimes says that $T$ is the localizing subcategory associated with quotient (or localized) category $B$. A localizing subcategory $Ker F$ determines $F$ up to equivalence of categories commuting with the localization functors. Localizing subcategories are precisely those for which are topologizing, closed under extensions and closed under all colimits which exist in $A$. In other words, $A$ and $A''$ are in $T$ iff
 any given extension $A'$ of $A$ by $A''$ is in $T$; and it is closed under colimits existing in $A$. 
 
+## In Grothendieck categories
+ 
+For a(weakly) [[Serre subcategory]] $T$ in a Grothendieck category $A$ the following are equivalent:
+
+(i) $T$ is localizing 
+
+(ii) $T$ is closed under coproducts
+
+(iii) $T$ is cocomplete (closed under arbitrary colimits)
+
+(iv) any colimit of objects in $T$ in $A$ belongs to $T$
+
+(v) the corresponding localizing functor $F: A\to A/T$ preserves colimits
+
 ## Localizing subcategories in $_R Mod$. 
 
 There is a canonical correspondence between [[topologizing filter]]s of a unital ring and localizing subcategories in the category of (say left) unital modules of the ring.
