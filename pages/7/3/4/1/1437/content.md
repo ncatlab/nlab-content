@@ -32,7 +32,7 @@ $$\theta \circ f = F(f) \circ F(\theta) = F(f \circ \theta) = F(1_x) = 1_{F x}$$
 where the first equation holds because $f$ is a coalgebra map. This completes the proof.
 =--
 
-To construct terminal coalgebras, the following result is useful and practical: 
+To construct terminal coalgebras, the following result is useful and practical. See [[Adamek's theorem on terminal coalgebras]] for an extension of this result. 
 
 +-- {: .un_theorem}
 ###### Theorem (Adamek)
