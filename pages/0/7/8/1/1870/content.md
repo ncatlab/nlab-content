@@ -77,3 +77,7 @@ A more refined description  of this is in section 4.4.3 _Twisted vector bundles_
 * U. Schreiber, [[Konrad Waldorf]], _Connections on non-abelian Gerbes and their Holonomy_ ([arXiv](http://arxiv.org/abs/0808.1923))
 
 The above formulation of the relevant homotopies evolved from the joint work mentioned at [[twisted cohomology]] and in particular from interaction with [[Thomas Nikolaus]].
+
+An approach via twisted vector bundles is in 
+
+* Max Karoubi, _Twisted bundles and twisted K-theory_, [arxiv/1012.2512](http://arxiv.org/abs/1012.2512) 
