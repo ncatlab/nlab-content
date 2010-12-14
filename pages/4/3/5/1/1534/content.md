@@ -83,7 +83,7 @@ Every [[Hausdorff space]] admits a factorizing cover.
 
 For a factorizing cover $\{U_i \to U\}_{i \in I}$ write $P I$ for the set of finite subsets $\alpha \subset I$ such that for $j,j' \in \alpha$ we have $U_j \cap U_{j'} = \emptyset$. 
 
-Given a [prefactorization algebra](#PrefactorizationAlgebra) $\mathcal{F}$ and $\alpga \in P I$ write 
+Given a [prefactorization algebra](#PrefactorizationAlgebra) $\mathcal{F}$ and $\alpha \in P I$ write 
 
 $$
   \mathcal{F}(\alpha) := \otimes_{j \in \alpha} F(U_j)
