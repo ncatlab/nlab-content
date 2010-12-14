@@ -1,15 +1,15 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(\infty,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include quasi-category theory contents]]
 =--
 =--
 =--
 
-Entries on the [[HomePage|nLab]] that use the **implicit $\infty$-category theory convention** leave the "$\infty$"-symbol notationally implicit when working in [[(∞,1)-category theory]].
+Entries on the [[HomePage|nLab]] that use the **implicit $\infty$-category theory convention** leave the "$\infty$" symbol notationally implicit when working in [[(∞,1)-category theory]].
 
 In this convention
 
@@ -35,8 +35,10 @@ In this convention
 
 Etc.
 
+
 category: meta
 
+[[!redirects implicit infinity-category theory convention]]
 [[!redirects implicit ∞-category theory convention]]
 [[!redirects implicit (infinity,1)-category theory convention]]
 [[!redirects implicit (∞,1)-category theory convention]]
