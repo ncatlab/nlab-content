@@ -1,7 +1,7 @@
 In a category $C$ with a notion of [[short exact sequence]] (e.g. any [[semiabelian category]], [[Quillen exact category]] etc.) an extension of an object $X$ by an object $Y$ is any object $Z$ fitting in a short exact sequence
 
 $$ 
-X \stackrel{i}\to Z\stackrel{p}\to Y
+X \stackrel{i}\hookrightarrow Z\stackrel{p}\rightarrowtail Y
 $$
 
 For example, in the category of (possibly nonabelian) groups one has a short exact sequence usually denoted $1\to X\to Z\to Y\to 1$. 
