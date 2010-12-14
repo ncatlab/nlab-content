@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[group object]] in an ordinary [[category]] $C$ with [[pullback]]s is [[internalization|internal]] [[group]]. More generally, there is the notion of an [[internal groupoid]] in a category $C$.
+A [[group object]] in an ordinary [[category]] $C$ with [[pullback]]s is an [[internalization|internal]] [[group]]. More generally, there is the notion of an [[internal groupoid]] in a category $C$.
 
 By the logic of [[vertical categorification]], an **internal $\infty$-group** or **[[internal ∞-groupoid]]** may be defined as a group(oid) object internal to an [[(∞,1)-category]] $C$ with pullbacks. As described there, in full generality this involves not only a weakening of the usual associativity and unit laws up to [[homotopy]], but requires specification of coherence laws of these homotopies up to higher homotopy, and so on.
 
