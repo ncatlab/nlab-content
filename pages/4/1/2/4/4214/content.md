@@ -41,6 +41,16 @@ Given such a companion pair, we say that $f$ and $f'$ are **companions** of each
 
 * Companion pairs and mate-pairs of 2-cells between them in any double category $D$ form a 2-category $Comp(D)$.  The functor $Comp\colon DblCat \to 2Cat$ is right adjoint to the functor $Sq\colon 2Cat \to DblCat$ sending a 2-category to its double category of squares.
 
+## References
+
+## References
+
+* [[Marco Grandis]] and [[Robert Pare]], *Adjoints for double categories*
+
+* [[Robert Dawson]] and [[Robert Pare]] and [[Dorette Pronk]], *The Span construction*, [TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html).
+
+* [[Michael Shulman]], *Framed bicategories and monoidal fibrations*, [TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)
+
 
 [[!redirects companion]]
 [[!redirects companions]]
