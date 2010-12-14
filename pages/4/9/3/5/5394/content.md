@@ -7,7 +7,7 @@
 
 for $A$ a an [[associative algebra]], not necessatily commutative, its collection $ComSub(A)$ of commutative subalgebras $B \hookrightarrow A$ is naturally a [[poset]] under inclusion of subalgebras. Moreover, $ComSub(A)$ is a complete [[semilattice]].
 
-Various authors have proposed that the [[noncommutative geometry]] encoded by the formal dual of $A$ is to be understood as commutative geometry inside a [[topos]] over $ComSub(A)$ or its [[opposite category|opposite]] $ComSub(A)^{op}$. For instance the [[Kochen-Specker theorem]] turns into a geometric statement about the topos-theoretic space dual to $A$ (namely saying that it has no [[point]]s.)
+Various authors have proposed that for the case that $A$ is a [[C-star algebra]] the [[noncommutative geometry]] encoded by the formal dual of $A$ is to be understood as commutative geometry inside a [[topos]] over $ComSub(A)$ or its [[opposite category|opposite]] $ComSub(A)^{op}$. For instance the [[Kochen-Specker theorem]] turns into a geometric statement about the topos-theoretic space dual to $A$ (namely saying that it has no [[point]]s.)
 
 ## Properties
 
