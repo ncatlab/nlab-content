@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Given a unital, not necessarily commutative, complex $C^*$-[[C*-algebra|algebra]] $A$, the set of its continuous _[[character]]s_, that is continuous nonzero linear homomorphisms into the field of [[complex number]]s, is canonically equipped with a so-called __spectral topology__ which is [[compactum|compact Hausdorff]]. (If applied to a nonunital $C^*$-algebra, then it is only [[locally compact space|locally compact]].) This correspondence extends to a [[functor]], called the __Gel'fand spectrum__ (also Gelfand, originally &#1043;&#1077;&#1083;&#1100;&#1092;&#1072;&#1085;&#1076;) from the category of unital $C^*$-algebras to the category of Hausdorff spaces, which is full and faithful when restricted to the subcategory of commutative unital $C^*$-algebras. The [[kernel]] of a character is clearly a codimension-$1$ closed subspace, and in particular a closed [[maximal ideal]] in $A$; therefore the Gel'fand spectrum is a topologised analogue of the [[maximal spectrum]] of a discrete algebra. 
 
 +-- {: .query}
@@ -7,6 +14,12 @@ For noncommutative $C^*$-algebras the spaces of equivalence classes of irreducib
 
 -Jonas Meyer
 =--
+
+## Related concepts
+
+* **Gelfand spectrum**
+
+* [[constructive Gelfand duality theorem]]
 
 [[!redirects Gel'fand spectrum]]
 [[!redirects Gel'fand spectrum]]
