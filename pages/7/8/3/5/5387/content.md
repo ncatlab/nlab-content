@@ -31,15 +31,17 @@ is an equivalence, where $IsoIns(Hom(X,f),Hom(X,g))$ denotes the category whose 
 
 Iso-inserters and strict iso-inserters can be described as a certain sort of [[weighted limit|weighted]] 2-limit, where the diagram shape is the [[walking structure|walking]] parallel pair $P = (\cdot \rightrightarrows\cdot)$ and the weight $P\to Cat$ is the diagram
 $$1 \;\rightrightarrows\; Iso$$
-where $1$ is the [[terminal category]] and $Iso$ is the walking isomorphism.  Note that iso-inserters are not equivalent to any sort of [[conical limit|conical]] 2-limit.
+where $1$ is the [[terminal category]] and $Iso$ is the walking [[isomorphism]].
 
 An iso-inserter in $K^{op}$ (see [[opposite 2-category]]) is called a **co-iso-inserter** in $K$.
 
 ## Properties
 
-* Any iso-inserter is a [[faithful morphism]], but not in general fully faithful.
+* Any iso-inserter is a [[faithful morphism]], and also a [[conservative morphism]], but not in general a [[fully faithful morphism]].
 
 * Any strict iso-inserter is, in particular, an iso-inserter.  (This is not true for all strict 2-limits.)
+
+* Since $Iso$ is [[equivalence of categories|equivalent]] to $1$, iso-inserters (but not strict iso-inserters) can equivalently be described as the [[conical limit]] of a diagram of shape $P$, which might be called a (non-strict) *pseudo-equalizer*.  A strict pseudo-equalizer---that is, a [[strict pseudolimit]] of a diagram of shape $P$---is not the same as a strict isoinserter, but if it exists, a strict pseudo-equalizer is also, in particular, a (non-strict) iso-inserter.  The relationship between isoinserters and pseudoequalizers is analogous to the relationship between [[iso-comma-objects]] and [[pseudo-pullbacks]].
 
 * Iso-inserters can be constructed as an [[inserter]] followed by an [[inverter]] (for both the strict and non-strict versions).  In particular, it follows that strict iso-inserters are a type of [[PIE-limit]].
 
@@ -58,3 +60,6 @@ An iso-inserter in $K^{op}$ (see [[opposite 2-category]]) is called a **co-iso-i
 [[!redirects co-iso-inserters]]
 [[!redirects strict co-iso-inserter]]
 [[!redirects strict co-iso-inserters]]
+[[!redirects pseudo-equalizer]]
+[[!redirects strict pseudo-equalizer]]
+[[!redirects biequalizer]]
