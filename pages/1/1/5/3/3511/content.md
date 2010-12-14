@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
 
 **$(\infty,1)Cat$** is the [[(∞,2)-category]] of all small [[(∞,1)-categories]].
 
@@ -140,6 +151,17 @@ $$
 
 
 =--
+
+## Related concepts
+
+* [[Cat]]
+
+* [[2Cat]]
+
+* **$(\infty,1)$Cat**
+
+* [[(∞,n)Cat]]
+
 
 category: category
 
