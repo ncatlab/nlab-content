@@ -17,7 +17,7 @@
 
 ## Idea 
 
-The **little $k$-disk operad** or **little $k$-cubes operad** (to distinguish from the [[framed little n-disk operad]]) is the [[topological operad]]/[[(∞,1)-operad]] whose $n$-ary operations are parameterized by rectilinear disjoint embeddings of $n$ $k$-dimensional cubes into another $k$-dimensional cube.
+The **little $k$-disk operad** or **little $k$-cubes operad** (to distinguish from the [[framed little n-disk operad]]) is the [[topological operad]]/[[(∞,1)-operad]] $E_k$ whose $n$-ary operations are parameterized by rectilinear disjoint embeddings of $n$ $k$-dimensional cubes into another $k$-dimensional cube.
 
 When regarded as a [[topological operad]], the topology on the space of all such embedding is such that a continuous path is given by continuously moving the images of these little cubes in the big cube around.
 
