@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -10,7 +9,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -34,15 +33,15 @@ This is equivalent to the following definition.
 +-- {: .un_defn}
 ###### Definition
 
-A Heyting algebra is a [[poset]] wich is
+A Heyting algebra is a [[poset]] which is
 
 * [[finitely complete category|finitely complete]], 
 
 * finitely cocomplete, 
 
 * and [[cartesian closed category|cartesian closed]].
-
 =--
+
 In particular it is [[bicartesian closed category|bicartesian closed]].
 
 The implication $a\Rightarrow b$ is the [[exponential object]] $b^a$. 
@@ -79,7 +78,8 @@ A Heyting algebra [[homomorphisms]] is a morphism of the underlying [[lattice]]s
 ### To logic
 
 
-In [[logic]], Heyting algebras are precisely algebraic models for [[intuitionistic logic|intuitionistic]] [[propositional calculus]], just as [[Boolean algebra|Boolean algebras]] model [[classical logic|classical]] propositional calculus. As one might guess from this description, the "law of the excluded middle" does not generally hold in a Heyting algebra; see the discussion below. 
+In [[logic]], Heyting algebras are precisely algebraic models for [[intuitionistic logic|intuitionistic]] [[propositional calculus]], just as [[Boolean algebra|Boolean algebras]] model [[classical logic|classical]] propositional calculus. As one might guess from this description, the "law of the [[excluded middle]]" does not generally hold in a Heyting algebra; see the discussion below. 
+
 
 ### To topology
 
@@ -104,9 +104,9 @@ Topologies that are Boolean algebras are the exception rather than the rule; bas
 
 ### To Boolean algebras 
 
-In any Heyting algebra $L$, we may define a negation operator 
+In any Heyting algebra $L$, we may define a [[negation]] operator 
 
-$$\neg: L^{op} \to L$$ 
+$$\neg\colon L^{op} \to L$$ 
 
 by $\neg x = (x \Rightarrow 0)$, where $0$ is the bottom element of the lattice. A Heyting algebra is Boolean if the [[double negation]] 
 
@@ -142,7 +142,7 @@ $$i: Bool \hookrightarrow Heyt.$$
 The unit of the [[adjoint functor|adjunction]], applied to a Heyting algebra $L$, is the map $L \to L_{\neg\neg}$ which maps each element $x$ to its _[[regular element|regularization]]_ $\neg\neg x$.
 =--
 
-Thus $\neg\neg: L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i: L_{\neg\neg} \to L$, and this preserves meets but not joins, and negations but not implications generally. 
+Thus $\neg\neg\colon L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i\colon L_{\neg\neg} \to L$, and this preserves meets but not joins, and negations but not implications generally. 
 
 
 ### To toposes
@@ -158,6 +158,8 @@ An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra:
 
 For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]], the poset $Sub(X)$ of [[subobject]]s of $X$ is a Heyting algebra.
 
+In other words, every topos is a [[Heyting category]].
+
 =--
 
 In particular for $X = \Omega$ the [[subobject classifier]], $Sub(\Omega)$ is a Heyting algebra.
@@ -167,4 +169,6 @@ In $\mathcal{T} =$ [[Set]] for every set $S$ we have that $Sub(S)$ is the [[Bool
 
 More details and examples are spelled out at [[internal logic]].
 
+
+[[!redirects Heyting algebra]]
 [[!redirects Heyting algebras]]
