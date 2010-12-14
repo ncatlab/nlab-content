@@ -37,7 +37,7 @@ The notion of operad (and allied notions such as [[PROP]], [[club]], [[multicate
 
 The original definition is due to [[Peter May]] and was given in his book ([The Geometry of Iterated Loop Spaces](#May)). It describes an operad as a collection of operations equipped with a notion of composition and subject to various conditions. 
 
-This definition is essentially that of an [[enriched category]], only that the [[hom-object]]s are allowed to go from more than object to a given output object.
+This definition is essentially that of an [[enriched category]], only that the [[hom-object]]s are allowed to go from more than one object to a given output object.
 
 There is a more abstract way to encode all this simply as a [[monoid]] in a suitable ambient [[monoidal category]]. This more abstract definition we discuss below in [A detailed conceptual treatment](#Conceptual).
 
@@ -45,7 +45,7 @@ There is a more abstract way to encode all this simply as a [[monoid]] in a suit
 ### Plain operads {#PedestrianDefOperad}
 
 Let $V$ be a [[symmetric monoidal category]]. A 
-(_permutative_ or _symmetric_) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the [[natural number]]s $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
+( _permutative_ or _symmetric_) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the [[natural number]]s $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
 
 * Right actions of [[symmetric group]]s $\rho_n: S_n \to \hom(F(n), F(n))$; 
 * A _unit_ $e: I \to F(1)$ [which we think of as picking out the identity map as unary operation]; 
