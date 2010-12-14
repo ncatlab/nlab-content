@@ -1,19 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-# Idea
-From the physical point of view there are two different reasons to consider the [[Haag-Kastler axioms|Haag-Kastler]] approach on more general manifolds than the Minkowski [[spacetime]]:
+## Idea
+From the physical point of view there are two different reasons to consider the [[Haag-Kastler axioms|Haag-Kastler]] approach on more general [[spacetime]]s than the [[Minkowski spacetime]]:
 
-* It is expected that such a theory, while not solving the problem to construct a theory of quantum gravity, would still have a wide range of validity.
+* It is expected that such a theory, while not solving the problem to construct a theory of [[quantum gravity]], would still have a wide range of validity.
 
-* From a conceptual viewpoint abandoning the special situation of the Minkowski spacetime could lead to the development of new ideas and tools that turn out to be helpful to understand the concept of a quantum field theorie better.
+* From a conceptual viewpoint abandoning the special situation of the Minkowski spacetime could lead to the development of new ideas and tools that turn out to be helpful to understand the concept of a [[quantum field theory]] better.
 
-The first point deserves some elaboration: The curved manifolds under consideration are supposed to be solutions to the field equations of General Relativity, i.e. physically realistic spacetimes, so that gravity is modelled classically by the curvature of spacetime. A quantum field theory on such a spacetime should be able to model the situation of elementary particles that feel the effects of gravity while neglecting the effect that the particles themselves have on spacetime (the notion of "particle" is highly nontrivial and problematic in this setting and is to be understood in a metaphorical sense in the given context). Example: If you let an electron drop from your hand to the ground, that would be a situation that the theory is supposed to describe.
+The first point deserves some elaboration: The curved manifolds under consideration are supposed to be solutions to the field equations of [[General Relativity]], i.e. physically realistic spacetimes, so that [[gravity]] is modelled classically by the [[curvature]] of [[spacetime]]. A quantum field theory on such a spacetime should be able to model the situation of elementary particles that feel the effects of gravity while neglecting the effect that the particles themselves have on spacetime (the notion of "particle" is highly nontrivial and problematic in this setting and is to be understood in a metaphorical sense in the given context). 
+
+Example: If you let an electron drop from your hand to the ground, that would be a situation that the theory is supposed to describe.
 While a full theory of quantum gravity still eludes us, a theory of quantum fields on curved spacetimes could be useful as a kind of interpolation. In a certain sense this is already the case, since the [laws of black hole thermodynamics] (http://en.wikipedia.org/wiki/Black_hole_thermodynamics) were first discovered with the help of this setting.
 
 
-#References
+## References
 
 A classic reference is this:
 
