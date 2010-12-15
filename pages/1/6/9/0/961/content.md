@@ -25,9 +25,9 @@ Any [[kernel pair]] is a congruence; a congruence which is the kernel pair of so
 
 ## Examples
 
-An [[equivalence relation]] is precisely a congruence in [[Set]].
+* An [[equivalence relation]] is precisely a congruence in [[Set]].
 
-The eponymous example is congruence modulo $n$ (for a fixed [[natural number]] $n$), which is a congruence on $\mathbf{N}$ in the category of [[rig]]s.
+* The eponymous example is congruence modulo $n$ (for a fixed [[natural number]] $n$), which can be considered a congruence on $\mathbb{N}$ in the category of [[rig]]s, or on $\mathbb{Z}$ in the category of [[rings]].
 
 
 ## Related pages
