@@ -71,6 +71,8 @@ $$
 
 * [[site]]
 
+* [[2-site]]
+
 * [[(∞,1)-site]]
 
   * [[model site]], **simplicial site**
