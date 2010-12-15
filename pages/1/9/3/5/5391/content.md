@@ -3,7 +3,13 @@
 * table of contents
 {:toc}
 
-## Definition
+## Extension of maps
+
+One classically consider __extensions of a morphism__ $f: A\to Y$ along monomorphisms $i: A\hookrightarrow X$ as a morphism $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i = f$. For example, [[Tietze extension theorem]] is about such *extensions of continuous maps* from a subspace to a normal toplogical space. One sometimes, extends along more general morphisms than monomorphisms. 
+
+The dual problem is the problem of **lifting** of a morphism $p: Y\to B$ along an epimorphism (or more general map) $f:X\to B$ as a morphism $\tilde{f}: Y\to X$ such that $f = p\circ\tilde{f}$.
+
+## Extension of an object by another object 
 
 In a [[category]] $C$ with a notion of [[short exact sequence]] (e.g. any [[semiabelian category]], [[Quillen exact category]] etc.) an **extension** of an object $X$ by an object $Y$ is any object $Z$ fitting in a short exact sequence
 
@@ -15,7 +21,7 @@ $$
 Classification of extensions in many categories is obtained using a [[forgetful functor]] $C\to D$ to a simpler category $D$, which preserves short exact sequences. For example, if all extensions in $D$ are isomorphic to $X\coprod Y$, then one looks for an additional structure in $C$ needed to equip the coproduct $X\coprod Y$ with a structure of an object in $C$ such that the $i$ and $p$ are morphisms in
 $C$ making above a short exact sequence in $C$.
 
-## Examples 
+#### Examples 
 
 For example, in the category [[Grp]] of (possibly nonabelian) groups one has a short exact sequence usually denoted $1\to X\to Z\to Y\to 1$ corresponding to a [[group extension]].
 
