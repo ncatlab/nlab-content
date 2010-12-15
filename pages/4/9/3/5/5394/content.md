@@ -11,13 +11,14 @@ For $A$ a an [[associative algebra]], not necessatily commutative, its collectio
 
 ### As a site for noncommutative geometry
 
-Various authors have proposed ([Butterfield, Hamilton, Isham](#ButterfieldHamiltonIsham), [D&#246;ring, Isham](#DoeringIsham), [Heunen, Landsman, Spitters](#HeunenLandsmanSpitters)) that for the case that $A$ is a [[C-star algebra]] the [[noncommutative geometry]] of the [[Isbell duality|formal dual]] [[space]] $\Sigma(A)$ of $A$ may be understood as commutative [[geometry]] [[internalization|internal]] to a [[sheaf topos]] $\mathcal{T}_A$ over $ComSub(A)$ or its [[opposite category|opposite]] $ComSub(A)^{op}$. 
+Various authors have proposed ([Butterfield-Hamilton-Isham](#ButterfieldHamiltonIsham), [D&#246;ring-Isham](#DoeringIsham), 
+[Heunen-Landsmann-Spitters](#HeunenLandsmanSpitters)) that for the case that $A$ is a [[C-star algebra]] the [[noncommutative geometry]] of the [[Isbell duality|formal dual]] [[space]] $\Sigma(A)$ of $A$ may be understood as a commutative [[geometry]] [[internalization|internal]] to a [[sheaf topos]] $\mathcal{T}_A$ over $ComSub(A)$ or its [[opposite category|opposite]] $ComSub(A)^{op}$. 
 
 Specifically, when applied to the algebra $A = B(\mathcal{H})$ of [[bounded operator]]s on a [[Hilbert space]], the [[locale]] $\Sigma(A)$ internal to $\mathcal{T}_A$ behaves like the noncommutative [[phase space]] of a system of [[quantum mechanics]], which however internally looks like an ordinary commutative geometry. Various statements about [[operator algebra]] then have geometric analogs in $\mathcal{T}_A$. 
 
 Notably the [[Kochen-Specker theorem]] says that $\Sigma(B(\mathcal{H}))$, while nontrivial, has no [[point]]s/no [[global element]]s. (This topos-theoretic geometric reformulation of the Kochen-Specker theorem had been the original motivation for considering $ComSub(A)$ in the first place in [ButterfieldIsham](#ButterfieldIsham)).
 
-Moreover, inside $\mathcal{T}_A$ the [[quantum mechanics|quantum mechanical]] kinematics encoded by $B(\mathcal{H})$ looks like [[classical mechanics]] kinematics internal to $\mathcal{T}_A$ ([HeunenLandsmannSpitters](#HeunenLandsmanSpitters)):
+Moreover, inside $\mathcal{T}_A$ the [[quantum mechanics|quantum mechanical]] kinematics encoded by $B(\mathcal{H})$ looks like [[classical mechanics]] kinematics internal to $\mathcal{T}_A$ [HeunenLandsmannSpitters](#HeunenLandsmanSpitters), following [D&#246;ringIsham](#DoeringIsham)):
 
 1. the [[open subset]]s of $\Sigma(A)$ are identified with the quantum [[state]]s on $A$. Their collection forms the [[Heyting algebra]] of quantum logic.
 
@@ -26,9 +27,27 @@ Moreover, inside $\mathcal{T}_A$ the [[quantum mechanics|quantum mechanical]] ki
 
 ## Properties
 
-### Relation to Jordan algebras
+### Relation to Jordan algebras {#RelationToJordanAlgebras}
 
 For $A$ an [[associative algebra]] write $A_J$ for its corresponding [[Jordan algebra]], where the commutative product $\circ : A_J \otimes A_J \to A_J$ is the symmetrization of the product in $A$: $a \circ b = \frac{1}{2}(a b + b a)$.
+
++-- {: .un_lemma}
+###### Observation
+
+There exist von Neumann algebras $A$, $B$ such that there exists a Jordan algebra isomorphism $A_J \to B_J$ but not an algebra isomorphism $A \to B$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By 
+
+* [[Alain Connes]], _A factor not anti-isomorphic to itself_, Annals of Mathematics, 101 (1962), no. 3, 536&#8211;554. ([JSTOR](http://www.jstor.org/stable/1970940))
+
+there is a [[von Neumann algebra factor]] $A$ with no algebra isomorphism to its opposite algebra $A^{op}$. But clearly $A_J \simeq (A^{op})_J$.
+
+=--
 
 +-- {: .un_prop}
 ###### Proposition
@@ -44,10 +63,16 @@ This is the theorem in ([HardingD&#246;ring](#HardingDoering)).
 
 ### The locale $\Sigma(A)$
 
++-- {: .un_def}
+###### Definition
+
+For $A$ a [[C-star algebra]], write $ComSub(A)$ for its [[poset]] of sub-$C^*$-algebras. Write $\mathcal{T}_A := [ComSub(A),Set]$ for the [[presheaf topos]] on $ComSub(A)^{op}$.
+
+=--
+
 +-- {: .un_prop}
 ###### Proposition
 
-For $A$ a [[C-star algebra]], write $ComSub(A)$ for its [[poset]] of sub-$C^*$-algebras. Write $\mathcal{T}_A := [ComSub(A),Set]$ for the [[presheaf topos]] on $ComSub(A)^{op}$.
 
 The [[presheaf]]
 
@@ -56,7 +81,7 @@ $$
   \,,
 $$
 
-where $U(B)$ is the underlying [[set]] of the commutative subalgebra $B$, is canonically a commutive $C^*$-algebra [[internalization|internal]] to $\mathcal{T}_A$.
+where $U(B)$ is the underlying [[set]] of the commutative subalgebra $B$, is canonically a commutative $C^*$-algebra [[internalization|internal]] to $\mathcal{T}_A$.
 
 =--
 
