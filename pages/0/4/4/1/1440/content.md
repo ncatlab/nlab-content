@@ -32,5 +32,8 @@ A detailed construction and discjussion in terms of the [[model category]] [[pre
 
 * [[David Spivak]], _Derived smooth manifolds_ ([arXiv:0810.5174](http://arxiv.org/abs/0810.5174))
 
+Someting roughly related is discussed in
+
+* [[Dominic Joyce]], _D-orbifolds, Kuranishi spaces, and polyfolds_ talk notes (Jan 2010) ([pdf](http://people.maths.ox.ac.uk/joyce/dmtalk.pdf))
 
 [[!redirects derived smooth manifolds]]
