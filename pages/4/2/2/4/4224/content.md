@@ -1,6 +1,12 @@
+
+# Stone duality
+* table of contents
+{: toc}
+
 ## Idea
 
 Stone duality is a subject comprising various [[dualities]] between [[space and quantity]] in the area of general topology and topological algebra.
+
 
 ## Particular cases
 
@@ -8,21 +14,26 @@ Stone duality is a subject comprising various [[dualities]] between [[space and 
 
 Perhaps the most generality duality falling under this heading is that between [[locales]] (on the [[space]] side) and [[frames]] (on the [[quantity]] side).  Of course, this duality is not very deep at all; the category [[Loc]] of locales is simply *defined* to be the [[opposite category|opposite]] of the category [[Frm]] of frames.  But there are several interesting dualities between [[subcategories]] of these.
 
+
 ### Topological spaces
 
 Stone duality is often described for [[topological spaces]] rather than for [[locales]].  In this case, the most general duality is that between [[sober spaces]] and frames with enough points (which correspond to [[topological locale]]s).  In many cases, one requires the [[ultrafilter theorem]] (or other forms of the [[axiom of choice]]) in order for the duality to hold when applied to topological spaces, while the duality holds for locales even in [[constructive mathematics]].
+
 
 ### Coherent spaces and distributive lattices
 
 Any [[distributive lattice]] generates a [[free object|free]] frame.  The locales which arise in this way can be characterized as the [[coherent locale]]s, and this gives a duality between distributive lattices and coherent locales.  Note that one must additionally restrict to "coherent maps" between coherent locales.  Also, at least assuming the [[axiom of choice]], every coherent locale is [[topological locale|topological]], so we may say "coherent space" instead.
 
+
 ### Stone spaces and Boolean algebras
 
 The duality which is due to [[Marshall Stone]], and which gives its name to the subject, is the duality between [[Stone spaces]] and [[Boolean algebras]].  Specifically, a distributive lattice is a Boolean algebra precisely when the free frame it generates is the topology of a Stone space, and any continuous map of Stone spaces is coherent.  Therefore, the category of Stone spaces is dual to the category of Boolean algebras.  The Boolean algebra corresponding to a Stone space consists of its [[clopen sets]].
 
+
 ### Stone spaces and profinite sets
 
 Note that a finite Stone space is necessarily discrete, and these correspond to the finite Boolean algebras, i.e. $FinSet \simeq FinStoneTop \simeq FinBool^{op}$.  However, since Boolean algebras form a [[locally finitely presentable category]], we have $Bool \simeq Ind(FinBool) \simeq Pro(FinSet)^{op}$ (see [[ind-object]] and [[pro-object]]).  In consequence, $StoneTop \simeq Pro(FinSet)$: i.e. [[Stone spaces]] are equivalent to *profinite sets*.
+
 
 ### Profinite algebras
 
@@ -45,15 +56,27 @@ All of these can be found in chapter VI of Johnstone's book cited below.
 
 The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)$ is not equivalent to $Pro(FinGpd)$, in contrast to the case for groups.  (Of course, groupoids are not described by a Lawvere theory.)
 
+
 ## References
 
 [[Peter Johnstone]]\'s book _[[Stone Spaces]]_ is all about Stone duality.
 
-[[!redirects profinite algebra]]
-[[!redirects Stone algebra]]
-[[!redirects Stone topological algebra]]
-[[!redirects profinite algebras]]
-[[!redirects Stone algebras]]
-[[!redirects Stone topological algebras]]
+
+[[!redirects Stone duality]]
+[[!redirects Stone dualities]]
+
 [[!redirects Stone representation theorem]]
+[[!redirects Stone representation theorems]]
 [[!redirects Stone's representation theorem]]
+[[!redirects Stone's representation theorems]]
+[[!redirects Stone's representation theorem]]
+[[!redirects Stone's representation theorems]]
+
+[[!redirects profinite algebra]]
+[[!redirects profinite algebras]]
+
+[[!redirects Stone algebra]]
+[[!redirects Stone algebras]]
+
+[[!redirects Stone topological algebra]]
+[[!redirects Stone topological algebras]]
