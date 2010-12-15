@@ -201,6 +201,8 @@ There seems to be a close relation between the description of [[quantum field th
 
 * Stefan Hollands, [arXiv:0802.2198](http://arxiv.org/abs/0802.2198)
 
-* Gregory Ginot, Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, [arxiv/1011.6483](http://arxiv.org/abs/1011.6483)
+The relation of locally constant factorization algebras to higher order [[Hochschild homology]] is in 
+
+* [[Gregory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, [arxiv/1011.6483](http://arxiv.org/abs/1011.6483)
 
 [[!redirects factorization algebras]]
