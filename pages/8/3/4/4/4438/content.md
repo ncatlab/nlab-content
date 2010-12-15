@@ -1,7 +1,15 @@
 
-<div class="rightHandSide toc">
+This entry is about the notion of [[site]] in [[2-category]] theory. For the notion "bisite" of a 1-categorical site equipped with two coverages see instead [[separated presheaf]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -63,6 +71,16 @@ Here if $R$ is a sieve on $U$ and $g:V\to U$ is a morphism, $g^*(R)$ denotes the
 
 As in the 1-categorical case, one can then show that every coverage generates a unique Grothendieck coverage having the same 2-sheaves.
 
+
+## Related concepts
+
+* [[site]]
+
+* **2-site**
+
+* [[(∞,1)-site]]
+
+  * [[model site]], [[simplicial site]]
 
 
 
