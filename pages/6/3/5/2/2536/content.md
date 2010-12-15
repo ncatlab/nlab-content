@@ -107,8 +107,7 @@ The formalism of Jordan algebras seems rather removed from the
 actual practice of physics, because in quantum theory we hardly ever
 take two observables $a$ and $b$ and form their Jordan product
 ${1\over 2}(ab + ba)$.  As hinted in the previous section, it is
-better to think of this operation as derived from the process of {\it
-squaring} an observable, which is something we actually do.  But
+better to think of this operation as derived from the process of _squaring_ an observable, which is something we actually do.  But
 still, one must ask: can we see the classification of finite-dimensional formally real Jordan algebras, and thus the special role of normed division algebras, as arising from some axioms more closely  tied to quantum theory as physicists usually practice it?
 
 One answer involves the Koecher--Vinberg classification of  self-dual homogeneous convex cones. Consider first the case of ordinary quantum theory.  If a quantum
@@ -228,6 +227,13 @@ $$             C \oplus C' = \{(v,v') \in V\oplus V' \colon \;
 v \in C, v' \in C' \} . $$
 
 In short: finite-dimensional formally real Jordan algebras arise fairly naturally as observables starting from a formalism where nonnegative observables form a cone, as long as we insist on some properties of this cone.
+
+## Relation to commutative subalgebras
+
+For every associative algebra there is its [[semilattice of commutative subalgebras]]  $ComSub(A)$. At least for $Am B$ [[von Neumann algebra]]s without type $I_2$ [[von Neumann algebra factor]]-subfactors, the isomorphisms $ComSub(A) \to ComSub(B)$ correspond to isomorphisms between the corresponding Jordan algebras $A_J \to B_J$.
+
+For more details see [[semilattice of commutative subalgebras]].
+
 
 ## References
 
