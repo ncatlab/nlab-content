@@ -5,32 +5,51 @@
 
 ## Idea
 
+### General
+
 For $A$ a an [[associative algebra]], not necessatily commutative, its collection $ComSub(A)$ of commutative subalgebras $B \hookrightarrow A$ is naturally a [[poset]] under inclusion of subalgebras. Moreover, $ComSub(A)$ is a complete [[semilattice]].
 
-Various authors have proposed that for the case that $A$ is a [[C-star algebra]] the [[noncommutative geometry]] encoded by the formal dual of $A$ is to be understood as commutative geometry inside a [[topos]] over $ComSub(A)$ or its [[opposite category|opposite]] $ComSub(A)^{op}$. For instance the [[Kochen-Specker theorem]] turns into a geometric statement about the topos-theoretic space dual to $A$ (namely saying that it has no [[point]]s.)
+### As a site for noncommutative geometry
+
+Various authors have proposed ([Butterfield, Hamilton, Isham](#ButterfieldHamiltonIsham), [D&#246;ring, Isham](#DoeringIsham), [Heunen, Landsman, Spitters](#HeunenLandsmanSpitters)) that for the case that $A$ is a [[C-star algebra]] the [[noncommutative geometry]] of the [[Isbell duality|formal dual]] [[space]] $\Sigma(A)$ of $A$ may be understood as commutative [[geometry]] [[internalization|internal]] to a [[sheaf topos]] $\mathcal{T}_A$ over $ComSub(A)$ or its [[opposite category|opposite]] $ComSub(A)^{op}$. 
+
+Specifically, when applied to the algebra $A = B(\mathcal{H})$ of [[bounded operator]]s on a [[Hilbert space]], the [[locale]] $\Sigma(A)$ internal to $\mathcal{T}_A$ behaves like the noncommutative [[phase space]] of a system of [[quantum mechanics]], which however internally looks like an ordinary commutative geometry. Various statements about [[operator algebra]] then have geometric analogs in $\mathcal{T}_A$. 
+
+Notably the [[Kochen-Specker theorem]] says that $\Sigma(B(\mathcal{H}))$, while nontrivial, has no [[point]]s/no [[global element]]s. (This topos-theoretic geometric reformulation of the Kochen-Specker theorem had been the original motivation for considering $ComSub(A)$ in the first place in [ButterfieldIsham](#ButterfieldIsham)).
+
+Moreover, inside $\mathcal{T}_A$ the [[quantum mechanics|quantum mechanical]] kinematics encoded by $B(\mathcal{H})$ looks like [[classical mechanics]] kinematics internal to $\mathcal{T}_A$ ([HeunenLandsmannSpitters](#HeunenLandsmanSpitters)):
+
+1. the [[open subset]]s of $\Sigma(A)$ are identified with the quantum [[state]]s on $A$. Their collection forms the [[Heyting algebra]] of quantum logic.
+
+1. [[observable]]s are morphisms of internal [[locale]]s $\Sigma(A) \to IR$, where $IR$ is the [[interval domain]].
+
 
 ## Properties
 
+### Relation to Jordan algebras
 
+For $A$ an [[associative algebra]] write $A_J$ for its corresponding [[Jordan algebra]], where the commutative product $\circ : A_J \otimes A_J \to A_J$ is the symmetrization of the product in $A$: $a \circ b = \frac{1}{2}(a b + b a)$.
 
 +-- {: .un_prop}
 ###### Proposition
 
-Let $A, B$ be [[von Neumann algebra]]s without a type $I_2$-[[von Neumann algebra factor]]-summand and let $ComSub(A)$, $ComSub(B)$ be their posets of commutative sub-von Neumann algebras. Let $A_J$ and $B_J$ be the canonical [[Jordan algebra]] structures on $A$ and $B$ (with product the symmetrization of the product in $A,B$). 
+Let $A, B$ be [[von Neumann algebra]]s without a type $I_2$-[[von Neumann algebra factor]]-summand and let $ComSub(A)$, $ComSub(B)$ be their posets of commutative sub-von Neumann algebras. 
 
-Then every [[isomorphism]] $ComSub(A) \to ComSub(B)$ of posets comes from a unique Jordan algebra isomorphism $A_j \to B_j$. 
+Then every [[isomorphism]] $ComSub(A) \to ComSub(B)$ of [[poset]]s comes from a unique Jordan algebra isomorphism $A_j \to B_j$. 
 
 =--
 
 This is the theorem in ([HardingD&#246;ring](#HardingDoering)).
 
 
+### The locale $\Sigma(A)$
+
 +-- {: .un_prop}
 ###### Proposition
 
 For $A$ a [[C-star algebra]], write $ComSub(A)$ for its [[poset]] of sub-$C^*$-algebras. Write $\mathcal{T}_A := [ComSub(A),Set]$ for the [[presheaf topos]] on $ComSub(A)^{op}$.
 
-The presheaf
+The [[presheaf]]
 
 $$
   (\mathbb{A} : B \mapsto U(B)) \;\; \in \mathcal{T}_A
@@ -43,16 +62,25 @@ where $U(B)$ is the underlying [[set]] of the commutative subalgebra $B$, is can
 
 This is ([HeunenLandsmanSpitters, theorem 5](#HeunenLandsmanSpitters)).
 
-+-- {: .un_prop}
-###### Proposition
++-- {: .un_cor}
+###### Corollary
 
-By the [[constructive Gelfand duality theorem]] there is a [[locale]] $\Sigma(A)$ internal to $\mathcal{T}_A$ canonically associated with $\mathbb{A}$.
-
-If $A = \mathcal{B}(H)$ is the algebra of [[bounded operator]]s on a [[Hilbert space]] $H$ of [[dimension]] $\gt 2$, then then [[Kochen-Specker theorem]] implies that $\Sigma(A)$ has no points.
+By the [[constructive Gelfand duality theorem]] there is uniqeuly a [[locale]] 
+$\Sigma(A)$ internal to $\mathcal{T}_A$ such that $\mathbb{A}$ is the internal commutative $C^*$-algebra of functions on $\Sigma(A)$.
 
 =--
 
-This is ([HeunenLandsmanSpitters, theorem 5](#HeunenLandsmanSpitters)).
+This observation is amplified in ([HeunenLandsmanSpitters](#HeunenLandsmanSpitters)).
+
+
++-- {: .un_prop}
+###### Proposition
+
+If $A = \mathcal{B}(H)$ is the algebra of [[bounded operator]]s on a [[Hilbert space]] $H$ of [[dimension]] $\gt 2$, then then [[Kochen-Specker theorem]] implies that $\Sigma(A)$ has no points/no [[global element]].
+
+=--
+
+This is ([HeunenLandsmanSpitters, theorem 6](#HeunenLandsmanSpitters)), following ([ButterfieldIsham](#ButterfieldIsham)).
 
 
 
@@ -70,11 +98,12 @@ The proposal that the the noncommutative geometry of $A$ is fruitfully studied v
 
   _III. Von Neumann algebras as the base category_ International Journal of
 Theoretical Physics, 39(6):1413&#8211;1436, 2000.
-
+  {#ButterfieldHamiltonIsham}
 
 The proposal that the non-commutativity of the [[phase space]] in [[quantum mechanics]] is fruitfully understood in the light of this has been amplified in a series of articles
 
 * [[Andreas Döring]], [[Chris Isham]], _A topos foundation for theories of physicsJournal of Mathematical Physics (2008)
+{#DoeringIsham}
 
 See also [[higher category theory and physics]].
 
@@ -88,4 +117,4 @@ The presheaf topos on $ComSub(A)^{op}$ and its internal localic Gelfand dual to 
 
 * [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _A topos for algebraic quantum theory_ ([arXiv:0709.4364](http://arxiv.org/abs/0709.4364))
 {#HeunenLandsmanSpitters}
-
+{#HeunenLandsmanSpitters}
