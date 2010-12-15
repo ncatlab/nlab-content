@@ -66,6 +66,7 @@ Non-strict Conduch&#233; functors and [[Street fibrations]] may be equivalently 
 
 * If $\mathbf{2}$ denotes the [[interval category]], then any normal lax functor out of $\mathbf{2}$ is necessarily pseudo, since there are no composable pairs of nonidentity arrows in $\mathbf{2}$.  It follows that, as pointed out by Jean Benabou, *any* functor with codomain $\mathbf{2}$ is a Conduch&#233; functor.  Note that functors with codomain $\mathbf{2}$ can also be identified with [[profunctors]], the two fiber categories being the source and target of the corresponding profunctor.
 
+* As with [[exponentiable morphisms]] in any category, Conduch&#233; functors are closed under composition.
 
 ## References
 
