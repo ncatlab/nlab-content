@@ -29,6 +29,8 @@ A [[model category]] with a [[site]] structure on its [[homotopy category]] is c
 
 * [[site]]
 
+* [[2-site]]
+
 * [[(∞,1)-site]]
 
   * **model site**, [[simplicial site]]
