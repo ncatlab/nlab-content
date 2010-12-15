@@ -95,7 +95,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         1.  [[totally disconnected space]], [[totally separated space]], [[zero-dimensional space]]
         2.  [[Stone space]]
         3.  (none)
-        4.  \* Stone representation theorem for Boolean algebras
+        4.  \* Stone representation theorem for Boolean algebras, [[Stone duality]]
         5.  [[patch topology]]
         6.  (none)
         7.  [[totally order-separated space]], [[ordered Stone space]]
@@ -212,7 +212,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         3.  [[Pierce sheaf]], [[Pierce representation]], [[Pierce spectrum]]
         4.  (none)
         5.  (none)
-        6.  [[regular ring]]
+        6.  [[von Neumann regular ring]]
         7.  [[local ring]], [[exchange ring]]
         8.  [[neat ideal]] (in a ring)
         9.  (none)
@@ -277,11 +277,11 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         6.  [[algebraic lattice]]
         7.  (none)
     4.  General [[concrete duality|concrete dualities]]
-        1.  [[coseparator]]
+        1.  [[coseparator]], [[schizophrenic object]]
         2.  (none)
         3.  (none)
         4.  (none)
-        5.  (none)
+        5.  [[idempotent adjunction]]
         6.  [[Sierpinski topology|Sierpi?ski topology]], [[Sierpinski space|Sierpi?ski space]]
         7.  (none)
         8.  (none)
