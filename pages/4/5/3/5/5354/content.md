@@ -73,7 +73,7 @@ The [[derived geometry]] of the &#233;tale site is the [[étale (∞,1)-site]]. 
 
 ## Related concepts
 
-* [[étale morphism]], **&#233;tale site**, [[étale cohomology]]
+* [[étale morphism]], **&#233;tale site**, [[étale topos]], [[étale cohomology]]
 
 * [[étale (∞,1)-site]]
 
@@ -99,6 +99,18 @@ Lecture notes are
 
 [[!redirects etale sites]]
 [[!redirects étale sites]]
+
+[[!redirects small étale site]]
+[[!redirects small etale sites]]
+
+[[!redirects small étale sites]]
+[[!redirects small etale sites]]
+
+[[!redirects big étale site]]
+[[!redirects big etale sites]]
+
+[[!redirects big étale sites]]
+[[!redirects big etale sites]]
 
 
 [[!redirects étale topology]]
