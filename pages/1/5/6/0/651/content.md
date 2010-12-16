@@ -1,3 +1,4 @@
+
 {:myproof: .proof style="margin-left:2em;"}
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
@@ -6,6 +7,7 @@
 * [Basics](#basics)
 * [[examples of Frölicher spaces|Examples]]
 * [[Frölicher spaces and Isbell envelopes|Relationship]] to [[Isbell envelope]]
+* [[categorical properties of Frölicher spaces|Categorical Matters]]
 * [[topological notions of Frölicher spaces|Topological Matters]]
 * [[tangential notions of Frölicher spaces|Tangential Structures]]
 * [References](#refs)
@@ -83,7 +85,6 @@ A discussion of [[Lie algebra]]s on Fr&#246;licher [[group]]s ([[group object]]s
 * Martin Laubinger, _A Lie algebra for Fr&#246;licher groups_ ([arXiv](http://arxiv.org/abs/0906.4486))
 
 
-[[!redirects Frölicher space]]
 [[!redirects Frölicher spaces]]
 [[!redirects Frolicher space]]
 [[!redirects Frolicher spaces]]
