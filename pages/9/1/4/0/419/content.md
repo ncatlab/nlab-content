@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include model category theory - contents]]
 =--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 =--
 =--
 
