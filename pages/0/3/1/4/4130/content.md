@@ -17,11 +17,11 @@ $$SimpComplex \stackrel{\overset{U}{\to}}{\underset{Flag}{\leftarrow}} Pos \stac
 
 In this diagram, 
 
-* The [[functor]] $U$ sends a simplicial complex $(V, \Sigma)$ to $\Sigma$, regarded as a [[poset]] ordered by inclusion, 
+* The [[functor]] $U$ sends a [[simplicial complex]] $(V, \Sigma)$ to $\Sigma$, regarded as a [[poset]] ordered by inclusion, 
 
 * The functor $Flag$ sends a poset $P$ to the simplicial complex whose vertex set is $P$ and whose [[simplex|simplices]] are the underlying sets $\{x_0, \ldots, x_n\}$ of flags $x_0 \lt \ldots \lt x_n$, 
 
-* The functor $Face$ sends a simplicial set $X$ to the poset whose elements are nondegenerate simplices (elements) of $X$, ordered by $x \leq y$ if there is some monomorphism $i: [m] \to [n]$ such that $X(i)(y) = x$. 
+* The functor $Face$ sends a [[simplicial set]] $X$ to the poset whose elements are nondegenerate simplices (elements) of $X$, ordered by $x \leq y$ if there is some monomorphism $i: [m] \to [n]$ such that $X(i)(y) = x$. 
 
 * The functor $nerve$ is the usual [[nerve]] functor restricted to the category of posets [[Pos]] $\hookrightarrow$ [[Cat]] .
 
