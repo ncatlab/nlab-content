@@ -30,7 +30,7 @@ The notion of ringed topos makes sense for the theory of rings replaced by any [
 
 A **ringed topos** is a [[topos]] $X$ with a distinguished unital ring object $\mathcal{O}_X \in X$, usually, (commutative or not, depending on convention). 
 
-If all [[stalk]]s of $\mathcal{O}_X$ are [[local ring]]s, $(X, \mathcal{O}_X)$ is a called a **locally ringed topos**.
+If all [[stalk]]s of $\mathcal{O}_X$ are [[local ring]]s, $(X, \mathcal{O}_X)$ is a called a **[[locally ringed topos]]**.
 
 =--
 
@@ -57,7 +57,11 @@ In order to say what _locally_ $T$-ringed means, one needs the extra structure o
 
 ## Related concepts
 
-* [[ringed space]], [[ringed site]],  **ringed topos**
+* [[ringed space]], [[locally ringed space]]
+
+* [[ringed site]],  
+
+* **ringed topos**, [[locally ringed topos]]
 
 * [[structured (∞,1)-topos]]
 
