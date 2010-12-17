@@ -376,16 +376,16 @@ This is ([Lurie, theorem xyz](#Lurie)).
      O_X : Top \to Sh(X)
    $$
 
-   that sends a topological space $V$ to the sheaf of continuous
-   functions with values in $V$:
+   that sends a topological space $V$ to the sheaf of 
+   [[continuous function]]s with values in $V$:
 
    $$
      O_X(V) : U \mapsto C(U,V) = Hom_{Top}(U,V)
      \,.
    $$
 
-   This functor clearly respects [[limit]]s, just by the
-   general property of the hom. The gluing condition says that
+   By general properties of the [[hom-functor]], this respects [[limit]]s. 
+   The gluing condition says that
    for $V_1, V_2 \subset V$ an open cover of $V$ by two patches, 
    the morphism of sheaves
 
@@ -487,7 +487,7 @@ This is ([Lurie, theorem xyz](#Lurie)).
    summands is invertible is the condition that $(O_X)_x$ is
    a _local ring_ .
 
-   So [[ringed space]] has a structure sheaf in the above sense
+   So a [[ringed space]] has a structure sheaf in the above sense
    if it is a [[locally ringed space]].
    
    
@@ -585,6 +585,7 @@ $$
 $$
 
 possible. They describe **[[derived smooth manifolds]]** as described in [DerSmooth](http://math.berkeley.edu/~dspivak/thesis2.pdf).
+
 
 ## Related concepts
 
