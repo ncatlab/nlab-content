@@ -37,7 +37,7 @@ We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ element
 An important class of simplicial complexes is provided by the notion of [[building]], due to Jacques Tits.  
 
 
-##Simplicial complexes v. simplicial sets
+##Simplicial complexes v. simplicial sets {#vsSSet}
 
 Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]], but only 'in some sense'. To get from a simplicial complex to a fairly small simplicial set, you  pick a [[total order]] on the set of vertices. Without an order on the vertices, you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$. (If you do not pick an order then you can still form a simplicial set where to each $n$-simplex of the original simplicial complex will correspond to $(n+1)!$ simplices of that associated simplicial set. The result is unwealdy to say the least, but can be useful under some circumstances.)
 
