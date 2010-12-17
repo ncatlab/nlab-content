@@ -16,10 +16,16 @@ A _modular operad_ is an [[operad]] that has the kind of extra structure which i
 ## References
 
 * [[Ezra Getzler]], [[Mikhail Kapranov]], _Modular operads_,  Compositio Math.  110  (1998),  no. 1, 65--126, [doi](http://dx.doi.org/10.1023/A:1000245600345), [arXiv:dg-ga/9408003](http://arxiv.org/abs/dg-ga/9408003), [MR99f:18009](http://www.ams.org/mathscinet-getitem?mr=99f:18009)
-* Serguei Barannikov, _Modular operads and Batalin-Vilkovisky geometry_, Int. Math. Res. Not. IMRN  2007,  no. 19, Art. ID rnm075, 31 pp. [arxiv/0912.5484](http://arxiv.org/abs/0912.5484)
-* [[André Joyal]], [[Joachim Kock]], _Feynman graphs, and nerve theorem for compact symmetric multicategories_, proceedings "Quantum Physics and Logic VI", [arxiv/0908.2675](http://arxiv.org/abs/0908.2675)
-* Joseph Chuang, Andrey Lazarev, _Dual Feynman transform for modular operads_, [arxiv/0704.2561](http://arxiv.org/abs/0704.2561)
+
 * [[Ezra Getzler]], _The semi-classical approximation for modular operads_, [arxiv:alg-geom/9612005](http://arxiv.org/abs/alg-geom/9612005) 
 * [[Ezra Getzler]], J. D. S. Jones, _Operads, homotopy algebra and iterated integrals for double loop spaces_, [hep-th/9403055](http://arxiv.org/abs/hep-th/9403055)
+
+
+* [[André Joyal]], [[Joachim Kock]], _Feynman graphs, and nerve theorem for compact symmetric multicategories_, proceedings "Quantum Physics and Logic VI", [arxiv/0908.2675](http://arxiv.org/abs/0908.2675)
+
+* Joseph Chuang, Andrey Lazarev, _Dual Feynman transform for modular operads_, [arxiv/0704.2561](http://arxiv.org/abs/0704.2561)
+
+* Serguei Barannikov, _Modular operads and Batalin-Vilkovisky geometry_, Int. Math. Res. Not. IMRN  2007,  no. 19, Art. ID rnm075, 31 pp. [arxiv/0912.5484](http://arxiv.org/abs/0912.5484)
+
 
 [[!redirects modular operads]]
