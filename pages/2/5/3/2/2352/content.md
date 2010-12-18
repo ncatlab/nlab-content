@@ -1,9 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 
 * automatic table of contents goes here
 {:toc}
 
-#Idea# 
+## Idea
 
 In as far as the notion of [[functor]] generalizes that of [[function]]
 and that of [[profunctor]] generalizes that of [[relation]], the
@@ -40,7 +52,7 @@ may be taken to be the fibration classified by $\chi_f : C \times D^{op} \to (\i
 as described at  [[universal fibration of (∞,1)-categories]].
 
 
-# Definition #
+## Definition 
 
 For $n \leq \infty$ let $(n-1) Cat$ and $n Cat$ be a realization of the 
 notions of $n$-category of $(n-1)$-categories and of the $(n+1)$-category of $n$-categories,
@@ -49,11 +61,6 @@ such that standard constructions of [[category theory]] work,
 in particular a version of the [[Yoneda lemma]].
 See [[higher category theory]]. 
 
-+--{.query}
-[[Eric]]: Is it really necessary to restrict $n$ to $0\leq n\leq\infty$? In principle, couldn't you have a graph of a (-1)-functor and/or (-2)-functor?
-
-_Toby_:  Sure.  There\'s not much to them, but why not?
-=--
 
 Then with $C,D \in n Cat$ let $f : C \to D$ be a ($n$-)[[functor]].
 
@@ -75,9 +82,9 @@ by $\chi_f$.
 =--
 
 
-# Examples #
+## Examples 
 
-## Graphs of 0-functors ##
+### Graphs of 0-functors 
 
 To reproduce the ordinary notion of [[graph of a function]] let $(n,r) = (0,0)$.
 then $(n,r)$-categories $X,Y$ are just sets and a functor $f : X \to Y$ is
@@ -124,7 +131,7 @@ $$
 which identifies $Graph(f) \hookrightarrow X \times Y$ with the subset of pairs $(x,y)$
 for which $f(x) = y$. This is the ordinary notion of [[graph of a function]].
 
-## Graphs of 1-functors ##
+### Graphs of 1-functors 
 
 For $f : C \to D$ an ordinary [[functor]], with corresponding [[profunctor]]
 $\chi_f : C^{op} \times D \to Set$, the category $Graph(f)$ is the 
@@ -137,8 +144,10 @@ and in this context $Graph(f) \to C^{op} \times D$ is the
 [[Grothendieck construction]] on $\chi_f$.
 
 
-#Related concepts#
+## Related concepts
 
-Closely related is the notion of [[cograph of a functor]].
+* **graph of a functor**
+
+* [[cograph of a functor]], [[cograph of a profunctor]]
 
 [[!redirects graph of a profunctor]]
