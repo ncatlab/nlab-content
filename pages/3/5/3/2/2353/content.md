@@ -1,28 +1,31 @@
-#Contents#
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
 * automatic table of contents goes here
 {:toc}
 
-Recall that the [[graph of a functor]] $f : C \to D$ between [[n-category|n-categories]] is the fibration 
-classified by the [[profunctor]] correspondence $\chi_f : C^{op}\times D \to (n-1)Cat$. 
+The notion of _cograph of a functor_ is dual to that of [[graph of a functor]]: for
+$f : C \to D$ a functo between [[n-categories]] is the fibration 
+classified by the [[profunctor]] correspondence $\chi_f : C^{op}\times D \to (n-1)Cat$. But $f$ also determines a morphism $\bar f : I \to n Cat$ from the [[interval category]] $I$. The **cograph** of $f$ is the fibration classified by $\bar f$.
 
-+--{.query} 
 
-[[Todd Trimble|Todd]]: I'd start with something more basic: recall that the graph of a function $f: A \to B$ is the [[subset]] determined by the [[monomorphism]] $\langle 1, f \rangle: A \to A \times B$. This makes sense in any category with products. Under one definition, the notion of cograph of a function $f: A \to B$ is the categorically dual notion: it is the [[quotient object|quotient]] determined by the epimorphism $(f, 1): A \sqcup B \to B$. 
+Recall that the graph of a function $f: A \to B$ is the [[subset]] determined by the [[monomorphism]] $\langle 1, f \rangle: A \to A \times B$. This makes sense in any category with products. Under one definition, the notion of cograph of a function $f: A \to B$ is the categorically dual notion: it is the [[quotient object|quotient]] determined by the [[epimorphism]] $(f, 1): A \sqcup B \to B$. 
 
-A more vivid presentation of cograph is given by the pictures we draw of functions $f: A \to B$: as graphs (in the graph-theoretic sense!) whose vertices are elements in $A \sqcup B$, with an edge drawn from $a$ to $f(a)$ for each $a$ in $A$. This can also be conceived as a [[poset]] $P_f$ with underlying set $A \sqcup B$, in which $a \leq f(a)$ and all other instances of $\leq$ are the reflexive ones. The connected components function $(P_f)_0 \to \pi_0(P_f)$ is then the cograph in the sense given above. 
+A more vivid presentation of cograph is given by the pictures we draw of functions $f: A \to B$: as [[directed graph]]s (in the graph-theoretic sense!) whose vertices are elements in $A \sqcup B$, with an edge drawn from $a$ to $f(a)$ for each $a$ in $A$. This can also be conceived as a [[poset]] $P_f$ with underlying set $A \sqcup B$, in which $a \leq f(a)$ and all other instances of $\leq$ are the reflexive ones. The connected components function $(P_f)_0 \to \pi_0(P_f)$ is then the cograph in the sense given above. 
 
-In this article we give a definition of cograph which generalizes this poset picture of cograph of a function, and which applies to any functor between $n$-categories, following the work of Jacob Lurie...
+In this article we give a definition of cograph which generalizes this poset picture of cograph of a function, and which applies to any functor between $n$-categories.
 
-(Anyway, that's the basic idea; it could be made even more reader-friendly I'm sure.) 
 
-_Toby_:  Note that much of what Todd writes is already at [[cograph]].  (And what isn\'t can go there!)
-
-[[Eric]]: This seems to be a very cool concept that can even help understand [[adjoint functors]]. Maybe we should think about combining all three pages: [[cograph of a functor]], [[graph of a functor]], and [[cograph]]. The current state really was just a place holder so we'd have something to point to, but could definitely use some cleaning up now.
-
-=--
-
-But $f$ also determines a morphism $\bar f : I \to n Cat$ from the [[interval category]] $I$. The **cograph** of $f$ is the fibration classified by $\bar f$.
 
 # Examples #
 
@@ -200,9 +203,14 @@ As for every [[Cartesian fibration]] the functor $f : C \to D$ is determined uni
 
 ...
 
+## Related concepts
 
-# References #
+* [[graph of a functor]]
+
+* **cograph of a functor**, [[cograph of a profunctor]]
+
+## References 
 
 The notion of cographs of $(\infty,1)$-functors and the theory of how to re-obtain $(\infty,1)$-functors from their cographs is the content of section 5.2.1, _Correspondences and associated functors_,  of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]] .
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
