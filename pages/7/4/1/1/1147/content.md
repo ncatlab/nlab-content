@@ -90,6 +90,7 @@ and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure 
 
 =--
 
+See [[over-topos]] for more.
 
 ## In higher category theory
 
