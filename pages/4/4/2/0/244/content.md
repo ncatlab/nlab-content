@@ -126,7 +126,7 @@ Details are in examples 1.2.3 and 1.2.4 of
 
 * [[monoidal category]], [[monoidal (∞,1)-category]]
 
-* **symmetric monoidal category**, [[symmetric monoidal (∞,1)-category]]
+* **symmetric monoidal category**, [[symmetric monoidal (∞,1)-category]], [[symmetric monoidal (∞,n)-category]] 
 
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
