@@ -99,6 +99,7 @@ Therefore, one can prove results in toposes and similar categories by reasoning,
 
 For more on this idea, see [[internal logic]].
 
+
 ## Examples {#Examples}
 
 * The archetypical topos is [[Set]]. Notice that this happens to be a [[Grothendieck topos]]: this is the [[category of sheaves]] on the [[point]].
@@ -140,6 +141,7 @@ For more on this idea, see [[internal logic]].
 
 * A topos can also be constructed from any [[tripos]].  This includes realizability toposes as well as toposes of sheaves on locales.
 
+* For $\mathcal{T}$ any topos and $X \in \mathcal{T}$ any category, the [[over category]] $\mathcal{T}/X$ is itself a topos: the [[over-topos]].
 
 ## Special classes of toposes
 
