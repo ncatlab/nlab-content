@@ -201,7 +201,11 @@ This is a special case of the [[(∞,1)-Grothendieck construction]]. See the sec
 
 =--
 
+## Related concepts
 
+* [[over-topos]]
+
+* **over-$(\infty,1)$-topos**
 
 
 ## References
