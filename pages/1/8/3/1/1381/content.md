@@ -89,7 +89,7 @@ See [[commutative monoid in a symmetric monoidal (∞,1)-category]].
 
 * [[monoidal category]], [[monoidal (∞,1)-category]]
 
-* [[symmetric monoidal category]], **symmetric monoidal $(\infty,1)$-category**
+* [[symmetric monoidal category]], **symmetric monoidal $(\infty,1)$-category**, [[symmetric monoidal (∞,n)-category]]
 
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
