@@ -15,7 +15,7 @@
 
 ## Idea
 
-For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]] the [[over category]] $\mathcal{T}/X$ is itself a topos: the [[little topos]] incarnation of $X$.
+For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]] the [[over category]] $\mathcal{T}/X$ is itself a topos: the "big [[little topos]]" incarnation of $X$.  This fact is sometimes called the "Fundamental Theorem of Topos Theory".
 
 ## Properties
 
@@ -165,3 +165,8 @@ and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure 
 [[!redirects over topos]]
 [[!redirects over toposes]]
 [[!redirects over-toposes]]
+[[!redirects over topoi]]
+[[!redirects over-topoi]]
+[[!redirects slice topos]]
+[[!redirects slice toposes]]
+[[!redirects slice topoi]]
