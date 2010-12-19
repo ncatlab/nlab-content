@@ -3,7 +3,6 @@
 * table of contents
 {:toc}
 
-
 ## Idea
 
 The general idea of completion is that given an object of some sort $C$, we construct from it a larger object, containing $C$ as a subobject, which moreover has certain properties that $C$ might have lacked.  This larger object is then called the _completion_ of $C$ with respect to these properties.
@@ -24,7 +23,7 @@ Additionally, we tend to use the term 'completion' only for a [[faithful functor
 
 * [[Dedekind completion]] of a [[linear order]] (or sometimes a more general [[preorder]] or [[quasiorder]])
 
-* [[MacNeille completion]] of a partially ordered set
+* [[MacNeille completion]] of a [[partially ordered set]]
 
 * [[profinite completion of a group|profinite completion]] of a discrete group 
   +--{: .query}
@@ -97,3 +96,19 @@ All these sorts of completions work just as well in an [[enriched category|enric
 Some other non-idempotent completions:
 
 * The [[reg/lex completion]] and [[ex/lex completion]] of a category with finite limits.
+
+
+## Non-unique completions
+{#nonunique}
+
+The completions above are mostly (all?) [[the|unique in the relevant sense]]: unique up to unique isomorphism for objects of [[groupoids]] (or [[categories]]), more generally with a [[contractible space|contractible]] $\infty$-[[infinity-groupoid|groupoid]] of completions.
+
+However, there are other sorts of completions in mathematics, such as:
+
+*  'The' [[algebraic closure]] of a [[field]] is unique up to isomorphism, but the isomorphism is not unique.
+*  Every [[model theory|model]] of a [[first-order theory]] may be interpreted as giving a completion of that theory (but not one with a recursively enumerable axiomatisation); every statement that true in the model is an axiom of the complete theory.  However, this is far from unique.
+*  An [[ultrapower]] of a structure may be viewed as an elementary completion, as descried by [[Terry Tao]] in [a blog post](http://terrytao.wordpress.com/2010/11/27/nonstandard-analysis-as-a-completion-of-standard-analysis/).
+
+
+[[!redirects completion]]
+[[!redirects completions]]
