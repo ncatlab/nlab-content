@@ -21,8 +21,8 @@ Just as a [[Grothendieck fibration]] $E\to B$ is an alternate way to encode a [[
 ## Definition
 
 A **two-sided discrete fibration** is a [[span]] $q \colon E \to A$, $p \colon E \to B$ of [[categories]] and [[functors]] such that 
-1. each $b \to pe$ in $B$ has a unique lift in $E$ that has codomain $e$ and is in the fiber over $q e$
-1. each $qe \to a$ in $A$ has a unique lift in $E$ that has domain $e$ and is in the fiber over $p e$
+1. each $b \to p e$ in $B$ has a unique lift in $E$ that has codomain $e$ and is in the fiber over $q e$
+1. each $q e \to a$ in $A$ has a unique lift in $E$ that has domain $e$ and is in the fiber over $p e$
 1. for each $f\colon e \to e'$ in $E$, the codomain of the lift of $q f$ equals the domain of the lift of $p f$ and their composite is $f$.
 
 A **two-sided fibration** is a span $q \colon E \to A$, $p \colon E \to B$ such that
@@ -39,6 +39,8 @@ A **two-sided fibration** is a span $q \colon E \to A$, $p \colon E \to B$ such 
 ## References
 
 * [[Ross Street]], *Fibrations in bicategories* and other papers
+
+* [[Emily Riehl]], _Two-sided discrete fibrations in 2-categories and bicategories_ ([pdf](http://math.uchicago.edu/~eriehl/fibrations.pdf))
 
 [[!redirects two-sided fibrations]]
 [[!redirects two-sided discrete fibration]]
