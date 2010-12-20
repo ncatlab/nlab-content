@@ -29,6 +29,9 @@ makes $A$ into a Lie algebra.  But this is also true for pre-Lie algebras!  It i
 First, given a [[manifold]] with a torsion-free [[connection]] $\nabla$ on its [[tangent bundle]], we can make the space of [[tangent vector fields]] into a pre-Lie algebra by defining
 $$  v \cdot w = \nabla_v w $$
 The definition of 'torsion-free' is precisely \eqref{basic_identity}.  The Lie algebra arising from this pre-Lie algebra is just the usual Lie algebra of vector fields.
++-- {: .query}
+Isn't it the case the connection must be both torsionless and flat (i.e., the curvature is zero) in order for the PLA (pre-Lie algebra) conditions to be satisified?  Thanks.
+=--
 
 Second, suppose $O$ is a [[linear operad]], and let $A$ be the free $O$-[[algebra of an operad|algebra]] on one generator.  As a vector space we have
 $$  A = \bigoplus_{n} O_n/S_n \, .$$
