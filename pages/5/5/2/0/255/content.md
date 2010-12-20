@@ -68,19 +68,8 @@ The axioms then appear as:
 
 [[monad-axioms-unlabeled.png:pic]]
 
-+-- {: .query}
-[[Peter LeFanu Lumsdaine]]: I did the diagrams with the monad called $(T,\eta,\mu)$ and have only just noticed that that disagrees with what's used in the preceding description.  Was there a particular principled reason for calling it $(A,i,\mu)$ above?  I can change the diagrams to agree if so, but if not, might it be easier on newcomers to use $(T,\eta,\mu)$ throughout?  Pretty much all the references I know use that as the generic name for a monad. ---Peter
+Monads in $Cat$ are sometimes, mostly in older literature, also called **triple**s (alluding to the triple of data $(A,\mu,i)$), following Eilenberg and Moore.  In even older literature, they are also referred to as **standard constructions**, the original term used by Godement when he introduced the idea. For terminological remarks by Ross Street see category-list [here](http://article.gmane.org/gmane.science.mathematics.categories/225/match=).
 
-[[Mike Shulman]]: I like $T$ as the name for a monad.  (I also think that as a matter of exposition, this page should start out with monads in $Cat$ and introduce the more general version later, but I don't have time to implement that right now.)
-
-[[Peter LeFanu Lumsdaine]]: I'd been thinking the same; so I've re-organised things as you suggest, and added an "idea" section.  I think that probably goes into too much detail now, especially since "generalised algebraic theory" is only one of many ideas of what a monad is, but someone else can probably cut it down more dispassionately than I can :-)
-
-[[Mike Shulman]]: I don't think it needs any cutting down.  If anything, one could add more description of all the other things that a monad is.
-
-[[Zoran ?koda]]: I do not like the idea section. It describes a very special case of monad theory as the principal motivation, namely of monads in the category of sets. I know lots of heavy monad users, including mine, who almost never use monads to describe algebraic theories. For Jon Beck the principal motivation is cohomology theory, for some is the descent theory, for some generalized module theory, for some equivariance, for some relativizing affiness in algebraic geometry...
-=--
-
-Monads in $Cat$ are sometimes, mostly in older literature, also called **triple**s (alluding to the triple of data $(A,\mu,i)$), following Eilenberg and Moore.  In even older literature, they are also referred to as **standard constructions**, the original term used by Godement when he introduced the idea.
 
 ## The bicategory $Mnd(K)$
 
@@ -173,9 +162,9 @@ Introductions:
 
 Papers etc.:
 
-* R. Street, _The formal theory of monads_, J. of Pure and Applied Algebra __2__ (1972), 149--168
+* R. Street, _The formal theory of monads_, J. of Pure and Applied Algebra __2__ (1972), 149--168 (<a href="http://dx.doi.org/10.1016/0022-4049(72)90019-9">doi</a>)
 
-* R. Street, S. Lack, _The formal theory of monads II_, J. Pure Appl. Algebra __175__ (2002), No. 1-3, 243--265.
+* R. Street, S. Lack, _The formal theory of monads II_, J. Pure Appl. Algebra __175__ (2002), No. 1-3, 243--265, (<a href="http://dx.doi.org/10.1016/S0022-4049(02)00137-8">doi</a>)
 
 * [[Francis Borceux|F. Borceux]], _Handbook of categorical algebra_,  vol. 2, Ch. 4 "Monads" 
 
@@ -189,8 +178,7 @@ homology theory_, ETH 1966/67, edited by B.~Eckmann, LNM 80, Springer 1969.
 
 Books:
 
-* [[Michael Barr]] and [[Charles Wells]], _[Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)_.
-
+* [[Michael Barr]], [[Charles Wells]], _[Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)_.
 
 [[!redirects monad]]
 [[!redirects monads]]
