@@ -103,6 +103,7 @@ $$
 
 =--
 
+
 +-- {: .proof}
 ###### Proof
 
@@ -142,7 +143,7 @@ $$
   \,.
 $$ 
 
-We check that this construction yields a two sided fibration. The three conditions are
+We check that this construction yields a two-sided fibration. The three conditions are
 
 1. For
   
@@ -215,7 +216,7 @@ We check that this construction yields a two sided fibration. The three conditio
      }
    $$
 
-   an arbitrary morphism in $E$, these two unique lifts of its $A$- and its
+   an arbitrary morphism in $E_F$, these two unique lifts of its $A$- and its
    $B$-projection, respectively, are
 
    $$
@@ -274,6 +275,14 @@ To see that this construction indeed yields an equivalence of categories, define
 One checks that this yields an equivalence of categories. 
 
 =--
+
++-- {: .un_lemma}
+###### Observation
+
+The category $E_F$ is equivalently characterizd as being the [[comma category]] of the diagram $B \to K_F \leftarrow A$.
+
+=--
+
 
 ## Related concepts
 
