@@ -22,7 +22,7 @@
 
 Just as the notion of a [[monad]] in a [[bicategory]] $K$ generalizes that of a [[monoid]] in a [[monoidal category]], [[module|modules]] over monoids generalize easily to modules over monads.
 
-A special case of this (see below) is often called an _algebra_ for a monad.
+Modules over monads, especially in [[Cat]], are also often called *algebras* for the monad; see below.
 
 ## Definition
 
