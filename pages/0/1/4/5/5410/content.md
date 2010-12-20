@@ -48,7 +48,7 @@ for the full [[subcategory]] on the category of  [[span]]s on the 2-sided discre
 A **two-sided fibration** is a span $q \colon E \to A$, $p \colon E \to B$ such that
 1. each $b \to p e$ in $B$ has a [[cartesian morphism|cartesian]] lift in $E$ with codomain $e$ and lying in the fiber over the identity at $q e$
 1. each $q e \to a$ in $A$ has an opcartesian lift in $E$ with domain $e$ and lying in the fiber over the identity at $p e$
-1. for each $f \colon e \to e'$ in $E$ the canonical arrow between the codomain of any opcartesian lift of $q f$ as in (2) and the domain of the cartesian lift of $pf$ as in (1) is an [[isomorphism]].
+1. for each $f \colon e \to e'$ in $E$ the canonical arrow between the codomain of any opcartesian lift of $q f$ as in (2) and the domain of the cartesian lift of $p f$ as in (1) is an [[isomorphism]].
 
 =--
 
