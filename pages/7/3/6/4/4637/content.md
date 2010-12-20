@@ -125,7 +125,7 @@ $$
 
 Notice that apart from writing out or hiding the ends, the only step that is not a definition is precisely the middle one, where we used that $\mathcal{V}$ is a [[symmetric monoidal category|symmetric]] [[closed monoidal category]].
 
-The following proof does not use ends and needs instead slightly more preparation, but has then the advantage that its structue goes through also in great generality in [[higher category theory]].
+The following proof does not use ends and needs instead slightly more preparation, but has then the advantage that its structure goes through also in great generality in [[higher category theory]].
 {#ProofB}
 
 +-- {: .proof}
@@ -252,7 +252,7 @@ An object $X$ or $A$ is **Isbell-self-dual** if
 
 * $A \stackrel{}{\to} \mathcal{O} Spec(A)$ is an [[isomorphism]] in $[C,\mathcal{V}]$;
 
-* $X \to Spec \mathcal{O} X$ is an isomorphism in $[C^{op}, \mathcal{V}]$ is an [[isomorphism]], respectively.
+* $X \to Spec \mathcal{O} X$ is an [[isomorphism]] in $[C^{op}, \mathcal{V}]$, respectively.
 
 
 =--
