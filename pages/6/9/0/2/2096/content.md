@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -22,13 +31,15 @@ Note that this is not required to be a direct sum. Also, if $f$ (say) is a [[sub
 Here is a slick category-theoretic way to phrase the definition:  Two maps with a common [[target]] are transversal iff their [[pullback]] exists and is preserved by the [[tangent bundle]] functor; that is, $T(X \times_Z Y) = T X \times_{T Z} T Y$.
 
 
-## Remarks 
+## Properties
+
+* [[Thom's transversality theorem]]
 
 Various constructions involving [[pullback]]s of [[manifold]]s work as expected only for pullbacks involving transversal maps. 
 
 This is to be regarded as the dual of the possibly more familiar statement that various constructions involving [[quotient object|quotient]]s only work as expected for _free_ [[action]]s.
 
-Both of these "problems" are solved by passing from the ordinary $1$-[[1-category|category]] of manifolds to a suitable [[higher category theory|higher category]] of [[generalized smooth spaces]].
+Both of these "problems" are solved by passing from the ordinary $1$-[[1-category|category]] of manifolds to a suitable [[higher category theory|higher category]] of [[generalized smooth space]]s.
 
 More precisely: 
 
