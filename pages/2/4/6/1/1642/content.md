@@ -54,6 +54,20 @@ On the other hand, analysts run across semigroups often in the wild, and don\'t 
 
 Another variant with strong links with category theory is that of [[inverse semigroups]], which [[Charles Ehresmann]] showed were closely related to [[ordered groupoid]]s. Inverse semigroups naturally occur when considering partial symmetries of an object.
 
++-- {: .query}
+_AnonymousCoward_: In _Categories of Symmetries and Infinite-Dimensional Groups_ by Yu. A. Neretin (London Mathematical Society Monographs, New Series 16, Oxford Science Publications 1996), the author points out that if we consider an infinite-dimensional group $G$ can be realized in the following way: there is some category $C$ with an object $X$ such that 
+$$
+Aut(X)=G.
+$$
+Then we have this special semigroup 
+$$
+\Gamma=End(X)
+$$
+which is called the **Mantle** of $G$. Neretin insists it is a semigroup.
+
+I am at a loss as to why this is a semigroup, and not a monoid...
+=--
+
 ## Internalization 
 
 We can [[internalization|internalize]] the concept of semigroup in any [[monoidal category]] (or even [[multicategory]]) $V$ to get a __semigroup object__ in $V$.
