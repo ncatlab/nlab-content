@@ -54,12 +54,12 @@ $$
   \,.
 $$
 
-Recall from the above discussion that a morphism $f : c \to d$ in $C$ could act on an element $s \in S$ if the image of $s$ under the anchor map $\lambda$ coincides with the source of $f$, i.e. with the image of $f$ under the source map $s$. Formally this means that the pairs of elements of $S$ and morphisms of $C$ which can be paired by the action live in the [[pullback]] set $S {}_\lambda \times_s C$ (the fiber product):
+Recall from the above discussion that a morphism $f : c \to d$ in $C$ could act on an element $s \in S$ if the image of $s$ under the anchor map $\lambda$ coincides with the source of $f$, i.e. with the image of $f$ under the source map $s$. Formally this means that the pairs of elements of $S$ and morphisms of $C$ which can be paired by the action live in the [[pullback]] set $S {}_\lambda \times_s Mor(C)$ (the fiber product):
 
 $$
   \array{
      &&
-     S {}_\lambda \times_s C
+     S {}_\lambda \times_s Mor(C)
      \\
      & {}^{pr_1}\swarrow && \searrow^{pr_2}
      \\
