@@ -43,15 +43,136 @@ and so a [[spectrum]] $M O$, which is called the **Thom spectrum** .
 
 ## Properties
 
-The isomorphisms 
++-- {: .un_prop}
+###### Proposition
+
+The [[cobordism ring|cobordism group]] of un[[oriented]] $n$-[[dimension]]al [[manifold]]s is [[natural isomorphism|naturally isomorphic]] to the $n$th [[homotopy group]] of the Thom spectrum $M O$. That is, there is a natural isomorphism
 
 $$
-  \pi_n M O\simeq \Omega_n=\{closed n-manifolds\}/cobordism
+  \Omega^{un}_\bullet \simeq \pi_\bullet M O 
+   :=
+  {\lim_{\to}}_{k \to \infty} \pi_{n+k} M O(k)
+  \,.
 $$
 
-date back to the fundamental work of [[René Thom]] and is based on the [[fiber integration|Pontrjagin-Thom construction]]. The homotopy equivalence $\Omega^\infty M O \simeq B Cob_\infty$ is the content of Galatius-Madsen-Tillmann-Weiss theorem, and is now seen as a part of the [[cobordism hypothesis]] theorem.
+=--
+
+This is a seminal result due to ([Thom](#Thom)), whose proof proceeds by the [[Pontryagin-Thom construction]].
+
++-- {: .proof}
+###### Proof
+
+We first construct a map $\Theta : \Omega_n^{un} \to \pi_n M O$. (The presentation follows [Francis, lecture 3](#Francis3)).
+
+Given a class $[X] \in \Omega_n^{un}$ we can choose a representaive $X \in $ [[Diff]] and a [[closed embedding]] $\nu$ of $X$ into the [[Cartesian space]] $\mathbb{R}^{n+k}$ of sufficiently large [[dimension]]. By the [[tubular neighbourhood theorem]] $\nu$ factors as the embedding of the [[zero section]] into the [[normal bundle]] $N_\nu$ followed by an [[open embedding]] of $N_\nu$ into $\mathbb{R}^{n+k}$
+
+$$
+  \array{
+     X &&\stackrel{\nu}{\hookrightarrow}&& \mathbb{R}^{n+k}
+     \\
+     & \searrow && \nearrow_{\mathrlap{i}}
+     \\
+     && N_\nu
+  }
+  \,.
+$$
+
+Now use the [[Pontrjagin-Thom construction]] to produce an element of the [[homotopy group]] first in the [[Thom space]] $Th(N_\nu)$ of $N_\nu$ and then eventually in $M O$.  To that end, let
+
+$$
+  \mathbb{R}^{n+k} \to (\mathbb{R}^{n+k})^+ \simeq S^{n+k}
+$$
+
+be the map into the [[one-point compactification]]. Define a map
+
+$$
+  t : S^{n+k} \simeq (\mathbb{R}^{n+k})^+ \to Disk(N_\nu)/Sphere(N_\nu) \simeq Th(N_\nu)
+$$
+
+by sending points in the image of $Disk(N_\nu)$ under $i$ to their preimage, and all other points to the collapsed point $Sphere(N_\nu)$. This defines an element in the [[homotopy group]] $\pi_{n+k}(Th(N_\nu))$.
+
+To turn this into an element in the homotopy group of $M O$, notice that  since $N_\nu$ is a [[vector bundle]] of [[rank]] $k$, it is the [[pullback]] by a map $\mu$ of the universal rank $k$ vector bundle $\gamma_k \to B O(k)$
+
+$$
+  \array{
+    N_\nu \simeq \mu^* \gamma_k &\to& \gamma_k
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{\mu}{\to}& B O(k)
+  }
+  \,.
+$$
+
+By forming Thom spaces the top map induces a map
+
+$$
+  Th(N_\nu) \to Th(\gamma^k) =: M O(k)
+  \,.
+$$
+
+Its composite with the map $t$ constructed above gives an element in $\pi_{n+k} M O(k)$
+
+$$
+  S^{n+k} \stackrel{t}{\to} Th(N_\nu) \to Th(\gamma^k) \simeq M O(k)
+$$
+
+and by $\pi_{n+k} M O(k) \to {\lim_\to}_k \pi_{n+k} M O(k) =: \pi_n M O$ this is finally  an element 
+
+$$
+  \Theta
+  :
+  [X]
+   \mapsto
+  (S^{n+k} \stackrel{t}{\to} Th(N_\nu) \to Th(\gamma^k) \simeq M O(k)) 
+  \in
+  \pi_n M O
+  \,.
+$$
+
+We show now that this element does not depend on the choice of embedding $\nu : X \to \mathbb{R}^{n+k}$.
+
+(...)
+
+Finally, to show that $\Theta$ is an [[isomorphism]] by constructing an inverse.
+
+For that,, observe that the [[sphere]] $S^{n+k}$ is a [[compact topological space]] and hence a [[compact object]] in [[Top]]. This implies that any map from $S^{n+k}$ into the [[filtered colimit]] 
+
+$$
+  Th(\gamma^k)  \simeq {\lim_\to}_s Th(\gamma^k_s)
+  \,,
+$$
+
+where $\gamma^k_s \to Gr_k(\mathbb{R}^s)$ factors through one of the terms
+
+$$
+  f : S^{n+k} \to Th(\gamma^k_s)
+  \,.
+$$
+
+By [[Thom's transversality theorem]] we may find an embedding $j : Gr_k(\mathbb{R}^s) \to Th(\Gamma^k_s)$ by a [[transverse map]] to $f$. Define then $X$ to be the [[pullback]]
+
+$$
+  \array{
+    X &\to& Gr_k(\mathbb{R}^s)
+    \\
+    \downarrow && \downarrow
+    \\
+    S^{n+k} &\stackrel{f}{\to}& Th(\gamma^k_s)
+  }
+  \,.
+$$
+
+We check that this construction provides an inverse to $\Theta$.
+
+(...)
+
+=--
+
+The [[homotopy equivalence]] $\Omega^\infty M O \simeq B Cob_\infty$ is the content of Galatius-Madsen-Tillmann-Weiss theorem, and is now seen as a part of the [[cobordism hypothesis]] theorem.
 
 ## Generalizations
+
 Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$, $String(n)$, $Fivebrane(n)$,..., i.e., any level in the [[Whitehead tower]] of $O(n)$. To any of these groups it corresponds a Thom spectrum, which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
 
 ## Cohomology
@@ -60,8 +181,22 @@ Under the [[Brown representability theorem]] the Thom spectrum represents the [[
 
 ## References
 
-A discussion of the relation of the Thom spectrum to [[(∞,n)-category of cobordisms]] for $n = \infty$ is in
+The relation between the homotopy groups of the Thom spectrum and the cobordism ring is due to
 
-* [[John Francis]], _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
+* [[René Thom]], _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_ Comment. Math. Helv. 28, (1954). 17-86
+{#Thom}
+
+A review is in 
+
+* [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)) 
+
+  Lecture 3 _Thom's theorem_ (notes by A. Smith) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/3thom.pdf))
+{#Francis3}
+
+A remark of the relation of the Thom spectrum to [[(∞,n)-category of cobordisms]] for $n = \infty$ is in
+
+* [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)) 
+
+  Lecture 2 _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
 
 
