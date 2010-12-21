@@ -20,6 +20,8 @@
 
 ## Definition
 
+### For small (∞,1)-categories
+
 For $C$ a [[small (∞,1)-category]] and $\kappa$ a [[regular cardinal]], the $(\infty,1)$-category of $\kappa-$**pro-objects** in $C$ is the [[opposite (∞,1)-category]] of [[ind-object in an (∞,1)-category|ind-objects]] in the opposite of $C$:
 
 $$
@@ -37,14 +39,17 @@ $$
 
 the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] on those that preserve these limits.
 
-Generalizing this definition, one sometimes writes also for $C$ a non-small $(\infty,1)$-category with limits 
+
+### For large (∞,1)-categories
+
+Generalizing this definition, if $C$ is a non-small $(\infty,1)$-category with finite limits, we write
 
 $$
-  Pro(C) := Lex(C,\infty Grpd)^{op}
+  Pro(C) := AccLex(C,\infty Grpd)^{op}
   \,.
 $$
 
-although this is morally not really correct; in such a case $Pro(C)$ should really consist only of those left-exact functors which are "*small* cofiltered limits of representables".
+for the category of left exact functors $C\to \infty Gprd$ which are moreover [[accessible (∞,1)-functor|accessible]].  In other words, when $C$ is large, $Pro(C)$ consists only of those left-exact functors which are "*small* cofiltered limits of representables".
 
 
 ## Related concepts
