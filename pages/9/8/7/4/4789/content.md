@@ -1,13 +1,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### $\infty$-Chern-Simons theory
 +--{: .hide}
-[[!include infinity-Lie theory - contents]]
+[[!include infinity-Chern-Simons theory - contents]]
 =--
 #### $\infty$-Chern-Weil theory
 +--{: .hide}
 [[!include infinity-Chern-Weil theory - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
 =--
 =--
 =--
@@ -24,7 +28,7 @@ A _Chern-Simons element_ in an [[∞-Lie algebroid]] is an element of the [[Weil
 
 It is an algebraic model for a universal [[circle n-bundle with connection]] on the [[Lie integration]] $\exp(\mathfrak{a}) \in $ [[?LieGrpd]] of $\mathfrak{a}$.
 
-The pullback of this connection $cs$ along an $\exp(\mathfrak{a})$-[[connection on an ∞-bundle]] $(A,B,C, \cdots)$ is the corresponding [[Chern-Simons form]] $CS(A,B,C,...)$. This is part of the [[∞-Chern-Weil homomorphism]]. The integrals of these Chern-Simons forms yield [[action functional]]s over spaces of connections which generalize those of standard [[Chern-Simons theory]]. Many [[sigma-model]]s of [[quantum field theory]] arise this way.
+The pullback of this connection $cs$ along an $\exp(\mathfrak{a})$-[[connection on an ∞-bundle]] $(A,B,C, \cdots)$ is the corresponding [[Chern-Simons form]] $CS(A,B,C,...)$. This is part of the [[∞-Chern-Weil homomorphism]]. The integrals of these Chern-Simons forms yield [[action functional]]s for [[∞-Chern-Simons theory]] which generalize those of standard [[Chern-Simons theory]]. Many types of [[sigma-model]]s of [[quantum field theory]] arise this way, such as [[BF-theory]] and [[AKSZ theory]].
 
 ## Definition
 
@@ -719,7 +723,7 @@ The examples of the [[BF-theory]] invariant polynomials and Chern-Simons element
 
 Further discussion is in 
 
-* [[Chris Rogers]] [[Urs Schreiber]], _$\infty$-Chern-Simons action functionals_
+* [[Domenico Fiorenza]], [[Chris Rogers]] [[Urs Schreiber]], _[[schreiber:∞-Chern-Simons theory]]_
 
 
 A survey of higher Chern-Simons elements and their action functionals as applied to [[gravity]] and [[supergravity]] is in
