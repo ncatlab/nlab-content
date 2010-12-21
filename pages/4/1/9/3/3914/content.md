@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -37,6 +42,12 @@ The existence of an $H$-orientation is necessary in order to have a notion of [[
 
 ## References
 
+A general survey is also in
+
 * [[eom]], _[Orientation](http://eom.springer.de/o/o070200.htm)_
+
+Notes on the [[string structure]]-orientation of [[tmf]] are in
+
+* [[Mike Hopkins]], _The String orientation of tmf_ (talk notes by [[Andre Henriques]]) ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter14/MikesTalk3.pdf))
 
 [[!redirects Thom class]]
