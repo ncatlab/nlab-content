@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+## Idea
 
 The **K-theory spectrum** in the strict sense is the [[spectrum]] that represents the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[topological K-theory]]. For complex [[topological K-theory]] this is periodic with period 2 (reflect Bott periodicity) of the form
 
