@@ -133,3 +133,6 @@ More details are in
 * [[Ralph Cohen]], [[John Klein]], _Umkehr Maps_ ([arXiv:0711.0540](http://arxiv.org/abs/0711.0540))
 
 ...
+
+[[!redirects Pontrjagin-Thom construction]]
+[[!redirects Pontryagin-Thom construction]]
