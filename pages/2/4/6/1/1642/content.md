@@ -66,6 +66,10 @@ $$
 which is called the **Mantle** of $G$. Neretin insists it is a semigroup.
 
 I am at a loss as to why this is a semigroup, and not a monoid...
+
+[[David Roberts]]: Well, we can realise $G = Aut_{\mathbf{B}G}(*)$, where $*$ is the single object of the one-object groupoid associated to $G$. Then $End(*) = Aut(*)$ in this category, so this 'Mantle' is nowhere near being uniquely defined. Is Neretin using the same definition of semigroup as here (it's the obvious first question - a bit like 'is your computer plugged in and turned on at the wall?'). Unless I've got the wrong end of the stick, and this category $C$ is defined up to equivalence from $G$. And maybe $C$ isn't a category, but only a [[semicategory]]? 
+
+Edit: Having a look, I find his book: Semigroups in algebra, geometry, and analysis, by Karl Heinrich Hofmann, Jimmie D. Lawson, &#278;rnest Borisovich Vinberg. They talk about Ol'shanski&#301; semigroups associated to groups - this might be a place to get started. From the examples discussed, it seems like some of the semigroups they consider are monoids, but that was only after I flicked quickly through the book online.
 =--
 
 ## Internalization 
