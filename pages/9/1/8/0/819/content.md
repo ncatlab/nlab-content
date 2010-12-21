@@ -1,6 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc} 
+
+## Definition
+
 Given a (small) [[category]] $C$ and given a [[set]] $S$ there are (at least) the following two equivalent ways to define an [[action]] of $C$ on $S$.
 
-#Action as a functor#
+### Action as a functor
 
 An **action of a category** $C$ on a [[set]] $S$ is nothing but a [[functor]] $\rho : C \to$ [[Set]]. 
 
@@ -27,7 +44,7 @@ $$
 In the case that $C$ has just a single object $\bullet$ the category $C$ is just a [[monoid]] (might for instance be a [[group]]), there is just a single set $S = \rho(\bullet)$ and we recover the ordinary notion of a [[monoid]] or [[group]] acting on a set.
 
 
-#Action as an algebra for a monad#
+### Action as an algebra for a monad
 
 An equivalent perspective on the above situation is often useful. To motivate this, notice that the decomposition $S = \sqcup_{c \in Obj(c)} \rho(c)$ of the set $S$ into subsets corresponding to objects of the category $C$ can equivalently be encoded in a map of sets
 
