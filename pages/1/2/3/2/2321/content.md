@@ -13,13 +13,29 @@
 * automatic table of contents goes here
 {:toc}
 
-## Definition (orientation on a manifold)#
+## Definition#
 
-...
++-- {: .un_defn}
+###### Definition
 
-### In terms of lifting through Whitehead tower# #
+For $X$ a [[manifold]] and $V \to X$ a [[vector bundle]] of [[rank]] $k$, an **orientation** on $V$ is an equivalence class of trivializations of the real [[line bundle]] $\wedge^k V$ that is obtained by associating to each [[fiber]] of $V$ its skew-symmetric $k$th [[tensor power]].
 
-One way to encode an _orientation_ on a [[manifold]] $X$ is as a lift $\hat g$ of the classifying map $g : X \to \mathcal{B}O(n)$ of its [[tangent bundle]] through the fist step $S O(n) \to O(n)$ in the [[Whitehead tower]] of $X$:
+Equivalently for a [[smooth manifold]] this is an equivalence class of an everywhere non-vanishing element of $\wedge^k_{C^\infty(X)} \Gamma(V)$.
+
+An orientation of the [[tangent bundle]] $T X$ or [[cotangent bundle]] $T^* X$ is called an **orientation of the manifold**. This is equivalently a choice of no-where vanishing [[differential form]] on $X$ of degree the [[dimension]] of $X$.
+
+If a trivialization of $\wedge^k V$ exists, $V$ is called **orientable**.
+
+For $\omega$ an orientation, $-\omega$ is the **opposite orientation**.
+
+
+=--
+
+## Properties
+
+### In terms of lifting through Whitehead tower 
+
+An orientation on a [[Riemannian manifold]] $X$ is equivalently a lift $\hat g$ of the classifying map $g : X \to \mathcal{B}O(n)$ of its [[tangent bundle]] through the fist step $S O(n) \to O(n)$ in the [[Whitehead tower]] of $X$:
 
 $$
   \array{
@@ -42,9 +58,17 @@ From this perspective a choice of orientation is the first in a series of specia
 
 * [[fivebrane structure]], [[differential fivebrane structure]]
 
-## Orientation in generalized cohomology
+### In terms of orientation in generalized cohomology
 
-* [[orientation in generalized cohomology]]
+
+For $E$ an [[E-∞ ring]] spectrum, tthere is a general notion of $R$-orientation of vector bundles. This is described at
+
+* [[orientation in generalized cohomology]].
+
+For $R = H(\mathbb{R})$ be the [[Eilenberg-MacLane spectrum]]
+for the [[discrete group|discrete]] [[abelian group]] $\mathbb{R}$
+of [[real number]]s, orientation in $R$-cohomology is equivalent to the 
+ordinary notion of orientation described above.
 
 
 [[!redirects orientable]]
