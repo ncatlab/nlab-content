@@ -32,7 +32,7 @@ $$
   \Pi : (\infty,1)Topos 
      \stackrel{Y}{\to}  Func((\infty,1)Topos, \infty Grpd)^{op}
       \stackrel{Lex(PSh(-), \infty Grpd)}{\to}
-      Lex(\infty Grpd, \infty Grpd)^{op}
+      AccLex(\infty Grpd, \infty Grpd)^{op}
      \simeq
        Pro \infty Grpd
 $$
@@ -58,15 +58,15 @@ Here
 
 * $Func(-,-)$ is the [[(∞,1)-category of (∞,1)-functors]];
 
-* $Lex(-,-) \subset (\infty,1)Func(-,-)$ is the full [[sub-(∞,1)-category]]
-  of the [[(∞,1)-category of (∞,1)-functors]] on those which are left [[exact functor]]s (preserve finite [[(∞,1)-limit]]s);
+* $AccLex(-,-) \subset (\infty,1)Func(-,-)$ is the full [[sub-(∞,1)-category]]
+  of the [[(∞,1)-category of (∞,1)-functors]] on those which are left [[exact functor]]s (preserve finite [[(∞,1)-limit]]s) and also [[accessible (∞,1)-functor|accessible]].
 
 * $PSh(-) : \infty Grpd \to (\infty,1)Topos$ is the functor that 
   produces the [[(∞,1)-category of (∞,1)-presheaves]] $Func(X^{op}, \infty Grpd)$ on $X$ (equivalently on the equivalent [[opposite (∞,1)-category|opposite ∞-groupoid]] $X^{op}$);
 
 * $Pro \infty Grpd$ is the [[pro-object in an (∞,1)-category|(∞,1)-category of pro-objects]] in $\infty Grpd$.
 
-That this does indeed land in left exact functors is shown below.
+That this does indeed land in accessible left exact functors is shown below.
 
 ## Properties
 
@@ -189,7 +189,7 @@ $$
 +-- {: .un_remark}
 ###### Remark
 
-In particular this does show that $\Pi(\mathbf{H}) : \infty Grpd \to \infty Grpd$ does preserve finite $(\infty,1)$-limits, since $\Gamma$ preserves all limits and $LConst$ is a left [[exact functor]].
+In particular this does show that $\Pi(\mathbf{H}) : \infty Grpd \to \infty Grpd$ does preserve finite $(\infty,1)$-limits, since $\Gamma$ preserves all limits and $LConst$ is a left [[exact functor]].  It also shows that it is accessible, since $\Gamma$ and $LConst$ are both accessible.
 
 =--
 
