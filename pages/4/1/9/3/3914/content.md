@@ -18,7 +18,7 @@
 
 Generally, for $E$ an [[E-∞ ring]] [[spectrum]], and $P \to X$ a [[sphere spectrum]]-bundle, an _$E$-orientation_ of $P$ is a trivialization of the [[associated bundle|associated]] $E$-bundle.
 
-Specifically, for $P = Th(V)$ the [[Thom space]] of a [[vector bundle]] $V \to X$, an $E$-orientation of $V$ is an $E$-orientation of $P = Th(V)$.
+Specifically, for $P = Th(V)$ the [[Thom space]] of a [[vector bundle]] $V \to X$, an $E$-orientation of $V$ is an $E$-orientation of $P$.
 
 ## Definition
 
@@ -29,7 +29,7 @@ Let $E$ be a [[E-∞ ring]] [[spectrum]]. Write $\mathbb{S}$ for the [[sphere sp
 
 #### $GL_1(R)$-principal $\infty$-bundles
 
-Write $R^\times$ or $GL_1(R)$ for the [[general linear group]] of the $E_\infty$-ring $R$: it is the subspace of th degree-0 space $\Omega^\infty R$ on those points that map to multiplicatively invertible elements in the ordinary ring $\pi_0(R)$.
+Write $R^\times$ or $GL_1(R)$ for the [[general linear group]] of the $E_\infty$-ring $R$: it is the subspace of the degree-0 space $\Omega^\infty R$ on those points that map to multiplicatively invertible elements in the ordinary ring $\pi_0(R)$.
 
 Since $R$ is $E_\infty$, the space $GL_1(R)$ is itself an [[infinite loop space]]. Its one-fold [[delooping]] $B GL_1(R)$ is the [[classifying space]] for $GL_1(R)$-[[principal ∞-bundle]]s (in [[Top]]): for $X \in Top$ and $\zeta : X \to B GL_1(R)$ a map, its [[homotopy fiber]]
 
@@ -53,7 +53,7 @@ is the $GL_1(R)$-principal $\infty$-bundle $P \to X$ classified by that map.
 **Example** There is a canonical morphism
 
 $$
-  B O \to b GL_1(\mathbb{S})
+  B O \to B GL_1(\mathbb{S})
 $$
 
 from the classifying space of the [[orthogonal group]], called the **$J$-homomorphism**. Postcomposition with this sends real [[vector bundle]]s $V \to X$ to sphere bundles. This is what is modeled by the [[Thom space]] construction
@@ -87,7 +87,7 @@ $$
 
 This is the generalized **Thom spectrum**. For $R = K O$ the real [[K-theory spectrum]] this is given by the ordinary [[Thom space]] construction on a [[vector bundle]] $V \to X$.
 
-An $E$-orientation of a vector bundle $V \to X$ is a trivialization of the $E$-module bundle $E \wedge S^V$, where iberwise form the [[smash product]] of $E$ with the [[Thom space]] of $V$.
+An $E$-orientation of a vector bundle $V \to X$ is a trivialization of the $E$-module bundle $E \wedge S^V$, where fiberwise form the [[smash product]] of $E$ with the [[Thom space]] of $V$.
 
 **Proposition** For $f : R \to S$ a morphism of $E_\infty$-rings, and $\zeta : X \to B GL_1(R)$ the classifying map for an $R$-bundle, the corresponding associated $S$-bundle classified by the composite
 
@@ -102,7 +102,7 @@ $$
   \,.
 $$
 
-This apears as ([Hopkins, bottom of p. 6](#Hopkins)).
+This appears as ([Hopkins, bottom of p. 6](#Hopkins)).
 
 #### $R$-Orientations
 
@@ -117,7 +117,7 @@ $$
 
 where the second map comes from the unit of $E_\infty$-rings $\mathbb{S} \to R$ (the sphere spectrum is the [[initial object]] in $E_\infty$-rings).
 
-Specifically, for $V : X \to B O$  a [[vector bundle]], an $E$-orientation on it is a trivialization of the $R$-bundle associated to the assoiated [[Thom space]] sphere bundle, hence a trivialization of the morphism
+Specifically, for $V : X \to B O$  a [[vector bundle]], an $E$-orientation on it is a trivialization of the $R$-bundle associated to the associated [[Thom space]] sphere bundle, hence a trivialization of the morphism
 
 $$
   \array{
@@ -189,7 +189,7 @@ $$
   M Spin \to R
 $$
 
-and trivializaitons of 
+and trivializations of 
 
 $$
   B String \to B Spin \to B O \stackrel{J}{\to} B GL_1(\mathbb{S})
@@ -205,7 +205,7 @@ $$
 
 and so forth.
 
-This is the way orientations in generalized cohomology often appar in the literature.
+This is the way orientations in generalized cohomology often appear in the literature.
 
 **Example** The construction of the $String$-orientation of [[tmf]], hence a morphism
 
@@ -246,9 +246,9 @@ The existence of an $H$-orientation is necessary in order to have a notion of [[
 
 * For $V \to X$ a vector bundle of rank $k$, an ordinary [[orientation]] is a trivialization of the line bundle $\wedge^k V$. This is indeed equivalently a trivialization of $V \wedge H(\mathbb{R})$ of smashing with the [[Eilenberg-MacLane spectrum]].
 
-* For spin orientation of vector bundle the consztruction is given by forming [[Clifford algebra]] bundles.
+* For spin orientation of vector bundle the construction is given by forming [[Clifford algebra]] bundles.
 
-* For string orientation of vector bundle te construction is supposed to be given by forming free fermion [[local net]]-bundle. See [[Andre Henriques]]' website.
+* For string orientation of vector bundle the construction is supposed to be given by forming free fermion [[local net]]-bundle. See [[Andre Henriques]]' website.
 
 (...)
 
@@ -263,6 +263,6 @@ The general abstract story of $E$-orientation of sphere fibrations is discussed 
 * [[Mike Hopkins]], _The String orientation of tmf_ (talk notes by [[Andre Henriques]]) ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter14/MikesTalk3.pdf))
 {#Hopkins}
 
-with an eye towaqrds constructing the [[string structure]]-orientation of [[tmf]].
+with an eye towards constructing the [[string structure]]-orientation of [[tmf]].
 
 [[!redirects Thom class]]
