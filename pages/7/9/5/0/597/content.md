@@ -40,7 +40,18 @@ For example:
 
 ## Familial regularity and exactness
 
-In what follows we will use **unary** to refer to sinks and relations with ${|I|} = 1$, **finitary** to refer to sinks and relations with ${|I|}$ finite, and **infinitary** to refer to all small sinks and relations.  We say **$\kappa$-ary** to refer to an unspecified one of these three cases (of course, there are generalizations to other cardinals).
+In what follows, we let $\kappa$ be a [[class]] of [[cardinal numbers]] with the following properties:
+
+1. $1\in \kappa$.
+1. If $\lambda\in\kappa$, then an indexed sum $\sum_{i\in\lambda} \alpha_i$ is in $\kappa$ if and only if each $\alpha_i$ is in $\kappa$.
+
+At least in [[classical mathematics]], there are then only three possibilities: either $\kappa=\{1\}$, or $\kappa$ is the set of cardinal numbers smaller than some [[regular cardinal]] (including 2, but not including 1 or 0), or $\kappa$ is the [[proper class]] of all cardinal numbers.  However, the properties above are the important ones.
+
+We refer to a sink or relation as **$\kappa$-ary** if the cardinality ${|I|}$ is an element of $\kappa$.  The cases of most interest have special names:
+
+* When $\kappa=\{1\}$ we say **unary**.
+* When $\kappa=\omega$ is the set of finite cardinals, we say **finitary**.
+* When $\kappa$ is the class of all cardinal numbers, we say **infinitary**.
 
 We say that a finitely complete category $C$ is **$\kappa$-ary regular** if the following hold.
 
