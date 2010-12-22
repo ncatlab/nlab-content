@@ -87,9 +87,9 @@ One crucial feature of von Neumann algebras is that they contain
 
 #### Projections are norm dense
 
-First let us note that every element $A$ of a von Neumann algebra can trivially be written as a sum of two selfadjoint elements:
+First let us note that every element $A$ of a von Neumann algebra can trivially be written as a linear combination of two selfadjoint elements:
 $$
-A = \frac{1}{2} (A + A^*) + \frac{1}{2} (A - A^*)
+A = \frac{1}{2} (A + A^*) + i\frac{1}{2i} (A - A^*)
 $$
 
 Then, by the [[spectral theorem]] every selfadjoint element A is represented by it's spectral measure E via
