@@ -91,8 +91,6 @@ You can use HTML/XML/SGML [character entity references](http://www.w3schools.com
   1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
   1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
   1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
-  1.  [Sell Gia Diamond](http://www.iwanttosellmydiamond.net/)
-  1.  [Attract Women](http://www.promaxpheromonelabs.com/)
 
 * __NB.__  Depending on your font settings, the less ordinary symbols may look better if you use "iTeX + \text + numerical entity".  Compare and contrast:
   1. direct : `&#8472;` or <code>&amp;weierp;</code> or `&#x2118;` &rarr; '&#8472;'
