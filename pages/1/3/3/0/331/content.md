@@ -1,21 +1,30 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 #### Type theory
-+--{: .hide}
++-- {: .hide}
 [[!include type theory - contents]]
 =--
 =--
 =--
 
+# Logic
+* table of contents
+{: toc}
+
+## Idea
+
+As a discipline, __logic__ is the study of methods of reasoning.  While in the past (and often today in philosophical circles), this discipline was prescriptive (describing how one *should* reason), it is increasingly (and usually in mathematical circles) descriptive (describing how one *does* reason).
+
+As a (potentially) mathematical object, a __logic__ is a specific method of reasoning.  There are several ways to formalise this which I decided not to get into now, but maybe later.
 
 
-# entries on logic #
+## Entries on logic
 
 * [[axiom of choice]]
 * [[Boolean algebra]]
@@ -43,3 +52,7 @@
 * [[truth value]]
 * [[type]]
 * [[type theory]]
+
+
+[[!redirects logic]]
+[[!redirects logics]]
