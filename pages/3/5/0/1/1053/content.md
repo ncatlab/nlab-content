@@ -1,12 +1,13 @@
-#Contents#
+
+# Contents
 * automatic table of contents goes here
 {:toc}
 
-## Idea ##
+## Idea
 
-Unlike traditional logics, which deal with the truth of
-propositions, linear logic is often described as dealing
-with the availability of resources.  A proposition, if it is
+Unlike traditional [[logics]], which deal with the _[[truth]]_ of
+_[[propositions]]_, linear logic is often described as dealing
+with the _availability_ of _resources_.  A proposition, if it is
 true, remains true no matter how we use that fact in proving
 other propositions.  By contrast, in using a resource $A$ to
 make available a resource $B$, $A$ itself may be consumed or
@@ -21,7 +22,7 @@ from which we can prove
 $$\text{have cake},\text{have cake}\vdash \text{have cake}
 \wedge \text{eat cake}$$
 
-which by left contraction (duplication of inputs) in classical logic yields
+which by left [[contraction]] (duplication of inputs) in [[classical logic]] yields
 
 $$\text{have cake}\vdash\text{have cake}\wedge\text{eat cake}$$
 
@@ -29,18 +30,20 @@ Linear logic would disallow the contraction step and treat
 $\text{have cake},\text{have cake}\vdash A$ as explicitly
 meaning that _two_ slices of cake yield $A$.  Disallowing contraction then corresponds to the fact that we can't turn one slice of cake into two (more's the pity), so you can\'t have your cake and eat it too.
 
-Linear logic was introduced in \[1\].  Although it is
+Linear logic was introduced in [Girard (1987)](#Girard).  Although it is
 usually presented in terms of inference rules, it was
-apparently discovered by Girard while studying [coherent
-spaces](http://en.wikipedia.org/wiki/Coherent_space) (not
+apparently discovered by Girard while studying [[coherent
+space|coherent
+spaces]] (see [Wikipedia](http://en.wikipedia.org/wiki/Coherent_space)) (not
 the topological kind).
 
-## Discussion ##
 
-Probably the best way to explain LL to a category theorist
+## Discussion
+
+Probably the best way to explain linear logic to a category theorist
 is to say that its models are
 [[*-autonomous categories]] with extra
-structure (see \[2\]).
+structure (see [Seely, 1989](#Seely)).
 
 Firstly, there is a monoidal 'tensor' connective
 $A \otimes B$.  [[negation|Negation]] $A^\bot$ is modelled by the duality
@@ -55,7 +58,7 @@ parallel availability of resources.
 The 'additive' connectives $\&$ and $\oplus$, which
 correspond in another way to traditional conjunction and
 disjunction, are modelled as usual by [[product]]s and
-[[coproduct]]s.  Seely notes \[2\] that products are sufficient, as $*$-autonomy then guarantees the existence of coproducts; that is, they are also linked by [[de Morgan duality]].
+[[coproduct]]s.  [Seely (1989)](#Seely) notes that products are sufficient, as $*$-autonomy then guarantees the existence of coproducts; that is, they are also linked by [[de Morgan duality]].
 
 LL recaptures the notion of a resource that can be discarded
 or copied arbitrarily by the use of the modal operator $!$:
@@ -85,14 +88,19 @@ category.  The exponential (unsurprisingly for a Kleisli
 category) is $B^A \cong !A\multimap B$.
 
 
-## References ##
+## References
 
-1. Girard, Jean-Yves, 'Linear logic'.  _Theoretical Computer
+*  Girard, Jean-Yves, 'Linear logic'.  _Theoretical Computer
    Science_ 50:1, 1987.
+{#Girard}
 
-2. Seely, R. A. G., 'Linear logic, $*$-autonomous categories
+*  Seely, R. A. G., 'Linear logic, $*$-autonomous categories
    and cofree coalgebras', _Contemporary Mathematics_ 92,
-   1989.  Available at
-   &lt;http://www.math.mcgill.ca/rags/nets/llsac.ps.gz>.
+   1989.  Available in [PostScript](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz).
+{#Seely}
 
-3. The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied fragments.
+*  The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied fragments.
+
+
+[[!redirects linear logic]]
+[[!redirects linear logics]]
