@@ -40,7 +40,7 @@ Then in terms of $Set_{\lt\kappa}$, the (potential) conditions on a (possibly fi
 
 These are all variations on the theme of closure under coproducts.
 
-Clauses (2--4) hold of all infinite cardinals, while clauses (2&4) together force $\kappa$ to be greater than any finite cardinal.  However, if we require only clauses (1&2), then $2$ is a regular cardinal.
+Clauses (2--4) hold of all infinite cardinals, while clauses (2&4) together force $\kappa$ to be greater than any finite cardinal.  However, if we require only clauses (1&4), then $2$ is a regular cardinal.
 
 
 ### In weak foundations
@@ -49,7 +49,7 @@ Thinking of a regular cardinal *as* a cardinal number makes the most sense using
 
 From this perspective, a regular cardinal is a [[full subcategory]] of $Set$ that is closed under taking [[quotient objects]] and satisfies the condition on $Set_{\lt\kappa}$ above.  We can then recover $\kappa$ as the largest cardinal number greater than every cardinal in $Set_{\lt\kappa}$, if we accept the axiom of choice.
 
-Note that if we require only conditions (1&2) on $Set_{\lt\kappa}$, then (even classically), $\{1\}$ is an acceptable (and finite) regular collection of cardinals, even though it is not actually of the form $Set_{\lt\kappa}$ for any cardinal number $\kappa$.
+Note that if we require only conditions (1&4) on $Set_{\lt\kappa}$, then (even classically), $\{1\}$ is an acceptable (and finite) regular collection of cardinals, even though it is not actually of the form $Set_{\lt\kappa}$ for any cardinal number $\kappa$.
 
 
 ## Examples
