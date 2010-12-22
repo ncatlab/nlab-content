@@ -1,29 +1,32 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Higher algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
-## Definition
+## Idea
 
 A semigroup is like a [[monoid]] where there might not be an [[identity element]].  
 
-Precisely, a __semigroup__ is, equivalently,
+
+## Definition
+
+A __semigroup__ is, equivalently,
 
 *  a [[set]] equipped with an [[associativity|associative]] binary operation.  
 
-* an associative [[magma]];
+*  an associative [[magma]];
 
-* the [[hom-set]] of a [[semicategory]] with a single object.
+*  the [[hom-set]] of a [[semicategory]] with a single object.
 
 
 ## Properties
@@ -33,13 +36,11 @@ Some semigroups happen to be [[monoid]]s; even then, a semigroup [[homomorphism]
 As a monoid is a [[category]] with one object, so a semigroup is a [[semicategory]] with one object.
 
 
-## Attitudes Toward Semigroups 
+## Attitudes toward semigroups 
 
 Some mathematicians consider semigroups to be a case of [[centipede mathematics]].  [[category theory|Category theorists]] sometimes look with scorn on semigroups, because unlike a monoid, a semigroup is not an example of a [[category]].    
 
 However, a semigroup can be promoted to a monoid by adjoining a new element and decreeing it to be the identity.  This gives a [[full and faithful functor]] from the category of semigroups to the category of monoids.  So, a semigroup can actually be seen as a monoid with an extra property.
-
-
 
 +-- {: .un_example}
 ###### Exercise  
@@ -47,10 +48,7 @@ However, a semigroup can be promoted to a monoid by adjoining a new element and 
 What is this property?
 =--
 
-
-
 On the other hand, analysts run across semigroups often in the wild, and don\'t always want to add formal identities just to turn them into monoids.
-
 
 Another variant with strong links with category theory is that of [[inverse semigroups]], which [[Charles Ehresmann]] showed were closely related to [[ordered groupoid]]s. Inverse semigroups naturally occur when considering partial symmetries of an object.
 
@@ -70,7 +68,14 @@ I am at a loss as to why this is a semigroup, and not a monoid...
 [[David Roberts]]: Well, we can realise $G = Aut_{\mathbf{B}G}(*)$, where $*$ is the single object of the one-object groupoid associated to $G$. Then $End(*) = Aut(*)$ in this category, so this 'Mantle' is nowhere near being uniquely defined. Is Neretin using the same definition of semigroup as here (it's the obvious first question - a bit like 'is your computer plugged in and turned on at the wall?'). Unless I've got the wrong end of the stick, and this category $C$ is defined up to equivalence from $G$. And maybe $C$ isn't a category, but only a [[semicategory]]? 
 
 Edit: Having a look, I find his book: Semigroups in algebra, geometry, and analysis, by Karl Heinrich Hofmann, Jimmie D. Lawson, &#278;rnest Borisovich Vinberg. They talk about Ol'shanski&#301; semigroups associated to groups - this might be a place to get started. From the examples discussed, it seems like some of the semigroups they consider are monoids, but that was only after I flicked quickly through the book online.
+
+_Toby_:  When Neretin insists that the mantle is a semigroup, does he also insist that it\'s not a monoid, or is he just silent about that?  After all, it *is* a semigroup.
+
+We category theorists are strongly attracted to monoids, since they come from categories and semigroups don\'t.  But others consider monoids to be just a special kind of semigroup; as long as it\'s not a group, they\'re not going to bother worrying about whether a semigroup is a monoid or not.
+
+I agree with David that the mantle doesn\'t seem to be well defined; a group should have several mantles (the smallest of which is itself).  But if he\'s talking about a particular way of constructing certain groups, then this way may well come about by first constructing a monoid (the mantle) and then taking the mantle\'s group of invertible elements.
 =--
+
 
 ## Internalization 
 
@@ -84,6 +89,7 @@ Semicategories and semigroups are mentioned for instance in section 2 in
 * W. Dale Garraway, _Sheaves for an involutive quantaloid_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 46 no. 4 (2005), p. 243-274  ([numdam](http://www.numdam.org/item?id=CTGDC_2005__46_4_243_0))
 
 
+[[!redirects semigroup]]
 [[!redirects semigroups]]
 [[!redirects semigroup object]]
 [[!redirects semigroup objects]]
