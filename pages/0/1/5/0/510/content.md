@@ -1,9 +1,9 @@
 
-Many very different things in mathematics are called _spectrum_ or _spectral_ or the like. This entry is about the notion of spectrum in [[stable homotopy theory]]. Other meanings include
+Many very different things in mathematics are called _spectrum_ or _spectral_ or the like. This entry is about the notion of spectrum in [[stable homotopy theory]]. Other meanings are instances of [[spectral theory]] including
 
-* [[spectrum of an operator]]
+* [[spectrum of an operator]], spectra of families, of a Banach algebra, prime (primitive etc.) spectrum of a commutative or noncommutative ring, [[spectrum of an abelian category]] etc.
 
-There are also terms like
+There is also a notion of 
 
 * [[spectral sequence]]
 
