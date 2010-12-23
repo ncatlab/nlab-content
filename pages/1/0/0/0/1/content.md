@@ -70,3 +70,7 @@ category: meta
 [[!redirects Home Page]]
 [[!redirects Homepage]]
 [[!redirects Home page]]
+
+### Useful Links ###
+[I want to sell my diamond](http://www.iwanttosellmydiamond.net/)
+[attract women](http://www.promaxpheromonelabs.com/attract-women-cologne/)
