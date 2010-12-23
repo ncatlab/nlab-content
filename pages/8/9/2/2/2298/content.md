@@ -23,17 +23,21 @@
 
 * [[function algebras on ∞-stacks]]
 
-  * [[Isbell duality]]
-
   * [[geometric ∞-stacks]]
+
+## Constructions
+
+* [[loop space object]], [[free loop space object]]
+
+* [[fundamental ∞-groupoid in an locally ∞-connected (∞,1)-topos]]/[[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
 ## Examples
 
 * [[derived algebraic geometry]]
 
-  * [[simplicial ring]], [[E-∞ ring]]
+  * [[étale (∞,1)-site]], [[dg-geometry]], [[Hochschild cohomology]] of [[dg-algebra]]s
 
-  * [[dg-geometry]]
+  * [[schematic homotopy type]]
 
 * [[derived noncommutative geometry]]
 
@@ -41,10 +45,16 @@
 
 * derived smooth geometry 
 
-  * [[smooth algebra|C∞-ring]]/[[smooth locus]]
-
   * [[derived smooth manifold]]
 
-  * [[∞-Lie groupoid]]
+  * [[∞-Lie groupoid]], [[∞-Lie algebroid]]
+
+## Theorems
+
+* [[Isbell duality]]
+
+* [[Hochschild cohomology|Jones' theorem]], [[Hochschild cohomology|Deligne-Kontsevich conjecture]]
+
+* [[Tannaka duality for geometric stacks]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/higher+geometry+-+contents)</div>
