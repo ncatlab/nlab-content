@@ -82,8 +82,7 @@ The theory of "[[derived algebraic geometry]]" originated by Kontsevich, Kaprano
 in a foundational framework which relies on [[higher category theory|higher categories]] and [[infinity-stack|higher
 stacks]] for glueing. In the future derived geometry should be a key ingredient in Hodge theory for 
 higher [[nonabelian cohomology]], to be compared with
-[[Katzarkov]], Pantev and [[Bertrand Toen|Toen]]'s [[Hodge theory]] on the schematic homotopy
-type. The latter is a higher categorical version of Grothendieck's reinterpretation
+[[Katzarkov]], Pantev and [[Bertrand Toen|Toen]]'s [[Hodge theory]] on the [[schematic homotopy type]]. The latter is a higher categorical version of Grothendieck's reinterpretation
 of [[Galois theory]], forseen in "[[Pursuing Stacks|La poursuite des champs]]", or really
 its Tannakian counterpart. Grothendieck also mentionned, somewhat cryptically, a potential application to stratified spaces. The respective theses of
 Treumann and Dupont go in this direction by using exit-path n-categories to classify constructible complexes of sheaves.
