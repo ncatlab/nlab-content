@@ -1,6 +1,12 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
 [[!include manifolds and cobordisms - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -13,6 +19,11 @@ A [[manifold]] with boundary is a _cobordism_ between its boundary components.  
 
 Dual to a cobordism is a [[bordism]].
 
-See [[extended cobordism]] and [[cobordism category]] for more.
+## Related concepts
+
+* [[cobordism category]]
+
+* [[extended cobordism]] 
+
 
 [[!redirects cobordisms]]
