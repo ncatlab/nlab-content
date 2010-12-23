@@ -1,12 +1,18 @@
+
+# Context-free grammar
+* table of contents
+{: toc}
+
 ## Definition
 
 ...
 
+
 ## Early sources
 
-A notion of context-free grammar, now used in linguistics, computer science and mathematics has been introduced in the works of N. Chomsky. Here is list of some of the original references in English and also of their Russian translations. 
+The notion of context-free grammar, now used in [[linguistics]], [[computer science]] and [[mathematics]], was introduced in the works of [[Noam Chomsky]]. Here is list of some of the original references in English and also of their Russian translations. 
 
-* [[Noam Chomsky]], _Three models for the description of language, I. R. E.
+* N. Chomsky, _Three models for the description of language, I. R. E.
 Trans. PGIT 2 (1956), 113&#8212;124. (&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; &#1087;&#1077;&#1088;&#1077;&#1074;&#1086;&#1076;: &#1061;&#1086;&#1084;&#1089;&#1082;&#1080;&#1081; &#1053;., &#1058;&#1088;&#1080;
 &#1084;&#1086;&#1076;&#1077;&#1083;&#1080; &#1076;&#1083;&#1103; &#1086;&#1087;&#1080;&#1089;&#1072;&#1085;&#1080;&#1103; &#1103;&#1079;&#1099;&#1082;&#1072;, &#1050;&#1080;&#1073;&#1077;&#1088;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1081; &#1089;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1074;&#1099;&#1087;. 2, &#1048;&#1051; 1961, 237-266)
 * N. Chomsky, _On certain formal properties of grammars_, Information
@@ -32,6 +38,7 @@ Control __1__ (1958), 91&#8212;-112. (&#1061;&#1086;&#1084;&#1089;&#1082;&#1080;
 * N. Chomsky, M. P. Sch&#252;tzenberger, _The algebraic theory of
 context-free languages_, in: Computer programming and formal systems, 118&#8211;161 North-Holland 1963, Amsterdam [MR152391](http://www.ams.org/mathscinet-getitem?mr=152391) (&#1050;&#1080;&#1073;&#1077;&#1088;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1081; &#1089;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082; __3__, 195--242, 1966)
 
+
 ## Modern literature
 
 * wikipedia: [context-free language](http://en.wikipedia.org/wiki/Context-free_language)
@@ -42,7 +49,12 @@ Some chapters in "Handbook of formal language theory" (3 vols.), G. Rozenberg, A
 
 * Jean-Michel Autebert, Jean Berstel, Luc Boasson, _Context-free languages and push-down automata_, vol. 1, ch. 3 
 
+
+[[!redirects context-free grammar]]
 [[!redirects context-free grammars]]
 [[!redirects context free grammar]]
+[[!redirects context free grammars]]
 [[!redirects context-free language]]
 [[!redirects context-free languages]]
+[[!redirects context free language]]
+[[!redirects context free languages]]
