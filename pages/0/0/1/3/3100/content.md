@@ -6,5 +6,8 @@
 
 * [[∞-stack]]
 
+* [[schematic homotopy type]]
 
 category: people
+
+[[!redirects Andre Hirschowicz]]
