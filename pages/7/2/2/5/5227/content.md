@@ -1,15 +1,17 @@
-[[!redirects Petri nets]]
-# Contents
+
+# Petri nets
 * automatic table of contents goes here
 {:toc}
 
-##Petri nets##
-###Introduction###
+## Introduction
+
 Petri nets are a well known model of parallel computation, generalising [[transition systems]] by using a built in notion of resource.  Their use is widespread in modelling manufacturing systems, optimising control systems and in resource critical aspects of operational research, as well as being a useful model of computation.  Because of this they exist in many variants : colored, algebraic, probabilistic, timed, ..., and hence there are many forms of the basic definition, each thought best of that particular application.
 
-The initial use, here, is for their links with [[transition systems]], [[event structures]], [[asynchronous automata]] etc., leading on to their comparison with [[higher dimensional automata]] and [[higher dimensional transition systems]], so the first definition we will use is that given by Winskel and Nielsen (see references below), but first we will attempt to give some idea of what a Petri net is and what is does.
+The initial use, here, is for their links with [[transition systems]], [[event structures]], [[asynchronous automata]] etc., leading on to their comparison with [[higher dimensional automaton|higher dimensional automata]] and [[higher dimensional transition system]]s, so the first definition we will use is that given by Winskel and Nielsen (see references below), but first we will attempt to give some idea of what a Petri net is and what is does.
 
-##Idea##
+
+## Idea
+
 The idea of a simple Petri net is based on a simple manufacturing shop.  You have various 'transitions' or manufacturing 'events' that form part of the various process occurring in the 'shop'. These typically take parts (of the final object), do something to them, such as combining two or more different parts to make a more complicated one, (for instance, putting the wheels on a car).
 
 Parts, represented by 'tokens' are stored in 'places' and the assembly process are known, as above, as 'events' or 'transitions' (depending on the source being used for the theory).  The relationships are typically represented graphically.  For instance:
@@ -42,7 +44,8 @@ represents a system with three places (labelled $A$, $B$, and $C$) and one event
 Suppose that the 'event' takes one 'part' of type $A$, one of type $B$ and produces one of type $C$.  (This is indicated on the diagram by the labels on the edges.  Clearly with the available  resources the even $e$ is able to be performed.  (The usual Petri net jargon for this is that '$e$ is enabled'.) In this case, $e$ can be 'fired' and the result will yield a marking of one token in $A$, none in $B$ and one in $C$.  This sort of structure gets abstracted as follows:
 
 +--{: .un_defn}
-######Definition######
+###### Definition
+
 A **Petri net** $N$ consists of
 
 * a set $P$ of _places_;
@@ -56,11 +59,10 @@ A **Petri net** $N$ consists of
   *  $pre: P\times E\to \mathbb{N}$, and
 
   *   $post:  P\times E\to \mathbb{N}$.
-
 =--
 
 
-##References##
+## References
 
 * [[G. Winskel]], M. Nielsen, _Models for concurrency_, Handbook of Logic in Computer Science vol. 3, pp. 100 -- 200, Oxford Univ. Press 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
@@ -69,3 +71,7 @@ A **Petri net** $N$ consists of
 For an introduction to Petri nets (en francais, which is very clear and accessible) look at
 
 * Robert Valette, [Les R&#233;seaux de Petri](http://homepages.laas.fr/robert/enseignement.d/cour01.pdf).
+
+
+[[!redirects Petri net]]
+[[!redirects Petri nets]]
