@@ -59,7 +59,7 @@ over a [[groupoid object in an (∞,1)-category]] $K_\bullet : \Delta \to \mathb
 
 =--
 
-For $T$ the theory of commutative [[associative algebra]]s over a commutative ring $k$ and $C$ the [[étale site]] this appears as  [To&#235;n, definition 4.1.4](#Toen).
+For $T$ the theory of commutative [[associative algebra]]s over a commutative ring $k$ and $C$ the [[fpqc topology]] this appears as  [To&#235;n, definition 4.1.4](#Toen).
 
 
 ## Properties
