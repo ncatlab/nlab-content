@@ -38,7 +38,7 @@ $$
 
 =--
 
-Here the [[free functor|free]] $T$-algebra on a single generator $F_T(*)$ is the [[polynomial algebra]] $k[t] \in Alg_k$ on a single generator $* = t$ and $Spec k[t]$ may be regarded as the corresponding object in the [[opposite category]] $Aff_k := Alg_k^{of}$ of [[affine scheme]]s over $Spec  k$.
+Here the [[free functor|free]] $T$-algebra on a single generator $F_T(*)$ is the [[polynomial algebra]] $k[t] \in Alg_k$ on a single generator $* = t$ and $Spec k[t]$ may be regarded as the corresponding object in the [[opposite category]] $Aff_k := Alg_k^{op}$ of [[affine scheme]]s over $Spec  k$.
 
 
 ### Multiplicative group
@@ -216,14 +216,14 @@ and so the morphism gives a decomposition of $R$ into pieces labeled by $\mathbb
 +-- {: .un_remark}
 ###### Remark
 
-This induces the algebraic construciton of [[projective space]]s as formal duals of graded algebras. See there for more details.
+This induces the algebraic construction of [[projective space]]s as formal duals of graded algebras. See there for more details.
 
 =--
 
 
 ## Related concepts
 
-* In [[A1-homotopy theory]] one considers [[homotopies]] in the [[sheaf topos]] over duals of $R$-algebras parameterized by the affine line.
+* In [[A1-homotopy theory|A^1 homotopy theory]] one considers [[homotopies]] in the [[sheaf topos]] over duals of $R$-algebras parameterized by the affine line.
 
 [[!redirects multiplicative group]]
 [[!redirects additive group]]
