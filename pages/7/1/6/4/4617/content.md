@@ -1158,13 +1158,13 @@ The structure of a [[simplicial model category]] is described in detail at [[mod
 
 [[Urs Schreiber]]: want to work out the following:
 
-if $Sh_{(\infty,1)}(C)$ is a [[locally contractible (∞,1)-topos]] we have the [[schreiber:path ∞-groupoid]] functor $\Pi$
+if $Sh_{(\infty,1)}(C)$ is a [[locally contractible (∞,1)-topos]] we have the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]-functor $\Pi$
 
 $$
   \Pi : Sh_{(\infty,1)}(C) \to \infty Grpd \simeq Top
 $$
 
-which forms geometric realization of simplicial spaces. In irs kernel (preimage of contractible spaces) sit objects such as $\mathbf{B}^n R$ that have nontrivial homotopy groups in $Sh_{(\infty,1)}(C)$ but which nevertheless become contractibe in $\infty Grpd$ under $\Pi$.
+which forms geometric realization of simplicial spaces. In its kernel (preimage of contractible spaces) sit objects such as $\mathbf{B}^n R$ that have nontrivial homotopy groups in $Sh_{(\infty,1)}(C)$ but which nevertheless become contractibe in $\infty Grpd$ under $\Pi$.
 
 We can think of this kernel of $\Pi$ hence as being smooth objects that have "no topology". These should at least include the $\infty$-Lie algebroids. So it ought to be true that the inclusion
 
@@ -1176,9 +1176,12 @@ lands in the kernel of $\Pi$. Now, by statement discussed at [[∞-Lie groupoid]
 
 But at least if $T$ is the theory of ordinary $k$-algebras, it is true that the objects in the image of the inclusion are of this form, since in terms of the [[derived functor]] of the inclusion 1-functor those are duals of [[Sullivan algebra]]s. 
 
-
-
 =--
+
+
+## Related concepts
+
+* [[geometric stack]], [[geometric ∞-stack]]
 
 ## References
 
