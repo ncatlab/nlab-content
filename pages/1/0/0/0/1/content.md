@@ -1,15 +1,15 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Contents### {: .clickToReveal}
-###Contents### {: .clickToHide tabindex="0"}
-+--{: .hide}
+### Contents {: .clickToReveal}
+### Contents {: .clickToHide tabindex="0"}
++-- {: .hide}
 [[!include contents]]
 =--
-+--{: .hide}
++-- {: .hide}
 [[!include mathematicscontents]]
 =--
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
@@ -70,3 +70,5 @@ category: meta
 [[!redirects Home Page]]
 [[!redirects Homepage]]
 [[!redirects Home page]]
+[[!redirects homepage]]
+[[!redirects home page]]
