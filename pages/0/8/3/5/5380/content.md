@@ -26,22 +26,26 @@ is the corresponding projective space.
 
 ### Examples
 
-#### For commutative rings
+#### For commutative rings and algebras
 
-For $T$ the theory of commutative [[ring]]s, $\mathbb{A}^1$ is the standard [[affine line]]. In this case $\mathbb{P}_n$ is (...)
+For $T$ the theory of commutative [[ring]]s or more generally commutative [[associative algebra]]s over a ring $k$, $\mathbb{A}_k^1$ is the standard [[affine line]] over $k$. In this case $\mathbb{P}^n_k$ is (...) A closed sub[[scheme]] of $\mathbb{P}^n_k$ is a [[projective scheme]].
 
 +-- {: .un_prop}
 ###### Proposition
 
-For $R$ a commutative ring, there is a [[natural isomorphism]] between
+For $R$ a commutative $k$-algebra, there is a [[natural isomorphism]] between
 
-* $\mathbb{Z}$-gradings on $R$;
+* $\mathbb{Z}$-[[graded algebra|gradings]] on $R$;
 
 * $\mathbb{G}_m$-[[action]]s on $Spec R$.
 
 =--
 
 The proof is spelled out at [[affine line]].
+
+#### Over the real and complex numbers
+
+(...)
 
 ## References
 
