@@ -1,10 +1,36 @@
-A __group scheme__ is a [[group object]] in the category of [[schemes]]. Therefore it may be considered a generalization of an [[algebraic group]]. In the [[functor of points]] formalism, a group scheme over a scheme $X$ is a functor
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A __group scheme__ is a [[group object]] in the category of [[schemes]]. 
+
+
+In the [[functor of points]] formalism, a group scheme over a scheme $X$ is a functor
 $$
 G: (Sch /X)^{op} \to Grp
 $$
 (where [[Grp]] is the category of discrete [[groups]]) such that the composition with the forgetful functor $F: Grp \to Set$ is [[representable functor|representable]]. 
 
 See also [[formal group]].
+
+## Examples
+
+Every [[algebraic group]] is in particular a group scheme.
+
+## References
 
 * M. Artin, J. E. Bertin, M. Demazure, P. Gabriel, A. Grothendieck, M. Raynaud, J.-P. Serre, _Schemas en groupes_, i.e. SGA III-1, III-2, III-3
 
