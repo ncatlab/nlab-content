@@ -66,10 +66,10 @@ Here we define the valid sequents, where we write $A : B : C \vdash D : E : F$ t
 
 *  The [[structural rule]]s:
    *  The [[exchange rule]]:  If a sequent is valid, then any [[permutation]] of it (created by permuting its left and right sides independently) is valid.
-   *  The [[identity rule]]:  $\Gamma \vdash \Gamma$ is valid, where $\Gamma$ is any list of propositions;
-   *  The [[cut rule]]:  If $\Gamma \vdash \Delta$ and $\Delta \vdash \Theta$, then $\Gamma \vdash \Theta$.
-   *  The restricted [[weakening rule]]:  If $\Gamma : \Delta \vdash \Theta$, then $\Gamma : !{A} : \Delta \vdash \Theta$, where $A$ is any proposition; conversely and dually, if $\Gamma \vdash \Delta : \Theta$, then $\Gamma \vdash \Delta : ?{A} : \Theta$.
+   *  The restricted [[weakening rule]]:  If $\Gamma : \Delta \vdash \Theta$, then $\Gamma : !{A} : \Delta \vdash \Theta$, for any $A$; conversely and dually, if $\Gamma \vdash \Delta : \Theta$, then $\Gamma \vdash \Delta : ?{A} : \Theta$ for any $A$.
    *  The restricted [[contraction rule]]:  If $\Gamma : !{A} : !{A} : \Delta \vdash \Theta$, then $\Gamma : !{A} : \Delta \vdash \Theta$; conversely and dually, if $\Gamma \vdash \Delta : ?{A} : ?{A} : \Theta$, then $\Gamma \vdash \Delta : ?{A} : \Theta$.
+   *  The [[identity rule]]:  Always, $A \vdash A$;
+   *  The [[cut rule]]:  If $\Gamma \vdash A$ and $A \vdash \Delta$, then $\Gamma \vdash \Delta$.
 *  The logical rules for each operation:
    *  If $\Gamma \vdash A : \Delta$, then $\Gamma : A^\perp \vdash \Delta$; conversely and dually, if $\Gamma : A \vdash \Delta$, then $\Gamma \vdash A^\perp : \Delta$.
    *  If $\Gamma : A : \Delta \vdash \Theta$ or $\Gamma : B : \Delta \vdash \Theta$, then $\Gamma : A \& B : \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta : A : \Theta$ and $\Gamma \vdash \Delta : B : \Theta$, then $\Gamma \vdash \Delta : A \& B : \Theta$.
@@ -79,14 +79,16 @@ Here we define the valid sequents, where we write $A : B : C \vdash D : E : F$ t
    *  Always $\Gamma \vdash \Delta : \top : \Theta$; dually (there is no converse), $\Gamma : \mathbf{0} : \Delta \vdash \Theta$.
    *  If $\Gamma : \Delta \vdash \Theta$, then $\Gamma : \mathbf{1} : \Delta \vdash \Theta$; conversely, $\vdash \mathbf{1}$.
    *  Dually, if $\Gamma \vdash \Delta : \Theta$, then $\Gamma \vdash \Delta : \bot : \Theta$; conversely, $\bot \vdash$.
-   *  If $\Gamma : A : \Delta \vdash \Theta$, then $\Gamma : !{A} : \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta : A : \Theta$, then $\Gamma \vdash \Delta : !{A} : \Theta$ *if* $\Gamma$ consists entirely of propositions of the form $!{-}$ while $\Delta$ and $\Theta$ consist entirely of propositions of the form $?{-}$.
-   *  Dually, if $\Gamma \vdash \Delta : A : \Theta$, then $\Gamma \vdash \Delta : ?{A} : \Theta$; conversely, if $\Gamma : A : \Delta \vdash \Theta$, then $\Gamma : ?{A} : \Delta \vdash \Theta$ *if* $\Gamma$ and $\Delta$ consist entirely of propositions of the form $!{-}$ while $\Theta$ consists entirely of propositions of the form $?{-}$.
+   *  If $\Gamma : A : \Delta \vdash \Theta$, then $\Gamma : !{A} : \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta : A : \Theta$, then $\Gamma \vdash \Delta : !{A} : \Theta$, whenever $\Gamma$ consists entirely of propositions of the form $!{-}$ while $\Delta$ and $\Theta$ consist entirely of propositions of the form $?{-}$.
+   *  Dually, if $\Gamma \vdash \Delta : A : \Theta$, then $\Gamma \vdash \Delta : ?{A} : \Theta$; conversely, if $\Gamma : A : \Delta \vdash \Theta$, then $\Gamma : ?{A} : \Delta \vdash \Theta$, whenever $\Gamma$ and $\Delta$ consist entirely of propositions of the form $!{-}$ while $\Theta$ consists entirely of propositions of the form $?{-}$.
 
 The main point of linear logic is the restricted use of the weakening and contraction rules; if these were universally valid (applying to any $A$ rather than only to $!{A}$ or $?{A}$), then the additive and multiplicative operations would be equivalent (in the sense defined below) and similarly $!{A}$ and $?{A}$ would be equivalent to $A$, which would give us [[classical logic]].  On the other hand, one can also remove the exchange rule to get a variety of [[noncommutative logic]]; one must then be careful about how to write the other rules (which we have been above).
 
 As usual, there is a theorem of [[cut elimination]] showing that the cut rule and identity rule follow from all other rules and the special cases of the identity rule of the form $p \vdash p$ for a propositional variable $p$.
 
-The propositions $A$ and $B$ are __equivalent__ if $A \vdash B$ and $B \vdash A$ are both valid.  It is then a theorem that either may be swapped for the other anywhere in a sequent without affecting its validity.  Up to equivalence, negation is an [[involution]], and the operations $\&$, $\oplus$, $\otimes$, and $\parr$ are all [[associative]], with respective [[identity elements]] $\top$, $\mathbf{0}$, $\mathbf{1}$, and $\bot$.  These operations are also [[commutative operation|commutative]] (although this fails for $\otimes$ and $\parr$ if we drop the exchange rule).  We also have [[distributive law|distributive laws]] that explain the adjectives 'additive', 'multiplicative', and 'exponential':
+The propositions $A$ and $B$ are __equivalent__ if $A \vdash B$ and $B \vdash A$ are both valid.  It is then a theorem that either may be swapped for the other anywhere in a sequent without affecting its validity.  Up to equivalence, negation is an [[involution]], and the operations $\&$, $\oplus$, $\otimes$, and $\parr$ are all [[associative]], with respective [[identity elements]] $\top$, $\mathbf{0}$, $\mathbf{1}$, and $\bot$.  These operations are also [[commutative operation|commutative]] (although this fails for the multiplicative connectives if we drop the exchange rule).  The additive connectives are also [[idempotent]] (but the multiplicative ones are not).
+
+We also have [[distributive law|distributive laws]] that explain the adjectives 'additive', 'multiplicative', and 'exponential':
 
 *  $A \otimes (B \oplus C) \equiv (A \otimes B) \oplus (A \otimes C)$ (and on the other side);
 *  dually, $A \parr (B \& C) \equiv (A \parr B) \& (A \parr C)$ (and on the other side);
