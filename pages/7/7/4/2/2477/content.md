@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -96,15 +106,11 @@ Geometric stacks over the site of schemes modeled on [[smooth loci]] is in secti
 
 * [[Dominic Joyce]], _Algebraic geometry over $C^\infty$-rings_ ([arXiv:1001.0023](http://arxiv.org/abs/1001.0023))
 
-## Geometric $\infty$-stacks
+## Related cocepts
 
+* **geometric stack**
 
-Geometric $\infty$-stacks were introduced in 
+* [[geometric ∞-stack]]
+ 
 
-* [[Bertrand Toen]], _Affine stacks (Champs affines)_ ([arXiv:math/0012219])
-
-in terms of [[model category]] presentations.
-
-More discussion on that is in
-
-* [[Bertrand Toen]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications_ ([arXiv](http://arxiv.org/abs/math/0404373))
+[[!redirects geometric stack]]
