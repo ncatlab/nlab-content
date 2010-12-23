@@ -11,6 +11,7 @@ oriented motivic cohomology theory (which is different from Morel-Voevodsky alge
 
 * Algebraic cobordism and $K$-theory. Mem. Amer. Math. Soc. __21__ (1979), no. 221, vii+152 pp.
 * Algebraic $K$-theory and localised stable homotopy theory. Mem. Amer. Math. Soc. __43__ (1983), no. 280, xi+102 pp.
+* Stable homotopy around the Arf-Kervaire invariant, Progress in Mathematics __273__, Birkh&#228;user Basel, 2009, ISBN10:3764399031
 * _Infinite loop maps and the complex J-homomorphism_, Bull. Amer. Math. Soc. __82__, 3 (1976), 508-510 [MR0410741](http://www.ams.org/mathscinet-getitem?mr=0410741), [euclid](http://projecteuclid.org/euclid.bams/1183537922)
 * _The complex J-homomorphism. I_, Proc. Lond. Math. Soc., III. Ser. 34, 269-302 (1977), (Zbl 0344.55016) 
 * _Geometric dimension of complex vector bundles_, Serie
