@@ -1,47 +1,50 @@
 
-# Contents
+# Frames in Modal Logics
 * table of contents
 {:toc}
 
-## Frames in Modal Logics ## 
+## Warning
+
 (The term **frame** is used in a different sense in [[modal logic]] than in [[geometric logic]] where it stands for an abstraction of the algebraic structure corresponding to the [[lattice]] of [[open sets]] of a [[topological space]]; see [[frame]].)
 
-###Frames in Monomodal Logics
+
+## Frames in Monomodal Logics
 
 We will start with the simplest case, namely a frame for the basic [modal language](/nlab/show/modal+logic#modal+language), $\mathcal{L}_\omega(1)$, (so with _one_ _unary_ modal operator, denoted $\Diamond$).
 
-+--{: .un_defn}
-######Definition ######
++-- {: .un_defn}
+###### Definition
+
 A _frame_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{F} = (W,R)$ with $W$ a non-empty set and $R$ a binary relation on $W$.
 =--
+
 (This is also called a basic _Kripke frame_.)
 
 The terminology often used refers to $W$ as the set of possible worlds.  Its elements are sometimes called _worlds_, sometimes _states_, sometimes _points_, depending on the context and the whim of the writer.  The relation $R$ is called the _accessibility relation_ so $ R w v$ says '$v$ is accessible from $w$'.
 
-###Frames in Multimodal Logics
+
+## Frames in Multimodal Logics
+
 (N.B.  Here we are still restricting to multimodal logics in which the modal operators are unary. The generalisation to allowing more general $n$-ary modalities will be considered later.)
 
 The generalisation is not difficult. In $\mathcal{L}_\omega(1)$, the single unary modality $\Diamond$ is modeled by one _binary_ relation.  In $\mathcal{L}_\omega(n)$, there are $n$-unary modalities so the frames have $n$-binary relations.  Explicitly we have 
 
-+--{: .un_defn}
-######Definition ######
++-- {: .un_defn}
+###### Definition
+
 A _frame_ for $\mathcal{L}_\omega(n)$ is a $(n+1)$-tuple $\mathfrak{F} = (W,\{R_i\}_{\{i=1,\ldots, n\}})$ with $W$ a non-empty set and for each $i=1,\ldots, n$, $R_i$ a binary relation on $W$.
 =--
-
-
-
 
 
 (More to go here ... frames with unary and more general relations.)
 
 
-## Models in Modal Logics ## 
+## Models in Modal Logics
+ 
 To give the standard (geometric) semantics of modal logics one needs the models and these will be discussed in the entry [[geometric models for  modal logics]] and the companion [[algebraic models for  modal logics]].
  
 
-
-
-## References## 
+## References
 
 Generally this entry is based on
 
@@ -50,15 +53,9 @@ Generally this entry is based on
 (any mistakes or errors of interpretation are due to ....!)
 
 
-
-
-
-
-
 [[!redirects Kripke frame]]
 [[!redirects Kripke frames]]
-
-[[!redirects frame (modal logic)]]
-[[!redirects frames (modal logic)]]
 [[!redirects frame (Kripke)]]
 [[!redirects frames (Kripke)]]
+[[!redirects frame (modal logic)]]
+[[!redirects frames (modal logic)]]
