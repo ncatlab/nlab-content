@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -46,15 +58,32 @@ A 1-[[stack]] $X$ of [[groupoid]]s over $\mathrm{Top}$ is a __topological stack_
 
 By Yoneda, $Hom(T,Bun_G) \cong Bun_G(T)$ for all $T$. Moreover, if $H$ is another topological groupoid, $Hom(Bun_H,Bun_G) \cong Bun_G(H)$, where $Bun_G(H)$ is the groupoid of principal $G$-bundles over $H$. In fact, one can use this to show that the 2-category of topological stacks is equivalent to the bicategory of topological groupoids and principal bundles. One may also show that topological stacks are equivalent to the bicategory of fractions of topological groupoids with respect to formally inverting Morita-equivalences.
 
+## Related concept
+
+* [[geometric stack]]
+
+  * [[algebraic stack]]
+
+  * **topological stack**
+
+  * [[differentiable stack]]
+
+* [[geometric ∞-stack]]
+
+
 
 ## References
 
-Articles by [[Behrang Noohi]] on this topic:
 
-* _[Foundations of Topological Stacks I](http://arxiv.org/abs/math.AG/0503247)_
-* _[Homotopy types of topological stacks](http://front.math.ucdavis.edu/0808.3799)_
-* _[Mapping stacks of topological stacks](http://front.math.ucdavis.edu/0809.2373)_
-* K. Behrend, G. Ginot, B. Noohi, P. Xu, _[String topology for stacks](http://front.math.ucdavis.edu/0712.3857)_
+* [[Behrang Noohi]]
+
+  * _[Foundations of Topological Stacks I](http://arxiv.org/abs/math.AG/0503247)_
+
+  * _[Homotopy types of topological stacks](http://front.math.ucdavis.edu/0808.3799)_
+
+  * _[Mapping stacks of topological stacks](http://front.math.ucdavis.edu/0809.2373)_
+
+* [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]], _String topology for stacks_ ([arXiv](http://front.math.ucdavis.edu/0712.3857))
 
 
 [[!redirects topological stack]]
