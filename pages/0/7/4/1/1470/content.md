@@ -1,59 +1,98 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
-An **algebraic stack** is essentially a [[geometric stack]] on [[commutative ring|CommRing]]${}^op$: it denotes either a [[Deligne-Mumford stack]] or a more general [[Artin stack]] in the traditional setup of [[algebraic space]]s: they are (Grothendieck) $1$-[[stack|stacks]] of [[groupoids]] on the [[etale topology|étale site]] satisfying additional representability conditions.  
+An **algebraic stack** is essentially a [[geometric stack]] on the [[étale site]]. 
 
-#Definition#
+Depending on details, this is a [[Deligne-Mumford stack]] or a more general [[Artin stack]] in the traditional setup of [[algebraic space]]s.
 
-An algebraic stack $X$ is required to have an atlas $A\to X$ from an [[algebraic space]] (or in a stronger version a [[scheme]]) $A$; the morphisms of the cover are required to be
+## Definition
 
-* surjective representable and &#233;tale (for a [[Deligne-Mumford stack]]);
+An **algebraic stack** $X \in Sh_{(2,1)}(Et)$ is 
 
-* surjective representable and smooth (for an [[Artin stack]]).
+* a [[stack]] on the [[étale site]] $Et$ 
+
+* such that 
+
+  * $X$ has an [[atlas]] $A\to X$ from an [[algebraic space]] (or in a stronger version a [[scheme]]) which is  
+
+    * surjective representable and [[étale morphism|[étale]] (for a [[Deligne-Mumford stack]]);
+
+    * surjective representable and [[smooth morphism|smooth]] (for an [[Artin stack]]).
+
+  * the diagonal morphism $\Delta : X \to X \times_S X$ is a
+
+    * [[representable morphism of stacks]], 
+ 
+    * separated, 
+
+    * quasi compact.
+
+This appears for instance as ([Laumont, Moret-Bailly, def (4.1)](#LaumontMoret-Bailly)).
 
 Here we used the following definition.  A map $f:X\to Y$ of 1-stacks on the &#233;tale site is a *[[representable morphism of stacks]]* if for any scheme $S$ the [[fiber product]] $S\times_Y X$ is a stack associated to a scheme. 
 
 Let $P$ be a property stable under composition and pullback. A representable map $f:X\to Y$ of stacks is said to have a property $P$ if for any scheme $S$ and a morphism of 1-stacks $S\to Y$ the pullback $S\times_Y X\to X$ has property $P$.  
 
 
-+-- {: .query}
+## Examples
 
-[[Urs Schreiber]]: don't we also need to demand that the diagonal morphism $\Delta : X \to X \times_S X$ is a) [[representable morphism of stacks]], b) separated, c) quasi compact ? 
-
-See for instance def (4.1) in Laumon, Moret/Bailly
-Champs alg&#233;briques.
-=--
+[[orbifold|Orbifolds]] are an example of an Artin stack. For orbifolds the stabilizer groups are [[finite group]]s, while for Artin stacks in general they are [[algebraic group]]s. 
 
 
+## Properties
+
+* [[Tannaka duality for geometric stacks]].
+
+## Generalizations
+
+### Noncommutative spaces 
+
+A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Grothendieck topology|Grothendieck topologies]], hence applicable in noncommutative geometry of Deligne--Mumford and Artin stacks can be found in ([KontsevichRosenberg](#KontsevichRosenberg)).
 
 
-#Generalizations#
+## Related concepts
 
-## differentiable and topological stacks ##
+* [[geometric stack]]
 
-Nowdays people talk about [[differentiable stacks]] and [[topological stack]]s, meaning analogues of Deligne--Mumford (DM) or Artin stacks defined in the setup of [[Diff|the category of manifolds]] or some [[convenient category of topological spaces]]. [[orbifold|Orbifolds]] are an example of an Artin stack. For orbifolds stabilizer groups are finite, while for Artin stacks in general they are [[algebraic group]]s. 
+  * **algebraic stack**
 
+  * [[topological stack]]
 
-## noncommutative spaces ##
+  * [[differentiable stack]]
 
-A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Grothendieck topology|Grothendieck topologies]], hence applicable in noncommutative geometry of Deligne--Mumford and Artin stacks can be found in
+* [[geometric ∞-stack]]
 
-* M. Kontsevich, A. Rosenberg, Noncommutative stacks, preprint MPIM2004-37 [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305) [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333)
+## References
 
-#References#
+A standard reference is
+
+* G. Laumon, L. Moret-Bailly, _Champs alg&#233;briques_ , Ergebn. der Mathematik und ihrer Grenzgebiete 39 , Springer-Verlag, Berlin, 2000
+{#LaumontMoret-Bailly}
 
 An introduction to algebraic stacks is being written online in a collaborative project here:
 
 * [The Stacks Project](http://www.math.columbia.edu/algebraic_geometry/stacks-git/)
 
-For the topological variant, see [[topological stack]] and references therein; and for differentiable stacks see
 
-* Kai Behrend, Ping Xu, [Differentiable Stacks and Gerbes](http://front.math.ucdavis.edu/0605.5694)
+The noncommutative version is discussed in
 
+* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative stacks_ , preprint MPIM2004-37 ([dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305) [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333))
+{#KontsevichRosenberg}
 
 [[!redirects algebraic stack]]
 [[!redirects algebraic stacks]]
