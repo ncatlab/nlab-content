@@ -90,10 +90,16 @@ The propositions $A$ and $B$ are __equivalent__ if $A \vdash B$ and $B \vdash A$
 
 We also have [[distributive law|distributive laws]] that explain the adjectives 'additive', 'multiplicative', and 'exponential':
 
-*  $A \otimes (B \oplus C) \equiv (A \otimes B) \oplus (A \otimes C)$ (and on the other side);
-*  dually, $A \parr (B \& C) \equiv (A \parr B) \& (A \parr C)$ (and on the other side);
-*  $!{(A \& B)} \equiv !{A} \otimes !{B}$;
-*  dually, $?{(A \oplus B)} \equiv ?{A} \parr ?{B}$.
+*  Multiplication distributes over addition if one is a conjunction and one is a disjunction:
+   *  $A \otimes (B \oplus C) \equiv (A \otimes B) \oplus (A \otimes C)$ (and on the other side);
+   *  $A \parr (B \& C) \equiv (A \parr B) \& (A \parr C)$ (and on the other side);
+   *  $A \otimes \mathbf{0} \equiv \mathbf{0}$ (and on the other side);
+   *  $A \parr \top \equiv \top$ (and on the other side).
+*  Exponentiation converts addition into multiplication if all are conjunctions or all are disjunctions:
+   *  $!{(A \& B)} \equiv !{A} \otimes !{B}$;
+   *  $?{(A \oplus B)} \equiv ?{A} \parr ?{B}$;
+   *  $!{\top} \equiv \mathbf{1}$;
+   *  $?{\mathbf{0}} \equiv \bot$.
 
 It is also a theorem that negation (except for the negations of propositional variables) can be defined (up to equivalence) recursively as follows:
 
@@ -158,6 +164,23 @@ The (co)-[[Kleisli category]] of $!$ is [[cartesian closed category|cartesian cl
 the product there coincides with the product in the base
 category.  The [[exponential object|exponential]] (unsurprisingly for a Kleisli
 category) is $B^A \cong !A\multimap B$.
+
+
+## Multiple exponential operators
+
+Much as there are many [[exponential functions]] (say from $\mathbb{R}$ to $\mathbb{R}$), even though there is only one addition operation and one multiplication operation, so there can be many versions of the exponential operators $!$ and $?$.  (However, there doesn\'t seem to be any analouge of the [[logarithm]] to convert between them.)
+
+More precisely, if we add to the language of linear logic two more operators, $!'$ and $?'$, and postulate of them the same rules as for $!$ and $?$, we cannot prove that $!{A} \equiv !'{A}$ and $?{A} \equiv ?'{A}$.  In contrast, if we introduce $\&'$, $\bot'$, etc, we *can* prove that the new operators are equivalent to the old ones.
+
+In terms of the categorial interpretation above, there may be many comonads $!$; it is not determined by the underlying $*$-autonomous category.  In terms of game/resource semantics, there are several slightly different interpretations of the exponentials.
+
+One sometimes thinks of the exponentials as coming from infinitary applications of the other operations.  For example:
+
+*  $!{A} \coloneqq 1 \& A \& (A \otimes A) \& (A \otimes A \otimes A) \& \cdots$,
+*  $!{A} \coloneqq (1 \& A) \otimes (1 \& A) \otimes (1 \& A) \otimes \cdots$,
+*  $!{A} \coloneqq 1 \& k A \& (k^2/2) (A \otimes A) \& (k^3/6) (A \otimes A \otimes A) \& \cdots$ (which is $\mathrm{e}^{k A}$ in an appropriate sense), where $n A$ means an $n$-fold additive conjunction $A \& \cdots \& A$ for $n$ a [[natural number]], and we pretend that $k$ is a positive number such that $k^n/{n!}$ is always a natural number (which of course is impossible).
+
+All of these justify the rules for the exponentials, so again we see that there may be many ways to satisfy these rules.
 
 
 ## References
