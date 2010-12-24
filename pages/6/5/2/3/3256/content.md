@@ -7,7 +7,7 @@
 
 The _Nisnevich site_ is a certain [[Grothendieck topology]] on a [[category]] of [[scheme]]s. 
 
-The [[(∞,1)-topos]] of [[∞-stack]]s on $Nis$ (specifically: its [[homotopy localization|homotopy]] [[stabilization]]) is the $(\infty,1)$-topos whose [[cohomology]] theory is [[motivic cohomology]].
+The [[(∞,1)-topos]] of [[∞-stack]]s on $Nis$ (specifically: its [[homotopy localization|homotopy]] [[stabilization]]: [[A1-homotopy theory|A^1 homotopy theory]]) is the $(\infty,1)$-topos whose [[cohomology]] theory is [[motivic cohomology]].
 
 ## Definition
 
