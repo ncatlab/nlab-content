@@ -1,9 +1,9 @@
 
-# The logic $T_{(m)}$
+# The epistemic logics $T$ and $T_{(m)}$
 * table of contents
 {:toc}
 
-## The epistemic logics $T$ and $T_{(m)}$
+## Idea
 
 (Similarly to the use on the related pages on $K$, $S4$ and $S5$, the notation $T$ is used to be synonymous with $T_{(1)}$.  It is thus the single agent case and was the original case studied. We continue to use the notation from the page on [[epistemic logic]].)
 
