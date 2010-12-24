@@ -42,19 +42,23 @@ As a (potentially) mathematical object, a __logic__ is a specific method of reas
 * [[higher-order logic]]
 * [[internal logic]]
 * [[intuitionistic logic]]
+* [[linear logic]]
 * [[minimal logic]]
 * [[modal logic]]
 
+   * [[algebraic models for modal logics]]
+      * [[closure algebra]]
+      * [[monadic algebra]]
+      * [[temporal algebra]]
+   * [[arrow logic]]
    * [[epistemic logic]]
       * [[the logic K(m)]]
-
-      * [[the logic T(m)]
-
+      * [[the logic T(m)]]
       * [[the logic S4(m)]]
-
       * [[the logic S5(m)]]
    * [[frame (modal logic)]]
-   * [[temporal logic]]
+   * [[geometric models for modal logics]]
+   * [[temporal logic]]     
 * [[negation]]
 * [[Peirce's law]]
 * [[predicate]]
