@@ -3,7 +3,7 @@
 ##Closure algebras##
 +--{: .un_defn}
 ######Definition######
-A **closure algebra** is a Boolean algebra, $(\mathbb{B}, m)$, which satisfies:
+A **closure algebra** is a Boolean algebra with operator, $(\mathbb{B}, m)$, which satisfies:
 for all $x$, $x + m m x \leq m x$.
 =--
 ### Example###  
