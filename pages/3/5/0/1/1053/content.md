@@ -32,10 +32,10 @@ meaning that _two_ slices of cake yield $A$.  Disallowing contraction then corre
 
 Linear logic was introduced in [Girard (1987)](#Girard).  Although it is
 usually presented in terms of inference rules, it was
-apparently discovered by Girard while studying [[coherent
+apparently discovered by Girard while studying [[coherence
 space|coherent
 spaces]] (see [Wikipedia](http://en.wikipedia.org/wiki/Coherent_space)) (not
-the topological kind).
+the [[coherent space|topological kind]]).
 
 
 ## Definition
@@ -163,7 +163,7 @@ category) is $B^A \cong !A\multimap B$.
 ## References
 
 *  Girard, Jean-Yves, 'Linear logic'.  _Theoretical Computer
-   Science_ 50:1, 1987. [(link)](http://iml.univ-mrs.fr/~girard/linear.pdf)
+   Science_ 50:1, 1987.  Available in [PDF](http://iml.univ-mrs.fr/~girard/linear.pdf).
 {#Girard}
 
 *  Seely, R. A. G., 'Linear logic, $*$-autonomous categories
