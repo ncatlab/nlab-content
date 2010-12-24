@@ -1,6 +1,18 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
+
 
 
 #Contents#
@@ -22,14 +34,28 @@ Notice that the stack [[presented stack|presented]] by a (Lie) groupoid $G$ is r
 Just as two algebras are Morita equivalent if their categories of modules are equivalent, two groupoids are Morita equivalent if their stacks of torsors are equivalent.
 
 
-## Literature
+## Related concept
 
-* Kai Behrend, Ping Xu, _Differentiable Stacks and Gerbes_
+* [[geometric stack]]
+
+  * [[algebraic stack]]
+
+  * [[topological stack]]
+
+  * **differentiable stack**
+
+* [[geometric ∞-stack]]
+
+
+
+## References
+
+* [[Kai Behrend]], [[Ping Xu]], _Differentiable Stacks and Gerbes_
 ([arXiv](http://arxiv.org/abs/arXiv:math/0605694))
 
-* Jochen Heinloth, _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~mat903/preprints/heinloth.pdf))
+* [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~mat903/preprints/heinloth.pdf))
 
-* Richard A. Hepworth, _Vector fields and flows on differentiable stacks_ ([arXiv](http://arxiv.org/abs/0810.0979)).
+* [[Richard Hepworth]], _Vector fields and flows on differentiable stacks_ ([arXiv](http://arxiv.org/abs/0810.0979)).
 
 
 [[!redirects differentiable stacks]]
