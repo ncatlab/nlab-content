@@ -15,3 +15,4 @@ $x\leq l_0m_1x\cdot l_1m_0x$
 
 where $l_i$ is the dual of $m_1$.
 =--
+[[!redirects temporal algebra]]
