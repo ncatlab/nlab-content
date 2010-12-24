@@ -45,6 +45,7 @@ theory_ This article is an expanded version of notes for a series of lectures gi
 category: people
 
 
+[[!redirects Tim Porter]]
 [[!redirects   Tim Porter]]
 [[!redirects Timothy Porter]]
 [[!redirects Tim]]
@@ -54,3 +55,4 @@ category: people
 [[!redirects Tim porter]]
 [[!redirects  Tim Porter]]
 [[!redirects T. Porter]]
+[[!redirects TIm Porter]]
