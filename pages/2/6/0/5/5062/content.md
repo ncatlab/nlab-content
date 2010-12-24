@@ -12,7 +12,7 @@ as may be represented in a picture by arrows', (Venema).
 
 +--{: .un_defn}
 ######Definition######
-An **arrow frame** is a [[frame (modal logic)|frame]], $\mathfrak{F} = (W, C, R, I )$ such that $C$ is a ternary relation, (so $C\subseteq 
+An **arrow frame** is a [[frame (modal logic)|frame]], $\mathfrak{F} = (W, C, R, I )$, such that $C$ is a ternary relation, (so $C\subseteq 
 W \times W \times W$), $R$ is a binary relation, and $I$ a unary one, so $I\subseteq W$. 
 =--
 ###Gloss###
@@ -62,10 +62,6 @@ The usual rules for modal semantics apply.  An **arrow model**, $\mathfrak{M}$, 
 *  $\mathfrak{M},a \models\phi\circ \psi$ if and only if $\mathfrak{M},b \models\phi$ and $\mathfrak{M},c \models\psi$ for some $b,c$ with $C a b c$.
 
 
-[[!redirects arrow logic]]
-[[!redirects arrow structures]]
-[[!redirects arrow logics]]
-
 ##References##
 
 A general treatment of these ideas can be found in 
@@ -77,3 +73,7 @@ whilst a short introduction is
 *  Y. [[Venema]], [_A crash course in Arrow Logic_](http://staff.science.uva.nl/~yde/papers/arrow.pdf),  in: M Marx, L P&#243;los and M Masuch (editors), Arrow Logic and Multi-Modal Logic,
 Studies in Logic, Language and Information, CSLI Publications, Stanford (1996) 3--34.
 
+
+[[!redirects arrow logic]]
+[[!redirects arrow structures]]
+[[!redirects arrow logics]]
