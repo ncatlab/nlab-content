@@ -211,19 +211,66 @@ $$
 
 and so the morphism gives a decomposition of $R$ into pieces labeled by $\mathbb{Z}$.
 
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-This induces the algebraic construction of [[projective space]]s as formal duals of graded algebras. See there for more details.
+One sees that these two constructions are [[inverse]] to each other.
 
 =--
 
 
-## Related concepts
+## Examples
 
-* In [[A1-homotopy theory|A^1 homotopy theory]] one considers [[homotopies]] in the [[sheaf topos]] over duals of $R$-algebras parameterized by the affine line.
+### Projective space
+
+The diagonal action of the multiplicative group on the [[product]] $\mathbb{A}^n := \prod_{i = 1 \cdots n} \mathbb{A}^1$ for $n \in \mathbb{N}$ 
+
+$$
+  \mathbb{A}^n \times \mathbb{G}_m \to \mathbb{A}^n
+$$
+
+is dually the morphism
+
+$$
+  k[t, t_1, \cdots, t_n] \leftarrow k[t_1, \cdots, t_n]
+$$
+
+given by
+
+$$
+  t_i \mapsto t \cdot t_i
+  \,.
+$$
+
+This makes $k[t,\{t_i\}]$ the free [[graded algebra]] over $k$ on $n$ generators $t_i$ in degree 1. This in $\mathbb{N} \subset \mathbb{Z}$-graded. What is genuinely $\mathbb{Z}$-graded is 
+
+$$
+  \mathcal{O} (\mathbb{A}^n - \{0\}) \simeq k[t_1, t_1^{-1}, \cdots, t_n, t_n^{-1}]
+  \,.
+$$
+
+The quotient by the multiplicative group action
+
+$$
+  \mathbb{A} P^n_k := (\mathbb{A}^{n+1} - \{0\})/\mathbb{G}_m
+$$
+
+is the [[projective space]] over $k$ of [[dimension]] $n$.
+
+### $\mathbb{A}^1$-homotopy theory
+
+In [[A1-homotopy theory|A^1 homotopy theory]] one considers the [[reflective sub-(∞,1)-category|reflective]] [[localization of an (∞,1)-category|localizatoin]]
+
+$$
+  Sh_\infty(C)_{\mathbb{A}^1}
+  \stackrel{\leftarrow}{\hookrightarrow}
+  Sh_\infty(C)
+$$
+
+of the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] over a [[site]] $C$ such as the [[Nisnevich site]], at the morphisms of the form
+
+$$
+  p_1 : X \times \mathbb{A}^1 \to X
+$$
+
+that contract away cartesian factors of the affine line.
 
 [[!redirects multiplicative group]]
 [[!redirects additive group]]
