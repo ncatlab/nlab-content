@@ -24,7 +24,7 @@ In fact, every cofibrant object in this structure is a [[poset]]. Since every ob
 
 
 This is a rather curious aspect of the Thomason model on [[Cat]]: it does not really have anything intrisically to do with [[category|categories]], but rather uses these as a way to present [[∞-groupoid]]s. It particular, it does not see the [[equivalence of categories|equivalences of categories]]. 
-There is a _different_ model structure on [[Cat]] in which weak equivalences are the "true" weak [[equivalence of categories|equivalences of categories]] (not of anything constructed from them). This is called the [[folk model structure on Cat]].
+There is a _different_ model structure on [[Cat]] in which weak equivalences are the "true" weak [[equivalence of categories|equivalences of categories]] (not of anything constructed from them). This is called the [[canonical model structure on Cat]].
 
 ## References
 
