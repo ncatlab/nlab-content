@@ -35,10 +35,10 @@ Cahiers Topologie G&#233;om. Diff&#233;rentielle **21**, no. 3 (1980), pp. 305--
 
 A correction to this article was made in
 
-* [[Denis-Charles Cisinski]], _Les morphisme de Dwyer ne sont pas stables par r&eacute;tractes_, Cahiers Topologie et G&eacute;om. Diff&eacute;rrentielle Cat&eacute;goriques, **40** no. 3 (1999), pp. 227--231. ([Numdam](http://www.numdam.org/item?id=CTGDC_1999__40_3_227_0))
+* [[Denis-Charles Cisinski]], _Les morphisme de Dwyer ne sont pas stables par r&eacute;tractes_, Cahiers Topologie et G&eacute;om. Diff&eacute;rentielle Cat&eacute;goriques, **40** no. 3 (1999), pp. 227--231. ([Numdam](http://www.numdam.org/item?id=CTGDC_1999__40_3_227_0))
 
 There it was clarified that every cofibrant object in the Thomason model structure is a [[poset]]. 
 
 A useful review of the Thomason model structure and a generalization of the model structure to [[n-fold category|n-fold categories]] is given in 
 
-* Thomas M. Fiore, [[Simona Paoli]], _A Thomason Model Structure on the Category of Small n-fold Categories_ ([arXiv](A Thomason Model Structure on the Category of Small n-fold Categories))
+* Thomas M. Fiore, [[Simona Paoli]], _A Thomason Model Structure on the Category of Small n-fold Categories_ ([arXiv](http://arxiv.org/abs/0808.4108))
