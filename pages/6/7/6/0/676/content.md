@@ -216,3 +216,4 @@
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/physicscontents)</div>
 
+[[!redirects physics contents]]
