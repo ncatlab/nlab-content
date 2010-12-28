@@ -15,7 +15,9 @@
 
 ## Idea 
 
-A _Deligne-Mumford stack_ is a [[stack]] (in the context of [[algebraic geometry]]) with the special property that it is covered, in a sense, by an ordinary [[algebraic space]].
+A _Deligne-Mumford stack_ is the analogue in [[algebraic geometry]] of what in [[differential geometry]] is an [[orbifold]]: a [[stack]] quotient of a [[scheme]] over the [[étale site]] all whose [[automorphism group]]s are [[finite group]]s.
+
+These are what originally were called [[algebraic stack]]s. The latter term nowadays often refers to the more general notion of [[Artin stack]], where the automorphism groups are allowed to be more generally [[algebraic group]]s. This case is the algebraic version of the general notion of [[geometric stack]].
 
 ## Definition
 
