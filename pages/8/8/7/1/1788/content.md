@@ -60,6 +60,8 @@ $$
   \,.
 $$
 
+$$ \overset{a}{b} $$
+
 [[adjoint lifting theorem]]
 
 category: meta
