@@ -1,5 +1,26 @@
-
 Recently, [[homological algebra]] started appearing in the study of numerical stability for [[finite element method]]s, 
+
+
++-- {: .standout}
+
+[[Eric]]: The appearance of homological algebra in finite element methods goes back a lot earlier than Arnold. It is covered somewhat extensively in [Robert Kotiuga](http://people.bu.edu/prk/Publications.htm)'s (who happened to be John Baez's dorm room mate at MIT) PhD dissertation:
+
+* Kotiuga, P.R., Hodge Decompositions and Computational Electromagnetics, Ph.D. Thesis, McGill University, Montreal, Canada, 1985
+
+I don't think Robert would claim to be the earliest.
+
+Then you can go back to 1976 with [J&#243;zef Dodziuk](http://math.gc.cuny.edu/Faculty/dodziuk/)'s classic paper:
+
+* Finite difference approach to the Hodge theory of harmonic forms,
+Amer. J. Math., 98 (1976), 79-104.
+
+
+
+=--
+
+
+
+
 
 * Douglas N. Arnold, Differential Complexes and Numerical Stability, ICM 2002, Vol. I, 137-157, [scan](http://www.mathunion.org/ICM/ICM2002.1/Main/icm2002.1.0137.0158.ocr.pdf), [arXiv:math/0212391](http://arxiv.org/abs/math/0212391)
 * Douglas N. Arnold, Richard S. Falk, Ragnar Winther, _Finite element exterior calculus: from Hodge theory to numerical stability_, Bull. Amer.
