@@ -1,11 +1,18 @@
 
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
 [[!include topos theory - contents]]
-***
+=--
+#### Topology
++--{: .hide}
 [[!include topology - contents]]
-</div>
-
+=--
+=--
+=--
 
 
 #Contents#
@@ -33,8 +40,7 @@ Note: By the [[adjoint functor theorem]] (AFT) for posets, a frame also has all 
 
 The category [[Loc]] of **locales** is the [[opposite category|opposite]] of the category of frames.  That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f:X\to Y$ of locales is a frame homomorphism $f^*:O(Y)\to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
 
-
-## Relation to topological spaces ##
+## Relation to topological spaces
 
 Every topological space $X$ has a frame of open sets $O(X)$, and therefore gives rise to a locale $X_l$.  For every continuous function $f:X\to Y$ between spaces, the inverse image map $f^{-1}:O(Y)\to O(X)$ is a frame homomorphism, so $f$ induces a continuous map $f_l:X_l\to Y_l$ of locales.  Thus we have a functor $(-)_l:Top \to Loc$.
 
@@ -45,17 +51,15 @@ The elements of $O(X)$ induce a topology on the set of points of $X$ in an obvio
 It is not hard to check that $(-)_l$ is left adjoint to $(-)_p$.  In fact, this is an [[idempotent adjunction]], and therefore it restricts to an equivalence between the fixed subcategories on either side.  A space with $X\cong X_{lp}$ is called **[[sober space|sober]]**, while a locale with $X\cong X_{pl}$ is called **spatial**.
 
 
-## In the context of $(n,r)$-topos theory ##
 
-Recall the definition of [[(n,r)-category]] in general and of [[(0,1)-category]] in particular.
-
-It turns out that a [[(0,1)-topos]] is essentially the same as a [[Heyting algebra]], and a [[Grothendieck topos|Grothendieck]] $(0,1)$-topos is a locale.
 
 ## Related concepts ##
 
+* The notion of locale may be identified with that of a [[Grothendieck topos|Grothendieck]] [[(0,1)-topos]]. See [[Heyting algebra]] for more on this.
+
 * A [[ionad]] is supposed to be to a [[topological space]] as a [[Grothendieck topos]] is to a [[locale]].
 
-* [[localic groups]] and [[localic groupoids]] are also important notions.
+* A [[group object]] [[internalization|internal]] to locales or an [[internal groupoid]] in locales is a [[localic group]] or [[localic groupoid]], respectively. 
 
 ## Examples
 
@@ -63,9 +67,8 @@ It turns out that a [[(0,1)-topos]] is essentially the same as a [[Heyting algeb
 
 * [[Cantor space]]
 
-...
 
-## References ##
+## References 
 
 An introduction to and survey of the use of locales instead of topological spaces is
 
@@ -73,13 +76,13 @@ An introduction to and survey of the use of locales instead of topological space
 
 This is, in its own words, to be read as the trailer for the book
 
-*  P. T. Johnstone, _[[Stone Spaces]]_
+*  [[Peter Johnstone]], _[[Stone Spaces]]_
 
 that develops, among other things, much of standard [[topology]] entirely with the notion of locale used in place of that of [[topological space]]s. See [[Stone Spaces]] for details.
 
 See also part C (volume 2) of
 
-*  P. T. Johnstone, _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.  .
+*  [[Peter Johnstone]], _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.  .
 
 
 
