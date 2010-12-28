@@ -83,14 +83,14 @@ A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Gro
 
 ## References
 
-A standard reference is
+A standard textbook reference is
 
 * G. Laumon, L. Moret-Bailly, _Champs alg&#233;briques_ , Ergebn. der Mathematik und ihrer Grenzgebiete 39 , Springer-Verlag, Berlin, 2000
 {#LaumontMoret-Bailly}
 
-An introduction to algebraic stacks is being written online in a collaborative project here:
+An account is given in [chapter 47](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf#page=2103) of 
 
-* [The Stacks Project](http://www.math.columbia.edu/algebraic_geometry/stacks-git/)
+* [[Aise Johan de Jong]],  _The Stacks Project_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
 
 
 The noncommutative version is discussed in
