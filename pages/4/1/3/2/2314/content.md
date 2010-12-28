@@ -46,7 +46,7 @@ For $k$ a commutative [[ring]], let the **etale geometry** $G_{et}(k)$ be the [[
 
   of finitely presented [[affine scheme]]s over $k$;
 
-* a morphsim $f : Spec(A) \to Spec(B)$ is _admissibale_ precisely if the corresponding morphism $f^* : B \to A$ of commutative $k$-[[algebra]]s is an [[etale map]];
+* a morphsim $f : Spec(A) \to Spec(B)$ is _admissible_ precisely if the corresponding morphism $f^* : B \to A$ of commutative $k$-[[algebra]]s is an [[etale map]];
 
 * the [[Grothendieck topology]] on $G_{et}(k)$ is the restriction of the standard [[etale topology]].
 
