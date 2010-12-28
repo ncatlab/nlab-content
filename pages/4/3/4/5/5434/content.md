@@ -14,8 +14,7 @@ Then you can go back to 1976 with [J&#243;zef Dodziuk](http://math.gc.cuny.edu/F
 * Finite difference approach to the Hodge theory of harmonic forms,
 Amer. J. Math., 98 (1976), 79-104.
 
-
-
+[[Zoran Škoda|Zoran]]: Surely, it is emphasised that the numerous precursors exist in the Bulletin survey of Douglas Arnold et al. quoted below. But it was not in any sense systematic till rather recently. One could expand on the history...
 =--
 
 
