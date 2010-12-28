@@ -21,11 +21,11 @@ This is just a preliminary definition.
 
 The __expected information of verification__ of a probability (a [[real number]] in the [[unit interval]]) $p$ is
 $$ h(p) \coloneqq - p \log p $$
-(or more precisely $h(p) \coloneqq \lim_{q \searrow p} (- q \log q)$, so that the expression is defined when $p = 0$).  Notice that, despite the minus sign in this formula, $h$ is a nonnegative function (since $\log p \leq 0$ for $p \leq 1$).  It is also important that $h$ is [[convex function|concave]].
+(or more precisely $h(p) \coloneqq \lim_{q \searrow p} (- q \log q)$, so that $h(0) = 0$ is defined).  Notice that, despite the minus sign in this formula, $h$ is a nonnegative function (since $\log p \leq 0$ for $p \leq 1$).  It is also important that $h$ is [[convex function|concave]].
 
 Both $h(0)$ and $h(1)$ are $0$, but for different reasons; $h(1) = 0$ because, upon verifying a statement with probability $1$, one gains no information; while $h(0) = 0$ because one expects never to verify a statement with probability $0$.  In general, $-\log p$ is the information gained by verifying a statement of probability $p$, but this will happen only with probability $p$, hence $-p \log p$.
 
-We have not specified the base of the [[logarithm]], which amounts to a constant factor (proportional to the logarithm of the base), which we think of as specifying the [[unit of measurement]] of entropy.  Common choices for the base are $2$ (whose unit is the [[bit]], originally a unit of memory in computer science), $3$ (trit), $\mathrm{e}$ (nat or neper), $10$ (bel, originally a unit of power intensity in telegraphy), and $\root{10}{10}$ (decibel: $1/10$ of a bel).
+We have not specified the base of the [[logarithm]], which amounts to a constant factor (proportional to the logarithm of the base), which we think of as specifying the [[unit of measurement]] of entropy.  Common choices for the base are $2$ (whose unit is the [[bit]], originally a unit of memory in computer science), $256$ (byte: $8$ bits), $3$ (trit), $\mathrm{e}$ (nat or neper), $10$ (bel, originally a unit of power intensity in telegraphy), and $\root{10}{10}$ (decibel: $1/10$ of a bel).
 
 
 ### Entropy of a $\sigma$-algebra on a probability space
@@ -60,7 +60,7 @@ In most of the following special cases, we will consider only partitions, althou
 
 ### Entropy of (a partition of) a discrete probability space
 
-Recall that a __discrete probability space__ is a [[set]] $X$ equipped with a function $\mu\colon X \to [0,1]$ such that $\sum_{i \in X} \mu(i) = 1$; since $\mu(i) \gt 0$ for only countable many $i$, we may assume that $X$ is [[countable set|countable]].  We make $X$ into a measure space (with every subset measurable) by defining $\mu(A) \coloneqq \sum_{i \in A} \mu(i)$.  Since every set is measurable, any partition of $X$ is a partition into measurable sets.
+Recall that a __discrete probability space__ is a [[set]] $X$ equipped with a function $\mu\colon X \to [0,1]$ such that $\sum_{i \in X} \mu(i) = 1$; since $\mu(i) \gt 0$ is possible for only countably many $i$, we may assume that $X$ is [[countable set|countable]].  We make $X$ into a measure space (with every subset measurable) by defining $\mu(A) \coloneqq \sum_{i \in A} \mu(i)$.  Since every set is measurable, any partition of $X$ is a partition into measurable sets.
 
 Given a discrete probability space $(X,\mu)$ and a partition $\mathcal{P}$ of $X$, the __entropy__ of $\mathcal{P}$ with respect to $\mu$ is defined to be the entropy of $\mathcal{P}$ with respect to the probability measure induced by $\mu$.  Simplifying (eq:partition), we find
 $$ H_\mu(\mathcal{P}) = \sum_{A \in \mathcal{P}} h(\sum_{i \in A} \mu(i)) = - \sum_{A \in \mathcal{P}} (\sum_{i \in A} \mu(i)) \log (\sum_{i \in A} \mu(i)) .$$
@@ -107,7 +107,7 @@ There is a way to fit this into the framework given by (eq:general), but I don\'
 
 ## Physical entropy
 
-As hinted above, any probability distribution on a [[phase space]] in [[classical physics]] has an entropy, and any [[density matrix]] on a [[Hilbert space]] in [[quantum physics]] has an entropy.  However, these are __microscopic entropy__, which is not the usual entropy in [[thermodynamics]] and most other branches of [[physics]].  (In particular, microscopic entropy is conserved, while macroscopic entropy increases with time.)
+As hinted above, any probability distribution on a [[phase space]] in [[classical physics]] has an entropy, and any [[density matrix]] on a [[Hilbert space]] in [[quantum physics]] has an entropy.  However, these are __microscopic entropy__, which is not the usual entropy in [[thermodynamics]] and most other branches of [[physics]].  (In particular, microscopic entropy is conserved, rather than increasing with time.)
 
 Instead, physicists use *coarse-grained* entropy, which corresponds mathematically to taking the entropy of a $\sigma$-algebra much smaller than the $\sigma$-algebra of all measurable sets.  Given a classical system with $N$ microscopic degrees of freedom, we identify $n$ macroscopic degrees of freedom that we can reasonably expect to measure, giving a map from $\mathbb{R}^N$ to $\mathbb{R}^n$ (or more generally, a map from an $N$-dimensional microscopic phase space to an $n$-dimensional macroscopic phase space). Then the $\sigma$-algebra of all measurable sets in $\mathbb{R}^n$ [[pullback|pulls back]] to a $\sigma$-algebra on $\mathbb{R}^N$, and the __macroscopic entropy__ of a statistical state is the entropy of this $\sigma$-algebra.  (Typically, $N$ is on the order of [[Avogadro constant|Avogadro's number]], while $n$ is rarely more than half a dozen, and often as small as $2$.)
 
@@ -115,7 +115,7 @@ Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure s
 +--{: .query}
 [[David Roberts]]: there would of course be physical constraints - speeds are bounded by $c$, for instance, and discretisation of energy - so in reality, the fibre probably turns out to be finite after a detailed analysis. Even allowing an 'almost uniform' probability distribution (one which is decaying fast enough, but slowly as possible) is not physically unreasonable and seems to get around the problem. But this is just heuristics, I haven't checked anything.
 
-_Toby_:  Classically, I think that this fibre is hardly ever finite.  As a toy example, with $N = 4$ and $n = 2$, consider a system of two equal-mass particles on a line, taking their average for the coarse-graining.  So given position and momentum of the centre of mass of the two particles (which constitute a point in $R^2$, what could the positions and momenta of the two individual particles (which all together constitute a point in $R^4$) be?  There are infinitely many possibilities, even if we put a bound on how far apart the two particles could be.  If the particles are bound in, say, a harmonic oscillator, then we can even put a bound on how far apart the particles will *ever* be, in both position and momentum, and still the fibre is infinite (although perhaps compact).
+_Toby_:  Classically, I think that this fibre is hardly ever finite.  As a toy example, with $N = 4$ and $n = 2$, consider a system of two equal-mass particles on a line, taking their average for the coarse-graining.  So given position and momentum of the centre of mass of the two particles (which constitute a point in $R^2$), what could the positions and momenta of the two individual particles (which all together constitute a point in $R^4$) be?  There are infinitely many possibilities, even if we put a bound on how far apart the two particles could be.  If the particles are bound in, say, a harmonic oscillator, then we can even put a bound on how far apart the particles will *ever* be, in both position and momentum, and still the fibre is infinite (although perhaps compact).
 =--
 This is never exactly true in classical statistical physics, but it is often nevertheless a very good approximation.  (Boltzmann\'s formula actually makes better physical sense in quantum statistical physics, even though Boltzmann himself did not live to see this.)
 
