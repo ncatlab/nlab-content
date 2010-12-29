@@ -110,7 +110,7 @@ The [[shape of an (∞,1)-topos]] $\mathbf{H}$ is the fundamental $\infty$-group
 
 A cohesive $(\infty,1)$-topos $\mathbf{H}$ is, when itself regarded as a [[space]], a _thickened point_ . We may think of it as the standard [[point]] equipped with a _cohesive neighbourhood_ .
 
-In this sense every space $X$ _modeled on_ the cohesive structure defined by $\mathbf{H}$ is an [[etale space]] over $X$: its [[petit topos|petit]] $(\infty,1)$-topos $\mathbf{H}/X$ sits by a [[locally homeomorphic geometric morphism]] over $\mathbf{H}$
+In this sense every space $X$ _modeled on_ the cohesive structure defined by $\mathbf{H}$ is an [[étale space]] over $X$: its [[petit topos|petit]] $(\infty,1)$-topos $\mathbf{H}/X$ sits by a [[locally homeomorphic geometric morphism]] over $\mathbf{H}$
 
 $$
   \mathbf{H}/X \stackrel{local\;homeo}{\to} \mathbf{H}
@@ -147,7 +147,7 @@ For instance in the [examples](#Examples) we see that
 
 * $(\infty,1)Sh(ThCartSp)$ is like the **general abstract infinitesimally thickened smooth open ball** .
 
-Notice that for plain [[topological space]]s an [[etale space]] $X \to H$ is a space $X$ that is _locally built from pieces of $H$_ . The generalization of this from [[topology]] to [[topos theory]] is an [[etale geometric morphism]] or [[locally homeomorphic geometric morphism]]: every object $X \in \mathbf{H}$ gives rise to the [[over-(∞,1)-category]] $(\infty,1)$-topos $\mathbf{H}/X$ with the evident projection geometric morphism $\mathbf{H}/X \to \mathbf{H}$.
+Notice that for plain [[topological space]]s an [[étale space]] $X \to H$ is a space $X$ that is _locally built from pieces of $H$_ . The generalization of this from [[topology]] to [[topos theory]] is an [[étale geometric morphism]] or [[locally homeomorphic geometric morphism]]: every object $X \in \mathbf{H}$ gives rise to the [[over-(∞,1)-category]] $(\infty,1)$-topos $\mathbf{H}/X$ with the evident projection geometric morphism $\mathbf{H}/X \to \mathbf{H}$.
 
 This way we can think of any object $X \in \mathbf{H}$ of the $(\infty,1)$-topos equivalently as a space that is locally built from pieces of $\mathbf{H}$. With the above interpretation of $\mathbf{H}$ as the general abstract lump of cohesive points, this reproduces the intuition that $X \in \mathbf{H}$ is a space with this cohesive structure.
 
@@ -157,63 +157,10 @@ The [[coshape of an (∞,1)-topos]] $\mathbf{H}$ is the underlying $\infty$-grou
 
 (...)
 
-### Geometry {#Geometry}
-
-
-+-- {: .query}
-
-[[Urs Schreiber]]:
-
-Every cohesive $(\infty,1)$-topos should canonically induce a [[geometry (for structured (∞,1)-toposes)]] $\mathcal{G}$ such that for every (concrete) object $X \in \mathbf{H}$ the [[over-(∞,1)-topos]] $\mathbf{H}/X$ -- which is the [[little topos]]-incarnation of $X$ -- is canonically a $\mathcal{G}$-[[structured (∞,1)-topos]].
-
-Perhaps take the corresponding pre-geometry $\mathcal{T}$ to be 
-
-$$
-  \mathcal{T} := ker \Pi \hookrightarrow \mathbf{H}
-$$
-
-the full sub-$(\infty,1)$-category of $\mathbf{H}$ on those objects $V$ such that $\Pi(V) \simeq *$.
-
-This is a category with finite products thanks to the condition that $\Pi$ preserves finite products. So it satisfies the main axiom of a pre-geometry. Need to think about the other axioms.
-
-Then for every $X \in \mathbf{H}$ we get a product-preserving functor
-
-$$
-  \mathcal{O}_X : \mathcal{T} \to \mathbf{H}/X
-$$
-
-simply  by $V \mapsto (X \times V \stackrel{p_1}{\to} X ) $. Notice that the object  on the right indeed corresponds to the sheaf of $V$-valued functions on $X$ under the identification of $\mathbf{H}/X$ with the sheaf topos on $X$.
-
-
-This construction is the composite
-
-$$
-  \mathcal{O}_X : 
-    \mathcal{T} 
-      \hookrightarrow 
-    \mathbf{H}
-    \stackrel{p^*}{\to}
-    \mathbf{H}/X
-$$
-
-for the [[etale geometric morphism]]
-
-$$
-  (p_! \dashv p^* \dashv p) : \mathbf{H}/X \to \mathbf{H}
-  \,.
-$$
-
-
-
-Now (...)
-
-
-
-=--
-
-## Structures in a cohesive $(\infty,1)$-topos
+## Structures in a cohesive $(\infty,1)$-topos {#Structures}
 
 A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with good [[cohomology]] and [[homotopy]] properties. We list fundamental structures and constructions that exist in every cohesvive $(\infty,1)$-topos.
+
 
 ### $\infty$-Groups {#InfinGroups}
 
@@ -916,6 +863,29 @@ $$
 inside $\mathbf{H}$ we call the **[[concrete (∞,1)-sheaf|concrete]] objects** or **cohesive $\infty$-groupoids**-
 
 =--
+
+
+### Geometry and structure sheaves
+
+For $\kappa$ a [[regular cardinal]] let $\mathcal{G} \hookrightarrow \mathbf{H}$ be the [[sub-(∞,1)-category]] obtained from the full subcategory on concrete objects on $\kappa$-[[small (infinity,1)-category|small]] $\infty$-groupoids by completion under finite limits in $\mathbf{H}$. By construction then $\mathcal{G}$ is a [[small (∞,1)-category]] (...) and the inclusion $\mathcal{G} \to \mathbf{H}$ preserves finite limits. Equip $\mathcal{G}$ with the structure of a [[geometry (for structured (∞,1)-toposes)]] by taking the admissible maps to be the [[monomorphism in an (infinity,1)-category|monomorphisms]] and the coverings $\{U_i \to U\}$ by admissible maps those families for which $\coprod_i U_i \to U$ is a [[regular epimorphism]].
+
+For every object $X \in \mathbf{H}$ we have the [[over-(∞,1)-topos]] $\mathbf{H}/X$. This becomes canonically a $\mathcal{G}$-[[structured (∞,1)-topos]] by taking the [[structure sheaf]] to be the composite
+
+$$
+  \mathcal{O}_X : \mathcal{G} \hookrightarrow \mathbf{H} \stackrel{X^*}{\to} \mathbf{H}/X
+  \,,
+$$
+
+where $X^*$ is the [[inverse image]] functor (in particular preserving finite limits) of the [[étale geometric morphism]]
+
+$$
+  (X_! \dashv X^* \dashv X_*) 
+   : 
+  \mathbf{H}/X \stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}
+  \mathbf{H}
+  \,.
+$$
+
 
 
 ### Infinitesimal objects: $\infty$-Lie algebroids {#InfinitesimalObjects}
@@ -1684,10 +1654,7 @@ As a context for geometric spaces and paths in geometric spaces, cohesive $(\inf
 
 ## References
 
-The [[category theory|category-theoretic]] definition of [[cohesive topos]] was proposed in
-
-* [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
-{#Lawvere}
+The [[category theory|category-theoretic]] definition of [[cohesive topos]] was proposed by [[Bill Lawvere]]. See the references at [[cohesive topos]].
 
 The observation that the further left adjoint $\Pi$ in a [[locally ∞-connected (∞,1)-topos]] defines an intrinsic notion of paths and [[geometric homotopy groups in an (∞,1)-topos]] was suggested by [[Richard Williamson]].
 
