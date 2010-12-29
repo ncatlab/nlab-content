@@ -52,20 +52,58 @@ such that $C(X,f)$ is given by component maps $C(X,Y)_i \to C(X,Z)_{j(i)}$ which
 
 ## Properties
 
-Write $Sub(Z)$ for the collection of equivalence classes of monomorphisms to $Z$. 
++-- {: .un_defn}
+###### Definition
+
+For $Z$ an [[object]] of $C$, write $Sub(Z)$ 
 
 $$
   Sub(Z) \simeq \tau_{\leq -1} C_{/Z}
   \,.
 $$
 
+for the category of [[subobjects in an (∞,1)-category|subobjects]] of $C$.
+
+=--
+
 This is [[poset|partially ordered]] under inclusion.
 
-**Proposition** If $C$ is a [[presentable (∞,1)-category]], then $Sub(Z)$ is a small [[set]]. ([[Higher Topos Theory|HTT, prop 6.2.1.4]])
++-- {: .un_prop}
+###### Proposition
+
+
+If $C$ is a [[presentable (∞,1)-category]], then $Sub(Z)$ is a [[small category]].
+
+=--
+
+This appears as [[Higher Topos Theory|HTT, prop. 6.2.1.4]].
+
++-- {: .un_prop}
+###### Proposition
+
+Monomorphisms are stable under [[(∞,1)-pullback]]: if 
+
+$$
+  \array{
+    A &\to& B
+    \\
+    {}^{\mathllap{f'}}\downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    C &\to& D
+  }
+$$
+
+is a pullback diagram and $f$ is a monomorphism, then so is $f'$.
+
+=--
+
+This is a special case of the general statement that $k$-[[truncated]] morphisms are stable under pullback. ([[Higher Topos Theory|HTT, remark 5.5.6.12]]).
+
+
 
 ## Related pages
 
-* The equivalence class of a monomorphism is a [[subobject in an (infinity,1)-category]].
+* The equivalence class of a monomorphism is a [[subobject in an (∞,1)-category]].
 
 * The notion of monomorphism in an $(\infty,1)$-category can also be characterized in its underlying homotopy [[derivator]]; see [[monomorphism in a derivator]].
 
