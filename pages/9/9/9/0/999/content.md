@@ -186,7 +186,11 @@ This example is discussed on page 50 of Hovey's book.
 Hovey wants this result in view of a small object argument on the way to proving that $Top$ is a model category. 
 
 
+## Related concepts
 
+* **compact object**
+
+* [[compact object in an (∞,1)-category]]
 
 ## References {#references}
 
@@ -198,7 +202,7 @@ Compact objects are discussed under the term "finitely presentable" or "finitely
 
 For the pages quoted in the context of the discussion of compact objects in [[Top]] see
 
-* Mark Hovey, _Model categories_.
+* [[Mark Hovey]], _Model categories_.
 
 For the general definition with an eye towards the definition of [[compact object in an (infinity,1)-category]]  see section A.1.1 section 5.3.4 of 
 
