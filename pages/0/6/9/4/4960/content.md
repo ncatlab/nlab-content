@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
 =--
 =--
+=--
+
+
 
 # Contents
 * table of contents
