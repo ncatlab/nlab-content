@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
 # Category of open subsets
 * table of contents
 {: toc}
@@ -6,7 +21,7 @@
 
 Given a [[topological space]] $X$, the **category of open subsets** $Op(X)$ of $X$ is the [[category]] whose
 
-* [[object]]s are the open subsets $U \hookrightarrow X$ of $X$;
+* [[object]]s are the [[open subset]]s $U \hookrightarrow X$ of $X$;
 
 * [[morphism]]s are the inclusions 
 $
@@ -20,13 +35,20 @@ $
 $ of open subsets into each other.
 
 
-## Remarks
+## Properties
 
-* The category $Op(X)$ is a [[partial order|poset]], in fact a [[frame]]; it is the [[frame of opens]] of $X$.
+* The category $Op(X)$ is a [[partial order|poset]], in fact a [[frame]] (dually a [[locale]]): it is the [[frame of opens]] of $X$.
 
 * The category $Op(X)$ is naturally equipped with the
 structure of a [[site]], where a collection $\{U_i \to U\}_i$ of morphisms is a cover precisely if their [[union]] in $X$ equals $U$:
 $$ \bigcup_i U_i = U .$$
+
+  The [[category of sheaves]] on $Op(X)$ equipped with this site structure is usually written
+
+  $$
+    Sh(X) := Sh(Op(X))
+    \,.
+  $$
 
 
 [[!redirects category of opens]]
