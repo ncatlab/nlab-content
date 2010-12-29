@@ -231,6 +231,8 @@ This implies the existence of $s_!$ and the fact that $X \to s^* s_! X$ is epi.
 
 ## Examples
 
+### Over a cohesive site
+
 A class of examples is obtained from toposes over a [[cohesive site]]:
 
 +-- {: .un_theorem}
@@ -240,7 +242,15 @@ Let $C$ be a [[cohesive site]]. The [[sheaf topos]] $Sh(C)$ is cohesive.
 
 =--
 
-This includes...
+See [[cohesive site]] for examples.
+
+#### Diffeological spaces
+
+The site [[CartSp]] is cohesive. The cohesive topos $Sh(CartSp)$ is a topos of  generalized smooth spaces. The concrete objects are the [[diffeological space]]s.
+
+#### Smooth toposes
+
+Some [[smooth topos]]es that model [[synthetic differential geometry]] are cohesive. Notably the [[Cahiers topos]].
 
 
 ### Simplicial sets {#SimplicialSets}
