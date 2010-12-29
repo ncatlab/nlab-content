@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -36,7 +41,13 @@ This appears as [[Higher Topos Theory|HTT, def. 5.4.1.3, prop. 5.4.1.2]].
 +-- {: .un_prop}
 ###### Proposition
 
-...
+Let $C$ be an $(\infty,1)$-category and $\kappa$ an uncountable [[regular cardinal]]. The following are equivalent:
+
+1. $C$ is $\kappa$-small.
+
+1. $C$ is a $\kappa$-[[compact object in an (infinity,1)-category|compact object]] in [[(∞,1)Cat]].
+
+1. $C$ is equivalently given by a [[quasi-category]] whose underlying [[simplicial set]] is $\kappa$-small.
 
 =--
 
