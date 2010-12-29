@@ -16,15 +16,58 @@
 
 ## Definition
 
-A [[category]] $D$ is called __sifted__ if [[colimits]] of [[diagrams]] of shape $D$ (called [[sifted colimits]]) commute with finite [[products]] in [[Set]].
++-- {: .un_def}
+###### Definition
 
-Of course, $D$ is called **cosifted** if $D^{op}$ is sifted.
+A [[category]] $D$ is called __sifted__ if [[colimits]] of [[diagrams]] of shape $D$ (called [[sifted colimits]]) commute with finite [[products]] in [[Set]]: for every [[diagram]]
+
+$$
+  F : D \times S \to Set
+  \,,
+$$
+
+where $S$ is a finite [[discrete category]] the canonical morphism
+
+$$
+  ({\lim_\to}_{d \in D} \prod_{s \in S} F(d,s))
+   \to
+  \prod_{s \in S} {\lim_\to}_{d \in D} F(d,s)
+$$
+
+is an [[isomorphism]].
+=--
+
+$D$ is called **cosifted** if the [[opposite category]] $D^{op}$ is sifted.
+
+A colimit over a sifted diagram is called a [[sifted colimit]].
 
 ## Properties
 
-Gabriel and Ulmer proved that an [[inhabited set|inhabited]] category is sifted if and only if the [[diagonal functor|diagonal]] $D \to D\times D$ is a [[final functor]].  More explicitly, this means that for every pair of objects $d_1,d_2\in D$, the category $Cospan_D(d_1,d_2)$ of [[cospans]] from $d_1$ to $d_2$ is [[connected category|connected]].
++-- {: .un_prop}
+###### Proposition
 
-Note that this condition holds in particular if $D$ has finite [[coproducts]], since then it is nonempty (it has an [[initial object]]) and each category of cospans has an initial object (the coproduct).
+An [[inhabited set|inhabited]] [[small category]] $D$ is sifted precisely if the diagonal functor 
+  
+$$
+  D \to D \times D
+$$
+
+is a [[final functor]].
+
+=--
+
+This is due to ([GabrielUlmer](#GabrielUlmer))
+
+More explicitly, this means that for every pair of objects $d_1,d_2\in D$, the category $Cospan_D(d_1,d_2)$ of [[cospans]] from $d_1$ to $d_2$ is [[connected category|connected]].
+
++-- {: .un_cor}
+###### Corollary
+
+Every category with finite [[coproduct]]s is sifted.
+
+=--
+
+Since a category with finite coproducts is nonempty (it has an [[initial object]]) and each category of cospans has an initial object (the coproduct).
 
 
 ## Related concepts
@@ -37,7 +80,9 @@ Note that this condition holds in particular if $D$ has finite [[coproducts]], s
 
 *  P. Gabriel and F. Ulmer, _Lokal pr&#228;sentierbare Kategorien_ , Springer LNM
 221, Springer-Verlag 1971
-*  J. Adamek, J. Rosicky, E.M. Vitale, _What are sifted colimits?_, TAC __23__ (2010) pp. 251--260.  [link](http://www.tac.mta.ca/tac/volumes/23/13/23-13abs.html)
+{#GabrielUlmer}
+
+*  [[Jiri Adamek]], [[Jiri Rosicky]], [[Enrico Vitale]], _What are sifted colimits?_, TAC __23__ (2010) pp. 251--260.  ([tac](http://www.tac.mta.ca/tac/volumes/23/13/23-13abs.html))
 
 
 [[!redirects sifted categories]]
