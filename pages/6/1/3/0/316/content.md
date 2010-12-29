@@ -18,6 +18,8 @@
 {:toc}
 
 
+There is a separate entry about a different, topological notion of [[mapping cone]].
+
 ## Idea
 
 In [[category theory]], a _cone_ over a [[diagram]] $F\colon J \to C$ is an [[object]] $c$ in $C$ equipped with a [[morphism]] from $c$ to each vertex of $F$, such that every *new* triangle arising in this way [[commutative triangle|commutes]].
