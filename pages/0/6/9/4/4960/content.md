@@ -283,7 +283,11 @@ $$
 
 ## References
 
-The definition of a category of cohesion was proposed in
+The axioms for a cohesive topos originate in
+
+* [[Bill Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
+
+where however the term "cohesive topos" was not yet used. Under the name _categories of cohesion_ these axioms are discussed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
