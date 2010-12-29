@@ -107,20 +107,26 @@ is **cohesive** if it has the following [[stuff, structure, property|properties]
 
    1. it is a [[local topos]]: there exists a further [[right adjoint]] $(f_* \dashv f^!)$ (this is sufficient for $f$ to be local, since we have already assumed it to be connected);
 
-   so that in total we have a quadruple of [[adjoint functor]]s
+In total this means that a topos $\mathcal{E}$ is cohesive over $\mathcal{S}$ if we have a quadruple of [[adjoint functor]]s
    
-   $$
-    (f_! \dashv f^* \dashv f_* \dashv f^!) : 
-    \mathcal{E}
-     \stackrel{\stackrel{\overset{f_!}{\to}}{\overset{f^*}{\leftarrow}}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
-    \mathcal{S}
-    \;
-   $$
+$$
+ (f_! \dashv f^* \dashv f_* \dashv f^!) : 
+ \mathcal{E}
+  \stackrel{\stackrel{\overset{f_!}{\to}}{\overset{f^*}{\leftarrow}}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
+  \mathcal{S}
+$$
 
-   Note that $f$ being local implies, in particular, that $\mathcal{S} \stackrel{f^!}{\hookrightarrow} \mathcal{E}$ is a [[subtopos]]: $f^!$ is a [[full and faithful functor]];
+such that $f_!$ preserves products.
 
+=--
 
-We say **cohesive pieces have points** in $\mathcal{E}$ if the [[natural transformation]]
+There are several further axioms that one may want to impose in order to formalize the concept of cohesion.
+
++-- {: .un_defn}
+###### Definition
+
+For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that 
+**cohesive pieces have points** in $\mathcal{E}$ if the [[natural transformation]]
 
 $$
   f_* X
@@ -162,7 +168,62 @@ where we use that by definition $f^*$ is full and faithful and then that $f_!$ p
 
 =--
 
+These two axioms are considered in [Lawvere, Axiomatic cohesion](#LawvereAxiomatic).
+
++-- {: .un_defn}
+###### Definition
+
+For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that 
+its **subobject classifier is contractible** if for the [[subobject classifier]] $\Omega \in \mathcal{E}$ we have
+
+$$
+  f_!(\Omega) \simeq *
+  \,.
+$$
+
+This implies that for all $X \in \mathcal{E}$ also $f_! \Omega^X \simeq *$.
+
+
+=--
+
+This appears as axiom 2 in ([Lawvere, Categories of spaces](#LawvereCatsOfSpaces)).
+
+
 ## Properties {#Properties}
+
+Let $f : \mathcal{E} \to \mathcal{S}$ be a cohesive topos. 
+
+It comes canonically with various [[subcategories]], sub-[[quasi-toposes]] and [[subtopos]]es of interest. 
+
+### Subtoposes of discrete and codiscrete objects
+
+The topos $\mathcal{S}$ is a subtopos of $f = (\Pi_0 \dashv Disc \dashv \Gamma dashv CoDisc) : \mathcal{E}\to \mathcal{S}$ by a [[geometric embedding]] in two ways.
+
+1. By the fact that $f$ is a [[local geometric morphism]] we have that $Disc$ is a [[full and faithful functor]], hence that
+
+   $$
+    (\Pi_0 \dashv Disc) : \mathcal{S} \stackrel{\overset{f_!}{\leftarrow}}{\underset{f^*}{\hookrightarrow}}
+     \mathcal{S}
+   $$
+
+   is a geoemtric embedding. This is the **subtopos of discrete objects** .
+
+1. The fact that $f$ is a [[local geometric morphism]] implies, in particular, that $CoDisc$ is a full and faithful functor, hence that
+
+   $$
+     (\Gamma \dashv CoDisc)
+     \mathcal{S} 
+       \stackrel{\overset{f_*}{\leftarrow}}{\underset{f^!}{\hookrightarrow}} 
+     \mathcal{E}
+   $$ 
+
+   is a [[subtopos]]. This is the **subtopos of codiscrete objects**.
+
+
+=--
+
+
+### Objects with one point per cohesive piece
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -279,6 +340,45 @@ $$
   \,.
 $$
 
+### Counter-examples {#CounterExamples}
+
++-- {: .un_example}
+###### Counter-Example
+
+Let $G$ be a non-trivial [[finite group]] of [[cardinality]] $n$. Write $\mathbf{B}G = \{\bullet \stackrel{g}{\to} \bullet | g \in G\}$ for its [[delooping]] [[groupoid]]. The [[presheaf topos]]
+
+$$
+  PSh(\mathbf{B}G) \simeq G Set
+$$
+
+is the category of [[permutation representation]]s of $G$. It comes with a triple of adjoint functors
+
+$$
+  (\Pi_0 \dashv Const \dashv \lim_\leftarrow) : G Set 
+    \stackrel{\overset{\lim_\to}{\to}}{\stackrel{\overset{Const}{\leftarrow}}{\underset{\lim_\leftarrow}{\to}}}
+   Set
+  \,.
+$$
+
+
+The colimit over a representation $(V, \rho) : \mathbf{B}G \to Set$ is [[quotient]] set $V/\rho(G)$. So we have
+
+$$
+  \Pi_0(G) \simeq *
+$$
+
+but
+
+$$
+  \Pi_0(G \times G) \simeq \bar n
+  \,,
+$$
+
+where $G$ denotes the fundamental representation of $G$ on itself. Therefore $\Pi_0$ does not preserve products in this case.
+
+=--
+
+
 
 ## Related concepts
 
@@ -302,10 +402,12 @@ $$
 The axioms for a cohesive topos originate in
 
 * [[Bill Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
+{#LawvereCatsOfSpaces}
 
 where however the term "cohesive topos" was not yet used. Under the name _categories of cohesion_ these axioms are discussed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+{#LawvereAxiomatic}
 
 (This demands the conditions that "cohesive piece have points" and "pieces of powers are powers of pieces" as part of the definition of "category of cohesion".)
 
