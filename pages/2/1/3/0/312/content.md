@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
 # Subobjects
 * table of contents
 {: toc}
@@ -5,30 +18,55 @@
 
 ## Definition
 
-In category theory, a **subobject** of an object $c$ of a category $C$ is an isomorphism class of [[monomorphism|monos]] $i: a \to c$ into $c$. (Two morphisms $i: a \to c$, $j: b \to c$ are _isomorphic_ if there exists an isomorphism $k: a \to b$ such that $i = j k$.)
+### As classes of monomorphisms
+
+A **subobject** of an [[object]] $c$ in a [[category]] $C$ is an [[isomorphism]] class of [[monomorphisms]] 
+
+$$
+  i: a \hookrightarrow c
+
+$$ 
+
+into $c$. (Two morphisms $i: a \to c$, $j: b \to c$ are _isomorphic_ if there exists an isomorphism $k: a \to b$ such that $i = j k$.)
 
 Monos into an object $c$ are [[preorder|preordered]] by a relation
-$$(i: a \to c) \leq (j: b \to c)$$
-defined by the condition that there exists $k: a \to b$ such that $i = j k$. (There is at most one such $k$ since $j$ is monic, and such $k$ is monic since $i$ is monic.) A subobject of $c$ may equivalently be defined as an element of the posetal reflection of this preorder.  
+
+$$
+  (i: a \to c) \leq (j: b \to c)
+$$
+
+defined by the condition that there exists $k: a \to b$ such that $i = j k$. (There is at most one such $k$ since $j$ is monic, and such $k$ is monic since $i$ is monic.) 
+
+A subobject of $c$ may equivalently be defined as an element of the [[poset]]al reflection $Sub(c)$ of this preorder.  
 
 
-## Restated in terms of over categories
+### In terms of over categories
 
-Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on monomorphisms. Then $C_c$ is the [[poset]] of subobjects of $c$ and the set of isomorphism classes of $C_c$ is the set of subobjects of $c$. However this "set" can be in fact a proper class in general, see [[well-powered category]].
-
-
-## The poset of subobjects as a functor
-
-Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the poset of subobjects of object $X$ in $E$. The correspondence $Sub:X\mapsto Sub(X)$ may be extended to a [[contravariant functor]] $X \to Pos$ (that is a functor $X^op \to Pos$), namely if $f: X\to Y$ is arbitrary and $m:S\hookrightarrow Y$ is a monic, then the pullback $f^*(m):f^*(S)\to X$ of $m$ along $f$ is automatically a monic; the correspondence $m\mapsto f^*(m)$ describes $Sub(f)$ at the level of representatives of subobjects.  
+Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on [[monomorphism]]s. Then $C_c$ is the [[poset]] of subobjects of $c$ and the set of isomorphism classes of $C_c$ is the set of subobjects of $c$. However this "set" can be in fact a proper class in general, see [[well-powered category]].
 
 
-## Generalizations
+### Generalizations
 
 * More generally, in some contexts we may take "subobject" to mean an isomorphism class of morphisms $i: a\to c$ satisfying some suitable condition other than being a monomorphism (usually a stronger one).  Common choices are [[strong monomorphisms]], [[regular monomorphisms]], or the right class of some [[orthogonal factorization system]].  (The latter choice has the advantage that then [[images]] will automatically exist.)
 
   * For example, in [[Top]] a monomorphism is just an injective function, whereas the strong and regular monomorphisms coincide and are the subspace embeddings.  In some contexts at least, one can argue that subspace embeddings are a more appropriate notion of "subobject" in $Top$ (for example, if one wants to exhibit it as a [[locally bounded category]]).  A similar thing happens in a [[quasitopos]].
 
 * The [[partial order]] on the collection of subobjects internalizes into contexts more general than [[Set]]. For instance in every [[topos]] the [[subobject classifier]] $\Omega$ has the structure of an internal poset (see there).
+
+
+
+
+## Properties
+
+### Size issues
+
+For $C$ an [[accessible category]], $c \in C$ any object, the poset $Sub(c)$ of subobjects of $c$ is a [[small category]].
+
+(...)
+
+### The poset of subobjects as a functor
+
+Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the poset of subobjects of object $X$ in $E$. The correspondence $Sub:X\mapsto Sub(X)$ may be extended to a [[contravariant functor]] $X \to Pos$ (that is a functor $X^op \to Pos$), namely if $f: X\to Y$ is arbitrary and $m:S\hookrightarrow Y$ is a monic, then the pullback $f^*(m):f^*(S)\to X$ of $m$ along $f$ is automatically a monic; the correspondence $m\mapsto f^*(m)$ describes $Sub(f)$ at the level of representatives of subobjects.  
 
 
 ## Comparison with the notion of "subset"
@@ -38,6 +76,12 @@ The notion of subobject figures prominently in [[topos]] theory and in other app
 Category-theoretically, the traditional notion of subset gives a way of picking out a canonical representative or "normal form" among all the monos in an isomorphism class. As we intimated, there is no intrinsic way of defining such representatives in the theory of toposes: such would have to be considered an extra structure on a topos. Mathematically, there is no particular gain in having such structure around; at best it enables a traditional mode of discourse in which subsets are concrete maps, and to this end it can function as a linguistic or psychological convenience.
 
 On the other hand, there is no particular harm either in having such structure around, as long as one remembers that it is not an isomorphism invariant.  People will instinctively turn to canonical representatives whenever they can -- think of what we would tell a student who asks for help understanding how to multiply elements in $\mathbb{Z}_13$ -- and even category theorists do so when they are available.
+
+## Related concepts
+
+* **subobject**
+
+* [[subobject in an (∞,1)-category]]
 
 
 [[!redirects subobject]]
