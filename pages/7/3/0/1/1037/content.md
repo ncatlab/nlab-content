@@ -408,7 +408,12 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[n-truncated object of an (∞,1)-category]]
 
-+ [[Postnikov tower in an (∞,1)-category]]
+  * [[monomorphism in an (∞,1)-category]]
+
+  * [[subobject in an (∞,1)-category]]
+
+* [[Postnikov tower in an (∞,1)-category]]
+
 
 #### 5.5.8 Nonabelian Derived Categories
 
