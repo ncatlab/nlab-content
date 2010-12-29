@@ -19,36 +19,105 @@ A **cohesive site** is a small [[site]] whose [[topos of sheaves]] is a [[cohesi
 
 ## Definition
 
-Let $C$ be a small [[site]], i.e. a [[small category]] equipped with a [[Grothendieck topology]].  We say that $C$ is a **cohesive site** if
 
-1. $C$ has finite [[products]].
++-- {: .un_def}
+###### Definition
+
+Let $C$ be a small [[site]], i.e. a [[small category]] equipped with a [[coverage]]/[[Grothendieck topology]].  We say that $C$ is a **cohesive site** if
+
+1. $C$ has a [[terminal object]].
 
 1. The coverage on $C$ makes it a [[locally connected site]], i.e. every [[cover|covering]] [[sieve]] on an object $U\in C$ is [[connected category|connected]] as a [[subcategory]] of the [[slice category]] $C/U$.
 
 1. Every object $U\in C$ admits a [[global section]] $*\to U$.
 
-1. (more conditions?)
+1. $C$ is a [[cosifted category]].
 
-## Sheaves on cohesive sites
+=--
 
-We claim that the topos $Sh(C)$ of sheaves on a cohesive site $C$ is a [[cohesive topos]].  We will write $Disc = L Const$ for the [[inverse image functor]] of the [[global sections]] [[geometric morphism]] $(L Const, \Gamma)\colon Sh(C) \to Set$, since it constructs [[discrete objects]] in the cohesive topos $Sh(C)$.
+## Properties: sheaves on a cohesive site
 
-Firstly, since $C$ is a [[locally connected site]], any constant presheaf is a sheaf.  This implies that the functor $Disc$ has a further left adjoint given by taking colimits over $C^{op}$, which we denote $\Pi_0$.  Hence $Sh(C)$ is a [[locally connected topos]].
++-- {: .un_prop}
+###### Proposition
 
-Moreover, since $C$ has finite products, it is in particular [[cosifted category|cosifted]], and therefore $\Pi_0$ preserves finite products.  In particular, $Sh(C)$ is [[connected topos|connected]] and even *strongly connected*.
+For $C$ a cohesive site, the [[category of sheaves]] $Sh(C)$ on $C$ 
+is a [[cohesive topos]] over [[Set]] for which _cohesive pieces have points_ .
 
-Next, we claim that $C$ is a [[local site]].  This means that its [[terminal object]] $*$ is *cover-irreducible*, i.e. any covering [[sieve]] of $*$ must contain its identity map.  But since $C$ is a locally connected site, every covering family is inhabited, and since every object has a global section, every covering sieve must include a global section.  In the case of $*$, the only global section is an identity map; hence $C$ is a local site, and so $Sh(C)$ is a [[local topos]].  The right adjoint $Codisc$ of $\Gamma$ is defined by
-$$ Codisc(A)(U) = A^{C(*,U)} = A^{\Gamma(U)}.$$
+=--
+
++-- {: .proof}
+###### Proof
+
+Following the notation at [[cohesive topos]], we write 
+
+$$
+  (Disc \dashv \Gamma) := (L Const \dashv \Gamma) : Sh(C) \to Set
+$$
+
+for the [[global section]] [[geometric morphism]], where the [[inverse image]] $Disc$ constructs [[discrete object]]s. We need to exhibit two more adjoints
+
+$$
+  (\Pi_0 \dashv Disc \dashv \Gamma \dashv CoDisc) : Sh(C) \to Set
+$$
+
+and show that $\Pi_0$ preserves finite [[product]]s. Finally we need to show that $\Gamma X \to \Pi_0 X$ is an [[epimorphism]] for all $X$.
+
+Firstly, since $C$ is a [[locally connected site]], any constant presheaf is a sheaf.  This implies that the functor $Disc$ has a further [[left adjoint]] given by taking colimits over $C^{op}$, which we denote $\Pi_0$.  Hence $Sh(C)$ is a [[locally connected topos]].
+
+Moreover, since $C$ is [[cosifted category|cosifted]], $\Pi_0$ preserves finite products.  In particular, $Sh(C)$ is [[connected topos|connected]] and even *strongly connected*.
+
+Next, we claim that $C$ is a [[local site]].  This means that its [[terminal object]] $*$ is *cover-irreducible*, i.e. any covering [[sieve]] of $*$ must contain its identity map.  But since $C$ is a locally connected site, every covering family is inhabited, and since every object has a global section, every covering sieve must include a global section.  In the case of $*$, the only global section is an identity map; hence $C$ is a local site, and so $Sh(C)$ is a [[local topos]].  The [[right adjoint]] $Codisc$ of $\Gamma$ is defined by
+
+$$ 
+  CoDisc(A)(U) = A^{C(*,U)} = A^{\Gamma(U)}
+  \,.
+$$
 
 We now claim that the transformation $Disc(A) \to Codisc(A)$ is [[monic]].  Since sheaves are closed under limits in presheaves, this condition can be checked pointwise at each object $U\in C$.  But since constant presheaves are sheaves, the map $Disc(A)(U) \to Codisc(A)(U)$ is just the [[diagonal morphism|diagonal]]
-$$ A \to A^{C(*,U)} $$
+
+$$ 
+  A \to A^{C(*,U)} 
+$$
+
 which is monic since $C(*,U)$ is always inhabited (by assumption on $C$).
 
-Thus, it remains to show "continuity" of $\Pi_0$. ...
+=--
 
 ## Examples
 
-### Families of sets {#FamiliesOfSets}
+### Cohesive presheaf sites
+
+Consider a category $C$ equipped with the trivial coverage/topology. Then the [[category of sheaves]] on $C$ is the [[category of presheaves]] on $C$
+
+$$
+  Sh(C) \simeq PSh(C)
+$$
+
+and trivially every constant presheaf is a sheaf. So we always has a triple of adjoint functors
+
+$$
+  (\Pi_0 \dashv Disc \dashv \Gamma) : Sh(C) \to Set
+  \,,
+$$
+
+where
+
+* $\Pi_0$ is the functor that takes [[colimit]]s of functors $X : C^{op} \to Set$ 
+
+  $$
+    \Pi_0 X = {\lim_\to} X
+  $$
+
+* $\Gamma$ is the functor that takes [[limit]]s;
+
+  $$
+    \Gamma X = {\lim_\leftarrow} X    
+    \,.
+  $$
+
+The condition that $\Pi_0$ preserves finite products is precisely the condition that $C$ be a [[cosifted category]].
+
+#### Cohesive toposes of families of sets {#FamiliesOfSets}
 
 Consider the site given by the [[interval category]] 
 
@@ -56,7 +125,9 @@ $$
   C = \{\emptyset \to *\}
 $$
 
-equipped with trivial [[Grothendieck topology|topology]]. The category of sheaves = presheaves on this is the [[arrow category]] 
+equipped with trivial [[Grothendieck topology|topology]]. This evidently has an [[initial object]] $\emptyset$ (which makes it cosifted) and a [[terminal object]] $*$.
+
+The category of sheaves = presheaves on this is the [[arrow category]] 
 
 $$
   Sh(\{\emptyset \to *\})
@@ -78,7 +149,7 @@ in [[Set]]. We find
 
 * $\Pi_0 : (I \leftarrow S) \mapsto I$.
 
-We may interpret this as follows: by decomposing $S$ into its [[fiber]]s, an object $(I \leftarrow S)$ is an $I$-indexed family of sets: $S = \coprod_i S_i$. The "cohesive pieces" are the $S_i$ and there are $|I|$-many of them. This is what $\Pi_0$ computes, which clearly preserves products.
+Trivial as this is, it does provide some insight into the interpretation of cohesiveness: by decomposing $S$ into its [[fiber]]s, an object $(I \leftarrow S)$ is an $I$-indexed family of sets: $S = \coprod_i S_i$. The "cohesive pieces" are the $S_i$ and there are $|I|$-many of them. This is what $\Pi_0$ computes, which clearly preserves products.
 
 Moreover we find for $K \in Set$:
 
@@ -90,7 +161,7 @@ Moreover we find for $K \in Set$:
 
 This matches the interpretation we just found: $Disc K$ is the collection of elements of $K$ with no two of them lumped together by cohesion, while $Codisc K$ is all elements of $K$ lumped together.
 
-What is not true in this example is that $Disc K \to Codisc K$ is a monomorphism. In particular, notice that the fibers $S_i$ may be empty. This is notably the case for the object $y(\emptyset) = (* \leftarrow \emptyset)$ represented by $\emptyset$. So there may be cohesive pieces that contain no point.
+What is not satisfied in this example is the axiom that $\Gamma X \to \Pi_0 X$ is an [[epimorphism]] for all $X$ (_cohesive pieces have points_). In particular, notice the fibers $S_i$ may be empty. This is for instance the case for the object $y(\emptyset) = (* \leftarrow \emptyset)$ [[representable functor|represented]] by $\emptyset$. So there may be cohesive pieces that contain no point.
 
 This is the simplest special case of a general class of examples:
 
