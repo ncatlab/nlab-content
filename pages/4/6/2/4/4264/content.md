@@ -1,7 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+=--
+=--
 
 Given a [[topological space]] $X$, the [[open subspaces]] of $X$ form a [[poset]] which is in fact a [[frame]].  This is the __frame of open subspaces__ of $X$.  When thought of as a [[locale]], this is the __[[topological locale]]__ $\Omega(X)$.  When thought of as a [[category]], this is the __[[category of open subsets]]__ of $X$.
 
