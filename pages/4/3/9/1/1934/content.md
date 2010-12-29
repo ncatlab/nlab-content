@@ -15,7 +15,7 @@
 
 ## Idea
 
-There are two different (related) relationships between [[Grothendieck topoi]] and a notion of "generalized space."  (Recall that a Grothendieck topos $T$ is a [[category of sheaves]] $T = Sh(S)$ on some [[site]] $S$.)
+There are two different (related) relationships between [[Grothendieck topoi]] and a notion of _generalized [[space]]_ .  (Recall that a Grothendieck topos $T$ is a [[category of sheaves]] $T = Sh(S)$ on some [[site]] $S$.)
 
 On the one hand, we can regard the topos *itself* as a generalized space.  This tends to be a useful point of view when the site $S$ is the [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$ (or some [[manifold]] or the like), or some other site which we regard as containing data from only "one space."  In this case, we refer to $T$ as a **little topos**, or (if we fail to translate the original French) a **petit topos**.
 
@@ -62,11 +62,25 @@ In good cases, the intrinsic properties of $X$ do not depend on whether one rega
 
 ## References
 
-The suggestion that a notion of _gros topos_ is needed apparently goes back to some remarks in _[[Pursuing Stacks]]_ and in more explicit fashion to
+The suggestion that a notion of _gros topos_ is needed goes back to some remarks in _[[Pursuing Stacks]]_ . A precise axiom system capturing the notion is first proposed in 
 
-* [[Bill Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986)
+* [[Bill Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7.([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
 
-Ever since then Lawvere has been suggesting and refining axioms that would characterize gros toposes.  The currently most recent incarnation of this axiom system is that for a [[cohesive topos]], discussed in
+The axioms 0 and 1 for _toposes of generalized spaces_ given there later became called the axioms for a [[cohesive topos]]
+
+Further discussion of this axiomatics for [[gros topos]]es is in
+
+* [[Bill Lawvere]], _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York (1992)
+
+where a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "extensive quantities" and [[cohomology]]-like "intensive quantities") as covariant and contravariant functors out of a distributive category are considered.
+
+The left and right adjoint to the global section functor as a means to identify discrete spaces and codiscrete space is also mentioned in
+
+* [[Bill Lawvere]] _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
+
+on [page 14](http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf#page=14).
+
+Under the term _categories of cohesion_ these axioms are discussed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
