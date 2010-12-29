@@ -910,7 +910,7 @@ This definition indeed makes $\mathcal{G}$ a [[geometry (for structured (infinit
 
 By the $\kappa$-bound $\mathcal{G}$ is a [[small (∞,1)-category]].
 
-Monomorphisms are stable under pullbacks and retracts and satisfy 2-out-of-3 (this is true for monomorphisms in [[∞Grpd]] because it is true for ordinary monos on the sets of connected components, and so it is true for monos in any $(\infty,1)$-category). See [[monomorphism in an (∞,1)-category]] for more. 
+Monomorphisms are stable under pullbacks and satisfy 2-out-of-3 (See [[monomorphism in an (∞,1)-category]].)
 
 The quasi-$(\infty,1)$-topos $Conc(\mathbf{H})$ has all finite $(\infty,1)$-limits and these are preserved by the right adjoint inclusion $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$.
 
