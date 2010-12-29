@@ -86,6 +86,10 @@ The classical references are
 
 * [[James Milne]], _Etale cohomology_, Princeton Mathematical Series __33__, 1980. xiii+323 pp.
 
+A detailed survey is in chapter 34 of
+
+* [[Aise Johan de Jong]], _[[The Stacks Project]]_
+
 Lecture notes are
 
 * [[James Milne]], _Lectures on etale cohomology_ ([pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
