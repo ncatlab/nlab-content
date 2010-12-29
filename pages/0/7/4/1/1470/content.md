@@ -30,7 +30,7 @@ An **algebraic stack** $X \in Sh_{(2,1)}(Et)$ is
 
   * $X$ has an [[atlas]] $A\to X$ from an [[algebraic space]] (or in a stronger version a [[scheme]]) which is  
 
-    * surjective representable and [[étale morphism|[étale]] (for a [[Deligne-Mumford stack]]);
+    * surjective representable and [[étale morphism|étale]] (for a [[Deligne-Mumford stack]]);
 
     * surjective representable and [[smooth morphism|smooth]] (for an [[Artin stack]]).
 
