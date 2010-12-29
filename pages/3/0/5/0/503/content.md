@@ -1,11 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
-#Idea and definition#
+## Idea and definition
 
-The concept of Cauchy completeness, ordinarily thought of as applying to [[metric space]]s, was vastly generalized by [[Bill Lawvere]] in his influential paper "Metric spaces, generalized logic, and closed categories". It is now seen by [[category theory|category theorists]] as a concept of [[enriched category theory]], with close ties to the concept of [[Morita equivalence]] in the theory of [[module]]s. 
+The concept of Cauchy completeness, ordinarily thought of as applying to [[metric space]]s, was vastly generalized by [[Bill Lawvere]] in his influential paper [Metric spaces, generalized logic, and closed categories](#Lawvere). It is now seen by [[category theory|category theorists]] as a concept of [[enriched category theory]], with close ties to the concept of [[Morita equivalence]] in the theory of [[module]]s. 
 
 The basic idea is that the Cauchy [[completion]] of a [[category]] is the closure of a category under what are called "[[absolute limit]]s", i.e., those [[limit]]s that are preserved by any [[functor]] whatsoever. Equivalently, the Cauchy completion is the closure with respect to [[absolute colimit]]s. If $C$ is [[small category|small]], the Cauchy completion $\bar{C}$ of $C$ lies between $C$ and its "[[free cocompletion]]", aka [[presheaf]] category
 
@@ -25,9 +37,9 @@ $$i: C \to \bar{C}$$
 
 and we say the $V$-category $C$ is **Cauchy-complete** if this embedding is an equivalence. We work through a few examples in the following section. 
 
-# Examples #
+## Examples 
 
-## metric spaces ##
+### Metric spaces 
 
 We consider first the classical case of [[metric space]]s, but as redefined by Lawvere to mean a category enriched in the [[poset]] $V = ([0, \infty], \geq)$, with [[tensor product]] given by addition. So, to say $X$ is a [[Lawvere metric space]] means that with the set $X$ there is a distance function 
 
@@ -97,7 +109,7 @@ $$d(p, p') = \int_{x \in X} \sigma d(p(x), p'(x)) = \sup_{x \in X} |p(x) - p'(x)
 
 In other words, the completion $\bar{X}$ of a symmetric metric space $X$ as a general (Lawvere) metric space is not necessarily the same as its completion $\sigma\bar{X}$ as a symmetric metric space, but $\sigma\bar{X}$ is the symmetrisation of $\bar{X}$.
 
-## ordinary ($Set$-enriched) categories ##
+### Ordinary ($Set$-enriched) categories 
 
 The analysis of Cauchy complete Lawvere metric spaces contains some of the seeds of what happens in other [[enriched category]] contexts; the case of ordinary [[small category|small categories]], where the enrichment is no longer in a mere [[poset]] but in [[Set]], reflects still more of the phenomena generally associated with Cauchy completions. 
 
@@ -175,7 +187,7 @@ $$Set^{C^{op}} \simeq Set^{\bar{C}^{op}}$$
 
 and we say that $C$ and $\bar{C}$ are **Morita equivalent**. 
 
-# Discussion #
+## Discussion 
 
 _David_: Concerning the result that on Set the terminal F-coalgebra is the Cauchy completion of the initial F-algebra, for certain F, I wonder if we have to factor completions through the metric space completion, as Barr does in <a href="ftp://ftp.math.mcgill.ca/pub/barr/pdffiles/trmclg.pdf">Terminal coalgebras for endofunctors on sets</a>. Perhaps Adamek's work on <a href="http://citeseer.ist.psu.edu/cache/papers/cs/21985/http:zSzzSzwww.iti.cs.tu-bs.dezSzTI-INFOzSzadamekzSzPaper2000-4.pdf/final-coalgebras-are-ideal.pdf">Final Algebras are Ideal Completions of Initial Algebras</a> is more natural.
 
@@ -184,6 +196,11 @@ Does this all tie in with the [[ideal completion]] as <a href="http://golem.ph.u
 How many kinds of completion are there for an enriched category? I see some may coincide in certain cases. 
 
 If two categories can be Morita equivalent, should this be reflected in the page [[Morita equivalence]]?
+
+## References
+
+* [[Bill Lawvere]], _Metric spaces, generalized logic and closed categories_ Reprints in Theory and Applications of Categories, No. 1 (2002) pp 1-37 ([tac](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html))
+{#Lawvere}
 
 [[!redirects Cauchy complete categories]]
 [[!redirects Cauchy completion]]
