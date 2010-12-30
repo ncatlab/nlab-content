@@ -318,6 +318,310 @@ This implies the existence of $s_!$ and the fact that $X \to s^* s_! X$ is epi.
 
 ## Examples
 
+### Over a discrete site
+
+We discuss some cohesive toposes over [[site]]s $C$ with trivial [[coverage]]/[[Grothendieck topology|topology]], so that the [[category of sheaves]] is the [[category of presheaves]]
+
+$$
+  Sh(C) \simeq PSh(C)
+  \,.
+$$
+
+#### Families of sets {#FamiliesOfSets}
+
+Consider the site given by the [[interval category]] 
+
+$$
+  C = \{\emptyset \to *\}
+$$
+
+equipped with trivial [[Grothendieck topology|topology]]. This evidently has an [[initial object]] $\emptyset$ (which makes it cosifted) and a [[terminal object]] $*$.
+
+The category of sheaves = presheaves on this is the [[arrow category]] 
+
+$$
+  Sh(\{\emptyset \to *\})
+  \simeq
+   PSh(\{\emptyset \to *\})
+  \simeq
+  Arr(Set)
+$$
+
+since a presheaf $X$ on $C$ is given by a morphism
+
+$$
+  X : (\emptyset \to *) \mapsto (I \leftarrow S)
+$$
+
+in [[Set]]. We find
+
+* $\Gamma : (I \leftarrow S) \mapsto S$
+
+* $\Pi_0 : (I \leftarrow S) \mapsto I$.
+
+Trivial as this is, it does provide some insight into the interpretation of cohesiveness: by decomposing $S$ into its [[fiber]]s, an object $(I \leftarrow S)$ is an $I$-indexed family of sets: $S = \coprod_i S_i$. The "cohesive pieces" are the $S_i$ and there are $|I|$-many of them. This is what $\Pi_0$ computes, which clearly preserves products.
+
+Moreover we find for $K \in Set$:
+
+* $Disc : K \mapsto (K \stackrel{Id}{\leftarrow} K)$;
+
+* $CoDisc : K \mapsto (* \stackrel{}{\leftarrow} K)$
+
+(and evidently both these functors are full and faithful).
+
+This matches the interpretation we just found: $Disc K$ is the collection of elements of $K$ with no two of them lumped together by cohesion, while $Codisc K$ is all elements of $K$ lumped together.
+
+The canonical morphism 
+
+$$
+  \Gamma (I \leftarrow S) \to \Pi_0 (I \leftarrow S)
+$$
+
+is
+
+$$
+  \Gamma Disc \Gamma (I \leftarrow S) \to \Gamma (I \leftarrow S) \to \Gamma Disc \Pi_0 (I \leftarrow S)
+  \,.
+$$
+
+Plugging in the above this is just
+
+$$
+  S \to I
+$$
+
+itself. Indeed, by the above interpretation, this sends each point to its cohesive component. It is not an epimorphism in general, because the fiber $S_i$ over an element $i$ may be empty: the cohesive component $i$ may have no points.
+
+
+This is the simplest special case of a general class of examples: for $C$ any [[small category]], we have the left and right [[Kan extension]] of presehaves $F : C^{op} \to Set$ along the [[functor]] $C^{op} \to *$. By definition, this are the [[colimit]] and [[limit]] functors
+
+$$
+  (\lim_\to \dashv Const \dashv \lim_\leftarrow) :
+  PSh(C) \stackrel{\overset{\lim_{\to}}{\to}}{\stackrel{\overset{Const}{\leftarrow}}{\underset{\lim_\leftarrow}{\to}}}
+  Set
+  \,.
+$$
+
++-- {: .un_lemma}
+###### Observation
+
+If $C$ has a [[terminal object]] $*$ then 
+
+* $\lim_\leftarrow$ is given by evaluation on this object;
+
+* there is a further [[right adjoint]] $(\lim_\leftarrow \dashv CoConst)$
+
+  given by
+
+  $$
+    CoConst : S \mapsto (c \mapsto Set(C(*,c), S)
+    \,.
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The terminal object of $C$ is the [[initial object]] of the [[opposite category]] $C^{op}$ and therefore the limit over any functor $F : C^{op} \to Set$ is given by evaluation on this object
+
+$$
+  \lim_\leftarrow (C^{op} \stackrel{F}{\to} Set) \simeq F(*)
+  \,.
+$$
+
+To see that we have a pair of [[adjoint functor]]s $(\lim_\to \dashv CoConst)$
+we check the natural [[hom-set]] equivalence 
+$PSh_C(F, CoConst S ) \simeq Set(\lim_\to F , S)$ by computing
+
+$$
+  \begin{aligned}
+    PSh_C(F , CoConst S) 
+     & \simeq 
+      \int_{c \in C} Set(F(c), Set(C(*,c), S))
+    \\
+    & \simeq
+        \int_{c \in C} Set(F(c) \times C(*,c), S)
+    \\
+     & \simeq 
+         Set( \int^{c \in C} F(c) \times C(*,c) , \; S)
+    \\
+     & \simeq Set(F(*), S)
+  \end{aligned}
+  \,,
+$$
+
+Here the first step is the expression of [[natural transformation]]s by [[end]]-calculus, the second uses the fact that [[Set]] is a [[cartesian closed category]], the third uses that any [[hom-functor]] sends [[coend]]s in the first argument to ends, and the last one uses the [[co-Yoneda lemma]].
+
+=--
+
+The formal dual of this statement is the following.
+
++-- {: .un_lemma}
+###### Corollary
+
+If $C$ has an [[initial object]] $\emptyset$ then 
+
+* $\lim_\to$ is given by evaluation on this object;
+
+* there is a further [[left adjoint]] $(L \dashv \lim_\to)$,
+
+  so that $\lim_\to$ preserves all small limits and in particular
+  all finite products.
+
+=--
+
+In summary we have
+
++-- {: .un_lemma}
+###### Proposition
+
+If $C$ has both an [[initial object]] $\emptyset$ as well as a [[terminal object]] $*$ then there is a quadruple of adjoint functors
+
+$$
+  (\Pi_0 \dashv Disc \dashv \Gamma \dashv CoDisc)
+   :
+   PSh(C) \to Set
+  \,,
+$$
+
+where
+
+* $\Gamma$ is given by evaluation on $*$;
+
+* $\Pi_0$ is given by evaluation of $\emptyset$ and preserves products.
+
+=--
+
+The above interpretation of the cohesiveness encoded by $C = \{\emptyset \to *\}$ still applies to the general case: a general object $X \in PSh(C)$ is, by restriction to the unique morphism $\emptyset \to *$ in $C$ a set-indexed  family of sets
+
+$$
+  X(\emptyset \to *) = (\Pi_0(X) = X(\emptyset) \leftarrow  X(*) = \Gamma(X))
+$$
+
+and $\Gamma$ picks out the total set of points, while $\Pi_0$ picks of the indexing set ("of cohesive components"). The extra information for general $C$ with initial and terminal object is that for every object $c \in C$ these cohesive lumps of points are refined to a hierarchy of lumps and lumps-of-lumps
+
+$$
+  X(\emptyset \to c \to *) = (\Pi_0(X) \leftarrow X(c) \leftarrow \Gamma(X))
+  \,.
+$$ 
+
+
+
+#### Reflexive directed graphs {#Graphs}
+
++-- {: .un_prop}
+###### Proposition
+
+The category $RDGraph$ of reflexive [[directed graphs]] is a cohesive topos. 
+
+The category $DGraph$ of just directed graphs, not necessarily reflexive, is _not_ a cohesive topos.
+
+=--
+
+This example was considered in ([Lawvere, Categories of spaces](#LawvereCatsOfSpaces)) as a simple test case for two very similar toposes, one of which is cohesive, the other not. 
+
+We spell out some details on the cohesive topos of reflexive directed graphs.
+
+Let $C := \mathbf{B}End(\Delta[1])$ be the one-object category coming from the [[monoid]] with three [[idempotent]] elements $\{Id, \sigma, \tau\}$
+
+* $\sigma \circ  \sigma = \sigma$
+
+* $\tau \circ  \tau = \tau$
+
+* $ \tau \circ \sigma = \tau$
+
+* $ \sigma \circ \tau = \sigma$
+
+A prehseaf $X : C^{op} \to Set$ on this is a _reflexive [[directed graph]]_ : the set $X(\bullet)$ is the set of all edges and vertices regarded as identity edges, the projection
+
+$$
+  s := X(\sigma) : X \to X
+$$
+
+sends each edge to its source and the projection
+
+$$
+  t := X(\tau) : X \to X
+$$
+
+sends each edge to its target. The identities
+
+$$
+  s \circ t = t
+$$
+
+and
+
+$$
+  t \circ s = s
+$$
+
+express the fact that source and target are identity edges. In summary this shows that
+
++-- {: .un_prop}
+###### Observation
+
+We have an [[equivalence of categories]]
+
+$$
+  RDGraph \simeq PSh(\mathbf{B} End(\Delta[1]))
+  \,.
+$$
+
+=--
+
+To see that this presheaf topos is cohesive, notice that the terminal geometric morphism
+
+$$
+  (Disc \dashv \Gamma) : Psh(C) \to Set
+$$
+
+$Disc S$ is the reflexive directed graph with set of vertices $S$ and no non-identity morphisms and $\Gamma X$ is the set of vertices = identity edges.
+
+The extra left adjoint $\Pi_0 : PSh(C) \to Set$ sends a graph to its set of connected components. This clearly respects products.
+
+And $CoDisc : Set \to PSh(C)$ sends a set $S$ to the reflexive graph with vertices $S$ and one edge for every ordered pair of vertices (the [[indiscrete category|indiscrete]] or _chaotic_ graph).
+
+The canonical morphism $\Gamma X \to \Pi_0 X$ sends each vertex to its connected component. Evidently this is epi, hence in $RDGraphs$ _cohesive pieces have points_ .
+
+#### Simplicial sets {#SimplicialSets}
+
+Reflexive directed graphs are equivalently [[simplicial skeleton|skeleta]] of 
+[[simplicial set]]s.
+
++-- {: .un_prop}
+###### Proposition
+
+The category [[sSet]] of simplicial sets is a cohesive topos in which _cohesive pieces have points_ . 
+
+=--
+
+Let $C = \Delta$ be the [[simplex category]], regarded as a [[site]] with the trivial [[coverage]].
+
+The corresponding [[sheaf topos]] $Sh(\Delta)$ is the [[presheaf topos]] $E = PSh(\Delta) = $ [[sSet]] of [[simplicial set]]s. 
+
+We have for $X \in sSet$
+
+* $\Gamma : X \mapsto X_0$;
+
+* $\Pi_0 : X \mapsto \pi_0(X) = X_0/X_1$, the set of [[simplicial homotopy group|connected components]].
+
+And for $S \in Set$:
+
+* $Disc S$ the constant simplicial set on $S$;
+
+* $Codisc S$ the simplicial set which in degree $k$ has the set of $(k+1)$-tuples of elements of $S$.
+
+
+If $X, Y \in sSet$ are [[Kan complex]]es, then $\Pi_0(Y^X)$ is the set of [[simplicial homotopy]]-classes of maps $X \to Y$. We can therefore write the [[homotopy category]] of Kan complexes as
+
+$$
+  Ho_{KanCplx}(X,Y) = \Pi_0(Y^X)
+  \,.
+$$
+
+
 ### Over a cohesive site
 
 A class of examples is obtained from toposes over a [[cohesive site]]:
@@ -389,31 +693,7 @@ The corresponding cohesive topos is the [[Cahiers topos]] $ \simeq Sh(ThCartSp)$
 [[synthetic differential geometry]].
 
 
-### Simplicial sets {#SimplicialSets}
 
-Let $C = \Delta$ be the [[simplex category]], regarded as a [[site]] with the trivial [[coverage]].
-
-The corresponding [[sheaf topos]] $Sh(\Delta)$ is the [[presheaf topos]] $E = PSh(\Delta) = $ [[sSet]] of [[simplicial set]]s. 
-
-We have for $X \in sSet$
-
-* $\Gamma : X \mapsto X_0$;
-
-* $\Pi_0 : X \mapsto \pi_0(X) = X_0/X_1$, the set of [[simplicial homotopy group|connected components]].
-
-And for $S \in Set$:
-
-* $Disc S$ the constant simplicial set on $S$;
-
-* $Codisc S$ the simplicial set which in degree $k$ has the set of $(k+1)$-tuples of elements of $S$.
-
-
-If $X, Y \in sSet$ are [[Kan complex]]es, then $\Pi_0(Y^X)$ is the set of [[simplicial homotopy]]-classes of maps $X \to Y$. We can therefore write the [[homotopy category]] of Kan complexes as
-
-$$
-  Ho_{KanCplx}(X,Y) = \Pi_0(Y^X)
-  \,.
-$$
 
 ### Counter-examples {#CounterExamples}
 
