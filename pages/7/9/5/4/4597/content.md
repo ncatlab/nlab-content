@@ -138,7 +138,7 @@ The differential form data of a twisted
 what in the physics literature is called the 
 [[Green-Schwarz mechanism]]. While this 
 still can and has been captured with tools of ordinary Chern-Weil theory and ordinary differential cohomology
-(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#WaldorfStringConn#FreedCharge">Freed</a>
+(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#WaldorfStringConn#FreedCharge">Freed</a>,
 <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#WaldorfStringConn">Waldorf</a>)
 it has a natural formulation in higher Chern-Weil theory. 
 Going beyond that, the [[nLab:dual heterotic string theory|magnetic dual]] Green-Schwarz mechanism can be seen to encode a twisted differential fivebrane structure and this is not practical to be studied without some higher geometry.
@@ -159,7 +159,7 @@ $$
 Spin Bund(X)/ \sim = H(X,\mathbf{B}Spin)
 $$
 
-of [[isomorphism]]-classes of _smooth_ $Spin$-[[principal bundle]]s. Here and in all of the following, the boldface "$\mathbf{B}G$" indicates a refinement, here of the bare classifying space $\mathcal{B}G$ to a smooth incarnation.
+of [[isomorphism]]-classes of _smooth_ $Spin$-[[principal bundle]]s. Here and in all of the following, the boldface in "$\mathbf{B}G$" indicates a refinement, here of the bare classifying space $\mathcal{B}G$ to a smooth incarnation.
 
 Then ordinary [[Chern-Weil theory]] provides a refinement of the fractional Pontryagin class $H(X, \mathbf{B}Spin) \to H^4(X,\mathbb{Z})$ to a map to [[ordinary differential cohomology]] $H_{diff}^4(X)$
 
@@ -187,7 +187,9 @@ $$
   \,.
 $$
 
-This refinement to cocylce $\infty$-groupoids notably has the consequence that it allows us to produce the [[homotopy fiber]]s of these morphisms.  To see the relevance of this, recall (from _[[string structure]]_ ) that the [[homotopy fiber]] of the not differentially refined fractional Pontryagin class, whis is the [[(∞,1)-pullback]]
+This refinement to cocylce $\infty$-groupoids notably has the consequence that it allows us to produce the [[homotopy fiber]]s of these morphisms.  To see the relevance of this, recall (from _[[string structure]]_ ) that the [[homotopy fiber]] of the 
+bare fractional Pontryagin class, which is the 
+[[(∞,1)-pullback]]/[[homotopy pullback]]
 
 $$
   \array{
@@ -204,7 +206,7 @@ $$
 
 defines the $\infty$-groupoid $\mathbf{H}(X, \mathbf{B}String)$ of [[string structure]]s on $X$ ( _smooth_ , but not _differential_ ).
 
-We can now replace in the the class $\frac{1}{2}\mathbf{p}_1$ by its differential refinement $\frac{1}{2}\hat \mathbf{p}_1$ and obtain an [[∞-groupoid]] $String_{diff}(X)$ that differentially refines the 2-groupoid $\mathbf{H}(X,\mathbf{B}String)$ of String-structures as the [[(∞,1)-pullback]]
+We can now replace the class $\frac{1}{2}\mathbf{p}_1$ by its differential refinement $\frac{1}{2}\hat \mathbf{p}_1$ and obtain an [[∞-groupoid]] $String_{diff}(X)$ that differentially refines the 2-groupoid $\mathbf{H}(X,\mathbf{B}String)$ of String-structures as the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -219,7 +221,7 @@ $$
   \,.
 $$
 
-This $String_{diff}(X)$ we may callthe $\infty$-groupoid of _differential string-structures_ . A cocycle in there is naturally identified with a tuple consisting of
+This $String_{diff}(X)$ we may call the $\infty$-groupoid of _[[differential string-structures]]_ . A cocycle in there is naturally identified with a tuple consisting of
 
 * a smooth $Spin$-[[principal bundle]] $P \to X$ with [[connection on a bundle|connection]] $\nabla$;
 
@@ -231,26 +233,28 @@ We may think of this as a refinement of [[secondary characteristic class]]es: th
 
 So far this uses mostly just a little bit of [[(∞,1)-category theory]] or at least some [[homotopy theory]]. The first glimpse of something beyond ordinary [[Chern-Weil theory]] appearing is the $\infty$-groupoid $\mathbf{H}(X,\mathbf{B}String)$ which may be thought of as the [[2-groupoid]] of _smooth_ [[string 2-group]]-[[principal 2-bundle]]s.
 
-But suppose we fix an $X$ such that $H(X, \mathbf{B}String)$ is nontrivial. Then we can continue the procees to higher degrees:
+But suppose we fix an $X$ such that $H(X, \mathbf{B}String)$ is nontrivial. Then we can continue the proceed to higher degrees:
 
 the next topological characteristic class is the second fractional [[Pontryagin class]] $\frac{1}{6}p_2 : \mathcal{B}String \to \mathcal{B}^7 U(1)$. Since the [[string group]] does not have the structure of a [[Lie group]], this cannot be refined to [[differential cohomology]] using ordinary [[Chern-Weil theory]]. However, in terms of $\infty$-Chern-Weil theory it can:
 
-we may obtain a smooth refinement
+we may obtain a differential refinement
 
 $$
-  \frac{1}{6}\hat \mathbf{p}_2 : \mathbf{H}_{conn}(-\mathbf{B}String) \to 
-  \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
+  \frac{1}{6}\hat \mathbf{p}_2 : 
+  \mathbf{B}String_{conn} 
+  \to 
+  \mathbf{B}^7 U(1)_{conn}
 $$
 
 that maps smooth [[string 2-group]]-[[principal 2-bundle]]s with 2-connectins to their [Chern-Simons circle 7-bundle with connection](#FivebraneStructure). This is an example of the higher version of the [[Chern-Weil homomorphism]]. 
 
-And naturally we are then entitled to form its [[homotopy fiber]]s and produce the [[n-groupoid|7-groupoid]] of _[differential fivebrane structures](#DiffFivebraneStrucs)_ -- $Fivebrane_{diff}(X)$. For that recall again from [[fivebrane structure]] that the homotopy fiber of the smooth but non-differential cocycles
+And naturally we are then entitled to form its [[homotopy fiber]]s and produce the [[n-groupoid|7-groupoid]] of _[differential fivebrane structures](#DiffFivebraneStrucs)_ -- $Fivebrane_{diff}(X)$. For that notice (see [[fivebrane structure]]) that the homotopy fiber of the smooth but non-differential cocycles
 
 $$
   \array{
     \mathbf{H}(X, \mathbf{B}Fivebrane) &\to& *
     \\
-    \downarrow &\swArrow_{\simeq}& \downarrow+
+    \downarrow &\swArrow_{\simeq}& \downarrow
     \\
     \mathbf{H}(X, \mathbf{B}String) 
     &\stackrel{\frac{1}{6}\mathbf{p}_2}{\to}&
@@ -264,7 +268,7 @@ $$
   \array{
     Fivebrane_{diff}(X) &\to& *
     \\
-    \downarrow &\swArrow_{\simeq}& \downarrow+
+    \downarrow &\swArrow_{\simeq}& \downarrow
     \\
     \mathbf{H}_{conn}(X, \mathbf{B}String) 
     &\stackrel{\frac{1}{6}\hat \mathbf{p}_2}{\to}&
@@ -279,8 +283,6 @@ we may therefore call the 7-groupoid $Fivebrane_{diff}(X)$ of _differential five
 * the Chern-Simons [[circle n-bundle with connection|circle 7-bundle]] $CS_7(\nabla)$ with connection induced by it;
 
 * a choice of trivialization of $CS_7(\nabla)$.
-
-These are the kinds of structures that naturally live in $\infty$-Chern-Weil theory. And this is only the second step in the [[Whitehead tower]] of the [[orthogonal group]]. There is an infinite tower of differential $(4k+1)$-brane structures above this, whose cocycles are given by $\infty$-connections on principal $\infty$-bundles and their corresponding Chern-Simons circle $n$-bundles with connection. 
 
 These are the kind of structures that $\infty$-Chern-Weil theory studies.
 
@@ -1205,6 +1207,10 @@ In terms of the underlying $\infty$-Lie algebra valued local connection data, i.
 
 
 ## References
+
+The $\infty$-Chern-Weil homomorphism is considered in
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _&Ccaron;ech cocycles for differential characteristic classes_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
 
 For a commented list of related literature see
 
