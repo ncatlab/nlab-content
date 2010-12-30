@@ -27,4 +27,9 @@ The [[nLab:string theory|string]] worldsheet [[Green-Schwarz mechanism]] which t
 * [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv](http://arxiv.org/abs/0909.0846))
 
 [[!redirects Pfaffian line bundles]]
+
 [[!redirects Pfaffian]]
+[[!redirects Pfaffians]]
+
+[[!redirects Pfaffian bundle]]
+[[!redirects Pfaffian bundles]]
