@@ -15,13 +15,7 @@
 =--
 =--
 
-* [[schreiber:differential cohomology in an (∞,1)-topos]]
 
-* [[∞-Chern-Weil theory introduction]]
-
-* **$\infty$-Chern-Weil theory**
-
-***
 
 #Contents#
 * table of contents
@@ -30,11 +24,12 @@
 
 ## Motivation {#Motivation}
 
-The central motivation for the study of a higher generalization of ordinary [[Chern-Weil theory]] is the interest in extending the [[Chern-Weil homomorphism]] for a given [[Lie group]] $G$ through the whole _smooth_ [[Whitehead tower]] of $G$, which involves not just [[Lie group]]s but [[∞-Lie group]]s. Such an extension constitutes a refined cohomological invariant, in that it computes the intrinsic $G$-Chern-character, in a way that we describe [below](#ChernCharacter). 
+The central motivation for the study of a higher generalization of ordinary [[Chern-Weil theory]] is the interest in extending the [[Chern-Weil homomorphism]] for a given [[Lie group]] $G$ to the higher connected covers of $G$ through the whole [[Whitehead tower]] of $G$. Beyond the simply connected cover, these higher connected covers are still [[topological group]]s but fail to be (finite dimensional) [[Lie group]]s. They do however have natural realizations as [[∞-Lie group]]s. Higher Chern-Weil theory is the extension of Chern-Weil theory from Lie groups to $\infty$-Lie groups. It allows the refinement of differential characteristic classes to _fractional_ differential characteristic classes, that capture finer cohomological information.
 
-### Fractional differential classes
+### Fractional differential classes 
 
-Since $\infty$-Chern Weil theory handles [[characteristic class]]es on [[classifying space]]s more general than $\mathcal{B}G$ for $G$ an ordinary [[Lie group]], it is concerned with refinements of characteristic classes, even before passing to their differential refinement. We give some examples of such _fractional characteristic classes_ .
+We give some examples of such _fractional characteristic classes_ 
+that occur in practice.
 
 It is a familiar classical fact that the first [[Pontryagin class]] 
 
@@ -56,7 +51,7 @@ $$
   \,,
 $$
 
-where the top horizonal morphism represents a generator of the 4th integral cohomology of the classifying space of the [[spin group]] and the right vertical morphism is induced by multiplication by 2 on the additive group of [[integer]]s.
+where the top horizontal morphism represents a generator of the 4th integral cohomology of the classifying space of the [[spin group]] and the right vertical morphism is induced by multiplication by 2 on the additive group of [[integer]]s.
 
 This means that for $X$ [[manifold]] with [[spin structure]] exhibited by a classifying map $\hat g$
 
@@ -105,13 +100,15 @@ $$
   \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
 $$
 
-that takes $String$-[[principal 2-bundle]]s with 2-connection to degree 8-cocycles in [[ordinary differential cohomology]]. 
+that takes smooth $String$-[[principal 2-bundle]]s with 2-connection to degree 8-cocycles in [[ordinary differential cohomology]]. 
 
 This kind of refinement we discuss in a bit more detail in the next section.
 
 ### Higher differential string structures
 
-The need to consider these refined differential invariants of fractional characteristic classes arose in the study of the [[differential cohomology]] of [[string theory]] backgrounds induced by [[quantum anomaly]]-cancellation: the [differential string- and fivebrane structures](#DiffStringStruc) which one encounters there as refining the ordinary [[string structure]]s and [[fivebrane structure]]s are the first steps of the extension from ordinary to higher Chern-Weil theory. For example the differential form data of a twisted differential string structure constitutes (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>) what in the string theory literature is called the [[Green-Schwarz mechanism]]. While this still can and has been captured with tools of ordinary Chern-Weil theory and [[ordinary differential cohomology]], its natural simple formulation is only in higher Chern-Weil theory. Going beyond that, the magnetic dual Green-Schwarz mechanism can be seen to encode a _twisted differential fivebrane structure_ and this is not practical to be studied without some higher geometry.
+The need to consider these refined differential invariants of fractional characteristic classes arose in 
+[[higher category theory and physics|fundamental theoretical physics]]
+in the study of the [[differential cohomology]] of [[string theory]] backgrounds induced by [[quantum anomaly]]-cancellation: the [differential string- and fivebrane structures](#DiffStringStruc) which one encounters there as refining the ordinary [[string structure]]s and [[fivebrane structure]]s are the first steps of the extension from ordinary to higher Chern-Weil theory. For example the differential form data of a twisted differential string structure constitutes (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>) what in the string theory literature is called the [[Green-Schwarz mechanism]]. While this still can and has been captured with tools of ordinary Chern-Weil theory and [[ordinary differential cohomology]], its natural simple formulation is only in higher Chern-Weil theory. Going beyond that, the magnetic dual Green-Schwarz mechanism can be seen to encode a _twisted differential fivebrane structure_ and this is not practical to be studied without some higher geometry.
 
  
 The following restates this in a bit more technical detail.
@@ -1165,18 +1162,21 @@ In terms of the underlying $\infty$-Lie algebra valued local connection data, i.
 
 (...)
 
-***
+
+## Related entries
+
+* [[schreiber:differential cohomology in an (∞,1)-topos -- survey]]
+
+* [[∞-Chern-Weil theory introduction]]
+
+* **$\infty$-Chern-Weil theory**
+
 
 ## References
 
-The $\infty$-Lie algebraic data involved in the $\infty$-Chern-Weil homomorphism was considered in
-
-* SSSI (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
-{#SSSI}
-
 For a commented list of related literature see
 
-* <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references">differential cohomology in an (∞,1)-topos -- references</a>
+<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references">differential cohomology in an (∞,1)-topos -- references</a>
 
 [[!redirects ∞-Chern-Weil theory]]
 
