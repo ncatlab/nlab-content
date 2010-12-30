@@ -523,7 +523,10 @@ This example was considered in ([Lawvere, Categories of spaces](#LawvereCatsOfSp
 
 We spell out some details on the cohesive topos of reflexive directed graphs.
 
-Let $C := \mathbf{B}End(\Delta[1])$ be the one-object category coming from the [[monoid]] with three [[idempotent]] elements $\{Id, \sigma, \tau\}$
++-- {: .un_def}
+###### Definition
+
+Let $\mathbf{B}End(\Delta[1])$ be the one-object category coming from the [[monoid]] with three [[idempotent]] elements $\{Id, \sigma, \tau\}$
 
 * $\sigma \circ  \sigma = \sigma$
 
@@ -532,6 +535,8 @@ Let $C := \mathbf{B}End(\Delta[1])$ be the one-object category coming from the [
 * $ \tau \circ \sigma = \tau$
 
 * $ \sigma \circ \tau = \sigma$
+
+=--
 
 A prehseaf $X : C^{op} \to Set$ on this is a _reflexive [[directed graph]]_ : the set $X(\bullet)$ is the set of all edges and vertices regarded as identity edges, the projection
 
@@ -557,7 +562,18 @@ $$
   t \circ s = s
 $$
 
-express the fact that source and target are identity edges. In summary this shows that
+express the fact that source and target are identity edges. 
+
+Equivalently, this is a presheaf on the full [[subcategory]] $\Delta_{\leq [1]} \subset \Delta$ of the [[simplex category]] on the objects $[0]$ and $[1]$
+
+$$
+  \Delta_{\leq [1]} = ([1] \stackrel{\overset{\tau}{\leftarrow}}{\stackrel{\to}{\underset{\sigma}{\leftarrow}}} [0])
+  \,.
+$$
+
+In fact this is the [[Cauchy completion]] of $\mathbf{B}End(\Delta[1])$, obtained by [[split idempotent|splitting the idempotents]].
+
+In summary this shows that
 
 +-- {: .un_prop}
 ###### Observation
@@ -565,7 +581,7 @@ express the fact that source and target are identity edges. In summary this show
 We have an [[equivalence of categories]]
 
 $$
-  RDGraph \simeq PSh(\mathbf{B} End(\Delta[1]))
+  RDGraph \simeq PSh(\mathbf{B} End(\Delta[1])) \simeq PSh(\Delta_{\leq [1]})
   \,.
 $$
 
@@ -579,7 +595,14 @@ $$
 
 $Disc S$ is the reflexive directed graph with set of vertices $S$ and no non-identity morphisms and $\Gamma X$ is the set of vertices = identity edges.
 
-The extra left adjoint $\Pi_0 : PSh(C) \to Set$ sends a graph to its set of connected components. This clearly respects products.
+The extra left adjoint $\Pi_0 : PSh(C) \to Set$ sends a graph to its set of connected components, the [[coequalizer]] of the source and target maps
+
+$$
+  X_1 \stackrel{\overset{t}{\to}}{\underset{s}{\to}} X_0 \to \Pi_0 X
+  \,.
+$$
+
+Since this is a [[reflexive coequalizer]] (by the existence of the unit map $X([1] \to [0])$) it does preserve products (as discussed there). This is the property that fails for the topos $DGraph$ of all directed graphs: a general coequalizer does not preserve products.
 
 And $CoDisc : Set \to PSh(C)$ sends a set $S$ to the reflexive graph with vertices $S$ and one edge for every ordered pair of vertices (the [[indiscrete category|indiscrete]] or _chaotic_ graph).
 
