@@ -263,9 +263,12 @@ was (it seems) the first to derive the Green-Schwarz anomaly cancellation condit
 
 String stuctures had at that time been discussed in terms of their transgressions to loop spaces
 
-* Witten 
+* [[Edward Witten]], _The Index of the Dirac Operator in Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology, Princeton, N.J., Sep 1986.
+{#WittenIndexLoopSpace}
 
-  * blog entry on [String(n)](http://golem.ph.utexas.edu/string/archives/000572.html)
+* [[Edward Witten]], _Elliptic Genera and Quantum Field Theory_
+Commun.Math.Phys.109:525,1987
+{#WittenElliptic}
 
 later it was reformulated in terms of the classes down on base space just mentioned in
 
