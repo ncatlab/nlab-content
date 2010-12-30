@@ -195,7 +195,7 @@ Let $f : \mathcal{E} \to \mathcal{S}$ be a cohesive topos.
 
 It comes canonically with various [[subcategories]], sub-[[quasi-toposes]] and [[subtopos]]es of interest. 
 
-### Subtoposes of discrete and codiscrete objects
+### Subtoposes of discrete and codiscrete objects {#DiscreteSubtop}
 
 The topos $\mathcal{S}$ is a subtopos of $f = (\Pi_0 \dashv Disc \dashv \Gamma dashv CoDisc) : \mathcal{E}\to \mathcal{S}$ by a [[geometric embedding]] in two ways.
 
@@ -219,6 +219,32 @@ The topos $\mathcal{S}$ is a subtopos of $f = (\Pi_0 \dashv Disc \dashv \Gamma d
 
    is a [[subtopos]]. This is the **subtopos of codiscrete objects**.
 
+
+=--
+
+### Quasitoposes of concrete objects {#ConcreteObjects}
+
+Let $(C,J)$ be a [[site]] with of definition for $\mathcal{E}$ with [[coverage]] $J$, so that $\mathcal{E} = Sh_J(C) \hookrightarrow PSh(C)$. Since by the [above](#DiscreteSubtop) $Set \stackrel{CoDisc}{\hookrightarrow} \mathcal{E}$ is a subtopos, we have that $Set$ is itself a [[category of sheaves]] on $C$
+
+$$
+  Set \simeq Sh_K(C) \stackrel{CoDisc}{\hookrightarrow} Sh_J(C) \hookrightarrow PSh(C)
+$$
+
+which must correspond to another [[coverage]] $K$:  $Set \simeq Sh_K(C)$. Since we have this sequence of inclusions, we have an inclusion of coverages $J \subset K$.
+
+
++-- {: .un_defn}
+###### Definition
+
+A **[[concrete sheaf|concrete object]]** of the cohesive topos $\mathcal{E}$ is a $(J,K)$-[biseparated presheaf]] on $C$. 
+
+The [[quasitopos]]
+
+$$
+  Conc(\mathcal{E}) := BiSep_{(J,K)}(C) \hookrightarrow \mathcal{E}
+$$
+
+we call the **subcategory of concrete objects** of $\mathcal{E}$.
 
 =--
 
@@ -307,11 +333,60 @@ See [[cohesive site]] for examples.
 
 #### Diffeological spaces
 
-The site [[CartSp]] is cohesive. The cohesive topos $Sh(CartSp)$ is a topos of  generalized smooth spaces. The concrete objects are the [[diffeological space]]s.
++-- {: .un_prop}
+###### Proposition
+
+The site [[CartSp]] with the standard [[open cover]] [[coverage]] is a [[cohesive site]] and even an [[(∞,1)-cohesive site]]. 
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The quasitopos $Conc(Sh(CartSp))$ of [concrete objects](#ConcreteObjects)
+in the cohesive topos over $CartSp$ is the category of [[diffeological space]]s.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A sheaf $X$ on $CartSp$ is a [[separated presheaf]] with respect to the further localization given by $CoDisc$ precisely if the canonical morphism (the [[unit of an adjunction|unit]] of $(\Gamma \dashv CoDisc)$)
+
+$$
+  X \to CoDisc \Gamma X
+$$
+
+is a [[monomorphism]]. Monomorphisms of sheaves are tested objectwise, so that this is equivalent to 
+
+$$
+  Hom(U,X) \simeq X(U) \to Hom(U,CoDisc \Gamma X)
+$$
+
+being a monomorphism for all $U \in C$ (where in the first step we used the [[Yoneda lemma]]). By the adjunction relation this is equivalently
+
+$$
+  X(U) \to Set(\Gamma(U), \Gamma(X))
+  \,.
+$$
+
+This being a monomorphism is precisely the condition on $X$ being a [[concrete sheaf]] on $CartSp$ that singles out diffeological spaces among all sheaves on $CartSp$.
+
+=--
+
 
 #### Smooth toposes
 
-Some [[smooth topos]]es that model [[synthetic differential geometry]] are cohesive. Notably the [[Cahiers topos]].
++-- {: .un_prop}
+###### Proposition
+
+The site [[ThCartSp]] with the standard [[open cover]] [[coverage]] is a [[cohesive site]] and even an [[(∞,1)-cohesive site]]. 
+
+=--
+
+
+The corresponding cohesive topos is the [[Cahiers topos]] $ \simeq Sh(ThCartSp)$. This is a [[smooth topos]] that models the axioms of 
+[[synthetic differential geometry]].
 
 
 ### Simplicial sets {#SimplicialSets}
