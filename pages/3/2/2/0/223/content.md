@@ -1,20 +1,19 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -24,13 +23,15 @@ A [[category]] is **small** if it has a [[small set]] of [[object]]s and a [[sma
 
 In other words, a small category is an [[internal category]] in the category [[Set]].  
 
+
 ## Properties
 
 Small categories are free of some of the subtleties that apply to [[large category|large categories]].
 
 A category is said to be **essentially small** if it is [[equivalence of categories|equivalent]] to a small category.  Assuming the [[axiom of choice]], this is the same as saying that it has a small [[skeleton]], or equivalently that it is [[locally small category|locally small]] and has a [[small set|small number]] of isomorphism classes of objects.
 
-A **small category structure** on a category $C$ is an [[essentially surjective functor]] from a set (as a [[discrete category]]) to $C$.  A category is essentially small iff it has a small category structure; this does not require the axiom of choice.
+A **small category structure** on a [[locally small category]] $C$ is an [[essentially surjective functor]] from a set (as a [[discrete category]]) to $C$.  A category is essentially small iff it is locally small and has a small category structure; unlike the previous paragraph, this result does not require the axiom of choice.
+
 
 ## Smallness in the context of universes
 
