@@ -29,6 +29,8 @@ Many tools and results about small categories, in particular concerning [[limit]
 
 * Many large categories that arise in practice are (even essentially) large but still *accessible*.  An [[accessible category]] is a large category which behaves like the category of [[ind-object]]s of a small category and is therefore, while itself large, entirely governed by a small category.
 
+## Remarks
+One should beware that in [[Categories Work]] (second half of p. 23), a large category has a different meaning:  There, it is defined as what is referred in $n$Lab as a $U$-[[small category|moderate]] category (for the the fixed [[universe]] $U$ assumed throughout [[Categories Work]]).
 
 ## Related concepts
 
