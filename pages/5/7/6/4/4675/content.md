@@ -531,3 +531,9 @@ The full cocycles are described in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cocycles for differential characteristic classes_ (
 <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+%28%E2%88%9E%2C1%29-topos+--+references#FSS">web</a>)
+
+
+[[!redirects differential string structures]]
+
+[[!redirects differential string-structure]]
+[[!redirects differential string-structures]]
