@@ -114,7 +114,7 @@ A **geometry (for $(\infty,1)$-toposes)** is
 +-- {: .un_defn}
 ###### Definition (discrete geometry, [[Structured Spaces|StSp]], 1.2.10)
 
-The **disscrete geometry** $\mathcal{G}^0$ on $\mathcal{G}$ is given by
+The **discrete geometry** $\mathcal{G}^0$ on $\mathcal{G}$ is given by
 
 * the admissible morphisms in $\mathcal{G}$ are precisely the equivalences
 
@@ -165,7 +165,7 @@ pregeometries.
 ###### Definition (smooth morphism, [[Structured Spaces]], 3.1.7)
 
 A morphism $f : X \to S$ in a pregeometry $\mathcal{T}$ is called **smooth**
-if it is _locally stably admissaible_ in that there exists a  cover $\{u_i : U_i \to X\}$ (meaning: generators of a covering [[sieve]])
+if it is _locally stably admissible_ in that there exists a  cover $\{u_i : U_i \to X\}$ (meaning: generators of a covering [[sieve]])
 of $X$ by admissible morphisms, such that on $U_i$ the morphism $f$
 factors admissibly through some $S \times V_i$ in that there is a commuting
 diagram
@@ -227,7 +227,7 @@ such that
 
 * $C(-)$ satisfies [[codescent]] (the dual notion of [[descent]]): 
   for $\pi : (V = \coprod_i V_i) \to W$ any 
-  [[cover]] by admissable morphisms in $G$, the induced morphism
+  [[cover]] by admissible morphisms in $G$, the induced morphism
   $$
     C(\pi) : C(V) \to C(W)
   $$
@@ -264,7 +264,7 @@ $\mathcal{O} : \mathcal{T} \to \mathcal{X}$ such that
     }
   $$
   
-  in $\mathcal{T}$ with $f$ admissable, the image
+  in $\mathcal{T}$ with $f$ admissible, the image
   
   $$
     \array{
@@ -278,8 +278,8 @@ $\mathcal{O} : \mathcal{T} \to \mathcal{X}$ such that
   
   is again a [[pullback]].
   
-* $\mathcal{O}$ respects covers by admissable morphisms in that for every
-  covering sieve $\{f_i : U_i \to X\}$ in $\mathcal{T}$ by admissble $f_i$
+* $\mathcal{O}$ respects covers by admissible morphisms in that for every
+  covering sieve $\{f_i : U_i \to X\}$ in $\mathcal{T}$ by admissible $f_i$
   the induced map $\coprod_i \mathcal{O}(U_i) \to \mathcal{O}(X)$
   is an [[effective epimorphism]] in $\mathcal{X}$.
 
@@ -308,7 +308,7 @@ The other two clauses encode that this this $\infty$-algebra $mathcal{O}$ indeed
 
 
 Let $\mathcal{T}$ be a pregeometry and $f : \mathcal{T} \to \mathcal{G}$
-a morphism that exhibts the geometry $\mathcal{G}$ as a geometric envelope
+a morphism that exhibits the geometry $\mathcal{G}$ as a geometric envelope
 of $\mathcal{T}$. Then for every [[(∞,1)-topos]] $\mathcal{X}$ precomposition with $f$ induces an equivalence of 
 [[(infinity,1)-category|(∞,1)-categories]] of $\mathcal{T}$- and
 $\mathcal{G}$-structures on $\mathcal{X}$:
@@ -355,7 +355,7 @@ The general theory is developed in
 
 The definition of a **geometry** $\mathcal{G}$ is def. 1.2.5.
 
-A $\mathcal{G}$-stucture on an [[(∞,1)-topos]] is in def. 1.2.8.
+A $\mathcal{G}$-structure on an [[(∞,1)-topos]] is in def. 1.2.8.
 
 The notion of $\mathcal{G}$-spectrum -- which are [[(∞,1)-topos]]es -- is the subject of section 2.1 .
 
