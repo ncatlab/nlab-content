@@ -104,12 +104,44 @@ that takes smooth $String$-[[principal 2-bundle]]s with 2-connection to degree 8
 
 This kind of refinement we discuss in a bit more detail in the next section.
 
-### Higher differential string structures
+### Higher differential spin structures
 
-The need to consider these refined differential invariants of fractional characteristic classes arose in 
-[[higher category theory and physics|fundamental theoretical physics]]
-in the study of the [[differential cohomology]] of [[string theory]] backgrounds induced by [[quantum anomaly]]-cancellation: the [differential string- and fivebrane structures](#DiffStringStruc) which one encounters there as refining the ordinary [[string structure]]s and [[fivebrane structure]]s are the first steps of the extension from ordinary to higher Chern-Weil theory. For example the differential form data of a twisted differential string structure constitutes (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>) what in the string theory literature is called the [[Green-Schwarz mechanism]]. While this still can and has been captured with tools of ordinary Chern-Weil theory and [[ordinary differential cohomology]], its natural simple formulation is only in higher Chern-Weil theory. Going beyond that, the magnetic dual Green-Schwarz mechanism can be seen to encode a _twisted differential fivebrane structure_ and this is not practical to be studied without some higher geometry.
+Applications that needed consideration of these refined 
+differential invariants of fractional characteristic classes 
+arose in  [[higher category theory and physics|fundamental theoretical physics]]. 
+(A review of this is given in the first part of 
+(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">SatiSchreiberStasheff II</a>).)
+Ordinary [[spin structure]]s on a [[manifold]] may be understood
+as trivializations of what are called 
+[[quantum anomaly]] [[Pfaffian line bundle]]s on the configuration
+space of the spinning [[relativistic particle|quantum particle]] propagating on that manifold. 
+(This physical origin is after all the source of the term 
+_spin structure_ .)
+When these point-like super-particles are generalized to higher-dimensional $p$-[[brane]]s,
+the trivialization of the corresponding Pfaffian line bundles correspond to 
+[[string structure]]s on $X$ for $p = 1$
+(this goes back to 
+(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#Killingback">Killingback</a>)
+and 
+(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#WittenIndexLoopSpace">Witten</a>) 
+and has been made rigorous in
+(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BunkeStringStruc">Bunke</a>)
+then to [[fivebrane structure]]s on $X$ for $p = 5$
+(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">SatiSchreiberStasheff II</a>)). 
+These structures may therefore be understood as higher analogs of spin structures.
 
+More precisely, the Pfaffian line bundles appearing here come equipped with a [[connection on a bundle|connection]],
+and what matters is a trivialization of these bundles as bundles with connection.
+This refinement translates to differential refinements of the string structures and the fivebrane structures on $X$.
+The differential form data of a twisted 
+[[differential string structure]] constitutes 
+what in the physics literature is called the 
+[[Green-Schwarz mechanism]]. While this 
+still can and has been captured with tools of ordinary Chern-Weil theory and ordinary differential cohomology
+(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#WaldorfStringConn#FreedCharge">Freed</a>
+<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#WaldorfStringConn">Waldorf</a>)
+it has a natural formulation in higher Chern-Weil theory. 
+Going beyond that, the [[nLab:dual heterotic string theory|magnetic dual]] Green-Schwarz mechanism can be seen to encode a twisted differential fivebrane structure and this is not practical to be studied without some higher geometry.
  
 The following restates this in a bit more technical detail.
 
