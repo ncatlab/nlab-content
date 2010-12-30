@@ -32,11 +32,14 @@ There are categories which are cartesian closed and not locally cartesian closed
 
 ## References
 
-* Conduch&#233;, Fran&#231;ois.  Au sujet de l'existence d'adjoints &#224; droite aux foncteurs "image r&#233;ciproque" dans la cat&#233;gorie des cat&#233;gories. (French)  C. R. Acad. Sci. Paris S&#233;r. A-B  275  (1972), A891--A894.
+* [[François Conduché]],   _Au sujet de l'existence d'adjoints &#224; droite aux foncteurs "image r&#233;ciproque" dans la cat&#233;gorie des cat&#233;gories_ (French)  C. R. Acad. Sci. Paris S&#233;r. A-B  275  (1972), A891--A894.
 
-* Howie, J.. Pullback functors and crossed complexes, Cahiers Topologie G\'eom. Diff\'erentielle, 20 (1979) 281--296.
+* Howie, J.,  _Pullback functors and crossed complexes_ , Cahiers Topologie G&#233;om. Diff&#233;rentielle, 20 (1979) 281--296.
 
-* Bunge, Marta and Niefield, Susan.  Exponentiability and single universes. J. Pure Appl. Algebra 148 (2000) 217--250.
+* [[Marta Bunge],  and Susan Niefield,   _Exponentiability and single universes_ J. Pure Appl. Algebra 148 (2000) 217--250.
 
 [[!redirects locally cartesian closed categories]]
 [[!redirects LCCC]]
+
+[[!redirects locally Cartesian closed category]]
+[[!redirects locally Cartesian closed categories]]
