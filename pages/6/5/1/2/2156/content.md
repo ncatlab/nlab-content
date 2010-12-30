@@ -24,6 +24,10 @@ $\langle x, c y \rangle = \langle x, y \rangle c$;
 
 Here we use the _physicist\'s convention_ that the inner product is antilinear ( = conjugate-linear) in the first variable rather than in the second, rather than the _mathematician\'s convention_, which is the reverse.  The physicist\'s convention fits in a little better with $2$-[[2-Hilbert space|Hilbert space]]s and is often used in a generalization for [[Hilbert module]]s.  Note that we use the same (skew)field as values of the inner product as for [[scalars]]. Notice that $\langle x, c y \rangle = \langle x, y \rangle c$ is written with $c$ on the right for the case that we deal with noncommutative division ring.
 
++-- {: .query}
+Are the two conventions really equivalent when $k$ is noncommutative?  &#8212;Toby
+=--
+
 (The axiom list above is rather redundant.  First of all, (1) follows from (3) by setting $c = 0$; besides that, (1--3) come in pairs, only one of which is needed, since each half follows from the other using (4).  It is even possible to derive (3) from (2) under some circumstances.)
 
 An __inner product space__ is simply a vector space equipped with an inner product.
