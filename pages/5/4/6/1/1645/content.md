@@ -86,19 +86,19 @@ For the moment see [[Liouville cocycle]].
 
 ## References
 
-The role of [[spin structure]]s as the qnomaly cancellation condition for the spinning particle is discussed in
+The role of [[spin structure]]s as the anomaly cancellation condition for the spinning particle is discussed in
 
 * [[Edward Witten]], _Global anomalies in String theory_ in _Symposium on anomalies, geometry, topology_ , World Scientific Publishing, Singapore (1985)
 
 The fundamental article for the role of the [[determinant line bundle]] in understanding the anomalies is
 
-* M. F. Atiyah, I. M. Singer, _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984)
+* [[Michael Atiyah]], I. M. Singer, _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984)
 
 A physicists' monograph:
 
 * Reinhold A. Bertlmann, _Anomalies in quantum field theory_, Oxford Science Publ., 1996, 2000
 
-A reference that very clearly identifies the mathematical nature of quantum anomalies for higher gauge theories is
+An account that very clearly identifies the mathematical nature of quantum anomalies for higher gauge theories is
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
 
