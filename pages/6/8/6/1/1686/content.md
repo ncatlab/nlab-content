@@ -205,6 +205,8 @@ and we have
 
 (...)
 
+[[filtered complex]]
+
 #### Spectral sequence of a double complex
 
 A [[double complex]] is naturally filtered in two ways: by columns and by rows. By the above this gives two different spectral sequences associated with it.
