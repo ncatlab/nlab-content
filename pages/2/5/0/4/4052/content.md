@@ -23,9 +23,10 @@ The notion of **2-topos** is the generalization of the notion of [[topos]] from 
 
 There are multiple conceivable such generalizations, depending in particular on whether one tries to generalize the notion of [[Grothendieck topos]] or of [[elementary topos]], and in the latter case what axioms one chooses to take as the basis for generalization.
 
-In contrast, $(2,1)$-[[topos|toposes]] are much better understood, as a special case of $(\infty,1)$-[[(infinity,1)-topos|toposes]].
+In contrast, [[(n,1)-topos|(2,1)-toposes]] are much better understood.
 
 A _Grothendieck 2-topos_ is a [[2-category]] of [[2-sheaves]] over a [[2-site]].
+
 
 See also [[higher topos theory]].
 
@@ -55,3 +56,6 @@ The archetypical 2-topos is [[Cat]].
 
 [[!redirects 2-toposes]]
 [[!redirects 2-topoi]]
+
+
+[[!redirects (2,1)-topos]]
