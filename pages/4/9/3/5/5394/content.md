@@ -76,14 +76,34 @@ Then every [[isomorphism]] $ComSub(A) \to ComSub(B)$ of [[poset]]s comes from a 
 This is the theorem in ([HardingD&#246;ring](#HardingDoering)).
 
 
-### The locale $\Sigma(A)$
+
+### The presheaf topos over $ComSub(A)^{op}$
 
 +-- {: .un_def}
 ###### Definition
 
-For $A$ a [[C-star algebra]], write $ComSub(A)$ for its [[poset]] of sub-$C^*$-algebras. Write $\mathcal{T}_A := [ComSub(A),Set]$ for the [[presheaf topos]] on $ComSub(A)^{op}$.
+For $A$ a [[C-star algebra]], write $ComSub(A)$ for its [[poset]] of sub-$C^*$-algebras. Write 
+
+$$
+  \mathcal{T}_A := [ComSub(A),Set]
+$$ 
+
+for the [[presheaf topos]] on $ComSub(A)^{op}$.
 
 =--
+
+
++-- {: .un_def}
+###### Proposition
+
+The topos $\mathcal{T}_A$ is a [[localic topos]]. 
+
+=--
+
+(...)
+
+### The locale $\Sigma(A)$
+
 
 +-- {: .un_prop}
 ###### Proposition
