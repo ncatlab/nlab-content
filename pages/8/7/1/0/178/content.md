@@ -374,7 +374,7 @@ on such morphisms [[geometric realization of simplicial spaces]] $X_\bullet \map
 +-- {: .proof}
 ###### Proof
 
-In unpublished notes, [[Danny Stevenson]] and [[David Roberts]] show that under [[geometric realization of simplicial topological spaces]] the universal [[simplicial principal bundle]] (see there)
+In ([StevensonRoberts](#StevensonRoberts)) it is shown that under [[geometric realization of simplicial topological spaces]] the universal [[simplicial principal bundle]] (see there)
 $\mathbf{E}G := W G \to \bar W G$ maps to the universal $|G|$-[[principal bundle]] $\mathcal{E} |G| \to \mathcal{B}|G|$ in [[Top]].
 
 But (as described at [[homotopy fiber]] and [[universal principal ∞-bundle]]) the universal bundle is a means to compute homotopy fibers: the ordinary [[pullback]]
@@ -4454,6 +4454,10 @@ A discussion of $\infty$-Lie groupoids as $(\infty,1)$-sheaves on $CartSp$ is in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
 
+The result about geometric realization of simplicial topological bundles is in 
+
+* [[nLab:Danny Stevenson]], [[nLab:David Roberts]], unpublished notes (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#StevensonRoberts">web</a>)
+{#StevensonRoberts}
 
 For more references see 
 
