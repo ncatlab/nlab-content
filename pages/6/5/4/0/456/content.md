@@ -118,7 +118,7 @@ Every geometric morphism $f:E\to F$ factors, uniquely up to equivalence, as a su
 
 ### Global sections and constant sheaves
 
-For every topos $E$, there is a geometric morphism
+For every [[Grothendieck topos]] $E$, there is a geometric morphism
 
 $$
   \Gamma : E  \stackrel{\leftarrow}{\to} Set : const
@@ -130,7 +130,7 @@ $$
   \Gamma(-) = Hom_E({*}, -)
 $$
 
-and hence assigns to each object $A\in E$ its set of [[global element]]s $\Gamma(A) = Hom_E(*,A)$. If $E$ is a [[Grothendieck topos]] then one thinks of $A$ as a [[sheaf]] and of $\Gamma(A)$ as its set of **global sections**.
+and hence assigns to each object $A\in E$ its set of [[global element]]s $\Gamma(A) = Hom_E(*,A)$. If we think of $A$ as a [[sheaf]], then $\Gamma(A)$ is the set of **global sections**.
 
 The [[left adjoint]] $const : Set \to E$ of the global section functor is the canonical [[Set]]-[[copower|tensoring]] functor
 
