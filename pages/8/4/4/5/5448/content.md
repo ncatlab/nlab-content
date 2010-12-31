@@ -1,0 +1,79 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Fix some [[scheme]] $S$.
+
++-- {: .un_defn}
+###### Definition
+
+The **fpqc-site** (over $S$) is the [[site]] 
+
+* whose underlying category is the category $Aff/S$ of [[affine scheme]]s [[over category|over]] $S$;
+
+* whose [[coverage]] has as [[covering]] families $\{f : U_i \to X\}$
+  those families of morphisms that are  such that 
+
+  * each $f_i$ is a [[flat morphism]];
+
+  * for every affine open $W \hookrightarrow X$ there exists $n \geq  0$, a [[function]] $a : \{1, \cdots, n\} \to I$ and affine opens
+    $V_j \hookrightarrow T_{a(j)}$ with
+
+    $$
+      \cup_{j = 1}^{n} f_{a(j)}(V_j) = W
+      \,.
+    $$
+  
+=--
+
+This appears as ([de Jong, def. 27.8.1](#deJong)).
+
++-- {: .un_remark}
+###### Remark
+
+The last condition does imply that $\cup_i f_i(U_i) = X$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+
+The abbreviation "fpqc" is for _fid&#232;lement plat quasi-compacte_ : faithfully flat and quasi-compact.
+
+=--
+
+## Related concepts
+
+* [[fppf-site]], [[fpqc-site]] [[étale site]]
+
+
+## References
+
+Chaper 27.8 in 
+
+* [[Aise Johan de Jong]], _[[The Stacks Project]]_
+{#deJong}
+
+[[!redirects fpqc site]]
+
+[[!redirects fpqc topology]]
+[[!redirects fpqc-topology]]
