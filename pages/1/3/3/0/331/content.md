@@ -21,13 +21,14 @@
 
 As a discipline, __logic__ is the study of methods of reasoning.  While in the past (and often today in philosophical circles), this discipline was prescriptive (describing how one *should* reason), it is increasingly (and usually in mathematical circles) descriptive (describing how one *does* reason).
 
-As a (potentially) mathematical object, a __logic__ is a specific method of reasoning.  There are several ways to formalise this which I decided not to get into now, but maybe later.
+As a (potentially) mathematical object, a __logic__ is a specific method of reasoning.  There are several ways to formalise this which for the moment we will not to get into, but maybe later.
 
 
 ## Entries on logic
 
 * [[axiom of choice]]
 * [[Boolean algebra]]
+* [[algebraic models for modal logics|Boolean algebra with operators]]
 * [[boolean domain]]
 * [[boolean function]]
 * [[boolean-valued function]]
