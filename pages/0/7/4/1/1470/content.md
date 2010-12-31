@@ -1,8 +1,12 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Higher geometry
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
@@ -22,41 +26,59 @@ Depending on details, this is a [[Deligne-Mumford stack]] or a more general [[Ar
 
 ## Definition
 
-An **algebraic stack** $X \in Sh_{(2,1)}(Et)$ is 
+Let $C_{fppf}$ be the [[fppf-site]] and $\mathcal{E} = Sh_{(2,1)}(C_{fppf})$
+the [[(2,1)-topos]] of [[stack]]s over it.
 
-* a [[stack]] on the [[étale site]] $Et$ 
+
++-- {: .un_defn}
+###### Definition
+
+An **algebraic stack** is
+
+* an object $\mathcal{X}\in Sh_{(2,1)}(C_{fppf})$;
 
 * such that 
 
-  * $X$ has an [[atlas]] $A\to X$ from an [[algebraic space]] (or in a stronger version a [[scheme]]) which is  
+  1. the [[diagonal]] $\mathcal{X} \to \mathcal{X} \times \mathcal{X}$
+  is [[representable morphism of stacks|representable]] by [[algebraic space]]s;
 
-    * surjective representable and [[étale morphism|étale]] (for a [[Deligne-Mumford stack]]);
+  1. there exists a [[scheme]] $U \in Sh(C_{fppf}) \hookrightarrow Sh_{(2,1)}(C_{fppf})$ and a morphism $U \to \mathcal{X}$ which is a surjective and
+     [[smooth morphism of schemes|smooth morphism]]. 
 
-    * surjective representable and [[smooth morphism|smooth]] (for an [[Artin stack]]).
+=--
 
-  * the diagonal morphism $\Delta : X \to X \times_S X$ is a
+This appears in this form as ([deJong, def. 47.12.1](#deJong)).
 
-    * [[representable morphism of stacks]], 
- 
-    * separated, 
++-- {: .un_defn}
+###### Definition
 
-    * quasi compact.
+A **smooth algebraic groupoid** is an [[internal groupoid]] in [[algebraic space]]s such that source and target maps are [[smooth morphism of schemes|smooth morphisms]].
 
-This appears for instance as ([Laumont, Moret-Bailly, def (4.1)](#LaumontMoret-Bailly)).
+=--
 
-Here we used the following definition.  A map $f:X\to Y$ of 1-stacks on the &#233;tale site is a *[[representable morphism of stacks]]* if for any scheme $S$ the [[fiber product]] $S\times_Y X$ is a stack associated to a scheme. 
+This appears as ([deJong, def. 47.16.2](#deJong)).
 
-Let $P$ be a property stable under composition and pullback. A representable map $f:X\to Y$ of stacks is said to have a property $P$ if for any scheme $S$ and a morphism of 1-stacks $S\to Y$ the pullback $S\times_Y X\to X$ has property $P$.  
+Notice that every [[internal groupoid]] in [[algebraic spaces]] represents a [[(2,1)-presheaf]] on the [[fppf-site]]. We shall not distinguish between the groupoid and the [[stackification]] of this presheaf, called the **quotient stack** of the groupoid.
 
++-- {: .un_theorem}
+###### Theorem
 
-## Examples
+Every algebraic stack is equivalent to a smooth algebraic groupoid and every smoth algebraic groupoid is an algebraic stack.
 
-[[orbifold|Orbifolds]] are an example of an Artin stack. For orbifolds the stabilizer groups are [[finite group]]s, while for Artin stacks in general they are [[algebraic group]]s. 
+=--
+
+This appears as ([deJong, lemma 47.16.2, theorem 47.17.3](#deJong)).
+
 
 
 ## Properties
 
 * [[Tannaka duality for geometric stacks]].
+
+
+## Examples
+
+[[orbifold|Orbifolds]] are an example of an [[Artin stack]]. For orbifolds the stabilizer groups are [[finite group]]s, while for Artin stacks in general they are [[algebraic group]]s. 
 
 ## Generalizations
 
@@ -91,7 +113,7 @@ A standard textbook reference is
 An account is given in [chapter 47](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf#page=2103) of 
 
 * [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
-
+{#deJong}
 
 The noncommutative version is discussed in
 
