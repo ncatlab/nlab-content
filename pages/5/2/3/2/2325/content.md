@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc" markdown="1">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -60,9 +65,14 @@ This is [[Higher Topos Theory|HTT, def. 6.4.5.8]]
 
 ## References
 
-section 6.4.5 of 
+The general noion is the topic of section 6.4.5 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+Remarks on the application of $n$-localic $(\infty,1)$-toposes in [[higher geometry]] are in
+
+* [[Jacob Lurie]], _[[Structured Spaces]]_
+
 
 [[!redirects localic (∞,1)-topos]]
 [[!redirects localic (infinity,1)-topos]]
