@@ -259,7 +259,8 @@ This is [[Higher Topos Theory|HTT, Lemma 6.2.2.7]].
 
 +-- {: .un_prop }
 ###### Proposition
-**all topological localizations of $PSh_{(\infty,1)}(K)$ arise this way**
+
+All topological localizations of $PSh_{(\infty,1)}(K)$ arise this way:
 
 There is a bijection between [[Grothendieck topology|Grothendieck topologies]] on $X$ and equivalence classes of topological localizations of $PSh_{(\infty,1)}(K)$.
 
