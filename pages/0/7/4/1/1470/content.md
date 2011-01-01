@@ -63,7 +63,7 @@ Notice that every [[internal groupoid]] in [[algebraic spaces]] represents a [[(
 +-- {: .un_theorem}
 ###### Theorem
 
-Every algebraic stack is equivalent to a smooth algebraic groupoid and every smoth algebraic groupoid is an algebraic stack.
+Every algebraic stack is equivalent to a smooth algebraic groupoid and every smooth algebraic groupoid is an algebraic stack.
 
 =--
 
