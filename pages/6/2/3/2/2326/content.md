@@ -25,15 +25,30 @@ The [[frame]] of [[open set|opens]] specifying the locale may indeed be taken as
 
 ## Properties
 
-Let $LocTopos$ be the [[2-category]] whose 
 
-* objects are localic toposes;
+* A Grothendieck topos $E$ is a localic topos if and only if its unique [[global section]] [[geometric morphism]] to [[Set]] is a [[localic geometric morphism]]. 
 
-* morphisms are [[geometric morphism]]s, i.e. [[adjunctions]] in which the left adjoint preserves [[finite limits]], considered as pointing in the direction of their right adjoint; and
+  Thus, in general we regard a localic geometric morphism $E \to S$ as exhibiting E as a "localic S-topos".
 
-* 2-morphisms are [[mate]]-pairs of [[natural transformation]]s.
+* Moreover, just localic topoi can be identified with locales, for any base topos $S$ the [[2-category]] of localic $S$-topoi is equivalent to the 2-category [[Loc]]$(S)$ of [[internalization|internal]] [[locale]]s in $S$.
 
-Then the 2-category $LocTopos$ is [[equivalence of categories|equivalent]] to the 2-category $Loc$ of [[locales]] (see C1.4.5 in the [[Elephant]]).  The 2-category $Loc$ is actually a [[(1,2)-category]]; its 2-cells are the pointwise ordering of [[frame]] homomorphisms.  Thus this equivalence implies that $LocTopos$ is also a (1,2)-category, and moreover that it is [[locally small category|locally essentially small]], in the sense that its hom-categories are essentially small.  (The 2-category $Topos$ of all toposes is not locally essentially small.)  Assuming sufficient separation axioms, the hom-posets of $Loc$, and hence $LocTopos$, become discrete.
+  $$
+    LocTopos(S) \simeq (Topos/S)_{loc} \simeq Loc(S)
+    \,.
+  $$
+
+
+  Here $LocTopos(S)$ is the [[2-category]] whose 
+
+  * objects are localic toposes over $S$;
+
+  * morphisms are [[geometric morphism]]s, i.e. [[adjunctions]] in which the left adjoint preserves [[finite limits]], considered as pointing in the direction of their right adjoint; and
+
+  * 2-morphisms are [[mate]]-pairs of [[natural transformation]]s.
+
+  Then the 2-category $LocTopos$ is [[equivalence of categories|equivalent]] to the 2-category $Loc$ of [[locales]] (see C1.4.5 in the [[Elephant]]).  
+
+  The 2-category $Loc$ is actually a [[(1,2)-category]]; its [[2-morphism]] are the pointwise ordering of [[frame]] homomorphisms.  Thus this equivalence implies that $LocTopos$ is also a (1,2)-category, and moreover that it is [[locally small category|locally essentially small]], in the sense that its hom-categories are essentially small.  (The 2-category $Topos$ of all toposes is not locally essentially small.)  Assuming sufficient separation axioms, the hom-posets of $Loc$, and hence $LocTopos$, become discrete.
 
 
 ## Examples
@@ -55,7 +70,12 @@ In the context of [[(∞,1)-topos]] [[Higher Topos Theory|theory]] there is a no
 
 Notice that a [[locale]] is itself a (Grothendieck) [[(0,1)-topos]]. Hence a localic topos is a 1-[[topos]] that behaves essentially like a [[(0,1)-topos]]. In the wider context this would be called a [[n-localic (infinity,1)-topos|1-localic (1,1)-topos]].
 
-Generalizing in a different direction, there is a notion of a [[localic geometric morphism]] $f\colon E\to S$, which exhibits its source $E$ as a "localic $S$-topos."  A Grothendieck topos $E$ is then localic, in the sense considered here, if and only if the unique geometric morphism $E\to Set$ is localic.  Moreover, just localic topoi can be identified with locales, for any base topos $S$ the 2-category of localic $S$-topoi is equivalent to the 2-category of internal locales in $S$.
+
+## References
+
+Localic toposes are discussed around proposition 1.4.5 of section C.1.4 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 [[!redirects localic topos]]
 [[!redirects localic toposes]]
