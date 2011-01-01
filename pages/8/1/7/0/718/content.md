@@ -1,4 +1,5 @@
-<div style="float:left;margin:0 10px 10px 0;"><img src="http://www.j-paine.org/ish_bin_da_thumb.jpg" alt="Photo of Jocelyn Paine" /></div>
+[[!redirects Jocelyn Ireson-Paine]]
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://www.j-paine.org/ish_bin_da_thumb.jpg" alt="Photo of Jocelyn Ireson-Paine" /></div>
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
