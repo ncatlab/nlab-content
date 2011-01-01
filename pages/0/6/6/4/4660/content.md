@@ -293,3 +293,6 @@ A discussion of the relation between _local_ Lie group cohomology and [[Lie alge
 
 * S. &#346;wierczkowski, _Cohomology of group germs and Lie algebras_ Pacific Journal of Mathematics, Volume 39, Number 2 (1971), 471-482.  ([pdf](http://projecteuclid.org/DPubS/Repository/1.0/Disseminate?view=body&id=pdf_1&handle=euclid.pjm/1102969572))
 
+
+
+[[!redirects differentiable Lie group cohomology]]
