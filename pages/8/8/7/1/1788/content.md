@@ -4,6 +4,10 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
+$\underoverset{a}{b}{\to}$
+
+***
+
 $$
   \begin{aligned}
     sSet(S, cdgAlg_k^{op}(Spec A,Spec B))
