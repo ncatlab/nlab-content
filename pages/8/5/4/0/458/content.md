@@ -38,9 +38,29 @@ A **frame homomorphism** $\phi: A\to B$ is a function which preserves finite mee
 
 Note: By the [[adjoint functor theorem]] (AFT) for posets, a frame also has all meets, but a frame homomorphism need not preserve them.  Again by the AFT, a frame is automatically a [[Heyting algebra]], but again a frame homomorphism need not preserve the [[Heyting implication]].
 
-The category [[Loc]] of **locales** is the [[opposite category|opposite]] of the category of frames.  That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f:X\to Y$ of locales is a frame homomorphism $f^*:O(Y)\to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
+The [[category]] [[Loc]] of **locales** is the [[opposite category|opposite]] of the category of frames
 
-## Relation to topological spaces
+$$
+  Loc := Frm^{op}
+  \,.
+$$
+
+That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f:X\to Y$ of locales is a frame homomorphism $f^*:O(Y)\to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
+
+## Properties
+
+### Category of locales
+
+The category [[Loc]] of locales [[internalization|internal to]] a [[topos]] $E$ is equivalent to the category of [[localic geometric morphisms]] $E \to S$ in [[Topos]].
+
+$$
+  Loc(S) \simeq (Topos/S)_{loc}
+  \,.
+$$
+
+See [[localic geometric morphism]] for more.
+ 
+### Relation to topological spaces
 
 Every topological space $X$ has a frame of open sets $O(X)$, and therefore gives rise to a locale $X_l$.  For every continuous function $f:X\to Y$ between spaces, the inverse image map $f^{-1}:O(Y)\to O(X)$ is a frame homomorphism, so $f$ induces a continuous map $f_l:X_l\to Y_l$ of locales.  Thus we have a functor $(-)_l:Top \to Loc$.
 
