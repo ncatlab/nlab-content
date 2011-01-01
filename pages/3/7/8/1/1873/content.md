@@ -14,17 +14,6 @@
 =--
 
 
-
-* **groupoid of Lie-algebra valued forms**
-
-* [[2-groupoid of Lie 2-algebra valued forms]]
-
-* [[3-groupoid of Lie 3-algebra valued forms]]
-
-* [[∞-groupoid of ∞-Lie-algebra valued forms]]
-
-***
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -108,9 +97,16 @@ For $G = U(n)$ these differential cocycles model the [[Yang-Mills field]] in phy
   * This corresponds to the [[electromagnetic field]].
 
 
-## Generalization
+## Related concepts
 
-See [[2-groupoid of Lie 2-algebra valued forms]].
+* **groupoid of Lie-algebra valued forms**
+
+* [[2-groupoid of Lie 2-algebra valued forms]]
+
+* [[3-groupoid of Lie 3-algebra valued forms]]
+
+* [[∞-groupoid of ∞-Lie-algebra valued forms]]
+
 
 
 ## References
