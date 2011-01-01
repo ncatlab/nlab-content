@@ -31,3 +31,6 @@ A review is in section 2 of
 
 * [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _A topos for algebraic quantum theory_ ([arXiv:0709.4364](http://arxiv.org/abs/0709.4364))
 {#HeunenLandsmanSpitters}
+
+
+[[!redirects Stone-Gelfand-Naimark theorem]]
