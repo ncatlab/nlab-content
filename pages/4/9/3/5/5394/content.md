@@ -93,14 +93,15 @@ for the [[presheaf topos]] on $ComSub(A)^{op}$.
 =--
 
 
-+-- {: .un_def}
-###### Proposition
++-- {: .un_lemma}
+###### Observation
 
 The topos $\mathcal{T}_A$ is a [[localic topos]]. 
 
 =--
 
-(...)
+Because $ComSub(A)$ is a [[posite]].
+
 
 ### The locale $\Sigma(A)$
 
