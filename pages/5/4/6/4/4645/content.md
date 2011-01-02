@@ -3920,55 +3920,9 @@ that sends principal $\infty$-bundles with connection to [[circle n-bundles with
 
 ## References
 
-The idea of describing connections on principal 1- and 2-bundles in terms of parallel transport 1- and 2-functors appears in
+A commented list of references is at
 
-* [[John Baez]], U. S. _Higher gauge theory_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BaezSchreiber">web</a>)
-{#BaezSchreiber}
-
-A detailed account of the description of ordnary bundles with connection in the style that prepares the ground for our developments here is in 
-
-* U. S., [[Konrad Waldorf]], _Parallel transport and functors_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SWI">web</a>)
-{#SWI}
-
-A detailed account of the description of (abelian and nonabelian) [[gerbe]]s/[[bundle gerbe]]s/[[principal 2-bundle]]s in the style that we shall generalize to an $(\infty,1)$-topos theoretical context here is in
-
-* U. S., [[Konrad Waldorf]]
-
-  1. _Smooth functors versus differential forms_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
-
-  1. _Connections on nonabelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
-{#SW}
-
-The [[universal principal ∞-bundle|universal principal 2-bundle]] $\mathbf{E}G$ and its [[groupal model for universal principal ∞-bundles|groupal model]] $INN(G)$ is discussed in detail in
-
-* [[David Roberts]], [[Urs Schreiber]], _The inner automorphism 3-group of a strict 2-group_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#RobertsSchreiber">web</a>).
-{#RobertsSchreiber}
-
-For more see [[principal 2-bundle]].
-
-
-The algebraic aspects of $\infty$-Lie valued connections and the $\infty$-Chern-Weil homomorphism in local data is from 
-
-* [[Hisham Sati]], U.S., [[Jim Stasheff]], 
-
-  1. _$L_\infty$-algebra connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
-
-  1. _Twisted differential string- and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">web</a>)
-{#SSSI}
-
-The Lie integration of this data to $\infty$-stacks of $\infty$-connections and the construction of the [[Chern-Simons circle 3-bundle]] as an example of $\infty$-Chern-Weil homomorphism is in 
-
-* [[Domenico Fiorenza]], U.S., [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
-
-This reproduces the description of the refined Chern-Weil homomorphisms in terms of Cech-Deligne cohomology as discussed in
-
-* [[Jean-Luc Brylinski]], Dennis MacLaughlin, _Cech cocycles for characteristic classes_ , Communications in Mathematical Phiysics, Volume 178, Number 1 (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">web</a>)
-{#BrylinskiMacLaughlin}
-
-
-A commented list of further references is at 
-
-* [[schreiber:differential cohomology in an (∞,1)-topos -- references]].
+* _[[schreiber:differential cohomology in an (∞,1)-topos -- references]]_ .
 
 
 [[!redirects ∞-Chern-Weil theory -- preparatory concepts]]
