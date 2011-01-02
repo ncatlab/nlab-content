@@ -29,7 +29,7 @@ This is naturally a [[topological groupoid]]. As such it is an [[étale groupoid
 ## References
 
 
-* A. Haefliger, _Groupo&#239;des d'holonomie et espaces classiants_ , Ast&#233;erisque 116 (1984), 70-97
+* A. Haefliger, _Groupo&#239;des d'holonomie et espaces classiants_ , Ast&#233;risque 116 (1984), 70-97
 
 * [[Raoul Bott]], _Lectures on characteristic classes and foliations_ , Springer LNM 279, 1-94
 
