@@ -1,7 +1,19 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
+=--
+=--
+=--
+
+#Contemts#
+* table of contents
+{:toc}
+
+## Definition
 
 If $x$ and $y$ are elements of a [[partial order|poset]], then their **join**, or **supremum**, is an element $x \vee y$ of the poset such that:
 * $x \leq x \vee y$ and $y \leq x \vee y$;
@@ -12,13 +24,27 @@ In a [[preorder|proset]], a join may be defined similarly, but it need not be un
 
 The above definition is for the join of two elements of a poset, but it can easily be generalised to any number of elements.  It may be more common to use 'join' for a join of finitely many elements and 'supremum' for a join of (possibly) infinitely many elements, but they are the same concept.  The join may also be called the **maximum** if it equals one of the original elements.
 
-Special cases:  A join of zero elements is a [[bottom]] element.  Any element $a$ is a join of that one element.
-
 A poset that has all finite joins is a **join-[[semilattice]]**.  A poset that has all suprema is a **[[suplattice]]**.
+
+A join of [[subset]]s or [[subobject]]s is called a [[union]].
+
+
+## Special cases
+
+A join of zero elements is a [[bottom]] element.  Any 
+
+element $a$ is a join of that one element.
+
+
+## Properties
 
 As a poset is a special kind of [[category]], a join is simply a [[coproduct]] in that category.
 
-A join of [[subset]]s or [[subobject]]s is called a [[union]].
+## Related concepts
+
+* **join**
+
+* [[meet]]
 
 
 [[!redirects joins]]
