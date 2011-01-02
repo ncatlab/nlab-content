@@ -41,7 +41,7 @@ So let $U\Set$ be the category of $U$-small sets. Then
 * a $U$-category (a [[locally small category|locally U-small]])-category is a category [[enriched category|enriched over]] $U Set$;
 * a $U$-small category is a category [[internal category|internal to]] $U Set$.
 
-A category is **$U$-moderate** if its set of objects and set of morphisms are both subsets of $U$.  However, some categories (such as the category of $U$-moderate categories) larger yet.
+A category is **$U$-moderate** if its set of objects and set of morphisms are both subsets of $U$.  However, some categories (such as the category of $U$-moderate categories!) are larger yet.
 
 
 ## Related concepts
