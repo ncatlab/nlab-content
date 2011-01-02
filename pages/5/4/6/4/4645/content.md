@@ -20,13 +20,12 @@
 
 Ordinary [[Chern-Weil theory]] studies [[connection on a bundle|connections]] on $G$-[[principal bundle]]s over a [[Lie group]] $G$. In the context of the [[cohesive (∞,1)-topos]] [[?LieGrpd]] of [[∞-Lie groupoid]]s these generalize to [[connection on an ∞-bundle|∞-connections]] on [[principal ∞-bundle]]s over [[∞-Lie group]]s $G$. Accordingly **[[∞-Chern-Weil theory]]** deals with these higher connections and their relation to [[ordinary differential cohomology]].
 
-Here we describe some introducory basics of the general theory in concrete terms.
+Here we describe some introdutcory basics of the general theory in concrete terms.
 
 See <a href="http://ncatlab.org/nlab/show/infinity-Chern-Weil+theory#Motivation">∞-Chern-Weil theory -- motivation</a> for some motivation.
 
-## Preparatory concepts
 
-Two simple special cases of general $\infty$-Chern-Weil theory are obtained by
+Two simplifying special cases of general $\infty$-Chern-Weil theory are obtained by
 
 1. restricting attention to _low categorical degree_ , 
 
@@ -57,10 +56,9 @@ This leads to differential-form expressions that we shall then finally reformula
 We end by indicating how under [[Lie integration]] this lifts to the full [[∞-Chern-Weil theory]].
 
 
+## Principal $n$-bundles in low dimension {#PrincipalNBundles}
 
-### Principal $n$-bundles in low dimension {#PrincipalNBundles}
-
-#### Ordinary smooth principal bundles {#PrincipalBundles}
+### Ordinary smooth principal bundles {#PrincipalBundles}
 
 Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[nLab:paracompact space|paracompact]]). 
 
@@ -418,7 +416,7 @@ $$
   \,.
 $$
 
-#### Cech cocycles {#Cech2Cocycles}
+### Cech cocycles {#Cech2Cocycles}
 
 The discussion above of $G$-principal bundles was all based on the [[Lie groupoid]]s $\mathbf{B}G$ and $\mathbf{E}G$ that are canonically induced by a [[Lie group]] $G$. We now discuss the case where $G$ is generalized to a [[Lie 2-group]]. The above discussion will go through essentially verbatim, only that we pick up [[2-morphism]]s everywhere. This is the first step towards higher Chern-Weil theory. The resulting generalization of the notion of principal bundle is that of [[principal 2-bundle]]. For historical reasons these are known in the literature often as [[gerbe]]s or as [[bundle gerbe]]s. 
 
@@ -578,7 +576,7 @@ For that we need to get the 2-groupoid $\mathbf{B}^2 U(1)$ and the 2-functor $\m
 It is easy to guess what this should be, but there is also a systematic way to derive this, which works in full generality:
 
 
-#### Universal principal $n$-bundles {#UniversalnBundle}
+### Universal principal $n$-bundles {#UniversalnBundle}
 
 For $G$ any group object, the [[universal principal ∞-bundle]] is a good replacement for the point inclusion $* \to \mathbf{B}G$.
 
@@ -615,7 +613,7 @@ For $G$ an ordinary Lie group, this reproduces the groupoid $\mathbf{E}G$ discus
 For detailed illustration of what $\mathbf{E}G$ looks like for $G$ a [[2-group]], see ([RobertsSchreiber](#RobertsSchreiber)).
 
 
-#### Circle $n$-bundles and bundle $(n-1)$-gerbes
+### Circle $n$-bundles and bundle $(n-1)$-gerbes
 
 Let $g : C(U) \to \mathbf{B}^2 U(1)$ be a Cech cocycle as [above](#Cech2Cocycles). By the discussion of [universal n-bundles](#UniversalnBundle) we find the corresponding total space object as the [[pullback]] 
 
@@ -726,7 +724,7 @@ is essentially what is known as a [[bundle 2-gerbe]].
 
 
 
-#### String 2-bundles and nonabelian bundle gerbes
+### String 2-bundles and nonabelian bundle gerbes
 
 Above we saw $\mathbf{B}U(1)$-[[principal 2-bundle]]s. The groupoid $\mathbf{B}U(1)$ is a special case of what is called a [[Lie 2-group]], which is a [[group object]] $G$ in Lie groupoids. 
 
@@ -761,7 +759,7 @@ $$
 These groupoids $\tilde P$ are in the literature known as [[nonabelian bundle gerbe]].
 
 
-#### A model for principal $\infty$-bundles {#ModelForPrincipalInfinityBundle}
+### A model for principal $\infty$-bundles {#ModelForPrincipalInfinityBundle}
 
 We have seen [above](#PrincipalBundles) that the theory of ordinary smooth [[principal bundle]]s is naturally situated within the context of [[Lie groupoid]]s, and [then](#Cech2Cocycles) that the theory of smooth [[principal 2-bundle]]s is naturally situated within the theory of [[Lie 2-groupoid]]s. This is clearly the beginning of a pattern in [[higher category theory]] where in the next step we see smooth [[3-groupoid]]s and so on. Finally the general theory of [[principal ∞-bundle]]s deals with smooth [[∞-groupoid]]s. 
 
@@ -1045,7 +1043,7 @@ $$
 
 
 
-### Parallel transport in low dimensions {#LowDimension}
+## Parallel transport in low dimensions {#LowDimension}
 
 With a decent handle on principal $\infty$-bundles as described [above](#ModelForPrincipalInfinityBundle) we now turn to the description of [[connection on an ∞-bundle|connections on ∞-bundles]]. It will turn out that the above [[cocycle]]-description of $G$-principal $\infty$-bundles in terms of  [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \stackrel{g}{\to} \mathbf{B}G$ has, under mild conditions, a natural generalization where $\mathbf{B}G$ is replaced by a [[concrete sheaf|non-concrete]] [[∞-Lie groupoid]] $\mathbf{B}G_{conn}$ which we may think of as the [[∞-groupoid of ∞-Lie algebra valued forms]]. This comes with a canonical map $\mathbf{B}G_{conn} \to \mathbf{B}G$ and an $\infty$-connection $\nabla$ on the $\infty$-bundle classified by $g$ is simply a lift
 
@@ -1103,7 +1101,7 @@ Taken together, these constructions allow us to express a good deal of the gener
 
 
 
-#### Connections on a principal bundle {#ConnectionOnPrincipalBundle}
+### Connections on a principal bundle {#ConnectionOnPrincipalBundle}
 
 There are different equivalent definitions of the classical notion of a connection. One that is useful for our purposes is that a connection $\nabla$ on a $G$-principal bundle $P \to X$ is a rule $tra_\nabla$ for [[parallel transport]] along paths: a rule that assigns to each path $\gamma : [0,1] \to X$ a morphism $tra_\nabla(\gamma) : P_x \to P_y$ between the fibers of the bundle above the endpoints of these paths, in a compatible way:
 
@@ -1366,7 +1364,7 @@ A connection $\nabla$ is _flat_ precisely if it factors through the inclusion $\
 For the purposes of [[Chern-Weil theory]] we want a good way to extract the [[curvature]] 2-form in a general abstract way from a cocycle $\nabla : X \stackrel{\simeq}{\leftarrow }C(U) \to \mathbf{B}G_{conn}$. In order to do that, we first need to discuss [[connections on 2-bundles]].
 
 
-#### Connections on principal 2-bundles {#ConnectionOn2Bundle}
+### Connections on principal 2-bundles {#ConnectionOn2Bundle}
 
 There is an evident higher dimensional generalization of the definition of connections on 1-bundles in terms of functors out of the [[path groupoid]] discussed [above](#ConnectionOnPrincipalBundle). This we discuss now. We will see that, however, the obvious generalization captures not quite all 2-connections. But we will also see a way to recode 1-connections in terms of flat 2-connections. And that recoding then is the right general abstract perspective on connections, which generalizes to [[principal ∞-bundles]] and in fact which in the [[schreiber:differential cohomology in an (∞,1)-topos|full theory]] follows from first principles.
 
@@ -1658,7 +1656,7 @@ of flat $INN(G)$-valued 2-connections and Lie-algebra valued 1-forms. Under the 
 This means that 2-connections with values in $INN(G)$ actually model 1-connections _and_ keep track of their curvatures. Using this we see in the next section a general abstract definition of connections on 1-bundles that naturally supposrt the [[Chern-Weil homomorphism]].
 
 
-#### Curvature characteristics of 1-bundles {#CurvatureCharacteristicsI}
+### Curvature characteristics of 1-bundles {#CurvatureCharacteristicsI}
 
 We now describe connections on 1-bundles in terms of their _flat curvature 2-bundles_ . This gives a general abstract notion of connections that generalizes to [[connections on ∞-bundles]] and that supports naturally the [[Chern-Weil homomorphism]]
 
@@ -1767,7 +1765,7 @@ $$
 This inclusion plays a central role in the theory. The crucial point is that while $\mathbf{B}G_{diff}$ is such a boring extenion of $\mathbf{B}G$ that it is actually equivalent to $\mathbf{B}G$, there is no inclusion of $\mathbf{B}G_{conn}$ into $\mathbf{B}G$, but there is into $\mathbf{B}G_{diff}$. This is the kind of situation that [[resolution]]s are needed for.
 
 
-##### Of $U(1)$-principal bundles {#U1BundCurvatureCharacteristics}
+#### Of $U(1)$-principal bundles {#U1BundCurvatureCharacteristics}
 
 Before further considering $\mathbf{B}G_{diff}$ for general $G$, it is useful to look at some details for the case that $G$ is an [[abelian group]] such as the [[circle group]] $U(1)$.
 
@@ -2320,7 +2318,7 @@ etc. This is a cocycle in [[Cech cohomology|Cech]]-[[Deligne cohomology]]. We ma
 Connections on $G$-principal $\infty$-bundles for nonabelian $G$ do not have quite such a simple description. Therefore it makes sense to _approximate_ every $G$-cocylce $X \stackrel{\simeq}{\leftarrow} C(U) \to \mathbf{B}G$ by abelian cocycle by postcomposing with all possible [[characteristic class]]es $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \hat \mathbf{B}G\to \mathbf{B}^n U(1)$ to extract a circle $n$-bundle from it. This is what we turn to now.
 
 
-### $\infty$-Lie algebra valued connections {#LieConnections}
+## $\infty$-Lie algebra valued connections {#LieConnections}
 
 [Above](#LowDimension) we described ordinary [[connections on bundles]] as well as [[connections on 2-bundles]] in terms of [[parallel transport]] over paths and surfaces, and showed how such is equivalently given by cocycles with coefficients in [[Lie-algebra valued differential forms]] and [[Lie 2-algebra valued differential forms]], respectively. 
 
@@ -2352,7 +2350,7 @@ In the main entry [[∞-Chern-Weil theory]] we discuss how this dg-algebraic con
 The material of this section is due to ([SSS](#SSSI)) and ([FSS](#FSS)).
 
 
-#### $\infty$-Lie algebroids
+### $\infty$-Lie algebroids
 
 There is a precise sense in which one may think of a [[Lie algebra]] $\mathfrak{g}$ as the [[infinitesimal space|infinitesimal]] sub-object of the delooping groupoid $\mathbf{B}G$ of the corresponding Lie group $G$. Without here going into the details of this relation (which needs a little bit of [[(∞,1)-topos]]-theory), we want to build certain [[∞-Lie groupoid]]s from the knowledge of their infinitesimal subobjects: these subobjects are [[∞-Lie algebroid]]s and specifically [[∞-Lie algebra]]s -- traditionally known as $L_\infty$-algebras. 
 
@@ -2404,7 +2402,7 @@ on graded-commutative cochain [[dg-algebra]]s in non-negative degree whose under
 
 =--
 
-#### Characteristic cocycles from Lie integration {#LieIntOfCocycles}
+### Characteristic cocycles from Lie integration {#LieIntOfCocycles}
 
 The construction we want to describe may be understood as a generalization
 of the following proposition. This is classical, even if maybe not reflected in the standard textbook literature to the extent it deserves to be (see [[Lie integration]] for details and references).
@@ -2567,7 +2565,7 @@ This follows by observing that the composition of [[∞-anafunctor]]s as spelled
 
 These authors prove that this is indeed the claimed class by refining this $U(1)$-cocycle to [[Deligne cohomology]] and computing its [[curvature]] 4-form. As we proceed now, we will see that this refinement, too, is obtained as a composition of $\infty$-anafunctors for cocycles of bundles with connection. 
 
-#### Curvature characteristics and Chern-Simons forms {#CurvCharAndCS}
+### Curvature characteristics and Chern-Simons forms {#CurvCharAndCS}
 
 For $G$ a Lie group, we have described [above](#ConnectionOnPrincipalBundle) connections on $G$-principal bundles in terms of cocycles with coefficients in the Lie-[[groupoid of Lie-algebra valued forms]] $\mathbf{B}G_{conn}$
 
@@ -2875,7 +2873,7 @@ $$
 
 =--
 
-#### $\infty$-Connections from Lie integration {#LieIntConn}
+### $\infty$-Connections from Lie integration {#LieIntConn}
 
 We have seen above for $\mathfrak{g}$ an $\infty$-Lie algebroid the object
 $\exp(\mathfrak{g})_{diff}$ that classifies [[pseudo-connection]]s
@@ -3005,7 +3003,7 @@ that define [[connections on ∞-bundles]]. More on this in the [Properties](#Pr
 
 =--
 
-##### Curvature characteristics
+#### Curvature characteristics
 
 +-- {: .un_prop}
 ###### Proposition
@@ -3192,7 +3190,7 @@ This distinction is important: over objects $X \in $ [[?LieGrpd]] that are not [
 
 
 
-##### 1-Morphisms: integration of infinitesimal gauge transformations {#InfGaugeTrafo}
+#### 1-Morphisms: integration of infinitesimal gauge transformations {#InfGaugeTrafo}
 
 The 1-[[morphism]]s in $\exp(\mathfrak{g})(U)$ may be thought of as [[gauge transformation]]s between $\mathfrak{g}$-valued forms. We unwind what these look like concretely.
 
@@ -3301,7 +3299,7 @@ The unique solution $A_U(s = 1)$ of the above [[differential equation]] at $s = 
 
 
 
-##### Examples
+#### Examples
 
 
 +-- {: .un_prop}
@@ -3375,14 +3373,14 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 * What is called an  "extended soft group manifold" in the literature on the [[D'Auria-Fre formulation of supergravity]] is really precisely a collection of $\infty$-Lie algebroid valued forms with values in a super $\infty$-Lie algebra such as the [[supergravity Lie 3-algebra]] (for 11-dimensional [[supergravity]]). The way [[curvature]] and [[Bianchi identity]] are read off from "extded soft group manifolds" in this literature is -- apart from this difference in terminology -- precisely what is described above. 
 
 
-#### The $\infty$-Chern-Weil homomorphism
+### The $\infty$-Chern-Weil homomorphism
 
 In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classifies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $c : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
 
 All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ in terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
 
 
-##### $\infty$-Chern-Simons functionals
+#### $\infty$-Chern-Simons functionals
 
 If we express $G$ by [[Lie integration]] of an [[∞-Lie algebra]] $\mathfrak{g}$, then the basic $\infty$-Chern-Weil homomorphism is modeled by composing an $\infty$-connection $(A_{vert}, A, \langle F_A\rangle)$ with the transgression of an invariant polynomial $(\mu, cs, \langle - \rangle)$ as follows
 
@@ -3580,7 +3578,7 @@ $$
 $$
 
 
-##### Secondary characteristic classes
+#### Secondary characteristic classes
 
 So far we discussed the untruncated $\exp(\mathfrak{g})_{conn}$. The real object of interest is the $k$-[[truncated]] version $\tau_k \exp(\mathfrak{g})_{conn}$ where $k \in \mathbb{N}$ is such that $\tau_k \exp)\mathfrak{g} \simeq \mathbf{B}G$ is the delooping of the $\infty$-Lie group in question. 
 
