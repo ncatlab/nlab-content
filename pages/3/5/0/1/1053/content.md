@@ -206,7 +206,7 @@ Game semantics for linear logic was first proposed by [[Andreas Blass]], I belie
 
 ## Multiple exponential operators
 
-Much as there are many [[exponential functions]] (say from $\mathbb{R}$ to $\mathbb{R}$), even though there is only one addition operation and one multiplication operation, so there can be many versions of the exponential operators $!$ and $?$.  (However, there doesn\'t seem to be any analouge of the [[logarithm]] to convert between them.)
+Much as there are many [[exponential functions]] (say from $\mathbb{R}$ to $\mathbb{R}$), even though there is only one addition operation and one multiplication operation, so there can be many versions of the exponential operators $!$ and $?$.  (However, there doesn\'t seem to be any analogue of the [[logarithm]] to convert between them.)
 
 More precisely, if we add to the language of linear logic two more operators, $!'$ and $?'$, and postulate of them the same rules as for $!$ and $?$, we cannot prove that $!{A} \equiv !'{A}$ and $?{A} \equiv ?'{A}$.  In contrast, if we introduce $\&'$, $\bot'$, etc, we *can* prove that the new operators are equivalent to the old ones.
 
