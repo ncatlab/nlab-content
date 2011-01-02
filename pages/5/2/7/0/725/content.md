@@ -1,7 +1,20 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
 
 If $x$ and $y$ are elements of a [[partial order|poset]], then their **meet**, or **infimum**, is an element $x \wedge y$ of the poset such that:
 * $x \wedge y \leq x$ and $x \wedge y \leq y$;
@@ -12,13 +25,28 @@ In a [[preorder|proset]], a meet may be defined similarly, but it need not be un
 
 The above definition is for the meet of two elements of a poset, but it can easily be generalised to any number of elements.  It may be more common to use 'meet' for a meet of finitely many elements and 'infimum' for a meet of (possibly) infinitely many elements, but they are the same concept.  The meet may also be called the **minimum** if it equals one of the original elements.
 
-Special cases:  A meet of zero elements is a [[top]] element.  Any element $a$ is a meet of that one element.
-
 A poset that has all finite meets is a **meet-[[semilattice]]**.  A poset that has all infima is an **[[inflattice]]**.
+
+A meet of [[subset]]s or [[subobject]]s is called an [[intersection]].
+
+
+## Special cases
+
+A meet of zero elements is a [[top]] element.  
+
+Any element $a$ is a meet of that one element.
+
+
+## Properties
 
 As a poset is a special kind of [[category]], a meet is simply a [[product]] in that category.
 
-A meet of [[subset]]s or [[subobject]]s is called an [[intersection]].
+
+## Related concepts
+
+* [[join]]
+
+* **meet**
 
 
 [[!redirects meets]]
