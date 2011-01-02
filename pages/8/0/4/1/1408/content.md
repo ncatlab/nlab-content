@@ -111,9 +111,8 @@ An $(\infty,1)$-category $V$ equipped with an admissiblility structure is a **ge
 The admissible morphisms in an admissibility structure are roughly to be thought of as those morphisms that behave as _open immersions_ ,
 
 
-### Structure sheaves
+### Structure sheaves: local $\infty$-algebras
 
-#### In terms of lex copresheaves
 
 +-- {: .un_defn}
 ###### Definition ([StrSh, def 1.2.8](http://arxiv.org/abs/0905.0459))
@@ -129,7 +128,7 @@ $$
 is a $\mathcal{G}$-**structure** on $\mathcal{X}$ or 
 $\mathcal{G}$-**[[structure sheaf]]** on $\mathcal{X}$ if 
 
-* it is a left exact functor;
+* it is a left [[exact (∞,1)-functor]];
 
 * it respects gluing in $\mathcal{G}$ in that 
   for $\{U_i \to V\}_i$ 
@@ -146,29 +145,101 @@ $\mathcal{G}$-**[[structure sheaf]]** on $\mathcal{X}$ if
 
 Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for the full subcategory of such morphisms of the [[(∞,1)-category of (∞,1)-functors]].
 
++-- {: .un_remark}
+###### Remark
 
-#### In terms of classifying $(\infty,1)$-toposes {#InTermsOfClassifying}
+Without the condition on preservations of covers, the above defined the [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]] over the [[essentially algebraic (∞,1)-theory]] $\mathcal{G}$. The preservation of covers encodes the **local** $\mathcal{G}$-algebras. 
+
+Therefore we shall equivalently write
+
+$$
+  \mathcal{G}Alg_{loc}(\mathcal{X}) \simeq Str_{\mathcal{G}}(\mathcal{X})
+  \,.
+$$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+$\mathcal{G}Alg_{loc}(\mathcal{X})$ is the $(\infty,1)$-category of algebras over an $(\infty,1)$-[[geometric theory]]. 
+
+=--
+
+This is discussed [below](#InTermsOfClassifying).
+
+
+### As algebras over geometric $(\infty,1)$-theories
+{#InTermsOfClassifying}
 
 By the [[(∞,1)-Yoneda lemma]], a 
 cover-preserving functor $\mathcal{O} : \mathcal{G} \to \mathcal{X}$
-extends equivalently to a colimit-preserving functor
-$Sh_{(\infty,1)}(\mathcal{G}) \to \mathcal{X}$. This respects
-finite limits if $\mathcal{O}$ does. Then necessarily it has a 
-right adjoint. 
-
-In summary this means that structure sheaves 
-$\mathcal{O} : \mathcal{G} \to \mathcal{X}$ are equivalently encoded
-in [[geometric morphism]]s to the [[(∞,1)-category of (∞,1)-sheaves]] on the geoemtry
+[[Yoneda extension|Yoneda extends]] equivalently to a [[(∞,1)-colimit]]-preserving [[(∞,1)-functor]]
 
 $$
-  \mathcal{X} \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{}{\to}}
+  \mathcal{O} : Sh_{(\infty,1)}(\mathcal{G}) \to \mathcal{X}
+  \,.
+$$
+
+By the [[adjoint (∞,1)-functor theorem]] this has a [[right adjoint|right]] [[adjoint (∞,1)-functor]] and if 
+$\mathcal{O}$ preserves 
+finite [[(∞,1)-limits]] then so does its extension. Therefore local $\mathcal{G}$-[[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]] in $\mathcal{X}$ are equivalent to [[(∞,1)-geometric morphism]]s
+
+$$
+  \mathcal{X} \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\to}
   Sh_{(\infty,1)}(\mathcal{G})
   \,.
 $$
 
-We may think of this as saying that $Sh_{(\infty,1)}(\mathcal{G})$ is $(\infty,1)$-[[classifying topos]]** for the $(\infty,1)$-[[geometric theory]] of **local [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]]** over the [[(∞,1)-algebraic theory]] $\mathcal{G}$.
+This means that structure sheaves 
+$\mathcal{O} : \mathcal{G} \to \mathcal{X}$ are equivalently encoded
+in [[geometric morphism]]s to the [[(∞,1)-category of (∞,1)-sheaves]] on the geoemtry.
 
-This is the content of ([Lurie, section 1.4](#Lurie)).
+Formally we have:
+
++-- {: .un_prop}
+###### Proposition
+
+For $\mathcal{G}$ a geometry, precomposition of the [[inverse image]] functor with the [[(∞,1)-Yoneda embedding]] $y : \mathcal{G} \to Sh_{(\infty,1)}(\mathcal{G})$ induces an [[equivalence of (∞,1)-categories]]
+
+$$
+  Topos(\mathcal{X}, Sh_{(\infty,1)}(\mathcal{G}))
+  \stackrel{\simeq}{\to}
+  \mathcal{G}Alg_{loc}(\mathcal{X})
+$$
+
+between the  [[(∞,1)-category of (∞,1)-functors|(∞,1)-category of (∞,1)-geometric morphisms]] from $\mathcal{X}$ to $Sh_{(\infty,1)}(\mathcal{G})$ and the $(\infty,1)$-category of local $\mathcal{G}$-[[∞-algebra over an (∞,1)-algebraic theory|∞-algebra]]s in $\mathcal{X}$.
+
+=--
+
+This is ([StrSp, prop 1.42](#Lurie)).
+
++-- {: .proof}
+###### Proof
+
+This follows from the general fact, discussed in the section <a href="http://nlab.mathforge.org/nlab/show/Yoneda+lemma+for+(infinity%2C1)-categories#LocalYonedaEmbedding">Local yoneda embedding</a> at [[(∞,1)-Yoneda lemma]] that the essential image of the $(\infty,1)$-functor
+
+$$
+  Topos(\mathcal{X}, Sh_{(\infty,1)}(\mathcal{G}))
+  \stackrel{L}{\to}
+  Topos(\mathcal{X}, PSh_{(\infty,1)}(\mathcal{G}))
+  \stackrel{y}{\to}
+  Func(\mathcal{G}, \mathcal{X})
+$$
+
+is spanned by the left exact and cover preserving functors. 
+
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+We may think of this as saying that $Sh_{(\infty,1)}(\mathcal{G})$ is the $(\infty,1)$-[[classifying topos]] for the $(\infty,1)$-[[geometric theory]] of **local [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]]** over the [[essentially algebraic (∞,1)-theory]] $\mathcal{G}$.
+
+=--
+
+
 
 
 ### Local morphisms between structure sheaves {#LocalMorphisms}
