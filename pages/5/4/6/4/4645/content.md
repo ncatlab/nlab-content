@@ -72,7 +72,7 @@ $$
   \mathcal{B}G = (G \stackrel{\to}{\to} *)
 $$
 
-with composition canonically induced from the product in $G$. A useful cartoon of this groupoid is
+with composition induced from the product in $G$. A useful cartoon of this groupoid is
 
 $$
   \mathcal{B}G = 
@@ -210,7 +210,7 @@ $$
   \,.
 $$
 
-Such spans of functors, whose left leg is a weak equivalence, are sometimes known as [[anafunctor]]s. We are to think of these as concrete _models_ for more intrinsically defined morphisms $X\to \mathbf{B}G$ in the $(\infty,1)$-topos of Lie groupoids. 
+Such spans of functors, whose left leg is a weak equivalence, are sometimes known as [[anafunctor]]s. We are to think of these as concrete _models_ for more intrinsically defined morphisms $X\to \mathbf{B}G$ in the $(\infty,1)$-topos of $\infty$-Lie groupoids. 
 
 Now consider yet another Lie groupoid canonically associated with $G$: we shall write $\mathbf{E}G$ for the groupoid whose formal description is
 
@@ -297,7 +297,7 @@ $$
 This $P$ is traditionally written as
 
 $$
-  P = \left( \coprod_{i} U_i \times G \right)_{\sim}
+  P = \left( \coprod_{i} U_i \times G \right)/{\sim}
   \,,
 $$
 
@@ -360,9 +360,9 @@ $$
   \,,
 $$
 
-where $\mathcal{B}G \in $ [[Top]] is the topological [[classifying space]] of $G$. In fact the category [[Top]] of topological spaces, regarded as an [[(∞,1)-category]], is the archetypical [[(∞,1)-topos]] the way that [[Set]] is the archetypical [[topos]]. And it is equivalent to [[∞Grpd]], the $(\infty,1)$-category of bare [[∞-groupoid]]s. What we are seeing above is a first indication of how [[cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra structure.
+where $\mathcal{B}G \in $ [[Top]] is the topological [[classifying space]] of $G$. The category [[Top]] of topological spaces, regarded as an [[(∞,1)-category]], is the archetypical [[(∞,1)-topos]] the way that [[Set]] is the archetypical [[topos]]. And it is equivalent to [[∞Grpd]], the $(\infty,1)$-category of bare [[∞-groupoid]]s. What we are seeing above is a first indication of how [[cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra structure.
 
-In fact, all of the statements that we considered so far becomes conceptually _simpler_ in the $(\infty,1)$-topos. We had already remarked that the [[anafunctor]] span $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}G$ is really a model for what is simply a direct morphism $X \to \mathbf{B}G$ in the $(\infty,1)$-topos. But more is true: that pullback of $\mathbf{E}G$ which we considered is just a model for the [[homotopy pullback]] of just the _point_ 
+In fact, all of the statements that we have considered so far become conceptually _simpler_ in the $(\infty,1)$-topos. We had already remarked that the [[anafunctor]] span $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}G$ is really a model for what is simply a direct morphism $X \to \mathbf{B}G$ in the $(\infty,1)$-topos. But more is true: that pullback of $\mathbf{E}G$ which we considered is just a model for the [[homotopy pullback]] of just the _point_ 
 
 
 $$
@@ -512,7 +512,7 @@ $$
   \begin{aligned}
   \left(
   \array{
-    (x,j) &&\stackrel{g_2}{\to}&& (x,k)
+    (x,j) &&\stackrel{}{\to}&& (x,k)
     \\
     \uparrow^{} &&{}^{}\nearrow&& \downarrow^{}
     \\
@@ -601,7 +601,7 @@ $$
     \\
     \mathbf{B}G^I &\stackrel{d_1}{\to}& \mathbf{B}G
     \\
-    \downarrow^{\mathrlap{d_0}}
+    \downarrow_{\mathrlap{d_0}}^{\simeq}
     \\
     \mathbf{B}G
   }
@@ -632,7 +632,7 @@ $$
   \,.
 $$
 
-Unwinding what this means, we see that  $\tilde P$ is the 2-groupoid whose objects are that of $C(U)$, whose morphisms are finite sequences of morphisms in $C(U)$,each equipped with a label $c \in U(1)$, and whose 2-morphisms are generated from those that look like
+Unwinding what this means, we see that  $\tilde P$ is the 2-groupoid whose objects are that of $C(U)$, whose morphisms are finite sequences of morphisms in $C(U)$, each equipped with a label $c \in U(1)$, and whose 2-morphisms are generated from those that look like
 
 $$
   \array{
@@ -667,6 +667,7 @@ $$
   =
   ((x,i) \stackrel{(c_1 \cdot c_2 \cdot g_{i j k }(x))}{\to}
   (x,k))
+  \,.
 $$
 
 This is a [[groupoid cohomology|groupoid central extension]]
@@ -703,7 +704,7 @@ that satisfies an evident [[associativity]] law, equivalent to the cocycle codit
 
 So we see that bundle gerbes are presentations of Lie groupoids that are total spaces of $\mathbf{B}U(1)$-[[principal 2-bundle]]s.
 
-This is clearly the beginning of a pattern. Next we can form one more [[delooping]] and produce the Lie 3-groupoid $\mathbf{B}^3 U(1)$. A cocycle $C(U) \to \mathbf{B}^3 U(1)$ classifies a _circle 3-bundle_  . The total space object $\tilde P$ in the pullback
+This is clearly the beginning of a pattern. Next we can form one more [[delooping]] and produce the Lie 3-groupoid $\mathbf{B}^3 U(1)$. A cocycle $C(U) \to \mathbf{B}^3 U(1)$ classifies a _circle 3-bundle_ . The total space object $\tilde P$ in the pullback
 
 $$
   \array{
