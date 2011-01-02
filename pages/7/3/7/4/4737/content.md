@@ -9,15 +9,7 @@
 =--
 =--
 
-* [[principal bundle]] / [[torsor]] / **groupoid principal bundle**
 
-* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
-
-* [[principal 3-bundle]] / [[bundle 2-gerbe]]
-
-* [[principal ∞-bundle]]
-
-***
 
 
 #Contents#
@@ -72,3 +64,19 @@ for $\mathcal{G}_{x_i}$ the source fiber over an object $x_i$.
 ## Applications
 
 * As groupoid [[bibundle]], groupoid principal bundles serve as models for morphisms between [[Lie groupoid]]s.
+
+## Related concepts
+
+* [[principal bundle]] / [[torsor]] / **groupoid principal bundle**
+
+* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
+* [[principal ∞-bundle]]
+
+## References
+
+* [[Ieke Moerdijk]], J. Mr&#269;un, _Introduction to foliations and Lie groupoids_ Bulletin (New Series) of the AMS, Volume 42, Number 1, Pages 105&#8211;111
+
+[[!redirects groupoid principal bundles]]
