@@ -30,7 +30,7 @@ A [[Grothendieck topos]] $E$ is **connected** if the unique geometric morphism $
 
 For geometric morphisms which are also [[locally connected geometric morphism|locally connected]], connectedness can be phrased in an especially nice form.
 
-+-- {: .un_prop}
++-- {: .un_prop #PreservationOfTerminalObject}
 ###### Proposition
 If $p\colon E\to F$ is locally connected, then it is connected if and only if the left adjoint $p_!$ of the inverse image functor (which exists, since $p$ is locally connected) preserves the terminal object.
 =--
@@ -115,7 +115,52 @@ These results all have generalizations to [[∞-connected (∞,1)-toposes]].
 
 ## Examples
 
-* The [[gros topos|gros]] [[sheaf topos]] $Sh(CartSp)$ on the [[nLab:site]] [[CartSp]] -- which contains the [[quasi-topos]] of [[diffeological space]] -- is a connected topos, since the site [[CartSp]] is a locally connected site and contains a terminal object.
++--{: .un_prop}
+###### Proposition
+
+
+The [[gros topos|gros]] [[sheaf topos]] $Sh(CartSp)$ on the [[nLab:site]] [[CartSp]] -- which contains the [[quasi-topos]] of [[diffeological space]] -- is a connected topos, since the site [[CartSp]] is a locally connected site and contains a terminal object.
+
+=--
+
+
++--{: .un_prop}
+###### Proposition
+
+
+Let $\Gamma : \mathcal{E} \to Set$ be a connected and [[locally connected topos]] and 
+$X \in \mathcal{E}$ a connected object, $\Pi_0(X) \simeq *$. 
+Then the [[over-topos]] $\mathcal{E}/X$ is also connected and locally connected.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For every object $X$, we have that $\mathcal{E}/X$ sits over $\mathcal{E}$ by the [[etale geometric morphism]]. 
+
+$$
+  \mathcal{E}/X
+   \stackrel{\overset{X_!}{\to}}{\stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}}
+  \mathcal{E}
+   \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\to}}}
+  Set
+ \,.
+$$
+
+This makes $\mathcal{E}/X$ be a [[locally connected topos]]. 
+
+Notice that the [[terminal object]] of $\mathcal{E}/X$ is $(X \stackrel{Id}{\to} X)$. If now $X$ is connected, then 
+
+$$
+  \Pi_0 X_! (X \stackrel{Id}{\to} X)
+  \simeq
+  \Pi_0 X \simeq *
+$$ 
+
+and so the extra left adjoint $\Pi_0 \circ X_!$ preserves the terminal object. By the [above proposition](PreservationOfTerminalObject) this means that $\mathcal{E}/X$ is also connected.
+
+=--
 
 
 ## Related concepts
