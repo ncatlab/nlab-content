@@ -1,3 +1,4 @@
+[[!redirects fpqc-site]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -63,7 +64,7 @@ The abbreviation "fpqc" is for _fid&#232;lement plat quasi-compacte_ : faithfull
 
 ## Related concepts
 
-* [[fppf-site]], [[fpqc-site]] [[étale site]]
+* [[fppf site]], [[étale site]]
 
 
 ## References
@@ -73,7 +74,6 @@ Chaper 27.8 in
 * [[Aise Johan de Jong]], _[[The Stacks Project]]_
 {#deJong}
 
-[[!redirects fpqc site]]
-
+[[!redirects fpqc-site]]
 [[!redirects fpqc topology]]
 [[!redirects fpqc-topology]]
