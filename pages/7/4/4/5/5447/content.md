@@ -1,3 +1,4 @@
+[[!redirects fppf-site]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -53,7 +54,7 @@ The abbreviation "fppf" is for _fid&#232;lement plat de pr&#233;sentation finie_
 
 ## Related concepts
 
-* [[fpqc-site]] [[étale site]]
+* [[fpqc site]] [[étale site]]
 
 
 ## References
@@ -63,7 +64,6 @@ Chaper 27.7 in
 * [[Aise Johan de Jong]], _[[The Stacks Project]]_
 {#deJong}
 
-[[!redirects fppf site]]
 
 [[!redirects fppf topology]]
 [[!redirects fppf-topology]]
