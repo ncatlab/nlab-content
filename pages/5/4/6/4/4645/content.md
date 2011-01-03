@@ -1046,7 +1046,7 @@ $$
 
 ## Parallel transport in low dimensions {#LowDimension}
 
-With a decent handle on principal $\infty$-bundles as described [above](#ModelForPrincipalInfinityBundle) we now turn to the description of [[connection on an ∞-bundle|connections on ∞-bundles]]. It will turn out that the above [[cocycle]]-description of $G$-principal $\infty$-bundles in terms of  [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \stackrel{g}{\to} \mathbf{B}G$ has, under mild conditions, a natural generalization where $\mathbf{B}G$ is replaced by a [[concrete sheaf|non-concrete]] [[∞-Lie groupoid]] $\mathbf{B}G_{conn}$ which we may think of as the [[∞-groupoid of ∞-Lie algebra valued forms]]. This comes with a canonical map $\mathbf{B}G_{conn} \to \mathbf{B}G$ and an $\infty$-connection $\nabla$ on the $\infty$-bundle classified by $g$ is simply a lift
+With a decent handle on principal $\infty$-bundles as described [above](#ModelForPrincipalInfinityBundle) we now turn to the description of [[connection on an ∞-bundle|connections on ∞-bundles]]. It will turn out that the above [[cocycle]]-description of $G$-principal $\infty$-bundles in terms of  [[∞-anafunctor]]s $X \stackrel{\simeq}{\leftarrow} \hat X \stackrel{g}{\to} \mathbf{B}G$ has, under mild conditions, a natural generalization where $\mathbf{B}G$ is replaced by a [[concrete sheaf|non-concrete]] [[∞-Lie groupoid]] $\mathbf{B}G_{conn}$ which we may think of as the [[∞-groupoid of ∞-Lie algebra valued forms]]. This comes with a canonical map $\mathbf{B}G_{conn} \to \mathbf{B}G$ and an $\infty$-connection $\nabla$ on the $\infty$-bundle classified by $g$ is simply a lift
 
 $$
   \array{
@@ -1069,10 +1069,9 @@ In the language of [[∞-stack]]s we may think of $\mathbf{B}G$ as the $\infty$-
 
 1. Why are these formulas what they are? What is the general abstract concept of an $\infty$-connection? What are its defining abstract properties?
 
-A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in an (∞,1)-topos]]. Here in this introduction we will not go into the full abstract theory, but using classical tools we get pretty close. What we describe is a generalization of the concept of [[parallel transport]] to [[higher parallel transport]]. As we shall see, this is naturally expressed in terms of [[∞-anafunctor]]s out of [[path n-groupoid]]s. This reflects how the full abstract theory arises in the context of an [[∞-connected (∞,1)-topos]] that comes canonically with a notion of [[schreiber:path ∞-groupoid]]s.
+A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in an (∞,1)-topos]]. Here in this introduction we will not go into the full abstract theory, but using classical tools we get pretty close. What we describe is a generalization of the concept of [[parallel transport]] to [[higher parallel transport]]. As we shall see, this is naturally expressed in terms of [[∞-anafunctor]]s out of [[path n-groupoid]]s. This reflects how the full abstract theory arises in the context of an [[∞-connected (∞,1)-topos]] that comes canonically with a notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]].
 
-
-Below we begin the discussion of $\infty$-connection by reviewing the classical theory of [[connection on a bundle]] in a way that will make its generalization to higher connections relatively straightforward:
+Below we begin the discussion of $\infty$-connections by reviewing the classical theory of [[connection on a bundle]] in a way that will make its generalization to higher connections relatively straightforward:
 
 * [Connections on principal bundles](#ConnectionOnPrincipalBundle).
 
@@ -1121,7 +1120,7 @@ $$
   \,.
 $$
 
-In order to formalize this, we introduce a ([[diffeological space|diffeological]]) [[Lie groupoid]] to be called the [[path groupoid]] of $X$. (Constructions and results in this section are from ([SWI](#SWI)).
+In order to formalize this, we introduce a ([[diffeological space|diffeological]]) [[Lie groupoid]] to be called the [[path groupoid]] of $X$. (Constructions and results in this section are from (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SWI">[SWI]</a>).
 
 +-- {: .un_prop}
 ###### Definition
@@ -1299,7 +1298,7 @@ There is an evident natural smooth functor $X \to \mathbf{P}_1(X)$ that includes
 +-- {: .un_def}
 ###### Defintion
 
-Let $P \to X$ be a $G$-[[principal bundle]] that corresponds to a cocycle $g : C(U) \to \mathbf{B}G$ under the construction discussed [above](#PrincipalBundles).  Then a **[[connection on a bundle|connection]]** $\nabla$ on $P$ is  a lift of the cocycle through $\mathbf{B}G_{conn} \to \mathbf{B}G$.
+Let $P \to X$ be a $G$-[[principal bundle]] that corresponds to a cocycle $g : C(U) \to \mathbf{B}G$ under the construction discussed [above](#PrincipalBundles).  Then a **[[connection on a bundle|connection]]** $\nabla$ on $P$ is  a lift $\nabla$ of the cocycle through $\mathbf{B}G_{conn} \to \mathbf{B}G$.
 
 $$
   \array{
@@ -1317,11 +1316,11 @@ $$
 +-- {: .un_lemma}
 ###### Observation
 
-This is equivalent to any of the [[connection on a bundle|standard definitions]].
+This is equivalent to the [[connection on a bundle|traditional definitions]].
 
 =--
 
-A morphism $C(U) \to \mathbf{B}G_{conn}$ is
+A morphism $\nabla : C(U) \to \mathbf{B}G_{conn}$ is
 
 * on each $U_i$ a 1-form $A_i \in \Omega^1(U_i, \mathfrak{g})$;
 
