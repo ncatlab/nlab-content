@@ -68,6 +68,12 @@ to the standard [[model structure on topological spaces]], where the [[left adjo
 
 See <a href="http://ncatlab.org/nlab/show/homotopy+hypothesis#ForKanComplexes">homotopy hypothesis -- for algebraic Kan complexes</a> for details.
 
+### Algebraicization
+
+If we assume the [[axiom of choice]], then any [[Kan complex]] can be made into an algebraic Kan complex by making a simultaneous choice of a filler for every horn.
+
+In the absence of AC, one might argue that algebraic Kan complexes are a better model of $\infty$-groupoids than non-algebraic ones.  For instance, an algebraic Kan complex always has the right lifting property with respect to all [[anodyne morphisms]], whereas for a non-algebraic Kan complex this fact requires choice.
+
 ## References
 
 * [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
