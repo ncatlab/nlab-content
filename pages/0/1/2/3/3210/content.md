@@ -4,12 +4,7 @@
 
 (The picture [shows](http://owpdb.mfo.de/detail?photo_id=7420) Vezzosi on the left and [[Bertrand Toen]] on the right during a research in pairs stay at [Oberwolfach](http://www.mfo.de/) in 2002).
 
-## related $n$Lab entries
+Together with [[Bertrand Toën]], Gabriele Vezosi has laid foundations of what is now called [[derived geometry]].
 
-* [[derived stack]]
-
-* [[quasicoherent ∞-stack]]
-
-* [[higher topos theory]]
 
 category: people
