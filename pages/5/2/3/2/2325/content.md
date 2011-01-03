@@ -91,6 +91,35 @@ This implies that an $n$-localic $(\infty,1)$-topos is also $(n+1)$-localic and 
 
 
 
+
+## Examples
+
++-- {: .un_prop}
+###### Proposition
+
+The [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] $C$ which is an [[(n,1)-category]] is $n$-localic.
+
+=--
+
+This is ([[Higher Topos Theory|HTT, lemma 6.4.5.6]]).
+
++-- {: .un_remark}
+###### Remark
+
+For $n = 0$ this implies the familiar statement from ordinary [[topos theory]]: a [[category of sheaves]] over a [[posite]]=[[(0,1)-site]] is a [[localic topos]] (= 0-localic $(1,1)$-topos).
+
+=--
+
+This is ([LurieStructured, lemma 2.3.16](#JurieStructured)).
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $n \in \mathbb{N}$ and $\mathcal{X}$ an $n$-localic $(\infty,1)$-topos, the [[over-(∞,1)-topos]] $\mathcal{X}/U$ is $n$-localic precisely if the object $U$ is $n$-[[truncated]].
+
+=--
+
 ## Properties
 
 +-- {: .un_prop}
@@ -123,31 +152,6 @@ This is ([LurieStructured, lemma 2.3.14](#JurieStructured)).
 
 
 
-## Examples
-
-+-- {: .un_prop}
-###### Proposition
-
-The [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] $C$ which is an [[(n,1)-category]] is $n$-localic.
-
-=--
-
-This is ([[Higher Topos Theory|HTT, lemma 6.4.5.6]]).
-
-+-- {: .un_remark}
-###### Remark
-
-For $n = 0$ this implies the familiar statement from ordinary [[topos theory]]: a [[category of sheaves]] over a [[posite]]=[[(0,1)-site]] is a [[localic topos]] (= 0-localic $(1,1)$-topos).
-
-=--
-
-
-+-- {: .un_prop}
-###### Proposition
-
-For $n \in \mathbb{N}$ and $\mathcal{X}$ an $n$-localic $(\infty,1)$-topos, the [[over-(∞,1)-topos]] $\mathcal{X}/U$ is $n$-localic precisely if the object $U$ is $n$-[[truncated]].
-
-=--
 
 ## References
 
