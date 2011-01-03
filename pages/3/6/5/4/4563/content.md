@@ -28,25 +28,61 @@ A [[geometric morphism]] $f\colon E\to F$ between [[topoi]] is **localic** if ev
 * If $g:C\to D$ is a [[faithful functor]] between [[small categories]], then the induced geometric morphism $Set^C \to Set^D$ is localic.
 
 
-## Remarks
+## Properties
 
-* A [[Grothendieck topos]] is a [[localic topos]] if and only if its unique [[global section]] geometric morphism to [[Set]] is a localic geometric morphism.  Thus, in general we regard a localic geometric morphism $E\to S$ as exhibiting $E$ as a "localic $S$-topos".
++-- {: .un_prop}
+###### Proposition
 
-* This is supported by the fact that for any base $S$, the [[2-category]] of localic $S$-toposes (i.e. the full sub-2-category 
+A [[Grothendieck topos]] is a [[localic topos]] if and only if its unique [[global section]] geometric morphism to [[Set]] is a localic geometric morphism.  
+
+=--
+
+Thus, in general we regard a localic geometric morphism $E\to S$ as exhibiting $E$ as a "localic $S$-topos".
+
+
+
+
+This is supported by the following fact. 
+
++-- {: .un_prop}
+###### Proposition
+
+
+For any base $S$, the [[2-category]] of localic $S$-toposes (i.e. the full sub-2-category 
 
   $$
     (Topos/S)_{loc} \subset Topos/S
   $$
 
-  of the [[over-category]] [[Topos]] over $S$ spanned by the localic morphisms into $S$) is equivalent to the 2-category of [[internalization|internal]] [[locales]] in $S$
+of the [[over-category]] [[Topos]] over $S$ spanned by the localic morphisms into $S$) is equivalent to the 2-category of [[internalization|internal]] [[locales]] in $S$
 
-  $$
-    Loc(S) \simeq (Topos/S)_{loc}
-  $$
+$$
+  Loc(S) \simeq (Topos/S)_{loc}
+$$
+
+Concretely, the internal locale in $\mathcal{E}$ defined by a localic geoemtric morphism $(f^* \dashv f_*) : \mathcal{F} \to \mathcal{E}$ is the formal dual to the [[direct image]] $f_*(\Omega_{\mathcal{F}})$ of the [[subobject classifier]] of $\mathcal{F}$, regarded as an internal poset (as described there).
+
+=--
+
+The last bit is lemma 1.2 in ([Johnstone](#Johnstone)).
 
 
-* Localic geometric morphisms are the right class of a 2-categorical [[orthogonal factorization system]] on the 2-category of topoi. The corresponding left class is the class of [[hyperconnected geometric morphism]]s.
++-- {: .un_prop}
+###### Proposition
 
+
+Localic geometric morphisms are the right class of a 2-categorical [[orthogonal factorization system]] on the 2-category of topoi. The corresponding left class is the class of [[hyperconnected geometric morphism]]s.
+
+
+=--
+
+This is the main statement in ([Johnstone](#Johnstone)).
+
+
+## References
+
+* [[Peter Johnstone]], _Factorization theorems for geometric morphisms_ Cahiers, 22, no1 (1981) ([numdam](http://www.numdam.org/item?id=CTGDC_1981__22_1_3_0))
+{#Johnstone}
 
 [[!redirects localic geometric morphism]]
 [[!redirects localic geometric morphisms]]
