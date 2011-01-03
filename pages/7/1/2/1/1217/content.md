@@ -71,3 +71,5 @@ __Definition 1.2.1__ A differentiable space $M$ is a set equipped with a family 
 * [Iterated path integrals](http://www.ams.org/mathscinet-getitem?mr=0454968), 1975
 * [On differentiable spaces](http://www.ams.org/mathscinet-getitem?mr=842915), 1986
 * [Convenient Categories of Smooth Spaces](http://arxiv.org/abs/0807.1704v1), 0807.1704
+
+[[!redirects Chen spaces]]
