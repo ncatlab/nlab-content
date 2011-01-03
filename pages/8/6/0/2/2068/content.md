@@ -33,3 +33,5 @@ Similarly a morphism is called
 * **right anodyne** if it has the left [[lifting property]] with respect to all [[right Kan fibration]]s
 
 * **inner anodyne** if it has the left [[lifting property]] with respect to all [[inner Kan fibration]]s
+
+[[!redirects anodyne morphisms]]
