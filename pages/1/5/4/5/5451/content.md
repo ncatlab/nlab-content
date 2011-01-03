@@ -60,7 +60,7 @@ $$
 In this form the definition originates in ([Segal](#Segal)).
 
 
-## Prperties
+## Properties
 
 Regard $X$ as an [[∞-Lie groupoid]] under the natural embedding $LieGrpd \hookrightarrow \infty LieGrpd$. By the discussion at [[?LieGrpd]] this is a [[locally ∞-connected (∞,1)-topos]], which means that its terminal [[geometric morphism]] comes with a further [[left adjoint]] $\Pi$
 
