@@ -88,20 +88,19 @@ $E$ and topology $j$, see the paper by Awodey and Birkedal in the references bel
 
 * If $C$ is a small category with a [[terminal object]], then the [[presheaf topos]] $[C^{op},Set]$ is local.  The converse is true if $C$ is [[Cauchy complete category|Cauchy complete]].
 
-### Sheaves on $CartSp$
+### Sheaves on a local site
 
-Let $E = Sh(CartSp)$ be the [[gros topos]] of [[sheaves]] on the [[site]] [[CartSp]] of [[Cartesian space]]s with the [[good open cover]] [[coverage]]. This is a local topos.
+For $C$ a [[local site]], the [[category of sheaves]] $Sh(C)$ is a local topos over $Set$.
 
+For instance [[CartSp]] is a local site. Objects in $Sh(C)$ are [[generalized smooth spaces]] such as [[diffeological space]]s.
 The further right adjoint
-is 
 
 $$
   Codisc : Set \to Sh(CartSp)
 $$
 
-the functor that sends a set to the [[diffeological space]] on that set with _codiscrete_ smooth structure (every map of sets is smooth). 
+is the functor that sends a set to the [[diffeological space]] on that set with _[[codiscrete space|codiscrete]]_ smooth structure (every map of sets is smooth). 
 
-(Thanks to [[David Carchedi]].)
 
 ### Relative Realizability
 
@@ -117,12 +116,114 @@ Let $LocTopos$ denote the 2-category of local [[Grothendieck toposes]] (over Set
 
 Note that if $E$ is a local topos with global sections geometric morphism $e^*\dashv e_*$, then the adjunction $e_*\dashv e^!$ is also a geometric morphism $Set\to E$.  In this way we have a functor $LocTopos \to PTopos$, which is a full embedding, and turns out to have a [[right adjoint]]: this right adjoint is called the **localization** of a pointed topos at its specified point.  For example:
 
-* If $C$ is a small category and $U$ is an object of $C$, then the localization of $[C^{op},Set]$ at the point induced by $U\colon 1\to C$ can be identified with $[(C/U)^{op},Set]$.
++-- {: .un_prop #LocalizationOfPresheafTopos}
+###### Proposition
 
-* If $X=Spec(A)$ is the [[Zariski spectrum]] of a [[commutative ring]] $A$, and $P\subset A$ is a prime ideal of $A$ (i.e. a point of $X$), then the localization of $Sh(X)$ at $P\colon 1\to X$ can be identified with $Sh(Spec(A_P))$, where $A_P$ denotes the [[localization]] of $A$ at $P$.  Of course, this is the origin of the terminology.
+If $C$ is a [[small category]] and $U$ is an object of $C$, then the localization of the [[presheaf topos]] $[C^{op},Set]$ at the point induced by $U\colon 1\to C$ can be identified with the [[presheaf topos]] $[(C/U)^{op},Set]$ over the [[over category]] of $C$ over $U$. By the general properties of [[over topos]]es, this is equivalently the over-topos $PSh(C)/U$ (where $U$ is regarded in $PSh(C)$ by the [[Yoneda embedding]]).
+
+=--
+
++-- {: .un_prop }
+###### Proposition
+
+
+If $X=Spec(A)$ is the [[Zariski spectrum]] of a [[commutative ring]] $A$, and $P\subset A$ is a prime ideal of $A$ (i.e. a point of $X$), then the localization of $Sh(X)$ at $P\colon 1\to X$ can be identified with $Sh(Spec(A_P))$, where $A_P$ denotes the [[localization]] of $A$ at $P$.  Of course, this is the origin of the terminology.
+
+=--
 
 A similar construction is possible for [[bounded geometric morphism|bounded]] toposes over any base (not just Set).
 
+
+### Local over-toposes {#LocalOverTopoes}
+
+
++-- {: .un_prop }
+###### Proposition
+
+For $\mathcal{E}$ a [[topos]] and $X \in \mathcal{E}$ an object, the [[over topos]] $\mathcal{E}/X$ is local if $X$ is a [[tiny object]]. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check that the [[global section]] [[geometric morphism]] $\Gamma : \mathcal{E}/X \to Set$ preserves [[colimit]]s. It is given by the [[hom-functor]] out of the [[terminal object]] of $\mathcal{E}/X$, which is $(X \stackrel{Id}{\to} X)$:
+
+$$
+  \Gamma : (A \stackrel{f}{\to} X) \mapsto Hom_{\mathcal{E}/X}(Id_X, f)
+  \,.
+$$
+
+The [[hom-set]]s in the [[over category]] are [[fiber]]s of the hom-sets in $\mathcal{E}$: we have a [[pullback]] diagram
+
+$$
+  \array{
+      Hom_{\mathcal{E}/X}(Id_X, (A \to X)) &\to&
+       Hom_{\mathcal{E}}(X,A)
+      \\
+      \downarrow && \downarrow^{f_*}
+      \\
+      * &\stackrel{Id_x}{\to}& Hom_{\mathcal{E}}(X,X)
+  }
+  \,.
+$$
+
+Moreover, overserve that [[colimit]]s in the [[over category]] are computed in $\mathcal{E}$.
+
+$$
+  {\lim_{\to}}_i (A_i \stackrel{f_i}{\to} X)
+  \simeq
+  ({\lim_\to}_i A_i) \to X
+  \,.
+$$
+
+If $X$ is a [[tiny object]] then by definition we have
+
+$$
+  Hom_{\mathcal{E}}(X, {\lim}_i A_i)
+  \simeq
+  {\lim_\to}_i Hom_{\mathcal{E}}(X, A_i)
+  \,,
+$$
+
+Inserting all this into the above pullback gives the pullback
+
+$$
+  \array{
+      Hom_{\mathcal{E}/X}(Id_X, {\lim_\to}_i (A_i \to X)) &\to&
+       {\lim_\to}_i Hom_{\mathcal{E}}(X, A_i)
+      \\
+      \downarrow && \downarrow^{f_*}
+      \\
+      * &\stackrel{Id_x}{\to}& Hom_{\mathcal{E}}(X,X)
+  }
+  \,.
+$$
+
+By [[universal colimits]] in the topos [[Set]], this pullback of a colimit is the colimit of the separate pullbacks, so that
+
+$$
+  \Gamma({\lim_\to}_i (A_i \to X)))
+  \simeq
+  Hom_{\mathcal{E}/X}(Id_X, {\lim_\to}_i (A_i \to X))
+   \simeq
+  {\lim_\to}_i Hom_{\mathcal{E}/X}(Id_X,(A_i \to X))
+  \simeq
+  {\lim_\to}_i \Gamma(A_i \to X)
+  \,.
+$$
+
+So $\Gamma$ does commute with colimits if $X$ is tiny. By the [[adjoint functor theorem]] then the [[right adjoint]] $\nabla : Set \to \mathcal{E}/X$ does exist and so $\mathcal{E}/X$ is a local topos.
+
+=--
+
+
++-- {: .un_remark }
+###### Remark
+
+As a special case this reproduces the [above statement](#LocalizationOfPresheafTopos) that slices $PSh(C)/j(U)&#167; of presheaf toposes over objects in the image of the [[Yoneda embedding]] are local: every [[representable functor]] is [[tiny object|tiny]] (see there).
+
+=--
 
 ## Related concepts
 
@@ -144,7 +245,9 @@ A similar construction is possible for [[bounded geometric morphism|bounded]] to
 * [[Peter Johnstone]], [[Ieke Moerdijk]], _Local maps of toposes_  Proc. London Math. Soc.  (1989)   s3-58  (2):  281-305.  ([pdf](http://plms.oxfordjournals.org/content/s3-58/2/281.full.pdf+html))
 
 
-* [[Peter Johnstone]], _[[Elephant]]_ Chapter C3.6
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ Chapter C3.6
+{#Johnstone}
+
 
 * [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_ Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
 This is based on part 2 of
