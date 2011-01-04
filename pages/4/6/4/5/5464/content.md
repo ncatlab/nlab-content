@@ -77,13 +77,20 @@ Grothendieck toposes are [[categories of sheaves]]. Elementary toposes are sligh
 Section 3, and appear fleetingly elsewhere; but if you only want
 to learn about categories of sheaves, this is probably not the text for you.
 
-**Acknowledgements** (...)
+**Acknowledgements** I thank Andrei Akhvlediani, Eugenia Cheng,
+Richard Garner, Nick Gurski, Ignacio Lopez Franco and Emily Riehl for their
+participation and encouragement.  Aspects of [Section 3](#ToposesAndGeometry) draw
+on a vaguely similar presentation of vaguely similar material by Richard
+Garner.  I thank the organizers of Category Theory 2010 for making the talks
+possible, even though they did not mean to: Francesca Cagliari, Eugenio
+Moggi, Marco Grandis, Sandra Mantovani, Pino Rosolini, and Bob Walters.  The
+commutative diagrams were made using Paul Taylor's macros.
 
 ## **1.)** The  definition of topos {#TheDefinitionOfTopos}
 
 The hardest part of the definition of [[topos]] is the concept of [[subobject classifier]], so I will begin there.
 
-In the [[Set|category of sets]], inverse images are a special case of [[pullback]]s. That is, given a [[function|map]] $f \colon X \to Y$ of [[set]]s and a [[subset]] $B \sub Y$, we have a
+In the [[Set|category of sets]], inverse images are a special case of [[pullback]]s. That is, given a [[function|map]] $f \colon X \to Y$ of [[set]]s and a [[subset]] $B \subseteq Y$, we have a
 [[pullback]] [[diagram|square]]
 
 $$
@@ -96,6 +103,57 @@ $$
   }
   \,.
 $$
+In particular, this holds when $B$ is a 1-element subset $\{y\}$ of $Y$:
+$$
+  \array{
+f^{-1}\{y\}         &\to   &\{y\}  
+\\
+\downarrow                  &&\downarrow
+ \\
+X &\stackrel{f}{\to} &Y  }
+  \,.
+$$
+There is no virtue in distinguishing between one-element sets, so we might as
+well write $1$ instead of $\{y\}$; then the inclusion $\{y\} \hookrightarrow Y$ becomes
+the map $1 \to Y$ picking out $y \in Y$, and we have a pullback square
+\[
+\begin{diagram}
+f^{-1}\{y\}       &\stackrel{!}{\to} &1      
+\\
+\downarrow                  &       &\downarrow y \\
+X                       &\stackrel{f}{\to} &Y}
+  \,.
+$$
+
+Next consider characteristic functions of subsets.  Fix a two-element set $2 =
+\{`t', `f'}$ (_true_ and _false_).  Then for any set $X$, the subsets of $X$
+are in bijective correspondence with the functions $X \to 2$.  In one
+direction, given a subset $A \subseteq X$, the corresponding function $\chi_A\colon X
+\to 2$ is defined by
+\[
+\chi_A(x)
+=
+\begin{cases}
+\tr     &\text{if } x \in A     \\
+\fa     &\text{if } x \not\in A
+\end{cases}
+\]
+($x \in X$).  In the other, given a function $\chi\colon X \to 2$, the
+corresponding subset of $X$ is $\chi^{-1}\{$`t'$}$.  To say that this latter
+process $\chi \mapsto \chi^{-1}\{$`t'$\}$ is a bijection is to say that for all
+$A \subseteq X$, there is a unique function $\chi\colon X \to 2$ such that $A =
+\chi^{-1}\{$`t'$}$.  In other words: for all $A \subseteq X$, there is a unique
+function $\chi\colon X \to 2$ such that
+\[
+\begin{diagram}
+A       \stackrel{!}{\to} &1
+\\
+\downarrow  &               &\downarrow {\tt t}
+\\
+X       &\stackrel{\chi}{\to}      &2}
+  \,.
+$$
+is a pullback square.
 
 (...)
 
