@@ -10,6 +10,10 @@ $$
 \phi(X) \implies (\exists Y)(\phi(Y) \wedge (X\in Y)) 
 $$
 
+## Examples and properties
+
+The G&#246;del's [[constructible universe]] is a transitive big class. 
+
 [[!redirects big set]]
 [[!redirects big classes]]
 [[!redirects big sets]]
