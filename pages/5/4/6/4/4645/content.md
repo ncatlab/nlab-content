@@ -615,6 +615,7 @@ For detailed illustration of what $\mathbf{E}G$ looks like for $G$ a [[2-group]]
 
 ### Circle $n$-bundles and bundle $(n-1)$-gerbes
 
+
 Let $g : C(U) \to \mathbf{B}^2 U(1)$ be a Cech cocycle as [above](#Cech2Cocycles). By the discussion of [universal n-bundles](#UniversalnBundle) we find the corresponding total space object as the [[pullback]] 
 
 $$
@@ -2091,17 +2092,11 @@ is equivalent to disjoint union of groupoids of $U(1)$-bundles with connection w
 
 ### Circle $n$-bundles with connection {#CirclenBundles}
 
-For $A$ an [[abelian group]] there is a straightforward generalization of the above constructions to $(G = \mathbf{B}^{n-1}A)$-principal $n$-bundles with connection. We spell out the ingredients of the construction in a way analogous to the above discussion. A first-principles derivation of the objects we consider here is at [[circle n-bundle with connection]].
 
-Specifically we consider the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle n-group</a> $G = \mathbf{B}^{n-1}U(1)$. We may make use of the [[Dold-Kan correspondence]] for handling this:
- 
-this correspondence is an [[equivalence of categories]]
+For $A$ an [[abelian group]] there is a straightforward generalization of the above constructions to $(G = \mathbf{B}^{n-1}A)$-principal $n$-bundles with connection for all $n \in \mathbb{N}$. We spell out the ingredients of the construction in a way analogous to the above discussion. A first-principles derivation of the objects we consider here is at [[circle n-bundle with connection]].
+This is  content that appeared partly in (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>, <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#FSSIII">FSS</a>).
 
-$$
-  Ch_\bullet+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Xi}{\to}} sAb
-$$
-
-that identifies abelian [[simplicial group]]s with non-negatively graded [[chain complex]]es. Since this is functorial, it also identifies chain complexes of (presheaves) of abelian groups with simplicial presheaves that take values in simplicial groups.
+Specifically we consider the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle n-group</a> $G = \mathbf{B}^{n-1}U(1)$. As before we use of the [[Dold-Kan correspondence]] to identify sheaves of complexes with certain simplicial presheaves.
 
 Using this, we can write $\mathbf{B}^n U(1) \in [CartSp^{op}, sSet]$ for all $n \in \mathbb{N}$ simply as
 
@@ -2137,7 +2132,7 @@ $$
   }
 $$
 
-are in natural bijection to functions
+are in natural bijection to tuples of [[nLab:smooth function]]s
 
 $$
   g_{i_0 \cdots i_n} : U_{i_0} \cap \cdots \cap U_{i_n} \to \mathbb{R}/\mathbb{Z}
@@ -2167,7 +2162,7 @@ $$
   }
 $$
 
-are in natural bijection to functions
+are in natural bijection to tuples of [[nLab:smooth function]]s
 
 $$
   \lambda_{i_0 \cdots i_{n-1}} : U_{i_0} \cap \cdots \cap U_{i_{n-1}} \to \mathbb{R}/\mathbb{Z}
@@ -2184,13 +2179,13 @@ $$
   \,,
 $$
 
-that is, to Cech coboundaries.
+that is, to &Ccaron;ech coboundaries.
 
 
 =--
 
 The $\infty$-bundle $P \to X$ classified by such a cocycle we may call a 
-[[circle n-bundle]]. For $n = 1$ this reproduces the $U(1)$-[[principal bundle]]s that we considered before, for $n =2 $ the [[bundle gerbe]]s and for $n=3$ the [[bundle 2-gerbe]]s.
+[[circle n-bundle]]. For $n = 1$ this reproduces the ordinary $U(1)$-[[principal bundle]]s that we considered before, for $n =2 $ the [[bundle gerbe]]s and for $n=3$ the [[bundle 2-gerbe]]s.
 
 To equip these circle $n$-bundles with connections, we consider the differential refinements $\mathbf{B}^n U(1)_{diff}$, $\mathbf{B}^n U(1)_{conn}$ and $\mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
 
@@ -2200,7 +2195,7 @@ To equip these circle $n$-bundles with connections, we consider the differential
 Write
 
 $$
-  \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)_{chn} = 
+  \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)_{chn} := 
   \Xi\left(
     \Omega^1(-) \stackrel{d_{dR}}{\to}
     \Omega^2(-) \stackrel{d_{dR}}{\to}
@@ -2262,8 +2257,9 @@ $$
     \cdots
     \stackrel{d_{dR}}{\to} \Omega^n(-)
   \right)
-  \,.
 $$
+
+-- the [[nLab:Deligne cohomology|Deligne complex]].
 
 =--
 
@@ -2321,7 +2317,7 @@ $$
 
 etc. This is a cocycle in [[Cech cohomology|Cech]]-[[Deligne cohomology]]. We may think of this as encoding a [[circle n-bundle with connection]]. The forms $(C_i)$ are the local connection $n$-forms.
 
-Connections on $G$-principal $\infty$-bundles for nonabelian $G$ do not have quite such a simple description. Therefore it makes sense to _approximate_ every $G$-cocylce $X \stackrel{\simeq}{\leftarrow} C(U) \to \mathbf{B}G$ by abelian cocycle by postcomposing with all possible [[characteristic class]]es $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \hat \mathbf{B}G\to \mathbf{B}^n U(1)$ to extract a circle $n$-bundle from it. This is what we turn to now.
+Connections on $G$-principal $\infty$-bundles for nonabelian $G$ do not have quite such a simple description. Therefore it makes sense to _approximate_ every $G$-cocylce $X \stackrel{\simeq}{\leftarrow} C(U) \to \mathbf{B}G$ by abelian cocycles by postcomposing with all possible [[characteristic class]]es $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \hat \mathbf{B}G\to \mathbf{B}^n U(1)$ to extract a circle $n$-bundle from it. This is what we turn to now.
 
 
 ## $\infty$-Lie algebra valued connections {#LieConnections}
