@@ -2730,7 +2730,8 @@ On the other hand, there is in the above no further constraint on $A_U$. Accordi
 +-- {: .un_remark}
 ###### Remark
 
-We see below that it is not a coincidence that this is reminiscent to the first condition on an [[Ehresmann connection]] on a $G$-principal bundle, which asserts that restricted to the fibers a connection 1-form on the total space of the bundle has to be flat. Indeed, the presheaf $\mathbf{B}G_{diff}$ may be thought of as the $(\infty,1)$-sheaf of pseudo-connections on _trivial_ $\infty$-bundles. Imposing on this also the second Ehresmann condition will force the pseudo-connection to be a genuine connection.
+We see below that it is not a coincidence that this is reminiscent 
+to the first condition on an [[Ehresmann connection]] on a $G$-principal bundle, which asserts that restricted to the fibers a connection 1-form on the total space of the bundle has to be flat. Indeed, the simplicial presheaf $\mathbf{B}G_{diff}$ may be thought of as the $(\infty,1)$-sheaf of pseudo-connections on _trivial_ $\infty$-bundles. Imposing on this also the second Ehresmann condition will force the pseudo-connection to be a genuine connection.
 
 =--
 
@@ -2754,7 +2755,7 @@ and defining $\exp(\mu)_{diff} : \exp(\mathfrak{g})_{diff} \to \exp(b^{n-1}\math
 Here $W(b^{n-1}\mathbb{R})$ is the Weil algebra of the 
 [[infinity-Lie-algebra|Lie n-algebra]] $b^{n-1} \mathbb{R}$. This is the dg-algebra on two generators $c$ and $k$, respectively, in degree $n$ and $(n+1)$ with the differential given by $d_{W(b^{n-1} \mathbb{R})} : c \mapsto k$.
 
-The commutativity of this diagram says that the bottom morphism takes the degree $n$-generator $c$ to an element $cs \in W(\mathfrak{g})$ whose restriction to the unshifted generators is the given cocycle $\mu$. 
+The commutativity of this diagram says that the bottom morphism takes the degree-$n$ generator $c$ to an element $cs \in W(\mathfrak{g})$ whose restriction to the unshifted generators is the given cocycle $\mu$. 
 
 
 As we shall see below, any such choice $cs$ will extend the characteristic cocycle obtained from $\exp(\mu)$ to a characteristic differential cocycle, exhibiting the $\infty$-Chern-Weil homomorphism. But only for special nice choices of $cs$ will this take genuine $\infty$-connections to genuine $\infty$-connections -- instead of to [[pseudo-connection]]s. As we discuss in the full [[∞-Chern-Weil theory]], this makes no difference in cohomology. But in practice it is useful to fine-tune the construction such as to produce nice models of the $\infty$-Chern-Weil homomorphism given by genuine $\infty$-connections. 
@@ -2792,7 +2793,7 @@ $$
 $$ 
 
 
-for all choice of indices. This is the component-version of the familiar invariance statement 
+for all choices of indices. This is the component-version of the familiar invariance statement 
 
 $$
   \sum_i P(t_1, \cdots, t_{i-1}, [t_c, t_i], t_{i+1}, \cdots , t_k)
@@ -2885,7 +2886,7 @@ To appreciate the construction so far, recall the
 +-- {: .un_prop}
 ###### Classical fact
 
-For $G$ a [[compact space|compact]] [[Lie group]], the [[rationalization]] $\mathcal{B}G \otimes \mathbb{R}$ of the [[classifying space]] $\mathcal{B}G$ is the [[nLab:rational space]] whose [[Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[invariant polynomial]]s on the [[nLab:Lie algebra]] $\mathfrak{g}$.
+For $G$ a [[compact space|compact]] [[Lie group]], the [[rationalization]] $\mathcal{B}G \otimes k$ of the [[classifying space]] $\mathcal{B}G$ is the [[nLab:rational space]] whose [[Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[invariant polynomial]]s on the [[nLab:Lie algebra]] $\mathfrak{g}$.
 
 =--
 
@@ -2893,14 +2894,14 @@ So we have obtained the following picture:
 
 $$
   \array{
-    delooped\; \infty group
+    delooped\; \infty-group
     &&&
     \mathbf{B}G && \mathfrak{g} && 
     CE(\mathfrak{g}) &&& Chevalley-Eilenberg\;algebra
     \\
     &&& \downarrow && \downarrow && \uparrow 
     \\
-    delooped\;groupal\;universal\;\infty bundle
+    delooped\;groupal\;universal\;\infty-bundle
     &&&
     \mathbf{B E}G && 
      inn(\mathfrak{g}) 
@@ -2972,13 +2973,13 @@ $$
   \Omega^\bullet(X) \stackrel{A}{\leftarrow}
   W(\mathfrak{g})
   \stackrel{F_{(-)}}{\leftarrow}
-  \wedge^1 \mathfrak{g}^*
+  \mathfrak{g}^*[1]
   : 
   F_{A}
   \,.
 $$
 
-Precisely if the curvatures vanish does the morphism factor through the [[Chevalley-Eilenberg algebra]] $W(\mathfrak{g}) \to CE(\mathfrak{g})$.
+Precisely if the curvatures vanish does the morphism factor through the [[Chevalley-Eilenberg algebra]] 
 
 $$
   (F_A = 0) 
