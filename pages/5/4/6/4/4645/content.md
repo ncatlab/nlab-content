@@ -1831,7 +1831,7 @@ $$
        & {}^{\mathllap{Id}}\nearrow 
           & \Downarrow^{\mathrlap{k}}& \searrow^{\mathrlap{Id}}
        \\
-      \bullet &&\stackrel{Id}{\to}&&
+      \bullet &&\stackrel{Id}{\to}&& \bullet
     }
   \right\}
   \,.
@@ -1950,7 +1950,7 @@ $$
 +-- {: .un_lemma}
 ###### Corollary
 
-Equivalence class of [[infinity-anafunctor|2-anafunctor]]s
+Equivalence classes of [[infinity-anafunctor|2-anafunctor]]s
 
 $$
   X \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)
@@ -1975,7 +1975,8 @@ This simple technical point turns out to play a crucial role in the abstract def
 +-- {: .un_lemma}
 ###### Observation
 
-There is a canonical [[infinity-anafunctor|2-anafunctor]] $c_1^{dR} : \mathbf{B}U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^2 U(1)$
+There is a canonical [[infinity-anafunctor|2-anafunctor]] 
+$\hat {\mathbf{c}}_1^{dR} : \mathbf{B}U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^2 U(1)$
 
 $$
   \array{
@@ -2005,7 +2006,7 @@ $$
     \\
     \downarrow && \downarrow 
     \\
-    \mathbf{\Pi}(U) &\to& \mathbf{B}INN(U) &&& connection
+    \mathbf{\Pi}_2(U) &\to& \mathbf{B}INN(U) &&& connection
     \\
     \downarrow &&  \downarrow
     \\
@@ -2014,7 +2015,7 @@ $$
   \,.
 $$
 
-The top morphisms are the components of the presheaf $\mathbf{B}U(1)$. The top square are those of $\mathbf{B}U(1)_{diff}$. Forming the bottom square is forming the bottom morphism, which necessarily satifies the constraint that makes it a components of $\mathbf{\flat}\mathbf{B}^2 U(1)$. 
+The top morphisms are the components of the presheaf $\mathbf{B}U(1)$. The top squares are those of $\mathbf{B}U(1)_{diff}$. Forming the bottom square is forming the bottom morphism, which necessarily satifies the constraint that makes it a components of $\mathbf{\flat}\mathbf{B}^2 U(1)$. 
 
 The interpretation of the stages is as indicated in the diagram:
 
@@ -2024,14 +2025,14 @@ The interpretation of the stages is as indicated in the diagram:
 
 1. the bottom morphism picks up the curvature of this connection.
 
-We will see that full $\infty$-Chern-Weil theory is governed by a slight refinement of presheaves of essentially this kind of diagram. We will also see that the three stage process here is really an incarnation of the computation of a [[connecting homomorphism]], reflecting the fact that behind the scenes the notion of _curvature_ is exhibited as the [[twisted cohomology|obstruction cocycle]] to lifts from bare bundles toflat bundles.
+We will see that full $\infty$-Chern-Weil theory is governed by a slight refinement of presheaves of essentially this kind of diagram. We will also see that the three stage process here is really an incarnation of the computation of a [[connecting homomorphism]], reflecting the fact that behind the scenes the notion of _curvature_ is exhibited as the [[twisted cohomology|obstruction cocycle]] to lifts from bare bundles to flat bundles.
 
 =--
 
 +-- {: .un_remark}
 ###### Observation
 
-For $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}U(1)$ the cocycle for a $U(1)$-principal bundle as described above, the composition of [[infinity-anafunctor|2-anafunctor]]s of $g$ with $c_1^{dR}$ yields a cocycle for a 2-form $c_1^{dR}(g)$
+For $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}U(1)$ the cocycle for a $U(1)$-principal bundle as described above, the composition of [[infinity-anafunctor|2-anafunctor]]s of $g$ with $\hat {\mathbf{c}}_1^{dR}$ yields a cocycle for a 2-form $\hat {\mathbf{c}}_1^{dR}(g)$
 
 $$
   \array{
@@ -2039,11 +2040,11 @@ $$
     \\
     & {}^{\mathrlap{\nabla}}\nearrow & \downarrow
     \\
-    C(V) &\stackrel{}{\to}& \mathbf{B}^2 U(1)_{diff} &\to& \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)
+    C(V) &\stackrel{}{\to}& \mathbf{B} U(1)_{diff} &\to& \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)
     \\
-    \downarrow && \downarrow
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
     \\
-    C(U) &\to& \mathbf{B}U(1)
+    C(U) &\stackrel{g}{\to}& \mathbf{B}U(1)
     \\
     \downarrow^{\mathrlap{\simeq}} 
     \\
@@ -2065,11 +2066,11 @@ For $X,A$ smooth 2-groupoids, write $\mathbf{H}(X,A)$ for the 2-groupoid of 2-an
 +-- {: .un_remark}
 ###### Corollary
 
-Let $H_{dR}^2(X) \to \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}^2 U(1))$ be a choice of one closed 2-form representative for each degree 2 [[de Rham cohomology]]-class of $X$. Then the [[pullback]] groupoid $\mathbf{H}_{diff}(X,\mathbf{B}U(1))$ in 
+Let $H_{dR}^2(X) \to \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}^2 U(1))$ be a choice of one closed 2-form representative for each degree-2 [[de Rham cohomology]]-class of $X$. Then the [[pullback]] groupoid $\mathbf{H}_{conn}(X,\mathbf{B}U(1))$ in 
 
 $$
   \array{
-    \mathbf{H}(X,\mathbf{B}U(1)) &\to& H_{dR}^2(X)
+    \mathbf{H}_{conn}(X,\mathbf{B}U(1)) &\to& H_{dR}^2(X)
     \\
     \downarrow && \downarrow
     \\
