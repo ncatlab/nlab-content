@@ -1665,7 +1665,7 @@ Throughout this section $G$ is a [[Lie group]], $\mathbf{B}G$ its [[delooping]] 
 +-- {: .un_remark}
 ###### Definition
 
-Define the (generalized) smooth groupoid $\mathbf{B}G_{diff} \in [CartSp^{op}, Grpd]$ as the [[pullback]]
+Define the smooth groupoid $\mathbf{B}G_{diff} \in [CartSp^{op}, Grpd]$ as the [[pullback]]
 
 $$
   \mathbf{B}G_{diff} = \mathbf{B}G \times_{\mathbf{B}INN(G)} \mathbf{\flat} \mathbf{B}INN(G)
@@ -1718,7 +1718,7 @@ By the above theorems, we have over any $U \in $ [[CartSp]] that
   
   Notice that this can always be uniquely solved for $a$, so that the genuine information in this morphism is just the data given by $g$. 
 
-* thet are _no_ nontrivial [[2-morphism]]s, even though $\mathbf{B}INN(G)$ is a 2-groupoid: since $\mathbf{B}G$ is just a 1-groupoid this is enforced by the commutativity of the above diagram.
+* there are _no_ nontrivial [[2-morphism]]s, even though $\mathbf{B}INN(G)$ is a 2-groupoid: since $\mathbf{B}G$ is just a 1-groupoid this is enforced by the commutativity of the above diagram.
 
 =--
 
@@ -1731,7 +1731,7 @@ The projection $\mathbf{B}G_{diff} \stackrel{\simeq}{\to} \mathbf{B}G$ is a weak
 
 =--
 
-So $\mathbf{B}G_{diff}$ is a [[resolution]] of $\mathbf{B}G$. We will see that it is the resoluton that supports [[∞-anafunctor|2-anafunctor]]s out of $\mathbf{B}G$ that represent [[curvature characteristic class]]es.
+So $\mathbf{B}G_{diff}$ is a [[resolution]] of $\mathbf{B}G$. We will see that it is the resoluton that supports [[∞-anafunctor|2-anafunctor]]s out of $\mathbf{B}G$ which represent [[curvature characteristic class]]es.
 
 
 +-- {: .un_def}
@@ -1761,12 +1761,10 @@ $$
   \,.
 $$
 
-This inclusion plays a central role in the theory. The crucial point is that while $\mathbf{B}G_{diff}$ is such a boring extenion of $\mathbf{B}G$ that it is actually equivalent to $\mathbf{B}G$, there is no inclusion of $\mathbf{B}G_{conn}$ into $\mathbf{B}G$, but there is into $\mathbf{B}G_{diff}$. This is the kind of situation that [[resolution]]s are needed for.
+This inclusion plays a central role in the theory. The point is that while $\mathbf{B}G_{diff}$ is such a boring extenion of $\mathbf{B}G$ that it is actually equivalent to $\mathbf{B}G$, there is no inclusion of $\mathbf{B}G_{conn}$ into $\mathbf{B}G$, but there is into $\mathbf{B}G_{diff}$. This is the kind of situation that [[resolution]]s are needed for.
 
 
-#### Of $U(1)$-principal bundles {#U1BundCurvatureCharacteristics}
-
-Before further considering $\mathbf{B}G_{diff}$ for general $G$, it is useful to look at some details for the case that $G$ is an [[abelian group]] such as the [[circle group]] $U(1)$.
+It is useful to look at some details for the case that $G$ is an [[abelian group]] such as the [[circle group]] $U(1)$.
 
 In this abelian case the 2-groupoids $\mathbf{B}U(1)$, $\mathbf{B}^2 U(1)$, $\mathbf{B}INN(U(1))$, etc., that so far we noticed are given by [[crossed complex]]es are actually given by ordinary [[chain complex]]es: we write 
 
@@ -1813,35 +1811,29 @@ $$
 On the level of 2-groupoids this is the map that forgets the labels on the 1-morphisms
 
 $$
-  \left(
+  \left\{
     \array{
-      && \bullet
-      \\
-      & {}^{\mathllap{c_1}}\nearrow 
-      & \Downarrow^{\mathrlap{k}}
-      & \searrow^{\mathrlap{c_2}}
-      \\
-      \bullet
-      &&\underset{c_3 = c_1 c_2 k}{\to}&&
-      \bullet
+        && \bullet
+       \\
+       & {}^{\mathllap{g_1}}\nearrow 
+          & \Downarrow^{\mathrlap{k}}& \searrow^{\mathrlap{g_2}}
+       \\
+      \bullet &&\stackrel{k g_2 g_1}{\to}&&
     }
-  \right)
+  \right\}
   \;\;
   \mapsto
   \;\;
-    \left(
+  \left\{
     \array{
-      && \bullet
-      \\
-      & {}^{\mathllap{Id}}\nearrow 
-      & \Downarrow^{\mathrlap{k}}
-      & \searrow^{\mathrlap{Id}}
-      \\
-      \bullet
-      &&\underset{Id}{\to}&&
-      \bullet
+        && \bullet
+       \\
+       & {}^{\mathllap{Id}}\nearrow 
+          & \Downarrow^{\mathrlap{k}}& \searrow^{\mathrlap{Id}}
+       \\
+      \bullet &&\stackrel{Id}{\to}&&
     }
-  \right)
+  \right\}
   \,.
 $$
 
@@ -1861,7 +1853,7 @@ $$
   \,.
 $$
 
-This happens to be an [[exact sequence]] of [[2-groupoid]]s. Abstractly, what really matters is rather that it is a [[fiber sequence]], meaning that it is exact in the correct sense inside the [[(∞,1)-category]] [[?LieGrpd]]. For our purposes it is however relevant that this particular model is exact in the ordinary sense in that we have a commuting diagram
+This happens to be an [[exact sequence]] of [[2-groupoid]]s. Abstractly, what really matters is rather that it is a [[fiber sequence]], meaning that it is exact in the correct sense inside the [[(∞,1)-category]] [[?LieGrpd]]. For our purposes it is however relevant that this particular model is also exact in the ordinary sense in that we have a commuting diagram
 
 $$
   \array{
@@ -1875,7 +1867,7 @@ $$
 
 which is a [[pullback]] diagram, exhibitng $\mathbf{B}U(1)$ as the [[kernel]] of $\mathbf{B}INN(U(1)) \to \mathbf{B}^2 U(1)$.
 
-We shall be interested in the [[pasting]] composite of this diagram with the one definition $\mathbf{B}G_{diff}$ over a domain $U$:
+We shall be interested in the [[pasting]] composite of this diagram with the one defining $\mathbf{B}G_{diff}$ over a domain $U$:
 
 $$
   \array{
@@ -1884,7 +1876,7 @@ $$
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    \mathbf{\Pi}(U) &\to& \mathbf{B}INN(U(1)) &\to& \mathbf{B}^2 U(1)
+    \mathbf{\Pi}_2(U) &\to& \mathbf{B}INN(U(1)) &\to& \mathbf{B}^2 U(1)
   }
   \,,
 $$
@@ -1897,7 +1889,7 @@ The total outer diagram appearing this way is a component of the following (gene
 Set
 
 $$
-  \mathbf{\flat}_{dR} \mathbf{B}^2U(1) = 
+  \mathbf{\flat}_{dR} \mathbf{B}^2U(1)  := 
   * \times_{\mathbf{B}^2 U(1)} \mathbf{\flat} \mathbf{B}^2 U(1)
   \,.
 $$
@@ -1913,16 +1905,30 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{\Pi}(U) &\to& \mathbf{B}^2 U(1)
+    \mathbf{\Pi}_2(U) &\to& \mathbf{B}^2 U(1)
   }
   \,.
 $$
 
 This are equivalently just morphisms $\mathbf{\Pi}_2(U) \to \mathbf{B}^2 U(1)$, which by the above theorems we may identify with closed 2-forms $B \in \Omega^2_{cl}(U)$.
 
-The morphisms $B_1 \to B_2$ in $\mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ over $U$ are compatible [[pseudonatural transformation]]s of the horizontal morphisms, which means that they are pseudonatural transformations of the bottom morphism whose components over the points of $U$ vanish. These identify with 1-forms $\lambda \in \Omega^1(U)$ such that  $B_2 = B_1 + d_{dR} \lambda$.
+The morphisms $B_1 \to B_2$ in $\mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ over $U$ are compatible [[pseudonatural transformation]]s of the horizontal morphisms
 
-Finally the 2-morphisms would be [[modification]]s of these, but the commutativity of the above diagram constrais these to be trivial.
+$$
+  \array{
+    U &{{\nearrow \searrow} \atop {\to}}& {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}_2(U) &{{\nearrow \searrow} \atop {\to}}& 
+    \mathbf{B} INN(G)
+  }
+  \,,
+$$
+
+which means that they are pseudonatural transformations of the bottom morphism whose components over the points of $U$ vanish. These identify with 1-forms $\lambda \in \Omega^1(U)$ such that  $B_2 = B_1 + d_{dR} \lambda$.
+
+Finally the 2-morphisms would be [[modification]]s of these, but the commutativity of the above diagram constrains these to be trivial.
 
 
 In summary this shows that
