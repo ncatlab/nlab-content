@@ -171,13 +171,12 @@ For various applications one uses toposes that have [[stuff, structure, property
 
 ## References {#References}
 
-For an introduction, try:
-
-* [[John Baez]], [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
-
-Another survey is in
+Introductions include 
 
 * [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
+
+* [[Tom Leinster]], _[[Leinster2010|An informal introduction to topos theory]]_ (2010)
+
 
 A standard textbook is
 
