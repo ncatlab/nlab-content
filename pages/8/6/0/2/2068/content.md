@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 A [[morphism]] $f : A \to B$ of [[simplicial set]]s is called **anodyne** if it has the left [[lifting property]] with respect to all [[Kan fibration]]s.
 
 So $f$ is anodyne if for every [[Kan fibration]] $X \to Y$ and every commuting diagram
