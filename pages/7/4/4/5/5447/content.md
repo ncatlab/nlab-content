@@ -48,7 +48,9 @@ This appears as ([de Jong, def. 27.7.1, def 27.7.6, lemma 27.7.11](#deJong)).
 ###### Remark
 
 
-The abbreviation "fppf" is for _fid&#232;lement plat de pr&#233;sentation finie_ : faithfully flat and of finite presentation.
+The abbreviation "fppf" is for _fid&#232;lement plat de pr&#233;sentation finie_ : faithfully flat and of finite presentation. 
+
+But notice that it is common practice, as in the above definition, to require only _local_ finite presentability.
 
 =--
 
