@@ -2271,26 +2271,61 @@ We have a pullback diagram
 
 $$
   \array{
-    [CartSp^{op}, sSet](C(U), \mathbf{B}^n U(1)_{conn})
+    \mathbf{B}^n U(1)_{conn}
     &\to&
-    \Omega^{n+1}_{cl}(X)
+    \Omega^{n+1}_{cl}(-)
     \\
     \downarrow && \downarrow
     \\
-    [CartSp^{op}, sSet](C(U), \mathbf{B}^n U(1))
-    &\to&
-    [CartSp^{op}, sSet](C(U), \mathbf{\flat}_{dR}\mathbf{B}^{n-1}U(1))
+    \mathbf{B}^n U(1)_{diff}
+    &\stackrel{curv}{\to}&
+    \mathbf{\flat}_{dR}\mathbf{B}^{n-1}U(1)
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
-    [CartSp^{op}, sSet](C(U), \mathbf{B}^n U(1))
+    \mathbf{B}^n U(1)
+  }
+$$
+
+in $[Cart^{op}, sSet]$.
+
+This models a homotopy pullback
+
+$$
+  \array{
+    \mathbf{B}^n U(1)_{conn}
+    &\to&
+    \Omega^{n+1}_{cl}(-)
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow
+    \\
+    \mathbf{B}^n U(1)
+    &\stackrel{curv}{\to}&
+    \mathbf{\flat}_{dR}\mathbf{B}^{n-1}U(1)
+  }
+$$
+
+in the [[nLab:(∞,1)-topos]] $\mathbf{H} = $[[nLab:?LieGrpd]] and this implies (in particular) for all smooth manifolds $X$ a homtotopy pullback
+
+$$
+  \array{
+    \mathbf{H}(X,\mathbf{B}^n U(1)_{conn})
+    &\to&
+    \Omega^{n+1}_{cl}(X)
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow
+    \\
+    \mathbf{H}(X,\mathbf{B}^n U(1))
+    &\to&
+    \mathbf{H}(X,\mathbf{\flat}_{dR}\mathbf{B}^{n-1}U(1))
   }
   \,.
 $$
 
+
 =--
 
-Morphisms $C(U) \to \mathbf{B}^n U(1)_{conn}$ are in natural bijection with tuples
+Here cocycles in $\mathbf{H}(X, \mathbf{B}^n U(1)_{conn})$ are modeled by [[nLab:∞-anafunctor]]s $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}^n U(1)_{conn}$, which are in natural bijection with tuples
 
 $$
   \left(
@@ -2317,7 +2352,28 @@ $$
 
 etc. This is a cocycle in [[Cech cohomology|Cech]]-[[Deligne cohomology]]. We may think of this as encoding a [[circle n-bundle with connection]]. The forms $(C_i)$ are the local connection $n$-forms.
 
-Connections on $G$-principal $\infty$-bundles for nonabelian $G$ do not have quite such a simple description. Therefore it makes sense to _approximate_ every $G$-cocylce $X \stackrel{\simeq}{\leftarrow} C(U) \to \mathbf{B}G$ by abelian cocycles by postcomposing with all possible [[characteristic class]]es $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \hat \mathbf{B}G\to \mathbf{B}^n U(1)$ to extract a circle $n$-bundle from it. This is what we turn to now.
+**Remark.** Everything in this construction turns out to follow from general abstract reasoning in every [[cohesive (∞,1)-topos]] $\mathbf{H}$ --- except the sheaf $\Omega^n_{cl}(-)$ of closed $n$-forms, which is a non-intrinsic truncation of $\mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ whose definition uses concretely the choice of model $[CartSp^{op}, sSet]$. But since by the above this object is used to pick homotopy fibers, and since these depend up to equivalence only on the connected component over which they are taken, for fixed $X$ no information is lost by passing instead to the de Rham cohomology set $H_{dR}^{n+1}(X)$ and choosing a morphism $H_{dR}^{n+1}(X) \to \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1))$ that picks a closed $(n+1)$-form in each cohomology class. Then we can replace the above by the homotopy pullback
+
+$$
+  \array{
+    \mathbf{H}_{diff}(X,\mathbf{B}^n U(1))
+    &\to&
+    H^{n+1}_{dR}(X)
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow
+    \\
+    \mathbf{H}(X,\mathbf{B}^n U(1))
+    &\to&
+    \mathbf{H}(X,\mathbf{\flat}_{dR}\mathbf{B}^{n-1}U(1))
+  }
+$$
+
+without losing information. And this is defined fully intrinsically.
+
+
+
+The definition of $\infty$-connections on $G$-principal $\infty$-bundles for nonabelian $G$ may be reduced to this definition, by _approximating_ every $G$-cocylce 
+$X \stackrel{\simeq}{\leftarrow} C(U) \to \mathbf{B}G$ by abelian cocycles by postcomposing with all possible [[characteristic class]]es $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \hat \mathbf{B}G\to \mathbf{B}^n U(1)$ to extract a circle $n$-bundle from it. This is what we turn to now.
 
 
 ## $\infty$-Lie algebra valued connections {#LieConnections}
