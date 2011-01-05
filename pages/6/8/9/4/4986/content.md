@@ -50,6 +50,8 @@ Conversely, one can show that any totally connected topos can be (but need not b
 
 * [[connected topos]] / [[∞-connected (∞,1)-topos]]
 
+* [[strongly connected topos]]
+
 * **totally connected topos** / [[totally connected (∞,1)-topos]]
 
 * [[local topos]] / [[local (∞,1)-topos]].
