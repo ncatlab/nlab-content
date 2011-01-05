@@ -120,6 +120,23 @@ For $n \in \mathbb{N}$ and $\mathcal{X}$ an $n$-localic $(\infty,1)$-topos, the 
 
 =--
 
+This is ([StrSp, lemma 2.3.14](#JurieStructured)).
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $\mathcal{X}$ an $n$-localic $(\infty,1)$-topos let $U \in \mathcal{X}$ be an [[object]]. Then the following are equivalent
+
+1. the restriction of the [[inverse image]] $U^* : \mathcal{X} \to \mathcal{X}/U$ (of the [[etale geometric morphism ]] from the [[over-(∞,1)-topos]]) to $(n-1)$-[[truncated]] objects is an [[equivalence of (∞,1)-categories]];
+
+1. the object $U$ is $n$-[[connected]].
+
+=--
+
+This is ([StrSp, lemma 2.3.14](#JurieStructured)).
+
+
 ## Properties
 
 +-- {: .un_prop}
@@ -137,19 +154,17 @@ $$
 This is ([[Higher Topos Theory|HTT, prop. 6.4.5.7]]).
 
 
+
+Let $\mathcal{G}$ be a [[geometry (for structured (∞,1)-toposes)]].
+
 +-- {: .un_prop}
 ###### Proposition
 
-For $\mathcal{X}$ an $n$-localic $(\infty,1)$-topos let $U \in \mathcal{X}$ be an [[object]]. Then the following are equivalent
-
-1. the restriction of the [[inverse image]] $U^* : \mathcal{X} \to \mathcal{X}/U$ (of the [[etale geometric morphism ]] from the [[over-(∞,1)-topos]]) to $(n-1)$-[[truncated]] objects is an [[equivalence of (∞,1)-categories]];
-
-1. the object $U$ is $n$-[[connected]].
+If $\mathcal{G}$ is an [[(∞,n)-category]] then a $n$-localic $\mathcal{G}$-[[structured (∞,1)-topos]] is an $n$-[[truncated]] object in the [[(∞,1)-category]] $Topos(\mathcal{G})$.
 
 =--
 
-This is ([LurieStructured, lemma 2.3.14](#JurieStructured)).
-
+This is [StrSp, lemma 2.6.17](#LurieStructured)
 
 
 
