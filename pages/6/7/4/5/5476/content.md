@@ -21,7 +21,7 @@ A *strongly connected site* is a [[site]] satisfying sufficient conditions to ma
 
 ## Definition
 
-Let $C$ be a [[locally connected site]]; we say it is a **strongly connected site** it it is also a [[cosifted category]]
+Let $C$ be a [[locally connected site]]; we say it is a **strongly connected site** if it is also a [[cosifted category]]
 
 
 ## Properties
