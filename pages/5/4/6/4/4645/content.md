@@ -3654,7 +3654,9 @@ $$
 
 #### Secondary characteristic classes
 
-So far we discussed the untruncated $\exp(\mathfrak{g})_{conn}$. The real object of interest is the $k$-[[truncated]] version $\tau_k \exp(\mathfrak{g})_{conn}$ where $k \in \mathbb{N}$ is such that $\tau_k \exp)\mathfrak{g} \simeq \mathbf{B}G$ is the delooping of the $\infty$-Lie group in question. 
+So far we discussed the untruncated coefficient object $\exp(\mathfrak{g})_{conn}$ for $\mathfrak{g}$-valued
+[[connection on an infinity-bundle|∞-connections]]. 
+The real object of interest is the $k$-[[truncated]] version $\tau_k \exp(\mathfrak{g})_{conn}$ where $k \in \mathbb{N}$ is such that $\tau_k \exp)\mathfrak{g} \simeq \mathbf{B}G$ is the delooping of the $\infty$-Lie group in question. 
 
 Under such a truncation, the integrated $\infty$-Lie algebra cocycle $exp(\mu) : exp(\mathfrak{g}) \to exp(b^{n-1}\mathbb{R})$ will no longer be a simplicial map. Instead, the [[period]]s of $\mu$ will cut out a [[lattice]] $\Gamma$ in $\mathbb{R}$, and $\exp(\mu)$ does descent to the quotient of $\mathbb{R}$ by that lattice
 
@@ -3675,7 +3677,7 @@ $$
     &\to&
     \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}/\Gamma
     \\
-    \downarrow
+    \downarrow^{\mathrlap{\simeq}}
     \\
     \mathbf{B}G
   }
@@ -3727,7 +3729,7 @@ $$
     &\to&
     \mathbf{B}^3 U(1)_{diff}
     \\
-    \downarrow && \downarrow
+    \downarrow^{\mathrlap{\simeq}} && \downarrow
     \\
     C(U) &\stackrel{(g,\nabla)}{\to}& \mathbf{B}G_{diff}
     \\
@@ -3751,10 +3753,23 @@ This is the cocycle for the [[circle n-bundle with connection]].
 
 =--
 
-This is precisely the cocycles given in (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>).
+This is precisely the form of the 
+[[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne]]-cocycle given in (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>)
+only that here it comes out automatically normalized such
+as to represented the fractional generator $\frac{1}{2}\mathbf{p}_1$.
 
-
-
+By feeding in more general transgressive 
+[[∞-Lie algebra cohomology|∞-Lie algebra cocycles]] through this
+machine, we obtain cocycles for more general differential characteristic classes. For
+instance the next one is the second fractional Pontryagin class of smooth [[string 2-group|String]]
+[[connection on a 2-bundle|principal 2-bundles with connection]] 
+(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#FSSIII">FSS</a>).
+Moreover, these constructions naturally yield the full cocycle
+$\infty$-groupoids, not just their cohomology sets. This 
+allows to form the [[homotopy fiber]]s of the $\infty$-Chern-Weil
+homomorphism and thus define [[differential string structure]]s
+etc. a \emph{twisted} differential string structures
+(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>).
 
 ## Summary
 
