@@ -45,7 +45,7 @@ A **diffeological space** is a pair $(X,\mathcal{D})$ where
 
   * equivalently: a [[concrete sheaf]] on the [[site]] $\mathcal{Op}$ such that $\mathcal{D}(*) = X$.
 
-A morphism of diffeological spaces is a morphism of the corresponding sheaves.
+A morphism of diffeological spaces is a morphism of the corresponding [[sheaves]]: we take $DiffeologicalSp \hookrightarrow Sh(CartSp)$ to be the full [[subcategory]] on the diffeological spaces in the sheaf topos.
 
 =--
 
@@ -103,12 +103,50 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 
 ## Properties
 
-The category $DiffSp \coloneqq ConSh(Cart)$ of diffeological spaces is a [[quasitopos]]. This means in particular that it is 
+### Embedding of smooth manifolds into diffeological spaces
 
-* [[cartesian closed category]] [[closed monoidal category]].
++-- {: .un_prop}
+###### Proposition
 
+The obvious functor from the category [[Diff]] of [[smooth manifold]]s to the category of diffeological spaces is a [[full and faithful functor]]
 
-### Connectedness {#Connectedness}
+$$
+  Diff \to DiffeologicalSpace
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that the functor is faithful, notice that if $f,g : X \to Y$ are two [[smooth function]]s that differ at some point, then they must differ in some [[open neighbourhood]] of that point. This [[open ball]] is a plot, hence the corresponding diffeological spaces differ on that plot.
+
+To see that the functor is full, we need to show that a map of sets $f : X \to Y$ that sends plots to plots is necessarily a [[smooth function]], hence that all its [[derivative]]s exist. This can be tested already on all smooth curves $\gamma : (0,1) \to X$ in $X$. A function that takes all smooth curves to smooth curves in necessarily a smooth function. But curves are in particular plots, so a function that take all plots of $X$ to plots of $Y$ must be smooth.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+The proof shows that we could restrict attention to the full sub.site $CartSp_{dim \leq 1} \subset CartSp$ on the objects $\mathbb{R}^0$ and $\mathbb{R}^1$ and still have a full and faithful embedding
+
+$$
+  Diff \hookrightarrow Sh(CartSp_{dim \leq 1})
+  \,.
+$$
+
+This fact plays a role in the definition of [[Frölicher space]]s, which are [[generalized smootth space]]s defined by plots by curves into and out of them.
+
+While the site $CartSp_{dim \leq 1}$ is more convenient for some purposes, it is not so useful for other purposes, mostly when diffeological spaces are regarded from the point of view of the full sheaf topos: the sheaf topos $Sh(CartSp_{dim \leq 1})$ lacks some non-[[concrete sheaf|concrete]] sheaves of interest, such as the sheaves of differential forms of degree $\geq 2$.
+
+=--
+
+### Embedding of diffeological spaces into the topos over $CartSp$
+
+We discuss aspects of the full [[sheaf topos]] $Sh(CartSp)$ on the [[site]] [[CartSp]] and of how diffeological spaces are embedded into this. In summary, we have that $Sh(CartSp)$ is a [[cohesive topos]] and that $DiffeologicalSpace \hookrightarrow Sh(CartSp)$ is the canonical sub-[[quasitopos]] of [[concrete sheaves]] inside it.
+
+#### Connectedness {#Connectedness}
 
 The full [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]] in that the terminal [[global section]] [[geometric morphism]] to [[Set]] is an [[essential geometric morphism]]:
 
@@ -223,7 +261,7 @@ By the discussion at [[connected topos]] we could equivalently convince ourselve
 =--
 
 
-### Localnes
+#### Locality {#Locality}
 
 +-- {: .un_prop}
 ###### Proposition
@@ -263,9 +301,40 @@ Geometrically, the object $CoDisc S \in Sh(CartSp)$ is the diffeological space [
 
 Every [[local topos]] comes with its notion of [[concrete sheaves]] that form a sub-[[quasitopos]]. For the local topos $Sh(CartSp)$ these are precisely the diffeological spaces.
 
+$$
+  Set \stackrel{\leftarrow}{\underset{CoDisc}{\hookrightarrow}}
+  DiffologicalSp \stackrel{\leftarrow}{\hookrightarrow}
+  Sh(CartSp)
+$$
+
+
 =--
 
-### Cohesiveness
+
+
++-- {: .proof}
+###### Proof
+
+
+The [[concrete sheaves]] for the [[local topos]] $Sh(CartSp)$ are by definition those objects $X$ for which the 
+$(\Gamma \dashv CoDisc)$-[[unit of an adjunction|unit]]
+
+$$
+  X \to CoDisc \Gamma X
+$$
+
+is a [[monomorphism]]. Monomorphisms of sheaves are tested objectwise, so that means equivalently that for every $U \in CartSp$ we have that 
+
+$$
+  X(U) \simeq Hom_{Sh}(U,X) \to Hom_{Sh}(U, Codisc \Gamma X)
+  \simeq Hom_{Set}(\Gamma U, \Gamma X)
+$$
+
+is a monomorphism. This is precisely the condition on a sheaf to be a diffeological space.
+
+=--
+
+#### Cohesiveness
 
 +-- {: .un_prop}
 ###### Proposition
@@ -292,6 +361,37 @@ $$
 
 where $[X,Y]_{Sh(CartSp)}$ is the [[internal hom]] in the [[cartesian closed category]] $Sh(CartSp)$.
 
+
+### The quasitopos of diffeological spaces
+
++-- {: .un_cor}
+###### Corollary
+
+The category of diffeological spaces is a [[quasitopos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows from the discussion at [Locality](#Locality).
+
+=--
+
+This has some immediate general abstract consequences
+
++-- {: .un_cor}
+###### Corollary
+
+The category of diffeological spaces is 
+
+* a [[cartesian closed category]] 
+
+* a [[closed monoidal category]].
+
+=--
+
+(...)
 
 ## References 
 
