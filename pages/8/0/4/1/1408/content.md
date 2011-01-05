@@ -686,10 +686,6 @@ the $(\infty,1)$-category of [[(∞,1)-presheaves]] on commutative $k$-algebras 
 
 Then...
 
-see also
-
-* [[generalized scheme]]
-
 
 ### Derived smooth manifolds 
 
@@ -726,7 +722,7 @@ possible. They describe **[[derived smooth manifolds]]** as described in [DerSmo
 
 * [[ringed space]], [[ringed site]], [[ringed topos]]
 
-* **structured $(\infty,1)$-topos**
+* [[geometry (for structured (∞,1)-toposes]],  **structured $(\infty,1)$-topos** , [[locally representable structured (∞,1)-topos]]
 
 * [[cohesive (∞,1)-topos]]
 
@@ -745,6 +741,13 @@ discussed in
 
 
 [[!redirects structured (∞,1)-topos]]
+
+[[!redirects structured (∞,1)-toposes]]
+[[!redirects structured (∞,1)-topoi]]
+[[!redirects structured (infinity,1)-toposes]]
+[[!redirects structured (infinity,1)-topoi]]
+
+
 [[!redirects structured generalized spaces]]
 [[!redirects structured generalized space]]
 [[!redirects ringed (∞,1)-topos]]
