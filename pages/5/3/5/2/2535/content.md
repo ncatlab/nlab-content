@@ -71,6 +71,8 @@
 
 * [[Hadamard lemma]]
 
+* [[Boman's theorem]]
+
 * [[Steenrod-Wockel approximation theorem]]
 
 * [[Poincare lemma]]
