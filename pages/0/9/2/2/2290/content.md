@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include cohomology - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
 #Contents#
 
 * automatics table of contents goes here
@@ -209,7 +215,7 @@ $$
   
 where $\Omega_\bullet^{String}(pt) \to tmf_\bullet(pt)$ is surjective
 
-**conjecture (H&ouml;hn, [[Stephan Stolz|Stolz]])**
+**conjecture (H&#246;hn, [[Stephan Stolz|Stolz]])**
 
 If a String manifold $Y$ has a positive [[Ricci curvature]] [[Riemannian metric|metric]], then the [[Witten genus]] vanishes.
 
