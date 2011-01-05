@@ -95,19 +95,23 @@ $$
   \mathcal{S}
 $$
 
-is **cohesive** if it has the following [[stuff, structure, property|properties]]:
+is **cohesive** if it is a
 
-*  it is _local_ and _connected_ in the following sense:
+* [[strongly connected topos]]
 
-   1. it is a [[locally connected topos]]: there exists a further [[left adjoint]] $(f_! \dashv f^*)$ satisfying a suitable condition;
+* and a [[local topos]].
 
-   1. it is a [[connected topos]]: the functor $f_!$ preserves the [[terminal object]], or equivalently $f^*$ is [[fully faithful functor|fully faithful]];
+In detail this means that it has the following [[stuff, structure, property|properties]]:
 
-   1. it is _strongly connected_ : $f_!$ preserves even all [[finite]] [[product]]s;
+1. it is a [[locally connected topos]]: there exists a further [[left adjoint]] $(f_! \dashv f^*)$ satisfying a suitable condition;
 
-   1. it is a [[local topos]]: there exists a further [[right adjoint]] $(f_* \dashv f^!)$ (this is sufficient for $f$ to be local, since we have already assumed it to be connected);
+1. it is a [[connected topos]]: the functor $f_!$ preserves the [[terminal object]], or equivalently $f^*$ is [[fully faithful functor|fully faithful]];
 
-In total this means that a topos $\mathcal{E}$ is cohesive over $\mathcal{S}$ if we have a quadruple of [[adjoint functor]]s
+1. it is _[[strongly connected topos|strongly connected]]_ : $f_!$ preserves even all [[finite]] [[product]]s;
+
+1. it is a [[local topos]]: there exists a further [[right adjoint]] $(f_* \dashv f^!)$ (this is sufficient for $f$ to be local, since we have already assumed it to be connected);
+
+In summary $\mathcal{E}$ is cohesive over $\mathcal{S}$ if we have a quadruple of [[adjoint functor]]s
    
 $$
  (f_! \dashv f^* \dashv f_* \dashv f^!) : 
@@ -116,7 +120,7 @@ $$
   \mathcal{S}
 $$
 
-such that $f_!$ preserves products.
+such that $f_!$ preserves finite products.
 
 =--
 
@@ -783,6 +787,8 @@ where $G$ denotes the fundamental representation of $G$ on itself. Therefore $\P
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
 * [[connected topos]] / [[∞-connected (∞,1)-topos]]
+
+* [[strongly connected topos]]
 
 * [[local topos]] / [[local (∞,1)-topos]].
 
