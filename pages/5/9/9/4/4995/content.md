@@ -1711,7 +1711,42 @@ infinitesimal $\infty$-Lie groupoids: [[∞-Lie algebroid]]s $\mathbf{B}\mathfra
 
 ## Applications
 
+### Lie theory, Differential cohomology and Chern-Weil theory
+
+Every cohesiver $(\infty,1)$-topos provides an internal notion of
+[[ordinary differential cohomology]], [[Lie theory]] and [[Chern-Weil theory]]. See
+
+* [[schreiber:differential cohomology in an (∞,1)-topos -- survey]].
+
+### Fundamrntal physics and gauge theory
+
 As a context for geometric spaces and paths in geometric spaces, cohesive $(\infty,1)$-toposes are a natural context in which to formulate fundamental fundamental [[physics]]. See [[higher category theory and physics]] for more on this.
+
+
+## Related concepts
+
+* [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
+
+  * [[connected topos]] / [[∞-connected (∞,1)-topos]]
+
+  * [[strongly connected topos]] / [[strongly ∞-connected (∞,1)-topos]]
+
+  * [[totally connected topos]] / [[totally ∞-connected (∞,1)-topos]]
+
+* [[local topos]] / [[local (∞,1)-topos]].
+
+* [[cohesive topos]] / **cohesive (∞,1)-topos**
+
+and
+
+* [[locally connected site]], [[locally ∞-connected site]]
+
+* [[connected site]]
+
+* [[local site]]
+
+* [[cohesive site]], [[(∞,1)-cohesive site]]
+
 
 ## References
 
