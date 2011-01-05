@@ -201,3 +201,5 @@ $$(f, 1_B), (g, 1_B): A + B \stackrel{\to}{\to} B$$
 
 whose coequalizer is the coequalizer of the pair $f, g$. 
 =--
+
+See also [[cocompleteness of categories of algebras]]. 
