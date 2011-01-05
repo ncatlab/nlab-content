@@ -161,6 +161,7 @@ A discussion with an eye towards [[abelian sheaf cohomology]] and abelian [[Čec
 
 
 [[!redirects paracompact topological space]]
+[[!redirects paracompact topological spaces]]
 
 [[!redirects Dieudonne's theorem]]
 [[!redirects Dieudonne theorem]]
