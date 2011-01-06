@@ -101,7 +101,7 @@ Do you need still more information to guess my space $X$? It turns out that: no,
 First, there is a bit more to the game than mentioned so far: you need to be sure that even if I  won't reveal my space $X$ to you directly, the little information about it which I do provide, that rule $U \mapsto X(U)$,  I should provide honestly and consistently. Some consistency checks to assure that I am not just making things up
 but am giving you consistent information about my secret space $X$ are the following:
  
-* it must be true that when you hand me the identity map $Id_U : U \to U$ on a test space, that then then I return you the identity map $Id_{X(U)} : X(U) \to X(U)$ on the set of probes of $X$ by $U$;
+* it must be true that when you hand me the identity map $Id_U : U \to U$ on a test space, that then I return you the identity map $Id_{X(U)} : X(U) \to X(U)$ on the set of probes of $X$ by $U$;
    
 * also, it must be true that when you first hand me two consecutive maps of test spaces, $f : U \to V$ and $g : V \to W$, and then hand me their composite $g \circ f : U \to W$, that my reply $X(g \circ f) : X(W) \to X(U)$ to the latter is the result of composing my two replies about the former: $X(g \circ f) = X(W) \stackrel{X(g)}{\to} X(V) \stackrel{X(f)}{\to} X(U)$.
 
