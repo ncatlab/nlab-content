@@ -202,6 +202,8 @@ A site that is also a [[concrete category]] in a compatible way is called a [[co
 
 * **site**
 
+* [[2-site]], [[(2,1)-site]]
+
 * [[(∞,1)-site]]
 
   * [[model site]], [[simplicial site]]
