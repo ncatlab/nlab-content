@@ -38,7 +38,7 @@ Traditionally, a _smooth manifold_ is defined as follows.
 +-- {: .un_defn}
 ###### Definition
 
-A **smooth manifold** is a [[manifold]] if its transition functions are [[smooth function]]s $\mathbb{R}^n \to \mathbb{R}^n$. 
+A [[manifold]] is a **smooth manifold** if its transition functions are [[smooth function]]s $\mathbb{R}^n \to \mathbb{R}^n$. 
 
 So a smooth manifold is a $C^k$-[[differentiable manifold]] for all $k$.
 
@@ -85,7 +85,7 @@ $$
 
 is a $\mathcal{G}$-[[algebra over an algebraic theory|algebra]] in $\mathcal{X}$. This makes $\mathcal{X}$ is $\mathcal{G}$-[[ringed topos]]. For $\mathcal{G} = $ [[CartSp]] this algebra is a [[smooth algebra]] in $\mathcal{X}$. If $\mathcal{X}$ has a [[site]] of definition $X$, then this is a [sheaf] of [[smooth algebra]]s on $X$. 
 
-If $\mathcal{O}$ sends [[covering]] families $\{U_i \to U\}$ in $\mathcal{G}$ to [[effective epimorphism]] $\coprod_i \mathcal{O}(U_i) \to \mathca{O}(U)$ we say that it is a _local $\mathca{G}$-algebra_ in $\mathcal{X}$, making $\mathcal{X}$ a $\mathcal{G}$-[[locally ringed topos]].
+If $\mathcal{O}$ sends [[covering]] families $\{U_i \to U\}$ in $\mathcal{G}$ to [[effective epimorphism]] $\coprod_i \mathcal{O}(U_i) \to \mathcal{O}(U)$ we say that it is a _local $\mathcal{G}$-algebra_ in $\mathcal{X}$, making $\mathcal{X}$ a $\mathcal{G}$-[[locally ringed topos]].
 
 The [[big topos]] $Sh(\mathcal{G})$ itself is canonically equipped with such a local $\mathcal{G}$-algebra, given by the [[Yoneda embedding]] $j$ followed by [[sheafification]] $L$
 
@@ -101,7 +101,7 @@ The [[big topos]] $Sh(CartSp)$ is a [[cohesive topos]] of [[generalized smooth s
 
 #### Cartesian spaces as representable objects of $Sh(CartSp)$
 
-The represenables themselves should evidently be locally representable and canonically have the structure of $CartSp$-structured toposes.
+The representables themselves should evidently be locally representable and canonically have the structure of $CartSp$-structured toposes.
 
 Indeed, every object $U \in \mathrm{CartSp}$ is canonically a [[CartSp]]-[[ringed space]], meaning a [[topological space]] equipped with a local sheaf of [[smooth algebra]]s. More generally: every object $U \in CartSp$ is canonically incarnated as the $CartSp$-[[structured (∞,1)-topos] 
 
@@ -120,7 +120,7 @@ given by the [[over-(∞,1)-topos]] of the [[big topos|big]] [[(∞,1)-sheaf (�
 +-- {: .un_defn}
 ###### Definition
 
-Say a [[concret sheaf|concrete object]] $X$ in the [[sheaf topos]] $Sh(CartSp)$ -- a [[diffeological space]] -- is _locally representable_ if there exists a family of open embeddings $\{U_i \hookrightarrow X\}_{i \in X}$ with $U_i \in CartSp \stackrel{j}{\hookrightarrow} Sh(CartSp)$ such that the canonical morphism our of the [[coproduct]]
+Say a [[concrete sheaf|concrete object]] $X$ in the [[sheaf topos]] $Sh(CartSp)$ -- a [[diffeological space]] -- is _locally representable_ if there exists a family of open embeddings $\{U_i \hookrightarrow X\}_{i \in X}$ with $U_i \in CartSp \stackrel{j}{\hookrightarrow} Sh(CartSp)$ such that the canonical morphism out of the [[coproduct]]
 
 $$
   \coprod_i U_i \to X
@@ -128,7 +128,7 @@ $$
 
 is an [[effective epimorphism]] in $Sh(CartSp)$.
 
-Let $LocRep(CartSp) \hookrigharrow Sh(CartSp)$ be the full [[subcategory]] on locally representable sheaves.
+Let $LocRep(CartSp) \hookrightarrow Sh(CartSp)$ be the full [[subcategory]] on locally representable sheaves.
 
 =--
 
