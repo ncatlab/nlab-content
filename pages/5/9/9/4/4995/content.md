@@ -1718,7 +1718,7 @@ Every cohesiver $(\infty,1)$-topos provides an internal notion of
 
 * [[schreiber:differential cohomology in an (∞,1)-topos -- survey]].
 
-### Fundamrntal physics and gauge theory
+### Fundamental physics and gauge theory
 
 As a context for geometric spaces and paths in geometric spaces, cohesive $(\infty,1)$-toposes are a natural context in which to formulate fundamental fundamental [[physics]]. See [[higher category theory and physics]] for more on this.
 
