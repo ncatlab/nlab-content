@@ -131,7 +131,7 @@ as desired. This completes the proof.
 =-- 
 
 +-- {: .query}
-Yaron - I think that the last theorem has a simple proof using the [[adjoint lifting theorem]]: By the definition of $C^{\theta}$ (I hope I'm using the
+Yaron - I think that the last theorem also has a simple proof using the [[adjoint lifting theorem]]: By the definition of $C^{\theta}$ (I hope I'm using the
 right definition - I assume that of Ex. 3(b) on p. 142 of
 [[Categories Work]]) the
 following diagram is commutative:
