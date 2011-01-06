@@ -58,9 +58,9 @@ The [[opposite category]] $\Delta^{op}$ of the [[simplex category]] is a sifted 
 
 ## Related concepts
 
-* [[sifted category]]
+* [[sifted category]], **sifted $(\infty,1)$-category**
 
-* **sifted $(\infty,1)$-category**
+* [[filtered category]], [[filtered (∞,1)-category]]
 
 ## References
 
