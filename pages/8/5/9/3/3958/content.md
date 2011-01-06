@@ -120,7 +120,7 @@ given by the [[over-(∞,1)-topos]] of the [[big topos|big]] [[(∞,1)-sheaf (�
 +-- {: .un_defn}
 ###### Definition
 
-Say an object $X$ in the [[sheaf topos]] $Sh(CartSp)$ (see [[diffeological space]] ) is _locally representable_ if there exists a family of morphisms $\{U_i \to X\}_{i \in X}$ with $U_i \in CartSp \stackrel{j}{\hookrightarrow} Sh(CartSp)$ such that the canonical morphism our of the [[coproduct]]
+Say an object $X$ in the [[sheaf topos]] $Sh(CartSp)$ (see [[diffeological space]] ) is _locally representable_ if there exists a family of [[monomorphism]]s $\{U_i \hookrightarrow X\}_{i \in X}$ with $U_i \in CartSp \stackrel{j}{\hookrightarrow} Sh(CartSp)$ such that the canonical morphism our of the [[coproduct]]
 
 $$
   \coprod_i U_i \to X
@@ -146,11 +146,12 @@ of the category [[Diff]] of smooth manifolds with that of locally representable 
 
 =--
 
+
 +-- {: .proof}
 ###### Proof
 
 
-Define a functor $Diff \to LocRep(CartSp)$ by sending each smooth manifold to the sheaf over $CartSp$ that it naturally represents. By definition of [[manifold]] there is an [[open cover]] $\{U_i \to X\}$. We claim that $\coprod_i U_i \to X$ is an [[effective epimorphism]], so that this functor indeed lands in $LocRep(CartSp)$. (This is a standard argument of sheaf theory in [[Diff]], we really only need to observe that it goes through over [[CartSp]], too.)
+Define a functor $Diff \to LocRep(CartSp)$ by sending each smooth manifold to the sheaf over $CartSp$ that it naturally represents. By definition of [[manifold]] there is an [[open cover]] $\{U_i \hookrightarrow X\}$. We claim that $\coprod_i U_i \to X$ is an [[effective epimorphism]], so that this functor indeed lands in $LocRep(CartSp)$. (This is a standard argument of sheaf theory in [[Diff]], we really only need to observe that it goes through over [[CartSp]], too.)
 
 For that we need to show that
 
@@ -168,12 +169,27 @@ in $PSh(CartSp)$, where $S(\{U_i\})$ is the [[sieve]] corresponding to the cover
 
 Essentially by the definition of the [[coverage]] on $CartSp$, it follows that [[sheafification]] takes this subfunctor inclusion to an [[isomorphism]]. This shows that $X$ is indeed the tip of the coequalizer in $Sh(CartSp)$ as above, and hence that it is a locally representable sheaf.
 
-By the same kind of argument, every locally representable sheaf is locally isomorphic to a $U_i \in CartSp$, hence is a space locally isomorphic to a [[Cartesian space]] with its [[smooth structure]].
+Conversely, suppose that for $X \in Sh(CartSp)$ there is a family of monomorphisms $\{U_i \hookrightarrow X\}$ such that we have a coequalizer diagram
 
-This shows that our functor $Diff \to LocRep(CartSp)$ is an [[essentially surjective functor]]. That it is also a [[full and faithful functor]] follows with arguments as discussed at [[diffeological space]]. Hence it is an [[equivalence of categories]].
+$$
+  \coprod_{i, j} U_i \times_X U_j \stackrel{\to}{\to} \coprod_{i} U_i \to X
+$$
 
+in $Sh(CartSp)$, which is the sheafification of the corresponding coequalizer in $PSh(CartSp)$. By evaluating this on the point, we find that the underlying set of $X$ is the coequalizer of the underlying set of the $U_i$ in $Set$. Since every plot of $X$ factors locally through one of the $U_i$ it follows that $X$ is a [[diffeological space]].  
 
+It follows that in the pullback diagrams
 
+$$
+  \array{
+    U_i \times_X U_j &\to& U_j
+   \\
+    \downarrow && \downarrow
+   \\
+   U_i &\to& X 
+  }
+$$
+
+the object $U_i \cap U_j$ is the diffeological space whose underlying topological space is the intersection of $U_i$ and $U_j$ in the topological space underlying $X$. In particular the inclusions $U_i \times_X U_j \hookrightarrow U_i$ are open embeddings. 
 
 =--
 
