@@ -181,7 +181,7 @@ If $(\infty,1)$-categories are [[presentable (∞,1)-category|presented]] by [[m
 
 * [[site]]
 
-* [[2-site]]
+* [[2-site]], [[(2,1)-site]]
 
 * **$(\infty,1)$-site**
 
