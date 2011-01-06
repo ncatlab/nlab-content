@@ -28,4 +28,4 @@ Similarly, standard models of [[synthetic differential geometry]] are [[higher g
 
 * an [[infinitesimal space]] is a certain object in $ThCartSp$;
 
-* an [[∞-Lie algebroid]] is a certain obect in the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(ThCartSp)$.
+* an [[∞-Lie algebroid]] is a certain object in the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(ThCartSp)$.
