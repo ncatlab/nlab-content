@@ -53,26 +53,38 @@ If $C$ is also a [[strongly ∞-connected site]] then it is an [[∞-cohesive si
 +-- {: .un_theorem}
 ###### Theorem
 
-For $C$ an $\infty$-local site, the [[(∞,1)-sheaf (∞,1)-topos]] $Sh_{(\infty,1)}(C)$ over it is a [[local (∞,1)-topos]].
+For $C$ an $\infty$-local site, the [[(∞,1)-sheaf (∞,1)-topos]] $Sh_{(\infty,1)}(C)$ over it is a [[local (∞,1)-topos]], in that the [[global section]] [[(∞,1)-geometric morphism]] has a further right [[adjoint (∞,1)-functor]]
+
+$$
+  Sh_{(\infty,1)}
+  \stackrel{\overset{\nabla}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{\nabla}{\leftarrow}}}
+  \infty Grpd
+  \,.
+$$
 
 =--
-
-
 
 +-- {: .proof}
 ###### Proof
 
-At the level of [[simplicial presheaves]] the right $sSet$-adjoint to $\Gamma$ is
+We may [[presentable (∞,1)-category|present]] the [[(∞,1)-sheaf (∞,1)-topos]] by the local [[model structure on simplicial presheaves]]
 
 $$
-  Codisc S : U \mapsto sSet(\Gamma(U), S)
+  Sh_{(\infty,1)}(C) \simeq [C^{op},sSet]_{proj,loc}^\circ
+  \,.
 $$
 
-as confirmed by the following computation:
+For the notation see the details of the analagous proof at [[∞-connected site]]. As discussed there, the functor $\Gamma$ is given by evaliation on the terminal object. At the level of [[simplicial presheaves]] the [[sSet]]-[[enriched functor|enriched]] [[right adjoint]] to $\Gamma$ is given by 
+
+$$
+  \nabla S : U \mapsto sSet(\Gamma(U), S)
+$$
+
+as confirmed by the following [[end]]/[[coend]] calculus computation:
 
 $$
   \begin{aligned}
-    [C^{op}, sSet](X, Codisc(S))
+    [C^{op}, sSet](X, \nabla(S))
     & =
     \int_{U \in C} sSet(X(U), sSet(\Gamma(U), S)
     \\
@@ -94,24 +106,29 @@ where in the second but last step we used the [[co-Yoneda lemma]].
 It is clear that 
 
 $$
-  (\Gamma \dashv Codisc) : [C^{op}, sSet]_{proj} \stackrel{\overset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}
+  (\Gamma \dashv \nabla)
+    : 
+  [C^{op}, sSet]_{proj} \stackrel{\overset{\Gamma}{\to}}{\underset{\nabla}{\leftarrow}}
   sSet_{Quillen}
 $$
 
-is a [[Quillen adjunction]], since $Codisc$ manifestly preserves fibrations and acyclic fibrations. Since $[C^{op}, sSet]_{proj,loc}$ is a [[left proper model category]] to see that this descends to a Quillen adjunction on [[the local model structure on simplicial presheaves]] it is sufficient to check that $Codisc : sSet_{Quillen} \to  [C^{op}, sSet]_{proj,loc}$ preserves fibrant objects, in that for $S$ a [[Kan complex]] we have that $Cosidc S$ satisfies [[descent]] along Cech-nerves of covering families. 
+is a [[Quillen adjunction]], since $\nabla$ manifestly preserves fibrations and acyclic fibrations. Since $[C^{op}, sSet]_{proj,loc}$ is a [[left proper model category]] to see that this descends to a Quillen adjunction on the 
+[[local model structure on simplicial presheaves]] it is sufficient to check that $\nabla : sSet_{Quillen} \to  [C^{op}, sSet]_{proj,loc}$ preserves fibrant objects, in that for $S$ a [[Kan complex]] we have that $\nabla S$ satisfies [[descent]] along [[Cech nerve]]s of covering families. 
 
-This following from the second defining condition on the site of cohesion $C$, that $Hom_C(*,C(U)) \simeq Hom_C(*,U)$. Using this we have the descent equivalence
+This follows from the second defining condition on the $\infty$-local site $C$, that $Hom_C(*,C(U)) \simeq Hom_C(*,U)$. Using this we have for fibrant $S \in sSet_{Quillen}$ the descent weak equivalence
 
 $$
-  [C^{op}, sSet](U, Codisc S)
+  [C^{op}, sSet](U, \nabla S)
    =
   sSet(Hom_C(*,U), S)  
    \simeq
   sSet(Hom_C(*,C(U)), S)
    =
-  [C^{op}, sSet](C(U), Codisc S)
-  \,.
+  [C^{op}, sSet](C(U), \nabla S)
+  \,,
 $$
+
+where we use in the middle step that $sSet_{Quillen}$ is a [[simplicial model category]] so that homming the weak equivalence between cofibrant objects into the fibrant object $S$ indeed yields a weak equivalence (using the [[factorization lemma]]).
 
 =--
 
