@@ -225,23 +225,6 @@ It is clear that the left [[derived functor]] of $\Pi$ preserves the terminal ob
 
 ## Examples
 
-+-- {: .un_prop}
-###### Proposition
-
-For $X$ a [[topological space]], write $Op(X)$ for its [[category of open subsets]] equipped with its standard [[coverage]] of jointly surjective morphisms. 
-
-If $X$ is a [[locally contractible space]] then $Op(X)$ is a [[locally ∞-connected site]].
-
-If $X$ is in addition [[connected]] then $Op(X)$ is in addition an [[∞-connected site]].
-
-=--
-
-See [[locally contractible topological space]] for details. This statement implies that for locally contractible $X$ the computation of the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of the [[terminal object]] $X$ in $Sh_{(\infty,1)}(X)$ compute the ordinary [[homotopy group]]s of $X$.
-
-$$
-  \pi_\bullet^{geom}(X \in Sh_{(\infty,1)(X)})\simeq \pi_\bullet(X \in Top)
-  \,.
-$$
 
 +-- {: .un_prop}
 ###### Proposition
@@ -275,9 +258,9 @@ This implies that [[?LieGrpd]] is a [[cohesive (∞,1)-topos]]. See there for de
 
 and
 
-* [[locally connected site]] / [[locally ∞-connected site]]
+* [[locally connected site]] / [[locally ∞-connected (∞,1)-site]]
 
-  * [[connected site]] / **∞-connected site**
+  * [[connected site]] / **∞-connected (∞,1)-site**
 
   * [[strongly connected site]] / [[strongly ∞-connected site]]
 
@@ -289,3 +272,11 @@ and
 
 
 [[!redirects ∞-connected site]]
+[[!redirects infinity-connected site]]
+
+[[!redirects ∞-connected sites]]
+[[!redirects infinity-connected sites]]
+
+
+[[!redirects ∞-connected (∞,1)-site]]
+[[!redirects ∞-connected (∞,1)-sites]]
