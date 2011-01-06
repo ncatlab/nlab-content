@@ -1,4 +1,4 @@
-[[!redirects (∞,1)-cohesive site]]
+[[!redirects (infinity,1)-cohesive site]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -27,13 +27,22 @@ An _$(\infty,1)$-cohesive site_ is a [[site]] such that the [[(∞,1)-category o
 +-- {: .un_def}
 ###### Definition
 
-An **$(\infty,1)$-cohesive site** over [[∞Grpd]] is
+A [[site]] $C$ is **$\infty$-cohesive** over [[∞Grpd]] if it is
+
+* a [[strongly ∞-connected site]]
+
+* and an [[∞-local site]].
+
+
+In detail this means that $C$ is
 
 * a [[site]] -- a [[small category]] $C$ equipped with a [[coverage]];
 
 * with the property that
 
-  * it has finite [[product]]s, in particular a [[terminal object]] $*$;
+  * it has a [[terminal object]] $*$;
+
+  * it is a [[cosifted category]] (for instance in that it has all finite [[product]]s);
   
   * for every [[covering]] family $\{U_i \to U\}$ in $C$ 
 
@@ -143,7 +152,7 @@ Since the [[(n,1)-topos]] over a site for any $n \in \mathbb{N}$ arises as the f
 +-- {: .un_corollary}
 ###### Corollary
 
-Let $C$ be [site of cohesion](#SiteOfCohesion). Then for all $n \in \mathbb{N}$ the [[(n,1)-topos]] $(n,1)Sh(C)$ is cohesive. 
+Let $C$ be a [site of cohesion](#SiteOfCohesion). Then for all $n \in \mathbb{N}$ the [[(n,1)-topos]] $(n,1)Sh(C)$ is cohesive. 
 
 =--
 
@@ -619,9 +628,15 @@ and
 
   * [[totally connected site]] / [[totally ∞-connected site]]
 
-* [[local site]]
+* [[local site]] / [[∞-local site]]
 
-* [[cohesive site]], **(∞,1)-cohesive site**
+* [[cohesive site]], **∞-cohesive site**
 
+
+[[!redirects ∞-cohesive site]]
+[[!redirects ∞-cohesive sites]]
+
+
+[[!redirects (∞,1)-cohesive site]]
 
 [[!redirects (infinity,1)-cohesive sites]]
