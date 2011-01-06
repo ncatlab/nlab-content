@@ -1,14 +1,55 @@
-#Idea#
 
-The analog of a [[filtered category]] in the context of [[(infinity,1)-category|(infinity,1)-categories]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
 
-#Reference#
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
+
+The analog of a [[filtered category]] in the context of [[(∞,1)-categories]].
+
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+
+An [[(∞,1)-category]] $K$ is filtered precisely if [[(∞,1)-colimit]]s of shape $K$ in [[? Grpd]] commute with all [[finite limit|finite]] [[(∞,1)-limit]], hence if
+
+$$
+  {\lim_\to} : Func(K, \infty Grpd) \to \infty Grpd
+$$
+
+is a left [[exact (∞,1)-functor]].
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.3.3.3]].
+
+## Related concepts
+
+* [[sifted category]], [[sifted (∞,1)-category]];
+
+* [[filtered category]], **filtered (∞,1)-category**
+
+## Reference
 
 Section 5.3.1 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
 [[!redirects filtered (infinity,1)-categories]]
 [[!redirects filtered (∞,1)-category]]
 [[!redirects filtered (∞,1)-categories]]
+
+[[!redirects cofiltered (∞,1)-category]]
+[[!redirects cofiltered (∞,1)-categories]]
