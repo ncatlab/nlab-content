@@ -28,7 +28,7 @@ if
 
 * it has a [[terminal object]] *
 
-* for every [[covering]] family $\{U_i \to X\}$ in $C$ 
+* for every [[covering]] family $\{U_i \to U\}$ in $C$ 
 
   1. the [[Cech nerve]] $C(\{U_i\}) \in [C^{op}, sSet]$ is degreewise 
        a [[coproduct]] of [[representable functor|representables]];
@@ -36,10 +36,10 @@ if
   1. the [[simplicial set]] obtained by replacing each copy of 
      a representable by a point is [[contractible]], equivalently
      the [[colimit]] $\lim_\to : [C^{op}, sSet] \to sSet$ 
-     of $C(U)$ has a [[weak homotopy equivalence]] to the point
+     of $C(\{U_i\})$ has a [[weak homotopy equivalence]] to the point
 
      $$
-       \lim_\to C(U) \stackrel{\simeq}{\to} *
+       \lim_\to C(\{U\}) \stackrel{\simeq}{\to} *
        \,.
      $$
   
@@ -102,7 +102,7 @@ The first since all objects are cofibrant. The second by general statements abou
 +-- {: .un_lemma}
 ###### Lemma
 
-For $\{U_i \to U\}$ a [[covering]] family in the $\infty$-cohesive site $C$, the [[Cech nerve]]
+For $\{U_i \to U\}$ a [[covering]] family in the $\infty$-connected site $C$, the [[Cech nerve]]
 $C(\{U_i\}) \in [C^{op}, sSet]$ is a cofibrant [[resolution]] of $U$ both in the projective model structure $[C^{op}, sSet]_{proj}$ as well as in the Cech local model structure $[C^{op}, sSet]_{proj,loc}$.
 
 =--
@@ -110,14 +110,14 @@ $C(\{U_i\}) \in [C^{op}, sSet]$ is a cofibrant [[resolution]] of $U$ both in the
 +-- {: .proof}
 ###### Proof
 
-Being a Cech nerve we have that $C(\{U_i\})$ is a [[split hypercover]]. By assumption on $C$,we have that $C(U)$ is degreewise a coproduct of representables. By <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects">Dugger's theorem on cofibrant objects</a> in the projective model structure this implies that $C(U)$ is cofibrant in the global model structure. By general properties of left [[Bousfield localization of model categories|Bousfield localizations]] we have that the cofibrations in the local model structure as the same as in the global one. Finally that $C(U) \to U$ is a weak equivalence in the local model structure holds effectively by definition (since we are localizing at these morphisms).
+By assumption on $C$ we have that $C(\{U_i\})$ is a [[split hypercover]]. By <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects">Dugger's theorem on cofibrant objects</a> in the projective model structure this implies that $C(U)$ is cofibrant in the global model structure. By general properties of left [[Bousfield localization of model categories|Bousfield localization]] we have that the cofibrations in the local model structure as the same as in the global one. Finally that $C(\{U_i\}) \to U$ is a weak equivalence in the local model structure holds effectively by definition (since we are localizing at these morphisms).
 
 =--
 
 +-- {: .un_prop}
 ###### Proposition
 
-On the $\infty$-cohesive site $C$ 
+On a locally and globally $\infty$-connected site $C$ 
 the [[global section]] [[(∞,1)-geometric morphism]]
 
 $$  
@@ -159,7 +159,7 @@ $$
 on the global model structure, since $\Gamma$ manifestly preserves fibrations and acyclic fibrations there. Since $[C^{op}, sSet]_{proj,loc}$ is [[proper model category|left proper]] and has the same cofibrations as the global model structure, it follows with [[Higher Topos Theory|HTT, corollary A.3.7.2]] (see the discussion of <a href="http://ncatlab.org/nlab/show/Quillen+adjunction#sSet">sSet-Quillen adjunctions</a>) that for 
 this to descend to a Quillen adjunction on the local model structure it is sufficient that $\Gamma$ preserves fibrant objects. But every fibrant object in the local structure is in particular fibrant in the global structure, hence in particular fibrant over the terminal object of $C$.
 
-The left [[derived functor]] of $Const : sSet_{Quillen} \to [C^{op},sSet]_{proj}$ preserves [[homotopy limit]]s (because [[(∞,1)-limit]] in an [[(∞,1)-category of (∞,1)-presheaves]] are computed objectwise), and [[∞-stackification]], the left derived functor of $Id : [C^{op}, sSet]_{proj} \to [C^{op}, sSet]_{proj,loc}$ is a left [[exact (∞,1)-functor]], therefore the left derived functor of $Const : sSet_{Quillen} \to [C^{op}, sSet]_{proj,loc}$ preserves finite homotopy limits.
+The left [[derived functor]] of $Const : sSet_{Quillen} \to [C^{op},sSet]_{proj}$ preserves [[homotopy limit]]s (because [[(∞,1)-limit]]s in an [[(∞,1)-category of (∞,1)-presheaves]] are computed objectwise), and [[∞-stackification]], the left derived functor of $Id : [C^{op}, sSet]_{proj} \to [C^{op}, sSet]_{proj,loc}$ is a left [[exact (∞,1)-functor]], therefore the left derived functor of $Const : sSet_{Quillen} \to [C^{op}, sSet]_{proj,loc}$ preserves finite homotopy limits.
 
 This means that our Quillen adjunction does model a [[(∞,1)-geometric morphism]] $Sh_{(\infty,1)}(C) \to \infty Grpd$. By the discussion at [[global section]] the space of these geometric morphisms to [[∞Grpd]] is [[contractible]], hence this is indeed a representative of the terminal geometric morphism as claimed.
 
@@ -179,7 +179,8 @@ naturally in $X$ and $S$, given by the [[colimit]] operation. Notice that since 
 Regarded as a functor  $sSet_{Quillen} \to [C^{op}, sSet]_{proj}$ the functor $Const$ manifestly preserves fibrations and acyclic fibrations and hence
 
 $$
-  (\Pi \dashv Const) : [C^{op}, sSet]_{proj} \stackrel{\leftarrow}{\to}
+  (\Pi \dashv Const) : [C^{op}, sSet]_{proj} 
+      \stackrel{\overset{\lim_\to}{\to}}{\underset{Const}{\leftarrow}}
     sSet_{Quillen} 
 $$
 
@@ -217,7 +218,7 @@ $$
 
 is a [[Quillen adjunction]].
 
-It is clear that the left [[derived functor]] of $\Pi$ preserves the terminal object: since that is representable by assumption on $C$, it is cofibrant in $[C^{op}, sSet]_{proj,loc}$, lence $\mathbb{L} \lim_\to * = \lim_\to * = *$.
+It is clear that the left [[derived functor]] of $\Pi$ preserves the terminal object: since that is representable by assumption on $C$, it is cofibrant in $[C^{op}, sSet]_{proj,loc}$, hence $\mathbb{L} \lim_\to * = \lim_\to * = *$.
 
 
 =--
