@@ -64,6 +64,12 @@ This encompasses for example the theory of (op)monoidal monads and corresonding 
 
 The paper of Melli&#232;s referenced below compares the Linton representability condition above with the [[Segal condition]] that distinguishes those [[simplicial sets]] that are the [[nerves]] of categories.
 
+## Limits and colimits
+
+* The Eilenberg-Moore category of a monad $T$ on a category $C$ has all [[limits]] which exist in $C$, which are [[created limit|created]] by the forgetful functor.
+
+* In contrast, the subject of [[colimits in categories of algebras]] is less easy, but a good deal can be said.
+
 ## References
 
 * [[Ross Street]], _The formal theory of monads_, JPAA 2, 1972 
