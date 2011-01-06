@@ -72,9 +72,9 @@ Since a category with finite coproducts is nonempty (it has an [[initial object]
 
 ## Related concepts
 
-* **sifted category**
+* **sifted category**, [[sifted (∞,1)-category]]
 
-* [[sifted (∞,1)-category]]
+* [[filtered category]], [[filtered (∞,1)-category]]
 
 ## References
 
