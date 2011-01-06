@@ -76,7 +76,7 @@ As in the 1-categorical case, one can then show that every coverage generates a 
 
 * [[site]]
 
-* **2-site**
+* **2-site**, [[(2,1)-site]]
 
 * [[(∞,1)-site]]
 
