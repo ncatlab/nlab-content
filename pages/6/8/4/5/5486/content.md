@@ -1,0 +1,3 @@
+The __Morse-Kelley set theory__ is an axiomatic approach which has both classes and sets as in NBG approach, but unlike NBG which is conservative, Morse-Kelley is not a conservative extension of NBG. The principal difference from NBG is that it allows arbitrary formula $\phi$ appearing in the class comprehension axiom schema. 
+
+The approach is explained in the appendix to J. L. Kelley's 1955 book _General topology_. 
