@@ -67,7 +67,7 @@ If $\Pi$ preserves even all [[finite limit|finite]] [[(∞,1)-limit]]s we say th
 +-- {: .un_defn}
 ###### Definition
 
-In a locally $\infty$-connected $\magthbf{H}$ and $X \in \mathbf{H}$ an [[object]], we call $\Pi X \in $ [[∞Grpd]] the 
+For $\magthbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos and $X \in \mathbf{H}$ an [[object]], we call $\Pi X \in $ [[∞Grpd]] the 
 [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] of $X$. The ([[categorical homotopy groups in an (∞,1)-topos|categorical]]) [[homotopy group]]s of $\Pi(X)$ we call the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$
 
 $$
@@ -93,20 +93,20 @@ For $n = 1$ this reproduces the case of a [[locally connected topos]].
 
 ## Examples {#LocallyContractibleExamples}
 
-This proposition gives a large supply of examples.
+The follow proposition gives a large supply of examples.
 
 +-- {: .un_prop}
 ###### Proposition
 
-Let $C$ be a [[locally ∞-connected site]]. Then then 
+Let $C$ be a locally and globally [[∞-connected site]]. Then the 
 [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$ is a 
 locally $\infty$-connected $(\infty,1)$-topos.
 
 =--
 
-See [[locally ∞-connected site]] for the proof.
+See [[∞-connected site]] for the proof.
 
-+-- {: .un_remarl}
++-- {: .un_remark}
 ###### Remark
 
 In ([SimpsonTeleman, prop. 2.18](#SimpsonTeleman))
@@ -141,22 +141,29 @@ The corresponding $(\infty,1)$-topos is [[?LieGrpd]].
 
 For $\mathbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos, also all its objects $X \in \mathbf{H}$ are locally $\infty$-connected, in that their [[petit topos|petit]] [[over quasi-category|over-(∞,1)-toposes]] $\mathbf{H}/X$ are locally $\infty$-connected.
 
+The two notions of fundamental $\infty$-groupoids of $X$ induced this way do agree, in that there is a natural equivalence
+$$
+  \Pi_X(X \in \mathbf{H}/X) \simeq \Pi(X \in \mathbf{H})
+  \,.
+$$
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the general facts recalled at [[etale geometric morphism]] we have an [[essential geometric morphism]]
+By the general facts recalled at [[etale geometric morphism]] we have a composite [[essential geometric morphism]]
 
 $$
-  (\Pi \circ \pi_! \dashv \pi^*\circ L Const \dashv \Gamma \circ \pi_*) : 
+  (\Pi_X \dashv \Delta_X \dashv \Gamma_X) : 
   \mathbf{H}_{/X}
-   \stackrel{\overset{\pi_!}{\to}}{\stackrel{\overset{\pi^*}{\leftarrow}}{\underset{\pi_*}{\to}}}
+   \stackrel{\overset{X_!}{\to}}{\stackrel{\overset{X^*}{\leftarrow}}{\underset{\X_*}{\to}}}
   \mathbf{H}
-   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{\L Const}{\leftarrow}}{\underset{\Gamma}{\to}}}  
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\to}}}  
    \infty Grpd
-  \,.
 $$
+
+and $X_!$ is given by sending $(Y \to X) \in \mathbf{H}/X$ to $Y \in \mathbf{H}$.
 
 =--
 
