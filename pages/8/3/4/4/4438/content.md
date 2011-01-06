@@ -48,9 +48,11 @@ A **pre-Grothendieck coverage** on a 2-category is a coverage satisfying the fol
 
 * If $(f_i:U_i\to U)_{i\in I}$ is a covering family and for each $i$, so is $(h_{i j}:U_{i j} \to U_i)_{j\in J_i}$, then $(f_i h_{i j}:U_{i j}\to U)_{i\in I, j\in U_i}$ is also a covering family.
 
-This is the 2-categorical version of a [[Grothendieck pretopology]].
+This is the 2-categorical version of a [[Grothendieck pretopology]] (minus the common condition of having actual [[pullbacks]]).
 
-Now, a **sieve** on an object $U\in C$ is defined to be a functor $R:C^{op}\to Cat$ with a transformation $R\to C(-,U)$ which is objectwise fully faithful (equivalently, it is ff in $[C^{op},Cat]$).  Every family $(f_i:U_i\to U)_i$ generates a sieve by defining $R(V)$ to be the full subcategory of $C(V,U)$ on those $g:V\to U$ such that $g \cong f_i h$ for some $i$ and some $h:V\to U_i$.  The following observation is due to [[StreetCBS]].
+Now, a **sieve** on an object $U\in C$ is defined to be a functor $R:C^{op}\to Cat$ with a transformation $R\to C(-,U)$ which is objectwise fully faithful (equivalently, it is a [[fully faithful morphism]] in $[C^{op},Cat]$).  Equivalently, it may be defined as a subcategory of the [[slice 2-category]] $C/U$ which is closed under precomposition with all morphisms of $C$.
+
+Every family $(f_i\colon U_i\to U)_i$ generates a sieve by defining $R(V)$ to be the full subcategory of $C(V,U)$ on those $g:V\to U$ such that $g \cong f_i h$ for some $i$ and some $h:V\to U_i$.  The following observation is due to [StreetCBS](#StreetCBS).
 
 +--{: .num_lemma}
 ###### Lemma
@@ -72,6 +74,13 @@ Here if $R$ is a sieve on $U$ and $g:V\to U$ is a morphism, $g^*(R)$ denotes the
 As in the 1-categorical case, one can then show that every coverage generates a unique Grothendieck coverage having the same 2-sheaves.
 
 
+## Properties
+
+* The [[2-category]] of [[2-sheaf|2-sheaves]] on a 2-site is a [[Grothendieck 2-topos]].
+
+* If $C$ is a [[1-category]] regarded as a 2-category with only [[identity morphism|identity]] [[2-morphisms]], then a coverage (pretopology, topology) on $C$ reduces to the usual notion of [[coverage]], [[Grothendieck pretopology]], or [[Grothendieck topology]].
+
+
 ## Related concepts
 
 * [[site]]
@@ -82,13 +91,7 @@ As in the 1-categorical case, one can then show that every coverage generates a 
 
   * [[model site]], [[simplicial site]]
 
-
-
 ## References
-
-The above involves content transferred from 
-
-* [[Michael Shulman]], [[michaelshulamn:2-site]]
 
 Strict 2-sites were considered in
 
@@ -97,8 +100,30 @@ Strict 2-sites were considered in
 Bicategorical 2-sites in
 
 * [[Ross Street]], _Characterizations of bicategories of stacks_ , Lecture Notes in Math., 962, 
+{: #StreetCBS }
 
 [[!redirects 2-sites]]
-
 [[!redirects bisite]]
 [[!redirects bisites]]
+[[!redirects Grothendieck 2-topology]]
+[[!redirects 2-Grothendieck topology]]
+[[!redirects Grothendieck 2-topologies]]
+[[!redirects 2-Grothendieck topologies]]
+[[!redirects Grothendieck 2-pretopology]]
+[[!redirects 2-Grothendieck pretopology]]
+[[!redirects Grothendieck 2-pretopologies]]
+[[!redirects 2-Grothendieck pretopologies]]
+[[!redirects 2-coverage]]
+[[!redirects 2-coverages]]
+[[!redirects topology on a 2-category]]
+[[!redirects topologies on 2-categories]]
+[[!redirects Grothendieck topology on a 2-category]]
+[[!redirects Grothendieck topologies on 2-categories]]
+[[!redirects coverage on a 2-category]]
+[[!redirects coverages on 2-categories]]
+[[!redirects topology on a bicategory]]
+[[!redirects topologies on bicategories]]
+[[!redirects Grothendieck topology on a bicategory]]
+[[!redirects Grothendieck topologies on bicategories]]
+[[!redirects coverage on a bicategory]]
+[[!redirects coverages on bicategories]]
