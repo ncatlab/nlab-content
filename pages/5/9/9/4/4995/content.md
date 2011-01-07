@@ -190,7 +190,8 @@ is the [[∞-group]] of which $\mathbf{B}G$ is the [[delooping]] object.
 
 ### Cohomology and principal $\infty$-bundles {#Cohomology}
 
-There is an intrinsic notion of [[cohomology]] and [[principal ∞-bundles]] in any [[(∞,1)-topos]] $\mathbf{H}.$
+There is an intrinsic notion of [[cohomology]] and 
+of [[principal ∞-bundles]] in any [[(∞,1)-topos]] $\mathbf{H}$.
 
 +-- {: .un_def}
 ###### Definition
@@ -216,7 +217,7 @@ $$
 
 =--
 
-In the context of cohomology on $X$ wth coefficients in $A$ we we say that
+In the context of cohomology on $X$ with coefficients in $A$ we we say that
 
 * the hom-space $\mathbf{H}(X,A)$ is the **cocycle $\infty$-groupoid**;
 
@@ -377,7 +378,7 @@ is the **base space** defined by this action.
 
 =--
 
-We may thinkl of $P//G$ as the **[[action groupoid]]** of the $G$-action on $P$. For us it _defines_ this $G$-action.
+We may think of $P//G$ as the **[[action groupoid]]** of the $G$-action on $P$. For us it _defines_ this $G$-action.
 
 
 +-- {: .un_prop}
@@ -460,7 +461,7 @@ $$
   \,,
 $$
 
-where the left horizontal morphissms are equivalences, as indicated. We proceed by induction through the height of this diagram.
+where the left horizontal morphisms are equivalences, as indicated. We proceed by induction through on the height of this diagram.
 
 The defining [[(∞,1)-pullback]] square for $P \times_X P$ is 
 
@@ -500,7 +501,7 @@ $$
   }
 $$
 
-By defnition of $P$ as the homotopy fiber of $X \to \mathbf{B}G$, the lower horizontal morphism is equivbalent to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is also equivalent to the pullback
+By defnition of $P$ as the homotopy fiber of $X \to \mathbf{B}G$, the lower horizontal morphism is equivalent to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is equivalent to the pullback
 
 $$
   \array{
