@@ -73,3 +73,4 @@ Given $X\in C$, there is trivial cofibration $X\rightarrow RX$ with $RX$ fibrant
 H.J. Baues, _Algebraic homotopy_, Cambridge studies in advanced mathematics 15, 
 Cambridge University Press, (1989). 
 
+[[!redirects cofibration categories]]
