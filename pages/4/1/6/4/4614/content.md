@@ -22,9 +22,13 @@ For $X_\bullet$ a [[simplicial object]] in [[Top]] --  a [[simplicial topologica
 
 Let [[Top]] in the following denote the [[category]] of [[compactly generated space|compactly generated]] [[Hausdorff space]]s.
 
-Write $\Delta_{Top} : \Delta \to Top : [n] \mapsto \Delta^n_{Top}$ for the standard [[cosimplicial object|cosimplicial]] [[topological space]].
+Write $\Delta_{Top} : \Delta \to Top : [n] \mapsto \Delta^n_{Top}$ for the standard [[cosimplicial object|cosimplicial]] [[topological space]] of topological [[simplices]].
 
-For $X_\bullet : \Delta^{op} \to Top$ any simplicial topological space, its _geometric realization_ is the [[coend]]
+
++-- {: .un_def}
+###### Definition
+
+For $X_\bullet : \Delta^{op} \to Top$ [[simplicial topological space]], its **geometric realization** is the [[coend]]
 
 $$
   |X_\bullet| :  \int^{n \in \Delta} X_n \times \Delta^n_{Top}
@@ -32,21 +36,33 @@ $$
 
 formed in [[Top]].
 
+=--
 
-This naturally extends to a functor
+This naturally extends to a [[functor]]
 
 $$
   |-| : Top^{\Delta^{op}} \to Top
   \,.
 $$
 
-One also considers geometric realization after restricting to the subcategory $\Delta_+ \hookrightarrow \Delta$ of the [[simplex category]] on the strictly increasing maps. The corresponding coend is called the **fat geometric realization** 
+One also considers geometric realization after restricting to the subcategory $\Delta_+ \hookrightarrow \Delta$ of the [[simplex category]] on the strictly increasing maps. 
+
++-- {: .un_def}
+###### Definition
+
+The corresponding coend is called the **fat geometric realization** 
 
 $$
   \Vert X_\bullet\Vert :  \int^{n \in \Delta_+} X_n \times \Delta^n_{Top}
+  \,.
 $$
 
-(fat, because it does not divide out the relations induced by the degeneracy maps and hence is "bigger" than ordinary geometric realization).
+=--
+
+(Fat, because it does not [[quotient]] out the [[relation]]s induced by the degeneracy maps and hence is "bigger" than ordinary geometric realization).
+
+
+
 
 
 ## Properties
@@ -73,53 +89,58 @@ $$
 
 =--
 
-See for instance corollary 11.6 of ([May](#May)).
+See for instance ([May, corollary 11.6](#May)).
 
 In certain cases geometric realisation computes the [[homotopy colimit]] of the diagram $X_\bullet : \Delta^{op} \to Top$ given by the simplicial space, with respect to the standard [[model structure on topological spaces]].
 
-+-- {: .un_defn}
++-- {: .un_defn #GoodSimplicialSpace}
 ###### Definition 
 
-A simplicial topological space $X_\bullet$ is _good_ in the sense of [[Graeme Segal|Segal]] if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are closed cofibrations.
+A [[simplicial topological space]] $X_\bullet$ is **good** in the sense of [[Graeme Segal|Segal]] if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are closed cofibrations.
 
 =--
 
-+-- {: .un_defn}
++-- {: .un_defn #ProperSimplicialSpace}
 ###### Definition
 
-A simplicial topological space $X_\bullet$ is _proper_ in the sense of [[Peter May|May]] if the inclusion $sX_n \hookrightarrow X_n$ of the degenerate simplices is a closed cofibration, where $sX_n = \bigcup_i s_i(X_{n-1})$.
+A simplicial topological space $X_\bullet$ is **proper** in the sense of [May](#May) if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[closed cofibration]], where $s X_n := \bigcup_i s_i(X_{n-1})$.
 
 =--
 
 For more on these conditions see [[simplicial topological space]].
 
 +-- {: .un_prop}
-
 ###### Proposition
 
 A good simplicial topological space is proper.
 
 =--
 
-_Proof._ This appears to be a folk statement. A proof can be found in unpublished work by [[David Roberts]] and [[Danny Stevenson]].
++-- {: .proof}
+###### Proof
+
+This appears to be a folk theorem. A proof can be found in [RobertsStevenson](#RobertsStevenson).
+
+=--
 
 +-- {: .un_prop}
 
 ###### Proposition
 
-Let $X_\bullet$ be a simplicial topological space. Then there is a natural [[weak homotopy equivalence]] 
+Let $X_\bullet$ be a [[simplicial topological space]]. Then there is a [[natural transformation|natural]] [[weak homotopy equivalence]] 
+
 $$
  \Vert X_\bullet\Vert \simeq hocolim_{n \in \Delta} X_n
 $$
-If moreover $X_\bullet$ is proper, then the natural morphism  $ \Vert X\Vert \to |X|$ is a weak homotopy equivalence.
+
+If moreover $X_\bullet$ is [proper](#ProperSimplicialSpace), then the [[natural transformation|natural morphism]]  $ \Vert X\Vert \to |X|$ is a [[weak homotopy equivalence]].
 
 =-- 
 
 +-- {: .un_remark}
-
 ###### Remark
 
-In case $X_\bullet$ is a good simplicial topological space, a direct (i.e., not using the fact that goodness implies properness) proof that $ \Vert X\Vert  \to |X|$ is a weak homotopy equivalence has been sketched by Graeme Segal and then refined by Tammo tom Dieck.
+In case $X_\bullet$ is a [good](#GoodSimplicialSpace) [[simplicial topological space]], a direct (i.e., not using the fact that goodness implies properness) proof that $ \Vert X\Vert  \to |X|$ is a weak homotopy equivalence has been sketched by [[Graeme Segal]] and then refined by Tammo tom Dieck.
 
 =--
 
@@ -130,6 +151,11 @@ A standard textbook reference is chapter 11 of
 
 * [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 {#May}
+
+That goodness implies properness is written out in 
+
+* [[David Roberts]], [[Danny Stevenson]], unpublished notes
+{#RobertsStevenson}
 
 
 [[!redirects geometric realization of a simplicial space]]
