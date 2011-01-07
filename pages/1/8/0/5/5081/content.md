@@ -231,3 +231,8 @@ Some related remarks are in
 {#StrSp}
 
 [[!redirects over-(∞,1)-topos]]
+
+[[!redirects over-(∞,1)-toposes]]
+[[!redirects over-(∞,1)-topoi]]
+[[!redirects over-(infinity,1)-toposes]]
+[[!redirects over-(infinity,1)-topoi]]
