@@ -21,16 +21,16 @@ See also [[simplicial resolution]].
 
 ## In a model category
 
-If $C$ is a [[model category]] then the most important resolutions are _cofibrant resolutions_ and _fibrant resolutions_ .
+If $C$ is a [[model category]] then the most important resolutions are _cofibrant resolutions_ and _fibrant resolutions_.
 
 A **fibrant resolution** (or *fibrant approximation*) of $X$ is a fibrant object $\hat X$ equipped with a weak equivalence into it
 
 $$
-  X \stackrel{\simeq}{\to} \hat X \to \gt *
+  X \stackrel{\simeq}{\to} \hat X \to *
   \,.
 $$
 
-If the weak equivalence is also a cofibration the fibrant resolution is a *good fibrant resolution*. 
+If the weak equivalence is also a cofibration, the fibrant resolution is a *good fibrant resolution.*
 
 A **cofibrant resolution** (or *cofibrant approximation*) of $X$ is a cofibrant object $\hat X$ equipped with a weak equivalence out of it
 
@@ -38,11 +38,13 @@ $$
   \emptyset \hookrightarrow \hat X \stackrel{\simeq}{\to} X
   \,.
 $$
-If the weak equivalence is also a fibration the cofibrant resolution is a *good cofibrant resolution*. 
+If the weak equivalence is also a fibration the cofibrant resolution is a *good cofibrant resolution.* 
 
 Notice that the factorization axioms of a [[model category]] ensure that such resolutions always exist. 
 
 Of course for the notion of fibrant resolution to make sense, also the ambient structure of a [[category of fibrant objects]] works. For cofibrant resolutions a [[Waldhausen category]] does the job, etc.
+
+In the context of [[cofibration categories]], the  term used is *fibrant model*. (One also finds the term *fibrant replacement* used.)
 
 ## Examples
 
