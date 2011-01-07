@@ -247,7 +247,4 @@ A collection of references on the equivalent reformulation of connections in ter
 For more see the references at [[connection on a bundle]].
 
 
-The following note discusses topological analogs of parallel transport
-
-* [[Jim Stasheff]], _[[StasheffParallelTransportv01.pdf:file]]_
 
