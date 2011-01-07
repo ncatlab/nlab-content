@@ -60,7 +60,8 @@ an [[(∞,1)-category]] that satisfies the $(\infty,1)$-categorical analogs of [
 * [[coproduct]]s in $\mathbf{H}$ are [[disjoint coproduct|disjoint]];
 * every [[groupoid object in an (infinity,1)-category|groupoid object]] in $\mathbf{H}$ is [[quotient object|effective]] (i.e. has a [[delooping]]). 
 
-The equivalence of these two characterizations is one of the main theorems of [[Higher Topos Theory|HTT]].
+The equivalence of these two characterizations is 
+part of the statement of [[Higher Topos Theory|HTT, theorm 6.1.0.6]].
 
 This is derived from the following equivalent one:
 
