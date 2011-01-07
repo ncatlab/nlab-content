@@ -173,7 +173,7 @@ $$
 is the [[∞-group]] of which $\mathbf{B}G$ is the [[delooping]] object.
 
 
-### Cohomology {#Cohomology}
+### Cohomology and principal $\infty$-bundles {#Cohomology}
 
 Every [[(∞,1)-topos]] comes with its intrinsic notion of [[cohomology]]. 
 
@@ -257,11 +257,83 @@ is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ 
 
 ### Geometric homotopy and Galois theory {#Homotopy}
 
-Every [[locally ∞-connected (∞,1)-topos]] comes with its notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] $\Pi(X)$ of an object $X$.
+We discuss canonical internal realizations of the notions of [[homotopy group]], [[local system]] and [[Galois theory]] in $\mathbf{H}$.
 
-We say the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$ are ordinary [[homotopy group]]s of $\Pi(X)$.
 
-Let $Fin \infty Grpd \in \infty Grpd$ be the [[∞-groupoid]] of finite $\infty$-groupoids. 
++-- {: .un_defn}
+###### Definition
+
+For $\mathbf{H}$ a [[locally ∞-connected (∞,1)-topos]] and $X \in \mathbf{H}$ an [[object]], we call $\Pi X \in $ [[∞Grpd]] the 
+[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] of $X$. The ([[categorical homotopy groups in an (∞,1)-topos|categorical]]) [[homotopy group]]s of $\Pi(X)$ we call the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$
+
+$$
+  \pi_\bullet^{geom}(X) := \pi_\bullet(\Pi (X))
+  \,.
+$$
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $\mathbf{H}$ a [[locally ∞-connected (∞,1)-topos]], also all its objects $X \in \mathbf{H}$ are locally $\infty$-connected, in the sense  their [[petit topos|petit]] [[over-(∞,1)-toposes]] $\mathbf{H}/X$ are locally $\infty$-connected.
+
+The two notions of fundamental $\infty$-groupoids of $X$ induced this way do agree, in that there is a natural equivalence
+
+$$
+  \Pi_X(X \in \mathbf{H}/X) \simeq \Pi(X \in \mathbf{H})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the general facts recalled at [[étale geometric morphism]] we have a composite [[essential geometric morphism]]
+
+$$
+  (\Pi_X \dashv \Delta_X \dashv \Gamma_X) : 
+  \mathbf{H}_{/X}
+   \stackrel{\overset{X_!}{\to}}{\stackrel{\overset{X^*}{\leftarrow}}{\underset{\X_*}{\to}}}
+  \mathbf{H}
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\to}}}  
+   \infty Grpd
+$$
+
+and $X_!$ is given by sending $(Y \to X) \in \mathbf{H}/X$ to $Y \in \mathbf{H}$.
+
+=--
+
+
++-- {: .un_def}
+###### Definition
+
+For $\kappa$ a [[regular cardinal]] write 
+
+$$
+  Core \infty Grpd_\kappa \in \infty Grpd
+$$ 
+
+for the [[∞-groupoid]] of $\kappa$-[[small (∞,1)-category|small ∞-groupoid]]s: the [[core]] of the full [[sub-(∞,1)-category]] of [[∞Grpd]] on the $\kappa$-small ones.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+We have 
+
+$$
+  Core \infty Grpd_\kappa \simeq
+  \coprod_i \mathbf{B} Aut(F_i)
+  \,,
+$$
+
+where the coproduct ranges over all $\kappa$-small [[homotopy type]]s $[F_i]$ and $Aut(F_i)$ is the [[automorphism ∞-group]] of any representative $F_i$ of $[F_i]$.
+
+=--
 
 +-- {: .un_def}
 ###### Definition
@@ -269,7 +341,7 @@ Let $Fin \infty Grpd \in \infty Grpd$ be the [[∞-groupoid]] of finite $\infty$
 For $X \in \mathbf{H}$ write
 
 $$
-  LConst(X) := \mathbf{H}(X, Disc Fin \infty Grpd)
+  LConst(X) := \mathbf{H}(X, Disc Core \infty Grpd_\kappa)
   \,.
 $$
 
@@ -277,17 +349,42 @@ We call this the $\infty$-groupoid of **[[locally constant ∞-stack]]s** on $X$
 
 =--
 
++-- {: .un_observation}
+###### Observation
+
+Since $Disc$ is [[left adjoint]] and [[right adjoint]] it commutes with [[coproduct]]s and with [[delooping]] and therefore
+
+$$
+  Disc Core \infty Grpd_\kappa 
+    \simeq 
+  \coprod_i \mathbf{B} Disc Aut(F_i)
+  \,.
+$$
+
+Therefore a cocycle $P \in LConst(X)$ may be identified on each geometric connected component of $X$ as a  $Disc Aut(F_i)$-[[principal ∞-bundle]] $P \to X$ over $X$ for the [[∞-group]] object  $Disc Aut(F_i) \in \mathbf{H}$. We may think of this as an object $P \in \mathbf{H}/X$ in the [[little topos]] over $X$. This way the objects of $LConst(X)$ are  indeed identified $\infty$-stacks over $X$.
+
+=--
+
+
+The following proposition says that the central statements of [[Galois theory]] hold for these canonical notions of geometric homotopy groups and locally constant $\infty$-stacks.
+
 +-- {: .un_prop}
 ###### Proposition
 
-We have
+For $\mathbf{H}$ [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]], we have
 
-* $Disc(X) \simeq Func(\Pi(X), Fin \infty Grpd)$;
-
-* for any point $x : * \to X$ the endomorphisms of the fiber functor are
+* a natural equivalence 
 
   $$
-    End( x^* : Disc(X) \to Fin ) \simeq \Omega_x \Pi(X)
+    LConst(X) \simeq \infty \mathrm{Grpd}(\Pi(X), \infty Grpd_\kappa)
+  $$
+
+  of locally constant $\infty$-stacks on $X$ with $\infty$-[[permutation representation]]s of the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] of $X$ ([[local system]]s on $X$);
+
+* for every point $x : * \to X$ a natural equivalence of the endomorphisms of the fiber functor $x^*$ and the [[loop space]] of $\Pi(X)$ at $x$
+
+  $$
+    End( x^* : LConst(X) \to \infty Grpd ) \simeq \Omega_x \Pi(X)
     \,.
   $$
 
@@ -296,9 +393,65 @@ We have
 +-- {: .proof}
 ###### Proof
 
-The first statement is just the adjunction $(\Pi \dashv Disc)$. The second statement is pure [[Tannaka duality]] (as describe there), so follows with a quadruple application of the [[(∞,1)-Yoneda lemma]].
+The first statement is just the adjunction $(\Pi \dashv Disc)$.
+
+$$
+  \begin{aligned}
+     LConst(X) & := \mathbf{H}(X, Disc Core \infty Grpd_\kappa)
+     \\
+     &  \simeq \infty Grpd(\Pi(X), Core \infty Grpd_\kappa)
+     \\
+     &  \simeq \infty Grpd(\Pi(X), \infty Grpd_\kappa)     
+  \end{aligned}
+  \,.
+$$
+
+
+Using this and that $\Pi$ preserves the 
+[[terminal object in an (∞,1)-category|terminal object]], so that the [[adjunct]] of
+$(* \to X \to Disc Core \infty Grpd_\kappa)$ is
+$(* \to \Pi(X) \to \infty Grpd_\kappa)$
+the second statement follows with an iterated application of the [[(∞,1)-Yoneda lemma]] (this is pure [[Tannaka duality]] as discussed there):
+
+The fiber functor $x^* : Func(\Pi(X), \infty Grpd) \to \infty Grpd$ evaluates an $(\infty,1)$-presheaf on $\Pi(X)^{op}$ at $x \in \Pi(X)$. By the [[(∞,1)-Yoneda lemma]] this is the same as homming out of $j(x)$, where $j : \Pi(X)^{op} \to Func(\Pi(X), \infty Grpd)$ is the [[(∞,1)-Yoneda embedding]]:
+
+$$
+  x^* \simeq Hom_{PSh(\Pi(X)^{op})}(j(x), -)
+  \,.
+$$
+
+This means that $x^*$ itself is a representable object in $PSh(PSh(\Pi(X)^{op})^{op})$. If we denote by $\tilde j : PSh(\Pi(X)^{op})^{op} \to PSh(PSh(\Pi(X)^{op})^{op})$ the corresponding Yoneda embedding, then 
+
+$$
+  x^* \simeq \tilde j (j (x))
+  \,.
+$$
+
+With this, we compute the endomorphisms of $x^*$ by applying the [[(∞,1)-Yoneda lemma]] two more times:
+
+$$
+  \begin{aligned}
+    End x^*
+     & \simeq
+    End_{PSh(PSh(\Pi(X)^{op})^{op})} (\tilde j(j (x)))
+     \\
+     & \simeq
+     End(PSh(\Pi(X))^{op}) (j(x))
+     \\
+     & \simeq
+     End_{\Pi(X)^{op}}(x,x)
+    \\
+     & \simeq
+     Aut_x \Pi(X)
+    \\
+     & =: \Omega_x \Pi(X)
+  \end{aligned}
+   \,.
+$$
 
 =--
+
+
 
 ### van Kampen theorem {#vanKampenTheorem}
 
@@ -403,18 +556,30 @@ The proposition now follows with the above observation that $\Pi$ preserves all 
 +-- {: .un_def}
 ###### Definition
 
-Set
+Define the composite [[adjoint (∞,1)-functor]]s
 
 $$
   (\mathbf{\Pi} \dashv \mathbf{\flat} \dashv \mathbf{\Gamma}) 
   :=
   (Disc \Pi \dashv Disc \Gamma \dashv CoDisc \Gamma)
+  : 
+  \mathbf{H}
+   \to 
+  \mathbf{H}
   \,.
 $$
 
 =--
 
-Let 
+We say
+
+* $\mathbf{\Pi}(X)$ is the **path $\infty$-groupoid** of $X$ -- the reflection of the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] back into the cohesive context of $\mathbf{H}$;
+
+* $\mathbf{\flat} A$ ("flat $A$") is the coefficient object for 
+  **[flat differential A-cohomology](#FlatDifferentialCohomology)** 
+  or for $A$-[[local system]]s
+
+Write
 
 $$
   (\tau_n \dashv i_n)
@@ -424,15 +589,16 @@ $$
   \mathbf{H}
 $$
 
-be the [[reflective sub-(∞,1)-category]] of [[truncated|n-truncated object]]s. Write
+for the [[reflective sub-(∞,1)-category]] of [[truncated|n-truncated object]]s and 
 
 $$
-  \mathbf{\tau}_n : \mathbf{H} \stackrel{\tau_n}{\to} \mathbf{H}_{\leq n}
+  \mathbf{\tau}_n : 
+    \mathbf{H} \stackrel{\tau_n}{\to} \mathbf{H}_{\leq n}
   \hookrightarrow
   \mathbf{H}
 $$
 
-for the truncation [[localization of an (∞,1)-category]].
+for the truncation-[[localization of an (∞,1)-category|localization]] funtor. 
 
 We say
 
@@ -444,7 +610,12 @@ $$
 
 is the **[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|path n-groupoid]]** functor. 
 
-Notice that for any $X \in \mathbf{H}$ we have the [[Postnikov tower in an (∞,1)-category|Postnikov tower]]
+
++-- {: .un_def}
+###### Definiion
+
+For $X \in \mathbf{H}$ we say that the **geometric Postnikov tower**
+of X$ is the [[Postnikov tower in an (∞,1)-category]] of $\mathbf{\Pi}(X)$:
 
 $$
   \mathbf{\Pi}(X) \to \cdots
@@ -453,20 +624,22 @@ $$
   \,.
 $$
 
+=--
 
-
-### Universal coverings and Whitehead towers {#Coverings}
+### Universal coverings and geometric Whitehead towers {#Coverings}
 
 +-- {: .un_def}
 ###### Definition
 
-The **[[Whitehead tower in an (∞,1)-topos|whitehead tower]]** of $X \in \mathbf{H}$ is the sequence of objects 
+For $X \in \mathbf{H}$ an object,
+
+The **geometric [[Whitehead tower in an (∞,1)-topos|Whitehead tower]]** of $X$ is the sequence of objects 
 
 $$
   * \to \cdots \to X^{(2)} \to X^{(1)} \to X^{(0)} \simeq X
 $$
 
-in $\mathbf{H}$, where for each $n \in \mathbb{N}$ the object $X^{(n+1)}$ is the [[homotopy fiber]] of the canonical morphism $X \to \mathbf{\Pi}_{n+1}$, i.e. the object defined by the [[(∞,1)-pullback]] diagram
+in $\mathbf{H}$, where for each $n \in \mathbb{N}$ the object $X^{(n+1)}$ is the [[homotopy fiber]] of the canonical morphism $X \to \mathbf{\Pi}_{n+1} X$ to the [path n+1-groupoid](#Paths) of $X$. This is the object defined by the [[(∞,1)-pullback]] diagram
 
 $$
   \array{
@@ -479,7 +652,8 @@ $$
   \,.
 $$
 
-This we call the $(n+1)$-fold **[[universal covering space]]** of $X$.
+We call $X^{(n+1)}$ the $(n+1)$-fold 
+**[[universal covering space]]** of $X$.
 
 =--
 
@@ -503,8 +677,14 @@ $$
 +-- {: .un_lemma}
 ###### Lemma
 
-For a cohesive topos on an [[(∞,1)-cohesive site]] we have
-that $\mathbf{\Pi}_n(X) \simeq Disc \tau_{\leq n} \Pi(X)$.
+For $\mathbf{H}$ the cohesive $(\infty,1)$-topos over an 
+[[∞-cohesive site]] we have
+that 
+
+$$
+  \mathbf{\Pi}_n(X) \simeq Disc \tau_{\leq n} \Pi(X)
+  \,.
+$$
 
 =--
 
@@ -519,7 +699,7 @@ This follows from $\mathbf{\tau}_{\leq n} LConst \Pi(X) \simeq LConst \tau_{\leq
 ###### Remark
 
 
-Therefore  homotopy-commuting diagram
+Therefore commuting diagram
 
 $$
   \array{
@@ -543,7 +723,7 @@ $$
   }
 $$
 
-in [[∞Grpd]]. This being universal means that $\Pi(X^{(n)})$ is $n$-[[connected]], and universal with that property as an object over $\Pi(X)$.
+in [[∞Grpd]]. This being universal means that $\Pi(X^{(n)})$ is $n$-[[connected]] and universal with that property as an object over $\Pi(X)$.
 
 =--
 
@@ -1755,6 +1935,10 @@ The [[category theory|category-theoretic]] definition of [[cohesive topos]] was 
 The observation that the further left adjoint $\Pi$ in a [[locally ∞-connected (∞,1)-topos]] defines an intrinsic notion of paths and [[geometric homotopy groups in an (∞,1)-topos]] was suggested by [[Richard Williamson]].
 
 The observation that the further right adjoint $Codisc$ in a [[local (∞,1)-topos]] serves to characterize [[concrete sheaf|concrete (∞,1)-sheaves]] was amplified by [[David Carchedi]].
+
+A pdf-version of some of the material here is at
+
+* [[schreiber:differential cohomology in a cohesive topos]].
 
 Some discussion is at
 
