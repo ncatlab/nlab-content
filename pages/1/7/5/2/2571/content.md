@@ -122,4 +122,3 @@ Shulman\'s **[[SEAR|SEARC]]** is equivalent to $ZFC$ in the same way.  $SEAR$, w
 [[!redirects IZF]]
 [[!redirects CST]]
 [[!redirects NBG]]
-[[!redirects MK]]
