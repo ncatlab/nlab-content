@@ -426,11 +426,11 @@ passing to the [[cocycle]] $g$ obtained from the quotient
 
 $$
   \array{
-     P &\to& {*}
+     &&P &\to& {*}
      \\
-     \downarrow  && \downarrow
+     &&\downarrow  && \downarrow
      \\
-     X \stackrel{\simeq}{\to} P//G &\stackrel{g}{\to}& \mathbf{B}G
+     X &\stackrel{\simeq}{\to}& P//G &\stackrel{g}{\to}& \mathbf{B}G
   }
 $$
 
