@@ -144,7 +144,7 @@ Here the horizontal morphisms on the left are indeed equivalences, as indicated.
 +-- {: .proof}
 ###### Proof
 
-The defining [[limit in a quasi-category|(∞,1)-pullback]] square for $P \times_X$ is 
+The defining [[limit in a quasi-category|(∞,1)-pullback]] square for $P \times_X P$ is 
 
 $$
   \array{
@@ -336,7 +336,7 @@ Since by one of the Giraud's axioms that hold in the [[(∞,1)-topos]] $\mathbf{
        \\
        \downarrow\downarrow && \downarrow\downarrow
        \\
-       V &\stackrel{}{\to}& {*}
+       V &\stackrel{\simeq}{\to}& V
      }
    $$
 
@@ -346,47 +346,6 @@ Since by one of the Giraud's axioms that hold in the [[(∞,1)-topos]] $\mathbf{
 
 =--
 
-+-- {: .un_lemma}
-###### Lemma
-
-If $V \times G^\bullet $ is a principal action groupoid as above  then the
-induced diagram
-
-$$
-   \array{
-      & V &\to& {*}
-      \\
-      & \downarrow && \downarrow
-      \\
-      V//G := & \lim_\to V\times G^{\times \bullet} &\to&
-      \mathbf{B}G 
-   }
-$$
-
-is a [[limit in a quasi-category|(∞,1)-pullback diagram]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Consider the [[pasting]] [[diagram]]
-
-$$
-  \array{
-    V \times_X V &\to& V &\to& *
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    V &\to& X &\to& \mathbf{B}G
-  }
-  \,.
-$$
-
-The left square is a pullback by definition. By principality the top left object is $\simeq V \times G$, which says that also the outer rectangle is a pullback (as in the above lemma). Therefore by the pasting property of [[pullback]]s, also the right square is a pullback.
-
-
-=--
 
 
 +-- {: .un_def}
