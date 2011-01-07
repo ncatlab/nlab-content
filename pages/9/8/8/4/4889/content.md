@@ -1,4 +1,3 @@
-[[!redirects automorphism ∞-group]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -14,13 +13,7 @@
 =--
 =--
 
-* [[automorphism group]]
 
-* [[automorphism 2-group]]
-
-* **automorphism $\infty$-group**
-
-***
 
 #Contents#
 * table of contents
@@ -38,3 +31,12 @@ For $C$ an ordinary [[category]] this reduces to the ordinary notion of [[automo
 There may be the [[stuff, structure, property|structure]] of an [[∞-Lie group]] on $Aut(F)$. The corresponding [[∞-Lie algebra]] is an [[automorphism ∞-Lie algebra]].
 
 
+* [[automorphism group]]
+
+* [[automorphism 2-group]]
+
+* **automorphism $\infty$-group**
+
+[[!redirects automorphism ∞-group]]
+
+[[!redirects automorphism infinity-groups]]
