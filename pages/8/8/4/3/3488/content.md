@@ -67,7 +67,7 @@ If $\Pi$ preserves even all [[finite limit|finite]] [[(∞,1)-limit]]s we say th
 +-- {: .un_defn}
 ###### Definition
 
-For $\magthbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos and $X \in \mathbf{H}$ an [[object]], we call $\Pi X \in $ [[∞Grpd]] the 
+For $\mathbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos and $X \in \mathbf{H}$ an [[object]], we call $\Pi X \in $ [[∞Grpd]] the 
 [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] of $X$. The ([[categorical homotopy groups in an (∞,1)-topos|categorical]]) [[homotopy group]]s of $\Pi(X)$ we call the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$
 
 $$
@@ -139,7 +139,7 @@ The corresponding $(\infty,1)$-topos is [[?LieGrpd]].
 +-- {: .un_prop}
 ###### Proposition
 
-For $\mathbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos, also all its objects $X \in \mathbf{H}$ are locally $\infty$-connected, in that their [[petit topos|petit]] [[over quasi-category|over-(∞,1)-toposes]] $\mathbf{H}/X$ are locally $\infty$-connected.
+For $\mathbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos, also all its objects $X \in \mathbf{H}$ are locally $\infty$-connected, in that their [[petit topos|petit]] [[over-(∞,1)-toposes]] $\mathbf{H}/X$ are locally $\infty$-connected.
 
 The two notions of fundamental $\infty$-groupoids of $X$ induced this way do agree, in that there is a natural equivalence
 $$
