@@ -162,7 +162,7 @@ Let $C$ be a [[category]]. The axioms used here are the following.
 
    * it contains all [[isomorphism]]s;
 
-   * the [[pullback]] of a fibration is against a fibration.
+   * the [[pullback]] of a fibration is again a fibration.
 
    * the pullback of an acyclic fibrations is an acyclic fibration.
 
@@ -331,9 +331,8 @@ $$
   \,.
 $$
 
-We have that $C(*. P_k X)$ is a functor from $C$ to the category of [[Kan complex]]es.
+We have that $C(*, P_k X)$ is a functor from $C$ to the category of [[Kan complex]]es.
 
-Should that be $C(*, P_k X)$?
 
 For the category of Kan complexes, it is the identity functor.
 
@@ -391,7 +390,7 @@ To get this impose a gauge condition known from homological perturbation theory.
 A _context_ is
 
 $$
-  L \stackrel{\overset{f}{\to}}{\underset{g}{\leftarrow}}
+  L \stackrel{\overset{f}{\to}}{\underset{g}{\leftarrow}} M
 $$
 
 $$
@@ -410,11 +409,15 @@ $$
   MC(L) \simeq \{\omega \in MC(M) | h \omega = 0\}
 $$
 
-See Kuranishi's article in Annals
+See Kuranishi's article in Annals to see where the motivation for all this comes from.
 
-citation please and how much does **all** refer to??
++-- {: .query}
 
- to see where the motivation for all this comes from.
+[[Jim Stasheff]]: citation please and how much does **all** refer to??
+
+=--
+
+
 
 **Example** Consider the space of Schouten Lie algebras
 
@@ -501,9 +504,14 @@ $$
 
 between filtered complex-like things,
 
+
++-- {: .query}
+
 meaning?? more general or complex with additional structure??
 
- satisfying some conditions.
+=--
+
+satisfying some conditions.
 
 We can arrange this such that $h$ imposes a certain gauge condition on $L$, or something
 
@@ -556,8 +564,14 @@ $$
 
 This would make the construction even smaller.
 
+
++-- {: .query}
+
+
 What's the problem?
 
+
+=--
 
 
 If $L$ is abelian, then this is the [[Eilenberg-MacLane space]] which features in the [[Dold-Kan correspondence]].
@@ -581,8 +595,4 @@ The discussion of the Deligne groupoid (the $\infty$-groupoid "integrating" an $
 
 * [[Ezra Getzler]], _Lie theory for nilpotent L-infinity algebras_ ([arXiv:0404003](http://arxiv.org/abs/math/0404003))
 
-> A reference for the main point 
-
-namely??
-
-above seems not to be available yet, but I'll check.
+> A reference for the theorem above seems not to be available yet, but I'll check.
