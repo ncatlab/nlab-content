@@ -245,3 +245,9 @@ See [[higher parallel transport]] for details.
 A collection of references on the equivalent reformulation of connections in terms of their parallel transport is <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#HistConnAsParTrans">here</a>. 
 
 For more see the references at [[connection on a bundle]].
+
+
+The following note discusses topological analogs of parallel transport
+
+* [[Jim Stasheff]], _[[StasheffParallelTransportv01.pdf:file]]_
+
