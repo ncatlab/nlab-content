@@ -36,6 +36,60 @@ A continuous map $f\colon X \to Y$ of topological spaces defines a homomorphism 
 
 [[categorification|Categorifying]], a [[geometric morphism]] $f\colon X \to Y$ of [[toposes]] is an [[open geometric morphism]] if its [[inverse image functor]] $f^*\colon Y \to X$ is a [[Heyting functor]].
 
+### For morphisms in a topos
+
+A [[class]] $R \subset Mor(\mathcal{E})$ of [[morphism]]s in a [[topos]] $\mathcal{E}$ is called a **class of open maps** if it satisfies the following axioms.
+
+1. Every [[isomorphism]] belongs to $R$;
+
+1. The [[pullback]] of a morphism in $R$ belongs to $R$.
+
+1. If the pullback of a morphism $f$ along an [[epimorphism]] lands in $R$, then $f$ is also in $R$.
+
+1. For every [[set]] $S$ the canonical morphism $(\coprod_{s \in S} *) \to *$ from the $S$-fold [[coproduct]] of the [[terminal object to the terminal object]] in in $R$.
+
+1. For $\{X_i \stackrel{f_i}{\ro} Y_i\}_{i \in I} \subset R$ then also the [[coproduct]] $\coprod_i X_i \to \coprod_i Y_i$ is in $R$.
+
+1. If in a diagram of the form
+
+   $$
+     \array{
+        Y &&\stackrel{p}{\to}&& X
+        \\
+        & {}_{\mathllap{g}}\searrow && \swarrow_{\mathrlap{f}}
+        \\
+        && B
+     }
+   $$
+
+   we have that $p$ is an [[epimorphism]] and $g$ is in $R$, then $f$ is in $R$.
+
+The class $R$ is called a class of **&#233; maps** if in addition to the above axioms it satisfies
+
+1. for $f : X \to Y$ in $R$ also the [[diagonal]] $Y \to Y \times_X Y$ is in $R$.
+
+1. If in 
+
+   $$
+     \array{
+        Y &&\stackrel{p}{\to}&& X
+        \\
+        & {}_{\mathllap{g}}\searrow && \swarrow_{\mathrlap{f}}
+        \\
+        && B
+     }
+   $$
+
+   (...)
+
+
+For instance ([JoyalMoerdijk, section 1](#JoyalMoerdijk)).
+
+## References
+
+* [[Andre Joyal]], [[Ieke Moerdijk]], _A completness theorem for open maps_ Annals of Pure and Applied Logic Volume 70, Issue 1, 18 November 1994, Pages 51-86 
+{#JoyalMoerdijk}
+
 [[!redirects open maps]]
 
 [[!redirects open geometric morphism]]
