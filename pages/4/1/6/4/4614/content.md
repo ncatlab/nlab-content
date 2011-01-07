@@ -107,7 +107,7 @@ A simplicial topological space $X_\bullet$ is **proper** in the sense of [May](#
 
 =--
 
-For more on these conditions see [[simplicial topological space]].
+For more on these conditions see [[nice simplicial topological space]].
 
 +-- {: .un_prop}
 ###### Proposition
@@ -130,10 +130,10 @@ This appears to be a folk theorem. A proof can be found in [RobertsStevenson](#R
 Let $X_\bullet$ be a [[simplicial topological space]]. Then there is a [[natural transformation|natural]] [[weak homotopy equivalence]] 
 
 $$
- \Vert X_\bullet\Vert \simeq hocolim_{n \in \Delta} X_n
+ {\Vert X_\bullet\Vert} \simeq hocolim_{n \in \Delta} X_n
 $$
 
-If moreover $X_\bullet$ is [proper](#ProperSimplicialSpace), then the [[natural transformation|natural morphism]]  $ \Vert X\Vert \to |X|$ is a [[weak homotopy equivalence]].
+If moreover $X_\bullet$ is [proper](#ProperSimplicialSpace), then the [[natural transformation|natural morphism]]  $ {\Vert X\Vert} \to {|X|}$ is a [[weak homotopy equivalence]].
 
 =-- 
 
