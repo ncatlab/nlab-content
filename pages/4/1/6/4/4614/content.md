@@ -95,32 +95,32 @@ For more on these conditions see [[simplicial topological space]].
 
 +-- {: .un_prop}
 
+###### Proposition
+
 A good simplicial topological space is proper.
 
 =--
 
+_Proof._ This appears to be a folk statement. A proof can be found in unpublished work by [[David Roberts]] and [[Danny Stevenson]].
+
 +-- {: .un_prop}
+
 ###### Proposition
 
-Let $X \in Top^{\Delta^{op}}$.  A sufficient condition for a [[weak homotopy equivalence]] 
-
+Let $X_\bullet$ be a simplicial topological space. Then there is a natural [[weak homotopy equivalence]] 
 $$
-  |X| \simeq hocolim_{n \in \Delta} X_n
+ ||X_\bullet|| \simeq hocolim_{n \in \Delta} X_n
 $$
-
-is that $X$ is _good_ in that 
+If moreover $X_\bullet$ is proper, then the natural morphism  $ ||X|| \to |X|$ is a weak homotopy equivalence.
 
 =-- 
 
++-- {: .un_remark}
 
-$$
-  good \Rightarrow proper
-$$
+###### Remark
 
-When these conditions are not met, then the [[fat realization]] $||X||$ of the simplicial space, i.e. the coend of the diagram given by restricting to the subcategory of $\Delta$ with only the coface maps computes the homotopy colimit, rather than the geometric realisation. Generally, there is a map $||X|| \to |X|$ which is a (weak?) homotopy equivalence when $X$ is good or proper (this is in the 'good' case I think due to Segal, and Tammo tom Dieck finished up/cleaned up the proof).
+In case $X_\bullet$ is a good simplicial topological space, a direct (i.e., not using the fact that goodness implies properness) proof that $ ||X|| \to |X|$ is a weak homotopy equivalence has been sketched by Graeme Segal and then refined by Tammo tom Dieck.
 
-+--{: .query}
-[[David Roberts]]: this needs expanding/clarifying. I'm not sure who the result that good $\Rightarrow$ proper is due to, but I proved it in unpublished work with [[Danny Stevenson]]. I'm sure we're not the first, but it seems like folklore.
 =--
 
 
