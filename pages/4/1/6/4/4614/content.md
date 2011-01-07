@@ -43,7 +43,7 @@ $$
 One also considers geometric realization after restricting to the subcategory $\Delta_+ \hookrightarrow \Delta$ of the [[simplex category]] on the strictly increasing maps. The corresponding coend is called the **fat geometric realization** 
 
 $$
-  ||X_\bullet|| :  \int^{n \in \Delta_+} X_n \times \Delta^n_{Top}
+  \Vert X_\bullet\Vert :  \int^{n \in \Delta_+} X_n \times \Delta^n_{Top}
 $$
 
 (fat, because it does not divide out the relations induced by the degeneracy maps and hence is "bigger" than ordinary geometric realization).
@@ -80,14 +80,14 @@ In certain cases geometric realisation computes the [[homotopy colimit]] of the 
 +-- {: .un_defn}
 ###### Definition 
 
-A simplicial topological space $X_\bullet$ is _good_ in the sense of [[Segal|Graeme Segal]] if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are closed cofibrations.
+A simplicial topological space $X_\bullet$ is _good_ in the sense of [[Graeme Segal|Segal]] if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are closed cofibrations.
 
 =--
 
 +-- {: .un_defn}
 ###### Definition
 
-A simplicial topological space $X_\bullet$ is _proper_ in the sense of [[May|Peter May]] if the inclusion $sX_n \hookrightarrow X_n$ of the degenerate simplices is a closed cofibration, where $sX_n = \bigcup_i s_i(X_{n-1})$.
+A simplicial topological space $X_\bullet$ is _proper_ in the sense of [[Peter May|May]] if the inclusion $sX_n \hookrightarrow X_n$ of the degenerate simplices is a closed cofibration, where $sX_n = \bigcup_i s_i(X_{n-1})$.
 
 =--
 
@@ -109,9 +109,9 @@ _Proof._ This appears to be a folk statement. A proof can be found in unpublishe
 
 Let $X_\bullet$ be a simplicial topological space. Then there is a natural [[weak homotopy equivalence]] 
 $$
- ||X_\bullet|| \simeq hocolim_{n \in \Delta} X_n
+ \Vert X_\bullet\Vert \simeq hocolim_{n \in \Delta} X_n
 $$
-If moreover $X_\bullet$ is proper, then the natural morphism  $ ||X|| \to |X|$ is a weak homotopy equivalence.
+If moreover $X_\bullet$ is proper, then the natural morphism  $ \Vert X\Vert \to |X|$ is a weak homotopy equivalence.
 
 =-- 
 
@@ -119,7 +119,7 @@ If moreover $X_\bullet$ is proper, then the natural morphism  $ ||X|| \to |X|$ i
 
 ###### Remark
 
-In case $X_\bullet$ is a good simplicial topological space, a direct (i.e., not using the fact that goodness implies properness) proof that $ ||X|| \to |X|$ is a weak homotopy equivalence has been sketched by Graeme Segal and then refined by Tammo tom Dieck.
+In case $X_\bullet$ is a good simplicial topological space, a direct (i.e., not using the fact that goodness implies properness) proof that $ \Vert X\Vert  \to |X|$ is a weak homotopy equivalence has been sketched by Graeme Segal and then refined by Tammo tom Dieck.
 
 =--
 
