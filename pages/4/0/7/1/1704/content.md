@@ -89,9 +89,7 @@ of ${*} \to \mathbf{B}G$.
 
 ### $G$-principal $\infty$-bundles {#GeneralPrincBund}
 
-By the general reasoning discussed at [[cohomology]], a [[cocycle]] for $G$-[[nonabelian cohomology]] on $X \in \mathbf{H}$ is just a morphism $g : X \to \mathbf{B}G$ in $\mathbf{H}$. 
-
-To this is canonically associated its [[homotopy fiber]]
+To every cocycle $g : X \to \mathbf{B}G$ is canonically associated its [[homotopy fiber]] $P \to X$, the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -99,13 +97,108 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    X &\to& \mathbf{B}G
+    X &\stackrel{g}{\to}& \mathbf{B}G
     \,.
+  }
+  \,.
+$$
+
+We discuss now that $P$ canonically has the structure of a $G$-[[principal ∞-bundle]] and that $\mathbf{B}G$ is the [[fine moduli space]] for $G$-principal $\infty$-bundles.
+
+
++-- {: .un_defn}
+###### Definition
+**(principal $G$-action)**
+
+Let $G$ be a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $\mathbf{H}$. A **principal [[action]]** of $G$ on an object $P \in \mathbf{H}$ is 
+a [[groupoid object in an (∞,1)-category|groupoid object in the (∞,1)-topos]] $P//G$ that sits over $*//G$ in that we have a 
+  morphism of [[simplicial object|simplicial diagram]]s $\Delta^{op} \to \mathbf{H}$
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    P \times G \times G
+    &\stackrel{(p_2, p_3)}{\to}& G \times G
+    \\
+   \downarrow\downarrow\downarrow 
+    && \downarrow\downarrow\downarrow
+    \\
+    P \times G
+    &\stackrel{p_2}{\to}& G
+    \\
+    \downarrow\downarrow && \downarrow\downarrow
+    \\
+    P &\stackrel{}{\to}& {*}
   }
 $$
 
-and we claim that $P \to X$ canonically extends to the structure of a [[groupoid object in an (∞,1)-category|groupoid object in an (∞,1)-topos]] 
-that exhibits the action of $G$ on $P$ in that it is a groupoid object _over_ $G$: it fits naturally into a diagram
+in $\mathbf{H}$.
+
+We say that the [[(∞,1)-colimit]]
+
+$$
+  X : \lim_\to (P//G : \Delta^{op} \to \mathbf{H})
+$$
+
+is the **base space** defined by this action.
+
+=--
+
+We may thinkl of $P//G$ as the **[[action groupoid]]** of the $G$-action on $P$. For us it _defines_ this $G$-action.
+
+
++-- {: .un_prop}
+###### Proposition
+
+The $G$-principal action as defined above satisfies the 
+**principality condition** in that we have an equivalence of
+groupoid objects
+
+ $$
+   \array{
+     \vdots && \vdots
+     \\
+     P \times_X P \times_X P
+     &\stackrel{\simeq}{\to}& 
+     P \times G \times G
+     \\
+    \downarrow\downarrow\downarrow 
+     && \downarrow\downarrow\downarrow
+     \\
+     P \times_X P
+     &\stackrel{\simeq}{\to}& 
+     P \times G
+     \\
+     \downarrow\downarrow && \downarrow\downarrow
+     \\
+     P &\stackrel{\simeq}{\to}& P
+   }
+   \,.
+ $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This principality condition asserts that the groupoid object $P//G$ is [[groupoid object in an (infinity,1)-category|effective]]. By [[(∞,1)-topos|Giraud's axioms characterizing (∞,1)-toposes]], every groupoid object in $\mathbf{H}$ is effective.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $X \to \mathbf{B}G$ any morphism, its [[homotopy fiber]] $P \to X$
+is canonically equipped with a principal $G$-action with base space $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the above we need to show that we have a morphism of simplicial diagrams
 
 $$
   \array{
@@ -132,19 +225,12 @@ $$
     \\
     X &\stackrel{=}{\to}& X &\stackrel{g}{\to}& \mathbf{B}G
   }
+  \,,
 $$
 
-+-- {: .un_prop }
-###### Proposition
+where the left horizontal morphissms are equivalences, as indicated. We proceed by induction through the height of this diagram.
 
-Here the horizontal morphisms on the left are indeed equivalences, as indicated.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The defining [[limit in a quasi-category|(∞,1)-pullback]] square for $P \times_X P$ is 
+The defining [[(∞,1)-pullback]] square for $P \times_X P$ is 
 
 $$
   \array{
@@ -169,7 +255,7 @@ $$
   }
 $$
 
-By the [pasting law for pullbacks](http://ncatlab.org/nlab/show/pullback#Pasting), this says that $P \times_X P$ is the pullback
+and use the [pasting law for pullbacks](http://ncatlab.org/nlab/show/pullback#Pasting), to conclude that $P \times_X P$ is the pullback
 
 $$
   \array{
@@ -182,7 +268,7 @@ $$
   }
 $$
 
-Again by defnition of $P$, the lower horizontal morphism is equivbalent to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is also (equivalent to) the pullback
+By defnition of $P$ as the homotopy fiber of $X \to \mathbf{B}G$, the lower horizontal morphism is equivbalent to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is also equivalent to the pullback
 
 $$
   \array{
@@ -208,9 +294,9 @@ $$
   }
 $$
 
-of which the one on the right is the defining one for $G$ and the remaining one on the left is just a [[product]].
+of which the one on the right is the defining one for $G$ and the remaining one on the left is just an [[(∞,1)-product]].  
 
-Proceeding by induction from this case one finds analogousy that $P^{\times_X^{n+1}} \simeq P \times G^{\times_n}$: suppose this has been shown for $(n-1)$, then the defining pullback square for $P^{\times_X^{n+1}}$ is
+Proceeding by induction from this case we find analogousy that $P^{\times_X^{n+1}} \simeq P \times G^{\times_n}$: suppose this has been shown for $(n-1)$, then the defining pullback square for $P^{\times_X^{n+1}}$ is
 
 $$
   \array{
@@ -251,157 +337,44 @@ $$
 
 to conclude the induction step with the same arguments as before.
 
-=--
-
-
-
-+-- {: .un_remark}
-###### Remark
-**(terminology)**
-
-For ordinary [[principal bundle]]s the following terminology is standard:
-
-* the morphism $P \times_X P \stackrel{}{\to} P \times G$ is the **division map**;
-
-* the fact that the division map is an equivalence is the **principality condition** on the $G$-action;
-
-* the image $\rho : P \times G \to P$ under the division map of the projection $p_2 : P \times_X P \to P$ is the **[[action]]** of $G$ on $P$.
 
 =--
-
-The above shows how every cocycle $X \to \mathbf{B}G$ induces a map $P \to X$ equipped with a $G$-action. Conversely, we may _define_ a $G$-action on an object $V$ to be a [[groupoid object in an (∞,1)-category|groupoid object in an (∞,1)-topos]] sitting over $G$.
-
 
 +-- {: .un_defn}
 ###### Definition
-**(principal $G$-action)**
 
-Let $G$ be a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $\mathbf{H}$. A principal [[action]] of $G$ on another object $V \in \mathbf{H}$ is a [[groupoid object in an (∞,1)-category|groupoid object in the (∞,1)-topos]] $V//G \to G$ _over $G$_ in that we have a morphism of [[simplicial object]]s
+We say a $G$-principal action of $G$ on $P$ over $X$ is a 
+$G$-[[principal ∞-bundle]] if the colimit over $P//G \to *//G$
+produces a pullback square: the bottom square in 
+
 
 $$
   \array{
     \vdots && \vdots
     \\
-    V \times G \times G
-    &\stackrel{(p_2, p_3)}{\to}& G \times G
+    P \times G \times G
+    &\to& G \times G
     \\
    \downarrow\downarrow\downarrow 
     && \downarrow\downarrow\downarrow
     \\
-    V \times G
+    P \times G
     &\stackrel{p_2}{\to}& G
     \\
     \downarrow\downarrow && \downarrow\downarrow
     \\
-    V &\stackrel{}{\to}& {*}
+    P &\stackrel{}{\to}& {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    X = \lim_\to (P \times G^\bullet) &\stackrel{g}{\to}& 
+   \mathbf{B}G = \lim_\to( G^\bullet)
   }
+  \,.
 $$
 
-in $\mathbf{H}$.
-
-We call the [[groupoid object in an (infinity,1)-category|groupoid object]] $(V \times G^\bullet)$ the **[[action groupoid]]** of the $G$-action on $V$. (For us it _defines_ this $G$-action.)
 
 =--
-
-+-- {: .un_remark}
-###### Remark
-
-Since by one of the Giraud's axioms that hold in the [[(∞,1)-topos]] $\mathbf{H}$ all groupoid objects are <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#Effective">effective</a> we have:
-
-1. we may essentially identify the simplicial object $(V \times G^\bullet)$
-   with its [[limit in a quasi-category|(∞,1)-colimit]]
-
-   $$
-     {\lim_\to}_n V \times G^{n} \;\;\; \in \mathbf{H}
-   $$
-
-   and we shall denote both by $V//G$.
-
-1. The above definition of $G$-action indeed _implies_ the principality condition
-
-   $$
-     \array{
-       \vdots && \vdots
-       \\
-       V \times_X V \times_X V
-       &\stackrel{\simeq}{\to}& 
-       V \times G \times G
-       \\
-      \downarrow\downarrow\downarrow 
-       && \downarrow\downarrow\downarrow
-       \\
-       V \times_X V
-       &\stackrel{\simeq}{\to}& 
-       V \times G
-       \\
-       \downarrow\downarrow && \downarrow\downarrow
-       \\
-       V &\stackrel{\simeq}{\to}& V
-     }
-   $$
-
-   where the base space $X := V//G$ is precisely the quotient object
-   in $\mathbf{H}$. This equivalence is precisely what effectivity means.
-
-
-=--
-
-
-
-+-- {: .un_def}
-###### Definition
-**($G$-$\infty$-torsor / $G$-principal $\infty$-bundle)**
-
-The above shows that every $G$-cocycle induces 
-
-1. an **$\infty$-[[bundle]]** $P \to X$ 
-
-1. equipped with a **$G$-[[action]]** on $P$
-
-1. which is **principal** in that $X \simeq P//G$
-
-Conversely, any such collection we call
-a **$G$-principal $\infty$-bundle** or a **$G$-$\infty$-torsor** 
-over $X$ in the given [[(∞,1)-topos]] $\mathbf{H}$.
-
-=--
-
-+-- {: .un_remark}
-###### Remark
-**(classification of $G$-principal $\infty$-bundles)**
-
-The ambient [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}$ 
-satisfies (as described there) the analog of Giraud's axioms.
-These serve to show that $G$-principal $\infty$-bundles are
-indeed _classified_ by their corresponding cocycles:
-
-one of the axioms says that every 
-[[groupoid object in an (∞,1)-category|groupoid object]] in $\mathbf{H}$
-is [[quotient object|effective]], in that the morphism to its
-[[homotopy colimit]] is an [[effective epimorphism]].
-
-But this means that starting with the $G$-action on $P$, 
-passing to the [[cocycle]] $g$ obtained from the quotient
-
-$$
-  \array{
-     &&P &\to& {*}
-     \\
-     &&\downarrow  && \downarrow
-     \\
-     X &\stackrel{\simeq}{\to}& P//G &\stackrel{g}{\to}& \mathbf{B}G
-  }
-$$
-
-and then reconstructing from this cocycle its [[homotopy fiber]]
-with the induced $G$-action as above, we do reproduce, up  to equivalence
-the $G$-principal bundle that we started with.
-
-=--
-
-
-
-
  
 ### Morphisms of $G$-principal $\infty$-bundles
 
