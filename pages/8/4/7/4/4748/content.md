@@ -29,16 +29,16 @@ Generally, a [[connection on an ∞-bundle]] induces a notion of parallel transp
 The higher notions of [[differential cohomology]] and [[Chern-Weil theory]] make sense in any [[cohesive (∞,1)-topos]] 
 
 $$
-  (\Pi_{smooth} \dahshv Disc_{smooth} \dashv \Gamma_{smooth}) : 
+  (\Pi \dashv Disc \dashv \Gamma) : 
    \mathbf{H} 
-   \stackrel{\overset{\Pi_{smooth}}{\to}}{\stackrel{\overset{Disc_{smooth}}{\leftarrow}}{\underset{\Gamma_{smooth}}{\to}}}
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}
   \infty Grpd \simeq Top
   \,.
 $$
 
 In every such there is a notion of [[connection on an ∞-bundle]] and of its higher parallel transport.
 
-A typical context considered (implicitly) in the literature is $\mathbf{H} = $ [[?LieGrpd]], the cohesive $(\infty,1)$-topos of [[∞-Lie groupoid|smooth ∞-groupoids]]. But other choices are possible. (See the [Examples](#Examples).)
+A typical context considered (more or less explicitly) in the literature is $\mathbf{H} = $ [[?LieGrpd]], the cohesive $(\infty,1)$-topos of [[∞-Lie groupoid|smooth ∞-groupoids]]. But other choices are possible. (See also the [Examples](#Examples).)
 
 
 ### Higher parallel transport
@@ -599,6 +599,23 @@ The first statement is a special case of that spelled out at [[?LieGrpd]] and [[
 
 (...)
 
+### $\infty$-Parallel transport from flat differential forms with values in chain complexes
+
+A typical choice for an [[(∞,1)-category]] of "$\infty$-vector spaces" is that [[presentable (∞,1)-category|presented]] by the a [[model structure on chain complexes]] of modules. In a geometric context this may be replaced by some stack of complexes of vector bundles over some site. 
+
+If we write $Mod$ for this stack, then the $\infty$-parallel transport for a flat $\infty$-vector bundle on some $X$ is a morphism
+
+$$
+  \mathbf{\Pi}(X) \to Mod
+  \,.
+$$
+
+This is typically given by differential form data with values in $Mod$.
+
+A discussion of how to integrate flat differential forms with values in chain complexes -- a representation of the [[tangent Lie algebroid]] as discussed at [[representations of ∞-Lie algebroids]] --
+to flat $\infty$-parallel transport $\mathbf{\Pi}(X) \to Mod$ is in ([AbadSchaetz](#abadSchaetz)), building on a construciton in ([Igusa](#Igusa)).
+
+
 ## Applications
 
 ### In physics
@@ -617,7 +634,9 @@ In [[physics]] various [[action functional]]s for [[quantum field theories]] are
 
 ## References
 
-For references on parallel 2-transport in bundle gerbes see [[connection on a bundle gerbe]].
+For references on ordinary 1-dimensional parallel transport see [[parallel transport]].
+
+For references on parallel 2-transport in [[bundle gerbe]]s see [[connection on a bundle gerbe]].
 
 The description of parallel $n$-transport in terms of $n$-functors on the [[path n-groupoid]] is in 
 
@@ -635,8 +654,19 @@ The description of [[connections on a 2-bundle]] in terms of such parallel 2-tra
 * U.S. [[Konrad Waldorf]] _Nonabelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
 {#SWIII}
 
-Remarks on $\infty$-parallel transport in [[Top]] are in
 
+The integration of flat differential forms with values in chain complexes toflat $\infty$-parallel transport on $\infty$-vector bundles is in 
+
+* [[Camilo Arias Abad]], [[Florian Schaetz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv](http://arxiv.org/abs/1011.4693))
+{#AbadSchaetz}
+
+based on constructions in
+
+* [[Kiyoshi Igusa]], _Iterated integrals of superconnections_ ([arXiv](http://arxiv.org/abs/0912.0249))
+{#Igusa}
+
+Remarks on $\infty$-parallel transport in [[Top]] are in
 
 * [[Jim Stasheff]], _[[StasheffParallelTransportv01.pdf:file]]_
 {#Stasheff}
+
