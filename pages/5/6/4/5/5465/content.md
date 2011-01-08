@@ -1,2 +1,9 @@
+
+According to the [[Löwenheim-Skolem theorem]], for a [[first-order logic|first-order]] [[theory]] with a [[countable set|countable]] alphabet if there is an [[infinite set|infinite]] [[model theory|model]], then there is a countable model. Let us consider the language of some form of [[set theory]] and a model satisfying the [[axiom of infinity]]. Then Cantor's diagonal argument can be carried internally within the model and provides internally uncountable "sets" in that countable model.
+
+The resolution of this apparent paradox is that, while this conclusion is true internally, it is not true externally: namely any two infinite sets are countable externally in that model, hence there is a $1$--$1$ function between any two of them including for a model of some uncountable set $X$ and of its power set $P(X)$. However, the that function (or its graph) is not in the model! One can enlarge the model by adding that function (and more). But this extended model will necessary have $P(X)$ uncountable externally and there is no $1$--$1$ function from $X$ to $P(X)$ externally any more. 
+
+
+[[!redirects Skolem's paradox]]
+[[!redirects Skolem's paradox]]
 [[!redirects Skolem paradox]]
-According to the [[Löwenheim-Skolem theorem]], for a [[first order theory]] with a countable alphabet if there is a model, there is a countable model. Let us consider the language of set theory and a model satisfying the axiom of infinity. Then the Cantor's diagonal argument can be carried internally within the model and provides internally uncountable "sets" in that countable model. While Cantor's diagonal argument is true internally it is not true externally: namely any two infinite sets are countable externally in that model, hence there is a 1-1 function between any two of them including for a model of some uncountable set $X$ and of its power set $P(X)$. However, the graph of that function is not a set in the model! One can enlarge the model by adding that graph (and more). But this extended model will necessary have $P(X)$ uncountable edxternally and there is no 1-1 function from $X$ to $P(X)$ externally any more. 
