@@ -1,4 +1,5 @@
-# Lists and free monoids
+
+# Finite lists and free monoids
 * table of contents
 {: toc}
 
@@ -7,7 +8,7 @@
 Given a [[set]] $S$, the __free monoid__ on $S$ is the set $S^*$ of all __lists__ (finite [[sequences]]) of elements of $S$, made into a monoid using __concatenation__.  The [[free functor]] from [[Set]] to [[Mon]] takes $S$ to $S^*$.
 
 
-## Definitions ##
+## Definitions
 
 We will give three definitions, which can all be shown equivalent.
 
@@ -105,6 +106,8 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 [[!redirects lists]]
 [[!redirects finite list]]
 [[!redirects finite lists]]
+[[!redirects finite sequence]]
+[[!redirects finite sequences]]
 
 [[!redirects concatenation]]
 [[!redirects cons]]
