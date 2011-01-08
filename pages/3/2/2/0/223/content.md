@@ -21,12 +21,14 @@
 
 A [[category]] is **small** if it has a [[small set]] of [[object]]s and a [[small set]] of [[morphism]]s.  
 
-In other words, a small category is an [[internal category]] in the category [[Set]].  
+In other words, a small category is an [[internal category]] in the category [[Set]].
+
+A category which is not small is called [[large category|large]].
 
 
 ## Properties
 
-Small categories are free of some of the subtleties that apply to [[large category|large categories]].
+Small categories are free of some of the subtleties that apply to large categories.
 
 A category is said to be **essentially small** if it is [[equivalence of categories|equivalent]] to a small category.  Assuming the [[axiom of choice]], this is the same as saying that it has a small [[skeleton]], or equivalently that it is [[locally small category|locally small]] and has a [[small set|small number]] of isomorphism classes of objects.
 
