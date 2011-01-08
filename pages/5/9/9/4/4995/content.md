@@ -164,6 +164,91 @@ A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with 
 The order is roughly by additional axioms needed for the
 structure to exist. The first few exist in every $(\infty,1)$-topos, then there are several that need only local and some that also need global $\infty$-connectivity, and finally there are some that also need $\infty$-locality.
 
+### Geometry and structure sheaves {#GeometryAndStructureSheaves}
+
++-- {: .un_def}
+###### Definition
+
+Fix an uncountable [[regular cardinal]] $\kappa$. Let 
+
+$$
+  \mathcal{G} \hookrightarrow Conc(\mathbf{H}) \hookrightarrow \mathbf{H}
+$$ 
+
+be the full [[sub-(∞,1)-category]] of [concrete objects](#ConcreteObjects) whose underlying $\infty$-groupoid is a $\kappa$-[[small (infinity,1)-category|small ∞-groupoid]]. 
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+We equip $\mathcal{G}$ with the canonical structure of a [[geometry (for structured (infinity,1)-toposes)|geometry]]:
+
+* the _admissible morphisms_ are the [[monomorphism in an (infinity,1)-category|monomorphisms]];
+
+* a family $\{U_i \to U\}$ of monomorphisms is a [[covering]] if the induced morphism out of the coproduct
+
+  $$
+    \coprod_i U_i \to U
+  $$
+
+  is an [[effective epimorphism]] in $\mathbf{H}$;
+
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+This definition indeed makes $\mathcal{G}$ a [[geometry (for structured (infinity,1)-toposes)|geometry]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the $\kappa$-bound $\mathcal{G}$ is a [[small (∞,1)-category]].
+
+Monomorphisms are stable under pullbacks and satisfy 2-out-of-3 (See [[monomorphism in an (∞,1)-category]].)
+
+The quasi-$(\infty,1)$-topos $Conc(\mathbf{H})$ has all finite $(\infty,1)$-limits and these are preserved by the right adjoint inclusion $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$.
+
+It also has all $\kappa$-bounded $(\infty,1)$-colimits (computed in $\mathbf{H}$ and reflected back into $\mathcal{G}$), hence is an [[idempotent complete (∞,1)-category]].
+
+A covering family in $\mathcal{G}$ goes to an effective epimorphism by definition. Effective epimorphisms are stable under pullback in $\mathcal{G}$ because that pullback coincides with the pullback in $\mathbf{H}$ where the statement holds due to [[universal colimits]] of the $(\infty,1)$-topos.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+
+For every object $X \in \mathbf{H}$ define the functor
+
+$$
+  \mathcal{O}_X : \mathcal{G} \hookrightarrow \mathbf{H}
+   \stackrel{X^*}{\to} \mathbf{H}/X
+$$
+
+from $\mathcal{G}$ to the [[over-(∞,1)-topos]] over $X$, where $X^*$ is the [[inverse image]] functor of the corresponding [[étale geometric morphism]].
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+This makes $\mathbf{H}/X$ a $\mathcal{G}$-[[structured (∞,1)-topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $X^*$, being an inverse image, preserves finite limits and since it preserves effective epimorphisms, by [[universal colimits]].
+
+=--
+
+
 ### $\infty$-Groups {#InfinGroups}
 
 Every [[(∞,1)-category]] with [[(∞,1)-limit]]s comes with its notion of [[loop space object]]. A [[connected]] object in $\mathbf{H}$ we write $\mathbf{B}G$. Its [[loop space object]]
@@ -1445,89 +1530,68 @@ $\infty$-bundle given by the cocycle $X \to \mathbf{\Pi}(X) \stackrel{\omega}{\t
 
 =--
 
-### Concrete objects: Cohesive $\infty$-groupoids {#ConcreteObjects}
+### Concrete objects{#ConcreteObjects}
 
-The general object $X \in \mathbf{H}$ in a cohesive $(\infty,1)$-topos may be non-[[concrete (∞,1)-sheaf|concrete]] in that it is not modeled on its [[point]]s, or rather its underlying [[∞-groupoid]] $\Gamma X$. 
 
-Since 
+The cohesive structure on an object in a cohesive 
+$(\infty,1)$-topos need not be supported by points. 
+We discuss a general abstract characterization of  
+objects that do have an interpretation as bare $n$-groupoids 
+equipped with cohesive structure.
+
++-- {: .un_prop}
+###### Proposition
+
+On a cohesive $(\infty,1)$-topos $\mathbf{H}$ 
+both $\mathrm{Disc}$ and $\mathrm{coDisc}$ 
+are [[full and faithful (∞,1)-functor]]s and $\mathrm{coDisc}$ exhibits [[∞Grpd]]  as a sub-$(\infty,1)$-topos of $\mathbf{H}$ by an  
+[[(∞,1)-geometric embedding]]
 
 $$
-  \infty Grpd \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
+  \infty Grpd
+    \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\hookrightarrow}}
   \mathbf{H}
+  \,.
 $$
-
-is a [[geometric embedding]], the reflector $\Gamma$ encodes the [[localization of an (∞,1)-category]] at a class of morphisms $W$, realizing $\infty Grpd$ as the [[reflective sub-(∞,1)-category]] on the $W$-[[local object]]s. This inclusion factors canonically through the corresponding [[(∞,1)-quasitopos]] of $W$-[[separated presheaf|separated (∞,1)-sheaves]]
-
-+-- {: .un_def}
-###### Definition
-
-The objects in the $(\infty,1)$-quasitopos
-
-$$
-  \infty Grpd 
-    \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
-   Conc(\mathbf{H})
-   \stackrel{\overset{concretizaton}{\leftarrow}}{\underset{}{\hookrightarrow}}
-   \mathbf{H}
-$$
-
-inside $\mathbf{H}$ we call the **[[concrete (∞,1)-sheaf|concrete]] objects** or **cohesive $\infty$-groupoids**-
-
-=--
-
-
-### Geometry and structure sheaves {#GeometryAndStructureSheaves}
-
-+-- {: .un_def}
-###### Definition
-
-Fix an uncountable [[regular cardinal]] $\kappa$. Let 
-
-$$
-  \mathcal{G} \hookrightarrow Conc(\mathbf{H}) \hookrightarrow \mathbf{H}
-$$ 
-
-be the full [[sub-(∞,1)-category]] of [concrete objects](#ConcreteObjects) whose underlying $\infty$-groupoid is a $\kappa$-[[small (infinity,1)-category|small ∞-groupoid]]. 
-
-=--
-
-+-- {: .un_def}
-###### Definition
-
-We equip $\mathcal{G}$ with the canonical structure of a [[geometry (for structured (infinity,1)-toposes)|geometry]]:
-
-* the _admissible morphisms_ are the [[monomorphism in an (infinity,1)-category|monomorphisms]];
-
-* a family $\{U_i \to U\}$ of monomorphisms is a [[covering]] if the induced morphism out of the coproduct
-
-  $$
-    \coprod_i U_i \to U
-  $$
-
-  is an [[effective epimorphism]] in $\mathbf{H}$;
-
-
-=--
-
-+-- {: .un_lemma}
-###### Observation
-
-This definition indeed makes $\mathcal{G}$ a [[geometry (for structured (infinity,1)-toposes)|geometry]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the $\kappa$-bound $\mathcal{G}$ is a [[small (∞,1)-category]].
+The full and faithfulness of $Disc$ and $coDisc$ follows as
+in the discussion at [[∞-connected (∞,1)-topos]],
+Since $\Gamma$ is also a right adjoint it preserves 
+in particular [[finite limit|finite]] [[(∞,1)-limit]]s, so that
+$(\Gamma \dashv \mathrm{coDisc})$ is indeed an 
+[[(∞,1)-geometric morphism]]. 
+(See the general discussion at [[local (∞,1)-topos]].)
 
-Monomorphisms are stable under pullbacks and satisfy 2-out-of-3 (See [[monomorphism in an (∞,1)-category]].)
 
-The quasi-$(\infty,1)$-topos $Conc(\mathbf{H})$ has all finite $(\infty,1)$-limits and these are preserved by the right adjoint inclusion $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$.
 
-It also has all $\kappa$-bounded $(\infty,1)$-colimits (computed in $\mathbf{H}$ and reflected back into $\mathcal{G}$), hence is an [[idempotent complete (∞,1)-category]].
+=--
 
-A covering family in $\mathcal{G}$ goes to an effective epimorphism by definition. Effective epimorphisms are stable under pullback in $\mathcal{G}$ because that pullback coincides with the pullback in $\mathbf{H}$ where the statement holds due to [[universal colimits]] of the $(\infty,1)$-topos.
++-- {: .un_prop}
+###### Proposition
+
+
+The [[(∞,1)-topos]] [[∞Grpd]] is equivalent to 
+the full [[sub-(∞,1)-category]] of $\mathbf{H}$ on 
+those objects $X \in \mathbf{H}$ for which the 
+[[unit of an adjunction|counit]]
+ 
+$$
+    X \to \mathrm{coDisc}\Gamma X
+$$
+  
+is an [[equivalence in an (∞,1)-category|equivalence]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by general facts discussed at [[reflective sub-(∞,1)-category]].
 
 =--
 
@@ -1535,30 +1599,104 @@ A covering family in $\mathcal{G}$ goes to an effective epimorphism by definitio
 ###### Definition
 
 
-For every object $X \in \mathbf{H}$ define the functor
+For $n \in \mathbb{N}$
+we say an object $X \in \mathbf{H}$ is 
+**$n$-concrete** if the [[unit of an adjunction|counit]]
 
 $$
-  \mathcal{O}_X : \mathcal{G} \hookrightarrow \mathbf{H}
-   \stackrel{X^*}{\to} \mathbf{H}/X
+  X \to \mathrm{coDisc} \Gamma X
 $$
 
-from $\mathcal{G}$ to the [[over-(∞,1)-topos]] over $X$, where $X^*$ is the [[inverse image]] functor of the corresponding [[étale geometric morphism]].
+is an $(n-2)$-[[truncated]] morhism.
 
 =--
 
-+-- {: .un_lemma}
-###### Observation
++-- {: .un_remark}
+###### Remark
 
-This makes $\mathbf{H}/X$ a $\mathcal{G}$-[[structured (∞,1)-topos]].
+
+Since a $(-2)$-truncated morphism are precisely the
+[[equivalence in an (∞,1)-category|equivalences]], 
+the 0-concrete objects are
+precisely the codiscrete objects, by the above. 
+
+The 1-concrete objects are those for which 
+$X \to \mathrm{coDisc} \Gamma X$ is a 
+[[monomorphism in an (∞,1)-category]].
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+An object $X \in \mathbf{H}$ is $n$-concrete precisely if for $C$ any [[(∞,1)-site]] of definition
+of $\mathbf{H}$ we have that for all $U \in C$ the morphism
+
+  $$
+    X(U) \to \mathrm{Func}(\Gamma(U), \Gamma(X))
+  $$
+
+  is $(n-2)$-truncated.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Since $X^*$, being an inverse image, preserves finite limits and since it preserves effective epimorphisms, by [[universal colimits]].
+Monomorphisms of [[(∞,1)-sheaves]] are detected objectwise. 
+Using the [[(∞,1)-Yoneda lemma]] and the $(\Gamma \dashv \mathrm{coDisc})$-adjunction 
+ we have therefore that $X$ is $n$-concrete precisely if for all $U \in C$ the morphism
+ 
+ $$
+    X(U) \simeq \mathbf{H}(U,X) \to \mathbf{H}(U, \mathrm{coDisc} \Gamma X)
+    \simeq \infty \mathrm{Grpd}(\Gamma(U), \Gamma(X))
+  $$
+
+is $(n-2)$-truncated.
 
 =--
+
++-- {: .un_prop}
+###### Proposition
+
+We say that an object $X \in \mathbf{H}$ that is both $n$-truncated and $(n+1)$-concrete,
+  is a **concrete cohesive $n$-groupoid** .
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+
+By the above we think of a concrete cohesive $n$-groupoid $X$ as a bare [[n-groupoid]] $\Gamma X \in n \mathrm{Grpd} \hookrightarrow \infty \mathrm{Grpd}$ 
+_equipped with cohesive structure_
+given by the information which  maps of bare $\infty$-groupoids from test
+object $U$ to $S$ and which homotopies of these and 
+higher homotopies of those 
+are to be regarded as _cohesive structure preserving_ .
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Let $\mathbf{H}$ be the cohesive $(\infty,1}$-topos over an
+[[∞-cohesive site]]. Then we have
+
+* The concrete cohesive $(-1)$-groupoids are precisely the 
+  [[terminal object in an (∞,1)-category|terminal]]
+  and the [[initial object]] of $\mathbf{H}$.
+
+* The concrete cohesive 0-groupoids
+  are precisely the [[concrete sheaves]] on $C$ 
+  in the traditional sense
+
+=--
+
+
+
+
 
 ### Infinitesimal objects: $\infty$-Lie algebroids {#InfinitesimalObjects}
 
