@@ -26,7 +26,7 @@
 
   [[∞-algebra over an (∞,1)-operad]]
 
-
+* [[∞-representation]]
 
 ## Higher algebras
 
