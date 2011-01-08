@@ -53,13 +53,13 @@ satisfying 'cocycle equations'
 
 modulo coherent isos, where the $p_i$ are the projections out of $C_2$.
 
-By the [[Yoneda lemma for bicategories]], the object $P$ determines (up to canonical isomorphism) a pseudonatural $\alpha^0 : S(-,C_0) \to F_0$ in $[S^{op},Cat]$, where $S$ is considered as a locally discrete bicategory, and $F_0(X) = ob F X$ considered as a discrete category, such that $\alpha^0(f) \cong f^* P$.  Similarly, $\phi$ determines $\alpha^1 : S(-,C_1) \to F_1 = arr \circ F$, and $\alpha^1(g) \cong g^* \phi$.  It is not hard to check that the conditions above correspond to requiring that the $\alpha^i_X$ form a functor $E(X,C) \to F X$ for each $X$, and pseudonaturality then makes the $C$-diagram $(P,\phi)$ equivalent to an [[indexed functor]] $E(-,C) \to F$.  The category of $C$-diagrams in $F$ is then simply the hom-category $[E^{op},Cat](E(-,C),F)$.
+By the [[Yoneda lemma for bicategories]], the object $P$ determines (up to canonical isomorphism) a pseudonatural $\alpha^0 : E(-,C_0) \to F_0$ in $[E^{op},Cat]$, where $E$ is considered as a locally discrete bicategory, and $F_0(X) = ob F X$ considered as a discrete category, such that $\alpha^0(f) \cong f^* P$.  Similarly, $\phi$ determines $\alpha^1 : E(-,C_1) \to F_1 = arr \circ F$, and $\alpha^1(g) \cong g^* \phi$.  It is not hard to check that the conditions above correspond to requiring that the $\alpha^i_X$ form a functor $E(X,C) \to F X$ for each $X$, and pseudonaturality then makes the $C$-diagram $(P,\phi)$ equivalent to an [[indexed functor]] $E(-,C) \to F$.  The category of $C$-diagrams in $F$ is then simply the hom-category $[E^{op},Cat](E(-,C),F)$.
 
 ### Examples
 
-* An internal diagram on $C$ in the sense above is a $C$-diagram in the [[codomain fibration]] of $S$, that is the pseudofunctor $X \mapsto S/X$.
+* An internal diagram on $C$ in the sense above is a $C$-diagram in the [[codomain fibration]] of $E$, that is the pseudofunctor $X \mapsto E/X$.
 
-* If $S$ is equipped with a [[coverage]] and $C$ is the [[Cech nerve]] associated to a cover $p : U \to X$ in $S$, then the category of $C$-diagrams in $E$ is the [[descent]] category $Des_p(E)$.
+* If $E$ is equipped with a [[coverage]] and $C$ is the [[Cech nerve]] associated to a cover $p : U \to X$ in $E$, then the category of $C$-diagrams in $F$ is the [[descent]] category $Des_p(F)$.
 
 
 ## References
