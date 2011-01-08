@@ -67,7 +67,7 @@ Then
     \,.
   $$
 
-* Finally the Cartesian test spaces themselves sind inside this hierarchy via the [[Yoneda embedding]]  $CartSp \hookrightarrow Sh(CartSp)$ , which we have hence factored as
+* Finally the Cartesian test spaces themselves sit inside this hierarchy via the [[Yoneda embedding]]  $CartSp \hookrightarrow Sh(CartSp)$ , which we have hence factored as
 
   $$
     CartSp \hookrightarrow
