@@ -15,13 +15,13 @@
 
 ## Definition
 
-A [[∞-connected (∞,1)-topos]] 
+A [[locally ∞-connected (∞,1)-topos]] 
 
 $$
   (\Pi \dashv \Delta \dashv \Gamma) : \mathbf{H} \to \infty Grpd
 $$ 
 
-is called **strongly connected** if $\Pi$ preserves [[finite limit|finite]] [[(∞,1)-product]]s.
+is called **strongly connected** if $\Pi$ preserves [[finite limit|finite]] [[(∞,1)-product]]s (hence in particular the [[terminal object]], which makes it also an [[∞-connected (∞,1)-topos]]). 
 
 Similarly for an $n$-connected $(n,1)$-topos.
 
