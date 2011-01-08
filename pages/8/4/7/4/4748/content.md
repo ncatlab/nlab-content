@@ -23,8 +23,25 @@ A [[connection on a bundle]] induces a notion of [[parallel transport]] over _pa
 
 Generally, a [[connection on an ∞-bundle]] induces a notion of parallel transport in arbitrary dimension.
 
+
 ## Definition
 
+The higher notions of [[differential cohomology]] and [[Chern-Weil theory]] make sense in any [[cohesive (∞,1)-topos]] 
+
+$$
+  (\Pi_{smooth} \dahshv Disc_{smooth} \dashv \Gamma_{smooth}) : 
+   \mathbf{H} 
+   \stackrel{\overset{\Pi_{smooth}}{\to}}{\stackrel{\overset{Disc_{smooth}}{\leftarrow}}{\underset{\Gamma_{smooth}}{\to}}}
+  \infty Grpd \simeq Top
+  \,.
+$$
+
+In every such there is a notion of [[connection on an ∞-bundle]] and of its higher parallel transport.
+
+A typical context considered (implicitly) in the literature is $\mathbf{H} = $ [[?LieGrpd]], the cohesive $(\infty,1)$-topos of [[∞-Lie groupoid|smooth ∞-groupoids]]. But other choices are possible. (See the [Examples](#Examples).)
+
+
+### Higher parallel transport
 
 Let $A$ be an [[∞-Lie groupoid]] such that morphisms $X \to A$ in [[?LieGrpd]] classify the $A$-[[principal ∞-bundle]]s under consideration. Write $A_{conn}$ for the differential refinement described at [[∞-Lie algebra valued form]], such that lifts
 
@@ -98,12 +115,12 @@ $$
 ###### Remark
 
 
-The objects of the [[schreiber:path ∞-groupoid]] $\mathbf{\Pi}(\Sigma)$ are points in $\Sigma$, the morphisms are paths in there, the 2-morphisms surves between these paths, and so on. Hence a morphism $\mathbf{\Pi}(\Sigma) \to A$ assigns fibers in $A$ to points in $X$, and equivalences between these fibers to paths in $\Sigma$, and so on.
+The objects of the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">path ∞-groupoid</a> $\mathbf{\Pi}(\Sigma)$ are points in $\Sigma$, the morphisms are paths in there, the 2-morphisms surves between these paths, and so on. Hence a morphism $\mathbf{\Pi}(\Sigma) \to A$ assigns fibers in $A$ to points in $X$, and equivalences between these fibers to paths in $\Sigma$, and so on.
 
 =--
 
 
-## Higher holonomy
+### Higher holonomy
 
 We now define thee higher analog of [[holonomy]] for the case that $\Sigma$ is closed.
 
@@ -127,11 +144,158 @@ $$
 =--
 
 
-## In terms of parallel transport $n$-functors on $n$-paths
+
+
+
+
+## Examples {#Examples}
+
+### For trivial circle $n$-bundles / for $n$-forms
+
+The simplest example is the parallel transport in a [[circle n-bundle with connection]] over a [[smooth manifold]] $X$ whose underlying $\mathbf{B}^{n-1}U(1)$-bundle is trivial. This is equivalently given by a degree $n$-[[differential form]] $A \in \Omega^n(X)$. For $\phi : \Sigma_n \to X$ any [[smooth function]] from an $n$-dimensional manifold $\Sigma$, the corresponding parallel transport is simply the [[integral]] of $A$ over $\Sigma$:
+
+$$
+  \tra_A(\Sigma) = \exp(i \int_\Sigma \phi^* A)
+  \;\;\; \in \;\; U(1)
+  \,.
+$$
+
+One can understand higher parallel transport therefore as a generalization of integration of diifferential $n$-forms to the case where
+
+* the $n$-form is not globally defined;
+
+* the $n$-form takes values not in $\mathbb{R}$ but more generally is an [[∞-Lie algebroid valued differential form]].
+
+### For circle $n$-bundles with connection
+
+We show how the $n$-holonomy of [[circle n-bundles with connection]] is reproduced from the above.
+
+Let $\phi^* \nabla : \mathbf{\Pi}(\Sigma) \to \mathbf{B}^n U(1)$ be the parallel transport for a [[circle n-bundle with connection]] over a $\phi : \Sigma \to X$.
+
+This is equivalent to a morphism
+
+$$
+  \Pi(\Sigma) \to \mathcal{B}^n U(1)
+  ,.
+$$
+
+We may map this further to its $(n-dim \Sigma)$-[[nLab:truncated|truncation]]
+
+$$
+  :\infty Grpd(\Pi(\Sigma), \mathcal{B}^n U(1)) 
+  \to
+  \tau_{n-dim \Sigma} \infty Grpd(\Pi(X), \mathcal{B}^n U(1))
+  \,.
+$$
+
++-- {: .un_theorem}
+###### Theorem
+
+We have
+
+$$
+  \tau_{n-dim\Sigma} \infty Grpd(\Pi(\Sigma), \mathcal{B}^n U(1))
+  \simeq
+  \mathbf{B}^{n-dim \Sigma} U(1)
+  \,.
+$$
+
+=--
+
+(This is due to an observation by [[nLab:Domenico Fiorenza]].)
+
++-- {: .proof}
+###### Proof
+
+By general abstract reasoning (recalled at [[nLab:cohomology]] and [[nLab:fiber sequence]]) we have for the [[nLab:homotopy group]]s that
+
+\[
+  \pi_i \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))
+  \simeq 
+  H^{n-i}(\Sigma, U(1))
+  \,.
+\]
+
+Now use the [[nLab:universal coefficient theorem]], which asserts that we have an [[nLab:exact sequence]]
+
+\[
+  0
+  \to 
+  Ext^1(H_{n-i-1}(\Sigma,\mathbb{Z}),U(1))
+  \to 
+  H^{n-i}(\Sigma,U(1))
+  \to 
+  Hom(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
+  \to 0
+  \,.
+\]
+
+Since $U(1)$ is an [[nLab:injective object|injective]] $\mathbb{Z}$-[[nLab:module]] we have 
+
+$$
+  Ext^1(-,U(1))=0
+  \,.
+$$  
+
+This means that we have an [[nLab:isomorphism]]
+
+\[
+  H^{n-i}(\Sigma,U(1))
+  \simeq 
+  Hom_{Ab}(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
+\]
+
+that identifies the [[nLab:cohomology group]] in question with the [[nLab:internal hom]] in [[nLab:Ab]] from the integral [[nLab:homology]] group of $\Sigma$ to $U(1)$.
+
+For $i\lt (n-dim \Sigma)$, the right hand is zero, so that 
+
+$$
+  \pi_i \infty Grpd(\Pi(\Sigma),\mathbf{B}^n U(1)) =0 \;\;\;\;
+  for i\lt (n-dim \Sigma)
+  \,. 
+$$ 
+
+For $i=(n-dim \Sigma)$, instead, $H_{n-i}(\Sigma,\mathbb{Z})\simeq \mathbb{Z}$, since $\Sigma$ is a closed $dim \Sigma$-manifold and so 
+
+$$
+  \pi_{(n-dim\Sigma)} \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))\simeq U(1)
+  \,.
+$$
+
+
+=--
+
+
++-- {: .un_def}
+###### Definition 
+
+The resulting morphism
+
+$$
+  \mathbf{H}(\Sigma, A_{conn})
+  \stackrel{\exp(i S(-))}{\to}
+  \mathbf{B}^{n-dim\Sigma} U(1)
+$$
+
+in [[nLab:∞Grpd]] we call the **$\infty$-Chern-Simons action** on $\Sigma$.
+
+=--
+
+Here in the language of [[nLab:quantum field theory]]
+
+* the [[nLab:object]]s of $\mathbf{H}(\Sigma,A_{conn})$ are the [[nLab:gauge field]] on $\Sigma$;
+
+* the [[nLab:morphism]]s in $\mathbf{H}(\Sigma, A_{conn})$ are the [[nLab:gauge transformation]]s;.
+
+### Nonabelian parallel transport in low dimension
 
 At least in low categorical dimension one has the definition of the [[path n-groupoid]] $\mathbf{P}_n(X)$ of a smooth manifold, whose $n$-morphisms are [[thin homotopy]]-classes of smooth functions $[0,1]^n \to X$. Parallel $n$-transport with only the $(n+1)$-curvature form possibly nontrivial and all the lower curvature degree 1- to $n$-forms nontrivial may be expressed in terms of smooth $n$-functors out of $\mathbf{P}_n$ ([SWI](#SWI), [SWII](#SWII), [MartinsPickenI](#MartinsPickenI), [MartinsPickenII](#MartinsPickenII)).
 
-### 2-Transport
+#### 1-Transport
+
+See [[parallel transport]].
+
+#### 2-Transport
 
 We work now concretely in the category $2DiffeoGrpd$ of [[2-groupoid]]s [[internalization|internal to]] the category of [[diffeological space]]s.
 
@@ -303,154 +467,137 @@ is independent of $z$. But at $z = 0$ this equals $\frac{\partial^2 F_\Gamma}{\p
 
 =--
 
+#### 3-Transport
 
+see [[3-groupoid of Lie 3-algebra valued forms]]
 
+### Flat $\infty$-parallel transport in $Top$ {#FlatInTop}
 
-## Examples
-
-### For trivial circle $n$-bundles / for $n$-forms
-
-The simplest example is the parallel transport in a [[circle n-bundle with connection]] over a [[smooth manifold]] $X$ whose underlying $\mathbf{B}^{n-1}U(1)$-bundle is trivial. This is equivalently given by a degree $n$-[[differential form]] $A \in \Omega^n(X)$. For $\phi : \Sigma_n \to X$ any [[smooth function]] from an $n$-dimensional manifold $\Sigma$, the corresponding parallel transport is simply the [[integral]] of $A$ over $\Sigma$:
+One can consider $\infty$-parallel transport in the [[cohesive (∞,1)-topos]] [[Top]], but in this case lots of structure degenerates, since by the [[homotopy hypothesis]]-theorem here the [[global section]] [[(∞,1)-geometric morphism]]
 
 $$
-  \tra_A(\Sigma) = \exp(i \int_\Sigma \phi^* A)
-  \;\;\; \in \;\; U(1)
+  (\Pi \dahsv \Delta \dahsv \Gamma) : Top 
+   \stackrel{\overset{\Pi}{\leftarrow}}{\stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\to}}} \in
+ \infty Grpd
+$$
+
+an [[equivalence in an (∞,1)-category|equivalence]]. The abstract [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] $\Pi$ is here the ordinary [[fundamental ∞-groupoid]] 
+
+$$
+   \Pi : Top \stackrel{\simeq}{\to} \infty Grpd
   \,.
 $$
 
-One can understand higher parallel transport therefore as a generalization of integration of diifferential $n$-forms to the case where
+If both [[(∞,1)-topos]]es here are [[presentable (∞,1)-category|presented]] by their standard [[model category]] models, the standard [[model structure on simplicial sets]] and the standard [[model structure on topological spaces]], then $\Pi$ is presented by the [[singular simplicial complex]] functor in a [[Quillen equivalence]]
 
-* the $n$-form is not globally defined;
-
-* the $n$-form takes values not in $\mathbb{R}$ but more generally is an [[∞-Lie algebroid valued differential form]].
-
-### For circle $n$-bundles with connection
-
-We show how the $n$-holonomy of [[circle n-bundles with connection]] is reproduced from the above.
-
-Let $\phi^* \nabla : \mathbf{\Pi}(\Sigma) \to \mathbf{B}^n U(1)$ be the parallel transport for a [[circle n-bundle with connection]] over a $\phi : \Sigma \to X$.
-
-This is equivalent to a morphism
-
-$$
-  \Pi(\Sigma) \to \mathcal{B}^n U(1)
-  ,.
-$$
-
-We may map this further to its $(n-dim \Sigma)$-[[nLab:truncated|truncation]]
-
-$$
-  :\infty Grpd(\Pi(\Sigma), \mathcal{B}^n U(1)) 
-  \to
-  \tau_{n-dim \Sigma} \infty Grpd(\Pi(X), \mathcal{B}^n U(1))
+$$  
+  (|-| \dashv Sing) : Top \stackrel{\leftarrow}{\overset{\simeq_{Quillen}}{\to}}
+  Top
   \,.
 $$
 
-+-- {: .un_theorem}
-###### Theorem
+This means that in this case many constructions in [[topology]] and classical [[homotopy theory]] have equivalent reformulations in terms of $\infty$-parallel transport.
 
-We have
+For instance: for $F \im Top$ and $Aut(F) \in Top$ its [[automorphism ∞-group]], $F$-fibrations over a base space $X \in Top$ are classfied by morphisms
 
 $$
-  \tau_{n-dim\Sigma} \infty Grpd(\Pi(\Sigma), \mathcal{B}^n U(1))
+  g : X \to B Aut(F)
+$$
+
+into the [[delooping]] of $Aut(F)$. The corresponding fibration $P \to X$ itself is the [[homotopy fiber]] of this cocycles, given by the [[homotopy pullback]]
+
+$$
+  \array{
+     P &\to& * 
+     \\
+     \downarrow && \downarrow
+     \\
+     X &\stackrel{g}{\to}&  B Aut(F)
+  }
+$$
+
+in [[Top]], as described at [[principal ∞-bundle]].
+
+Using the [[fundamental ∞-groupoid]] functor we may send this equivalently to a [[fiber sequence]] in [[∞Grpd]]
+
+$$
+  \Pi(P) \to \Pi(X) \to B Aut(\Pi(F))
+  \,.
+$$
+
+One may think of the morphism $\Pi(X) \to B Aut(\Pi(F))$ now as the $\infty$-parallel transport coresponding to the original fibration:
+
+* to each point in $X$ it assigns the unique object of $B Aut(\Pi(F))$, which is the fiber $F$ itself;
+
+* to each path $(x \to y)$ in $X$ it assigns an equivalence between the fibers $F_x to F_y$ etc.
+
+If one presents $\Pi$ by $Sing : Top \to sSet_{Quillen}$ as above, then one may look for explcit simplicial formulas that express these morphisms. Such are discussed in [Stasheff](#Stasheff).
+
+
+We may embed this example into the smooth context by regarding $Aut(F)$ as a [[discrete space|discrete]] [[∞-Lie groupoid]] as discussed in the section
+[Flat ∞-Parallel transport in ?LieGrpd](#InLieGrpd).
+
+For that purpose let
+
+$$
+  (\Pi_{smooth} \dahshv Disc_{smooth} \dashv \Gamma_{smooth}) : 
+   \infty LieGrpd
+    \stackrel{\overset{\Pi_{smooth}}{\to}}{\stackrel{\overset{Disc_{smooth}}{\leftarrow}}{\underset{\Gamma_{smooth}}{\to}}}
+  \infty Grpd \simeq Top
+$$
+
+be the [[global section]] [[(∞,1)-geometric morphism]] of the  [[cohesive (∞,1)-topos]] [[?LieGrpd]].
+
+We may reflect the [[∞-group]] $Aut(F)$ into this using the [[constant ∞-stack]]-functor $Disc$ to get the discrete [[∞-Lie group]] $Disc Aut(F)$. Let then $X$ be a [[paracompact topological space|paracompact]] [[smooth manifold]], regarded naturally as an object of [[?LieGrpd]]. Then we can consider [[cocycle]]s/classifying morphisms
+
+$$
+  X \to \mathbf{B} Disc Aut(F)
+  \,,
+$$
+
+now in the smooth context of $\infty LieGrpd$. 
+
++-- {: .un_prop}
+###### Proposition
+
+The [[∞-groupoid]] of $F$-fibrations in [[Top]] is equivalent to the $\infty$-groupoid of $Disc Aut(F)$-[[principal ∞-bundle]]s in [[?LieGrpd]]:
+
+$$
+  \infty LieGrpd(X, \mathbf{B} Disc Aut(F))
   \simeq
-  \mathbf{B}^{n-dim \Sigma} U(1)
+  Top(X, B Aut(F))
   \,.
 $$
+
+Moreover, all the [[principal ∞-bundle]]s classified by the morphisms on the left have canonical extensions to <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#FlatDifferentialCohomology">Flat differential cohomology</a> in $\infty LieGrpd$, in that the flat parallel $\infty$-transport $\nabla_{flat}$ in
+
+$$
+  \array{
+    X &\stackrel{g}{\to}& \mathbf{B} Disc Aut(F)
+    \\
+    \downarrow & \nearrow_{\nabla_{flat}}
+    \\
+    \mathbf{\Pi}(X)
+  }
+$$
+
+always exists.
+
 
 =--
-
-(This is due to an observation by [[nLab:Domenico Fiorenza]].)
 
 +-- {: .proof}
 ###### Proof
 
-By general abstract reasoning (recalled at [[nLab:cohomology]] and [[nLab:fiber sequence]]) we have for the [[nLab:homotopy group]]s that
-
-\[
-  \pi_i \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))
-  \simeq 
-  H^{n-i}(\Sigma, U(1))
-  \,.
-\]
-
-Now use the [[nLab:universal coefficient theorem]], which asserts that we have an [[nLab:exact sequence]]
-
-\[
-  0
-  \to 
-  Ext^1(H_{n-i-1}(\Sigma,\mathbb{Z}),U(1))
-  \to 
-  H^{n-i}(\Sigma,U(1))
-  \to 
-  Hom(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
-  \to 0
-  \,.
-\]
-
-Since $U(1)$ is an [[nLab:injective object|injective]] $\mathbb{Z}$-[[nLab:module]] we have 
-
-$$
-  Ext^1(-,U(1))=0
-  \,.
-$$  
-
-This means that we have an [[nLab:isomorphism]]
-
-\[
-  H^{n-i}(\Sigma,U(1))
-  \simeq 
-  Hom_{Ab}(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
-\]
-
-that identifies the [[nLab:cohomology group]] in question with the [[nLab:internal hom]] in [[nLab:Ab]] from the integral [[nLab:homology]] group of $\Sigma$ to $U(1)$.
-
-For $i\lt (n-dim \Sigma)$, the right hand is zero, so that 
-
-$$
-  \pi_i \infty Grpd(\Pi(\Sigma),\mathbf{B}^n U(1)) =0 \;\;\;\;
-  for i\lt (n-dim \Sigma)
-  \,. 
-$$ 
-
-For $i=(n-dim \Sigma)$, instead, $H_{n-i}(\Sigma,\mathbb{Z})\simeq \mathbb{Z}$, since $\Sigma$ is a closed $dim \Sigma$-manifold and so 
-
-$$
-  \pi_{(n-dim\Sigma)} \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))\simeq U(1)
-  \,.
-$$
-
+The first statement is a special case of that spelled out at [[?LieGrpd]] and [[nonabelian cohomology]]. The second follows using that in a [[∞-connected (∞,1)-topos|connected]] [[locally ∞-connected (∞,1)-topos]] the functor $Disc$ is a [[full and faithful (∞,1)-functor]].
 
 =--
 
 
-+-- {: .un_def}
-###### Definition 
-
-The resulting morphism
-
-$$
-  \mathbf{H}(\Sigma, A_{conn})
-  \stackrel{\exp(i S(-))}{\to}
-  \mathbf{B}^{n-dim\Sigma} U(1)
-$$
-
-in [[nLab:∞Grpd]] we call the **$\infty$-Chern-Simons action** on $\Sigma$.
-
-=--
-
-Here in the language of [[nLab:quantum field theory]]
-
-* the [[nLab:object]]s of $\mathbf{H}(\Sigma,A_{conn})$ are the [[nLab:gauge field]] on $\Sigma$;
-
-* the [[nLab:morphism]]s in $\mathbf{H}(\Sigma, A_{conn})$ are the [[nLab:gauge transformation]]s;.
+### Flat $\infty$-parallel transport in $\infty LieGrpd$ {#InLieGrpd}
 
 
-
-
-
-
-
+(...)
 
 ## Applications
 
@@ -487,3 +634,9 @@ The description of [[connections on a 2-bundle]] in terms of such parallel 2-tra
 
 * U.S. [[Konrad Waldorf]] _Nonabelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
 {#SWIII}
+
+Remarks on $\infty$-parallel transport in [[Top]] are in
+
+
+* [[Jim Stasheff]], _[[StasheffParallelTransportv01.pdf:file]]_
+{#Stasheff}
