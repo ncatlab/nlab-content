@@ -27,6 +27,7 @@ Similarly for an $n$-connected $(n,1)$-topos.
 
 For $n = 1$ this yields the notion of [[strongly connected topos]].
 
+If in addition $\mathbf{H}$ is a [[local (∞,1)-topos]] then it is a [[cohesive (∞,1)-topos]].
 
 ## Related concepts
 
