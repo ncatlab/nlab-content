@@ -58,27 +58,43 @@ If $f : \mathbf{H} \to \mathbf{S}$ is the [[global section]] geometric morphism 
 
 * [[concrete (∞,1)-sheaf]]
 
-## Examples
 
-### $(\infty,1)$Sheaves on $CartSp$
 
-Let $\mathbf{H} = (\infty,1)Sh(CartSp)$ be the [[gros topos]] of [[(∞,1)-sheaves]] on the [[site]] [[CartSp]] of [[Cartesian space]]s with the [[good open cover]] [[coverage]]. This is the topos [[?LieGrpd]] of [[∞-Lie groupoid]]s.
 
-This is a local $(\infty,1)$-topos.
 
-That it is a [[connected topos]] is discussed [[?LieGrpd]].
+
+
+
+
 
 ## Related concpepts
 
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
-* [[connected topos]] / [[∞-connected (∞,1)-topos]]
+  * [[connected topos]] / [[∞-connected (∞,1)-topos]]
 
-* [[local topos]] / **local (∞,1)-topos**
+  * [[strongly connected topos]] / [[strongly ∞-connected (∞,1)-topos]]
 
-* [[cohesive topos]] / [[cohesive (∞,1)-topos]]
+  * [[totally connected topos]] / [[totally ∞-connected (∞,1)-topos]]
+
+* [[local topos]] / **local (∞,1)-topos**.
+
+* [[cohesive topos]] / **cohesive (∞,1)-topos**
+
+and
+
+* [[locally connected site]], [[locally ∞-connected site]]
+
+* [[connected site]]
+
+* [[local site]]
+
+* [[cohesive site]], [[(∞,1)-cohesive site]]
+
 
 ## References
+
+The 1-categorical notion is discussed in
 
 * [[Peter Johnstone]], [[Ieke Moerdijk]], _Local maps of toposes_  Proc. London Math. Soc.  (1989)   s3-58  (2):  281-305.  ([pdf](http://plms.oxfordjournals.org/content/s3-58/2/281.full.pdf+html))
 
