@@ -158,9 +158,20 @@ and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure 
 
 ## Related concepts
 
-* **over-topos**
+* [[over-category]] 
 
-* [[over-(∞,1)-topos]]
+  * [[slice category]] 
+
+  * [[under category]] 
+
+  * **over-topos**
+
+
+* [[over (∞,1)-category]],
+
+  * [[model structure on an over category]] 
+
+  * [[over-(∞,1)-topos]]
 
 [[!redirects over topos]]
 [[!redirects over toposes]]
