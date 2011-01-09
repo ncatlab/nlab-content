@@ -51,6 +51,8 @@ $$
 
 is what is called a [[permutation representation]].
 
+On the other hand, we could take [[Top]], the category of topological spaces, which is the relevant case for topological fibre bundles and fibrations. 
+
 Moreover, we may replace $\mathbf{B}G$ by a more general [[groupoid]]. For $K$ any groupoid, a functor
 
 $$
@@ -189,7 +191,8 @@ assigns
 
   (see the diagrams at [[group cohomology]] for more details in low degree).
 
-In other words, this is much like representation of $G$ as before on an ordinary vector space, only that now the action property of $\rho$ holds only _up to [[coherent]] [[homotopy]]_ . Therefore people also speak of _representations up to homotopy_ ([AbadCrainic](#AbadCrainic)).
+In other words, this is much like representation of $G$ as before on an ordinary vector space, only that now the action property of $\rho$ holds only _up to [[coherent]] [[homotopy]]_ . Therefore people also speak of _representations up to homotopy_ ([AbadCrainic](#AbadCrainic)) as well as 
+_strong homotopy representations_ and many other variants.  See discussion at the n-forum.
 
 As before, there is in principle no reason to restrict oneself to representations of groupoids here. For $K$ any [[∞-groupoid]] or even [[(∞,1)-category]] (recall the [[quiver]] representations) and for $Mod$ any [[(∞,1)-category]] of $\infty$-modules (for instance as [[presentable (∞,1)-category|presented]] by a [[model structure on modules over an algebra over an operad]]) we may call an [[(∞,1)-functor]]
 
