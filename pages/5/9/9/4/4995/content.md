@@ -2265,41 +2265,19 @@ More discussion is at [[schreiber:∞-Chern-Simons theory]].
 ## Examples {#Examples}
 
 
-+-- {: .un_def}
-###### Definition
-
-An **$(\infty,1)$-cohesive site** over [[∞Grpd]] is
-
-* a [[site]] -- a [[small category]] $C$ equipped with a [[coverage]];
-
-* with the property that
-
-  * it has finite [[product]]s, in particular a [[terminal object]] $*$;
-  
-  * for every [[covering]] family $\{U_i \to U\}$ in $C$ 
-
-    * the [[Cech nerve]] $C(U) \in [C^{op}, sSet]$ is degreewise 
-      a [[coproduct]] of [[representable functor|representables]];
-
-    * the [[simplicial set]] obtained by replacing each copy of a representable by a point is [[contractible]] (weakly equivalent to the 
-      point in the standard [[model structure on simplicial sets]])
-
-      $$
-        \lim_\to C(U) \stackrel{\simeq}{\to} *
-      $$
-
-    * the simplicial set of points in $C(U)$ is weakly equivalent to the set of points of $U$:
-
-      $$
-        Hom_C(*, C(U)) \stackrel{\simeq}{\to} Hom_C(*,U)
-        \,.
-      $$
-  
-=--
-
+### Classes of examples
 
 +-- {: .un_prop}
-###### Example/Proposition
+###### Proposition
+
+For $C$ an [[∞-cohesive site] [[(∞,1)-category of (∞,1)-sheaves]] $(\infty,1)Sh(C)$ over $C$ is a cohesive $(\infty,1)$-topos.
+
+=--
+
+See [[∞-cohesive site]].
+
++-- {: .un_prop}
+###### Proposition
 
 Examples of $(\infty,1)$-cohesive sites are
 
@@ -2313,21 +2291,29 @@ Examples of $(\infty,1)$-cohesive sites are
 
 =--
 
+This proposition implies the examples of cohesive $(\infty,1)$-toposes listed in the following.
+
 +-- {: .un_prop}
 ###### Proposition
 
-For $C$ an $(\infty,1)$-cohesive site, the [[(∞,1)-category of (∞,1)-sheaves]] $(\infty,1)Sh(C)$ is a cohesive $(\infty,1)$-topos.
+Let $(\Pi \dashv Disc \dashv \Gamma \dashv coDisc) : \mathbf{H} \to \infty Grpd$ be a cohesive $(\infty,1)$-topos. Let $X \in \mathbf{H}$ be an object such that 
+
+* $X$ is geometrically contractible: $\Pi (X) \simeq *$;
+
+* $X$ is [[small-projective]].
+
+Then the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]], [[∞-connected (∞,1)-topos|∞-connected]], and [[local (∞,1)-topos|loca]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-See <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-cohesive+site#Properties">(∞,1)-cohesive site -- Properties</a>.
+That $\mathbf{H}$ is locally $\infty$-connected and $\infty$-connected follows directly from general properties of the [[étale geometric morphism]]s $\mathbf{H}/X \to \mathbf{H}$, see [[∞-connected (∞,1)-topos]].
+
+Locality follows as in the discussion at [[local (∞,1)-topos]].
 
 =--
-
-This proposition implies the examples of cohesive $(\infty,1)$-toposes listed in the following.
 
 ### Continuous $\infty$-groupoids
 
