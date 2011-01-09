@@ -17,25 +17,9 @@
 
 ## Idea
 
-The notion of **over quasi-category** is the generalization of the notion of [[overcategory]] from [[category theory]] to [[(∞,1)-category theory]] with [[(∞,1)-categories]] taken in their incarnation as [[quasi-categories]].
-
-For $C$ an ordinary [[category]] and $c \in C$ an [[object]] of $C$, the ordinary [[over category]] $C\downarrow c$ satisfies the universal property that for any other category $C'$ there is a natural [[equivalence of categories]]
-
-$$
-  Hom(C',C\downarrow c) \simeq
-  Hom_{c}(C' \star \{\top\}, C)
-  \,,
-$$
-
-where
-
-* $C' \star \{\top\}$ denotes the category $C'$ with a freely adjoined [[terminal object]] $\top$;
-
-* $Hom_{c}(C' \star \{\top\}, C)$ denotes the category of pairs $(F,\gamma)$, where $F: C' \star \{\top\}\to C$ is a functor and $\gamma:F(\top)\to c$ is an isomorphism in $C$.
-
-The idea of the definition of [[over category]] in the context of [[quasi-category|quasi-categories]] is to mimic this universal property. This relies crucially on generalizing the construction $C' \star \{\top\}$ to the context of quasi-categories, in terms of the [[join of quasi-categories]].
-
 ## Definition
+
+We give the definition in terms of the model of [[(∞,1)-categories]] in terms of [[quasi-categories]].
 
 Recall from [[join of quasi-categories]] that there are two different but quasi-catgorically equivalent definitions of _join_, denoted $\star$ and $\diamondsuit$. Accordingly we have the following two different but quasi-categoricaly equivalent definitions of over/under quasi-categories.
 
@@ -219,6 +203,45 @@ This appears as [[Higher Topos Theory|HTT, prop 1.2.9.3]].
 =--
 
 
++-- {: .un_prop}
+###### Proposition
+
+For $C$ an [[(∞,1)-category]] and $X \in C$ an [[object]] in $C$ and $f : A \to X$ and $g : B \to X$ two objects in $C/X$, the [[derived hom-space|hom-∞-groupoid]] $C/X(f,g)$ is equivalent to the [[homotopy fiber]] of
+$C(A,B) \stackrel{g_*}{\to} C(A,X)$ over the morphism $f$: we have an [[(∞,1)-pullback]] [[diagram]]
+
+$$
+  \array{
+     C/X(f,g) &\to& C(A,B)
+     \\
+     \downarrow && \downarrow^{\mathrlap{g_*}}
+     \\
+     {*} & \stackrel{f}{\to} & C(A,X)
+  }
+  \,.
+$$
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.5.12]].
+
+## Related concepts
+
+* [[over-category]] 
+
+  * [[slice category]] 
+
+  * [[under category]] 
+
+  * [[over topos]]
+
+
+* **over-(∞,1)-category**
+
+  * [[model structure on an over category]] 
+
+  * [[over-(∞,1)-topos]]
+
+
 ## References
 
 Section 1.2.9 of 
@@ -245,3 +268,5 @@ Section 1.2.9 of
 
 [[!redirects over (∞,1)-categories]]
 [[!redirects over (infinity,1)-categories]]
+
+[[!redirects over quasi-category]]
