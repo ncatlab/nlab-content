@@ -1,4 +1,3 @@
-
 This is a sub-entry for [[gerbe]].
 
 For related entries see
@@ -75,6 +74,25 @@ To see _locally non-empty_: If $U$ is any open set in $B$, then as $\mathcal{T}o
 
 Next look at $\mathcal{T}ors(G)(U)$ again.  Any two $G_U$-torsors are locally isomorphic to each other, since they are both locally isomorphic to the trivial $G_U$-torsor, so, if $F$ and $F^\prime$ are two $G_U$-torsors, there is an open cover such that over that cover $F$ and $F^\prime$ are isomorphic, hence $\mathcal{T}ors(G)$ is locally connected.  We thus have that $\mathcal{T}ors(G)$ is a gerbe.
 =--
+
+##$\mathcal{A}$-Gerbes##
+
+The notion of a $G$-gerbe arises in the article [[gerbe (general idea)|gerbe ]], but one needn't use just a group $G$. Fix a sheaf of abelian (possibly not necessary) groups $\mathcal{A}$ on $B$. Then an $\mathcal{A}$-gerbe is a gerbe $F$ on $B$ such that for any open $U$ on $B$ we have a functorial isomorphism $\mathcal{A}(U)\stackrel{\sim}{\to} \text{Aut}(s)$ for all $s\in F(U)$.
+
+Note that since $F$ is a stack, $\text{Aut}(s)$ is a sheaf, so by isomorphism we mean an isomorphism as sheaves, and by functorial we mean given another object $t\in F(U)$, the isomorphism commutes 
+
+$$ 
+\begin{matrix} \mathcal{A}(U) & \to & \text{Aut}(s) \\
+Id \downarrow &  & \downarrow \\
+\mathcal{A}(U) & \to & \text{Aut}(t) \end{matrix}  
+$$
+
+In particular, we get that for any two objects $C, D\in F(U)$ we have that the sheaf $Isom(C,D)$ is an $\mathcal{A}$-torsor. This gives that if there is some object over $U$, namely that $F(U)\neq \emptyset$, then the set of isomorphism classes of obects in $F(U)$ is in natural bijection with $H^1(U, \mathcal{A}_U)$.
+
+For example, consider the stack of rank 1 vector bundles on a scheme $X$, $\text{Vect}_1$. One can check that $\text{Vect}_1$ is a $\mathbb{G}_m$-gerbe by noting that the automorphism group of any vector bundle over $U$ will be precisely $\mathcal{O}_X(U)^\times$, and everything is functorial. By the interpretation in cohomology, we see that the global vector bundles (up to isomorphism) are in correspondence with $H^1(X, \mathcal{O}_X^\times)$ which is just $\text{Pic}(X)$.
+
+One can form the *classifying stack*, $B\mathcal{A}$ from the important example above by taking $B\mathcal{A}(U)=\mathcal{T}ors(\mathcal{A}(U))$. A basic theorem about $\mathcal{A}$-gerbes is that an $\mathcal{A}$-gerbe, $F$, is isomorphic to $B\mathcal{A}$ if and only if $F(B)\neq \emptyset$. This says that $F$ is isomorphic to the classifying stack if and only if it has a global object.
+
 
 
 ##Differential geometry
