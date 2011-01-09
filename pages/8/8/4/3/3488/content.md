@@ -93,6 +93,9 @@ For $n = 1$ this reproduces the case of a [[locally connected topos]].
 
 ## Examples {#LocallyContractibleExamples}
 
+
+### Over $\infty$-connected sites
+
 The follow proposition gives a large supply of examples.
 
 +-- {: .un_prop}
@@ -121,7 +124,6 @@ This includes the following examples.
 
 For $X$ a [[locally ∞-connected site]] its [[category of open subsets]] $Op(X)$ is a locally $\infty$-connected site.
 
-The corresponding locally $\infty$-connected $(\infty,1)$-topos $Sh_{(\infty,1)}(X)$ may be understood as the context of the Artin-Mazur result. See [[geometric homotopy groups in an (∞,1)-topos]].
 
 =--
 
@@ -133,8 +135,7 @@ The corresponding $(\infty,1)$-topos is [[?LieGrpd]].
 
 =--
 
-
-## Properties {#LocInfConnProperties}
+### Locally $\infty$-connected over-$(\infty,1)$-toposes
 
 +-- {: .un_prop}
 ###### Proposition
@@ -166,6 +167,28 @@ $$
 and $X_!$ is given by sending $(Y \to X) \in \mathbf{H}/X$ to $Y \in \mathbf{H}$.
 
 =--
+
++-- {: .un_remark}
+###### Remark
+
+If in the above $X$ is contractible in that $\Pi X \simeq *$ then $\mathbf{H}/X$ is even an [[∞-connected (∞,1)-topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion there we need to check that $\Pi_X$ preserves the terminal object:
+
+$$
+  \Pi_X (X \to X) \simeq \Pi X_! (X \to X) \simeq \Pi X \simeq *
+  \,.
+$$
+
+=--
+
+## Properties {#LocInfConnProperties}
+
 
 
 ## Further structures
@@ -209,6 +232,11 @@ Some discussion of the [[homotopy category of an (∞,1)-category|homotopy categ
 * [[Carlos Simpson]], [[Constantin Teleman]], _de Rham's theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 {#SimpsonTeleman}
 
+For related references see 
+
+* [[geometric homotopy groups in an (∞,1)-topos]]
+
+* [[cohesive (∞,1)-topos]].
 
 
 [[!redirects locally infinity-connected (infinity,1)-topos]]
