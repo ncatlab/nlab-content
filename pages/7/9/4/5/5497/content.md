@@ -46,8 +46,8 @@
 > you might be well advised to investigate its adjoints.
 >
 > * Unification. Computing science is very fragmented, with many different 
-> sub-disciplines having many different schools within them. Hence, we   
-> badly need 
+> sub-disciplines having many different schools within them. Hence, we
+> badly need
 > the kind of conceptual unification that category theory can provide.
 
 ### Abstract ###
@@ -63,7 +63,7 @@
 
 ### Reference ###
 
-Joseph A. Goguen, _A Categorical Manifesto_ . In _Mathematical Structures in Computer Science_, Vol. 1, No. 1. (1991), pp. 49-67
+Joseph A. Goguen, _A Categorical Manifesto_. In _Mathematical Structures in Computer Science_, Vol. 1, No. 1. (1991), pp. 49-67
 
 ### Link ###
 
