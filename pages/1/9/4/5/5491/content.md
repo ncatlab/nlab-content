@@ -49,9 +49,15 @@ $$
   \rho : \mathbf{B}G \to Set
 $$
 
-is what is called a [[permutation representation]].
+is what is called a [[permutation representation]]. In [[topology]] one is interested in representations in [[Top]]
 
-On the other hand, we could take [[Top]], the category of topological spaces, which is the relevant case for topological fibre bundles and fibrations. 
+$$
+  \rho : \mathbf{B}G \to Top
+  \,.
+$$
+
+(However, rarely is it sufficient to regard these just as functors to the 1-category $Top$. Instead, in order to speak about topological [[fiber bundle]]s and fibrations, one needs to regard [[Top]] here as an [[(∞,1)-category]] and regard $\rho : \mathbf{B}G \to Top$ as an [[(∞,1)-functor]]. This we come to below in [∞-Representations](#IdeaInfRepresentations))
+
 
 Moreover, we may replace $\mathbf{B}G$ by a more general [[groupoid]]. For $K$ any groupoid, a functor
 
@@ -163,7 +169,7 @@ Analogous constructions are available for more general sites, effectively we can
 
 Also notice that if we take the site to be the point, $C = *$, then sheaves over it are just sets and stacks over it are just bare groupoids, so that we recover the discussion at the very beginning.
 
-### $\infty$-Representations 
+### $\infty$-Representations  {#IdeaInfRepresentations}
 
 We have found above the the term "representation" it to a large extent congruent with the term "morphism in a (2,1)-topos with codomain a stack of modules".
 
@@ -192,7 +198,7 @@ assigns
   (see the diagrams at [[group cohomology]] for more details in low degree).
 
 In other words, this is much like representation of $G$ as before on an ordinary vector space, only that now the action property of $\rho$ holds only _up to [[coherent]] [[homotopy]]_ . Therefore people also speak of _representations up to homotopy_ ([AbadCrainic](#AbadCrainic)) as well as 
-_strong homotopy representations_ and many other variants.  See discussion at the n-forum.
+_strong homotopy representations_ and many other variants.  
 
 As before, there is in principle no reason to restrict oneself to representations of groupoids here. For $K$ any [[∞-groupoid]] or even [[(∞,1)-category]] (recall the [[quiver]] representations) and for $Mod$ any [[(∞,1)-category]] of $\infty$-modules (for instance as [[presentable (∞,1)-category|presented]] by a [[model structure on modules over an algebra over an operad]]) we may call an [[(∞,1)-functor]]
 
@@ -208,7 +214,19 @@ $$
   K \to \infty Grpd
 $$
 
-is known as an [[(∞,1)-presheaf]]. For $K$ the [[delooping]] of an ordinary group or the [[orbit category]] of a [[topological group]], such appear genuinely from the point of view of representations for instance in [[equivariant cohomology]] and [[orbit category|equivariant homotopy]]  theory.
+is known as an [[(∞,1)-presheaf]]. For $K$ the [[delooping]] of an ordinary group or the [[orbit category]] of a [[topological group]], such appear genuinely from the point of view of representations for instance in [[equivariant cohomology]] and [[orbit category|equivariant homotopy]]  theory. Notice that by the [[homotopy hypothesis]]-theorem we have an [[equivalence of (∞,1)-categories]]
+
+$$
+  \infty Grpd \simeq Top
+$$ 
+
+so that the above is equivalently an [[(∞,1)-functor]]
+
+$$
+  K \to Top
+$$
+
+hence literally a _representation up to homotopy_ in the classical sense of [[homotopy theory]].
 
 As before, all this may be lifted from the point into large classes of [[(∞,1)-topos]]es  to equip the notion of $\infty$-representation with geometric structure (algebraic structure, smooth structure, etc.)
 
