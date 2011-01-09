@@ -184,6 +184,11 @@ _Toby_:  I don\'t like that, because I think that you *can* have, in a structura
 More generally, I think that one should be able to use subtypes without becoming material.  (And the extension of SEAR above does satisfy your definition of a structural set theory.)
 
 As for whether a set theory can be both material and structural, I would expect some particularly degenerate examples to be both, and I would also expect it possible to create a hybrid version which is neither.  I see these concepts more as orthogonal complements than as logical complements.
+
+JCMcKeown: would anyone contemplate the desired sense of _material_ perhaps consisting in the presence of a _global subset_ relation, w.r.t. which a universe may or may not have binary/nonempty limits? I only mention it because [algebraic set theory](http://www.phil.cmu.edu/projects/ast/) is still floating around my head --- that, and I'm perfectly happy in universe with as many atoms as sets, irrelevant as that sounds.
+
+For other things... 
+perhaps it's my love of concreteness (or semantic games), but suppose $V$ is a model of ZF+(Goedel's completeness theorem); and suppose $V$ believes that $m=(M,\equiv,\dots)$ is a model of SEAR or SEPS, or whatever.  Is it possible that we have things $x,y,\phi,...$ as above, that $V\models x\neq y$ and $m\models x\equiv y$? Is it possible to have things the other way around? That is, is it possible that $V\models x=y$, and yet that for structural purposes this is just a distraction?
 =--
 
 
