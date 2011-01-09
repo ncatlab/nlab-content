@@ -1600,33 +1600,50 @@ a [[concrete sheaf]] in the traditional sense.
 
 
 
-### Infinitesimal objects: $\infty$-Lie algebroids {#InfinitesimalObjects}
+### Infinitesimal objects {#InfinitesimalObjects}
+
+We characterize objects in a cohesive $(\infty,1)$-topos that behave as cohesive $\infty$-groupoids all whose [[k-morphism]]s have [[infinitesimal object|infinitesimal]] extension. These infintesimal [[∞-groupoid]]s may be thought of as [[Lie algebra]]s, [[∞-Lie algebra]]s and generally [[∞-Lie algebroid]]s.
 
 +-- {: .un_def}
 ###### Definition
 
-A [[connected]] object $\mathbf{B}\mathfrak{g} \in  \mathbf{H}$ for which
 
-$$
-  \Pi \mathbf{B}\mathfrak{g} \simeq *
-$$ 
-
-and
+A [[connected]] object $\mathbf{B}\mathfrak{g} \in  \mathbf{H}$ in a cohesive $(\infty,1)$-topos such that
 
 $$
   \Gamma \mathbf{B}\mathfrak{g} \simeq *
 $$
 
-we call an **infinitesimal object**.
+we call an **infinitesimal object**. 
 
-Its [[loop space object]]
+Its [[loop space object]] $\mathfrak{g} := \Omega_* \mathbf{B}G$ we call an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
 
-$$
-  \mathfrak{g} := \Omega \mathbf{B}G
-$$
 
-we call an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
+=--
 
++-- {: .un_def}
+###### Proposition
+
+Let $\mathbf{H}$ be a [[locally ∞-connected (∞,1)-topos]]. If $X \in \mathbf{H}$ is [[small-projective]] then the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is 
+
+1. [[locally ∞-connected (∞,1)-topos|locally ∞-connected]];
+
+1. [[local (∞,1)-topos|local]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is proven at [[locally ∞-connected (∞,1)-topos]], the second at [[local (∞,1)-topos]].
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+For $X \in \mathbf{H}$ a [[small projective]] object in a cohesive $(\infty,1)$-topos, we say that an **[[∞-Lie algebroid]]** $\mathfrak{a}$ over $X$ if (...)
 
 =--
 
