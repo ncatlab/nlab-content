@@ -15,6 +15,7 @@ Alternatively, a (strict) sesquicategory may be given as a category $C$ together
 
 A third definition says that a (strict) sesquicategory is given by a category $C$ together with a [[span]] $H \rightrightarrows hom_C$ of [[profunctors]] and transformations $\hom_C \to H \leftarrow H \times_{\hom_C} H$ making $H$ into an [[internal category]] in $[C^{op} \times C, Set]$.
 
+Fourthly, sesquicategories can be defined as categories [[enriched category|enriched in]] categories, where the monoidal structure for the enrichment is not the usual cartesian product but the tensor adjoint to the 'unnatural' hom, in which the hom-category $[C,D]$ has morphisms given by $C$-indexed families of arrows of $D$ _without_ any naturality requirement.
 
 ## Remarks
 
@@ -24,6 +25,9 @@ A [[Gray-category]] does not have an underlying [[strict 2-category]], but it do
 
 The name 'sesquicategory' literally means $1\frac{1}{2}$-category, although they are actually *more* general than $2$-categories (which are of course more general than $1$-categories).  Probably the reason for the name is that a sesquicategory is "part of the way" from a 1-category to a 2-category; you add the 2-cells and some of the structure, but you leave out one of the axioms.
 
+## References
+
+See [this discussion](http://www.mta.ca/~cat-dist/catlist/1999/2-cats-without) on the categories list.
 
 [[!redirects sesquicategory]]
 [[!redirects sesquicategories]]
