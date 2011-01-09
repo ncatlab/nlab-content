@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -235,12 +246,20 @@ thus identifies it with $\lim F$.
 
 ## Related concepts
 
-* [[slice category]]
+* **over-category** 
 
-* **over category**, [[over (∞,1)-category]], [[model structure on an over category]]
+  * [[slice category]] 
 
-* [[under category]]
+  * [[under category]] 
 
+  * [[over topos]]
+
+
+* [[over (∞,1)-category]],
+
+  * [[model structure on an over category]] 
+
+  * [[over-(∞,1)-topos]]
 
 [[!redirects over category]]
 [[!redirects over categories]]
