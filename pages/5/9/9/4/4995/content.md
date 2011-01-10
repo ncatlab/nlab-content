@@ -1487,7 +1487,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .un_prop #DeRhamAdjunction}
 ###### Proposition
 
 This construction yields a pair of [[adjoint (∞,1)-functor]]s 
@@ -1511,42 +1511,100 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We check the defining hom-equivalence. For $X \in \mathbf{H}$, $A \in */\mathbf{H}$ two objects, we have by the fact that the [[hom-functor]] : $\mathbf{H}(-,-) : \mathbf{H}^{op} \times \mathbf{H} \to \infty Grpd $ preserves limits in both arguments a sequence of natural equivalences
+We check the defining natural hom-equivalence
+
+$$
+  {*}/\mathbf{H}(\mathbf{\Pi}_{dR}X,A)
+  \simeq
+  \mathbf{H}(X, \mathbf{\flat}_{dR}A)
+  \,.
+$$
+
+The hom-space in the [[over-(∞,1)-category|under-(∞,1)-category]] $*/\mathbf{H}$ is (as discussed there), computed by the [[(∞,1)-pullback]]
+
+$$
+  \array{
+     */\mathbf{H}(\mathbf{\Pi}_{dR}X, A)
+      &\to&
+     \mathbf{H}(\mathbf{\Pi}_{dR}X, A)
+     \\
+     \downarrow && \downarrow
+     \\
+     * &\stackrel{pt_A}{\to}& \mathbf{H}(*,A)
+  }
+  \,.
+$$
+
+By the fact that the [[hom-functor]] : $\mathbf{H}(-,-) : \mathbf{H}^{op} \times \mathbf{H} \to \infty Grpd $ preserves limits in both arguments we have a natural equivalence
 
 $$
   \begin{aligned}
-    */\mathbf{H}(\mathbf{\Pi}_{dR}, A)
-    & \simeq
-    \lim_{\leftarrow}
-    \left(
-      \array{
-         && \mathbf{H}(X,A)
-         \\
-         && \downarrow
-         \\
-         * &\to& \mathbf{H}(Disc \Pi X, A )
-      }
-    \right)
-    \\
-    & \simeq
-    \lim_{\leftarrow}
-    \left(
-      \array{
-         && \mathbf{H}(X,A)
-         \\
-         && \downarrow
-         \\
-         * &\to& \mathbf{H}(X, Disc \Gamma A )
-      }
-    \right)    
-    \\
-    & \simeq
-    \mathbf{H}(X, \mathbf{\flat}_{dR} A)
+     \mathbf{H}(\mathbf{\Pi}_{dR} X, A)
+     & :=
+     \mathbf{H}( *\coprod_{X} \mathbf{\Pi}(X), A  )     
+     \\
+     & \simeq 
+     \mathbf{H}(*,A) \prod_{\mathbf{H}(X,A)} 
+      \mathbf{H}(\mathbf{\Pi}(X),A)
   \end{aligned}
   \,.
 $$
 
-Analously for the other case.
+We paste this pullback to the above pullback diagram to obtain
+
+$$
+  \array{
+     */\mathbf{H}(\mathbf{\Pi}_{dR}X, A)
+      &\to&
+     \mathbf{H}(\mathbf{\Pi}_{dR}X, A) &\to&
+      \mathbf{H}(\mathbf{\Pi}(X),A)
+     \\
+     \downarrow && \downarrow  && \downarrow
+     \\
+     * &\stackrel{pt_A}{\to}& \mathbf{H}(*,A)
+     &\to& 
+      \mathbf{H}(X,A)
+  }
+  \,.
+$$
+
+By the pasting law for [[(∞,1)-pullback]]s the outer diagram is still a pullback. We may evidently rewrite the bottom composite as in
+
+$$
+  \array{
+     */\mathbf{H}(\mathbf{\Pi}_{dR}X, A)
+      &\to&
+      &\to&
+      \mathbf{H}(\mathbf{\Pi}(X),A)
+     \\
+     \downarrow && && \downarrow
+     \\
+     * &\stackrel{\simeq}{\to}& \mathbf{H}(X,*)
+     &\stackrel{(pt_A)_*}{\to}& 
+      \mathbf{H}(X,A)
+  }
+  \,.
+$$
+
+This exhibits the hom-space as the pullback
+
+$$
+  \begin{aligned}
+    */\mathbf{H}(\mathbf{\Pi}_{dR}(X),A)
+    \simeq
+     \mathbf{H}(X,*) \prod_{\mathbf{H}(X,A)} \mathbf{H}(X,\mathbf{\flat} A)
+   \end{aligned}
+  \,,
+$$
+
+where we used the $(\mathbf{\Pi} \dashv \mathbf{\flat})$-adjunction. Now using again that $\mathbf{H}(X,-)$ preserves pullbacks, this is
+
+$$
+  \cdots \simeq \mathbf{H}(X, * \prod_A \mathbf{\flat}A )
+  \simeq \mathbf{H}(X , \mathbf{\flat}_{dR}A)
+  \,.
+$$
+
 
 =--
 
@@ -1567,7 +1625,7 @@ $$
 
 A [[cocycle]] $\omega : X \to \mathbf{\flat}_{dR}A$ we call an **flat $A$-valued differential form** on $X$.
 
-We say that $H_{dR}(X,A) := \pi_0 \mathbf{H}_{dR}(X,A)$
+We say that $H_{dR}(X,A) {:=} \pi_0 \mathbf{H}_{dR}(X,A)$
 is the **de Rham cohomology** of $X$ with coefficients in $A$.
 
 =--
@@ -1622,7 +1680,7 @@ $\infty$-bundle given by the cocycle $X \to \mathbf{\Pi}(X) \stackrel{\omega}{\t
 +-- {: .un_prop #deRhamWithDiscCoeffsIsTrivial}
 ###### Proposition
 
-The de Rham cohomology with coefficients in discrete object is trivial: for all $S \in ∞Grpd$ we have
+The de Rham cohomology with coefficients in discrete object is trivial: for all $S \in \infty Grpd$ we have
 
 $$
   \mathbf{\flat}_{dR} Disc S \simeq *
@@ -1634,14 +1692,14 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Using that in a [[local (∞,1)-topos]] the functor $Disc$ is a [[full and faithful (∞,1)-functor]] so that the [[unit of an adjunction|unit]] $Id \to \Gamma Disc $ is an equivalence and using that by the [[zig-zag identity]]  we have then that the [[unit of an adjunction|counit]] 
+Using that in a [[∞-connected (∞,1)-topos]] the functor $Disc$ is a [[full and faithful (∞,1)-functor]] so that the [[unit of an adjunction|unit]] $Id \to \Gamma Disc $ is an [[equivalence in an (∞,1)-category|equivalence]] and using that by the [[zig-zag identity]]  we have then that the [[unit of an adjunction|counit]] 
 $\mathbf{\flat} Disc S := Disc \Gamma Disc S \to Disc S$ is also an equivalence, we have
 
 
 $$
   \begin{aligned}
      \mathbf{\flat}_{dR} Disc S 
-     & :=
+     & {:=}
      * \prod_{Disc S} \mathbf{\flat} Disc S
      \\
      & \simeq * \prod_{Disc S} Disc S
@@ -1791,77 +1849,6 @@ $$
   \mathbf{\Pi}_{dR} \circ \mathbf{\flat}_{dR} 
   \,.
 $$
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-For $\mathbf{B}G \in */\mathbf{H}$ we have that 
-
-$$
-  FLie \mathbf{B}G \in \mathbf{L} \hookrightarrow \mathbf{H}
-$$
-
-is an [infinitesimal object](#InfinitesimalObjects)
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Using that the [[left adjoint]] $\Pi$ preserves [[(∞,1)-colimit]]s and finite [[(∞,1)-product]]s, we have that 
-$\Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is given by the $(\infty,1)$-pushout
-
-$$
-  \array{
-    \Pi \mathbf{B}G &\to& *
-    \\
-    {}^{\mathllap{\Pi}(\iota)}\downarrow && \downarrow
-    \\
-    \Pi Disc \Pi \mathbf{B}G &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
-   }
-  \,.
-$$
-
-since $Disc$ is a [[full and faithful (∞,1)-functor]] (by the discussion at [[∞-connected (∞,1)-topos]]) we have that this is equivalent to the pushout
-
-$$
-  \array{
-    \Pi \mathbf{B}G &\to& *
-    \\
-    {}^{\mathllap{\Pi}(\iota)}\downarrow && \downarrow
-    \\
-    \Pi Disc \Pi \mathbf{B}G 
-    &&
-    \\
-    {}^{\mathllap{\epsilon_{\Pi \mathbf{B}G}}}\downarrow^{\mathrlap{\simeq}}
-    &&
-    \downarrow
-    \\
-    \Pi \mathbf{B}G
-    &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
-   }
-  \,.
-$$
-
-By the [[zig-zag identity]] this is equivalent to the pushout
-
-$$
-  \array{
-    \Pi \mathbf{B}G &\to& *
-    \\
-    {}^{Id}\downarrow && \downarrow
-    \\
-    \Pi \mathbf{B}G
-    &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
-   }
-  \,.
-$$
-
-Since this is the pushout of an [[equivalence in an (∞,1)-category|equivalence]], also $* \to \Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is an equivalence.
-
-By the formal dual of the argument we have that $\Gamma \mathbf{\flat}_{dR} A \simeq *$. Since in a [[local (∞,1)-topos]] $\Gamma$ also preserves all colimits, we have in addition $\Gamma \mathbf{\Pi}_{dR} \simeq \mathbf{\Pi}_{dR} \Gamma$. The claim then follows with the above observation.
 
 =--
 
