@@ -1,11 +1,15 @@
-_Stone Spaces_ (1982) is a monograph by [[Peter Johnstone]] (later author of the [[Elephant]]).  Ultimately about the [[Stone representation theorem]], it is also known as a reference for using [[locales]] in place of [[topological spaces]].
+* [[Peter Johnstone]], _Stone Spaces_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
+
+(The same author wrote Topos theory 1977 and the [[Elephant]]).  
+
+The monograph is ultimately about the [[Stone representation theorem]], but also a standard reference on using [[locales]] in place of [[topological spaces]].
 
 Although it is a work of [[mathematics]] rather than [[foundations|metamathematics]], it shows clearly by example how (usually) results about locales do not require the [[axiom of choice]] even when analogous results about topological spaces do.  [[Paul Taylor]] has somewhat imprecisely written
 >In [Joh82] the public theorems about topology are marked with an asterisk, although the official meaning of that symbol is a dependence on the axiom of choice.
 ([ASD I](http://www.monad.me.uk/ASD/dedras/), page 3).  Unfortunately for [[constructive mathematics|constructive mathematicians]], [[excluded middle]] is *not* considered a form of choice.
 
 
-## Contents
+## Contents with links to $n$Lab pages
 
 Besides the usual prefaces, bibliography, and indexes, there is a historical introduction, and each chapter concludes with notes on historical and metamathematical aspects.  Otherwise, each of 7 chapters is divided into 4 sections, which in turn contain paragraphs that deal with essentially one idea each.  For the moment, we list (with minimal processing) the definitions from the index in each section.  There will also be some summaries of theorems; as in the book itself, an asterisk here indicates dependence on some form of choice beyond excluded middle (more precisely, a proof that cannot be internalised in an arbitrary [[boolean topos]]).
 
