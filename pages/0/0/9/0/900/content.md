@@ -23,7 +23,7 @@ A **pro-object** of a category $C$ is a "formal [[filtered category|cofiltered]]
 
 ## Definition 
 
-There are many ways to make this notion precise.  One is to define the objects of $pro$-$C$ to be diagrams $F:D\to C$ where $D$ is a [[small category|small]] [[filtered category|cofiltered]] category.  The set of morphisms between $F:D\to C$ and $G:E\to C$ is then defined to be
+The objects of $pro$-$C$ are diagrams $F:D\to C$ where $D$ is a [[small category|small]] [[filtered category|cofiltered]] category.  The set of morphisms between $F:D\to C$ and $G:E\to C$ is 
 
 \[pro\text{-}C(F,G) = lim_{e\in E} colim_{d\in D} C(F d, G e)\]
 
@@ -47,15 +47,14 @@ Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] 
 
 ## References
 
-One source for the theory of pro-objects is
+* (SGA4-1) _Th&#233;orie des topos et cohomologie &#233;tale des sch&#233;mas. Tome 1: Th&#233;orie des topos_, S&#233;minaire de G&#233;om&#233;trie Alg&#233;brique du Bois-Marie 1963&#8211;1964 ([[SGA 4]]). Dirig&#233; par M. Artin, A. Grothendieck, et J. L. Verdier. Avec la collaboration de N. Bourbaki, P. Deligne et B. Saint-Donat. Lecture Notes in Mathematics __269__, Springer 1972. xix+525 p
 
-* J.-M. Cordier and [[Tim Porter]],  _Shape Theory_ , categorical methods of approximation, Dover (2008)
+* J.-M. Cordier, [[Tim Porter]],  _Shape Theory_ , categorical methods of approximation, Dover (2008) (It is a reprint of the 1989 edition without amendments.)
 
-(It is a reprint of the 1989 edition without amendments.)
-
-Another good reference is
+* [[Masaki Kashiwara]], [[Pierre Schapira]], [[Categories and Sheaves]]
 
 * [[Peter Johnstone]], _[[Stone Spaces]]_.
 
 
 [[!redirects pro-objects]]
+[[!redirects pro object]]
