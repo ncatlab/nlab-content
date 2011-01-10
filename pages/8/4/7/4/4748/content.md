@@ -476,7 +476,7 @@ see [[3-groupoid of Lie 3-algebra valued forms]]
 One can consider $\infty$-parallel transport in the [[cohesive (∞,1)-topos]] [[Top]], but in this case lots of structure degenerates, since by the [[homotopy hypothesis]]-theorem here the [[global section]] [[(∞,1)-geometric morphism]]
 
 $$
-  (\Pi \dahsv \Delta \dahsv \Gamma) : Top 
+  (\Pi \dashv \Delta \dashv \Gamma) : Top 
    \stackrel{\overset{\Pi}{\leftarrow}}{\stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\to}}} \in
  \infty Grpd
 $$
@@ -540,7 +540,7 @@ We may embed this example into the smooth context by regarding $Aut(F)$ as a [[d
 For that purpose let
 
 $$
-  (\Pi_{smooth} \dahshv Disc_{smooth} \dashv \Gamma_{smooth}) : 
+  (\Pi_{smooth} \dashv Disc_{smooth} \dashv \Gamma_{smooth}) : 
    \infty LieGrpd
     \stackrel{\overset{\Pi_{smooth}}{\to}}{\stackrel{\overset{Disc_{smooth}}{\leftarrow}}{\underset{\Gamma_{smooth}}{\to}}}
   \infty Grpd \simeq Top
