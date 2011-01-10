@@ -1353,56 +1353,100 @@ Similarly, form now the top square as a pullback. Then by the composition law of
 
 
 
-### Flat differential cohomology and local systems {#FlatDifferentialCohomology}
+### Flat $\infty$-connections and local systems {#FlatDifferentialCohomology}
+
+we describe in every [[locally ∞-connected (∞,1)-topos]] $\mathbf{H}$ there is a canonical intrinsic notion of _flat_ [[connections on ∞-bundles]], _flat_ [[higher parallel transport]] and higher [[local system]]s.
+
+Write $(\mathbf{\Pi} \dashv\mathbf{\flat}) := (Disc \Pi \dashv Disc \Gamma) : \mathbf{H} \to \mathbf{H}$ for the adjunction given by the [path ∞-groupoid](#Paths). Notice that this comes with the canonical $(\Pi \dashv Disc)$-[[unit of an adjunction|unit]] with components
+
+$$
+  X \to \mathbf{\Pi}(X)
+$$
+
+and the $(Disc \dashv \Gamma)$-counit with components
+
+$$
+  \mathbf{\flat} A \to A
+  \,.
+$$
 
 +-- {: .un_def}
 ###### Definition
 
-For $X,A \in \mathbf{A}$ we write
+For $X, A \in \mathbf{H}$ we write
 
 $$
   \mathbf{H}_{flat}(X,A) := \mathbf{H}(\mathbf{\Pi}X, A)
-  \simeq \mathbf{H}(X,\mathbf{\flat}A)
 $$
 
-and call this **flat differential cohomology** of $X$ with coefficients in $A$.
+and call $H_{flat}(X,A) := \pi_0 \mathbf{H}_{flat}(X,A)$ the **flat (nonabelian) differential cohomology** of $X$ with coefficients in $A$.
 
-We say a [[cocycle]] $\nabla : \mathbf{\Pi}(X) \to A$ is a [[local system]] on $X$ with coefficients in $A$ or equivalently a **flat [[connection on an ∞-bundle|connection]]** on the [[principal ∞-bundle]] corresponding to $X \stackrel{}{\to} \mathbf{\Pi}X \stackrel{\nabla}{\to} A$.
+We say a morphism $\nabla : \mathbf{\Pi}(X) \to A$ is a **flat [[connection on an ∞-bundle|∞-connnection]] on the [[principal ∞-bundle]] corresponding to $X \to \mathbf{\Pi}(X) \stackrel{\nabla}{\to} A$, or an **$A$-[[local system]]** on $X$.
+
+The induced morphism
+
+$$
+  \mathbf{H}_{flat}(X,A) \to \mathbf{H}(X,A)
+$$
+
+we say is the [[forgetful functor]] that forgets flat connections.
+
 
 =--
 
-+-- {: .un_theorem }
-###### Theorem
++-- {: .un_remark}
+###### Remark
 
-Let $\mathbf{H} = $ [[?TopGrpd]] or  [[?LieGrpd]] be the cohesive $(\infty,1)$-topos of [[topological ∞-groupoid]]s or [[smooth ∞-groupoid]]s. A [[smooth manifold]] $X$ is naturally regarded as an object in there.
+The object $\mathbf{\Pi}(X)$ has the interpretation of the [path ∞-groupoid](#Paths) of $X$: it is a cohesive $\infty$-groupoid whose [[k-morphism]]s may be thought of as generated from the $k$-morphisms in $X$ and $k$-dimensional cohesive paths in $X$.
 
-For [[paracompact space|paracompact]] $X$ and any $A \in \infty Grpd$ we have an equivalence of [[cocycle]] [[∞-groupoid]]s
+Accordingly a mophism $\mathbf{Pi}(X) \to A$ may be thought of as assigning
+
+* to each point of $X$ a fiber in $A$;
+
+* to each path in $X$ an equivalence between these fibers;
+
+* to each disk in $X$ a  2-equivalalence between these equivaleces associated to its boundary
+
+* and so on.
+
+This we think of as encoding a flat [[higher parallel transport]] on $X$, coming from some flat $\infty$-connection and _defining_ this flat $\infty$-connection.
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+
+By the $(\mathbf{\Pi} \dashv \mathbf{\flat})$-adjunction we have a [[natural transformation|natural]] equivalence
 
 $$
-  \mathbf{H}(X, Disc A)
-  \simeq
-  Top(X, |A|)
+  \mathbf{H}_{flat}(X,A) \simeq \mathbf{H}(X,\mathbf{\flat}A)
+  \,.
 $$
 
-and hence in particular an isomorphism on cohomology
+A [[cocycle]] $g : X \to A$ for a [[principal ∞-bundle]] on $X$ is in the image of 
 
 $$
-  H(X,A) \simeq \pi_0 \mathbf{H}(X, Disc A)
+  \mathbf{H}_{flat}(X,A) \to \mathbf{H}(X,A)
+$$
+
+precisely if there is a lift $\nabla$ in the [[diagram]]
+
+$$
+  \array{
+     \mathbf{\flat}A 
+     \\
+     & {}^{\nabla}\nearrow& \downarrow
+    \\
+    \mathbf{\Pi}(X) &\sgtackrel{g}{\to}& A
+  }
   \,.
 $$
 
 =--
 
-+-- {: .proof}
-###### Proof
+We call $\mathbf{\flat}A$ the **coefficient object for flat $A$-connections**. 
 
-For paracompact $X$, the [[nerve theorem]] asserts that $\Pi(X)$ is [[weak homotopy equivalence|weak homotopy equivalent]] to $Sing X$, the standard [[fundamental ∞-groupoid]] of $X$. This is discussed at [[∞-Lie groupoid]].
-
-Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(\Pi \dashv Disc)$.
-
-=--
-
-See [[nonabelian cohomology]] for more details.
 
 
 ### de Rham cohomology {#deRhamCohomology}
@@ -2361,6 +2405,41 @@ Locality follows as in the discussion at [[local (∞,1)-topos]].
 ### Continuous $\infty$-groupoids
 
 The cohesive $(\infty,1)$-topos $(\infty,1)Sh(TopBalls)$ is that of [[topological ∞-groupoid]]s.
+
++-- {: .un_theorem }
+###### Theorem
+
+Let $\mathbf{H} = $ [[?TopGrpd]] or  [[?LieGrpd]] be the cohesive $(\infty,1)$-topos of [[topological ∞-groupoid]]s or [[smooth ∞-groupoid]]s. A [[smooth manifold]] $X$ is naturally regarded as an object in there.
+
+For [[paracompact space|paracompact]] $X$ and any $A \in \infty Grpd$ we have an equivalence of [[cocycle]] [[∞-groupoid]]s
+
+$$
+  \mathbf{H}(X, Disc A)
+  \simeq
+  Top(X, |A|)
+$$
+
+and hence in particular an isomorphism on cohomology
+
+$$
+  H(X,A) \simeq \pi_0 \mathbf{H}(X, Disc A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For paracompact $X$, the [[nerve theorem]] asserts that $\Pi(X)$ is [[weak homotopy equivalence|weak homotopy equivalent]] to $Sing X$, the standard [[fundamental ∞-groupoid]] of $X$. This is discussed at [[∞-Lie groupoid]].
+
+Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(\Pi \dashv Disc)$.
+
+=--
+
+See [[nonabelian cohomology]] for more details.
+
+
 
 
 ### Smooth $\infty$-groupoids
