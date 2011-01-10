@@ -1355,7 +1355,7 @@ Similarly, form now the top square as a pullback. Then by the composition law of
 
 ### Flat $\infty$-connections and local systems {#FlatDifferentialCohomology}
 
-we describe in every [[locally ∞-connected (∞,1)-topos]] $\mathbf{H}$ there is a canonical intrinsic notion of _flat_ [[connections on ∞-bundles]], _flat_ [[higher parallel transport]] and higher [[local system]]s.
+We describe for a [[locally ∞-connected (∞,1)-topos]] $\mathbf{H}$ a canonical intrinsic notion of _flat_ [[connections on ∞-bundles]], _flat_ [[higher parallel transport]] and higher [[local system]]s.
 
 Write $(\mathbf{\Pi} \dashv\mathbf{\flat}) := (Disc \Pi \dashv Disc \Gamma) : \mathbf{H} \to \mathbf{H}$ for the adjunction given by the [path ∞-groupoid](#Paths). Notice that this comes with the canonical $(\Pi \dashv Disc)$-[[unit of an adjunction|unit]] with components
 
@@ -1451,33 +1451,13 @@ We call $\mathbf{\flat}A$ the **coefficient object for flat $A$-connections**.
 
 ### de Rham cohomology {#deRhamCohomology}
 
+In every [[locally ∞-connected (∞,1)-topos]] $\mathbf{H}$ there is an intrinsic notion of [[nonabelian cohomology|nonabelian]] [[de Rham cohomology]].
+
 +-- {: .un_def}
 ###### Definition
 
-Define
-
-$$
-  (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\Gamma}_{dR})
-  : 
-  */\mathbf{H}
-  \stackrel{\overset{\mathbf{\Pi}_{dR}}{\leftarrow}}{\stackrel{\underset{\mathbf{\flat}_{dR}}{\to}}{\underset{\mathbf{\Gamma}_{dR}}{\leftarrow}}}
-  \mathbf{H}
-$$
-
-by forming the [[(∞,1)-pullback]]
-
-$$
-  \array{
-    \mathbf{\flat}_{dR} A &\to& \mathbf{\flat} A 
-    \\
-    \downarrow && \downarrow
-    \\
-    * &\to& A
-  }
-$$
-
-
-and the [[(∞,1)-colimit|(∞,1)-pushout]]
+For $X \in \mathbf{H}$ an object, write $\mathbf{\Pi}_{dR}X$
+for the [[(∞,1)-colimit|(∞,1)-pushout]]
 
 $$
   \array{
@@ -1487,27 +1467,39 @@ $$
     \\
     \mathbf{\Pi}(X) &\to& \mathbf{\Pi}_{dR}X
   }
+  \,.
 $$
 
-and
+For $* \to A$ any [[pointed object]] in $\mathbf{H}$, write 
+$\mathbf{\flat}_{dR} A$ for the [[(∞,1)-pullback]]
 
 $$
   \array{
-    X &\to& *
+    \mathbf{\flat}_{dR} A &\to& \mathbf{\flat} A 
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{\Gamma} X &\to& \mathbf{\Gamma}_{dR}X
+    * &\to& A
   }
   \,.
 $$
+
 
 =--
 
 +-- {: .un_prop}
 ###### Proposition
 
-We do indeed have a triple of [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\Gamma}_{dR})$ as indicated.
+This construction yields a pair of [[adjoint (∞,1)-functor]]s 
+
+$$
+  (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} )
+  : 
+  */\mathbf{H}
+  \stackrel{\overset{\mathbf{\Pi}_{dR}}{\leftarrow}}{\stackrel{\underset{\mathbf{\flat}_{dR}}{\to}}
+  \mathbf{H}
+$$
+
 
 =--
 
@@ -1557,7 +1549,7 @@ Analously for the other case.
 +-- {: .un_def}
 ###### Definition
 
-For $X, A \in \mathbf{H}$ we say that
+For $X, A \in \mathbf{H}$ we write
 
 $$
   \mathbf{H}_{dR}(X,A)
@@ -1565,14 +1557,18 @@ $$
   \mathbf{H}(\mathbf{\Pi}_{dR}X, A)
   \simeq
   \mathbf{H}(X, \mathbf{\flat}_{dR} A)
+  \,.
 $$
 
-is **de Rham cohomology** of $X$ with coefficients in $A$.
+A [[cocycle]] $\omega : X \to \mathbf{\flat}_{dR}A$ we call an **flat $A$-valued differential form** on $X$.
+
+We say that $H_{dR}(X,A) := \pi_0 \mathbf{H}_{dR}(X,A)$
+is the **de Rham cohomology** of $X$ with coefficients in $A$.
 
 =--
 
 +-- {: .un_remark}
-###### Remark
+###### Observation
 
 A [[cocycle]] in de Rham cohomology
 
@@ -1580,14 +1576,29 @@ $$
   \omega : \mathbf{\Pi}_{dR}X \to A
 $$
 
-is precisely an [flat connetion](#FlatDifferentialCohomology) on a trivializable $A$-principal $\infty$-bundle
+is precisely a [flat ∞-connetion](#FlatDifferentialCohomology) on a _trivializable_ $A$-principal $\infty$-bundle. More precisely, $\mathbf{H}_{dR}(X,A)$ is the [[homotopy fiber]] of the [[forgetful functor]] from $\infty$-bundles with flat $\infty$-connection to $\infty$-bundles: we have an [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{H}_{dR}(X,A) &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{H}_{flat}(X,A) &\to& \mathbf{H}(X,A)
+  }  
+  \,.
+$$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the [[universal property]] of the [[(∞,1)-colimit]] that defines $\mathbf{\Pi}_{dR} X$ we have that $\omega$ corresponds to a diagram
+This follows by the fact that the [[hom-functor]] $\mathbf{H}(X,-)$ preserves the defining [[(∞,1)-pullback]] for $\mathbf{\flat}_{dR} A$.
+
+=--
+
+Just for emphasis, notice the dual description of this situation: by the [[universal property]] of the [[(∞,1)-colimit]] that defines $\mathbf{\Pi}_{dR} X$ we have that $\omega$ corresponds to a diagram
 
 $$
   \array{
@@ -1603,7 +1614,7 @@ $$
 The bottom horizontal morphism is a flat connection on the 
 $\infty$-bundle given by the cocycle $X \to \mathbf{\Pi}(X) \stackrel{\omega}{\to} A$. The diagram says that this is equivalent to the trivial bundle given by the trivial cocycle $X \to * \to A$.
 
-=--
+
 
 ### Concrete objects{#ConcreteObjects}
 
@@ -1613,6 +1624,9 @@ $(\infty,1)$-topos need not be supported by points.
 We discuss a general abstract characterization of  
 objects that do have an interpretation as bare $n$-groupoids 
 equipped with cohesive structure.
+
+Compare with the section <a href="http://nlab.mathforge.org/nlab/show/cohesive%20topos#ConcreteObjects">Quasitoposes of concrete objects</a> at [[cohesive topos]].
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -1699,13 +1713,15 @@ a [[concrete sheaf]] in the traditional sense.
 
 ### Infinitesimal objects {#InfinitesimalObjects}
 
-We characterize objects in a cohesive $(\infty,1)$-topos that behave as cohesive $\infty$-groupoids all whose [[k-morphism]]s have [[infinitesimal object|infinitesimal]] extension. These infintesimal [[∞-groupoid]]s may be thought of as [[Lie algebra]]s, [[∞-Lie algebra]]s and generally [[∞-Lie algebroid]]s.
+We characterize objects in a cohesive $(\infty,1)$-topos $\mathbf{H}$ that behave as cohesive $\infty$-groupoids all whose [[k-morphism]]s have [[infinitesimal object|infinitesimal]] extension. These infintesimal [[∞-groupoid]]s may be thought of as [[Lie algebra]]s, [[∞-Lie algebra]]s and generally [[∞-Lie algebroid]]s.
+
+Recall the [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$ from the discussion of [de Rham cohomology](#deRhamCohomology) above.
 
 +-- {: .un_def}
 ###### Definition
 
 
-A [[connected]] object $\mathbf{B}\mathfrak{g} \in  \mathbf{H}$ in a cohesive $(\infty,1)$-topos such that
+A [[connected]] object $\mathbf{B}\mathfrak{g} $ in a cohesive $(\infty,1)$-topos $\mathbf{H}$ such that
 
 $$
   \Pi \mathbf{B}\mathfrak{g} \simeq *
@@ -1733,7 +1749,7 @@ Set
 $$
   Lie 
   := 
-  \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} 
+  \mathbf{\Pi}_{dR} \circ \mathbf{\flat}_{dR} 
   \,.
 $$
 
@@ -1755,8 +1771,8 @@ is an [infinitesimal object](#InfinitesimalObjects)
 +-- {: .proof}
 ###### Proof
 
-Using that $\Pi$ preserves colimits and finite products, we have that 
-$\Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is given by the pushout
+Using that the [[left adjoint]] $\Pi$ preserves [[(∞,1)-colimit]]s and finite [[(∞,1)-product]]s, we have that 
+$\Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is given by the $(\infty,1)$-pushout
 
 $$
   \array{
@@ -1769,7 +1785,7 @@ $$
   \,.
 $$
 
-since $Disc$ is full and faithful we have that this is equivalent to the pushout
+since $Disc$ is a [[full and faithful (∞,1)-functor]] (by the discussion at [[∞-connected (∞,1)-topos]]) we have that this is equivalent to the pushout
 
 $$
   \array{
@@ -1804,9 +1820,9 @@ $$
   \,.
 $$
 
-Since this is the pushout of an equivalence, also $* \to \Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is an equivalence.
+Since this is the pushout of an [[equivalence in an (∞,1)-category|equivalence]], also $* \to \Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is an equivalence.
 
-By the formal dual of the argument we have that $\Gamma \mathbf{\flat}_{dR} A \simeq *$. Since $\Gamma$ also preserves all colimits, we have in addition $\Gamma \mathbf{\Pi}_{dR} \simeq \mathbf{\Pi}_{dR} \Gamma$. The claim then follows with the above observation.
+By the formal dual of the argument we have that $\Gamma \mathbf{\flat}_{dR} A \simeq *$. Since in a [[local ∞-topos]] $\Gamma$ also preserves all colimits, we have in addition $\Gamma \mathbf{\Pi}_{dR} \simeq \mathbf{\Pi}_{dR} \Gamma$. The claim then follows with the above observation.
 
 =--
 
@@ -1852,12 +1868,12 @@ This is the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrow
 
 =--
 
-In particular
+Therefore instead of speaking of a $G$-valued de Rham cocycle, it is more accurate to speak of a $\mathfrak{g}$-valued de Rham cocycle. In particular
 
 +-- {: .un_prop}
 ###### Corollary
 
-Every morphism $\mathbf{B}\mathfrak{h} \to \mathbf{B}G$ from an $\infty$-Lie algebra to an $\infty$-group factors universally through the $\infty$-Lie algebra of that $\infty$-group
+Every morphism $Lie \mathbf{B}H \to \mathbf{B}G$ from an $\infty$-Lie algebra to an $\infty$-group factors universally through the $\infty$-Lie algebra of that $\infty$-group
 
 $$
   \array{
