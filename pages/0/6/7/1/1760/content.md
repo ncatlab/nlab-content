@@ -14,11 +14,6 @@
 =--
 =--
 
-* [[loop space object]] / **delooping**
-
-* [[free loop space object]] / [[derived loop space]]
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -185,5 +180,21 @@ $$
 $$ 
 
 is just the identity map, using that $Obj(G) = G$ and $Mor(\mathbf{B}G) = G$.
+
+## Related concepts
+
+* [[loop space object]], [[free loop space object]],
+
+  * **delooping**
+
+  * [[loop space]], [[free loop space]], [[derived loop space]]
+
+
+* [[suspension object]]
+
+  * [[suspension]]
+
+
+
 
 [[!redirects deloopings]]
