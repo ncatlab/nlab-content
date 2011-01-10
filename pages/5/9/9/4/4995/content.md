@@ -79,7 +79,17 @@ where $f_!$ preserves [[finite limit|finite]] [[(∞,1)-product]].
 
 ## Properties
 
-### Shape
+### General
+
++-- {: .un_prop}
+###### Proposition
+
+For $\mathbf{H}$ a cohesive $(\infty,1)$-topos, the [[(n,1)-topos|(1,1)-topos]] $\tau_{\leq 1-1} \mathbf{H}$ of 0-[[truncated]] objects is a [[cohesive topos]].
+
+=--
+
+
+### Shape and coshape
 
 The [[shape of an (∞,1)-topos]] $\mathbf{H}$ is the fundamental $\infty$-groupoid $\Pi(\mathbf{H})$ for $\mathbf{H}$ itself regarded as a space.
 
@@ -129,7 +139,6 @@ Notice that for plain [[topological space]]s an [[étale space]] $X \to H$ is a 
 
 This way we can think of any object $X \in \mathbf{H}$ of the $(\infty,1)$-topos equivalently as a space that is locally built from pieces of $\mathbf{H}$. With the above interpretation of $\mathbf{H}$ as the general abstract lump of cohesive points, this reproduces the intuition that $X \in \mathbf{H}$ is a space with this cohesive structure.
 
-### Coshape
 
 The [[coshape of an (∞,1)-topos]] $\mathbf{H}$ is the underlying $\infty$-groupoid $\Gamma(\mathbf{H})$ for $\mathbf{H}$ itself regarded as a space.
 
@@ -1687,6 +1696,7 @@ $$
   \,.
 $$
 
+
 =--
 
 +-- {: .proof}
@@ -1818,22 +1828,23 @@ Recall the [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat
 ###### Definition
 
 
-A [[connected]] object $\mathbf{B}\mathfrak{g} $ in a cohesive $(\infty,1)$-topos $\mathbf{H}$ such that
+A [[connected]] object $\mathbf{B}\mathfrak{g} $ in a cohesive $(\infty,1)$-topos $\mathbf{H}$ that is _geometrically contractible_
 
 $$
   \Pi \mathbf{B}\mathfrak{g} \simeq *
 $$
 
-and
-
-$$
-  \Gamma \mathbf{B}\mathfrak{g} \simeq *
-$$
 
 we call an **infinitesimal object**. 
 
 Its [[loop space object]] $\mathfrak{g} := \Omega_* \mathbf{B}G$ we call an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
 
+=--
+
++-- {: .un_remark}
+###### Remark
+
+In terms of the extrinsic description at [[Lie integration]] this axiom models objects of the form $\exp(\mathfrak{g}) : U \mapsto Hom(T_{vert} (U \timdes \Delta^\bullet), \mathfrak{g})$ for $\mathfrak{g}$ an [[∞-Lie algebra]] in the explicit algebraic sense. These are indeed all geometrically contractible, since in each degree a contracting homotopy of $\Delta^n$ exhibits a conctraction of the corresponding [[concrete sheaf]] in that degree.
 
 =--
 
@@ -1851,6 +1862,47 @@ $$
 $$
 
 =--
+
++-- {: .un_example}
+###### Proposition/Example
+
+For all $X$ the object $\mathbf{\Pi}_{dR}(X)$ is geometrically contractible.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since on the [[locally ∞-connected (∞,1)-topos]] and [[∞-connected (∞,1)-topos|∞-connected]] $\mathbf{H}$ the functor $\Pi$ preserves [[(∞,1)-colimit]]s and the [[terminal object in an (∞,1)-category|terminal object]], we have
+
+$$
+  \begin{aligned}
+    \Pi \mathbf{\Pi}_{dR} X
+    & {:=}
+     \Pi (*) \coprod_{\Pi X} \Pi \mathbf{\Pi} X
+    \\
+    & \simeq
+      * \coprod_{\Pi X} \Pi Disc \Pi X   
+    \\
+    & \simeq 
+      * \coprod_{\Pi X} \Pi X
+    & \simeq
+      *
+  \end{aligned}
+  \,,
+$$
+
+where we used that in the [[∞-connected (∞,1)-topos|∞-connected]] $\mathbf{H}$ the functor $Disc$ is[[full and faithful (∞,1)-functor|full and faithful]].
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+We have for every $\mathbf{B}G$ that $FLie \mathbf{B}G$ is geometrically contractible.
+
+=--
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -1965,7 +2017,7 @@ $$
     * \coprod_{\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \Omega A} *   
     \\
     & \simeq
-    * \coprod_{Lie \Omega A} *   
+    * \coprod_{FLie \Omega A} *   
     \\
     & \simeq
     FLie ( * \coprod_{\Omega A} * )
@@ -1994,9 +2046,10 @@ $$
   Lie \mathbf{B}G := im( FLie \mathbf{B}G \to \mathbf{B}G)
 $$ 
 
-the _Lie differentiation_ of $\mathbf{B}G$ (...)
+the _Lie differentiation_ of $\mathbf{B}G$ (...).
 
 =--
+
 
 
 
