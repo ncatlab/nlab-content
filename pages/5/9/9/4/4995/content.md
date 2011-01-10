@@ -1855,7 +1855,7 @@ In terms of the extrinsic description at [[Lie integration]] this axiom models o
 Set
 
 $$
-  FLie
+  Lie
   := 
   \mathbf{\Pi}_{dR} \circ \mathbf{\flat}_{dR} 
   \,.
@@ -1899,7 +1899,59 @@ where we used that in the [[∞-connected (∞,1)-topos|∞-connected]] $\mathbf
 +-- {: .un_corollary}
 ###### Corollary
 
-We have for every $\mathbf{B}G$ that $FLie \mathbf{B}G$ is geometrically contractible.
+We have for every $\mathbf{B}G$ that $Lie \mathbf{B}G$ is geometrically contractible.
+
+=--
+
+
+We shall write $\mathbf{B}\mathfrak{g}$ for $Lie \mathbf{B}G$, when the context is clear. And say that $\mathfrak{g}$ _is the $\infty$-Lie algebra_ of $G$.
+
+
++-- {: .un_prop #LieValuesofDeRham}
+###### Proposition
+
+
+Every [de Rham cocycle](#deRhamCohomology) $\omega : \mathbf{\Pi}_{dR} X \to \mathbf{B}G$ factors through the ∞-Lie algebra of $G$
+
+$$
+  \array{
+     && \mathbf{B}\mathfrak{g}
+     \\
+     & \nearrow & \downarrow
+     \\
+     \mathbf{\Pi}_{dR}X 
+     &\stackrel{\omega}{\to}&
+     \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universality of the counit</a> of $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$ we have that $\omega$ factors through the [[unit of an adjunction|counit]9 $FLie \mathbf{B}G \to \mathbf{B}G$. 
+
+=--
+
+Therefore instead of speaking of a $G$-valued de Rham cocycle, it is more accurate to speak of a $\mathfrak{g}$-valued de Rham cocycle. In particular we have the following.
+
++-- {: .un_prop}
+###### Corollary
+
+Every morphism $Lie \mathbf{B}H \to \mathbf{B}G$ from an $\infty$-Lie algebra to an $\infty$-group factors through the $\infty$-Lie algebra of that $\infty$-group
+
+$$
+  \array{
+    \mathbf{B}\mathfrak{h} &\to& \mathbf{B}\mathfrak{g}
+    \\
+    & \searrow& \downarrow
+    \\
+    && \mathbf{BG}
+  }
+  \,.
+$$
 
 =--
 
@@ -1910,7 +1962,7 @@ We have for every $\mathbf{B}G$ that $FLie \mathbf{B}G$ is geometrically contrac
 We have 
 
 $$
-  FLie \circ FLie \simeq FLie \circ \Sigma \circ \Omega
+  Lie \circ Lie \simeq Lie \circ \Sigma \circ \Omega
   \,.
 $$
 
@@ -1989,26 +2041,26 @@ $$
 for all $X \in \mathbf{H}$.
 
 
-Finally to obtain $FLie \circ FLie$ we do one more computation of this sort, using that $FLie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}$ preserves the terminal object (since $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]]) and is a [[left adjoint]] (with right adjoint given by $\mathbf{\flat}_{dR} \mathbf{\Pi}_{dR}$):
+Finally to obtain $Lie \circLie$ we do one more computation of this sort, using that $Lie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}$ preserves the terminal object (since $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]]) and is a [[left adjoint]] (with right adjoint given by $\mathbf{\flat}_{dR} \mathbf{\Pi}_{dR}$):
 
 $$
   \begin{aligned}
-    FLie FLie A 
+    Lie Lie A 
     & \simeq 
-    FLie \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} A
+    Lie \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} A
     \\
     & \simeq
       * 
-        \coprod_{FLie \mathbf{\flat}_{dR} A} 
-      FLie \mathbf{\Pi} \mathbf{\flat}_{dR} A
+        \coprod_{Lie \mathbf{\flat}_{dR} A} 
+      Lie \mathbf{\Pi} \mathbf{\flat}_{dR} A
     \\
     & \simeq
       * 
-        \coprod_{FLie \mathbf{\flat}_{dR} A} 
+        \coprod_{Lie \mathbf{\flat}_{dR} A} 
       \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{\Pi} \mathbf{\flat}_{dR} A
     \\
     & \simeq 
-    * \coprod_{FLie \mathbf{\flat}_{dR} A} *    
+    * \coprod_{Lie \mathbf{\flat}_{dR} A} *    
     \\
     & \simeq 
     * \coprod_{\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{\flat}_{dR} A} *
@@ -2017,85 +2069,14 @@ $$
     * \coprod_{\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \Omega A} *   
     \\
     & \simeq
-    * \coprod_{FLie \Omega A} *   
+    * \coprod_{Lie \Omega A} *   
     \\
     & \simeq
-    FLie ( * \coprod_{\Omega A} * )
+    Lie ( * \coprod_{\Omega A} * )
     \\
     & \simeq
-    FLie \Sigma \Omega A  
+    Lie \Sigma \Omega A  
   \end{aligned} 
-  \,.
-$$
-
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-For $G$ an [[∞-group]] the object $\Sigma \Omega \mathbf{B}G$ may be thought of as the [[delooping]] of the free $\infty$-group on the underlying object of $G$. Therfore the above proposition may be read as saying that $FLie \mathbf{B}G$ is the delooping of the _free ∞-Lie algebra_ on the $\infty$-Lie algebra $\mathfrak{g}$ of $G$.
-
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-For $\mathbf{B}G \in \mathbf{H}$ we call the [[image]]
-
-$$
-  Lie \mathbf{B}G := im( FLie \mathbf{B}G \to \mathbf{B}G)
-$$ 
-
-the _Lie differentiation_ of $\mathbf{B}G$ (...).
-
-=--
-
-
-
-
-+-- {: .un_corollary #LieValuesofDeRham}
-###### Corollary
-
-
-Every [de Rham cocycle](#deRhamCohomology) $\omega : \mathbf{\Pi}_{dR} X \to \mathbf{B}G$ factors through the ∞-Lie algebra of $G$
-
-$$
-  \array{
-     && \mathbf{B}\mathfrak{g}
-     \\
-     & \nearrow & \downarrow
-     \\
-     \mathbf{\Pi}_{dR}X 
-     &\stackrel{\omega}{\to}&
-     \mathbf{B}G
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universality of the counit</a> of $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$ we have that $\omega$ factors through the [[unit of an adjunction|counit]9 $FLie \mathbf{B}G \to \mathbf{B}G$. Hence also through its image.
-
-=--
-
-Therefore instead of speaking of a $G$-valued de Rham cocycle, it is more accurate to speak of a $\mathfrak{g}$-valued de Rham cocycle. In particular
-
-+-- {: .un_prop}
-###### Corollary
-
-Every morphism $Lie \mathbf{B}H \to \mathbf{B}G$ from an $\infty$-Lie algebra to an $\infty$-group factors through the $\infty$-Lie algebra of that $\infty$-group
-
-$$
-  \array{
-    \mathbf{B}\mathfrak{h} &\to& \mathbf{B}\mathfrak{g}
-    \\
-    & \searrow& \downarrow
-    \\
-    && \mathbf{BG}
-  }
   \,.
 $$
 
@@ -2104,6 +2085,8 @@ $$
 
 
 ### Maurer-Cartan forms and curvature characteristic forms {#CurvatureCharacteristics}
+
+In the [intrinsic de Rham cohomology](#deRhamCohomology) of a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos|∞-connected]] there exist canonical cocycles that we may identify with [[Maurer-Cartan form]]s and with [[curvature characteritstic form]]s.
 
 +-- {: .un_def}
 ###### Definition
@@ -2114,7 +2097,8 @@ $$
   \theta : G \to \mathbf{\flat}_{dR} \mathbf{B}\mathfrak{g}
 $$
 
-for the $\mathfrak{g}$-valued de Rham cocycle on $G$ which is induced by the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">pullbck pasting</a>
+for the $\mathfrak{g}$-[valued](#InfinitesimalObjects) 
+de Rham cocycle on $G$ which is induced by the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">(∞,1)-pullback pasting</a>
 
 $$
   \array{
@@ -2146,32 +2130,25 @@ $$
 
 =--
 
-+-- {: .un_prop}
-###### Proposition
 
-On $\mathbf{H} = $ [[?LieGrpd]] and $G \in \mathbf{H}$ an ordinary [[Lie algebra]], $\theta$ coicides with the ordinary [[Maurer-Cartan form]] on a Lie algebra.
++-- {: .un_def}
+###### Definition
 
-=--
 
-+-- {: .proof}
-###### Proof
-
-This is shown at [[∞-Lie groupoid]].
-
-=--
-
-For $G = \mathbf{B}^n A$ an [[Eilenberg-MacLane object]], we also write
+For $G = \mathbf{B}^n A$ an [[Eilenberg-MacLane object]], we also write 
 
 $$
   curv : \mathbf{B}^n A \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} A
 $$
 
-and call this the **universal [[curvature characteristic form]]** on $\mathbf{B}^n A$.
+for the intrinsic Maurer-Cartan form and call this the intrinsic **universal [[curvature characteristic form]]** on $\mathbf{B}^n A$.
 
 =--
 
 
 ### Differential cohomology {#DifferentialCohomology}
+
+In every [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos]] there is an intrinsic notion of [[ordinary differential cohomology]].
 
 +-- {: .un_def }
 ###### Definition 
@@ -2179,20 +2156,20 @@ and call this the **universal [[curvature characteristic form]]** on $\mathbf{B}
 For $X \in \mathbf{H}$ and $A \in \mathbf{H}$ an [[∞-group]] write 
 
 $$
-  \mathbf{H}_{diff}(X,A)
+  \mathbf{H}_{conn}(X,A)
 $$ 
 
 for the [[twisted cohomology]] of $X$ induced by the [curvature characteristic class](#CurvatureCharacteristics) $curv : A \to \mathbf{\flat}_{dR}\mathbf{B}\mathfrak{a}$. This is the [[(∞,1)-pullback]]
 
 $$
   \array{
-    \mathbf{H}_{diff}(X,A) &\stackrel{F}{\to}& 
+    \mathbf{H}_{conn}(X,A) &\stackrel{F}{\to}& 
      H_{dR}(X,\mathbf{B}\mathfrak{a})
     \\
     {}^{\mathllap{\eta}}\downarrow && \downarrow
     \\
     \mathbf{H}(X,A) &\stackrel{curv}{\to}& 
-     \mathbf{H}_{dR}(X,\mathbf{B}\mathfrak{a})
+     \mathbf{H}_{dR}(X,\mathbf{B}A)
   }
   \,,
 $$
@@ -2201,11 +2178,11 @@ $$
 
 This we call the **[[differential cohomology]]** of $X$ with coefficient in $A$.
 
-For $c \in \mathbf{H}_{diff}(X,A)$ a cocycle, we call
+For $\nabla \in \mathbf{H}_{conn}(X,A)$ a cocycle, we call
 
-* $F(c) \in H_{dR}(X,\mathbf{B}A)$ the **curvature** class of $c$;
+* $F(\nabla) \in H_{dR}(X,\mathbf{B}A)$ the **[[curvature]]** class of $c$;
 
-* $[\eta(c)] \in H(X,A)$ the **underlying class in $A$-cohomology**.
+* $[\eta(\nabla)] \in H(X,A)$ the **class in $A$-cohomology of the underlying [[principal ∞-bundle]]**.
 
 =--
 
@@ -2214,16 +2191,20 @@ For $c \in \mathbf{H}_{diff}(X,A)$ a cocycle, we call
 ###### Lemma
 **(differential fiber sequence)**
 
+
+For coefficients $A$ that are $(n+1)$-fold deloopable
 Differential cohomology fits into a [[fiber sequence]]
 
 $$
+  \mathbf{H}(X, \Omega^{n-1} A)
+  \to 
   \cdots
   \to
   \mathbf{H}(X, \Omega A)
   \to
   \mathbf{H}_{dR}(X, A)
   \to 
-  \mathbf{H}_{diff}(X, A)
+  \mathbf{H}_{conn}(X, A)
   \to
   \mathbf{H}(X, A)
   \,.
@@ -2241,7 +2222,7 @@ This is a general statement about the definition of [[twisted cohomology]]: cons
 $$
   \array{
     \mathbf{H}(X,\mathbf{\flat}_{dR} \Omega \mathbf{B} A) 
-    &\to& \mathbf{H}_{diff}(X,A) &\to & H(X, \mathbf{\flat}_{dR} \mathbf{B}A)
+    &\to& \mathbf{H}_{conn}(X,A) &\to & H(X, \mathbf{\flat}_{dR} \mathbf{B}A)
     \\
     \downarrow && \downarrow && \downarrow
     \\
@@ -2265,6 +2246,21 @@ $$
   \,.
 $$
 
+Since $H(X, \mathbf{\flat}_{dR})(X,\mathbf{\flat}_{dR} \matbf{B}A)$ here is a set, this is te product of pullbacks for each element in the set. But this is empty if the cohomology class is not the trivial one picker by the bottom morphisms, so that this is
+
+$$
+  \array{
+    \Omega \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}A) &\to& 
+     *
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B} A)
+  }
+  \,.
+$$
+
+
 Finally using that (as discussed at [[cohomology]] and at [[fiber sequence]]) $\Omega \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}A) \simeq \mathbf{H}(X,\Omega \mathbf{\flat}_{dR} \mathbf{B}A)$ and then
 using the above observation that $\Omega \mathbf{\flat}_{dR} \mathbf{B}A \simeq \mathbf{\flat}_{dR} \Omega \mathbf{B}A$ and finally the defining equivalence $\Omega \mathbf{B}A \simeq A$ the claim follows.
 
@@ -2273,10 +2269,10 @@ using the above observation that $\Omega \mathbf{\flat}_{dR} \mathbf{B}A \simeq 
 +-- {: .un_corollary}
 ###### Corollary
 
-Let $\mathbf{B}^n K$ be an [[Eilenberg-MacLane object]] in $\mathbf{H}$, then differential cohomology in $\mathbf{H}$ fits into a [[short exact sequence]]
+Let $\mathbf{B}^n K$ be an [[Eilenberg-MacLane object]] in $\mathbf{H}$, then differential cohomology in $\mathbf{H}$ fits into a [[short exact sequence]] 
 
 $$
-  0 \to H_{dR}^n(X,K)/H^{n-1}(X,K) \to H_{diff}^n(X,K) \to H^n(X,K)
+  0 \to H_{dR}^n(X,K)/H^{n-1}(X,K) \to H_{conn}^n(X,K) \to H^n(X,K)
   \to 0
   \,.
 $$
@@ -2295,7 +2291,7 @@ $$
   \to
   H(X,\mathbf{\flat}_{dR} A)
   \to 
-  H_{diff}(X, A)
+  H_{conn}(X, A)
   \to
   H(X, A)
   \,.
@@ -2310,13 +2306,13 @@ $$
   \to
   H^{n}_{dR}(X,K)
   \to 
-  H_{diff}^n(X, K)
+  H_{conn}^n(X, K)
   \to
   H^n(X, K)
   \,.
 $$
 
-Moreover observing that by construction the last morphism $H_{diff}^n(X,K) \to H^n(X,K)$ is surjective (because in the defining $(\infty,1)$-pullback for $\mathbf{H}_{diff}$ the right vertical morphism is evidently surjective on connected components) this yields the short exact sequence as claimed.
+Moreover observing that by construction the last morphism $H_{conn}^n(X,K) \to H^n(X,K)$ is surjective (because in the defining $(\infty,1)$-pullback for $\mathbf{H}_{conn}$ the right vertical morphism is evidently surjective on connected components) this yields the short exact sequence as claimed.
 
 =--
 
@@ -2327,7 +2323,7 @@ This is _essentially_ verbatim the expected short exact sequence familiar from o
 
 1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[?LieGrpd]] and $|X| \in Top$ the geometric realization of a paracompact manifold $X$, we have that $H^1(X,U(1))$ above is $H^2_{sing}(|X|,\mathbb{Z})$ and not $H^1_{sing}(|X|,U(1))$. 
 
-1. The fact that on the left  of the short exact sequence we find the intrinsic de Rham cohomology set $H_{dR}^n(X,A)$ instead of something like the set of all flat forms as familiar from discussions of ordinary generalized [[differential cohomology]] is due to the fact that, following the general abstract procedure of [[twisted cohomology]], we defined $\mathbf{H}_{diff}(X,A)$ as the $(\infty,1)$-pullback of the inclusion $H(X,\mathbf{\flat}_{dR}A ) \to \mathbf{H}(X,\mathbf{\flat}_{dR} A)$ of the set of connected components of curvature classes into the [[cocycle]] [[∞-groupoid]]. This is the only natural thing to do in a fully natural [[(∞,1)-category|(∞,1)-categorical setup]]. However, in applications we typically have a concrete model for the [[∞-groupoid]] $\mathbf{H}(X,\mathbf{\flat}_{dR} A)$ in mind, and then can consider the inclusion $\mathbf{H}(X,\mathbf{\flat}_{dR} A)_0 \hookrightarrow \mathbf{H}(X,\mathbf{\flat}_{dR} A)$ of all of its objects. While this does not make intrinsic sense -- it is a bit [[evil]] -- , this is what is effectively done in ordinary generalized [[differential cohomology]], and doing so in our definition changes the above short exact sequence slightly to become exactly the familiar sequence, for the suitable special cases.
+1. The fact that on the left  of the short exact sequence we find the intrinsic de Rham cohomology set $H_{dR}^n(X,A)$ instead of something like the set of all flat forms as familiar from discussions of ordinary generalized [[differential cohomology]] is due to the fact that, following the general abstract procedure of [[twisted cohomology]], we defined $\mathbf{H}_{conn}(X,A)$ as the $(\infty,1)$-pullback of the inclusion $H(X,\mathbf{\flat}_{dR}A ) \to \mathbf{H}(X,\mathbf{\flat}_{dR} A)$ of the set of connected components of curvature classes into the [[cocycle]] [[∞-groupoid]]. This is the only natural thing to do in a fully natural [[(∞,1)-category|(∞,1)-categorical setup]]. However, in applications we typically have a concrete model for the [[∞-groupoid]] $\mathbf{H}(X,\mathbf{\flat}_{dR} A)$ in mind, and then can consider the inclusion $\mathbf{H}(X,\mathbf{\flat}_{dR} A)_0 \hookrightarrow \mathbf{H}(X,\mathbf{\flat}_{dR} A)$ of all of its objects. While this does not make intrinsic sense -- it is a bit [[evil]] -- , this is what is effectively done in ordinary generalized [[differential cohomology]], and doing so in our definition changes the above short exact sequence slightly to become exactly the familiar sequence, for the suitable special cases.
 
 =--
 
@@ -2341,6 +2337,9 @@ In $\mathbf{H} = $ [[?LieGrpd]] the above definition reproduces [[ordinary diffe
 
 
 ### Chern-Weil theory {#ChernWeilTheory}
+
+
+
 
 For $G$ an [[∞-group]], $\mathbf{B}^n K$ an [[Eilenberg-MacLane object]] and
 
@@ -2382,7 +2381,7 @@ The **nonabelian differential cohomology** on $X$ is the [[(∞,1)-pullback]]
 
 $$
   \array{
-    \mathbf{H}_{conn}(X, \mathbf{B}G) &\to& \prod_{\mathbf{c}_i} \mathbf{H}_{diff}(X,\mathbf{B}^{n_i+1} K)
+    \mathbf{H}_{conn}(X, \mathbf{B}G) &\to& \prod_{\mathbf{c}_i} \mathbf{H}_{conn}(X,\mathbf{B}^{n_i+1} K)
    \\
    {}^{\mathllap{[-]}}\downarrow && \downarrow
    \\
@@ -2404,7 +2403,7 @@ On $\infty$-bundles with connection the [[∞-Chern-Weil homomorphism]] refines 
 $$
   \hat \mathbf{c} : \mathbf{H}_{conn}(X, \mathbf{B}G)
    \to 
-  \mathbf{H}_{diff}(X, \mathbf{B}^{n+1}K)
+  \mathbf{H}_{conn}(X, \mathbf{B}^{n+1}K)
   \,.
 $$
 
@@ -2415,6 +2414,9 @@ This is discussed at [[∞-Chern-Weil theory]].
 
 
 ### Chern-Simons theory {#ChernSimonsTheory}
+
+
+
 
 Let $\mathbf{H}$ be a cohesive $(\infty,1)$-topops into which [[manifold]]s embed suitably. Such as $\mathbf{H} = $ [[?LieGrpd]].
 
@@ -2429,7 +2431,7 @@ be a [[cocycle]] for a [[characteristic class]]. This induces the $\infty$-Chern
 $$
   \hat \mathbf{c} : \mathbf{H}_{conn}(\Sigma, \mathbf{B}G) 
   \to 
-  \mathbf{H}_{diff}(\Sigma, \mathbf{B}^{n} \mathbb{R}/\mathbb{Z})
+  \mathbf{H}_{conn}(\Sigma, \mathbf{B}^{n} \mathbb{R}/\mathbb{Z})
   \,.
 $$
 
@@ -2445,7 +2447,7 @@ $$
 then for any cocycle $\nabla \in \mathbf{H}_{conn}(X,\mathbf{B}G)$ the [[circle n-bundle with connection]] $\hat \mathbf{c}(\nabla)$ is necessarily _flat_ , so that
 
 $$
-  \mathbf{H}_{diff}(\Sigma, \mathbf{B}^n U(1))
+  \mathbf{H}_{conn}(\Sigma, \mathbf{B}^n U(1))
   \simeq
   \mathbf{H}(\mathbf{\Pi}(\Sigma), \mathbf{B}^n U(1))
   \,,
@@ -2483,7 +2485,7 @@ $$
 
 =--
 
-(This is due to an observation by [[Domenico Fiorenza]].)
+(This is due to an observation by [[Domenico Fiorenza]]. See [[higher parallel transport]].)
 
 +-- {: .proof}
 ###### Proof
@@ -2676,6 +2678,25 @@ See [[nonabelian cohomology]] for more details.
 The cohesive $(\infty,1)$-topos $(\infty,1)Sh(CartSp)$ is that of [[smooth ∞-groupoid]]s.
 
 The 0-[[truncated]] [[concrete (∞,1)-sheaf|concrete]] objects in this are precisely the [[diffeological space]]s. Accordingly the general [[concrete (∞,1)-sheaves]] here we may think of as **diffeological $\infty$-groupoids**.
+
++-- {: .un_prop}
+###### Proposition
+
+On $\mathbf{H} = $ [[?LieGrpd]] and $G \in \mathbf{H}$ an ordinary [[Lie group]], the 
+[intrinsic Maurer-Cartan form](#CurvatureCharacteristics) 
+$\theta : G \to \mathbf{B}\mathfrak{g}$ 
+coicides with the ordinary [[Maurer-Cartan form]] on a Lie algebra.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is shown at [[∞-Lie groupoid]].
+
+=--
+
+
 
 ### Synthetic differential $\infty$-groupoids
 
