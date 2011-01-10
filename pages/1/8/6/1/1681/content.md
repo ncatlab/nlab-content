@@ -37,7 +37,7 @@ The construction of such a space can be given for $n \geq 2$ using the standard 
 We can include the case $n=1$ when $G$ may be nonabelian, by regarding $C(G,n)$ as a [[crossed complex]]. Its [[classifying space]] $B(C(G,n))$ is then a $K(G,n)$. (This also includes the case $n=0$ when $G$ is just a set!) This method also allows for the construction of $K(M,n;G,1)$ where $G$ is a group, or groupoid,  and $M$ is a $G$-module. This gives a space with $\pi_1 =G$, $\pi_n=M$ all other homotopy trivial, and with the given operation of $\pi_1$ on $\pi_n$. 
 
 
-For $A$ an abelian group, the Eilenberg--Mac Lane space $K(A,n)$ is the image of the [[∞-groupoid]] $\mathbf{B}^n A$ that is the [[strict ∞-groupoid]] given by the [[crossed complex]] $[\mathbf{B}^n A]$ that is trivial everywhhere except in degree $n$, where it is $A$:
+For $A$ an abelian group, the Eilenberg--Mac Lane space $K(A,n)$ is the image of the [[∞-groupoid]] $\mathbf{B}^n A$ that is the [[strict ∞-groupoid]] given by the [[crossed complex]] $[\mathbf{B}^n A]$ that is trivial everywhere except in degree $n$, where it is $A$:
 
 $$
   \begin{aligned}
