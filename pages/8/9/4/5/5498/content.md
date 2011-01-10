@@ -20,7 +20,7 @@ Moreover, if one is having trouble designing a system to describe or run simulat
 
 > This paper uses concepts from sheaf theory to explain phenomena in 
 > concurrent systems, including object, inheritance, deadlock, and 
-> non-interference, as used in computer security. The approach is very; 
+> non-interference, as used in computer security. The approach is very 
 > general, and applies not only to concurrent object oriented systems, but 
 > also to systems of differential equations, electrical circuits, hardware 
 > description languages, and much more. Time can be discrete or continuous, 
