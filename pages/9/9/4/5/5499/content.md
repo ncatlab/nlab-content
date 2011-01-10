@@ -1,7 +1,12 @@
+* automatic table of contents goes here
+{:toc}
+
 ## Introduction ##
 
 The hypothesis I want to explore is that generalisation can be represented as
-an [[adjunction]]. By "generalisation", I mean learning concepts from
+an [[adjunction]]. More precisely, that generalisation and instantiation can be represented as an [[adjoint pair]], generalisation being the [[left adjoint]].
+
+By "generalisation", I mean learning concepts from
 examples, e.g. in machine learning. I believe that this applies to many
 different topics in machine learning, including statistical curve-fitting
 (and its implementation in various kinds of neural net), symbolic vector
@@ -9,10 +14,9 @@ architectures, instance-based learning, and logical induction. If I'm
 right, this could be an important unification of these apparently
 unrelated topics.
 
-I'll explain below. Because I don't have funding to do research, I've not
-had time to develop these ideas. So instead, I think the best I can do 
+Because I don't have funding to do research, I've had no time to develop these ideas. So the best I can do 
 so far is to justify the hypothesis by appealing to various intuitions, and to related
-mathematical and computational phenomena. 
+mathematical and computational phenomena. I've put this material into nLab because I think it's interesting, and may well be important to machine learning: the categorists and machine-learning experts I've asked so far agree. So perhaps other readers can supply technical substantiation for or against this hypothesis. If I can ever get funding then of course I'll do so as well. 
 
 ## Potential uses in machine learning ##
 
@@ -97,9 +101,8 @@ sets, the merging can be described as a [[colimit]] in the category of sets.
 
 By the way, I mention the leather armchair because Goguen used it 
 as an example of
-merging views in a paper on [[sheaf semantics]]: [ _Sheaf
-Semantics for Concurrent Interacting Objects_ ](
-http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.4296 ). 
+merging views in a paper on [[sheaf semantics of concurrent interacting objects]]: [_Sheaf
+Semantics for Concurrent Interacting Objects_](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.4296). 
 
 ### 2. When different views overlap ###
 
@@ -108,8 +111,7 @@ views overlap and agree on their overlaps. In other words, it's a way to
 reconstruct as much of the armchair as possible from partial views of it.
 
 (The chart and atlas representation of manifolds is an example of this too
-[ E.g. page 38 of _Category theory Lecture 6: Colimits_, Jonathan Kirby ]
-( http://maths.dept.shef.ac.uk/magic/course_files/143/ctlecture6.pdf ). )
+E.g. page 38 of [_Category theory Lecture 6: Colimits_, Jonathan Kirby](http://maths.dept.shef.ac.uk/magic/course_files/143/ctlecture6.pdf). )
 
 #### Interpretation for non&#8211;category-theorists ####
 
@@ -131,8 +133,8 @@ This ties up with the idea that left adjoints can be regarded as
 finding the optimum, or most efficient, solution to a problem. 
 
 (This is an
-interpretation I came across in [ the Wikipedia entry on _Adjoint functors_ ]
-( http://en.wikipedia.org/wiki/Adjoint_functors ): possibly authored by the
+interpretation I came across in the Wikipedia entry for [_Adjoint functors_]
+(http://en.wikipedia.org/wiki/Adjoint_functors): possibly authored by the
 Wikipedian called "Functor salad". We can regard the solution as being
 an initial object in a category of solutions. Its initiality models the
 fact that it contains the least disagreement about overlaps, or what I
@@ -156,11 +158,10 @@ and for sensor fusion.
 
 I'll note that this also feels relevant to the topic of "categorical
 perception" introduced by cognitive scientist Stevan Harnad, and to
-similar methods of learning classifications. [ _Neural network modeling
-of categorical perception", by R.I. Damper and S.R. Harnad ](
-http://eprints.ecs.soton.ac.uk/397/ ) ; 
-[ _Categorical Perception-, by S.R.
-Harnad ] ( http://cogprints.org/3017/1/catperc.html ). This
+similar methods of learning classifications. [_Neural network modeling
+of categorical perception_, by R.I. Damper and S.R. Harnad](http://eprints.ecs.soton.ac.uk/397/) ; 
+[_Categorical Perception_, by S.R.
+Harnad ] (http://cogprints.org/3017/1/catperc.html). This
 is something I need to think about further: for the moment, I'll
 just quote from Harnad's abstract to the second paper:
 
@@ -192,9 +193,8 @@ with categorisation.)
 
 Goguen's leather-armchair example actually applies not just to views of
 the shape itself, but to views of attributes defined on it: e.g. colour,
-temperature. This is how he introduces his [[ sheaf semantics ]] 
-of objects, in which he represents objects as 
-[[sheaves]] of local observations, these being
+temperature. This is how he introduces his [[sheaf semantics of concurrent interacting objects]], in which he represents objects as 
+[[sheaf|sheaves]] of local observations, these being
 mappings from a base space (e.g. the surface of the chair) to attributes.
 Perhaps there is a way to represent concepts as sheaves of properties of
 examples, or something related.
@@ -207,7 +207,7 @@ programming, and was introduced by
 [[Gordon Plotkin]] to describe anti-unification
 (_A note on inductive generalization_. In B. Meltzer
 and D. Michie, editors, "Machine Intelligence", volume 5, 1970). But I
-want to think of it more generally. For instance, if we have a [[ poset ]]
+want to think of it more generally. For instance, if we have a [[poset]]
 of concepts, the least general generalisation of two concepts $c1$ and
 $c2$ is
 a new concept $c$ which implies as much as possible about $c1$ and
@@ -241,15 +241,15 @@ are points.
 Moreover, we usually want the concept to be compressed or otherwise
 different from just being a conjunction or something analogous. I suppose
 there are various reasons for this:
-      * Saving memory.
-      * In some generalisers, including most neural nets, stored examples
-         will interfere just because of the architecture. This may not be a
-         good thing, but we need to be able to model it.
-      * Automated discovery. We often want the discovered concept
-         to say something new about the examples and their similarity. A
-         mere conjunction can't do that.
-      * A special case of (c) is when, in inductive logic programming,
-         we introduce new vocabulary: so-called background knowledge.
+* Saving memory.
+* In some generalisers, including most neural nets, stored examples
+will interfere just because of the architecture. This may not be a
+good thing, but we need to be able to model it.
+* Automated discovery. We often want the discovered concept
+to say something new about the examples and their similarity. A
+mere conjunction can't do that.
+* A special case of (c) is when, in inductive logic programming,
+we introduce new vocabulary: so-called background knowledge.
 
 ### 14. Two different languages, therefore two different categories ###
 
@@ -262,7 +262,7 @@ colimit.
 
 This may be related to the fact that in categorical logic, universal
 quantification can be represented as an adjunction. (See the section on
-"Lawvere quantifiers: Quantification as adjunction" in [[ Quantifiers ]]). 
+"Lawvere quantifiers: Quantification as adjunction" in [[quantifier]]). 
 Can one regard that as a kind of generalisation?
 
 ### 16. The impossibility of generalising exactly ###
@@ -311,17 +311,17 @@ set of examples.
 
 Jeremy Gibbons reminded me on reading this that 
 [[Galois connection|Galois connections]] are
-used in [[ Formal Concept Analysis ]] to map
+used in [[Formal Concept Analysis]] to map
 between the intension (set of
 characterising attributes) and the extension (set of examples) of a
 concept. (See e.g. 
-[ http://www.alpheccar.org/fr/posts/show/32 ](http://www.alpheccar.org/fr/posts/show/32) ). 
+[http://www.alpheccar.org/fr/posts/show/32](http://www.alpheccar.org/fr/posts/show/32) ). 
 (This is
 apparently related to Lawvere's comment about an adjunction between syntax
 and semantics:&#160;
-[ http://lambda-the-ultimate.org/node/3971 ](http://lambda-the-ultimate.org/node/3971).) 
+[http://lambda-the-ultimate.org/node/3971](http://lambda-the-ultimate.org/node/3971).) 
 Jeremy felt
 that this is morally the same as my machine learning scenario &#8212; inferring
 a concept from a set of examples and/or a set of properties.
 
-That's about as far as I've got. I need to think about the structure of $C$ and $E$, and probably get away from $E$ being only a subcategory of Set. One possibility which feels promising (thanks to Victor Winschel for encouraging me on this) is to see whether stochastic logic programming can be formulated in terms of adjoints. 
+That's about as far as I've got; the examples I've so far constructed have the same structure as in 18, and seem to be missing something. I need to think about the structure of $C$ and $E$, and probably get away from $E$ being only a subcategory of Set. One possibility which feels promising (thanks to Victor Winschel for encouraging me on this) is to see whether stochastic logic programming can be formulated in terms of adjoints. 
