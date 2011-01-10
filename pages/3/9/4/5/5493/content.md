@@ -25,11 +25,18 @@ A [[Gray-category]] does not have an underlying [[strict 2-category]], but it do
 
 The name 'sesquicategory' literally means $1\frac{1}{2}$-category, although they are actually *more* general than $2$-categories (which are of course more general than $1$-categories).  Probably the reason for the name is that a sesquicategory is "part of the way" from a 1-category to a 2-category; you add the 2-cells and some of the structure, but you leave out one of the axioms.
 
+The paper below shows how a sesquicategory arises from a whiskered category. 
+
 ## References
 
 * [this discussion](http://www.mta.ca/~cat-dist/catlist/1999/2-cats-without) on the categories list.
 
+* Stell, J. Modelling term rewriting by sesquicategories.
+Technical report, University of Keele ~(TR94-02).
+
 * [[Ross Street]], _Categorical structures_, p. 529-577 in Handbook of Algebra, vol. 1, edited by M. Hazewinkel, Elsevier  1996.
+
+* [[Ronnie Brown]], Possible connections between whiskered categories and groupoids, Leibniz algebras, automorphism structures and local-to-global questions. J. Homotopy Relat. Struct., 5(1) (2010) 305--318.
 
 [[!redirects sesquicategory]]
 [[!redirects sesquicategories]]
