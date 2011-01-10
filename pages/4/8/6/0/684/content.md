@@ -17,11 +17,6 @@
 
 
 
-* **loop space object** / [[delooping]]
-
-* [[free loop space object]] / [[derived loop space]]
-
-***
 
 
 # Loop space objects
@@ -188,6 +183,21 @@ $$
   \Omega \mathbf{B}G = G
   \,.
 $$
+
+
+
+## Related concepts
+
+* **loop space object**, [[free loop space object]],
+
+  * [[delooping]]
+
+  * [[loop space]], [[free loop space]], [[derived loop space]]
+
+
+* [[suspension object]]
+
+  * [[suspension]]
 
 
 [[!redirects loop space objects]]
