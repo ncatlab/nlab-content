@@ -1,16 +1,7 @@
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Contents### {: .clickToReveal}
-###Contents### {: .clickToHide tabindex="0"}
-+--{: .hide}
-[[!include contents]]
-=--
-=--
-=--
-
 # Generalisation as an adjunction
-* table of contents
+* the following line creates the automatic table of contents
 {: toc}
+
 
 ## Introduction ##
 
@@ -114,7 +105,7 @@ an optimum transform which minimises interference between different
 $\langle{v,w}\rangle$ associations. 
 
 * The examples are pairs $\langle{p,l}\rangle$ where $p$ is a point in 
-$R^2$ and $l$ is a member of some set 
+$R^n$ and $l$ is a member of some set 
 $L$ of symbolic labels. For instance, the $p$ might be 
 elements of some space whose dimensions measure a voter's preference for 
 various policies; the $l$ could then be the possible parties, 
@@ -221,7 +212,7 @@ $i:I_E \Rightarrow G;E$
 and
 $e:E;G \Rightarrow I_Gen$. Given any object $c$ in 
 $C$, there is a morphism taking every $GFc$ to 
-$g$. Since $F$ maps $g$ to the set of all possible examples, and 
+$c$. Since $F$ maps $g$ to the set of all possible examples, and 
 $G$ should map that back to the original generalisation, this is the 
 identity. Hence we get one natural transformation. 
 
@@ -235,7 +226,11 @@ $i:I_E \Rightarrow G;E$.
 (I need to relate this to the notion of limiting amount of information, 
 showing how that arises from the adjunction.) 
 
-### The problem of noise ###
+...Insert proof that the relevant entities are indeed categories, functors, NTs, etc. Use GC's. Find out how to draw diagrams. ...
+
+...Find out why function composition e.g. $FG$, isn't appearing in maths font. ...
+
+### The problem of noise, and of different languages ###
 
 In the least-squares 
 example, I stipulated that the sets of points in $E$
@@ -246,9 +241,9 @@ In general, given any useful generalisation method, some sets of examples
 will not have an exact generalisation. You can say that this is due to 
 experimental error, or to an inadequate statistical model, or to an 
 insufficiently powerful description language, or to restricted storage capacity, 
-or whatever. 
+or whatever. See also sections on "Change of language" below.
 
-We can try fixing this by extending 
+I thought of fixing this by extending 
 $G$ so that it maps each set of non-colinear points 
 to the line with the least least-squares distance from them. 
 (But what if, in this 
@@ -262,11 +257,13 @@ $S'$ from $S$ by adding a point that isn't on the line, then the
 best-fit line to $S'$ will be different from that to $S$, so the 
 inclusion won't hold. 
 
-One might argue that the way to fix this is not to decide _a priori_ that the 
+Maybe the way to fix this is not to decide _a priori_ that the 
 morphisms in $E$ should be inclusions, but to let them 
 be determined by the morphisms in $C$. Philosophically 
 speaking, perhaps this is reasonable &#8212; we don't perceive the raw data directly, 
-but always fit it to a preconceived model.
+but always fit it to a preconceived model. But I feel I'm missing something else here.
+
+That's about as far as I've got; the examples I've so far constructed have the same structure as in 18, and seem to be missing something. I need to think about the structure of $C$ and $E$, and probably get away from $E$ being only a subcategory of Set. One possibility which feels promising (thanks to Victor Winschel for encouraging me on this) is to see whether stochastic logic programming can be formulated in terms of adjoints. 
 
 ## Informal justification ##
 
@@ -502,4 +499,3 @@ Jeremy felt
 that this is morally the same as my machine learning scenario &#8212; inferring
 a concept from a set of examples and/or a set of properties.
 
-That's about as far as I've got; the examples I've so far constructed have the same structure as in 18, and seem to be missing something. I need to think about the structure of $C$ and $E$, and probably get away from $E$ being only a subcategory of Set. One possibility which feels promising (thanks to Victor Winschel for encouraging me on this) is to see whether stochastic logic programming can be formulated in terms of adjoints. 
