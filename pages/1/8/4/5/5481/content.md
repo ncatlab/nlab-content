@@ -27,7 +27,7 @@ A [[site]] is **$\infty$-local** if it satisfies sufficient conditions for the [
 
 A [[site]] $C$ is **$\infty$-local** if 
 
-* it has a [[terminal object]];
+* it has a [[terminal object]] $*$;
 
 * the [[limit]]-functor $\lim_\leftarrow : [C^{op}, sSet] \to$ [[sSet]]
   sends [[Cech nerve]] projections $C(U) \to X$ over [[covering]] families
