@@ -1887,6 +1887,11 @@ since the pullback of an equivalence is an equivalence.
 If in a cohesive $\mathbf{H}$  _[pieces have points](#PiecesHavePoints)_ for $X \in \mathbf{H}$, precisely if $\mathbf{\Pi}_{dR} X $ is
 _globally [[connected]]_ in that $\pi_0 \mathbf{H}(*, \mathbf{\Pi}_{dR}X) = *$.
 
+If $X$ has at least one point ($\pi_0(\Gamma X) \neq \emptyset $) 
+and is geometrically connected ($\pi_0 (\Pi X) = {*}$) then 
+$\mathbf{\Pi}_{\mathrm{dR}}(X)$ is also locally connected: 
+$\tau_0 \mathbf{\Pi}_{\mathrm{dR}} \simeq {*} \in \mathbf{H}$.
+
 =--
 
 +-- {: .proof}
@@ -1911,14 +1916,58 @@ $$
 
 where in the last step we used that $Disc$ is a [[full and faithful (∞,1)-functor|full and faithful]], so that there is an equivalence $\Gamma \mathbf{\Pi}X := \Gamma Disc \Pi X \simeq \Pi X$.
 
-For instance by [[presentable (infinity,1)-category|presenting]] $\Gamma X, \Pi X \in \infty Gprd$ in $sSet_{Quillen}$ we find that if the connected components of $\Gamma X$ surject on those of $\Pi X$, then the last pushout is connected.
+To analyse this $(\infty,1)$-pushout we present it by a 
+[[homotopy pushout] in 
+the standard [[model structure on simplicial sets]] $\mathrm{sSet}_{\mathrm{Quillen}}$. 
+Denoting by $\Gamma X$ and $\Pi X$ any represetatives in $\mathrm{sSet}_{\mathrm{Quillen}}$ of the objects of the same name in 
+$\infty \mathrm{Grpd}$, this may be computed by the ordinary pushout 
+of simplicial sets
+
+$$
+  \array{
+    \Gamma X  &\to& (\Gamma X) \times \Delta[1] \coprod_{\Gamma X} {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    \Pi X &\to& & Q
+  }
+  \,,
+$$
+
+were on the right we have inserted the [[cone]] on $\Gamma X$ in order to turn the top morphism into a cofibration. From this ordinary pushout it is clear that the connected components of $Q$ are obtained from those of 
+$\Pi X$ by identifying all those
+in the image of a connected component of $\Gamma X$. So if the left morphism is surjective on
+$\pi_0$ then $\pi_0(Q) = *$. This is precisely the condition that 
+[pieces have points](#PiecesHavePoints) in $\mathbf{H}$.
+
+For the local analysis we consider the same setup objectwise in the injective [[model structure on simplicial presheaves]]
+$[C^{\mathrm{op}}, \mathrm{sSet}]_{\mathrm{inj},\mathrm{loc}}$. 
+For any $U \in C$
+we then have the pushout $Q_U$ in
+
+$$
+  \array{
+    X(U) &\to & (X(U)) \times \Delta[1] \coprod_{X(U)} {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathrm{sSet}(\Gamma(U), \Pi X) & \to & Q_U
+  }
+  \,,
+$$
+
+as a model for the value of the simplicial presheaf presenting $\mathbf{\Pi}_{\mathrm{dR}}(X)$.
+If $X$ is geometrically connected then $\pi_0 \mathrm{sSet}(\Gamma(U), \Pi(X)) = *$
+and hence for the left morphism to be surjective on $\pi_0$ it suffices that the top left
+object is not empty. Since the simplicial set $X(U)$ contains at least the vertices 
+$U \to * \to X$ of which there is by assumption at least one, this is the case.
 
 =--
 
 +-- {: .un_remark}
 ###### Remark
 
-In summary this means that in a cohesive $(\infty,1)$-topos the objects $\mathbf{\Pi}_{dR} X$ have the abstract properties of [[de Rham schematic homotopy type]]s.
+In summary this means that in a cohesive $(\infty,1)$-topos the objects $\mathbf{\Pi}_{dR} X$ have the abstract properties of [[de Rham schematic homotopy type|pointed geometric de Rham homotopy types]]s.
 
 In the [Examples](#Examples) we will see that, indeed, the intrinsic de Rham cohomology $H_{dR}(X, A) {:=} \pi_0 \mathbf{H}(\mathbf{\Pi}_{dR} X, A)$ reproduces ordinary de Rham cohomology in degree $d\gt 1$.
 
@@ -1928,8 +1977,14 @@ In degree 0 the intrinsic de Rham cohomology is necessrily trivial, while in deg
 
 ### $\infty$-Lie algebras {#LieAlgebras}
 
-Let $\mathbf{H}$ be [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]].
-Recall the [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$ from the discussion of [de Rham cohomology](#deRhamCohomology) above.
+In analogy to how a cocycle $\nabla : \mathbf{\Pi}(X) \to \mathbf{B}G$ in
+$H^1_{\mathrm{flat}}(X,G)$ may be interpreted as 
+encoding $G$-valued parallel tranport over paths in $X$, a cocycle
+$\omega : \mathbf{\Pi}_{\mathrm{dR}}(X) \to \mathbf{B}G$ may be interpreted as
+encoding parallel transport over \emph{infinitesimal} paths in $X$. We may think
+of factoring through objects $\mathbf{B}\mathfrak{g} \to \mathbf{B}G$ of infinitsimal
+elements of $G$. These we identify with the intrinsic notion of $\infty$-Lie algebras
+in $\mathbf{H}$.
 
 +-- {: .un_def}
 ###### Definition
