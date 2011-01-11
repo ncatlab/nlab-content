@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of  _posite_ (or _$(0,1)$-site_ , less properly _$0$-site_ ) is a [[decategorification]] of the notion of _[[site]]_ (which may also be called a $1$-site or $(1,1)$-site). For the [[categorification]], see $(\infty,1)$-[[(infinity,1)-site|site]].
+The notion of  _posite_ (or _$(0,1)$-site_ , less properly _$0$-site_ ) is a [[decategorification]] of the notion of _[[site]]_ (which may also be called a $1$-site or $(1,1)$-site). For [[categorifications]] thereof, see [[(∞,1)-site]] and [[2-site]].
 
 Just as a site is a [[category]] with a [[coverage]], whose ([[set]]-valued) [[sheaves]] form a [[Grothendieck topos]], so a posite is a [[poset]] with a coverage, whose $(0,1)$-sheaves ([[truth value]]-valued sheaves) form a [[locale]].  On the other hand, we can also consider a posite as a site in its own right, in which case the $1$-sheaves on it form a [[localic topos]].
 
@@ -37,7 +37,7 @@ In other words, a posite is a [[poset]] (or more generally a [[preordered set]])
 The definition of coverage may be simplified a little in this case.
 
 +-- {: .un_defn}
-###### Definition (coverage on a posite)
+###### Definition (coverage on a poset)
 
 Let $S$ be a poset (or proset).  A __coverage__ on $S$ is a [[binary relation]] $\lhd$ between $S$ and its [[power set]] that satisfies these conditions:
 
@@ -137,7 +137,7 @@ in [[logic]].  Note that we have a single proposition on the left but a set of p
 
 Any poset (or proset) $S$ has a __[[canonical coverage]]__, in which
 
-*  $u \lhd V$ if and only if $u$ is a [[join]] of $V$ in $S$.
+*  $u \lhd V$ if and only if for any $u'\le u$, then $u'$ is a [[join]] of some set $V'$ such that, for every $v'\in V$, there is a $v\in V$ such that $v'\le v$.
 
 If $S$ is a [[frame]] equipped with its canonical coverage, then $Sh(S)$ is [[natural isomorphism|naturally isomorphic]] to $S$ itself.  (Analogously the [[topos of sheaves]] on a [[Grothendieck topos]] $S$ with its canonical coverage is naturally [[equivalence of categories|equivalent]] to $S$.)
 
