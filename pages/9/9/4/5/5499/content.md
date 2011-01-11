@@ -1,5 +1,16 @@
-* automatic table of contents goes here
-{:toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Contents### {: .clickToReveal}
+###Contents### {: .clickToHide tabindex="0"}
++--{: .hide}
+[[!include contents]]
+=--
+=--
+=--
+
+# Generalisation as an adjunction
+* table of contents
+{: toc}
 
 ## Introduction ##
 
