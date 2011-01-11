@@ -5,7 +5,7 @@ A brief biography can be found in the article [HAPPY 80-th BIRTHDAY PROFESSOR MA
 
 Most of Sibe Marde&#353;i&#263;'s important works are related to [[shape theory]] and geometric topology, mainly in the approach via inverse systems, which he pioneered (there was also a parallel development by [[Tim Porter]]). Sibe Marde&#353;i&#263; wrote several monographs and edited several proceedings volumes in geometric topology and shape theory.  
  
-* S. Marde&#353;i&#263;, J. Segal, (1982) Shape Theory, North Holland.
+* S. Marde&#353;i&#263;, J. Segal, _Shape theory_, North Holland 1982.
  
 * S. Marde&#353;i&#263;, Strong shape and homology, Springer monographs in mathematics, 2000. xii+489 pp.
 
@@ -57,3 +57,4 @@ category: people
 
 [[!redirects Sibe Mardešić]]
 [[!redirects Сибе Мардешић]]
+[[!redirects S. Mardešić]]
