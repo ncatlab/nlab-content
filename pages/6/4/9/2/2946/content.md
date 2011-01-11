@@ -26,6 +26,10 @@ Similarly, a __cofiltered limit__ is a [[limit]] of a functor $F\colon D \to C$ 
 
 A [[functor]] that preserves all finitely filtered colimits is called [[finitary functor|finitary]].
 
+## Description in Set, Grp, Top and alike
+
+Elements in filtered colimits in Set and Grp are given as classes of equivalences, so called [[germ]]s. Filtered limits in Set and Top are given as families of compatible elements, so called [[thread]]s.
+
 
 ## Properties {#properties}
 
