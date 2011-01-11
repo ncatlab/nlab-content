@@ -361,28 +361,100 @@ Since $X^*$, being an inverse image, preserves finite limits and since it preser
 =--
 
 
-### $\infty$-Groups {#InfinGroups}
+### Cohesive $\infty$-Groups {#InfinGroups}
 
-Every [[(∞,1)-category]] with [[(∞,1)-limit]]s comes with its notion of [[loop space object]]. A [[connected]] object in $\mathbf{H}$ we write $\mathbf{B}G$. Its [[loop space object]]
+Every [[(∞,1)-topos]] $\mathbf{H}$ 
+comes with a notion of [[group object in an (∞,1)-category|∞-group objects]] that generalizes the traditional notion of grouplike $A_\infty$ spaces in [[Top]] $\simeq$ [[∞Grpd]].
 
-$$
-  G := \Omega \mathbf{B}G
-$$
++-- {: .un_def}
+###### Definition
 
-defined as the [[(∞,1)-pullback]]
+  For $X \in \mathbf{H}$ an object and $x : * \to X$ a point, the 
+  **[[loop space object]]** of $X$ is the [[(∞,1)-pullback]]
+  $\Omega_x X := * \times_X *$:
 
+  $$
+    \array{
+       \Omega_x X & \to & {*} 
+       \\
+       \downarrow && \downarrow^{\mathrlap{x}}
+       \\
+       {*} & \stackrel{x}{\to} & X
+    }
+    \,.
+  $$
+
+=--
+
+This object $\Omega_x X$ is canonically equipped with the structure of an [[∞-group]] obect.
+
++-- {: .un_def}
+###### Definition
+
+  For every [[∞-group]] $G \in \mathbf{H}$ there is a [[connected]] object 
+  $\mathbf{B}G$ such that $G \simeq \Omega_{*} \mathbf{B}G$.
+
+=--
+
+See [[groupoid object in an (∞,1)-category]].
+
+
++-- {: .un_def}
+###### Definition
+
+  The object $\mathbf{B}G \in \mathbf{H}$ is concrete preciely if $G$ is.
+
+=--
+
+We may therefore unambiguously speak of **concrete cohesive $\infty$-groups**.
+
++-- {: .un_def}
+###### Definition
+
+  For $f : Y \to Z$ any morhism in $\mathbf{H}$
+  and $z : * \to Z$ a point, the [[homotopy fiber|∞-fiber]] or
+  of $f$ over this point is the [[(∞,1)-pullback]] 
+  $ X := {*} \times_Z Y$
+
+  $$
+    \array{
+        X & \to & {*} 
+        \\
+        \downarrow && \downarrow^{\mathrlap{z}}
+        \\
+        Y & \stackrel{f}{\to} & Z
+    }
+    \,.
+  $$
+
+=--
+
++-- {: .un_remark}
+###### Observation
+
+  Suppose that also $Y$ is pointed and $f$ is a morphism of pointed objects.
+  Then the $\infty$-fiber of an $\infty$-fiber is the 
+  [[loop space object]] of the base.
+
+=--
+
+This means that we have a diagram
 
 $$
   \array{
-    G &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    * &\to& \mathbf{B}G
+      \Omega_z Z  & \to& X & \to & {*} 
+      \\
+      \downarrow && \downarrow && \downarrow
+      \\
+      {*} & \to & Y & \stackrel{f}{\to} & Z
   }
+  \,,
 $$
 
-is the [[∞-group]] of which $\mathbf{B}G$ is the [[delooping]] object.
+where the outer rectangle is an [[(∞,1)-pullback]] if the left square is an 
+[[(∞,1)-pullback]]. 
+This follows from the pasting law for $(\infty,1)$-pullbacks in any
+[[(∞,1)-category]].
 
 
 ### Cohomology and principal $\infty$-bundles {#Cohomology}
@@ -2277,7 +2349,7 @@ $$
 
 ### Maurer-Cartan forms and curvature characteristic forms {#CurvatureCharacteristics}
 
-In the [intrinsic de Rham cohomology](#deRhamCohomology) of a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos|∞-connected]] there exist canonical cocycles that we may identify with [[Maurer-Cartan form]]s and with [[curvature characteristic form]]s.
+In the [intrinsic de Rham cohomology](#deRhamCohomology) of a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos|∞-connected]] there exist canonical cocycles that we may identify with [[Maurer-Cartan form]]s and with universal [[curvature characteristic form]]s.
 
 +-- {: .un_def}
 ###### Definition
@@ -2346,7 +2418,7 @@ In every [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-con
 +-- {: .un_def }
 ###### Definition 
 
-For $X \in \mathbf{H}$ and $A \in \mathbf{H}$ an [[∞-group]] write 
+For $X \in \mathbf{H}$ any object and $A \in \mathbf{H}$ an [[∞-group]] write 
 
 $$
   \mathbf{H}_{conn}(X,A)
@@ -2520,18 +2592,12 @@ This is _essentially_ verbatim the expected short exact sequence familiar from o
 
 =--
 
-+-- {: .un_example}
-###### Example
-
-In $\mathbf{H} = $ [[?LieGrpd]] the above definition reproduces [[ordinary differential cohomology]]. A detailed discussion is at [[circle n-bundle with connection]].
-
-=--
 
 
 
 ### Chern-Weil theory {#ChernWeilTheory}
 
-Induced by the [intrinsic differential cohomology](#DifferentialCohomology) in any [[∞-conneced (∞,1)-topos|∞-connected]] and [[locally ∞-connected (∞,1)-topos]] is an intrinsic notion of [[Chern-Weil homomorphism]].
+Induced by the [intrinsic differential cohomology](#DifferentialCohomology) in any [[∞-connected (∞,1)-topos|∞-connected]] and [[locally ∞-connected (∞,1)-topos]] is an intrinsic notion of [[Chern-Weil homomorphism]].
 
 
 For $G$ an [[∞-group]], $\mathbf{B}^n K$ an [[Eilenberg-MacLane object]] and
@@ -2890,7 +2956,20 @@ This is shown at [[∞-Lie groupoid]].
 =--
 
 
++-- {: .un_prop}
+###### Propositioon
 
+In $\mathbf{H} = $ [[?LieGrpd]] the intrinsic definition of differemtial cohomology reproduces [[ordinary differential cohomology]]. 
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is shown at [[circle n-bundle with connection]].
+
+=--
 ### Synthetic differential $\infty$-groupoids
 
 The $(\infty,1)$-topos $(\infty,1)Sh(ThCartSp)$ is that of [[smooth ∞-groupoid|synthetic differential ∞-groupoid]] 
