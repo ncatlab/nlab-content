@@ -1,24 +1,23 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context###
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
 
-
-
 +--{: .standout}
 This page is (I believe) original research.  Suggestions, corrections, and additions are very welcome.  -- [[Mike Shulman]]
 =--
 
+# SEAR
 * a table of contents
 {:toc}
 
-# Introduction #
+## Introduction #
 
 **SEAR**, short for **Sets, Elements, And Relations**, is a [[structural set theory]] with the following properties:
 
@@ -46,9 +45,9 @@ Note that experts will probably always prefer to build their own car/OS; the goa
 * The property of [[axiom of separation|separation]] (one of the most important facts in the everyday use of set theory) is a direct consequence of the axioms of SEAR.  Compare how in ETCS, the property of bounded separation follows from the theorem that a [[topos]] is a [[Heyting category]], which requires [[Trimble on ETCS II|substantial work]].
 
 
-# Description of SEAR #
+## Description of SEAR
 
-## Types ##
+### Types
 
 SEAR is a theory about three kinds of things: **sets**, **elements**, and **relations**.  Every element, and every variable that ranges over elements, is always associated to something denoting a set (which might be a constant or a variable); we say it is an element **of** that set.  If $x$ is an element of $A$ we write $x\in A$; note that this is not an *assertion* which may be true or false, but a *typing* declaration.  In formal terms, this means that SEAR is a [[dependent type theory]], with a type of sets, a type of elements for each set term, and a type of relations for each pair of set terms. 
 
@@ -61,7 +60,7 @@ Implicit in the existence of three types of things is that nothing is both a set
 The final piece of data that we have is a notion of when a relation $\varphi:A\looparrowright B$ **holds** of a pair of elements $x\in A$ and $y\in B$.  We write $\varphi(x,y)$ when $\varphi$ holds of $x$ and $y$.
 
 
-## Basic axioms ##
+### Basic axioms
 
 Now we can state the axioms of SEAR, beginning with the most basic ones.
 
@@ -85,7 +84,7 @@ We write $f:A\to B$ for such a function, and for $x\in A$ we write $f(x)$ for th
 A set $|\varphi|$ equipped with $p$ and $q$ as in Axiom 2 is called a **tabulation** of the relation $\varphi$.  We think of $|\varphi|$ as "the set of pairs $(x,y)$ such that $\varphi(x,y)$ holds," with $p$ and $q$ projecting $(x,y)$ to $x$ and $y$, respectively.  Note that by Axiom 1, any set $R$ equipped with functions $p:R\to A$ and $q:R\to B$ satisfying (2) determines a unique relation $\varphi:A\looparrowright B$ such that $\varphi(x,y)$ holds iff there is an $r\in R$ with $p(r)=x$ and $q(r)=y$; then $R$ is a tabulation of $\varphi$.
 
 
-## Consequences of the basic axioms ##
+### Consequences of the basic axioms
 
 Axioms 0, 1, and 2 alone are very powerful!  Here are some things we can do with them.
 
@@ -197,7 +196,7 @@ Left to the reader.
 =--
 
 
-## Power sets and colimits ##
+### Power sets and colimits
 
 In structural set theory, sets cannot contain other sets (or relations), so we cannot strictly speaking have "the set of subsets of a set $A$."  What we generally do instead is have a set $P A$ each of whose elements is *associated to* a subset of $A$ in a bijective way.  This association happens via a specified relation between $A$ and $P A$.
 
@@ -246,7 +245,7 @@ Likewise, given sets $A$ and $B$, let $A\sqcup B={|S|}$, where $S$ is the subset
 In particular, it follows that $Set$ is a [[pretopos]] (as is any topos).
 
 
-## Infinity ##
+### Infinity
 
 **Axiom 4 (Infinity):** _There exists a set $N$, containing an element $o$, and a function $s:N\to N$ such that $s(n)\neq o$ for any $n\in N$ and $s(n) = s(m)$ only if $n = m$ for any $n, m\in N$._
 
@@ -256,11 +255,13 @@ Note also that Axiom 4 implies Axiom 0.
 
 We can however [[natural numbers in SEAR|define sets]] with $n$ elements for each natural number $n$ directly axioms 0, 1, 2 and 3.
  
-## Collection ##
+
+### Collection
 
 The final axiom of SEAR is somewhat trickier to motivate.  It corresponds to the [[axiom of replacement]] (or more precisely collection; see [Wikipedia](http://en.wikipedia.org/wiki/Axiom_schema_of_replacement) until we get around to writing our own article) in $\mathbf{ZFC}$, and the reasons that we need it are the same as the reasons that $\mathbf{ZFC}$ needs it.
 
-### The ghost of a universal set
+
+#### The ghost of a universal set
 
 One way to motivate the collection axiom is as follows.
 Suppose for the sake of argument that there existed a *universal set*, meaning a set containing all other sets.  Now in structural set theory this is meaningless, since no set can contain other sets, but there is an easy fix: we consider instead *indexed families* of sets.  There are multiple ways to make this precise, but here is a very simple one: an $A$-indexed [[family of sets]] is simply a relation $M:A\looparrowright X$.  The set indexed by each element $a\in A$ is $M_a = \{x\in X | M(a,x)\}$.  (Often one requires the $M_a$ to be a disjoint decomposition of $X$, so that $M^o$ is a function $X\to A$, but this is unnecessary.  In fact, if $M:A\looparrowright X$ is a general family, then ${|M|} \to A$ is a function that represents a family in this stronger sense which is equivalent to $M$.)
@@ -279,16 +280,17 @@ What this axiom asserts is actually a bit weaker than the precise ghost of a tab
 
 _Exercise: why is adherence to "speak no evil" necessary for Axiom 5 to be reasonable as stated?_
 
-### Applications of collection
+
+#### Applications of collection
 
 One thing that Axiom 5 is good for is the recursive construction of sets.  For example, using Axioms 1--4 we can construct the sets $N$, $P(N)$, $P(P(N))$, and so on, but we cannot construct anything larger than all the sets in this sequence.  Axiom 5 allows us to do that.
 
 (more detail to be added here...)
 
 
-# Variants and Comparisons #
+## Variants and Comparisons
 
-## The Axiom of Choice ##
+### The Axiom of Choice
 
 We obtain a theory called **SEARC** (SEAR with Choice) by adding the following axiom:
 
@@ -296,15 +298,19 @@ We obtain a theory called **SEARC** (SEAR with Choice) by adding the following a
 
 This is easily seen to be equivalent to asserting that all surjections are [[split epimorphism|split]] in $Set$, which is a more common categorical form of the [[axiom of choice]].
 
-## Constructive SEAR ##
 
-Axioms 1--5 of SEAR make perfect sense whether the ambient logic is [[classical logic|classical]] or [[intuitionistic logic|constructive]].  By Diaconescu's argument, Choice implies the logic is classical.
+### Constructive SEAR
 
-To obtain a [[predicative mathematics|predicative]] theory, Axiom 3 can be replaced by an appropriate weaker axiom, such as the existence of [[disjoint unions]] and [[quotient sets]].  If desired, we can also add [[function sets]] or even a structural version of the axiom of [[subset collection]]; as usual, function sets, subset collection, and power sets are all equivalent using classical logic.
+Axioms 1--5 of SEAR make perfect sense whether the ambient logic is [[classical logic|classical]] or [[intuitionistic logic|constructive]].  By Diaconescu's argument, Choice implies the logic is classical.  We may call SEAR interpreted in intuitionistic logic __ISEAR__.
+
+To obtain a [[predicative mathematics|predicative]] theory, Axiom 3 can be replaced by an appropriate weaker axiom, such as the existence of [[disjoint unions]] and [[quotient sets]].  We may call this variation of SEAR __PSEAR__.
+
+If desired, we can also add [[function sets]] or even a structural version of the axiom of [[subset collection]]; as usual, function sets, subset collection, and power sets are all equivalent using classical logic.  We may call this variation of SEAR __CSEAR__.
 
 Compare [[Erik Palmgren]]\'s [constructive ETCS](http://www.math.uu.se/~palmgren/cetcs.pdf).
 
-## Bounded SEAR and ETCS ##
+
+### Bounded SEAR and ETCS
 
 By **bounded SEAR** we mean the subtheory consisting of axioms 2--4 of SEAR plus
 
@@ -314,9 +320,10 @@ All the theorems cited above remain true with Axiom 1 replaced by Axiom 1B, so b
 
 ETCS can also be augmented with additional axioms to make it equivalent to full SEARC, but that is beyond our scope at the moment.
 
-## SEAR and ZF ##
 
-### From ZF to SEAR
+### SEAR and ZF
+
+#### From ZF to SEAR
 
 It is fairly straightforward to construct a model of SEAR from a model of ZF.  Given a model of ZF, we define the SEAR-sets to be the ZF-sets, and the SEAR-elements of $A$ to be the ZF-elements of $A$.  If we prefer, we can take the SEAR-elements of $A$ to be pairs $(x,A)$ where $x\in_{ZF} A$, so that the elements of distinct sets will be disjoint---but this is not necessary, since in SEAR the question of whether two distinct sets have elements in common is not even well-posed.  Finally, we of course take the SEAR-relations $A\looparrowright B$ to be the ZF-subsets of $A\times B$, and we let $\varphi(x,y)$ hold in SEAR iff $(x,y)\in_{ZF} \varphi$.  It is then easy to prove Axioms 0, 1, 2, 3, and 4 from the axioms of ZF, and likewise Axiom 6 follows easily from the axiom of choice in ZFC.  (In fact, Z and ZC, where the replacement axiom is omitted, suffice for these conclusions.)  The only axiom which requires some thought is Collection, and it is here that we use replacement.
 
@@ -337,7 +344,8 @@ Then $M_{(a,X)} = X$, since each $V_\lambda$ is a transitive set, so $P((a,X), M
 
 Note the use of the axiom of foundation in addition to the axiom of replacement.  This can be avoided if we use instead the ZF version of the [axiom of collection](http://en.wikipedia.org/wiki/Axiom_of_collection#Axiom_schema_of_collection), which is equivalent to the axiom of replacement over the other ZF axioms (including foundation), by an argument like that above.
 
-### From SEAR to ZF
+
+#### From SEAR to ZF
 
 Conversely, from any model of SEAR one can *construct* a model of ZF.    The basic idea of this process is described at [[pure set]].  Given a model of SEAR, we define a **ZF-set** to be an equivalence class of well-founded extensional accessible graphs, as described at [[pure set]].  We define the global membership relation $\in$ on ZF-sets to be the "immediate subgraph" relation.
 
@@ -359,16 +367,17 @@ Then for any $x\in_{ZF}A$, we have $x\cong down(a)$ for some child $a$ of the ro
 
 Thus, SEAR and SEARC are at least equiconsistent with ZF and ZFC, respectively. In fact, SEARC and ZFC are equivalent, in the sense that passage back and forth in either direction yields an equivalent model.  However, passage from SEAR to ZF and back again can lose information, if there are sets in the model of SEAR which do not admit any well-founded extensional relation (this doesn't happen in the presence of choice, since then every set can be well-ordered).
 
-## Type theory and internalization
+
+### Type theory and internalization
 
 Every topos has an [[internal logic]], which is a [[type theory]].  However, the line between type theory and structural set theory is fine and sometimes hard to see; the main difference is that structural set theory can involve quantifiers over sets (= types), while type theory only allows ("bounded") quantifiers over elements of types.  Through this correspondence, *Intuitionistic Bounded SEAR* can be treated as a type theory and interpreted internally in any topos with a NNO.  Of course, if the topos is [[boolean topos|boolean]], then the logic can be classical.
 
 One can also write down stronger axioms on a topos such that if they are satisfied, then full Intuitionistic SEAR can be interpreted "internally" in that topos, extending the usual internal logic.
 
 
-# Making alternate primitive choices #
+## Making alternate primitive choices
 
-## SEPS: Using pairs and subsets instead of relations
+### SEPS: Using pairs and subsets instead of relations
 
 An alternate formulation of the theory, suggested by Toby, has four primitive notions: sets, elements, subsets, and a pairing operation.  Sets and elements are as before.  A *subset* is, like an element, attached to a certain set; it is always a subset *of* some set.  Thus we have a typing declaration $S\subseteq A$.  We also have a primitive notion of when an element $x\in A$ *belongs to* a subset $S\subseteq A$; thus now we have $x\in S$ as a possible assertion of the theory (analogous to $R(x,y)$ before).  We allow a typed equality predicate for subsets.  Finally, there is an operation which assigns to every pair of sets $A$ and $B$ a set $A\times B$, and to every pair of elements $x\in A$ and $y\in B$ an element $(x,y)\in A\times B$.
 
@@ -385,7 +394,7 @@ We now define a **relation** $A\looparrowright B$ to be a subset of $A\times B$.
 Applying separation to subsets of $A\times B$ and composing $i$ with the product projections, we recover Axiom 2 (tabulations).  We can now go on with the subsequent axioms stated in the same way as before.
 
 
-## Eliminating equality
+### Eliminating equality
 {#eqfree}
 
 As stated SEAR includes a fundamental "equality" relation on elements of a given set.  However, we can also make equality into *structure*.  This is definitely not along the "more accessible to undergraduates" direction!  But it may sometimes be technically helpful.
@@ -404,7 +413,7 @@ The same idea applies to all the other axioms.
 If to this equality-free version of SEAR we add a primitive notion of (non-extensional) "operation" and a [[choice operator]], we obtain [[SEAR+?]].
 
 
-# Related pages and spinoffs
+## Related pages and spinoffs
 
 The following pages develop various aspects of set theory in SEAR or related theories.
 
