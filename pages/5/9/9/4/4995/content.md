@@ -148,8 +148,102 @@ The [[coshape of an (∞,1)-topos]] $\mathbf{H}$ is the underlying $\infty$-grou
 
 A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with good [[cohomology]] and [[homotopy]] properties. We list fundamental structures and constructions that exist in every cohesvive $(\infty,1)$-topos.
 
-The order is roughly by additional axioms needed for the
-structure to exist. The first few exist in every $(\infty,1)$-topos, then there are several that need only local and some that also need global $\infty$-connectivity, and finally there are some that also need $\infty$-locality.
+
+### Concrete objects{#ConcreteObjects}
+
+
+The cohesive structure on an object in a cohesive 
+$(\infty,1)$-topos need not be supported by points. 
+We discuss a general abstract characterization of  
+objects that do have an interpretation as bare $n$-groupoids 
+equipped with cohesive structure.
+
+Compare with the section <a href="http://nlab.mathforge.org/nlab/show/cohesive%20topos#ConcreteObjects">Quasitoposes of concrete objects</a> at [[cohesive topos]].
+
+
++-- {: .un_prop}
+###### Proposition
+
+On a cohesive $(\infty,1)$-topos $\mathbf{H}$ 
+both $\mathrm{Disc}$ and $\mathrm{coDisc}$ 
+are [[full and faithful (∞,1)-functor]]s and $\mathrm{coDisc}$ exhibits [[∞Grpd]]  as a sub-$(\infty,1)$-topos of $\mathbf{H}$ by an  
+[[(∞,1)-geometric embedding]]
+
+$$
+  \infty Grpd
+    \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\hookrightarrow}}
+  \mathbf{H}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The full and faithfulness of $Disc$ and $coDisc$ follows as
+in the discussion at [[∞-connected (∞,1)-topos]],
+Since $\Gamma$ is also a right adjoint it preserves 
+in particular [[finite limit|finite]] [[(∞,1)-limit]]s, so that
+$(\Gamma \dashv \mathrm{coDisc})$ is indeed an 
+[[(∞,1)-geometric morphism]]. 
+(See the general discussion at [[local (∞,1)-topos]].)
+
+
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+
+The [[(∞,1)-topos]] [[∞Grpd]] is equivalent to 
+the full [[sub-(∞,1)-category]] of $\mathbf{H}$ on 
+those objects $X \in \mathbf{H}$ for which the 
+[[unit of an adjunction|counit]]
+ 
+$$
+    X \to \mathrm{coDisc}\Gamma X
+$$
+  
+is an [[equivalence in an (∞,1)-category|equivalence]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by general facts discussed at [[reflective sub-(∞,1)-category]].
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+We say a 0-[[truncated]] object $X \in \mathbf{H}$ is 
+is **concrete** if the [[unit of an adjunction|counit]]
+
+$$
+  X \to \mathrm{coDisc} \Gamma X
+$$
+
+is a [[monomorphism]]. We say a general object $X$ is 
+concrete if all its 
+[[categorical homotopy groups in an (∞,1)-topos|categorical homotopy sheaves]] are concrete.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ an [[∞-cohesive site]], a 0-truncated object in the 
+[[(∞,1)-topos]] over $C$ is concrete prescisely if it is
+a [[concrete sheaf]] in the traditional sense.
+
+=--
+
+
+
 
 ### Geometry and structure sheaves {#GeometryAndStructureSheaves}
 
@@ -1617,7 +1711,37 @@ $$
 
 =--
 
++-- {: .un_prop #TripleOfDeRhamAdjunctions}
+###### Observation
 
+If $\mathbf{H}$ is also [[local (∞,1)-topos|local]], then there is a further [[right adjoint]] $\mathbf{\Gamma}_{dR}$
+
+$$
+  (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\Gamma}_{dR})
+  :
+  */\mathbf{H}
+    \stackrel{\overset{\mathbf{\Pi}_{dR}}{\to}}{\stackrel{\stackrel{\mathbf{\flat}_{dR}}{\to}}{\underset{\mathbf{\Gamma}_{dR}}{\leftarrow}}}
+  \mathbf{H}
+$$
+
+given by
+
+$$
+  \mathbf{\Gamma}_{dR} X {:=}
+    * \coprod_{X} \mathbf{\Gamma}(X)
+  \,,
+$$
+
+where $(\mathbf{\Pi} \dashv \mathbf{\flat} \dashv \mathbf{\Gamma}) : \mathbf{H} \to \mathbf{H}$ is the triple of adjunctions discussed at [Paths](#Paths).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by the same kind of argument as above.
+
+=--
 +-- {: .un_def}
 ###### Definition
 
@@ -1723,121 +1847,26 @@ since the pullback of an euqivalence is an equivalence.
 
 =--
 
-### Concrete objects{#ConcreteObjects}
 
-
-The cohesive structure on an object in a cohesive 
-$(\infty,1)$-topos need not be supported by points. 
-We discuss a general abstract characterization of  
-objects that do have an interpretation as bare $n$-groupoids 
-equipped with cohesive structure.
-
-Compare with the section <a href="http://nlab.mathforge.org/nlab/show/cohesive%20topos#ConcreteObjects">Quasitoposes of concrete objects</a> at [[cohesive topos]].
-
-
-+-- {: .un_prop}
-###### Proposition
-
-On a cohesive $(\infty,1)$-topos $\mathbf{H}$ 
-both $\mathrm{Disc}$ and $\mathrm{coDisc}$ 
-are [[full and faithful (∞,1)-functor]]s and $\mathrm{coDisc}$ exhibits [[∞Grpd]]  as a sub-$(\infty,1)$-topos of $\mathbf{H}$ by an  
-[[(∞,1)-geometric embedding]]
-
-$$
-  \infty Grpd
-    \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\hookrightarrow}}
-  \mathbf{H}
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The full and faithfulness of $Disc$ and $coDisc$ follows as
-in the discussion at [[∞-connected (∞,1)-topos]],
-Since $\Gamma$ is also a right adjoint it preserves 
-in particular [[finite limit|finite]] [[(∞,1)-limit]]s, so that
-$(\Gamma \dashv \mathrm{coDisc})$ is indeed an 
-[[(∞,1)-geometric morphism]]. 
-(See the general discussion at [[local (∞,1)-topos]].)
-
-
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-
-The [[(∞,1)-topos]] [[∞Grpd]] is equivalent to 
-the full [[sub-(∞,1)-category]] of $\mathbf{H}$ on 
-those objects $X \in \mathbf{H}$ for which the 
-[[unit of an adjunction|counit]]
- 
-$$
-    X \to \mathrm{coDisc}\Gamma X
-$$
-  
-is an [[equivalence in an (∞,1)-category|equivalence]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This follows by general facts discussed at [[reflective sub-(∞,1)-category]].
-
-=--
-
-+-- {: .un_def}
-###### Definition
-
-We say a 0-[[truncated]] object $X \in \mathbf{H}$ is 
-is **concrete** if the [[unit of an adjunction|counit]]
-
-$$
-  X \to \mathrm{coDisc} \Gamma X
-$$
-
-is a [[monomorphism]]. We say a general object $X$ is 
-concrete if all its 
-[[categorical homotopy groups in an (∞,1)-topos|categorical homotopy sheaves]] are concrete.
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-For $C$ an [[∞-cohesive site]], a 0-truncated object in the 
-[[(∞,1)-topos]] over $C$ is concrete prescisely if it is
-a [[concrete sheaf]] in the traditional sense.
-
-=--
-
-
-
-### Infinitesimal objects {#InfinitesimalObjects}
+### $\infty$-Lie algebras {#LieAlgebras}
 
 We characterize objects in a cohesive $(\infty,1)$-topos $\mathbf{H}$ that behave as cohesive $\infty$-groupoids all whose [[k-morphism]]s have [[infinitesimal object|infinitesimal]] extension. These infintesimal [[∞-groupoid]]s may be thought of as [[Lie algebra]]s, [[∞-Lie algebra]]s and generally [[∞-Lie algebroid]]s.
 
+
+Let $\mathbf{H}$ be [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]].
 Recall the [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$ from the discussion of [de Rham cohomology](#deRhamCohomology) above.
 
 +-- {: .un_def}
 ###### Definition
 
 
-A [[connected]] object $\mathbf{B}\mathfrak{g} $ in a cohesive $(\infty,1)$-topos $\mathbf{H}$ that is _geometrically contractible_
+For a [[connected]] object $\mathbf{B}\mathfrak{g} $ in a cohesive $(\infty,1)$-topos $\mathbf{H}$ that is _geometrically contractible_
 
 $$
   \Pi \mathbf{B}\mathfrak{g} \simeq *
 $$
 
-
-we call an **infinitesimal object**. 
-
-Its [[loop space object]] $\mathfrak{g} := \Omega_* \mathbf{B}G$ we call an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
+we call its [[loop space object]] $\mathfrak{g} := \Omega_* \mathbf{B}G$ an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
 
 =--
 
@@ -1858,6 +1887,28 @@ $$
   Lie
   := 
   \mathbf{\Pi}_{dR} \circ \mathbf{\flat}_{dR} 
+  : */\mathbf{H} \to */\mathbf{H}
+  \,.
+$$
+
+=--
+
++-- {: .un_prop #LieAsALeftAdjoint}
+###### Observation
+
+
+If $\mathbf{H}$ is cohesive, then $Lie$ is a [[left adjoint]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+When $\mathbf{H}$ is cohesive we have the [de Rham triple of adjunction](#TripleOfDeRhamAdjunctions) $(\mathbf{\Pi}_{dR} dashv &#180;\mathbf{\flat}_{dR} \dashv \mathbf{\Gamma}_{dR})$. Accordingly then $Lie$ is part of an [[adjunction]]
+
+$$
+  (Lie \dashv \mathbf{\Gamma}_{dR}\mathbf{\flat}_{dR})
   \,.
 $$
 
@@ -1935,7 +1986,9 @@ By the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">un
 
 =--
 
-Therefore instead of speaking of a $G$-valued de Rham cocycle, it is more accurate to speak of a $\mathfrak{g}$-valued de Rham cocycle. In particular we have the following.
+
+Therefore instead of speaking of a $G$-valued de Rham cocycle, it is less  redundant to speak of a $\mathfrak{g}$-valued de Rham cocycle. In particular we have the following.
+
 
 +-- {: .un_prop}
 ###### Corollary
@@ -1959,7 +2012,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-We have 
+If $\mathbf{H}$ is cohesivem then we have 
 
 $$
   Lie \circ Lie \simeq Lie \circ \Sigma \circ \Omega
@@ -2041,7 +2094,13 @@ $$
 for all $X \in \mathbf{H}$.
 
 
-Finally to obtain $Lie \circLie$ we do one more computation of this sort, using that $Lie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}$ preserves the terminal object (since $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]]) and is a [[left adjoint]] (with right adjoint given by $\mathbf{\flat}_{dR} \mathbf{\Pi}_{dR}$):
+Finally to obtain $Lie \circLie$ we do one more computation of this sort, using that 
+
+* $Lie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}$ preserves the terminal object (since $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]]) 
+
+* and that it is a [[left adjoint]] by [the above](#LieAsALeftAdjoint), since $\mathbf{H}$ is assumed to be cohesive.
+
+We compute:
 
 $$
   \begin{aligned}
@@ -2086,7 +2145,7 @@ $$
 
 ### Maurer-Cartan forms and curvature characteristic forms {#CurvatureCharacteristics}
 
-In the [intrinsic de Rham cohomology](#deRhamCohomology) of a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos|∞-connected]] there exist canonical cocycles that we may identify with [[Maurer-Cartan form]]s and with [[curvature characteritstic form]]s.
+In the [intrinsic de Rham cohomology](#deRhamCohomology) of a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos|∞-connected]] there exist canonical cocycles that we may identify with [[Maurer-Cartan form]]s and with [[curvature characteristic form]]s.
 
 +-- {: .un_def}
 ###### Definition
@@ -2097,7 +2156,7 @@ $$
   \theta : G \to \mathbf{\flat}_{dR} \mathbf{B}\mathfrak{g}
 $$
 
-for the $\mathfrak{g}$-[valued](#InfinitesimalObjects) 
+for the $\mathfrak{g}$-[valued](#LieAlgebras) 
 de Rham cocycle on $G$ which is induced by the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">(∞,1)-pullback pasting</a>
 
 $$
@@ -2117,6 +2176,8 @@ $$
 and the [above proposition](#LieValuesofDeRham).
 
 We call $\theta$ the **[[Maurer-Cartan form]]** on $G$.
+
+=--
 
 +-- {: .un_remark}
 ###### Remark
@@ -2338,7 +2399,7 @@ In $\mathbf{H} = $ [[?LieGrpd]] the above definition reproduces [[ordinary diffe
 
 ### Chern-Weil theory {#ChernWeilTheory}
 
-
+Induced by the [intrinsic differential cohomology](#DifferentialCohomology) in any [[∞-conneced (∞,1)-topos|∞-connected]] and [[locally ∞-connected (∞,1)-topos]] is an intrinsic notion of [[Chern-Weil homomorphism]].
 
 
 For $G$ an [[∞-group]], $\mathbf{B}^n K$ an [[Eilenberg-MacLane object]] and
@@ -2347,7 +2408,7 @@ $$
   \mathbf{c} : \mathbf{B}G \to \mathbf{B}^n K
 $$
 
-a cocycle for a [[characteristic class]], postcomposition with the [universal curvature characteristic](#CurvatureCharacteristics) $curv : \mathbf{B}^n K \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} K$ induces a [[curvature characteristic class]]
+a [[cocycle]] for a [[characteristic class]] $[\mathbf{c}] \in H^n(\mathbf{B}G, K)$, postcomposition with the [universal curvature characteristic](#CurvatureCharacteristics) $curv : \mathbf{B}^n K \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} K$ induces a [[curvature characteristic class]]
 
 $$
   \langle -\rangle_{\mathbf{c}}
@@ -2366,9 +2427,9 @@ Postcomposition of $G$-[[cocycle]]s with this map is the **[[∞-Chern-Weil homo
 $$
   \langle - \rangle_{\mathbf{c}} 
    :
-  G Bund(X) \simeq \mathbf{H}(X,\mathbf{B}G)  
+  G Bund(-) \simeq \mathbf{H}(X,\mathbf{B}G)  
   \to 
-  \mathbf{H}^{n+1}_{dR}(X,\mathfrak{k})
+  \mathbf{H}^{n+1}_{dR}(-,\mathfrak{k})
   \,.
 $$
 
@@ -2702,7 +2763,7 @@ This is shown at [[∞-Lie groupoid]].
 
 The $(\infty,1)$-topos $(\infty,1)Sh(ThCartSp)$ is that of [[smooth ∞-groupoid|synthetic differential ∞-groupoid]] 
 
-The [infinitesimal objects](#InfinitesimalObjects) include 
+The [infinitesimal objects](#LieAlgebras) include 
 infinitesimal $\infty$-Lie groupoids: [[∞-Lie algebroid]]s $\mathbf{B}\mathfrak{g}$.
 
 
