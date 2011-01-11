@@ -25,7 +25,7 @@ A [[premonoidal category]] is the same as a sesquicategory with exactly one obje
 
 A [[Gray-category]] does not have an underlying [[strict 2-category]], but it does have an underlying strict sesquicategory.  Thus, if one wants to define Gray-[[computads]], it is natural to work with "sesqui-computads" as a partway stage; see for instance [[toddtrimble:Surface diagrams]]
 
-The name 'sesquicategory' literally means $1\frac{1}{2}$-category, although they are actually *more* general than $2$-categories (which are of course more general than $1$-categories).  However, one can also view a *strict* $2$-category or sesquicategory as a $1$-category with [[extra structure]] (the $2$-cells and their composition), and in this way sesquicategories are partway between $1$-categories and $2$-categories, with only one axiom left out.
+The name 'sesquicategory' literally means $1\frac{1}{2}$-category, although strictly speaking they are actually *more* general than $2$-categories (which are of course more general than $1$-categories).  However, one can also view a $2$-category or sesquicategory as a $1$-category with [[extra structure]] or stuff (the $2$-cells and their composition), and in this way sesquicategories are partway between $1$-categories and $2$-categories, with only one axiom left out.  (A [[strict 2-category]] can be considered directly as a 1-category with additional 2-cells added; for a weak 2-category one has instead to consider its "underlying" 1-category to be its [[homotopy category]] obtained by identifying isomorphic 1-morphisms.)
 
 The paper [Stell (1994)](#Stell) shows the relation with rewriting. 
 
