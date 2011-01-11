@@ -135,6 +135,8 @@ $$ \overset{a}{b} $$
 
 [descriptive text](wiki+page)
 
+*[[Sandbox]]*{: .paper}
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
