@@ -80,6 +80,22 @@ A schematic homotopy type is in particular a [[geometric ∞-stack]] over $C$.
 
 =--
 
+## Examples
+
+### de Rham schematic homotopy type
+
+For a [[connected]] [[scheme]] $X$ let $X_{dR}$ be its [[de Rham space]]. According to [To&#235;n, sect. 3.5.1](#Toen) one finds that the functor
+
+$$
+ Ho(SchHoType/\mathbb{C}) \to Set
+$$
+
+$$
+  F \mapsto Ho_{Sh_{(\infty,1)}(Alg_\mathbb{C}^{op})}(X_{dR}, F)
+$$
+
+is co-[[representable functor|representable]] by a schematic homotopy type $X^{dR}$. This is the **de Rham schematic homotopy type**. The [[cohomology]] of $X^{dR} \in Sh_{(\infty,1)}$ is the algebraic [[de Rham cohomology]] of $X$.
+
 ## References
 
 An introduction to the general theor
@@ -95,3 +111,5 @@ The stack $Perf$ of [[perfect complex]]es is discussed for instance in section 2
 {#HirschowizSimpson}
 
 [[!redirects schematic homotopy types]]
+
+[[!redirects de Rham schematic homotopy type]]
