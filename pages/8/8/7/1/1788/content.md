@@ -133,6 +133,8 @@ $$ \overset{a}{b} $$
 
 [[adjoint lifting theorem]]
 
+[descriptive text](wiki+page)
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
