@@ -936,6 +936,83 @@ $$
 
 =--
 
++-- {: .un_def}
+###### Definition
+
+We say a **geometric [[homotopy]]** between two morphism $f,g : X \to Y$
+in $\mathbf{H}$ is a diagram
+
+$$
+  \array{
+    X 
+    \\
+    \downarrow^{\mathrlap{(Id,i)}} & \searrow^{\mathrlap{f}}
+    \\
+    X \times I &\stackrel{\eta}{\to}& Y
+    \\
+    \uparrow^{\mathrlap{(Id,o)}} & \nearrow_{\mathrlap{g}}
+    \\
+    X
+  }
+$$
+
+such that $I$ is geometrically connected, $\pi_0^{geom}(I) = *$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+If $f,g : X\to Y$ are geometrically homotopic in $\mathbf{H}$, then their images $\Pi(f), \Pi(g)$ are 
+equivalent in $\infty Grpd$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the condition that $\Pi$ preserves products
+in a cohesive $(\infty,1)$-topos we have that the image of the
+geometric homotopy in $\infty Grpd$ is a diagram of the form
+
+$$
+  \array{
+    \Pi(X) 
+    \\
+    \downarrow^{\mathrlap{(Id,\Pi(i))}} & \searrow^{\mathrlap{\Pi(f)}}
+    \\
+    \Pi(X) \times \Pi(I) &\stackrel{\Pi(\eta)}{\to}& \Pi(Y)
+    \\
+    \uparrow^{\mathrlap{(Id,\Pi(o))}} & \nearrow_{\mathrlap{\Pi(g)}}
+    \\
+    \Pi(X)
+  }
+  \,.
+$$
+
+Now since $\Pi(I)$ is connected by assumption, there is a diagram
+
+$$
+  \array{
+     && *
+     \\
+     & {}^{\mathllap{Id}}\nearrow & \downarrow^{\mathrlap{\Pi(i)}}
+     \\
+     * &\to& \Pi(I)
+     \\
+     & {}_{\mathllap{Id}}\searrow & \uparrow^{\mathrlap{\Pi(o)}}
+     \\
+     && *
+  }
+$$
+
+in [[∞Grpd]].
+
+Taking the product of this diagram with $\Pi(X)$ and pasting the result
+to the above image $\Pi(\eta)$ of the geometric homotopy constructs
+the equivalence $\Pi(f) \Rightarrow \Pi(g)$ in $\infty Grpd$.
+
+=--
 
 +-- {: .un_prop}
 ###### Proposition
