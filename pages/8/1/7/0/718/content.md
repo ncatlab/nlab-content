@@ -11,7 +11,7 @@
 =--
 =--
 
-I am a <a href="http://www.j-paine.org/#consultancy">freelance programmer</a>, and spend too much time repairing Web servers and spreadsheets &mdash; or, in these hard times, looking for Web servers and spreadsheets to repair. <a href="http://www.j-paine.org/">My Website</a> says more about this and other things I do.
+I am a <a href="http://www.j-paine.org/#consultancy">freelance programmer</a>. <a href="http://www.j-paine.org/">My Website</a> says more about this and other things I do.
 
 But I was tempted into category theory, not least by my friends Hendrik Hilberdink, <a href="http://www.imar.ro/~diacon/">R&#259;zvan Diaconescu</a>, Petros Stefaneas, and <a href="http://www.di.uminho.pt/~jbb/">Jos&#233; Bernardo Barros</a>. And their supervisor, [[Joseph Goguen]].
 
