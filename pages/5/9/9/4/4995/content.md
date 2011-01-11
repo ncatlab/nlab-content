@@ -1175,15 +1175,16 @@ $$
 
 is the **homotopy [[path n-groupoid]]** functor. 
 
+We say that the (truncated) components of the $(\Pi \dashv Disc)$-[[unit of an adjunction|unit]] 
 
 $$
-  (\mathbf{\Pi} \dashv \mathbf{\flat} \dashv \mathbf{\Gamma}) 
-  :=
-  (Disc \Pi \dashv Disc \Gamma \dashv CoDisc \Gamma)
-  : 
-  \mathbf{H}
-   \to 
-  \mathbf{H}
+  X \to \mathbf{\Pi}(X)
+$$
+
+are the **constant path inclusions**. Dually we have canonical morphism
+
+$$
+  \mathbf{\flat}A \to A
   \,.
 $$
 
@@ -1275,6 +1276,7 @@ $$
 $$
 
 =--
+
 
 ### Universal coverings and geometric Whitehead towers {#Coverings}
 
@@ -1541,7 +1543,7 @@ $$
      \\
      & {}^{\nabla}\nearrow& \downarrow
     \\
-    \mathbf{\Pi}(X) &\sgtackrel{g}{\to}& A
+    X &\stackrel{g}{\to}& A
   }
   \,.
 $$
@@ -1638,7 +1640,7 @@ $$
   \,.
 $$
 
-By the fact that the [[hom-functor]] : $\mathbf{H}(-,-) : \mathbf{H}^{op} \times \mathbf{H} \to \infty Grpd $ preserves limits in both arguments we have a natural equivalence
+By the fact that the [[hom-functor]]  $\mathbf{H}(-,-) : \mathbf{H}^{op} \times \mathbf{H} \to \infty Grpd $ preserves limits in both arguments we have a natural equivalence
 
 $$
   \begin{aligned}
@@ -1719,9 +1721,9 @@ If $\mathbf{H}$ is also [[local (∞,1)-topos|local]], then there is a further [
 $$
   (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\Gamma}_{dR})
   :
-  */\mathbf{H}
-    \stackrel{\overset{\mathbf{\Pi}_{dR}}{\to}}{\stackrel{\stackrel{\mathbf{\flat}_{dR}}{\to}}{\underset{\mathbf{\Gamma}_{dR}}{\leftarrow}}}
   \mathbf{H}
+    \stackrel{\overset{\mathbf{\Pi}_{dR}}{\to}}{\stackrel{\stackrel{\mathbf{\flat}_{dR}}{\leftarrow}}{\underset{\mathbf{\Gamma}_{dR}}{\to}}}
+  */\mathbf{H}
 $$
 
 given by
@@ -1826,7 +1828,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Using that in a [[∞-connected (∞,1)-topos]] the functor $Disc$ is a [[full and faithful (∞,1)-functor]] so that the [[unit of an adjunction|unit]] $Id \to \Gamma Disc $ is an [[equivalence in an (∞,1)-category|equivalence]] and using that by the [[zig-zag identity]]  we have then that the [[unit of an adjunction|counit]] 
+Using that in a [[∞-connected (∞,1)-topos]] the functor $Disc$ is a [[full and faithful (∞,1)-functor]] so that the [[unit of an adjunction|unit]] $Id \to \Gamma Disc $ is an [[equivalence in an (∞,1)-category|equivalence]] and using that by the [[zig-zag identity]]  we have then that the [[unit of an adjunction|counit]] component
 $\mathbf{\flat} Disc S := Disc \Gamma Disc S \to Disc S$ is also an equivalence, we have
 
 
@@ -1843,15 +1845,12 @@ $$
   \,,
 $$
 
-since the pullback of an euqivalence is an equivalence.
+since the pullback of an equivalence is an equivalence.
 
 =--
 
 
 ### $\infty$-Lie algebras {#LieAlgebras}
-
-We characterize objects in a cohesive $(\infty,1)$-topos $\mathbf{H}$ that behave as cohesive $\infty$-groupoids all whose [[k-morphism]]s have [[infinitesimal object|infinitesimal]] extension. These infintesimal [[∞-groupoid]]s may be thought of as [[Lie algebra]]s, [[∞-Lie algebra]]s and generally [[∞-Lie algebroid]]s.
-
 
 Let $\mathbf{H}$ be [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]].
 Recall the [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$ from the discussion of [de Rham cohomology](#deRhamCohomology) above.
@@ -1860,7 +1859,7 @@ Recall the [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat
 ###### Definition
 
 
-For a [[connected]] object $\mathbf{B}\mathfrak{g} $ in a cohesive $(\infty,1)$-topos $\mathbf{H}$ that is _geometrically contractible_
+For a [[connected]] object $\mathbf{B}\mathfrak{g} $ in $\mathbf{H}$ that is _geometrically contractible_
 
 $$
   \Pi \mathbf{B}\mathfrak{g} \simeq *
