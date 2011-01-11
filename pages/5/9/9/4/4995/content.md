@@ -1885,7 +1885,7 @@ since the pullback of an equivalence is an equivalence.
 ###### Proposition
 
 If in a cohesive $\mathbf{H}$  _[pieces have points](#PiecesHavePoints)_ for $X \in \mathbf{H}$, precisely if $\mathbf{\Pi}_{dR} X $ is
-[[connected]] in that $\pi_0 \mathbf{H}(*, \mathbf{\Pi}_{dR}X) = *$.
+_globally [[connected]]_ in that $\pi_0 \mathbf{H}(*, \mathbf{\Pi}_{dR}X) = *$.
 
 =--
 
@@ -1920,7 +1920,7 @@ For instance by [[presentable (infinity,1)-category|presenting]] $\Gamma X, \Pi 
 
 In summary this means that in a cohesive $(\infty,1)$-topos the objects $\mathbf{\Pi}_{dR} X$ have the abstract properties of [[de Rham schematic homotopy type]]s.
 
-In the [Examples](#Examples) we will see that, indeed, the intrinsic de Rham cohomology $H_{dR}(X, A) {:=} \pi_0 \mathbf{H}(\mathbf{\Pi}_{dR} X, A)$ reproduces ordinary de Rham cohomology in degree $g\gt 1$.
+In the [Examples](#Examples) we will see that, indeed, the intrinsic de Rham cohomology $H_{dR}(X, A) {:=} \pi_0 \mathbf{H}(\mathbf{\Pi}_{dR} X, A)$ reproduces ordinary de Rham cohomology in degree $d\gt 1$.
 
 In degree 0 the intrinsic de Rham cohomology is necessrily trivial, while in degree 1 we find that it reproduces closed 1-forms, not divided out by exact forms. This difference to ordinary de Rham cohomology in the lowest two degrees may be interpreted in terms of the obstruction-theoretic meaning of de Rham cohomology by which we essentially characterized it above: we have that the intrinsic $H_{dR}^n(X,K)$ is the home for the obstructions to flatness of $\mathbf{B}^{n-2}K$-[[principal ∞-bundle]]s. For $n = 1$ this are groupoid-principal bundles over the _groupoid_ with $K$ as its space of objects. But the 1-form curvatures of groupoid bundles are not to be regarded modulo exact forms. More details on this are at [[circle n-bundle with connection]].
 
@@ -1981,7 +1981,8 @@ If $\mathbf{H}$ is cohesive, then $Lie$ is a [[left adjoint]].
 +-- {: .proof}
 ###### Proof
 
-When $\mathbf{H}$ is cohesive we have the [de Rham triple of adjunction](#TripleOfDeRhamAdjunctions) $(\mathbf{\Pi}_{dR} dashv &#180;\mathbf{\flat}_{dR} \dashv \mathbf{\Gamma}_{dR})$. Accordingly then $Lie$ is part of an [[adjunction]]
+When $\mathbf{H}$ is cohesive we have the [de Rham triple of adjunction](#TripleOfDeRhamAdjunctions) 
+$(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\Gamma}_{dR})$. Accordingly then $Lie$ is part of an [[adjunction]]
 
 $$
   (Lie \dashv \mathbf{\Gamma}_{dR}\mathbf{\flat}_{dR})
@@ -2077,7 +2078,7 @@ $$
     \\
     & \searrow& \downarrow
     \\
-    && \mathbf{BG}
+    && \mathbf{B}G
   }
   \,.
 $$
