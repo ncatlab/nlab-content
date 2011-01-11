@@ -1,4 +1,19 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+##  Idea
 
 $\infinity$-Stackification is another term for [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-sheafification]]. It is the direct [[(infinity,1)-category|(∞,1)-categorical]] analog of the following 1-categorical situation.
 
@@ -12,9 +27,16 @@ Essentially by definition (according to [[Higher Topos Theory]]) the situation f
 
 (Noticing that "$\infty$-stack" is synonymous to "[[(∞,1)-sheaf]]", "$\infty$-stackification" to "$(\infty,1)$-sheafification", and so on.
 
-#Examples#
+## Examples
 
 * A concrete model for such $\infty$-stacks is the Brown-Joyal-Jardine-To&#235;n model using a [[model structure on simplicial presheaves]]. With respect to this [[model category]] structure on [[simplicial presheaf|simplicial presheaves]] the _fibrant objects_
 are the globally [[Kan complex]]-valued (i.e. [[∞-groupoid]]-valued) presheaves that satisfy [[descent for simplicial presheaves]]. Therefore here $\infty$-stackification is given by _fibrant replacement_ in the model category.
+
+
+## Related concepts
+
+* [[sheafification]]
+
+* [[(∞,1)-sheafification]] / **∞-stackification** 
 
 [[!redirects ∞-stackification]]
