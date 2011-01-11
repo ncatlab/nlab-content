@@ -96,6 +96,14 @@ $$
 
 is co-[[representable functor|representable]] by a schematic homotopy type $X^{dR}$. This is the **de Rham schematic homotopy type**. The [[cohomology]] of $X^{dR} \in Sh_{(\infty,1)}$ is the algebraic [[de Rham cohomology]] of $X$.
 
+
++-- {: .un_remark}
+###### Remark
+
+A similar construction exists in every [[cohesive (∞,1)-topos]]. See the discussion in the section <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#deRhamCohomology">cohesive (∞,1)-topos -- de Rham cohomology</a>.
+
+=--
+
 ## References
 
 An introduction to the general theor
