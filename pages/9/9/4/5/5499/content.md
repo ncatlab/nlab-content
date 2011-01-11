@@ -93,15 +93,182 @@ by superimposing vectors of property-value pairs in so-called "symbolic
 vector architectures" or "holographic reduced representations";  regions
 of classification space; logical propositions learnt by induction.
 
-### What other structure might $E$ have? ###
+### What is generalisation? ###
+
+Here are some examples.
+
+* The examples are two-dimensional points (members of 
+$R^2$). Generalisation is least-squares fitting, as above. The 
+concept is a line giving the best least-squares fit to the points. 
+
+* The examples are logical sentences, classified as positive or negative. 
+Generalisation is logical induction. The concept is a new sentence from which we 
+can infer as many of the positive examples as possible (hopefully all) and as 
+few of the negative examples (hopefully none) as possible. 
+
+* The examples are pairs $\langle{v,w}\rangle$ associating an element of the 
+vector space $V$ with an element of the vector space 
+$W$. Generalisation is training a linear-associator neural net. The concept is a linear transformation which, if possible, maps all the $v$ 
+to the $w$, and if that's not possible, does the best it can by finding 
+an optimum transform which minimises interference between different 
+$\langle{v,w}\rangle$ associations. 
+
+* The examples are pairs $\langle{p,l}\rangle$ where $p$ is a point in 
+$R^2$ and $l$ is a member of some set 
+$L$ of symbolic labels. For instance, the $p$ might be 
+elements of some space whose dimensions measure a voter's preference for 
+various policies; the $l$ could then be the possible parties, 
+${green,labour,libdem,tory}$. Generalisation is nearest-neighbour 
+prediction. The concept is a function which extends the set of pairs 
+$\langle{p,l}\rangle$, mapping every point in $R^n$ to a 
+label. It can therefore be used to predict the preferred party of other 
+voters. I've taken this example from _Truth 
+from Trash_ by Chris Thornton. 
+
+* The examples are the instances of generalisation given in this write-up. 
+Generalisation is fitting each to a notion in category theory. The concept is a categorical construct...!
+
+### What other structure might the category of examples have? ###
 
 Although I introduced $E$ as a category of sets of
 examples, I'm sure there are other possibilities. An obvious one, though
 still set-related, is that the objects are weighted sets, where each
 weight tells the generaliser how important the corresponding example is.
-This probably ties up with fuzzy logic and fuzzy set theory.
+This probably ties up with fuzzy logic and fuzzy set theory. See also the following section.
 
-## Justification ##
+## Examples ##
+
+These are taken from my short write-up [_Generalisation is an adjunction_](http://www.j-paine.org/generalisation.html), recast into the naming convention I'm using here. 
+
+### 1. Logical induction ###
+
+Let $E$ be the 
+category whose objects are the atomic propositions 
+$P$, $Q$, $R$, ... and their conjunctions. Let there be an arrow from 
+$P$ 
+to $P'$ if $P$ implies $P'$. This makes the category into a 
+partial ordering defined by implication. 
+
+It seems reasonable to say that forming the conjunction of a set of 
+propositions is one possible (and very crude) way of generalising from them. And 
+informally speaking, the conjunction contains just enough information to imply 
+them all, but none of the others in the category (unless they were implied by 
+the originals anyway). Now, we also know that in this category, their 
+conjunction is their limit. (More correctly, it's a limit of the diagram 
+containing the propositions and the implication arrows between them.) But this 
+formalises the notion expressed in the "just enough information" sentence, 
+because of the universal mapping property of the limit. (That is, any other 
+proposition which implies the originals also implies their conjunction.) 
+
+### 2. More logical induction ###
+
+Let $E$'s objects be the 
+non-empty sets of sentences $e(I)$ where $I$ is an integer. So one 
+object would be ${ e(1), e(2) }$. Interpret $e(I)$ as meaning "the 
+integer $I$ is an example of the concept". Interpret the arrows in 
+$E$ as set inclusion. 
+
+Let $C$ be the category whose objects are sentences: 
+either the atomic sentences $e(I)$ or the universally-quantified sentence 
+$\forall X: e(X)$. (Unlike the category of sentences in the
+earlier 
+example, this category does not contain conjunctions.) Interpret the arrows 
+as implication. 
+
+Now define $G:E\to C$
+as follows. $G$ maps each singleton $e(I)$ to the sentence $e(I)$. It maps sets with more than one element 
+to the universally-quantified sentence. It also reverses arrows, mapping set 
+inclusion to reverse implication. 
+
+We could say that $G$ implements a simple form of logical induction, 
+rather more interesting than the earlier 
+one. And there are two languages, that of $C$ 
+restricted compared to that of $E$, because 
+$C$ cannot express conjunctions, and so has to 
+approximate them by quantifying over all possible cases. The functor $G$ is 
+"doing the best it can" in these circumstances. 
+
+### 3. Least-squares fitting ###
+
+Let $E$'s objects  
+be the non-empty sets 
+of colinear elements of $R^2$. Once again, let the arrows 
+be set inclusion. 
+
+Let $C$ be the category whose objects are either the 
+singletons ${ x \in R^2 }$ or infinite lines in 
+$R^2$. Let the arrows be set inclusion.
+
+Then let $G$ map each singleton to itself, and map each set 
+$S$ with more than one element to the line going through all $S$'s 
+points. $G$ maps inclusions to inclusions. As with the previous instance, 
+$G$ flattens most of $E$ into 
+$C$. 
+
+### Where are the adjunctions? ###
+
+All the instances above can be formalised as adjunctions. $G$ then 
+becomes a functor which maps a set of examples to an object which is in some 
+sense the "completion" of that set. It acquires a right adjoint $F$ which 
+maps this object back to the set of all possible examples derivable from this 
+completion object. 
+
+I think of this
+in terms of the units and counits: an adjunction $E$
+to $C$ is determined by the two functors $G$ and
+$F$ and by two natural transformations 
+$i:I_E \Rightarrow G;E$
+and
+$e:E;G \Rightarrow I_Gen$. Given any object $c$ in 
+$C$, there is a morphism taking every $GFc$ to 
+$g$. Since $F$ maps $g$ to the set of all possible examples, and 
+$G$ should map that back to the original generalisation, this is the 
+identity. Hence we get one natural transformation. 
+
+In the other direction, given any object $e$ in 
+$E$, the functor $FG$ will map it to the set of all 
+possible examples of which $E$ is a part. There is an inclusion from 
+$e$ to $FGe$, and since this respects the other inclusions in 
+$E$, once again we get a natural transformation, 
+$i:I_E \Rightarrow G;E$. 
+
+(I need to relate this to the notion of limiting amount of information, 
+showing how that arises from the adjunction.) 
+
+### The problem of noise ###
+
+In the least-squares 
+example, I stipulated that the sets of points in $E$
+must be colinear. This isn't very realistic: in real life, most sets of 
+examples will not exactly fit a line. 
+
+In general, given any useful generalisation method, some sets of examples 
+will not have an exact generalisation. You can say that this is due to 
+experimental error, or to an inadequate statistical model, or to an 
+insufficiently powerful description language, or to restricted storage capacity, 
+or whatever. 
+
+We can try fixing this by extending 
+$G$ so that it maps each set of non-colinear points 
+to the line with the least least-squares distance from them. 
+(But what if, in this 
+or other examples, there is no unique best generalisation?) 
+
+The problem with 
+this is that $G$ then no longer respects the arrows between the sets in $E$. Originally, if $S$ was a 
+subset of $S'$, then $G(S)$ was a subset of $G(S')$. But this is 
+no longer necessarily true: if the points in $S$ are colinear, and we make 
+$S'$ from $S$ by adding a point that isn't on the line, then the 
+best-fit line to $S'$ will be different from that to $S$, so the 
+inclusion won't hold. 
+
+One might argue that the way to fix this is not to decide _a priori_ that the 
+morphisms in $E$ should be inclusions, but to let them 
+be determined by the morphisms in $C$. Philosophically 
+speaking, perhaps this is reasonable &#8212; we don't perceive the raw data directly, 
+but always fit it to a preconceived model.
+
+## Informal justification ##
 
 ### 1. Colimits ###
 
