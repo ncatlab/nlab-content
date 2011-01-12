@@ -121,8 +121,6 @@ For $\mathbf{H}$ a cohesive $(\infty,1)$-topos, the [[(n,1)-topos|(1,1)-topos]] 
 =--
 
 
-### Shape and coshape
-
 The [[shape of an (∞,1)-topos]] $\mathbf{H}$ is the fundamental $\infty$-groupoid $\Pi(\mathbf{H})$ for $\mathbf{H}$ itself regarded as a space.
 
 +-- {: .un_remark}
@@ -174,7 +172,17 @@ This way we can think of any object $X \in \mathbf{H}$ of the $(\infty,1)$-topos
 
 The [[coshape of an (∞,1)-topos]] $\mathbf{H}$ is the underlying $\infty$-groupoid $\Gamma(\mathbf{H})$ for $\mathbf{H}$ itself regarded as a space.
 
-(...)
+### Over an $\infty$-cohesive site
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ an [[∞-cohesive site] the [[(∞,1)-category of (∞,1)-sheaves]] $(\infty,1)Sh(C)$ over $C$ is a cohesive $(\infty,1)$-topos satisfying the two axioms _[pieces have points](#PiecesHavePoints)_ and _[discrete objects are concrete](#DiscreteObjectsAreConcrete)_ .
+
+=--
+
+See [[∞-cohesive site]].
 
 ## Structures in a cohesive $(\infty,1)$-topos {#Structures}
 
@@ -2493,7 +2501,7 @@ for the intrinsic Maurer-Cartan form and call this the intrinsic **universal [[c
 
 In every [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos]] there is an intrinsic notion of [[ordinary differential cohomology]].
 
-Fix an abelian [[∞-group]] object $A \in \mathbf{H}$ (an arbitrarily deloopable object.)
+Fix a 0-[[truncated]] [[abelian group|abelian]] [[group object]] $A \in \tau_{\leq 0} \mathbf{H} \hookrightarrow \mathbf{H}$. For all $n \in \mathbf{N}$ we have then the [[Eilenberg-MacLane object]] $\mathbf{B}^n A$.
 
 +-- {: .un_def }
 ###### Definition 
@@ -2506,16 +2514,18 @@ $$
     H_{dR}^{n+1}(X,A)
 $$ 
 
-for the cocycle $\infty$-groupoid of [[twisted cohomology]] of $X$ with coefficients in $A$ induced by the canonical [curvature characteristic morphism](#CurvatureCharacteristics) $curv : A \to \mathbf{\flat}_{dR}\mathbf{B}A$. This is the [[(∞,1)-pullback]]
+for the cocycle $\infty$-groupoid of [[twisted cohomology]] of $X$ with coefficients in $A$ induced by the canonical [curvature characteristic morphism](#CurvatureCharacteristics) 
+$curv : \mathbf{B}^n A \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1} A$. This is the [[(∞,1)-pullback]]
 
 $$
   \array{
-    \mathbf{H}_{diff}(X,\mathbf{B}^n A) &\stackrel{F}{\to}& 
+    \mathbf{H}_{diff}(X,\mathbf{B}^n A) 
+      &\stackrel{[F]}{\to}& 
      H_{dR}^{n+1}(X,A)
     \\
     {}^{\mathllap{\eta}}\downarrow && \downarrow
     \\
-    \mathbf{H}(X,\mathbf{B} n A) 
+    \mathbf{H}(X,\mathbf{B}^n A) 
         &\stackrel{curv_*}{\to}& 
      \mathbf{H}_{dR}(X,\mathbf{B}^{n+1} A)
   }
@@ -2541,14 +2551,14 @@ For $\nabla \in \mathbf{H}_{diff}(X,\mathbf{B}^n A)$ a [[cocycle]], we call
 * $F(\nabla) \in H_{dR}^{n+1}(X,A)$ the **[[curvature]]** class of $c$.
 
 
-We say $\nabla$ is an **$\infty$-connection** on $\eta(\nabla)$.
+We also say $\nabla$ is an **$\infty$-connection** on $\eta(\nabla)$ (see [below](#ChernWeilTheory)).
 
 =--
 
 +-- {: .un_prop #DiffCohIsWellDefined}
 ###### Observation
 
-The differential cohomology $H_{diff}^n(X,A)$ does not depend on the specific choice of morphism $H_{dR}^{n+1}(X,A) \to \mathbf{H}_{dR}(X, \mathbf{B}^{n+1}A)$ (as long as it is an isomorphism on $\pi_0$, as required).
+The differential cohomology $H_{diff}^n(X,A)$ does not depend on the choice of morphism $H_{dR}^{n+1}(X,A) \to \mathbf{H}_{dR}(X, \mathbf{B}^{n+1}A)$ (as long as it is an isomorphism on $\pi_0$, as required).
 In fact, for different choices the corresponding cocycle [[∞-groupoid]]s $\mathbf{H}_{diff}(X,\mathbf{B}^n A)$ are equivalent.
 
 =--
@@ -2584,7 +2594,7 @@ of the [[homotopy fiber]]s of $curv_*$ over each of the chosen points $* \to \ma
 When restricted to vanishing curvature, differential cohomology coincides with [flat differential cohomology](#FlatDifferentialCohomology):
 
 $$
-  H_{diff}^n (X,A)|_{F = 0} \simeq H_{flat}(X,\mathbf{B}^n A)
+  H_{diff}^n (X,A)|_{[F] = 0} \simeq H_{flat}(X,\mathbf{B}^n A)
   \,.
 $$
 
@@ -2592,7 +2602,8 @@ Moreover this is true at the level of [[cocycle]] [[∞-groupoid]]s
 
 $$
  \left(
-  \mathbf{H}_{diff}(X, \mathbf{B}^n A) \prod_{H_{dR}^{n+1}(X,A)} \{F = 0\}
+  \mathbf{H}_{diff}(X, \mathbf{B}^n A) 
+    \prod_{H_{dR}^{n+1}(X,A)} \{[F] = 0\}
   \right)
   \simeq
   \mathbf{H}_{flat}(X,\mathbf{B}^n A)
@@ -2610,21 +2621,22 @@ $$
   \array{
     \mathbf{H}_{flat}(X, \mathbf{B}^n A) &\to& {*}
     \\
-    \downarrow && \downarrow^{\mathrlap{\{F = 0\}}}
+    \downarrow && \downarrow^{\mathrlap{\{[F] = 0\}}}
     \\
-    \mathbf{H}_{diff}(X,\mathbf{B}^n A) &\stackrel{F}{\to}& 
+    \mathbf{H}_{diff}(X,\mathbf{B}^n A) &\stackrel{[F]}{\to}& 
      H_{dR}^{n+1}(X,A)
     \\
     {}^{\mathllap{\eta}}\downarrow && \downarrow
     \\
-    \mathbf{H}(X,\mathbf{B} n A) 
+    \mathbf{H}(X,\mathbf{B}^n A) 
         &\stackrel{curv_*}{\to}& 
      \mathbf{H}_{dR}(X,\mathbf{B}^{n+1} A)
   }
   \,.
 $$
 
-By definition of intrinsic flat cohomology and of intrinsic de Rham cohomology, the outer rectangle is 
+By definition of flat cohomology and of intrinsic de Rham cohomology
+in $\mathbf{H}$, the outer rectangle is 
 
 $$
   \array{
@@ -2787,7 +2799,7 @@ the claim follows.
 
 This is essentially the short exact sequence whose form is familiar from the traditional definition of [[ordinary differential cohomology]] only up to the following slight nuances in notation:
 
-1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[?LieGrpd]] and $|X| \in Top$ the geometric realization of a paracompact manifold $X$, we have that $H^1(X,U(1))$ above is $H^2_{sing}({|X|},\mathbb{Z})$ and not $H^1_{sing}({|X|},U(1))$. 
+1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[?LieGrpd]] and $|X| \in Top$ the geometric realization of a paracompact manifold $X$, we have that $H^n(X,\mathbb{R}/\mathbb{Z})$ above is $H^{n+1}_{sing}({|\Pi X|},\mathbb{Z})$. 
 
 1. The fact that on the left  of the short exact sequence for differential cohomology we have the de Rham cohomology set $H_{dR}^n(X,A)$ instead of 
 something like the set of all flat forms as familiar from 
@@ -2876,20 +2888,21 @@ $$
      \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
      \mathbf{H}_{diff}(X,\mathbf{B}^{n_i} A)
    \\
-   {}^{\mathllap{[-]}}\downarrow && \downarrow
+   {}^{\mathllap{\eta}}\downarrow && \downarrow
    \\
    \mathbf{H}(X, \mathbf{B}G) 
-     &\to&
+     &\stackrel{( \mathbf{c}_i)_i}{\to}& 
      \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
    \mathbf{H}(X,\mathbf{B}^{n_i} A)
   }
+ \,.
 $$
 
-We say a 
+We say 
 
-* cocycle in $\nabla \in \mathbf{H}_{conn}(X, \mathbf{B}G)$ is an [[connection on an ∞-bundle|∞-connection]] 
+* a cocycle in $\nabla \in \mathbf{H}_{conn}(X, \mathbf{B}G)$ is an [[connection on an ∞-bundle|∞-connection]] 
 
-* on the [[principal ∞-bundle]] $[\nabla]$;
+* on the [[principal ∞-bundle]] $\eta(\nabla)$;
 
 * a morphism in $\mathbf{H}_{conn}(X, \mathbf{B}G)$ is a [[gauge transformation]] of connections;
 
@@ -2907,7 +2920,7 @@ We say a
 +-- {: .un_prop}
 ###### Observation
 
-Under the [[curvature]] projection $F : H_{diff}^n (X,A) \to H_{dR}^{n+1}(X,A)$ the refined Chern-Weil homomorphism for $\mathbf{c}$ projects to the unrefined Chern-Weil homomorphism.
+Under the [[curvature]] projection $[F] : H_{diff}^n (X,A) \to H_{dR}^{n+1}(X,A)$ the refined Chern-Weil homomorphism for $\mathbf{c}$ projects to the unrefined Chern-Weil homomorphism.
 
 =--
 
@@ -2922,34 +2935,33 @@ $$
      &\stackrel{(\hat \mathbf{c}_i)_i}{\to}& 
      \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
      \mathbf{H}_{diff}(X,\mathbf{B}^{n_i} A)
-    &\stackrel{F}{\to}&
+    &\stackrel{[F]}{\to}&
      \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
      H_{dR}^{n_i+1}(X,A)
    \\
-   {}^{\mathllap{[-]}}\downarrow && \downarrow && \downarrow
+   {}^{\mathllap{\eta}}\downarrow && \downarrow && \downarrow
    \\
    \mathbf{H}(X, \mathbf{B}G) 
-     &\to&
+     &\stackrel{(\mathbf{c}_i)_i}{\to}& 
      \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
    \mathbf{H}(X,\mathbf{B}^{n_i} A)
-    &\stackrel{curv}{\to}&
+    &\stackrel{curv_*}{\to}&
      \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
     \mathbf{H}_{dR}(X, \mathbf{B}^{n_i+1},A)
   }
-  \,.
 $$
 
-of the defining $(\infty,1)$-pullback for $\mathbf{H}_{conn}(X,\mathbf{B}G)$ with the products of the definition $(\infty,1)$-pullbacks for the $\mathbf{H}_{diff}(X, \mathbf{B}^{n_i}A)$.
+of the defining $(\infty,1)$-pullback for $\mathbf{H}_{conn}(X,\mathbf{B}G)$ with the products of the defining
+$(\infty,1)$-pullbacks for the $\mathbf{H}_{diff}(X, \mathbf{B}^{n_i}A)$.
 
 =--
 
 
-### Higher holonomy and Chern-Simons theory {#ChernSimonsTheory}
+### Higher holonomy and Chern-Simons functional {#ChernSimonsTheory}
 
 The notion of [intrinsic ∞-connections](#ChernWeilTheory) in a 
 cohesive $(\infty,1)$-topos induces a notion of [[higher parallel transport|higher holonomoy]] and [[Chern-Simons theory]].
 
-Assume now that the [[∞-group]]-object $A$ fixed above is 0-[[truncated]] (is an ordinary [[abelian group]] object in the [[sheaf topos]] $\tau_0 \mathbf{H}$).
 
 +-- {: .un_prop}
 ###### Definition
@@ -3008,6 +3020,8 @@ $$
 
 =--
 
+Let now again $A$ be fixed as [above](#DifferentialCohomology).
+
 +-- {: .un_def}
 ###### Definition
 
@@ -3033,14 +3047,15 @@ More generally, let
 
 * $\nabla \in \mathbf{H}_{diff}(X, \mathbf{B}^n A)$ be a differential coycle on some $X \in \mathbf{H}$
 
-* $\sigma : \Sigma \to X$ a morphism.
+* $\phi : \Sigma \to X$ a morphism.
 
 Write
 
 $$
-  \sigma^* : \mathbf{H}_{diff}(X, \mathbf{B}^{n+1} A) \to 
+  \phi^* : \mathbf{H}_{diff}(X, \mathbf{B}^{n+1} A) 
+    \to 
   \mathbf{H}_{diff}(\Sigma, \mathbf{B}^n A)
-  \simeq
+   \simeq
   \mathbf{H}_{flat}(\Sigma, \mathbf{B}^n A)
 $$
 
@@ -3054,9 +3069,9 @@ $$
      &\leftarrow&
      H_{dR}^{n+1}(X, A)
      \\
-     \downarrow^{\mathrlap{\sigma^*}}
+     \downarrow^{\mathrlap{\phi^*}}
      &&
-     \downarrow^{\mathrlap{\sigma^*}}
+     \downarrow^{\mathrlap{\phi^*}}
      &&
      \downarrow
      \\
@@ -3069,45 +3084,63 @@ $$
 
 
 
-The **[[higher parallel transport|holonomomy]]** of $\nabla$ over $\sigma$ is the flat holonomy of $\sigma^* \nabla$
+The **[[higher parallel transport|holonomomy]]** of $\nabla$ over $\sigma$ is the flat holonomy of $\phi^* \nabla$
 
 $$
-  \int_\sigma \nabla := \int_{\Sigma} \sigma^* \nabla
+  \int_\phi \nabla := \int_{\Sigma} \phi^* \nabla
   \,.
 $$ 
 
 =--
 
-+-- {: .un_remark}
-###### Remark
++-- {: .un_def}
+###### Definition
 
-In the language of [[sigma-model]] [[quantum field theory]] we may identify these constructions as follows.
+Let $\Sigma \in \mathbf{H}$ be of [[cohomological dimension]] $dim\Sigma = n \in \mathbb{N}$ and let $\mathbf{c} : X \to \mathbf{B}^n A$ a representative of a [[characteristic class]] $[\mathbf{c}] \in H^n(X, A)$ for some object $X$. We say that the composite
 
-(...)
+$$
+  \exp(S_{\mathbf{c}}(-))
+  : 
+  \mathbf{H}(\Sigma, X)
+   \stackrel{\hat \mathbf{c}}{\to}
+  \mathbf{H}_{diff}(\Sigma, \mathbf{B}^n A)
+   \stackrel{\simeq}{\to}
+  \mathbf{H}_{flat}(\Sigma, \mathbf{B}^n A)
+   \stackrel{\int_\Sigma}{\to}
+  \tau_{\leq 0}
+    \infty Grpd(\Pi(\Sigma), \Pi \mathbf{B}^n A)
+$$
+
+where $\hat \mathbf{c}$ denotes the [refined Chern-Weil homomorphism](#ChernWeilTheory) induced by $\mathbf{c}$,
+is the **[[∞-Chern-Simons theory|Chern-Simons functional]]** induced by $\mathbf{c}$ on $\Sigma$.
 
 =--
 
-More discussion is at [[schreiber:∞-Chern-Simons theory]].
++-- {: .un_def}
+###### Remark
 
+In the language of [[sigma-model]] [[quantum field theory]] the ingredients of this definition have the following interpretation
+
+* $\Sigma$ is the _worldvolume of a fundamental $(dim\Sigma-1)$-[[brane]]_ ;
+
+* $X$ is the target space;
+
+* $\hat \mathbf{c}$ is the background [[gauge field]] on $X$;
+
+* $\mathbf{H}_{conn}(\Sigma,X)$ is the space of _worldvolume field configurations_ $\phi : \Sigma \to X$ or _trajectories_ of the brane in $X$;
+
+* $\exp(S_{\mathbf{c}}(\phi)) =  \int_\Sigma \phi^* \hat \mathbf{c}$ is the value of the [[action functional]] on the field configuration $\phi$.
+
+For $X = \mathbf{B}G \in $ [[?LieGrpd]] the [[delooping]] of an ordinary simply connected [[Lie group]] and $n = 3$ this reproduces the setup of traditional [[Chern-Simons theory]]. In the general situation we speak of [[∞-Chern-Simons theory]]. See there for more details and examples.
+
+=--
 
 ## Examples {#Examples}
 
-
-### Classes of examples
-
 +-- {: .un_prop}
 ###### Proposition
 
-For $C$ an [[∞-cohesive site] the [[(∞,1)-category of (∞,1)-sheaves]] $(\infty,1)Sh(C)$ over $C$ is a cohesive $(\infty,1)$-topos satisfying the two axioms _[pieces have points](#PiecesHavePoints)_ and _[discrete objects are concrete](#DiscreteObjectsAreConcrete)_ .
-
-=--
-
-See [[∞-cohesive site]].
-
-+-- {: .un_prop}
-###### Proposition
-
-Examples of $(\infty,1)$-cohesive sites are
+Examples of [[∞-cohesive site]]s are
 
 * any category with finite [[product]]s and equipped with the trivial [[coverage]].
 
@@ -3119,29 +3152,10 @@ Examples of $(\infty,1)$-cohesive sites are
 
 =--
 
-This proposition implies the examples of cohesive $(\infty,1)$-toposes listed in the following.
 
-+-- {: .un_prop}
-###### Proposition
 
-Let $(\Pi \dashv Disc \dashv \Gamma \dashv coDisc) : \mathbf{H} \to \infty Grpd$ be a cohesive $(\infty,1)$-topos. Let $X \in \mathbf{H}$ be an object such that 
 
-* $X$ is geometrically contractible: $\Pi (X) \simeq *$;
 
-* $X$ is [[small-projective]].
-
-Then the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]], [[∞-connected (∞,1)-topos|∞-connected]], and [[local (∞,1)-topos|loca]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-That $\mathbf{H}$ is locally $\infty$-connected and $\infty$-connected follows directly from general properties of the [[étale geometric morphism]]s $\mathbf{H}/X \to \mathbf{H}$, see [[∞-connected (∞,1)-topos]].
-
-Locality follows as in the discussion at [[local (∞,1)-topos]].
-
-=--
 
 ### Continuous $\infty$-groupoids
 
