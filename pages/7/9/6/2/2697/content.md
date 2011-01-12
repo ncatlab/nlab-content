@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
-
+=--
+=--
+=--
 
 
 #Contents#
@@ -58,7 +63,14 @@ $$
 
 This is [[Higher Topos Theory|HTT, prop. 6.5.2.13]].
 
++-- {: .un_prop}
+###### Proposition
 
+Every [[(∞,1)-topos]] of finite [[homotopy dimension]] is hypercomplete.
+
+=--
+
+See the discussion at [[homotopy dimension]] for details and further implications.
 
 
 ## Models
