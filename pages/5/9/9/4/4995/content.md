@@ -2133,38 +2133,25 @@ In degree 0 the intrinsic de Rham cohomology is necessrily trivial, while in deg
 
 =--
 
+
 ### $\infty$-Lie algebras {#LieAlgebras}
 
-In analogy to how a cocycle $\nabla : \mathbf{\Pi}(X) \to \mathbf{B}G$ in
-$H^1_{\mathrm{flat}}(X,G)$ may be interpreted as 
-encoding $G$-valued parallel tranport over paths in $X$, a cocycle
-$\omega : \mathbf{\Pi}_{\mathrm{dR}}(X) \to \mathbf{B}G$ may be interpreted as
-encoding parallel transport over _infinitesimal_ paths in $X$. We may think
-of factoring through objects $\mathbf{B}\mathfrak{g} \to \mathbf{B}G$ of infinitsimal
-elements of $G$. These we identify with the intrinsic notion of $\infty$-Lie algebras
-in $\mathbf{H}$.
 
 +-- {: .un_def}
 ###### Definition
 
 
-For a [[connected]] object $\mathbf{B}\mathfrak{g} $ in $\mathbf{H}$ that is _geometrically contractible_
+For a [[connected]] object $\mathbf{B}\exp(\mathfrak{g}) $ in $\mathbf{H}$ that is _geometrically contractible_
 
 $$
-  \Pi \mathbf{B}\mathfrak{g} \simeq *
+  \Pi (\mathbf{B}\exp(\mathfrak{g})) \simeq *
 $$
 
 we call its [[loop space object]] 
-$\mathfrak{g} := \Omega_* \mathbf{B}\mathfrak{g}$ an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
+$\exp(\mathfrak{g}) := \Omega_* \mathbf{B}\exp(\mathfrak{g})$ the  **[[Lie integration]] of an [[∞-Lie algebra]]** in $\mathbf{H}$. 
 
 =--
 
-+-- {: .un_remark}
-###### Remark
-
-In terms of the extrinsic description at [[Lie integration]] this axiom models objects of the form $\exp(\mathfrak{g}) : U \mapsto Hom(T_{vert} (U \timdes \Delta^\bullet), \mathfrak{g})$ for $\mathfrak{g}$ an [[∞-Lie algebra]] in the explicit algebraic sense. These are indeed all geometrically contractible, since in each degree a contracting homotopy of $\Delta^n$ exhibits a conctraction of the corresponding [[concrete sheaf]] in that degree.
-
-=--
 
 
 +-- {: .un_def}
@@ -2173,7 +2160,7 @@ In terms of the extrinsic description at [[Lie integration]] this axiom models o
 Set
 
 $$
-  Lie
+  \exp Lie
   := 
   \mathbf{\Pi}_{dR} \circ \mathbf{\flat}_{dR} 
   : */\mathbf{H} \to */\mathbf{H}
@@ -2186,7 +2173,7 @@ $$
 ###### Observation
 
 
-If $\mathbf{H}$ is cohesive, then $Lie$ is a [[left adjoint]].
+If $\mathbf{H}$ is cohesive, then $\exp Lie$ is a [[left adjoint]].
 
 
 =--
@@ -2198,7 +2185,7 @@ When $\mathbf{H}$ is cohesive we have the [de Rham triple of adjunction](#Triple
 $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\Gamma}_{dR})$. Accordingly then $Lie$ is part of an [[adjunction]]
 
 $$
-  (Lie \dashv \mathbf{\Gamma}_{dR}\mathbf{\flat}_{dR})
+  (\exp Lie \dashv \mathbf{\Gamma}_{dR}\mathbf{\flat}_{dR})
   \,.
 $$
 
@@ -2240,12 +2227,12 @@ where we used that in the [[∞-connected (∞,1)-topos|∞-connected]] $\mathbf
 +-- {: .un_corollary}
 ###### Corollary
 
-We have for every $\mathbf{B}G$ that $Lie \mathbf{B}G$ is geometrically contractible.
+We have for every $\mathbf{B}G$ that $\exp Lie \mathbf{B}G$ is geometrically contractible.
 
 =--
 
 
-We shall write $\mathbf{B}\mathfrak{g}$ for $Lie \mathbf{B}G$, when the context is clear. And say that $\mathfrak{g}$ _is the $\infty$-Lie algebra_ of $G$.
+We shall write $\mathbf{B}\exp(\mathfrak{g})$ for $\exp Lie \mathbf{B}G$, when the context is clear. 
 
 
 +-- {: .un_prop #LieValuesofDeRham}
@@ -2256,7 +2243,7 @@ Every [de Rham cocycle](#deRhamCohomology) $\omega : \mathbf{\Pi}_{dR} X \to \ma
 
 $$
   \array{
-     && \mathbf{B}\mathfrak{g}
+     && \mathbf{B}\exp(\mathfrak{g})
      \\
      & \nearrow & \downarrow
      \\
@@ -2272,22 +2259,23 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universality of the counit</a> of $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$ we have that $\omega$ factors through the [[unit of an adjunction|counit]9 $FLie \mathbf{B}G \to \mathbf{B}G$. 
+By the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universality of the counit</a> of $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$ we have that $\omega$ factors through the [[unit of an adjunction|counit]9 
+$\exp Lie \mathbf{B}G \to \mathbf{B}G$. 
 
 =--
 
 
-Therefore instead of speaking of a $G$-valued de Rham cocycle, it is less  redundant to speak of a $\mathfrak{g}$-valued de Rham cocycle. In particular we have the following.
+Therefore instead of speaking of a $G$-valued de Rham cocycle, it is less  redundant to speak of an $\exp(\mathfrak{g})$-valued de Rham cocycle. In particular we have the following.
 
 
 +-- {: .un_prop}
 ###### Corollary
 
-Every morphism $Lie \mathbf{B}H \to \mathbf{B}G$ from an $\infty$-Lie algebra to an $\infty$-group factors through the $\infty$-Lie algebra of that $\infty$-group
+Every morphism $\exp Lie \mathbf{B}H \to \mathbf{B}G$ from an exponentiated $\infty$-Lie algebra to an $\infty$-group factors through the exponentiated $\infty$-Lie algebra of that $\infty$-group
 
 $$
   \array{
-    \mathbf{B}\mathfrak{h} &\to& \mathbf{B}\mathfrak{g}
+    \mathbf{B}\exp(\mathfrak{h}) &\to& \mathbf{B}\exp(\mathfrak{g})
     \\
     & \searrow& \downarrow
     \\
@@ -2305,7 +2293,7 @@ $$
 If $\mathbf{H}$ is cohesivem then we have 
 
 $$
-  Lie \circ Lie \simeq Lie \circ \Sigma \circ \Omega
+  \exp Lie \circ \exp Lie \simeq \exp Lie \circ \Sigma \circ \Omega
   \,.
 $$
 
@@ -2384,9 +2372,9 @@ $$
 for all $X \in \mathbf{H}$.
 
 
-Finally to obtain $Lie \circLie$ we do one more computation of this sort, using that 
+Finally to obtain $\exp Lie \circ \exp Lie$ we do one more computation of this sort, using that 
 
-* $Lie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}$ preserves the terminal object (since $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]]) 
+* $\exp Lie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}$ preserves the terminal object (since $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]]) 
 
 * and that it is a [[left adjoint]] by [the above](#LieAsALeftAdjoint), since $\mathbf{H}$ is assumed to be cohesive.
 
@@ -2394,22 +2382,22 @@ We compute:
 
 $$
   \begin{aligned}
-    Lie Lie A 
+    \exp Lie \exp Lie A 
     & \simeq 
-    Lie \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} A
+    \exp Lie \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} A
     \\
     & \simeq
       * 
-        \coprod_{Lie \mathbf{\flat}_{dR} A} 
-      Lie \mathbf{\Pi} \mathbf{\flat}_{dR} A
+        \coprod_{\exp Lie \mathbf{\flat}_{dR} A} 
+      \exp Lie \mathbf{\Pi} \mathbf{\flat}_{dR} A
     \\
     & \simeq
       * 
-        \coprod_{Lie \mathbf{\flat}_{dR} A} 
+        \coprod_{\exp Lie \mathbf{\flat}_{dR} A} 
       \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{\Pi} \mathbf{\flat}_{dR} A
     \\
     & \simeq 
-    * \coprod_{Lie \mathbf{\flat}_{dR} A} *    
+    * \coprod_{\exp Lie \mathbf{\flat}_{dR} A} *    
     \\
     & \simeq 
     * \coprod_{\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{\flat}_{dR} A} *
@@ -2418,13 +2406,13 @@ $$
     * \coprod_{\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \Omega A} *   
     \\
     & \simeq
-    * \coprod_{Lie \Omega A} *   
+    * \coprod_{\exp Lie \Omega A} *   
     \\
     & \simeq
-    Lie ( * \coprod_{\Omega A} * )
+    \exp Lie ( * \coprod_{\Omega A} * )
     \\
     & \simeq
-    Lie \Sigma \Omega A  
+    \exp Lie \Sigma \Omega A  
   \end{aligned} 
   \,.
 $$
@@ -2443,7 +2431,7 @@ In the [intrinsic de Rham cohomology](#deRhamCohomology) of a [[locally ∞-conn
 For $G \in \mathbf{H}$ an [[∞-group]], write
 
 $$
-  \theta : G \to \mathbf{\flat}_{dR} \mathbf{B}\mathfrak{g}
+  \theta : G \to \mathbf{\flat}_{dR} \mathbf{B}G
 $$
 
 for the $\mathfrak{g}$-[valued](#LieAlgebras) 
@@ -2475,7 +2463,8 @@ We call $\theta$ the **[[Maurer-Cartan form]]** on $G$.
 By postcomposition the Maurer-Cartan form sends $G$-valued functions on $X$ to $\mathfrak{g}$-valued forms on $X$
 
 $$
-  \theta_* : \mathbf{H}(X,G) \to \mathbf{H}^1_{dR}(X,\mathfrak{g})
+  \theta_* : \mathbf{H}(X,G) \to 
+    \mathbf{H}^1_{dR}(X,G)
   \,.
 $$
 
@@ -3208,7 +3197,7 @@ The 0-[[truncated]] [[concrete (∞,1)-sheaf|concrete]] objects in this are prec
 
 On $\mathbf{H} = $ [[?LieGrpd]] and $G \in \mathbf{H}$ an ordinary [[Lie group]], the 
 [intrinsic Maurer-Cartan form](#CurvatureCharacteristics) 
-$\theta : G \to \mathbf{B}\mathfrak{g}$ 
+$\theta : G \to \mathbf{B}\exp(\mathfrak{g})$ 
 coicides with the ordinary [[Maurer-Cartan form]] on a Lie algebra.
 
 =--
