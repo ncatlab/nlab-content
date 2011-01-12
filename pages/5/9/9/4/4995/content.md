@@ -2492,66 +2492,204 @@ for the intrinsic Maurer-Cartan form and call this the intrinsic **universal [[c
 
 In every [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos]] there is an intrinsic notion of [[ordinary differential cohomology]].
 
+Fix an abelian [[∞-group]] object $A \in \mathbf{H}$ (an arbitrarily deloopable object.)
+
 +-- {: .un_def }
 ###### Definition 
 
-For $X \in \mathbf{H}$ any object and $A \in \mathbf{H}$ an [[∞-group]] write 
+For $X \in \mathbf{H}$ any object and $n \geq 1$ write
 
 $$
-  \mathbf{H}_{conn}(X,A)
+  \mathbf{H}_{conn}(X,\mathbf{B}^n A) := 
+    \mathbf{H}(X,\mathbf{B}^n A) \prod_{\mathbf{H}_{dR}(X,\mathbf{B}^n A)}
+    H_{dR}^{n+1}(X,A)
 $$ 
 
-for the [[twisted cohomology]] of $X$ induced by the [curvature characteristic class](#CurvatureCharacteristics) $curv : A \to \mathbf{\flat}_{dR}\mathbf{B}\mathfrak{a}$. This is the [[(∞,1)-pullback]]
+for the cocycle $\infty$-groupoid of [[twisted cohomology]] of $X$ with coefficients in $A$ induced by the canonical [curvature characteristic morphism](#CurvatureCharacteristics) $curv : A \to \mathbf{\flat}_{dR}\mathbf{B}A$. This is the [[(∞,1)-pullback]]
 
 $$
   \array{
-    \mathbf{H}_{conn}(X,A) &\stackrel{F}{\to}& 
-     H_{dR}(X,\mathbf{B}\mathfrak{a})
+    \mathbf{H}_{conn}(X,\mathbf{B}^n A) &\stackrel{F}{\to}& 
+     H_{dR}^{n+1}(X,A)
     \\
     {}^{\mathllap{\eta}}\downarrow && \downarrow
     \\
-    \mathbf{H}(X,A) &\stackrel{curv}{\to}& 
-     \mathbf{H}_{dR}(X,\mathbf{B}A)
+    \mathbf{H}(X,\mathbf{B} n A) 
+        &\stackrel{curv_*}{\to}& 
+     \mathbf{H}_{dR}(X,\mathbf{B}^{n+1} A)
   }
   \,,
 $$
 
-(where the right vertical morphism is any choice of cocycle representative for each cohomology class).
+where the right vertical morphism $\pi_0 \mathbf{H}_{dR}(X,\mathbf{B}^{n+1}A)
+ \to \mathbf{H}_{dR}(X,\mathbf{B}^{n+1}A)$ is any choice of cocycle representative for each cohomology class: a choice of point in every connected component.
 
-This we call the **[[differential cohomology]]** of $X$ with coefficient in $A$.
+We call
 
-For $\nabla \in \mathbf{H}_{conn}(X,A)$ a cocycle, we call
+$$
+  H_{conn}^n(X,A) {:=} \pi_0 \mathbf{H}_{conn}(X, \mathbf{B}^{n} A)
+$$
 
-* $F(\nabla) \in H_{dR}(X,\mathbf{B}A)$ the **[[curvature]]** class of $c$;
+the degree-$n$ **[[differential cohomology]]** of $X$ with coefficient in $A$.
 
-* $[\eta(\nabla)] \in H(X,A)$ the **class in $A$-cohomology of the underlying [[principal ∞-bundle]]**.
+For $\nabla \in \mathbf{H}_{conn}(X,\mathbf{B}^n A)$ a [[cocycle]], we call
+
+* $[\eta(\nabla)] \in H^n(X,A)$ the class of the **underlying 
+   $\mathbf{B}^{n-1} A$-[[principal ∞-bundle]]**;
+
+* $F(\nabla) \in H_{dR}^{n+1}(X,A)$ the **[[curvature]]** class of $c$.
+
+
+We say $\nabla$ is an **$\infty$-connection** on $\eta(\nabla)$.
 
 =--
 
++-- {: .un_prop #DiffCohIsWellDefined}
+###### Observation
 
-+-- {: .un_lemma}
-###### Lemma
-**(differential fiber sequence)**
+The differential cohomology $H_{conn}^n(X,A)$ does not depend on the specific choice of morphism $H_{dR}^{n+1}(X,A) \to \mathbf{H}_{dR}(X, \mathbf{B}^{n+1}A)$ (as long as it is an isomorphism on $\pi_0$, as required).
+In fact, for different choices the corresponding cocycle [[∞-groupoid]]s $\mathbf{H}_{conn}(X,\mathbf{B}^n A)$ are equivalent.
 
+=--
 
-For coefficients $A$ that are $(n+1)$-fold deloopable
-Differential cohomology fits into a [[fiber sequence]]
++-- {: .proof}
+###### Proof
+
+The set  
 
 $$
-  \mathbf{H}(X, \Omega^{n-1} A)
-  \to 
-  \cdots
-  \to
-  \mathbf{H}(X, \Omega A)
-  \to
-  \mathbf{H}_{dR}(X, A)
-  \to 
-  \mathbf{H}_{conn}(X, A)
-  \to
-  \mathbf{H}(X, A)
+  H_{dR}^{n+1}(X,A) = \coprod_{H_{dR}^{n+1}(X,A)} {*} 
+$$ 
+
+is, as a 0-[[truncated]] [[∞-groupoid]], an [[(∞,1)-coproduct]] of the [[terminal object in an (∞,1)-category|terminal object]] in [[∞Grpd]]. By [[universal colimits]] in this [[(∞,1)-topos]] we have that [[(∞,1)-colimit]]s are preserved by [[(∞,1)-pullback]]s, so that $\mathbf{H}_{conn}(X, \mathbf{B}^n A)$ is the coproduct 
+
+$$
+  \mathbf{H}_{conn}(X,\mathbf{B}^n A) \simeq
+  \coprod_{H_{dR}^{n+1}(X,A)} 
+   \left(
+   \mathbf{H}(X,\mathbf{B}^n A) 
+      \prod_{\mathbf{H}_{dR}(X,\mathbf{B}^{n+1}A)} 
+    {*}
+  \right)
+$$
+
+of the [[homotopy fiber]]s of $curv_*$ over each of the chosen points $* \to \mathbf{H}_{dR}(X,\mathbf{B}^{n+1}A)$. These homotopy fibers only  depend, up to equivalence, on the connected component over which they are taken.
+
+=--
+
++-- {: .un_prop }
+###### Proposition
+
+When restricted to vanishing curvature, differential cohomology coincides with [flat differential cohomology](#FlatDifferentialCohomology):
+
+$$
+  H_{conn}^n (X,A)|_{F = 0} \simeq H_{flat}(X,\mathbf{B}^n A)
   \,.
 $$
 
+Moreover this is true at the level of [[cocycle]] [[∞-groupoid]]s
+
+$$
+ \left(
+  \mathbf{H}_{conn}(X, \mathbf{B}^n A) \prod_{H_{dR}^{n+1}(X,A)} \{F = 0\}
+  \right)
+  \simeq
+  \mathbf{H}_{flat}(X,\mathbf{B}^n A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-pullback#QuasiCatPastingLaw">pasting law for (∞,1)-pullbacks</a> the claim is equivalently that we have a an $(\infty,1)$-pullback diagram
+
+$$
+  \array{
+    \mathbf{H}_{flat}(X, \mathbf{B}^n A) &\to& {*}
+    \\
+    \downarrow && \downarrow^{\mathrlap{\{F = 0\}}}
+    \\
+    \mathbf{H}_{conn}(X,\mathbf{B}^n A) &\stackrel{F}{\to}& 
+     H_{dR}^{n+1}(X,A)
+    \\
+    {}^{\mathllap{\eta}}\downarrow && \downarrow
+    \\
+    \mathbf{H}(X,\mathbf{B} n A) 
+        &\stackrel{curv_*}{\to}& 
+     \mathbf{H}_{dR}(X,\mathbf{B}^{n+1} A)
+  }
+  \,.
+$$
+
+By definition of intrinsic flat cohomology and of intrinsic de Rham cohomology, the outer rectangle is 
+
+$$
+  \array{
+    \mathbf{H}(X,\mathbf{\flat}\mathbf{B}^n A) &\to& {*}
+    \\ 
+    \downarrow && \downarrow 
+    \\
+    \mathbf{H}(X, \mathbf{B}^n A) 
+      &\stackrel{curv_*}{\to}&
+    \mathbf{H}(X, \mathbf{\flat}_{dR}\mathbf{B}^{n+1} A)
+  }
+  \,.
+$$
+
+Since the [[hom-functor]] $\mathbf{H}(X,-)$ preserves [[(∞,1)-limit]]s this is a pullback if
+
+$$
+  \array{
+    \mathbf{\flat} \mathbf{B}^n A &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}^n A 
+      &\stackrel{curv}{\to}& 
+    \mathbf{\flat}_{dR} \mathbf{B}^{n+1} A
+  }
+$$
+
+is. Indeed, this is one step in the [[fiber sequence]] 
+
+$$
+   \cdots
+   \to 
+   \mathbf{\flat} \mathbf{B}^n A
+   \to
+   \mathbf{B}^n A
+   \stackrel{curv}{\to}
+   \mathbf{\flat}_{dR} \mathbf{B}^{n+1}A
+  \to
+  \mathbf{\flat} \mathbf{B}^{n+1} A
+   \to
+  \mathbf{B}^{n+1} A
+$$
+
+that [defines](#CurvatureCharacteristics) $curv$ (using that $\mathbf{\flat}$ preserves limits and hence looping and delooping)
+
+
+=--
+
++-- {: .un_prop}
+###### Propositioon
+
+The differential cohomology $H_{conn}^n(X,A)$ fits into a [[short exact sequence]] of [[abelian group]]s
+
+$$
+  0 
+   \to 
+  H_{dR}^n(X,A)/H^{n-1}(X,A) 
+   \to 
+  H_{conn}^n(X,A) 
+   \to 
+  H^n(X,A)
+   \to 
+  0
+  \,.
+$$
 
 =--
 
@@ -2559,113 +2697,112 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is a general statement about the definition of [[twisted cohomology]]: consider the diagram
+This is a general statement about the definition of [[twisted cohomology]].
+We claim that for all $n \geq 1$ we have a [[fiber sequence]]
+
+$$
+  \mathbf{H}(X, \mathbf{B}^{n-1}A)
+  \to 
+  \mathbf{H}_{dR}(X, \mathbf{B}^n A)
+  \to 
+  \mathbf{H}_{conn}(X, \mathbf{B}^n A)
+  \to
+  \mathbf{H}(X, \mathbf{B}^n A)
+$$
+
+in [[∞Grpd]]. This implies the [[short exact sequence]] using that 
+by construction the last morphism is surjective on connected components (because in the defining $(\infty,1)$-pullback for $\mathbf{H}_{conn}$ the right vertical morphism is by assumption surjective on connected components).
+
+To see that we do have the fiber sequence as claimed consider the 
+pasting composite of [[(∞,1)-pullback]]s
 
 $$
   \array{
-    \mathbf{H}(X,\mathbf{\flat}_{dR} \Omega \mathbf{B} A) 
-    &\to& \mathbf{H}_{conn}(X,A) &\to & H(X, \mathbf{\flat}_{dR} \mathbf{B}A)
+    \mathbf{H}_{dR}(X,\mathbf{B}^{n-1} A) 
+    &\to& 
+      \mathbf{H}_{conn}(X,\mathbf{B}^n A)  
+    &\to& 
+     H_{dR}(X, \mathbf{B}^{n+1} A)
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    * &\to& \mathbf{H}(X, A) &\stackrel{curv}{\to}&
-    \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B} A)
+    {*} 
+      &\to& 
+    \mathbf{H}(X, \mathbf{B} n A) 
+      &\stackrel{curv}{\to}&
+    \mathbf{H}_{dR}(X, \mathbf{B}^{n+1} A)
   }
   \,.
 $$
 
-The square on the right is a pullback by definition of [[twisted cohomology]] in general and our special case of differential cohomology in particular. Take the left square to be the pullback of the middle vertical morphism to the point and deduce the top left object from that: by the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-pullback#QuasiCatPastingLaw">pasting law for (∞,1)-pullbacks</a> this top left object is the pullback of the total diagram. But by the definition of $H(X,\mathbf{\flat}_{dR}\mathbf{B}A)$ as the set of connected components of $\mathbf{H}(X,\mathbf{\flat}_{dR}\mathbf{B}A)$ it follows that the pullback of the outer diagram is 
+The square on the right is a pullback by the above definition.
+Since also the square on the left is assumed to be an $(\infty,1)$-pullback
+it follows by the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-pullback#QuasiCatPastingLaw">pasting law for (∞,1)-pullbacks</a> that the top left object is
+the $(\infty,1)$-pullback of the total rectangle diagram. That is 
 
 $$
   \array{
-    \Omega \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}A) &\to& 
-     H(X,\mathbf{\flat}_{dR} \mathbf{B}A)
+    \Omega \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}^{n+1}A) 
+    &\to& 
+     H(X,\mathbf{\flat}_{dR} \mathbf{B}^{n+1} A)
     \\
     \downarrow && \downarrow
     \\
-    * &\to& \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B} A)
+    * &\to& \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}^{n+1} A)
   }
-  \,.
+  \,,
 $$
 
-Since $H(X, \mathbf{\flat}_{dR})(X,\mathbf{\flat}_{dR} \matbf{B}A)$ here is a set, this is te product of pullbacks for each element in the set. But this is empty if the cohomology class is not the trivial one picker by the bottom morphisms, so that this is
+because, as before, this $(\infty,1)$-pullback is the coproduct of the 
+homotopy fibers, and they are empty over the connected components not
+in the image of the bottom morphism and are the [[loop space object]]
+over the single connected component that is in the image. 
 
+Finally using that (as discussed at [[cohomology]] and at [[fiber sequence]]) 
 $$
-  \array{
-    \Omega \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}A) &\to& 
-     *
-    \\
-    \downarrow && \downarrow
-    \\
-    * &\to& \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B} A)
-  }
-  \,.
+  \Omega \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}^{n+1}A) 
+    \simeq 
+   \mathbf{H}(X,\Omega \mathbf{\flat}_{dR} \mathbf{B}^{n+1}A)
+$$ 
+
+and
+
+$$ 
+  \Omega \mathbf{\flat}_{dR} \mathbf{B}^{n+1}A 
+    \simeq 
+   \mathbf{\flat}_{dR} \Omega \mathbf{B}^{n+1}A
 $$
 
+since both $\mathbf{H}(X,-)$ as well as $\mathbf{\flat}_{dR}$
+preserve [[(∞,1)-limit]]s and hence formation of [[loop space object]]s,
+the claim follows.
 
-Finally using that (as discussed at [[cohomology]] and at [[fiber sequence]]) $\Omega \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}A) \simeq \mathbf{H}(X,\Omega \mathbf{\flat}_{dR} \mathbf{B}A)$ and then
-using the above observation that $\Omega \mathbf{\flat}_{dR} \mathbf{B}A \simeq \mathbf{\flat}_{dR} \Omega \mathbf{B}A$ and finally the defining equivalence $\Omega \mathbf{B}A \simeq A$ the claim follows.
 
 =--
 
-+-- {: .un_corollary}
-###### Corollary
-
-Let $\mathbf{B}^n K$ be an [[Eilenberg-MacLane object]] in $\mathbf{H}$, then differential cohomology in $\mathbf{H}$ fits into a [[short exact sequence]] 
-
-$$
-  0 \to H_{dR}^n(X,K)/H^{n-1}(X,K) \to H_{conn}^n(X,K) \to H^n(X,K)
-  \to 0
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The above [[fiber sequence]] yields (as recalled there) a long exact sequence of pointed cohomology sets
-
-$$
-  \cdots
-  \to
-  H(X, \Omega A)
-  \to
-  H(X,\mathbf{\flat}_{dR} A)
-  \to 
-  H_{conn}(X, A)
-  \to
-  H(X, A)
-  \,.
-$$
-
-If $A = \mathbf{B}^n K$ is an [[Eilenberg-MacLane object]] on an abelian group object $K$, then this reads
-
-$$
-  \cdots
-  \to
-  H^{n-1}(X,K)
-  \to
-  H^{n}_{dR}(X,K)
-  \to 
-  H_{conn}^n(X, K)
-  \to
-  H^n(X, K)
-  \,.
-$$
-
-Moreover observing that by construction the last morphism $H_{conn}^n(X,K) \to H^n(X,K)$ is surjective (because in the defining $(\infty,1)$-pullback for $\mathbf{H}_{conn}$ the right vertical morphism is evidently surjective on connected components) this yields the short exact sequence as claimed.
-
-=--
 
 +-- {: .un_remark}
 ###### Remark
 
-This is _essentially_ verbatim the expected short exact sequence familiar from ordinary generalized [[differential cohomology]] only up to the following slight nuances in notation:
+This is _essentially_ verbatim the short exact sequence familiar from the traditional definition of [[ordinary differential cohomology]] only up to the following slight nuances in notation:
 
-1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[?LieGrpd]] and $|X| \in Top$ the geometric realization of a paracompact manifold $X$, we have that $H^1(X,U(1))$ above is $H^2_{sing}(|X|,\mathbb{Z})$ and not $H^1_{sing}(|X|,U(1))$. 
+1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[?LieGrpd]] and $|X| \in Top$ the geometric realization of a paracompact manifold $X$, we have that $H^1(X,U(1))$ above is $H^2_{sing}({|X|},\mathbb{Z})$ and not $H^1_{sing}({|X|},U(1))$. 
 
-1. The fact that on the left  of the short exact sequence we find the intrinsic de Rham cohomology set $H_{dR}^n(X,A)$ instead of something like the set of all flat forms as familiar from discussions of ordinary generalized [[differential cohomology]] is due to the fact that, following the general abstract procedure of [[twisted cohomology]], we defined $\mathbf{H}_{conn}(X,A)$ as the $(\infty,1)$-pullback of the inclusion $H(X,\mathbf{\flat}_{dR}A ) \to \mathbf{H}(X,\mathbf{\flat}_{dR} A)$ of the set of connected components of curvature classes into the [[cocycle]] [[∞-groupoid]]. This is the only natural thing to do in a fully natural [[(∞,1)-category|(∞,1)-categorical setup]]. However, in applications we typically have a concrete model for the [[∞-groupoid]] $\mathbf{H}(X,\mathbf{\flat}_{dR} A)$ in mind, and then can consider the inclusion $\mathbf{H}(X,\mathbf{\flat}_{dR} A)_0 \hookrightarrow \mathbf{H}(X,\mathbf{\flat}_{dR} A)$ of all of its objects. While this does not make intrinsic sense -- it is a bit [[evil]] -- , this is what is effectively done in ordinary generalized [[differential cohomology]], and doing so in our definition changes the above short exact sequence slightly to become exactly the familiar sequence, for the suitable special cases.
+1. The fact that on the left  of the short exact sequence for differential cohomology we have the de Rham cohomology set $H_{dR}^n(X,A)$ instead of 
+something like the set of all flat forms as familiar from 
+[[ordinary differential cohomology]] is because the latter has no
+intrinsic meaning but depends on a choice of model. 
+After fixing a specific
+[[presentable (∞,1)-category|presentation]] of $\mathbf{H}$ 
+by a [[model category]] $C$ we can
+consider instead of 
+$H_{dR}^{n+1}(X,A) \to \mathbf{H}_{dR}(X, \mathbf{B}^{n+1}A)$ 
+the inclusion of the set of objects 
+$\Omega_{cl}^{n+1}(X,A) {:=} \mathbb{R}Hom_C(X, \mathbf{B}^{n+1}A )_0
+\hookrightarrow \mathbb{R}Hom_C(X, \mathbf{B}^{n+1}A )$. However,
+by the [above observation](#DiffCohIsWellDefined) this 
+only adds multiple copies of the homotopy types of the connected 
+components of $\mathbf{H}_{conn}(X, \mathbf{B}^n A)$.
 
 =--
 
