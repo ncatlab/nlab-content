@@ -1,6 +1,11 @@
+
+# Overt spaces
+* table of contents
+{: toc}
+
 ## Idea
 
-An overt space is a space that satisfies a condition [[de Morgan duality|logically dual]] to that satisfied by a [[compact space]].  An overt space is also called _open_ (in French, there is only one word, 'ouvert').
+An _overt_ space is a space that satisfies a condition [[de Morgan duality|logically dual]] to that satisfied by a [[compact space]].  An overt space is also called _open_ (in French, there is only one word, 'ouvert').
 
 
 ## Motivation
@@ -20,15 +25,20 @@ Of course, *every* topological space satisfies this condition; $\exists_X U$ is 
 
 To remove it from dependence on points, we write the definition like this:
 
-A space (locale, etc) $X$ is __overt__ if, given any space $Y$ and any open $U$ in $X \times Y$, there exists an open $\exists_X U$ in $Y$ that satisfies the [[universal property]] of existential [[quantification]]:
+A [[space]] (topological space, locale, etc) $X$ is __overt__ if, given any space $Y$ and any open $U$ in $X \times Y$, there exists an open $\exists_X U$ in $Y$ that satisfies the [[universal property]] of existential [[quantification]]:
 $$ \exists_X U \subseteq V \;\Leftrightarrow\; U \subseteq X \times V $$
 for every open $V$ in $Y$.
+
+Note that, since we quantify over all spaces $Y$, whether a given space is overt may depend on precisely what 'space' means (even if $X$ is an example for both meanings).  I don\'t know any good examples of this, however; in particular, every [[topological locale]] is overt (so a [[sober space]] is overt regardless of whether it is viewed as a topological space or as a locale).
 
 
 ## Remarks
 
-As compact spaces go with proper maps, so overt spaces go with open maps.  Indeed, $X$ is compact if and only if the unique map $X \to pt$ to the [[point]] is proper, while $X$ is overt if and only if the unique map $X \to pt$ is open.
+As compact spaces go with [[proper maps]], so overt spaces go with [[open maps]].  Indeed, $X$ is compact if and only if the unique map $X \to pt$ to the [[point]] is proper, while $X$ is overt if and only if the unique map $X \to pt$ is open.
 
+
+[[!redirects overt space]]
+[[!redirects open space]]
 
 [[!redirects overt locale]]
 [[!redirects open locale]]
