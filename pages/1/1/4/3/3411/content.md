@@ -48,9 +48,9 @@ A [[class]] $R \subset Mor(\mathcal{E})$ of [[morphism]]s in a [[topos]] $\mathc
 
 1. If the pullback of a morphism $f$ along an [[epimorphism]] lands in $R$, then $f$ is also in $R$.
 
-1. For every [[set]] $S$ the canonical morphism $(\coprod_{s \in S} *) \to *$ from the $S$-fold [[coproduct]] of the [[terminal object]] to the terminal object]] in in $R$.
+1. For every [[set]] $S$ the canonical morphism $(\coprod_{s \in S} *) \to *$ from the $S$-fold [[coproduct]] of the [[terminal object]] to the terminal object in in $R$.
 
-1. For $\{X_i \stackrel{f_i}{\ro} Y_i\}_{i \in I} \subset R$ then also the [[coproduct]] $\coprod_i X_i \to \coprod_i Y_i$ is in $R$.
+1. For $\{X_i \stackrel{f_i}{\to} Y_i\}_{i \in I} \subset R$ then also the [[coproduct]] $\coprod_i X_i \to \coprod_i Y_i$ is in $R$.
 
 1. If in a diagram of the form
 
@@ -66,7 +66,7 @@ A [[class]] $R \subset Mor(\mathcal{E})$ of [[morphism]]s in a [[topos]] $\mathc
 
    we have that $p$ is an [[epimorphism]] and $g$ is in $R$, then $f$ is in $R$.
 
-The class $R$ is called a class of **&#233; maps** if in addition to the above axioms it satisfies
+The class $R$ is called a class of **&#233; maps** if in addition to the axioms 1-5 above it satisfies
 
 1. for $f : X \to Y$ in $R$ also the [[diagonal]] $Y \to Y \times_X Y$ is in $R$.
 
@@ -82,7 +82,7 @@ The class $R$ is called a class of **&#233; maps** if in addition to the above a
      }
    $$
 
-   (...)
+   we have that $p$ is an epimorphism, and $p, g \in R$, then $f\in R$.
 
 
 For instance ([JoyalMoerdijk, section 1](#JoyalMoerdijk)).
