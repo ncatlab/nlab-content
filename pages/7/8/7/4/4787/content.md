@@ -18,6 +18,18 @@ There are many notions of _dimension_.  What they all have in common is that the
 
 *  A [[metric space]] has a __[[Hausdorff dimension]]__ which may be any non-negative real number.
 
+## Related concepts
+
+* **dimension**
+
+  * [[homotopy dimension]]
+
+  * [[cohomological dimension]] 
+
+  * [[covering dimension]]
+
+  * [[Heyting dimension]]
+
 
 [[!redirects dimension]]
 [[!redirects dimensions]]
