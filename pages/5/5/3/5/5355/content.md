@@ -3,7 +3,8 @@
 
 de Jong is running a wiki on [[algebraic stack]]-theory:
 
-* [Stacks project](http://math.columbia.edu/algebraic_geometry/stacks-git/)
+* [[The Stacks Project]]
+
 
 category: people
 
