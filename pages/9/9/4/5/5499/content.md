@@ -131,27 +131,32 @@ This probably ties up with fuzzy logic and fuzzy set theory. See also the follow
 
 These are taken from my short write-up [_Generalisation is an adjunction_](http://www.j-paine.org/generalisation.html), recast into the naming convention I'm using here. 
 
-### 1. Logical induction ###
+### 1. Logical induction by conjunction ###
 
-Let $E$ be the 
+Let $C$ be the 
 category whose objects are the atomic propositions 
 $P$, $Q$, $R$, ... and their conjunctions. Let there be an arrow from 
 $P$ 
-to $P'$ if $P$ implies $P'$. This makes the category into a 
-partial ordering defined by implication. 
+to $P'$ if $P$ implies $P'$. This makes $C$ into 
+a partial ordering defined by implication.
 
-It seems reasonable to say that forming the conjunction of a set of 
-propositions is one possible (and very crude) way of generalising from them. And 
-informally speaking, the conjunction contains just enough information to imply 
+Let $E$ be the category
+whose objects are non-empty sets of the above atomic propositions. It has the obvious partial ordering by inclusion.
+
+Let $G$ map
+each set of propositions in $E$ to their conjunction in $C$; let $F$ be its inverse. $G$ and $F$ reverse arrows, as in the next example.
+
+The above is trivial, but I find it suggestive. Because it seems reasonable to say that forming the conjunction of a set of 
+propositions as $G$ does is one (crude) way of generalising from them. Informally speaking, the conjunction contains just enough information to imply 
 them all, but none of the others in the category (unless they were implied by 
-the originals anyway). Now, we also know that in this category, their 
+the originals anyway). Now, we also know that in $C$, their 
 conjunction is their limit. (More correctly, it's a limit of the diagram 
 containing the propositions and the implication arrows between them.) But this 
 formalises the notion expressed in the "just enough information" sentence, 
 because of the universal mapping property of the limit. (That is, any other 
 proposition which implies the originals also implies their conjunction.) 
 
-### 2. More logical induction ###
+### 2. Logical induction by quantification ###
 
 Let $E$'s objects be the 
 non-empty sets of sentences $e(I)$ where $I$ is an integer. So one 
@@ -166,7 +171,7 @@ earlier
 example, this category does not contain conjunctions.) Interpret the arrows 
 as implication. 
 
-Now define $G:E\to C$
+Now define $G$
 as follows. $G$ maps each singleton $e(I)$ to the sentence $e(I)$. It maps sets with more than one element 
 to the universally-quantified sentence. It also reverses arrows, mapping set 
 inclusion to reverse implication. 
@@ -199,14 +204,12 @@ $C$.
 ### Where are the adjunctions? ###
 
 All the instances above can be formalised as adjunctions. Here's a summary of the proof, via [[Galois connection|Galois connections]]:
-* $E$ and $C$ are posets.
-* $G$ and $F$ are order-preserving, which is a necessary condition in the definition of Galois connection. 
-* $G$ and $F$ satisfy the Galois connection condition.
-* A Galois connection is a special case of an adjunction.
-The first three follow (I hope) from the properties of my particular
-examples; the fourth is a standard result.
+1. $E$ and $C$ are posets.
+2. $G$ and $F$ are order-preserving, which is a necessary condition in the definition of Galois connection. 
+3. $G$ and $F$ satisfy the Galois connection condition.
+4. A Galois connection is a special case of an adjunction.
 
-... check that the examples I pasted in actually do satisfy this...
+The first point follows from the orderings I imposed on $E$ and $C$. The second holds for $F$, because it's either an identity, as in the least-squares example, or equivalent to one, as in the conjunction and quantification examples. It holds also for $G$, because it can't "cross over". If $e \lt e'$, then $Ge$ may equal $Ge'$, but it can't be greater. The third point follows by simple calculation with these orders. The fourth is a standard result.
 
 $G$ can be regarded as a functor which maps a set of examples to an object which is in some 
 sense the "completion" of that set: the good old "free completion". It acquires a right adjoint $F$ which 
@@ -219,7 +222,7 @@ to $C$ is determined by the two functors $G$ and
 $F$ and by two natural transformations 
 $i:I_E \Rightarrow G;E$
 and
-$e:E;G \Rightarrow I_Gen$. Given any object $c$ in 
+$e:E;G \Rightarrow I_G$. Given any object $c$ in 
 $C$, there is a morphism taking every $GFc$ to 
 $c$. Since $F$ maps $g$ to the set of all possible examples, and 
 $G$ should map that back to the original generalisation, this is the 
@@ -270,7 +273,14 @@ Maybe the way to fix this is not to decide _a priori_ that the
 morphisms in $E$ should be inclusions, but to let them 
 be determined by the morphisms in $C$. Philosophically 
 speaking, perhaps this is reasonable &#8212; we don't perceive the raw data directly, 
-but always fit it to a preconceived model. But I feel I'm missing something else here.
+but always fit it to a preconceived model. But I feel I'm missing something else.
+
+... What's the essence? A least-squares fit maps a set of points $e_i$ as follows. Some points $e_good$ fall exactly onto the regression line. Others, $e_bad$, don't. In effect, it's splitting the set into two parts, one of which needs added error information to describe it. Equivalently, it's adding error information to every point, even though that's 0 for some. Consider in the light of the FCA example ${apple,orange},
+{apple,pear}$ vs. ${round},{green}$, and extension vs. intension. What _property_ is common to all points on a regression line?...
+
+... Where have my set brackets gone?...
+
+... I need fonts to distinguish between sets of examples and their elements...
 
 That's about as far as I've got; the examples I've so far constructed have the same structure as in 18, and seem to be missing something. I need to think about the structure of $C$ and $E$, and probably get away from $E$ being only a subcategory of Set. One possibility which feels promising (thanks to Victor Winschel for encouraging me on this) is to see whether stochastic logic programming can be formulated in terms of adjoints. 
 
