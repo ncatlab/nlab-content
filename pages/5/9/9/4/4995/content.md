@@ -111,22 +111,40 @@ induces [[monomorphism]]s on all [[categorical homotopy groups in an (infinity,1
 
 ## Properties
 
-### General
 
-+-- {: .un_prop}
+### As a point-like space
+
+
+
++-- {: .un_prop #PointLike}
 ###### Proposition
 
-For $\mathbf{H}$ a cohesive $(\infty,1)$-topos, the [[(n,1)-topos|(1,1)-topos]] $\tau_{\leq 1-1} \mathbf{H}$ of 0-[[truncated]] objects is a [[cohesive topos]].
+A nontrivial cohesive $(\infty,1)$-topos
+
+1. has the [[shape of an (∞,1)-topos|shape]] of the point;
+
+1. has [[homotopy dimension]] 0;
+
+1. has [[cohomology dimension]] 0.
+ 
 
 =--
 
++-- {: .proof}
+###### Proof
 
-The [[shape of an (∞,1)-topos]] $\mathbf{H}$ is the fundamental $\infty$-groupoid $\Pi(\mathbf{H})$ for $\mathbf{H}$ itself regarded as a space.
+The first holds for every [[∞-connected (∞,1)-topos]], see there.
+
+The second holds for every [[local (∞,1)-topos]], see there.
+
+The third follows from the second, see [[homotopy dimension]].
+
+=--
 
 +-- {: .un_remark}
 ###### Remark
 
-A cohesive $(\infty,1)$-topos $\mathbf{H}$ is, when itself regarded as a [[space]], a _thickened point_ . We may think of it as the standard [[point]] equipped with a _cohesive neighbourhood_ .
+This says that a cohesive $(\infty,1)$-topos $\mathbf{H}$ is, when itself regarded as a [[little topos]], a generalized [[space]], a _thickened point_ . We may think of it as the standard [[point]] equipped with a _cohesive neighbourhood_ .
 
 In this sense every space $X$ _modeled on_ the cohesive structure defined by $\mathbf{H}$ is an [[étale space]] over $X$: its [[petit topos|petit]] $(\infty,1)$-topos $\mathbf{H}/X$ sits by a [[locally homeomorphic geometric morphism]] over $\mathbf{H}$
 
@@ -138,39 +156,33 @@ $$
 
 =--
 
-Notice that the canonical cohesive $(\infty,1)$-topos [[∞Grpd]] may be thought of as being the ($(\infty,1)$-topos theoretical dual to) the standard [[point]], because it is the [[(∞,1)-category of (∞,1)-sheaves]] on the standard topological point:
 
-$$
-  \infty Grpd \simeq (\infty,1)Sh(*)
-  \,.
-$$
+### General
 
-The abstract properties of a cohesive $(\infty,1)$-topos $\mathbf{H}$ over $\infty Grpd$ show that also $\mathbf{H}$ still _looks like a point_ :
++-- {: .un_prop}
+###### Proposition
 
-1. **shape of the point:** Since $\mathbf{H}$ is a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]] it looks like a [[contractible]] [[topological space]];
+Every cohesive $(\infty,1)$-topos is a 
+[[hypercomplete (∞,1)-topos]].
 
-   1. this implies in particular that the [[shape of an (∞,1)-topos]] of $\mathbf{H}$ is the same as that of the point.
+=--
 
-1. **small neighbourhood of a point:** Since $\mathbf{H}$ is a [[local (∞,1)-topos]] it is similar to the standard examples of [[local topos]]es, which are [[infinitesimal space|infinitesimal]] neighbourhoods of points.
-
-We may therefore usefully think of a cohesive $(\infty,1)$-topos as _being_ the general abstract _lump of cohesive points_ for the given notion of cohesion.
-
-For instance in the [examples](#Examples) we see that
-
-* $(\infty,1)Sh(CartSp)$ is like the **general abstract smooth [[open ball]]**.
-
-* let $\mathbb{L}_{inf}$ be the full subcategory of [[smooth loci]] in the [[infinitesimal space]]s. then   $(\infty,1)Sh(\mathbb{L}_{inf})$ is like the **general abstract infinitesimally thickened point**;
-
-* similarly, let $\Lambda$ be the category of $\mathbb{Z}_2$-graded [[Grassmann algebra]]s. Then $(\infty,1)Sh(\Lambda^{op})$ is like the **general abstract super-point**;
-
-* $(\infty,1)Sh(ThCartSp)$ is like the **general abstract infinitesimally thickened smooth open ball** .
-
-Notice that for plain [[topological space]]s an [[étale space]] $X \to H$ is a space $X$ that is _locally built from pieces of $H$_ . The generalization of this from [[topology]] to [[topos theory]] is an [[étale geometric morphism]] or [[locally homeomorphic geometric morphism]]: every object $X \in \mathbf{H}$ gives rise to the [[over-(∞,1)-category]] $(\infty,1)$-topos $\mathbf{H}/X$ with the evident projection geometric morphism $\mathbf{H}/X \to \mathbf{H}$.
-
-This way we can think of any object $X \in \mathbf{H}$ of the $(\infty,1)$-topos equivalently as a space that is locally built from pieces of $\mathbf{H}$. With the above interpretation of $\mathbf{H}$ as the general abstract lump of cohesive points, this reproduces the intuition that $X \in \mathbf{H}$ is a space with this cohesive structure.
++-- {: .proof}
+###### Proof
 
 
-The [[coshape of an (∞,1)-topos]] $\mathbf{H}$ is the underlying $\infty$-groupoid $\Gamma(\mathbf{H})$ for $\mathbf{H}$ itself regarded as a space.
+By the [above proposition](#PointLike) it has finite 
+[[homotopy dimension]]. This implies hypercompeteness. See there.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For $\mathbf{H}$ a cohesive $(\infty,1)$-topos, the [[(n,1)-topos|(1,1)-topos]] $\tau_{\leq 1-1} \mathbf{H}$ of 0-[[truncated]] objects is a [[cohesive topos]].
+
+=--
+
 
 ### Over an $\infty$-cohesive site
 
