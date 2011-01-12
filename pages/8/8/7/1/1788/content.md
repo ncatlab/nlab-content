@@ -135,6 +135,8 @@ $$ \overset{a}{b} $$
 
 [descriptive text](wiki+page)
 
+[[practice|theory]]
+
 *[[Sandbox]]*{: .paper}
 
 Where does this:
