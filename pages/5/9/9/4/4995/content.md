@@ -2578,7 +2578,7 @@ of the [[homotopy fiber]]s of $curv_*$ over each of the chosen points $* \to \ma
 
 =--
 
-+-- {: .un_prop }
++-- {: .un_prop #DiffCohomologyRestrictedToVanishingCurvature}
 ###### Proposition
 
 When restricted to vanishing curvature, differential cohomology coincides with [flat differential cohomology](#FlatDifferentialCohomology):
@@ -2949,18 +2949,19 @@ of the defining $(\infty,1)$-pullback for $\mathbf{H}_{conn}(X,\mathbf{B}G)$ wit
 The notion of [intrinsic ∞-connections](#ChernWeilTheory) in a 
 cohesive $(\infty,1)$-topos induces a notion of [[higher parallel transport|higher holonomoy]] and [[Chern-Simons theory]].
 
+Assume now that the [[∞-group]]-object $A$ fixed above is 0-[[truncated]] (is an ordinary [[abelian group]] object in the [[sheaf topos]] $\tau_0 \mathbf{H}$).
+
 +-- {: .un_prop}
 ###### Definition
 
-We say an object $\Sigma \in \mathbf{H}$ has **[[cohomological dimension]]** $\leq n \in \mathbb{N}$ if for all $n$-[[connected]] coefficient objects  $\mathbf{B}^{n+1}A$ the corresponding cohomology on $\Sigma$ is trivial
+We say an object $\Sigma \in \mathbf{H}$ has **[[cohomological dimension]]** $\leq n \in \mathbb{N}$ if for all $n$-[[connected]] coefficient objects  and $(n++1)$-[[truncated]] objects $\mathbf{B}^{n+1}A$ the corresponding cohomology on $\Sigma$ is trivial
 
 $$
   H(\Sigma, \mathbf{B}^{n+1}A ) \simeq *
   \,.
 $$
 
-Equivalently the [[over-(∞,1)-topos]] $\mathbf{H}/\Sigma$ has 
-[[cohomological dimension]] $\leq n$.
+Let $dim(\Sigma)$ be the maximum $n$ for which this is true.
 
 =--
 
@@ -2996,7 +2997,7 @@ $$
     \pi_0
      \left( 
      \mathbf{H}(\Sigma,*) \prod_{\mathbf{H}(\Sigma, \mathbf{B}^k A)}
-      \mathb{H}(\Sigma, \mathbf{B}^k \mathbf{\flat}A)
+      \mathbf{H}(\Sigma, \mathbf{B}^k \mathbf{\flat}A)
      \right)
    \\
    & \simeq
@@ -3010,21 +3011,31 @@ $$
 +-- {: .un_def}
 ###### Definition
 
-Let 
-
-* $\nabla \in \mathbf{H}_{diff}(X, \mathbf{B}^n A)$ be a differential coycle on $X \in \mathbf{H}$
-
-* $\Sigma \in \mathbf{H}$ be of [[cohomological dimension]] $\leq n$. 
-
-* $\sigma : \Sigam \to X$ a morphism.
-
-Then we have the flat $\infty$-connection
+Let $\Sigma \in \mathbf{H}$, $n \in \mathbf{N}$ with
+$dim \Sigma \leq n$. 
+  
+We say that the composite
 
 $$
-  \sigma^* \nabla \in H_{flat}(\Sigma,\mathbf{B}^n A)
-$$
+  \int_\Sigma 
+  : 
+  \mathbf{H}_{flat}(\Sigma, \mathbf{B}^n A)
+   \stackrel{\simeq}{\to}
+  \infty Gprd(\Pi(\Sigma), \Pi(\mathbf{B}^n A))
+   \stackrel{\tau_{\leq n-dim(\Sigma)}}{\to}
+  \tau_{n-dim(\Sigma)}
+    \infty Gprd(\Pi(\Sigma), \Pi(\mathbf{B}^n A))
+$$ 
 
-given by the image of $\nabla$ under the morphism 
+of the [[adjunction]] equivalence followed by the [[truncated|truncation]] is the **flat holonomy** operation on flat $\infty$-connections.
+
+More generally, let
+
+* $\nabla \in \mathbf{H}_{diff}(X, \mathbf{B}^n A)$ be a differential coycle on some $X \in \mathbf{H}$
+
+* $\sigma : \Sigma \to X$ a morphism.
+
+Write
 
 $$
   \sigma^* : \mathbf{H}_{diff}(X, \mathbf{B}^{n+1} A) \to 
@@ -3033,9 +3044,8 @@ $$
   \mathbf{H}_{flat}(\Sigma, \mathbf{B}^n A)
 $$
 
-(using the [above proposition](#))
-
-induced by the diagram
+(using the [above proposition](#DiffCohomologyRestrictedToVanishingCurvature)) 
+for the morphism on $(\infty,1)$-pullbacks induced by the morphism of diagrams
 
 $$
   \array{  
@@ -3057,7 +3067,9 @@ $$
   }
 $$
 
-The **[[higher parallel transport|higher holonomomy]]** of $\nabla$ over $\sigma$ is the [flat holonomy](#) of $\sigma^* \nabla$
+
+
+The **[[higher parallel transport|holonomomy]]** of $\nabla$ over $\sigma$ is the flat holonomy of $\sigma^* \nabla$
 
 $$
   \int_\sigma \nabla := \int_{\Sigma} \sigma^* \nabla
@@ -3066,35 +3078,14 @@ $$
 
 =--
 
++-- {: .un_remark}
+###### Remark
 
+In the language of [[sigma-model]] [[quantum field theory]] we may identify these constructions as follows.
 
-+-- {: .un_def}
-###### Definition 
-
-The resulting morphism
-
-$$
-  \exp(i S(-))
-  :
-  \mathbf{H}_{conn}(\Sigma, A)
-  \stackrel{}{\to}
-  \mathbf{B}^{n-dim\Sigma} U(1)
-$$
-
-in [[∞Grpd]] we call the [[higher parallel transport]] of $\hat \mathbf{c}(\nabla)$ and the **$\infty$-Chern-Simons action** of $\nabla$ on $\Sigma$.
+(...)
 
 =--
-
-Here in the language of [[quantum field theory]]
-
-* the objects of $\mathbf{H}(\Sigma,A_{conn})$ are the [[gauge field]]s on $\Sigma$;
-
-* the [[morphism]]s in $\mathbf{H}(\Sigma, A_{conn})$ are the [[gauge transformation]]s;.
-
-* the [[2-morphism]]s are the _higher gauge transformations_ (corresponding to _ghosts-of-ghosts_ in the [[BRST complex]]);
-
-* and so on.
-
 
 More discussion is at [[schreiber:∞-Chern-Simons theory]].
 
