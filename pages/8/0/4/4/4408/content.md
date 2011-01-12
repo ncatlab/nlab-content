@@ -139,11 +139,11 @@ Any poset (or proset) $S$ has a __[[canonical coverage]]__, in which
 
 *  $u \lhd V$ if and only if, for any $u' \leq u$, $u'$ is a [[join]] of some $V'$ such that, for every $v' \in V'$, there is a $v \in V$ such that $v' \leq v$.
 
-If $S$ has bounded meets, we can simplify this to:
+If $S$ is a [[frame]], then we can simplify this condition:
 
-*  $u \lhd V$ if and only if $u$ is a join of $V$,
+*  $u \lhd V$ if and only if $u$ is a join of $V$;
 
-and then the canonical coverage is cartesian.  If $S$ is a [[frame]] equipped with its canonical coverage, then $Id(S)$ is [[natural isomorphism|naturally isomorphic]] to $S$ itself.  (Analogously, if $E$ is a [[Grothendieck topos]] with its canonical coverage, then $Sh(E)$, the [[topos of sheaves]] on $E$, is naturally [[equivalence of categories|equivalent]] to $E$.)
+and then the canonical coverage is cartesian.  In this case, $Id(S)$ is [[natural isomorphism|naturally isomorphic]] to $S$ itself.  (Analogously, if $E$ is a [[Grothendieck topos]] with its canonical coverage, then $Sh(E)$, the [[topos of sheaves]] on $E$, is naturally [[equivalence of categories|equivalent]] to $E$.)
 
 Let $X$ be a [[topological space]], and let $S$ be a [[topological base]] of $X$.  Then $S$ is a semilattice under [[intersection]]; we make $S$ into a posite by defining
 
