@@ -77,7 +77,7 @@ Given two posites $S$ and $T$, a __morphism of posites__ from $S$ to $T$ is a [[
 *  If $u \lhd V$, then $f(u) \lhd \{ f(v) \;|\; v \in V \}$.
 =--
 
-Clauses (1--3) simply state that $f$ is a [[flat functor]], while clause (4) requires $f$ to respect covers.
+Clauses (1--3) simply state that $f$ is a [[flat functor]]; when $S$ and $T$ are semilattices, we can replace this with the requirement that $f$ preserves meets (including the top element).  Clause (4) requires $f$ to respect covers.
 
 
 ## Ideals and sheaves
@@ -97,11 +97,11 @@ In other words, it is a [[sheaf]] valued in [[truth values]] (rather than in [[s
 
 A subset $I$ that satisfies condition (1) alone states that $I$ is a __[[lower subset]]__ (a $(0,1)$-[[presheaf]]).
 
-The ideals on a posite form a [[frame]] $Sh(S)$ under inclusion, which may alternately be interpreted as a [[locale]].
+The ideals on a posite form a [[frame]] $Id(S)$ (or $Sh_{0,1}(S)$) under inclusion, which may alternately be interpreted as a [[locale]].
 
 Every element of $S$ may be interpreted as an ideal on $S$; given two elements $u,v$ of $S$, $u$ belongs to the __ideal [[represented functor|represented]]__ by $v$ if and only if $u \leq v$; that is, $v$ represents its [[down set]].
 
-The frame of ideals is given by a [[universal property]].  If $L$ is a frame, we make $L$ into a posite using its canonical coverage (see the examples below).  Then the operation from elements of $S$ to ideals on $S$ is a morphism of posites; furthermore, given any morphism of posites from $S$ to a frame $L$ (with its canonical coverage), there exists a unique frame [[homomorphism]] from $Sh(S)$ to $L$ that makes the obvious triangle commute.
+The frame of ideals is given by a [[universal property]].  If $L$ is a frame, we make $L$ into a posite using its canonical coverage (see the examples below).  Then the operation from elements of $S$ to ideals on $S$ is a morphism of posites; furthermore, given any morphism of posites from $S$ to a frame $L$ (with its canonical coverage), there exists a unique frame [[homomorphism]] from $Id(S)$ to $L$ that makes the obvious triangle commute.
 
 If instead we treat a posite as a special kind of site and look at its $1$-sheaves, we have this result:
 
@@ -137,9 +137,13 @@ in [[logic]].  Note that we have a single proposition on the left but a set of p
 
 Any poset (or proset) $S$ has a __[[canonical coverage]]__, in which
 
-*  $u \lhd V$ if and only if for any $u'\le u$, then $u'$ is a [[join]] of some set $V'$ such that, for every $v'\in V$, there is a $v\in V$ such that $v'\le v$.
+*  $u \lhd V$ if and only if, for any $u' \leq u$, $u'$ is a [[join]] of some $V'$ such that, for every $v' \in V'$, there is a $v \in V$ such that $v' \leq v$.
 
-If $S$ is a [[frame]] equipped with its canonical coverage, then $Sh(S)$ is [[natural isomorphism|naturally isomorphic]] to $S$ itself.  (Analogously the [[topos of sheaves]] on a [[Grothendieck topos]] $S$ with its canonical coverage is naturally [[equivalence of categories|equivalent]] to $S$.)
+If $S$ has bounded meets, we can simplify this to:
+
+*  $u \lhd V$ if and only if $u$ is a join of $V$,
+
+and then the canonical coverage is cartesian.  If $S$ is a [[frame]] equipped with its canonical coverage, then $Id(S)$ is [[natural isomorphism|naturally isomorphic]] to $S$ itself.  (Analogously, if $E$ is a [[Grothendieck topos]] with its canonical coverage, then $Sh(E)$, the [[topos of sheaves]] on $E$, is naturally [[equivalence of categories|equivalent]] to $E$.)
 
 Let $X$ be a [[topological space]], and let $S$ be a [[topological base]] of $X$.  Then $S$ is a semilattice under [[intersection]]; we make $S$ into a posite by defining
 
@@ -153,7 +157,7 @@ The [[locale of real numbers]] is generated from the locally cartesian poset $S 
 *  $(w,z) \lhd \{(w,x),(y,z)\}$ whenever $w \leq y \lt x \leq z$; and
 *  $(w,z) \lhd \{ (x,y) \;|\; w \lt x \lt y \lt z \}$.
 
-(Often you will see $\infty$ added to $\mathbb{Q}$ in a description of this locale, which adds a [[top element]] to $S$, but this makes no difference in the end.)
+Often you will see $\pm\infty$ added to $\mathbb{Q}$ in a description of this locale, which adds a [[top element]] to $S$ and so makes it into a semilattice, but that makes no difference to the generated locale in this case.
 
 
 ### Using sheaves
@@ -167,7 +171,7 @@ The [[classifying topos]] of any [[propositional logic|propositional]] [[geometr
 
 ## Use in predicative mathematics
 
-We call a frame (or locale) $L$ __accessible__ if it is [[isomorphism|isomorphic]] to $Sh(S)$ for some [[small category|small]] posite $S$.  (Compare the concept of [[accessible category]], in the case of a [[cocomplete category|cocomplete]] [[pretopos]].)
+We call a frame (or locale) $L$ __accessible__ if it is [[isomorphism|isomorphic]] to $Id(S)$ for some [[small category|small]] posite $S$.  (Compare the concept of [[accessible category]], in the case of a [[cocomplete category|cocomplete]] [[pretopos]].)
 
 In [[classical mathematics]], an accessible frame must be small, but this fails in [[predicative mathematics]].  (Conversely, any small frame is trivially accessible; take $S$ to be $L$ with its canonical coverage.)  Since many predicativists have philosophical objections to working with large objects at all, they may prefer to work with small posites directly.  Whatever the philosophy, we may use small posites in place of accessible locales, or at any rate use this to prove that the category of the latter is [[essentially moderate category|essentially moderate]].
 
