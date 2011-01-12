@@ -2500,7 +2500,7 @@ Fix an abelian [[∞-group]] object $A \in \mathbf{H}$ (an arbitrarily deloopabl
 For $X \in \mathbf{H}$ any object and $n \geq 1$ write
 
 $$
-  \mathbf{H}_{conn}(X,\mathbf{B}^n A) := 
+  \mathbf{H}_{diff}(X,\mathbf{B}^n A) := 
     \mathbf{H}(X,\mathbf{B}^n A) \prod_{\mathbf{H}_{dR}(X,\mathbf{B}^n A)}
     H_{dR}^{n+1}(X,A)
 $$ 
@@ -2509,7 +2509,7 @@ for the cocycle $\infty$-groupoid of [[twisted cohomology]] of $X$ with coeffici
 
 $$
   \array{
-    \mathbf{H}_{conn}(X,\mathbf{B}^n A) &\stackrel{F}{\to}& 
+    \mathbf{H}_{diff}(X,\mathbf{B}^n A) &\stackrel{F}{\to}& 
      H_{dR}^{n+1}(X,A)
     \\
     {}^{\mathllap{\eta}}\downarrow && \downarrow
@@ -2527,12 +2527,12 @@ where the right vertical morphism $\pi_0 \mathbf{H}_{dR}(X,\mathbf{B}^{n+1}A)
 We call
 
 $$
-  H_{conn}^n(X,A) {:=} \pi_0 \mathbf{H}_{conn}(X, \mathbf{B}^{n} A)
+  H_{diff}^n(X,A) {:=} \pi_0 \mathbf{H}_{diff}(X, \mathbf{B}^{n} A)
 $$
 
 the degree-$n$ **[[differential cohomology]]** of $X$ with coefficient in $A$.
 
-For $\nabla \in \mathbf{H}_{conn}(X,\mathbf{B}^n A)$ a [[cocycle]], we call
+For $\nabla \in \mathbf{H}_{diff}(X,\mathbf{B}^n A)$ a [[cocycle]], we call
 
 * $[\eta(\nabla)] \in H^n(X,A)$ the class of the **underlying 
    $\mathbf{B}^{n-1} A$-[[principal ∞-bundle]]**;
@@ -2547,8 +2547,8 @@ We say $\nabla$ is an **$\infty$-connection** on $\eta(\nabla)$.
 +-- {: .un_prop #DiffCohIsWellDefined}
 ###### Observation
 
-The differential cohomology $H_{conn}^n(X,A)$ does not depend on the specific choice of morphism $H_{dR}^{n+1}(X,A) \to \mathbf{H}_{dR}(X, \mathbf{B}^{n+1}A)$ (as long as it is an isomorphism on $\pi_0$, as required).
-In fact, for different choices the corresponding cocycle [[∞-groupoid]]s $\mathbf{H}_{conn}(X,\mathbf{B}^n A)$ are equivalent.
+The differential cohomology $H_{diff}^n(X,A)$ does not depend on the specific choice of morphism $H_{dR}^{n+1}(X,A) \to \mathbf{H}_{dR}(X, \mathbf{B}^{n+1}A)$ (as long as it is an isomorphism on $\pi_0$, as required).
+In fact, for different choices the corresponding cocycle [[∞-groupoid]]s $\mathbf{H}_{diff}(X,\mathbf{B}^n A)$ are equivalent.
 
 =--
 
@@ -2561,10 +2561,10 @@ $$
   H_{dR}^{n+1}(X,A) = \coprod_{H_{dR}^{n+1}(X,A)} {*} 
 $$ 
 
-is, as a 0-[[truncated]] [[∞-groupoid]], an [[(∞,1)-coproduct]] of the [[terminal object in an (∞,1)-category|terminal object]] in [[∞Grpd]]. By [[universal colimits]] in this [[(∞,1)-topos]] we have that [[(∞,1)-colimit]]s are preserved by [[(∞,1)-pullback]]s, so that $\mathbf{H}_{conn}(X, \mathbf{B}^n A)$ is the coproduct 
+is, as a 0-[[truncated]] [[∞-groupoid]], an [[(∞,1)-coproduct]] of the [[terminal object in an (∞,1)-category|terminal object]] in [[∞Grpd]]. By [[universal colimits]] in this [[(∞,1)-topos]] we have that [[(∞,1)-colimit]]s are preserved by [[(∞,1)-pullback]]s, so that $\mathbf{H}_{diff}(X, \mathbf{B}^n A)$ is the coproduct 
 
 $$
-  \mathbf{H}_{conn}(X,\mathbf{B}^n A) \simeq
+  \mathbf{H}_{diff}(X,\mathbf{B}^n A) \simeq
   \coprod_{H_{dR}^{n+1}(X,A)} 
    \left(
    \mathbf{H}(X,\mathbf{B}^n A) 
@@ -2583,7 +2583,7 @@ of the [[homotopy fiber]]s of $curv_*$ over each of the chosen points $* \to \ma
 When restricted to vanishing curvature, differential cohomology coincides with [flat differential cohomology](#FlatDifferentialCohomology):
 
 $$
-  H_{conn}^n (X,A)|_{F = 0} \simeq H_{flat}(X,\mathbf{B}^n A)
+  H_{diff}^n (X,A)|_{F = 0} \simeq H_{flat}(X,\mathbf{B}^n A)
   \,.
 $$
 
@@ -2591,7 +2591,7 @@ Moreover this is true at the level of [[cocycle]] [[∞-groupoid]]s
 
 $$
  \left(
-  \mathbf{H}_{conn}(X, \mathbf{B}^n A) \prod_{H_{dR}^{n+1}(X,A)} \{F = 0\}
+  \mathbf{H}_{diff}(X, \mathbf{B}^n A) \prod_{H_{dR}^{n+1}(X,A)} \{F = 0\}
   \right)
   \simeq
   \mathbf{H}_{flat}(X,\mathbf{B}^n A)
@@ -2611,7 +2611,7 @@ $$
     \\
     \downarrow && \downarrow^{\mathrlap{\{F = 0\}}}
     \\
-    \mathbf{H}_{conn}(X,\mathbf{B}^n A) &\stackrel{F}{\to}& 
+    \mathbf{H}_{diff}(X,\mathbf{B}^n A) &\stackrel{F}{\to}& 
      H_{dR}^{n+1}(X,A)
     \\
     {}^{\mathllap{\eta}}\downarrow && \downarrow
@@ -2674,16 +2674,16 @@ that [defines](#CurvatureCharacteristics) $curv$ (using that $\mathbf{\flat}$ pr
 =--
 
 +-- {: .un_prop}
-###### Propositioon
+###### Proposition
 
-The differential cohomology $H_{conn}^n(X,A)$ fits into a [[short exact sequence]] of [[abelian group]]s
+The differential cohomology group $H_{diff}^n(X,A)$ fits into a [[short exact sequence]] of [[abelian group]]s
 
 $$
   0 
    \to 
   H_{dR}^n(X,A)/H^{n-1}(X,A) 
    \to 
-  H_{conn}^n(X,A) 
+  H_{diff}^n(X,A) 
    \to 
   H^n(X,A)
    \to 
@@ -2705,13 +2705,13 @@ $$
   \to 
   \mathbf{H}_{dR}(X, \mathbf{B}^n A)
   \to 
-  \mathbf{H}_{conn}(X, \mathbf{B}^n A)
+  \mathbf{H}_{diff}(X, \mathbf{B}^n A)
   \to
   \mathbf{H}(X, \mathbf{B}^n A)
 $$
 
 in [[∞Grpd]]. This implies the [[short exact sequence]] using that 
-by construction the last morphism is surjective on connected components (because in the defining $(\infty,1)$-pullback for $\mathbf{H}_{conn}$ the right vertical morphism is by assumption surjective on connected components).
+by construction the last morphism is surjective on connected components (because in the defining $(\infty,1)$-pullback for $\mathbf{H}_{diff}$ the right vertical morphism is by assumption surjective on connected components).
 
 To see that we do have the fiber sequence as claimed consider the 
 pasting composite of [[(∞,1)-pullback]]s
@@ -2720,7 +2720,7 @@ $$
   \array{
     \mathbf{H}_{dR}(X,\mathbf{B}^{n-1} A) 
     &\to& 
-      \mathbf{H}_{conn}(X,\mathbf{B}^n A)  
+      \mathbf{H}_{diff}(X,\mathbf{B}^n A)  
     &\to& 
      H_{dR}(X, \mathbf{B}^{n+1} A)
     \\
@@ -2784,7 +2784,7 @@ the claim follows.
 +-- {: .un_remark}
 ###### Remark
 
-This is _essentially_ verbatim the short exact sequence familiar from the traditional definition of [[ordinary differential cohomology]] only up to the following slight nuances in notation:
+This is essentially the short exact sequence whose form is familiar from the traditional definition of [[ordinary differential cohomology]] only up to the following slight nuances in notation:
 
 1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[?LieGrpd]] and $|X| \in Top$ the geometric realization of a paracompact manifold $X$, we have that $H^1(X,U(1))$ above is $H^2_{sing}({|X|},\mathbb{Z})$ and not $H^1_{sing}({|X|},U(1))$. 
 
@@ -2802,88 +2802,145 @@ $\Omega_{cl}^{n+1}(X,A) {:=} \mathbb{R}Hom_C(X, \mathbf{B}^{n+1}A )_0
 \hookrightarrow \mathbb{R}Hom_C(X, \mathbf{B}^{n+1}A )$. However,
 by the [above observation](#DiffCohIsWellDefined) this 
 only adds multiple copies of the homotopy types of the connected 
-components of $\mathbf{H}_{conn}(X, \mathbf{B}^n A)$.
+components of $\mathbf{H}_{diff}(X, \mathbf{B}^n A)$.
 
 =--
 
 
 
 
-### Chern-Weil theory {#ChernWeilTheory}
+### Chern-Weil homomorphism and $\infty$-connections {#ChernWeilTheory}
 
 Induced by the [intrinsic differential cohomology](#DifferentialCohomology) in any [[∞-connected (∞,1)-topos|∞-connected]] and [[locally ∞-connected (∞,1)-topos]] is an intrinsic notion of [[Chern-Weil homomorphism]].
 
-
-For $G$ an [[∞-group]], $\mathbf{B}^n K$ an [[Eilenberg-MacLane object]] and
-
-$$
-  \mathbf{c} : \mathbf{B}G \to \mathbf{B}^n K
-$$
-
-a [[cocycle]] for a [[characteristic class]] $[\mathbf{c}] \in H^n(\mathbf{B}G, K)$, postcomposition with the [universal curvature characteristic](#CurvatureCharacteristics) $curv : \mathbf{B}^n K \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} K$ induces a [[curvature characteristic class]]
+Let $A$ be the chosen abelian [[∞-group]] as [above](#DifferentialCohomology). Recall the [universal curvature characteristic class](#CurvatureCharacteristics)
 
 $$
-  \langle -\rangle_{\mathbf{c}}
-  : 
-  \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} K
-  \,.
+  curv : \mathbf{B}^n A \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}A
 $$
+
+for all $n \geq 1$.
 
 +-- {: .un_def}
 ###### Definition
 
 
-Postcomposition of $G$-[[cocycle]]s with this map is the **[[∞-Chern-Weil homomorphism]]**
-
+For $G$ an [[∞-group]] and 
 
 $$
-  \langle - \rangle_{\mathbf{c}} 
-   :
-  G Bund(-) \simeq \mathbf{H}(X,\mathbf{B}G)  
-  \to 
-  \mathbf{H}^{n+1}_{dR}(-,\mathfrak{k})
-  \,.
+  \mathbf{c} : \mathbf{B}G \to \mathbf{B}^n A
 $$
+
+a representative of a [[characteristic class]] $[\mathbf{c}] \in H^n(\mathbf{B}G, A)$ we say that the composite
+
+$$
+  \mathbf{c}_{dR} : \mathbf{B}G \stackrel{\mathbf{c}}{\to}
+    \mathbf{B}^n A 
+     \stackrel{curv}{\to}
+    \mathbf{\flat}_{dR} \mathbf{B}^{n+1} A
+$$
+
+represents the **curvature characteristic class** in 
+$[\mathbf{c}_{dR}] \in H_{dR}^{n+1}(\mathbf{B}G, A)$.
+
+The induced map on cohomology
+
+$$
+  (\mathbf{c}_{dR})_* 
+   : 
+  H^1(-,G)
+  \to
+  H^{n+1}_{dR}(-,A)
+$$
+
+we call the (unrefined) **[[∞-Chern-Weil homomorphism]]** induced by $\mathbf{c}$.
 
 =--
 
+The following construction universally lifts the 
+$\infty$-Chern-Weil homomorphism from taking values in 
+[intrinsic de Rham cohomology](#deRhamCohomology) 
+to values in [intrinsic differential cohomology](#DifferentialCohomology).
+
+
 +-- {: .un_def}
 ###### Definition
 
-The **nonabelian differential cohomology** on $X$ is the [[(∞,1)-pullback]]
+For $X \in \mathbf{H}$ any object, define the [[∞-groupoid]] $\mathbf{H}_{conn}(X,\mathbf{B}G)$ as the [[(∞,1)-pullback]]
 
 $$
   \array{
-    \mathbf{H}_{conn}(X, \mathbf{B}G) &\to& \prod_{\mathbf{c}_i} \mathbf{H}_{conn}(X,\mathbf{B}^{n_i+1} K)
+    \mathbf{H}_{conn}(X, \mathbf{B}G) 
+     &\stackrel{(\hat \mathbf{c}_i)_i}{\to}& 
+     \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
+     \mathbf{H}_{diff}(X,\mathbf{B}^{n_i} A)
    \\
    {}^{\mathllap{[-]}}\downarrow && \downarrow
    \\
-   \mathbf{H}(X, \mathbf{B}G)  &\to&
-   \prod_{\mathbf{c}_i} 
-   \mathbf{H}(X,\mathbf{B}^{n_i} K)
+   \mathbf{H}(X, \mathbf{B}G) 
+     &\to&
+     \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
+   \mathbf{H}(X,\mathbf{B}^{n_i} A)
   }
 $$
 
-We say a cocycle in $\nabla \in \mathbf{H}_{conn}(X, \mathbf{B}G)$ is a [[connection on an ∞-bundle|connection]] on the [[principal ∞-bundle]] $[\nabla]$.
+We say a 
+
+* cocycle in $\nabla \in \mathbf{H}_{conn}(X, \mathbf{B}G)$ is an [[connection on an ∞-bundle|∞-connection]] 
+
+* on the [[principal ∞-bundle]] $[\nabla]$;
+
+* a morphism in $\mathbf{H}_{conn}(X, \mathbf{B}G)$ is a [[gauge transformation]] of connections;
+
+* for each $[\mathbf{c}] \n H^n(\mathbf{B}G, A)$ the morphism
+
+  $$
+    [\hat \mathbf{c}] :  H_{conn}(X,\mathbf{B}G) \to H_{diff}^n(X, A)
+  $$
+
+  is the (full/refined) **[[∞-Chern-Weil homomorphism]]** induced
+  by the [[characteristic class]] $[\mathbf{c}]$.
 
 =--
 
-+-- {: .un_lemma}
++-- {: .un_prop}
 ###### Observation
 
-On $\infty$-bundles with connection the [[∞-Chern-Weil homomorphism]] refines to taking values in differential cohomology
+Under the [[curvature]] projection $F : H_{diff}^n (X,A) \to H_{dR}^{n+1}(X,A)$ the refined Chern-Weil homomorphism for $\mathbf{c}$ projects to the unrefined Chern-Weil homomorphism.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is due to the existence of the pasting composite
 
 $$
-  \hat \mathbf{c} : \mathbf{H}_{conn}(X, \mathbf{B}G)
-   \to 
-  \mathbf{H}_{conn}(X, \mathbf{B}^{n+1}K)
+  \array{
+    \mathbf{H}_{conn}(X, \mathbf{B}G) 
+     &\stackrel{(\hat \mathbf{c}_i)_i}{\to}& 
+     \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
+     \mathbf{H}_{diff}(X,\mathbf{B}^{n_i} A)
+    &\stackrel{F}{\to}&
+     \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
+     H_{dR}^{n_i+1}(X,A)
+   \\
+   {}^{\mathllap{[-]}}\downarrow && \downarrow && \downarrow
+   \\
+   \mathbf{H}(X, \mathbf{B}G) 
+     &\to&
+     \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
+   \mathbf{H}(X,\mathbf{B}^{n_i} A)
+    &\stackrel{curv}{\to}&
+     \prod_{[\mathbf{c}_i] \in H^{n_i}(\mathbf{B}G,A); i \geq 1} 
+    \mathbf{H}_{dR}(X, \mathbf{B}^{n_i+1},A)
+  }
   \,.
 $$
 
+of the defining $(\infty,1)$-pullback for $\mathbf{H}_{conn}(X,\mathbf{B}G)$ with the products of the definition $(\infty,1)$-pullbacks for the $\mathbf{H}_{diff}(X, \mathbf{B}^{n_i}A)$.
 
 =--
-
-This is discussed at [[∞-Chern-Weil theory]].
 
 
 ### Chern-Simons theory {#ChernSimonsTheory}
@@ -3184,6 +3241,12 @@ In $\mathbf{H} = $ [[?LieGrpd]] the intrinsic definition of differemtial cohomol
 This is shown at [[circle n-bundle with connection]].
 
 =--
+
+The [Chern-Weil homomorphism](#ChernWeilTheory) 
+in [[?LieGrpd]] is discussed at [[∞-Chern-Weil theory]].
+
+
+
 ### Synthetic differential $\infty$-groupoids
 
 The $(\infty,1)$-topos $(\infty,1)Sh(ThCartSp)$ is that of [[smooth ∞-groupoid|synthetic differential ∞-groupoid]] 
