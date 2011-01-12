@@ -284,6 +284,15 @@ but always fit it to a preconceived model. But I feel I'm missing something else
 
 That's about as far as I've got; the examples I've so far constructed have the same structure as in 18, and seem to be missing something. I need to think about the structure of $C$ and $E$, and probably get away from $E$ being only a subcategory of Set. One possibility which feels promising (thanks to Victor Winschel for encouraging me on this) is to see whether stochastic logic programming can be formulated in terms of adjoints. 
 
+### Another example: learning linear transformations ###
+
+Let's try this one. ...A bit rough here...
+See my example about linear associators, earlier. [...How do I make hyperlinks to sections?...] Think of learning a linear transformation. $E$ is the category of sets of pairs $\langle v,w \rangle$. $C$ is the category of linear transformations between vector spaces $V$ and $W$. $G$ puts pairs together to make a linear transformation. As with the least-squares example, this only works exactly if I restrict the sets in $E$. If not ... should I now think of freely completing $C$ to make a new category $C'$ which contains targets for sets of interfering points?
+
+### Another example: averages ###
+
+And let's try this. ...Also rough... It's related to stochastic logic programming. $E$ is the category of sequences with elements $H$, $T$, representing sequences of coin tosses. $C$ is the category of canonical SLP programs that can generate these sequences. $G$ maps a sequence to its generator. I believe, from what I've read of SLP so far, that the generating program (clauses for H and T labelled with their weight) can be represented as just the proportion of H's and T's in the sequence. So $G$ is 
+
 ## Informal justification ##
 
 ### 1. Colimits ###
