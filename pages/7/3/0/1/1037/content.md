@@ -580,6 +580,16 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[gerbe]]
 
+* [[dimension]]
+
+  * [[homotopy dimension]]
+
+  * [[cohomological dimension]] 
+
+  * [[covering dimension]]
+
+  * [[Heyting dimension]]
+
 
 ##Appendix##
 
