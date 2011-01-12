@@ -2943,140 +2943,128 @@ of the defining $(\infty,1)$-pullback for $\mathbf{H}_{conn}(X,\mathbf{B}G)$ wit
 =--
 
 
-### Chern-Simons theory {#ChernSimonsTheory}
+### Higher holonomy and Chern-Simons theory {#ChernSimonsTheory}
 
+The notion of [intrinsic ∞-connections](#ChernWeilTheory) in a 
+cohesive $(\infty,1)$-topos induces a notion of [[higher parallel transport|higher holonomoy]] and [[Chern-Simons theory]].
 
++-- {: .un_prop}
+###### Definition
 
-
-Let $\mathbf{H}$ be a cohesive $(\infty,1)$-topops into which [[manifold]]s embed suitably. Such as $\mathbf{H} = $ [[?LieGrpd]].
-
-For $G \in \mathbf{H}$ an [[∞-group]] let 
-
-$$  
-  \mathbf{c} : \mathbf{B}G \to \mathbf{B}^n \mathbb{R}/\mathbb{Z}
-$$
-
-be a [[cocycle]] for a [[characteristic class]]. This induces the $\infty$-Chern-Weil homomorphism
+We say an object $\Sigma \in \mathbf{H}$ has **[[cohomological dimension]]** $\leq n \in \mathbb{N}$ if for all $n$-[[connected]] coefficient objects  $\mathbf{B}^{n+1}A$ the corresponding cohomology on $\Sigma$ is trivial
 
 $$
-  \hat \mathbf{c} : \mathbf{H}_{conn}(\Sigma, \mathbf{B}G) 
-  \to 
-  \mathbf{H}_{conn}(\Sigma, \mathbf{B}^{n} \mathbb{R}/\mathbb{Z})
+  H(\Sigma, \mathbf{B}^{n+1}A ) \simeq *
   \,.
 $$
 
-+-- {: .un_lemma}
+Equivalently the [[over-(∞,1)-topos]] $\mathbf{H}/\Sigma$ has 
+[[cohomological dimension]] $\leq n$.
+
+=--
+
+
+
++-- {: .un_prop}
 ###### Observation
 
-If $\Sigma$ is a closed [[manifold]] of [[dimension]]
+If $\Sigma$ has [[cohomological dimension]] $\leq n$ then its  [intrinsic de Rham cohomology](#deRhamCohomology) vanishes in degree $\geq n$
 
 $$
-  dim \Sigma \leq n
-$$
-
-then for any cocycle $\nabla \in \mathbf{H}_{conn}(X,\mathbf{B}G)$ the [[circle n-bundle with connection]] $\hat \mathbf{c}(\nabla)$ is necessarily _flat_ , so that
-
-$$
-  \mathbf{H}_{conn}(\Sigma, \mathbf{B}^n U(1))
-  \simeq
-  \mathbf{H}(\mathbf{\Pi}(\Sigma), \mathbf{B}^n U(1))
-  \,,
-$$
-
-This expressin in turn is 
-
-$$
-  \cdots \simeq \infty Grpd(\Pi(\sigma), \mathcal{B}^n U(1))
+  H_{dR}^{k \gt n}(\Sigma, A) \simeq *
   \,.
 $$
 
 =--
-
-We may map this further to its $(n-dim \Sigma)$-[[truncated|truncation]]
-
-$$
-  :\infty Grpd(\Pi(X), \mathcal{B}^n U(1)) 
-  \to
-  \tau_{n-dim \Sigma} \infty Grpd(\Pi(X), \mathcal{B}^n U(1))
-  \,.
-$$
-
-+-- {: .un_theorem}
-###### Theorem
-
-We have
-
-$$
-  \tau_{n-dim\Sigma} \infty Grpd(\Pi(\Sigma), \mathcal{B}^n U(1))
-  \simeq
-  \mathbf{B}^{n-dim \Sigma} U(1)
-  \,.
-$$
-
-=--
-
-(This is due to an observation by [[Domenico Fiorenza]]. See [[higher parallel transport]].)
 
 +-- {: .proof}
 ###### Proof
 
-By general abstract reasoning (recalled at [[cohomology]] and [[fiber sequence]]) we have for the [[homotopy group]]s that
-
-\[
-  \pi_i \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))
-  \simeq 
-  H^{n-i}(\Sigma, U(1))
-  \,.
-\]
-
-Now use the [[universal coefficient theorem]], which asserts that we have an [[exact sequence]]
-
-\[
-  0
-  \to 
-  Ext^1(H_{n-i-1}(\Sigma,\mathbb{Z}),U(1))
-  \to 
-  H^{n-i}(\Sigma,U(1))
-  \to 
-  Hom(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
-  \to 0
-  \,.
-\]
-
-Since $U(1)$ is an [[injective object|injective]] $\mathbb{Z}$-[[module]] we have 
+Since $\mathbf{\flat}$ is a [[right adjoint]] it preserves [[delooping]] and hence $\mathbf{\flat} \mathbf{B}^k A \simeq \mathbf{B}^k \mathbf{\flat}A$. It follows that 
 
 $$
-  Ext^1(-,U(1))=0
-  \,.
-$$  
-
-This means that we have an [[isomorphism]]
-
-\[
-  H^{n-i}(\Sigma,U(1))
-  \simeq 
-  Hom_{Ab}(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
-\]
-
-that identifies the [[cohomology group]] in question with the [[internal hom]] in [[Ab]] from the integral [[homology]] group of $\Sigma$ to $U(1)$.
-
-For $i\lt (n-dim \Sigma)$, the right hand is zero, so that 
-
-$$
-  \pi_i \infty Grpd(\Pi(\Sigma),\mathbf{B}^n U(1)) =0 \;\;\;\;
-  for i\lt (n-dim \Sigma)
-  \,. 
-$$ 
-
-For $i=(n-dim \Sigma)$, instead, $H_{n-i}(\Sigma,\mathbb{Z})\simeq \mathbb{Z}$, since $\Sigma$ is a closed $dim \Sigma$-manifold and so 
-
-$$
-  \pi_{(n-dim\Sigma)} \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))\simeq U(1)
+  \begin{aligned}
+     H_{dR}^{k}(\Sigma,A)
+     & :=
+     \pi_0 \mathbf{H}(\Sigma, \mathbf{\flat}_{dR} \mathbf{B}^k A)
+    \\
+    & \simeq
+     \pi_0 \mathbf{H}(\Sigma, * \prod_{\mathbf{B}^k A} \mathbf{B}^k \mathbf{\flat}A)
+    \\
+    & \simeq
+    \pi_0
+     \left( 
+     \mathbf{H}(\Sigma,*) \prod_{\mathbf{H}(\Sigma, \mathbf{B}^k A)}
+      \mathb{H}(\Sigma, \mathbf{B}^k \mathbf{\flat}A)
+     \right)
+   \\
+   & \simeq
+    \pi_0 (*)
+  \end{aligned}
   \,.
 $$
-
 
 =--
+
++-- {: .un_def}
+###### Definition
+
+Let 
+
+* $\nabla \in \mathbf{H}_{diff}(X, \mathbf{B}^n A)$ be a differential coycle on $X \in \mathbf{H}$
+
+* $\Sigma \in \mathbf{H}$ be of [[cohomological dimension]] $\leq n$. 
+
+* $\sigma : \Sigam \to X$ a morphism.
+
+Then we have the flat $\infty$-connection
+
+$$
+  \sigma^* \nabla \in H_{flat}(\Sigma,\mathbf{B}^n A)
+$$
+
+given by the image of $\nabla$ under the morphism 
+
+$$
+  \sigma^* : \mathbf{H}_{diff}(X, \mathbf{B}^{n+1} A) \to 
+  \mathbf{H}_{diff}(\Sigma, \mathbf{B}^n A)
+  \simeq
+  \mathbf{H}_{flat}(\Sigma, \mathbf{B}^n A)
+$$
+
+(using the [above proposition](#))
+
+induced by the diagram
+
+$$
+  \array{  
+     \mathbf{H}(X, \mathbf{B}^n A) &\to&
+     \mathbf{H}_{dR}(X, \mathbf{B}^{n+1} A)
+     &\leftarrow&
+     H_{dR}^{n+1}(X, A)
+     \\
+     \downarrow^{\mathrlap{\sigma^*}}
+     &&
+     \downarrow^{\mathrlap{\sigma^*}}
+     &&
+     \downarrow
+     \\
+     \mathbf{H}(\Sigma, \mathbf{B}^n A) &\to&
+     \mathbf{H}_{dR}(X, \mathbf{B}^{n+1} A)
+     &\leftarrow&
+     *     
+  }
+$$
+
+The **[[higher parallel transport|higher holonomomy]]** of $\nabla$ over $\sigma$ is the [flat holonomy](#) of $\sigma^* \nabla$
+
+$$
+  \int_\sigma \nabla := \int_{\Sigma} \sigma^* \nabla
+  \,.
+$$ 
+
+=--
+
 
 
 +-- {: .un_def}
@@ -3244,6 +3232,123 @@ This is shown at [[circle n-bundle with connection]].
 
 The [Chern-Weil homomorphism](#ChernWeilTheory) 
 in [[?LieGrpd]] is discussed at [[∞-Chern-Weil theory]].
+
+
+The [[higher parallel transport|higher holonomy]]
+in $\infty Lie Grpd$ is described by the following statement
+
++-- {: .un_lemma}
+###### Observation
+
+If $\Sigma$ is a closed [[manifold]] of [[dimension]]
+
+$$
+  dim \Sigma \leq n
+$$
+
+then for any cocycle $\nabla \in \mathbf{H}_{conn}(X,\mathbf{B}G)$ the [[circle n-bundle with connection]] $\hat \mathbf{c}(\nabla)$ is necessarily _flat_ , so that
+
+$$
+  \mathbf{H}_{conn}(\Sigma, \mathbf{B}^n U(1))
+  \simeq
+  \mathbf{H}(\mathbf{\Pi}(\Sigma), \mathbf{B}^n U(1))
+  \,,
+$$
+
+This expressin in turn is 
+
+$$
+  \cdots \simeq \infty Grpd(\Pi(\sigma), \mathcal{B}^n U(1))
+  \,.
+$$
+
+=--
+
+We may map this further to its $(n-dim \Sigma)$-[[truncated|truncation]]
+
+$$
+  :\infty Grpd(\Pi(X), \mathcal{B}^n U(1)) 
+  \to
+  \tau_{n-dim \Sigma} \infty Grpd(\Pi(X), \mathcal{B}^n U(1))
+  \,.
+$$
+
++-- {: .un_theorem}
+###### Theorem
+
+We have
+
+$$
+  \tau_{n-dim\Sigma} \infty Grpd(\Pi(\Sigma), \mathcal{B}^n U(1))
+  \simeq
+  \mathbf{B}^{n-dim \Sigma} U(1)
+  \,.
+$$
+
+=--
+
+(This is due to an observation by [[Domenico Fiorenza]]. See [[higher parallel transport]].)
+
++-- {: .proof}
+###### Proof
+
+By general abstract reasoning (recalled at [[cohomology]] and [[fiber sequence]]) we have for the [[homotopy group]]s that
+
+\[
+  \pi_i \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))
+  \simeq 
+  H^{n-i}(\Sigma, U(1))
+  \,.
+\]
+
+Now use the [[universal coefficient theorem]], which asserts that we have an [[exact sequence]]
+
+\[
+  0
+  \to 
+  Ext^1(H_{n-i-1}(\Sigma,\mathbb{Z}),U(1))
+  \to 
+  H^{n-i}(\Sigma,U(1))
+  \to 
+  Hom(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
+  \to 0
+  \,.
+\]
+
+Since $U(1)$ is an [[injective object|injective]] $\mathbb{Z}$-[[module]] we have 
+
+$$
+  Ext^1(-,U(1))=0
+  \,.
+$$  
+
+This means that we have an [[isomorphism]]
+
+\[
+  H^{n-i}(\Sigma,U(1))
+  \simeq 
+  Hom_{Ab}(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
+\]
+
+that identifies the [[cohomology group]] in question with the [[internal hom]] in [[Ab]] from the integral [[homology]] group of $\Sigma$ to $U(1)$.
+
+For $i\lt (n-dim \Sigma)$, the right hand is zero, so that 
+
+$$
+  \pi_i \infty Grpd(\Pi(\Sigma),\mathbf{B}^n U(1)) =0 \;\;\;\;
+  for i\lt (n-dim \Sigma)
+  \,. 
+$$ 
+
+For $i=(n-dim \Sigma)$, instead, $H_{n-i}(\Sigma,\mathbb{Z})\simeq \mathbb{Z}$, since $\Sigma$ is a closed $dim \Sigma$-manifold and so 
+
+$$
+  \pi_{(n-dim\Sigma)} \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))\simeq U(1)
+  \,.
+$$
+
+
+=--
 
 
 
