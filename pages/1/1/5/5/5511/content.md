@@ -1,0 +1,113 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .un_def}
+###### Definition
+
+For $C$ an [[(∞,1)-category]] with [[(∞,1)-limit]]s and [[(∞,1)-colimit]]s, a [[morphism]] $f : y \to X$ is an **effective epimorphism** if it is the [[(∞,1)-colimit]] of its [[Cech nerve]]: the augmented simplicial diagram
+
+$$
+  \cdots
+  Y \times_X Y \times_X Y 
+  \stackrel{\tl}{\stackrel{\to}{\to}}
+Y \times Y \times_X Y \stackrel{\to}{\to}  Y \stackrel{f}{\to} X
+$$
+
+is a colimiting diagram.
+
+=--
+
+This appears below [[Higher Topos Theory|HTT, cor. 6.2.3.5]] for $C$ a [[(∞,1)-semitopos]], but seems to be a good definition more generally.
+
+
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ an [[(∞,1)-semitopos]]  we have that $f : X \to Y$ is an evvective epimorphism precisely if its (-1)-[[truncated|truncation]] is a [[terminal object in an (∞,1)-category|terminal object]] in the [[over-(∞,1)-category]] $C/X$.
+
+=--
+
+This is [[Higher Topos Theory|HTT, cor. 6.2.3.5]].
+
+## Examples
+
++-- {: .un_prop}
+###### Proposition
+
+In $C = $ [[∞Grpd]] a morphism $f : Y \to X$ is an effective epimorphism precisely if it induces an [[epimorphism]] $\pi_0 f : \pi_0 Y \to \pi_0 X$ in [[Set]] on connected components.
+ 
+=--
+
+This appears as [[Higher Topos Theory|HTT, cor. 7.2.1.15]].
+
+
+## Discussion
+
++-- {: .un_theorem}
+###### Conjecture
+
+In any $(\infty,1)$-category, an effective epimorphism is precisely a [[regular epimorphism]] that has a &#268;ech nerve.
+=--
++-- {: .proof}
+No serious attempt has been made to check this; it may be obvious ... or obviously false.
+=--
+
++-- {: .query}
+
+Presumably, we get the general definition in an arbitary $(\infty,1)$-[[(infinity,1)-category|category]] by simply including the requirement that $f$ *have* a &#268;ech nerve.  In an $(\infty,1)$-topos, is there any distinction to be drawn between an effective epimorphism and a regular epimorphism?  (There isn\'t in a [[topos]].)
+
+[[Urs Schreiber]]: my understanding is that the effective epimorphisms are equivalently to be thought of as the regulkar epimorphisms in an $(\infty,1)$-topos, indeed. 
+
+In HTT the notion of regular epimorphism is defined more generally in the context of a "semi $(\infty,1)$-topos".
+
+The notion of [[groupoid object in an (infinity,1)-category]] is the categorification of [[equivalence relation]]. With that in mind the relation between regular/effective epimorphisms and equivalence relations/groupoid objects is the same.
+
+_Toby_:  I would like to define both 'effective epimorphism' and 'regular epimorphism' in the general context of an $(\infty,1)$-category, rather than in two contexts that only partially overlap (a category, and an $(\infty,1)$-topos or $(\infty,1)$-semitopos).  Since Lurie doesn\'t do that, do we at least get a theorem (in an $(\infty,1)$-topos) that a regular epimorphism (as defined in a semitopos) is the same as an effective one (not just 'to be thought of' as that)?  If so, ...
+
+I would like to say that a regular epimorphism in an $(\infty,1)$-topos is a morphism that is a simplicial resolution, and that an effective epimorphism is a morphism that has a &#268;ech nerve and is a simplicial resolution of that &#268;ech nerve.  I would like this to agree with Lurie\'s definition in the cases that he gives, and I would like Lurie\'s proof of the hypothetical theorem above to generalise to a theorem that an effective epimorphism is precisely a regular epimorphism that has a &#268;ech nerve.  Does that work?
+
+[[Urs Schreiber]]: yes, I agree, that's how it should be (regular = is simplicial resolution, effective=that simplicial resolution is given by the Cech nerve)
+
+As far as I can see Lurie doesn't define the term "regular epimorphism" at all.
+
+It's very late here and I shouldn't be working anymore, but apart from that I'd say you'd be safe with doing what you propose to do. I am not sure which hypothetical theorem you mean. Seems like just a definition is needed for that particular statement. 
+
+_Toby_:  Ah, I see, it\'s 'effective epimorphism' that Lurie defines for an $(\infty,1)$-semitopos, while 'regular epimorphism' is never defined.
+
+=--
+
+
+## Related concepts
+
+* [[effective epimorphism]]
+
+* **effective epimorphism in an $(\infty,1)$-category**
+
+[[!redirects effective epimorphism in an (∞,1)-category]]
+
+## References
+
+Section 6.2.3 of
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+[[!redirects effective epimorphisms in an (∞,1)-category]]
+[[!redirects effective epimorphisms in an (infinity,1)-category]]
