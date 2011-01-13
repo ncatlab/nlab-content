@@ -9,16 +9,6 @@
 =--
 =--
 
-* [[principal bundle]] / [[torsor]] / [[associated bundle]]
-
-* [[principal 2-bundle]] / **gerbe** / [[bundle gerbe]]
-
-* [[principal 3-bundle]] / [[bundle 2-gerbe]]
-
-* [[principal ∞-bundle]] / [[associated ∞-bundle]]
-
-***
-
 
 
 The material on _gerbes_ is split into several sub-entries:
@@ -30,6 +20,21 @@ The material on _gerbes_ is split into several sub-entries:
 * [[bundle gerbe]]
 
 * [[gerbe (general idea)]]
+
+
+## Related concepts
+
+* [[principal bundle]] / [[torsor]] / [[associated bundle]]
+
+* [[principal 2-bundle]] / **gerbe** / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
+* [[principal ∞-bundle]] / [[associated ∞-bundle]] 
+
+*  [[∞-gerbe]]
+
+
 
 
 [[!redirects gerbes]]
