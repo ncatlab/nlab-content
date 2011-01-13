@@ -578,7 +578,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[Eilenberg-MacLane object]]
 
-  * [[gerbe]]
+  * [[gerbe]], [[∞-gerbe]]
 
 * [[dimension]]
 
