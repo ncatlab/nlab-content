@@ -1,10 +1,10 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context###
-#### Higher geometry
-+-- {: .hide}
-[[!include higher geometry - contents]]
+###Context###
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
 =--
 =--
 =--
@@ -19,6 +19,7 @@ A __discrete space__ is, in general, an object of a [[concrete category]] $Sp$ o
 
 The dual notion is that of a [[codiscrete space]].
 
+See [[discrete ∞-groupoid]] for more.
 
 ## Definition
 
