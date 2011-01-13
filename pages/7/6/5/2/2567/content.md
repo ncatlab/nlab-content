@@ -82,7 +82,7 @@ Therefore for $c$ a cofibrant object the condition is that $F(c,-) : D \to E$ pr
 +-- {: .un_prop}
 ###### Proposition
 
-Let $\otimes : C \times D \to E$ be an [[adjunction of two variables]] between model categories and assume that $C$ and $D$ are [[cofibrantly generated model categories]]. Then $\otimes$ is a Quillen bifunctor precisely if it satisfies its axiomss on generating (acyclic) cofibrations, i.e. if for $f : c_1 \to c_2$ and $g : d_1 \to d_2$ we have for the morphism
+Let $\otimes : C \times D \to E$ be an [[adjunction of two variables]] between model categories and assume that $C$ and $D$ are [[cofibrantly generated model categories]]. Then $\otimes$ is a Quillen bifunctor precisely if it satisfies its axioms on generating (acyclic) cofibrations, i.e. if for $f : c_1 \to c_2$ and $g : d_1 \to d_2$ we have for the morphism
 
 $$
  (c_1 \otimes d_2) \coprod_{c_1 \otimes d_1} (c_2 \otimes d_1)
@@ -118,7 +118,7 @@ This appears for instance as Corollary 4.2.5 in
 
 
 The following proposition asserts that under mild conditions
-a Quillem bifunctor on $C \times D$ lifts to a Quillen bifunctor
+a Quillen bifunctor on $C \times D$ lifts to a Quillen bifunctor
 on [[functor category|functor categories]] of functors to $C$ and $D$.
 
 
