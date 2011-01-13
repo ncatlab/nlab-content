@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -11,22 +22,31 @@ it is an object $\mathbf{B}^n A$ obtained from an abelian [[group object]] $A$ b
 
 An object that is both $n$-[[truncated]] as well as $n$-connected.
 
-## Definition and properties
+## Definition 
 
 +-- {: .un_defn}
 ###### Definition
 
-Let $\mathbf{H}$ be an [[(∞,1)-topos]] [[pointed object]].
+Let $\mathbf{H}$ be an [[(∞,1)-topos]].
 
 For $n \in \mathbb{N}$ an **Eilenberg-MacLane object** $X$ of degree $n$ 
 
 * a [[pointed object]] $* \to X \in \mathbf{H}$ 
 
-* which is both $n$-[[connected]] as well as $n$-truncated.
+* which is both $n$-[[connective]] as well as $n$-[[truncated]].
 
 =--
 
 This appears as [[Higher Topos Theory|HTT, def. 7.2.2.1]]
+
++-- {: .un_remark}
+###### Remark
+
+If one drops the condition that $X$ has a global point, then this is the definition of [[∞-gerbe]]s.
+
+=--
+
+## Properties
 
 The next proposition asserts that Eilenberg-MacLane objects defined this way are shifted [[group object in an (∞,1)-category|(∞,1)-categorical group objects]]:
 
@@ -117,7 +137,7 @@ By the above proposition on the equivalence between Eilenberg-MacLane objects an
 
 In the archetypical [[(∞,1)-topos]] [[Top]]$\simeq$ [[∞Grpd]] the notion of Eilenberg-MacLane object reduces to the traditional notion of [[Eilenberg-MacLane space]].
 
-### In $\infty$-stack $(\infty,1)$-toposes
+### In $(\infty,1)$-sheaf $(\infty,1)$-toposes
 
 Recall that an [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaf]]/[[∞-stack]] [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(C)$ may be [[presentable (∞,1)-category|presented]] by the [[model structure on simplicial sheaves]] on $C$.
 
