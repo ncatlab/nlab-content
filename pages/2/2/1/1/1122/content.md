@@ -46,4 +46,6 @@ Let $S$ be a category with binary products and pullbacks together with a class o
 The 2-catgeories $Cat(S)$ and $Gpd(S)$ of categories and groupoids internal to $S$ admit [[bicategory of fractions|bicategories of fractions]] for the class of $E$-[[davidroberts:weak equivalence|equivalences]].
 =--
 
-The resulting localization is equivalent to the bicategory of [[anafunctor|anafunctors]] in $S$. For details, see [[davidroberts:anafunctors.pdf:file]] 
+The resulting localization is equivalent to the bicategory of [[anafunctor|anafunctors]] in $S$. For details, see the article
+
+* [[David Roberts]], _Internal categories, anafunctors and localisations_, [arXiv:math/1101.2363](http://arxiv.org/abs/1101.2363)
