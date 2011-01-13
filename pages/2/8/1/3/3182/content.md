@@ -27,7 +27,7 @@ A _topological $\infty$-groupoid_ is an [[∞-groupoid]] equipped with  [[cohesi
 
 ## Definition
 
-Let $TopBalls$ be the [[site]] of [[open ball]]s with the [[good open cover]] [[coverage]].
+Let [[CartSp]]${}_{top}$ be the [[site]] of [[open ball]]s with the [[good open cover]] [[coverage]].
 
 +-- {: .un_defn}
 ###### Definition
@@ -35,10 +35,10 @@ Let $TopBalls$ be the [[site]] of [[open ball]]s with the [[good open cover]] [[
 Define
 
 $$
-  \infty TopGrpd := (\infty,1)Sh(TopBalls)
+  \infty TopGrpd := (\infty,1)Sh(CartSp_{top})
 $$
 
-to be the [[(∞,1)-category of (∞,1)-sheaves]] on $TopBalls$.
+to be the [[(∞,1)-category of (∞,1)-sheaves]] on $CartSp_{top}$.
 
 =--
 
@@ -60,7 +60,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The site $TopBalls$ clearly satisfies the properties of a  [[(∞,1)-cohesive site]]. 
+The site $TopBalls$ clearly satisfies the properties of a  [[∞-cohesive site]]. 
 
 =--
 
@@ -129,15 +129,18 @@ This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the 
 
 * [[cohesive (∞,1)-topos]]
 
-  * [[∞-groupoid]]
+  * [[discrete ∞-groupoid]]
 
-  * **topological $\infty$-groupoid**
+  * **continuous $\infty$-groupoid**
 
   * [[smooth ∞-groupoid]]
 
+  * [[synthetic differential ∞-groupoid]]
 
 
 ## References
+
+Some discussion of the $(\infty,1)$-category of $(\infty,1)$-sheaves on the category of manifolds and its restriction to open balls is in:
 
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 {#Dugger}
@@ -146,3 +149,8 @@ This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the 
 [[!redirects topological ∞-groupoids]]
 
 [[!redirects ?TopGrpd]]
+
+[[!redirects continuous infinity-groupoid]]
+[[!redirects continuous infinity-groupoids]]
+[[!redirects continuous ∞-groupoid]]
+[[!redirects continuous ∞-groupoids]]
