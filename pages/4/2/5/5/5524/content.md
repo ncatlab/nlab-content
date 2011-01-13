@@ -1,18 +1,14 @@
-[[!redirects synthetic differential ∞-groupoid]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Topos Theory
+#### Cohesive $\infty$-Toposes
 +--{: .hide}
-[[!include (infinity,1)-topos - contents]]
-=--
-#### Higher geometry
-+--{: .hide}
-[[!include higher geometry - contents]]
+[[!include cohesive infinity-toposes - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -38,15 +34,5 @@ Therefore we call an object in $SynthDiff \infty Grpd$ a **synthetic differentia
 By restriction along the morphism of sites [[CartSp]] $\to$ [[ThCartSp]] every synthetic differential $\infty$-groupoid has an underlying [[smooth ∞-groupoid]].
 
 
-## Related entris
 
-* [[cohesive (∞,1)-topos]]
-
-  * [[∞-groupoid]]
-
-  * [[continuous ∞-groupoid]]
-
-  * [[smooth ∞-groupoid]]
-
-  * **synthetic differential ∞-groupoid**
-
+[[!redirects synthetic differential ∞-groupoid]]
