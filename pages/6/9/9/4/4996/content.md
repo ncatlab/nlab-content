@@ -1,11 +1,10 @@
-[[!redirects (infinity,1)-cohesive site]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Topos Theory
+#### Cohesive $\infty$-Toposes
 +--{: .hide}
-[[!include (infinity,1)-topos - contents]]
+[[!include cohesive infinity-toposes - contents]]
 =--
 =--
 =--
@@ -355,6 +354,8 @@ and
 
 [[!redirects ∞-cohesive site]]
 [[!redirects ∞-cohesive sites]]
+
+[[!redirects (infinity,1)-cohesive site]]
 
 
 [[!redirects (∞,1)-cohesive site]]
