@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Topos Theory
+#### Cohesive $\infty$-Toposes
 +--{: .hide}
-[[!include topos theory - contents]]
+[[!include cohesive infinity-toposes - contents]]
 =--
 =--
 =--
