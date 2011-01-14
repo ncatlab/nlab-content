@@ -47,41 +47,12 @@ This is [[homotopy equivalence|homotopy equivalent]] to $X$.
 
 This is usually attributed to ([Borsuk1948](#Borsuk)).
 
-## $(\infty,1)$-Topos-theoretic interpretation
++-- {: .un_remark}
+###### Remark
 
-There is a useful [[nPOV]] interpretation of the meaning of the nerve theorem. For details see [[homotopy groups in an (∞,1)-topos]].
+This statement implies that in the [[cohesive (∞,1)-topos]] [[ETop∞Grpd]] the intrinsic [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] coincides with the ordinary [[fundamental ∞-groupoid]] functor of [[paracompact topological spaces]]. See <a href="http://ncatlab.org/nlab/show/Euclidean-topological+infinity-groupoid#GeometricHomotopy">Euclidean-topological ∞-groupoid : Geometric homotopy</a> for details.
 
-We may think of the [[manifold]] $X$ as an object in the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$, the [[(∞,1)-category of (∞,1)-sheaves]] on the [[site]] [[CartSp]] with the [[good open cover]] [[coverage]] (details are at [[∞-Lie groupoid]]). This is [[presentable (∞,1)-category|presented]] by the projective [[model structure on simplicial presheaves]], [[Bousfield localization of model categories|left Bousfield localized]] at [[Cech nerve]]s of [[good cover]]s.
-
-$$
-  Sh_{(\infty,1)}(CartSp) \simeq (sPsh(CartSp)_{proj,cov})^\circ
-  \,.
-$$
-
-By the general characterization of <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects">cofibrant objects</a> and <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#Descent">local weak equivalences</a> one finds that the [[Cech nerve]] of a [[good open cover]] of $X$ provides a cofibrant replacement of $X$ in $sPSh(C)_{proj,cov}$
-
-$$
-  C(\{U_i\}) \stackrel{\simeq}{\to} X
-  \,.
-$$
-
-Here the fact that the cover is _good_ is crucial for this to be cofibrant, a general [[open cover]] will not do: cofibrant objects in $sPSh(C)_{proj}$ are obtained as simplicial presheaves whose degenerate cells in each degree split off a direct sums (which is the case for any open cover) and which in addition are degreewise coproducts of representables (this is on the site [[CartSp]] the case for Cech nerver of good open covers).
-
-The point of working over the site [[CartSp]] here is that this makes $Sh_{(\inftty,1)}(CartSp)$ a [[locally ∞-connected (∞,1)-topos]], which means that the _[[left adjoint]]_ to the [[constant (∞,1)-sheaf]]-functor 
-
-$$
-  \Pi : Sh_{(\infty,1)}(CartSp) \to \infty Grpd
-$$
-
-exists. This is the left [[derived functor]] of the functor which sends each [[representable functor|representable]] to the point. Accordingly, it acts on an arbitrary object by forming a cofibrant replacement and then identifying in that each representable with the point. By the above, this means that applied to $X$ it produces precisely the simplicial set $\tilde C(\{U_i\})$:
-
-$$
-  \Pi(X) \simeq \lim_{\to} C(\{U_i\}) = \tilde C(\{U_i\})
-  \,.
-$$
-
-Regarded from this perspective, the nerve theorem states that with ([[paracompact space|paracompact]]) [[manifold]]s regarded as objects in the [[locally ∞-connected (∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$, the [[schreiber:path ∞-groupoid]] functor $\Pi : Sh_{(\infty,1)}(CartSp) \to \infty Grpd$ remembers their nature as objects in [[Top] $\simeq$ [[∞Grpd]].
- 
+=--
 
 ## References
 
