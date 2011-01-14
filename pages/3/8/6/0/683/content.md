@@ -185,9 +185,8 @@ $$
   \,.
 $$
 
-For details on this see [[Quillen bifunctor]] or around page 9 of
+For details on this see [[Quillen bifunctor]] or around page 9 of ([Gambino](#Gambino)).
 
-* Nicola Gambino, _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf)).
 
 From the fact that this is a Quillen bifunctor and using the observation that for the _trivial_ weight $W = const 1$ the wighted colimit reduces to an ordinary colimit, follows the above Bousfield-Kan-type formula for the homotopy colimit.
 
@@ -257,7 +256,7 @@ As a special case of enriched homotopy theory, we may consider model categories 
 
 If $C$ is a category enriched over $(n-1)$-categories and we are considering it to _be_ an $n$-category (which happens to be strict at the bottom level), it is natural to define a "weak equivalence" in the underlying ordinary category of $C$ to be a morphism that is an $n$-category-theoretic [[equivalence of categories|equivalence]].  We call this the _natural_ or _trivial_ homotopical structure on $C$.  In certain cases (such as $n=2)$ it can be made into a model structure, also called _natural_ or _trivial_.
 
-Since higher categorical limits are generally defined as representing objects for cones that commute up to [[equivalence]], it is unsurprising that if $C$ has a natural homotopical structure, locally-defined homotopy limits and $n$-limits coincide.  For $n=1$ this is trivial.  For $n=2$ it is proven in the paper of Gambino referenced below (particularly section 6).  For $n=(\infty,1)$ it is proven in (among other places) Lurie's book, section 4.2.4.  The case $n=3$ ought to be approachable in theory, but doesn't seem to have been done (probably partly because the general theory of 3-limits is fairly nonexistent).
+Since higher categorical limits are generally defined as representing objects for cones that commute up to [[equivalence]], it is unsurprising that if $C$ has a natural homotopical structure, locally-defined homotopy limits and $n$-limits coincide.  For $n=1$ this is trivial.  For $n=2$ it is proven in ([Gambino](#Gambino)) (particularly section 6).  For $n=(\infty,1)$ it is proven in (among other places) Lurie's book, section 4.2.4.  The case $n=3$ ought to be approachable in theory, but doesn't seem to have been done (probably partly because the general theory of 3-limits is fairly nonexistent).
 
 On the other hand, we may also consider a category $C$ enriched over $n$-categories with a _larger_ class of weak equivalences than just the $n$-categorical equivalences.  Then $C$ presents an $n$-category (its "homotopy $n$-category") obtained by formally turing these weak equivalences into $n$-categorical equivalences.  Homotopy limits in $C$ with this homotopical structure should then present $n$-limits in its homotopy $n$-category.  In the case $n=(\infty,1)$ this is also essentially in Lurie's book; for other values of $n$ it may not be in the literature.
 
@@ -355,9 +354,7 @@ $$
 
 By the fact that the [[coend]] over the [[copower|tensor]] appearing here is a [[Quillen bifunctor]].
 
-This is disucssed for instance in section 4 of
-
-* [[Nicola Gambino]], _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf))
+This is disucssed for instance in section 4 of ([Gambino](#Gambino)).
 
 =--
 
@@ -901,6 +898,18 @@ An inroduction is
 * Wojciech Chacholski and Jerome Scherer, _Homotopy theory of diagrams_ ([arXiv](http://arxiv.org/abs/math.AT/0110316)) 
 
 This includes a global definition of homotopy (co)limit as [4.1, p. 14](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=19), and discusses how to compute them (co)limits concretely using local constructions.  For instance the above statement on the computation of homotopy pullbacks is proposition [2.5, p. 15](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=20)
+
+A nice discussion of the expression of homotopy colimits in terms of coends is in 
+
+* Nicola Gambino, _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf)).
+{#Gambino}.
+
+A collection of examples and exercises is in 
+
+* Samuel Issacson, _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
+{#Isaacson}
+
+Other references are
 
 * Philip Hirschhorn, _Model categories and their localizations_.  Defines and studies (local) homotopy limits in model categories.
 
