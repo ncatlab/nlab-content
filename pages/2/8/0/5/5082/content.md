@@ -27,8 +27,14 @@ For $(\Pi \dashv \Gamma \dashv LConst) :  \mathbf{H} \to \infty Grpd$ a [[locall
 
 ## Properties
 
-This is the object that encodes the [[geometric homotopy groups in an (∞,1)-topos]].
+* This is the object that encodes the [[geometric homotopy groups in an (∞,1)-topos]].
 
-For any $X \in \mathbf{H}$ the $\infty$-groupoid $\Pi(X)$ coincides with the [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]] (see there) of the [[over-(∞,1)-topos]] $\mathbf{H}/X$.
+* For any $X \in \mathbf{H}$ the $\infty$-groupoid $\Pi(X)$ coincides with the [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]] (see there) of the [[over-(∞,1)-topos]] $\mathbf{H}/X$.
 
+
+## Examples
+
+* In the [[cohesive (∞,1)-topos]] [[Top]] the intrinsic fundamental $\infty$-groupoid functor coincides with the ordinary [[fundamental ∞-groupoid]] of a [[topological space]]. See [[discrete ∞-groupoid]] for details.
+
+* In [[ETop∞Grpd]] the intrinsic fundamental $\infty$-groupoid is the generalization of that on [[Top]] to [[∞-groupoid]]s in [[paracompact space]]s.
 
