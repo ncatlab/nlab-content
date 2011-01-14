@@ -39,20 +39,14 @@ to be the [[(∞,1)-category of (∞,1)-sheaves]] on $CartSp_{top}$.
 
 =--
 
+
 +-- {: .un_prop}
 ###### Proposition
 
 
-This is a [[cohesive (∞,1)-topos]].
+The [[(∞,1)-topos]] $ETop \infty Grpf$ is a [[cohesive (∞,1)-topos]].
 
 =--
-
-$$
-  \infty TopGrpd
-  \stackrel{\stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
-  \infty Grpd
-  \,.
-$$
 
 +-- {: .proof}
 ###### Proof
@@ -61,7 +55,121 @@ The site [[CartSp]]${}_{top}$ an  [[∞-cohesive site]].  See there for details.
 
 =--
 
-## Properties
+
+## Structures in the cohesive $(\infty,1)$-topos $ETop \infty Grpd$
+
+We discuss what some of the general abstract <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">Structures in a cohesive (∞,1)-topos</a> look like in the model $ETop \infty Grpd$. 
+
+As usual, write
+
+$$
+  (\Pi \dashv Disc \dashv \Gamma \dashv coDisc) : 
+  ETop \infty Grpd
+    \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}
+  \infty Grpd
+$$
+
+for the defining quadruple of [[adjoint (∞,1)-functor]]s that refine the [[global section]] [[(∞,1)-geometric morphism]] to [[∞Grpd]].
+
+
+### Geometric homotopy and Galois theory {#GeometricHomotopy}
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+Let $X$ be a [[paracompact topological space]] naturally regarded as an object $X \in Top \hookrightarrow ETop \infty Grpd$. Then $\Pi(X) \in \infty Grpd$ is equivalent to the standard [[fundamental ∞-groupoid]] of a [[topological space]] that is presented by the [[singular simplicial complex]] $Sing X$
+
+$$
+  \Pi(X) \simeq Sing X
+  \,.
+$$
+
+Equivalently, under [[geometric realization]] $\mathbb{L}|-| : \infty Grpd \to Top$ we have that there is a [[weak homotopy equivalence]]
+
+$$
+  X \simeq |\Pi(X)|
+  \,.
+$$ 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[∞-cohesive site]] we have an equivalence $\Pi(-) \simeq \mathbb{L} \lim_\to$ to the [[derived functor]] of the [[sSet]]-[[colimit]] functor $\lim_\to : [CartSp^{op}, sSet]_{proj,loc} \to sSet_{Quillen}$. 
+
+To compute this derived functor, notice that every [[paracompact topological space]] $X$ admits a [[good open cover]] (see there) $\{U_i \to X\}$ by [[Cartesian space]]s. This means that the [[Cech nerve]] $C(U) \in [CartSp^{op}, sSet]$ is degreewise a [[coproduct]] of [[representable functor|representable]]s, hence a [[split hypercover]]. By the discussion at [[model structure on simplicial presheaves]] we have that in this case the canonical morphism
+
+$$
+  C(U) \to X
+$$
+
+is a cofibrant [[resolution]] of $X$ in $[CartSp^{op}, sSet]_{proj,loc}$. Accordingly we have
+
+$$
+  \Pi(X) \simeq (\mathbb{L} \lim_\to) (X) \simeq \lim_\to C(U)
+  \,.
+$$
+
+Using the [[equivalence of categories]] $[CartSp^{op}, sSet] \simeq [\Delta^{op}, [CartSp^{op}, Set]]$ and that [[colimit]]s in [[presheaf categories]] are computed objectwise and finally using that the colimit of a [[representable functor]] is the point (an incarnation of the [[Yoneda lemma]]) we have that $\Pi(X)$ is presented by the [[Kan complex]] that is obtained by contracting in the [[Cech nerve]] $C(U)$ each open subset to a point.
+
+The classical [[nerve theorem]] then asserts that this implies the claim.
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+We may regard [[Top]] itself as a [[cohesive (∞,1)-topos]]. $(\Pi_{Top}\dashv Disc_{Top} \dashv \Gamma_{Top} \dashv coDisc_{Top}) Top \stackrel{\simeq}{\to} \infty Grpd$. This is discuseed at [[discrete ∞-groupoid]].
+
+Using this the above proposition may be stated as saying that for $X$ a [[paracompact topological space]] we have
+
+$$
+  \Pi(ETop\infty Grpd)(X) \simeq \Pi_{Top}(X)
+  \,.
+$$
+
+=--
+
+### Cohomology
+
++-- {: .un_theorem }
+###### Theorem
+
+For [[paracompact space|paracompact]] $X$ we have an equivalence of [[cocycle]] [[∞-groupoid]]s
+
+$$
+  ETop \infty Grpd(X, LConst A)
+  \simeq
+  Top(X, |A|)
+$$
+
+and hence in particular an isomorphism on cohomology
+
+$$
+  H(X,A) \simeq \pi_0   ETop \infty Grpd(X, LConst A)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the above (...).
+
+=--
+
+
+
+
+### Path $\infty$-groupoid
+
+(...)
+
+## Localization to $Top$
 
 ### Homotopy invariance and topological spaces
 
@@ -106,51 +214,7 @@ set, and where evaluates a simplicial presheaf on the manifold that is the [[poi
 This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the  standard [[model structure on simplicial sets]] on the left and the above model structure $SPSh(Diff)_{loc}^I$ on the right.
 
 
-## Structures
 
-We discuss what some of the general abstract <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">Structures in a cohesvive (∞,1)-topos</a> look like in the model $ETop \infty Grpd$.
-
-
-### Geometric homotopy an Galois theory
-
-(...)
-
-[[nerve theorem]]
-
-### Cohomology
-
-+-- {: .un_theorem }
-###### Theorem
-
-For [[paracompact space|paracompact]] $X$ we have an equivalence of [[cocycle]] [[∞-groupoid]]s
-
-$$
-  ETop∞Grpd(X, LConst A)
-  \simeq
-  Top(X, |A|)
-$$
-
-and hence in particular an isomorphism on cohomology
-
-$$
-  H(X,A) \simeq \pi_0   ETop∞Grpd(X, LConst A)
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the above (...).
-
-=--
-
-
-
-
-### Path $\infty$-groupoid
-
-(...)
 
 ## References
 
