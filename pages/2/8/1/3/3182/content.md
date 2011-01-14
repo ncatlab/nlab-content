@@ -10,7 +10,6 @@
 =--
 =--
 
-> this entry is under construction. Much of what should eventually go here is currently at [[Lie infinity-groupoid|smooth ∞-groupoid]]
 
 #Contents#
 * table of contents 
@@ -76,7 +75,7 @@ for the defining quadruple of [[adjoint (∞,1)-functor]]s that refine the [[glo
 
 
 
-+-- {: .un_prop}
++-- {: .un_prop #FundGroupoidOfParacompact}
 ###### Proposition
 
 Let $X$ be a [[paracompact topological space]] naturally regarded as an object $X \in Top \hookrightarrow ETop \infty Grpd$. Then $\Pi(X) \in \infty Grpd$ is equivalent to the standard [[fundamental ∞-groupoid]] of a [[topological space]] that is presented by the [[singular simplicial complex]] $Sing X$
@@ -100,20 +99,20 @@ $$
 
 By the discussion at [[∞-cohesive site]] we have an equivalence $\Pi(-) \simeq \mathbb{L} \lim_\to$ to the [[derived functor]] of the [[sSet]]-[[colimit]] functor $\lim_\to : [CartSp^{op}, sSet]_{proj,loc} \to sSet_{Quillen}$. 
 
-To compute this derived functor, notice that every [[paracompact topological space]] $X$ admits a [[good open cover]] (see there) $\{U_i \to X\}$ by [[Cartesian space]]s. This means that the [[Cech nerve]] $C(U) \in [CartSp^{op}, sSet]$ is degreewise a [[coproduct]] of [[representable functor|representable]]s, hence a [[split hypercover]]. By the discussion at [[model structure on simplicial presheaves]] we have that in this case the canonical morphism
+To compute this derived functor, notice that every [[paracompact topological space]] $X$ admits a [[good open cover]] (see there) $\{U_i \to X\}$ by [[Cartesian space]]s. This means that the [[Cech nerve]] $C(\coprod_i U_i \to X) \in [CartSp^{op}, sSet]$ is degreewise a [[coproduct]] of [[representable functor|representable]]s, hence a [[split hypercover]]. By the discussion at [[model structure on simplicial presheaves]] we have that in this case the canonical morphism
 
 $$
-  C(U) \to X
+  C(\coprod_i U_i \to X) \to X
 $$
 
 is a cofibrant [[resolution]] of $X$ in $[CartSp^{op}, sSet]_{proj,loc}$. Accordingly we have
 
 $$
-  \Pi(X) \simeq (\mathbb{L} \lim_\to) (X) \simeq \lim_\to C(U)
+  \Pi(X) \simeq (\mathbb{L} \lim_\to) (X) \simeq \lim_\to C(\coprod_i U_i \to X)
   \,.
 $$
 
-Using the [[equivalence of categories]] $[CartSp^{op}, sSet] \simeq [\Delta^{op}, [CartSp^{op}, Set]]$ and that [[colimit]]s in [[presheaf categories]] are computed objectwise and finally using that the colimit of a [[representable functor]] is the point (an incarnation of the [[Yoneda lemma]]) we have that $\Pi(X)$ is presented by the [[Kan complex]] that is obtained by contracting in the [[Cech nerve]] $C(U)$ each open subset to a point.
+Using the [[equivalence of categories]] $[CartSp^{op}, sSet] \simeq [\Delta^{op}, [CartSp^{op}, Set]]$ and that [[colimit]]s in [[presheaf categories]] are computed objectwise and finally using that the colimit of a [[representable functor]] is the point (an incarnation of the [[Yoneda lemma]]) we have that $\Pi(X)$ is presented by the [[Kan complex]] that is obtained by contracting in the [[Cech nerve]] $C(\coprod_i U_i)$ each open subset to a point.
 
 The classical [[nerve theorem]] then asserts that this implies the claim.
 
@@ -128,9 +127,85 @@ We may regard [[Top]] itself as a [[cohesive (∞,1)-topos]]. $(\Pi_{Top}\dashv 
 Using this the above proposition may be stated as saying that for $X$ a [[paracompact topological space]] we have
 
 $$
-  \Pi(ETop\infty Grpd)(X) \simeq \Pi_{Top}(X)
+  \Pi_{ETop\infty Grpd}(X) \simeq \Pi_{Top}(X)
   \,.
 $$
+
+=--
+
+
++-- {: .un_prop}
+###### Corollary
+
+For $X_\bullet$ a [[proper simplicial topological space]] that is degreewise [[paracompact topological space|paracompact]], regarded naturally as an object $X_\bullet \in Top^{\Delta^{op}} \to ETop \infty Grpd$ we have that the intrinsic $\Pi(X_\bullet) \in \infty Grpd$ coincides under [[geometric realization]] $\mathbb{L}|-| : \infty Grpd \stackrel{\simeq}{\to} Top$ with the ordinary [[geometric realization of simplicial topological spaces]] $|X_\bullet|_{Top^{\Delta^{op}}}$
+
+$$
+  |\Pi(X_\bullet)| \simeq |X_\bullet|_{Top^{\Delta^{op}}}
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Write $Q$ for Dugger's cofibrant replacement functor on $[CartSp^{op}, sSet]_{proj,loc}$ (discussed at [[model structure on simplicial presheaves]]). On a simplicially constant simplicial presheaf $X$ it is given by 
+
+$$
+ Q X := \int^{[n] \in \Delta} \Delta[n] \cdot 
+    \left(
+      \coprod_{U_0 \to \cdots \to U_n \to X} U_0
+    \right)
+   \,,
+$$
+
+where the [[coproduct]] in the integrand of the [[coend]] is over all sequences of morphisms from [[representable functor|representable]]s $U_i$ to $X$ as indicated. On a general [[simplicial presheaf]] $X_\bullet$ it is given by
+
+$$
+  Q X_\bullet := \int^{[k] \in \Delta} \Delta[k] \cdot Q X_k
+  \,,
+$$ 
+
+which is the simplicial presheaf that over any $V \in CartSp$ takes as value the [[diagonal]] of the [[bisimplicial set]] whose $(n,r)$-entry is
+$\coprod_{U_0 \to \cdots \to U_n \to X_k} CartSp(V,U_0)$.
+
+Since [[coend]]s are special [[colimit]]s the colimit functor itself commutes with them and we find
+
+$$
+  \begin{aligned}
+     \Pi(X_\bullet) 
+     & \simeq 
+      (\mathbb{L} \lim_\to) X_\bullet
+     \\
+     & \simeq \lim_\to Q X_\bullet
+     \\
+      & \simeq \int^{[n] \in \Delta} \Delta[k] \cdot \lim_\to (Q X_k)
+    \,.
+  \end{aligned}
+$$
+
+By the discussion at [[Reedy model structure]] this [[coend]] is a [[homotopy colimit]] over the simplicial [[diagram]] $\lim\to Q X_\bullet : \Delta \to sSet_{Quillen}$
+
+$$
+  \cdots \simeq hocolim_\Delta \lim_\to Q X_\bullet
+  \,.
+$$
+
+By the [above proposition](#FundGroupoidOfParacompact) we have weak equivalences $\lim_\to Q X_k \simeq (\mathbb{L} \lim_\to) X_k \simeq Sing X_k$, so that
+
+$$
+  \begin{aligned}
+    \cdots &\simeq hocolim_\Delta Sing X_k
+    \\
+     & \simeq \int^{[k] \in \Delta} \Delta[k] \cdot Sing X_k
+    \\
+     & \simeq diag Sing(X_\bullet)_\bullet
+  \end{aligned}
+  \,.
+$$
+
+By the discussion at [[geometric realization of simplicial topological spaces]], this maps to the [[homotopy colimit]] of the simplicial topological space $X_\bullet$, which is just its geometric realizaiton if it is proper. 
 
 =--
 
