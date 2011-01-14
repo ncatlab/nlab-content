@@ -4,3 +4,39 @@ Often in mathematics, when requiring some structure/operation/property/... to ex
 For example, in defining a [[category]], one could use an "[[bias|unbiased]]" definition in which [[composites]] of all [[list|finite sequences]] of [[morphisms]] are directly postulated, with corresponding [[associativity]] laws, but it suffices to require only binary composites and nullary composites (i.e., [[identity morphisms]]) and some particular corresponding associativity laws.
 
 As a special case of this, we have perhaps the prototypical example of a binary/nullary pair sufficing to generate all finite instances of some structure: the [[natural numbers]] themselves are the [[free monoid]] on one generator, and thus are freely associatively produced from that one generator (aka, $1$) using only binary and nullary addition.
+
+## When a nullary operation does not exist
+
+Sometimes a nullary operation does not exist but one still wants to decompose a n-ary operation into binary operations. For example, consider [[real number|the reals]], $\mathbb{R}$, as an [[lattice|unbounded lattice]] ([[top|top]], $\top$, and [[bottom|bottom]], $\bot$, do not exist) where
+
+ $\wedge =$ [[product]] $=$ [[meet]] $= infinum = min$
+
+and
+
+ $\vee =$ [[coproduct]] $=$ [[join]] $= supremum = max$.
+
+Here $\bigwedge(\{\})$ does not exist while 
+
+ $\bigwedge(\{a\}) = a$
+
+ $\bigwedge(\{a,b\}) = a \wedge b$
+
+ $\bigwedge(\{a,b,c\}) = a \wedge (b \wedge c) = (a \wedge b) \wedge c = a \wedge b \wedge c$.
+
+One approach is to compute in the [[extended real number|extended reals]], $\mathbb{R}_{\pm \infty}$ ($\mathbb{R}$ enlarged with $+\infty$ and $-\infty$.) Here 
+
+ $\top = +\infty =$ [[terminal object]]
+
+and
+
+ $\bot = -\infty =$ [[initial object]].
+
+In $\mathbb{R}_{\pm \infty}$ we have the nullary $\wedge() = +\infty$ which gives:
+
+ $\bigwedge(\{\}) = +\infty$
+
+ $\bigwedge(\{a\}) = \bigwedge(\{a, +\infty\}) = a$.
+
+Another approach is to define a special scheme for composition for when a nullary operator does not exist that instead uses a unary operator that is an identity map (or factored through one).
+
+So far an unbounded lattice is the only example I can think of where an [[associative operad|associative binary operation]] does not have a corresponding nullary form (or when an associative (co) product does not have a corresponding (co) terminal object.) It is unknown if whether all such cases can be handled by the general scheme computing in an enlarged context.  
