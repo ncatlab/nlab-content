@@ -289,7 +289,7 @@ In this, I'm leading up to generalisation in simple neural networks. Think of le
 
 ### Another example: linear associators ###
 
-The idea is as in the previous example, but where sets of examples aren't restricted to being expressible as linear transformations. In this case, generalisation has to "do the best it can", modulo interference between learnt associations. Question: what should $C$ be? Ought it to be some kind of completion of $C$ above? See http://www.syndar.org/PAdams/The%20Linear%20Associator.pdf for how the associator works. $C$ will depend very tightly on how the associator is trained. I'll start by considering how a single learning phase, in the terminology of the above reference, maps pairs to a matrix.
+The idea is as in the previous example, but where sets of examples aren't restricted to being expressible as linear transformations. In this case, generalisation has to "do the best it can", modulo interference between learnt associations. Question: what should $C$ be? Ought it to be some kind of completion of $C$ above? See http://www.syndar.org/PAdams/The%20Linear%20Associator.pdf for how the associator works. $C$ will depend very tightly on how the associator is trained. I'll start by considering how a single learning phase, in the terminology of the above reference, maps pairs to a matrix: the matrix $W$ in the notation of the reference's Equations 1 onwards.
 
 ### Another example: averages ###
 
