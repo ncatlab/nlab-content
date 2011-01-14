@@ -165,18 +165,18 @@ This is [[Higher Topos Theory|HTT, theorem 7.1.0.1]]. See also [[(∞,1)-categor
 
 #### Gros $(\infty,1)$-sheaf $(\infty,1)$-topos
 
-Another alternative is to regard the space $X$ as an object in the [[gros topos|gros]] [[(∞,1)-sheaf]] topos $Sh_{(\infty,1)}(CartSp)$ over the [[site]] [[CartSp]], as described at [[∞-Lie groupoid]]. This has the special property that it is a [[locally ∞-connected (∞,1)-topos]], which means that the [[global section|terminal]] [[geometric morphism]] is an [[essential geometric morphism]]
+Another alternative is to regard the space $X$ as an object in the [[cohesive (∞,1)-topos]] [[ETop∞Grpd]]. 
 
 $$
   (\Pi \dashv LConst \dashv \Gamma)
   :
-  Sh_{(\infty,1)}(CartSp)
+  ETop\infty Grpd
   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}}
   \infty Grpd
   \,,
 $$
 
-with the further [[left adjoint]] $\Pi$ to $LConst$ being the intrinsic [[schreiber:path ∞-groupoid]] functor.  The intrinsic [[nonabelian cohomology]] in there also coincides with nonabelian cohomology in [[Top]]; even the full [[cocycle]] [[∞-groupoid]]s are equivalent:
+with the further [[left adjoint]] $\Pi$ to $LConst$ being the intrinsic [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] functor.  The intrinsic [[nonabelian cohomology]] in there also coincides with nonabelian cohomology in [[Top]]; even the full [[cocycle]] [[∞-groupoid]]s are equivalent:
 
 +-- {: .un_theorem }
 ###### Theorem
@@ -184,7 +184,7 @@ with the further [[left adjoint]] $\Pi$ to $LConst$ being the intrinsic [[schrei
 For [[paracompact space|paracompact]] $X$ we have an equivalence of [[cocycle]] [[∞-groupoid]]s
 
 $$
-  Sh_{(\infty,1)}(CartSp)(X, LConst A)
+  ETop\infty Grpd(X, LConst A)
   \simeq
   Top(X, |A|)
 $$
@@ -192,7 +192,7 @@ $$
 and hence in particular an isomorphism on cohomology
 
 $$
-  H(X,A) \simeq \pi_0   Sh_{(\infty,1)}(CartSp)(X, LConst A)
+  H(X,A) \simeq \pi_0   ETop\infty Grpd(X, LConst A)
 $$
 
 =--
@@ -200,9 +200,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The key point is that for paracompact $X$, the [[nerve theorem]] asserts that $\Pi(X)$ is [[weak homotopy equivalence|weak homotopy equivalent]] to $Sing X$, the standard [[fundamental ∞-groupoid]] of $X$. This is discussed at [[∞-Lie groupoid]].
-
-Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(\Pi \dashv LConst)$, that is discussed in detail at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">Unstructured homotopy ∞-groupoid</a>.
+See [[ETop∞Grpd]].
 
 =--
 
@@ -248,7 +246,7 @@ The standard classical monograph focusing on low-dimensional cases is
 
 See also [[gerbe|nonabelian gerbe]].
 
-* [[Larry Breen]], _Bitorseurs et cohomologie non-Ab&#233;lienne_ , The Grothendieck Festschrift: a collection of articles written in honour of the 60th birthday of Alexander Grothendieck, Vol. I, edited P.Cartier, et al., Birkh&auml;user, Boston, Basel, Berlin, 401-476, 1990.
+* [[Larry Breen]], _Bitorseurs et cohomologie non-Ab&#233;lienne_ , The Grothendieck Festschrift: a collection of articles written in honour of the 60th birthday of Alexander Grothendieck, Vol. I, edited P.Cartier, et al., Birkh&#228;user, Boston, Basel, Berlin, 401-476, 1990.
 
 * [[Ieke Moerdijk]], _Lie Groupoids, Gerbes, and Non-Abelian Cohomology _ ([journal](http://www.springerlink.com/content/ul554x3077444545/))
 
