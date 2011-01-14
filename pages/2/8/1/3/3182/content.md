@@ -368,52 +368,10 @@ The morphism $i_V : V \to \mathbf{Sing} V$ includes in degree $k$ precisely the 
 
 =--
 
-+-- {: .un_def }
-###### Definition
-
-Let 
-
-$$
-  \mathbf{Sing} : [CartSp^{op}, sSet] \to [CartSp^{op}, sSet]
-$$
-
-be the [[Yoneda extension]] (left [[Kan extension]] along the [[Yoneda embedding]]). 
-
-=--
-
-
-+-- {: .un_prop }
-###### Proposition
-
-The functor $\mathbf{Sing}$ is the [[left adjoint]] part of a [[Quillen adjunction]]
-
-$$
-  (\mathbf{Sing} \dashv R) : 
-    [CartSp^{op}, sSet]_{inj,loc} 
-    \to
-    [CartSp^{op}, sSet]_{inj,loc} 
-   \,.
-$$
-
-Its left [[derived functor]] is equivalent to the inrinsic [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] on $ETop \infty Grpd$
-
-$$
-  \mathbf{Sing}(-) \simeq \Pi(-) : ETop \infty Grpd \to ETop \infty Grpd
-  \,.
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
 (...)
 
-=--
 
-
-## Homotopy localizationo
+## Homotopy localization
 
 
 We discuss that the[[homotopy localization]] of topological $\infty$-groupoids reproduces [[Top]] $\simeq$ [[∞Grpd]], following ([Dugger](#Dugger)).
