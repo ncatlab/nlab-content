@@ -473,7 +473,11 @@ see [[3-groupoid of Lie 3-algebra valued forms]]
 
 ### Flat $\infty$-parallel transport in $Top$ {#FlatInTop}
 
-One can consider $\infty$-parallel transport in the [[cohesive (∞,1)-topos]] [[Top]], but in this case lots of structure degenerates, since by the [[homotopy hypothesis]]-theorem here the [[global section]] [[(∞,1)-geometric morphism]]
+Even though it is a degenerate case, it can be useful to regard the [[(∞,1)-topos]] [[Top]] explicitly a [[cohesive (∞,1)-topos]]. For a discussion of this see [[discrete ∞-groupoid]].
+
+
+
+For $\mathbf{H} = $ [[Top]] lots of structure of cohesvive $(\infvty,1)$-topos theory  degenerates, since by the [[homotopy hypothesis]]-theorem here the [[global section]] [[(∞,1)-geometric morphism]]
 
 $$
   (\Pi \dashv \Delta \dashv \Gamma) : Top 
