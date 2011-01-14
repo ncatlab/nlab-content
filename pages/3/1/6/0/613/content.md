@@ -47,7 +47,7 @@ which is the [[singular simplicial complex]] of $X$.
 +-- {: .un_remark}
 ###### Remark
 
-This construction is adjoint to [[geometric realization]].
+This construction is [[right adjoint]] to [[geometric realization]].
 
 =--
 
@@ -61,6 +61,13 @@ $$
 $$
 
 due to ([Nikolaus](#Nikolaus)).
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+Une may regard the singular simplicial complect functor as the instance of the general abstract notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] by regarding [[Top]] as a [[cohesive (∞,1)-topos]]. See [[discrete ∞-groupoid]] for more on this.
 
 =--
 
