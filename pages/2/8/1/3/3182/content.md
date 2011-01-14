@@ -292,9 +292,235 @@ From this the claim follows by the [above proposition](#FundGroupoidOfParacompac
 =--
 
 
+### Path $\infty$-groupoid {#PathInftinityGroupoids}
+
+Let $C$ be an [[∞-connected site]]. We give an explicit presentation of the _<a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">constant path inclusion</a>_ $X \to \mathbf{\Pi}(X)$ in the [[locally ∞-connected (∞,1)-topos]] over $C$ such that the component maps are cofibrations. 
+
++-- {: .un_remark }
+###### Remark
+
+The projective [[model structure on simplicial presheaves]] 
+$[C^{op}, sSet]_{proj}$ has a set of generating cofibrations
+
+$$
+  I =
+  \{
+    U \cdot \partial \Delta[n] \hookrightarrow U \cdot \Delta[n] | U \in C, n \in \mathbb{N})
+  \}
+  \,.
+$$
+
+=--
+
+See [[model structure on functors]] for details.
 
 
++-- {: .un_def }
+###### Definition
 
+Write 
+
+$$
+  \mathbf{Sing} : C \to [C^{op}, sSet]
+$$
+
+for the functor given by applying the [[small object argument]] to this set $I$ to obtain a functorial factorization of the [[terminal object|terminal morphisms]] $U \to *$ into a cofibration followed by an acyclic fibration
+
+$$
+  U \hookrightarrow \mathbf{Sing} U \stackrel{\simeq}{\to} *
+  \,.
+$$
+
+Let
+
+$$
+  \mathbf{Sing} : [C^{op}, sSet] \to [C^{op}, sSet]
+$$
+
+be the [[Yoneda extension]] (left [[Kan extension]] through the [[Yoneda embedding]]) of this functor to all of $[C^{op}, sSet]$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+For $U \in C$ the [[simplicial presheaf]] $\mathbf{Sing}U$ is a [[resolution]] of the ([[nerve]] of the) [[fundamental groupoid]] $\Pi_1(U)$:
+
+the non-degenerate components of $\mathbf{Sing}U$ at the first stage of the [[small object argument]] are such that a map out of them into a simplicial presheaf $A$ are given by commuting diagrams
+
+$$
+  \array{
+    U_0 \coprod U_0 &\stackrel{(s,t)}{\to}& U
+    \\ 
+    \downarrow && \downarrow
+    \\
+    U_0 \times \Delta[1] &\to& A
+  }
+  \,.
+$$
+
+This is a $U$-parameterized family of objects of $A$ together with a $U_0$-parameterized family of morphisms of $A$ associated to the pairs of points $(s,t) \in U$, hence to the "straight paths" from $s$ to $t$. At the next stage for every triangle of such straight path a 2-morphism is thrown in, and so on. So $\mathbf{Sing}U$ indeed is an $\infty$-groupoid of paths in $U$. 
+
+=--
+
+
++-- {: .un_prop }
+###### Proposition
+
+The functor $\mathbf{Sing}$ is the [[left adjoint]] of a [[Quillen adjunction]]
+
+$$
+  (\mathbf{Sing} \dashv R) : 
+    [C^{op}, sSet]_{proj, loc} \to [C^{op}, sSet]_{proj, loc}
+  \,.
+$$
+
+Its left [[derived functor]] is equivalent to the intrinsic [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]
+
+$$
+  \mathbb{L}\mathbf{Sing}(-) \simeq \Pi(-)
+$$
+
+and the _constant path inclusion_ $Id \to \Pi$ is presented by the canonical [[natural transformation]] $Id \to \mathbf{Sing}$.
+=--
+
++-- {: .proof}
+###### Proof
+
+On an arbitrary simplicial presheaf $X$ the functor $\mathbf{Sing}$ is given by the [[coend]]
+
+$$
+  \mathbf{Sing} : X \mapsto
+   \int^{U \in C} X(U) \cdot \mathbf{Sing}U
+  \,.
+$$
+
+By construction this preserves all colimits. Hence by the [[adjoint functor theorem]] (using that domain and codomain are [[presheaf categories]]) we have that $\mathbf{Sing}$ is a [[left adjoint]]. Explicitly, the [[right adjoint]] is given by
+
+$$
+  R X : U \mapsto [C^{op}, sSet](\mathbf{Sing}U, X)
+  \,.
+$$
+
+We check that $\mathbf{Sing}$ is also a [[Quillen adjunction|left Quillen functor]] first for the [[model structure on simplicial presheaves|global projective model structure]].
+For that, notice that the above expression is the evaluation of the left [[Quillen bifunctor]] (see the exmaples-section there for details)
+
+$$
+  \int^C (-) \cdot (-) : 
+    [C^{op}, sSet]_{proj} \times [C, [C^{op}, sSet]_{proj}]_{inj}
+  \to
+   [C^{op}, sSet]_{proj}
+  \,.
+$$
+
+Since every representable $U$ is cofibrant in $[C^{op}, sSet]_{proj}$ and since $U \to \mathbf{Sing}U$ is a cofibration by the [[small object argument]], we have that $\mathbf{Sing}U$ is cofibrant in $[C^{op}, sSet]_{proj}$ for all $U$. This means that also $\mathbf{Sing}(-)$ is cofibrant in $[C, [C^{op}, sSet]_{pro}]_{inj}$. Since $\int^C (-) \cdot (-)$ is a left Quillen bifunctor it follows that $\int^C (-)\cdot \mathbf{Sing}$ is a left Quillen functor. Hence it preserves cofibrations and acyclic cofibrations.
+
+This establishes that $\mathbf{Sing}$ is a left simplicial Quillen functor on $[C^{op}, sSet]_{proj}$.
+
+Since this is a [[left proper model category]] we have by the discussion at [[simplicial Quillen adjunction]] that for showing that this does descend to the local model structure it is sufficient to check that the right adjoint preserves local fibrant objects. Which, in turn, is implied if $\mathbf{Sing}$ send covering [[Cech nerve]]s to weak equivalences.
+
+Let therefore $C(\coprod_i U_i \to U)$ be the Cech nerve of a covering family in the [[site]] $C$. We may write this as the [[coend]]
+
+$$
+  C(\coprod_i U_i) = \int^{[k] \in \Delta} \Delta[k] \cdot
+  \left(
+    \coprod_{i_0, \cdots, i_n} U_{i_0, \cdots, i_n}
+  \right)
+  \,,
+$$
+
+where by assumption on the [[∞-connected site]] $C$ all the $U_{i_0, \cdots, i_n}$ are representable. By precomposing the projection $C(\coprod_i U_i) \to X$ with the objectwise [[Bousfield-Kan map]] that replaces the simplices with the [[fat simplex]] $\mathbf{\Delta} : \Delta \to sSet$, we get the morphisms
+
+$$
+  C(\coprod_i U_i) = \int^{[k] \in \Delta} 
+   \mathbf{\Delta}[k] \cdot
+  \left(
+    \coprod_{i_0, \cdots, i_n} U_{i_0, \cdots, i_n}
+  \right)
+   \stackrel{\simeq}{\to}
+   C(\coprod_i U_i)
+   \to U
+  \,.
+$$
+
+Here the first map is an objectwise weak equivalence by Bousfield-Kan (see the examples at [[Reedy model structure]] for details). Hence by 2-out-of-3 we may equivalently check that $\mathbf{Sing}$ sends these morphisms to weak equivalences in $[C^{op}, sSet]_{proj}$.
+
+Since $\mathbf{Sing}$ commutes with all colimits and hence coends the result of applying it to this morphism is
+
+$$
+  \int^{[k] \in \Delta} 
+   \mathbf{\Delta}[k] \cdot
+  \left(
+    \coprod_{i_0, \cdots, i_n} \mathbf{Sing} U_{i_0, \cdots, i_n}
+  \right)
+   \to \mathbf{Sing}U
+  \,.
+$$
+
+Since the [[fat simplex]] is injective in $[\Delta, sSet_{Quillen}]_{proj}$ and since the above is an evaluation of the left [[Quillen bifunctor]]
+
+$$
+  \int^\Delta (-) \cdot (-) :
+   [\Delta, sSet_{Quillen}]_{proj} \times
+   [\Delta^{op}, [C^{op}, sSet]_{proj}]_{inj}
+  \to
+   [C^{op}, sSet]_{proj}
+$$
+
+the functor $\int^\Delta \mathbf{\Delta} \cdot (-)$ is left Quillen and hence preserves weak equivalences between cofibrant objects (by the [[factorization lemma]]), such as the morphisms $\mathbf{Sing}U \stackrel{\simeq}{\to} *$. Therefore we have a commuting diagram
+
+$$
+  \array{
+    \int^{[k] \in \Delta} 
+     \mathbf{\Delta}[k] \cdot
+    \left(
+      \coprod_{i_0, \cdots, i_n} \mathbf{Sing} U_{i_0, \cdots, i_n}
+    \right)
+      &\stackrel{\simeq}{\to}&
+    \int^{[k] \in \Delta} 
+     \mathbf{\Delta}[k] \cdot
+    \left(
+      \coprod_{i_0, \cdots, i_n} *
+    \right)
+    \\
+    \downarrow && \downarrow^{\simeq}
+    \\
+    \mathbf{Sing}U &\stackrel{\simeq}{\to}& *
+   }
+  \,,
+$$
+
+with weak equivalences in $[C^{op}, sSet]_{proj}$ as indicated: the top morphism is a weak equivalence by the argument just given, the bottom one by the [[small object argument]]-construction of $\mathbf{Sing}$ and the right vertical morphism is a weak equivalence by the assumption on an [[∞-connected site]]. It follows by 2-out-of-3 that also the left vertical morphism is a weak equivalence.
+
+This establishes the fact that $\mathbf{Sing}$ is left Quillen on the local model structure on simplicial presheaves. By the discussion at [[simplicial Quillen adjunction]] this implies that its left [[derived functor]] is a [[left adjoint|left]] [[adjoint (∞,1)-functor]]. Hence it preserves [[(∞,1)-colimit]]s and so is determined on representatives. There $\mathbf{Sing} U \simeq *$ does coindice with $\Pi(U) \simeq *$, hence both [[(∞,1)-functor]]s are equivalent.
+
+=--
+
++-- {: .un_prop }
+###### Corollary
+
+For all cofibrant $X \in [C^{op}, sSet]_{proj,loc}$, the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#deRhamCohomology">de Rham coefficient object</a> $\mathbf{\Pi}_{dR} X$ is presented by the ordinary [[pushout]]
+
+$$
+  \array{
+     X &\to& *
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbf{Sing}X &\to& \mathbf{\Pi}_{dR} X
+  }
+$$
+
+in $[C^{op}, sSet]$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition we have that $\mathbf{\Pi}_{dR}$ is the [[(∞,1)-pushout]] $\mathbf{\Pi}(X) \coprod_X *$ in $Sh_{(\infty,1)}(C)$. By the above proposition we have a cofibrant presentation of the pushout diagram as indicated (all three objects cofibrant, at least one of the two morphisms a cofibration). By the general discussion at [[homotopy colimit]] the ordinary pushout of that diagram does compute the [[(∞,1)-colimit]].
+
+=--
 
 ## Homotopy localization
 
