@@ -34,7 +34,7 @@ Any category which is [[monadic]] over [[Set]] is total, as is any category admi
 
 ## References
 
-* [[Max Kelly]], _A survey of totality for enriched and ordinary categories_ ([pdf](http://archive.numdam.org/article/CTGDC_1986__27_2_109_0.pdf))
+* [[Max Kelly]], _A survey of totality for enriched and ordinary categories_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 2 (1986), p. 109-132, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_109_0)
 
 
 [[!redirects cototal category]]
