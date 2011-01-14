@@ -3155,7 +3155,7 @@ Examples of [[∞-cohesive site]]s are
 * [[discrete ∞-groupoid]]
 
 
-### Continuous $\infty$-groupoids
+### Euclidean-topological $\infty$-groupoids
 
 * [[continuous ∞-groupoid]]
 
