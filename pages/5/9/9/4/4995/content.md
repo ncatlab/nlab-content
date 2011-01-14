@@ -3157,44 +3157,7 @@ Examples of [[∞-cohesive site]]s are
 
 ### Euclidean-topological $\infty$-groupoids
 
-* [[continuous ∞-groupoid]]
-
-(...)
-
-The cohesive $(\infty,1)$-topos $(\infty,1)Sh(TopBalls)$ is that of [[topological ∞-groupoid]]s.
-
-+-- {: .un_theorem }
-###### Theorem
-
-Let $\mathbf{H} = $ [[?TopGrpd]] or  [[?LieGrpd]] be the cohesive $(\infty,1)$-topos of [[topological ∞-groupoid]]s or [[smooth ∞-groupoid]]s. A [[smooth manifold]] $X$ is naturally regarded as an object in there.
-
-For [[paracompact space|paracompact]] $X$ and any $A \in \infty Grpd$ we have an equivalence of [[cocycle]] [[∞-groupoid]]s
-
-$$
-  \mathbf{H}(X, Disc A)
-  \simeq
-  Top(X, |A|)
-$$
-
-and hence in particular an isomorphism on cohomology
-
-$$
-  H(X,A) \simeq \pi_0 \mathbf{H}(X, Disc A)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-For paracompact $X$, the [[nerve theorem]] asserts that $\Pi(X)$ is [[weak homotopy equivalence|weak homotopy equivalent]] to $Sing X$, the standard [[fundamental ∞-groupoid]] of $X$. This is discussed at [[∞-Lie groupoid]].
-
-Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(\Pi \dashv Disc)$.
-
-=--
-
-See [[nonabelian cohomology]] for more details.
+* [[Euclidean-topological ∞-groupoid]]
 
 
 
@@ -3203,164 +3166,9 @@ See [[nonabelian cohomology]] for more details.
 
 * [[smooth ∞-groupoid]]
 
-(...)
+  * [[circle n-bundle with connection]].
 
-The cohesive $(\infty,1)$-topos $(\infty,1)Sh(CartSp)$ is that of [[smooth ∞-groupoid]]s.
-
-The 0-[[truncated]] [[concrete (∞,1)-sheaf|concrete]] objects in this are precisely the [[diffeological space]]s. Accordingly the general [[concrete (∞,1)-sheaves]] here we may think of as **diffeological $\infty$-groupoids**.
-
-+-- {: .un_prop}
-###### Proposition
-
-On $\mathbf{H} = $ [[?LieGrpd]] and $G \in \mathbf{H}$ an ordinary [[Lie group]], the 
-[intrinsic Maurer-Cartan form](#CurvatureCharacteristics) 
-$\theta : G \to \mathbf{B}\exp(\mathfrak{g})$ 
-coicides with the ordinary [[Maurer-Cartan form]] on a Lie algebra.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is shown at [[∞-Lie groupoid]].
-
-=--
-
-
-+-- {: .un_prop}
-###### Proposition
-
-In $\mathbf{H} = $ [[?LieGrpd]] the intrinsic definition of differemtial cohomology reproduces [[ordinary differential cohomology]]. 
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-This is shown at [[circle n-bundle with connection]].
-
-=--
-
-The [Chern-Weil homomorphism](#ChernWeilTheory) 
-in [[?LieGrpd]] is discussed at [[∞-Chern-Weil theory]].
-
-
-The [[higher parallel transport|higher holonomy]]
-in $\infty Lie Grpd$ is described by the following statement
-
-+-- {: .un_lemma}
-###### Observation
-
-If $\Sigma$ is a closed [[manifold]] of [[dimension]]
-
-$$
-  dim \Sigma \leq n
-$$
-
-then for any cocycle $\nabla \in \mathbf{H}_{conn}(X,\mathbf{B}G)$ the [[circle n-bundle with connection]] $\hat \mathbf{c}(\nabla)$ is necessarily _flat_ , so that
-
-$$
-  \mathbf{H}_{conn}(\Sigma, \mathbf{B}^n U(1))
-  \simeq
-  \mathbf{H}(\mathbf{\Pi}(\Sigma), \mathbf{B}^n U(1))
-  \,,
-$$
-
-This expressin in turn is 
-
-$$
-  \cdots \simeq \infty Grpd(\Pi(\sigma), \mathcal{B}^n U(1))
-  \,.
-$$
-
-=--
-
-We may map this further to its $(n-dim \Sigma)$-[[truncated|truncation]]
-
-$$
-  :\infty Grpd(\Pi(X), \mathcal{B}^n U(1)) 
-  \to
-  \tau_{n-dim \Sigma} \infty Grpd(\Pi(X), \mathcal{B}^n U(1))
-  \,.
-$$
-
-+-- {: .un_theorem}
-###### Theorem
-
-We have
-
-$$
-  \tau_{n-dim\Sigma} \infty Grpd(\Pi(\Sigma), \mathcal{B}^n U(1))
-  \simeq
-  \mathbf{B}^{n-dim \Sigma} U(1)
-  \,.
-$$
-
-=--
-
-(This is due to an observation by [[Domenico Fiorenza]]. See [[higher parallel transport]].)
-
-+-- {: .proof}
-###### Proof
-
-By general abstract reasoning (recalled at [[cohomology]] and [[fiber sequence]]) we have for the [[homotopy group]]s that
-
-\[
-  \pi_i \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))
-  \simeq 
-  H^{n-i}(\Sigma, U(1))
-  \,.
-\]
-
-Now use the [[universal coefficient theorem]], which asserts that we have an [[exact sequence]]
-
-\[
-  0
-  \to 
-  Ext^1(H_{n-i-1}(\Sigma,\mathbb{Z}),U(1))
-  \to 
-  H^{n-i}(\Sigma,U(1))
-  \to 
-  Hom(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
-  \to 0
-  \,.
-\]
-
-Since $U(1)$ is an [[injective object|injective]] $\mathbb{Z}$-[[module]] we have 
-
-$$
-  Ext^1(-,U(1))=0
-  \,.
-$$  
-
-This means that we have an [[isomorphism]]
-
-\[
-  H^{n-i}(\Sigma,U(1))
-  \simeq 
-  Hom_{Ab}(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
-\]
-
-that identifies the [[cohomology group]] in question with the [[internal hom]] in [[Ab]] from the integral [[homology]] group of $\Sigma$ to $U(1)$.
-
-For $i\lt (n-dim \Sigma)$, the right hand is zero, so that 
-
-$$
-  \pi_i \infty Grpd(\Pi(\Sigma),\mathbf{B}^n U(1)) =0 \;\;\;\;
-  for i\lt (n-dim \Sigma)
-  \,. 
-$$ 
-
-For $i=(n-dim \Sigma)$, instead, $H_{n-i}(\Sigma,\mathbb{Z})\simeq \mathbb{Z}$, since $\Sigma$ is a closed $dim \Sigma$-manifold and so 
-
-$$
-  \pi_{(n-dim\Sigma)} \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))\simeq U(1)
-  \,.
-$$
-
-
-=--
+  * [[∞-Chern-Weil theory]].
 
 
 
@@ -3368,25 +3176,10 @@ $$
 
 * [[synthetic differential ∞-groupoid]]
 
-The $(\infty,1)$-topos $(\infty,1)Sh(ThCartSp)$ is that of [[smooth ∞-groupoid|synthetic differential ∞-groupoid]] 
-
-The [infinitesimal objects](#LieAlgebras) include 
-infinitesimal $\infty$-Lie groupoids: [[∞-Lie algebroid]]s $\mathbf{B}\mathfrak{g}$.
-
-
-
 
 
 ## Applications
 
-### Lie theory, Differential cohomology and Chern-Weil theory
-
-Every cohesive $(\infty,1)$-topos provides an internal notion of
-[[ordinary differential cohomology]], [[Lie theory]] and [[Chern-Weil theory]]. See
-
-* [[schreiber:differential cohomology in a cohesive topos]].
-
-### Fundamental physics and gauge theory
 
 As a context for geometric spaces and paths in geometric spaces, cohesive $(\infty,1)$-toposes are a natural context in which to formulate fundamental fundamental [[physics]]. See [[higher category theory and physics]] for more on this.
 
