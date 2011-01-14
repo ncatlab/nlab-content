@@ -45,6 +45,18 @@ Strictly speaking, there is no discrete [[metric space]] on any set with more th
 A general axiomatization of the notion of space is as an object in a [[cohesive topos]]. This comes by definition with an underlying-set-functor (or similar) and a [[left adjoint]] that produces discrete cohesive structure. See there for details.
 
 
+## Related concepts
+
+* **discrete space**
+
+* [[discrete group]] 
+
+* [[discrete groupoid]]
+
+* [[discrete ∞-groupoid]]
+
+
+
 [[!redirects discrete space]]
 [[!redirects discrete spaces]]
 
