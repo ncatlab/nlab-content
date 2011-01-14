@@ -13,9 +13,9 @@ For a [[poset]] $I$ and an [[abelian category]] $A$, an $I$-**filtered complex**
 
 (You may have noticed this isn't the usual notation for functors.  It's traditional.)
 
-The most frequent examples have $I=\mathbb{N}\cup\{\infty\}$, $I=-\mathbb{N}$, or $I=\mathbb{Z}\cup\{\infty\}$, with their usual total orderings.
+The most frequent examples have $I=\mathbb{N}\cup\{\infty\}$, $I=-\mathbb{N}$, or $I=\mathbb{Z}\cup\{\infty\}$, with their usual total orderings; in this connection see [[spectral sequence of a filtered complex]]
 
-Usually $C$ is a _graded_ complex, with $d_j:C_j\to C_{j-1} , and in this case we ask
+Usually $C$ is a _graded_ complex, with $d_j:C_j\to C_{j-1}$, and in this case we ask
 $$d_j:F_i\cap C_j \to F_i\cap C_{j-1}.$$
 (If you prefer cohomology differentials, read $+$ for $-$.)
 
