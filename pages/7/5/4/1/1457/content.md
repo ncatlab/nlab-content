@@ -2,13 +2,13 @@
 * automatic table of contents
 {:toc}
 
-# Idea #
+## Idea 
 
-A **metric space** is a set which comes equipped with a function which measures distance between points, called a _metric_. The metric can be used to generate a topology on the set, and a topological space whose topology comes from some metric is said to be _metrizable_. 
+A **metric space** is a [[set]] which comes equipped with a [[function]] which measures [[distance]] between points, called a _metric_. The metric can be used to generate a [[topology]] on the set, and a [[topological space]] whose topology comes from some metric is said to be _metrizable_. 
 
-# Definition #
+## Definition 
 
-Traditionally, a metric space is defined to be a [[set]] $X$ equipped with a function 
+Traditionally, a metric space is defined to be a [[set]] $X$ equipped with a [[distance]] function 
 $$d: X \times X \to [0, \infty)$$ 
 (valued in nonnegative [[real numbers]]) satisfying the following axioms: 
 * Triangle inequality: $d(x, y) + d(y, z) \geq d(x, z)$;
@@ -20,7 +20,7 @@ Given a metric space $(X, d)$ and a point $x \in X$, the _open ball_ centered at
 $$B_r(x) = \{y \in X: d(x, y) \lt r\}$$ 
 and it may be shown that the open balls form a basis for a [[topological space|topology]] on $X$. In fact, metric spaces are examples of [[uniform spaces]], and much of the general theory of metric spaces, including for example the notion of completion of a metric space, can be extrapolated to uniform spaces and even [[Cauchy spaces]].
 
-## Metrizable spaces
+### Metrizable spaces
 
 A **metrizable space** is a topological space $X$ which admits a metric such that the metric topology agrees with the topology on $X$. In general, many different metrics (in the sense of giving different [[uniform space|uniform structures]]) may give rise to the same topology; nevertheless, metrizability is manifestly a topological notion. 
 
@@ -28,7 +28,7 @@ Metrizable spaces enjoy a number of separation properties: they are [[Hausdorff 
 
 Metrizable spaces are closed under topological coproducts and of course subspaces (and therefore equalizers); they are closed under countable products but not general products (since normal spaces are not closed under general topological products; for instance, a product of uncountably many copies of $\mathbb{R}$ is not a normal space). 
 
-# Variations #
+## Variations 
 
 If we allow $d$ to take values in $[0,\infty]$ instead of just in $[0,\infty)$, then we get __extended metric spaces__.  If we drop separation, then we get __pseudometric spaces__.  If we drop the symmetry condition, then we get __quasimetric spaces__.  Thus the most general notion is that of an extended quasipseudometric space, which are also called __Lawvere metric spaces__ for the reasons below.
 
@@ -36,7 +36,7 @@ On the other hand, if we strengthen the triangle inequality to
 $$ max(d(x,y), d(y,z)) \geq d(x,z) ,$$
 then we get __ultrametric spaces__, a more restricted concept.  (This include for example $p$-adic completions of number fields.)  Extended quasipseudoultrametric spaces can also be called __Lawvere ultrametric spaces__.
 
-# Lawvere metric spaces #
+## Lawvere metric spaces 
 
 [[Lawvere]] has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be supremum instead, enriched categories amount to Lawvere ultrametric spaces.
 
@@ -51,7 +51,7 @@ _Toby_:  Yeah, that could work.  I was thinking of arguing that it makes sense t
 =--
 
 
-# Motivation for the axioms #
+## Motivation for the axioms 
 
 The triangle axiom is the fundamental idea behind a metric space; it goes back (at least) to Euclid and captures the idea that we are discussing the *shortest* distance between two points.  Given the triangle inequality, we have the polygon inequality
 $$ d(x_0,x_1) + \cdots + d(x_{n-1},x_n) \geq d(x_0,x_n) $$
@@ -72,7 +72,7 @@ $$ x \lt y \;\Leftrightarrow\; d(x,y) \gt 0 ;$$
 then the symmetry axiom implies that this is an [[apartness relation]], which (for quasimetric spaces) we can also define directly:
 $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
-# Examples #
+## Examples 
 
 * Every [[set]] carries the **[[discrete space|discrete metric]]** given by
   $$
