@@ -423,3 +423,6 @@ The discussion of enriched Reedy model structures is in
 * Vigleik Angeltveit, _Enriched Reedy categories_ ([arXiv](http://arxiv.org/abs/math/0612137))
 
 The main statement is theorem 4.7 there.
+
+[[!redirects Reedy model category]]
+[[!redirects Reedy model categories]]
