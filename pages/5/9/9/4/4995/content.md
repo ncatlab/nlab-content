@@ -1548,7 +1548,7 @@ This follows from $\mathbf{\tau}_{\leq n} LConst \Pi(X) \simeq LConst \tau_{\leq
 ###### Remark
 
 
-Therefore commuting diagram
+Therefore a commuting diagram
 
 $$
   \array{
