@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Cohesive $\infty$-Toposes
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
@@ -9,15 +9,13 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents 
 {:toc}
 
-
 ## Idea 
 
-A _Euclidea-topological $\infty$-groupoid_ is an [[∞-groupoid]] equipped with  [[cohesive (∞,1)-topos|cohesion]] in the form of [[Euclidean topology]].
+A _Euclidean-topological $\infty$-groupoid_ is an [[∞-groupoid]] equipped with  [[cohesive (∞,1)-topos|cohesion]] in the form of [[Euclidean topology]].
 
 
 ## Definition
@@ -34,25 +32,22 @@ $$
 $$
 
 to be the [[(∞,1)-category of (∞,1)-sheaves]] on $CartSp_{top}$.
-
 =--
 
-## Properties
 
+## Properties
 
 +-- {: .un_prop}
 ###### Proposition
 
 
 The [[(∞,1)-topos]] $ETop \infty Grpf$ is a [[cohesive (∞,1)-topos]].
-
 =--
 
 +-- {: .proof}
 ###### Proof
 
 The site [[CartSp]]${}_{top}$ an  [[∞-cohesive site]].  See there for details.
-
 =--
 
 +-- {: .un_def}
@@ -70,7 +65,6 @@ $$
   X : U \mapsto Hom_{Top}(U,X)
   \,.
 $$
-
 =--
 
 On [[topological manifold]]s this is a [[full and faithful functor]].
@@ -112,7 +106,6 @@ $$
   X \simeq |\Pi(X)|
   \,.
 $$ 
-
 =--
 
 +-- {: .proof}
@@ -136,9 +129,7 @@ $$
 Using the [[equivalence of categories]] $[CartSp^{op}, sSet] \simeq [\Delta^{op}, [CartSp^{op}, Set]]$ and that [[colimit]]s in [[presheaf categories]] are computed objectwise and finally using that the colimit of a [[representable functor]] is the point (an incarnation of the [[Yoneda lemma]]) we have that $\Pi(X)$ is presented by the [[Kan complex]] that is obtained by contracting in the [[Cech nerve]] $C(\coprod_i U_i)$ each open subset to a point.
 
 The classical [[nerve theorem]] then asserts that this implies the claim.
-
 =--
-
 
 +-- {: .un_remark}
 ###### Remark
@@ -151,9 +142,7 @@ $$
   \Pi_{ETop\infty Grpd}(X) \simeq \Pi_{Top}(X)
   \,.
 $$
-
 =--
-
 
 +-- {: .un_prop}
 ###### Corollary
@@ -164,9 +153,7 @@ $$
   |\Pi(X_\bullet)| \simeq |X_\bullet|_{Top^{\Delta^{op}}}
   \,.
 $$
-
 =--
-
 
 +-- {: .proof}
 ###### Proof
@@ -227,13 +214,13 @@ $$
 $$
 
 By the discussion at [[geometric realization of simplicial topological spaces]], this maps to the [[homotopy colimit]] of the simplicial topological space $X_\bullet$, which is just its geometric realizaiton if it is proper. 
-
 =--
 
-### Cohomology {#Cohomology}
+
+### Cohomology
+{#Cohomology}
 
 We dicuss aspects of the intrinsic [[cohomology]] of $E Top \infty Grpd$.
-
 
 +-- {: .un_def }
 ###### Definition
@@ -254,7 +241,6 @@ $$
 $$
 
 for the intrinsic [[cohomology]] of $ETop \infty Grpd$ on $X$ with coefficients in $A$.
-
 =--
 
 +-- {: .un_prop }
@@ -272,7 +258,6 @@ $$
   Top(X,|A|) \simeq ETop\infty Grpd(X, Disc A)
   \,.
 $$
-
 =--
 
 +-- {: .proof}
@@ -288,15 +273,15 @@ $$
 $$
 
 From this the claim follows by the [above proposition](#FundGroupoidOfParacompact).
-
 =--
 
 
-### Path $\infty$-groupoid {#PathInftinityGroupoids}
+### Path $\infty$-groupoid
+{#PathInftinityGroupoids}
 
 Let $C$ be an [[∞-connected site]]. We give an explicit presentation of the _<a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">constant path inclusion</a>_ $X \to \mathbf{\Pi}(X)$ in the [[locally ∞-connected (∞,1)-topos]] over $C$ such that the component maps are cofibrations. 
 
-+-- {: .un_remark }
++-- {: .un_remark}
 ###### Remark
 
 The projective [[model structure on simplicial presheaves]] 
@@ -309,11 +294,9 @@ $$
   \}
   \,.
 $$
-
 =--
 
 See [[model structure on functors]] for details.
-
 
 +-- {: .un_def }
 ###### Definition
@@ -338,7 +321,6 @@ $$
 $$
 
 be the [[Yoneda extension]] (left [[Kan extension]] through the [[Yoneda embedding]]) of this functor to all of $[C^{op}, sSet]$.
-
 =--
 
 +-- {: .un_remark}
@@ -360,11 +342,9 @@ $$
 $$
 
 This is a $U$-parameterized family of objects of $A$ together with a $U_0$-parameterized family of morphisms of $A$ associated to the pairs of points $(s,t) \in U$, hence to the "straight paths" from $s$ to $t$. At the next stage for every triangle of such straight path a 2-morphism is thrown in, and so on. So $\mathbf{Sing}U$ indeed is an $\infty$-groupoid of paths in $U$. 
-
 =--
 
-
-+-- {: .un_prop }
++-- {: .un_prop}
 ###### Proposition
 
 The functor $\mathbf{Sing}$ is the [[left adjoint]] of a [[Quillen adjunction]]
@@ -493,10 +473,9 @@ $$
 with weak equivalences in $[C^{op}, sSet]_{proj}$ as indicated: the top morphism is a weak equivalence by the argument just given, the bottom one by the [[small object argument]]-construction of $\mathbf{Sing}$ and the right vertical morphism is a weak equivalence by the assumption on an [[∞-connected site]]. It follows by 2-out-of-3 that also the left vertical morphism is a weak equivalence.
 
 This establishes the fact that $\mathbf{Sing}$ is left Quillen on the local model structure on simplicial presheaves. By the discussion at [[simplicial Quillen adjunction]] this implies that its left [[derived functor]] is a [[left adjoint|left]] [[adjoint (∞,1)-functor]]. Hence it preserves [[(∞,1)-colimit]]s and so is determined on representatives. There $\mathbf{Sing} U \simeq *$ does coindice with $\Pi(U) \simeq *$, hence both [[(∞,1)-functor]]s are equivalent.
-
 =--
 
-+-- {: .un_prop }
++-- {: .un_corollary}
 ###### Corollary
 
 For all cofibrant $X \in [C^{op}, sSet]_{proj,loc}$, the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#deRhamCohomology">de Rham coefficient object</a> $\mathbf{\Pi}_{dR} X$ is presented by the ordinary [[pushout]]
@@ -512,23 +491,20 @@ $$
 $$
 
 in $[C^{op}, sSet]$.
-
 =--
 
 +-- {: .proof}
 ###### Proof
 
 By definition we have that $\mathbf{\Pi}_{dR}$ is the [[(∞,1)-pushout]] $\mathbf{\Pi}(X) \coprod_X *$ in $Sh_{(\infty,1)}(C)$. By the above proposition we have a cofibrant presentation of the pushout diagram as indicated (all three objects cofibrant, at least one of the two morphisms a cofibration). By the general discussion at [[homotopy colimit]] the ordinary pushout of that diagram does compute the [[(∞,1)-colimit]].
-
 =--
 
 ## Homotopy localization
 
-
 We discuss that the[[homotopy localization]] of topological $\infty$-groupoids reproduces [[Top]] $\simeq$ [[∞Grpd]], following ([Dugger](#Dugger)).
 
 
-**Idea**
+### Idea
 
 A central result about the [[(∞,1)-topos]] $Sh_{(\infty,1)}(Top)$ of [[∞-stack]]s on [[Top]] is that the [[homotopy localization]] is equivalent to [[Top]] itself
 
@@ -543,7 +519,8 @@ In fact, this is true even for [[Lie ∞-groupoid]]s, i.e. [[∞-stack]]s on [[D
 
 This provides a useful resolution of [[topological space]]s that often helps to disentangle the two different roles played by a topological space: on the one hand as a model for an [[∞-groupoid]], in the other as a [[locale]].
 
-**Details**
+
+### Details
 
 Let $SPSh(Diff)^{loc}$ be the local [[model structure on simplicial presheaves]] obtained by left [[Bousfield localization of model categories|Bousfield localization]] at the [[Cech nerve]]s of 
 [[Cech cover]]s with respect to the standard [[Grothendieck topology]] on [[Diff]]. This is a [[models for ∞-stack (∞,1)-toposes|model for ∞-stacks]] on [[Diff]].
@@ -562,11 +539,11 @@ $$
 where $L$ sends a simplicial set to the simplicial presheaf constant on that simplicial
 set, and where evaluates a simplicial presheaf on the manifold that is the [[point]]. 
 
-**Theorem (Dugger)**
++-- {: .un_theorem}
+###### Theorem (Dugger)
 
 This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the  standard [[model structure on simplicial sets]] on the left and the above model structure $SPSh(Diff)_{loc}^I$ on the right.
-
-
+=--
 
 
 ## References
@@ -576,25 +553,21 @@ Some discussion of the $(\infty,1)$-category of $(\infty,1)$-sheaves on the cate
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 {#Dugger}
 
-[[!redirects Euclidean topological ∞-groupoid]]
 
-[[!redirects Euclidean topological infinity-groupoids]]
-[[!redirects Euclidean topological ∞-groupoids]]
-
-
-[[!redirects Euclidean-topological ∞-groupoid]]
-[[!redirects Euclidean-topological infnity-groupoid]]
-
-
+[[!redirects Euclidean-topological infinity-groupoid]]
 [[!redirects Euclidean-topological infinity-groupoids]]
+[[!redirects Euclidean-topological infnity-groupoid]]
+[[!redirects Euclidean-topological ∞-groupoid]]
 [[!redirects Euclidean-topological ∞-groupoids]]
-
+[[!redirects Euclidean topological infinity-groupoid]]
+[[!redirects Euclidean topological infinity-groupoids]]
+[[!redirects Euclidean topological ∞-groupoid]]
+[[!redirects Euclidean topological ∞-groupoids]]
 
 [[!redirects ETop∞Grpd]]
 
 [[!redirects topological infinity-groupoid]]
-
-
+[[!redirects topological infinity-groupoids]]
 [[!redirects topological ∞-groupoid]]
 [[!redirects topological ∞-groupoids]]
 
@@ -604,5 +577,3 @@ Some discussion of the $(\infty,1)$-category of $(\infty,1)$-sheaves on the cate
 [[!redirects continuous infinity-groupoids]]
 [[!redirects continuous ∞-groupoid]]
 [[!redirects continuous ∞-groupoids]]
-
-[[!redirects Euclidean topological infinity-groupoid]]
