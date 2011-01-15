@@ -411,7 +411,7 @@ This appears as Lemma 18.2 in [MaySimpOb](#MaySimplicialObjects).
 =--
 
 
-#### Universal simplicial $G$-principal bundle
+#### Universal simplicial $G$-principal bundle {#UniversalSimplicialBundle}
 
 +-- {: .un_def}
 ###### Definition
