@@ -33,7 +33,7 @@ At every stage we have a new family of long exact sequences
 
 #### Convergence, ideally
 
-It is instructive to note that in the $n$th derived exact couple $\varphi^n D\to E_{(n)} \to \varphi^n D\to{}$, the hidden part $\varphi^n D$ is the [[module|submodule]] $D_{(n)}$ of $\bigoplus_{i} H(F_{i+n})$ representable by elements of $F_i$; that is, we may sensibly call it
+It is instructive to note that in the $n$th derived exact couple $\varphi^n D\to E_{(n)} \to \varphi^n D\to{}$, the hidden part $\varphi^n D$ is the [[module|submodule]] $D_{(n)}$ of $\bigoplus_{i} H(F_{i+n})$, as it meets $H(F_{i+n})$ representable by elements of $F_i$; that is, we may sensibly call it
 $$F_{i} D_{(n)} = \frac{\ker(d)\cap F_i}{F_i\cap dF_{i+n}}.$$
 Separating the grades, the exactness of the couple at $E_{(n)}$ then says 
 $$ F_{i} H^j(F_{i+n})\to F_{i+1}H^j(F_{i+n+1}) \to E_{(n)}^{i\dots} \to F_i H^{j+1}(F_{i+n}) \to F_{i+1}H^{j+1}(F_{i+n+1}) $$
@@ -45,3 +45,27 @@ At this stage one can check that the morphisms $F_i H^j(C)\to F_{i+1} H^j(C)$ ar
 $$ 0\to F_i H^j(C) \to F_{i+1} H^j(C)\to E_{(\infty)}^{i\dots} \to 0 .$$
 
 In summary, if the spectral sequence $E_{(n)}$ converges in a sensible way to the correct thing $E_{(\infty)}$, then that correct thing is also the associated graded [[module]] of the [[filtration]] of $H^\bullet(C)$ induced by the [[filtration]] of $C$.
+
+## Application: Serre's Spectral Sequence for a Fibration
+
+Let
+$$\begin{matrix} A & \to & X \\
+ \downarrow & & \downarrow \\
+ * & \to & B \end{matrix} $$
+be a [[fibration]] of pointed spaces in which $B$ is a connected [[CW-complex]].  Then the $k$-skeleta of $B$ naturally give filtered-space structures to both $B$ and $X$:
+$$\begin{matrix} X_{(k)} & \to & X_{(k+1)} & \to & X \\
+ \downarrow & & \downarrow & &\downarrow \\
+ B_{k} & \to & B_{k+1} & \to & B \end{matrix} $$
+and in turn induce filtrations of the singular chain complex of $X$.
+
+The homology Serre spectral sequence for the fibration is essentially that of this filtered complex.
+
+It is straight-forward to show that the pair $(X_{k+1};X_k)$ is $k$-connected, and in particular the relative homology $H_i(X_{k+1};X_k)$ vanishes for $i\leq k$; this ensures that the spectral sequence is 1st/3rd quadrant (And _nota bene_: this is also a handy way to remember what the bigrading actually is).
+
+There is also an important result about the _second_ page of this spectral sequence
++--
+###### Theorem
+*The page $E^{(2)}$ of the homology Serre spectral sequence is given by*
+$$ E^{(2)}_{p,q} \simeq H_p(B,\mathcal{H}_q(A|_{b})) $$
+*the homology of $B$ with coefficients in the [[local system]] defined by the action of $\Pi_1 (B)$ on $H_q(A|_{b})$.  In the special case that $B$ is simply connected, these local systems are canonically equivalent to $H_q(A)$, the homology of the fiber over the basepoint.
+=--
