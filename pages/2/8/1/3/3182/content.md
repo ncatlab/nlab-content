@@ -217,10 +217,10 @@ By the discussion at [[geometric realization of simplicial topological spaces]],
 =--
 
 
-### Cohomology
+### Cohomology and principal $\infty$-bundles
 {#Cohomology}
 
-We dicuss aspects of the intrinsic [[cohomology]] of $E Top \infty Grpd$.
+We dicuss aspects of the intrinsic [[cohomology]] of $E Top \infty Grpd$ and of the [[principal ∞-bundle]]s that it classifies.
 
 +-- {: .un_def }
 ###### Definition
@@ -274,6 +274,69 @@ $$
 
 From this the claim follows by the [above proposition](#FundGroupoidOfParacompact).
 =--
+
+
++-- {: .un_prop}
+###### Proposition
+
+Let $G$ be a [[simplical object|simplicial]] [[topological group]] that is well-sectioned and degreewise [[paracompact topological space]]. Regard it as an object in $E Top \infty Grpd$ in the canonical way, where it is an [[∞-group]] object. Write $\mathbf{B}G$ for its [[delooping]] in $ETop \infty Grpd$.
+
+The [[(∞,1)-functor]] $\Pi : ETop \infty Grpd$ preserves [[homotopy fiber]]s of all morphisms of the form $X \to \mathbf{B}G$.
+
+More in detail, for $P \to X$ a $G$-[[principal ∞-bundle]] in $ETop \infty Grpd$ classified by a [[cocycle]] $X \to \matbf{B}G$ we have that $|\Pi(P)| \to |\Pi(X)|$ is the $|G|$-[[principal ∞-bundle]] in [[Top]] classified by $|\Pi(X)| \to B |G|$.
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Write, as usual for [[simplicial group]]s, $\mathbf{B}G := \bar W G$ for its <a href="http://ncatlab.org/nlab/show/simplicial+group#Delooping">delooping</a>. Write $E G$ for the corresponding model for the [[universal principal ∞-bundle]]. Both are naturally fibrant objects of $[CartSp^{op}, sSet]_{proj}$ and $W G \to \bar W G$ is a fibant presentation of the point inclusion $* \to \mathbf{B}G$. Write $X$ for a fibrant model of that object in $[CartSp^{op}, sSet]_{proj}$. Then the ordinary [[pullback]] of $W G \to \bar W G$ along $X\to W G$ is a model for the [[homotopy fiber]] of $X \to \mathbf{B}G$ in $E Top \infty Grppd$. 
+
+$$
+  \array{
+    P_\bullet &\to& W G
+    \\
+    \downarrow && \downarrow
+    \\
+    X_\bullet &\to& \bar W G
+  }
+$$
+
+(as described at [[homotopy fiber]] and [[universal principal ∞-bundle]]). 
+
+By the [above proposition](#FundGroupoidOfParacompact) the functor $\Pi$ sends this pullback diagram to the corresponding [[geometric realization of simplicial topological spaces]], up to weak equivalence.
+
+In ([StevensonRoberts](#StevensonRoberts)) it is shown that under [[geometric realization of simplicial topological spaces]] the universal [[simplicial principal bundle]] (see there)
+$\mathbf{E}G := W G \to \bar W G$ maps to the universal $|G|$-[[principal bundle]] $\mathcal{E} |G| \to \mathcal{B}|G|$ in [[Top]].
+
+
+Since [[geometric realization of simplicial spaces]] preserves [[pullback]]s (see there), we have that $\Pi$ sends the above, up to equivalence, to the pullback square
+
+$$
+  \array{
+    |P_\bullet| &\to& \mathcal{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    |X_\bullet| &\to& \mathcal{B}G
+  }
+$$
+
+in [[Top]]. Again, this computes the homotopy fiber of the bottom morphism, up to equivalence.
+
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+The functor $\Pi : Sh_{(\infty,1)}(CartSp) \to \infty Grpd$ preserves homotopy fibers of morphisms represented by degreewise [[paracompact space|paracompact]] simplicial topological spaces $X_\bullet \to \mathbf{B}G$ as above.
+
+=--
+
+
+
+
 
 
 ### Path $\infty$-groupoid
