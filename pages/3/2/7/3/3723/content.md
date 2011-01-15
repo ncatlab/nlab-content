@@ -218,7 +218,7 @@ $$
   \,.
 $$
 
-Here the right square is the defining $(\infty,1)$-pullback diagram of $\mathbf{B}^n \mathbf{\pi}_n(X)$ from above. Take also the left bottom square to be a homotopy pullback. Then from the pasting rules of pullbacks it follows that the compoisite bottom rectangle is also a pullback, which identifies the object $X^{(n-1)}$ on the left as indicated.
+Here the right square is the defining $(\infty,1)$-pullback diagram of $\mathbf{B}^n \mathbf{\pi}_n(X)$ from above. Take also the left bottom square to be a homotopy pullback. Then from the pasting rules of pullbacks it follows that the composite bottom rectangle is also a pullback, which identifies the object $X^{(n-1)}$ on the left as indicated.
 
 Similarly, form now the top square as a pullback. Then by the composition law of pullbacks we find that the composite vertical rectangle is a pullback, which identifies the top left object as $X^{(n)}$.
 
