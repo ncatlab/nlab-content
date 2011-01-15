@@ -6,29 +6,35 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
 =--
 =--
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-If an [[(∞,1)-topos]] $\mathbf{H}$ is [[locally contractible (∞,1)-topos|locally contractible]] it has a good notion of  [[homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of its objects. In terms of these, there is an analog in $\mathbf{H}$ of the notion of the classical notion of [[Whitehead tower]] in the archetypical $(\infty,1)$-topos [[Top]]:
+If an [[(∞,1)-topos]] $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] it has a good notion of  [[homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of its objects. In terms of these, there is an analog in $\mathbf{H}$ of the notion of the classical notion of [[Whitehead tower]] in the archetypical $(\infty,1)$-topos [[Top]]:
 
 the Whitehead tower of an object $X \in \mathbf{H}$ is the tower of $n$-[[connected]] [[homotopy fiber]]s of the canonical morphism into the [[Postnikov tower in an (∞,1)-category|(∞,1)-topos-theoretic Postnikov tower]] $\cdots \to \mathbf{\Pi}_{n+1}(X) \to \mathbf{\Pi}_n(X) \to \cdots$ of the [[schreiber:path ∞-groupoid|structured path ∞-groupoid]] $\mathbf{\Pi}(X)$ of $X$.
 
+See also the section <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Coverings">Universal coverings and geometric Whitehead towers</a> at [[cohesive (∞,1)-topos]].
+
 ## Definition
 
-Let $\mathbf{H}$ be a [[locally contractible (∞,1)-topos]] $\mathbf{H} \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}} \infty Grpd$. Write 
+Let $\mathbf{H}$ be a [[locally ∞-connected (∞,1)-topos]] $\mathbf{H} \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}} \infty Grpd$. Write 
 
 $$
   \mathbf{\Pi} := LConst \circ \Pi : \mathbf{H} \to \mathbf{H}
 $$
 
-for the _internal_ [[schreiber:homotopy ∞-groupoid]] functor. From the adjunction relation this comes with the canonical natural morphism
+for the _internal_ [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]-functor. From the adjunction relation this comes with the canonical natural morphism
 
 $$
   X \to \mathbf{\Pi}(X)
@@ -331,8 +337,5 @@ There are other interpretations of $X^{(n)}$:
  * The \'vertical fundamental $(n-1)$-groupoid\' of $PX \to X$, the path fibration.
 
 The last can be thought of as a families version of the usual fundamental $(n-1)$-groupoid: take vertical paths, vertical homotopies between paths etc.
-
-### For obstruction problems
-
 
 [[!redirects Whitehead tower in an (∞,1)-topos]]
