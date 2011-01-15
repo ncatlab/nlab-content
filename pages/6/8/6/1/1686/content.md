@@ -203,11 +203,11 @@ and we have
 
 ### Spectral sequence of a filtered complex
 
-_Included from [[spectral sequence of a filtered complex|this page]]._
+If a cochain complex $C^\bullet$ is given a filtration $F^\star C^\bullet$, there is an induced filtration $F^* H(C)$ of its cohomology, according to which levels of the filtration contain representatives for the various cohomology classes.
 
-[[!include spectral sequence of a filtered complex]]
+A filtration $F$ also gives rise to a graded object $Gr(F)$, whose grades are the successive level inclusion cokernels.  Generically, the operations of grading and homology do not commute: $Gr(F^* H^\bullet(C)) \neq H^\bullet (Gr(F^\star) C)$.
 
-_End of inclusion_
+As explained more fully at [[spectral sequence of a filtered complex|this other page]], there is a spectral sequence associated to a filtered complex $F^\star C^\bullet$, passing through $H^\bullet (Gr(F^\star) C)$ in the page $E_{(1)}$ and which in good cases converges to $Gr(F^* H^\bullet(C))$.
 
 #### Spectral sequence of a double complex
 
