@@ -94,20 +94,19 @@ For $n = 1$ this reproduces the case of a [[locally connected topos]].
 ## Examples {#LocallyContractibleExamples}
 
 
-### Over $\infty$-connected sites
+### Over locally $\infty$-connected sites
 
 The follow proposition gives a large supply of examples.
 
 +-- {: .un_prop}
 ###### Proposition
 
-Let $C$ be a locally and globally [[∞-connected site]]. Then the 
-[[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$ is a 
+Let $C$ be a [[locally ∞-connected (∞,1)-site]]/[[∞-connected (∞,1)-site]]. Then the  [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$ is a 
 locally $\infty$-connected $(\infty,1)$-topos.
 
 =--
 
-See [[∞-connected site]] for the proof.
+See [[locally ∞-connected (∞,1)-site]]/[[∞-connected (∞,1)-site]] for the proof.
 
 +-- {: .un_remark}
 ###### Remark
@@ -119,21 +118,68 @@ is stated essentially what the above proposition asserts at the level of [[homot
 
 This includes the following examples.
 
-+-- {: .un_exampe}
++-- {: .un_example}
 ###### Example
 
-For $X$ a [[locally ∞-connected site]] its [[category of open subsets]] $Op(X)$ is a locally $\infty$-connected site.
-
+The sites [[CartSp]]${}_{top}$ $CartSp_{smooth}$ $CartSp_{synthdiff}$ are locally $\infty$-connected. 
+The corresponding $(\infty,1)$-toposes are the [[cohesive (∞,1)-topos]]es [[ETop∞Grpd]], [[Smooth∞Grpd]] and [[SynthDiff∞Grpd]].
 
 =--
 
-+-- {: .un_exampe}
+
+### Over locally $n$-connected topological spaces
+
++-- {: .un_example}
 ###### Example
 
-The sites [[CartSp]], [[ThCartSp]] are locally $\infty$-connected. 
-The corresponding $(\infty,1)$-topos is [[?LieGrpd]].
+For $X$ a [[locally contractible space]], $Sh_{(\infty,1)}(X)$ is a locally $\infty$-connected $(\infty,1)$-topos.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+The full subcategory $cOp(X) \hookrightarrow Op(X)$ of the [[category of open subsets]] on the contractible subsets is another site of definition for $Sh_{(\infty,1)}(X)$. And it is a [[locally ∞-connected (∞,1)-site]].
+
+=--
+
+By the same kind of argument:
+
++-- {: .un_exampke}
+###### Example
+
+For $n \in \mathbb{N}$ and for $X$ a locally $n$-[[connected]] [[topological space]], $Sh_{(n,1)}(X)$ is a locally $n$-connected $n$-topos.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For $X$ a [[locally contractible topological space]] we have that the 
+[[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]] computes the correct [[homotopy type]] of $X$:
+
+the image of $X$ as the [[terminal object in an (∞,1)-category|terminal object]] in $Sh_{(\inffty,1)}(C)$ under the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]-functor
+
+$$
+  \Pi : Sh_{(\infty,1)}(X) \to \infty Grpd
+$$
+
+is equivalent to the ordinary [[fundamental ∞-groupoid]] given by the [[singular simplicial complex]]
+
+$$
+  \Pi(X) \simeq Sing X
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By using the [[presentable (∞,1)-category|presentations]] of $Sh_{(\infty,1)}(X)$ by the [[model structure on simplicial presheaves]] as discussed at [[locally ∞-connected (∞,1)-site]] one finds that this boils down to the old Artin-Mazur theorem. More on this at [[geometric homotopy groups in an (∞,1)-topos]].
+
+=--
+
 
 ### Locally $\infty$-connected over-$(\infty,1)$-toposes
 
