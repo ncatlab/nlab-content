@@ -198,12 +198,11 @@ References relating more to strong shape  theory include:
 
 * [[Tim Porter]], _Stability Results for Topological Spaces_, Math. Zeit. 150, 1974, pp. 1-21.
 
-* [[T. Porter]], [Abstract homotopy theory in procategories](archive.numdam.org/article/CTGDC_1976__17_2_113_0.pdf)
-, Cahiers Top. G&#233;om. Diff., 17, 1976, pp. 113-124;
+* [[T. Porter]], _Abstract homotopy theory in procategories_, Cahiers Top. G&#233;om. Diff., 17, 1976, pp. 113-124, [numdam](http://archive.numdam.org/article/CTGDC_1976__17_2_113_0.pdf)
 
-* [[T. Porter]],  [Coherent prohomotopical algebra](archive.numdam.org/article/CTGDC_1977__18_2_139_0.pdf), Cahiers Top.G&#233;om.Diff., 18, (1978) pp. 139-179;
+* [[T. Porter]],  _Coherent prohomotopical algebra_, [numdam](http://archive.numdam.org/article/CTGDC_1977__18_2_139_0.pdf), Cahiers Top. G&#233;om. Diff. __18__, (1978) pp. 139-179;
 
-* [[T. Porter]], [Coherent prohomotopy theory](archive.numdam.org/article/CTGDC_1978__19_1_3_0.pdf), Cahiers Top. G&#233;om. Diff., 19, (1978) pp. 3-46. 
+* [[T. Porter]], _Coherent prohomotopy theory_, Cahiers Top. G&#233;om. Diff. __19__, (1978) pp. 3-46, [numdam](http://archive.numdam.org/article/CTGDC_1978__19_1_3_0.pdf). 
 
 These last three papers developed a version of the [[BrownAHT]] to pro-categories of simplicial sets and of chain complexes, so as to give [[strong shape theory]] a better foundation and toolbox of homotopical methods. These methods were complementary to those of Edwards and Hastings, (listed above), who used a Quillen model category structure on the pro-category.
 
@@ -213,7 +212,7 @@ References to the categorical forms of shape theory include
 
 * A. Deleanu, P.J. Hilton, _Borsuk's shape and Grothendieck categories of pro-objects_, Math. Proc. Camb. Phil. Soc. 79 (1976) 473-482.
 
-* D.  Bourn, [[Jean-Marc Cordier|J.-M. Cordier]], [Distributeurs et th&#233;orie de la forme](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188.
+* D.  Bourn, [[Jean-Marc Cordier|J.-M. Cordier]], _Distributeurs et th&#233;orie de la forme_, Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188, [numdam](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2).
 
 and
 
