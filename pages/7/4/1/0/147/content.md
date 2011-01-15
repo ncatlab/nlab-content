@@ -109,7 +109,7 @@ $$
 
 **Proposition**
 
-For $f : X \to Y$ a morphism of sites, the direct and inverse image functors give a [[geometric morphism]] between the corresponmding [[category of sheaves|sheaf]] [[topos]]es in that they restrict to an [[adjunction]] 
+For $f : X \to Y$ a morphism of sites, the direct and inverse image functors give a [[geometric morphism]] between the corresponding [[category of sheaves|sheaf]] [[topos]]es in that they restrict to an [[adjunction]] 
 
 $$
   (f_* \dashv f^*) : Sh(X) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} Sh(Y)
