@@ -50,7 +50,7 @@ Therefore it is quite useful to think of _every_ stack on $Diff$ as encoding a _
 For this reason, here we shall find it useful to adopt the term _Lie groupoid_ for a general objects in $Sh_{(2,1)}(Diff)$ and to speak of Lie groupoids _[[representable functor|represented]]_ in [[smooth manifold]]s or of [[geometric stack]]s if we mean groupoids internal to manifolds, under the embedding indicated above.
 
 
-### $\infty$-Lie groupoids as $(\infty,1)$-sheaves / $\infty$-stacks
+### Smooth $\infty$-groupoids as $(\infty,1)$-sheaves / $\infty$-stacks
 
 As we generalize from [[groupoid]]s to [[∞-groupoid]]s, the notion of [[stack]]/[[2-sheaf|(2,1)-sheaf]] generalizes to that of [[∞-stack]]/[[(∞,1)-sheaf]]. Therefore we shall _define_ an $\infty$-Lie groupoid to be an [[(∞,1)-sheaf]] on a [[site]] of smooth test spaces. 
 
@@ -64,9 +64,10 @@ There are other sites on wich one may want a smooth $\infty$-groupoid to be mode
 The key difference of $\mathbb{L}$ to [[Diff]] is that the former contains smooth [[infinitesimal space]]s. Therefore an $\infty$-Lie groupoid modeled on $\mathbb{L}$ may have spaces of [[k-morphism]]s that have infinitesimal extension in some direction. Notably one obtains a notion of $\infty$-Lie groupoids for which _all $k$-morphisms are infinitesimal_ in a precise sense. It sturns out that such **infinitesimal $\infty$-Lie groupoids** may be identified with [[∞-Lie algebroid]]s: generalizations to [[higher category theory]] of [[Lie algebra]]s and [[Lie algebroid]]s.
 
 
-## The $(\infty,1)$-topos of $\infty$-Lie groupoids {#InfSheavesOnCartSp}
+## The cohesive $(\infty,1)$-topos $Smooth \infty Grpd$ {#InfSheavesOnCartSp}
 
-We discuss in more detail some properties of the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ of [[(∞,1)-sheaves]] on [[CartSp]].
+We discuss in more detail some properties of the [[
+cohesive (∞,1)-topos]] of smooth $\infty$-groupoids.
 
 +-- {: .un_defn}
 ###### Definition
@@ -150,61 +151,39 @@ Moreover, since the cover is _good_ the Cech nerve $C(\{U_i\})$ is degreewise a 
 
 This fact related to the classical [[nerve theorem]] which asserts that the simplicial set obtained by contracting in $C(\{U_i\})$ all copies of [[Cartesian space]]s to the point is a model for the [[homotopy type]] of $X$.
 
-More on that below in the discussion of $Sh_{(\infty,1)}(CartSp)$ as a [[locally ∞-connected (∞,1)-topos]]... 
+More on that below in the discussion of $Sh_{(\infty,1)}(CartSp)$ as a [[locally ∞-connected (∞,1)-topos]].
 
 =--
+
+### Relation to $ETop \infty Grpd$
+
+$Smooth \infty Grpd$ inherits several properties from
+[[ETop ∞Grpd]].
+
+(...)
 
 ### $\infty$-Connectedness {#InfConnectedness}
 
-We discuss that $\infty LieGrpd$ is an [[∞-connected (∞,1)-topos]] and recall the notions of intrinsic de Rham objects induced from that.
+We discuss that $Smooth \infty Grpd$ is a [[∞-connected (∞,1)-topos]] and recall the notions of intrinsic de Rham objects induced from that.
 
-+-- {: .un_lemma}
-###### Lemma
++-- {: .un_prop}
+###### Proposition
 
-The $(\infty,1)$-topos $\infty LieGrpd$ is a [[cohesive (∞,1)-topos]].
-
-=--
-
-So in particular it is a [[locally ∞-connected (∞,1)-topos]]. 
-
-
-This means that the [[global section]] [[geometric morphism]] is [[essential geometric morphism|essential]] in that we have a triple of [[adjoint (∞,1)-functor]]s
-
-$$
-  (\Pi \dashv LConst \dashv \Gamma)
-  :
-  \infty LieGrpd \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}}
-  \infty Grpd
-$$
-
-and that $LConst$ is a [[nLab:full and faithful (∞,1)-functor]].
-
-Notice that this is the $\infty$-analog of the statement that $Sh(CartSp)$ is a [[connected topos]], as discussed in detail at [[diffeological space]].
-
-+-- {: .proof}
-###### Proof
-
-The proof can be found at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">path ∞-groupoid -- Unstructured homotopy ∞-groupoid</a>.
-
-=--
-
-+-- {: .un_lemma}
-###### Lemma
-
-In addition the [[(∞,1)-functor]] $\Pi$ preserves finite [[product]]s.
+$Smooth \infty Grpd$ is a [[cohesive (∞,1)-topos]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The proof can be found at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">path ∞-groupoid -- Unstructured homotopy ∞-groupoid</a>.
+Because [[CartSp]] is an [[∞-cohesive site]]. See there for details.
 
 =--
+
 
 #### Path $\infty$-groupoids and flat objects
 
-We make the usual definitions in an [[∞-connected (∞,1)-topos]] as described in more detail at [[schreiber:path ∞-groupoid]] and at [[schreiber:differential cohomology in an (∞,1)-topos]]:
+We make the usual definitions in a [[cohesive (∞,1)-topos]],
 
 +-- {: .un_def}
 ###### Definition
@@ -290,44 +269,9 @@ $$
 
 This we may identify with the $\infty$-groupoid analog of the [[Maurer-Cartan form]] on a Lie group $G$.
 
-#### The vertical form on a $G$-principal $\infty$-bundle {#VerticalForm}
-
-
-For $P \to X$ the $G$-[[principal ∞-bundle]] classified by a morphism $X \to \mathbf{B}G$  in $\infty LieGrpd$, for each point $x : * \to X$ the pasting diagram of [[(∞,1)-pullback]] squares
-
-$$
-  \array{
-    G \simeq P_x &\to& P &\to& *
-    \\
-    {}^{\mathllap{\theta}_x}\downarrow && \downarrow && \downarrow
-    \\
-    \mathbf{\flat}_{dR} \mathbf{B}G
-    &\to&
-    At(P)
-    &\to&
-    \mathbf{\flat} \mathbf{B}G
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    * &\to&
-    X
-    &\to&
-    \mathbf{B}G
-  }
-$$
-
-exhibits the canonical $\mathfrak{g}$-valued vertical intrinsic form 
-
-$$
-  (\theta_x : P_x \to \mathbf{\flat}_{dR}\mathbf{B}G)
-  \in 
-  \mathbf{H}_{dR}(P_x, \mathbf{B}G)
-$$
-
-on the fiber $P_x$ of $P$ over $x$.
-
-
 #### Geometric realization and homotopy groups {#GeometricRealization}
+
+This discussion is now in more detail at [[ETop∞Grpd]].
 
 +-- {: .un_prop}
 ###### Proposition
