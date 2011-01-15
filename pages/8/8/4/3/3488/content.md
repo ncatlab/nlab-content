@@ -45,7 +45,7 @@ have analogs for [[topos]]es, [[(n,1)-toposes]] and [[(∞,1)-topos]]es
 
 A [[(∞,1)-sheaf (∞,1)-topos]] $\mathbf{H}$ is called 
 **locally $\infty$-connected** if the (essentially unique) 
-[[global section]] [[(∞,1)-geometric morphism]] is an [[essential (∞,1)-geometric morphism]]
+[[global section]] [[(∞,1)-geometric morphism]] is an __essential $(\infty,1)$-geometric morphism__
 
 $$
   (\Pi \dashv \Delta \dashv \Gamma) : 
