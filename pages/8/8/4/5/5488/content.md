@@ -15,10 +15,10 @@ The __axiom of pairing__ (or __axiom of pairs__) states the following:
 +-- {: .un_axiom}
 ###### Axiom (pairing)
 
-If $x$ and $y$ are (material) sets, then there exists a set $P$ such that, for every set $a$, $a \in P$ if and only if $a = x$ or $a = y$.
+If $x$ and $y$ are (material) sets, then there exists a set $P$ such that $x, y \in P$.
 =--
 
-Using the [[axiom of extensionality]], one can prove that the set $P$ above is unique; it is usually denoted $\{x,y\}$ and called the __[[unordered pair]]__ of $x$ and $y$.  Note that $\{x,x\}$ may also be denoted simply $\{x\}$.
+Using the [[axiom of separation]] (bounded separation is enough), we can prove the existence of a particular set $P$ such that $x$ and $y$ are the *only* members of $P$.  Using the [[axiom of extensionality]], we can then prove that this set $P$ is unique; it is usually denoted $\{x,y\}$ and called the __[[unordered pair]]__ of $x$ and $y$.  Note that $\{x,x\}$ may also be denoted simply $\{x\}$.
 
 
 ## Generalisation
@@ -28,10 +28,10 @@ The axiom of pairing is the binary part of a [[binary/nullary pair]] whose nulla
 +-- {: .un_theorem}
 ###### Theorem (finite sets)
 
-If $x_1, \ldots, x_n$ are sets, then there exists a set $P$ such that, for every set $a$, $a \in P$ if and only if $a = x_1$ or ... or $a = x_n$.
+If $x_1, \ldots, x_n$ are sets, then there exists a set $P$ such that $x_1, \ldots, x_n \in P$.
 =--
 
-Again, we can prove that $P$ is unique; it is denoted $\{x_1, \ldots, x_n\}$ and called the __[[finite set]]__ consisting of $x_1, \ldots, x_n$.
+Again, we can prove the existence of specific $P$ such that $x_1, \ldots, x_n$ are the *only* members of $P$ and prove that this $P$ is unique; it is denoted $\{x_1, \ldots, x_n\}$ and is called the __[[finite set]]__ consisting of $x_1, \ldots, x_n$.
 
 Note that this is a _schema_, with one instance for every (metalogical) [[natural number]].  Within axiomatic set theory, this is very different from the single statement that begins with a [[universal quantification]] over the (internal) set of natural numbers.  In particular, each instance of this schema can be stated and proved without the [[axiom of infinity]].
 
