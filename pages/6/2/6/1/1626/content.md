@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context###
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -45,7 +45,7 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 1. An arbitrary [[product]] of connected spaces is connected.
 
-1. The interval $[0, 1]$, as a subspace of $\mathbb{R}$, is connected. (This is the topological underpinning of the intermediate value theorem.)
+1. The interval $[0, 1]$, as a subspace of $\mathbb{R}$, is connected. (This is the topological underpinning of the [[intermediate value theorem]].)
 
 1. If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected.
 
@@ -87,9 +87,7 @@ A space $X$ is **totally disconnected** if its connected components are precisel
 An important variation on the theme of connectedness is path-connectedness. If $X$ is a space, define the path component $[x]$ to be the subspace of all $y \in X$ for which there exists a continuous map $h: [0, 1] \to X$ where $h(0) = x$, $h(1) = y$. 
 
 In a [[nice category of spaces]], the set $\pi_0(X)$ of path components (the 0th "[[homotopy group]]") may be equivalently defined to be the coequalizer in 
-
-$$X^{[0, 1]} \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} X \to \pi_0(X)$$
-
+$$ X^{[0, 1]} \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} X \to \pi_0(X) .$$
 
 We say $X$ is **path-connected** if it has exactly one path component.
 
@@ -106,27 +104,37 @@ As a contrast to a path-connected space, a **totally path-disconnected** space i
 
 * [[locally connected topos]]
 
+
 [[!redirects connected space]]
 [[!redirects connected spaces]]
 [[!redirects connected topological space]]
 [[!redirects connected topological spaces]]
 
-[[!redirects locally connected topological space]]
-
-[[!redirects path-connected space]]
-[[!redirects path-connected spaces]]
-
 [[!redirects locally connected space]]
 [[!redirects locally connected spaces]]
+[[!redirects locally connected topological space]]
+[[!redirects locally connected topological spaces]]
+
+[[!redirects path-connected space]]
+[[!redirects path-connected space]]
+[[!redirects path-connected spaces]]
+[[!redirects pathwise connected space]]
+[[!redirects pathwise connected spaces]]
+[[!redirects pathwise connected topological space]]
+[[!redirects pathwise connected topological spaces]]
+[[!redirects path-connected topological space]]
+[[!redirects path-connected topological spaces]]
+[[!redirects pathwise connected]]
 
 [[!redirects locally path-connected space]]
 [[!redirects locally path-connected spaces]]
+[[!redirects locally path-connected topological space]]
+[[!redirects locally path-connected topological spaces]]
 
 [[!redirects totally disconnected space]]
 [[!redirects totally disconnected spaces]]
+[[!redirects totally disconnected topological space]]
+[[!redirects totally disconnected topological spaces]]
 
 [[!redirects connected component]]
 [[!redirects connected components]]
-
-[[!redirects pathwise connected]]
-[[!redirects pathwise connected space]]
