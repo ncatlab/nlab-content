@@ -1,8 +1,35 @@
+
+# Power sets
+* table of contents
+{: toc}
+
+## Definition
+
 Given a [[set]] $S$, the __power set__ of $S$ is the set $\mathcal{P}S$ of all [[subsets]] of $S$.  Equivalently, it is the set $\TV^S$ of all [[functions]] from $S$ to the set $\TV$ of [[truth values]].  This is often written $2^S$, since there are (at least in [[classical logic]]) exactly $2$ truth values.
 
-One generally needs a specific axiom in the [[foundations]] of mathematics to ensure the existence of power sets.  In [[predicative mathematics]] the existence of power sets (along with other "impredicative" axioms) is not accepted.  One can use power sets to construct [[function sets]]; the converse also works using [[excluded middle]] (or anything else that will guarantee the existence of the set of truth values).  In particular, power sets exist in any theory containing excluded middle and function sets; thus predicative theories which include function sets must also be [[constructive mathematics|constructive]].  Note that we can still speak of a power set as a [[proper class]], sometimes called a __power class__.
 
-The power set $\mathcal{P}S$ is in fact a [[partial order|poset]] ordered by containment: $A$ precedes $B$ means that $A$ is a [[subset]] of $B$ ($A \subseteq B$).
+## Foundational status
+
+One generally needs a specific axiom in the [[foundations of mathematics]] to ensure the existence of power sets.  In [[material set theory]], this can be phrased as follows:
+
++-- {: .un_axiom}
+###### Axiom (power sets)
+
+If $S$ is a set, then there exists a set $\mathcal{P}$ such that $A \in \mathcal{P}$ if $A \subseteq S$.
+=--
+
+One can then use the [[axiom of separation]] (Bounded Separation is enough) to prove that $\mathcal{P}$ may be chosen so that the subsets of $A$ are the *only* members of $\mathcal{P}$; the [[axiom of extensionality]] proves that this $\mathcal{P}$ is unique.
+
+In [[structural set theory]], we state rather that there exists a set $\mathcal{P}$ which indexes the subsets of $A$ and prove uniqueness [[generalised the|up to unique isomorphism]].
+
+In [[predicative mathematics]], the existence of power sets (along with other "impredicative" axioms) is not accepted.  However we can still speak of a power set as a [[proper class]], sometimes called a __power class__.
+
+One can use power sets to construct [[function sets]]; the converse also works using [[excluded middle]] (or anything else that will guarantee the existence of the set of truth values).  In particular, power sets exist in any theory containing excluded middle and function sets; thus predicative theories which include function sets must also be [[constructive mathematics|constructive]].
+
+
+## Properties
+
+The power set $\mathcal{P}S$ is a [[partial order|poset]] ordered by containment: $A$ precedes $B$ means that $A$ is a [[subset]] of $B$ ($A \subseteq B$).
 
 [[Cantor's theorem]] states that there exists no [[surjection]] from $S$ to $\mathcal{P}S$; as there does exist such an [[injection]], one concludes that
 $$ |S| \lt |\mathcal{P}S| $$
@@ -21,3 +48,6 @@ category: foundational axiom
 [[!redirects power classes]]
 [[!redirects power type]]
 [[!redirects power types]]
+
+[[!redirects axiom of power set]]
+[[!redirects axiom of power sets]]
