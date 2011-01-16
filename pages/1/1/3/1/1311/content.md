@@ -1,4 +1,14 @@
+
+# $k$-simply connected $n$-categories
+* table of contents
+{: toc}
+
+## Definition
+
 An $n$-[[n-category|category]] is __$k$-simply connected__ (or just __$k$-connected__) if any two parallel $j$-morphisms are [[equivalence|equivalent]] for $j \leq k$.  You may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $n$-category.  Note that we include the case $j = -1$ to mean that the $n$-category is [[inhabited set|inhabited]] when $k \geq -1$.
+
+
+## Special cases
 
 Thus:
 *  A $(-2)$-simply connected $n$-category is simply an $n$-category;
@@ -16,7 +26,7 @@ One might want a stricter definition for $n$-categories, but this is certainly c
 
 This discussion on terminology occurred when the page was at [[k-tuply connected n-category]].
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman|Mike]]: I'm pretty sure that in algebraic topology, 1-connected means simply connected, and 0-connected means connected.  So your definitions make a space 0-connected when its fundamental $\infty$-groupoid is 1-tuply connected.  I would prefer that we retain the topologists' numbering and call this a 0-connected $\infty$-groupoid (the 'tuply' sounds weird to me for connectedness), with the off-by-one shift happening in the delooping: the $k$-fold delooping of a $k$-tuply monoidal $n$-category would be a $(k-1)$-connected $(n+k)$-category.
 
 _Toby_:  If the topologists have a system for this, then we should probably use it, even if it is a poor system.  (I don\'t suppose that any topologists say '$1$-simply connected' instead?)  The previous usage on the Lab was inconsistent, although I didn\'t check whether that inconsistency was all my fault.
@@ -33,5 +43,6 @@ _Toby_:  All right, I\'ll change the numbering and move the page.  But what do y
 =--
 
 
+[[!redirects k-simply connected n-category]]
 [[!redirects k-connected n-category]]
 [[!redirects k-tuply connected n-category]]
