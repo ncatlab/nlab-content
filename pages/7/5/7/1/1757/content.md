@@ -33,7 +33,7 @@ For $n \in \mathbb{N}$ an **Eilenberg-MacLane object** $X$ of degree $n$
 
 * a [[pointed object]] $* \to X \in \mathbf{H}$ 
 
-* which is both $n$-[[connective]] as well as $n$-[[truncated]].
+* which is both $n$-[[n-connective|connective]] as well as $n$-[[truncated]].
 
 =--
 
