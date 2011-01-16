@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 # $n$-(simply) connected spaces
 * table of contents
 {: toc}
@@ -37,9 +48,9 @@ A [[topological space]] is __$n$-connected__ or __$n$-simply connected__ if its 
 The traditional terminology is '$n$-connected', but this violates the rule that '$1$-foo' should mean the same as 'foo'.  This can be fixed by saying '$n$-simply connected' instead, which also has the advantage of stressing that we are extending the change from connected to simply connected spaces.
 
 
-## Generalisations
+## Properties
 
-See [[n-connected object]].
+An $n$-connected topologicalspace is precisely an [[n-connected object]] in the [[(∞,1)-topos]] [[Top]].
 
 
 [[!redirects n-connected space]]
