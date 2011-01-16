@@ -25,7 +25,7 @@ Of course, *every* topological space satisfies this condition; $\exists_X U$ is 
 
 To remove it from dependence on points, we write the definition like this:
 
-A [[space]] (topological space, locale, etc) $X$ is __overt__ if, given any space $Y$ and any open $U$ in $X \times Y$, there exists an open $\exists_X U$ in $Y$ that satisfies the [[universal property]] of existential [[quantification]]:
+A [[space]] (topological space, locale, etc) $X$ is __overt__ (or __open__) if, given any space $Y$ and any open $U$ in $X \times Y$, there exists an open $\exists_X U$ in $Y$ that satisfies the [[universal property]] of existential [[quantification]]:
 $$ \exists_X U \subseteq V \;\Leftrightarrow\; U \subseteq X \times V $$
 for every open $V$ in $Y$.
 
@@ -37,7 +37,7 @@ In particular, in the case of [[locales]], it is sufficient to require the above
 
 * In impredicative [[constructive mathematics]] (such as the [[internal logic]] of a [[topos]]), the positivity predicate can be defined, but it may not satisfy the requisite property of adjointness.  Thus, constructively, not every locale is overt.  However, even constructively, every [[topological locale]] is overt (so a [[sober space]] is overt regardless of whether it is viewed as a topological space or as a locale).
 
-* In [[predicative mathematics]], a positivity predicate is determined uniquely if it exists, but it cannot be defined and so must be given axiomatically, as is done with a [[formal topology]].  Once this structure is assumed, one can then ask whether a formal topology is overt, i.e. whether the axiomatic positivity predicate satisfies the requisite adjointness.
+* In constructive [[predicative mathematics]], a positivity predicate is determined uniquely if it exists, but it cannot be defined and so must be given axiomatically, as is done with a [[formal topology]].  Once this structure is assumed, one can then ask whether a formal topology is overt, i.e. whether the axiomatic positivity predicate satisfies the requisite adjointness.
 
 
 ## Remarks
@@ -50,13 +50,15 @@ An overt space may also be called **locally (-1)-connected**, since this conditi
 
 
 [[!redirects overt space]]
-[[!redirects open space]]
-[[!redirects overt locale]]
-[[!redirects open locale]]
 [[!redirects overt spaces]]
+[[!redirects open space]]
 [[!redirects open spaces]]
+
+[[!redirects overt locale]]
 [[!redirects overt locales]]
+[[!redirects open locale]]
 [[!redirects open locales]]
+
 [[!redirects locally (-1)-connected space]]
 [[!redirects locally (-1)-connected spaces]]
 [[!redirects locally (-1)-connected locale]]
