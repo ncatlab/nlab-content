@@ -115,14 +115,14 @@ $$
 ###### Remark
 
 
-The objects of the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">path ∞-groupoid</a> $\mathbf{\Pi}(\Sigma)$ are points in $\Sigma$, the morphisms are paths in there, the 2-morphisms surves between these paths, and so on. Hence a morphism $\mathbf{\Pi}(\Sigma) \to A$ assigns fibers in $A$ to points in $X$, and equivalences between these fibers to paths in $\Sigma$, and so on.
+The objects of the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">path ∞-groupoid</a> $\mathbf{\Pi}(\Sigma)$ are points in $\Sigma$, the morphisms are paths in there, the 2-morphisms surfaces between these paths, and so on. Hence a morphism $\mathbf{\Pi}(\Sigma) \to A$ assigns fibers in $A$ to points in $X$, and equivalences between these fibers to paths in $\Sigma$, and so on.
 
 =--
 
 
 ### Higher holonomy
 
-We now define thee higher analog of [[holonomy]] for the case that $\Sigma$ is closed.
+We now define thee ([[David Roberts|DR]] - three? where are the other two?) higher analogs of [[holonomy]] for the case that $\Sigma$ is closed.
 
 +-- {: .un_defn}
 ###### Definition
@@ -477,7 +477,7 @@ Even though it is a degenerate case, it can be useful to regard the [[(∞,1)-to
 
 
 
-For $\mathbf{H} = $ [[Top]] lots of structure of cohesvive $(\infvty,1)$-topos theory  degenerates, since by the [[homotopy hypothesis]]-theorem here the [[global section]] [[(∞,1)-geometric morphism]]
+For $\mathbf{H} = $ [[Top]] lots of structure of cohesive $(\infty,1)$-topos theory  degenerates, since by the [[homotopy hypothesis]]-theorem here the [[global section]] [[(∞,1)-geometric morphism]]
 
 $$
   (\Pi \dashv \Delta \dashv \Gamma) : Top 
@@ -502,7 +502,7 @@ $$
 
 This means that in this case many constructions in [[topology]] and classical [[homotopy theory]] have equivalent reformulations in terms of $\infty$-parallel transport.
 
-For instance: for $F \im Top$ and $Aut(F) \in Top$ its [[automorphism ∞-group]], $F$-fibrations over a base space $X \in Top$ are classfied by morphisms
+For instance: for $F \in Top$ and $Aut(F) \in Top$ its [[automorphism ∞-group]], $F$-fibrations over a base space $X \in Top$ are classfied by morphisms
 
 $$
   g : X \to B Aut(F)
@@ -535,7 +535,7 @@ One may think of the morphism $\Pi(X) \to B Aut(\Pi(F))$ now as the $\infty$-par
 
 * to each path $(x \to y)$ in $X$ it assigns an equivalence between the fibers $F_x to F_y$ etc.
 
-If one presents $\Pi$ by $Sing : Top \to sSet_{Quillen}$ as above, then one may look for explcit simplicial formulas that express these morphisms. Such are discussed in [Stasheff](#Stasheff).
+If one presents $\Pi$ by $Sing : Top \to sSet_{Quillen}$ as above, then one may look for explicit simplicial formulas that express these morphisms. Such are discussed in [Stasheff](#Stasheff).
 
 
 We may embed this example into the smooth context by regarding $Aut(F)$ as a [[discrete space|discrete]] [[∞-Lie groupoid]] as discussed in the section
@@ -653,7 +653,7 @@ The description of parallel $n$-transport in terms of $n$-functors on the [[path
 * [[João Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv](http://arxiv.org/abs/0907.2566))
 {#MartinsPickenII}
 
-The description of [[connections on a 2-bundle]] in terms of such parallel 2-transoort 
+The description of [[connections on a 2-bundle]] in terms of such parallel 2-transport 
 
 * U.S. [[Konrad Waldorf]] _Nonabelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
 {#SWIII}
@@ -667,9 +667,9 @@ The integration of flat differential forms with values in chain complexes toflat
 
 based on
 
-arXiv:0908.2843 [pdf, ps, other]
-    Title: A Riemann Hilbert correspondence for infinity local systems
-    Authors: Jonathan Block, Aaron Smith 
+* Jonathan Block, Aaron Smith, _A Riemann Hilbert correspondence for infinity local systems_ ([arXiv](http://arxiv.org/abs/0908.2843))
+{#BlockSmith}
+
 
 in turn based on constructions in
 
