@@ -1121,7 +1121,7 @@ We spell out explicitly the Hochschild chain complex for an
 +-- {: .un_def #PlainBarComplex}
 ###### Definition
 
-The [[bar complex]] of $A$ is the [[connective]] [[chain complex]]
+The [[bar complex]] of $A$ is the [[connective chain complex|connective]] [[chain complex]]
 
 $$
   \mathrm{B}_\bullet A :=
