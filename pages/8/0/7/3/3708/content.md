@@ -50,6 +50,8 @@ Let $C$ be a [[category]] with [[pullback]]s. Then the **tangent category** $T_C
 
 ## Properties
 
+### General
+
 There is an evident [[functor]] $p : T_C \to C$, the underlying [[codomain fibration]]:
 
 $$
@@ -105,6 +107,43 @@ where we first forget the abelian group object structure and then project onto t
 
 
 > (we should be claiming that this functor has a left adjoint which is a section and computes the [[cotangent complex]]es of objects in $C$).
+
+### Of a site
+
+We discuss morphisms of [[site]]s from a site to its tangent category.
+
+> check
+
+Let $C$ be a category with [[finite limit]]s and let $T_C \to C$ be its tangent category.
+
+There is then the 0-section $i : C \to T_C$ which sends $A$ to the terminal object $Id : A\to A$ in the overcategory, equipped, necessarily, with the trivial group structure. This exhibits $C$ as a [[retract]] of $T_C$
+
+$$
+  (C \stackrel{i}{\to} T_C \stackrel{p}{\to} C) = Id_C
+  \,.
+$$
+
+Assume now that $C^{op}$ has [[pullback]]s and is equipped with a [[coverage]], hence with the structure of a [[site]].
+
+Equip $(T_C)^{op}$ with the [[coverage]] where $\{f_i : U_i \to U\}$ is a cover in $(T_C)^{op}$ precisely if its image $\{p(f_i) : p(U_i) \to p(U)\}$ is a cover in $C^{op}$.
+
+Then the 0-section $C^{op} \to (T_C)^{op}$ preserves covers. 
+
+We claim it also preserves limits: i.e. that $i : C \to T_C$ preserves [[colimit]]s:
+
+let $F : K \to C$ be a diagram and $\lim_\to F$ its colimit in $C$. Then let $Q$ be any cocone under $i \circ F $ in $T_C$. By applying $p$ to that cocone we find that there is a unique morphism of cocones $\lim_\to F \to p(Q)$ in $C$. But any morphism of the form $A \to p(B)$ for $A \in C$ and $B \in T_C$ has a unique lift to a morphism $i(A) \to B$ in $T_C$ (because the trivial ablian group is initial, so that the morphism in $T_C$ is fixed by its underlying morphism in $C$).
+
+So for any coverage on $C^{op}$ and the above induced coverage on $(T_C)^{op}$, the 0-section $i : C^{op} \to (T_C)^{op}$ is a morphism of sites.
+
+Accordingly, we obtain a [[geometric morphism]] of [[category of sheaves|sheaf toposes]]
+
+$$
+  Sh((T_C)^{op}) \stackrel{\leftarrow}{\underset{}{\to}}
+  Sh(C^{op})
+  \,.
+$$
+
+
 
 
 ## Examples
