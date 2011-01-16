@@ -38,12 +38,12 @@ $$
 
 ## Axioms
 
-A system of **local isomorphism**s on $PSh(S)$ is any collection of morphisms satisyfing
+A system of **local isomorphism**s on $PSh(S)$ is any collection of morphisms satisfying
 
 1. local isomorphisms are a system of [[category with weak equivalences|weak equivalences]] (i.e. every [[isomorphism]] is a local isomorphism and they satisfy 2-out-of-3);
 
-2. a morphism is a local isomorphism if and only if its [[pullback]] along any morphism is 
-$
+2. a morphism is a local isomorphism if and only if its [[pullback]] 
+$$
   \array{
     U \times_X Y &\to& Y
     \\
@@ -53,7 +53,8 @@ $
     \\
     U &\to& X
   }
-$
+$$
+along any morphism $U \to X is a local isomorphism.
 
 
 #Relation to Grothendieck topologies#
@@ -92,10 +93,8 @@ the [[dense monomorphisms]] are precisely the local isomorphisms which are also 
 
 # Sheafification #
 
-The [[sheafification]] functor 
-which sends a [[presheaf]] $F$ to its weakly 
-equivalent [[sheaf]] $\bar F$
-can be realized using a [[colimit]] over local
+The [[sheafification]] functor which sends a [[presheaf]] $F$ to its weakly 
+equivalent [[sheaf]] $\bar F$ can be realized using a [[colimit]] over local
 isomorphisms. See there.
 
 
