@@ -39,11 +39,11 @@ This is very speculative. But suppose that many kinds of generalisation can be f
 
 Let $C$ be a category of concepts, and $E$ be a category of sets of examples.
 
-Let $G:E\to C$ be a "generalisation" functor that maps each set of
+Let $G \colon E \to C$ be a "generalisation" functor that maps each set of
 examples to its generalisation as a concept. 
 
 Conversely, let
-$F:C\to E$ be a forgetful functor that maps each concept to some
+$F \colon C\to E$ be a forgetful functor that maps each concept to some
 canonical set of examples. 
 
 Then my hypothesis is that $F$ and $G$ form an adjunction,
@@ -158,15 +158,14 @@ proposition which implies the originals also implies their conjunction.)
 
 ### 2. Logical induction by quantification ###
 
-Let $E$'s objects be the 
-non-empty sets of sentences $e(I)$ where $I$ is an integer. So one 
+Let $E$'s objects be the non-empty sets of sentences $e(I)$ where $I$ is an integer. So one 
 object would be ${ e(1), e(2) }$. Interpret $e(I)$ as meaning "the 
 integer $I$ is an example of the concept". Interpret the arrows in 
 $E$ as set inclusion. 
 
 Let $C$ be the category whose objects are sentences: 
 either the atomic sentences $e(I)$ or the universally-quantified sentence 
-$\forall X: e(X)$. (Unlike the category of sentences in the
+$\forall X \colon e(X)$. (Unlike the category of sentences in the
 earlier 
 example, this category does not contain conjunctions.) Interpret the arrows 
 as implication. 
@@ -186,13 +185,12 @@ approximate them by quantifying over all possible cases. The functor $G$ is
 
 ### 3. Least-squares fitting ###
 
-Let $E$'s objects  
-be the non-empty sets 
+Let $E$'s objects be the non-empty sets 
 of colinear elements of $R^2$. Once again, let the arrows 
 be set inclusion. 
 
 Let $C$ be the category whose objects are either the 
-singletons ${ x \in R^2 }$ or infinite lines in 
+singletons $\{ x \in R^2 \}$ or infinite lines in 
 $R^2$. Let the arrows be set inclusion.
 
 Then let $G$ map each singleton to itself, and map each set 
@@ -209,7 +207,7 @@ All the instances above can be formalised as adjunctions. Here's a summary of th
 3. $G$ and $F$ satisfy the Galois connection condition.
 4. A Galois connection is a special case of an adjunction.
 
-The first point follows from the orderings I imposed on $E$ and $C$. The second holds for $F$, because it's either an identity, as in the least-squares example, or equivalent to one, as in the conjunction and quantification examples. It holds also for $G$, because it can't "cross over". If $e \lt e'$, then $Ge$ may equal $Ge'$, but it can't be greater. The third point follows by simple calculation with these orders. The fourth is a standard result.
+The first point follows from the orderings I imposed on $E$ and $C$. The second holds for $F$, because it's either an identity, as in the least-squares example, or equivalent to one, as in the conjunction and quantification examples. It holds also for $G$, because it can't "cross over". If $e \lt e'$, then $G e$ may equal $G e'$, but it can't be greater. The third point follows by simple calculation with these orders. The fourth is a standard result.
 
 $G$ can be regarded as a functor which maps a set of examples to an object which is in some 
 sense the "completion" of that set: the good old "free completion". It acquires a right adjoint $F$ which 
@@ -220,30 +218,27 @@ I think of this
 in terms of the units and counits: an adjunction $E$
 to $C$ is determined by the two functors $G$ and
 $F$ and by two natural transformations 
-$i:I_E \Rightarrow G;E$
+$i \colon I_E \Rightarrow G;E$
 and
-$e:E;G \Rightarrow I_G$. Given any object $c$ in 
-$C$, there is a morphism taking every $GFc$ to 
+$e \colon E;G \Rightarrow I_G$. Given any object $c$ in 
+$C$, there is a morphism taking every $G F c$ to 
 $c$. Since $F$ maps $g$ to the set of all possible examples, and 
 $G$ should map that back to the original generalisation, this is the 
 identity. Hence we get one natural transformation. 
 
 In the other direction, given any object $e$ in 
-$E$, the functor $FG$ will map it to the set of all 
+$E$, the functor $F G$ will map it to the set of all 
 possible examples of which $E$ is a part. There is an inclusion from 
-$e$ to $FGe$, and since this respects the other inclusions in 
+$e$ to $F G e$, and since this respects the other inclusions in 
 $E$, once again we get a natural transformation, 
-$i:I_E \Rightarrow G;E$. 
+$i \colon I_E \Rightarrow G;E$. 
 
 (I need to relate this to the notion of limiting amount of information, 
 showing how that arises from the adjunction.) 
 
-...Find out why function composition e.g. $FG$, isn't appearing in maths font. ...
-
 ### The problem of noise, and of different languages ###
 
-In the least-squares 
-example, I stipulated that the sets of points in $E$
+In the least-squares example, I stipulated that the sets of points in $E$
 must be colinear. This isn't very realistic: in real life, most sets of 
 examples will not exactly fit a line. 
 
@@ -273,10 +268,8 @@ be determined by the morphisms in $C$. Philosophically
 speaking, perhaps this is reasonable &#8212; we don't perceive the raw data directly, 
 but always fit it to a preconceived model. But I feel I'm missing something else.
 
-... What's the essence? A least-squares fit maps a set of points $e_i$ as follows. Some points $e_good$ fall exactly onto the regression line. Others, $e_bad$, don't. In effect, it's splitting the set into two parts, one of which needs added error information to describe it. Equivalently, it's adding error information to every point, even though that's 0 for some. Consider in the light of the FCA example ${apple,orange},
-{apple,pear}$ vs. ${round},{green}$, and extension vs. intension. What _property_ is common to all points on a regression line?...
-
-... Where have my set brackets gone?...
+What's the essence? A least-squares fit maps a set of points $e_i$ as follows. Some points $e_good$ fall exactly onto the regression line. Others, $e_bad$, don't. In effect, it's splitting the set into two parts, one of which needs added error information to describe it. Equivalently, it's adding error information to every point, even though that's 0 for some. Consider in the light of the FCA example $\{apple,orange\},
+\{apple,pear\}$ vs. $\{round\},\{green\}$, and extension vs. intension. What _property_ is common to all points on a regression line?
 
 ... I need fonts to distinguish between sets of examples and their elements...
 
