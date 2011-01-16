@@ -75,7 +75,7 @@ $$
   \infty Grpd
 $$
 
-has the property that $\Gamma$ sends $(k\geq n)$-[[connective]] morphisms to $(n-k)$-[[connective]] morphisms.
+has the property that $\Gamma$ sends $(k\geq n)$-[[n-connective|connective]] morphisms to $(n-k)$-[[n-connective|connective]] morphisms.
 
 =--
 
