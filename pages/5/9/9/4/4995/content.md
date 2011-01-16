@@ -1477,179 +1477,111 @@ $$
 
 ### Universal coverings and geometric Whitehead towers {#Coverings}
 
+We discuss an intrinsic notion of [[Whitehead tower]]s in a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos]] $\mathbf{H}$.
+
 +-- {: .un_def}
 ###### Definition
 
-For $X \in \mathbf{H}$ an object,
-
-The **geometric [[Whitehead tower in an (∞,1)-topos|Whitehead tower]]** of $X$ is the sequence of objects 
+For $X \in \mathbf{H}$ a [[pointed object]], the **[[Whitehead tower in an (∞,1)-topos|geometric Whitehead tower]]** of $X$ is the sequence of objects 
 
 $$
-  * \to \cdots \to X^{(2)} \to X^{(1)} \to X^{(0)} \simeq X
+  X^{\mathbf{(\infty)}} \to \cdots \to X^{\mathbf{(2)}} \to X^{\mathbf{(1)}} \to X^{\mathbf{(0)}} \simeq X
 $$
 
 in $\mathbf{H}$, where for each $n \in \mathbb{N}$ the object $X^{(n+1)}$ is the [[homotopy fiber]] of the canonical morphism $X \to \mathbf{\Pi}_{n+1} X$ to the [path n+1-groupoid](#Paths) of $X$. This is the object defined by the [[(∞,1)-pullback]] diagram
 
-$$
-  \array{
-    X^{(n+1)} &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    X &\to& \mathbf{\Pi}_{n+1}(X)
-  }
-  \,.
-$$
-
-We call $X^{(n+1)}$ the $(n+1)$-fold 
+We call $X^{\mathbf{(n+1)}}$ the $(n+1)$-fold 
 **[[universal covering space]]** of $X$.
 
-=--
-
-Here the morphisms $X^{(n+1)} \to X^{(n)}$ are induced from the universality of the pullback:
-
+We write $X^{\mathbf{(\infty)}}$ for the homotopy fiber of the untruncated constant path inclusion.
 
 $$
-  \array{
-    && *
-    \\
-    &\nearrow& &\searrow& 
-    \\
-    X^{(n+1)}&\to&X^{(n)}&& \mathbf{\Pi}_{(n+1)}(X)
-    \\
-    &\searrow &\downarrow&\nearrow& \downarrow
-    \\
-    &&X &\to& \mathbf{\Pi}_n(X)
-  }
-$$
-
-+-- {: .un_lemma}
-###### Lemma
-
-For $\mathbf{H}$ the cohesive $(\infty,1)$-topos over an 
-[[∞-cohesive site]] we have
-that 
-
-$$
-  \mathbf{\Pi}_n(X) \simeq Disc \tau_{\leq n} \Pi(X)
+  X^{\mathbf{(\infty)}} \to X \to \mathbf{\Pi}(X)
   \,.
 $$
 
-=--
-
-+-- {: .proof}
-###### Proof
-
-This follows from $\mathbf{\tau}_{\leq n} LConst \Pi(X) \simeq LConst \tau_{\leq n} \Pi(X)$. This, in turn, can for instance be checked in terms of the [[model structure on simplicial presheaves]], using that $\tau$ is objectwise the [[coskeleton]] operation. More on that at [[Postnikov tower in an (∞,1)-category]].
-
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-
-Therefore a commuting diagram
+Here the morphisms $X^{\mathbf{(n+1)}} \to X^{\mathbf{n}}$ are those induced from this <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">pasting diagram of (∞,1)-pullbacks</a>
 
 $$
   \array{
-    X^{(n)} &\to& {*}
-    \\
-    \downarrow &\swArrow_{\simeq}& \downarrow
-    \\
-    X &\to& \mathbf{\Pi}_n(X)
-  }
-$$
-
-in $\mathbf{H}$ corresponds by the [[adjoint (∞,1)-functor|adjunction relation]] to diagram 
-
-$$
-  \array{
-    \Pi(X^{(n)}) &\to& {*}
+    X^{\mathbf{(n)}} &\to& *
     \\
     \downarrow && \downarrow
     \\
-    \Pi(X) &\to& {\Pi}_n(X)
-  }
-$$
-
-in [[∞Grpd]]. This being universal means that $\Pi(X^{(n)})$ is $n$-[[connected]] and universal with that property as an object over $\Pi(X)$.
-
-=--
-
-
-
-+-- {: .un_def}
-###### Definition
-
-
-For $* \to X \in \mathbf{H}$ a [[pointed object]] and $n \in \mathbb{N}$, $n \geq 1 $, define the object $\mathbf{B}^n \mathbf{\pi}_n(X)$ to be the [[homotopy fiber]] of $\mathbf{\Pi}_n(X) \to \mathbf{\Pi}_{n-1}(X)$, so that we have a [[fiber sequence]]
-
-$$
-  \mathbf{B}^n \mathbf{\pi}_n(X) \to \mathbf{\Pi}_n(X) \to \mathbf{\Pi}_{n-1}(X)
-  \,.
-$$
-
-=--
-
-+-- {: .un_corollary}
-###### Corollary
-
-We have
-
-$$
-  \mathbf{B} \mathbf{\pi}_n(X)
-  \simeq
-  Disc \mathcal{B}^n \pi_n(X)
-  \,,
-$$
-
-where $\mathcal{B}^n \pi_n(X)$ denotes the [[homotopy fiber]] of 
-$\Pi_n(X) \to \Pi_{(n-1)}(X)$ in [[∞Grpd]].
-
-=--
-
-
-
-+-- {: .un_proposition}
-###### Proposition
-
-For each $n \geq 1$ we have a [[fiber sequence]]
-
-$$
-  X^{(n)} \to X^{(n-1)} \to \mathbf{B}^n \mathbf{\pi}_n(X)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Regard the diagram
-
-$$
-  \array{
-    X^{(n)} &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    X^{(n-1)} & \to & \mathbf{B}^n \mathbf{\pi}_n(X) &\to& *
+    X^{\mathbf{(n-1)}} & \to & \mathbf{B}^n \mathbf{\pi}_n(X) &\to& *
     \\
     \downarrow && \downarrow && \downarrow
     \\
     X &\to& \mathbf{\Pi}_n(X) &\to& \mathbf{\Pi}_{(n-1)}(X)
   }
-  \,.
+  \,,
 $$
 
-Here the right square is the defining $(\infty,1)$-pullback diagram of $\mathbf{B}^n \mathbf{\pi}_n(X)$ from above. Take also the left bottom square to be a homotopy pullback. Then from the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">pasting law</a> of pullbacks it follows that the composite bottom rectangle is also a pullback, which identifies the object $X^{(n-1)}$ on the left as indicated.
-
-Similarly, form now the top square as a pullback. Then by the composition law of pullbacks we find that the composite vertical rectangle is a pullback, which identifies the top left object as $X^{(n)}$.
+where the object $\mathbf{B}^n \mathbf{\pi}_n(X)$ is defined as the [[homotopy fiber]] of the bottom right morphism.
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+
+Every object $X \in \mathbf{H}$ is covered by objects of the form $X^{\mathbf{(\infty)}}$ for different choices of base points in $X$, in the sense that every $X$ is the [[(∞,1)-colimit]] over a [[diagram]] whose vertices are of this form.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the diagram
+
+$$
+  \array{
+    {\lim_\to}_{s \in \Pi(X)} (i^* *)
+      &\to& {\lim_\to}_{s \in \Pi(X)} *
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    X &\stackrel{i}{\to}& \mathbf{\Pi}(X)
+  }
+  \,.
+$$
+
+The bottom morphism is the constant path inclusion, the $(\Pi \dashv Disc)$-[[unit of an adjunction|unit]]. The right morphism is the [[equivalence in an (∞,1)-category]] that is the image under $Disc$ of the decomposition ${\lim_\to}_S * \stackrel{\simeq}{\to} S$ of every [[∞-groupoid]] as the [[(∞,1)-colimit]] (see there) over itself of the [[(∞,1)-functor]] constant on the point.
+
+The left morphism is the [[(∞,1)-pullback]] along $i$ of this equivalence, hence itself an equivalence. By [[universal colimits]] in the [[(∞,1)-topos]] $\mathbf{H}$ the top left object is the [[(∞,1)-colimit]] over the single [[homotopy fiber]]s $i^* *_s$  of the form $X^{\mathbf{(\infty)}}$ as indicated. 
 
 
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The inclusion $\Pi(i^* *) \to \Pi(X)$ of the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] $\Pi(i^* *)$ of each of these objects into $\Pi(X)$ is homotopic to the point.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We apply $\Pi(-)$ to the above diagram over a single vertex $s$ and attach the $(\Pi \dashv Disc)$-[[unit of an adjunction|counit]] to get
+
+$$
+  \array{
+    \Pi(i^* *)
+      &\to& 
+      &\to&
+      *
+    \\
+    \downarrow && && \downarrow 
+    \\
+    \Pi X &\stackrel{\Pi(i)}{\to}& \Pi Disc \Pi(X)
+     &\to& \Pi(X)
+  }
+  \,.
+$$
+
+Then the bottom morphism is an equivalence by the $(\Pi \dashv Disc)$-[[zig-zag-identity]].
+
+=--
 
 
 
