@@ -97,7 +97,7 @@ This is [[Higher Topos Theory|HTT, prop. 6.5.1.16, item 6]].
 
 ### In $Top$
 
-In the the [[(∞,1)-category]] [[Top]] we have
+In the the [[(∞,1)-category]] [[Top]] we have that an object is $n$-connected precisely if it is an [[n-connected topological space]]:
 
 * a $(-1)$-connected object is an [[inhabited set|inhabited space]].
 
@@ -117,6 +117,10 @@ In the the [[(∞,1)-category]] [[Top]] we have
 [[!redirects n-connective object]]
 [[!redirects n-connective objects]]
 [[!redirects n-connective]]
+
+[[!redirects n-connected object in an (∞,1)-topos]]
+[[!redirects n-connected object in an (infinity,1)-topos]]
+
 
 [[!redirects n-connected object of an (∞,1)-topos]]
 [[!redirects n-connected objects of an (∞,1)-topos]]
