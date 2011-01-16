@@ -23,7 +23,7 @@ Let $\mathbf{H}$ be an [[(∞,1)-topos]].
 
 For $n \in \mathbb{N}$ an **$n$-gerbe** is an object $\mathcal{G} \in \mathbf{G}$ that is 
 
-* $n$-[[connective]] 
+* $n$-[[n-connective|connective]] 
 
 * as well as $n$-[[truncated]].
 
