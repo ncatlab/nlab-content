@@ -173,6 +173,8 @@ Section [this](#secthis) is very useful.
 *a topos is a generalized space.*
 =--
 
+A [section](HomePage#software_requirements_7) on the home page.
+
 
 category: meta
 
