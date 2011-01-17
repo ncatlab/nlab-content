@@ -1488,7 +1488,7 @@ $$
   X^{\mathbf{(\infty)}} \to \cdots \to X^{\mathbf{(2)}} \to X^{\mathbf{(1)}} \to X^{\mathbf{(0)}} \simeq X
 $$
 
-in $\mathbf{H}$, where for each $n \in \mathbb{N}$ the object $X^{(n+1)}$ is the [[homotopy fiber]] of the canonical morphism $X \to \mathbf{\Pi}_{n+1} X$ to the [path n+1-groupoid](#Paths) of $X$. This is the object defined by the [[(∞,1)-pullback]] diagram
+in $\mathbf{H}$, where for each $n \in \mathbb{N}$ the object $X^{(n+1)}$ is the [[homotopy fiber]] of the canonical morphism $X \to \mathbf{\Pi}_{n+1} X$ to the [path n+1-groupoid](#Paths) of $X$. 
 
 We call $X^{\mathbf{(n+1)}}$ the $(n+1)$-fold 
 **[[universal covering space]]** of $X$.
