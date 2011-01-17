@@ -6,38 +6,109 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
 =--
 =--
-
-> This entry originates from the personal web of [[Urs Schreiber]] as a section of the page [[schreiber:differential cohomology in an (∞,1)-topos -- examples]]. It was moved here when [[Domenico Fiorenza]] indicated inclination to join in the work on [[∞-Chern-Weil theory]]. See also there.
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-A _circle $n$-bundle with connection_ is a [[connection on an ∞-bundle]] on a $\mathbf{B}^{n-1}U(1)$-[[principal ∞-bundle]], for $\mathbf{B}^{n-1}U(1)$ the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie n-group</a>.
+In every [[cohesive (∞,1)-topos]] $\mathbf{H}$ there is an <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#DifferentialCohomology">intrinsic notion of differential cohomology</a> with coefficients in an [[abelian group|abelian]] [[group object]] $A \in \mathbf{H}$ that classifies $\mathbf{B}^{n-1}A$-[[principal ∞-bundles]] with [[connection on an ∞-bundle|∞-connection]]. 
 
-[[ordinary differential cohomology|Ordinary differential cohomology]] is well known to be modeled by
-
-1. [[Cheeger-Simons differential character]]s;
-
-2. [[Deligne cohomology]];
-
-3. abelian $n$-[[nLab:gerbe]]s ([[nLab:bundle gerbe]]s) with connection.
-
-In degree $2$ it classifies ordinary [[nLab:circle group]]-[[nLab:principal bundles]] [[nLab:connection on a bundle|with connection]].
-
-We discuss here how this ordinary differential cohomology theory is reproduced as the [[schreiber:differential cohomology in an (∞,1)-topos|intrinsic differential cohomology]] of the [[(∞,1)-topos]] $\mathbf{H} = $ [[nLab:?LieGrpd]] with coefficients in the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie n-groups</a> $\mathbf{B}^{n+1} U(1)$. We may think of this as describing connections on $\mathbf{B}^n U(1)$-[[nLab:principal ∞-bundle]]s in $\infty Lie Grpd$ in the sense described in detail at [[∞-Chern-Weil theory]].
+Here we discuss the specific realization for $\mathbf{H} =$ [[Smooth∞Grpd]] the [[(∞,1)-topos]] of [[smooth ∞-groupoids]] and $A = U(1)$ the [[circle group]]. In this case the intrinsic differential cohomology reproduces [[ordinary differential cohomology]] and generalizes it to base spaces that may be [[smooth manifold]]s, [[diffeological space]]s, [[orbifold]]s and generally [[smooth ∞-groupoid]]s such as [[delooping]]s $\mathbf{B}G$ of [[∞-Lie group]]s $G$. Differential cocycles on the latter support the [[∞-Chern-Weil homomorphism]] that sends [[nonabelian cohomology|nonabelian]] [[connection on an ∞-bundle|∞-connections]] to circle $n$-bundles whose [[curvature]] form realizes a [[characteristic class]] in [[de Rham cohomology]].
 
 
+## The ambient context
+
+Let $\mathbf{H} := $ [[Smooth∞Grpd]] be the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]]. (We also equivalently write $\infty LieGrpd$ for this.) As usual, write
+
+$$
+  (\Pi \dashv Disc \dashv \Gamma \dashv coDisc) :
+  Smooth \infty Grpd
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}
+  \infty Grpd
+$$
+
+for the terminal [[global section]] [[(∞,1)-geometric morphism]] with its extra [[left adjoint]], the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|intrinsic fundamental ∞-groupoid]] functor $\Pi$.
+
+From this induced is the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Paths">path ∞-groupoid adjunction</a>
+
+$$
+  (\mathbf{\Pi} \dashv \mathbf{\flat}) : 
+   Smooth \infty Grpd \stackrel{\leftarrow}{\to}
+   Smooth \infty Grpd
+$$
+
+and the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#deRhamCohomology">intrinsic de Rham cohomology</a> adjunction
+
+$$
+  (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR}) : 
+   */Smooth \infty Grpd \stackrel{\overset{\mathbf{\Pi}_{dR}}{\leftarrow}}{\underset{\mathbf{\flat}_{dR}}{\to}}
+   Smooth \infty Grpd
+  \,.
+$$
+
+For $A$ an abelian group object there for each [[integer]] $n$ is the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#CurvatureCharacteristics">universal curvature characteristic form</a>, given by a [[cocycle]]-morphism
+
+$$
+  curv : \mathbf{B}^n A \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}A
+  \,.
+$$
+
+The [[cocycle]]s for _differential cohomology_ in degree $n$ with coefficients in $A$ are the points in the [[homotopy fiber]] $\mathbf{H}_{diff}(-, \mathbf{B}^n A)$ of the morphism on [[cohomology]] 
+
+$$
+  curv_* : \mathbf{H}(-, \mathbf{B}^n A) \to 
+   \mathbf{H}_{dR}(-, \mathbf{B}^{n+1}A)
+$$
+
+induced by this. Every such cocycle $\nabla \in \mathbf{H}_{diff}(X,\mathbf{B}^n A)$ we may think of as an [[connection on an ∞-bundle|∞-connection]] on the $\mathbf{B}^{n-1}A$-[[principal ∞-bundle]] classified by the underlying cocycle in $\mathbf{H}(X, \mathbf{B}^n A)$.
+
+We consider these constructions in the model $\mathbf{H} = $ [[Smooth∞Grpd]]. This is the [[(∞,1)-category of (∞,1)-sheaves]]
+
+$$
+  Smooth\infty Grpd :=
+  Sh_{(\infty,1)}(CartSp_{smooth})
+$$
+
+on the [[site]] [[CartSp]]${}_{smooth}$ of [[Cartesian space]]s and [[smooth function]]s between them. This is a general [[higher geometry]] context for [[differential geometry]]. For computations we can explicitly [[presentable (∞,1)-category|present]] this [[(∞,1)-category]] by a local [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,loc}$
+
+$$
+  Smooth \infty Grpd \simeq ([CartSp^{op}, sSet]_{proj, loc})^\circ
+$$
+
+as described at [[presentations of (∞,1)-sheaf (∞,1)-toposes]].
+
+In $\mathbf{H} = $ [[Smooth∞Grpd]] a canonical choice for $A$ is the [[circle group]] 
+
+$$
+  A := U(1) = \mathbb{R}/\mathbb{Z}
+  \,.
+$$
+
+We show how the notion of _smooth circle $n$-bundles with connection_ obtained by  applying the general setup above to this case reproduces [[ordinary differential cohomology]]:
+
+* a _circle 1-bundle with connection_ is an ordinary $U(1)$ [[principal bundle]] [[connection on a bundle|with connection]];
+
+* a _circle 2-bundle with connection_ is a $\mathbf{B}U(1)$-[[principal 2-bundle]] [[connection on a 2-bundle|with connection]], equivalently a $U(1)$-[[bundle gerbe]] [[connection on a bundle gerbe|with connection]];
+
+* a _circle 3-bundle_ with connection if a $\mathbf{B}^2 U(1)$-[[principal ∞-bundle|principal 3-bundle]] [[connection on an ∞-bundle|with connection]], equivalently a $U(1)$-[[bundle 2-gerbe]] with connection;
+
+* generally, a _circle $n$-bundle with connection_ is a $\mathbf{B}^{n-1}U(1)$-[[principal ∞-bundle|principal n-bundle]] [[connection on an ∞-bundle|with connection]], equivalently a [[cocycle]] in [[Deligne cohomology]] in degree $n+1$, equivalently a [[Cheeger-Simons differential character]] in that degree.
+
+We assume in the following that the reader is familiar with basics of [[smooth ∞-groupoid]]s.
 
 ## Flat $U(1)$-valued differential cohomology {#FlatCircleCohomology}
 
-The <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#LocalSystem">coefficient object for flat differential cohomology</a> in $\mathbf{H} = \infty LieGrpd$ with values in $\mathbf{B}^n U(1)$ is $\mathbf{\flat} \mathbf{B}^n U(1) = LConst \Gamma \mathbf{B}^n U(1)$. 
+The <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">coefficient object for flat differential cohomology</a> in $\mathbf{H} = $ [[Smooth∞Grpd]] with values in $\mathbf{B}^n U(1)$ is $\mathbf{\flat} \mathbf{B}^n U(1) = LConst \Gamma \mathbf{B}^n U(1)$. 
 
-The <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#IntrinsicForms">coefficient object for intrinsic de Rham cohomology</a> is $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$, defined by the [[nLab:(∞,1)-pullback]]
+The <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#deRhamCohomology">coefficient object for intrinsic de Rham cohomology</a> is $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$, defined by the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -51,7 +122,7 @@ $$
   \,.
 $$
 
-The following proposition provides models for these objects in in terms of ordinary [[nLab:differential form]]s.
+The following proposition provides models for these objects in in terms of ordinary [[differential form]]s.
 
 +-- {: .un_prop }
 ###### Proposition
@@ -76,13 +147,13 @@ $$
 
 =--
 
-Notice that the complex of sheaves $\mathbf{\flat}\mathbf{B}^n U(1)$ is that which defines _flat_ [[nLab:Deligne cohomology]], while that of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is essentially that which defines [[nLab:de Rham cohomology]] in degree $n \gt 1$ (see [below](#OrdinaryDeRham)). Also notice that we denoted by $d_{dR}$ also the differential $C^\infty(-,U(1)) \stackrel{d_{dR} log}{\to} \Omega^1(-)$; this is to stress that we are looking at $U(1)$ as the quotient $\mathbb{R}/\mathbb{Z}$.
+Notice that the complex of sheaves $\mathbf{\flat}\mathbf{B}^n U(1)$ is that which defines _flat_ [[Deligne cohomology]], while that of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is essentially that which defines [[de Rham cohomology]] in degree $n \gt 1$ (see [below](#OrdinaryDeRham)). Also notice that we denoted by $d_{dR}$ also the differential $C^\infty(-,U(1)) \stackrel{d_{dR} log}{\to} \Omega^1(-)$; this is to stress that we are looking at $U(1)$ as the quotient $\mathbb{R}/\mathbb{Z}$.
 
 
 +-- {: .proof}
 ###### Proof
 
-Since the [[nLab:global section]] functor $\Gamma$ amounts to evaluation on the  point $\mathbb{R}^0$ and since constant simplicial presheaves on [[nLab:CartSp]] satisfy [[nLab:descent]] (on objects in $CartSp$!), we have that $\mathbf{\flat} \mathbf{B}^n U(1)$ is represented by the complex of sheaves $\Xi[const U(1) \to 0 \to \cdots \to 0]$. This is weakly equivalent to $\Xi[C^\infty(-,U(1)) \stackrel{d_{dR}}{\to} \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \stackrel{d_{dR}}{\to} \Omega^n_{cl}(-)]$ by the [[nLab:Poincare lemma]] applied to each [[nLab:Cartesian space]] (using the same standard logic that proves the [[nLab:de Rham theorem]]) in that the degreewise inclusion
+Since the [[global section]] functor $\Gamma$ amounts to evaluation on the  point $\mathbb{R}^0$ and since constant simplicial presheaves on [[CartSp]] satisfy [[nLab:descent]] (on objects in $CartSp$!), we have that $\mathbf{\flat} \mathbf{B}^n U(1)$ is represented by the complex of sheaves $\Xi[const U(1) \to 0 \to \cdots \to 0]$. This is weakly equivalent to $\Xi[C^\infty(-,U(1)) \stackrel{d_{dR}}{\to} \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \stackrel{d_{dR}}{\to} \Omega^n_{cl}(-)]$ by the [[Poincare lemma]] applied to each [[Cartesian space]] (using the same standard logic that proves the [[de Rham theorem]]) in that the degreewise inclusion
 
 $$
   \array{
@@ -110,7 +181,7 @@ $$
   \,.
 $$
 
-We observe that the [[nLab:pullback]] of this morphism to the point
+We observe that the [[pullback]] of this morphism to the point
 
 $$
   \array{
@@ -126,13 +197,13 @@ $$
   }
 $$
 
-is the pullback over a cospan all whose objects are fibrant and one of whose morphisms is a fibration. Therefore this is a [[nLab:homotopy pullback]] diagram in $[CartSp^{op}, sSet]_{proj}$ which models the [[nLab:(∞,1)-limit]] over $* \to \mathbf{B}^n U(1) \leftarrow \mathbf{\flat}\mathbf{B}^n U(1)$ in $PSh_{(\infty,1)}(CartSp)$. Since [[nLab:∞-stackification]] preserves finite $(\infty,1)$-limits this models also the corresponding $(\infty,1)$-limit in $\mathbf{H}$. Therefore the top left object is indeed a model for $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$.
+is the pullback over a cospan all whose objects are fibrant and one of whose morphisms is a fibration. Therefore this is a [[homotopy pullback]] diagram in $[CartSp^{op}, sSet]_{proj}$ which models the [[(∞,1)-limit]] over $* \to \mathbf{B}^n U(1) \leftarrow \mathbf{\flat}\mathbf{B}^n U(1)$ in $PSh_{(\infty,1)}(CartSp)$. Since [[nLab:∞-stackification]] preserves finite $(\infty,1)$-limits this models also the corresponding $(\infty,1)$-limit in $\mathbf{H}$. Therefore the top left object is indeed a model for $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$.
 
 =--
 
 ## Ordinary de Rham cohomology in degree $\gt 1$ {#OrdinaryDeRham}
 
-The intrinsic de Rham cohomology of [[nLab:?LieGrpd]] with coefficients in $\mathbb{R}$ or $U(1) = \mathbb{R}/\mathbb{Z}$ coincides with the ordinary [[nLab:de Rham cohomology]] of [[nLab:smooth manifold]]s and smooth [[nLab:simplicial manifold]]s in degree greater than 1. This we discuss here. The meaning of the discrepancy in degee 1 and lower is discussed [below](#U1GroupoidBundle).
+The intrinsic de Rham cohomology of [[?LieGrpd]] with coefficients in $\mathbb{R}$ or $U(1) = \mathbb{R}/\mathbb{Z}$ coincides with the ordinary [[de Rham cohomology]] of [[nLab:smooth manifold]]s and smooth [[simplicial manifold]]s in degree greater than 1. This we discuss here. The meaning of the discrepancy in degee 1 and lower is discussed [below](#U1GroupoidBundle).
 
 So for this section let $n \in \mathbb{N}$ with $n \geq 2$.
 
@@ -733,7 +804,7 @@ $$
 
 This fixes the pseudo-components to be $a_{i j} = - d g_{i j}$. By the above discussion, this pseudo-connection with vanishing connection 1-forms is equivalent, as a pseudo-connection, to the ordinary connection cocycle with connection forms $(A_i := \sum_{i_0} \rho_{i_0} d g_{i_0 i})$. This is a <a href="http://ncatlab.org/nlab/show/connection+on+a+bundle#Properties">standard formula</a> for equipping $U(1)$-principal bundles with Cech cocycle $(g_{i j})$ with a connection.
 
-### $Disc(U(1))$-groupoid bundles {#U1GroupoidBundle}
+### $U(1)_0$-groupoid bundles {#U1GroupoidBundle}
 
 We saw above that the intrinsic coefficient object $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ yields ordinary de Rham cohomology in degree $n \gt 1$. For $n = 1$ we [have](#FlatCircleCohomology) that $\mathbf{\flat}_{dR} \mathbf{B}U(1)$ is given simply by the 0-[[nLab:truncated]] sheaf of 1-forms, $\Omega^1(-) : CartSp^{op} \to Set \hookrightarrow sSet$. Accordingly we have for $X$ a paracompact smooth manifold
 
@@ -1366,6 +1437,7 @@ See for instance
 for the class of circle 3-bundles that arise as differential refinements of degree 4 [[characteristic class]]es such as the [[Pontryagin class]].
 
 
+* [[Chern-Simons circle 7-bundle]].
 
 [[!redirects circle n-bundles with connection]]
 [[!redirects circle n-bundles with connections]]
