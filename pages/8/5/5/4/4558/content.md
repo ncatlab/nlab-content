@@ -43,9 +43,9 @@
 
 ## Higher nonabelian differential cohomology
 
-* [[principal ∞-bundle]]
+* [[principal 2-bundle]], [[principal ∞-bundle]]
 
-* [[connection on an ∞-bundle]]
+* [[connection on a 2-bundle]], [[connection on an ∞-bundle]]
 
 * [[∞-Chern-Weil theory]]
 
@@ -54,9 +54,11 @@
 * [[∞-Chern-Simons theory]]
 
 
-## Application on gauge theory
+## Application to gauge theory
 
-* [[gauge theory]], [[gauge field]]
+* [[gauge theory]]
+
+* [[gauge field]]
 
   * [[electromagnetic field]]
 
@@ -67,6 +69,8 @@
   * [[RR-field]]
 
   * [[supergravity C-field]]
+
+  * [[D'Auria-Fre formulation of supergravity|supergravity]]
 
 * [[quantum anomaly]]
 
