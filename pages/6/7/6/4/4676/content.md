@@ -6,18 +6,13 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
 =--
 =--
+=--
 
-* [[principal bundle]] / [[torsor]] / [[associated bundle]]
-
-* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
-
-* [[principal 3-bundle]] / **bundle 2-gerbe**
-
-* [[principal ∞-bundle]] / [[associated ∞-bundle]]
-
-***
 
 
 
@@ -48,11 +43,23 @@ a bundle 2-gerbe over a manifold $X$ is
 
 * [[Chern-Simons 2-gerbe]]
 
+## Related concepts
+
+* [[principal bundle]] / [[torsor]] / [[associated bundle]]
+
+* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / **bundle 2-gerbe**
+
+* [[principal ∞-bundle]] / [[associated ∞-bundle]]
+
+
+
 ## References
 
 Bundle 2-gerbes were briefly introduced in
 
-* A.L. Carey, M.K. Murray, B.L. Wang, _Higher bundle gerbes and cohomology classes in gauge theories_ ([arXiv:hep-th/9511169](http://arxiv.org/abs/hep-th/9511169))
+* [[Alan Carey]], Michael Murray]], B.L. Wang, _Higher bundle gerbes and cohomology classes in gauge theories_ ([arXiv:hep-th/9511169](http://arxiv.org/abs/hep-th/9511169))
 
 and further developed in
 
