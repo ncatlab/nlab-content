@@ -6,22 +6,21 @@
 
 * [[cohomology]]
 
-* [[Chern character]]
+* [[differential geometry]]
 
 ## Connections on bundles
 
-* [[connection on a bundle|connection]]
+* [[connection on a bundle|connection]], [[connection on an ∞-bundle|∞-connection]]
 
-  * [[parallel transport]]
+  * [[parallel transport]], [[higher parallel transport]]
 
-  * [[higher parallel transport]]
   * [[holonomy]]
 
 * [[curvature]]
 
-  * [[curvature characteristic form]]
+  * [[curvature characteristic form]], [[Chern character]]
 
-* [[Chern-Weil theory]]
+* [[Chern-Weil theory]], [[∞-Chern-Weil theory]]
 
   * [[Chern-Weil homomorphism]]
 
@@ -29,7 +28,13 @@
 
 * [[ordinary differential cohomology]]
 
-  * [[differential character]]s, [[Deligne cohomology]], [[circle n-bundle with connection]], [[bundle gerbe|bundle gerbe with connection]]
+  * [[differential character]]s, 
+
+  * [[Deligne cohomology]]
+
+  * [[circle n-bundle with connection]], 
+
+  * [[bundle gerbe|bundle gerbe with connection]]
 
 * [[differential K-theory]]
 
@@ -37,11 +42,14 @@
 
 * [[differential cobordism cohomology]]
 
+
 ## Higher nonabelian differential cohomology
 
 * [[∞-Chern-Weil theory]]
 
-  * [[∞-Lie algebra cohomology]], [[∞-Lie groupoid]]
+  * [[∞-Lie algebra cohomology]], [[smooth ∞-groupoid]]
+
+* [[∞-Chern-Simons theory]]
 
 ## In physics
 
