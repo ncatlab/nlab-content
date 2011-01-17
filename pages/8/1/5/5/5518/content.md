@@ -1,3 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+=--
+=--
+
 This is a sub-entry for [[gerbe]].
 
 For related entries see
@@ -6,6 +25,10 @@ For related entries see
 * [[gerbe (general idea)]]
 * [[gerbe (as a stack)]]
 
+
+#Contents#
+* table of contents
+{:toc}
 
 ##Idea## 
 
