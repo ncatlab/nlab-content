@@ -35,7 +35,9 @@ Idea: Classes in $H^3(X, \mathbb{Z}(1))$ correspond to principal $G$-[[principal
 
 +--{: .query}
 
-Matt: I'll expand this section soon, and my guess is definitions and preliminaries will expand as needed.
+Matt: Actually, a slight issue has arisen. Most of the things I thought would go here actually already appear in other places even though they aren't grouped as coming from the same idea.
+
+For instance, [[bundle gerbe]] contains the geometric interpretation of $H^3(X, \mathbb{Z}(1))$. Also, 3-curvature and fiber-wise connections occur at [[connection on a bundle gerbe]]. Although I think there is still a lot to say, I'm not convinced that "gerbe (in differential geometry)" is necessary anymore...
 =--
 
 
