@@ -40,11 +40,13 @@ The existence of such a quadruple of adjoint $(\infty,1)$-functors alone implies
 
 Examples of cohesive $(\infty,1)$-toposes include
 
-* the $(\infty,1)$-topos $\mathbf{H} = $ [[topological ∞-groupoid|?ContGrpd]] of [[topological ∞-groupoid|continuous ∞-groupoids]];
+* the $(\infty,1)$-topos $\mathbf{H} = $ [[ETop∞Grpd]] of [[Eulcidean-topological ∞-groupoids]];
 
-* the $(\infty,1)$-topos $\mathbf{H} = $ [[?LieGrpd]] of [[smooth ∞-groupoids]] / [[synthetic differential geometry|synthetic differential ∞-groupoids]].
+* the $(\infty,1)$-topos $\mathbf{H} = $ [[Smooth∞Grpd]] of [[smooth ∞-groupoids]] 
 
-In the former the internal notion of [[Galois theory]] subsumes the usual one (over well-behaved topological spaces). In the latter also the notions of [[Lie theory]], [[differential cohomology]] and [[Chern-Weil theory]] subsume the uual ones --- and generalize them to higher smooth geoemtry.
+* the $(\infty,1)$-topos $\mathbf{H} = $ [[SynthDiff∞Grpd]] of [[synthetic differential ∞-groupoids]].
+
+In the first the internal notion of [[Galois theory]] subsumes the usual one (over well-behaved topological spaces). In the latter also the notions of [[Lie theory]], [[differential cohomology]] and [[Chern-Weil theory]] subsume the uual ones --- and generalize them to higher smooth geoemtry.
 
 
 ## Definition
