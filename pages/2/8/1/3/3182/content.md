@@ -67,21 +67,59 @@ We say that $ETop \infty Grpd$ defines **Euclidean-topological cohesion**. An ob
 +-- {: .un_def}
 ###### Definition
 
-Write $Top_1$ for the 1-[[category]] of [[topological spaces]] and continuous maps. There is a canonical functor
+Write $Top_1$ for the 1-[[category]] of [[Hausdorff space|Hausdorff]] [[topological spaces]] and continuous maps. There is a canonical functor
 
 $$
   i : Top_1 \to \tau_{\leq 0}ETop\infty Grpd \hookrightarrow  ETop\infty Grpd
 $$
 
-given by sending a topological space $X$ to the [[sheaf]] on [[CartSp]]${}_{top}$ externally represented by $X$ under the embedding $CartSp_{top} \hookrightarrow Top$:
+given by sending a topological space $X$ to the 0-[[truncated]]
+[[(∞,1)-sheaf]] (=  [[sheaf]]) on [[CartSp]]${}_{top}$ externally represented by $X$ under the embedding $CartSp_{top} \hookrightarrow Top$:
 
 $$
-  X : U \mapsto Hom_{Top}(U,X)
+  i(X) : (U \in CartSp_{top}) \mapsto Hom_{Top}(U,X)
+  \in Set \hookrightarrow \infty Grpd
   \,.
 $$
 =--
 
-On [[topological manifold]]s this is a [[full and faithful functor]].
++-- {: .un_prop}
+###### Proposition
+
+On [[topological manifold]]s the functor $i$ is a [[full and faithful (∞,1)-functor]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the inclusion of the [[(n,1)-topos|(1,1)-topos]] 
+
+$$
+  Sh(CartSp_{top}) \simeq \tau_{\leq 0} Sh_{(\infty,1)}(CartSp_{top}) \hookrightarrow 
+Sh_{(\infty,1)}(CartSp_{top}) 
+$$ 
+
+is a [[full and faithful (∞,1)-functor]], we need to show that the factorization
+
+$$
+  i : TopManifolds \to Sh(CartSp_{top})
+$$ 
+
+through the [[sheaf topos]] is a [[full and faithful functor]].
+
+* _(faithful)_  If two [[continuous function]]s $(f,g : X \to Y) \in TopManifolds$ are different at some point $x \in X$, then by continuity they differ on an entire [[open ball]] [[open neighbourhood]]  $\{x\} \subset U \hookrightarrow X$ (the intersection of the preimages of any two disjoint open neighbourhoods of $f(x)$ and $g(x)$). This [[open ball]] is [[diffeomorphic]] to a [[Cartesian space]]  and hence $i(f)$ and $i(g)$ differ on this element $U \in i(X)(U) = Top(U,X)$. This shows that $i$ is a [[faithful functor]].
+
+* _(full)_ Let $f : i(X) \to i(Y)$ be a morphism in $Sh(CartSp_{top})$. Then for every point $x \in X$ there is a chart $\phi : \mathbb{R}^n \to X$ of the [[manifold]] $X$ containing $x$, say $x = \phi(0)$. This is necessarily taken by $f$ to a continuous function $f\circ \phi : \mathbb{R}^n \to Y$. By restricting to an open neighbourhood $\{x\} \subset U \hookrightarrow \mathbb{R}^n$ if necessary, we can assume the image of $f \circ \phi$ to be contained in a chart $\psi : \mathbb{R}^n \hookrightarrow Y$ of $Y$, so that we have a map of sets
+
+  $$
+    \mathbb{R}^n \stackrel{\simeq}{\to} X|_U \stackrel{f(*)}{\to} \mathbb{R}^n \hookrightarrow Y
+    \,,
+  $$
+
+  where the composite of the first two maps is continuous. Hence $f(*)$ is continuous on some chart around every point of $X$, hence is generally continuous. This shows that $i$ is a [[full functor]].
+
+=--
 
 
 ## Structures in the cohesive $(\infty,1)$-topos $ETop \infty Grpd$
@@ -107,7 +145,9 @@ We discuss the realization of the [[fundamental ∞-groupoid in a locally ∞-co
 +-- {: .un_prop #FundGroupoidOfParacompact}
 ###### Proposition
 
-Let $X$ be a [[paracompact topological space]] naturally regarded as an object $X \in Top_1 \stackrel{i}{\hookrightarrow} ETop \infty Grpd$. Then $\Pi(X) \in \infty Grpd$ is equivalent to the standard [[fundamental ∞-groupoid]] of a [[topological space]] that is presented by the [[singular simplicial complex]] $Sing X$
+Let $X$ be a [[paracompact topological space]] such that that $X$ admits a [[good open cover]] by [[open ball]]s (for instance a [[paracompact manifold]]). 
+
+Then $\Pi(X) := \Pi(i(X)) \in \infty Grpd$ is equivalent to the standard [[fundamental ∞-groupoid]] of a [[topological space]] that is presented by the [[singular simplicial complex]] $Sing X$
 
 $$
   \Pi(X) \simeq Sing X
@@ -127,7 +167,7 @@ $$
 
 By the discussion at [[∞-cohesive site]] we have an equivalence $\Pi(-) \simeq \mathbb{L} \lim_\to$ to the [[derived functor]] of the [[sSet]]-[[colimit]] functor $\lim_\to : [CartSp^{op}, sSet]_{proj,loc} \to sSet_{Quillen}$. 
 
-To compute this derived functor, notice that every [[paracompact topological space]] $X$ admits a [[good open cover]] (see there) $\{U_i \to X\}$ by [[Cartesian space]]s. This means that the [[Cech nerve]] $C(\coprod_i U_i \to X) \in [CartSp^{op}, sSet]$ is degreewise a [[coproduct]] of [[representable functor|representable]]s, hence a [[split hypercover]]. By the discussion at [[model structure on simplicial presheaves]] we have that in this case the canonical morphism
+To compute this derived functor, let $\{U_i \to X\}$ be a [[good open cover]] by [[open balls]], hence [[homeomorphic]]ally by [[Cartesian space]]. By goodness of the cover the [[Cech nerve]] $C(\coprod_i U_i \to X) \in [CartSp^{op}, sSet]$ is degreewise a [[coproduct]] of [[representable functor|representable]]s, hence a [[split hypercover]]. By the discussion at [[model structure on simplicial presheaves]] we have that in this case the canonical morphism
 
 $$
   C(\coprod_i U_i \to X) \to X
@@ -142,26 +182,29 @@ $$
 
 Using the [[equivalence of categories]] $[CartSp^{op}, sSet] \simeq [\Delta^{op}, [CartSp^{op}, Set]]$ and that [[colimit]]s in [[presheaf categories]] are computed objectwise and finally using that the colimit of a [[representable functor]] is the point (an incarnation of the [[Yoneda lemma]]) we have that $\Pi(X)$ is presented by the [[Kan complex]] that is obtained by contracting in the [[Cech nerve]] $C(\coprod_i U_i)$ each open subset to a point.
 
-The classical [[nerve theorem]] then asserts that this implies the claim.
+The classical [[nerve theorem]] asserts that this implies the claim.
 =--
 
 +-- {: .un_remark}
 ###### Remark
 
-We may regard [[Top]] itself as a [[cohesive (∞,1)-topos]]. $(\Pi_{Top}\dashv Disc_{Top} \dashv \Gamma_{Top} \dashv coDisc_{Top}) Top \stackrel{\simeq}{\to} \infty Grpd$. This is discuseed at [[discrete ∞-groupoid]].
+We may regard [[Top]] itself as a [[cohesive (∞,1)-topos]]. $(\Pi_{Top}\dashv Disc_{Top} \dashv \Gamma_{Top} \dashv coDisc_{Top}) Top \stackrel{\simeq}{\to} \infty Grpd$. This is discussed at [[discrete ∞-groupoid]].
 
-Using this the above proposition may be stated as saying that for $X$ a [[paracompact topological space]] we have
+Using this the above proposition may be stated as saying that for $X$ a [[paracompact topological space]] that admits a [[good open cover]] we have
 
 $$
   \Pi_{ETop\infty Grpd}(X) \simeq \Pi_{Top}(X)
   \,.
 $$
+
 =--
 
 +-- {: .un_prop}
 ###### Corollary
 
-For $X_\bullet$ a [[proper simplicial topological space]] that is degreewise [[paracompact topological space|paracompact]], regarded naturally as an object $X_\bullet \in Top^{\Delta^{op}} \to ETop \infty Grpd$ we have that the intrinsic $\Pi(X_\bullet) \in \infty Grpd$ coincides under [[geometric realization]] $\mathbb{L}|-| : \infty Grpd \stackrel{\simeq}{\to} Top$ with the ordinary [[geometric realization of simplicial topological spaces]] $|X_\bullet|_{Top^{\Delta^{op}}}$
+Let $X_\bullet$ a [[proper simplicial topological space]] that is degreewise [[paracompact topological space|paracompact]] and degreewise admitting a [[good open cover]], regarded naturally as an object $X_\bullet \in Top^{\Delta^{op}} \to ETop \infty Grpd$. 
+
+We have that the intrinsic $\Pi(X_\bullet) \in \infty Grpd$ coincides under [[geometric realization]] $\mathbb{L}|-| : \infty Grpd \stackrel{\simeq}{\to} Top$ with the ordinary [[geometric realization of simplicial topological spaces]] $|X_\bullet|_{Top^{\Delta^{op}}}$
 
 $$
   |\Pi(X_\bullet)| \simeq |X_\bullet|_{Top^{\Delta^{op}}}
@@ -189,10 +232,10 @@ $$
   \,,
 $$ 
 
-which is the simplicial presheaf that over any $V \in CartSp$ takes as value the [[diagonal]] of the [[bisimplicial set]] whose $(n,r)$-entry is
-$\coprod_{U_0 \to \cdots \to U_n \to X_k} CartSp(V,U_0)$.
+which is the simplicial presheaf that over any $\mathbb{R}^n \in CartSp$ takes as value the [[diagonal]] of the [[bisimplicial set]] whose $(n,r)$-entry is
+$\coprod_{U_0 \to \cdots \to U_n \to X_k} CartSp_{top}(\mathbb{R}^n,U_0)$.
 
-Since [[coend]]s are special [[colimit]]s the colimit functor itself commutes with them and we find
+Since [[coend]]s are special [[colimit]]s, the colimit functor itself commutes with them and we find
 
 $$
   \begin{aligned}
@@ -207,7 +250,7 @@ $$
   \end{aligned}
 $$
 
-By the discussion at [[Reedy model structure]] this [[coend]] is a [[homotopy colimit]] over the simplicial [[diagram]] $\lim\to Q X_\bullet : \Delta \to sSet_{Quillen}$
+By the discussion at [[Reedy model structure]] this [[coend]] is a [[homotopy colimit]] over the simplicial [[diagram]] $\lim_\to Q X_\bullet : \Delta \to sSet_{Quillen}$
 
 $$
   \cdots \simeq hocolim_\Delta \lim_\to Q X_\bullet
