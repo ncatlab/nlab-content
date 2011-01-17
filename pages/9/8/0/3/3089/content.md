@@ -63,7 +63,7 @@ This result is particularly interesting when $F$ is the [[tensor product]] of a 
 
 Reflexive coequalizers in [[Set]] commute with finite [[product]]s: 
 
-the $n$-fold product functors  $$Set^n \stackrel{\prod}{\to} Set$$ preserve reflexive coequalizers. 
+the $n$-fold product functors $Set^n \stackrel{\prod}{\to} Set$ preserve reflexive coequalizers. 
 
 =--
 
