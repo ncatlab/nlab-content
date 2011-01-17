@@ -47,9 +47,11 @@ Let $(X_p, K_p)_{p \in P}$ be a collection of pairs of spaces where each $X_p$ i
 $$D_F = \prod_{p \in F} X_p \times \prod_{p \notin F} K_p$$ 
 where $F$ ranges over all finite subsets of $P$, together with inclusions $D_F \subseteq D_{F'}$ where $F \subseteq F'$. We observe that each of the $D_F$ is locally compact, and that a filtered colimit or union of a system of _open_ inclusions of locally compact spaces is again locally compact. Therefore, restricted direct products are locally compact, under the hypotheses stated above. 
 
-These hypotheses are of course pretty severe; the main examples of such restricted direct products, as many readers will be aware, include topologized [[adele ring]]s and [[idele group]]s. In the case of adele rings, the collection of pairs is $(K_{\mathfrak{p}}, O_{\mathfrak{p}})$ where $K_{\mathfrak{p}}$ is the $\mathfrak{p}$-adic completion of a [[number field]] $K$ and $O_{\mathfrak{p}}$ is the $\mathfrak{p}$-adic completion of the ring of integers $O \subseteq K$. 
+These hypotheses are of course pretty severe; important examples of such restricted direct products include topologized [[adele ring]]s and [[idele group]]s. In the case of adele rings, the collection of pairs is $(K_{\mathfrak{p}}, O_{\mathfrak{p}})$ where $K_{\mathfrak{p}}$ is the $\mathfrak{p}$-adic completion of a [[number field]] $K$ and $O_{\mathfrak{p}}$ is the $\mathfrak{p}$-adic completion of the ring of integers $O \subseteq K$. 
 
-Locally compact spaces are closed under [[coproduct]]s in $Top$. They do not admit many types of [[colimit]]s generally; in some sense this is a _raison d\'&#234;tre_ for [[compactly generated space]]s: they are precisely the colimits in $Top$ of diagrams of locally compact spaces. 
+In any event, the category of locally compact spaces does not admit general infinite products. If it did, then so would the category of locally compact Hausdorff spaces, and so would the category of locally compact Hausdorff abelian groups. However, there is no product of countably many copies of the real numbers in $LCHAb$, for if there were, then by utilizing the universal property of the product, it would become a Hausdorff TVS over the real numbers, in contradiction to the fact that the only locally compact Hausdorff TVS are finite-dimensional. 
+
+Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not admit many types of [[colimit]]s generally; in some sense this is a _raison d\'&#234;tre_ for [[compactly generated space]]s: they are precisely the colimits in $Top$ of diagrams of locally compact spaces. 
 
 
 ## Further properties #
