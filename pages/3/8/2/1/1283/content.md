@@ -10,15 +10,7 @@
 =--
 
 
-* [[principal bundle]] / [[torsor]] / [[associated bundle]]
 
-* [[principal 2-bundle]] / [[gerbe]] / **bundle gerbe**
-
-* [[principal 3-bundle]] / [[bundle 2-gerbe]]
-
-* [[principal ∞-bundle]] / [[associated ∞-bundle]]
-
-***
 
 
 
@@ -415,13 +407,21 @@ By a slight variant of <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupo
 
 This produces a bundle gerbe whose class in $H^3(X,\mathbb{Z})$ has $[H]$ as its image in [[de Rham cohomology]].
 
-## Connections on bundle gerbes
-
-See [[connection on a bundle gerbe]].
-
 ## Related entries
 
 * [[transgression of bundle gerbes]]
+
+* [[connection on a bundle gerbe]]
+
+and 
+
+* [[principal bundle]] / [[torsor]] / [[associated bundle]]
+
+* [[principal 2-bundle]] / [[gerbe]] / **bundle gerbe**
+
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
+* [[principal ∞-bundle]] / [[associated ∞-bundle]]
 
 ##References##
 
