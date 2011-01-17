@@ -46,13 +46,19 @@ regard the $n$-simplex as an [[strict omega-category|n-category]].
 
 ### The cosimplicial $sSet$-category
 
-We start by describing the cosimplicial [[sSet]]-[[enriched category]] 
+We here describe the cosimplicial [[sSet]]-[[enriched category]] 
 
 $$
   S : \Delta \to sSet Cat
 $$
 
 that induces the homotopy coherent nerve.
+
+##### An abstract description 
+
+Recall that a reflexive graph is a simplicial set of dimension $1$, i.e. 1-coskeletal; they form a full subcategory $reflGraph\hookrightarrow Cat$. The forgetful functor $U: Cat \to reflGraph$ has a left adjoint $F$ hence $G = FU : Cat\to Cat$ is a comonad. By the definition its cobar construction is an augmented simplicial endofunctor $S\to Id$ featuring $S :\Delta\to sSet Cat$ and whose augmentation is a cofibrant replacement of a 1-category in the [[Bergner model structure]] on $sSet$ ("model structure for simplicially enriched categories"). 
+
+##### An explicit description
 
 For $[n]$ the finite [[ordinal number|ordinal]] $[n] := \{0 \lt 1 \lt  \cdots \lt n\}$ and for $\Delta[n]$ be  standard [[simplicial set|simplicial]] $n$-[[simplex]], define the $sSet$-category $S[n]$ as follows:
 
@@ -468,54 +474,13 @@ A review of this latter aspect is also in
 
 and 
 
-* Mitya Borachenko, Notes and exercise on $\infty$-cateogires([pdf](http://math.uchicago.edu/~mitya/langlands/quasicategories.pdf))
-
+* Mitya Boyarchenko, _Notes and exercise on $\infty$-categories_ ([pdf](http://math.uchicago.edu/~mitya/langlands/quasicategories.pdf))
 
 For more references see [[relation between quasi-categories and simplicial categories]].
 
-## Discussion ##
-
-> The following discussion was at [[simplicial nerve]] when this page was at [[simplicial nerve of simplicial categories]].
+Two query-discussions on terminology and concrete description of the coherent/"simplicial" nerve are archived at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=754&Focus=20607#Comment_20607).
 
 
-+-- {: .query}
-Is there a simplicial nerve that\'s not of simplicial categories?  If not, I\'d put the article here instead of there.  ---Toby
-
-[[Urs Schreiber|Urs]]: yes, it seems to be called just "simplicial nerve" in the literature, but I found that a bit undescriptive, since every nerve is "simplicial" and here the point is really that we take the nerve _of_ a simplicial category. I also seem to recall that [[Tim Porter|Tim]] said he doesn't like the term "simplicial nerve". Maybe Tim should decide, he is probably the one among us who has thought about this notion the most.
-
-_Toby_:  Ah, I see how 'simplicial nerve' is confusing; so how about just [[nerve of a simplicial category]]?
-
-[[Urs Schreiber|Urs]]: right, that might be the best option -- I have to run now, maybe you can implement that?
-
-_Toby_:  I\'ll wait to hear from Tim.
-
-[[Mike Shulman|Mike]]: Not all nerves are simplicial; it depends on what you are taking the nerve of.  The nerve of a multicategory is a dendroidal set (a presheaf on the category of trees).  The nerve of a compact symmetric multicategory is a presheaf on the category of Feynman graphs.  And an $n$-category has a nerve that is a simplicial set, but also one that is a $\Theta_n$-set and one that is an $n$-fold simplicial set.
-
-FWIW, I have sometimes seen the "simplicial nerve of simplicial categories" called the "homotopy coherent nerve," which to me captures the intuition better.
-
-[[Urs Schreiber|Urs]]: true, I actually know that not every notion of nerve is simplicial, should have thought before typing. 
-
-Now that you mention it, maybe [[Tim Porter]] also said he favored "homotopy coherent nerve"? I'll send him an email.
-
-[[Tim Porter|Tim]]:  Back from a short absence: the term 'homotopy coherent nerve' is probably a good one only when it fairly directly relates to homotopy coherence. 
-
-Any 2-category can be thought of as a simplicially enriched category and the Duskin nerve of a bicategory specialises to the same construction on 2-categories. Various people use the term 'geometric nerve' for this. (It is interesting to compare the 'simplicial nerve' of a simplicial group (as SSet-enriched category) with Wbar of the same thing.) I am trying to write something for the Menagerie that looks at the h.c. nerve with these aspects accentuated and also with links with Behrang Noohi's weak maps of crossed modules. I may put some of this on nLab when I see more clearly how it all fits together.  
-
-In the meantime, I suggest we keep the term h.c. nerve although it is probably not 'best possible'.
-I agree that 'simplicial nerve'  is probably not a good term.
-=--
-
-Here is another old discussion that seems to have been resolved
-
-+--{.query}
-[[Todd Trimble|Todd]]: I am learning this for the first time, and I had some difficulty with how the definition of $P_{i,j}$ reads. From the ensuing discussion, it seems you want the elements of the poset to be $I \subseteq [i, j]: i, j \in I$, ordered by inclusion. But in the definition, it's not clear what sort of thing $J$ is supposed to be, and it looks like the elements of the poset are instances of inclusions. (Another minor thing I don't understand is why $\subset$ is being used instead of $\subseteq$, since for many mathematicians $\subset$ means strict inclusion. I see this preference for $\subset$ all over the nLab in fact; has this been discussed somewhere?)
-
-[[Tim Porter|Tim]]:  I did not originate the poset based description as I always think of things as being paths through the $N$-simplex from $i$ to $j$ and then use a rewrite idea for the link.  I will try to clean up the poset definition a bit and see if it helps, otherwise we can switch to the path based description and use the poset as a second way. I'm not bothered either way.
-
-Some minutes later!  Does this read well now?
-
-[[Todd Trimble|Todd]]: Thank you! Yes, me happy now. 
-=--
 
 
 
