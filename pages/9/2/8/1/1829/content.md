@@ -576,7 +576,10 @@ The original proof was given in [[BrownAHT]] in terms of the [[category of fibra
 The analogous arguments in terms of the full injective model structure were  given by Jardine. See section 6 of his [lecture notes](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf).
 =--
 
+[[!redirects presentations of (∞,1)-sheaf (∞,1)-toposes]]
 
 [[!redirects models for infinity-stack (infinity,1)-topoi]]
 [[!redirects models for ∞-stack (∞,1)-toposes]]
 [[!redirects models for ∞-stack (∞,1)-topoi]]
+[[!redirects models for infinity-stack (infinity,1)-toposes]]
+
