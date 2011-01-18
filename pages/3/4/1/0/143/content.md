@@ -19,83 +19,210 @@
 
 ## Idea
 
-A _sheaf_ is a [[presheaf]] that satisfies [[descent]].
+A [[presheaf]] on a [[site]] is a _sheaf_ if its value on any object of the site is given by its compatible values on any [[covering]] of that object.
 
-A gentle, detailed introduction to the basic ideas of the notion "sheaf" is at
+See also
 
 * [[motivation for sheaves, cohomology and higher stacks]].
 
-A [[presheaf]] can be regarded as an assignment of "sets of structures to [[space and quantity|spaces]]", such that these structures can be pulled back along maps of spaces. A presheaf is a _sheaf_ if this assignment satisfies [[descent]]: if $\pi: Y \to X$ is a [[cover]] of a space $X$ by a space $Y$, then the collection of structures assigned to $X$ is [[isomorphism|isomorphic]] to the collection of structures assigned to $Y$ which _glue_ and hence descend from $Y$ down to $X$.
+## Definition
 
-Generally, to any [[hypercover]] or [[local isomorphism]] $Y \to X$  and [[presheaf]] $A$ there is associated a [[descent]] [[set]] $Desc(Y,A)$ whose objects are the elements of $A(Y)$ which glue. There is also a canonical morphism
+There are several equivalent ways to think about sheaves. We start with the explicit componentwise definition and then discuss more [[category theory|general abstract]] reformulations.
+
+
+The following is an explicit component-wise definition of sheaves that is fully general (for instance not assuming that the [[site]] has [[pullback]]s).
+
++-- {: .un_def #GeneralComponentwiseDefinition}
+###### Definition
+
+Let $(C,J)$ be a [[site]] in the form of a [[small category]] $C$ equipped with a [[coverage]] $J$.
+
+A [[presheaf]] $A \in PSh(C)$ is a **sheaf** with respect to $J$ is
+
+* for every [[covering]] family $\{p_i : U_i \to U\}_{i \in I}$ in $J$
+
+* and for every _compatible family of elements_ given by tuples $(s_i \in A(U_i))$ such that for all morphisms $U_i \stackrel{f}{\leftarrow} K \stackrel{g}{\to} U_j$ such that $A(f)(s_i) = A(g)(s_j)$ for all $i,j \in I$
+
+* there is a _unique_ element $s \in A(U)$ such that $A(p_i)(s) = s_i$ for all $i \in I$.
+
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+If in the above definition there is _at most_ one such $s$, we say that $A$ is a [[separated presheaf]] with respect to $J$.
+
+=--
+
+In this form the definition appears in [Johnstone, def. C2.1.2](#Johnstone)
+
+
+We now reformulate the [above component-wise definition](#GeneralComponentwiseDefinition) in [[category theory|general abstract]] terms.
+
+Write
 
 $$
-  Hom(X,A) = A(X) \to Desc(Y,G) = Hom(Y,A)
+  j : C \hookrightarrow PSh(C)
+$$
+
+for the [[Yoneda embedding]].
+
++-- {: .un_def}
+###### Definition
+
+Given a [[covering]] family $\{f_i : U_i \to U\}$ in $J$, say its **[[sieve]]** is the presheaf $S(\{U_i\})$ defined as the [[coequalizer]]
+
+$$
+   \coprod_{i,j} j(U_i) \times_{j(u)} j(U_j) 
+     \stackrel{\overset{}{\to}}{\to}
+   \coprod_i j(U_i) \to S(\{U_i\}) 
+$$
+
+in $PSh(C)$.
+
+=--
+
+Here the [[coproduct]] on the left is over the [[pullback]]s
+
+$$
+  \array{
+    j(U_i) \times_{j(U)} j(U_j) &\stackrel{p_i}{\to}& j(U_i)
+    \\
+    {}^{\mathllap{p_j}}\downarrow && \downarrow^{\mathrlap{j(f_i)}}
+    \\
+    j(U_j) &\stackrel{j(f_j)}{\to}& j(U)
+  }
+$$
+
+in $PSh(C)$, and the two morphisms between the coproducts are those induced componentwise by the two porjections $p_i, p_j$ in this pullback diagram.
+
++-- {: .un_remark}
+###### Remark
+
+Using that [[limit]]s and [[colimit]]s in a [[category of presheaves]] are computed objectwise, we find that the [[sieve]] $S(\{U_i\})$ defined this way is the presheaf that sends any $K \in C$ to the set of [[morphisms]] $K \to U$ in $C$ that factor through one of the $f_i$
+
+=--
+
++-- {: .un_ovservation}
+###### Observation
+
+For every covering family there is a canonical morphism
+
+$$
+  i_{\{U_i\}} :  S(\{U_i\}) \to j(U)
+$$
+
+that is induced by the universal property of the [[coequalizer]] from the morphisms $j(f_i) : j(U_i) \to j(U)$ and $j(U_i) \times_{j(U)} j(U_j) \to J(U)$.
+=--
+
++-- {: .un_def}
+###### Definition
+
+A **sheaf** on $(C,J)$ is a [[presheaf]] $A \in PSh(C)$ that is a [[local object]] with respect to  all $i_{\{U_i\}}$: an object such that for all [[covering]] families $\{f_i : U_i \to U\}$ in $J$ we have that the [[hom-functor]] $PSh_C(-,A)$ sends the canonical morphisms $i_{\{U_i\}} : S(\{U_i\}) \to j(U)$ to [[isomorphism]]s.
+
+$$
+  PSh_C(i_{\{U_i\}}, A) : 
+  PSh_C(j(U), A) \stackrel{\simeq}{\to} PSh_C(S(\{U_i\}), A)
   \,.
 $$
 
-A presheaf is a _sheaf_ if this canonical morphism is an [[isomorphism]], i.e. which is a [[local object]] with respect to [[local isomorphism]]s (or already for [[dense monomorphism]]s).
+=--
 
-**Remarks**
-
-* The [[vertical categorification|categorifications]] of sheaves are
-  * [[stack|stacks]];
-  * [[infinity-stack|infinity-stacks]].
-
-Here the [[descent]] set ($0$-category) is replaced by a [[descent]] [[category]] or $\infty$-[[infinity-category|category]]. Notably in the context of [[(infinity,1)-category]] theory the [[(infinity,1)-category of (infinity,1)-sheaves]] has literally the same definition as the [[category of sheaves]] itself as a [[geometric embedding]] into the corresponding collection of presheaves.
-
-## Definition
-
-There are many different equivalent aspects of the definition of sheaf.
-
-Let $S$ be a [[site]].
-
-A **sheaf** (of [[set]]s) is a [[presheaf]] (of sets) in $S$ that satisfies [[descent]] with respect to the corresponding [[Grothendieck topology]] in that it is a [[local object]] with respect to the [[local isomorphism]]s defined by the [[Grothendieck topology]]. For this it is sufficient to be a [[local object]] with respect to the [[dense monomorphism]]s into [[representable functor|representables]], as described in more detail below. A [[dense monomorphism]] into a representable is a covering [[sieve]], namely a morphism of the form
+Equivalently, using the [[Yoneda lemma]] and the fact that the [[hom-functor]] $PSh_C(-,A)$ sends [[colimit]]s to [[limit]]s, this say that the diagram
 
 $$
-  colim( U \times_X U \stackrel{\to}{\to} U)
-  \to 
-  X
+  A(U) 
+   \to 
+  \prod_i A(U_i)
+   \stackrel{\to}{\to}
+  \prod_{i,j} PSh_C(j(U_i) \times_{j(U)} j(U_j))
 $$
 
-where
+is an [[equalizer]] diagram for each covering family.
 
-$U = \coprod_\alpha U_\alpha$ is the [[coproduct]] of a covering family $\{U_\alpha \}$ for $X$ of objects in $S$ as presheaves (the [[Yoneda embedding]] $S \to PSh(S)$ is implicit throughout).
+This is also called the **[[descent]] condition** for descent along the covering family.
 
-So a [[presheaf]] $A$ is [[local object|local]] with respect to this morphism if there is a bijection of sets
++-- {: .un_remark}
+###### Remark
 
-$$
-  Hom(X,A) \simeq Hom(colim( U \times_X U \stackrel{\to}{\to} U)
-)
- \,.
-$$
+For many examples of sites that appear in practice -- but by far not for all -- it happens that the pullback presheaves $j(U_i) \times_{j(U)} \times j(U_j)$ are themselves again representable, hence that the [[pullback]] $U_i \times_U U_j$ exists already in $C$, even before passing to the [[Yoneda embedding]]. 
 
-By the defining universal property of the [[colimit]] ([[coproduct]] and [[coequalizer]] in this case) it follows that the [[hom-set]] on the right consists of 
-
-* morphisms $U \to A$, wich by the [[coproduct]] property are the same as collections of morphisms $\{U_\alpha \to A\}$, which by the [[Yoneda lemma]] are the same as collections of elements $\{s_\alpha \in A(U_\alpha)\}$;
-
-* such that the two pullbacks to $U \times X U = \coprod_{\alpha,\beta} U_\alpha \times_X U_\beta$ coincide; which means in terms of the $\{s_\alpha\}$ that these glue on double overlaps in that $s_\alpha|_{U_{\alpha,\beta}} = s_\beta|_{U_{\alpha, \beta}}$.
-
-This is the sheaf condition as one often sees it stated in the literature, especially for the case that $S$ is a [[category of open subsets]] of some [[topological space]].
-
-
-The [[category of sheaves]] $Sh(S)$ is the full [[subcategory]] of $PSh(S) = [S^{op}, Set]$ on presheaves that are sheaves. The [[category of sheaves]] is a [[topos]] and the [[full and faithful functor]]
+In this special case we may apply the [[Yoneda lemma]] once more to deduce
 
 $$
-  f_* : Sh(S) \hookrightarrow PSh(S)
+  PSh_C(j(U_i) \times_{j(U)} j(U_j), A)
+  \simeq
+  A(U_i \times_U U_j)
+  \,.
 $$
 
-is a [[geometric embedding]] of topoi. The left [[exact functor|exact]] [[left adjoint]] $f^* : PSh(S) \to Sh(S)$ is [[sheafification]].
+Then the sheaf condition is that all diagrams
 
-Conversely, every category of sheaves, hence every [[Grothendieck topology]] arises this way. So Gorthendieck topologies and their corresponding categories of sheaves can alternatively be defined as [[geometric embedding]]s into categories of presheaves.
+$$
+  A(U) 
+   \to 
+  \prod_i A(U_i)
+   \stackrel{\to}{\to}
+  \prod_{i,j} A(U_i \times_U U_j)
+$$
 
-The notion of sheaf and of [[sheafification]] makes sense for presheaves with values in some classes of categories $A$ other than sets, notably for $A$ a [[Grothendieck category]]. Such [[abelian sheaf|abelian sheaves]] give rise to [[abelian sheaf cohomology]].
+are [[equalizer]] [[diagram]]s.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The condition that $PSh_C(S(\{U_i\}), A)$ is an [[isomorphism]] is equivlent to the condition that the set $A(U)$ is isomorphic to the set of compatible families $(s_i \in A(U_i))$ as it appears in the [above component-wise definition](#GeneralComponentwiseDefinition).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We may express the set of [[natural transformation]]s $PSh_C(j(U_i) \times_{j(U)} j(U_j), A)$ (as described there) by the [[end]]
+
+$$
+  PSh_C(j(U_i) \times_{j(U)} j(U_j), A)
+  \simeq
+  \int^{K \in C}
+   Set( C(K,U_i) \times_{C(K,U)} C(K,U_j) , A(K))
+  \,.
+$$
+
+Using this in the expression of the [[equalizer]]
+
+$$
+  \prod_i A(U_i)
+  \simeq
+  \prod_i 
+  \int^{K \in C}
+   Set( C(K,U_i), A(K))
+  \stackrel{\to}{\to}
+   \prod_{i,j}
+  \int^{K \in C}
+   Set( C(K,U_i) \times_{C(K,U)} C(K,U_j) , A(K))
+$$
+
+as a [[subset]] of the product set on the left manifestly yields the componenwise definition above.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+A **morphism of sheaves** is just a morphism of the underlying presheaves.
+So the [[category of sheaves]] $Sh_J(C)$ is the [[full subcategory]] of the [[category of presheaves]] on the sheaves:
+
+$$
+  Sh_J(C) \hookrightarrow PSh(C)
+$$
+
+=--
 
 
-**Remark** The definition of [[category of sheaves]] as [[geometric embedding]] into [[presheaf]] categories is the one that generalizes straightforward to an [[(infinity,1)-category|(infinity,1)-categorical]] context where it yields a notion of [[infinity-stack]] in terms of [[(infinity,1)-category of (infinity,1)-sheaves]].
-
-
-## Explicit description
+## Sheaves and localization
 
 
 We now describe the derivation and the detailed description of various aspects of sheaves, the [[descent]] condition for sheaves and [[sheafification]], relating it to all the related notions
@@ -125,9 +252,7 @@ We now describe the derivation and the detailed description of various aspects o
   * [[local epimorphism]]
 
 
-### In terms of geometric embedding 
-
-Here we start by assuming that a [[geometric embedding]] into a [[presheaf]] category is given and derive the consequences.
+We start by assuming that a [[geometric embedding]] into a [[presheaf]] category is given and derive the consequences.
 
 So let $S$ be a [[small category]] and write $PSh(S) = PSh_S = [S^{op}, Set]$ for the corresponding [[topos]] of [[presheaf|presheaves]].
 
@@ -499,86 +624,10 @@ for $W \to U \times_X U$ a cover. For higher [[stack]]s the hypercover is in gen
 =--
 
 
-### In terms of sieves
-
-One formalization of the descent set is obtained from representing a cover $Y$ by the corresponding [[presheaf]] $S_Y : C^{op} \to Set$ -- a [[sieve]] -- and defining the descent set as
-
-$$
-  Desc(Y,G) := [S^{op}, Set](S_Y, G)
-  \,.
-$$
-
-So: given a [[site]] $(C, J)$, a _sheaf_ over that site is a [[presheaf]]
-
-$$G: C^{op} \to Set$$
-
-such that whenever $i: F \hookrightarrow \hom(-, c)$ is a [[Grothendieck topology|covering sieve]], the map
-
-$$G(c) \stackrel{Yoneda}{\cong} Set^{C^{op}}(\hom(-, c), G) \stackrel{Set^{C^{op}}(i, G)}{\to} Set^{C^{op}}(F, G)$$
-
-is an isomorphism.
-
-### In terms of orientals 
-
-When generalizing sheaves to  [[stack|stacks]] and then to  [[infinity-stack|infinity-stacks]] the Hom-set $Set^{C^{op}}(F, G)$ in the above definition, representing the descent set (0-category), needs to be generalized to a corresponding [[category]] or [[infinity-category]] [[functor category|of infinity-functors]] whose objects are the $\infty$-functors from the cover/sieve $F$ to the presheaf $G$, whose morphisms are homotopies between these, whose higher morphisms are the higher homotopies. The technical problem is to formalize these $\infty$-categories of $\infty$-functors. This is one of the central issues of [[higher category theory]].
-
-One partial solution to the problem has been given by Ross Street, who defined descent [[strict omega-category|strict omega-categories]] $Desc(Y,G)$ for $\omega$-category-valued presheaves $G : C^{op} \to \omega Cat$ in terms of [[oriental|orientals]]. The $\omega$-category $Desc(Y,G)$ can be regarded as the $\omega$-category of lax $\infty$-functors from the sieve associated with $Y$ to $G$.
-
-In the case that the $\omega$-categories in questions happen to be just [[n-category|0-categories]] this reduces to the definitin of descent 0-categories for presheaves.
-
-Of course the machinery of [[oriental|orientals]] is overkill for just defining sheaves, but it is instructive to understand sheaves in this language, since then the generalization to [[stack|stacks]] and [[infinity-stack|infinity-stacks]] is straightforward.
-
-So let $\pi : Y \to X$ be a morphism of objects of $C$ such that the pullback of $\pi$ along itself
-
-$$
-  \array{
-    Y^{[2]} &\stackrel{\pi_1}{\to}& Y
-    \\
-    \downarrow^{\pi_2} && \downarrow^\pi
-    \\
-    Y &\stackrel{\pi}{\to}& X
-  }
-$$
-
-exists. Let $G : C^{op} \to Set \hookrightarrow \omega Cat$ be a [[strict omega-category]] valued presheaf which happens to take values just in $0$-[[0-category|categories]]. Then an _object_ (an element) in the descent $\omega$-category $Desc(Y,G)$ (which is a set here) is a tuple consisting of
-
-* an element $a \in G(Y)$;
-
-* a morphism $\pi_1^* a \stackrel{g}{\to} \pi_2^* a$ in $G(Y^{[2]})$, which is by assumption necessarily an
-[[identity morphism]]: $\pi_1^* a \stackrel{=}{\to} \pi_2^* a$.
-
-The point to notice is that the morphism $\pi_1^* a \stackrel{g}{\to} \pi_2^* a$ is the image of the [[oriental|first oriental]] $G_1 = \{a \to b\}$ in $G(Y^{[2]})$.
-
-This definition can be formalized as an [[end]]
-
-$$
-  Desc(Y,G) := \int_{[n] \in \Delta}
-  hom(O([n]), G(Y^n))
-  \,,
-$$
-
-where
-
-* $\Delta$ is the [[simplex category]];
-
-* $O : \Delta \to \omega Cat$ are the [[oriental|orientals]].
-
-
-From this definition one obtains the canonical morphism
-
-$$
-  G(X) \to Desc(Y,G)
-$$
-
-form the universal property of then end. The _sheaf condition_ is, as before, that this canonical morphism is an isomorphism for all covers $Y \to X$.
-
-From the above explicit characterization of $Desc(Y,G)$ this is manifestly the familiar gluing condition for sheaves: the presheaf $G$ is a sheaf if the elements in $G(Y)$ which coincide (glue) on double intersections $Y^{[2]}$ correspond bijectively to the elements in $G(Y)$.
-
-
 
 ## Examples
 
-The archetypical example of sheaves are _sheaves of functions_:
+The archetypical example of sheaves are _sheaves of [[function]]s_:
 
 * for $X$ a topological space, $\mathbb{C}$ a topological space and $O(X)$ the [[site]] of open subsets of $X$, the assignment $U \mapsto C(U,\mathbb{C})$ of continuous functions from $U$ to $\mathbb{C}$ for every open subset $U \subset X$ is a sheaf on $O(X)$.
 
@@ -596,14 +645,19 @@ The archetypical example of sheaves are _sheaves of functions_:
 
 ## References
 
-The book by MacLane and Moerdijk has an emphasis on the [[topos]]-theoretic aspects of sheaves:
+Section C2 in 
 
-* S. MacLane, I. Moerdijk, [[Sheaves in Geometry and Logic]]
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+{#Johnstone}
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 The book by Kashiwara and Shapira discusses sheaves with motivation from [[homological algebra]], [[abelian sheaf cohomology]] and [[homotopy theory]], leading over in the last chapter to the notion of [[stack]].
 
 * Kashiwara, Shapira, [[Categories and Sheaves]], Springer
 
-* Dugger, Sheaves and Homotopy Theory ([pdf](http://ncatlab.org/nlab/files/cech.pdf))
+A quick pedagogical introduction with an eye towrds the generalization to [[(∞,1)-sheaves]] is in 
+
+* [[Dan Dugger]], Sheaves and Homotopy Theory ([pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 [[!redirects sheaves]]
