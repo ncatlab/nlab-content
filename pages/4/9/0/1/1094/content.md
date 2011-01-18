@@ -24,7 +24,7 @@ Therefore sheafification is a special case of a very general phenonemon of [[loc
 
 ## Definition
 
-Given a [[site]] $S$, every [[Set]]-valued [[presheaf]] $F$ in $PSh(S) := [S^{op}, Set]$ is [[local isomorphism|locally isomorphic]] (weakly equivalent, see there) to a [[sheaf]] $\bar F$. This construction extends to a functor
+Given a [[site]] $S$, every [[Set]]-valued [[presheaf]] $F$ in $PSh(S) := [S^{op}, Set]$ admits a [[local isomorphism]] (a certain type of weak equivalence) to a [[sheaf]] $\bar F$.  This construction extends to a functor
 
 $$
   \bar{(-)} : PSh(S) \to Sh(S)
