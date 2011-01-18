@@ -78,7 +78,7 @@ Any [[localic group]] $G$ has a [[classifying topos]] consisting of continuous $
 $$ LocGrp \to Topos $$
 is not an [[embedding]] into [[Topos]], but it can be shown to be so when restricted to prodiscrete localic groups.  One can also characterize the toposes that are sheaves on a prodiscrete localic group as the [[Galois topos|Galois toposes]].
 
-Most of these results have corresponding facts for pro-[[groupoids]] and prodiscrete localic groupoids.
+Most of these results have corresponding facts for pro-[[groupoids]] and prodiscrete localic groupoids.  However, in full generality, the category of (even surjective) pro-groupoids does not embed into localic groupoids, since the category of [[pro-sets]] (= categorically discrete pro-groupoids) does not embed into locales (= categorically discrete localic groupoids).
 
 ## References
 
