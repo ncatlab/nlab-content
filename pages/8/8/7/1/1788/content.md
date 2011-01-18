@@ -192,6 +192,24 @@ Some examples
 1. Some examples
 =--
 
++-- {: .proof}
+###### Proof
+
+1.  Because I said so.
+2.  It\'s obvious!
+3.  This step is left to the reader.
+=--
+
++-- {: .proof}
+###### Proof
+&nbsp;
+1.  Because I said so.
+2.  It\'s obvious!
+3.  This step is left to the reader.
+
+&nbsp;
+=--
+
 
 category: meta
 
