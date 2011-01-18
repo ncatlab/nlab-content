@@ -2,3 +2,5 @@ Profinite spaces are another name for [[Stone space|Stone spaces]], i.e., [[comp
 
 [[!redirects Profinite space]]
 [[!redirects profinite spaces]]
+[[!redirects profinite set]]
+[[!redirects profinite sets]]
