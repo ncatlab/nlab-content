@@ -29,6 +29,19 @@ Black holes are considered theoretically for [[gravity|gravitational theories]] 
 
 * Another solution with finite angular momentum is called the [[Kerr spacetime]], and there is a simple generalization having also the electric charge, the Newman solution or the Kerr-Newman black hole. This solution differs pretty much from the Schwarzschild solution and its structure is unstable under various physical mechanisms and perturbations; it posesses two horizons, inner and outer. 
 
+
+## Properties
+
+### Topology
+
+
+Hawking's _Theorem of Black Hole topology_ asserts that the in case of $d = 4$ asymptotically flat stationary black holes satisfying the suitable [[dominant energy condition]], the cross sections of the [[event horizon]] are spherical.
+
+[Galloway and Schoen](#GallowaySchoen) extended this theorem to higher dimensions; they showed that the cross sections of event horizon (stationary case) and the outer (apparent) horizon (general case) are of Yambae type
+
+
+
+
 ## Empirical observation
 
 See
@@ -53,6 +66,9 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 * G. T. Horowitz, A. Strominger, _Counting states of near-extremal black holes_, Phys. Rev. Lett. 77 (1996) 2368&#8211;2371, [hep-th/9602051](http://arxiv.org/abs/hep-th/9602051).
 
 * R. D'Auria, P. Fre', _BPS black holes in [[supergravity]]_, [hep-th/9812160](http://arxiv.org/abs/hep-th/9812160)
+
+* Gregory Galloway, Richard Schoen, _A Generalization of Hawking's Black Hole Topology Theorem to Higher Dimensions_ Commun. Math. Phys. (2006) ([pdf](http://www.math.miami.edu/~galloway/paper/220_2006_19_OnlinePDF.pdf))
+{#GallowaySchoen}
 
 [[!redirects black holes]]
 [[!redirects black hole spacetime]]
