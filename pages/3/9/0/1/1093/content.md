@@ -17,11 +17,11 @@
 
 ## Idea
 
-This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a [[site]] $S$ -- a [[Grothendieck topos]]. Among other things it does give a definition and a characterization of the notion of [[sheaf]] itself, but for more details [[sheaf|sheaves]] themselves see there. 
+This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a ([[small category|small]]) [[site]] $S$, which is a [[Grothendieck topos]].  Among other things it gives a definition and a characterization of the notion of [[sheaf]] itself, but for more details [[sheaf|sheaves]] themselves see there. 
 
 ## Definition
 
-Let $(C,J)$ be a [[site]]: a [[category]] equipped with a [[coverage]].
+Let $(C,J)$ be a [[site]]: a (small) [[category]] equipped with a [[coverage]].
 
 +-- {: .un_prop}
 ###### Definition
@@ -48,11 +48,11 @@ $$
   \,,
 $$
 
-hence a [[subtopos]] of the [[presheaf topos]]. And every such subtoposes arises this way: there is a [[bijection]] between [[Grothendieck topologies]] on $C$ and equivalence classes of [[geometric embedding]]s into $PSh(C)$.
+hence a [[subtopos]] of the [[presheaf topos]].  Moreover, every such subtopos arises in this way: there is a [[bijection]] between [[Grothendieck topologies]] on $C$ and equivalence classes of [[geometric embedding]]s into $PSh(C)$.
 
 =--
 
-This appears for instance as ([Johnstone, corollary 2.1.11])(#Johnstone).
+This appears for instance as ([Johnstone, corollary 2.1.11](#Johnstone)).  See also [[Lawvere-Tierney topology]].
 
 +-- {: .proof}
 ###### Proof
@@ -75,14 +75,14 @@ Details on the first statement are at [[sheafification]]. A full proof for the s
 +-- {: .un_prop}
 ###### Proposition
 
-The category of sheaves is equivalent to the [[homotopy category]] of the [[category with weak equivalences]] $PSh(C)$ with the weak equivalences given by $W = $[[local isomorphism]]s
+The category of sheaves is equivalent to the [[homotopy category]] of the [[category with weak equivalences]] $PSh(C)$ with the weak equivalences given by $W = $[[local isomorphisms]]
 
 $$
   Sh(S) \simeq Ho_{PSh(S)} = PSh(C)[local isomorphisms]^{-1}
   \,.
 $$
 
-* also the converse is true: for every [[exact functor|left exaxt]] functor $L : PSh(S) \to PSh(S)$ (preserving finite limits) which is [[adjoint functor|left adjoint]] to the inclusion of its image, there is a Grothendieck topology on $S$ such that the image of $L$ is the category of sheaves on $S$ with respect to that topology.
+The converse is also true: for every [left exact functor]] $L : PSh(S) \to PSh(S)$ (preserving finite limits) which is [[adjoint functor|left adjoint]] to the inclusion of its image, there is a Grothendieck topology on $S$ such that the image of $L$ is the category of sheaves on $S$ with respect to that topology.
 
 =--
 
