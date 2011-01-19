@@ -39,6 +39,10 @@ If the reflector $T$ is [[faithful functor|faithful]], the reflection is called 
 
 ## Characterizations
 
+
++-- {: .un_prop #CharacterizationByLocalization}
+###### Proposition
+
 Given any pair of [[adjoint functor]]s 
 
 $$
@@ -47,7 +51,7 @@ $$
   \stackrel{\overset{Q^*}{\leftarrow}}{\underset{Q_*}{\to}} A
 $$ 
 
-the following are equivalent ([[Gabriel-Zisman]]):
+the following are equivalent:
 
 1. The [[right adjoint]] $Q_*$ is [[full and faithful functor|fully faithful]]. (In this case $B$ is equivalent to its essential image in $A$ under $Q_*$, a reflective full subcategory of $A$.) 
 
@@ -56,6 +60,10 @@ the following are equivalent ([[Gabriel-Zisman]]):
 3. The [[monad]] $(Q^* Q_*,Q^*\varepsilon Q_*,\eta)$ associated to the adjunction is [[idempotent monad|idempotent]].
 
 4. If $S$ is the set of morphisms $s$ in $A$ such that $Q^*(s)$ is invertible in $B$, then $Q^*: A \to B$ realizes $B$ as the [[localization]] of $A$ with respect to the class $S$. 
+
+=--
+
+This is due to[[Gabriel-Zisman]].
 
 This is a well-known set of equivalences concerning idempotent monads. The essential point is that a reflective subcategory $i: B \to A$ is [[monadic functor|monadic]], i.e., realizes $B$ as the category of algebras for the monad $i r$ on $A$, where $r: A \to B$ is the reflector. 
 
