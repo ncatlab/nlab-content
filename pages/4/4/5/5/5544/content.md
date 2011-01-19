@@ -1,16 +1,15 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Manifolds and cobordisms
-+--{: .hide}
++-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
 =--
 =--
 
-
-A [[manifold]] $X$ of [[dimension]] $n \in \mathbb{N}$ is by definition a [[topological space]] that is locally [[isomorphic]] to a [[Cartesian space]] $\mathbb{R}^n$. A choice of such morphism
+A [[topological manifold]] $X$ of [[dimension]] $n \in \mathbb{N}$ is by definition a [[topological space]] that is locally [[homeomorphic]] to a [[Cartesian space]] $\mathbb{R}^n$. A choice of such morphism
 
 $$
   \phi : \mathbb{R}^n \stackrel{\simeq}{\to} X|_{im(\phi)} \hookrightarrow X
@@ -18,8 +17,12 @@ $$
 
 is a **coordinate system** or **coordinate chart** or just **chart** on the [[image]] of $\phi$.
 
+This generalises to other sorts of [[manifolds]].
+
+An [[atlas]] is the collection of coordinate charts defining a manifold structure.
 
 
+[[!redirects coordinate system]]
 [[!redirects coordinate systems]]
 
 [[!redirects chart]]
