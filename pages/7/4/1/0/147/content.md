@@ -132,6 +132,10 @@ This are examples of [[posite]]s/[[(0,1)-site]].
 
 Other classes of sites are listed in the following.
 
+* [[large site]], [[dense sub-site]]
+
+* [[big site]] 
+
 * [[concrete site]]
 
 * [[locally connected site]] / [[locally ∞-connected site]]
