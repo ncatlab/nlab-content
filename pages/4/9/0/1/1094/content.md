@@ -24,35 +24,265 @@ Therefore sheafification is a special case of a very general phenonemon of [[loc
 
 ## Definition
 
-Given a [[site]] $S$, every [[Set]]-valued [[presheaf]] $F$ in $PSh(S) := [S^{op}, Set]$ admits a [[local isomorphism]] (a certain type of weak equivalence) to a [[sheaf]] $\bar F$.  This construction extends to a functor
+Let $(C,J)$ be a [[site]] in the sense of: [[small category]] equipped with a [[coverage]]. Write $PSh(C)$ for the [[category of presheaves]] on $C$ and
 
 $$
-  \bar{(-)} : PSh(S) \to Sh(S)
+  j : C \to PSh(C)
+$$
+
+for the [[Yoneda embedding]]. Write 
+
+$$
+  i :  Sh_J(C) \hookrightarrow PSh(C)
+$$ 
+
+for the [[category of sheaves]]: the [[full subcategory]] on those presheaves that are $J$-[[sheaves]].
+
+### Existence
+
++-- {: .un_prop #ExistenceOfLeftAdjoint}
+###### Proposition
+
+The inclusion of sheaves into presheaves admits a [[left adjoint|left]] [[adjoint functor]], which hence exhibits $Sh(C)$ as a [[reflective subcategory]] or reflective [[localization]] of $PSh(C)$:
+
+$$
+  (L \dashv i) : Sh_J(C) \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
+   PSh(C)
   \,.
 $$
 
-This functor is **sheafification**. 
+=--
 
-Sheafification is [[exact functor|left exact]] [[adjoint functor|left adjoint]] to the [[stuff, structure, property|fully faithful forgetful]] [[injection|subcategory]] [[functor]] $i : Sh(S) \hookrightarrow PSh(S)$. Therefore it constitutes a [[geometric morphism]] of [[Grothendieck topos|Grothendieck topoi]]
++-- {: .proof}
+###### Proof
+
+This follows by general properties discussed at [[reflective subcategory]]. 
+
+We spell out the argument using the theory of [[localization]] at a set of morphisms satisfying a [[calculus of fractions]].
+
+Recall from the discussion at [[sheaf]] that $Sh_J(C)$ is by definition the [[full subcategory]] of $PSh(C)$ on the [[local object]]s with respect to the morphisms 
 
 $$
-  PSh(S) \stackrel{\stackrel{\bar {(-)}}{\to}}{\stackrel{i}{\leftarrow}}
-  Sh(S)
+  W = 
+  \left\{
+  S(\{U_i\}) := \lim_\to\left( 
+    \coprod_{i,j} j(U_i) \times_{j(U)} j(U_j) \stackrel{\to}{\to} \coprod_i j(U_i) \right) \to j(U)
+   |
+   \;\;
+  \{U_i \to U\}_{i \in I} \in J
+  \right\}
+$$
+
+of [[sieve]] inclusions for all [[covering]] famlilies of the [[coverage]] $J$.
+
+Notice that an object is a [[local object]] with respect to these morphisms precisely if it is local with respect to the set of all [[small set|small]] [[colimit]]s (in the [[arrow category]] $Arr(PSh(C))$ ) of such morphims (since the [[hom-functor]] $PSh_C(-,A)$ sends colimits in the first argument to [[limit]]s, and a limit of [[isomorphism]]s is an isomorphism).
+
+Let hence $\bar W$ be the completion of $A$ under forming small colimits in $Arr(PSh(C))$.
+
+We claim that the morphisms in $\bar W$ form a [[calculus of fractions]]. The first condition to check is that for all morphisms of presheaves $X \to j(U)$ and every covering family $\{U_i \to U\}$ there is a morphism $Y \to X$ in $\bar W$ and a [[commuting diagram]]
+
+$$
+  \array{
+    Y &\to& S(\{U_i\})
+    \\
+    \downarrow && \downarrow^{\mathrlap{s}}
+    \\
+    X &\to& j(U)
+  }
+$$
+
+in $PSh(C)$. (It is sufficient to demand this for $s \in W \subset \bar W$ to deduce the stability conditions for all morphisms in $\bar W$, since by [[universal colimits]] in the [[presheaf topos]] $PSh(C)$ the pullback of a colimit is a colimit of pullbacks.)
+
+Similarly, to see that we can find $Y \to X$ we use the [[co-Yoneda lemma]] to decompose $X$ as a [[colimit]] of [[representable functor|representables]] $X \simeq {\lim_{\to}_j} K_j$ and then use [[universal colimits]] to deduce that we are looking at a diagram of the form
+
+$$
+  \array{
+    {\lim_{\to}}_r s^* K_r &\to& S(\{U_i\})
+    \\
+    \downarrow && \downarrow^{\mathrlap{s}}
+    \\
+    {\lim_\to}_r j(K_r) &\to& j(U)
+  }
   \,.
 $$
 
-## Sheafification for more general presheaves ##
+Since $\bar W$ is closed under colimits, it is hence sufficient that we show the stability condition for $X$ any representable. So we need to fill diagrams of the form
+
+$$
+  \array{
+    Y &\to& S(\{U_i\})
+    \\
+    \downarrow && \downarrow^{\mathrlap{s}}
+    \\
+    j(K) &\to& j(U)
+  }
+  \,.
+$$
+
+For this now use the single condition on a [[coverage]]: that for $\{U_i \to U\}$ a covering family in the [[site]] $(C,J)$ we can find a covering family $\{K_j \to K\}$ such that every $K_j \to K$ factors through one of the $U_i \to U$. But this means that also the [[sieve]]s factor, and we have a commuting diagram
+
+$$
+  \array{
+    S(\{K_j\}) &\to& S(\{U_i\})
+    \\
+    \downarrow && \downarrow
+    \\
+    j(K) &\to& j(U)
+  }
+  \,.
+$$
+
+This shows that $\bar W$ satisfies the first condition at [[factorization system]]. 
+
+The second condition at [[calculus of fractions]] demands that if two composites of the form
+
+$$
+   X \stackrel{\to}{\to} S(\{U_i\}) \to j()
+$$
+
+are equal in $PSh(C)$, then there is a morphism $Y \to X$ in $PSh(C)$ such that the two composites
+
+$$
+  Y \to X \stackrel{\to}{\to} S(\{U_i\})
+$$
+
+are equal. But the [[sieve]] inclusions are [[monomorphism]]s, hence this condition is trivially satisyfied (choose $Y \to X$ to be the [[identity]] on $X$).
+
+This gives us the [[localization]] $L : PSh(C) \to Sh_J(C)$ as described at [[calculus of fractions]]. By the discussion there we have that for $X \in PSh(C)$ a presheaf and $A \in Sh_J(C)$ the [[hom-set]] $Sh_C(L(X),A)$ is given by
+
+$$
+  Sh_C(L(X), A) \simeq
+  {\lim_{\to}}_{\hat X \stackrel{w \in \bar W}{\to} X} PSh_C(\hat X,A)
+  \,.
+$$
+
+But if $A$ is a sheaf, it is a $\bar W$-[[local object]] and hence $PSh_C(\hat X \stackrel{w}{\to} X, A)$ is an [[isomorphism]] for all $w \in \bar W$. Hence the above colimit is over a diagram constant on its value at $w = Id : X \to X$ therefore we have a [[natural isomorphism]]
+
+$$
+  \cdots \simeq
+  PSh_C(X,A)
+  \,.
+$$
+
+This demonstrates the [[adjunction]] $(L \dashv i)$.
+
+=--
+
+### Construction
+
++-- {: .un_cor}
+###### Corollary
+
+For $X \in PSh(C)$ a [[presheaf]] on the [[site]] $(C,J)$, its **sheafification** $L(X)$ is the presheaf given on any $U \in C$ by
+
+$$
+  L(X) : U \mapsto {\lim_\to}_{\{\hat U \stackrel{w}{\to} j(U)\}} PSh_C(\hat U, X)
+  \,,
+$$
+
+where the [[colimit]] on the right is over all $w \in \bar W$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[Yoneda lemma]] we have
+
+$$
+  L(X)(U) \simeq PSh_C(j(U), L(X))
+  \,.
+$$
+
+By the [above proposition](#ExistenceOfLeftAdjoint) this is 
+
+$$
+  \cdots \simeq Sh_C(L(j(U)), L(X))
+  \,.
+$$
+
+By the proof of the above proposition, using the formulas discussed at [[calculus of fractions]], this hom-set is given by 
+
+$$
+  \cdots \simeq {\lim_\to}_{\{ \hat U \stackrel{w}{\to} j(U)\}} PSh_C(\hat U, X)
+  \,.
+$$
+
+=--
+
++-- {: .un_observation}
+###### Observation
+
+By the definition of $\bar W$, the morphisms $\hat U \to j(U)$ in $\bar W$ are colimits of diagrams of [[covering]] [[sieve]]s
+
+$$
+  \hat U \simeq 
+    {\lim_\to}_{\{K \to U\}} S(\{K_i\}) \to {\lim_\to}_{\{K \to U\}} j(K)
+  \,.
+$$
+
+This means that the the above coimit may be computed as two consecutive colimits of the form
+
+$$
+  {\lim_{\to}}_{\{S(\{U_i\}) \to j(U)\}} PSh_C(S(\{U_i\}), X)
+  \,.
+$$
+
+One such application is called the [[plus construction]].
+
+=--
+
++-- {: .un_observation}
+###### Observation
+
+A morphism $S(\{U_i\}) \to X$ out of a [[sieve]] into any presheaf is in components precisely a [[matching family]] of the presheaf $X$ on the [[covering]] $\{U_i \to U\}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use that the sieve is the [[coequalizer]]
+
+$$
+  S(\{U_i\}) \to \coprod_i j(U_i) \stackrel{\to}{\to}
+   \coprod_{i,j} j(U_i) \times_{j(U)} j(U_j)
+$$
+
+and that the [[hom-functor]] $PSh_C(-,X)$ sends [[colimit]]s to [[limit]]s. More details on this computation are at [[sheaf]].
+
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+The [[unit of an adjunction|unit]] of the $(L \dashv i)$-[[adjunction]] has as components natural morphisms
+
+$$
+  X \to L X
+$$
+
+in $PSh(C)$, from any presheaf into its sheafification. By general properties of [[reflective subcategories]] these morphisms are mapped to [[isomorphism]]s by $L : PSh(C) \to Sh_(C)$. Therefore these are [[local isomorphism]]s. 
+
+So every presheaf is related by a [[local isomorphism]] to its sheafification.
+
+=--
+
+
+## For sheaves with values in categories other than $Set$ 
 
 
 For presheaves with values in categories other than
 [[Set]], sheafification may be a difficult problem, unless one has some extra assumptions. 
 
 
-### Sheafification with values in models for finit-limit theories ###
+### With values in models for finit-limit theories ###
 
-Consider a type of structure $T$ defined in terms of finite limits (such as groups, algebras, modules, etc.), then [[internal logic|internal]] $T$-models are preserved by both direct and inverse images of geometric morphisms.  Therefore, the adjunction between sheaves and presheaves of sets directly induces an adjunction between $T$-models in sheaves and presheaves.  And since finite limits of sheaves and presheaves are computed pointwise, $T$-models in the category of (pre)sheaves are the same as (pre)sheaves of $T$-models-in-$Set$.
+Consider a type of structure $T$ defined in terms of an [[essentially algebraic theory]] finite limits (such as [[group]]s, [[algebra]]s, [[module]]s, etc.), then [[internal logic|internal]] $T$-[[algebra over an algebraic theory|models]] are preserved by both [[direct image]]s and [[inverse image]]s of [[geometric morphism]]s.  Therefore, the [[adjunction]] $(L \dashv i) : Sh_J(C) \to PSh(C)$  directly induces an adjunction between $T$-models in sheaves and presheaves.  And since finite limits of sheaves and presheaves are computed pointwise, $T$-models in the category of (pre)sheaves are the same as (pre)sheaves of $T$-models-in-$Set$.
 
-### Sheafification using IPC-property
+### Using the IPC-property
 
 If a [[category]] $A$ satisfies the following assumptions, sheafification of presheaves in $[S^{op}, A]$ exists and is constructed analogously as for [[Set]]-valued sheaves.
 
@@ -93,44 +323,8 @@ really unnecessary for the examples above?
 =--
 
 
-## Construction
-
-### In terms of matching families 
-
-A concrete component-based construction of sheafification proceeds via [[matching family|matching families]]. See there for details.
-
-## In terms of local isomorphisms ##
-
-Encoding the [[Grothendieck topology]] on $S$ equivalently in a system of [[local isomorphism]]s, sheafification can be expressed as follows.
-
-Write $Ho_{PSh(S)}$ for the [[homotopy category]] induced by letting weak equivalences be the [[local isomorphism]]s with respect to a Grothendieck topology on $S$ as described at [[category of sheaves]].
-
-Let $F \in PSh(S)$ be a [[presheaf]] on $S$. Its **sheafification** is the presheaf
-
-$$
-  \bar F : U \mapsto Hom_{Ho(PSh(S))}(Y(U), F)
-  \,,
-$$
-
-where $Y$ denotes the [[Yoneda embedding]]. This can be computed explicitly as
-
-$$
-  \bar F(U) 
-  =
-   \colim_{ \hat U \stackrel{local iso}{\to} U } 
-   Hom_{PSh(S)}(\hat U, F)
-  \,,
-$$
 
 
-
-## Remarks
-
-* For more on the role of sheafification see [[category of sheaves]].
-
-* The notion of sheafification generalizes from [[presheaf]] [[Grothendieck topos|Grothendieck topoi]] to arbitrary [[topos|topoi]] with [[Lawvere-Tierney topology]]. See the last.
-
-* The notion of sheafification also generalizes from the 1-categorical to the [[(infinity,1)-category|(infinity,1)-categorical]] context. See [[(infinity,1)-category of (infinity,1)-sheaves]]. 
 
 ## Related concepts
 
