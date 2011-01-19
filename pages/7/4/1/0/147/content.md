@@ -132,9 +132,11 @@ This are examples of [[posite]]s/[[(0,1)-site]].
 
 Other classes of sites are listed in the following.
 
-* [[large site]], [[dense sub-site]]
-
 * [[big site]] 
+
+* [[dense sub-site]]
+
+* [[large site]], [[essentially small site]]
 
 * [[concrete site]]
 
@@ -161,7 +163,6 @@ If $A$ and $B$ are [[frame]]s regarded as sites via their canonical coverages, t
 
 =--
 
-#### Over-sites / sub-sites
 
 +-- {: .un_example}
 ###### Example
@@ -219,8 +220,9 @@ For $C$ any site with finite limits, there is canonically a  morphism of sites t
 
 * The sites that define the [[higher geometry|geometry]] called [[differential geometry]] are [[CartSp]]${}_{smooth}$, [[Diff]], etc, equipped with the [[open cover]] [[coverage]].
 
-* The sites that induced topological geometry are small versions of [[Top]] equipped with the [[open cover]] [[coverage]].
+* The sites that induce [[topology]topological geometry]] are small versions of [[Top]] equipped with the [[open cover]] [[coverage]].
 
+  * The sites that induce the [[higher geometry]] modeled on [[Euclidean topology]] are the large site of [[paracompact manifold]]s and its [[dense sub-site]] [[CartSp]]${}_{top}$.
 
 * The sites that define the [[higher geometry|geometry]] called [[algebraic geometry]] are site structures on categories of formal duals of [[commutative ring]]s or commutative [[associative algebra]]s
 
