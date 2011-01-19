@@ -21,13 +21,13 @@
 
 A _black hole_ is a [[spacetime]] that solves [[Einstein equations]] of [[general relativity]] characterized by the fact that it posseses an __[[event horizon]]__ hypersurface (or several of them) which has a number of special characteristics; for example the light can not escape from the space confined by the horizon hypersurface due to [[gravity|gravitational]] effects. Much of the theoretical considerations are about the entropy of black holes (cf. [[Bekenstein-Hawking entropy]]) and the information paradox.
 
-Black holes are considered theoretically for [[gravity|gravitational theories]] in various number $d$ of dimension. For $g \geq 5$ a black hole [[spacetime]] may have nontrivial [[topology]], e.g. _black rings_ are possible. 
+Black holes are considered theoretically for [[gravity|gravitational theories]] in various number $d$ of dimension. For $d \geq 5$ a black hole [[spacetime]] may have nontrivial [[topology]], e.g. _black rings_ are possible. 
 
 ## Examples
 
-* In usual asymptotically 3+1-dimensinal [[Minkowski spacetime]], the first black hole solution that was found is the [[Schwarzschild black hole]] solution; such a black hole posses a single horizon hypersurface and seems to be stable under various perturbations. 
+* In usual asymptotically 3+1-dimensional [[Minkowski spacetime]], the first black hole solution that was found is the [[Schwarzschild black hole]] solution; such a black hole posses a single horizon hypersurface and seems to be stable under various perturbations. 
 
-* Another solution with finite angular momentum is called the [[Kerr spacetime]], and there is a simple generalization having also the electric charge, the Newman solution or the Kerr-Newman black hole. This solution differs pretty much from the Schwarzschild solution and its structure is unstable under various physical mechanisms and perturbations; it posesses two horizons, inner and outer. 
+* Another solution with finite angular momentum is called the [[Kerr spacetime]], and there is a simple generalization having also the electric charge, the Newman solution or the Kerr-Newman black hole. This solution differs pretty much from the Schwarzschild solution and its structure is unstable under various physical mechanisms and perturbations; it possesses two horizons, inner and outer. 
 
 
 ## Properties
@@ -37,7 +37,7 @@ Black holes are considered theoretically for [[gravity|gravitational theories]] 
 
 Hawking's _Theorem of Black Hole topology_ asserts that the in case of $d = 4$ asymptotically flat stationary black holes satisfying the suitable [[dominant energy condition]], the cross sections of the [[event horizon]] are spherical.
 
-[Galloway and Schoen](#GallowaySchoen) extended this theorem to higher dimensions; they showed that the cross sections of event horizon (stationary case) and the outer (apparent) horizon (general case) are of Yambae type
+[Galloway and Schoen](#GallowaySchoen) extended this theorem to higher dimensions; they showed that the cross sections of event horizon (stationary case) and the outer (apparent) horizon (general case) are of Yamabe type.
 
 
 
@@ -67,7 +67,7 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 * R. D'Auria, P. Fre', _BPS black holes in [[supergravity]]_, [hep-th/9812160](http://arxiv.org/abs/hep-th/9812160)
 
-* Gregory Galloway, Richard Schoen, _A Generalization of Hawking's Black Hole Topology Theorem to Higher Dimensions_ Commun. Math. Phys. (2006) ([pdf](http://www.math.miami.edu/~galloway/paper/220_2006_19_OnlinePDF.pdf))
+* Gregory Galloway, Richard Schoen, _A Generalization of Hawking's Black Hole Topology Theorem to Higher Dimensions_ Commun. Math. Phys. (2006) ([pdf](http://www.math.miami.edu/~galloway/papers/220_2006_19_OnlinePDF.pdf))
 {#GallowaySchoen}
 
 [[!redirects black holes]]
