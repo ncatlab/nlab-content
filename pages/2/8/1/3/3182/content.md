@@ -64,25 +64,25 @@ We say that $ETop \infty Grpd$ defines **Euclidean-topological cohesion**. An ob
 
 =--
 
-+-- {: .un_prop}
++-- {: .un_prop #ToposOverTopMfd}
 ###### Proposition
 
-Write $TopMfd$ for the category of [[paracompact manifold]]s. This becomes a [[large site]] with the [[open cover]] [[coverage]]. We have an [[equivalence of (∞,1)-categories]]
+Write [[TopMfd]] for the category of [[topological manifold]]s. This becomes a [[large site]] with the [[open cover]] [[coverage]]. We have an [[equivalence of (∞,1)-categories]]
 
 $$
-  ETop\infty Grpd :=
-  Sh_{(\infty,1)}(CartSp_{top})
+  ETop\infty Grpd
   \simeq
-  Sh_{(\infty,1)}(TopMfd)
-  \,.
+  \hat Sh_{(\infty,1)}(TopMfd)
 $$
+
+with the [[hypercompletion]] of the [[(∞,1)-category of (∞,1)-sheaves]] on [[TopMfd]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-since every paracompact [[topological manifold]] admits an [[open cover]] by [[open balls]] [[homeomorphic]] to a [[Cartesian space]] it follows that [[CartSp]]${}_{top}$ is a [[dense sub-site]] of $TopMfd$. Accordingly the [[categories of sheaves]] are [[equivalence of categories|equivalent]]
+Since every [[topological manifold]] admits an [[open cover]] by [[open balls]] [[homeomorphic]] to a [[Cartesian space]] it follows that [[CartSp]]${}_{top}$ is a [[dense sub-site]] of $TopMfd$. Accordingly the [[categories of sheaves]] are [[equivalence of categories|equivalent]]
 
 $$
   Sh(CartSp_{top}) \simeq Sh(TopMfd)
@@ -108,14 +108,14 @@ But by the [above proposition](#ETopInfGrpdAsCohesiveTopos) we have that before 
 Write $Top_1$ for the 1-[[category]] of [[Hausdorff space|Hausdorff]] [[topological spaces]] and continuous maps. There is a canonical functor
 
 $$
-  i : Top_1 \to \tau_{\leq 0}ETop\infty Grpd \hookrightarrow  ETop\infty Grpd
+  j : Top_1 \to \tau_{\leq 0}ETop\infty Grpd \hookrightarrow  ETop\infty Grpd
 $$
 
 given by sending a topological space $X$ to the 0-[[truncated]]
 [[(∞,1)-sheaf]] (=  [[sheaf]]) on [[CartSp]]${}_{top}$ externally represented by $X$ under the embedding $CartSp_{top} \hookrightarrow Top$:
 
 $$
-  i(X) : (U \in CartSp_{top}) \mapsto Hom_{Top}(U,X)
+  j(X) : (U \in CartSp_{top}) \mapsto Hom_{Top}(U,X)
   \in Set \hookrightarrow \infty Grpd
   \,.
 $$
@@ -124,38 +124,19 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-On [[topological manifold]]s the functor $i$ is a [[full and faithful (∞,1)-functor]].
+The functor $j$ exhibits [[TopMfd]] as a full [[sub-(∞,1)-category]] of $ETop\infty Grpd$
+
+$$
+  TopMfd \hookrightarrow ETop\infty Grpd
+  \,.
+$$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Since the inclusion of the [[(n,1)-topos|(1,1)-topos]] 
-
-$$
-  Sh(CartSp_{top}) \simeq \tau_{\leq 0} Sh_{(\infty,1)}(CartSp_{top}) \hookrightarrow 
-Sh_{(\infty,1)}(CartSp_{top}) 
-$$ 
-
-is a [[full and faithful (∞,1)-functor]], we need to show that the factorization
-
-$$
-  i : TopManifolds \to Sh(CartSp_{top})
-$$ 
-
-through the [[sheaf topos]] is a [[full and faithful functor]].
-
-* _(faithful)_  If two [[continuous function]]s $(f,g : X \to Y) \in TopManifolds$ are different at some point $x \in X$, then by continuity they differ on an entire [[open ball]] [[open neighbourhood]]  $\{x\} \subset U \hookrightarrow X$ (the intersection of the preimages of any two disjoint open neighbourhoods of $f(x)$ and $g(x)$). This [[open ball]] is [[diffeomorphic]] to a [[Cartesian space]]  and hence $i(f)$ and $i(g)$ differ on this element $U \in i(X)(U) = Top(U,X)$. This shows that $i$ is a [[faithful functor]].
-
-* _(full)_ Let $f : i(X) \to i(Y)$ be a morphism in $Sh(CartSp_{top})$. Then for every point $x \in X$ there is a chart $\phi : \mathbb{R}^n \to X$ of the [[manifold]] $X$ containing $x$, say $x = \phi(0)$. This is necessarily taken by $f$ to a continuous function $f\circ \phi : \mathbb{R}^n \to Y$. By restricting to an open neighbourhood $\{x\} \subset U \hookrightarrow \mathbb{R}^n$ if necessary, we can assume the image of $f \circ \phi$ to be contained in a chart $\psi : \mathbb{R}^n \hookrightarrow Y$ of $Y$, so that we have a map of sets
-
-  $$
-    \mathbb{R}^n \stackrel{\simeq}{\to} X|_U \stackrel{f(*)}{\to} \mathbb{R}^n \hookrightarrow Y
-    \,,
-  $$
-
-  where the composite of the first two maps is continuous. Hence $f(*)$ is continuous on some chart around every point of $X$, hence is generally continuous. This shows that $i$ is a [[full functor]].
+With the [above proposition](#ToposOverTopMfd) this follows directly by the [[(∞,1)-Yoneda lemma]].
 
 =--
 
