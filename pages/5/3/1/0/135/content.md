@@ -118,8 +118,17 @@ $$
 
 =--
 
+## Related concepts
+
+* [[CartSp]]${}_{top}$ ,  [[TopMfd]]
+
+* [[CartSp]]${}_{top}$, **SmoothMfd**
+
+
 
 category: category
 
 [[!redirects Man]]
 [[!redirects Mfd]]
+
+[[!redirects SmoothMfd]]
