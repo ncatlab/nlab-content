@@ -174,19 +174,15 @@ At the very beginning, a [[model category]] was understood as a "model for the c
 
 As mentioned above, from the point of view of [[(∞,1)-categories]], [[Top]] may naturally be regarded an as [[(∞,1)-category]] and is in fact the archetypical example, analogous to how [[Set]] is the archetypical examples of an ordinary [[category]].
 
-This indicates that, more generally, a [[model category]] should actually be a means to model (i.e. encode) in 1-categorical terms an $(\infty,1)$-category.  This indeed turns out to be true: there is a precise sense in which every [[model category]] [[presentable (infinity,1)-category|presents]] an $(\infty,1)$-category.
+This indicates that, more generally, a [[model category]] should actually be a means to model (i.e. encode) in 1-categorical terms an $(\infty,1)$-category, and of course this is true since indeed any [[category with weak equivalences]] presents an $(\infty,1)$-category via Dwyer-Kan simplicial localization.  In the case of a model category, however, or at least a [[simplicial model category]], this $(\infty,1)$-category has a different, simpler construction.
 
-* given a model category $A$;
+* A [[simplicial model category]] $\mathbf{A}$ is, in particular, a [[simplicially enriched category]].
 
-* it becomes canonically an [[SimpSet|SSet]]-[[enriched category]] making it a [[simplicial model category]] $\mathbf{A}$;
-
-* the full [[SimpSet|SSet]]-[[subcategory]] $\mathbf{A}^\circ$ on the fibrant-cofibrant objects of $\mathbf{A}$ happens to be [[Kan complex]]-[[enriched category|enriched]];
+* the full [[SSet]]-[[subcategory]] $\mathbf{A}^\circ$ on the fibrant-cofibrant objects of $\mathbf{A}$ happens to be [[Kan complex]]-[[enriched category|enriched]];
 
 * the [[homotopy coherent nerve]] $N(\mathbf{A}^\circ)$ of $\mathbf{A}^\circ$ is the [[quasi-category]] _presented_ by $A$.
 
-With the relation between [[simplicial object in Cat|simplical categories]] and [[quasi-category|quasi-categories]] via [[homotopy coherent nerve]] understood, we shall here often not distinguish between $\mathbf{A}^\circ$ and $N(\mathbf{A}^\circ)$ as the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by the [[model category]] $A$.
-
-
+Up to equivalence, this gives the same $(\infty,1)$-category as the Dwyer-Kan hammock localization.  With the relation between [[simplicially enriched categories]] and [[quasi-category|quasi-categories]] via [[homotopy coherent nerve]] understood, we shall here often not distinguish between $\mathbf{A}^\circ$ and $N(\mathbf{A}^\circ)$ as the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by a [[model category]] $A$.
 
 
 
