@@ -1,3 +1,4 @@
+[[!redirects essentially small site]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,16 +16,26 @@
 
 ## Definition
 
-A (possibly) [[large site]] is an **essentially small site** if it has a [[small category|small]] [[dense sub-site]].
++-- {: .un_defn}
+###### Definition
 
-Note that this is a weaker condition than a site whose underlying category is an [[essentially small category]].
+A (possibly) [[large site]] is a **small-generated site** if it has a [[small category|small]] [[dense sub-site]].
 
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+In ([Johnstone, p. 548](#Johnstone)) this is called an **essentially small site**. But notice that the underlying [[category]] of such need not be an [[essentially small category]].
+
+=--
 
 ## Examples
 
-* The category of [[paracompact manifold]]s with its standard [[open cover]] [[coverage]] is a [[large site]] that is essentially small: a dense sub-site is [[CartSp]]${}_{top}$.
+* The category of [[paracompact manifold]]s with its standard [[open cover]] [[coverage]] is a [[large site]] that is small-generated: a dense sub-site is [[CartSp]]${}_{top}$.
 
-* The category [[Diff]] of smooth manifolds with the [[good open cover]] [[coverage]] is a [[large site]] that is essentially small: a dense sub-site is [[CartSp]]${}_{smooth}$.
+  * Similarly the category [[Diff]] of smooth manifolds with the [[open cover]] [[coverage]] is a [[large site]] that is small-generated: a dense sub-site is [[CartSp]]${}_{smooth}$.
 
 
 ## References
@@ -32,7 +43,7 @@ Note that this is a weaker condition than a site whose underlying category is an
 Page 548 of 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
-
+{#Johnstone}
 
 [[!redirects essentially small site]]
 [[!redirects essentially small sites]]
