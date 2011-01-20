@@ -35,7 +35,7 @@ Since $ThCartSp$ is an [[∞-cohesive site]], this is a [[cohesive (∞,1)-topos
 
 Therefore we call an object in $SynthDiff \infty Grpd$ a **synthetic differential $\infty$-groupoid**.
 
-By restriction along the morphism of sites [[CartSp]] $\to$ [[ThCartSp]] every synthetic differential $\infty$-groupoid has an underlying [[smooth ∞-groupoid]].
+By restriction along the morphism of sites [[CartSp]]${}_{smooth}\to$[[CartSp]]${}_{synthdiff}$ every synthetic differential $\infty$-groupoid has an underlying [[smooth ∞-groupoid]].
 
 
 ## Properites
@@ -49,7 +49,7 @@ The [[(n,1)-topos|(1,1)-topos]] $\tau_{\leq 0} SynthDiff\infty Grpd\hookrightarr
 +-- {: .un_prop}
 ###### Proposition
 
-The morphism of [[site]]
+The morphism of [[site]]s
 
 $$
   CartSp_{smooth} \stackrel{\overset{}{\leftarrow}}{\hookrightarrow}
@@ -59,13 +59,16 @@ $$
 is a [[reflective subcategory|coreflective embedding]] and exhibits $SynthDiff \infty Grpd$ as being a [[locally ∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]]
 
 $$
+ (\Pi_{inf} \dashv Disc_{inf} \dashv \Gamma_{inf})
   SynthDiff \infty Grpd
-  \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{LConst_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}}
+  \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{Disc_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}}
   Smooth \infty Grpd
   \,.
 $$
 
 =--
+
+(...)
 
 This induces the following infinitesimal analogs of the structures in $SynthDiff \infty Grpd$.
 
@@ -80,12 +83,12 @@ $$
   :=
   (LConst_{inf} \circ \Pi_{inf} \dashv LConst_{inf} \circ \Gamma_{inf})
   :
-  \infty SDLieGrpd
+  SynthDiff \infty Grpd
   \stackrel{\leftarrow}{\to}
-  \infty SDGrpd
+  SynthDiff \infty Grpd
 $$
 
-for the composite [[adjunction]]. For $X,A \in \infty SDGrpd$ we call $\mathbf{\Pi}$ the **Lie [[schreiber:path ∞-groupoid|infinitesimal homotopy ∞-groupoid]]** of $X$ and we call $\mathbf{\flat}A$ the **infinitesimally flat $\infty$-Lie groupoid** of $A$.
+for the composite [[adjunction]]. For $X,A \in SynthDiff\infty Grpd$ we call $\mathbf{\Pi}$.
 
 For $X \in \infty Grpd$ we write $\mathbf{\Pi}_{inf,dR}(X)$ for the [[homotopy cofiber]] of the unit $X \to \mathbf{\Pi}_{inf}(X)$, i.e. for the [[pushout]]
 
@@ -99,9 +102,9 @@ $$
   }
 $$
 
-in $\infty SDGrpd$.
+in $SynthDiff \infty Grpd$.
 
-For $* \to A \in \infty SDGrpd$ a [[pointed object]], we write $\mathbf{\flat}_{inf,dR} A$ for the [[homotopy fiber]] of the counit $\mathbf{\flat}_{inf} A \to A$, i.e. for the [[pullback]]
+For $* \to A \in SynthDiff \infty Grpd$ a [[pointed object]], we write $\mathbf{\flat}_{inf,dR} A$ for the [[homotopy fiber]] of the counit $\mathbf{\flat}_{inf} A \to A$, i.e. for the [[pullback]]
 
 $$
   \array{
@@ -117,14 +120,92 @@ in $\infty Grpd$\,.
 
 =--
 
+(...)
 
 
 ## Structures
 
 We discuss what some of the general abstract <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">Structures in a cohesvive (∞,1)-topos</a> look like in the model $SynthDiff \infty Grpd$.
 
+### Concrete objects {#StrucConcreteObjects}
 
 (...)
+
+### Geometry and structure sheaves {#StrucGeometry}
+
+(...)
+
+### Cohesive $\infty$-groups {#StrucInfinGroups}
+
+(...)
+
+### Cohomology and principal $\infty$-bundles {#StrucCohomology}
+
+(...)
+
+### Concordance {#StrucConcordance}
+
+(...)
+
+### Geometric homotopy and Galois theory {#StrucGeometricHomotopy}
+
+(...)
+
+### van Kampen theorem {#StrucVanKampen}
+
+(...)
+
+### Paths and geometric Postnikov towers {#StrucPaths}
+
+(...)
+
+
+### Universal coverings and geometric Whitehead towers {#StrucWhitehead}
+
+(...)
+
+
+### Flat $\infty$-connections and local systems {#StrucFlat}
+
+(...)
+
+### de Rham cohomology {#StrucDeRham}
+
+(...)
+
+
+### $\infty$-Lie algebras {#StrucLieAlg}
+
+(...)
+
+
+### Maurer-Cartan forms and curvature characteristic forms {#StrucCurvatureForms}
+
+(...)
+
+### Differential cohomology {#StrucDifferentialCohomology}
+
+(...)
+
+
+### Chern-Weil homomorphism and $\infty$-connections {#StrucChernWeil}
+
+(...)
+
+### Higher holonomy and Chern-Simons functional {#StrucChernSimons}
+
+(...)
+
+
+## References
+
+Section 3.4 of 
+
+* [[Urs Schreiber]], [[schreiber:differential cohomology in a cohesive topos]]
+
+For references for the [[sheaf topos]] over [[CartSp]]${}_{synthdiff}$ see [[Cahiers topos]].
+
+
 
 [[!redirects synthetic differential ∞-groupoid]]
 
