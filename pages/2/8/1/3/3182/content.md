@@ -43,7 +43,7 @@ to be the [[(∞,1)-category of (∞,1)-sheaves]] on $CartSp_{top}$.
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .un_prop #ETopInfGrpdAsCohesiveTopos}
 ###### Proposition
 
 
@@ -61,6 +61,44 @@ The site [[CartSp]]${}_{top}$ an  [[∞-cohesive site]].  See there for details.
 ###### Definition
 
 We say that $ETop \infty Grpd$ defines **Euclidean-topological cohesion**. An object in $ETop \infty Grpd$ we call a **Euclidean-topological $\infty$-groupoid**.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Write $TopMfd$ for the category of [[paracompact manifold]]s. This becomes a [[large site]] with the [[open cover]] [[coverage]]. We have an [[equivalence of (∞,1)-categories]]
+
+$$
+  ETop\infty Grpd :=
+  Sh_{(\infty,1)}(CartSp_{top})
+  \simeq
+  Sh_{(\infty,1)}(TopMfd)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+since every paracompact [[topological manifold]] admits an [[open cover]] by [[open balls]] [[homeomorphic]] to a [[Cartesian space]] it follows that [[CartSp]]${}_{top}$ is a [[dense sub-site]] of $TopMfd$. Accordingly the [[categories of sheaves]] are [[equivalence of categories|equivalent]]
+
+$$
+  Sh(CartSp_{top}) \simeq Sh(TopMfd)
+  \,.
+$$
+
+By the discussion at [[model structure on simplicial sheaves]] it follows that the [[hypercomplete (∞,1)-topos]]es  over these sites are [[equivalence of (∞,1)-categories|equivalent]]
+
+$$
+  \hat Sh_{(\infty,1)}(CartSp_{top})
+  \simeq
+  \hat Sh_{(\infty,1)}(TopMfd)  
+ \,.
+$$
+
+But by the [above proposition](#ETopInfGrpdAsCohesiveTopos) we have that before [[hypercompletion]] $Sh_{(\infty,1)}(CartSp_{top})$ is [[cohesive (∞,1)-topos|cohesive]]. This means that it is in particular a [[local (∞,1)-topos]]. By the discussion there, this means that it already coincides with its [[hypercompletion]], $Sh_{(\infty,1)}(CartSp_{top}) \simeq \hat Sh_{(\infty,1)}(CartSp_{top})$.
 
 =--
 
@@ -602,7 +640,7 @@ $$
   \,.
 $$
 
-Since the [[fat simplex]] is injective in $[\Delta, sSet_{Quillen}]_{proj}$ and since the above is an evaluation of the left [[Quillen bifunctor]]
+Since the [[fat simplex]] is cofibrant in $[\Delta, sSet_{Quillen}]_{proj}$ and since the above is an evaluation of the left [[Quillen bifunctor]]
 
 $$
   \int^\Delta (-) \cdot (-) :
@@ -712,6 +750,10 @@ This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the 
 
 
 ## References
+
+Section 3.2 in 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 Some discussion of the $(\infty,1)$-category of $(\infty,1)$-sheaves on the category of manifolds and its restriction to open balls and a discussion of its homotopy localization is in:
 
