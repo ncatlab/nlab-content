@@ -177,5 +177,9 @@ These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]
   * [[Euclidean supermanifold]] (notice that the definition of that is very much along the lines of the Klein-program-style definition above).
 
 
+## References
+
+* John Loftin, _The real definition of a smooth manifold_ ([pdf](http://andromeda.rutgers.edu/~loftin/difffal03/manifold.pdf))
+
 [[!redirects manifold]]
 [[!redirects manifolds]]
