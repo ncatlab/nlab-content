@@ -21,7 +21,7 @@
 
 There is a sense in which a [[sheaf]] $F$ is like a [[categorification]] of a [[function]]: the [[stalk]]-map from [[point of a topos|topos point]]s to [[set]]s $(x^* \dashv x_*) \mapsto F(x) := x^* F \in Set$ we may think of under [[decategorification]] as a [[cardinality]]-valued [[function]].
 
-Under this interpretation, many constructions in [[category theory]] have analogs in [[linear algebra]]: for instance products of numbers correspond to categorical [[product]]s (more generally to [[limit]]s) and addition of numbers to [[coproduct]]s (more generally to [[colimit])s. Accordingly a [[colimit]]-preserving [[functor]] between [[sheaf topos]]es is analogous to a [[linear map]] or to a [[distribution]]: one also speaks of [[Lawvere distribution]]s.
+Under this interpretation, many constructions in [[category theory]] have analogs in [[linear algebra]]: for instance products of numbers correspond to categorical [[product]]s (more generally to [[limit]]s) and addition of numbers to [[coproduct]]s (more generally to [[colimit]]s). Accordingly a [[colimit]]-preserving [[functor]] between [[sheaf topos]]es is analogous to a [[linear map]] or to a [[distribution]]: one also speaks of [[Lawvere distribution]]s.
 
 This [[categorification]] of [[linear algebra]] becomes even better behaved if we pass all the way to [[(∞,1)-sheaf (∞,1)-topos]]es. Under [[∞-groupoid cardinality]] their [[stalk]]s take values also in [[integer]]s, in [[rational number]]s, and in [[real number]]s. See also the discussion at [[Goodwillie calculus]].
 
@@ -74,7 +74,7 @@ See [[profunctor]] for details.
 +-- {: .un_prop}
 ###### Proposition
 
-For $C, D \in $ [[Pr(∞,1)Cat]] we have that $Func^L(C,D)$ is itself locally prsesentable.
+For $C, D \in $ [[Pr(∞,1)Cat]] we have that $Func^L(C,D)$ is itself locally presentable.
 
 =--
 
@@ -420,7 +420,7 @@ $$
 Since the $\infty$-groupoid $Y$ is equivalent to its [[opposite (∞,1)-category]] this may also be written as
 
 $$
-  \infty Grpd / (X \times Y) Func_{(\infty,1)}(X \times Y^{op}, \infty Grpd)
+  \infty Grpd / (X \times Y) \simeq  Func_{(\infty,1)}(X \times Y^{op}, \infty Grpd)
   \,.
 $$
 
