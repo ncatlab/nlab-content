@@ -62,7 +62,7 @@ For the second statement one needs that every [[paracompact manifold]] admits a 
 
 The [[sheaf topos]] over $Diff$ is a [[cohesive topos]].
 
-The [[(∞,1)-sheaf (∞,1)-topos]] over $Diff$ is a [[cohesive (∞,1)-topos]].
+The [[hypercompletion]] of the [[(∞,1)-sheaf (∞,1)-topos]] over $Diff$ is a [[cohesive (∞,1)-topos]].
 
 =--
 
@@ -89,7 +89,6 @@ Now [[CartSp]]${}_{smooth}$ is even an [[∞-cohesive site]]. By the discussion 
 
 $$
   \cdots \simeq Sh_{(\infty,1)}(CartSp_{smooth})
-  \simeq Sh_{(\infty,1)}(Diff)
   \,.
 $$
 
