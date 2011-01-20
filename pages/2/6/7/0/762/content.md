@@ -65,6 +65,8 @@ So it is  interesting that one can define strict higher homotopy groupoids for f
 
 Note also that it is standard to be able to replace, using mapping cylinders, a sequence of maps $Y_n \to Y_{n+1}$ by a sequence of inclusions. 
 
+External Links:
+[Chaco](http://www.zbsports.com/)
 
 
 
