@@ -73,6 +73,8 @@ $$
 This induces the following infinitesimal analogs of the structures in $SynthDiff \infty Grpd$.
 
 
+
+
 +-- {: .un_def}
 ###### Definition
 
@@ -119,6 +121,303 @@ $$
 in $\infty Grpd$\,.
 
 =--
+
+
++-- {: .un_def}
+###### Definition
+
+
+We say a morphism of [[nLab:site]]s $i : C \to C_{th} $ is an
+**infinitesimal thickening** of $C$ if it exhibits $C$ as a  [[nLab:reflective subcategory|corefelctive subcategory]] of $C_{th}$, i.e. if 
+
+* $i : C \to C_{th}$ is a [[nLab:full and faithful functor]]
+
+* there exists a [[nLab:right adjoint]] $p : C_{th} \to C$ 
+
+  $$
+    (i \dashv p)
+    : 
+    C \stackrel{\overset{p}{\leftarrow}}{\hookrightarrow}
+    C_{th}
+  $$
+
+and if $p$ preserves covering families.
+ 
+=--
+
+Notice that this implies in particular that the unit of the adjunction is a natural isomorphism
+
+$$
+  U \stackrel{\simeq}{\to} p(i(U)) 
+  \,,
+$$
+
+natural in $U \in C$.
+
+The adjunction formalizes the idea that an [[nLab:infinitesimal object]] has a unique ordinary point: if $U$ is an object without infinitesimal extension and $U \times D$ an infinitesimal thickening of it in that $p(U\times D) = U$, then for $V$ any other object without infinitesimal extension, morphisms $V \to U \times D$ are the same as morphisms $V \to U$, because all morphisms $V \to D$ from the finite to the infinitesimal object have to factor through the unique point $* \to D$. This is what the adjunciton in the above definition asserts.
+
+
+
++-- {: .un_example}
+###### Example
+
+
+Let $C =$ [[nLab:CartSp]] be the category of [[nLab:Cartesian space]]s equipped with the [[nLab:good open cover]] [[nLab:coverage]].
+
+Let $C_{th} := $ [[nLab:ThCartSp]] be the category of thickened Cartesian spaces, the [[nLab:full subcategory]] of [[nLab:smooth loci]] on those of the form $\mathbb{R}^n \times \ell W$ for $n \in \mathbb{N}$ and $W$ a Weil algebra in the sense of [[nLab:synthetic differential geometry]].
+
+Let $C_{th}$ be equipped with the [[nLab:coverage]] whose [[nLab:covering]] families are products $\{U_i \times \ell W \to U \times \ell W\}$ of a [[nLab:good open cover]] $\{U_i \to U\}$ of a [[nLab:Cartesian space]] $U$ with an [[nLab:infinitesimal space]] $\ell W$.
+
+Let $i : CartSp \hookrightarrow ThCartSp $ be the canonical embedding. This is evidently a [[nLab:full and faithful functor]] that preserves covers. The projection $p : U \times \ell W \mapsto U$ for $U \in CartSp$ extends to a projection functor $p : ThCartSp \to CartSp$. This is evidently surjective on objects.
+
+Notice that the characteristic feature of the [[nLab:infinitesimal space]]s $\ell W$ is that for any $U \in CartSp$ we have
+
+$$
+  Hom_{ThCartSp}(i(U), \ell W) = \{U \to * \to \ell W\}
+  \,.
+$$
+
+It follows that for $U,V \in CartSp$ and $\ell W$ an infinitesimal space that
+
+$$
+  Hom_{ThCartSp}(U, V \times \ell W)
+  =
+  Hom_{ThCartSp}(U,V)
+  = 
+  Hom_{CartSp}(U,V)
+  =
+  Hom_{CartSp}(U, p(V \times \ell W))
+  \,.
+$$
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+For $i : C \to C_{th}$ an infinitesimal thickening of [[nLab:site]]s, we say that the corresponding [[nLab:geometric morphism]] of [[nLab:(∞,1)-sheaf]] [[nLab:(∞,1)-topos]]es
+
+$$ 
+  Sh_{(\infty,1)}(C_{th}) \stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}
+  Sh_{(\infty,1)}(C)
+$$
+
+exhibits $\mathbf{H}_{th} = Sh_{(\infty,1)}(C_{th})$ as an **infinitesimal thickening** of $\mathbf{H}_{red} = Sh_{(\infty,1)}(C)$. 
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Infinitesimal thickenings of $(\infty,1)$-toposes are [[nLab:essential geometric morphism]]s:
+
+$$
+  (\Pi_{inf} \dashv LConst_{inf} \dashv \Gamma_{inf})
+  :
+  Sh_{(\infty,1)}(C_{th})
+  \stackrel{\overset{i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}}
+  Sh_{(\infty,1)}(C)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+As before, we present the $(\infty,1)$-toposes in question by the <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#LocalizationAtCoverage">Left Bousfield localization at the coverage</a> $[C^{op}, sSet]_{proj,cov}$ of the global projective [[nLab:model structure on simplicial presheaves]].
+
+We start by _defining_ 
+
+$$
+  LConst_{inf} := (-) \circ p : [C^{op}, sSet] \to [C_{th}^{op}, sSet]
+$$ 
+
+as given by precomposition with $p : C_{th} \to C$. To see that this is correct, we check that its [[nLab:right adjoint]] is indeed the functor 
+
+$$
+  \Gamma_{inf} = (-)\circ i : [C^{op}_{th}, sSet] \to [C^{op}, sSet]
+$$
+
+given by precomposition with $i$, i.e. indeed the [[nLab:direct image]] induced by the morphism of sites given by $i$.
+
+To check this, use that this right adjoint is given by the right [[nLab:Kan extension]] $Ran_p$ along $p$
+
+$$
+  Ran_p F : U \mapsto 
+  {\lim_{\leftarrow}}_{(p(V_{th}) \to U) \in (p\downarrow U)} F(V_{th})
+  \,,
+$$
+
+where the [[nLab:limit]] is taken over the [[nLab:comma category]].
+
+Now we observe that by the fact that $(i \dashv p)$ is a [[nLab:reflective subcategory|coreflective embedding]] the inclusion functor
+
+$$
+  inc : C/U = (Id_C \downarrow U) \to (p \downarrow U)
+$$
+
+of the [[nLab:overcategory]] into the [[nLab:comma category]] given by
+
+$$
+  inc : (W \to U) \mapsto ( p(i(W)) \stackrel{\simeq}{\to} W \to U)
+$$
+
+is a [[nLab:final functor]]: for all $p(V_{th}) \to U$ in $p\downarrow U$ the [[nLab:comma category]] $(p(V_{th} \to U)) \downarrow inc$ is evidently non-emty (it contains the object given by the counit $p(V_{th}) \stackrel{\simeq}{\to} p i p (V_{th})  $ ) and connected: for any two objects 
+
+$$
+  \array{
+     p(i(W_1)) &\leftarrow& p(V_{th}) &\to& p(i(W_2))
+     \\
+     &\searrow& \downarrow & \swarrow
+     \\
+     && U
+  }
+$$
+
+a connecting zig-zag can be taken to be
+
+$$
+  \array{
+     && p i p (V_{th})
+     \\
+     & \swarrow &\uparrow^{\mathrlap{\simeq}}& \searrow
+     \\
+     p(i(W_1)) &\leftarrow& p(V_{th}) &\to& p(i(W_2))
+     \\
+     &\searrow& \downarrow & \swarrow
+     \\
+     && U
+  }
+  \,.
+$$
+
+By the basic characteristic of [[nLab:final functor]]s, it follows that the [[nLab:limit]] over $(p \downarrow U)$ that constructs the right Kan extension $Ran_p F$ at $U \in C$ is equivalently computed by its restriction along $inc$ as
+
+$$
+  (Ran_p F)(U)
+  \simeq
+  {\lim_{\leftarrow}}_{(W \to U) \in C/U} F(W)
+  \,.
+$$
+
+But this is the formula for right Kan extension along the identity, so we have
+
+$$
+  (Ran_p F)(U) = F(U)
+$$
+
+(this is [[nLab:Yoneda reduction]]). So $Ran_p = (-) \circ i$ is simply given by restricting along $i$, which is the [[nLab:direct image]] operation inuced by the morphism of sites $i : C \to C_{th}$.
+
+So far we have established 
+
+$$
+  (LConst_{inf} \dashv \Gamma_{inf})
+  =
+  ((-) \circ p \dashv (-) \circ i)
+  :
+  [C_{th}^{op}, sSet]
+  \stackrel{\leftarrow}{\to}
+  [C^{op}, sSet]
+  \,.
+$$
+
+
+The functor $\Gamma_{inf}$ trivially preserves fibrations and acyclic fibrations of $[C_{th}^{op}, sSet]_{proj}$, hence $LConst_{inf}$ preserves cofibrations and acyclic cofibrations of $[C^{op}, sSet]_{proj}$. Since moreover $C \hookrightarrow C_{th}$ preserves covering families, $\Gamma_{inf}$ sends fibrant objects in $[C_{th}^{op}, sSet]_{proj,cov}$ to fibrant objects in $[C^{op}, sSet]_{proj,cov}$. Once again with [[nLab:Quillen adjunction|HTT, corollary A.3.7.2]] this implies that we have a [[nLab:Quillen adjunction]]
+
+$$
+  (LConst_{inf} \dashv \Gamma_{inf})
+  :
+  [C_{th}^{op}, sSet]_{proj,cov} 
+    \stackrel{\overset{LConst_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}
+  [C^{op}, sSet]_{proj,cov} 
+    \,.
+$$
+
+Now consider the [[nLab:left adjoint]] of $LConst_{inf}$ given by left [[nLab:Kan extension]] along $p$
+
+$$
+  \Pi_{inf} = Lan_p : [C_{th}^{op}, sSet] \to [C^{op}, sSet]
+  \,.
+$$
+
+which we write in [[nLab:coend]] notation as
+
+$$
+  Lan_p A : U \mapsto 
+  \int^{V_{th} \in C_{th}}
+   Hom_{C}(U, p(V_{th})) \cdot A(V_{th})
+  \,.
+$$
+
+With the [[nLab:co-Yoneda lemma]] we see that $\Pi_{inf}$ takes all the representable presheaves from $C_{th}$ to their underlying objects in $C$: it contracts away all the infinitesimal extensions of representable present in a simplicial presheaf on $C_{th}$ (just as the finite path $\infty$-groupoid functor $\Pi$ contracted away entirely the representables inside a simplicial presheaf).
+
+
+It is clear that $LConst_{inf}$ preserves fibrations and global acyclic fibrations in $[C^{op}, sSet]_{proj}$, so $\Pi_{inf}$ preserves cofibations in $[C_{th}^{op}, sSet]_{proj}$ and therefore in $[C_{th}^{op}, sSet]_{proj, cov}$.
+
+By the assumption that also $p$ preserves covering families, it follows that
+$LConst_{inf}$ also sends fibrant objects of $[C^{op}, sSet]_{proj,cov}$ to fibrant objects in $[C_{th}^{op}, sSet]_{proj,cov}$. So one more time with [[nLab:Quillen adjunction|HTT, corollary A.3.7.2]] it follows that we also have a [[nLab:Quillen adjunction]]
+
+$$
+  (\Pi_{inf} \dashv LConst_{inf})
+  : 
+  [C_{th}^{op}, sSet]_{proj,cov}
+  \stackrel{\overset{\Pi_{inf}}{\to}}{\underset{LConst_{inf}}{\leftarrow}}
+  [C^{op}, sSet]_{proj,cov}
+  \,.
+$$
+
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+From the above proof and since in $sPSh(C)$ [[nLab:commutativity of limits and colimits|colimits commute with products]], we have that for $j(U \times \mathbb{L}W)$ a representable presheaf in $sPSh(CartSp_{th})$ that
+
+$$
+  \Pi_{inf}(j(U \times \mathbb{L}W))
+  = j(U) \times (colim_{CartSp_{th}} j(\mathbb{L}W))
+  = j(U)
+  \,,
+$$
+
+using again that the colimit over a representable functor is the point. This means that on a Dugger-cofibrant replacement in $sPSh(CartSp_{th})$ of some object $X$ as a degreewise coproduct of representables
+
+$$
+  X \stackrel{\simeq}{\leftarrow}
+  \hat X 
+  :=
+  \int^{[n]}
+  \Delta[n]
+  \cdot
+  \coprod_{i_n} U_{i_n} \times \mathbb{L}W_{i_n}
+$$
+
+the functor $\Pi_{inf}$ acts by discarding all the infinitesimal thickenings:
+
+$$
+  \Pi_{inf} \hat X
+  Red(\hat X)
+  :=
+  \int^{[n]}
+  \Delta[n]
+  \cdot
+  \coprod_{i_n} U_{i_n} 
+  \,.
+$$
+
+In particular this is hence the action of the $\infty$-categorical left [[nLab:derived functor|derived]] functor of $\Pi_{inf}$
+
+* $\Pi$ contracts all contractible local parts of $X$ to the point;
+
+* $\Pi_{inf}$ contracts all _infinitesimal_ local parts of $X$ to the point.
+
+=--
+
+
 
 (...)
 
