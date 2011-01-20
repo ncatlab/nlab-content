@@ -1,12 +1,18 @@
-
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-## Motivation and history
+## Motivation
 
-While [[homotopy theory]] is suitable for the study of (locally) good [[topological space]]s, it fails to give useful information for 'bad' spaces, of which classical examples include  the [[Warsaw Circle]], [Sierpinski gasket](http://en.wikipedia.org/wiki/Sierpinski_triangle), [p-adic solenoid](http://en.wikipedia.org/wiki/Solenoid_%28mathematics%29) and so on. Even if our initial and principal interest is in good spaces, bad spaces arise naturally in their study. For example, in the study of dynamical systems on manifolds, an important issue is the study of  the attractors of such systems, which are typically fractal sets, and thus not 'locally nice' at all! The intuitive idea of shape theory is to define invariants of quite general topological spaces by approximating them with 'good' spaces, either by  embedding them into good spaces, and looking at open or polyhedral neighborhoods of them, or by considering abstract inverse systems of good spaces. The two approaches are closely related.
+While the [[homotopy type]], is suitable for the study of (locally) good [[topological space]]s, the [[weak homotopy type]] fails to give useful information for 'bad' spaces, of which classical examples include  the [[Warsaw Circle]], [Sierpinski gasket](http://en.wikipedia.org/wiki/Sierpinski_triangle), [p-adic solenoid](http://en.wikipedia.org/wiki/Solenoid_%28mathematics%29) and so on. Even if our initial and principal interest is in good spaces, bad spaces arise naturally in their study. For example, in the study of dynamical systems on manifolds, an important issue is the study of  the attractors of such systems, which are typically fractal sets, and thus not 'locally nice' at all! The intuitive idea of shape theory is to define invariants of quite general topological spaces by approximating them with 'good' spaces, either by  embedding them into good spaces, and looking at open or polyhedral neighborhoods of them, or by considering abstract inverse systems of good spaces. The two approaches are closely related.
+
+## Idea
+
+If there are few maps from polyhedra (e.g. from spheres) into the space, then the [[weak homotopy type]] may tell too little about the space. 
+Therefore one "expands" the space into a successive system of spaces which are good recipents of maps from polyhedra (e.g. ANR-s, polyhedra) and adapts the homotopy theory to such expansions. The analogue of strong homotopy type in this setting is the shape of a space; the shape is an invariant of the strong homotopy type and agrees with it on the ANR-s for metric spaces and on the polyhedra; it is more crude for other spaces, but more suitable than the weak homotopy type. Instead of embedding a space, one may abstractly expand or resolve the space or its homotopy class into a pro-object in a smaller category of nice spaces. Strong shape theory is a variant which is closer to the usual homotopy and more geometric; it differs by passing to the homotopy type at a later stage in the theory. 
+
+
+## History
 
 Shape theory was first explicitly introduced by Polish mathematician [Karol Borsuk](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Borsuk.html) in the 1960s. The modern version of shape theory is developed in terms of inverse systems of absolute neighbourhood retracts (ANRs) (which are [[pro-object]]s) introduced in this setup by [[Sibe Mardesic|S. Marde?i?]], and [[Jack Segal|J. Segal]] (1971) and independently, in a slightly different form, by [[Tim Porter]] (thesis, 1971), using the more combinatorial framework of [[pro-objects]] in the category of simplicial sets. 
 
@@ -232,3 +238,5 @@ That connection with [[asymptotic morphisms]] is fully explored in the work of [
 
 * [[Marius Dadarlat|Marius D?d?rlat]], _Shape theory and asymptotic morphisms for C*-algebras_,  Duke Math. J., 73(3):687-711, 1994.
 * [[Marius Dadarlat|Marius D?d?rlat]], Terry A. Loring, _Deformations of topological spaces predicted by E-theory_, in Algebraic methods in operator theory, pages 316-327. Birkh&#228;user 1994. 
+
+[[!redirects strong shape theories]]
