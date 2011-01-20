@@ -8,6 +8,6 @@ Preface, table of contents and chapters 1,2 ([pdf](http://www.ams.org/bookstore/
 
 See also 
 
-* MAA [review](http://www.maa.org/maa%20reviews/1155.html)
+* MAA [review](http://wwwdev.maa.org/maa%20reviews/1155.html)
 
 category: reference
