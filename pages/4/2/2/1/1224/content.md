@@ -129,9 +129,15 @@ The characterization of final functors is also a special case of the characteriz
 
 ## References
 
-For instance section 2.5 of
+Section 2.5 of
 
 * Kashiwara, Shapira, _[[Categories and Sheaves]]_
+
+Section 2.11 of
+
+* [[Francis Borceux]], _Handbook of categorical algebra 1, Basic category theory_
+
+Notice that this says "final functor" for the version under which limits are invariant.
 
 [[!redirects cofinal functor]]
 [[!redirects cofinal functors]]
