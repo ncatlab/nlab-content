@@ -828,22 +828,21 @@ Properties of [[homotopy limit]]s and [[homotopy colimit]]s of simplicial preshe
 
 ## References
 
-A nicely helpful introduction and survey is provided in the notes
+A nice introduction and survey is provided in the notes
 
-* Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+* [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
-This in particular gives a detailed account on the relation and difference between the "&#268;ech model structure" (section 3) which localizes (only) at &#268;ech [[covers]], and the Jardine model structure (section 4), which localizes at all [[stalk]]wise weak equivalences ([[hypercovers]]). The latter is what in [[Higher Topos Theory|HTT]] is called the _hypercompletion_ .
 
-The standard lecture notes are
+Detailed discussion of the injective model structures on simplicial presheaves is in
 
-* J. Jardine, _Field Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+* J. Jardine, _Simplicial presheaves_ Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 {#JardineLecture}
 
-based on
+* J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
 
-* **Jardine01** J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
+The projective model sructure is discussed in
 
-and ...
+* [[Dan Dugger]], _[[Universal Homotopy Theories]]_
 
 See also
 
@@ -856,7 +855,7 @@ _Hypercovers and simplicial presheaves_ , Math. Proc. Cambridge
 Philos. Soc. 136 (2004), no. 1, 9&#8211;51 ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
 {#DuggerHollanderIsaksen}
 
-* **DI02** [[Daniel Dugger]], [[Daniel Isaksen]], _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
+* [[Daniel Dugger]], [[Daniel Isaksen]], _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
 
 A survey of many of the model structures together with a treatment of the left local projective one is in
 
