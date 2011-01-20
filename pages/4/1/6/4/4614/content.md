@@ -222,6 +222,12 @@ Comments on the relation between properness and cofibrancy in the [[Reedy model 
 
 * [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537)).
 
+## Refereeing
+
+This entry is under review for the [[publications:HomePage|Publications of the nLab]]. 
+
+See [[publications:geometric realization of simplicial topological spaces]].
+
 
 [[!redirects geometric realization of a simplicial space]]
 [[!redirects geometric realization of simplicial spaces]]
