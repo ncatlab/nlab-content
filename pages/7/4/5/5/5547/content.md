@@ -9,13 +9,16 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
 ## Definition
 
-A [[large site]] is an **essentially small site** if it has a [[small category|small]] [[dense sub-site]].
+A (possibly) [[large site]] is an **essentially small site** if it has a [[small category|small]] [[dense sub-site]].
+
+Note that this is a weaker condition than a site whose underlying category is an [[essentially small category]].
+
 
 ## Examples
 
@@ -30,4 +33,6 @@ Page 548 of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
+
+[[!redirects essentially small site]]
 [[!redirects essentially small sites]]
