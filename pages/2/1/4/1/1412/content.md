@@ -1,26 +1,27 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Cohomology
-+--{: .hide}
++-- {: .hide}
 [[!include cohomology - contents]]
 =--
 #### $(\infty,1)$-Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
 =--
 =--
 
 
-
 The following is (supposed to be) a pedagogical motivation of the concepts [[sheaf]], [[stack]], [[infinity-stack]] and [[Higher Topos Theory|higher topos theory]]. It assumes only that the reader has a working knowledge of [[topological space]]s and aims to provide from that an intuitive but useful idea of the relevance of the circle of ideas of [[Categories and Sheaves|categories and sheaves]], [[cohomology]], [[sheaf cohomology]] and a bit of [[Higher Topos Theory|higher topos theory]].
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
 
-# Motivation: maps between topological spaces #
+# Contents
+* automatic table of contents goes here
+{: toc}
+
+## Motivation: maps between topological spaces
 
 It is a familiar fact that classes of maps between [[topological space]]s encode interesting information.
 
@@ -73,8 +74,7 @@ $$
   * (there is a very general abstract nonsense way to understand [[sheaf|sheaves]] as generalized spaces in the context of a very general abstract [[duality]] between the notions of  [[space and quantity]]. The following is an informal way to understand this).
 
 
-# The basic idea of sheaves #
-
+## The basic idea of sheaves
  
 To understand what a [[sheaf]] is, recall which aspect of the notion of [[topological space]] was relevant in the above examples $\mathcal{B}^{n} U(1)$: these spaces were entirely characterized by how one can _map_ other spaces _into_ them:
 $$ X \mapsto [X,\mathcal{B}^{n} U(1)] .$$
@@ -133,7 +133,8 @@ This now is a sensible game to play: I don't tell you directly which space $X$ I
 
 * $X(-)$ satisfies [[descent]] and is therefore a [[sheaf]]
 
-# Sheaves more general than spaces #
+
+## Sheaves more general than spaces
 
 So far we have been talking about using topological spaces as probe spaces, hence about presheaves on the category [[Top]]. One can use other systems $S$ of test spaces as long as $S$ forms a [[category]] and such that there is an agreement about how some of its [[object]]s $U$, can be [[cover]]ed by other [[object]]s, such as the $V_1$ and $V_2$ above. Such an agreement of what counts as a [[cover]] in a [[category]] is called a [[coverage]] or a [[Grothendieck topology]], and a [[category]] equipped with such an information is called a [[site]];
 
@@ -164,7 +165,7 @@ Examples:
 * A sheaf on $S = $ [[Diff]] is a [[generalized smooth space]]. These may be very different from ordinary manifolds and ordinary topological spaces. There are generalized smooth spaces with a single point and still many curves in them. In fact, the generalized classifying space for smooth circle bundles with connection that we are still after is of this form.
 
 
-# Maps between generalized spaces#
+## Maps between generalized spaces
 
 Since we are thinking of sheaves $F_X : S^{op} \to Set$ and $F_Y : S^{op} \to Set$ as characterizing 'generalized spaces' $X$ and $Y$, we better have a good notion of maps between sheaves $F_X \to F_Y$ that corresponds to a sensible notion of maps $X \to Y$ between generalized spaces.  
 
@@ -243,14 +244,14 @@ This point is so important that it is worthwhile to build it into our very notat
 * (This notation is for instance used in the book [[Categories and Sheaves]], see page 25.)
 
 
-# And more: a topos of generalized spaces #
-
+## And more: a topos of generalized spaces
 
 It turns out that we can keep going this way. There is not just a natural notion of maps between generalized spaces given by  [[sheaf|sheaves]], but every important type of operation on spaces has its analogs as an operation on sheaves: one says that  sheaves form a [[topos]]: a place where we can go 
 to study generalized [[homotopy theory]], 
 more general than the place of [[topological space]]s, but where still all the crucial constructions familiar from topological spaces makes sense.
 
-# Higher sheaves: $\infty$-stacks #
+
+## Higher sheaves: $\infty$-stacks
 
 Once we are at this point, we should go even a bit further: we have been talking about _sets_ of probes $X(U)$. But of course 
 for $X$ a true [[topological space]] and $U$ a [[topological space]], there
@@ -297,7 +298,7 @@ The sheaves with this niceness property are called [[infinity-stack]]s or [[(inf
 * in applications this means that before we compute the space of maps $[X,A]$ between generalized spaces, we first have two ensure that at least one of them is sufficiently _straightened out_. Once says one picks a _resolution_. More on that below.
 
 
-# Generalized cohomology #
+## Generalized cohomology
 
 We come back to our original motivation. Recall that we were looking
 at cohomology groups of spaces $X$ by mapping $X$ into other spaces.
@@ -323,7 +324,7 @@ general context.
 
 
   
-#  Complexes of sheaves: abelian $\infty$-stacks  #
+## Complexes of sheaves: abelian $\infty$-stacks
 
 Another term for this [[cohomology|generalized cohomology]] theory thus obtained is
 [[nonabelian cohomology]]. The reason for that terms is a historic one: before arriving at the full picture of higher topos theory as described here, people had a pretty good guess about some aspects of this story, and this aspect they called 
@@ -388,7 +389,7 @@ and so forth; historically many concepts in abelian sheaf theory were thought to
 these two methods differ in whether one computes using "resolutions" of either the coefficient object $A$ (this happens in the right derived global section functor approach) or in the domain object $X$ (this happens in &#268;ech cohomology).
 
 
-# Examples #
+## Examples
 
 Recall that we started the search for a generalized notion of space
 motivated by the fact that a circle bundle on a space $X$ may be
@@ -424,9 +425,11 @@ Notice that all these objects $A$ do indeed behave, and can be treated like, gen
 * more generally: for $G$ any Lie group, we have
   $\Pi_1(\bar \mathcal{B}_2 G) \simeq \mathcal{B}\hat G$, where $\hat G$ is the unique simply connected Lie group covering $G$.
 
+
 category: motivation
 
+[[!redirects motivation for sheaves, cohomology and higher stacks]]
+[[!redirects Motivation for sheaves, cohomology and higher stacks]]
 [[!redirects heuristic introduction to sheaves, cohomology and higher stacks]]
 [[!redirects heuristic introduction to sheaves, cohomology and higher sta]]
 [[!redirects introduction to sheaves, cohomology and higher stacks]]
-[[!redirects motivation for sheaves, cohomology and higher stacks]]
