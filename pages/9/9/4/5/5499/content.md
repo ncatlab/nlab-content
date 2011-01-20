@@ -289,6 +289,14 @@ The idea is as in the previous example, but where sets of examples aren't restri
 Let $E$ be the category of real pairs $\langle h, t \rangle$. Let $C$ be the category of real pairs whose elements sum to 1. Let $G$ map $\langle h, t \rangle$ to $\langle h/(h+t), t/(h+t) \rangle$. Let $F$ be the identity.
 (Are $E$ and $C$ discrete?) (I'm working towards the way that induction in stochastic logic programming induces weights for the learnt clauses.)
 
+### Another example: generalisation against a background ###
+
+I don't know what to call this, but it feels relevant. It's a picture that came to me. Imagine that $E$ is the category of subsets of $R^2$. Now imagine that we have a real plane hatched by irregular intersecting lines, as if someone has been slashing a pencil across it again and again, or Jackson Pollock has been painting it. (I'm being intentionally vague.) Now let $E'$ and $C$ also be the category of subsets of $R^2$. Let $G_1 \colon E \to E'$ distort each set of examples by moving each point in it to the nearest intersection of these lines. (Assume there is a unique intersection.) Then let $G_2 \colon E' \to C$ find the smallest enclosing grid square as in my section "Galois connections and the idea of smallest enclosing concept" below. Let $G = G_1 ; G_2$.
+
+A little more generally, let $C$ be a category whose objects are either also subsets of $R^2$, or something that's easy to picture as derived, using elementary plane geometry, from these subsets. For example, their boundaries, or their centroids. Let $G$ translate each .....
+
+Informally, the idea is that there's a "background" which is not related to the examples, .....
+
 ## Informal justification ##
 
 ### 1. Colimits ###
@@ -343,7 +351,7 @@ think of as the least "strain", of any possible solution.)
 
 In the above, I've been talking about reconstructing a single physical
 object from different, possibly incompatible, views of it: six blind men
-and the elephant. I don't know whether one should call such reconstruction
+feel an elephant. I don't know whether one should call such reconstruction
 "generalisation". But I strongly suspect that there's an analogy with the
 construction of a concept from examples of it, if we think of the examples
 as different views of the concept.
