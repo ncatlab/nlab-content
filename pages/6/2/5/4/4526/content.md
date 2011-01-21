@@ -2,6 +2,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 #### $\infty$-Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
@@ -9,18 +17,14 @@
 =--
 =--
 
-
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-## Idea
-
-An _$\infty$-Lie group_ is a _smooth_ [[∞-group]].
 
 ## Definition
   
-An _$\infty$-Lie group_ is a [[group object in an (∞,1)-category|group object]] in the [[(∞,1)-topos]] [[?LieGrpd]] of [[∞-Lie groupoid]]s.
+An _smooth $\infty$-group_ is a [[group object in an (∞,1)-category|group object]] in the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s.
 
 ## Examples
 
@@ -39,6 +43,22 @@ A [[Lie 2-group]] is a 1-[[truncated]] $\infty$-Lie group.
 A Lie 6-group is a 5-[[truncated]] $\infty$-Lie group.
 
 * [[fivebrane 6-group]].
+
+## Related concepts
+
+* [[cohesive (∞,1)-topos]]
+
+  * [[discrete ∞-groupoid]]
+
+  * [[Euclidean-topological ∞-groupoid]]
+
+  * [[smooth ∞-groupoid]]
+
+  * [[synthetic differential ∞-groupoid]]
+
+## References
+
+See [[smooth ∞-groupoid]].
 
 [[!redirects ∞-Lie group]]
 
