@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
 =--
 =--
 
