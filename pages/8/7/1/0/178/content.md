@@ -252,7 +252,7 @@ This is discussed in detail at [[good open cover]].
 +-- {: .un_prop}
 ###### Proposition
 
-The [[(∞,1)-topos]] $Smooth \infty Grpd$ is also equivalent to the [[hypercompletion]] $\hat Sh_{(\infty,1)}(SmoothMfg)$ of the [[(∞,1)-category of (∞,1)-sheaves]] on the large site [[SmoothMfd]]
+The [[(∞,1)-topos]] $Smooth \infty Grpd$ is equivalent to the [[hypercompletion]] $\hat Sh_{(\infty,1)}(SmoothMfg)$ of the [[(∞,1)-category of (∞,1)-sheaves]] on the large site [[SmoothMfd]]
 
 $$
   Smooth \infty Grpd \simeq \hat Sh_{(\infty,1)}(SmoothMfd)
@@ -265,6 +265,18 @@ $$
 ###### Proof
 
 By the above we have that [[CartSp]]${}_{smooth}$ is a [[dense sub-site]] of [[SmoothMfd]]. With this the claim follows as in the analogous discussion at [[ETop∞Grpd]].
+
+=--
+
++-- {: .un_cor}
+###### Corollary
+
+The canonical embedding of [[smooth manifold]]s as [[0-truncated]] objects in $Smooth\inftyy Grpd$ is a [[full and faithful (∞,1)-functor]]
+
+$$
+  SmoothMfd \hookrightarrow Smooth \infty Grpd
+  ,.
+$$
 
 =--
 
@@ -348,6 +360,7 @@ More on that below in the discussion of $Sh_{(\infty,1)}(CartSp)$ as a [[locally
 We discuss the general abstractt 
 <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesivbe (∞,1)-topos</a> realized in $Smooth \infty Grpd$.
 
+
 ### Concrete objects {#StrucConcreteObjects}
 
 +-- {: .un_prop}
@@ -372,7 +385,60 @@ $$
 
 ### Cohesive $\infty$-groups {#StrucInfinGroups}
 
-(...)
+
+Let $G$ be a [[Lie group]]. Under the embedding 
+$SmoothMfd \hookrightarrow Smooth \infty Grpd$ this is canonically identifed as a  [[0-truncated]] [[∞-group]] object in smooth $\infty$-groupoids.
+Write $\mathbf{B}G \in Smooth \infty Grpd$ for the corresponding 
+[[delooping]] object.
+
+
++-- {: .un_prop }
+###### Proposition
+
+A fibrant presentation of the [[delooping]] object $\mathbf{B}G$
+in the projective local [[model structure on simplicial presheaves]]
+$[CartSp^{op}_{smooth}, sSet]_{proj, loc}$ 
+is given by the [[simplicial presheaf]] that is the [[nerve]]
+of the one-object [[Lie groupoid]]
+
+$$
+  (G \stackrel{\to}{\to} * ) 
+$$
+
+regarded as a [[simplicial manifold]] and canonically embedding into 
+simplicial presheaves.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The presheaf is clearly objectwise a [[Kan complex]], being objectwise
+the nerve of a groupoid. It satisfies [[descent]] along [[good open cover]]s
+$\{U_i \to \mathbb{R}^n\}$ of [[Cartesian space]]s, because the descent $\infty$-groupoid $sPSh(C(\{U_i\}), \mathbf{B}G)$ is $G Bund(\mathbb{R}^n) \simeq G TrivBund(\mathbb{R}^n)$. 
+
+To show that $\mathbf{B}G$ is indeed the [[delooping]] object of $G$
+it is sufficient, due to the fact that fact that [[∞-stackification]] preserves finite limits to exhibit a [[homotopy pullback]] 
+$G \simeq * \times_{\mathbf{B}G} *$ in $[CartSp^{op}, sSet]_{proj}$.
+
+This is accomplished by the ordinary [[pullback]] of the 
+fibrant replacement diagram 
+
+$$
+  \array{
+    G &\to& N(G\times G \stackrel{\overset{p_1 \cdot p_2}{\to}}{\underset{p_1}{\to}} G)
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& N(G \stackrel{\to}{\to} *)
+  }
+$$
+
+as discussed at [[universal principal ∞-bundle]].
+
+=--
+
+
 
 ### Cohomology and principal $\infty$-bundles {#StrucCohomology}
 
@@ -1385,8 +1451,6 @@ $$
    {\stackrel{\overset{Disc_{inf}}{\leftarrow}}
    {\underset{\Gamma_{inf}}{\to}}}
   Smooth \infty Grpd
-   \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
-  ETop\infty Grpd
   \,.
 $$
 
