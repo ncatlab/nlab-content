@@ -2076,7 +2076,7 @@ In degree 0 the intrinsic de Rham cohomology is necessrily trivial, while in deg
 =--
 
 
-### $\infty$-Lie algebras {#LieAlgebras}
+### Exponentiated $\infty$-Lie algebras {#LieAlgebras}
 
 
 +-- {: .un_def}
@@ -2361,6 +2361,246 @@ $$
 
 =--
 
+
+### Infinitesimal cohesion, Lie theory and deformation theory {#LieTheory}
+
++-- {: .un_def}
+###### Definition
+
+Given a cohesive $(\infty,1)$-topos $\mathbf{H}$ we say that 
+an **infinitesimal cohesive neighbourhood** of $\mathbf{H}$
+is another cohesive $(\infty,1)$-topos $\mathbf{H}^{th}$
+equipped with a
+[[strongly ∞-connected (∞,1)-topos|strongly ∞-connected]] 
+and [[local (∞,1)-topops|local]]
+[[(∞,1)-geometric morphism]] 
+
+$$
+  (i_! \dashv i^* \dashv i_* \dashv i^!) : 
+  \mathbf{H}
+    \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\underset{i^!}{\leftarrow}}}}
+  \mathbf{H}^{th}
+$$
+
+such that $i_!$ is a
+[[full and faithful (∞,1)-functor|full and faithful]].
+
+=--
+
++-- {: .un_prop #InfinitesimalNeighbourhoodIsOverInfGroupoid}
+###### Observation
+
+The inclusion into the infinitesimal neighbourhood is necessarily
+a morphism of [[(∞,1)-topos]]es over [[∞Grpd]].
+
+$$
+  \array{
+     \mathbf{H} && \stackrel{(i^* \dashv i_*)}{\to} && \mathbf{H}^{th}
+     \\
+     & {}_{\mathllap{\Gamma}}\searrow && \swarrow_{\mathrlap{\Gamma}}
+     \\
+     && \infty Grpd 
+  }
+$$
+
+as is the induced strongly $\infty$-connected geometric morphism
+$(i_* \dashv i^!) : \mathbf{H}^{th} \to \mathbf{H}$
+
+$$
+  \array{
+     \mathbf{H}^{th} && \stackrel{(i_* \dashv i^!)}{\to} 
+      && \mathbf{H}
+     \\
+     & {}_{\mathllap{\Gamma}}\searrow && \swarrow_{\mathrlap{\Gamma}}
+     \\
+     && \infty Grpd 
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In both cases the [[direct image]] functor has as [[left adjoint]]
+that preserves the [[terminal object]]. Therefore
+
+$$
+  \begin{aligned}
+    \Gamma_{\mathbf{H}}( i_* X )
+    & 
+    \simeq
+    \mathbf{H}^{th}(*, i_* X)
+    \\
+    & \simeq \mathbf{H}^{th}(i^* *, X)
+    \\
+    & 
+    \simeq \mathbf{H}^{th}(*, X)
+    \\
+    & \simeq \Gamma_{\mathbf{H}^{th}}(X)
+  \end{aligned}
+  \,.
+$$
+
+Analogously in the second case.
+
+=--
+
++-- {: .un_def}
+###### Definition 
+
+We write 
+
+$$
+  (\Pi_{inf} \dashv Disc_{inf} \dashv \Gamma_{inf})
+  := 
+  (i^* \dashv i_* \dashv i^!)
+$$
+
+so that the [[strongly ∞-connected (∞,1)-topos|strongly ∞-connected]]
+[[global section]] [[(∞,1)-geometric morphism]] of $\mathbf{H}^{th}$ factors as
+
+$$
+  \mathbf{H}^{th}
+  \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{Disc_{inf}}{\to}}{\underset{\Gamma_{inf}}{\to}}}
+  \mathbf{H}
+  \stackrel{\overset{\Pi_{\mathbf{H}}}{\to}}{\stackrel{\overset{Disc_{\mathbf{H}}}{\to}}{\underset{\Gamma_{\mathbf{H}}}{\to}}}
+  \infty Grpd
+  \,.
+$$
+
+=--
+
+Let for the remainder of this section such an infinitesimal neighbourhood
+be fixed.
+
++-- {: .un_def}
+###### Definition
+
+Define the triple of [[adjoint (∞,1)-functor]]s 
+
+$$
+ (\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{dR})
+ : 
+ (i_! i^* \dashv i_* i^* \dashv i_* \dashv i^! ) 
+  :
+ \mathbf{H}_{th} 
+  \to 
+ \mathbf{H}_{th}
+  \,.
+$$
+
+For $X\in \mathbf{H}^{th}$ we say that
+
+* $\mathbf{\Pi}_{inf}(X)$ is the **infinitesimal path $\infty$-groupoid** 
+  of $X$;
+
+  The $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] 
+
+  $$
+    X \to \mathbf{\Pi}_{inf}(X)
+  $$
+
+  we call the **constant infinitesimal path inclusion**.
+
+* $\mathbf{Red}(X)$ is the **reduced cohesive $\infty$-groupoid** underlying
+  $X$.
+
+  The $(i_* \dashv i^*)$-[[unit of an adjunction|counit]] 
+
+  $$
+    \matbf{Red} X \to X
+  $$
+
+  we call the **inclusion of the reduced part** of $X$.
+
+=-- 
+
+
++-- {: .un_def #InfinitesimalObject}
+###### Definition
+
+An object $X \in \mathbf{H}^{th}$ is an 
+**infinitesimal cohesive $\infty$-groupoid** if 
+$\mathbf{\Pi}_{inf} X \simeq *$.
+
+An [[∞-group]] object $\mathfrak{g} \in \mathbf{H}^{th}$ that is infinitesimal we call an [[∞-Lie algebra]]. 
+
+=--
+
++-- {: .un_prop}
+###### Observation
+
+The operation $\mathbf{Red}$ is an [[idempotent]] projection of
+$\mathbf{H}^{th}$ onto the image of $\mathbf{H}$
+
+$$
+  \mathbf{Red} \mathbf{Red} \simeq \mathbf{Red}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of infinitesimal neighbourhodd we have that
+$i_!$ is a [[full and faithful (∞,1)-functor]]. It follows that 
+$i^* i_! \simeq Id$ and hence
+
+$$
+  \begin{aligned}
+    \mathbf{Red} \mathbf{Red}
+    & \simeq
+    i_! i^* i_! i^* 
+    \\
+    & \simeq i_! i^*
+    \\
+    & \simeq \mathbf{Red}
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+An [infinitesimal cohesive ∞-groupoid](#InfinitesimalObject) 
+$X \in \mathbf{H}^{th}$ is both geometrically contractible
+and has as underlying [[discrete ∞-groupoid]] the point:
+
+* $\Pi X \simeq *$;
+
+* $\Gamma X \simew *$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first follows with the [above proposition](#InfinitesimalNeighbourhoodIsOverInfGroupoid) 
+$\Pi \simeq \Pi_{\mathbf{H}}\circ \Pi_{inf}$ and the defining property $\Pi_{inf} X \simeq *$.
+
+The second property follows by 
+
+$$
+  \begin{aligned}
+    \Gamma X & \simeq \mathbf{H}^{th}(*,X)
+     \\
+     & \simeq \mathbf{H}^{th}(\mathbf{Red}*, X)
+     \\
+     & \simeq \mathbf{H}^{th}(*, \mathbf{\Pi}_{inf}(X))
+     \\
+     & \simeq \mathbf{H}^{th}(*,*)
+     \\
+     & \simeq *
+  \end{aligned}
+  \,.
+$$
+
+=--
 
 
 ### Maurer-Cartan forms and curvature characteristic forms {#CurvatureCharacteristics}
@@ -3066,6 +3306,9 @@ For $X = \mathbf{B}G \in $ [[?LieGrpd]] the [[delooping]] of an ordinary simply 
 
 =--
 
+
+
+
 ## Examples {#Examples}
 
 +-- {: .un_prop}
@@ -3151,22 +3394,20 @@ The observation that the further left adjoint $\Pi$ in a [[locally ∞-connected
 
 The observation that the further right adjoint $Codisc$ in a [[local (∞,1)-topos]] serves to characterize [[concrete sheaf|concrete (∞,1)-sheaves]] was amplified by [[David Carchedi]].
 
+Essentially the [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is discussed in section 3 of 
+
+* [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+{#SimpsonTeleman}
+
 A pdf-version of some of the material here is at
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos|Differential Cohomology in a Cohesive Topos]]_ 
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
 
 A commented list of related references is at
 
 * [[schreiber:differential cohomology in an (∞,1)-topos -- references
   |differential cohomology in a cohesive topos -- references]]
 
-Some discussion is at
-
-* [[Urs Schreiber]], 
-
-  _Cohesive $\infty$-Toposes_ ([blog entry](http://golem.ph.utexas.edu/category/2010/10/cohesive_toposes.html))
-
-  _Structures in a Cohesive $\infty$-Topos_ ([blog entry](http://golem.ph.utexas.edu/category/2010/11/structures_in_a_cohesive_topos.html))
 
 
 [[!redirects cohesive (∞,1)-topos]]
