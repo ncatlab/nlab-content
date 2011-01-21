@@ -20,7 +20,7 @@ In a context of [[synthetic differential geometry]], the _de Rham space_ $dR(X)$
 
 > [[nPOV]] claim:
 
-The deRham space $dR(X)$ of a [[space]] $X$ is a [[decategorification]] of its [[schreiber:infinitesimal path ∞-groupoid]] $\Pi^{inf}(X)$.
+The deRham space $dR(X)$ of a [[space]] $X$ is a [[decategorification]] of its [[synthetic differential ∞-groupoid|infinitesimal path ∞-groupoid]] $\Pi^{inf}(X)$.
 
 ## Definition 
 
