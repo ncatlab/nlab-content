@@ -99,7 +99,7 @@ Specifically for the relation to groupoid objects see
 
 * Metzler, _Topological and smooth stacks_ ([arXiv:math/0306176](http://arxiv.org/abs/math/0306176))
 
-paragraohs 2.4.3, 3.4.3, 3.8, 4.3 in 
+paragraphs 2.4.3, 3.4.3, 3.8, 4.3 in 
 
 * G. Laumon, L. Moret-Bailly, _Champs alg&#233;briques_ , Ergebn. der Mathematik und ihrer Grenzgebiete 39 , Springer-Verlag, Berlin, 2000
 
@@ -110,6 +110,9 @@ paragraph 4.4 in
 See also
 
 * [[Bertrand Toen]], _Master Course on Stacks_ ([web](http://www.math.univ-toulouse.fr/~toen/m2.html))
+
+* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+{#deJong}
 
 
 Geometric stacks over the site of schemes modeled on [[smooth loci]] is in section 8 of
