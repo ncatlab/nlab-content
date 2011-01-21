@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 #### $\infty$-Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
@@ -19,11 +23,9 @@
 * automatic table of contents goes here
 {:toc}
 
-## Definition
+## Idea
 
-A _differentiable stack_ is a [[geometric stack]] on the [[site]] [[Diff]] of manifolds: a stack which is represented by a [[Lie groupoid]].
-
-##Remarks##
+A _differentiable stack_ is a [[geometric stack]] on the [[site]] [[SmoothMfd]] of [[smooth manifold]]s: a stack which is represented by a [[Lie groupoid]].
 
 This means that a differentiable stack is in a way _nothing else_ but a Lie groupoid: but the point is that equivalence of stacks captures the notion of [[Morita equivalence]] of their presenting (Lie) groupoids.
 
@@ -32,6 +34,16 @@ This means that looking at a Lie groupoid in terms of the stack it presents prov
 Notice that the stack [[presented stack|presented]] by a (Lie) groupoid $G$ is really the stack which sends every test manifold to the category of $G$-principal bundles over that manifold. Such a $G$-principal bundle, also known as a [[torsor]], is analogous to a [[module]] for an algebra. This explains the terminology of "Morita morphisms", which originates in algebra: 
 
 Just as two algebras are Morita equivalent if their categories of modules are equivalent, two groupoids are Morita equivalent if their stacks of torsors are equivalent.
+
+## Properties
+
+A differentible stack is in partuclar an object in the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] that is 
+
+* [[1-truncated]] 
+
+* <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ConcreteObjects">concrete</a>.
+
+It is however more special than that. The general 1-truncated concrete [[smooth ∞-groupoid]]s are [[internal groupoid]]s in [[diffeological space]]s.
 
 
 ## Related concept
@@ -46,7 +58,15 @@ Just as two algebras are Morita equivalent if their categories of modules are eq
 
 * [[geometric ∞-stack]]
 
+* [[cohesive ∞-groupoid]]
 
+  * [[discrete ∞-groupoid]]
+
+  * [[Euclidean-topological ∞-groupoid]]
+
+  * [[smooth ∞-groupoid]]
+
+  * [[synthetic differential ∞-groupoid]]
 
 ## References
 
@@ -57,5 +77,6 @@ Just as two algebras are Morita equivalent if their categories of modules are eq
 
 * [[Richard Hepworth]], _Vector fields and flows on differentiable stacks_ ([arXiv](http://arxiv.org/abs/0810.0979)).
 
+See also the references at [[geometric stack]] and [[topological stack]].
 
 [[!redirects differentiable stacks]]
