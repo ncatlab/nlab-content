@@ -1049,6 +1049,12 @@ See also the appendix in
 * Pavol &#352;evera, Thomas Willwacher, _Equivalence of formalities of the little discs operad_, [arXiv:0905.1789](http://arxiv.org/abs/0905.1789)
 
 
+The equivalence between cosimplicial commutative algebras and commutative cochain dg-algebras in non-negative degree, over a field of char 0 is discussed in 
+
+* V.A. Hinich, V.V. Schechtman, _Homotopy limits of homotopy algebras_ , in
+K-theory, arithmetic and geometry, Lecture Notes in Mathematics 1289,
+Springer, Berlin 240 &#8722; 264.
+
 [[!redirects monoidal Dold?Kan correspondence]]
 [[!redirects monoidal Dold--Kan correspondence]]
 [[!redirects monoidal Dold-kan correspondence]]
