@@ -21,12 +21,15 @@
 
 In every [[cohesive (∞,1)-topos]] $\mathbf{H}$ there is an <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#DifferentialCohomology">intrinsic notion of differential cohomology</a> with coefficients in an [[abelian group|abelian]] [[group object]] $A \in \mathbf{H}$ that classifies $\mathbf{B}^{n-1}A$-[[principal ∞-bundles]] with [[connection on an ∞-bundle|∞-connection]]. 
 
-Here we discuss the specific realization for $\mathbf{H} =$ [[Smooth∞Grpd]] the [[(∞,1)-topos]] of [[smooth ∞-groupoids]] and $A = U(1)$ the [[circle group]]. In this case the intrinsic differential cohomology reproduces [[ordinary differential cohomology]] and generalizes it to base spaces that may be [[smooth manifold]]s, [[diffeological space]]s, [[orbifold]]s and generally [[smooth ∞-groupoid]]s such as [[delooping]]s $\mathbf{B}G$ of [[∞-Lie group]]s $G$. Differential cocycles on the latter support the [[∞-Chern-Weil homomorphism]] that sends [[nonabelian cohomology|nonabelian]] [[connection on an ∞-bundle|∞-connections]] to circle $n$-bundles whose [[curvature]] form realizes a [[characteristic class]] in [[de Rham cohomology]].
+Here we discuss the specific realization for $\mathbf{H} =$ [[Smooth∞Grpd]] the [[(∞,1)-topos]] of [[smooth ∞-groupoids]] and $A = U(1)$ the [[circle group]]. 
+
+In this case the intrinsic differential cohomology reproduces [[ordinary differential cohomology]] and generalizes it to base spaces that may be [[smooth manifold]]s, [[diffeological space]]s, [[orbifold]]s and generally [[smooth ∞-groupoid]]s such as [[delooping]]s $\mathbf{B}G$ of 
+[[smooth ∞-group]]s $G$. Differential cocycles on the latter support the [[∞-Chern-Weil homomorphism]] that sends [[nonabelian cohomology|nonabelian]] [[connection on an ∞-bundle|∞-connections]] to circle $n$-bundles whose [[curvature]] form realizes a [[characteristic class]] in [[de Rham cohomology]].
 
 
 ## The ambient context
 
-Let $\mathbf{H} := $ [[Smooth∞Grpd]] be the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]]. (We also equivalently write $\infty LieGrpd$ for this.) As usual, write
+Let $\mathbf{H} := $ [[Smooth∞Grpd]] be the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]].  As usual, write
 
 $$
   (\Pi \dashv Disc \dashv \Gamma \dashv coDisc) :
@@ -104,7 +107,8 @@ We show how the notion of _smooth circle $n$-bundles with connection_ obtained b
 
 We assume in the following that the reader is familiar with basics of [[smooth ∞-groupoid]]s.
 
-## Flat $U(1)$-valued differential cohomology {#FlatCircleCohomology}
+
+## Flat differential cohomology {#FlatCircleCohomology}
 
 The <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">coefficient object for flat differential cohomology</a> in $\mathbf{H} = $ [[Smooth∞Grpd]] with values in $\mathbf{B}^n U(1)$ is $\mathbf{\flat} \mathbf{B}^n U(1) = LConst \Gamma \mathbf{B}^n U(1)$. 
 
@@ -201,13 +205,13 @@ is the pullback over a cospan all whose objects are fibrant and one of whose mor
 
 =--
 
-## Ordinary de Rham cohomology in degree $\gt 1$ {#OrdinaryDeRham}
+## de Rham cohomology {#OrdinaryDeRham}
 
-The intrinsic de Rham cohomology of [[?LieGrpd]] with coefficients in $\mathbb{R}$ or $U(1) = \mathbb{R}/\mathbb{Z}$ coincides with the ordinary [[de Rham cohomology]] of [[nLab:smooth manifold]]s and smooth [[simplicial manifold]]s in degree greater than 1. This we discuss here. The meaning of the discrepancy in degee 1 and lower is discussed [below](#U1GroupoidBundle).
+The intrinsic de Rham cohomology of [[Smooth∞Grpd]] with coefficients in $\mathbb{R}$ or $U(1) = \mathbb{R}/\mathbb{Z}$ coincides with the ordinary [[de Rham cohomology]] of [[nLab:smooth manifold]]s and smooth [[simplicial manifold]]s in degree greater than 1. This we discuss here. The meaning of the discrepancy in degee 1 and lower is discussed [below](#U1GroupoidBundle).
 
 So for this section let $n \in \mathbb{N}$ with $n \geq 2$.
 
-Above in _[Flat U(1)-valued differential cohomology](#FlatCircleCohomology)_ we found a fibrant representative of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1) \in \infty LieGrpd$ to be given by 
+Above in _[Flat U(1)-valued differential cohomology](#FlatCircleCohomology)_ we found a fibrant representative of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1) \in Smooth\infty Grpd$ to be given by 
 
 $$
   \Xi[\Omega^1(-) \stackrel{d_{dR}}{\to} \Omega^2(-)
@@ -219,8 +223,8 @@ in $[CartSp^{op}, sSet]_{proj, cov}$.
 +-- {: .un_prop }
 ###### Proposition
 
-For $X \in \infty LieGrpd$ a [[nLab:paracompact space|paracompact]] [[nLab:smooth manifold]] we have in for $\mathbf{H} = \infty LieGrpd$ a 
-[[nLab:natural isomorphism]]
+For $X \in Smooth\infty Grpd$ a [[paracompact space|paracompact]] [[smooth manifold]] we have in for $\mathbf{H} = Smooth \infty Grpd$ a 
+[[natural isomorphism]]
 
 $$
   H_{dR}(X,\mathbf{B}^n U(1))
@@ -238,7 +242,7 @@ where on the left we have the <a href="http://ncatlab.org/schreiber/show/differe
 +-- {: .proof}
 ###### Proof
 
-Let $\{U_i \to X\}$ be a [[nLab:good open cover]]. At [[nLab:?LieGrpd]] is discussed that then the [[nLab:Cech nerve]] $C(\{U_i\}) \to X$ is a cofibrant [[nLab:resolution]] of $X$ in $[CartSp^{op}, sSet]_{proj,cov}$. Therefore we have
+Let $\{U_i \to X\}$ be a [[nLab:good open cover]]. At [[Smooth∞Grpd]] is discussed that then the [[nLab:Cech nerve]] $C(\{U_i\}) \to X$ is a cofibrant [[nLab:resolution]] of $X$ in $[CartSp^{op}, sSet]_{proj,cov}$. Therefore we have
 
 $$
   \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}^n U(1))
@@ -319,10 +323,10 @@ are necessarily themselves of the form $(\lambda_i, \lambda_{i j}, \cdots) =  (\
 
 
 
-## Curved $U(1)$-valued differential cohomology
+## Differential cohomology
 
 
-The intrinsic <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#DiffCohWithGroupalCoeffs">definition of the ∞-groupoid of cocycles for the intrinsic  differential cohomology</a> in $\mathbf{H} = \infty LieGrpd$ with coefficients $\mathbf{B}^n U(1)$ is the object $\mathbf{H}_{diff}(X,\mathbf{B}^n U(1))$ in the [[nLab:(∞,1)-pullback]]
+The intrinsic <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#DiffCohWithGroupalCoeffs">definition of the ∞-groupoid of cocycles for the intrinsic  differential cohomology</a> in $\mathbf{H} = Smooth\infty Grpd$ with coefficients $\mathbf{B}^n U(1)$ is the object $\mathbf{H}_{diff}(X,\mathbf{B}^n U(1))$ in the [[nLab:(∞,1)-pullback]]
 
 $$
   \array{
@@ -859,7 +863,7 @@ $$
   }
 $$
 
-in $\mathbf{H} = $ [[nLab:?LieGrpd]] that gives the  [[nLab:fiber sequence]] $\mathbf{\flat} \mathbf{B}^n U(1) \to \mathbf{B}^{n} U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} U(1)$ which controls the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#GroupalCurvature">obstruction theory for flat connections</a> by a [[nLab:homotopy pullback]] realized suitably as an ordinary pullback of fibrations in $[CartSp^{op}, Ch_\bullet] \stackrel{\Xi}{\hookrightarrow} [CartSp^{op}, sSet]_{proj}$.
+in $\mathbf{H} = $ [[Smooth∞Grpd]] that gives the  [[fiber sequence]] $\mathbf{\flat} \mathbf{B}^n U(1) \to \mathbf{B}^{n} U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} U(1)$ which controls the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#GroupalCurvature">obstruction theory for flat connections</a> by a [[nLab:homotopy pullback]] realized suitably as an ordinary pullback of fibrations in $[CartSp^{op}, Ch_\bullet] \stackrel{\Xi}{\hookrightarrow} [CartSp^{op}, sSet]_{proj}$.
 
 
 
@@ -1058,9 +1062,9 @@ $$
   }
 $$
 
-in $[CartSp^{op}, sSet]$ for the canoncal curvature characteristic class $curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$ in [[?LieGrpd]] with the special property that it did model the abstract [[(∞,1)-topos]]-theoretic class under the [[Dold-Kan correspondence]] precisely in terms of the familiar [[Deligne cohomology]] coefficient complex.
+in $[CartSp^{op}, sSet]$ for the canoncal curvature characteristic class $curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$ in [[Smooth∞Grpd]] with the special property that it did model the abstract [[(∞,1)-topos]]-theoretic class under the [[Dold-Kan correspondence]] precisely in terms of the familiar [[Deligne cohomology]] coefficient complex.
 
-There is another model for the curvature class in $[CartSp^{op}, sSet]$, one that is useful for constructing the [∞-Chern-Weil homomorphism](#InfChernWeil) that maps from [[nonabelian cohomology]] in $\infty Lie Grpd$ to $U(1)$-valued differential cohomology. This second model is the one naturally adapted to the construction of the object $\mathbf{B}^n U(1)$ by [[Lie integration]] from its [[∞-Lie algebra]] $b^{n-1} \mathbb{R}$. This is described at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegration">∞-Lie groupoid -- Lie integration</a>. 
+There is another model for the curvature class in $[CartSp^{op}, sSet]$, one that is useful for constructing the [∞-Chern-Weil homomorphism](#InfChernWeil) that maps from [[nonabelian cohomology]] in $Smooth \infty Grpd$ to $U(1)$-valued differential cohomology. This second model is the one naturally adapted to the construction of the object $\mathbf{B}^n U(1)$ by [[Lie integration]] from its [[∞-Lie algebra]] $b^{n-1} \mathbb{R}$. This is described at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegration">∞-Lie groupoid -- Lie integration</a>. 
 
 For distinguishing the two models, we will indicate the former one by the subscript ${}_{chn}$ and the one described now by the subscript ${}_{simp}$.
 
