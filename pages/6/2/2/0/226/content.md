@@ -1,11 +1,13 @@
 
-* **vector space**
-
-* [[2-vector space]]
-
-* [[n-vector space]]
-
-***
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
 
 
 # Contents
@@ -27,19 +29,16 @@ $$
 This category has vector spaces over $k$ as objects, and $k$-linear maps between these as morphisms.
 
 
-## Discussion
+## Related concepts
 
-_[[Eric Forgy]] says_: Is there a nice _arrow theoretic_ way to define vector spaces?
 
-_[[Urs Schreiber|Urs]] says_: There is comparatively nice abstract nonsense to be said about _rings_. For instance, a [[ring]] is a category with one object [[enriched category|enriched in]] the category of abelian groups. From that starting point the concepts of ring theory develop rather naturally from pure category theoretic reasoning. In particular [[module|modules]] over rings appear naturally.
+* **vector space**
 
-For some reason this is different when rings are refined to _fields_ and modules to vector spaces. The very concept of a _field_ is somehow not as natural from a category theoretic perspective, or at least I don't see how it is. This problem becomes very manifest when one tries to categorify fields and vector spaces: it is very straightforward to categorify rings and their modules, but their refinement to categorified fields  and vector spaces is harder.
+* [[2-vector space]]
 
->The remainder of this discussion has been moved to [[field]].
+* [[n-vector space]]
 
-***
 
-_[[Eric Forgy|Eric]] says_: Could you somehow define a vector space as a "degroupoidified" groupoid? That would be pretty.
 
 
 [[!redirects vector space]]
