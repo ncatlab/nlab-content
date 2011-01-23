@@ -103,7 +103,7 @@
 
 * [[model structure on cubical sets|on cubical sets]]
 
-* [[model structure on strict ∞-groupoids|on strict ∞-groupoids]]
+* [[model structure on strict ∞-groupoids|on strict ∞-groupoids]], [[natural model structure on groupoids|on groupoids]]
 
 * [[model structure on chain complexes|on chain complexes]]/[[model structure on cosimplicial abelian groups]] 
 
