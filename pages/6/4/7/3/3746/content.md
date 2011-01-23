@@ -1,4 +1,6 @@
-An __entourage__ (aka __vicinity__) is a [[binary relation]] of 'approximate equality' on a [[space]].  Just as a [[topological space]] is given by its [[underlying set]] of points and an appropriate collection of [[open subsets]], so a [[uniform space]] is given by its underlying set of points and an appropriate collection of entourages.  If the intuition behind open subsets is that you can take a point in an open subset, move it a small distance, and get a point in the open subset; then the intuition behind entourages is that you can take any two points related by an entourage, move them anywhere in the space as long as each is only moved a small distance relative to the other, and get two points related by the entourage.
+An __entourage__ (aka __vicinity__) is a [[binary relation]] of 'approximate equality' on a [[space]], generally a [[uniform space]].  Just as a [[topological space]] is given by its [[underlying set]] of points and an appropriate collection of [[open subsets]], so a [[uniform space]] is given by its underlying set of points and an appropriate collection of entourages.
+
+If the intuition behind open subsets is that you can take a point in an open subset, move it a small distance, and get a point in the open subset; then an analogous intuition behind entourages is that you can take any two points related by an entourage, move them anywhere in the space as long as each is only moved a small distance relative to the other, and get two points related by the entourage.
 
 
 ## Examples
@@ -14,6 +16,8 @@ An __entourage__ (aka __vicinity__) is a [[binary relation]] of 'approximate equ
    where $x,y$ are points in the metric space and $/$ is the division operation in the group.
 
 *  In a nonabelian [[topological group]], there are two distinct notions of entourage, one using the same formula as above and the other using $y/x$ in place of $x/y$.
+
+* Of course, the most general kind of entourage is that occurring in the definition of a [[uniform space]], in the same way that [[open sets]] occur in the definition of a [[topological space]].
 
 
 [[!redirects entourage]]
