@@ -27,25 +27,66 @@ There are several equivalent ways to set up a [[model category]] structure for $
 
 Suppose first that the [[(2,1)-site]] $C$ is just a 1-[[category]], hence just a [[site]].
 
-* Write [[Grpd]] for the [[category]] of [[small category]] [[groupoid]]s and [[functor]]s between them. Write $Grpd_{nat}$ for the [[natural model structure on groupoids]].
+The following definition first defines a model presentation for [[(2,1)-presheaves]] ([[1-truncated]] [[(∞,1)-presheaves]]) and then localizes at the [[covering]] morphisms in order to obtain the $(2,1)$-sheaves.
+
++-- {: .un_defn}
+###### Definition
+
+Write [[Grpd]] for the [[category]] of [[small category]] [[groupoid]]s and [[functor]]s between them. Write $Grpd_{nat}$ for the [[natural model structure on groupoids]].
  
-  Write $[C^{op}, Grpd_{nat}]_{proj}$ for the projective [[model structure on functors]] on the [[functor category]] $[C^{op}, Grpd]$.
+Write $[C^{op}, Grpd_{nat}]_{proj}$ for the projective [[model structure on functors]] on the [[functor category]] $[C^{op}, Grpd]$.
 
-  Let $W = \{ S(\{U_i\})\to j(U) \}$ be the set of morphisms in $[C^{op}, Set] \hookrightarrow [C^{op}, Set]$ that are [[covering]] [[sieve]] inclusions with respect to the [[coverage]] on $C$.
+Let $W = \{ C(\{U_i\})\to j(U) \}$ be the set of [[Cech nerve]] projections in $[C^{op}, Grpd]$ for each [[covering]] family $\{U_i \to U\}$ in the [[site]] $C$.
 
-  Then let finally $[C^{op}, Grpd_{folk}]_{proj,loc}$ be the [[Bousfield localization of model categories|left Bousfield localization]] at the set of morphisms $W$. This is a model for $(2,1)$-sheaves on $C$.
+Then let finally 
 
+$$
+  [C^{op}, Grpd_{nat}]_{proj,loc}
+$$ 
 
-* Write $[C^{op}, sSet_{Quillen}]_{loc}$ for a local [[model structure on simplicial presheaves]] on $C$, the one which presents the [[(∞,1)-category of (∞,1)-sheaves]] on $C$.
+be the [[Bousfield localization of model categories|left Bousfield localization]] at the set of morphisms $W$. 
 
-  Let $W = \{\partial \Delta[n] \cdot U \to \Delta[n] \cdot U| n \geq 2 \in \mathbb{N}, U \in C\}$ be the class of generating morphisms of weak equivalences on [[homotopy n-type|homotopy 1-type]]s.
+=--
 
-  Write $[C^{op}, sSet_{Quillen}]_{loc,W}$ for the [[Bousfield localization of model categories|left Bousfield localization]] of the model structure for [[(∞,1)-sheaves]] at the morphisms $W$. Then this is a model structure for $(2,1)$-sheaves on $C$.
+The following definition first gives the presentations for [[(∞,1)-sheaves]] and then further restricts the [[1-truncated]] objects in there, preseting the [[(n,1)-topos]] inside the full [[(∞,1)-topos]] over $C$, for $n = 2$.
 
++-- {: .un_defn}
+###### Definition
 
-The discussion in ([Hollander](#Hollander)) shows that the results of these two constructions are [[Quillen equivalence|Quillen equivalent]]. 
+Write $[C^{op}, sSet_{Quillen}]_{loc}$ for a local [[model structure on simplicial presheaves]] on $C$, the one which presents the [[(∞,1)-category of (∞,1)-sheaves]] on $C$.
 
-> Or essentially, I'll fill in details and make this precise once I have a second.
+Let $W = \{\partial \Delta[n] \cdot U \to \Delta[n] \cdot U| n \geq 2 \in \mathbb{N}, U \in C\}$ be the set of generating morphisms of weak equivalences on [[homotopy n-type|homotopy 1-type]]s.
+
+Write 
+
+$$
+  [C^{op}, sSet_{Quillen}]_{loc,W}
+$$ 
+
+for the [[Bousfield localization of model categories|left Bousfield localization]] of the model structure for [[(∞,1)-sheaves]] at the morphisms $W$. Then this is a model structure for $(2,1)$-sheaves on $C$.
+
+=--
+
+These two model structures are equivalent:
+
++-- {: .un_defn}
+###### Definition
+
+The identity [[adjunction]] establishes a [[Quillen equivalence]]
+
+$$
+  (Id \dashv Id)
+  :
+  [C^{op}, Grpd_{nat}]_{loc}
+  \underoverset{\leftarrow}{\to}{\simeq}
+  [C^{op}, sSet_{Quillen}]_{loc, W}
+  \,.
+$$
+
+=--
+
+This appears as ([Hollander, theorem 5.4](#Hollander)).
+
 
 
 ## Related concepts
