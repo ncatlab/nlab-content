@@ -1,3 +1,21 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 An **isofibration** is a [[functor]] $p:E\to B$ such that for any [[object]] $e\in E$ and any [[isomorphism]] $\phi:p(e) \cong b$, there exists an isomorphism $\psi:e \cong e'$ such that $p(\psi)=\phi$.  
 
 $$
@@ -13,8 +31,12 @@ $$
 
 If $p$ is a [[forgetful functor]], then being an isofibration says that whatever stuff $p$ forgets can be "transported along isomorphisms."
 
+## Properties
+
 Isofibrations have a number of good properties.  For example, any [[strict 2-limit|strict pullback]] of an isofibration is also a [[2-limit|weak pullback]].  Any [[Grothendieck fibration]] or opfibration is an isofibration, but not conversely (unless $B$ is a [[groupoid]]).
 
 The isofibrations are the _fibrations_ in the [[canonical model structure]] on [[Cat]].  More generally, the fibrations in canonical model structures on various types of higher categories are usually some generalization of isofibrations.  For example, the fibrations in the Lack model structure on 2-Cat have "equivalence lifting" and "local isomorphism lifting," and the fibrations in the Joyal model structure for [[quasi-category|quasicategories]] have "equivalence lifting" at all levels.
 
 This definition of isofibration is [[evil]] where it demands that $p(\psi)=\phi$; if it only demanded $p(\psi)\cong\phi$, of course, any functor would qualify.
+
+[[!redirects isofibrations]]
