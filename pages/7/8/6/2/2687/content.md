@@ -171,7 +171,7 @@
 
 * [[model structure on strict ∞-categories|on strict ∞-categories]]
 
-### for $\infty$-sheaves / $\infty$-stacks
+### for $(\infty,1)$-sheaves / $\infty$-stacks
 
 * [[model structure on homotopical presheaves|on homotopical presheaves]]
 
@@ -180,6 +180,8 @@
     [[global model structure on simplicial presheaves|global model structure]]/[[Cech model structure on simplicial presheaves|Cech model structure]]/[[local model structure on simplicial presheaves|local model structure]]
 
     [[model structure on sSet-enriched presheaves|on sSet-enriched presheaves]]
+
+* [[model structure for (2,1)-sheaves]]/for stacks
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/model+category+theory+-+contents)</div>
