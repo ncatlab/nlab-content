@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 This entry is about a generalized notion of [[topology]]. For the notion of _formal space_ in the sense of [[rational homotopy theory]] see [[formal dg-algebra]].
 
 ***
@@ -62,7 +73,10 @@ The last example is not predicative, and this is in part *why* one studies forma
 
 ## References
 
-*  Fourman and Grayson (1982), _Formal Spaces_ --- this is the original development, intended as an application of locale theory to logic.
+*  Fourman and Grayson (1982), _Formal Spaces_ 
+
+   * this is the original development, intended as an application of locale theory to logic.
+
 *  [[Giovanni Sambin]] (1987), _Intuitionistic formal spaces_, [pdf](http://www.math.unipd.it/~sambin/txt/ifs87-97.pdf)
    *  This is the probably the main reference on the subject.
    *  Warning: you can ignore the material about [[foundations]] and [[type theory]], but if you do read any of it, the term 'category' means (roughly) [[proper class]]; this was common in type theory in the 1980s.
