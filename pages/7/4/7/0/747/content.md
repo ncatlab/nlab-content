@@ -817,14 +817,13 @@ Properties of [[homotopy limit]]s and [[homotopy colimit]]s of simplicial preshe
 * [Homotopy (co)limits of simplicial (pre)sheaves](http://ncatlab.org/nlab/show/homotopy+limit#SimpSheaves)
 
 
-## Examples
+## Related concepts
 
-* A discussion of simplicial presheaves on $C = $ [[CartSp]] is at [[∞-Lie groupoid]].
+* **model structure on simplicial presheaves**
 
-* A discussion of simplicial presheaves on $C = $ [[ThCartSp]]/[[smooth loci]] is at [[∞-Lie algebroid]].
+* [[model structure on simplicial sheaves]]
 
-
-
+* [[model structure for (2,1)-sheaves]]
 
 ## References
 
