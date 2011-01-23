@@ -12,6 +12,8 @@ A uniform structure or uniformity on a set $X$ consists of a collection of globa
 
 ## Definitions
 
+### Entourage uniformities
+
 A **uniform structure**, or **uniformity**, on a set $X$ consists of a collection of [[binary relations]] $U \subseteq X \times X$ (called __[[entourages]]__ or __vicinities__) satisfying some conditions. Write $x \approx_U y$ if $x$ is related to $y$ through $U$; then the conditions are the following:
 
 1. The [[equality relation]] $\Delta = \{(x, x): x \in X\}$ is contained in every entourage. That is,
@@ -46,6 +48,16 @@ where $U$ is an entourage. (Recall that a set is open if it is a neighborhood of
 Given uniform spaces $X$ and $Y$, a function $f: X \to Y$ is said to be **uniformly continuous** if for every entourage $V$ of $Y$, $(f \times f)^{-1}(V)$ is an entourage of $X$. Clearly, uniformly continuous functions are continuous with respect to the corresponding uniform topologies, but the converse is false (although see below the discussion in the case where $X$ is compact). There is an obvious [[concrete category]] $Unif$ of uniform spaces and uniformly continuous functions.
 
 
+### Covering uniformities
+
+An equivalent way to characterize a uniform space is by its collection of *uniform covers*.
+
+...
+
+
+
+### Completeness and separation
+
 One feature of uniform space theory which is not available for general topological spaces is the possibility of taking (Cauchy) completions. The relevant definitions are straightforward:
 
 * A **Cauchy net** in a uniform space $X$ consists of a [[directed set]] $D$ and a function $f: D \to X$ such that for every entourage $U$, there exists $N \in D$ such that $(f(m), f(n)) \in U$ whenever $m, n \geq N$. (One can similarly define a **Cauchy filter**.  This definition makes a uniform space into a [[Cauchy space]].)
@@ -79,11 +91,11 @@ These are in a way the motivating examples.  The theory of uniformly continuous 
 
 A first wave of results concerns [[separation axioms]]:
 
-* Considered as topological spaces, uniform spaces are regular and (more profoundly) completely regular.
+* Considered as topological spaces, uniform spaces are [[regular topological space|regular]] and (more profoundly) [[completely regular topological space|completely regular]].
 
-As a matter of fact, a significant theorem is that a topology is the uniform topology for some uniformity if and only if it is the topology of a completely regular space. See also the discussion below on the relation with metric and pseudometric spaces.
+As a matter of fact, a significant theorem is that a topology is the uniform topology for some uniformity if and only if it is completely regular.  See also the discussion below on the relation with metric and pseudometric spaces.
 
-* For a uniform space, the following separation conditions are equivalent: $T_0$ (the topology distinguishes points), $T_1$ (points are closed), $T_2$ (Hausdorff), $T_3$ (regular Hausdorff), $T_{3\frac1{2}}$ (completely regular Hausdorff). Of course, this follows from the fact that it is completely regular.
+* For a uniform space, the following separation conditions are equivalent: $T_0$ (the topology distinguishes points), $T_1$ (points are closed), $T_2$ ([[Hausdorff topological space|Hausdorff]]), $T_3$ (regular Hausdorff), $T_{3\frac1{2}}$ (completely regular Hausdorff). Of course, this follows from the fact that it is completely regular.
 
 * The category $Unif$ of uniform spaces admits arbitrary small [[products]] (which are preserved by the forgetful functors to [[Top]] and to [[Set]]). Hence it is not generally true that uniform spaces are [[normal space|normal]] (so that separated ones would be $T_4$), because for instance an uncountable power of the real line with its usual topology is not a normal space.
 
@@ -114,6 +126,8 @@ A __[[gauge space]]__ consists of a set $X$ and a collection $\mathcal{D}$ of ps
 
 In weak [[foundations]] of mathematics, the theorems above may not be provable.  In particular, the theorem that every uniform space arises from a gauge space is equivalent (internal to an arbitrary [[topos]] with a [[natural numbers object]]) to [[dependent choice]] (plus [[excluded middle]] if you leave out axiom 0).  If the concept is to be applied to analysis, then it may be best to define a uniform space as a gauge space satisfying a saturation condition.
 
+There is also a "pointless" notion of uniform space, called a [[uniform locale]].
+
 
 ## Motivation for the axioms
 
@@ -121,9 +135,9 @@ The really critical axioms are (1--3): a collection of binary relations which sa
 
 We draw particular attention to axiom (3), which may be called an "$\frac{\varepsilon}{2}$" principle. It generalizes a principle familiar from analysis in metric spaces, where one establishes $d(x, z) \lt \varepsilon$ by showing there exists $y$ such that $d(x, y) \lt \frac{\varepsilon}{2}$ and $d(y, z) \lt \frac{\varepsilon}{2}$, and applying the triangle inequality. The utility of this principle for metric spaces, extrapolated in this way, gives uniform spaces much of their power.
 
-For full power in [[constructive mathematics]], we also need axiom (0), which may similarly be called a "something less than $\varepsilon$" principle. (These two can actually be combined into a single statement, as you might expect since $\frac{\varepsilon}{2} \lt \epsilon$, but that makes the intuition less clear.)
+For full power in [[constructive mathematics]], we also need axiom (0), which may similarly be called a "something less than $\varepsilon$" principle (i.e. for any $\varepsilon$ there is a smaller $\varepsilon'$ such that two points are either $\varepsilon$-close or $\varepsilon'$-far).  Axioms (0) and (3) can actually be combined into a single statement, as you might expect since $\frac{\varepsilon}{2} \lt \epsilon$, but that makes the intuition less clear.
 
-Axiom (1) is a nullary version of the third axiom; together they prove that, given any entourage $U$ and any integer $n \geq 0$, there exists an entourage $V$ whose $n$-fold composite is contained in $U$. The symmetry axiom then allows one to take the opposite of $V$ at any point in the composite as well.
+Axiom (1) is a nullary version of axiom (3); together they prove that, given any entourage $U$ and any integer $n \geq 0$, there exists an entourage $V$ whose $n$-fold composite is contained in $U$. The symmetry axiom then allows one to take the opposite of $V$ at any point in the composite as well.
 
 Altogether, these may be seen as axiomatising the notion of *approximate* [[equivalence relation|equivalence]].  If $\approx$ is an approximate equivalence relation, then we might expect it to be
 *  [[reflexive relation|reflexive]]: $x \approx x$ and
