@@ -14,6 +14,7 @@ For low values of $n$-[[n-category|category]], see Section 2 of [[Lectures on n-
 * [[(-2)-category]]
 * [[0-poset]]
 * [[(-1)-poset]]
+* [[0-groupoid]]
 * [[(-1)-groupoid]]
 * [[(-2)-groupoid]]
 
