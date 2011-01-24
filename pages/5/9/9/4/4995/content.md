@@ -1670,7 +1670,7 @@ precisely if there is a lift $\nabla$ in the [[diagram]]
 
 $$
   \array{
-     \mathbf{\flat}A 
+     && \mathbf{\flat}A 
      \\
      & {}^{\nabla}\nearrow& \downarrow
     \\
@@ -1683,6 +1683,38 @@ $$
 
 We call $\mathbf{\flat}A$ the **coefficient object for flat $A$-connections**. 
 
++-- {: .un_prop}
+###### Proposition
+
+For $G := Disc G_0 \in \mathbf{H}$ a [[discrete ∞-groupoid|discrete ∞-group]] the canonical morphism $\mathbf{H}_{flat}(X,\mathbf{B}G) \to \mathbf{H}(X,\mathbf{B}G)$ is an [[equivalence in an (∞,1)-category|equivalence]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $Disc$ is a [[full and faithful (∞,1)-functor]] we have that the  [[unit of an adjunction|unit]] $Id \to \Gamma Disc $ is a natural equivalence. It follows that on $Disc G_0$ also the counit $Disc \Gamma Disc G_0 \to Disc G_0$ is a weak equivalence (since by the [[triangle identity]] we have that $Disc G_0 \stackrel{\simeq}{\to} Disc \Gamma Disc G_0 \to Disc G_0$ is the identity).
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This says that for discrete structure [[∞-group]]s $G$ there is an essentially unique flat $\infty$-connection on any $G$-[[principal ∞-bundle]]. Moreover, the further equivalence
+
+$$
+  \mathbf{H}(\mathbf{\Pi}(X), \mathbf{B}G)
+  \simeq
+  \mathbf{H}_{flat}(X, \mathbf{B}G)
+  \simeq
+  \mathbf{H}(X, \mathbf{B}G)
+$$
+
+may be read as saying that the $G$-principal $\infty$-bundle
+is entirely characterized by the flat [[higher parallel transport]]
+of this unique $\infty$-connection.
+
+=--
 
 
 ### de Rham cohomology {#deRhamCohomology}
