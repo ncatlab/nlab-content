@@ -19,7 +19,7 @@ A [[model category]] structure on a category of [[dg-algebra]]s tends to present
 
 For dg-algebras bounded in negative or positive degrees, the [[monoidal Dold-Kan correspondence]] asserts that their model category structures are [[Quillen equivalence|Quillen equivalent]] to the corresponding [[model structure on simplicial algebras|model structure on (co)simplicial algebras]]. This case plays a central role in [[rational homotopy theory]].
 
-The case of model structures on unbounded dg-algebras may be thought of as induced from this by passage to the [[derived geometry]] modeled on formal duaals of the bounded dg-algebras. This is described at [[dg-geometry]].
+The case of model structures on unbounded dg-algebras may be thought of as induced from this by passage to the [[derived geometry]] modeled on formal duals of the bounded dg-algebras. This is described at [[dg-geometry]].
 
 
 ## General
