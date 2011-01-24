@@ -70,7 +70,7 @@ This is shown in ([Wendt](#Wendt)), section 5.5, using [[model category]]-theore
 
 This generalizes to associated $\infty$-bundles the statement (discussed at [[principal ∞-bundle]]) that $G$-principal $\infty$-bundles $P \to X$ are precisely the [[homotopy fiber]]s of [[cocycle]] morphism $X \to \mathbf{B}G$.
 
-Notice that the $(\infty,1)$-topos theoretic argument as [[principal ∞-bundle]] uses crucially that in the [[(∞,1)-topos]] $\mathbf{H}$ we have $(\infty,1)$-[[universal colimits]]. In [Wendt](#Wendt)) precisely the analogous [[homotopy colimit]]-properties produce the above result. Using these the result follows in analogy to [May](#May).
+Notice that the $(\infty,1)$-topos theoretic argument at [[principal ∞-bundle]] uses crucially that in the [[(∞,1)-topos]] $\mathbf{H}$ we have $(\infty,1)$-[[universal colimits]]. In [Wendt](#Wendt)) precisely the analogous [[homotopy colimit]]-properties produce the above result. Using these the result follows in analogy to [May](#May).
 
 =--
 
