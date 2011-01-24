@@ -236,3 +236,5 @@ Discussion of simplicial commutative associative algbras over a ring in the cont
 
 [[!redirects simplicial algebra]]
 [[!redirects simplicial algebras]]
+
+[[!redirects model structure on simplicial abelian groups]]
