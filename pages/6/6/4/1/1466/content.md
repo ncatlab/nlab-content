@@ -1,31 +1,34 @@
-# Uniform spaces
-* tic
-{: toc}
 
+# Uniform spaces
+* table of contents
+{: toc}
 
 ## Idea
 
-Uniform spaces were invented by Andr&#233; Weil, to capture a general notion of space for which it makes sense to speak of uniformly continuous functions. Such spaces include (pseudo)[[metric spaces]] and [[topological groups]].
+Uniform spaces were invented by [[André Weil]], to capture a general notion of [[space]] for which it makes sense to speak of [[uniformly continuous map]]s. Such spaces include (pseudo)[[metric spaces]] and [[topological groups]].
 
-A uniform structure or uniformity on a set $X$ consists of a collection of global binary relations $\varepsilon$ which allow us to say when one point $x$ is "$\varepsilon$-close" to another $y$. For a metric space, we have for instance relations expressed by the formula $d(x, y) \lt \epsilon$. For a topological group, we have relations $x y^{-1} \in \varepsilon$, where $\varepsilon$ is a neighborhood of the identity.
+A uniform structure or uniformity on a set $X$ consists of a collection of global binary relations $\varepsilon$ which allow us to say when one point $x$ is "$\varepsilon$-close" to another $y$. For a metric space, we have for instance relations expressed by the formula $d(x, y) \lt \epsilon$. For a topological group, we have relations $x y^{-1} \in \varepsilon$, where $\varepsilon$ is a [[neighborhood]] of the identity.
 
 
 ## Definitions
 
+The definition described above is based on [[entourages]] and is most commonly seen today.  There is an equivalent (but less directly generalisable) definition based on [[uniform cover]]s.
+
+
 ### Entourage uniformities
 
-A **uniform structure**, or **uniformity**, on a set $X$ consists of a collection of [[binary relations]] $U \subseteq X \times X$ (called __[[entourages]]__ or __vicinities__) satisfying some conditions. Write $x \approx_U y$ if $x$ is related to $y$ through $U$; then the conditions are the following:
+A **uniform structure**, or **uniformity**, on a set $X$ consists of a collection of [[binary relations]] $U \subseteq X \times X$ (called __entourages__ or __vicinities__) satisfying some conditions. Write $x \approx_U y$ if $x$ is related to $y$ through $U$; then the conditions are the following:
 
 1. The [[equality relation]] $\Delta = \{(x, x): x \in X\}$ is contained in every entourage. That is,
    $$ \forall U,\; \forall x,\; x \approx_U x .$$
-1. For every entourage $U$, there exists an entourage $V$ such that $V^op \subseteq U$, where $V^\op$ is the [[opposite relation]] to $V$. That is,
+2. For every entourage $U$, there exists an entourage $V$ such that $V^op \subseteq U$, where $V^\op$ is the [[opposite relation]] to $V$. That is,
    $$ \forall U,\; \exists V,\; \forall x, y,\; y \approx_V x \;\Rightarrow\; x \approx_U y .$$
    In light of axiom (6), it follows that $U^op$ itself is an entourage.
-1. For every entourage $U$, there exists an entourage $V$ such that $V \circ V \subseteq U$, where $\circ$ is the ordinary operation of [[relation|relational composition]]. That is,
+3. For every entourage $U$, there exists an entourage $V$ such that $V \circ V \subseteq U$, where $\circ$ is the ordinary operation of [[relation|relational composition]]. That is,
    $$ \forall U,\; \exists V,\; \forall x, y, z,\; x \approx_V y \approx_V z \;\Rightarrow x \approx_U z .$$
-1. There exists an entourage; in light of axiom (6), it follows that the universal relation $X \times X$ is an entourage.
-1. If $U, V$ are entourages, so is some subset of $U \cap V$. In light of axiom (6), it follows that $U \cap V$ is an entourage.
-1. If $U$ is an entourage and $U \subseteq V \subseteq X \times X$, then $V$ is an entourage.
+4. There exists an entourage; in light of axiom (6), it follows that the universal relation $X \times X$ is an entourage.
+5. If $U, V$ are entourages, so is some subset of $U \cap V$. In light of axiom (6), it follows that $U \cap V$ is an entourage.
+6. If $U$ is an entourage and $U \subseteq V \subseteq X \times X$, then $V$ is an entourage.
 
 In [[constructive mathematics]], we also need this (classically trivial) condition:
 
@@ -40,87 +43,89 @@ A set equipped with a uniform structure is called a **uniform space**.
 A collection of entourages satisfying (0--5) is a **[[base]]** for a uniformity; a base is precisely what generates a uniformity by taking the upward closure.  A collection satisfying (0--3) is a **preuniformity**; slightly more generally, we can replace each $V$ in the statement of these axioms with a finite [[intersection]] $V_1 \cap \cdots \cap V_n$ of entourages to get the concept of a **[[subbase]]** for a uniformity.  A subbase is precisely what generates a base by closing up under finite intersections and precisely what generates a uniformity by closing up under finite intersections and taking the upward closure.
 
 
-The **uniform topology** induced by a uniformity is defined by taking the [[neighborhoods]] of a point $x$ to be sets of the form
-$$ U[x] := \{ y \;:\; x \approx_U y \} $$
-where $U$ is an entourage. (Recall that a set is open if it is a neighborhood of every point it contains.) We point out that different uniformities may give rise to the same topology (just as different metrics, even uniformly inequivalent ones, may give rise to the same topology).
-
-
-Given uniform spaces $X$ and $Y$, a function $f: X \to Y$ is said to be **uniformly continuous** if for every entourage $V$ of $Y$, $(f \times f)^{-1}(V)$ is an entourage of $X$. Clearly, uniformly continuous functions are continuous with respect to the corresponding uniform topologies, but the converse is false (although see below the discussion in the case where $X$ is compact). There is an obvious [[concrete category]] $Unif$ of uniform spaces and uniformly continuous functions.
-
-
 ### Covering uniformities
 
-An equivalent way to characterize a uniform space is by its collection of *uniform covers*.  Here a **cover** of a set $X$ is a $C\subseteq P(X)$ with union $X$.  For covers $C_i$, we define:
+An equivalent way to characterize a uniform space is by its collection of *uniform covers*.  Here a **cover** of a set $X$ is a collection $C \subseteq P(X)$ with [[union]] $X$.  For covers $C_i$, we define:
 
 * $C_1$ **refines** $C_2$, written $C_1 \prec C_2$, if every element of $C_1$ is a subset of some element of $C_2$.
 
-* $C_1 \wedge C_2 = \{ A \cap B | A\in C_1, B\in C_2 \}$.  This is also a cover.
+* $C_1 \wedge C_2 \coloneqq \{ A \cap B \;|\; A \in C_1, B \in C_2 \}$; this is also a cover.
 
-* For $A\subseteq X$, $C[A] = \bigcup \{ B\in C | A\cap B$ is [[inhabited set|inhabited]] $}$.
+* For $A \subseteq X$, $C[A] \coloneqq \bigcup \{ B \in C \;|\; A \cap B$ is [[inhabited set|inhabited]] $}$.
 
-* $C^* = \{ C[A] | A\in C\}$.
+* $C^* \coloneqq \{ C[A] \;|\; A \in C\}$.
 
-We now define a **covering uniformity** on $X$ to be a collection of covers, called *uniform covers*, such that 
+We now define a **covering uniformity** on $X$ to be a collection of covers, called **uniform covers**, such that
 
 1. There exists a uniform cover; in light of axiom (4), it follows that the cover $\{X\}$ is a uniform cover.
 
-1. If $C_1, C_2$ are uniform covers, so is some cover that refines $C_1 \wedge C_2$. In light of axiom (4), it follows that $C_1 \wedge C_2$ is a uniform cover.
+2. If $C_1, C_2$ are uniform covers, so is some cover that refines $C_1 \wedge C_2$. In light of axiom (4), it follows that $C_1 \wedge C_2$ is a uniform cover.
 
-1. If $C$ is a uniform cover, there exists a uniform cover $C'$ such that $(C')^* \prec C$.
+3. If $C$ is a uniform cover, there exists a uniform cover $C'$ such that $(C')^* \prec C$.
 
-1. If $C$ is a uniform cover and $C\prec C'$, then $C'$ is a uniform cover.
+4. If $C$ is a uniform cover and $C \prec C'$, then $C'$ is a uniform cover.
 
-If $X$ is a uniform space defined in terms of entourages, we give it a covering uniformity by declaring a cover to be uniform if it is refined by $\{ U[x] | x\in X\}$ for some entourage $U$, where $U[x] = \{ y | (x,y)\in U \}$.  Note that this does not mean that a uniform cover "consists of $U$-sized sets" but only that it contains a subcover consisting of sets "no smaller than $U$".
+If $X$ is a uniform space defined in terms of entourages, we give it a covering uniformity by declaring a cover to be uniform if it is refined by $\{ U[x] \;|\; x \in X\}$ for some entourage $U$, where $U[x] \coloneqq \{ y \;|\; x \approx_U y \}$.  Note that this does not mean that a uniform cover "consists of $U$-sized sets" but only that it contains a subcover consisting of sets "no smaller than $U$".
 
-Conversely, given a covering uniformity, we define a base of entourages to consist of sets of the form $\bigcup \{ A\times A | A \in C\}$ for $C$ a uniform cover.  This defines a bijection between entourage uniformities and covering uniformities.
+Conversely, given a covering uniformity, we define a base of entourages to consist of sets of the form $\bigcup \{ A \times A \;|\; A \in C\}$ for $C$ a uniform cover.  This defines a bijection between entourage uniformities and covering uniformities.
 
-+--{: .query}
++-- {: .query}
 What is the covering-uniformity version of the constructive axiom (0)?
 =--
 
 
-### Completeness and separation
+### Further definitions
+
+We give these in terms of entourages, but they could also be given directly in terms of uniform covers if desired.
+
+The **uniform topology** induced by a uniformity is defined by taking the [[neighborhoods]] of a point $x$ to be sets of the form
+$$ U[x] \coloneqq \{ y \;:\; x \approx_U y \} $$
+where $U$ is an entourage. (Recall that a subset is [[open subset|open]] iff it is a neighborhood of every point that it contains.) We point out that different uniformities may give rise to the same topology (just as different metrics, even uniformly inequivalent ones, may give rise to the same topology).
+
+
+Given uniform spaces $X$ and $Y$, a [[function]] $f\colon X \to Y$ is said to be **[[uniformly continuous map|uniformly continuous]]** if for every entourage $V$ of $Y$, $(f \times f)^{-1}(V)$ is an entourage of $X$. Clearly, uniformly continuous functions are [[continuous map|continuous]] with respect to the corresponding uniform topologies, but the converse is false (although see below the discussion in the case where $X$ is [[compact space|compact]]). There is an obvious [[concrete category]] $Unif$ of uniform spaces and uniformly continuous maps.
+
 
 One feature of uniform space theory which is not available for general topological spaces is the possibility of taking (Cauchy) completions. The relevant definitions are straightforward:
 
-* A **Cauchy net** in a uniform space $X$ consists of a [[directed set]] $D$ and a function $f: D \to X$ such that for every entourage $U$, there exists $N \in D$ such that $(f(m), f(n)) \in U$ whenever $m, n \geq N$. (One can similarly define a **Cauchy filter**.  This definition makes a uniform space into a [[Cauchy space]].)
+* A **[[Cauchy net]]** in a uniform space $X$ consists of a [[directed set]] $D$ and a function $f\colon D \to X$ such that for every entourage $U$, there exists $N \in D$ such that $f(m) \approx_U f(n)$ whenever $m, n \geq N$. (One can similarly define a **Cauchy filter**.  This definition makes a uniform space into a [[Cauchy space]].)
 
-* A Cauchy net $f: D \to X$ **converges** to $x \in X$ if for every entourage $U$, there exists $N \in D$ such that $n \geq N \Rightarrow (x, f(n)) \in U$.  (This definition makes sense for arbitrary [[nets]] or [[filters]], but it can be proved that any convergent net is Cauchy.  This definition makes a uniform space into a [[convergence space]].)
+* A Cauchy net $f\colon D \to X$ **[[convergence|converges]]** to $x\colon X$ if for every entourage $U$, there exists $N \in D$ such that $n \geq N \;\Rightarrow\; x \approx_U f(n)$.  (This makes sense for arbitrary [[nets]] or [[filters]], but it can be proved that any convergent net is Cauchy.  This definition makes a uniform space into a [[convergence space]].)
 
-* A uniform space $X$ is **complete** if every Cauchy net/filter in $X$ converges (not necessarily to a unique point).
+* A uniform space $X$ is **[[complete space|complete]]** if every Cauchy net/filter in $X$ converges (not necessarily to a unique point).
 
 * A uniform space $X$ is **[[Hausdorff space|Hausdorff]]** or **separated** if every convergent net/filter converges to a unique point.  (This is a purely topological concept.)
 
 
-Every uniform space $X$ admits a Hausdorff completion $\overline{X}$, i.e., there is a uniformly continuous map $X \to \overline{X}$ (an embedding if $X$ is Hausdorff, dense in any case), characterized by the following universal property:
+Every uniform space $X$ admits a Hausdorff completion $\overline{X}$, i.e., there is a uniformly continuous map $X \to \overline{X}$ (an [[embedding]] if $X$ is Hausdorff, [[dense map|dense]] in any case), characterized by the following universal property:
 
-* Every uniformly continuous function $f: X \to Y$ to a complete Hausdorff uniform space $Y$ extends uniquely to a uniformly continuous $\overline{f}: \overline{X} \to Y$.
+* Every uniformly continuous map $f\colon X \to Y$ to a complete Hausdorff uniform space $Y$ extends uniquely to a uniformly continuous map $\overline{f}\colon \overline{X} \to Y$.
 
 In short, the category of complete Hausdorff uniform spaces is a [[reflective subcategory]] of $Unif$.
 
-You can also define a (not necessarily Hausdorff) completion of $X$ by replacing the image of $X$ in $\overline{X}$ by $X$ itself, but this does not have as nice properties; in particular, complete uniform spaces do not form a reflective subcategory of $Unif$.
+One can also define a (not necessarily Hausdorff) completion of $X$ by replacing the image of $X$ in $\overline{X}$ by $X$ itself, but this does not have as nice properties; in particular, complete uniform spaces do not form a reflective subcategory of $Unif$.
 
 
 ## Examples
 
-Every [[metric space]] (or more generally any pseudometric space) is a uniform space, with a base of uniformities indexed by positive numbers $\epsilon$.  (You can even get a countable base, using only those $\epsilon$ equal to $1/n$ for some integer $n$.)  Define $x \approx_\epsilon y$ to mean that $d(x,y) \lt \epsilon$ (or $d(x,y) \leq \epsilon$ if you prefer).  Then axiom (3) may be proved by using $\epsilon/2$; axiom (0) may be proved constructively by using any positive number less than $\epsilon$ and applying the [[comparison]] law.  Every quasi(pseudo)metric space is a quasiuniform space in the same way.  We can also generalise from metric spaces to [[gauge spaces]]; see under Variations below.
+Every [[metric space]] (or more generally any pseudometric space) is a uniform space, with a base of uniformities indexed by positive numbers $\epsilon$.  (You can even get a countable base, for example by using only those $\epsilon$ equal to $1/n$ for some integer $n$.)  Define $x \approx_\epsilon y$ to mean that $d(x,y) \lt \epsilon$ (or $d(x,y) \leq \epsilon$ if you prefer).  Then axiom (3) may be proved by using $\epsilon/2$; axiom (0) may be proved constructively by using any positive number less than $\epsilon$ and applying the [[comparison]] law.  (The other axioms are easy.)  Every quasi(pseudo)metric space is a quasiuniform space in the same way.  We can also generalise from metric spaces to [[gauge spaces]]; see under Variations below.
 
-Every [[topological group]] is a uniform space, with a base of uniformities indexed by neighbourhoods $U$ of the identity element, in two ways: left and right.  (These two ways agree for [[abelian groups]], of course; they also agree for [[compact group]]s, by the general theorem below for uniformities on [[compact spaces]].  I wonder if that has anything to do with Haar measure?)  In particular, any [[Banach space]] or [[Lie group]] is a uniform space.  Define $x \approx _U y$ to mean that $x \in y U$ (or $y \in x U$ for the other way).  Then axiom (3) may be proved by invoking the continuity of multiplication; axiom (0) cannot be proved constructively in general, although it can be proved for the classical examples of Lie groups and topological vector spaces (TVSs).
+Every [[topological group]] is a uniform space, with a base of uniformities indexed by neighbourhoods $U$ of the identity element, in two ways: left and right.  (These two ways agree for [[abelian groups]], of course; they also agree for [[compact group]]s, by the general theorem below for uniformities on [[compact spaces]].  I wonder if that has anything to do with [[Haar measure]]?)  In particular, any [[Banach space]] or [[Lie group]] is a uniform space.  Define $x \approx _U y$ to mean that $x \in y U$ (or $y \in x U$ for the other way).  Then axiom (3) may be proved by invoking the continuity of multiplication; axiom (0) cannot be proved constructively in general, although it can be proved for the classical examples of Lie groups and [[topological vector spaces]] (TVSs).
 
-These are in a way the motivating examples.  The theory of uniformly continuous functions was developed first for metric spaces, but it was noticed that, for a metrisable TVS, it could be described entirely in terms of the topology and the addition, which immediately generalised to non-metrisable TVSs.  The theory of uniform spaces covers both of these (and their generalisations to pseudometric spaces and topological groups) at once.
+These are in a way the motivating examples.  The theory of uniformly continuous maps was developed first for metric spaces, but it was noticed that, for a metrisable TVS, it could be described entirely in terms of the topology and the addition, which immediately generalised to non-metrisable TVSs.  The theory of uniform spaces covers both of these (and their generalisations to pseudometric spaces and topological groups) at once.
 
 
 ## Basic Results
 
 A first wave of results concerns [[separation axioms]]:
 
-* Considered as topological spaces, uniform spaces are [[regular topological space|regular]] and (more profoundly) [[completely regular topological space|completely regular]].
+* Considered as topological spaces, uniform spaces are [[regular space|regular]] and (more profoundly) [[completely regular space|completely regular]].
 
-As a matter of fact, a significant theorem is that a topology is the uniform topology for some uniformity if and only if it is completely regular.  See also the discussion below on the relation with metric and pseudometric spaces.
+As a matter of fact, a significant theorem is that a topology (on a given set) is the uniform topology for some uniformity if and only if it is completely regular.  See also the discussion below on the relation with metric and pseudometric spaces.
 
-* For a uniform space, the following separation conditions are equivalent: $T_0$ (the topology distinguishes points), $T_1$ (points are closed), $T_2$ ([[Hausdorff topological space|Hausdorff]]), $T_3$ (regular Hausdorff), $T_{3\frac1{2}}$ (completely regular Hausdorff). Of course, this follows from the fact that it is completely regular.
+* For a uniform space, the following separation conditions are equivalent: $T_0$ (the topology distinguishes points), $T_1$ (points are closed), $T_2$ ([[Hausdorff space|Hausdorff]]), $T_3$ (regular Hausdorff), $T_{3\frac1{2}}$ (completely regular Hausdorff). Of course, this follows from the fact that it is completely regular.
 
-* The category $Unif$ of uniform spaces admits arbitrary small [[products]] (which are preserved by the forgetful functors to [[Top]] and to [[Set]]). Hence it is not generally true that uniform spaces are [[normal space|normal]] (so that separated ones would be $T_4$), because for instance an uncountable power of the real line with its usual topology is not a normal space.
+* The category $Unif$ of uniform spaces admits arbitrary small [[products]] (which are preserved by the forgetful functors to [[Top]] and to [[Set]]). Hence it is not generally true that uniform spaces are [[normal space|normal]] (so that separated ones would be $T_4$), because for instance an uncountable power of the [[real line]] (with its usual topology) is not a normal space.
 
 A second wave of results relates uniform spaces to [[pseudometric spaces]] (like metric spaces, but dropping the separation axiom that $d(x, y) = 0$ implies $x = y$):
 
@@ -132,7 +137,7 @@ Finally, we mention the special case of compact spaces:
 
 * A [[compact Hausdorff space]] $X$ admits a unique uniformity whose corresponding topology is the topology of $X$. The entourages of this uniformity are precisely the neighborhoods of the diagonal in $X \times X$.
 
-It follows then that if $X, Y$ are uniform spaces with $X$ compact Hausdorff and if $f: X \to Y$ is continuous, then $f$ is uniformly continuous.
+It follows then that if $X, Y$ are uniform spaces with $X$ compact Hausdorff and if $f\colon X \to Y$ is continuous, then $f$ is uniformly continuous.
 
 
 ## Variations
@@ -143,7 +148,7 @@ Some authors insist that a uniform space must be separated; this can be arranged
 
 This makes the discussion of completions slightly simpler.
 
-If the symmetry axiom (2) is dropped, then the result is a __quasiuniform space__.  Quasiuniform spaces are related to quasi(pseudo)metrics in the same way as uniform spaces are related to (psuedo)metrics.  Perhaps surprisingly, *every* topological space is quasiuniformisable.
+If the symmetry axiom (2) is dropped, then the result is a __quasiuniform space__.  Quasiuniform spaces are related to quasi(pseudo)metrics in the same way as uniform spaces are related to (psuedo)metrics.  Perhaps surprisingly, *every* topological space is quasiuniformisable.  (There does not seem to be a way to define quasiuniform spaces in terms of (quasi)uniform covers.)
 
 A __[[gauge space]]__ consists of a set $X$ and a collection $\mathcal{D}$ of pseudometrics on $X$; one usually requires $\mathcal{D}$ to be a [[filter]].  A gauge space defines a uniform space by taking one basic entourage for each pseudometric in $\mathcal{D}$ and each positive number $\epsilon$; conversely, every uniform space arises in this way, with the pseudometrics in the gauge being those that are uniformly continuous as maps on the product space.  However, gauge spaces form a category with a stricter notion of morphism, in which the categories $Met$ (of [[metric spaces]] and short maps) and $Unif$ (of uniform spaces and uniformly continuous maps) are both [[full subcategories]].  A __quasigauge space__ consists of a set and a collection of quasipseudometrics; every quasiuniform space arises from a quasigauge space.
 
@@ -158,7 +163,7 @@ The really critical axioms are (1--3): a collection of binary relations which sa
 
 We draw particular attention to axiom (3), which may be called an "$\frac{\varepsilon}{2}$" principle. It generalizes a principle familiar from analysis in metric spaces, where one establishes $d(x, z) \lt \varepsilon$ by showing there exists $y$ such that $d(x, y) \lt \frac{\varepsilon}{2}$ and $d(y, z) \lt \frac{\varepsilon}{2}$, and applying the triangle inequality. The utility of this principle for metric spaces, extrapolated in this way, gives uniform spaces much of their power.
 
-For full power in [[constructive mathematics]], we also need axiom (0), which may similarly be called a "something less than $\varepsilon$" principle (i.e. for any $\varepsilon$ there is a smaller $\varepsilon'$ such that two points are either $\varepsilon$-close or $\varepsilon'$-far).  Axioms (0) and (3) can actually be combined into a single statement, as you might expect since $\frac{\varepsilon}{2} \lt \epsilon$, but that makes the intuition less clear.
+For full power in [[constructive mathematics]], we also need axiom (0), which may similarly be called a "something less than $\varepsilon$" principle (i.e., for any $\varepsilon$ there is a smaller $\varepsilon'$ such that any two points are either $\varepsilon$-close or $\varepsilon'$-far).  Axioms (0) and (3) can actually be combined into a single statement, as you might expect since $\frac{\varepsilon}{2} \lt \epsilon$, but that makes the intuition less clear.
 
 Axiom (1) is a nullary version of axiom (3); together they prove that, given any entourage $U$ and any integer $n \geq 0$, there exists an entourage $V$ whose $n$-fold composite is contained in $U$. The symmetry axiom then allows one to take the opposite of $V$ at any point in the composite as well.
 
@@ -180,14 +185,21 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 ## References
 
 *  A. Weil, _Sur les espaces &#224; structure uniforme et sur la topologie g&#233;n&#233;rale_, Actualit&#233;s Sci. Ind. 551, Paris, (1937).
+
 * John Kelley, _General Topology_, GTM 27, 1955.
+
 * Eric Schechter, _[[Handbook of Analysis and its Foundations]]_.
+
 * Warren Page, _Topological Uniform Structures_, Dover
+
 * I.M. James, _Topologies and Uniformities_, Springer
+
 * Norman Howes, _Modern Analysis and Topology_, Springer
 
 
 [[!redirects uniform space]]
 [[!redirects uniform spaces]]
+[[!redirects uniform structure]]
+[[!redirects uniform structures]]
 [[!redirects uniformity]]
 [[!redirects uniformities]]
