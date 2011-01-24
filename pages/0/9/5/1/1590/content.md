@@ -41,6 +41,10 @@ There are also 2-monads that specify [[property-like structure]].  For instance,
 
 2-monads (particularly on [[Cat]]) are also sometimes called [[doctrine]]s, with the intuition in mind that they are an "algebraic theory" of structure on a category just as a monad (on $Set$) is an [[algebraic theory]] of structure on a set.  However, this use of terminology is arguably at variance with the original intuitive meaning of "doctrine."
 
+## Remarks
+
+* A strict 2-monad $T$ has an underlying [[monad]] $T_0$, such that strict $T$-algebras and strict $T$-morphisms are the same as $T_0$-algebras and $T_0$-morphisms.  (This is a special case of the the general theory of underlying ordinary categories for [[enriched categories]].)  Moreover, if a strict 2-category $A$ admits [[powers]] or [[copowers]] with the [[interval category]], then any monad on its underlying ordinary category $A_0$ has at most one enrichment to a strict 2-monad.  Thus, in this case "being a 2-monad" is a mere [[property]] of a monad; see the "unicity" paper of John Power below.
+
 ## Related concepts
 
 * [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
@@ -57,6 +61,7 @@ There are also 2-monads that specify [[property-like structure]].  For instance,
 * G.M. Kelly and S. Lack, _On property-like structures_, Theory and Applications of Categories 3 (1997) 213--250.  &lt;http://www.tac.mta.ca/tac/volumes/1997/n9/3-09abs.html>
 * S. Lack, _Codescent objects and coherence_, JPAA 175 (2002), 223--241.
 * I. J. Le Creurer, F. Marmolejo, E. M. Vitale, _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra 173 (2002), no. 3, 293--313. 
+* [[John Power]], *Unicity of enrichment over Cat or Gpd*, Appl. Categ. Struct. 2009, 1--7.
 
 [[!redirects strict 2-monad]]
 [[!redirects weak 2-monad]]
