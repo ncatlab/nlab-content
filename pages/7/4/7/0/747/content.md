@@ -923,7 +923,60 @@ Here $L \simeq \mathbb{L} Id$ is the left [[derived functor]] of the identity fo
 =--
 
 
+## Inclusion of chain complexes of sheaves {#InclusionOfChainComplexes}
 
+We discuss how [[chain complex]]es of presheaves of [[abelian group]]s
+embed into the model structure on simplicial presheaves. Under passing to the intrinsic [[cohomology]] of the [[(∞,1)-topos]]
+[presented by](#PresentationOfInfiniToposes) by $[C^{op}, sSet]_{loc}$, this realizes traditional [[abelian sheaf cohomology]] over $C$ and generalizes it to general base objects.
+
+Observe from the discussion at [[model structure on simplicial abelian groups]] that the degreewise [[free functor]]-[[forgetful functor]] [[adjunction]] $(F \dashv U) : Ab \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} Set$ (see [[algebra over a Lawvere theory]] for details) induces a [[Quillen adjunction]]
+
+$$
+  (F \dashv U) : 
+ sAb_{Quillen } 
+   \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} 
+  sSet_{Quillen}
+$$
+
+between the [[model structure on simplicial abelian groups]] and the 
+standard [[model structure on simplicial sets]], which exhibits
+$sAb_{Quillen}$ as the corresponding [[transferred model structure]].
+
+Moreover, the [[Dold-Kan correspondence]] constitutes in particular a [[Quillen equivalence]]
+
+$$
+  (N_\bullet \dashv \Gamma) 
+   : 
+  Ch_\bullet^+_{proj} 
+   \stackrel{\overset{N_\bullet}{\leftarrow}}{\underset{\Gamma}{\to}} 
+  sAb_{Quillen}
+$$
+
+between the projective [[model structure on chain complexes]] of [[abelian group]]s in non-negative degree and simplicial abelian groups.
+
+We write
+
+$$
+  (N_\bullet F \dashv \Xi) 
+  : 
+  Ch_\bullet^+_{proj} 
+   \stackrel{\overset{N_\bullet}{\leftarrow}}{\underset{\Gamma}{\to}} 
+  sAb_{Quillen}
+   \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} 
+  sSet_{Quillen}  
+$$
+
+for the composite [[Quillen adjunction]]. For $C$ any [[category]], postcomposition with $\Xi$ induces a Quillen adjunction 
+
+$$
+  (N_\bullet F \dashv \Xi)
+  : 
+  [C^{op}, Ch_\bullet^+_{proj}]_{proj}
+   \stackrel{\overset{N_\bullet F}{\leftarrow}}{\underset{\Xi}{\to}}
+  [C^{op}, sSet]_{proj}
+$$
+
+between the projective [[model structure on functors]] $[C^{op}, Ch_\bullet^+_{proj}]_{proj}$ and  the global projective model structure on simplicial presheaves, which by convenient abuse of notation we denote by the same symbols.
 
 
 
