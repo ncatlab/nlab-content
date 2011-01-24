@@ -214,6 +214,8 @@ $$
 ## Properties
 
 
+### General
+
 +-- {: .un_prop}
 ###### Proposition
 
@@ -283,31 +285,69 @@ $$
 
 ### Model category presentation
 
-+-- {: .un_remark}
-###### Remark
++-- {: .un_def}
+###### Definition
 
+Let $[CartSp^{op}, sSet]_{proj}$ be the projective [[model structure on simplicial presheaves]] over [[CartSp]]${}_{smooth}$. This is naturally a [[simplicial model category]].
 
-By the discussion at [Cech localizaton at a coverage](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#LocalizationAtCoverage) this is modeled by the [[Bousfield localization of model categories|left Bousfield localization]] of $[CartSp^{op}, sSet]_{proj}$ at [[Cech nerve]]s of [[covering]] families.
+Let $W = \{C(\{U_i\}) \to U\}$ be the set of [[Cech nerve]] projections in $[CartSp^{op}, sSet]$ for each [[covering]] $\{U_i \to U\}$ in [[CartSp]].
+
+Write
 
 $$
-  \array{
-    Sh_{(\infty,1)}(CartSp) &\stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}&
-    PSh_{(\infty,1)}(CartSp)
-    \\
-    \uparrow^{\simeq} && \uparrow^{\simeq}
-    \\
-    ([CartSp^{op}, sSet]_{proj,cov})^\circ
-    &\stackrel{\overset{\mathbb{L} Id}{\leftarrow}}{\underset{\mathbb{R} Id}{\to}}&
-    ([CartSp^{op}, sSet]_{proj})^{\circ}
-  }
-  \,.
+  (Id \dashv Id)
+  : 
+  [CartSp^{op}, sSet]_{proj,loc}
+  \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
+  [CartSp^{op}, sSet]_{proj,loc}
 $$
+
+be te [[Bousfield localization of model categories|left Bousfield localization]] at $W$.
+
+Write $([CartSp^{op}, sSet]_{proj})^\circ$ for the full sub-[[simplicially enriched category]] on the fibrant-cofibrant objects, similarly for
+$([CartSp^{op}, sSet]_{proj,loc})^\circ$.
 
 =--
 
++-- {: .un_prop #PresentationOfTheInfinTopos}
+###### Proposition
 
-+-- {: .un_lemma}
-###### Lemma
+We have an [[equivalence of (∞,1)-categories]]
+
+$$
+  \array{
+    Smooth \infty Grpd := & Sh_{(\infty,1)}(CartSp)
+    &\stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}& 
+    PSh_{(\infty,1)}(CartSp)
+    \\
+    \uparrow^{\mathrlap{\simeq}} &&
+    \uparrow^{\mathrlap{\simeq}}
+    \\
+    ([CartSp^{op}, sSet]_{proj,loc})^\circ
+    &
+      \stackrel{\overset{\mathbb{L} Id}{\leftarrow}}{\underset{\mathbb{R}Id}{\to}}
+    &
+    ([CartSp^{op}, sSet]_{proj})^\circ
+  \,,
+$$
+
+where at the bottom we have the left and right [[derived functor]]s of the identity functors, as discussed at [[simplicial Quillen adjunction]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the general discussion at [[model structure on simplicial presheaves]].
+See also [[models for ∞-stack (∞,1)-toposes|models for (∞,1)-sheaf (∞,1)-toposes]].
+
+=--
+
+We record some standard constructions in the model category presentation
+that will be used frequently in the proofs below.
+
++-- {: .un_prop}
+###### Proposition
 
 Let $X$ be a [[smooth manifold]], regarded as an object in $sPSh(C)$. Let $\{U_i \to X\}$ be a [[good open cover]] of $X$ and $C(\{U_i\})$ the corresponding [[Cech nerve]]. Then 
 
@@ -343,21 +383,51 @@ Moreover, since the cover is _good_ the Cech nerve $C(\{U_i\})$ is degreewise a 
 
 =--
 
-+-- {: .un_remark}
-###### Remark
 
-This fact related to the classical [[nerve theorem]] which asserts that the simplicial set obtained by contracting in $C(\{U_i\})$ all copies of [[Cartesian space]]s to the point is a model for the [[homotopy type]] of $X$.
++-- {: .un_prop}
+###### Proposition
 
-More on that below in the discussion of $Sh_{(\infty,1)}(CartSp)$ as a [[locally ∞-connected (∞,1)-topos]].
+Let $F : D \to [CartSp^{op}, sSet]$ be a [[finite limit|finite]] diagram.
+
+Write $\mathb{R}_{glob}\lim_{\leftarrow} F \in [CartSp^{op}, sSet]$ for any representative of the [[homotopy limit]] over $F$ computed in the global model structure $[CartSp^{op}, sSet]_{proj}$, well defined up to [[isomorphism]] in the [[homotopy category]]. 
+
+Then $\mathb{R}_{glob}\lim_{\leftarrow} F$ presents also the [[homotopy limit]] of $F$ computed in the local model structure $[CartSp^{op}, sSet]_{proj,loc}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[(∞,1)-limit]] the [[homotopy limit]] 
+$\mathbb{R}\lim_{\leftarrow}$ computes the corresponding [[(∞,1)-limit]]
+and [[(∞,1)-sheafification]] $L $ is a left
+[[exact (?.1)-functor]] and preserves these finite [[(∞,1)-limit]]s:
+
+$$
+  \array{
+     ([D, [CartSp^{op}, sSet]_{proj}]_{proj})^\circ
+     &\stackrel{L_*}{\leftarrow}&
+     ([D, [CartSp^{op}, sSet]_{proj}]_{inj})^\circ
+     \\
+     \downarrow^{\mathrlap{\mathbb{R} \lim_\leftarrow}}
+     &&
+     \downarrow^{\mathrlap{\mathbb{R} \lim_\leftarrow}}
+     \\
+     ([CartSp^{op}, sSet]_{proj})^\circ
+     &\stackrel{L \simeq \mathbb{L} Id}{\leftarrow}&
+     ([CartSp^{op}, sSet]_{proj})^\circ
+  }
+ \,.
+$$
+
+Here $L \simeq \mathbb{L} Id$ is the left [[derived functor]] of the identity for the [above](#PresentationOfTheInfinTopos) left Bousfield localization. Since left Bousfield localization does not change the cofibrations and includes the global weak equivalences into the local weak equivalences, the postcomposition of the diagram $F$ with $\mathbb{L} Id$ is given by cofibrant replacement in the local structure, too. But the [[homotopy limit]] of the diagram is invariant, up to equivalence, under cofibrant replacement, and hence a finite homotopy limit diafram in the global structure is also one in the local structure.
 
 =--
 
 
-
-
 ## Structures in the cohesive $(\infty,1)$-topos $Smooth \infty Grpd$ {#InfSheavesOnCartSp}
 
-We discuss the general abstractt 
+We discuss the general abstract 
 <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesivbe (∞,1)-topos</a> realized in $Smooth \infty Grpd$.
 
 
@@ -377,7 +447,29 @@ $$
 
 =--
 
-(...)
++-- {: .proof}
+###### Proof
+
+Let $X \in Sh(CartSp) \hookrightarrow Smooth \infty Grpd$ be a [[sheaf]] on $CartSp$. The condition for it to be concrete is that the 
+
+$$
+  X \to coDisc \Gamma X
+$$
+
+is a [[monomorphism]]. Since monomorphisms of sheaves are detected objectwise (see [[category of sheaves]]) this is equivalent to the statement that for all $U \in CartSp$ the morphism
+
+$$
+  X(U) \simeq Smooth\infty Grpd(U, X) \to Smooth \infty Grpd(U, coDisc \Gamma X)
+  \simeq
+  \infty Grpd(\Gamma U, \Gamma X)
+$$
+
+is a monomorphism of sets, where in the first step we used the [[(∞,1)-Yoneda lemma]] and in the last one the $(\Gamma \dashv coDisc)$-[[adjunction]]. This is manifestly the defining condition for [[concrete sheaves]] that define [[diffeological space]]s.
+
+
+=--
+
+
 
 ### Geometry and structure sheaves {#StrucGeometry}
 
