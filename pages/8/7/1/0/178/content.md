@@ -251,7 +251,7 @@ This is discussed in detail at [[good open cover]].
 
 =--
 
-+-- {: .un_prop}
++-- {: .un_prop #SmoothManifoldEmbeds}
 ###### Proposition
 
 The [[(∞,1)-topos]] $Smooth \infty Grpd$ is equivalent to the [[hypercompletion]] $\hat Sh_{(\infty,1)}(SmoothMfg)$ of the [[(∞,1)-category of (∞,1)-sheaves]] on the large site [[SmoothMfd]]
@@ -299,10 +299,10 @@ $$
   : 
   [CartSp^{op}, sSet]_{proj,loc}
   \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
-  [CartSp^{op}, sSet]_{proj,loc}
+  [CartSp^{op}, sSet]_{proj}
 $$
 
-be te [[Bousfield localization of model categories|left Bousfield localization]] at $W$.
+be the [[Bousfield localization of model categories|left Bousfield localization]] at $W$.
 
 Write $([CartSp^{op}, sSet]_{proj})^\circ$ for the full sub-[[simplicially enriched category]] on the fibrant-cofibrant objects, similarly for
 $([CartSp^{op}, sSet]_{proj,loc})^\circ$.
@@ -339,7 +339,6 @@ where at the bottom we have the left and right [[derived functor]]s of the ident
 ###### Proof
 
 By the general discussion at [[model structure on simplicial presheaves]].
-See also [[models for ∞-stack (∞,1)-toposes|models for (∞,1)-sheaf (∞,1)-toposes]].
 
 =--
 
@@ -383,46 +382,24 @@ Moreover, since the cover is _good_ the Cech nerve $C(\{U_i\})$ is degreewise a 
 
 =--
 
++-- {: .un_prop #DoldKanInclusion}
+###### Observation
 
-+-- {: .un_prop}
-###### Proposition
+The [[Dold-Kan correspondence]] induces a [[Quillen adjunction]]
 
-Let $F : D \to [CartSp^{op}, sSet]$ be a [[finite limit|finite]] diagram.
+$$
+  (N_\bullet F \dashv \Xi)
+  : 
+  [C^{op}, Ch_\bullet^+_{proj}]_{proj}
+   \stackrel{\overset{N_\bullet F}{\leftarrow}}{\underset{\Xi}{\to}}
+  [C^{op}, sSet]_{proj}
+$$
 
-Write $\mathb{R}_{glob}\lim_{\leftarrow} F \in [CartSp^{op}, sSet]$ for any representative of the [[homotopy limit]] over $F$ computed in the global model structure $[CartSp^{op}, sSet]_{proj}$, well defined up to [[isomorphism]] in the [[homotopy category]]. 
-
-Then $\mathb{R}_{glob}\lim_{\leftarrow} F$ presents also the [[homotopy limit]] of $F$ computed in the local model structure $[CartSp^{op}, sSet]_{proj,loc}$.
+that embeds presheaves of chain complexes of abelian groups into all simplicial presheaves.
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-By the discussion at [[(∞,1)-limit]] the [[homotopy limit]] 
-$\mathbb{R}\lim_{\leftarrow}$ computes the corresponding [[(∞,1)-limit]]
-and [[(∞,1)-sheafification]] $L $ is a left
-[[exact (?.1)-functor]] and preserves these finite [[(∞,1)-limit]]s:
-
-$$
-  \array{
-     ([D, [CartSp^{op}, sSet]_{proj}]_{proj})^\circ
-     &\stackrel{L_*}{\leftarrow}&
-     ([D, [CartSp^{op}, sSet]_{proj}]_{inj})^\circ
-     \\
-     \downarrow^{\mathrlap{\mathbb{R} \lim_\leftarrow}}
-     &&
-     \downarrow^{\mathrlap{\mathbb{R} \lim_\leftarrow}}
-     \\
-     ([CartSp^{op}, sSet]_{proj})^\circ
-     &\stackrel{L \simeq \mathbb{L} Id}{\leftarrow}&
-     ([CartSp^{op}, sSet]_{proj})^\circ
-  }
- \,.
-$$
-
-Here $L \simeq \mathbb{L} Id$ is the left [[derived functor]] of the identity for the [above](#PresentationOfTheInfinTopos) left Bousfield localization. Since left Bousfield localization does not change the cofibrations and includes the global weak equivalences into the local weak equivalences, the postcomposition of the diagram $F$ with $\mathbb{L} Id$ is given by cofibrant replacement in the local structure, too. But the [[homotopy limit]] of the diagram is invariant, up to equivalence, under cofibrant replacement, and hence a finite homotopy limit diafram in the global structure is also one in the local structure.
-
-=--
+See <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#InclusionOfChainComplexes">model structure on simplicial presheaves -- inclusion of chain complexes of presheaves</a>.
 
 
 ## Structures in the cohesive $(\infty,1)$-topos $Smooth \infty Grpd$ {#InfSheavesOnCartSp}
@@ -433,10 +410,14 @@ We discuss the general abstract
 
 ### Concrete objects {#StrucConcreteObjects}
 
+We discuss the general abstract notion of 
+<a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ConcreteObjects">concrete objects in a cohesive (∞,1)-topos</a> in 
+$Smooth \infty Grpd$.
+
 +-- {: .un_prop}
 ###### Proposition
 
-Write $Conc(\tau_{\leq 0} Smooth \infty Grpd)$ for the full [[subcategory]] on the [[concrete sheaf|concrete]] [[n-truncated|0-truncated]] objects. This is equivalent to the category of [[diffeological space]]s
+Write $Conc(\tau_{\leq 0} Smooth \infty Grpd)$ for the full [[subcategory]] on the [[concrete sheaf|concrete]] [[0-truncated]] objects. This is [[equivalence of categories|equivalent]] to the category of [[diffeological space]]s
 
 $$
   DiffeologicalSpaces 
@@ -446,6 +427,7 @@ $$
 $$
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
@@ -466,7 +448,6 @@ $$
 
 is a monomorphism of sets, where in the first step we used the [[(∞,1)-Yoneda lemma]] and in the last one the $(\Gamma \dashv coDisc)$-[[adjunction]]. This is manifestly the defining condition for [[concrete sheaves]] that define [[diffeological space]]s.
 
-
 =--
 
 
@@ -474,6 +455,7 @@ is a monomorphism of sets, where in the first step we used the [[(∞,1)-Yoneda 
 ### Geometry and structure sheaves {#StrucGeometry}
 
 (...)
+
 
 ### Cohesive $\infty$-groups {#StrucInfinGroups}
 
@@ -680,8 +662,8 @@ In conclusion we find that for determining the $\infty$-stack condition for _str
 
 #### Lie groups {#LieGroups}
 
-Let $G$ be a [[Lie group]]. Under the embedding 
-$SmoothMfd \hookrightarrow Smooth \infty Grpd$ this is canonically identifed as a  [[0-truncated]] [[∞-group]] object in smooth $\infty$-groupoids.
+Let $G$ be a [[Lie group]]. Under the [embedding](#SmoothManifoldEmbeds) 
+$SmoothMfd \hookrightarrow Smooth \infty Grpd$ this is canonically identifed as a  [[0-truncated]] [[∞-group]] object in $Smooth \infty Grpd$.
 Write $\mathbf{B}G \in Smooth \infty Grpd$ for the corresponding 
 [[delooping]] object.
 
@@ -699,7 +681,7 @@ $$
   (G \stackrel{\to}{\to} * ) 
 $$
 
-regarded as a [[simplicial manifold]] and canonically embedding into 
+regarded as a [[simplicial manifold]] and canonically embedded into 
 simplicial presheaves.
 
 =--
@@ -709,11 +691,12 @@ simplicial presheaves.
 
 The presheaf is clearly objectwise a [[Kan complex]], being objectwise
 the nerve of a groupoid. It satisfies [[descent]] along [[good open cover]]s
-$\{U_i \to \mathbb{R}^n\}$ of [[Cartesian space]]s, because the descent $\infty$-groupoid $sPSh(C(\{U_i\}), \mathbf{B}G)$ is $G Bund(\mathbb{R}^n) \simeq G TrivBund(\mathbb{R}^n)$. 
+$\{U_i \to \mathbb{R}^n\}$ of [[Cartesian space]]s, because the descent $\infty$-groupoid $[CartSp^{op}, sSet](C(\{U_i\}), \mathbf{B}G)$ is $G Bund(\mathbb{R}^n) \simeq G TrivBund(\mathbb{R}^n)$. 
 
 To show that $\mathbf{B}G$ is indeed the [[delooping]] object of $G$
-it is sufficient, due to the fact that fact that [[∞-stackification]] preserves finite limits to exhibit a [[homotopy pullback]] 
-$G \simeq * \times_{\mathbf{B}G} *$ in $[CartSp^{op}, sSet]_{proj}$.
+it is sufficient (by the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#HomotopyLimits">model structure on simplicial presheaves -- homotopy limits</a>)
+to compute the [[homotopy pullback]] 
+$G \simeq * \times_{\mathbf{B}G} *$ in the global structure $[CartSp^{op}, sSet]_{proj}$.
 
 This is accomplished by the ordinary [[pullback]] of the 
 fibrant replacement diagram 
@@ -770,13 +753,12 @@ $$
   U(1) = S^1 = \mathbb{R}/\mathbb{Z}
 $$ 
 
-for the [[abelian group|abelian]] [[Lie group]] called the [[circle group]] or 1-dimensional [[unitary group]], regarded as a [[0-truncated]] [[∞-group]] object in $Smooth\infty Grpd$ under the embedding $SmoothMfd \hookrightarrow Smooth \infty Grpd$.
+for the [[abelian group|abelian]] [[Lie group]] called the 
+_[[circle group]]_ or _1-dimensional [[unitary group]]_ , regarded as a [[0-truncated]] [[∞-group]] object in $Smooth\infty Grpd$ under the [embedding](#SmoothManifoldEmbeds) $SmoothMfd \hookrightarrow Smooth \infty Grpd$.
 
-For $n \in \mathbb{N}$ the $n$-fold [[delooping]] $\mathbf{B}^n U(1) \in Smooth \infty Grpd$ we call the cicle **Lie $(n+1)$-group**.
+For $n \in \mathbb{N}$ the $n$-fold [[delooping]] $\mathbf{B}^n U(1) \in Smooth \infty Grpd$ we call the circle **Lie $(n+1)$-group**.
 
 =--
-
-Write $\Xi : Ch_\bullet^\to \to sAb \to sSet$ for the [[Dold-Kan correspondence]] functor postcomposed with the [[forgetful functor]] from [[abelian group|abelian]] [[simplicial group]]s to their underlying [[simplicial set]] and with convenient abuse of notation use the same symbols for its prolongation $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sSet]$ to presheaves.
 
 Write 
 
@@ -787,6 +769,8 @@ $$
 $$
 
 for the [[chain complex]] of sheaves concentrated in degree $n$ on $U(1)$.
+
+Recall the right Quillen functor $\Xi : [CartSp^{op}, Ch_\bullet^+] \to [CartSp^{op}, sSet]$ from [above](#DoldKanInclusion).
 
 +-- {: .un_theorem }
 ###### Theorem
@@ -799,9 +783,10 @@ of the circle Lie $(n+1)$-group $\mathbf{B}^n U(1)$.
 +-- {: .proof}
 ###### Proof
 
-First notice that $\Xi U(1)[n]$ is degreewise a [[Kan complex]] hence fibrant in the global model structure $[CartSp^{op}, sSet]_{proj}$. Since [[(∞,1)-pullback]]s of [[(∞,1)-sheaves]] are computes on the level of [[(∞,1)-presheaves]], we may check the statement about the delooping in the global model structure.
+First notice that $\Xi U(1)[n]$ is degreewise a [[Kan complex]] hence fibrant in the global model structure $[CartSp^{op}, sSet]_{proj}$. 
+We may compute the [[homotopy pullback]] that defines the [[loop space object]] in the global model structure (by the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#HomotopyLimits">model structure on simplicial presheaves -- homotopy (co)limits</a>) we may check the statement about the delooping in the global model structure.
 
-Take a fibration [[resolution]] of the point inclusion $* \to \Xi(U(1)[n])$ given by
+Consider the global fibration [[resolution]] of the point inclusion $* \to \Xi(U(1)[n])$ given by
 
 $$
   \array{
@@ -814,7 +799,7 @@ $$
   \,.
 $$ 
 
-The underlying morphism of chain complexes is clearly surjective, hence a projective fibration, hence its image under $\Xi$ is a projective fibration. So the [[homotopy pullback]] in question is the ordinary [[pullback]]
+The underlying morphism of chain complexes is clearly degreewise surjective, hence a projective fibration, hence its image under $\Xi$ is a projective fibration. So the [[homotopy pullback]] in question is the ordinary [[pullback]]
 
 $$
   \array{
@@ -1696,14 +1681,14 @@ Same proof as of the analogous statement at [[ETop∞Grpd]].
 #### With coefficients in ${\mathbf{B}^n U(1)}$ 
 
 Let $\mathbf{B}^n U(1)$ be the circle $(n+1)$-Lie group
-as discussed [above](#CircleLienGroup). Recall the notion and 
+as discussed [above](#CircleLienGroup). Recall the notation and 
 model category presentations as discussed there.
 
 +-- {: .un_prop #FlatCohomologyWithCoeffsInCircle}
 ###### Proposition
 
 For $n \geq 1$ a fibration presentation in $[CartSp^{op}, sSet]_{proj}$ of the 
-canonical morphism $\mathbf{\flat} \mathbf{B}^n U(1) \to \mathb{B}^n U(1)$
+canonical morphism $\mathbf{\flat} \mathbf{B}^n U(1) \to \mathbb{B}^n U(1)$
 in $Smooth \infty Grpd$ is given by the image under $\Xi : [CartSp^{op}, Ch_\bullet^+] \to [CartSp^{op}, sSet]$ of
 
 $$
@@ -1731,7 +1716,7 @@ of $\mathbf{\flat} \mathbf{B}^n U(1)$:
 
 By the discussion at [[∞-cohesive site]] we have that $\mathbf{\flat} = Disc \Gamma$ is given on fibrant objects by first evaluating on the point and then extending back to a constant simplicial presheaf. By the [above discussion](#CircleLienGroup) we have that $\Xi U(1)[n]$ is indeed fibrant, and so a fibrant presentation of $\mathbf{\flat} \mathbf{B}^n U(1)$ is given by the _constant_ presheaf $U(1)_{const} [n] : U \mapsto U(1)[n]$.
 
-The inclusion $U(1)_{const}[n] \to U(1)[n]$ is not yet a fibration. But by a basic fact of [[abelian sheaf cohomology]] -- using the [[Poincare lemma]] -- we have a global weak equivalence $U(1)_{const} \stackrel{\simeq}{\to} [C^\infty(-,U(1)) \stackrel{d_{dR}}{\to} \cdots \stackel{d_{dR}}{\to} \Omega^n_{cl}(-)]$ that factors this inclusion by the above fibration.
+The inclusion $U(1)_{const}[n] \to U(1)[n]$ is not yet a fibration. But by a basic fact of [[abelian sheaf cohomology]] -- using the [[Poincare lemma]] -- we have a global weak equivalence $U(1)_{const} \stackrel{\simeq}{\to} [C^\infty(-,U(1)) \stackrel{d_{dR}}{\to} \cdots \stackrel{d_{dR}}{\to} \Omega^n_{cl}(-)]$ that factors this inclusion by the above fibration.
  
 =--
 
@@ -1895,43 +1880,6 @@ $$
 
 There are some issues here with finding the right cofibrant replacement of this diagram that computes the correct $(\infty,1)$-pushout by an ordinary pushout in $[CartSp^{op}, sSet]$. We describe now some ordinary such pushout, and discuss its relation to the proper $(\infty,1)$-pushout later.
 
-+-- {: .un_prop }
-###### Proposition
-
-For $X : CartSp^{op} \to Set$ a sheaf, write
-
-$$
-  {\tilde \mathbf{\Pi}}(X) : U \mapsto 
-  Hom(U \times \Delta^\bullet_{Diff}, X)
-$$
-
-for the simplicial presheaf of paths in $X$. (By the discussion at [[schreiber:path ∞-groupoid]] this is constructed similar to the path model for $\mathbf{\Pi}(X)$, but without any cofibrant replacement thrown in.)
-
-Then the pushout
-
-$$
-  \array{
-    \mathbf{\flat}_{dR} \mathbf{B}G &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathbf{\Pi}\mathbf{\flat}_{dR} \mathbf{B}G &\to&
-    \exp(\mathfrak{g})
-  }
-$$
-
-is the presheaf
-
-$$
-  \exp(\mathfrak{a}) : 
-  U \mapsto 
-  Hom_{dgAlg}(CE(\mathfrak{g}), C^\infty(U)\otimes \Omega^1(\Delta^\bullet_{diff}))
-  \,.
-$$
-
-=--
-
-For more discussion of this and its relevance, see the section [Lie integrated ∞-Lie groupoids](#LieIntegrated) below.
 
 
 #### With coefficients in $\mathbf{B}G$ for $G$ a strict 2-group
@@ -2053,11 +2001,11 @@ model category presentations from the discussion there.
 ###### Proposition
 
 A fibrant representative in $[CartSp^{op}, sSet]_{proj,loc}$ of 
-the de Rham coefficent object 
+the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#deRhamCohomology">de Rham coefficent object</a> 
 $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is
 
 $$
-  \Xi[\Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \to \Omega^n_{cl}(-)]
+  \Xi[\Omega^1(-) \stackrel{d_{dR}}{\to} \Omega^2(-) \stackrel{d_{dR}}{\to}\cdots \to \Omega^{n-1}(-) \stackrel{d_{dR}}{\to}\Omega^n_{cl}(-)]
   \,.
 $$
 
@@ -2067,10 +2015,10 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By definition of the object $\mathbf{\flat}_{dR}\mathbf{B}^n U(1)$
+By definition the object $\mathbf{\flat}_{dR}\mathbf{B}^n U(1)$
 is given by the [[homotopy pullback]] in $[CartSp^{op}, Ch_\bullet]_{proj}$
 of the inclusion $U(1)_{const}[n] \to U(1)[n]$ along the point inclusion
-$* \o U(1)[n]$. We may compute this as the ordinary pullback
+$* \to U(1)[n]$. We may compute this as the ordinary pullback
 after passing to a [[resolution]] of this inclusion by a fibration.
 By the [above discussion](#FlatCohomologyWithCoeffsInCircle) of
 flat cohomology with coefficients in $\mathbf{B}^n U(1)$ such a 
