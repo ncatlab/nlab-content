@@ -1,4 +1,7 @@
 
+> This page is currently being reworked into the more comprehensive discussion at [[Smooth∞Grpd]]
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
