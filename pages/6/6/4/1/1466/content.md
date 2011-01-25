@@ -16,6 +16,7 @@ The definition described above is based on [[entourages]]; it was the original o
 
 
 ### Entourage uniformities
+{#ent}
 
 A **uniform structure**, or **uniformity**, on a set $X$ consists of a collection of [[binary relations]] $U \subseteq X \times X$ (called __entourages__ or __vicinities__) satisfying some conditions. Write $x \approx_U y$ if $x$ is related to $y$ through $U$; then the conditions are the following:
 
@@ -44,6 +45,7 @@ A collection of entourages satisfying (0--5) is a **[[base]]** for a uniformity;
 
 
 ### Covering uniformities
+{#ucov}
 
 An equivalent way to characterize a uniform space is by its collection of *[[uniform covers]]*.  Here a **cover** of a set $X$ is a collection $C \subseteq P(X)$ with [[union]] $X$.  For covers $C_i$, we define:
 
@@ -57,15 +59,15 @@ An equivalent way to characterize a uniform space is by its collection of *[[uni
 
 We now define a **covering uniformity** on $X$ to be a collection of covers, called **uniform covers**, such that
 
-1. There exists a uniform cover; in light of axiom (4), it follows that the cover $\{X\}$ is a uniform cover.
+1. If $C$ is a uniform cover, there exists a uniform cover $C'$ such that $(C')^* \prec C$.
 
-2. If $C$ is a uniform cover, there exists a uniform cover $C'$ such that $(C')^* \prec C$.
+2. There exists a uniform cover; in light of axiom (4), it follows that the cover $\{X\}$ is a uniform cover.
 
 3. If $C_1, C_2$ are uniform covers, so is some cover that refines $C_1 \wedge C_2$. In light of axiom (4), it follows that $C_1 \wedge C_2$ is a uniform cover.
 
 4. If $C$ is a uniform cover and $C \prec C'$, then $C'$ is a uniform cover.
 
-The axioms (1--3) here roughly correspond to the axioms (1--3) in the entourage definition.  Then axiom (4) is a closure condition, like entourage axioms (4--6).
+The axioms (2--4) here roughly correspond (respectively) to the axioms (4--6) in the entourage definition.  Axiom (1) takes on all of the real work; any collection of covers that satisfies it may be called a __[[subbase]]__ (but not corresponding directly to a subbase in the previous definition).
 
 In [[constructive mathematics]], we also want to add an axiom (0):
 
