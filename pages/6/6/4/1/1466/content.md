@@ -7,12 +7,12 @@
 
 Uniform spaces were invented by [[André Weil]], to capture a general notion of [[space]] for which it makes sense to speak of [[uniformly continuous map]]s. Such spaces include (pseudo)[[metric spaces]] and [[topological groups]].
 
-A uniform structure or uniformity on a set $X$ consists of a collection of global binary relations $\varepsilon$ which allow us to say when one point $x$ is "$\varepsilon$-close" to another $y$. For a metric space, we have for instance relations expressed by the formula $d(x, y) \lt \epsilon$. For a topological group, we have relations $x y^{-1} \in \varepsilon$, where $\varepsilon$ is a [[neighborhood]] of the identity.
+A uniform structure or uniformity on a set $X$ consists of a collection of global binary relations $\varepsilon$ which allow us to say when one point $x$ is "$\varepsilon$-close" to another $y$. For a metric space, we have for instance relations expressed by the formula $d(x, y) \lt \varepsilon$, where $\varepsilon$ is a [[positive number]]. For a topological group, we have relations $x y^{-1} \in \varepsilon$, where $\varepsilon$ is a [[neighborhood]] of the identity.
 
 
 ## Definitions
 
-The definition described above is based on [[entourages]]; it was the original one published in [[Bourbaki]] and is still most commonly seen today.  There is an equivalent (but less directly generalisable) definition based on [[uniform cover]]s.  The relationship with [[gauge spaces]] (defined below) also allows for another definition.
+The definition described above is based on [[entourages]]; it was the original one published in [[Bourbaki]] and is still most commonly seen today.  There is an equivalent (but less directly generalisable) definition based on [[uniform covers]].  The relationship with [[gauge spaces]] (defined below) also allows for another definition.
 
 
 ### Entourage uniformities
@@ -30,12 +30,12 @@ A **uniform structure**, or **uniformity**, on a set $X$ consists of a collectio
 5. If $U, V$ are entourages, so is some subset of $U \cap V$. In light of axiom (6), it follows that $U \cap V$ is an entourage.
 6. If $U$ is an entourage and $U \subseteq V \subseteq X \times X$, then $V$ is an entourage.
 
-In [[constructive mathematics]], we also need this (classically trivial) condition:
+In [[constructive mathematics]], we also need this condition:
 
 * For every entourage $U$, there exists an entourage $V$ such that $\neg{V} \cup U = X \times X$, where $\neg{V}$ is the [[complement]] of $V$. That is,
   $$ \forall U,\; \exists V,\; \forall x, y,\; x \approx_U y \;\vee\; x &#8777;_V y .$$
 
-We will call this axiom (0) when convenient.
+We will call this axiom (0) when convenient.  (With [[excluded middle]], we can take $V$ to be $U$ itself, so this is classically trivial.)
 
 A set equipped with a uniform structure is called a **uniform space**.
 
@@ -59,19 +59,27 @@ We now define a **covering uniformity** on $X$ to be a collection of covers, cal
 
 1. There exists a uniform cover; in light of axiom (4), it follows that the cover $\{X\}$ is a uniform cover.
 
-2. If $C_1, C_2$ are uniform covers, so is some cover that refines $C_1 \wedge C_2$. In light of axiom (4), it follows that $C_1 \wedge C_2$ is a uniform cover.
+2. If $C$ is a uniform cover, there exists a uniform cover $C'$ such that $(C')^* \prec C$.
 
-3. If $C$ is a uniform cover, there exists a uniform cover $C'$ such that $(C')^* \prec C$.
+3. If $C_1, C_2$ are uniform covers, so is some cover that refines $C_1 \wedge C_2$. In light of axiom (4), it follows that $C_1 \wedge C_2$ is a uniform cover.
 
 4. If $C$ is a uniform cover and $C \prec C'$, then $C'$ is a uniform cover.
+
+The axioms (1--3) here roughly correspond to the axioms (1--3) in the entourage definition.  Then axiom (4) is a closure condition, like entourage axioms (4--6).
+
+In [[constructive mathematics]], we also want to add an axiom (0):
+
+*  If $C$ is a uniform cover, there exists a uniform cover $C'$ such that, for any two points $x, y$, either $x, y \in A$ for some $A \in C$ or $x, y \notin B$ for every $B \in C'$.
+
+(With [[excluded middle]], we can take $C'$ to be $C$, so this is classically trivial.)
+
++-- {: .query}
+Is there a more natural way to state this in this context?
+=--
 
 If $X$ is a uniform space defined in terms of entourages, we give it a covering uniformity by declaring a cover to be uniform if it is refined by $\{ U[x] \;|\; x \in X\}$ for some entourage $U$, where $U[x] \coloneqq \{ y \;|\; x \approx_U y \}$.  Note that this does not mean that a uniform cover "consists of $U$-sized sets" but only that it contains a subcover consisting of sets "no smaller than $U$".
 
 Conversely, given a covering uniformity, we define a base of entourages to consist of sets of the form $\bigcup \{ A \times A \;|\; A \in C\}$ for $C$ a uniform cover.  That is, for each cover $C$, we have a basic entourage $\approx_C$ such that $x \approx_C y$ iff $x, y \in A$ for some $A \in C$.  This defines a bijection between entourage uniformities and covering uniformities.
-
-+-- {: .query}
-What is the covering-uniformity version of the constructive axiom (0)?
-=--
 
 
 ### Further definitions
@@ -79,7 +87,7 @@ What is the covering-uniformity version of the constructive axiom (0)?
 We give these in terms of entourages, but they could also be given directly in terms of uniform covers if desired.
 
 The **uniform topology** induced by a uniformity is defined by taking the [[neighborhoods]] of a point $x$ to be sets of the form
-$$ U[x] \coloneqq \{ y \;:\; x \approx_U y \} $$
+$$ U[x] \coloneqq \{ y \;|\; x \approx_U y \} $$
 where $U$ is an entourage. (Recall that a subset is [[open subset|open]] iff it is a neighborhood of every point that it contains.) We point out that different uniformities may give rise to the same topology (just as different metrics, even uniformly inequivalent ones, may give rise to the same topology).
 
 
@@ -163,7 +171,7 @@ The really critical axioms are (1--3): a collection of binary relations which sa
 
 We draw particular attention to axiom (3), which may be called an "$\frac{\varepsilon}{2}$" principle. It generalizes a principle familiar from analysis in metric spaces, where one establishes $d(x, z) \lt \varepsilon$ by showing there exists $y$ such that $d(x, y) \lt \frac{\varepsilon}{2}$ and $d(y, z) \lt \frac{\varepsilon}{2}$, and applying the triangle inequality. The utility of this principle for metric spaces, extrapolated in this way, gives uniform spaces much of their power.
 
-For full power in [[constructive mathematics]], we also need axiom (0), which may similarly be called a "something less than $\varepsilon$" principle (i.e., for any $\varepsilon$ there is a smaller $\varepsilon'$ such that any two points are either $\varepsilon$-close or $\varepsilon'$-far).  Axioms (0) and (3) can actually be combined into a single statement, as you might expect since $\frac{\varepsilon}{2} \lt \epsilon$, but that makes the intuition less clear.
+For full power in [[constructive mathematics]], we also need axiom (0), which may similarly be called a "something less than $\varepsilon$" principle.  (That is, for any $\varepsilon$ there is an $\varepsilon'$ such that any two points are either $\varepsilon$-close or $\varepsilon'$-far; classically we may take $\varepsilon'$ to be $\varepsilon$, but constructively it\'s better to think of $\varepsilon' \lt \varepsilon$.)  Axioms (0) and (3) can actually be combined into a single statement, as you might expect since $\frac{\varepsilon}{2} \lt \varepsilon$, but that makes the intuition less clear.
 
 Axiom (1) is a nullary version of axiom (3); together they prove that, given any entourage $U$ and any integer $n \geq 0$, there exists an entourage $V$ whose $n$-fold composite is contained in $U$. The symmetry axiom then allows one to take the opposite of $V$ at any point in the composite as well.
 
