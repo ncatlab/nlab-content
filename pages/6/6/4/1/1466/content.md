@@ -45,7 +45,7 @@ A collection of entourages satisfying (0--5) is a **[[base]]** for a uniformity;
 
 ### Covering uniformities
 
-An equivalent way to characterize a uniform space is by its collection of *uniform covers*.  Here a **cover** of a set $X$ is a collection $C \subseteq P(X)$ with [[union]] $X$.  For covers $C_i$, we define:
+An equivalent way to characterize a uniform space is by its collection of *[[uniform covers]]*.  Here a **cover** of a set $X$ is a collection $C \subseteq P(X)$ with [[union]] $X$.  For covers $C_i$, we define:
 
 * $C_1$ **refines** $C_2$, written $C_1 \prec C_2$, if every element of $C_1$ is a subset of some element of $C_2$.
 
