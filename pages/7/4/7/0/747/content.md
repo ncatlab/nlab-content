@@ -887,9 +887,9 @@ Let $C$ be a [[site]].
 
 Let $F : D \to [C^{op}, sSet]$ be a [[finite limit|finite]] diagram.
 
-Write $\mathbb{R}_{glob}\lim_{\leftarrow} F \in [CartSp^{op}, sSet]$ for any representative of the [[homotopy limit]] over $F$ computed in the global model structure $[C^{op}, sSet]_{proj}$, well defined up to [[isomorphism]] in the [[homotopy category]]. 
+Write $\mathbb{R}_{glob}\lim_{\leftarrow} F \in [C^{op}, sSet]$ for any representative of the [[homotopy limit]] over $F$ computed in the global model structure $[C^{op}, sSet]_{proj}$, well defined up to [[isomorphism]] in the [[homotopy category]]. 
 
-Then $\mathbb{R}_{glob}\lim_{\leftarrow} F \in [C^{op},sSet]$ presents also the [[homotopy limit]] of $F$ computed in the local model structure $[CartSp^{op}, sSet]_{proj,loc}$.
+Then $\mathbb{R}_{glob}\lim_{\leftarrow} F \in [C^{op},sSet]$ presents also the [[homotopy limit]] of $F$ computed in the local model structure $[C^{op}, sSet]_{proj,loc}$.
 
 =--
 
