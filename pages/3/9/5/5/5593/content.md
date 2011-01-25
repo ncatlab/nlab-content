@@ -1,5 +1,5 @@
-# Uniform Locales
 
+# Uniform Locales
 * table of contents
 {: toc}
 
@@ -7,13 +7,15 @@
 
 A **uniform locale** is to a [[uniform space]] as a [[locale]] is to a [[topological space]].
 
+
 ## Definition
 
 While an ordinary uniform space is defined directly in terms of subsets, and the underlying topology then constructed secondarily, in the absence of an underlying set it seems more convenient to define a uniform locale as additional structure on a given locale, together with an additional axiom which essentially says "the underlying topology is the same as the one we started with."
 
+
 ### Covering uniformities
 
-A **cover** of a locale $X$ is a collection $C \subseteq Op(X)$ of open parts of $X$ whose [[join]] is $X$.  For covers $C_i$, we define:
+A **[[open cover|cover]]** of a locale $X$ is a collection $C \subseteq Op(X)$ of open parts of $X$ whose [[join]] is $X$.  For covers $C_i$, we define:
 
 * $C_1$ **refines** $C_2$, written $C_1 \prec C_2$, if every element of $C_1$ is $\le$ in some element of $C_2$.
 
@@ -36,18 +38,22 @@ We now define a **covering uniformity** on a locale $X$ to be a collection of co
 5. For any open part $A\in Op(X)$, we have
    $$ A = \bigvee \{ B | \exists \;\text{ a uniform cover }\; C \;\text{ such that }\; C[B] \le A \} $$
 
-The last condition is the one saying that "the induced topology is again the topology of $X$."
+The last condition is the one saying that "the induced topology is again the topology of $X$."; the other conditions correspond precisely to the [uniform-cover definition](uniform+space#ucover) of a uniform topological space.
+
 
 ### Entourage uniformities
 
 ...
 
+
 ## Remarks
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman]]: I do not know the state of a [[constructive mathematics|constructive]] version of uniform locale theory.  Most of the papers on uniform locales seem to assume classical logic, in particular in writing $C[A] = \bigcup \{ B \in C \;|\; A \cap B \neq \bot \}$.  The above definition seems to me the obvious constructive version, but I don't know how well it behaves.  It's conceivable one might need to restrict to [[overt locales]], where positivity behaves better.
 =--
 
+
+[[!redirects uniform locale]]
 [[!redirects uniform locales]]
 [[!redirects pointless uniformity]]
 [[!redirects pointless uniformities]]
