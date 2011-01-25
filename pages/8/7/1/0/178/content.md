@@ -839,8 +839,8 @@ for the [[chain complex]] of sheaves concentrated in degree $n$ on $U(1)$.
 
 Recall the right Quillen functor $\Xi : [CartSp^{op}, Ch_\bullet^+] \to [CartSp^{op}, sSet]$ from [above](#DoldKanInclusion).
 
-+-- {: .un_theorem }
-###### Theorem
++-- {: .un_prop }
+###### Proposition
 
 The [[simplicial presheaf]] $\Xi(U(1)[n]) \in [CartSp^{op}, sSet]$ is a fibrant representative in $[CartSp^{op},sSet]_{proj,loc}$
 of the circle Lie $(n+1)$-group $\mathbf{B}^n U(1)$.
@@ -850,7 +850,9 @@ of the circle Lie $(n+1)$-group $\mathbf{B}^n U(1)$.
 +-- {: .proof}
 ###### Proof
 
-First notice that $\Xi U(1)[n]$ is degreewise a [[Kan complex]] hence fibrant in the global model structure $[CartSp^{op}, sSet]_{proj}$. 
+First notice that since $U(1)[n]$ is fibrant in 
+$[CartSp_{smooth}^{op}, Ch_\bullet]_{proj}$ we have that
+$\Xi U(1)[n]$ is fibrant in $[CartSp^{op}, sSet]_{proj}$. 
 We may compute the [[homotopy pullback]] that defines the [[loop space object]] in the global model structure (by the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#HomotopyLimits">model structure on simplicial presheaves -- homotopy (co)limits</a>) we may check the statement about the delooping in the global model structure.
 
 Consider the global fibration [[resolution]] of the point inclusion $* \to \Xi(U(1)[n])$ given by
@@ -866,7 +868,8 @@ $$
   \,.
 $$ 
 
-The underlying morphism of chain complexes is clearly degreewise surjective, hence a projective fibration, hence its image under $\Xi$ is a projective fibration. So the [[homotopy pullback]] in question is the ordinary [[pullback]]
+The underlying morphism of chain complexes is clearly degreewise surjective, hence a projective fibration, hence its image under $\Xi$ is a projective fibration. Therefore the [[homotopy pullback]] in question is 
+given by the ordinary [[pullback]]
 
 $$
   \array{
@@ -891,7 +894,7 @@ $\Xi (U(1)[n-1])$.
 Now we discuss the fibrancy of $U(1)[n]$ in the local model structure $[CartSp^{op}, sSet]_{proj,loc}$. We need to check that for all [[good open cover]]s $\{U_i \to U\}$ of a [[Cartesian space]] $U$ we have that the mophism
 
 $$
-  C^\infty(U,U(1))[n] \to [CartSp^{op}, sSet](C(\{U_i\}), U(1)[n])
+  C^\infty(U,U(1))[n] \to [CartSp^{op}, sSet](C(\{U_i\}), \Xi U(1)[n])
 $$
 
 is an equivalence of Kan complexes, where $C(\{U_i\})$ is the [[Cech nerve]] of the cover. Observe that the Kan complex on the right is that whose vertices are [[cocycle]]s in degree-$n$ [[Cech cohomology]] (see there for details) with coefficients in $U(1)$ and whose morphisms are coboundaries between these.
@@ -900,12 +903,12 @@ We proceed by induction on $n$. For $n = 0$ the condition is just that $C^\infty
 For general $n$ we use that since $C(\{U_i\})$ is cofibrant, the above is the [[derived hom-space]] functor which commutes with [[homotopy pullback]]s and hence with forming [[loop space object]]s, so that
 
 $$
-  \pi_1 [CartSp^{op}, sSet](C(\{U_i\}), U(1)[n])
+  \pi_1 [CartSp^{op}, sSet](C(\{U_i\}), \Xi (U(1)[n]))
   \simeq
-  \pi_0 [CartSp^{op}, sSet](C(\{U_i\}), U(1)[n-1])
+  \pi_0 [CartSp^{op}, sSet](C(\{U_i\}), \Xi (U(1)[n-1]))
 $$
 
-by the above result on delooping. So we find that for all $0 \leq k \leq n$ that $\pi_k [CartSp^{op}, sSet](C(\{U_i\}), U(1)[n])$ is the [[Cech cohomology]] of $U$ with coefficients in $U(1)$ in degree $n-k$.
+by the above result on delooping. So we find that for all $0 \leq k \leq n$ that $\pi_k [CartSp^{op}, sSet](C(\{U_i\}), \Xi(U(1)[n]))$ is the [[Cech cohomology]] of $U$ with coefficients in $U(1)$ in degree $n-k$.
 By standard facts about [[Cech cohomology]] (using the [[short exact sequence]] of abelian groups $\mathbb{Z} \to U(1)\to \mathbb{R}$ and the fact that the cohomology with coefficients in $\mathbb{R}$ vanishes in positive degree, for instance by a [[partition of unity]] argument) we have that this is given by the [[integral cohomology]] groups
 
 $$
@@ -916,7 +919,7 @@ $$
 
 for $n \geq 1$. For the [[contractible]] [[Cartesian space]] all these cohomology groups vanish.
 
-So we have that $\Xi(U(1)[n])(U)$ and $[CartSp^{op}, sSet](C(\{U_i\}), \Xi U(1)[n])$ both have homotopy groups concentrated in degree $n$ on $U(1)$. And the above looping argument together with the fact that $U(1)$ is a sheaf also shows that the morphism in question is an isomorphism on this degree-$n$ homotopy group, hence is indeed a [[weak homotopy equivalence]].
+So we have that $\Xi(U(1)[n])(U)$ and $[CartSp^{op}, sSet](C(\{U_i\}), \Xi U(1)[n])$ both have homotopy groups concentrated in degree $n$ on $U(1)$. The above looping argument together with the fact that $U(1)$ is a sheaf also shows that the morphism in question is an isomorphism on this degree-$n$ homotopy group, hence is indeed a [[weak homotopy equivalence]].
 
 =--
 
