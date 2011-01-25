@@ -1,0 +1,53 @@
+# Uniform Locales
+
+* table of contents
+{: toc}
+
+## Idea
+
+A **uniform locale** is to a [[uniform space]] as a [[locale]] is to a [[topological space]].
+
+## Definition
+
+While an ordinary uniform space is defined directly in terms of subsets, and the underlying topology then constructed secondarily, in the absence of an underlying set it seems more convenient to define a uniform locale as additional structure on a given locale, together with an additional axiom which essentially says "the underlying topology is the same as the one we started with."
+
+### Covering uniformities
+
+A **cover** of a locale $X$ is a collection $C \subseteq Op(X)$ of open parts of $X$ whose [[join]] is $X$.  For covers $C_i$, we define:
+
+* $C_1$ **refines** $C_2$, written $C_1 \prec C_2$, if every element of $C_1$ is $\le$ in some element of $C_2$.
+
+* $C_1 \wedge C_2 \coloneqq \{ A \wedge B \;|\; A \in C_1, B \in C_2 \}$; this is also a cover.
+
+* For $A \in Op(X)$, $C[A] \coloneqq \bigcup \{ B \in C \;|\; A \cap B$ is [[positive element|positive]] $}$.
+
+* $C^* \coloneqq \{ C[A] \;|\; A \in C\}$.
+
+We now define a **covering uniformity** on a locale $X$ to be a collection of covers, called **[[uniform covers]]**, such that
+
+1. There exists a uniform cover; in light of axiom (4), it follows that the cover $\{X\}$ is a uniform cover.
+
+2. If $C$ is a uniform cover, there exists a uniform cover $C'$ such that $(C')^* \prec C$.
+
+3. If $C_1, C_2$ are uniform covers, so is some cover that refines $C_1 \wedge C_2$. In light of axiom (4), it follows that $C_1 \wedge C_2$ is a uniform cover.
+
+4. If $C$ is a uniform cover and $C \prec C'$, then $C'$ is a uniform cover.
+
+5. For any open part $A\in Op(X)$, we have
+   $$ A = \bigvee \{ B | \exists \;\text{ a uniform cover }\; C \;\text{ such that }\; C[B] \le A \} $$
+
+The last condition is the one saying that "the induced topology is again the topology of $X$."
+
+### Entourage uniformities
+
+...
+
+## Remarks
+
++--{: .query}
+[[Mike Shulman]]: I do not know the state of a [[constructive mathematics|constructive]] version of uniform locale theory.  Most of the papers on uniform locales seem to assume classical logic, in particular in writing $C[A] = \bigcup \{ B \in C \;|\; A \cap B \neq \bot \}$.  The above definition seems to me the obvious constructive version, but I don't know how well it behaves.  It's conceivable one might need to restrict to [[overt locales]], where positivity behaves better.
+=--
+
+[[!redirects uniform locales]]
+[[!redirects pointless uniformity]]
+[[!redirects pointless uniformities]]
