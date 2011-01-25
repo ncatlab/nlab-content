@@ -400,30 +400,52 @@ The category of diffeological spaces is
 
 ## References 
 
-For a discussion on how diffeological spaces relate to the other notions of [[generalised smooth space]], see:
+The basic idea of understanding a smooth space as a concrete sheaf on a site of smooth test spaces originates in work of Chen. In
+
+* K.-T. Chen, Iterated integrals of differential forms and loop space homology, Ann. Math. 97 (1973), 217&#8211;246.
+
+he considered effectively [[presheaves]] on a site of [[convex subset]]s of [[Cartesian spaces]]. In
+
+K.-T. Chen, Iterated integrals, fundamental groups and covering spaces,
+Trans. Amer. Math. Soc. 206 (1975), 83&#8211;98.
+
+roughly the [[sheaf]] condition was added (without using any of this sheaf-theoretic terminology). The definition of _Chen smooth spaces_ stabilized in
+
+* K.-T. Chen, _Iterated path integrals_ , Bull. Amer. Math. Soc. 83, (1977),
+831&#8211;879.
+
+and served as the basis of a celebrated theorem on the [[de Rham cohomology]] of [[loop space]]s.
+
+The variant of this idea with the site of convex subsets replaced by that of open subsets (and hence equivalently by the site [[CartSp]]${}_{smooth}$) appeared in
+
+* J. M. Souriau, _Groupes diff&#233;rentiels_ , in -Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979),
+Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128.
+([MathScinet](http://www.ams.org/mathscinet-getitem?mr=607688))
+
+
+A detailed discusson of the relations of these and other variants of the definition is in
 
 * [[Andrew Stacey]], _Comparative Smootheology_ ([arXiv:0802.2225](http://arxiv.org/abs/0802.2225))
 
-A textbook on diffeological spaces is
+The article 
+
+* [[John Baez]], [[Alexander Hoffnung]], _Convenient Categories of Smooth Spaces_ ([arXiv](http://arxiv.org/abs/0807.1704))
+
+amplifies the point that diffeological spaces are [[concrete sheaves]].
+
+A textbook on [[differential geometry]] with diffeological spaces is
 
 * [[Patrick Iglesias-Zemmour]],
 _Diffeology_
 ([web](http://math.huji.ac.il/~piz/Site/The%20Book/The%20Book.html), [pdf](http://math.huji.ac.il/~piz/documents/Diffeology.pdf))
 
+The term "diffeological space" originates in the work of this author.
+
 The thesis
 
 * [[Patrick Iglesias-Zemmour]], _Fibrations diff&#233;ologie et Homotopie_,  PhD thesis [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf)
 
-contains some useful material that hasn't yet made it into the book. The article 
-
-* [[John Baez]], [[Alexander Hoffnung]], _Convenient Categories of Smooth Spaces_ ([arXiv](http://arxiv.org/abs/0807.1704))
-
-amplifies the point that diffeological spaces are [[concrete sheaves]] on the category of (subsets of) [[cartesian space]]s.
-
-See also the original article wherein diffeological spaces were introduced:
-
-* [Groupes diff\'erentiels](http://www.ams.org/mathscinet-getitem?mr=607688)
-
+contains some useful material that hasn't yet made it into the book. 
 
 
 [[!redirects diffeological spaces]]
