@@ -69,7 +69,7 @@ The axioms (1--3) here roughly correspond to the axioms (1--3) in the entourage 
 
 In [[constructive mathematics]], we also want to add an axiom (0):
 
-*  If $C$ is a uniform cover, there exists a uniform cover $C'$ such that, for any two points $x, y$, either $x, y \in A$ for some $A \in C$ or $x, y \notin B$ for every $B \in C'$.
+*  If $C$ is a uniform cover, there exists a uniform cover $C'$ such that, for any two points $x, y$, either $x, y \in A$ for some $A \in C$ or $x, y \in B$ for no $B \in C'$.
 
 (With [[excluded middle]], we can take $C'$ to be $C$, so this is classically trivial.)
 
