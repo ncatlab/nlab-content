@@ -448,7 +448,7 @@ $$
 
 is a monomorphism of sets, where in the first step we used the [[(∞,1)-Yoneda lemma]] and in the last one the $(\Gamma \dashv coDisc)$-[[adjunction]]. 
 
-That this morphism is indeed $\Gamma : Sh(U,X) \to Set(\Gamma(U), \Gamma(X)) \hookrightarrow \infty Grpd(\Gamma(U), \Gamma(X))$ follows by chasing the identity on $\Gamma X$ through the adjunction naturality square for any morphism $f : X \to X$
+That this morphism is indeed $\Gamma : Sh(U,X) \to Set(\Gamma(U), \Gamma(X)) \hookrightarrow \infty Grpd(\Gamma(U), \Gamma(X))$ follows by chasing the identity on $\Gamma X$ through the adjunction naturality square for any morphism $f : U \to X$
 
 $$
   \array{
@@ -466,7 +466,43 @@ So this is indeed the defining condition for [[concrete sheaves]] that defines [
 
 =--
 
++-- {: .un_def}
+###### Definition
 
+A **diffeological $\infty$-groupoid** or **diffeological Kan complex**
+is a [[Kan complex]] internal to [[diffeological space]]s.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+Let $X$ be a diffeological $\infty$-groupoid. Regarded as an object
+in $Smooth \infty Grpd$ under the map 
+
+$$
+  X \in Sh(CartSp_{smooth})^{\Delta^{op}} 
+   \hookrightarrow
+    [CartSp_{smooth}^{op}, sSet] 
+  \to 
+   ([CartSp_{smooth}^{op}, sSet]_{proj,loc})^\circ 
+   \simeq 
+  Smooth \infty Grpd
+$$ 
+
+this is a
+<a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ConcreteObjects">concrete object</a>.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the general properties discussed at [[cohesive (∞,1)-topos]] we have that $Smooth \infty Grpd$ is a [[hypercomplete (∞,1)-topos]]. Hence we may equivalently model it by the local [[model structure on simplicial sheaves]] on $CartSp_{smooth}$. Notice that any diffeological Kan complex is naturally a fibrant object in the global model structure on simplicial sheaves.
+By definition of the local model structure, the morphism from any simplicial sheaf to its local cofibrant-fibrant [[resolution]] is an isomorphism on all [[categorical homotopy groups in an (infinity,1)-topos|homotopy sheaves]]. Since the [[quasitopos]] of [[diffeological space]]s is closed under the finite [[limit]]s and [[colimit]]s involved in defining homotopy sheaves, these are themselves [[concrete sheaves]]. 
+
+=--
 
 ### Geometry and structure sheaves {#StrucGeometry}
 
