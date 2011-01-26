@@ -19,6 +19,6 @@ __Proposition.__ A topologizing set of right ideals in a ring $R$ is a basis of 
 
 * Carl Faith, Algebra Vol. I, page 520
 
-* Harold Simmons, _The semiring of topologizing filters of a ring_, [doi](http://dx.doi.org/10.1007/BF02772572)
+* Harold Simmons, _The semiring of topologizing filters of a ring_, [doi](http://dx.doi.org/10.1007/BF02772572) [swiss replica watches](http://neon-watches.com)
 
 [[!redirects topologizing filters]]
