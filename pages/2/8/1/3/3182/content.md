@@ -55,6 +55,8 @@ to be the [[(∞,1)-category of (∞,1)-sheaves]] on $CartSp_{top}$.
 
 ## Properties
 
+### General
+
 +-- {: .un_prop #ETopInfGrpdAsCohesiveTopos}
 ###### Proposition
 
@@ -66,6 +68,23 @@ The [[(∞,1)-topos]] $ETop \infty Grpf$ is a [[cohesive (∞,1)-topos]].
 ###### Proof
 
 The site [[CartSp]]${}_{top}$ an  [[∞-cohesive site]].  See there for details.
+
+=--
+
+For completeness we record  general properties of [[cohesive (∞,1)-topos]]es implied by this.
+
++-- {: .un_prop #PointLikePropertiesOfETopInfGrpd}
+###### Corollary
+
+$ETop\infty Grpd$ is
+
+* [[hypercomplete (∞,1)-topos|hypercomplete]];
+
+* of [[cohomological dimension]] 0;
+
+* of [[homotopy dimension]] 0;
+
+* of the [[shape of an (∞,1)-topos]] of the point.
 
 =--
 
@@ -152,6 +171,134 @@ With the [above proposition](#ToposOverTopMfd) this follows directly by the [[(�
 
 =--
 
+### Model category presentation {#ModelCategoryPresentation}
+
+We dicuss some aspects of the [[presentable (∞,1)-category|presentation]] of $ETop \infty Grpd$ by [[model category]] structures.
+
++-- {: .un_prop}
+###### Proposition
+
+Let $[CartSp_{top}^{op}, sSet]_{proj,loc}$ be the Cech-local projective [[model structure on simplicial presheaves]]. This is a [[presentable (∞,1)-category|presentation]] of $ETop \infty Grpd$
+
+$$
+  ([CartSp_{top}^{op}, sSet]_{proj,loc})^\circ
+    \simeq
+   ETop \infty Grpd
+  \,.
+$$
+
+Also the [[model structure on simplicial sheaves]] $sSh(CartSp_{{top})_{loc}$ is a presentation
+
+$$
+  (sSh(CartSp_{top})_{loc})^\circ
+    \simeq
+   ETop \infty Grpd
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is a special case of the general discussion at [[model structure on simplicial presheaves]]. Similarly, by the general discussion at [[model structure on simplicial sheaves]] we have that this presents the [[hypercompletion]] of the [[(∞,1)-category of (∞,1)-sheaves]]. But by [the above](#PointLikePropertiesOfETopInfGrpd) $ETop\infty Grpd$ already is hypercomplete.
+
+=--
+
+Moreover:
+
++-- {: .un_prop}
+###### Proposition
+
+$ETop\infty Grpd$ is also the [[hypercompletion]] of the [[(∞,1)-topos]] presented by the local [[model structure on simplicial presheaves]] over all of [[Mfd]] (or over any [[small category|small]] [[dense sub-site]] such as for instance the full sub-category of manifolds bounded in size by some [[regular cardinal]]).
+
+$$
+  \hat{}([Mfd^{op}, sSet]_{proj,loc})^\circ
+    \simeq
+   ETop \infty Grpd
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [above proposition](#ToposOverTopMfd).
+
+=--
+
+While the model structures on simplicial presheaves over both sites present the same [[(∞,1)-category]], they lend themselves to different computations: 
+
+the model structure over $CartSp_{top}$ has more fibrant objects and hence fewer cofibrant objects, while the model structure over $Mfd$ has more cofibrant objects and fewer fibrant objects. More specifically:
+
++-- {: .un_prop}
+###### Proposition
+
+Let $X \in [Mfd^{op}, sSet]$ be an object that is _globally fibrant_ , _locally separated_ and _locally trivial_, meaning that
+
+1. $X(U)$ is a [[Kan complex]] for all $U \in Mfd$;
+
+1. for every [[covering]] $\{U_i \to U\}$ in [[Mfd]] the [[descent]] morphism
+   $X(U) \to [Mfd^{op}, sSet](C(\{U_i\}), X)$ is a [[full and faithful (∞,1)-functor]] (induces [[isomorphism]]s on all positive [[homotopy group]])s;
+
+1. for [[contractible]] $U$ we have $\pi_0[Mfd^{op}, sSet](C(\{U_i\}), X) \simeq *$.
+
+Then the restriction of $X$ along $CartSp_{top} \hookrightarrow Mfd$ is a fibrant object in the local model structure $[CartSp_{top}^{op}, sSet]_{proj,loc}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The fibrant objects in the local model structure are precisely those that are Kan complexes over every object and for which the descent morphism is an equivalence for all covers.
+
+The first condition is given by the first assumption. The second and third assumptions imply the second condition over contractible manifolds, such as the [[Cartesian space]]s.
+
+=--
+
++-- {: .un_example}
+###### Example
+
+Let $G$ be a [[topological group]], regarded as the presheaf over [[Mfd]] that it [[representable functor|represents]]. Write $\bar W G$ (see the notation at [[simplicial group]]) for the simplicial presheaf on $Mfd$ given by the [[nerve]] of the [[topological groupoid]] $(G \stackrel{\to}{\to} *)$. (This is a presentation of the [[delooping]] of the [[0-truncated]] [[∞-group]] $G \in ETop\infty Grpd$, see the discussion [below](#Groups). )
+
+The fibrant [[resolution]] of $\bar W G$ in $[Mfd^{op}, sSet]_{proj,loc}$ is (the rectification of) its [[stackification]]: the [[stack]] $G Bund$ of topological $G$-[[principal bundle]]s. But the canonical morphism
+
+$$
+  \bar W G \to G Bund
+$$
+
+is a [[full and faithful functor]] (over each object $U \in Mfd$): it includes the single object of $\bar W G$ as the trivial $G$-[[principal bundle]]. The automorphism of the single object in $\bar W G$ over $U$ are $G$-valued [[continuous function]]s on $U$, which are precisely the automorphisms of the trivial $G$-bundle. Therefore this inclusion is full and faithful, the presheaf $\bar W G$ is a [[separated prestack]].
+
+Moreover, it is locally trivial: every [[Cech cohomology|Cech cocycle]] for a $G$-bundle over a [[Cartesian space]] is equivalent to the trivial one. Equivalently, also $\pi_0 G Bund(\mathbb{R}^n) \simeq *$.
+
+Therefore $\bar W G$, when restricted $CartSp_{top}$, does become a fibrant object in $[CartSp_{top}^{op}, sSet]_{proj,loc}$.
+
+On the other hand, let $X \in Mfd$ be any non-contractible manifold. Since in the projective [[model structure on simplicial presheaves]] every representable is cofibrant, this is a cofibrant object in $[Mfd^{op}, sSet]_{proj,loc}$. However, it fails to be cofibrant in $[CartSp_{top}^{op}, sSet]_{proj,loc}$. Instead, there a cofibrant replacement is given by the [[Cech nerve]] $C(\{U_i\})$ of any [[good open cover]] $\{U_i \to X\}$.
+
+This yields two different ways to compute the first [[nonabelian cohomology]] 
+
+$$
+  H^1_{ETop}(X,G) := \pi_0 ETop\infty Grpd (X, \mathbf{B}G)
+$$
+
+in $ETop\infty Grpd$ on $X$ with coefficients in $G$, as
+
+1. $\cdots \simeq \pi_0 [Mfd^{op}, sSet](X, G Bund) \simeq \pi_0 G Bund(X)$;
+
+1. $\cdots \simeq \pi_0 [CartSp_{top}^{op}, sSet](C(\{U_i\}), \bar W G) \simeq H^1_{Ch}(X,G)$.
+
+In the first case we need to construct the fibrant replacement $G Bund$. This amounts to computing $G$-cocycles = $G$-bundles over _all_ manifolds and then evaluate on the given one, $X$, by the [[2-Yoneda lemma]].
+
+In the second case however we cofibrantly replace $X$ by a good open cover, and then find the [[Cech cohomology|Cech cocycles]] with coefficients in $G$ on that. 
+
+For ordinary $G$-bundles the difference between the two computations may be irrelevant in practice, because ordinary $G$-bundles are very well understood. However for more general coefficient objects, for instance general topological [[simplicial group]]s $G$, the first approach requires to find the full [[∞-stackification]] to the [[∞-stack]] of all [[principal ∞-bundle]]s, while the second approach requires only to compute specific coycles over one specific base object. In practice the latter is often all that one needs.
+
+
+
+=--
+
 
 ## Structures in the cohesive $(\infty,1)$-topos $ETop \infty Grpd$
 
@@ -167,6 +314,10 @@ $$
 $$
 
 for the defining quadruple of [[adjoint (∞,1)-functor]]s that refine the [[global section]] [[(∞,1)-geometric morphism]] to [[∞Grpd]].
+
+### Cohesive $\infty$-groups {#Groups}
+
+(...)
 
 
 ### Geometric homotopy and Galois theory {#GeometricHomotopy}
