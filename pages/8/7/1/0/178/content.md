@@ -2496,201 +2496,118 @@ Form the defining pullback as before. (...)
 We discuss here the  <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebras">intrinsic exponentiated ∞-Lie algebras</a> in $Smooth \infty Grpd$.
 
 
-#### Lie integration {#LieIntegration}
-
-+-- {: .un_def }
-###### Definition
-**(forms on the simplex)**
-
-Write $\Delta_{Diff} : \Delta \to CartSp \hookrightarrow sPSh(CartSp)$ for the cosimplicial object of standard smooth simplices.
-
-Write $\Omega^\bullet_{si}(\Delta^n_{Diff})$ for the [[dg-algebra]] of those differential forms on $\Delta^n_{Diff}$ that have the property that for every $k \in \mathbb{N}$ every $k$-face of $\Delta^n_R$ has an open neighbourhood of its boundary such that the form restricted to that face is constant in the direction perpendicular to that boundary.
-
-=--
-
-
-+-- {: .un_def }
-###### Definition
-
-Let $\mathfrak{g}$ be an [[L-∞-algebra]], dually characterized by its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g}) \in dgAlg$.
-
-Write $\exp(b \mathfrak{g}) \in [CartSp^{op}, sSet]$ for the object
-
-$$
-  U,[n] \mapsto
-  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet_{si}(\Delta^n_{Diff}) \otimes C^\infty(U))
-  \,.
-$$
-
-
-For $n \in \mathbb{N}$ 
-we say the Lie $n$-groupoid universally intergating $\mathfrak{g}$
-is the $n$-[[truncated|truncation]] of this object
-
-$$
-  \tau_n \exp(\mathfrak{a})
-  \,.
-$$
-
-Realized objectwise as the $(n+1)$-[[simplicial skeleton|simplicial coskelton]]
-
-$$
-  U,[n] \mapsto
-  \mathbf{cosk}_{n+1}
-  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet_{si}(\Delta^n_{Diff}) \otimes C^\infty(U))
-  \,.
-$$
-
-=--
-
-+-- {: .un_remark }
-###### Remark
-
-The generalization of this procedure from $\infty$-Lie algebras $\mathfrak{g}$ to [[∞-Lie algebroid]]s $\mathfrak{a}$ is essentially straightforward, except for a slight technicality: instead of the presheaf construction $U \mapsto Hom_{dgAlg}(CE(\mathfrak{g}), C^\infty(U) \otimes \Omega^\bullet(\Delta^n_{Diff}))$ one needs to consider the construction
-
-$$
-  conc(U \mapsto Hom_{dgAlg}(CE(\mathfrak{a}), \Omega^\bullet(U \times \Delta^n_{Diff})))
-  \,,
-$$
-
-where $conc$ denotes the operation of passing to [[concrete presheaves]].
-
-=--
-
-
-+-- {: .un_remark }
-###### Remark
-
-The bare [[∞-groupoid]] 
-
-$$
-\Gamma \exp(\mathfrak{a} )
- : [n] \mapsto Hom_{dgAlg}(CE(\mathfrak{g}), 
-    \Omega^\bullet(\Delta_{Diff}^{n}))
-$$ 
-
-underlying the untruncated $\infty$-Lie groupoid integrating $\mathfrak{g}$ is essentiall the [[Sullivan construction]] on $CE(\mathfrak{g})$, familiar from [[rational homotopy theory]]. The fact that this construction may be thought of in terms of [[Lie integration]] was amplified in 
-
-* [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv])
-
-following Hinich.
-
-A refinement of this construction to [[internal ∞-groupoid]]s in [[nLab:Banach space]]s was considered in 
-
-* [[Andre Henriques]], _Integrating $L_\infty$-algebras_ ([arXiv])
-
-For more see [[Lie integration]].
-
-The evident refinement of the [[Sullivan construction]] to $\infty$-Lie groupoids as considered here, parameterized over smooth test spaces, was mentioned around
-
-* [[Urs Schreiber|U.S.]], _Differential nonabelian cohomology_ talk at _Higher Structures in Math and Physics_ Lausanne (2008) ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Lausanne.pdf))
-
-and was considered around the same times also by [[Dmitry Roytenberg]]. 
-
-In 
-
-* [[Pavol Severa]], _..._ 
-
-is given a proposal for how to realize Lie differentiation in this context. Below we will see that, in analogy to and generalizing the above examples, the Lie differentiation of $\tau_n \exp(\mathfrak{g})$ is canonically induced by passing to its intrinsic de Rham coefficient object $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{a})$. Below in 
-[Infinitesimal differential coefficients](#InfinitesimalDifferentialCoefficients) we discuss how these are realized in terms of infinitesimal paths in the $\infty$-Lie groupoid. This is at least in spirit close to &Scaron;evera's construction. A more detailed discussion of the relation should be given somewhere, eventually.
-
-
-=--
-
-
-#### The Lie-integrated universal principal $\infty$-bundle {#LieIntUnivBund}
-
-We describe a construction of the [[universal principal ∞-bundle]]
-of a [Lie integrated](#LieIntegration) $\infty$-Lie group $G$.
-
-Let $\mathfrak{g}$ be a [[Lie n-algebra]]. The construction we consider works for choices $n \in \mathbb{N}$ such that the $\infty$-Lie groupoid
-
-$$
-  \tau_{\leq n}\exp(\mathfrak{g})
-$$
-
-is equivalent to 
-
-$$
-  \mathbf{B}G := \tau_{\leq {n+1}} \exp(\mathfrak{g})
-  \,,
-$$
-
-i.e. that we can truncate the [[Sullivan construction]] one degree "too high" without picking up a superfluous homotopy group (see [[Lie integration]] for details on this). 
-
-**Example.** This is for instance the case for $\mathfrak{g}$ an ordinary [[Lie algebra]], $n = 1$: in that case $\tau_{\leq 1}\exp(\mathfrak{g})$ is the one-object Lie groupoid $\mathbf{B}G$  for $G$ the simply connected Lie group integrating it, and since for every Lie algebra we have $\pi_2(G) = 0$ there is a trivial [[homotopy group]] in degree 2 and so (by the discussion at [[Lie integration]]) $\mathbf{B}G \simeq \tau_{\leq 2}\exp(\mathfrak{g})$.
-
-The 1-morphism in $\tau_{\leq 2}\exp(\mathfrak{g})$ are based paths in $G$, the [[2-morphism]]s are homotopy-classes (rel boundary) of surfaces in $G$. The equivalence $\exp_{\leq 2} \exp(\mathfrak{g}) \to \mathbf{B}G$ is obtained by sending a path to its endpoint. This situation is discussed in detail at [The string Lie 2-group](#String2Group).
-
+(...) under construction, see [[Lie integration]] (...)
 
 +-- {: .un_def}
 ###### Definition
 
-For $\mathfrak{g}$ an [[L-∞-algebra]] write $inn(\mathfrak{g})$ for the
-$L_\infty$-algebra whose [[Chevalley-Eilenberg algebra]] is the [[Weil algebra]] $W(\mathfrak{g})$ of $\mathfrak{g}$:
+For $U \in $ [[CartSp]] and $n \in \mathbb{N}$, write
+$\Omega^\bullet(U \times \Delta^n)$ for the [[dg-algebra]] of smooth [[differential form]]s with sitting instants (...) on the simplex.
 
-$$
-  CE(inn(\mathfrak{g})) = W(\mathfrak{g})
-  \,.
-$$
-
-=--
-
-The $L_\infty$-algebra $inn(\mathfrak{g})$ is an _$L_\infty$-algebroidal model_ for the universal $\mathfrak{g}$-principal bundle, in analogy to a [[groupal model for universal principal ∞-bundles]].
-
-+-- {: .un_example}
-###### Example
-**(Cartan model)**
-
-For $\mathfrak{g}$ an ordinary [[Lie algebra]], the [[Lie 2-algebra]] $inn(\mathfrak{g})$ is the one coming from the [[differential crossed module]] $(\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g})$. That this is a Lie 2-algebraic model for the <a href="http://ncatlab.org/nlab/show/groupal+model+for+universal+principal+infinity-bundles#OrdinaryGroups">Segal groupal model of the universal G-bundle</a> is implicit in the [[Cartan model of equivariant cohomology]], which is a [[Lie algebroid]]-model of the [[Borel construction]] $\mathbf{E}G \times_G V$.
+Write $\Omega^\bullet_{vert}(U \times \Delta^n)$ for the sub-dg-algebra of [[vertical differential form]]s with respect to the projection $U \times \Delta^n \to U$.
 
 =--
 
 +-- {: .un_def}
 ###### Definition
-**(integrated universal principal $\infty$-bundle)**
 
-The [[Lie integration]] of $inn(\mathfrak{g})$ we write
-
-$$
-  \mathbf{B}\mathbf{E}G := \tau_{\leq {n+1}}\exp(inn(\mathfrak{g})))
-  \,.
-$$
-
-The canonical inclusion $\mathfrak{g} \to inn(\mathfrak{g})$ induces a morphism of $\infty$-Lie groupoids
+For $\mathfrak{g}$ an [[∞-Lie algebra]] of finite type, with [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ write $\exp(\mathfrak{g}) \in [CartSp_{smooth}^{op}, sSet]$ for the [[simplicial presheaf]] given by
 
 $$
-  \tau_{n+1}\exp(\mathfrak{g} \to inn(\mathfrak{g}))
-  :
-  \mathbf{B}G \to \mathbf{B}\mathbf{E}G
-  \,.
-$$
-
-This induces the corresponding morphism of [[∞-Lie group]]s.
-
-$$
-  G \to \mathbf{E}G
+  \exp(\mathfrak{g}) 
+   :
+  (U, [n]) \mapsto
+  Hom_{dgAlg}(\Omega_{vert}^\bullet(U \times \Delta^n), CE(\mathfrak{g}))
   \,.
 $$
 
 =--
-
 
 +-- {: .un_prop}
-###### Observation
+###### Proposition
 
-Since $W(\mathfrak{g})$ is contractible (has vanishing cochain cohomology) we have a weak equivalence
+The objects $\exp(\mathfrak{g}) \in Smooth \infty Grpd$ are
+geometrically contractible:
 
 $$
-  \mathbf{E}G \simeq *
+  \Pi \exp(\mathfrak{g}) \simeq *
   \,.
-$$
-
-So the construction $\mathbf{E}G = \tau_{n+1}\exp(\mathfrak{g})$ is a [[groupal model for universal principal ∞-bundles]].
+$$ 
 
 =--
 
-(...)
++-- {: .proof}
+###### Proof
+
+Every [[simplicial presheaf]] $X$ is the [[homotopy colimit]] over its component presheaves $X_n \in [CartSp_{smooth}^{op}, Set] \hookrightarrow [CartSp_{smooth}^{op}, sSet]_{loc}$
+
+$$
+  X \simeq \mathbb{L} {\lim_{\leftarrow}}_n X_n
+  \,.
+$$
+
+(Use for instance the injective model structure for which $X_\bullet$ is cofibrant in the [[Reedy model structure]] $[\Delta^{op},[CartSp_{smooth}^{op}, sSet]_{inj,loc}]_{Reedy}$ ).
+
+Therefore it is sufficient to show that in each degree $n$ the [[0-truncated]] object $\exp(\mathfrak{g})_{n}$ is geometrically contractible.
+
+For each $n \in \mathbb{N}$, choose a smooth retraction
+
+$$
+  \eta_n : \Delta^n \times [0,1] \to \Delta^n  
+   \,.
+$$
+
+
+This induces a diagram of presheaves
+
+$$
+  \array{
+     \exp(\mathfrak{g})_n
+      \\
+      \downarrow & \searrow^{\mathrm{id}}
+      \\
+     \exp(\mathfrak{g})_n \times [0,1] &\stackrel{\eta_n^*}{\to}& \exp(\mathfrak{g})_n
+      \\
+      \uparrow & & \uparrow
+      \\
+      \exp(\mathfrak{g})_n &\to& *
+  }
+$$
+
+where over $U \in CartSp$ the middle morphism is given by
+
+$$
+  \eta_n^*  & : (\alpha, (U \stackrel{f}{\to} [0,1]))
+      \mapsto (f,\eta_n)^* \alpha
+  \,,
+$$
+
+where 
+
+* $\alpha : CE(\mathfrak{g}) \to \Omega^\bullet_{vert}(U \times \Delta^n)$ is an element of $\exp(\mathfrak{g})_n(U)$, 
+
+* $f$ is an element of $[0,1](U)$;
+
+* $(f,\eta_n)$ is the composite morphism
+
+  $$
+    U \times \Delta^n  
+       \stackrel{(Id,f)}{\to}
+    U \times [0,1] \times \Delta^n
+      \stackrel{(Id,\eta_n)}{\to}
+    U \times \Delta^n
+    \;
+  $$
+
+* $(f,\eta)^* \alpha$ is the postcomposition of $\alpha$ with
+  the image of $(f,\eta_n)$ under $\Omega^\bullet_{vert}$.
+
+Since $[0,1]$ is a contractible paracompact manifold, we have $\Pi([0,1]) \simeq *$ by the [above proposition](#StrucGeometricHomotopy).
+ 
+By the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Homotopy">propositon about geometric homotopy</a> in a [[cohesive (∞,1)-topos]] it follows that 
+$\Pi(\exp(\mathfrak{g})_n) \simeq *$.
+
+=--
 
 #### Examples
 
