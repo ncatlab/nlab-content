@@ -122,6 +122,9 @@ A Grothendieck topos has enough points precisely when it underlies a bounded [[i
 
   in the context of the [[model structure on simplicial presheaves]].
 
+## Examples
+
+* Points of [[over-topos]]es are discussed at <a href="http://ncatlab.org/nlab/show/over-topos#Points">over topos -- points</a>.
 
 ## References ##
 
