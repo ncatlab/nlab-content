@@ -135,13 +135,13 @@ For $E = Sh(C) \stackrel{\Gamma = Hom(*,-)}{\to} Set$ the [[category of sheaves]
 +-- {: .proof}
 ###### Proof
 
-Since $C$ is concrete, in the [[global sections]] [[geometric morphism]] $(L Const,\Gamma)\colon Sh(C) \to Set$, the [[direct image]] $\Gamma$ is evaluation on the point: $X\mapsto X(*)$. The further [[right adjoint]] $Codisc \colon Set\to Sh(C)$, sends a set $A$ to the functor $U\mapsto Hom_{Set}(Hom_C(*,U),A)$.  Moreover, this right adjoint $Codisc$ is [[full and faithful functor|fully faithful]] and thus embeds $Set$ as a [[subtopos]] of $Sh(C)$.  
+Since $C$ is concrete, in the [[global sections]] [[geometric morphism]] $(Disc,\Gamma)\colon Sh(C) \to Set$, the [[direct image]] $\Gamma$ is evaluation on the point: $X\mapsto X(*)$. The further [[right adjoint]] $Codisc \colon Set\to Sh(C)$, sends a set $A$ to the functor $U\mapsto Hom_{Set}(Hom_C(*,U),A)$.  Moreover, this right adjoint $Codisc$ is [[full and faithful functor|fully faithful]] and thus embeds $Set$ as a [[subtopos]] of $Sh(C)$.  
 
-We observe that $ (\Gamma \dashv Codisc) : Set \to  Sh(C)$ is the [[localization]] of $Sh(C)$ at the set $\{L Const \Gamma U \to U | U \in C\}$ of counits of the adjunction $(L Const \dashv \Gamma)$ on representables: because if for $X \in Sh(C)$ we have that
+We observe that $ (\Gamma \dashv Codisc) : Set \to  Sh(C)$ is the [[localization]] of $Sh(C)$ at the set $\{Disc \Gamma U \to U | U \in C\}$ of counits of the adjunction $(Disc \dashv \Gamma)$ on representables: because if for $X \in Sh(C)$ we have that
 
 $$
   \begin{aligned}
-     Hom_{Sh(C)}(L Const \Gamma U \to U, X) 
+     Hom_{Sh(C)}(Disc \Gamma U \to U, X) 
      & = (X(U) \to Hom_{Set}(\Gamma(U), \Gamma(X)))
      \\
      & = (X(U) \to Hom_{Set}(Hom_C(*,U)), X(*))
