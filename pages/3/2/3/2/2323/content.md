@@ -37,7 +37,28 @@
 
   * [[connected|n-connected object]]
 
+  * [[topos|(1,1)-topos]]
+
+    * [[presheaf]]
+
+    * [[sheaf]]
+
+  * [[(2,1)-topos]]
+
+    * [[(2,1)-presheaf]]
+
 * [[(∞,1)-quasitopos]]
+
+  * [[separated (∞,1)-presheaf]]
+
+  * [[quasitopos]]
+
+    * [[separated presheaf]]
+
+  * [[(2,1)-quasitopos]]
+
+    * [[separated (2,1)-presheaf]]
+  
 
 ## Characterization ##
 
