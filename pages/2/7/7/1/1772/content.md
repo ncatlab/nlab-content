@@ -163,6 +163,8 @@ So the concrete sheaves on $C$ are precisely the [[separated presheaf|separated 
 
 ## Properties
 
+### General
+
 Let $\Gamma : E \to S$ be a [[local topos]]. From the definition of concrete sheaves as [[separated presheaves]] it follows immediately that
 
 +-- {: .un_prop}
@@ -189,6 +191,86 @@ $$
 
 =--
 
+
+### Slice topos over a concrete object {#SliceOverConcreteObject}
+
+Let $(Disc \dashv \Gamma \dashv coDisc) :  \mathcal{E} \to \mathcal{S}$ be a [[Grothendieck topos]] that is a  [[local topos]] over $\mathcal{S}$ and let $X \in \mathcal{E}$ be a concrete object, equivalently an object such that the $(\Gamma \dashv coDisc)$-[[unit of an adjunction|counit]] $X \to coDisc \Gamma U$ is a [[monomorphism]].
+
+We discuss properties of the [[over-topos]] $\mathcal{E}/X$.
+
+Notice that
+
+$$
+  e_0 := (\Gamma \dashv coDisc) : \mathcal{S} \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}} \mathcal{E}
+$$
+
+is the canonical [[point of a topos|topos point]] of $\mathcal{E}$. 
+
++-- {: .un_prop}
+###### Observation
+
+For every [[global element]] $(x \in \Gamma(X)) : * \to X$ (for every $X \in \mathcal{E}$) there is a [[point of a topos|topos point]] of the form
+
+$$
+  (e_0,x)
+  : 
+  \mathcal{S} 
+    \stackrel{\overset{x^*}{\leftarrow}}{\underset{x_*}{\to}}
+  \mathcal{S}/\Gamma(X)
+    \stackrel{\overset{\Gamma/X}{\leftarrow}}{\underset{coDisc/X}{\to}}
+  \mathcal{E}/X
+  \,.
+$$
+
+=--
+
+This is discussed in detail at <a href="http://ncatlab.org/nlab/show/over-topos#Points">over-topos -- points</a>.
+
++-- {: .un_prop}
+###### Observation
+**(relative concretization)**
+
+Let $X \in \mathcal{E}$ be concrete. Then the image under the
+$coDisc/X \circ \Gamma/X$-[[monad]] of any object $(A \to X) \in \mathcal{E}/X$ is an object $(\tilde A \to X)$ with $\tilde A$ being concrete.
+
+This $\tilde A$ is the finest concrete sheaf tructure on $\Gamma A$ that extends $\Gamma A \to \Gamma X$ to a morphism of concrete sheaves.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of the <a href="http://ncatlab.org/nlab/show/adjoint+(infinity%2C1)-functor#OnSlices">slice geometric morphism</a> we have that $coDisc/X \circ \Gamma/X (A \stackrel{f}{\to} X)$ is the [[pullback]] $\tilde A \to X$ in 
+
+$$
+  \array{
+    \tilde A &\to & coDisc \Gamma A
+    \\
+    \downarrow && \downarrow^{\mathrlap{coDisc \Gamma A}}
+    \\
+    X &\to& coDisc \Gamma X
+  }
+  \,,
+$$
+
+where the bottom morphism is the $(\Gamma \dashv coDisc)$-[[unit of an adjunction|unit]]. Since this is a [[monomorphism]] by assumption on $X$ it follows that $\tilde A\to coDisc \Gamma A$ is a monomorphism. Since $coDisc$ is a [[full and faithful functor]] by assumption on $\mathcal{E}$ and $\Gamma$ is a [[right adjoint]] it follows that the [[adjunct]] $\Gamma \tilde A \to \Gamma coDisc\Gamma A \stackrel{\simeq}{\to} \Gamma A$ is a monomorphism, as is its image $coDisc \Gamma \tilde A\to coDisc \Gamma A$ under the [[right adjoint]] $coDisc$.
+
+Then by the <a href="http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows">universal property of the unit</a> we have a commuting diagram
+
+$$
+  \array{
+    && coDisc \Gamma \tilde A
+    \\
+    & \nearrow & \downarrow
+    \\
+    \tilde A &\to& coDisc \Gamma A 
+  }
+  \,,
+$$
+
+where the bottom and the right morphisms are [[monomorphism]]s. Therefore also the diagonal morphism, the $(\Gamma \dashv coDisc)$-unit on $\tilde A$, is a monomorphism, and hence $\tilde A$ is concrete.
+
+=--
 
 
 ## Examples
