@@ -9,7 +9,7 @@
 =--
 =--
 
-> This page contains the beginning of the LaTeX-to-instiki conversion of an article to be submitted for peer-review to the [[annals:HomePage|Annals of the nLab]].
+> This page contains the beginning of the LaTeX-to-instiki conversion of an article to be submitted for peer-review to the [[proceedings:HomePage|Proceedings of the nLab]].
 
 # An Informal Introduction to Topos Theory #
 {: #title}
