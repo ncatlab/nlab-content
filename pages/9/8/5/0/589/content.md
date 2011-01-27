@@ -1,7 +1,29 @@
-A [[category]] $D$ is **complete** if it has all small [[limit|limits]]: that is, if every diagram 
+
+# Complete categories
+* table of contents
+{: toc}
+
+## Definition
+
+A [[category]] $C$ is **complete** if it has all small [[limit|limits]]: that is, if every diagram 
 
 $$ F: D \to C$$
 
 where $D$ is a [[small category]] has a limit in $C$.
 
+Sometimes one says that $C$ is __small-complete__ to stress that $D$ must be small; compare [[finitely complete category]].  Also compare [[complete small category]], which is different; here we see that any [[small category]] that is also small-complete must be [[thin category|thin]] (at least classically).
+
+
+## Examples
+
 Many familiar categories of mathematical structures are complete: to name just a few examples, [[Set]], [[Grp]], [[Ab]], [[Vect]] and [[Top]] are complete.
+
+As hinted above, every [[complete lattice]] is complete as a category.
+
+
+[[!redirects complete category]]
+[[!redirects complete categories]]
+[[!redirects small-complete category]]
+[[!redirects small-complete categories]]
+[[!redirects smally complete category]]
+[[!redirects smally complete categories]]
