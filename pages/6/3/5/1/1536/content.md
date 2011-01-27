@@ -333,9 +333,11 @@ $$
   \,.
 $$
 
-This functor may equivalently be expressed as follows:
+This functor may equivalently be expressed as follows.
 
-for given $(E \stackrel{p}{\to} C)$ consider the [[weak limit|weak pushout]]
+#### In terms of a cone construction {#Cone}
+
+For given $(E \stackrel{p}{\to} C)$ consider the [[(2,1)-limit|(2,1)-pushout]]
 
 $$
   \array{
@@ -347,9 +349,9 @@ $$
   }
 $$
 
-of _[[2-categories]]_  (so that $K(p)$ is a [[2-category]]) where $K^{\triangleright}$ is $K$ with one [[terminal object]] $v$ adjoined (a [[join of quasi-categories|join]] of categories).
+of _[[(2,1)-categories]]_ , where $K^{\triangleright}$ is $K$ with one [[terminal object]] $v$ adjoined (a [[join of quasi-categories|join]] of categories). (Here $E$, $C$ and $E^{\triangleright}$ are 1-catgeories regarded trivially as $(2,1)$-categories and where $K(p)$ will in general be a [[(2,1)-category]] with nontrivial [[2-morphism]]s).
 
-#### In terms of a cone construction {#Cone}
+
 
 +-- {: .un_lemma }
 ###### Claim
