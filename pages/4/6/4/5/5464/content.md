@@ -35,9 +35,9 @@ These notes are for people even less expert than me.
 
 In keeping with the spirit of the talks, what follows is light on both detail
 and references.  For the reader wishing for more, almost everything
-here is presented in respectable form in Mac Lane and Moerdijk's very pleasant
-introduction to topos theory ([MaMo](#MaMo)).  Nothing here is new, not even
-the expository viewpoint (very loosely inspired by [JohSE](#JohSE)).
+here is presented in respectable form in [Mac Lane and Moerdijk's](#MaMo) very pleasant
+introduction to topos theory.  Nothing here is new, not even
+the expository viewpoint (very loosely inspired by [Johnstone](#JohSE)).
 
 As a rough indication of the level of knowledge assumed, I will take it that
 you are totally comfortable with the Yoneda Lemma and the concept of
