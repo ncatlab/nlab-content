@@ -15,7 +15,9 @@ $\underoverset{a}{b}{\to}$
 
 ## You don't see the next symbols displayed properly: $\mathbf{B}G$ ## {: #BecauseOfThisAnchor}
 
-## You don't see the next symbols displayed properly: $\mathbf{B}G$ ##
+You don't see the next symbols displayed properly: $\mathbf{B}G$
+--
+{: #AnAnchor}
 
 ## You don't see the next symbols displayed properly: $B G$ ## {: #BecauseOfThisAnchor}
 
