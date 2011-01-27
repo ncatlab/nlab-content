@@ -51,7 +51,7 @@ This means that algebraic Kan complexes are formally an _algebraic model_ for hi
 
 See [[model structure on algebraic fibrant objects]] for details.
 
-### Homomtopy hypothesis-theorem
+### Homotopy hypothesis-theorem
 
 The [[homotopy hypothesis]] is true for algebraic Kan complexes: 
 
@@ -76,7 +76,7 @@ In the absence of AC, one might argue that algebraic Kan complexes are a better 
 
 ## References
 
-* [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
+* [[Thomas Nikolaus]], _Algebraic models for higher categories_, [arXiv/1003.1342](http://arxiv.org/abs/1003.1342)
 {#Nikolaus}
 
 [[!redirects algebraic Kan complex]]
