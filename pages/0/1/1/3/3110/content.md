@@ -89,6 +89,11 @@ The existence of this model structure implies, in particular, that under COSHEP 
 
 Is there a dual model structure in which all categories are cofibrant?  This seemingly has to do with [[stack]] completion: the fibrant objects would be *stacks* for the [[regular coverage]] of $Set$.  (Without AC, not all small categories are stacks.)  Is Makkai's [[axiom of small cardinality selection]] (which he uses, instead of COSHEP, to prove that $Ana(C,D)$ is essentially small) sufficient for the existence of an "injective" model structure on Cat?
 
+## Related concepts
+
+* **canonical model structure on $Cat$**
+
+* [[canonical model structure on groupoids|canonical model structure on Grpd]]
 
 [[!redirects natural model structure on Cat]]
 [[!redirects folk model structure on Cat]]
