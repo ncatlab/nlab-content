@@ -11,7 +11,7 @@
 
 A _2-dimensional TQFT_ is a [[TQFT|topological quantum field theory]] on [[cobordism]]s of dimension 2. 
 
-If one understands this as an [[FQFT]]s wtih values in [[Vect]], then the central classification theorem of 2d TQFTs states that they induce the structure of a commutative [[Frobenius algebra]] on the vevtor space associated to the circle, and that this establishes an equivalence between 2d QFTs and Frobenius algebras. An anaalogous result holds for open-closed 2d TQFTs, where codimension 1 manifolds are also allowed to contain [[interval]]s.
+If one understands this as an [[FQFT]]s wtih values in [[Vect]], then the central classification theorem of 2d TQFTs states that they induce the structure of a commutative [[Frobenius algebra]] on the vector space associated to the circle, and that this establishes an equivalence between 2d QFTs and Frobenius algebras. An analogous result holds for open-closed 2d TQFTs, where codimension 1 manifolds are also allowed to contain [[interval]]s.
 
 
 
@@ -297,4 +297,3 @@ A standard textbook is
 A picture-rich description of what's going on is in 
 
 * [[Aaron Lauda]] and Hendryk Pfeiffer, _Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras_ , Topology Appl. 155 (2008) 623-666. ([arXiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664))
-
