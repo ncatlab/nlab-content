@@ -337,7 +337,7 @@ follows with the [[adjoint functor theorem]].
 
 +-- {: .un_theorem}
 ###### Theorem 
-**(presentation of $(\infty,0)$-Grothendieck construction)**
+**(presentation of the $(\infty,0)$-Grothendieck construction)**
 
 
 The straightening and the unstraightening functor constitute a [[Quillen adjunction]]
