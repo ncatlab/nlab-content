@@ -2,6 +2,8 @@ A **complete lattice** is a [[partial order|poset]] which has all [[join|joins]]
 
 Complete lattices and complete lattice homomorphisms form a [[concrete category]] [[CompLat]].
 
+Regarded as a [[small category]], a complete lattice is [[complete category|complete]].  Conversely, in [[classical logic]] and in any [[Grothendieck topos]], any [[complete small category]] is in fact a preorder, and hence a complete lattice.
+
 
 ## Examples
 
