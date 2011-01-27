@@ -1731,7 +1731,7 @@ The inclusion $U(1)_{const}[n] \to U(1)[n]$ is not yet a fibration. But by a bas
  
 =--
 
-#### With coefficients in $\mathbf{B}G$ for $G$ a Lie group {#LieGroupFlatCoefficients}
+#### With coefficients in $\mathbf{B}G$ for $G$ a Lie group 
 
 Let $G$ be a [[Lie group]] regarded as a [[0-truncated]] [[∞-group]]
 in $Smooth \infty Grpd$. Write $\mathfrak{g}$ for its [[Lie algebra]].
@@ -1740,6 +1740,7 @@ Recall the fibrant presentation
 $\mathbf{B}G_c \in [CartSp_{smooth}^{op}, sSet]_{proj,loc}$ from 
 [above](#DeloopedLieGroup).
 
+{#LieGroupFlatCoefficients}
 
 +-- {: .un_prop #LieGroupFibrantFlatInclusion}
 ###### Proposition
@@ -2305,12 +2306,12 @@ Finally the same argument that above showed that no nontrivial automorphisms of 
 
 
 
-#### With coefficients in $\mathbf{B}G$ for a Lie group $G$ {#LieGroupDeRhamCoefficients}
+#### With coefficients in $\mathbf{B}G$ for a Lie group $G$ 
 
 Let $G$ be a [[Lie group]]. Write $\mathfrak{g}$ for its 
 [[Lie algebra]] 
 
-+-- {: .un_prop }
++-- {: .un_prop #LieGroupDeRhamCoefficients}
 ###### Proposition
 
 The object $\mathbf{\flat}_{dR}\mathbf{B}G \in Smooth \infty Grpd$
