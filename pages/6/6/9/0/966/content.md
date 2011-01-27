@@ -54,29 +54,7 @@ $$
 
 It is easy to check that these would be the unit and counit of an [[adjunction]] $L\dashv R$.
 
-The problem with this would-be argument is that in general the comma category $(c/G)$ may not be [[small category]]. But one can generally not expect a large category to have all large limits: even if we pass to a [[universe]] in which $(c/G)$ is considered small, a classical theorem of Freyd says that 
-
-+-- {: .un_theorem}
-###### Theorem
-
-If (in some [[universe]] $U$) a $U$-small [[category]] $D$ has [[product]]s of families of objects whose size is at least that of its set of morphisms, then $D$ is a [[preorder]].  
-
-In other words: any [[small category|U-small]] [[complete category|U-small-complete category]] is a [[preorder]].  
-
-=--
-
-+-- {: .proof}
-######Proof
-
-Let $x$, $y$ be any two objects, and suppose (contrary to $D$ being a preorder) that there are at least two different morphisms $x \stackrel{\overset{g}{\to}}{\underset{f}{\to}} y$. Then the set of morphisms 
-
-$$x \to \prod_{f \in Mor(D)} y$$ 
-
-has [[cardinality]] at least $2^{|Mor(D)|} \gt |Mor(D)|$, which is a contradiction. 
-
-=-- 
-
-Thus, the argument we gave above is necessarily an **adjoint functor theorem for preorders**: 
+The problem with this would-be argument is that in general the comma category $(c/G)$ may not be [[small category]]. But one can generally not expect a large category to have all large limits: even if we pass to a [[universe]] in which $(c/G)$ is considered small, a classical theorem of Freyd says that any [[complete small category]] is a [[preorder]] (see [[complete small category]] for the proof, which is valid in [[classical logic]] as well as internally in any [[Grothendieck topos]]).  Thus, the argument we gave above is necessarily an **adjoint functor theorem for preorders**: 
 
 +-- {: .un_theorem}
 ###### Theorem
