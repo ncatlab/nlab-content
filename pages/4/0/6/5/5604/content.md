@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
-
 
 # Complete small categories
 * toc
@@ -22,7 +21,7 @@
 
 A **complete small category** (or **small complete category**) is a [[category]] which is both [[small category|small]] (has only a [[set]] of [[objects]] and [[morphisms]]) and [[complete category|complete]] (has a [[limit]] of every small [[diagram]]).
 
-(Note that the phrase "small-complete category" is sometimes used to mean merely a complete category, i.e. one which is "complete relative to small diagrams".)
+(Note that the phrase "[[small-complete category]]" is sometimes used to mean merely a complete category, i.e. one which is "complete relative to small diagrams".  Therefore, "complete small category" is a safer term for our concept.)
 
 
 ## In classical logic
@@ -53,11 +52,14 @@ has [[cardinality]] at least $2^{|Mor(D)|} \gt |Mor(D)|$, which is a contradicti
 The [[internal logic]] of a [[topos]] is not, in general, classical, so the above proof does not apply when considering [[internal categories]] in a topos.  However, in a [[Grothendieck topos]], one can show that the conclusion still holds by essentially reducing the question to the analogous one in $Set$.  A brief description of the argument can be found in the answer to [this question](http://mathoverflow.net/questions/43433/small-complete-categories-in-a-grothendieck-topos).
 
 
-## In realizability toposes
+## In more general toposes and constructive mathematics
 
 However, it is possible to have non-preorder complete small categories in non-Grothendieck topoi.  In particular, the [[effective topos]], along with most other [[realizability topos|realizability toposes]], does contain such internal categories.  These categories have applications to the modeling of impredicative [[type theory]].
 
+It follows that, in [[constructive mathematics]], it is impossible to prove even that every complete small category in $Set$ or in a Grothendieck topos must be a preorder.
 
+
+[[!redirects complete small category]]
 [[!redirects complete small categories]]
 [[!redirects small complete category]]
 [[!redirects small complete categories]]
