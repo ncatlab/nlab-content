@@ -8,8 +8,16 @@ $\underoverset{a}{b}{\to}$
 
 ***
 
-* tic
+#Contents#
+* toc
 {:toc}
+
+
+## You don't see the next symbols displayed properly: $\mathbf{B}G$ {#BecauseOfThisAnchor}
+
+Right?
+
+## Is there lots of vertical whitespace here $\mathfrak{ggg}$ ???
 
 ## Breakpoint
 
