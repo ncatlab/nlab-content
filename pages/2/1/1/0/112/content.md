@@ -9,18 +9,6 @@
 =--
 =--
 
-* **object**
-
-* [[morphism]]
-
-* [[2-morphism]]
-
-* [[3-morphism]]
-
-* [[k-morphism]]
-
-***
-
 #Contents#
 * table of contents
 {:toc}
