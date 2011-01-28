@@ -158,7 +158,7 @@ Parts of the above text have been taken from blog discussion [here](http://sbsem
 
 # Recorded lectures #
 
-A videa of Lurie lecturing on his theorem is here:
+A video of Lurie lecturing on his theorem is here:
 
 * [[Jacob Lurie]], _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
 
