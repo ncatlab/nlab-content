@@ -5,19 +5,14 @@
 
 ## Idea
 
-A **sesquicategory** is a [[2-category]] in which the [[interchange law]] need not hold.
+A **sesquicategory** is a (strict) [[2-category]] in which the [[interchange law]] need not hold.
 
 
 ## Definition
 
-Sesquicategories can be defined just as for [[2-categories]] except with the interchange law left out.  (In order for this to make sense, one has to spell the definition out explicitly enough that the interchange law is a separate axiom.  In partircular, a sesquicategory does not have a composition functor $\hom(y,z)\times \hom(x,y)\to\hom(x,z)$.)
+Sesquicategories can be straightforwardly defined just as for strict [[2-categories]] except with the interchange law left out.  (In order for this to make sense, one has to spell out the definition explicitly enough that the interchange law is a separate axiom.)  This means that composition in a sesquicategory cannot be [[functor]] $\hom(y,z)\times \hom(x,y)\to\hom(x,z)$.  So sesquicategories are more usually defined as categories [[enriched category|enriched in]] [[Cat]], where the monoidal structure for the enrichment is not the usual cartesian product but the tensor adjoint to the 'unnatural' hom, in which the hom-category $[C,D]$ has morphisms given by $C$-indexed families of arrows of $D$ _without_ any naturality requirement.
 
-Alternatively, a (strict) sesquicategory may be given as a category $C$ together with a functor $H \colon C^{op} \times C \to Cat$ whose composite $ob \circ H \colon C^{op} \times C \to Cat \to Set$ with the underlying-set functor is equal to the hom functor of $C$.
-
-A third definition says that a (strict) sesquicategory is given by a category $C$ together with a [[span]] $H \rightrightarrows hom_C$ of [[profunctors]] and transformations $\hom_C \to H \leftarrow H \times_{\hom_C} H$ making $H$ into an [[internal category]] in $[C^{op} \times C, Set]$.
-
-Fourthly, sesquicategories can be defined as categories [[enriched category|enriched in]] categories, where the monoidal structure for the enrichment is not the usual cartesian product but the tensor adjoint to the 'unnatural' hom, in which the hom-category $[C,D]$ has morphisms given by $C$-indexed families of arrows of $D$ _without_ any naturality requirement.
-
+Alternatively, a sesquicategory may be given as a category $C$ together with a functor $H \colon C^{op} \times C \to Cat$ whose composite $ob \circ H \colon C^{op} \times C \to Cat \to Set$ with the underlying-set functor is equal to the hom functor of $C$.  Because of the equivalence $[C, Cat(D)] \simeq Cat [C,D]$ (for [[finitely complete category|finitely complete]] $D$), this is the same as saying that a sesquicategory is given by a category $C$ together with an internal category $H$ in $[C^{op} \times C, Set]$ whose object $H_0$ of objects is the [[hom functor]] $hom_C$ of $C$.
 
 ## Remarks
 
@@ -38,7 +33,7 @@ The paper [Brown (2010)](#Brown) shows how a sesquicategory arises from a whiske
 {#catlist}
 
 * Stell, J., Modelling term rewriting by sesquicategories.
-Technical report, University of Keele ~(TR94-02).
+Technical report, University of Keele (TR94-02).
 {#Stell}
 
 * [[Ross Street]], _Categorical structures_, p. 529--577 in Handbook of Algebra, vol. 1, edited by M. Hazewinkel, Elsevier  1996.
