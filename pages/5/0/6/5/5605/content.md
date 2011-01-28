@@ -19,7 +19,7 @@ The Barratt-Eccles operad is a realization of an [[E-infinity operad]].
 
 As a [[topological operad]] it is given by $P_n := E \Sigma_n$, the [[universal principal bundle]] for the [[symmetric group]] $\Sigma_n$. As an [[sSet]]-operad it has $P_n = N(\Sigma_n // \Sigma_n)$.
 
-The $\Sigma_n$-[[action]] on $P_n$ this from the definition of symmetric operad is the natural actio of $\Sigma_n$ on this universal bundle.
+The $\Sigma_n$-[[action]] on $P_n$ this from the definition of symmetric operad is the natural action of $\Sigma_n$ on this universal bundle.
 
 ## References
 
