@@ -228,7 +228,6 @@ Some examples
 &nbsp;
 =--
 
-
 category: meta
 
 [[!redirects Symbol Sandbox]]
