@@ -17,16 +17,23 @@
 
 ## Idea
 
-The [[(∞,1)-algebraic theory]] whose [[∞-algebra over an (∞,1)-algebraic theory|algebras]] are [[E-∞ algebra]]s is the $(2,1)$-category of [[span]]s of [[finite set]]s.
+The [[(∞,1)-algebraic theory]] whose [[∞-algebra over an (∞,1)-algebraic theory|algebras]] are [[E-∞ algebra]]s is the [[(2,1)-category]] of [[span]]s of [[finite set]]s.
 
 
 ## Definition
 
 
+
 +-- {: .un_defn}
 ###### Definition
 
-Let $2Comm$ be the [[bicategory]] of [[span]]s of [[finite set]]s:
+Let 
+
+$$
+  2Comm := Span(FinSet)
+$$ 
+
+be the [[(2,1)-category]] of [[span]]s of [[finite set]]s:
 
 * [[object]]s are finite sets;
 
@@ -40,7 +47,7 @@ Let $2Comm$ be the [[bicategory]] of [[span]]s of [[finite set]]s:
         \\
         & \swarrow && \searrow
         \\
-       X_0 &&\downarrow^{\simeq}&& X_1
+       X_0 &&\downarrow^{\mathrlap{\simeq}}&& X_1
        \\
        & \nwarrow && \nearrow
        \\
@@ -48,14 +55,88 @@ Let $2Comm$ be the [[bicategory]] of [[span]]s of [[finite set]]s:
     }
   $$
 
-  in $FinSet$ whith the vertical morphism an [[isomorphism]].
+  in [[FinSet]] whith the vertical morphism an [[isomorphism]].
+
+=--
+
++-- {: .un_prop}
+###### Observation
+
+The [[homotopy category of an (infinity,1)-category|homtopy category]] of $2Comm$ is the category $Comm$ that is the [[Lawvere theory]] of commutative [[monoid]]s.
 
 =--
 
 
-This is in fact an [[(n,r)-category|(2,1)-category]]. 
++-- {: .proof}
+###### Proof
+
+The Lawvere theory of commutative monoids has as objects the free commutative monoids $F[k]$ on $k \in \mathbb{N}$ generators, and as morphisms monoid homomorphisms.
+
+By the [[free functor|free property]], morphisms
+
+$$
+  f : F[k] \to F[l]
+$$
+
+are in natural bikection to $k$-tuples of elements of $F[l]$. Such elements in turn are sums $a_1 + a_1 + \cdots + a_1 + a_2 + a_2 + \cdots + a_2 + a_3 + \cdots$ of copies of the $l$ generators, hence are in bijection to sequences of natural numbers $(n_{1}, \cdots, n_l)$. Hence morphisms $f : F[k] \to F[l]$ are in bijection to $k \times l$-[[matrices]] with entries in the [[natural number]]s. 
+
+One checks that under this identification composition of morphisms corresponds to matrix multiplication.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+For instance the spans
+
+$$
+  \{1,2\} \stackrel{id}{\leftarrow} \{1,2\} \to \{1\}
+$$
+
+and
+
+$$
+  \{1,2\} \stackrel{\simeq}{\leftarrow} \{2,1\} \to \{1\}
+$$
+
+describe the operation
+
+$$
+  (a,b) \mapsto a + b
+$$
+
+and the operation
+
+$$
+  (a,b) \mapsto b + a
+  \,,
+$$
+
+respectively. Clearly, in $Comm$ both these operations are identified. In $2Comm$ however they the are only equivalent
+
+$$
+  \array{
+      && \{1,2\}
+      \\
+      & {}^{\mathllap{id}}\swarrow && \searrow
+      \\
+     \{1,2\} &&\downarrow^{\mathrlap{\simeq}}&& \{1\}
+     \\
+     & {}_{\mathllap{\simeq}}\nwarrow && \nearrow
+     \\
+     && \{2,1\}
+  }
+  \,.
+$$
+
+
+=--
+
+
 
 ## Properties
+
+
 
 
 +-- {: .un_lemma}
