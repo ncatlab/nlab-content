@@ -228,6 +228,69 @@ Some examples
 &nbsp;
 =--
 
+
+To add a floating TOC to a new page, in such a way that it will be automatically collapsed until moused over, use code such as the following at the top of the page (without the space before `!include`):
+
+     +-- {: .rightHandSide}
+     +-- {: .toc .clickDown tabindex="0"}
+     ### Context
+     #### Category Theory
+     +-- {: .hide}
+     [[ !include category theory - contents]]
+     =--
+     =--
+     =--
+
+If you want to include multiple contents pages, you can repeat the four lines from the one starting with `####` 
+
+To add a floating TOC to a new page, in such a way that it will be automatically collapsed until moused over, use code such as the following at the top of the page (without the space before `!include`):
+
+     +-- {: .rightHandSide}
+     +-- {: .toc .clickDown tabindex="0"}
+     ### Context
+     #### Category Theory
+     +-- {: .hide}
+     [[ include category theory - contents]]
+     <nowiki>[[ !include category theory - contents]]</nowiki>
+     =--
+     =--
+     =--
+
+If you want to include multiple contents pages, you can repeat the four lines from the one starting with `####` 
+
+To add a floating TOC to a new page, in such a way that it will be automatically collapsed until moused over, use code such as the following at the top of the page (without the space before `!include`):
+
+<nowiki>
+     +-- {: .rightHandSide}
+     +-- {: .toc .clickDown tabindex="0"}
+     ### Context
+     #### Category Theory
+     +-- {: .hide}
+     [[!include category theory - contents]]
+     =--
+     =--
+     =--
+</nowiki>
+
+If you want to include multiple contents pages, you can repeat the four lines from the one starting with `####` 
+
+To add a floating TOC to a new page, in such a way that it will be automatically collapsed until moused over, use code such as the following at the top of the page (without the space before `!include`):
+
+<pre>
+     +-- {: .rightHandSide}
+     +-- {: .toc .clickDown tabindex="0"}
+     ### Context
+     #### Category Theory
+     +-- {: .hide}
+     [[!include category theory - contents]]
+     =--
+     =--
+     =--
+</pre>
+
+If you want to include multiple contents pages, you can repeat the four lines from the one starting with `####` 
+=--
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
