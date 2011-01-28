@@ -321,17 +321,17 @@ It is also important that the section headings not contain anything that shouldn
 
 Many pages include a "floating table of contents" at the top right-hand side with links to other pages on similar topics.  The lists of related pages are separate pages with names such as [[category theory - contents]]; if you want to create a new one, look at the syntax of existing ones.
 
-To add a floating TOC to a new page, in such a way that it will be automatically collapsed until moused over, use code such as the following at the top of the page (without the space before `!include`):
+To add a floating TOC to a new page, in such a way that it will be automatically collapsed until moused over, use code such as the following at the top of the page:
 
-     +-- {: .rightHandSide}
-     +-- {: .toc .clickDown tabindex="0"}
-     ### Context
-     #### Category Theory
-     +-- {: .hide}
-     [[ !include category theory - contents]]
-     =--
-     =--
-     =--
+<pre> +-- {: .rightHandSide}
+ +-- {: .toc .clickDown tabindex="0"}
+ ### Context
+ #### Category Theory
+ +-- {: .hide}
+ [[!include category theory - contents]]
+ =--
+ =--
+ =--</pre>
 
 If you want to include multiple contents pages, you can repeat the four lines from the one starting with `####` through the first `=--` line.
 
