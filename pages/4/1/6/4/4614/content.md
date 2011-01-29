@@ -224,9 +224,7 @@ Comments on the relation between properness and cofibrancy in the [[Reedy model 
 
 ## Refereeing
 
-This entry is under review for the [[publications:HomePage|Publications of the nLab]]. 
-
-See [[publications:geometric realization of simplicial topological spaces]].
+This entry is under review. See <a href="http://ncatlab.org/nlabreviewed/published/geometric+realization+of+simplicial+topological+spaces">geometric realization of simplicial topological spaces</a> at [[nlabreviewed:HomePage|nLab (reviewed)]].
 
 
 [[!redirects geometric realization of a simplicial space]]
