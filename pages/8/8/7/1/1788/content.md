@@ -221,7 +221,8 @@ Some examples
 3.  This step is left to the reader.
 =--
 
-+-- {: .proof}
++-- {: .proof}\newvariant{locconstR}{c}
+
 ###### Proof
 &nbsp;
 1.  Because I said so.
@@ -290,6 +291,12 @@ To add a floating TOC to a new page, in such a way that it will be automatically
      =--
      =--
 </pre>
+
+
+~~~
+[[&excl;include SVG rightarrow]]
+~~~
+
 
 If you want to include multiple contents pages, you can repeat the four lines from the one starting with `####` 
 
