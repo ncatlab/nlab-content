@@ -45,6 +45,8 @@ If $L \subset X$ is a [[closed subset]] and $U \subset X$ is an [[open subset]] 
 
 =--
 
+See ([Wockel](#Wockel))
+
 
 ## Examples
 
@@ -80,7 +82,7 @@ To apply the [generalized Steenrod theorem](#GeneralizedSteenrodTheorem) with th
 
 * let $U := Z \times (0,1)$.
 
-Then because by assumption $\eta$ is a continuous [[delayed homotopy]] between smooth functions, it follows that $\sigma$ is smooth in a neighbourhood $Z \times ([0,\epsilon) \coprod (1-\epsilon,1])$ of $L$.
+Then because by assumption $\eta$ is a continuous [[delayed homotopy]] between [[smooth function]]s, it follows that $\sigma$ is smooth in a neighbourhood $Z \times ([0,\epsilon) \coprod (1-\epsilon,1])$ of $L$.
 
 So the theorem applies and provides a smooth  homotopy
 
@@ -92,12 +94,6 @@ which moroever is itself (continuously) homotopic to $\eta$ via some continuous 
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-See ([Wockel](#Wockel))
-
-=--
 
 
 ## References
