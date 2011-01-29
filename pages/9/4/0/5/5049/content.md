@@ -31,9 +31,9 @@ Let $X$ be a finite [[dimension]]al [[connected]] [[smooth manifold]] [[manifold
 
 If $L \subset X$ is a [[closed subset]] and $U \subset X$ is an [[open subset]] such that $\sigma$ is [[smooth function|smooth]] in a [[neighbourhood]] of $L \setminus U$, then:
 
-1. for each open neighbourhood $O$ of $\sigma(X)$ in $E$ there exists a section $\tau : X \to O$ 
+1. for each [[open neighbourhood]] $O$ of $\sigma(X)$ in $E$ there exists a [[section]] $\tau : X \to O$ 
 
-   * which is smooth in a neighbourhood of $L$;
+   * which is [[smooth function|smooth]] in a neighbourhood of $L$;
 
    * and which equals $\sigma$ on $X \setminus U$;
 
@@ -64,7 +64,7 @@ Then there exists also smooth homotopy between $f$ and $g$ which is itself conti
 ###### Proof
 
 
-To apply the [generalized Steenrod theorem](#GeneralizedSteenrodTheorem) with the notation as stated there, makes the following identifications
+To apply the [generalized Steenrod theorem](#GeneralizedSteenrodTheorem) with the notation as stated there, make the following identifications
 
 * set $X := Z \times [0,1]$;
 
@@ -72,11 +72,11 @@ To apply the [generalized Steenrod theorem](#GeneralizedSteenrodTheorem) with th
 
 * let $E = Z \times [0,1] \times Y$ be the trivial $Z$-bundle over $X$
 
-  (so a section of $E$ is nothing but a function $Z \times[0,1] \to Y$)
+  (so that sections of $E$ are equivalently functions $Z \times[0,1] \to Y$)
 
 * let $(\sigma : X \to E) := (\eta : Z \times [0,1] \to Y)$ be the given continuous homotopy;
 
-* set $L := Z \times \{0,1\}$;
+* set $L := Z \times [0,1]$;
 
 * let $U := Z \times (0,1)$.
 
