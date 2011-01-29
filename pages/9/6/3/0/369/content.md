@@ -6,5 +6,14 @@ The [[limit]] of a pair (or family) or morphisms is called their __[[equalizer]]
 
 
 [[!redirects parallel morphism]]
+[[!redirects parallel morphisms]]
+[[!redirects parallel pair of morphisms]]
+[[!redirects parallel pairs of morphisms]]
+
+[[!redirects parallel arrow]]
+[[!redirects parallel arrows]]
+[[!redirects parallel pair of arrows]]
+[[!redirects parallel pairs of arrows]]
+
 [[!redirects parallel pair]]
 [[!redirects parallel pairs]]
