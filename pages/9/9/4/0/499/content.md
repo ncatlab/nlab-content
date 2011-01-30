@@ -23,7 +23,7 @@
 For $C$ a [[locally small category]], every [[object]] $X$ of $C$ induces a [[presheaf]] on $C$: the [[representable presheaf]] $h_X$ represented by $X$. This assignment extends to a [[functor]] $C \to [C^{op}, Set]$ from $C$ to its [[category of presheaves]].
 The [[Yoneda lemma]] implies that this functor is [[full and faithful functor|full and faithful]] and hence realizes $C$ as a [[full subcategory]] inside its category of presheaves.
 
-Recall from the discussion at [[representable presheaf]] that the presheaf represented by an objct $X$ of $C$ is the functor $h_X :C^{op} \to Set$ whose assignment is illustrated by
+Recall from the discussion at [[representable presheaf]] that the presheaf represented by an object $X$ of $C$ is the functor $h_X :C^{op} \to Set$ whose assignment is illustrated by
 
 <img src="http://ncatlab.org/ericforgy/files/hxalpha3.jpg" width = "400"/>
 
