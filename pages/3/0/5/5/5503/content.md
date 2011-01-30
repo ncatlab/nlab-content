@@ -74,6 +74,24 @@ Remaining within [[Set]], we can also generalize beyond first-order logic to var
 
 ## Important results
 
-(...)
+The following are closely interrelated, and depend on having a suitable universe $V$.  We can view them as theorems of $ZFC$ or as (relatively mild) conditions on $V$.
+
+*(... clarify ...)*
+
+########### Goedel completeness theorem
+
+That for a first-order theory $T$ in some language $L$, then $T$ is consistent iff there is a model of $T$ in $V$ --- that is, iff $M\models T$ for some $M\in V$.
+
+########### Goedel's compactness theorem
+
+Under the same hypotheses, $T$ is consistent iff every finite subset of $T$ is consistent; expressed semantically, a theory $T$ has a model iff every finite subset of $T$ has a model.
+
+########### &#321;o&#347; ultraproduct theorem
+
+(think of a good way to state this... )
+
+###### Corolaries worth thinking about
+
+It follows that first-order theories are quite permissive; or in other words that they're inefficient at pinning down particular structures.  For example
 
 [[!redirects model theory]]
