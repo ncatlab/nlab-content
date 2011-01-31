@@ -78,20 +78,28 @@ The following are closely interrelated, and depend on having a suitable universe
 
 *(... clarify ...)*
 
-########### Goedel completeness theorem
+###### Goedel completeness theorem
 
 That for a first-order theory $T$ in some language $L$, then $T$ is consistent iff there is a model of $T$ in $V$ --- that is, iff $M\models T$ for some $M\in V$.
 
-########### Goedel's compactness theorem
+###### Goedel's compactness theorem
 
 Under the same hypotheses, $T$ is consistent iff every finite subset of $T$ is consistent; expressed semantically, a theory $T$ has a model iff every finite subset of $T$ has a model.
 
-########### &#321;o&#347; ultraproduct theorem
+###### &#321;o&#347; ultraproduct theorem
 
-(think of a good way to state this... )
+*(...think of a good way to state this...)*
 
-###### Corolaries worth thinking about
+##### Corolaries worth thinking about
 
-It follows that first-order theories are quite permissive; or in other words that they're inefficient at pinning down particular structures.  For example
+It follows that first-order theories are quite permissive; or in other words that they're inefficient at pinning down particular structures.
+
+For example, consider the complete first-order theory $Th(V_\omega,\in)$, and any total order $(X,\lt)$.  If one *expands* the language (coresponding to an injective morphism of operads) to include constant symbols $c_x$ for $x\in X$, then for any  subset $s$ of $X$ of finite size $n + 1$, one has 
+$$(V_\omega,\in,0,1,\cdots,n)\models Th(V_\omega,\in)\cup \{c_x\in c_y \mid x\lt y;x,y\in s\}$$
+so that the *finite extensions* of $Th(V_\omega,\in)$ by suborders of $X$ are all consistent; by compactness, the fully extended theory $Th(V_\omega,\in)\cup \{c_x\in c_y \mid x\lt y;x,y\in X\}$ is also consistent; thus by completeness there is a structure $(M,\epsilon,\cdots,c_x,\cdots)$ such that
+*  $(M,\epsilon)\models Th(V_\omega,\in)$
+*  $c_x\epsilon c_y$ for all $x\lt y$ in $X$
+
+By a similar argument, (if ZFC is consistent) there are models $M'$ of classical set theory satisfying the (higher-order) property that the natural numbers object $\omega_{M'}$ of $M'$ includes your favourite total order $(X,\lt)$ *as a suborder* --- of course, $M'$ isn't allowed to *know* this --- notably, there is **no object** $\xi$ in $M$ such that $\{y\mid y\epsilon \xi\} = \{c_x \mid x\in X\}$.
 
 [[!redirects model theory]]
