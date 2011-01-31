@@ -2903,12 +2903,12 @@ is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
 The morphism in question is on each object $U \in CartSp$ the morphism of simplicial sets
 
 $$
-  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(\Delta^k))
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega_{si}^\bullet(\Delta^k))
   \to
-  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^k))
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega_{si}^\bullet(U \times \Delta^k))
 $$
 
-which is given by pullback of [[differential form]]s along the projection $U \times \Delta^k \to U$.
+which is given by pullback of [[differential form]]s along the projection $U \times \Delta^k \to \Delta^k$.
 
 
 To show that for fixed $U$ this is a weak equivalence in the standard [[model structure on simplicial sets]] we produce objectwise a left inverse 
@@ -2934,23 +2934,25 @@ $$
   \,.
 $$
 
+(This of course is not natural in $U$ and hence does not extend to a morphism of simplicial presheaves. But for our argument here it need not.)
 
 The morphism $F_U$ is an acyclic [[Kan fibration]] precisely if all diagrams of the form
 
 $$  
   \array{
     \partial \Delta[n] &\to&
-    Hom(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^\bullet ))
+    Hom(CE(\mathfrak{g}), \Omega_{si}^\bullet(U \times \Delta^\bullet ))
     \\
     {}^{\mathllap{}}\downarrow && \downarrow^\mathrlap{F_U}
     \\
     \Delta[n]
     &\stackrel{}{\to}&
-    Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet))
+    Hom(CE(\mathfrak{g}), \Omega_{si}^\bullet(\Delta^\bullet))
   }
 $$
 
-have a lift. Since the differential forms on the simplices have sitting instants, we may, as above, equivalently reformulate this in terms of spheres as follows:
+have a lift. 
+Using the [[Yoneda lemma]] over the [[simplex category]] and since the differential forms on the simplices have sitting instants, we may, as above, equivalently reformulate this in terms of spheres as follows:
 
 for every morphism $CE(\mathfrak{g}) \to \Omega^\bullet_{si}(D^n)$ and morphism $CE(\mathfrak{g}) \to \Omega^\bullet_{si}(U \times S^{n-1})$ such that the diagram
 
@@ -2960,7 +2962,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \Omega^\bullet(D^n) &\to& \Omega^\bullet(S^{n-1})
+    \Omega_{si}^\bullet(D^n) &\to& \Omega^\bullet(S^{n-1})
   }
 $$
 
@@ -2972,15 +2974,17 @@ $$
    \\
    & \searrow
    \\
-   &&\Omega^\bullet(U \times D^n)
+   &&\Omega_{si}^\bullet(U \times D^n)
    &\to& \Omega^\bullet(U \times S^{n-1})
     \\
     &&\downarrow && \downarrow
     \\
-    &&\Omega^\bullet(D^n) &\to& \Omega^\bullet(S^n)
+    &&\Omega^\bullet(D^n) &\to& \Omega^\bullet(S^{n-1})
   }
   \,.
 $$
+
+(Here the subscript "${}_{si}$" denotes differential forms ont he disk that are radially constant in a neighbourhood of the boundary.)
 
 This factorization we now construct. 
 
@@ -3007,7 +3011,7 @@ $$
   \Omega^\bullet(U \times S^{n-1} \times [0,1])
 $$
 
-which is such that a form $\omega$ is sent to a form which in a neighbourhood $(1-\epsilon,1]$ of $1 \in [0,1]$ is constant along $(1-\epsilon,1] \times U$ on the value $(0 , Id_{S^{n-1}})^* \omega$. 
+which is such that a form $\omega$ is sent to a form which in a neighbourhood $(1-\epsilon,1]$ of $1 \in [0,1]$ is constant along $(1-\epsilon,1] \times U$ on the value $(0 , Id_{S^{n-1}})^* \omega$.
 
 We can then glue to the morphism
 
@@ -3048,7 +3052,7 @@ $$
   \exp(\mathfrak{g})
 $$
 
-is a fibration in $[CartSp^{op}, sSet]_{proj}$.
+is a fibration in $[CartSp_{smooth}^{op}, sSet]_{proj}$.
 
 =--
 
@@ -3056,7 +3060,7 @@ is a fibration in $[CartSp^{op}, sSet]_{proj}$.
 ###### Proof
 
 Over each $U \in CartSp$
-the morphisms is induced from the morphism of dg-algebras
+the morphism is induced from the morphism of dg-algebras
 
 $$
   \Omega^\bullet(U) \to C^\infty(U)
@@ -3064,92 +3068,86 @@ $$
 
 that discards all differential forms of non-vanishing degree. 
 
-It will be sufficient to show that for 
+It is sufficient to show that for 
 
 $$
   CE(\mathfrak{g}) 
     \to 
-   \Omega^\bullet(
-     D^n \times [0,1]
+   \Omega_{si,vert}^\bullet(
+     U \timess (D^n \times [0,1])
    )
-   \otimes' C^\infty(U)
 $$
 
 a morphism and 
 
 $$
-  CE(\mathfrak{g}) \to \Omega^\bullet(D^n \times U)
+  CE(\mathfrak{g}) \to \Omega^\bullet_{si}(D^n \times U)
 $$
 
-a lift of its restriction to $\sigma = 0 \in [0,1]$ we have a
+a lift of its restriction to $\sigma = 0 \in [0,1]$ we have an extension to a 
 lift 
 
 $$
-  CE(\mathfrak{g}) \to \Omega^\bullet(D^n \times [0,1] \times U)
-$$
-
-extending the lift. From these lifts all the required lifts are obtained by precomposition with some evident smooth retractions.
-
-
-The idea of the proof is that the lifts in question are obtained from solving differential equations with boundary conditions, and exist due to the existence of solutions of first order systems of partial differential equations and the Bianchi identities for flat $L_\infty$-algebra valued forms. 
-
-
-**1st case: $\mathfrak{g} = \mathfrak{u}(1)$**
-
-To warm up, consider the simplest case where $\mathfrak{g} = \mathfrak{u}(1)$.
-
-
-Then a morphism $C(\mathfrak{g}) \to \Omega^\bullet(D^1 \times U \times [0,1]) \otimes C^\infty(U)$ is an element $A_v(u) d v + A_\sigma(u) d \sigma $ that satisfies
-
-$$
-  \partial_v A_u = \partial_u A_v
-$$
-
-and 
-
-$$
-  \partial_\sigma A_v = \partial_v A_\sigma
+  CE(\mathfrak{g}) \to \Omega_{si,vert}^\bullet(U \times (D^n \times [0,1]))
   \,.
 $$
 
-To lift this to a morphism $CE(\mathfrak{g}) \to \Omega^\bullet(D^1 \times U \times [0,1])$ that restricts to the former for $\sigma = 0$ we need to add a term $A_u(u,\sigma) d u$. That satisfies the differential equations
+From these lifts all the required lifts are obtained by precomposition with some evident smooth retractions.
+
+
+The idea of the proof is that the lifts in question are obtained from solving differential equations with boundary conditions, and exist due to the existence of solutions of first order systems of partial differential equations and the [[Bianchi identities]] for flat [[∞-Lie algebroid valued differential forms]].
+
+
+**1st case: $\mathfrak{g} = b^{n-1} \mathbb{R}$**
+
+We condsider the case $\mathfrak{g} = b^{n-1} \mathbb{R}$.
+
+A morphism 
+$CE(b^{n-1} \mathbb{R}) \to \Omega_{si,vert}^\bullet( U \times (D^k \times [0,1]))$ is a $U$-parameterized family of $n$-forms 
+$A = A_{D^k} + (d \sigma) \wedge \lambda  $ on $D^k \times [0,1]$ 
+satisfying
 
 $$
-  \partial_\sigma A_u = \partial_u A_\sigma
+  d_{D^k} A_{D^k} = 0
 $$
 
-and 
+and
 
 $$
-  \partial_v A_u = \partial_u A_v
+  \partial_\sigma A_{D^k} = d_{D^k} \lambda
   \,.
 $$
 
-The first one already uniquely defines and fixes $A_u$: since the value of $A_0$ at $\sigma = 0$ is given, this differential equation has a unique solution along $\sigma \in [0,1]$. 
+A lift of the restriction to $\sigma = 0$ is a morphism
+$CE(b^{n-1}\mathbb{R}) \to \Omega^\bullet_{si}(U \times D_k )$
+given by a term A_{U  \times D^k}$. 
 
-So it remains to check that this unique solution to the first equation also solves the second
-
-$$
-  \partial_v A_u = \partial_u A_v
-$$
-
-for all $\sigma$. It is true by assumption at $\sigma = 0$, so it is sufficient to show that the $\sigma$-derivatives of both sides coincide.
-
-On the left we have 
+We can extend this to a morphism
+$CE(b^{n-1}\mathbb{R}) \to \Omega^\bullet_{si}(U \times D_k \times [0,1])$
+by solving the differential equation
 
 $$
-  \partial_\sigma \partial_v A_u = \partial_v \partial_\sigma A_u =
-  \partial_v \partial_u A_\sigma
+  \partial_\sigma A_{U \times D^k} = (d_U + d_{D^k}) \lambda
 $$
 
-by the above, and similarly on the right
+with boundary condition the given value at $\sigma = 0$.
+
+For this unique solution to be a lift we need that $(d_U + d_{D^k}) A_{U \times D^k} = 0$. Since this is the case at $\sigma = 0$ by assumption of the lift at that end, we need to check that
 
 $$
-  \partial_\sigma \partial_u A_v = \partial_u \partial_\sigma A_v = 
-  \partial_u \partial_v A_\sigma
+  \partial_\sigma (d_U + d_{D^k}) A_{U \times D^k} = 0
+  \,.
 $$
 
-so that indeed this is equal. This constitutes the required lift.
+But by the above this follows from the [[Bianchi identity]], which for the special abelian case that we are considering is just the nilpotency of the de Rham differential
+
+$$
+  \cdots = 
+  (d_U + d_{D^k}) (d_U + d_{D^k}) A_{U \times D^k} = 0
+  \,.
+$$
+
+
 
 **2nd case: $\mathfrak{g} an arbitrary Lie algebra$**
 
