@@ -46,9 +46,10 @@ from the [[Chevalley-Eilenberg algebra]] of $\mathfrak{a}$ to the [[de Rham comp
 
 
 
-### Integration to a bare $\infty$-groupoid {#IntToBareGrpd}
+### Integration to a discrete $\infty$-groupoid {#IntToBareGrpd}
 
-Here we discuss the bare [[∞-groupoid]]s underlying the [[∞-Lie groupoid]]s to which an [[∞-Lie algebroid]] integrates.
+Here we discuss the [[discrete ∞-groupoid]]s underlying the 
+[[smooth ∞-groupoid]]s to which an [[∞-Lie algebroid]] integrates.
 
 For $\mathfrak{a}$ an $\infty$-Lie algebroid, the $d$-paths in $\mathfrak{a}$ naturally form a [[simplicial set]] 
 
@@ -107,37 +108,40 @@ $$
 This divides out [[k-morphism|n-morphisms]] by $(n+1)$-morphisms and forgets all higher higher nontrivial morphisms, hence all higher homotopy groups.
 
 
-### Integration to an $\infty$-Lie groupoid {#SmoothIntegration}
+### Integration to a smooth $\infty$-groupoid {#SmoothIntegration}
 
-We now discuss Lie integration of $\infty$-Lie algebroids to [[∞-Lie groupoid]]s.
+We now discuss Lie integration of $\infty$-Lie algebroids to [[smooth ∞-groupoid]]s, [[presentable (∞,1)-category|presented]] by the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ over the [[site]] [[CartSp]]${}_{smooth}$.
 
 For discussing smooth families of $d$-paths we need the following technical notion.
 
 +-- {: .un_defn}
 ###### Definition
 
-A smooth differential form $\omega$ on $\Delta^k$ is said to have **sitting instants** along the boundary if, for every $r$-face $F$ of $\Delta^k$ there is a [[neighbourhood]] $U_F$ of $F$ in $\Delta^k$ such that $\omega$ restricted to $U$ is constant in the directions perpendicular to the boundary on its value restricted to that boundary.
+Regard the $k$-[[simplex]] $\Delta^k$ as a [[smooth manifold|smooth]] [[manifold with corner]]s in the standard way. We think of this embedded into the [[Cartesian space]] $\mathbb{R}^k$ in the standard way with maximal rotation symmetry about the center of the simplex, and equip $\Delta^k$ with the [[metric space]] structure induced this way.
 
-For any $U \in $ [[CartSp]] a smooth differential form $\omega$ on $U \times\Delta^k$ is said to have sitting instants if for all points $u : * \to U$ the pullback along  $(u, \mathrm{Id}) : \Delta^k \to U \times \Delta^k$ has sitting instants.
+A smooth [[differential form]] $\omega$ on $\Delta^k$ is said to have **sitting instants** along the boundary if, for every $(r \lt k)$-face $F$ of $\Delta^k$ there is a [[neighbourhood]] $U_F$ of $F$ in $\Delta^k$ such that $\omega$ restricted to $U$ is constant in the directions perpendicular to the $r$-face on its value restricted to that face.
 
-Smooth forms with sitting instants clearly form a sub-dg-algebra of all smooth forms. We shall write $\Omega^\bullet(U \times \Delta^k)$ by default for this sub-dg-algebra.
+More generally, for any $U \in $ [[CartSp]] a smooth differential form $\omega$ on $U \times\Delta^k$ is said to have sitting instants there is $0 \lt \epsilon \in \mathbb{R}$ such that for all points $u : * \to U$ the pullback along  $(u, \mathrm{Id}) : \Delta^k \to U \times \Delta^k$ is a form with sitting instants on $\epsilon$-[[open neighbourhood|neighbourhood]]s of faces.
+
+Smooth forms with sitting instants clearly form a sub-dg-algebra of all smooth forms. We write $\Omega^\bullet_{si}(U \times \Delta^k)$ for this sub-dg-algebra.
+And finally we write $\Omega_{si,vert}^\bullet(U \times \Delta^k)$ for the further sub-dg-algebra of [[vertical differential form]]s with respect to the projection $p : U \times \Delta^k \to U$, hence the [[coequalizer]]
+
+$$
+  \Omega^\bullet(U)
+  \stackrel{\stackrel{p^*}{\to}}{\underset{0}{\to}}
+  \Omega^\bullet_{si}(U \times \Delta^k)
+  \to
+  \Omega^\bullet_{si, vert}(U \times \Delta^k)  
+  \,.
+$$
 
 =--
 
 +-- {: .un_remark}
 ###### Remark
 
-Note that the dimension of the normal direction to the boundary depends on the dimension of the boundary stratum:  there is one perpendicular direction to a codimension-1 face, and $k$ perpendicular directions to a
+Note that the dimension of the normal direction to a fce depends on the dimension of the fce:  there is one perpendicular direction to a codimension-1 face, and $k$ perpendicular directions to a
 vertex. 
-
-=--
-
-+-- {: .un_defn}
-###### Definition
-
-For $U \in CartSp$, we denote by the symbol 
-$\Omega^\bullet(U\times \Delta^k)_{\mathrm{vert}} \subset \Omega^\bullet(U \times \Delta^k)$   the sub-dg-algebra on forms that are [[vertical differential form]]s with respect to the projection
-$U \times \Delta^k \to U$.
 
 =--
 
@@ -145,12 +149,11 @@ $U \times \Delta^k \to U$.
 +-- {: .un_example}
 ###### Examples
 
-* A smooth 0-form (a smooth function) has sitting instants on $\Delta^1$ if in a neighbourhood of the endpoints it is constant.
+* A smooth 0-form (a [[smooth function]]) has sitting instants on $\Delta^1$ if in a neighbourhood of the endpoints it is constant.
 
-  A smooth function $f : U \times \Delta^1 \to \mathbb{R}$ is in $\Omega^0_{\mathrm{vert}}(U \times \Delta^1)$ if for each $u \in U$ it is constant in a neighbourhood of the endpoints of $\Delta^1$.
+  A smooth function $f : U \times \Delta^1 \to \mathbb{R}$ is in $\Omega^0_{\mathrm{vert}}(U \times \Delta^1)$ if there is $0 \lt \epsilon \in \mathbb{R}$ such that for each $u \in U$ the function $f(u,-) : \Delta^1  \simeq [0,1] \to \mathbb{R}$ is constant on $[0,\epsilon) \coprod (1-\epsilon,1)$.
 
 * A smooth 1-form has sitting instants on $\Delta^1$ if in a neighbourhood of the endpoints it vanishes.
-
 
 * Let $X$ be a [[smooth manifold]], $\omega \in \Omega^\bullet(X)$ be a smooth differential form. Let 
 
@@ -190,37 +193,70 @@ Notice that $\omega \in \Omega^\bullet(\Delta^n)$ having sitting instants does n
 
 =--
 
-
-For the following definition, we use from the discussion at [[∞-Lie groupoid]] that $\infty$-Lie groupoids may be modeled by [[simplicial presheaves]] on the [[site]] [[CartSp]] $\subset$ [[Diff]].
+For the following definition recall the [[presentable (∞,1)-category|presentation]] of [[smooth ∞-groupoid]]s by the [[model structure on simplicial presheaves]] over the [[site]] [[CartSp]]${}_{smooth}$. 
 
 +-- {: .un_defn}
 ###### Definition
 
-For $\mathfrak{a}$ an [[∞-Lie algebroid]] define the [[simplicial presheaf]] $\exp(\mathfrak{a}) : CartSp^{op} \to sSet$ by
+For $\mathfrak{a}$ an [[L-∞ algebra]] of [[finite type]] with [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ define the [[simplicial presheaf]] $\exp(\mathfrak{a}) : CartSp_{smooth}^{op} \to sSet$ by
 
 $$  
   \exp(\mathfrak{a})
   : 
   (U,[n]) \mapsto 
-  Hom_{dgAlg}(CE(\mathfrak{a}), \Omega^\bullet(U \times \Delta^n)_{vert})
+  Hom_{dgAlg}(CE(\mathfrak{a}), 
+  \Omega^\bullet(U \times \Delta^n)_{si,vert})
   \,,
 $$
 
-where $U \in $ [[CartSp]] and $[n] \in \Delta$. 
+for all $U \in $ [[CartSp]] and $[n] \in \Delta$. 
 
 =--
 
 +-- {: .un_remark}
 ###### Remark
 
-Compared to the integration to bare $\infty$-groupoids [above](#IntToBareGrpd) this definition knows about $U$-parametrized _smooth families_ of $n$-paths in $\mathfrak{a}$.
+Compared to the integration to [[discrete ∞-groupoid]]s [above](#IntToBareGrpd) this definition knows about $U$-parametrized _smooth families_ of $n$-paths in $\mathfrak{g}$.
 
-The bare $\infty$-groupoid is recovered as that of the $\mathbb{R}^0 = *$-parametrized family:
+The underlying [[discrete ∞-groupoid]] is recovered as that of the $\mathbb{R}^0 = *$-parametrized family:
 
 $$
-  \exp(\mathfrak{a}) : \mathbb{R}^0 \mapsto \exp(\mathfrak{a})_{bare}
+  \exp(\mathfrak{a}) : \mathbb{R}^0 \mapsto \exp(\mathfrak{a})_{disc}
   \,.
 $$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The objects $\exp(\mathfrak{g})$ are indeed [[Kan complex]]es over each $U \in $ [[CartSp]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that the standard [[continuous function|continuous]] [[horn]] [[retract]]s $f : \Delta^k \to \Lambda^k_i$ are smooth away from the preimages of the $(r \lt k)$-faces of $\Lambda[k]^i$.
+
+For $\omega \in \Omega^\bullet_{si,vert}(U \times \Lambda[k]^i)$ a differential form with sitting instants on $\epsilon$-neighbourhoods, let therefore $K \subset \partial \Delta^k$ be the set of points of distance $\leq \epsilon$ from any subface. Then we have a smooth function 
+
+$$
+  f : \Delta^k \setminus K \to \Lambda^k_i \setminus K
+  \,.
+$$
+
+The pullback $f^* \omega \in \Omega^\bullet(\Delta^k \setminus K)$ may be extended constantly back to a form with sitting instants on all of $\Delta^k$. 
+
+The resulting assignment
+
+$$
+  (CE(\mathfrak{g}) \stackrel{A}{\to} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i))
+  \mapsto
+  (CE(\mathfrak{g}) \stackrel{A}{\to} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i) \stackrel{f^*}{\to} \Omega^\bullet_{si,vert}(U \times \Delta^n))
+$$
+
+provides fillers for all [[horn]]s over all $U \in $ [[CartSp]].
 
 =--
 
@@ -235,7 +271,7 @@ Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial presheaf obtained by post
 
 ## Examples
 
-For more on this see (for the moment) <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegrated">Lie integrated ∞-Lie groupoids</a>.
+See also at [[smooth ∞-groupoid]] the section <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#StrucLieAlg">Exponentiated ∞-Lie algebras</a>.
 
 
 ### Interating Lie algebras to Lie groups {#LieAlgebrasToLieGroups}
@@ -309,9 +345,12 @@ Since $G$ is [[simply connected]], these equivalence classes are labeled by the 
 
 =--
 
-We don't need to fall back to classical Lie theory to obtain $G$ in the above argument. A detailed discussion of how to find $G$ with its group structure and smooth structure from $d$-paths in $\mathfrak{g}$ is in ([Crainic](#Crainic)).
++-- {: .un_remark}
+###### Remark
 
+We do not need to fall back to classical [[Lie theory]] to obtain $G$ in the above argument. A detailed discussion of how to find $G$ with its group structure and smooth structure from $d$-paths in $\mathfrak{g}$ is in ([Crainic](#Crainic)).
 
+=--
 
 
 
@@ -321,14 +360,15 @@ We don't need to fall back to classical Lie theory to obtain $G$ in the above ar
 +-- {: .un_def}
 ###### Definition
 
-Write $b^n \mathbb{R}$ for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $(n+1)$ and vanishing differential.
+For $n \in \mathbb{N}$ write $b^n \mathbb{R}$ for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $(n+1)$ and vanishing differential.
 
+Write $\mathbf{B}^{n} \mathbb{R}$ for the <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">smooth line (n+1)-group</a>.
 
 =--
 
 
 +-- {: .un_prop}
-###### Proposition
+###### Observation
 
 The [[discrete ∞-groupoid]] underlying $\exp(b^n \mathbb{R})$ is given by the [[Kan complex]] that in degree $k$ has the set of closed differential $n$-forms (with sitting instants) on the $k$-[[simplex]]
 
@@ -343,15 +383,18 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-The $\infty$-Lie integration of $b^n \mathbb{R}$ is the <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">circle Lie n-group</a> $\mathbf{B}^n \mathbb{R}$. 
+Let $n \in \mathbb{N}$, $n \geq 1$.
 
-With $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{smooth}^{op}, sSet]$ the standard presentation given under the [[Dold-Kan correspondence]] by the chain complex of sheaves concentrated in degree $n$ on $C^\infty(-, \mathb{R}$ the equivalence is induced by the [[fiber integration]] of differential $n$-forms over the $n$-[[simplex]]:
+The $\infty$-Lie integration of $b^{n-1} \mathbb{R}$ is the <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">line Lie n-group</a> $\mathbf{B}^{n-1} \mathbb{R}$. 
+
+Moreover, with $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{smooth}^{op}, sSet]$ the standard presentation given under the [[Dold-Kan correspondence]] by the chain complex of sheaves concentrated in degree $n$ on $C^\infty(-, \mathbb{R})$ the equivalence is induced by the [[fiber integration]] of differential $n$-forms over the $n$-[[simplex]]:
 
 $$
-  \int_{\Delta^\bullet} : 
-  \exp(b^n \mathbb{R})
+  \int_{\Delta^\bullet} 
+   : 
+  \mathbf{cosk}_{n+1}\exp(b^{n-1} \mathbb{R})
    \stackrel{\simeq}{\to}
-  \mathbf{B}^{n+1} \mathbb{R}
+  \mathbf{B}^{n} \mathbb{R}
   \,.
 $$
 
@@ -359,19 +402,6 @@ $$
 =--
 
 
-+-- {: .un_prop}
-###### Proposition
-
-The operation of [[integration|integrating]] an $n$-form on the $n$-simplex over the $n$-simplex gives an equivalence
-
-$$
-  \int_{\Delta^\bullet} : 
-  \mathbf{cosk}_{n+1}\exp(b^n \mathbb{R}) \stackrel{}{\to}
-  \mathbf{B}^{n+1}\mathbb{R}
-  \,.
-$$
-
-=--
 
 +-- {: .proof}
 ###### Proof
@@ -382,17 +412,16 @@ First we observe that the map
 $$
   \int_{\Delta^\bullet}
   :
-  (\omega \in \Omega^n_{vert,cl}(U \times \Delta^k))
+  (\omega \in \Omega^n_{si,vert,cl}(U \times \Delta^k))
   \mapsto
   \int_{\Delta^k} \omega \in C^\infty(U, \mathbb{R})
 $$ 
 
 is a morphism of 
-[[simplicial presheaves]] $\exp(b^n \mathbb{R}) \to \mathbf{B}^{n+1}\mathbb{R}$ on [[CartSp]]${}_{smooth}$. Since it goes between presheaves of abelian [[simplicial group]]s by the [[Dold-Kan correspondence]] it is sufficient to check that we have a morphism of [[chain complex]]es of presheaves on the corresponding [[Moore complex|normalized chain complex]]es.
+[[simplicial presheaves]] $\exp(b^{n-1} \mathbb{R}) \to \mathbf{B}^{n}\mathbb{R}_{chn}$ on [[CartSp]]${}_{smooth}$. Since it goes between presheaves of abelian [[simplicial group]]s by the [[Dold-Kan correspondence]] it is sufficient to check that we have a morphism of [[chain complex]]es of presheaves on the corresponding [[Moore complex|normalized chain complex]]es.
 
-The only nontrivial degree to check is degree $n$. Let $\lambda \in \Omega^{vert,cl}^n(\Delta^{n+1})$. The differential of the normalized chains complex sends this to the signed sum of its restrictions to the $n$-faces of the $(n+1)$-simplex. Followed by the integral over $\Delta^n$ this is the piecewise integral of $\lambda$ over the boundary of the $n$-simplex. Since $\lambda$ has sitting instants, there is $0 \lt \epsilon \in \mathbb{R}$ such that there are no contributions to this integral in an $\esilon$-neighbourhood of the $(n-1)$-faces. Accordingly the integral is equivalently that over the smooth surface inscribed into the $(n+1)$-simplex, as indicated in the following diagram
+The only nontrivial degree to check is degree $n$. Let $\lambda \in \Omega_{si,vert,cl}^n(\Delta^{n+1})$. The differential of the [[Moore complex|normalized chains complex]] sends this to the signed sum of its restrictions to the $n$-faces of the $(n+1)$-simplex. Followed by the integral over $\Delta^n$ this is the piecewise integral of $\lambda$ over the boundary of the $n$-simplex. Since $\lambda$ has sitting instants, there is $0 \lt \epsilon \in \mathbb{R}$ such that there are no contributions to this integral in an $\epsilon$-neighbourhood of the $(n-1)$-faces. Accordingly the integral is equivalently that over the smooth surface inscribed into the $(n+1)$-simplex, as indicated in the following diagram
 
-To prove this we repeatedly use that differential forms with sitting instants on the $n$-simplex may be treated as differential forms on the $n$-[[ball]]. 
 
 <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
@@ -438,53 +467,71 @@ To prove this we repeatedly use that differential forms with sitting instants on
 
 Since $\lambda$ is a closed form on the $n$-simplex, this surface integral vanishes, by the [[Stokes theorem]]. Hence $\int_{\Delta^\bullet}$ is indeed a chain map.
 
-It remains to show that $\int_{\Delta^\bullet} : \mathbf{cosk}_{n+1} \exp(b^n \mathbb{R}) \to \mathbf{B}^{n+1}\mathbb{R}_{chn}$ is an isomorphism on the [[simplicial homotopy]] group in degree $n$ (for each $U \in CartSp$). This amounts to the statement that a closed $n$-form with sitting instants on the boundary of $\Delta^{n+1}$ may be extended to a closed form on $\Delta^n$ precisely if its integral over the boundary vanishes.
+It remains to show that $\int_{\Delta^\bullet} : \mathbf{cosk}_{n+1} \exp(b^{n-1} \mathbb{R}) \to \mathbf{B}^{n}\mathbb{R}_{chn}$ is an [[isomorphism]] on the [[simplicial homotopy]] group in degree $n$ over  each $U \in CartSp$. This amounts to the statement that a smooth family of closed $n$-forms with sitting instants on the boundary of $\Delta^{n+1}$ may be extended to a smooth family of closed forms with sitting instants on $\Delta^{n+1}$ precisely if their smooth family of integrals over the boundary vanishes.
 
-To demonstrate this, we want to work with forms on the $(n+1)$-[[ball]] insteas of the $(n+1)$-simplex. To achieve this, choose again $0 \lt \epsilon \in \mathbb{R}$ and construct the [[diffeomorphism|diffeomorphic]] image of $S^n \times [1,1-\epsilon]$ inside the $(n+1)$-simplex as indicated in the above diagram: outside an $\epsilon$-neighbourhood of the corners the image is a rectangular $\epsilon$-thickening of the faces of the simplex. Inside the $\epsilon$-neighbourhoods of the corners it bends smoothly. By the [[Steenrod-Wockel approximation theorem]] the diffeomorphism from this $\epsilon$-thickening of the smoothed boundary of the simplex to $S^n \times [0,1]$ extends to a smooth function from the $(n+1)$-simplex to the $(n+1)$-ball. 
+To demonstrate this, we want to work with forms on the $(n+1)$-[[ball]] instead of the $(n+1)$-[[simplex]]. To achieve this, choose again $0 \lt \epsilon \in \mathbb{R}$ and construct the [[diffeomorphism|diffeomorphic]] image of $S^n \times [1,1-\epsilon]$ inside the $(n+1)$-simplex as indicated in the above diagram: outside an $\epsilon$-neighbourhood of the corners the image is a rectangular $\epsilon$-thickening of the faces of the simplex. Inside the $\epsilon$-neighbourhoods of the corners it bends smoothly. By the [[Steenrod-Wockel approximation theorem]] the diffeomorphism from this $\epsilon$-thickening of the smoothed boundary of the simplex to $S^n \times [0,1]$ extends to a smooth function from the $(n+1)$-simplex to the $(n+1)$-ball. 
 
-By choosing epsilon smaller than each of the sitting instants of the given $n$-form, we have that this $n$-form vanishes on the $\epsilon$-neighbourhoods of the corners and is hence entirely determined by its restriction to the smoothed simplex, identified with the $(n+1)$-ball.
+By choosing $\epsilon$ smaller than each of the sitting instants of the given $n$-form on $\partial \Delta^n$, we have that this $n$-form vanishes on the $\epsilon$-neighbourhoods of the corners and is hence entirely determined by its restriction to the smoothed simplex, identified with the $(n+1)$-ball.
 
-We are now reduced to showing: a smooth $n$-form $\omega \in \Omega^n_{vert,cl}(U \times S^n)$ extends smoothly to a closed $n$-form $\hat \omega \in \Omega^n_{vert,cl}(U \times B^{n+1})$ precisely if its integral vanishes, $\int_{S^n} \omega = 0 \in C^\infty(U, \mathbb{R})$.
+We are now reduced to showing: a smooth family of smooth $n$-forms $\omega \in \Omega^n_{vert,cl}(U \times S^n)$ extends to a smooth family of closed $n$-forms $\hat \omega \in \Omega^n_{vert,cl}(U \times B^{n+1})$ that is radially constant in a neighbourhood of the boundary precisely if its smooth family of integrals vanishes, $\int_{S^n} \omega = 0 \in C^\infty(U, \mathbb{R})$.
+
+Notice that over the point this is a direct consequence of the [[de Rham theorem]]: an $n$-form $\omega$ on $S^n$ is exact precisely if its integral vanishes. In that case there is an $(n-1)$-form $A$ with $\omega = d A$. Choosing any smoothing function $f : [0,1] \to [0,1]$ (smooth, non,decreasing and constant in a neighbourhood of the boundary) we obtain a $n$-form $f \wedge A$ on $(0,1] \times S^n$, vertically constant in a neighbourhood of the ends of the interval, equal to $A$ at the top and vanishing at the bottom. Pushed forward along the canonical $(0,1] \times S^n \to D^{n+1}$ this difines a form on the $(n+1)$-ball, that we denote by the same symbol $f \wedge A$. Then the form $\hat \omega := d (f \wedge A)$ solves the problem.
+
+To complete the proof we have to show that this simple argument does extend to smooth families of forms in that we can find suitable smooth families of the form $A$ in the above discussion. 
 
 We show this by induction on $n$.
 
-For $n = 1$, let $\omega$ be a smooth 1-form on $S^1$ whose integral vanishes and which has sitting instants at least at one point. Let $f : [0,1] \to [0,1]$ be any smoothing function (a smooth non-degreasing surjection that is constant in a neighbourhood of 0 and 1). In terms of standard polar coordinates on the 2-[[ball]] $D^2$, with $\theta = 0$ the point where $A$ has sitting instants, write $A = A_\theta d \theta$ and set
+For $n = 1$, let $\omega$ be a smooth family of smooth 1-forms on $S^1$ whose integral vanishes and which has sitting instants at least at one point. Let $f : [0,1] \to [0,1]$ be any smoothing function (a smooth non-degreasing surjection that is constant in a neighbourhood of 0 and 1). In terms of standard polar coordinates on the 2-[[ball]] $D^2$, with $\theta = 0$ the point where $\omega$ has sitting instants, write $\omega = \omega_\theta \wedge d \theta$ and set
 
 $$
-  \hat A := f \wedge A_\theta  d \theta 
-    + (\int_0^{\theta} A_\theta(\theta') d \theta') f'(r) d r
+  \hat \omega := f \wedge \omega 
+    + (\int_0^{\theta} \omega_\theta(\theta') d \theta') 
+    \wedge d f
   \,.
 $$
 
-This is a well defined smooth 1-form on the disk because the integral vanishes for $\theta = 2 \pi$ and in fact in a neighbourhood of that value, due to sitting instant. By construction of $f$ it equals $A$ on the boundary. Moreover, it is closed by construction and clearly depends smoothly also on the parameter in $U \in CartSp$ that we suppressed.
+This is a well defined smooth family of smooth 1-forms on the disk because the integral vanishes for $\theta = 2 \pi$ and in fact in a neighbourhood of that value, due to sitting instants. By construction of $f$ it equals $\omega$ on the boundary. Moreover, one checks that it is closed by construction, and clearly depends smoothly also on the parameter in $U \in CartSp$ that we suppressed.
 
-Now assume that the statement has been proven for some $n-1 \geq 1$. Let $B^n$ be a closed $n$-form on $S^n$, which has sitting instants around at least one point and whose integral vanishes. We now construct an $(n-1)$-form $a$ with $d a = B$ and then extend that to the $(n+1)$-ball.
+Now assume that the statement has been proven for some $n \geq 1$. Let $\omega$ be a smooth family of closed $n$-forms on $S^n$ that vanishes constantly in the neighbourhood of one point and whose integral vanishes. We now construct an $(n-1)$-form $A$ with $d A = \omega$ and then extend that to the $(n+1)$-ball.
 
-To do so, cut out a little $n$-disk around the point of sitting instants on which $B$ is still constant. Identify the remaining punctured $n$-sphere with the $n$-disk via a [[smooth function]] $h : D^n \to S^n$. The pullback form $h^*B$ has by the [[Poincare lemma]] a form $A$ with $d A = B$. Concretely, in standard polar coordinates on $D^n$ we could take
+To do so, cut out a little $n$-disk around the point on which $\omega$ is still constant. Identify the remaining punctured $n$-sphere with the $n$-disk via a [[smooth function]] $h : D^n \to S^n$. The pullback form $h^*\omega$ has by the [[Poincare lemma]] a form $a$ with $d a = h^* \omega$. Concretely, in standard polar coordinates on $D^n$ we could take
 
 $$
-  A(t,\{\phi_i\}) = \int_{0}^r \iota_{\partial_r} h^*B
+  a := \int_{0}^r \iota_{\partial_r} h^*\omega
   \,.
 $$
 
-But we want to pass to a different representative that vanishes on the boundary of $D^n$. For that purpose, observe that the integral of $A$ around $\partial D^n$ vanishes, since by the [[Poincare lemma]] and the assumptions on $B$ we have
+But we want to pass to a different representative that vanishes on the boundary of $D^n$. For that purpose, observe that the integral of this $a$ around $\partial D^n$ vanishes, since by the [[Poincare lemma]] and the assumptions on $\omega$ we have
 
 $$
-  \int_{\partial D^n} A \simeq \int_{D^n} h^* B = \int_{S^n} B = 0
+  \int_{\partial D^n} a \simeq \int_{D^n} h^* \omega = \int_{S^n} \omega = 0
   \,.
 $$
 
-Therefore we can invoke the induction hypothesis to find (smoothly) a closed $(n-1)$-form $A'$ which equals $A$ on $\partial \Delta^n$. Then the difference $A - A'$ still has the property that
+Therefore we can invoke the induction hypothesis to find smooth families of closed $(n-1)$-forms $a'$ which equal $a$ on $\partial \Delta^n$. Then the difference $a - a'$ still has the property that
 
 $$
-  d (A-A') = h^*B
+  d (a-a') = h^*\omega
 $$
 
-but now $(A-A')$ is constantly 0 on $\partial D^n$. Moreover, we claim that at this boundary all its derivatives vanish. This follows with the above formula for $A$ from the fact that $B$ has sitting instants in the image of $\partial D^n$ under $h$ (is constantly 0 there) and that $A'$ by induction hypothesis is radially constant at the boundary.
+but now $(a-a')$ is constantly 0 on $\partial D^n$. Moreover, we claim that at this boundary all its derivatives vanish. This follows with the above formula for $a$ from the fact that $\omega$ is constantly 0 on the image of $\partial D^n$ under $h$, which makes $a$ radially constant in a neighbourhood of the boundary,  and that $a'$ by induction hypothesis is radially constant at the boundary.
 
-Due to this it follows that there is a smooth $(n-1)$-form on $S^n$ whose pullback along $h$ is $A-A'$:  the extension of $A-A'$ by 0 to from $D^n \simeq$ the punctured $n$-sphere to the whose $n$-sphere.
+Due to this it follows that there is a smooth $(n-1)$-form $A$ on $S^n$ whose pullback along $h$ is $a-a'$:  the extension of $a-a'$ by 0 from $D^n \simeq$ the punctured $n$-sphere to the whole $n$-sphere.
 
-Then with the smoothing function $f$ from above define finally the $(n-1)$-form on $S^{n+1}$ given by $\hat a (r, \{\phi_i\})= f(r) \wedge a(\{\phi_i\})$ and $\hat B = d \hat a$. This is an extension of $B$ that we needed to construct.
+Then with the smoothing function $f$ from above define finally the smooth family of smooth $(n-1)$-forms on $S^{n+1}$ to be given by 
+
+$$
+  \hat A (r, \{\phi_i\}) := f(r) \wedge A(\{\phi_i\})
+$$ 
+
+and 
+
+$$
+  \hat \omega = d \hat A
+  \,.
+$$
+
+This is an extension of the smooth family $\omega$ that we needed to construct.
 
 =--
 
@@ -516,7 +563,8 @@ This is the [[string Lie 2-group]]. It's construction in terms of integration by
 
 ## References
 
-The basic idea of identifying the [[Sullivan construction]] applied to [[Chevalley-Eilenberg algebra]]s as Lie integration to bare $\infty$-groupoids appears in
+The basic idea of identifying the [[Sullivan construction]] applied to [[Chevalley-Eilenberg algebra]]s as Lie integration to 
+[[discrete ∞-groupoid]]s appears in
 
 * [[Vladimir Hinich]], _Descent of Deligne groupoids_, Internat. Math. Res. Notices, 5:223&#8211;239, 1997 ([doi](http://dx.doi.org/10.1155/S1073792897000160), [preprint ddg.pdf](http://math.haifa.ac.il/hinich/WEB/mypapers/ddg.pdf))
 
@@ -542,17 +590,20 @@ A detailed review of how the traditional Lie integration of [[Lie algebra]]s and
 * [[Marius Crainic]], [[Rui Fernandes]], _Integrability of Lie brackets_ ([arXiv:math.DG/0105033](http://arxiv.org/abs/math/0105033))
 {#Crainic}
 
-The description of Lie integration with values in [[∞-Lie groupoid]]s regarded as simplicial presheaves on [[CartSp]] is in
+The description of Lie integration with values in [[smooth ∞-groupoid]]s regarded as simplicial presheaves on [[CartSp]] is in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
 
+Essentially the same integration prescription is considered in 
+
+* [[Dmitry Roytenberg]], _Differential graded manifolds and associated stacks: an overview_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#Roytenberg">web</a>)
 
 
 A characterization of the [[∞-stack]]s obtained by Lie integration as above is in [theorem 5.3](http://www.math.harvard.edu/~lurie/papers/moduli.pdf#page=12) of 
 
 * [[Jacob Lurie]], _[[Moduli Problems and DG-Lie Algebras]]_ , 
 
-The Lie integration- of [[Lie infinity-algebroid representation|Lie algebroid representations]] $\mathfrak{a} \to end(V)$ to morphisms of [[∞-categories]] $A \to Ch_\bullet^\circ$ is discussed in
+The Lie integration- of [[Lie infinity-algebroid representation|Lie algebroid representations]] $\mathfrak{a} \to end(V)$ to morphisms of [[∞-categories]] $A \to Ch_\bullet^\circ$ / [[higher parallel transport]] is discussed in
 
 * [[Camilo Arias Abad]], [[Florian Schätz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv:1011.4693](http://arxiv.org/abs/1011.4693))
 
