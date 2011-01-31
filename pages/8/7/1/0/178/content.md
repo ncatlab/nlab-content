@@ -2823,19 +2823,33 @@ $$
 
 =--
 
++-- {: .un_def}
+###### Definition
+
+Write
+
+$$
+  \mathbf{B}^n \mathbb{R}_{smp} := \mathbf{cosk}_{n+1} \exp(b^{n-1}\mathbb{R})
+  \in
+  [CartSp_{smooth}^{op}, sSet]
+  \,.
+$$
+
+=--
+
 +-- {: .un_prop}
 ###### Proposition
 
-We have that $\mathbf{cosk}_{n+1}\exp(b^{n-1} \mathbb{R})$ is equivalent to the [smooth line n-group](#CircleLienGroup) $\mathbf{B}^{n-1} \mathbb{R}$.
+We have that $\mathbf{B}^n \mathbb{R}_{smp}$ is a presentation of the [smooth line n-group](#CircleLienGroup) $\mathbf{B}^{n-1} \mathbb{R}$.
 
-Moreover, with $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{smooth}^{op}, sSet]$ the standard presentation given under the [[Dold-Kan correspondence]] by the chain complex of sheaves concentrated in degree $n$ on $C^\infty(-, \mathbb{R})$ the equivalence is induced by the [[fiber integration]] of differential $n$-forms over the $n$-[[simplex]]:
+Concretely, with $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{smooth}^{op}, sSet]$ the standard presentation given under the [[Dold-Kan correspondence]] by the chain complex of sheaves concentrated in degree $n$ on $C^\infty(-, \mathbb{R})$ the equivalence is induced by the [[fiber integration]] of differential $n$-forms over the $n$-[[simplex]]:
 
 $$
   \int_{\Delta^\bullet} 
    : 
-  \mathbf{cosk}_{n+1}\exp(b^{n-1} \mathbb{R})
+  \mathbf{B}^n \mathbb{R}_{smp}
    \stackrel{\simeq}{\to}
-  \mathbf{B}^{n} \mathbb{R}
+  \mathbf{B}^{n} \mathbb{R}_{chn}
   \,.
 $$
 
@@ -2844,49 +2858,38 @@ $$
 The proof of this is spelled out at _[[Lie integration]]_ in the section <a href="http://nlab.mathforge.org/nlab/show/Lie+integration#IntegrationToLineNGroup">Integration to line n-groups</a>.
 
 
-#### de Rham coefficients {#DifferentialCoefficientsOfLieInt}
+#### flat coefficients 
 
-Above we have defined for every [[L-∞ algebra]] $\mathfrak{g}$ a tower of $\infty$-Lie groupoids  $\tau_n \exp(\mathfrak{g})$ _integrating_ it. Now we consider the corresponding de Rham $\infty$-Lie groupoids $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{g})$.
+We consider [flat coefficient object](#StrucFlat) 
+$\mathbf{\flat} \exp(\mathfrak{g})$ of [exponentiated ∞-Lie algebras](#StrucLieAlg) $\exp(\mathfrak{g})$.
 
-Recall that in the above examples we saw for $G$ a Lie $\infty$-group that the underlying discrete Lie $\infty$-groupoid $\mathbf{\flat} \mathbf{B}G$ is resolved by the presheaf $G TrivBund_{flat}$ of trivial $G$-principal $\infty$-bundles with flat connection. From this resolution the de Rham object $\mathbf{\flat}_{dR} \mathbf{B}G$ is obtained as an ordinary pullback of presheaves. These statements we now produce in the full generality of an $\infty$-Lie group obtained from the integration of an $L_\infty$-algebra.
-
-First we produce a [[resolution]] of the underlying bare $\infty$-groupoid
-
-$$
-  \mathbf{\flat}\exp(\mathfrak{g}) : (U,[n]) \mapsto 
-  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(\Delta^n))
-  \,.
-$$
 
 +-- {: .un_def }
 ###### Definition
 
-Write $\exp(\mathfrak{g})_{flat}$ for the simplicial presheaf given by
+Write $\mathbf{\flat}\exp(\mathfrak{g})_{smp}$ for the simplicial presheaf given by
 
 $$
-  \exp(\mathfrak{g})_{flat}
+  \mathbf{\flat}\exp(\mathfrak{g})_{smp}
   :
   (U,[n]) \mapsto
-  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^n))
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega_{si}^\bullet(U \times \Delta^n))
   \,.
 $$
 
 =--
-
-Here and in the following it is understood that differential forms on a space that contains a $\Delta^n$ as a factor have _sitting instants_ : for every $k$ and every $k$-face of $\Delta^n$ there is a neighbourhood of the boundary of that face on which the form is constant in the direction perpendicular to that boundary.
-
 
 
 
 +-- {: .un_lemma }
 ###### Lemma
 
-The canonical morphism
+The canonical inclusion
 
 $$
+  const \Gamma(\exp(\mathfrak{g}))
+   \to
   \mathbf{\flat}\exp(\mathfrak{g})
-  \to
-  \exp(\mathfrak{g})_{flat}
 $$
 
 is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
@@ -2894,23 +2897,18 @@ is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
 =--
 
 
-Below we use this to factor the inclusion $\mathbf{\flat} \exp(\mathfrak{g}) \to \exp(\mathfrak{g})$ as $\mathbf{\flat}\exp(\mathfrak{g})
- \stackrel{\simeq}{\to} \exp(\mathfrak{g})_{flat} \to \exp(\mathfrak{g})$ with the last morphism being a fibration.
-
 +-- {: .proof}
 ###### Proof
 
-The morphism of simplicial presheaves is on each object $U$ the morphism of simplicial sets
+The morphism in question is on each object $U \in CartSp$ the morphism of simplicial sets
 
 $$
-  \alpha(U,[k])
-  :
-  Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^k))
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(\Delta^k))
   \to
-  Hom(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^k))
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^k))
 $$
 
-which is given by pullback along the projection $U \times \Delta^k \to U$.
+which is given by pullback of [[differential form]]s along the projection $U \times \Delta^k \to U$.
 
 
 To show that for fixed $U$ this is a weak equivalence in the standard [[model structure on simplicial sets]] we produce objectwise a left inverse 
@@ -2918,9 +2916,9 @@ To show that for fixed $U$ this is a weak equivalence in the standard [[model st
 $$
   F_U
   :
-  Hom(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^\bullet))
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega_{si}^\bullet(U \times \Delta^\bullet))
   \to
-  Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet))
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega_{si}^\bullet(\Delta^\bullet))
 $$
 
 and show that this is an acyclic fibration of simplicial sets. The statement then follows by the [[category with weak equivalences|2-out-of-3]]-property of weak equivalences.
@@ -2944,17 +2942,17 @@ $$
     \partial \Delta[n] &\to&
     Hom(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^\bullet ))
     \\
-    \downarrow && \downarrow^\mathrlap{F_U}
+    {}^{\mathllap{}}\downarrow && \downarrow^\mathrlap{F_U}
     \\
     \Delta[n]
-    &\to&
+    &\stackrel{}{\to}&
     Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet))
   }
 $$
 
-have a lift. Since the differential forms on the simplices have sitting instances, we may for convenience equivalently reformulate this in terms of spheres as follows:
+have a lift. Since the differential forms on the simplices have sitting instants, we may, as above, equivalently reformulate this in terms of spheres as follows:
 
-for every morphism $CE(\mathfrak{g}) \to \Omega^\bullet(D^n)$ and morphism $CE(\mathfrak{g}) \to \Omega^\bullet(U \times S^{n-1})$ such that the diagram
+for every morphism $CE(\mathfrak{g}) \to \Omega^\bullet_{si}(D^n)$ and morphism $CE(\mathfrak{g}) \to \Omega^\bullet_{si}(U \times S^{n-1})$ such that the diagram
 
 $$
   \array{
@@ -3045,7 +3043,7 @@ with the desired properties.
 The canonical morphism
 
 $$
-  \exp(\mathfrak{g})_{flat}
+  \mathbf{\flat}\exp(\mathfrak{g})_{smp}
   \to 
   \exp(\mathfrak{g})
 $$
@@ -3269,6 +3267,12 @@ For instance the structure constants  now have components of arbitrary arity. Bu
 I'll try to think of a convenient notation to express this.
 
 =--
+
+#### de Rham coefficients {#DifferentialCoefficientsOfLieInt}
+
+We now consider [de Rham coefficient object](#StrucDeRham) 
+$\mathbf{\flat}_{dR} \exp(\mathfrak{g})$ of [exponentiated ∞-Lie algebras](#StrucLieAlg) $\exp(\mathfrak{g})$.
+
 
 With $\mathbf{\flat}\exp(\mathfrak{g}) \to \exp(\mathfrak{g})$ realized as a fibration between fibrant objects, we now obtain the de Rham coefficient object $\mathbf{\flat}_{dR} \exp(\mathfrak{g})$ as an ordinary pullback, as in the above discussions.
 
