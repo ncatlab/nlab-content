@@ -14,19 +14,7 @@
 =--
 =--
 
-* [[∞-Lie algebroid valued differential forms]]
 
-* [[connection on an ∞-bundle]]
-
-* [[curvature]]
-
-* **Bianchi identity**
-
-* [[curvature characteristic form]]
-
-* [[Chern-Simons form]]
-
-***
 
 
 #Contents#
@@ -157,6 +145,21 @@ $$
 $$
 
 This identity is the **Bianchi identity for $\infty$-Lie algebra valued forms**.
+
+## Related concepts
+
+* [[∞-Lie algebroid valued differential forms]]
+
+* [[connection on an ∞-bundle]]
+
+* [[curvature]]
+
+* **Bianchi identity**
+
+* [[curvature characteristic form]]
+
+* [[Chern-Simons form]]
+
 
 ## References
 
