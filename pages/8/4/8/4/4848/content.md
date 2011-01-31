@@ -56,7 +56,7 @@ $$
   \,.
 $$
 
-The _volume cocycle_ is 
+The _volume cocycle_ is the [[volume form]]
 
 $$
   vol = \epsilon_{a_1 \cdots a_{d}} e^{a_1} \wedge \cdots \wedge e^{a_d} \in CE(\mathfrak{iso}(d-1,1))
@@ -148,7 +148,7 @@ The [[curvature]] 2-form $(T, R)$ consists of
 
 If the torsion vanishes, then $\Omega$ is a [[Levi-Civita connection]] for the [[metric]] $E^a \otimes E^b \eta_{a b}$ defined by $E$.
 
-The volume form is the image of the [volume cocycle](#VolumeCocycle) 
+The [[volume form]] is the image of the [volume cocycle](#VolumeCocycle) 
 
 $$
   \Omega^\bullet(X)
