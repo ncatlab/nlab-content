@@ -2494,39 +2494,56 @@ We discuss here the  <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infi
 ###### Definition
 
 Write [[dgAlg]] for the [[category]] of [[dg-algebra]]s over 
-the [[real number]]s $\mahbb{R}$.
+the [[real number]]s $\mathbb{R}$.
 
-For $U \in $ [[CartSp]] and $n \in \mathbb{N}$, write
-$\Omega^\bullet(U \times \Delta^n)$ for the [[dg-algebra]] of smooth [[differential form]]s with sitting instants (...) on the simplex.
+Write
 
-Write $\Omega^\bullet_{vert}(U \times \Delta^n)$ for the [[quotient]] dg-algebra of [[vertical differential form]]s with respect to the projection $p : U \times \Delta^n \to U$: the [[coequalizer]] 
+$$
+  L_\infty \stackrel{CE}{\hookrightarrow} dgAlg^{op}
+$$
+
+for the [[full subcategory]] of the [[opposite category]] on the [[semi-free dga]]s of [[finite type]] on generators in positive degree. This is the category of [[L-∞ algebra]]s identified by their dual [[Chevalley-Eilenberg algebra]]s.
+
+=--
+
+We describe a presentation of the exponentiation an [[L-∞ algebra]] to a smooth $\infty$-group. The following somewhat technical definition serves to control the smooth structure on these exponentiated objects.
+
+
++-- {: .un_defn}
+###### Definition
+
+For $k \in \mathbb{N}$ regard the $k$-[[simplex]] $\Delta^k$ as a [[smooth manifold|smooth]] [[manifold with corners]] in the standard way. We think of this embedded into the [[Cartesian space]] $\mathbb{R}^k$ in the standard way with maximal rotation symmetry about the center of the simplex, and equip $\Delta^k$ with the [[metric space]] structure induced this way.
+
+A smooth [[differential form]] $\omega$ on $\Delta^k$ is said to have **sitting instants** along the boundary if, for every $(r \lt k)$-face $F$ of $\Delta^k$ there is an [[open neighbourhood]] $U_F$ of $F$ in $\Delta^k$ such that $\omega$ restricted to $U$ is constant in the directions perpendicular to the $r$-face on its value restricted to that face.
+
+More generally, for any $U \in $ [[CartSp]] a smooth differential form $\omega$ on $U \times\Delta^k$ is said to have sitting instants if there is $0 \lt \epsilon \in \mathbb{R}$ such that for all points $u : * \to U$ the pullback along  $(u, \mathrm{Id}) : \Delta^k \to U \times \Delta^k$ is a form with sitting instants on $\epsilon$-[[open neighbourhood|neighbourhood]]s of faces.
+
+Smooth forms with sitting instants form a sub-dg-algebra of all smooth forms. We write $\Omega^\bullet_{si}(U \times \Delta^k)$ for this sub-dg-algebra.
+
+We write $\Omega_{si,vert}^\bullet(U \times \Delta^k)$ for the further sub-dg-algebra of [[vertical differential form]]s with respect to the projection $p : U \times \Delta^k \to U$, hence the [[coequalizer]]
 
 $$
   \Omega^\bullet(U)
-    \stackrel{\overset{p^*}{\to}}{\underset{0}{\to}}
-  \Omega^\bullet(U \times \Delta^n)
-   \to
-  \Omega^\bullet_{vert}(U \times \Delta^n)
+  \stackrel{\stackrel{p^*}{\to}}{\underset{0}{\to}}
+  \Omega^\bullet_{si}(U \times \Delta^k)
+  \to
+  \Omega^\bullet_{si, vert}(U \times \Delta^k)  
+  \,.
 $$
-
-in [[dgAlg]].
 
 =--
 
 +-- {: .un_def}
 ###### Definition
 
-For $\mathfrak{g}$ an [[L-∞ algebra]] (over the [[real number]]s $\mathbb{R}$)
-of  [[finite type]], with [[Chevalley-Eilenberg algebra]] 
-$CE(\mathfrak{g}) \in $ [[dgAlg]]${}_{\mathbb{R}}$
-write $\exp(\mathfrak{g}) \in [CartSp_{smooth}^{op}, sSet]$ for the [[simplicial presheaf]] defined over $U \in $ [[CartSp]] and 
+For $\mathfrak{g} \in L_\infty$ write $\exp(\mathfrak{g}) \in [CartSp_{smooth}^{op}, sSet]$ for the [[simplicial presheaf]] defined over $U \in $ [[CartSp]] and 
 $n \in \mathbb{N}$ by
 
 $$
   \exp(\mathfrak{g}) 
    :
   (U, [n]) \mapsto
-  Hom_{dgAlg}(\Omega_{vert}^\bullet(U \times \Delta^n), CE(\mathfrak{g}))
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega_{si,vert}^\bullet(U \times \Delta^n), )
 $$
 
 with the evident structure maps given by pullback of [[differential form]]s.
@@ -2534,6 +2551,52 @@ with the evident structure maps given by pullback of [[differential form]]s.
 =--
 
 For references related to this definition see _[[Lie integration]]_ .
+
++-- {: .un_prop}
+###### Proposition
+
+The objects $\exp(\mathfrak{g}) \in [CartSp_{smooth}^{op}, sSet]$ are 
+
+* [[connected]];
+
+* [[Kan complex]]es over each $U \in $ [[CartSp]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That $\exp(\mathfrak{g})_0 = *$ follows from degree-counting: $\Omega^\bullet_{si,vert}(U \times \Delta^0) = C^\infty(U)$ is entirely in degree 0 and  $CE(\mathfrak{g})$ is in degree 0 the ground field $\mathbb{R}$.
+
+To see that $\exp(\mathfrak{g})$ has all [[horn]]-fillers over each $U \in CartSp$ Oobserve that the standard [[continuous function|continuous]] [[horn]] [[retract]]s $f : \Delta^k \to \Lambda^k_i$ are smooth away from the preimages of the $(r \lt k)$-faces of $\Lambda[k]^i$.
+
+For $\omega \in \Omega^\bullet_{si,vert}(U \times \Lambda[k]^i)$ a differential form with sitting instants on $\epsilon$-neighbourhoods, let therefore $K \subset \partial \Delta^k$ be the set of points of distance $\leq \epsilon$ from any subface. Then we have a smooth function 
+
+$$
+  f : \Delta^k \setminus K \to \Lambda^k_i \setminus K
+  \,.
+$$
+
+The pullback $f^* \omega \in \Omega^\bullet(\Delta^k \setminus K)$ may be extended constantly back to a form with sitting instants on all of $\Delta^k$. 
+
+The resulting assignment
+
+$$
+  (CE(\mathfrak{g}) \stackrel{A}{\to} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i))
+  \mapsto
+  (CE(\mathfrak{g}) \stackrel{A}{\to} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i) \stackrel{f^*}{\to} \Omega^\bullet_{si,vert}(U \times \Delta^n))
+$$
+
+provides fillers for all [[horn]]s over all $U \in $ [[CartSp]].
+
+=--
+
++-- {: .un_prop}
+###### Definition
+
+We say that the [[loop space object]] $\Omega \exp(\mathfrak{g})$ is the **smooth $\infty$-group** exponentiating $\mathfrak{g}$.
+
+=--
 
 
 
@@ -2689,11 +2752,11 @@ And since $\Pi$ preserves the [[homotopy colimit]] $\exp(\mathfrak{g}) \simeq \m
 +-- {: .un_remark}
 ###### Remark
 
-We may think of $\exp(\mathfrak{g})$ as the smooth 
+We may think of $\Omega \exp(\mathfrak{g})$ as the smooth 
 **[[n-connected|∞-simply connected]] [[Lie integration]]**
 of $\mathfrak{g}$.
 
-Notice however that $\exp(\mathfrak{g}) \in Smooth \infty$
+Notice however that $\Omega \exp(\mathfrak{g}) \in Smooth \infty$
 in general has nontrivial and interesting 
 [[categorical homotopy groups in an (infinity,1)-topos|categorical homotopy groups]].
 The above statement says that its 
@@ -2701,13 +2764,85 @@ _[[geometric homotopy groups in an (infinity,1)-topos|geometric homotopy groups]
 
 =--
 
-#### For $\mathfrak{g}$ a Lie algebra
+#### For a Lie algebra
 
-(...) see [[Lie integration]] (...)
+Let $\mathfrak{g} \in L_\infty$ be an ordinary (finite dimensional) [[Lie algebra]]. Standard [[Lie theory]] (see [[Lie's three theorems]]) provides a [[simply connected]] [[Lie group]] $G$ integrating $\mathfrak{g}$.
 
-#### For $\mathfrak{g} = b^n \mathfrak{u}(1)$
 
-(...) see [[Lie integration]] (...)
+With $G$ regarded as a [smooth ∞-group](#LieGroups) write $\mathbf{B}G \in Smooth\infty Grpd$ for its [[delooping]]. Recall from [above](#LieGroups) the standard presentation of this by a simplicial presheaf $\mathbf{B}G_c \in [CartSp_{smooth}^{op}, sSet]$.
+
+
++-- {: .un_prop}
+###### Proposition
+
+The operation of [[parallel transport]] $P \exp(\int -) : \Omega^1([0,1], \mathfrak{g}) \to G$ yields a weak equivalence (in $[CartSp^{op}, sSet]_{proj}$)
+
+$$
+  P \exp(\int - )
+  :
+  \mathbf{cosk}_3 \exp(\mathfrak{g}) 
+  \simeq 
+   \mathbf{cosk}_2 \exp(\mathfrak{g}) \simeq \mathbf{B}G_c
+  \,.
+$$
+
+=--
+
+The proof is spelled out at [[Lie integration]]. In the section <a href="http://nlab.mathforge.org/nlab/show/Lie+integration#LieAlgebrasToLieGroups">Integrating Lie algebras to Lie groups</a>.
+
+
+
+
+#### For a line Lie $n$-algebra
+
+Let $n \in \mathbb{N}$, $n \geq 1$.
+
++-- {: .un_def}
+###### Definition
+
+Write 
+
+$$
+  b^{n-1} \mathbb{R} \in L_\infty
+$$ 
+
+for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $n$ and vanishing differential.
+
+=--
+
+
++-- {: .un_prop}
+###### Observation
+
+The [[discrete ∞-groupoid]] underlying $\exp(b^{n-1} \mathbb{R})$ is given by the [[Kan complex]] that in degree $k$ has the set of closed differential $n$-forms (with sitting instants) on the $k$-[[simplex]]
+
+$$
+  \exp(b^{n-1} \mathbb{R})_{disc}
+  : 
+  [k] \mapsto \Omega^n_{si,cl}(\Delta^k)
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+We have that $\mathbf{cosk}_{n+1}\exp(b^{n-1} \mathbb{R})$ is equivalent to the [smooth line n-group](#CircleLienGroup) $\mathbf{B}^{n-1} \mathbb{R}$.
+
+Moreover, with $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{smooth}^{op}, sSet]$ the standard presentation given under the [[Dold-Kan correspondence]] by the chain complex of sheaves concentrated in degree $n$ on $C^\infty(-, \mathbb{R})$ the equivalence is induced by the [[fiber integration]] of differential $n$-forms over the $n$-[[simplex]]:
+
+$$
+  \int_{\Delta^\bullet} 
+   : 
+  \mathbf{cosk}_{n+1}\exp(b^{n-1} \mathbb{R})
+   \stackrel{\simeq}{\to}
+  \mathbf{B}^{n} \mathbb{R}
+  \,.
+$$
+
+=--
+
+The proof of this is spelled out at _[[Lie integration]]_ in the section <a href="http://nlab.mathforge.org/nlab/show/Lie+integration#IntegrationToLineNGroup">Integration to line n-groups</a>.
 
 
 #### de Rham coefficients {#DifferentialCoefficientsOfLieInt}
@@ -4689,10 +4824,6 @@ The refined [[Lie group cohomology]] is discussed in
 
 * [[Jean-Luc Brylinski]], _Differentiable cohomology of gauge groups_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf)).
 {#Brylinski}
-
-For more references see 
-
-* [[Lie theory]], [[Lie integration]] etc. 
 
 
 The proposal for descent objects for strict $\infty$-groupoid-valued presheaves discussed in [Descent for strict infinity-groupoids](#DescentForStrictInf) appeared in 
