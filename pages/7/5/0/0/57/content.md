@@ -486,9 +486,13 @@ We are now reduced to showing: a smooth family of smooth $n$-forms $\omega \in \
 
 Notice that over the point this is a direct consequence of the [[de Rham theorem]]: an $n$-form $\omega$ on $S^n$ is exact precisely if its integral vanishes. In that case there is an $(n-1)$-form $A$ with $\omega = d A$. Choosing any smoothing function $f : [0,1] \to [0,1]$ (smooth, non,decreasing and constant in a neighbourhood of the boundary) we obtain a $n$-form $f \wedge A$ on $(0,1] \times S^n$, vertically constant in a neighbourhood of the ends of the interval, equal to $A$ at the top and vanishing at the bottom. Pushed forward along the canonical $(0,1] \times S^n \to D^{n+1}$ this defines a form on the $(n+1)$-ball, that we denote by the same symbol $f \wedge A$. Then the form $\hat \omega := d (f \wedge A)$ solves the problem.
 
-To complete the proof we have to show that this simple argument does extend to smooth families of forms in that we can find suitable smooth families of the form $A$ in the above discussion. 
-
-We show this by induction on $n$.
+To complete the proof we have to show that this simple argument does extend to smooth families of forms, i.e., that we can choose the $(n-1)$-form $A$ in a way depending smoothly on the the $n$-form $\omega$. A simple way of achieving this is by a little [[Hodge theory]]. Fix a Riemannian metric on $S^n$, and let $\Delta$ be the corresponding [[Laplace operator]], and $\pi$ the projection on the space of [[harmonic forms]]. Then the central result of Hodge theory for compact Riemannian manifolds states that the operator $\pi$, seen as an operator from the de Rham complex to itself, is a cochain map homotopic to the identity, via an explicit homotopy $P$ expressed in terms of the adjoint $d^*$ of the de Rham differential and of the [[Green operator]] of $\Delta$. Since the integral of the closed form $\omega$ vanishes on the [[fundamental class]] of $S^n$, the $n$-form $\omega$ is exact, and so its harmonic projection is zero. Therefore
+$$
+\omega=(Id-\pi)\omega=d (P\omega)+P (d\omega)=d (P\omega).
+$$
+Hence $A:=P\omega$ is a solution of the differential equation $d A=\omega$ depending smoothly on $\omega$.
+ 
+Alternatively, we show this by induction on $n$.
 
 For $n = 1$, let $\omega$ be a smooth family of smooth 1-forms on $S^1$ whose integral vanishes and which has sitting instants at least at one point. Let $f : [0,1] \to [0,1]$ be any smoothing function (a smooth non-degreasing surjection that is constant in a neighbourhood of 0 and 1). In terms of standard polar coordinates on the 2-[[ball]] $D^2$, with $\theta = 0$ the point where $\omega$ has sitting instants, write $\omega = \omega_\theta \wedge d \theta$ and set
 
