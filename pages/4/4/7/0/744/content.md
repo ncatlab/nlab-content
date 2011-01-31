@@ -62,6 +62,11 @@ On the other hand, the aim is to keep iTeX as close as possible to standard LaTe
    1. Break the `\text` command: `\text{in~}\infty{-categories}` produces $\text{in}\;\infty{-categories}$ (note the forced space, simple whitespace there will not work).
    2. Use **numbered** entities: `\text{in ∞-categories` produces $\text{in ∞-categories}$.  Named entities will not work here as they get converted to unicode internally before being sent to the iTeX parser.
 
+### I searched for a page that I know exists, but I couldn't find it
+
+Instiki's search uses regular expressions.  That means you can do all sorts of fancy searches, but it also means that pages with special characters in their names are hard to search for.  For instance, if you search for `(n,r)-category` you will come up with nothing, because Instiki interprets the parentheses as a regular expression grouping construct.  To search for actual parentheses, you need to backslash them: search instead for `\(n,r\)-category`.
+
+
 ### itex is a pain, why do you guys use MathML? {#WhyMathML}
 
 Many web sites "support" LaTeX by running it through a script which converts LaTeX equations to image files for display.  While this produces acceptable results for many users, it is not true "support" for mathematics.  Images can sometimes be hard to see, and the user cannot easily resize them or change their color or font, nor can software easily read them aloud to a blind user.  In contrast, MathML is a markup language, like HTML, specifically designed to carry information not only about the display of mathematics, but its content and meaning.  A suitable client application can resize MathML along with the rest of the page, change its color or font, or even read it aloud, making MathML a much more accessible way to display mathematics.  See, for instance, [this comment](http://terrytao.wordpress.com/2009/10/29/displaying-mathematics-on-the-web/#comment-42119).
