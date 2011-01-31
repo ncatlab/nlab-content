@@ -12,6 +12,88 @@ $\underoverset{a}{b}{\to}$
 * toc
 {: toc}
 
+
+Can we have arrays in arrays?
+
+$$
+  \array{
+    \left\{
+      \array{
+        \Omega^\bullet_{si, vert}(U \times \Delta^k)
+        &\stackrel{A_{vert}}{\leftarrow}&
+        CE(b^{n-1}\mathbb{R})
+        \\
+        \uparrow && \uparrow
+        \\
+        \Omega^\bullet_{si}(U \times \Delta^k)
+        &\stackrel{A}{\leftarrow}&
+        W(b^{n-1}\mathbb{R})
+      }
+    \right\}
+    &\to&
+    \left\{
+      \array{
+        \Omega^\bullet_{si, vert}(U \times \Delta^k)
+        &\stackrel{}{\leftarrow}&
+        W(b^{n-1}\mathbb{R})
+        \\
+        \uparrow && \uparrow^{\mathrlap{id}}
+        \\
+        \Omega^\bullet_{si}(U \times \Delta^k)
+        &\stackrel{}{\leftarrow}&
+        W(b^{n-1} \mathbb{R})
+      }
+    \right\}
+    \\
+    \downarrow && \downarrow
+    \\
+    \left\{
+      \array{
+        \Omega^\bullet_{si, vert}(U \times \Delta^k)
+        &\stackrel{0}{\leftarrow}&
+        0
+        \\
+        \uparrow && \uparrow
+        \\
+        \Omega^\bullet_{si}(U \times \Delta^k)
+        &\stackrel{}{\leftarrow}&
+        CE(b^{n} \mathbb{R})
+      }
+    \right\}
+    &\to&
+    \left\{
+      \array{
+        \Omega^\bullet_{si,vert}(U \times \Delta^k)
+        &\leftarrow&
+        CE(b^{n} \mathbb{R})
+        \\
+        \uparrow && \uparrow^{\mathrlap{id}}
+        \\
+        \Omega^\bullet_{si}(U \times \Delta^k)
+        &\stackrel{}{\leftarrow}&
+        CE(b^{n} \mathbb{R})      
+      }
+    \right\}
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to&
+    \left\{
+      \array{
+        \Omega^\bullet_{si,vert}(U \times \Delta^k)
+        &\leftarrow& CE(b^{n} \mathbb{R})
+        \\
+        \uparrow && \uparrow
+        \\
+        \Omega^\bullet_{si}(U \times \Delta^k)
+        &\stackrel{}{\leftarrow}&
+        0
+      }
+    \right\}
+    
+  }
+$$
+
 ## You don't see the next symbols displayed properly: $\mathbf{B}G$ ## {: #BecauseOfThisAnchor}
 
 You don't see the next symbols displayed properly: $\mathbf{B}G$
