@@ -2488,6 +2488,7 @@ Form the defining pullback as before. (...)
 
 We discuss here the  <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebras">intrinsic exponentiated ∞-Lie algebras</a> in $Smooth \infty Grpd$.
 
+#### Lie integration
 
 +-- {: .un_def}
 ###### Definition
@@ -2763,7 +2764,7 @@ _[[geometric homotopy groups in an (infinity,1)-topos|geometric homotopy groups]
 
 =--
 
-#### For a Lie algebra
+##### For a Lie algebra
 
 Let $\mathfrak{g} \in L_\infty$ be an ordinary (finite dimensional) [[Lie algebra]]. Standard [[Lie theory]] (see [[Lie's three theorems]]) provides a [[simply connected]] [[Lie group]] $G$ integrating $\mathfrak{g}$.
 
@@ -2792,7 +2793,7 @@ The proof is spelled out at [[Lie integration]]. In the section <a href="http://
 
 
 
-#### For a line Lie $n$-algebra
+##### For a line Lie $n$-algebra
 
 Let $n \in \mathbb{N}$, $n \geq 1$.
 
@@ -2879,7 +2880,30 @@ $$
 
 =--
 
++-- {: .un_prop #FactorizatonForExponentiatedFlatInclusion}
+###### Proposition
 
+The canonical morphism 
+$\mathbf{\flat} \mathbf{B}^n \mathbb{R} \to \mathbf{B}^n \mathbb{R}$
+in $Smooth \infty Grpd$ is presented in $[CartSp_{smooth}^{op}, sSet]$
+by the composite
+
+$$
+  const \Gamma \exp(b^{n-1} \mathbb{R})
+  \to
+  \mathbf{\flat} \exp(b^{n-1} \mathbb{R})_{smp}
+  \to
+  \exp(b^{n-1} \mathbb{R})
+  \,,
+$$
+
+where the first morphism is a weak equivalence and the second a 
+fibration in $[CartSp_{smooth}^{op}, sSet]_{proj}$.
+
+=--
+
+We discuss the two morphisms in the composite separately in two
+lemmas.
 
 +-- {: .un_lemma }
 ###### Lemma
@@ -2889,7 +2913,7 @@ The canonical inclusion
 $$
   const \Gamma(\exp(\mathfrak{g}))
    \to
-  \mathbf{\flat}\exp(\mathfrak{g})
+  \mathbf{\flat}\exp(\mathfrak{g})_{smp}
 $$
 
 is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
@@ -3074,14 +3098,14 @@ $$
   CE(\mathfrak{g}) 
     \to 
    \Omega_{si,vert}^\bullet(
-     U \timess (D^n \times [0,1])
+     U \times (D^n \times [0,1])
    )
 $$
 
 a morphism and 
 
 $$
-  CE(\mathfrak{g}) \to \Omega^\bullet_{si}(D^n \times U)
+  CE(\mathfrak{g}) \to \Omega^\bullet_{si}(U \times D^n )
 $$
 
 a lift of its restriction to $\sigma = 0 \in [0,1]$ we have an extension to a 
@@ -3118,24 +3142,36 @@ $$
   \,.
 $$
 
-A lift of the restriction to $\sigma = 0$ is a morphism
-$CE(b^{n-1}\mathbb{R}) \to \Omega^\bullet_{si}(U \times D_k )$
-given by a term A_{U  \times D^k}$. 
+Consider a lift 
+of the restriction to $\sigma = 0$ by a term
+$A_{D^k} + A_{U  \times D^k}$ 
+being a morphism
+$CE(b^{n-1}\mathbb{R}) \to \Omega^\bullet_{si}(U \times D_k )$. 
 
 We can extend this to a morphism
 $CE(b^{n-1}\mathbb{R}) \to \Omega^\bullet_{si}(U \times D_k \times [0,1])$
-by solving the differential equation
+by lifting $\lambda$ without adding any terms to it and
+solving the differential equation
 
 $$
-  \partial_\sigma A_{U \times D^k} = (d_U + d_{D^k}) \lambda
+  \partial_\sigma (A_{D^k} + A_{U \times D^k} - A_{D^K}) = (d_U + d_{D^k}) \lambda
+  \,,
+$$
+
+equivalently for the new term
+
+$$
+  \partial_\sigma A_{U \times D^k}  = d_U \lambda
+  \,,
 $$
 
 with boundary condition the given value at $\sigma = 0$.
 
-For this unique solution to be a lift we need that $(d_U + d_{D^k}) A_{U \times D^k} = 0$. Since this is the case at $\sigma = 0$ by assumption of the lift at that end, we need to check that
+For this unique solution to be a lift we need in addition that 
+$(d_U + d_{D^k}) (A_{D^k} + A_{U \times D^k}) = 0$. Since this is the case at $\sigma = 0$ by assumption of the lift at that end, we need to check that
 
 $$
-  \partial_\sigma (d_U + d_{D^k}) A_{U \times D^k} = 0
+  \partial_\sigma (d_U + d_{D^k}) (A_{D^k} + A_{U \times D^k}) = 0
   \,.
 $$
 
@@ -3143,7 +3179,7 @@ But by the above this follows from the [[Bianchi identity]], which for the speci
 
 $$
   \cdots = 
-  (d_U + d_{D^k}) (d_U + d_{D^k}) A_{U \times D^k} = 0
+  (d_U + d_{D^k}) (d_U + d_{D^k}) (A_{D^k} + A_{U \times D^k}) = 0
   \,.
 $$
 
@@ -3151,7 +3187,7 @@ $$
 
 **2nd case: $\mathfrak{g} an arbitrary Lie algebra$**
 
-Now let $\mathfrak{g}$ be an arbitrary Lie algebra. Choose a dual basis $\{t^a\}$ and structue constants $C^a{}_{b c}$. We get a discussion analogous to the above with structure constant terms thrown in:
+Now let $\mathfrak{g}$ be an ordinary Lie algebra. Choose a dual basis $\{t^a\}$ and structue constants $C^a{}_{b c}$. We get a discussion analogous to the above with structure constant terms thrown in:
 
 the original element is a collection of 1-forms $A^a_v d v + A^a_\sigma d \sigma $ satisfying
 
@@ -3266,25 +3302,28 @@ I'll try to think of a convenient notation to express this.
 
 =--
 
+
+
 #### de Rham coefficients {#DifferentialCoefficientsOfLieInt}
 
 We now consider [de Rham coefficient object](#StrucDeRham) 
 $\mathbf{\flat}_{dR} \exp(\mathfrak{g})$ of [exponentiated ∞-Lie algebras](#StrucLieAlg) $\exp(\mathfrak{g})$.
 
 
-With $\mathbf{\flat}\exp(\mathfrak{g}) \to \exp(\mathfrak{g})$ realized as a fibration between fibrant objects, we now obtain the de Rham coefficient object $\mathbf{\flat}_{dR} \exp(\mathfrak{g})$ as an ordinary pullback, as in the above discussions.
-
 +-- {: .un_corollary}
 ###### Corollary
 
-For $\mathfrak{g}$ an $L_\infty$-algebra, a representive in $[CartSp^{op}, sSet]_{proj}$ of the object $\mathbf{\flat}_{dR} \exp(\mathfrak{g})$ is the presheaf
+For $\mathfrak{g} \in L_\infty$ a representive in $[CartSp^{op}, sSet]_{proj}$ of the object de Rham coefficient object
+$\mathbf{\flat}_{dR} \exp(\mathfrak{g})$ is the presheaf
 
 $$
+  \mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{smp}
+  :
   (U,[n])
   \mapsto
    Hom_{dgAlg}(
      CE(\mathfrak{g}),
-     \Omega^{\bullet\geq 1,\bullet}(U \times \Delta^n)
+     \Omega_{si}^{\bullet\geq 1,\bullet}(U \times \Delta^n)
   )
   \,,
 $$
@@ -3293,16 +3332,29 @@ where the notation on the right denotes the dg-algebra of differential forms on 
 
 =--
 
-Compare this to the more explicit examples that we had discussed above.
++-- {: .proof}
+###### Proof
 
-+-- {: .un_corollary}
-###### Corollary
+By the [above proposition](#FactorizatonForExponentiatedFlatInclusion)
+we may present the defining [[(∞,1)-pullback]] 
+$\mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R} := 
+* \times_{\mathbf{B}^n \mathbb{R}} \mathbf{\flat} \mathbf{B}^n \mathbb{R}$
+in $Smooth \infty Grpd$ by the ordinary pullback
 
-All statements go through verbatim for the $n$-truncation $\tau_n \exp(\mathfrak{g})$.
-
-(...)
+$$
+  \array{
+    \mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{smp} &\to&
+      \mathbf{\flat}\mathbf{B}^n \mathbb{R}_{smp}
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \mathbf{B}^n \mathbb{R}   
+  }
+  \,.
+$$
 
 =--
+
 
 +-- {: .un_remark}
 ###### Remark
@@ -3311,7 +3363,7 @@ Observe that $\exp(\mathfrak{g})$ is the _concretization_ (in the sense of [[con
 
 =--
 
-##### For line $n$-groups {#LieIntDiffCoeffsForLineGroups}
+##### For a line Lie $n$-algebra {#LieIntDiffCoeffsForLineGroups}
 
 For the [circle n-groupoid](#BnU1) $\mathbf{B}^{n}U(1)$ we have now obtained two different models for its de Rham coefficient object $\mathbf{\flat}_{dR}\mathbf{B}^n U(1)$:
 
