@@ -2861,7 +2861,7 @@ $$
 The proof of this is spelled out at _[[Lie integration]]_ in the section <a href="http://nlab.mathforge.org/nlab/show/Lie+integration#IntegrationToLineNGroup">Integration to line n-groups</a>.
 
 
-#### flat coefficients 
+#### flat coefficients {#FlatCoeffsForExponentiated}
 
 We consider [flat coefficient object](#StrucFlat) 
 $\mathbf{\flat} \exp(\mathfrak{g})$ of [exponentiated ∞-Lie algebras](#StrucLieAlg) $\exp(\mathfrak{g})$.
@@ -3319,9 +3319,9 @@ There is an evident degreewise map
 $$
   (-1)^{\bullet+1}
   \int_{\Delta^\bullet} :
-  \mathbf{\flat}^{simp} \mathbf{B}^n \mathbb{R}
+  \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{simp}
   \to  
-  \mathbf{\flat}^{chn} \mathbf{B}^n \mathbb{R}
+  \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{chn}
 $$
 
 that sends a closed $n$-form $\omega \in \Omega^n_{cl}(U \times \Delta^k)$ to $(-1)^{k+1}$ times  its [[fiber integration]] $\int_{\Delta^k} \omega$.
@@ -3357,7 +3357,7 @@ $$
 
 is surjective on degree $n$ homotopy groups: for $f : U \to * \to \mathbb{R}$  constant, a preimage is $f \cdot vol_{\Delta^n}$, the normalized [[volume form]] of the $n$-[[simplex]] times $f$.
 
-Moreover, these preimages clearly span the whole homotopy group $\pi_n (\mathbf{\flat} \mathbf{B}^n \mathbb{R}) \simeq \mathb{R}_{disc}$ (they are in fact the images of the weak equivalence $const \Gamma \exp(b^{n-1}\mathbb{R}) \to \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{smp}$ ) and the integration map is injective on them. Therefore it is an isomorphism on the homotopy group.
+Moreover, these preimages clearly span the whole homotopy group $\pi_n (\mathbf{\flat} \mathbf{B}^n \mathbb{R}) \simeq \mathb{R}_{disc}$ (they are in fact the images of the weak equivalence $const \Gamma \exp(b^{n-1}\mathbb{R}) \to \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{smp}$ ) and the integration map is injective on them. Therefore it is an isomorphism on the homotopy groups in deegree $n$.
 
 =--
 
@@ -3429,9 +3429,9 @@ There is an evident degreewise map
 $$
   (-1)^{\bullet+1}
   \int_{\Delta^\bullet} :
-  \mathbf{\flat}_{dR}^{simp} \mathbf{B}^n \mathbb{R}
+  \mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{simp}
   \to  
-  \mathbf{\flat}_{dR}^{chn} \mathbf{B}^n \mathbb{R}
+  \mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{chn}
 $$
 
 that sends a closed $n$-form $\omega \in \Omega^n_{cl}(U \times \Delta^k)$ to $(-1)^{k+1}$ times  its [[fiber integration]] $\int_{\Delta^k} \omega$.
@@ -3483,17 +3483,17 @@ where we first used that $\omega$ is closed, so that $d_{dR} \omega = (d_U + d_{
 
 Therefore we have indeed objectwise a chain map.
 
-To see that it gives a weak equivalence, notice that this morphism is the morphism on pullbacks induced from the morphism of diagrams
+To see that it gives a weak equivalence, notice that this morphism is the morphism on pullbacks induced from the weak equivalence of diagrams
 
 $$
   \array{
     * &\to& \exp(b^{n-1}\mathbb{R}) &\leftarrow& \mathbf{\flat}\mathbf{B}^n \mathbb{R}_{smp}
     \\
-    \downarrow^= 
+    \downarrow^{\mathrlap{=}} 
     && 
-    {}^{\pm \int_{\Delta^\bullet}} \downarrow^{\mathrlap{\simeq}}
+    {}^{\mathllap{\pm \int_{\Delta^\bullet}}} \downarrow^{\mathrlap{\simeq}}
     &&
-    {}^{\pm \int_{\Delta^\bullet}} \downarrow^{\mathrlap{\simeq}}
+    {}^{\mathllap{\pm \int_{\Delta^\bullet}}} \downarrow^{\mathrlap{\simeq}}
     \\
     * &\to& \mathbf{B}^n \mathbb{R}_{chn} &
       \leftarrow& \mathbf{\flat}\mathbf{B}^n \mathbb{R}_{chn}
@@ -3645,7 +3645,7 @@ $\theta \in \Omega^1_{flat}(G,\mathfrak{g})$.
 =--
 
 
-#### The universal curvature characteristic on $\mathbf{B}^n U(1)$
+#### The universal curvature characteristic on $B^n U(1)$ {#CurvatureCharacteristicOnCircleNGroup}
 
 Recall the discussion of $\mathbf{B}^n U(1)$ and of 
 $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ from 
@@ -3824,7 +3824,7 @@ in $[CartSp^{op},sSet]_{proj}$ where
 
 * the two squares are [[nLab:pullback]] squares.
 
-Therefore this is a [[homotopy pullback]] in $[CartSp^{op}, sSet]_{proj}$ that realizes the  $(\infty,1)$-pullback in question. 
+Therefore this is a [[homotopy pullback]] in $[CartSp^{op}, sSet]_{proj}$ that realizes the  [[(∞,1)-pullback]] in question. 
 
 For the lower square we had discussed this already [above](#OrdinaryDeRham). For the upper square the same type of reasoning applies. The main point is to find the chain complex in the top right such that it is a [[resolution]] of the point and maps by a fibration onto our model for $\mathbf{\flat}\mathbf{B}^n U(1)$. The top right complex is
 
@@ -3897,6 +3897,253 @@ and in turn the top left vertical morphism $curv : \mathbf{B}_{diff}^n U(1) \to 
 
 Notice that the evident forgetful morphism $\mathbf{B}^n U(1) \stackrel{}{\leftarrow} \mathbf{B}^n_{diff} U(1)$ is indeed a weak equivalence.
 
+
+In the section on [de Rham coefficients for exponentiated Lie algebras](#spring) we had discussed an equivalent presentation of most of the objects above. We now formulate the curvature characteristic in this alternative form.
+
+
++-- {: .un_prop }
+###### Observation
+
+We may write the [[simplicial presheaf]] $\mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}$ from [above](#spring) equivalently as follows
+
+$$
+  \mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathb{R}_{smp}
+  :
+  (U, [k]) 
+   \mapsto
+  \left\{
+    \array{
+      \Omega^\bullet_{si,vert}(U \times \Delta^k)
+       &\stackrel{0}{\leftarrow}& 0
+       \\
+       \uparrow && \uparrow
+       \\
+       \Omega_{si}^\bullet(U \times \Delta^k)
+        &\stackrel{A}{\to}&
+       CE(b^{n}\mathbb{R})
+    }    
+  \right\}
+  \,,
+$$
+
+
+where on the right we have the set of [[commuting diagram]]s in [[dgAlg]] of the given form, with the vertical morphisms being the canonical projections.
+
+=--
+
+
++-- {: .un_def }
+###### Definition
+
+Let $\mathbf{B}^n \mathbb{R}_{diff,smp} \in [CartSp_{smooth}^{op}, sSet]$ be the [[simplicial presheaf]] defined by
+
+$$
+  \mathbf{B}^n \mathbb{R}_{diff,smp} : (U,[k])
+  \mapsto
+  \left\{
+    \array{
+      \Omega^\bullet_{si,vert}(U \times \Delta^k)
+       &\stackrel{A_{vert}}{\leftarrow}& CE(b^{n-1}\mathbb{R})
+       \\
+       \uparrow && \uparrow
+       \\
+       \Omega_{si}^\bullet(U \times \Delta^k)
+        &\stackrel{A}{\to}&
+       W(b^{n-1}\mathbb{R})
+    }
+  \right\}
+  \,,
+$$ 
+
+where on the right we have the set of [[commuting diagram]]s in [[dgAlg]]
+as indicated.
+
+=--
+
+An element of $\mathbf{B}^n \mathbb{R}_{diff,smp}(U)[k]$ is a smooth $n$-form $A$ (with sitting instants) on $U \timde \Delta^k$ such that its [[curvature]] $(n+1)$-form $d A$ vanishes when restricted in all arguments to [[vector field]]s tangent to $\Delta^k$. We may write this as $d A \in \Omega^{\bullet \geq 1, \bullet}_{si}(U \times \Delta^k)$.
+
+There are canonical morphism 
+
+$$
+  \array{
+    \mathbf{B}^n \mathbb{R}_{diff,smp}
+     &\stackrel{curv_{smp}}{\to}& 
+     \mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{smp}
+    \\
+    \downarrow
+    \\
+    \mathbf{B}^n \mathbb{R}_{smp}
+  }
+$$
+
+where the vertical map is given by remembering only the top horizonatal morphism in the above square diagram, and the vertical morphism is given by
+forming the pasting composite
+
+$$
+  curv_{smp} 
+   : 
+  \left\{
+    \array{
+      \Omega^\bullet_{si,vert}(U \times \Delta^k)
+       &\stackrel{A_{vert}}{\leftarrow}& CE(b^{n-1}\mathbb{R})
+       \\
+       \uparrow && \uparrow
+       \\
+       \Omega_{si}^\bullet(U \times \Delta^k)
+        &\stackrel{A}{\to}&
+       W(b^{n-1}\mathbb{R})
+    }
+  \right\}
+  \;\;
+  \mapsto
+  \;\;
+  \left\{
+    \array{
+      \Omega^\bullet_{si,vert}(U \times \Delta^k)
+       &\stackrel{A_{vert}}{\leftarrow}& CE(b^{n-1}\mathbb{R})
+       &\leftarrow& 0
+       \\
+       \uparrow && \uparrow && \uparrow
+       \\
+       \Omega_{si}^\bullet(U \times \Delta^k)
+        &\stackrel{A}{\to}&
+       W(b^{n-1}\mathbb{R})
+        &\stackrel{}{\leftarrow}&
+       CE(b^{n\mathbb{R}})
+    }
+  \right\}  
+  \,.
+$$
+
++-- {: .un_prop }
+###### Proposition 
+
+This span is a presentation in $[CartSp_{smooth}^{op}, sSet]$ of the canonical curvature characteristic $curv : \mathbf{B}^n \mathbb{R} \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+We need to produce a fibration [[resolution]] of the point inclusion
+$* \to \mathbf{\flat} \mathbf{B}^{n+1} \mathbb{R}_{smp}$ 
+in $[CartSp_{smooth}^{op}, sSet]_{proj}$ and then show that
+the above is the ordinary [[pullback]] of this along 
+$\mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}_{smp} \to \mathbf{\flat} \mathbf{B}^{n+1} \mathbb{R}_{smp} $.
+
+We claim that this is achived by the morphism
+
+$$
+  (U,[k]) 
+  :   
+  \{
+    \Omega^\bullet_{si}(U \times \Delta^k)
+    \leftarrow
+    W(b^{n-1} \mathbb{R})
+  \}
+  \mapsto 
+  \{
+    \Omega^\bullet_{si}(U \times \Delta^k)
+    \leftarrow
+    W(b^{n-1} \mathbb{R})
+    \leftarrow
+    CE(b^{n-1} \mathbb{R})
+  \}
+  \,.
+$$
+
+Here the simplicial presheaf on the left is that which assigns the set of arbitrary $n$-forms (with sittin instants but not necessarily closed) on $U \times \Delta^k$ and the map is simply given by sending such an $n$-form $A$ to the $(n+1)$-form $d_{dR} A$.
+
+It is evident that the simplicial presheaf on the left resolves the point: since there is no condition on the forms clearly every form on $U \times \Delta^k$ is in the image of the map of the [[Moore complex|normalized chain complex]] of a form on $U \timde \Delta^{k+1}$: such is given by any form that is, up to a sign, equal to the given form on one $n$-face and 0 on all the other faces. Clearly such a form exists.
+
+Moreover, this morphism is a fibration in $[CartSp_{smooth}^{op}, sSet]_{proj}$.
+
+Now we observe that we have over each $(U,[k])$ a double pullback diagram
+
+$$
+  \array{
+    \left\{
+      \array{
+        \Omega^\bullet_{si, vert}(U \times \Delta^k)
+        &\stackrel{A_{vert}}{\leftarrow}&
+        CE(b^{n-1}\mathbb{R})
+        \\
+        \uparrow && \uparrow
+        \\
+        \Omega^\bullet_{si}(U \times \Delta^k)
+        &\stackrel{A}{\leftarrow}&
+        W(b^{n-1}\mathbb{R})
+      }
+    \right\}
+    &\to&
+    \left\{
+      \array{
+        \Omega^\bullet_{si, vert}(U \times \Delta^k)
+        &\stackrel{}{\leftarrow}&
+        W(b^{n-1}\mathbb{R})
+        \\
+        \uparrow && \uparrow^{\mathrlap{id}}
+        \\
+        \Omega^\bullet_{si}(U \times \Delta^k)
+        &\stackrel{}{\leftarrow}&
+        W(b^{n-1} \mathbb{R})
+      }
+    \right\}
+    \\
+    \downarrow && \downarrow
+    \\
+    \left\{
+      \array{
+        \Omega^\bullet_{si, vert}(U \times \Delta^k)
+        &\stackrel{0}{\leftarrow}&
+        0
+        \\
+        \uparrow && \uparrow
+        \\
+        \Omega^\bullet_{si}(U \times \Delta^k)
+        &\stackrel{}{\leftarrow}&
+        CE(b^{n} \mathbb{R})
+      }
+    \right\}
+    &\to&
+    \left\{
+      \array{
+        \Omega^\bullet_{si,vert}(U \times \Delta^k)
+        &\leftarrow&
+        CE(b^{n} \mathbb{R})
+        \\
+        \uparrow && \uparrow^{\mathrlap{id}}
+        \\
+        \Omega^\bullet_{si}(U \times \Delta^k)
+        &\stackrel{}{\leftarrow}&
+        CE(b^{n} \mathbb{R})      
+      }
+    \right\}
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to&
+    \left\{
+      \array{
+        \Omega^\bullet_{si,vert}(U \times \Delta^k)
+        &\leftarrow& CE(b^{n} \mathbb{R})
+        \\
+        \uparrow && \uparrow
+        \\
+        \Omega^\bullet_{si}(U \times \Delta^k)
+        &\stackrel{}{\leftarrow}&
+        0
+      }
+    \right\}    
+  }
+  \,.
+$$
+
+The bottom square is the one we already discussed for the de Rham coefficients. Since the to right vertical morphism is a fibration, also the top square is a [[homotopy pullback]] and hence exhibits the defining 
+$(\infty,1)$-pullback for curv.
+
+=--
 
 ### Differential cohomology {#StrucDifferentialCohomology}
 
