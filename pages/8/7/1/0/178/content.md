@@ -1367,8 +1367,7 @@ in  [[ETop∞Grpd]] carry over directly to $Smooth \infty Grpd$.
 (...)
 
 
-### Universal coverings and geometric Whitehead towers {#StrucWhitehead} {#SmoothWhitehead}
-
+### Universal coverings and geometric Whitehead towers {#StrucWhitehead} 
 
 Given a [[Lie group]] $G$, we may regard it either as a [[topological group]] and form the [[classifying space]] $\mathcal{B}G \in $ [[Top]] $\simeq$ [[∞Grpd]], or we may form its [[delooping]] [[Lie groupoid]] $\mathbf{B}G \in \infty LieGrpd$, as discussed in the [section on Lie groups](#LieGroups) above.
 By the discussion in the [section on geometric realization](#GeometricRealization) we have that under the canonical geometric realization functor
