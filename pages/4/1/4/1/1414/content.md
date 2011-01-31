@@ -487,5 +487,6 @@ Two query-discussions on terminology and concrete description of the coherent/"s
 [[!redirects homotopy coherent nerves]]
 [[!redirects homotopy-coherent nerve]]
 [[!redirects homotopy-coherent nerves]]
+[[!redirects coherent nerve]]
 [[!redirects nerve of a simplicial category]]
 [[!redirects simplicial nerve of simplicial categories]]
