@@ -117,14 +117,15 @@ For discussing smooth families of $d$-paths we need the following technical noti
 +-- {: .un_defn}
 ###### Definition
 
-Regard the $k$-[[simplex]] $\Delta^k$ as a [[smooth manifold|smooth]] [[manifold with corner]]s in the standard way. We think of this embedded into the [[Cartesian space]] $\mathbb{R}^k$ in the standard way with maximal rotation symmetry about the center of the simplex, and equip $\Delta^k$ with the [[metric space]] structure induced this way.
+For $k \in \mathbb{N}$ regard the $k$-[[simplex]] $\Delta^k$ as a [[smooth manifold|smooth]] [[manifold with corner]]s in the standard way. We think of this embedded into the [[Cartesian space]] $\mathbb{R}^k$ in the standard way with maximal rotation symmetry about the center of the simplex, and equip $\Delta^k$ with the [[metric space]] structure induced this way.
 
-A smooth [[differential form]] $\omega$ on $\Delta^k$ is said to have **sitting instants** along the boundary if, for every $(r \lt k)$-face $F$ of $\Delta^k$ there is a [[neighbourhood]] $U_F$ of $F$ in $\Delta^k$ such that $\omega$ restricted to $U$ is constant in the directions perpendicular to the $r$-face on its value restricted to that face.
+A smooth [[differential form]] $\omega$ on $\Delta^k$ is said to have **sitting instants** along the boundary if, for every $(r \lt k)$-face $F$ of $\Delta^k$ there is an [[open neighbourhood]] $U_F$ of $F$ in $\Delta^k$ such that $\omega$ restricted to $U$ is constant in the directions perpendicular to the $r$-face on its value restricted to that face.
 
-More generally, for any $U \in $ [[CartSp]] a smooth differential form $\omega$ on $U \times\Delta^k$ is said to have sitting instants there is $0 \lt \epsilon \in \mathbb{R}$ such that for all points $u : * \to U$ the pullback along  $(u, \mathrm{Id}) : \Delta^k \to U \times \Delta^k$ is a form with sitting instants on $\epsilon$-[[open neighbourhood|neighbourhood]]s of faces.
+More generally, for any $U \in $ [[CartSp]] a smooth differential form $\omega$ on $U \times\Delta^k$ is said to have sitting instants if there is $0 \lt \epsilon \in \mathbb{R}$ such that for all points $u : * \to U$ the pullback along  $(u, \mathrm{Id}) : \Delta^k \to U \times \Delta^k$ is a form with sitting instants on $\epsilon$-[[open neighbourhood|neighbourhood]]s of faces.
 
 Smooth forms with sitting instants clearly form a sub-dg-algebra of all smooth forms. We write $\Omega^\bullet_{si}(U \times \Delta^k)$ for this sub-dg-algebra.
-And finally we write $\Omega_{si,vert}^\bullet(U \times \Delta^k)$ for the further sub-dg-algebra of [[vertical differential form]]s with respect to the projection $p : U \times \Delta^k \to U$, hence the [[coequalizer]]
+
+We write $\Omega_{si,vert}^\bullet(U \times \Delta^k)$ for the further sub-dg-algebra of [[vertical differential form]]s with respect to the projection $p : U \times \Delta^k \to U$, hence the [[coequalizer]]
 
 $$
   \Omega^\bullet(U)
@@ -140,7 +141,7 @@ $$
 +-- {: .un_remark}
 ###### Remark
 
-Note that the dimension of the normal direction to a fce depends on the dimension of the fce:  there is one perpendicular direction to a codimension-1 face, and $k$ perpendicular directions to a
+Note that the dimension of the normal direction to a face depends on the dimension of the face:  there is one perpendicular direction to a codimension-1 face, and $k$ perpendicular directions to a
 vertex. 
 
 =--
@@ -276,24 +277,32 @@ See also at [[smooth ∞-groupoid]] the section <a href="http://ncatlab.org/nlab
 
 ### Interating Lie algebras to Lie groups {#LieAlgebrasToLieGroups}
 
-Let $\mathfrak{g}$ be an ordinary (finite dimensional) [[Lie algebra]].
+Let $\mathfrak{g} \in L_\infty$ be an ordinary (finite dimensional) [[Lie algebra]]. Standard [[Lie theory]] (see [[Lie's three theorems]]) provides a [[simply connected]] [[Lie group]] $G$ integrating $\mathfrak{g}$.
 
-Standard [[Lie theory]] (see [[Lie's three theorems]]) provides a [[simply connected]] [[Lie group]] $G$ integrating $\mathfrak{g}$.
+With $G$ regarded as a [[smooth ∞-groupoid|smooth ∞-group]] write $\mathbf{B}G \in $ [[Smooth∞Grpd]] for its [[delooping]]. The standard presentation of this on $[CartSp_{smooth}^{op}, sSet]$ is by the [[simplicial presheaf]] 
 
-If we take that standard procedure for granted, then it is easy to see that:
+$$
+  \mathbf{B}G_c : U \mapsto N(C^\infty(U,G) \stackrel{\to}{\to} *)
+  *
+  \,.
+$$
 
+
+See <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#LieGroups">Cohesive ∞-groups -- Lie groups</a> for details.
 
 +-- {: .un_prop}
 ###### Proposition
 
-There is a weak equivalence (in $[CartSp^{op}, sSet]_{proj}$)
+The operation of [[parallel transport]] $P \exp(\int -) : \Omega^1([0,1], \mathfrak{g}) \to G$ yields a weak equivalence (in $[CartSp^{op}, sSet]_{proj}$)
 
 $$
-  \mathbf{cosk}_2 \exp(\mathfrak{g}) \simeq \mathbf{B}G
-  \,,
+  P \exp(\int - )
+  :
+  \mathbf{cosk}_3 \exp(\mathfrak{g}) 
+  \simeq 
+   \mathbf{cosk}_2 \exp(\mathfrak{g}) \simeq \mathbf{B}G_c
+  \,.
 $$
-
-where on the right we have the [[delooping]] [[Lie groupoid]] of $G$.
 
 =--
 
@@ -373,9 +382,9 @@ Write $\mathbf{B}^{n} \mathbb{R}$ for the <a href="http://ncatlab.org/nlab/show/
 The [[discrete ∞-groupoid]] underlying $\exp(b^n \mathbb{R})$ is given by the [[Kan complex]] that in degree $k$ has the set of closed differential $n$-forms (with sitting instants) on the $k$-[[simplex]]
 
 $$
-  \exp(b^{n} \mathbb{R})_{disc}
+  \exp(b^{n-1} \mathbb{R})_{disc}
   : 
-  [k] \mapsto \Omega^n_{closed}(\Delta^k)
+  [k] \mapsto \Omega^n_{si,cl}(\Delta^k)
 $$
 
 =--
