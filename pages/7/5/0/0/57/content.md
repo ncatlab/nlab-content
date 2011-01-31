@@ -492,7 +492,7 @@ Then with the smoothing function $f$ from above define finally the $(n-1)$-form 
 
 ### Integrating the string Lie 2-algebra to the string Lie 2-group
 
-Let $\mathfrak{string} = mathfrak{g}_\mu$ be the [[string Lie 2-algebra]].
+Let $\mathfrak{string} = \mathfrak{g}_\mu$ be the [[string Lie 2-algebra]].
 
 Then $\mathbf{cosk}_3 \exp(\mathfrak{g}_\mu)$ is equivalent to the [[2-groupoid]] $\mathbf{B}String$ 
 
