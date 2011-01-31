@@ -27,20 +27,20 @@ A cardinal that is not regular is called **singular**.
 
 Traditionally, one requires regular cardinals to be infinite.  This clause may be removed, in which case $0$, $1$, and $2$ are all regular cardinals.
 
-Other modifications of the definition which are equivalent for infinite cardinals may include some of $0$, $1$, and $2$ but not all.  For instance, if we regard an indexed [[disjoint union]] $\sum_{i\in\lambda} \alpha_i$ as a binary operation taking as input $\lambda$ and a $\lambda$-indexed family $\alpha$, then closure under this binary operation as in the above definition also entails closure under the ternary version $\sum_{i\in\lambda} \sum_{j\in \mu_i} \alpha_{i,j}$, and so on.  The unary version is simply the identity operation, whereas the nullary version will always output the [[singleton set]] $1$.  (This can be seen by thinking in terms of trees of uniform finite height, or remembering that a [[dependent sum]] includes a binary [[product]] as a special case, so a nullary dependent sum should at least include a nullary product.)  Thus, from this perspective (which is the relevant one for some applications, such as [[familial regularity and exactness]]), $2$ is a regular cardinal, but $0$ and $1$ are not.
+Other modifications of the definition which are equivalent for infinite cardinals may include some of $0$, $1$, and $2$ but not all.  For instance, if we regard an indexed [[disjoint union]] $\sum_{i\in\lambda} \alpha_i$ as a binary operation taking as input $\lambda$ and a $\lambda$-indexed family $\alpha$, then closure under this binary operation as in the above definition also entails closure under the ternary version $\sum_{i\in\lambda} \sum_{j\in \mu_i} \alpha_{i,j}$, and so on.  The unary version is simply the identity operation, whereas the nullary version will always output the [[singleton set]] $1$.  (This can be seen by thinking in terms of trees of uniform finite height, or remembering that a [[dependent sum]] includes a binary [[cartesian product]] as a special case, so a nullary dependent sum should at least include a nullary product.)  Thus, from this perspective (which is the relevant one for some applications, such as [[familial regularity and exactness]]), $2$ is a regular cardinal, but $0$ and $1$ are not.
 
-We may rule out all three finite regular cardinals by additionally generalising from indexed disjoint unions to binary and nullary disjoint unions.
+We may rule out all three finite regular cardinals by additionally generalising from indexed disjoint unions to finitary disjoint unions.
 
 Then in terms of $Set_{\lt\kappa}$, the (potential) conditions on a (possibly finite) regular cardinal are as follows:
 
-1.  $Set_{\lt\kappa}$ is closed under coproducts of size $\lt\kappa$.
-2.  $Set_{\lt\kappa}$ is closed under binary coproducts.
-3.  $Set_{\lt\kappa}$ is closed under nullary coproducts (taking the [[initial object]]).
-4.  $Set_{\lt\kappa}$ has a nullary [[copower]] (or something like that).
+1.  $Set_{\lt\kappa}$ is closed under iterated disjoint unions ($\biguplus_i A_i$).
+2.  $Set_{\lt\kappa}$ is closed under the nullary iterated disjoint union (the [[singleton]]).
+3.  $Set_{\lt\kappa}$ is closed under binary disjoint unions ($A \uplus B$).
+4.  $Set_{\lt\kappa}$ is closed under the nullary disjoint union (the [[empty set]]).
 
-These are all variations on the theme of closure under coproducts.
+These are all variations on the theme of closure under disjoint unions.
 
-Clauses (2--4) hold of all infinite cardinals, while clauses (2&4) together force $\kappa$ to be greater than any finite cardinal.  However, if we require only clauses (1&4), then $2$ is a regular cardinal.
+Clauses (2--4) hold of all infinite cardinals, while clauses (2&3) together force $\kappa$ to be greater than any finite cardinal.  However, if we require only clauses (1&2), then $2$ is a regular cardinal.
 
 
 ### In weak foundations
@@ -49,7 +49,7 @@ Thinking of a regular cardinal *as* a cardinal number makes the most sense using
 
 From this perspective, a regular cardinal is a [[full subcategory]] of $Set$ that is closed under taking [[quotient objects]] and satisfies the condition on $Set_{\lt\kappa}$ above.  We can then recover $\kappa$ as the smallest cardinal number greater than every cardinal in $Set_{\lt\kappa}$, if we accept the axiom of choice.
 
-Note that if we require only conditions (1&4) on $Set_{\lt\kappa}$, then (even classically), $\{1\}$ is an acceptable (and finite) regular collection of cardinals, even though it is not actually of the form $Set_{\lt\kappa}$ for any cardinal number $\kappa$.
+Note that if we require only conditions (1&2) on $Set_{\lt\kappa}$, then (even classically), $\{1\}$ is an acceptable (and finite) regular collection of cardinals, even though it is not actually of the form $Set_{\lt\kappa}$ for any cardinal number $\kappa$.
 
 In the absence of the axiom of choice, it is not clear that there exist arbitrarily large regular cardinals.  Thus in weaker foundations, regular cardinals (or "regular sets of cardinals") can be regarded as a [[large cardinal]] property.  The statement that *there exist arbitrarily large regular cardinals* is sometimes called the __Regular Extension Axiom__.
 
