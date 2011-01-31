@@ -27,7 +27,7 @@ For $A$ a an [[associative algebra]], not necessatily commutative, its collectio
 ### As a site for noncommutative geometry
 
 Various authors have proposed ([Butterfield-Hamilton-Isham](#ButterfieldHamiltonIsham), [D&#246;ring-Isham](#DoeringIsham), 
-[Heunen-Landsmann-Spitters](#HeunenLandsmanSpitters)) that for the case that $A$ is a [[C-star algebra]] the [[noncommutative geometry]] of the [[Isbell duality|formal dual]] [[space]] $\Sigma(A)$ of $A$ may be understood as a commutative [[geometry]] [[internalization|internal]] to a [[sheaf topos]] $\mathcal{T}_A$ over $ComSub(A)$ or its [[opposite category|opposite]] $ComSub(A)^{op}$. An advantage of the latter is that $\Sigma$ becomes a compact regular locale.
+[Heunen-Landsmann-Spitters](#HeunenLandsmanSpitters)) that for the case that $A$ is a [[C-star algebra]] the [[noncommutative geometry]] of the [[Isbell duality|formal dual]] [[space]] $\Sigma(A)$ of $A$ may be understood as a commutative [[geometry]] [[internalization|internal]] to a [[sheaf topos]] $\mathcal{T}_A$ over $ComSub(A)$ or its [[opposite category|opposite]] $ComSub(A)^{op}$. An advantage of the latter is that $\Sigma$ becomes a [[compact locale|compact]] [[regular locale]].
 
 Specifically, when applied to the algebra $A = B(\mathcal{H})$ of [[bounded operator]]s on a [[Hilbert space]], the [[locale]] $\Sigma(A)$ internal to $\mathcal{T}_A$ behaves like the noncommutative [[phase space]] of a system of [[quantum mechanics]], which however internally looks like an ordinary commutative geometry. Various statements about [[operator algebra]] then have geometric analogs in $\mathcal{T}_A$. 
 
@@ -88,10 +88,16 @@ $$
   \mathcal{T}_A := [ComSub(A),Set]
 $$ 
 
-for the [[presheaf topos]] on $ComSub(A)^{op}$. This opposite order on commutative subalgebras may be seen as the information order from Kripke semantics: a larger subalgebra contains more information. In this light presheaf topos on $ComSub(A)$, as used by Isham and co-workers, may be seen as the co-Kripke model. This model give the so-called coarse-graining semantics of physics.
+for the [[presheaf topos]] on $ComSub(A)^{op}$. 
 
 =--
 
++-- {: .un_remark}
+###### Remark
+
+This opposite order on commutative subalgebras may be seen as the information order from [[Kripke semantics]]: a larger subalgebra contains more information. In this light presheaf topos on $ComSub(A)$, as used by [DoeringIsham](#DoeringIsham) and co-workers, may be seen as the co-Kripke model. This model give the so-called coarse-graining semantics of physics.
+
+=--
 
 +-- {: .un_lemma}
 ###### Observation
