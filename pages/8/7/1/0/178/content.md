@@ -431,202 +431,6 @@ is a [[Kan complex]] [[internalization|internal to]] [[diffeological space]]s.
 We discuss <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#InfinGroups">cohesive ∞-groups</a> in $Smooth \infty Grpd$: smooth $\infty$-groups.
 
 
-#### Strict $\infty$-Lie groupoids
-
-
-Many $\infty$-Lie groupoids appearing in practice are (equivalent) to objects in [[sub-(∞,1)-categories]] of $Sh_{(\infty,1)}(CartSp)$ of much stricter $\infty$-Lie groupoids. These subcategories typically offer convenient and desireable contexts for formulating and proving statements about special cases of general $\infty$-Lie groupoids.  Therefore it is of interest to have various notions of _strict_ $\infty$-Lie groupoids inside all of them.
-
-One well-known such notion is given by the [[Dold-Kan correspondence]]. This identifies [[chain complex]]es of [[abelian group]]s with strict and strictly [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] $\infty$-groupoids.
-
-Dropping the condition on symmetric monoidalness we obtain a more general such inclusion, a kind of non-abelian Dold-Kan correspondence: 
-
-the identification of [[crossed complex]]es of groupoids as precisely the [[strict omega-groupoid|strict ∞-groupoid]]s. This has been studied in particular in [[nonabelian algebraic topology]].
-
-So we have a sequence of inclusions
-
-$$
-  \array{
-     ChainCplx &\hookrightarrow& CrsCpl &\hookrightarrow& KanCplx
-     \\
-     \downarrow && \downarrow && \downarrow
-     \\
-     StrAb Str\infty Grpd &\hookrightarrow&
-     Str \infty Grpd
-     &\hookrightarrow&
-     \infty Grpd 
-  }
-$$
-
-of strict $\infty$-groupoids into all $\infty$-groupoids. See also the [[cosmic cube]] of [[higher category theory]]. 
-
-Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at some point through the above inclusion are the following:
-
-* **restriction to abelian sheaf cohomology** -- Using the fact that the objects of $Sh_{(\infty,1)}(CartSp)$ are modeled by [[simplicial presheaves]] symmetric monoidal $\infty$-Lie groupoids are identified under the [[nLab:Dold-Kan correspondence]] with $\mathbb{N}$-graded [[nLab:chain complex|chain complexes]] of sheaves. To these the rich set of tools for [[abelian sheaf cohomology]] apply. 
-
-* **descent for strict $\infty$-groupoid valued sheaves** -- There is a good theory pf [[descent]] for (presheaves) with values in strict $\infty$-groupoids (more restrictive than the fully general theory but more general than [[abelian sheaf cohomology]]). This goes back to [[nLab:Ross Street|Ross Street]] and its relation to the full theory has been clarified by [[Dominic Verity]] in [Verity09](#Verity).
-
-
-It should be noticed that for $\infty$-stacks of $\infty$-groupoids the intuition from the [[homotopy hypothesis]] no longer quite applies, necessarily. For instance under [geometric realization](#GeometricRealization) $\Pi : \infty LieGrpd \to \infty Grpd$ already strict $\infty$-groupoid-valued presheaves exhaust all [[homotopy type]]s in [[∞Grpd]] $\simeq$ [[Top]]: because already all 0-[[truncated]] objects (set-values sheaves) exhaust all homotopy types, as the geometric geometric realization does not produces the [[categorical homotopy groups in an (∞,1)-topos]], but the [[geometric homotopy groups in an (∞,1)-topos]].
-
-
-#### Descent for strict $\infty$-Lie groupoids {#DescentForStrictInf}
-
-We state a useful theorem for the computation of [[descent]] for presheaves with values in [[strict ∞-groupoid]]s. Recall the standard terminology for [[descent]], i.e. for the $(\infty,1)$-categorical [[sheaf]]-condition:
-
-For $U \in C$ a representable (here $C = $ [[CartSp]] for our purposes), $Y,A \in [C^{op}, sSet]$ simplicial presheaves and $p : Y \to U$ a morphism, we say that $A$ _satisfies [[descent]]_ along $p$ or equivalently that $A$ is a $p$-[[local object]] if the canonical morphism
-
-$$
-  A(U) \stackrel{=}{\to}
-  [C^{op}, sSet](U,A) 
-  \to 
-  [C^{op}, sSet](Y,A)
-$$
-
-is a weak equivalence. Here the first equality is the enriched [[Yoneda lemma]]. By the [[co-Yoneda lemma]] we may decompose $Y$ into itsw cells as
-
-$$
-  Y = \int^{[n] \in \Delta} \Delta[n] \cdot Y_n
-  \,,
-$$
-
-where in the integrand we have the [[copower|tensoring]] of $[C^{op}, sSet]$ over [[sSet]]. Using that the enriched [[hom-functor]] sends coends to ends, the enriched [[hom-functor]] on the right we may equivalently write out as an [[end]]
-
-$$
-  \begin{aligned}
-    [C^{op}, sSet](Y,A) 
-    & =
-    [C^{op}, sSet](\int^{[n] \in \Delta} \Delta[n] \cdot Y_n ,A)
-    \\
-    & = 
-    \int_{[n] \in \Delta}[C^{op}, sSet](\Delta[n] \cdot Y_n ,A)
-    \\
-    & =
-    \int_{[n] \in \Delta} sSet(\Delta[n], [C^{op}, sSet](Y_n, A))
-    \\
-    & =
-    \int_{[n] \in \Delta} sSet(\Delta[n], A(Y_\bullet))
-    \\
-    & =:Desc(Y,A)
-  \end{aligned}  
-$$
-
-(equality signs denote [[isomorphism]]s), where in the second but last line we again used the [[copower|tensoring]] of [[simplicial presheaves]] $[C^{op}, sSet]$ over [[sSet]].
-
-In the last line we have the _totalization_ of the cosimplicial [[simplicial object]]
-
-$$
-  A(Y_\bullet) : \Delta \to sSet
-  \,,
-$$
-
-sometimes called the _descent object_ of $A$ relative to $Y$, even though in this case it is really nothing but the hom-object of $Y$ into $A$. If $A$ is fibrant and $Y$ cofibrant, then $Desc(Y,A)$ is  a Kan complex: the _descent $\infty$-groupoid_ .
-
-Now suppose that $\mathcal{A} : C^{op} \to Str \infty Grpd$ is a presheaf with values in [[strict ∞-groupoid]]s. In the context of strict $\infty$-groupoids the standard $n$-[[simplex]] is given by the $n$th [[oriental]] $O(n)$. This allows to perform a construction that looks like a descent object in $Str\infty Grpd$:
-
-+-- {: .un_def }
-###### Definition
-**(Ross Strees)**
-
-The descent object for $\mathcal{A} \in [C^{op}, Str \infty Grpd]$ relative to $Y \in [C^{op}, sSet]$ is
-
-$$
-  Desc(Y,\mathcal{A}) := \int_{[n] \in \Delta} Str\infty Cat(O(n), \mathcal{A}(Y_n))
-  \;\in Str \infty Grpd
-  \,,
-$$
-
-where the [[end]] is taken in $Str \infty Grpd$. 
-
-=--
-
-This objects had been suggested by [[Ross Street]] to be the right descent object for strict $\infty$-category-valued presheaves in [Street03](#Street03) 
-
-Under the [[∞-nerve]] functor $N_O : Str\infty Grpd \to sSet$ this yields a [[Kan complex]] $N_0 Desc(Y,\mathcal{A})$. On the other hand, applying the $\omega$-nerve directly to $\mathcal{A}$ yields a simplicial presheaf $N_O\mathcal{A}$ to which the above simplicial descent applies. 
-
-The following theorem asserts that under certain conditions both notions coincide.
-
-+-- {: .un_theorem }
-###### Theorem
-**(Dominic Verity)**
-
-If $\mathcal{A} : C^{op}, Str \infty Grpd$ and $Y : C^{op} \to sSet$ are such that $N_O \mathcal{A}(Y_\bullet) : \Delta \to sSet$ is fibrant in the [[Reedy model structure]] $[\Delta, sSet_{Quillen}]_{Reedy}$, then 
-
-$$ 
-  N_O Desc(Y,\mathcal{A}) \stackrel{\simeq}{\to} Desc(Y, N_O \mathcal{A})
-$$
-
-is a [[weak homotopy equivalence]] of [[Kan complex]]es.
-
-=--
-
-This is proven in [Verity09](#Verity).
-
-
-+-- {: .un_corollary }
-###### Corollary
-
-If $Y \in [C^{op}, sSet]$ is such that $Y_\bullet : \Delta \to [C^{op}, Set] \hookrightarrow [C^{op}, sSet]$ is cofibrant in $[\Delta, [C^{op}, sSet]_{proj}]_{Reedy}$ then for $\mathcal{A} : C^{op} \to Str \infty Grpd$ we have
-
-$$ 
-  N_O Desc(Y,\mathcal{A}) \stackrel{\simeq}{\to} Desc(Y, N_O \mathcal{A})
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-If $Y_\bullet$ is Reedy cofibrant, then by definition the canonical morphisms
-
-$$
-  \lim_{\to}( ([n] \stackrel{+}{\to} [k]) \mapsto Y_k ) \to Y_n
-$$
-
-are cofibrations in $[C^{op}, sSet]_{proj}$. Since the latter is an $sSet_{Quillen}$ [[enriched model category]] and $N_O \mathcal{A}$ is fibrant, it follows that the [[hom-functor]] $[C^{op}, sSet](-, N_O \mathcal{A})$ sends cofibrations to fibrations, so that
-
-$$
-  N_O\mathcal{A}(Y_n)
-  \to
-  \lim_{\leftarrow}( [n]\stackrel{+}{\to} [k] \mapsto N_O\mathcal{A}(Y_k))
-$$ 
-
-is a [[Kan fibration]]. But this says that $N_O \mathcal{A}(Y_\bullet)$ is Reedy fibrant, so that the assumption  of Verity's theorem is met.
-
-=--
-
-+-- {: .un_corollary }
-###### Corollary
-
-For $Y$ the [[Cech nerve]] of a [[good open cover]] $\{U_i \to X\}$ of a [[manifold]] $X$ and any $\mathcal{A} : CartSp^{op} \to Str \infty Grpd$ we have that
-
-$$
-  [C^{op}, sSet](Y,N_O \mathcal{A})
-  \simeq
-  N_O Desc(Y_\bullet, \mathcal{A})
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the above is sufices to note that $Y_\bullet$ is cofibrant in $[\Delta^{op}, [C^{op}, sSet]_{proj}]_{Reedy}$ if $Y$ is the [[Cech nerve]] of a good open cover. By the assumption of good open cover we have that $Y$ is degreewise a coproduct of representables and that the inclusion of all degenerate $n$-cells into all $n$-cells is a full inclusion into a coproduct, i.e. an inlusion of the form
-
-$$
-  \coprod_{i \in I} U_i \to \coprod_j U_{j \in J}
-$$
-
-induced from an inclusion of subsets $I \hookrightarrow J$. Since all representables are cofibrant in $[C^{op}, sSet]_{proj}$ such an inclusion is a cofibration.
-
-=--
-
-In conclusion we find that for determining the $\infty$-stack condition for _strict_ $\infty$-Lie groupoids we may equivalently use Street's formula for strict $\infty$-groupid valued presheaves. This is sometimes useful for computations in low categorical degree. 
-
-
-
-
 
 
 #### Lie groups {#LieGroups}
@@ -4060,6 +3864,8 @@ $$
   \,.
 $$
 
+=--
+
 +-- {: .un_prop }
 ###### Proposition 
 
@@ -4830,249 +4636,10 @@ This is the complex of sheaves that defines [[Deligne cohomology]] in degree $(n
 
 
 
-#### Models from $\infty$-Lie integration {#U1FromLieIntegration}
+#### Presentation by exponentiated $\infty$-Lie algebras  
+ {#U1FromLieIntegration}
 
-In the [previous section](#FlatCircleCohomology) we discussed a model 
-
-$$
-  \array{
-    \mathbf{B}^n U(1)_{diff,chn}
-    &\stackrel{curv_{chn}}{\to}& 
-    \mathbf{\flat}_{dR}\mathbf{B}^{n+1} U(1)_{chn}
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    \mathbf{B}^n U(1) 
-  }
-$$
-
-in $[CartSp^{op}, sSet]$ for the canoncal curvature characteristic class $curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$ in [[Smooth∞Grpd]] with the special property that it did model the abstract [[(∞,1)-topos]]-theoretic class under the [[Dold-Kan correspondence]] precisely in terms of the familiar [[Deligne cohomology]] coefficient complex.
-
-There is another model for the curvature class in $[CartSp^{op}, sSet]$, one that is useful for constructing the [∞-Chern-Weil homomorphism](#InfChernWeil) that maps from [[nonabelian cohomology]] in $Smooth \infty Grpd$ to $U(1)$-valued differential cohomology. This second model is the one naturally adapted to the construction of the object $\mathbf{B}^n U(1)$ by [[Lie integration]] from its [[∞-Lie algebra]] $b^{n-1} \mathbb{R}$. This is described at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegration">∞-Lie groupoid -- Lie integration</a>. 
-
-For distinguishing the two models, we will indicate the former one by the subscript ${}_{chn}$ and the one described now by the subscript ${}_{simp}$.
-
-+-- {: .un_def }
-###### Convention 
-
-Here and in the following we adopt for differential forms on simplices the following notational convention:
-
-* by $\Omega^\bullet(\Delta^n)$ we denote the complex of smooth differential forms on the standard smooth $n$-simplex with **sitting instants**: for every $k \in \mathbb{N}$ every $k$-face of $\Delta^n$ has a neighbourhood of its boundary such that the form restricted to that neighbourhood is constant in the direction perpendicular to that boundary.
-
-* for $U \in CartSp$ we write $\Omega^\bullet(U \times \Delta^k)_{vert}$ for the complex of [[vertical differential form]]s with respect to the trivial simplex bundle $U \times \Delta^k \to U$.
-
-=--
-
-+-- {: .un_def }
-###### Definition
-
-For $n \in \mathbb{N}$, define the [[simplicial presheaf]] $\mathbf{B}^n U(1)_{simp} \in [CartSp^{op}, sSet]$ by
-
-$$
-  \mathbf{B}^n U(1)_{simp}
-  :=
-  \mathbf{cosk}_{n+1}
-  (
-  (U, [k]) \mapsto 
-   Hom_{dgAlg}(
-     CE(b^{n-1}\mathbb{R}), 
-     \Omega^\bullet(U \times \Delta^k)_{vert})
-  )
-  /\mathbf{B}^n \mathbb{Z}
-  \,.
-$$
-
-Here $CE(b^{n-1}\mathbb{R})$ is the [[Chevalley-Eilenberg algebra]] of $b^{n-1}\mathbb{R}$, which is simply the graded-commutative [[dg-algebra]] (over $\mathbb{R}$) on a single generator in degree $n$ with vanishing differential.
-
-Moreover, $\mathbf{cosk}_{n+1}(-)$ is the [[coskeleton]]-operation and the quotient is by constant $n$-forms $\omega \in \Omega^n_{cl}(U \times \Delta^k)_{vert}$ such that $\int_{\Delta^n}\omega \in \mathbb{Z}$. We take the quotient as a quotient of abelian [[simplicial group]]s (the group operation is the addition of differential forms).
-
-=--
-
-+-- {: .un_lemma }
-###### Observation
-
-Under the [Dold-Kan correspondence](#DoldKan) the [[Moore complex|normalized chain complex]] of $\mathbf{B}^n U(1)_{sim}$ is
-
-$$
-  N_\bullet(\mathbf{B}^n U(1)_{simp})
-  =
-  (
-  \cdots
-  \to
-  \Omega^n_{cl}((-)\times \Delta^{n+1})_{vert}/\sim
-  \stackrel{\sum_k (-1)^k \partial_k^* }{\to}
-  \Omega^n_{cl}((-)\times \Delta^{n})_{vert}/\sim
-  \to
-  0 
-  \to
-  \cdots
-  \to
-  0
-)
-  \,,
-$$
-
-where $\partial_k : \Delta^n \to \Delta^{n+1}$ denotes the embedding of the $k$th face of the smooth $(n+1)$-[[simplex]].
-
-=--
-
-Here and in the following we indicate the homologically trivial part of the normalized chain complex of an $(n+1)$-coskeletal simplicial abelian group just by ellipses.
-
-+-- {: .un_prop }
-###### Proposition
-
-The evident [[fiber integration]] of differential forms over simplices 
-
-$$
-  \int_{\Delta^n} : \Omega^\bullet(U \times \Delta^n)
-   \to \Omega^\bullet(U)
-$$
-
-yields a morphism 
-
-$$
-  \int_{\Delta^\bullet} : \mathbf{B}^n U(1)_{simp} \stackrel{\simeq}{\to}
-  \mathbf{B}^n U(1)
-$$
-
-in $[CartSp^{op}, sSet]_{proj}$, which is a weak equivalence.
-
-=--
-
-This is discussed at [[Lie integration]].
-
-+-- {: .un_def }
-###### Definition
-
-Write
-
-$\mathbf{\flat} \mathbf{B}^n \mathbb{R}_{simp}$ for the [[simplicial presheaf]]
-
-$$
-  \mathbf{\flat}\mathbf{B}^n \mathbb{R}_{simp}
-  :=
-  \mathbf{cosk}_{n+1}
-  (
-    (U,[k])
-    \mapsto
-    Hom_{dgAlg}(
-      CE(b^{n-1}\mathbb{R}),
-      \Omega^{\bullet}(U \times\Delta^k)
-    )
-  )
-$$
-
-and write $\mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{simp} \in [CartSp^{op}, sSet]$ for the simplicial presheaf
-
-$$
-  \mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{simp}
-  :=
-  \mathbf{cosk}_{n+1}
-  (
-    (U,[k])
-    \mapsto
-    Hom_{dgAlg}(
-      CE(b^{n-1}\mathbb{R}),
-      \Omega^{\bullet \geq 1, \bullet}(U \times\Delta^k)
-    )
-  )
-  \,,
-$$
-
-where on the right we have the subcomplex of $\Omega^\bullet(U \times \Delta^k)$ on those forms that are non-vanishing on some vector field tangent to $U$.
-
-=--
-
-At <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#DifferentialCoefficientsOfLieInt">∞-Lie groupoid -- Lie integrated ∞-groups -- Differential coefficients</a> the following is shown:
-
-+-- {: .un_lemma }
-###### Lemma
-
-The evident [[fiber integration]] over simplices induces morphisms of simplicial presheaves
-
-$$
-  \int_{\Delta^\bullet} : 
-  \mathbf{\flat} \mathbf{B}^n U(1)_{simp}
-  \to 
-  \mathbf{\flat} \mathbf{B}^n U(1)_{chn}
-$$
-
-and
-
-$$
-  \int_{\Delta^\bullet} : 
-  \mathbf{\flat}_{dR} \mathbf{B}^n U(1)_{simp}
-  \to 
-  \mathbf{\flat}_{dR} \mathbf{B}^n U(1)_{chn}
-$$
-
-that are weak equivalences in $[CartSp^{op}, sSet]_{proj}$.
-
-=--
-
-
-
-+-- {: .un_def }
-###### Definition
-
-Write $\mathbf{B}^n  U(1)_{diff,simp}$ for the simplicial presheaf given by 
-
-$$
-  \mathbf{B}^n  U(1)_{diff,simp}
-  :=
-  \mathbf{cosk}_{n+1}
-  (
-    U,[k]
-    \mapsto
-   \left\{
-     \array{
-        \Omega^\bullet(U \times \Delta^k)_{vert}
-        &\leftarrow&
-        CE(b^{n-1}\mathbb{R})
-        \\
-        \uparrow && \uparrow
-        \\
-        \Omega^\bullet(U \times \Delta^k )
-        &\leftarrow&
-        W(b^{n-1} \mathbb{R})
-     }
-   \right\}
-  ) / \mathbf{B}^n \mathbb{Z}
-  \,.
-$$
-
-Let the morphism
-
-$$
-  curv_{simp}
-  :
-  \mathbf{B}^n U(1)_{diff,simp}
-  \to 
-  \mathbf{\flat}_{dR}\mathbf{B}^{n+1} U(1)_{simp}
-$$
-
-be the one given by postcomposition with the square of [[nLab:dg-algebra]]s
-
-$$  
-  \array{
-     CE(b^{n-1}\mathbb{R}) &\leftarrow& 0
-     \\
-     \uparrow && \uparrow
-     \\
-     W(b^{n-1}\matbb{R}) &\leftarrow& CE(b^n \mathbb{R})
-  }
-$$
-
-described at [[nLab:∞-Lie algebra cohomology]].
-
-=--
-
-+-- {: .un_remark }
-###### Remark
-
-The set of square diagrams of [[dg-algebra]]s above is over $(U,[k])$ the set of $n$-forms $\omega$ on $U \times \Delta^k$ whose [[curvature]] $(n+1)$-form $d \omega$ has no component with all legs along $\Delta^k$.
-
-=--
+(...)
 
 +-- {: .un_prop }
 ###### Proposition
@@ -5211,9 +4778,85 @@ The generalization to such diagram cocycles from $b^{n-1}\mathbb{R}$ to general 
 
 
 
-### Chern-Weil homomorphism and $\infty$-connections {#StrucChernWeil}
+### Chern-Weil homomorphism and $\infty$-connections 
+  {#StrucChernWeil}
 
-* [[∞-Chern-Weil theory]]
+
+We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#ChernWeilTheory">general abstract notion of Chern-Weil homomorphism and ∞-connections</a> realized in $Smooth \infty Grpd$.
+
+Recall that for $A \in Smooth \infty Grpd$ a smooth $\infty$-groupoid regarded as a coefficient object for [[cohomology]], for instance the [[delooping]] $A = \mathbf{B}G$ of an [[∞-group]] $G$ we have abstractly that
+
+* a [[characteristic class]] on $A$ with coefficients in the [circle Lie n-group](#CircleLienGroup) is represented by a morphism
+
+  $$
+    \mathbf{c} : A \to \mathbf{B}^n U(1)
+    \,;
+  $$
+
+* the (unrefined) [[Chern-Weil homomorphism]] induced from this is the differential characteristic class given by the composite
+
+  $$
+    {\mathbf{c}_{dR}} : 
+     A \stackrel{\mathbf{c}}{\to}
+     \mathbf{B}^n U(1) \stackrel{curv}{\to}
+     \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}
+  $$
+
+  with the [universal curvature characteristic](#StrucCurvatureForms) on $\mathbf{B}^n U(1)$, or rather: is the morphism on [[cohomology]]
+
+  $$
+    H^1_{Smooth}(X,G)
+    :=
+    \pi_0 Smooth\infty Grpd(X, \mathbf{B}G)
+      \stackrel{\pi_0({(\mathbf{c}_{dR})_*})}{\to}
+    \pi_0 Smooth\infty Grpd(X, \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R})
+    \simeq
+    H_{dR}^{n+1}(X)
+  $$
+
+  induced by this.
+
+* the [[connection on an ∞-bundle|∞-connections]] with coefficients in $A$ are the [[cocycle]]s in the [[∞-groupoid]] $Smooth \infty Grpd(X,A)_{conn}$ that universally lifts these differential classs in de Rham cohomology to full [differential cohomology](#StrucDifferentialCohomology), in that it universally fills the diagrams
+
+  $$
+    \array{
+      Smooth \infty Grpd(X,A)_{conn} 
+    &\stackrel{\hat {\mathbf{c}}}{\to}& 
+     Smooth\infty Grpd(X, \mathbf{B}^n U(1))_{diff}
+      \\
+      \downarrow && \downarrow
+      \\
+      Smooth \infty Grpd(X,A) 
+      &\stackrel{{\mathbf{c}_{dR}}}{\to}&
+      Smooth \infty Grpd(X,\mathbf{B}^{n+1}U(1))_{dR}
+    }
+    \,.
+  $$
+
+Above we have discussed a presentation of the 
+universal curvature class $\mathbf{B}^n \mathbb{R} \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}\mathbb{R}$ by a span
+
+$$
+  \array{
+    \mathbf{B}^n \mathbb{R}_{diff,smp}
+    &\stackrel{curv_{smp}}{\to}&
+     \mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}
+    \\
+    \downarrow^{\mathrlap{simeq}}
+  
+    \\
+    \mathbf{B}^n \mathbb{R}_{smp}
+  }
+$$
+
+in the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj}$, given by maps of smooth families of [[differential form]]s
+
+We now insert this in the above general abstract definition of the $\infty$-Chern-Weil homomorphism to deduce a presentation of that in terms of smooth families of [[∞-Lie algebroid valued differential forms]].
+
+
+(...)
+
+* [[∞-Chern-Weil homomorphism]]
 
 
 ### Higher holonomy and Chern-Simons functional {#StrucChernSimons}
@@ -5263,7 +4906,7 @@ Section 3.3 in
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
-A discussion of $\infty$-Lie groupoids as $(\infty,1)$-sheaves on $CartSp$ is in
+A discussion of smooth $\infty$-groupoids as $(\infty,1)$-sheaves on $CartSp$ is in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
 
@@ -5273,14 +4916,6 @@ The refined [[Lie group cohomology]] is discussed in
 * [[Jean-Luc Brylinski]], _Differentiable cohomology of gauge groups_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf)).
 {#Brylinski}
 
-
-The proposal for descent objects for strict $\infty$-groupoid-valued presheaves discussed in [Descent for strict infinity-groupoids](#DescentForStrictInf) appeared in 
-
-* [[Ross Street]], _Categorical and combinatorial aspects of descent theory_ ([arXiv](http://arxiv.org/abs/math/0303175)) {#Street03}
-
-The relation to the general descent condition is discussed in
-
-* [[Dominic Verity]], _[[Verity on descent for strict omega-groupoid valued presheaves|Relating descent notions]]_ {#Verity}
 
 
 
