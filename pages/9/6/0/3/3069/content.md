@@ -32,13 +32,23 @@ If $f^*$ and $h^*$ have *right* adjoints $f_*$ and $h_*$, there is also a dual B
 
 ## Bifibrations
 
-A common situation in which this occurs is when we have a [[bifibration]], with the functors $f^*$, $g^*$, etc. being the "pullback" functors coming from the cartesian liftings of a commutative square
-$$\array{ & \overset{f}{\leftarrow} & \\
-  ^g\uparrow && \uparrow^k\\
-  & \underset{h}{\leftarrow} & }$$
-in the base category.  In this case one also says that this commutative square "downstairs" has the Beck--Chevalley property.  Frequently this property holds for all [[pullback]] squares in the base category.  Note that since the transpose of a pullback square is a pullback square, in this case there is no left/right ambiguity.
+Originally, the condition was introduced by B\'enabou and
+Roubaud in 1970 in their classical paper "Monades et Descente" for bifibrations over a base category with pullbacks. In *loc.cit.* they call this condition **Chevalley condition** because he introduced it in his 1964 seminar. 
 
-According to the [[Benabou–Roubaud theorem]], the Beck--Chevalley condition  is crucial for establishing the connection between the descent in the sense of fibered categories and the [[monadic descent]].
+A bifibration $\mathbf{X} \to \mathbf{B}$ where $\mathbf{B}$ has pullbacks satisfies the **Chevalley condition** iff for every commuting square
+$$\array{ & \overset{\psi^\prime}{\rightarrow} & \\
+  \downarrow^{\varphi^\prime} && \downarrow^{\varphi}\\
+  & \underset{\psi}{\rightarrow} & }$$
+in $\mathbf{X}$ over a pullback square in the base $\mathbf{B}$ where $\varphi$ is cartesian and $\psi$ is cocartesian it holds that $\varphi^\prime$ is cartesian
+iff $\psi^\prime$ is cocartesian. Actually, it suffices
+to postulate one direction because the other one follows.
+The nice thing about this formulation is that there is no
+mention of "canonical" morphisms and no of cleavages. 
+
+A fibration $P$ has products satisfying the Chevalley condition iff the opposite fibration $P^\mathsf{op}$ is 
+a bifibration satisfying the Chevalley condition in the above sense.
+
+According to the [[Benabou–Roubaud theorem]], the Chevalley condition  is crucial for establishing the connection between the descent in the sense of fibered categories and the [[monadic descent]].
 
 ### Examples
 
