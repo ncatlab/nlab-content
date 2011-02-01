@@ -2603,7 +2603,7 @@ The proof is spelled out at [[Lie integration]]. In the section <a href="http://
 
 Let $n \in \mathbb{N}$, $n \geq 1$.
 
-+-- {: .un_def}
++-- {: .un_def #LineLieNAlgebra}
 ###### Definition
 
 Write 
@@ -3758,10 +3758,10 @@ line Lie $n$-algebra, defined to be the [[free functor|free]] commutative [[dg-a
 +-- {: .un_prop }
 ###### Observation
 
-We have a [[natural ismorphism]]
+We have a [[natural isomorphism]]
 
 $$
-  Hom_{dgAlg}(W(b^{n-1}) \mathbb{R}, \Omega^\bullet(U))
+  Hom_{dgAlg}(W(b^{n-1} \mathbb{R}), \Omega^\bullet(U))
   \simeq
   \Omega^n(U)
 $$
@@ -3772,7 +3772,7 @@ There is a canonical dg-algebra homomorphism $W(b^{n-1}\mathbb{R}) \to CE(b^{n-1
 
 =--
 
-+-- {: .un_def }
++-- {: .un_def #DiffSmpForLineLienAlgebra}
 ###### Definition
 
 
@@ -4910,14 +4910,155 @@ There is however still room to adjust this presentation such as to yield in each
 * [[∞-Chern-Weil homomorphism]]
 
 
-#### $L_\infty$-algebra cohomology and Chern-Simons elements
+#### $\infty$-Pseudo-connections
 
-(...)
+We discuss presentations for the differential characteristic classes.
+
+For $\mathfrak{g}$ an [[L-∞ algebra]], 
+the exponentiated simplicial presheaf $\exp(\mathfrak{g})$ from [above](#spring) is constructed in terms of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$. We discuss here a few related [[dg-algebra]]ic structures that resolve this construction and and serve to yield a presention of the $\infty$-Chern-Weil homomorphism on $\exp(\mathfrak{g})$.
+
+Let $\mathfrak{g} \in L_\infty \stackrel{CE}{\to} dgAlg^{op}$. 
+
+
++-- {: .un_defn}
+###### Definition
+
+A [[L-∞ algebra cohomology|L-∞ algebra cocycle]] on $\mathfrak{g}$ in degree $n$ is a morphism
+
+$$
+  \mu : \mathfrak{g} \to b^{n-1} \mathbb{R}
+$$
+
+to the [line Lie n-algebra](#LineLieNAlgebra).
+
+=--
+
++-- {: .un_prop}
+###### Observation
+
+Every $L_\infty$-algebra cocycle induces canonically a morphism of simplicial preshesheaves of 
+[exponentiated L-∞-algebras](#StrucLieAlg)
+
+$$
+  \exp(\mu)
+   : 
+  \exp(\mathfrak{g})
+    \to 
+  \exp(\mathfrak{b^{n-1}\mathbb{R}})
+$$
+
+given componentwise by postcomposition with the image of $\mu$ under $CE(-)$
+
+$$
+  \exp(\mu)(U, [k]) 
+   : 
+   (\Omega^\bullet_{si,vert}(U \times \Delta^k) \stackrel{A}{\leftarrow} CE(\mathfrak{g}))
+   \mapsto 
+   (\Omega^\bullet_{si,vert}(U \times \Delta^k) \stackrel{A}{\leftarrow} CE(\mathfrak{g}) \stackrel{CE(\mu)}{\leftarrow} CE(b^{n-1}\mathbb{R}))
+  \,.
+$$
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+The **[[Weil algebra]]** $W(\mathfrak{g}) \in dgAlg$ is the unique 
+representative of the [[free functor|free]] [[dg-algebra]] on the [[chain complex]] $\mathfrak{g}_\bullet^*[1]$ underlying $\mathfrak{g}$ such that the canonical projection $\mathfrak{g}_\bullet^*[1] \oplus \mathfrak{g}_\bullet^*[2] \to \mathfrak{g}_\bullet^*[1]$ extends to a [[dg-algebra]] homomorphism
+
+$$
+  CE(\mathfrak{g}) \leftarrow W(\mathfrak{g})
+  \,.
+$$
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+For $\mathfrak{g} \in L_\infty$ define the [[simplicial presheaf]] $\exp(\mathfrak{g})_{diff} \in [CartSp_{smooth}^{op}, sSet]$ by
+
+$$
+  \exp(\mathfrak{g})_{diff}
+  :
+  (U, [k])
+  \mapsto
+  \left\{
+    \array{
+      \Omega^\bullet_{si,vert}(U \times \Delta^k) 
+        &\leftarrow& CE(\mathfrak{g})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U \times \Delta^k)
+       &\leftarrow&
+      W(\mathfrak{g})
+    }
+  \right\}
+  \,,
+$$
+
+where on the left we have the set of [[commuting diagram]]s in [[dgAlg]] as indicated, with the vertical morphisms being the canonical projections.
+
+=--
+
++-- {: .un_prop}
+###### Observation
+
+For $\mathfrak{g} = b^{n-1}\mathbb{R}$ the line Lie $n$-algebra,
+this subsumes the [previous definition](#DiffSmpForLineLienAlgebra).
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The canonical morphism
+
+$$
+  \exp(\mathfrak{g})_{diff} \to \exp(\mathfrak{g})
+$$
+
+is a weak equivalence in $[CartSp_{smooth}^{op}, sSet]_{proj}$.
+
+Moreover, for every $L_\infty$-algebra cocycle it fits into a commuting diagram
+
+$$
+  \array{
+    \exp(\mathfrak{g})_{diff} 
+      &\stackrel{\exp(\mu)_{diff}}{\to}&
+    \exp(b^{n-1}\mathbb{R})_{diff} &=& 
+    \mathbf{B}^n \mathbb{R}_{diff,smp}
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+    \\
+   \exp(\mathfrak{g}) 
+      &\stackrel{\exp(\mu)}{\to}&
+   \exp(b^{n-1}\mathbb{R})
+     &=&
+   \mathbf{B}^n \mathbb{R}_{smp}
+  }
+$$
+
+for some morphism $exp(\mu)_{diff}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use the contractibility of the Weil algebra.
+
+=--
+
 
 #### $\infty$-Connections
 
 (...)
 
+#### Differential characteristic classes
+
+(...)
 
 ### Higher holonomy and Chern-Simons functional {#StrucChernSimons}
 
