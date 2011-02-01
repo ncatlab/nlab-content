@@ -18,6 +18,29 @@ $$
 
 such that its component $V_1$ is a holomorphic function on the moduli space of conformal punctured spheres.
 
+## Standard definition
+
+(under construction) A __vertex algebra__ consists of the following data:
+
+* nonnegatively graded complex vector space $V = \oplus_{n =0}^\infty V_n$
+* vacuum vector $|0\rangle\in V_0$
+* a shift operator $T: V\to V$ 
+* operation $Y = Y(-,z) : V\to End V [ [z,z^{-1}] ]$ 
+
+
+
+This data satisfy three axioms: 
+
+(vacuum)
+
+(translation axiom)
+
+(locality)
+
+In practice, the most important case is when the shift is $T$ is related to a conformal vector "the energy momentum tensor" $\omega$ whose Fourier components are related to the generators $L_i$ of the [[Virasoro Lie algebra]] $Vir$. In that case we talk about __conformal vertex algebra__.
+
+There is a notion of a module over a vertex algebra. A conformal vertex algebra $A$ is said to be __rational__ if every $A$-module is completely reducible. Then it follows that there are only finitely many nonisomorphic simple $A$-modules.  
+
 ## Examples
 
 * [[Moonshine]]
