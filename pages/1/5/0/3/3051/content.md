@@ -9,6 +9,7 @@
 
 * [[internal language]] of a [[topos]] (Mitchell--B&#233;nabou language)
 
+* [[distributor]]
 
 category: people
 
