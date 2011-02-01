@@ -127,6 +127,8 @@
 
 * [[de Rham theorem]], [[Poincare lemma]]
 
+* [[Hodge theory]]
+
 * [[Brown representability theorem]]
 
 * [[abelian sheaf cohomology|hypercovering theorem]]
