@@ -25,166 +25,13 @@
 
 ## Idea
 
-A _smooth $\infty$-groupoid_ is an [[∞-groupoid]] equipped with [[cohesive (∞,1)-topos|cohesion]] in the form of [[smooth structure]].
+A _smooth $\infty$-groupoid_ is an [[∞-groupoid]] equipped with [[cohesive (∞,1)-topos|cohesion]] in the form of [[smooth structure]]. Examples include [[smooth manifold]]s, [[Lie group]]s and [[Lie groupoid]]s.
 
-This generalizes [[Lie group]]s and [[Lie groupoid]]s from [[category theory]] to [[higher category theory]] and [[homotopy theory]].
+The [[(∞,1)-topos]] $Smooth \infty Grpd$ of all smooth $\infty$-groupoids is a [[cohesive (∞,1)-topos]]. It realizes a [[higher geometry]] version of [[differential geometry]]. 
 
+Many properties of smooth $\infty$-groupoids are inherited from the underlying [[Euclidea-topological ∞-groupoid]]s. See [[ETop\infty Grpd]] for more. 
 
-
-### Reminder: Lie groupoids and differentiable stacks
-
-Before indicating the idea of $\infty$-Lie groupoids in more detail, recall some aspects of the theory of ordinary [[Lie groupoid]]s.
-
-An ordinary [[Lie groupoid]] is usually understood to be a [[groupoid]] [[internalization|internal]] to [[Diff]], possibly with further extra conditions on its structure morphisms. The literature on Lie groupoids is familiar with the fact that it is often useful to regard these internal groupoids after embedding them into the more general context of [[stack]]s on the [[site]] [[Diff]] of all [[smooth manifold]]s: there they are called [[differentiable stack]]s.
-
-Regarding a groupoid internal to manifolds $\mathcal{G}$ as a [[stack]] $\mathcal{G} : Diff^{op} \to $ [[Grpd]] means encoding it in terms of the groupoids of smooth _families_ of objects and morphisms inside it:
-
-* to the point $* \in Diff$ it assigns the underlying bare groupoid $\mathcal{G}(*)$, the groupoid $\mathcal{G}$ with its smooth structure forgotten;
-
-* to a manifold $U \in Diff$ it assigns the groupoid $\mathcal{G}(U)$ whose set of [[object]]s is the set $\mathcal{G}(U)_0 := Hom_{Diff}(U,\mathcal{G}_0)$ of smooth $U$-parameterized [[object]]s in $U$, and whose set of [[morphism]]s $\mathcal{G}(U)_1 := Hom_{Diff}(U,\mathcal{G}_1)$ is the set of smooth $U$-parameterized morphisms in $\mathcal{G}$.
-
-Not every stack on [[Diff]] comes from a [[groupoid]] $\mathcal{G}$ [[internalization|internal to]] [[Diff]] this way. For instance the ([[stackification]] of the) [[groupoid of Lie-algebra valued forms]] for some [[Lie group]] $G$ is a [[concrete presheaf|non-concrete]] stack, which can never be represented by an internal groupoid. Still, most operations that one may want to apply to internal groupoids also make sense for general stacks on [[Diff]]. Indeed, some operations that one may want to apply to internal groupoids take values not in internal groupoids, but in more general stacks: the [[2-category]] $Sh_{(2,1)}(Diff)$ of all stacks on $Diff$ is formally more well behaved than the sub-category of [[differentiable stack]]s inside it. One useful way to formalize all the nice structure that $Sh_{(2,1)}(Diff)$ has is to see that this is a [[2-topos]].
-
-Therefore it is quite useful to think of _every_ stack on $Diff$ as encoding a _smooth groupoid_ and to think of the study of Lie groupoids as being the theory of the [[2-topos]] $Sh_{(2,1)}(Diff)$. The groupoids internal to $Diff$ are special nice objects in this 2-topos: the [[geometric stack]]s.
-
-For this reason, here we shall find it useful to adopt the term _Lie groupoid_ for a general objects in $Sh_{(2,1)}(Diff)$ and to speak of Lie groupoids _[[representable functor|represented]]_ in [[smooth manifold]]s or of [[geometric stack]]s if we mean groupoids internal to manifolds, under the embedding indicated above.
-
-
-### Smooth $\infty$-groupoids as $(\infty,1)$-sheaves / $\infty$-stacks
-
-As we generalize from [[groupoid]]s to [[∞-groupoid]]s, the notion of [[stack]]/[[2-sheaf|(2,1)-sheaf]] generalizes to that of [[∞-stack]]/[[(∞,1)-sheaf]]. Therefore we shall _define_ an $\infty$-Lie groupoid to be an [[(∞,1)-sheaf]] on a [[site]] of smooth test spaces. 
-
-Notice that for the definition of the smooth structure on a [[diffeological space]] or on an ordinary [[Lie groupoid]] it is not in fact necessary to regard these as objects tested by objects in all of [[Diff]]: since smoothness is a local property, it is entirely sufficient to know around every point in the set of [[k-morphism]]s of the $\infty$-groupoid what all the extensions of this point to a _ball_ -shaped smooth family of points around that point are. This is precisely what an [[∞-stack]] on [[CartSp]] encodes, the category of just [[Cartesian space]]s and [[smooth function]]s between them. A discussion of the difference or not between $\infty$-stacks on [[Diff]] and on [[CartSp]] see the section [below](#CartSpAndDiff)
-
-
-We shall think of the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ as being the context in wich [[∞-Lie theory]] takes place. As before, inside this large context only some nice objects correspond to [[internal ∞-groupoid]]s in [[Diff]] or in [[diffeological space|Diffeol]]. These [[geometric stack|geometric ∞-stack]]s are the concrete or geometric $\infty$-Lie groupoids inside more general objects. One way to make precise the notion of _geometric ∞-stack_ with respect to a chosen notion of _geometric_ is to adopt the concept of [[geometry (for structured (∞,1)-toposes)]].
-
-There are other sites on wich one may want a smooth $\infty$-groupoid to be modeled on. For instance instead of testing only with [[smooth manifold]]s, one may want to test with [[smooth loci]]. An ordinary [[sheaf]] on the category $\mathbb{L}$ of smooth loci is a generalized [[smooth space]] as considered in [[synthetic differential geometry]]. Accordingly, an $\infty$-stack on $\mathbb{L}$ may be thought of as a smooth $\infty$-Lie groupoid to which synthetic differential geometry applies.
-
-The key difference of $\mathbb{L}$ to [[Diff]] is that the former contains smooth [[infinitesimal space]]s. Therefore an $\infty$-Lie groupoid modeled on $\mathbb{L}$ may have spaces of [[k-morphism]]s that have infinitesimal extension in some direction. Notably one obtains a notion of $\infty$-Lie groupoids for which _all $k$-morphisms are infinitesimal_ in a precise sense. It sturns out that such **infinitesimal $\infty$-Lie groupoids** may be identified with [[∞-Lie algebroid]]s: generalizations to [[higher category theory]] of [[Lie algebra]]s and [[Lie algebroid]]s.
-
-
-### $\infty$-Stacks on $SmoothMfd$ and on $CartSp_{smooth}$
-
-In the literature on [[Lie groupoid]]s and [[differentiable stack]]s, these are traditionally conceived as [[stack]]s on the [[site]] [[SmoothMfd]] of all [[smooth manifold]]s. As mentioned above, for the purpose of encoding a smooth structure on a [[groupoid]] the category [[Diff]] regarded as a category of test objects is larger than necessary. After all, every manifold is, by definition, itself patched together from [[Cartesian space]]s, and passing to sheaves or stacks on a site really just means that one allows objects patched together from the objects in the site, so that one could just as well take the site to be just that of [[Cartesian space]]s in the first place.
-
-More precisely, we have an [[equivalence of categories]] between the [[categories of sheaves]] on [[CartSp]] and on [[Diff]]
-
-$$
-  Sh(Diff) \stackrel{\simeq}{\to} Sh(CartSp)
-$$
-
-induced from the [[full and faithful functor]] $CartSp \hookrightarrow Diff$. Under this equivalence a sheaf on all of $Diff$ is simply restricted to just the subcategory [[CartSp]].
-
-To see this, notice that every [[smooth manifold]] $X$ admits a [[good cover]] $\{U_i \to X\}$, where each $U_i$ is [[diffeomorphism|diffeomorphic]] to a [[Cartesian space]] (essentially by definition of [[manifold]]). By the [[sheaf]] condition, the value $A(X)$ of a sheaf on $X$ is determined by its value on these $U_i$. Hence the sheaf on [[Diff]] is already entirely determined by its restriction to [[CartSp]].
-
-An analogous discussion holds for [[(∞,1)-sheaves]] on these sites, which we illustrate by the following standard example.
-
-Let $G$ be a [[Lie group]]. We shall write
-
-* $\mathbf{B}G : \mapsto G TrivBund(U) := (Hom_{Diff}(U,G) \stackrel{\to}{\to} *)$ ;
-
-* $G Bund : X \mapsto G Bund(X)$;
-
-for the functorial assignments of groupoids to smooth manifolds, where in the last case we assign the groupoid of $G$-[[principal bundle]]s and in the  first case the groupoid of _trivial_ $G$-principal bundles.
-
-Now let $X$ be any smooth manifold. We want to compute the groupoid of smooth $G$-principal bundles as the [[hom-object]] $X \to \mathbf{B}G$ in the [[(∞,1)-category of (∞,1)-sheaves]] on [[Diff]] or [[CartSp]]. In order to present that [[(∞,1)-category]], we shall make use of its [[model category]]-theoretic presentation in terms of the [[model structure on simplicial presheaves]] $sPSh(C)_{proj,loc}$. Then in order to compute the [[derived hom-space]] in question, we need to 
-
-1. find a cofibrant replacement $Y \stackrel{\simeq}{\to} X $ of $X$;
-
-1. find a fibrant replacement $A \stackrel{\simeq}{\to} B$ of $A$.
-
-1. compute the ordinary [[enriched functor category|enriched hom-object]]
-
-   $\mathbf{H}(X, \mathbf{B}G) = sPSh(Y,B) $
-
-The point now is that the kind of work one has to do to achieve this differs from $sPSh(CartSp)_{proj,loc}$ and $sPSh(Diff)_{proj,loc}$. But the outcome is the same:
-
-1. The approach traditionally used in the literature is, essentially, this: 
-   in $sPSh(Diff)_{proj,loc}$ the manifold $X$ is a 
-   [[representable functor|representable]] object, of course. This means
-   it is already cofibrant and we can simply take $Y = X$. 
-
-   On the other hand, in this model structure the presheaf $\mathbf{B}G$ is 
-   far from being fibrant. But $G Bund$, the closure of $\mathbf{B}G$ under
-   [[descent]], is of course its fibrant replacement, and the
-   canonical inclusin morpism
-   $\mathbf{B}G \to G Bund$ is a weak equivalence.
-
-   So finally we can compute 
-
-   $$
-     \mathbf{H}(X,\mathbf{B}G) = sPSh_{Diff}(X,G Bund)
-   $$
-
-   simply by the [[Yoneda lemma]] as
-
-   $$
-     \cdots \simeq G Bund(X)
-     \,.
-   $$
-
-   In conclusion here no work had to be done on the cofibrant replacement,
-   while lots of work has to be done on the fibrant replacement.
-   Notice that in order to compute the groupoid of $G$-principal bundles
-   on just $X$, we here first computed the corresponding groupoid
-   for each and every manifold, in that we first computed the full 
-   stack $G Bund$. (Of course in this simple example this is not
-   really a big deal, but it should be clear that for $G$ generalized
-   to any smooth [[∞-group]] and hence $G Bund$ to the $\infty$-stack
-   of $G$-[[principal ∞-bundle]]s, it does become quite a big deal).
-
-1. Now consider the same situation, but in $sPSh(CartSp)_{proj,loc}$. 
-   Here the technicalities reverse:
-
-   Now $X$ is (in general) no longer representable, hence it
-   is in general no longer cofibrant. We need to pass to a cofibrant
-   replacement $Y \to X$ instead. Such can be obtained for instance
-   by taking $Y$ to be the [[Cech nerve]] of a [[good cover]] of $X$.
-
-   On the other hand, now $\mathbf{B}G$ is already fibrant! Because the
-   fibrancy condition is that it satisfies [[descent]] along 
-   [[Cech nerve]]s $C(\{U_i\})$ of [[cover]]s 
-   $\{U_i \to U\}$ of objects $U$ in [[CartSp]].  But since every
-   $G$-principal bundle on a [[Cartesian space]] is necessarily equivalent
-   to the trivial one, we have that
- 
-   $$
-     \mathbf{B}G(U) 
-     =
-     G TrivBund(U)
-     \simeq
-     G Bund(U)
-     \simeq
-     sPSh_{CartSp}(C(\{U_i\}), \mathbf{B}G)     
-   $$
-
-   because $U$ is topologically contractible. So $\mathbf{B}G$ _does_
-   satisfy descent -- not on [[Diff]], but on [[CartSp]].
-
-   In conclusion, here we may compute the hom-object as
-
-   $$
-     \mathbf{H}(X,\mathbf{B}G)
-     \simeq
-     sPSh_{CartSp}(C(\{U_i\}), \mathbf{B}G)
-     \,.
-   $$
-
-   On the right this is just the [[Cech cohomology]] of $X$ with values
-   in $\mathbf{B}G$ and hence indeed
-
-   $$
-     \simeq G Bund(X)
-     \,.
-   $$
-
-
-
-
-
-
-
+There is a refinement of smooth $\infty$-groupoids to [[synthetic differential ∞-groupoid]]s. See [[SynthDiff∞Grpd]] for more on that.
 
 ## Definition
 
@@ -2668,7 +2515,7 @@ The proof of this is spelled out at _[[Lie integration]]_ in the section <a href
 
 #### flat coefficients {#FlatCoeffsForExponentiated}
 
-We consider [flat coefficient object](#StrucFlat) 
+We consider now the [flat coefficient objects](#StrucFlat) 
 $\mathbf{\flat} \exp(\mathfrak{g})$ of [exponentiated ∞-Lie algebras](#StrucLieAlg) $\exp(\mathfrak{g})$.
 
 
@@ -2737,6 +2584,7 @@ $$
   Hom_{dgAlg}(CE(\mathfrak{g}), \Omega_{si}^\bullet(\Delta^k))
   \to
   Hom_{dgAlg}(CE(\mathfrak{g}), \Omega_{si}^\bullet(U \times \Delta^k))
+  \,,
 $$
 
 which is given by pullback of [[differential form]]s along the projection $U \times \Delta^k \to \Delta^k$.
@@ -2815,11 +2663,11 @@ $$
   \,.
 $$
 
-(Here the subscript "${}_{si}$" denotes differential forms ont he disk that are radially constant in a neighbourhood of the boundary.)
+(Here the subscript "${}_{si}$" denotes differential forms on the disk that are radially constant in a neighbourhood of the boundary.)
 
 This factorization we now construct. 
 
-Let first $f : [0,1] \to [0,1]$ be any smoothing function, i.e. a [[smooth function]] which is non-decreasing, onto, and constant in a neighbourhood of the boundary. Define a smooth map
+Let first $f : [0,1] \to [0,1]$ be any smoothing function, i.e. a [[smooth function]] which is surjective, non-decreasing, and constant in a neighbourhood of the boundary. Define a smooth map
 
 $$
   U \times [0,1] \to U 
@@ -2844,7 +2692,10 @@ $$
 
 which is such that a form $\omega$ is sent to a form which in a neighbourhood $(1-\epsilon,1]$ of $1 \in [0,1]$ is constant along $(1-\epsilon,1] \times U$ on the value $(0 , Id_{S^{n-1}})^* \omega$.
 
-(Notice that this step does not respect vertical forms.)
+(Notice that this step does not respect vertical forms.
+This is the crucial difference between 
+$\{\Omega^\bullet_{si}(U \times \Delta ^k) \leftarrow CE(\mathfrak{g})\}$ and 
+$\{\Omega^\bullet_{si,vert}(U \times \Delta ^k) \leftarrow CE(\mathfrak{g})\}$).
 
 Let now $0 \lt \epsilon \in \mathbb{R}$ some value such that the given forms $CE(\mathfrak{g}) \to \Omega^\bullet_{si}(D^k)$ are constant a distance $d \leq \epsilon$ from the boundary of the disk. Let $q : [0,\epsilon/2] \to [0,1]$ be given by multiplication by $1/(\epsilon/2)$ and $h : D_{1-\epsilon/2}^k \to D_1^n$ the injection of the $n$-disk of radius $1-\epsilon/2$ into the unit $n$-disk.
 
@@ -5256,14 +5107,15 @@ In [[SynthDiff∞Grpd]] we have [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s 
 
 ## References
 
-Section 3.3 in 
+For references on [[differential geometry]] and [[Lie groupoid]]s, see there.
+
+The $(\infty,1)$-topos $Smooth \infty Grpd$ is discussed in section 3.3 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
-A discussion of smooth $\infty$-groupoids as $(\infty,1)$-sheaves on $CartSp$ is in
+A discussion of smooth $\infty$-groupoids as $(\infty,1)$-sheaves on $CartSp$ and the presentaton of the $\infty$-Chern-Weil homomorphism on these is in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
-
 
 The refined [[Lie group cohomology]] is discussed in
 
