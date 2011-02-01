@@ -1,12 +1,29 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
 ## Definition
 
-A [[differential form]] $\omega \in \Omega^n(X)$ on a [[Riemannian manifold]] $(X,g)$ is called a **harmonic fom** if it is killed by the [[Laplace operator]] $\Delta_g$ of $X$ in that $\Delta \omega = (d + d^\dagger)^2 \omega = 0$.
+A [[differential form]] $\omega \in \Omega^n(X)$ on a [[Riemannian manifold]] $(X,g)$ is called a **harmonic fom** if it is in the [[kernel]] of the [[Laplace operator]] $\Delta_g$ of $X$ in that $\Delta \omega = (d + d^\dagger)^2 \omega = 0$.
 
+## Properties
+
+The basic properties of harmonic forms are described by [[Hodge theory]]. See there for details.
 
 ## References
 
