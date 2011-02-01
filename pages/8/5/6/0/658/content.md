@@ -159,13 +159,23 @@ One can show that comma objects are always discrete fibrations, and dually cocom
 
 _(what is a good  comprehensive reference?)_
 
-The original source for profunctors is
+The original published source for profunctors is
 
 * Jean B&#233;nabou, _Les distributeurs_, Univesit&#233; Catholique de Louvain, Institut de Math&#233;matique Pure et Appliqu&#233;e,  rapport 33,  1973
 
 but these notes are hard to come by. They are available from the author by request.
 
-Some exposition at
+[[Marta Bunge]] independently developed some of the theory of profunctors in her 1966 PhD thesis
+
+* _Categories of Set-Valued Functors_, University of Pennsylvania, 1966
+
+based on suggestions by Lawvere, including the monograph
+
+* Michel Andre, _Categories of Functors and Adjoint Functors_, Batelle Institute at Geneva, 1964
+
+There was a talk by [[Bill Lawvere]] at Oberwolfach in 1966, as well as one by Bunge, both of which mentioned profunctors in some way ([[David Roberts|DR]] - _need some more details here_)
+
+There is some exposition at
 
 * John Baez, _Re: Klein 2-Geometry VII_ ([blog](http://golem.ph.utexas.edu/category/2006/11/klein_2geometry_vii.html#c005985))
 
@@ -182,10 +192,11 @@ Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher
 
 * [[Jean Bénabou]], _Distributors at work_, (2000), [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf)
 
-* A nice example of profunctors between Lawvere [[metric spaces]] can be found in [this comment](http://golem.ph.utexas.edu/category/2009/11/equipments.html#c029633).
+A nice example of profunctors between Lawvere [[metric spaces]] can be found in [this comment](http://golem.ph.utexas.edu/category/2009/11/equipments.html#c029633).
 
-* See the [[joyalscatlab:Distributors and barrels|Catlab]] for the theory of set valued distributors.
+See the Catlab for the theory of $Set$-valued distributors:
 
+* [[joyalscatlab:HomePage|Joyal's CatLat]], _[[joyalscatlab:Distributors and barrels]]_
 
 ***
 
@@ -234,10 +245,6 @@ _Todd_: There is an inevitable debate here about whether one should use $C^{op} 
 =--
 
 
-## References
-
-* [[joyalscatlab:HomePage|Joyal's CatLat]], _[[joyalscatlab:Distributors and barrels]]_
-* [[J. Bénabou]], _Distributors at work_, (2000), [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf)
 [[!redirects profunctors]]
 [[!redirects distributor]]
 [[!redirects distributors]]
