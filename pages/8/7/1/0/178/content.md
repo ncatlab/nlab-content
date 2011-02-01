@@ -2808,7 +2808,8 @@ $$
   b^{n-1} \mathbb{R} \in L_\infty
 $$ 
 
-for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $n$ and vanishing differential.
+for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $n$ and vanishing differential. We call this the 
+**line Lie $n$-algebra**
 
 =--
 
@@ -2829,10 +2830,10 @@ $$
 +-- {: .un_def}
 ###### Definition
 
-Write
+We write equivalently
 
 $$
-  \mathbf{B}^n \mathbb{R}_{smp} := \mathbf{cosk}_{n+1} \exp(b^{n-1}\mathbb{R})
+  \mathbf{B}^n \mathbb{R}_{smp} := \exp(b^{n-1}\mathbb{R})
   \in
   [CartSp_{smooth}^{op}, sSet]
   \,.
@@ -2843,7 +2844,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-We have that $\mathbf{B}^n \mathbb{R}_{smp}$ is a presentation of the [smooth line n-group](#CircleLienGroup) $\mathbf{B}^{n-1} \mathbb{R}$.
+We have that $\mathbf{B}^n \mathbb{R}_{smp}$ is a presentation of the [smooth line n-group](#CircleLienGroup) $\mathbf{B}^{n} \mathbb{R}$.
 
 Concretely, with $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{smooth}^{op}, sSet]$ the standard presentation given under the [[Dold-Kan correspondence]] by the chain complex of sheaves concentrated in degree $n$ on $C^\infty(-, \mathbb{R})$ the equivalence is induced by the [[fiber integration]] of differential $n$-forms over the $n$-[[simplex]]:
 
@@ -3653,7 +3654,8 @@ $\theta \in \Omega^1_{flat}(G,\mathfrak{g})$.
 =--
 
 
-#### The universal curvature characteristic on $B^n U(1)$ {#CurvatureCharacteristicOnCircleNGroup}
+#### The universal curvature characteristic on $\mathbf{}B^n U(1)$   
+ {#CurvatureCharacteristicOnCircleNGroup}
 
 Recall the discussion of $\mathbf{B}^n U(1)$ and of 
 $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ from 
