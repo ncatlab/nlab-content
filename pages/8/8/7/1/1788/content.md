@@ -96,11 +96,11 @@ $$
 
 ## You don't see the next symbols displayed properly: $\mathbf{B}G$ ## {: #BecauseOfThisAnchor}
 
-You don't see the next symbols displayed properly: $\mathbf{B}G$
+You do see the next symbols displayed properly: $\mathbf{B}G$
 --
-{: #AnAnchor}
+{: #BecauseThisKindOfAnchorDoesNotInterfere}
 
-## You don't see the next symbols displayed properly: $B G$ ## {: #BecauseOfThisAnchor}
+## You do see the next symbols displayed properly: $B G$ ## {: #BecausethereisNoCurlyBraccketsPreceedingThis}
 
 
 Right?
