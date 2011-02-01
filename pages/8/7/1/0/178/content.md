@@ -29,7 +29,7 @@ A _smooth $\infty$-groupoid_ is an [[∞-groupoid]] equipped with [[cohesive (�
 
 The [[(∞,1)-topos]] $Smooth \infty Grpd$ of all smooth $\infty$-groupoids is a [[cohesive (∞,1)-topos]]. It realizes a [[higher geometry]] version of [[differential geometry]]. 
 
-Many properties of smooth $\infty$-groupoids are inherited from the underlying [[Euclidea-topological ∞-groupoid]]s. See [[ETop\infty Grpd]] for more. 
+Many properties of smooth $\infty$-groupoids are inherited from the underlying [[Euclidean-topological ∞-groupoid]]s. See [[ETop∞Grpd]] for more. 
 
 There is a refinement of smooth $\infty$-groupoids to [[synthetic differential ∞-groupoid]]s. See [[SynthDiff∞Grpd]] for more on that.
 
@@ -2785,7 +2785,7 @@ $$
 From these lifts all the required lifts are obtained by precomposition with some evident smooth retractions.
 
 
-The idea of the proof is that the lifts in question are obtained from solving differential equations with boundary conditions, and exist due to the existence of solutions of first order systems of partial differential equations and the [[Bianchi identities]] for flat [[∞-Lie algebroid valued differential forms]].
+The idea of the proof is that the lifts in question are obtained from solving [[differential equation]]s with boundary conditions, and exist due to the existence of solutions of first order systems of partial differential equations and the [[Bianchi identities]] for flat [[∞-Lie algebroid valued differential forms]].
 
 
 **1st case: $\mathfrak{g} = b^{n-1} \mathbb{R}$**
@@ -2820,7 +2820,7 @@ by lifting $\lambda$ without adding any terms to it and
 solving the differential equation
 
 $$
-  \partial_\sigma (A_{D^k} + A_{U \times D^k} - A_{D^K}) = (d_U + d_{D^k}) \lambda
+  \partial_\sigma (A_{D^k} + A_{U \times D^k} ) = (d_U + d_{D^k}) \lambda
   \,,
 $$
 
@@ -2971,7 +2971,7 @@ I'll try to think of a convenient notation to express this.
 ##### For a line Lie $n$-algebra {#LieIntDiffCoeffsForLineGroups}
 
 
-We have discussed two different presentations for the flat coefficient object $\mathbf{\flat}\mathbf{B}^n \mathbb{R}$:
+We have discussed now two different presentations for the flat coefficient object $\mathbf{\flat}\mathbf{B}^n \mathbb{R}$:
 
 1. $\mathbf{\flat} \mathbf{B}^n \mathbb{R}_{chn}$ -- discussed [here](#FlatCoefficientsForCircleNGroup);
 
@@ -2983,7 +2983,7 @@ There is an evident degreewise map
 $$
   (-1)^{\bullet+1}
   \int_{\Delta^\bullet} :
-  \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{simp}
+  \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{smp}
   \to  
   \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{chn}
 $$
@@ -2997,9 +2997,9 @@ This map yields a morphism of simplicial presheaves
 
 $$
   \int : 
-   \mathbf{\flat}^{simp} \mathbf{B}^n \mathbb{R}
+   \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{smp}
      \to
-   \mathbf{\flat}^{chn} \mathbf{B}^n \mathbb{R}
+   \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{chn}
 $$
 
 which is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
@@ -3008,6 +3008,32 @@ which is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
 
 +-- {: .proof}
 ###### Proof
+
+First we check that we have a morphism of [[simplicial set]]s over each $U \in CartSp$. Since both objects are abelian [[simplicial group]]s we may, by the [[Dold-Kan correspondence]], check the statement for  sheaves of [[Moore complex|normalized chain complexes]].
+
+Notice that the chain complex differential on the forms 
+$\omega \in \Omega^n_{cl}(U \times \Delta^k)$ on simplices
+sends a form to the alternating sum of its restriction to the faces of the
+simplex. Postcomposed with the integration map this is the operation 
+$\omega \mapsto \int_{\partial \Delta^k} \omega$ of integration over the boundary.
+
+Conversely, first integrating over the simplex and then applying the de Rham differential on $U$ yields
+
+$$
+  \begin{aligned}
+     \omega \mapsto (-1)^{k+1} d_U \int_{\Delta^k} \omega
+      &= 
+      - \int_{\Delta^k} d_U \omega
+      \\
+      & = \int_{\Delta^k} d_{\Delta^k} \omega
+      \\
+      & =  \int_{\partial \Delta^k} \omega
+  \end{aligned}
+  \,,
+$$
+
+where we first used that $\omega$ is closed, so that $d_{dR} \omega = (d_U + d_{\Delta^k}) \omega = 0$, and then used [[Stokes' theorem]].
+Therefore we have indeed objectwise a chain map.
 
 By the discussion of the two objects we already know that both present the [[homotopy type]] of $\mathbf{\flat} \mathbf{B}^n \mathbb{R}$. Therefore it suffices to show that the integration map is over each $U \in CartSp$ an isomorphism on the [[simplicial homotopy group]] in degree $n$.
 
@@ -3021,14 +3047,14 @@ $$
 
 is surjective on degree $n$ homotopy groups: for $f : U \to * \to \mathbb{R}$  constant, a preimage is $f \cdot vol_{\Delta^n}$, the normalized [[volume form]] of the $n$-[[simplex]] times $f$.
 
-Moreover, these preimages clearly span the whole homotopy group $\pi_n (\mathbf{\flat} \mathbf{B}^n \mathbb{R}) \simeq \mathb{R}_{disc}$ (they are in fact the images of the weak equivalence $const \Gamma \exp(b^{n-1}\mathbb{R}) \to \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{smp}$ ) and the integration map is injective on them. Therefore it is an isomorphism on the homotopy groups in deegree $n$.
+Moreover, these preimages clearly span the whole homotopy group $\pi_n (\mathbf{\flat} \mathbf{B}^n \mathbb{R}) \simeq \mathb{R}_{disc}$ (they are in fact the images of the weak equivalence $const \Gamma \exp(b^{n-1}\mathbb{R}) \to \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{smp}$ ) and the integration map is injective on them. Therefore it is an isomorphism on the homotopy groups in degree $n$.
 
 =--
 
 #### de Rham coefficients {#DifferentialCoefficientsOfLieInt}
 
-We now consider [de Rham coefficient object](#StrucDeRham) 
-$\mathbf{\flat}_{dR} \exp(\mathfrak{g})$ of [exponentiated ∞-Lie algebras](#StrucLieAlg) $\exp(\mathfrak{g})$.
+We now consider the [de Rham coefficient object](#StrucDeRham) 
+$\mathbf{\flat}_{dR} \exp(\mathfrak{g})$ of [exponentiated L-∞ algebras](#StrucLieAlg) $\exp(\mathfrak{g})$.
 
 
 +-- {: .un_corollary}
@@ -3080,11 +3106,11 @@ in $[CartSp_{smooth}^{op}, sSet]$.
 
 ##### For a line Lie $n$-algebra {#LieIntDiffCoeffsForLineGroups}
 
-We have discussed two different presentations for the de Rham coefficient object $\mathbf{\flat}\mathbf{B}^n \mathbb{R}$:
+We have discussed now two different presentations for the de Rham coefficient object $\mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}$:
 
 1. $\mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{chn}$ -- discussed [here](#OrdinaryDeRham);
 
-1. $\mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{smp}$ -- discusse [here](#DifferentialCoefficientsOfLieInt);
+1. $\mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{smp}$ -- discussed [here](#DifferentialCoefficientsOfLieInt);
 
 
 
@@ -3093,7 +3119,7 @@ There is an evident degreewise map
 $$
   (-1)^{\bullet+1}
   \int_{\Delta^\bullet} :
-  \mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{simp}
+  \mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{smp}
   \to  
   \mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{chn}
 $$
@@ -3107,9 +3133,9 @@ This map yields a morphism of simplicial presheaves
 
 $$
   \int : 
-   \mathbf{\flat}_{dR}^{simp} \mathbf{B}^n \mathbb{R}
+   \mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{smp}
      \to
-   \mathbf{\flat}_{dR}^{chn} \mathbf{B}^n \mathbb{R}
+   \mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{chn}
 $$
 
 which is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
@@ -4499,7 +4525,7 @@ The morphism given by [[fiber integration]] of differential forms over the simpl
 
 $$
   \array{
-    \mathbf{B}^n U(1)_{diff,simp} &\stackrel{curv_{simp}}{\to}& \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)_{simp}
+    \mathbf{B}^n U(1)_{diff,simp} &\stackrel{curv_{smp}}{\to}& \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)_{smp}
     \\
     \downarrow^{\mathrlap{\int}_{\Delta^\bullet}} && 
     \downarrow^{\mathrlap{\int}_{\Delta^\bullet}}
@@ -4532,7 +4558,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Observe that $\mathbf{B}^n \mathbb{R}_{diff,simp}$ is the [[pullback]] of $\mathbf{\flat}_{dR} \mathbf{B}^{n+1}\mathbb{R}_{simp} \to \mathbf{\flat}\mathbf{B}^{n+1} \mathbb{R}_{simp}$ along the evident forgetful morphism from
+Observe that $\mathbf{B}^n \mathbb{R}_{diff,simp}$ is the [[pullback]] of $\mathbf{\flat}_{dR} \mathbf{B}^{n+1}\mathbb{R}_{smp} \to \mathbf{\flat}\mathbf{B}^{n+1} \mathbb{R}_{smp}$ along the evident forgetful morphism from
 
 $$
   (U,[k]) \mapsto \{\Omega^\bullet(U \times \Delta^k) \leftarrow
@@ -4584,7 +4610,7 @@ $$
      \\
      & \searrow & \downarrow && \downarrow
      \\
-     && \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)_{simp}
+     && \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)_{smp}
       &\stackrel{\int_{\Delta^\bullet}}{\to^\simeq}&
      \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)_{chn}
      &&&
