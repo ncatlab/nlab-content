@@ -159,6 +159,12 @@ One can show that comma objects are always discrete fibrations, and dually cocom
 
 _(what is a good  comprehensive reference?)_
 
+The original source for profunctors is
+
+* Jean B&#233;nabou, _Les distributeurs_, Univesit&#233; Catholique de Louvain, Institut de Math&#233;matique Pure et Appliqu&#233;e,  rapport 33,  1973
+
+but these notes are hard to come by. They are available from the author by request.
+
 Some exposition at
 
 * John Baez, _Re: Klein 2-Geometry VII_ ([blog](http://golem.ph.utexas.edu/category/2006/11/klein_2geometry_vii.html#c005985))
@@ -171,8 +177,10 @@ There is a discussion of profunctors in the recently republished:
 
 * J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
 
-Excellent  notes from a course on _distributors_ given by 
-Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher, are available from his website  &lt;http://www.mathematik.tu-darmstadt.de/~streicher>.
+Excellent  notes from a course on distributors given by 
+Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher.
+
+* [[Jean Bénabou]], _Distributors at work_, (2000), [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf)
 
 * A nice example of profunctors between Lawvere [[metric spaces]] can be found in [this comment](http://golem.ph.utexas.edu/category/2009/11/equipments.html#c029633).
 
@@ -183,11 +191,11 @@ Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher
 
 ## Notation ## {#notation}
 
-Profunctors are often notated with a slashed or barred arrow, as in $C &#x21F8; D$, which is U+21F8 in Unicode.  It is not always obvious how to draw this character, so here are some hints.
+Profunctors are often notated with a slashed or barred arrow, as in $C &#8696; D$, which is U+21F8 in Unicode.  It is not always obvious how to draw this character, so here are some hints.
 
 * On the nLab (or anywhere that accepts SGML character entities, including raw HTML on the web), it can be found using a Unicode entity:
 
-      &#x21F8;
+      &#8696;
 
 * In LaTeX, one can use `\nrightarrow` (producing '$\nrightarrow$') in a pinch, but a nice-looking extensible barred arrow command can also be produced with the following preamble code (modified from amsmath's `\xrightarrow`):
 
@@ -222,7 +230,7 @@ _Todd_: There is an inevitable debate here about whether one should use $C^{op} 
 
 [[Sridhar Ramesh]]: But surely, just as well, a functor from $C$ to $D$ yields a contravariant functor from $C$ to $Set^D$ and thus a profunctor $C^{op} \otimes D \to V$, by composition with the contravariant Yoneda embedding of $D$ into $Set^D$? At the moment, I still do not see why there is reason to prefer in the abstract general one to the other of $(c, d) \mapsto Hom_D(F(c), d)$ and $(d, c) \mapsto Hom_D(d, F(c))$, though it's not an issue I've thought very much about or have strong emotions regarding. Are there further reasons beyond the above?
 
-[[Mike Shulman]]: Well, the covariant Yoneda embedding is arguably more natural and important than the contravariant one.  If a profunctor $C&#x21F8; D$ is a functor $C\to Set^{D^{op}}$, then we can think of it as assigning to every $c\in C$ a presheaf on $D$, which may or may not be representable.  The profunctor "is" a functor just when all its values are representable presheaves.  Of course, if instead a profunctor $C&#x21F8; D$ were a functor $C^{op}\to Set^D$, i.e. $C\to (Set^D)^{op}$, then we could think of it as assigning to each $c\in C$ a functor $D\to Set$, which might or might not be (co)representable.  However, for a bunch of reasons it's often more natural to think of an object of $D$ as determined by the maps *into* it, rather than the maps *out* of it---in other words by its [[generalized elements]], or in yet other words by the presheaf it represents.  Athough of course *formally*, there is a complete duality.
+[[Mike Shulman]]: Well, the covariant Yoneda embedding is arguably more natural and important than the contravariant one.  If a profunctor $C&#8696; D$ is a functor $C\to Set^{D^{op}}$, then we can think of it as assigning to every $c\in C$ a presheaf on $D$, which may or may not be representable.  The profunctor "is" a functor just when all its values are representable presheaves.  Of course, if instead a profunctor $C&#8696; D$ were a functor $C^{op}\to Set^D$, i.e. $C\to (Set^D)^{op}$, then we could think of it as assigning to each $c\in C$ a functor $D\to Set$, which might or might not be (co)representable.  However, for a bunch of reasons it's often more natural to think of an object of $D$ as determined by the maps *into* it, rather than the maps *out* of it---in other words by its [[generalized elements]], or in yet other words by the presheaf it represents.  Athough of course *formally*, there is a complete duality.
 =--
 
 
