@@ -68,4 +68,7 @@ Much algebraic insight to algebaric structures in CFT is in unfinished notes
 
 * [[A. Beilinson]], [[B. Feigin]], B. Mazur, _Notes on conformal field theory_, &lt;http://www.math.sunysb.edu/~kirillov/manuscripts.html>
 
+* [what-is-the-motivation-for-a-vertex-algebra](http://mathoverflow.net/questions/53988/what-is-the-motivation-for-a-vertex-algebra) - a recent MathOverflow discussion on the motivation 
 [[!redirects vertex algebra]]
+[[!redirects vertex algebras]]
+[[!redirects vertex operator algebras]]
