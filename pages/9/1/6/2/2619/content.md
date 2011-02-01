@@ -19,7 +19,7 @@
 +-- {: .un_defn}
 ###### Definition
 
-Let $E$ be a [[locally small category]] with all small [[colimit]]s. An object $e$ of $E$ is called **tiny** or **small-[[projective object]]s** ([Kelly, &#167;5.5](#Kelly)) if the [[hom-functor]] $E(e, -) : E \to Set$ preserves small colimits.
+Let $E$ be a [[locally small category]] with all small [[colimit]]s. An object $e$ of $E$ is called **tiny** or **small-[[projective object]]** ([Kelly, &#167;5.5](#Kelly)) if the [[hom-functor]] $E(e, -) : E \to Set$ preserves small colimits.
 
 More generaly, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in E$ is called tiny if $E(e,-) : E \to V$ preserves all small colimits.
 
@@ -52,7 +52,7 @@ If homming out of a tiny object even has a [[right adjoint]] and hence preserves
 +-- {: .un_prop}
 ###### Proposition
 
-A [[retract]] of a tiny object is itsaelf tiny.
+A [[retract]] of a tiny object is itself tiny.
 
 =--
 
