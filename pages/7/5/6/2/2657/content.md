@@ -1,8 +1,26 @@
-#Overview#
 
-Hodge theory is centered around fine structure seen at the level of (complex, rational and integer) cohomologies (and [[motive]]s) of [[Kähler manifold]]s, based on the study of [[harmonic form]]s on them: Hodge decomposition, Hard Lefschetz theorem, pure Hodge structures, mixed Hodge structures, variations of Hodge structure, Hodge to de Rham spectral sequence, periods...This basic setup is however by now vastly generalized. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
 
-Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P. Deligne. More recently a noncommutative generalization and refinement of Hodge theory is emerging in the work of [[Maxim Kontsevich|M. Kontsevich]] and collaborators (D. Kaledin, L. Katzarkov, T. Pantev...) with precursors in the works of [[Carlos Simpson|C. Simpson]], [[Mikio Sato|M. Saito]], C. Hertling and others. Another very interesting and complex picture is developing for a number of years in works of Goncharov. 
+#Contents#
+* table of contents
+{:toc}
+
+## Overview
+
+Hodge theory is centered around fine structure seen at the level of (complex, rational and integer) [[cohomology|cohomologies]] (and [[motive]]s) of [[Kähler manifold]]s, based on the study of [[harmonic form]]s on them: Hodge decomposition, Hard Lefschetz theorem, pure Hodge structures, mixed Hodge structures, variations of Hodge structure, Hodge to de Rham spectral sequence, periods...This basic setup is however by now vastly generalized. 
+
 
 The nomenclature "nonabelian"/"noncommutative" Hodge theory may be confusing - to clarify:
 
@@ -12,9 +30,114 @@ The nomenclature "nonabelian"/"noncommutative" Hodge theory may be confusing - t
 
 Ultimately, the goal is to develop a Hodge theory for noncommutative spaces with nonabelian coefficients.
 
-#References and related entries#
+## For de Rham cohomology on a Riemannian manifold
 
-* nlab: [[Hodge star]], [[nonabelian Hodge theory]], [[Lefschetz hyperplane theorem]]
+### Definitions
+
++-- {: .un_def}
+###### Definition
+
+Let $(X,g)$ be a [[compact topological space|compact]] [[oriented]] [[Riemannian manifold]] of [[dimension]] $d$. Write $\Omega^\bullet(X)$ for the [[de Rham complex]] of smooth [[differential form]]s on $X$ and $\star : \Omega^\bullet(X) \to \Omega^{d-\bullet}(X)$ for the [[Hodge star operator]].
+
+The Hodge [[inner product]] 
+
+$$
+ \langle -,-\rangle : \Omega^\bullet(X) \otimes \Omega^{d-\bullet}(X)
+  \to 
+  \mathbb{R}
+$$
+
+is given by
+
+$$
+  \langle \alpha , \beta\rangle = \int_X \alpha \wedge \star \beta
+  \,.
+$$
+
+Write $d^*$ for the formal [[adjoint]] of the de Rham differential under this iner product. Then
+
+$$
+  \Delta := [d,d^*] := d d^* + d^* d = (d + d^*)^2
+$$
+
+is the Hodge [[Laplace operator]] ($d + d^*$ is the corresponding [[Dirac operator]]). A [[differential form]] $\omega$ in the [[kernel]] of $\Delta$
+
+$$
+  \Delta \omega = 0
+$$
+
+is called a [[harmonic form]] on $(X,g)$.
+
+Write $\mathcal{H}^k(X)$ for the [[abelian group]] of harmonic $k$-forms on $X$.
+
+=--
+
+### Results {#ResultsOverRiemannianManifold}
+
++-- {: .un_prop}
+###### Observation
+
+Harmonic forms are precisley those in the kernel of $d + d^*$, which are pecisely those in the joint kernel of $d$ and $d^*$.
+
+=--
+
+By the fact that the [[bilinear form]] $\langle -,-\rangle$ is non-degenerate. 
+
+Therefore we have a canonical map $\mathcal{H}^k(X) \to H_{dR}^k(X)$ of harmonic forms into the [[de Rham cohomology]] of $X$.
+
++-- {: .un_theorem}
+###### Theorem
+
+The canonical map
+
+$$
+  \mathcal{H}^k(X) \to H_{dR}^k(X)
+$$
+
+is an [[isomorphism]].
+
+=--
+
+This means that every [[de Rham cohomology]] class on $(X,g)$ has precisely one harmonic cocycle reprentative.
+
+But more is true
+
++-- {: .un_theorem}
+###### Theorem
+
+For $(X,g)$ as above, there exists a unique degree-preserving operator (the [[Green operator]] of the [[Laplace operator]] $\Delta$)
+
+$$
+  G : \Omega^\bullet(X) \to \Omega^\bullet(X)
+$$
+
+such that
+
+* $G$ commutes with $d$ and with $d^*$;
+
+* $G(\mathcal{H}^\bullet(X)) = 0$;
+
+* and 
+  
+  $$
+    Id - \pi_{\mathcal{H}} = [d, d^* G]
+    \,,
+  $$
+
+  where $\pi_{\mathcal{H}}$ is the orthogonal projection on [[harmonic form]]s and the angular brackets denote the graded commutator $[d, d^* G] = [d,d^*]G = \Delta G$.
+
+=--
+
+See for instance page 6 of ([GreenVoisinMurre](#GreenVoisinMurre)).
+
+## Related entries
+
+* [[harmonic form]], [[Hodge star]], [[nonabelian Hodge theory]], [[Lefschetz hyperplane theorem]]
+
+## References 
+
+The main historical contributors to Hodge theory include W. Hodge, P. Griffiths, A. Grothendieck, P. Deligne. More recently a noncommutative generalization and refinement of Hodge theory is emerging in the work of [[Maxim Kontsevich|M. Kontsevich]] and collaborators (D. Kaledin, L. Katzarkov, T. Pantev...) with precursors in the works of [[Carlos Simpson|C. Simpson]], [[Mikio Sato|M. Saito]], C. Hertling and others. Another very interesting and complex picture is developing for a number of years in works of Goncharov. 
+
 
 * wikipedia: [Hodge structure](http://en.wikipedia.org/wiki/Hodge_structure), [Hodge conjecture](http://en.wikipedia.org/wiki/Hodge_conjecture)
 
@@ -25,6 +148,9 @@ Ultimately, the goal is to develop a Hodge theory for noncommutative spaces with
 * Claire Voisin, _Hodge theory and the topology of complex K&#228;hler and complex projective manifolds_ (survey, [pdf](http://www.math.columbia.edu/~thaddeus/seattle/voisin.pdf))
 
 * C. Voisin, _Hodge theory and complex algebraic geometry I,II_, Cambridge Stud. in Adv. Math. __76, 77__
+
+* Mark Green, Claire Voisin, Jacob Murre, _Algebraic cycles and Hodge theory_ Lecture Notes in Mathematics, 1594 (1993)
+{#GreenVoisinMurre}
 
 * P.A. Griffiths, J.E. Harris, _Principles of algebraic geometry_, 1978
 
