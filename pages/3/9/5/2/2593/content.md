@@ -145,11 +145,22 @@ obtained by gluing on a rational $n$-sphere. By this kind of translation between
 
 ### Ordinary Lie algebras
 
-* [Springer online enc:Lie algebra cohomology](http://eom.springer.de/C/c023140.htm)
+An account of the standard theory of Lie algebra cohomology is for instance
+
+section 6 of 
+
+* J. A. de Azc&#225;rraga, Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+
+chapter 7 of
+
+* [[Charles Weibel]], _An introduction to homological algebra_, Cambridge Studies in Adv. Math. __38__, CUP 1994
+
+See also
+
+* [[eom]] _[Lie algebra cohomology](http://eom.springer.de/C/c023140.htm)_
 
 * [wikipedia](http://en.wikipedia.org/wiki/Lie_algebra_cohomology)
 
-* Charles Weibel, _An introduction to homological algebra_, ch. 7, Cambridge Studies in Adv. Math. __38__, CUP 1994
 
 * scholarpedia: [An introduction to Lie algebra cohomology](http://www.scholarpedia.org/article/An_introduction_to_Lie_algebra_cohomology)
 
