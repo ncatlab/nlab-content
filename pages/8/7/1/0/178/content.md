@@ -4920,7 +4920,7 @@ for some morphism $exp(\mu)_{diff}$.
 +-- {: .proof}
 ###### Proof
 
-Both claims follow from the [[free property]] of the [[Weil algebra]].
+Both claims follow from the [[free functor|free property]] of the [[Weil algebra]].
 
 For the first, we need to show that for all $U \in $ [[CartSp]] we have lifts in all diagrams of the form
 
