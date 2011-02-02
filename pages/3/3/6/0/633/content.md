@@ -9,11 +9,18 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc} 
+
 ## Definition
 
-A [[morphism]] $f:A\to B$ in a [[2-category]] $K$ is called **(representably) fully-faithful** (or sometimes just **ff**) if for all objects $X$, the functor
+Let $K$ be a [[2-category]].
+
+A [[morphism]] $f:A\to B$ in $K$ is called **(representably) fully-faithful** (or sometimes just **ff**) if for all [[object]]s $X \in K$ , the [[functor]]
 $$K(X,A) \to K(X,B)$$
-is [[full and faithful functor|full and faithful]].  One easily checks that in [[Cat]] this is the same as $f$ itself being full and faithful.
+is [[full and faithful functor|full and faithful]].  
+
 
 ## Remarks
 
@@ -26,6 +33,11 @@ is [[full and faithful functor|full and faithful]].  One easily checks that in [
 ## Variations
 
 This is not always the "right" notion of fully-faithfulness in a 2-category.  In particular, in [[enriched category theory]] this definition does not recapture the correct notion of enriched fully-faithfulness.  It is possible, however, to characterize $V$-fully-faithful functors 2-categorically; see [[codiscrete cofibration]].
+
+## Examples
+
+In the [[2-category]] [[Cat]] the full and faithful morphisms are precisely the [[full and faithful functor]]s.
+
 
 
 ## Related pages
