@@ -27,7 +27,7 @@
 Abstractly, nonabelian Lie algebra cohomology is the restriction of the general notion of [[∞-Lie algebra cohomology]] to [[cocycle]]s of the form $\mathfrak{g} \to der \mathfrak{h}$, where $\mathfrak{g}$ and $\mathfrak{h}$ are ordinary [[Lie algebra]]s and $der(-)$ denotes the Lie algebra of [[derivation]]s.
 
 
-Traditionally abelian [[Lie algebra cohomology]] is conceived as the cohomology of the [[Chevalley-Eilenberg complex]] of a Lie algebra and some nonabelian generalizations of this model have been given in the literature. We show below how these definitions are the [[nonanelian cohomology]] special cases of the general abstract definition of [[∞-Lie algebra cohomology]].
+Traditionally abelian [[Lie algebra cohomology]] is conceived as the cohomology of the [[Chevalley-Eilenberg complex]] of a Lie algebra and some nonabelian generalizations of this model have been given in the literature. We show below how these definitions are the [[nonabelian cohomology]] special cases of the general abstract definition of [[∞-Lie algebra cohomology]].
 
 The coefficients are not now in a Lie algebra module (which is viewed here as an abelian Lie algebra with action of another Lie algebra), but an arbitrary Lie algebra with something that is action of another Lie algebra up to an inner automorphism. 
 
@@ -402,13 +402,20 @@ Notice that in $dgAlg^{op}$ every object is cofibrant, so that this is indeed a 
 
 ## References
 
+On original source is
+
 * G. Hochschild, _Lie algebra kernels and cohomology_, Amer. J. Math. __76__, n.3 (1954) 698--716.
 
-The notation above is from personal notes of Z. &#352;koda (1997). A systematic theory has been many times partly rediscovered from soon after the Eilenberg--Mac Lane work on group extension, among first by Hochschild and then by many others till nowdays. Here is a recent online account emphasising parallels with differential geometry:
+The notation above is from personal notes of Z. &#352;koda (1997). A systematic theory has been many times partly rediscovered from soon after the Eilenberg--Mac Lane work on group extension, among first by Hochschild and then by many others till nowdays. Here is a recent online account emphasising parallels with [[differential geometry]]:
 
 *  Dmitri Alekseevsky, Peter W. Michor, Wolfgang Ruppert, Extensions of Lie algebras
 [math.DG/0005042](http://arxiv.org/abs/math/0005042)
 
 A more conceptual picture is in a work of [[Danny Stevenson]] which extends also to its [[categorification]], extensions of [[Lie 2-algebra]]s. See
 
-* Danny Stevenson, Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
+* [[Danny Stevenson]], Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
+
+There is also
+
+* N. Inassaridze, E. Khmaladze, and M. Ladra, _Non-abelian Cohomology and Extensions of Lie Algebras_ Journal of Lie Theory,   Volume 18 (2008) 413&#8211;432 ([pdf](http://www.rmi.acnet.ge/~khmal/PAPERS/LieTheory2008.pdf))
+
