@@ -3944,9 +3944,9 @@ We first expose the simple special case of ordinary
 $U(1)$-[[principal bundle]]s with [[connection on a bundle|connection]]
 in more detail. Then we turn to the general case.
 
+#### Circle 0- and circle 1-bundle with connection
 
-
-#### Circle bundles with connection {#CircleBundlesConnection}
+##### Circle bundles with connection {#CircleBundlesConnection}
 
 Before discussing [the full theorem](#DeligneCohomologyTheorem), it is instructive to start by looking at the special case $n=1$ in some detail, which is about ordinary  $U(1)$-[[nLab:principal bundle]]s [[nLab:connection on a bundle|with connection]]. 
 
@@ -4293,7 +4293,7 @@ in a 2-step process: first the choice of a pseudo-connection realizes the bottom
 The general version of this story is discussed in detail at <a href="#Connections">differential cohomology in an (∞,1)-topos -- Local (pseudo-)connections.</a>
 
 
-#### Circle bundles with pseudo-connection {#CircleBunlePseudoConnection}
+##### Circle bundles with pseudo-connection {#CircleBunlePseudoConnection}
 
 In the above discussion of extracting ordinary connections on ordinary $U(1)$-principal bundles from the abstract topos-theoretic definition of differential cohomology, we argued that a certain homotopy pullback may be computed by choosing in the Cech-hypercohomology of the complex of sheaves $(\Omega^1(-) \stackrel{d_{dR}}{\to} \Omega^2_{cl}(-))$ over a manifold $X$ those cohomology representatives that happen to be represented by globally defined 2-forms on $X$. We saw that the homotopy fiber of _pseudo-connections_ over these 2-forms happened to have connected components indexed by _genuine_ connections.
 
@@ -4357,7 +4357,7 @@ $$
 This fixes the pseudo-components to be $a_{i j} = - d g_{i j}$. By the above discussion, this pseudo-connection with vanishing connection 1-forms is equivalent, as a pseudo-connection, to the ordinary connection cocycle with connection forms $(A_i := \sum_{i_0} \rho_{i_0} d g_{i_0 i})$. This is a <a href="http://ncatlab.org/nlab/show/connection+on+a+bundle#Properties">standard formula</a> for equipping $U(1)$-principal bundles with Cech cocycle $(g_{i j})$ with a connection.
 
 
-#### $U(1)_0$-groupoid bundles {#U1GroupoidBundle}
+##### Circle 0-bundle {#U1GroupoidBundle}
 
 We saw above that the intrinsic coefficient object $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ yields ordinary de Rham cohomology in degree $n \gt 1$. For $n = 1$ we [have](#FlatCircleCohomology) that $\mathbf{\flat}_{dR} \mathbf{B}U(1)$ is given simply by the 0-[[nLab:truncated]] sheaf of 1-forms, $\Omega^1(-) : CartSp^{op} \to Set \hookrightarrow sSet$. Accordingly we have for $X$ a paracompact smooth manifold
 
@@ -4783,10 +4783,10 @@ There is however still room to adjust this presentation such as to yield in each
 
 #### $\infty$-Pseudo-connections
 
-We discuss presentations for the differential characteristic classes in the image of $\infty$-Lie integration.
+We discuss presentations for the differential characteristic classes in the image of [∞-Lie integration](#LieIntegration).
 
 
-Let $\mathfrak{g} \in L_\infty \stackrel{CE}{\hookrightarrow} dgAlg^{op}$. 
+Let $\mathfrak{g} \in L_\infty \stackrel{CE}{\hookrightarrow} dgAlg^{op}$ be an [[L-∞ algebra]].
 
 
 +-- {: .un_defn}
@@ -4892,7 +4892,7 @@ $$
   \exp(\mathfrak{g})_{diff} \to \exp(\mathfrak{g})
 $$
 
-is a weak equivalence in $[CartSp_{smooth}^{op}, sSet]_{proj}$.
+is an acyclic fibration in $[CartSp_{smooth}^{op}, sSet]_{proj}$.
 
 Moreover, for every $L_\infty$-algebra cocycle it fits into a commuting diagram
 
@@ -4920,7 +4920,40 @@ for some morphism $exp(\mu)_{diff}$.
 +-- {: .proof}
 ###### Proof
 
-Use the contractibility of the Weil algebra.
+Both claims follow from the [[free property]] of the [[Weil algebra]].
+
+For the first, we need to show that for all $U \in $ [[CartSp]] we have lifts in all diagrams of the form
+
+
+$$
+  \array{
+     \partial \Delta[k] &\to& \exp(\mathfrak{g})_{diff,smp}(U)
+     \\
+     \downarrow && \downarrow 
+     \\
+     \Delta[k] &\to& \exp(\mathfrak{g})(U)
+  }
+  \,.
+$$
+
+The bottom morphism is a collection of [[differential form]]s on $U \times \Delta^k$ (with sitting instants), satisfying a flatness condition for their $d_{\Delta^k}$-differentials. The top morphism is a collection of forms on $U \times \partial \Delta^k $ with no flatness constraint except that those with no component along $U$ coincide with the restriction of those of the bottom morphism to the boundary $\partial \Delta^k$. These latter extend to a unique lift to the interior of the simplex. The remaining forms may be smoothly interpolated for instance to 0 in the interior of the simplex, while keeping at least one leg along $U$. Since for the top morphism there is no condition on the differentials, any choice will do.
+
+For the second claim, let $U(CE(\mu))$ be the underlying morphism on chain complexes of $\mu$. Then we have the free dg-algebra homomorphism $F U (CE(\mu)) : W(b^{n-1}) \to W(\mathfrak{g})$ fitting into the [[commutative diagram]]
+
+$$
+  \array{
+    CE(\mathfrak{g}) &\stackrel{CE(\mu)}{\leftarrow}& CE(b^{n-1}\mathbb{R})
+    \\
+    \uparrow && \uparrow
+    \\
+    W(\mathfrak{g})
+     &\stackrel{}{\leftarrow}&
+    W(b^{n-1}\mathbb{R})
+  }
+  \,.
+$$
+
+[[pasting|Pasting]]-precomposition with this diagram yields a morhism $\exp(\mu)_{diff}$ as desired.
 
 =--
 
