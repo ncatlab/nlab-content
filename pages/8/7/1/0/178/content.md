@@ -5197,6 +5197,8 @@ $$
 
 =--
 
+  
+
 +-- {: .proof}
 ###### Proof
 
@@ -5318,7 +5320,7 @@ A discussion of smooth $\infty$-groupoids as $(\infty,1)$-sheaves on $CartSp$ an
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
 
-For references on  [[∞-Chern-Weil homomorphism]] and [[connections on an ∞-bundle]], see there.
+For references on  [[Chern-Weil theory in Smooth∞Grpd]] and [[connection on a smooth principal ∞-bundle]], see there.
 
 The refined [[Lie group cohomology]] is discussed in
 
