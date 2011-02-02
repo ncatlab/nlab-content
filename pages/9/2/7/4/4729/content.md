@@ -22,7 +22,7 @@
 
 ## Idea
 
-A _connection_ on a $G$-[[principal ∞-bundle]] in the [[(∞,1)-topos]] $\mathbf{H} =$ [[?LieGrpd]] is a structure that serves to interpolate between the [[nonabelian cohomology]] class $c \in H(X, \mathbf{B}G)$ of tbe bundle and its intrinsic [[curvature characteristic form|curvature characteristic class]]es in de Rham cohomology $H_{dR}^{n+1}(X)$ or even in [[ordinary differential cohomology]] $H_{diff}(X,\mathbf{B}^n U(1))$. This is the content of the [[∞-Chern-Weil homomorphism]].
+A _connection_ on a $G$-[[principal ∞-bundle]] in the [[cohesive (∞,1)-topos]] $\mathbf{H} =$ [[Smooth∞Grpd]] is a structure that serves to interpolate between the [[nonabelian cohomology]] class $c \in H(X, \mathbf{B}G)$ of tbe bundle and its intrinsic [[curvature characteristic form|curvature characteristic class]]es in [[de Rham cohomology]] $H_{dR}^{n+1}(X)$ or even in [[ordinary differential cohomology]] $H_{diff}(X,\mathbf{B}^n U(1))$. This is the content of the [[∞-Chern-Weil homomorphism]].
 
 This generalizes the notion of [[connection on a bundle]] and the ordinary [[Chern-Weil homomorphism]].
 
