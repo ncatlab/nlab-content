@@ -21,7 +21,9 @@
 
 If $C$ and $D$ are [[categories]], a **profunctor** from $C$ to $D$ is a [[functor]] $D^{op}\times C \to Set$.  Such a  profunctor is usually written as $F\colon  C &#8696; D$.
 
-Every [[functor]] $f\colon C\to D$ induces two profunctors $D(1,f)\colon C &#8696; D$ and $D(f,1)\colon D &#8696; C$, defined by $D(1,f)(d,c) = D(d,f(c))$ and $D(f,1)(c,d) = D(f(c),d)$.  These profunctors are called *representable* (or sometimes one of them is *corepresentable*). In particular the [[identity]] profunctor $Id \colon  C &#8696; C$ is represented by the identity functor and hence is given by the [[hom-functor]] $C(-,-) : C^{op} \times C \to Set$.
+Every [[functor]] $f\colon C\to D$ induces two profunctors $D(1,f)\colon C &#8696; D$ and $D(f,1)\colon D &#8696; C$, defined by $D(1,f)(d,c) = D(d,f(c))$ and $D(f,1)(c,d) = D(f(c),d)$.  These profunctors are called *representable* (or sometimes one of them is *corepresentable*). 
+
+In particular the [[identity]] profunctor $Id \colon  C &#8696; C$ is represented by the identity functor and hence is given by the [[hom-functor]] $C(-,-) : C^{op} \times C \to Set$.
 
 The notion generalizes to many other kinds of categories.  For instance, if $C$ and $D$ are [[enriched category|enriched]] over some symmetric [[closed monoidal category]] $V$, then a profunctor from $C$ to $D$ is a $V$-functor $D^{op} \otimes C\to V$.  If they are [[internal categories]], then a profunctor $C &#8696; D$ is an [[internal diagram]] on $D^{op}\times C$, and so on.  There are also other equivalent definitions in each case; see below.
 
@@ -41,16 +43,17 @@ $$
 
 This yields a [[bicategory]] in which
 
-* objects are categories,
+* [[objects]] are [[categories]],
 
-* morphisms are profunctors with the above composition, and
+* [[morphism]]s are profunctors with the above composition, and
 
-* 2-morphisms are natural transformations.
+* [[2-morphisms]] are [[natural transformation]]s.
 
-This bicategory is variously denoted $Prof$, $Mod$, or $Dist$, according to one's chosen name for profunctors.  In the enriched case, it is written $V Prof$ or $V Mod$ or $V Dist$.
+This bicategory is variously denoted $Prof$, $Mod$, or $Dist$, according to one's chosen name for profunctors.  In the $V$-enriched case, it is written $V Prof$ or $V Mod$ or $V Dist$.
 
 The construction of the "representable" profunctors $D(1,f)$ and $D(f,1)$ from a functor $f\colon C\to D$ yield two identity-on-objects functors $Cat \to Prof$ and $Cat^{op}\to Prof$.  Moreover, it is easy to check that $D(1,f) \vdash D(f,1)$ in the bicategory $Prof$; thus $Cat\to Prof$ is a [[proarrow equipment]] in the sense of Wood (in fact, the prototypical one).  This same fact can also be expressed by defining a (pseudo) [[double category]] in which functors and profunctors are the two kinds of arrows; the construction of representable profunctors is then given by [[companion]]s and [[conjoint]]s in this double category, which make it a [[framed bicategory]], hence an equivalent representation of a proarrow equipment.
 
+The [[full sub-2-category]] $Prof_{rep}$ on representable profunctors is equivalent to $Cat_{ana}$, the 2-category of [[anafunctor]]s. See there for more details.
 
 ## Alternative definitions ##
 
@@ -157,36 +160,25 @@ One can show that comma objects are always discrete fibrations, and dually cocom
 
 ## References ##
 
-_(what is a good  comprehensive reference?)_
+### Original sources
 
 The original _published_ source for profunctors is
 
-* Jean B&#233;nabou, _Les distributeurs_, Univesit&#233; Catholique de Louvain, Institut de Math&#233;matique Pure et Appliqu&#233;e,  rapport 33,  1973
+* [[Jean Bénabou,]] _Les distributeurs_, Univesit&#233; Catholique de Louvain, Institut de Math&#233;matique Pure et Appliqu&#233;e,  rapport 33,  1973
 
 based on several series of lectures starting in 1969, but these notes are hard to come by. They are available from the author by request. 
 
 [[Marta Bunge]] independently developed some of the theory of profunctors in her 1966 PhD thesis
 
-* _Categories of Set-Valued Functors_, University of Pennsylvania, 1966
+* [[Marta Bunge]], _Categories of Set-Valued Functors_, University of Pennsylvania, 1966
 
-based on suggestions by Lawvere, including the monograph
+based on suggestions by [[Bill Lawvere]], including the monograph
 
 * [[Michel Andre]], _Categories of Functors and Adjoint Functors_, Batelle Institute at Geneva, 1964
 
 There was a talk by [[Bill Lawvere]] at Oberwolfach in 1966, as well as one by Bunge, both of which mentioned profunctors in some way. There were notes taken by [[Anders Kock]] of Lawvere's talk, but there is only a passing mention of 'generalised functors' and their 'generalised matrix  multiplication' recorded.
 
-#### More modern references ####
-There is some exposition at
-
-* John Baez, _Re: Klein 2-Geometry VII_ ([blog](http://golem.ph.utexas.edu/category/2006/11/klein_2geometry_vii.html#c005985))
-
-The common generalization of [[bimodules]] and [[spans]] in terms of profunctors has been discussed on the blog at
-
-* John Baez, _Bimodules versus spans_ ([blog](http://golem.ph.utexas.edu/category/2008/08/bimodules_versus_spans.html))
-
-There is a discussion of profunctors in the recently republished:
-
-* J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
+### More recent accounts
 
 Excellent  notes from a course on distributors given by 
 Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher.
@@ -195,11 +187,26 @@ Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher
 
 A nice example of profunctors between Lawvere [[metric spaces]] can be found in [this comment](http://golem.ph.utexas.edu/category/2009/11/equipments.html#c029633).
 
-See the Catlab for the theory of $Set$-valued distributors:
+See the [[joyalscatlab:HomePage|Joyal's CatLat]] for the theory of [[Set]]-valued distributors:
 
-* [[joyalscatlab:HomePage|Joyal's CatLat]], _[[joyalscatlab:Distributors and barrels]]_
+* [[Andre Joyal]], _[[joyalscatlab:Distributors and barrels]]_
 
-***
+There is a discussion of profunctors in the recently republished:
+
+* J.-M. Cordier and [[Tim Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
+
+### Expositions
+
+There is some exposition of profunctors at
+
+* [[John Baez]], _Re: Klein 2-Geometry VII_ ([blog](http://golem.ph.utexas.edu/category/2006/11/klein_2geometry_vii.html#c005985))
+
+The common generalization of [[bimodules]] and [[spans]] in terms of profunctors has been discussed on the blog at
+
+* [[John Baez]], _Bimodules versus spans_ ([blog](http://golem.ph.utexas.edu/category/2008/08/bimodules_versus_spans.html))
+
+
+
 
 ## Notation ## {#notation}
 
