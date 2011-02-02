@@ -1,3 +1,4 @@
+[[!redirects connection on a principal infinity-bundle]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,32 +16,22 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A _connection_ on a $G$-[[principal ∞-bundle]] in the [[cohesive (∞,1)-topos]] $\mathbf{H} =$ [[Smooth∞Grpd]] is a structure that serves to interpolate between the [[nonabelian cohomology]] class $c \in H(X, \mathbf{B}G)$ of tbe bundle and its intrinsic [[curvature characteristic form|curvature characteristic class]]es in [[de Rham cohomology]] $H_{dR}^{n+1}(X)$ or even in [[ordinary differential cohomology]] $H_{diff}(X,\mathbf{B}^n U(1))$. This is the content of the [[∞-Chern-Weil homomorphism]].
+In every [[cohesive (∞,1)-topos]] there is an <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#ChernWeilTheory">intrinsic notion of ∞-Chern-Weil theory</a> that gives rise to a notion of _connection_ on [[principal ∞-bundle]]s. We describe here details of the realization of this general abstract structure in the cohesive $(\infty,1)$-topos [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s.
 
-This generalizes the notion of [[connection on a bundle]] and the ordinary [[Chern-Weil homomorphism]].
+For $G$ an [[∞-Lie group]], a _connection_ on a smooth $G$-[[principal ∞-bundle]] is a structure that supports the [[Chern-Weil homomorphism in Smooth∞Grpd]]: it interpolates between the [[nonabelian cohomology]] class $c \in H^1_{smooth}(X,G)$ of the bundle and its intrinsic [[curvature characteristic form|curvature characteristic class]]es in [[de Rham cohomology]] $H_{dR}^{n+1}(X)$ and furthermore in [[ordinary differential cohomology]] $H^n_{diff}(X,U(1))$. 
 
+This generalizes the  notion of [[connection on a bundle]] and the ordinary [[Chern-Weil homomorphism]] in [[differential geometry]].
 
-For $G$ a [[∞-Lie group]], a _connection_ on a $G$-[[principal ∞-bundle]] coming from a [[cocycle]] $g : X \to \mathbf{B}G$ is a lift of the cocycle to the  [[∞-groupoid of ∞-Lie-algebra valued forms]] $\mathbf{B}G_{conn}$
-
-$$
-  \array{
-     && \mathbf{B}G_{conn}
-     \\
-     & {}^{\mathllap{\nabla}}\nearrow & \downarrow
-     \\
-     X &\stackrel{g}{\to}& \mathbf{B}G
-  }
-$$
 
 ## Definition
 
+(...)
 
 We discuss now a generalization of the notion of [[connection on a bundle]] to [[∞-Lie algebra valued forms]]s on [[principal ∞-bundle]]s. It generalizes the notion of (pseudo-)connections on abelian $\infty$-bundles discussed at [[circle n-bundle with connection]] and serves to interpolate from a principal $\infty$-bundle to its [[curvature characteristic form]]s and hence to implement the [[∞-Chern-Weil theory|∞-Chern-Weil homomorphism]].
 
@@ -255,11 +246,84 @@ $$
 =--
 
 
+## Properties
 
-## Examples
+### Existence of $\infty$-connections
+
++-- {: .un_prop #ExistenceOfInftyConnections}
+###### Proposition
+**(existence of $\infty$-connections)**
+
+In $\mathbf{H} = $ [[nLab:?LieGrpd]] over a [[nLab:paracompact space|paracompact]] [[nLab:smooth manifold]] $X$, every $G$-[[nLab:principal ∞-bundle]] for $G = \tau_n \exp(\mathfrak{g})$ obtained from [[nLab:Lie integration]] admits a genuine $\infty$-connection.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the assumptions on $X$, there is a [[nLab:good open cover]] $\{U_i \to X\}$ and a [[nLab:partition of unity]] $(\rho_i \in C^\infty(U_i))$ subordinate to that cover. 
+
+Let $C(\{U_i\})$ be the [[nLab:Cech nerve]] of the cover and let $g : C(\{U_i\}) \to cosk_{n+1} \exp(\mathfrak{g})$ be a cocycle for the given $G$-principal $\infty$-bundle on $X$. This is given by a collection of [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]]
+
+$$
+  ( C^\infty(U_{i_0, \cdots i_k})\otimes \Omega^\bullet(\Delta^k) 
+  \leftarrow
+  CE(\mathfrak{g}) : \lambda_{i_0, \cdots, i_n})
+  \,.
+$$
+
+We need to extend these to a cocycle of differential forms
+
+$$
+  ( \Omega^\bullet(U_{i_0, \cdots i_k})\otimes \Omega^\bullet(\Delta^k) 
+  \leftarrow
+  W(\mathfrak{g}) : (\lambda_{i_0, \cdots, i_n},A_{i_0, \cdots, i_n})) 
+$$
+
+such that the curvature components have no leg along the simplices.  This constraint is hierarchy of systems of partial differential equations. consider first the $A_{i_0, \cdots, i_k}(\frac{\partial}{\partial u}, \{\frac{\partial}{\partial t_r}\})$ with exactly one leg along $U_{i_0, \cdots, i_k}$. For these the constraint is a system of differential equations of the schematic form
 
 
-* [[circle n-bundle with connection]]
+$$
+  \frac{\partial}{\partial t_r} A
+  =
+  d_U \lambda(\frac{\partial}{\partial t_r})
+  + 
+  [\lambda(\frac{\partial}{\partial t_r}), A]
+$$
+
+By the [[nLab:Bianchi identity]] and the fact that the curvature with all components along the simplex vabishes, it follows that this is an integrable system of partial differential equations. Fixing the boundary condition that $A$ vanishes in the $0$-corner of $\Delta^k$, this has a unique solution. $\hat A_{i_0, \cdots, i_k}$.
+
+Set then 
+
+$$
+  A_{i_1, \cdots, i_k} := \sum_{i_0} \rho_{i_0} \hat A_{i_0, \cdots, i_k}|_{\delta_0(\Delta^k)}
+  \,.
+$$
+
+
+The system of differential forms obtained this way does satisfy the cocycle condition and the curvature component with one leg along $U$ and the other legs along the simplices vanish:
+
+$$
+  \frac{\partial}{\partial t_r} 
+  A_{i_1, \cdots, i_k}
+  =
+  \frac{\partial}{\partial t_r} 
+\sum_{i_0} \rho_{i_0}  \hat A_{i_0, \cdots, i_k}
+  =
+  \sum_{i_0} \rho_{i_0} d_U \lambda(\frac{\partial}{\partial t_r})
+  + 
+  [\lambda(\frac{\partial}{\partial t_r}), \sum_{i_0} \rho_{i_0} \hat A_{i_0, \cdots, i_k}]
+  =
+  d_U \lambda(\frac{\partial}{\partial t_r})
+  + 
+  [\lambda(\frac{\partial}{\partial t_r}), A_{i_1, \cdots, i_k}]
+  \,.
+$$
+
+Next continue iteratively in the above fashion, by induction on the number of legs of the forms along $U$.
+
+=--
+
 
 
 ## Related concepts
@@ -303,3 +367,6 @@ The global description is discussed in
 
 [[!redirects connections on ∞-bundles]]
 [[!redirects connections on infinity-bundles]]
+
+[[!redirects connection on a smooth principal ∞-bundle]]
+[[!redirects connections on smooth principal ∞-bundles]]
