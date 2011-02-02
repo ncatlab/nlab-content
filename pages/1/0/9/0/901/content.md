@@ -167,7 +167,7 @@ $$
 
 ## In higher category theory
 
-### In $(\infty,1)$-catgeories 
+### In $(\infty,1)$-categories 
 
 There is a notion of [[ind-object in an (∞,1)-category]].
 
@@ -194,15 +194,14 @@ Ind-categories are discussed in
 
 * Grothendieck et al. SGA4.I.6 [djvu file](http://modular.math.washington.edu/sga/djvu/SGA4-1.tif.djvu)
 
-* A. Grothendieck, Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie
-alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules, Seminaire
-Bourbaki, 195, 1960.
+* A. Grothendieck, _Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, Seminaire Bourbaki __195__, 1960.
 
 See also the remarks at the beginning of section 5.3 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-
+[[!redirects ind-objects]]
+[[!redirects ind object]]
 
 
 
