@@ -302,7 +302,7 @@ Ordinary Chern-Weil theory is formulated in the context of [[differential geomet
 
 In every $(\infty,1)$-topos that admits a notion of differential cohomology,  there is a general abstract notion of refinement of [[characteristic class]]es in [[cohomology]] to [[curvature characteristic forms|curvature characteristic classes]] in [[ordinary differential cohomology]]. 
 
-The main construction in ∞-Chern-Weil theory is a concrete _model_ or _presentation_ of this abstract operation. This model is constructed in terms of [[Lie integration]] of objects in [[∞-Lie algebra cohomology]]. This construction is the higher analog of the [[Chern-Weil homomorphism]]. Its crucial intermediate step is the definition and construction of _$\infty$-connections_ on [[principal ∞-bundle]]s. 
+The main construction in ∞-Chern-Weil theory is a concrete _model_ or _presentation_ of this abstract operation. This model is constructed in terms of [[Lie integration]] of objects in [[∞-Lie algebra cohomology]]. This construction is the higher analog of the [[Chern-Weil homomorphism]]. Its crucial intermediate step is the definition and construction of _[[connection on an ∞-bundle|∞-connections]]_ on [[principal ∞-bundle]]s. 
 
 This model itself is after all built on concrete familiar constructions in [[differential geometry]] and can be studied and appreciated in itself without recourse to the higher topos theory that we claim it provides a model for. The so inclined reader can ignore all the general abstract discussion in the following and concentrate on the concrete differential geometry. 
 
@@ -334,7 +334,7 @@ However, unwinding the abstract higher topos theoretic concepts in terms of 1-ca
 
 ## $\infty$-Chern-Weil theory {#ChernWeil}
 
-For $G,A$ [[nLab:∞-group]]s in an [[nLab:∞-connected (∞,1)-topos]] $\mathbf{H}$ with [[nLab:delooping]]s $\mathbf{B}G$ and $\mathbf{B}A$, respectively, every [[nLab:characteristic class]] $c : \mathbf{B}G \to A$ serves to pull back the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#GroupalCurvature">canonical intrinsic curvature form</a> $curv_A : A \to \mathbf{\flat}_{dR} \mathbf{B}A$ to an <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">intrinsic differential form</a> $curv_A\circ c  : \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}A$ on $\mathbf{B}G$. 
+For $G,A$ [[nLab:∞-group]]s in an [[∞-connected (∞,1)-topos]] $\mathbf{H}$ with [[nLab:delooping]]s $\mathbf{B}G$ and $\mathbf{B}A$, respectively, every [[nLab:characteristic class]] $c : \mathbf{B}G \to A$ serves to pull back the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#GroupalCurvature">canonical intrinsic curvature form</a> $curv_A : A \to \mathbf{\flat}_{dR} \mathbf{B}A$ to an <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">intrinsic differential form</a> $curv_A\circ c  : \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}A$ on $\mathbf{B}G$. 
 
 For $G$ an ordinary [[nLab:Lie group]] regarded naturally as an object in $\mathbf{H} = $ [[nLab:?LieGrpd]], we show that the ordinary [[nLab:Chern-Weil homomorphism]] for $G$-[[nLab:principal bundle]]s may be understood as a concrete _model_ for this simple abstract situation, which applies to those characteristic classes $c$ that happen to be in the image of the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie intgeration of Lie algebra cocycles</a>.
 
@@ -719,7 +719,7 @@ $$
   \,.
 $$
 
-Since our ambient [[nLab:(∞,1)-topos]] is assumed to be [[nLab:locally ∞-connected (∞,1)-topos|locally ∞-connected]] we have in addition to the notion of [[nLab:Postnikov tower in an (∞,1)-category]] the notion of [[nLab:Whitehead tower in an (∞,1)-topos]]. Both notions are dual to each other: for $A \in \mathbf{H}$ any object and 
+Since our ambient [[(∞,1)-topos]] is assumed to be [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] we have in addition to the notion of [[Postnikov tower in an (∞,1)-category]] the notion of [[nLab:Whitehead tower in an (∞,1)-topos]]. Both notions are dual to each other: for $A \in \mathbf{H}$ any object and 
 
 $$
   \mathbf{\Pi}(A)
