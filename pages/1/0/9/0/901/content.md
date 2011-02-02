@@ -75,7 +75,7 @@ $$
   \,.
 $$
 
-### As filtered colimits in presheaves 
+### As filtered colimits of representable presheaves 
 
 Recall the [[co-Yoneda lemma]] that every presheaf $X \in PSh(C)$ is a [[colimit]] over [[representable functor|representable presheaves]]:
 
@@ -86,6 +86,8 @@ $$
   X \simeq colim_{d \in D} Y(\alpha(d))
   \,.
 $$
+
+
 
 +-- {: .un_defn}
 ###### Definition
