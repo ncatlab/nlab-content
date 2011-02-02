@@ -159,7 +159,7 @@ One can show that comma objects are always discrete fibrations, and dually cocom
 
 _(what is a good  comprehensive reference?)_
 
-The original published source for profunctors is
+The original _published_ source for profunctors is
 
 * Jean B&#233;nabou, _Les distributeurs_, Univesit&#233; Catholique de Louvain, Institut de Math&#233;matique Pure et Appliqu&#233;e,  rapport 33,  1973
 
