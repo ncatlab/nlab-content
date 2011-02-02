@@ -311,6 +311,11 @@ An elementary introduction for CE-algebras of Lie algebras is at the beginning o
 
 * J. A. de Azcarraga, J. M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv](http://arxiv.org/abs/physics/9803046))
 
+More details are in section 6.7 of
+
+J. A. de Azc&#225;rraga, Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+
+See also almost any text on [[Lie algebra cohomology]] (see the list of references there).
 
 [[!redirects Chevalley--Eilenberg algebra]]
 [[!redirects Chevalley?Eilenberg algebra]]
