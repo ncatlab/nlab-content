@@ -74,13 +74,13 @@ In the context of the Haag-Kastler axioms there is a precise theorem, the [[Oste
 
 A good account of the mathematical axiomatics of Haag-Kastler AQFT is
 
-* Hans Halvorson, Michael M&#252;ger, _Algebraic Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/math-ph/0602036))
+* [[Hans Halvorson]], [[Michael Müger]], _Algebraic Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/math-ph/0602036))
 
 This is, among other things, the ideal starting point for pure mathematicians who have always been left puzzled or otherwise unsatisfied by accounts of quantum field theory, even those tagged as being "for mathematicians". AQFT is truly axiomatic and rigorously formal. 
 
 An account written by mathematicians for mathematicians is this:
 
-* Hellmut Baumg&#228;rtel, Manfred Wollenberg: _Causal nets of operator algebras._ Berlin: Akademie Verlag 1992 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038&format=complete))
+* Hellmut Baumg&#228;rtel, Manfred Wollenberg, _Causal nets of operator algebras._ Berlin: Akademie Verlag 1992 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038&format=complete))
 
 and this:
 
@@ -88,7 +88,7 @@ and this:
 
 There is much more literature one should point to here, eventually. For instance for the connection between the AQFT axioms and the perturbative Feynman-integral techniques much used in [[quantum field theory]], see
 
-* Romeo Brunetti, Michael Duetsch, Klaus Fredenhagen, _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ ([arXiv](http://arxiv.org/abs/0901.2038))
+* [[Romeo Brunetti]], Michael Duetsch, [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ ([arXiv](http://arxiv.org/abs/0901.2038))
 
 Out of laziness for the moment I point for further references and more background to the introductory section of 
 
@@ -96,4 +96,4 @@ Out of laziness for the moment I point for further references and more backgroun
 
 Recent account of the principle of locality in AQFT from the point of view of traditional school
 
-* Sergio Doplicher, _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi](http://dx.doi.org/10.1063/1.3276100)
+* [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi](http://dx.doi.org/10.1063/1.3276100)
