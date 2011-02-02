@@ -95,7 +95,7 @@ See the corollary on p. 2 of ([Munkres](#Munkres)).
 
 * V. Ozols, _Largest normal neighbourhoods_ 
 Proceedings of the American Mathematical Society
-Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/2041672))
+Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/2041672)) ([AMS: pdf](http://www.ams.org/journals/proc/1976-061-01/S0002-9939-1976-0431220-4/S0002-9939-1976-0431220-4.pdf))
 {#Ozols}
 
 * James Munkres, _Obstructions to the smoothing of piecewise-differentiable homeomorphisms_  Bull. Amer. Math. Soc. Volume 65, Number 5 (1959), 332-334.  ([web](http://projecteuclid.org/euclid.bams/1183523321))
