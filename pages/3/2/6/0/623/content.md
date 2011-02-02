@@ -134,7 +134,7 @@ The **alternating face map complex** $C A$ of $A$ is
 * in degree $n$ given by the group $A_n$ itself
 
   $$
-    (C A)_n := A
+    (C A)_n := A_n
   $$
 
 
