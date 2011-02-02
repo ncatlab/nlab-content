@@ -132,7 +132,13 @@ $$
 gives a 2-sub-$(\infty,1)$-category $K$ of $X$ (where both happen to be $\infty$-groupoids) here.
 
 
+## Related concepts
 
+* [[full subcategory]]
+
+* [[full sub-2-category]]
+
+* **full sub-(∞,1)-category**
 
 ## References
 
@@ -155,3 +161,8 @@ What we call a 2-subcategory of an $(\infty,1)$-category appears in  section 1.2
 
 [[!redirects sub-(∞,1)-categories]]
 [[!redirects sub-(infinity,1)-categories]]
+
+[[!redirects full sub-(∞,1)-category]]
+[[!redirects full sub-(infinity,1)-category]]
+[[!redirects full sub-(∞,1)-categories]]
+[[!redirects full sub-(infinity,1)-categories]]
