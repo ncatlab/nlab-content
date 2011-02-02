@@ -24,7 +24,7 @@ An _anafunctor_ $F\colon C \to D$ is a generalized [[functor]].
 
 A basic fact in ordinary [[category theory]] is that a [[functor]] $f\colon C \to D$ is an [[equivalence of categories]] -- in that there is a functor $g\colon D \to C$ and natural isomorphisms $f \circ g \simeq Id_D$ and $g \circ f \simeq Id_C$ -- if and only if it is a [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  However, the "if" part of this statement depends crucially on the [[axiom of choice]]: the functor $g$ is obtained by _choosing_  for each [[object]] $d \in D$ an object $c \in C$ such that $f(c) \simeq d$.  In fact, the statement that "every fully faithful and essentially surjective functor is an equivalence of categories" is equivalent to the axiom of choice.
 
-The notion of *anafunctor* is a generalization of the usual notion of *functor*, which enables us to recover a version of this statement without the axiom of choice.  It was first studied in detail by [[Michael Makkai]] with foundational concerns in mind, although it also appears unnamed in a 1963 paper of Kelly (_Complete functors in homology I_) on homological algebra.  Later, they were applied by [[Toby Bartels]] to [[internal category|internal categories]], where the axiom of choice is simply not an option.  These "internal anafunctors" actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum-Skandalis morphism]]s between [[Lie groupoid]]s.
+The notion of *anafunctor* is a generalization of the usual notion of *functor*, which enables us to recover a version of this statement without the axiom of choice.  It was first studied in detail ([Makkai](#Makkai)) with [[foundations|foundational concerns]] in mind, although it also appears unnamed in ([Kelly](#Kelly)). Later, they were applied by [[Toby Bartels]] to [[internal category|internal categories]], where the axiom of choice is simply not an option.  These "internal anafunctors" actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum-Skandalis morphism]]s between [[Lie groupoid]]s.
 
 We present three motivations and applications of anafunctors: 
 
@@ -245,10 +245,17 @@ _Urs says:_ I haven't checked the details. But he is looking at derived homs of 
 
 ## References
 
-The term "anafunctor" was intrroduced by Michael Makkai in
-
+The term "anafunctor" was introduced by Michael Makkai in
 
 * Makkai, [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/) 
+{#Makkai}
+
+The concept alsoappears, unnamed, in the article
+
+[[Max Kelly]], _Complete functors in homology I_ (1963) 
+{#Kelly}
+
+on [[homological algebra]].  
 
 The popularity of the term was notably pushed by [[Toby Bartels]], who considered [[internalization]]s of Makkai's definition in
 
@@ -271,27 +278,6 @@ Closely related, still a bit more general, are the considerations in
 * Jardine, _Cocycle categories_ K-theory 0782 ([web](http://www.math.uiuc.edu/K-theory/0782/)) ([pdf](http://www.math.uiuc.edu/K-theory/0782/coc-cat3.pdf))
 
 
-## Discussion
-
-The following discussion was about the effect of different notions of [[coverage]] on the definition of and operations on anafunctors.
-
-+-- {: .query}
-[[David Roberts]] says: If one uses a coverage, then composing anafunctors means a choice has to be made in the filler of $U \to D_0 \leftarrow V$ with the right map a cover. Presumably the resulting bicategory of anafunctors is independent, up to biequivalence, of the choices made. Also, at the very least the identity map has to be a cover, so as to define the identity anafunctor. 
-
-DR says: Well I suppose we could follow Makkai's philosophy twice and have a composition anafunctor (in the original sense) for composing anafunctors (in the internal sense) and end up with an anabicategory.
-
-_Mike_: Yes, presumably it won't depend on the fillers chosen; I haven't checked the details, though.  "Grothendieck coverage" means the same as "Grothendieck topology" and thus includes closure under lots of things, including composition and containing identities.
-
-_David R_: I noticed the adjective Grothendieck in the preceeding sentence half-way through asking the question, but I think my point still holds for general coverages, without the closure properties.
-
-_Mike_: Well, as you pointed out, you need at least identity maps to be covers to have identity anafunctors, and you need covers to be stable under composition, as well as pullback, in order to define composition of anafunctors.  An arbitrary coverage might not satisfy those, although pretty much any coverage arising in practice does.  The other point that a choice has to be made unless you have honest pullback-stability is certainly true.  So probably the most natural-feeling context in which to work is a (possibly singleton) [[Grothendieck pretopology]].  I would be happy for this page to ignore the case where covers don't have pullbacks; I did some rewriting above to reflect this discussion.  I think this discussion could now be deleted; feel free to do so if you agree.
-
-_David R_: After some thought, one could do without _the_ identity anafunctor, and be satisfied with a anafunctor (of the external variety) giving the identity: $1 \to Ana(X,X)$. I think I should move this discussion to a section of its own, and develop these ideas there. As an aside, I think I saw an example of a non-Grothendieck coverage in John and Alex's [[generalized smooth space|smooth spaces]] paper.
-
-_Toby_: You only get an anabicategory anyway, because of the choice of pullbacks (unless the structure of the coverage fixes these, as can be done in $Set$).
-
-Anafunctors really should make sense in any [[site]] whatsoever (as long as we can compose ananatural transformations, which I guess we can if the site is subcanonical).  The trick of getting away with single maps (as one can do, for example, in a superextensive site) is not really necessary.  In fact, using a coverage makes the definitions, while more complicated, really look more natural in topological categories.
-=--
 
 
 [[!redirects anafunctor]]
