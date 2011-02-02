@@ -163,7 +163,7 @@ The original _published_ source for profunctors is
 
 * Jean B&#233;nabou, _Les distributeurs_, Univesit&#233; Catholique de Louvain, Institut de Math&#233;matique Pure et Appliqu&#233;e,  rapport 33,  1973
 
-but these notes are hard to come by. They are available from the author by request.
+based on several series of lectures starting in 1969, but these notes are hard to come by. They are available from the author by request. 
 
 [[Marta Bunge]] independently developed some of the theory of profunctors in her 1966 PhD thesis
 
@@ -171,10 +171,11 @@ but these notes are hard to come by. They are available from the author by reque
 
 based on suggestions by Lawvere, including the monograph
 
-* Michel Andre, _Categories of Functors and Adjoint Functors_, Batelle Institute at Geneva, 1964
+* [[Michel Andre]], _Categories of Functors and Adjoint Functors_, Batelle Institute at Geneva, 1964
 
-There was a talk by [[Bill Lawvere]] at Oberwolfach in 1966, as well as one by Bunge, both of which mentioned profunctors in some way ([[David Roberts|DR]] - _need some more details here_)
+There was a talk by [[Bill Lawvere]] at Oberwolfach in 1966, as well as one by Bunge, both of which mentioned profunctors in some way. There were notes taken by [[Anders Kock]] of Lawvere's talk, but there is only a passing mention of 'generalised functors' and their 'generalised matrix  multiplication' recorded.
 
+#### More modern references ####
 There is some exposition at
 
 * John Baez, _Re: Klein 2-Geometry VII_ ([blog](http://golem.ph.utexas.edu/category/2006/11/klein_2geometry_vii.html#c005985))
