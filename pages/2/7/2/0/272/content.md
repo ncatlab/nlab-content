@@ -28,9 +28,10 @@ One may roughly think of AQFT as being a formalization of what in basic [[quantu
 
 The axioms of traditional AQFT encode the properties of a [[local net]] of observables and are called the [[Haag-Kastler axioms]]. They are one of the oldest systems of axioms that seriously attempt to put [[quantum field theory]] on a solid conceptual footing. 
 
-From the [[nPOV]] we may think of a [[local net]] as a co-flabby [[presheaf|copresheaf]] of [[algebra|algebras]] on spacetime which satisfies a certain _locality_ axiom with respect to the Lorentzian structure of spacetime: 
+From the [[nPOV]] we may think of a [[local net]] as a co-flabby [[presheaf|copresheaf]] of [[algebra|algebras]] on spacetime which satisfies a certain _locality_ axiom with respect to the 
+[[smooth Lorentzian manifold|Lorentzian structure]] of [[spacetime]]: 
 
-* locality: algebras assigned to spacelike separated regions commute with each other when embedded into any joint superalgebra.
+* **locality:** algebras assigned to spacelike separated regions commute with each other when embedded into any joint superalgebra.
 
 This is traditionally formulated (implicitly) as a structure in ordinary [[category theory]]. More recently, with the proof of the [[cobordism hypothesis]] and the corresponding [[(∞,n)-category]]-formulation of [[FQFT]] also [[higher category theory|higher categorical]] versions of systems of local algebras of observables are being put forward and studied. Three structures are curently being studied, that are all conceptually very similar and similar to the Haag-Kastler axioms:
 
