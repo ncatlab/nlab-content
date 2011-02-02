@@ -8,15 +8,6 @@
 =--
 =--
 
-* [[functor]]
-
-* **2-functor** / [[pseudofunctor]]
-
-* [[n-functor]]
-
-* [[(∞,1)-functor]]
-
-***
 
 #Contents#
 * table of contents
@@ -37,6 +28,18 @@ Compare [[lax 2-functor]], which should *not* be called simply 'functor' (althou
 It usually doesn\'t make sense to speak of strict $2$-functors between weak $2$-categories[^1], but it does make sense to speak of weak $2$-functors between strict $2$-categories.  Indeed, the weak $3$-[[3-category|category]] [[Bicat]] of bicategories, pseudofunctors, [[pseudonatural transformations]], and [[modifications]] is  [[equivalence of categories|equivalent]] to its full sub-3-category spanned by the strict 2-categories.  However, it is not equivalent to the $3$-category [[Str2Cat]] of strict $2$-categories, *strict* $2$-functors, transformations, and modifications.
 
 For the generalisation of this to higher categories, see [[semistrict higher category]].
+
+## Related concepts
+
+* [[functor]]
+
+* **2-functor** / [[pseudofunctor]]
+
+* [[n-functor]]
+
+* [[(∞,1)-functor]]
+
+
 
 [^1]: Although there are certain contexts in which it does.  For instance, there is a [[model structure]] on the category of [[bicategories]] and strict 2-functors between them, which models the homotopy theory of bicategories and weak 2-functors.
 
