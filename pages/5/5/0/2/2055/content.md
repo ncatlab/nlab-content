@@ -17,8 +17,7 @@ For a quick introduction to math blogging, see
 
   blog discussion about this piece: [Part I](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html) and [Part II](http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.html)
 
-See also [MO question: most helpful math resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web).
-
+See also [MO question: most helpful math resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web) and the directory of many math blogs with update information [www.mathblogging.org](http://www.mathblogging.org).
 
 +-- {: .standout}
 
@@ -70,7 +69,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 ### Forums
 
 
-* [Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/) and [daughters](http://stackexchange.com) of &lt;http://area51.stackexchange.com>, including [math.stackexchange](http://math.stackexchange.com) dedicated to lower level math questions ("MathUnderflow"), [tex.stackexchange](http://tex.stackexchange.com) about TeX and LaTeX. Similar [physicsoverflow.com](http://physicsoverflow.com) is not very active yet.
+* [Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/) and [daughters](http://stackexchange.com) of &lt;http://area51.stackexchange.com>, including [math.stackexchange](http://math.stackexchange.com) dedicated to lower level math questions ("MathUnderflow"), [tex.stackexchange](http://tex.stackexchange.com) about TeX and LaTeX. Similar [physicsoverflow.com](http://physicsoverflow.com) is not very active yet. 
 
 * [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) For discussions about material (both maths and metas) here on the nLab.
 
