@@ -24,10 +24,10 @@ Where a [[string structure]] is a trivialization of a class in [[integral cohomo
 the first fractional [[Pontryagin class]] 
 
 $$
-  \frac{1}{2} p_1 : \mathcal{B}Spin \to \mathcal{B}^4 \mathbb{Z}
+  \frac{1}{2} p_1 : B Spin \to B^4 \mathbb{Z}
 $$ 
 
-in the [[(∞,1)-topos]] $\mathbf{H} = $ [[∞Grpd]] $\simeq$ [[Top]] has a refinement to $\mathbf{H} = $ [[?LieGrpd]] of the form 
+in the [[(∞,1)-topos]] [[∞Grpd]] $\simeq$ [[Top]] has a refinement to $\mathbf{H} = $ [[Smooth∞Grpd]] of the form 
 
 $$
   \frac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)
@@ -35,7 +35,7 @@ $$
 
 -- the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothFirstFracPontryaginClass">smooth first fractional Pontryagin class</a>.
 
-The induced morphism
+The induced morphism on [[cocycle]] [[∞-groupoid]]s
 
 $$
   \frac{1}{2}\mathbf{p}_1
@@ -47,9 +47,11 @@ $$
 
 sends a [[spin group]]-[[principal bundle]] $P$ to its corresponding [[Chern-Simons circle 3-bundle]] $\frac{1}{2}\mathbf{p}_1(P)$.
  
-A choice of trivialization of $\frac{1}{2}p_1(P)$ is a [[string structure]]. The 2-groupoid of smooth string structures is the [[homotopy fiber]] of $\frac{1}{2}\mathbf{p}_1$.
+A choice of trivialization of $\frac{1}{2}p_1(P)$ is a [[string structure]]. The [[2-groupoid]] of smooth string structures is the [[homotopy fiber]] of $\frac{1}{2}\mathbf{p}_1$.
 
-By [[Chern-Weil theory]] this morphism may be further refined to land in [[ordinary differential cohomology]] $\mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))$, classifying [[circle n-bundle with connection|circle 3-bundles with connection]]. The [[2-groupoid]] of **differential string structures** is the homotopy fiber of this refinement
+By [[Chern-Weil theory in Smooth∞Grpd]] this morphism may be further refined to a morphism $\frac{1}{2}\hat \mathbf{p}_1$ that lands in [[ordinary differential cohomology]] 
+$\mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))$, 
+classifying [[circle n-bundle with connection|circle 3-bundles with connection]]
 
 $$
   \frac{1}{2}\hat \mathbf{p}_1
@@ -58,6 +60,8 @@ $$
   \stackrel{}{\to}
   \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
 $$
+
+The [[2-groupoid]] of **differential string structures** is the [[homotopy fiber]] of this refinement $\frac{1}{2}\hat \mathbf{p}_1$.
 
 Such a differential string structure is represented by a tuple consisting of
 
@@ -78,7 +82,40 @@ More generally, one can consider the [[homotopy fiber]]s of $\frac{1}{2}\hat \ma
 
 ## Definition {#Definition}
 
-Let 
+We assume the reader is familiar with basics of the discussion at [[Smooth∞Grpd]]. We often write $\mathbf{H} := Smooth \infty Grpd$ for short.
+
+Let $Spin \in $ [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] be the [[Spin group]], rgarded as a [[Lie group]] and thus canonically as an [[∞-group]] object in [[Smooth∞Grpd]]. Write $\mathbf{B}G$ for its [[delooping]] in [[Smooth∞Grpd]]. (See the discussion <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#LieGroups">here</a>). 
+
+Let $\mathbf{B}^2 U(1) in Smooth \infty Grpd$ be the <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">circle Lie 3-group</a> and $\mathbf{B}^3$ its [[delooping]].
+
+At [[Chern-Weil theory in Smooth∞Grpd]] the following statement is proven 
+
++-- {: .un_prop }
+###### Proposition
+
+The image under [[Lie integration]] of the canonical [[Lie algebra cohomology|Lie algebra 3-cocycle]]
+
+$$
+  \mu : \mathfrak{so} \to b^2 \mathbb{R}
+$$
+
+on the [[semisimple Lie algebra]] of the [[Spin group]] -- the [[special orthogonal Lie algebra]] -- is the morphism in [[Smooth∞Grpd]] of the form
+
+$$
+  \frac{1}{2} \mathbf{p}_1 : 
+  \mathbf{B}Spin
+    \to
+  \mathbf{B}^3 U(1)
+$$
+
+whose image under the <a href="http://nlab.mathforge.org/nlab/show/Euclidean-topological%20infinity-groupoid#GeometricHomotopy">the fundamental ∞-groupoid ?functior/ geometric realization</a> $\Pi : Smooth \infty Grpd \to \infty Grpd$ is the ordinary fractional [[Pontryagin class]]
+
+$$
+  \frac{1}{2}p_1 : B Spin \to B^4 \mathbb{Z}
+  \,.
+$$
+
+Moreover, the corresponding <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#ChernWeilTheory">refined differential characteristic class</a> 
 
 $$
   \frac{1}{2}\hat p_1 : 
@@ -87,39 +124,50 @@ $$
   \mathbf{H}_{diff}(-, \mathbf{B}^3 U(1))
 $$
 
-be the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothFirstFracPontryaginClass">smooth first fractional Pontryagin class</a>.
+is in [[cohomology]] the corresponding refined [[Chern-Weil homomorphism]]
+
+$$
+  [\frac{1}{2}\hat \mathbf{p}_1] : 
+  H^1_{Smooth}(X,Spin) \to H_{diff}^3(X)
+$$
+
+with values in [[ordinary differential cohomology]].
+
+
+=--
 
 
 +-- {: .un_def }
 ###### Definition
 
-For any $X \in \mathbf{H} :=$ [[nLab:?LieGrpd]], the [[2-groupoid]]  of **differential string-structures** $String_{diff}(X)$ is the [[nLab:homotopy fiber]] of  $\frac{1}{2}\mathbf{p}_1(X)$ over the trivial differential cocycle.
+For any $X \in $ [[Smooth∞Grpd]], the [[2-groupoid]]  of **differential string-structures** on $X$ -- $String_{diff}(X)$ -- is the [[homotopy fiber]] of  $\frac{1}{2}\hat \mathbf{p}_1(X)$ over the trivial differential cocycle.
 
-More generally, following the general definition of [[twisted cohomology]] -- the 2-groupoid of **twisted differential string structures** is the [[(∞,1)-pullback]] $String_{diff,tw}(X)$ in
+More generally (see [[twisted cohomology]]) the 2-groupoid of **twisted differential string structures** is the [[(∞,1)-pullback]] $String_{diff,tw}(X)$ in
 
 $$
   \array{
-    String_{diff,tw}(X) &\to& H_{diff}(X,\mathbf{B}^3 U(1))
+    String_{diff,tw}(X) &\to& H_{diff}^3(X)
     \\
     \downarrow && \downarrow
     \\
     \mathbf{H}_{conn}(X,\mathbf{B}Spin)
-    &\stackrel{\frac{1}{2}\hat \mathbf{p}_1}{\to}&
+      &\stackrel{\frac{1}{2}\hat \mathbf{p}_1}{\to}&
     \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
   }
   \,,
 $$
 
-where $H_{diff}(X,\mathbf{B}^3 U(1))$ is the set of connected components of $\mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))$ and where the right vertical morphism picks one object in each connected component.
+where the right vertical morphism picks one (any) point  in each [[connected component]] of the [[cocycle]] [[∞-groupoid]] $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ (the [[homotopy type]] of the [[(∞,1)-pullback]] is independent of this choice).
 
 =--
+
 
 +-- {: .un_remark }
 ###### Remark
 
-In terms of just the underlying $\infty$-Lie algebra valued local connection data, i.e. before Lie integration as discussed [below](#ChernWeilTheory), this has been considered in ([SSSIII](#SSSIII)).
+In terms of just the underlying [[L-∞ algebra]] valued local connection data this has been considered in ([SSSIII](#SSSIII)), as we shall discuss [below](#ChernWeilTheory),
 
-For the case where the twist is given just by globally defined 3-forms, i.e. by  trivial 2-gerbes with connection, essentially this definition, explicitly modeled on [[bundle 2-gerbe]]s, has been given in ([Waldorf](#Waldorf)).
+For the case where the twist is given by globally defined 3-forms, i.e. by  trivial [[2-gerbe]]s with connection, essentially this definition, explicitly modeled on [[bundle 2-gerbe]]s, has been given in ([Waldorf](#Waldorf)).
 
 =--
 
@@ -522,16 +570,21 @@ A discussion of differential string structures in terms of [[bundle 2-gerbe]]s i
 * [[Konrad Waldorf]], _String Connections and Chern-Simons Theory_ ([arXiv:0906.0117](http://arxiv.org/abs/0906.0117))
 {#Waldorf}
 
-The [[∞-Lie algebra cohomology]]-data for the description of twisted differential string structures in terms of [[∞-Chern-Weil homomorphism]] is in 
+The [[∞-Lie algebra cohomology]]-data for the description of twisted differential string structures in terms of [[Chern-Weil homomorphism in Smooth∞Grpd]] was given in 
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential string and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#SSSIII">web</a>)
 {#SSSIII}
 
-The full cocycles are described in
+The full Cech-Deligne cocycles induced by this wee produced in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cocycles for differential characteristic classes_ (
 <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+%28%E2%88%9E%2C1%29-topos+--+references#FSS">web</a>)
 
+An attempt at a comprehensive discussion is at
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+in section 4.2.
 
 [[!redirects differential string structures]]
 
