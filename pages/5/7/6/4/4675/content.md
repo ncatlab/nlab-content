@@ -137,7 +137,7 @@ with values in [[ordinary differential cohomology]] that corresponds to the [[Ki
 =--
 
 
-+-- {: .un_def }
++-- {: .un_def #DifferentialStringStructure}
 ###### Definition
 
 For any $X \in $ [[Smooth∞Grpd]], the [[2-groupoid]]  of **differential string-structures** on $X$ -- $String_{diff}(X)$ -- is the [[homotopy fiber]] of  $\frac{1}{2}\hat \mathbf{p}_1(X)$ over the trivial differential cocycle.
@@ -373,8 +373,9 @@ Where the formula for the differential of $W(b\mathbb{R}\to \mathfrak{g}_\mu)$ h
 
 
 
-+-- {: .un_prop }
++-- {: .un_prop #PresentationByFibration}
 ###### Proposition
+**(presentation of the differential class by a fibration)**
 
 Under [[Lie integration]] 
 the [above factorization](#FactorizationOfTheCocycle)
@@ -415,7 +416,8 @@ Now for
 
 $$
   \array{
-     \Lambda[3]^i &\stackrel{(f,B)}{\to} & \exp(b \mathbb{R} \to \mathfrak{g})
+     \Lambda[3]^i &\stackrel{(f,B)}{\to} & 
+      \mathbf{cosk}_3\exp(b \mathbb{R} \to \mathfrak{g})
      \\
      \downarrow && \downarrow
      \\
@@ -427,56 +429,78 @@ a lifting problem, with $c \in U(1)$, and $f : \Lambda[3]^i \to D^2 \to G$ a map
 
 pick any 2-form $B_2$ on $D^2$ with sitting instants that matches $B$ at the boundary and then goes smoothly to 0 away from the boundary and becomes non-vanishing $B_2^{inn} \in \Omega^2(U \subset D^2)$ with non-vanishing surface integral in the interior of $D^2$. Together with $B$ this gives a smooth 2-form on $S^2$. By letting this smoothly decay to 0 radially along $D^3$ it can always be extended to $D^3$. By rescaling $B_2^{inn}$ appropriately, any integral value can be obtained. And this construction evidently goes through for $U$-parameterized families of this problem.
 
-Now we need to extend this construction from vertical forms to connection forms.
+To get a full lift to the differential coefficients we need to extend this construction from vertical forms to connection forms.
 
-Given the above, $B$ and $CS(A)$ are fixed un $U \times D^3$ and $K$ is fixed by the extension problem. Then the equation $d B = CS + C - K$ in $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ may be uniquely solved for $C$ over all of $D^3$. By the very nature of the differential in $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ its diffeential is guaranteed to be horizontal: it is
+Given the above, $B$ and $CS(A)$ are fixed on $U \times D^3$ and $K$ is fixed by the extension problem. Then the equation $d B = CS + C - K$ induced by the differential in  $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ may be uniquely solved for $C$ over all of $D^3$. By the very nature of the differential in $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ its differential is guaranteed to be horizontal: it is
 
 $$
   d C = L - \langle F_A \wedge F_A \rangle
   \,.
 $$
 
-The first term $L = d K$ is horizontal because it is so by definition of the extension problem (this is the datum of the 3-cell in $\exp(b^2 \mathbb{R})_{ChW}(U)$).
-
-The second term is the pullback along the chosen [[retract]]ion $D^3 \to D^2$ of the Killing form curvature characteristic of the $\mathfrak{g}$-valued form $A$ on $U \times D^2$. Since it is horizontal there by definition, so its its pullback.
+The first term $L = d K$ is horizontal because it is so by definition of the extension problem (this is the datum of the 3-cell in $\exp(b^2 \mathbb{R})_{ChW}(U)$). The second term is the pullback along the chosen [[retract]]ion $D^3 \to D^2$ of the Killing form curvature characteristic of the $\mathfrak{g}$-valued form $A$ on $U \times D^2$. Since it is horizontal there by definition, so its its pullback.
 
 =--
 
 
-Before reading off the fibers of this morphism [below](#ExplicitCocycles) it shall be useful to reorganize this slightly by passing to an [[isomorphism|isomorphic]] copy of the [[Weil algebra]].
-
 
 ### Explicit Cech cocycles {#ExplicitCocycles}
 
-With these observations we can read off the cocycles in $String_{diff,tw}(X)$ from the diagrams of dg-algebras in ([SSSIII](#SSSIII)).
++-- {: .un_cor }
+###### Corollary
 
-A cocycle representing a twisted differential string structure is on a cover $\{U_i \to X\}$ given by a morphism
+For any $X \in $ [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]], for any choice of differentiaby [[good open cover]] with corresponding cofibrant presentation $\hat X = C(\{C_i\})\in [CartSp_{smooth}^{op}, sSet]_{proj}$ we have that the [[2-groupoid]]s of [twisted different String structures](#DifferentialStringStructure)s are presented by the ordinary [[fiber]]s of the morphism of [[Kan complex]]es
 
 $$
-  \hat \nabla : C(U) \to \hat \mathbf{B}G_{diff}
+  \exp(\mu,cs)
+  :
+  [CartSp^{op}, sSet](\hat X, \mathbf{cosk}_3 \exp(b \mathbb{R} 
+   \to \mathfrak{g}_\mu)_{ChW})
+  \to 
+  [CartSp^{op}, sSet](\hat X, \mathbf{B}^3 U(1)_{ChW})
+  \,.
 $$
 
-in $[CartSp^{op}, sSet]$ subject to various constraints. On patches $U_i$ this is a morphism
+over any basepoints in the connected components of the [[Kan complex]] on the right, which correspond to the elements  
+$[\hat \mathbf{C}_3] \in H_{diff}^4(X)$ in the [[ordinary differential cohomology]]  of $X$.
+
+=--
+
+We unwind the explicit expression for a twisted differential string structure under this equivalence.
+
+Any twisting cocycle is in the above presentation given by a [[Cech cohomology|Cech]] [[Deligne cohomology|Deligne]]-cocycle (as discussed at [[circle n-bundle with connection]])
+
+$$
+  \hat \mathbf{C}_3 = ((C_3)_i, \cdots) 
+$$
+
+with local connection 3-form $(C_3)_i \in \Omega^3(U_i)$ and globally defined [[curvature]] 4-form $\mathcal{G}_4 \in \Omega^4(X)$.
+
+A differential string structure on $X$ twisted by this cocycles is on patches $U_i$ a morphism
 
 $$
   \Omega^\bullet(U_i)
   \leftarrow
   \tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)
-  \,.
 $$
 
-This, in turn, is in components given of the form
+in [[dgAlg]], subject to some horizontality constraints.
+The components of this are over each $U_i$ collection of differential forms of the following structure
 
 $$
   \left(
     \array{ 
+      F_A =& d A + [A\wedge A]
+      \\
       H_3 =& \nabla B = d B + C_3 - CS(A)
+      \\
+      d F_A =& - [A \wedge F_A]
       \\
       d H_3 =& \mathcal{G}_4 - \langle F_A \wedge F_A\rangle
       \\
       d \mathcal{G}_4 =& 0
     }
-  \right)
+  \right)_i
   \;\;\;\;
   \stackrel{
     \array{
@@ -507,14 +531,25 @@ $$
        d k =& l
     }
   \right)
-  \,.
+  \,,
 $$
 
-The constraint is such that $C_3$ is the local connection 3-form on the [[circle n-bundle with connection|circle 3-bundle with connection]] over which the homotopy-pullback is computed (the _twist_ of the twisted differential string structure) and $\mathcal{G}_4$ is its [[curvature]] 4-form. 
+where we indicate on the right the generators and their relation in $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ and on the left their images and the images of the relations which are first the definitions of the [[curvature]]s themselves and then the [[Bianchi identities]] satisfied by these.
 
-In physics this is the curvature data familiar from the [[Green-Schwarz mechanism]]. $C_3$ is the [[supergravity C-field]].
+### The Green-Schwarz mechanism in heterotic supergravity
 
-(...)
+Local differential form data as above is known in [[higher category theory and physics|theoretical physics]] in the context of the [[Green-Schwarz mechanism]] for 10-dimensional [[supergravity]].
+
+In this context 
+
+* $A$ is called the [[spin connection]]; 
+
+* $\hat \mathbf{C}_3$ is called the [[supergravity C-field]] 
+
+* the components $((H_3)_i, \cdots)$ of the above cocycle are known as the $\hat \mathbf{C}_3$-twisted [[Kalb-Ramond field]].
+
+More discussion of this is in ([SSSIII](#SSSIII)).
+
 
 ## Related concepts
 
@@ -540,7 +575,7 @@ The local data for the [[∞-Lie algebra valued differential forms]] for the des
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential string and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#SSSIII">web</a>)
 {#SSSIII}
 
-The full Cech-Deligne cocycles induced by this were discussed in
+The full Cech-Deligne cocycles induced by this (but not yet the homotopy fibers over them) were discussed in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cocycles for differential characteristic classes_ (
 <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+%28%E2%88%9E%2C1%29-topos+--+references#FSS">web</a>)
