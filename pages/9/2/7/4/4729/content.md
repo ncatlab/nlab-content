@@ -571,77 +571,154 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 
 ### Existence of $\infty$-connections
 
+Let $\mathfrak{g} \in L_\infty$ and $n \in \mathbb{N}$ as before.
+Write $G = \Omega \tau_n\exp(\mathfrak{g})$ for the [[∞-Lie group|smooth n-group]] obtained by [[Lie integration]] from $\mathfrak{g}$.
+
+
 +-- {: .un_prop #ExistenceOfInftyConnections}
 ###### Proposition
 **(existence of $\infty$-connections)**
 
-In $\mathbf{H} = $ [[nLab:?LieGrpd]] over a [[nLab:paracompact space|paracompact]] [[nLab:smooth manifold]] $X$, every $G$-[[nLab:principal ∞-bundle]] for $G = \tau_n \exp(\mathfrak{g})$ obtained from [[nLab:Lie integration]] admits a genuine $\infty$-connection.
+For $X$ a [[paracompact topological space|paracompact]] [[smooth manifold]], every $G$-[[principal ∞-bundle]] admits a connection:
+
+the morphism
+
+$$
+  \pi_0 [CartSp^{op}, sSet](\hat X, \tau_n \exp(\mathfrak{g})_{conn})
+  \to 
+  \pi_0 [CartSp^{op}, sSet](\hat X, \tau_n \exp(\mathfrak{g}))
+$$
+
+is surjective.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the assumptions on $X$, there is a [[nLab:good open cover]] $\{U_i \to X\}$ and a [[nLab:partition of unity]] $(\rho_i \in C^\infty(U_i))$ subordinate to that cover. 
+By the assumptions on $X$, there is 
 
-Let $C(\{U_i\})$ be the [[nLab:Cech nerve]] of the cover and let $g : C(\{U_i\}) \to cosk_{n+1} \exp(\mathfrak{g})$ be a cocycle for the given $G$-principal $\infty$-bundle on $X$. This is given by a collection of [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]]
+* a differentiably [[good open cover]] $\{U_i \to X\}$ such that the corresponding [[Cech nerve]] $C(\{U_i\}) \to X$ is a cofibrant resolution for $X$ in $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ (see [[Smooth∞Grpd]] for details).
+
+* there is a [[partition of unity]] $(\rho_i \in C^\infty(U_i))$ subordinate to that cover. 
+
+By the first statement we have that every $G$-[[principal ∞-bundle]] is given by a morphism of simplicial presheaves
 
 $$
-  ( C^\infty(U_{i_0, \cdots i_k})\otimes \Omega^\bullet(\Delta^k) 
-  \leftarrow
-  CE(\mathfrak{g}) : \lambda_{i_0, \cdots, i_n})
+  g : C(\{U_i\}) \to \tau_n \exp(\mathfrak{g})
   \,.
 $$
 
-We need to extend these to a cocycle of differential forms
+This is a [[Cech cohomology|Cech cocycle]] with coefficients in 
+vertical [[∞-Lie algebroid valued differential forms|L-∞ algebra valued differential forms]]
 
 $$
-  ( \Omega^\bullet(U_{i_0, \cdots i_k})\otimes \Omega^\bullet(\Delta^k) 
+  \Omega^\bullet_{si,vert}(U_{i_0, \cdots i_k} \times \Delta^k) 
   \leftarrow
-  W(\mathfrak{g}) : (\lambda_{i_0, \cdots, i_n},A_{i_0, \cdots, i_n})) 
+  CE(\mathfrak{g}) : \lambda_{i_0, \cdots, i_k})
+  \,,
 $$
 
-such that the curvature components have no leg along the simplices.  This constraint is hierarchy of systems of partial differential equations. consider first the $A_{i_0, \cdots, i_k}(\frac{\partial}{\partial u}, \{\frac{\partial}{\partial t_r}\})$ with exactly one leg along $U_{i_0, \cdots, i_k}$. For these the constraint is a system of differential equations of the schematic form
+where the cocycle condition says that restricted to $U_{i_0, \cdots, i_k, i_{k+1}}$ the form $\lambda_{i_0, \cdots, i_k}$ is the restriction of $\lambda_{i_0, \cdots, i_{k+1}}$ to the $(k+1)$-face of the simplex, etc.
 
+We need to exhibit a lift $\nabla$ in 
 
 $$
-  \frac{\partial}{\partial t_r} A
-  =
-  d_U \lambda(\frac{\partial}{\partial t_r})
+  \array{
+     && \tau_n \exp(\mathfrak{g})_{conn}
+     \\
+    & {}^{\nabla}\nearrow & \downarrow
+    \\
+    C(\{U_i\}) &\stackrel{g}{\to}& \tau_n \exp(\mathfrak{g})
+  }
+  \,.
+$$
+
+This is in components an extension of the $(\lambda_{i_0, \cdots, i_k})$ to a collection of forms
+
+$$
+  \Omega^\bullet_{si}(
+     U_{i_0, \cdots i_k} \times \Delta^k
+  ) 
+  \leftarrow
+  W(\mathfrak{g}) : 
+   (\lambda_{i_0, \cdots, i_k},A_{i_0, \cdots, i_k})) 
+$$
+
+such that the curvature components have no leg along the simplices (and such that a cocycle condition as above holds).
+
+This constraint is a systems of partial differential equations. 
+
+Define for all $k \in \mathb{N}$ and all combinations of indices $(i_0, \cdots, i_{k+1})$ the differential form
+
+$$
+  A^{i_{k+1}}_{i_0, \cdots, i_k} \in \Omega^\bullet_{si}(U_{i_0, \cdots, i_k} \times \Delta^k)
+$$ 
+
+to be the form which at a point $p \in \Delta^k$ has the value given as follows:
+
+let $v \in \Gamma(T \Delta^{k+1})$ be the vector field parallel to the line that connects the 0-vertex of the $(k+1)$-simplex with $p$ regarded as a point in its face opposite to the 0-vertex. Take then $A^{i_{k+1}}_{i_0, \cdots, i_k}(p)$ to be the unique solution to the [[differential equation]]
+
+$$
+  \begin{aligned}
+    \frac{\partial}{\partial v} A^{i_{k+1}}_{i_0, \cdots, i_k}
+    & =
+    \nabla_v \lambda_{i_0, \cdots, i_{k+1}}
+    \\
+    :=
+  d_U (\iota_{v} \lambda_{i_0, \cdots, i_{k+1}})
   + 
-  [\lambda(\frac{\partial}{\partial t_r}), A]
-$$
-
-By the [[nLab:Bianchi identity]] and the fact that the curvature with all components along the simplex vabishes, it follows that this is an integrable system of partial differential equations. Fixing the boundary condition that $A$ vanishes in the $0$-corner of $\Delta^k$, this has a unique solution. $\hat A_{i_0, \cdots, i_k}$.
-
-Set then 
-
-$$
-  A_{i_1, \cdots, i_k} := \sum_{i_0} \rho_{i_0} \hat A_{i_0, \cdots, i_k}|_{\delta_0(\Delta^k)}
+  [(\iota_{v} \lambda_{i_0, \cdots, i_{k+1}}), 
+     A^{i_{k+1}}_{i_0, \cdots, i_k}]
+  +  
+  [(\iota_{v}\lambda_{i_0, \cdots, i_{k+1}} , 
+   A^{i_{k+1}}_{i_0, \cdots, i_k}, 
+   A^{i_{k+1}}_{i_0, \cdots, i_k}]
+  + 
+  \cdots
+  \end{aligned}
   \,.
 $$
 
+for the initial value $A^{i_{k+1}}_{i_0, \cdots, i_k} = 0$ at the $(k+1)$-vertex of $\Delta^{k+1}$
+
+By the [[Bianchi identity]] and the fact that the curvature with all components along the simplex vanishes, it follows that this is an integrable system of partial differential equations. 
+
+Set then
+
+$$
+  A_{i_0, \cdots, i_k} := \sum_{i_{k+1}} \rho_{i_{k+1}} A^{i_{k+1}}_{i_0, \cdots, i_k}
+ \,.
+$$
 
 The system of differential forms obtained this way does satisfy the cocycle condition and the curvature component with one leg along $U$ and the other legs along the simplices vanish:
 
 $$
-  \frac{\partial}{\partial t_r} 
-  A_{i_1, \cdots, i_k}
-  =
-  \frac{\partial}{\partial t_r} 
-\sum_{i_0} \rho_{i_0}  \hat A_{i_0, \cdots, i_k}
-  =
-  \sum_{i_0} \rho_{i_0} d_U \lambda(\frac{\partial}{\partial t_r})
+  \begin{aligned}
+    \frac{\partial}{\partial v} 
+     A_{i_1, \cdots, i_k}
+    & =
+    \frac{\partial}{\partial v} 
+\sum_{i_{k+1}} \rho_{i_{k+1}}  A^{i_{k+1}}_{i_0, \cdots, i_k}
+    \\
+    &=
+  \sum_{i_{k+1}} \rho_{i_{k+1}} d_U 
+    \iota_v \lambda_{i_0, \cdots, i_{k+1}}
   + 
-  [\lambda(\frac{\partial}{\partial t_r}), \sum_{i_0} \rho_{i_0} \hat A_{i_0, \cdots, i_k}]
-  =
-  d_U \lambda(\frac{\partial}{\partial t_r})
+  [\iota_v \lambda_{i_0, \cdots, i_{k+1}}, 
+    \sum_{i_{k+1}} \rho_{i_{k+1}} A^{i_{k+1}}_{i_0, \cdots, i_k}]
+  + \cdots
+   \\
+  & =
+  d_U \iota_v \lambda_{i_0, \cdots, i_{k+1}}
   + 
-  [\lambda(\frac{\partial}{\partial t_r}), A_{i_1, \cdots, i_k}]
+  [\iota_v \lambda_{i_0, \cdots, i_{k+1}}, A_{i_1, \cdots, i_k}]
+  + 
+  \cdots
+  \end{aligned}
   \,.
 $$
 
-Next continue iteratively in the above fashion, by induction on the number of legs of the forms along $U$.
 
 =--
 
