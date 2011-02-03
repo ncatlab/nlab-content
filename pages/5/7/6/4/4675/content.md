@@ -172,7 +172,8 @@ For the case where the twist is given by globally defined 3-forms, i.e. by  triv
 =--
 
 
-## Construction  {#ChernWeilTheory}
+## Construction in terms of $L_\infty$-Cech cocycles 
+  {#ChernWeilTheory}
 
 We use the [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-topos]] [[Smooth∞Grpd]] (as described there) by the local [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ to give an explicit construction of twisted differential string structures in terms of [[Cech cohomology|Cech]]-cocycles with coefficients in [[∞-Lie algebra valued differential forms]].
 
@@ -207,15 +208,13 @@ $$
 In order to compute the [[homotopy fiber]]s of 
 $\frac{1}{2}\hat \mathbf{p}_1$ we now find a [[resolution]] of this morphism by a fibration in $[CartSp_{smooth}^{op}]_{proj}$. By the fact that this is a [[simplicial model category]] then also the hom of any cofibrant object into this morphism is a fibration, and therefore we obtain the homotopy fibers as the corresponding ordinary fibers.
 
-### The twisted $\mathfrak{string}$-Lie 2-algebra
+### Presentation of the differential class by a fibration
 
 To that end, we replace the [[Lie algebra]] $\mathfrak{g} = \mathfrak{so}$ by an equivalent [[∞-Lie algebra|Lie 3-algebra]] (following [SSSIII](#SSSIII)).
 
 In all of the following we take
 
-* $\mathfrak{g} = \mathfrak{so}$
-
-  the [[special orthogonal Lie algebra]] (the Lie algebra of the [[spin group]]);
+* $\mathfrak{g} = \mathfrak{so}$, the [[special orthogonal Lie algebra]] (the Lie algebra of the [[spin group]]);
 
 * $\langle -,-\rangle \in W(\mathfrak{g})$ is the [[Killing form]] [[invariant polynomial]], regarded as an element of the [[Weil algebra]];
 
@@ -227,7 +226,7 @@ In all of the following we take
 
   of [[Chevalley-Eilenberg algebra]]s; and normalized such that its continuation to a 3-form on $Spin$ is the image in de Rham cohomology of a generator of $H^3(Spin,\mathbb{Z}) \simeq \mathbb{Z}$;
 
-* $cs \in W(\mathfrak{g})$ is a Chern-Simons element interpolating between the two; exhibited by the commuting diagram
+* $cs \in W(\mathfrak{g})$ is a [[Chern-Simons element]] interpolating between the two; fitting into the commuting diagram
 
   $$
     \array{
@@ -237,17 +236,25 @@ In all of the following we take
        \uparrow && \uparrow
        \\
        W(\mathfrak{g})
-       &\stackrel{(cs,\langle -,-\rangle)}{\leftarrow}&
+       &\stackrel{cs}{\leftarrow}&
        W(b^2 \mathbb{R})
+       \\
+       \uparrow && \uparrow
+       \\
+       inv(\mathfrak{g}) &\stackrel{\langle-,-\rangle}{\leftarrow}&
+       inv(b^2 \mathbb{R})
+       & = CE(b^3 \mathbb{R})
     }
   $$
 
 * $\mathfrak{g}_\mu := \mathfrak{string}$ the [[string Lie 2-algebra]];
 
+
 +-- {: .un_def }
 ###### Definition
 
-Let $(b\mathbb{R} \to \mathfrak{g}_\mu)$ denote the $\infty$-Lie algebra defined by the fact that its [[Chevalley-Eilenberg algebra]] is
+Let $(b\mathbb{R} \to \mathfrak{g}_\mu)$ denote the 
+[[L-∞ algebra]] whose [[Chevalley-Eilenberg algebra]] is
 
 $$
   CE(b\mathbb{R} \to \mathfrak{g}_\mu) = 
@@ -255,7 +262,7 @@ $$
   \,,
 $$
 
-with $b$ a generator in degree 2, and $k$ a generator in degree 3, and with differential
+with $b$ a generator in degree 2, and $c$ a generator in degree 3, and with differential
 
 $$
   d|_{\mathfrak{g}^*} = [-,-]^*
@@ -273,162 +280,31 @@ $$
 
 =--
 
++-- {: .un_prop #FactorizationOfTheCocycle}
+###### Observation
 
-+-- {: .un_remark }
-###### Remark
-
-This is a thickening of $\mathfrak{g}$ in that the canonical morphism
-
-$$
-  \array{
-    CE(b\mathbb{R} \to \mathfrak{g}_\mu) 
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    CE(\mathfrak{g})
-  }
-$$
-
-that is the identity on $\mathfrak{g}^*$ and sends $b$ to $0$ and $k $ to $\mu$ is a weak equivalence. It is adapted to computing the obstructions to string-lifts in that there is a canonical inclusion 
+The cocycle $ CE(\mathfrak{g}) \stackrel{\mu}{\leftarrow} CE(b^2 \mathbb{R})$ factors as 
 
 $$
-  CE(\hat \mathfrak{g})
-  \leftarrow
-  CE(b^2 \mathbb{R}) = (\wedge^\bullet(\langle k \rangle), d =0)
+  CE(\mathfrak{g})
+  \stackrel{(k \mapsto \mu, b \mapsto 0)}{\leftarrow}
+  CE(b\mathbb{R} \to \mathfrak{g})
+   \stackrel{(k \mapsto k)}{\leftarrow}
+  CE(b^2 \mathbb{R})
+  :
+  \mu
 $$
 
-which includes the generator $k$.
-
-=--
-
-
-
-+-- {: .un_lemma }
-###### Lemma
-
-Composition with $CE(\hat \mathfrak{g}) \leftarrow CE(b^2 \mathbb{R})$ induces a fibration
-
-$$
-  \array{
-    \mathbf{cosk}_3\exp(b\mathbb{R} \to \mathfrak{g}_\mu)
-    &\to&
-    \mathbf{B}^3 U(1)
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    \mathbf{B}G
-  }
-$$
-
-in $[CartSp^{op}, sSet]_{proj}$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-A 3-morphism in $\mathbf{cosk}_3 \exp(b\mathbb{R} \to \mathfrak{g}_\mu)$ is a based 3-ball $\phi : \Delta^3 \to G$ together with a 2-form $B \in \Omega^2(D^3)$, all with sitting instants at the boundaries. The morphism sends this to the number 
-
-$$
-  \int_{\Delta^3} (\phi^* \langle \theta\wedge [\theta\wedge \theta]\rangle + d B) \;\; \in \mathbb{R}\;\; mod \;\; \mathbb{Z}
-  \,,
-$$
-
-where $\theta$ is the [[Maurer-Cartan form]] on $Spin$. By the integrality of $\mu = \langle -,[-,-]\rangle$ this is well defined.
-
-Now for
-
-$$
-  \array{
-     \Lambda[3]^i &\stackrel{(f,B)}{\to} & \mathbf{cosk}_3(\exp(\hat \mathfrak{g}))
-     \\
-     \downarrow && \downarrow
-     \\
-     \Delta[3] &\stackrel{c}{\to}& \mathbf{B}^3 U(1)
-  }
-$$
-
-a lifting problem, with $c \in U(1)$, and $f : \Lambda[3]^i \to D^2 \to G$ a map on the horn, with sitting instants, a lift is given by extending $f$ along a smooth [[retract]] $\pi : D^3 \to D^2$ identifying the upper hemisphere as $\pi^* f : \Delta^3 \to D^3 \to  G $, and extending $B$ to any 2-form $\hat B \in \Omega^2(D^3 )$ such that $\int_{S^2} B = c - \int_{D^3} \pi^*f^*\langle \theta\wedge [\theta\wedge \theta]\rangle$. Such a $B$ can always be found:
-
-pick and 2-form $B_2$ on $D^2$ with sitting instants that matches $B$ at the boundary, then goes smoothly to 0 away from the boundary and becomes non-vanishing $B_2^{inn} \in \Omega^2(U \subset D^2)$ with non-vanishing surface integral in the interior of $D^2$. Together with $B$ this gives a smooth 2-form on $S^2$. By letting this smoothly decay to 0 radially along $D^3$ it can always be extended to $D^3$. By rescaling $B_2^{inn}$ appropriately, any integral value can be obtained. And this construction evidently goes through for $U$-parameterized families of this problem.
-
-All other lifting problems are trivial, hence we have for each $U \in $ [[CartSp]] a [[Kan fibration]], hence a fibration in $[CartSp^{op}, sSet]_{proj}$.
+where the morphism on the left is a [[quasi-isomorphism]].
 
 
 =--
 
-We may now straightforwardly extend this to differential coefficients.
-
-Write $\hat \mathbf{B}G_{diff}$ for the 3-[[coskeleton]] of the simplicial presheaf
-
-$$
-  U,[n]
-  \mapsto
-  \left\{
-    \array{
-      \Omega^\bullet_{si,vert}(U \times \Delta^k)
-      &\leftarrow& CE(b\mathbb{R} \to \mathfrak{g}_\mu)
-      \\
-      \uparrow && \uparrow
-      \\
-      \Omega^\bullet_{si}(U \times \Delta^k)
-      &\leftarrow&
-      W(b \mathbb{R} \to \mathfrak{g}_\mu)
-    }
-  \right\}
-$$
-
-according to the definition of <a href="">∞-connections</a>.
-
-The canonical [[pasting]] composite
-
-$$
-  \array{
-    C^\infty(U)\otimes\Omega^\bullet(\Delta^n)
-    &\leftarrow& 
-    CE(b\mathbb{R} \to \mathfrak{g}_\mu)
-    &\leftarrow&
-    CE(b^2 \mathbb{R})
-    \\
-    \uparrow && \uparrow && \uparrow
-    \\
-    \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
-    &\leftarrow&
-    W(b\mathbb{R} \to \mathfrak{g}_\mu)
-    &\leftarrow&
-    W(b^2 \mathbb{R})
-  }
-$$
-
-induces a morphism
-
-$$
-  \array{
-    \hat \mathbf{B}G_{diff}  
-    &\to&
-    \mathbf{B}^3 U(1)_{diff}
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    \mathbf{B}G
-  }
-$$
-
-in $[CartSp^{op}, sSet]$.
++-- {: .un_prop }
+###### Observation
 
 
-+-- {: .un_corollary }
-###### Corollary
-
-This is again a fibration in $[CartSp^{op}, sSet]_{proj}$
-
-=--
-
-Before reading off the fibers of this morphism [below](#ExplicitCocycles) it shall be useful to reorganize this slightly by passing to an [[isomorphism|isomorphic]] copy of the [[Weil algebra]].
-
-### The Chern-Simons Lie 3-algebra
-
-Notice that the [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ is given by
+The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ is given by
 
 * $d t^a = C^a{}_{b c} t^b \wedge t^c + r^a$;
 
@@ -440,10 +316,16 @@ Notice that the [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ is given 
 
 * $d k = l$ .
 
+=--
+
+We will find it convenient to pass to an [[isomorphic]] version of this.
+
 +-- {: .un_def }
 ###### Definition
 
-Define $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ by
+Define $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ to have the same
+underlying graded algebra as $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ 
+but with the differential modified as follows
 
 * $d t^a = C^a{}_{b c} t^b \wedge t^c + r^a$;
 
@@ -457,12 +339,11 @@ Define $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ by
 
 =--
 
-This is like the Weil algebra, but where the former has the 3-cocycle $\mu$ this has the Chern-Simons element $cs$. The result is that $d c$ cleanly picks up the [[invariant polynomial]] $\langle - ,-\rangle$.
 
 +-- {: .un_lemma }
 ###### Lemma
 
-There is an [[isomorphism]]
+There is an [[isomorphism]] 
 
 $$
   W(b\mathbb{R} \to \mathfrak{g}_\mu)
@@ -470,7 +351,7 @@ $$
   \tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)
 $$
 
-that is the identity on all generators except on $c$, where it is given by
+in [[dgAlg]] that is the identity on all generators except on $c$, where it is given by
 
 $$
   c \mapsto c' + (cs-\mu)
@@ -482,12 +363,90 @@ $$
 +-- {: .un_remark }
 ###### Remark
 
-That shift $cs-\mu$ is precisely the shift that shifts the curvature characteristic $d_{W(\mathfrak{g})}\mu$ into the shifted copy $\mathfrak{g}^*$ in the Weil algebra, thus making it well-adapted to genuine (as opposed to pseudo-)connections.
+Where the formula for the differential of $W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the 3-cocycle $\mu$ that for $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the [[Chern-Simons element]] $cs$.  The shift by $cs-\mu$ is precisely what shifts the curvature characteristic $d_{W(\mathfrak{g})}\mu$ into the shifted copy $\mathfrak{g}^*$ in the Weil algebra, thus making it well-adapted to genuine (as opposed to pseudo-)connections.
 
 =--
 
 
-### Explicit cocycles {#ExplicitCocycles}
+
+
+
+
+
++-- {: .un_prop }
+###### Proposition
+
+Under [[Lie integration]] 
+the [above factorization](#FactorizationOfTheCocycle)
+of the Lie algebra cocycle  
+maps to the factorization
+
+$$
+  \exp(\mu, cs)
+   :
+  \mathbf{cosk}_3 \exp(\mathfrak{g})_{ChW} 
+   \stackrel{\simeq}{\to} 
+  \mathbf{cosk}_3 \exp((b \mathbb{R} \to \mathfrak{g}_\mu))_{ChW}
+   \to
+  \mathbf{B}^3 U(1)_c
+$$
+
+of $\exp(\mu,cs)$ in $[CartSp^{op}, sSet]_{proj}$, where the first morphism is a weak equivalence and the second a fibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check that the second morphism is a fibration. The only nontrivial [[horn]]-filling condition is in degree 3.
+
+First consider the for the underlying non-differential coefficients, hence for the [[vertical differential form]]s: a 3-cell in $\exp(b\mathbb{R} \to \mathfrak{g}_\mu)$ may be identified with a based 3-ball $\phi : \Delta^3 \to G$ together with a 2-form $B \in \Omega^2(D^n)$, all with sitting instants at the boundaries. Here and in the following we denote by capital letters the differential forms in the image of the dg-algebra generators denoted by the same but lower case letters in the above discussion.
+
+The morphism sends this to the number 
+
+$$
+  \int_{\Delta^3} (\phi^* \langle \theta\wedge [\theta\wedge \theta]\rangle + d B) \;\; \in \mathbb{R}\;\; mod \;\; \mathbb{Z}
+  \,,
+$$
+
+where $\theta$ is the [[Maurer-Cartan form]] on $Spin$. (Recall that by the integrality of $\mu = \langle -,[-,-]\rangle$ this is well defined.)
+
+Now for
+
+$$
+  \array{
+     \Lambda[3]^i &\stackrel{(f,B)}{\to} & \exp(b \mathbb{R} \to \mathfrak{g})
+     \\
+     \downarrow && \downarrow
+     \\
+     \Delta[3] &\stackrel{c}{\to}& \mathbf{B}^3 U(1)_c
+  }
+$$
+
+a lifting problem, with $c \in U(1)$, and $f : \Lambda[3]^i \to D^2 \to G$ a map on the horn, with sitting instants, a lift is given by extending $f$ along a smooth [[retract]] $\pi : D^3 \to D^2$ identifying the upper hemisphere as $\pi^* f : \Delta^3 \to D^3 \to  G $, and extending $B$ to any 2-form $\hat B \in \Omega^2(D^3 )$ such that $\int_{S^2} B = c - \int_{D^3} \pi^*f^*\langle \theta\wedge [\theta\wedge \theta]\rangle = c$. Such a $B$ can always be found:
+
+pick any 2-form $B_2$ on $D^2$ with sitting instants that matches $B$ at the boundary and then goes smoothly to 0 away from the boundary and becomes non-vanishing $B_2^{inn} \in \Omega^2(U \subset D^2)$ with non-vanishing surface integral in the interior of $D^2$. Together with $B$ this gives a smooth 2-form on $S^2$. By letting this smoothly decay to 0 radially along $D^3$ it can always be extended to $D^3$. By rescaling $B_2^{inn}$ appropriately, any integral value can be obtained. And this construction evidently goes through for $U$-parameterized families of this problem.
+
+Now we need to extend this construction from vertical forms to connection forms.
+
+Given the above, $B$ and $CS(A)$ are fixed un $U \times D^3$ and $K$ is fixed by the extension problem. Then the equation $d B = CS + C - K$ in $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ may be uniquely solved for $C$ over all of $D^3$. By the very nature of the differential in $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ its diffeential is guaranteed to be horizontal: it is
+
+$$
+  d C = L - \langle F_A \wedge F_A \rangle
+  \,.
+$$
+
+The first term $L = d K$ is horizontal because it is so by definition of the extension problem (this is the datum of the 3-cell in $\exp(b^2 \mathbb{R})_{ChW}(U)$).
+
+The second term is the pullback along the chosen [[retract]]ion $D^3 \to D^2$ of the Killing form curvature characteristic of the $\mathfrak{g}$-valued form $A$ on $U \times D^2$. Since it is horizontal there by definition, so its its pullback.
+
+=--
+
+
+Before reading off the fibers of this morphism [below](#ExplicitCocycles) it shall be useful to reorganize this slightly by passing to an [[isomorphism|isomorphic]] copy of the [[Weil algebra]].
+
+
+### Explicit Cech cocycles {#ExplicitCocycles}
 
 With these observations we can read off the cocycles in $String_{diff,tw}(X)$ from the diagrams of dg-algebras in ([SSSIII](#SSSIII)).
 
@@ -576,17 +535,17 @@ A discussion of differential string structures in terms of [[bundle 2-gerbe]]s i
 * [[Konrad Waldorf]], _String Connections and Chern-Simons Theory_ ([arXiv:0906.0117](http://arxiv.org/abs/0906.0117))
 {#Waldorf}
 
-The [[∞-Lie algebra cohomology]]-data for the description of twisted differential string structures in terms of [[Chern-Weil homomorphism in Smooth∞Grpd]] was given in 
+The local data for the [[∞-Lie algebra valued differential forms]] for the description of twisted differential string structures as above was given in 
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential string and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#SSSIII">web</a>)
 {#SSSIII}
 
-The full Cech-Deligne cocycles induced by this wee produced in
+The full Cech-Deligne cocycles induced by this were discussed in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cocycles for differential characteristic classes_ (
 <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+%28%E2%88%9E%2C1%29-topos+--+references#FSS">web</a>)
 
-An attempt at a comprehensive discussion is at
+A comprehensive discussion is at
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
