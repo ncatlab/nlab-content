@@ -84,9 +84,9 @@ More generally, one can consider the [[homotopy fiber]]s of $\frac{1}{2}\hat \ma
 
 We assume the reader is familiar with basics of the discussion at [[Smooth∞Grpd]]. We often write $\mathbf{H} := Smooth \infty Grpd$ for short.
 
-Let $Spin \in $ [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] be the [[Spin group]], rgarded as a [[Lie group]] and thus canonically as an [[∞-group]] object in [[Smooth∞Grpd]]. Write $\mathbf{B}G$ for its [[delooping]] in [[Smooth∞Grpd]]. (See the discussion <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#LieGroups">here</a>). 
+Let $Spin \in $ [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] be the [[Spin group]], regarded as a [[Lie group]] and thus canonically as an [[∞-group]] object in [[Smooth∞Grpd]]. Write $\mathbf{B}G$ for its [[delooping]] in [[Smooth∞Grpd]]. (See the discussion <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#LieGroups">here</a>). 
 
-Let $\mathbf{B}^2 U(1) in Smooth \infty Grpd$ be the <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">circle Lie 3-group</a> and $\mathbf{B}^3$ its [[delooping]].
+Let $\mathbf{B}^2 U(1) \in Smooth \infty Grpd$ be the <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">circle Lie 3-group</a> and $\mathbf{B}^3$ its [[delooping]].
 
 At [[Chern-Weil theory in Smooth∞Grpd]] the following statement is proven 
 
@@ -99,7 +99,7 @@ $$
   \mu : \mathfrak{so} \to b^2 \mathbb{R}
 $$
 
-on the [[semisimple Lie algebra]] of the [[Spin group]] -- the [[special orthogonal Lie algebra]] -- is the morphism in [[Smooth∞Grpd]] of the form
+on the [[semisimple Lie algebra]] of the [[Spin group]] -- the [[special orthogonal Lie algebra]] -- is a morphism in [[Smooth∞Grpd]] of the form
 
 $$
   \frac{1}{2} \mathbf{p}_1 : 
@@ -108,7 +108,7 @@ $$
   \mathbf{B}^3 U(1)
 $$
 
-whose image under the <a href="http://nlab.mathforge.org/nlab/show/Euclidean-topological%20infinity-groupoid#GeometricHomotopy">the fundamental ∞-groupoid ?functior/ geometric realization</a> $\Pi : Smooth \infty Grpd \to \infty Grpd$ is the ordinary fractional [[Pontryagin class]]
+whose image under the <a href="http://nlab.mathforge.org/nlab/show/Euclidean-topological%20infinity-groupoid#GeometricHomotopy">the fundamental ∞-groupoid (∞,1)-functor/ geometric realization</a> $\Pi : Smooth \infty Grpd \to \infty Grpd$ is the ordinary fractional [[Pontryagin class]]
 
 $$
   \frac{1}{2}p_1 : B Spin \to B^4 \mathbb{Z}
@@ -118,7 +118,7 @@ $$
 Moreover, the corresponding <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#ChernWeilTheory">refined differential characteristic class</a> 
 
 $$
-  \frac{1}{2}\hat p_1 : 
+  \frac{1}{2}\hat \mathbf{p}_1 : 
   \mathbf{H}_{conn}(-,\mathbf{B}Spin)
   \to
   \mathbf{H}_{diff}(-, \mathbf{B}^3 U(1))
@@ -131,7 +131,7 @@ $$
   H^1_{Smooth}(X,Spin) \to H_{diff}^3(X)
 $$
 
-with values in [[ordinary differential cohomology]].
+with values in [[ordinary differential cohomology]] that corresponds to the [[Killing form]] [[invariant polynomial]] on $\mathfrak{so}$.
 
 
 =--
@@ -146,7 +146,7 @@ More generally (see [[twisted cohomology]]) the 2-groupoid of **twisted differen
 
 $$
   \array{
-    String_{diff,tw}(X) &\to& H_{diff}^3(X)
+    String_{diff,tw}(X) &\to& H_{diff}^4(X)
     \\
     \downarrow && \downarrow
     \\
@@ -165,45 +165,51 @@ where the right vertical morphism picks one (any) point  in each [[connected com
 +-- {: .un_remark }
 ###### Remark
 
-In terms of just the underlying [[L-∞ algebra]] valued local connection data this has been considered in ([SSSIII](#SSSIII)), as we shall discuss [below](#ChernWeilTheory),
+In terms of just the underlying [[L-∞ algebra]] valued local connection data this has been considered in ([SSSIII](#SSSIII)), as we shall discuss [below](#ChernWeilTheory).
 
-For the case where the twist is given by globally defined 3-forms, i.e. by  trivial [[2-gerbe]]s with connection, essentially this definition, explicitly modeled on [[bundle 2-gerbe]]s, has been given in ([Waldorf](#Waldorf)).
+For the case where the twist is given by globally defined 3-forms, i.e. by  trivial 2-gerbes with connection, essentially this definition, explicitly modeled on [[bundle 2-gerbe]]s, has been given in ([Waldorf](#Waldorf)).
 
 =--
 
 
-## In $\infty$-Chern-Weil theory {#ChernWeilTheory}
+## Construction  {#ChernWeilTheory}
 
-We discuss here an explicit computation of the homotopy fibers in the [above definition](#Definition) using tools described at [[∞-Chern-Weil theory]]. That is we describe a model for $\frac{1}{2}\mathbf{p}_1$ in terms of [[Lie integration]] of a morphism in [[∞-Lie algebra cohomology]] (following [SSSIII](#SSSIII)).
+We use the [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-topos]] [[Smooth∞Grpd]] (as described there) by the local [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ to give an explicit construction of twisted differential string structures in terms of [[Cech cohomology|Cech]]-cocycles with coefficients in [[∞-Lie algebra valued differential forms]].
 
-At [[circle n-bundle with connection]] is described an explicit model for the [[ordinary differential cohomology]] $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ as the ordinary [[pullback]]
+Recall the following fact from [[Chern-Weil theory in Smooth∞Grpd]]
+
++-- {: .un_prop }
+###### Proposition
+
+The differential fractional Pontryagin class $\frac{1}{2} \hat \mathbf{p}_1$ is presented in $[CartSp_{smooth}^{op}, sSet]_{proj}$ by the top morphism of simplicial presheaves in
 
 $$
   \array{
-    \mathbf{H}_{diff}(C(U), \mathbf{B}^3 U(1))
-    &\to&
-    H_{dR}^4(X)
+    \mathbf{cosk}_3\exp(\mathfrak{so})_{conn,smp}
+     &\stackrel{\exp(\mu, cs)}{\to}&
+    \mathbf{B}^3 \mathbb{R}_{conn,smp} /\mathbb{Z}    
     \\
     \downarrow && \downarrow
     \\
-    [CartSp^{op}, sSet](C(U), \mathbf{B}^3 U(1)_{diff,simp})
-    &\stackrel{curv}{\to}&
-    [CartSp^{op}, sSet]((C(U), \mathbf{\flat}_{dR}\mathbf{B}^4 U(1)_{chn})
+    \mathbf{cosk}_3\exp(\mathfrak{so})_{diff,smp}
+     &\stackrel{\exp(\mu, cs)}{\to}&
+    \mathbf{B}^3 \mathbb{R}_{smp} /\mathbb{Z}
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}Spin_{c}
   }
+  \,.
 $$
 
-in the category of [[simplicial presheaves]] over [[CartSp]]. Our strategy is therefore to produce a _fibration_ 
+=--
 
-$$
-  \hat \mathbf{B}G \to \mathbf{B}^3 U(1)_{diff,simp}
-$$
-
-in the projective [[model structure on simplicial presheaves]] that models the morphism $\frac{1}{2}\mathbf{p}_1$, for that allows to compute the [[homotopy pullback]] in questions (as described there) by an ordinary pullback along $[CartSp^{op}, sSet](C(U), \hat \mathbf{B}G) \to [CartSp^{op}, sSet](C(U), \mathbf{B}^3 U(1)_{diff,simp})$.
-
+In order to compute the [[homotopy fiber]]s of 
+$\frac{1}{2}\hat \mathbf{p}_1$ we now find a [[resolution]] of this morphism by a fibration in $[CartSp_{smooth}^{op}]_{proj}$. By the fact that this is a [[simplicial model category]] then also the hom of any cofibrant object into this morphism is a fibration, and therefore we obtain the homotopy fibers as the corresponding ordinary fibers.
 
 ### The twisted $\mathfrak{string}$-Lie 2-algebra
 
-To that end, we replace the [[Lie algebra]] $\mathfrak{g}$ by an equivalent [[∞-Lie algebra|Lie 3-algebra]] (following [SSSIII](#SSSIII)).
+To that end, we replace the [[Lie algebra]] $\mathfrak{g} = \mathfrak{so}$ by an equivalent [[∞-Lie algebra|Lie 3-algebra]] (following [SSSIII](#SSSIII)).
 
 In all of the following we take
 
@@ -277,13 +283,13 @@ $$
   \array{
     CE(b\mathbb{R} \to \mathfrak{g}_\mu) 
     \\
-    \uparrow^{\mathrlap{\simeq}}
+    \downarrow^{\mathrlap{\simeq}}
     \\
     CE(\mathfrak{g})
   }
 $$
 
-that is the identity on $\mathfrak{g}^*$ and sends $b$ to $0$ and $c $ to $\mu$ is a weak equivalence. It is adapted to computing the obstructions to string-lifts in that there is a canonical inclusion 
+that is the identity on $\mathfrak{g}^*$ and sends $b$ to $0$ and $k $ to $\mu$ is a weak equivalence. It is adapted to computing the obstructions to string-lifts in that there is a canonical inclusion 
 
 $$
   CE(\hat \mathfrak{g})
@@ -360,12 +366,12 @@ $$
   \mapsto
   \left\{
     \array{
-      C^\infty(U)\otimes\Omega^\bullet(\Delta^n)
+      \Omega^\bullet_{si,vert}(U \times \Delta^k)
       &\leftarrow& CE(b\mathbb{R} \to \mathfrak{g}_\mu)
       \\
       \uparrow && \uparrow
       \\
-      \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+      \Omega^\bullet_{si}(U \times \Delta^k)
       &\leftarrow&
       W(b \mathbb{R} \to \mathfrak{g}_\mu)
     }
