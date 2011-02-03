@@ -1,11 +1,21 @@
-### The HOMFLY-PT Polynomial ###
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+=--
+=--
+
+#The HOMFLY-PT Polynomial#
 * tic
 {: toc}
 
-### Idea ###
+## Idea ##
 
-### Definition ###
+## Definition ##
 
 The HOMFLY-PT polynomial is a [[knot]] and [[link]] [[knot invariants|invariant]].  Confusingly, there are several variants depending on exactly which relationships are used to define it.  All are related by simple substitutions.  To compute it, one starts from an oriented link diagram and uses the following rules:
 
@@ -27,7 +37,7 @@ L_+ & L_- & L_0
 \end{array}
 $$
 
-### Properties ###
+## Properties ##
 
 The HOMFLY polynomial generalises both the [[Jones polynomial]] and the [[Alexander polynomial]].  To get the Jones polynomial, substitute $a = q^{-1}$ and $z = q^{1/2} - q^{-1/2}$.  To get the [[Conway polynomial]], substitute $a = 1$, from which one can read off the [[Alexander polynomial]].
 
