@@ -23,7 +23,7 @@
 
 In every [[cohesive (∞,1)-topos]] there is an <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#ChernWeilTheory">intrinsic notion of ∞-Chern-Weil theory</a> that gives rise to a notion of _connection_ on [[principal ∞-bundle]]s. We describe here details of the realization of this general abstract structure in the cohesive $(\infty,1)$-topos [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s.
 
-For $G$ an [[∞-Lie group]], a _connection_ on a smooth $G$-[[principal ∞-bundle]] is a structure that supports the [[Chern-Weil homomorphism in Smooth∞Grpd]]: it interpolates between the [[nonabelian cohomology]] class $c \in H^1_{smooth}(X,G)$ of the bundle and the refinements to [[ordinary differential cohomology]] of its [[characteristic class]]: the [[curvature characteristic form|curvature characteristic class]]es.
+For $G$ an [[∞-Lie group]], a _connection_ on a smooth $G$-[[principal ∞-bundle]] is a structure that supports the [[Chern-Weil homomorphism in Smooth∞Grpd]]: it interpolates between the [[nonabelian cohomology]] class $c \in H^1_{smooth}(X,G)$ of the bundle and the refinements to [[ordinary differential cohomology]] of its [[characteristic class]]es: the [[curvature characteristic form|curvature characteristic class]]es.
 
 This generalizes the  notion of [[connection on a bundle]] and the ordinary [[Chern-Weil homomorphism]] in [[differential geometry]].
 
@@ -31,17 +31,19 @@ See the <a href="http://nlab.mathforge.org/nlab/show/Chern-Weil+theory+in+Smooth
 
 ## Definition
 
-We assume that the reader is familiar with the notation and constructions discussed at [[Smooth∞Grpd]].
+We assume that the reader is familiar with the notation and constructions discussed at [[Smooth∞Grpd]]. The following definition may be understood as a direct generalization of the description of ordinary $G$-connections as cocycles in the stack $\mathbf{B}G_{conn}$ as discussed at [[connection on a bundle]].
 
-We discuss connections on $G$-[[principal ∞-bundle]]s for $G \in $ [[Smooth∞Grpd]] an [[∞-Lie group|smooth ∞-group]] that arises from [[Lie integration]] of an [[L-∞ algebra]] $\mathfrak{g}$.
+We discuss now connections on those $G$-[[principal ∞-bundle]]s for which $G \in $ [[Smooth∞Grpd]] is an [[∞-Lie group|smooth ∞-group]] that arises from [[Lie integration]] of an [[L-∞ algebra]] $\mathfrak{g}$.
 
-(...)
+Let $\mathfrak{g} \in L_\infty \stackrel{CE}{\hookrightarrow} $ [[dgAlg]]${}^{op}$ be an [[L-∞ algebra]] over the [[real number]]s and of [[finite type]] with [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ and [[Weil algebra]] $W(\mathfrak{g})$.
 
-We have seen above for $\mathfrak{g}$ an $\infty$-Lie algebroid the object
-$\exp(\mathfrak{g})_{diff}$ that classifies [[pseudo-connection]]s
-on $\exp(\mathfrak{g})$-principal $\infty$-bundles and serves to support the $\infty$-Chern-Weil homomorphism. We now discuss the genuine $\infty$-connections among these pseudo-connections. From the point of view of the general abstract theory these are particularly nice representatives of more intrinsically defined structures. 
+For $X$ a [[smooth manifold]], write $\Omega^\bullet(X) \in dgAlg$ for the [[de Rham complex]] of smooth [[differential form]]s. For $k \in \mathbb{N}$ let $\Delta^k$ be the standard $k$-[[simplex]] regarded as a smooth [[manifold with corners]] in the standard way. Write $\Omega^\bullet_{si}(X \times \Delta^k)$ for the sub-[[dg-algebra]] of differential forms with sitting instants perpendicular to the boundary of the simplex, and $\Omega^\bullet_{si,vert}(X\times \Delta^k)$ for the further sub-dg-algebra of [[vertical differential form]]s with respect to the canonical projection $X \times \Delta^k \to X$. 
 
-For $X$ a [[smooth manifold]] and $\mathfrak{g}$ an [[∞-Lie algebra]] or more generally an [[∞-Lie algebroid]], a  **$\infty$-Lie algebroid valued differential form** on $X$ is a morphism of [[dg-algebra]]s
++-- {: .un_defn}
+###### Definition
+
+
+A morphism
 
 $$
   \Omega^\bullet(X)
@@ -51,7 +53,7 @@ $$
   A
 $$
 
-from the [[Weil algebra]] of $\mathfrak{g}$ to the [[de Rham complex]] of $X$. Dually this is a morphism of [[∞-Lie algebroid]]s
+in [[dgAlg]] we call an [[∞-Lie algebra valued differential forms|L-∞ algebra valued differential form]] with values in $\mathfrak{g}$, dually a morphism of [[∞-Lie algebroid]]s
 
 $$
   A : T X \to inn(\mathfrak{g})
@@ -65,11 +67,12 @@ $$
   \Omega^\bullet(X) \stackrel{A}{\leftarrow}
   W(\mathfrak{g})
   \stackrel{F_{(-)}}{\leftarrow}
-  \mathfrak{g}^*[1]
+  \mathfrak{g}^*[2]
   : 
   F_{A}
-  \,.
 $$
+
+that injects the shifted generators into the [[Weil algebra]].
 
 Precisely if the curvatures vanish does the morphism factor through the [[Chevalley-Eilenberg algebra]] 
 
@@ -105,11 +108,82 @@ $$
 
 where $inv(\mathfrak{g}) \to W(\mathfrak{g})$ is the inclusion of the [[invariant polynomial]]s. 
 
+=--
+
+We define now [[simplicial presheaves]] over the [[site]] [[CartSp]]${}_{smooth} \hookrightarrow $ [[SmoothMfd]] of [[Cartesian space]]s and [[smooth function]]s between them.
 
 +-- {: .un_defn}
 ###### Definition
 
-For $U$ a [[smooth manifold]], the **$\infty$-groupoid of $\mathfrak{g}$-valued forms is the [[Kan complex]]
+Write $\exp(\mathfrak{g}) \in [CartSp_{smooth}^{op}, sSet]$ for the simplicial presheaf given by
+
+$$
+  \exp(\mathfrak{g}) : 
+  (U,[k])
+  \mapsto
+  \left\{
+    \Omega^\bullet_{si,vert}(U \times\Delta^k)
+     \stackrel{A_{vert}}{\leftarrow}
+    CE(\mathfrak{g})
+  \right\}
+$$
+
+(the untruncated [[Lie integration]] of $\mathfrak{g}$).
+
+Write $\exp(\mathfrak{g})_{diff} \in [CartSp_{smooth}^{op}, sSet]$ for the simplicial presheaf given by
+
+
+$$
+  \exp(\mathfrak{g})_{diff} :
+  (U,[k])
+  \mapsto
+  \left\{
+     \array{
+      \Omega^\bullet_{si,vert}(U \times\Delta^k)
+       &\stackrel{A_{vert}}{\leftarrow}&
+      CE(\mathfrak{g})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet_{si}(U \times \Delta^k)
+      &\stackrel{A}{\leftarrow}&
+      W(\mathfrak{g})
+    }
+  \right\}
+  \,.
+$$
+
+Write $\exp(\mathfrak{g})_{ChW} \in [CartSp_{smooth}^{op}, sSet]$ for the simplicial presheaf given by
+
+$$
+  \exp(\mathfrak{g})_{ChW}
+  :
+  (U,[k])
+  \mapsto
+  \left\{
+     \array{
+      \Omega^\bullet_{si,vert}(U \times\Delta^k)
+       &\stackrel{A_{vert}}{\leftarrow}&
+      CE(\mathfrak{g})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet_{si}(U \times \Delta^k)
+      &\stackrel{A}{\leftarrow}&
+      W(\mathfrak{g})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U)
+      &\stackrel{\langle F_A\rangle}{\leftarrow}&
+      inv(\mathfrak{g})
+    }
+  \right\}
+  \,.
+$$
+
+
+Define the [[simplicial presheaf]] $\exp(\mathfrak{g})_{conn}$ by
 
 $$
   \exp(\mathfrak{g})_{conn}(U)
@@ -117,7 +191,7 @@ $$
   [k]
   \mapsto
   \left\{
-     \Omega^\bullet(U \times \Delta^k)
+     \Omega^\bullet_{si}(U \times \Delta^k)
       \stackrel{A}{\leftarrow}
      W(\mathfrak{g})
      \;\;
@@ -127,64 +201,51 @@ $$
   \right\}
 $$
 
-
-whose [[k-morphism]]s are $\mathfrak{g}$-valued forms $A$ on $U \times \Delta^k$ with sitting instants, and with the property that their [[curvature]] vanishes on vertical vectors.
-
-The canonical morphism
-
-$$
-  \exp(\mathfrak{g})_{conn} \to \exp(\mathfrak{g})
-$$
-
-to the untruncated [[Lie integration]] of $\mathfrak{g}$ is given by restriction of $A$ to [[vertical differential form]]s (see below).
-
 =--
 
-+-- {: .un_remark}
-###### Remark
+Here on the right we have in each case the [[set]]s of horizontal morphisms in [[dgAlg]] that make [[commuting diagram]]s in [[dgAlg]] as indicated, with the vertical morphisms being the canonical projections and inclusions. The functoriality in $f : K \to U$ and $\rho : [k] \to [l]$ is by the evident precomposition with the pullback of differential forms $\Omega^\bullet(U \times \Delta^k) \stackrel{(f,id)^*}{\to} \Omega^\bullet(K \times \Delta^k)$ and $\Omega^\bullet(U \times \Delta^l) \stackrel{(id,\rho)^*}{\leftarrow} \Omega^\bullet(U, \times \Delta^k)$.
 
-Here we are thinking of $U \times \Delta^k \to U$ as a trivial [[bundle]].
 
-The _first_ [[Ehresmann connection|Ehresmann condition]] 
-can be identified with the conditions on lifts $\nabla$ in [[∞-anafunctor]]s
++-- {: .un_prop #SequenceOfInclusionsOfCoefficients}
+###### Proposition
+
+There are canonical morphisms in $[CartSp_{smooth}^{op},sSet]$ between these objects
 
 $$
   \array{
-    && \exp(\mathfrak{g})_{conn}
+    \exp(\mathfrak{g})_{conn}
+    &\hookrightarrow&
+    \exp(\mathfrak{g})_{ChW}
+    &\hookrightarrow&
+    \exp(\mathfrak{g})_{diff}
     \\
-    & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+    && && \downarrow
     \\
-    C(U) &\stackrel{g}{\to}& \exp(\mathfrak{g})
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    X
+    && && \exp(\mathfrak{g})
   }
+  \,,
 $$
 
-that define [[connections on ∞-bundles]]. 
-
-=--
-
-
-
-+-- {: .un_prop}
-###### Proposition
-
-For $A \in \exp(\mathfrak{g})_{conn}(U,[k])$ a $\mathfrak{g}$-valued form on $U \times \Delta^k$ and for $\langle - \rangle \in W(\mathfrak{g})$ any [[invariant polynomial]], the corresponding [[curvature characteristic form]] $\langle F_A \rangle \in \Omega^\bullet(U \times \Delta^k)$ descends down to $U$.
+where the horizontal morphisms are [[monomorphism]]s of [[simplicial presheaves]] and the vertical morphism is over each $U \in CartSp$ an equivalence of [[Kan complexes]] (it is a weak equivalence between fibrant objects in the projective [[model structure on simplicial presheaves]]).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-It is sufficient to show that for all $v \in \Gamma(T \Delta^k)$ we have
+The inclusion $\exp(\mathfrak{g})_{ChW} \hookrightarrow \exp(\mathfrak{g})_{dff}$ is clear. The weak equivalence $\exp(\mathfrak{g})_{diff} \to \exp(\mathfrak{g})$ is discussed at [[Smooth∞Grpd]] (but is also directly verified).
+
+To see the inclusion $\exp(\mathfrak{g})_{conn} \hookrightarrow \exp(\mathfrak{g})_{ChW}$ we need to check that the horizonality condition $\iota_v F_A = 0$ on the [[curvature]] of a $\mathfrak{g}$-valued form $A$ for all [[vector field]]s $v$ tangent to the simplex implies that all the [[curvature characteristic form]]s $\langle F_A\rangle$ are _basic forms_ that "descend to $U$", hence that are in the image of the inclusion $\Omega^\bullet(U) \to \Omega^\bullet_{si}(U \times \Delta^k)$.
+
+For this it is sufficient to show that for all $v \in \Gamma(T \Delta^k)$ we have
 
 1. $\iota_v \langle F_A \rangle = 0$;
 
-1. $\mathcal{L}_v \langle F_A \rangle = 0$.
+1. $\mathcal{L}_v \langle F_A \rangle = 0$
 
-The first condition is evidently satisfied if already $\iota_v F_A = 0$. The second condition follows with [[Cartan calculus]] and using that $d_{dR} \langle F_A\rangle = 0$:
+where in the second line we have the [[Lie derivative]] $\mathcal{L}_v$ along $v$.
+
+The first condition is evidently satisfied if already $\iota_v F_A = 0$. The second condition follows with [[Cartan calculus]] and using that $d_{dR} \langle F_A\rangle = 0$ (which holds as a consequence of the definition of [[invariant polynomial]]):
 
 $$
   \mathcal{L}_v \langle F_A \rangle = 
@@ -200,12 +261,67 @@ $$
 +-- {: .un_lemma}
 ###### Remark
 
-For a general $\infty$-Lie algebra $\mathfrak{g}$ the curvature forms $F_A$ themselves are not necessarily closed (rather they satisfy the [[Bianchi identity]]), hence requiring them to have no component along the simplex does not imply that they descend. This is different for abelian $\infty$-Lie algebras: for them the curvature forms themselves are already closed, and hence are themselves already curvature characteristics that do descent.
+For a general [[L-∞ algebra]] $\mathfrak{g}$ the [[curvature]] forms $F_A$ themselves are not necessarily closed (rather they satisfy the [[Bianchi identity]]), hence requiring them to have no component along the simplex does not imply that they descend. This is different for abelian [[L-∞ algebra]]s: for them the curvature forms themselves are already closed, and hence are themselves already curvature characteristics that do descent. 
 
 =--
 
 
-It is useful to organize the $\mathfrak{g}$-valued form $A$, together with its restriction $A_{vert}$ to [[vertical differential form]]s and with its [[curvature characteristic form]]s in the [[commuting diagram]]
+For $n \in \mathbb{N}$ 
+let $\mathbf{cosk}_{n+1} : sSet \to sSet$ be the [[simplicial coskeleton]] functor. Its prolongation to simplicial presheaves we denote here $\tau_n$ and write 
+
+$$
+ \tau_n \exp(\mathfrak{g}) \in [CartSp_{smooth}^{op}, sSet]
+$$
+
+etc. This is the [[delooping]] 
+
+$$
+  \tau_n \exp(\mathfrak{g}) = \mathbf{B}G
+$$
+
+of the universal [[Lie integration]] of $\mathfrak{g}$ to an [[∞-Lie group|smooth n-group]] $G$.
+
++-- {: .un_def}
+###### Definition
+
+For any $X \in [CartSp_{smooth}^{op}, sSet]$ and $\hat X \to X$ any cofibrant [[resolution]] in the local projective [[model structure on simplicial presheaves]] (see [[Smooth∞Grpd]] for details), we say that the [[sSet]]-[[hom object]]
+
+* $[CartSp_{smooth}^{op}, sSet](\hat X, \tau_n \exp(\mathfrak{g}))$
+  is the [[∞-groupoid]] of smooth $G$-[[principal ∞-bundle]]s on $X$;
+
+* $[CartSp_{smooth}^{op}, sSet](\hat X, \tau_n \exp(\mathfrak{g})_{diff})$
+  is the [[∞-groupoid]] of smooth $G$-[[principal ∞-bundle]]s on $X$ equipped with **pseudo $\infty$-connection**;
+
+* $[CartSp_{smooth}^{op}, sSet](\hat X, \tau_n \exp(\mathfrak{g})_{conn})$
+  is the [[∞-groupoid]] of smooth $G$-[[principal ∞-bundle]]s on $X$ equipped with **$\infty$-connection**.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+In view of this definition we may read the [above](#SequenceOfInclusionsOfCoefficients) sequence of morpisms of coefficient objects as follows:
+
+$$
+  \array{
+    \exp(\mathfrak{g})_{conn} &&& genuine\;connections
+    \\
+    \downarrow
+    \\
+    \exp(\mathfrak{g})_{ChW} &&& pseudo-connection\;with\;global\;curvature\;characteristics 
+    \\
+    \downarrow
+    \\
+    \exp(\mathfrak{g})_{diff} &&& pseudo-connections
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \exp(\mathfrak{g}) &&& bare bundles
+  }
+  \,,
+$$
+
+As we shall see in more detail below, the components of an $\infty$-connection in terms of the above diagrams we may think of as follows:
 
 $$
     \array{
@@ -233,124 +349,20 @@ $$
     }
 $$
 
-in [[dgAlg]].
-
-The commutativity of this diagram is implied by $\iota_v F_A = 0$.
-
-+-- {: .un_defn}
-###### Definition
-
-Write $\exp(\mathfrak{g})_{CW}(U)$ for the $\infty$-groupoid of $\mathfrak{g}$-valued forms fitting into such diagrams.
-
-
-$$
-  \exp(\mathfrak{g})_{CW}(U)
-  :
-  [k]
-  \mapsto
-  \left\{
-    \array{
-      \Omega^\bullet(U \times \Delta^k)_{vert}
-      &\stackrel{A_{vert}}{\leftarrow}&
-      CE(\mathfrak{g})
-      \\
-      \uparrow && \uparrow
-      \\
-      \Omega^\bullet(U \times \Delta^k)
-      &\stackrel{A}{\leftarrow}&
-      W(\mathfrak{g})
-      \\
-      \uparrow && \uparrow
-      \\
-      \Omega^\bullet(U)
-      &\stackrel{\langle F_A\rangle}{\leftarrow}&
-      inv(\mathfrak{g})
-    }
-  \right\}
-  \,.
-$$
-
 =--
+
+
+
 
 +-- {: .un_remark}
 ###### Remark
 
-If we just consider the top horizontal morphism in this diagram we obtain the object
 
-$$
-  \exp(\mathfrak{g})(U)
-  :
-  [k]
-  \mapsto
-  \left\{
-    \array{
-      \Omega^\bullet(U \times \Delta^k)_{vert}
-      &\stackrel{A_{vert}}{\leftarrow}&
-      CE(\mathfrak{g})
-     }
-  \right\}
-$$
+In full [[Chern-Weil theory in Smooth∞Grpd]] the fundamental object of interest is really $\exp(\mathfrak{g})_{diff}$ -- the object of [[pseudo-connection]]s, which serves as the correspondence object for an [[∞-anafunctor]] out of $\exp(\mathfrak{g})$ that presents the differential characteristic classes on $\exp(\mathfrak{g})$. From an abstract point of view the other objects only serve the purpose of picking particularly nice representatives.
 
-discussed in detail at [[Lie integration]]. If we consider the top square of the diagram we obtain the object
-
-$$
-  \exp(\mathfrak{g})_{diff}(U)
-  :
-  [k]
-  \mapsto
-  \left\{
-    \array{
-      \Omega^\bullet(U \times \Delta^k)_{vert}
-      &\stackrel{A_{vert}}{\leftarrow}&
-      CE(\mathfrak{g})
-      \\
-      \uparrow && \uparrow
-      \\
-      \Omega^\bullet(U \times \Delta^k)
-      &\stackrel{A}{\leftarrow}&
-      W(\mathfrak{g})
-   }
-  \right\}
-  \,.
-$$
-
-This forms a [[resolution]] of $\exp(\mathfrak{g})$ and may be thought of as the $\infty$-groupoid of [[pseudo-connection]]s.
-
-
-We have an evident sequence of morphisms
-
-$$
-  \array{
-    \exp(\mathfrak{g})_{conn} &&& genuine\;connections
-    \\
-    \downarrow
-    \\
-    \exp(\mathfrak{g})_{CW} &&& pseudo-connection\;with\;global\;curvature\;characteristics 
-    \\
-    \downarrow
-    \\
-    \exp(\mathfrak{g})_{diff} &&& pseudo-connections
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    \exp(\mathfrak{g}) &&& bare bundles
-  }
-  \,,
-$$
-
-where we label the objects by the structures they classify, as discussed at [[∞-Chern-Weil theory]].
-
-
-Here the botton morphism is a weak equivalence and the others are [[monomorphism]]s. 
-
-Notice that in full [[∞-Chern-Weil theory]] the fundamental object of interest is really $\exp(\mathfrak{g})_{diff}$ -- the object of [[pseudo-connection]]s. The other objects only serve the purpose of picking particularly nice representatives: 
-
-the object $\exp(\mathfrak{g})_{CW}$ may contain pseudo-connections, those for which at least the associated [[circle n-bundles with connection]] given by the $\infty$-Chern Weil homomorphism are genuine connections.
-
-This distinction is important: over objects $X \in $ [[?LieGrpd]] that are not [[smooth manifold]]s but for instance [[orbifold]]s, the genuine connections for higher Lie algebras do _not_ exhaust all nonabelian differential cocycles. This just means that not every differential class in this case does have a nice representative in the usual sense.
+This distinction is important: over objects $X \in $ [[Smooth∞Grpd]] that are not [[smooth manifold]]s but for instance [[orbifold]]s, the genuine $\mathfrak{g}$-connections for general higher $\mathfrak{g}$ do _not_ exhaust all nonabelian differential cocycles. This just means that not every differential class in this case does have a nice representative.
 
 =--
-
 
 
 ## Examples
@@ -358,7 +370,7 @@ This distinction is important: over objects $X \in $ [[?LieGrpd]] that are not [
 
 ### 1-Morphisms: integration of infinitesimal gauge transformations {#InfGaugeTrafo}
 
-The 1-[[morphism]]s in $\exp(\mathfrak{g})(U)$ may be thought of as [[gauge transformation]]s between $\mathfrak{g}$-valued forms. We unwind what these look like concretely.
+The 1-[[morphism]]s in $\exp(\mathfrak{g})_{conn}(U)$ may be thought of as [[gauge transformation]]s between $\mathfrak{g}$-valued forms. We unwind what these look like concretely.
 
 
 +-- {: .un_defn}
