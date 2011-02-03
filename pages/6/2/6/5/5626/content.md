@@ -1,0 +1,35 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[2-functor]] $F : C \to D$ between [[2-categories]] is **locally full** if for all [[object]]s $c_1, c_2 \in C$ its component [[functor]] $F_{c_1,c_2} : C(c_1,c_2) \to D(F(c_1), F(c_2))$ is a [[full functor]].
+
+If this is even a [[full and faithful functor]] then $F$ exhibits each $C(c_1,c_2)$ as a [[full subcategory]] of $D(F(c_1), F(c_2))$.
+
+A _locally full sub 2-category_ is one whose embedding 2-functor is componentwise full and faithful.
+
+## Examples
+
+The sub-2-category of $Prof_{rep} \hookrightarrow$ [[Prof]] on all [[representable profunctor]]s is locally full.
+
+## Related concepts
+
+* [[full subcategory]]
+
+* [[full sub-2-category]]
+
+* [[full sub-(∞,1)-category]]
+
+[[!redirects locally full sub-2-categories]]
