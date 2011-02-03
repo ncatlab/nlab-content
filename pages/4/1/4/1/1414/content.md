@@ -427,52 +427,43 @@ The homotopy coherent nerve operation was introduced, explicitly, in
 
 Cordier made the link with earlier work by R.D. Leitch.
 
-* R. D. Leitch, _The Homotopy Commutative Cube_, J. London Math. Soc., (2) 9, (1974), 23 &#8211; 
-29.
+* R. D. Leitch, _The homotopy commutative cube_, J. London Math. Soc. (2) 9, (1974), 23&#8211;29.
 
 as well as the paper by [[Vogt]] (see below) and earlier work of [[Michael Boardman|Boardman]] and [[Rainer Vogt|Vogt]],
 
-* [[Michael Boardman] and [[Rainer Vogt]], 1973, _Homotopy Invariant algebraic structures on topological 
-spaces_, number 347, Lecture Notes in Maths, Springer-Verlag.
+* [[Michael Boardman]], [[Rainer Vogt]], 1973, _Homotopy invariant algebraic structures on topological spaces_, Lec. Notes in Math. __347__, Springer-Verlag.
 
-With [[Tim Porter]], Cordier proved the simplicial generalisation of a theorem of [[Rainer Vogt|Vogt]], in
+With [[Tim Porter]], Cordier proved the simplicial generalisation of a theorem of [[Rainer Vogt|Vogt]] in
 
-*  [[Jean-Marc Cordier]] and [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, 
-Math. Proc. Cambridge Philos. Soc., 100, (1986), 65 &#8211; 90.
+*  [[Jean-Marc Cordier]], [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, Math. Proc. Cambridge Philos. Soc. __100__, (1986), 65 &#8211; 90.
 
 This theorem describes an equivalence between the category obtained by inverting the 'levelwise' homotopy equivalence in a category of diagrams, and the homotopy category of [[homotopy coherent diagram]]s in the sense of Vogt. This paper includes an explicit proof that the homotopy coherent nerve of a locally Kan simplicially enriched category is a quasicategory. As well as the harder result on when [[outer horn]]s in this quasicategory can be filled.
 
 Vogt's original version of the theorem is in 
 
-* [[Rainer Vogt]], _Homotopy limits and colimits_, Math. Z., 134, (1973), 11 &#8211; 52.  
+* [[Rainer Vogt]], _Homotopy limits and colimits_, Math. Z. __134__, (1973), 11&#8211;52.  
  
 Two other papers are relevant to this:
 
-*  [[Jean-Marc Cordier]] and [[Tim Porter]], _Maps between homotopy coherent diagrams_, Top. and its Appls., 
-28, (1988), 255 &#8211; 275. 
+*  [[Jean-Marc Cordier]], [[Tim Porter]], _Maps between homotopy coherent diagrams_, Top. and its Appl. __28__, (1988), 255 &#8211; 275. 
 
-and 
-
-* [[Jean-Marc Cordier]] and [[Tim Porter]], _Fibrant diagrams, rectifications and a construction of Loday_, J. 
-Pure. Applied Alg., 67, (1990), 111 &#8211; 124.
+* [[Jean-Marc Cordier]], [[Tim Porter]], _Fibrant diagrams, rectifications and a construction of Loday_, J. Pure. Applied Alg. __67__, (1990), 111 &#8211; 124.
 
 An elementary discussion of the concept of homotopy coherence forms Chapter V of
 
-*  K. H. Kamps and [[Tim Porter]], 1997, _Abstract Homotopy and Simple Homotopy Theory_, World 
-Scientific Publishing Co. Inc., River Edge, NJ. 
+*  K. H. Kamps, [[Tim Porter]], 1997, _Abstract Homotopy and Simple Homotopy Theory_, World Scientific Publishing Co. Inc., River Edge, NJ. 
 
-The construction has been rediscovered several times more recently, for instance, for the role played by the simplicial nerve in the context of relating quasi-categories to simplicially enriched categories as models for $(\infty,1)$-categories see section 1.1.5 of
+For the role played by the simplicial nerve in the context of relating quasi-categories to simplicially enriched categories as models for $(\infty,1)$-categories see 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_, section 1.1.5
+* [[A. Joyal]], _The theory of quasi-categories and its applications_, lectures at CRM Barcelona February 2008, draft [hc2.pdf](http://www.crm.cat/HigherCategories/hc2.pdf)
+* A Joyal, _Notes on quasicategories_, ([draft](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf))
 
-This emphasises the adjunction induced by the h.c. / simplicial nerve construction. 
+This emphasises the adjunction corresponding to the homotopy coherent ("simplicial") nerve construction. 
 
 A review of this latter aspect is also in
 
 * Vivek Dhand, _The simplicial nerve of a simplicial category_ ([pdf](http://www.math.msu.edu/~dhand/sSet.pdf))
-
-
-and 
 
 * Mitya Boyarchenko, _Notes and exercise on $\infty$-categories_ ([pdf](http://math.uchicago.edu/~mitya/langlands/quasicategories.pdf))
 
@@ -488,5 +479,6 @@ Two query-discussions on terminology and concrete description of the coherent/"s
 [[!redirects homotopy-coherent nerve]]
 [[!redirects homotopy-coherent nerves]]
 [[!redirects coherent nerve]]
+[[!redirects coherent nerves]]
 [[!redirects nerve of a simplicial category]]
 [[!redirects simplicial nerve of simplicial categories]]
