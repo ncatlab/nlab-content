@@ -647,44 +647,39 @@ $$
 
 such that the curvature components have no leg along the simplices (and such that a cocycle condition as above holds).
 
-This constraint is a systems of partial differential equations. 
+This constraint is a systems of partial differential equations. We shall find a solution over each simplex by solving a system of differental equations with boundary conditions chosen on every simplex such that the result solves the Cech-cocycle conditoons
 
 Define for all $k \in \mathb{N}$ and all combinations of indices $(i_0, \cdots, i_{k+1})$ the differential form
 
 $$
-  A^{i_{k+1}}_{i_0, \cdots, i_k} \in \Omega^\bullet_{si}(U_{i_0, \cdots, i_k} \times \Delta^k)
+  A^{i_{k+1}}_{i_0, \cdots, i_k} \in \Omega^\bullet_{si}(U_{i_0, \cdots, i_k} \times \Delta^{k})
 $$ 
 
-to be the form which at a point $p \in \Delta^k$ has the value given as follows:
-
-let $v \in \Gamma(T \Delta^{k+1})$ be the vector field parallel to the line that connects the 0-vertex of the $(k+1)$-simplex with $p$ regarded as a point in its face opposite to the 0-vertex. Take then $A^{i_{k+1}}_{i_0, \cdots, i_k}(p)$ to be the unique solution to the [[differential equation]]
+by taking its valued at any $p \in \Delta^k$ to be the unique solution to the differential equation
 
 $$
   \begin{aligned}
     \frac{\partial}{\partial v} A^{i_{k+1}}_{i_0, \cdots, i_k}
     & =
-    \nabla_v \lambda_{i_0, \cdots, i_{k+1}}
-    \\
-    :=
-  d_U (\iota_{v} \lambda_{i_0, \cdots, i_{k+1}})
+  d_U (\iota_{v} \lambda_{i_0, \cdots, i_k, i_{k+1}})
   + 
-  [(\iota_{v} \lambda_{i_0, \cdots, i_{k+1}}), 
+  [(\iota_{v} \lambda_{i_0, \cdots, i_k, i_{k+1}}), 
      A^{i_{k+1}}_{i_0, \cdots, i_k}]
   +  
-  [(\iota_{v}\lambda_{i_0, \cdots, i_{k+1}} , 
+  [(\iota_{v} \lambda_{i_0, \cdots, i_k, i_{k+1}} , 
    A^{i_{k+1}}_{i_0, \cdots, i_k}, 
    A^{i_{k+1}}_{i_0, \cdots, i_k}]
   + 
   \cdots
   \end{aligned}
-  \,.
 $$
 
-for the initial value $A^{i_{k+1}}_{i_0, \cdots, i_k} = 0$ at the $(k+1)$-vertex of $\Delta^{k+1}$
+integrated along the straight line from the $(k+1)$-vertex of 
+$\Delta^{k+1}$ to $p$ regarded as a point in the face opposite the $(k+1)$-vertex with $v$ the tangent to that straight line and for the initial vaue 
+$A^{i_{k+1}}_{i_0, \cdots, i_k} = 0$.
 
-By the [[Bianchi identity]] and the fact that the curvature with all components along the simplex vanishes, it follows that this is an integrable system of partial differential equations. 
 
-Set then
+Set then 
 
 $$
   A_{i_0, \cdots, i_k} := \sum_{i_{k+1}} \rho_{i_{k+1}} A^{i_{k+1}}_{i_0, \cdots, i_k}
