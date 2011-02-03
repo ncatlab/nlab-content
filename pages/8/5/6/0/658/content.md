@@ -256,3 +256,6 @@ _Todd_: There is an inevitable debate here about whether one should use $C^{op} 
 [[!redirects profunctors]]
 [[!redirects distributor]]
 [[!redirects distributors]]
+
+[[!redirects representable profunctor]]
+[[!redirects representable profunctors]]
