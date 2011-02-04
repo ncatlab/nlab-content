@@ -22,6 +22,10 @@
 
   * [[Chern-Weil homomorphism]]
 
+  * [[secondary characteristic class]]
+
+  * [[differential characteristic class]]
+
 ## Higher abelian differential cohomology
 
 * [[ordinary differential cohomology]]
@@ -47,7 +51,7 @@
 
 * [[connection on a 2-bundle]], [[connection on an ∞-bundle]]
 
-* [[∞-Chern-Weil theory]]
+* [[Chern-Weil theory in Smooth∞Grpd]]
 
   * [[∞-Lie algebra cohomology]]
 
