@@ -70,3 +70,6 @@ Another reference for the classical theory is
 [[!redirects knots]]
 [[!redirects Knot]]
 [[!redirects Knots]]
+
+
+[[!redirects knot theory]]
