@@ -236,6 +236,10 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 
 ### Concrete examples
 
+* [[Lie algebra]]
+
+* [[line Lie n-algebra]]
+
 * [[automorphism Lie 2-algebra]]
 
 * [[inner derivation Lie 2-algebra]]
