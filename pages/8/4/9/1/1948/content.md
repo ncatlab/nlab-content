@@ -59,6 +59,17 @@ For $C$ a [[combinatorial model category]] and $D$ a [[small category]] the proj
 
 * are [[simplicial model categories]] if $C$ is a [[simplicial model category]], with respect to the [[sSet]]-[[enriched category|enrichment]] for which the [[sSet]]-[[copower|tensoring]] is objectwise that of $C$.
 
+=--
+
+
+The existence of the unenriched model structure apears as [[Higher Topos Theory|HTT, prop. 2.8.2]]
+The enriched case is [[Higher Topos Theory|HTT, prop. A.3.3.2]] and the remarks following that.
+The statement about properness appears as [[Higher Topos Theory|HTT, remark A.2.8.4]].
+
++-- {: .un_prop}
+###### Proposition
+
+
 The cofibrations in $[C, A]_{proj}$ are generated from (i.e. are the [[weakly saturated class of morphisms]] defined by) the morphisms of the form
 
 $$
@@ -70,7 +81,14 @@ to the [[coproduct]] $\coprod_{C(c,c')} A$ of $|C(c,c')|$ copies of $A$.
 
 In particular, every cofibration if $[C,A]_{proj}$ is in particular a cofibration in $[C,A]_{inj}$. Similarly, every fibration in $[C,A]_{inj}$ is in particular a fibration in $[C,A]_{proj}$
 
-So the identity functors
+=--
+
+This is argued in the begiining of the proof of [[Higher Topos Theory|HTT, lemma A.2.8.3]].
+
++-- {: .un_prop}
+###### Corollary
+
+The [[identity]] [[functor]]s
 
 $$
   [D,C]_{proj} \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
@@ -121,12 +139,6 @@ In the $sSet$-enriched case, if $p : D_1 \to D_2$ is an equivalence in the [[mod
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-For the unenriched case this is [[Higher Topos Theory|HTT, prop A.2.8.2]] and the following remarks. The enriched case is [[Higher Topos Theory|HTT, prop. A.3.3.2]] and the remarks following that.
-
-=--
 
 
 
