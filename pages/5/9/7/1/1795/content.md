@@ -41,7 +41,7 @@ Of course, the property of "being equal to the essential image" (said of a subca
 
 ## Remarks
 
-* the *image* may contain some morphisms or cells which are not the images of any cell in $A$, namely the [[composite|compositions]] of $B$-composable chains of such image cells, whose preimage cells do not form any $A$-composable chain;
+* the *image* of a functor $F:A\to B$  may contain some morphisms or cells which are not the images of any cell in $A$, namely the [[composite|compositions]] of $B$-composable chains of such image cells, whose preimage cells do not form any $A$-composable chain;
 * the *essential image* in addition contains precisely all equivalent $k$-cells to the $k$-cells of the image for all $0 \leq k \leq n$.
 
 [[!redirects essential images]]
