@@ -28,18 +28,48 @@ The HOMFLY-PT polynomial is a [[knot]] and [[link]] [[knot invariants|invariant]
    1. $\alpha^{-1} \cdot P(L_+) - \alpha \cdot P(L_-) = z \cdot P(L_0)$.
    1. Using *three* variables: $x \cdot P(L_+) + y \cdot P(L_-) + z \cdot P(L_0) = 0$.
 
-$$
-\begin{array}{ccc}
-\begin{svg}[[!include SVG skein positive crossing]]\end{svg} &
-\begin{svg}[[!include SVG skein negative crossing]]\end{svg} &
-\begin{svg}[[!include SVG skein no crossing]]\end{svg} \\
-L_+ & L_- & L_0
-\end{array}
-$$
+   $$
+   \begin{array}{ccc}
+   \begin{svg}[[!include SVG skein positive crossing]]\end{svg} &
+   \begin{svg}[[!include SVG skein negative crossing]]\end{svg} &
+   \begin{svg}[[!include SVG skein no crossing]]\end{svg} \\
+   L_+ & L_- & L_0
+   \end{array}
+   $$
+
+From the rules, one can read off the relationships between the different formulations:
+
+1. $y = \alpha = a^{-1}$
+1. $x = - \alpha^{-1} = -a$
+1. $a = - i l$, $l = i a$
+1. $z = i m$, $m = - i z$.
 
 ## Properties ##
 
-The HOMFLY polynomial generalises both the [[Jones polynomial]] and the [[Alexander polynomial]].  To get the Jones polynomial, substitute $a = q^{-1}$ and $z = q^{1/2} - q^{-1/2}$.  To get the [[Conway polynomial]], substitute $a = 1$, from which one can read off the [[Alexander polynomial]].
+The HOMFLY polynomial generalises both the [[Jones polynomial]] and the [[Alexander polynomial]] (equivalently, the [[Conway polynomial]]).
 
+* To get the [[Jones polynomial]], make one of the following substitutions:
+
+  1. $a = q^{-1}$ and $z = q^{1/2} - q^{-1/2}$
+  1. $\alpha = q$ and $z = q^{1/2} - q^{-1/2}$
+  1. $l = i q^{-1}$ and $m = i (q^{-1/2} - q^{1/2})$
+
+* To get the [[Conway polynomial]], make one of the following substitutions:
+
+  1. $a = 1$
+  1. $\alpha = 1$
+  1. $l = i$, $m = -i z$
+
+* To get the [[Alexander polynomial]], make one of the following substitutions:
+
+  1. $a = 1$, $z = q^{1/2} - q^{-1/2}$
+  1. $\alpha = 1$, $z = q^{1/2} - q^{-1/2}$
+  1. $l = i$, $m = i (q^{-1/2} - q^{1/2})$
 
 [[!redirects HOMFLY polynomial]]
+[[!redirects homfly-pt polynomial]]
+[[!redirects homfly polynomial]]
+[[!redirects homfly-pt]]
+[[!redirects homfly]]
+[[!redirects HOMFLY-PT]]
+[[!redirects HOMFLY]]
