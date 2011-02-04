@@ -214,7 +214,7 @@ where
      \mathbb{R}F : Ch_\bullet(\mathcal{A}) \stackrel{P}{\to}
       Ch_\bullet(\mathcal{A})
       \stackrel{Ch_\bullet(F)}{\to}
-     Ch_\bullet(\mathcal{A})
+     Ch_\bullet(\mathcal{B})
      \,,
    $$
 
