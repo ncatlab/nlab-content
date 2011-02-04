@@ -162,13 +162,13 @@ One can show that comma objects are always discrete fibrations, and dually cocom
 
 ### Original sources
 
-The original _published_ source for profunctors is
+The original published source for profunctors is
 
 * [[Jean Bénabou,]] _Les distributeurs_, Univesit&#233; Catholique de Louvain, Institut de Math&#233;matique Pure et Appliqu&#233;e,  rapport 33,  1973
 
-based on several series of lectures starting in 1969, but these notes are hard to come by. They are available from the author by request. 
+based on several series of lectures starting in 1969, but these notes are hard to come by. They are available from the author by request. Much (if not most) of the existing work on profunctors has been developed by B&#233;nabou.
 
-[[Marta Bunge]] independently developed some of the theory of profunctors in her 1966 PhD thesis
+[[Marta Bunge]] independently considered profunctors in chapter 3 of her unpublished 1966 PhD thesis
 
 * [[Marta Bunge]], _Categories of Set-Valued Functors_, University of Pennsylvania, 1966
 
@@ -176,7 +176,7 @@ based on suggestions by [[Bill Lawvere]], including the monograph
 
 * [[Michel Andre]], _Categories of Functors and Adjoint Functors_, Batelle Institute at Geneva, 1964
 
-There was a talk by [[Bill Lawvere]] at Oberwolfach in 1966, as well as one by Bunge, both of which mentioned profunctors in some way. There were notes taken by [[Anders Kock]] of Lawvere's talk, but there is only a passing mention of 'generalised functors' and their 'generalised matrix  multiplication' recorded.
+Some of these ideas were exposed at Oberwolfach in 1966. There are extant notes taken by [[Anders Kock]] of a talk by Bill Lawvere, but there is only a passing mention of 'generalised functors' (what are now called profunctors) and their 'generalised matrix  multiplication'.
 
 ### More recent accounts
 
