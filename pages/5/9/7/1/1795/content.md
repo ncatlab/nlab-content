@@ -29,27 +29,19 @@ For another definition of image of a functor, see [(2,1)-image](http://ncatlab.o
 
 ## Definitions
 
-(A concrete realization of) the __essential image__ of a [[functor]] $F: A\to B$ between [[category|categories]] or $n$-[[n-category|categories]] is the smallest [[replete subcategory]] of the target $n$-category $B$ containing the __image__ of $F$, which is in turn the smallest [[subcategory]] which contains all the $n$-cells which are strictly the images of $n$-cells in $A$.
+(A concrete realization of) the __essential image__ of a [[functor]] $F: A\to B$ between [[category|categories]] or $n$-[[n-category|categories]] is the smallest [[replete subcategory]] of the target $n$-category $B$ containing the __image__ of $F$.  (The *image* is, in turn, the smallest [[subcategory]] which contains all the $n$-cells which are strictly the images of $n$-cells in $A$.)
 
-+--{: .query}
-[[Mike Shulman]]: I don't think this is well-defined.  If the inclusion of the image is not [[pseudomonic functor|pseudomonic]], then it doesn't necessarily have a repletion.  I don't remember how I've heard "essential image" used in the past, but I think at least sometimes it means the essential *full* image, i.e. the repletion of the [[full image]].  If it doesn't mean that, then I don't know what it can mean for functors whose image is not pseudomonic.
+Note that if $F$ is not [[pseudomonic functor|pseudomonic]], then its essential image, defined in this way, need not be equivalent to its ordinary image.
 
-_Toby_:  I know the '[[weak coimage]]' and the '[[full image]]' as described in the last section of [this work](http://math.ucr.edu/home/baez/qg-spring2004/polynomials.pdf) for week 1 of [John's 2004 spring seminar](http://math.ucr.edu/home/baez/qg-spring2004/).
+## Considerations of evil
 
-[[Mike Shulman]]: Yes, but I don't think either of those is helpful.  The full image is, well, full, so its repletion would be the essential full image.  And the weak coimage need not be pseudomonic in general.
-=--
+Note that the property of "belonging to the image" (said of an object or morphism) is [[evil]]; of two [[equivalence|equivalent]] objects, one may belong while the other does not.  Passing to the essential image removes this, so that the property of "belonging to the essential image" is no longer evil.
 
-Note that the property of belonging to the image is [[evil]]; of two [[equivalence|equivalent]] objects, one may belong while the other does not.  Passing to the essential image precisely removes this evil.
+Of course, the property of "being equal to the essential image" (said of a subcategory) is evil, as is the property of "being replete".  But $D$ is a replete subcategory of $C$ if and only if the property of belonging to $D$ (said of an object or morphism) is not evil.
 
-+-- {: .query}
-_Zoran_: I disagree that it removes. Usual image in Set splits maps into epi onto image and mono into target.
-If in Cat one splits the functor into functor into image
-then the rest can be split into equivalence from image to essential image and a functor form essential image into final category which is fully faithful and replete. Repletness is a part which is still "evil".
-
-_Toby_:  It is *the property of belonging to the image* (said of an object or morphism) which is evil, while the property of belonging to the essential image (said of an object or morphism) is *not* evil.  Of course the property of being equal to the essential image (said of a subcategory) is evil; it must be, as it refers to equality of something other than top-level morphisms.  Even the property of being replete (again, said of a subcategory) is evil ... but $D$ is a replete subcategory of $C$ if and only if the property of belonging to $D$ (said of an object or morphism) is not evil.
-=--
-
-Note that:
+## Remarks
 
 * the *image* may contain some morphisms or cells which are not the images of any cell in $A$, namely the [[composite|compositions]] of $B$-composable chains of such image cells, whose preimage cells do not form any $A$-composable chain;
 * the *essential image* in addition contains precisely all equivalent $k$-cells to the $k$-cells of the image for all $0 \leq k \leq n$.
+
+[[!redirects essential images]]
