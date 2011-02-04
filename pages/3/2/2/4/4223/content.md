@@ -39,7 +39,7 @@ See also [[de Rham theorem]].
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $f_1, f_2 : X \to Y$ be two [[smooth function]]s between [[smooth manifold]] and $H : [0,1] \times V \to W$ a (smooth) [[homotopy]] between them.
+Let $f_1, f_2 : X \to Y$ be two [[smooth function]]s between [[smooth manifold]] and $H : [0,1] \times X \to Y$ a (smooth) [[homotopy]] between them.
 
 Then there is a [[chain homotopy]] between the induced morphisms 
 
@@ -55,6 +55,10 @@ $$
   H_{dR}^\bullet(X) \simeq H_{dR}^\bullet(Y)
   \,.
 $$
+
++--{: .query}
+[[David Roberts]]: this is wrong, but I'm not sure what the intention behind this statement was, so I'm just leaving a comment rather than fixing it.
+=--
 
 Moreover, an explicit formula for the chain homotopy is given by
 
