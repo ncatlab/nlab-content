@@ -2460,7 +2460,7 @@ $$
 $$ 
 
 for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $n$ and vanishing differential. We call this the 
-**line Lie $n$-algebra**
+**[[line Lie n-algebra]]**
 
 =--
 
@@ -3628,7 +3628,7 @@ where on the right we have the set of [[commuting diagram]]s in [[dgAlg]] of the
 ###### Definition
 
 Write $W(b^{n-1}\mathbb{R}) \in $ [[dgAlg]] for the [[Weil algebra]] of the 
-line Lie $n$-algebra, defined to be the [[free functor|free]] commutative [[dg-algebra]] on a single generator in degree $n$, hence the graded commutative algebra on a generator in degree $n$ and a generator in degree $(n+1)$ equipped with the differential that takes the former to the latter.
+[[line Lie n-algebra]], defined to be the [[free functor|free]] commutative [[dg-algebra]] on a single generator in degree $n$, hence the graded commutative algebra on a generator in degree $n$ and a generator in degree $(n+1)$ equipped with the differential that takes the former to the latter.
 
 =--
 
@@ -4878,7 +4878,7 @@ where on the left we have the set of [[commuting diagram]]s in [[dgAlg]] as indi
 +-- {: .un_prop}
 ###### Observation
 
-For $\mathfrak{g} = b^{n-1}\mathbb{R}$ the line Lie $n$-algebra,
+For $\mathfrak{g} = b^{n-1}\mathbb{R}$ the [[line Lie n-algebra]],
 this subsumes the [previous definition](#DiffSmpForLineLienAlgebra).
 
 =--
