@@ -4,7 +4,11 @@
 
 * [[cocycle]], [[coboundary]]
 
-* [[characteristic class]], [[secondary characteristic class]]
+* [[characteristic class]]
+
+  * [[secondary characteristic class]]
+
+  * [[differential characteristic class]]
 
 * [[fiber sequence]]/long sequence in cohomology
 
