@@ -2816,7 +2816,7 @@ $$
     \mathbf{\flat}_{dR} \mathbf{B}^{n+1} A
 $$
 
-represents the **curvature characteristic class** in 
+represents the corresponding [[differential characteristic class]] or **[[curvature characteristic class]]** in 
 $[\mathbf{c}_{dR}] \in H_{dR}^{n+1}(\mathbf{B}G, A)$.
 
 The induced map on cohomology
@@ -3377,13 +3377,12 @@ $$
 
 ### Lie theory {#LieTheory} 
 
-We discuss [[infinitesimal object]]s in a cohesive $(\infty,1)$-topos -- $\infty$-groupoids equipped with _infinitesimal cohesion_ -- identify infinitesimal cohesive [[∞-group]]s with [[∞-Lie algebra]]s and identify the [[tangent Lie algebroid]] or [[de Rham space]] $\mathbf{\Pi}_{inf}(X)$  of any cohesive $\infty$-groupoid.
-
+(...)
 
 
 ### Deformation theory {#StrucDeformationTheory}
 
-
+(...)
 
 
 ## Examples {#Examples}
