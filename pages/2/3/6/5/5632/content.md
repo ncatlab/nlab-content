@@ -57,7 +57,7 @@ that it represents. By <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(
 +-- {: .un_defn}
 ###### Definition
 
-The (unrefined) **differential characteristic class** lifting the characteristic class $\mathbf{c} : A \to \mathbf{B}^n K$ is the composite
+The (unrefined) **differential characteristic class** or **curvature characteristic class** lifting the characteristic class $\mathbf{c} : A \to \mathbf{B}^n K$ is the composite
 
 $$
   \mathbf{c}_{dR} : A \stackrel{\mathbf{c}}{\to}
@@ -97,6 +97,19 @@ sends $G$-[[principal ∞-bundle]]s $P \to X$ to the [[curvature characteristic 
 ### Refined
 
 (...)
+
+## Examples
+
+### Differential Pontryagin classes
+
+(...)
+
+* [[Chern-Simons circle 3-bundle]]
+
+* [[Chern-Simons circle 7-bundle]]
+
+(...)
+
 
 ## References
 
