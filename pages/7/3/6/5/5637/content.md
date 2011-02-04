@@ -1,0 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+=--
+=--
+
+
+The _Jones polynomial_ is a [[knot invariant]]. It is a special case of the [[HOMFLY-PT polynomial]]. See there for more details.
+
