@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[Gromov-Witten theory]] may be understood as providing a product on  formal [[power series]] over certain  [[abelian sheaf cohomology]] groups of [[Kähler manifold]]s $X$. The **quantum cohomology** of $X$ is the resulting [[Frobenius algebra]] structure on these formal power series.
+
+Together with [[Gromov-Witten theory]] quantum sheaf cohomlogy was discovered in and has its geometric roots as part of the data that describes certain 2-[[dimension]]al [[sigma-model]] [[quantum field theories]] with target space $X$.
+
+## References
+
+An introduction for readers familiar with basic concepts of [[Gromov-Witten theory]]  is in
+
+* Josh Guffin, _Quantum sheaf cohomology, a pr&#233;cis_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/1101/1101.1305v1.pdf))
+
+Slides of a talk for an audience of mathematical [[string theory|string theorists]] are
+
+* [[Eric Sharpe]], 
+
+  _Quantum sheaf cohomology_ ([pdf](http://www.phys.vt.edu/~ersharpe/brandeis-mar10-2.pdf)) Brandeis university (2010)
+
+  _Quantum sheaf cohomology I_ ([pdf](http://www.phys.vt.edu/~ersharpe/banff-mar10.pdf))
