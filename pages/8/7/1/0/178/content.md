@@ -3338,7 +3338,7 @@ $\theta \in \Omega^1_{flat}(G,\mathfrak{g})$.
 #### The universal curvature characteristic on $\mathbf{B}^n U(1)$   
  {#CurvatureCharacteristicOnCircleNGroup}
 
-We discuss presentations of <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature characteritsics</a> $\mathbf{B}^n U(1)\to \mthbf{\flat}_{dR}\mathbf{B}^{n+1} U(1)$ and $\mathbf{B}^n \mathbb{R}\to \mthbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}$ in $Smooth \infty Grpd$ by constructions in $[CartSp_{smooth}^{op}, sSet]$.
+We discuss presentations of <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature characteristics</a> $\mathbf{B}^n U(1)\to \mthbf{\flat}_{dR}\mathbf{B}^{n+1} U(1)$ and $\mathbf{B}^n \mathbb{R}\to \mthbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}$ in $Smooth \infty Grpd$ by constructions in $[CartSp_{smooth}^{op}, sSet]$.
 
 Recall the discussion of $\mathbf{B}^n U(1)$ and of 
 $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ from 
@@ -3746,7 +3746,7 @@ $$
 +-- {: .un_prop #CurvSmp}
 ###### Proposition 
 
-This span is a presentation in $[CartSp_{smooth}^{op}, sSet]$ of the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature characteritsics</a> $curv : \mathbf{B}^n \mathbb{R} \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}$ in $Smooth \infty Grpd$.
+This span is a presentation in $[CartSp_{smooth}^{op}, sSet]$ of the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature characteristics</a> $curv : \mathbf{B}^n \mathbb{R} \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}$ in $Smooth \infty Grpd$.
 
 =--
 
@@ -5184,7 +5184,8 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \exp(\mathfrak{g})_{diff} &\stackrel{(curv_i)_i}{\to}& 
+    \exp(\mathfrak{g})_{diff,smp} 
+      &\stackrel{({curv}_i)_i}{\to}& 
     \prod_i \mathbf{\flat}_{dR} \mathbf{B}^{n_i + 1} \mathbb{R}_{smp}
     \\
     \downarrow^{\mathrlap{\simeq}}
