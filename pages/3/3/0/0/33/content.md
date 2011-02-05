@@ -4,30 +4,27 @@
 [[!include higher category theory - contents]]
 </div>
 
-
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
-
-## Idea ##
+## Idea
 
 Roughly speaking, _vertical categorification_ is a procedure in which structures are generalized from the context of [[set theory]] to [[category theory]] or from category theory to [[higher category theory]].
 
 What precisely that means may depend on circumstances and authors, to some extent. The following lists some common procedures that are known as categorification. They are in general different but may in cases lead to the same categorified notions, as discussed in the examples.
 
 
+## Variants
 
-## Variants ##
-
-### As a section of decategorification ###
+### As a section of decategorification
 
 What has a more specific definition is the process of [[decategorification]]: this concretely quotients out [[k-morphism]]s in a [[n-category]] to produce a $k$-category for some $k \lt n$, in particular a (possibly large) [[set]] (the set of isomorphism classes or equivalence classes of objects) when $k = 0$.
 
 One may understand _vertical categorification_ as any operation that is a [[section]] of this [[decategorification]] operation, and many examples in the literature are of this kind.
 
-#### Examples ####
+
+#### Examples
 
 * The maybe archetypical example of categorification as something that is taken by decategorification to the identity operation is the categorification of the [[set]] $\mathbb{N}$ of [[natural numbers]] to the [[category]] [[FinSet]] of [[finite sets]]:
 
@@ -43,7 +40,8 @@ One may understand _vertical categorification_ as any operation that is a [[sect
 
   $$ \mathbb{N} \simeq FinVect_\sim .$$
 
-### As internalization in $n Cat$ ###
+
+### As internalization in $n Cat$
 
 Common structures such as [[group]]s, [[ring]]s, etc. may be defined entirely diagrammatically as a collection of objects, morphisms and 2-morphisms in a [[category]] like [[Set]] (the 2-morphisms then are the identities required to hold between the given morphisms).
 
@@ -59,7 +57,8 @@ Not every [[2-group]] is a [[strict 2-group]] that is a group object internal to
 
 One speaks of this process of categorification using weak internalization of diagrammatic descriptions as categorification of structures _up to coherent higher equivalences_ or _up to coherent higher homotopies_ . One way to make this systematic is discussed below.
 
-#### Examples ####
+
+#### Examples
 
 In the sense of "weakly internalizing in a higher categorical context" we have the following examples of categorification:
 
@@ -74,13 +73,14 @@ In the sense of "weakly internalizing in a higher categorical context" we have t
 * When understanging higher linear algebra in this sense, there are important $\infty$-categorifications of notions like integral transformations, [[Fourier transformation]]s, etc. Examples of such categorified linear algebra are [[Fourier-Mukai transformation]]s or more generally [[integral transform]]s. A general theory of this is described at [[geometric ∞-function theory]]. Also [[geometric Langlands]] duality fits into this context.
 
 
-### As homotopy coherent resolution ###
+### As homotopy coherent resolution
 
 The above process of categorification by coherently weak internalization into higher categorical contexts can be made systematic at least in some cases.
 
 If the structures being defined are [[algebra over an operad|algebras over]] an [[operad]] $T$ one may think of regarding $T$ as an [[(∞,1)-operad]]s and then consider the structures of its algebras as algebras over an $(\infty,1)$-operad. These are infinity-categorified versions of the original structures.
 
-#### Examples ####
+
+#### Examples
 
 For instance this way 
 
@@ -89,14 +89,14 @@ For instance this way
 * the notion of ordinary [[Lie algebra]] to $L_\infty$-[[L-∞-algebra|algebra]].
 
 
-## Contrast to horizontal categorificationn ##
+## Contrast to horizontal categorification
 
 Some people also speak of [[horizontal categorification]] as categorification. This is to be distinguished from vertical categorification.
 
 Some people just say 'oidification' for horizontal categorification, in which case it is consistent to speak of vertical categorificaton as just _categorification_ .
 
 
-## Homotopification versus laxification ##
+## Homotopification versus laxification
 
 (Vertical) categorification can often be usefully decomposed into two operations.
 
@@ -134,7 +134,7 @@ To get from groupoids to categories, we need to also allow things which were pre
 This can also be understood naturally in the language of [[(n,r)-categories]].  Recall that an $(n,r)$-category can be defined as an [[∞-category]] in which all cells above dimension $r$ are invertible, and all cells above dimension $n$ are trivial.  Thus, groupoidal categorification can be understood as increasing $n$ but keeping $r$ constant, while directification can be understood as increasing $r$ but keeping $n$ constant.
 
 
-## References##
+## References
 
 * [[John Baez]] and [[James Dolan|James Dolan]], [Categorification](http://arxiv.org/abs/math.QA/9802029), in _Higher Category
 Theory_, eds. Ezra Getzler and Mikhail Kapranov,
@@ -154,7 +154,14 @@ A general notion of categorification for structures defined by [[cartesian monad
 * Bourn and Penon, "Cat&#233;gorification de structures d&#233;finies par monade cart&#233;sienne", [link](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_2005__46_1_2_0).
 
 
+[[!redirects vertical categorification]]
+[[!redirects vertical categorifications]]
+[[!redirects vertical categorificaton]]
+
 [[!redirects categorification]]
-[[!redirects ∞-categorification]]
 [[!redirects categorifications]]
 [[!redirects categorify]]
+[[!redirects categorified]]
+
+[[!redirects ∞-categorification]]
+[[!redirects ∞-categorifications]]
