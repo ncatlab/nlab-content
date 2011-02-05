@@ -49,16 +49,13 @@ $$
 
 on the [[de Rham complex]]es of $X$ and $Y$.
 
-In particular, the [[de Rham cohomology]] of $X$ and $Y$ coincide,
+In particular, the action on [[de Rham cohomology]] of $f_1^*$ and $f_2^*$ coincide,
 
 $$
-  H_{dR}^\bullet(X) \simeq H_{dR}^\bullet(Y)
+  H_{dR}^\bullet(f_1^*) \simeq H_{dR}^\bullet(f_2^*)
   \,.
 $$
 
-+--{: .query}
-[[David Roberts]]: this is wrong, but I'm not sure what the intention behind this statement was, so I'm just leaving a comment rather than fixing it.
-=--
 
 Moreover, an explicit formula for the chain homotopy is given by
 
@@ -78,8 +75,9 @@ Use [[Cartan's magic formula]] inside the integral.
 
 =--
 
-The **Poincar&#233; lemma** proper is the special case of this statement for the case that $f_1 = const_y$ is a function constant on a point $y \in Y$.
+The **Poincar&#233; lemma** proper is the special case of this statement for the case that $f_1 = const_y$ is a function constant on a point $y \in Y$:
 
+pullback along the constant map sends all forms of positive degree to 0. This being homotopic to the identity map means therefore that all positive de Rham cohomology groups of $X$ vanish.
 
 
 ## References
