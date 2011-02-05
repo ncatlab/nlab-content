@@ -21,7 +21,9 @@ A **progroup** is a [[pro-object]] in the [[category]] [[Grp]] of [[groups]].  I
 
 Of course, the category [[Grp]] is [[complete category|complete]], but in general a progroup represented by some cofiltered diagram of groups is not equivalent to the actual limit of that diagram in $Grp$.  However, [[profinite groups]] (i.e. cofiltered systems of *finite* groups) can be identified with actual limits of finite groups if we take those limits, not in $Grp$, but in the larger category $TopGrp$ of [[topological groups]].  The resulting topological groups are precisely those with [[Stone space|Stone]] topologies.
 
-We can generalize this further to arbitrary pro-groups with surjective transition maps, if instead of [[Top]] we take the limit in the category [[Loc]] of [[locales]].
+This is not true for pro-systems of non-finite groups, even if we restrict to those with surjective transition maps.  The following counterexample is due to Higman and Stone, and is reproduced in ([Moerdijk](#Moerdijk)).  Let $\omega_1$ be the set of countable ordinals, with the reverse of its usual ordering, and for $\alpha\in\omega_1$ let $S_\alpha$ be the set of strictly increasing functions $[0,\alpha]\to \mathbb{R}$.  For $\alpha\lt \beta$, let $S_\beta \to S_\alpha$ be the restriction.  Then each such transition map is surjective, but the inverse limit is empty.  The sets $S_\alpha$ are not groups, but if we take the free [[vector space]] on each of them, we obtain a nontrivial pro-group with surjective transition maps whose limit in $Grp$, hence also in $TopGrp$, is trivial.
+
+However, we do get an embedding on pro-groups with surjective transition maps if instead of [[Top]] we take the limit in the category [[Loc]] of [[locales]].
 
 
 +--{: .un_prop #EquivalentCharacterizations}
@@ -51,9 +53,12 @@ We may as well assume that any surjective progroup is indexed on a directed [[po
 +--{: .un_defn}
 ###### Definition
 
-A **surjective progroup** is a progroup whose cofiltered diagram consists of [[surjection]]s.
+A **surjective progroup**, also called a **strict progroup**, is a progroup whose cofiltered diagram consists of [[surjection]]s.
 
 =--
+
+One can show that a progroup is isomorphic to a surjective one, in the category of pro-groups, if and only if it satisfies the **Mittag-Leffler condition**: for each $G_i$ the images of the functions $G_j\to G_i$ are eventually constant.
+
 
 By a fundamental fact about [[locales]], if $G$ is prodiscrete and represented as the limit of a system with surjective transition maps, then the legs $G\to G_i$ of the limiting cone are also surjective (i.e. they are represented by injective [[frame]] homomorphisms).  This is false for limits of topological spaces.
 
