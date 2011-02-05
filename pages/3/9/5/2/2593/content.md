@@ -151,6 +151,11 @@ section 6 of
 
 * J. A. de Azc&#225;rraga, Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
 
+with a brief summary in
+
+* J. A. de Azcarraga, J. M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv](http://arxiv.org/abs/physics/9803046))
+
+
 chapter 7 of
 
 * [[Charles Weibel]], _An introduction to homological algebra_, Cambridge Studies in Adv. Math. __38__, CUP 1994
@@ -180,9 +185,6 @@ This subsumes some of the results in
 
 ### Extensions
 
-An elementary introduction to Lie algebra cohomology is at the beginning of 
-
-* J. A. de Azcarraga, J. M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv](http://arxiv.org/abs/physics/9803046))
 
 The [[∞-Lie algebra]] [[∞-Lie algebra cohomology|extensions]] $b^{n-2} \to \mathfrak{g}_\mu \to \mathfrak{g}$ induced by a degree $n$-cocycle are considered around theorem 55 in
 
