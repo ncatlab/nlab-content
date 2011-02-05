@@ -84,6 +84,6 @@ pullback along the constant map sends all forms of positive degree to 0. This be
 
 A nice account collecting all the necessary background is in
 
-* Daniel Litt, _The Poincar&#233; lemma and de Rham cohomology_ ([pdf](http://www.thehcmr.org/issue1_2/poincare_lemma.pdf))
+* Daniel Litt, _The Poincar&#233; lemma and de Rham cohomology_ ([Harvard College Mathematics Review](http://www.thehcmr.org/node/14): [pdf](http://www.thehcmr.org/issue1_2/poincare_lemma.pdf))
 
 [[!redirects Poincaré lemma]]
