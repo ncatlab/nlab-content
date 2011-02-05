@@ -340,16 +340,16 @@ $$
 are $k = 3$ and $k = 4$.
 
 Notice that a $3$-cell of $\mathbf{B}^3 \mathbb{R}/ \mathbb{Z}_c(U)$ is a [[smooth function]] $c : U \to \mathbb{R}/\mathbb{Z}$ and 
-that the morphism $\exp(b\mathbb{R} \to \mathfrak{g}_\mu) \to \exp(b^2 \mathbb{R})$ sends the pair $(f,B)$ to the [[fiber integration]] $\int_{\Delta^3}(f^* \langle \theta \wedge [\theta \wedge \theta]\rangle + d B)$. 
+that the morphism $\exp(b\mathbb{R} \to \mathfrak{g}_\mu) \to \mathbf{B}^3 \mathbb{R}/\mathbb{Z}_c$ sends the pair $(f,B)$ to the [[fiber integration]] $\int_{\Delta^3}(f^* \langle \theta \wedge [\theta \wedge \theta]\rangle + d B)$. 
 
 Given our lifting problem in degree 3,
 we have given a function $c : U \to \mathbb{R}/\mathbb{Z}$ and a smooth function (with sitting instants at the subfaces) $U \times \Lambda^3_i \to Spin$ together with a 2-form $B$ on the [[horn]] $U \times \Lambda^3_i$.
 
 By pullback along the standard [[continuous function|continuous]] [[retract]] $\Delta^3 \to \Lambda^3_i$ which is non-smooth only where $f$ has sitting instants,  we can always extend $f$ to a smooth function $f' : U \times \Delta^3 \to Spin$ with the property that $\int_{\Delta^3} (f')^* \langle \theta \wedge [\theta \wedge \theta]\rangle = 0$. (Following the general discussion at [[Lie integration]].)
 
-In order to find a horn filler for the 2-form component, consider any smooth 2-form with sitting instants and non-vanishing integeral on $\Delta^2$. By multiplying it with a suitable smooth function on $U$ we can obtain an extension $\tilde B \in \Omega^3_{si,vert}(U \times \partial \Delta^3)$ of $B$ to all of $U \times \partial \Delta^3$ with the property that its integral over $\partial \Delta^3$ is the given $c$.
+In order to find a horn filler for the 2-form component, consider any smooth 2-form with sitting instants and non-vanishing integeral on $\Delta^2$, regarded as the missing face of the [[horn]]. By multiplying it with a suitable smooth function on $U$ we can obtain an extension $\tilde B \in \Omega^3_{si,vert}(U \times \partial \Delta^3)$ of $B$ to all of $U \times \partial \Delta^3$ with the property that its integral over $\partial \Delta^3$ is the given $c$. By the [[Stokes theorem]] it remains to extend $\tilde B$ to the interior of $\Delta^3$ in any way, as long as it is smooth and has sitting instants.
 
-In a similar fashion, we can find a smooth family of closed 3-forms $H$ with sitting instants on $\Delta^3$, whose integral over $\Delta^3$ equals $c$. Since by sitting instants this 3-form vanishes in a neighbourhood of the boundary, the standard formula for the [[Poincare lemma]] applied to it produces a 2-form $B' \in \Omega^2_{si, vert}(U \times \Delta^3)$ with $d B' = H$ that itself is radially constant at the boundary. By construction the difference $\tilde B - B'|_{\partial \Delta^3}$ has vanishing surface integral. By the discussion at [[Lie integration]] it follows that the difference extends smoothly and with sitting instants to a closed 2-form $\hat B \in \Omega^2_{si,vert}(U \times \Delta^3)$. Therefore the sum 
+To that end, we can find in a similar fashion a smooth $U$-parameterized family of closed 3-forms $H$ with sitting instants on $\Delta^3$, whose integral over $\Delta^3$ equals $c$. Since by sitting instants this 3-form vanishes in a neighbourhood of the boundary, the standard formula for the [[Poincare lemma]] applied to it produces a 2-form $B' \in \Omega^2_{si, vert}(U \times \Delta^3)$ with $d B' = H$ that itself is radially constant at the boundary. By construction the difference $\tilde B - B'|_{\partial \Delta^3}$ has vanishing surface integral. By the discussion at [[Lie integration]] it follows that the difference extends smoothly and with sitting instants to a closed 2-form $\hat B \in \Omega^2_{si,vert}(U \times \Delta^3)$. Therefore the sum 
 
 $$
   B' + \hat B \in \Omega^2_{si,vert}(U \times \Delta^3)
@@ -358,7 +358,7 @@ $$
 equals $B$ when restricted to $\Lambda^k_i$ and has the property that its integral over $\Delta^3$ equals $c$.
 Together with our extension $f'$, this constitutes a pair that solves the lifting problem.
 
-The extension problem in degree 4 amounts to a similar construction: by coskeletaness the condition is that for a given $c : U \to \mathbb{R}/\mathbb{Z}$ and a given vertical 2-form on $U \times \partial \Delta^3$ such that its integral equals $c$, as well as a function $f : U \times \partial \Delta^3 \to Spin$, we can extend the 2-form and the functionalong $U \times \partial \Delta^3 \to U \timdes \Delta^3$. The latter follows from the fact that $\pi_2 Spin = 0$ which guarantees a continuous filler (with sitting instants), and using the [[Steenrod-Wockel approximation theorem]] to make this smooth. We are left with the problem of extending the 2-form, which is the same problem we discussed above after the choice of $\tilde B$.
+The extension problem in degree 4 amounts to a similar construction: by coskeletalness the condition is that for a given $c : U \to \mathbb{R}/\mathbb{Z}$ and a given vertical 2-form on $U \times \partial \Delta^3$ such that its integral equals $c$, as well as a function $f : U \times \partial \Delta^3 \to Spin$, we can extend the 2-form and the functionalong $U \times \partial \Delta^3 \to U \times \Delta^3$. The latter follows from the fact that $\pi_2 Spin = 0$ which guarantees a continuous filler (with sitting instants), and using the [[Steenrod-Wockel approximation theorem]] to make this smooth. We are left with the problem of extending the 2-form, which is the same problem we discussed above after the choice of $\tilde B$.
 
 =--
 
