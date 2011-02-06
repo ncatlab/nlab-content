@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 #### Homological algebra
 +--{: .hide}
 [[!include homological algebra - contents]]
@@ -107,6 +111,14 @@ This is discussed in chapter IV of
 A little bit a long these lines for [[diffeological space]]s is also in
 
 * Patrick Iglesias-Zemmour, _De Rham calculus_ ([pdf](http://math.huji.ac.il/~piz/documents/D6.pdf))
+
+## Related concepts
+
+* [[Poincaré lemma]]
+
+* [[Stokes theorem]]
+
+* **de Rham theorem**
 
 ## References
 
