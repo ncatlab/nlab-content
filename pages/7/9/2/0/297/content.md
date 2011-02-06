@@ -28,7 +28,7 @@ Much work in quantum field theory is based on arguments using the [[path integra
 
 It was in
 
-* Michael Atiyah, _Topological quantum field theory_, Publications Math&#233;matique de l'IH&#201;S, 68  (1988), p. 175-186
+* Michael Atiyah, _Topological quantum field theory_, Publications Math&#233;matiques de l'IH&#201;S, 68  (1988), p. 175-186
 
 that it was realized that 
 
