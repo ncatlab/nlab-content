@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -6,7 +19,7 @@
 
 ## Idea
 
-The _Stokes theorem_ asserts that the [[integral]] of the [[de Rham differential]] of a [[differential form]] over a domain equals the integral of the form itself over the boundary of the domain.
+The _Stokes theorem_ asserts that the [[integral]] of the [[de Rham differential]] of a [[differential form]] over a domain equals the integral of the form itself over the [[boundary]] of the domain.
 
 ## Statement
 
@@ -16,7 +29,7 @@ $$
   \Delta_{Diff} : \Delta \to Diff
 $$
 
-be the [[cosimplicial object]] of standard $k$-[[simplices]] in [[Diff]]: in degree $k$ this is the standard $k$-[[simplex]] $\Delta^k_{Diff} \subset \mathbb{R}^k$ regarded as a [[smooth manifold]] (with boundary and corners). This may be parameterized as
+be the [[cosimplicial object]] of standard $k$-[[simplices]] in [[SmoothMfd]]: in degree $k$ this is the standard $k$-[[simplex]] $\Delta^k_{Diff} \subset \mathbb{R}^k$ regarded as a [[smooth manifold]] [[manifold with corners|with boundary and corners]]. This may be parameterized as
 
 $$
   \Delta^k = \{ t^1, \cdots, t^k \in \mathbb{R}_{\geq 0} | \sum_i t^i \leq 1\}
@@ -76,6 +89,13 @@ $$
 $$
 
 
+## Related concepts
+
+* [[Poincaré lemma]]
+
+* **Stokes theorem**
+
+* [[de Rham theorem]]
 
 [[!redirects Stokes' theorem]]
 [[!redirects Stokes's theorem]]
