@@ -1,20 +1,23 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homological algebra
-+--{: .hide}
++-- {: .hide}
 [[!include homological algebra - contents]]
 =--
 =--
 =--
 
+# Semiabelian categories
+* table of contents
+{: toc}
 
 ## Idea
 
-The axioms of a _semi-abelian_ category are supposed to capture the properties of the categories of [[groups]], [[rings]] without unit, [[associative algebras]] without unit, [[Lie algebras]], as nicely as the axioms of an [[abelian category]] captures the properties of the categories of [[abelian groups]] and of [[modules]].
+The axioms of a _semi-abelian_ category are supposed to capture the properties of the categories of [[groups]], [[rng|rings without unit]], [[associative algebras]] without unit, [[Lie algebras]], as nicely as the axioms of an [[abelian category]] captures the properties of the categories of [[abelian groups]] and of [[modules]].
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman|Mike]]: Why only rings without units (that is, rngs)?  Intuitively, what important properties do the above listed examples share that are not shared by rings with units?
 
 [[Zoran Skoda]]: I want to know the answer as well. It might be something in the self-dual axioms. For unital rings artinian implies noetherian but not other way around; though the definitions of the two notions are dual.
@@ -37,7 +40,7 @@ A [[category]] $C$ is **semi-abelian** if it
 
 * is [[Bourn-protomodular category|Bourn-protomodular]].
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman|Mike]]: I was about to create the link to Bourn-protomodular category, but then I wondered whether we should just say "protomodular"---is there a reason to disambiguate it with the prefix "Bourn-"?  We (sometimes) say "Barr-exact" to avoid confusion with [[Quillen exact category|Quillen-exact]]; is there any ambiguity for "protomodular?"
 
 [[Zoran Skoda]]: I think not, I saw just one notion of protomodular so far (unlike word semi-abelian which has been  used for some other things, mainly before the now accepted dominant notion); besides the notion is mainly used by one and the same community (unlike word exact category which lives with different meanings in completely different societies of mathematicians). I think no need to call it Bourn-protomodular; of course the entry should have pointers to the original references and short mention of the optional modifier, I think. 
@@ -72,9 +75,9 @@ $$\array{P & \to & A\times B\\
 in which both legs are split monics.  Filling in one of the equivalent definitions of Barr-exactness, the equivalence of the two lists of axioms reduces to showing that in a Barr-exact category with coproducts and a zero object, protomodularity is equivalent to the Split Short Five Lemma; see the paper referenced below for a proof.
 
 
-## Dold-Kan correspondence
+## Dold--Kan correspondence
 
-* In its most general form, the [[Dold-Kan correspondence]] holds for [[simplicial object]]s in semi-abelian categories.
+* In its most general form, the [[Dold–Kan correspondence]] holds for [[simplicial object]]s in semi-abelian categories.
 
 
 ## Examples
@@ -96,19 +99,15 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 * If $C$ is exact and protomodular with finite colimits, then for any $x\in C$ the [[over category|over]]-[[under category|under]] category $(x/C/x)$ is semi-abelian.  For example, the opposite of the category of [[pointed object|pointed objects]] in a [[topos]] is semi-abelian, and in particular, $Set_*^{op}$ is semi-abelian.
 
 +-- {: .query}
-
 [[Urs Schreiber|Urs]]: how can I understand that this (has to?) involve the opposite category?
 
 [[Mike Shulman|Mike]]: Well, as the previous example shows, $Set_*$ itself is not semi-abelian.  The way I'm thinking of it is that a surjection of pointed sets is not determined by its kernel, but an injection of pointed sets is determined by its cokernel.
-
 =--
-
 
 * The categories of [[crossed module|crossed modules]], [[crossed complex]]es, and their friends are semi-abelian; see example 2.6(4) of the paper referenced below.
 
 
 ## References
-
 
 * [[George Janelidze]], L&#225;szl&#243;e M&#225;rki, [[Walter Tholen]], _Semi-Abelian Categories_ ([web](http://citeseer.ist.psu.edu/old/janelidze00semiabelian.html))
 
@@ -116,6 +115,8 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * Tim Van der Linden, [Homology and homotopy in semi-abelian categories](http://arxiv.org/abs/math/0607100).
 
+
+[[!redirects semi-abelian category]]
+[[!redirects semi-abelian categories]]
 [[!redirects semiabelian category]]
 [[!redirects semiabelian categories]]
-[[!redirects semi-abelian categories]]
