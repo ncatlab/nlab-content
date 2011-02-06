@@ -215,7 +215,7 @@ To that end, we replace the [[Lie algebra]] $\mathfrak{g} = \mathfrak{so}$ by an
 
 * $\mathfrak{g} = \mathfrak{so}$, the [[special orthogonal Lie algebra]] (the Lie algebra of the [[spin group]]);
 
-* $b^2 \mathbb{R}$ the [[line Lie n-algebra|line Lie 3-algebra]], the single genetator in degee 3 of its [[Chevalley-Eilenberg algebra]] we denote $k \in CE(b^2 \mathbb{R})$, $d k = 0$.
+* $b^2 \mathbb{R}$ the [[line Lie n-algebra|line Lie 3-algebra]], the single generator in degee 3 of its [[Chevalley-Eilenberg algebra]] we denote $h \in CE(b^2 \mathbb{R})$, $d h = 0$.
 
 * $\langle -,-\rangle \in W(\mathfrak{g})$ is the [[Killing form]] [[invariant polynomial]], regarded as an element of the [[Weil algebra]] of $\mathfrak{so}$;
 
@@ -293,6 +293,7 @@ $$
   CE(b^2 \mathbb{R})
   :
   \mu
+  \,,
 $$
 
 where the morphism on the left (which is the identity when restricted to $\mathfrak{g}^*$ and acts on the new generators as indicated) is a [[quasi-isomorphism]].
@@ -328,8 +329,9 @@ We turn now to discussing that the second morphism is a fibration. The nontrivia
 
 $$
   \array{
-    \Lambda[k]_i &\to& \exp(b\mathbb{R} 
-      &\to&  \mathbf{cosk}_3\mathfrak{g}_\mu)(U)
+    \Lambda[k]_i 
+     &\to&
+     \mathbf{cosk}_3\exp(b\mathbb{R} \to \mathfrak{g}_\mu)(U)
     \\
     \downarrow && \downarrow
     \\
