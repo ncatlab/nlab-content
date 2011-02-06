@@ -3633,20 +3633,41 @@ Write $W(b^{n-1}\mathbb{R}) \in $ [[dgAlg]] for the [[Weil algebra]] of the
 
 =--
 
-+-- {: .un_prop }
++-- {: .un_prop #PropertiesOfWeilAlgebraOfLineLienAlgebra}
 ###### Observation
 
-We have a [[natural isomorphism]]
+We have the following properties of $\mathrm{W}(b^{n-1}\mathbb{R})$
 
-$$
-  Hom_{dgAlg}(W(b^{n-1} \mathbb{R}), \Omega^\bullet(U))
-  \simeq
-  \Omega^n(U)
-$$
+* There is a canonical [[natural isomorphism]]
 
-between dg-algebra homomorphisms $A : W(b^{n-1}\mathbb{R}) \to \Omega^\bullet(X)$ from the Weil algebra of $b^{n-1}\mathbb{R}$ to the de Rham complex and degree-$n$ differential forms, not necessarily closed.
+  $$
+    Hom_{dgAlg}(W(b^{n-1} \mathbb{R}), \Omega^\bullet(U))
+    \simeq
+    \Omega^n(U)
+  $$
 
-There is a canonical dg-algebra homomorphism $W(b^{n-1}\mathbb{R}) \to CE(b^{n-1}\mathbb{R})$ and the differential $n$-form corresponding to $A$ factors through this morphism precisely if the [[curvature]] $d_{dR} A$ of $A$ vanishes.
+  between [[dg-algebra]] 
+  homomorphisms $A : W(b^{n-1}\mathbb{R}) \to \Omega^\bullet(X)$
+  from the Weil algebra of $b^{n-1}\mathbb{R}$ to the 
+  de Rham complex and degree-$n$ differential forms, 
+  not necessarily closed.
+
+* There is a canonical [[dg-algebra]] homomorphism 
+  $W(b^{n-1}\mathbb{R}) \to CE(b^{n-1}\mathbb{R})$ and 
+  the differential $n$-form corresponding to $A$ factors 
+  through this morphism precisely if the 
+  [[curvature]] $d_{dR} A$ of $A$ vanishes.
+
+* The image under $\exp(-)$
+
+  $$
+    \exp(\mathrm{inn}(b^{n-1})\mathbb{R}) 
+    \to 
+    \exp(b^{n}\mathbb{R})
+  $$
+
+  of the canonical [[dg-algebra]] morphism 
+  $\mathrm{W}(b^{n-1}\mathbb{R}) \leftarrow \mathrm{CE}(b^n \mathbb{R})$ is a fibration in $[\mathrm{CartSp}_{\mathrm{smooth}}^{\mathrm{op}}, \mathrm{sSet}]_{\mathrm{proj}}$ that presents the point inclusion ${*} \to \mathbf{B}^{n+1}\mathbb{R}$ in $\mathrm{Smooth}\infty \mathrm{Grpd}$.
 
 =--
 
