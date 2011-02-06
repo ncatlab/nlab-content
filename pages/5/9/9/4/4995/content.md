@@ -3419,16 +3419,9 @@ Examples of [[∞-cohesive site]]s are
 
 * [[smooth ∞-groupoid]]
 
-  * [[circle n-bundle with connection]].
-
-  * [[∞-Chern-Weil theory]].
-
-
-
-### Synthetic differential $\infty$-groupoids
-
 * [[synthetic differential ∞-groupoid]]
 
+* [[super smooth ∞-groupoid]]
 
 
 ## Applications
