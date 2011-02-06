@@ -30,16 +30,15 @@ $$
 
 Moreover, for $\omega$ a smooth smooth family of closed forms, there is a smooth family of $\lambda$s satisfying this condition.
 
-The Poincar&#233; lemma is a special case of the more general statement that pullback of differential forms along [[homotopy|homotopic]] maps yields a [[chain homotopy]] of the corresponding [[de Rham complex]]es.
+The Poincar&#233; lemma is a special case of the more general statement that the pullbacks of differential forms along [[homotopy|homotopic]] [[smooth function]] related by a [[chain homotopy]].
 
-See also [[de Rham theorem]].
 
 ## Statement
 
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $f_1, f_2 : X \to Y$ be two [[smooth function]]s between [[smooth manifold]] and $H : [0,1] \times X \to Y$ a (smooth) [[homotopy]] between them.
+Let $f_1, f_2 : X \to Y$ be two [[smooth function]]s between [[smooth manifold]] and $\Psi : [0,1] \times X \to Y$ a (smooth) [[homotopy]] between them.
 
 Then there is a [[chain homotopy]] between the induced morphisms 
 
@@ -57,10 +56,12 @@ $$
 $$
 
 
-Moreover, an explicit formula for the chain homotopy is given by
+Moreover, an explicit formula for the chain homotopy $\psi : f_1 \Rightarrow f_2$ is given by
 
 $$
-  \omega \mapsto (x \mapsto \int_{[0,1]} \iota_{\partial_t} (H_t^*\omega)(x) ) d t
+  \psi 
+   :
+  \omega \mapsto (x \mapsto \int_{[0,1]} \iota_{\partial_t} (\Psi_t^*\omega)(x) ) d t
   \,. 
 $$
 
@@ -71,13 +72,86 @@ Here $\iota_{\partial t}$ denotes contraction (see [[Cartan calculus]]). with th
 +-- {: .proof}
 ###### Proof
 
-Use [[Cartan's magic formula]] inside the integral.
+We compute
+
+$$
+  \begin{aligned}
+    d_{Y} \psi(\omega)
+    + 
+    \psi( d_X \omega )
+     & =
+    \int_{[0,1]} d_Y \iota_{\partial_t} \Psi_t^*(\omega) d t 
+    + 
+    \int_{[0,1]} \iota_{\partial_t} \Psi_t^*(d_X \omega) d t
+    \\
+    & = \int_{[0,1]} [d_Y,\iota_{\partial_t}] \Psi_t^* (\omega) d t
+    \\
+    & = \int_{[0,1]} \mathcal{L}_{t} \Psi_t^* (\omega) d t
+    \\
+    & = \int_{[0,1]} \partial_t \Psi_t^* (\omega) d t
+    \\
+    & = \int_{[0,1]} d_{[0,1]} \Psi_t^* (\omega) 
+    \\
+    & = \Psi_1^* \omega - \Psi_0^* \omega
+    \\
+    & = f_2^* \omega - f_1^* \omega
+  \end{aligned}
+  \,,
+$$
+
+where in the [[integral]] we used fist that the [[exterior differential]] commutes with pullback of [[differential forms]], then [[Cartan's magic formula]] $[d,\iota_{\partial t}] = \mathcal{L}_t$ for the [[Lie derivative]] along the [[cylinder]] on $X$ and finally the [[Stokes theorem]].
 
 =--
 
 The **Poincar&#233; lemma** proper is the special case of this statement for the case that $f_1 = const_y$ is a function constant on a point $y \in Y$:
 
-pullback along the constant map sends all forms of positive degree to 0. This being homotopic to the identity map means therefore that all positive de Rham cohomology groups of $X$ vanish.
++-- {: .un_prop}
+###### Corollary
+
+If a [[smooth manifold]] $X$ admits a smooth contraction 
+
+$$
+  \array{
+    X
+    \\
+    \downarrow^{\mathrlap{(id,0)}} & \searrow^{\mathrlap{id}}
+    \\
+    X \times [0,1] & \stackrel{\Psi}{\to} & X
+    \\
+    \uparrow^{\mathrlap{(id,1)}} & \nearrow_{\mathrlap{const_x}}
+    \\
+    X
+  }
+$$
+
+then the [[de Rham cohomology]] of $X$ is concentrated on the 
+ground field in degree 0. Moreover, for $\omega$ any closed 
+form on $X$ in positive degree an explicit formula for a form
+$\lambda$ with $d \lambda = \omega$ is given by
+
+$$
+  \lambda = \int_{[0,1]} \iota_{\partial_t}\Psi_t^*(\omega) d t
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In the general situation discussed above we now have $f_1^* = 0$
+in positive degree.
+
+=--
+
+## Related concepts
+
+* **Poincar&#233; lemma**
+
+* [[Stokes theorem]]
+
+* [[de Rham theorem]].
+
 
 
 ## References
