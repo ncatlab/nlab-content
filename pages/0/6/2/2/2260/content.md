@@ -1,8 +1,15 @@
-Book entry
+
+# Borceux--Bourn
+* table of contents
+{: toc}
+
+## Introduction
+
+Borceux--Bourn is the book
 
 * [[Francis Borceux]], [[Dominique Bourn]], _Mal'cev, protomodular, homological and semi-abelian categories_, Mathematics and Its Applications __566__, Kluwer 2004
 
-From introduction:
+From the introduction:
 
 > The most striking successes of category theory, as far as clarification of mathematical situations is concerned, are probably the theory of abelian categories and the theory of toposes. This is not too amazing since both theories are closely related to the development of sheaf theory, a context in which it is desirable to get rid of the usual notion of element.
 > But up to recently, category theory did not provide any comparable insight in General Algebra, a domain in which element-based mathematics remains the slogan. In particular, category theory could not provide a structural tool able to grasp, even in the most representative category of classical algebra - namely, the category $\mathrm{Gp}$ of groups - the deep essence of the notion of normal subobject: namely, an equivalence class for a congruence and not just the kernel of a morphism. 
@@ -16,7 +23,8 @@ From introduction:
 > Establishing an organic and synthetic connection between all these attempts the ambition of this book. To achieve this, an additional ingredient was necessary, of purely categorical nature: the [[fibration of points]]. This fibration allows representing every category as a fibration whose fibres are pointed categories, i.e. categories with a zero object (see Bourn, 1996, [17]). This book will give evidence that the fibration of points emphasizes the importance of split epimorphisms in the context of algebraic theories, but also that this fibration of points has a very strong classification power: see on page 466 the table summarizing these classification properties.
 ...
 
-## Contents:
+
+## Contents
 
 (with links to the related $n$lab entries)
 
@@ -59,6 +67,7 @@ From introduction:
 * Index of symbols
 
 * Index of definitions
+
 
 ## Bibliography
 
@@ -287,8 +296,10 @@ Mat. Sbornik __73__ (1967) 564-584
 
 95. V.V. Uspenskii, _The Mal'tsev operation on countably compact spaces_, Comment. mat. Univ. Carolin&#230; 30 (1989) 395-402
 
+
 category: reference
 
+[[!redirects Borceux-Bourn]]
 [[!redirects Borceux–Bourn]]
 [[!redirects Borceux--Bourn]]
 [[!redirects Mal'cev, protomodular, homological and semi-abelian categories]]
