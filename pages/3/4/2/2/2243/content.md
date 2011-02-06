@@ -129,7 +129,7 @@
 
 ### Theorems
 
-* [[de Rham theorem]], [[Poincare lemma]]
+* [[de Rham theorem]], [[Poincare lemma]], [[Stokes theorem]]
 
 * [[Hodge theory]]
 
