@@ -343,6 +343,7 @@ as discussed at [[universal principal ∞-bundle]].
 
 
 #### Strict Lie 2-groups
+  {#StrictLie2Groups}
 
 Let now $G = \Xi[G_2 \to G_1]$ be a strict [[Lie 2-group]] coming from a smooth  [[crossed module]] $G_2 \stackrel{\delta}{\to} G_1 $ with action $\alpha : G_1 \to Aut(G_2)$.
 
