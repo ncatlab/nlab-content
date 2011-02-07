@@ -43,6 +43,8 @@ This appears as definition 1.2.10 in
 
 
 [[!redirects full and faithful (∞,1)-functor]]
-[[!redirects fully faithful (infinity,1)-fu
-nctor]]
+[[!redirects full and faithful (∞,1)-functors]]
+[[!redirects full and faithful (infinity,1)-functors]]
+
+[[!redirects fully faithful (infinity,1)-functor]]
 [[!redirects fully faithful (∞,1)-functor]]
