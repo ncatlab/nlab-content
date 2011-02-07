@@ -7,9 +7,17 @@
 
 #References (partly) indexed on the $n$Lab#
 
-* [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math.CT/0608040), [published version](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf))
+## Books
 
-  on [[higher category theory]] and [[higher topos theory]]
+* _[[Higher Topos Theory]]_ ([arXiv](http://arxiv.org/abs/math.CT/0608040), [published version](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf))
+
+  on [[(∞,1)-category theory]] and [[higher topos theory]]
+
+* _[[Higher Algebra]]_
+
+  on [[higher algebra]]
+
+## Articles
 
 * [[(∞,2)-category|(∞,2)-categories]] ([arXiv](http://arxiv.org/abs/0905.0462))
 
@@ -17,7 +25,38 @@
 
 * [[Stable ∞-Categories]] ([arXiv](http://arxiv.org/abs/math/0608228))
 
-  on [[stable homotopy theory]] and [[homological algebra]]
+  on [[stable (∞,1)-categories]] [[stable homotopy theory]] and [[homological algebra]]
+
+* [[Structured Spaces]] ([arXiv](http://arxiv.org/abs/0905.0459))
+
+  * on [[structured (∞,1)-topos]]es and [[generalized scheme]]s
+
+* [[On the Classification of Topological Field Theories]] ([arXiv](http://arxiv.org/abs/0905.0465))
+
+  on [[FQFT|functorial]] [[extended topological quantum field theory|extended]] [[TQFT|topological]] [[quantum field theory]]
+
+* [[A Survey of Elliptic Cohomology]] ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
+
+  on the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[tmf]], the gluing of all [[elliptic cohomology]] theories
+
+* _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf))
+
+   on [[(∞,1)-category|(∞,1)-categories]] of [[(∞,n)-category|(∞,n)-categories]] and [[Goodwillie calculus]]
+
+* _[[Tannaka duality for geometric stacks]]_
+
+* PhD thesis, _derived algebraic geometry_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG.pdf))
+
+  on [[derived algebraic geometry]]
+
+  all the material in there should now be, in more complete and more coherent form, in the articles above. But some papers will cite page and verse in the PhD thesis, so it is useful to have that as a reference, too.
+
+* _[[Moduli Problems and DG-Lie Algebras]]_  
+
+  on [[∞-Lie algebra]]s as formal neighbourhoods of point in [[∞-stack]]s.
+
+
+The following articles have mostly been subsumed and expanded in the book [[Higher Algebra]]
 
 * [[higher algebra|Noncommutative Algebra]] ([arXiv](http://arxiv.org/abs/math/0702299))
 
@@ -38,36 +77,9 @@
   and their generalization from the ordinary context of [[algebra]] to that of [[higher algebra]].
 
 
-* [[Structured Spaces]] ([arXiv](http://arxiv.org/abs/0905.0459))
-
-  * on [[structured (∞,1)-topos]]es and [[generalized scheme]]s
-
-* [[On the Classification of Topological Field Theories]] ([arXiv](http://arxiv.org/abs/0905.0465))
-
-  on [[FQFT|functorial]] [[extended topological quantum field theory|extended]] [[TQFT|topological]] [[quantum field theory]]
-
-* [[A Survey of Elliptic Cohomology]] ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
-
-  on the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[tmf]], the gluing of all [[elliptic cohomology]] theories
-
-* _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf))
-
-   on [[(∞,1)-category|(∞,1)-categories]] of [[(∞,n)-category|(∞,n)-categories]] and [[Goodwillie calculus]]
-
 * _$\mathbb{E}[k]$-[[Ek-Algebras|Algebras]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
   on little cubes [[(∞,1)-operad]]s
 
-* _[[Tannaka duality for geometric stacks]]_
-
-* PhD thesis, _derived algebraic geometry_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG.pdf))
-
-  on [[derived algebraic geometry]]
-
-  all the material in there should now be, in more complete and more coherent form, in the articles above. But some papers will cite page and verse in the PhD thesis, so it is useful to have that as a reference, too.
-
-* _[[Moduli Problems and DG-Lie Algebras]]_  
-
-  on [[∞-Lie algebra]]s as formal neighbourhoods of point in [[∞-stack]]s.
 
 category: people
