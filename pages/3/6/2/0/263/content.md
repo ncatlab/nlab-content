@@ -32,7 +32,7 @@ A **category with weak equivalences** is a [[category]] $C$ equipped with a [[su
 
 * which contains all isomorphisms of $C$;
 
-* which satisfies "two-out-of-three": for $f, g$ any two composable morphisms of $C$, if two of $\{f, g, g \circ f\}$ are in $W$, then so is the third.
+* which satisfies [[two-out-of-three]]: for $f, g$ any two composable morphisms of $C$, if two of $\{f, g, g \circ f\}$ are in $W$, then so is the third.
 
 
 ## Examples and refinements
@@ -98,6 +98,4 @@ is equivalent to the identity, do you?
 
 
 
-[[!redirects 2-out-of-3 property]]
-[[!redirects two-out-of-three property]]
 [[!redirects categories with weak equivalences]]
