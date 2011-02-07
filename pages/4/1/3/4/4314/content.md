@@ -162,7 +162,7 @@ The relation to [[combinatorial model categories]] is discussed in
 * [[Ji?í Rosický]], _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
 {#Rosicky}
 
-The implication of VP on [[homotopy theory]] and [[model categories]] are discussed in the following articles
+The implication of VP on [[homotopy theory]], [[model categories]] and [[cohomology localization]] are discussed in the following articles
 
 * [[Ji?í Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_  Transactions of the American Mathematical Society
 Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable/1194855)).
