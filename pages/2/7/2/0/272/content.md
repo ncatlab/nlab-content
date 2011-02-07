@@ -48,7 +48,7 @@ In the context of the Haag-Kastler axioms there is a precise theorem, the [[Oste
 
 Sheaves are used explicitly in:
 
-* Roberts, John E.: New light on the mathematical structure of algebraic field theory.  Operator algebras and applications, Part 2 (Kingston, Ont., 1980),  pp. 523&#8211;550, Proc. Sympos. Pure Math., 38, Amer. Math. Soc., Providence, R.I., 1982.
+* Roberts, John E.: [New light on the mathematical structure of algebraic field theory.](http://books.google.com/books?id=IFjzuLjE43kC&lpg=PA297&ots=5Ld1B3I45m&dq=Operator%20algebras%20and%20applications%2C%20Part%202&pg=PA523#v=onepage&q=Operator%20algebras%20and%20applications,%20Part%202&f=false)  Operator algebras and applications, Part 2 (Kingston, Ont., 1980),  pp. 523&#8211;550, Proc. Sympos. Pure Math., 38, Amer. Math. Soc., Providence, R.I., 1982.
 
 * Roberts, John E.: [Localization in algebraic field theory](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1103921341). Comm. Math. Phys. 85 (1982), no. 1, 87&#8211;98.
 
