@@ -3269,7 +3269,7 @@ For $X\in \mathbf{H}^{th}$ we say that
   The $(i_* \dashv i^*)$-[[unit of an adjunction|counit]] 
 
   $$
-    \matbf{Red} X \to X
+    \mathbf{Red} X \to X
   $$
 
   we call the **inclusion of the reduced part** of $X$.
