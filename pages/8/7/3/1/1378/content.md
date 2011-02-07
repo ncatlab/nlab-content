@@ -138,11 +138,8 @@ The "higher algebra" embodied by [[commutative ring spectrum|commutative ring sp
 ## References
 
 
-* [[Jacob Lurie]] 
+* [[Jacob Lurie]], _[[Higher Algebra]]_
 
-  * _Noncommutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-II.pdf))
-
-  * _Commutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/topoibook/DAG-III.pdf)) 
 
 See also 
 
@@ -151,4 +148,3 @@ See also
 
 
 
-[[!redirects Higher Algebra]]
