@@ -3270,7 +3270,7 @@ For $X\in \mathbf{H}_{th}$ we say that
 
 =-- 
 
-+-- {: .un_prop}
++-- {: .un_prop #RedIsIdempotent}
 ###### Observation
 
 The operation $\mathbf{Red}$ is an [[idempotent]] projection of
@@ -3329,6 +3329,49 @@ $$
 $$
 
 that serves as [[generalized the|the]] $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] on $\mathfrak{a}$, hence as the [infinitesimal path inclusion](#InfinitesimalPathsAndReduction) for $\mathfrak{a}$.
+
+=--
+
++-- {: .un_prop}
+###### Observation
+
+For all $X \in \mathbf{H}$, we have that $X$ and $\mathbf{\Pi}_{inf}(X)$ are [∞-Lie algebroids](#InfinitesimalObject) over $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $X$ this is tautological, for $\mathbf{\Pi}(X)$ it follows from the [idempotency of Red](#RedIsIdempotent)
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+If we think of $\mathbf{\Pi}_{inf}(X)$ as an $\infty$-Lie algebroid we shall equivalently write
+
+$$
+  T X := \mathbf{\Pi}_{inf}(X)
+$$
+
+and call this the [[tangent Lie algebroid]] of $X$.
+
+In this notation any other $\infty$-Lie algebroid $\mathfrak{a}$ over $X$ is characterized by a morphism
+
+$$
+  \mathfrak{a} \to T X
+  \,.
+$$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+In other contexts the object $\mathbf{\Pi}_{inf}(X)$ is also called the **[[de Rham space]] of $X$**.
+
+Here we avoid this terminology, since by the [above discussion](#deRhamCohomology) we have a good notion of intrinsic [[de Rham cohomology]] in a cohesive $(\infty,1)$-topos already without introducing infinitesimal cohesion. From this point of view the object $\mathbf{\Pi}_{inf}(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represents de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly infinitesimal way.
 
 =--
 
