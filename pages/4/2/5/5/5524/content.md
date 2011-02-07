@@ -68,7 +68,7 @@ on $CartSp_{synthdiff}$.
 
 ## Properites
 
-
+### Cohesion
 
 +-- {: .un_prop}
 ###### Proposition
@@ -87,7 +87,15 @@ Because [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]]. See there for de
 +-- {: .un_def}
 ###### Definition
 
-Write $SmoothMfd_{synthdiff} \hookrightarrow SmoothAlg^{op}$ for the [[full subcategory]] of [[smooth loci]] on those of the form $X \times D$, for $X \in $ [[SmoothMfd]] $\hookrightarrow SmoothAlg^{op}$, equipped with the coveage induced form [[SmoothMfd]] as above.
+Write $FSmoothMfd \hookrightarrow SmoothAlg^{op}$ for the [[full subcategory]] of [[smooth loci]] on the 
+ **[[formal smooth manifold]]s**: those modeled on [[CartSp]]${}_{synthdiff}$ equipped with the evident [[coverage]].
+
+=--
+
++-- {: .un_prop #CartSpAsDenseSubOfFSmoothMfd}
+###### Observation
+
+$CartSp_{synthdiff}$ is a [[dense sub-site]] of $FSmoothMfd$.
 
 =--
 
@@ -97,7 +105,7 @@ Write $SmoothMfd_{synthdiff} \hookrightarrow SmoothAlg^{op}$ for the [[full subc
 There is an [[equivalence of (∞,1)-categories]]
 
 $$
-  SynthDiff\infty Grpd \simeq \hat Sh_{(\infty,1)}(SmoothMfd_{synthdiff})
+  SynthDiff\infty Grpd \simeq \hat Sh_{(\infty,1)}(FSmoothMfd)
 $$
 
 with the [[hypercomplete (∞,1)-topos]] over $SmoothMfd_{synthdiff}$.
@@ -107,10 +115,13 @@ with the [[hypercomplete (∞,1)-topos]] over $SmoothMfd_{synthdiff}$.
 +-- {: .proof}
 ###### Proof
 
-Directly analogous to the corresponding proof at [[ETop∞Grpd]]: use that $CartSp_{synthdiff}$ is a [[dense sub-site]] of $SmoothMfd_{synthdiff}$.
+With the [above observation](#CartSpAsDenseSubOfFSmoothMfd) this is directly analogous to the corresponding proof at [[ETop∞Grpd]]. 
 
 =--
 
+
+
+### Infinitesimal cohesion
 
 +-- {: .un_def}
 ###### Definition
@@ -305,18 +316,6 @@ We discuss the realization of the general abstract <a href="http://ncatlab.org/n
 Since by the [above discussion](#RelativeInftyConnectedness) $SynthDiff\infty Grpd$ is strongly $\infty$-connected _relative_ to [[Smooth∞Grpd]] all of these structures that depend only on $\infty$-connectedness (and not on [[local (∞,1)-topos|locality]]) acquire a relative version.
 
 
-### Concrete objects {#StrucConcreteObjects}
-
-(...)
-
-### Geometry and structure sheaves {#StrucGeometry}
-
-(...)
-
-### Cohesive $\infty$-groups {#StrucInfinGroups}
-
-(...)
-
 ### Cohomology and principal $\infty$-bundles {#StrucCohomology}
 
 +-- {: .un_prop}
@@ -360,7 +359,7 @@ for the [[cohomology group]] of $X$ with coefficients in the canonical line obje
 Write
 
 $$
-  \mathbf{L}_{synthdiff} \hookrightarrow SynthDiff \infty Grpd
+  \mathbf{L}_{sdiff} \hookrightarrow SynthDiff \infty Grpd
 $$
 
 for the [[cohomology localization]] of $SynthDiff\infty Grpd$ at $\mathbb{R}$-[[cohomology]]: the full [[sub-(∞,1)-category]] on the $W$-[[local object]] with respect to the [[class]] $W$ of [[morphism]]s that induce [[isomorphism]]s in all $\mathbb{R}$-cohomology groups.
@@ -370,31 +369,44 @@ for the [[cohomology localization]] of $SynthDiff\infty Grpd$ at $\mathbb{R}$-[[
 +-- {: .un_prop}
 ###### Proposition
 
-Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebras|projective model structure on cosimplicial smooth algera]] and let $j : (SmoothAlg^{\Delta})^{op} \to [CartSp_{synthdiff}, sSet]$ be the prolonged external [[Yoneda embedding]]. 
+Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebras|projective model structure on cosimplicial smooth algebras]] and let $j : (SmoothAlg^{\Delta})^{op} \to [CartSp_{synthdiff}, sSet]$ be the prolonged external [[Yoneda embedding]]. 
 
 1. This constitutes the [[right adjoint]] of a [[Quillen adjunction]]
  
    $$
-    (\mathcal{O} \dashv j) :  (SmoothAlg^\Delta)^{op}
+    (\mathcal{O} \dashv j) 
+    :  
+     (SmoothAlg^\Delta)^{op}
      \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{j}{\to}}
      [CartSp_{synthdiff}, sSet]_{proj}
      \,.
    $$
 
-1. The [[homotopy essential image]] of the right [[derived functor]] of $j$ restricted to [[simplicial object|simplicial]] infinitesimally thickened manifolds
+1. Restricted to [[simplicial object|simplicial]] [[formal smooth manifold]]s along
 
    $$
-     SmoothMfd_{synthdiff}^{\Delta^{op}}
+      FSmoothMfd^{\Delta^{op}}
       \hookrightarrow
       (SmoothAlg^\Delta)^{op}
    $$
 
-   presents the full [[sub-(∞,1)-category]] of $\mathbf{L}$ on the objects presenztable this way.
-
-1. The intrinsic $\mathbb{R}$-cohomology of any object $X \in SynthDiff\infty Grpd$ is computed by the ordinary [[cochain cohomology]] of the [[cochain complex]] underlying the cosimplicial abelian group $\mathcal{O}(X)$ under the [[Dold-Kan correspondence]]:
+   the right [[derived functor]] of $j$ is a [[full and faithful (∞,1)-functor]] that factors through the [[cohomology localization]] and thus identifies a full [[reflective sub-(∞,1)-category]]
 
    $$
-      H_{synthdiff}^n(X) \simeq H^n_{cochain}(\mathcal{O}(X))
+     (FSmoothMfd^{\Delta^op})^\circ
+     \hookrightarrow
+     \mathbf{L}_{sdiff}
+     \hookrightarrow
+     SynthDiff\infty Grpd
+   $$
+
+
+1. The intrinsic $\mathbb{R}$-cohomology of any object $X \in SynthDiff\infty Grpd$ is computed by the ordinary [[cochain cohomology]] of the [[Moore complex|Moore cochain complex]] underlying the cosimplicial abelian group $\mathcal{O}(X)$ under the [[Dold-Kan correspondence]]:
+
+   $$
+      H_{synthdiff}^n(X) 
+       \simeq 
+      H^n_{cochain}(N^\bullet\mathcal{O}(X))
       \,.
    $$
 
@@ -404,9 +416,10 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
 ###### Proof
 
 By the [above proposition](#EquivalenceToToposOverSoothSynthMfd)
-we may equivalently work over the site $SmoothMfd \ltimes InfSmoothLoc$.
+we may equivalently work over the site $FSmoothMfd$.
 
-The proof is given in ([Stel](#Stel)), based on ([To&#235;n](#Toen)). Some details are spelled out at [[function algebras on ∞-stacks]].
+The proof is then given in ([Stel](#Stel)), based on ([To&#235;n](#Toen)). Some details are spelled out at 
+[[function algebras on ∞-stacks]].
 
 
 =--
