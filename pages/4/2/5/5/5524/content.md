@@ -91,7 +91,7 @@ Write $SmoothMfd_{synthdiff} \hookrightarrow SmoothAlg^{op}$ for the [[full subc
 
 =--
 
-+-- {: .un_prop}
++-- {: .un_prop #EquivalenceToToposOverSoothSynthMfd}
 ###### Proposition
 
 There is an [[equivalence of (∞,1)-categories]]
@@ -111,8 +111,6 @@ Directly analogous to the corresponding proof at [[ETop∞Grpd]]: use that $Cart
 
 =--
 
-+-- {: .proof}
-###### Proof
 
 +-- {: .un_def}
 ###### Definition
@@ -321,7 +319,97 @@ Since by the [above discussion](#RelativeInftyConnectedness) $SynthDiff\infty Gr
 
 ### Cohomology and principal $\infty$-bundles {#StrucCohomology}
 
-(...)
++-- {: .un_prop}
+###### Observation
+
+The canonical [[line object]] of the [[Lawvere theory]] [[CartSp]]${}_{smooth}$ is the [[real line]], regarded as
+an object of the [[Cahiers topos]], and hence of
+$SynthDiff \infty Grpd$
+
+$$
+  \mathbb{A}^1_{CartSp_{smooth}} = \mathbb{R}
+  \,.
+$$ 
+
+=--
+
+We shall write $\mathbb{R}$ also for the underlying 
+additive group
+
+$$
+  \mathbb{G}_a = \mathbb{R}
+$$
+
+regarded as an abelian [[∞-group]] object in
+$SynthDiff\infty Grpd$. For $n \in \mathbb{N}$ write
+$\mathbf{B}^n \mathbb{R} \in SynthDiff\infty Grpd$ 
+for its $n$-fold [[delooping]].
+
+For $n \in \mathbb{N}$ and $X \in SynthDiff\infty Grpd$ 
+write 
+
+$$
+  H^n_{synthdiff}(X) := \pi_0 SynthDiff\infty Grpd(X,\mathbf{B}^n \mathbb{R})
+$$
+
+for the [[cohomology group]] of $X$ with coefficients in the canonical line object in degree $n$.
+
++-- {: .un_def}
+###### Definition
+
+Write
+
+$$
+  \mathbf{L}_{synthdiff} \hookrightarrow SynthDiff \infty Grpd
+$$
+
+for the [[cohomology localization]] of $SynthDiff\infty Grpd$ at $\mathbb{R}$-[[cohomology]]: the full [[sub-(∞,1)-category]] on the $W$-[[local object]] with respect to the [[class]] $W$ of [[morphism]]s that induce [[isomorphism]]s in all $\mathbb{R}$-cohomology groups.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebras|projective model structure on cosimplicial smooth algera]] and let $j : (SmoothAlg^{\Delta})^{op} \to [CartSp_{synthdiff}, sSet]$ be the prolonged external [[Yoneda embedding]]. 
+
+1. This constitutes the [[right adjoint]] of a [[Quillen adjunction]]
+ 
+   $$
+    (\mathcal{O} \dashv j) :  (SmoothAlg^\Delta)^{op}
+     \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{j}{\to}}
+     [CartSp_{synthdiff}, sSet]_{proj}
+     \,.
+   $$
+
+1. The [[homotopy essential image]] of the right [[derived functor]] of $j$ restricted to [[simplicial object|simplicial]] infinitesimally thickened manifolds
+
+   $$
+     SmoothMfd_{synthdiff}^{\Delta^{op}}
+      \hookrightarrow
+      (SmoothAlg^\Delta)^{op}
+   $$
+
+   presents the full [[sub-(∞,1)-category]] of $\mathbf{L}$ on the objects presenztable this way.
+
+1. The intrinsic $\mathbb{R}$-cohomology of any object $X \in SynthDiff\infty Grpd$ is computed by the ordinary [[cochain cohomology]] of the [[cochain complex]] underlying the cosimplicial abelian group $\mathcal{O}(X)$ under the [[Dold-Kan correspondence]]:
+
+   $$
+      H_{synthdiff}^n(X) \simeq H^n_{cochain}(\mathcal{O}(X))
+      \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [above proposition](#EquivalenceToToposOverSoothSynthMfd)
+we may equivalently work over the site $SmoothMfd \ltimes InfSmoothLoc$.
+
+The proof is given in ([Stel](#Stel)), based on ([To&#235;n](#Toen)). Some details are spelled out at [[function algebras on ∞-stacks]].
+
+
+=--
 
 ### Concordance {#StrucConcordance}
 
@@ -500,10 +588,6 @@ An [[∞-Lie algebra]] is indeed an infinitesimal object in $SynthDiff\infty Grp
 
 ## References
 
-The $(\infty,1)$-topos $SynthDiff\infty Grpd$ is discussed in  section 3.4 of 
-
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
-
 The site [[CartSp]]${}_{synthdiff}$ is discussed in section 5 of
 
 * [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ , Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 1 (1986), p. 3-17  ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)).
@@ -511,6 +595,20 @@ The site [[CartSp]]${}_{synthdiff}$ is discussed in section 5 of
 The [infinitesimal path ∞-groupoid adjunction](#StrucPaths) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is discussed at the level of [[homotopy categories]] in section 3 of 
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+
+The $(\infty,1)$-topos $SynthDiff\infty Grpd$ is discussed in  section 3.4 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+The [[cohomology localization]] of $SynthDiff\infty Grpd$ is discussed in
+
+* [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
+{#Stel}
+
+based on
+
+* [[nLab:Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
+{#Toen}
 
 
 [[!redirects synthetic differential ∞-groupoid]]
