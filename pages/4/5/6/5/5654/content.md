@@ -30,4 +30,12 @@ Then the $A$-**cohomology localization** of $C$ is -- if it exists -- the [[loca
 
 * At [[function algebras on ∞-stacks]] is discussed a class  of examples of cohomology localizations of [[(∞,1)-sheaf (∞,1)-toposes]] over [[site]]s of [[algebra over a Lawvere theory|algebras over]] an abelian [[Lawvere theory]] at cohomology with coefficients in the canonical [[line object]] $\mathbb{A}^1$.
 
+## References
+
+[[set theory|Set theoretic]] issues in cohomology localization -- and their solution using [[large cardinal]] axioms such as [[Vopenka's principle]], is discussed in
+
+* [[Carles Casacuberta]], Dirk Scevenels, [[Jeff Smith]], _Implications of large-cardinal principles in homotopical localization_  Advances in Mathematics Volume 197, Issue 1, 20 October 2005, Pages 120-139 
+
+* Joan Bagaria, [[Carles Casacuberta]], A. R. D. Mathias, [[Jiri Rosicky]], _Definable orthogonality classes in accessible categories are small_ ([arXiv:1101.2792](http://arxiv.org/abs/1101.2792))
+
 [[!redirects homotopy localizations]]
