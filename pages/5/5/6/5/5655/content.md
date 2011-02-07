@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Synthetic differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+A _formal smooth manifold_ is a [[smooth manifold]] equipped possibly with [[infinitesimal object|infinitesimal extension]].
+
+## References
+
+Section I.17 and I.19 of
+
+*  [[Anders Kock]], _Synthetic Differential Geometry_, ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+
+Formal smooth manifolds of the simple [[product]] form $X \times D$ in the category of [[smooth loci]] for $X$ an ordinary [[smooth manifold]] and $D$ and [[infinitesimal space]] have been considered in section 4 of
+
+* [[Eduardo Dubuc]], _Sur les modeles de la geometrie differentielle synthetique_ [[Cahiers]] de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 3 (1979), p. 231-279  ([numdam](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)).
+
+For more on this see [[Cahiers topos]]
+
+
+
+[[!redirects formal smooth manifolds]]
