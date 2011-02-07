@@ -3116,10 +3116,7 @@ $\mathbf{H}$.
 Given a cohesive $(\infty,1)$-topos $\mathbf{H}$ we say that 
 an **infinitesimal cohesive neighbourhood** of $\mathbf{H}$
 is another cohesive $(\infty,1)$-topos $\mathbf{H}_{th}$
-equipped with a
-[[strongly ∞-connected (∞,1)-topos|strongly ∞-connected]] 
-and [[local (∞,1)-topos|local]]
-[[(∞,1)-geometric morphism]] 
+equipped with a quadruple of [[adjoint (∞,1)-functor]]s
 
 $$
   (i_! \dashv i^* \dashv i_* \dashv i^!) : 
@@ -3149,7 +3146,7 @@ $$
   }
 $$
 
-as is the induced strongly $\infty$-connected geometric morphism
+as is the induced geometric morphism
 $(i_* \dashv i^!) : \mathbf{H}_{th} \to \mathbf{H}$
 
 $$
@@ -3204,42 +3201,18 @@ $$
   (i^* \dashv i_* \dashv i^!)
 $$
 
-+-- {: .un_prop}
-###### Observation
-
-
-The infinitesimal neighbourhood $\mathbf{H}_{th}$ is a [[strongly ∞-connected (∞,1)-topos]] over $\mathbf{H}$ in that its [[global section]] [[(∞,1)-geometric morphism]] 
-factors as
-
+so that the [[global section]] geometric moprhism of $\mathbf{H}_{th}$ factors as
 
 $$
+  (\Pi_{\mathbf{H}_{th}} \dashv Disc_{\mathbf{H}_{th}} \dashv \Gamma_{\mathbf{H}_{th}})
+  :
   \mathbf{H}_{th}
   \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{Disc_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}}
   \mathbf{H}
   \stackrel{\overset{\Pi_{\mathbf{H}}}{\to}}{\stackrel{\overset{Disc_{\mathbf{H}}}{\leftarrow}}{\underset{\Gamma_{\mathbf{H}}}{\to}}}
   \infty Grpd
-$$
-
-with $Disc_{\mathbf{H}_{th}}$ being a [[full and faithful (∞,1)-functor]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Since the [[global section]] [[(∞,1)-geometric morphism]] is essentially unique, we have
-
-$$
-  Disc_{\mathbf{H}_{th}}
-  \simeq
-  Disc_{\mathbf{H}} \circ Disc_{inf}
   \,.
 $$
-
-Notice that both $Disc_{\mathbf{H}}$ and $Disc_{\mathbf{H}_{th}}$ are full and faithful since both $\mathbf{H}$ and $\mathbf{H}_{th}$ are cohesive.
-Since [[full and faithful (∞,1)-functors]] satisfy the [[2-out-of-3 property]], this implies the claim.
-
-=--
 
 
 Let for the remainder of this section an infinitesimal neighbourhood $\mathbf{H} \hookrightarrow \mathbf{H}_{th}$ be fixed.
