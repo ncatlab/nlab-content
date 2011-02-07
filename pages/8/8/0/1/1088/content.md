@@ -40,7 +40,7 @@ $$
 
 A system of **local isomorphism**s on $PSh(S)$ is any collection of morphisms satisfying
 
-1. local isomorphisms are a system of [[category with weak equivalences|weak equivalences]] (i.e. every [[isomorphism]] is a local isomorphism and they satisfy 2-out-of-3);
+1. local isomorphisms are a system of [[category with weak equivalences|weak equivalences]] (i.e. every [[isomorphism]] is a local isomorphism and they satisfy [[2-out-of-3]]);
 
 2. a morphism is a local isomorphism if and only if its [[pullback]] 
 $$
