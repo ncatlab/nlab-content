@@ -612,6 +612,9 @@ With the above results, this follows verbatim as the proof of the analogous  ([T
 
 ##  Localization of the $(\infty,1)$-topos at $R$-cohomology {#Intrinsic}
 
+We consider now the [[cohomology localization]] of 
+$Sh_{(\infty,1)}(C)$ at the canonical [[line object]].
+
 In this section we discuss that in terms of the [[(∞,1)-category theory]] 
 that is [[presentable (∞,1)-category|presented]] by the model category theoretic structures [above](#Models), these serve to establish the following intrinsic statement.
 
