@@ -106,6 +106,19 @@ One thing to note is that in general, when working with Street fibrations, one m
 
 Just as every Grothendieck fibration is a [[strictly exponentiable functor]], i.e. an [[exponential object|exponentiable morphism]] in the [[strict 2-category]] [[Cat]], every Street fibration is a non-strictly exponentiable functor, i.e. an exponentiable morphism in the weak [[2-category]] Cat.
 
+## Examples
+
+Of course, any Grothendieck fibration is a Street fibration, but the interest is in those which are not Grothendieck.  Some of the applications are internal to 2-categories other than [[Cat]].
+
+* The original motivation was to consider fibrations (and opfibrations, and [[two-sided fibrations]]) in $V Cat^{op}$ as a means to construct [[Prof]].
+
+* Street fibrations in [[Topos]] are discussed in the paper of Johnstone below.
+
+Street fibrations in [[Cat]] also arise in mathematics, though often under different names.  The following examples were pointed out by [[George Janelidze]], [[Steve Lack]], and [[Ross Street]].
+
+* The notion of "admissible object" in [[categorical Galois theory]] can be expressed in terms of a functor being (partially) a Street fibration, not generally Grothendieck.
+
+* Any [[left exact functor|left exact]] (or, more generally, "semi-left exact") [[reflection]] is a Street fibration, not generally Grothendieck.
 
 ## References
 
