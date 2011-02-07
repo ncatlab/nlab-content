@@ -123,9 +123,9 @@
 
 * [[orientation]], [[orientation in generalized cohomology|in generalized cohomology]]
 
-* [[fiber integration]]
+* [[fiber integration]], [[transgression]]
 
-* [[transgression]]
+* [[cohomology localization]]
 
 ### Theorems
 
