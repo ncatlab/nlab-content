@@ -28,7 +28,7 @@ The fat simplex can be used to express the [[homotopy colimit]] over [[simplicia
 
 ## Definition
 
-Write $\Delta$ for the [[simplex category]]. For $[n] \in \Delta$ write $\Delta/[n]$ for the corresponding [[overcategory]]. Finally write $
+Write $\Delta$ for the [[simplex category]]. For $[n] \in \Delta$ write $\Delta/[n]$ for the corresponding [[overcategory]]. Finally write 
 
 $$
   \mathbf{\Delta}[n] :=
