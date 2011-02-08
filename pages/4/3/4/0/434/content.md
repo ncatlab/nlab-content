@@ -1,20 +1,28 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Contents### {: .clickToReveal}
-###Contents### {: .clickToHide tabindex="0"}
-+--{: .hide}
+### Contents {: .clickToReveal}
+### Contents {: .clickToHide tabindex="0"}
++-- {: .hide}
 [[!include contents]]
 =--
 =--
 =--
 
+# Logic and foundations
+* table of contents
+{: toc}
+
+## Main articles
+
 * [[foundations|Foundations]]
 * [[logic|Logic]]
 * [[philosophy|Philosophy]]
 
-###Axiomatic set theory###
 
-#### Basic axioms and notions
+## Axiomatic set theory
+
+### Basic axioms and notions
 
 * [[apartness relation]]
 * [[axiom of choice]], [[axiom of extensionality]], [[axiom of foundation]], [[axiom of infinity]], [[axiom of multiple choice]], [[axiom of pairing]], [[axiom of replacement]], [[axiom of union]]
@@ -29,7 +37,8 @@
 * [[pure set]]
 * [[set theory]]
 
-#### Model theory
+
+### Model theory
 
 * [[model theory]]
 * [[Mostowski's collapsing lemma]]
@@ -38,7 +47,8 @@
 * [[Skolem's paradox]]
 * [[Vopěnka's principle]]
 
-###Logic and foundations###
+
+## Other
 
 * [[Boolean algebra]]
 * [[constructive mathematics]]
@@ -53,6 +63,7 @@
 * [[theory]]
 * [[truth value]]
 * [[type theory]]
+
 
 [[!redirects foundations and logic]]
 [[!redirects logic and foundations]]
