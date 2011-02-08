@@ -324,7 +324,7 @@ where the last step follows since we have a [[colimit]] over a category with a [
 +-- {: .un_remark}
 ###### Remark
 
-Conversely this implies that $SynthDiff\infty Grpd$ is a [[strongly ∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]], exhibited by the triple of adjunctions
+Conversely this implies that $SynthDiff\infty Grpd$ is a [[∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]], exhibited by the triple of adjunctions
 
 $$
   (i^* \dashv i_* \dashv i^!) : 
@@ -345,7 +345,7 @@ Since by the [above discussion](#RelativeInftyConnectedness) $SynthDiff\infty Gr
 
 ### Cohomology and principal $\infty$-bundles {#StrucCohomology}
 
-We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Cohomology">intrinsic cohomology in a cohesive (∞,1)-topos</a> realized in $SynthDiff∞Grpd$.
+We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Cohomology">intrinsic cohomology in a cohesive (∞,1)-topos</a> realized in $SynthDiff\infty Grpd$.
 
 +-- {: .un_prop}
 ###### Observation
@@ -395,7 +395,7 @@ for the [[cohomology localization]] of $SynthDiff\infty Grpd$ at $\mathbb{R}$-[[
 
 =--
 
-+-- {: .un_prop}
++-- {: .un_prop #PresentationOfCohomologyLocalization}
 ###### Proposition
 
 Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebras|projective model structure on cosimplicial smooth algebras]] and let $j : (SmoothAlg^{\Delta})^{op} \to [CartSp_{synthdiff}, sSet]$ be the prolonged external [[Yoneda embedding]]. 
@@ -430,12 +430,12 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
    $$
 
 
-1. The intrinsic $\mathbb{R}$-cohomology of any object $X \in SynthDiff\infty Grpd$ is computed by the ordinary [[cochain cohomology]] of the [[Moore complex|Moore cochain complex]] underlying the cosimplicial abelian group $\mathcal{O}(X)$ under the [[Dold-Kan correspondence]]:
+1. The intrinsic $\mathbb{R}$-cohomology of any object $X \in SynthDiff\infty Grpd$ is computed by the ordinary [[cochain cohomology]] of the [[Moore complex|Moore cochain complex]] underlying the cosimplicial abelian group of the image under the left [[derived funcrtor]]$(\mathbb{L}\mathcal{O})(X)$ under the [[Dold-Kan correspondence]]:
 
    $$
       H_{synthdiff}^n(X) 
        \simeq 
-      H^n_{cochain}(N^\bullet\mathcal{O}(X))
+      H^n_{cochain}(N^\bullet(\mathb{L}\mathcal{O})(X))
       \,.
    $$
 
@@ -453,12 +453,10 @@ The proof of the above statements is given in ([Stel](#Stel)), following ([To&#2
 
 =--
 
-### Paths and geometric Postnikov towers {#StrucPaths}
+### Paths and geometric Postnikov towers 
+  {#StrucPaths}
 
-+-- {: .un_def}
-###### Definition
-
-The **infinitesimal path $\infty$-functor** is the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Paths">intrinsic path ∞-groupoid</a> for the _[relative](#RelativeInftyConnectedness)_ [[strongly ∞-connected (∞,1)-topos|strongly ∞-connected structure]] $\Pi_{inf} : SynthDiff \infty Grpd \to Smooth\infty Grpd$:
+We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">intrinsic infinitesimal path adjunction</a> realized in $SynthDiff\infty Grpd$.
 
 $$
   (\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf}) 
@@ -477,50 +475,53 @@ $$
 +-- {: .un_prop}
 ###### Observation
 
-For $U \times D \in CartSp_{synthdiff} \hookrightarrow SynthDiff\infty Grpd$
+For $U \times D \in CartSp_{smooth} \ltimes InfinSmoothLoc = CartSp_{synthdiff} \hookrightarrow SynthDiff\infty Grpd$
 we have that
 
 $$
-  \mathbf{Red}(K \times D) \simeq U
+  \mathbf{Red}(U \times D) \simeq U
 $$
 
-is the **reduced smooth locus** the formal dual of the [[smooth algebra]] obtained by quotienting out all nilpotent elements in the [[smooth algebra]] $C^\infty(K \times D) \simeq C^\infty(K) \otimes C^\infty(D)$.
+is the **reduced [[smooth locus]]**: the [[Isbell duality|formal dual] of the [[smooth algebra]] obtained by quotienting out all nilpotent elements in the [[smooth algebra]] $C^\infty(K \times D) \simeq C^\infty(K) \otimes C^\infty(D)$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the [[model category]] presentation of $\mathbf{Red} = i \circ \Pi_{inf} = i_! \circ i^*$ of the [above proof](#CohesivenessUnderSmoothInfGrpd) and using that every [[representable functor|representable]] is cofibrant and fibrant in the local projective [[model structure on simplicial presheaves]] we have
+By the [[model category]] presentation of 
+$\mathbf{Red} \simeq  \mathbb{L} Lan_i \circ \mathbb{R}i^*$ of the [above proof](#CohesivenessUnderSmoothInfGrpd) and using that every [[representable functor|representable]] is cofibrant and fibrant in the local projective [[model structure on simplicial presheaves]] we have
 
 $$
   \begin{aligned}
     \mathbf{Red}(U \times D)
     & 
     \simeq
-     (\mathbb{L}i_!) (\mathbb{R}i^*) (U \times D)
+     (\mathbb{L}Lan_i) (\mathbb{R}i^*) (U \times D)
     \\
      &\simeq
-     (\mathbb{L}i_!) i^* (U \times D)
+     (\mathbb{L}Lan_i) i^* (U \times D)
      \\
      & \simeq
-     (\mathbb{L}i_!) U
+     (\mathbb{L} Lan_i) U
      \\
      & \simeq
-     i_! U
+     Lan_i U
      \\
     & \simeq U
   \end{aligned}
-  \,.
 $$
+
+(using that $i$ is a [[full and faithful functor]]).
 
 =--
 
-+-- {: .un_prop}
++-- {: .un_prop #PiInfYieldsDeRahmSpace}
 ###### Corollary
 
 
-For $X \in SmoothAlg^{op}  \to SynthDiff \infty Grpd$ a [[smooth locus]], we have that $\mathbf{\Pi}_{inf}(X)$ is the corresponding [[de Rham space]], the [[∞-stack]] on $CartSp_{synthdiff}$ in which all [[infinitesimal object|infinitesimal]] neighbour points in $X$ are equivalent: given by the assignment
+For $X \in SmoothAlg^{op}  \to SynthDiff \infty Grpd$ a [[smooth locus]], we have that $\mathbf{\Pi}_{inf}(X)$ is the corresponding [[de Rham space]], the object
+in which all [[infinitesimal object|infinitesimal]] neighbour points in $X$ are equivalent, characterized by
 
 $$
   \mathbf{\Pi}_{inf}(X) : U \times D \mapsto X(U)
@@ -555,7 +556,9 @@ $$
 ### Flat differential cohomology and local systems 
   {#StrucFlat}
 
-We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">intrinsic flat differential cohomology</a> in any [[cohesive (∞,1)-topos]] realized in $SynthDiff∞Grpd$.
+We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">intrinsic flat differential cohomology</a> in any [[cohesive (∞,1)-topos]] realized in $SynthDiff\infty Grpd$.
+
+We state and demonstrate the generalization of the [[de Rham theorem]] from [[SmoothMfd]] to [[Smooth∞Grpd]] and $SynthDiff\infty Grpd$.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -563,12 +566,12 @@ We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity
 For all $n \in \mathbb{N}$ we have an [[equivalence in an (∞,1)-category|equivalence]]
 
 $$
-  \mathbf{\flat}_{inf} \mathbf{B}^n \magthbb{R}
+  \mathbf{\flat}_{inf} \mathbf{B}^n \mathbb{R}
    \simeq
   \mathbf{\flat} \mathbf{B}^n \mathbb{R}
 $$
 
-between the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#StrucInfinitesimalLocalSystem">infinitesimal flat coefficients</a> and genuine <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">flat coefficients</a>
+between the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#StrucInfinitesimalLocalSystem">infinitesimal flat coefficients</a> and genuine <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">flat coefficients</a> of $\mathbf{B}^n \mathbb{R}$.
 
 =--
 
@@ -578,10 +581,11 @@ between the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)
 
 We present the situation in the local [[model structure on simplicial presheaves]] $[CartSp_{synthdiff}, sSet]_{proj,loc}$.
 
-By the general discussion at [[∞-cohesive site]] and specifically the discussion of <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#FlatCoefficientsForCircleNGroup">flat differential coefficient objects</a> in [[Smooth∞Grpd]] we have that $\mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}$ is presented by the constant simplicial presheaf
+By the general discussion at [[∞-cohesive site]] and specifically the discussion of <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#FlatCoefficientsForCircleNGroup">flat differential coefficient objects</a> in [[Smooth∞Grpd]] we have that $\mathbf{\flat}\mathbf{B}^n \mathbb{R}$ is presented by the constant simplicial presheaf
 
 $$
-  \mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_c
+  \mathbf{\flat}\mathbf{B}^n \mathbb{R}_c
+  :
   U \mapsto
   \Xi \mathbb{R}[n]  
   \,,
@@ -589,7 +593,7 @@ $$
 
 where $\mathbb{R}[n]$ is the [[chain complex]] concentrated on the [[abelian group]] or [[real number]]s in degree $n$ and  $\Xi : Ch_\bullet^+ \to sAb \to sSet$ is the [[Dold-Kan correspondence]].
 
-This is a fibrant object in $[CartSp_{synthdiff}, sSet]_{proj,loc}$ (for instance since the constant presheaf functor of which $Disc_{\mathbf{H}_{th}}$ is the right [[derived functor]] is a right [[Quillen adjunction|Quillen functor]]).
+This is a fibrant object in $[CartSp_{synthdiff}, sSet]_{proj,loc}$ (for instance since the constant presheaf functor of which $Disc$ is the right [[derived functor]] is a right [[Quillen adjunction|Quillen functor]]).
 
 We now similarly construct a fibrant presentation for $\mathbf{\flat}_{inf} \mathbf{B}^n \mathbb{R}$.
 
@@ -645,7 +649,7 @@ $$
     \mathbf{\Delta}[k] \cdot (U \times D \times \tilde D(...,k))
 $$
 
-is cofibrant for all $U \times D \in CartSp_{synthdiff}$. Moreover (by the discussion at [[Reedy model structure]] and [[Bousfield-Kan map]]) it is weakly equivalent to $(U \times D)^{(\Delta^\bullet_k)}$. Notice that this extends to a functor
+is cofibrant for all $U \times D \in CartSp_{synthdiff}$. Moreover (by the discussion at [[Reedy model structure]] and [[Bousfield-Kan map]]) it is weakly equivalent to $(U \times D)^{(\Delta^k_{inf})}$. Notice that this construction extends to a functor
 
 $$
   \mathbf{\Pi}_{inf}(-)_c :
@@ -667,7 +671,7 @@ $$
   [CartSp_{synthdiff}, sSet]_{proj,loc}
 $$
 
-we have that the [[Yoneda extension]] (which we denote by the same symbol)
+we have that the [[Yoneda extension]] of $\mathbf{\Pi}_{inf}(-)_c$ (which we denote by the same symbol)
 
 $$
   \mathbf{\Pi}_{inf}(-)_c
@@ -694,74 +698,140 @@ $$
   \,.
 $$
 
-We now claim that this Quillen adjunction does descend to the local model structure.  And that the right [[derived functor]] of $\mathbf{\flat}_{inf}(-)_c$ is the infinitesimal flat coefficiient functor $\mathbf{\flat}_{inf}$.
+We now claim that this Quillen adjunction does descend to the local model structure and that the right [[derived functor]] of $\mathbf{\flat}_{inf}(-)_c$ is the infinitesimal flat coefficient functor $\mathbf{\flat}_{inf}$.
 
 Both of these claims are consequences of the following observation:
 
-we have a natural weak equivalence 
-
-$$
-  [CartSp_{synthdiff}, sSet](U'\times D', 
-    \mathbf{\Pi}_{inf}(U \times D)_c)
-  \stackrel{\simeq}{\to}
-  [CartSp_{synthdiff}, sSet](U', U) 
-  =
-  CartSp_{smooth}(U', U)
-  \,.
-$$
-
-This is directly seen by [[synthetic differential geometry|synthetic differential geometry]] reasoning: a morphism $D' \to (U \times D)^{\Delta^\bullet_{inf}}$ is an infinitesimal blob of points in $U \times D$. But in the [[Kan complex]]
-$(U \times D)^{\Delta^\bullet_{inf}}$ all infinitesimal neighbour points are equivalent, by an essentially unique equivalence. (This is effectively the definition of this object.)
-
-Using that $\mathbf{\Pi}_{inf}(U \times D)_c$ is globally weakly equivalent to $(U \times D)^{(\Delta^\bullet_{inf})}$ by the above, the latter is globally fibant, that every representable is cofibrant and that $[CartSp_{synthdiff}, sSet]_{proj}$ is a [[simplicial model category]], we get 
+for all $U\times D, U' \times D' \in CartSp_{synthdiff}$ we have a natural weak equivalence 
 
 $$
   \mathbb{R}Hom_{glob}(U' \times D', \mathbf{\Pi}_{inf}(U \times D))
+  \stackrel{\simeq}{\to}
+  [CartSp_{synthdiff}, sSet](U' \times D', (U \times D)^{(\Delta^\bullet_{inf})}) 
   \simeq
-  [CartSp_{synthdiff}^{op}, sSet](U' \times D', (U \times D)^{(\Delta^\bullet_{inf})})
-  \simeq
-  CartSp_{synthdiff}(U', U)
+  CartSp_{smooth}(U', U)
   \,.
 $$
 
-a sequence of weak equivalences
+The first characterization of the [[derived hom-space]] follows from the fact that, by the above discussion, the object
+$(U \times D)^{(\Delta^\bullet_{inf})}$ is a globally fibrant resolution of $\mathbf{\Pi}_{inf}(U \times D)_c$ and that every representable is cofibrant.
 
-  [CartSp_{synthdiff}, sSet](U'\times D', 
-    \mathbf{\Pi}_{inf}(U \times D)_c)
-  \stackrel{\simeq}{\to}
-  [CartSp_{synthdiff}, sSet](U'\times D', 
-    \mathbf{\Pi}_{inf}(U \times D)_c)
-  \stackrel{\simeq}{\to}
-  [CartSp_{synthdiff}, sSet](U', U) 
-  =
-  CartSp_{smooth}(U', U)
+The second equivalence is conveniently seen by [[synthetic differential geometry|synthetic differential geometry]] reasoning: a morphism $D' \to (U \times D)^{(\Delta^\bullet_{inf})}$ is an infinitesimal blob of points in $U \times D$. But in the [[Kan complex]]
+$(U \times D)^{(\Delta^\bullet_{inf})}$ all infinitesimal neighbour points are equivalent, by an essentially unique equivalence. (This is effectively the definition of this object.)
+
+With the [above discussion](#PiInfYieldsDeRahmSpace) it follows first of all that the left [[derived functor]] of $\mathbf{\Pi}_{inf}(-)_c$  on [[(∞,1)-presheaves]] does coincide with $\mathbf{\Pi}_{inf}$ on representables in $CartSp_{synthdiff}$. 
+
+Moreover, this means that it sends covers to generalized covers, by the argument for $p^*$ in the [above proof](#CohesivenessUnderSmoothInfGrpd). This means that $\mathbf{\flat}_{inf}(-)_c$ preserves locally fibrant objects. Since the [[model structure on simplicial presheaves]] is a [[left proper model category]] this is, by the discussion at  [[simplicial Quillen adjunction]], sufficient to deduce that we also have a local [[Quillen adjunction]]
+
+$$
+  (\mathbf{\Pi}(-)_c \dashv 
+  \mathbf{\flat}(-)_c) : 
+  [CartSp_{synthdiff}^{op}, sSet]_{proj,loc}
+  \stackrel{\leftarrow}{\to}
+  [CartSp_{synthdiff}^{op}, sSet]_{proj,loc}
+$$
+
+whose [[derived functor]]s are eqivalent to the [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf}) : SynthDiff\infty Grpd \to SynthDiff \infty Grpd$.
+
+Using this presentation we can now complete the argument that we have an [[equivalence in an (∞,1)-category|∞-equivalence]] $\mathbf{\flat}_{inf} \mathbf{B}^n \mathbb{R} \simeq \mathbf{\flat} \mathbf{B}^n \mathbb{R}$  by observing that we have a local weak equivalence $\mathbf{\flat}_{inf}\mathbf{B}^n \mathbb{R}_c \simeq \mathbf{\flat} \mathbf{B}^n \mathbb{R}_c$:
+
+We may check this by checking it on all representables. 
+By the [above proposition](#PresentationOfCohomologyLocalization) we have that 
+
+$$
+  \begin{aligned}
+    \pi_n SynthDiff \infty Grpd(U\times D, \mathbf{\flat}_{inf} \mathbf{B}^n \mathbb{R})
+     & \simeq
+    \pi_n SynthDiff \infty Grpd(\mathbf{\Pi}_{inf}(U\times D), \mathbf{B}^n \mathbb{R})
+    \\
+    & \simeq
+     H_{cochain}^n( N^\bullet (\mathbb{L}\mathcal{O})(\mathbf{\Pi}_{inf}(U \times D)))
+   \\
+    & \simeq 
+     H_{cochain}^n( N^\bullet (\mathbb{L}\mathcal{O})( 
+     (U \times D)^{(\Delta^\bullet_{inf})} ) )
+  \end{aligned}
+  \,.
+$$
+
+Here in the last step we used 
+
+1. that $\mathbf{\Pi}_{inf}((U \times D)_c$ is cofibrant so that $\mathbb{L}\mathcal{O}$ applied to it is equivalently just $\mathcal{O}$ applied to it;
+
+1. that every object in $SmoothAlg^{op}$ is cofibrant, so that we have a weak equivalence
+
+   $$
+    \begin{aligned}
+      \mathcal{O} \mathbf{\Pi}_{inf}(U \times D)
+      & \simeq
+      \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot \mathcal{O}((U \times D)^{(\Delta^k_{inf})})
+      \\
+      & \simeq
+      \int^{[k] \in \Delta} \Delta[k] \cdot \mathcal{O}((U \times D)^{(\Delta^k_{inf})})
+      \\
+      & = 
+      \mathcal{O}((U \times D)^{(\Delta^\bullet_{inf})})
+    \end{aligned}
+   $$
+
+   in $SmoothAlg^{op}$.
+
+As essentially observed and amplified by ([Kock](#Kock)) -- see the discussion in ([Stel](#Stel)) for our context -- we have for $X$ a [[smooth manifold]] an [[isomorphism]] of [[dg-algebra]]s
+
+$$
+  N^\bullet(\mathcal{O}(X^{(\Delta^\bullet_{inf})}))
+    \simeq
+  \Omega^\bullet(X) 
+$$
+
+with the [[de Rham complex]] on the right. In particular the cohomology on the left is [[de Rham cohomology]].
+
+With this our statement is finally reduced to the ordinary [[de Rham theorem]]. In fact we only need to observe that it holds over [[Cartesian space]]s to complete our proof. 
 
 =--
 
++-- {: .un_cor}
+###### Corollary
+**(de Rham theorem for smooth $\infty$-groupoids)**
 
-### Geometric homotopy and Galois theory {#StrucGeometricHomotopy} 
+Let $X \in SynthDiff \infty Grpd$ be any synthetic differential $\infty$-groupoid.
 
-Regarding $SynthDiff  \infty Grpd$ as being a [[strongly ∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]] by the [above discussion](#RelativeInftyConnectedness) we write
-
+For all $n \in \mathbb{N}$ we have an equivalence of [[cocycle]]
+[[∞-groupoid]]s
 
 $$
-  (\Pi_{inf} \dashv Disc_{inf} \dashv \Gamma_{inf})
-  :=
-  (i^* \dashv i_* \dashv i^!)
-  : 
-  SynthDiff\infty Grpd
-    \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{Disc_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}}
-  Smooth \infty Grpd
+  SynthDiff\infty Grpd(\mathbf{\Pi}_{inf}(X), \mathbf{B}^n \mathbb{R})
+  \simeq
+  SynthDiff\infty Grpd(\mathbf{\Pi}(X), \mathbf{B}^n \mathbb{R})
 $$
 
-for the corresponding relative [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]].
+and hence in particular [[isomorphism]]s in cohomology
+
+$$
+  H_{infflat}^n(X, \mathbb{R}) \simeq H_{flat}^n(X,\mathbb{R})
+  \simeq
+  H^n(|X|, \mathbb{R})
+  \,,
+$$
+
+where on the right we have the [[ordinary cohomology]] of the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">intrinsic geometric realization</a> $|X| \in Top$. 
+
+Finally, for $n \geq 2$ and $X \in Smooth\infty Grpd$ this also coincides with the 
+<a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#StrucDeRham">intrinsic smooth de Rham cohomology</a> of $X$
+
+$$
+  \cdots \simeq H^n_{dR}(X)
+  \,.
+$$
+
+=--
+
+Essentially this statement (in a slightly different context and on homotopy categories) is in ([SimpsonTeleman, section 3](#SimpsonTeleman)).
 
 
+### $\infty$-Lie algebras and deformation theory   {#StrucLieTheory}
 
-### Infinitesimal cohesion, $\infty$-Lie algebras and deformation theory {#StrucLieTheory}
-
-An [[∞-Lie algebra]] is indeed an infinitesimal object in $SynthDiff\infty Grpd$. See [[∞-Lie algebroid]] for details for the moment.
-
+For the moment see [[infinity-Lie algebroid]] for more
 
 
 
@@ -783,9 +853,11 @@ The site [[CartSp]]${}_{synthdiff}$ is discussed in section 5 of
 
 * [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ , Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 1 (1986), p. 3-17  ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)).
 
-The [infinitesimal path ∞-groupoid adjunction](#StrucPaths) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is discussed at the level of [[homotopy categories]] in section 3 of 
+The [infinitesimal path ∞-groupoid adjunction](#StrucPaths) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ and the de Rham theorem for $\infty$-stacks is discussed at the level of [[homotopy categories]] in section 3 of 
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+{#SimpsonTeleman}
+
 
 The $(\infty,1)$-topos $SynthDiff\infty Grpd$ is discussed in  section 3.4 of 
 
@@ -801,7 +873,7 @@ The discussion of the cohomology localization of $SynthDiff\infty Grpd$ follows 
 * [[nLab:Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
 {#Toen}
 
-The construction of the infinitesimal path object has been amplified and discussed by [[Anders Kock]] under the name [[combinatorial differential forms]], for instance in
+The construction of the infinitesimal path object has been amplified and discussed by [[Anders Kock]] under the name _combinatorial differential forms_, for instance in
 
 *  [[Anders Kock]], _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
