@@ -108,7 +108,7 @@ $$
   SynthDiff\infty Grpd \simeq \hat Sh_{(\infty,1)}(FSmoothMfd)
 $$
 
-with the [[hypercomplete (∞,1)-topos]] over $SmoothMfd_{synthdiff}$.
+with the [[hypercomplete (∞,1)-topos]] over $FSmoothMfd$.
 
 =--
 
@@ -378,7 +378,7 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
     :  
      (SmoothAlg^\Delta)^{op}
      \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{j}{\to}}
-     [CartSp_{synthdiff}, sSet]_{proj}
+     [CartSp_{synthdiff}, sSet]_{proj,loc}
      \,.
    $$
 
@@ -393,7 +393,7 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
    the right [[derived functor]] of $j$ is a [[full and faithful (∞,1)-functor]] that factors through the [[cohomology localization]] and thus identifies a full [[reflective sub-(∞,1)-category]]
 
    $$
-     (FSmoothMfd^{\Delta^op})^\circ
+     (FSmoothMfd^{\Delta^{op}})^\circ
      \hookrightarrow
      \mathbf{L}_{sdiff}
      \hookrightarrow
@@ -424,9 +424,6 @@ The proof is then given in ([Stel](#Stel)), based on ([To&#235;n](#Toen)). Some 
 
 =--
 
-### Concordance {#StrucConcordance}
-
-(...)
 
 ### Geometric homotopy and Galois theory {#StrucGeometricHomotopy}
 
@@ -445,10 +442,6 @@ $$
 
 for the corresponding relative [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]].
 
-
-### van Kampen theorem {#StrucVanKampen}
-
-(...)
 
 ### Paths and geometric Postnikov towers {#StrucPaths}
 
@@ -547,45 +540,12 @@ $$
 $$
 =--
 
-### Universal coverings and geometric Whitehead towers {#StrucWhitehead}
-
-(...)
-
-
-### Flat $\infty$-connections and local systems {#StrucFlat}
-
-(...)
-
-### de Rham cohomology {#StrucDeRham}
-
-(...)
-
-
-### Exponentiated $\infty$-Lie algebras {#StrucLieAlg}
-
 ### Infinitesimal cohesion, $\infty$-Lie algebras and deformation theory {#StrucLieTheory}
 
 An [[∞-Lie algebra]] is indeed an infinitesimal object in $SynthDiff\infty Grpd$. See [[∞-Lie algebroid]] for details for the moment.
 
 
 
-
-### Maurer-Cartan forms and curvature characteristic forms {#StrucCurvatureForms}
-
-(...)
-
-### Differential cohomology {#StrucDifferentialCohomology}
-
-(...)
-
-
-### Chern-Weil homomorphism and $\infty$-connections {#StrucChernWeil}
-
-(...)
-
-### Higher holonomy and Chern-Simons functional {#StrucChernSimons}
-
-(...)
 
 ## Related concepts
 
