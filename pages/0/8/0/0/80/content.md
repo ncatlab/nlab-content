@@ -7,6 +7,7 @@
 
 In philosophical part of $n$Lab we discuss the higher category theory and its repercussions in philosophy. More widely, the future entries on philosophy in nLab should also contain philosophy of mathematics in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the history of mathematics are welcome. 
 
+
 ## Idea
 
 Philosophical interest in [[n-category|n-categories]] may be characterised as belonging to one of two kinds.
@@ -16,7 +17,7 @@ Philosophical interest in [[n-category|n-categories]] may be characterised as be
 * **Illustrative of mathematics as intellectual enquiry**: Such a reconstitution of the fundamental language of [[mathematics]] reveals much about mathematics as a tradition of enquiry stretching back several millennia, for instance, the continued willingness to reconsider basic concepts.
 
 
-## Metaphysical
+## Metaphysics
 
 * [[higher category theory|Higher category theory]] provides a new foundation for mathematics - [[foundations|logical]] and [[foundations and philosophy|philosophical]].
 
@@ -35,17 +36,21 @@ Philosophical interest in [[n-category|n-categories]] may be characterised as be
 
 To [[vertical categorification|categorify]] mathematical constructions properly, one must have understood their essential features. This leads us to consider what it is to get concepts 'right'. Which kind of 'realism' is suitable for mathematics? Which virtues should a mathematical community possess to further its ends: a knowledge of its history, close attention to instruction and the sharing of knowledge, a willingness to admit to what is currently lacking in its programmes?
 
+
 ## Some literature
 
 * [[foundations and logic]]
+
 * wikipedia: [philosophy of mathematics](http://en.wikipedia.org/wiki/Philosophy_of_mathematics); wikipedia.ru [&#1060;&#1080;&#1083;&#1086;&#1089;&#1086;&#1092;&#1080;&#1103; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1082;&#1080;](http://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D0%B8%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8)
 
-#### Blog and forum discussions
+
+### Blog and forum discussions
 
 * Mathematical reality: [I](http://golem.ph.utexas.edu/category/2008/10/mathematical_reality.html), [II](http://golem.ph.utexas.edu/category/2008/11/mathematical_robustness.html)
 * [[GavinWraith|Gavin]] wrote about "The dangers of category theory", the query is now at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2472&Focus=21255#Comment_21255)
 
-#### Books
+
+### Books
 
 * Michael D. Potter, _Set theory and its philosophy: a critical introduction_, Oxford Univ. Press 2004
 
@@ -54,9 +59,11 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 * [[Saunders MacLane]], _Mathematics, form and function_, Springer-Verlag 1986, xi+476 pp. [MR87g:00041](http://www.ams.org/mathscinet-getitem?mr=816347), [wikipedia](http://en.wikipedia.org/wiki/Mathematics,_Form_and_Function)
 * George Lakoff, Rafael E. N&#250;&#241;ez, _Where mathematics comes from_, Basic Books 2000, xviii+493 pp. [MR2001i:00013](http://www.ams.org/mathscinet-getitem?mr=1794854)
 
-#### Articles 
+
+### Articles 
 
 * Glenn G. Parsons, James Robert Brown, _Platonism, metaphor, and mathematics_, Dialogue __43__ (2004), no. 1, 47&#8211;66, [MR2004k:00004](http://www.ams.org/mathscinet-getitem?mr=2053877)
+
 
 [[!redirects philosophy]]
 [[!redirects Philosophy]]
