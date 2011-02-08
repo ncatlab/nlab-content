@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+One says _ordinary cohomology_ for the [[cohomology theory]] [[Brown representability theorem|represented]] by the [[Eilenberg-MacLane spectrum]] $K(\mathbb{A})$ for some [[abelian group]] $A$. 
+
+This is to distinguish from more general notions of [[cohomology]], such as [[generalized (Eilenberg-Steenrod) cohomology]] and [[nonabelian cohomology]].
+
+## Properties
+
+Ordinary cohomology is modeled by [[singular cohomology]].
+
+## Related concepts
+
+The refinement to [[differential cohomology]] is [[ordinary differential cohomology]].
