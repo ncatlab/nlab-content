@@ -55,6 +55,7 @@ If you came across a journal called _Category Theory and Prosopography_ would yo
 
 * Fernando Zalamea, _Filosof&#237;a sint&#233;tica de las matem&#225;ticas contempor&#225;neas_, (Spanish) [Synthetic philosophy of contemporary mathematics] Obra Selecta. Editorial Universidad Nacional de Colombia, Bogot&#225;, 2009. 231 pp. [MR2599170](http://www.ams.org/mathscinet-getitem?mr=2599170), ISBN: 978-958-719-206-3, [pdf](&lt;http://files.acervopeirceano.webnode.es/200000065-18c1b19bb9/Zalamea-Fil-Sint-Mat-Cont.pdf>)
 * [[David Corfield]], _Towards a philosophy of real mathematics_, Cambridge University Press, 2003, [gBooks](http://books.google.hr/books?id=s37rhfWs73QC&lpg=PP1&ots=Zobx2bIWFh&dq=david%20corfield%20towards%20a%20philosophy%20of%20real%20mathematics&hl=en&pg=PP1#v=onepage&q&f=false)
+* [[Saunders MacLane]], _Mathematics, form and function_, Springer-Verlag 1986, xi+476 pp. [MR87g:00041](http://www.ams.org/mathscinet-getitem?mr=816347), [wikipedia](http://en.wikipedia.org/wiki/Mathematics,_Form_and_Function)
 
 [[!redirects philosophy]]
 [[!redirects Philosophy]]
