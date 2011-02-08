@@ -296,7 +296,7 @@ For the first statement notice the general fact that left
 [[Kan extension]] (see the propeties discussed there) along a [[full and faithful functor]] $i$ satisfies $Lan_i \circ i \simeq id$. It remains to observe that since $(-)\circ i$ is not only right but also left Quillen by the above, we have that $i^* Lan_i$ applied to a cofibrant object is already the [[derived functor]] of the composite.
 
 For the second statement, notice that the point, being representable is cofibrant in $[CartSp_{smooth}, sSet]_{proj,loc}$. Therefore we may compute 
-the [[derived functor]] $i_!(*)$ as the ordinary left [[Kan extension]] $Lan_i(*)$. The [[coend formula]] gives on any $K \times D \in CartSp_{synthdiff}$
+the [[derived functor]] $i_!(*)$ as the ordinary left [[Kan extension]] $Lan_i(*)$. The [[coend]] formula gives on any $K \times D \in CartSp_{synthdiff}$
 
 $$
   \begin{aligned}
@@ -344,6 +344,8 @@ Since by the [above discussion](#RelativeInftyConnectedness) $SynthDiff\infty Gr
 
 
 ### Cohomology and principal $\infty$-bundles {#StrucCohomology}
+
+We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Cohomology">intrinsic cohomology in a cohesive (∞,1)-topos</a> realized in $SynthDiff∞Grpd$.
 
 +-- {: .un_prop}
 ###### Observation
@@ -405,7 +407,7 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
     :  
      (SmoothAlg^\Delta)^{op}
      \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{j}{\to}}
-     [CartSp_{synthdiff}, sSet]_{proj,loc}
+     [FSmoothMfd^{op}, sSet]_{proj,loc}
      \,.
    $$
 
@@ -442,11 +444,13 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
 +-- {: .proof}
 ###### Proof
 
-By the [above proposition](#EquivalenceToToposOverSoothSynthMfd)
-we may equivalently work over the site $FSmoothMfd$.
+First a remark on the sites. By the [above proposition](#EquivalenceToToposOverSoothSynthMfd)
+$SynthDiff\infty Grpd$ is equivalent to the [[hypercomplete (∞,1)-topos]] over [[formal smooth manifold]]s. This is [[presentable (∞,1)-category|presented]] by the [[nLab:Bousfield localization of model categories|left Bousfield localization]] of $[FSmoothMfd^{op}, sSet]_{proj,loc}$ at the [[∞-connected]] morphisms. But a fibrant object in $[FSmoothMfd^{op}, sSet]_{proj,loc}$ that is also [[n-truncated]] for form $n \in \mathbb{N}$ is also fibrant in the hyperlocalization (only for the untruncated object there is an additional condition). Therefore the right Quillen functor claimed above indeed lands in truncated objects in $SynthDiff \inftyGrpd$.
 
-The proof is then given in ([Stel](#Stel)), based on ([To&#235;n](#Toen)). Some details are spelled out at 
+The proof of the above statements is given in ([Stel](#Stel)), based on ([To&#235;n](#Toen)). Some details are spelled out at 
 [[function algebras on ∞-stacks]].
+
+
 
 
 =--
