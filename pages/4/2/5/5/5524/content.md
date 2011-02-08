@@ -453,146 +453,6 @@ The proof of the above statements is given in ([Stel](#Stel)), following ([To&#2
 
 =--
 
-### Flat differential cohomology and local systems 
-  {#StrucFlat}
-
-We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">intrinsic flat differential cohomology</a> in any [[cohesive (∞,1)-topos]] realized in $SynthDiff∞Grpd$.
-
-+-- {: .un_prop}
-###### Proposition
-
-For all $n \in \mathbb{N}$ we have an [[equivalence in an (∞,1)-category|equivalence]]
-
-$$
-  \mathbf{\flat}_{inf} \mathbf{B}^n \magthbb{R}
-   \simeq
-  \mathbf{\flat} \mathbf{B}^n \mathbb{R}
-$$
-
-between the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#StrucInfinitesimalLocalSystem">infinitesimal flat coefficients</a> and genuine <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">flat coefficients</a>
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-We present the situation in the local [[model structure on simplicial presheaves]] $[CartSp_{synthdiff}, sSet]_{proj,loc}$.
-
-By the general discussion at [[∞-cohesive site]] and specifically the discussion of <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#FlatCoefficientsForCircleNGroup">flat differential coefficient objects</a> in [[Smooth∞Grpd]] we have that $\mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}$ is presented by the constant simplicial presheaf
-
-$$
-  \mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_c
-  U \mapsto
-  \Xi \mathbb{R}[n]  
-  \,,
-$$
-
-where $\mathbb{R}[n]$ is the [[chain complex]] concentrated on the [[abelian group]] or [[real number]]s in degree $n$ and  $\Xi : Ch_\bullet^+ \to sAb \to sSet$ is the [[Dold-Kan correspondence]].
-
-This is a fibrant object in $[CartSp_{synthdiff}, sSet]_{proj,loc}$ (for instance since the constant presheaf functor of which $Disc_{\mathbf{H}_{th}}$ is the right [[derived functor]] is a right [[Quillen adjunction|Quillen functor]]).
-
-We now similarly construct a fibrant presentation for $\mathbf{\flat}_{inf} \mathbf{B}^n \mathbb{R}$.
-
-For $U \times D \in CartSp_{synthdiff}$, let 
-
-$$
-  (U \times D)^{(\Delta^n_{inf})} \in
-  [CartSp_{synthdiff}, Set]
-  \hookrightarrow
-  [CartSp_{synthdiff}, sSet]
-$$
-
-be the [[smooth locus]] of <a href="http://nlab.mathforge.org/nlab/show/infinitesimal%20object#SpacOfInfSimpl">infinitesimal n-simplices</a>. Notice that this is not an [[internal hom]] with an [[infinitesimal object]]. Instead, due to the [[Cartesian space]] nature of $U$, this is of the simple form
-
-$$
-  (U \times D)^{(\Delta^n_{inf})}
-  \simeq
-  U \times D \times \tilde D(dim(U)+ dim(D),n)
-$$
-
-where $\tilde D(-,-)$ is the [[infinitesimal object|infinitesimal smooth locus]] discussed <a href="http://nlab.mathforge.org/nlab/show/infinitesimal%20object#SpacOfInfSimpl">here</a>. 
-(See [Kock](#Kock), and [Stel](#Stel)).
-
-This means that the simplicial presheaf
-
-$$
-  (U \times D)^{(\Delta^\bullet_{inf})}
-  = 
-  \int^{[k] \in \Delta}
-    \Delta[k] \cdot (U \times D \times \tilde D(...,k))
-  \in
-  [CartSp_{synthdiff}, sSet]_{proj,loc}
-$$
-
-is degreewise cofibrant. Using the left [[Quillen bifunctor]] (see the discussion there)
-
-$$
-  \int^{\Delta} (-)\cdot (-)
-  : 
-  [\Delta, sSet_{Quillen}]_{proj}
-  \times
-  [\Delta^{op}, [CartSp_{synthdiff}, sSet]_{proj,loc}]_{inj}
-  \to 
-  [CartSp_{synthdiff}, sSet]_{proj,loc}
-$$
-
-and the fact that the [[fat simplex]] is (as discussed there) a cofibrant resolution of the [[simplex]] in $[\Delta, sSet_{Quillen}]_{proj}$, we have that 
-
-$$
-  \mathbf{\Pi}_{inf}(U\times D)_{c}
-  :=
-  \int^{[k] \in \Delta}
-    \mathbf{\Delta}[k] \cdot (U \times D \times \tilde D(...,k))
-$$
-
-is cofibrant for all $U \times D \in CartSp_{synthdiff}$. Moreover (by the discussion at [[Reedy model structure]] and [[Bousfield-Kan map]]) it is weakly equivalent to $(U \times D)^{(\Delta^\bullet_k)}$. Notice that this extends to a functor
-
-$$
-  \mathbf{\Pi}_{inf}(-)_c :
-  CartSp_{synthdiff}
-  \to 
-  [CartSp_{synthdiff}^{op}, sSet]
-  \,.
-$$
-
-Then using the left [[Quillen bifunctor]]
-
-$$
-  \int^{CartSp_{synthdiff}} (-)\cdot (-)
-  : 
-  [CartSp_{synthdiff}^{op}, sSet_{Quillen}]_{proj}
-  \times
-  [CartSp_{synthdiff}, [CartSp_{synthdiff}^{op}, sSet]_{proj,loc}]_{inj}
-  \to 
-  [CartSp_{synthdiff}, sSet]_{proj,loc}
-$$
-
-
-
-We claim now that the left [[derived fuctor]] of this left Quillen functor is equivalent to $\mathbf{\Pi}_{inf}$
-
-=--
-
-
-### Geometric homotopy and Galois theory {#StrucGeometricHomotopy} 
-
-Regarding $SynthDiff  \infty Grpd$ as being a [[strongly ∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]] by the [above discussion](#RelativeInftyConnectedness) we write
-
-
-$$
-  (\Pi_{inf} \dashv Disc_{inf} \dashv \Gamma_{inf})
-  :=
-  (i^* \dashv i_* \dashv i^!)
-  : 
-  SynthDiff\infty Grpd
-    \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{Disc_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}}
-  Smooth \infty Grpd
-$$
-
-for the corresponding relative [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]].
-
-
 ### Paths and geometric Postnikov towers {#StrucPaths}
 
 +-- {: .un_def}
@@ -688,7 +548,215 @@ $$
   \end{aligned}
   \,.
 $$
+
 =--
+
+
+### Flat differential cohomology and local systems 
+  {#StrucFlat}
+
+We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">intrinsic flat differential cohomology</a> in any [[cohesive (∞,1)-topos]] realized in $SynthDiff∞Grpd$.
+
++-- {: .un_prop}
+###### Proposition
+
+For all $n \in \mathbb{N}$ we have an [[equivalence in an (∞,1)-category|equivalence]]
+
+$$
+  \mathbf{\flat}_{inf} \mathbf{B}^n \magthbb{R}
+   \simeq
+  \mathbf{\flat} \mathbf{B}^n \mathbb{R}
+$$
+
+between the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#StrucInfinitesimalLocalSystem">infinitesimal flat coefficients</a> and genuine <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">flat coefficients</a>
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+We present the situation in the local [[model structure on simplicial presheaves]] $[CartSp_{synthdiff}, sSet]_{proj,loc}$.
+
+By the general discussion at [[∞-cohesive site]] and specifically the discussion of <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#FlatCoefficientsForCircleNGroup">flat differential coefficient objects</a> in [[Smooth∞Grpd]] we have that $\mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}$ is presented by the constant simplicial presheaf
+
+$$
+  \mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_c
+  U \mapsto
+  \Xi \mathbb{R}[n]  
+  \,,
+$$
+
+where $\mathbb{R}[n]$ is the [[chain complex]] concentrated on the [[abelian group]] or [[real number]]s in degree $n$ and  $\Xi : Ch_\bullet^+ \to sAb \to sSet$ is the [[Dold-Kan correspondence]].
+
+This is a fibrant object in $[CartSp_{synthdiff}, sSet]_{proj,loc}$ (for instance since the constant presheaf functor of which $Disc_{\mathbf{H}_{th}}$ is the right [[derived functor]] is a right [[Quillen adjunction|Quillen functor]]).
+
+We now similarly construct a fibrant presentation for $\mathbf{\flat}_{inf} \mathbf{B}^n \mathbb{R}$.
+
+For $U \times D \in CartSp_{synthdiff}$, let 
+
+$$
+  (U \times D)^{(\Delta^n_{inf})} \in
+  [CartSp_{synthdiff}, Set]
+  \hookrightarrow
+  [CartSp_{synthdiff}, sSet]
+$$
+
+be the [[smooth locus]] of <a href="http://nlab.mathforge.org/nlab/show/infinitesimal%20object#SpacOfInfSimpl">infinitesimal n-simplices</a>. Notice that this is not an [[internal hom]] with an [[infinitesimal object]]. Instead, due to the [[Cartesian space]] nature of $U$, this is of the simple form
+
+$$
+  (U \times D)^{(\Delta^n_{inf})}
+  \simeq
+  U \times D \times \tilde D(dim(U)+ dim(D),n)
+$$
+
+where $\tilde D(-,-)$ is the [[infinitesimal object|infinitesimal smooth locus]] discussed <a href="http://nlab.mathforge.org/nlab/show/infinitesimal%20object#SpacOfInfSimpl">here</a>. 
+(See [Kock](#Kock), and [Stel](#Stel)).
+
+This means that the simplicial presheaf
+
+$$
+  (U \times D)^{(\Delta^\bullet_{inf})}
+  = 
+  \int^{[k] \in \Delta}
+    \Delta[k] \cdot (U \times D \times \tilde D(...,k))
+  \in
+  [CartSp_{synthdiff}, sSet]_{proj,loc}
+$$
+
+is degreewise cofibrant. Using the left [[Quillen bifunctor]] (see the discussion there)
+
+$$
+  \int^{\Delta} (-)\cdot (-)
+  : 
+  [\Delta, sSet_{Quillen}]_{proj}
+  \times
+  [\Delta^{op}, [CartSp_{synthdiff}^{op}, sSet]_{proj}]_{inj}
+  \to 
+  [CartSp_{synthdiff}^{op}, sSet]_{proj}
+$$
+
+and the fact that the [[fat simplex]] is (as discussed there) a cofibrant resolution of the [[simplex]] in $[\Delta, sSet_{Quillen}]_{proj}$, we have that 
+
+$$
+  \mathbf{\Pi}_{inf}(U\times D)_{c}
+  :=
+  \int^{[k] \in \Delta}
+    \mathbf{\Delta}[k] \cdot (U \times D \times \tilde D(...,k))
+$$
+
+is cofibrant for all $U \times D \in CartSp_{synthdiff}$. Moreover (by the discussion at [[Reedy model structure]] and [[Bousfield-Kan map]]) it is weakly equivalent to $(U \times D)^{(\Delta^\bullet_k)}$. Notice that this extends to a functor
+
+$$
+  \mathbf{\Pi}_{inf}(-)_c :
+  CartSp_{synthdiff}
+  \to 
+  [CartSp_{synthdiff}^{op}, sSet]
+  \,.
+$$
+
+Then using the left [[Quillen bifunctor]] (see the discussion there)
+
+$$
+  \int^{CartSp_{synthdiff}} (-)\cdot (-)
+  : 
+  [CartSp_{synthdiff}^{op}, sSet_{Quillen}]_{proj}
+  \times
+  [CartSp_{synthdiff}, [CartSp_{synthdiff}^{op}, sSet]_{proj,loc}]_{inj}
+  \to 
+  [CartSp_{synthdiff}, sSet]_{proj,loc}
+$$
+
+we have that the [[Yoneda extension]] (which we denote by the same symbol)
+
+$$
+  \mathbf{\Pi}_{inf}(-)_c
+  :
+  [CartSp_{synthdiff}^{op}, sSet]_{proj}
+  \to 
+  [CartSp_{synthdiff}^{op}, sSet]_{proj}
+$$
+
+given by
+
+$$
+  \mathbf{\Pi}_{inf}(-)_c : 
+  X \mapsto
+  \int^{(U \times D) \in CartSp_{synthdiff}} 
+  X(U\times D) \cdot \mathbf{\Pi}_{inf}(U \times D)_c
+$$
+
+is the [[left adjoint]] of a [[simplicial Quillen adjunction]], whose [[right adjoint]] is 
+
+$$
+  \mathbf{\flat}_{inf}(-)_c : 
+  [CartSp_{synthdiff}^{op}, sSet](\mathbf{\Pi}_{inf}(-)_c, -)
+  \,.
+$$
+
+We now claim that this Quillen adjunction does descend to the local model structure.  And that the right [[derived functor]] of $\mathbf{\flat}_{inf}(-)_c$ is the infinitesimal flat coefficiient functor $\mathbf{\flat}_{inf}$.
+
+Both of these claims are consequences of the following observation:
+
+we have a natural weak equivalence 
+
+$$
+  [CartSp_{synthdiff}, sSet](U'\times D', 
+    \mathbf{\Pi}_{inf}(U \times D)_c)
+  \stackrel{\simeq}{\to}
+  [CartSp_{synthdiff}, sSet](U', U) 
+  =
+  CartSp_{smooth}(U', U)
+  \,.
+$$
+
+This is directly seen by [[synthetic differential geometry|synthetic differential geometry]] reasoning: a morphism $D' \to (U \times D)^{\Delta^\bullet_{inf}}$ is an infinitesimal blob of points in $U \times D$. But in the [[Kan complex]]
+$(U \times D)^{\Delta^\bullet_{inf}}$ all infinitesimal neighbour points are equivalent, by an essentially unique equivalence. (This is effectively the definition of this object.)
+
+Using that $\mathbf{\Pi}_{inf}(U \times D)_c$ is globally weakly equivalent to $(U \times D)^{(\Delta^\bullet_{inf})}$ by the above, the latter is globally fibant, that every representable is cofibrant and that $[CartSp_{synthdiff}, sSet]_{proj}$ is a [[simplicial model category]], we get 
+
+$$
+  \mathbb{R}Hom_{glob}(U' \times D', \mathbf{\Pi}_{inf}(U \times D))
+  \simeq
+  [CartSp_{synthdiff}^{op}, sSet](U' \times D', (U \times D)^{(\Delta^\bullet_{inf})})
+  \simeq
+  CartSp_{synthdiff}(U', U)
+  \,.
+$$
+
+a sequence of weak equivalences
+
+  [CartSp_{synthdiff}, sSet](U'\times D', 
+    \mathbf{\Pi}_{inf}(U \times D)_c)
+  \stackrel{\simeq}{\to}
+  [CartSp_{synthdiff}, sSet](U'\times D', 
+    \mathbf{\Pi}_{inf}(U \times D)_c)
+  \stackrel{\simeq}{\to}
+  [CartSp_{synthdiff}, sSet](U', U) 
+  =
+  CartSp_{smooth}(U', U)
+
+=--
+
+
+### Geometric homotopy and Galois theory {#StrucGeometricHomotopy} 
+
+Regarding $SynthDiff  \infty Grpd$ as being a [[strongly ∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]] by the [above discussion](#RelativeInftyConnectedness) we write
+
+
+$$
+  (\Pi_{inf} \dashv Disc_{inf} \dashv \Gamma_{inf})
+  :=
+  (i^* \dashv i_* \dashv i^!)
+  : 
+  SynthDiff\infty Grpd
+    \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{Disc_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}}
+  Smooth \infty Grpd
+$$
+
+for the corresponding relative [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]].
+
+
 
 ### Infinitesimal cohesion, $\infty$-Lie algebras and deformation theory {#StrucLieTheory}
 
