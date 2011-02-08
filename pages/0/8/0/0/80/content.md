@@ -3,6 +3,10 @@
 * table of contents
 {: toc}
 
+## Scope
+
+In philosophical part of $n$Lab we discuss the higher category theory and its repercussions in philosophy. More widely, the future entries on philosophy in nLab should also contain philosophy of mathematics in general, and of logic and foundations in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the history of mathematics are welcome. 
+
 ## Idea
 
 Philosophical interest in [[n-category|n-categories]] may be characterised as belonging to one of two kinds.
@@ -39,10 +43,18 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 If you came across a journal called _Category Theory and Prosopography_ would you smell a rat? The difficulty with cross-subject journals is that they make it too easy for authors to evade proper peer-review. Told that the mathematics in his paper is crap, the author can try to wriggle out by asserting that it is a masterpiece of prosopography. The shock and awe of the reputation of mathematics makes it less likely that prosopographers will condemn his paper from their side. It is just because Category Theory binds together widely disparate branches of mathematics that it lends itself to the snake-oil merchant.
 
 
-## Blog discussion
+## Some literature
+
+#### Blog discussions
 
 * Mathematical reality: [I](http://golem.ph.utexas.edu/category/2008/10/mathematical_reality.html), [II](http://golem.ph.utexas.edu/category/2008/11/mathematical_robustness.html)
 
+#### Books
+
+* Michael D. Potter, _Set theory and its philosophy: a critical introduction_, Oxford Univ. Press 2004
+
+* Fernando Zalamea, _Filosof&#237;a sint&#233;tica de las matem&#225;ticas contempor&#225;neas_, (Spanish) [Synthetic philosophy of contemporary mathematics] Obra Selecta. Editorial Universidad Nacional de Colombia, Bogot&#225;, 2009. 231 pp. [MR2599170](http://www.ams.org/mathscinet-getitem?mr=2599170), ISBN: 978-958-719-206-3, [pdf](&lt;http://files.acervopeirceano.webnode.es/200000065-18c1b19bb9/Zalamea-Fil-Sint-Mat-Cont.pdf>)
+* [[David Corfield]], _Towards a philosophy of real mathematics_, Cambridge University Press, 2003, [gBooks](http://books.google.hr/books?id=s37rhfWs73QC&lpg=PP1&ots=Zobx2bIWFh&dq=david%20corfield%20towards%20a%20philosophy%20of%20real%20mathematics&hl=en&pg=PP1#v=onepage&q&f=false)
 
 [[!redirects philosophy]]
 [[!redirects Philosophy]]
