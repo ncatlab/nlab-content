@@ -223,7 +223,7 @@ $$
 $$
 
 It is clear that $\omega_1$ factors through the inclusion $\tilde D(1,dim(G)) \hookrightarrow G$ that sends the unique point of $\tilde D(1, dim(G))$ to the neutral element (by respect for the degeneracy maps).
-Then from that one finds that $\omega_2$ factors through the inclusion $\tilde D(2, dim(G)) \hookrightarrow G \times G$ that sends the unique point of $\tilde D(2,dim(G))$ to $(e,e) \in G \times G$. And evidently these two factorizations are universal, in that every other factorization will uniquelyy factor through these
+Then from that one finds that $\omega_2$ factors through the inclusion $\tilde D(2, dim(G)) \hookrightarrow G \times G$ that sends the unique point of $\tilde D(2,dim(G))$ to $(e,e) \in G \times G$. And evidently these two factorizations are universal, in that every other factorization will uniquely factor through these
 
 $$
   \array{
@@ -276,7 +276,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-The normalized cochain complex of the cosimplicial alghebra of functions on thi $b \mathfrak{g}$ is isomorphic to the ordinary [[Chevalley-Eilenberg algebra]] $(\wedge^\bullet \mathfrak{g}^*, [-,-]^*)$ of $\mathfrak{g}$.
+The normalized cochain complex of the cosimplicial alghebra of functions on this $b \mathfrak{g}$ is isomorphic to the ordinary [[Chevalley-Eilenberg algebra]] $(\wedge^\bullet \mathfrak{g}^*, [-,-]^*)$ of $\mathfrak{g}$.
 
 =--
 
@@ -298,7 +298,7 @@ $$
   N C^\infty(\tilde D(2,dim(G)))
 $$
 
-is indeed the dual of the Lie bracket. But the product $\cdot_G : G \times G \to G$ restricted along $\tilde D(2,dim(G)) \hookrightarrow G \times G$ to the [[infinitesimal space]] $\tilde D(2, dim(G))$ linearizes in each of its arguments: for $(\vec x,\vec y)$ \in \tilde D(2,dim(G))$ we have
+is indeed the dual of the Lie bracket. But the product $\cdot_G : G \times G \to G$ restricted along $\tilde D(2,dim(G)) \hookrightarrow G \times G$ to the [[infinitesimal space]] $\tilde D(2, dim(G))$ linearizes in each of its arguments: for $(\vec x,\vec y) \in \tilde D(2,dim(G))$ we have
 
 $$
   \vec x \cdot_G \vec y = 
