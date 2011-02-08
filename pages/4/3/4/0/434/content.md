@@ -9,30 +9,50 @@
 =--
 
 * [[foundations|Foundations]]
-
 * [[logic|Logic]]
+* [[philosophy|Philosophy]]
 
-#entries related to foundations and logic#
+###Axiomatic set theory###
 
-* [[ETCS]]
-* [[Heyting algebra]]
-* [[Trimble on ETCS I]]
-* [[Trimble on ETCS II]]
-* [[Trimble on ETCS III]]
+#### Basic axioms and notions
+
 * [[apartness relation]]
-* [[axiom of choice]]
+* [[axiom of choice]], [[axiom of extensionality]], [[axiom of foundation]], [[axiom of infinity]], [[axiom of multiple choice]], [[axiom of pairing]], [[axiom of replacement]], [[axiom of union]]
+* [[COSHEP]]
+* [[ETCS]]
+* Trimble on ETCS: [[Trimble on ETCS I|I]], [[Trimble on ETCS II|II]], 
+[[Trimble on ETCS III|III]]
+* [[Grothendieck universe]]
+* [[internal set]]
+* [[material set theory]]
+* [[inhabited set]]
+* [[pure set]]
+* [[set theory]]
+
+#### Model theory
+
+* [[model theory]]
+* [[Mostowski's collapsing lemma]]
+* [[nonstandard analysis]]
+* [[forcing]]
+* [[Skolem's paradox]]
+* [[Vopěnka's principle]]
+
+###Logic and foundations###
+
+* [[Boolean algebra]]
 * [[constructive mathematics]]
 * [[equality]]
 * [[evil]]
+* [[Heyting algebra]]
 * [[infinity-topos]]
 * [[internal logic]]
-* [[internal set]]
-* [[philosophy]]
+* [[intuitionism]]
+* [[linear logic]]
 * [[predicative mathematics]]
-* [[pure set]]
-* [[set theory]]
+* [[theory]]
 * [[truth value]]
-
+* [[type theory]]
 
 [[!redirects foundations and logic]]
 [[!redirects logic and foundations]]
