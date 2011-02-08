@@ -5,7 +5,7 @@
 
 ## Scope
 
-In philosophical part of $n$Lab we discuss the higher category theory and its repercussions in philosophy. More widely, the future entries on philosophy in nLab should also contain philosophy of mathematics in general, and of logic and foundations in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the history of mathematics are welcome. 
+In philosophical part of $n$Lab we discuss the higher category theory and its repercussions in philosophy. More widely, the future entries on philosophy in nLab should also contain philosophy of mathematics in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the history of mathematics are welcome. 
 
 ## Idea
 
@@ -35,27 +35,28 @@ Philosophical interest in [[n-category|n-categories]] may be characterised as be
 
 To [[vertical categorification|categorify]] mathematical constructions properly, one must have understood their essential features. This leads us to consider what it is to get concepts 'right'. Which kind of 'realism' is suitable for mathematics? Which virtues should a mathematical community possess to further its ends: a knowledge of its history, close attention to instruction and the sharing of knowledge, a willingness to admit to what is currently lacking in its programmes?
 
-
-## The dangers of category theory
-
-[[GavinWraith|Gavin]]: This is a sensitive topic. I do not know if this is the right place for it, but I feel that $n$Lab would be lacking balance if it did not have some part that attempted to address the fact [[category theory|Category Theory]] has been responsible for some pretty wretched mathematics. To go into too much detail might be discourteous. I was delighted by the beauty of category theory when I first met it (in the library of the Courant Institute in 1962, when I was supposed to be writing a thesis in Theoretical Physics). However, I soon realized that in the mathematical community of the UK, at least, at that time, too great an indulgence in abstraction was viewed with suspicion. It is a suspicion that I share, to some extent. I remember coming across an article, some years later, in a Physics journal, written by a well-respected physicist, in which large chunks of a paper by Applegate on the Tierney Tower of adjoint functors were repeated verbatim; and evidently with the corrupt intention of combombulating readers. Category theory is easily misused, either for unnecessary flights into the Empyrean, or for more evil El-Naschiean purposes. But I guess that most nLabians are perfectly aware of all this. Since those early days category theory has become a lingua franca for almost every branch of mathematics. I too love abstraction; but I am just a little bit wary of it.
-
-If you came across a journal called _Category Theory and Prosopography_ would you smell a rat? The difficulty with cross-subject journals is that they make it too easy for authors to evade proper peer-review. Told that the mathematics in his paper is crap, the author can try to wriggle out by asserting that it is a masterpiece of prosopography. The shock and awe of the reputation of mathematics makes it less likely that prosopographers will condemn his paper from their side. It is just because Category Theory binds together widely disparate branches of mathematics that it lends itself to the snake-oil merchant.
-
-
 ## Some literature
 
-#### Blog discussions
+* [[foundations and logic]]
+* wikipedia: [philosophy of mathematics](http://en.wikipedia.org/wiki/Philosophy_of_mathematics); wikipedia.ru [&#1060;&#1080;&#1083;&#1086;&#1089;&#1086;&#1092;&#1080;&#1103; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1082;&#1080;](http://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D0%B8%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8)
+
+#### Blog and forum discussions
 
 * Mathematical reality: [I](http://golem.ph.utexas.edu/category/2008/10/mathematical_reality.html), [II](http://golem.ph.utexas.edu/category/2008/11/mathematical_robustness.html)
+* [[GavinWraith|Gavin]] wrote about "The dangers of category theory", the query is now at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2472&Focus=21255#Comment_21255)
 
 #### Books
 
 * Michael D. Potter, _Set theory and its philosophy: a critical introduction_, Oxford Univ. Press 2004
 
-* Fernando Zalamea, _Filosof&#237;a sint&#233;tica de las matem&#225;ticas contempor&#225;neas_, (Spanish) [Synthetic philosophy of contemporary mathematics] Obra Selecta. Editorial Universidad Nacional de Colombia, Bogot&#225;, 2009. 231 pp. [MR2599170](http://www.ams.org/mathscinet-getitem?mr=2599170), ISBN: 978-958-719-206-3, [pdf](&lt;http://files.acervopeirceano.webnode.es/200000065-18c1b19bb9/Zalamea-Fil-Sint-Mat-Cont.pdf>)
+* Fernando Zalamea, _Filosof&#237;a sint&#233;tica de las matem&#225;ticas contempor&#225;neas_, (Spanish) <nowiki>[Synthetic philosophy of contemporary mathematics]</nowiki> Obra Selecta. Editorial Universidad Nacional de Colombia, Bogot&#225;, 2009. 231 pp. [MR2599170](http://www.ams.org/mathscinet-getitem?mr=2599170), ISBN: 978-958-719-206-3, [pdf](<http://files.acervopeirceano.webnode.es/200000065-18c1b19bb9/Zalamea-Fil-Sint-Mat-Cont.pdf>)
 * [[David Corfield]], _Towards a philosophy of real mathematics_, Cambridge University Press, 2003, [gBooks](http://books.google.hr/books?id=s37rhfWs73QC&lpg=PP1&ots=Zobx2bIWFh&dq=david%20corfield%20towards%20a%20philosophy%20of%20real%20mathematics&hl=en&pg=PP1#v=onepage&q&f=false)
 * [[Saunders MacLane]], _Mathematics, form and function_, Springer-Verlag 1986, xi+476 pp. [MR87g:00041](http://www.ams.org/mathscinet-getitem?mr=816347), [wikipedia](http://en.wikipedia.org/wiki/Mathematics,_Form_and_Function)
+* George Lakoff, Rafael E. N&#250;&#241;ez, _Where mathematics comes from_, Basic Books 2000, xviii+493 pp. [MR2001i:00013](http://www.ams.org/mathscinet-getitem?mr=1794854)
+
+#### Articles 
+
+* Glenn G. Parsons, James Robert Brown, _Platonism, metaphor, and mathematics_, Dialogue __43__ (2004), no. 1, 47&#8211;66, [MR2004k:00004](http://www.ams.org/mathscinet-getitem?mr=2053877)
 
 [[!redirects philosophy]]
 [[!redirects Philosophy]]
