@@ -30,7 +30,7 @@ A _Chern-Simons element_ on an [[∞-Lie algebroid]] is an element of its [[Weil
 
 ## Definition
 
-We discuss [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s $\mathfrak{a}$ of [[finite type]] in terms of their [[Chevalley-Eilenberg algbera]]s $CE(\mathfrak{a})$. For $\infty$-Lie algebras these are objects in the [[category]] [[dgAlg]] of [[dg-algebra]]s (over a given ground [[field]]). For $\infty$-Lie algebroids these are dg-algebras equipped with a lift of the degree-0 algebra to an algebra over a given [[Fermat theory]] $T$ and such that the [[differential]] is a $T$-[[derivation]] in this degree. (See [[∞-Lie algebroid]] for details). We shall write in the following $dgAlg$ also for the category of dg-algebras with this extra structure and leave the [[Fermat theory]] $T$ implicit.
+We discuss [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s $\mathfrak{a}$ of [[finite type]] in terms of their [[Chevalley-Eilenberg algebra]]s $CE(\mathfrak{a})$. For $\infty$-Lie algebras these are objects in the [[category]] [[dgAlg]] of [[dg-algebra]]s (over a given ground [[field]]). For $\infty$-Lie algebroids these are dg-algebras equipped with a lift of the degree-0 algebra to an algebra over a given [[Fermat theory]] $T$ and such that the [[differential]] is a $T$-[[derivation]] in this degree. (See [[∞-Lie algebroid]] for details). We shall write in the following $dgAlg$ also for the category of dg-algebras with this extra structure and leave the [[Fermat theory]] $T$ implicit.
 
 
 +-- {: .un_def}
@@ -91,7 +91,7 @@ such that we have a [[commuting diagram]] in [[dgAlg]]
     &&&
     cocycle
     \\
-    \uparrow && \uparrow
+    \uparrow && \uparrow^{\mathrlap{i^*}}
     \\
     W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}& W(b^{n-1} \mathbb{R})
     &&&
@@ -128,9 +128,83 @@ then the abov expresses the classical notion of transgression of forms from the 
 
 =--
 
+## Properties
+
++-- {: .un_pop}
+###### Observation
+
+For a given transgressive cocycle $\mu$ and transgressing invariant polynomial $\langle - \rangle$ the set of Chern-Simons elements witnessing the [[transgression]] is a [[torsor]] (based over the point and) over the additive [[group]] 
+
+$$
+  \{\omega \in W(\mathfrak{g}) | d_{W(\mathfrak{g}) \omega = 0, i^* \omega = 0}\}
+$$
+
+of Chern-Simons elements for vanishing cocycle and vanishing invariant polynomial.
+
+=--
 
 
-## Chern-Simons forms
+
+## Origin and relation to other concepts
+
+We discuss the general abstract structures of which Chern-Simons elements are presentations and how they are related to other structures.
+
+The term _Chern-Simons element_ alludes to the term _[[Chern-Simons form]]_ and [[Chern-Simons theory]]. In the following we explain the relation.
+
+
+### As presentations for the $\infty$-Chern-Weil homomorphism
+
+
+The following is a [[category theory|general abstract]] construction in [[(∞,1)-topos theory]] that has a _presentation_ by constructions involving Chern-Simons elements in the sense in which [[(∞,1)-topos]]es have a [[presentable (∞,1)-category|presentation]] by the [[model structure on simplicial presheaves]].
+
+Recall that for $G$ a [[Lie group]], we may form its [[delooping]] [[Lie groupoid]] $\mathbf{B}G$. Then with $X$ any [[smooth manifold]], we have that the [[groupoid]] of [[morphism]]s of [[Lie groupoid]]s $X \to \mathbf{B}G$ is equivalent to that of $G$-[[principal bundle]]s on $X$:
+
+$$
+  SmoothGrpd(X, \mathbf{B}G) \simeq G Bund(X)
+  \,.
+$$
+
+Here we are thinking of [[Lie groupoid]]s as [[differentiable stack]]s, hence as [[object]]s in the [[(2,1)-topos]] 
+
+$$
+  SmoothGrpd := Sh_{(2,1)}(SmoothMfd)
+$$ 
+
+of [[stack]]s/[[(2,1)-sheaves]] on the [[site]] [[SmoothMfd]] (equivalently on its [[small category|small]] [[dense subsite]] [[CartSp]] of [[Cartesian space]]s).
+
+There is a _differential refinement_ of the [[Lie groupoid]] $\mathbf{B}G$, to the smooth groupoid $\mathbf{B}G_{conn}$: this is the [[(2,1)-sheaf]] given by the [[(∞,1)-sheafififcation|(2,1)-sheafification]] of the assignment that sends a [[smooth manifold]] to its [[groupoid of Lie algebra-valued 1-forms]].
+
+There is a coresponding [[natural equivalence]]
+
+$$
+  SmoothGrpd(X, \mathbf{B}G_{conn}) \simeq G Bund_{conn}(X)
+$$
+
+with the groupoid of $G$-[[principal bundle]]s with [[connection on a bundle|with connection]] on $X$. (This is described in detail at _[[connection on a bundle]]_ ).
+
+In particular if $G = U(1)$ is the [[circle group]], a morphism $X\to \mathbf{B}U(1)_{conn}$ is a [[circle n-bundle with connection|circle bundle with connection]]
+
+There is
+
+$$
+ \mathbf{B}G_{conn} \to \mathbf{B}U(1)_{conn}
+$$
+
+(...)
+
+
+
+A general abstract context for [[higher geometry]] equipped with [[differential cohomology]] is a [[cohesive (∞,1-tops)]] $\mathbf{H}$ of [[∞-groupoid]]s equipped with _cohesive structure_ , such as [[Smooth∞Grpd|smooth cohesive structure]].
+
+
+Such an [[(∞,1)-topos]] comes uniquely equipped with with an [[adjoint (∞,1)-functor|endo-(∞,1)-adjunction]]
+
+$$
+  (\mathbf{\Pi} \dashv \mathbf{\flat}) : \mathbf{H} \to \mathbf{H}
+$$
+
+
+### Chern-Simons forms
 
 
 As the term _Chern-Simons element_ indicates, when composed with [[∞-Lie algebra valued forms]] one obtain [[Chern-Simons forms]]:
@@ -222,7 +296,7 @@ This is part of the general [[∞-Chern-Weil homomorphism]].
 
 We will see below in diagram \eqref{PhysicsDiagram} yet one incarnation of the transgression diagram, identifying it for the case that $\mathfrak{g}$ is a symplectic $\infty$-Lie algebroid with the triple $\mu =$[[Hamiltonian]], $cs = $[[Lagrangian]], $\langle - \rangle =$ [[symplectic structure]].
 
-## Chern-Simons action functionals
+### Chern-Simons action functionals
 
 Every Chern-Simons element $cs \in W(\mathfrak{a})$ of degree $d$ on an [[∞-Lie algebroid]] $\mathfrak{a}$ induces an [[action functional]] on the space of [[∞-Lie algebroid valued forms]] on $\mathfrak{a}$ over a $d$-[[dimensional]] [[smooth manifold]] $\Sigma$ 
 
@@ -240,6 +314,7 @@ $$
 This generalizes the action functional of ordinary [[Chern-Simons theory]] to general Chern-Simons elements. In the [examples](#Examples) below is a list of various [[quantum field theories]] that arise as generalized Chern-Simons theories this way.
 
 For more details see [[schreiber:infinity-Chern-Simons theory]].
+
 
 ## Examples {#Examples}
 
