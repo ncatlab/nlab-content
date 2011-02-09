@@ -26,6 +26,7 @@
 
 A _Chern-Simons element_ on an [[∞-Lie algebroid]] is an element of its [[Weil algebra]] that exhibits a [[transgression]] between an [[∞-Lie algebroid cocycle]] and an [[invariant polynomial]].
 
+It is construct that arises in the presentation of the [[∞-Chern-Weil homomorphism]] by an [[∞-anafunctor]] of [[simplicial presheaves]].
 
 
 ## Definition
@@ -146,6 +147,7 @@ of Chern-Simons elements for vanishing cocycle and vanishing invariant polynomia
 
 
 ## Origin and relation to other concepts
+  {#OriginAndRelatedConcepts}
 
 We discuss the general abstract structures of which Chern-Simons elements are presentations and how they are related to other structures.
 
@@ -339,68 +341,105 @@ This presentation we describe in the next section.
 (In fact a bit more is true: the serve to present the refinement of $\mathbf{c}_{dR}$ to a morphism $\hat \mathbf{c}$ with values in [[ordinary differential cohomology]]. This we come to further below.)
 
 
-
 ### Chern-Simons forms
+  {#ChernSimonsForms}
 
-This is where the notion of Chern-Simons elements starts to show up: one finds that there is a presentation of this morphism by a morphism of [[simplicial presheaves]] built as follows: the object $\mathbf{B}^n U(1)$ turns out to be presented by a quotient of the presheaf of [[Kan complex]]es given by
+We explain now how Chern-Simons elements arise as a presentation of a [[differential characteristic class]] $\mathbf{c}_{dR}$ by a [[span]] of [[simplicial presheaves]].
 
-$$
-  \mathbf{B}^n U(1)_{diff} : 
-  (U \in SmoothMfd, [k] \in \Delta)
-   \mapsto
-  \left\{
-    \array{
-      \Omega^\bullet_{si,vert}(U \times \Delta^k)
-      &\leftarrow& CE(b^{n-1} \mathbb{R})
-      \\
-      \uparrow && \uparrow
-      \\
-      \Omega^\bullet_{si}(U \times \Delta^k)
-      &\stackrel{\omega}{\leftarrow}&
-      W(b^{n-1} \mathbb{R})
-    }
-  \right\}
-  \,,
-$$
+The fact that gets this started is the following (discussed in detail <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#CurvatureCharacteristicOnCircleNGroup">here</a>) 
 
-where on the right we have the set of horizontal morphisms in [[dgAlg]] that make a [[commuting diagram]] with the canonical vertical morphisms as indicated.
+1. the object $\mathbf{B}^n U(1) \in $ [[Smooth∞Grpd]] is presented by a quotient of the presheaf of [[Kan complex]]es given by
 
-(We may think of a morphism of simplicial presheaves $X \to \mathbf{B}^n U(1)_{diff}$ as a [[circle n-bundle with connection|circle n-bundle]]/$(n-1)$-bundle gerbe equipped with a _[[pseudo-connection]]_ . )
+   $$
+     \mathbf{B}^n U(1)_{diff} : 
+     (U \in SmoothMfd, [k] \in \Delta)
+      \mapsto
+     \left\{
+       \array{
+         \Omega^\bullet_{si,vert}(U \times \Delta^k)
+         &\leftarrow& CE(b^{n-1} \mathbb{R})
+         \\
+         \uparrow && \uparrow
+         \\
+         \Omega^\bullet_{si}(U \times \Delta^k)
+         &\stackrel{\omega}{\leftarrow}&
+         W(b^{n-1} \mathbb{R})
+       }
+     \right\}
+     \,, 
+   $$
 
+   where on the right we have the set of horizontal morphisms in [[dgAlg]] that make a [[commuting diagram]] with the canonical vertical morphisms as indicated.
 
-Notice that the bottom morphism here encodes precisely a degree-$n$ [[differential form]] $\omega$ on $U \times \Delta^k$, The morphism $curv$ is then presented by the map that sends such a form to its [[curvature]] $d A$. If the [[pseudo-connection]]s that we are dealing with are genuine connections the [[curvature]] is a basic form down on $U$ and this means diagrammatically means that it forms the [[pasting]] composite
-
-$$
-  \array{
-    \Omega^\bullet_{si,vert}(U \times \Delta^k)
-    &\leftarrow& CE(b^{n-1} \mathbb{R})
-    \\
-    \uparrow && \uparrow
-    \\
-    \Omega^\bullet_{si}(U \times \Delta^k)
-    &\stackrel{\omega}{\leftarrow}&
-    W(b^{n-1} \mathbb{R})
-    \\
-    \uparrow && \uparrow
-    \\
-    \Omega^\bullet(U)
-    &\stackrel{d \omega}{\leftarrow}&
-    inv(b^{n-1} \mathbb{R})
-  }
-  \,.
-$$
+   (We may think of a morphism of simplicial presheaves $X \to \mathbf{B}^n U(1)_{diff}$ as a [[circle n-bundle with connection|circle n-bundle]]/$(n-1)$-bundle gerbe equipped with a _[[pseudo-connection]]_ . )
 
 
+   Notice that the bottom morphism here encodes precisely a degree-$n$ [[differential form]] $\omega$ on $U \times \Delta^k$, 
 
 
+1. The morphism $curv$ is presented on this by the map that sends such a form $\omega$ to its [[curvature]] $d \omega$. If the [[pseudo-connection]]s that we are dealing with are genuine connections the [[curvature]] is a basic form down on $U$ and this means diagrammatically that it forms the [[pasting]] composite
+
+   $$
+     \array{
+       \Omega^\bullet_{si,vert}(U \times \Delta^k)
+       &\leftarrow& CE(b^{n-1} \mathbb{R})
+       \\
+       \uparrow && \uparrow
+       \\
+       \Omega^\bullet_{si}(U \times \Delta^k)
+       &\stackrel{\omega}{\leftarrow}&
+       W(b^{n-1} \mathbb{R})
+       \\
+       \uparrow && \uparrow
+       \\
+       \Omega^\bullet(U)
+       &\stackrel{d \omega}{\leftarrow}&
+       inv(b^{n-1} \mathbb{R})
+     }
+   $$
+
+   and then picks out the bottom horizontal morphism.
 
 
-As the term _Chern-Simons element_ indicates, when composed with [[∞-Lie algebra valued forms]] one obtain [[Chern-Simons forms]]:
+Suppose then that
 
-As discussed at [[∞-Chern-Weil theory]] (see [[∞-Chern-Weil theory introduction]] for an introduction), a [[connection on an ∞-bundle]] with values in an $\infty$-Lie algebroid $\mathfrak{g}$, together with its [[gauge transformation]]s, is locally -- on a patch $U \in $ [[CartSp]] -- given by a [[truncated|truncation]] of the [[∞-groupoid]] whose [[k-morphism]]s are [[commuting diagram]]s in [[dgAlg]] of the form
+1. the [[∞-group]] $G$ arises from [[Lie integration]] of the [[∞-Lie algebra]] $\mathfrak{g}$, in that it is presented by the $n$-[[coskeleton]] of the simplicial presheaf that assigns flat [[vertical differential form|vertical]] [[Lie algebra valued 1-form]]s
+
+   $$
+     (U,[k]) \mapsto
+     \left\{
+       \array{
+         \Omega^\bullet_{si,vert}(U \times \Delta^k)
+          &\stackrel{A_{vert}}{\leftarrow}&
+         CE(\mathfrak{g})
+       }
+     \right\}
+   $$
+
+1. the [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ arises from [[Lie integration]] of a [[∞-Lie algebra cocycle]] $\mu$ of degree $n+1$ in that it carries the $n$-[[truncated|truncation]] of this presheaf to a quotient of the preshef of simplicial sets of composites
+
+   $$
+     \cdots
+     \stackrel{\exp(\mu)}{\mapsto}
+     \left\{
+       \array{
+         \Omega^\bullet_{si,vert}(U \times \Delta^k)
+          &\stackrel{A_{vert}}{\leftarrow}&
+         CE(\mathfrak{g})
+         &\stackrel{\mu}{\leftarrow}&
+         CE(b^{n-1} \mathbb{R})
+       }
+     \right\}
+     \,,
+   $$
+
+Then to form the composite of $\exp(\mu)$ with $curv$ we need to complete componentwise to [[commuting diagram]]s. To this end we first complete the assignment of $\exp(\mathfrak{g})$ to a diagram
 
 
 \[
+  (U,[k])
+  \mapsto
+  \left\{
   \array{
     \Omega^\bullet(U \times \Delta^k)_{vert}
     &\stackrel{A_{vert}}{\leftarrow}&
@@ -418,19 +457,24 @@ As discussed at [[∞-Chern-Weil theory]] (see [[∞-Chern-Weil theory introduct
     \uparrow && \uparrow
     \\
     \Omega^\bullet(U)
-    &\stackrel{\langle -\rangle}{\leftarrow}&
+    &\stackrel{\langle F_A \rangle}{\leftarrow}&
     inv(\mathfrak{g})
     &&&
     curvature\;characteristic\;form
   }
   \label{ConnectionDiagram}
+  \right\}
   \,.
 \]
 
-Given such a connection with values in $\mathfrak{g}$, and given a refinement of an [[∞-Lie algebroid cocycle]] $\mu : \mathfrak{g} \to b^{n-1}\mathbb{R}$ as above, by forming the [[pasting]] composite diagrams \eqref{ConnectionDiagram} and \eqref{TheDiagram}, we obtain the corresponding local data for a $b^{n-1}\mathbb{R}$-valued connection:
+Here in the middle row an unrestricted $\mathfrak{g}$-[[∞-Lie algebra valued differential form]] appears, which is the local $\mathfrak{g}$-[[connection on an ∞-bundle|∞-connection]]. And in the lower row all its [[curvature characteristic forms]] appear, obtained by evaluating the [[curvature]] $F_A$ in the [[invariant polynomial]]s on $\mathfrak{g}$.
 
+This is such that a choice of Chern-Simons element witnessing the [[transgression]] of an [[invariant polynomial]] to $\mu$ allows to refine $\exp(\mu)$ to 
 
 \[
+  \cdots
+  \stackrel{\exp(\mu)_{conn}}{\mapsto}
+  \left\{
   \array{
     \Omega^\bullet(U \times \Delta^k)_{vert}
     &\stackrel{A_{vert}}{\leftarrow}&
@@ -439,7 +483,7 @@ Given such a connection with values in $\mathfrak{g}$, and given a refinement of
     CE(b^{n-1}\mathbb{R})
     &&& characteristic\;class
     \\
-    \uparrow && \uparrow
+    \uparrow && \uparrow  && \uparrow
     \\
     \Omega^\bullet(U \times \Delta^k)
     &\stackrel{A}{\leftarrow}&
@@ -449,7 +493,7 @@ Given such a connection with values in $\mathfrak{g}$, and given a refinement of
     &&&
     Chern-Simons\;form
     \\
-    \uparrow && \uparrow
+    \uparrow && \uparrow && \uparrow
     \\
     \Omega^\bullet(U)
     &\stackrel{\langle -\rangle}{\leftarrow}&
@@ -460,10 +504,11 @@ Given such a connection with values in $\mathfrak{g}$, and given a refinement of
     curvature\;characteristic\;form
   }
   \label{ChernWeilDiagram}
+  \right\}
   \,.
 \]
 
-This is the local data of a [[circle n-bundle with connection]]. The connection form itself, appearing in the middle horizontal row
+Here now the middle row is the evaluationn of the connection form inside the Chern-Simons element. This is the corresponding [[Chern-Simons form]]
 
 $$
   \Omega^\bullet(U) \stackrel{A}{\leftarrow}
@@ -474,19 +519,13 @@ $$
   CS(A)
 $$
 
-is the [[Chern-Simons form]] of the $\mathfrak{g}$-connection evaluated in the given Chern-Simons element. Its [[curvature]] is the [[curvature characteristic form]] $\langle F_A \rangle$ appearing in the bottom line of the diagram, which is obtained by evaluating the $\mathfrak{g}$-valued [[curvature]] in the given [[invariant polynomial]]. The top row, obtained by evaluating the [[∞-Lie algebroid cocycle]] on the transition functions yields -- after truncation followed by a quotient, see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">integration of ∞-Lie algebra cocycles</a> -- the [[characteristic class]] that classifies the circle $n$-bundle.
+of the $\mathfrak{g}$-connection evaluated in the given Chern-Simons element. Its [[curvature]] is the [[curvature characteristic form]] $\langle F_A \rangle$ appearing in the bottom line of the diagram, which is obtained by evaluating the $\mathfrak{g}$-valued [[curvature]] in the given [[invariant polynomial]]. 
 
-The operation in the bottom row here is at the heart of the [[∞-Chern-Weil homomorphism]]. The joint operation on all rows refines this to [[secondary characteristic classes]]. 
-
-For instance for $\mathfrak{g}$ a [[semisimple Lie algebra]] and $\mu$ the ordinary cocycle in [[Lie algebra cohomology]] in degree 3 or seven, this sends $G$-[[principal bundle]]s with [[connection on a bundle]] to the corresponding [[Chern-Simons circle 3-bundle]] and [[Chern-Simons circle 7-bundle with connection]], respectively.
-
-This is part of the general [[∞-Chern-Weil homomorphism]].
-
-We will see below in diagram \eqref{PhysicsDiagram} yet one incarnation of the transgression diagram, identifying it for the case that $\mathfrak{g}$ is a symplectic $\infty$-Lie algebroid with the triple $\mu =$[[Hamiltonian]], $cs = $[[Lagrangian]], $\langle - \rangle =$ [[symplectic structure]].
+A more comprehensive account of this is at [[Chern-Weil homomorphism in Smooth∞Grpd]]. 
 
 ### Chern-Simons action functionals
 
-Every Chern-Simons element $cs \in W(\mathfrak{a})$ of degree $d$ on an [[∞-Lie algebroid]] $\mathfrak{a}$ induces an [[action functional]] on the space of [[∞-Lie algebroid valued forms]] on $\mathfrak{a}$ over a $d$-[[dimensional]] [[smooth manifold]] $\Sigma$ 
+By the above construction, every Chern-Simons element $cs \in W(\mathfrak{a})$ of degree $d$ on an [[∞-Lie algebroid]] $\mathfrak{a}$ induces an [[action functional]] on the space of [[∞-Lie algebroid valued forms]] on $\mathfrak{a}$ over a $d$-[[dimensional]] [[smooth manifold]] $\Sigma$ 
 
 $$
   S_{cs} : \Omega(\Sigma, \mathfrak{a}) \to \mathbb{R}
@@ -662,7 +701,7 @@ See ([Zanelli](#Zanelli)).
 
 For instance for $\mu_7$ the 7-cocycle on a [[semisimple Lie algebra]], $CS_{\mu_7}(A)$ is the corresponding Chern-Simons 7-form, corresponding to the second [[Pontryagin class]].
 
-Notice that this we may also think of as a 7-cocycle on the corresponding [[string Lie 2-algebra]]. As such it is the one that classifies the extension to the [[fivebrane Lie 6-algebra]]. The corresponding Chern-Simons 7-form appears as the local conneciton data in the [[Chern-Simons circle 7-bundle with connection]] that obstructions the lift from a [[differential string structure]] to a differential [[fivebrane structure]].
+Notice that this we may also think of as a 7-cocycle on the corresponding [[string Lie 2-algebra]]. As such it is the one that classifies the extension to the [[fivebrane Lie 6-algebra]]. The corresponding Chern-Simons 7-form appears as the local conneciton data in the [[Chern-Simons circle 7-bundle with connection]] that obstructions the lift from a [[differential string structure]] to a [[differential fivebrane structure]].
 
 
 ### On strict Lie 2-algebras -- BF-theory action functional {#BF}
@@ -1007,7 +1046,7 @@ See [[D'Auria-Fre formulation of supergravity]] for the moment.
 
 ## References
 
-A classical references on transgression of forms from the fiber to the base of a [[fiber bundle]] is section 9 of.
+A classical reference on transgression of differential forms from the fiber to the base of a [[fiber bundle]] is section 9 of.
 
 * [[Armand Borel]], _Topology of Lie groups and characteristic classes_  Bull. Amer. Math. Soc. Volume 61, Number 5 (1955), 397-432. ([EUCLID](http://projecteuclid.org/euclid.bams/1183520007))
 {#Borel}
@@ -1021,10 +1060,13 @@ The general definition of Chern-Simons element on $\infty$-Lie algebras and $\in
 The examples of the [[BF-theory]] invariant polynomials and Chern-Simons elements are in <a href="http://arxiv.org/PS_cache/arxiv/pdf/0801/0801.3480v2.pdf#page=43">prop. 18</a> and <a href="http://arxiv.org/PS_cache/arxiv/pdf/0801/0801.3480v2.pdf#page=51">def. 26</a> and the BF-action functional itself is extracted below <a href="http://arxiv.org/PS_cache/arxiv/pdf/0801/0801.3480v2.pdf#page=56">proposition 28</a>.
 {#SSSI-BFtheory}
 
-Further discussion is in 
+Dedicated discussion of $\infty$-Chern-Simons theory is at
 
-* [[Domenico Fiorenza]], [[Chris Rogers]] [[Urs Schreiber]], _[[schreiber:∞-Chern-Simons theory]]_
+* [[Domenico Fiorenza]], [[Chris Rogers]] [[Urs Schreiber]], _[[schreiber:∞-Chern-Simons functionals]]_
 
+A comprehensive account is in
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ . 
 
 A survey of higher Chern-Simons elements and their action functionals as applied to [[gravity]] and [[supergravity]] is in
 
