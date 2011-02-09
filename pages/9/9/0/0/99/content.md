@@ -67,6 +67,115 @@ As such, the Weil algebra plays a crucial role in the study of the [[Lie algebra
 
 ## Definition
 
+We first consider Weil algebras of [[L-∞ algebra]]s, then more generally of [[L-∞ algebroid]]s.
+
+We use the notation and grading conventions that are described in detail at [[Chevalley-Eilenberg algebra]].
+
+
+### For $L_\infty$-algebras
+
+Let $\mathfrak{g}$  be an [[L-∞ algebra]] of [[finite type]]. By our grading conventions this means that the [[graded vector space]] $\mathfrak{g}^*$ obtained by degreewise dualization is in non-negative degree, and $\wedge^1 \mathfrak{g}^* = \mathfrak{g}^*[1]$ is its shift up into positive degree.
+
+A quick abstract way to characterize the Weil algebra of $\mathfrak{g}$ is as follows. Notice that there is a [[free functor]]/[[forgetful functor]] [[adjunction]]
+
+$$
+  (F \dashv U) : dgAlg \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
+  Vect[\mathbb{Z}]
+$$
+
+between the [[category]] [[dgAlg]] of [[dg-algebra]]s and the category of $\mathbb{Z}$-graded [[vector space]]s (all over some fixed [[field]]). Notice that a free object is unique _up to [[isomorphism]]_ .
+
++-- {: .un_defn}
+###### Definition
+
+The **Weil algebra** $W(\mathfrak{g})$ is the unique representative of the [[free functor|free]] [[dg-algebra]] on $\wedge^1 \mathfrak{g}^*$ for which the projection of graded vector spaces $\wedge^1(\mathfrak{g}^* \oplus \mathfrak{g}^*[1]) \to \wedge^1 \mathfrak{g}^*$ extended to a [[dg-algebra]] [[homomorphism]] $W(\mathfrak{g}) \to CE(\mathfrak{g})$
+
+=--
+
+We discuss below in the [Properties](#Properties) section that this is equivalent to the following component-wise definition
+
++-- {: .un_defn}
+###### Definition
+
+The **Weil algebra** $W(\mathfrak{g})$ is the [[semi-free dga]] whose underlying graded-commutative algebra is the [[exterior algebra]]
+
+$$
+  \wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])
+$$
+
+on $\mathfrak{g}^*$ and a shifted copy of $\mathfrak{g}^*$,
+and whose [[differential]] is the sum
+
+$$
+  d_{W(\mathfrak{g})} = d_{CE(\mathfrak{g})} + \mathbf{d}
+$$
+
+of two graded [[derivations]] of degree +1 defined by
+
+* $\mathbf{d}$ acts by degree shift $\mathfrak{g}^* \to \mathfrak{g}^*[1]$ on elements in $\mathfrak{g}^*$ and by 0 on elements of $\mathfrak{g}^*[1]$;
+
+* $d_{CE(\mathfrak{g})}$ acts on unshifted elements in $\mathfrak{g}^*$ as the differential of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ and is extended uniquely to shifted generators by graded-commutattivity 
+ 
+  $$
+    [d_{CE(\mathfrak{g}}, \mathbf{d}] = 0
+  $$
+
+  with $\mathbf{d}$:
+
+  $$
+    d_{CE(\mathfrak{g})} \mathbf{d} \omega :=
+    - \mathbf{d} d_{CE(\mathfrak{g})} \omega
+  $$
+
+  for all $\omega \in \wedge^1 \mathfrak{g}^*$.
+
+=--
+
+### For $L_\infty$-algebroids
+
+Let $T$ be a [[Fermat theory]]. Write $T Alg$ for the corresponding [[category]] of [[algebra over a Lawvere theory|algebra]]. There is a [[free functor]]/[[forgetful functor]] [[adjunction]]
+
+
+$$
+  (F \dashv U) :  T Alg \stackrel{\overset}{\to} CRing
+$$
+
+to the category [[CRing]] of commutative [[Ring]]s.
+
+We need the facts that
+
+* a [[module]] over a $T$-algebra $A$ is uniquely specified by its underlying module over $U(A)$;
+
+* the universal [[derivation]] on a $T$-algebra $A$ is the  [[de Rham differential]] 
+
+  $$
+    d_{dR} : A \to \Omega^\bullet(A)
+  $$
+
+ with values in the $A$-module of $T$-[[Kähler differential]]s. 
+
+See the corresponding entries for more details. The second point means that for $v : A \to N$ any $T$-[[derivation]] on $A$, there is a unique $A$-[[module]] [[homomorphism]]
+
+$$
+  \Omega^\bullet(A) \to N
+$$
+
+such that the diagram
+
+$$
+  \array{
+    && \Omega^\bullet(A)
+    \\
+    & {}^{\mathhlap{d_{dR}}}\nearrow & \downarrow^{\mathrlap{v}}
+    \\
+    A &\stackrel{v}{\to}& N
+  }
+$$
+
+commutes. 
+
+(...)
+
 Let $\mathfrak{a}$ be a [[∞-Lie algebroid]], identified with its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a}) = \wedge^\bullet_{C^\infty(\mathfrak{a}_0)} \mathfrak{a}_{\geq 1}^* $. 
 
 The corresponding **Weil algebra** is
@@ -107,7 +216,8 @@ $$
 
 where $\sigma|_{\mathfrak{a}^*} : \mathfrak{a}^* \to \mathfrak{a}^*[1]$ is the canonical degree-shifting isomorphism, and in $\sigma \circ d_{\mathrm{CE}(\mathfrak{a})} \circ \sigma^{-1}$ its left appearance is its extension as a degree +1 [[derivation]] of commutative garded algebras, $\sigma:\wedge^\bullet \mathfrak{a}^*\to W(\mathfrak{a})$.
 
-## Properties {#Properties}
+## Properties 
+  {#Properties}
 
 The main point of the definition is that the differential restricted to the original (unshifted) generators is the original differential plus the shift:
 
