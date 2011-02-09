@@ -24,19 +24,19 @@
 
 ## Idea
 
-A _Chern-Simons element_ in an [[∞-Lie algebroid]] is an element of the [[Weil algebra]] that interpolates between an [[∞-Lie algebroid cocycle]] and an [[invariant polynomial]].
+A _Chern-Simons element_ on an [[∞-Lie algebroid]] is an element of its [[Weil algebra]] that exhibits a [[transgression]] between an [[∞-Lie algebroid cocycle]] and an [[invariant polynomial]].
 
-It is an algebraic model for a universal [[circle n-bundle with connection]] on the [[Lie integration]] $\exp(\mathfrak{a}) \in $ [[?LieGrpd]] of $\mathfrak{a}$.
 
-The pullback of this connection $cs$ along an $\exp(\mathfrak{a})$-[[connection on an ∞-bundle]] $(A,B,C, \cdots)$ is the corresponding [[Chern-Simons form]] $CS(A,B,C,...)$. This is part of the [[∞-Chern-Weil homomorphism]]. The integrals of these Chern-Simons forms yield [[action functional]]s for [[∞-Chern-Simons theory]] which generalize those of standard [[Chern-Simons theory]]. Many types of [[sigma-model]]s of [[quantum field theory]] arise this way, such as [[BF-theory]] and [[AKSZ theory]].
 
 ## Definition
+
+We discuss [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s $\mathfrak{a}$ of [[finite type]] in terms of their [[Chevalley-Eilenberg algbera]]s $CE(\mathfrak{a})$. For $\infty$-Lie algebras these are objects in the [[category]] [[dgAlg]] of [[dg-algebra]]s (over a given ground [[field]]). For $\infty$-Lie algebroids these are dg-algebras equipped with a lift of the degree-0 algebra to an algebra over a given [[Fermat theory]] $T$ and such that the [[differential]] is a $T$-[[derivation]] in this degree. (See [[∞-Lie algebroid]] for details). We shall write in the following $dgAlg$ also for the category of dg-algebras with this extra structure and leave the [[Fermat theory]] $T$ implicit.
 
 
 +-- {: .un_def}
 ###### Definition
 
-For $\mathfrak{g}$ an [[∞-Lie algebra]] or more generally [[∞-Lie algebroid]], $\mu \in CE(\mathfrak{g})$ a [[∞-Lie algebra cocycle]] (a closed element of the [[Chevalley-Eilenberg algebra]]) and $\langle - \rangle \in W(\mathfrak{g})$ an [[invariant polynomial]] (a closed element in the shifted generators of the[[Weil algebra]] ), a **Chern-Simons element** exhibiting the _transgression_ between the two is an element
+For $\mathfrak{g}$ an [[∞-Lie algebra]] or more generally [[∞-Lie algebroid]], $\mu \in CE(\mathfrak{g})$ a [[∞-Lie algebra cocycle]] (a closed element of the [[Chevalley-Eilenberg algebra]]) and $\langle - \rangle \in W(\mathfrak{g})$ an [[invariant polynomial]], a **Chern-Simons element** exhibiting the _[[transgression]]_ between the two is an element
 
 $$
   cs \in W(\mathfrak{g})
@@ -52,7 +52,38 @@ where the restriction is along the canonical morphism $W(\mathfrak{g}) \to CE(\m
 
 =--
 
-We may equivalently express these two conditions as asserting the existence of a [[commuting diagram]] in [[dgAlg]] of the form
++-- {: .un_remark}
+###### Remark 
+
+
+Notice that a degree-$n$ [[∞-Lie algebroid cocycle]] $\mu$ is equivalently a morphism
+
+$$
+  CE(\mathfrak{g}) \leftarrow CE(b^{n-1}\mathbb{R}) : \mu
+$$
+
+and an [[invariant polynomial]] of degree $n+1$ is equivalently a morphism
+
+$$
+  int(\mathfrak{g}) \leftarrow inv(b^{n-1}\mathbb{R}) = 
+  CE(b^n \mathbb{R}) : \langle - \rangle
+$$
+
+in [[dgAlg]]. 
+
+=--
+
++-- {: .un_prop}
+###### Observation
+
+A **Chern-Simons element** $cs$ an $\mathfrak{a}$ witnessing the [[transgression]] of $\langle - \rangle$ to $\mu$ is equvivalently a morphism
+
+$$
+  W(\mathfrak{g}) \leftarrow W(b^{n-1} \mathbb{R})
+  : cs
+$$
+
+such that we have a [[commuting diagram]] in [[dgAlg]] 
 
 \[
   \array{
@@ -73,13 +104,17 @@ We may equivalently express these two conditions as asserting the existence of a
     &&&
     invariant polynomial
   }
-  \,.
+  \,,
   \label{TheDiagram}
 \]
 
+where the vertical morphisms are the canonical ones.
 
-+-- {: .un_def}
-###### Definition
+=--
+
+
++-- {: .un_remark}
+###### Remark
 
 If we think of 
 
@@ -92,6 +127,8 @@ If we think of
 then the abov expresses the classical notion of transgression of forms from the fiber to the base of a fibe bundle (for instance [Borel, section 9](#Borel)).
 
 =--
+
+
 
 ## Chern-Simons forms
 
