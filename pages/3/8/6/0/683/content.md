@@ -76,6 +76,7 @@ $$
   \,.
 $$
 
+Alternative definitions can be formulated at the level of the homotopy category $W^{-1} C$ one defines a localized version $\bar{\Delta}^I : W^{-1} C\to W_I^{-1} C^I$ of the diagonal functor $\Delta^I : C\to C^I$ and define the homotopy limits and colimits as the adjoints of $\bar{\Delta}^I$ (at least at the points where the adjoints are defined). Here $W_I\subset Mor(C^I)$ are the morphisms of diagrams whose all components are in $W\subset Mor(C)$. The above definitions via derived functors (Kan extensions) follow once one applies the general theorem that the derived functors of a pair of adjoint functors are also adjoint and noticing that $(\Delta^I,\bar{\Delta}^I)$ is a morphism of localizers (and in particular that $\bar{\Delta}^I$ with the identity 2-cell is a Kan extension (simultaneously left and right)). 
 
 In the enriched case, this must be suitably modified to deal with [[weighted limit|weighted limits]] as well as enrichment of both $C$  and $D$.
 
@@ -924,8 +925,7 @@ Other references are
 
 * Andre Hirschowitz, Carlos Simpson.  [Descent pour les n-champs](http://arxiv.org/abs/math.AG/9807049).  Probably there is some good stuff in here about homotopy limits and limits in $(\infty,n)$-categories.
 
-
-
+*MathOverflow [universal-problem-that-motivates-the-definition-of-homotopy-limits](http://mathoverflow.net/questions/38047/what-is-the-universal-problem-that-motivates-the-definition-of-homotopy-limits)
 
 [[!redirects homotopy limits]]
 [[!redirects homotopy colimit]]
