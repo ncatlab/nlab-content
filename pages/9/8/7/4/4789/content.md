@@ -156,9 +156,10 @@ The term _Chern-Simons element_ alludes to the term _[[Chern-Simons form]]_ and 
   {#PresentationForChernWeil}
 
 
-The following is a [[category theory|general abstract]] construction in [[(∞,1)-topos theory]] that has a _presentation_ by constructions involving Chern-Simons elements in the sense in which [[(∞,1)-topos]]es have a [[presentable (∞,1)-category|presentation]] by the [[model structure on simplicial presheaves]].
+We explain here briefly how Chern-Simons elements provide a _presentation_ of a generalization of the [[Chern-Weil homomotphism]] -- the [[∞-Chern-Weil homomorphism]] in [[cohesive (∞,1)-topos]] theory -- in the sense in which [[(∞,1)-topos]]es have [[presentable (∞,1)-category|presentations]] by a [[model structure on simplicial presheaves]].
 
-Recall that for $G$ a [[Lie group]], we may form its [[delooping]] [[Lie groupoid]] $\mathbf{B}G$. Then with $X$ any [[smooth manifold]], we have that the [[groupoid]] of [[morphism]]s of [[Lie groupoid]]s $X \to \mathbf{B}G$ is equivalent to that of $G$-[[principal bundle]]s on $X$:
+
+To warm up, we start with considering a traditional setup of [[Lie groupoid]] theory. Recall that for $G$ a [[Lie group]], we may form its [[delooping]] [[Lie groupoid]] dnoted $*//G$ or $\mathbf{B}G$. Then with $X$ any [[smooth manifold]], we have that the [[groupoid]] of [[morphism]]s of [[Lie groupoid]]s $X \to \mathbf{B}G$ is equivalent to that of $G$-[[principal bundle]]s on $X$:
 
 $$
   SmoothGrpd(X, \mathbf{B}G) \simeq G Bund(X)
@@ -216,20 +217,55 @@ $$
 with values in circle bundles with connection, hence in degree-2 [[ordinary differential cohomology]].
 
 
-(...)
-
-It is this kind of construction on [[Lie groupoid]]s that we now want to generalize to [[smooth ∞-groupoid]]s, to see that Chern-Simons elements are a means toconstruction morphisms akind to the differential first Chern-class $\hat \mathbf{c}_1$.
+It is this kind of construction on [[Lie groupoid]]s that we now want to generalize to a notion of [[smooth ∞-groupoid]]s, to see that Chern-Simons elements are a means to constructi morphisms akind to the differential first Chern-class $\hat \mathbf{c}_1$.
 
 A general abstract context for [[higher geometry]] equipped with [[differential cohomology]] is a [[cohesive (∞,1)-topos]] $\mathbf{H}$ of [[∞-groupoid]]s equipped with _cohesive structure_ , such as [[Smooth∞Grpd|smooth cohesive structure]].
 
+An example for such is the [[∞-stack]]-analog of the [[stack]]-[[(2,1)-topos]] over [[SmoothMfd]]: the [[∞-stack (∞,1)-topos]] [[Smooth∞Grpd]] $:= \hat Sh_{(\infty,1)}(SmoothMfd)$.
 
-Such an [[(∞,1)-topos]] comes uniquely equipped with with an [[adjoint (∞,1)-functor|endo-(∞,1)-adjunction]]
+In that context we have for instance all the higher [[delooping]]s of $U(1)$: the <a href="">circle Lie (n+1)-groups</a>
 
 $$
-  (\mathbf{\Pi} \dashv \mathbf{\flat}) : \mathbf{H} \to \mathbf{H}
+  \mathbf{B}^n U(1) \in Smooth\infty Grpd
+  \,.
 $$
 
-(...)
+This is such that the evident generalizations of the above classification statements hold: we have that morphisms $X \to \mathbf{B}^n U(1)$ form an [[n-groupoid]]
+
+$$
+  Smooth\infty Grpd(X, \mathbf{B}^n U(1))
+   \simeq
+  U(1) (n-1)Bund(X)
+$$
+
+equivalent to that of [[circle n-bundle with connection|circle n-bundles]]/$(n-1)$-[[bundle gerbe]]s on $X$.
+
+If here $X = \mathbf{B}G$ is again the [[delooping]] of a [[Lie group]], this means that now also the higher [[characteristic class]]es are represented by morphisms
+
+$$
+  \mathbf{B}G \to \mathbf{B}^n U(1)
+  \,.
+$$
+
+For instance for $G = Spin$ the [[spin group]], the first fractional [[Pontryagin class]] has a smooth incarnation
+
+$$
+  \frac{1}{2}\mathbf{p}_1 : \mathbf{B} Spin \to \mathbf{B}^3 U(1)
+$$
+
+corresponding under the above equivalence to the ordinary [[Chern-Simons circle 3-bundle]] on $\mathbf{B}G$.
+
+Every [[cohesive (∞,1)-topos]] comes canonically and essentially uniquely equipped with <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Structures">all the intrinsic structure</a> that we need for the discussion of a refinement of this to [[differential characteristic class]]es:
+
+There is an  [[adjoint (∞,1)-functor|endo-(∞,1)-adjunction]]
+
+$$
+  (\mathbf{\Pi} \dashv \mathbf{\flat}) : Smooth\infty Grpd \to Smooth \infty Grpd
+$$
+
+where $\mathbf{\Pi}(X)$ is the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Paths">path ∞-groupoid</a> of a [[smooth ∞-groupoid]] $X$.
+
+
 
 ### Chern-Simons forms
 
