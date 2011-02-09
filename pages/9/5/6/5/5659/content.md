@@ -6,6 +6,6 @@ This notion is used in the strong shape theory for separable $C^\ast$-algebras.
 
 * Bruce Blackadar, _Shape theory for $C^\ast$-algebras_.
 Math. Scand. 56 (1985), no. 2, 249&#8211;275, [MR87b:46074](http://www.ams.org/mathscinet-getitem?mr=813640), [pdf](http://www.mscand.dk/article.php?id=2767)
-* Marius D&#257;d&#257;rlat, _Shape theory and asymptotic morphisms for $C^\ast$-algebras_, Duke Math. J. __73__ (3):687-711, 1994, [MR95c:46117](http://www.ams.org/mathscinet-getitem?mr=1262931), [pdf](http://www.math.purdue.edu/~mdd/Publications/shape.pdf)
+* Marius D&#257;d&#257;rlat, _Shape theory and [[asymptotic morphism]]s for $C^\ast$-algebras_, Duke Math. J. __73__ (3):687-711, 1994, [MR95c:46117](http://www.ams.org/mathscinet-getitem?mr=1262931), [pdf](http://www.math.purdue.edu/~mdd/Publications/shape.pdf)
 
 [[!redirects semiprojective morphisms]]
