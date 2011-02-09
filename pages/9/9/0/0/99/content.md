@@ -1,4 +1,5 @@
 
+
 > There are two different concepts called _Weil algebra_ . This entry is about the notion of Weil algebra in [[Lie theory]]. For the other notion see [[infinitesimally thickened point]].
 
 ***
@@ -94,7 +95,7 @@ The **Weil algebra** $W(\mathfrak{g})$ is the unique representative of the [[fre
 
 We discuss below in the [Properties](#Properties) section that this is equivalent to the following component-wise definition
 
-+-- {: .un_defn}
++-- {: .un_defn #WeilForLInfinitityAlgebra}
 ###### Definition
 
 The **Weil algebra** $W(\mathfrak{g})$ is the [[semi-free dga]] whose underlying graded-commutative algebra is the [[exterior algebra]]
@@ -133,11 +134,16 @@ of two graded [[derivations]] of degree +1 defined by
 
 ### For $L_\infty$-algebroids
 
-Let $T$ be a [[Fermat theory]]. Write $T Alg$ for the corresponding [[category]] of [[algebra over a Lawvere theory|algebra]]. There is a [[free functor]]/[[forgetful functor]] [[adjunction]]
+Where the [[Chevalley-Eilenberg algebra]] of an [[L-∞ algebra]] has in degree 0 the ground field, that of an [[L-∞ algebroid]] has more generally an [[algebra over a Lawvere theory|algebra over]] a [[Lawvere theory]]. For [[L-∞ algebroid]]s over [[smooth manifold]]s this is the algebra of [[smooth function]]s on a manifolds, regarded as a [[smooth algebra]] ($C^\infty$-ring).
+
+So let $T$ be a [[Fermat theory]]. Write $T Alg$ for the corresponding [[category]] of [[algebra over a Lawvere theory|algebra]]. There is a [[free functor]]/[[forgetful functor]] [[adjunction]]
 
 
 $$
-  (F \dashv U) :  T Alg \stackrel{\overset}{\to} CRing
+  (F \dashv U) :  
+   T Alg 
+    \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} 
+  CRing
 $$
 
 to the category [[CRing]] of commutative [[Ring]]s.
@@ -149,7 +155,7 @@ We need the facts that
 * the universal [[derivation]] on a $T$-algebra $A$ is the  [[de Rham differential]] 
 
   $$
-    d_{dR} : A \to \Omega^\bullet(A)
+    d_{dR} : A \to \Omega^1(A)
   $$
 
  with values in the $A$-module of $T$-[[Kähler differential]]s. 
@@ -166,7 +172,7 @@ $$
   \array{
     && \Omega^\bullet(A)
     \\
-    & {}^{\mathhlap{d_{dR}}}\nearrow & \downarrow^{\mathrlap{v}}
+    & {}^{\mathllap{d_{dR}}}\nearrow & \downarrow^{\mathrlap{v}}
     \\
     A &\stackrel{v}{\to}& N
   }
@@ -174,55 +180,65 @@ $$
 
 commutes. 
 
-(...)
+Let now $\mathfrak{a}$ be an [[L-∞ algebroid]] with [[Chevalley-Eilenberg algebra]] considered as the following data;
 
-Let $\mathfrak{a}$ be a [[∞-Lie algebroid]], identified with its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a}) = \wedge^\bullet_{C^\infty(\mathfrak{a}_0)} \mathfrak{a}_{\geq 1}^* $. 
+1. a graded commutative [[semifree dga]] $CE(\mathfrak{a})$ over the ground field;
 
-The corresponding **Weil algebra** is
+1. the structure of a $T$-[[algebra over a Lawvere theory|algebra]] on the [[associative algebra]] $A := CE(\mathfrak{a})_0$ (over the ground field)
 
-$$
-  \mathrm{W}(\mathfrak{a})
-  := CE(T \mathfrak{a})
-  :=
-  \left(
-    \wedge^\bullet_{C^\infty(\mathfrak{a}_0)}
-    (
-      \mathfrak{a}_{\geq 1}^* \oplus \Gamma(T^* \mathfrak{a}_0) 
-      \oplus \mathfrak{a}_{\geq 1}^*[1]
-    )
-    , d_{\mathrm{W}(\mathfrak{a})}
-  \right)
-$$
+   such that $d_{CE(\mathfrak{a})} : CE(\mathfrak{a})_0 \to CE(\mathfrak{a})_1$ is a [[derivation]] of $T$-algebra modules.
 
-where the differential acts as the de Rham differential on $\wedge^\bullet \Gamma(T^* \mathfrak{a}_0)$ and is defined on generators in $\mathfrak{a}^* \oplus \mathfrak{a}^*[1]$ by 
+By [[semifree dga|semi-freeness]] there exists a $\mathbb{N}$-[[graded vector space]] $(\mathfrak{a}^*)^\bullet$ and an [[isomorphism]]
 
 $$
-  d_{\mathrm{W}(\mathfrak{a})}
-  =
-  \left(
-    \array{
-       d_{\mathrm{CE}(\mathfrak{a})}
-       &
-       0
-       \\
-       \sigma
-       &
-       - \sigma \circ d_{\mathrm{CE}(\mathfrak{a})}
-       \circ \sigma^{-1}
-    }
-    \,,
-  \right)
+  CE(\mathfrak{a})
+   \simeq
+  (\wedge^\bullet_{A} (\mathfrak{a}^*), d_{CE(\mathfrak{a})})
+  \,.
 $$
 
-where $\sigma|_{\mathfrak{a}^*} : \mathfrak{a}^* \to \mathfrak{a}^*[1]$ is the canonical degree-shifting isomorphism, and in $\sigma \circ d_{\mathrm{CE}(\mathfrak{a})} \circ \sigma^{-1}$ its left appearance is its extension as a degree +1 [[derivation]] of commutative garded algebras, $\sigma:\wedge^\bullet \mathfrak{a}^*\to W(\mathfrak{a})$.
+
++-- {: .un_defn}
+###### Definition
+
+The **Weil algebra** $W(\mathfrak{a})$ of the $L_\infty$-algebroid $\mathfrak{a}$ is the Chevalley-Eilenberg algebra of the $L_\infty$-algebroid defined as follows
+
+* the $T$-algebra $A$ in degree 0 is the same as that of $\mathfrak{A}$;
+
+* the underlying graded algebra is the [[exterior algebra]] on $\mathfrak{a}^*$ and a shifted copy $\mathfrak{a}^*[1]$ as well as one copy of the [[Kähler differential]] module $\Omega^1$ in lowest degree (though of as the shifted copy of $A$ itself)
+
+  $$
+    \wedge^\bullet (\Omega^1(A) \oplus  (\mathfrak{a}^*) \oplus \mathfrak{a}^*[1])
+    \,.
+  $$
+
+* the [[differential]] is the sum 
+
+  $$
+    d_{W(\mathfrak{a})} = d_{CE(\mathfrak{a})} + \mathbf{d}
+  $$
+
+  of two degree +1 graded derivations, where $d_{CE(\mathfrak{a})}$ and $\mathbf{a}$ are defined on $\wedge^1 \mathfrak{a}^* \oplus \mathfrak{a}^*[1]$ as [above](#WeilForLInfinitityAlgebra) for $L_\infty$-algebras and on $A$ itself $d_{CE(\mathfrak{a})}$ vanishes and $\mathbf{d}$ acts as the universal derivation
+
+  $$
+    \mathbf{d}|_A = d_{\mathrm{dR}} : A \to \Omega^1(A)
+    \,.
+  $$
+
+=--
+
+
 
 ## Properties 
   {#Properties}
 
+### Free property
+
 The main point of the definition is that the differential restricted to the original (unshifted) generators is the original differential plus the shift:
 
 $$
-  d_{W(\mathfrak{a})} |_{\mathfrak{a}^*} = d_{CE(\mathfrak{a})} + \sigma
+  d_{W(\mathfrak{a})} |_{\mathfrak{a}^*} = 
+   d_{CE(\mathfrak{a})} + \mathbf{d}
   \,.
 $$
 
@@ -340,7 +356,7 @@ The freeness property of the Weil algebra can be made more explicit by exhibitin
 +-- {: .un_def}
 ###### Definition
 
-The free dg-algebra on $\mathfrak{g}^*$ is
+The _canonical free dg-algebra_ on $\mathfrak{g}^*$ is
 
 $$
   F(\mathfrak{g}) := \wedge^\bullet( \mathfrak{g}^* \oplus \mathfrak{g}^*[1], d_F )
@@ -441,7 +457,7 @@ The [[cochain cohomology]] of the Weil algebra of an $L_\infty$-algebra is trivi
 ###### Remark
 
 
-This means that [[homotopy theory|homotopy-theoretically]] the Weil algebra is the point. Dually, the $\infty$-Lie algebra $inn(\mathfrak{g})$ is a model for the point. In fact, one can see that $inn(\mathfrak{g})$ is the [[universal principal ∞-bundle]] over $\mathfrak{g}$ in the canonical [[model category|model]] for the [[(∞,1)-topos]] [[?LieGrpd]]. In fact, it is a [[groupal model for universal principal ∞-bundles]]. This is discussed at [[∞-Lie algebra cohomology]].
+This means that [[homotopy theory|homotopy-theoretically]] the Weil algebra is the point. Dually, the $\infty$-Lie algebra $inn(\mathfrak{g})$ is a model for the point. In fact, one can see that $inn(\mathfrak{g})$ is the [[universal principal ∞-bundle]] over $\mathfrak{g}$ in the canonical [[model category|model]] for the [[(∞,1)-topos]] [[SynthDiff∞Grpd]]. In fact, it is a [[groupal model for universal principal ∞-bundles]]. This is discussed at [[∞-Lie algebra cohomology]].
 
 =--
 
@@ -449,7 +465,7 @@ This means that [[homotopy theory|homotopy-theoretically]] the Weil algebra is t
 
 By the discussion at [[∞-Lie algebra]] and [[Chevalley-Eilenberg algebra]], we may _identify_ the [[full subcategory]] of the [[opposite category]] [[dgAlg]] on commutative [[semi-free dga]]s in non-negative degree with that of [[∞-Lie algebra]]s/[[∞-Lie algebroid]]s.
 
-That means that the Weil algebra $W(\mathfrak{g})$ of some [[∞-Lie algebra]] $\mathfrak{g}$ is the Chevalley-Eilenberg algebra of _another_ $\infty$-Lie algebra. 
+That means that the Weil algebra $W(\mathfrak{g})$ of some [[L-∞ algebra]] $\mathfrak{g}$ is the Chevalley-Eilenberg algebra of _another_ $\infty$-Lie algebra. 
 
 +-- {: .un_def}
 ###### Definition
@@ -641,6 +657,7 @@ $$
 
 is the corresponding [[curvature characteristic form]], a closed $n$-form on $X$. For $(\langle - \rangle, cs) : W(b^{n-1}) \to W(\mathfrak{g})$ the corresponding [[Chern-Simons element]] we have that $cs(A,F_A)$ is the corresponding [[Chern-Simons form]] on $X$.
 
+
 ## Examples
 
 ### Weil algebra of a Lie algebra {#WeilofLieAlg}
@@ -709,10 +726,36 @@ $$
   \,.
 $$
 
-### Weil algebra of a 0-truncated Lie algebroid
+### Weil algebra of a 0-Lie algebroid
 
-A 0-[[truncated]] Lie algebroid is just a [[smooth manifold]] $X$.
-Its Weil algebra is the Chevalley-Eilenberg algebra of the
+
+
+A 0-[[truncated]] Lie algebroid is one for which the chain complex of modules over the $T$-algebra in degree 0 vanishes:
+
+$$
+  CE(\mathfrak{a}) = (\wedge^\bullet_A (\mathfrak{a}^*), d_{CE(\mathfrak{a})})
+  = (A, d = 0)
+  \,.
+$$
+
+For instance for $T$=[[CartSp]] the theory of [[smooth algebra]]s, any [[smooth manifold]] $X$ regarded as an 
+[[L-∞ algebroid]] is a 0-Lie algebroid with $CE(X) = C^\infty(X)$ the [[smooth algebra]] of [[smooth function]]s on $X$.
+
+
++-- {: .un_prop}
+###### Observation
+
+The Weil algebra of a 0-Lie algebroid $X$ is the [[Kähler differential|Kähler]] [[de Rham complex]] of $A = CE(X)$:
+
+$$
+  W(\mathfrak{a}) = 
+  (\Omega^\bullet(A), d_{dR})
+  \,.
+$$
+
+=--
+
+This Weil algebra is the Chevalley-Eilenberg algebra of the
 [[tangent Lie algebroid]] $T X$ of $X$, which is the [[de Rham algebra]]
 $\Omega^\bullet(X)$ of $X$:
 
@@ -752,14 +795,15 @@ This also explains the use of the Weil algebra in the calculation of the [[equiv
 
 The (obvious but conceptually important) observation that [[Lie algebra-valued 1-forms]] regarded as morphisms of graded vector spaces $\Omega^\bullet(X) \leftarrow \wedge^1 \mathfrak{g}^* : A$ are equivalently morphisms of dg-algebras out of the Weil algebra $\Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : A$ and that one may think of as the identity $W(\mathfrak{g}) \leftarrow W(\mathfrak{g}) : Id$ as the _universal $\mathfrak{g}$-connection_ appears in early articles for instance highlighted on p. 15 of
 
-* Franz W. Kamber; Philippe Tondeur, _Semisimplicial Weil algebras and characteristic classes for foliated bundles in &#268;ech cohomology_ , Differential geometry (Proc. Sympos. Pure Math., Vol. XXVII, Stanford Univ., Stanford, Calif., 1973), Part 1, pp. 283--294. Amer. Math. Soc., Providence, R.I., (1975). 
+* Franz W. Kamber; Philippe Tondeur, _Semisimplicial Weil algebras and characteristic classes for foliated bundles in Cech cohomology_ , Differential geometry (Proc. Sympos. Pure Math., Vol. XXVII, Stanford Univ., Stanford, Calif., 1973), Part 1, pp. 283--294. Amer. Math. Soc., Providence, R.I., (1975). 
 
 
 A survey of Weil algebras for Lie algebras is also available at
 
 * [[eom|Encyclopedia of Mathematics]]: [Weil algebra of a Lie algebra](http://eom.springer.de/W/w130050.htm)
 
-Weil algebra for [[∞-Lie algebra]]s and their role in defining [[invariant polynomial]]s and [[Chern-Simons element]]s on $\infty$-Lie algebras from [[∞-Lie algebra cocycle]] are considered in
+Weil algebra for [[8-Lie algebra]]s and their role in defining [[invariant polynomial]]s and [[Chern-Simons element]]s on $\infty$-Lie algebras from [[8-Lie algebra cocycle]] are considered in
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">ref</a>)
 {#SSSI}
+
