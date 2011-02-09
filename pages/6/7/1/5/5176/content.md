@@ -53,7 +53,7 @@ $$
 $$
 
 
-Write $CoSh(C) \subset CoPSh(C)$ for the full [[subcategory]] on cosheaves.
+Write $CoSh(C) \subset CoPSh(C)$ for the full [[subcategory]] of cosheaves.
 
 =--
 
