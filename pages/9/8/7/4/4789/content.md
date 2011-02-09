@@ -153,6 +153,7 @@ The term _Chern-Simons element_ alludes to the term _[[Chern-Simons form]]_ and 
 
 
 ### As presentations for the $\infty$-Chern-Weil homomorphism
+  {#PresentationForChernWeil}
 
 
 The following is a [[category theory|general abstract]] construction in [[(∞,1)-topos theory]] that has a _presentation_ by constructions involving Chern-Simons elements in the sense in which [[(∞,1)-topos]]es have a [[presentable (∞,1)-category|presentation]] by the [[model structure on simplicial presheaves]].
@@ -170,9 +171,10 @@ $$
   SmoothGrpd := Sh_{(2,1)}(SmoothMfd)
 $$ 
 
-of [[stack]]s/[[(2,1)-sheaves]] on the [[site]] [[SmoothMfd]] (equivalently on its [[small category|small]] [[dense subsite]] [[CartSp]] of [[Cartesian space]]s).
+of [[stack]]s/[[(2,1)-sheaves]] on the [[site]] [[SmoothMfd]] (equivalently on its [[small category|small]] [[dense subsite]] [[CartSp]] of [[Cartesian space]]s). (This is discussed in detail at _[[principal bundle]]_ ).
 
-There is a _differential refinement_ of the [[Lie groupoid]] $\mathbf{B}G$, to the smooth groupoid $\mathbf{B}G_{conn}$: this is the [[(2,1)-sheaf]] given by the [[(∞,1)-sheafififcation|(2,1)-sheafification]] of the assignment that sends a [[smooth manifold]] to its [[groupoid of Lie algebra-valued 1-forms]].
+There is a _differential refinement_ of the [[Lie groupoid]] $\mathbf{B}G$, to the smooth groupoid $\mathbf{B}G_{conn}$: this is the [[(2,1)-sheaf]] given by the 
+[[(∞,1)-sheafification|(2,1)-sheafification]] of the assignment that sends a [[smooth manifold]] $U$ to the [[groupoid of Lie algebra-valued 1-forms]] on $U$.
 
 There is a coresponding [[natural equivalence]]
 
@@ -180,21 +182,45 @@ $$
   SmoothGrpd(X, \mathbf{B}G_{conn}) \simeq G Bund_{conn}(X)
 $$
 
-with the groupoid of $G$-[[principal bundle]]s with [[connection on a bundle|with connection]] on $X$. (This is described in detail at _[[connection on a bundle]]_ ).
+of morphisms into $\mathbf{B}G_{conn}$ with the groupoid of $G$-[[principal bundle]]s with [[connection on a bundle|with connection]] on $X$. (This is described in detail at _[[connection on a bundle]]_ ).
 
-In particular if $G = U(1)$ is the [[circle group]], a morphism $X\to \mathbf{B}U(1)_{conn}$ is a [[circle n-bundle with connection|circle bundle with connection]]
+In particular if $G = U(1)$ is the [[circle group]], a morphism $X\to \mathbf{B}U(1)_{conn}$ is a [[circle n-bundle with connection|circle bundle with connection]]. This 
 
-There is
+This allows already to consider a simple case of a [[characteristic class]] and its refinement to a [[differential characteristic class]]: 
+Let $U$ be the [[unitary group]]. There is a canonical morphism of [[Lie groupoid]]s $\mathbf{c}_1 : \mathbf{B}U \to \mathbf{B}U(1)$ given by the [[determinant]]. This -- or rather its image in [[cohomology]]
 
 $$
- \mathbf{B}G_{conn} \to \mathbf{B}U(1)_{conn}
+  \mathbf{c}_1 : SmoothGrpd(- ,\mathbf{B}U) \to SmoothGrpd(-, \mathbf{B} U(1))
 $$
+
+is a smooth representative of the [[characteristic class]] called the _first [[Chern class]]_ . Its differential refinement is the evident morphism
+
+$$
+  \hat \mathbf{c}_1 : \mathbf{B}U_{conn} \to \mathbf{B}U(1)_{conn} 
+$$
+
+that sends a $\mathfrak{u}$-[[Lie algebra valued 1-form|valued differential form]] to the [[trace]] of its Lie algebra value. Postcomposition with this is the refined [[Chern-Weil homomorphism]]
+
+$$
+  \array{
+    SmoothGrpd(X, \mathbf{B}U)_{conn} 
+      &\stackrel{\hat \mathbf{c}_1}{\to}&
+    SmoothGrpd(X, \mathbf{B}U(1)_{conn})
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+    \\
+    U Bund_\nabla(X) &\to& U(1) Bund_\nabla(X)
+  }
+$$
+
+with values in circle bundles with connection, hence in degree-2 [[ordinary differential cohomology]].
+
 
 (...)
 
+It is this kind of construction on [[Lie groupoid]]s that we now want to generalize to [[smooth ∞-groupoid]]s, to see that Chern-Simons elements are a means toconstruction morphisms akind to the differential first Chern-class $\hat \mathbf{c}_1$.
 
-
-A general abstract context for [[higher geometry]] equipped with [[differential cohomology]] is a [[cohesive (∞,1-tops)]] $\mathbf{H}$ of [[∞-groupoid]]s equipped with _cohesive structure_ , such as [[Smooth∞Grpd|smooth cohesive structure]].
+A general abstract context for [[higher geometry]] equipped with [[differential cohomology]] is a [[cohesive (∞,1)-topos]] $\mathbf{H}$ of [[∞-groupoid]]s equipped with _cohesive structure_ , such as [[Smooth∞Grpd|smooth cohesive structure]].
 
 
 Such an [[(∞,1)-topos]] comes uniquely equipped with with an [[adjoint (∞,1)-functor|endo-(∞,1)-adjunction]]
@@ -203,6 +229,7 @@ $$
   (\mathbf{\Pi} \dashv \mathbf{\flat}) : \mathbf{H} \to \mathbf{H}
 $$
 
+(...)
 
 ### Chern-Simons forms
 
