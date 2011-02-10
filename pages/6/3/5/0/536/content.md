@@ -81,6 +81,10 @@ $$(Set^S)^{op} \to T$$
 
 and the development goes through very much as in the single-sorted case. 
 
+#### Generalized Algebraic Theories
+
+See [generalized+algebraic+theory](generalized algebraic theory).
+
 ## Lawvere theories and monads 
 
 We flesh out the relationships between theories and [[monad]]s, starting from the most general situation and then adding conditions to cut down on the size of theories. The term "[[Lawvere theory]]" as used here will mean 
