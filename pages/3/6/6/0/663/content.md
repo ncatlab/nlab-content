@@ -107,6 +107,7 @@ Categories of models of finitary essentially algebraic theories are precisely eq
 
 * [[operad]] / [[(∞,1)-operad]]
 
+* [[generalized algebraic theory]]
 
 [[!redirects essentially algebraic theory]]
 [[!redirects essentially algebraic theories]]
