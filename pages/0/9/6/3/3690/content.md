@@ -4,13 +4,14 @@ The members of the group at any actual time are required to be under 50 years of
 
 According to [[Jean Dieudonné]], Bourbaki exposition is dedicated to dead and stable mathematics which is not likely to change soon and which has wider importance, rather than being of a specialized character. Most succesful was the exposition of the chapters on Lie theory, especially [[Lie algebra]]s, whose style is later followed in much of later literature in the subject. See more in
 
-* Jean A. Dieudonn&#233;, _The work of Nicolas Bourbaki_, Amer. Math. Monthly 77 1970 134&#8211;145 [MR252179](http://www.ams.org/mathscinet-getitem?mr=252179), [doi](http://dx.doi.org/10.2307/2317325)
+* Jean A. Dieudonn&#233;, _The work of Nicolas Bourbaki_, Amer. Math. Monthly __77__ (1970) 134&#8211;145 [MR252179](http://www.ams.org/mathscinet-getitem?mr=252179), [doi](http://dx.doi.org/10.2307/2317325)
 
-Mathematically, the biggest single credit to Bourbaki is for decisively  defining a general notion of structure (which was largely as a formal scope of mainstream mathematics in the second half of 20th century). Bourbaki is blaimed for too formal approach; indeed books are void of much motivation and application, apart from a few of introductions and few chapters on history. Bourbaki unfortunately did not embrace the category theory, though some of the universal properties treated in category theory in fact first appeared in early editions of Bourbaki. Apart from Bourbaki volumes, there is also a lively Bourbaki seminars which takes place on certain Saturdays in Paris, is open to public, has non-Bourbaki members as invited speakers and discusses chocen topics of recent development. 
+Mathematically, the biggest single credit to Bourbaki is for decisively  defining a general notion of structure (which was largely as a formal scope of mainstream mathematics in the second half of 20th century). Bourbaki is blaimed for too formal approach; indeed books are void of much motivation and application, apart from a few of introductions and few chapters on history. Bourbaki unfortunately did not embrace the category theory, though some of the universal properties treated in category theory in fact first appeared in early editions of Bourbaki. Apart from Bourbaki volumes, there is also a lively Bourbaki seminars which takes place on certain Saturdays in Paris, is open to public, has non-Bourbaki members as invited speakers who present and discuss in advance chosen topics of recent development in mathematics; the expositions are subsequently published. 
 
 * Bourbaki's biography at math tutor: the [pre-war years](http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Bourbaki_1.html), the [after-war years](http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Bourbaki_2.html)
 
 * [website](http://www.bourbaki.ens.fr) of the group
+* [[Armand Borel]]: [25 years with Bourbaki](http://www.ega-math.narod.ru/Bbaki/Bourb3.htm)
 
 category: people
 
