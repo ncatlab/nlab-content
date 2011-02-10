@@ -1,7 +1,16 @@
-The __Association of Collaborators of Nicolas Bourbaki__ (l\'Association des collaborateurs de Nicolas Bourbaki) is a group of mathematics in France who set the standard for a structural and abstract approach to pure mathematics in the 20th century.  They published a series of 10 monographs under the psuedonym 'Nicolas Bourbaki', consolidating known results.  They also held ---and still hold--- a largely independent seminar on contemporary research.
+The __Association of Collaborators of Nicolas Bourbaki__ (l\'Association des collaborateurs de Nicolas Bourbaki) is a group of mathematics in France who set the standard for a structural and abstract approach to exposition of pure mathematics in the 20th century.  They published a series "Elements of mathematics" of 10 multi-volume monographs under the pseudonym 'Nicolas Bourbaki', consolidating known results.  They also held ---and still hold--- a largely independent seminar on contemporary research.
 
-* [website](http://www.bourbaki.ens.fr/)
+The members of the group at any actual time are required to be under 50 years of age, what is considered the only fixed rule of the group; the membership is taken under acceptance of an invitation by existing members. For a bit of history can be found at [en.wikipedia](http://en.wikipedia.org/wiki/Nicolas_Bourbaki), [fr.wikipedia](http://fr.wikipedia.org/wiki/Nicolas_Bourbaki), [britannica](http://www.britannica.com/EBchecked/topic/75700/Nicolas-Bourbaki) and references therein. 
 
+According to [[Jean Dieudonné]], Bourbaki exposition is dedicated to dead and stable mathematics which is not likely to change soon and which has wider importance, rather than being of a specialized character. Most succesful was the exposition of the chapters on Lie theory, especially [[Lie algebra]]s, whose style is later followed in much of later literature in the subject. See more in
+
+* Jean A. Dieudonn&#233;, _The work of Nicolas Bourbaki_, Amer. Math. Monthly 77 1970 134&#8211;145 [MR252179](http://www.ams.org/mathscinet-getitem?mr=252179), [doi](http://dx.doi.org/10.2307/2317325)
+
+Mathematically, the biggest single credit to Bourbaki is for decisively  defining a general notion of structure (which was largely as a formal scope of mainstream mathematics in the second half of 20th century). Bourbaki is blaimed for too formal approach; indeed books are void of much motivation and application, apart from a few of introductions and few chapters on history. Bourbaki unfortunately did not embrace the category theory, though some of the universal properties treated in category theory in fact first appeared in early editions of Bourbaki. Apart from Bourbaki volumes, there is also a lively Bourbaki seminars which takes place on certain Saturdays in Paris, is open to public, has non-Bourbaki members as invited speakers and discusses chocen topics of recent development. 
+
+* Bourbaki's biography at math tutor: the [pre-war years](http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Bourbaki_1.html), the [after-war years](http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Bourbaki_2.html)
+
+* [website](http://www.bourbaki.ens.fr) of the group
 
 category: people
 
