@@ -275,8 +275,13 @@ $$
   Smooth \infty Grpd
 $$
 
-where $\mathbf{\Pi}(X)$ is the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Paths">path ∞-groupoid</a> of a [[smooth ∞-groupoid]] $X$.
-A morphism $\mathbf{\Pi}(X) \to \mathbf{B}^n U(1)$ encodes therefore the flat [[higher parallel transport]] of a flat [[circle n-bundle with connection]], and we have that the [[n-groupoid]] of morphisms
+where 
+
+* $\mathbf{\Pi}(X)$ is the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Paths">path ∞-groupoid</a> of a [[smooth ∞-groupoid]] $X$;
+
+* $\mathbf{\flat}\mathbf{B}G$ is the coefficient object for <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">flat ∞-connections</a> on $G$-[[principal ∞-bundle]]s.
+
+A [[morphism]] $\mathbf{\Pi}(X) \to \mathbf{B}^n U(1)$ encodes the flat [[higher parallel transport]] of a flat [[circle n-bundle with connection]], and we have that the [[n-groupoid]] of morphisms
 
 $$
   Smooth \infty Grpd(\mathbf{\Pi}(X), \mathbf{B}^n U(1))
@@ -286,7 +291,7 @@ $$
 
 is that of flat [[circle n-bundles with connection]]/ (n-1)-[[connection on a bundle gerbe|bundle gerbes with connection]].
 
-A _trivial_ circle $n$-bundle with connection is equivalently just a globally defined [[differential form|differential n-form]]. Therefore if we define the modified [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
+We observe that a _trivial_ circle $n$-bundle with connection is equivalently just a globally defined [[differential form|differential n-form]]. Therefore if we define the modified [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
 
 $$
   (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})
@@ -296,14 +301,28 @@ $$
    Smooth\infty Grpd
 $$
 
-by the [[(∞,1)-pullback]] 
+by forming the [[(∞,1)-pullback]] 
 
 $$
   \mathbf{\flat}_{dR}\mathbf{B}^n U(1) 
   := * \prod_{\mathbf{B}^n U(1)} \mathbf{\flat} \mathbf{B}^n U(1)
+  \,,
 $$ 
 
-one finds (discussed in detail <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#StrucDeRham">here</a>) that morphisms $X \to \mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ correspond to trivial circle bundle with connection, hence to cocycles in [[de Rham cohomology]] of $X$.
+which is the coefficient object for _trivial_ principal $\infty$-bundles equipped with flat $\infty$-connection, one finds (discussed in detail <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#StrucDeRham">here</a>) that morphisms $X \to \mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ correspond to trivial circle bundle with connection, hence to cocycles in [[de Rham cohomology]] of $X$;
+
+$$
+  \pi_0 Smooth \infty Grpd(X, \mathbf{\flat}_{dR} \mathbf{B}^n U(1))
+  = 
+  \left\{
+    \array{
+      H_{dR}^n(X) & n \geq 2
+      \\
+      \Omega^1_{cl}(X) & n = 1
+    }
+  \right.
+  \,.
+$$
 
 This now allows us to construct differential refinements:
 
@@ -313,9 +332,9 @@ $$
   curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}
 $$
 
-in the degree $(n+1)$-[[de Rham cohomology]] of $\mathbf{B}^n U(1)$: the universal [[curvature characteristic form]]s. 
+in the degree $(n+1)$-[[de Rham cohomology]] of $\mathbf{B}^n U(1)$: these are the universal [[curvature characteristic form]]s on $\mathbf{B}^n U(1)$. 
 
-Then for $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ any smooth [[characteristic class]], the correspodning (unrefined) [[differential characteristic class]] is simply the composite
+Then for $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ any smooth [[characteristic class]], the corresponding (unrefined) [[differential characteristic class]] is simply the composite
 
 $$
   \mathbf{c}_{dR} : \mathbf{B}G \stackrel{\mathbf{c}}{\to}
@@ -325,13 +344,18 @@ $$
   \,.
 $$
 
-The (unrefined) [[∞-Chern-Weil homomorphism]] is postcomposition with this morphism. 
+The (unrefined) [[∞-Chern-Weil homomorphism]] is postcomposition with this morphism:
+
+$$
+  (\mathbf{c}_{dR})_* : H^1(X,G) \to H_{dR}^{n+1}(X)
+  \,.
+$$
 
 This is finally where the Chern-Simons elements come in:
 
 +-- {: .standout}
 
-Chern-Simons elements are a means to present the composite morphism $\mathbf{c}_{dR}$ of [[smooth ∞-groupoid]]s by an [[∞-anafunctor]].
+Chern-Simons elements are a means to _present_ the composite morphism $\mathbf{c}_{dR}$ of [[smooth ∞-groupoid]]s by an [[∞-anafunctor]] between smooth [[Kan complex]]es.
 
 =--
 
@@ -346,9 +370,73 @@ This presentation we describe in the next section.
 
 We explain now how Chern-Simons elements arise as a presentation of a [[differential characteristic class]] $\mathbf{c}_{dR}$ by a [[span]] of [[simplicial presheaves]].
 
-The fact that gets this started is the following (discussed in detail <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#CurvatureCharacteristicOnCircleNGroup">here</a>) 
+At the heart of the presentation of differenial characteristic classes by morphisms of simplicial presheaves is a differential refinement of the [[Lie integration]] of [[L-∞ algebra]]s and [[∞-Lie algebroid]]: for $\mathfrak{g}$ an ordinary [[Lie algebra]], one finds that the 3-[[coskeleton]] of the simplicial presheaf that assigns flat [[vertical differential form|vertical]] $\mathfrak{g}$-[[Lie algebra valued 1-form]]s
 
-1. the object $\mathbf{B}^n U(1) \in $ [[Smooth∞Grpd]] is presented by a quotient of the presheaf of [[Kan complex]]es given by
+$$
+  \exp(\mathfrak{g}) : 
+  (U,[k])
+  \mapsto
+  \left\{
+     \array{
+       \Omega^\bullet_{si, vert}(U \times \Delta^k) 
+        &\stackrel{A_{vert}}{\leftarrow}&
+      CE(\mathfrak{g})
+     }
+  \right\}
+$$
+
+is the [[delooping]] of the [[simply connected]] [[Lie group]] $G$ 
+integrating $\mathfrak{g}$
+
+$$
+ \mathbf{cosk}_3 \exp(\mathfrak{g}) \stackrel{\simeq}{\to}
+  \mathbf{B}G
+  \,.
+$$
+
+Similarly the [[Lie integration]] of the [[line Lie n-algebra]] $b^{n-1}\mathbb{R}$
+
+$$
+  \exp(b^{n-1}\mathbb{R})
+  : 
+  (U,[k])
+  \mapsto
+  \left\{
+     \array{
+       \Omega^\bullet_{si,vert}(U \times \Delta^k)
+       &\leftarrow&
+       CE(b^{n-1}\mathbb{R})
+     }
+  \right\}
+$$
+
+is the $n$-fold [[delooping]] of $\mathbb{R}$:
+
+$$
+  \exp(b^{n-1}\mathbb{R})  \stackrel{\simeq}{\to}
+  \mathbf{B}^n \mathbb{R}
+  \,.
+$$
+
+Moreover, for $\mu : \mathfrak{g} \to b^{n-1}\mathbb{R}$ a degree-$n$ [[cocycle]] in [[Lie algebra cohomology]], simple postcomoposition gives its image under [[Lie integration]]
+
+$$
+  \exp(\mu) : \exp(\mathfrak{g}) \to \exp(b^{n-1}\mathbb{R})
+  \,.
+$$
+
+Under [[coskeleton|coskeletization]] on the left this carves out the [[period]]s of $\mu$ as a lattice in $\mathbb{R}$, which typically is the [[integer]]s, so that this descends to degree $n$-cocycle in [[Lie group cohomology]] with coefficients in $U(1) \simeq \mathbb{R}/\mathbb{Z}$
+
+$$
+  \exp(\mu) : \mathbf{B}G \to \mathbf{B}^n \mathbb{R}/\mathbb{Z}
+  \,.
+$$
+
+(See [[Lie group cohomology]] and [[smooth ∞-groupoid]] for discussion of the refined notion of Lie group cohomology arising here.)
+
+The differential refinement of these construction is based on the following fact (discussed in detail <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#StrucCurvatureForms">here</a>)
+
+1. the object $\mathbf{B}^n U(1) \in $ [[Smooth∞Grpd]] is equivalently presented by a quotient of the presheaf of [[Kan complex]]es given by
 
    $$
      \mathbf{B}^n U(1)_{diff} : 
@@ -371,13 +459,36 @@ The fact that gets this started is the following (discussed in detail <a href="h
 
    where on the right we have the set of horizontal morphisms in [[dgAlg]] that make a [[commuting diagram]] with the canonical vertical morphisms as indicated.
 
+   $$
+     \array{
+       \mathbf{B}^n U(1)_{diff}
+       \\
+       \downarrow^{\mathrlap{\simeq}}
+       \\
+       \mathbf{B}^n U(1)
+     }
+     \,.
+   $$
+
    (We may think of a morphism of simplicial presheaves $X \to \mathbf{B}^n U(1)_{diff}$ as a [[circle n-bundle with connection|circle n-bundle]]/$(n-1)$-bundle gerbe equipped with a _[[pseudo-connection]]_ . )
 
 
    Notice that the bottom morphism here encodes precisely a degree-$n$ [[differential form]] $\omega$ on $U \times \Delta^k$, 
 
 
-1. The morphism $curv$ is presented on this by the map that sends such a form $\omega$ to its [[curvature]] $d \omega$. If the [[pseudo-connection]]s that we are dealing with are genuine connections the [[curvature]] is a basic form down on $U$ and this means diagrammatically that it forms the [[pasting]] composite
+1. The morphism $curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} U(1)$ is presented on this by the [[∞-anafunctor]] 
+
+   $$
+     \array{
+       \mathbf{B}^n U(1)_{diff} &\to& \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)_{sim}
+       \\
+       \downarrow^{\mathrlap{\simeq}}
+       \\
+       \mathbf{B}^n U(1)
+     }
+   $$
+
+   by the map that sends such a form $\omega$ to its [[curvature]] $d \omega$. If the [[pseudo-connection]]s that we are dealing with are genuine connections the [[curvature]] is a basic form down on $U$ and this means diagrammatically that it forms the [[pasting]] composite
 
    $$
      \array{
@@ -401,39 +512,20 @@ The fact that gets this started is the following (discussed in detail <a href="h
    and then picks out the bottom horizontal morphism.
 
 
-Suppose then that
+Therefore our task of presenting $\mathbf{c}_{dR}$ amounts to computing the composition of [[∞-anafunctor]]s
 
-1. the [[∞-group]] $G$ arises from [[Lie integration]] of the [[∞-Lie algebra]] $\mathfrak{g}$, in that it is presented by the $n$-[[coskeleton]] of the simplicial presheaf that assigns flat [[vertical differential form|vertical]] [[Lie algebra valued 1-form]]s
+$$
+  \array{
+    && \mathbf{B}^n U(1)_{diff} &\to& \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)_{sim}
+    \\
+    && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}G &\stackrel{\exp(\mu)}{\to}& \mathbf{B}^n U(1)
+  }
+$$
 
-   $$
-     (U,[k]) \mapsto
-     \left\{
-       \array{
-         \Omega^\bullet_{si,vert}(U \times \Delta^k)
-          &\stackrel{A_{vert}}{\leftarrow}&
-         CE(\mathfrak{g})
-       }
-     \right\}
-   $$
 
-1. the [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ arises from [[Lie integration]] of a [[∞-Lie algebra cocycle]] $\mu$ of degree $n+1$ in that it carries the $n$-[[truncated|truncation]] of this presheaf to a quotient of the preshef of simplicial sets of composites
-
-   $$
-     \cdots
-     \stackrel{\exp(\mu)}{\mapsto}
-     \left\{
-       \array{
-         \Omega^\bullet_{si,vert}(U \times \Delta^k)
-          &\stackrel{A_{vert}}{\leftarrow}&
-         CE(\mathfrak{g})
-         &\stackrel{\mu}{\leftarrow}&
-         CE(b^{n-1} \mathbb{R})
-       }
-     \right\}
-     \,,
-   $$
-
-Then to form the composite of $\exp(\mu)$ with $curv$ we need to complete componentwise to [[commuting diagram]]s. To this end we first complete the assignment of $\exp(\mathfrak{g})$ to a diagram
+To do se we need to complete componentwise to [[commuting diagram]]s. To this end we first complete the assignment of $\exp(\mathfrak{g})$ to a diagram
 
 
 \[
