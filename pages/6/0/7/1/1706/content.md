@@ -18,12 +18,11 @@
 
 
 #Contents#
-
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
-# Idea #
+## Idea 
 
 The **Cobordism Hypothesis** roughly states that
 
@@ -35,7 +34,7 @@ In [[FQFT|extended topological quantum field theory]], which is really the [[rep
 +-- {: .un_prop}
 ###### Extended TQFT Hypothesis
 
-An $n$-dimensional unitary extended TQFT is a weak $n$-[[n-functor|functor]], preserving all levels of duality, from the $n$-category $n Cob$ of cobordisms to $n Hilb$, the $n$-category of $n$-[[n-Hilbert space|Hilbert spaces]].
+An $n$-dimensional unitary extended TQFT is a weak $n$-[[n-functor|functor]], preserving all levels of duality, from the $n$-category $n Cob$ of cobordisms to $n Hilb$, the $n$-category of $n$-[[n-vetctor space|Hilbert spaces]].
 =--
 
 Putting the extended TQFT hypothesis and the cobordism hypothesis together, we obtain:
@@ -44,23 +43,19 @@ Putting the extended TQFT hypothesis and the cobordism hypothesis together, we o
 ###### The primacy of the point
 
 An $n$-dimensional unitary extended TQFT is completely described by the $n$-Hilbert space it assigns to a point.
+
 =--
 
-#Lurie's formulation and proof of the cobordism hypothesis#
+## Formalization 
 
-In 
-
-* [[Jacob Lurie]] [[On the Classification of Topological Field Theories]] 
-
-a formalization and proof of the cobordism hypothesis is indicated.
+In ([Lurie](#Lurie)) a formalization and proof of the cobordism hypothesis is indicated.
 
 This uses the languge of [[(infinity,n)-category|(∞,n)-categories]] modeled as [[n-fold complete Segal space]]s and a concrete realization of the [[(∞,n)-category of cobordisms]] in this context.
 
 What is not yet described in detail it what it means for an $(\infty,n)$-category to be a [[symmetric monoidal category]] but by comparison with the defintion of [[symmetric monoidal (∞,1)-category]] one can see what that would be.
 
-The precise formulation of the cobordism hypothesis then takes the form of the following
 
-(theorem 2.4.6 in [[On the Classification of Topological Field Theories]])
+### Framed version
 
 +-- {: .un_theorem }
 ###### Theorem (cobordism hypothesis, framed version)
@@ -95,6 +90,8 @@ The statement is that
 
 =--
 
+This is ([Lurie, theorem 2.4.6](#Lurie)).
+
 
 +-- {: .proof}
 ###### Proof
@@ -111,6 +108,88 @@ In fact, the Galatius-Madsen-Weiss theorem is now supposed to be a corollary of 
 
 
 
+### For framed cobordisms in a manifold twisted by a vector bundle
+
++-- {: .un_def }
+###### Definition
+
+Let $X$ be a [[topological space]] and $\xi \to X$ a [[real number|real]] [[vector bundle]] on $X$ of [[rank]] $n$. Let $N$ be a [[smooth manifold]] of [[dimension]] $m \leq n$. An **$(X,\xi)$-structure** on $N$ consists of the following data
+
+* A [[continuous function]] $f : N \to X$;
+
+* An [[isomorphism]] of [[vector bundle]]s
+
+  $$
+    T N \oplus \mathbb{R}^{n-m} \simeq f^* \xi
+  $$
+
+  between the [[fiber]]wise [[direct sum]] of the [[tangent bundle]] $T N$ with the trivial rank $(n-m)$ budle and the [[pullback]] of $\xi$ along $f$. 
+
+=--
+
+This is ([Lurie, notation 2.4.16](#Lurie)).
+
++-- {: .un_def }
+###### Definition
+
+Let $X$ be a [[topological space]] and $\xi \to X$ an $n$-[[dimensional]] [[vector bundle]]. The [[(∞,n)-category]] $Bord_n^(X, \xi)$ is defined analogously to $Bord_n$ but woth all manifolds equipped with $(X,\xi)$-structure.
+
+=--
+
+This is ([Lurie, def. 2.4.17](#Lurie)).
+
++-- {: .un_theorem #CobHypTheoremForTargetSpaceAndVectorBundle}
+###### Theorem
+
+Let $C$ be a [[symmetric monoidal (∞,n)-category]] with duals, let $X$ be a [[CW-complex]], let $\xi \to X$ be an $n$-[[dimensional]] [[vector bundle]] over $X$ equipped with an inner product, and let $\tilde X \to X$ be the [[associated bundle|associated]] [[orthogonal group|O(n)]]-[[principal bundle]] of orthonormal [[frame]]s in $\xi$. 
+
+There is an [[equivalence in an (∞,1)-category|equivalence]] in [[∞Grpd]]
+
+$$
+  Fun^\otimes(Bord_n^{(X,\xi)}, C)
+  \simeq
+  Top_{O(n)}(\tilde X, \tilde C)
+  \,,
+$$ 
+
+where on the right we regard $C^{\tilde}$ as a [[topological space]] carrying the canonical $O(n)$-[[action]] discussed [above](spring).
+
+=--
+
+This is ([Lurie, theorem. 2.4.18](#Lurie)).
+
+
+### For framed cobordisms in a manifold 
+  {#StatementForCobordismsInAManifold}
+
+Let now $\xi = \mathbb{R}^n \otimes X$ be the trivial vector bundle, such thatz $\tilde X = O(n) \times X$.  Write
+
+$$
+  Bord_n^{fr}(X) := Bord_n^{(X,X \times \mathbb{R}^n)}
+  \,.
+$$
+
+Write $\Pi(X) \in $ [[∞Grpd]] for the [[fundamental ∞-groupoid]] of $X$.
+
++-- {: .un_prop }
+###### Corollary
+
+There is an [[equivalence in an (∞,1)-category|equivalence]] in [[∞Grpd]]
+
+$$
+  Fun^\otimes(Bord^{fr}_n(X), C)
+  \simeq
+  (\infty,n)Cat(\Pi(X), \tilde C)
+  \simeq
+   \infty Grpd(\Pi(X), Core(\tilde C))
+  \,,
+$$ 
+
+=--
+
+This is a special case of the [above theorem](#CobHypTheoremForTargetSpaceAndVectorBundle).
+
+Notice that one can read this as saying that $Cob_n(X)$ is roughly like the [[free functor|free]] [[symmetric monoidal (∞,n)-category]] on the [[fundamental ∞-groupoid]] of $X$ (relative to $\infty$-categories of fully dualizable objects at least).
 
 ## Implication: morphisms of TQFTs ##
 
@@ -149,9 +228,10 @@ The original hypothesis is in
 
 *  [[John Baez]], [[James Dolan]], _Higher dimensional algebra and Topological Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/q-alg/9503002))
 
-The sketch of the proof is in 
+The proof is described in 
 
-* [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+{#Lurie}
 
 Parts of the above text have been taken from blog discussion [here](http://sbseminar.wordpress.com/2009/09/24/a-hunka-hunka-burnin-knot-homology).
 
