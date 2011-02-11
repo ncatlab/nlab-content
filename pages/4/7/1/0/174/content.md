@@ -163,3 +163,6 @@ More along these lines is in
 See also [[division algebras and supersymmetry]].
 
 [[!redirects branes]]
+
+[[!redirects fundamental brane]]
+[[!redirects fundamental branes]]
