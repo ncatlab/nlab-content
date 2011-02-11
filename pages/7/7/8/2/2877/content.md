@@ -14,13 +14,13 @@ The liftings can be defined more generally in nonaffine situations leading to th
 
 The Galois condition can then be defined locally on some compatible cover. A generalized version of the Schneider's descent theorem hold in this generality. 
 
-As a particular case, this allows the $H$-comodule algebras which are not Hopf-Galois extension of their coinvariants but became so when localizing on some affine biflat coaction compatible cover by affine biflat localizations (see [[zoranskoda:gluing categories from localizations|here]]). In other words the localized algebras are Hopf-Galois extensions (for example [[crossed product algebra]]s) of the [[localized coinvariant]]s as in 
+As a particular case, this allows the $H$-comodule algebras which are not Hopf-Galois extension of their coinvariants, but became so when localizing on some affine coaction compatible cover by affine "biflat" localizations (see [[zoranskoda:gluing categories from localizations|here]]). In other words the localized algebras are Hopf-Galois extensions (for example [[crossed product algebra]]s) of the [[localized coinvariant]]s as in 
 
 * [[Z. Škoda]], _Localizations for construction of quantum coset spaces_, [math.QA/0301090](http://front.math.ucdavis.edu/math.QA/0301090),  Banach Center Publ. __61__, pp. 265--298, Warszawa 2003; 
 
 * Z. &#352;koda, _Coherent states for Hopf algebras_, Letters in Mathematical Physics __81__, N.1, pp. 1-17, July 2007. (earlier arXiv version: [math.QA/0303357](http://arxiv.org/abs/math.QA/0303357)).
  
-A principal bundle is called locally trivial if there is a cover on which the Hopf-Galois extensions are in fact [[crossed product algebra|Hopf smash products]]. In the commutative case with affine algebraic group as a structure group, this is the same as the local triviality in [[fpqc topology]]. 
+A principal bundle is called __locally trivial__ if there is a cover on which the Hopf-Galois extensions are in fact [[crossed product algebra|Hopf smash products]]. In the commutative case, and with affine algebraic group as a structure group, this is the same as the local triviality in [[fpqc topology]]. 
 
 Another point of view to generalized Galois conditions in noncommutative algebraic geometry based on spaces represented by monoidal categories can be found in 
 
