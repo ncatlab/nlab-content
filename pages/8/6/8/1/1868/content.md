@@ -1,5 +1,19 @@
 
-# Idea #
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
 
 A _twisted principal-bundle_ is the object classified by a cocycle in [[twisted cohomology]] the way an ordinary [[principal bundle]] is the object classified by a cocycle in plain [[cohomology]] (generally in [[nonabelian cohomology]]).
 
@@ -26,7 +40,7 @@ $$
 
 the general nonsense of [[twisted cohomology]] induces a notion of _twisted_ $\hat G$-cohomology. The fibrations classified by this are the twisted $\hat G$-bundles.
 
-# Definition #
+## Definition 
 
 For every $\mathbf{B}^2 A$-[[cohomology|cocycle]] $c \in \mathbf{H}(X,\mathbf{B}^2 A)$ the $c$-twisted $\hat G$-cohomology $\mathbf{H}^c(X,\mathbf{G} \hat G)$ is the [[homotopy pullback]]
 
@@ -50,7 +64,7 @@ $$
 The cocycles in $\mathbf{H}^c(X,\mathbf{B}\hat G)$ are called the (representatives of) $c$-twisted $\hat G$-[[principal bundle]]s.
 
 
-#Details#
+## Details
 
 One may unwrap this abstract definition to obtain a concrete cocycle formula for twisted bundles.
 
@@ -137,6 +151,7 @@ $$
 $$
 
 As already indicated by the notation, the further projection
+
 $$
   C(U) \stackrel{\hat g_{tw}}{\to} 
   \mathbf{B}(A \to \hat G)
@@ -160,9 +175,9 @@ In this cocycle equation form twisted bundles traditionally appear in the litera
 
 
 
-# Examples #
+## Examples 
 
-## twisted K-theory ##
+### Twisted K-theory 
 
 Just as [[vector bundle]]s model cocycles in [[K-theory]], twisted vector bundles model cocycles in [[twisted K-theory]].
 
