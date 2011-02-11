@@ -1,48 +1,149 @@
-<div class="rightHandSide toc">
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and Cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+#### Functorial Quantum Field Theory
++--{: .hide}
 [[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
 
-</div>
+#Contents#
+* table of contents
+{:toc}
 
-
-#Idea#
+## Idea 
 
 The notion of cobordism category is an abstract one intended to capture important features of (many variants of) the [[category]] of [[cobordism]]s and include in the same formalism cobordisms for closed manifolds with various kinds of structure. 
 
-#Motivation#
 
 The passage from a [[manifold]] $M$ to its [[boundary]] $\partial M$ has some formal properties which are preserved in the presence of [[orientation]], for manifolds with additional structure and so on. The category of [[compact space|compact]] smooth manifolds with boundary $D = Diff_c$ has finite [[coproducts]] and the boundary operator $\partial:D\to D$, $M\mapsto \partial M$ is an endofunctor commuting with coproducts. (Often these coproducts are referred to as [[direct sums]], and some say that $\partial$ is an [[additive functor]], but $D$ is not actually an [[additive category]]). The inclusions $i_M:\partial M\to M$ form a [[natural transformation]] of functors $i:\partial\to Id$. Finally, the isomorphism classes of objects in $D$ form a set, so $D$ is [[essentially small category|essentially small]] (svelte).
 
 
-#Definition#
+## Definition
 
-A __cobordism category__ is a triple $(D,\partial,i)$ where $D$ is a [[svelte category]] with finite coproducts (called direct sums, often denoted by $+$), including an [[initial object]] $0$ (also often denoted by $\emptyset$), $\partial:D\to D$ is an additive (direct-sum-preserving) functor and $i:\partial\to Id_D$ is a natural transformation such that $\partial\partial M = 0$ for all objects $M\in D$.
+### Axiomatization
+
++-- {: .un_def }
+###### Definition
+
+A __cobordism category__ is a triple $(D,\partial,i)$ where 
+
+* $D$ is a [[svelte category]] 
+
+  * with finite [[coproduct]]s (called [[direct sum]]s, often denoted by $+$), 
+
+  * including an [[initial object]] $0$ (also often denoted by $\emptyset$), 
+
+* $\partial:D\to D$ is an additive (direct-sum-preserving) [[functor]] 
+
+* and $i:\partial\to Id_D$ is a [[natural transformation]] such that $\partial\partial M = 0$ for all [[object]]s $M\in D$.
+
+=--
 
 Note that $i$ is *not* required to be a *[[subfunctor]]* of the identity, i.e. the components $i_M$ are not required to be [[monomorphism|monic]], which is however often the case in examples.
 
-Two objects $M$ and $N$ in a cobordism category $(D,\partial,i)$ are said to be __cobordant__, written $M\sim_{cob} N$, if there are objects $U,V\in D$ such that $M+\partial U \cong N+\partial V$ where $\cong$ denotes the relation of being [[isomorphism|isomorphic]] in $D$. In particular, isomorphic objects are cobordant. Being cobordant is an [[equivalence relation]] and for any object $M$ in $D$, one has $\partial M\sim_{cob} 0$. Objects of the form $\partial M$ where $M$ is an object in $D$ are said to be *boundaries* and the objects $V$ such that $\partial V = 0$ are said to be *closed*. In particular, every boundary is closed. A direct sum of closed objects (resp. boundaries) is a closed object (resp. a boundary). If an object $M$ is a boundary and $M\cong N$ then $N$ is also a boundary. To summarize, the relation of being cobordant is compatible with the direct sum, in the sense that the direct sum induces an associative commutative operation on the set of equivalence classes, which hence becomes a commutative [[monoid]] $\Omega(D,\partial,i)$, which is called the __cobordism semigroup__ (although it is a monoid) of the cobordism category $(D,\partial,i)$. The [[Thom group]] $\mathcal{N}_*$ of cobordism classes of unoriented compact smooth manifolds is an example where $D=Diff_c$.
+
++-- {: .un_def }
+###### Definition
+
+Two objects $M$ and $N$ in a cobordism category $(D,\partial,i)$ are said to be __cobordant__, written $M\sim_{cob} N$, if there are objects $U,V\in D$ such that $M+\partial U \cong N+\partial V$ where $\cong$ denotes the relation of being [[isomorphism|isomorphic]] in $D$. 
+
+=--
+
++-- {: .un_remark }
+###### Remark
+
+In particular, isomorphic objects are cobordant. Being cobordant is an [[equivalence relation]] and for any object $M$ in $D$, one has $\partial M\sim_{cob} 0$. 
+
+=--
 
 
-#Literature#
++-- {: .un_def }
+###### Definition
+
+Objects of the form $\partial M$ where $M$ is an object in $D$ are said to be *boundaries* and the objects $V$ such that $\partial V = 0$ are said to be *closed*. 
+
+=--
+
+
++-- {: .un_remark }
+###### Remark
+
+In particular, every boundary is closed. A direct sum of closed objects (resp. boundaries) is a closed object (resp. a boundary). If an object $M$ is a boundary and $M\cong N$ then $N$ is also a boundary. 
+
+=--
+
+
++-- {: .un_def }
+###### Definition
+
+By the above, the relation of being cobordant is compatible with the direct sum, in the sense that the direct sum induces an associative commutative operation on the set of equivalence classes, which hence becomes a commutative [[monoid]] called the __cobordism semigroup__ 
+
+$$
+  \Omega(D,\partial,i)
+  \,,
+$$ 
+
+of the cobordism category $(D,\partial,i)$. 
+
+
+=--
+
+
+
+## Properties
+
+
+### The homotopy type of the cobordism category
+ {#GMTWTheorem}
+
+
+* topological case: ([GalatiusTillmannMadsenWeiss](#GMWT))
+
+* geometric case: ([Ayala](#Ayala))
+
+The [[Thom group]] $\mathcal{N}_*$ of cobordism classes of unoriented compact smooth manifolds is the cobordism semigroup for $D=Diff_c$.
+
+
+## References
+
+A classical reference is
 
 * Robert E. Stong, _Notes on cobordism theory_, Princeton University Press 1968 (Russian transl., Mir 1973)
 
-#Related $n$Lab entries#
+The [GMTW theorem](#GMTWTheorem) about the [[homotopy type]] of the cobordisms category with topological structures on the cobordisms appears in 
 
-Compare also some other nlab entries on cobordism theory: 
+* [[Soren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]], and [[Michael Weiss]], _The homotopy type of the cobordism category_ ([arXiv](http://arxiv.org/abs/math/0605249))
+{#GMWT}
+
+A generalization to geometric structure on the cobordisms is discussed in
+
+* [[David Ayala]], _Geometric cobordism categories_ ([pdf](http://www.math.ku.dk/~ayala/geombord.pdf))
+{#Ayala}
+
+## Related concepts
 
 
-* [[cobordism]]
+* [[cobordism]], [[extended cobordism]]
 
-  * [[extended cobordism]]
+* **category of cobordisms**
+
+  * [[cobordism ring]]
+
+  * [[Thom spectrum]]
 
   * [[(∞,n)-category of cobordisms]]
 
 * [[cobordism hypothesis]]
 
-  * [[generalized tangle hypothesis]]
 
+[[!redirects category of cobordisms]]
 
-* [[cospan]]
-
-  * [[Cospans in Algebraic Topology]]
+[[!redirects Galatius-Madsen-Tillmann-Weiss theorem]]
+[[!redirects Galatius-Tillmann-Madsen-Weiss theorem]]
+[[!redirects GMWT theorem]]
