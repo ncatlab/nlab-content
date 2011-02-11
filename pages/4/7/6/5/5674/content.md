@@ -1,13 +1,18 @@
 
+# Noncommutative vector bundles
+* table of contents
+{: toc}
+
 ## Scope 
 
 There are at least 3 groups of ideas to define noncommutative vector bundles
 
-* taking Serre-Swan theorem as a definition in the noncommutative case; i.e. a finite-dimensional bundle is simply a projective module over the algebra of functions. Of course, in the algebraic case, this is satisfactory at best for the affine case, when possibly some Noetherianess assumptions are needed, even in the commutative case. Not good for e.g. for (nonaffine) [[noncommutative scheme]]s.  
+* taking Serre--Swan theorem as a definition in the noncommutative case; i.e. a finite-dimensional bundle is simply a projective module over the algebra of functions. Of course, in the algebraic case, this is satisfactory at best for the affine case, when possibly some Noetherianess assumptions are needed, even in the commutative case. Not good for e.g. for (nonaffine) [[noncommutative scheme]]s.  
 
 * as a locally free sheaf of vector spaces; this requires some notion of topology or covers on the noncommutative base space. There are candidates of noncommutative topologies, cf. [[descent in noncommutative algebraic geometry]]. Problem: In commutative case, SGA gives a construction which as an input takes a quasicoherent module and as an output its "underlying space". There is no satisfactory construction of this form in noncommutative algebraic geometry, so the locally free sheaves do not have naturally defined total space in the category of noncommutative spaces. 
 
 * as an associated bundle to some sort of [[noncommutative principal bundle]]s, typically with a Hopf algebra in the place of a structure group. Typically, the associated bundle is defined as a dual to some cotensor product locally, and in the affine case this is pretty standard. This has a problem as the locally free sheaf: if one wants to make a total space a space, one does a cotensor product with an algebra of functions on the space, not with a vector space itself, as the latter will just give the global sections or sheaf of sections at best. In fact one wants consistently both: to get the global sections locally as a cotensor product and to get the bundle of noncommutative spaces from a cotensor product at algebra level. The sections (in some category of noncommutative space) of the inclusion of algebras should reproduce the space of global sections, but good theorems of that kind are not known. See [[noncommutative associated bundle]].
+
 
 ## References
 
@@ -32,4 +37,11 @@ The following article is working with local triviality in the sense of ideals in
 
 * Piotr M. Hajac, Rainer Matthes, Wojciech Szymanski, _A locally trivial quantum Hopf fibration_, Algebr. Represent. Theory __9__ (2006), no. 2, 121&#8211;146. 
 
-[[!redirects quantum vector bundle]][[!redirects quantum vector bundles]][[!redirects noncommutative vector bundles]]
+
+[[!redirects noncommutative vector bundle]]
+[[!redirects noncommutative vector bundles]]
+[[!redirects non-commutative vector bundle]]
+[[!redirects non-commutative vector bundles]]
+
+[[!redirects quantum vector bundle]]
+[[!redirects quantum vector bundles]]
