@@ -120,12 +120,11 @@ The original development of the theory by [[Grothendieck]]  is in [[SGA1]].
 
 A more recent treatment can be found in
 
-* [[Eduardo Dubuc]] and C. S. de la Vega _On the Galois theory on Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv](http://arxiv.org/abs/math.CT/0009145)
+* [[Eduardo Dubuc]], C. S. de la Vega, _On the Galois theory on Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv:math.CT/0009145](http://arxiv.org/abs/math.CT/0009145)
 
 Basic intuition is explained in 
 
 * Pierre Cartier, _A mad day's work: from Grothendieck to Connes and Kontsevich The evolution of concepts of space and symmetry_, Bull. Amer. Math. Soc. __38__ (2001), 389-408, [pdf](http://www.ams.org/bull/2001-38-04/S0273-0979-01-00913-2/S0273-0979-01-00913-2.pdf)
-
 
 The construction for general [[topos]]es is described in section 8.4 of
 
@@ -133,8 +132,7 @@ The construction for general [[topos]]es is described in section 8.4 of
 
 and, a current state of the art decription is in 
 
-* [[Marta Bunge]], _Galois groupoids and covering morphisms in topos theory_,  Galois theory, Hopf algebras, and semiabelian categories,  131--161, Fields Inst. Commun., 43, Amer. Math. Soc., Providence, RI, 2004, [links](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.7071).
-
+* [[Marta Bunge]], _Galois groupoids and covering morphisms in topos theory_,  Galois theory, Hopf algebras, and semiabelian categories,  131--161, Fields Inst. Commun. __43__, Amer. Math. Soc., Providence, RI, 2004, [links](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.7071).
 
 A modern approach from classical via Grothendieck up to [[categorical Galois theory]] based on precategories and adjunctions is in 
 
@@ -142,8 +140,7 @@ A modern approach from classical via Grothendieck up to [[categorical Galois the
 
 The application of a general Tannakian theorem of Saavaedra Rivano, as corrected by Deligne, to the "differential Galois theory" for differential instead of algebraic equation is in the last chapter of Deligne's [[Catégories Tannakiennes]].
 
-* [[George Janelidze]], Dietmar Schumacher, [[Ross Street]], _Galois theory in variable categories_   Applied Categorical Structures
-Volume 1, Number 1, 103-110, DOI:
+* [[George Janelidze]], Dietmar Schumacher, [[Ross Street]], _Galois theory in variable categories_, Applied Categorical Structures __1__, Number 1, 103-110, DOI:
 
 [[!redirects Grothendieck Galois theory]]
 [[!redirects Grothendieck's Galois theory]]
