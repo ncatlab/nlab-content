@@ -1,0 +1,12 @@
+
+* [website](http://math.stanford.edu/~galatius/)
+
+## related entries
+
+* [[Galatius-Madsen-Tillmann-Weiss theorem]]
+
+* [[cobordism hypothesis]]
+
+category: people
+
+[[!redirects Soren Galatius]]
