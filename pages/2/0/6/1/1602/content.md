@@ -153,13 +153,90 @@ $$
 
 ### ... and with magnetic charge.
 
-We now consider one more additional term in the [[action functional]], one that desribes moreovr the interaction of our [[gauge field]] with a distribution of $n$-[[magnetic charge]] on $X$, in addition to the interaction with the distribution of [[electric charge]] described 
+We now consider one more additional term in the [[action functional]], one that desribes moreover the interaction of our [[gauge field]] with a distribution of $n$-[[magnetic charge]] on $X$, in addition to the interaction with the distribution of [[electric charge]] described 
 [above](#WithElectricCharge).
 
-The [[magnetic charge]] distribution itself is also modeled as a  [[cocycle]] $\hat j_B$ in [[ordiary differential cohomology]]. As opposed to the [[electric charge]] it is however not part of the dynamics but of the kinemtics of the system: it does not manifestly show up in the integral expression for the [[action functional]], but does modify the nature of the configuration space that this action functional is defined on.
+The [[magnetic charge]] distribution itself is also modeled as a  [[cocycle]] $\hat j_B$ in [[ordinary differential cohomology]]. As opposed to the [[electric charge]] it is however not part of the dynamics but of the kinemtics of the system: it does not manifestly show up in the integral expression for the [[action functional]], but does modify the nature of the configuration space that this action functional is defined on.
 
-In order to formalize this we have to refine the formalization of the structure of the configuration space. So far we had regarded the [[set]] $H^{dim X - n}_{diff}(X) \times H_{diff}^n(X)$ of gauge equivalence classes of 
+Namely the kinematic higher [[Maxwell equations]] is a condition of the form
 
+$$
+  d F_\nabla = j_B
+  \,,
+$$
+
+where $j_B$ is the [[magnetic charge]] distribution. If $F_\nabla$ is the [[curvature]] of a [[circle n-bundle with connection]], then necessarily $d F_\nabla = 0$. Therefore the system of higher electromagnetism in the presence of magnetic charge cannot be modeled any more by [[cocycle]]s in [[ordinary differential cohomology]].
+
+One fines that instead, more one has to model $\nabla$ not as a [[circle n-bundle with connection]], but as an $n$-[[twisted bundle]] with connection, where the [[twisted cohomology|twisgt]] is $\hat j_B$. 
+
+We shall write $C^{n+1}_{diff}(X)_{\hat j_B}$ for the [[∞-groupoid]] of twisted cocycles for this fixed twist. The crucial point is now the following:
+
+the [above](#WithElectricCharge) expression 
+
+$$
+  \exp(i S_{el}(\nabla, \hat j_E)) 
+    :
+    \exp(2 \pi i \int_X \hat j_E \cdot \nabla)
+$$
+
+for the electric coupling can still be given sense, even with $\nabla \in C^{n+1}_{diff}(X)_{\hat j_B}$, but it no longer has the interpretation of a [[circle group]]-valued [[function]]. Rather, it has now the interpretation of a [[section]] of a [[line bundle]] 
+
+$$
+  \array{
+    && Anom
+    \\
+     {}^{\mathllap{\exp(S_{el})}}\nearrow & \downarrow
+    \\
+    Conf &=& Conf
+  }
+$$
+
+on cofiguration space. The [[characteristic class]] of this line bundle -- its  [[Chern class]] -- is hence the _magnetic anomaly_ in higher gauge theory.
+
+In the next section we formalize properly the notion of this line bundle on configuration space.
+
+### The anomaly line bundle
+
+In order to formalize this we have to refine the formalization of the structure of the configuration space. So far we had regarded the [[set]] $H^{dim X - n}_{diff}(X) \times H_{diff}^{n+1}(X)$ of gauge equivalence classes of field configurations. This is the set of connected components of the full [[cocycle]] [[∞-groupoid]]
+
+$$
+  C^{dim X - n}_{diff}(X) \times C_{diff}^{n+1}(X)
+  \in
+  \infty Grpd
+$$
+
+whose
+
+* [[object]]s are field configurations on $X$;
+
+* [[morphism]]s are [[gauge transformation]]s;
+
+* [[2-morphism]]s are gauge transformations of gauge transformation, 
+
+* and so on.
+
+Moreover this cocycle [[∞-groupoid]] is not just a [[discrete ∞-groupoid]] but it naturally has _smooth structure_ : it is naturally a [[smooth ∞-groupoid]]: an [[∞-stack]] over the [[category]] [[SmoothMfd]]. We shall write
+
+$$
+  Conf :=
+  [X,(\mathbf{B}^{n}U(1) \times \mathbf{B}^{dim X - n-1}U(1))_{conn}]
+  \in 
+  Smooth∞Grpd
+$$
+
+for this smooth $\infty$-groupoid of configuration of the physical system -- defined as the [[internal hom]] in terms of the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-topos#ClosedMonoidalStructure">closed monoidal structure on the (∞,1)-topos</a> [[Smooth∞Grpd]] of $X \in SmoothMfd \hookrightarrow Smooth∞Grpd$ into the target object of the higher [[gauge theory]], (this object is discussed in detail <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#StrucDifferentialCohomology">here</a>; it is presented under the [[Dold-Kan correspondence]] by the [[Deligne complex]] of sheaves on [[CartSp]]).
+
+This smooth structure is characterized by saying that for any $U \in$ [[SmoothMfd]] the $U$-parameterized smooth families of field configurations, gauge transformations, etc. form the [[∞-groupoid]] 
+
+$$
+  Conf(U) 
+   \simeq 
+  C^{dim X - n}_{diff}(U \times X) \times C_{diff}^{n+1}(U \times X )
+$$
+
+of gauge fields on the [[product]] of [[spacetime]] $X$ with the parameter space $U$. (See for instance [[Lie integeration]] and [[connection on an ∞-bundle]] for details on how differential forms on $U \times X$ encode $U$-families of forms on $X$).
+
+ 
 
 (...)
 
@@ -180,9 +257,9 @@ A clear and precise account of what anomalies are and what the Green-Schwarz mec
 
 [[!redirects Green Schwarz mechanism]]
 [[!redirects Green-Schwarz mechanism]]
-[[!redirects Green–Schwarz mechanism]]
+[[!redirects Green?Schwarz mechanism]]
 [[!redirects Green--Schwarz mechanism]]
 [[!redirects Green Schwartz mechanism]]
 [[!redirects Green-Schwartz mechanism]]
-[[!redirects Green–Schwartz mechanism]]
+[[!redirects Green?Schwartz mechanism]]
 [[!redirects Green--Schwartz mechanism]]
