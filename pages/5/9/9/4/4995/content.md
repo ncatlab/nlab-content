@@ -82,7 +82,7 @@ $X$ in a cohesive $(\infty,1)$-topos $\mathbf{H}$
 if the morphism
 
 $$
-  \Gamma X \to \Gamma Disc \Pi X \simeq \pi_0 \Pi X
+  \Gamma X \to \Gamma Disc \Pi X \simeq \Pi X
 $$ 
 
 is an [[effective epimorphism in an (∞,1)-category]], equivalently (as discussed there) such that this is an [[epimorphism]] on [[connected]] components.
@@ -97,7 +97,7 @@ $(Disc \dashv \Gamma)$-[[unit of an adjunction|unit]] and the second is an inver
 ###### Definition
 
 We say **discrete objects are concrete** in $\mathbf{H}$ if for all
-$S \in [[∞Grpd]]$ the morphism
+$S \in $[[∞Grpd]] the morphism
 
 $$
   Disc S \to coDisc \Gamma Disc S \stackrel{\simeq}{\to} coDisc S
@@ -2016,13 +2016,13 @@ since the pullback of an equivalence is an equivalence.
 +-- {: .un_prop}
 ###### Proposition
 
-If in a cohesive $\mathbf{H}$  _[pieces have points](#PiecesHavePoints)_ for $X \in \mathbf{H}$, precisely if $\mathbf{\Pi}_{dR} X $ is
+In a cohesive $\mathbf{H}$  _[pieces have points](#PiecesHavePoints)_ precisely if for all $X \in \mathbf{H}$, the de Rham coefficient object $\mathbf{\Pi}_{dR} X $ is
 _globally [[connected]]_ in that $\pi_0 \mathbf{H}(*, \mathbf{\Pi}_{dR}X) = *$.
 
 If $X$ has at least one point ($\pi_0(\Gamma X) \neq \emptyset $) 
 and is geometrically connected ($\pi_0 (\Pi X) = {*}$) then 
 $\mathbf{\Pi}_{\mathrm{dR}}(X)$ is also locally connected: 
-$\tau_0 \mathbf{\Pi}_{\mathrm{dR}} \simeq {*} \in \mathbf{H}$.
+$\tau_0 \mathbf{\Pi}_{\mathrm{dR}}X \simeq {*} \in \mathbf{H}$.
 
 =--
 
@@ -2038,22 +2038,21 @@ $$
     \Gamma \mathbf{\Pi}_{dR} X
     \\  
     & \simeq
-    * \coprod_{\Gamma X} \mathbf{\Gamma \mathbf{\Pi}X}  
+    * \coprod_{\Gamma X} \Gamma \mathbf{\Pi}X  
     \\
     & \simeq
-    * \coprod_{\Gamma X} \mathbf{\Pi X}  
+    * \coprod_{\Gamma X} \Pi X  
   \end{aligned}
   \,,
 $$
 
 where in the last step we used that $Disc$ is a [[full and faithful (∞,1)-functor|full and faithful]], so that there is an equivalence $\Gamma \mathbf{\Pi}X := \Gamma Disc \Pi X \simeq \Pi X$.
 
-To analyse this $(\infty,1)$-pushout we present it by a 
-[[homotopy pushout] in 
+To analyse this [[(∞,1)-colimit|(∞,1)pushout]] 
+we present it by a  [[homotopy pushout]] in 
 the standard [[model structure on simplicial sets]] $\mathrm{sSet}_{\mathrm{Quillen}}$. 
-Denoting by $\Gamma X$ and $\Pi X$ any represetatives in $\mathrm{sSet}_{\mathrm{Quillen}}$ of the objects of the same name in 
-$\infty \mathrm{Grpd}$, this may be computed by the ordinary pushout 
-of simplicial sets
+Denoting by $\Gamma X$ and $\Pi X$ any representatives in $\mathrm{sSet}_{\mathrm{Quillen}}$ of the objects of the same name in 
+$\infty \mathrm{Grpd}$, this may be computed by the ordinary [[pushout]] in [[sSet]]
 
 $$
   \array{
@@ -2099,7 +2098,7 @@ $U \to * \to X$ of which there is by assumption at least one, this is the case.
 +-- {: .un_remark}
 ###### Remark
 
-In summary this means that in a cohesive $(\infty,1)$-topos the objects $\mathbf{\Pi}_{dR} X$ have the abstract properties of [[de Rham schematic homotopy type|pointed geometric de Rham homotopy types]]s.
+In summary this means that in a cohesive $(\infty,1)$-topos the objects $\mathbf{\Pi}_{dR} X$ have the abstract properties of [[de Rham schematic homotopy type|pointed geometric de Rham homotopy types]].
 
 In the [Examples](#Examples) we will see that, indeed, the intrinsic de Rham cohomology $H_{dR}(X, A) {:=} \pi_0 \mathbf{H}(\mathbf{\Pi}_{dR} X, A)$ reproduces ordinary de Rham cohomology in degree $d\gt 1$.
 
