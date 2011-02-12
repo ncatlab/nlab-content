@@ -220,7 +220,7 @@ By general properties of [[local topos]]es. See there.
 +-- {: .un_lemma}
 ###### Observation
 
-The category $Set$ is equivalent to the full [[subcategory]] of $\mathcal{E}$ on those objects $X \in \mathcal{E}$ for which the $(\Gamma \dashv coDisc)$ [[unit of an adjunction|unt]]
+The category $Set$ is equivalent to the full [[subcategory]] of $\mathcal{E}$ on those objects $X \in \mathcal{E}$ for which the $(\Gamma \dashv coDisc)$ [[unit of an adjunction|unit]]
 
 $$
   X \to coDisc \Gamma X
