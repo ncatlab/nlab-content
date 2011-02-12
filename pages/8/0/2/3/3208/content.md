@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -48,6 +47,8 @@ Interestingly, one form of logic which made an early appearance but is not ordin
 Here is a list of examples of theories that have their own $n$Lab entries:
 
 * [[essentially algebraic theory]]
+
+* [[generalized algebraic theory]]
 
 * [[algebraic theory]]
 
