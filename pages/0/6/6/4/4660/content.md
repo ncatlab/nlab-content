@@ -132,11 +132,9 @@ $$
 
 
 
-This is definition 1.1 in 
+This is definition 1.1 in ([Brylinski](#Brylinski))
 
-* [[Jean-Luc Brylinski]], _Differentiable cohomology of gauge groups_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf)).
-
-As discussed there, this is equivalent to other definitions, notably to a definition given earlier by Segal. 
+As discussed there, this is equivalent to other definitions, notably to a definition given earlier by [[Graeme Segal]]. 
 
 There is an evident morphism
 
@@ -270,7 +268,7 @@ For $\mathfrak{g}$ a [[semisimple Lie algebra]],$G$ its simply connected Lie gro
 
 ## References
 
-The definition of the refined Lie group cohomology in terms of sheaves on simplicial spaces was given by Segal and later rediscovered in
+The definition of the refined Lie group cohomology in terms of sheaves on simplicial spaces was given by [[Graeme Segal]] and later rediscovered in
 
 * [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
 {#Brylinski}
