@@ -41,7 +41,7 @@ This appears below [[Higher Topos Theory|HTT, cor. 6.2.3.5]] for $C$ a [[(∞,1)
 +-- {: .un_prop}
 ###### Proposition
 
-For $C$ an [[(∞,1)-semitopos]]  we have that $f : X \to Y$ is an evvective epimorphism precisely if its (-1)-[[truncated|truncation]] is a [[terminal object in an (∞,1)-category|terminal object]] in the [[over-(∞,1)-category]] $C/X$.
+For $C$ an [[(∞,1)-semitopos]]  we have that $f : X \to Y$ is an effective epimorphism precisely if its (-1)-[[truncated|truncation]] is a [[terminal object in an (∞,1)-category|terminal object]] in the [[over-(∞,1)-category]] $C/X$.
 
 =--
 
