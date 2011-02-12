@@ -52,15 +52,11 @@ $$
   \,.
 $$
 
-Further discussion for the moment at
-
-* [Charges and Twisted Bundles, IV: Anomaly Cancellation](http://golem.ph.utexas.edu/category/2008/04/charges_and_twisted_bundles_iv.html)
-
 
 ## The higher magnetic charge anomaly
 
 
-### The higher abelian Yang-Mills action functional 
+### The higher abelian Yang-Mills action functional...
   {#YMactionfunctional}
 
 Consider on some [[spacetime]] $X$ a [[gauge field]] $[\nabla] \in H_{diff}^{n+1}(X)$ modeled in [[ordinary differential cohomology]] in degree $n+1$: a [[circle n-bundle with connection]]. For instance
@@ -183,17 +179,18 @@ for the electric coupling can still be given sense, even with $\nabla \in C^{n+1
 
 $$
   \array{
-    && Anom
+    && Anom_{\hat j_B}
     \\
-     {}^{\mathllap{\exp(S_{el})}}\nearrow & \downarrow
+     & {}^{\mathllap{\exp(S_{el})}}\nearrow & \downarrow
     \\
     Conf &=& Conf
   }
 $$
 
-on cofiguration space. The [[characteristic class]] of this line bundle -- its  [[Chern class]] -- is hence the _magnetic anomaly_ in higher gauge theory.
+on configuration space. The [[characteristic class]] of this line bundle -- its  [[Chern class]] -- is hence the _magnetic anomaly_ in higher gauge theory.
 
 In the next section we formalize properly the notion of this line bundle on configuration space.
+
 
 ### The anomaly line bundle
 
@@ -221,10 +218,10 @@ $$
   Conf :=
   [X,(\mathbf{B}^{n}U(1) \times \mathbf{B}^{dim X - n-1}U(1))_{conn}]
   \in 
-  Smooth∞Grpd
+  Smooth\infty Grpd
 $$
 
-for this smooth $\infty$-groupoid of configuration of the physical system -- defined as the [[internal hom]] in terms of the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-topos#ClosedMonoidalStructure">closed monoidal structure on the (∞,1)-topos</a> [[Smooth∞Grpd]] of $X \in SmoothMfd \hookrightarrow Smooth∞Grpd$ into the target object of the higher [[gauge theory]], (this object is discussed in detail <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#StrucDifferentialCohomology">here</a>; it is presented under the [[Dold-Kan correspondence]] by the [[Deligne complex]] of sheaves on [[CartSp]]).
+for this smooth $\infty$-groupoid of configuration of the physical system -- defined as the [[internal hom]] in terms of the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-topos#ClosedMonoidalStructure">closed monoidal structure on the (∞,1)-topos</a> [[Smooth∞Grpd]] of $X \in SmoothMfd \hookrightarrow Smooth\infty Grpd$ into the target object of the higher [[gauge theory]], (this object is discussed in detail <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#StrucDifferentialCohomology">here</a>; it is presented under the [[Dold-Kan correspondence]] by the [[Deligne complex]] of sheaves on [[CartSp]]).
 
 This smooth structure is characterized by saying that for any $U \in$ [[SmoothMfd]] the $U$-parameterized smooth families of field configurations, gauge transformations, etc. form the [[∞-groupoid]] 
 
@@ -234,12 +231,203 @@ $$
   C^{dim X - n}_{diff}(U \times X) \times C_{diff}^{n+1}(U \times X )
 $$
 
-of gauge fields on the [[product]] of [[spacetime]] $X$ with the parameter space $U$. (See for instance [[Lie integeration]] and [[connection on an ∞-bundle]] for details on how differential forms on $U \times X$ encode $U$-families of forms on $X$).
+of gauge fields on the [[product]] of [[spacetime]] $X$ with the parameter space $U$. (See for instance [[Lie integration]] and [[connection on an ∞-bundle]] for details on how differential forms on $U \times X$ encode $U$-families of forms on $X$).
 
- 
+This way the configuration space of higher electromagnetism in the presence of electric and magnetic charge is naturally incarnated as an object in the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]]s, and accordingly all the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Structures">differential geometric structures</a> in cohesive $(\infty,1)$-topos are available. In particular we may speak of [[circle n-bundle with connection|line bundle with connection]] on $Conf$, gevin for instance by morphisms
 
-(...)
+$$
+  Anom_{\hat j_B} : Conf \to \mathbf{B} U(1)_{conn}
+$$
 
+in [[Smooth∞Grpd]].
+
+We say
+
+* the underlying class in [[ordinary cohomology]]
+
+  $$
+    [Anom_{\hat j_B}] \in H^1(Conf, U(1))
+  $$
+
+  is **the anomaly** of the system of higher electromagnetism couple to electic and magnetic charge;
+
+* its [[curvature]] 2-form
+
+  $$
+    Curv_{Anom_{\hat j_B}} : Conf \to \mathbf{\flat}_{dR} \mathbf{B}^2 \mathbb{R}
+  $$
+
+  is the **differential anomaly**.
+
+One finds that this curvature 2-form is given by the [[fiber integration]] of the wedge product of the [[electric charge]] $(n+1)$-form with the [[magnetic charge]] $dim X - n$-form over $X$:
+
+$$
+  Curv_{Anom_{\hat j_B}}
+   =
+   \int_X j_E \wedge j_B
+  \,.
+$$
+
+This means that for every parameter space $U \in $ [[SmoothMfd]] and every morphism $\phi : U \to Conf$ -- which corresponds by the nature of the [[∞-stack]] $Conf$ to a field configuration $(\nabla, \hat j_E) \in C^{n+1}_{diff}(U \times X) \times C^{dim X - n}_{diff}(U \times X)$ -- the pullback of this differential form to $U$ yields the ordinary differential form $\int_X j_E \wedge j_B$ in the image of $(\nabla, \hat j_E)$ under the [[fiber integration]] map
+
+$$
+  \int_X(-) : \Omega^\bullet(U \times X) \to \Omega^\bullet(U)
+  \,.
+$$
+
+
+
+
+### The Green-Schwarz mechanism
+
+We can now state the **Green-Schwarz mechanism** itself. 
+
+Let $\hat Conf \in $ [[Smooth∞Grpd]] be the configuration space of a physical system that contains among its fields higher abelian gauge theory with [[electric charge]] with configuration space $Conf$
+
+$$
+  \hat Conf = Conf_{rest} \times Conf
+$$
+
+and equipped with an [[action functional]]
+
+
+$$
+  \exp(i S_{rest}(-) + i S_{el}(-))
+  : 
+  \hat Conf \to Anom_{rest}
+$$
+
+that is a [[section]] of an anomaly line bundle $Anom_{rest}$
+
+$$
+  \array{
+    && Anom_{rest}
+    \\
+     & {}^{\mathllap{\exp(S_{tot})}}\nearrow & \downarrow
+    \\
+    Conf_{rest} &=& Conf_{rest}
+  }
+$$
+
+such that the [[curvature]] 2-form of $Anom_{tot}$ happens to be of the form
+
+$$
+  Curv{Anom_{ref}} = \int_X I_{n+2} \wedge I_{(dim X - n)}
+  \,,
+$$
+
+for some $I_{n+2} \in \Omega^{n+2}_{cl}(X)$ and 
+$I_{dim X - n} \in \Omega^{dim X - n}(X)$.
+
+
+Then the **Green-Schwarz mechanism** is the map that changes this physical system by adding magnetic charge to it, given by a cocycle 
+$\hat j_B$ with
+
+$$
+  [\hat j_B] = - [Anom_{rest}]
+$$
+
+$$
+  j_B = - I_{dim X - n}
+  \,.
+$$
+
+This means by the above that the new [[action functional]] is now a section 
+
+$$
+  \exp(i S_{rest}(-) + i S_{el}(-))
+  : 
+  Conf_{rest} \times Conf \to Anom_{rest} \otimes Anom_{\hat j_B} 
+$$
+
+of the [[tensor product]] of the two anomaly line bundles. 
+The [[Chern class]] of the tensor product is the sum of the two Chern-classes, hence by definition of $j_B$ they cancel, so that $Anom_{rest} \otimes Anom_{\hat j_B}$ is trivializatable as a line bundle with connection.
+
+A choice of such trivialization identifies the section then with an ordinary function
+
+$$
+  \exp(i S_{rest}(-) + i S_{el}(-))
+  : 
+  Conf_{rest} \times Conf \to U(1) 
+  \,.
+$$
+
+This is the anomaly-free action functional after the Green-Schwarz mechanism has been applied.
+
+## Examples
+
+### Heterotic supergravity
+
+The original work of Green-Schwarz concerned anomaly cancellation in the effective [[supergravity]] theory on a $dim X = 10$-dimensional target [[spacetime]] in [[heterotic string theory]].
+
+The configurations of this theory are given by
+
+* a [[Spin]]-[[principal bundle]] [[connection on a bundle|with connection]] $\hat \omega$ -- the [[spin connection]] 
+  (the [[graviton]]);
+
+* a [[unitary group]]-[[principal bundle]] [[connection on a bundle|with connection]] $\hat A$ (the [[Yang-Mills field]]);
+
+* a [[circle n-bundle with connection|circle 2-bundle with connection]] $\hat B$ -- the [[Kalb-Ramond field]].
+
+* [[section]]s of the [[associated bundle|associated]] [[spinor bundle]]s: the fermions $\psi$ ([[gravitino]], [[gaugino]], [[dilatino]]).
+
+The [[path integral]] over the fermionic part of the action 
+
+$$
+  \exp(i S_{ferm}(-)) : (\omega, A, B, \psi) \mapsto   \exp(i \int_X \bar \psi D_{\omega,A} \psi)
+$$ 
+
+is an anomalous action functional on the configuration space of the remaining bosonic fields $(\hat A, \hat \omega)$, a [[section]] of a [[Pfaffian line bundle]], whose curvature form turns out to be
+
+$$
+  curv_{Pfaff} = \int_X I_4 \wedge I_8
+$$
+
+with 
+
+$$
+  I_4 = \frac{1}{2} p_1(F_\omega) - ch_2(F_A)
+$$
+
+the difference between the (image in [[de Rham cohomology]] of the) first fractional [[Pontryagin class]] of the $Spin$-principal bundle and second [[Chern class]] of the [[unitary group]]-[[principal bundle]]
+
+and
+
+$$
+  I_8 = \frac{1}{48} p_2(F_\omega) - ch_4(F_A) +
+  ...
+$$
+
+where the ellipses indicate decomposable [[curvature characteristic form]]s.
+
+Therefore in this case the Green-Schwarz mechanism consists of 
+
+1. adding to the system _fivebrane [[magnetic charge]]_ $j_B \in \Omega^{2+2}$ given by $I_4$.
+
+   This means that the Kalb-Ramond field $\hat B$ becomes a twisted field whose [[field strength]] $H$ is no longer closed, but satisfies the kinematical [[Maxwell equation]] 
+
+   $$
+     d H = I_4
+     \,.
+   $$
+
+1. adding to the system _string [[electric charge]]_ $j_E \in \Omega^{10 - 2}(X)$ .
+
+   This means that to the [[action functional]] is added the factor
+
+  $$
+    \exp(i \int_X \hat B \cdot \hat I_8 )
+  $$
+
+
+  which is locally on $U \hookrightarrow X$ given in the exponent by the integral
+
+  $$
+    \int_U B_U \wedge I_8
+     \,.
+  $$
+
+The nature of the field configuration obtained this way -- spin connection with twist of th Kalb-Ramond field by the Pontryagin class -- may be understood conciesely as constituting a [[differential string structure|twisted differential string structure]] on $X$. See there for more details.
 
 
 ## References
@@ -248,7 +436,7 @@ A clear and precise account of what anomalies are and what the Green-Schwarz mec
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
 
-
+For the moment, see there for further references.
 
 
 
