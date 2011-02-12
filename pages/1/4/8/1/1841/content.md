@@ -113,7 +113,7 @@ $$
   (A_i, \lambda_{i j})
 $$   
 
-is a [[?ech cohomology|?ech cocycle]] with coefficients in the degree 2 [[Deligne cohomology|Deligne complex]] whose [[differential cohomology|projection to deRham cohomology]] is the given Maxwell 2-form.
+is a [[Čech cohomology|Čech cocycle]] with coefficients in the degree 2 [[Deligne cohomology|Deligne complex]] whose [[differential cohomology|projection to deRham cohomology]] is the given Maxwell 2-form.
 
 
 The following describes more physical and historical details behind this argument.
@@ -383,73 +383,12 @@ Dirac's quantization argument appeared in
 * [Differential Forms in Electromagnetic Theory](http://eceformsweb.groups.et.byu.net/forms-home.html)
 
 
-## Discussion
-
-+--{.query}
-
-[[Eric]]: Once a query box gets more than a few lines long, it becomes difficult to read, so I'm removing the query box. Hope that's alright.
-
-=--
-
-(From [[latest changes]])
-
-[[Urs]]: Eric, why don't you make the material on electromagnetism in media that you added into a proper section at [[electromagnetic field]]? Then we could move what is proper discussion between us into a query box, after all, while having the genuine material visible in the netry and not hidden in the section Discussion.
-
-[[Eric]]: I've thought about this some more and something still bothers me about the idea. If electromagnetic properties, i.e. $\mu$, $\epsilon$, $\sigma$ can be geometrically incorporated into the Hodge star via the metric, this implies: 1.) Maxwell's equations in inhomogeneous media are _wrong_ (although in vacuum they reduce to the familiar form) and 2.) that the Hodge star should involve _convolution_, i.e. the metric should have a _memory_. Has anyone put forward any serious theories of a "metric with memory"? Asking that questions give me a sense of deja vu (getting old sucks).
-
-
-***
-
-[[Eric]]: I remember the first time I saw you discuss EM theory in this context. It, at first, seems like a good motivation for more general concepts, but then, as now, a second wave of doubt crossed my mind. Throughout this article, there is no mention of any physical question as to the existence of magnetic charges. Do we just take their existence for granted? If magnetic charges do not exist, is this a good motivating example for more general concepts? If we were paranoid, we could then start asking if we were on a wild goose chase.
-
-> [[Urs Schreiber]]: but so far the article explicitly excludes magnetic charges! It is true that Dirac imagined a magnetic charge to have been where he then removes a point, but that you have to fight out with Dirac, not with me :-)
-
-> The real point about including magnetic charges is that taking them into account one gets the more complete formal picture of differential cocyclic description of higher gauge fields. This is crucial for the discussion of effects like the [[Green-Schwarz mechanism]], where it is explicitly a (higher) magnetic charge that is introduced in order to cancel a fermion anomaly. You are free to think that none of this is related to observable physics until proven otherwise, but it is an interesting differential cohomological effect which deserves to be discussed here in more detail, eventually.
-
-There are two other topological/geometrical aspects of EM theory worth mentioning. One is the hypothetical "perfect electrical conductor". Consider a perfectly conducting sphere. This will trace out a tube in spacetime. I might have the details slightly confused because its been a while since I've thought about this, but you can model perfect conductors via nontrivial topology, i.e. you remove the sphere and its world volume from spacetime. Let me say that again a different way and maybe one of the ways will make sense. 
-
->Removing a world volume from spacetime is equivalent to introducing a perfectly conducting body.
-
-There has got to be something interesting category theory can say about this. Perhaps you can relate it to "relative cohomology" or something.
-
-Another thing that might be worth mentioning is the geometric character of material properties. After all, we all sit in a bath of electromagnetic radiation, both man made and natural. This radiation permeates our bodies which are made up of dielectric, magnetic, and conducting materials, i.e. body tissue. I always found it interesting that just as geometry is encoded in the metric and manifests itself via the Hodge star, so too do the constitutive equations. For example, in linear media we have the simple constitutive equations
-
-$$E = \frac{1}{\epsilon} D \quad\text{and}\quad B = \mu H.$$
-
-In 4d, we have
-
-$$F = B + E\wedge dt$$
-
-The 4d constitutive relation is 
-
-$$G = \star F,$$
-
-which under assumptions of linearity gives
-
-$$\star F = -\eta(D-H\wedge dt),$$
-
-where $\eta = \sqrt{\frac{\mu}{\epsilon}}$. This may be written in a form that more closely mimics the tradition relations via
-
-$$\star(v dt\wedge E) = \frac{1}{\epsilon} D\quad\text{and}\quad\star B = \mu H\wedge v dt,$$
-
-where $v = \frac{1}{\sqrt{\mu\epsilon}}$ (Note: $v = c$ in vacuum). For more details see [page 111](http://ncatlab.org/ericforgy/show/Dissertation).
-
-What this means is the the electromagnetic properties of matter can be interpreted geometrically and are encoded in the Hodge star.
-
-It would be nice to see the importance of the Hodge star amplified a bit.
-
-[[Bruce Bartlett]]: I agree with Eric on the importance of the Hodge star in electromagnetic properties of matter. For one thing, this is now borne out in the whole field of cloaking! See for instance section 2.1 and appendix A of [this paper](http://arxiv.org/abs/cond-mat/0607418). There was a fantastic reference on this (supplementing Eric's appendix in his thesis) which I came across on the net somewhere, some kind of dissertation/write-up about differential forms and electromagnetic properties of matter. I wish I could find it again. To summarize: the "differential forms" / "Hodge star" picture of electromagnetism is the most convenient way to understand the "D" and "H" fields as well. 
-
-[[Eric]]: Hi Bruce. I'm guessing you might be talking about either Karl Warnick or Fernando Teixeira. Both are good friends of mine from grad school. I added a reference above to some of Karl's old stuff:
-
-* [Differential Forms in Electromagnetic Theory](http://eceformsweb.groups.et.byu.net/forms-home.html)
-
-The cloaking stuff is interesting. When I was in grad school, it was known how to "perfectly absorb" electromagnetics waves for sources inside a close surface, but it was thought to be impossible to perfectly absorb electromagnetic wave for a source outside a closed surface, which is what one probably means when they talk about "cloaking". I'm skeptical, but open.
-
-I would be remiss not to mention an unofficial mentor of mine, i.e. someone whose work I've always admired greatly, Alain Bossavit. It could very well have been some of his earlier papers you're thinking about.
-
-By the way, Bruce, after glancing at that paper, you might find a comment I recently made at the n-Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1034&Focus=7775#Comment_7775) interesting. In grad school, I simulated a 1-dimensional event horizon as a potential boundary condition for electromagnetic simulations. It is pretty fun :) I don't think it is a secret that you can map various solutions of Einstein's field equations to analogous electromagnetic media in flat Minkowski space. The analogy between geometry and media is deeper than the attention it receives would suggest.
-
 
 [[!redirects electromagnetic field]]
 [[!redirects electromagnetic fields]]
+
+[[!redirects Maxwell equation]]
+[[!redirects Maxwell's equation]]
+
+[[!redirects Maxwell equations]]
+[[!redirects Maxwell's equations]]
