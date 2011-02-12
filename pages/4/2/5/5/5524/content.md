@@ -430,7 +430,7 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
    $$
 
 
-1. The intrinsic $\mathbb{R}$-cohomology of any object $X \in SynthDiff\infty Grpd$ is computed by the ordinary [[cochain cohomology]] of the [[Moore complex|Moore cochain complex]] underlying the cosimplicial abelian group of the image under the left [[derived funcrtor]]$(\mathbb{L}\mathcal{O})(X)$ under the [[Dold-Kan correspondence]]:
+1. The intrinsic $\mathbb{R}$-cohomology of any object $X \in SynthDiff\infty Grpd$ is computed by the ordinary [[cochain cohomology]] of the [[Moore complex|Moore cochain complex]] underlying the cosimplicial abelian group of the image under the left [[derived functor]]$(\mathbb{L}\mathcal{O})(X)$ under the [[Dold-Kan correspondence]]:
 
    $$
       H_{synthdiff}^n(X) 
@@ -450,8 +450,9 @@ $SynthDiff\infty Grpd$ is equivalent to the [[hypercomplete (∞,1)-topos]] over
 The proof of the above statements is given in ([Stel](#Stel)), following ([To&#235;n](#Toen)). Some details are spelled out at 
 [[function algebras on ∞-stacks]].
 
-
 =--
+
+
 
 ### Paths and geometric Postnikov towers 
   {#StrucPaths}
