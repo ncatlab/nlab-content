@@ -335,6 +335,49 @@ $$
 
 =--
 
++-- {: .un_prop #EmbeddingOfSmoothRepresentables}
+###### Observation
+
+The [[(∞,1)-functor]] $i_! : Smooth \infty Grpd \to SynthDiff\infty Grpd$ restricts on representables to the [[(∞,1)-Yoneda embedding]]:
+
+$$
+  \array{
+    CartSp_{smooth} &\hookrightarrow& Smooth \infty Grpd
+    \\
+    \downarrow^{\mathrlap{i}} && \downarrow^{\mathrlap{i_!}}
+    \\
+    CartSp_{synthdiff} &\hookrightarrow& SynthDiff \infty Grpd
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+By the proof of the [above proposition](#CohesivenessUnderSmoothInfGrpd)
+we have that $i_!$ is presented by the left [[derived functor]] of left [[Kan extension]] of [[simplicial presheaves]] along $i$. Since every [[representable functor|representable]] is cofibrant, it is on objects $\mathbb{R}^n \in CartSp_{smooth}$ given by ordinary left [[Kan extension]], which in [[coend]] notation is
+
+$$
+  Lan_i CartSp_{smooth}(-,\mathbb{R}^n) :
+  K \times D
+  \mapsto
+  \int^{U \in CartSp_{smooth}} CartSp_{synthdiff}(K \times D, U)
+   \cdot CartSp_{smooth}(U,\mathbb{R}^n)
+  \,.
+$$
+
+But by [[Yoneda reduction]] (more explicitly: observing that this is equivalrntly the formula for left Kan extension of the non-corepresentable $CartSp_{synthdiff}(K \times D, -) : CartSp_{smooth} \to sSet$ along the identity functor) this is
+
+$$
+  \cdots \simew CartSp_{synthdiff}(K \times D, \mathbb{R}^n)
+  \,.
+$$
+
+=--
+
 
 ## Structures
 
@@ -452,7 +495,54 @@ The proof of the above statements is given in ([Stel](#Stel)), following ([To&#2
 
 =--
 
++-- {: .un_prop }
+###### Proposition
 
+Let $G \in SmoothMfd \hookrightarrow Smooth\infty Grpd \hookrightarrow SynthDiff\infty Grpd $ be a [[compact topological space|compact]] [[Lie group]]. 
+
+Then the intrinsic group cohomology in [[Smooth∞Grpd]] and in $SynthDiff\infty Grpd$ of $G$ with coefficients in $\mathbb{R}$ vanishes in positive degree
+
+$$
+  H^n_{smooth}(\mathbf{B}G, \mathbb{R})
+  \simeq
+  H^n_{synthdiff}(\mathbf{B}G, \mathbb{R})
+  \simeq 0
+$$
+
+for $n \geq 1$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We show this by demonstrating that there is a component-formula that expresses $H^n_{synthdiff}(\mathbf{B}G, \mathbb{R})$ which coincides with a formula known to descibe [[Graeme Segal|Segal]]-Blanc-[[Jean-Luc Brylinski|Brylinski]]'s refined [[Lie group cohomology]] -- _<a href="http://nlab.mathforge.org/nlab/show/Lie+group+cohomology#definition_11">differential group cohomology</a>_ $H^n_{diffgrp}(G, \mathbb{R})$  
+
+$$
+  H^n_{synthdiff}(\mathbf{B}G, \mathbb{R})
+   \simeq
+  H^n_{diffgrp}(G, \mathbb{R})
+  \,.
+$$
+
+The result then follows with ([Brylinski, prop. 1.3](#Brylinski)), which states that 
+
+$$
+  H^n_{diffgrp}(G,\mathbb{R}) = H^n_{classical}(G,\mathbb{R})
+$$
+
+coincides with classical/naive [[Lie group cohomology]] (see there for details) and a result by ([Blanc](#Blanc)) that 
+
+$$
+  H^n_{classical}(G,\mathbb{R}) = 0
+$$
+
+for a compact Lie group $G$.
+
+EmbeddingOfSmoothRepresentables
+
+
+=--
 
 ### Paths and geometric Postnikov towers 
   {#StrucPaths}
@@ -877,6 +967,16 @@ The discussion of the cohomology localization of $SynthDiff\infty Grpd$ follows 
 The construction of the infinitesimal path object has been amplified and discussed by [[Anders Kock]] under the name _combinatorial differential forms_, for instance in
 
 *  [[Anders Kock]], _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+
+The results on differentiable [[Lie group cohomology]] used above is in 
+
+* P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes_ Ast&eacute;risque, vol. 124-125 (1985), pp. 113-130.
+{#Blanc}
+
+recalled in 
+
+* [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
+{#Brylinski}
 
 
 [[!redirects synthetic differential ∞-groupoid]]
