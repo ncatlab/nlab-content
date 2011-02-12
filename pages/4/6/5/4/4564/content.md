@@ -16,12 +16,7 @@
 
 ## Definition
 
-A [[geometric morphism]] $f\colon E\to F$ between [[topoi]] is called **hyperconnected** if the image of $f^*\colon F\to E$ is closed under [[subquotients]] in $E$.
-
-+--{: .query}
-I think I must have forgotten a clause in this definition, since the geometric morphism $* = Sh(\emptyset) \to Set = Sh(*)$ satisfies it and is also [[localic geometric morphism|localic]], but is not an equivalence.
-=--
-
+A [[geometric morphism]] $f\colon E\to F$ between [[topoi]] is called **hyperconnected** if it is full and faithful and the image of $f^*\colon F\to E$ is closed under [[subquotients]] in $E$.
 
 ## Examples
 
