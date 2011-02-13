@@ -495,7 +495,7 @@ The proof of the above statements is given in ([Stel](#Stel)), following ([To&#2
 
 =--
 
-+-- {: .un_prop }
++-- {: .un_prop #RealCohomologyOfCompactLieGroup}
 ###### Proposition
 
 Let $G \in SmoothMfd \hookrightarrow Smooth\infty Grpd \hookrightarrow SynthDiff\infty Grpd $ be a [[compact topological space|compact]] [[Lie group]]. 
@@ -525,7 +525,7 @@ $$
   \,.
 $$
 
-The result then follows with ([Brylinski, prop. 1.3](#Brylinski)), which states that 
+Once we have shown this, the result then follows with ([Brylinski, prop. 1.3](#Brylinski)), which states that 
 
 $$
   H^n_{diffgrp}(G,\mathbb{R}) = H^n_{classical}(G,\mathbb{R})
@@ -539,8 +539,155 @@ $$
 
 for a compact Lie group $G$.
 
-EmbeddingOfSmoothRepresentables
+Finally, it follows that
 
+$$
+  H_{smooth}^n(\mathbf{B}G, \mathbb{R})
+  \simeq
+  H_{synthdiff}^n(\mathbf{B}G, \mathbb{R})
+$$
+
+because the embeddding $i_! : Smooth\infty Grpd \hookrightarrow SynthDiff\infty Grpd$ is a [[full and faithful (∞,1)-functor]] and because by the [above proposition](#EmbeddingOfSmoothRepresentables) it sends $\mathbb{R} \in Smooth\infty Grpd$ to $\mathbb{R} \in SynthDiff\infty Grpd$.
+
+To see the first equivalence, let $\mathb{B}G_c \in [\Delta^{op}, [CartSp_{synthdiff}^{op}, Set]] = [CartSp_{sythdiff}^{op}, sSet]$ be the standard presentation of $\mathbf{B}G \in SynthDiff\infty Grpd$ by the [[nerve]] of the [[Lie groupoid]] $(G \stackrel{\to}{\to} *)$ (as discussed <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#LieGroups">here</a>). We may write this as
+
+$$
+  \mathbf{B}G_c = \int^{[k] \in \Delta} \Delta[k] \cdot G^{\times_k}
+  \,.
+$$
+
+Similarly let $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{synthdiff}^{op}, sSet]$ be the standard presentation of $\mathbf{B}^n \mathbb{R} \in SynthDiff\infty Grpd$. By the discussion <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">here</a> this is fibrant in $[CartSp_{synthdiff}^{op}, sSet]_{proj,loc}$. Therefore in order to compute the [[derived hom-space]] from $\mathbf{B}G_c$ to $\mathbf{B}^n \mathbb{R}_{chn}$ we need to consider a cofibrant replacement of $Q\mathbf{B}G_c \stackrel{\simeq}{\to} \mathbf{B}G_c$. We shall now find such and then use the [above proposition](#PresentationOfCohomologyLocalization) to conclude that the $\mathbb{R}$-cohomology in question is the [[cochain cohomology]] of the [[Moore complex|cochain complex]] of the [[cosimplicial object|cosimplicial]] algebra $\mathcal{O}Q\mathbf{B}G_c$.
+
+
+We may always choose for each $k \in \mathbb{N}$ a [[good open cover]] $\{U_i^{(k)} \to G^{\times_k}\}$ in a way that is compatible with the face an degeneracy maps in $\mathbf{B}G_c$. By the discussion at [[Smooth∞Grpd]] for each $k$ the [[Cech nerve]] projection $C(\{U_i^{(k)}\}_i) \to G^{\times_k}$ is a cofibrant [[resolution]] in $[CartSp_{synthdiff}^{op}, sSet]_{proj,loc}$. Accordingly the morphism
+
+$$
+  \int^{[k] \in \Delta}
+    \Delta[k] \cdot C(\{U_i^{(k)}\}_i)
+  \stackrel{\simeq}{\to} 
+  \int^{[k] \in \Delta}
+    \Delta[k] \cdot G^{\times_k}
+  = 
+  \mathbf{B}G_{c}  
+$$
+
+exists and is a weak equivalence in $[CartSp_{synthdiff}, sSet]_{inj}$, hence in $[CartSp_{synthdiff}, sSet]_{proj}$, hence in $[CartSp_{synthdiff}, sSet]_{proj,loc}$, beause
+
+1. $\Delta \in [\Delta, sSet_{Quillen}]_{Reedy}$ is cofibrant in the [[Reedy model structure]] (see there);
+
+1. every simplicial object in simplicial presheaves is cofibrant in $[\Delta^{op}, [CartSp_{synthdiff}^{op}, sSet]_{inj}]_{Reedy}$
+
+1. the [[coend]] over the tensoring
+
+   $$
+     \int^\Delta [\Delta, sSet_{Quillen}]_{Reedy} \times
+      [\Delta^{op}, [CartSp_{synthdiff}^{op}, sSet]_{inj}]_{Reedy}
+     \to
+      [CartSp_{synthdiff}^{op}, sSet]_{inj}
+   $$
+
+   is a left [[Quillen bifunctor]] (as discussed there)
+
+To make it a total cofibrant resolution we can further pull back along the [[fat simplex]] projection $\mathbf{\Delta} \to \Delta$ to obtain a weak equivalence
+
+$$
+  Q \mathbf{B}G_c
+   :=
+  \int^{[k] \in \Delta}
+    \mathbf{\Delta}[k] \cdot C(\{U_i^{(k)}\}_i)
+  \stackrel{\simeq}{\to} 
+  \mathbf{B}G_{c}  
+$$
+
+where we are using again the left [[Quillen bifunctor]] property and the fact that $\mathb{\Delta} \to \Delta$ is a weak equivalence between cofibrant objects in $[\Delta, sSet]_{Reedy}$. Finally that this is indeed cofibrant follows from
+
+1. the left [[Quillen bifunctor]] property of
+
+   $$
+     \int^\Delta [\Delta, sSet_{Quillen}]_{proj} \times
+      [\Delta^{op}, [CartSp_{synthdiff}^{op}, sSet]_{proj}]_{inj}
+     \to
+      [CartSp_{synthdiff}^{op}, sSet]_{proj}
+   $$
+
+1. the fact that the [[fat simplex]] is cofibrant $\emptyset \hookrightarrpw \mathbf{\Delta}$ in $[\Delta, sSet]_{proj}$.
+
+
+Since $\mathcal{O}$ is a [[left adjoint]] it commutes with the [[coend]] and the [[tensoring]], so that
+
+$$
+  (\mathbb{L} \mathcal{O}) \mathbf{B}G_c
+   \simeq
+   \mathcal{O} Q \mathb{B}G_c
+  =
+  \int^{[k] \in \Delta}
+    \mathbf{\Delta}[k] \cdot \mathcal{O}((C(\{U_i^{(k)}\}_i))
+  \,.
+$$
+
+Observe that the [[simplicial object]] $[k] \mapsto \mathcal{O}((C(\{U_i^{(k)}\}_i))$ is [[Reedy model structure|Reedy cofibrant]] in the opposite [[model structure on cosimplicial algebras]] $(SmoothAlg^{\Delta})^{op}$: 
+
+the restriction maps of algebras along face maps
+
+$$
+  d_i^*  : \mathcal{O} C(\{U_i^{(k+1)}\}_i)
+   \to \mathcal{O} C(\{U_i^{(k)}\}_i)
+$$
+
+are surjective for all $k$ (due to the [[simplicial identity]] $d_i s_j = id$ for $i = j$ or $i = j+1$ a preimage of any element is given by applying $s^*_k$ to that element) so that the the resriction to degenerate simplices is a degreewise surjection and hence a fibration in $SmoothAlg^{\Delta}$, hence a cofibration in $(SmoothAlg^{\Delta})^{op}$.
+
+It follows by the [[Bousfield-Kan map]]  that there is a weak equivalence
+
+$$
+  \cdots 
+    \simeq
+  \int^{[k] \in \Delta}
+    \Delta[k] \cdot \mathcal{O}((C(\{U_i^{(k)}\}_i))
+  \,,
+$$
+
+to the object where the [[fat simplex]] is again replaced by the ordinaqry [[simplex]]. This shows that for computing the $\mathbb{R}$-cohomology of $\mathbf{B}G$ it is sufficient to perform a degreewise cofibrant replacement and then apply $\mathcal{O}$; while the fully cofibrant replacement is not necessary. 
+
+All in all this shows that $H^n_{synthdiff}(\mathbf{B}G, \mathb{R})$ is given by the [[cochain cohomology]] of 
+
+$$
+    N^\bullet(
+      \int^{[k] \in \Delta}
+    \Delta[k] \cdot \mathcal{O}((C(\{U_i^{(k)}\}_i))
+   )
+   \,.
+$$
+
+This is a formula for $H_{diffgrp}^n(G,\mathbb{R})$, as observed in  ([Brylinski](#Brylinski)).
+
+=--
+
++-- {: .un_prop }
+###### Corollary
+
+For $G$ a [[compact topological space|compact]] [[Lie group]] we have for all $n \in \mathbb{Z}$ that
+
+$$
+  H_{smooth}^{n}(G, \mathbb{Z}) \simeq H^n_{smooth}(G,U(1))
+  \simeq H_{top}^n(B G, \mathbb{Z})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The equality $H_{smooth}^n(G, \mathbb{Z}) \simeq H^n_{top}(B G, \mathbb{Z})$ is a special case of the general statement about cohomology with constant coefficients discussed <a href="http://ncatlab.org/nlab/show/Euclidean-topological+infinity-groupoid#Cohomology">here</a>.
+
+The second follows from applying this and the [above result](#RealCohomologyOfCompactLieGroup) to the [[fiber sequence]] induced by the sequence $\mathbb{Z} \to \mathbb{R} \to \mathbb{R}/\mathbb{Z} = U(1)$.
+
+=--
+
++-- {: .un_remark }
+###### Remark
+
+This means that the intrinsic cohomology of [[compact topological space|compact]] [[Lie group]]s in [[Smooth∞Grpd]] and $SynthDiff\infty Grpd$ coincides for these coefficients with the Segal-Blanc-Brylinski refined Lie group cohomology ([Brylinski](#Brylinski)).
 
 =--
 
