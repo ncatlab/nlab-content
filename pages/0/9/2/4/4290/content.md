@@ -63,7 +63,7 @@ $$
 of [[cosimplicial object|cosimplicial]] [[simplicial set]], called the
 [[Bousfield-Kan map]].
 
-This exhibits $\mathbf{\Delta}$ as a cofibrant replacement of $\Delta$ and of $*$ in the projective [[model structure on functors]] on $[\Delta, sSet_{Quillen}]$.
+This exhibits $\mathbf{\Delta}$ as a cofibrant [[resolution]] of $\Delta$ and of $*$ in the projective [[model structure on functors]] on $[\Delta, sSet_{Quillen}]$.
 
 See the discussion at [[Reedy model structure]] and at [[Bousfield-Kan map]] for details.
 
