@@ -1,6 +1,7 @@
+
 # Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -10,7 +11,7 @@ A quiver is like a [[category]] with units and composition forgotten. Indeed, a 
 
 $$U\colon Cat \to Quiv$$
 
-where [[Quiv]] is the category of quivers and [[Cat]] is the category of ([[small category|small]] [[strict catetegory|strict]]) categories.  Moreover, this forgetful functor has a [[left adjoint]] 
+where [[Quiv]] is the category of quivers and [[Cat]] is the category of ([[small category|small]] [[strict category|strict]]) categories.  Moreover, this forgetful functor has a [[left adjoint]] 
 
 $$F\colon Quiv \to Cat $$
 
@@ -94,6 +95,15 @@ So a [[representation]] of a quiver $Q = F(G)$ is a functor
 $$R\colon Q \to Vect $$
 
 Concretely, such a thing assigns a vector space to each vertex of the graph $G$, and a linear operator to each edge.  Representations of quivers are fascinating things, with connections to ADE theory, quantum groups, string theory, and more.
+
+
+## Identifying quivers with free categories
+
+It may be handy to *identify* a quiver with its free category.  This can be justified in the sense that the functor $F\colon Quiv \to Cat$ is an embedding ($k$-[[k-surjectivity|surjective]] for all $k \gt 0$) on the [[cores]].  In other words, [[isomorphisms]] between quivers may be identified with [[equivalence of categories|equivalences]] between free categories with no ambiguity.
+
+However, at the level of noninvertible morphisms, this doesn\'t work; while $U$ is [[faithful functor|faithful]], it is *not* [[full functor|full]].  In other words, there are many [[functors]] between free categories that are not morphisms of quivers.
+
+Nevertheless, if we fix a quiver $G$ and a category $D$, then a [[quiver representation|representation]] of $G$ in $D$ is precisely a functor from $F(G)$ to $D$ (or equivalently a quiver morphism from $G$ to $U(D)$), and we may well want to think of this as being a morphism (a [[heteromorphism]]) from $G$ to $D$.  As long as $D$ is not itself a free category, this is unlikely to cause confusion.
 
 
 ## Link to representation theory of algebras
