@@ -40,7 +40,7 @@ Virtual double categories are related to double categories precisely as ordinary
 
 A virtual double category can be defined in two equivalent ways:
 
-* It is a $T$-[[generalized multicategory|multicategory]], in the sense of Leinster, relative to the monad $T$ on [[directed graph|directed graphs]] whose algebras are categories.  For this reason, Leinster originally called them **fc-multicategories**, where "fc" is a name for this monad $T$ which stands for "free-category."
+* It is a $T$-[[generalized multicategory|multicategory]], in the sense of Leinster, relative to the monad $T$ on [[quiver|directed graphs]] whose algebras are categories.  For this reason, Leinster originally called them **fc-multicategories**, where "fc" is a name for this monad $T$ which stands for "free-category."
 
 * It is a generalized multicategory, in the sense of Hermida, Cruttwell-Shulman, and others, relative to the monad $T$ on graphs-internal-to-Cat whose algebras are double categories.  This is the origin of the name "virtual double category," in line with the general terminology "virtual $T$-algebra" of Cruttwell-Shulman for such generalized multicategories.
 
