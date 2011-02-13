@@ -177,7 +177,7 @@ Pretty much every notion of [[category]] and [[higher category theory|higher cat
   $$
     \Delta_C : \Delta \to n Cat
   $$
-  that sends the standard $n$-[[simplex]] to something like the free $n$-category on the $n$-[[directed graph]] underlying that simplex.
+  that sends the standard $n$-[[simplex]] to something like the free $n$-category on the $n$-[[directed n-graph|directed graph]] underlying that simplex.
   One formalization of this for $n = \infty$ in the context of [[strict ∞-categories]] is the cosimplicial $\omega$-category called the [[orientals]]
   $$
     \Delta_{\omega} : \Delta \to \omega Cat
