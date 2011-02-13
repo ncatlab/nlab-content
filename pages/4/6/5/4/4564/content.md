@@ -16,7 +16,18 @@
 
 ## Definition
 
-A [[geometric morphism]] $f\colon E\to F$ between [[topoi]] is called **hyperconnected** if it is full and faithful and the image of $f^*\colon F\to E$ is closed under [[subquotients]] in $E$.
++-- {: .un_def}
+###### Definition
+
+A [[geometric morphism]] $f\colon E\to F$ between [[toposes]] is called **hyperconnected** if the [[inverse image]] [[functor]] $f^*\colon F\to E$
+
+1. is a [[full and faithful functor]] 
+
+1. its [[image]] is closed under [[subquotients]] in $E$.
+
+=--
+
+This appears ([Johnstone, p. 225](#Johnstone)).
 
 ## Examples
 
@@ -41,3 +52,6 @@ iff $C$ is strongly connected (see Elephant, A4.6.9), i.e., inhabitated and for 
 
 [[!redirects hyperconnected geometric morphism]]
 [[!redirects hyperconnected geometric morphisms]]
+
+[[!redirects hyperconnected topos]]
+[[!redirects hyperconnected toposes]]
