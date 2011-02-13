@@ -2,34 +2,98 @@
 * automatic table of contents goes here
 {:toc}
 
-## Definition
+## Idea
 
-The notion _quiver_ is usually taken to be nothing but that of (finite) [[directed graph]]. However, saying _quiver_ instead of _graph_ indicates focus on a certain set of operation intended on that graph. Notably there is the notion of a [[quiver representation]].
+A quiver is a collection of edges which may stretch between (ordered) pairs of "points", called _vertices_.
 
-Now, one sees that a _representation_ of a graph $G$ in the sense of quiver representation is nothing but a [[functor]] $\rho : Q := F(G) \to Vect$ from the _free category_ $F(G)$ on the [[directed graph]] $G$:
+A quiver is like a [[category]] with units and composition forgotten. Indeed, a [[category]] is a quiver with extra structure.  To formalize this idea, we say there is a [[forgetful functor]] 
 
-Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the free category $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite [[sequence]]s of edges in $G$ that fit together head-to-tail (also known as _[[path]]s_). The composition operation in this free category is the concatenation of sequences of edges.
+$$U\colon Cat \to Quiv$$
+
+where [[Quiv]] is the category of quivers and [[Cat]] is the category of ([[small category|small]] [[strict catetegory|strict]]) categories.  Moreover, this forgetful functor has a [[left adjoint]] 
+
+$$F\colon Quiv \to Cat $$
+
+sending each quiver to the [[free category]] on that quiver.
+
+A quiver is a kind of [[graph]] and is often called a [[directed graph]] (or [[digraph]]) by category theorists.  However, in the context of graph theory, the term "directed graph" is often taken to mean that there is at most one edge from one vertex to another. See [[directed graph]].
 
 
-Here we taking advantage of the [[adjoint functor|adjunction]] between [[Cat]] (the category of small categories) and [[DiGraph]] (the category of directed graphs).  Namely, any category has an underlying directed graph:
+## Definitions
 
-$$U\colon Cat \to DiGraph $$
+### Slick definition
+
+The **[[walking structure|walking]] quiver** $X$ is the [[category]] with
+
+* one [[object]] $X_0$, called the object of _vertices_;
+
+* one object $X_1$, called the object of _edges_;
+
+* two [[morphisms]] $s, t\colon X_1 \to X_0$, called
+the _source_ and _target_;
+
+* together with [[identity morphisms]].
+
+A **quiver** is a [[functor]] $G\colon X \to$ [[Set]].
+
+More generally, a **quiver [[internalization|in]] a category $C$** is a [[functor]] $G\colon X \to C$.
+
+The category of quivers in $C$, [[Quiv]]$(C)$, is the [[functor category]] $C^{X}$, where:
+
+* objects are functors $G\colon X \to C$,
+
+* morphisms are [[natural transformation|natural transformations]] between such functors.
+
+In the basic case $C = Set$, we call this category the category of [[presheaves]] on $X^{op}$.  So: the category of quivers, [[Quiv]], is the category of presheaves on the category $X^{op}$.
+
+
+### Nuts-and-bolts definitions 
+
+A __quiver__ $G$ consists of two sets $E$ (the set of _edges_ of $G$), $V$ (the set of _vertices_ of $G$) and two functions 
+
+$$s, t\colon E \stackrel{\to}{\to} V$$ 
+
+(the source and target functions). More generally, a __quiver internal to a category__ (more simply, *in* a category) $C$ consists of two objects $E$, $V$ and two morphisms $s, t\colon E \to V$. 
+
+If $G = (E, V, s, t)$ and $G' = (E', V', s', t')$ are two quivers in a category $C$, a __morphism__ $g\colon G \to G'$ is a pair of morphisms $g_0\colon V \to V'$, $g_1\colon E \to E'$ such that $s' \circ g_1 = g_0 \circ s$ and $t' \circ g_1 = g_0 \circ t$. 
+
+
+## Remarks
+
+Let $G_0 = G(X_0)$ and $G_1 = G(X_1)$.
+
+* A quiver in $C$ is a [[presheaf]] on $X^{op}$ with values in $C$.
+
+* A quiver is a [[globular set]] which is concentrated in the first two degrees.
+
+* Quivers in the sense here include graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
+
+* A quiver is **[[complete graph|complete]]** if for any pair of vertices $v,v'\in G_0$, there exists a unique directed edge $e\in G_1$ with $s(e) = v, t(e) = v'$.
+
+
+## Terminology
+
+Saying _quiver_ instead of _directed (multi)graph_ indicates focus on a certain set of operation intended on that graph. Notably there is the notion of a [[quiver representation]].
+
+Now, one sees that a _representation_ of a graph $G$ in the sense of quiver representation is nothing but a [[functor]] $\rho\colon Q := F(G) \to Vect$ from the _free category_ $F(G)$ on the quiver $G$:
+
+Given a graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the free category $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite [[sequence]]s of edges in $G$ that fit together head-to-tail (also known as _[[path]]s_). The composition operation in this free category is the concatenation of sequences of edges.
+
+Here we are taking advantage of the [[adjoint functor|adjunction]] between [[Cat]] (the category of small categories) and [[Quiv]] (the category of directed graphs).  Namely, any category has an underlying directed graph:
+
+$$U\colon Cat \to Quiv$$
 
 and the left adjoint of this functor gives the free category on a directed graph:
 
-$$F\colon DiGraph \to Cat $$
+$$F\colon Quiv\to Cat $$
 
-+-- {: .un_remark}
-###### Terminology
-
-Since this is the central operation on quivers that justifies their distinction from the plain concept of directed graph, we may adopt here the point of view that _quiver_ is synonymous with _free category_ .
+Since this is the central operation on quivers that justifies their distinction from the plain concept of directed graph, we may adopt here the point of view that _quiver_ is synonymous with _free category_.
 
 So a [[representation]] of a quiver $Q = F(G)$ is a functor
 
-$$R : Q \to Vect $$
+$$R\colon Q \to Vect $$
 
 Concretely, such a thing assigns a vector space to each vertex of the graph $G$, and a linear operator to each edge.  Representations of quivers are fascinating things, with connections to ADE theory, quantum groups, string theory, and more.
-=--
 
 
 ## Link to representation theory of algebras
@@ -42,11 +106,6 @@ A module over $k Q$ is the same thing as a representation of $Q$, so the theory 
 
 If $Q$ is acyclic, then $k Q$ is finite-dimensional as a vector space, so in studying representations of $Q$, we are really studying representations of a finite dimensional algebra, for which many interesting tools exist 
 (Auslander-Reiten theory, tilting, etc.).
-
-
-## Remarks
-
-In the literature, a **quiver** is usually defined as nothing but a [[directed graph]]. The point of this redundant use of terminology is that when people call their [[directed graph]]s "quivers", they indicate that they want to perform certain operations on it, such as, notably,  considering its [[quiver algebra]]. But this really means that they consider precisely the free category generated by the quiver. For that reason it makes sense to define, as above, that "quiver" really refers to the free category over a [[directed graph]]. This definition is arguably more sensible than the standard one, which is just redundant -- but it is non-standard.
 
 
 ## Literature
