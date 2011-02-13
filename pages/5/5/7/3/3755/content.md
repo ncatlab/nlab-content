@@ -1,4 +1,6 @@
 # Commutative diagrams
+* table of contents
+{: toc}
 
 ## Idea
 
@@ -35,4 +37,6 @@ A diagram $D$ __commutes__ if, given any two vertices $x,y$ in $J$ and any two p
 
 
 [[!redirects commutative diagram]]
+[[!redirects commutative diagrams]]
 [[!redirects commuting diagram]]
+[[!redirects commuting diagrams]]
