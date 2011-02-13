@@ -16,7 +16,7 @@
 
 ## Idea
 
-Since a [[topos]] is a [[cartesian monoidal category]] the notion of a unital [[ring]], and commutative unital ring can be defined [[internalization|internal]] to it.
+Since a [[topos]] is a [[cartesian monoidal category]], the notion of a unital [[ring]] and commutative unital ring can be defined [[internalization|internal]] to it.
 
 A _ringed topos_ $(X,\mathcal{O}_{X})$ is a topos $X$ equipped with a choice of ring object $\mathcal{O}$. If $X$ is a [[sheaf topos]] over a [[site]] $C$ then $\mathcal{O}_X$ is a [[sheaf]] or rings on $C$: a [[structure sheaf]].
 
