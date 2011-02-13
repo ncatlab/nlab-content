@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Homotopy theory
@@ -13,12 +13,9 @@
 =--
 =--
 
-
-
 # Contents
 * automatic table of contents goes here
 {:toc}
-
 
 ## Definition
 
@@ -84,9 +81,9 @@ for every choice of bracketing the tensor product on the right in $M$ (possibly 
 
 ## Etymology and relation to graph theory
 
-There is a notion of clique in an undirected (simple) [[graph]] familiar to graph-theorists: a _clique_ $C$ in a graph $G$ is a subgraph which is complete as a graph, i.e., one for which any two distinct vertices are connected by an edge. Thus, a clique having $n$ vertices is isomorphic to an inclusion of a $K_n$. 
+There is a notion of clique in an undirected (simple) [[graph]] familiar to graph-theorists: a _clique_ $C$ in a graph $G$ is a subgraph which is [[complete graph|complete]] as a graph, i.e., one for which any two distinct vertices are connected by an edge. Thus, a clique having $n$ vertices is isomorphic to an inclusion of a $K_n$. 
 
-A reasonable analogue for directed graphs ([[digraph]]s) might be a subgraph $C$ which is _indiscrete_: there is exactly one edge in $C$ from $x$ to $y$ for any vertices $x$, $y$ of $C$. 
+A reasonable analogue for [[quivers]] (the category theorists\' directed graphs) might be a subgraph $C$ which is _indiscrete_: there is exactly one edge in $C$ from $x$ to $y$ for any vertices $x$, $y$ of $C$. 
 
 The categorical notion of clique is one step removed from that: a clique in a category $C$ is a functor $i: K \to C$ where the underlying graph of $K$ is indiscrete. The generic "picture" of a clique in a category is reminiscent of (and no doubt the etymology derives from) the graph-theoretic notion, even if the notions are technically distinct. 
 
