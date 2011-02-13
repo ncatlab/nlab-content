@@ -64,7 +64,7 @@ We describe the resulting category $GrC^\mathbf{T}(X,Y)$ explicitly as follows:
 
 * The objects are pairs $(t,F)$ with $t\in \mathbf{T}$ and $F\in C^t(X,Y)$.
 * The morphisms are pairs $(f,g):(t,F)\to (t',G)$ where $f:t\to t'$ and $g:f_*F\to G$.
-* Composition is given by the rule $(f',g')\circ (f,g)=(f'\circ f,g'\circ f_* g)$.
+* Composition is given by the rule $(f',g')\circ (f,g)=(f'\circ f,g'\circ f'_* g)$.
 
 In the sequel, we will construct the strict 2-category $GrC$, called the Grothendieck enrichment with the same objects as $C$ and with morphism categories $GrC^\mathbf{T}(X,Y)$. 
 
