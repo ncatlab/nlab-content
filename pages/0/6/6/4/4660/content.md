@@ -268,7 +268,11 @@ For $\mathfrak{g}$ a [[semisimple Lie algebra]],$G$ its simply connected Lie gro
 
 ## References
 
-The definition of the refined Lie group cohomology in terms of sheaves on simplicial spaces was given by [[Graeme Segal]] and later rediscovered in
+The definition of the refined [[topological group]] cohomology in terms of degreewise [[abelian sheaf cohomology]] was given in
+
+* [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
+
+It was later rediscovered for [[Lie group]]s in
 
 * [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
 {#Brylinski}
