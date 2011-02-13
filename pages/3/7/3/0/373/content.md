@@ -146,7 +146,7 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 * the morphisms of $\hat C$ are finite sequences of composable morphisms of $C$, and composition is concatenation of such sequences
 
-  (hence $(\hat C)_1$ is the [[free category]] on the [[directed graph]] underlying $C$);
+  (hence $(\hat C)_1$ is the [[free category]] on the [[quiver]] underlying $C$);
 
 * the 2-morphisms of $\hat C$ are _generated_ from 2-morphisms $c_{f,g}$ of the form
 
