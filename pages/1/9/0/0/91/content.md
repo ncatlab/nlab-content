@@ -1,8 +1,14 @@
-#Idea#
+
+# Globular sets
+* table of contents
+{: toc}
+
+## Idea
 
 Globular sets are to [[simplicial sets]] as [[globes]] are to simplices.
 
-#Definition#
+
+## Definition
 
 A _globular set_ is a [[presheaf]] on the _globe category_ (described below), one of the [[geometric shapes for higher structures]].
 
@@ -103,7 +109,7 @@ $$
 $$ 
 
 
-##Notation for composite globular maps##
+### Notation for composite globular maps
 
 The globular identities ensure that
 
@@ -145,16 +151,19 @@ with $i_n, s_n, t_m$ the sequence of $m$
 consecutive identity-assigning, source or target maps, respectively.
 
 
-#Examples#
+## Examples
 
-* A globular set concentrated in degree 0 is just a set. A globular set concentrated in degrees 0 and 1 is a [[directed graph]]. See also [[directed n-graph]].
+* A globular set concentrated in degree 0 is just a set. A globular set concentrated in degrees 0 and 1 is a [[quiver]] or [[directed graph]]. See also [[directed n-graph]].
 
 * The **globular $n$-globe** $G_n$ is the globular set represented by $n$, i.e. $G_n(-) := Hom_G(-,n)$.
 
-#Remarks#
+
+## Remarks
 
 * Globular sets are also referred to as $\omega$-[[omega-graph|graphs]].
 
 * globular sets are based on one of the three major [[geometric shapes for higher structures]].
 
+
+[[!redirects globular set]]
 [[!redirects globular sets]]
