@@ -100,7 +100,7 @@ There is a general construction of $C[W^{-1}]$, if it exists, which is however h
 
 If $C$ is a category and $W$ is a set of arrows, we construct the localization of $C$. Let $W^{op}$ be the set in $C^{op}$ corresponding to $W$ (it isn't necessarily a category).
 
-Let $G$ be the following [[directed graph]]: 
+Let $G$ be the following [[quiver|directed graph]]: 
 
 * the vertices of $G$ are the objects of $C$,
 * the arrows of $G$ between two vertices $x,y$ are given by the disjoint union $C(x,y)\coprod W^{op}(x,y)$.
