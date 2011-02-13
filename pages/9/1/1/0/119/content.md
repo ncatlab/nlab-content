@@ -1,11 +1,12 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
-## The Idea 
+## Idea 
 
 A preorder is like a [[partial order]], but without the requirement that $x \le y$ and $y \le x$ implies $x = y$.  The reason is that if we think of a partially ordered set as a special sort of [[category]], it is [[evil]] to impose this equation between objects.  In a preordered set, if $x \le y$ and $y \le x$, we think of $x$ and $y$ as [[isomorphism|isomorphic]].
+
 
 ## Definition
 
@@ -13,9 +14,11 @@ A **preorder** on a set $S$ is a [[reflexive relation|reflexive]] and [[transiti
 
 Equivalently, a proset is a [[thin category]]: a [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a [[category enriched]] over the [[cartesian monoidal category]] of [[truth value]]s.
 
+
 ## Fact
 
 Any preordered set is [[equivalence of categories|equivalent]] to a [[partial order|poset]]. This is a special case of the theorem that every category has a [[skeleton]], but (if you define 'equivalence' properly) this case does _not_ require the [[axiom of choice]].
+
 
 ## Discussion
 
@@ -36,6 +39,7 @@ _Mike_: Wait a minute; I see why every preorder is equivalent to a poset without
 _Toby_:  Given the definition there that a skeleton must be a subcategory (not merely any equivalent skeletal category), that depends on what [[subcategory]] means, doesn\'t it?  If a subcategory can be any category equipped with a [[pseudomonic functor]] and if functor means [[anafunctor]] in choice-free category theory, then it is still true.  On the other hand, since we decided not to formally define 'subcategory', we really shouldn\'t use it to define 'skeleton' (or anything else), in which case &#8249;equivalent skeletal category&#8250; is the guaranteed non-evil option.  You *still* need choice to define a skeleton of an arbitrary category, but not of a proset.
 
 _Mike_: We decided not to formally define a non-evil version of "subcategory," but [[subcategory]] currently is defined to mean the evil version.  However, I see that you edited [[skeleton]] to allow any equivalent skeletal category, and I can't really argue that that is a more reasonable definition in the absence of choice.
+
 
 ### Poset reflection
 
@@ -66,6 +70,7 @@ For a Hasse diagram, I like John\'s definition.  It is true that a Hasse diagram
 _Mike_: I don't think the preorder reflection $Cat\to Ord$ is full.  Let $C$ be the walking commutative square (aka $\mathbf{2}\times\mathbf{2}$, where $\mathbf{2}$ is the walking arrow), and let $D$ be the walking non-commutative square (the free category on the directed graph that looks like a square with no diagonals).  Then $C$ and $D$ have isomorphic preorder reflections, but I don't believe there is a functor $C\to D$ mapping to this isomorphism.
 
 _Toby_:  Yeah, you\'re right; I made a level slip while thinking about this.  I fixed my comment above.
+
 
 ### 'proset'
 
@@ -131,8 +136,9 @@ _Mike_: Yes, I like that.  I think it would be even better if we could do like W
 _Toby_:  Well, I guess that I\'ll move things around then.  We can still discuss whether [[proset]] should simply redirect to [[preorder]] or should be a more explicit disambiguation page.  (For now, I\'ll move things so that it redirects, but I\'ll do that last, so feel free to make more comments in the meantime.)
 
 
-[[!redirects proset]]
-[[!redirects preordered set]]
+[[!redirects preorder]]
 [[!redirects preorders]]
+[[!redirects proset]]
 [[!redirects prosets]]
+[[!redirects preordered set]]
 [[!redirects preordered sets]]
