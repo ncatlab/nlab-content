@@ -1,7 +1,7 @@
+
 <div class="rightHandSide toc">
 [[!include mathematicscontents]]
 </div>
-
 
 * [[foundations|Structural Foundations]] with annotated toc of 3 great books with numerous links to related nlab content:
 
@@ -61,11 +61,12 @@
 
   * [[set theory]], [[category theory]]
 
-  * [[graph]], [[directed graph]], [[order]], [[poset]], [[filter]]... 
+  * [[graph]], [[directed graph]], [[quiver]], [[order]], [[poset]], [[filter]], ... 
 
 
-[[!redirects math]]
+[[!redirects mathematics]]
 [[!redirects Mathematics]]
+[[!redirects math]]
 [[!redirects Math]]
 [[!redirects maths]]
 [[!redirects Maths]]
