@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
 #### Cohesive $\infty$-Toposes
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
@@ -81,7 +85,7 @@ For more general products, it would be a similar map $\Pi_0(\prod_i X_i) \to \pr
 ## Definition
 
 
-+-- {: .un_defn}
++-- {: .un_defn #CohesiveTopos}
 ###### Definition
 
 A [[topos]] $\mathcal{E}$ over some base topos $\mathcal{S}$, i.e. equipped with a [[geometric morphism]]
@@ -122,11 +126,10 @@ such that $f_!$ preserves finite products.
 
 There are several further axioms that one may want to impose in order to formalize the concept of cohesion.
 
-+-- {: .un_defn}
++-- {: .un_defn #PiecesHavePoints}
 ###### Definition
 
-For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that 
-**pieces have points** in $\mathcal{E}$ if the [[natural transformation]]
+For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that **pieces have points** in $\mathcal{E}$ if the [[natural transformation]]
 
 $$
   f_* X \stackrel{}{\to} f_* f^* f_! X \stackrel{\simeq}{\to} f_! X 
@@ -134,8 +137,14 @@ $$
 
 is an [[epimorphism]] for all $X \in \mathcal{E}$.
 
+=--
 
-We say that **discrete objects are concrete**  if the transformation
+This is equivalent to the following condition (see the [proposition below](PiecesHavePointsEquivalentToDiscreteObjectsAreConcrete)):
+
++-- {: .un_defn #DiscreteObjectsAreConcrete}
+###### Definition
+
+We say that **discrete objects are concrete** in $\mathcal{E}$ if the transformation
 
 $$
   f^* S \to f^! f_* f^* S \stackrel{\simeq}{\to} f^! S
@@ -143,6 +152,10 @@ $$
 
 is a [[monomorphism]] for all $S \in \mathcal{S}$ .
 
+=--
+
++-- {: .un_defn }
+###### Definition
 
 We say **pieces of powers are powers of pieces** if for all $S \in \mathcal{S}$ and $X \in E$ the natural morphism
 
@@ -150,10 +163,16 @@ $$
   f_! (X^{f^* S}) \stackrel{\simeq}{\to} (f_!(X))^S
 $$
 
-is an [[isomorphism]]
+is an [[isomorphism]].
 
-(this morphism is the [[internal hom]]-[[adjunct]] of 
-$
+=--
+
++-- {: .un_remark }
+###### Remark
+
+This morphism is the [[internal hom]]-[[adjunct]] of 
+
+$$
   S \times f_!(X^{f^* S}) 
    \stackrel{\simeq}{\to}
   f_!f^*(S) \times f_!(X^{f^* S})
@@ -161,13 +180,14 @@ $
   f_!(f^*(S) \times X^{f^* S})
   \to
   f_!(X)
-$
+$$
 
-where we use that by definition $f^*$ is full and faithful and then that $f_!$ preserves products).
+where we use that by definition $f^*$ is [[full and faithful functor|full and faithful]] and then that $f_!$ preserves [[product]]s).
 
 =--
 
-These two axioms are considered in [Lawvere, Axiomatic cohesion](#LawvereAxiomatic). More on this axiom below in [Quasitopos of concrete objects](#ConcreteObjects).
+
+These extra axioms are proposed in ([Lawvere, Axiomatic cohesion](#LawvereAxiomatic)). 
 
 +-- {: .un_defn}
 ###### Definition
@@ -188,14 +208,76 @@ This implies that for all $X \in \mathcal{E}$ also $f_! \Omega^X \simeq *$.
 This appears as axiom 2 in ([Lawvere, Categories of spaces](#LawvereCatsOfSpaces)).
 
 
-## Properties {#Properties}
+## Properties 
+  {#Properties}
+
+### Relations between the axioms
+  {#RelationsBetweenTheAxioms}
+
+We record some relations between the various axioms characterizing cohesive toposes.
+
++-- {: .un_prop #PiecesHavePointsEquivalentToDiscreteObjectsAreConcrete}
+###### Proposition
+
+The axioms [pieces have points](#PiecesHavePoints) and [discrete objects are concrete](#DiscreteObjectsAreConcrete) are equivalent.
+
+=--
+
+This is observed in ([Lawvere](#LawvereAxiomatic)). A proof is spelled out in ([Johnstone, lemma 2.3]).
+
++-- {: .un_prop}
+###### Proposition
+
+A [[sheaf topos]] that
+
+1. is [[locally connected topos|locally connected]] and [[connected topos|connected]];
+
+1. satisfies [pieces have points](#PiecesHavePoints)
+
+also is
+
+1. [[local topos|local]];
+
+1. [[hyperconnected topos|hyperconnected]];
+
+1. [[strongly connected topos|strongly locally connected]]
+
+1. [cohesive](#CohesiveTopos).
+
+=--
+
+The statement of the first items appears as ([Johnstone, prop. 1.6](#Johnstone)). The last item is then a consequence by definition.
+
++-- {: .un_prop #HyperconnectivityAndPiecesHavePoints}
+###### Proposition
+
+For a [[sheaf topos]] the condition that it
+
+1. is [[locally connected topos|locally connected]];
+
+1. is [[connected topos|connected]];
+
+1. satisfies [pieces have points](#PiecesHavePoints)
+
+is equivalent to the condition that it
+
+1. is [[locally connected topos|locally connected]];
+
+1. is [[hyperconnected topos|hyperconnected]];
+
+1. is [[local topos|local]].
+
+=--
+
+This is ([Johnstone, theorem 3.4](#Johnstone)).
+
+
+### Quasitoposes of concrete objects {#ConcreteObjects}
 
 Let $f : \mathcal{E} \to \mathcal{S}$ be a cohesive topos. 
 
 It comes canonically with various [[subcategories]], sub-[[quasi-toposes]] and [[subtopos]]es of interest. 
 
-
-### Quasitoposes of concrete objects {#ConcreteObjects}
 
 +-- {: .un_lemmaa}
 ###### Observation
