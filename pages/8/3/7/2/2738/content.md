@@ -27,7 +27,7 @@ Some terminology and notation:
 
 * For $T \in \Omega$ a tree, write $\Omega[T] := \Omega(-,T)$ for the dendroidal set that it [[representable functor|represents]].
 
-* For $X$ a dendroidal set and $T$ a tress, the set $dSet(T,X) \simeq X(T)$ (using the [[Yoneda lemma]]) is the set o $T$-shaped **dendrices** in $X$. One of its elements is called a $T$-shaped **dendrex**, analogous to a [[simplex]] in a [[simplicial set]].
+* For $X$ a dendroidal set and $T$ a tree, the set $dSet(\Omega[T],X) \simeq X(T)$ (using the [[Yoneda lemma]]) is the set of $T$-shaped **dendrices** in $X$. One of its elements is called a $T$-shaped **dendrex**, analogous to a [[simplex]] in a [[simplicial set]].
 
 ## Relation to simplicial sets ##
 
