@@ -154,7 +154,7 @@ such that $i_!$ is a [[full and faithful (∞,1)-functor]].
 +-- {: .proof}
 ###### Proof
 
-Since $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ is an [[infinitesimally ∞-cohesive site]] this follows with <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#InfinitesimalNeighbourhoodFromInfinitesimalSite">a proposition</a> discussed at [[cohesive (∞,1)-topos]].
+Since $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ is an <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#InfinitesimalNeighBourhoodSite">infinitesimally ∞-cohesive site</a> this follows with <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#InfinitesimalNeighbourhoodFromInfinitesimalSite">a proposition</a> discussed at [[cohesive (∞,1)-topos]].
 
 =--
 
@@ -339,7 +339,28 @@ $$
 Similarly let $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{synthdiff}^{op}, sSet]$ be the standard presentation of $\mathbf{B}^n \mathbb{R} \in SynthDiff\infty Grpd$. By the discussion <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">here</a> this is fibrant in $[CartSp_{synthdiff}^{op}, sSet]_{proj,loc}$. Therefore in order to compute the [[derived hom-space]] from $\mathbf{B}G_c$ to $\mathbf{B}^n \mathbb{R}_{chn}$ we need to consider a cofibrant replacement of $Q\mathbf{B}G_c \stackrel{\simeq}{\to} \mathbf{B}G_c$. We shall now find such and then use the [above proposition](#PresentationOfCohomologyLocalization) to conclude that the $\mathbb{R}$-cohomology in question is the [[cochain cohomology]] of the [[Moore complex|cochain complex]] of the [[cosimplicial object|cosimplicial]] algebra $\mathcal{O}Q\mathbf{B}G_c$.
 
 
-We may always choose for each $k \in \mathbb{N}$ a [[good open cover]] $\{U_i^{(k)} \to G^{\times_k}\}$ in a way that is compatible with the face an degeneracy maps in $\mathbf{B}G_c$. By the discussion at [[Smooth∞Grpd]] for each $k$ the [[Cech nerve]] projection $C(\{U_i^{(k)}\}_i) \to G^{\times_k}$ is a cofibrant [[resolution]] in $[CartSp_{synthdiff}^{op}, sSet]_{proj,loc}$. Accordingly the morphism
+We may always choose for each $k \in \mathbb{N}$ a [[good open cover]] $\{U_i^{(k)} \to G^{\times_k}\}_{i \in I_k}$ in a way that is compatible with the face an degeneracy maps in $\mathbf{B}G_c$, in the sense that
+
+* the index sets arrange themselves into a [[simplicial set]]
+  $I : [k] \mapsto I_k$;
+
+* and for $d_j(U^k_i)$ and $s_j(U^k_i)$ the images of the
+  face and degeneracy maps of $G^{\times\bullet}$ we have
+
+  $$
+    d_j(U^k_i) \subset U^{k-1}_{d_j(i)}
+  $$ 
+
+  and
+
+  $$
+    s_j(U^k_i) \subset U^{k+1}_{s_j(i)}
+    \,.
+  $$
+
+For instance start with a [[good open cover]] $\{U^1_i \to G\}$ and define a good open cover $\{U^2_{i_0 i_1 i_2}\}$ of $G \times G$ by $U^2_{i_0 i_1 i_2} := d_0^* U^1_{i_0} \cap d_1^* U^1_{i_1} \cap d_2^* U^1_{i_2}$. And so on.
+
+By the discussion at [[Smooth∞Grpd]] for each $k$ the [[Cech nerve]] projection $C(\{U_i^{(k)}\}_i) \to G^{\times_k}$ is a cofibrant [[resolution]] in $[CartSp_{synthdiff}^{op}, sSet]_{proj,loc}$. Accordingly the morphism
 
 $$
   \int^{[k] \in \Delta}
@@ -351,7 +372,7 @@ $$
   \mathbf{B}G_{c}  
 $$
 
-exists and is a weak equivalence in $[CartSp_{synthdiff}, sSet]_{inj}$, hence in $[CartSp_{synthdiff}, sSet]_{proj}$, hence in $[CartSp_{synthdiff}, sSet]_{proj,loc}$, beause
+exists and is a weak equivalence in $[CartSp^{op}_{synthdiff}, sSet]_{inj}$, hence in $[CartSp_{synthdiff}, sSet]_{proj}$, hence in $[CartSp_{synthdiff}, sSet]_{proj,loc}$, beause
 
 1. $\Delta \in [\Delta, sSet_{Quillen}]_{Reedy}$ is cofibrant in the [[Reedy model structure]] (see there);
 
@@ -419,16 +440,19 @@ in $(SmoothAlg^{\Delta})^{op}$ to the object where the [[fat simplex]] is replac
 $\mathbb{R}$-cohomology that we are after is equivalently computed as the [[cochain cohomology]] of the [[Moore complex|normalized cochain complex]] 
 
 $$
-  N^\bullet(
+  N^\bullet
+    \mathcal{O}
+    (
     \int^{[k] \in \Delta}
-  \Delta[k] \cdot \mathcal{O}((C(\{U_i^{(k)}\}_i))
+   \Delta[k] \cdot ((C(\{U_i^{(k)}\}_i))
  )
 $$
 
 of the object on the right.
 (In other words, for computing the $\mathbb{R}$-cohomology of $\mathbf{B}G$ it is sufficient to perform a degreewise cofibrant replacement and then apply $\mathcal{O}$; while the fully cofibrant replacement is not necessary. )
 
-This is a formula for $H_{diffgrp}^n(G,\mathbb{R})$, as observed in  ([Brylinski](#Brylinski)).
+Observing that for $S_{\bullet,\bullet}$ a [[bisimplicial set]] (see there for details) we have that the [[coend]] $\int^{[k] \in \Delta} \Delta[k] \cdot S_{\bullet, k}$ is the diagonal simplicial set and then using the [[Eilenberg-Zilber theorem]] we have that this is the total complex of the Cech/group double comples of cochains with coefficients in $\mathbb{R}$. This is the formula for $H_{diffgrp}^n(G,\mathbb{R})$, as observed in ([Brylinski](#Brylinski)).
+
 
 =--
 
