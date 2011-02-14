@@ -185,6 +185,52 @@ We discuss the general abstract
 <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesivbe (∞,1)-topos</a> realized in $Smooth \infty Grpd$.
 
 
+### Geometric homotopy and Galois theory     
+  {#StrucGeometricHomotopy}
+
++-- {: .un_prop}
+###### Proposition
+
+Let $X \in Smooth \infty Grpd$ have a presentation by a [[simplicial presheaf]] $X_\bullet \in [CartSp_{smooth}, sSet]$ that degreewise is a [[paracompact topological space|paracompact]] [[smooth manifold]]. Then the image of $X$ under the [[fundamental ∞-groupoid in a locally ∞-connecte (∞,1)-topos]]-functor
+
+$$
+  Smooth \infty Grpd \stackrel{\Pi}{\to}
+  \infty Grpd
+  \underoverset{|-|}{\simeq}
+  Top
+$$
+
+is [[weak homotopy equivalence|equivalent to]] the [[geometric realization of simplicial topological spaces|geometric realization]] of (a Reedy cofibrant replacement of) the underlying [[simplicial topological space]]
+
+$$
+  |\Pi(X)| \simeq |Q X_\bullet|
+  \,.
+$$
+
+In particular if $X$ is an ordinary [[smooth manifold]] then 
+
+$$
+  \Pi(X) \simeq Sing X
+$$
+
+is equivalent to the standard [[fundamental ∞-groupoid]] of $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Due to the existence of 
+[differentiably good open covers](#DifferentiablyGoodOpenCover)
+of [[paracompact manifold|paracompact]] [[smooth manifold]]s
+the results about the 
+[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]
+diucssed at  [[ETop∞Grpd]] carry over directly to $Smooth \infty Grpd$.
+
+=--
+
+
+
 ### Concrete objects {#StrucConcreteObjects}
 
 We discuss the general abstract notion of 
@@ -508,6 +554,71 @@ There is a good supply of standard results for and constructions with [[simplici
 We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Cohomology">intrinsic cohomology and pricipal ∞-bundles</a> in $Smooth \infty Grpd$.
 
 
+#### Cohomology with constant coefficients
+  {#CohomologyWithConstantCoefficients}
+
++-- {: .un_def }
+###### Definition
+
+Let $A \in $ [[∞Grpd]] be any [[discrete ∞-groupoid]]. Write $|A| \in $ [[Top]] for its [[geometric realization]]. For $X$ any [[topological space]], the [[nonabelian cohomology]] of $X$ with coefficients in $A$ is the set of [[homotopy]] classes of maps $X \to |A|$
+
+$$ 
+  H_{Top}(X,A) := \pi_0 Top(X,|A|)
+  \,.
+$$
+
+We say $Top(X,|A|)$ itself is the [[cocycle]] [[∞-groupoid]] for $A$-valued [[nonabelian cohomology]] on $X$.
+
+Similarly, for $X, \mathbf{A} \in Smooth \infty Grpd$ two smooth $\infty$-groupoids, write
+
+$$
+  H_{Smooth}(X,\mathbf{A}) := \pi_0 Smooth\infty Grpd(X,\mathbf{A})
+$$
+
+for the intrinsic [[cohomology]] of $Smooth \infty Grpd$ on $X$ with coefficients in $\mathbf{A}$.
+
+=--
+
+
++-- {: .un_prop }
+###### Proposition
+
+Let $A \in $ [[∞Grpd]], write $Disc A \in Smooth \infty Grpd$ for the corresponding [[discrete ∞-groupoid|discrete smooth ∞-groupoid]]. Let $X \in SmoothMfd \stackrel{i}{\hookrightarrow} Smooth \infty Grpd$ be a [[paracompact topological space]] regarded as a 0-[[truncated]] 
+Euclidean-topological $\infty$-groupoid. 
+
+We have an [[isomorphism]] of cohomology sets
+
+$$ 
+  H_{Top}(X,A) \simeq H_{Smooth}(X,Disc A)
+$$
+
+and in fact an [[equivalence in an (∞,1)-category|equivalence]] of [[cocycle]] [[∞-groupoid]]s
+
+$$
+  Top(X,|A|) \simeq Smooth\infty Grpd(X, Disc A)
+  \,.
+$$
+
+More generally, for $X_\bullet \in SmoothMfd^{\Delta^{op}}$ we have
+
+$$
+  H_{Smooth}(X_\bullet, Disc A)
+  \simeq
+  H_{Top}(|X_\bullet|, |A|)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows directly from the $(\Pi \dashv Disc)$-[[adjunction]] and the [above proposition](#StrucGeometricHomotopy) asserting that $|\Pi(X_\bullet)| \simeq |X_\bullet|$ is the ordinary [[geometric realization of simplicial topological spaces]].
+
+=---
+
+
+
 #### $G$-Principal bundles for $G$ a Lie group
 
 
@@ -738,7 +849,7 @@ $$
 
 This is ([Brylinski, definition 1.1](#Brylinski)).
 
-As discussed there, this is equivalent to other definitions, notably to a definition given earlier by Segal. 
+As discussed there, this is equivalent to other definitions, notably to a definition given earlier in ([Segal](#Segal)). 
 
 
 +-- {: .un_lemma}
@@ -937,6 +1048,46 @@ Setting here $K_\bullet = \int^{[k]} \Delta[k] \cdot C(\{U^k_i\})$ and using the
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+
+For $G$ a [[compact topological space|compact]] [[Lie group]] and $A$ either 
+
+1. a [[discrete group]]
+
+1. the additive Lie group of [[real numbers]] $\mathbb{R}$;
+
+1. the [[circle group]] $\mathbb{R}/Z = U(1)$
+
+the intrinsic cohomology of $G$ in $Smooth\infty Grpd$ coincides with the refined [[Lie group cohomology]] of ([Segal](#Segal))([Brylinski](#Brylinski))
+
+$$
+  H^n_{Smooth\infty Grpd}(\mathbf{B}G, A) \simeq H^n_{diffr}(G,A)
+  \,.
+$$
+
+In particular we have
+
+$$
+  H^n_{Smooth\infty Grpd}(\mathbf{B}G, U(1))
+  \simeq
+  H^{n+1}_{top}(B G, \mathbb{Z})
+  \,.
+$$
+
+=--
+  
++-- {: .proof}
+###### Proof
+
+The first statement is a special case of the [above proposition](#CohomologyWithConstantCoefficients) about cohomology with constant coefficients. 
+
+The second statement is a special case of the more general statement that is proven at [[SynthDiff∞Grpd]].
+
+The last statement follows then from the observation ([Brylinski](#Brylinski)) that $H^n_{diffr}(G,\mathbb{R}) \simeq H^n_{naive}(G,\mathbb{R})$ and the classical result ([Blanc](#Blanc)) that $H_{naive}^n(G,\mathbb{R}) = 0$ in positive degree, and using the [[fiber sequence]] induced from the [[short exact sequence]] of [[abelian group]]s $\mathbb{Z} \to \mathbb{R} \to \mathbb{R}/\mathbb{Z}$.
+
+=--
+
 
 #### Smooth nonabelian cohomology in low degree
 
@@ -999,16 +1150,6 @@ the fibrant representative for $\mathbf{B}G$, effectively by defin&#238;tion.
 
 (...)
 
-### Geometric homotopy and Galois theory {#StrucGeometricHomotopy}
-
-Due to the existence of 
-[differentiably good open covers](#DifferentiablyGoodOpenCover)
-of [[paracompact manifold|paracompact]] [[smooth manifold]]s
-the results about the 
-[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]
-in  [[ETop∞Grpd]] carry over directly to $Smooth \infty Grpd$.
-
-(...)
 
 ### van Kampen theorem {#StrucVanKampen}
 
@@ -5301,7 +5442,7 @@ For more see [[connection on a smooth principal ∞-bundle]].
 
 The [[cohesive (∞,1)-topos]] [[SynthDiff∞Grpd]] of 
 [[synthetic differential ∞-groupoid]]s is an 
-<a href="">infinitesimal cohesive neighbourhood</a> of $Smooth \infty Grpd$
+<a href="http://nlab.mathforge.org/nlab/edit/cohesive+(infinity%2C1)-topos#InfinitesimalCohesion">infinitesimal cohesive neighbourhood</a> of $Smooth \infty Grpd$
 
 $$
   SynthDiff\infty Grpd
@@ -5347,10 +5488,20 @@ A discussion of smooth $\infty$-groupoids as $(\infty,1)$-sheaves on $CartSp$ an
 
 For references on  [[Chern-Weil theory in Smooth∞Grpd]] and [[connection on a smooth principal ∞-bundle]], see there.
 
-The refined [[Lie group cohomology]] is discussed in
+The results on differentiable [[Lie group cohomology]] used above are in 
 
-* [[Jean-Luc Brylinski]], _Differentiable cohomology of gauge groups_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf)).
+* P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes_ Ast&eacute;risque, vol. 124-125 (1985), pp. 113-130.
+{#Blanc}
+
+and
+
+* [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
 {#Brylinski}
+
+which parallels 
+
+* [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
+{#Segal}
 
 
 
