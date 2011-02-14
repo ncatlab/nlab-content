@@ -478,7 +478,7 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
    $$
       H_{synthdiff}^n(X) 
        \simeq 
-      H^n_{cochain}(N^\bullet(\mathb{L}\mathcal{O})(X))
+      H^n_{cochain}(N^\bullet(\mathbb{L}\mathcal{O})(X))
       \,.
    $$
 
@@ -549,7 +549,7 @@ $$
 
 because the embeddding $i_! : Smooth\infty Grpd \hookrightarrow SynthDiff\infty Grpd$ is a [[full and faithful (∞,1)-functor]] and because by the [above proposition](#EmbeddingOfSmoothRepresentables) it sends $\mathbb{R} \in Smooth\infty Grpd$ to $\mathbb{R} \in SynthDiff\infty Grpd$.
 
-To see the first equivalence, let $\mathb{B}G_c \in [\Delta^{op}, [CartSp_{synthdiff}^{op}, Set]] = [CartSp_{sythdiff}^{op}, sSet]$ be the standard presentation of $\mathbf{B}G \in SynthDiff\infty Grpd$ by the [[nerve]] of the [[Lie groupoid]] $(G \stackrel{\to}{\to} *)$ (as discussed <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#LieGroups">here</a>). We may write this as
+To see the first equivalence, let $\mathbf{B}G_c \in [\Delta^{op}, [CartSp_{synthdiff}^{op}, Set]] = [CartSp_{sythdiff}^{op}, sSet]$ be the standard presentation of $\mathbf{B}G \in SynthDiff\infty Grpd$ by the [[nerve]] of the [[Lie groupoid]] $(G \stackrel{\to}{\to} *)$ (as discussed <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#LieGroups">here</a>). We may write this as
 
 $$
   \mathbf{B}G_c = \int^{[k] \in \Delta} \Delta[k] \cdot G^{\times_k}
@@ -580,7 +580,7 @@ exists and is a weak equivalence in $[CartSp_{synthdiff}, sSet]_{inj}$, hence in
 1. the [[coend]] over the tensoring
 
    $$
-     \int^\Delta [\Delta, sSet_{Quillen}]_{Reedy} \times
+     \int^\Delta \;:\; [\Delta, sSet_{Quillen}]_{Reedy} \times
       [\Delta^{op}, [CartSp_{synthdiff}^{op}, sSet]_{inj}]_{Reedy}
      \to
       [CartSp_{synthdiff}^{op}, sSet]_{inj}
@@ -599,7 +599,7 @@ $$
   \mathbf{B}G_{c}  
 $$
 
-where we are using again the left [[Quillen bifunctor]] property and the fact that $\mathb{\Delta} \to \Delta$ is a weak equivalence between cofibrant objects in $[\Delta, sSet]_{Reedy}$. Finally that this is indeed cofibrant follows from
+where we are using again the left [[Quillen bifunctor]] property and the fact that $\mathbf{\Delta} \to \Delta$ is a weak equivalence between cofibrant objects in $[\Delta, sSet]_{Reedy}$. Finally that this is indeed cofibrant follows from
 
 1. the left [[Quillen bifunctor]] property of
 
@@ -610,53 +610,43 @@ where we are using again the left [[Quillen bifunctor]] property and the fact th
       [CartSp_{synthdiff}^{op}, sSet]_{proj}
    $$
 
-1. the fact that the [[fat simplex]] is cofibrant $\emptyset \hookrightarrpw \mathbf{\Delta}$ in $[\Delta, sSet]_{proj}$.
+1. the fact that the [[fat simplex]] is cofibrant $\emptyset \hookrightarrow \mathbf{\Delta}$ in $[\Delta, sSet]_{proj}$.
 
-
-Since $\mathcal{O}$ is a [[left adjoint]] it commutes with the [[coend]] and the [[tensoring]], so that
+Observe that the functor 
 
 $$
-  (\mathbb{L} \mathcal{O}) \mathbf{B}G_c
-   \simeq
-   \mathcal{O} Q \mathb{B}G_c
+  [\Delta^{op}, \mathcal{O}] : 
+  [\Delta^{op}, [CartSp_{synthdiff}^{op}, sSet]_{proj,loc}]
+  \to
+  [\Delta^{op}, SmoothAlg^{op}]
+$$
+
+preserves [[Reedy model structure|Reedy cofibrant]] objects because the left [[Quillen adjunction|Quillen functor]] $\mathcal{O}$ preserves [[colimit]]s and cofibrations and hence the property that the morphisms $L_k X \to X_k$ out of latching objects ${\lim_\to}_{s \stackrel{+}{\to} k} X_s$ are cofibrations.
+
+Therefore we may again apply the [[Bousfield-Kan map]] after application of $\mathcal{O}$ to find that there is a weak equivalence
+
+$$
+  \mathcal{O}\mathbf{Q} \mathbf{B}G
   =
   \int^{[k] \in \Delta}
     \mathbf{\Delta}[k] \cdot \mathcal{O}((C(\{U_i^{(k)}\}_i))
-  \,.
-$$
-
-Observe that the [[simplicial object]] $[k] \mapsto \mathcal{O}((C(\{U_i^{(k)}\}_i))$ is [[Reedy model structure|Reedy cofibrant]] in the opposite [[model structure on cosimplicial algebras]] $(SmoothAlg^{\Delta})^{op}$: 
-
-the restriction maps of algebras along face maps
-
-$$
-  d_i^*  : \mathcal{O} C(\{U_i^{(k+1)}\}_i)
-   \to \mathcal{O} C(\{U_i^{(k)}\}_i)
-$$
-
-are surjective for all $k$ (due to the [[simplicial identity]] $d_i s_j = id$ for $i = j$ or $i = j+1$ a preimage of any element is given by applying $s^*_k$ to that element) so that the the resriction to degenerate simplices is a degreewise surjection and hence a fibration in $SmoothAlg^{\Delta}$, hence a cofibration in $(SmoothAlg^{\Delta})^{op}$.
-
-It follows by the [[Bousfield-Kan map]]  that there is a weak equivalence
-
-$$
-  \cdots 
     \simeq
   \int^{[k] \in \Delta}
     \Delta[k] \cdot \mathcal{O}((C(\{U_i^{(k)}\}_i))
-  \,,
 $$
 
-to the object where the [[fat simplex]] is again replaced by the ordinaqry [[simplex]]. This shows that for computing the $\mathbb{R}$-cohomology of $\mathbf{B}G$ it is sufficient to perform a degreewise cofibrant replacement and then apply $\mathcal{O}$; while the fully cofibrant replacement is not necessary. 
-
-All in all this shows that $H^n_{synthdiff}(\mathbf{B}G, \mathb{R})$ is given by the [[cochain cohomology]] of 
+in $(SmoothAlg^{\Delta})^{op}$ to the object where the [[fat simplex]] is replaced back with the ordinary [[simplex]]. Therefore by the [above proposition](#PresentationOfCohomologyLocalization) the 
+$\mathbb{R}$-cohomology that we are after is equivalently computed as the [[cochain cohomology]] of the [[Moore complex|normalized cochain complex]] 
 
 $$
-    N^\bullet(
-      \int^{[k] \in \Delta}
-    \Delta[k] \cdot \mathcal{O}((C(\{U_i^{(k)}\}_i))
-   )
-   \,.
+  N^\bullet(
+    \int^{[k] \in \Delta}
+  \Delta[k] \cdot \mathcal{O}((C(\{U_i^{(k)}\}_i))
+ )
 $$
+
+of the object on the right.
+(In other words, for computing the $\mathbb{R}$-cohomology of $\mathbf{B}G$ it is sufficient to perform a degreewise cofibrant replacement and then apply $\mathcal{O}$; while the fully cofibrant replacement is not necessary. )
 
 This is a formula for $H_{diffgrp}^n(G,\mathbb{R})$, as observed in  ([Brylinski](#Brylinski)).
 
