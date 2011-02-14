@@ -218,7 +218,7 @@ On the other hand, sometimes it requires a little contortion to put something in
 
 Roughly speaking, anafunctors are formulated exactly in order to describe "functors defined up to isomorphism," while representable distributors describe "functors valued in representable presheaves."  "Objects defined up to isomorphism" and "representable presheaves" are *formally* equivalent (without invoking AC), but not every "naturally occurring" object-defined-up-to-isomorphism is "given in nature" by the presheaf it represents.  Some are given by the [[copresheaf]] they corepresent; others aren't given directly in either of those ways.  One can also think of an anafunctor as a particularly convenient "presentation" of a representable distributor.
 
-A further reason that the notion of anafunctor is useful is that when working with [[internal categories]], the quotienting operations necessary to define the composite of internal profunctors may not exist, whereas internal anafunctors can (almost) always be composed.  Thus, when working with (for instance) [[smooth manifold|smooth]] categories or groupoids, profunctors are not so much an option, but anafunctors are well-behaved (see the papers by Bartels and Roberts referenced below).
+A further reason that the notion of anafunctor is useful is that when working with [[internal categories]], the quotienting operations necessary to define the composite of internal profunctors may not exist, whereas internal anafunctors can always be composed.  Thus, when working with (for instance) [[smooth manifold|smooth]] categories or groupoids, profunctors are not so much an option, but anafunctors are well-behaved (see the papers by Bartels and Roberts referenced below).
 
 
 ## Generalizations
