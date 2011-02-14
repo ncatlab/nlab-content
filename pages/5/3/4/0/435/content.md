@@ -61,7 +61,7 @@ There is a related notion of [[simplicial groupoid]] with the added requirement 
 
 Since simplicial sets that are [[Kan complex]]es are an incarnation of [[∞-groupoid]]s, an $sSet$-category all whose [[hom-object]]s happen to be [[Kan complex]]es may be regarded as a category enriched in [[∞-groupoid]]s. By the logic of [[(n,r)-category]] theory this should be a model for an [[(∞,1)-category]].
 
-Treating simplicial categories tis way as models for $(\infty,1)$-categories is one of the central tools in [[homotopy coherent category theory]].
+Treating simplicial categories this way as models for $(\infty,1)$-categories is one of the central tools in [[homotopy coherent category theory]].
 
 Indeed, there is a [[model structure on simplicial categories]] whose fibrant objects are Kan-complex enriched categories, and which is one model for the [[(∞,1)-category of (∞,1)-categories]].
 
@@ -140,3 +140,4 @@ which shows that these resolved functor categories are in fact $sSet$-[[A-∞ ca
 [[!redirects SSet-categories]]
 [[!redirects SimpSet-category]]
 [[!redirects SimpSet-categories]]
+/
