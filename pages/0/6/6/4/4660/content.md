@@ -252,6 +252,33 @@ For $\mathfrak{g}$ a [[semisimple Lie algebra]],$G$ its simply connected Lie gro
 
 (...)
 
+### Relation to intrinsic cohomology of smooth $\infty$-groupoids
+
+We may naturally regard a Lie group as an [[∞-group]] in the 
+[[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s. As such, there is an intrinsic [[(∞,1)-topos]]-theoretic notion of its [[cohomology]].
+
++-- {: .un_prop}
+###### Proposition
+
+For 
+
+
+1. $G$ a [[Lie group]] and $A$ either a [[discrete group]]
+
+1. $G$ a [[compact topological space|compact]] [[Lie group]] and $A$ the additive Lie group of [[real numbers]] $\mathbb{R}$ or the [[circle group]] $\mathbb{R}/Z = U(1)$
+
+the intrinsic cohomology of $G$ in [[Smooth∞Grpd]] coincides with the refined [[Lie group cohomology]] of ([Segal](#Segal))([Brylinski](#Brylinski))
+
+$$
+  H^n_{Smooth\infty Grpd}(\mathbf{B}G, A) \simeq H^n_{diffr}(G,A)
+  \,.
+$$
+
+=--
+
+This is discussed in detail at [[Smooth∞Grpd]] and proven at [[SynthDiff∞Grpd]].
+
+
 ## Related entries
 
 * [[group cohomology]]
