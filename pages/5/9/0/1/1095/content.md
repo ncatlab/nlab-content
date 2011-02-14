@@ -516,3 +516,9 @@ The full picture in terms of Grothendieck-[[(∞,1)-topos]]es of [[(∞,1)-sheav
 [[!redirects (∞,1)-sheaf (∞,1)-topos]]
 [[!redirects (∞,1)-sheaf (∞,1)-toposes]]
 [[!redirects (∞,1)-sheaf (∞,1)-topoi]]
+
+[[!redirects (∞,1)-sheaf (∞,1)-category]]
+[[!redirects (∞,1)-sheaf (∞,1)-categories]]
+
+[[!redirects (infinity,1)-sheaf (infinity,1)-category]]
+[[!redirects (infinity,1)-sheaf (infinity,1)-categories]]
