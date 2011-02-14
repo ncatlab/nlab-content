@@ -8,6 +8,8 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 $\underoverset{a}{b}{\to}$
 
+$\hookleftarrow$
+
 ***
 
 # Contents
