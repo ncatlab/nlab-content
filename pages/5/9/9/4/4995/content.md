@@ -3476,7 +3476,7 @@ $$
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    K &= & i^*(K \times D= &\to&  U
+    K &= & i^*(K \times D) = &\to&  U
   }
   \,,
 $$
@@ -3514,6 +3514,9 @@ $$
 
 We discuss structures that are canonically present in 
 a cohesive $(\infty,1)$-topos equipped with infinitesimal cohesion. These structures parallel the [structures in a general cohesive (∞,1)-topos](#Structures).
+
+
+
 
 #### Infinitesimal paths and de Rham spaces
 
