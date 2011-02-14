@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -33,6 +32,7 @@ This defines the category $Alg Kan$ of algebraic Kan complexes.
 
 For more see the section [Algebraic  fibrant models for higher categories](http://ncatlab.org/nlab/show/model+structure+on+algebraic+fibrant+objects#AlgebaicHigherCategories) at [[model structure on algebraic fibrant objects]].
 
+
 A slight variant of this definition is that of a [[simplicial T-complex]].
 
 
@@ -60,11 +60,11 @@ there is a [[model category]] structure on $Alg Kan$ -- the [[model structure on
 Moreover, there is a direct [[Quillen equivalence]]
 
 $$
-  \Pi_\infty : Top \stackrel{\leftarrow}{\to} AlgKan : |-|
+  \Pi_\infty : Top \stackrel{\leftarrow}{\to} AlgKan : |-|_r
   \,,
 $$
 
-to the standard [[model structure on topological spaces]], where the [[left adjoint]] $|-|$ is [[geometric realization]] of the underlying Kan complexes and $\Pi_\infty$ is a version of the [[fundamental ∞-groupoid]]-functor with values in algebraic Kan complexes. 
+to the standard [[model structure on topological spaces]], where the [[left adjoint]] $|-|_r$ is a quotient of the [[geometric realization]] of the underlying Kan complexes and $\Pi_\infty$ is a version of the [[fundamental ∞-groupoid]]-functor with values in algebraic Kan complexes. 
 
 See <a href="http://ncatlab.org/nlab/show/homotopy+hypothesis#ForKanComplexes">homotopy hypothesis -- for algebraic Kan complexes</a> for details.
 
