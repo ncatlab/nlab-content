@@ -165,6 +165,6 @@ For a similar link list with considerable overlap see
 
 ##Appendix: Sites for Topoi
 
-
+* [[Giraud's theorem]]
 
 category: reference
