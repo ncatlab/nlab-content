@@ -3255,6 +3255,244 @@ $$
 Let for the remainder of this section an infinitesimal neighbourhood $\mathbf{H} \hookrightarrow \mathbf{H}_{th}$ be fixed.
 
 
+### Properties
+
++-- {: .un_prop #InfinitesimalNeighbourhoodFromInfinitesimalSite}
+###### Proposition
+
+Let $C$ be an [[∞-cohesive site]] and $i : C \hookrightarrow C_{th}$ its [[infinitesimally ∞-cohesive site]]. Then the [[(∞,1)-category of (∞,1)-sheaves]] on $C_{th}$ is a cohesive $(\infty,1)$-topos and restriction $i^*$ along $i$ exhibits it as an [infinitesimal neighbourhood](#InfinitesimalNeighbourhoodIsOverInfGroupoid) of the cohesive topos over $C$.
+
+$$
+ ( i_! \dashv i^* \dashv i_* \dashv i^! )
+  :
+  Sh_{(\infty,1)}(C)
+  \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\stackrel{i^!}{\leftarrow}}}}
+  Sh_{(\infty,1)}(C^{th})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We [[presentable (∞,1)-category|present]] the [[(∞,1)-sheaf (∞,1)-category]] $Sh_{(\infty,1)}(C^{th})$ by the [[model structure on simplicial presheaves]] [[Bousfield localization of model categories|left Bousfield localized]] at the [[covering]] [[sieve]] inclusions 
+
+$$
+  Sh_{(\infty,1)}(C_{th}) \simeq
+  ([C_{th}^{op}, sSet]_{loc})^\circ
+$$
+
+(as discussed at [[models for ∞-stack (∞,1)-toposes|models for (∞,1)-sheaf (∞,1)-toposes]]).
+
+
+By definition of $C_{th}$ the functor $i$ has a [[right adjoint]] given by
+
+$$
+  p : (K \times D) \mapsto K
+  \,,
+$$
+
+that exhibits a [[coreflective subcategory]]
+
+$$
+  (i \dashv p) : C_{th}
+    \stackrel{\overset{i}{\leftarrow}}{\underset{p}{\to}}
+   C
+  \,.
+$$
+
+
+Consider the right [[Kan extension]] $Ran_i : [C^{op}, sSet] \to [C_{th}^{op},sSet]$ of [[simplicial presheaves]] along the functor $i$. On an object $K \times D \in C_{th}$ it is given by 
+
+$$
+  \begin{aligned}
+    Ran_{i} F : K \times D 
+    & \mapsto {\lim_\leftarrow}_{\{U \to K \times D\}} F(U)
+    \\
+    & \simeq {\lim_\leftarrow}_{\{U \to K\} } F(U)
+    \\
+    & \simeq F(K)
+    \\
+    & \simeq F(p(K \times D))
+    \\
+    & =: (p^* F)(K \times D)
+   \end{aligned}
+  \,,
+$$
+
+where the [[limit]]s are over the [[opposite category|opposite]] [[comma categories]] $(i/(K \times D))^{op}$ and $(Id_{C}/K)^{op}$, respectively, and where we are using in the first step that there is a unique terminal morphism from $K \in C$ to the [[infinitesimally thickened point]] $D$ and in the second step the [[Yoneda reduction]]-form of the [[Yoneda lemma]]. The rest is notation.
+
+This shows that the right adjoint to $(-)\circ i$ is itself given by precomposition with a functor, and hence has itself a further right adjoint, which gives us a total of four [[adjoint functor]]s
+
+$$
+  [C^{op}, sSet]  
+    \stackrel{\overset{Lan_i}{\to}}{\stackrel{\overset{(-)\circ i}{\leftarrow}}{\stackrel{\overset{(-)\circ p}{\to}}{\underset{Ran_p}{\leftarrow}}}}
+  [C_{th}^{op}, sSet]
+  \,.
+$$
+
+From this are directly induced the corresponding [[simplicial Quillen adjunction]]s on the global projective and injective [[model structure on simplicial presheaves]]
+
+$$
+  (Lan_i \dashv (-) \circ i) : 
+  [C^{op}, sSet]_{proj}
+   \stackrel{\overset{Lan_i}{\to}}{\underset{(-)\circ i}{\leftarrow}}
+  [C_{th}^{op}, sSet]_{proj}
+  \,;
+$$
+
+$$
+  ((-)\circ i \dashv (-) \circ p) : 
+  [C^{op}, sSet]_{proj}
+   \stackrel{\overset{(-)\circ i}{\leftarrow}}
+    {\underset{(-)\circ p}{\to}}
+  [C_{th}^{op}, sSet]_{proj}
+  \,;
+$$
+
+$$
+  ((-) \circ p \dashv Ran_p) : 
+  [C^{op}, sSet]_{inj}
+   \stackrel{\overset{(-)\circ p}{\to}}{\underset{Ran_p}{\leftarrow}}
+  [C_{th}^{op}, sSet]_{inj}
+  \,.
+$$
+
+
+By the discussion at [[simplicial Quillen adjunction]] for these Quillen adjunctions to descent to the Cech-local [[model structure on simplicial presheaves]] it suffices that the [[right adjoint]]s preserve locally fibrant objects. 
+Moeover, by the properties of [[Bousfield localization of model categories|left Bousfield localization]] this in turn is implied if  the [[left adjoint]]s preserve [[covering]]s. 
+
+It is directly see that $(-) \circ i$ prserves fibrant objects, as it just restricts these to fewer objects and hence a subset of covers. That $(-) \circ i$ also preserves covers follows from observing that
+
+$$
+  (-) \circ i : \{U_i \times D \stackrel{(f_i,Id_D)}{\to} U \times D\}
+    \mapsto
+      \{U_i \stackrel{f_i}{\to} U\}
+   \,.
+$$
+
+Therefore $(-) \circ i$ is a left and right local [[Quillen adjunction|Quillen functor]] with left local Quillen adjoint $Lan_i$ and right local Quillenadjoint $(-)\circ p$.
+
+It follows that $i^* : Sh_{(\infty,1)}(C_{th}) \to Sh_{(\infty,1)}(C)$ is given by the left [[derived functor]] of restriction along $i$, and 
+$i_* : Sh_{(\infty,1)}(C) \to Sh_{(\infty,1)}(C_{th})$ is given by the right [[derived functor]] of restriction along $p$. 
+
+Finally to see that $(-) \circ p$ preserves covers notice that for every [[covering]] family $\{U_i \to U\}$ in $C$ and every morphism $K \times D \to p^* U$ in $C_{th}$ we may find a covering $\{K_{j} \times D \to K \times D\}$ of $K \times D$ such that we find commuting diagrams on the left of
+
+$$
+  \array{
+    K_j \times D &\to& p^* U_{i(j)}
+    \\
+    \downarrow && \downarrow
+    \\
+    K \times D &\to& p^* U
+  }
+  \;\;\;
+  \leftrightarrow
+  \;\;\;
+  \array{
+    K_j & =&  i^*(K_j \times D) &\to&  U_{i(j)}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    K &= & i^*(K \times D= &\to&  U
+  }
+  \,,
+$$
+
+because by adjunction these correspond to commuting diagrams as indicated on the right, which exist by definition of [[coverage]] on $C$.
+
+This implies that $\{p^* U_i \to p^* U\}$ is a _generalized cover_ in the terminology at [[model structure on simplicial presheaves]], which by the discussion there implies that the corresponding [[Cech nerve]] equivalent to the [[sieve]] inclusion is a weak equivalence.
+
+This establishes the quadruple of [[adjoint (∞,1)-functor]]s as claimed.
+
+It remains to see that $i_!$ is full and faithful and preserves the terminal object. 
+
+For the first statement notice the general fact that left 
+[[Kan extension]] (see the propeties discussed there) along a [[full and faithful functor]] $i$ satisfies $Lan_i \circ i \simeq id$. It remains to observe that since $(-)\circ i$ is not only right but also left Quillen by the above, we have that $i^* Lan_i$ applied to a cofibrant object is already the [[derived functor]] of the composite.
+
+For the second statement, notice that the point, being representable is cofibrant in $[C^{op}, sSet]_{proj,loc}$. Therefore we may compute 
+the [[derived functor]] $i_!(*)$ as the ordinary left [[Kan extension]] $Lan_i(*)$. The [[coend]] formula gives on any $K \times D \in C_{th}$
+
+$$
+  \begin{aligned}
+    (Lan_i *) : K \times D & \mapsto 
+     \int^{U \in C}
+      CartSp_{synthdiff}(K \times D, U) \cdot
+       C(U,*)
+      \\
+      & \simeq 
+      {\lim_\to}_{U \in C} 
+       C_{th}(K \times D , U)
+      \\
+      & \simeq *
+  \end{aligned}
+  \,,
+$$
+
+where the last step follows since we have a [[colimit]] over a category with a [[terminal object]].
+
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+Conversely this implies that $Sh_{(\infty,1)}(C_{th})$ is an [[∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]], exhibited by the triple of adjunctions
+
+$$
+  (i^* \dashv i_* \dashv i^!) : 
+  SynthDiff \infty Grpd \to Smooth \infty Grpd
+  \,.
+$$
+
+
+=--
+
++-- {: .un_prop #EmbeddingOfSmoothRepresentables}
+###### Observation
+
+The [[(∞,1)-functor]] $i_! : Sh_{(\infty,1)}(C) \to Sh_{(\infty,1)}(C_{th})$ restricts on representables to the [[(∞,1)-Yoneda embedding]]:
+
+$$
+  \array{
+    C &\hookrightarrow& Sh_{(\infty,1)}(C)
+    \\
+    \downarrow^{\mathrlap{i}} && \downarrow^{\mathrlap{i_!}}
+    \\
+    C_{th} &\hookrightarrow& Sh_{(\infty,1)}(C_{th})
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+By the proof of the [above proposition](#CohesivenessUnderSmoothInfGrpd)
+we have that $i_!$ is presented by the left [[derived functor]] of left [[Kan extension]] of [[simplicial presheaves]] along $i$. Since every [[representable functor|representable]] is cofibrant, it is on objects $\mathbb{R}^n \in C$ given by ordinary left [[Kan extension]], which in [[coend]] notation is
+
+$$
+  Lan_i C(-,\mathbb{R}^n) :
+  K \times D
+  \mapsto
+  \int^{U \in C} C_{th}(K \times D, U)
+   \cdot C(U,\mathbb{R}^n)
+  \,.
+$$
+
+But by [[Yoneda reduction]] (more explicitly: observing that this is equivalently the formula for left [[Kan extension]] of the non-corepresentable $C_{th}(K \times D, -) : C \to sSet$ along the identity functor) this is
+
+$$
+  \cdots \simeq C_{th}(K \times D, \mathbb{R}^n)
+  \,.
+$$
+
+=--
+
 ### Structures in the presence of infinitesimal cohesion
 
 We discuss structures that are canonically present in 
