@@ -140,7 +140,7 @@ $$
 $$
 =--
 
-This appears for instance as [MacLaneMoerdijk, seciotn IX.5 prop 3](#MacLaneMoerdijk).
+This appears for instance as [MacLaneMoerdijk, section IX.5 prop 3](#MacLaneMoerdijk).
 
 The functor $L$ here is also called **localic reflection**.
 
