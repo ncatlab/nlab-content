@@ -33,7 +33,7 @@ Specifically, when applied to the algebra $A = B(\mathcal{H})$ of [[bounded oper
 
 Notably the [[Kochen-Specker theorem]] says that $\Sigma(B(\mathcal{H}))$, while nontrivial, has no [[point]]s/no [[global element]]s. (This topos-theoretic geometric reformulation of the Kochen-Specker theorem had been the original motivation for considering $ComSub(A)$ in the first place in [ButterfieldIsham](#ButterfieldIsham)).
 
-Moreover, inside $\mathcal{T}_A$ the [[quantum mechanics|quantum mechanical]] kinematics encoded by $B(\mathcal{H})$ looks like [[classical mechanics]] kinematics internal to $\mathcal{T}_A$ [HeunenLandsmannSpitters](#HeunenLandsmanSpitters), following [D&#246;ringIsham](#DoeringIsham)):
+Moreover, inside $\mathcal{T}_A$ the [[quantum mechanics|quantum mechanical]] kinematics encoded by $B(\mathcal{H})$ looks like [[classical mechanics]] kinematics internal to $\mathcal{T}_A$ ([HeunenLandsmannSpitters](#HeunenLandsmanSpitters), following [D&#246;ringIsham](#DoeringIsham)):
 
 1. the [[open subset]]s of $\Sigma(A)$ are identified with the quantum [[state]]s on $A$. Their collection forms the [[Heyting algebra]] of quantum logic.
 
