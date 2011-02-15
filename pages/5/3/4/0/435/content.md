@@ -74,7 +74,7 @@ By a web of [[Quillen equivalence]]s this is related to the other incarnations o
 
 #### Simplicial localization
 
-To every [[category with weak equivalences]] $(C,W)$ is associatated its [[simplicial localization]] $L_W C$, which is an $sSet$-category with the property that its [[homotopy category of an (∞,1)-category]] coincides with the [[homotopy category]] $Ho_W(C)$.
+To every [[category with weak equivalences]] $(C,W)$ is associated its [[simplicial localization]] $L_W C$, which is an $sSet$-category with the property that its [[homotopy category of an (∞,1)-category]] coincides with the [[homotopy category]] $Ho_W(C)$.
 
 
 
@@ -140,4 +140,4 @@ which shows that these resolved functor categories are in fact $sSet$-[[A-∞ ca
 [[!redirects SSet-categories]]
 [[!redirects SimpSet-category]]
 [[!redirects SimpSet-categories]]
-/
+
