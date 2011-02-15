@@ -111,6 +111,7 @@ $$
 
 ## Properties
 
+### Cohesion
 
 +-- {: .un_prop}
 ###### Proposition
@@ -179,6 +180,143 @@ $$
 =--
 
 
+### Relative cohesion
+
+We discuss the relation of $Smooth\infty Grpd$ to other cohesive $(\infty,1)$-toposes.
+
+#### Continuous cohesion
+
+The [[cohesive (∞,1)-topos]] [[ETop∞Grpd]] of [[Euclidean-topological ∞-groupoid]]s has as [[site]] of definition [[CartSp]]${}_{top}$. There is a canonical [[forgetful functor]]
+
+$$
+  i : CartSp_{smooth} \to CartSp_{top}
+$$
+
++-- {: .un_prop #RelativeTopologicalCohesion}
+###### Proposition
+
+The functor $i$ extends to a triple of [[adjoint (∞,1)-functor]]s
+
+$$
+  (i_! \dashv i^* \dashv i_*)
+  : 
+  Smooth\infty Grpd
+   \stackrel{\overset{i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}}
+  ETop\infty Grpd
+$$
+
+such that the [[(∞,1)-Yoneda embedding]] is factored through the induced inclusuion [[SmoothMfd]] $\stackrel{i}{\hookrightarrow}$ [[Mfd]] as
+
+$$
+  \array{
+    SmoothMfd &\hookrightarrow& Smooth\infty Grpd
+    \\
+    \downarrow^{\mathrlap{i}} && \downarrow^{\mathrlap{i_!}}
+    \\
+    Mfd &\hookrightarrow& ETop\infty Grpd
+  }
+  \,
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using the observation that $i$ preserves [[covering]]s and [[pullback]]s along morphism in covering families, 
+the proof follows precisely the steps of the proof of
+<a href="http://nlab.mathforge.org/nlab/edit/cohesive%20(infinity,1)-topos#InfinitesimalNeighbourhoodFromInfinitesimalSite">this proposition</a>.
+
+(Both of these are special cases of a general statement about morphisms of [[(∞,1)-site]]s, which should eventually be stated in full generality somewhere).
+
+=--
+
++-- {: .un_prop #UnderlyingETopologicalInftyGroupoids}
+###### Corollary
+
+The [[essential geometric morphism|essential]] [[global section]] [[(∞,1)-geometric morphism]] of $Smooth \infty Grpd$ factors through that of [[ETop∞Grpd]]
+
+$$
+  (\Pi_{Smooth} \dashv Disc_{Smooth} \dashv \Gamma_{Smooth})
+   : 
+  Smooth \infty Grpd
+   \stackrel{\overset{i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}}
+  ETop\infty Grpd
+   \stackrel{\overset{\Pi_{ETop}}{\to}}{\stackrel{\overset{Disc_{ETop}}{\leftarrow}}{\underset{\Gamma_{ETop}}{\to}}}
+  \infty Grpd 
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows from the essential uniqueness of the [[global section]] [[(∞,1)-geometric morphism]] and of [[adjoint (∞,1)-functor]]s. 
+
+=--
+
++-- {: .un_prop }
+###### Observation
+
+The functor $i_!$ here is the [[forgetful functor]] that forgets [[smooth structure]] and only remembers [[Euclidean topology]]-structure.
+
+=--
+
+
+#### Infinitesimal cohesion
+
+Observe that [[CartSp]]${}_{smooth}$ is (the [[syntactic cateory]] of) a [[Lawvere theory]]: the [[algebraic theory]] of [[smooth algebra]]s ($C^\infty$-rings). Write $SmoothAlg := Alg(C)$ for the category of its [[algebras over a Lawvere theory|algebras]]. Let $InfPoint \hookrightarrow SmoothAlg^{op}$ be the [[full subcategory]] on the [[infintiesimally thickened point]]s. 
+
++-- {: .un_def}
+###### Definition
+
+Let [[CartSp]]${}_{synthdiff} \hookrightarrow SmoothAlg^{op}$ be the [[full subcategory]] on the objects of the form $U \times D$ with $D \in CartSp_{smooth} \hookrightarrow SmoothAlg^{op}$ and $D \in InfPoint \hookrightarrow SmoothAlg^{op}$. Write
+
+$$
+  i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}
+$$
+
+for the canonical inclusion.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+The inclusion exhibits an 
+<a href="http://nlab.mathforge.org/nlab/edit/cohesive+(infinity%2C1)-topos#InfinitesimalCohesion">infinitesimal cohesive neighbourhood</a> of $Smooth \infty Grpd$
+
+$$
+  (i_! \dashv i^* \dashv i_* \dashv i^!)
+  :
+  Smooth \infty Grpd
+   \hookrightarrow
+  SynthDiff\infty Grpd
+  \,,
+$$
+
+where [[SynthDiff∞Grpd]] is the [[cohesive (∞,1)-topos]]  of 
+[[synthetic differential ∞-groupoid]]s: the [[(∞,1)-category of (∞,1)-sheaves]] over $CartSp_{synthdiff}$.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows of a spcial case of <a href="http://nlab.mathforge.org/nlab/edit/cohesive%20(infinity,1)-topos#InfinitesimalNeighbourhoodFromInfinitesimalSite">this proposition</a> after observing that $CartSp_{synthdiff}$ is an infinitesimal neighbourhood site of CartSp_{smooth}$ in the sense defined there.
+
+=--
+
+In [[SynthDiff∞Grpd]] we have [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s as actual [[infinitesimal object]]s. See there for more details.
+
+
+
+
+
+
+
 ## Structures in the cohesive $(\infty,1)$-topos $Smooth \infty Grpd$ {#InfSheavesOnCartSp}
 
 We discuss the general abstract 
@@ -187,6 +325,21 @@ We discuss the general abstract
 
 ### Geometric homotopy and Galois theory     
   {#StrucGeometricHomotopy}
+
++-- {: .un_prop}
+###### Proposition
+
+If $X \in Smooth\infty Grpd$ is presented by $X_\bullet \in SmoothMfd^{op} \hookrightarrow [CartSp_{smooth}^{op}, sSet]$, then its image $i_!(X) \in $ [[ETop∞Grpd]] under the [relative topological cohesion morphism](#RelativeTopologicalCohesion) is presented by the underlying [[simplicial topological space]] $X_\bullet \in Mfd^{op} \hookrightarrow [CartSp_{top}^{op}, sSet]$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We can choose degreewise [[good open cover]]s 
+
+=--
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -5436,28 +5589,6 @@ For more see [[connection on a smooth principal ∞-bundle]].
 ### Higher holonomy and Chern-Simons functional {#StrucChernSimons}
 
 * [[scheiber:∞-Chern-Simons theory]]
-
-
-## Infinitesimal smooth cohesion
-
-The [[cohesive (∞,1)-topos]] [[SynthDiff∞Grpd]] of 
-[[synthetic differential ∞-groupoid]]s is an 
-<a href="http://nlab.mathforge.org/nlab/edit/cohesive+(infinity%2C1)-topos#InfinitesimalCohesion">infinitesimal cohesive neighbourhood</a> of $Smooth \infty Grpd$
-
-$$
-  SynthDiff\infty Grpd
-    \stackrel{\overset{\Pi_{inf}}{\to}}
-   {\stackrel{\overset{Disc_{inf}}{\leftarrow}}
-   {\underset{\Gamma_{inf}}{\to}}}
-  Smooth \infty Grpd
-  \,.
-$$
-
-
-In [[SynthDiff∞Grpd]] we have [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s as actual [[infinitesimal object]]s. 
-
-
-
 
 
 
