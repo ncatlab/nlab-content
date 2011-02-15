@@ -19,7 +19,7 @@ An [[(∞,1)-topos]] is **$n$-localic** if
 
 * regarded as a [[little topos]] it behaves like a generalized [[n-groupoid]]; 
 
-* if it behaves like the [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] that is a [[(n,1)-category]].
+* it behaves like the [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] that is a [[(n,1)-category]].
 
 More precisely: if [[(∞,1)-geometric morphism]]s into it are fixed by their restriction to the underlying [[(n,1)-toposes]] of $(n-1)$-[[truncated]] objects.
 
