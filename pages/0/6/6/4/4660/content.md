@@ -18,7 +18,7 @@
 
 ## Idea
 
-_Lie group cohomology_ generalizes the notion of [[group cohomology]] from bare [[group]]s to [[Lie group]]s.
+_Lie group cohomology_ generalizes the notion of [[group cohomology]] from [[discrete group]]s to [[Lie group]]s.
 
 From the [[nPOV]] on [[cohomology]], a natural definition is that for $G$ a Lie group, its cohomology is the intrinsic cohomology of its [[delooping]] [[Lie groupoid]] $\mathbf{B}G$ in the [[(∞,1)-topos]] $\mathbf{H} =$ [[?LieGrpd]].
 
