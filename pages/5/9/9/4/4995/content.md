@@ -3274,7 +3274,9 @@ Let $C$ be an [[∞-cohesive site]]. We say a [[site]] $C_{th}$
 
   * $i$ preserves [[pullback]]s along morphisms in [[covering]] families;
 
-  * both $i$ and $p$ send [[covering]] families to covering families
+  * both $i$ and $p$ send [[covering]] families to covering families;
+
+  * for all $\mathbf{U}$ in $C_{th}$ and covering families $\{U_i \to p(\mathbf{U})\}$ there is a lift through $p$ to a covering family $\{\mathbf{U}_i \to \mathbf{U}\}$
 
 is an **infinitesimal neighbourhood site** of $C$.
 
@@ -3326,24 +3328,22 @@ $$
 
 (as discussed at [[models for ∞-stack (∞,1)-toposes|models for (∞,1)-sheaf (∞,1)-toposes]]).
 
-For convenience we shall write the objects in $C_{th}$ in the following as $U \times D$ with $p(U \times D) = U \in C$. This product form is present in the typical examples, but here it is just suggestive notation.
-
 
 Consider the right [[Kan extension]] $Ran_i : [C^{op}, sSet] \to [C_{th}^{op},sSet]$ of [[simplicial presheaves]] along the functor $i$. On an object $K \times D \in C_{th}$ it is given by the [[end]]-expression
 
 $$
   \begin{aligned}
-    \mathrm{Ran}_{i} F : K \times D 
+    \mathrm{Ran}_{i} F : \mathbf{K} 
     & \mapsto 
-    \int_{U \in C} \mathrm{sSet}( C_{\mathrm{th}}(i(U), K \times D)  , F(U))
+    \int_{U \in C} \mathrm{sSet}( C_{\mathrm{th}}(i(U), \mathbf{K})  , F(U))
     \\
     & \simeq 
-    \int_{U \in C} \mathrm{sSet}( C(U, p(K \times D))  , F(U))
+    \int_{U \in C} \mathrm{sSet}( C(U, p(\mathbf{K}))  , F(U))
     \\
     & \simeq 
-    F(p(K \times D))
+    F(p(\mathbf{K}))
     \\
-    & =: (p^* F)(K \times D)
+    & =: (p^* F)(\mathbf{K})
    \end{aligned}
   \,,
 $$
@@ -3390,16 +3390,16 @@ Observe that $Lan_i$, being a left [[Kan extension]], sends representables to re
 
 $$
   Lan_i C(-,T) :
-  K \times D
+  \mathbf{K}
   \mapsto
-  \int^{U \in C} C_{th}(K \times D, U)
+  \int^{U \in C} C_{th}(\mathbf{K}, i(U))
    \cdot C(U,T)
 $$
 
-and by [[Yoneda reduction]] (more explicitly: observing that this is equivalently the formula for left [[Kan extension]] of the non-corepresentable $C_{th}(K \times D, -) : C \to sSet$ along the identity functor) this is
+and by [[Yoneda reduction]] (more explicitly: observing that this is equivalently the formula for left [[Kan extension]] of the non-corepresentable $C_{th}(K \times D, i(-)) : C \to sSet$ along the identity functor) this is
 
 $$
-  \cdots \simeq C_{th}(K \times D, \mathbb{R}^n)
+  \cdots \simeq C_{th}(\mathbf{K}, i(T))
   \,.
 $$
 
@@ -3439,16 +3439,17 @@ $$
 
 is a weak equivalence, hence that $i^* F$ is locally fibrant.
 
-To see that $(-) \circ p$ preserves locally fibrant objects, we apply the analogous reasoning after observing that its [[left adjoint]] $(-)\circ i$ preserves all [[limit]]s and [[colimit]]s of [[simplicial presheaves]] (as these are computed objectwise) and by observing that for $\{U_i \times K \stackrel{p_i}{\to} U \times K\}$ we have that its image under $(-) \circ i$ is its image under $p$, by the [[Yoneda lemma]]:
+To see that $(-) \circ p$ preserves locally fibrant objects, we apply the analogous reasoning after observing that its [[left adjoint]] $(-)\circ i$ preserves all [[limit]]s and [[colimit]]s of [[simplicial presheaves]] (as these are computed objectwise) and by observing that for 
+$\{\mathbf{U}_i \stackrel{p_i}{\to} \mathbf{U}\}$ we have that its image under $(-) \circ i$ is its image under $p$, by the [[Yoneda lemma]]:
 
 $$
   \begin{aligned}
-     [C^{op}, sSet](K, ((-)\circ i) (U \times D))
+     [C^{op}, sSet](K, ((-)\circ i) (\mathbf{U}))
      & \simeq
-     C_{th}(i(K), U \times D)
+     C_{th}(i(K), \mathbf{U})
      \\
      & \simeq
-      C(K, p(U \times D))
+      C(K, p(\mathbf{U}))
   \end{aligned}
 $$
 
@@ -3459,30 +3460,30 @@ Therefore $(-) \circ i$ is a left and right local [[Quillen adjunction|Quillen f
 It follows that $i^* : Sh_{(\infty,1)}(C_{th}) \to Sh_{(\infty,1)}(C)$ is given by the left [[derived functor]] of restriction along $i$, and 
 $i_* : Sh_{(\infty,1)}(C) \to Sh_{(\infty,1)}(C_{th})$ is given by the right [[derived functor]] of restriction along $p$. 
 
-Finally to see that also $Ran_p$ preserves locally fibrant objects by the same reasoning as above, notice that for every [[covering]] family $\{U_i \to U\}$ in $C$ and every morphism $K \times D \to p^* U$ in $C_{th}$ we may find a covering $\{K_{j} \times D \to K \times D\}$ of $K \times D$ such that we find commuting diagrams on the left of
+Finally to see that also $Ran_p$ preserves locally fibrant objects by the same reasoning as above, notice that for every [[covering]] family $\{U_i \to U\}$ in $C$ and every morphism $\mathbf{K} \to p^* U$ in $C_{th}$ we may find a covering $\{\mathbf{K}_j  \to \mathbf{K}\}$ of $\mathbf{K}$ such that we find commuting diagrams on the left of
 
 $$
   \array{
-    K_j \times D &\to& p^* U_{i(j)}
+    \mathbf{K}_j &\to& p^* U_{i(j)}
     \\
     \downarrow && \downarrow
     \\
-    K \times D &\to& p^* U
+    \mathbf{K} &\to& p^* U
   }
   \;\;\;
   \leftrightarrow
   \;\;\;
   \array{
-    K_j & =&  i^*(K_j \times D) &\to&  U_{i(j)}
+    p(\mathbf{K}_j) & =&  i^*(\mathbf{K}_j) &\to&  U_{i(j)}
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    K &= & i^*(K \times D) = &\to&  U
+    p(\mathbf{K}) &= & i^*(\mathbf{K})  &\to&  U
   }
   \,,
 $$
 
-because by adjunction these correspond to commuting diagrams as indicated on the right, which exist by definition of [[coverage]] on $C$.
+because by adjunction these correspond to commuting diagrams as indicated on the right, which exist by definition of [[coverage]] on $C$ and lift through $p$ by assumption on $C_{th}$.
 
 This implies that $\{p^* U_i \to p^* U\}$ is a _generalized cover_ in the terminology at [[model structure on simplicial presheaves]], which by the discussion there implies that the corresponding [[Cech nerve]] equivalent to the [[sieve]] inclusion is a weak equivalence.
 
