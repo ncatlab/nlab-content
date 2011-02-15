@@ -228,6 +228,49 @@ $(\infty,1)$-functors in terms of left/right adjoints to pullbacks may be interp
 
 Details are in [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=215)  of [[Higher Topos Theory|HTT]].
 
+## Properties
+  {#Properties}
+
+Let $\mathcal{V}$ be a suitable enriching category (a [[cosmos]]).
+
++-- {: .un_prop}
+###### Proposition
+
+For $F : C \to D$ a $\mathcal{V}$-[[enriched functor]] between [[small category|small]] $\mathcal{V}$-[[enriched categories]], the left Kan extension along $F$ takes [[representable functor|representable]] [[presheaves]] to their image under $F$:
+
+$$
+  Lan_F C(c, -) \simeq D(F(c), -)
+$$
+
+for all $c \in C$.
+
+=-- 
+
++-- {: .proof}
+###### Proof
+
+Using the [[coend]] formula for the left Kan extension we have naturally in $d' \in D$ the expression
+
+$$
+  \begin{aligned}
+    Lan_F C(c,-) : 
+    d' \mapsto 
+     & 
+    \int^{c' \in C} D(F(c'), d') \cdot C(c,-)(c')
+    \\
+    & \simeq
+    \int^{c' \in C} D(F(c'), d') \cdot C(c,c')
+    \\
+    & \simeq 
+    D(F(c), d')
+  \end{aligned} 
+  \,.
+$$
+
+Here the last step is called sometimes the [[co-Yoneda lemma]]. It follows for instance by observing that $\int^{c' \in C} D(F(c'), d') \cdot C(c,c')$ is equivalently dually the expression for the left Kan extension of the non-representable $D(F(-),d') : C^{op} \to \mathcal{V}$ along the _identity_ functor,
+
+
+=--
 
 ## Examples
 
@@ -290,29 +333,32 @@ This means that whether or not Kan extension corresponds geometrically to pushfo
 
 ## References
 
-See for instance section 2.3 in 
+Textbook sources include
 
-* Kashiwara and Shapira, [[Categories and Sheaves]]
+section 2.3 in 
 
-MacLane's book 
+* Kashiwara and Shapira, _[[Categories and Sheaves]]_
 
-* MacLane, [[Categories Work|Categories for the working mathematician]] 
+The book
+
+* [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_
 
 has a famous treatment of Kan extensions with a statement: "The notion of Kan extensions subsumes all the other fundamental concepts in category theory".  Of course, many other fundamental concepts of category theory can also be regarded as subsuming all the others.
 
 For Kan extensions in the context of [[enriched category theory]] see
 
-* Dubuc, Eduardo J. Kan extensions in enriched category theory. Lecture Notes in Mathematics, Vol. 145 Springer-Verlag, Berlin-New York 1970 xvi+173 pp.
+* [[Eduardo Dubuc]], _Kan extensions in enriched category theory_,  Lecture Notes in Mathematics, Vol. 145 Springer-Verlag, Berlin-New York 1970 xvi+173 pp.
 
-* chapter 4 from G.M. Kelly, _Basic Concepts of Enriched Category Theory_, 
- Cambridge University Press, Lecture Notes in Mathematics 64, 1982,  Republished in:
-Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+and chapter 4 of
 
-The $(\infty,1)$-categorical discussion is in section 4.3 
+* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, 
+ Cambridge University Press, Lecture Notes in Mathematics 64, 1982,  Republished in: Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+The [[(∞,1)-category theory]] notion is discussed in section 4.3 of
 
-See also
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+For uses of Kan extension in the study of [[algebra over a Lawvere theory|algebras over an algebraic theory]] see
 
 * M&#233;lli&#232;s and Tabareau, _Free models of T-algebraic theories computed as Kan extensions_ ([web](http://hal.archives-ouvertes.fr/hal-00339331/fr/))
 
