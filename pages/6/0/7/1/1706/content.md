@@ -106,7 +106,7 @@ Let $X$ be a [[topological space]] and $\xi \to X$ a [[real number|real]] [[vect
     T N \oplus \mathbb{R}^{n-m} \simeq f^* \xi
   $$
 
-  between the [[fiber]]wise [[direct sum]] of the [[tangent bundle]] $T N$ with the trivial rank $(n-m)$ budle and the [[pullback]] of $\xi$ along $f$. 
+  between the [[fiber]]wise [[direct sum]] of the [[tangent bundle]] $T N$ with the trivial rank $(n-m)$ bundle and the [[pullback]] of $\xi$ along $f$. 
 
 =--
 
