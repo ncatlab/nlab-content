@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
@@ -123,7 +123,7 @@ The second is "elements of sets are not themselves sets."
 
 +-- {: .un_theorem}
 ###### Theorem
-Suppose that a structurally presented notion of set includes relations $is:\mathbb{E}_A\looparrowright\mathbb{S}$, which we regard as giving a way to interpret some elements as sets.  Suppose moreover that each $\mathbb{E}_A$ has an equality relation, and that $is(x,B)$ and $is(y,B)$ imply $x=y$.  Then for any set $A$, if there exist $a:\mathbb{E}_A$ and $B:\mathbb{S}$ such that $is(a,B)$, then $A$ must be a subsingleton.
+Suppose that a structurally presented notion of set includes a relation $is:\mathbb{E}_A\looparrowright\mathbb{S}$, which we regard as giving a way to interpret some elements as sets.  Suppose moreover that each $\mathbb{E}_A$ has an equality relation, and that $is(x,B)$ and $is(y,B)$ imply $x=y$.  Then for any set $A$, if there exist $a:\mathbb{E}_A$ and $B:\mathbb{S}$ such that $is(a,B)$, then $A$ must be a subsingleton.
 =--
 +-- {: .proof}
 ###### Proof
@@ -133,4 +133,7 @@ Suppose that $is(a,B)$ and choose $\varphi\equiv is(x,B)$.  By $(\star)$ it foll
 Note that the assumption about equality is quite reasonable if we want to interpret "$is$" as asserting that a given element *is* a given set (rather than merely being related to one in some way).
 
 
+[[!redirects structurally presented set theory]]
 [[!redirects structurally presented set theories]]
+[[!redirects structurally-presented set theory]]
+[[!redirects structurally-presented set theories]]
