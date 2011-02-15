@@ -145,7 +145,7 @@ This appears for instance as [MacLaneMoerdijk, section IX.5 prop 3](#MacLaneMoer
 The functor $L$ here is also called **localic reflection**.
 
 
-In summary this means that locales form a [[reflective subcategory]] or [[Topos]]
+In summary this means that locales form a [[reflective subcategory]] of [[Topos]]
 
 $$ 
   Locale \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
