@@ -15,6 +15,9 @@ The notion of [[homotopy]] behaves badly for locally bad spaces. By [[Gelfand-Na
 
 * [[Marius Dādārlat]], _Shape theory and asymptotic morphisms for $C^\ast$-algebras_, Duke Math. J. __73__ (3):687-711, 1994, [MR95c:46117](http://www.ams.org/mathscinet-getitem?mr=1262931), [pdf](http://www.math.purdue.edu/~mdd/Publications/shape.pdf)
 
+* web page of a project [Noncommutative topology - homotopy functors and E-theory ](http://www.math.ku.dk/~jg/papers/etheory.html)
+
+* Vladimir Manuilov, Klaus Thomsen, _Shape theory and extensions of C*-algebras_, [arxiv/1007.1663](http://arxiv.org/abs/1007.1663)
 
 [[!redirects E-theory]]
 
