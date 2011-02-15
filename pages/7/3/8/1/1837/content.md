@@ -146,7 +146,7 @@ The following tries to give an overview of some collection of gauge fields in ph
 
   * [[field strength]]: $H \in \Omega^4(X)$ the "$G$-field" -- in heterotic [[supergravity]] this is the 5-brane [[magnetic current]] for the  [[twisted cohomology|twisted]] [[Kalb-Ramond field]]
  
-  * [[parallel transport]]: gauge interaction piece of [[path integral|action functional]] of the electrically charged quantum 3-particle (the [[membrane]]).
+  * [[parallel transport]]: gauge interaction piece of [[path integral|action functional]] of the electrically charged quantum 3-particle (the [[brane|membrane]]).
 
 
 * [[RR field]]
@@ -156,6 +156,19 @@ The following tries to give an overview of some collection of gauge fields in ph
     * in presence of nontrivial [[Kalb-Ramond field]]: cocycle in differential [[twisted K-theory]]
 
   * [[field strength]]: RR-forms
+
+## Related concepts
+
+* [[quantum anomaly]]
+
+  * [[Green-Schwarz mechanism]]
+
+## References
+
+* [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
+
+* [[Alessandro Valentino]], _Differential cohomology and quantum gauge fields_ ([pdf](http://www.uni-math.gwdg.de/sandro/seminarGoett.pdf))
+
 
 [[!redirects gauge field]]
 [[!redirects gauge theories]]
