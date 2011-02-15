@@ -224,32 +224,38 @@ The upshot is that if a pointwise extension exists then it is the same as the co
 ### in $(\infty,1)$-categories 
 
 The global definition of Kan extensions for
-$(\infty,1)$-functors in terms of left/right adjoints to pullbacks may be interpreted essentially verbatim in the context of [[(infinity,1)-category|(infinity,1)-categories]] using the corresponding notion of [[limit in quasi-categories]].
+$(\infty,1)$-functors in terms of left/right adjoints to pullbacks may be interpreted essentially verbatim in the context of [[(∞,1)-categories]] 
 
-Details are in [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=215)  of [[Higher Topos Theory|HTT]].
+See [[(∞,1)-Kan extension]].
+
+
 
 ## Properties
   {#Properties}
 
-Let $\mathcal{V}$ be a suitable enriching category (a [[cosmos]]).
+Let $\mathcal{V}$ be a suitable enriching category (a [[cosmos]]). Notably $\mathcal{V}$ may be [[Set]].
 
 +-- {: .un_prop}
 ###### Proposition
 
-For $F : C \to D$ a $\mathcal{V}$-[[enriched functor]] between [[small category|small]] $\mathcal{V}$-[[enriched categories]], the left Kan extension along $F$ takes [[representable functor|representable]] [[presheaves]] to their image under $F$:
+For $F : C \to D$ a $\mathcal{V}$-[[enriched functor]] between [[small category|small]] $\mathcal{V}$-[[enriched categories]] we have
 
-$$
-  Lan_F C(c, -) \simeq D(F(c), -)
-$$
+1. the left Kan extension along $F$ takes [[representable functor|representable]] [[presheaves]] $C(c,-) : C \to \mathcal{V}$ to their image under $F$:
 
-for all $c \in C$.
+   $$
+     Lan_F C(c, -) \simeq D(F(c), -)
+   $$
+
+   for all $c \in C$.
+
+1. if $F$ is a [[full and faithful functor]] then $Lan_F \circ F^* \simeq id$.
 
 =-- 
 
 +-- {: .proof}
 ###### Proof
 
-Using the [[coend]] formula for the left Kan extension we have naturally in $d' \in D$ the expression
+For the first statement, using the [[coend]] formula for the left Kan extension we have naturally in $d' \in D$ the expression
 
 $$
   \begin{aligned}
@@ -267,8 +273,22 @@ $$
   \,.
 $$
 
-Here the last step is called sometimes the [[co-Yoneda lemma]]. It follows for instance by observing that $\int^{c' \in C} D(F(c'), d') \cdot C(c,c')$ is equivalently dually the expression for the left Kan extension of the non-representable $D(F(-),d') : C^{op} \to \mathcal{V}$ along the _identity_ functor,
+Here the last step is called sometimes the [[co-Yoneda lemma]]. It follows for instance by observing that $\int^{c' \in C} D(F(c'), d') \cdot C(c,c')$ is equivalently dually the expression for the left Kan extension of the non-representable $D(F(-),d') : C^{op} \to \mathcal{V}$ along the _identity_ functor.
 
+Similarly for the second, if $H : D \to E$ is any $\mathcal{V}$-[[enriched functor]] with $E$ [[tensoring|tensored]] over $\mathcal{V}$, then its left Kan extension evaluated on the image of $F$ is
+
+$$
+  \begin{aligned}
+    Lan_F H : F(d) \mapsto
+     & \int^{c \in C} D(F(c), F(d)) \cdot H(c) 
+     \\
+     & \simeq 
+     \int^{c \in C} C(c, d) \cdot H(c)
+     \\
+     & \simeq H(d)
+  \end{aligned}
+  \,.
+$$
 
 =--
 
@@ -329,6 +349,12 @@ It is however noteworthy that also the opposite perspective does occur in geomet
 * and similar in higher degrees: if $C = P_1(X)$ is the smooth path groupoid of a smooth space and $D = \mathbf{B} U(1)$ the smooth [[group]] $U(1)$ regarded as a one-object [[Lie groupoid]], then smooth functors $C \to D$ correspond to smooth 1-forms $\in \Omega^1(X)$ on $X$, and precomposition with a smooth functor $p : P_1(X) \to P_1(X')$ corresponds to the familiar notion of _pullback_ of 1-forms.
 
 This means that whether or not Kan extension corresponds geometrically to pushforward or to pullback depends on the way (covariant or contravariant) in which the domain categories $C$, $C'$ are identified with geometric entities.
+
+## Related concepts
+
+* **Kan extension**
+
+* [[(∞,1)-Kan extension]]
 
 
 ## References
