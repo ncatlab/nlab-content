@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Yoneda lemma
++--{: .hide}
 [[!include Yoneda lemma - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -10,7 +15,7 @@
 
 ## Idea
 
-"Yoneda reduction" is a term coined by [[Todd Trimble]] in his (unpublished) thesis. It refers to a technique based on the [[Yoneda lemma]] for performing a number of [[end|end and coend]] calculations which arise in [[coherence theory]] and [[enriched category theory]]. 
+The term _Yoneda reduction_ is was coined by [[Todd Trimble]] in his (unpublished) thesis. It refers to a technique based on the [[Yoneda lemma]] for performing a number of [[end|end and coend]] calculations which arise in [[coherence theory]] and [[enriched category theory]]. 
 
 ## The module perspective on the Yoneda lemma
 
@@ -114,4 +119,4 @@ by Yoneda reduction. This completes the induction.
 
 ## Blog resources
 
-[[Todd Trimble]] talks about Yoneda reduction on the $n$Caf&eacute; [here](http://golem.ph.utexas.edu/category/2008/01/the_concept_of_a_space_of_stat.html#c014365).
+[[Todd Trimble]] talks about Yoneda reduction on the $n$Caf&#233; [here](http://golem.ph.utexas.edu/category/2008/01/the_concept_of_a_space_of_stat.html#c014365).
