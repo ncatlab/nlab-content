@@ -66,7 +66,7 @@ is the [[right adjoint]] part of a [[Quillen equivalence]] between these model s
 
 ## References
 
-The [[homotopy coherent nerve]] is an old idea. See there for references.
+The idea of a [[homotopy coherent nerve]] has been around for some time; see there for references.
 
 The [[Quillen equivalence]] between the [[model structure for quasi-categories]] and the [[model structure on sSet-categories]] is described in
 
