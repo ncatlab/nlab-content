@@ -37,7 +37,7 @@ This setup induces **transgression to mapping spaces** in the following.
 Now we apply the generalised cohomology theory to this diagram.  As it is a cohomology theory, the arrows reverse.  We have part of our route from $E^*(X)$ to $E^*(Y)$, namely from $E^*(X)$ to $E^*(Z)$.  However, the way from $E^*(Y)$ to $E^*(Z)$ is blocked: it is a one-way street and we want to go the _wrong_ way.
 
 However, under certain special circumstances, cohomology theories admit push-forward maps.  That is, if $g \colon Z \to Y$ is particularly nice, there is a map $g_! \colon E^*(Z) \to E^*(Y)$.  The notation $g_!$ (pronounced "g shriek") has the explanation that it is a surprise that there is a map in this direction[^shriek].
-Note that the push-forward map, $g_! \colon E^*(Z) \to E^*(Y)$, often results in a change of degree. This is described at [[fiber integration]] and [[Pontrjagin-Thom collaps map]].
+Note that the push-forward map, $g_! \colon E^*(Z) \to E^*(Y)$, often results in a change of degree. This is described at [[fiber integration]] and [[Pontrjagin-Thom collapse map]].
 
 [^shriek]: To the best of [[Andrew Stacey|my]] knowledge, this remark is attributable to [[Ralph Cohen]].
 
