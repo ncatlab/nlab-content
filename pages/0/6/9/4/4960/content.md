@@ -212,6 +212,7 @@ This appears as axiom 2 in ([Lawvere, Categories of spaces](#LawvereCatsOfSpaces
   {#Properties}
 
 ### Adjoint quadruples
+  {#AdjointQuadruples}
 
 Let $(p_! \dashv p^* \dashv p_*\dashv p^!) : \mathcal{E} \to \mathcal{S}$ be a quadruple of [[adjoint functor]]s such that $p^*$ and $p^!$ are [[full and faithful functor]]s. We record some general properties of such a setup.
 
@@ -278,7 +279,7 @@ are defined to be the equal composites of the sides of these diagrams.
 
 This appears as ([Johnstone, lemma 2.1, corollary 2.2](#Johnstone)).
 
-+-- {: .un_prop}
++-- {: .un_prop #TheEpiAndTheMono}
 ###### Proposition
 
 The following conditions are equivalent:
@@ -302,10 +303,9 @@ This appears as ([Johnstone, lemma 2.3](#Johnstone)).
 
 By the above definition, $\phi_S$ is a [[monomorphism]] precisely if $\iota_{p^* S} : p^* S \to p^! p_* p^* S$ is. This in turn is so (see [[monomorphism]]) precisely if the first [[function]] in
 
-$$
-  (\iota_{p^* X}) \circ (-) : 
+$$  
     \mathcal{E}(A,p^* X) 
-     \to 
+     \stackrel{(\iota_{p^* X}) \circ (-)}{\to} 
     \mathcal{E}(A, p^! p_* p^* S)
      \stackrel{\simeq}{\to}
     \mathcal{S}(p_* A, p_* p^* S)
@@ -321,29 +321,28 @@ $$
   \,.
 $$
 
-Similarly, by the above definition the morphism $\theta_X$ is an epimorphism precisely if $p_!(\eta_X) : p_! p^* p_* X \to p_! X$ is so, which is the case precisely if the first morphism in
+Similarly, by the above definition the morphism $\theta_X$ is an epimorphism precisely if $p_!(\eta_X) : p_! p^* p_* X \to p_! X$ is so, which is the case precisely if the top morphism in
 
 $$
-  (-) \circ p_!(\eta_X)
-  :
-  \mathcal{S}(p_! X, S) 
-    \to 
-  \mathcal{S}(p_! p^* p_* X, S)
-    \stackrel{\simeq}{\to}
-  \mathcal{E}(p^* p_* X, p^* S)
+  \array{
+    \mathcal{S}(p_! X, S) 
+      &\stackrel{(-) \circ p_!(\eta_X)}{\to} &
+    \mathcal{S}(p_! p^* p_* X, S)
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    && \mathcal{E}(p^* p_* X, p^* S)
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathcal{E}(X, p^* S) &\stackrel{p_*}{\to}& \mathcal{S}(p_* X, p_* p^* S)
+  }
 $$
 
-and hence the composite is a monomorphism in [[Set]]. By the definition of [[adjunct]] and the $(p_! \dashv p^*)$-[[zig-zag identity]] this is the map that acts by
-
-$$
-  (-) \circ p_!(\eta_X)
-  : 
-  (p_! X \to S)
-    \mapsto
-  ()
-$$
-
-
+and hence the bottom morphism is a monomorphism in [[Set]],
+where again the commutativity of this diagram follows from the 
+definition of [[adjunct]] and the 
+$(p_! \dashv p^*)$-[[zig-zag identity]].
 
 =--
 
@@ -359,7 +358,7 @@ The axioms [pieces have points](#PiecesHavePoints) and [discrete objects are con
 
 =--
 
-This is observed in ([Lawvere](#LawvereAxiomatic)). A proof is spelled out in ([Johnstone, lemma 2.3]).
+This is just a reformulation of the [above proposition](#TheEpiAndTheMono).
 
 +-- {: .un_prop}
 ###### Proposition
