@@ -146,14 +146,8 @@ is again a &#180;Quillen bifunctor.
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This is proposition A.2.9.26 together with remark A.2.9.27 in 
-
-* [[Jacob Lurie]], [[Higher Topos Theory]]
-
-=--
+This [Lurie, prop. A.2.9.26 with remark A.2.9.27](#Lurie). 
 
 
 
@@ -199,6 +193,15 @@ For $C = \Delta$ this is the classical prescription by Bousfield-Kan for homotop
 
 Using the above proposition, it follows in particular explicitly that the homotopy colimit preserves degreewise cofibrations of functors over which it is taken.
 
-A nice discussion of this is in
+A nice discussion of this is in ([Gambino](#Gambino)).
+
+
+## References
+
+Appendix A.2 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+{#Lurie}
 
 * Nicola Gambino, _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf))
+{#Gambino}
