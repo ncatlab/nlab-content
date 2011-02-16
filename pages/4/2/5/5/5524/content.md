@@ -278,48 +278,30 @@ The proof of the above statements is given in ([Stel](#Stel)), following ([To&#2
 +-- {: .un_prop #RealCohomologyOfCompactLieGroup}
 ###### Proposition
 
-Let $G \in SmoothMfd \hookrightarrow Smooth\infty Grpd \hookrightarrow SynthDiff\infty Grpd $ be a [[compact topological space|compact]] [[Lie group]]. 
+Let $G \in SmoothMfd \hookrightarrow Smooth\infty Grpd \hookrightarrow SynthDiff\infty Grpd $ be a [[Lie group]]. 
 
-Then the intrinsic group cohomology in [[Smooth∞Grpd]] and in $SynthDiff\infty Grpd$ of $G$ with coefficients in $\mathbb{R}$ vanishes in positive degree
+Then the intrinsic group cohomology in [[Smooth∞Grpd]] and in $SynthDiff\infty Grpd$ of $G$ with coefficients in $\mathbb{R}$ coincides with [[Graeme Segal|Segal]]'s refined [[Lie group cohomology]] ([Segal](#Segal), [Brylinski](#Brylinski)).
 
 $$
   H^n_{smooth}(\mathbf{B}G, \mathbb{R})
   \simeq
   H^n_{synthdiff}(\mathbf{B}G, \mathbb{R})
-  \simeq 0
+  \simeq
+  H^n_{Segal}(G,\mathbb{R})
+  \,.
 $$
 
-for $n \geq 1$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-We show this by demonstrating that there is a component-formula that expresses $H^n_{synthdiff}(\mathbf{B}G, \mathbb{R})$ which coincides with a formula known to descibe [[Graeme Segal|Segal]]-Blanc-[[Jean-Luc Brylinski|Brylinski]]'s refined [[Lie group cohomology]] -- _<a href="http://nlab.mathforge.org/nlab/show/Lie+group+cohomology#definition_11">differential group cohomology</a>_ $H^n_{diffgrp}(G, \mathbb{R})$  
+We show the equivalence 
+$H_{synthdiff}^n(\mathbf{B}G, \mathbb{R})\simeq H_{Segal}^n(G,\mathbb{R})$
+by demonstrating that there is a component-formula that expresses $H^n_{synthdiff}(\mathbf{B}G, \mathbb{R})$ which coincides with a formula known to descibe [[Graeme Segal|Segal]]-Blanc-[[Jean-Luc Brylinski|Brylinski]]'s refined [[Lie group cohomology]] -- _<a href="http://nlab.mathforge.org/nlab/show/Lie+group+cohomology#definition_11">differential group cohomology</a>_ $H^n_{diffgrp}(G, \mathbb{R})$ .
 
-$$
-  H^n_{synthdiff}(\mathbf{B}G, \mathbb{R})
-   \simeq
-  H^n_{diffgrp}(G, \mathbb{R})
-  \,.
-$$
-
-Once we have shown this, the result then follows with ([Brylinski, prop. 1.3](#Brylinski)), which states that 
-
-$$
-  H^n_{diffgrp}(G,\mathbb{R}) = H^n_{classical}(G,\mathbb{R})
-$$
-
-coincides with classical/naive [[Lie group cohomology]] (see there for details) and a result by ([Blanc](#Blanc)) that 
-
-$$
-  H^n_{classical}(G,\mathbb{R}) = 0
-$$
-
-for a compact Lie group $G$.
-
-Finally, it follows that
+The further equivalence
 
 $$
   H_{smooth}^n(\mathbf{B}G, \mathbb{R})
@@ -327,7 +309,7 @@ $$
   H_{synthdiff}^n(\mathbf{B}G, \mathbb{R})
 $$
 
-because the embeddding $i_! : Smooth\infty Grpd \hookrightarrow SynthDiff\infty Grpd$ is a [[full and faithful (∞,1)-functor]] and because by the [above proposition](#EmbeddingOfSmoothRepresentables) it sends $\mathbb{R} \in Smooth\infty Grpd$ to $\mathbb{R} \in SynthDiff\infty Grpd$.
+holds because the embeddding $i_! : Smooth\infty Grpd \hookrightarrow SynthDiff\infty Grpd$ is a [[full and faithful (∞,1)-functor]] and because by the [above proposition](#EmbeddingOfSmoothRepresentables) it sends $\mathbb{R} \in Smooth\infty Grpd$ to $\mathbb{R} \in SynthDiff\infty Grpd$.
 
 To see the first equivalence, let $\mathbf{B}G_c \in [\Delta^{op}, [CartSp_{synthdiff}^{op}, Set]] = [CartSp_{sythdiff}^{op}, sSet]$ be the standard presentation of $\mathbf{B}G \in SynthDiff\infty Grpd$ by the [[nerve]] of the [[Lie groupoid]] $(G \stackrel{\to}{\to} *)$ (as discussed <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#LieGroups">here</a>). We may write this as
 
@@ -372,7 +354,7 @@ $$
   \mathbf{B}G_{c}  
 $$
 
-exists and is a weak equivalence in $[CartSp^{op}_{synthdiff}, sSet]_{inj}$, hence in $[CartSp_{synthdiff}, sSet]_{proj}$, hence in $[CartSp_{synthdiff}, sSet]_{proj,loc}$, beause
+exists and is a weak equivalence in $[CartSp^{op}_{synthdiff}, sSet]_{inj}$, hence in $[CartSp_{synthdiff}, sSet]_{proj}$, hence in $[CartSp_{synthdiff}, sSet]_{proj,loc}$, because
 
 1. $\Delta \in [\Delta, sSet_{Quillen}]_{Reedy}$ is cofibrant in the [[Reedy model structure]] (see there);
 
@@ -427,7 +409,7 @@ preserves [[Reedy model structure|Reedy cofibrant]] objects because the left [[Q
 Therefore we may again apply the [[Bousfield-Kan map]] after application of $\mathcal{O}$ to find that there is a weak equivalence
 
 $$
-  \mathcal{O}\mathbf{Q} \mathbf{B}G
+  \mathcal{O}\mathbf{Q} \mathbf{B}G_c
   =
   \int^{[k] \in \Delta}
     \mathbf{\Delta}[k] \cdot \mathcal{O}((C(\{U_i^{(k)}\}_i))
@@ -459,11 +441,11 @@ Observing that for $S_{\bullet,\bullet}$ a [[bisimplicial set]] (see there for d
 +-- {: .un_prop }
 ###### Corollary
 
-For $G$ a [[compact topological space|compact]] [[Lie group]] we have for all $n \in \mathbb{Z}$ that
+For $G$ a [[compact topological space|compact]] [[Lie group]] we have for all $n \geq 1$ that
 
 $$
-  H_{smooth}^{n}(G, \mathbb{Z}) \simeq H^n_{smooth}(G,U(1))
-  \simeq H_{top}^n(B G, \mathbb{Z})
+  H^n_{smooth}(G,U(1))
+  \simeq H_{top}^{n+1}(B G, \mathbb{Z})
   \,.
 $$
 
@@ -472,9 +454,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The equality $H_{smooth}^n(G, \mathbb{Z}) \simeq H^n_{top}(B G, \mathbb{Z})$ is a special case of the general statement about cohomology with constant coefficients discussed <a href="http://ncatlab.org/nlab/show/Euclidean-topological+infinity-groupoid#Cohomology">here</a>.
-
-The second follows from applying this and the [above result](#RealCohomologyOfCompactLieGroup) to the [[fiber sequence]] induced by the sequence $\mathbb{Z} \to \mathbb{R} \to \mathbb{R}/\mathbb{Z} = U(1)$.
+This follows from applying the [above result](#RealCohomologyOfCompactLieGroup) to the [[fiber sequence]] induced by the sequence $\mathbb{Z} \to \mathbb{R} \to \mathbb{R}/\mathbb{Z} = U(1)$.
 
 =--
 
