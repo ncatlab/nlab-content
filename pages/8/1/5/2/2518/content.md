@@ -30,7 +30,7 @@ It is hard to say precisely what makes a set theory "structural", but one attemp
 
 Among category theorists, it's popular to state the axioms of a structural set theory by specifying elementary properties of [[Set|the category of sets]].  For this reason structural set theory is often called **categorial set theory**.
 
-* The original, and most commonly cited, categorially presented structural set theory is [[Bill Lawvere]]'s [[ETCS]].  It is weaker than ZFC and must be supplemented with an [[axiom of collection]] to handle some esoteric parts of modern mathematics, although it suffices for most everyday uses.
+* The original, and most commonly cited, categorially presented structural set theory is [[Bill Lawvere]]'s [[ETCS]].  It is weaker than ZFC and must be supplemented with an [[axiom of collection]] to handle some esoteric parts of modern mathematics, although it suffices for most everyday uses.  [McLarty's paper](#NumbersCanBe) argues that ETCS resolves the issues originally raised by Benacerraf.
 
 * Another structural set theory, which is stronger than ETCS (since it includes the axiom of collection by default) and also less closely tied to category theory, is [[SEAR]].
 
@@ -47,6 +47,9 @@ Among category theorists, it's popular to state the axioms of a structural set t
 
 * P. Benacerraf, _What numbers could not be_, The Philosophical Review Vol. 74, No. 1, Jan., 1965  
 {#WhatNumbersCouldNotBe}
+
+* [[Colin McLarty]], _Numbers can be just what they have to_, No&#251;s, Vol 27, No. 4, 1993.
+{#NumbersCanBe}
 
 
 [[!redirects structural set theories]]
