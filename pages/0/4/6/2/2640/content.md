@@ -116,7 +116,7 @@ Let $X,Y : \Delta^{op} \times \Delta^{op} \to Set$ be bisimplicial sets.
 A morphism $f : X \to Y$ which is degreewise in one argument a weak equivalence
 $f_{n,\bullet} : X(n,\bullet) \to Y(n,\bullet)$ induces a weak equivalence 
 $d(f) : d(X) \to d(Y)$ of the associated diagonal simplicial sets
-(with respect to the standard [[model structure on simplicial sets]]s).
+(with respect to the standard [[model structure on simplicial sets]]).
 
 =--
 
