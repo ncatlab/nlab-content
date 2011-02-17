@@ -407,11 +407,10 @@ is equivalent to the condition that it
 This is ([Johnstone, theorem 3.4](#Johnstone)).
 
 
-### Quasitoposes of concrete objects {#ConcreteObjects}
+### Quasitoposes of concrete objects 
+  {#ConcreteObjects}
 
-Let $f : \mathcal{E} \to \mathcal{S}$ be a cohesive topos. 
-
-It comes canonically with various [[subcategories]], sub-[[quasi-toposes]] and [[subtopos]]es of interest. 
+A cohesive topos comes canonically with various [[subcategories]], sub-[[quasi-toposes]] and [[subtopos]]es of interest. We discuss some of these.
 
 
 +-- {: .un_lemmaa}
@@ -466,8 +465,54 @@ $$Conc(\mathcal{E}) \hookrightarrow \mathcal{E}$$
 
 for the [[full subcategory]] on concrete objects.
 
- 
 =--
+
++-- {: .un_prop}
+###### Proposition
+
+The functor $\Gamma : \mathcal{E} \to Set$ is a [[faithful functor]] on morphisms $(X \to Y) \in \mathcal{E}$ precisely if $Y$ is a concrete object.
+
+In particular, the restriction $\Gamma : Conc(\mathcal{E}) \to Set$ makes the category of concrete objects a [[concrete category]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that the composite morphism
+
+$$
+  F 
+  : 
+  \mathcal{E}(X,Y) \stackrel{\Gamma}{\to} \mathcal{S}(\Gamma X, \Gamma Y)
+  \stackrel{\simeq}{\to}
+  \mathcal{E}(X, coDisc \Gamma Y)
+$$
+
+is given (see [[adjunct]]) by postcomposition with the $(\Gamma \dashv coDisc)$-[[unit of an adjunction|unit]] $\iota_Y : Y \to coDisc \Gamma Y$
+
+$$
+  \array{
+    X &\to& Y
+    \\
+    \downarrow && \downarrow
+    \\
+    coDisc \Gamma X &\to& coDisc \Gamma Y
+  }
+  \,.
+$$
+
+The condition that $Y$ is a concrete object, hence that $Y \to coDisc \Gamma Y$ is a [[monomorphism]] is therefore equivalent (see there) to the condition that $F$ is a monomorphism, which is equivalent to $F$ being a [[faithful functor]].
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This means that in the formal sense discussed at [[stuff, structure, property]] we may regard $Conc(\mathcal{E})$ as a category of sets _equipped with cohesive structure_ .
+
+=--
+
 
 +-- {: .un_prop}
 ###### Proposition
