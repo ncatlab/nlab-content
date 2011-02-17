@@ -154,7 +154,7 @@ On the other hand, if the Vop&#283;nka scheme also fails, then there will be exp
 
 The relation to the theory of [[locally presentable categories]] is the contents of chapter 6 of
 
-* [[Jiri Adamek]], [[Ji?í Rosický]], _Locally presentable and accessible categories_ London Mathematical Society Lecture Note Series 189
+* [[Jiri Adamek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_,  London Mathematical Society Lecture Note Series 189
 {#AdamekRosicky}
 
 The relation to [[combinatorial model categories]] is discussed in
