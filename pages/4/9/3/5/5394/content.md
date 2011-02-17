@@ -95,7 +95,7 @@ for the [[presheaf topos]] on $ComSub(A)^{op}$.
 +-- {: .un_remark}
 ###### Remark
 
-This opposite order on commutative subalgebras may be seen as the information order from [[Kripke semantics]]: a larger subalgebra contains more information. In this light presheaf topos on $ComSub(A)$, as used by [DoeringIsham](#DoeringIsham) and co-workers, may be seen as the co-Kripke model. This model give the so-called coarse-graining semantics of physics.
+This opposite order on commutative subalgebras may be seen as the information order from [[Kripke semantics]]: a larger subalgebra contains more information. In this light the presheaf topos on $ComSub(A)$, as used by [DoeringIsham](#DoeringIsham) and co-workers, may be seen as the co-Kripke model. This model give the so-called coarse-graining semantics of physics.
 
 =--
 
@@ -132,8 +132,7 @@ This is ([HeunenLandsmanSpitters, theorem 5](#HeunenLandsmanSpitters)).
 +-- {: .un_cor}
 ###### Corollary
 
-By the [[constructive Gelfand duality theorem]] there is uniqeuly a [[locale]] 
-$\Sigma(A)$ internal to $\mathcal{T}_A$ such that $\mathbb{A}$ is the internal commutative $C^*$-algebra of functions on $\Sigma(A)$.
+By the [[constructive Gelfand duality theorem]] there is uniquely a [[locale]] $\Sigma(A)$ internal to $\mathcal{T}_A$ such that $\mathbb{A}$ is the internal commutative $C^*$-algebra of functions on $\Sigma(A)$.
 
 =--
 
