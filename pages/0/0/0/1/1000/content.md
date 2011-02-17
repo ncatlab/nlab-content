@@ -30,7 +30,7 @@ There is an interesting commutativity condition singling out the subclass of com
 
 For a proof of the equivalence between finitary monads and Lawvere theories, see 
 
-* J. Adamek and J. Rosicky, _Locally presentable and accessible categories_ (chapter 3), LMS Lecture Notes 189, Cambridge U. Press, 1994. 
+* J. Adamek and J. Rosicky, _[[Locally presentable and accessible categories]]_ (chapter 3), LMS Lecture Notes 189, Cambridge U. Press, 1994. 
 
 Durov's application of finitary monads to the "field with one element" may be found in...
 
