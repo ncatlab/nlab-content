@@ -35,12 +35,14 @@ The categories of models of limit-sketches are the [[locally presentable categor
 
 An overview of the theory is given in
 
-* Ad&#225;mek and Rosicky,  _Locally Presentable and Accessible Categories_. Cambridge University Press, Cambridge,
+* Ad&#225;mek and Rosicky,  _[[Locally Presentable and Accessible Categories]]_. Cambridge University Press, Cambridge,
 1994. 
 
 An extensive treatment of the links between theories, sketches and models can be found in 
 
-Michael Barr and Charles Wells, [[Toposes, Triples and Theories]], Originally published by:
+* Makkai, Par&#233;, _Accessible categories: The foundations of categorical model theory_ Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989.1989.
+
+* Michael Barr and Charles Wells, [[Toposes, Triples and Theories]], Originally published by:
 Springer-Verlag, New York, 1985, republished in:
 [[Reprints]] in [Theory and Applications of Categories, No. 12 (2005) pp. 1-287](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
 
