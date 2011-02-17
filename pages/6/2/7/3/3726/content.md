@@ -43,15 +43,18 @@ An [[object]] $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **$n$-connected
   
 A [[morphism]] $f : X \to Y$ in an $(\infty,1)$-topos is $n$-connected if 
 
-1. it is an [[effective epimorphism]]
+1. it is an [[effective epimorphism in an (∞,1)-category]]
 
 1. regarded as an object in the 
    [[over quasi-category|over-(∞,1)-category]] 
    $\mathbf{H}_{/Y}$ all [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]]
    equal to or below degree $n$ are trivial.
+
 =--
 
 By convention every object is $(-2)$-connected.
+
+Notice that [[effective epimorphism in an (∞,1)-category|effective epimorphisms]] are precisely the $(-1)$-connected morphisms.
 
 This appears as [[Higher Topos Theory|HTT, def. 6.5.1.10]], but under the name "$(n+1)$-connective".  Another possible term is "$n$-simply connected"; see [[n-connected space]] for discussion.
 
@@ -71,6 +74,7 @@ This is [[Higher Topos Theory|HTT, prop. 6.5.1.12]].
 ###### Observation
 
 Every [[equivalence in a quasi-category|equivalence]] is $\infty$-connected.
+
 =--
 
 This is [[Higher Topos Theory|HTT, prop. 6.5.1.16, item 2]].
@@ -88,10 +92,19 @@ In a general $(\infty,1)$-topos the converse is not true: not every $\infty$-con
 The class of $n$-connected morphisms is stable under [[pullback]] and [[pushout]].
 
 If the pullback of a morphism along an [[effective epimorphism]] is $n$-connected, then so is the original morphism.
+
 =--
 
 This is [[Higher Topos Theory|HTT, prop. 6.5.1.16, item 6]].
 
++-- {: .un_prop}
+###### Proposition
+
+Let $\mathbf{H}$ be an [[(∞,1)-topos]]. For all $(-2) \leq n \leq \infty$ the [[class]] of $n$-connected morphisms in $\mathbf{H}$ forms the left class in a [[orthogonal factorization system in an (∞,1)-category]]. The right class is that of [[n-truncated]] morphisms in $\mathbf{H}$.
+
+=--
+
+This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A construction of the factorization in terms of a [[model category]] [[presentable (∞,1)-category|presentation]] is in ([Rezk, prop. 8.5](#Rezk)).
 
 ## Examples
 
@@ -106,6 +119,18 @@ In the the [[(∞,1)-category]] [[Top]] we have that an object is $n$-connected 
 * a $1$-connected object is a [[simply connected space]].
 
 * a $\infty$-connected object is a [[contractible space]].
+
+
+## References
+
+Section 6.5.1 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+
+A discussion in terms of [[model category]] [[presentable (∞,1)-category|presentations]] is in section 8 of
+
+* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+
 
 
 [[!redirects n-connected object]]
