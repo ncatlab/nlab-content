@@ -33,6 +33,6 @@ The existence or nonexistence of measurable cardinals can have noticeable impact
 
 For instance, the category $Set^{op}$ has a [[small category|small]] [[dense subcategory]] if and only if there does *not* exist a [[proper class]] of measurable cardinals.  Specifically, the subcategory of all sets of cardinality $\lt\lambda$ is dense in $Set^{op}$ precisely when there are no measurable cardinals larger than $\lambda$.  In particular, the full subcategory on $\mathbb{N}$ is dense in $Set^{op}$ precisely when there are no measurable cardinals at all.
 
-This is theorem A.5 of Adamek & Rosicky, "Locally presentable and accessible categories."
+This is theorem A.5 of [[LPAC]].
 
 [[!redirects measurable cardinals]]
