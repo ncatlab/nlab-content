@@ -53,7 +53,7 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 ## References
 
-* [[Jiri Adamek]], [[Ji?í Rosický]], _Locally presentable and accessible categories_ London Mathematical Society Lecture Note Series 189
+* [[Jiri Adamek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series 189
 {#AdamekRosicky}
 
 [[!redirects coreflective subcategories]]
