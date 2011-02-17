@@ -110,30 +110,65 @@ ${1\over 2}(ab + ba)$.  As hinted in the previous section, it is
 better to think of this operation as derived from the process of _squaring_ an observable, which is something we actually do.  But
 still, one must ask: can we see the classification of finite-dimensional formally real Jordan algebras, and thus the special role of normed division algebras, as arising from some axioms more closely  tied to quantum theory as physicists usually practice it?
 
-One answer involves the Koecher--Vinberg classification of  self-dual homogeneous convex cones. Consider first the case of ordinary quantum theory.  If a quantum
-system has the Hilbert space $\C^n$, [[observables]] are described by
-self-adjoint $n \times n$ complex matrices: elements of the Jordan
-algebra $\mathfrac{h}_n(\C)$.  But matrices of this form that are nonnegative and have trace 1 also play another role.  They are called **density matrices**, and they describe [[states]] of our quantum system: not just pure states, but also more general mixed states.  The idea is that any density matrix $\rho \in \mathfrak{h}_n(\C)$ allows us to define expectation values of observables $a \in \mathfrak{h}_n(\C)$ via
-\[                   \langle a \rangle = \tr(\rho a) .\]
+One answer involves the Koecher--Vinberg classification of  self-dual homogeneous [[convex cone]]s. 
+Consider first the case of ordinary [[quantum theory]].  If a quantum
+system has the [[Hilbert space]] $\mathbb{C}^n$, [[observables]] are described by
+self-adjoint $n \times n$ complex [[matrix|matrices]]: elements of the Jordan algebra $\mathfrak{h}_n(\mathbb{C})$.  But matrices of this form that are nonnegative and have trace 1 also play another role.  They are called **[[density matrix|density matrices]]**, and they describe [[states]] of our quantum system: not just pure [[state]]s, but also more general mixed states.  The idea is that any density matrix $\rho \in \mathfrak{h}_n(\mathbb{C})$ allows us to define [[expectation value]]s of [[observable]]s $a \in \mathfrak{h}_n(\mathbb{C})$ via
+
+\[                   
+  \langle a \rangle = \tr(\rho a) 
+  \,.
+\]
+
 The map sending observables to their expectation values is
 real-linear.  The fact that $\rho$ is nonnegative is equivalent to
-\[                 a \ge 0 \; \implies \; \langle a \rangle \ge 0 \]
-and the fact that $\rho$ has trace 1 is equivalent to
-\[                  \langle 1 \rangle = 1  .\]
 
-All of this generalizes to an arbitrary finite-dimensional formally real Jordan algebra $J$.  Any such algebra automatically has an [[identity]] element.  This lets us define a **state** on $J$ to be a linear functional $\langle \cdot \rangle : J \to \mathbb{R}$ that is **nonnegative**:
-$$  a \ge 0  \implies \langle a \rangle \ge 0  $$
-and **normalized**:
-$$   \langle 1 \rangle = 1 .$$
-But in fact, there is a one-to-one correspondence between 
+\[
+  a \ge 0 \; \implies \; \langle a \rangle \ge 0 
+\]
+
+and the fact that $\rho$ has trace 1 is equivalent to
+
+\[
+  \langle 1 \rangle = 1 
+  \,.
+\]
+
+All of this generalizes to an arbitrary finite-dimensional formally real Jordan algebra $J$.  Any such algebra automatically has an [[identity]] element.  This lets us define a **[[state]]** on $J$ to be a linear [[functional]] $\langle \cdot \rangle : J \to \mathbb{R}$ that is 
+
+* **nonnegative**:
+  $$  
+    a \ge 0  \implies \langle a \rangle \ge 0  
+  $$
+
+* and **normalized**:
+
+  $$   
+    \langle 1 \rangle = 1 
+    \,.
+  $$
+
+But in fact, there is a [[bijection|bijective]] correspondence between 
 linear functionals on $J$ and elements of $J$.  The reason is that
-every finite-dimensional Jordan algebra has a **trace**
-$$        \mathrm{tr} : J \to \mathbb{R} $$
+every finite-dimensional Jordan algebra has a **[[trace]]**
+
+$$
+  \mathrm{tr} : J \to \mathbb{R} 
+$$
+
 defined so that $\mathrm{tr}(a)$ is the trace of the linear operator 'multiplication by $a$'.  Such a Jordan algebra is then formally real if and only if
-$$        \langle a, b \rangle = \mathrm{tr}(a \circ b) $$
-is a real-valued inner product.   So, when $J$ is a finite-dimensional formally real Jordan algebra, any linear functional 
+
+$$
+  \langle a, b \rangle = \mathrm{tr}(a \circ b) 
+$$
+
+is a real-valued [[inner product]]. So, when $J$ is a finite-dimensional formally real Jordan algebra, any linear functional 
 $\langle \cdot \rangle : J \to \mathbb{R}$ can be written as
-$$          \langle a \rangle = \mathrm{tr}(\rho \circ a) $$
+
+$$
+  \langle a \rangle = \mathrm{tr}(\rho \circ a) 
+$$
+
 for a unique element $\rho \in J$.  Conversely, every element $\rho
 \in J$ gives a linear functional by this formula.  While not obvious,
 it is true that the linear functional $\langle \cdot \rangle$ is
@@ -141,41 +176,66 @@ nonnegative if and only if $\rho \ge 0$ in terms of the ordering on
 $J$.  More obviously, $\langle \cdot \rangle$ is normalized if and
 only if $\mathrm{tr}(\rho) = 1$.  So, states can be identified with certain special observables: namely, those observables $\rho \in J$ with $\rho \ge 0$ and $\mathrm{tr}(\rho) = 1$.  
 
-This ideas help motivate an important theorem of Koecher and Vinberg.  The idea is to axiomatize the situation we we have just described, in a way that does not mention the Jordan product in $J$, but instead emphasizes:
+These ideas help motivate an important theorem of Koecher and Vinberg.  The idea is to axiomatize the situation we we have just described, in a way that does not mention the Jordan product in $J$, but instead emphasizes:
 
-* the isomorphism between $J$ and its dual space
+* the [[isomorphism]] between $J$ and its [[dual vector space|dual space]]
 
-* the fact that 'positive' elements of $J$ form a cone.
+* the fact that 'positive' elements of $J$ form a [[cone]].
 
 To find appropriate axioms, suppose $J$ is a finite-dimensional
 formally real Jordan algebra.  Then seven facts are always
 true.  
 
-First, the set of positive observables 
-$$              C = \{a \in A \colon a \gt 0\}  .$$
-is a **[[cone]]**: that is, $a \in C$ implies that every positive
-multiple of $a$ is also in $C$.  Second, this cone is **[[convex]]**:
-if $a,b \in C$ then any linear combination $xa + (1-x)b$ with 
-$0 \le x \le 1$ also lies in $C$.  Third, it is an open set.  Fourth, it is **regular**, meaning that if $a$ and $-a$ are both in the closure $\overline{C}$, then $a = 0$.  This last condition may seem obscure, but if we note that
-$$             \overline{C} = \{ a \in J \colon a \ge 0 \}  $$
-we see that $C$ being regular simply means
-$$              a \ge 0 \; and \; -a \ge 0 \quad
-\implies \quad a = 0 , $$
-a perfectly plausible assumption.
+1. The set of positive observables 
 
-Next recall that $J$ has an inner product; this is what lets us
+   $$
+     C = \{a \in A \colon a \gt 0\}
+     \,.
+   $$
+
+   is a **[[cone]]**: that is, $a \in C$ implies that every positive
+multiple of $a$ is also in $C$.  
+
+1. This cone is **[[convex]]**:
+
+   if $a,b \in C$ then any linear combination $xa + (1-x)b$ with 
+$0 \le x \le 1$ also lies in $C$.  
+
+1. It is an open set.  
+
+1. It is **regular**, meaning that if $a$ and $-a$ are both in the closure $\overline{C}$, then $a = 0$.  
+
+   This condition may seem obscure, but if we note that
+
+   $$             
+     \overline{C} = \{ a \in J \colon a \ge 0 \}  
+   $$
+
+   we see that $C$ being regular simply means
+
+   $$
+    a \ge 0 \; and \; -a \ge 0 \quad \implies \quad a = 0 , 
+   $$
+
+   a perfectly plausible assumption.
+
+1. Recall that $J$ has an inner product; this is what lets us
 identify linear functionals on $J$ with elements of $J$.  This also
 lets us define the **dual cone**
-$$           C^* = \{  a \in J \colon \forall b \in A \; \;
-\langle a,b \rangle \gt 0 \} $$
-which one can check is indeed a cone.  The fifth fact about $C$ is
-that it is **self-dual**, meaning $C = C^*$.  This formalizes the fact that states may be identified with special observables.
 
-The sixth fact is $C$ is **homogeneous**: given any two points $a,b \in C$, there is a real-linear linear transformation $T : 
-A \to A$ mapping $C$ to itself in a one-to-one and onto way, with 
-the property that $Ta = b$.  This says that cone $C$ is highly symmetrical: no point of $C$ is any 'better' than any other, at  least if we only consider the linear structure of the space $A$, ignoring the Jordan product and the trace.
+   $$
+     C^* = \{  a \in J \colon \forall b \in A \; \; \langle a,b \rangle \gt 0 \} 
+   $$
 
-From another viewpoint, however, there is a very special point of $C$, namely the identity $1$ of our Jordan algebra.  And this brings us to our seventh and final fact: the cone $C$ is **pointed** meaning
+   which one can check is indeed a cone.  
+
+   The fifth fact about $C$ is that it is **self-dual**, meaning $C = C^*$.  
+
+   This formalizes the fact that states may be identified with special observables.
+
+1. $C$ is **homogeneous**: given any two points $a,b \in C$, there is a real-linear transformation $T : A \to A$ mapping $C$ to itself in a [[bijection|bijective]] way, with  the property that $T a = b$.  This says that cone $C$ is highly symmetrical: no point of $C$ is any 'better' than any other, at  least if we only consider the linear structure of the space $A$, ignoring the Jordan product and the trace.
+
+1. From another viewpoint, however, there is a very special point of $C$, namely the identity $1$ of our Jordan algebra.  And this brings us to our seventh and final fact: the cone $C$ is **pointed** meaning
 that it is equipped with a distinguished element (in this case $1 \in
 C$).  
 
@@ -195,20 +255,23 @@ $V$ equipped with a pointed homogeneous self-dual regular open convex cone $C \s
 is a linear map $T : V \to V'$ preserving the inner product and
 mapping $C$ into $C'$.  
 
-Now for the payoff.  The work of Koecher and Vinberg, nicely explained in Koecher's  Minnesota notes:
+Now for the payoff.  The work of Koecher and Vinberg, nicely explained in Koecher's  Minnesota notes ([Koecher](#Koecher)) shows that:
 
-* Max Koecher, _The Minnesota Notes on Jordan Algebras and 
-Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in Mathematics_ **1710**, Springer, Berlin, 
-1999.
 
-shows that:
++-- {: .un_theorem}
+###### Theorem
 
-**Theorem:** The category of pointed homogeneous self-dual 
-regular open convex cones is equivalent to the category of finite-dimensional formally real Jordan algebras.
+The [[category]] of pointed homogeneous self-dual 
+regular open convex cones is [[equivalence of categories|equivalent]] to the category of finite-dimensional formally real Jordan algebras.
+
+=--
 
 This means that the theorem of Jordan, von Neumann and Wigner also classifies the pointed homogeneous self-dual regular convex cones!
 
-**Theorem:** Every pointed homogeneous self-dual regular open convex cones is isomorphic to a direct sum of those on this list:
++-- {: .un_theorem}
+###### Theorem
+
+Every pointed homogeneous self-dual regular open convex cones is [[isomorphic]] to a [[direct sum]] of those on this list:
 
 * the cone of positive elements in $\mathfrak{h}_n(\mathbb{R})$,
 
@@ -219,6 +282,8 @@ This means that the theorem of Jordan, von Neumann and Wigner also classifies th
 * the cone of positive elements in $\mathfrak{h}_3(\mathbb{O})$, 
 
 * the future lightcone in $\mathbb{R}^n \oplus \mathbb{R}$.
+
+=--
 
 Some of this deserves a bit of explanation.  For $\mathbb{K} = \mathbb{R}, \mathbb{C}, \mathbb{H}$, an element $T \in \mathfrak{h}_n(\mathbb{K})$ is **positive** if and only if the corresponding operator $T : \mathbb{K}^n \to \mathbb{K}^n$ has 
 $$            \langle v, T v \rangle \gt 0  $$
@@ -243,3 +308,7 @@ For more details see [[semilattice of commutative subalgebras]].
 _Bull. Amer. Math. Soc._ **84** (1978), 612--627.  ([AMS website](http://www.ams.org/bull/1978-84-04/S0002-990\
 4-1978-14503-0/home.html)) and ([Project Euclid website](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540925)).
 
+* Max Koecher, _The Minnesota Notes on Jordan Algebras and 
+Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in Mathematics_ **1710**, Springer, Berlin, 
+1999.
+{#Koecher}
