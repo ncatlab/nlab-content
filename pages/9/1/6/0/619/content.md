@@ -63,7 +63,7 @@ the following are equivalent:
 
 =--
 
-This is due to[[Gabriel-Zisman]].
+This is due to [[Gabriel-Zisman]].
 
 This is a well-known set of equivalences concerning idempotent monads. The essential point is that a reflective subcategory $i: B \to A$ is [[monadic functor|monadic]], i.e., realizes $B$ as the category of algebras for the monad $i r$ on $A$, where $r: A \to B$ is the reflector. 
 
@@ -152,7 +152,7 @@ A few sources (such as [[Categories Work]]) do not require a reflective subcateg
 
 ## References
 
-* [[Jiri Adamek]], [[Ji?í Rosický]], _Locally presentable and accessible categories_ London Mathematical Society Lecture Note Series 189
+* [[Jiri Adamek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
 {#AdamekRosicky}
 
 [[!redirects reflector]]
