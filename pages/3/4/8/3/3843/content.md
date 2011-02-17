@@ -40,7 +40,9 @@ See [[accessible (∞,1)-functor]].
 
 The theory of accessible 1-categories is described in 
 
-* Adamek and Rosicky, _Locally presentable and accessible categories_, Cambridge University Press (1994)
+* Makkai, Par&#233;, _Accessible categories: The foundations of categorical model theory_ Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989.1989.
+
+* Adamek and Rosicky, _[[Locally presentable and accessible categories]]_, Cambridge University Press (1994)
 
 The theory of accessible $(\infty,1)$-categories is the topic of section 5.4 of 
 
