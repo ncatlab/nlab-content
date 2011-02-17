@@ -1,0 +1,89 @@
+[[!redirects orthogonal factorization system in an (∞,1)-category]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .un_defn}
+###### Definition
+
+Let $C$ be an [[(∞,1)-category]] and $f : A \to B$ and $g : X \to Y$ two [[morphism]]s in $C$. Wrie $C_{A//Y}$ for the [[over-(∞,1)-category|under-over-(∞,1)-category]].
+
+We say that $f$ is **left orthogonal** to $g$ and that $g$ is **right orthogonal** to $f$ and write
+
+$$
+  f \perp g
+$$
+
+if for every [[commuting diagram]]
+
+$$
+  \array{
+    A &\to& X
+    \\
+    {}^{\mathllap{f}}\downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{g}}
+    \\
+    B &\to& Y
+  }
+$$
+
+in $C$ we have that $C_{A//Y}(B,X) \simeq *$ is [[contractible]].
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+Let $C$ be an [[(∞,1)-category]]. An **orthogonal factorization system** on $C$ is a pair $(S_L, S_R)$ of [[class]]es of [[morphism]]s in $C$ that satisfy the following axioms.
+
+1. Both classes are stable under [[retract]]s.
+
+1. Every morphism in $S_L$ is left orthogonal to every morphism in $S_R$;
+
+1. For every morphism $h : X \to Z$ in $C$ there exists a commuting triangle
+
+   $$
+     \array{
+        && Y
+        \\
+        & {}^{\mathllap{f}}\nearrow && \searrow^{\mathrlap{g}}
+        \\
+       X &&\stackrel{h}{\to}&& Z
+     }
+   $$
+
+   with $f \in S_L$ and $g \in S_R$.
+
+=--
+
+## Examples
+
+* In an [[(∞,1)-topos]] the classe of [[n-connected]] and that of [[n-truncated]] morphisms form an orthogonal factorization system, for all $(-2) \leq n \leq \infty $.
+
+
+## Related concepts
+
+* [[orthogonal factorization system]]
+
+* [[weak factorization system]]
+
+* **factorization system in an $(\infty,1)$-category**
+
+## References
+
+Section 5.2.8 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
