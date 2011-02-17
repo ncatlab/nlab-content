@@ -108,7 +108,7 @@ Society, Rhode Island, 1989.1989.
 
 The standard textbook on the theory of accessible categories is
 
-* Ad&#225;mek and Rosicky, _Locally Presentable and Accessible Categories_  Cambridge University Press, Cambridge, (1994). 
+* Ad&#225;mek and Rosicky, _[[Locally Presentable and Accessible Categories]]_  Cambridge University Press, Cambridge, (1994). 
 
 A discussion of [[accessible (infinity,1)-category|accessible (infinity,1)-categories]] is in [section 5.4, p. 341](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=341)
 of
