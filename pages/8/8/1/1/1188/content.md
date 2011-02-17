@@ -162,7 +162,7 @@ This is [[Higher Topos Theory|HTT, proposition 5.4.7.3]].
 
 The theory of accessible 1-categories is described in 
 
-* Adamek and Rosicky, _Locally presentable and accessible categories_, Cambridge University Press (1994)
+* [[Jiri Adamek]] and [[Jiri Rosicky]], _[[Locally presentable and accessible categories]]_, Cambridge University Press (1994)
 
 The theory of accessible $(\infty,1)$-categories is the topic of section 5.4 of 
 
