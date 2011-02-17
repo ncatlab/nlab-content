@@ -20,16 +20,15 @@ An [[object]] of a [[category]] is *compact* if it is "finite" or "small" in som
 
 
 ## Definition 
+{#FinitelyPresentableObject}
 
-Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact** (or sometimes called **[[locally finitely presentable category|finitely presented]]**) if the [[representable functor|corepresentable functor]]
+Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact**, (or **finitely presented** or **of finite presentation**), if the [[corepresentable functor]]
 
 $$
   Hom_C(X,-) : C \to Set
 $$
 
-commutes with these [[filtered colimits]].
-
-So if for every [[filtered category]] $D$ and every functor $F : D \to C$ the canonical morphism
+[[preserved limit|preserves]] these [[filtered colimits]].  This means that for every [[filtered category]] $D$ and every functor $F : D \to C$, the canonical morphism
 
 $$
   colim C(X,F(-)) \stackrel{\simeq}{\to} 
@@ -38,36 +37,21 @@ $$
 
 is an [[isomorphism]].
 
-### Small objects 
-
-There is a slight variant of this definition.
-
-If $\kappa$ is a [[cardinal number|regular cardinal]], then objects $X$ such that $C(X,-)$ commutes with such $\kappa$-[[filtered colimits]] are also called **$\kappa$-compact objects**. An object which is $\kappa$-compact for some regular $\kappa$ is called a [[small object]].
+More generally, if $\kappa$ is a [[regular cardinal]], then an object $X$ such that $C(X,-)$ commutes with $\kappa$-[[filtered colimits]] is called **$\kappa$-compact**, or **$\kappa$-presented**.  An object which is $\kappa$-compact for some regular $\kappa$ is called a [[small object]].
 
 
 ## Examples 
 
-### In $Set$
+* In $C = $ [[Set]] an object is compact precisely if it is a (Kuratowski) [[finite set]].
 
-In $C = $ [[Set]] an object is compact precisely if it is a (Kuratowski) [[finite set]].
+* For $C$ a [[topos]], $X$ is compact if it is Kuratowski-[[finite object|finite]].
 
-### In $Grp$ 
+* In $C = $ [[Grp]] an object is compact precisely if it is finitely presented as a group.
 
-In $C = $ [[Grp]] an object is compact precisely if it is finitely presented as a group.
+* More generally, if $C$ is any [[variety of algebras]], then an object is compact precisely if it is [[finitely presented object|finitely presented]] as an algebra.  A proof can be found in Corollary 3.13 of [[LPAC]].
 
-### In a topos 
+* Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. Then an [[open subset]] $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].  (It is *not* true that $X$ is a compact object of $Top$ iff it is a compact topological space; see below.
 
-For $C$ a [[topos]], $X$ is compact if it is 
-$K$-[[finite object|finite]]. 
-
-
-### In $Top$
-
-Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. Then an [[open subset]] $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].
-
-
-
-See the discussion below for variations of this theme.
 
 ## Generalizations 
 
@@ -76,23 +60,7 @@ This definition has an obvious generalization to [[compact object in an (infinit
 
 ## Subtleties and different meanings 
 
-One has to be careful about the following variations on this theme
-
-
-### Finitely presentable objects {#FinitelyPresentableObject}
-
-Sometimes the notion _compact object_  is called **finitely presentable object** or **object of finite presentation** (see the [references](#references) below.)
-
-+--{: .query}
-
-[[Mike Shulman]]: If $C$ is a [[concrete category]] and its [[forgetful functor]] $F : C \to $ [[Set]] preserves [[filtered colimit]]s (is "finitary"), then I believe that an object of $C$ is compact/finitely presentable in this sense iff it is a [[finitely generated object]].  Possibly there is more generality in which this is true.
-
-There is also an abstract notion of "finitely generated object" meaning that $hom(X,-)$ preserves directed colimits of monomorphisms, which in the finitary-over-$Set$ case I think should be equivalent to the more concrete version.
-
-=--
-
-
-
+One has to be careful about the following variations on this theme.
 
 
 ### Compactness in additive categories 
@@ -128,18 +96,15 @@ The notion can be modified for categories [[enriched category|enriched]] over a 
 
 Compact objects in the derived categories of quasicoherent sheaves over a scheme are called perfect complexes. Any compact object in the category of modules over a perfect ring is finitely generated as a module.  Lurie uses $\kappa$-compact objects in the setup of $(\infty,1)$-categories.
 
-### Compactness in non-additive categories
 
-In non-additive contexts, the above definition is not right.  For instance, with this definition a [[topological space]] would be compact iff it is [[connected space|connected]]. In general one should expect to preserve _filtered colimits_ (see below for discussion). For $C$ any category and $X \in C$, the condition that $C(X,-) : C \to C$ preserves [[filtered colimits]] imposes  some kind of finiteness condition on $X$. For instance 
-
+In non-additive contexts, the above definition is not right.  For instance, with this definition a [[topological space]] would be compact iff it is [[connected space|connected]].  In general one should expect to instead preserve filtered colimits, as above.
 
 
+### Compact objects in Top 
 
-#### Compact objects in Top 
+Recall the above example of [[compact space|compact topological spaces]].  Notice that the statement which one might expect, that a topological space $X$ is [[compact space|compact]] if it is a compact object in [[Top]], is not quite right in general.
 
-Recall the above example of [[compact space|compact topological spaces]]. Notice that the statement which one might expect, that a topological space $X$ is [[compact space|compact]] if it is a compact object in [[Top]] is not quite right in general.
-
-A counterexample is given for instance on page 49 of Hovey's Model Categories, which itself was corrected by Don Stanley (see the errata of that book).
+A counterexample is given for instance on page 49 of Hovey's Model Categories, which itself was corrected by Don Stanley (see the [errata](http://hopf.math.purdue.edu/Hovey/model-err.pdf) of that book).
 See also the blog discussion 
 [here](http://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023790).
 
@@ -172,7 +137,7 @@ is not surjective, and therefore not an isomorphism.
 _[[Todd Trimble|Todd]]_ (posted from n-category cafe): I don't know if the story is any different for $X$ compact _Hausdorff_, but it could be worth considering. 
 =--
 
-But with a bit care on the assumptions, similar results do hold:
+But with a bit of care on the assumptions, similar results do hold:
 
 If $Y$ is compact, then 
 $hom(Y,-)$ preserves colimits of functors mapping out of limit ordinals, provided that the arrows of the cocone diagram, 
@@ -183,7 +148,7 @@ are closed inclusions of $T_1$ spaces. (This applies for example to the sequence
 
 This example is discussed on page 50 of Hovey's book. 
 
-Hovey wants this result in view of a small object argument on the way to proving that $Top$ is a model category. 
+Hovey wants this result in view of a [[small object argument]] on the way to proving that $Top$ is a [[model category]]. 
 
 
 ## Related concepts
@@ -192,9 +157,16 @@ Hovey wants this result in view of a small object argument on the way to proving
 
 * [[compact object in an (∞,1)-category]]
 
+* [[finitely presented object]]
+
+* [[locally presentable category]]
+
+
 ## References {#references}
 
 Compact objects are discussed under the term "finitely presentable" or "finitely-presentable" objects for instance in
+
+* [[Locally Presentable and Accessible Categories]]
 
 * Kashiwara, Schapira, [[Categories and Sheaves]], Definition 6.3.2;
 
@@ -207,10 +179,6 @@ For the pages quoted in the context of the discussion of compact objects in [[To
 For the general definition with an eye towards the definition of [[compact object in an (infinity,1)-category]]  see section A.1.1 section 5.3.4 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
-
-
-
-
 
 
 
