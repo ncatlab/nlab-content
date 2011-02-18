@@ -11,6 +11,7 @@ For my own reference: some pages that I'm planning to do some work on:
 * create a separate page [[two-sided fibration]], also work on [[fibration in a 2-category]]
 * categories over computads at [[monadicity theorem]].
 * copy some stuff over from my personal web
+* write [[descent object]]
 
 And here's how to make a barred arrow $A &#8696; B$, since I always forget:
 
