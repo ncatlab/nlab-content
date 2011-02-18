@@ -28,7 +28,7 @@
 
 * [[geometric representation theory]]
   
-  * [[Borel-Weil theorem]], [[BBDG decomposition theorem]]
+  * [[Borel-Weil theorem]], [[Beĭlinson-Bernstein localization]], [[BBDG decomposition theorem]]
 
 * [[Grothendieck group]], [[lambda-ring]], [[symmetric function]], [[formal group]]
 
@@ -39,3 +39,5 @@
 * [[Eilenberg-Moore category]], [[algebra over an operad]], [[actegory]], [[crossed module]]
 
 * [[reconstruction theorems]]
+
+A list of texts on representation theory is maintained by Khovanov at [this link](http://www.math.columbia.edu/~khovanov/resources).
