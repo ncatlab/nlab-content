@@ -16,5 +16,8 @@ While for manifolds there is a [[Poincare duality|Poincaré duality]] relating h
 
 * Steven L. Kleiman, _The development of intersection homology theory_, Pure Appl. Math. Q. __3__ (2007), no. 1, Special Issue: In honor of Robert D. MacPherson. Part 3, 225&#8211;282, [MR2008e:55006](http://www.ams.org/mathscinet-getitem?mr=2330160)
 
+* T. A. Springer, _Quelques applications de la cohomologie d'intersection_,  S&#233;minaire Bourbaki __24__ (1981-1982), Exp. No. 589, 25 p.
+[MR689533](http://www.ams.org/mathscinet-getitem?mr=689533),  [Zbl0526.22014](http://www.zentralblatt-math.org/zmath/en/search/?q=an:0526.22014)
+
 [[!redirects intersection cohomology]]
 [[!redirects intersection homology]]
