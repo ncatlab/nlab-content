@@ -8,6 +8,12 @@
 
 * Stephane Guillermou, Masaki Kashiwara, Pierre Schapira, _Sheaf quantization of Hamiltonian isotopies and applications to non displaceability problems_, [arxiv/1005.1517](http://arxiv.org/abs/1005.1517)
 
+* M. Kashiwara, W.Schmid, _Quasi-equivariant D-modules, equivariant derived category, and representations of reductive Lie groups_, Lie Theory and Geometry, in Honor of Bertram Kostant, Progress in Mathematics, Birkh&#228;user, 1994, pp. 457&#8211;488
+
+* M. Kashiwara, _D-modules and representation theory of Lie groups_, 
+Annales de l'institut Fourier, 43 no. 5 (1993), p. 1597-1618, [article](http://aif.cedram.org/item?id=AIF_1993__43_5_1597_0), [MR95b:22033](http://www.ams.org/mathscinet-getitem?mr=95b:22033)
+
+[[!redirects M. Kashiwara]]
 [[!redirects Kashiwara]]
 
 category:people
