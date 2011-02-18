@@ -1,23 +1,33 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
 [[!include stable homotopy theory - contents]]
-
-***
-
+=--
+#### Higher algebra
++--{: .hide}
 [[!include higher algebra - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
 
 ## Idea
 
+A _ring spectrum_ is a model for an [[A-∞ ring]].
+
 The notion of [[spectrum]] is the generalization of the notion of [[abelian group]] to [[homotopy theory]]/[[(∞,1)-category theory]]. The notion of **ring spectrum** is the corresponding generalization of the notion of [[ring]].
 
 ## Defnition
 
-A _ring spectrum_ is a [[monoid]] in the [[stable homotopy category]] $Ho(\mathcal{S})$ equipped with the [[smash product of spectra]].
+A _ring spectrum_ is a [[monoid]] in the [[stable homotopy category]] $Ho(\mathcal{S})$ equipped with the [[smash product of spectra]]. See there for more details.
 
 This means that a ring spectrum is a monoid in the category $\mathcal{S}$ of [[spectrum|spectra]] up to not-necessarily coherent [[homotopy]].
 
@@ -29,8 +39,10 @@ Not every ring spectrum may be refined to an $A_\infty$-ring spectrum.
 
 ## Reference
 
-see the references at [[stable homotopy theory]], for instance
+See the references at [[stable homotopy theory]], for instance
 
 * A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
 
 [[!redirects ring spectra]]
