@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -8,7 +7,7 @@
 
 The notion of _K&#228;hler differential_ is a very general way to encode a notion of [[differential form]]: something that is dual to a [[derivation]] or [[vector field]].
 
-Conceptually, in dual language of algebras, a symmetry of a commutative algebra $A$ is an [[automorphism]] $g\colon A\to A$, i.e., $g(a b)=g(a)g(b)$. The 'infinitesimal' symmetries are the [[derivations]] $X\colon A\to A$, with $X(a b)=X(a)b+X(a)b$. The [[module]] of K&#228;hler differentials $\Omega^1_K(A)$  parametrizes derivations, in the sense that every derivation $X$ corresponds uniquely to a morphism of $A$-modules $\mu_X: \Omega_K^1 (A)\to A$.
+Conceptually, in dual language of algebras, a symmetry of a commutative algebra $A$ is an [[automorphism]] $g\colon A\to A$, i.e., $g(a b)=g(a)g(b)$. The 'infinitesimal' symmetries are the [[derivations]] $X\colon A\to A$, with $X(a b)=X(a)b+X(b)a$. The [[module]] of K&#228;hler differentials $\Omega^1_K(A)$  parametrizes derivations, in the sense that every derivation $X$ corresponds uniquely to a morphism of $A$-modules $\mu_X: \Omega_K^1 (A)\to A$.
 
 ### The ordinary definition and its insufficiency
 
