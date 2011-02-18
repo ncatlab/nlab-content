@@ -97,7 +97,7 @@ $$
  \Vert X_\bullet\Vert \simeq hocolim_{n \in \Delta} X_n
 $$
 
-from its fact [[geometric realization of simplicial topological spaces]] to the [[homotopy colimit]] over the simplicial diagram $X : \Delta^{op} \to Top$.
+from its fat [[geometric realization of simplicial topological spaces]] to the [[homotopy colimit]] over the simplicial diagram $X : \Delta^{op} \to Top$.
 
 If moreover $X_\bullet$ is [proper](#ProperSimplicialSpace), then the [[natural transformation|natural morphism]]  $ {\Vert X\Vert} \to {|X|}$ is a [[weak homotopy equivalence]], and hence also the ordinary geometric realization is a model for the homotopy colimit.
 
