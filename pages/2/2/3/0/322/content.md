@@ -437,18 +437,22 @@ The definition is originally due to
 * [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/gils.pdf))
 {#May}
 
-An earlier version was the notion of [[analyser]] (known usually by French version *analyseur* introduced in
+An earlier version was the notion of [[analyser]] (known usually by French version *analyseur*), introduced in
 
 * M. Lazard, _Lois de groupes et analyseurs_, Ann. &#201;cole Norm. Sup. __72__  (1955), pp. 299&#8211;400. 
 
 
 Monographs include:
 
-* [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_, Ast&#233;risque 233, Soci&#233;t&#233; Math&#233;matique de France (1995).
+* [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_, Ast&#233;risque __233__, Soci&#233;t&#233; Math&#233;matique de France (1995).
 
 * [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
 
 * V.A. Smirnov, _Simplicial and operad methods in algebraic topology_
+
+* J-L. Loday, B. Valette, _Algebraic operads_, web draft, (2010), xviii+512 pp. [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/LodayVallette.pdf)
+
+* [[Benoit Fresse]], _Modules over operads and functors_, Springer LNM __1967__, 2009, x+308 pp. [MR2010e:18009](http://www.ams.org/mathscinet-getitem?mr=2494775)
 
 See also
 
