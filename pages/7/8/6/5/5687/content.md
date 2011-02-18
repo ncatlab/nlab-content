@@ -118,7 +118,7 @@ The statement about $\bar W G$ is proven in ([Stevenson](#Stevenson)). The other
 ## References
 
 * E. H. Brown and R. H. Szczarba, _Continuous cohomology and real homotopy
-type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57{106
+type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
 {#BrownSzczarba}
 
 * [[Peter May]], _Geometry of iterated loop spaces_ , SLNM 271, Springer-Verlag, 1972.
