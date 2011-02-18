@@ -137,7 +137,7 @@ This functor $\mathbb{Z}$ has the following properties:
 
 ### As $\infty$-groups
 
-Simplicial groups are models for [[∞-group]]s. This is exhibited by the [[model strructure on simplicial grups]]. See also
+Simplicial groups are models for [[∞-group]]s. This is exhibited by the [[model structure on simplicial grups]]. See also
 <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#ModelsInInfGrpd">models for group objects in ∞Grpd</a>.
 
 ### Equivalence to connected $\infty$-groupoids
