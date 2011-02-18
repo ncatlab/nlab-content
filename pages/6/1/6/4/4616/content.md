@@ -27,9 +27,9 @@ Let $X : \Delta^{op} \to Top$ be a [[simplicial topological space]].
 
 Such $X$ is called
 
-* **good** if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are all closed cofibrations;
+* **good** if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are all [[closed cofibration]]s;
 
-* **proper** if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a closed cofibration, where $s X_n = \bigcup_i s_i(X_{n-1})$.
+* **proper** if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[closed cofibration]], where $s X_n = \bigcup_i s_i(X_{n-1})$.
 
 
 ## Properties
