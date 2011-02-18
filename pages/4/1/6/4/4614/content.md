@@ -58,10 +58,10 @@ One also considers geometric realization after restricting to the subcategory $\
 +-- {: .un_def}
 ###### Definition
 
-The corresponding [[coend]] is called the **fat geometric realization** 
+The corresponding [[coend]] in [[Top]] is called the **fat geometric realization** 
 
 $$
-  \Vert X_\bullet\Vert :  \int^{n \in \Delta_+} X_n \times \Delta^n_{Top}
+  \Vert X_\bullet\Vert :=  \int^{n \in \Delta_+} X_n \times \Delta^n_{Top}
   \,.
 $$
 
@@ -108,6 +108,8 @@ If $X_\bullet : \Delta^{op} \to Set \hookrightarrow Top$ is a degreewise [[discr
 
 =--
 
+
+
 ### Compatibility with limits
 
 #### Ordinary geometric realization
@@ -128,21 +130,6 @@ $$
 
 For instance ([May, corollary 11.6](#May)).
 
-Write $({\vert- \vert} \dashv Sing) : Top\stackrel{\overset{{|-|}}{\leftarrow}}{\underset{Sing}{\to}} sSet$ for the ordinary [[geometric realization]]/[[singular simplicial complex]] adjunction (see [[homotopy hypothesis]]).
-
-For $S_{\bullet,\bullet} : \Delta^{op} \times \Delta^{op} \to Set$ a [[bisimplicial set]], write $d S$ for its [[diagonal]] $d X : \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\to} Set$.
-
-+-- {: .un_prop}
-###### Proposition
-
-For $X_\bullet$ any [[simplicial topological space]], there is a [[homeomorphism]] between the geometric realization of the simplicial space $|Sing(X_\bullet)|$ and the ordinary [[geometric realization]] of the [[simplicial set]] that is the diagonal of the [[bisimplicial set]] $Sing(X_\bullet)_\bullet$
-
-$$
-  |Sing(X_\bullet)|  \simeq_{iso} | d Sing(X_\bullet)_\bullet | 
-  \,.
-$$
-
-=--
 
 #### Fat geometric realization
 
@@ -181,7 +168,7 @@ Recall the following definitions and facts from [[nice simplicial topological sp
 +-- {: .un_defn #GoodSimplicialSpace}
 ###### Definition 
 
-A [[simplicial topological space]] $X_\bullet$ is **good** in the sense of [[Graeme Segal|Segal]] if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are closed cofibrations.
+A [[simplicial topological space]] $X_\bullet$ is **good** in the sense of ([Segal](#Segal)) if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are closed cofibrations.
 
 =--
 
@@ -211,21 +198,35 @@ The proper simplicial topological spaces are precisely those that are cofibrant 
 
 =--
 
+
+
+
+Write $({\vert- \vert} \dashv Sing) : Top\stackrel{\overset{{|-|}}{\leftarrow}}{\underset{Sing}{\to}} $ [[sSet]] for the ordinary [[geometric realization]]/[[singular simplicial complex]] [[adjunction]] (see [[homotopy hypothesis]]).
+
+For $S_{\bullet,\bullet} : \Delta^{op} \times \Delta^{op} \to Set$ a [[bisimplicial set]], write $d S$ for its [[diagonal]] $d X : \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\to} Set$.
+
 +-- {: .un_prop}
 ###### Proposition
 
-For $X_\bullet$ any simplicial topological space, then ${|Sing X_\bullet|}$ is proper and the natural morphism
+For $X_\bullet$ any [[simplicial topological space]], there is a [[homeomorphism]] between the geometric realization of the simplicial space $[n] \mapsto |Sing(X_n)|$ and the ordinary [[geometric realization]] of the [[simplicial set]] that is the diagonal of the [[bisimplicial set]] $Sing(X_\bullet)_\bullet$
 
 $$
-  {|Sing X_\bullet|} \to X_\bullet
+  \left|[n] \mapsto |Sing(X_n)|\right|  \simeq_{iso} | d Sing(X_\bullet)_\bullet | 
+  \,.
 $$
 
-is a cofibrant [[resolution]] of $X_\bullet$ in $[\Delta^{op},Top_{Strm}]_{Reedy}$.
+Moreover, the degreewise $(|-| \dashv Sing)$-[[unit of an adjunction|counit]] yields a morphism
 
+$$
+ ([n] \mapsto |Sing(X_n)|) \to X_\bullet
+$$
+
+and this is a cofibrant [[resolution]] in the [[Reedy model structure]]  $[\Delta^{op}, Top_{Strom}]_{Reedy}$ relative to the [[Strøm model structure]], and so $([n] \mapsto |Sing (X_n)|)$ is also a good and proper [[resolution]] of $X_\bullet$.
 
 =--
 
 This follows by results in ([Lewis](#Lewis)).
+
 
 
 #### Models for the homotopy colimit
@@ -273,9 +274,10 @@ In the case $X_\bullet$ that is a [good](#GoodSimplicialSpace) [[simplicial topo
 
 ## References
 
-An original reference is
+An original reference is appendix A of
 
-* [[Graeme Segal]], _Categories and cohomology theories_ Topology, 13:293&#8211;312, 1974
+* [[Graeme Segal]], _[[SegalCategoriesAndCohomologyTheories.pdf:file]]_ Topology, 13:293&#8211;312, 1974 
+{#Segal}
 
 A standard textbook reference is chapter 11 of
 
