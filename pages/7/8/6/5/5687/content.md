@@ -124,7 +124,7 @@ type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57{106
 * [[Peter May]], _Geometry of iterated loop spaces_ , SLNM 271, Springer-Verlag, 1972.
 {#May}
 
-* [[Danny Stevenson]], unpublished notes
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_
 {#Stevenson}
 
 [[!redirects simplicial topological groups]]
