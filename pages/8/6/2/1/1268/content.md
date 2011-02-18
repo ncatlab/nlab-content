@@ -6,7 +6,7 @@
 
 ### In terms of differential operators
 
-A _D-module_ (introduced by [[Mikio Sato]]) is a [[abelian sheaf|sheaf]] of [[modules]] over the [[sheaf]] $D_X$ of [[regular differential operators]] on a 'variety' $X$ (the latter notion depends on whether we work over a [[scheme]], [[manifold]], analytic complex manifold etc.). As $O_X$ is a subsheaf of $D_X$ consisting of the zeroth-order differential operators (multiplications by the sections of structure sheaf), every $D_X$-module is an $O_X$-module.  Moreover, the (quasi)coherence of $D_X$-modules implies the (quasi)coherence of a $D_X$-module regarded as an $O_X$-module (but not vice versa). 
+A _D-module_ (introduced by [[Mikio Sato]]) is a [[abelian sheaf|sheaf]] of [[modules]] over the [[sheaf]] $D_X$ of [[regular differential operators]] on a 'variety' $X$ (the latter notion depends on whether we work over a [[scheme]], [[manifold]], analytic complex manifold etc.), which is quasicoherent as $O_X$-module. As $O_X$ is a subsheaf of $D_X$ consisting of the zeroth-order differential operators (multiplications by the sections of structure sheaf), every $D_X$-module is an $O_X$-module.  Moreover, the (quasi)coherence of $D_X$-modules implies the (quasi)coherence of a $D_X$-module regarded as an $O_X$-module (but not vice versa). 
 
 ### In terms of sheaves on the deRham space
 
@@ -65,6 +65,8 @@ Annales de l'institut Fourier, 43 no. 5 (1993), p. 1597-1618, [article](http://a
 * P. Maisonobe, C. Sabbah, _D-modules coh&#233;rents et holonomes_, Travaux en cours, Hermann, Paris 1993. (collection of lecture notes)
 
 * [[Donu Arapura]], _Notes on D-modules and connection with Hodge theory_, [pdf](http://www.math.purdue.edu/~dvb/preprints/dmod.pdf)
+
+* Nero Budur, _On the V-filtration of D-modules_, [math.AG/0409123](http://arxiv.org/abs/math/0409123), in "Geometric methods in algebra and number theory" Proc. 2003 conf. Univ. of Miami, edited by F. Bogomolov, Yu. Tschinkel 
 
 ##Blog discussion
 
