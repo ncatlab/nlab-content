@@ -16,7 +16,7 @@
 
 ## Idea
 
-For $X_\bullet$ a [[simplicial object]] in [[Top]] --  a [[simplicial topological space]] -- its _geometric realization_ is a plain [[topological space]] $|X_\bullet| \in Top$ whose construction is a direct analog of the ordinary notion of [[geometric realization]] of a [[simplicial set]], but taking into account the topology on the spaces of $n$-simplices $X_n$.
+For $X_\bullet$ a [[simplicial object]] in [[Top]] --  a [[simplicial topological space]] -- its _[[geometric realization]]_ is a plain [[topological space]] $|X_\bullet| \in Top$ whose construction is a direct analog of the ordinary notion of [[geometric realization]] of a [[simplicial set]], but taking into account the topology on the spaces of $n$-simplices $X_n$.
 
 ## Definition
 
@@ -127,9 +127,10 @@ A [[simplicial topological space]] $X_\bullet$ is **good** in the sense of [[Gra
 +-- {: .un_defn #ProperSimplicialSpace}
 ###### Definition
 
-A simplicial topological space $X_\bullet$ is **proper** in the sense of [May](#May) if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[Hurewicz cofibration|closed cofibration]], where $s X_n := \bigcup_i s_i(X_{n-1})$.
+A simplicial topological space $X_\bullet$ is **proper** in the sense of [May,def. 11.2](#May) if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[Hurewicz cofibration|closed cofibration]], where $s X_n := \bigcup_i s_i(X_{n-1})$.
 
 =--
+
 
 For more on these conditions see [[nice simplicial topological space]].
 
@@ -178,7 +179,7 @@ $$
  \Vert X_\bullet\Vert \simeq hocolim_{n \in \Delta} X_n
 $$
 
-from its fact geometric realization to the [[homotopy colimit]] over the simplicial diagram $X : \Delta^{op} \to Top$.
+from its fat geometric realization to the [[homotopy colimit]] over the simplicial diagram $X : \Delta^{op} \to Top$.
 
 If moreover $X_\bullet$ is [proper](#ProperSimplicialSpace), then the [[natural transformation|natural morphism]]  $ {\Vert X\Vert} \to {|X|}$ is a [[weak homotopy equivalence]], and hence also the ordinary geometric realization is a model for the homotopy colimit.
 
@@ -194,7 +195,7 @@ That the geometric realization of a proper simplicial space is is homotopy colim
 +-- {: .un_remark}
 ###### Remark
 
-In the case $X_\bullet$ that is a [good](#GoodSimplicialSpace) [[simplicial topological space]], a direct (i.e., not using the fact that goodness implies properness) proof that $ \Vert X\Vert  \to |X|$ is a weak homotopy equivalence has been sketched by [[Graeme Segal]] and then refined by Tammo tom Dieck.
+In the case $X_\bullet$ that is a [good](#GoodSimplicialSpace) [[simplicial topological space]], a direct (i.e., not using the fact that goodness implies properness) a proof that $ \Vert X\Vert  \to |X|$ is a weak homotopy equivalence has been sketched by [[Graeme Segal]] and then refined by Tammo tom Dieck.
 
 =--
 
