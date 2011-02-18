@@ -45,7 +45,7 @@ Related $n$lab entries include [[Weyl algebra]], [[regular differential operator
 
 * A. Beilinson, I. N. Bernstein, _A proof of Jantzen conjecture_, Adv. in Soviet Math. 16, Part 1 (1993), 1-50. MR95a:22022
 * S. C. Coutinho, _A primer of algebraic D-modules_, London Math. Soc. Stud. Texts, 33, Cambridge University Press, Cambridge, 1995. xii+207 pp.
-* Notes on D-modules: Joseph Bernstein's [notes](http://www.math.uchicago.edu/~arinkin/langlands/Bernstein/Bernstein-dmod.pdf), Peter Schneiders' [notes](http://www.analg.ulg.ac.be/jps/rec/idm.pdf), Dragan Mili&#269;i&#263;'s [notes](http://www.math.utah.edu/~milicic/Eprints/dmodules.pdf)
+* Notes on D-modules: Joseph Bernstein's notes [ps](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.ps), [dvi](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.dvi), Peter Schneiders' [notes](http://www.analg.ulg.ac.be/jps/rec/idm.pdf), Dragan Mili&#269;i&#263;'s [notes](http://www.math.utah.edu/~milicic/Eprints/dmodules.pdf)
 * D. Gieseker, _Flat vector bundles and the fundamental group in non-zero characteristics_,  Ann. Scuola Norm. Sup. Pisa Cl. Sci. (4)  2  (1975), no. 1, 1--31. 
 * R. Bezrukavnikov, MIT course notes, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/bezr_notes.pdf)
 * Notes in Gaitsgory's seminar [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)
@@ -59,7 +59,7 @@ Related $n$lab entries include [[Weyl algebra]], [[regular differential operator
 
 * [[Masaki Kashiwara|M. Kashiwara]], W.Schmid, _Quasi-equivariant D-modules, equivariant derived category, and representations of reductive Lie groups_, Lie Theory and Geometry, in Honor of Bertram Kostant, Progress in Mathematics, Birkh&#228;user, 1994, pp. 457&#8211;488
 
-* P. Maisonobe, C. Sabbah, _D-modules coh&#233;rents et holonomes_, Hermann, Paris 1993. 
+* P. Maisonobe, C. Sabbah, _D-modules coh&#233;rents et holonomes_, TRavaux en cours, Hermann, Paris 1993. (collection of lecture notes)
 
 ##Blog discussion
 
