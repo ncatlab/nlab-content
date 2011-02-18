@@ -63,7 +63,7 @@ A [[finitely complete category]] is concrete, in the sense that it admits a fait
 =--
 +--{: .proof}
 ###### Proof
-"Only if" was proven by Isbell, "Two set-theoretical theorems in categories", Fund. Math 53 (1963).  To prove it, note that if $F: C\to D$ is a faithful functor, then it is injective on equivalence classes of regular subobjects.  For suppose that $m\colon a \to x$ is the [[equalizer]] of $f,g\colon x\rightrightarrows y$, and $n\colon b\to x$ is the equalizer of $h,k\colon x\rightrightarrows z$.  If $F(a) \cong F(b)$ as subobjects of $F(x)$, then since $f m = g m$ and so $F(f)\circ F(m) = F(g)\circ F(m)$, we must also have  $F(f)\circ F(n) = F(g)\circ F(n)$; hence (since $F$ is faithful) $f n = g n$, so that $n$ factors through $m$.  Conversely, $n$ factors through $m$, so we have $a\cong b$ as subobjects of $x$.  Since $Set$ is regularly well-powered, it follows that any category admitting a faithful functor to $Set$ must also be so.
+"Only if" was proven in ([Isbell](#Isbell)).  To prove it, note that if $F: C\to D$ is a faithful functor, then it is injective on equivalence classes of regular subobjects.  For suppose that $m\colon a \to x$ is the [[equalizer]] of $f,g\colon x\rightrightarrows y$, and $n\colon b\to x$ is the equalizer of $h,k\colon x\rightrightarrows z$.  If $F(a) \cong F(b)$ as subobjects of $F(x)$, then since $f m = g m$ and so $F(f)\circ F(m) = F(g)\circ F(m)$, we must also have  $F(f)\circ F(n) = F(g)\circ F(n)$; hence (since $F$ is faithful) $f n = g n$, so that $n$ factors through $m$.  Conversely, $n$ factors through $m$, so we have $a\cong b$ as subobjects of $x$.  Since $Set$ is regularly well-powered, it follows that any category admitting a faithful functor to $Set$ must also be so.
 
 (Actually, Isbell proved a more general condition which applies to categories that may lack finite limits.)
 
@@ -73,8 +73,15 @@ A [[finitely complete category]] is concrete, in the sense that it admits a fait
 
 ## Generalisations
 
-One can consider concrete categories over any base category $X$ instead of necessarily over $Set$.  This is the approach taken in _[[The Joy of Cats]]_.  Then the (small) concrete categories over $X$ form a [[2-category]] $Cat(X)$.
+One can consider concrete categories over any base category $X$ instead of necessarily over $Set$.  This is the approach taken in [The Joy of Cats](#JoyOfCats).  Then the (small) concrete categories over $X$ form a [[2-category]] $Cat(X)$.
 
+## References
+
+* _[[The Joy of Cats]]_
+{#JoyOfCats}
+
+* [[John Isbell]], _Two set-theoretical theorems in categories_ , Fund. Math 53 (1963)
+{#Isbell}
 
 [[!redirects concrete category]]
 [[!redirects concrete categories]]
