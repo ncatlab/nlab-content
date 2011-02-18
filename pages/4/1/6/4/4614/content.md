@@ -38,6 +38,14 @@ formed in [[Top]].
 
 =--
 
+More explicitly, this is the [[topological space]] given by the [[quotient]]
+
+$$
+  |X_\bullet| = \coprod_{n} \Delta^n_{Top} \times X_n /\sim
+$$
+
+where the [[equivalence relation]] "$\sim$" identifies for every order-preserving [[function]] $[k] \to [l]$ the points $(f_* p,x ) \in \Delta^l_{Top} \times X_l$ and $(p,f^* x) \in \Delta^k_{Top} \times X_k$.
+
 This naturally extends to a [[functor]]
 
 $$
@@ -61,11 +69,35 @@ $$
 
 (Fat, because it does not [[quotient]] out the [[relation]]s induced by the degeneracy maps and hence is "bigger" than ordinary geometric realization).
 
+More explicitly, this is the [[topological space]] given by the [[quotient]]
 
+$$
+  |X_\bullet| = \coprod_{n} \Delta^n_{Top} \times X_n /\sim
+$$
 
+where the [[equivalence relation]] "$\sim$" identifies only for every _strictly increasing_ [[function]] $[k] \to [l]$ the points $(f_* p,x ) \in \Delta^l_{Top} \times X_l$ and $(p,f^* x) \in \Delta^k_{Top} \times X_k$.
 
++-- {: .un_prop}
+###### Example
+
+The geometric realization of the point -- the [[simplicial topological space]] that is in each degree the 1-point topological space -- is [[homeomorphic]] to the point, but the fat geometric realization of the point is the "infinite dimensional topological ball": the morphism
+
+$$
+  \vert * \vert \stackrel{\simeq_{iso}{\to} *
+$$
+
+is an [[isomorphism]], but the morphism
+
+$$
+  \Vert * \Vert \stackrel{\simeq_{wh}}{\to} *
+$$
+
+is just a [[weak homotopy equivalence]].
+
+=--
 
 ## Properties
+
 
 ### General
 
@@ -76,6 +108,9 @@ If $X_\bullet : \Delta^{op} \to Set \hookrightarrow Top$ is a degreewise [[discr
 
 =--
 
+### Compatibility with limits
+
+#### Ordinary geometric realization
 
 +-- {: .un_prop}
 ###### Proposition
@@ -91,7 +126,7 @@ $$
 
 =--
 
-See for instance ([May, corollary 11.6](#May)).
+For instance ([May, corollary 11.6](#May)).
 
 Write $({\vert- \vert} \dashv Sing) : Top\stackrel{\overset{{|-|}}{\leftarrow}}{\underset{Sing}{\to}} sSet$ for the ordinary [[geometric realization]]/[[singular simplicial complex]] adjunction (see [[homotopy hypothesis]]).
 
@@ -108,6 +143,32 @@ $$
 $$
 
 =--
+
+#### Fat geometric realization
+
+The fat geometric realization does not preserve fiber products on the nose, in general, but it does preserve all [[finite limit]]s up to [[homotopy]]. 
+
+Write $\Vert * \Vert$ for the fat geometric realization of the point. Notice that due to the identification of [[Top]]${\Delta}^{op}$ with its [[overcategory]] over the point (the simplicial topological space constant on the point), $Top^{\Delta^{op}} \simeq Top^{\Delta^{op}}/*$, we may regard fat geometric gealization as a functor
+
+$$
+  \Vert - \Vert : Top^{\Delta^{op}} \to Top/\Vert*\Vert
+  \,.
+$$
+
++-- {: .un_prop}
+###### Proposition
+
+The functor
+
+$$
+  \Vert - \Vert : Top^{\Delta^{op}} \to Top/\Vert*\Vert
+$$
+
+preserves all [[finite limit]]s.
+
+=--
+
+See ([GepnerHenriques, remark 2.23]).
 
 ### Relation to the homotopy colimit
 
@@ -188,6 +249,7 @@ If moreover $X_\bullet$ is [proper](#ProperSimplicialSpace), then the [[natural 
 +-- {: .proof}
 ###### Proof
 
+
 That the geometric realization of a proper simplicial space is is homotopy colimit follows from the [above fact](#ProperIsReedyCofibrant) that proper spaces are Reedy cofibrant, and using the general statement discussed at [[homotopy colimit]] about description of homotopy colimits by [[coend]]s.
 
 =--
@@ -202,12 +264,14 @@ In the case $X_\bullet$ that is a [good](#GoodSimplicialSpace) [[simplicial topo
 
 ## References
 
+An original reference is
+
+* [[Graeme Segal]], _Categories and cohomology theories_ Topology, 13:293&#8211;312, 1974
+
 A standard textbook reference is chapter 11 of
 
 * [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 {#May}
-
-see the proof of Corollary 2.4 (b) in 
 
 A proof that good simplicial spaces are proper is in
 
@@ -222,6 +286,12 @@ A generalization of the statement that good implies proper to other [[topologica
 Comments on the relation between properness and cofibrancy in the [[Reedy model structure]] on $[\Delta^{op}, Set]$ are made in 
 
 * [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537)).
+
+The geometric realization of ([[nerve]]s of) [[topological groupoid]] is discussed in section 2.3 of
+
+* [[David Gepner]], [[Andre Henriques]], _Homotopy theory of orbispaces_ ([pdf](http://www.math.uni-muenster.de/sfb/about/publ/heft448.pdf))
+{#GepnerHenriques}
+
 
 ## Refereeing
 
