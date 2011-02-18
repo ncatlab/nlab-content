@@ -79,7 +79,7 @@ The definition of the symmetric monoidal category of *symmetric* spectra is comp
 
 * [[Sander Kupers]], _[[SymmetricSpectra.pdf:file]]_
 
-
+* wikipedia [highly structured ring spectrum](http://en.wikipedia.org/wiki/Highly_structured_ring_spectrum)
 [[!redirects S-module]]
 [[!redirects S-modules]]
 [[!redirects symmetric spectrum]]
