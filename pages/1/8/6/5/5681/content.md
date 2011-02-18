@@ -20,7 +20,7 @@
 +-- {: .un_defn}
 ###### Definition
 
-Let $C$ be an [[(∞,1)-category]] and $f : A \to B$ and $g : X \to Y$ two [[morphism]]s in $C$. Wrie $C_{A\sslash Y}$ for the [[over-(∞,1)-category|under-over-(∞,1)-category]].
+Let $C$ be an [[(∞,1)-category]] and $f : A \to B$ and $g : X \to Y$ two [[morphism]]s in $C$. Write $C_{A\sslash Y}$ for the [[over-(∞,1)-category|under-over-(∞,1)-category]].
 
 We say that $f$ is **left orthogonal** to $g$ and that $g$ is **right orthogonal** to $f$ and write
 
