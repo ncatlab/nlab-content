@@ -16,8 +16,9 @@ Warning: there is another mathematician (global analysis, [[symplectic geometry]
 
 * A. Beilinson, V. Ginzburg, W. Soergel, _Koszul duality patterns in representation theory_, J. Amer. Math. Soc. 9 (1996), no. 2, 473&#8211;527.
 
-* V. Ginsburg, _Characteristic varieties and vanishing cycles_, Inv. Math. __84__, 327--402 (1986)
+* V. Ginsburg, _Characteristic varieties and vanishing cycles_, Inv. Math. __84__, 327--402 (1986) [MR87j:32030](http://www.ams.org/mathscinet-getitem?mr=833194), [doi](http://dx.doi.org/10.1007/BF01388811)
 
+* V.G. Lectures on D-modules, 1998 Chicago notes, writeup by V. Baranovsky, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/Ginzburg.pdf)
 
 category: people
 
