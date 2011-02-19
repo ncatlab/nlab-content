@@ -134,7 +134,7 @@ The last condition equivalently says:
 
 The notion of good simplicial topological space goes back to ([Segal73](#Segal73)), that of proper simplicial topological space to ([May](#May)). 
 
-+-- {: .num_prop}
++-- {: .num_prop #RelationToDiagonalOfBisimplicialSets}
 ###### Proposition
 
 A good simplicial topological space is proper:
@@ -164,7 +164,7 @@ for the ordinary [[geometric realization]]/[[singular simplicial complex]] [[adj
 
 For $S_{\bullet,\bullet} : \Delta^{op} \times \Delta^{op} \to Set$ a [[bisimplicial set]], write $d S$ for its [[diagonal]] $d X : \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\to} Set$.
 
-+-- {: .num_prop}
++-- {: .num_prop #GoodResolution}
 ###### Proposition
 
 Let $X_\bullet$ be a simplicial topological space. 
@@ -201,7 +201,7 @@ $(|-| \dashv Sing)$-[[unit of an adjunction|counit]].
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #HomeomorphismFromResolutionToDiagonal}
 ###### Proposition
 
 For $X_\bullet$ any [[simplicial topological space]], there is a [[homeomorphism]] between the geometric realization of the simplicial space $|Sing(X_\bullet)|$ and the ordinary [[geometric realization]] of the [[simplicial set]] that is the diagonal of the [[bisimplicial set]] $Sing(X_\bullet)_\bullet$
@@ -255,7 +255,7 @@ See ([Segal74, appendix A](#Segal74))
 
 This is different for the fat geometric realization.
 
-+-- {: .num_prop}
++-- {: .num_prop #NicePropertiesOfFatRealization}
 ###### Proposition
 
 * If $X_\bullet$ is degreewise of the [[homotopy type]] of a [[CW-complex]], then so is $\Vert X_\bullet \Vert$.
@@ -269,7 +269,7 @@ This appears as ([Segal74, prop. A.1](#Segal)).
 
 ### Relation between fat and ordinary geometric realization
 
-+-- {: .num_prop}
++-- {: .num_prop #FatRealizationOfGoodSimplicialSpaces}
 ###### Proposition
 
 If the simplicial topological space $X_\bullet$ is [good](#GoodAndProper) then the natural morphism from its [fat geometric realization](#FatGeometricRealization) to its [ordinary geometric realization](#GeometricRealization) is a [[homotopy equivalence]]
@@ -330,32 +330,83 @@ See ([GepnerHenriques, remark 2.23](#GepnerHenriques)).
 
 
 ### Relation to the homotopy colimit
+  {#RelationToHomotopyColimit}
 
-In certain cases geometric realisation computes the [[homotopy colimit]] of the [[diagram9] $X_\bullet : \Delta^{op} \to Top$ given by the simplicial space, with respect to the standard [[model structure on topological spaces]].
+In certain cases geometric realisation computes the [[homotopy colimit]] of the [[diagram]] $X_\bullet : \Delta^{op} \to Top$ given by the simplicial space, with respect to the standard [[model structure on topological spaces]].
 
 
 +-- {: .num_prop}
 ###### Proposition
 
-Let $X_\bullet$ be a [[simplicial topological space]]. Then there is a [[natural transformation|natural]] [[weak homotopy equivalence]] 
+Let $X_\bullet$ be a [good](#GoodAndProper) [[simplicial topological space]] that is degreewise a [[CW-complex]]. 
+
+Then in the [[homotopy category]] [[Ho(Top)]] there is an [[isomorphism]] between its geometric realization and the [[homotopy colimit]] over the simplicial [[diagram]] $X_\bullet : \Delta^{op} \to Top_{Quillen}$ with respect to the standard [[model structure on topological spaces]].
 
 $$
- \Vert X_\bullet\Vert \simeq hocolim_{n \in \Delta} X_n
+  \vert X_\bullet \vert 
+  \simeq
+  hocolim_n X_n
+  \,.
 $$
 
-from its fat geometric realization to the [[homotopy colimit]] over the simplicial diagram $X : \Delta^{op} \to Top$.
-
-If moreover $X_\bullet$ is [proper](#ProperSimplicialSpace), then the [[natural transformation|natural morphism]]  $ {\Vert X\Vert} \to {|X|}$ is a [[weak homotopy equivalence]], and hence also the ordinary geometric realization is a model for the homotopy colimit.
-
-=-- 
+=--
 
 +-- {: .proof}
 ###### Proof
 
+We have the following zig-zag of [[homotopy equivalence]]s in [[Top]]
 
-That the geometric realization of a proper simplicial space is is homotopy colimit follows from the [above fact](#ProperIsReedyCofibrant) that proper spaces are Reedy cofibrant, and using the general statement discussed at [[homotopy colimit]] about description of homotopy colimits by [[coend]]s.
+$$
+  \array{
+    \Vert X_\bullet \Vert &\stackrel{\simeq}{\leftarrow}& 
+      \Vert (\vert Sing(X_\bullet)\vert) \Vert
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \vert X_\bullet \vert && 
+      \vert (\vert Sing(X_\bullet) \vert) \vert
+    &=_{iso}&
+    \vert  d (Sing X_\bullet)_\bullet \vert 
+    &\simeq&
+    \vert  hocolim_n (Sing X_n )\vert
+  }
+  \,.
+$$
 
-=--
+The two vertical equivalences follows from prop. \ref{FatRealizationOfGoodSimplicialSpaces} by the assumption that $X_\bullet$ is good and the statement of prop. \ref{GoodResolution} that also $\vert Sing X_\bullet \vert$ is good. The top horizontal equivalence is due to prop. \ref{NicePropertiesOfFatRealization} and the fact that the $(\vert-\vert \dashv Sing)$-[[unit of an adjunction|counit]] is a [[weak homotopy equivalence]] in general and hence a [[homotopy equivalence]] on CW-complexes.
+The homeomorphism on the right is that of prop. \ref{HomeomorphismFromResolutionToDiagonal}. Finally the rightmost equivalence uses that the [[diagonal]] of a bisimplicial set $S_{\bullet, \bullet}$ computes the [[homotopy colimit]] of $[n] \mapsto S_{\bullet, n}$ by 
+
+1. the fact that the diagonal is isomorphic to the coend (see [[bisimplicial set]])
+
+   $$
+     d S = \int^{[n] \in \Delta} \Delta[n] \times S_{\bullet,n}
+     \,,
+   $$
+
+1. this coend is a [[Quillen bifunctor]] (see there)
+
+   $$
+     \int^\Delta (-)\times (-) : 
+      [\Delta, sSet_{Quillen}]_{Reedy} \times 
+      [\Delta^{op}, sSet_{Quillen}]_{Reedy}
+      \to
+      sSet_{Quillen}
+      \,,
+   $$
+
+1. the standard cosimplicial simplex $\Delta : \Delta \to sSet$ is a cofibrant [[resolution]] of the point in the [[Reedy model structure]] (see there) and every simplicial simplicial set is Reedy cofibrant;
+
+1. the general discussion of presentations of [[homotopy colimit]]s (see there) by such resolved [[coend]]s.
+
+Finally since $\vert - \vert : sSet_{Quillen} \to Top_{Quillen}$ is a [[Quillen adjunction|left]] [[Quillen equivalence]] (see [[homotopy hypothesis]]) we have
+
+$$
+  |hocolim_n Sing X_n| \simeq hocolim_n |Sing X_n| \simeq hocolim_n X_n
+  \,.
+$$
+
+=-- 
+
 
 ## Related concepts
 
