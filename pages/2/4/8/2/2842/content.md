@@ -21,11 +21,25 @@ This means that
 
 * for any [[topological space]] $Y$, 
 
-* all continuous maps $f:A\to Y$, $\tilde{f}:X\to Y$ such that $\tilde{f}\circ\tilde{i}=f$ 
+* all continuous maps $f:A\to Y$, $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i=f$ 
 
 * and a [[homotopy]] $F:A\times I\to Y$ such that $F(-,0)=f$ 
 
-there is a homotopy $\tilde{F}:X\times I\to Y$ such that $\tilde{F}\circ(i\times id_I)=F$ and $\tilde{F}(-,0)=\tilde{f}$. 
+there is a homotopy $\tilde{F}:X\times I\to Y$ such that 
+  
+* $\tilde{F}\circ(i\times id_I)=F$ 
+
+* and $\tilde{F}(-,0)=\tilde{f}$. 
+
+$$
+  \array{
+     A &\stackrel{f}{\to}& Y
+     \\
+     \downarrow & \nearrow_{\mathrlap{\tilde f}} 
+     \\
+     X  
+  }
+$$
 
 We say that a Hurewicz cofibration $i:A\to X$ is a **closed cofibration** if $i(A)$ is closed in $X$.
 
@@ -93,6 +107,12 @@ $$
 
 This is stated and proven in ([Kieboom](#Kieboom)).
 
++-- {: .un_cor}
+###### Corollary
+
+The [[product]] of two closed cofibrations is a closed cofibration.
+
+=--
 
 ## References
 
