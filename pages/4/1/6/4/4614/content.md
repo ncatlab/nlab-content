@@ -289,7 +289,7 @@ We discuss how geometric realization interacts with [[limit]]s of simplicial top
 
 #### Ordinary geometric realization
 
-+-- {: .num_prop}
++-- {: .num_prop #RealizationPreservesPullbacks}
 ###### Proposition
 
 Geometric realization preserves [[pullback]]s: for $X_\bullet \to Y_\bullet \leftarrow Z_\bullet$ a [[diagram]] in $Top^{\Delta^{op}}$ there are [[natural transformation|natural]] [[homeomorphism]]s
@@ -335,7 +335,7 @@ See ([GepnerHenriques, remark 2.23](#GepnerHenriques)).
 In certain cases geometric realisation computes the [[homotopy colimit]] of the [[diagram]] $X_\bullet : \Delta^{op} \to Top$ given by the simplicial space, with respect to the standard [[model structure on topological spaces]].
 
 
-+-- {: .num_prop}
++-- {: .num_prop #RealizationOfGoodSimplicialSpacesIsHomotopyColimit}
 ###### Proposition
 
 Let $X_\bullet$ be a [good](#GoodAndProper) [[simplicial topological space]] that is degreewise a [[CW-complex]]. 
@@ -408,6 +408,191 @@ $$
 =-- 
 
 
+## Applications
+
+
+### Topological principal $\infty$-bundles
+ {#TopologicalPrincipalInfinityBundle}
+ 
+
+Let $G$ be a [[simplicial topological group]]. 
+
+Recall from the discussion at [[universal principal ∞-bundle]] that $\mathbf{E}G \to \mathbf{B}G$ is presented by the morphism of [[simplicial topological space]]s $W G \to \bar W G$.
+
+Recall from [[simplicial topological group]] the following
+
++-- {: .num_def}
+###### Definition
+
+We say a morphism $f : X \to Y$ of [[simplicial topological space]]s is a **global Kan fibration** if for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the canonical morphism
+
+$$
+  X_n \to Y_n \times_{sTop(\Lambda^n_k, Y)} sTop(\Lambda^n_k, X)
+$$
+
+in [[Top]] has a [[section]], where 
+
+* $\Lambda^n_k \in $ [[sSet]] $\hookrightarrow Top^{\Delta^{op}}$ is the $k$th $n$-[[horn]] regarded as a [[discrete space|discrete]] [[simplicial topological space]]:
+
+* $sTop(-,-) : sTop^{op} \times sTop \to Top$ is the [[Top]]-[[hom object]].
+
+We say a [[simplicial topological space]] $X_\bullet \in Top^{\Delta^{op}}$ is **(global) Kan simplicial space** if the unique morphism $X_\bullet \to *$ is a global Kan fibration, hence if for all $n \in \mathbb{N}$ and all $0 \leq i \leq n$ the canonical [[continuous function]]
+
+$$
+  X_n \to [\Lambda^n_k, X]
+$$
+
+into the [[topological space]] of $k$th $n$-[[horn]]s admits a [[section]].
+
+=--
+
+This global notion of Kan simplicial spaces is considered for instance in ([BrownSzczarba](#BrownSzczarba)) and ([May](#May)).
+
++-- {: .num_prop #SimplicialTopologicalUniversalBundle}
+###### Proposition
+
+Let $G$ be a [[simplicial topological group]]. Then 
+
+1. $G$ is a globally Kan simplicial topological space;
+
+1. $\bar W G$ is a globally Kan simplicial topological space;
+
+1. $W G \to \bar W G$ is a global Kan fibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), the second is noted in ([RobertsStevenson](#RobertsStevenson)), the third appears as ([BrownSzczarba, lemma 6.7](#BrownSzczarba)).
+
+=--
+
++-- {: .num_prop #RealizationSimplicialTopologicalUniversalBundle}
+###### Proposition
+
+For $G$ well-sectioned, the geometric realization
+
+$$
+  \vert W G \vert \to \vert \bar W G \vert
+$$
+
+is a fibration [[resolution]] in $Top_{Quillen}$ of the point inclusion 
+$* \to B|G|$.
+
+=--
+
+This is one of the central theorems proven in ([RobertsStevenson](#RobertsStevenson)).
+
++-- {: .num_prop #SimplicialTopolgicalBundleIsGood}
+###### Proposition
+
+Let $X_\bullet$ be a [good](#GoodAndProper) [[simplicial topological space]] and $G$ a [[simplicial topological group|well-sectioned simplicial topological group]]. Then for every morphism
+
+$$
+  \tau : X \to \bar W G
+$$
+
+the corresponding topological [[simplicial principal bundle]] $P$ over $X$ is itself a good simplicial topological space.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The bundle is the [[pullback]] $P = X \times_{\bar W G} W G$ in $sTop$
+
+$$
+  \array{
+     P &\to& \bar W G
+     \\
+     \downarrow && \downarrow
+     \\
+     X &\stackrel{\tau}{\to}& \bar W G
+  }
+  \,.
+$$
+
+This means that the degeneracy maps of $P_\bullet$ are induced degreewise by morphisms between pullbacks in [[Top]] that are degreewise [[closed cofibration]]s, where one of the morphisms in each pullback is a fibration. By the properties discussed at [[closed cofibration]], this implies that also these degeneracy maps of $P_\bullet$ are closed cofibration.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[homotopy colimit]] operation
+
+$$
+  hocolim : sTop \to Top
+$$
+
+preserves [[homotopy fiber]]s of morphisms $\tau : X \to \bar W G$ with $X$ good and globally Kan and $G$ well-sectioned.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+We apply the [[Yoneda embedding]] $sTop \hookrightarrow [Top^{op}, sSet]_{proj}$ and use the projective [[model structure on simplicial presheaves]].
+
+By prop. \ref{SimplicialTopologicalUniversalBundle} we have that $W G \to \bar W G$ is a fibration [[resolution]] of the point inclusion $* \to \bar W G$.
+
+By the general discussion at [[homotopy colimit]] this means that the [[homotopy fiber]] of a morphism $\tau : X \to \bar W G$ is computed as the ordinary [[pullback]] $P$ in 
+
+$$
+  \array{
+    P &\to& W G
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{\tau}{\to}& \bar W G
+  }
+  \,,
+$$
+
+$$
+  hofib(\tau) \simeq P
+  \,.
+$$
+
+By prop. \ref{SimplicialTopologicalUniversalBundle} and prop. \ref{SimplicialTopolgicalBundleIsGood} we have that all objects here good simplicial topological spaces. Therefore by prop. \ref{RealizationOfGoodSimplicialSpacesIsHomotopyColimit} we have
+
+$$
+  hocolim P_\bullet \simeq |P_\bullet|
+$$
+
+in [[Ho(Top)]]. By prop. \ref{RealizationPreservesPullbacks} we have that 
+
+$$
+  \cdots = |X_\bullet| \times_{|\bar W G|} |W G|
+  \,.
+$$
+
+Finally prop. \ref{RealizationSimplicialTopologicalUniversalBundle} says that this is again a presentation by pullback of a fibration resolution of the point inclusion of the [[homotopy fiber]]
+
+$$
+  \cdots \simeq hofib( |\tau| )
+  \,.
+$$
+
+Finally by prop. \ref{RealizationOfGoodSimplicialSpacesIsHomotopyColimit} and using the assumption that $X$ and $\bar W G$ are both good, this is
+
+$$
+  \cdots \simeq hofib (hocolim \tau)
+  \,.
+$$
+
+In total we have shown
+
+$$
+  hocolim (hofib \tau) \simeq hofib (hocolim \tau)
+  \,.
+$$
+
+=--
+
+
 ## Related concepts
 
 * [[simplicial topological space]], [[nice simplicial topological space]]
@@ -454,6 +639,12 @@ The geometric realization of ([[nerve]]s of) [[topological groupoid]] is discuss
 
 * [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([pdf](http://www.math.uni-muenster.de/sfb/about/publ/heft448.pdf))
 {#GepnerHenriques}
+
+Globally Kan simplicial spaces are considered in 
+
+* E. H. Brown and R. H. Szczarba, _Continuous cohomology and real homotopy
+type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
+{#BrownSzczarba}
 
 
 ## Refereeing
