@@ -1,4 +1,6 @@
-__Benoit Fresse__ is a mathematician; one of his interests concerns theory of [[operads]].
+__[Benoit Fresse](http://math.univ-lille1.fr/~fresse/)__ is a mathematician at Lille. One of his interests concerns theory of [[operads]].
+
+His papers include:
 
 * _Lie theory of formal groups over an operad_, J. Alg. __202__, 455--511, 1998, [doi](http://dx.doi.org/10.1006/jabr.1997.7280) 
 
