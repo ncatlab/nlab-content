@@ -1,4 +1,4 @@
-__[Benoit Fresse](http://math.univ-lille1.fr/~fresse/)__ is a mathematician at Lille. One of his interests concerns theory of [[operads]].
+__[Benoit Fresse](http://math.univ-lille1.fr/~fresse/)__ is a mathematician at Lille. One of his interests concerns the theory of [[operads]].
 
 His papers include:
 
