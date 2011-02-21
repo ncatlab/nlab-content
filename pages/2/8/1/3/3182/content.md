@@ -60,8 +60,8 @@ to be the [[(∞,1)-category of (∞,1)-sheaves]] on $CartSp_{top}$.
 +-- {: .un_prop #ETopInfGrpdAsCohesiveTopos}
 ###### Proposition
 
-
 The [[(∞,1)-topos]] $ETop \infty Grpf$ is a [[cohesive (∞,1)-topos]].
+
 =--
 
 +-- {: .proof}
@@ -562,7 +562,7 @@ $$
 
 of topological spaces and hence (since the [[Yoneda embedding]] preserves [[limit]]s) of [[simplicial presheaves]] on [[CartSp]]${}_{top}$ is a [[homotopy pullback]] (as discussed there) and hence $P = X \times_{\bar W G} W G$ is a presentation of the [[homotopy fiber]] of $X \to \mathbf{B}G$ in the [[(∞,1)-category of (∞,1)-presheaves]] over $CartSp$ and hence by [[exact (∞,1)-functor|left exactness]] of [[(∞,1)-sheafification]] also in $ETop\infty Grpd$.
 
-In ([StevensonRoberts](#StevensonRoberts)) it is shown that under [[geometric realization of simplicial topological spaces]] the <a href="http://nlab.mathforge.org/nlab/show/simplicial+group#UniversalSimplicialBundle">universal simplicial G-bundle</a> $W G \to \bar W G$ maps to the universal $|G|$-principal topological bundle $E |G| \to B |G|$ over the [[topological group]] $|G|$ obtained by [[geometric realization of simplicial topological spaces|geometric realization]] of $G$. This is a [[resolution]] of the point inclusion $* \to B|G|$ in [[Top]].
+In ([RobertsStevenson](#RobertsStevenson)) it is shown that under [[geometric realization of simplicial topological spaces]] the <a href="http://nlab.mathforge.org/nlab/show/simplicial+group#UniversalSimplicialBundle">universal simplicial G-bundle</a> $W G \to \bar W G$ maps to the universal $|G|$-principal topological bundle $E |G| \to B |G|$ over the [[topological group]] $|G|$ obtained by [[geometric realization of simplicial topological spaces|geometric realization]] of $G$. This is a [[resolution]] of the point inclusion $* \to B|G|$ in [[Top]].
 
 But [[geometric realization of simplicial topological spaces]] preserves (as discussed there) ordinary [[pullback]]s. Therefore we have that also 
 
@@ -913,8 +913,8 @@ Some discussion of the $(\infty,1)$-category of $(\infty,1)$-sheaves on the cate
 
 Discussion of geometric realization of simplicial topological principal bundles is in 
 
-* [[nLab:Danny Stevenson]], [[nLab:David Roberts]], unpublished notes (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#StevensonRoberts">web</a>)
-{#StevensonRoberts}
+* [[nLab:David Roberts]], [[nLab:Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#StevensonRoberts">web</a>)
+{#RobertsStevenson}
 
 
 [[!redirects Euclidean-topological infinity-groupoid]]
