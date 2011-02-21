@@ -11,7 +11,7 @@
 
 #Contents#
 * table of contents
-{:to}
+{:toc}
 
 ## Definition
 
