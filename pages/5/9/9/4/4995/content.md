@@ -380,10 +380,13 @@ Since $X^*$, being an inverse image, preserves finite limits and since it preser
 =--
 
 
-### Cohesive $\infty$-Groups {#InfinGroups}
+### Cohesive $\infty$-Groups 
+  {#InfinGroups}
 
 Every [[(∞,1)-topos]] $\mathbf{H}$ 
 comes with a notion of [[group object in an (∞,1)-category|∞-group objects]] that generalizes the traditional notion of grouplike $A_\infty$ spaces in [[Top]] $\simeq$ [[∞Grpd]].
+
+
 
 +-- {: .un_def}
 ###### Definition
@@ -410,16 +413,25 @@ This object $\Omega_x X$ is canonically equipped with the structure of an [[∞-
 +-- {: .un_def}
 ###### Definition
 
-  For every [[∞-group]] $G \in \mathbf{H}$ there is a [[connected]] object 
-  $\mathbf{B}G$ such that $G \simeq \Omega_{*} \mathbf{B}G$.
+  For every [[∞-group]] $G \in \mathbf{H}$ there is a [[0-connected]] object 
+  $* \to \mathbf{B}G$ such that $G \simeq \Omega_{*} \mathbf{B}G$.
 
 =--
 
 See [[groupoid object in an (∞,1)-category]].
 
++-- {: .un_remark}
+###### Remark
 
-+-- {: .un_def}
-###### Definition
+Notice that every [[0-connected]] object $\mathbf{B}G$ in the cohesive $(\infty,1)$-topos $\mathbf{H}$ does have a global point (then necessarily essentially unique) $* \to \mathbf{B}G$.
+
+=--
+
+This follows from the [above proposition](#PointLike) which says that $\mathbf{H}$ necessarily has [[homotopy dimension]] $\leq 0$.
+
+
++-- {: .un_prop}
+###### Observation
 
   The object $\mathbf{B}G \in \mathbf{H}$ is concrete preciely if $G$ is.
 
@@ -475,6 +487,76 @@ where the outer rectangle is an [[(∞,1)-pullback]] if the left square is an
 This follows from the pasting law for $(\infty,1)$-pullbacks in any
 [[(∞,1)-category]].
 
+
++-- {: .un_prop}
+###### Proposition
+
+If the cohesive $(\infty,1)$-topos $\mathbf{H}$ has an [[∞-cohesive site]] of definition $C$, then 
+
+* every [[∞-group]] object has a presentation by a presheaf of [[simplicial group]]s 
+
+  $$
+    G \in [C^{op}, sGrp] \stackrel{U}{\to} [C^{op}, sSet]
+  $$
+ 
+  which is fibrant in $[C^{op}, sSet]_{proj}$;
+
+* the corresponding [[delooping]] object is presented by the presheaf 
+
+  $$
+    \bar W G \in [C^{op}, sSet_0] \hookrightarrow [C^{op}, sSet]
+  $$
+
+  which is given over each $U \in C$ by $\bar W (G(U))$ (see [[simplicial group]] for the notation).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $* \to X \in [C^{op}, sSet]_{proj,loc}$ be a locally fibrant representative of $* \to \mathbf{B}G$. Since the [[terminal object]] $*$ is indeed presented by the presheaf constant on the point we have functorial choices of basepoints in all the $X(U)$ for all $U \in C$ and by assumption that $X$ is [[connected]] all the $X(U)$ are connected. Hence without loss of generality we may assume that $X$ is presented by a presheaf of reduced simplicial sets
+$X \in [C^{op}, sSet_0] \hookrightarrow X \in [C^{op}, sSet]$.
+
+Then notice the [[Quillen equivalence]] between the [[model structure on reduced simplicial sets]] and the [[model structure on simplicial groups]]
+
+$$
+  (\Omega \dashv \bar W) : sGrp \stackrel{\overset{\Omega}{\leftarrow}}{\underset{\bar W}{\to}}
+   sSet_0
+  \,.
+$$
+
+In particular its [[unit of an adjunction|unit]] is a weak equivalence
+
+$$
+  \bar W \Omega Y \stackrel{\simeq}{\to} Y
+$$
+
+for every $Y \in sSet_0 \hookrightarrow sSet_{Quillen}$ and $\bar W \Omega Y$ is always a [[Kan complex]]. Therefore 
+
+$$
+  \bar W \Omega X \in [C^{op}, sSet]_{proj}
+$$
+
+is an equivalent representative for $X$, fibrant at least in the global model structure. Since the finite [[(∞,1)-limit]] involved in forming [[loop space object]]s is equivalently computed in the global model structure, it is sufficient to observe that
+
+$$
+  \array{
+    \Omega X &\to& W \Omega X
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \bar W \Omega X
+  }
+$$
+
+is
+
+* a [[pullback]] diagram in $[C^{op}, sSet]$ (because it is so over each $U \in C$ by the general discussion at [[simplicial group]]);
+
+* a [[homotopy pullback]] of the point along itself (since $W G \to \bar W G$ is objectwise a fibration [[resolution]] of the point inclusion).
+
+
+=--
 
 ### Cohomology and principal $\infty$-bundles {#Cohomology}
 
