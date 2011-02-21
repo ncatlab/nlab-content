@@ -99,8 +99,6 @@
 
 * [[model structure on simplicial groupoids]]
 
-  * [[model structure on simplicial groups]]
-
 * [[model structure on cubical sets|on cubical sets]]
 
 * [[model structure on strict ∞-groupoids|on strict ∞-groupoids]], [[natural model structure on groupoids|on groupoids]]
@@ -108,6 +106,12 @@
 * [[model structure on chain complexes|on chain complexes]]/[[model structure on cosimplicial abelian groups]] 
 
    related by the [[Dold-Kan correspondence]]
+
+### for $\infty$-groups
+
+* [[model structure on simplicial groups]]
+
+* [[model structure on reduced simplicial sets]]
 
 ### for $\infty$-algebras
 
