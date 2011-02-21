@@ -13,77 +13,101 @@
 =--
 =--
 
-[[fivebrane 6-group]] $\to$ **string 2-group** $\to$ [[spin group]]
 
-***
 
 #Contents#
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
 ## Idea
 
-The _string 2-group_ is a [[Lie infinity-groupoid|Lie 2-group]]-refinement of the [[topological group]] called the [[string group]].
-
-The topological string group is the [[homotopy fiber]] in [[Top]] of the first fractional [[Pontryagin class]] $\frac{1}{2}p_1 : \mathcal{B}Spin \to \mathbf{B}^4 \mathbb{Z}$. The string 2-group is the homotopy fiber in [[?LieGrpd]] of the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothFirstFracPontryaginClass">smooth first fractional Pontryagin class</a>  $\frac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)$.
-
-### Motivation from quantum physics
-
-Since, by definition, the topological [[string group]] has vanishing third [[homotopy group]], it cannot be a (finite dimensional) [[Lie group]] (because these all have nontrivial $\pi_3$ as soon as they are nonabelian). However, for various applications it is necessary to have a smooth model of the [[string group]]. The string 2-group provides this.
-
-This is best understood by comparison with the situation one step down in the [[Whitehead tower]] of $O(n)$: using the [[spin group]] instead of the string group. A priori the [[spin group]] is defined as the [[topological group]] that is the [[universal cover]] of the [[special orthogonal group]]. This alone is sufficient to talk about [[spin structure]] of an [[orientation|oriented]] $n$-dimensional [[manifold]] $X$: this is a lift of the classifying map $X \to \mathcal{B} SO(n)$ -- a morphism of [[topological space]]s -- of the [[tangent bundle]] $T X $ of $X$ through the projection $\mathcal{B} Spin(n) \to \mathcal{B} SO(n)$.
-
-And this can be said entirely within [[Top]]. In [[quantum physics]], the existence of such a lift is necessary in order for [[spin|spinning]] particles to have a consistent _kinematics_ on $X$. However, the _dynamics_ of such spinning particles is encoded by a richer structure: 
-
-the [[spin group]] naturally has the structure not just of a [[topological group]] but of a [[Lie group]]. This means that a [[spin structure]] on $X$ may be exhibited by a _smooth_ $Spin(n)$-[[principal bundle]]. Being a smooth bundle for a [[Lie group]], there is a notion of [[connection on a bundle]]. The choice of such refines the [[nonabelian cohomology]] class given by the [[spin structure]] $X \to \mathcal{B} Spin(n)$ to a class in [[schreiber:differential nonabelian cohomology|differential nonabelian cohomology]].
-
-Such a differential refinement of topological [[nonabelian cohomology]] is what the string 2-group admits and which the plain [[string group]] in the form of a  [[topological group]] does not admit:
-
-The _kinematics_ of the "spinning string" called the [[heterotic string]] requires that the [[spin structure]] $X \to \mathcal{B} Spin(n)$ lifts to a [[string structure]] $X \to \mathcal{B} String(n)$, again so far just as a lift in [[Top]].
-
-Such a lift classifies a topological [[string group]]-[[principal bundle]] on $X$. But the _dynamics_ of the string is determined by a differential refinement of this [[nonabelian cohomology]] class (aspects of this are described at [[schreiber:twisted differential String- and Fivebrane structures]]): it is given by a _smooth_ $String(n)$-[[schreiber:principal 2-bundle with connection|principal 2-bundle with connection]].
-
-In order to make sense of this one needs an incarnation and refinement of the topological [[string group]] inside an [[(infinity,1)-topos]] of [[Lie infinity-groupoid]]s. This is what the string 2-group accomplishes.
-
+The _string 2-group_ is a [[smooth ∞-groupoid|smooth 2-group]]-refinement of the [[topological group]] called the [[string group]].
 
 
 ## Definition
 
-Let $\mathfrak{g} = \mathfrak{so}$ be the [[orthogonal Lie algebra]] and $\mu = \langle  . , [-,-]\rangle\in CE(\mathfrak{so})$ the canonical cocycle in [[Lie algebra cohomology]] corresponding to the [[Killing form]] [[invariant polynomial]], normalized such that its continuation to a left-invariant 3-form on the [[spin group]] represents the image in deRham cohomology of a generator of the [[integral cohomology]] group $H^3(Spin,\mathbb{Z}) \simeq \mathbb{Z}$.
-
-Then by <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">integration of Lie algebra cocycles</a> we get a morphism
-
-$$
-  \frac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)
-$$
-
-in the [[(∞,1)-topos]] [[?LieGrpd]]. 
-
-Concretely, in terms of the [[model structure on simplicial presheaves]] over the [[site]] [[CartSp]], this is given as follows: the 3-[[coskeleton]] $\mathbf{cosk}_3 \exp(\mathfrak{g})$ of the [[simplicial presheaf]]
-
-$$
-  \exp(\mathfrak{g}) : (U,[n]) \mapsto Hom_{dgAlg}(CW(\mathfrak{g}), C^\infty(U)\otimes\Omega^\bullet(\Delta^n))
-$$
-
-is an equivalent [[resolution]] of $\mathbf{B}G := \{G \stackrel{\to}{\to} *\}$, and the cocycle $\frac{1}{2}\mathbf{p}_1$ is given by the [[anafunctor]]
-
-$$
-  \array{
-    &&\mathbf{cosk}_3 \ing_{\Delta^\bullet}\exp(\mu) &\stackrel{\exp(\mu)}{\to}&
-    \mathbf{B}^3 \mathbb{R}/\mathbb{Z}
-    \\
-    &&\downarrow^{\mathrlap{\simeq}}
-    \\
-    && \mathbf{B}G
-  }
-$$
-
-where the top horizontal morphism sends a 3-morphism $C^\infty(U)\otimes\Omega^\bullet(\Delta) \leftarrow CE(\mathfrak{g})$ to the composite $C^\infty(U)\otimes\Omega^\bullet(\Delta) \stackrel{\leftarrow}{\leftarrow} CE(\mathfrak{g}) \leftarrow CE(b^2 \mathbb{R}) : \mu(A)$, regards that as a $U$-family of 3-forms and performs [[fiber integration]] over the 3-simplex, regarding the result modulo $\mathbb{Z}$.
+The [[string group]] in [[Top]] is one step in the [[Whitehead tower]] of the [[orthogonal group]].
 
 +-- {: .un_defn}
 ###### Definition
 
-The delooping of the string Lie 2-group is the [[homotopy fiber]] 
+For $n \in \mathbb{N}$ let $Spin(n)$ denote the [[spin group]], regarded as a [[topological group]]. Write $B Spin(n) \in $ [[Top]] for its [[classifying space]] and 
+
+$$
+  \frac{1}{2}p_1 : B Spin(n) \to B^4 \mathbb{Z}
+$$
+
+for a representative of the [[characteristic class]] called the first fractional [[Pontryagin class]]. Its [[homotopy fiber]] in the [[(∞,1)-topos]] [[Top]] $\simeq$ [[∞Grpd]] is denoted $B String(n) := B O(n)\langle 7 \rangle$
+
+$$
+  \array{
+     B String(n) &\to& * 
+     \\
+     \downarrow && \downarrow
+     \\
+     B Spin(n) &\stackrel{\frac{1}{2} p_1}{\to}& B^4 \mathbb{Z}
+  }
+  \,.
+$$
+
+The [[loop space]] 
+
+$$
+  String(n) := \Omega B String(n)
+$$
+
+is the [[∞-group]]-object in [[Top]] called the **[[string group]]**.
+
+=--
+
+Write now
+
+$$
+  (\Pi \dashv Disc \dashv \Gamma \dashv coDisc)
+   :
+  Smooth\infty Grpd
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}
+  \infty Grpd
+    \simeq 
+  Top
+$$
+
+for the [[(∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s, regarded as a [[cohesive (∞,1)-topos]] over [[∞Grpd]]. 
+
++-- {: .un_prop}
+###### Proposition
+
+There is a lift through $\Pi$ of $\frac{1}{2} p_1$ to the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothFirstFracPontryaginClass">smooth first fractional Pontryagin class</a>
+
+$$
+  \frac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin(n) \to \mathbf{B}^3 U(1)
+$$
+
+in [[Smooth∞Grpd]], where
+
+* $\mathbf{B}Spin$ is the [[delooping]] [[Lie groupoid]] of $Spin(n)$ regarded as a [[Lie group]] (see <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#LieGroups">Smooth ∞-groupoids -- Cohesive ∞-groups -- Lie groups</a>);
+
+* $\mathbf{B}^3 U(1)$ is the three-fold delooping of the [[circle group]], regarded as a [[Lie group]] (see <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">Smooth ∞-groupoids -- Cohesive ∞-groups -- Circle Lie n-group</a>);
+
+* $\frac{1}{2}\mathbf{p}_1$ is the image under [[Lie integration]] of the canonical [[Lie algebra cohomology|cocycle]]
+  
+  $$
+    \mu = \langle -,[-,-]\rangle : \mathfrak{so}(n) \to b^2 \mathbb{R}
+    \,.
+  $$
+    
+  on the [[orthogonal Lie algebra]].
+
+=--
+
+This is shown in ([FSS](#FSS)).
+
+
++-- {: .un_defn}
+###### Definition
+
+Write $\mathbf{B}String(n)$ for the [[homotopy fiber]] of the smooth
+first fractional Pontryagin class
 
 $$
   \array{
@@ -96,36 +120,24 @@ $$
   }
 $$
 
-in [[?LieGrpd]].
-
-=--
-
-
-+-- {: .un_remark}
-###### Remark
-
-By the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">theorem on geometric realization</a> $|-| : \infty LieGrpd \stackrel{\Pi}{\to} \infty Grpd \stackrel{\simeq}{\to} Top$ it follows that the geometric realizaton of $\mathbf{B}String$ is $\mathcal{B}String$, the homotopy fiber in [[Top]] of
+in [[Smooth∞Grpd]]. Its [[loop space object]]
 
 $$
-  \array{
-    \mathcal{B}String &\to& * 
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathcal{B}Spin &\stackrel{\frac{1}{2}{p}_1}{\to}&
-    \mathcal{B}^4 \mathbb{Z}
-  }
-  \,.
+  String(n) := \Omega \mathbf{B}String(n)
 $$
+
+is the [[∞-Lie group|smooth ∞-group]] called [[generalized the|the]] **smooth string 2-group**.
 
 
 =--
 
+## Properties
 
+(...)
 
-## Models
+## Presentations
 
-There are various equivalent constructions that should eventually be described here in detail. For the time being this here is very incomplete and -- notably -- biased. But it should improve eventally.
+Several presentations of the string Lie 2-group are known.
 
 ### As an integration of the String Lie 2-algebra 
 
@@ -214,18 +226,41 @@ where
 ([Schommer-Pries](#Schommer-Pries))
 
 
+## Related concepts
+
+[[fivebrane 6-group]] $\to$ **string 2-group** $\to$ [[spin group]]
 
 
 ## References
 
+A [[crossed module]] presentation of a topological realization of the string 2-group is implicit in 
+
+* [[Stephan Stolz]], [[Peter Teichner]], _What is an elliptic object?_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.146.5463&rep=rep1&type=pdf))
+{#StolzTeichner}
+
+A realization of the string 2-group in [[∞-groupoid]]s [[internalization|internal to]] [[Banach space]]s by [[Lie integration]] of the skeletal version of the [[string Lie 2-algebra]] is in
+
 * [[Andre Henriques]], _Integrating $L_\infty$-algebras_ ([arXiv:math/0603563](http://arxiv.org/abs/math/0603563))
 {#Henriques}
+
+A realization of the string 2-group in [[strict 2-group]]s internal to [[Frechet manifold]]s by  [[Lie integration]] of a [[strict Lie 2-algebra]] incarnation of the [[string Lie 2-algebra]] in in
 
 * BCSS, _From loop groups to 2-groups_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BCSS">web</a>)
 {#BCSS}
 
+A realization of the string 2-group as a [[2-group]] in finite-dimensional [[smooth manifold]]s in in
+
 * [[Chris Schommer-Pries]], _Central Extensions of Smooth 2-Groups and a Finite-Dimensional String 2-Group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
 {#Schommer-Pries}
+
+A discussion as an [[∞-group]] object in [[Smooth∞Grpd]] and the realization of the smooth first fractional Pontryagin class is in
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes_ ([web](http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS))
+{#FSS}
+
+and in section 4.1 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 
 [[!redirects String 2-group]]
