@@ -136,3 +136,8 @@ type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/
 [[!redirects well pointed simplicial topological group]]
 [[!redirects well-pointed simplicial topological groups]]
 [[!redirects well pointed simplicial topological groups]]
+
+[[!redirects well-sectioned simplicial topological group]]
+[[!redirects well sectioned simplicial topological group]]
+[[!redirects well-sectioned simplicial topological groups]]
+[[!redirects well sectioned simplicial topological groups]]
