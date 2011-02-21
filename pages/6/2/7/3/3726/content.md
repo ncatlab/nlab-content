@@ -132,6 +132,14 @@ A discussion in terms of [[model category]] [[presentable (∞,1)-category|prese
 * [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
 
 
+[[!redirects (-2)-connected]]
+[[!redirects (-1)-connected]]
+[[!redirects 0-connected]]
+[[!redirects 1-connected]]
+[[!redirects 2-connected]]
+[[!redirects 3-connected]]
+[[!redirects 4-connected]]
+[[!redirects 5-connected]]
 
 [[!redirects n-connected object]]
 [[!redirects n-connected objects]]
