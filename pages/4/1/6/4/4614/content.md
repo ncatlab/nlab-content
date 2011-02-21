@@ -49,9 +49,16 @@ $$
 
 formed in [[Top]].
 
+This naturally extends to a [[functor]]
+
+$$
+  \vert - \vert : sTop \to Top
+  \,.
+$$
+
 =--
 
-More explicitly, this is the [[topological space]] given by the [[quotient]]
+More explicitly, $\vert X_\bullet \vert$ is the [[topological space]] given by the [[quotient]]
 
 $$
   \vert X_\bullet \vert = \coprod_{n} \Delta^n_{Top} \times X_n /\sim
@@ -59,12 +66,7 @@ $$
 
 where the [[equivalence relation]] "$\sim$" identifies for every order-preserving [[function]] $[k] \to [l]$ the points $(f_* p,x ) \in \Delta^l_{Top} \times X_l$ and $(p,f^* x) \in \Delta^k_{Top} \times X_k$.
 
-This naturally extends to a [[functor]]
-
-$$
-  \vert - \vert : sTop \to Top
-  \,.
-$$
+This form of geometric realization of simplicial topological spaces goes back to ([Segal68](#Segal68)). An early reference that realizes this construction as a [[coend]] is ([MacLane](#MacLane)).
 
 One also considers geometric realization after restricting to the subcategory $\Delta_+ \hookrightarrow \Delta$ of the [[simplex category]] on the strictly increasing maps. 
 
@@ -111,7 +113,7 @@ is just a [[weak homotopy equivalence]].
 
 ## Reminder on nice simplicial topological spaces
 
-Simplicial topological spaces and their geometric realization are in [[homotopy theory]] presentations for certain [[topological ∞-groupoid]]s and intrinsic realization constructions on these. In this context what matters is not the operation of geometric realization itself, but its [[derived functor]]. This is obtained by evaluating ordinary geometric realization on "sufficiently nice" [[resolution]]s of simplicial topological spaces. These we discuss now.
+Simplicial topological spaces are in [[homotopy theory]] presentations for certain [[topological ∞-groupoid]]s . In this context what matters is not the operation of geometric realization itself, but its [[derived functor]]. This is obtained by evaluating ordinary geometric realization on "sufficiently nice" [[resolution]]s of simplicial topological spaces. These we discuss now.
 
 Recall the following definitions and facts from [[nice simplicial topological space]].
 
@@ -126,7 +128,7 @@ Such $X$ is called
 
 * **proper** if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[closed cofibration]], where $s X_n = \bigcup_i s_i(X_{n-1})$.
 
-The last condition equivalently says: 
+Noticing hat the union of degenerate simplices appearing here is a [[Reedy model structure|latching object]] and that closed cofibrations are cofibrations in the [[Strøm model structure]] on [[Top]], the last condition equivalently says: 
 
 * $X_\bullet$ is **proper** if it is cofibrant in the [[Reedy model structure]] $[\Delta^{op}, Top_{Strom}]_{Reedy}$ on [[simplicial object]]s in [[Top]] with respect to the [[Strøm model structure]] on [[Top]].
 
@@ -239,7 +241,48 @@ We have the following degenerate case of geometric realization of simplicial top
 
 =--
 
-Ordinary geometric realization has the following two disadvantages
+
++-- {: .num_remark}
+###### Remark
+
+Geometric realization of simplicial topological spaces has a [[right adjoint|right]] [[adjoint functor]] $\underline{Sing}$
+
+$$
+  (\vert - \vert \dashv \underline{Sing})  :
+   sTop
+   \stackrel{\overset{\vert - \vert}{\to}}{\underset{\underline{Sing}} {\leftarrow}}
+   Top
+  \,,
+$$
+
+given for $X \in $ [[Top]] a [[topological space]], we have
+
+$$
+  \underline{Sing}(X) : [n] \mapsto [\Delta^n_{Top}, X]
+  \,,
+$$
+
+where on the right we have the [[internal hom]] space from the $n$-simplex to $X$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For every $X \in Top$ there is a [[weak homotopy equivalence]]
+
+$$
+  |\underline{Sing}(X)| \to X
+  \,.
+$$
+
+=--
+
+This appears as ([Seymour, prop. 3.1](#Seymour)).
+
+
+
+Ordinary geometric realization has the following two disadvantages:
 
 
 +-- {: .num_prop}
@@ -407,12 +450,42 @@ $$
 
 =-- 
 
+See also ([Dugger, prop. 17.4, example 18.2](#Dugger)).
 
-## Applications
+## Examples and Applications
+
+
+### Classifying spaces
+
+For $G$ a [[topological group]], write $\mathbf{B}G$ for its [[delooping]] [[topological groupoid]]: the topological groupoid with a single object and $Mor_{\mathbf{B}G}(*,*) := G$, with composition given by the product on $G$.
+
+The [[nerve]] $N \mathbf{B}G$ of this topological groupoid is naturally a [[simplicial topological space]], with
+
+$$
+  N \mathbf{B}G : [n] \mapsto G^{\times_n}
+  \,.
+$$
+
++-- {: .num_prop}
+###### Proposition
+
+The geometric realization of $N \mathbf{B}G$ is a model for the [[classifying space]] $B G$ of $G$-[[principal bundle]]s
+
+$$
+  |N \mathbf{B}G| \simeq B G
+  \,.
+$$
+
+=--
+
+An early reference for this classical fact is ([Segal68](#Segal68)).
+
 
 
 ### Topological principal $\infty$-bundles
  {#TopologicalPrincipalInfinityBundle}
+
+We discuss aspects of [[principal ∞-bundle]]s equipped with topological [[cohesive (∞,1)-topos|cohesion]] and their geometric realization to [[principal bundle]]s in [[Top]].
  
 
 Let $G$ be a [[simplicial topological group]]. 
@@ -477,7 +550,7 @@ $$
   \vert W G \vert \to \vert \bar W G \vert
 $$
 
-is a fibration [[resolution]] in $Top_{Quillen}$ of the point inclusion 
+is a global fibration [[resolution]] in $Top_{Quillen}$ of the point inclusion 
 $* \to B|G|$.
 
 =--
@@ -517,6 +590,16 @@ This means that the degeneracy maps of $P_\bullet$ are induced degreewise by mor
 
 =--
 
++-- {: .num_def}
+###### Definition
+
+
+Under the degreewise [[Yoneda embedding]] $sTop \hookrightarrow [Top^{op}, sSet]$ simplicial topological spaces embed into the category of [[simplicial presheaves]] in [[Top]].
+
+We equip this with the projective [[model structure on simplicial presheaves]] $[Top^{op}, sSet]_{proj}$ and we speak of [[homotopy limit]]s in $sTop$ under this embedding.
+
+=--
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -534,11 +617,9 @@ preserves [[homotopy fiber]]s of morphisms $\tau : X \to \bar W G$ with $X$ good
 +-- {: .proof}
 ###### Proof
 
-We apply the [[Yoneda embedding]] $sTop \hookrightarrow [Top^{op}, sSet]_{proj}$ and use the projective [[model structure on simplicial presheaves]].
+By prop. \ref{SimplicialTopologicalUniversalBundle} we have that $W G \to \bar W G$ is a fibration [[resolution]] of the point inclusion $* \to \bar W G$ in $[Top^{op}, sSet]_{proj}$.
 
-By prop. \ref{SimplicialTopologicalUniversalBundle} we have that $W G \to \bar W G$ is a fibration [[resolution]] of the point inclusion $* \to \bar W G$.
-
-By the general discussion at [[homotopy colimit]] this means that the [[homotopy fiber]] of a morphism $\tau : X \to \bar W G$ is computed as the ordinary [[pullback]] $P$ in 
+By the general discussion at [[homotopy limit]] this means that the [[homotopy fiber]] of a morphism $\tau : X \to \bar W G$ is computed as the ordinary [[pullback]] $P$ in 
 
 $$
   \array{
@@ -548,15 +629,17 @@ $$
     \\
     X &\stackrel{\tau}{\to}& \bar W G
   }
-  \,,
 $$
+
+(since all objects $X$,  $\bar W G$ and $W G$ are fibrant and at least one of the two morphisms in the pullback diagram is a fibration) and hence
 
 $$
   hofib(\tau) \simeq P
   \,.
 $$
 
-By prop. \ref{SimplicialTopologicalUniversalBundle} and prop. \ref{SimplicialTopolgicalBundleIsGood} we have that all objects here good simplicial topological spaces. Therefore by prop. \ref{RealizationOfGoodSimplicialSpacesIsHomotopyColimit} we have
+By prop. \ref{SimplicialTopologicalUniversalBundle} and prop. \ref{SimplicialTopolgicalBundleIsGood} we have that all objects here 
+are good simplicial topological spaces. Therefore by prop. \ref{RealizationOfGoodSimplicialSpacesIsHomotopyColimit} we have
 
 $$
   hocolim P_\bullet \simeq |P_\bullet|
@@ -569,10 +652,24 @@ $$
   \,.
 $$
 
-Finally prop. \ref{RealizationSimplicialTopologicalUniversalBundle} says that this is again a presentation by pullback of a fibration resolution of the point inclusion of the [[homotopy fiber]]
+But prop. \ref{RealizationSimplicialTopologicalUniversalBundle} says that this is again the presentation of a homotopy pullback/homotopy fiber by an ordinary pullback
 
 $$
-  \cdots \simeq hofib( |\tau| )
+  \array{
+    |P| &\to& |W G|
+    \\
+    \downarrow && \downarrow
+    \\
+    |X| &\stackrel{\tau}{\to}& |\bar W G|
+  }
+  \,,
+$$
+
+because $|W G| \to |\bar W G|$ is again a fibration resolution of the point inclusion. Therefore
+
+
+$$
+  hocolim P_\bullet \simeq hofib( |\tau| )
   \,.
 $$
 
@@ -593,6 +690,7 @@ $$
 =--
 
 
+
 ## Related concepts
 
 * [[simplicial topological space]], [[nice simplicial topological space]]
@@ -604,6 +702,17 @@ $$
 
 
 ## References
+
+The first occurence of the definition of geometric realization of simplicial topological spaces seems to be
+
+* [[Graeme Segal]],  _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam](http://www.numdam.org/item?id=PMIHES_1968__34__105_0))
+{#Segal68}
+
+but the construction was implicit in earlier discussion of [[classifying space]]s. The observation that this is a [[coend]] was noted in
+
+* [[Saunders MacLane]], _The Milgram bar construction as a tensor product of
+functors_ SLNM Vol. 168 (1970)
+{#MacLane}
 
 The definition of _good_ simplicial topological spaces goes back to
 
@@ -621,7 +730,7 @@ A standard textbook reference is chapter 11 of
 * [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 {#May}
 
-A proof that good simplicial spaces are proper is in
+A proof that good simplicial spaces are proper is implicit in the proof of lemma A.5 in ([Segal74](#Segal74)). Explicitly it appears in
 
 * L. Gaunce Lewis Jr., _When is the natural map $X\to \Omega \Sigma X$ a cofibration?_ , Trans. Amer. Math. Soc. **273** (1982) no. 1, 147--155 ([JSTOR](http://www.jstor.org/pss/1999197))
 {#Lewis}
@@ -635,10 +744,17 @@ Comments on the relation between properness and cofibrancy in the [[Reedy model 
 
 * [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537)).
 
-The geometric realization of ([[nerve]]s of) [[topological groupoid]] is discussed in section 2.3 of
+The relation between (fat) geometric realization and [[homotopy colimit]]s is considered as prop. 17.5 and example 18.2 of
+
+* [[Daniel Dugger]], _A primer on homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
+{#Dugger}
+
+The (fat) geometric realization of ([[nerve]]s of) [[topological groupoid]]s is discussed in section 2.3 of
 
 * [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([pdf](http://www.math.uni-muenster.de/sfb/about/publ/heft448.pdf))
 {#GepnerHenriques}
+
+
 
 Globally Kan simplicial spaces are considered in 
 
@@ -646,6 +762,11 @@ Globally Kan simplicial spaces are considered in
 type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
 {#BrownSzczarba}
 
+The right adjoint to geometric realization of simplicial topological spaces is discussed in 
+
+* R. M. Seymour, _Kan fibrations in the category of simplicial spaces_
+Fund. Math., 106(2):141-152, 1980. 
+{#Seymour}
 
 ## Refereeing
 
