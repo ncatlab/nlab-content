@@ -31,8 +31,9 @@ Since a fully [[extended topological quantum field theory]] may be identified wi
 In ([Lurie](#Lurie)) a formalization and proof of the cobordism hypothesis is described.
 
 ### For framed cobordisms
+ {#ForFramed}
 
-+-- {: .un_def }
++-- {: .num_defn #FramedCobordismsNCat}
 ###### Definition
 
 Let $C$ by a [[symmetric monoidal (∞,n)-category]] [[(∞,n)-category with duals|with duals]] and $Core(C)$ its [[core]] (the maximal [[∞-groupoid]] in $C$).
@@ -44,7 +45,7 @@ Finally let $Fun^\otimes(Bord_n^{fr} , C )$ be the [[(∞,n)-category]] of symme
 =--
 
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem (cobordism hypothesis, framed version)
 
 Evaluation of any such functor $F$ on the [[point]] ${*}$
@@ -91,9 +92,12 @@ In fact, the Galatius-Madsen-Weiss theorem is now supposed to be a corollary of 
 =--
 
 
-### For cobordisms in a topological space twisted by a vector bundle
 
-+-- {: .un_def }
+### For cobordisms with extra topological structure
+
+We discuss the cobordism hypothesis for cobordisms that are equipped with the extra [[stuff, structure, property|structure]] of maps into some [[topological space]] equipped with a [[vector bundle]].
+
++-- {: .num_defn }
 ###### Definition
 
 Let $X$ be a [[topological space]] and $\xi \to X$ a [[real number|real]] [[vector bundle]] on $X$ of [[rank]] $n$. Let $N$ be a [[smooth manifold]] of [[dimension]] $m \leq n$. An **$(X,\xi)$-structure** on $N$ consists of the following data
@@ -112,16 +116,16 @@ Let $X$ be a [[topological space]] and $\xi \to X$ a [[real number|real]] [[vect
 
 This is ([Lurie, notation 2.4.16](#Lurie)).
 
-+-- {: .un_def }
++-- {: .num_defn #CatOfCobordismsWithXIStructure}
 ###### Definition
 
-Let $X$ be a [[topological space]] and $\xi \to X$ an $n$-[[dimensional]] [[vector bundle]]. The [[(∞,n)-category]] $Bord_n^(X, \xi)$ is defined analogously to $Bord_n$ but woth all manifolds equipped with $(X,\xi)$-structure.
+Let $X$ be a [[topological space]] and $\xi \to X$ an $n$-[[dimensional]] [[vector bundle]]. The [[(∞,n)-category]] $Bord_n^(X, \xi)$ is defined analogously to $Bord_n$ but with all manifolds equipped with $(X,\xi)$-structure.
 
 =--
 
 This is ([Lurie, def. 2.4.17](#Lurie)).
 
-+-- {: .un_theorem #CobHypTheoremForTargetSpaceAndVectorBundle}
++-- {: .num_theorem #CobHypTheoremForTargetSpaceAndVectorBundle}
 ###### Theorem
 
 Let $C$ be a [[symmetric monoidal (∞,n)-category]] with duals, let $X$ be a [[CW-complex]], let $\xi \to X$ be an $n$-[[dimensional]] [[vector bundle]] over $X$ equipped with an inner product, and let $\tilde X \to X$ be the [[associated bundle|associated]] [[orthogonal group|O(n)]]-[[principal bundle]] of orthonormal [[frame]]s in $\xi$. 
@@ -142,10 +146,16 @@ where on the right we regard $C^{\tilde}$ as a [[topological space]] carrying th
 This is ([Lurie, theorem. 2.4.18](#Lurie)).
 
 
-### For framed cobordisms in a topological space 
+We consider some special cases of this general definition
+
+
+#### For framed cobordisms in a topological space 
   {#StatementForCobordismsInAManifold}
 
-Let now $\xi = \mathbb{R}^n \otimes X$ be the trivial vector bundle, such thatz $\tilde X = O(n) \times X$.  Write
+We discuss the special case of the cobordism hypothesis for $(X,\xi)$-cobordisms (def. \ref{CatOfCobordismsWithXIStructure}) for the case that the vector bundle $\xi$ is the trivial vector bundle $\xi = \mathbb{R}^n \otimes X$. 
+
+
+In this case $\tilde X = O(n) \times X$.  Write
 
 $$
   Bord_n^{fr}(X) := Bord_n^{(X,X \times \mathbb{R}^n)}
@@ -154,7 +164,7 @@ $$
 
 Write $\Pi(X) \in $ [[∞Grpd]] for the [[fundamental ∞-groupoid]] of $X$.
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Corollary
 
 There is an [[equivalence in an (∞,1)-category|equivalence]] in [[∞Grpd]]
@@ -175,6 +185,87 @@ This is a special case of the [above theorem](#CobHypTheoremForTargetSpaceAndVec
 Notice that one can read this as saying that $Cob_n(X)$ is roughly like the [[free functor|free]] [[symmetric monoidal (∞,n)-category]] on the [[fundamental ∞-groupoid]] of $X$ (relative to $\infty$-categories of fully dualizable objects at least).
 
 
+
+#### For cobordisms with $G$-structure
+ {#CobordismsWithGStructure}
+
+We discuss the special case of the cobordism hypothesis for $(X,\xi)$-bundles (def. \ref{CatOfCobordismsWithXIStructure}) for the special case that $X$ is the [[classifying space]] of a [[topological group]].
+
+Let $G$ be a [[topological group]] equipped with a [[homomorphism]] $\chi : G \to O(n)$ to the [[orthogonal group]]. Notice that via the canonical linear [[representation]] $\mathbf{B}O(n) \to$ [[Vect]] of $O(n)$ on $\mathb{R}^n$, this induces accordingly a representation of $G$ on $\mathbb{R}^n$..
+
+Let then 
+
+* $X := B G$ be the [[classifying space]] for $G$;
+
+* $\xi_\chi := (\mathbb{R}^n \times_G E G $ be the corresponding [[associated bundle|associated vector bundle]] to the [[universal principal bundle]] $E G \to B G$.
+
++-- {: .num_defn }
+###### Definition
+
+We say
+
+$$
+  Bord^G_n := Bord_n^{(B G, \xi_\chi)}
+  \,.
+$$
+
+is the $(\infty,n)$-category of **cobordisms with $G$-structure**.
+
+=--
+
+See ([Lurie, notation 2.4.21](#Lurie))
+
++-- {: .num_defn }
+###### Definition
+
+We have
+
+* For $G = 1$ the trivial group, a $G$-structure is just a framing and so
+
+  $$
+    Bord_n^{(1,\xi)} \simeq Bord_n^{fr}
+  $$
+
+  reproduces the $(\infty,n)$-category of framed cobordisms, def. \ref{FramedCobordismsNCat}.
+
+* For $G = SO(n)$ the [[special orthogonal group]] equipped with the canonical embedding $\chi : SO(n) \to O(n)$ a $G$-structure is an [[orientation]]
+
+  $$
+    Bord_n^{(SO(n))} \simeq Bord_n^{or}
+    \,.
+  $$
+
+* For $G = O(n)$ the [[orthogonal group]] itself equipped with the identity map $\chi : O(n) \to O(n)$ a $G$-structure is no structure at all,
+
+  $$
+    Bord_n^{O(n)} \simeq Bord_n
+    \,.
+  $$
+
+=--
+
+See ([Lurie, example 2.4.22](#Lurie)).
+
+#### For HQFTs
+  {#ForHQFTs}
+
+If in  def. \ref{CatOfCobordismsWithXIStructure} one chooses $X = B SO(n) \times Y$ for any topological space $Y$, and $\xi$ the [[pullback]] of the canonical vector bundle bundle on $B SO$ to $B SO \times Y$, then an $(\infty,n)$-functor $Bord^{X}_n \to C$ is similar to what Turaev calls an [[HQFT]] over $Y$.
+
+(...)
+
+### For cobordisms with geometric structure
+
+A non-topological [[quantum field theory]] is a representation of a [[cobordism category]] for cobordisms equipped with extra [[stuff, structure, property]] that is "not just topological", meaning roughly not of the form of def. \ref{CatOfCobordismsWithXIStructure}. 
+
+The theory for this more general case is not as far developed yet. 
+
+* steps towards classification of quantum field theories with _super-Euclidean structure_ are discussed at
+
+  * [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
+  * [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+* a general definition of a [[cobordism category]] of cobordisms equipped with **geometric structure** given by a morphism into, roughly, a [[smooth infinity-groupoid]] of structure is discussed in  ([Ayala](#Ayala)).
 
 ## Remarks ##
 
@@ -234,6 +325,10 @@ Lecture notes on the topic of the cobordisms hypothesis include
 * [[Julie Bergner]], _[[UC Riverside Seminar on Cobordism and Topological Field Theories]]_  (2009).  
 
 
+Cobordisms with geometric structure are discussed in
+
+* [[David Ayala]], _Geometric cobordism categories_ ([pdf](http://www.math.ku.dk/~ayala/geombord.pdf))
+{#Ayala}
 
 
 
