@@ -31,6 +31,8 @@
 
     * [[Reshetikhin?Turaev model]] / [[Chern-Simons theory]]
 
+    * [[HQFT]]
+
     * [[TCFT]]
 
       * [[A-model]], [[B-model]], [[Gromov-Witten theory]]
