@@ -45,7 +45,7 @@ This is [[homotopy equivalence|homotopy equivalent]] to $X$.
 
 =--
 
-This is usually attributed to ([Borsuk1948](#Borsuk)).
+This is usually attributed to ([Borsuk1948](#Borsuk)). The proof relies on the existence of [[partitions of unity]] (see for instance the review [Hatcher, prop. 4G.2](#Hatcher)).
 
 +-- {: .un_remark}
 ###### Remark
@@ -64,8 +64,11 @@ The nerve theorem is usually attributed to
 A review appears as corollary 4G.3 in the texbook
 
 * [[Allen Hatcher]], _Algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)) .
+{#Hatcher}
 
 Some slightly stronger statements are discussed in
 
 * Anders Bj&#246;rner, _Nerves, fibers and homotopy groups_ , Journal of combinatorial theory, series A, 102 (2003), 88-93
+
+* Andrzej Nag&#243;rko, _Carrier and nerve theorems in the extension theory_ Proc. Amer. Math. Soc.  135  (2007), 551-558.  ([web](http://www.ams.org/journals/proc/2007-135-02/S0002-9939-06-08477-2/home.html))
 
