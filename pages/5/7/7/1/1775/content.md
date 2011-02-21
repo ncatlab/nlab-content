@@ -321,11 +321,77 @@ $$
   \,.
 $$
 
-This is for instance in 
 
-* Goerss, Jardine, _Simplicial homotopy theory_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
 
 The Quillen equivalence itself is in section 6 there.
+
++-- {: .num_prop }
+###### Proposition
+
+There exists the [[transferred model structure]] on the category $sGrp$ of [[simplicial group]]s allong the [[forgetful functor]]
+
+$$
+  U : sGrp \to sSet_{Quillen}
+$$
+
+to the standard [[model structure on simplicial sets]].
+
+This means that a morphism in $sGrp$ is a 
+
+* weak equivalences 
+
+* or fibration
+
+precisely if it is so in $sSet_{Quillen}$.
+
+=--
+
+This appears as ([GoerssJardine, ch V, theorem. 2.3](GoerssJardine)).
+
+
++-- {: .num_prop }
+###### Proposition
+
+There is a [[model structure on reduced simplicial sets]] $sSet_0$ ([[simplicial sets]] with a single vertex) whose
+
+* weak equivalences 
+
+* and cofibrations
+
+are those in the standard [[model structure on simplicial sets]].
+
+=--
+
+This appears as ([GoerssJardine, ch V, prop. 6.2](GoerssJardine)).
+
+
++-- {: .num_prop }
+###### Proposition
+
+The simplicial loop space functor $G$ and the delooping functor $\bar W(-)$ (discussed at [[simplicial group]]) constitute a [[Quillen equivalence]]
+
+$$
+  (G \dashv \bar W) : sGr \stackrel{\overset{G}{\leftarrow}}{\underset{\bar W}{\to}}
+  sSet_0
+  \,.
+$$
+
+=--
+
+This appears as ([GoerssJardine, ch. V prop. 6.3](#GoerssJardine)).
+
+## References
+
+Groupoid objects in $(\infty,1)$-categories are the topic of section 6.1.2 in
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+{#Lurie}
+
+A standard textbook reference on the model categories presentation of $\infty$-groups in $sSet$ is chapter V of
+
+* [[Paul Goerss]], Jardine, _Simplicial homotopy theory_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
+{#GoerssJardine}
+
 
 
 [[!redirects groupoid object in an (∞,1)-category]]
