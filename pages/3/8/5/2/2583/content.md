@@ -282,8 +282,8 @@ $$
 
 =--
 
-+-- {: .num_prop}
-###### Observation
++-- {: .num_prop #HomotopyFiberOfLInftyAlgebraCocycle}
+###### Proposition
 
 We have a [[pullback]] square in $L_\infty Alg$
 
@@ -319,7 +319,77 @@ $$
 
 This is essentially the model considered in ([Henriques](#Henriques)), discussed here in the context of [[Smooth∞Grpd]] as described in ([FSS](#FSS)).
 
++-- {: .proof}
+###### Proof
 
+We observe the image under [[Lie integration]] of the $L_\infty$-algebra pullback diagram from prop. \ref{HomotopyFiberOfLInftyAlgebraCocycle} is a pullback diagram in $[CartSp_{smooth}^{op}, sSet]_{proj}$ that presents the defining [[homotopy fiber]]. Before applying the [[coskeleton]] operation we have immediately
+
+
+$$
+  \exp(-) 
+    \; :\; 
+  \left(
+   \array{
+     \mathfrak{string}(n) &\to& e b \mathbb{R}
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathfrak{so}(n) &\stackrel{\mu}{\to}& b^2 \mathbb{R}
+   }
+  \right)
+  \;\mapsto \;
+  \left(
+   \array{
+     \exp(\mathfrak{string}(n)) &\to& \exp(e b \mathbb{R})
+     \\
+     \downarrow && \downarrow
+     \\
+     \exp(\mathfrak{so}(n)) &\stackrel{\mu}{\to}& \exp(b^2 \mathbb{R})
+   }
+  \right)
+$$
+
+such that on the right we still have a [[pullback]] diagram. Notice from [[Lie integration]] the weak equivalence
+
+$$
+  \int_{\Delta^\bullet} : \exp(b^n \mathbb{R}) \simeq \mathbf{B}^{n+1}\mathbb{R}_c
+  \,.
+$$
+
+Applying the [[coskeleton]] functor and using the projection ([FSS](#FSS))
+
+$$
+  \array{
+    \exp(\mathfrak{so}(n)) &\stackrel{\exp(\mu)}{\to}& \exp(b^2 \mathbb{R})
+    \\
+    \downarrow && \downmarrow
+    \\
+    \mathbf{cosk}_3\exp(\mathfrak{so}(n)) 
+      &\stackrel{}{\to}&
+    \bar W\Xi(\mathbb{Z} \to \mathbb{R})[2]
+  }
+$$
+
+we get the diagram
+
+$$
+  \array{
+    \mathbf{cosk}_3 (\mathfrak{string}(n)) 
+      &\to&
+    W\Xi(\mathbb{Z} \to \mathbb{R})[2]
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{cosk}_3 \exp(\mathfrak{so})
+    &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}&
+    \bar W\Xi(\mathbb{Z} \to \mathbb{R})[2]
+  }
+  \,.
+$$
+
+(...)
+
+=--
 
 
 ### As a strict Lie 2-group
