@@ -315,9 +315,10 @@ $$
 
 for the defining quadruple of [[adjoint (∞,1)-functor]]s that refine the [[global section]] [[(∞,1)-geometric morphism]] to [[∞Grpd]].
 
+
 ### Cohesive $\infty$-groups {#Groups}
 
-(...)
+By the general properties of [[cohesive (∞,1)-topos]]es with an [[∞-cohesive site]] of definition, every [[∞-group]] object is presented by a presheaf of [[simplicial group]]s. For  $ETop\inftyGrpd$ among these are the [[simplicial topological group]]s. See there for more details.
 
 
 ### Geometric homotopy and Galois theory {#GeometricHomotopy}
