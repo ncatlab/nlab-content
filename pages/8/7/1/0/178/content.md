@@ -499,7 +499,7 @@ The canonical embedding $SmoothMfd \hookrightarrow Smooth \infty Grpd$
 from [above](#EmbeddingOfSmoothManifolds) factors through [[diffeological spaces]]: we have a sequence of [[full and faithful (∞,1)-functor]]s
 
 $$
-  SmoothMfd \hookrightarrow DiffeolSp \hookrigharrow Smooth \infty Grpd
+  SmoothMfd \hookrightarrow DiffeolSp \hookrightarrow Smooth \infty Grpd
   \,.
 $$
 
