@@ -147,7 +147,7 @@ $$
 
 =--
 
-A proof appears as ([Lewis, corollary 2.4 (b)](#Lewis)). A generalization of this result is in ([RobertsStevenson](#RobertsStevenson)).
+A proof appears as ([Lewis, corollary 2.4 (b)](#Lewis)). A generalization of this result to more general topological categories is ([RobertsStevenson, prop. 16](#RobertsStevenson)).
 
 We now discuss the [[resolution]] of any simplicial topological space by a good one.
 
@@ -490,10 +490,14 @@ An early reference for this classical fact is ([Segal68](#Segal68)).
 
 We discuss aspects of [[principal ∞-bundle]]s equipped with topological [[cohesive (∞,1)-topos|cohesion]] and their geometric realization to [[principal bundle]]s in [[Top]].
  
+For $X,Y \in sTop$, write
 
-Let $G$ be a [[simplicial topological group]]. 
+$$
+  sTop(X,Y) := \int_{[k] \in \Delta} [X_k, Y_k] \;\; \in Top
+$$
 
-Recall from the discussion at [[universal principal ∞-bundle]] that $\mathbf{E}G \to \mathbf{B}G$ is presented by the morphism of [[simplicial topological space]]s $W G \to \bar W G$. Recall also from [[simplicial topological group]] the following statement.
+for the [[Top]]-[[hom-object]], where in the integrand of the [[end]] $[-,-] : Top^{op} \times Top^{op} \to Top$ is the [[internal hom]] of topological spaces.
+
 
 +-- {: .num_defn #GloballyKanSimplicialTopologicalSpace}
 ###### Definition
@@ -523,9 +527,12 @@ into the [[topological space]] of $k$th $n$-[[horn]]s admits a [[section]] (in [
 +-- {: .num_remark}
 ###### Remark
 
-This global notion of Kan simplicial spaces is considered for instance in ([BrownSzczarba, def. 2.1](#BrownSzczarba)). In fact there a stronger condition is imposed: a [[Kan complex]] in [[Set]] automatically has the lifting property not only against all full [[horn]] inclusions but also aghainst sub-horns; and in ([BrownSzczarba](#BrownSzczarba)) all these fillers are required to be given by global sections. This ensures that with $X$ globally Kan also the [[internal hom]] $[Y,X] \in sTop$ is globally Kan, for any simplicial topological space $Y$. This is more than we need and want to impose here. For our purposes it is sufficient to observe that if $f$ is globally Kan in the sense of ([BrownSzczarba](#BrownSzczarba)), then it is so also in the [above sense](#GloballyKanSimplicialTopologicalSpace).
+This global notion of topological Kan fibration is considered in ([BrownSzczarba, def. 2.1, def. 6.1](#BrownSzczarba)). In fact there a stronger condition is imposed: a [[Kan complex]] in [[Set]] automatically has the lifting property not only against all full [[horn]] inclusions but also aghainst sub-horns; and in ([BrownSzczarba](#BrownSzczarba)) all these fillers are required to be given by global sections. This ensures that with $X$ globally Kan also the [[internal hom]] $[Y,X] \in sTop$ is globally Kan, for any simplicial topological space $Y$. This is more than we need and want to impose here. For our purposes it is sufficient to observe that if $f$ is globally Kan in the sense of ([BrownSzczarba, def. 6.1](#BrownSzczarba)), then it is so also in the [above sense](#GloballyKanSimplicialTopologicalSpace).
 
 =--
+
+
+Recall from the discussion at [[universal principal ∞-bundle]] that for $G$ a [[simplicial topological group]] the [[universal simplicial principal bundle]] $\mathbf{E}G \to \mathbf{B}G$ is presented by the morphism of [[simplicial topological space]]s traditionally denoted $W G \to \bar W G$. 
 
 +-- {: .num_prop #SimplicialTopologicalUniversalBundle}
 ###### Proposition
@@ -547,21 +554,30 @@ The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), t
 
 =--
 
++-- {: .num_prop #BarWGIsGoodIfGIsWellSectioned}
+###### Proposition
+
+If $G$ is a [[well-pointed simplicial topological group]] then both $W G$ and $\bar W G$ are [good simplicial topological space](#GoodAndProper).
+
+=--
+
+For $\bar W G$  this is ([RobertsStevenson, prop. 19](#RobertsStevenson)). For $W G$ this follows with ([RobertsStevenson, lemma 10, lemma 11](#RobertsStevenson)) which says that $W G = Dec_0 \bar W G$ and the observations in the proof of ([RobertsStevenson, prop. 16](#RobertsStevenson)) that $Dec_0 X$ is good if $X$ is.
+
 +-- {: .num_prop #RealizationSimplicialTopologicalUniversalBundle}
 ###### Proposition
 
-For $G$ a [[well-pointed simplicial topological group]], the geometric realization of the simplicial universal $G$-bundle
+For $G$ a [[well-pointed simplicial topological group]], the geometric realization of the [[universal simplicial principal bundle]] $W G \to \bar W G$
 
 $$
   {\vert W G \vert} \to {\vert \bar W G \vert}
 $$
 
-is a global fibration [[resolution]] in $Top_{Quillen}$ of the point inclusion 
-$* \to B{|G|}$.
+is a fibration [[resolution]] in $Top_{Quillen}$ of the point inclusion 
+$* \to B{|G|}$ into the [[classifying space]] of the geometric realization of $G$.
 
 =--
 
-This is one of the central theorems proven in ([RobertsStevenson](#RobertsStevenson)).
+This is ([RobertsStevenson, prop. 14](#RobertsStevenson)).
 
 +-- {: .num_prop #SimplicialTopolgicalBundleIsGood}
 ###### Proposition
@@ -592,19 +608,86 @@ $$
   \,.
 $$
 
+By assumption on $X$ and $G$ and using prop. \ref{BarWGIsGoodIfGIsWellSectioned} we have that $X$, $\bar W G$ and $W G$ are all good simplicial spaces.
+
 This means that the degeneracy maps of $P_\bullet$ are induced degreewise by morphisms between pullbacks in [[Top]] that are degreewise [[closed cofibration]]s, where one of the morphisms in each pullback is a fibration. By the properties discussed at [[closed cofibration]], this implies that also these degeneracy maps of $P_\bullet$ are closed cofibrations.
 
 =--
 
+Let for the following $Top_s \subsut Top$ be any [[small category|small]] [[full subcategory]]. 
+
+
 +-- {: .num_def}
 ###### Definition
 
+Under the degreewise [[Yoneda embedding]] $sTop_s \hookrightarrow [Top_s^{op}, sSet]$ simplicial topological spaces embed into the category of [[simplicial presheaves]] on $Top_s$.
 
-Under the degreewise [[Yoneda embedding]] $sTop \hookrightarrow [Top^{op}, sSet]$ simplicial topological spaces embed into the category of [[simplicial presheaves]] on [[Top]].
-
-We equip this with the projective [[model structure on simplicial presheaves]] $[Top^{op}, sSet]_{proj}$, and we speak of [[homotopy limit]]s in $sTop$ under this embedding.
+We equip this with the projective [[model structure on simplicial presheaves]] $[Top_s^{op}, sSet]_{proj}$, and we speak of [[homotopy limit]]s in $sTop$ under this embedding.
 
 =--
+
++-- {: .num_prop #GlobalKanFibImpliesProjectiveFib}
+###### Proposition
+
+Under this embedding a [global Kan fibration](#GloballyKanSimplicialTopologicalSpace) $f : X \to Y$ in $sTop_s$ maps to a fibraton in $[Top_s^{op}, sSet]_{proj}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition, a morphism $f : X \to Y$ in $[Top_s^{op}, sSet]_{proj}$ is a fibration if for all $U \in Top$ and all $n \in \mathbb{N}$ and $0 \leq i \leq n$ diagrams of the form
+
+$$
+  \array{
+    \Lambda[n]_i \cdot U &\to& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    \Delta[n] \cdot U &\to& Y
+  }
+$$
+
+have a lift. This is equivalent to saying that the [[function]]
+
+$$
+  Hom(\Delta[n]\cdot U, X)
+   \to 
+  Hom(\Delta[n]\cdot U,Y) 
+    \times_{Hom(\Lambda[n]_i \cdot U, Y)}
+  Hom(\Lambda[n]_i \cdot U, X)
+$$
+
+is surjective. Notice that we have
+
+$$
+  \begin{aligned}
+    Hom_{[Top_s^{op}, sSet]}(\Delta[n]\cdot U, X)
+    & = 
+    Hom_{sTop}(\Delta[n]\cdot U, X)
+    \\
+     & = \int_{[k] \in \Delta} Hom_{Top}( \Delta[n]_k \times U, X_k)
+   \\
+    & = \int_{[k] \in \Delta} Hom_{Top}(U, [\Delta[n]_k, X_k])
+   \\
+    & = Hom_{Top}(U, \int_{[k] \in \Delta} [\Delta[n]_k, X_k])
+   \\
+    & = Hom_{Top}(U, sTop(\Delta[n], X))
+   \\
+    & = Hom_{Top}(U, X_n)
+  \end{aligned}
+$$
+
+and analogously for the other factors in the above morphism. Therefore the lifting problem equivalently says that the function
+
+$$
+  Hom_{Top}(U, \; X_n \to Y_n \times_{sTop(\Lambda[n]_i), Y} sTop(\Lambda[n]_i,X) \;)
+$$
+
+is surjective. But by the assumption that $f : X \to Y$ is a global Kan fibration of simplicial topological spaces, def. \ref{GloballyKanSimplicialTopologicalSpace}, we have a section $\sigma : Y_n \times_{sTop(\Lambda[n]_i), Y} sTop(\Lambda[n]_i,X) \to X_n$. Therefore $Hom_{Top}(U, \sigma)$ is a section of our function.
+
+=--
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -612,7 +695,7 @@ We equip this with the projective [[model structure on simplicial presheaves]] $
 The [[homotopy colimit]] operation
 
 $$
-  hocolim \colon  sTop \to Top
+  hocolim \colon  sTop \hookrightarrow [Top_s^{op}, sSet] \to Top
 $$
 
 preserves [[homotopy fiber]]s of morphisms $\tau \colon  X \to \bar W G$ with $X$ good and globally Kan and $G$ well-pointed.
@@ -623,8 +706,8 @@ preserves [[homotopy fiber]]s of morphisms $\tau \colon  X \to \bar W G$ with $X
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{SimplicialTopologicalUniversalBundle} we have that $W G \to \bar W G$ is a fibration [[resolution]] of the point inclusion $* \to \bar W G$ in $[Top^{op}, sSet]_{proj}$.
-
+By prop. \ref{SimplicialTopologicalUniversalBundle} 
+and prop. \ref{GlobalKanFibImpliesProjectiveFib} we have that $W G \to \bar W G$ is a fibration [[resolution]] of the point inclusion $* \to \bar W G$ in $[Top^{op}, sSet]_{proj}$.
 By the general discussion at [[homotopy limit]] this means that the [[homotopy fiber]] of a morphism $\tau \colon  X \to \bar W G$ is computed as the ordinary [[pullback]] $P$ in 
 
 $$
@@ -644,7 +727,7 @@ $$
   \,.
 $$
 
-By prop. \ref{SimplicialTopologicalUniversalBundle} and prop. \ref{SimplicialTopolgicalBundleIsGood} we have that all objects here 
+By prop. \ref{SimplicialTopologicalUniversalBundle} and prop. \ref{SimplicialTopolgicalBundleIsGood} it follows that all objects here 
 are good simplicial topological spaces. Therefore by prop. \ref{RealizationOfGoodSimplicialSpacesIsHomotopyColimit} we have
 
 $$
