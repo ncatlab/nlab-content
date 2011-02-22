@@ -495,7 +495,7 @@ Let $G$ be a [[simplicial topological group]].
 
 Recall from the discussion at [[universal principal ∞-bundle]] that $\mathbf{E}G \to \mathbf{B}G$ is presented by the morphism of [[simplicial topological space]]s $W G \to \bar W G$. Recall also from [[simplicial topological group]] the following statement.
 
-+-- {: .num_def}
++-- {: .num_defn #GloballyKanSimplicialTopologicalSpace}
 ###### Definition
 
 We say a morphism $f \colon  X \to Y$ of [[simplicial topological space]]s is a **global Kan fibration** if for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the canonical morphism
@@ -516,11 +516,16 @@ $$
   X_n \to sTop(\Lambda^n_k, X)
 $$
 
-into the [[topological space]] of $k$th $n$-[[horn]]s admits a [[section]].
+into the [[topological space]] of $k$th $n$-[[horn]]s admits a [[section]] (in [[Top]], hence a global, continuous section).
 
 =--
 
-This global notion of Kan simplicial spaces is considered for instance in ([BrownSzczarba](#BrownSzczarba)) and ([May](#May)).
++-- {: .num_remark}
+###### Remark
+
+This global notion of Kan simplicial spaces is considered for instance in ([BrownSzczarba, def. 2.1](#BrownSzczarba)). In fact there a stronger condition is imposed: a [[Kan complex]] in [[Set]] automatically has the lifting property not only against all full [[horn]] inclusions but also aghainst sub-horns; and in ([BrownSzczarba](#BrownSzczarba)) all these fillers are required to be given by global sections. This ensures that with $X$ globally Kan also the [[internal hom]] $[Y,X] \in sTop$ is globally Kan, for any simplicial topological space $Y$. This is more than we need and want to impose here. For our purposes it is sufficient to observe that if $f$ is globally Kan in the sense of ([BrownSzczarba](#BrownSzczarba)), then it is so also in the [above sense](#GloballyKanSimplicialTopologicalSpace).
+
+=--
 
 +-- {: .num_prop #SimplicialTopologicalUniversalBundle}
 ###### Proposition
