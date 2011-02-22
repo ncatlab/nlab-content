@@ -485,6 +485,28 @@ An early reference for this classical fact is ([Segal68](#Segal68)).
 
 
 
+### Cech nerves
+ {#CechNerves}
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X,Y$ be  [[topological space]]s and $\pi : Y \to X$ a [[continuous function]] that admits local [[section]]s. Write $C(\pi) \in sTop$ for the [[Cech nerve]].
+
+Then the canonical map
+
+$$
+  {|C(\pi)|} \to X
+$$
+
+from the geometric realization of $X$ back to $X$ is a [[weak homotopy equivalence]]. If $X$ is a [[paracompact topological space]] then it is even a [[homotopy equivalence]].
+
+
+=--
+
+For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is discussed in ([DuggerIsaksen](#DuggerIsaksen)). A generalization to parameterized spaces is in ([RobertsStevenson, lemma 22](#RobertsStevenson)).
+
+
 ### Topological principal $\infty$-bundles
  {#TopologicalPrincipalInfinityBundle}
 
@@ -852,6 +874,11 @@ The right adjoint to geometric realization of simplicial topological spaces is d
 * R. M. Seymour, _Kan fibrations in the category of simplicial spaces_
 Fund. Math., 106(2):141-152, 1980. 
 {#Seymour}
+
+Geometric realization of general [[Cech nerve]]s is discussed in
+
+* [[Dan Dugger]], D. C. Isaksen, _Topological hypercovers and $\mathbb{A}^1$- realizations, Math. Z. 246 (2004) no. 4 667{689.
+{#DuggerIsaksen}
 
 ## Refereeing
 
