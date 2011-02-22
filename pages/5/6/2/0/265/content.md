@@ -129,19 +129,15 @@ More generally, if $D$ is itself a category with weak equivalences, then by deri
 $$ C \stackrel{F}{\to} D \to Ho_D $$
 
 
-
-+-- {: .un_remark}
-###### Remarks
+#### Remarks
 
 * By the universal property of $Ho_C$, functors $Ho_C \to D$ are equivalent to functors $C\to D$ which take weak equivalences to isomorphisms.  If $F$ itself takes weak equivalences to isomorphisms, then its left and right derived functors are both (isomorphic to) its unique extension along $p$.  In general, however, $L F$ and $R F$ are not extensions of $F$ even up to isomorphism.
 
-
-* The Kan extensions involved here are _not_ "pointwise" ones, meaning that they are not computed by limits and colimits objectwise.  This means that they lack many of the good properties of ordinary Kan extensions.  
-
 * In practice, derived functors are usually computed using fibrant and cofibrant [[resolution]] replacements (see the entries on [[homotopy theory]] and [[model category]]) or, more generally, [[deformation retract of a homotopical category|deformation retracts]].
 
-=--
+* Recall that if the codomain admits sufficiently many limits and colimits, a Kan extension can be computed in terms of those, and that such Kan extensions are called *pointwise*.  Homotopy categories generally do not admit even small limits and colimits, and moreover the domains of the functors in question are generally large, so such a *construction* of a derived functor is not possible.
 
+  However, when derived functors are constructed using fibrant and cofibrant replacements, as above, it turns out *a posteriori* that they are actually pointwise: they are preserved by all representable functors, and hence their individual object values have the universal property of the (generally large) limits that would have been used to compute them, even though not all limits exist in the homotopy category.  In fact, derived functors constructed in this way are actually [[absolute colimit|absolute]] Kan extensions: preserved by any functor whatsoever.
 
 
 
