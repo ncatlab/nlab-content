@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include quasi-category theory contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -303,7 +309,7 @@ Special limits and structures in derivators:
 The notion of derivator is originally due to [[Grothendieck]] in [[Pursuing Stacks]]. 
 The first fifteen chapters of a 2000 page manuscript of Grothendieck (in French) about derivators can be found at:
 
-* [[Alexander Grothendieck]],  _[Les D&eacute;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)_
+* [[Alexander Grothendieck]],  _[Les D&#233;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)_
 
 Independently, there is a version due to Heller (who called them "homotopy theories"):
 
