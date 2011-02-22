@@ -16,59 +16,58 @@
 
 ## Idea
 
-For $X_\bullet$ a [[simplicial object]] in [[Top]] --  a [[simplicial topological space]] -- its _[[geometric realization]]_ is a plain [[topological space]] $|X_\bullet| \in Top$ obtained by gluing all topological space $X_n$ together, as determined by the face and degeneracy maps.
+For $X_\bullet$ a [[simplicial object]] in [[Top]] --  a [[simplicial topological space]] -- its _[[geometric realization]]_ is a plain [[topological space]] ${|X_\bullet|} \in Top$ obtained by gluing all topological space $X_n$ together, as determined by the face and degeneracy maps.
 
-The construction of $|X_\bullet|$ is a direct analog of the ordinary notion of [[geometric realization]] of a [[simplicial set]], but taking into account the [[topology]] on the spaces of $n$-simplices $X_n$.
+The construction of ${|X_\bullet|}$ is a direct analog of the ordinary notion of [[geometric realization]] of a [[simplicial set]], but taking into account the [[topology]] on the spaces of $n$-simplices $X_n$.
 
 ## Definition
 
-Let [[Top]] in the following denote the [[category]] 
+Let [[Top]] in the following denote either
 
-* of [[compactly generated space|compactly generated]] [[weakly Hausdorff space]]s 
+* the [[category]] of [[compactly generated space|compactly generated]] [[weakly Hausdorff space]]s, or
 
-* or the category of [[k-space]]s.
+* the category of [[k-space]]s.
 
-Write $\Delta_{Top} : \Delta \to Top : [n] \mapsto \Delta^n_{Top}$ for the standard [[cosimplicial object|cosimplicial]] [[topological space]] of topological [[simplices]].
+Let $\Delta$ denote the [[simplex category]], and write $\Delta_{Top} \colon \Delta \to Top \colon  [n] \mapsto \Delta^n_{Top}$ for the standard [[cosimplicial object|cosimplicial]] [[topological space]] of topological [[simplices]].
 
 Write equivalently
 
 $$
-  Top^{\Delta^{op}} := sSet := [\Delta^{op}, Top]
+  Top^{\Delta^{op}} \coloneqq  sSet \coloneqq  [\Delta^{op}, Top]
 $$
 
-for the category of [[simplicial topological space]]s.
+for the category of [[simplicial topological spaces]].
 
 +-- {: .num_defn #GeometricRealization}
 ###### Definition
 
-For $X_\bullet : \Delta^{op} \to Top$ [[simplicial topological space]], its **geometric realization** is the [[coend]]
+For $X_\bullet \colon  \Delta^{op} \to Top$ a [[simplicial topological space]], its **geometric realization** is the [[coend]]
 
 $$
-  |X_\bullet| :  \int^{n \in \Delta} X_n \times \Delta^n_{Top}
+  {|X_\bullet|} \coloneqq  \int^{n \in \Delta} X_n \times \Delta^n_{Top}
 $$
 
 formed in [[Top]].
+=--
 
-This naturally extends to a [[functor]]
+This operation naturally extends to a [[functor]]
 
 $$
-  \vert - \vert : sTop \to Top
+  {|-|} \colon sTop \to Top
   \,.
 $$
-
-=--
 
 More explicitly, $\vert X_\bullet \vert$ is the [[topological space]] given by the [[quotient]]
 
 $$
-  \vert X_\bullet \vert = \coprod_{n} \Delta^n_{Top} \times X_n /\sim
+  {\vert X_\bullet \vert} = \coprod_{n} X_n \times \Delta^n_{Top} /\sim
 $$
 
-where the [[equivalence relation]] "$\sim$" identifies for every order-preserving [[function]] $[k] \to [l]$ the points $(f_* p,x ) \in \Delta^l_{Top} \times X_l$ and $(p,f^* x) \in \Delta^k_{Top} \times X_k$.
+where the [[equivalence relation]] "$\sim$" identifies, for every morphism $[k] \to [l]$ in $\Delta$, the points $(x,f_* p) \in X_l \times \Delta^l_{Top}$ and $(f^* x,p) \in X_k \times \Delta^k_{Top}$.
 
 This form of geometric realization of simplicial topological spaces goes back to ([Segal68](#Segal68)). An early reference that realizes this construction as a [[coend]] is ([MacLane](#MacLane)).
 
-One also considers geometric realization after restricting to the subcategory $\Delta_+ \hookrightarrow \Delta$ of the [[simplex category]] on the strictly increasing maps. 
+One also considers geometric realization after restricting to the subcategory $\Delta_+ \hookrightarrow \Delta$ of the [[simplex category]] on the strictly increasing maps (that is, the coface maps only---no codegeneracies).
 
 +-- {: .num_defn #FatGeometricRealization}
 ###### Definition
@@ -76,7 +75,7 @@ One also considers geometric realization after restricting to the subcategory $\
 The corresponding [[coend]] in [[Top]] is called the **fat geometric realization** 
 
 $$
-  \Vert X_\bullet\Vert :=  \int^{n \in \Delta_+} X_n \times \Delta^n_{Top}
+  {\Vert X_\bullet\Vert} \coloneqq   \int^{n \in \Delta_+} X_n \times \Delta^n_{Top}
   \,.
 $$
 
@@ -87,27 +86,27 @@ This is called _fat_ ,  because it does not [[quotient]] out the [[relation]]s i
 Explicitly, this is the [[topological space]] given by the [[quotient]]
 
 $$
-  \Vert X_\bullet \Vert = \coprod_{n} \Delta^n_{Top} \times X_n /{\sim_+}
+  {\Vert X_\bullet \Vert} = \coprod_{n} X_n\times \Delta^n_{Top} /{\sim_+}
 $$
 
-where the [[equivalence relation]] "$\sim_+$" identifies only for every _strictly increasing_ [[function]] $[k] \to [l]$ the points $(f_* p,x ) \in \Delta^l_{Top} \times X_l$ and $(p,f^* x) \in \Delta^k_{Top} \times X_k$.
+where the [[equivalence relation]] "$\sim_+$" identifies $(x,f_* p) \in X_l\times \Delta^l_{Top}$ with $(p,f^* x) \in X_k\times \Delta^k_{Top}$ only when $[k] \to [l]$ is a coface map.
 
 +-- {: .num_example #GeometricRealizationOfThePoint}
 ###### Example
 
-The geometric realization of the point -- the [[simplicial topological space]] that is in each degree the 1-point topological space -- is [[homeomorphic]] to the point, but the fat geometric realization of the point is an "infinite dimensional topological ball": the [[terminal object|terminal]] morphism
+The geometric realization of the point --- the [[simplicial topological space]] that is in each degree the 1-point topological space --- is [[homeomorphic]] to the point, but the fat geometric realization of the point is an "infinite dimensional topological ball": the [[terminal object|terminal]] morphism
 
 $$
-  \vert * \vert \stackrel{\simeq_{iso}}{\to} *
+  {\vert * \vert} \stackrel{\simeq_{iso}}{\to} *
 $$
 
 is an [[isomorphism]], but the morphism
 
 $$
-  \Vert * \Vert \stackrel{\simeq_{wh}}{\to} *
+  {\Vert * \Vert} \stackrel{\simeq_{h.e.}}{\to} *
 $$
 
-is just a [[weak homotopy equivalence]].
+is just a [[homotopy equivalence]].
 
 =--
 
@@ -120,7 +119,7 @@ Recall the following definitions and facts from [[nice simplicial topological sp
 +-- {: .num_defn #GoodAndProper}
 ###### Definition 
 
-Let $X : \Delta^{op} \to Top$ be a [[simplicial topological space]].
+Let $X \colon  \Delta^{op} \to Top$ be a [[simplicial topological space]].
 
 Such $X$ is called
 
@@ -156,7 +155,7 @@ Write
 
 $$
   ({\vert- \vert} \dashv Sing) 
-   : 
+   \colon  
   Top
     \stackrel{\overset{{|-|}}{\leftarrow}}{\underset{Sing}{\to}} 
   sSet
@@ -164,7 +163,7 @@ $$
 
 for the ordinary [[geometric realization]]/[[singular simplicial complex]] [[adjunction]] (see [[homotopy hypothesis]]).
 
-For $S_{\bullet,\bullet} : \Delta^{op} \times \Delta^{op} \to Set$ a [[bisimplicial set]], write $d S$ for its [[diagonal]] $d X : \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\to} Set$.
+For $S_{\bullet,\bullet} \colon  \Delta^{op} \times \Delta^{op} \to Set$ a [[bisimplicial set]], write $d S$ for its [[diagonal]] $d X \colon  \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\to} Set$.
 
 +-- {: .num_prop #GoodResolution}
 ###### Proposition
@@ -176,7 +175,7 @@ $$
   |Sing(X_\bullet)| \in [\Delta^{op}, Top]
 $$ 
 
-obtained by applying degreewise $|Sing(-)| : Top \to Top$ is good and hence proper. 
+obtained by applying degreewise ${|Sing(-)|} \colon  Top \to Top$ is good and hence proper. 
 
 =--
 
@@ -230,7 +229,7 @@ This follows by results in ([Lewis](#Lewis)).
 
 We have the following degenerate case of geometric realization of simplicial topological spaces
 
-* If $X_\bullet : \Delta^{op} \to Set \hookrightarrow Top$ is a degreewise [[discrete space]], hence just a [[simplicial set]], the notion of geometric realization above coincides with the notion of [[geometric realization|geometric realization of simplicial sets]].
+* If $X_\bullet \colon  \Delta^{op} \to Set \hookrightarrow Top$ is a degreewise [[discrete space]], hence just a [[simplicial set]], the notion of geometric realization above coincides with the notion of [[geometric realization|geometric realization of simplicial sets]].
 
 * If $X_\bulet$ is simplicially constant on a topological space $X_0$, then its geometric realization is [[homeomorphic]] to $X_0$
 
@@ -248,7 +247,7 @@ We have the following degenerate case of geometric realization of simplicial top
 Geometric realization of simplicial topological spaces has a [[right adjoint|right]] [[adjoint functor]] $\underline{Sing}$
 
 $$
-  (\vert - \vert \dashv \underline{Sing})  :
+  (\vert - \vert \dashv \underline{Sing})  \colon 
    sTop
    \stackrel{\overset{\vert - \vert}{\to}}{\underset{\underline{Sing}} {\leftarrow}}
    Top
@@ -258,7 +257,7 @@ $$
 given for $X \in $ [[Top]] a [[topological space]], we have
 
 $$
-  \underline{Sing}(X) : [n] \mapsto [\Delta^n_{Top}, X]
+  \underline{Sing}(X) \colon  [n] \mapsto [\Delta^n_{Top}, X]
   \,,
 $$
 
@@ -290,7 +289,7 @@ Ordinary geometric realization has the following two disadvantages:
 
 * If $X_\bullet$ has in each degree the [[homotopy type]] of a [[CW-complex]], its realization $\vert X_\bullet \vert$ in general need not.
 
-* If a morphism $f : X_\bullet \to Y_\bullet$ is degreewise a [[homotopy equivalence]], its geometric realization $\vert f \vert$ need not be a homotopy equivalence.
+* If a morphism $f \colon  X_\bullet \to Y_\bullet$ is degreewise a [[homotopy equivalence]], its geometric realization $\vert f \vert$ need not be a homotopy equivalence.
 
 =--
 
@@ -303,7 +302,7 @@ This is different for the fat geometric realization.
 
 * If $X_\bullet$ is degreewise of the [[homotopy type]] of a [[CW-complex]], then so is $\Vert X_\bullet \Vert$.
 
-* If $f : X_\bullet \to Y_\bullet$ is degreewise a [[homotopy equivalence]], then also $\Vert f \Vert$ is a homotopy equivalence.
+* If $f \colon  X_\bullet \to Y_\bullet$ is degreewise a [[homotopy equivalence]], then also $\Vert f \Vert$ is a homotopy equivalence.
 
 =--
 
@@ -338,7 +337,7 @@ We discuss how geometric realization interacts with [[limit]]s of simplicial top
 Geometric realization preserves [[pullback]]s: for $X_\bullet \to Y_\bullet \leftarrow Z_\bullet$ a [[diagram]] in $Top^{\Delta^{op}}$ there are [[natural transformation|natural]] [[homeomorphism]]s
 
 $$
-  |X_\bullet| \times_{|Y_\bullet|} |Z_\bullet|
+  {|X_\bullet|} \times_{|Y_\bullet|} |Z_\bullet|
   \simeq
   |X_\bullet \times_{Y_\bullet} Z_\bullet|
   \,.
@@ -362,7 +361,7 @@ Write $\Vert * \Vert$ for the fat geometric realization of the point. Notice tha
 The functor
 
 $$
-  \Vert - \Vert : Top^{\Delta^{op}} \to Top/\Vert*\Vert
+  \Vert - \Vert \colon  Top^{\Delta^{op}} \to Top/\Vert*\Vert
 $$
 
 preserves all [[finite limit]]s.
@@ -375,7 +374,7 @@ See ([GepnerHenriques, remark 2.23](#GepnerHenriques)).
 ### Relation to the homotopy colimit
   {#RelationToHomotopyColimit}
 
-In certain cases geometric realisation computes the [[homotopy colimit]] of the [[diagram]] $X_\bullet : \Delta^{op} \to Top$ given by the simplicial space, with respect to the standard [[model structure on topological spaces]].
+In certain cases geometric realisation computes the [[homotopy colimit]] of the [[diagram]] $X_\bullet \colon  \Delta^{op} \to Top$ given by the simplicial space, with respect to the standard [[model structure on topological spaces]].
 
 
 +-- {: .num_prop #RealizationOfGoodSimplicialSpacesIsHomotopyColimit}
@@ -383,7 +382,7 @@ In certain cases geometric realisation computes the [[homotopy colimit]] of the 
 
 Let $X_\bullet$ be a [good](#GoodAndProper) [[simplicial topological space]] that is degreewise a [[CW-complex]]. 
 
-Then in the [[homotopy category]] [[Ho(Top)]] there is an [[isomorphism]] between its geometric realization and the [[homotopy colimit]] over the simplicial [[diagram]] $X_\bullet : \Delta^{op} \to Top_{Quillen}$ with respect to the standard [[model structure on topological spaces]].
+Then in the [[homotopy category]] [[Ho(Top)]] there is an [[isomorphism]] between its geometric realization and the [[homotopy colimit]] over the simplicial [[diagram]] $X_\bullet \colon  \Delta^{op} \to Top_{Quillen}$ with respect to the standard [[model structure on topological spaces]].
 
 $$
   \vert X_\bullet \vert 
@@ -429,7 +428,7 @@ The homeomorphism on the right is that of prop. \ref{HomeomorphismFromResolution
 1. this coend is a [[Quillen bifunctor]] (see there)
 
    $$
-     \int^\Delta (-)\times (-) : 
+     \int^\Delta (-)\times (-) \colon  
       [\Delta, sSet_{Quillen}]_{Reedy} \times 
       [\Delta^{op}, sSet_{Quillen}]_{Reedy}
       \to
@@ -437,11 +436,11 @@ The homeomorphism on the right is that of prop. \ref{HomeomorphismFromResolution
       \,,
    $$
 
-1. the standard cosimplicial simplex $\Delta : \Delta \to sSet$ is a cofibrant [[resolution]] of the point in the [[Reedy model structure]] (see there) and every simplicial simplicial set is Reedy cofibrant;
+1. the standard cosimplicial simplex $\Delta \colon  \Delta \to sSet$ is a cofibrant [[resolution]] of the point in the [[Reedy model structure]] (see there) and every simplicial simplicial set is Reedy cofibrant;
 
 1. the general discussion of presentations of [[homotopy colimit]]s (see there) by such resolved [[coend]]s.
 
-Finally since $\vert - \vert : sSet_{Quillen} \to Top_{Quillen}$ is a [[Quillen adjunction|left]] [[Quillen equivalence]] (see [[homotopy hypothesis]]) we have
+Finally since $\vert - \vert \colon  sSet_{Quillen} \to Top_{Quillen}$ is a [[Quillen adjunction|left]] [[Quillen equivalence]] (see [[homotopy hypothesis]]) we have
 
 $$
   |hocolim_n Sing X_n| \simeq hocolim_n |Sing X_n| \simeq hocolim_n X_n
@@ -457,12 +456,12 @@ See also ([Dugger, prop. 17.4, example 18.2](#Dugger)).
 
 ### Classifying spaces
 
-For $G$ a [[topological group]], write $\mathbf{B}G$ for its [[delooping]] [[topological groupoid]]: the topological groupoid with a single object and $Mor_{\mathbf{B}G}(*,*) := G$, with composition given by the product on $G$.
+For $G$ a [[topological group]], write $\mathbf{B}G$ for its [[delooping]] [[topological groupoid]]: the topological groupoid with a single object and $Mor_{\mathbf{B}G}(*,*) \coloneqq  G$, with composition given by the product on $G$.
 
 The [[nerve]] $N \mathbf{B}G$ of this topological groupoid is naturally a [[simplicial topological space]], with
 
 $$
-  N \mathbf{B}G : [n] \mapsto G^{\times_n}
+  N \mathbf{B}G \colon  [n] \mapsto G^{\times_n}
   \,.
 $$
 
@@ -495,7 +494,7 @@ Recall from the discussion at [[universal principal ∞-bundle]] that $\mathbf{E
 +-- {: .num_def}
 ###### Definition
 
-We say a morphism $f : X \to Y$ of [[simplicial topological space]]s is a **global Kan fibration** if for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the canonical morphism
+We say a morphism $f \colon  X \to Y$ of [[simplicial topological space]]s is a **global Kan fibration** if for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the canonical morphism
 
 $$
   X_n \to Y_n \times_{sTop(\Lambda^n_k, Y)} sTop(\Lambda^n_k, X)
@@ -505,7 +504,7 @@ in [[Top]] has a [[section]], where
 
 * $\Lambda^n_k \in $ [[sSet]] $\hookrightarrow Top^{\Delta^{op}}$ is the $k$th $n$-[[horn]] regarded as a [[discrete space|discrete]] [[simplicial topological space]]:
 
-* $sTop(-,-) : sTop^{op} \times sTop \to Top$ is the [[Top]]-[[hom object]].
+* $sTop(-,-) \colon  sTop^{op} \times sTop \to Top$ is the [[Top]]-[[hom object]].
 
 We say a [[simplicial topological space]] $X_\bullet \in Top^{\Delta^{op}}$ is **(global) Kan simplicial space** if the unique morphism $X_\bullet \to *$ is a global Kan fibration, hence if for all $n \in \mathbb{N}$ and all $0 \leq i \leq n$ the canonical [[continuous function]]
 
@@ -561,7 +560,7 @@ This is one of the central theorems proven in ([RobertsStevenson](#RobertsSteven
 Let $X_\bullet$ be a [good](#GoodAndProper) [[simplicial topological space]] and $G$ a [[simplicial topological group|well-sectioned simplicial topological group]]. Then for every morphism
 
 $$
-  \tau : X \to \bar W G
+  \tau \colon  X \to \bar W G
 $$
 
 the corresponding topological [[simplicial principal bundle]] $P$ over $X$ is itself a good simplicial topological space.
@@ -604,10 +603,10 @@ We equip this with the projective [[model structure on simplicial presheaves]] $
 The [[homotopy colimit]] operation
 
 $$
-  hocolim : sTop \to Top
+  hocolim \colon  sTop \to Top
 $$
 
-preserves [[homotopy fiber]]s of morphisms $\tau : X \to \bar W G$ with $X$ good and globally Kan and $G$ well-sectioned.
+preserves [[homotopy fiber]]s of morphisms $\tau \colon  X \to \bar W G$ with $X$ good and globally Kan and $G$ well-sectioned.
 
 =--
 
@@ -617,7 +616,7 @@ preserves [[homotopy fiber]]s of morphisms $\tau : X \to \bar W G$ with $X$ good
 
 By prop. \ref{SimplicialTopologicalUniversalBundle} we have that $W G \to \bar W G$ is a fibration [[resolution]] of the point inclusion $* \to \bar W G$ in $[Top^{op}, sSet]_{proj}$.
 
-By the general discussion at [[homotopy limit]] this means that the [[homotopy fiber]] of a morphism $\tau : X \to \bar W G$ is computed as the ordinary [[pullback]] $P$ in 
+By the general discussion at [[homotopy limit]] this means that the [[homotopy fiber]] of a morphism $\tau \colon  X \to \bar W G$ is computed as the ordinary [[pullback]] $P$ in 
 
 $$
   \array{
@@ -646,7 +645,7 @@ $$
 in [[Ho(Top)]]. By prop. \ref{RealizationPreservesPullbacks} we have that 
 
 $$
-  \cdots = |X_\bullet| \times_{|\bar W G|} |W G|
+  \cdots = {|X_\bullet|} \times_{|\bar W G|} |W G|
   \,.
 $$
 
