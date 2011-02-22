@@ -610,7 +610,7 @@ This means that the degeneracy maps of $P_\bullet$ are induced degreewise by mor
 
 =--
 
-Let for the following $Top_s \subsut Top$ be any [[small category|small]] [[full subcategory]]. 
+Let for the following $Top_s \hookrightarrow Top$ be any [[small category|small]] [[full subcategory]]. 
 
 
 +-- {: .num_def}
@@ -691,7 +691,7 @@ is surjective. But by the assumption that $f : X \to Y$ is a global Kan fibratio
 The [[homotopy colimit]] operation
 
 $$
-  hocolim \colon  sTop \hookrightarrow [Top_s^{op}, sSet] \to Top
+  sTop \hookrightarrow [Top_s^{op}, sSet]_{proj} \stackrel{hocolim}{\to} Top_{Quillen}
 $$
 
 preserves [[homotopy fiber]]s of morphisms $\tau \colon  X \to \bar W G$ with $X$ good and globally Kan and $G$ well-pointed.
