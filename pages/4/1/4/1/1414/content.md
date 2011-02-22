@@ -417,6 +417,17 @@ Cordier and [[Tim Porter|Porter]] (1986) proved that if $C$ is a locally Kan sim
 
 In more modern terminology as [[Kan complex]]es can be considered as [[∞-groupoid]]s, these locally Kan simplicially enriched categories are one particularly nice model for a [[(infinity,1)-category]], and so this result is one of the earliest giving the transition from one model for [[(infinity,1)-category]]s to another, the 'weak kan complexes' or [[quasi-categories]].
 
+## Related concepts
+
+* [[nerve]]
+
+* [[Duskin nerve]]
+
+* [[∞-nerve]]
+
+* **homotopy coherent nerve**
+
+
 
 
 ## References
@@ -456,8 +467,8 @@ An elementary discussion of the concept of homotopy coherence forms Chapter V of
 For the role played by the simplicial nerve in the context of relating quasi-categories to simplicially enriched categories as models for $(\infty,1)$-categories see 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_, section 1.1.5
-* [[A. Joyal]], _The theory of quasi-categories and its applications_, lectures at CRM Barcelona February 2008, draft [hc2.pdf](http://www.crm.cat/HigherCategories/hc2.pdf)
-* A Joyal, _Notes on quasicategories_, ([draft](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf))
+* [[Andre Joyal]], _The theory of quasi-categories and its applications_, lectures at CRM Barcelona February 2008, draft [hc2.pdf](http://www.crm.cat/HigherCategories/hc2.pdf)
+* [[Andre Joyal]], _Notes on quasicategories_, ([draft](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf))
 
 This emphasises the adjunction corresponding to the homotopy coherent ("simplicial") nerve construction. 
 
