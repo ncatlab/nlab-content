@@ -545,7 +545,7 @@ The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), t
 +-- {: .num_prop #RealizationSimplicialTopologicalUniversalBundle}
 ###### Proposition
 
-For $G$ well-sectioned, the geometric realization
+For $G$ a [[well-pointed simplicial topological group]], the geometric realization of the simplicial universal $G$-bundle
 
 $$
   {\vert W G \vert} \to {\vert \bar W G \vert}
@@ -561,7 +561,7 @@ This is one of the central theorems proven in ([RobertsStevenson](#RobertsSteven
 +-- {: .num_prop #SimplicialTopolgicalBundleIsGood}
 ###### Proposition
 
-Let $X_\bullet$ be a [good](#GoodAndProper) [[simplicial topological space]] and $G$ a [[simplicial topological group|well-sectioned simplicial topological group]]. Then for every morphism
+Let $X_\bullet$ be a [good](#GoodAndProper) [[simplicial topological space]] and $G$ a [[well-pointed simplicial topological group]]. Then for every morphism
 
 $$
   \tau \colon  X \to \bar W G
@@ -610,7 +610,7 @@ $$
   hocolim \colon  sTop \to Top
 $$
 
-preserves [[homotopy fiber]]s of morphisms $\tau \colon  X \to \bar W G$ with $X$ good and globally Kan and $G$ well-sectioned.
+preserves [[homotopy fiber]]s of morphisms $\tau \colon  X \to \bar W G$ with $X$ good and globally Kan and $G$ well-pointed.
 
 =--
 
