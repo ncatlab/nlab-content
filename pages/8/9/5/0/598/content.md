@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -9,6 +10,7 @@
 =--
 =--
 
+> under construction
 
 #Contents#
 * automatic table of contents goes here
@@ -50,9 +52,9 @@ Accordingly (as discussed at [[group]]) a simplicial group $G$ gives rise to
 
 A **simplicial group**, $G$, is a [[simplicial object]] in the [[category]] [[Grp]] of [[group]]s.
 
-## Notation
 
-The category of simplicial groups is the category of functors from $\Delta^{op}$ to [[Grp]].  It will be denoted $\Simp\Grp$.
+The [[category]] of simplicial groups is the category of functors from $\Delta^{op}$ to [[Grp]].  It will be denoted $\Simp\Grp$.
+
 
 
 ## Properties
@@ -106,7 +108,7 @@ Let $(y_0,\ldots, y_{k-1}, -,y_{k+1}, \ldots, y_n)$ give a [[horn]] in $G_{n-1}$
 
 * There is a functor due to Dwyer and Kan, called the [[Dwyer-Kan loop groupoid]] that takes a  simplicial set to a simplicial groupoid. This has a left adjoint $\overline{W}$ (see below), called the _classifying space_ functor, and together they give an equivalence of categories between the homotopy category of simplical sets and that of simplicial groupoids. We thus have that all homotopy types are modelled by simplicial groupoids ... and for connected homotopy types by simplicial groups. One *important fact* to note in this equivalence is that it shifts dimension by 1, so if $G(K)$ is the simplicial group corresponding to the connected simplicial set $K$ then $\pi_k(K)$ is the same as $\pi_{k-1}(G(K))$.  This is important when considering algebraic models for a [[homotopy n-type]].
 
-###  Adjunction between simplicial groups and simplicial sets 
+###  Free simplicial groups
 
 +-- {: .un_lemma}
 ###### Lemma
@@ -114,10 +116,10 @@ Let $(y_0,\ldots, y_{k-1}, -,y_{k+1}, \ldots, y_n)$ give a [[horn]] in $G_{n-1}$
 The [[stuff, structure, property|forgetful functor]]
 
 $$
-  F : AbSGrpg \to SSet
+  U : AbSGrpg \to SSet
 $$
 
-from simplicial abelian group to the underlying [[simplicial sets]] has a [[left adjoint]]
+from simplicial [[abelian group]]s to the underlying [[simplicial sets]] has a [[left adjoint]]
 
 $$
   \mathbb{Z} : SSet \to AbSimpGrp
@@ -135,14 +137,37 @@ This functor $\mathbb{Z}$ has the following properties:
 
 =--
 
+(...)
+
+### Looping and delooping
+
+Let $sSet_0 \hookrightarrow$ [[sSet]] be the category of _reduced simplicial sets_ (simplicial sets with a single 0-cell).
+
++-- {: .num_defn}
+###### Definition
+
+For $X \in sSet_0$ define $\Omega X \in sGrpd$ by
+
+$$
+  \Omega X :  [n] \mapsto  (F X_{n+1})/ s_0 F(X_n)
+$$
+
+
+and
+
+$$
+  \Omega X : ([n] \to [k]) \mapsto ...
+$$
+
+
+=--
+
 ### As $\infty$-groups
 
-Simplicial groups are models for [[∞-group]]s. This is exhibited by the [[model structure on simplicial grups]]. See also
+Simplicial groups are models for [[∞-group]]s. This is exhibited by the [[model structure on simplicial groups]]. See also
 <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#ModelsInInfGrpd">models for group objects in ∞Grpd</a>.
 
-### Equivalence to connected $\infty$-groupoids
-
-Simplicial groups are a model for [[∞-group]]s. Another equivalent model is that of [[connected]] [[Kan complex]]es. 
+Another equivalent model is that of [[connected]] [[Kan complex]]es. 
 
 At the abstract level of [[(∞,1)-category theory]] this equivalence is induced by forming [[loop space object]]s and [[delooping]]
 
@@ -164,14 +189,10 @@ $$
   \,.
 $$
 
-This is for instance in 
+This is for instance in [GoerssJardine, chapter 5](#GoerssJardine).
 
-* Goerss, Jardine, _Simplicial homotopy theory_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
-
-The Quillen equivalence itself is in section 6 there.
 
 See also <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#ModelsInInfGrpd">group object in an (∞,1)-category -- models for groups in ∞Grpd</a>.
-
 
 
 
@@ -534,7 +555,8 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 A standard reference for the case of _abelian_ simplicial groups is [chapter 5](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi) of
 
-* Goerss-Jardine, _Simplicial homotopy theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* [[Paul Goerss]], Jardine, _Simplicial homotopy theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+{#GoerssJardine}
 
 Also chapter IV of
 
