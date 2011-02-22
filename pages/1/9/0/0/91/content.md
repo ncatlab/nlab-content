@@ -10,103 +10,110 @@ Globular sets are to [[simplicial sets]] as [[globes]] are to simplices.
 
 ## Definition
 
-A _globular set_ is a [[presheaf]] on the _globe category_ (described below), one of the [[geometric shapes for higher structures]].
+A _globular set_, also called an _$\omega$-graph_ or _$\omega$-[[quiver]]_, is a [[presheaf]] on the _globe category_ (described below), one of the [[geometric shapes for higher structures]].
 
-* The presheaf definition is to be understood from the point of view of [[space and quantity]]: a _globular set_ is a space characterized by the fact that and how it may be _probed_ by mapping standard globes into it: the set $S_n$ assigned by a globular set to the standard $n$-globe $[n]$ is the set of $n$-globes in this space, hence the way of mapping a standard $n$-globe into this spaces.
++-- {: .un_remark}
+###### Remark
+The presheaf definition can understood from the point of view of [[space and quantity]]: a _globular set_ is a space characterized by the fact that and how it may be _probed_ by mapping standard globes into it: the set $S_n$ assigned by a globular set to the standard $n$-globe $[n]$ is the set of $n$-globes in this space, hence the way of mapping a standard $n$-globe into this spaces.
+=--
 
+The **[[globe category]]** $G$ is the category whose objects are the
+integers and whose morphisms are generated from
 
+$$
+  \sigma_n : [n] \to [n+1]
+$$
+$$
+  \tau_n : [n] \to [n+1]
+$$
 
-  The **[[globe category]]** $G$ is
-  the category whose objects are the integers and
-  whose morphisms are generated from
+for all $n \in \mathbb{N}$ subject to the relations (dropping obvious subscripts)
 
-  $$
-    \sigma_n : [n] \to [n+1]
-  $$
-  $$
-    \tau_n : [n] \to [n+1]
-  $$
-  $$
-    \iota_n : [n+1] \to [n]
-  $$
+$$
+  \sigma\circ \sigma = \tau \circ \sigma
+$$
+$$
+  \sigma\circ \tau = \tau \circ \tau
+$$
 
-  for all $n \in \mathbb{N}$ subject to the relations (dropping obvious subscripts)
+A **globular object** $S$ [[internalization|in]] a category $K$ is a
+functor $S : G^{\mathrm{op}} \to K$.  In particular, for $K = Sets$ we
+say $S$ is a **globular set**.
 
-  $$
-    \sigma\circ \sigma = \tau \circ \sigma
-  $$
-  $$
-    \sigma\circ \tau = \tau \circ \tau
-  $$
-  $$
-    \iota \circ \sigma = \mathrm{Id}
-  $$
-  $$
-    \iota \circ \tau = \mathrm{Id}
-    \,.
-  $$
+For $n \in \mathbb{N}$ we write
 
-  A
-  **globular object**
-  $S$ [[internalization|in]] a category $K$
-  is a functor $S : G^{\mathrm{op}} \to K$.
-  In particular, for $K = Sets$ we say $S$ is a
-  **globular set**.
+$$
+  S_n \coloneqq S(n) 
+$$
+$$
+  s_n \coloneqq S(\sigma_n) : S_{n+1} \to S_{n}
+$$
+$$
+  t_n \coloneqq S(\tau_n) : S_{n+1} \to S_{n}
+$$
+and call $S_n$ the **collection of $n$-cells**; $s_n$ the $(n+1)$st
+**source map** and $t_n$ the $(n+1)$st **target map**.
 
-  For $n \in \mathbb{N}$ we write
-
-  $$
-    S_n := S(n) 
-  $$
-  $$
-    s_n := S(\sigma_n) : S_{n+1} \to S_{n}
-  $$
-  $$
-    t_n := S(\tau_n) : S_{n+1} \to S_{n}
-  $$
-  $$
-    i_n := S(\iota_n) : S_{n} \to S_{n+1}
-  $$
-  and call $S_n$ the **collection of $n$-cells**; $s_n$ the $(n+1)$st **source map** and $t_n$ the    
-  $(n+1)$st
-  **target map** and $i_n$ the $n$th 
-  **identity assigning map**.
-
-  The relations (dropping obvious subscripts)
-  $$
-    s \circ s = s \circ t
-  $$
-  $$
-    t \circ s = t \circ t
-  $$
-  $$
-    s \circ i = \mathrm{Id}
-  $$
-  $$
-    t \circ i = \mathrm{Id}
-  $$
+The relations (dropping obvious subscripts)
+$$
+  s \circ s = s \circ t
+$$
+$$
+  t \circ s = t \circ t
+$$
 
 are called the **globular identities**.
 
- +-- {: .query}
-[[Marc Olschok|Marc]]:
-Perhaps it would be better, not to require reflexivity
-(i.e. the map $i$) in these definitions and use
-"reflexive globular set" if reflexivity is required?
-The way it is phrased now is in conflict with the 
-terminology for directed graphs, where one uses 
-"reflexive graphs" if these are meant, but allows
-graphs without distinguished loops.
-=--
-
- A morphism of globular objects is a natural transformation
-  of the corresponding functors.
-For the resulting category of globular objects in $K$
-we write 
+A morphism of globular objects is a natural transformation of the
+corresponding functors.  For the resulting category of globular
+objects in $K$ we write
 
 $$
   GlobularObjects(K) := K^{G^{\mathrm{op}}}
-$$ 
+$$
+
+The category $GlobularObjects(Set)$ of globular sets is often written $GSet$ or $GlobSet$.
+
+
+### Reflexive globular sets
+
+If to the globe category we add additional generating morphisms
+
+$$
+  \iota_n : [n+1] \to [n]
+$$
+
+satisfying the relations
+
+$$
+  \iota \circ \sigma = \mathrm{Id}
+$$
+$$
+  \iota \circ \tau = \mathrm{Id}
+$$
+
+we obtain the **reflexive globe category**, a presheaf on which is a
+**reflexive globular set**.  In this case the morphism
+
+$$
+  i_n := S(\iota_n) : S_{n} \to S_{n+1}
+$$
+
+is called the $n$th **identity assigning map**; it satisfies the globular identities:
+
+$$
+  s \circ i = \mathrm{Id}
+$$
+$$
+  t \circ i = \mathrm{Id}
+$$
+
+
+### $n$-globular sets
+
+A presheaf on the full subcategory of the globe category containing only the integers $[0]$ through $[n]$ is called an **$n$-globular set** or an **$n$-graph** or an **$n$-quiver**.  An $n$-globular set may be identified with an $\infty$-globular set which is empty above dimension $n$.
+
+Note that a $1$-globular set is just a [[quiver]], and a $0$-globular set is just a [[set]].
 
 
 ### Notation for composite globular maps
@@ -153,17 +160,103 @@ consecutive identity-assigning, source or target maps, respectively.
 
 ## Examples
 
-* A globular set concentrated in degree 0 is just a set. A globular set concentrated in degrees 0 and 1 is a [[quiver]] or [[directed graph]]. See also [[directed n-graph]].
+* Any [[strict 2-category]] or [[bicategory]] has an underlying 2-globular set.  Likewise, any [[tricategory]] has an underlying 3-globular set.  Globular sets can be used as underlying data for [[n-categories]] as well; see for instance [[Batanin ∞-category]].
 
 * The **globular $n$-globe** $G_n$ is the globular set represented by $n$, i.e. $G_n(-) := Hom_G(-,n)$.
 
 
 ## Remarks
 
-* Globular sets are also referred to as $\omega$-[[omega-graph|graphs]].
+* Globular sets are based on one of the three major [[geometric shapes for higher structures]].
 
-* globular sets are based on one of the three major [[geometric shapes for higher structures]].
+* Also related is the notion of [[computad]], which is similar to a globular set in some ways, but allows "formal composites" of $n$-cells to appear in the sources and targest of $(n+1)$-cells.
 
 
 [[!redirects globular set]]
 [[!redirects globular sets]]
+[[!redirects reflexive globular set]]
+[[!redirects reflexive globular sets]]
+[[!redirects n-globular set]]
+[[!redirects n-globular sets]]
+[[!redirects reflexive n-globular set]]
+[[!redirects reflexive n-globular sets]]
+[[!redirects omega-graph]]
+[[!redirects omega-graphs]]
+[[!redirects ∞-graph]]
+[[!redirects ∞-graphs]]
+[[!redirects infinity-graph]]
+[[!redirects infinity-graphs]]
+[[!redirects ∞-graph]]
+[[!redirects ∞-graphs]]
+[[!redirects n-graph]]
+[[!redirects n-graphs]]
+[[!redirects omega-quiver]]
+[[!redirects omega-quivers]]
+[[!redirects ∞-quiver]]
+[[!redirects ∞-quivers]]
+[[!redirects infinity-quiver]]
+[[!redirects infinity-quivers]]
+[[!redirects ∞-quiver]]
+[[!redirects ∞-quivers]]
+[[!redirects n-quiver]]
+[[!redirects n-quivers]]
+[[!redirects directed omega-graph]]
+[[!redirects directed omega-graphs]]
+[[!redirects directed ∞-graph]]
+[[!redirects directed ∞-graphs]]
+[[!redirects directed infinity-graph]]
+[[!redirects directed infinity-graphs]]
+[[!redirects directed ∞-graph]]
+[[!redirects directed ∞-graphs]]
+[[!redirects directed n-graph]]
+[[!redirects directed n-graphs]]
+[[!redirects omega-directed graph]]
+[[!redirects omega-directed graphs]]
+[[!redirects ∞-directed graph]]
+[[!redirects ∞-directed graphs]]
+[[!redirects infinity-directed graph]]
+[[!redirects infinity-directed graphs]]
+[[!redirects ∞-directed graph]]
+[[!redirects ∞-directed graphs]]
+[[!redirects n-directed graph]]
+[[!redirects n-directed graphs]]
+[[!redirects reflexive omega-graph]]
+[[!redirects reflexive omega-graphs]]
+[[!redirects reflexive ∞-graph]]
+[[!redirects reflexive ∞-graphs]]
+[[!redirects reflexive infinity-graph]]
+[[!redirects reflexive infinity-graphs]]
+[[!redirects reflexive ∞-graph]]
+[[!redirects reflexive ∞-graphs]]
+[[!redirects reflexive n-graph]]
+[[!redirects reflexive n-graphs]]
+[[!redirects reflexive omega-quiver]]
+[[!redirects reflexive omega-quivers]]
+[[!redirects reflexive ∞-quiver]]
+[[!redirects reflexive ∞-quivers]]
+[[!redirects reflexive infinity-quiver]]
+[[!redirects reflexive infinity-quivers]]
+[[!redirects reflexive ∞-quiver]]
+[[!redirects reflexive ∞-quivers]]
+[[!redirects reflexive n-quiver]]
+[[!redirects reflexive n-quivers]]
+[[!redirects reflexive directed omega-graph]]
+[[!redirects reflexive directed omega-graphs]]
+[[!redirects reflexive directed ∞-graph]]
+[[!redirects reflexive directed ∞-graphs]]
+[[!redirects reflexive directed infinity-graph]]
+[[!redirects reflexive directed infinity-graphs]]
+[[!redirects reflexive directed ∞-graph]]
+[[!redirects reflexive directed ∞-graphs]]
+[[!redirects reflexive directed n-graph]]
+[[!redirects reflexive directed n-graphs]]
+[[!redirects reflexive omega-directed graph]]
+[[!redirects reflexive omega-directed graphs]]
+[[!redirects reflexive ∞-directed graph]]
+[[!redirects reflexive ∞-directed graphs]]
+[[!redirects reflexive infinity-directed graph]]
+[[!redirects reflexive infinity-directed graphs]]
+[[!redirects reflexive ∞-directed graph]]
+[[!redirects reflexive ∞-directed graphs]]
+[[!redirects reflexive n-directed graph]]
+[[!redirects reflexive n-directed graphs]]
