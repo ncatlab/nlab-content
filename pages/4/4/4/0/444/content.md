@@ -401,16 +401,26 @@ For many purposes it is convenient to conceive categories and especially [[∞-c
 ###Internal nerve###
 A variant of the nerve construction can also be applied _internally_ within a category, to any internal category, see the discussion at [[internal category]].
 
+## Related concepts
+
+* **nerve**
+
+* [[Duskin nerve]]
+
+* [[∞-nerve]]
+
+* [[homotopy coherent nerve]]
+
 ##References##
 
-* [Dwyer Kan 1984]
+* Dwyer, [[Dan Kan]] 
 W. G. Dwyer, D. M. Kan, Singular functors and realization functors, Nederl. Akad. Wetensch. Indag. Math. 46 (1984), no. 2, 147--153. [pdf](http://www.nd.edu/~wgd/Dvi/SingularAndRealization.pdf)
 
-* [Isbell 1960] J. R. Isbell, Adequate subcategories, Illinois J. Math. 4, 541--552 (1960)
+* [[John Isbell]], Adequate subcategories, Illinois J. Math. 4, 541--552 (1960)
 
 * [[Tom Leinster]], _Higher operads, higher categories_ , London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9, [arXiv:math.CT/0305049](http://front.math.ucdavis.edu/0305.5049)
 
-* [Street 1987] [[Ross Street]], The algebra of oriented simplexes,
+* [[Ross Street]], The algebra of oriented simplexes,
 J. Pure Appl. Algebra 49 (1987), no. 3, 283--335.
 
 
