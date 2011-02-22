@@ -19,7 +19,38 @@
 
 ## Definition
 
++-- {: .un_def}
+###### Definition
+
 A _simplicial topological group_ is a [[simplicial object]] in the [[category]] of [[topological groups]].
+
+=--
+
+For various applications the ambient category [[Top]] of [[topological space]]s is taken specifically to be 
+
+* the [[category]] of [[compactly generated space|compactly generated]] [[weakly Hausdorff space]]s, or
+
+* or the category of [[k-space]]s.
+
+We take [[Top]] to be the category of [[k-space]]s in the following.
+
++-- {: .un_def #WellPointedSimplicialTopologicalGroup}
+###### Definition
+
+A simplicial topological group $G$ is called **well-pointed** if for $*$ the trivial simplicial topological group and $i : * \to G$ the unique [[homomorphism]], all components $i_n : * \to G_n$ are [[closed cofibration]]s.
+
+=--
+
+For $B \in Top$ a fixed base object, it is often desireable to work in "$B$-parameterized families", hence in the [[over-category]] $Top/B$ (see [MaySigurdson](#MaySigurdson)). There is the 
+[[Strøm model structure|relative Strøm model structure]] on $Top/B$.
+
++-- {: .un_def}
+###### Definition
+
+A simplicial group in $G$ in $Top/B$ is called **well-sectioned** if for $B$ the trivial simplicial topological group over $B$ and $i : B \to G$ the unique [[homomorphism]], all components $i_n : B \to G_n$ are $\bar f$-cofibration.
+
+=--
+
 
 ## Properties
 
@@ -82,7 +113,7 @@ Let $G$ be a simplicial topological group. Then
 +-- {: .proof}
 ###### Proof
 
-The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), the second is noted in ([Stevenson](#Stevenson)), the third as ([BrownSzczarba, lemma 6.7](#BrownSzczarba)).
+The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), the second is noted in ([RobertsStevenson](#RobertsStevenson)), the third as ([BrownSzczarba, lemma 6.7](#BrownSzczarba)).
 
 =--
 
@@ -90,7 +121,7 @@ The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), t
 +-- {: .un_prop}
 ###### Proposition
 
-If $G$ is a well-pointed simplicial topological group, then
+If $G$ is a [well-pointed](#WellPointedSimplicialTopologicalGroup) simplicial topological group, then
 
 1. $G$ is a [[nice simplicial topological space|good simplicial topological space]];
 
@@ -103,7 +134,7 @@ If $G$ is a well-pointed simplicial topological group, then
 +-- {: .proof}
 ###### Proof
 
-The statement about $\bar W G$ is proven in ([Stevenson](#Stevenson)). The other statements are referenced there.
+The statement about $\bar W G$ is proven in ([RobertsStevenson](#RobertsStevenson)). The other statements are referenced there.
 
 =--
 
@@ -117,15 +148,26 @@ The statement about $\bar W G$ is proven in ([Stevenson](#Stevenson)). The other
 
 ## References
 
+Basics theory of simplicial topological groups is in
+
 * E. H. Brown and R. H. Szczarba, _Continuous cohomology and real homotopy
 type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
 {#BrownSzczarba}
 
+and
+
 * [[Peter May]], _Geometry of iterated loop spaces_ , SLNM 271, Springer-Verlag, 1972 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 {#May}
 
-* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_
-{#Stevenson}
+Their [[principal ∞-bundle]]s and [[geometric realization of simplicial topological spaces|geometric realization]] is discussed in
+
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#RobertsStevenson">web</a>)
+{#RobertsStevenson}
+
+
+Discussion of [[homotopy theory]] over a base $B$ is in
+
+* [[Peter May]], J. Sigurdsson, _Parametrized homotopy theory_ ([web](http://www.math.uiuc.edu/K-theory/0716/))
 
 [[!redirects simplicial topological groups]]
 
