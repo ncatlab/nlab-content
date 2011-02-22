@@ -82,6 +82,7 @@ but it depends on earlier results of several authors and mostly his own earlier 
 One modern re-proof can be found in
 
 * [[Peter May|May]] and Sigurdsson, _Parametrized homotopy theory_
+([web](http://www.math.uiuc.edu/K-theory/0716/))
 
 [[!redirects Strøm's model category]]
 [[!redirects Strom's model category]]
