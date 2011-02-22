@@ -54,6 +54,18 @@ $$
 
 Any [[strict 2-category]] determines both a 'bicategory' in the above sense (since a 'strict' thing is also a 'weak' one)  and a simplicially enriched category.  The latter is found by taking the nerve of each 'hom-category'.  The Duskin nerve of a 2-category is the same as the [[homotopy coherent nerve]] of the corresponding $sSet$-category.  This can also be applied to [[2-groupoid]]s and results in a classifying space construction for [[crossed module]]s. 
 
+## Related concepts
+
+* [[nerve]]
+
+* **Duskin nerve**
+
+* [[∞-nerve]]
+
+* [[homotopy coherent nerve]]
+
+
+
 
 ## References
 
