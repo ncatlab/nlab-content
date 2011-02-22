@@ -172,7 +172,7 @@ Let $X_\bullet$ be a simplicial topological space.
 Then the simplicial topological space 
 
 $$
-  |Sing(X_\bullet)| \in [\Delta^{op}, Top]
+  {|Sing(X_\bullet)|} \in [\Delta^{op}, Top]
 $$ 
 
 obtained by applying degreewise ${|Sing(-)|} \colon  Top \to Top$ is good and hence proper. 
@@ -197,7 +197,7 @@ $$
 $$
 
 that is degreewise a [[weak homotopy equivalence]]: the degreewise 
-$(|-| \dashv Sing)$-[[unit of an adjunction|counit]].
+[[unit of an adjunction|counit]] of the adjunction $({|-|} \dashv Sing)$.
 
 =--
 
@@ -208,13 +208,13 @@ $(|-| \dashv Sing)$-[[unit of an adjunction|counit]].
 For $X_\bullet$ any [[simplicial topological space]], there is a [[homeomorphism]] between the geometric realization of the simplicial space $|Sing(X_\bullet)|$ and the ordinary [[geometric realization]] of the [[simplicial set]] that is the diagonal of the [[bisimplicial set]] $Sing(X_\bullet)_\bullet$
 
 $$
-  \vert(\vert Sing(X_\bullet) \vert)\vert  \simeq_{iso} | d Sing(X_\bullet)_\bullet | 
+  {\vert({\vert Sing(X_\bullet) \vert})\vert}  \simeq_{iso} {| d Sing(X_\bullet)_\bullet |}
   \,.
 $$
 
 =--
 
-This follows by results in ([Lewis](#Lewis)).
+This follows by results in ([Lewis](#Lewis)).  In fact, this is true for any bisimplicial set: the realization of its levelwise realization is the same as the realization of its diagonal.
 
 
 
@@ -227,16 +227,18 @@ This follows by results in ([Lewis](#Lewis)).
 +-- {: .num_remark}
 ###### Remark
 
-We have the following degenerate case of geometric realization of simplicial topological spaces
+We have the following degenerate case of geometric realization of simplicial topological spaces.
 
 * If $X_\bullet \colon  \Delta^{op} \to Set \hookrightarrow Top$ is a degreewise [[discrete space]], hence just a [[simplicial set]], the notion of geometric realization above coincides with the notion of [[geometric realization|geometric realization of simplicial sets]].
 
-* If $X_\bulet$ is simplicially constant on a topological space $X_0$, then its geometric realization is [[homeomorphic]] to $X_0$
+* If $X_\bullet$ is simplicially constant on a topological space $X_0$, then its geometric realization is [[homeomorphic]] to that space:
 
   $$
-    \vert X_\bullet \vert \simeq X_0
+    {\vert X_\bullet \vert} \simeq X_0
     \,.
   $$
+
+  (This is not true for the fat geometric realization, only the ordinary one.  The fat geometric realization will be homotopy equivalent to $X$.)
 
 =--
 
@@ -244,24 +246,24 @@ We have the following degenerate case of geometric realization of simplicial top
 +-- {: .num_remark}
 ###### Remark
 
-Geometric realization of simplicial topological spaces has a [[right adjoint|right]] [[adjoint functor]] $\underline{Sing}$
+Geometric realization of simplicial topological spaces has a [[right adjoint|right]] [[adjoint functor]] $\underline{Sing}$:
 
 $$
-  (\vert - \vert \dashv \underline{Sing})  \colon 
+  ({\vert - \vert} \dashv \underline{Sing})  \colon 
    sTop
-   \stackrel{\overset{\vert - \vert}{\to}}{\underset{\underline{Sing}} {\leftarrow}}
+   \stackrel{\overset{{\vert - \vert}}{\to}}{\underset{\underline{Sing}} {\leftarrow}}
    Top
   \,,
 $$
 
-given for $X \in $ [[Top]] a [[topological space]], we have
+For $X \in $ [[Top]] a [[topological space]], we have by definition
 
 $$
   \underline{Sing}(X) \colon  [n] \mapsto [\Delta^n_{Top}, X]
   \,,
 $$
 
-where on the right we have the [[internal hom]] space from the $n$-simplex to $X$.
+where on the right we have the [[internal hom]], or [[exponential law for spaces|exponential]], space from the standard topological $n$-simplex to $X$.
 
 =--
 
@@ -271,7 +273,7 @@ where on the right we have the [[internal hom]] space from the $n$-simplex to $X
 For every $X \in Top$ there is a [[weak homotopy equivalence]]
 
 $$
-  |\underline{Sing}(X)| \to X
+  {|\underline{Sing}(X)|} \to X
   \,.
 $$
 
@@ -287,9 +289,9 @@ Ordinary geometric realization has the following two disadvantages:
 +-- {: .num_prop}
 ###### Proposition
 
-* If $X_\bullet$ has in each degree the [[homotopy type]] of a [[CW-complex]], its realization $\vert X_\bullet \vert$ in general need not.
+* If $X_\bullet$ has in each degree the [[homotopy type]] of a [[CW-complex]], its realization ${\vert X_\bullet \vert}$ in general need not.
 
-* If a morphism $f \colon  X_\bullet \to Y_\bullet$ is degreewise a [[homotopy equivalence]], its geometric realization $\vert f \vert$ need not be a homotopy equivalence.
+* If a morphism $f \colon  X_\bullet \to Y_\bullet$ is degreewise a [[homotopy equivalence]], its geometric realization ${\vert f \vert}$ need not be a homotopy equivalence.
 
 =--
 
@@ -300,9 +302,9 @@ This is different for the fat geometric realization.
 +-- {: .num_prop #NicePropertiesOfFatRealization}
 ###### Proposition
 
-* If $X_\bullet$ is degreewise of the [[homotopy type]] of a [[CW-complex]], then so is $\Vert X_\bullet \Vert$.
+* If $X_\bullet$ is degreewise of the [[homotopy type]] of a [[CW-complex]] (i.e. is degreewise [[m-cofibrant space|m-cofibrant]]), then so is ${\Vert X_\bullet \Vert}$.
 
-* If $f \colon  X_\bullet \to Y_\bullet$ is degreewise a [[homotopy equivalence]], then also $\Vert f \Vert$ is a homotopy equivalence.
+* If $f \colon  X_\bullet \to Y_\bullet$ is degreewise a [[homotopy equivalence]], then also ${\Vert f \Vert}$ is a homotopy equivalence.
 
 =--
 
@@ -317,7 +319,7 @@ This appears as ([Segal74, prop. A.1](#Segal)).
 If the simplicial topological space $X_\bullet$ is [good](#GoodAndProper) then the natural morphism from its [fat geometric realization](#FatGeometricRealization) to its [ordinary geometric realization](#GeometricRealization) is a [[homotopy equivalence]]
 
 $$
-  \Vert X_\bullet \Vert X_\bullet \stackrel{\simeq}{\to} X_\bullet
+  {\Vert X_\bullet \Vert} \stackrel{\simeq}{\to} {|X_\bullet|}
   \,.
 $$
 
