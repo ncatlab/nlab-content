@@ -21,18 +21,15 @@
 
 Let $E$ be a [[locally small category]] with all small [[colimit]]s. An object $e$ of $E$ is called **tiny** or **small-[[projective object]]** ([Kelly, &#167;5.5](#Kelly)) if the [[hom-functor]] $E(e, -) : E \to Set$ preserves small colimits.
 
-More generaly, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in E$ is called tiny if $E(e,-) : E \to V$ preserves all small colimits.
-
+More generally, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in E$ is called tiny if $E(e,-) : E \to V$ preserves all small colimits.
 =--
 
 
-+--{.query} 
+## Remarks
 
-Owen Biesel: Being an epimorphism can be described by a pushout diagram (take the pushout of the morphism with itself - that morphism's epic iff the two pushout legs are equal iff they are identities).  Is that why tiny objects are called "small-projective" (they preserve "small" colimits instead of just a certain finite one?)?
+* Since being an [[epimorphism]] is a "colimit-property" (a morphism is epic iff its pushout with itself consists of identities), if $e$ is tiny then $E(e,-)$ preserves epimorphisms, which is to say that $e$ is [[projective object|projective]] (with respect to epimorphisms).  This is presumably the origin of the term "small-projective", i.e. the corepresentable functor preserves small colimits instead of just a certain type of finite one.
 
-=--
-
-If homming out of a tiny object even has a [[right adjoint]] and hence preserves _all_ colimits, it is called an [[infinitesimal object|atomic object]]. The right adjoint is sometimes called an [[amazing right adjoint]], particularly in the context of [[synthetic differential geometry]]. If $E$ is a sheaf topos, then tiny objects and infinitesimal objects coincide. 
+* If $E$ is [[cartesian closed category|cartesian closed]] and the inner hom $(-)^e$ has a [[right adjoint]] (and hence preserves all colimits), $e$ is called [[infinitesimal object|atomic]] or [[infinitesimal object|infinitesimal]]. The right adjoint is sometimes called an [[amazing right adjoint]], particularly in the context of [[synthetic differential geometry]]. If $E$ is a sheaf topos, then tiny objects and infinitesimal objects coincide, by the [[adjoint functor theorem]].
 
 
 ## Examples
@@ -45,18 +42,10 @@ If homming out of a tiny object even has a [[right adjoint]] and hence preserves
 
   where now the last [[colimit]] is in [[Set]].
 
-  In the context of [[Cauchy complete category|Cauchy completion]] of categories, every tiny object may be construed as a representable presheaf, provided that we change the site from a small category $C$ to its Cauchy completion or [[Karoubi envelope]] $\bar{C}$, which gives the same presheaves up to equivalence. 
 
-## Properties
+* Any [[retract]] of a tiny object is tiny, since [[split idempotent|splitting of idempotents]] is an [[absolute colimit]] (see also [Kelly, prop. 5.25](#Kelly)).  Thus, in a presheaf category, any retract of a representable functor is tiny.
 
-+-- {: .un_prop}
-###### Proposition
-
-A [[retract]] of a tiny object is itself tiny.
-
-=--
-
-This appears as ([Kelly, prop. 5.25](#Kelly)).
+  In fact the converse also holds: any tiny object in a presheaf category is a retract of a representable.  Thus, if the domain category is [[Cauchy complete category|Cauchy complete]] (has split idempotents), then every tiny presheaf is representable; and more generally the Cauchy completion or [[Karoubi envelope]] of a category can be defined to consist of the tiny presheaves on it.
 
 
 ## References
