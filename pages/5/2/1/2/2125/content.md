@@ -715,7 +715,7 @@ tensoring the resulting group elements.
 +-- {: .un_prop }
 ###### Proposition
 
-The $\mu_{K,L}$ defined this is indeed a cochain map.
+The $\mu_{K,L}$ defined this way is indeed a cochain map.
 
 =--
 
