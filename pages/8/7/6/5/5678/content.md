@@ -41,7 +41,7 @@ Original sources include
 
 * [[Joseph Bernstein]], [[Igor Frenkel]], [[Mikhail Khovanov]], _A categorification of the Temperley-Lieb algebra and Schur quotients of $U(\mathfrak{sl}-2)$ by projective and Zuckerman functors, Selecta. Math. __5__ (1999) 199-241, [MR2000i:17009](http://www.ams.org/mathscinet-getitem?mr=1714141), [doi](http://dx.doi.org/10.1007/s000290050047)
 
-* Igor Frenkel, Mikhail Khovanov, Catharina Stroppel, _A categorification of finite-dimensional irreducible representations of quantum $\mathfrak{sl}_2$ and their tensor products_, Selecta Math. (N.S.) __12__ (2006), no. 3-4, 379&#8211;431, [MR2008a:17014](http://www.ams.org/mathscinet-getitem?mr=2305608), [doi](http://dx.doi.org/10.1007/s00029-007-0031-y)
+* [[Igor Frenkel]], [[Mikhail Khovanov]], [[Catharina Stroppel]], _A categorification of finite-dimensional irreducible representations of quantum $\mathfrak{sl}_2$ and their tensor products_, Selecta Math. (N.S.) __12__ (2006), no. 3-4, 379&#8211;431, [MR2008a:17014](http://www.ams.org/mathscinet-getitem?mr=2305608), [doi](http://dx.doi.org/10.1007/s00029-007-0031-y)
 
 An expository review is in
 
