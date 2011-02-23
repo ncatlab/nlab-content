@@ -1,4 +1,5 @@
 
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -12,14 +13,14 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea
 
-An _$\infty$-Lie algebroid_ is the [[infinitesimal space|infinitesimal]] approximation to an [[∞-Lie groupoid]].
- 
-$\infty$-Lie algebroids are to [[∞-Lie groupoids]] as [[Lie algebras]] are to [[Lie groups]]. 
+An _$\infty$-Lie algebroid_ is a [[smooth ∞-groupoid]] (or rather a [[synthetic-differential ∞-groupoid]]) all whose [[k-morphism]]s for all $k$ have _[[infinitesimal space|infinitesimal]] extension_ (are infinitesimal neighbours of an identity $k$-morphism).
+
+$\infty$-Lie algebroids are to [[∞-Lie groupoids]] as [[Lie algebras]] are to [[Lie groups]]:
 
 * [[Lie group]] - [[Lie algebra]]
 
@@ -29,68 +30,314 @@ $\infty$-Lie algebroids are to [[∞-Lie groupoids]] as [[Lie algebras]] are to 
 
 * [[∞-Lie groupoid]] - **$\infty$-Lie algebroid** .
 
-One obtains $\infty$-Lie groupoids from $\infty$-Lie algebroids by [[Lie integration]].
 
-In terms of [[synthetic differential geometry]] an $\infty$-Lie algebroid may be thought of as an [[∞-Lie groupoid]] all whose [[k-morphism]]-spaces over a given object are [[infinitesimal space]]s.
+## Definition
 
-Since in typical [[Models for Smooth Infinitesimal Analysis|convenient models for synthetic differential geometry]] these infinitesimal spaces are represented by formal [[duality]] in terms of their [[smooth algebra]]s of functions, it follows that when [[∞-groupoid]]s are incarnated as [[simplicial object|simplicial]] [[smooth space]]s, an $\infty$-Lie algebroid
+We discuss $\infty$-Lie algebroids in the [[cohesive (∞,1)-topos]] [[SynthDiff∞Grpd]] of [[synthetic differential ∞-groupoid]]s. 
+
+### The category of $\infty$-Lie algebroids
+
+Let $T := $[[CartSp]]${}_{smooth}$ be the category of [[Cartesian space]]s and [[smooth function]]s between, them, regarded as a [[Lawvere theory]]. Write 
 
 $$
-  \mathfrak{a} = \left(
-     \cdots \mathfrak{a}_2
-     \stackrel{\to}{\stackrel{\to}{\to}} \mathfrak{a}_1 \stackrel{\to}{\to} \mathfrak{a}_0
-  \right)
+  SmoothAlg := T Alg
+$$
+
+for its category of [[algebra over a Lawvere theory|algebras]]: these are the [[smooth algebra]]s.
+
++-- {: .un_def}
+###### Definition
+
+Let $\infty LieAlgd$ be the [[opposite category]] of the category whose objects are pairs consisting of a graded-commutative [[semi-free dga|semi-free]] cochain [[dg-algebra]]s  in non-negative over the real numbers and a refinement of its commutative [[associative algebra]] in degree 0 to a smooth algebra. In other words the pullback category
+
+$$
+  \array{
+    \infty LieAlgd &\to& SmoothAlg^{op}
+    \\
+    \downarrow && \downarrow
+    \\
+    sfdgCAlg_{\mathbb{R}}^{op} &\to& CAlg_{\mathbb{R}}^{op}
+  }
+  \,.
+$$
+
+=--
+
+
+Write $(SmoothAlg^\Delta)^{op}$ for the category of cosimplicial smooth algebras.
+
+We use the [[monoidal Dold-Kan correspondence]] to describe $\infty$-Lie algebroids by semi-free differential graded algebras.
+
+
++-- {: .num_defn}
+###### Definition
+
+Consider the functor
+
+$$
+  \Xi : Ch^\bullet_+ \to Ab^{\Delta}
+$$
+
+that extends to a functor
+
+$$
+  \Xi : sfdgcAlg \to (SmoothAlg^\Delta)^{op} \hookrightarrow
+   SynthDiff\infty Grpd
+$$
+
+given by 
+
+$$
+  \Xi CE(\mathfrak{g}) : 
+  [n]
+    \mapsto
+  \bigoplus_{i = 0}^{n}
+  CE(\mathfrak{g})_i \otimes \wedge^i \mathbb{R}^n
+  \,.
+$$
+
+where the product on the right is 
+
+$$
+  (a,x)\cdot (b,y) = (a \wedge b , x \wedge y)
+  \,.
+$$
+
+=--
+
+Notice that $\Xi CE(\mathfrak{g})$ is indeed a _commutative_ cosimplicial algebra. 
+
+## 1-Lie algebroids
+
+We discuss the traditional concept of [[Lie algebroid]]s in the general context of $\infty$-Lie algebroids.
+
+### Spaces of infinitesimal simplices 
+
+It turns out that regarded as infinitesimal [[synthetic-differential ∞-groupoid]]s Lie algebroids are build from spaces of infinitesimal simplices, as described in ([Kock](#Kock)).
+
+#### Idea
+
+An **infinitesimal $k$-[[simplex]]** in $R^n$ based at the origin is a collection $(\vec \epsilon_i \in R^n)_{i = 1}^k$ of points in $R^n$, such that each is an infinitesimal neighbour of the origin
+
+$$
+  \forall i : \;\; \vec \epsilon_i \sim 0
 $$ 
 
-may be modeled by [[cosimplicial algebra|cosimplicial]] [[smooth algebra]]s  
+and each are infinitesimal neighbours of each other
 
 $$
-  C^\infty(\mathfrak{a}) = \left(
-     \cdots C^\infty(\mathfrak{a}_2)
-     \stackrel{\leftarrow}{\stackrel{\leftarrow}{\leftarrow}} 
-     C^\infty(\mathfrak{a}_1)
-     \stackrel{\leftarrow}{\leftarrow} 
-     C^\infty(\mathfrak{a}_0)
+  \forall i,j: \;\; (\vec \epsilon_i - \vec \epsilon_j) \sim 0
+  \,.
+$$
+
+Following ([Kock, section 1.2](#Kock))
+we write $\tilde D(k,n)$ for the space of all infinitesimal $k$-simplices in $R^n$. More precisely, this is defined as the formal dual of the algebra $C^\infty(\tilde D(k,n))$ defined as follows.
+
+Functions on spaces of infinitesimal $k$-simplices turn out to be degree $k$-differential forms. This provides a "synthetic" way of precisely thinking of wedge produts $d x \wedge dy$ etc as products of infinitesimals. As the following computations do show, the skew-commutativity of the wedge product is an inherent consequence of the nature of infinitesimals.
+
+#### Definition
+
++-- {: .un_def}
+###### Definition
+
+The algebra $C^\infty(\tilde D(k,n))$ is the 
+commutative $\mathbb{R}$-algebra generated from $k \times n$ generators $(\epsilon_i^j)_{1 \leq i \leq n, 1 \leq j \leq n}$ subject to the relations
+
+$$
+  \forall i, j,j' : \;\; \epsilon_i^{j} \epsilon_i^{j'} = 0
+$$
+
+and
+
+$$
+  \forall i,i',j,j'   : \;\;\; 
+  (\epsilon_i^j - \epsilon_{i'}^j) (\epsilon_i^{j'} - \epsilon_{i'}^{j'}) = 0
+  \,.
+$$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+By multiplying out the latter set of relations and using the former, these relations are seen to be equivalent to the set of relations
+
+\[
+  \forall i,i',j,j' : \;\;\;
+  \epsilon_i^j \epsilon_{i'}^{j'} 
+  + \epsilon_{i'}^j \epsilon_{i}^{j'} = 0
+  \,.
+\]
+
+Notice that this implies also that
+
+$$
+  \forall i,i', j: \;\;\;  \epsilon_i^{j} \epsilon_{i'}^j = 0
+  \,.
+$$
+
+=--
+
+A general element $f$ of this algebra we think of as a function on a certain infinitesimal neightbourhood of the origin of $R^{k \cdot n}$, interpreted as the space of infinitesimal $k$-simplices in $R^n$ based at 0.
+
+Since $C^\infty(\tilde D(k,n))$ is a [[infinitesimally thickened point|Weil algebra]] in the sense of [[synthetic differential geometry]], its structure as an $\mathbb{R}$-algebra extends uniquely to the structure of a [[smooth algebra]] (as discussed there) and we may think of $\tilde D(k,n)$ as an infinitesimal [[smooth locus]].
+
++-- {: .un_example}
+###### Example
+
+For $n = 2$ and $k = 2$ we have that $C^\infty(\tilde D(2,2))$ consists of elements of the form
+
+$$
+  \begin{aligned}
+    f
+    +
+    a \cdot \epsilon_1 
+     + b \cdot \epsilon _2 
+     + (\omega \cdot \epsilon_1) (\lambda \cdot \epsilon_2) 
+    &= 
+    f + 
+    a_1 \epsilon_1^1 
+     + a_2 \epsilon_1^2 
+     + b_1 \epsilon_2^1 
+     + b_2 \epsilon_1^2
+    \\
+    & + (\omega_1 \lambda_2 - \omega_2 \lambda_1) 
+      \frac{1}{2}(\epsilon_1^1 \epsilon_2^2 - \epsilon_1^2 \epsilon_2^1)
+  \end{aligned}
+$$
+
+for $f \in \mathbb{R}$ and $(a, b, \omega, \lambda \in (\mathbb{R}^n)^*)_{1 \leq i \leq n}$ a collection of ordinary covectors and with "$\cdot$" denoting the evident contraction, and where in the last step we used the above relations.
+
+It is noteworthy here that the coefficient of the term which is multilinear in each of the $\epsilon_i$ is the [[wedge product]] of two [[covector]]s $\omega$ and $\lambda$: we may naturally identify the subspace of $C^\infty(\tilde D(2,2))$ on those elements that vanish if either $\epsilon_1$ or $\epsilon_2$ are set to 0 as the space $\wedge^2 T_0^* \mathbb{R}^2$ of 2-forms at the origin of $\mathbb{R}^2$. 
+
+Of course for this identification to be more than a coincidence we need that this is the beginning of a pattern that holds more generally. But this is indeed the case.
+
+=--
+
+
+#### Properties
+
+Let $E$ be the set of _square_ submatrices of the $k \times n$-matrix $(\epsilon_i^j)$. As a set this is isomorphic to the set of pairs of subsets of the same size of $\{1, \cdots, k\}$ and $\{1, \cdots , n\}$, respectively. For instance the square submatrix labeled by $\{2,3,4\}$ and  $\{1,4,5\}$ is
+
+$$
+  e 
+  =
+  \left(
+    \array{
+       \epsilon_1^2 & \epsilon_4^2 & \epsilon_5^2
+       \\
+       \epsilon_1^3 & \epsilon_4^3 & \epsilon_5^3
+       \\
+       \epsilon_1^4 & \epsilon_4^4 & \epsilon_5^4
+    }
   \right)
+  \,.
+$$
+
+
+For $e \in E$ an $r\times r$ submatrix, we write 
+
+$$
+  det(e) = 
+    \sum_{\sigma} sgn(\sigma) 
+    \epsilon_{1}^{\sigma(1)} \epsilon_2^{\sigma(2)}
+    \cdots 
+    \epsilon_r^{\sigma(r)}
+  \in
+  C^\infty(\tilde D(k,n))
   \,.
 $$ 
 
-Under the [[monoidal Dold-Kan correspondence]], these map by the [[Moore complex|normalized cochain complex functor]] $N$ to cochain [[dg-algebra]]s in non-negative degree:
+for the corresponding [[determinant]], given as a product of generators in $C^\infty(\tilde D(k,n))$. Here the sum runs over all [[permutation]]s $\sigma$ of $\{1, \cdots, r\}$ and $sgn(\sigma) \in \{+1, -1\} \subset \mathbb{R}$ is the [[signature]] of the permutation $\sigma$.
+
+
++-- {: .un_prop}
+###### Proposition
+
+
+The elements $f \in C^\infty(\tilde D(k,n))$ are precisely of the form
 
 $$
-  CE(\mathfrak{a}) := N C^\infty(\mathfrak{a})
+  f = \sum_{e \in E} f_e \; det(e) 
+$$
+
+for _unique_ $\{f_e \in \mathbb{R} | e \in E\}$. In other words, the map of [[vector space]]s
+
+$$
+  \mathbb{R}^{|E|} \to C^\infty(\tilde D(k,n))
+$$
+
+given by 
+
+$$
+  (f_e)_{e \in E} \mapsto \sum_{e \in E} f_e det(e) 
+$$ 
+
+is an [[isomorphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is a direct extension of the argument in the above example: a general product of $r$ generators in $C^\infty(\tilde D(k,n))$ is
+
+$$
+  \epsilon_{i_1}^{j_1} \epsilon_{i_2}^{j_2} 
+   \cdots \epsilon_{i_r}^{j_r}
   \,.
 $$
 
-This dg-algebra is usefully thought of as the [[Chevalley-Eilenberg algebra]] of the $\infty$-Lie algebroid. If $\mathfrak{a} = \mathfrak{g}$ is an ordinary [[Lie algebra]], then this is indeed the ordinary Chevalley-Eilenberg algebra of that Lie algebra. 
-
-In the literature on [[Lie algebroid]]s, however, $CE(\mathfrak{a})$ often goes by different names, such as "canonical complex" or "the complex that computes Lie algebroid cohomology". In the literature on what we here identify as $\infty$-Lie algebroids, the algebras $CE(\mathfrak{a})$ are often thought of as algebras of functions on [[NQ-supermanifold]]s.
-
-Accordingly, there is a bit of room for different approaches of how to define the [[(∞,1)-category]] of [[∞-Lie algebroid]]s. A very general abstract [[nPOV]] perspective proceeds via the notion of [[function algebras on ∞-stacks]]:
-
-for $T$ an abelian [[Lawvere theory]] (such as that of ordinary commutative and [[associative algebra]]s over a field or that of [[smooth algebra]]s) and for $C \hookrightarrow T Alg^{op}$ a small full subcategory of the spaces formally dual to these algebra, there is an [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}{C}$ of [[∞-Lie groupoid]] modeled on the geometry of $T$-algebras and this is equipped with the canonical $T$-[[line object]] $\mathbb{A}$. 
-
-The [[(∞,1)-category]] $\mathbf{L}$ of [[∞-Lie algebroid]]s is the [[reflective (∞,1)-subcategory]] that [[localization of an (∞,1)-category|localize]] $\mathbf{H}$ at those morphism that induce [[isomorphism]]s in the $\mathbb{A}$-[[cohomology]] internal to $\mathbf{H}$
+By the relations in $C^\infty(\tilde D(k,n))$, this is non-vanishing precisely if none of the $i$-indices repeats and none of the $j$-indices repeats. Furthermore by the relations, for any permutation $\sigma$ of $r$ elements, this is equal to
 
 $$
-  \mathbf{L} \stackrel{\leftarrow}{\hookrightarrow}
-  \mathbf{H}
+  \cdots = sgn(\sigma) 
+   \epsilon_{i_1}^{j_{\sigma(1)}} 
+   \epsilon_{i_1}^{j_{\sigma(2)}}
+   \cdots 
+   \epsilon_{i_1}^{j_{\sigma(r)}}
   \,.
 $$
 
-In the case that $\mathbf{H} = Sh_{(\infty,1)}(C)$ is the [[(∞,1)-category of (∞,1)-sheaves]] on a [[site]] $C$ like the [[opposite category]] $Alg_{\mathbb{R}}^{op}$ of commutative (and suitably "small") [[algebra]]s, or the site $C = \mathbb{L}$ of [[smooth loci]], the opposite $C^\infty Alg^{op}$ of (suitably small) [[smooth algebra]], the line object is the [[real number|real line]] in the corresponding in ternal incarnation, and one finds then that 
+It follows that each such element may be written as
 
 $$
-  \mathbf{L} \simeq ([\Delta, C^\infty Alg]^op)^\circ
+  \cdots = \frac{1}{r!} det(e)
+  \,,
 $$
 
-is the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by the the opposite of the [[model structure on cosimplicial rings|model structure on cosimplicial commutative (smooth) algebras]]. 
+where $e$ is the $r \times r$ subdetermined given by the subset $\{i_1, \cdots, i_r\}$ and $(\{j_1, \cdots, j_r\})$ as discussed above.
+=--
 
-At least for the underlying plain algebras this is equivalent, by the [[monoidal Dold-Kan correspondence]], to the $(\infty,1)$-category presented by the opposite of the standard [[model structure on dg-algebras]] $(dgAlg^{op})^\circ$, for graded commutative cochain dg-algebras in non-negative degree. This is of course the category in which much of classical [[rational homotopy theory]] takes place, and indeed it has been noticed that much of classical rational homotopy theory may be understood as being about $\infty$-Lie theory. Notably the [[Sullivan construction]] of a [[topological space]] from a [[dg-algebra]] may be thought of as essentially being the [[Lie integration]] of the $\infty$-Lie algebroid corresponding to the dg-algebra to an [[∞-groupoid]]. This can straightforwardly be refined to an integration to an [[∞-Lie groupoid]].
++-- {: .un_remark}
+###### Remark
 
-See also [[∞-Lie algebroid cohomology]].
+In ([Kock, section 1.3](#Kock)) effectively this proposition appears as the "[[Kock-Lawvere axiom]] scheme for $\tilde D(k,n)$" when $\tilde D(k,n)$ is regarded as an object of a suitable [[smooth topos]]. It is useful to record this simple but very crucial observation of Anders Kock here in the category $Alg_{\mathbb{R}}^{op}$ or in the category $C^\infty Alg^{op}$ of [[smooth loci]], as we do here, where it is just a simple observation. The point of the Kock-Lawvere axiom scheme is effectively to ensure that the properties of $C^\infty(\tilde D(k,n)) \in C^\infty Alg^{op}$ are preserved under [[Yoneda embedding]] into a corresponding [[sheaf topos]]. But it has been observed that it serves to clarify what is going on in parts of Ander Kock's book by separating the combinatorial and algebraic arguments from their internalization into suitable [[smooth topos]]es.
 
-## Special Cases
+=--
+
+### Lie 1-algebroids as infinitesimal Lie groupoids
+
++-- {: .un_prop}
+###### Observation
+
+Let $\mathfrak{g}$ be a [[Lie algebroid]] of rank $n$ over $X$, then $\Xi CE(\mathfrak{g})$ is at $x \in X$ the smooth locus $\tilde D(k, n)$ of infinitesimal $k$-simplices at the origin of $\mathbb{R}^n$.
+
+=--
+
+Proof.
+
+Let $\{t^i\}$ be a basis for $\mathfrak{g}^*$ and $\{k_j\}$ a basis for $\mathbb{R}^n$. Then identify
+
+$$
+  \epsilon^i_j := t^i \otimes k_j
+  \,.
+$$
+
+
+## Examples
+
+### Classes of examples
 
 * a $\infty$-Lie algebroid over the [[point]], $\mathfrak{a} = *$ is an **[[L-∞-algebra]]**;
 
@@ -124,7 +371,7 @@ So in particular
 * Standard examples of [[exterior differential system]]s are [[Chevalley?Eilenberg algebras]] of $L_\infty$-algebroids.
 
 
-## Examples
+
 
 ### Tangent Lie algebroid {#TangentLieAlgebroid}
 
@@ -397,34 +644,7 @@ Using this the total complex of $N C^\infty(-)$ of this bisimplicial set is mani
 
 ...
 
-## In a cohesive $(\infty,1)$-topos {#InCohesiveContext}
-
-We now give the above considerations a precise context by interpreting them in a [[cohesive (∞,1)-topos]].
-
-### Definition
-
-Let $\mathbf{H} = (\infty,1)Sh(ThCartSp)$ be $(\infty,1)$-[[Cahiers topos]], the [[(∞,1)-sheaf (∞,1)-topos]] on [[ThCartSp]]. 
-
-This is a [[cohesive (∞,1)-topos]].
-
-
-In the [[model structure on simplicial presheaves|model by simplicial presheaves]] $[ThCartSp^{op}, sSet]_{proj,loc}$ say an $\infty$-Lie algebra is an object of the form
-
-$$
-  \mathbf{B} \mathfrak{g}
-  =
-  \int^{[k]\in \Delta} \mathbf{\Delta}[k] \cdot \mathfrak{g}_k
-  \,,
-$$
-
-where 
-
-* $\mathbf{\Delta} : \Delta \to sSet$ is the [[fat simplex]];
-
-* $\mathfrak{g} : \Delta^{op} \to ThCartSp \hookrightarrow [ThCartSp^{op}, sSet]$ is degreewise representable by an [[infinitesimal space]] with the point in degree 0.
-
-
-### Properties
+## Properties
 
 
 +-- {: .un_lemma }
@@ -611,6 +831,7 @@ By the discussion at [[cohesive (∞,1)-topos]] this characterizes $\mathbf{B}\m
 
 ## Related concepts
 
+* [[∞-Lie algebroid cohomology]]
 
 * [[∞-Lie algebroid valued differential forms]]
 
@@ -633,6 +854,11 @@ The explicit term _$\infty$-Lie algebroid_ / _$L_\infty$-algebroid_ as such appe
 The term also appears in
 
 * Andrew James Bruce, _From $L_{\infty}$-algebroids to higher Schouten/Poisson structures_ ([arXiv:1007.1389](http://arxiv4.library.cornell.edu/abs/1007.1389))
+
+The smooth spaces of infinitesimal simplices $\tilde D(k,n)$ are considered in
+
+* [[Anders Kock]],  _Synthetic differential geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+{#Kock}
 
 [[!redirects L-infinity-algebroid]]
 [[!redirects L-infinity algebroid]]
