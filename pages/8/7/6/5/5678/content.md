@@ -28,7 +28,7 @@ $$
 between the Khovanov homologies associated to the two knots.
 
 
-In ([Witten11](#Witten11)) it is argued, following indications in ([GukovSchwarzVafa05](GukovSchwarzVafa04)) that this 4d TQFT is related to the worldvolume theory of the image in [[string theory|type IIA string theory]] of D3-[[brane]]s ending on NS5-[[brane]]s in type IIB, under one [[S-duality]] and one [[T-duality]] operation
+In ([Witten11](#Witten11)) it is argued, following indications in ([GukovSchwarzVafa05](GukovSchwarzVafa04)) that this 4d TQFT is related to the worldvolume theory of the image in [[string theory|type IIA string theory]] of D3-[[brane]]s ending on NS5-[[brane]]s in a type IIB background of the form $\mathbb{R}^9 \times S^1$ with the circle transverse to both kinds of branes, under one [[S-duality]] and one [[T-duality]] operation
 
 $$
   (D3-NS5) 
@@ -38,6 +38,8 @@ $$
   (D4-D6)
   \,.
 $$
+
+To go from the [[Jones polynomial]] to [[Khovanov homology]], we interpret the circle as Euclidean time. The [[path integral]] with the circle is the [[partition function]] (Witten index), $Tr_{\mathcal{H}}(-1)^F e^{-\beta H}$, of a 5D theory. Khovanov homology is $\mathcal{H}$ itself, rather than the index. 
 
 See ([Witten11, p. 14](http://arxiv.org/PS_cache/arxiv/pdf/1101/1101.3216v1.pdf#page=14)).
 
@@ -77,3 +79,5 @@ and earlier hints in
 {#Wittem92}
 
 Related $n$Caf&eacute; discussions: [categorification in Glasgow](http://golem.ph.utexas.edu/category/2008/11/categorification_in_glasgow.html), [Kamnitzer on categorifying tangles](http://golem.ph.utexas.edu/category/2009/04/kamnitzer_on_categorifying_tan.html), [link homology in Paris](http://golem.ph.utexas.edu/category/2009/02/link_homology_in_paris.html), [4d QFT and Khovanov homology](http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html)
+
+Parts of the above remarks on the QFT interpretation makes use of comments provbided  by [[Jacques Distler]] in <a href="http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html#comments">this blog discussion</a>.
