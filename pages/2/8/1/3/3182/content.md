@@ -318,7 +318,7 @@ for the defining quadruple of [[adjoint (∞,1)-functor]]s that refine the [[glo
 
 ### Cohesive $\infty$-groups {#Groups}
 
-By the general properties of [[cohesive (∞,1)-topos]]es with an [[∞-cohesive site]] of definition, every [[∞-group]] object is presented by a presheaf of [[simplicial group]]s. For  $ETop\inftyGrpd$ among these are the [[simplicial topological group]]s. See there for more details.
+By the general properties of [[cohesive (∞,1)-topos]]es with an [[∞-cohesive site]] of definition, every [[∞-group]] object is presented by a presheaf of [[simplicial group]]s. For  $ETop\infty Grpd$ among these are the [[simplicial topological group]]s. See there for more details.
 
 
 ### Geometric homotopy and Galois theory {#GeometricHomotopy}
@@ -382,8 +382,8 @@ $$
 
 =--
 
-+-- {: .un_prop}
-###### Corollary
++-- {: .num_prop #FundGroupoidOfSimplicialParacompact}
+###### Proposition
 
 Let $X_\bullet$ be a [[good simplicial topological space]] that is degreewise [[paracompact topological space|paracompact]] and degreewise admits a [[good open cover]], regarded naturally as an object $X_\bullet \in Top^{\Delta^{op}} \to ETop \infty Grpd$. 
 
@@ -526,60 +526,64 @@ From this the claim follows by the [above proposition](#FundGroupoidOfParacompac
 +-- {: .un_prop #GeometricRealizationOfHomotopyFibers}
 ###### Proposition
 
-Let 
-
-* $X$ be a degreewise [[paracompact topological space|paracompact]] [[good simplicial topological space]]s admiting degreewise [[good open cover]]s. 
-
-* $G$ be a [[well-sectioned simplicial topological group]]. 
-
-Regard both as object in $E Top \infty Grpd$ in the canonical way. Write $\mathbf{B}G$ for  [[delooping]] of the [[∞-group]]-object $G$ in $ETop \infty Grpd$.
-
-Then the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|intrinsic fundamental (∞,1)-groupoid functor]] $\Pi : ETop \infty Grpd$ preserves [[homotopy fiber]]s of all morphisms of the form $X \to \mathbf{B}G$.
-
-
-More in detail, if $P \to X$ is the $G$-[[principal ∞-bundle]] in $ETop \infty Grpd$ classified by the [[cocycle]] $X \to \matbf{B}G$ then $|\Pi(P)| \to |\Pi(X)|$ is the $|G|$-[[principal ∞-bundle]] in [[Top]] classified by $|\Pi(X)| \to B |G|$.
-
+ Let $G$ be a [[well-pointed simplicial topological group]] degreewise in [[TopMfd]]. 
+Then the $(\infty,1)$-functor 
+$\Pi : \mathrm{ETop}\infty\mathrm{Grpd} \to \infty \mathrm{Grpd}$
+ preserves [[homotopy fiber]]s of all morphisms of the form 
+$X \to \mathbf{B}G$
+that are presented in $[\mathrm{CartSp}_{\mathrm{top}}^{\mathrm{op}}, \mathrm{sSet}]_{proj}$
+by morphism of the form $X \to \bar W G$ with $X$ fibrant.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-This is a consequence of the [above proposition](#spring) that $\Pi$ acts on the morphism in question by [[geometric realization of simplicial topological spaces]] and the fact discussed at <a href="http://ncatlab.org/nlab/show/geometric+realization+of+simplicial+topological+spaces#TopologicalPrincipalInfinityBundle">Geometric realization of simplicial topological spaces -- Topological ∞-bundles</a> that geometric realization on good simplicial spaces preserves homotopy fibers.
-
-Write, as usual for [[simplicial group]]s, $\mathbf{B}G := \bar W G$ for its <a href="http://ncatlab.org/nlab/show/simplicial+group#Delooping">delooping</a>. Write $W G$ for the <a href="http://nlab.mathforge.org/nlab/show/simplicial+group#UniversalSimplicialBundle">universal simplicial G-bundle</a>.  This is a [[resolution]] of the point inclusion $* \to \mathbf{B}G$ by a fibration in $[CartSp^{op}, sSet]_{proj}$
-
-Therefore the ordinary [[pullback]]
-
-$$
-  \array{
-    P_\bullet &\to& W G
-    \\
-    \downarrow && \downarrow
-    \\
-    X_\bullet &\to& \bar W G
-  }
-$$
-
-of topological spaces and hence (since the [[Yoneda embedding]] preserves [[limit]]s) of [[simplicial presheaves]] on [[CartSp]]${}_{top}$ is a [[homotopy pullback]] (as discussed there) and hence $P = X \times_{\bar W G} W G$ is a presentation of the [[homotopy fiber]] of $X \to \mathbf{B}G$ in the [[(∞,1)-category of (∞,1)-presheaves]] over $CartSp$ and hence by [[exact (∞,1)-functor|left exactness]] of [[(∞,1)-sheafification]] also in $ETop\infty Grpd$.
-
-In ([RobertsStevenson](#RobertsStevenson)) it is shown that under [[geometric realization of simplicial topological spaces]] the <a href="http://nlab.mathforge.org/nlab/show/simplicial+group#UniversalSimplicialBundle">universal simplicial G-bundle</a> $W G \to \bar W G$ maps to the universal $|G|$-principal topological bundle $E |G| \to B |G|$ over the [[topological group]] $|G|$ obtained by [[geometric realization of simplicial topological spaces|geometric realization]] of $G$. This is a [[resolution]] of the point inclusion $* \to B|G|$ in [[Top]].
-
-But [[geometric realization of simplicial topological spaces]] preserves (as discussed there) ordinary [[pullback]]s. Therefore we have that also 
+Notice that since [[(∞,1)-sheafification]] preserves 
+finite [[(∞,1)-limit]]s  we may 
+indeed discuss the homotopy fiber in the global model structure on 
+simplicial presheaves.
+  
+Write $Q X \stackrel{\simeq}{\to} X$ for the global cofibrant resolution
+given by $Q X : [n] \mapsto \coprod_{\{U_{i_0} \to \cdots \to U_{i_n} \to X_n\}} U_{i_0}$, where the $U_{i_k}$ range over $\mathrm{CartSp}_{\mathrm{top}}$ .
+(Discussed at <a href="http://nlab.mathforge.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantReplacement">model structure on simplicial presheaves -- cofibrant replacement</a>. )
+This has degeneracies splitting off as direct summands, and hence is a 
+[[good simplicial topological space]] that is degreewise in 
+[[TopMfd]].  Consider then the pasting of two [[pullback]] diagrams of 
+simplicial presheaves
 
 $$
   \array{
-    |P| &\to& E |G|
+    P' &\stackrel{\simeq}{\to}&  P &\to& W G 
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    Q X &\stackrel{\simeq}{\to}& X &\to & \bar W G
+  }
+  \,.
+$$
+
+By the discussion at [[geometric realization of simplicial topological spaces]] we have that the rightmost vertical morphism is a fibration in $[CartSp_{top}^{op}, sSet]_{proj}$. Since fibrations are stable under pullback, the middle vertical morphism is also a fibration (as is the leftmost one). Since the global model structure is a right [[proper model category]] it follows then that also the top left horizontal morphism is a weak 
+
+Since the square on the right is a pullback of fibrant objects with one morphism being a  fibration, $P$ is a presentation of the [[homotopy fiber]] of $X \to \bar W G$. Hence so is $P'$, which is moreover the pullback of a diagram of good simplicial spaces.
+ 
+By prop. \ref{FundGroupoidOfSimplicialParacompact} we have that on the outer
+diagram $\Pi$ is presented by 
+[[geometric realization of simplicial topological spaces]] $|-|$.
+By the discussion of realization of [[simplicial principal bundle]]s there, 
+we have a pullback in $\mathrm{Top}_{\mathrm{Quillen}}$
+  
+$$
+  \array{
+    {|P|} &\to&  {|W G|} 
     \\
     \downarrow && \downarrow
     \\
-    |X| &\to& B |G|
+    {|Q X|} & \to & {|\bar W G|}
   }
 $$
-
-is a pullback, hence a [[homotopy pullback]], and therefore that $|P|$ is a model for the [[homotopy fiber]] of $|X| \to B |G|$ in [[Top]] $\simeq$ [[∞Grpd]]. 
-
-In summary we have that on simplicial topological spaces $X \to \mathbf{B}G$ as in the asumptions, geometric realization preserves homotopy fibers. But by the [above proposition](#FundGroupoidOfParacompact) the [[(∞,1)-functor]] $\Pi$ is modeled on these morphisms by geometric realization, hence the claim follows.
+ 
+which exhibits $|P|$ as the [[homotopy fiber]] of $|Q X| \to |\bar W G|$. But this is a model for $|\Pi(X \to \bar W  G)|$.
 
 =--
 
