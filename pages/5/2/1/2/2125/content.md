@@ -247,7 +247,7 @@ Note that
 
 * and the lax structure of $\Gamma$ 
 
-are not [[symmetric monoidal functor]]s, i.e. they do not respect the [[symmetric monoidal category]] structure.  However, this, toos, they do respect up to [[homotopy]], i.e. they are [[E-k-operad|E-infinity monoidal functors]] in a suitable sense.  This is shown in ([Richter](#Richter)).
+are not [[symmetric monoidal functor]]s, i.e. they do not respect the [[symmetric monoidal category]] structure.  However, this, too, they do respect up to [[homotopy]], i.e. they are [[E-k-operad|E-infinity monoidal functors]] in a suitable sense.  This is shown in ([Richter](#Richter)).
 
 =--
 
