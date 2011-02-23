@@ -1,0 +1,4 @@
+
+* [website](http://www.math.ksu.edu/people/personnel_detail?person_id=1330)
+
+category: people
