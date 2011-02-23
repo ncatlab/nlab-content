@@ -1,7 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functorial quantum field theory
++--{: .hide}
 [[!include functorial quantum field theory - contents]]
-</div>
+=--
+#### Phyics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -200,7 +210,7 @@ The classification of TCFTs by [[Calabi-Yau categories]] was discussed in
 
 following conjectures by [[Maxim Kontsevich]], e.g.
 
-* [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&uuml;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
+* [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&#252;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
 
 This classification is a precursor of the full [[cobordism hypothesis]]-theorem. This, and the reformulation of the original TCFT constructions in full generality is in 
 
