@@ -22,7 +22,7 @@ _Khovanov homology_ is a [[knot invariant]] that is a [[categorification]] of th
 Khovanov homology has long been expected to appear as the [[observable]]s in a 4-dimensional [[TQFT]] in higher analogy of how the [[Jones polynomial]] arises as a observables in 3-dimensional [[Chern-Simons theory]]. For instance for $\Sigma : K \to K'$ a [[cobordism]] between two [[knot]]s there is a natural morphism
 
 $$
-  \Phi_\Sigma . \mathcal{K}(K) \to \mathcal{K}(K')
+  \Phi_\Sigma : \mathcal{K}(K) \to \mathcal{K}(K')
 $$
 
 between the Khovanov homologies associated to the two knots.
@@ -35,11 +35,11 @@ In ([Witten11](#Witten11)) it is argued, following indications in ([GukovSchwarz
 
 Original sources include
 
-* L. Crane and I. B. Frenkel, _Four-Dimensional Topological Quantum Field Theory, Hopf Categories, and the Canonical Bases_ J. Math. Phys. 35 (1994) 5136-5154.
+* [[Louis Crane]] and [[Igor Frenkel]], _Four-Dimensional Topological Quantum Field Theory, Hopf Categories, and the Canonical Bases_ J. Math. Phys. 35 (1994) 5136-5154.
 
-* [[Igor Frenkel]] and M. Khovanov, _Canonical Bases In Tensor Products And Graphical Calculus For $U_q(\mathfrak{sl}_2)$_ Duke Math. J. 87 (1997) 409-480.
+* [[Igor Frenkel]] and [[Mikhail Khovanov]], _Canonical Bases In Tensor Products And Graphical Calculus For $U_q(\mathfrak{sl}_2)$_ Duke Math. J. 87 (1997) 409-480.
 
-* J. Bernstein, [[Igor Frenkel]], and M. Khovanov, _A Categorification Of The Temperley-Lieb Algebra And Schur Quotients Of $U(\mathfrak{sl}-2)$ By Projective And Zuckerman Functors, Selecta. Math. 5 (1999) 199-241.
+* J. Bernstein, [[Igor Frenkel]], and [[Mikhail Khovanov]], _A Categorification Of The Temperley-Lieb Algebra And Schur Quotients Of $U(\mathfrak{sl}-2)$ By Projective And Zuckerman Functors, Selecta. Math. 5 (1999) 199-241.
 
 An expository review is in
 
@@ -54,7 +54,7 @@ A proposal for a 4-dimensional [[quantum field theory]] whose [[observable]]s ar
 
 based on
 
-* S. Gukov, A. S. Schwarz, and [[Cumrum Vafa]], _Khovanov-Rozansky Homology And Topological Strings_ , Lett. Math. Phys. 74 (2005) 53-74, ([arXiv:hep-th/0412243](http://arxiv.org/abs/hep-th/0412243)).
+* [[Sergei Gukov]], [[Albert Schwarz]], and [[Cumrum Vafa]], _Khovanov-Rozansky Homology And Topological Strings_ , Lett. Math. Phys. 74 (2005) 53-74, ([arXiv:hep-th/0412243](http://arxiv.org/abs/hep-th/0412243)).
 {#GukovSchwarzVafa04}
 
 and earlier hints in
