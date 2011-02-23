@@ -35,29 +35,32 @@ In ([Witten11](#Witten11)) it is argued, following indications in ([GukovSchwarz
 
 Original sources include
 
-* [[Louis Crane]] and [[Igor Frenkel]], _Four-Dimensional Topological Quantum Field Theory, Hopf Categories, and the Canonical Bases_ J. Math. Phys. 35 (1994) 5136-5154.
+* [[Louis Crane]], [[Igor Frenkel]], _Four-dimensional topological quantum field theory, Hopf categories, and the canonical bases_, J. Math. Phys. __35__ (1994) 5136-5154, [hep-th/9405183](http://arxiv.org/abs/hep-th/9405183)
 
-* [[Igor Frenkel]] and [[Mikhail Khovanov]], _Canonical Bases In Tensor Products And Graphical Calculus For $U_q(\mathfrak{sl}_2)$_ Duke Math. J. 87 (1997) 409-480.
+* [[Igor Frenkel]], [[Mikhail Khovanov]], _Canonical bases in tensor products and graphical calculus for $U_q(\mathfrak{sl}_2)$_, Duke Math. J. __87__ (1997) 409-480, [MR99a:17019](http://www.ams.org/mathscinet-getitem?mr=1446615), [doi](http://dx.doi.org/10.1215/S0012-7094-97-08715-9)
 
-* J. Bernstein, [[Igor Frenkel]], and [[Mikhail Khovanov]], _A Categorification Of The Temperley-Lieb Algebra And Schur Quotients Of $U(\mathfrak{sl}-2)$ By Projective And Zuckerman Functors, Selecta. Math. 5 (1999) 199-241.
+* [[Joseph Bernstein]], [[Igor Frenkel]], [[Mikhail Khovanov]], _A categorification of the Temperley-Lieb algebra and Schur quotients of $U(\mathfrak{sl}-2)$ by projective and Zuckerman functors, Selecta. Math. __5__ (1999) 199-241, [MR2000i:17009](http://www.ams.org/mathscinet-getitem?mr=1714141), [doi](http://dx.doi.org/10.1007/s000290050047)
+
+* Igor Frenkel, Mikhail Khovanov, Catharina Stroppel, _A categorification of finite-dimensional irreducible representations of quantum $\mathfrak{sl}_2$ and their tensor products_, Selecta Math. (N.S.) __12__ (2006), no. 3-4, 379&#8211;431, [MR2008a:17014](http://www.ams.org/mathscinet-getitem?mr=2305608), [doi](http://dx.doi.org/10.1007/s00029-007-0031-y)
 
 An expository review is in
 
-* [[Dror Bar-Natan]], _On Khovanov's Categorification Of The Jones Polynomial_
-, Alg. Geom. Topology 2 (2002) 337-370 ([arXivmath/0201043](http://arxiv.org/abs/math/0201043))
+* [[Dror Bar-Natan]], _On Khovanov's categorification of the Jones polynomial_, Alg. Geom. Topology __2__ (2002) 337-370, [arXiv:math.GT/0201043](http://arxiv.org/abs/math/0201043)
 {#Bar-Natan}
 
 A proposal for a 4-dimensional [[quantum field theory]] whose [[observable]]s are given by Khovanov homology is discussed in
 
-* [[Edward Witten]], _Fivebranes and knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
+* [[Edward Witten]], _Fivebranes and knots_, [arXiv:1101.3216](http://arxiv.org/abs/1101.3216)
 {#Witten11}
 
 based on
 
-* [[Sergei Gukov]], [[Albert Schwarz]], and [[Cumrum Vafa]], _Khovanov-Rozansky Homology And Topological Strings_ , Lett. Math. Phys. 74 (2005) 53-74, ([arXiv:hep-th/0412243](http://arxiv.org/abs/hep-th/0412243)).
+* [[Sergei Gukov]], [[Albert Schwarz]], [[Cumrum Vafa]], _Khovanov-Rozansky homology and topologicals strings_ , Lett. Math. Phys. __74__ (2005) 53-74, [arXiv:hep-th/0412243](http://arxiv.org/abs/hep-th/0412243), [MR2007a:57014](http://www.ams.org/mathscinet-getitem?mr=2193547), [doi](http://www.ams.org/leavingmsn?url=http://dx.doi.org/10.1007/s11005-005-0008-8) 
 {#GukovSchwarzVafa04}
 
 and earlier hints in
 
-* [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_ ([arXiv](http://arxiv.org/abs/hep-th/9207094))
+* [[Edward Witten]], _Chern-Simons gauge theory as a string theory_, The Floer memorial volume, 637&#8211;678, Progr. Math. __133__, Birkh&#228;user 1995, [arXiv/hep-th/9207094](http://arxiv.org/abs/hep-th/9207094), [MR97j:57052](http://www.ams.org/mathscinet-getitem?mr=1362846)
 {#Wittem92}
+
+Related $n$Caf&eacute; discussions: [categorification in Glasgow](http://golem.ph.utexas.edu/category/2008/11/categorification_in_glasgow.html), [Kamnitzer on categorifying tangles](http://golem.ph.utexas.edu/category/2009/04/kamnitzer_on_categorifying_tan.html), [link homology in Paris](http://golem.ph.utexas.edu/category/2009/02/link_homology_in_paris.html), [4d QFT and Khovanov homology](http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html)
