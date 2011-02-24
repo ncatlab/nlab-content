@@ -33,7 +33,7 @@ Let $\Delta$ denote the [[simplex category]], and write $\Delta_{Top} \colon \De
 Write equivalently
 
 $$
-  Top^{\Delta^{op}} \coloneqq  sSet \coloneqq  [\Delta^{op}, Top]
+  Top^{\Delta^{op}} \coloneqq  sTop \coloneqq  [\Delta^{op}, Top]
 $$
 
 for the category of [[simplicial topological spaces]].
@@ -384,82 +384,76 @@ See ([GepnerHenriques, remark 2.23](#GepnerHenriques)).
 ### Relation to the homotopy colimit
   {#RelationToHomotopyColimit}
 
-In certain cases geometric realisation computes the [[homotopy colimit]] of the [[diagram]] $X_\bullet \colon  \Delta^{op} \to Top$ given by the simplicial space, with respect to the standard [[model structure on topological spaces]].
+Recall that a simplicial space is proper if it is Reedy cofibrant relative to the [[Strøm model structure]] on $Top$, in which the weak equivalences are the honest [[homotopy equivalences]].  Nevertheless, in certain cases geometric realisation computes the [[homotopy colimit]] of the [[diagram]] $X_\bullet \colon  \Delta^{op} \to Top$ given by the simplicial space, with respect to the *standard* (Quillen) [[model structure on topological spaces]], in which the weak equivalences are the [[weak homotopy equivalences]].
 
-
-+-- {: .num_prop #RealizationOfGoodSimplicialSpacesIsHomotopyColimit}
-###### Proposition
-
-Let $X_\bullet$ be a [good](#GoodAndProper) [[simplicial topological space]] that is degreewise a [[CW-complex]]. 
-
-Then in the [[homotopy category]] [[Ho(Top)]] there is an [[isomorphism]] between its geometric realization and the [[homotopy colimit]] over the simplicial [[diagram]] $X_\bullet \colon  \Delta^{op} \to Top_{Quillen}$ with respect to the standard [[model structure on topological spaces]].
-
-$$
-  \vert X_\bullet \vert 
-  \simeq
-  hocolim_n X_n
-  \,.
-$$
-
++-- {: .num_lemma #RealizPresWHE}
+###### Lemma
+If $X_\bullet \to Y_\bullet$ is an objectwise weak homotopy equivalence between proper simplicial spaces, then the induced map ${|X_\bullet|} \to {|Y_\bullet|}$ is a weak homotopy equivalence.
 =--
-
 +-- {: .proof}
 ###### Proof
+The following proof is essentially from ([May74, A.4](#May_Einf)); see also ([Dugger, prop. 17.4, example 18.2](#Dugger)).  It relies on two facts relating Hurewicz cofibrations to weak homotopy equivalences:
 
-We have the following zig-zag of [[homotopy equivalence]]s in [[Top]]
+1. Pushouts along Hurewicz cofibrations preserve weak homotopy equivalences, and
+1. Colimits of sequences of Hurewicz cofibrations preserve weak homotopy equivalences.
 
+Let $i_n \colon \Delta_{\le n} \hookrightarrow \Delta$ denote the inclusion of the objects $\le n$, and write ${|X_\bullet|}_n = i_n^* \Delta \otimes_{\Delta_{\le n}} i_n^* X_\bullet$.  Writing $L_n X$ for the $n$th [[latching object]] (the subspace of degeneracies in $X_n$), we have pushouts
+$$\array{ (L_n X \times \Delta^n) \sqcup_{L_n X \times \partial\Delta^n} (X_n \times \partial\Delta^n) & \to &  {|X_\bullet|}_{n-1}\\
+  \downarrow & & \downarrow\\
+  X_n \times \Delta^n & \to &  {|X_\bullet|}_n }
 $$
-  \array{
-    \Vert X_\bullet \Vert &\stackrel{\simeq}{\leftarrow}& 
-      \Vert (\vert Sing(X_\bullet)\vert) \Vert
-    \\
-    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
-    \\
-    \vert X_\bullet \vert && 
-      \vert (\vert Sing(X_\bullet) \vert) \vert
-    &=_{iso}&
-    \vert  d (Sing X_\bullet)_\bullet \vert 
-    &\simeq&
-    \vert  hocolim_n (Sing X_n )\vert
-  }
-  \,.
+Since $X$ is proper, $L_n X \to X_n$ is a cofibration, and of course $\partial\Delta^n \to \Delta^n$ is a cofibration.  Thus, by the [[pushout-product axiom]] for the [[Strøm model structure]], the left-hand vertical map is a cofibration; hence so is the right-hand vertical map.
+
+Now ${|X_\bullet|}$ is the [[colimit]] of the sequence of cofibrations
+$$  {|X_\bullet|}_0 \to {|X_\bullet|}_1 \to {|X_\bullet|}_2 \to \cdots$$
+and likewise for ${|Y_\bullet|}$.  In other words, the geometric realization is [[filtration|filtered]] by simplicial degree.  Thus, by point (2) above, it suffices to show that each map ${|X_\bullet|}_n \to {|Y_\bullet|}_n$ is a weak homotopy equivalence.
+
+Since ${|X_\bullet|}_0 = X_0$, this is true for $n=0$.  Moreover, by the above pushout square, ${|X_\bullet|}_n$ is a pushout of ${|X_\bullet|}_{n-1}$ along a cofibration.  Thus, by point (1) above, since $X_n \times \Delta^n \to Y_n \times \Delta^n$ is certainly a weak homotopy equivalence, it will suffice for an induction step to prove that
+$$(L_n X \times \Delta^n) \sqcup_{L_n X \times \partial\Delta^n} (X_n \times \partial\Delta^n) \to
+(L_n Y \times \Delta^n) \sqcup_{L_n Y \times \partial\Delta^n} (Y_n \times \partial\Delta^n)
 $$
-
-The two vertical equivalences follows from prop. \ref{FatRealizationOfGoodSimplicialSpaces} by the assumption that $X_\bullet$ is good and the statement of prop. \ref{GoodResolution} that also $\vert Sing X_\bullet \vert$ is good. The top horizontal equivalence is due to prop. \ref{NicePropertiesOfFatRealization} and the fact that the $(\vert-\vert \dashv Sing)$-[[unit of an adjunction|counit]] is a [[weak homotopy equivalence]] in general and hence a [[homotopy equivalence]] on CW-complexes.
-The homeomorphism on the right is that of prop. \ref{HomeomorphismFromResolutionToDiagonal}. Finally the rightmost equivalence uses that the [[diagonal]] of a bisimplicial set $S_{\bullet, \bullet}$ computes the [[homotopy colimit]] of $[n] \mapsto S_{\bullet, n}$ by 
-
-1. the fact that the diagonal is isomorphic to the coend (see [[bisimplicial set]])
-
-   $$
-     d S = \int^{[n] \in \Delta} \Delta[n] \times S_{\bullet,n}
-     \,,
-   $$
-
-1. this coend is a [[Quillen bifunctor]] (see there)
-
-   $$
-     \int^\Delta (-)\times (-) \colon  
-      [\Delta, sSet_{Quillen}]_{Reedy} \times 
-      [\Delta^{op}, sSet_{Quillen}]_{Reedy}
-      \to
-      sSet_{Quillen}
-      \,,
-   $$
-
-1. the standard cosimplicial simplex $\Delta \colon  \Delta \to sSet$ is a cofibrant [[resolution]] of the point in the [[Reedy model structure]] (see there) and every simplicial simplicial set is Reedy cofibrant;
-
-1. the general discussion of presentations of [[homotopy colimit]]s (see there) by such resolved [[coend]]s.
-
-Finally since $\vert - \vert \colon  sSet_{Quillen} \to Top_{Quillen}$ is a [[Quillen adjunction|left]] [[Quillen equivalence]] (see [[homotopy hypothesis]]) we have
-
+is a weak homotopy equivalence.  However, by definition we have a pushout
+$$ \array{
+  L_n X \times \partial\Delta^n & \to & X_n \times \partial\Delta^n \\
+  \downarrow & & \downarrow\\
+  L_n X \times \Delta^n & \to &
+  (L_n X \times \Delta^n) \sqcup_{L_n X \times \partial\Delta^n} (X_n \times \partial\Delta^n) }
 $$
-  |hocolim_n Sing X_n| \simeq hocolim_n |Sing X_n| \simeq hocolim_n X_n
-  \,.
+This is also a pushout along a Hurewicz cofibration, and cartesian product preserves weak homotopy equivalences, so it will suffice to show that $L_n X \to L_n Y$ is a weak homotopy equivalence.
+
+Recall that $L_n X$ can be written as $\colim^{[n]\to [k]} X_{[k]}$, where the colimit is over all codegeneracy maps $[n]\to [k]$ in $\Delta$ *except* the identity $[n] \to [n]$.  For $0\le m \le n$, write $L^m_n X$ for the corresponding colimit over all codegeneracies which factor through $\sigma_{p}\colon [n]\to [n-1]$ for some $0\le p\le m$.  Then $L^0_n X = X_{n-1}$ and $L^n_n X = L_n X$, and for $0\lt m \le n$ we have a pushout square
+$$ \array{ L^{m-1}_{n-1} X & \to & L^{m-1}_n X \\
+  \downarrow & & \downarrow \\
+  X_{n-1} & \to & L^m_n X. }
 $$
+We claim that $L^{m-1}_n X \to L^m_n X$ is a cofibration for all $0\le m \le n$, and we prove it by induction on $n$.  For $n=0$ it is obvious.  If it holds for $(n-1)$ (and all $m$ with $0\le m \le n-1$), then by composition and properness of $X$, each map $L^{m-1}_{n-1} X \to X_{n-1}$ is a cofibration.  Hence, by the above pushout square, so is $L^{m-1}_n X \to L^m_n X$.  This proves the claim.
 
-=-- 
+Now, using the above pushout square again and point (1) above, we can prove by induction on $n$, and for fixed $n$, by induction on $m$, that each map $L^m_n X \to L^m_n Y$ is a weak homotopy equivalence.  In particular, taking $m=n$, we find that $L_n X \to L_n Y$ is a weak homotopy equivalence, as desired.
+=--
 
-See also ([Dugger, prop. 17.4, example 18.2](#Dugger)).
+Recall that one way to compute the homotopy colimit of a diagram $X\colon D^{op}\to Top$, with respect to the standard (Quillen) model structure, is as the tensor product
+$$hocolim X \coloneqq N(D/ -) \otimes_D Q X,$$
+where $(D/ -)\colon D \to Cat$ sends each object of $D$ to its [[overcategory]], $N$ denotes the [[nerve]] of a small category, and $Q$ denotes a functorial cofibrant replacement in the Quillen model structure (e.g. [[CW complex|CW]] replacement).  When $D=\Delta$, there is a canonically defined map $N(\Delta / -) \to \Delta$ (where the second $\Delta$ denotes the canonical cosimplicial simplicial set) called the [[Bousfield-Kan map]].  This map induces, for each simplicial space $X$, a map
+$$ N(D/ -) \otimes_D X_\bullet \to \Delta \otimes_{\Delta} X_\bullet = {|X_\bullet|} $$
+which is also called the **Bousfield-Kan map**.
+
+Since the Str&#248;m model structure is a [[simplicial model category]], standard arguments involving Reedy model structures imply that the Bousfield-Kan map is a Str&#248;m weak equivalence (i.e. a homotopy equivalence) whenever $X$ is Str&#248;m Reedy cofibrant (i.e. proper).  Thus we have:
+
++-- {: .num_theorem}
+###### Theorem
+Let $X_\bullet$ be a proper simplicial space.  Then the composite
+$$ \hocolim X_\bullet = N(D/ -) \otimes_D Q X_\bullet \xrightarrow{Bousfield-Kan} {|Q X_\bullet|} \longrightarrow {|X_\bullet|} $$
+is a weak homotopy equivalence.
+=--
++-- {: .proof}
+###### Proof
+Since the definition of $\hocolim$ doesn't depend on the choice of an objectwise-cofibrant replacement of $X$, we may as well take $Q$ to be, instead of the composite with a functorial cofibrant replacement in $Top_{Quillen}$, rather a cofibrant replacement in the Reedy model structure on $Top^{\Delta^{op}}$ with respect to the Quillen model structure on $Top$.  (Any Reedy cofibrant diagram is in particular objectwise cofibrant.)  Then $Q X_\bullet$ is Quillen-Reedy cofibrant, hence also proper, and so the Bousfield-Kan map is a homotopy equivalence.  On the other hand, $Q X_\bullet \to X_\bullet$ is a levelwise weak homotopy equivalence, while $Q X_\bullet$ and $X_\bullet$ are proper, so by Lemma \ref{RealizPresWHE} its realization is a weak homotopy equivalence.
+=--
+
+By naturality, the above composite is also equal to the composite
+$$ \hocolim X_\bullet = N(D/ -) \otimes_D Q X_\bullet \to N(D/ -) \otimes_D X_\bullet \xrightarrow{Bousfield-Kan} {|X_\bullet|}; $$
+hence this composite is also a weak homotopy equivalence.
+
 
 ## Examples and Applications
 
@@ -861,6 +855,15 @@ The relation between (fat) geometric realization and [[homotopy colimit]]s is co
 
 * [[Daniel Dugger]], _A primer on homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
 {#Dugger}
+
+The proof that geometric realization of proper simplicial spaces preserves weak equivalences is from
+
+* [[Peter May]], *$E_\infty$-spaces, group completions, and permutative categories*.  London Math. Soc. Lecture Notes No. 11, 1974, 61-93.
+{#May_Einf}
+
+A definition of the Bousfield-Kan map, and the Reedy model category theory necessary to show that it is a weak equivalence, can be found in
+
+* Hirschhorn, *Model categories and their localizations*, AMS Mathematical Surveys and Monographs No. 99, 2003
 
 The (fat) geometric realization of ([[nerve]]s of) [[topological groupoid]]s is discussed in section 2.3 of
 
