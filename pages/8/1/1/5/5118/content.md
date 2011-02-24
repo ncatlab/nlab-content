@@ -51,7 +51,7 @@ is
 
      with the oplax monoidal counit is a weak equivalence in $C$.
 
-This is called a **strong monoidal Quillen adjunction** if $L$ is a [[strong monoidal functor]]. 
+This is called a **strong monoidal Quillen adjunction** if $L$ is a [[strong monoidal functor]].  In this case the first condition above on $L$ is vacuous, and the second becomes vacuous if the unit object of $D$ is cofibrant.
 
 If a monoidal Quillen adjunction is also a [[Quillen equivalence]] it is called a **monoidal Quillen equivalence**.
 
@@ -625,6 +625,8 @@ The statements involving pushouts along free monoid morphisms are discussed in l
 {#SchwedeShipleyAlgebras}
 
 [[!redirects monoidal Quillen adjunctions]]
+[[!redirects strong monoidal Quillen adjunction]]
+[[!redirects strong monoidal Quillen adjunctions]]
 
 [[!redirects monoidal Quillen equivalence]]
 [[!redirects monoidal Quillen equivalences]]
