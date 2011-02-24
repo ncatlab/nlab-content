@@ -34,6 +34,12 @@ Str&#248;m's proofs are not that well-known today and use techniques better know
 
 ## Properties
 
+### Monoidality
+
+The Str&#248;m model structure on the category of [[compactly generated spaces]] is a [[monoidal model category]].  This is essentially proven in section 6.4 of [[A Concise Course in Algebraic Topology]], using the fact that a subspace inclusion is a Hurewicz cofibration if and only if it is an [[NDR-pair]].
+
+
+### Geometric realization is a Reedy cofibrant replacement
 
 Write $({\vert- \vert} \dashv Sing) : Top\stackrel{\overset{{|-|}}{\leftarrow}}{\underset{Sing}{\to}} $ [[sSet]] for the ordinary [[geometric realization]]/[[singular simplicial complex]] [[adjunction]] (see [[homotopy hypothesis]]).
 
