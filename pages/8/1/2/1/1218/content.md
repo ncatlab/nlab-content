@@ -425,7 +425,8 @@ Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128.
 
 A detailed discusson of the relations of these and other variants of the definition is in
 
-* [[Andrew Stacey]], _Comparative Smootheology_ ([arXiv:0802.2225](http://arxiv.org/abs/0802.2225))
+* [[Andrew Stacey]], _Comparative Smootheology_ Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
+{#Stacey}
 
 The article 
 
