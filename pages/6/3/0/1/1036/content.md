@@ -28,7 +28,7 @@ I\'m not sure that we really want to use the terminology that way, but Ronnie al
 
 #References#
 
-* J. P. May, _A Concise Course in Algebraic Topology_ (Chapter 5, for compactly generated spaces)
+* J. P. May, _[[A Concise Course in Algebraic Topology]]_ (Chapter 5, for compactly generated spaces)
 
 * O. Wyler, _Convenient categories for topology_
 
