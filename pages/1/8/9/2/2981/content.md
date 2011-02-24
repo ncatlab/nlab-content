@@ -23,7 +23,7 @@
 
 * fibrations are [[Hurewicz fibrations]], 
 
-* cofibrations are closed [[Hurewicz cofibrations]] 
+* cofibrations are *closed* [[Hurewicz cofibrations]] 
 
 * and the role of weak equivalences is played by (strong) [[homotopy equivalences]]. 
 
@@ -31,7 +31,7 @@ The theorem might have been a folklore at the time, but the actual paper has a n
 
 Str&#248;m's proofs are not that well-known today and use techniques better known to the topologists of that time, and there is consequently a slight controversy among topologists now.  One of these is that there are modern reproofs, but these modern techniques essentially use [[compactly generated spaces]], while Str&#248;m's proofs succeeded in avoiding that assumption. 
 
-However, for many applications nowadays, one is mainly interested in the analogous model structure on the category of [[compactly generated space]]s, or of [[k-spaces]].
+However, for many applications nowadays, one is mainly interested in the analogous model structure on the category of [[k-spaces]], or of [[compactly generated space]]s ([[weak Hausdorff space|weak Hausdorff]] [[k-spaces]]).  Note that any cofibration in the latter category is closed.
 
 
 ## Properties
