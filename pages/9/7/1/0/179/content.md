@@ -128,62 +128,96 @@ More in detail, an object $\mathfrak{a} \in L_\infty Algd$ may be identified (no
 * $CE(\mathfrak{a}) = (\wedge^\bullet_{C^\infty(X)} \mathfrak{a}^*, d_{\mathfrak{a}})$ is a [[semifree dga]] on $\mathfrak{a}^*$ -- a [[Chevalley-Eilenberg algebra]] -- where
 
   $$
-    \wedge^\bullet_{C^\infty(X)} = 
+    \wedge^\bullet_{C^\infty(X)}\mathfrak{a}^* = 
       C^\infty(X) 
-       \oplus
+       \; \oplus \;
       \mathfrak{a}^*_0
-       \oplus
+       \; \oplus \;
       (
       \mathfrak{a}^*_0 \wedge_{C^\infty(X)} \mathfrak{a}^*_0
        \oplus
       \mathfrak{a}^*_1
       )
-      \oplus \cdots
+      \; \oplus \; \cdots
   $$
 
   with the $k$th summand on the right being in degree $k$.
 
+We now construct an embedding of $L_\infty Algs$ into $SynthDiff\infty Grpd$. 
 
-We use the [[monoidal Dold-Kan correspondence]] to describe $\infty$-Lie algebroids by semi-free differential graded algebras.
+The functor
+
+$$
+  \Xi : Ch^\bullet_+(\mathbb{R}) \to Vect_{\mathbb{R}}^{\Delta}
+$$
+
+of the [[Dold-Kan correspondence]] from non-negatively graded [[cochain complex]]es of [[vector space]]s to [[cosimplicial object|cosimplicial]] vector spaces is a [[lax monoidal functor]] and hence induces (see [[monoidal Dold-Kan correspondence]]) a functor (which we shall denote by the same symbol)
+
+$$
+  \Xi : dgAlg_{\mathbb{R}}^+ \to Alg_{\mathbb{R}}^{\Delta}
+$$
+
+from non-negatively graded cochain [[dg-algebra]]s to [[cosimplicial algebra]]s (over $\mathb{R}$).
 
 
 +-- {: .num_defn #PresentationByMonoidalDoldKan}
 ###### Definition
 
-Consider the functor
+Write
 
 $$
-  \Xi : Ch^\bullet_+ \to Ab^{\Delta}
+  \Xi : L_\infty Algd \to (CAlg_{\mathbb{R}}^\Delta)^{op} 
 $$
 
-that extends to a functor
+for the restriction of the above $\Xi$ along the inclusion $L_\infty Algd \hookrightarrow dgAlg^{op}_{\mathbb{R}}$:
+
+for $\mathfrak{a} \in L_\infty Algd$ the underlying cosimplicial vector space of $\Xi \mathfrak{a}$ is given by 
 
 $$
-  \Xi : sfdgcAlg \to (SmoothAlg^\Delta)^{op} \hookrightarrow
-   SynthDiff\infty Grpd
-$$
-
-given by 
-
-$$
-  \Xi CE(\mathfrak{g}) : 
+  \Xi \mathfrak{a} 
+   : 
   [n]
     \mapsto
   \bigoplus_{i = 0}^{n}
   CE(\mathfrak{g})_i \otimes \wedge^i \mathbb{R}^n
-  \,.
 $$
 
-where the product on the right is 
+and the product of the underlying $\mathbb{R}$-algebra on the right given on homogeneous elements in the [[tensor product]] by
 
 $$
-  (a,x)\cdot (b,y) = (a \wedge b , x \wedge y)
+  (\omega , x)\cdot (\lambda ,y) = (\omega \wedge \lambda , x \wedge y)
   \,.
 $$
 
 =--
 
-Notice that $\Xi CE(\mathfrak{g})$ is indeed a _commutative_ cosimplicial algebra. 
+Notice that $\Xi \mathfrak{a}$ is indeed a _commutative_ cosimplicial algebra, since $\omega$ and $x$ in $(\omega,x)$ are by definition in the same degree.
+
++-- {: .num_prop}
+###### Proposition
+
+There is a unique factorization of $L_\infty Algd \to (CAlg_{\mathbb{R}}^\Delta)^{op}$ through the [[forgetful functor]]
+$(SmoothAlg_{\mathbb{R}}^\Delta)^{op} \to (CAlg_{\mathbb{R}}^\Delta)^{op}$ such that for any $\mathfrak{a}$ over base space $X$ the degree-0 algebra of smooth functions $C^\infty(X)$ lifts to its canonical structure as a [[smooth algebra]]
+
+$$
+  \array{
+    && (SmoothAlg^{\Delta})^{op}
+    \\
+    & \nearrow & \downarrow^{\mathrlap{U}}
+    \\
+    L_\infty Algd &\to& (CAlg_{\mathbb{R}}^\Delta)^{op}
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that for each $n$ the algebra $(\Xi \mathfrak{a})_n$ is a nilpotent extension of $C^\infty(X)$. Then use [[Hadamard's lemma]].
+
+=--
 
 
 ## Properties
