@@ -3778,6 +3778,7 @@ The objects on the left are [[principal ∞-bundle]]s equipped with flat [[conne
 
 
 #### $\infty$-Lie algebras and $\infty$-Lie algebroids
+ {#LieAlgebroids}
 
 The infinitesimal analog of [exponentiated ∞-Lie algebra](#LieAlgebras) are genuine [[∞-Lie algebra]]s.
 
