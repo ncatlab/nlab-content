@@ -358,7 +358,10 @@ For $x \in X$ a point in a manifold, the infinitesimal [[neighbourhood]] $U_p$ i
 All of the infinitesimal spaces above are contained in the corresponding infinitesimal neighbourhood. So this is the "largest" of the infinitesimal spaces discussed here.
 
 
-### Spaces of infinitesimal $k$-simplices {#SpacOfInfSimpl}
+### Spaces of infinitesimal $k$-simplices 
+  {#SpacOfInfSimpl}
+
+> Much of this is being reworked at [[infinity-Lie algebroid]].
 
 #### Idea
 
