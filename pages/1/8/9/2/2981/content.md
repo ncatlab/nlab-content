@@ -29,15 +29,26 @@
 
 The theorem might have been a folklore at the time, but the actual paper has a number of subtleties.
 
-Str&#248;m's proofs are not that well-known today and use techniques better known to the topologists of that time, and there is consequently a slight controversy among topologists now. One of these is that there are modern reproofs, but these modern techniques essentially use the [[compactly generated space|compactly generated]] [[Hausdorff spaces]], while Str&#248;m's proofs succeeded in avoiding that assumption. 
+Str&#248;m's proofs are not that well-known today and use techniques better known to the topologists of that time, and there is consequently a slight controversy among topologists now.  One of these is that there are modern reproofs, but these modern techniques essentially use [[compactly generated spaces]], while Str&#248;m's proofs succeeded in avoiding that assumption. 
+
+However, for many applications nowadays, one is mainly interested in the analogous model structure on the category of compactly generated spaces, or of [[k-spaces]].
 
 
 ## Properties
 
-### Monoidality
+### Monoidal structure
 
-The Str&#248;m model structure on the category of [[compactly generated spaces]] is a [[monoidal model category]].  This is essentially proven in section 6.4 of [[A Concise Course in Algebraic Topology]], using the fact that a subspace inclusion is a Hurewicz cofibration if and only if it is an [[NDR-pair]].
+The Str&#248;m model structure on the category of [[compactly generated spaces]] is a [[monoidal model category]].  This is proven in section 6.4 of [[A Concise Course in Algebraic Topology]] (without that language) using the fact that a subspace inclusion is a Hurewicz cofibration if and only if it is an [[NDR-pair]].
 
+### Quillen adjunctions
+
+The identity functor $Top \to Top$ is [[Quillen adjunction|left Quillen]] from the [[model structure on topological spaces|Quillen model structure]] (or the mixed model structure) to the Str&#248;m model structure, and of course right Quillen in the other direction.  This is just the observation that any [[Hurewicz fibration]] is a [[Serre fibration]], and any [[homotopy equivalence]] is a [[weak homotopy equivalence]]---or dually, that any relative cell complex is a Hurewicz cofibration.
+
+It follows, by composition, that the [[geometric realization]]--singular complex adjunction $ {|-|} \colon sSet \leftrightarrows Top : Sing$ is Quillen between the standard [[model structure on simplicial sets]] and the Str&#248;m model structure.
+
+### Simplicial structure
+
+If $Top$ denotes the category of compactly generated spaces, then geometric realization $ {|-|} \colon sSet \to Top$ preserves finite [[products]], and hence is a [[strong monoidal functor]].  Therefore, in this case the adjunction ${|-|} \dashv Sing$ is a [[strong monoidal Quillen adjunction]], and hence makes the Str&#248;m model structure into a [[simplicial model category]].
 
 ### Geometric realization is a Reedy cofibrant replacement
 
