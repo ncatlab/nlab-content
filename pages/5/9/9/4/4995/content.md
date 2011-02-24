@@ -3602,7 +3602,8 @@ a cohesive $(\infty,1)$-topos equipped with infinitesimal cohesion. These struct
 
 
 #### Infinitesimal paths and de Rham spaces
-
+  {#InfinitesimalPaths}
+ 
 In the presence of [infinitesimal cohesion](#InfinitesimalCohesiveInfTopos) there is an infinitesimal analog of the [geometric paths ∞-groupoids](#Paths).
 
 
