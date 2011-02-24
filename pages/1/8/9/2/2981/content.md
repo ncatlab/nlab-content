@@ -31,7 +31,7 @@ The theorem might have been a folklore at the time, but the actual paper has a n
 
 Str&#248;m's proofs are not that well-known today and use techniques better known to the topologists of that time, and there is consequently a slight controversy among topologists now.  One of these is that there are modern reproofs, but these modern techniques essentially use [[compactly generated spaces]], while Str&#248;m's proofs succeeded in avoiding that assumption. 
 
-However, for many applications nowadays, one is mainly interested in the analogous model structure on the category of compactly generated spaces, or of [[k-spaces]].
+However, for many applications nowadays, one is mainly interested in the analogous model structure on the category of [[compactly generated space]]s, or of [[k-spaces]].
 
 
 ## Properties
@@ -48,7 +48,7 @@ It follows, by composition, that the [[geometric realization]]--singular complex
 
 ### Simplicial structure
 
-If $Top$ denotes the category of compactly generated spaces, then geometric realization $ {|-|} \colon sSet \to Top$ preserves finite [[products]], and hence is a [[strong monoidal functor]].  Therefore, in this case the adjunction ${|-|} \dashv Sing$ is a [[strong monoidal Quillen adjunction]], and hence makes the Str&#248;m model structure into a [[simplicial model category]].
+If $Top$ denotes the category of [[compactly generated space]]s, then [[geometric realization]] $ {|-|} \colon sSet \to Top$ preserves finite [[products]], and hence is a [[strong monoidal functor]].  Therefore, in this case the adjunction ${|-|} \dashv Sing$ is a [[strong monoidal Quillen adjunction]], and hence makes the Str&#248;m model structure into a [[simplicial model category]].
 
 ### Geometric realization is a Reedy cofibrant replacement
 
