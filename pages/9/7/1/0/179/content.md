@@ -479,6 +479,39 @@ $$
 =--
 
 
+## Examples
+
+### Classes of examples
+
+* a $\infty$-Lie algebroid over the [[point]], $\mathfrak{a} = *$ is an **[[L-∞-algebra]]**;
+
+* an $n$-[[truncated]] $\infty$-Lie algebroid is a **Lie $n$-algebroid**;
+
+* an $\infty$-Lie algebroid the differential of whose [[Chevalley-Eilenberg algebra]] is "co-binary", i.e. $d : \mathfrak{a}^* \to a^* \oplus a^* \wedge g^*$, is **strict**.
+
+So in particular
+
+* a 1-Lie algebroid is a **[[Lie algebroid]]**;
+
+* a 1-Lie algebroid over the point is a **[[Lie algebra]]**;
+
+* a Lie $n$-algebroid over a point is a **[[Lie n-algebra]]**.
+
+* a _[[BRST-complex]]_ is the [[Chevalley-Eilenberg algebra]]
+  of an action-$\infty$-Lie algebroid of the 
+  [[action]] of an $L_\infty$-algebra, see [[Lie ∞-algebroid representation]];
+
+  more generally, the complexes appearing in [[BV-BRST formalism]] are 
+  derived $\infty$-Lie algebroids, whose Chevalley-Eilenberg algebra may have generators in negative degree.
+
+* a [[symplectic Lie n-algebroid]] is a Lie $n$-algebroid equipped with a non-degrenerate bilinear [[invariant polynomial]] of degree $n+2$. For low $n$ this is
+
+  * $n = 0$: a [[symplectic manifold]];
+
+  * $n = 1$: a [[Poisson Lie algebroid]];
+
+  * $n = 2$: a [[Courant algebroid]]
+
 ### Lie algebroids regarded as $\infty$-Lie algebroids
 
 We discuss the traditional notion of [[Lie algebroid]]s as a presentation for [infinitesimal synthetic differential 1-groupoids](#GeneralAbstractDefinition).
@@ -703,45 +736,10 @@ $$
 $$
 
 
-## Examples
-
-### Classes of examples
-
-* a $\infty$-Lie algebroid over the [[point]], $\mathfrak{a} = *$ is an **[[L-∞-algebra]]**;
-
-* an $n$-[[truncated]] $\infty$-Lie algebroid is a **Lie $n$-algebroid**;
-
-* an $\infty$-Lie algebroid the differential of whose [[Chevalley-Eilenberg algebra]] is "co-binary", i.e. $d : \mathfrak{a}^* \to a^* \oplus a^* \wedge g^*$, is **strict**.
-
-So in particular
-
-* a 1-Lie algebroid is a **[[Lie algebroid]]**;
-
-* a 1-Lie algebroid over the point is a **[[Lie algebra]]**;
-
-* a Lie $n$-algebroid over a point is a **[[Lie n-algebra]]**.
-
-* a _[[BRST-complex]]_ is the [[Chevalley-Eilenberg algebra]]
-  of an action-$\infty$-Lie algebroid of the 
-  [[action]] of an $L_\infty$-algebra, see [[Lie ∞-algebroid representation]];
-
-  more generally, the complexes appearing in [[BV-BRST formalism]] are 
-  derived $\infty$-Lie algebroids, whose Chevalley-Eilenberg algebra may have generators in negative degree.
-
-* a [[symplectic Lie n-algebroid]] is a Lie $n$-algebroid equipped with a non-degrenerate bilinear [[invariant polynomial]] of degree $n+2$. For low $n$ this is
-
-  * $n = 0$: a [[symplectic manifold]];
-
-  * $n = 1$: a [[Poisson Lie algebroid]];
-
-  * $n = 2$: a [[Courant algebroid]]
-
-* Standard examples of [[exterior differential system]]s are [[Chevalley?Eilenberg algebras]] of $L_\infty$-algebroids.
 
 
 
-
-### Tangent Lie algebroid {#TangentLieAlgebroid}
+##### Tangent Lie algebroid {#TangentLieAlgebroid}
 
 The following example is in a way the archetypical example on which all others are modeled in a sense.
 
@@ -786,7 +784,7 @@ $$
 where $\tilde D(k,n)$ is the [[smooth locus]] of [infinitesimal k-simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl) based at the origin in $\mathbb{R}^n$.
 
 
-### Lie algebra {#LieAlgebra}
+##### Lie algebra {#LieAlgebra}
 
 
 Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$. We describe how $\mathfrak{g}$ looks when regarded as a special case of an $\infty$-Lie algebroid.
@@ -950,67 +948,6 @@ as it should be for the Chevalley-Eilenberg algebra of a Lie algebra.
 The infinitesimal reasoning involved in this proof is discussed in section 6.8 of 
 
 * [[Anders Kock]], _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
-
-
-### Tangent Lie algebroid of a Lie algebra {#TangentOfLieAlgebra}
-
-
-We can form the tangent $\infty$-Lie algebroid of any $\infty$-Lie algebroid $\mathfrak{a}$ as
-
-$$
-  T \mathfrak{a}
-  = 
-  \int^{[n] \in \Delta} \Delta[n] \cdot T \mathfrak{a}_n
-  =
-  \int^{[n] \in \Delta} \Delta[n] \cdot (\mathfrak{a}_n)^{(\Delta^\bullet_{inf})}
-  \,.
-$$
-
-We want to claim now that for $\mathfrak{g}$ a Lie algebra, we have a canonical isomorphism
-
-$$
-  CE(T b \mathfrak{g}) \simeq W(\mathfrak{g})
-$$
-
-that identifies the [[Chevalley-Eilenberg algebra]] of the tangent Lie algebra of $b \mathbf{g}$ with the [[Weil algebra]] of $\mathfrak{g}$.
-
-
-The key observation for this is that in the [[bisimplicial set|bisimplicial object]]
-
-$$
-  \array{
-    && \vdots && \vdots && \vdots
-    \\
-    &\cdots&
-    \tilde D(3,dim(G))^{(\Delta^2_{inf})} && 
-    \tilde D(3,dim(G))^{(\Delta^1_{inf})} && 
-    \tilde D(3,dim(G))
-    \\
-    &&\downarrow \downarrow \downarrow  
-    && \downarrow \downarrow \downarrow 
-    && \downarrow \downarrow \downarrow
-    \\
-    &\cdots&
-    \tilde D(1,dim(G))^{(\Delta^2_{inf})} && 
-    \tilde D(1,dim(G))^{(\Delta^1_{inf})} && 
-    \tilde D(1,dim(G))
-    \\
-    && \downarrow \downarrow  
-    && \downarrow \downarrow && \downarrow \downarrow
-    \\
-     &\cdots& * &\stackrel{\to}{\stackrel{\to}{\to}}&  * 
-    &\stackrel{\to}{\to}& *
-  }
-$$
-
-* the functions on infinitesimal simplices in an infinitesimal space that vanish on degenerate simplices are already isomorphic to covectors at the origin;
-
-* the functions on infinitesimal $r$-simplices in a $\tilde D(k,dim(G))$ for $r \gt k$ which vanish on degenerate simplices already vanish entirely.
-
-Using this the total complex of $N C^\infty(-)$ of this bisimplicial set is manifestly isomorphic to the Weil algebra.
-
-
-
 
 
 
