@@ -1,12 +1,25 @@
 
-#Contents#
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential-graded objects
++--{: .hide}
+[[!include differential graded objects - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
 
-* automatic table of contents goes here
+#Contents#
+* table of contents
 {:toc}
 
 #Definition#
 
-A [[differential graded algebra]] is __semifree__ (or semi-free) if, after forgetting the differential, it is isomorphic as a graded algebra to a tensor (polynomial) algebra of some (super)vector space. 
+A [[differential graded algebra]] is __semifree__ (or semi-free) if, after forgetting the differential, it is isomorphic as a graded algebra to a (polynomial) [[tensor algebra]] of some ([[super vector space|super]])[[graded vector space]]. 
 
 A differential **graded-commutative** algebra is __semifree__ (or semi-free) if, after forgetting the differential, it is isomorphic as a graded-commutative algebra to a [[Grassmann algebra]] of some [[graded vector space]] . 
 
