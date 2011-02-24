@@ -58,6 +58,12 @@ Original sources include
 
 * [[Igor Frenkel]], [[Mikhail Khovanov]], [[Catharina Stroppel]], _A categorification of finite-dimensional irreducible representations of quantum $\mathfrak{sl}_2$ and their tensor products_, Selecta Math. (N.S.) __12__ (2006), no. 3-4, 379&#8211;431, [MR2008a:17014](http://www.ams.org/mathscinet-getitem?mr=2305608), [doi](http://dx.doi.org/10.1007/s00029-007-0031-y)
 
+* M Khovanov, _A categorification of the Jones polynomial_, Duke Math. J. __101__ (2000) 359&#8211;426 MR1740682 (2002j:57025)
+* M Khovanov, _A functor-valued invariant of tangles_, Algebr. Geom. Topol. __2__ (2002) 665&#8211;741 MR1928174 (2004d:57016)
+
+* M Khovanov, _Patterns in knot cohomology. I_, Experiment. Math. __12__ (2003) 365&#8211;374 
+* M Khovanov, An invariant of tangle cobordisms, Trans. Amer. Math. Soc. __358__ (2006), no. 1, 315&#8211;327, arXiv:math.QA/0207264, [MR2006g:57046](http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=2171235&loc=fromreflist), [doi](http://dx.doi.org/10.1090/S0002-9947-05-03665-2)
+
 An expository review is in
 
 * [[Dror Bar-Natan]], _On Khovanov's categorification of the Jones polynomial_, Alg. Geom. Topology __2__ (2002) 337-370, [arXiv:math.GT/0201043](http://arxiv.org/abs/math/0201043)
@@ -81,3 +87,6 @@ and earlier hints in
 Related $n$Caf&eacute; discussions: [categorification in Glasgow](http://golem.ph.utexas.edu/category/2008/11/categorification_in_glasgow.html), [Kamnitzer on categorifying tangles](http://golem.ph.utexas.edu/category/2009/04/kamnitzer_on_categorifying_tan.html), [link homology in Paris](http://golem.ph.utexas.edu/category/2009/02/link_homology_in_paris.html), [4d QFT and Khovanov homology](http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html)
 
 Parts of the above remarks on the QFT interpretation makes use of comments provbided  by [[Jacques Distler]] in <a href="http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html#comments">this blog discussion</a>.
+
+* Dror Bar-Natan, _Khovanov's homology for tangles and cobordisms_, 
+Geom. Topol. __9__ (2005), 1443&#8211;1499, [MR2006g:57017](http://www.ams.org/mathscinet-getitem?mr=2174270)
