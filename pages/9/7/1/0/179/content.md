@@ -46,12 +46,12 @@ $$
 ### General abstract definition
  {#GeneralAbstractDefinition}
 
-There is a <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebroids">general abstract definition of ∞-Lie algebroid</a> in infinitesimal cohesive neighbourhoods such as $\Pi_{inf} : SynthDiff\infty Grpd \to Smooth\infty Grpd$. 
+There is a <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebroids">general abstract definition of ∞-Lie algebroid</a> in infinitesimal cohesive neighbourhoods such as $\Pi_{inf} : SynthDiff\infty Grpd \to Smooth\infty Grpd$:
 
 +-- {: .num_defn #TheGeneralAbstractDefinition}
 ###### Definition
 
-An object $X \in SynthDiff\inftfy Grpd$ is an 
+An object $X \in SynthDiff\infty Grpd$ is an 
 **infinitesimal synthetic-differential $\infty$-groupoid** if 
 $\mathbf{\Pi}_{inf} X \simeq *$.
 
@@ -70,6 +70,7 @@ that serves as [[generalized the|the]] $(i^* \dashv i_*)$-[[unit of an adjunctio
 =--
 
 ### Presentation by Chevalley-Eilenberg algebras
+ {#PresentationByCE}
 
 We consider _presentations_ of the 
 general abstract definition \ref{TheGeneralAbstractDefinition} of $\infty$-Lie algebroids by constructing in the standard [[model structure]]-[[presentable (∞,1)-category|presentation]] of $SynthDiff\infty Grpd$ by [[simplicial presheaves]] on [[CartSp]]${}_{synthdiff}$ certain classes of simplicial presheaves in the image of [[semifree dga|semi-free]] [[differential graded algebra]]s under the [[monoidal Dold-Kan correspondence]]. This amounts to identifying the traditional description of of [[Lie algebra]]s, [[Lie algebroid]]s and [[L-∞ algebra]]s by their [[Chevalley-Eilenberg algebra]]s as a convenient characterization of the corresponding [[cosimplicial algebra]]s whose formal dual simplicial presheaves are manifest presentations of infinitesimal [[smooth ∞-groupoid]]s.
@@ -188,6 +189,8 @@ $$
 
 Notice that $\Xi \mathfrak{a}$ is indeed a _commutative_ cosimplicial algebra, since $\omega$ and $x$ in $(\omega,x)$ are by definition in the same degree.
 
+This is reviewed in [CastiglioniCortinas, (1), (2)](#CastiglioniCortinas) in the context of a comprehesive discussion of the dual [[monoidal Dold-Kan correspondence]] _not_ restricted to commutative dg-algebras and nilpotent cosimplicial extensions as we do here.
+
 We shall refine the image of $\Xi$ to cosimplicial [[smooth algebra]]s. Let $T := $[[CartSp]]${}_{smooth}$ be the category of [[Cartesian space]]s and [[smooth function]]s between, them, regarded as a [[Lawvere theory]]. Write 
 
 $$
@@ -230,7 +233,7 @@ Observe that for each $n$ the algebra $(\Xi \mathfrak{a})_n$ is a finite nilpote
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #EmbeddingOfThePresentation}
 ###### Definition
 
 Write $i : L_\infty Algd \to SynthDiff\infty Grpd$ for the composite [[(∞,1)-functor]]
@@ -255,14 +258,31 @@ where the first morphism is the [[monoidal Dold-Kan correspondence]] as in prop.
 +-- {: .num_remark}
 ###### Remark
 
-We do not consider the standard [[model structure on dg-algebras]] and do not consider $L_\infty Algd$ itself as a [[model category]] and do not consider an [[(∞,1)-category]] spanned by it. Instead, the functor $i : L_\infty Algd \to SynthDiff\infty Grpd$ only serves to exhibit a class of objects in $SynthDiff\infty Grpd$, which below in the section [ModelsForTheAbstractAxioms](#ModelsForTheAbstractAxioms) we show are indeed $\infty$-Lie algebroids by the general abstract definition, \ref{TheGeneralAbstractDefinition}. All the [[homotopy theory]] of objects in $L_\infty Algd$ is that of $SynthDiff\infty Grpd$ after this embedding.
+We do not consider the standard [[model structure on dg-algebras]] and do not consider $L_\infty Algd$ itself as a [[model category]] and do not consider an [[(∞,1)-category]] spanned by it. Instead, the functor $i : L_\infty Algd \to SynthDiff\infty Grpd$ only serves to exhibit a class of objects in $SynthDiff\infty Grpd$, which below in the section [Models for the abstract axioms](#ModelsForTheAbstractAxioms) we show are indeed $\infty$-Lie algebroids by the general abstract definition, \ref{TheGeneralAbstractDefinition}. All the [[homotopy theory]] of objects in $L_\infty Algd$ is that of $SynthDiff\infty Grpd$ after this embedding.
 
 =--
 
 
 ## Properties
 
-### As models for the abstract axioms
+### General
+
++-- {: .num_prop #prop}
+###### Proposition
+
+The full subcategory category $L_\infty Alg \hookrightarrow L_\infty Algd$ from def. 
+\ref{LInfinityAlgebras} is equivalent to the traditional definition  of the category of [[L-∞ algebra]]s and "weak morphisms" / "sh-maps" between them.
+
+The full subcategory $LieAlgrd \hookrightarrow L_\infty Algebroid$ on the 1-truncated objects is equivalent to the traditional category of [[Lie algebroid]]s (over [[smooth manifold]]s).
+
+In particular the joint intersection $Lie Alg \hookrightarrow L_\infty Alg$ on the 1-truncated $L_\infty$-algebras is equivalent to the category of ordinary [[Lie algebra]]s.
+
+=--
+
+This is discussed in detail at [[L-∞ algebra]] and [[Lie algebroid]].
+
+
+### Models for the abstract axioms
  {#ModelsForTheAbstractAxioms}
 
 Above we have given a general abstract definition, 
@@ -343,7 +363,7 @@ $$
 
 We present now [[SynthDiff∞Grpd]] by $[CartSp_{synthdiff}^{op}, sSet]_{proj,loc}$. Since [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]] we have by the discussion there that $\Pi$ is presented by the left [[derived functor]] $\mathbb{L} \lim\to$ of the degreewise [[colimit]] and $\Gamma$ is presented by the left [[derived functor]] of evaluation on the point.
 
-With lemma \ref{CofibrantResolutionOfLinfinityAlgebroid} can evaluate 
+With lemma \ref{CofibrantResolutionOfLinfinityAlgebroid} we can evaluate 
 
 $$
   \begin{aligned}
@@ -352,8 +372,12 @@ $$
     \lim_\to \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot 
      (b \mathfrak{g})_{k} 
     \\
-  =
-  \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot *
+     & \simeq
+    \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot 
+     \lim_\to (b \mathfrak{g})_{k}  
+    \\
+     & =
+    \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot *
   \end{aligned}
   \,,
 $$ 
@@ -393,7 +417,7 @@ by the fact that an [[infinitesimally thickened point]] has a single gllobal poi
 We discuss the relation between the intrinsic [[cohomology]] of $L_\infty$-algebroids when regarded as objects of $SynthDiff\infty Grpd$, and the ordinary cohomology of their [[Chevalley-Eilenberg algebra]]s. For more on this see [[∞-Lie algebroid cohomology]].
 
 
-+-- {: .num_prop }
++-- {: .num_prop #IntrinsicRealCohomologyByCECohomology}
 ###### Proposition
 
 Let $b \mathfrak{g} \in L_\infty Algd$ be an [[L-∞ algebra]]. Then its <a href="">intrinsic real cohomoloogy</a> in [[SynthDiff∞Grpd]]
@@ -512,75 +536,115 @@ So in particular
 
   * $n = 2$: a [[Courant algebroid]]
 
-### Lie algebroids regarded as $\infty$-Lie algebroids
 
-We discuss the traditional notion of [[Lie algebroid]]s as a presentation for [infinitesimal synthetic differential 1-groupoids](#GeneralAbstractDefinition).
+### Lie algebroids regarded as $\infty$-Lie algebroids
+  {#LieAlgebroidsAsInfinLieAlgebroids}
+We discuss the traditional notion of [[Lie algebroid]]s in view of their role as presentations for [infinitesimal synthetic differential 1-groupoids](#GeneralAbstractDefinition).
 
 
 #### Smooth loci of infinitesimal simplices 
-
-It turns out that regarded as infinitesimal [[synthetic-differential ∞-groupoid]]s Lie algebroids are build from spaces of infinitesimal simplices, as described in ([Kock](#Kock)).
-
-An **infinitesimal $k$-[[simplex]]** in $R^n$ based at the origin is a collection $(\vec \epsilon_i \in R^n)_{i = 1}^k$ of points in $R^n$, such that each is an infinitesimal neighbour of the origin
+  {#SmoothLociOfInfinitesimalSimplices}
+In this section we characterize ordinary [[Lie algebroid]]s $E \to T X$ as precisely those synthetic differential $\infty$-groupoids that under the [above presentation](#PresentationByCE) are locally on any [[chart]] $U \to X$ of their base space given by simplicial [[smooth loci]] of the form
 
 $$
-  \forall i : \;\; \vec \epsilon_i \sim 0
+  \cdots
+   \stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}
+   U \times \tilde D(rank E,2)\stackrel{\to}{\stackrel{\to}{\to}} U \times \tilde D(rank E,1) \stackrel{\to}{\to} U 
+  \,,
+$$
+
+where $\tilde D(k,n)$ is the [[smooth locus]] of [[infinitesimal object|infinitesimal k-simplices]] based at the origin in $\mathbb{R}^n$. (These smooth loci have been considered in ([Kock, section 1.2](#Kock))).
+
+The following definition may be either taken as an informal but instructive definition -- in which case the [next definition](#FunctionsOnTwiddleD) is to be taken as the precise one --  or in fact it may be already itself be taken as the fully formal and precise definition if one reads it in the [[internal logic]] of any [[smooth topos]] with line object $R$ -- which for the present purpose is the [[Cahiers topos]] with line object $\mathbb{R}$. (For an exposition of the latter perspective see ([Kock](#Kock))).
+
++-- {: .un_defn #FunctionsOnTwiddleD}
+###### Definition
+
+
+For $k,n \in \mathbb{N}$, an **infinitesimal $k$-[[simplex]]** in $R^n$ based at the origin is a collection $(\vec \epsilon_a \in R^n)_{a = 1}^k$ of points in $R^n$, such that each is an infinitesimal neighbour of the origin
+
+$$
+  \forall a : \;\; \vec \epsilon_i \sim 0
 $$ 
 
-and each are infinitesimal neighbours of each other
+and such that all are infinitesimal neighbours of each other
 
 $$
-  \forall i,j: \;\; (\vec \epsilon_i - \vec \epsilon_j) \sim 0
+  \forall a,a': \;\; (\vec \epsilon_a - \vec \epsilon_{a'}) \sim 0
   \,.
 $$
 
-Following ([Kock, section 1.2](#Kock))
-we write $\tilde D(k,n)$ for the space of all infinitesimal $k$-simplices in $R^n$. More precisely, this is defined as the formal dual of the algebra $C^\infty(\tilde D(k,n))$ defined as follows.
+Write $\tilde D(k,n) \subset R^{k \cdot n}$ for the space of all such infinitesimal $k$-simplices in $R^n$.
 
-Functions on spaces of infinitesimal $k$-simplices turn out to be degree $k$-differential forms. This provides a "synthetic" way of precisely thinking of wedge produts $d x \wedge dy$ etc as products of infinitesimals. As the following computations do show, the skew-commutativity of the wedge product is an inherent consequence of the nature of infinitesimals.
+=--
 
-+-- {: .un_def}
+Equivalently:
+
++-- {: .un_defn}
 ###### Definition
 
-The algebra $C^\infty(\tilde D(k,n))$ is the 
-commutative $\mathbb{R}$-algebra generated from $k \times n$ generators $(\epsilon_i^j)_{1 \leq i \leq n, 1 \leq j \leq n}$ subject to the relations
+For $k,n \in \mathbb{N}$, the [[smooth algebra]]
 
 $$
-  \forall i, j,j' : \;\; \epsilon_i^{j} \epsilon_i^{j'} = 0
+  C^\infty(\tilde D(k,n)) \in SmoothAlg
+$$ 
+
+is the unique lift through the forgetful functor $U : SmoothAlg \to CAlg_{\mathbb{R}}$ of the commutative $\mathbb{R}$-algebra generated from $k \times n$ many generators 
+
+$$
+  (\epsilon_a^j)_{1 \leq j \leq n, 1 \leq a \leq k}
+$$ 
+
+subject to the relations
+
+$$
+  \forall a, j,j' : \;\; \epsilon_a^{j} \epsilon_a^{j'} = 0
 $$
 
 and
 
 $$
-  \forall i,i',j,j'   : \;\;\; 
-  (\epsilon_i^j - \epsilon_{i'}^j) (\epsilon_i^{j'} - \epsilon_{i'}^{j'}) = 0
+  \forall a,a',j,j'   : 
+   \;\;\; 
+  (\epsilon_a^j - \epsilon_{a'}^j) (\epsilon_a^{j'} - \epsilon_{a'}^{j'}) = 0
   \,.
 $$
 
 =--
 
-+-- {: .un_remark}
+
++-- {: .num_remark}
 ###### Remark
 
-By multiplying out the latter set of relations and using the former, these relations are seen to be equivalent to the set of relations
+In the above form these relations are the manifest analogs of the conditions $\vec \epsilon_a \sim 0$ and $(\vec \epsilon_a - \vec \epsilon_{a'}) \sim 0$.
+But by multiplying out the latter set of relations and using the former, we find that jointly they are equivalent to the single set of relations
 
 \[
-  \forall i,i',j,j' : \;\;\;
-  \epsilon_i^j \epsilon_{i'}^{j'} 
-  + \epsilon_{i'}^j \epsilon_{i}^{j'} = 0
+  \forall a,a',j,j' : \;\;\;
+  \epsilon_a^j \epsilon_{a'}^{j'} 
+  + \epsilon_{a'}^j \epsilon_{a}^{j'} = 0
   \,.
 \]
 
-Notice that this implies also that
+In this expression the roles of the two sets of indices is manifestly symmetric. Hence another equivalent way to state the relations is to say
 
 $$
-  \forall i,i', j: \;\;\;  \epsilon_i^{j} \epsilon_{i'}^j = 0
-  \,.
+  \forall a,a', j: \;\;\;  \epsilon_a^{j} \epsilon_{a'}^j = 0
+$$
+
+and
+
+$$
+  \forall a,a',j,j : 
+    \;\;\;
+    (\epsilon_a^j - \epsilon_a^{j'})(\epsilon_{a'}^j - \epsilon_{a'}^{j'})
+  = 0
 $$
 
 =--
 
-A general element $f$ of this algebra we think of as a function on a certain infinitesimal neightbourhood of the origin of $R^{k \cdot n}$, interpreted as the space of infinitesimal $k$-simplices in $R^n$ based at 0.
+This appears as ([Kock, (1.2.1)](#Kock)).
+
 
 Since $C^\infty(\tilde D(k,n))$ is a [[infinitesimally thickened point|Weil algebra]] in the sense of [[synthetic differential geometry]], its structure as an $\mathbb{R}$-algebra extends uniquely to the structure of a [[smooth algebra]] (as discussed there) and we may think of $\tilde D(k,n)$ as an infinitesimal [[smooth locus]].
 
@@ -608,7 +672,7 @@ $$
   \end{aligned}
 $$
 
-for $f \in \mathbb{R}$ and $(a, b, \omega, \lambda \in (\mathbb{R}^n)^*)_{1 \leq i \leq n}$ a collection of ordinary covectors and with "$\cdot$" denoting the evident contraction, and where in the last step we used the above relations.
+for $f \in \mathbb{R}$ and $(a, b, \omega, \lambda \in (\mathbb{R}^n)^*)$ a collection of ordinary covectors and with "$\cdot$" denoting the evident contraction, and where in the last step we used the above relations.
 
 It is noteworthy here that the coefficient of the term which is multilinear in each of the $\epsilon_i$ is the [[wedge product]] of two [[covector]]s $\omega$ and $\lambda$: we may naturally identify the subspace of $C^\infty(\tilde D(2,2))$ on those elements that vanish if either $\epsilon_1$ or $\epsilon_2$ are set to 0 as the space $\wedge^2 T_0^* \mathbb{R}^2$ of 2-forms at the origin of $\mathbb{R}^2$. 
 
@@ -707,43 +771,120 @@ $$
 $$
 
 where $e$ is the $r \times r$ subdetermined given by the subset $\{i_1, \cdots, i_r\}$ and $(\{j_1, \cdots, j_r\})$ as discussed above.
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-In ([Kock, section 1.3](#Kock)) effectively this proposition appears as the "[[Kock-Lawvere axiom]] scheme for $\tilde D(k,n)$" when $\tilde D(k,n)$ is regarded as an object of a suitable [[smooth topos]]. It is useful to record this simple but very crucial observation of Anders Kock here in the category $Alg_{\mathbb{R}}^{op}$ or in the category $C^\infty Alg^{op}$ of [[smooth loci]], as we do here, where it is just a simple observation. The point of the Kock-Lawvere axiom scheme is effectively to ensure that the properties of $C^\infty(\tilde D(k,n)) \in C^\infty Alg^{op}$ are preserved under [[Yoneda embedding]] into a corresponding [[sheaf topos]]. But it has been observed that it serves to clarify what is going on in parts of Ander Kock's book by separating the combinatorial and algebraic arguments from their internalization into suitable [[smooth topos]]es.
 
 =--
 
 
-#### Lie algebroids by smooth loci of infinitesimal simplices
+In ([Kock, section 1.3](#Kock)) effectively this proposition appears as the "[[Kock-Lawvere axiom]] scheme for $\tilde D(k,n)$" when $\tilde D(k,n)$ is regarded as an object of a suitable [[smooth topos]]. 
 
-+-- {: .un_prop}
-###### Observation
 
-Let $\mathfrak{g}$ be a [[Lie algebroid]] of rank $n$ over $X$, then $\Xi CE(\mathfrak{g})$ is at $x \in X$ the smooth locus $\tilde D(k, n)$ of infinitesimal $k$-simplices at the origin of $\mathbb{R}^n$.
++-- {: .num_prop #TiddleDsAsDOldKan}
+###### Proposition
 
-=--
-
-Proof.
-
-Let $\{t^i\}$ be a basis for $\mathfrak{g}^*$ and $\{k_j\}$ a basis for $\mathbb{R}^n$. Then identify
+For any $k,n \in \mathbb{N}$ we have a natural [[isomorphism]] of real commutative and hence of [[smooth algebra]]s
 
 $$
-  \epsilon^i_j := t^i \otimes k_j
+  \phi 
+  : 
+  C^\infty(\tilde D(k,n))
+  \stackrel{\simeq}{\to}
+  \oplus_{i = 0}^n (\wedge^i \mathbb{R}^k) \otimes (\wedge^i \mathbb{R}^n)
+  \,,
+$$
+
+where on the right we have the algebras that appear degreewise in def. \ref{PresentationByMonoidalDoldKan}, where the product is given on homogeneous elements by
+
+$$
+  (\omega, x) \cdot (\lambda, y) = (\omega \wedge \lambda , x \wedge y)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Let $\{t_a\}$ be the canonical basis for $\mathbb{R}^k$ and $\{v^i\}$ the canonical basis for $\mathbb{R}^n$. We claim that an isomorphism is given by the assignment
+
+$$
+  \phi : \epsilon^i_a \mapsto (t_a , v^i)
+  \,.
+$$
+
+To see that this defines indeed an algebra homomorphism we need to check that it respects the relations on the generators. For this compute:
+
+$$
+  \begin{aligned}
+    \phi(\epsilon_a^i \epsilon_{a'}^{i'})
+    & =
+   (t_a \wedge t_{a'}, v^i \wedge v^{i'})
+    \\
+    & = 
+    -(t_{a'} \wedge t_{a}, v^i \wedge v^{i'})
+    \\
+    & = -\phi(\epsilon_{a'}^i \epsilon_{a}^{i'})
+  \end{aligned}
+  \,.
+$$
+
+The inverse clearly exists, given on generators by
+
+$$
+  \phi^{-1} : (t_a, v^i) \mapsto \epsilon_a^i
   \,.
 $$
 
 
+=--
+
++-- {: .num_cor #SimplicialSmoothLocusOfLieAlgebroid}
+###### Corollary
+
+For $\mathfrak{a} \in L_\infty Alg$ a 1-truncated object, hence an ordinary [[Lie algebroid]] of rank $k$ over a base manifold $X$, its image under the map $i : L_\infty Alg \to (SmoothAlg^\Delta)^{op}$, def. \ref{EmbeddingOfThePresentation}, is such that its restriction to any [[chart]] $U \to X$ is, up to [[isomorphism]], of the form
+
+$$
+  i(\mathfrak{a})|_U : [n] \mapsto \tilde U \times D(k,n)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply prop. \ref{TiddleDsAsDOldKan} in def. \ref{PresentationByMonoidalDoldKan}, using that by definition $CE(\mathfrak{a})$ is given by the exterior algebra on locally free $C^\infty(X)$ modules, so that
+
+$$
+  \begin{aligned}
+    CE(\mathfrak{a}|_U) 
+      & \simeq 
+     (\wedge^\bullet_{C^\infty(U)} \Gamma(U\times \mathbb{R}^k)^*, d_{\mathfrak{a}|_U})
+    \\
+    & \simeq
+     (C^\infty(U) \otimes \wedge^\bullet \mathbb{R}^k, d_{\mathfrak{a}|_U})
+  \end{aligned}
+  \,.
+$$
+
+=--
 
 
+#### Tangent Lie algebroid {#TangentLieAlgebroid}
 
-##### Tangent Lie algebroid {#TangentLieAlgebroid}
 
-The following example is in a way the archetypical example on which all others are modeled in a sense.
+For $X$ any [[smooth manifold]], there is a standard notion of the [[Lie algebroid]] which is the [[tangent Lie algebroid]] 
 
-For $X$ any [[smooth manifold]], there is a standard notion of the [[Lie algebroid]] which is the [[tangent Lie algebroid]] of $X$. As an $\infty$-Lie algebroid, this is the [[simplicial object|simplicial]] [[smooth locus]] given by the [[infinitesimal singular simplicial complex]] 
+$$
+  \mathfrak{a} = T X
+$$
+
+of $X$. 
+
++-- {: .un_prop}
+###### Proposition
+
+The image of $T X$ under the embedding $i$ from def. \ref{EmbeddingOfThePresentation} is the [[simplicial object|simplicial]] [[smooth locus]] given by the [[infinitesimal singular simplicial complex]] 
 
 $$
   T X = 
@@ -756,35 +897,34 @@ $$
   \right)
 $$
 
-of $X$. By the central observation on combinatorial [[differential forms in synthetic differential geometry]] by [[Anders Kock]], the [[Chevalley-Eilenberg algebra]] of this is indeed isomorphic to the [[de Rham complex]] of $X$:
+of $X$. 
+
+Moreover, the [intrinsic real cohomology](#Cohomology) of $i(T X) \in $ [[SynthDiff∞Grpd]] is the [[de Rham cohomology]] of $X$
 
 $$
-  CE(T X) := N C^\infty(T X) \simeq (\Omega^\bullet(X), d_{dR})
-  \,.
+  H^n_{SynthDiff}(i (T X), \mathbb{R})
+   \simeq
+  H^n_{dR}(X)
 $$
 
-For more details on the computations involved see [Spaces of infinitesimal k-simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl) at [[infinitesimal object]].
+=--
 
-In particular for $X = \mathbb{R}^n$ a [[Cartesian space]], we have
++-- {: .proof}
+###### Proof
+
+The first statement may be checked locally on any [[chart]] $U \to X$ where it follows from prop. \ref{SimplicialSmoothLocusOfLieAlgebroid}. Since the [[Chevalley-Eilenberg algebra]] of the [[tangent Lie algebroid]] is the [[de Rham complex]] 
 
 $$
-  T \mathbb{R}^n
-  =
-  \left(
-      \cdots 
-      \mathbb{R}^n \times \tilde D(2,n)
-        \stackrel{\to}{\stackrel{\to}{\to}} 
-        \mathbb{R}^n \times \tilde D(1,n)
-       \stackrel{\to}{\to} 
-       \mathbb{R}^n
-  \right)   
-  \,,
+  CE(T X) = (\Omega^\bullet(X), d_{dR})
 $$
 
-where $\tilde D(k,n)$ is the [[smooth locus]] of [infinitesimal k-simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl) based at the origin in $\mathbb{R}^n$.
+the second statement follows with prop. \ref{IntrinsicRealCohomologyByCECohomology}.
+
+=--
 
 
-##### Lie algebra {#LieAlgebra}
+#### Lie algebra 
+  {#LieAlgebra}
 
 
 Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$. We describe how $\mathfrak{g}$ looks when regarded as a special case of an $\infty$-Lie algebroid.
@@ -896,7 +1036,7 @@ The normalized cochain complex of the cosimplicial alghebra of functions on this
 +-- {: .proof}
 ###### Proof
 
-By the discussion at [Spaces of infinitesimal k-simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl) we have that for $C^\infty(\tilde D(k,dim(G)))_{top} \subset C^\infty(\tilde D(k,n))$ the subspace of those functions that are in the joint kernel of the co-degeneracy maps is naturally isomorpic to $\wedge^k (\mathbb{R}^{dim(G)})^*$, so that we have a natural isomorphism of vector spaces
+By the [above discussion](#spring) we have that for $C^\infty(\tilde D(k,dim(G)))_{top} \subset C^\infty(\tilde D(k,n))$ the subspace of those functions that are in the joint kernel of the co-degeneracy maps is naturally isomorpic to $\wedge^k (\mathbb{R}^{dim(G)})^*$, so that we have a natural isomorphism of vector spaces
 
 $$
   N C^\infty(b \mathfrak{g})_k \simeq \wedge^k \mathfrak{g}^*
@@ -945,9 +1085,8 @@ as it should be for the Chevalley-Eilenberg algebra of a Lie algebra.
 
 =--
 
-The infinitesimal reasoning involved in this proof is discussed in section 6.8 of 
+The infinitesimal reasoning involved in this proof is discussed in ([Kock, section 6.8](#Kock)).
 
-* [[Anders Kock]], _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 
 
@@ -977,10 +1116,17 @@ The term also appears in
 
 * Andrew James Bruce, _From $L_{\infty}$-algebroids to higher Schouten/Poisson structures_ ([arXiv:1007.1389](http://arxiv4.library.cornell.edu/abs/1007.1389))
 
-The smooth spaces of infinitesimal simplices $\tilde D(k,n)$ are considered in
+The dual monoidal Dold-Kan correspondence is discussed in
+
+* J.L. Castiglioni, G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ , J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289))
+{#CastiglioniCortinas}.
+
+
+The smooth spaces of infinitesimal simplices $\tilde D(k,n)$ are considered in section 1.2 of
 
 * [[Anders Kock]],  _Synthetic differential geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 {#Kock}
+
 
 [[!redirects L-infinity-algebroid]]
 [[!redirects L-infinity algebroid]]
