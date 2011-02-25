@@ -80,7 +80,7 @@ And therefore the fibrations are precisely $rlp(J)$ and the acyclic fibrations p
 
 The argument is the same for $I$ and $J$. So take $I$. 
 
-By definition we have $I \subset llp(rlp(I))$ and it is checked that collections of morphisms given by a left lifting property are stable under pushouts, transfinite composition and pushouts. So $cof(I) \subset llp(rlp(I))$.
+By definition we have $I \subset llp(rlp(I))$ and it is checked that collections of morphisms given by a left lifting property are stable under pushouts, transfinite composition and retracts. So $cof(I) \subset llp(rlp(I))$.
 
 For the converse inclusion we use the [[small object argument]]: let $f : X \to Z$ be in $llp(rlp(I))$. The small object argument produces a factorization
 $f : X \stackrel{f' \in cof(I)}{\to} Y \stackrel{f''\in rlp(I)}{\to} Z$. 
@@ -94,7 +94,7 @@ $$
     \downarrow^{\mathrlap{f}} 
     &{}^\sigma\nearrow& \downarrow^{\mathrlap{f''}}
     \\
-    X &\stackrel{=}{\to}& X
+    Z &\stackrel{=}{\to}& Z
   }
 $$
 
