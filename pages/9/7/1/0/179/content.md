@@ -446,20 +446,20 @@ We discuss the relation between the intrinsic [[cohomology]] of $L_\infty$-algeb
 +-- {: .num_prop #IntrinsicRealCohomologyByCECohomology}
 ###### Proposition
 
-Let $b \mathfrak{g} \in L_\infty Algd$ be an [[L-∞ algebra]]. Then its <a href="">intrinsic real cohomoloogy</a> in [[SynthDiff∞Grpd]]
+Let $\mathfrak{a} \in L_\infty Algd$ be an $L_\infty$-algebroid. Then its <a href="">intrinsic real cohomoloogy</a> in [[SynthDiff∞Grpd]]
 
 $$
-  H^n(b \mathfrak{g}, \mathbb{R})
+  H^n(\mathfrak{a}, \mathbb{R})
   :=
-  \pi_0 SynthDiff\infty Grpd(i(b\mathfrak{g}), \mathbf{B}^n \mathbb{R})
+  \pi_0 SynthDiff\infty Grpd(\mathfrak{a}, \mathbf{B}^n \mathbb{R})
 $$
 
 coincides with its ordinary [[L-∞ algebra cohomology]]: the [[cochain cohomology]] of its [[Chevalley-Eilenberg algebra]]
 
 $$
-  H^n(b \mathfrak{g}, \mathbb{R})
+  H^n(\mathfrak{a}, \mathbb{R})
    \simeq
-  H^n(CE(\mathfrak{g}))
+  H^n(CE(\mathfrak{a}))
   \,.
 $$
 
@@ -472,8 +472,8 @@ $$
 By <a href="http://nlab.mathforge.org/nlab/show/synthetic+differential+infinity-groupoid#StrucCohomology">this discussion</a> at [[SynthDiff∞Grpd]] we have that 
 
 $$
-  H^n(b \mathfrak{g}, \mathbb{R}) \simeq
-  H^n N^\bullet(\mathbb{L}\mathcal{O})(i(b \mathfrak{g}))
+  H^n(\mathfrak{a}, \mathbb{R}) \simeq
+  H^n N^\bullet(\mathbb{L}\mathcal{O})(i(\mathfrak{a}))
   \,.
 $$
 
@@ -483,17 +483,17 @@ $$
   \cdots \simeq
   H^n N^\bullet
   \left(
-    \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot \mathcal{O}(i(n\mathfrak{g})_k)
+    \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot \mathcal{O}(i(\mathfrak{a})_k)
   \right)
   \,.
 $$
 
-Observes that $\mathcal{O}(b \mathfrak{g})_\bullet$ is cofibrant in the [[Reedy model structure]] $[\Delta^{op}, (SmoothAlg^\Delta_{proj}})^{op}]_{Reedy}$ relative to the opposite of the projective [[model structure on cosimplicial algebras]]:  the map from the latching object in degree $n$ in $SmoothAlg^\Delta)^{op}$ is dually in $SmoothAlg \hookrightarrow SmoothAlg^\Delta$ the projection 
+Observe that $\mathcal{O}(\mathfrak{a})_\bullet$ is cofibrant in the [[Reedy model structure]] $[\Delta^{op}, (SmoothAlg^\Delta_{proj}})^{op}]_{Reedy}$ relative to the opposite of the projective [[model structure on cosimplicial algebras]]:  the map from the latching object in degree $n$ in $SmoothAlg^\Delta)^{op}$ is dually in $SmoothAlg \hookrightarrow SmoothAlg^\Delta$ the projection 
 
 $$
-  \oplus_{i = 0}^n CE(\mathfrak{g})_i \otimes \wedge^i \mathbb{R}^n
+  \oplus_{i = 0}^n CE(\mathfrak{a})_i \otimes \wedge^i \mathbb{R}^n
   \to
-  \oplus_{i = 0}^{n-1} CE(\mathfrak{g})_i \otimes \wedge^i \mathbb{R}^n
+  \oplus_{i = 0}^{n-1} CE(\mathfrak{a})_i \otimes \wedge^i \mathbb{R}^n
 $$
 
 hence is a surjection, hence a fibration in $SmoothAlg^\Delta_{proj}$ and therefore indeed a cofibration in $(SmoothAlg^\Delta_{proj})^{op}$.
@@ -505,7 +505,7 @@ $$
   \simeq
   H^n N^\bullet
   \left(
-    \int^{[k] \in \Delta} \Delta[k] \cdot \mathcal{O}(i(n\mathfrak{g})_k)
+    \int^{[k] \in \Delta} \Delta[k] \cdot \mathcal{O}(i(\mathfrak{a})_k)
   \right)
 $$
 
@@ -514,7 +514,7 @@ with the [[fat simplex]] replaced again by the ordinary simplex. But in brackets
 $$
   \cdots 
   \simeq
-  H^n( N^\bullet \Xi CE(\mathfrak{g}) )
+  H^n( N^\bullet \Xi CE(\mathfrak{a}) )
   \,.
 $$
 
@@ -522,7 +522,7 @@ By the [[Dold-Kan correspondence]] we have hence
 
 $$
   \cdots \simeq
-  H^n(CE(\mathfrak{g}))
+  H^n(CE(\mathfrak{a}))
   \,.
 $$
 
@@ -570,6 +570,7 @@ We discuss the traditional notion of [[Lie algebroid]]s in view of their role as
 
 #### Smooth loci of infinitesimal simplices 
   {#SmoothLociOfInfinitesimalSimplices}
+
 In this section we characterize ordinary [[Lie algebroid]]s $E \to T X$ as precisely those synthetic differential $\infty$-groupoids that under the [above presentation](#PresentationByCE) are locally on any [[chart]] $U \to X$ of their base space given by simplicial [[smooth loci]] of the form
 
 $$
@@ -796,7 +797,7 @@ $$
   \,,
 $$
 
-where $e$ is the $r \times r$ subdetermined given by the subset $\{i_1, \cdots, i_r\}$ and $(\{j_1, \cdots, j_r\})$ as discussed above.
+where $e$ is the $r \times r$ sub-[[determinant]] given by the subset $\{i_1, \cdots, i_r\}$ and $(\{j_1, \cdots, j_r\})$ as discussed above.
 
 =--
 
@@ -804,7 +805,7 @@ where $e$ is the $r \times r$ subdetermined given by the subset $\{i_1, \cdots, 
 In ([Kock, section 1.3](#Kock)) effectively this proposition appears as the "[[Kock-Lawvere axiom]] scheme for $\tilde D(k,n)$" when $\tilde D(k,n)$ is regarded as an object of a suitable [[smooth topos]]. 
 
 
-+-- {: .num_prop #TiddleDsAsDOldKan}
++-- {: .num_prop #TwiddleDsAsDOldKan}
 ###### Proposition
 
 For any $k,n \in \mathbb{N}$ we have a natural [[isomorphism]] of real commutative and hence of [[smooth algebra]]s
@@ -870,7 +871,7 @@ $$
 For $\mathfrak{a} \in L_\infty Alg$ a 1-truncated object, hence an ordinary [[Lie algebroid]] of rank $k$ over a base manifold $X$, its image under the map $i : L_\infty Alg \to (SmoothAlg^\Delta)^{op}$, def. \ref{EmbeddingOfThePresentation}, is such that its restriction to any [[chart]] $U \to X$ is, up to [[isomorphism]], of the form
 
 $$
-  i(\mathfrak{a})|_U : [n] \mapsto \tilde U \times D(k,n)
+  i(\mathfrak{a})|_U : [n] \mapsto U \times \tilde D(k,n)
   \,.
 $$
 
@@ -879,7 +880,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Apply prop. \ref{TiddleDsAsDOldKan} in def. \ref{PresentationByMonoidalDoldKan}, using that by definition $CE(\mathfrak{a})$ is given by the exterior algebra on locally free $C^\infty(X)$ modules, so that
+Apply prop. \ref{TwiddleDsAsDOldKan} in def. \ref{PresentationByMonoidalDoldKan}, using that by definition $CE(\mathfrak{a})$ is given by the exterior algebra on locally free $C^\infty(X)$ modules, so that
 
 $$
   \begin{aligned}
