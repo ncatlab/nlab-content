@@ -20,8 +20,39 @@
 {:toc}
 
 
-
 ## Idea
+
+### General
+
+What is called _BV-BRST formalism_ is a model in [[dg-geometry]] of a joint [[homotopy theory|homotopical]] [[quotient]] and [[intersection]], hence of an [[(∞,1)-colimit]] and [[(∞,1)-limit]], of  a [[space]] in [[higher geometry]]/[[derived geometry]].
+
+The motivating applications are 
+
+* [[homotopical symplectic reduction]] 
+
+* and [[action functional]]s in [[gauge theory]].
+
+In both cases one considers a [[space]] $X$ equipped with
+
+1. a [[group]] [[action]] (or more generally a [[groupoid]] or [[∞-groupoid]] action)
+
+   (by a group acting by [[Hamiltonian vector field]]s in the first case, being the [[gauge group]] acting on the space of field configurations in the second case)
+
+1. a [[function]] or more generally [[section]] of some [[vector bundle]]
+
+   (the [[Hamiltonian]] function in the first case, or the [[action functional]] of some [[gauge theory]] in the second)
+
+and wishes to form
+
+1. the [[quotient]] by the group action
+
+1. followed by passage to the 0-locus $\Sigma \hookrightarrow X$ 
+   of the function.
+
+Tyically the [[category theory|1-category-theoretic]] version of these operations is ill-behaved and fails to capture the structure of interest in these applications, instead what is required is the [[(∞,1)-category theory|(∞,1)-category-theoretic]] notion of quotient and intersection in [[higher geometry]].
+
+If $X$ is regarded as a space in [[dg-geometry]], the resulting joint homotopical quotient and intersection is modeled by a [[cochain complex]] that generalizes the [[BRST complex]]. This is called the **BV-BRST complex**.
+
 
 ### The $n$POV {#nPOVIdea}
 
@@ -241,12 +272,16 @@ Geometrical aspects were pioneered in
 
 Other introductions include
 
-* [[D. Fiorenza]], _An introduction to the Batalin-Vilkovisky formalism_, Lecture given at the Recontres Math&#233;matiques de Glanon, July 2003, [arXiv:math/0402057](http://arxiv.org/abs/math/0402057)
+* [[Domenico Fiorenza]], _An introduction to the Batalin-Vilkovisky formalism_, Lecture given at the Recontres Math&#233;matiques de Glanon, July 2003, [arXiv:math/0402057](http://arxiv.org/abs/math/0402057)
 
 *  [[A. Cattaneo]], _From topological field theory to 
 deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
 
 *  M. B&auml;chtold, _On the finite dimensional BV formalism_, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
+
+A discussion of BV-BRST formalism in the general context of [[perturbative quantum field theory]] is in
+
+* [[Kevin Costello]], _[[Renormalization and Effective Field Theory]]_
 
 The interpretation of the BV quantum master equation as a description of closed differential forms acting as measures on infinite-dimensional spaces of fields is described in
 
