@@ -82,11 +82,15 @@ The [[presymplectic structure]] on covariant phase space was first described in
 
 * G. J. Zuckerman, _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scienti&#166;c, Singapore, 1987, pp. 259&#8364;284.
 
+and 
+
+* [[Edward Witten]], _Interacting field theory of open superstrings_ , Nucl. Phys. B276, 291
+
 and further developed in
 
 * C. Crnkovi&ccaron; _Symplectic Geometry of the Covariant Phase Space_ , Class. Quant. Grav. 5 (1988) 1557&#8364;1575.
 
-A discussion in the context of non-abelian [[gauge theory]] ([[Yang-Mills theory]]) and of [[gravity]] is in 
+A discussion of its application to non-abelian [[gauge theory]] ([[Yang-Mills theory]]) and of [[gravity]] is in 
 
 * C. Crnkovi&ccaron; and [[Edward Witten]], _Covariant Description of Canonical Formalism in Geometrical Theories_ , in Three Hundred Years of Gravitation, S. W. Hawking and W. Israel (Eds.), Cambridge
 University Press, Cambridge, 1987, pp. 676&#8364;684. ([pdf](http://www.phys.lsu.edu/classes/spring2006/phys7777/crnkovicwitten.pdf))
@@ -98,7 +102,7 @@ A review of covariant phase space theory is in
 
 Standard textbooks on [[classical mechanics]] include
 
-* V. Arnold, _Mathematical methods of classical mechanics_
+* [[Vladimir Arnold]], _Mathematical methods of classical mechanics_
 
 * H. Goldstein, _Classical mechanics_
 
