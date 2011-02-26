@@ -1799,7 +1799,8 @@ of this unique $\infty$-connection.
 =--
 
 
-### de Rham cohomology {#deRhamCohomology}
+### de Rham cohomology 
+  {#deRhamCohomology}
 
 In every [[locally ∞-connected (∞,1)-topos]] $\mathbf{H}$ there is an intrinsic notion of [[nonabelian cohomology|nonabelian]] [[de Rham cohomology]].
 
@@ -3174,9 +3175,47 @@ In the language of [[sigma-model]] [[quantum field theory]] the ingredients of t
 
 * $\exp(S_{\mathbf{c}}(\phi)) =  \int_\Sigma \phi^* \hat \mathbf{c}$ is the value of the [[action functional]] on the field configuration $\phi$.
 
-For $X = \mathbf{B}G \in $ [[?LieGrpd]] the [[delooping]] of an ordinary simply connected [[Lie group]] and $n = 3$ this reproduces the setup of traditional [[Chern-Simons theory]]. In the general situation we speak of [[∞-Chern-Simons theory]]. See there for more details and examples.
-
 =--
+
+In suitable situations this construction refines to an internal construction.
+
+Let $dim \Sigma = n$, assume that $\mathbf{H}$ has a canonical [[line object]] $\mathbb{A}^1$ and a [[natural numbers object]] $\mathbb{Z}$. Then the [[action functional]] $\exp(i S(-))$ may lift to the [[internal hom]] with respect to the canonical <a href="http://ncatlab.org/nlab/show/(infinity,1)-topos#ClosedMonoidalStructure">cartesian closed monoidal structure</a> on any [[(∞,1)-topos]] to a morphism of the form
+
+$$
+  \exp(i S_{\mathbf{c}}(-)) : [\Sigma,\mathbf{B}G_{conn}] \to \mathbb{A}^1/\mathbb{Z}
+  \,,
+$$
+
+where $\mathbb{A}^1$ is the [[line object]].
+
+We call $[\Sigma, \mathbf{B}G_{conn}]$ the [[configuration space]] of the [[schreiber:∞-Chern-Simons theory]] defined by $\mathbf{c}$ and $\exp(i S_\mathbf{c}(-))$ the [[action functional]] defined on it. Postcomposition with the [canonical differential form](CurvatureCharacteristics)
+
+$$
+  d \exp(i S_{\mathbf{c}}(-)) : 
+  [\Sigma,\mathbf{B}G_{conn}]
+   \stackrel{\exp(i S(-))}{\to}
+  \mathbb{A}^1 /\mathbb{Z}
+   \stackrel{\theta}{\to}
+  \mathbf{\flat}_{dR} \mathbf{B}\mathbb{A}^1
+$$
+
+yields an [intrinsic closed differential form](#deRhamCohomology) on configuration space, called the [[Euler-Lagrange equation]] of the action. Its [[homotopy fiber]] $P$, the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    P &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    [\Sigma, \mathbf{B}G_{conn}]
+    &\stackrel{d \exp(i S(-))}{\to}& 
+    \mathbf{\flat}_{dR} \mathbb{A}^1
+  }
+$$
+
+is the [[covariant phase space]] of the system: the space of _classical trajectories_ .
+
+See [[schreiber:∞-Chern-Simons theory]] for more discussion.
 
 
 ##  Infinitesimal cohesion {#InfinitesimalCohesion}
