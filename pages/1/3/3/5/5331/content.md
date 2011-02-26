@@ -30,6 +30,10 @@ For $n \in \mathbb{N}$,  a **Poisson $n$-algebra** $A$ is a [[Poisson algebra]] 
 
 The [[homology]] of an [[algebra over an operad]] over the [[little cubes operad|little n-cubes operad]] for $n \geq 2$ is a Poisson $n$-algebra. 
 
+## Examples
+
+* The [[Chevalley-Eilenberg algebra]] of a [[symplectic Lie n-algebroid]] (see there for details) is naturally a Poisson $(1+n)$-algebra. 
+
 ## References
 
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html#[[P_0%20operad]])) 
