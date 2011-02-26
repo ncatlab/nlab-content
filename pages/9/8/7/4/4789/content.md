@@ -914,11 +914,11 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-The cocycle $\mu$ is in transgression with the invariant polynomial $\frac{1}{2}\omega$ via the Chern-Simons element 
+The cocycle $\mu$ is in transgression with the invariant polynomial $\frac{n}{2}\omega$ via the Chern-Simons element 
 
 $$
   \begin{aligned}
-    cs &= \frac{1}{2 (n+2)}\iota_{\epsilon} \omega - \mu
+    cs &= \frac{1}{2 }\iota_{\epsilon} \omega - \mu
   \end{aligned}
   \,,
 $$
@@ -949,7 +949,7 @@ Observe that
 
    and 
 
-   * $[d_{CE(\mathfrak{a})}, \iota_v] = -N d_{CE(\mathfrak{a})}\mathbf{d}^{-1}$.
+   * $[d_{CE(\mathfrak{a})}, \iota_v] = -d_{CE(\mathfrak{a})}\mathbf{d}^{-1}$.
 
    (as one checks on generators).
 
@@ -957,15 +957,15 @@ Therefore
 
 $$
   \begin{aligned}
-    d_{W(\mathfrak{a})} \frac{1}{2(n+2)}\iota_{v} \omega
+    d_{W(\mathfrak{a})} \frac{1}{2}\iota_{v} \omega
     &= 
-    [d_{W(\mathfrak{a})}, \iota_{v}] \frac{1}{2(n+2)}\omega
+    [d_{W(\mathfrak{a})}, \iota_{v}] \frac{1}{2}\omega
     \\
     & =
-    (Id - d_{CE(\mathfrak{a})} \mathbf{d}^{-1} ) \frac{1}{2}\omega
+    (n - d_{CE(\mathfrak{a})} \mathbf{d}^{-1} ) \frac{1}{2}\omega
     \\
     & =
-    \frac{1}{2}\omega - \omega_{a b} \{\mu, x^a\} \mathbf{d}x^b
+    \frac{n}{2}\omega - \omega_{a b} \{\mu, x^a\} \mathbf{d}x^b
     \\
     &= \frac{1}{2} \omega + \mathbf{d}\mu
   \end{aligned}
@@ -982,7 +982,7 @@ $$
 So in total we have
 
 $$
-  d_{W(\mathfrak{a})} (\frac{1}{2(n+2)} \iota_\epsilon \omega - \mu)
+  d_{W(\mathfrak{a})} (\frac{1}{2} \iota_\epsilon \omega - \mu)
   =
   \frac{1}{2}\omega
   \,.
@@ -996,7 +996,7 @@ $$
 In local coordinates where $\omega = \omega_{a b} \mathbf{d}x^a \wedge \mathbf{d}x^b$ we have 
 
 $$
-  cs = \frac{1}{2} \omega_{a b} x^a \wedge \mathbf{d}x^b + \mu
+  cs = n \omega_{a b} x^a \wedge \mathbf{d}x^b + \mu
   \,.
 $$
 
