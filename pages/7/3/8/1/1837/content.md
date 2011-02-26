@@ -19,7 +19,7 @@
 
 ## Idea 
 
-A _gauge theory_ is a [[quantum field theory]] whose field configurations are cocycles in [[differential cohomology]].
+A _gauge theory_ is a [[quantum field theory]] whose field configurations are cocycles in [[differential cohomology]] ([[ordinary differential cohomology|abelian]] or [[Chern-Weil theory|nonabelian]]).
 
 ### Ordinary gauge theories
 
@@ -164,6 +164,16 @@ The following tries to give an overview of some collection of gauge fields in ph
   * [[Green-Schwarz mechanism]]
 
 ## References
+
+An introduction to concepts in the [[quantization]] of gauge theories is in
+
+* [[Nicolai Reshitikhin]], _Lectures on quantization of gauge systems_ ([pdf](http://staff.science.uva.nl/~nresheti/Holb-Quant-Gauge.pdf))
+
+A standard textbook on the [[BV-BRST formalism]] for the quantization of gauge systems is in
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of gauge systems_ Princeton University Press
+
+Discussion of abelian higher gauge theory in terms of [[differential cohomology]] is in
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
 
