@@ -28,7 +28,7 @@ For $n \in \mathbb{N}$,  a **Poisson $n$-algebra** $A$ is a [[Poisson algebra]] 
 ## Properties
 
 
-The [[homology]] of an algebra over the [[little cubes operad|little n-cubes operad]] for $n \geq 2$ is a Poisson $n$-algebra. 
+The [[homology]] of an [[algebra over an operad]] over the [[little cubes operad|little n-cubes operad]] for $n \geq 2$ is a Poisson $n$-algebra. 
 
 ## References
 
