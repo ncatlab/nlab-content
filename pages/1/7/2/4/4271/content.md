@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _state_ is a configuration of a system in [[physics]].
+A _state_ is a [[configuration space|configuration]] of a system in [[physics]].
 
 
 ## Definition
@@ -24,7 +24,7 @@ The precise mathematical notion of _state_ depends on what formalization is used
 
 ### In classical mechanics
 
-In simple situations of [[classical mechanics]], a state is a point in [[phase space]] -- some [[symplectic manifold]].
+In simple situations of [[classical mechanics]], a state is a [[global element|point]] in the [[configuration space]] of the system. A physically realized state is a point in the [[phase space]] of the system.
 
 ### In quantum mechanics
 
