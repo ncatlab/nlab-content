@@ -3205,7 +3205,7 @@ $$
   \array{
     P &\to& *
     \\
-    \downarrow && \downarrow
+    \downarrow && \downarrow^{\mathrlap{0}}
     \\
     [\Sigma, \mathbf{B}G_{conn}]
     &\stackrel{d \exp(i S(-))}{\to}& 
