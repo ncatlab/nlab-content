@@ -3004,7 +3004,7 @@ $(\infty,1)$-pullbacks for the $\mathbf{H}_{diff}(X, \mathbf{B}^{n_i}A)$.
 ### Higher holonomy and Chern-Simons functional {#ChernSimonsTheory}
 
 The notion of [intrinsic ∞-connections](#ChernWeilTheory) in a 
-cohesive $(\infty,1)$-topos induces a notion of [[higher parallel transport|higher holonomoy]] and [[Chern-Simons theory]].
+cohesive $(\infty,1)$-topos induces a notion of [[higher parallel transport|higher holonomy]] and [[Chern-Simons theory|Chern-Simons functionals]].
 
 
 +-- {: .un_prop}
@@ -3085,7 +3085,7 @@ $$
     \infty Gprd(\Pi(\Sigma), \Pi(\mathbf{B}^n A))
 $$ 
 
-of the [[adjunction]] equivalence followed by the [[truncated|truncation]] is the **flat holonomy** operation on flat $\infty$-connections.
+of the [[adjunction]] equivalence followed by [[truncated|truncation]] is the **flat holonomy** operation on flat $\infty$-connections.
 
 More generally, let
 
@@ -3127,7 +3127,6 @@ $$
 $$
 
 
-
 The **[[higher parallel transport|holonomomy]]** of $\nabla$ over $\sigma$ is the flat holonomy of $\phi^* \nabla$
 
 $$
@@ -3156,7 +3155,7 @@ $$
 $$
 
 where $\hat \mathbf{c}$ denotes the [refined Chern-Weil homomorphism](#ChernWeilTheory) induced by $\mathbf{c}$,
-is the **[[∞-Chern-Simons theory|Chern-Simons functional]]** induced by $\mathbf{c}$ on $\Sigma$.
+is the **[[schreiber:∞-Chern-Simons theory|extended Chern-Simons functional]]** induced by $\mathbf{c}$ on $\Sigma$.
 
 =--
 
