@@ -234,4 +234,16 @@ Here the first and the last steps are considered traditionally, but are not real
 
 * In the context of a [[model structure on chain complexes]] of [[module]]s the left and right derived functors of the [[tensor product]] functor and the [[hom-functor]] are called [[Tor]]-functor and [[Ext-functor]], respectively.
 
+## References
+
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
+  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
+and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
+
+* [[Bruno Kahn]], [[Georges Maltsiniotis]], _[[Structures de Dérivabilité]]_
+
+Section 5.2.4 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
 [[!redirects derived functors]]
