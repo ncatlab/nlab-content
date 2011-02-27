@@ -4,7 +4,8 @@
 ###Context###
 #### Homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]=--
+[[!include homotopy - contents]]
+=--
 #### Model category theory
 +--{: .hide}
 [[!include model category theory - contents]]
@@ -887,7 +888,12 @@ This appears as theorem 1.5 in
 
 The classical reference is 
 
-* A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_, Springer LNM __304__, (see in particular chapter XI).
+* A. K. Bousfield and [[Dan Kan]], _Homotopy limits, completions, and localizations_, Springer LNM __304__, (see in particular chapter XI).
+
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
+  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
+and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
+
 
 An introduction is 
 
