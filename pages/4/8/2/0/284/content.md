@@ -267,6 +267,12 @@ The relation between [[quasi-category|quasi-categories]] and [[simplicially enri
 
 * [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
 
+The presentation of $(\infty,1)$-categories by [[homotopical categories]] and [[model categories]] is discussed in
+
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
+  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
+and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
+
 
 [[!redirects (∞,1)-category]]
 [[!redirects (∞,1)-categories]]
