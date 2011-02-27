@@ -51,7 +51,6 @@
 
 ## Concepts
 
-
 * [[tangent bundle]], 
 
   * [[vector field]], [[tangent Lie algebroid]];
@@ -59,6 +58,8 @@
   * [[differentiation]], [[chain rule]]
 
 * [[differential forms in synthetic differential geometry|differential forms]]
+
+* [[differential equation]], [[variational calculus]]
 
 * [[connection on a bundle]], [[connection on an ∞-bundle]]
 
