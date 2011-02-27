@@ -58,7 +58,23 @@ If the [[category with weak equivalences]] in question happens to carry even the
 
 ## References 
 
-A comprehensive survey of the general topic involved here can be found in the following paper:
+The original articles are
+
+* [[William Dwyer]], [[Dan Kan]], 
+
+  _Calculating simplicial localizations_ , J. Pure Appl. Algebra
+18 (1980), 17&#8211;35.
+
+  _Function complexes in homotopical algebra_ , Topology 19 (1980), 427&#8211;440.
+
+  _Simplicial localizations of categories_ , J. Pure Appl. Algebra 17 (1980), 267&#8211;284.
+
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
+  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
+and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
+
+
+A survey of the general topic involved here can be found in the following paper:
 
 * [[Tim Porter]], _$S$-Categories, $S$-groupoids, Segal categories and quasicategories_ ([arXiv](http://arxiv.org/abs/math/0401274))
 
