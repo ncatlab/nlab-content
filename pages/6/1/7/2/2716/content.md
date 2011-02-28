@@ -191,7 +191,7 @@ The notion originates somewhere in the school of [[Alan Weinstein]]'s school of 
 
 A good writeup of this material is in
 
-* [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv](http://arxiv.org/abs/math/0203110))
+* [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ in _Quantization, Poisson Brackets and Beyond_ , [[Theodore Voronov]] (ed.), Contemp. Math., Vol. 315, Amer. Math. Soc., Providence, RI, 2002 ([arXiv](http://arxiv.org/abs/math/0203110))
 
 The idea for all $n$ was then sketched, together with many other ideas about [[L-infinity algebroid]]s in the article with the nice title
 
