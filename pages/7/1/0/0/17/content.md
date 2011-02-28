@@ -1,8 +1,8 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Contents### {: .clickToReveal}
-###Contents### {: .clickToHide tabindex="0"}
-+--{: .hide}
+### Contents {: .clickToReveal}
+### Contents {: .clickToHide tabindex="0"}
++-- {: .hide}
 [[!include contents]]
 =--
 =--
@@ -331,23 +331,37 @@ and then refer to it later in the text by typing
 
 Insert the symbols
 
-     #Contents#
      * table of contents 
-     {:toc}
+     {: toc}
 
-(including the line break!) at the position where the table of contents is to appear. Its items will be the section headlines marked by
+(including the line break!) at the position where the table of contents is to appear. You may want to label the table of contents by writing
 
-     ## top level headline 
+     # Contents #
+     * table of contents 
+     {: toc}
+
+or (at the top of the page)
+
+     # [page title] #
+     * table of contents 
+     {: toc}
+
+(which also gives the opportunity to use a more nicely formatted page title if special characters or mathematical formatting are wanted).
+
+The items in the table of contents will be the section headlines marked by
+
+     ## top level headline ##
 
 
-     ### second level headline 
+     ### second level headline ###
 
 
      etc.
 
-Instead of "table of contents" here you can write anything you like: this line will not be displayed but is still required. 
+Instead of "table of contents" after the asterisk, you can write anything you like: this line will not be displayed but is still required to kick in the CSS that makes this possible. 
 
-It is also important that the section headings not contain anything that shouldn't go in the table of contents.  Whilst formatting is allowed, wiki-links are not (since then the entry in the table of contents would be double linked).
+It is important that the section headings not contain anything that shouldn't go in the table of contents.  Whilst formatting is allowed, wiki-links are not (since then the entry in the table of contents would have a link inside of a link).
+
 
 ## How to add a floating table of contents
 
