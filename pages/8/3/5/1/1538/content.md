@@ -212,7 +212,7 @@ The idea originates, of course, in
 
 A first comprehensive structural account of DW theory as a [[FQFT|functorial QFT]] was given in 
 
-* [[Dan Freed]], [[Frank Quinn]], _Chern-Simons theory with finite gauge group_ ([arXiv](http://de.arxiv.org/abs/hep-th/9111004))
+* [[Dan Freed]], [[Frank Quinn]], _Chern-Simons theory with finite gauge group_ Commun.Math.Phys.156:435-472, 1993 ([arXiv](http://de.arxiv.org/abs/hep-th/9111004))
 
 A review is given on p. 68 of
 
