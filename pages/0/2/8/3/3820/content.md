@@ -95,10 +95,11 @@ A discussion of its application to non-abelian [[gauge theory]] ([[Yang-Mills th
 * C. Crnkovi&#263;, [[Edward Witten]], _Covariant Description of Canonical Formalism in Geometrical Theories_, in Three Hundred Years of Gravitation, S. W. Hawking and W. Israel (Eds.), Cambridge
 University Press, Cambridge, 1987, pp. 676&#8364;684. ([pdf](http://www.phys.lsu.edu/classes/spring2006/phys7777/crnkovicwitten.pdf))
 
-A review of covariant phase space theory is in 
+Reviews of covariant phase space theory:
 
-* L. Vitagliano, _Secondary calculus and the covariant phase space_ ([pdf](http://diffiety.ac.ru/preprint/2008/02-08.pdf))
+* L. Vitagliano, _Secondary calculus and the covariant phase space_, [pdf](http://diffiety.ac.ru/preprint/2008/02-08.pdf)
 
+* M. J. Gotay, J. Isenberg, R. Montgomery, J. E. Marsden, _Momentum Maps and Classical Fields, Part I: Covariant Field Theory_ [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.6.6137&rep=rep1&type=pdf)
 
 Standard textbooks on [[classical mechanics]] include
 
@@ -106,7 +107,7 @@ Standard textbooks on [[classical mechanics]] include
 
 * H. Goldstein, _Classical mechanics_
 
-* L. D. Landau, E. M. Lifshitz, _Mechanics_, (vol. I of Course on theoretical physics)
+* L. D. Landau, E. M. Lifshitz, _Mechanics_, (vol. I of [[Landau-Lifschitz]] Course on theoretical physics)
 
 * R. Abraham, J. E. Marsden, _Foundations of mechanics_
 
