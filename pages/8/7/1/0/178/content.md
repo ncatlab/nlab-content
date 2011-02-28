@@ -4346,8 +4346,13 @@ Since under [[homotopy pullback]]s a weak equivalence of diagrams is sent to a w
 
 =--
 
+### Variational calculus
+  {#VariationalCalculus}
 
-### Differential cohomology {#StrucDifferentialCohomology}
+* [[variational calculus]]
+
+### Differential cohomology 
+  {#StrucDifferentialCohomology}
 
 We discuss the 
 <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#DifferentialCohomology">intrinsic differential cohomology</a> in $Smooth \infty Grpd$
