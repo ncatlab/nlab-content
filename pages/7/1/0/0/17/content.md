@@ -261,6 +261,8 @@ produces
 
 ## How to make links to subsections of a page ##
 
+### Links to sections
+
 When you create a section header, you can add an HTML anchor tag to it with the following syntax:
 
      ## Heading {#anchorname}
@@ -273,7 +275,22 @@ Of course, you can link to it from outside the nLab by adding `http://ncatlab.or
 
 Note that if you skip the first step, it is still *possible* to create a link to a subsection, since (at least if the page has a table of contents) every section on the page is automatically assigned an HTML anchor by Instiki.  However, using such links is *not* encouraged, since the automatically generated anchor names will change whenever the page is rearranged and go away if a manual anchor name is added, which will cause such links to break.
 
-When you write a numbered theorem, you can also simultaneously create an anchor by writing:
+
+### Definition/Proposition/Theorem-numbering
+
+When you write a numbered definition or proposition or theorem, you can also simultaneously create an anchor by writing:
+
+     +-- {: .num_defn #definitionname}
+     ###### Definition
+     ...
+     =--
+
+
+     +-- {: .num_prop #propname}
+     ###### Proposition
+     ...
+     =--
+
 
      +-- {: .num_theorem #theoremname}
      ###### Theorem
@@ -290,30 +307,45 @@ When you link to a theorem on the *same* page, however, it's better to use the s
 
 (which inserts the number, as well as creates a hyperlink) since that will also work properly when the page is exported to LaTeX.
 
+### Equation numbering
 
-## How to add an automatically generated table of contents ##
+To make an equation be automatically numbered use angular brackets instead of dollar signs
+
+     \[
+       \exp(\pi i) + 1 = 0 
+     \]
+
+To refer to this numbered equation, add a label
+
+     \[
+       \label{SomeEquation}
+       \exp(\pi i) + 1 = 0 
+     \]
+
+and then refer to it later in the text by typing
+
+     see equation (eq:SomeEquation) .
+
+
+### Automatic table of contents ##
 
 Insert the symbols
 
-     * tic 
+     #Contents#
+     * table of contents 
      {:toc}
 
 (including the line break!) at the position where the table of contents is to appear. Its items will be the section headlines marked by
 
-     # top leven headline #
+     ## top level headline 
 
 
-     ## second level headline ##
+     ### second level headline 
 
 
      etc.
 
-Instead of "tic" (which is just a joke inspired by "toc" for "Table Of Contents") here you can write anything you like: this line will not be displayed but is still required. A useful thing to type is for instance
-
-     * automatic table of contents goes here
-     {:toc}
-
-since this will indicate to everyone looking just at your source code what the command will accomplish.
+Instead of "table of contents" here you can write anything you like: this line will not be displayed but is still required. 
 
 It is also important that the section headings not contain anything that shouldn't go in the table of contents.  Whilst formatting is allowed, wiki-links are not (since then the entry in the table of contents would be double linked).
 
