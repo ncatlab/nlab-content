@@ -50,7 +50,7 @@ The original reference is
 
 Dmitry Roytenberg wrote a useful exposition of the central idea of the original work and studied the case of the Courant sigma-model:
 
-* [[Dmitry Roytenberg]], _AKSZ-BV Formalism and Courant Algebroid-induced Topological Field Theories_ ([arXiv](http://arxiv.org/abs/hep-th/0608150)).
+* [[Dmitry Roytenberg]], _AKSZ-BV Formalism and Courant Algebroid-induced Topological Field Theories_ Lett.Math.Phys.79:143-159,2007 ([arXiv](http://arxiv.org/abs/hep-th/0608150)).
 
 Another review is
 
