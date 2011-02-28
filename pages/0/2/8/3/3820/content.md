@@ -88,11 +88,11 @@ and
 
 and further developed in
 
-* C. Crnkovi&ccaron; _Symplectic Geometry of the Covariant Phase Space_ , Class. Quant. Grav. 5 (1988) 1557&#8364;1575.
+* C. Crnkovi&#263;, _Symplectic Geometry of the Covariant Phase Space_ , Class. Quant. Grav. 5 (1988) 1557&#128;1575.
 
 A discussion of its application to non-abelian [[gauge theory]] ([[Yang-Mills theory]]) and of [[gravity]] is in 
 
-* C. Crnkovi&ccaron; and [[Edward Witten]], _Covariant Description of Canonical Formalism in Geometrical Theories_ , in Three Hundred Years of Gravitation, S. W. Hawking and W. Israel (Eds.), Cambridge
+* C. Crnkovi&#263;, [[Edward Witten]], _Covariant Description of Canonical Formalism in Geometrical Theories_, in Three Hundred Years of Gravitation, S. W. Hawking and W. Israel (Eds.), Cambridge
 University Press, Cambridge, 1987, pp. 676&#8364;684. ([pdf](http://www.phys.lsu.edu/classes/spring2006/phys7777/crnkovicwitten.pdf))
 
 A review of covariant phase space theory is in 
