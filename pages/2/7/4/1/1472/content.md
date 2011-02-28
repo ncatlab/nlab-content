@@ -567,7 +567,8 @@ based on work in
 
 The observation that generally [[differential cohomology]] is the correct formalism for describing [[gauge field]]s in physics originates around
 
-* [[Dan Freed]], [[Mike Hopkins]], _On Raomnd-Ramond fields and K-theory_ ([pdf](http://web.me.com/teichner/Math/Smooth_Cohomology_files/Freed-Hopkins.pdf))
+* [[Dan Freed]], [[Mike Hopkins]], _On Ramond-Ramond fields and K-theory_
+Journal of High Energy Physics 0005 (2000) 044 ([pdf](http://web.me.com/teichner/Math/Smooth_Cohomology_files/Freed-Hopkins.pdf))
 {#FreedHopkins}
 
 Motivated by this the theory of differential cohomology itself was developed in
