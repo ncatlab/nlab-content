@@ -1,0 +1,6 @@
+__Dennis Gaitsgory__ is a mathematician at Harvard. His research is in representation theory and algebaric geometry, specially D-modules, chiral algebras and geometric Langlands.
+
+* [webpage](http://www.math.harvard.edu/~gaitsgde)
+* notes on geometric Langlands: [link](http://www.math.harvard.edu/~gaitsgde/GL)
+
+[[!redirects D. Gaitsgory]]
