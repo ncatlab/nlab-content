@@ -48,7 +48,7 @@ A [[category]] $C$ is **semi-abelian** if it
 
 Equivalently, $C$ is semi-abelian if:
 
-* it has finite products and coproducts and a [[zero object]];
+* it has finite [[product]]s and [[coproduct]]s and a [[zero object]];
 
 * it has [[pullback]]s of [[monomorphism]]s (or even only of [[split monomorphism]]s);
 
@@ -58,11 +58,34 @@ Equivalently, $C$ is semi-abelian if:
 
 * [[congruence|equivalence relations]] are effective; and
 
-* the _Split Short Five Lemma_ holds: given a commutative diagram
-$$\array{L & \overset{l}{\to} & F & \overset{q}{\to} & C\\
-  ^u\downarrow && \downarrow^w && \downarrow^v \\
-  K & \underset{k}{\to} & E& \underset{p}{\to} & B}$$
-where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]]s, if $u$ and $v$ are [[isomorphism]]s then so is $w$.
+* the _Split Short [[five lemma|Five Lemma]]_ holds: 
+
++-- {: .un_defn #SplitShortFiveLemma}
+###### Definition
+**(split short five lemma)**
+
+Given a [[commutative diagram]]
+
+$$
+ \array{
+    L & \overset{l}{\to} & F & \overset{q}{\to} & C
+   \\
+   {}^{\mathllap{u}}\downarrow 
+     && \downarrow^{\mathrlap{w}} && \downarrow^{\mathrlap{v}} 
+   \\
+    K & \underset{k}{\to} & E& \underset{p}{\to} & B
+   }
+$$
+
+where 
+
+* $p$ and $q$ are [[split epimorphism]]s 
+
+* and $l$ and $k$ are their [[kernel]]s, 
+
+then if $u$ and $v$ are [[isomorphism]]s so is $w$.
+
+=--
 
 To see that the second list of axioms implies the existence of finite limits, observe that the pullback
 $$\array{P & \to & A\\
@@ -75,9 +98,6 @@ $$\array{P & \to & A\times B\\
 in which both legs are split monics.  Filling in one of the equivalent definitions of Barr-exactness, the equivalence of the two lists of axioms reduces to showing that in a Barr-exact category with coproducts and a zero object, protomodularity is equivalent to the Split Short Five Lemma; see the paper referenced below for a proof.
 
 
-## Dold--Kan correspondence
-
-* In its most general form, the [[Dold–Kan correspondence]] holds for [[simplicial object]]s in semi-abelian categories.
 
 
 ## Examples
@@ -105,6 +125,18 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 =--
 
 * The categories of [[crossed module|crossed modules]], [[crossed complex]]es, and their friends are semi-abelian; see example 2.6(4) of the paper referenced below.
+
+## Properties
+
+### General
+
+(...)
+
+
+### Dold--Kan correspondence
+
+* In its most general form, the [[Dold–Kan correspondence]] holds for [[simplicial object]]s in semi-abelian categories.
+
 
 
 ## References
