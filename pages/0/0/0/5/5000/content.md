@@ -1,6 +1,6 @@
 # Books in algebraic geometry
 
-We should limit to books which we can really recommend, either by their special content, approach or pedagogical value. Historically fine but outdated books are in a separate historical section below. The outstanding surveys may be added to the lists if they are not too specialized to minor directions: the subfields may be covered in separate lists. 
+We should limit to books which we can really recommend, either by their special content, approach or pedagogical value. Historically fine but outdated books are in a separate historical section below. The outstanding surveys may be added to the lists if they are not too specialized to minor directions: the subfields may be covered in separate lists. See also MathOverflow discussion [best-algebraic-geometry-text-book-other-than-hartshorne](http://mathoverflow.net/questions/2446/best-algebraic-geometry-text-book-other-than-hartshorne).
 
 * table of contents
 {: toc}
@@ -24,7 +24,7 @@ We should limit to books which we can really recommend, either by their special 
 * M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 
 * Ravi Vakil's Berkeley [course notes](http://math.stanford.edu/~vakil/0708-216)
 * William Fulton, _Intersection theory_, Springer 1984
-
+* Ulrich G&#246;rtz, Torsten Wedhorn, _Algebraic geometry I. Schemes with examples and exercises_, Advanced Lectures in Mathematics. Vieweg + Teubner, Wiesbaden, 2010. viii+615 pp. [Springerlink book](http://www.springerlink.com/content/kt5u74/#section=748613&page=1)
 
 ## Grothendieck school sources
 
