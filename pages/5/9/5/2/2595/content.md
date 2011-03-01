@@ -28,9 +28,34 @@ The notion of ringed topos makes sense for the theory of rings replaced by any [
 +-- {: .un_defn}
 ###### Definition
 
-A **ringed topos** is a [[topos]] $X$ with a distinguished unital ring object $\mathcal{O}_X \in X$, usually, (commutative or not, depending on convention). 
+A **ringed topos** $(\mathcal{X}, \mathcal{O}_X)$ is 
 
-If all [[stalk]]s of $\mathcal{O}_X$ are [[local ring]]s, $(X, \mathcal{O}_X)$ is a called a **[[locally ringed topos]]**.
+* a [[topos]] $\mathcal{X}$ 
+
+* equipped with a distinguished unital ring object $\mathcal{O}_{\mathcal{X}} \in \mathcal{X}$, (commutative or not, depending on convention). 
+
+If all [[stalk]]s of $\mathcal{O}_{\mathcal{X}}$ are [[local ring]]s, $(\mathcal{X}, \mathcal{O}_{\mathcal{X}})$ is a called a **[[locally ringed topos]]**.
+
+A morphism of ringed toposes $(f, \eta) : (\mathcal{X}, \mathcal{O}_{\mathcal{X}}) \to (\mathcal{Y}, \mathcal{O}_{\mathcal{Y}})$ is
+
+* a [[geometric morphism]]
+
+  $$
+    (f^* \dashv f_*) : \mathcal{X} \to \mathcal{Y}
+  $$
+
+* and a morphism of ring objects in $\mathcal{X}$
+
+  $$
+    \eta : f^* \mathcal{O}_{\mathcal{Y}} \to \mathcal{O}_{\mathcal{X}}
+  $$
+
+  which is equivalently, by the $(f^* \dashv f_*)$-[[adjunction]], a morphism of ring objects
+
+  $$ 
+    \tilde \eta : \mathcal{O}_{\mathcal{Y}} \to f_* \mathcal{O}_{\mathcal{X}}
+    \,.
+  $$
 
 =--
 
@@ -67,9 +92,17 @@ In order to say what _locally_ $T$-ringed means, one needs the extra structure o
 
 ## References
 
+An original reference is
+
 * [[SGA]] IV 
 
+See also
+
 * M. Hakim, *Topos annel&#233;s et sch&#233;mas relatifs*, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 64, Springer, Berlin, New York (1972). 
+
+References on [[ringed space]]s include
+
+* [[eom]], _[Ringed spaces](http://eom.springer.de/R/r082460.htm)_
 
 [[!redirects ringed toposes]]
 
