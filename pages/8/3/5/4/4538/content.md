@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -27,7 +27,40 @@ If the coefficients is not a [[field]] but an arbitrary [[abelian group]], then 
 
 ## Statement
 
-Let $C_\bullet$ be a [[chain complex]] of [[free construction|free]] [[abelian group]]s. Let $A$ be an arbitrary [[abelian group]]. Then we have an [[exact sequence]]
+Let $C_\bullet$ be a [[chain complex]] of [[free construction|free]] [[abelian group]]s. Let $A$ be an arbitrary [[abelian group]]. 
+
+Write 
+
+* $C^\bullet := Hom_{Ab}(C_\bullet, A)$ for the dual [[cochain complex]] with respect to $A$;
+
+* $H_n(C,\mathbb{Z})$ for the [[chain homology]] of $C$
+
+* $H^n(C,A)$ for the [[cochain cohomology]] of $C^\bullet$.
+
++-- {: .num_note }
+###### Observation
+
+There is a canonical morphism of [[abelian group]]s
+
+$$
+  \int_{(-)}(-) : H^n(C,A) \to Hom_{Ab}(H_n(C,\mathbb{Z}), A)
+$$
+
+given by sending a cocycle to evaluation of that cocycle 
+
+$$
+  [\omega] \mapsto 
+   \left( [\sigma] \mapsto \int_{\sigma} \omega := \omega(\sigma) \right)
+$$
+
+=--
+
++-- {: .num_theorem }
+###### Theorem
+**(universal coefficient theorem)**
+
+The morphism $h$ is surjective and its [[kernel]] is the [[Ext group]] $Ext^1(H_{n-1}(C, \mathbb{Z}), A)$. In other words, there is 
+a [[short exact sequence]]
 
 $$
   0 \to 
@@ -38,12 +71,16 @@ $$
    Hom(H_n(C,\mathbb{Z}), A)
    \to 
    0
-  \,,
+  \,.
 $$
 
-where on the left we have the first [[Ext group]].
+=--
 
 ## References
+
+An exposition is in section 3.1 of
+
+* [[Allen Hatcher]], _Algebraic topology_ ([pdf](http://www.math.cornell.edu/~hatcher/AT/AT.pdf))
 
 The note
 
