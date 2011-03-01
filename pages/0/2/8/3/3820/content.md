@@ -78,7 +78,7 @@ This is a [[Koszul resolution]]-type resolution of the 0-locus of $\exp(i S)$. M
 
 ## References
 
-The [[presymplectic structure]] on covariant phase space was first described in
+An early description of the [[presymplectic structure]] on covariant phase space is in
 
 * G. J. Zuckerman, _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scienti&#166;c, Singapore, 1987, pp. 259&#8364;284.
 
@@ -100,6 +100,10 @@ Reviews of covariant phase space theory:
 * L. Vitagliano, _Secondary calculus and the covariant phase space_, [pdf](http://diffiety.ac.ru/preprint/2008/02-08.pdf)
 
 * M. J. Gotay, J. Isenberg, R. Montgomery, J. E. Marsden, _Momentum Maps and Classical Fields, Part I: Covariant Field Theory_ [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.6.6137&rep=rep1&type=pdf)
+
+A discussion in the context of the [[variational bicomplex]] with further pointers to the use in [[physics]] is in 
+
+* E. Reyes, _On Covariant Phase Space and the Variational Bicomplex_ , Int. J. Theor. Phys. 43, no 5 (2004) 1267&#8364;1286
 
 Standard textbooks on [[classical mechanics]] include
 
