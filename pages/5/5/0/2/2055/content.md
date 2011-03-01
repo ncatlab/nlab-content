@@ -52,6 +52,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [eom.springer.de](http://eom.springer.de) -- free online access to 8000 entries of Springer online Encyclopeadia of Mathematics 
 
+* [Liber Mathematicae](http://www.libermath.org) -- site under construction, featuring a new free online journal and some expositional math resources
+
 * [Manifold Atlas Project](http://manifoldatlas.uni-bonn.de/index.php/Main_Page)
 
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
