@@ -16,13 +16,15 @@
 
 ## Idea
 
-The _covariant phase space_ of a system in [[physics]] is the [[space]] of all of its [[classical mechanics|classical solutions]]. For any system described by [[Lagrangian]] mechanics this comes canonically equipped with a [[presymplectic structure]]. A proper _phase space_ or _reduced phase space_ is a subspace or [[quotient space]] of the covariant phase space on which the presymplectic structure refines to a [[symplectic manifold|symplectic structure]] or [[Poisson manifold|Poisson strucure]]. 
+The _covariant phase space_ of a system in [[physics]] is the [[space]] of all of its solutions to its [[classical mechanics|classical equations of motion]], the space of _classical trajectories_ of the system. 
 
-Typically these phase spaces are naturally parameterized by the suitable boundary conditions which uniquely determine the corresponding history of the physical system.
+For a system described by [[Lagrangian]] mechanics this comes canonically equipped with a [[presymplectic structure]]. A proper _phase space_ or _reduced phase space_ is a subspace or [[quotient space]] of the covariant phase space on which the presymplectic structure refines to a [[symplectic manifold|symplectic structure]] or [[Poisson manifold|Poisson strucure]]. 
 
-For instance for a [[relativistic particle|particle]] propagating on a [[Riemannian manifold]] $X$ with the usual [[action functional]], a trajectory is uniquely fixed by the position $x \in X$ and the momentum $p \in T^*_x X$ of the particle at a given time. Correspondingly the space of all solutions and hence the phase space of the system may be identified with the [[cotangent bundle]] $T^* X$ of $X$.  
+Typically these phase spaces are (locally) naturally parameterized by the suitable boundary conditions which uniquely determine the corresponding history of the physical system. Much of the literature on phase spaces deals with parameterizing these boundary conditions. 
+
+For instance for a [[relativistic particle|particle]] propagating on a [[Riemannian manifold]] $X$ with the usual [[action functional]], a trajectory is uniquely fixed by the position $x \in X$ and the momentum $p \in T^*_x X$ of the particle at a given time. Correspondingly the space of all solutions and hence the (covariant) phase space of the system may be identified with the [[cotangent bundle]] $T^* X$ of $X$.  
  
-Generally the system is defined by [[configuration space]] $X$, then the phase space of the system is given by the [[cotangent bundle]] $T^* X$. However some models are obtained by [[symplectic reduction]]. This way a finite-dimensional phase space can sometimes describe continuous systems (e.g. in hydrodynamics) whch have infinitely many degrees of freedom; that phase space is however not a cotangent bundle of something in general. 
+However, even reduced phase spaces are not all cotangent bundles, typically not, for instance, if they are obtained by [[symplectic reduction]]. This way a finite-dimensional phase space can sometimes describe continuous systems (e.g. in hydrodynamics) whch have infinitely many degrees of freedom; that phase space is however not a cotangent bundle of something in general. 
 
 
 ## Definition
@@ -104,6 +106,12 @@ Reviews of covariant phase space theory:
 A discussion in the context of the [[variational bicomplex]] with further pointers to the use in [[physics]] is in 
 
 * E. Reyes, _On Covariant Phase Space and the Variational Bicomplex_ , Int. J. Theor. Phys. 43, no 5 (2004) 1267&#8364;1286
+
+A systematic discussion leading up to the derived covariant phase space by [[BRST-BV formalism]] is in section 8.3 of
+
+* [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics-impa-v01-2011.pdf))
+{#Paugam}
+
 
 Standard textbooks on [[classical mechanics]] include
 
