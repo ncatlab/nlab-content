@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
 For $X$ a [[smooth manifold]], $ v \in \Gamma(T X)$ a [[vector field]] and $\omega \in \Omega^\bullet(X)$ a [[differential form]] on $X$, the **Lie derivative** $\mathcal{L}_v \omega$ of $\omega$ along $v$ is the linearization of the pullback of $\omega$ along the flow $\exp(v -) : \mathbb{R} \times X \to X$ induced by $v$
 
 $$
