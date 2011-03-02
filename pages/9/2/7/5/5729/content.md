@@ -1,0 +1,1 @@
+A [[ring]] $R$ is said to satisfy the _descending chain condition_ on left (resp. right, two-sided) [[ideal|ideals] if any [[total order|totally ordered]] subset $\mathcal{S}$ of the set of left (resp. right, two-sided) ideals of $R$ (in the [[partial order]] given by the inclusion) has a minimum.
