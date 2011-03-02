@@ -28,7 +28,7 @@ At the [[infinitesimal object|infinitesimal]] level [[automorphism]]s correspond
 
 The **cotangent complex** functor is effectively the left [[derived functor]] of the [[Kähler differential]]s assignment.
 
-To talk about the nonabelian derived functors, Quillen introduced a [[simplicial ring|model structure on the category of simplicial commutative rings]]s.
+To talk about the nonabelian derived functors, Quillen introduced a [[simplicial ring|model structure on the category of simplicial commutative rings]].
 
 Given a morphism $f: A\to B$ in [[CRing]], which makes $B$ an $A$-algebra, the fiber of the [[tangent category]] $AbGr(A Alg/B)$ of abelian group objects in the slice category $A Alg/B$ of $A$-algebras over $B$ is equivalent both to the category of $B$-modules and the trivial (= square zero) extensions of $A$ by $B$-modules. 
 
@@ -55,8 +55,8 @@ The [[Andre-Quillen cohomology]] of $R$ is the [[cohomology]] of $\mathbb{L}\Ome
 
 ### Explicit resolutions
 
-Here is one way to compute the required cofibrant resolution 
-for the construction of the left derived functor for the case that $A = k$ is a field.
+Here is one way to compute the required cofibrant [[resolution]] 
+for the construction of the left [[derived functor]] for the case that $A = k$ is a [[field]].
 
 Let $P : CAlg \to CAlg$ be the [[comonad]] induced by the [[adjunction]] 
 
@@ -138,7 +138,7 @@ $$
   \,,
 $$
 
-where the subscript refers to [[Hodge decomposition]] of Hochschild cohomology.
+where the subscript refers to [[Hodge decomposition]] of [[Hochschild cohomology]].
 
 =--
 
