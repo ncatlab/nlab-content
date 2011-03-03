@@ -1,10 +1,11 @@
 <div style="float:left;margin:0 20px 10px 20px;"><img width = "350" src="http://owpdb.mfo.de/photoNormal?id=7420" alt="Gabriele Vezzosi and Bertrand Toen" /></div>
 
-* [website](http://www.dma.unifi.it/~vezzosi/)
+* [website](http://www.dma.unifi.it/~vezzosi)
 
 (The picture [shows](http://owpdb.mfo.de/detail?photo_id=7420) Vezzosi on the left and [[Bertrand Toen]] on the right during a research in pairs stay at [Oberwolfach](http://www.mfo.de/) in 2002).
 
-Together with [[Bertrand Toën]], Gabriele Vezosi has laid foundations of what is now called [[derived geometry]].
+Together with [[Bertrand Toën]], and based partially on earlier ideas of [[Carlos Simpson]], Gabriele Vezosi has laid foundations of what is now called [[derived geometry]]. Another collaborator in parts of that work has been [[Michel Vaquié]]. 
 
 
 category: people
+[[!redirects G. Vezzosi]]
