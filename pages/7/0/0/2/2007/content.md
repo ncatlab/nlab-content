@@ -28,7 +28,7 @@ Using [[Hopf monads]], in (Brugui&#232;resNatale) the theory of exact sequences/
 
 ## Literature ##
 
-* (PW) B. Parshall J. Wang, _Quantum linear groups_, Memoirs AMS __439__
+* (PW) [[B. Parshall]], J. Wang, _Quantum linear groups_, Memoirs AMS __439__
 
 * (SchneiderESQGr) H-J. Schneider, _Some remarks on exact sequences of quantum groups_, Comm. Alg. __21__(9), 3337-3357 (1993)
 
