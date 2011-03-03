@@ -107,7 +107,10 @@ where $Y : (dgAlg^-)^{op} \to \mathbf{H}$ is the [[Yoneda embedding]].
 
 More on this at [[function algebras on ∞-stacks]].
 
-## Homotopical symplectic/Poisson reduction
+## Homotopical Poisson reduction
+  {#PoissonReduction}
+
+The following is a rough survey of homotopical Poisson reduction, following ([Stasheff 96](#Stasheff96)).
 
 Let $(X, \{-,-\})$ be a [[smooth manifold|smooth]] [[Poisson manifold]]. 
 
@@ -131,7 +134,7 @@ By the Poisson bracket $I$ acts on $A$. The **Poisson reduction** of $X$ by $I$ 
 
 This may be achieve in different orders:
 
-The **Synaticky-Weinstein reduction is the object
+The **Sniatycky-Weinstein reduction is the object
 
 $$
   A_{SW} := (A/I)^I
@@ -295,12 +298,17 @@ This means that Lagrangian BV formalism is nothing but a way of describing close
 
 ## References
 
-
 Plain BRST formalism is discussed in 
 
 * [[Glenn Barnich]], Friedemann Brandt, Marc Henneaux, _Local BRST cohomology in gauge theories_, Phys. Rep. __338__ (2000), no. 5, 439&#8211;569, [hep-th/0002245](http://xxx.lanl.gov/abs/hep-th/0002245), <a href="http://dx.doi.org/10.1016/S0370-1573(00)00049-1">doi</a>
 
-Basic texts on BRST-BV include
+Homological Poisson reduction is discussed in 
+
+* [[Jim Stasheff]], _Homological Reduction of Constrained Poisson Algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9603021))
+{#Stasheff96}
+
+
+The application of BRST-BV to [[gauge theory]] is discussed in
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of gauge systems_, Princeton University Press 1992. xxviii+520 pp.
 
@@ -348,9 +356,10 @@ The interpretation of the BV quantum master equation as a description of closed 
  * [[Jeremy Butterfield]], _On symplectic reduction in classical mechanis_ ([pdf](http://philsci-archive.pitt.edu/archive/00002373/01/ButterfieldNHSympRed.pdf))
 
 
+
+
 Remark  on the [[homotopy theory]] interpretation of BRST-BV are in
 
-* [[Jim Stasheff]], _Homological Reduction of Constrained Poisson Algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9603021))
 
 * [[Jim Stasheff]], _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
 
@@ -381,3 +390,4 @@ The latter is NOT in a Poisson context, any more than Lagrangians are only for s
 [[!redirects BRST-BV formalism]]
 
 [[!redirects symplectic reduction]]
+[[!redirects Poisson reduction]]
