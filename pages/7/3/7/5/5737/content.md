@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of content
+{:toc}
+
+## Definition
+
+For $f : X \to Y$ a [[smooth function]], a **critical point** is a point $x \in X$ at which the [[derivative]] $d X : T X \to T Y$ vanishes.
+
+The collection of all critical points is also called the **critical locus** of $f$.
+
+## Applications
+
+* Critical loci are used to study [[topology]] in terms of [[Morse theory]].
+
+* Critical loci of [[functional]]s on [[jet space]]s are studied in [[variational calculus]].
+
+[[!redirects critical locus]]
+
+[[!redirects critical points]]
+[[!redirects critical loci]]
