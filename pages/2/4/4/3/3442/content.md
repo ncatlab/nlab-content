@@ -23,7 +23,7 @@ See also the appendix of
 
 ### First order homogeneous ODEs as extension problems in a smooth topos
 
-In a [[smooth topos]] with $X$ any $A$ any two objects and $D = \{x \in R | x^2 = 0\}$ the abstract tangent vector, a diagram, of the form
+In a [[smooth topos]] with $X$ any $A$ any two objects and $D = \{x \in R | x^2 = 0\}$ the [[infinitesimally thickened point|abstract tangent vector]], a [[diagram]], of the form
 
 $$
   \array{
