@@ -42,7 +42,7 @@ One of the most refined 1-categorical approximations to the context in which suc
 
 * M. Kashiwara and P. Schapira, _[[Categories and Sheaves]]_, Springer (2000)
 
-* S. I . Gelfand, ]]Yu. I. Manin]], _Methods of homological algebra_
+* S. I . Gelfand, [[Yu. I. Manin]], _Methods of homological algebra_
 
 * [[Jacob Lurie]], _Derived algebraic geometry I: [[Stable Infinity-Categories]]_, [math.CT/0608228](http://www.arXiv.org/abs/math.CT/0608228)
 
@@ -53,3 +53,9 @@ One of the most refined 1-categorical approximations to the context in which suc
 * Charles Weibel, _A history of homological algebra_, [dvi](http://www.math.rutgers.edu/~weibel/HA-history.dvi)
 
 * [[Francis Borceux]], [[Dominique Bourn]], [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]], Mathematics and Its Applications __566__, Kluwer 2004 
+
+* [[Rick Jardine]], _Homological algebra_, 2009 course notes, [index](http://www.math.uwo.ca/~jardine/papers/HomAlg/index.shtml)
+
+* [[Alexander Beilinson]], _Introduction to homological algebra_ (handwritten notes, summer 2007, pdf) [lec1](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-1.pdf), [lec2](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-2.pdf), [lec3](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-3.pdf), [lec4](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-4.pdf)
+
+* [[Ieke Moerdijk]], _Notes on homological algebra_, course notes, [pdf](www.staff.science.uu.nl/~lukac101/homalg2007.pdf) (classical treatment, without derived categories)
