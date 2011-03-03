@@ -3907,7 +3907,7 @@ $X \in \mathbf{H}_{th}$ is both [geometrically contractible](#ExponentiatedLieAs
 +-- {: .proof}
 ###### Proof
 
-This follows with using the [above objservation](#InfinitesimalInclusionIfFullAndFaithful) from the full and faithfulness of $i_!$ and $i_*$.
+This follows with using the [above observation](#InfinitesimalInclusionIfFullAndFaithful) from the full and faithfulness of $i_!$ and $i_*$.
 
 The former implies that with $\mathbf{\Pi}_{inf}(X) \simeq *$ already $i^*X  = \Pi_{inf}X = *$. Since $\Pi_{\mathbf{H}_{th}} \simeq \Pi_{\mathbf{H}} \Pi_{inf}$ and since $\Pi_{\mathbf{H}}$ preserves the point by cohesiveness, this implies the first claim.
 
