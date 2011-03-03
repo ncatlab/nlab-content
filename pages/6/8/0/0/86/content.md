@@ -22,15 +22,13 @@
 
 ## Idea
 
-### General
-
-What is called _BV-BRST formalism_ is a model in [[dg-geometry]] of a joint [[homotopy theory|homotopical]] [[quotient]] and [[intersection]], hence of an [[(∞,1)-colimit]] and [[(∞,1)-limit]], of  a [[space]] in [[higher geometry]]/[[derived geometry]].
+What is called _BRST-BV formalism_ or more specificall the _BRST-BV_ complex is a model in [[dg-geometry]] of a joint [[homotopy theory|homotopical]] [[quotient]] and [[intersection]], hence of an [[(∞,1)-colimit]] and [[(∞,1)-limit]], of  a [[space]] in [[higher geometry]]/[[derived geometry]], in the presence of or induced by [[Poisson structure]].
 
 The motivating applications are 
 
-* [[homotopical symplectic reduction]] 
+* homotopical [[symplectic reduction]];
 
-* and [[action functional]]s in [[gauge theory]].
+* description of (covariant) [[phase spaces]] of [[gauge theories]].
 
 In both cases one considers a [[space]] $X$ equipped with
 
@@ -53,8 +51,6 @@ Tyically the [[category theory|1-category-theoretic]] version of these operation
 
 If $X$ is regarded as a space in [[dg-geometry]], the resulting joint homotopical quotient and intersection is modeled by a [[cochain complex]] that generalizes the [[BRST complex]]. This is called the **BV-BRST complex**.
 
-
-### The $n$POV {#nPOVIdea}
 
 A [[BRST-complex]] is a [[Chevalley-Eilenberg algebra]] of an [[action Lie algebroid]]. A **BV-BRST complex** is the same for a [[derived ∞-Lie algebroid]].
 
@@ -81,7 +77,7 @@ $$
   \mathcal{O}(Conf) \in dgAlg
 $$
 
-is called the **BV-BRST-complex** of the physical system. Roughly, in positive degrees this dg-algebra remembers the [[k-morphism]]s of the $\infty$-groupoid $Conf$, while in negative degrees it remembers the negative degrees of the derived function algebra of the space of objects of the $\infty$-groupoid.
+is akin to the BV-BRST-complex of a physical system. Roughly, in positive degrees this dg-algebra remembers the [[k-morphism]]s of the $\infty$-groupoid $Conf$, while in negative degrees it remembers the negative degrees of the derived function algebra of the space of objects of the $\infty$-groupoid.
 
 In the physics literature 
 
@@ -109,85 +105,142 @@ $$
 
 where $Y : (dgAlg^-)^{op} \to \mathbf{H}$ is the [[Yoneda embedding]].
 
-The functor $\mathcal{O}$ takes any such colimit-description, and simply reinterprets the colimit in $dgAlg^{op}$, i.e. the limit in $dgAlg$:
+More on this at [[function algebras on ∞-stacks]].
+
+## Homotopical symplectic/Poisson reduction
+
+Let $(X, \{-,-\})$ be a [[smooth manifold|smooth]] [[Poisson manifold]]. 
+
+Let $A := C^\infty(X)$ be its [[associative algebra|algebra]] of [[smooth function]]s. 
+
+Consider 
+
+* an [[ideal]] $I \subset A$
+
+* that is closed under the Poisson bracket
+
+  $\{I,I\} \subset$
+
+  (one says we have _first class constraint_ or that 0-locus of $I$ is _coisotropic_)
+
+By the Poisson bracket $I$ acts on $A$. The **Poisson reduction** of $X$ by $I$ is the combined
+
+1. passage to the 0-locus of $I$, which algebraically (dually) is passage to the quotient algebra $A/I$;
+
+1. passage to the quotient of $X$ by the $I$-actioni, which dually is the passage to the invariant subalgebra $A^I$.
+
+This may be achieve in different orders:
+
+The **Synaticky-Weinstein reduction is the object
 
 $$
-  \mathcal{O}(X) = \lim_{\leftarrow^i} A_i
+  A_{SW} := (A/I)^I
   \,.
 $$
 
-This is proposition 3.1 in
 
-* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Connections_ ([arXiv:math/1002.3636](http://arxiv.org/abs/1002.3636))
+The **Dirac reduction** is
 
+$$
+  A_{Dirac} := N(I)/I
+$$
 
-### The pedestrian POV
+where $N(I) = \{f \in A | \{f, I\} \subset I\}$ is the "subalgebra of [[observable]]s".
 
-BV theory is the answer to the second of two different questions:
+**Proposition** These two algebras are [[isomorphic]]
 
- * **Hamiltonian BFV**: taking quotients of constraint surfaces in [[Poisson manifold]]s by group actions and more generally by the foliation determined by first class constraints;
-
- * **Lagrangian BV**: integrating forms over [[NQ-supermanifolds]].
-
-### Hamiltonian BFV
-
-The F is for Fradkin.
-In this context, the BFV-complex is a [[homological resolution]] of the problem of taking quotients of symplectic manifolds by group actions. 
-
-+-- {: .query}
-
-_Question_: Can you explain more about this? What do you mean by a "homological resolution of the problem"? Is there a nice example? I went over the [blog entry](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html) but it seemed to talk about symplectic/Poisson reduction in its own right and didn't yet make the link with the BV formalism. (Bruce)
-
-(Jim)  Thanks, Bruce.  My initial edit here is just to set the record straight - BV $\neq$ BFV. Will expand further and try to answer your query.
-=--
-
-See [[homological resolution]].
-
-+-- {: .query}
-
-_Comment_: Kevin Costello is preparing a [book](http://www.math.northwestern.edu/~costello/renormalization) on _Renormalization of quantum field theories_, available on his webpage. He has a section entitled _The BV construction as symplectic reduction_ [](http://www.math.northwestern.edu/~costello/chap3.pdf#page=7). Could you somehow link your explanation to that in some way?
-
-_Urs says:_ I have (only) a vague hunch that Lagrangian and Hamiltonian BV are related in some way by "holography" of sorts, in a way that explains why the master equation in Lagrangian BV -- $\Delta exp(S) = 0$ -- looks like a Schr&#246;dinger equation if one re-interprets the space of histories with the space of states of a system of one dimension higher. Some very useful observations in this regard are in S.L. Lyakhovich, A.A. Sharapov,
-_Quantization of Donaldson-Uhlenbeck-Yau theory_
-[arXiv](http://arxiv.org/abs/0705.1871), which I talk about at the end of [this](http://golem.ph.utexas.edu/category/2007/08/lyakhonov_and_sharapov_on_qft.html).
-
-(Jim)  I would hope they were related by a homological version of the usual Hamiltonian - Lagrangian correspondence.
-
-Zoran: It sound like, there might be a role of microlocalization in understanding this correspondence. 
-
-=--
+$$
+  A_{red} := A_{SW} \simeq A_{Dirac}
+  \,.
+$$
 
 
-### Poisson/symplectic reduction ###
+**Example** Suppose a [[Lie algebra]] $\mathfrak{g}$ acts on the [[Poisson manifold]] $X$, by [[Hamiltonian vector field]]s. This is equivalently encoded in a [[moment map]] $\mu : X \to \mathfrak{g}^*$. 
 
- * _Basics of Poisson reduction_ ([blog](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html))
+Let then $I$ be the [[ideal]] of functions that vanish on $\mu^{-1}(0)$. This is always coisotropic. 
 
- * Alejandro Cabrera, _Homological BV-BRST methods: from QFT to Poisson reduction_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Charla_IMPA_BRST.pdf))
+Then $A_{red}$ is the algebraic dual to the preimage $\mu^{-1}(0)$ quotiented by the Lie algebra action: the "constraint surface" quotiented by the symmetries.
 
- * J. Butterfield, _On symplectic reduction in classical mechanis_ ([pdf](http://philsci-archive.pitt.edu/archive/00002373/01/ButterfieldNHSympRed.pdf))
+In fact, if 0 is a [[regular value]] of $\mu$ then $X_{red} := \mu^{-1}(0)/G$ is a submanifold and
 
-
-### Homological interpretation of BV-Poisson reduction
-
-* Jim Stasheff, _Homological Reduction of Constrained Poisson Algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9603021))
-
-* Jim Stasheff, _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
-
-The latter is NOT in a Poisson context, any more than Lagrangians are only for symplectic manifolds.
-
-##Lagrangian BV
-
-###Idea
-
-* Lagrangian BV-formalism is a means to describe 
-[[integration over supermanifolds]] for [[NQ-supermanifolds]] given by $L_\infty$-[[Lie infinity-algebroid|algebroid]]s.
-  +-- {: .query}
-  Maybe nowadays?, but not originally.  It was meant for
-  Lagrangians with symmetries.
-  =--
-  (Recall that in the physics literature the function algebra of these [[NQ-supermanifolds]] is addressed as the [[BRST complex]].)
+$$
+  A_{red} \simeq C^\infty(X_{red})
+  \,.
+$$ 
 
 
+We now discuss the BRST-BV complex for the set of constraints $I$ on $(X, \{-,-\})$, which will be a resolution of $A_{red}$ in the following sense:
+
+* instead of forming the [[quotient]] $X/G$ we form the [[action groupoid]] or [[quotient stack]] $X//G$. More precisely we do this for the infinitesimal action and consider a quotient [[Lie algebroid]];
+
+* instead of forming the intersecton $X|_{I = 0}$ we consider its derived locus.
+
+Let $\{T_1, \cdots, T_N\}$ be any finite set of gnerators of the [[ideal]] $I$. Then there exists a non-positively graded [[cochain complex]] on the graded algebra
+
+$$
+  A \otimes Sym(V)
+  \,,
+$$
+
+where $v$ is a [[graded vector space]] in non-positive degree and $Sym(V)$ is its symmetric [[tensor algebra]]: the [[Koszul-Tate resolution]] of $C^\infty(X)/I$.
+
+Then on
+
+$$
+  A \otimes Sym(V) \otimes Sym(V^*)
+$$
+
+(with $V^*$ in non-negative degree)
+
+there is an evident graded generalization of the Poisson bracket on $A$, which is on $V$ and $V^*$ just the canonical pairing.
+
+Write $\{c^\alpha\}$ for the [[basis]] for $V^*$, called the **ghosts**. Write $\{\pi_\alpha\}$ for the dual basis on $V$, called the **ghost momenta**.
+
+**Theorem** (Henneaux, Stasheff et al.) (**homological perturbaton theory)**
+
+There exists an element 
+
+$$
+  \Omega \in A \otimes S(V) \otimes S(V^*)
+$$
+
+the **BRST-BV charge** such that
+
+* $\{\Omega, \Omega\} =  0$, so that $(A\otimes S(V) \otimes S(V^*), d := \{\Omega, -\})$ is a [[cochain complex]], in fact a [[dg-algebra]];
+
+* the [[cochain cohomology]] is
+
+  $$
+    H^0(A \otimes S(V) \otimes S(V^*), d = \{\Omega, 0\}) = A/I
+    \;
+  $$
+
+  $$
+    H^{\lt 0}(A \otimes S(V) \otimes S(V^*), d = \{\Omega, 0\}) = 0
+    \;
+  $$
+
+  (which says that this is in non-positivbe degree a resolution of the constraint locus $A/I$)
+
+* If $I$ is a regular ideal (meaing that $V$ can be chosen to be concentrated in degree 1) or the vanishing ideal of a coisotropic submanifold, then the cohomology in positive degree 
+
+
+  $$
+    H^{\bullet \geq 0}(A \otimes S(V) \otimes S(V^*), d = \{\Omega, 0\})
+    \simeq
+    H^\bullet(CE(A/I, I/I^2))
+  $$
+
+  is isomorphic to the [[infinity-Lie algebra cohomology|Lie algebroid cohomology]] of the [[Lie algebroid]] whose [[Lie-Rinehart algebra]] is $(A/I, I/I^2)$
+
+  (which says that in positive degree the BRST-BV complex is a resolution of the [[action Lie algebroid]] of $\{I,-\}$ acting on $X$).
+
+
+**Theorem** (Oh-Park, Cattaneo-Felder) If $C \subset X$ is coisotropic, there is an [[L-infinity algebra]]-structure on $\wedge^\bullet  \Gamma(N C)$ such that the induced bracket on $H^0 = A_{red}$ is the given one;
+
+**Theorem** (Sch&#228;tz) The BRST-BV complex with $\{-,-\}$ as its Lie bracket is [[quasi-isomorphism|quasi-isomorphic]] to the above.
+
+## Lagrangian BV
 
 The [[path integral]] in [[quantum field theory]] is supposed to be the integral over a field [[configuration space]] $X$ using a [[measure]] $d\mu_S$ which is conceived in the form
 
@@ -234,34 +287,29 @@ $exp(\frac{i}{\hbar}S(-)) \mu$ is a _closed differential form_.
 
 This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on $L_\infty$-[[Lie infinity-algebroid|algebroid]]s in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the $L_\infty$-[[Lie infinity-algebroid|algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
 
-### Examples
+## Related concepts
 
-See [[examples for Lagrangian BV]].
+* [[BRST complex]]
 
+* [[homotopy BV algebra]]
 
-### Relation to groupoid cardinality
-
-There ought to be a close relation between the 
-integration over $L_\infty$-[[Lie infinity-algebroid|algebroid]]s using BV-formalism and the notion of [[groupoid cardinality]]
-for finite groupoids, which was recently generalized to 
-a notion of [[volume of a Lie groupoid]].
+## References
 
 
-
-## References and related entries
-
-#### Usual BRST (not BV)
-
-* Marc Henneaux, Teitelbaum, _Quantization of gauge systems_, Princeton University Press 1992. xxviii+520 pp.
+Plain BRST formalism is discussed in 
 
 * [[Glenn Barnich]], Friedemann Brandt, Marc Henneaux, _Local BRST cohomology in gauge theories_, Phys. Rep. __338__ (2000), no. 5, 439&#8211;569, [hep-th/0002245](http://xxx.lanl.gov/abs/hep-th/0002245), <a href="http://dx.doi.org/10.1016/S0370-1573(00)00049-1">doi</a>
 
-#### BV Formalism
+Basic texts on BRST-BV include
 
-* [[homotopy BV algebra]]
+* [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of gauge systems_, Princeton University Press 1992. xxviii+520 pp.
+
+
 * I. Batalin, G. Vilkovisky, _Gauge algebra and quantization_, Phys. Lett. 102B, 27 (1981), _Quantization of gauge theories with linearly dependent
 generators_, Phys. Rev. D29, 2567 (1983)
+
 * B. Zwiebach, _Closed string field theory: Quantum action and the B-V master equation_, Nucl. Phys. B 390, 33-152 (1993)
+
 * [[Glenn Barnich]], Friedemann Brandt, Marc Henneaux, _Local BRST cohomology in the antifield formalism. I. General theorems_, [euclid](http://projecteuclid.org/euclid.cmp/1104275094), [MR97c:81186](http://www.ams.org/mathscinet-getitem?mr=97c:81186)
 
 A comprehensive recent review is
@@ -293,6 +341,24 @@ The interpretation of the BV quantum master equation as a description of closed 
 
 * MO: [what is the BV formalism and its uses](http://mathoverflow.net/questions/30352/what-is-the-batalin-vilkovisky-formalism-and-what-are-its-uses-in-mathematics/32443#32443)
 
+ * _Basics of Poisson reduction_ ([blog](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html))
+
+ * Alejandro Cabrera, _Homological BV-BRST methods: from QFT to Poisson reduction_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Charla_IMPA_BRST.pdf))
+
+ * [[Jeremy Butterfield]], _On symplectic reduction in classical mechanis_ ([pdf](http://philsci-archive.pitt.edu/archive/00002373/01/ButterfieldNHSympRed.pdf))
+
+
+Remark  on the [[homotopy theory]] interpretation of BRST-BV are in
+
+* [[Jim Stasheff]], _Homological Reduction of Constrained Poisson Algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9603021))
+
+* [[Jim Stasheff]], _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
+
+The latter is NOT in a Poisson context, any more than Lagrangians are only for symplectic manifolds.
+
+
+
+
 [[!redirects BV-theory]]
 [[!redirects BV theory]]
 [[!redirects BV-BRST formalism]]
@@ -307,5 +373,11 @@ The interpretation of the BV quantum master equation as a description of closed 
 
 
 [[!redirects BV-BRST complex]]
+[[!redirects BRST-BV complex]]
+[[!redirects BV-BRST complexes]]
+[[!redirects BRST-BV complexes]]
+
 
 [[!redirects BRST-BV formalism]]
+
+[[!redirects symplectic reduction]]
