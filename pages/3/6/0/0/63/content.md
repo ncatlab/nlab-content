@@ -1,6 +1,22 @@
-#Idea#
 
-What is called the "BRST complex" in physics literture is the [[Lie infinity-algebroid|qDGCA]] which is the [[Chevalley-Eilenberg algebra]] of the $L_\infty$-[[Lie infinity-algebroid|algebroid]] which is the differential version in [[Lie theory]] if the $\infty$-groupoid 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+What is called the "BRST complex" in [[physics]] literture is the [[Lie infinity-algebroid|qDGCA]] which is the [[Chevalley-Eilenberg algebra]] of the $L_\infty$-[[Lie infinity-algebroid|algebroid]] which is the differential version in [[Lie theory]] if the $\infty$-groupoid 
 
  * whose space of objects is the space of configurations/histories of a given physical system;
 
@@ -18,9 +34,9 @@ The generators of the BRST complex are called
 
  * etc.
 
-#Relation to BV theory#
+## Related concepts
 
-In as far as the BRST complex can be regarded as being the algebra of functions on an $L_\infty$-[[Lie infinity-algebroid|algebroid]], the theory of [[integration over supermanifolds|integration]] over this $L_\infty$-[[Lie infinity-algebroid|algebroid]] is given by the [[BV theory|BV formalism]].
+The BRST complex described a homotopical [[quotient]] of a space by an infinitesimal [[action]]. Combined with a homotopical intersection, it is part of the [[BRST-BV complex]].
 
 
 [[!redirects BRST complexes]]
