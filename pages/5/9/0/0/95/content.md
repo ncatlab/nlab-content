@@ -64,6 +64,8 @@ $$
 K. Uhlenbeck, eds., Geometry and Quantum Field Theory , volume 1 of IAS/Park City Mathematics Series , AMS/IAS.
 
 This may explain why the link between Yetter's invariant and groupoid cardinality that [[Urs]] noted on the Caf&#233;, comes about in my work with Joao.
+
+
 =--
 
 ## Examples 
@@ -98,6 +100,13 @@ This may explain why the link between Yetter's invariant and groupoid cardinalit
     |E| = \sum_{n\in \mathbb{N}} \frac{1}{|S_n|} = \sum_{n\in \mathbb{N}} \frac{1}{n!} = e
    \,.
   $$
+
+* Let $E=(E_i)$ be a finite crossed complex (i.e. an omega-groupoid; see the work of Brown and Higgins) such that for any object $v \in E_0$ of $E$ the cardinality of the set of $i$-cells with source $v$ is independent of the vertex $v$. Then the groupoid cardinality of $E$ can be calculated as $|E|=\displaystyle{\prod_{i} \#(E_i)^{(-1)^i}}$, much like a usual Euler characteristic. For the case when $F$ is a totally free crossed complex, this gives a very neat formula for the groupoid cardinality of the internal hom $HOM(F,E)$, in the category of omega-groupoids. Therefore the groupoid cardinality of the  function spaces (represented themselves by internal homs) can easily be dealt with if the underlying target space is represented by a omega-groupoid = has trivial Whitehead products. This is explored in 
+
+[[João Faria Martins]],  On the homotopy type and the fundamental crossed complex of the skeletal filtration of a CW-complex (web [pdf](http://www.intlpress.com/HHA/v9/n1/a13/) ) and in [[João Faria Martins]], [[Tim Porter]], On Yetter's Invariant and an Extension of the Dijkgraaf-Witten Invariant to Categorical Groups, (web [pdf] (http://www.tac.mta.ca/tac/volumes/18/4/18-04abs.html )) 
+
+
+
 
 ## References
 
