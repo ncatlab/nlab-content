@@ -1,19 +1,20 @@
-A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mimicking this situation Vinogradov has introduced a geometric object related to systems of nonlinear differential equations, the __diffieties__. Other people also call these objects  D-varieties (Malgrange), D-schemes (Beilinson, Drinfeld) or differential algebras (Ritt, Kolchin) depending on the flavour of geometry.
+A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mimicking this situation Vinogradov has introduced a geometric object related to systems of nonlinear differential equations, the __diffieties__. Closely related notions in various flavours of geometry are the D-varieties (Malgrange), D-schemes (Beilinson, Drinfeld) and differential algebras (Ritt, Kolchin). 
 
- (Zoran: I object. There may be one idea, but as variety and scheme are not the same, the level of generality should be in mathematics precisely distinguished. D-schemes for example are not necessarily in characteristics zero.
-Michael: I agree that I was sloppy and should spell out the precise relation between the different definitions, but your remark about characteristic zero is not an objection. If you read Vinogradov he emphazises that everything should be expressed algebraically, and there is no problem in defining diffieties over characteristic p Zoran: but it is still a field: when we work with general rings and schemes, than unlike for varieties over a field, the residue fields vary from a point to a point, this is what I meant as a complication in taking equation approach, but I hope you will clear this out later.)
 
-* A. M. Vinogradov, _Local symmetries and conservation laws_, Acta Appl. Math., Vol. 2, 1984, p. 21. 
+* A. M. Vinogradov, _Local symmetries and conservation laws_, Acta Appl. Math., Vol. 2, 1984, p. 21, [MR85m:58192](http://www.ams.org/mathscinet-getitem?mr=736872), [doi](http://dx.doi.org/10.1007/BF01405491)
 
-* A. M. Vinogradov, _Symmetries and conservation laws of partial differential equations: basic notions and results_, Acta Appl. Math., Vol. 15, 1989, p. 3. 
+* A. M. Vinogradov, _Symmetries and conservation laws of partial differential equations: basic notions and results_, Acta Appl. Math., Vol. 15, 1989, p. 3. [MR91b:58282](http://www.ams.org/mathscinet-getitem?mr=1007340), [doi](http://dx.doi.org/10.1007/BF00131928)
 
-* A. M. Vinogradov, _Scalar differential invariants, diffieties and characteristic classes_, in: Mechanics, Analysis and Geometry: 200 Years after 
+* [[A. M. Vinogradov]], _Scalar differential invariants, diffieties and characteristic classes_, in: Mechanics, Analysis and Geometry: 200 Years after, 379&#8211;414, [MR92e:58244](http://www.ams.org/mathscinet-getitem?mr=1098525)
 
 * G. Cicogna, G. Gaeta, _Lie-point symmetries in bifurcation problems_, Annales de l'institut Henri Poincar&#233; (A) Physique th&#233;orique, 56 no. 4 (1992), p. 375-414 [numdam](http://www.numdam.org/item?id=AIHPA_1992__56_4_375_0)
 
 * [wikipedia:Diffiety](http://en.wikipedia.org/wiki/Diffiety)
 
-* [diffiety school](http://school.diffiety.org), [diffiety institute](http://diffiety.ac.ru)
+* [diffiety school](http://school.diffiety.org), [diffiety institute](http://diffiety.ac.ru), [gdeq.org wiki](http://gdeq.org/index.php?title=Welcome_to_GDEq.org!)
 
-
+* [[Alexandre M. Vinogradov]]'s [webpage](http://diffiety.ac.ru/curvita/amv.htm) 
+* Joseph Krasil'shchik's [webpage](http://diffiety.ac.ru/curvita/isk.htm) (with links to some papers) and [wiki list of publications](http://gdeq.org/index.php?title=Joseph_Krasil%27shchik)
+* Joseph Krasil'shchik, Alexander Verbovetsky, _Homological methods in equations of mathematical physics_, [arxiv:math.DG/9808130](http://xxx.lanl.gov/abs/math/9808130v2), 150 p.
+* Joseph Krasil'shchik, Alexander Verbovetsky, Geometry of jet spaces and integrable systems, J. Geom. Phys. (2010), [doi](doi:10.1016/j.geomphys.2010.10.012), [arXiv:1002.0077](http://arxiv.org/abs/1002.0077)
 [[!redirects diffeity]] [[!redirects Diffiety]] [[!redirects diffieties]]
