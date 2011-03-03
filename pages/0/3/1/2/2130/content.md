@@ -141,3 +141,6 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 [[!redirects symplectic form]]
 
 [[!redirects symplectic structure]]
+
+[[!redirects Hamiltonian vector field]]
+[[!redirects Hamiltonian vector fields]]
