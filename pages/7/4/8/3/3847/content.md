@@ -12,5 +12,5 @@
 * Description of seminar on stability conditions, Hall algebras and [[Stokes phenomenon|Stokes factors]] in Bonn 2009 ([[Daniel Huybrechts|D. Huybrechts]]), [pdf](http://www.math.uni-bonn.de/people/compgeo/Hall.pdf)
 * wikipedia: [Hall algebra](http://en.wikipedia.org/wiki/Hall_algebra), [Ringel-Hall algebra](http://en.wikipedia.org/wiki/Ringel&#8211;Hall_algebra)
 * sbseminar blog: [Hall algebras and Donaldson-Thomas invariants-i](http://sbseminar.wordpress.com/2009/03/25/hall-algebras-and-donaldson-thomas-invariants-i)
-* Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
+* Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. (chap. 10: Ringel-Hall algebras) [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
 [[!redirects Hall algebras]]
