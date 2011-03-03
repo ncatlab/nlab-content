@@ -1,4 +1,4 @@
-A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mimicking this situation Vinogradov has introduced a geometric object related to systems of nonlinear differential equations, the __diffieties__. Closely related notions in various flavours of geometry are the D-varieties (Malgrange), D-schemes (Beilinson, Drinfeld) and differential algebras (Ritt, Kolchin). 
+A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mimicking this situation Vinogradov has introduced a geometric object related to systems of nonlinear differential equations, the __diffieties__. Closely related notions in various flavours of geometry are the [[crystal]]s of schemes (Grothendieck), D-varieties (Malgrange), D-schemes (Beilinson, Drinfeld) and differential algebras (Ritt, Kolchin). 
 
 
 * A. M. Vinogradov, _Local symmetries and conservation laws_, Acta Appl. Math., Vol. 2, 1984, p. 21, [MR85m:58192](http://www.ams.org/mathscinet-getitem?mr=736872), [doi](http://dx.doi.org/10.1007/BF01405491)
@@ -9,7 +9,7 @@ A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mim
 
 * G. Cicogna, G. Gaeta, _Lie-point symmetries in bifurcation problems_, Annales de l'institut Henri Poincar&#233; (A) Physique th&#233;orique, 56 no. 4 (1992), p. 375-414 [numdam](http://www.numdam.org/item?id=AIHPA_1992__56_4_375_0)
 
-* [wikipedia:Diffiety](http://en.wikipedia.org/wiki/Diffiety)
+* wikipedia: [diffiety](http://en.wikipedia.org/wiki/Diffiety), [secondary calculus and cohomological physics](http://en.wikipedia.org/wiki/Secondary_calculus_and_cohomological_physics)
 
 * [diffiety school](http://school.diffiety.org), [diffiety institute](http://diffiety.ac.ru), [gdeq.org wiki](http://gdeq.org/index.php?title=Welcome_to_GDEq.org!)
 
