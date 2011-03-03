@@ -41,7 +41,7 @@ $$
 
 -- the category of [[simplicial presheaf|simplicial presheaves]] .
 
-Various interrelated flavors of model structures on the category of simplicial presheaves on $C$ have been introduced and studied since the 1970s, originally by K. Brown and [[Andre Joyal]] and then developed in detail by Jardine.
+Various interrelated flavors of model structures on the category of simplicial presheaves on $C$ have been introduced and studied since the 1970s, originally by K. Brown and [[Andre Joyal]] and then developed in detail by [[Rick Jardine]].
 
 Notice that when regarded as a presentation of an [[(∞,1)-sheaf]], i.e. of an [[∞-stack]], a simplicial presheaf -- being an ordinary functor instead of a [[pseudofunctor]] -- corresponds to a [[rectified ∞-stack]]. It might therefore seem that a model given by simplicial presheaves is too restrictive to capture the full expected flexibility of a notion of [[∞-stack]].
 But this is not so. 
@@ -250,7 +250,7 @@ $$
 
 For general $C$, there is still a whole family of model structures on $[C^{op}, sSet]$ that interpolates between the injective and the projective model structure. This is discussed in
 
-* Jardine, _Intermediate model structures for simplicial presheaves_ , Canad. Math. Bull. 49(3) (2006), 407&#8211;413.
+* [[Rick Jardine]], _Intermediate model structures for simplicial presheaves_ , Canad. Math. Bull. 49(3) (2006), 407&#8211;413.
 
   a review in on [p. 12](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=12) of [Field Lectures: Simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf)
 
@@ -1193,10 +1193,10 @@ A nice introduction and survey is provided in the notes
 
 Detailed discussion of the injective model structures on simplicial presheaves is in
 
-* J. Jardine, _Simplicial presheaves_ Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+* [[Rick Jardine]], _Simplicial presheaves_ Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 {#JardineLecture}
 
-* J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
+* [[Rick Jardine]], _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
 
 The projective model sructure is discussed in
 
