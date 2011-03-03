@@ -29,35 +29,7 @@ However, even reduced phase spaces are not all cotangent bundles, typically not,
 
 ## Definition
 
-Let $\mathbf{H}$ be the ambient [[cohesive (∞,1)-topos]] with a [[natural numbers object]] and equipped with a [[line object]] $\mathbb{A}^1$.
-
-For $C \in \mathbf{H}$ an object thought of as the _(field) configuration space_ or _space of histories_ of a physical system.  An [[action functional]] is a morphism
-
-$$
-  \exp(i S(-)) : C \to \mathbb{A}^1/\mathbb{Z}
-  \,.
-$$
-
-The [[Euler-Lagrange equation]] of the system is the corresponding <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">differential characteristic class</a> 
-
-$$
-  d \exp(i S) : C \stackrel{\exp(i S(-))}{\to} \mathbb{A}^1/\mathbb{Z}
-   \stackrel{}{\to} \mathbf{\flat}_{dR} \mathbf{B}\mathbb{A}^1
-  \,.
-$$
-
-The **covarian phase space** $P$ of the system -- the solution space of the Euler-Lagrange equations -- is the [[homotopy fiber]] of the  over $0 \in \mathbf{\flat}_{dR} \mathbb{A}^1 $, the [[(∞,1)-pullback]]
-
-$$
-  \array{
-     P &\to& *
-     \\
-     \downarrow && \downarrow^{\mathrlap{0}}
-     \\
-     C &\stackrel{d \exp(i S(-))}{\to}& \mathbf{\flat}_{dR} \mathbf{B}\mathbb{A}^1
-  }
-  \,.
-$$
+(...)
 
 ## Examples
 
