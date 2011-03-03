@@ -72,6 +72,4 @@ category: meta
 [[!redirects Home page]]
 [[!redirects homepage]]
 [[!redirects home page]]
-<a href="http://www.foxypropaganda.com/offset-printing/">offset printing</a>
-<a href="http://www.foxypropaganda.com/services/">dfw printing company</a>
-<a href="http://www.moralesvsmaidana.co.cc/">morales vs maidana</a>
+
