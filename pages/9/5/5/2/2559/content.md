@@ -1,9 +1,17 @@
-<div class="rightHandSide toc">
-[[!include synthetic differential geometry - contents]]
-***
-[[!include compact object - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -20,6 +28,8 @@ Notice that by definition of [[inner hom]], $(-)^\Delta$ always has a [[left adj
 Assume $\mathcal{T} = Sh(C)$ is a [[Grothendieck topos]], that the [[Grothendieck topology]] on the [[site]] $C$ is [[subcanonical coverage|subcanonical]]. Let $\Delta \in C \hookrightarrow Sh(C)$ be a [[representable functor|representable object]]. 
 
 Then $(-)^\Delta$ has a [[right adjoint]], hence $\Delta$ is an atomic [[infinitesimal space]],  precisely if it preserves [[colimit]]s.
+
+This is a special case of the general [[adjoint functor theorem]].
 
 For if $(-)^\Delta$ preserves colimits, its [[right adjoint]] is
 
