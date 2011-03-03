@@ -12,14 +12,14 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-What is called _Cartan calculus_ are the structures and relations present in a [[inner derivation Lie 2-algebra]].
+What is called _Cartan calculus_ are the structures and relations present in an [[inner derivation Lie 2-algebra]].
 
-For $X$ a [[smooth manifold]], consider the [[de Rham complex]] $(\Omega^\bullet(X), d_{dR})$ of [[differential form]]s on $X$, a [[cochain complex]] with the structure of a [[dg-algebra]].
+The classical examples considers for $X$ a [[smooth manifold]] the [[de Rham complex]] $(\Omega^\bullet(X), d_{dR})$ of [[differential form]]s on $X$, a [[cochain complex]] with the structure of a [[dg-algebra]].
 
 Every [[vector field]] $v \in \Gamma(T X)$ of $X$ induces a [[derivation]] on this [[dg-algebra]] of degree $-1$ 
 
@@ -54,7 +54,9 @@ These relations are sometimes called **Cartan calculus**. The first one is somet
 
 The relations of Cartan calculus are preciselyy those in an [[inner derivation Lie 2-algebra]].
 
-This allows to generalize Cartan calculus to oo-Lie algebroids, see the section <a href="http://ncatlab.org/nlab/show/Weil+algebra#AsInnerDer">As inner derivations</a> at [[Weil algebra]].
+This allows to generalize Cartan calculus to $\infty$-Lie algebroids, see the section <a href="http://ncatlab.org/nlab/show/Weil+algebra#AsInnerDer">As inner derivations</a> at [[Weil algebra]].
+
+There is also the full [[automorphism ∞-Lie algebra]] of any [[dg-algebra]], which subsumes the inner derivation algebras. This is the context in wich the calculus of [[derived brackets]] lives.
 
 
 ## References
