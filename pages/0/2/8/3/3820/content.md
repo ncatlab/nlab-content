@@ -100,3 +100,6 @@ Standard textbooks on [[classical mechanics]] include
 * wikipedia: [phase space](http://en.wikipedia.org/wiki/Phase_space)
 
 [[!redirects covariant phase space]]
+
+[[!redirects phase spaces]]
+[[!redirects covariant phase spaces]]
