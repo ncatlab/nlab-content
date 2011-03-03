@@ -60,15 +60,16 @@ They are also related to Duskin's notion of [[hypergroupoid]].(The connection is
 
  Relevant references for simplicial T-complexes include:
 
-* M.K. Dakin, _Kan complexes and multiple groupoid structures_ Ph.D Thesis, University of Wales, Bangor, 1977. [Esquisses Math. 32](http://ehres.pagesperso-orange.fr/Cahiers/dakinEM.pdf)
+* R. Brown, _An Introduction to simplicial T-complexes_,  [Esquisses Math. 32 (1983) Part 1](http://ehres.pagesperso-orange.fr/Cahiers/brownem32.pdf)
 
-* N. Ashley, _Simplicial T-Complexes: a non abelian version of a theorem of Dold-Kan_, Disser- 
-tations Math., 165, (1989), 11 &#8211; 58.
+* M.K. Dakin, _Kan complexes and multiple groupoid structures_ Ph.D Thesis, University of Wales, Bangor, 1977. [Esquisses Math. (1983) 32 Part 2](http://ehres.pagesperso-orange.fr/Cahiers/dakinEM.pdf)
 
-* G. Nan Tie, _A Dold-Kan theorem for crossed complexes_, J. Pure Appl. Alg., 56, (1989.), 177 
-&#8211; 194. 29, 37, 146, 254 
+* N. Ashley, _Simplicial T-Complexes: a non abelian version of a theorem of Dold-Kan_, Ph.D Thesis University of Wales, Bangor, 1978; Dissertationes Math., 165, (1989), 11 &#8211; 58.
+[Esquisses Math. (1983)  32 Part 3](http://ehres.pagesperso-orange.fr/Cahiers/AshleyEM32.pdf)
 
-* G. Nan Tie, _Iterated W and T-groupoids_, J. Pure Appl. Alg., 56, (1989), 195 &#8211; 209.
+* G. Nan Tie, _A Dold-Kan theorem for crossed complexes_, J. Pure Appl. Alg., 56, (1989.), 177 -&#8211; 194. 
+
+* G. Nan Tie, _Iterated W and T-groupoids_, J. Pure Appl. Alg., 56, (1989), 195 -&#8211; 209.
 
 * R. Brown,  and P.J. Higgins, _On the algebra of cubes_
 J. Pure Appl. Algebra 21 (1981) 233--260.
