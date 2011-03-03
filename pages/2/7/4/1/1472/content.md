@@ -143,15 +143,17 @@ But special aspects of quantization are quite well understood. See for instance
 
 We look at some aspects of the [above](#BasicStructures) general abstract story in more detail.
 
-### Gauge theory {#GaugeTheory}
+### Gauge theory 
+  {#GaugeTheory}
 
 #### Introduction
+ {#GaugeTheoryIntroduction}
 
 The discovery of [[gauge theory]]  is effectively the discovery of [[groupoid]]s in fundamental physics. The notion of [[gauge transformation]] is close to synonymous to the notion [[isomorphism]] and more generally to _[[equivalence in an (∞,1)-category]]_ .
 
 More precisely, the mathematical model for a [[gauge field]] in physics is a [[cocycle]] in [[differential cohomology]]. The development of [[differential cohomology]] has to a fair extent been motivated by and influenced by its application to fundamental theoretical physics in general and [[gauge theory]] in particular.  
 
-Around 1850 Maxwell realized that the  [[field strength]] of the [[electromagnetic field]] is modeled by a closed [[differential form|differential 2-form]] on [[spacetime]]. In the 1930s Dirac observed that more precisely this 2-form is the [[curvature]] 2-form of a [[circle group|U(1)]]-[[principal bundle]] with [[connection on a bundle|connection]], hence that the electromagnetic field is modeled 
+Around 1850 Maxwell realized that the [[field strength]] of the [[electromagnetic field]] is modeled by what today we call a closed [[differential form|differential 2-form]] on [[spacetime]]. In the 1930s Dirac observed that more precisely this 2-form is the [[curvature]] 2-form of a [[circle group|U(1)]]-[[principal bundle]] with [[connection on a bundle|connection]], hence that the electromagnetic field is modeled 
 by what today is called a degree 2-cocycle in _[[ordinary differential cohomology]]_ .
 
 Meanwhile, in 1915, Einstein had identified also the [[field strength]] of the [[gravity|field of gravity]] as the $\mathfrak{so}(d,1)$-valued curvature 2-form of the canonical [[orthogonal group|O(d,1)]]-[[principal bundle]] [[connection on a bundle|with connection]] on a $d+1$-dimensional [[spacetime]] [[Lorentzian manifold]]. This is a cocycle in differential [[nonabelian cohomology]]: in [[Chern-Weil theory]].
