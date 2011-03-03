@@ -78,6 +78,63 @@ On topological spaces, this model structure has
 
 ## Properties
 
+### Restriction to nice topological spaces
+ {#OnNiceTopologicalSpaces}
+
+For the discussion of the [[homotopy theory]] given by the model structure on topological spaces, it is necessary or at least useful to bass to subcatgeories of [[nice topological spaces]].
+
++-- {: .un_defn}
+###### Definition
+
+Write
+
+* $kTop \hookrightarrow Top$ for the [[full subcategory]] of [[k-space]]s;
+
+* $CGTop \hookrightarrow Top$ for the full subcategory of [[compactly generated space]]s.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+There is a [[model category]] structure $kTop_{Quillen}$ on $kTop$ in which a morphism is a cofibration, fibration or weak equivalence, respectively, precisely if it is so under the inclusion $kTop \hookrightarrow Top$. And this inclusion is the [[left adjoint]] in a [[Quillen equivalence]]
+
+$$
+  Top_{Quillen} \stackrel{\overset{}{\hookleftarrow}}{\underset{}{\to}}
+  kTop_{Quillen}
+  \,.
+$$
+
+=--
+
+This appears for instance as ([Hovey, theorem 2.4.23](#Hovey))
+
+
++-- {: .un_prop}
+###### Proposition
+
+There is a [[model category]] structure $CGTop_{Quillen}$ on $CGTop$ in which a morphism is a cofibration, fibration or weak equivalence, respectively, precisely if it is so under the inclusion $CGTop \hookrightarrow Top$. And this inclusion is the [[right adjoint]] in a [[Quillen equivalence]]
+
+$$
+  CGTop_{Quillen} \stackrel{\overset{w}{\leftarrow}}{\underset{}{\hookrightarrow}}
+  kTop_{Quillen}
+  \,.
+$$
+
+=--
+
+Notice that $Top_{Quillen}$ is _not_ a [[monoidal model category]], because $Top$ itself is not ([[cartesian closed category|cartesian]]) [[closed monoidal category|closed]].
+
++-- {: .un_prop}
+###### Proposition
+
+
+Both $kTop_{Quillen}$ and $CGTop_{Quillen}$ are [[symmetric monoidal category|symmetric]] [[monoidal model categories]].
+
+=--
+
+This appears as ([Hovey, prop. 4.2.11](#Hovey)).
+
 ### Relation between $Top_{Quillen}$ and $sSet_{Quillen}$
 
 The [Quillen model structure](#QuillenModelStructure) $Top_{Qullen}$ is [[Quillen equivalence|Quillen equivalent]] to the standard (Quillen) [[model structure on simplicial sets]] via the total [[fundamental infinity-groupoid|singular complex]] and [[geometric realization]] functors.
@@ -112,11 +169,16 @@ between the [Quillen model structure](#QuillenModelStructure) and the [Strom mod
 
 ## References 
 
-For the original "Quillen" or "q-" model structure:
+For the original "Quillen" or "q-" model structure see
 
 * [[Dan Quillen]], _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
 
-* Any book on model categories, such as Hovey's _Model categories_ or Hirschhorn's _Model categories and their localizations_.
+Standard textbooks references include 
+
+* [[Mark Hovey]] _Model categories_ 
+{#Hovey}
+
+* Hirschhorn _Model categories and their localizations_.
 
 For the "Hurewicz," "Str&#248;m," or "h-" model structure:
 
@@ -125,6 +187,8 @@ For the "Hurewicz," "Str&#248;m," or "h-" model structure:
 For the "mixed" or "m-" model structure:
 
 * Michael Cole, _Mixing model structures_, Topology Appl. 153 no. 7 (2006) [doi](http://dx.doi.org/10.1016/j.topol.2005.02.004).
+
+
 
 
 [[!redirects model category of topological spaces]]
