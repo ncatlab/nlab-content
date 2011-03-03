@@ -14,3 +14,4 @@ category: people
 [[!redirects Kapranov]]
 [[!redirects Михайл Капранов]]
 [[!redirects Капранов]]
+[[!redirects M. Kapranov]]
