@@ -155,6 +155,6 @@ _Toby_:  I find $(f \downarrow g)$ more self explanatory, but $(f/g)$ is cool.  
 
 ## Further reading ##
 
-[a low-tech description with several special cases identified in somewhat archaic terminology](http://toby.bartels.name/notes/#comma)
+[a low-tech description with several special cases identified in somewhat archaic terminology](http://tobybartels.name/notes/#comma)
 
 [[!redirects comma categories]]
