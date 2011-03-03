@@ -14,9 +14,9 @@ A **sieve in** a category $C$ is a [[full subcategory]] closed under precomposit
 
 A **sieve on** an object $X \in C$ is a sieve in the [[overcategory]] $C/X$: a collection of morphisms with codomain $X$ that are closed under precomposition with morphisms in $C$.
 
-Often in the literature the term is used just in the more specific second sense. And sieves _on_ objects are mostly used in the context of [[Grothendieck topologies]] to encode [[presheaves]] that behave like [[covering]]s. It is used to say which [[presheaves]] are actually [[sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
+Often in the literature the term is used just in the more specific second sense. And sieves _on_ objects are mostly used in the context of [[Grothendieck topologies]] to present the [[presheaves]] that behave like [[covering]]s. They are used to say which [[presheaves]] are actually [[sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
 
-_Sieves_ are an equivalent way to encode [[subobjects]] of [[representable functors]] in a [[presheaf]] category in terms of the total sets of _elements_ of such a [[subfunctor]].
+_Sieves_ are an equivalent way to talk about [[subobjects]] of [[representable functors]] in a [[presheaf]] category in terms of the total sets of _elements_ of such a [[subfunctor]].
 
 The notion of _sieve_ is usually used when certain such subobjects are singled out as [[covers]] of a (sifted) [[coverage]]: the singled out subobjects then correspond to _covering sieves_.
 
@@ -30,6 +30,15 @@ A dual notion is a [[cosieve]].
 ## Definition
 
 Let $C$ be a [[small category]].
+
++-- {: .un_defn}
+###### Definition
+A _sieve $S$ in $C$_ is a functor $S \hookrightarrow C$ that is both [[fully faithful]] and a [[discrete fibration]].
+
+A _sieve on an object $c \in C$_ is a sieve in the [[slice category]] $C/c$.
+=--
+
+Spelling this out, we arrive at the traditional definition of a sieve on an object:
 
 +-- {: .un_defn}
 ###### Definition
@@ -438,7 +447,7 @@ $$
 
 is the presheaf that to every $W$ assigns the set of all maps $W \to V$ that factor through any one of the $U_i$.
 
-It is in this way that sieves and their associated subfunctors encode the notion of _cover_ of an object $V$: they tell us which of all the maps into $V$ do factor through the cover.
+It is in this way that sieves and their associated subfunctors encapsulate the notion of _cover_ of an object $V$: they tell us which of all the maps into $V$ do factor through the cover.
 
 And, to end this pedagocial piece with an outlook to indicate the gain in understanding this achieves:
 
