@@ -278,9 +278,9 @@ and
 
 The original references are:
 
-* T. Lada and J. Stasheff,  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv](http://arxiv.org/abs/hep-th/9209099))
+* [[Tom Lada]] and [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv](http://arxiv.org/abs/hep-th/9209099))
 
-* Tom Lada, Martin Markl, _Strongly homotopy Lie algebras_ ([arXiv](http://arxiv.org/abs/hep-th/9406095))
+* [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ ([arXiv](http://arxiv.org/abs/hep-th/9406095))
 
 A quick web entry is:
 
@@ -288,7 +288,7 @@ A quick web entry is:
 
 See also for instance section 3.1 of:
 
-Alberto S. Cattaneo, Florian Sch&auml;tz, _Equivalences of higher derived brackets_ ([arXiv](http://arxiv.org/abs/0704.1403))
+* [[Alberto Cattaneo]], [[Florian Schätz]], _Equivalences of higher derived brackets_ ([arXiv](http://arxiv.org/abs/0704.1403))
 
 The standard reference for Lie 2-algebras is:
 
