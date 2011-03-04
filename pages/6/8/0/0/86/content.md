@@ -414,20 +414,16 @@ and in section 2 of
 * [[Alberto Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, _On the Hochschild-Kostant-Rosenberg map for graded manifolds_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/05-06.pdf))
 {#CattaneoFiorenzaLongoni}
 
+A discussion in the general context of [[BV-algebra]]s is in
+
+* C. Roger, _Gerstenhaber and Batalin-Vilkovisky algebras_ ([ps](http://www.emis.de/journals/AM/09-4/roger.ps.gz))
+{#Roger}
 
 
 The application in [[string theory]]/[[string field theory]] is discussed in
 
 * B. Zwiebach, _Closed string field theory: Quantum action and the B-V master equation_, Nucl. Phys. B 390, 33-152 (1993)
 
-
-
-Remark  on the [[homotopy theory]] interpretation of BRST-BV are in
-
-
-* [[Jim Stasheff]], _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
-
-The latter is NOT in a Poisson context, any more than Lagrangians are only for symplectic manifolds.
 
 
 
@@ -449,6 +445,12 @@ Homological Poisson reduction is discussed in
 
 * [[Jim Stasheff]], _Homological Reduction of Constrained Poisson Algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9603021))
 {#Stasheff96}
+
+Remarks  on the [[homotopy theory]] interpretation of BRST-BV are in
+
+* [[Jim Stasheff]], _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
+
+
 
 A standard textbook on the application of BRST-BV to [[gauge theory]] is
 
