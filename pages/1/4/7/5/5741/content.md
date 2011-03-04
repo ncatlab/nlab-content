@@ -1,0 +1,1 @@
+Claude Roger is a French mathematician based at Lyon 1. There is a summary of his contribution to research at the [website](http://math.univ-lyon1.fr/~okra/Claude2009/Claude-resume.html) of a colloquium (*ALGEBRES DE LIE DE DIMENSION INFINIE : GEOMETRIE ET COHOMOLOGIE*) held in his honour.
