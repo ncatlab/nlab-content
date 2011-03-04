@@ -57,16 +57,9 @@ $$
   \,.
 $$
 
-+--{: .query}
-[[Tim Porter]] This looks to be more or less the same as what is referred to as the total homotopy order of a space, introduced by Quinn in notes on TQFTs :
-
-[[Frank Quinn]], 1995, Lectures on axiomatic topological quantum field theory , in D. Freed and 
-K. Uhlenbeck, eds., Geometry and Quantum Field Theory , volume 1 of IAS/Park City Mathematics Series , AMS/IAS.
-
-This may explain why the link between Yetter's invariant and groupoid cardinality that [[Urs]] noted on the Caf&#233;, comes about in my work with Joao.
+This corresponds to what is referred to as the *total homotopy order of a space*, introduced by Quinn in notes in 1995 on TQFTs (see reference list).
 
 
-=--
 
 ## Examples 
 
@@ -101,9 +94,8 @@ This may explain why the link between Yetter's invariant and groupoid cardinalit
    \,.
   $$
 
-* Let $E=(E_i)$ be a finite crossed complex (i.e. an omega-groupoid; see the work of Brown and Higgins) such that for any object $v \in E_0$ of $E$ the cardinality of the set of $i$-cells with source $v$ is independent of the vertex $v$. Then the groupoid cardinality of $E$ can be calculated as $|E|=\displaystyle{\prod_{i} \#(E_i)^{(-1)^i}}$, much like a usual Euler characteristic. For the case when $F$ is a totally free crossed complex, this gives a very neat formula for the groupoid cardinality of the internal hom $HOM(F,E)$, in the category of omega-groupoids. Therefore the groupoid cardinality of the  function spaces (represented themselves by internal homs) can easily be dealt with if the underlying target space is represented by a omega-groupoid = has trivial Whitehead products. This is explored in 
+* Let $E=(E_i)$ be a finite [[crossed complex]], (i.e., an [[omega-groupoid]]; see the work of Brown and Higgins) such that for any object $v \in E_0$ of $E$ the cardinality of the set of $i$-cells with source $v$ is independent of the vertex $v$. Then the groupoid cardinality of $E$ can be calculated as $|E|=\displaystyle{\prod_{i} \#(E_i)^{(-1)^i}}$, much like a usual Euler characteristic. For the case when $F$ is a totally free crossed complex, this gives a very neat formula for the groupoid cardinality of the internal hom $HOM(F,E)$, in the category of [[omega-groupoids]]. Therefore the groupoid cardinality of the  function spaces (represented themselves by internal homs) can easily be dealt with if the underlying target space is represented by a [[omega-groupoid]], i.e.,  has trivial [[Whitehead products]]. (This is explored in the papers by Faria Martins and Porter mentioned in the reference list, below.)
 
-[[João Faria Martins]],  On the homotopy type and the fundamental crossed complex of the skeletal filtration of a CW-complex (web [pdf](http://www.intlpress.com/HHA/v9/n1/a13/) ) and in [[João Faria Martins]], [[Tim Porter]], On Yetter's Invariant and an Extension of the Dijkgraaf-Witten Invariant to Categorical Groups, (web [pdf] (http://www.tac.mta.ca/tac/volumes/18/4/18-04abs.html )) 
 
 
 
@@ -114,9 +106,17 @@ This may explain why the link between Yetter's invariant and groupoid cardinalit
 
 * [[John Baez]], [[James Dolan]], _From Finite Sets to Feynman Diagrams_ ([arXiv](http://arxiv.org/abs/math.QA/0004133))
 
+* [[João Faria Martins]],  On the homotopy type and the fundamental crossed complex of the skeletal filtration of a CW-complex (web [pdf](http://www.intlpress.com/HHA/v9/n1/a13/) ) 
+
+* [[João Faria Martins]], [[Tim Porter]], On Yetter's Invariant and an Extension of the Dijkgraaf-Witten Invariant to Categorical Groups, (web [pdf] (http://www.tac.mta.ca/tac/volumes/18/4/18-04abs.html )) 
+
 * [[Tom Leinster]], _The Euler characteristic of a category_ ([arXiv](http://arxiv.org/abs/math.CT/0610260), [TWF](http://math.ucr.edu/home/baez/week244.html), [blog](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_5.html), [blog](http://golem.ph.utexas.edu/category/2006/10/euler_characteristic_of_a_cate.html))
 
 * Kazunori Noguchi, _The Euler characteristic of infinite acyclic categories with filtrations_, [arxiv/1004.2547](http://arxiv.org/abs/1004.2547)
+
+
+* [[Frank Quinn]], 1995, Lectures on axiomatic topological quantum field theory , in D. Freed and 
+K. Uhlenbeck, eds., Geometry and Quantum Field Theory , volume 1 of IAS/Park City Mathematics Series , AMS/IAS.
 
 [[!redirects ∞-groupoid cardinality]]
 
