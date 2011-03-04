@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -78,5 +77,5 @@ J. Pure Appl. Algebra 21 (1981) 233--260.
 
 
 
-
+[[!redirects simplical T-complex]]
 [[!redirects simplicial T-complexes]]
