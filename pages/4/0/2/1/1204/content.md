@@ -1,3 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+
 The aim of _Homological Perturbation Theory_ is to construct small [[chain complex]]es from large ones. It was originally developed for the calculation of chain models of the total spaces of fibre spaces, but has since developed into a useful general computational tool. 
 
 Let $(X,d), (Y,d)$ be chain complexes over a ring $R$ and let $f: X \to Y, \nabla: Y \to X$ be chain maps, and $\Phi: X \to X$ a [[chain homotopy]] such that 
@@ -20,12 +39,23 @@ There is considerable interest in describing the new differential in terms of a 
 
 This result derived from earlier work of G. Hirsch, E.H. Brown, Weishu Shih, and has been widely developed into a useful theoretical and computational tool by Guggenheim, Lambe, Stasheff and others.  
 
-#References#
+## Applications
+
+* [[BRST-BV formalism]]
+
+
+## References
 
 * R. Brown, The twisted Eilenberg-Zilber Theorem,  Simposio di Topologia (Messina, 1964)  pp. 33--37 Edizioni Oderisi, Gubbio
 
 * Barnes, Donald W.(5-SYD-PM); Lambe, Larry A.(5-SYD-PM)
 A fixed point approach to homological perturbation theory.
 Proc. Amer. Math. Soc. 112 (1991), no. 3, 881--892. 
+
+
+* Larry A. Lambe, _Homological Perturbation Theory
+Hochschild Homology and Formal Groups_ Cont. Math., vol 189, AMS, 1992 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.64.8783&rep=rep1&type=pdf))
+
+* V. &#193;lvarez ,  J.A. Armario ,  P. Real ,  B. Silva , _Homological Perturbation Theory And Computability Of Hochschild And Cyclic Homologies Of Cdgas_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.6955))
 
 
