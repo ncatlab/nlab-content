@@ -19,7 +19,7 @@
 __Koszul duality__ is a duality and phenomenon generalizing the duality between the symmetric and exterior algebra of a vector space to so-called quadratic [[differential graded algebra]]s (which can be obtained as a free dga module an ideal of relations which live in degree 2). For a pair of Koszul dual algebras, there is a correspondence between certain parts of their derived categories (precise formulation involves some finiteness conditions). In a setup in which one of the algebras is replaced by a cocomplete dg coalgebra, there is a formulation free of finiteness conditions, but involving [[twisting cochain]] (see that entry).
 
 
-## On operad
+## On operads
 
 Koszul duality is a duality between [[quadratic operad]]s, predicted in 
 
@@ -67,13 +67,19 @@ Other historical references on Koszul duality include
 
 * A. Beilinson, V. Ginzburg, W. Soergel, _Koszul duality patterns in representation theory_,  J. Amer. Math. Soc.  9  (1996),  no. 2, 473--527. 
 
-Koszul duality is also discussed in [[John Baez]]' [This Week's Finds in Mathematical Physics](http://math.ucr.edu/home/baez/TWF.html):
+Koszul duality is also discussed in 
 
-* [Week 238](http://math.ucr.edu/home/baez/week238.html), [Week 239](http://math.ucr.edu/home/baez/week239.html)
+* [[John Baez]], [TWF Week 238](http://math.ucr.edu/home/baez/week238.html), [Week 239](http://math.ucr.edu/home/baez/week239.html)
 
-in "the Everything Seminar" [koszul-duality-and-lie-algebroids](http://cornellmath.wordpress.com/2008/03/25/koszul-duality-and-lie-algebroids) and at MathOverflow: [What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality), [Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality)
+* _The Everything Seminar_ , _[koszul-duality-and-lie-algebroids](http://cornellmath.wordpress.com/2008/03/25/koszul-duality-and-lie-algebroids)_ 
 
-A "curved" generalization:
+* MathOverflow,
+ 
+  _[What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality), 
+
+  _[Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality)_
+
+A "curved" generalization is discussed in
 
 * Joseph Hirsh, Joan Mill&#232;s, _Curved Koszul duality theory_, Max Planck preprint MPIM2010-104, [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=4217)
 
