@@ -59,7 +59,18 @@ The pairing $\{ - ,- \} : M\times M \to L$ is often called the **Peiffer lifting
 
 *  In a $2$-crossed module as above the structure $\partial_2: L \to M$ is a [[crossed module]], but $\partial_1: M\to N$ may not be one, as the Peiffer identity need not hold.  The _[[Peiffer commutator]]_, which measures the failure of that identity, may not be trivial, but it will be a boundary element and the Peiffer lifting gives a structured way of getting an element in $L$ that maps down to it.
 
-*  It is sometimes useful to consider a [[crossed module]] as being a [[crossed complex]] of length 1 (i.e. on possibly non-trivial morphism only).  Likewise one can consider a 2-crossed module as a special case of a [[2-crossed complex]]. Such a gadget is intuitively a 2-crossed module with a 'tail', which is a chain complex of modules over the $\pi_0$ of the base 2-crossed module, much as a crossed complex is a crossed module together with a 'tail'. The homotopy theory of these is little developed as yet, but, in part, is related to the theory of [[quadratic module]]s and [[quadratic complex]]es as introduced by Baues.
+*  It is sometimes useful to consider a [[crossed module]] as being a [[crossed complex]] of length 1 (i.e. on possibly non-trivial morphism only).  Likewise one can consider a 2-crossed module as a special case of a [[2-crossed complex]]. Such a gadget is intuitively a 2-crossed module with a 'tail', which is a chain complex of modules over the $\pi_0$ of the base 2-crossed module, much as a crossed complex is a crossed module together with a 'tail'. 
+
+* A quadratic module, as developed by [[H.-J. Baues]], is a special case of a 2-crossed module, satisfying nilpotency conditions at the level of the underlying pre-crossed module (which is a close to being a crossed module as possible.)  The fundamental quadratic module of a CW-complex yields an equivalence of categories between the category of pointed 3-types and the category of quadratic modules.
+
+
+* A functorial fundamental 2-crossed module of a CW-complex can also be defined, by using Graham Ellis fundamental crossed square of a CW-complex; this is explained in the article of  Jo&#227;o Faria Martins, below. We can also define this fundamental 2-crossed module of a CW-complex, by using Kan's fundamental simplicial group of a CW-complex, and by applying the usual reflection from simplicial groups to simplicial groups of Moore complex of lenght two, known to be equivalent to 2-crossed modules.
+
+
+* The homotopy theory of 2-crossed modules can be addressed by noting that 2-crossed modules, inducing a reflective subcategory of the category of simplicial groups, inherit a natural Quillen model structure, as explored in the article of Cabello and Garzon below. A version very close to the usual homotopy theory of crossed complexes was developed in the article of Joao Faria Martins below in a parallel way to the homotopy theory of [[quadratic module]]s and [[quadratic complex]]es as introduced by [[H.-J. Baues]].
+
+
+
 
 ## Examples
 
@@ -131,3 +142,21 @@ The full result and an explanation of what is going on here is given in
 
 
 [[!redirects 2-crossed modules]]
+
+## References:
+
+* [[H-J Baues]]: Combinatorial homotopy and $4$-dimensional complexes. With a preface by Ronald Brown. de Gruyter Expositions in Mathematics, 2. Walter de Gruyter \& Co., Berlin, 1991. 
+
+
+* Cabello J. G.; Garz&#243;n A. R.: Quillen's theory for algebraic models of $n$-types.  Extracta Math.  9  (1994),  no. 1, 42--47.
+
+
+*  [[Daniel Conduché]]:
+Modules crois&#233;s g&#233;n&#233;ralis&#233;s de longueur $2$. 
+Proceedings of the Luminy conference on algebraic $K$-theory (Luminy, 1983). J. Pure Appl. Algebra 34 (1984), no. 2-3, 155--178. 
+
+
+* [[Joao Faria Martins]] Homotopy of 2-crossed complexes and the homotopy category of pointed 3-types (wed [pdf] (http://ferrari.dmat.fct.unl.pt/~jnm/Hom2XComplexes.pdf))
+
+* [[Graham Ellis]]: Crossed squares and combinatorial homotopy.  Math. Z.  214  (1993),  no. 1, 93--110.
+
