@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Contents {: .clickToReveal}
@@ -72,4 +71,3 @@ category: meta
 [[!redirects Home page]]
 [[!redirects homepage]]
 [[!redirects home page]]
-
