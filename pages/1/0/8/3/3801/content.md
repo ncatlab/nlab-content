@@ -41,3 +41,7 @@ The study of _string topology_ was initated by Moira Chas and [[Dennis Sullivan]
 
 * Po Hu, _Higher string topology on general spaces_, Proc. London Math. Soc. __93__ (2006) 515-544, [doi](http://dx.doi.org/10.1112/S0024611506015838), [ps](http://www.math.wayne.edu/~po/koszul04.ps)
 
+
+The relation between string topology and [[Hochschild cohomology]] in dimenion $\gt 1$ is discussed in
+
+* [[Dmitry Vaintrob]], _The String topology BV algebra, Hochschild cohomology and the Goldman bracket on surfces_ ([arXiv:0702859](http://arxiv.org/abs/math/0702859))
