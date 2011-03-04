@@ -1,7 +1,7 @@
 
-__Poincar&#233; duality__ 
-
-* [wikipedia](http://en.wikipedia.org/wiki/Poincar%C3%A9_duality)
+#Contents#
+* table of contents
+{:toc}
 
 
 ## Properties
@@ -36,6 +36,26 @@ Dennis Sullivan's paper Infinitesmal Computations in Topology (Theorem 13.2).  T
 
 =--
 
+## References
+
+### For Hochschild cohomology
+
+[[nLab:Poincaré duality]] on [[nLab:Hochschild cohomology|Hochschild (co)homology]]
+
+* M. Van den Bergh, _A relation between Hochschild homology and cohomology for Gorenstein rings_ . Proc. Amer. Math. Soc. 126 (1998), 1345&#8211;1348; ([JSTOR](http://www.jstor.org/stable/118786)) 
+
+  Correction: Proc. Amer. Math. Soc. 130 (2002), 2809&#8211;2810.
+{#VanDenBergh}
+
+with more on that in
+
+* U. Kr&#228;hmer, _Poincar&#233; duality in Hochschild cohomology_
+  ([pdf](http://www.maths.gla.ac.uk/~ukraehmer/brussels.pdf))
+
+That this Poincare duality takes the [[Connes coboundary operator]] to the [[BV operator]] is shown in 
+
+* [[nLab:Victor Ginzburg]], _Calabi-Yau Algebras_  ([arXiv](http://arxiv.org/abs/math.AG/0612139)) 
+{#Ginzburg}
 
 
 [[!redirects Poincare duality]]
