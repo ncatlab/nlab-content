@@ -44,6 +44,11 @@ $${C}(G)_{n} = \frac{\mathcal{N}G_n}{(\mathcal{N}G_n\cap D_n)d_0(\mathcal{N}G_{n
 
 The Moore complex of a simplicial group $G$ has the structure of a 2-crossed complex if and only if for each $n\gt 2$, $\mathcal{N}G_n\cap D_n$ is trivial. This means that the axioms of a [[group T-complex]] are almost satisfied, but not necessarily in  dimension 2.
 
+* A quadratic chain complex as defined by H.J. Baues is a special case of a 2-crossed complex, satisfying additional (pre-crossed module) nilpotency condition at the level of the underlying pre-crossed module. (In fact the category of quadratic chain complexes is a reflective subcategory of the category of 2-crossed complexes.) In Baues' book referenced below, there is the construction of the fundamental quadratic chain complex of a pointed CW-complex. The reflection (or cotruncation) of this to the category of quadratic modules (i.e. 3-truncated quadratic chain complexes) faithfully represents  the homotopy 3-type of a CW-space (at the level of spaces and maps between them).
+
+* Graham Ellis defined the fundamental squared complex of a CW-complex from triad homotopy groups and generalised Whitehead products, and showed how Baues fundamental quadratic chain complex of a CW-complex can be obtained from it. A homotopy 2-crossed complex of a CW-complex can also be defined is the same way, see the work of Jo&#227;o Faria Martins below.
+
+
 ##Crossed complexes and 2-crossed complexes.
 Any [[crossed complex]] can be given the structure of a 2-crossed complex simply by defining a trivial Peiffer lifting, $\{-,-\}$. As the Peiffer lifting covers the Peiffer commutators in $C_1$, and these are trivial (since the bottom of the crossed complex is a crossed module), this trivial Peiffer lifting works and gives a 2-crossed complex structure.  This defines a functor from the category of crossed complexes to that of 2-crossed complexes.
 
@@ -51,6 +56,16 @@ Any 2-crossed complex which has a Peiffer lifting that is trivial $\{x,y\} = 1$,
 
 This functor, from $Crs$ to $2-Crs$, has a left adjoint which is the identity on the subcategory of $2-Crs$ with trivial Peiffer liftings, so $Crs$ is equivalent to a reflective subcategory of $2-Crs$
 
+
+
+
 ##References##
 
-See the [[Crossed Menagerie]], chapter 4.
+* See the [[Crossed Menagerie]], chapter 4.
+
+* [[H.-J. Baues]], Combinatorial Homotopy and 4-Dimensional Complexes , de Gruyter Expositions in Mathematics 2, Walter de Gruyter, (1991).
+
+* [[Graham Ellis]], Crossed squares and combinatorial homotopy. Mathematische Zeitschrift
+Volume 214, Number 1, 93-110, DOI: 10.1007/BF02572393
+
+* [[João Faria Martins]], Homotopies of 2-crossed complexes and the homotopy category of pointed 3-types (web [pdf] (http://ferrari.dmat.fct.unl.pt/~jnm/Hom2XComplexes.pdf))
