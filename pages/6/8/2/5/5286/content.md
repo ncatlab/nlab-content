@@ -68,6 +68,14 @@ The [[operad]] for $(n+1)$-BV-algebras is the [[homology]] of the [[framed littl
 
 This appears as ([CohenVoronov, theorem 5.3.3](#CohenVoronov)).
 
+## Examples
+
+* On a [[smooth manifold]] $X$ with a [[volume form]] $\omega$ the operation of contraction with the volume form gives an [[isomorphism]] between [[differential form]]s and [[multivector field]]s. Under this isomorphism the de Rham differential on forms becomes a BV-operator on [[multivector field]]s. See there for more details.
+
+Multivecotr field can be identified with [[Hochschild cohomology]] in good cases. So the next example is a generalization of the previous one.
+
+* [[Hochschild cohomology]] (see there for details) carries a canonical BV-algebra structure. 
+
 ## Related concepts
 
 * **BV-algebra**
@@ -76,11 +84,32 @@ This appears as ([CohenVoronov, theorem 5.3.3](#CohenVoronov)).
 
 ## References
 
+The identification o BV-algebras as algebras over the homology of the framed little disk operad is due to
+
 * [[Ezra Getzler]], _Batalin-Vilkovisky algebras and two-dimensional topological field theories_ , Comm. Math. Phys. 159 (1994), no. 2, 265&#8211;285. ([arXiv](http://arxiv.org/abs/hep-th/9212043))
 {#Getzler}
 
+The generalization to higher dimensional framed little disks is discussed in
+
 * [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](http://arxiv.org/abs/math/0503625))
 {#CohenVoronov}
+
+The BV-algebra structure on [[multivector field]]s on an [[oriented]] [[smooth manifold]] is discussed for instance in section 2 of 
+
+* [[Alberto Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, _On the Hochschild-Kostant-Rosenberg map for graded manifolds_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/05-06.pdf))
+{#CattaneoFiorenzaLongoni}
+
+and on p. 6 of 
+
+* C. Roger, _Gerstenhaber and Batalin-Vilkovisky algebras_ ([ps](http://www.emis.de/journals/AM/09-4/roger.ps.gz))
+
+
+The BV-algebra structure on  [[Hochschild cohomology]] is discussed for instance in
+
+* Y. F&#233;lix, J.-C. Thomas, M. Vigu&#233;-Poirrier, _The Hochschild cohomology of a closed manifold_ Publ. Math. IH&#201;S Sci. (2004) no 99, 235-252
+{#FelixThomasVigue-Poirrier}
+
+* Luc Menichi, _Batalin-Vilkovisky algebra structures on Hochschild cohomology_ ([pdf](http://math.univ-angers.fr/perso/lmenichi/BV_Hochschild.pdf))
 
 
 [[!redirects BV-algebras]]
