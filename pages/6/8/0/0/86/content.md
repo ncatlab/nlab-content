@@ -113,7 +113,7 @@ More on this at [[function algebras on ∞-stacks]].
 
 ## Lagrangian and Hamiltonian version
 
-Much of [[nLab:physics]] is encoded in [[nLab:variational caluclus]]:
+Much of [[nLab:physics]] is encoded in [[nLab:variational calculus]]:
 
 given a [[nLab:configuration space]] $C$ of a physical system, an [[nLab:action functional]]
 
@@ -133,7 +133,7 @@ Homotopical incarnations of (covariant) phase spaces and their reduciton is give
 
 
 
-## Hamiltonian BV
+## Hamiltonian BFV
  {#HamiltonianBV}
 
 ### Homotopical Poisson reduction
@@ -228,7 +228,9 @@ there is an evident graded generalization of the Poisson bracket on $A$, which i
 
 Write $\{c^\alpha\}$ for the [[basis]] for $V^*$, called the **ghosts**. Write $\{\pi_\alpha\}$ for the dual basis on $V$, called the **ghost momenta**.
 
-**Theorem** (Henneaux, Stasheff et al.) (**homological perturbaton theory)**
+**Theorem** (Henneaux, Stasheff et al.) 
+
+([[homological perturbation theory]])
 
 There exists an element 
 
@@ -360,7 +362,10 @@ This means that Lagrangian BV formalism is nothing but a way of describing close
 
 * [[homotopy BV algebra]]
 
+
 ## References
+
+### Lagrangian BV
 
 The original articles are
 
@@ -370,24 +375,7 @@ The original articles are
 * I. Batalin,G. Vilkovisky,  (1983). _Quantization of Gauge Theories with Linearly Dependent Generators_ . Phys. Rev. D 28 (10): 2567&#8211;2582. doi:10.1103/PhysRevD.28.2567.  Erratum-ibid. 30 (1984) 508 doi:10.1103/PhysRevD.30.508
 {#BV83}
 
-BRST formalism is discussed in 
-
-* [[Glenn Barnich]], Friedemann Brandt, [[Marc Henneaux]], _Local BRST cohomology in gauge theories_, Phys. Rep. __338__ (2000), no. 5, 439&#8211;569, [hep-th/0002245](http://xxx.lanl.gov/abs/hep-th/0002245), <a href="http://dx.doi.org/10.1016/S0370-1573(00)00049-1">doi</a>
-
-Homological Poisson reduction is discussed in 
-
-* [[Jim Stasheff]], _Homological Reduction of Constrained Poisson Algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9603021))
-{#Stasheff96}
-
-A standard textbook on the application of BRST-BV to [[gauge theory]] is
-
-* [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of gauge systems_, Princeton University Press 1992. xxviii+520 pp.
-
-* [[Glenn Barnich]], Friedemann Brandt, [[Marc Henneaux]], _Local BRST cohomology in the antifield formalism. I. General theorems_, [euclid](http://projecteuclid.org/euclid.cmp/1104275094), [MR97c:81186](http://www.ams.org/mathscinet-getitem?mr=97c:81186)
-
-Another review is
-
-* Carlo Albert, Bea Bleile, J&#252;rg Fr&#246;hlich, _Batalin-Vilkovisky integrals in finite dimensions_, [arXiv/0812.0464](http://eprintweb.org/S/article/math-ph/0812.0464)
+* I.A. Batalin and G.A. Vilkovisky, _Existence Theorem For Gauge Algebra_ , J. Math. Phys. 26 (1985) 172-184.
 
 Geometrical aspects were pioneered in 
 
@@ -395,14 +383,17 @@ Geometrical aspects were pioneered in
 * [[Albert Schwarz]], _Semiclassical approximation in Batalin-Vilkovisky formalism_, Comm. Math. Phys.  __158__ (1993), no. 2, 373--396, [euclid](http://projecteuclid.org/euclid.cmp/1104254246)
 * M. Alexandrov, [[M. Kontsevich]], A. Schwarz, O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405&#8211;1429, 1997, [hep-th/9502010](http://arxiv.org/abs/hep-th/9502010)
 
-Other introductions include
+Other discussions include
 
 * [[Domenico Fiorenza]], _An introduction to the Batalin-Vilkovisky formalism_, Lecture given at the Recontres Math&#233;matiques de Glanon, July 2003, [arXiv:math/0402057](http://arxiv.org/abs/math/0402057)
 
 *  [[A. Cattaneo]], _From topological field theory to 
 deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
 
-*  M. B&auml;chtold, _On the finite dimensional BV formalism_, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
+*  M. B&#228;chtold, _On the finite dimensional BV formalism_, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
+
+* Carlo Albert, Bea Bleile, J&#252;rg Fr&#246;hlich, _Batalin-Vilkovisky integrals in finite dimensions_, [arXiv/0812.0464](http://eprintweb.org/S/article/math-ph/0812.0464)
+
 
 A discussion of BV-BRST formalism in the general context of [[perturbative quantum field theory]] is in
 
@@ -413,14 +404,17 @@ The interpretation of the BV quantum master equation as a description of closed 
 * [[Edward Witten]], _A note on the antibracket formalism_, Modern Physics Letters A, __5__, n. 7, 487--494, [MR91h:81178](http://www.ams.org/mathscinet-getitem?mr=91h:81178), [doi](http://dx.doi.org/10.1142/S0217732390000561), [scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090)
 {#Witten90}
 
+This isomorphisms between the [[de Rham complex]] and the complex of [[polyvector field]]s is reviewed for instance on p. 3 of
 
-* MO: [what is the BV formalism and its uses](http://mathoverflow.net/questions/30352/what-is-the-batalin-vilkovisky-formalism-and-what-are-its-uses-in-mathematics/32443#32443)
+* Thomas Willwacher, Damien Calaque _Formality of cyclic cochains_ ([arXiv:0806.4095](http://arxiv.org/abs/0806.4095))
+{#WillwacherCalaque}
 
- * _Basics of Poisson reduction_ ([blog](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html))
+and in section 2 of 
 
- * Alejandro Cabrera, _Homological BV-BRST methods: from QFT to Poisson reduction_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Charla_IMPA_BRST.pdf))
+* [[Alberto Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, _On the Hochschild-Kostant-Rosenberg map for graded manifolds_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/05-06.pdf))
+{#CattaneoFiorenzaLongoni}
 
- * [[Jeremy Butterfield]], _On symplectic reduction in classical mechanis_ ([pdf](http://philsci-archive.pitt.edu/archive/00002373/01/ButterfieldNHSympRed.pdf))
+
 
 The application in [[string theory]]/[[string field theory]] is discussed in
 
@@ -436,6 +430,45 @@ Remark  on the [[homotopy theory]] interpretation of BRST-BV are in
 The latter is NOT in a Poisson context, any more than Lagrangians are only for symplectic manifolds.
 
 
+
+### Hamiltonian BFV
+
+
+BRST formalism is discussed in 
+
+* [[Glenn Barnich]], Friedemann Brandt, [[Marc Henneaux]], _Local BRST cohomology in gauge theories_, Phys. Rep. __338__ (2000), no. 5, 439&#8211;569, [hep-th/0002245](http://xxx.lanl.gov/abs/hep-th/0002245), <a href="http://dx.doi.org/10.1016/S0370-1573(00)00049-1">doi</a>
+
+The original references on Hamiltonian BFV formalism are
+
+* I.A. Batalin and G.A. Vilkovisky, _Relativistic S-matrix of dynamical systems with boson and fermion constraints_ , Phys. Lett. B69 (1977) 309-312; 
+
+* I.A. Batalin and E.S. Fradkin, _A generalized canonical formalism and quantization of reducible gauge theories_ , Phys. Lett.
+B122 (1983) 157-164.
+
+Homological Poisson reduction is discussed in 
+
+* [[Jim Stasheff]], _Homological Reduction of Constrained Poisson Algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9603021))
+{#Stasheff96}
+
+A standard textbook on the application of BRST-BV to [[gauge theory]] is
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of gauge systems_, Princeton University Press 1992. xxviii+520 pp.
+
+* [[Glenn Barnich]], Friedemann Brandt, [[Marc Henneaux]], _Local BRST cohomology in the antifield formalism. I. General theorems_, [euclid](http://projecteuclid.org/euclid.cmp/1104275094), [MR97c:81186](http://www.ams.org/mathscinet-getitem?mr=97c:81186)
+
+
+ * _Basics of Poisson reduction_ ([blog](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html))
+
+ * Alejandro Cabrera, _Homological BV-BRST methods: from QFT to Poisson reduction_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Charla_IMPA_BRST.pdf))
+
+ * [[Jeremy Butterfield]], _On symplectic reduction in classical mechanis_ ([pdf](http://philsci-archive.pitt.edu/archive/00002373/01/ButterfieldNHSympRed.pdf))
+
+
+
+
+* MO: [what is the BV formalism and its uses](http://mathoverflow.net/questions/30352/what-is-the-batalin-vilkovisky-formalism-and-what-are-its-uses-in-mathematics/32443#32443)
+
+* S. Lyakhovich, A. Sharapov,  _BRST theory without Hamiltonian and Lagrangian_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/0411/0411247v2.pdf))
 
 
 [[!redirects BV-theory]]
