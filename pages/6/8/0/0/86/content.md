@@ -25,110 +25,40 @@
 
 ## Idea
 
-What is called _BRST-BV formalism_ or more specificall the _BRST-BV_ complex is a model in [[dg-geometry]] of a joint [[homotopy theory|homotopical]] [[quotient]] and [[intersection]], hence of an [[(∞,1)-colimit]] and [[(∞,1)-limit]], of  a [[space]] in [[higher geometry]]/[[derived geometry]], in the presence of or induced by [[Poisson structure]].
 
-The motivating applications are 
-
-* homotopical [[symplectic reduction]];
-
-* description of (covariant) [[phase spaces]] of [[gauge theories]].
-
-In both cases one considers a [[space]] $X$ equipped with
-
-1. a [[group]] [[action]] (or more generally a [[groupoid]] or [[∞-groupoid]] action)
-
-   (by a group acting by [[Hamiltonian vector field]]s in the first case, being the [[gauge group]] acting on the space of field configurations in the second case)
-
-1. a [[function]] or more generally [[section]] of some [[vector bundle]]
-
-   (the [[Hamiltonian]] function in the first case, or the [[action functional]] of some [[gauge theory]] in the second)
-
-and wishes to form
-
-1. the [[quotient]] by the group action
-
-1. followed by passage to the 0-locus $\Sigma \hookrightarrow X$ 
-   of the function.
-
-Tyically the [[category theory|1-category-theoretic]] version of these operations is ill-behaved and fails to capture the structure of interest in these applications, instead what is required is the [[(∞,1)-category theory|(∞,1)-category-theoretic]] notion of quotient and intersection in [[higher geometry]].
-
-If $X$ is regarded as a space in [[dg-geometry]], the resulting joint homotopical quotient and intersection is modeled by a [[cochain complex]] that generalizes the [[BRST complex]]. This is called the **BV-BRST complex**.
-
-
-A [[BRST-complex]] is a [[Chevalley-Eilenberg algebra]] of an [[action Lie algebroid]]. A **BV-BRST complex** is the same for a [[derived ∞-Lie algebroid]].
-
-the _configuration space_ $Conf$ of a physical system -- notably that of a [[gauge theory]] -- is in general not a naive space, such as a [[manifold]], but instead a [[space]] in the general sense of [[higher geometry]]: it is in fact an object in the [[(∞,1)-topos]] of [[derived stack]]s/[[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on the [[(∞,1)-site]] 
+Given a local [[action functional]] 
 
 $$
-  C :=(dgAlg_k^-)^{op}
-$$ 
-
-of formal duals to [[differential graded algebra|cochain differential graded algebras]] in non-postive degree:
-
-$$
-  Conf \in \mathbf{H} = Sh_{(\infty,1)}(C)
-  \,.
-$$  
-
-The way to understand how such [[∞-stack]]s are [[space]]s is described at [[motivation for sheaves, cohomology and higher stacks]]:
-
-we think here of an object $Spec A \in (dgAlg_k^-)^{op}$ as a test space with [[derived geometry|derived]] algebra of functions $A \in dgAlg$.  An object in $Sh_{(\infty,1)}(C)$ is an [[∞-groupoid]] with geometric structure given by such test objects: it can be _probed_ by such test objects.
-
-Every such [[∞-groupoid]] $X$ modeled on objects in $C$ has also a _global_ function algebra $\mathcal{O}(X) \in dgAlg$. This is in general an _unbounded_ [[differential graded algebra]]: it may be nontrivial in positive and negative degrees. For $X = Conf$ the configuration space of a [[gauge theory]], the dg-algebra
-
-$$
-  \mathcal{O}(Conf) \in dgAlg
+  \exp(i S) : C \to U(1)
 $$
 
-is akin to the BV-BRST-complex of a physical system. Roughly, in positive degrees this dg-algebra remembers the [[k-morphism]]s of the $\infty$-groupoid $Conf$, while in negative degrees it remembers the negative degrees of the derived function algebra of the space of objects of the $\infty$-groupoid.
+on some [[configuration space]] $C$, BRST-BV formalism provides a construction of a [[symplectic manifold|symplectic]] [[reduced phase space]] $P := (C_{\{d S = 0\}})_{red}$ suitable for [[quantization]] ([[deformation quantization]], [[geometric quantization]]) in the context of [[derived geometry|derived]] [[dg-geometry]].
 
-In the physics literature 
+Notice that if $S$ is a <a href="http://ncatlab.org/nlab/show/action+functional#LocalActionFunctional">local action functional</a> (is the [[integral]] $S(\phi) = \int_X L(\phi, \dot \phi, \cdots)$ over a [[Lagrangian]] $L$  on the [[jet space]] of some bundle over [[spacetime]] $X$) then the [[covariant phase space]] $C_{\{d S = 0\}}$ (the [[critical locus]]) of $S$ is canonically equipped with [[presymplectic structure]]. The [[quotient]] of $C$ by the [[action]] of the flow of those [[vector field]]s on which the presymplectic form is degenerate -- the [[gauge transformation]]s of the action functional -- is the [[reduced phase space]] $C_{\{d S = 0\}}_{red}$ which is genuinely [[symplectic manifold|symplectic]], and whose [[deformation quantization]] or [[geometric quantization]] is the desired quantization of $S$.
 
-* the elements in degree 0 of $\mathcal{O}(Conf)$ are called the **fields** (really they are the functions on the naive space of fields);
+But $C_{\{d S = 0\}}_{red}$ may either not even exist as a suitable geometric space, and even if it doexist es it is in generally intractable in practice. The BRST-BV construction guarantees the existence of a tractable presentation of $(C_{\{d S = 0\}})_{red}$ in the context of [[derived geometry|derived]] [[dg-geometry]]:
 
-* the elements in positive degree are called the **ghost**s -- this are really the duals to the [[k-morphism]]s of the [[L-∞-algebroid]] $Conf$;
-
-* the elements in negative degree are called **anti-fields** and **anti-ghosts**.  (This is just formal terminology made up in physics for lack of a better term. It has in particular _nothing_ to do with the notion of _anti-particles_ !)
-
-The operation $X \mapsto \mathcal{O}(X)$ extends to an [[(∞,1)-functor]] $\mathcal{O} : \mathbf{H} \to dgAlg^{op}$, which is part of an [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
+it is constructed as the [[Isbell duality|formal dual]] of a graded-commutative [[dg-algebra]] called the _BRST-BV complex_ $C^\infty(P_{BV})$ , equipped with the structure of a differential-graded [[Poisson algebra]]
 
 $$
-  (\mathcal{O} \dashv Spec) \;\; : \;\;
-  \mathbf{H} \stackrel{\overset{Spec}{\leftarrow}}{\overset{\mathcal{O}}{\to}}
-  dgAlg^{op}
-  \,.
+  \{-,-\} : C^\infty(P_{BV}) \otimes C^\infty(P_{BV}) \to 
+   C^\infty(P_{BV})
+   \,.
 $$
 
-In detail, $\mathcal{O}$ acts as follows: every [[∞-stack]] $X$ may be written as a ([[homotopy colimit|colimit]]) over [[representable functor|representable]] $Spec A_i \in dgAlg_i$
+One distinguishes two somewhat different constructions 
 
-$$
-  X \simeq \lim_{\to^i} Y(Spec A_i)
-  \,,
-$$
+* **Lagrangian BV formalism** first constructs a presymplctic derived manifold $P^{BV}$ with action functional $S^{BV} : P^{BV} \to \mathbb{R}$ and then changes the action functional to an equivalent (homotopical) functional $S_{\Psi}^{BV}$, such that the presymplectic structure of $S_{\Psi}^{BV}$ is in fact symplectic;
 
-where $Y : (dgAlg^-)^{op} \to \mathbf{H}$ is the [[Yoneda embedding]].
+* **Hamiltonian BFV formalism** first extendes the original configuration space $C$ to a larger space $C'$ on which the presymplectic structure does refine to a [[symplectic structure]], then adds symplectic _constraints_ $I$ such that the classical [[symplectic reduction]] by $I$ is the would-be reduced phase space, and then constructs a [[derived geometry|derived]] [[dg-geometry]]-model of that symplectic reduction.
 
-More on this at [[function algebras on ∞-stacks]].
+In either case  _BRST-BV_ complex $C^\infty(P^{BV})$ is a model in [[dg-geometry]] of a joint [[homotopy theory|homotopical]] [[quotient]] and [[intersection]], hence of an [[(∞,1)-colimit]] and [[(∞,1)-limit]], of  a [[space]] in [[higher geometry]]/[[derived geometry]], in the presence of or induced by [[Poisson structure]].
 
+Accordingly, the BRST-BV complex is built from two main pieces:
 
-## Lagrangian and Hamiltonian version
+1. it contains in positive degree a [[BRST-complex]]: the [[Chevalley-Eilenberg algebra]] of the [[∞-Lie algebroid]] which is the homotopy [[quotient]] ([[action Lie algebroid]]) of the [[gauge group]] (in Lagrangian BV) or of the group of flows generated by the constraintts (in Hamiltonian BFV) -- which is in general an [[∞-group]] in either case -- acting on configuration space $C$;
 
-Much of [[nLab:physics]] is encoded in [[nLab:variational calculus]]:
-
-given a [[nLab:configuration space]] $C$ of a physical system, an [[nLab:action functional]]
-
-$$
-  \exp(i S(-)) : C \to S^1
-$$
-
-is specified. Its [[nLab:critical locus]] $C|_\{d S = 0\}$ is the space of physically realized field configurations: this is called the [[nLab:covariant phase space]] or _shell_ .
-
-Typically $S$ is a _local action functional_ in that it is given by integration of a [[nLab:Lagrangian]] functional on the [[nLab:jet space]] of $C$. In this case the covariant phase space is canonically equipped with a [[nLab:presymplectic structure]]. 
-
-In simple cases this may be reduced to a genuine [[nLab:symplectic structure]] on a [[nLab:reduced phase space]]. The study of these is called [[nLab:Hamiltonian mechanics]].
-
-Homotopical incarnations of (covariant) phase spaces and their reduciton is given by [[nLab:BRST-BV complex]]es, which are combinations of [[nLab:BRST complex]]es/[[nLab:Chevalley-Eilenberg algebra]]s and [[nLab:Koszul-Tate resolution]]s.
-
+* it contains in negative degree a [[Koszul-Tate resolution]] of the [[critical locus]] of the [[action functional]] (for Lagrangian BV) or of the constraint surface (in Hamiltonian BFV).
 
 
 
@@ -397,7 +327,7 @@ Other discussions include
 *  [[A. Cattaneo]], _From topological field theory to 
 deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
 
-*  M. B&#228;chtold, _On the finite dimensional BV formalism_, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
+*  M. B&auml;chtold, _On the finite dimensional BV formalism_, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
 
 * Carlo Albert, Bea Bleile, J&#252;rg Fr&#246;hlich, _Batalin-Vilkovisky integrals in finite dimensions_, [arXiv/0812.0464](http://eprintweb.org/S/article/math-ph/0812.0464)
 
@@ -435,7 +365,7 @@ The generalization of this to [[Poincare duality]] on Hochschild (co)homollogy i
 
 with more on that in
 
-* U. Kr&#228;hmer, _Poincar&#233; duality in Hochschild cohomology_
+* U. Kr&#228;hmer, _Poincar&eacute; duality in Hochschild cohomology_
   ([pdf](http://www.maths.gla.ac.uk/~ukraehmer/brussels.pdf))
 
 and 
