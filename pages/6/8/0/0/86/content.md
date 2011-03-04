@@ -1,4 +1,7 @@
 
+> under construction
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -107,7 +110,33 @@ where $Y : (dgAlg^-)^{op} \to \mathbf{H}$ is the [[Yoneda embedding]].
 
 More on this at [[function algebras on ∞-stacks]].
 
-## Homotopical Poisson reduction
+
+## Lagrangian and Hamiltonian version
+
+Much of [[nLab:physics]] is encoded in [[nLab:variational caluclus]]:
+
+given a [[nLab:configuration space]] $C$ of a physical system, an [[nLab:action functional]]
+
+$$
+  \exp(i S(-)) : C \to S^1
+$$
+
+is specified. Its [[nLab:critical locus]] $C|_\{d S = 0\}$ is the space of physically realized field configurations: this is called the [[nLab:covariant phase space]] or _shell_ .
+
+Typically $S$ is a _local action functional_ in that it is given by integration of a [[nLab:Lagrangian]] functional on the [[nLab:jet space]] of $C$. In this case the covariant phase space is canonically equipped with a [[nLab:presymplectic structure]]. 
+
+In simple cases this may be reduced to a genuine [[nLab:symplectic structure]] on a [[nLab:reduced phase space]]. The study of these is called [[nLab:Hamiltonian mechanics]].
+
+Homotopical incarnations of (covariant) phase spaces and their reduciton is given by [[nLab:BRST-BV complex]]es, which are combinations of [[nLab:BRST complex]]es/[[nLab:Chevalley-Eilenberg algebra]]s and [[nLab:Koszul-Tate resolution]]s.
+
+
+
+
+
+## Hamiltonian BV
+ {#HamiltonianBV}
+
+### Homotopical Poisson reduction
   {#PoissonReduction}
 
 The following is a rough survey of homotopical Poisson reduction, following ([Stasheff 96](#Stasheff96)).
@@ -243,9 +272,42 @@ the **BRST-BV charge** such that
 
 **Theorem** (Sch&#228;tz) The BRST-BV complex with $\{-,-\}$ as its Lie bracket is [[quasi-isomorphism|quasi-isomorphic]] to the above.
 
-## Lagrangian BV
 
-The [[path integral]] in [[quantum field theory]] is supposed to be the integral over a field [[configuration space]] $X$ using a [[measure]] $d\mu_S$ which is conceived in the form
+## Lagrangian BV
+ {#LagrangianBV}
+
+
+Under the identification of 
+[[nLab:Hochschild homology]]/[[nLab:cyclic homology]] with 
+the [[nLab:de Rham complex]] the product of the 
+[[nLab:action functional]] 
+$\exp(i S(-)) : C \to S^1$ with a formal [[nLab:measure]] $vol$
+on $C$ is regarded as cycle in [[nLab:cyclic homology]]. Or rather, 
+an isomorphism with [[nLab:Hochschild cohomology]] is picked,
+interpreted as a choice of [[nLab:volume form]] $vol$ and 
+$\exp(i S(-))$ is regarded as a cocycle in cyclic cohomology, hence
+as a [[nLab:multivector field]] whose closure condition
+
+$$
+  \Delta \exp(i S(-)) = 0
+$$ 
+
+is called the _master equation_ of BV-formalis.
+
+By the identification of [[nLab:Hochschild cohomology]]  
+with functions on [[nLab:derived loop space]]s we know that 
+the operator $\Delta$ encodes the rotation of loops. 
+Accordingly, the resuling [[nLab:BV-algebra]] has an interpretation
+as an algebra over (the homology of) the 
+[[nLab:framed little disk operad]]. This we discuss 
+[below](#BVAlgebra).
+
+
+### The BV-Laplacian as a dualized exterior differential
+
+We indicate how the [[BV-algebra]] appearing in Lagrangian BV-formalism is the dual of the [[de Rham complex]] of [[configuration space]] in the presence of a [[volume form]]. (This observation goes back to [Witten90](#Witten90)).
+
+The [[path integral]] in [[quantum field theory]] is supposed to be the integral over a field [[configuration space]] $X$ using a [[measure]] $\mu_S$ which is conceived in the form
 
 $$
   \mu_S(\phi) = \exp(\frac{i}{\hbar} S(\phi)) \mu(\phi)
@@ -290,6 +352,8 @@ $exp(\frac{i}{\hbar}S(-)) \mu$ is a _closed differential form_.
 
 This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on $L_\infty$-[[Lie infinity-algebroid|algebroid]]s in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the $L_\infty$-[[Lie infinity-algebroid|algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
 
+
+
 ## Related concepts
 
 * [[BRST complex]]
@@ -298,29 +362,30 @@ This means that Lagrangian BV formalism is nothing but a way of describing close
 
 ## References
 
-Plain BRST formalism is discussed in 
+The original articles are
 
-* [[Glenn Barnich]], Friedemann Brandt, Marc Henneaux, _Local BRST cohomology in gauge theories_, Phys. Rep. __338__ (2000), no. 5, 439&#8211;569, [hep-th/0002245](http://xxx.lanl.gov/abs/hep-th/0002245), <a href="http://dx.doi.org/10.1016/S0370-1573(00)00049-1">doi</a>
+* I. Batalin, G. Vilkovisky,  _Gauge Algebra and Quantization_ . Phys. Lett. B 102 (1): 27&#8211;31. doi:10.1016/0370-2693(81)90205-7 (1981)
+{#BV81}
+
+* I. Batalin,G. Vilkovisky,  (1983). _Quantization of Gauge Theories with Linearly Dependent Generators_ . Phys. Rev. D 28 (10): 2567&#8211;2582. doi:10.1103/PhysRevD.28.2567.  Erratum-ibid. 30 (1984) 508 doi:10.1103/PhysRevD.30.508
+{#BV83}
+
+BRST formalism is discussed in 
+
+* [[Glenn Barnich]], Friedemann Brandt, [[Marc Henneaux]], _Local BRST cohomology in gauge theories_, Phys. Rep. __338__ (2000), no. 5, 439&#8211;569, [hep-th/0002245](http://xxx.lanl.gov/abs/hep-th/0002245), <a href="http://dx.doi.org/10.1016/S0370-1573(00)00049-1">doi</a>
 
 Homological Poisson reduction is discussed in 
 
 * [[Jim Stasheff]], _Homological Reduction of Constrained Poisson Algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9603021))
 {#Stasheff96}
 
-
-The application of BRST-BV to [[gauge theory]] is discussed in
+A standard textbook on the application of BRST-BV to [[gauge theory]] is
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of gauge systems_, Princeton University Press 1992. xxviii+520 pp.
 
+* [[Glenn Barnich]], Friedemann Brandt, [[Marc Henneaux]], _Local BRST cohomology in the antifield formalism. I. General theorems_, [euclid](http://projecteuclid.org/euclid.cmp/1104275094), [MR97c:81186](http://www.ams.org/mathscinet-getitem?mr=97c:81186)
 
-* I. Batalin, G. Vilkovisky, _Gauge algebra and quantization_, Phys. Lett. 102B, 27 (1981), _Quantization of gauge theories with linearly dependent
-generators_, Phys. Rev. D29, 2567 (1983)
-
-* B. Zwiebach, _Closed string field theory: Quantum action and the B-V master equation_, Nucl. Phys. B 390, 33-152 (1993)
-
-* [[Glenn Barnich]], Friedemann Brandt, Marc Henneaux, _Local BRST cohomology in the antifield formalism. I. General theorems_, [euclid](http://projecteuclid.org/euclid.cmp/1104275094), [MR97c:81186](http://www.ams.org/mathscinet-getitem?mr=97c:81186)
-
-A comprehensive recent review is
+Another review is
 
 * Carlo Albert, Bea Bleile, J&#252;rg Fr&#246;hlich, _Batalin-Vilkovisky integrals in finite dimensions_, [arXiv/0812.0464](http://eprintweb.org/S/article/math-ph/0812.0464)
 
@@ -345,7 +410,9 @@ A discussion of BV-BRST formalism in the general context of [[perturbative quant
 
 The interpretation of the BV quantum master equation as a description of closed differential forms acting as measures on infinite-dimensional spaces of fields is described in
 
-* [[E. Witten]], _A note on the antibracket formalism_, Modern Physics Letters A, __5__, n. 7, 487--494, [MR91h:81178](http://www.ams.org/mathscinet-getitem?mr=91h:81178), [doi](http://dx.doi.org/10.1142/S0217732390000561), [scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090)
+* [[Edward Witten]], _A note on the antibracket formalism_, Modern Physics Letters A, __5__, n. 7, 487--494, [MR91h:81178](http://www.ams.org/mathscinet-getitem?mr=91h:81178), [doi](http://dx.doi.org/10.1142/S0217732390000561), [scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090)
+{#Witten90}
+
 
 * MO: [what is the BV formalism and its uses](http://mathoverflow.net/questions/30352/what-is-the-batalin-vilkovisky-formalism-and-what-are-its-uses-in-mathematics/32443#32443)
 
@@ -355,6 +422,9 @@ The interpretation of the BV quantum master equation as a description of closed 
 
  * [[Jeremy Butterfield]], _On symplectic reduction in classical mechanis_ ([pdf](http://philsci-archive.pitt.edu/archive/00002373/01/ButterfieldNHSympRed.pdf))
 
+The application in [[string theory]]/[[string field theory]] is discussed in
+
+* B. Zwiebach, _Closed string field theory: Quantum action and the B-V master equation_, Nucl. Phys. B 390, 33-152 (1993)
 
 
 
