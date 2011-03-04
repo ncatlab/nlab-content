@@ -305,9 +305,9 @@ as an algebra over (the homology of) the
 [below](#BVAlgebra).
 
 
-### The BV-Laplacian as a dualized exterior differential
+### Poincare duality on Hochschild (co)homology
 
-We indicate how the [[BV-algebra]] appearing in Lagrangian BV-formalism is the dual of the [[de Rham complex]] of [[configuration space]] in the presence of a [[volume form]]. (This observation goes back to [Witten90](#Witten90)).
+We indicate how on a finite dimensional smooth manifold the [[BV-algebra]] appearing in Lagrangian BV-formalism is the dual of the [[de Rham complex]] of [[configuration space]] in the presence of a [[volume form]]. (This observation goes back to [Witten90](#Witten90)). Then we discuss the generalization of this statement given by [[Poincare duality]] on [[Hochschild cohomology|Hochschild (co)homology]].
 
 The [[path integral]] in [[quantum field theory]] is supposed to be the integral over a field [[configuration space]] $X$ using a [[measure]] $\mu_S$ which is conceived in the form
 
@@ -354,6 +354,13 @@ $exp(\frac{i}{\hbar}S(-)) \mu$ is a _closed differential form_.
 
 This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on $L_\infty$-[[Lie infinity-algebroid|algebroid]]s in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the $L_\infty$-[[Lie infinity-algebroid|algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
 
+Generally, for certain algebras $A$ there exists Poincare duality between [[Hochschild cohomology]] and [[Hochschild homology]]
+
+$$
+  \tau : HH_i(A) \to HH^{n-i}(A)
+$$
+
+([VanDenBergh](#VanDenBergh)) and this takes the [[Connes coboundary operator]] to the [[BV operator]] ([Ginzburg](#Ginzburg)).
 
 
 ## Related concepts
@@ -419,6 +426,22 @@ A discussion in the general context of [[BV-algebra]]s is in
 * C. Roger, _Gerstenhaber and Batalin-Vilkovisky algebras_ ([ps](http://www.emis.de/journals/AM/09-4/roger.ps.gz))
 {#Roger}
 
+The generalization of this to [[Poincare duality]] on Hochschild (co)homollogy is in 
+
+* M. Van den Bergh, _A relation between Hochschild homology and cohomology for Gorenstein rings_ . Proc. Amer. Math. Soc. 126 (1998), 1345&#8211;1348; ([JSTOR](http://www.jstor.org/stable/118786)) 
+
+  Correction: Proc. Amer. Math. Soc. 130 (2002), 2809&#8211;2810.
+{#VanDenBergh}
+
+with more on that in
+
+* U. Kr&#228;hmer, _Poincar&#233; duality in Hochschild cohomology_
+  ([pdf](http://www.maths.gla.ac.uk/~ukraehmer/brussels.pdf))
+
+and 
+
+* [[Victor Ginzburg]], _Calabi-Yau Algebras_  ([arXiv](http://arxiv.org/abs/math.AG/0612139)) 
+{#Ginzburg}
 
 The application in [[string theory]]/[[string field theory]] is discussed in
 
