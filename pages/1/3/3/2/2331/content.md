@@ -246,3 +246,5 @@ __253__, n. 1, 25--62 (2006) [doi](http://dx.doi.org/10.1007/s00209-005-0875-9);
 * M. Schlessinger, _Functors of Artin rings_, Trans. AMS 130, 208-222 (1968) -- this was a groundbreaking article at the time, still much cited. 
 
 * B. Osserman, _Deformation theory and moduli in algebraic geometry_, [pdf](http://www.msri.org/people/members/defthy07/lectures/brian.pdf)
+
+* [[Robbin Hartshorne]], _Deformation theory_, Grad. texts in math. Springer 2010,  viii+234 pp. (draft of the chap. I-IV: [pdf](http://math.berkeley.edu/~robin/math274root.pdf)), [gBooks](http://books.google.hr/books?id=bwhEX01JlXkC&lpg=PP1&ots=2zkSvT3Bvz&dq=Robin%20Hartshorne%20deformation%20theory&pg=PP1#v=onepage&q&f=false), [doi](http://dx.doi.org/10.1007/978-1-4419-1596-2)
