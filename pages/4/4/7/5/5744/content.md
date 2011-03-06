@@ -1,4 +1,4 @@
-Kazhdan-Lusztig theory is about special recursive combinatorics which appears in several setups in mathematics, most notably in representation theory where it concerns the Jordan-Hoelder coefficients of certain modules. As a phenomenon it has been discovered around 1978 independently by Vinay Deodhar and by [[David Kazhdan]] and [[George Lusztig]]. A central result is the Kazhdan-Lusztig conjecture, proved by Borho-Brylinski and by [[Masaki Kashiwara]] using [[D-module]]s and [[perverse sheaves]]. 
+Kazhdan-Lusztig theory is about special recursive combinatorics which appears in several setups in mathematics, most notably in representation theory where it concerns the Jordan-Hoelder coefficients of certain modules. As a phenomenon it has been discovered by [[David Kazhdan]] and [[George Lusztig]], and some partial aspects independently by Deodhar. A central result is the Kazhdan-Lusztig conjecture, proved by Borho-Brylinski and by [[Masaki Kashiwara]] using [[D-module]]s and [[perverse sheaves]]. 
 
 * [[David Kazhdan]], [[George Lusztig]], _Representations of Coxeter groups and Hecke algebras_, Invent. Math. __53__ (1979), no. 2, 165&#8211;184, [MR81j:20066](http://www.ams.org/mathscinet-getitem?mr=560412), [doi](http://dx.doi.org/10.1007/BF01390031)
 
@@ -14,5 +14,13 @@ Kazhdan-Lusztig theory is about special recursive combinatorics which appears in
 Invent. Math. __69__ (1982), no. 3, 437&#8211;476, [MR84b:17007](http://www.ams.org/mathscinet-getitem?mr=679767), [doi](http://ams.mpim-bonn.mpg.de/leavingmsn?url=http://dx.doi.org/10.1007/BF01389364); _II. Relative enveloping algebras._, Bull. Soc. Math. France __117__ (1989), no. 2, 167&#8211;210, [MR90j:17023](http://www.ams.org/mathscinet-getitem?mr=1015807), [numdam](http://www.numdam.org/item?id=BSMF_1989__117_2_167_0)
 
 * N. Chriss, [[V. Ginzburg]], _Representation theory and complex geometry_, Birkh&#228;user 1997. x+495 pp.
+
+* Vinay V. Deodhar, _On a construction of representations and a problem of Enright_,  Invent. Math. __57__ (1980), no. 2, 101&#8211;118, [MR81f:17004](http://www.ams.org/mathscinet-getitem?mr=567193), [doi](http://dx.doi.org/10.1007/BF01390091)
+
+* [[Anthony Joseph]], _The Enright functor on the Bernstein-Gel&#697;fand-Gel&#697;fand category ${\mathcal O}$_, Invent. Math. __67__ (1982), no. 3, 423&#8211;445, [MR84j:17005](http://www.ams.org/mathscinet-getitem?mr=664114), [doi](http://dx.doi.org/10.1007/BF01398930)
+
+* _Kazhdan-Lusztig theory and related topics_, Proc. of the AMS Special Session at Loyola Univ., Chicago 1989. Edited by Vinay Deodhar. Contemporary Mathematics __139__, Amer. Math. Soc. 1992. 
+
+* V. Deodhar, _A brief survey of Kazhdan-Lusztig theory and related topics_,  Algebraic groups and their generalizations: classical methods (University Park, PA, 1991),  105&#8211;124, Proc. Sympos. Pure Math. __56__, Part 1, Amer. Math. Soc. 1994. 
 
 [[!redirects Kazhdan-Lusztig polynomial]]
