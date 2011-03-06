@@ -4,7 +4,7 @@ Warning: there is another mathematician (global analysis, [[symplectic geometry]
 
 * [U. Chicago: faculty research interests](http://www.math.uchicago.edu/research); wikipedia: [Victor Ginzburg](http://en.wikipedia.org/wiki/Victor_Ginzburg); an [article](http://chronicle.uchicago.edu/060608/gta-ginzburg.shtml) in Chicago Chronicle
 
-* N. Chriss, V. Ginzburg, _Representation theory and complex geometry_, Birkh&#228;user 1997.
+* N. Chriss, V. Ginzburg, _Representation theory and complex geometry_, Birkh&#228;user 1997. x+495 pp.
 
 * V. Ginzburg, _Geometric methods in representation theory of Hecke algebras and quantum groups_ (this survey is closely related to the book above), [math.AG/9802004](http://front.math.ucdavis.edu/math.AG/9802004)
 
@@ -18,9 +18,10 @@ Warning: there is another mathematician (global analysis, [[symplectic geometry]
 
 * V. Ginsburg, _Characteristic varieties and vanishing cycles_, Inv. Math. __84__, 327--402 (1986) [MR87j:32030](http://www.ams.org/mathscinet-getitem?mr=833194), [doi](http://dx.doi.org/10.1007/BF01388811)
 
-* V.G. Lectures on D-modules, 1998 Chicago notes, writeup by V. Baranovsky, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/Ginzburg.pdf)
+* V.G. _Lectures on D-modules_, 1998 Chicago notes, writeup by V. Baranovsky, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/Ginzburg.pdf)
 
 category: people
 
 [[!redirects Victor Ginzburg]]
 [[!redirects Victor Ginsburg]]
+[[!redirects V. Ginzburg]]
