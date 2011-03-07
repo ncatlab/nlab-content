@@ -36,10 +36,19 @@ Over time it became clear that "complete semi-simplicial complexes" were much mo
 Anyone more knowledgable about the history, please correct/improve the preceeding paragraph.
 =--
 
+The concept is essentially the same as that of $\Delta$-set, as used by Rourke and Sanderson. Their motivation was from geometric topology.
+
 On the other hand, in other contexts the prefix "semi-" is used to denote absence of identities (such as a [[semigroup]] (which is, admittedly, missing more than identities relative to a group) or a [[semicategory]]).  Thus if we start from the modern name "simplicial sets" it makes independent sense to refer to their degeneracy-less variant as "semi-simplicial sets."  This is coincidentally in line with the original terminology of Eilenberg and Zilber, but not of course with the intermediate usage of "semi-simplicial set" for what we now call a "simplicial set."
 
 
+##References
+*  C. P. Rourke,  and  B. J. Sanderson,  (1971). "&#916;-Sets I: Homotopy Theory". The Quarterly Journal of Mathematics 22: 321&#8211;338
 
+* S. Buoncristiano, C.P. Rourke, and B. J. Sanderson, A geometric approach to Homology Theory, LMS Lect. Notes 18, 1976
+
+and 
+
+* [Delta sets](http://en.wikipedia.org/wiki/Delta_set) in wikipedia.
 [[!redirects semi-simplicial sets]]
 [[!redirects semisimplicial set]]
 [[!redirects semisimplicial sets]]
