@@ -28,4 +28,4 @@ derived category, and representations of reductive Lie groups_, Lie Theory
 and Geometry, in Honor of Bertram Kostant, Progress in Mathematics,
 Birkh&#228;user, 1994, pp. 457--488.
 
-* [[Dennis Gaitgory]], _Geometric representation theory_, 61 pp. 2005 course notes [cat0.pdf](http://www.math.harvard.edu/~gaitsgde/267y/catO.pdf)
+* [[Dennis Gaitsgory]], _Geometric representation theory_, 61 pp. 2005 course notes [cat0.pdf](http://www.math.harvard.edu/~gaitsgde/267y/catO.pdf)
