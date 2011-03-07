@@ -154,6 +154,8 @@ called the **simplicial singular complex** of $X$. This simplicial set is always
 
 * [[dendroidal set]]
 
+* [[semi-simplicial set]]
+
 
 ## References
 
