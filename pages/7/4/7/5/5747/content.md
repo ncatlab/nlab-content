@@ -1,0 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]=--
+=--
+=--
+
+# Semi-simplicial sets
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+A *semi-simplicial set* is like a [[simplicial set]], but without degeneracies.
+
+## Definition
+
+Let $\Delta$ denote the [[simplex category]], which we can identify with (a [[skeleton]] of) the [[category]] of [[inhabited set|inhabited]] [[finite set|finite]] [[totally ordered sets]].  Recall that a [[simplicial set]] is a [[presheaf]] $X\colon \Delta^{op}\to Set$.
+
+Let $\Delta_+$ denote the [[wide subcategory]] of $\Delta$ containing only the [[injective functions]].  A **semi-simplicial set** is then a presheaf $X\colon \Delta_+^{op} \to Set$.
+
+## Historical and terminological remarks
+
+The original paper
+
+* Eilenberg and Zilber, "Semi-Simplicial Complexes and Singular Homology", *Annals of Mathematics* vol. 51 no. 3 (1950), 499--513
+
+defined both (what we now call) semi-simplicial sets, under the name *semi-simplicial complexes*, and (what we now call) simplicial sets, under the name *complete semi-simplicial complexes*.  The motivation for the name "semi-simplicial" was that a semi-simplicial set is like a [[simplicial complex]], but lacks the property that a [[simplex]] is uniquely determined by its vertices.  Then they added the degeneracies and a corresponding adjective "complete."
+
+Over time it became clear that "complete semi-simplicial complexes" were much more important and useful than the non-complete ones.  This seems to have led first to the omission of the adjective "complete," and then the omission of the prefix "semi" (and at some point the replacement of "complex" by "set"), resulting in the current name [[simplicial sets]].
+
++--{: .query}
+Anyone more knowledgable about the history, please correct/improve the preceeding paragraph.
+=--
+
+On the other hand, in other contexts the prefix "semi-" is used to denote absence of identities (such as a [[semigroup]] (which is, admittedly, missing more than identities relative to a group) or a [[semicategory]]).  Thus if we start from the modern name "simplicial sets" it makes independent sense to refer to their degeneracy-less variant as "semi-simplicial sets."  This is coincidentally in line with the original terminology of Eilenberg and Zilber, but not of course with the intermediate usage of "semi-simplicial set" for what we now call a "simplicial set."
+
+
+
+[[!redirects semi-simplicial sets]]
+[[!redirects semisimplicial set]]
+[[!redirects semisimplicial sets]]
