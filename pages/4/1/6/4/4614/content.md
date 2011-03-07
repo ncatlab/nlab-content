@@ -141,7 +141,7 @@ Noticing hat the union of degenerate simplices appearing here is a [[Reedy model
 
 The notion of good simplicial topological space goes back to ([Segal73](#Segal73)), that of proper simplicial topological space to ([May](#May)). 
 
-+-- {: .num_prop #RelationToDiagonalOfBisimplicialSets}
++-- {: .num_prop #GoodImpliesProper}
 ###### Proposition
 
 A good simplicial topological space is proper:
@@ -155,8 +155,9 @@ $$
 
 A proof appears as ([Lewis, corollary 2.4 (b)](#Lewis)). A generalization of this result to more general topological categories is ([RobertsStevenson, prop. 16](#RobertsStevenson)).
 
-We now discuss the [[resolution]] of any simplicial topological space by a good one.
+### Bisimplicial sets and good resolutions
 
+We now discuss the [[resolution]] of any simplicial topological space by a good one.
 Write 
 
 $$
@@ -167,9 +168,7 @@ $$
   sSet
 $$  
 
-for the ordinary [[geometric realization]]/[[singular simplicial complex]] [[adjunction]] (see [[homotopy hypothesis]]).
-
-For $S_{\bullet,\bullet} \colon  \Delta^{op} \times \Delta^{op} \to Set$ a [[bisimplicial set]], write $d S$ for its [[diagonal]] $d X \colon  \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\to} Set$.
+for the ordinary [[geometric realization]]/[[singular simplicial complex]] [[adjunction]] (see [[homotopy hypothesis]]).  Recall that the composite ${|Sing(-)|}\colon Top\to Top$ is a cofibrant replacement functor: for any space $X$, the space ${|Sing(X)|}$ is a CW complex and comes with a natural map ${|Sing X|} \to X$ (the [[unit of an adjunction|counit]] of the adjunction $({|-|} \dashv Sing)$) which is a [[weak homotopy equivalence]].
 
 +-- {: .num_prop #GoodResolution}
 ###### Proposition
@@ -178,10 +177,14 @@ Let $X_\bullet$ be a simplicial topological space.
 Then the simplicial topological space 
 
 $$
-  {|Sing(X_\bullet)|} \in [\Delta^{op}, Top]
+  {|Sing(X_\bullet)|} \in [\Delta^{op}, Top] \,,
 $$ 
 
-obtained by applying degreewise ${|Sing(-)|} \colon  Top \to Top$ is good and hence proper. 
+obtained by applying ${|Sing(-)|} \colon  Top \to Top$ degreewise, is good and hence proper.  Moreover, we have a natural morphism 
+$$
+{|Sing X_\bullet|} \to X_\bullet
+$$
+which is degreewise a weak homotopy equivalence.
 
 =--
 
@@ -190,22 +193,32 @@ obtained by applying degreewise ${|Sing(-)|} \colon  Top \to Top$ is good and he
 
 Each space $|Sing X_n|$ is a [[CW-complex]], hence in particular a [[locally equi-connected space]]. By ([Lewis, p. 153](#Lewis)) inclusions of [[retract]]s of locally equi-connected spaces are [[closed cofibration]]s, and since degeneracy maps are retracts, this means that the degeneracy maps in $|Sing X_\bullet|$ are closed cofibrations.
 
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-
-There is a natural morphism
-
-$$
-  {|Sing X_\bullet|} \to X_\bullet
-$$
-
-that is degreewise a [[weak homotopy equivalence]]: the degreewise 
-[[unit of an adjunction|counit]] of the adjunction $({|-|} \dashv Sing)$.
+The second sentence follows directly by the remarks above.
 
 =--
+
+Note that there is nothing special about ${|Sing(-)|}$ in the proof; any functorial CW replacement would do just as well (such as that obtained by the [[small object argument]]).  However, ${|Sing(-)|}$ has the advantage that its geometric realization can be computed alternately in terms of diagonals of bisimplicial sets, as we now show.
+
+If $S_{\bullet,\bullet} \colon  \Delta^{op} \times \Delta^{op} \to Set$ is a [[bisimplicial set]], we write $d S$ for its [[diagonal]], which is the composite
+$$\Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\to} Set.$$
+On the other hand, we can also consider a bisimplicial set as a simplicial object in $sSet$ and take its "geometric realization":
+$$ {|S_{\bullet,\bullet}|} \coloneqq \int^{n\in\Delta^{op}} S_{n,\bullet} \times \Delta^n_{sSet} $$
+where $\Delta^n_{sSet}$ denotes the $n$-simplex as a simplicial set, i.e. the representable functor $\Delta(-,[n])\colon \Delta^{op}\to Set$.
+
++-- {: .num_lemma #DiagonalIsRealization}
+###### Lemma
+For a bisimplicial set $S_{\bullet,\bullet}$, there is a natural isomorphism of simplicial sets $d S \cong {|S|}$.
+=--
++-- {: .proof}
+###### Proof
+Both functors $d$ and ${|-|}$ are [[cocontinuous functor|cocontinuous]] functors between [[presheaf categories]] $Set^{\Delta^{op}\times\Delta^{op}} \to Set^{\Delta^{op}}$, so it suffices to verify that they agree on representables.  The representable $(\Delta\times\Delta)(-,([n],[m]))$ is called a *bisimplex* $\Delta^{n,m}$; its diagonal is
+$$(d \Delta^{n,m})(-) = \Delta(-,n) \times \Delta(-,m) = \Delta^n_{sSet} \times \Delta^m_{sSet}.$$
+Now note that geometric realization of a bisimplicial set is left adjoint to the "singular complex" $Sing\colon sSet \to sSet^{\Delta^{op}}$ defined by
+$$Sing(X_\bullet)(n,m) = \underline{Map}(\Delta^n_{sSet}, X_\bullet)_m = sSet(\Delta^n_{sSet} \times \Delta^m_{sSet}, X_\bullet) = sSet(d \Delta^{n,m}, X_\bullet)$$
+where $\underline{Map}(-,-)$ denotes the simplicial mapping space between two simplicial sets.  But by the Yoneda lemma, $Sing(X_\bullet)(n,m) = sSet^{\Delta^{op}}(\Delta^{n,m},Sing(X_\bullet))$, so this shows that $d \Delta^{n,m}$ has the same universal property as ${|\Delta^{n,m}|}$; hence they are isomorphic.
+=--
+
+In particular, the lemma implies that for the two different ways of considering a bisimplicial set as a simplicial simplicial set ("vertically" or "horizontally"), the resulting "geometric realizations" as simplicial sets are isomorphic (since both are isomorphic to the diagonal, which is symmetrically defined).
 
 
 +-- {: .num_prop #HomeomorphismFromResolutionToDiagonal}
@@ -214,14 +227,26 @@ that is degreewise a [[weak homotopy equivalence]]: the degreewise
 For $X_\bullet$ any [[simplicial topological space]], there is a [[homeomorphism]] between the geometric realization of the simplicial space $|Sing(X_\bullet)|$ and the ordinary [[geometric realization]] of the [[simplicial set]] that is the diagonal of the [[bisimplicial set]] $Sing(X_\bullet)_\bullet$
 
 $$
-  {\vert({\vert Sing(X_\bullet) \vert})\vert}  \simeq_{iso} {| d Sing(X_\bullet)_\bullet |}
+  {\vert({\vert Sing(X_\bullet) \vert})\vert}  \cong {| d Sing(X_\bullet)_\bullet |}
   \,.
 $$
 
 =--
++-- {: .proof}
+###### Proof
+Applying Lemma \ref{DiagonalIsRealization} to the bisimplicial set $Sing(X_\bullet)_\bullet$, we see that the diagonal of $Sing(X_\bullet)_\bullet$ is isomorphic to its "realization" as a simplicial simplicial set:
+$$ d Sing(X_\bullet)_\bullet \cong \int^{n\in \Delta} Sing(X_n)_\bullet \times \Delta^n_{sSet}$$
+If we then take the realization of these simplicial sets, we find
+$$
+{| d Sing(X_\bullet)_\bullet |}
+\cong \left| \int^{n\in\Delta} Sing(X_n)_\bullet \times \Delta^n_{sSet} \right|
+\cong \int^{n\in\Delta} {|Sing(X_n)|} \times \Delta^n_{Top}
+\cong {\vert({\vert Sing(X_\bullet) \vert})\vert}
+$$
+using the fact that geometric realization of simplicial sets preserves colimits and products, and ${|\Delta^n_{sSet}|} = \Delta^n_{Top}$.
+=--
 
-This follows by results in ([Lewis](#Lewis)).  In fact, this is true for any bisimplicial set: the realization of its levelwise realization is the same as the realization of its diagonal.
-
+See also ([Lewis](#Lewis)).
 
 
 
@@ -586,7 +611,7 @@ This means that the degeneracy maps of $P_\bullet$ are induced degreewise by mor
 Let for the following $Top_s \hookrightarrow Top$ be any [[small category|small]] [[full subcategory]]. 
 
 
-+-- {: .num_def}
++-- {: .num_defn #SimpTopAsSimpPresheaves}
 ###### Definition
 
 Under the degreewise [[Yoneda embedding]] $sTop_s \hookrightarrow [Top_s^{op}, sSet]$ simplicial topological spaces embed into the category of [[simplicial presheaves]] on $Top_s$.
@@ -775,7 +800,7 @@ $$
 An early reference for this classical fact is ([Segal68](#Segal68)).
 
 
-+-- {: .num_cor}
++-- {: .num_cor #OmegaBGisaWHE}
 ###### Corollary
 
 Let $G$ be a [[well-pointed simplicial topological group|well-pointed]] [[topological group]], $B G$ its [[classifying space]] and $\Omega B G$ the [[loop space]] of the classifying space. 
