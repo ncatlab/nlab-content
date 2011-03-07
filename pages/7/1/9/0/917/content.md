@@ -7,6 +7,9 @@ In [[constructive mathematics]], a strongly extensional function between sets eq
 
 [[!redirects injective function]]
 [[!redirects strongly injective function]]
+[[!redirects injective functions]]
+[[!redirects strongly injective functions]]
 [[!redirects injections]]
 [[!redirects one-to-one function]]
+[[!redirects one-to-one functions]]
 [[!redirects injective]]
