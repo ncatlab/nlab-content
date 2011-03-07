@@ -27,7 +27,7 @@ In every [[cohesive (∞,1)-topos]] there is an <a href="http://nlab.mathforge.o
 
 ## Motivation {#Motivation}
 
-The central motivation for the study of a higher generalization of ordinary [[Chern-Weil theory]] is the interest in extending the [[Chern-Weil homomorphism]] for a given [[Lie group]] $G$ to the higher connected covers of $G$ through the whole [[Whitehead tower]] of $G$. Beyond the simply connected cover, these higher connected covers are still [[topological group]]s but fail to be (finite dimensional) [[Lie group]]s. They do however have natural realizations as [[∞-Lie group]]s. Higher Chern-Weil theory is the extension of Chern-Weil theory from Lie groups to $\infty$-Lie groups. It allows the refinement of differential characteristic classes to _fractional_ differential characteristic classes, that capture finer cohomological information.
+The central motivation for the study of a higher generalization of ordinary [[Chern-Weil theory]] is the interest in extending the [[Chern-Weil homomorphism]] for a given [[Lie group]] $G$ to the higher connected covers of $G$ through the whole [[Whitehead tower]] of $G$. Beyond the simply connected cover, these higher connected covers are still [[topological group]]s but fail to be (finite dimensional) [[Lie group]]s. They do however have natural realizations as [[smooth ∞-group]]s. Higher Chern-Weil theory is the extension of [[Chern-Weil theory]] from Lie groups to such smooth $\infty$-groups. It allows the refinement of differential characteristic classes to _fractional_ differential characteristic classes, that capture finer cohomological information.
 
 ### Fractional differential classes 
 
@@ -54,7 +54,7 @@ $$
   \,,
 $$
 
-where the top horizontal morphism represents a generator of the 4th integral cohomology of the classifying space of the [[spin group]] and the right vertical morphism is induced by multiplication by 2 on the additive group of [[integer]]s.
+in [[Top]], where the top horizontal morphism represents a generator of the 4th integral cohomology of the classifying space of the [[spin group]] and the right vertical morphism is induced by multiplication by 2 on the additive group of [[integer]]s.
 
 This means that for $X$ [[manifold]] with [[spin structure]] exhibited by a classifying map $\hat g$
 
@@ -68,7 +68,7 @@ $$
   }
 $$
 
-of its [[tangent bundle]] $T X$, the characteristc class $p_1(T X) : X \stackrel{g}{\to} \mathcal{B}SO \stackrel{p_1}{\to} \mathcal{B}^4 \mathbb{Z}$ of $T X$ regarded as an $SO$-[[associated bundle]] contains less information than the class $\frac{1}{2}p_1(T X) : X \stackrel{\hat g}{\to} \mathcal{B}Spin \stackrel{\frac{1}{2}p_1}{\to} \mathcal{B}^4 \mathbb{Z}$. For instance if the 4th cohomology of $X$ happens to be 2-[[torsion]], the former class entirely vanishes, while the latter need not.
+of its [[tangent bundle]] $T X$, the characteristic class $p_1(T X) : X \stackrel{g}{\to} \mathcal{B}SO \stackrel{p_1}{\to} \mathcal{B}^4 \mathbb{Z}$ of $T X$ regarded as an $SO$-[[associated bundle]] contains less information than the class $\frac{1}{2}p_1(T X) : X \stackrel{\hat g}{\to} \mathcal{B}Spin \stackrel{\frac{1}{2}p_1}{\to} \mathcal{B}^4 \mathbb{Z}$. For instance if the 4th cohomology of $X$ happens to be 2-[[torsion]], the former class entirely vanishes, while the latter need not.
 
 This familiar situation poses no problem to classical [[Chern-Weil theory]], because both the [[special orthogonal group]] as well as the [[spin group]] of course have canonical structures of [[Lie group]]s, so that the [[Chern-Weil homomorphism]] may be applied to either.
 
@@ -85,9 +85,11 @@ $$
   \,,
 $$
 
-As before, this means that if a space $X$ admits a [[string structure]], then the characteristic class $p_2(X)$ contains less information than the fractional refinement $\frac{1}{6}p_2(X)$ that it admits. In particular, the former may vanish if for the degree 8 cohomology group of $X$ has 6-[[torsion]], while the latter need not vanish.
+As before, this means that if a space $X$ admits a [[string structure]], then the characteristic class $p_2(X)$ contains less information than the fractional refinement $\frac{1}{6}p_2(X)$ that it admits. In particular, the former may vanish if the degree 8 cohomology group of $X$ has 6-[[torsion]], while the latter need not vanish.
 
-For purposes of ordinary cohomology this is no problem, but for the differential refinement by ordinary [[Chern-Weil theory]] it is: the [[string group]] does not admit a [[Lie group]] structure (necessarily not a finite dimensional one, and an infinite dimensional one is not known) and hence standard [[Chern-Weil theory]] cannot produce the differential refinement of the fractional class $\frac{1}{6}p_2$.
+For purposes of ordinary cohomology this is no problem, but for the differential refinement by ordinary [[Chern-Weil theory]] it is: the [[string group]] does not admit a [[Lie group]] structure 
+that would make it a smooth version of the homotopy fiber of
+$\frac{1}{2}p_1$ and hence standard [[Chern-Weil theory]] cannot produce the differential refinement of the fractional class $\frac{1}{6}p_2$.
 
 But $\infty$-Chern-Weil theory can: there is a natural smooth refinement of the [[string group]] to a [[Lie 2-group]]: the [[string 2-group]]. We write $\mathbf{B}String$ for the corresponding [[delooping]] [[∞-Lie groupoid]]. The fractional second Pontryagin class does lift to this smooth refinement to produce a [[characteristic class]]
 
