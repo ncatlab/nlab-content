@@ -1,10 +1,10 @@
 
 #Contents#
 
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea and examples#
+## Idea and examples
 
 Although the [[moduli space]] of stable maps is sometimes referred to as a compactifiaction of the space of maps, in analogy with the [[Deligne-Mumford compactification]] of the [[moduli space]] of curves, in
 fact it typically has boundary components of higher dimension than the space it was supposed to compactify!
@@ -49,10 +49,13 @@ But now, $M_{0,0}(Q,2)$ is a space of maps, not a space of curves, and for every
 degree-2 maps, so $M_{0,0}(Q,2)$ contains 2875 components of dimension 2, in contrast to the virtual dimension 0.
 
 
-#Related entries#
+## Related entries
 
 * Virtual fundamental classes play a central role in the theory of [[Gromov-Witten invariants]].
 
-#References#
+## References
 
 The above material originates in a blog discussion [here](http://golem.ph.utexas.edu/category/2009/09/a_seminar_on_gromovwitten_theo.html#c027000)
+
+
+* Ch. Okonek, A. Teleman, _Computing virtual fundamental classes: gauge theoretical Gromov-Witten invariants for toric varieties_ ([arXiv:math/0205137](http://arxiv.org/abs/math/0205137))
