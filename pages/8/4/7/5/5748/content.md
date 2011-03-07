@@ -17,7 +17,7 @@
 
 A _(linear) complex structure_ on a [[vector space]] $V$ is an [[automorphism]] $J : V \to V$ that squares to minus the identity: $J \circ J = - Id$.
 
-An _almost complex structure_ on a [[smooth manifold]] $X$ is smooth [[section]] $J \in \Gamma(T X \otimes T^* X)$ such that over each point $x \in X$ $J$ is a linear complex structure on that [[tangent space]] $T_x X$ under the canonical identification $End T_x X \simeq T_x X\otimes T_x^* X$.
+An _almost complex structure_ on a [[smooth manifold]] $X$ is a smooth [[section]] $J \in \Gamma(T X \otimes T^* X)$ such that, over each point $x \in X$, $J$ is a linear complex structure on that [[tangent space]] $T_x X$ under the canonical identification $End T_x X \simeq T_x X\otimes T_x^* X$.
 
 A _complex structure_ on a [[smooth manifold]] $X$ is the structure of a [[complex manifold]] on $X$. Every such defines  an almost complex structure and almost complex structures arising this way are called _integrable_ .
 
