@@ -273,7 +273,7 @@ where on the right we have the [[internal hom]], or [[exponential law for spaces
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #RealizationOfSingularComplexIsWHE}
 ###### Proposition
 
 For every $X \in Top$ there is a [[weak homotopy equivalence]]
@@ -292,7 +292,7 @@ This appears as ([Seymour, prop. 3.1](#Seymour)).
 Ordinary geometric realization has the following two disadvantages:
 
 
-+-- {: .num_prop}
++-- {: .num_prop #RealizationDoesntPreserveMCofibrancyOrHEs}
 ###### Proposition
 
 * If $X_\bullet$ has in each degree the [[homotopy type]] of a [[CW-complex]], its realization ${\vert X_\bullet \vert}$ in general need not.
@@ -365,7 +365,7 @@ The operation of [fat geometric realization](#FatGeometricRealization) does not 
 Write ${\Vert * \Vert}$ for the fat geometric realization of the point. Notice that due to the identification of $sTop$ with its [[overcategory]] over the point (the simplicial topological space constant on the point), $sTop\simeq sTop/*$, we may regard fat geometric gealization as a functor with values in the [[overcategory]] $Top/{\Vert*\Vert}$ over the 
 [fat geometric realization of the point](#GeometricRealizationOfThePoint).
 
-+-- {: .num_prop}
++-- {: .num_prop #FatRealizationPreservesConnectedFiniteLimits}
 ###### Proposition
 
 The functor
@@ -439,8 +439,8 @@ which is also called the **Bousfield-Kan map**.
 
 Since the Str&#248;m model structure is a [[simplicial model category]], standard arguments involving Reedy model structures imply that the Bousfield-Kan map is a Str&#248;m weak equivalence (i.e. a homotopy equivalence) whenever $X$ is Str&#248;m Reedy cofibrant (i.e. proper).  Thus we have:
 
-+-- {: .num_theorem}
-###### Theorem
++-- {: .num_prop #RealizationOfGoodSimplicialSpacesIsHomotopyColimit}
+###### Proposition
 Let $X_\bullet$ be a proper simplicial space.  Then the composite
 $$ \hocolim X_\bullet = N(D/ -) \otimes_D Q X_\bullet \xrightarrow{Bousfield-Kan} {|Q X_\bullet|} \longrightarrow {|X_\bullet|} $$
 is a weak homotopy equivalence.
@@ -466,10 +466,10 @@ We discuss aspects of [[principal ∞-bundle]]s equipped with topological [[cohe
 For $X,Y \in sTop$, write
 
 $$
-  sTop(X,Y) := \int_{[k] \in \Delta} [X_k, Y_k] \;\; \in Top
+  sTop(X,Y) \coloneqq \int_{[k] \in \Delta} [X_k, Y_k] \;\; \in Top
 $$
 
-for the [[Top]]-[[hom-object]], where in the integrand of the [[end]] $[-,-] : Top^{op} \times Top^{op} \to Top$ is the [[internal hom]] of topological spaces.
+for the [[Top]]-[[hom-object]], where in the integrand of the [[end]] $[-,-] \colon  Top^{op} \times Top^{op} \to Top$ is the [[internal hom]] of topological spaces.
 
 
 +-- {: .num_defn #GloballyKanSimplicialTopologicalSpace}
@@ -598,14 +598,14 @@ We equip this with the projective [[model structure on simplicial presheaves]] $
 +-- {: .num_prop #GlobalKanFibImpliesProjectiveFib}
 ###### Proposition
 
-Under this embedding a [global Kan fibration](#GloballyKanSimplicialTopologicalSpace) $f : X \to Y$ in $sTop_s$ maps to a fibraton in $[Top_s^{op}, sSet]_{proj}$.
+Under this embedding a [global Kan fibration](#GloballyKanSimplicialTopologicalSpace) $f \colon  X \to Y$ in $sTop_s$ maps to a fibraton in $[Top_s^{op}, sSet]_{proj}$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By definition, a morphism $f : X \to Y$ in $[Top_s^{op}, sSet]_{proj}$ is a fibration if for all $U \in Top$ and all $n \in \mathbb{N}$ and $0 \leq i \leq n$ diagrams of the form
+By definition, a morphism $f \colon  X \to Y$ in $[Top_s^{op}, sSet]_{proj}$ is a fibration if for all $U \in Top$ and all $n \in \mathbb{N}$ and $0 \leq i \leq n$ diagrams of the form
 
 $$
   \array{
@@ -653,7 +653,7 @@ $$
   Hom_{Top}(U, \; X_n \to Y_n \times_{sTop(\Lambda[n]_i), Y} sTop(\Lambda[n]_i,X) \;)
 $$
 
-is surjective. But by the assumption that $f : X \to Y$ is a global Kan fibration of simplicial topological spaces, def. \ref{GloballyKanSimplicialTopologicalSpace}, we have a section $\sigma : Y_n \times_{sTop(\Lambda[n]_i), Y} sTop(\Lambda[n]_i,X) \to X_n$. Therefore $Hom_{Top}(U, \sigma)$ is a section of our function.
+is surjective. But by the assumption that $f \colon  X \to Y$ is a global Kan fibration of simplicial topological spaces, def. \ref{GloballyKanSimplicialTopologicalSpace}, we have a section $\sigma \colon  Y_n \times_{sTop(\Lambda[n]_i), Y} sTop(\Lambda[n]_i,X) \to X_n$. Therefore $Hom_{Top}(U, \sigma)$ is a section of our function.
 
 =--
 
@@ -842,10 +842,10 @@ in [[Top]]. By prop \ref{HocolimPreservesHomotopyFibers} this is still a homotop
 ### Cech nerves
  {#CechNerves}
 
-+-- {: .num_prop}
++-- {: .num_prop #RealizationOfCechNerveIsWHE}
 ###### Proposition
 
-Let $X,Y$ be  [[topological space]]s and $\pi : Y \to X$ a [[continuous function]] that admits local [[section]]s. Write $C(\pi) \in sTop$ for the [[Cech nerve]].
+Let $X,Y$ be  [[topological space]]s and $\pi \colon  Y \to X$ a [[continuous function]] that admits local [[section]]s. Write $C(\pi) \in sTop$ for the [[Cech nerve]].
 
 Then the canonical map
 
@@ -960,9 +960,11 @@ This entry is under review. See <a href="http://ncatlab.org/nlabreviewed/publish
 
 
 [[!redirects geometric realization of a simplicial space]]
+[[!redirects geometric realization of a simplicial topological space]]
 [[!redirects geometric realization of simplicial spaces]]
-
 [[!redirects fat geometric realization of simplicial spaces]]
 [[!redirects fat geometric realization of simplicial topological spaces]]
-
+[[!redirects fat geometric realization of a simplicial space]]
+[[!redirects fat geometric realization of a simplicial topological space]]
+[[!redirects fat geometric realization]]
 [[!redirects fat realization]]
