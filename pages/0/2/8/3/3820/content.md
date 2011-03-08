@@ -164,7 +164,7 @@ stream seem to have appeared nearly independently several times over
 several decades, until Lee-Wald and followups of Ashtekar's papers
 became standard references. The (P) stream flowed slowly, but
 consistently from original idea of Peierls. The papers of
-Fredenhagen-Duetsch-et-al are a most readable modern formulation.
+Fredenhagen-D&#252;tsch-et-al are a most readable modern formulation.
 
 * R. Peierls, _The commutation laws of relativistic field theory_ (1952) ([jstor](http://www.jstor.org/pss/99080))
 
@@ -316,7 +316,7 @@ from Lee-Wald, Crnkovic-Witten, Ashtekar
   Result: Extends analysis to classical fermi fields.
 
 
-* Duetsch [[Klaus Fredenhagen]], _The Master Ward Identity and Generalized Schwinger-Dyson Equation in Classical Field Theory_ ([arXiv:hep-th/0211242](http://arxiv.org/abs/hep-th/0211242)) (2003), 
+* D&#252;tsch [[Klaus Fredenhagen]], _The Master Ward Identity and Generalized Schwinger-Dyson Equation in Classical Field Theory_ ([arXiv:hep-th/0211242](http://arxiv.org/abs/hep-th/0211242)) (2003), 
 
   Brennecke-Duetsch, _Removal of violations of the Master Ward Identity in perturbative QFT_ (2008) ([arXiv:0705.3160](http://arxiv.org/abs/0705.3160)), 
 
