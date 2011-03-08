@@ -10,6 +10,10 @@ A _presymplectic structure_ on a [[smooth manifold]] $X$  is a closed [[differen
 
 The notion of presymplectic structure is a weakening of the notion of [[symplectic structure]] roughly orthogonal to the notion of [[Poisson structure]].
 
+## Examples
+
+* Every [[covariant phase space]] for a [[local action functional]] canonically carries a presymplectic structure.
+
 ## References
 
 The generalization of [[symplectic reduction]] for presymplectic manifolds is discussed in
@@ -18,3 +22,8 @@ The generalization of [[symplectic reduction]] for presymplectic manifolds is di
 
 
 [[!redirects presymplectic structures]]
+
+[[!redirects pre-symplectic form]]
+[[!redirects presymplectic form]]
+[[!redirects pre-symplectic forms]]
+[[!redirects presymplectic forms]]
