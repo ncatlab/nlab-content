@@ -3,7 +3,7 @@
 _Maurer--Cartan equation_ is a name for very many related equations in [[geometry]], [[algebra]], [[deformation theory]], [[category theory]] and [[quantization theory]]. Such equations express for example certain conditions in theory of isometric embedding of submanifolds into a euclidean space ('structure equations', with relations to the Lie groups $O(n)$), invariance of invariant differential forms ([[Maurer-Cartan form|Maurer-Cartan forms]]) on Lie groups, flatness of connections on principal or associated fibre bundles, the solutions in some contexts parametrize infinitesimal deformations, or define [[twisting cochain|twisting cochains]].
 In the context of BV-quantization, a Maurer--Cartan equation has the role of classical master equation.
 
-A Maurer--Cartan equation for $A_\infty$-[[A-infinity-algebra|algebra]]s is usually referred to as a _generalized Maurer--Cartan equation_ as it has more summands than the one for [[dg-algebra]]s. In some contexts like $A_\infty$-[[A-infinity-category|categories]], some authors prefer the geometric terminology 'homological vector field' as a datum on a formal geometric space which satisfies a Maurer--Cartan equation.
+A Maurer--Cartan equation for $A_\infty$-[[A-infinity-algebra|algebra]]s is usually referred to as a _generalized Maurer--Cartan equation_ as it has more summands than the one for [[dg-algebra]]s. In some contexts like $A_\infty$-[[A-infinity-category|categories]], some authors prefer the geometric terminology 'homological vector field' as a datum on a formal geometric space which satisfies a Maurer--Cartan equation. Solutions to Maurer-Cartan equation for a dg- or $A_\infty$ algebra are called Maurer-Cartan elements. 
 
 #Maurer-Cartan and Lie theory#
 
@@ -20,4 +20,6 @@ The historical article of <a href="http://en.wikipedia.org/wiki/Ludwig_Maurer">L
 M&#252;nch. Ber. 18 (1888), 103-150.
 
 
-[[!redirects Maurer-Cartan equation ]]
+[[!redirects Maurer-Cartan equation]]
+[[!redirects Maurer-Cartan elements]]
+[[!redirects Maurer-Cartan element]]
