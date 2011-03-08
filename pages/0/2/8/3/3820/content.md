@@ -29,6 +29,11 @@ However, even reduced phase spaces are not all cotangent bundles, typically not,
 
 ## Covariant phase space
 
+There are two main routes to the construction of the covariant phase space, 
+
+* (S) via [[presymplectic structure]];
+
+* (P) via [[Poisson algebra]] structure.
 
 ### (S) Via pre-symplectic structures
  {#ViaSymplecticStructure}
@@ -59,6 +64,8 @@ non-uniqueness may be parametrized instead by a choice of a [[connection on a bu
 
 ### In dg-geometry
 
+(...)
+
 Let the ambient context be that of [[dg-geometry]]. Let $C$ be an ordinary [[smooth manifold]], assumed finite dimensional for the moment, and $\exp(i S) : C \to \mathbb{R}/\mathbb{Z}$ an ordinary [[smooth function]] such that its 0-locus is an sub-manifold.
 
 Then a presentation for the homotopy fiber of $\exp(i S)$ is given by the formal dual of the [[dg-algebra]]
@@ -74,6 +81,8 @@ $$
 concentrated in non-positive degree, which in degree $k$ has the $k$th exterior powers of the [[tangent vector]]s of $X$ and whose differential is given by contracting a tangent vector with the 1-form $d \exp(i S)$.  
 
 This is a [[Koszul resolution]]-type resolution of the 0-locus of $\exp(i S)$. More generally, the homotopy fiber is given by a [[Koszul-Tate resolution]]-type complex. This is known as the _antifield complex_ in the [[BV-BRST formalism|BV-BRST formulation]] of derived phase spaces.
+
+(...)
 
 ## References
 
@@ -142,12 +151,11 @@ hypersurfaces, including at null infinity.
   (Les Houches 1963, Gordon and Breach, 1964), pp.585-820
   (1964; lecture notes 1963)
 
- (P) 
+  (P) 
 
- Influence: Peierls
+  Influence: Peierls
 
- Result: A more detailed exposition of Peierls' idea, with a bit more
-generality in the treatment of gauge systems. Becomes a standard reference along with Peierls' original paper.
+  Result: A more detailed exposition of Peierls' idea, with a bit more generality in the treatment of gauge systems. Becomes a standard reference along with Peierls' original paper.
 
 
 * Ashtekar-Magnon, _On the symplectic structure of general relativity_ Communications in Mathematical Physics
@@ -166,13 +174,11 @@ infinity. The motivation explicit pre-symplectic current formula
 appears from the desire to interpolate between the above two
 formalisms.
 
-* [[Edward Witten]] _Interacting field theory of open superstrings_ Nuclear Physics B
-Volume 276, Issue 2, 13 October 1986, Pages 291-324  (1986) ([web](http://dx.doi.org/10.1016/0550-3213(86)90298-1))
+* [[Edward Witten]] _Interacting field theory of open superstrings_ Nuclear Physics B Volume 276, Issue 2, 13 October 1986, Pages 291-324  (1986) ([web](http://dx.doi.org/10.1016/0550-3213(86)90298-1))
 
   (S)
 
-  Influence: Appears to be self-motivated. Witten needed a covariant way to define Poisson brackets from the action of open string field
-theory. Acknowledges parallel, independent work of Zuckerman.
+  Influence: Appears to be self-motivated. Witten needed a covariant way to define Poisson brackets from the action of open string field theory. Acknowledges parallel, independent work of Zuckerman.
 
   Result: Witten writes down the pre-symplectic form-current "by
 inspection" for a scalar field and for a Chern-Simons theory, then he
@@ -181,89 +187,91 @@ solutions, and that its integral over a Cauchy surface is
 variationally closed.
 
 
-* (S) Ashtekar-Bombelli-Koul (1987; preprint 1986)
-Influence: Ashtekar-Magnon
+* Ashtekar, Bombelli, Koul, YS Kim, WW Zachary (eds.), The Physics of Phase Space: Nonlinear Dynamics and Chaos, Geometric Quantization, and Wigner Function
+(p.356) ISBN 0-387-17894-5
+(1987; preprint 1986)
+
+  (S) 
+
+  Influence: Ashtekar-Magnon
 
   Result: Explicit formula for the symplectic form of full, nonlinear
-general relativity as an integral of a conserved form-current over an
-arbitrary Cauchy surface. Discussion of conversion of symmetries into
-conserved quantities using this form. Some of the aspects related to
-the construction of such conserved have apparently been treated in
-earlier works by Friedman, Sachs and possibly some others.
-YS Kim, WW Zachary (eds.), The Physics of Phase Space: Nonlinear
-Dynamics and Chaos, Geometric Quantization, and Wigner Function
-(p.356) ISBN 0-387-17894-5
+[[general relativity]] as an integral of a conserved form-current over an arbitrary Cauchy surface. Discussion of conversion of symmetries into conserved quantities using this form. Some of the aspects related to the construction of such conserved have apparently been treated in earlier works by Friedman, Sachs and possibly some others.
 
-* (S) Zuckerman (1987; preprint 1986)
+
+* G. J. Zuckerman, _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scienti&#166;c, Singapore, 1987, pp. 259&#8364;284.
+
+  (S)
 
   Influence: Appears to be self-motivated. Possible motivation is a more general construction of conserved currents in variational problems, a la Noether. Acknowledges that he reproduces parallel, but applied to specific theories, work of Crnkovic-Witten and Ashtekar-Bombelli-Koul.
 
   Result: The construction of the pre-symplectic potential form-current and pre-symplectic form-current are given in essentially modern terms. Not all proofs are given. Little discussion of symplectic reduction.
 
-  Zuckerman G.J. Action principles and global geometry (Mathematical
-aspects of string theory (San Diego, Calif., 1986), pp.259-284, Adv.
-Ser. Math. Phys., vol. 1, 1987)
-
-* (S) Crnkovic-Witten (1987)
-
-  Influence: Witten
-
-  Result: Applies the "by inspection" methods of Witten's earlier paper to write down conserved, variationally-closed pre-symplectic currents for Yang-Mills and general relativity.
-Hawking S.W., Israel W. (eds.) 300 years of gravitation (CUP, 1987)
-(p.676) (ISBN 0521343127)
-
-* (S) Lee-Wald (1989)
-Influence: Crnkovic-Witten, Friedman
-Result: Essentially gives the modern formulation as I described it at
-the top. The exposition is quite similar to Zuckerman (though no
-connection with that work is made), but with complete proofs.
-http://dx.doi.org/10.1063/1.528801
-
-* (P) Marolf (1994; preprints 1993, thesis 1992)
-Influence: Peierls, DeWitt; mentions but does not use the material
-from Lee-Wald, Crnkovic-Witten, Ashtekar
-Result: Gives the construction I outlined at the top.
-(arXiv:hep-th/9308141) http://dx.doi.org/10.1006/aphy.1994.1116
-(arXiv:hep-th/9308150) http://dx.doi.org/10.1006/aphy.1994.1117
-
-* (S) Hollands-Marolf (2007, preprint 2006)
-Influence: Lee-Wald
-Result: Extends analysis to classical fermi fields.
-(arXiv:gr-qc/0611044) http://dx.doi.org/10.1088/0264-9381/24/9/010
-
-* (P) Duetsch-Fredenhagen (2003), Brennecke-Duetsch (2008), Rejzner (2011)
-Influence: Peierls, DeWitt, Marolf; also some ideas related to
-retarded products that go back to Glaser-Lehmann-Zimmermann in the
-1950s
-Result: Modern, elementary treatment of the Peierls bracket, including
-for classical fermi fields. The discussion is simplified by sticking
-to non-degenerate (or gauge fixed) actions. The choice of coordinates
-on the space of field configurations is simplified by considering only
-vector bundle valued fields.
-(arXiv:hep-th/0211242) http://dx.doi.org/10.1007/s00220-003-0968-4
-(arxiv:0705.3160) http://dx.doi.org/10.1142/S0129055X08003237
-(arXiv:1101.5126)
 
 
-
-An early description of the [[presymplectic structure]] on covariant phase space is in
-
-* G. J. Zuckerman, _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scienti&#166;c, Singapore, 1987, pp. 259&#8364;284.
-
-and 
-
-* [[Edward Witten]], _Interacting field theory of open superstrings_ , Nucl. Phys. B276, 291
-
-and further developed in
-
-* C. Crnkovi&#263;, _Symplectic Geometry of the Covariant Phase Space_ , Class. Quant. Grav. 5 (1988) 1557&#128;1575.
-
-A discussion of its application to non-abelian [[gauge theory]] ([[Yang-Mills theory]]) and of [[gravity]] is in 
 
 * C. Crnkovi&#263;, [[Edward Witten]], _Covariant Description of Canonical Formalism in Geometrical Theories_, in Three Hundred Years of Gravitation, S. W. Hawking and W. Israel (Eds.), Cambridge
 University Press, Cambridge, 1987, pp. 676&#8364;684. ([pdf](http://www.phys.lsu.edu/classes/spring2006/phys7777/crnkovicwitten.pdf))
 
-Reviews of covariant phase space theory:
+  (S)
+
+  Influence: Witten
+
+  Result: Applies the "by inspection" methods of Witten's earlier paper to write down conserved, variationally-closed pre-symplectic currents for Yang-Mills and general relativity.
+
+* C. Crnkovi&#263;, _Symplectic Geometry of the Covariant Phase Space_ , Class. Quant. Grav. 5 (1988) 1557&#128;1575.
+
+
+* J. Lee, [[Robert Wald]], _Local symmetries and constraints_ (1989) J. Math. Phys. 31, 725 (1990); doi:10.1063/1.528801  ([jMP](http://jmp.aip.org/resource/1/jmapaq/v31/i3/p725_s1?isAuthorized=no))
+
+  (S)
+
+  Influence: Crnkovi&#263;-Witten, Friedman
+
+  Result: Essentially gives the modern formulation as described above. The exposition is quite similar to Zuckerman (though no connection with that work is made), but with complete proofs.
+
+* Marolf, 
+
+  _Poisson Brackets on the Space of Histories_ Annals of Physics Volume 236, Issue 2, December 1994, Pages 374-391  
+  ([arXiv:hep-th/9308141](http://arxiv.org/abs/hep-th/9308141))
+
+  _The generalized Peierls bracket_ ([arXiv:hep-th/9308150](http://arxiv.org/abs/hep-th/9308150))
+
+  (1994; preprints 1993, thesis 1992)
+
+  (P)
+
+  Influence: Peierls, DeWitt; mentions but does not use the material
+from Lee-Wald, Crnkovic-Witten, Ashtekar
+
+  Result: Gives the construction outlined above.
+
+
+* [[Stefan Hollands]], [[Donald Marolf]], _Asymptotic generators of fermionic charges and boundary conditions preserving supersymmetry_ ([arXiv](http://arxiv.org/abs/gr-qc/0611044)) (2007, preprint 2006)
+
+  (S)
+  
+  Influence: Lee-Wald
+
+  Result: Extends analysis to classical fermi fields.
+
+
+* Duetsch [[Klaus Fredenhagen]], _The Master Ward Identity and Generalized Schwinger-Dyson Equation in Classical Field Theory_ ([arXiv:hep-th/0211242](http://arxiv.org/abs/hep-th/0211242)) (2003), 
+
+  Brennecke-Duetsch, _Removal of violations of the Master Ward Identity in perturbative QFT_ (2008) ([arXiv:0705.3160](http://arxiv.org/abs/0705.3160)), 
+
+  Rejzner, _Fermionic fields in the functional approach to classical field theory_  (2011) ([arXiv:1101.5126](http://arxiv.org/abs/1101.5126))
+
+  (P)
+
+  Influence: Peierls, DeWitt, Marolf; also some ideas related to retarded products that go back to Glaser-Lehmann-Zimmermann in the
+1950s
+
+  Result: Modern, elementary treatment of the Peierls bracket, including for classical fermi fields. The discussion is simplified by sticking to non-degenerate (or gauge fixed) actions. The choice of coordinates on the space of field configurations is simplified by considering only vector bundle valued fields.
+
+
+
+Reviews of covariant phase space theory include:
 
 * L. Vitagliano, _Secondary calculus and the covariant phase space_, [pdf](http://diffiety.ac.ru/preprint/2008/02-08.pdf)
 
@@ -273,7 +281,7 @@ A discussion in the context of the [[variational bicomplex]] with further pointe
 
 * E. Reyes, _On Covariant Phase Space and the Variational Bicomplex_ , Int. J. Theor. Phys. 43, no 5 (2004) 1267&#8364;1286
 
-A systematic discussion leading up to the derived covariant phase space by [[BRST-BV formalism]] is in section 8.3 of
+A discussion in the language of [[D-module]]s, following the book [[Chiral Algebras]] and leading up to the derived covariant phase space by [[BRST-BV formalism]] is in section 8.3 of
 
 * [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics-impa-v01-2011.pdf))
 {#Paugam}
