@@ -25,7 +25,6 @@
 
 ## Idea
 
-
 Given a local [[action functional]] 
 
 $$
@@ -48,10 +47,11 @@ $$
 
 One distinguishes two somewhat different constructions 
 
-* **Lagrangian BV formalism** (or "field-antifield formalism") first constructs a derived space with Poisson bracket of degree +1 and then passes to isotropic subspaces.
+* **Lagrangian BV formalism** (or "field-antifield formalism") constructs the [[phase space]] starting from an [[action functional]] $S$ by restricting homologically to the locus where $d S = 0$ and then weakly dividing out [[gauge group]] actions;
 
 
-* **Hamiltonian BFV formalism** first extendes the original configuration space $C$ to a larger space $C'$ on which the presymplectic structure does refine to a [[symplectic structure]], then adds symplectic _constraints_ $I$ such that the classical [[symplectic reduction]] by $I$ is the would-be reduced phase space, and then constructs a [[derived geometry|derived]] [[dg-geometry]]-model of that symplectic reduction.
+* **Hamiltonian BFV formalism** implements a homological version of [[symplectic reduction]].
+
 
 In either case  _BRST-BV_ complex $C^\infty(P^{BV})$ is a model in [[dg-geometry]] of a joint [[homotopy theory|homotopical]] [[quotient]] and [[intersection]], hence of an [[(∞,1)-colimit]] and [[(∞,1)-limit]], of  a [[space]] in [[higher geometry]]/[[derived geometry]], in the presence of or induced by [[Poisson structure]].
 
@@ -221,7 +221,66 @@ The central theorem says that formal integration in this dg-manifold over [[Lagr
 
 
 
+### The standard construction
+
+We discuss the standard constructions and theorems in Lagrangian BV formalism.
+
+Let $k$ be a [[field]] of [[characteristic]] 0. Write $dgcAlg_{k}$ for the [[category]] of graded-commutative [[dg-algebra]]s over $k$ (not assumed to be finitely generated and not assumed to be bounded). For the present discussion we regared the [[opposite category]] $Space := dgAlg_k^{op}$ as our category of [[space]]s and write
+
+$$
+  \mathcal{O} : Space \stackrel{=}{\to}  dgAlg_k^{op}
+$$
+
+to indicate that a space $X \in C$ is defined as having an algebra of functions $\mathcal{O} \in dgAlg_k$.
+
+See [[dg-geometry]] for a more comprehensive discussion of the ambient [[higher geometry]].
+
+We write
+
+$$
+  \mathbb{A}^1 \in Space
+$$
+
+for the canonical [[line object]] in $Space$, the [[affine line]]. This is the space defined by the fact that its dg-algebra of functions 
+
+$$
+  \mathcal{O}(\mathbb{A}^1) = k[x]
+$$
+
+is the [[polynomial]] algebra over $k$ on a single generator. 
+
+The starting point of standard Lagrangian BV is
+
+1. a space $C \in Space$ such that $\mathcal{O}(C) \in CAlg_k \hookrightarrow dgAlg_k$ is an ordinary [[associative algebra|commutative algebra]] over $k$, called the **[[configuration space]]**;
+
+1. a morphism in $Space$
+
+   $$
+     S : C \to \mathbb{A}^1
+     \,,
+   $$
+   
+   called the **[[action functional]]** .
+
+Dually $S$ is a morphism
+
+$$
+  \mathcal{O}(C) \leftarrow \mathcal{O}(\mathbb{A}^1) = k[x] : S^*
+  \,.
+$$
+
+By the defining [[free property]] of $\mathbb{A}^1$ and since $\mathcal{O}(C)$ is assumed to be concentrated in degree 0, this morphism is fixed by its image $S^*(x)$ and hence we may identify $S$ as an element in $\mathcal{O}(C)$
+
+$$
+  S \in \mathcal{O}(C)
+  \,.
+$$
+
+
 ### Poincare duality on Hochschild (co)homology
+
+We comment on ueful interpretation of the role played by the
+algebra of [[multivector field]]s in the above.
 
 Multivector fields may be understood in terms of [[Hochschild cohomology]] of $C$.
 Under the identification of 
@@ -315,6 +374,12 @@ $$
 
 
 ## References
+
+A classical standard references is
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_, Princeton University Press 1992. xxviii+520 pp.
+
+The bulk of the book considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangian ("antifield") formulation, with section 18.4 devoted to the relation between the two.
 
 ### Lagrangian BV
 
