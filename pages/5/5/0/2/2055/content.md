@@ -68,14 +68,16 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [wolframworld](http://mathworld.wolfram.com) 
 
-### Forums
+### Forums 
 
 
 * [Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/) and [daughters](http://stackexchange.com) of &lt;http://area51.stackexchange.com>, including [math.stackexchange](http://math.stackexchange.com) dedicated to lower level math questions ("MathUnderflow"), [tex.stackexchange](http://tex.stackexchange.com) about TeX and LaTeX. Similar [physicsoverflow.com](http://physicsoverflow.com) is not very active yet. 
 
-* [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) For discussions about material (both maths and metas) here on the nLab.
+* [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum) For discussions about material (both maths and metas) here on the nLab.
 
-* the [category theory mailing list](http://www.mta.ca/~cat-dist/) (email discussion forum about category theory) and [archives](http://blog.gmane.org/gmane.science.mathematics.categories)
+* the [category theory mailing list](http://www.mta.ca/~cat-dist) (email discussion forum about category theory) and [archives](http://blog.gmane.org/gmane.science.mathematics.categories) 
+
+* ALGTOP mailing list [archives](https://lists.lehigh.edu/pipermail/algtop-l)
 
 * [Art of Problem Solving](http://www.artofproblemsolving.com) -- math school problems, math olympiads, talent search -- features online forum with  subforums in other languages and [AoPS Resources](http://www.artofproblemsolving.com/Resources/index.php?) including [AoPSwiki](http://www.artofproblemsolving.com/Wiki/index.php/Main_Page), [LaTeX forum section](http://www.artofproblemsolving.com/Forum/viewforum.php?f=123) and [LaTeX guide](http://www.artofproblemsolving.com/Wiki/index.php/LaTeX:About) included. 
 
