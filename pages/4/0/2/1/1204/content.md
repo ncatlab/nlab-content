@@ -29,7 +29,7 @@ Let $X,Y$ have filtrations $F^*$ bounded below by $0$ and preserved by $\nabla,f
 
 $$ (d^\tau -d)F^p X \subseteq F^{p-1} X $$ 
 
-for all $p \geq 0$. The Homological Perturbation Lemma states that $Y$ can be given a new differential $d^\tau$ such that there is a chain equivalence $(Y, d^\tau) \to (X, d^\tau)$. 
+for all $p \geq 0$. The **Homological Perturbation Lemma** states that $Y$ can be given a new differential $d^\tau$ such that there is a chain equivalence $(Y, d^\tau) \to (X, d^\tau)$. 
 
 The main point is that there is an explicit formula for the new chain homotopy as 
 
@@ -41,21 +41,32 @@ This result derived from earlier work of G. Hirsch, E.H. Brown, Weishu Shih, and
 
 ## Applications
 
-* [[BRST-BV formalism]]
+* Homological perturbation theory is a key tool in the construction of [[BRST-BV complex]]es.
 
 
 ## References
 
-* R. Brown, The twisted Eilenberg-Zilber Theorem,  Simposio di Topologia (Messina, 1964)  pp. 33--37 Edizioni Oderisi, Gubbio
+Notes from an introductory survey talk are in 
+
+* [[Johannes Huebschmann]], _A survey on homological perturbation theory_ ([pdf](http://math.univ-lille1.fr/~huebschm/data/talks/courant.pdf))
+
+Other references include
+
+* [[Ronnie Brown]], The twisted Eilenberg-Zilber Theorem,  Simposio di Topologia (Messina, 1964)  pp. 33--37 Edizioni Oderisi, Gubbio
 
 * Barnes, Donald W.(5-SYD-PM); Lambe, Larry A.(5-SYD-PM)
 A fixed point approach to homological perturbation theory.
 Proc. Amer. Math. Soc. 112 (1991), no. 3, 881--892. 
 
 
+
+Discussion with an eye towards [[Hochschild cohomology]] and [[cyclic cohomology]] is in
+
 * Larry A. Lambe, _Homological Perturbation Theory
 Hochschild Homology and Formal Groups_ Cont. Math., vol 189, AMS, 1992 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.64.8783&rep=rep1&type=pdf))
+
 
 * V. &#193;lvarez ,  J.A. Armario ,  P. Real ,  B. Silva , _Homological Perturbation Theory And Computability Of Hochschild And Cyclic Homologies Of Cdgas_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.6955))
 
 
+[[!redirects homological perturbation lemma]]
