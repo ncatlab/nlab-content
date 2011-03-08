@@ -27,7 +27,9 @@ There are strong [[cohomology|cohomological]] tools for studying variational cal
 
 ## Definition
 
-## Referenes
+## References 
+
+* [[phase space]], [[variational bicomplex]]
 
 Fundamental texts of variational calculus include
 
@@ -36,6 +38,10 @@ Fundamental texts of variational calculus include
 * Peter Olver, _Applications of Lie groups to differential equations_, Springer; _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995.
 
 * Olga Krupkov&#225;, _The geometry of ordinary variational equations_, Springer 1997, 251 p.
+
+A new result in  
+
+* [[E. Getzler]], _A Darboux theorem for Hamiltonian operators in the formal calculus of variations_, Duke Math. J. __111__, n. 3 (2002), 535-560, [MR2003e:32026](http://www.ams.org/mathscinet-getitem?mr=1885831), [doi](http://dx.doi.org/10.1215/S0012-7094-02-11136-3)
 
 A long list of discussion of examples of variational problems arising in the [[classical mechanics]] and [[quantum field theory]] is collected in
 
@@ -46,8 +52,6 @@ The formulation of variational calculus in terms of [[diffeological space]]s is 
 * [[Patrick Iglesias-Zemmour]], _Diffeology_ ([pdf](http://math.huji.ac.il/~piz/documents/Diffeology.pdf#page=64))
 {#PIZ}
 
-and in section 2.4 of 
-
-* [[Frédéric Paugam]], _Histories and observables in covariant field theory_ ([arXiv:1010.3210](http://arxiv.org/abs/1010.3210))
+* [[Frédéric Paugam]], _Histories and observables in covariant field theory_ ([arXiv:1010.3210](http://arxiv.org/abs/1010.3210)), sec. 2.4
 {#Paugam}
 [[!redirects calculus of variations]]
