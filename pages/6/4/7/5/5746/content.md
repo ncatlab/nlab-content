@@ -21,7 +21,7 @@ $$
 MC(\mathfrak{g})=\{x\in \mathfrak{g}^1 such that dx+\frac{1}{2}[x,x]=0\}
 $$
 
-One thinks element in this set as _flat $\mathfrak{g}$-[[connection on a bundle|connection]]s: indeed
+One thinks of element in this set as _flat $\mathfrak{g}$-[[connection on a bundle|connection]]s: indeed
 
 $$
 x\in MC(\mathfrak{g}) \Leftrightarrow (d+[x,-])^2=0.
@@ -42,9 +42,10 @@ $$
 e^a*x=x+\sum_{n=0}^\infty \frac{([a,-])^n}{(n+1)!}([a,x]-da)
 $$
 
-The _Deligne groupoid_ $Del(\mathfrak{g})$ of the dgla $\mathfrak{g}$ is the [[nLab:action groupoid|action groupoid]]
+The _Deligne groupoid_ $Del(\mathfrak{g})$ of the dgla $\mathfrak{g}$ is the [[action groupoid]]
+
 $$
-Del(\mathfrak{g})=MC(\mathfrak{g})// exp(\mathfrak{g}^0)
+  Del(\mathfrak{g})=MC(\mathfrak{g})// exp(\mathfrak{g}^0)
 $$
 
 
@@ -58,10 +59,6 @@ For $\mathfrak{g}$ a [[nLab:Lie algebra|Lie algebra]] this is the [[delooping|de
 
 
 ## References
-
-Parts of the above text is taken from
-
-* [[Domenico Fiorenza]], _[[domenicofiorenza:The periods map of a complex projective manifold. An oo-category perspective]]_
 
 Some of the ideas of Deligne on deformation theory were transmitted via
 
@@ -81,5 +78,11 @@ A careful analysis extends the assignment of the Deligne groupoid to a Maurer-Ca
    * _I: general theory_ [arXiv:math/0702838](http://arxiv.org/abs/math/0702838);
    * _II: pro-representability of the deformation functor_ [arXiv:math/0702839](http://arxiv.org/abs/math/0702839);
    * _III: abelian categories_ [arXiv:math/0702840](http://arxiv.org/abs/math/0702840)
+
+Parts of the above text is taken from
+
+* [[Domenico Fiorenza]], _[[domenicofiorenza:The periods map of a complex projective manifold. An oo-category perspective]]_
+
+
 
 [[!redirects Deligne groupoids]]
