@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
+For $S : C \to \mathbb{A}^1$ an [[action functional]], the $\mathcal{O}(C)$-[[module]] of its **Noether identities** is the [[kernel]] $N_S \hookrightarrow Der(\mathcal{O}(C))$ of the canonical morphism
+
+$$
+  \iota_{d S} : Der(\mathcal{O}(S)) \to \mathcal{O}(S)
+  \,.
+$$
+
+See [[BRST-BV complex]] for background and details.
+
+
+## Examples
+
+Assume that $C$ is sufficiently well behaved and of finite dimension such that the module of [[derivation]]s has (locally) a [[basis]] $\{\partial_i\}_i$. Then the Noether identities are (locally) tuples of functions $\{v^i\}$ such that
+
+$$
+  \sum_i v^i \partial_i S = 0
+  \,.
+$$
+
