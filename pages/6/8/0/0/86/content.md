@@ -395,7 +395,11 @@ The application in [[string theory]]/[[string field theory]] is discussed in
 
 * B. Zwiebach, _Closed string field theory: Quantum action and the B-V master equation_, Nucl. Phys. B 390, 33-152 (1993)
 
+A mathematically oriented reformulation of some of this (in the context of [[TCFT]] ) is in 
 
+* [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([pdf](http://www.math.northwestern.edu/~costello/0509264.pdf))
+
+Here the analog of the [[virtual fundamental class]] on the [[moduli space]] of surfaces is realized as a solution to the BV-master equation.
 
 
 ### Hamiltonian BFV
