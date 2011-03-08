@@ -63,7 +63,11 @@ on the [[BRST-BV formalism]] for describing [[gauge theories]].
 
 * [[covariant phase space]]
 
+* [[Peierls bracket]]
+
 ### 17.2) Koszul-Tate resolution and longitudinal $d$
+
+* [[Kszul-Tate resolution]]
 
 ### 17.3) BRST symmetry -- master equation
 
