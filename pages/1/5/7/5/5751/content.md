@@ -1,0 +1,78 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+This entry is about the textbook
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of Gauge Systems_, Princeton University Press 1992. xxviii+520 pp.
+
+on the [[BRST-BV formalism]] for describing [[gauge theories]].
+
+#Contents#
+* table of contents
+{:toc}
+
+## 1) Constrained Hamiltonian systems
+
+## 2) Geometry of the constraint surface
+
+## 3) Gauge invariance of the action
+
+* [[gauge group]]
+
+## 4) Generally covariant systems
+
+## 5) First-class constraints: further developments
+
+## 6) Fermi degrees of freedom: classical mechanics over a Grassmann algebra
+
+## 7) Constrained systems with fermi variables
+
+## 8) Graded differential algebra -- algebraic structure of the BRST symmetry
+
+## 9) BRST construction in the irreducible case
+
+## 10) BRST construction in the reducible case
+
+## 11) Dynamics of the ghosts -- gauge-fixed action
+
+## 12) The BRST transformation in field theory
+
+## 13) Quantum mechanics of constrained systems: standard operator methods
+
+## 14) BRST operator method -- quantum BRST cohomology
+
+## 15) Path integral for unconstrained systems
+
+## 16) Path integral for constrained systems
+
+## 17) Antifield formalism: classical theory
+
+### 17.1) Covariant phase space
+
+* [[covariant phase space]]
+
+### 17.2) Koszul-Tate resolution and longitudinal $d$
+
+### 17.3) BRST symmetry -- master equation
+
+### 17.4) Gauge invariance of the solution of the master equation
+
+## 18) Antifield formalism and path integral
+
+## 19) Free Maxwell theory, abelian two-form gauge field
+
+## 20) Complementary material
+
+category: reference
