@@ -58,8 +58,9 @@ Since $k\Top \hookrightarrow \Top$ is coreflective, it follows that $k\Top$ is [
 
 ## Cartesian closure
 
-The categories $k\Top\simeq \Top_k$ are [[cartesian closed category|cartesian closed]].  For arbitrary spaces $X$ and $Y$, define the *test-open topology* on $\Top_k(X,Y)$ to have the [[subbase]] of sets $M(t,U)$, for a given $t: C
-\to X$ and $U$ open in $Y$, where $M(t,U)$ consists of all $k$-continuous functions $f:X \to Y$ such that $f(t(C))\subseteq U$.
+The categories $k\Top\simeq \Top_k$ are [[cartesian closed category|cartesian closed]].  For arbitrary spaces $X$ and $Y$, define the *test-open* or *compact-open topology* on $\Top_k(X,Y)$ to have the [[subbase]] of sets $M(t,U)$, for a given compact Hausdorff space $C$, a map $t\colon C \to X$, and an open set $U$ in $Y$, where $M(t,U)$ consists of all $k$-continuous functions $f\colon X \to Y$ such that $f(t(C))\subseteq U$.
+
+(This is slightly different from the usual [[compact-open topology]] if $X$ happens to have non-Hausdorff compact subspaces; in that case the usual definition includes such subspaces as tests, while the above definition excludes them.  Of course, if $X$ itself is Hausdorff, then the two become identical.)
 
 With this topology, $\Top_k(X,Y)$ becomes an [[exponential object]] in $Top_k$.  It follows, by [[Yoneda lemma]] arguments, that the bijection
 $$k\Top(X \times Y, Z) \to kTop(X,k\Top(Y,Z))$$
@@ -77,13 +78,9 @@ is actually an isomorphism in $\Top_k$, which we may call a *$k$-homeomorphism*.
 [[Mike Shulman]]: See the [nForum discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1958).
 =--
 
-It follows that the category $k\Top$ of $k$-spaces and continuous maps is also cartesian closed, since it is equivalent to $\Top_k$.  Its exponential object is the $k$-ification of the one constructed above for $\Top_k$.  Since for $k$-spaces, $k$-continuous implies continuous, the underlying set of this exponential space $k\Top(X,Y)$ is the set of all continuous maps from $X$ to $Y$.
+It follows that the category $k\Top$ of $k$-spaces and continuous maps is also cartesian closed, since it is equivalent to $\Top_k$.  Its exponential object is the $k$-ification of the one constructed above for $\Top_k$.  Since for $k$-spaces, $k$-continuous implies continuous, the underlying set of this exponential space $k\Top(X,Y)$ is the set of all continuous maps from $X$ to $Y$.  Thus, when $X$ is Hausdorff, we can identify this space with the $k$-ification of the usual [[compact-open topology]] on $Top(X,Y)$.
 
-This all remains true if we also impose the weak Hausdorff, or Hausdorff, conditions.  If $X$ and $Y$ are Hausdorff $k$-spaces, then we can identify the mapping spaces $kHaus(X,Y)=k(Top(X,Y))$, where $Top(X,Y)$ has the [[compact-open topology]] (the best approximation to an exponential space in $Top$).
-
-+--{: .query}
-[[Mike Shulman]]: Is the Hausdorff condition necessary there?
-=--
+Finally, this all remains true if we also impose the weak Hausdorff, or Hausdorff, conditions.
 
 
 ## Local cartesian closure 
