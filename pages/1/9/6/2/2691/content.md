@@ -277,7 +277,7 @@ This is in II.1.5 of
 
 ## Unbounded dg-algebras {#Unbounded}
 
-We discuss now the case of unbounded dg-algebras. For these there is no longer the [[monoidal Dold-Kan correspondence]] available. Instead, these can be understood as arising naturally as function $\infty$-algebras in the [[derived geometry|derived]] [[dg-geometry]] over formal duals of bounded dg-algebras.
+We discuss now the case of unbounded dg-algebras. For these there is no longer the [[monoidal Dold-Kan correspondence]] available. Instead, these can be understood as arising naturally as function $\infty$-algebras in the [[derived geometry|derived]] [[dg-geometry]] over formal duals of bounded dg-algebras, see [[function algebras on ∞-stacks]].
 
 ### Gradings and conventions {#GradingsAndConventions}
 
@@ -493,6 +493,8 @@ Properness and combinatoriality is discussed in ([To&#235;nVezzosi](#ToenVezzosi
 
 * this implies their assumption 1.1.0.4 which asserts properness and
   combinatoriality
+
+Discussion of cofibrations in $dgAlg_{proj}$ is in ([Keller](#Keller)).
 
 ### Properties
 
@@ -1020,6 +1022,11 @@ A general discussion of algebras over an operad in unbounded chain complexes is 
 
 * [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
 {#Hinich}
+
+Discussion of cofibrations in unbounded dg-algebras are in 
+
+* [[Bernhard Keller]], _$A_\infty$-algebras, modules and functor categories_ ([pdf](http://www.math.jussieu.fr/~keller/publ/ainffun.pdf))
+{#Keller}
 
 The derived copowering of unbounded commutative dg-algebras over $sSet$ is discussed (somewhat implicitly) in
 
