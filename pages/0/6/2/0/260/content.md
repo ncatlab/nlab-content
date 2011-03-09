@@ -21,7 +21,7 @@
 
 ## Idea
 
-In a **geometric definition** of [[(n,r)-categories]] [[composition]] of [[higher morphism]]s is not an _operation_ with a specified outcome but a _relation_ : the $(n,r)$-category is presented much like a [[directed space]] and [[k-morphism]]s are $k$-dimensional subspaces in there. When some of these $k$-morphsims are suitably adjacent, there is a guarantee that there exists a $k$-morphism that serves as their composite. But there may be several such. Instead of a rule for picking a specific one, subject to [[associativity]] constraints, there is a _contractible space of choices_ of possible composites.
+In a **geometric definition** of [[(n,r)-categories]] [[composition]] of [[higher morphism]]s is not an _operation_ with a specified outcome but a _relation_ : the $(n,r)$-category is presented much like a [[directed space]] and [[k-morphism]]s are $k$-dimensional subspaces in there. When some of these $k$-morphisms are suitably adjacent, there is a guarantee that there exists a $k$-morphism that serves as their composite. But there may be several such. Instead of a rule for picking a specific one, subject to [[associativity]] constraints, there is a _contractible space of choices_ of possible composites.
 
 From a geometric presentation of an $(n,r)$-category one can typically obtain an algebraic presentation by choosing composites. The contractibility of the space of choices becomes a [[coherence law]] satisfied by the collection of choices. 
 
