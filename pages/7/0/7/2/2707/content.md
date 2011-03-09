@@ -106,6 +106,8 @@ Some most recent generalizations of the theory, using derivators and similar tec
 
 * [[Goncalo Tabuada|G. Tabuada]], _Representability of bivariant cyclic cohomology in Non-commutative motives_, [arxiv/1005.2336](http://arxiv.org/abs/1005.2336)
 
+* G. Tabuada, _Chow motives versus non-commutative motives_, [arxiv/1103.0200](http://arxiv.org/abs/1103.0200)
+
 Some other aspects
 
 * M.V. Bondarko, _Weight structures vs. $t$-structures; weight filtrations, spectral sequences, and complexes (for motives and in general)_, [arxiv/0704.4003](http://arxiv.org/abs/0704.4003)
