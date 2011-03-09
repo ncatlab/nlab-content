@@ -51,6 +51,8 @@ For the moment see [[Green-Schwarz mechanism]] for more.
 
 ### Anomalous symmetry
 
+> under construction
+
 Let 
 
 $$
@@ -67,7 +69,7 @@ for the BV-action functional, both as given by [[BRST-BV formalism]].
 
 If the action functional is local (comes from a [[Lagrangian]] on [[jet space]]) the [[covariant phase space]] $P$ a priori only carries a [[presymplectic structure]]. But by BV-theory there exists an equivalent (homotopical) derived action functional $S_\Psi^{BV} : P \to \mathbb{R}$ such that $S_\Psi^{BV}$ does induce a genuine [[symplectic structure]] on the [[derived geometry|derived]] space $P$.
 
-For ordinary [[Poisson manifold]]s and hence [[symplectic manifold]]s [[Maxim Kontsevich]]'s theorem says that their [[deformation quantization]] always exist. But if $S$ is the [[action functional]] of a [[gauge theory]] then $P$ is in general a nontrivial derived [[infinity-Lie algebroid]] (its function algebra has "ghosts" and "ghosts of ghost": the [[Chevalley-Eilenberg algebra]] generators) and the theorem does not apply. Instead, there is a theorem (...) that the quantization of the derived symplectic space $P$ exists only if the first and second [[infinity-Lie algebroid cohomology]] of $P$ vanishes:
+For ordinary [[Poisson manifold]]s and hence [[symplectic manifold]]s [[Maxim Kontsevich]]'s theorem says that their [[deformation quantization]] always exist. But if $S$ is the [[action functional]] of a [[gauge theory]] then $P$ is in general a nontrivial derived [[infinity-Lie algebroid]] (its function algebra has "ghosts" and "ghosts of ghost": the [[Chevalley-Eilenberg algebra]] generators) and the theorem does not apply. Instead, the quantization of the derived symplectic space $P$ exists only if the first and second [[infinity-Lie algebroid cohomology]] of $P$ vanishes:
 
 These two cohomology groups 
 
@@ -78,6 +80,7 @@ $$
 are called the **gauge anomaly** of the system. Only if they vanish does the [[quantization]] of the [[gauge theory]] encoded by $S$ exist.
 
 More concretely, the function algebra on $P$ is a graded-commutative [[dg-algebra]] equipped with a graded Poisson bracket $\{-,-\}_{BV}$ and an element $Q \in C^\infty(P)$ (the BV-BRST charge) whose [[Hamiltonian vector field]] is the [[derivation]] that is the [[differential]] of the dg-algebra $C^\infty(X)$. If the gauge anomaly does not vanish, then, while the deformation quantization of the graded algebra $C^\infty(P)$ to a non commutative graded algebra with commutator $[-,-]$ will exist, it may happen that the image $\hat Q$ of $Q$ under the quantization no longer satisfies $[\hat Q,\hat Q] = 2 \hat Q^2$. Therefore the [[derivation]] $[\hat Q,-]$ will not define a [[differential]] and therefore the quantization of the graded-commutative [[dg-algebra]] $C^\infty(P)$ will only be a noncommutative algebra, not a non-commutative dg-algebra, hence will not be functions on a non-commutative space in [[derived geometry]].
+
 
 ## Examples
 
@@ -112,6 +115,8 @@ For the moment see [[Liouville cocycle]].
 
 ## References
 
+### Anomalous action functional
+
 The role of [[spin structure]]s as the anomaly cancellation condition for the spinning particle is discussed in
 
 * [[Edward Witten]], _Global anomalies in String theory_ in _Symposium on anomalies, geometry, topology_ , World Scientific Publishing, Singapore (1985)
@@ -128,8 +133,18 @@ An account that very clearly identifies the mathematical nature of quantum anoma
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
 
+### Gauge anomaly
+
+Discussion in the context of [[BRST-BV formalism]] is in
+
+* R. Amorim, N.R.F.Braga, R. Thibes, _Axial and gauge anomalies in the field antifield quantization of the generalized Schwinger model_ ([arXiv:hep-th/9712014](http://arxiv.org/abs/hep-th/9712014))
+
+
 [[!redirects anomaly]]
 
 
 [[!redirects anomalies]]
 [[!redirects quantum anomalies]]
+
+[[!redirects gauge anomaly]]
+[[!redirects gauge anomalies]]
