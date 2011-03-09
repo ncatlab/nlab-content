@@ -120,6 +120,9 @@ Free algebras of the form $F(A)$ are called **[[tensor algebra]]**s, at least fo
 The elements of the free algebra $F(A)$ are somtimes called [[lists]], at least for $C = $ [[Set]] and similar.
 =--
 
+### Pushouts
+
+#### Of noncommutative monoids
 
 +-- {: .un_prop #PushOutOfMonoidsAlongFreeMorphisms}
 ###### Proposition
@@ -249,6 +252,33 @@ Finally we need to check the universal property of the cocone $P$ obtained this 
 
 =--
 
+#### Of commutative monoids
+
++-- {: .un_prop }
+###### Proposition
+
+Suppose that $C$ is 
+
+* a [[symmetric monoidal category]];
+
+* with [[reflexive coequalizer]]s
+
+* that are preserved by then tensoring functors $A \otimes (-): C \to C$ for all objcts $A$ in $C$.
+
+Then for $f : A\to B$ and $g : A \to C$ two morphisms in the category $CMon(C)$ of _commutative_ monoids in $C$, the underlying object in $C$ of the [[pushout]] in $CMon(C)$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[module]]s
+
+$$
+  U(B \coprod_A C) \simeq  B \otimes_A C 
+  \,.
+$$
+
+Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structure induced by the morphisms $f$ and $g$, respectively.
+
+=--
+
+This appears for instance as [Johnstone, page 478, cor. 1.1.9](#Johnstone).
+
+
 ### Structure induced from monoidal functors
 
 If $F : C\to D$ is a [[lax monoidal functor]], then it induces canonically a functor between categories of monoids
@@ -286,7 +316,10 @@ The detailed discussion of pushouts along free monoid morphisms is in the proof 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
 {#SchwedeShipley}
 
+Some remarks on commutative monoids are in section C1.1 of
 
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+{#Johnstone}
 
 [[!redirects categories of monoids]]
 
