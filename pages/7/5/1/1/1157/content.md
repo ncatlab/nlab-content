@@ -47,7 +47,7 @@ These topologically motivated constructions can be applied in much greater gener
 
 ## The Bar construction
 
-(due originally Eilenberg-MacLane) Remeber this goes from 'algebras' to Hopf algebras in general.
+(due originally Eilenberg-MacLane) Remember this goes from 'algebras' to Hopf algebras in general.
 
 \[B :pre \varepsilon CDGA \to pre CDGHA\]
 
