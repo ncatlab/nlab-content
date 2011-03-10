@@ -55,3 +55,6 @@ This is ([BergerMoerdijk, theorem 2.6](#BergerMoerdijk)).
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _On the derived category of an algebra over an operad_ ([arXiv](http://arxiv.org/abs/0801.2664))
 {#BergerMoerdijk}
+
+* [[Benoit Fresse]], _Modules over operads and functors_ Springer Lecture Notes in Mathematics, (2009)  ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.159.5833&rep=rep1&type=pdf))
+{#Fresse}
