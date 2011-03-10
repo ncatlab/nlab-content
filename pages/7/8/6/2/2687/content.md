@@ -136,6 +136,8 @@
 
   * [[model structure on dg-Lie algebras|on dg-Lie algebras]] / [[model structure on dg-coalgebras|on dg-coalgebras]]
 
+* [[model structure on dg-modules]]
+
 ### for stabilized structures
 
 * [[model structure on spectra]]
