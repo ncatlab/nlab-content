@@ -216,7 +216,7 @@ Profunctors are often notated with a slashed or barred arrow, as in $C &#8696; D
 
       &#8696;
 
-* In LaTeX, one can use `\nrightarrow` (producing '$\nrightarrow$') in a pinch, but a nice-looking extensible barred arrow command can also be produced with the following preamble code (modified from amsmath's `\xrightarrow`):
+* In LaTeX, one can use `\nrightarrow` (producing '$\nrightarrow$') in a pinch, but a nice-looking extensible barred arrow command `\xslashedrightarrow` can also be produced with the following preamble code (modified from amsmath's `\xrightarrow`).  It requires the packages `amsmath` and `mathtools` to be loaded.
 
       \makeatletter
       \def\slashedarrowfill@#1#2#3#4#5{%
@@ -232,6 +232,14 @@ Profunctors are often notated with a slashed or barred arrow, as in $C &#8696; D
       \newcommand\xslashedrightarrow[2][]{%
         \ext@arrow 0055{\rightslashedarrowfill@}{#1}{#2}}
       \makeatother
+
+  The command `\xslashedrightarrow` can then be used with one required argument and one optional argument, just like `\xrightarrow`.  A version taking no arguments can of course be defined with
+
+      \def\slashedrightarrow{\xslashedrightarrow{}}
+
+  A simpler barred arrow taking no arguments can be created with
+
+      \def\slashedrightarrow{\relbar\joinrel\mapstochar\joinrel\rightarrow}
 
 * In Xypic, a barred arrow (to the right, in this example) can be produced with
 
