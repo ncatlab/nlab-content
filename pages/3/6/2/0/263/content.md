@@ -63,11 +63,11 @@ $.
 
 ## Presentation of $(\infty,1)$-categories {#InfCatPres}
 
-A category $C$ with weak equivalences serves as a presentation of an [[(∞,1)-category]] $\mathbf{C}$ with the same objects and at leaast the 1-morphisms of $C$, and such that every weak equivalence in $C$ becomes a true equivalence (a [[homotopy equivalence]]) in $\mathbf{C}$.
+A category $C$ with weak equivalences serves as a presentation of an [[(∞,1)-category]] $\mathbf{C}$ with the same objects and at least the 1-morphisms of $C$, and such that every weak equivalence in $C$ becomes a true equivalence (a [[homotopy equivalence]]) in $\mathbf{C}$.
 
 The procedure (or one of its equivalent variants) that constructs the [[(∞,1)-category]] $\mathbf{C}$ from the category with weak equivalences $C$ is called Dwyer-Kan [[simplicial localization]].
 
-In fact, every [[(∞,1)-category]] may be presented this way (and indeed [[posets]] equipped with [[wide subcategory|wide subcategories]] of morphisms called weak equivalences) are sufficient. This is discussed at
+In fact, every [[(∞,1)-category]] may be presented this way (and indeed [[posets]] equipped with [[wide subcategory|wide subcategories]] of morphisms called weak equivalences are sufficient). This is discussed at
 
 * [[model structure on categories with weak equivalences]] .
 
