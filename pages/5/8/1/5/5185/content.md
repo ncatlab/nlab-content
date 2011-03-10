@@ -45,6 +45,10 @@ which is a [[Quillen equivalence]] if $f$ is a weak equivalence.
 
 This is ([BergerMoerdijk, theorem 2.6](#BergerMoerdijk)).
 
+## Examples
+
+* [[model structure on dg-modules]]
+
 
 ## References
 
