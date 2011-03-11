@@ -29,7 +29,7 @@
 
 * [[loop space object]], [[free loop space object]]
 
-* [[fundamental ∞-groupoid in an locally ∞-connected (∞,1)-topos]]/[[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
+* [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] / [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
 ## Examples
 
