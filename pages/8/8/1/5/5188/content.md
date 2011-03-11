@@ -89,7 +89,7 @@ Riemann surfaces operad (TO BE EXPANDED)
 
 Deligne-Mumford opeard (TO BE EXPANDED)
 
-Little discs operad, framed little discs operad (TO BE EXPANDED) -- See [[Deligne conjecture]]
+[[little discs operad]], [[framed little discs operad]] (TO BE EXPANDED) -- See [[Deligne conjecture]]
 
 ## References
 
