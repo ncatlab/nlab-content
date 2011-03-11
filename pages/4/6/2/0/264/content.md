@@ -27,7 +27,7 @@ The most important information that is lost by forgetting the higher morphisms o
 To the full $(\infty,1)$-category $\hat C$ is canonically associated a 1-category $Ho(\hat C)$ called the [[homotopy category of an (infinity,1)-category]], which is obtained from $\hat C$ not by simply forgetting the higher morphisms, but by quotienting them out, i.e. by remembering the _equivalence classes_ of 1-morphisms. In the $(\infty,1)$-category [[Top]] (restricted to sufficiently nice objects, such as compactly generated weakly Hausdorff topological spaces) these higher morphisms are literally the [[homotopy|homotopies]] between 1-morphisms, and more generally one tends to address higher cells in $(\infty,1)$-categories as homotopies. Therefore the name _homotopy category of an $(\infty,1)$-category_ for $Ho(\hat C)$. In particular $Ho(\hat{Top})$ is the standard homotopy category originally introduced in topology.
 
 
-Now, given just the truncated 1-category $C$ but equipped with the structure of a [[category with weak equivalences]] which indicates which morphisms in $C$ are to be regarded as equivalences in a higher categorical context, there is a universal solution to the problem of finding a cartegory $Ho(C)$ equipped with a functor $Q : C \to Ho(C)$ such that $Q$ sends all (morphisms labeled as) weak equivalences in 
+Now, given just the truncated 1-category $C$ but equipped with the structure of a [[category with weak equivalences]] which indicates which morphisms in $C$ are to be regarded as equivalences in a higher categorical context, there is a universal solution to the problem of finding a category $Ho(C)$ equipped with a functor $Q : C \to Ho(C)$ such that $Q$ sends all (morphisms labeled as) weak equivalences in 
 $C$ to isomorphisms in $Ho(C)$.
 
 In good situations, one may also find an $(\infty,1)$-category $\hat C$ corresponding to $C$, and the notions of homotopy category $Ho(C)$ and $Ho(\hat C)$ coincide. 
@@ -99,9 +99,9 @@ What is called a [[derived category]] is the special case of the homotopy catego
 
 * In classical [[homotopy theory]], _the_ homotopy category refers to the homotopy category [[Ho(Top)]] of [[Top]] with weak equivalences taken to be [[weak homotopy equivalences]].
 
-* [[Ho(Top)]] is often restricted to the [[full subcatgeory]] of spaces of the [[homotopy type]] of a [[CW-complex]] (the full subcategory of CW-complexes in $Ho(Top)$). This is equivalent to $Ho(sSet_{Quillen})$, the homotopy category of the standard Quillen-[[model structure on simplicial sets]]. This equivalence is one aspect of the [[homotopy hypothesis]].
+* [[Ho(Top)]] is often restricted to the [[full subcategory]] of spaces of the [[homotopy type]] of a [[CW-complex]] (the full subcategory of CW-complexes in $Ho(Top)$). This is equivalent to $Ho(sSet_{Quillen})$, the homotopy category of the standard Quillen-[[model structure on simplicial sets]]. This equivalence is one aspect of the [[homotopy hypothesis]].
 
-* In [[stable homotopy theory]] one considers the homtopy category of [[spectra]].
+* In [[stable homotopy theory]] one considers the homotopy category of [[spectra]].
 
 * For the homotopy category of [[Cat]], see [[Ho(Cat)]].
 
