@@ -20,9 +20,12 @@ This entry describes the [[higher geometry]]/[[derived geometry]] modeled on [[(
 
 The corresponding [[(∞,1)-topos]] is the context for classical [[rational homotopy theory]], which arises by forming [[function algebras on ∞-stacks]] over [[constant ∞-stack]]s. It is also the context in which classical and higher order [[Hochschild homology]] of algebras and dg-algebras arises naturally as the function $\infty$-algebra on [[free loop space object]]s.
 
-## The $(\infty,1)$-topos 
+## The $(\infty,1)$-toposes 
 
-We discuss some basic aspects of the [[(∞,1)-topos]] over a [[(∞,1)-site]] of formal duals of cdg-algebras and of cdg-algebras of functions on its objects.
+We discuss some basic aspects of the [[(∞,1)-topos]]es over [[(∞,1)-site]]s of formal duals of cdg-algebras and of cdg-algebras of functions on its objects.
+
+
+### Over formal duals of non-positively graded cdg-algebras
 
 +-- {: .un_def}
 ###### Proposition/Definition 
@@ -41,7 +44,7 @@ $$
   C \hookrightarrow ((cdgAlg_k^-)^{op})^\circ
 $$
 
-be a [[small (∞,1)-category|small]] full [[sub-(∞,1)-category]] of the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by this model strucure, and let $C$ be equipped with the structure of a [[subcanonical coverage|subcanonical]] [[(∞,1)-site]].
+be a [[small (∞,1)-category|small]] full [[sub-(∞,1)-category]] of the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by this model structure, and let $C$ be equipped with the structure of a [[subcanonical coverage|subcanonical]] [[(∞,1)-site]].
 
 Write
 
@@ -157,6 +160,12 @@ $cdgAlg_k^- \hookrightarrow cdgAlg_k$ preserves this $(\infty,1)$-colimit.
 
 =--
 
+
+### Over formal duals of general cdg-algebras
+
+(...)
+
+
 ## Applications
 
 * [[Hochschild cohomology]]: section <a href="http://nlab.mathforge.org/nlab/show/Hochschild+cohomology#OvercdgAlgs">Higher order HH modeled on cdg-algebras</a>;
@@ -165,6 +174,7 @@ $cdgAlg_k^- \hookrightarrow cdgAlg_k$ preserves this $(\infty,1)$-colimit.
 
 * [[perfect ∞-stack]]s and their [[geometric ∞-function theory]]
 
+* [[BRST-BV complex]]
 
 ## References
 
