@@ -29,7 +29,7 @@
 
 The original _Deligne conjecture_ on the structure of [[Hochschild cohomology]] of an [[associative algebra]] and more generally an [[A-∞ algebra]] states that Hochschild cohomology naturally has the structure of a [[BV-algebra]] and that moreover the full Hochschild cohomology complex has the structure of an [[algebra over an operad]] over the ([[framed little disk operad|framed]]) [[little disk operad]]. (The second statement implies the first since ([[BV-algebra|BV]]-)[[nLab:Gerstenhaber algebra]]s are [[algebras over an operad]] over the (framed) little disk operad.)
 
-Proofs of the conjecture have been given first by  [McLure-Smith](#McLureSmith) and others, then also by [Kontsevich-soibelman](#KontsevichSoibelman), and [Tamarkin](#Tamarkin).
+Proofs of the conjecture have been given first by  [McLure-Smith](#McLureSmith) and others, then also by [Kontsevich-Soibelman](#KontsevichSoibelman), and [Tamarkin](#Tamarkin).
 
 A proof for general [[Ek-algebra]]s in [[symmetric monoidal (∞,1)-categories]] is in ([Lurie, section 2.5](#Lurie)).
 
