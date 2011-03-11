@@ -116,7 +116,9 @@ $$
 
 This is discussed and realized in section 1.2. The tensor product is defined in appendix B.7.
 
+### Deligne conjecture
 
+Section 2.5 gives a proof of a generalization of the [[Deligne conjecture]].
 
 [[!redirects E-k-Algebras]]
 
