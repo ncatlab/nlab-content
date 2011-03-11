@@ -28,7 +28,7 @@ $$
   \,.
 $$
 
-See also [[resolution]].
+The term is also used for a [[Reedy model structure|Reedy fibrant]] replacement of a constant simplicial object in a [[model category]]; see also [[resolution]].
 
 ## Examples 
 
