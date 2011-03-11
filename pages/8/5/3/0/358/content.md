@@ -231,6 +231,12 @@ and later further developed in
  
 where also the proof of the [[stabilization hypothesis]] in this context is noticed.
 
+Related discussion is 
+
+* C. Balteanu, Z. Fiedorowicz, R. Schw&#228;nzl, [[Rainer Vogt]], _Iterated monoidal categories_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.290&rep=rep1&type=pdf))
+
+* [[Clemens Berger]], _Double loop spaces, braided monoidal categories and algebraic 3-type of space_ ([pdf](http://math.unice.fr/~cberger/bmonoid.pdf))
+
 
 ## Discussion
 
