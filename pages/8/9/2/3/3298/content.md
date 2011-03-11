@@ -1794,6 +1794,9 @@ induced by these spans constitute the $E_n$-action on the function objects on $X
 
 This was observed in ([Ben-ZviFrancisNadler, corollary 6.8](#Ben-ZviFrancisNadler)).
 
+The next statement is known as the [[Deligne conjecture]].
+
+
 +-- {: .un_remark }
 ###### Remark
 **(Deligne conjecture)**
