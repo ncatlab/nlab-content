@@ -53,6 +53,10 @@ For the moment see
 
    * [[model structure on algebras over an operad]]
 
+## Examples
+
+See also [[homotopy algebra]].
+
 ## References
 
 Model category structures for $\infty$-algebras are discussed in
