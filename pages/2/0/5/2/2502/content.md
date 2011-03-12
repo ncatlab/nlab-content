@@ -13,9 +13,7 @@
 =--
 =--
 
-[[supergravity Lie 6-algebra]] $\to$ [[supergravity Lie 3-algebra]] $\to$ **super-Poincar&#233; Lie algebra**
 
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -55,6 +53,12 @@ For the statement of the following theorem, we use the relation between [[divisi
 
 The 4-cocycle in $d = 11$ is the one that induces the [[supergravity Lie 3-algebra]].
 
+
+## Related concepts
+
+[[supergravity Lie 6-algebra]] $\to$ [[supergravity Lie 3-algebra]] $\to$ **super-Poincar&#233; Lie algebra**
+
+
 ## References
 
 A comprehensive account and classification of super Poincar&#233; Lie algebras is in
@@ -66,5 +70,35 @@ The exceptional fermionic cocycles of the super Poincar&#233; Lie algebra are di
 * [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_ ([pdf](http://math.ucr.edu/home/baez/susy2_1.pdf))
 
 For more see [[division algebra and supersymmetry]].
+
+The cohomology of [[super Lie algebra]]s is analyzed via [[normed division algebra]]s in
+
+* [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_ ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
+
+* [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_ ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
+
+See also [[division algebra and supersymmetry]].
+
+This subsumes some of the results in
+
+* J. A. de Azc&#225;rraga and P. K. Townsend, _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
+
+The cohomology of the [[super Poincare Lie algebra]] in low dimensions $\leq 5$ is analyzed in
+
+* [[Friedemann Brandt]], 
+
+  _Supersymmetry algebra cohomology I: Definition and general structure_ 	J. Math. Phys.51:122302, 2010, [arXiv](http://arxiv.org/abs/0911.2118)
+
+  _Supersymmetry algebra cohomology II: Primitive elements in 2 and 3 dimensions_ 	J. Math. Phys. 51 (2010) 112303 ([arXiv](http://arxiv.org/abs/1004.2978))
+
+  _Supersymmetry algebra cohomology III: Primitive elements in four and five dimensions_ ([arXiv](http://arxiv.org/abs/1005.2102))
+
+and in higher dimensions more generally in
+
+* Michael Movshev, [[Albert Schwarz]], Renjun Xu, _Homology of Lie algebra of supersymmetries_ ([arXiv](http://arxiv.org/abs/1011.4731)) .
+
+
+
+
 
 [[!redirects super Poincaré Lie algebra]]
