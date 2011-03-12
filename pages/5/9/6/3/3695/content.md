@@ -26,7 +26,7 @@ Stokes factors (multipliers, matrices) appear also in the study of stability in 
 
 * C. Sabbah, slides of a talk at Rennes, [pdf](http://www.math.polytechnique.fr/cmat/sabbah/sabbah_rennes091027-pro.pdf); _Wild geometry_, summary of Oberwolfach, [pdf](http://www.math.polytechnique.fr/cmat/sabbah/sabbah_oberwolfach090922.pdf)
 
-* T. Bridgeland, V. Toledano-Laredo, _Stability conditions and Stokes factors_, [arxiv/0801.3974](http://arxiv.org/abs/0801.3974) 
+* T. Bridgeland, V. Toledano-Laredo, _Stability conditions and Stokes factors_, [arxiv/0801.3974](http://arxiv.org/abs/0801.3974); _Stokes factors and multilogarithms_ [arxiv/1006.4623](http://arxiv.org/abs/1006.4623) 
 
 * [[Valerio Toledano Laredo]], _Stability conditions and Stokes factors_, audio of the talk at UCSB, [link](http://doug-pc.itp.ucsb.edu/online/duality09/toledanolaredo1); slides [pdf](http://doug-pc.itp.ucsb.edu/online/duality09/toledanolaredo1/pdf/Toledanolaredo1_String_Duality_KITP.pdf)
 
@@ -50,6 +50,8 @@ Painlev&#233; transcendent_, Nonlinearity __16__ (2003) 363&#8211;386, [doi](htt
 * P. Boalch, _Symplectic manifolds and isomonodromic deformations_, [link](http://www.dma.ens.fr/~boalch/files/smid.pdf)
 
 * A. A. Kapaev, _Quasi-linear Stokes phenomenon for the Painlev&#233; first equation_, J. Phys. A: Math. Gen. __37__, 11149 (2004) [doi](http://dx.doi.org/10.1088/0305-4470/37/46/005)
+
+* Kiran S. Kedlaya, _Good formal structures for flat meromorphic connections, I: Surfaces_, Duke Math. J. __154__, n. 2 (2010), 343-418, [MR2682186](http://www.ams.org/mathscinet-getitem?mr=2682186), [euclid](http://projecteuclid.org/euclid.dmj/1281963652) 
 
 Proceedings volumes:
 
