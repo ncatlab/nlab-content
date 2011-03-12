@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Homotopy algebras
 * table of contents
 {: toc}
@@ -13,12 +23,38 @@ For each of various classical types of [[algebras]], like [[associative algebra|
 The classical case is in the setup of a [[dg-operad]]. 
 Thus one had __strong homotopy associative__ algebras which are the same as $A_\infty$-[[A-infinity-algebra|algebras]], __strong homotopy commutative__ (associative) algebras which also called $C_\infty$-[[C-infinity-algebra|algebras]], __strong homotopy bialgebras__ or $B_\infty$-[[B-infinity algebra|algebras]], __strong homotopy Gerstenhaber__ or $G_\infty$-[[G-infinity-algebra|algebras]] and __strong homotopy Lie algebras__ or $L_\infty$-[[L-infinity-algebra|algebras]] and (strong) [[homotopy BV-algebra]]s or $BV_\infty$-[[BV-infinity-algebra|algebras]]. 
 
+## Related concepts
+
+* [[algebra over a monad]]
+
+  [[∞-algebra over an (∞,1)-monad]] 
+
+* [[algebra over an algebraic theory]] 
+
+  [[∞-algebra over an (∞,1)-algebraic theory]] 
+
+  * [[homotopy T-algebra]] / [[model structure on simplicial T-algebras]]
+
+* [[algebra over an operad]] 
+
+   * [[∞-algebra over an (∞,1)-operad]]
+
+   * [[model structure on algebras over an operad]]
+
 
 ## References
 
-* V. A. Hinich, V. V. Schechtman, _On homotopy limit of homotopy algebras_, $K$-theory, arithmetic and geometry (Moscow, 1984--1986), 240--264, Lecture Notes in Math., 1289, Springer, Berlin, 1987.
+The term _homotopy algebra_ appears explicitly for instance in the following references. But see the above pages and [[higher algebra]] for more general lists of references.
+
+These two articles discuss the [[homotopy theory]] of [[dg-algebra]]s over a [[dg-operad]].
+
+* [[Vladimir Hinich]], V. V. Schechtman, _On homotopy limit of homotopy algebras_, $K$-theory, arithmetic and geometry (Moscow, 1984--1986), 240--264, Lecture Notes in Math., 1289, Springer, Berlin, 1987.
 
 * [[Vladimir Hinich]], _Homological algebra of homotopy algebras_, Comm. Algebra 25 (1997), no. 10, 3291--3323.
+
+See also [[dg-geometry]].
+
+This article discusses something like a model for [[∞-algebras over an (∞,1)-operad]]
 
 * [[Tom Leinster]], _Homotopy algebras for operads_, [math.QA/0002180](http://arxiv.org/abs/math.QA/0002180), 101 pages, 2000
 
