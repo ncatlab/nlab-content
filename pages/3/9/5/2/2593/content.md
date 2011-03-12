@@ -170,6 +170,8 @@ See also
 * scholarpedia: [An introduction to Lie algebra cohomology](http://www.scholarpedia.org/article/An_introduction_to_Lie_algebra_cohomology)
 
 ### Super Lie algebras
+ {#ReferencesSuperLieAlg}
+
 
 The cohomology of [[super Lie algebra]]s is analyzed via [[normed division algebra]]s in
 
@@ -182,6 +184,22 @@ See also [[division algebra and supersymmetry]].
 This subsumes some of the results in
 
 * J. A. de Azc&#225;rraga and P. K. Townsend, _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
+
+The cohomology of the [[super Poincare Lie algebra]] in low dimensions $\leq 5$ is analyzed in
+
+* [[Friedemann Brandt]], 
+
+  _Supersymmetry algebra cohomology I: Definition and general structure_ 	J. Math. Phys.51:122302, 2010, [arXiv](http://arxiv.org/abs/0911.2118)
+
+  _Supersymmetry algebra cohomology II: Primitive elements in 2 and 3 dimensions_ 	J. Math. Phys. 51 (2010) 112303 ([arXiv](http://arxiv.org/abs/1004.2978))
+
+  _Supersymmetry algebra cohomology III: Primitive elements in four and five dimensions_ ([arXiv](http://arxiv.org/abs/1005.2102))
+
+and in higher dimensions more generally in
+
+* Michael Movshev, [[Albert Schwarz]], Renjun Xu, _Homology of Lie algebra of supersymmetries_ ([arXiv](http://arxiv.org/abs/1011.4731)) .
+
+
 
 ### Extensions
 
