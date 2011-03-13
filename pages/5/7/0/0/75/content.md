@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -31,7 +30,7 @@ These questions also apply to [[higher category theory]], which also involves th
 
 +--{.query}
 
-_[[Urs Schreiber|Urs]] asks_: Concerning the last paranthetical remark: I suppose in this manner one could imagine $(n+1)$-categories as a foundation for $n$-categories? What happens when we let $n \to \infty$?
+_[[Urs Schreiber|Urs]] asks_: Concerning the last parenthetical remark: I suppose in this manner one could imagine $(n+1)$-categories as a foundation for $n$-categories? What happens when we let $n \to \infty$?
 
 _[[Toby Bartels|Toby]] answers_: That goes in the last, as yet unwritten, section.
 
