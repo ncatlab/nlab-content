@@ -64,8 +64,6 @@ Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifol
 
 We give a discussion of smooth $G$-[[principal bundle]]s on $X$ in a manner that paves the way to a straightforward generalization to a description of [[principal ∞-bundle]]s.
 
-The first observation is that from $X$ and $G$ we naturally obtain the following [[groupoid]]s.
-
 From the group $G$ we canonically obtain a [[groupoid]] that we write $\mathcal{B}G$ and call the [[delooping]] groupoid of $G$. Formally this groupoid is
 
 $$
@@ -89,7 +87,7 @@ $$
   \right\}
 $$
 
-where the $g_i \in G$ are elements in the group, and the bottom morphism is labeled by forming the product in the group. (The order of the factors here is a convention that does not matter up to equivalence.)
+where the $g_i \in G$ are elements in the group, and the bottom morphism is labeled by forming the product in the group. (The order of the factors here is a convention whose choice, once and for all, does not matter up to equivalence.)
 
 But we get a bit more, even. Since $G$ is a [[Lie group]], there is smooth structure on $\mathcal{B}G$  that makes it a [[Lie groupoid]], an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifold]]s: its collections of objects (trivially) and of morphisms each form a smooth manifold, and all structure maps (source, target, identity, composition) are [[smooth function]]s. We shall write
 
@@ -140,7 +138,8 @@ $$
   \,.
 $$
 
-This indicates that the objects of this groupoid are pairs $(x,i)$ consisting of a point $x \in X$ and a patch $U_i \subset X$ that contains $x$, and a morphism is a triple $(x,i,j)$ consisting of a point and _two_ patches, that both contain the point, in that $x \in U_i \cap U_j$. The triangle in the above cartoon symbolizes the evident way in which these morphisms compose. All this inherits a smooth structure from the fact that the $U_i$ are smooth manifolds and the inclusions $U_i \to X$ are [[smooth function]]s so that $C(U)$ becomes a Lie groupoid.
+This indicates that the objects of this groupoid are pairs $(x,i)$ consisting of a point $x \in X$ and a patch $U_i \subset X$ that contains $x$, and a morphism is a triple $(x,i,j)$ consisting of a point and _two_ patches, that both contain the point, in that $x \in U_i \cap U_j$. The triangle in the above cartoon symbolizes the evident way in which these morphisms compose. All this inherits a smooth structure from the fact that the $U_i$ are smooth manifolds and the inclusions $U_i \to X$ are [[smooth function]]s. 
+hence also $C(U)$ becomes a [[Lie groupoid]].
 
 There is a canonical [[functor]]
 
@@ -149,13 +148,21 @@ $$
   \,.
 $$
 
-This functor is an [[internal functor]] in [[Diff]] and moreover it is evidently [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|full and faithful]]. This means that it exhibits a _weak equivalence_  of the Lie groupoids, which we write  $C(U) \stackrel{\simeq}{\to}X$. However, even though the underlying functor of bare groupoids is essentially surjective and full and faithful and therefore is guaranteed to have a homotopy-inverse functor, that homotopy-inverse never has smooth component maps, unless $X$ itself is a [[Cartesian space]] and the chosen cover is trivial. 
+This functor is an [[internal functor]] in [[Diff]] and moreover it is evidently [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|full and faithful]]. 
 
-We do however want to think of $C(U)$ as being equivalent to $X$ even as a Lie groupoid. And moreover, we shall think of $C(U)$ as a _good_ equivalent replacement of $X$ if it comes from a cover that is in fact a [[good open cover]] in that all its finite intersections $U_{i_0 \cdots i_k} := U_{i_0} \cap \cdots \cap U_{i_k}$ are [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^{dim X}$. 
+However, while 
+essential surjectivity and full-and-faithfulness implies that the underlying bare functor has a homotopy-inverse, that homotopy-inverse never 
+has itself smooth component maps, unless $X$ itself is a Cartesian space and the chosen cover is trivial.
+
+We do however want to think of $C(\{U_i\})$ as being equivalent to $X$ even as a Lie groupoid. 
+One says that a smooth functor whose underlying bare functor is an equivalence of groupoids is
+a _weak equivalence_ of Lie groupoids, which we write as 
+$C(\{U_i\}) \stackrel{\simeq}{\to} X$.
+Moreover, we shall think of $C(U)$ as a _good_ equivalent replacement of $X$ if it comes from a cover that is in fact a [[good open cover]] in that all its non-empty finite intersections $U_{i_0 \cdots i_k} := U_{i_0} \cap \cdots \cap U_{i_k}$ are [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^{dim X}$. 
 
 We shall discuss later in which precise sense this condition makes $C(U)$ _good_ in the sense that smooth functors out of $C(U)$ model the correct notion of morphism out of $X$ in the context of smooth groupoids (namely it will mean that $C(U)$ is cofibrant in a suitable [[model category]] structure on the category of Lie groupoids). The formalization of this statement is what [[(∞,1)-topos]] theory is all about, to which we will come. For the moment we shall be content with accepting this as an ad hoc statement.
 
-We now observe then that a [[functor]]
+Observe that a [[functor]]
 
 $$
   g : C(U) \to \mathbf{B}G
@@ -167,7 +174,7 @@ $$
   \{g_{i j} : U_{i j} \to G \}_{i,j \in I}
 $$
 
-such that on each $U_i \cap U_k \cap U_j$ the equality $g_{j k} g_{i j}  = g_{i k}$ of functions holds:
+such that on each $U_i \cap U_k \cap U_j$ the equality $g_{j k} g_{i j}  = g_{i k}$ of [[smooth function]]s holds:
 
 $$
   \left(
@@ -193,8 +200,6 @@ $$
   \,.
 $$
 
-Demanding that the functor $g$ respects the smooth structure means that the functions $g_{i j}$ are [[smooth function]]s. Smooth functions $\{g_{i j}\}$ satisfying $g_{i j}  g_{j k} = g_{i k}$ are precisely in bijection with smooth functors $g : C(U) \to X$.
-
 It is well known that such collections of functions characterize $G$-[[principal bundle]]s on $X$. While this is a classical fact, we shall now describe a way to derive it that is true to the Lie-groupoid-context and that will make clear how smooth principal $\infty$-bundles work.
 
 First observe that in total we have discussed so far [[span]]s of smooth functors of the form
@@ -210,7 +215,7 @@ $$
   \,.
 $$
 
-Such spans of functors, whose left leg is a weak equivalence, are sometimes known as [[anafunctor]]s. We are to think of these as concrete _models_ for more intrinsically defined morphisms $X\to \mathbf{B}G$ in the $(\infty,1)$-topos of $\infty$-Lie groupoids. 
+Such spans of functors, whose left leg is a weak equivalence, are sometimes known, essentially equivalently, as [[Morita morphism]]s or _generalized morphisms_ of Lie groupoids, as [[Hilsum-Skandalis morphism]]s or groupoid [[bibundle]]s, or as [[anafunctor]]s. We are to think of these as concrete _models_ for more intrinsically defined direct morphisms $X\to \mathbf{B}G$ in the $(\infty,1)$-topos of $\infty$-Lie groupoids. 
 
 Now consider yet another Lie groupoid canonically associated with $G$: we shall write $\mathbf{E}G$ for the groupoid whose formal description is
 
@@ -230,15 +235,15 @@ $$
      \array{
         && g_2
         \\
-        & \nearrow &=& \searrow
+        & {}^{\mathllap{g_2 g_1^{-1}}}\nearrow &=& \searrow^{\mathrlap{g_3 g_2^{-1}}}
         \\
-        g_1 &&\stackrel{}{\to}&& g_3
+        g_1 &&\stackrel{ g_3 g_1^{-1}}{\to}&& g_3
      }
   \right\}
   \,,
 $$
 
-where we don't need to further label the morphisms, since there is a _unique_ morphism for every ordered pair $(g_1, g_2)$ of elements in $G$. This again inherits an evident smooth structure from the smooth structure of $G$ and hence becomes a Lie groupoid.
+This again inherits an evident smooth structure from the smooth structure of $G$ and hence becomes a Lie groupoid.
 
 There is an evident [[forgetful functor]]
 
@@ -270,8 +275,6 @@ $$
 $$
 
 in the category $Grpd(Diff)$.
-
-
 The object $\tilde P$ is the Lie groupoid whose cartoon description is
 
 
@@ -280,7 +283,7 @@ $$
     \tilde P = 
     \left\{
        \array{
-          (x,i,g_1) &&\stackrel{}{\to}&& (x,j,g_2 = g_1 g_{i j}(x))
+          (x,i,g_1) &&\stackrel{}{\to}&& (x,j,g_2 = g_{i j}(x) g_1 )
        }
    \right\}
   }
@@ -301,14 +304,14 @@ $$
   \,,
 $$
 
-where the [[equivalence relation]] is precisely that exhibited by the morphisms in $\tilde P$. This is the traditional way to construct a $G$-[[principal bundle]] from cocycle functions $(g_{i j})$. We may think of $\tilde P$ as _being_ $P$. It is a particular _representative_ of $P$ in the $(\infty,1)$-topos of Lie groupoids.
+where the [[equivalence relation]] is precisely that exhibited by the morphisms in $\tilde P$. This is the traditional way to construct a $G$-[[principal bundle]] from cocycle functions $\{g_{i j}\}$. We may think of $\tilde P$ as _being_ $P$. It is a particular _representative_ of $P$ in the $(\infty,1)$-topos of Lie groupoids.
 
 While it is easy to see in components that the $P$ obtained this way does indeed have a principal $G$-[[action]] on it, for later generalizations it is crucial that we can also recover this in a general abstract way. For notice that there is a canonical [[action]]
 
 $$
   (\mathbf{E}G) \times G \to \mathbf{E}G
-  \,.
 $$
+given by the action of $G$ on the space of objects, which are themselves identified with $G$.
 
 Then consider the [[pasting]] diagram of pullbacks
 
@@ -331,7 +334,7 @@ $$
   \,.
 $$
 
-The morphism $\tilde P \times G \to \tilde P$ is the principal $G$-[[action]] of $G$ on $\tilde P$.
+The morphism $\tilde P \times G \to \tilde P$ exhibits the principal $G$-[[action]] of $G$ on $\tilde P$.
 
 
 In summary we find
@@ -339,7 +342,7 @@ In summary we find
 +-- {: .un_prop}
 ###### Observation
 
-There is an [[equivalence of categories]]
+For $\{U_i \to X\}$ a [[good open cover]], there is an [[equivalence of categories]]
 
 $$
   SmoothFunc(C(\{U_i\}), \mathbf{B}G)
@@ -397,7 +400,7 @@ $$
      \\
      P \times G &\to& G
      \\
-     \downarrow && \downarrow
+     \downarrow &\swArrow_{\simeq}& \downarrow
      \\
      P &\to& * 
      \\
