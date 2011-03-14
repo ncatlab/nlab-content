@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include AQFT and operator algebra contents]]
 ***
@@ -23,7 +22,7 @@ and lots of others...
 
 A somewhat novel take on conformal nets is presented and studied in 
 
-* [[Arthur Bartels]], [[Andre Henriques]], [[Chris Douglas]], _Conformal nets and local field theory_ ([arXiv:0912.5307](http://arxiv.org/abs/0912.5307))
+* [[Arthur Bartels]], [[Chris Douglas]], [[Andre Henriques]], _Conformal nets and local field theory_ ([arXiv:0912.5307](http://arxiv.org/abs/0912.5307))
 
 where conformal nets are arranged into a [[tricategory]]  with [[symmetric monoidal category|symmetric monoidal structure]] that is a [[delooping]] of the [[bicategory]] of [[von Neumann algebra]]s and [[bimodule]]s between these. Among other things, this work connects the [[AQFT]] notion of conformal nets with the [[FQFT]] notion of [[cobordism]] representations.
 
