@@ -217,6 +217,12 @@ hypersurfaces, including at null infinity.
 
   Result: A more detailed exposition of Peierls' idea, with a bit more generality in the treatment of gauge systems. Becomes a standard reference along with Peierls' original paper.
 
+* Friedman, _Generic instability of rotating relativistic stars_ 
+  Commun. math. Phys. 62, 247--278 (1978) ([springer] (http://dx.doi.org/10.1007/BF01202527))
+
+  (S) 
+
+  Influence: Bergmann-Schiller, Komar, ... (?)
 
 * Ashtekar-Magnon, _On the symplectic structure of general relativity_ Communications in Mathematical Physics
 Volume 86, Number 1, 55-68, DOI: 10.1007/BF01205661 (1982) ([springer](http://dx.doi.org/10.1007/BF01205661))
@@ -268,8 +274,6 @@ variationally closed.
   Result: The construction of the pre-symplectic potential form-current and pre-symplectic form-current are given in essentially modern terms. Not all proofs are given. Little discussion of symplectic reduction.
 
 
-
-
 * C. Crnkovi&#263;, [[Edward Witten]], _Covariant Description of Canonical Formalism in Geometrical Theories_, in Three Hundred Years of Gravitation, S. W. Hawking and W. Israel (Eds.), Cambridge
 University Press, Cambridge, 1987, pp. 676&#8364;684. ([pdf](http://www.phys.lsu.edu/classes/spring2006/phys7777/crnkovicwitten.pdf))
 
@@ -289,6 +293,15 @@ University Press, Cambridge, 1987, pp. 676&#8364;684. ([pdf](http://www.phys.lsu
   Influence: Crnkovi&#263;-Witten, Friedman
 
   Result: Essentially gives the modern formulation as described above. The exposition is quite similar to Zuckerman (though no connection with that work is made), but with complete proofs.
+
+* Ashtekar-Bombelli-Reula, _The Covariant Phase Space of Asymptotically Flat Gravitational Fields_ in Mechanics, Analysis and Geometry: 200 Years after Lagrange edited by M. Francaviglia and D.~Holm, North-Holland, Amsterdam, 1990.
+
+  (S)
+
+  Influence: Ashtekar-...
+
+  Result: Becomes standard reference. (?)
+
 
 * Marolf, 
 
