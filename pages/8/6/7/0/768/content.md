@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A **classifying space** for some sort of data refers to a [[space]] (or a more general object), usually written $\mathcal{B}(data)$, such that maps $X\to \mathcal{B}(data)$ correspond to data over $X$.
 
 The classical example is the classifying space $\mathcal{B}G$ of a [[group]] $G$, which has the property that there is a bijection between [[homotopy]] classes of maps $X\to \mathcal{B}G$ and isomorphism classes of $G$-[[bundle|bundles]] over $X$.  (In fact, one can jack this up to an equivalence of [[groupoid|groupoids]] or $\infty$-[[infinity-groupoid|groupoids]].)  Various improvements of this are possible which classify bundles with extra structure or [[fibration|fibrations]].
@@ -8,8 +15,46 @@ To see the connection between the two, consider the case when $X$ is a groupoid 
 
 The phrase "classifying space" is also sometimes used for the realization of the nerve of any category, although it is more complicated to say what exactly this space "classifies."  (One answer is "torsors modulo concordance.")
 
+## Examples
 
-# Classifying spaces for crossed complexes
+
+### For principal bundles
+
+For $G$ a [[topological group]] there is a classifying space $B G \in$ [[Top]] for topological $G$-[[principal bundle]]s, hence a space such that for $X$ any sufficiently nice topological space there is a [[natural isomorphism]]
+
+$$
+  G Bund(X)_0 \simeq \pi_0 Top(X, B G)
+$$
+
+between the set of [[isomorphism]] classes of $G$-[[principal bundle]]s on $X$ and the set of [[homotopy]]-classes of [[continuous function]]s $X \to B G$.
+
+This space may be constructed as follows:
+
+write $\mathbf{B}G \in Top^{\Delta^{op}}$ for the [[simplicial topological space]] obtained as the [[nerve]] of the the one-object [[topological groupoid]] associated to $G$, the simplicial space given by
+
+$$
+  (\mathbf{B}G)_n) = G^{\times n}
+$$ 
+
+whose face maps are induced by the product operation on $G$ and whose degeneracy maps are induced from the unit map.
+
+If $G$ is [[well-pointed simplicial topological group|well-pointed]], then the [[geometric realization of simplicial topological spaces]] of $G$ is a model for the [[homotopy type]] of the classifiyng space
+
+$$
+  B G \simeq \vert \mathbf{B}G\vert
+  \,.
+$$
+
+For more details on this construction see the section <a href="http://ncatlab.org/nlab/show/geometric+realization+of+simplicial+topological+spaces#ClassifyingSpaces">classifying spaces</a> at [[geometric realization of simplicial topological spaces]].
+
+As discussed there, too, this construction generalizes to more general [[simplicial topological group]]s and classifying spaces for their [[principal ∞-bundle]]s.
+
+
+
+
+### For crossed complexes
+
+We discuss here classifying spaces of [[crossed complex]]es.
 
 The notion of classifying space should be regarded in general terms as giving a functor 
 
@@ -58,12 +103,14 @@ Special cases of crossed complexes are [[groupoids]], and so we get the classify
 A crossed module is equivalent to a category object in groups, and so a nerve of this can be constructed as a bisimplicial set. The geometric realisation of this is naturally bifiltered, in several ways!
 
 In considering what is desirable for a [[fundamental infinity-groupoid]] one should bring the notion of classifying space, and its inherited structure, into account. 
-# Classifying spaces for simplicial groups
 
-The W-bar construction which gives the classifying space functor for simplicial groups and simplicially enriched groupoids is given in the entry on [[simplicial group|simplicial groups]].  It provides a good example of the above as the W-bar functor is right adjoint to the [[Dwyer-Kan loop groupoid]] functor and induces an equivalence of homotopy categories between that of simplicial sets and that of simplicially enriched groupoids.
+### For simplicial groups
+
+The $\bar W(-)$-construction (see [[simplicial group]] and [[groupoid object in an (∞,1)-category]]) which gives the classifying space functor for [[simplicial group]]s and simplicially enriched groupoids is given in the entry on [[simplicial group|simplicial groups]].  It provides a good example of the above as the W-bar functor is right adjoint to the [[Dwyer-Kan loop groupoid]] functor and induces an equivalence of homotopy categories between that of simplicial sets and that of simplicially enriched groupoids.
 The simplicial sets here are playing the role of 'topological data'.
 
-#Moduli spaces#
+
+## Moduli spaces 
 
 The notion of **[[moduli space]]** is closely related to that of classifying space, but has some subtle differences. See there for more on this.
 
