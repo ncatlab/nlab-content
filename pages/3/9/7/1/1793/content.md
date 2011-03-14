@@ -58,7 +58,7 @@ Recall that by the dual [[Dold-Kan correspondence]] the category $C^\Delta$ of [
 
 #### General results {#GeneralResults}
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let $G \in Obj(C)$ be a [[class]] of objects, such that $C$ has enough $G$-[[injective object]]s. 
@@ -77,7 +77,7 @@ See [Bousfield2003, section 4.4](http://arxiv.org/PS_cache/math/pdf/0312/0312531
 
 If we take $G$ to be the class of all objects of $C$ this gives the following structire.
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 There is a model structure on $Ch^\bullet_+(C)_{tot}$ whose
@@ -90,7 +90,7 @@ There is a model structure on $Ch^\bullet_+(C)_{tot}$ whose
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 If $C = $ [[Vect]] is a category of [[vector space]]s over some field, we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence. 
@@ -102,7 +102,7 @@ This is the model structure which induces the [[transferred model structure|tran
 #### The projective model structure {#CochainNonNegProj}
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The category $Ch^\bullet_+(Ab)$ of non-negatively graded cochain complexes of [[abelian group]]s becomes a model category with
@@ -142,7 +142,7 @@ For $n = 0$ let $\mathbb{Z}[-1,0] = 0$, for convenience.
 
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 {#ProjStructGenCofibs}
 
@@ -255,7 +255,7 @@ $$
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 For all $n \in \mathbb{N}$, the morphism $0 \to \mathbb{Z}[n-1,n]$
@@ -286,7 +286,7 @@ surjctive by assumption.
 =--
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 {#ProjStructCharAcyclicFibrations}
 
@@ -340,12 +340,12 @@ an isomorphism on cohomology.
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 {#ProjStrucFactAxiomI}
 
 Every morphism $f : A \to B$ can be factored as 
-a morphism with left leifting property against all
+a morphism with left lifting property against all
 fibrations followed by a fibration.
 
 =--
@@ -401,7 +401,7 @@ onto and hence a fibration.
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 Every morphism $f : A \to B$ may be factored as a
@@ -422,7 +422,7 @@ apllied to $I$.
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 A morphism $f : A \to B$ that is both a cofibration
@@ -540,7 +540,7 @@ Let $R$ be a [[ring]] and $\mathcal{A} = $ $R$-[[Mod]] be the category of $R$-[[
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 Given a pair of [[adjoint functor]]s 
@@ -595,7 +595,7 @@ Let $R$ be an associative ring and $\mathcal{A} = R$[[Mod]].
 
 Let $\mathcal{A}$ and $\mathcal{B}$ be [[abelian categories]]. Let the [[categories of chain complexes]] $Ch_\bullet^+(\mathcal{A})$ and $Ch_\bullet^+(\mathcal{B})$ be equipped with the model structure described [above](#GeneralResults) where fibrations are the degreewise [[split monomorphism]]s with [[injective object|injective]] [[kernel]]s.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If 
@@ -737,7 +737,7 @@ Spaltenstein wrote a famous paper
 
 on how to do homological algebra with unbounded complexes (in both sides) where he introduced notions like K-projective and K-injective complexes. Later, 
 
-* V. Hinich, _Homological algebra of homotopy algebras_, Comm. Algebra, vol. 25 (1997), no. 10, 3291-3323
+* [[Vladimir Hinich]], _Homological algebra of homotopy algebras_, Comm. Algebra, vol. 25 (1997), no. 10, 3291-3323
 ([pdf at author's page](http://math.haifa.ac.il/hinich/WEB/mypapers/haha.pdf)) 
 
 shown that there is a model category structure on the category of unbounded chain complexes, reproduced Spaltenstein's results from that perspective and extended them widely. 
@@ -749,12 +749,13 @@ The article
 
 discusses model structures on unbounded chain complexes with generalized notions of epimorphisms induced from "projectve classes".
 
-
 See also 
 
 * [[Dan Christensen]], _Derived categories and projective classes_ , (2005) ([hopf archive](http://hopf.math.purdue.edu/cgi-bin/generate?/Christensen/derived))
 
+A discussion of the homotopy theory of [[presheaves]] of unbounded chain complex is in 
 
+* [[Rick Jardine]], _Presheaves of chain complexes_ ([ps](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.57.6884&rep=rep1&type=ps))
 
 
 [[!redirects model structures on chain complexes]]
