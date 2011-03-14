@@ -58,6 +58,10 @@ We end by indicating how under [[Lie integration]] this lifts to the full [[∞-
 
 ## Principal $n$-bundles in low dimension {#PrincipalNBundles}
 
+We assume here that the reader has a working knowledge of [[groupoid]]s and at least a rough idea of [[2-groupoid]s. We first use these notions to motivate some constructions, before discussing the
+formalization of [[∞-groupoid]] in terms of [[Kan complex]]es.
+
+
 ### Ordinary smooth principal bundles {#PrincipalBundles}
 
 Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[nLab:paracompact space|paracompact]]). 
@@ -459,7 +463,7 @@ $$
   \,.
 $$
 
-What we see here are the first stages of the full [[Cech nerve]] of the cover. Eventually we will be looking at this object in its entirety, since for all degrees this is always a _good_ replacement of the manifold $X$.
+What we see here are the first stages of the full [[Cech nerve]] of the cover. Eventually we will be looking at this object in its entirety, since for all degrees this is always a _good_ replacement of the manifold $X$, as long as $\{U_i \to X\}$ is a [[good open cover]].
 
 So we look now at 2-[[anafunctor]]s given by spans 
 
@@ -507,9 +511,10 @@ that is given by a collection of smooth functions
 
 $$
   (g_{i j k} : U_i \cap U_j \cap U_k \to U(1))
+  \,.
 $$
 
-and on [[3-morphism]]s it gives a constraint on these functions, since there are only identity 3-morphisms in $\mathbf{B}^2 U(1)$
+On [[3-morphism]]s it gives a constraint on these functions, since there are only identity 3-morphisms in $\mathbf{B}^2 U(1)$:
 
 $$
   \begin{aligned}
@@ -572,51 +577,27 @@ $$
 
 is that known from [[Cech cohomology]].
 
-Following the general abstract formalism, it is again straightforward to find the total space of the $\mathbf{B}U(1)$-[[principal 2-bundle]] that is classified by such a cocycle.
-
-For that we need to get the 2-groupoid $\mathbf{B}^2 U(1)$ and the 2-functor $\mathbf{E} \mathbf{B} U(1) \to \mathbf{B}^2 U(1)$ that exhibits the [[universal principal ∞-bundle|universal principal 2-bundle]] over $U(1)$.
-
-It is easy to guess what this should be, but there is also a systematic way to derive this, which works in full generality:
-
-
-### Universal principal $n$-bundles {#UniversalnBundle}
-
-For $G$ any group object, the [[universal principal ∞-bundle]] is a good replacement for the point inclusion $* \to \mathbf{B}G$.
-
-Write 
+In order to find the circle [[principal 2-bundle]] classified by such a cocycle by a pullback operation as before, we need to construct the 2-functor 
+$\mathbf{E} \mathbf{B} U(1) \to \mathbf{B}^2 U(1)$ that exhibits the [[universal principal ∞-bundle|universal principal 2-bundle]] over $U(1)$.
+The right choice for $\mathbf{E B} U(1)$ -- which we justify systematically in a moment -- is 
+indicated by
 
 $$
-  \mathbf{B}G^I
-  :=
-  [\Delta[1], \mathbf{B}G]
+  \mathbf{E B}U(1) := 
+  \left\{
+    \array{
+      && {*}
+      \\
+      & {}^{\mathllap{c_1}}\nearrow &\Downarrow^{g}& \searrow^{\mathrlap{c_2}}
+      \\
+      * &&\underset{c_3 = g c_2 c_1}{\to}&&
+    }
+  \right\}
 $$
-
-for the [[path space object]] of $\mathbf{B}G$. For $G$ an ordinary group this is also known as the [[arrow category]] of $\mathbf{B}G$.
-
-There are two canonical projections $d_i : \mathbf{B}G^I \to \mathbf{B}G$. 
-Define $\mathbf{E}G$ to be the [[pullback]]
-
-$$
-  \array{
-    \mathbf{E}G &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathbf{B}G^I &\stackrel{d_1}{\to}& \mathbf{B}G
-    \\
-    \downarrow_{\mathrlap{d_0}}^{\simeq}
-    \\
-    \mathbf{B}G
-  }
-  \,.
-$$
-
-For $G$ an ordinary Lie group, this reproduces the groupoid $\mathbf{E}G$ discussed [above](#PrincipalBundles). 
-
-For detailed illustration of what $\mathbf{E}G$ looks like for $G$ a [[2-group]], see ([RobertsSchreiber](#RobertsSchreiber)).
-
-
-### Circle $n$-bundles and bundle $(n-1)$-gerbes
+for $c_1, c_2, c_3, g \in U(1)$, where all possible composition operations are given by forming the
+product of these labels in $U(1)$. The projection $\mathbf{E B}U(1) \to \mathbf{B}^2 U(1)$ is
+the obvious one that simply forgets the labels $c_i$ of the 1-morphisms and just remembers the labels 
+$g$ of the 2-morphisms.
 
 
 Let $g : C(U) \to \mathbf{B}^2 U(1)$ be a Cech cocycle as [above](#Cech2Cocycles). By the discussion of [universal n-bundles](#UniversalnBundle) we find the corresponding total space object as the [[pullback]] 
@@ -677,7 +658,7 @@ $$
 This is a [[groupoid cohomology|groupoid central extension]]
 
 $$
-  \mathbf{B}U(1) \to P \to C(U) \times X
+  \mathbf{B}U(1) \to P \to C(U) \simeq X
   \,.
 $$
 
