@@ -29,6 +29,8 @@ For $A$ a an [[associative algebra]], not necessatily commutative, its collectio
 Various authors have proposed ([Butterfield-Hamilton-Isham](#ButterfieldHamiltonIsham), [D&#246;ring-Isham](#DoeringIsham), 
 [Heunen-Landsmann-Spitters](#HeunenLandsmanSpitters)) that for the case that $A$ is a [[C-star algebra]] the [[noncommutative geometry]] of the [[Isbell duality|formal dual]] [[space]] $\Sigma(A)$ of $A$ may be understood as a commutative [[geometry]] [[internalization|internal]] to a [[sheaf topos]] $\mathcal{T}_A$ over $ComSub(A)$ or its [[opposite category|opposite]] $ComSub(A)^{op}$. An advantage of the latter is that $\Sigma$ becomes a [[compact locale|compact]] [[regular locale]].
 
+### As a site for noncommutative phase spaces
+
 Specifically, when applied to the algebra $A = B(\mathcal{H})$ of [[bounded operator]]s on a [[Hilbert space]], the [[locale]] $\Sigma(A)$ internal to $\mathcal{T}_A$ behaves like the noncommutative [[phase space]] of a system of [[quantum mechanics]], which however internally looks like an ordinary commutative geometry. Various statements about [[operator algebra]] then have geometric analogs in $\mathcal{T}_A$. 
 
 Notably the [[Kochen-Specker theorem]] says that $\Sigma(B(\mathcal{H}))$, while nontrivial, has no [[point]]s/no [[global element]]s. (This topos-theoretic geometric reformulation of the Kochen-Specker theorem had been the original motivation for considering $ComSub(A)$ in the first place in [ButterfieldIsham](#ButterfieldIsham)).
@@ -39,6 +41,7 @@ Moreover, inside $\mathcal{T}_A$ the [[quantum mechanics|quantum mechanical]] ki
 
 1. [[observable]]s are morphisms of internal [[locale]]s $\Sigma(A) \to IR$, where $IR$ is the [[interval domain]].
 
+The assignment to a noncommutative algebra $A$ of a [[locale]] $\underline{\Sigma}_A$ internal to $\mathcal{T}_A$ has been called [[Bohrification]], in honor of [[Nils Bohr]] whose heuristic writings about the nature of [[quantum mechanics]] as being probed by classical (= commutative) context one may argue is being formalized by this construction.
 
 ## Properties
 
