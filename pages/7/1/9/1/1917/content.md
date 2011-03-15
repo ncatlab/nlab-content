@@ -29,6 +29,9 @@ Fix an integer $n \geq 0$ and a field, $K$. All vector spaces will be tacitly as
 
 HQFTs were introduced in 1999 by [[Vladimir Turaev]] for 2-dimensional [[manifold]]s.  He extended them to 3-dimensional ones the following year. At about the same time, Brightwell and Turner (1999) looked at what they called the [[homotopy]] surface category and its [[representation]]s. There are two viewpoints which interact and complement each other. Turaev's seems to be to see HQFTs as an extension of the tool kit for studying [[manifold]]s given by [[TQFT]]s, whilst in Brightwell and Turner's,  it is the 'background space', which is probed by the surfaces in the sense of [[sigma-model]]s.
 
+
+
+
 ## Idea 
 
 The idea of Turaev was to extend the basic ideas of [[TQFTs]] from $n$-dimensional manifolds and [[cobordism]]s between them, to manifolds with a simple bit of [[stuff, structure, property|extra structure]] given by a continuous map to a [[sigma-model|background space]], $B$.
@@ -110,7 +113,11 @@ $\tau( 1_{(X,g)}) = 1_{\tau(X,g)}.$
 
 * With the revised version of the axioms, it becomes possible to attempt to classify HQFTs with a given $n$ and $B$. Turaev did this in the original paper with $n = 2$ and $B$ an [[Eilenberg-MacLane space]], $K(G,1)$.  The results of Brightwell and Turner essentially gave the solution for $B$ a $K(A,2)$.
 
+##1+1 dimensional HQFTs with background a $K(G,1)$
 
+If we look at the case $n= 1$ and with background an [[Eilenberg-Mac Lane space]] $K(G,1)$, then HQFTs correspond to [[crossed G-algebra|crossed G-algebras]], in much the same way that commutative [[Frobenius algebras]] correspond to [[2d TQFT]]s.  There the correspondence is given by a [[2d TQFT]], $Z$, corresponds to the [[Frobenius algebra]], $Z(S^1)$. This is because the circle $S^1$ is a [[Frobenius object]] in the category $Bord_2$ of 2d-[[cobordism]]s between 1-manifolds. 
+
+In the case of HQFTs, the role of the circle is replaced by the family of  circles with characteristic maps to $B$.  Each one gives, combinatorially, a circle together with a labelling of the boundary by an element of $G$. (It does not seem to be known how to get a $G$-graded version of a Frobenius object that will correspond to this situation, although this is probably not too hard to do.)
 
 ##  References
 
