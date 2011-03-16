@@ -1,0 +1,5 @@
+Tropical geometry is often thought as an [[algebraic geometry]] over the [[tropical semiring]].
+
+* [[Mark Gross]], _Tropical geometry and mirror symmetry_, CBMS regional conf. ser. 114 (2011), based on the CBMS course in Kansas, [AMS book page](http://www.ams.org/bookstore-getitem/item=CBMS-114), [pdf](http://www.math.ucsd.edu/~mgross/kansas.pdf)
+
+* MSRI introductory workshop on tropical geometry [page](http://www.msri.org/web/msri/scientific/workshops/show/-/event/Wm483), Aug 24-28, 2009 (with videos of the lectures)
