@@ -49,16 +49,50 @@ That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the
 ## Properties
 
 ### Category of locales
+ {#CategoryOfLocales}
 
-The category [[Locale]] of locales [[internalization|internal to]] a [[topos]] $E$ is equivalent to the category of [[localic geometric morphisms]] $E \to S$ in [[Topos]].
++-- {: .num_prop}
+###### Proposition
+
+The category [[Locale]]$(E)$ of locales [[internalization|internal to]] a [[topos]] $E$ is equivalent to the category of [[localic geometric morphisms]] $Sh_{E}(\Sigma) \to E$ in [[Topos]].
 
 $$
-  Locale(S) \simeq (Topos/S)_{loc}
+  Locale(E) \simeq (Topos/E)_{loc}
   \,.
 $$
 
+=--
+
 See [[localic geometric morphism]] for more.
- 
+
++-- {: .num_prop}
+###### Proposition
+
+For every local $X \in $ [[Locale]] the category $Locale(Sh(X))$ of locales inernal to the [[sheaf topos]] over $X$ is equivalent to the [[overcategory]] $Locale/X$
+
+$$
+  \mathcal{I} : Locale/X \stackrel{\simeq}{\to} Locale(Sh(X)) 
+  \,.
+$$
+
+=--
+
+This appears as [Johnstone, theorem C1.6.3](#Johnstone).
+
++-- {: .num_prop}
+###### Proposition
+
+For every morphism of locales $f : Y \to X$ the [[sheaf topos]] $Sh(Y)$ is equivalent as a topos over $Sh(X)$ to the topos $Sh_{Sh(X)}(\mathcal{I}(Y))$ of internal sheaves over the internal locale $\mathcal{I}(Y) \in Sh(X)$
+
+$$
+  Sh(Y) \simeq Sh_{Sh(X)}(\mathcal{I}(Y))
+  \,.
+$$
+
+=--
+
+This appears as [Johnstone, scholium C1.6.4](#Johnstone).
+
 
 ### Relation to topological spaces
 
@@ -76,7 +110,7 @@ It is not hard to check that $(-)_l$ is left adjoint to $(-)_p$.  In fact, this 
 
 The [[frame]] of opens $O(X)$ corresponding to a locale $X$ is naturally a [[site]]:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Given a locale $X$, with [[frame]] of open $O(X)$, say that a family of [[morphism]]s $\{U_i \to U\}$ in $O(X)$ is a [[cover]] if $U$ is the [[join]] of the $U_i$:
@@ -225,7 +259,7 @@ that develops, among other things, much of standard [[topology]] entirely with t
 See also part C (volume 2) of
 
 *  [[Peter Johnstone]], _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.  .
-
+{#Johnstone}
 
 Locales are discussed in section IX.1 of 
 
@@ -235,6 +269,10 @@ Locales are discussed in section IX.1 of
 
 [[!redirects locale]]
 [[!redirects locales]]
+
+[[!redirects internal locale]]
+[[!redirects internal locales]]
+
 
 [[!redirects localic reflection]]
 [[!redirects localic reflections]]
