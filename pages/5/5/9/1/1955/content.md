@@ -96,7 +96,7 @@ With the above correct notion of [[module]] in hand, all the other concepts of [
    $C^{op}/R$:
 
    $$
-      Hom_{Mod_C}(Omega_K(R), \mathcal{N}) 
+      Hom_{Mod_C}(\Omega_K(R), \mathcal{N}) 
       \simeq
       Hom_{C^{op}}(R, \mathcal{N})
       \,.
