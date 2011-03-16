@@ -27,7 +27,7 @@ There is a refinement to a notion of $V$-[[enriched Reedy category]] such that i
 
 In the case that we do have extra assumptions on the codomain in that
 
-* $C$ a [[combinatorial simplicial model category]] 
+* $C$ is a [[combinatorial simplicial model category]] 
 
 * with  $C^\circ$ the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by $C$ 
 
