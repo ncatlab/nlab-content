@@ -1,4 +1,4 @@
-The term **exact category** has several different meanings.  This page is about exact categories in the sense of Barr, also called "Barr-exact categories" or "effective regular categories."  This is distinct from the notion of [[Quillen exact category]].
+The term **exact category** has several different meanings.  This page is about exact categories *in the sense of Barr*, also called "Barr-exact categories" or "effective regular categories."  This is distinct from the notion of [[Quillen exact category]].
 
 #Contents#
 * autoamtic table of contents goes here
@@ -35,8 +35,9 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 ## References ##
 
 * Carboni, A. and Vitale, E. M.  _Regular and exact completions_, _JPAA_ 125, 1998.
-
-
+* M. Barr, _Exact categories_, in: Exact categories and categories of sheaves, Springer
+Lec. Notes in Math. 236 (1971) 1-120, [doi](http://dx.doi.org/10.1007/BFb0058580)
+* F. Borceux, D. Bourn, [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]
 [[!redirects exact categories]]
 [[!redirects Barr-exact category]]
 [[!redirects effective regular category]]
