@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 # Double negation
 * table of contents
 {: toc}
 
-## Definition
+## Idea
 
-Double negation is the operation from $P$ to $\neg{\neg{P}}$, where $\neg$ is [[negation]].  In other words, double negation is the [[composite]] of [[negation]] with itself.
+In [[logic]], double negation is the operation from $P$ to $\neg{\neg{P}}$, where $\neg$ is [[negation]].  In other words, double negation is the [[composite]] of [[negation]] with itself.
 
 
 ## In logic
@@ -28,8 +39,76 @@ Classically, we have $L = L_{\neg\neg}$ if and only if $L$ is the [[discrete loc
 
 ## In topos theory
 
-The notion of double negation sublocale may be [[categorification|categorified]] from locales to [[toposes]].  (More details needed ....)
+The notion of double negation sublocale may be [[categorification|categorified]] from locales to [[toposes]].  
 
+### Definition
+
++-- {: .num_def #DoubleNegationTopology}
+###### Definition/Proposition
+
+For $\mathcal{E}$ any [[sheaf topos]] and $\Omega \in \mathcal{E}$ its
+[[subobject classifier]], the double negation morphism
+
+$$
+  \not \not \Omega \to \Omega
+$$
+
+constitutes a [[Lawvere-Tierney topology]] on $\mathcal{E}$.
+
+This is called the **double negation topology**.
+
+=--
+
+
+### Properties
+
++-- {: .num_prop }
+###### Proposition
+
+For $\mathcal{E}$ a [[sheaf topos]], the sheaf topos 
+corresponding to its [double negation topology](#DoubleNegationTopology)
+
+$$
+  \mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}
+$$
+
+is a [[Boolean topos]].
+
+=--
+
+This appears as [MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk).
+
++-- {: .num_prop }
+###### Proposition
+
+For every [[prsheaf topos]] $[C^{op}, Set]$ the double negation topology coincides with the [[dense topology]].
+
+--
+
+This appears as [MacLaneMoerdijk, corollary VI 5](#MacLaneMoerdijk).
+
++-- {: .num_prop }
+###### Proposition
+
+Let $C$ be a [[poset]]. Then the double negation sheaf topos
+
+$$
+  Sh_{\not \not}(C) \hookrightarrow [C^{op}, Set]
+$$
+
+satisfies the [[axiom of choice]].
+
+=--
+
+This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).
+
+
+## Referemces
+
+Section VI of
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+{#MacLaneMoerdijk}
 
 [[!redirects double negation]]
 [[!redirects double negations]]
@@ -43,3 +122,5 @@ The notion of double negation sublocale may be [[categorification|categorified]]
 [[!redirects double-negation sublocales]]
 [[!redirects double-negation nucleus]]
 [[!redirects double-negation nuclei]]
+
+[[!redirects double negation topology]]
