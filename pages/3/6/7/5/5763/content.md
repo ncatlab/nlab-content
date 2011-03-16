@@ -24,6 +24,143 @@ The construction called _Bohrification_ by some authors is a generalization of [
 
 When applied to subalgebras of [[bounded operator]]s on a [[Hilbert space]] this construction has been suggested to formalize faithfully and usefully a heuristic that has goes back to [[Nils Bohr]] and is known as the _doctrine of classical concepts_ ([Scheibe](#Scheibe)) in [[quantum mechanics]]. This states that  nonclassical/noncommutative as the [[logic]]/[[geometry]] of quantum mechnics may be, it is to be probed and detected by classical/commutative logic/geometry. In _Bohrification_ this heuristics is formalized by the [[semilattice of commutative subalgebras]] and various entities induced by this [[posite]]. The internal [[locale]] $\underline{\Sigma}_A$ may be thought of as an incarnation of the quantum [[phase space]] encoded by $A$.
 
+## Definition
+
++-- {: .num_defn #PartialCStar}
+###### Definition
+
+A **partial $C^\ast$-algebra is a [[set]] $A$ equipped with
+
+* a symmetric and reflextive binary [[relation]] $C \subset A \times A$;
+
+* elements $0,1 \in A$;
+
+* an [[involution]] $\ast : A \to A$;
+
+* a [[function]] $(-)\cdot (-) : \mathbb{C} \times A \to A$;
+
+* a [[function]] $\Vert-\Vert : A \to \mathbb{R}$;
+
+* (partial) binary operations $+, \times : C \to A$
+
+such that every set $S \subset T$ of elements that are pairwise in $C$ is contained in a set $T \subset A$ whose elements are also pairwise in $C$ and on which the above operations yield the structure of a commutative [[C-star algebra]].
+
+A [[homomorphism]] of partial $C^\ast$-algebra is a function preserving this structure. This defines a [[category]] $PCstar$ of partial $C^\ast$ algebras.
+
+=--
+
+This appears as ([vdBergHeunen, def. 11,12](#vdBergHeunen)).
+
++-- {: .num_defn}
+###### Definition
+
+For $A$ a [[C-star algebra]], write 
+
+$$
+  N(A) := \{a \in A | a a^* = a^* a\}
+$$
+
+for its set of [[normal operator]]s. This is naturally a [partial C-star algebra](#PartialCStar) with $C \subset N(A) \times N(A)$ the set of pairs of elements that commute in $A$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $A$ a [partial C-star algebra](#PartialCStar) write $\mathcal{C}(A)$ for the [[poset]] of total (not partial) commutative sub [[C-star algebra]]s. We call this the [[semilattice of commutative subalgebras]].
+
+Let $\mathcal{T}_A = [\mathcal{C}(A), Set]_{\not \not}$ be the [[sheaf topos]] over this poset. This is naturally a [[ringed topos]] with ring object $\underline{A} : C \mapsto C$ that is actually a [[internalization|interal]] commutative $C^*$-algebra. Write $\underline{\Sigma}_A$ for the corresponding internal [[locale]] associated to $\underline{A}$ by internal [[constructive Gelfand duality]]. Write 
+
+$$
+  \Sigma_A \to \mathcal{C}(A)
+$$ 
+
+for the corresponding external locale, given under the [[equivalence of categories]]
+
+$$
+  Loc(Sh(\mathcal{C}(A))) \simeq Loc/\mathcal{C}(A)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #Bohrification}
+###### Definition
+
+For $A$ a (noncommutative) [[C-star algebra]], the assignment
+
+$$
+  A \mapsto \Sigma_{N(A)}
+$$
+
+is called the **Bohrification** of $A$.
+
+=--
+
+## Properties
+
+
++-- {: .num_prop}
+###### Proposition
+
+
+The [[locale]] in $Loc/\Sigma_A$ may be directly expressd as
+
+$$
+  \Sigma_A := 
+  \{
+    F : \mathcal{C}(A) \to Set | F(C) open in \Sigma(C), F monotone
+  \}
+$$
+
+=--
+
+(...)
+
++-- {: .num_prop}
+###### Proposition
+
+Let $Cstar_{inc}$ be the [[category]] of [[C-star algebra]]s and inclusions. Then [Bohrification](#Bohrification) extends to a [[functor]]
+
+$$
+  \Sigma_{(-)} : CStar_{inc}^{op} \to Loc
+  \,.
+$$
+
+=--
+
+This appears as ([vdBergHeunen, theorem 35](#vdBergHeunen)).
+
++-- {: .proof}
+###### Proof
+
+It is directly checked that on monomorphisms the assignment $A \mapsto (\mathcal{T}_A, \underline{A})$ is a morphism from $C^\ast$-algebras to [[ringed topos]]es.
+
+=--
+
+## Applications 
+
++-- {: .num_note}
+###### Note
+
+Let $X$ be a [[Lorentzian manifold]] and 
+
+$$
+  A : \mathcal{O}(X) \to CStar_{inc}
+$$
+
+be a [[local net]] of algebras. Notice that by definition this indeed takes values in $C^\ast$-algebras and _inclusions_ . Then postcomposition with Bohrification yield a [[presheaf]]
+
+$$
+  \Sigma_A : \mathcal{O}(X)^{op} \to Loc \to Set
+$$
+
+that assigns to each [[open subset]] of $X$ regarded as [[spacetime]] an object to be regarded as the quantum [[phase space]] of the [[AQFT]] encoded by $A$ restricted to that open subset.
+
+=--
+
+
+
 ## References
 
 [[Nils Bohr]]'s views on quantum mechanics that give the construction of _Bohrification_ its name are reviewed in
@@ -34,6 +171,7 @@ When applied to subalgebras of [[bounded operator]]s on a [[Hilbert space]] this
 The [[functor|functoriality]] of Bohrification is observed in 
 
 * [[Benno van den Berg]], [[Chris Heunen]], _Noncommutativity as a colimit_ ([arXiv:1003.3618](http://arxiv.org/abs/1003.3618))
+{#vdBergHeunen}
 
 The [[topos theory|topos-theoretic]] constructions involved in or related to this are exposed in
 
