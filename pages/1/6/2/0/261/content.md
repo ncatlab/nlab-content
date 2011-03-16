@@ -21,7 +21,7 @@ More concretely, a simplicial set $S$ is a collection of [[sets]] $S_n$ for $n \
 * which $(n-1)$-simplices in $S_{n-1}$ are faces of which elements of $S_n$;
 * which $(n+1)$-simplices are [[thin element|thin]] in that they are really just $n$-simplices regarded as degenerate $(n+1)$-simplices.
 
-One of the main uses of simplicial sets is as combinatorial _models_ for [[topological spaces]]. They can also be taken as models for [[∞-groupoids]]. This is encoded in the [[model structure on simplicial sets]].
+One of the main uses of simplicial sets is as combinatorial _models_ for  the (weak) [[homotopy type]] of [[topological spaces]]. They can also be taken as models for [[∞-groupoids]]. This is encoded in the [[model structure on simplicial sets]]. For more reasons why simplicial sets see MathOverflow [here](http://mathoverflow.net/questions/58497/is-there-a-high-concept-explanation-for-why-simplicial-leads-to-homotopy-theor).
 
 ## Definition
 
