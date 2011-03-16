@@ -11,7 +11,7 @@ If you need it, here is my email: droberts (at symbol) maths dot adelaide dot ed
 
 ## Selected writings ##
 
-* _Internal categories, anafunctors and localisations_, [arXiv:math/1101.2363](http://arxiv.org/abs/1101.2363)
+* _Internal categories, anafunctors and localisations_, [arXiv:math/1101.2363](http://arxiv.org/abs/1101.2363) or [updated version](http://ncatlab.org/davidroberts/files/DRoberts_anafunctors.pdf) submitted for publication.
 
 These results were originally developed in chapter 1 of 
 
