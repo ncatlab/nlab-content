@@ -216,7 +216,7 @@ For $C$ any site with finite limits, there is canonically a  morphism of sites t
 
 ### Specific sites
 
-
+* For every site there is the corresponding [[double negation topology]] that forces the sheaf topos to a [[Boolean topos]].
 
 * The sites that define the [[higher geometry|geometry]] called [[differential geometry]] are [[CartSp]]${}_{smooth}$, [[Diff]], etc, equipped with the [[open cover]] [[coverage]].
 
@@ -227,6 +227,8 @@ For $C$ any site with finite limits, there is canonically a  morphism of sites t
 * The sites that define the [[higher geometry|geometry]] called [[algebraic geometry]] are site structures on categories of formal duals of [[commutative ring]]s or commutative [[associative algebra]]s
 
   * [[fppf site]], [[fpqc site]], [[etale site]], etc.
+
+
 
 
 ## Related concepts
