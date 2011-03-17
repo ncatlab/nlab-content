@@ -386,6 +386,12 @@ The main point of the Lagrangian BV construction is that this resolution natural
 
 (...)
 
+### As a derived critical locus
+
+In ([CostelloGwilliam](#CostelloGwilliam)) it is obsserved that the BV-complex ought to play the role of the [[critical locus]] of the [[action functional]] as seen in [[derived geometry]].
+
+Some details on this are currently at [[schreiber:derived critical locus]].
+
 
 ### Poincare duality on Hochschild (co)homology
 
@@ -586,6 +592,11 @@ A mathematically oriented reformulation of some of this (in the context of [[TCF
 * [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([pdf](http://www.math.northwestern.edu/~costello/0509264.pdf))
 
 Here the analog of the [[virtual fundamental class]] on the [[moduli space]] of surfaces is realized as a solution to the BV-master equation.
+
+The perspective on the BV-complex as a [[schreiber:derived critical locus]] is indicated in
+
+* [[nLab:Kevin Costello]], [[nLab:Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory -- Derived critical locus_ ([web](http://math.northwestern.edu/~costello/factorization_public.html#[[Derived%20critical%20locus]])) 
+{#CostelloGwilliam}
 
 
 ### Hamiltonian BFV
