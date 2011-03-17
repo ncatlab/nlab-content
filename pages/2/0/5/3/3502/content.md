@@ -6,6 +6,8 @@ While for manifolds there is a [[Poincare duality|Poincaré duality]] relating h
 
 * R. MacPherson, _Global questions in the topology of singular spaces_, Proc. ICM Warsaw 1983, [pdf](http://www.mathunion.org/ICM/ICM1983.1/Main/icm1983.1.0213.0236.ocr.pdf)
 
+* M. Goresky, G. MacPherson, _Morse theory and intersection homology theory_, Ast&#233;risque 101-102 parts II-III (1983), 135-192.
+
 * wikipedia: [intersection homology](http://en.wikipedia.org/wiki/Intersection_homology)
 
 * F. Kirwan, J. Woolf, _An introduction to intersection homology_,  Chapman & Hall/CRC, 2006. [MR2006k:32061](http://www.ams.org/mathscinet-getitem?mr=2207421)
