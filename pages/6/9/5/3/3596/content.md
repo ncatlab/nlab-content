@@ -50,13 +50,15 @@ These rules may seem a little ad-hoc, but they are actually a particular case of
 
 ## Types are weak $\omega$-groupoids
 
+There is a way to understand identity types as [[path object]]s that serve to present a [[homotopy theory]]. This leads to what is now called _homotopy type theory_ .
+
 ...
 
 References:
 
-* Benno van den Berg, [[Richard Garner]], *Types are weak $\omega$-groupoids*, [arXiv:0812.0298](http://arxiv.org/abs/0812.0298)
+* [[Benno van den Berg]], [[Richard Garner]], *Types are weak $\omega$-groupoids*, [arXiv:0812.0298](http://arxiv.org/abs/0812.0298)
 
-* Peter Lumsdaine, *Weak $\omega$-categories from intensional type theory*, [arXiv:0812.0409](http://arxiv.org/abs/0812.0409)
+* [[Peter Lumsdaine]], *Weak $\omega$-categories from intensional type theory*, [arXiv:0812.0409](http://arxiv.org/abs/0812.0409)
 
 
 [[!redirects identity types]]
