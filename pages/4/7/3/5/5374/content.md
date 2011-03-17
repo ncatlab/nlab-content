@@ -192,3 +192,15 @@ The $(\mathcal{O} \dashv Spec)$-adjunction for dg-geometry is studied in
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
 {#Ben-ZviNadler}
+
+The basic reference for the [[model structure on dg-algebras]] (see there for more details) for the commutative case over a field of characteristic 0 is
+
+* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+{#Hinich}
+
+Details on the use of this [[model category]] structure for modelling dg-spaces are in
+
+* [[Kai Behrend]], _Differential graded schemes I: prefect resolving algebras_ ([arXiv:0212225](http://arxiv.org/abs/math/0212225))
+
+* [[Kai Behrend]], _Differential Graded Schemes II: The 2-category of Differential Graded Schemes_ ([arXiv:0212226](http://arxiv.org/abs/math/0212226))
+
