@@ -160,9 +160,9 @@ The main historical contributors to Hodge theory include W. Hodge, P. Griffiths,
 
 * M. Saito, _Mixed Hodge modules_, Publ. R.I.M.S. Kyoto Univ. __26__  (1990)  pp. 221&#8211;333.
 
-* L. Katzarkov, [[Maxim Kontsevich|M. Kontsevich]], T. Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
+* [[L. Katzarkov]], [[Maxim Kontsevich|M. Kontsevich]], T. Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
 
-* D. Kaledin, _Cartier isomorphism and Hodge theory in the non-commutative case_,  Arithmetic geometry,  537--562, Clay Math. Proc. __8__, Amer. Math. Soc. 2009, [arxiv/0708.1574](http://arxiv.org/abs/0708.1574)
+* [[D. Kaledin]], _Cartier isomorphism and Hodge theory in the non-commutative case_,  Arithmetic geometry,  537--562, Clay Math. Proc. __8__, Amer. Math. Soc. 2009, [arxiv/0708.1574](http://arxiv.org/abs/0708.1574)
 
 * D. Kaledin, _Tokyo lectures "Homological methods in non-commutative geometry"_, [pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf), [TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex)
 
@@ -171,3 +171,5 @@ The main historical contributors to Hodge theory include W. Hodge, P. Griffiths,
 * C. Hertling, C. Sabbah, _Examples of non-commutative Hodge structure_ (v1 title: Fourier-Laplace transform of flat unitary connections and TERP structures), [arxiv/0912.2754](http://arxiv.org/abs/0912.2754)
 
 * A. B. Goncharov, _Hodge correlators_, [arxiv/0803.0297](http://arxiv.org/abs/0803.0297), _Hodge correlators II_, [arxiv/0807.4855](http://arxiv.org/abs/0807.4855)
+
+* C. T. C. Wall, _Periods of integrals and topology of algebraic varieties_, [jstor](http://www.jstor.org/stable/2397500)
