@@ -278,6 +278,24 @@ Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structur
 
 This appears for instance as [Johnstone, page 478, cor. 1.1.9](#Johnstone).
 
+### Filtered colimits
+ {#FilteredColimits}
+
++-- {: .un_prop }
+###### Proposition
+
+For $C$ a [[closed monoidal category|closed]] [[symmetric monoidal category]] the [[forgetful functor]]
+
+$$
+  U : CMon(C) \to C
+$$
+
+from commutative monoids to $C$ [[creates colimits|created]] [[filtered colimit]]s.
+
+=--
+
+This appears for instance as ([Johnstone, C1.1 lemma 1.1.8](#Johnstone)).
+
 
 ### Structure induced from monoidal functors
 
