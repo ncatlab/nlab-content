@@ -8,4 +8,6 @@ Holonomicity of D-modules is important also in [[geometric representation theory
 
 * P. Maisonobe, C. Sabbah, _D-modules coh&#233;rents et holonomes_, Hermann, Paris 1993.
 
-* V. Ginsburg, _Characteristic varieties and vanishing cycles_, Inv. Math. __84__, 327&#8211;402 (1986)
+* [[V. Ginzburg|V. Ginsburg]], _Characteristic varieties and [[vanishing cycle]]s_, Inv. Math. __84__, 327&#8211;402 (1986)
+
+[[!redirects holonomic D-modules]]
