@@ -54,7 +54,7 @@ $$
   \otimes : C \times C \to C
 $$ 
 
-is a [[Quillen bifunctor]].
+is a left [[Quillen bifunctor]].
 
 ## Remarks
 
