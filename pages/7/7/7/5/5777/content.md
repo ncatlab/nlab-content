@@ -25,9 +25,9 @@ For $A$ a [[dg-algebra]], its _tangent complex_ is the essentially the value of 
 
 * [[deformation theory]]
 
-* **tangent complex**
+* **tangent complex**, [[André-Quillen cohomology]], [[Hochschild cohomology]]
 
-* [[cotangent complex]]
+* [[cotangent complex]], [[André-Quillen homology]], [[Hochschild homology]]
 
 
 ## References
@@ -41,3 +41,9 @@ The tangent complex of an [[algebra over an operad]] in [[chain complex]]es is d
 
 * [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
 {#Hinich}
+
+See also
+
+* [[Jonathan Block]], A. Lazarev, _Andr&#233;-Quillen cohomology and rational homotopy of function spaces_ , Advances in mathematics, 193 (2005) ([pdf](http://www.math.upenn.edu/~blockj/papers/BlockLazarevRat.pdf))
+
+[[!redirects tangent complexes]]
