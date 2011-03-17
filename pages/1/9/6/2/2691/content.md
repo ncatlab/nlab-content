@@ -535,7 +535,7 @@ The model structure on unbounded dg-algebras is _almost_ $sSet_{Quillen}$-enrich
 ###### Definition
 
 Let $k$ be a [[field]] of [[characteristic]] 0. Let 
-$\Omega^\bullet_{poly} : sSet \to cdgAlg_k$ be the functor that assigns polynomial [[differential forms on simplices]].
+$\Omega^\bullet_{poly} : sSet \to (cdgAlg_k)^{op}$ be the functor that assigns polynomial [[differential forms on simplices]].
 
 For $A,B \in dgcAlg_k$ define the [[simplicial set]]
 
@@ -582,7 +582,7 @@ We give the proof for a special case. The general case is analogous.
 We show that for $A$ cofibrant, and for any $B$ (automatically fibrant), $cdgAlg_k(A,B)$ is a [[Kan complex]].
 
 
-By a standard fact in [[rational homotopy theory]] (due to [BousfieldGugenheim](#BousfieldGugenheim), discussed at [[differential forms on simplices]]) we have that $\Omega^\bullet_{poly} : sSet \to cdgAlg^+_k$ is a left [[Quillen adjunction|Quillen functor]], hence in particular sends acyclic cofibrations to acyclic cofibrations, hence homotopy-equivalent [[monomorphism]]s of simplicial sets to acylic fibrations of dg-algebras. 
+By a standard fact in [[rational homotopy theory]] (due to [BousfieldGugenheim](#BousfieldGugenheim), discussed at [[differential forms on simplices]]) we have that $\Omega^\bullet_{poly} : sSet \to (cdgAlg^+_k)^{op}$ is a left [[Quillen adjunction|Quillen functor]], hence in particular sends acyclic cofibrations to acyclic cofibrations, hence acyclic [[monomorphism]]s of [[simplicial set]]s to acyclic fibrations of [[dg-algebra]]s. 
 
 Specifically for each [[horn]] inclusion $\Lambda[n]_k \hookrightarrow \Delta[n]$ we have that the restriction map $\Omega^\bullet_{poly}(\Delta[n]) \to \Omega^\bullet_{poly}(\Lambda[n]_k)$ is an acyclic fibration in $cdgAlg_k^*$, hence in $cdgAlg_k$.
 
@@ -813,7 +813,7 @@ $$
 by 
 
 $$
-  CC(S,A) := Tot C^\bullt(S \cdot A) 
+  CC(S,A) := Tot C^\bullet(S \cdot A) 
   \,.
 $$
 
@@ -859,7 +859,7 @@ preserves weak equivalences in both arguments.
 
 =--
 
-This is essentially due to ([Piashvili](#Pirashvili)). The full statement is ([GinotTradlerZeinalian, prop. 4.2.1](#GinotTradlerZeinalian)).
+This is essentially due to ([Pirashvili](#Pirashvili)). The full statement is ([GinotTradlerZeinalian, prop. 4.2.1](#GinotTradlerZeinalian)).
 
 
 +-- {: .un_remark}
@@ -965,6 +965,28 @@ Since all this is [[natural transformation|natural]] in $B$, this proves the cla
 
 =--
 
+#### Path objects
+ {#PathObjectsForUnboundedCommutative}
++-- {: .un_prop}
+###### Proposition
+
+For $A \in cdgAlg_k$, a [[path object]]
+
+$$
+  A \stackrel{\simeq}{\to} P(A) \stackrel{fib}{\to} A \times A
+$$
+
+for $A$ is given by
+
+$$
+  P(A) := A \otimes_k \Omega^\bullet_{poly}(\Delta[1])
+$$
+
+=--
+
+This follows along the above lines. The statement appears for instance as
+([Behrend, lemma 1.19](#Behrend)).
+
 
 ## Related concepts
 
@@ -1022,6 +1044,11 @@ A general discussion of algebras over an operad in unbounded chain complexes is 
 
 * [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
 {#Hinich}
+
+A survey of some useful facts with an eye towards [[dg-geometry]] is in
+
+* [[Kai Behrend]], _Differential graded schemes I: prefect resolving algebras_ ([arXiv:0212225](http://arxiv.org/abs/math/0212225))
+{#Behrend}
 
 Discussion of cofibrations in unbounded dg-algebras are in 
 
