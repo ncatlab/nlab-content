@@ -61,6 +61,8 @@ The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)
 
 [[Peter Johnstone]]\'s book _[[Stone Spaces]]_ is all about Stone duality.
 
+* Olivia Caramello, _A topos-theoretic approach to Stone-type dualities_, [arxiv/1103.3493](http://arxiv.org/abs/1103.3493) 158 pp.
+
 
 [[!redirects Stone duality]]
 [[!redirects Stone dualities]]
