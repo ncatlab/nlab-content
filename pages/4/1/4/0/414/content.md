@@ -51,6 +51,10 @@ A category $C$ has **enough projectives** if for every object $X$ there is an ep
 * The [[axiom of choice]] can be phrased as "all objects of [[Set]] are projective."  See also [[internally projective object]] and [[COSHEP]].
 
 
+## Examples
+
+* An object in [[Ab]], an [[abelian group]], is projective precisely if it is a [[free group]].
+
 
 [[!redirects enough projectives]]
 [[!redirects projective objects]]
