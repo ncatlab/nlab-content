@@ -27,18 +27,30 @@ We discuss some basic aspects of the [[(∞,1)-topos]]es over [[(∞,1)-site]]s 
 
 ### Over formal duals of non-positively graded cdg-algebras
 
+Let $k$ be a [[field]] of [[characteristic]] 0, or more generally a commutative $\mathbb{Q}$-[[associative algebra|algebra]].
+
+
+#### Definition
+
 +-- {: .un_def}
 ###### Proposition/Definition 
 
-Let $k$ be a [[field]] of [[characteristic]] 0. Write 
+Write 
 
-* $cdgAlg_k$ for the category of graded-commutative cochain [[dg-algebra]]s in arbitrary degree;
+* $cdgAlg_k$ for the category of graded-commutative cochain [[dg-algebra]]s (meaning: with [[differential]] of degree +1) in arbitrary degree;
 
-* $cdgAlk_k^-$ for the full [[subcategory]] on objects in non-positive degree
+* $cdgAlk_k^-$ for the full [[subcategory]] on objects with vanishing [[cochain cohomology]] in positive degree, $H^{\bullet \geq 1}(-) = 0$.
 
-* $cdgAlk_k^+$ for the full [[subcategory]] on objects in non-negative degree
+There are the standard projective [[model structures on dg-algebras]] on these categories, whose weak equivalences are the [[quasi-isomorphism]]s and whose fibrations are the degreewise surjections. 
 
-There are the standard projective [[model structures on dg-algebras]] on these categories. Let
+=--
+
+This is considered in ([To&#235;n-Vezzosi, 2.3.1](#ToenVezzosiStacks))
+
++-- {: .un_def}
+###### Proposition/Definition 
+
+Let
 
 $$
   C \hookrightarrow ((cdgAlg_k^-)^{op})^\circ
@@ -62,10 +74,14 @@ $$
   \mathbf{H}
 $$
 
-where the [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\mathcal{O}$ is the [[Yoneda extension]] of the inclusion $cdgAlg^+_k \hookrightarrow cdgAlg_k$. (This is discussed in detail at [[function algebras on ∞-stacks]].)
-
+where the [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\mathcal{O}$ is the [[Yoneda extension]] of the inclusion $cdgAlg^+_k \hookrightarrow cdgAlg_k$. 
 
 =--
+
+This is considered in ([Ben-ZviNadler](#Ben-ZviNadler)). See [[function algebras on ∞-stacks]] for details.
+
+
+#### Properties
 
 +-- {: .un_prop}
 ###### Proposition
@@ -81,7 +97,7 @@ is a _homotopical context_ in the sense of ([To&#235;nVezzosi, def. 1.1.0.11](#T
 
 =--
 
-This is ([To&#235;nVezzosi, lemma 2.3.11](#ToenVezzosiStacks)). We need of this statement the following implications.
+This is ([To&#235;nVezzosi, lemma 2.3.11](#ToenVezzosiStacks)). We record the following implications of this statement
 
 +-- {: .un_prop}
 ###### Corollary
@@ -138,7 +154,7 @@ $$
 (since $k$ is assumed to be of characteristic 0). Under this equivalence we have that $U \in cAlg_k \hookrightarrow cAlg_k^{\Delta^{op}} \hookrightarrow \mathbf{H}$ is $\mathcal{O}$-perfect:
 
 $$
-  \mathcal{O} X^{K} \simeq K \cdot \mathcal{O}(X)
+  \mathcal{O} (X^{K}) \simeq K \cdot \mathcal{O}(X)
 $$ 
 
 and this recovers the constructions discussed above in [The Hochschild chain complex of an associative algebra](#HochschildChainComplex).
