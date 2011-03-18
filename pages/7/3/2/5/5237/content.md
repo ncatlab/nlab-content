@@ -341,4 +341,6 @@ Some remarks on commutative monoids are in section C1.1 of
 
 [[!redirects categories of monoids]]
 
+[[!redirects category of commutative monoids]]
+
 category: category
