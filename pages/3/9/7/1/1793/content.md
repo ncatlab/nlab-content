@@ -30,7 +30,14 @@ The existence of these model structures depends subtly on whether the chain comp
 Chain complexes in non-negative degree in an [[abelian category]] $A$ are special in that they may be identified via the [[Dold?Kan correspondence]] as [[simplicial object]]s in $A$.
 
 $$
-  Ch_+(A) \simeq A^{\Delta^{op}}
+  Ch_{\bullet \geq 0}(A) \simeq A^{\Delta^{op}}
+  \,.
+$$
+
+Similarly, [[cochain complex]]s are identified with [[cosimplicial object]]s
+
+$$
+  Ch^{\bullet \geq 0}(A) \simeq A^{\Delta}
   \,.
 $$
 
@@ -42,49 +49,114 @@ Analogous statements apply to the category of unbounded chain complexes and the 
 
 ### For unbounded chain complexes
 
-See the [references](#References) by Spaltenstein and Hinich below.
+Model structures on unbounded (co)chain complexes can be understood as
+presentations of [[spectrum object]]s in model structures of bounded (co)chain complexes.
+
 
 ## Definitions 
 
-(...)
 
 
-
-### Model structures on cochain complexes in non-negative degree {#CochainNonNeg}
+### In non-negative degree 
+ {#CochainNonNeg}
 
 Let $C$ be an [[abelian category]]. 
 
 Recall that by the dual [[Dold-Kan correspondence]] the category $C^\Delta$ of [[cosimplicial object]]s in $C$ is equivalent to the catagory $Ch^\bullet_+(C)$ of [[cochain complex]]es in non-negative degree. This means that we can transfer results discussed at [[model structure on cosimplicial objects]] to cochain complexes (see [Bousfield2003, section 4.4](http://arxiv.org/PS_cache/math/pdf/0312/0312531v1.pdf) for more).
 
-#### General results {#GeneralResults}
+#### The standard (Quillen) model structures 
+  {#StandardQuillenOnBounded}
+
 
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $G \in Obj(C)$ be a [[class]] of objects, such that $C$ has enough $G$-[[injective object]]s. 
+Let $R$ be a [[ring]] and $ A = R$[[Mod]] its category of [[module]]s.
 
-Then there is a model category structure $Ch^\bullet_+(C)_G$ whose
+There is a [[model category]] structure on non-negatively graded [[chain complex]]es 
+$Ch_{\bullet \geq 0 }(A)$ whose
 
-* weak equivalences are maps $f : X \to Y$ such that for each $A \in G$ the induced map $C(Y,A) \to C(X,A)$ is a [[quasi-isomorphism]] of chain complexes of abelian groups;
+* weak equivalences are [[quasi-isomorphism]]s;
 
-* $f$ is a cofibration if it is $G$-monic in positive degree;
+* fibrations are the morphisms that are [[epimorphism]]s in $R Mod$ in each _positive_ degree;
 
-* $f$ is a fibration if it is degreewise a [[split epimorphism]] with $G$-injective kernel.
+* cofibrations are degreewise [[monomorphism]]s with [[projective object|projective]] [[cokernel]].
+
+Dually,
+
+there is a [[model category]] structure on non-negatively graded [[cochain complex]]es 
+$Ch^{\bullet \geq 0 }(A)$ whose
+
+* weak equivalences are [[quasi-isomorphism]]s;
+
+* cofibrations are the morphisms that are [[monomorphism]]s in $R Mod$ in each _positive_ degree;
+
+* fibrations are degreewise [[epimorphism]]s with [[injective object|injective]] [[kernel]].
+
+=--
+
+This model structure on $Ch^{\bullet \geq 0}$ is originally due to 
+([Quillen II, section 4](#Quillen)).
+An account is given for instance in ([Dungan, 2.4.2, proof in section 2.5](#Dungan)).
+
+
+#### Resolution model structures
+  {#GeneralResults}
+
+There are _resolution model structures_ on cosimplicial objects in a model category, due to ([DwyerKanStover](#DwyerKanStover)), reviewed in ([Bousfield](#Bousfield))
+
+
+
++-- {: .num_defn}
+###### Definition
+
+(...)
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $A$ be an [[abelian category]] and let $\mathcal{G} \in Obj(A)$ be a [[class]] of objects, such that $A$ has enough $\mathcal{G}$-[[injective object]]s. 
+
+Then there is a model category structure on non-negatively graded cochain complexes $Ch^{\bullet \geq 0}(A)_{\mathcal{G}}$ whose
+
+* weak equivalences are maps $f : X \to Y$ such that for each $K \in A$ the induced map $A(Y,K) \to A(X,K)$ is a [[quasi-isomorphism]] of chain complexes of abelian groups;
+
+* $f$ is a cofibration if it is $\mathcal{G}$-monic in positive degree;
+
+* $f$ is a fibration if it is degreewise a [[split epimorphism]] with $\mathcal{G}$-injective kernel.
  
 =--
 
 See [Bousfield2003, section 4.4](http://arxiv.org/PS_cache/math/pdf/0312/0312531v1.pdf).
 
-If we take $G$ to be the class of all objects of $C$ this gives the following structire.
+If $A$ has enough [[injective object]]s and $\mathcal{G}$ is the clss of all of them, this reproduces the 
+[standard Quillen model structure](#StandardQuillenOnBounded) discussed above:
 
 +-- {: .num_corollary}
 ###### Corollary
 
-There is a model structure on $Ch^\bullet_+(C)_{tot}$ whose
+Let $A$ be an [[abelian category]] with enough [[injective object]]s. Then there is a model category structure on non-negatively graded cochain complexes $Ch^{\geq 0}(A)$ whose
+
+* weak equivalences are the [[quasi-isomorphism]]s;
+
+* fibrations are the morphisms that are [[epimorphism]]s with injective [[kernel]] in each degree;
+
+* cofibrations are the morphisms which are [[monomorphism]]s in $A$ in each _positive_ degree.
+
+=--
+
+If we take $\mathcal{G}$ to be the class of all objects of $A$ this gives the following structure.
+
++-- {: .num_corollary}
+###### Corollary
+
+There is a model structure on $Ch^{\bullet\geq 0}(A)_{tot}$ whose
 
 * weak equivalences are cochain [[homotopy equivalence]]s;
 
-* fibrations are thee morphisms that are degreewise [[split epimorphism]]s and whose [[kernel]]s are [[injective object]]s;
+* fibrations are the morphisms that are degreewise [[split epimorphism]]s and whose [[kernel]]s are [[injective object]]s;
 
 * cofibration are the morphisms that are in positive degree [[monomorphism]]s.
 
@@ -99,13 +171,15 @@ This is the model structure which induces the [[transferred model structure|tran
 
 =--
 
-#### The projective model structure {#CochainNonNegProj}
+#### On cochain complexes of abelian groups
+  {#CochainNonNegProj}
 
+> Check.
 
 +-- {: .num_theorem}
 ###### Theorem
 
-The category $Ch^\bullet_+(Ab)$ of non-negatively graded cochain complexes of [[abelian group]]s becomes a model category with
+The category $Ch^{\bullet \geq 0}(Ab)$ of non-negatively graded cochain complexes of [[abelian group]]s becomes a model category with
 
 * fibrations the degreewise surjections;
 
@@ -129,9 +203,9 @@ at [[model structure on cosimplicial abelian groups]].
 
 =--
 
-We record a detailed proof of the model structure on $Ch^\bullet_+(Ab)$ with fibrations the degreewise surjections, following the appendix of ([Stel](#Stel)).
+We record a detailed proof of the model structure on $Ch^{\bullet \geq 0}(Ab)$ with fibrations the degreewise surjections, following the appendix of ([Stel](#Stel)).
 
-c
+
 As usual, for $n \in \mathbb{N}$ write $\mathbb{Z}[n]$ for the complex concentrated on the additive group of [[integer]]s in degree $n$, and for $n \geq 1$  write $\mathbb{Z}[n-1,n]$ for the cochain complex $(0 \to \cdots 0 \to \mathbb{Z} \stackrel{Id}{\to} \mathbb{Z} \to 0 \cdots)$ with the two copies of $\mathbb{Z}$ in degree $n-1$ and $n$.
 
 For $n = 0$ let $\mathbb{Z}[-1,0] = 0$, for convenience.
@@ -476,7 +550,9 @@ $$
     \downarrow && {}^{\mathllap{i}}\downarrow 
     \\
     B &\stackrel{\sigma}{\to}&
-    \hat B \stackrel{p}{\to}
+    \hat B 
+    & \stackrel{p}{\to} &
+    B
   }
 $$
 
@@ -488,19 +564,8 @@ and as such inherits its left lefting properties.
 This series of lemmas establishes the claimed model structure
 on $Ch^\bullet_+(Ab)$.
 
-#### The injective structure
 
-For $R$ any [[ring]] and $Ch^\bullet_+(R Mod)$ the category of non-negatively graded chain complexes of $R$-modules, this carries a model category structure with
-
-* weak equivalences the [[quasi-isomorphism]]s;
-
-* cofibrations the [[monomorphism]]s in each _positive_ degree;
-
-* fibrations the the degreewise epimorphism with [[injective object|injective]] [[kernel]]s.
-
-A detailed proof of this structure is spelled out in [section 2.5](http://www.math.fsu.edu/~gdungan/MC10.04.07.pdf) of [Dungan](#Dungan).
-
-### Model structure on unbounded chain complexes 
+### In unbounded degree
   {#OnUnbounded}
 
 #### General results
@@ -702,6 +767,12 @@ This appears as ([ChristensenHovey, prop. 2.5](#ChristensenHovey)).
 
 ## History and references {#References}
 
+An original source for the standard model structure on $Ch^{\bullet \geq 0}(A)$ with $A$ having enough injectives is
+
+* [[Dan Quillen]], _Homotopical Algebra_ , Lecture Notes in Mathematics, vol. 43, Springer-Verlag, 1967
+{#Quillen}
+
+
 Of course the description of model categories of chain complexes as ([[presentable (infinity,1)-category|presentations]] of) special cases of (stable) $(\infty,1)$-categories is exactly opposite to the historical development of these ideas. 
 
 While the homotopical treatment of weak equivalences of chain complexes ([[quasi-isomorphism]]s) in [[homological algebra]] is at the beginning of all studies of higher categories and a "folk theorem" ever since
@@ -721,11 +792,23 @@ The projective model structure is discussed after that in
 An explicit proof of the injective model structure with monos in positive degree is spelled out in 
 
 * Gregory Dungan, _Model categories_ ([pdf](http://www.math.fsu.edu/~gdungan/MC10.04.07.pdf))
+{#Dungan}
 
 An explicit proof of the model structure on cochain complexes of abelian group with fibrations the degreewise surjections is recorded in the appendix of
 
 * [[nLab:Herman Stel]], _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras -- with Applications to ∞-Lie Theory]]_ (2010)
 {#Stel}
+
+The resolution model structures on cofibrant objects go back to
+
+* [[William Dwyer]], [[Dan Kan], C Stover, _An $E_2$ model category structure for pointed simplicial spaces_, J. Pure and Applied Algebra 90 (1993) 137&#8211;152
+{#DwyerKanStover}
+
+and are reviewed in
+
+* A. Bousfield, _Cosimplicial resolutions and homotopy spectral sequences in model categories_ Geometry and Topology, volume 7 (2003)
+{#Bousfield}
+
 
 ### For unbounded chain complexes
 
