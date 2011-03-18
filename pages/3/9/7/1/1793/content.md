@@ -174,7 +174,9 @@ This is the model structure which induces the [[transferred model structure|tran
 #### On cochain complexes of abelian groups
   {#CochainNonNegProj}
 
-> Check.
+We discuss a model structure on cochain complexes of abelian groups
+in which the fibrations are the degreewise epis. This
+follows an analogous proof in ([Jardine](#Jardine))
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -839,6 +841,10 @@ See also
 A discussion of the homotopy theory of [[presheaves]] of unbounded chain complex is in 
 
 * [[Rick Jardine]], _Presheaves of chain complexes_ ([ps](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.57.6884&rep=rep1&type=ps))
+
+A model structure on noncommutative [[dg-algebra]]s whose proof strategy is useful also for cochain complexes is in
+
+* [[Rick Jardine]], _[[JardineModelDG.pdf:file]]_ , Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications, Vol. 17, AMS (1997), 55-58. 
 
 
 [[!redirects model structures on chain complexes]]
