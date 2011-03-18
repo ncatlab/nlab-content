@@ -32,7 +32,7 @@ Let $k$ be a [[field]] of [[characteristic]] 0, or more generally a commutative 
 
 #### Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Proposition/Definition 
 
 Write 
@@ -47,7 +47,7 @@ There are the standard projective [[model structures on dg-algebras]] on these c
 
 This is considered in ([To&#235;n-Vezzosi, 2.3.1](#ToenVezzosiStacks))
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Proposition/Definition 
 
 Let
@@ -99,14 +99,14 @@ is a _homotopical context_ in the sense of ([To&#235;nVezzosi, def. 1.1.0.11](#T
 
 This is ([To&#235;nVezzosi, lemma 2.3.11](#ToenVezzosiStacks)). We record the following implications of this statement
 
-+-- {: .un_prop}
++-- {: .num_cor}
 ###### Corollary
 
 $(cdgAlg_k, \otimes_k)$ is a [[symmetric monoidal category|symmetric]] [[monoidal model category]].
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_cor}
 ###### Corollary
 
 For $B \in (dgcAlg_k)_{proj}$ a cofibrant object, the [[tensor product]] with $B$ preserves weak equivalences.
@@ -117,7 +117,7 @@ This follows from ([To&#235;nVezzosi, assumption 1.1.0.4](#ToenVezzosiStacks)).
 
 
 
-+-- {: .un_prop #cdgAlgInclusionPreservesLimits}
++-- {: .num_cor #cdgAlgInclusionPreservesLimits}
 ###### Corollary
 
 The inclusion
@@ -138,8 +138,65 @@ preserves [[(∞,1)-limit]]s.
 
 This follows from ([To&#235;nVezzosi, assumption 1.1.0.6](#ToenVezzosiStacks)).
 
-+-- {: .un_prop}
-###### Observation
++-- {: .num_defn}
+###### Definition
+
+For $A \in cdgAlg_k$ a [[nLab:dg-algebra]], write
+
+* $A Mod$ for its [[nLab:model structure on dg-modules|category of dg-modules]];
+
+  This is naturally a [[nLab:symmetric monoidal category]].
+
+* $cdgAlg_A := CMon(A Mod)$ for the [[category of commutative monoids]] in $A Mod$, the category of **cdg-$A$-algebras**.
+
+=--
+
++-- {: .num_cor #ModelStructureOndgAAlgebras}
+###### Corollary
+
+For any $A\in cdgAlg_k$ say a morphism in $cdgAlg_A$ is
+
+* a weak equivalence precisely if it is a [[nLab:quasi-isomorphism]];
+
+* a fibration precisely if it is degreewise surjective.
+
+This makes $cdgAlg_A$ into a [[model category]] that is
+
+* [[combinatorial model category|combinatorial]];
+
+* [[proper model category|proper]].
+
+There is an [[equivalence of categories]] with the [[under category]] of cdg-algebras under $A$
+
+$$
+  cdgAlg_A \simeq A/cdgAlg_k
+$$
+
+which is a [[Quillen equivalence]] with respect to the standard [[model structure on an under category]] on the right.
+
+=--
+
+This is ([To&#235;nVezzosi, assumption 1.1.0.4, remark on p. 18](#ToenVezzosiStacks)).
+
++-- {: .num_cor}
+###### Corollary
+
+For $B \in cdgAlg_A$ cofibrant with respect to the model structure in
+cor \ref{ModelStructureOndgAAlgebras}, the [[tensor product]] ([[base change]]) functor
+
+$$
+  B \otimes_A (-) : A Mod \to B Mod
+$$
+
+preserves weak equivalences.
+
+=--
+
+This is ([To&#235;nVezzosi, assumption 1.1.0.4](#ToenVezzosiStacks)).
+
+
++-- {: .num_prop}
+###### Proposition
 
 The [[monoidal Dold-Kan correspondence]] provides a [[Quillen equivalence]]
 
@@ -178,6 +235,7 @@ $cdgAlg_k^- \hookrightarrow cdgAlg_k$ preserves this $(\infty,1)$-colimit.
 
 
 ### Over formal duals of general cdg-algebras
+
 
 (...)
 
