@@ -6,7 +6,7 @@
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
-#### Phyics
+#### Physics
 +--{: .hide}
 [[!include physicscontents]]
 =--
