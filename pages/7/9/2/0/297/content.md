@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Phyics
+#### Physics
 +--{: .hide}
 [[!include physicscontents]]
 =--
@@ -183,6 +183,7 @@ As usual, the problem of constructing FQFT becomes much more tractable when line
 
 * [[0-dimensional TQFT]]
 
+* [[HQFT]]
 
 [[!redirects FQFTs]]
 [[!redirects Functorial quantum field theory]]
