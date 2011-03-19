@@ -1,6 +1,6 @@
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 # Contact {#contact} 
 
@@ -11,11 +11,13 @@ The best way to contact me is by sending me an email at wardm4 'at' math.washing
 
 I am a graduate student in math at the University of Washington studying algebraic geometry.
 
+
 # Webpage
 
 My department webpage is <a href="http://www.math.washington.edu/~wardm4">here</a>
 
 
-
 category: people
 
+[[!redirects Matthew Ward]]
+[[!redirects hilbertthm90]]
