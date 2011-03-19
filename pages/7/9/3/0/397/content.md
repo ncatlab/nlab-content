@@ -113,6 +113,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Martin Olbermann]]
 * [[Mathieu Dupont]]
 * [[Matthew Kahle]]
+* [[hilbertthm90|Matthew Ward]]
 * [[Michael Bächtold]]
 * [[Michael Hardy]]
 * [[Mikael Vejdemo Johansson]]
