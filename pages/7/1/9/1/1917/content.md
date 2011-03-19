@@ -117,7 +117,14 @@ $\tau( 1_{(X,g)}) = 1_{\tau(X,g)}.$
 
 If we look at the case $n= 1$ and with background an [[Eilenberg-Mac Lane space]] $K(G,1)$, then HQFTs correspond to [[crossed G-algebra|crossed G-algebras]], in much the same way that commutative [[Frobenius algebras]] correspond to [[2d TQFT]]s.  There the correspondence is given by a [[2d TQFT]], $Z$, corresponds to the [[Frobenius algebra]], $Z(S^1)$. This is because the circle $S^1$ is a [[Frobenius object]] in the category $Bord_2$ of 2d-[[cobordism]]s between 1-manifolds. 
 
-In the case of HQFTs, the role of the circle is replaced by the family of  circles with characteristic maps to $B$.  Each one gives, combinatorially, a circle together with a labelling of the boundary by an element of $G$. (It does not seem to be known how to get a $G$-graded version of a Frobenius object that will correspond to this situation, although this is probably not too hard to do.)
+In the case of HQFTs, the role of the circle is replaced by the family of  circles with characteristic maps to $B$.  Each one gives, combinatorially, a circle together with a labelling of the boundary by an element of $G$. (It does not seem to be known how to get a $G$-graded version of an abstract Frobenius object that will correspond to this situation, although this is probably not too hard to do.)
+
+
+##Links with other theories
+
+* In the paper by [[Greg Moore|Moore]] and [[Graeme Segal|Segal]], (see below), they discuss $G$-[[equivariant TFT]]s and show how they naturally correspond to Turaev's HQFTs.  They relate (1+1) equivariant TFTs to Turaev's crossed $G$-algebras (which they call Turaev algebras).
+
+
 
 ##  References
 
@@ -143,7 +150,9 @@ available as [arXiv:math.QA/0105018](http://arxiv.org/abs/math.QA/0105018)).
 
 A treatment of HQFTs that includes some details of the links with TQFTs is given in [[HQFT-XMenagerie.pdf|HQFTs meet the Menagerie:file]], which is a set of notes prepared by [[Tim Porter]] for a school and workshop in Lisbon, Feb. 2011.
 
+Related ideas are discussed in
 
+* [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv](http://arxiv.org/abs/hep-th/0609042))
 
 
 [[!redirects HQFTs]]
