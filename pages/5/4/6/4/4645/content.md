@@ -3445,6 +3445,7 @@ In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is co
 
 All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ in terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
 
+
 #### Differential characteristic classes
 
 
@@ -3469,14 +3470,16 @@ $$
   \,.
 $$
 
-Under <a href="">geometric realization</a> this maps to a morphism
+Under [[geometric realization of simplicial topological spaces|geometric realization]] this maps to a morphism
 
 $$
   |\mathbf{B} det| : B U(N) \to B U(1) \simeq K(\mathbb{Z},2)
 $$
 
-of topological spaces. This is a [[characteristic class]] on the 
+of [[topological space]]s. This is a [[characteristic class]] on the 
 [[classifying space]] $B U(N)$.
+
+By postcomposion of this class with the classifying maps for principal bundles, it acts on principal bundles:
 
 Postcomposition of a [[Cech cohomology|Cech]] cocycle 
 
@@ -3501,9 +3504,9 @@ $$
       &\stackrel{\mathbf{B}det}{\to}& 
     \mathbf{B}U(1)
     \\
-    && \downarrow^{\mathrlap{\simeq}}
+    & \downarrow^{\mathrlap{\simeq}}
     \\
-    && X
+    & X
   }
   \,,
 $$
@@ -3531,17 +3534,29 @@ $$
    \{(det  g_{i j}), (tr A_i)\}
 $$
 
-whose cocycle conditions
+whose cocycle conditions are
 
 $$
   det (g_{i j}) det (g_{j k}) = det g_{i k}
 $$
 
+and
+
 $$
-  tr A_j = tr A_i  + det(g_{i j}^{-1}) d det(g_{i j})
+  det(1 + \epsilon A_j) 
+    = 
+  det(g_{ij}^{-1}(1 + \epsilon A_i) det g_{ij}) 
+    + 
+  det( g_{i j}^{-1} (1 + \epsilon d) g_{i j}))
 $$
 
-are satisfied by the failiar properties of determinan and trace.
+for [[infinitsimal space|infinitesimal]] $\epsilon$, hence
+
+$$
+  A_j = A_i + (det g_{ij})^{-1} d (det g_{i j}) 
+$$
+
+are satisfied.
 
 This construction extends to a functor
 
@@ -3558,6 +3573,70 @@ natural in $X$. We have
   in de Rham cohomology of this class.
 
 =--
+
+
+
+In Brylinski-MacLaughlin an algorithm is given for contructing
+differential characteristic classes on Cech cocycles in this fashion for 
+more general [[infinit-Lie algebra cohomology|L-infinity algebra cocycles]].
+
+For instance they give the following construction
+
++-- {: .un_example}
+###### Example
+
+Let $N \in \mathbb{N}$, write $Spin(N)$ for the [[Spin group]]
+and consider the canonical [[Lie algebra cohomology]] 3-cocycle
+
+$$
+  \mu = \langle -,[-,-]\rangle : \mathfrak{so}(n) \to \mathbf{b}^2 \mathbb{R}
+  \,.
+$$
+
+Then for $(g_{i j}, A_i)$ a Cech cocycle for an $Spin(N)$-[[principal bundle]] [[connection on a bundle|with connection]], construct a Cech cocycle for [[Deligne cohomology]] in degree 4 as follows:
+
+1. pick a lift of the original cocycle to an assignment 
+
+   * of based paths in $SO(N)$ to double intersections 
+     $\hat g_{i j} : U_{i j} \to [\Delta^1, Spin(N)]$, with
+     $\hat g_{i j}(0) = e$ and $\hat g_{i j}(1) = g_{i j}$;
+
+   * of based 2-simplices between these paths to triple intersections
+     $\hat g_{i j k} : U_{i j k} \to [\Delta^2, Spin(N)]$;  lifting these paths in the obvious way;
+
+   * similarly of based 3-simplices between these paths to quadruple intersections
+     $\hat g_{i j k l} : U_{i j k l} \to [\Delta^3, Spin(N)]$;  
+
+  Such lifts always exists, because the Spin group is [[connected]], [[simply connected]] and also has $\pi_2(Spin(N)) = 0$.
+
+1. Define from this a Deligne-cochain by setting
+
+   $$
+     (
+       \int_{\Delta^3} (\sigma_i \cdot\hat g_{i j k l})^* \mu(\nabla), 
+       \int_{\Delta^2} (\sigma_i\cdot \hat g_{i j k})^* cs(\nabla),
+       \int_{\Delta^1} (\sigma_i \cdot \hat g_{i j})^* cs(\nabla),
+       \sigma_i^* \mu(\nabla)
+     )
+     \,,
+   $$
+
+   where 
+
+   1. $ce(\nabla)$ is the [[Chern-Simons form]] of the connection $\nabla$ with respect to $\mu$;
+
+   1. $\sigma_i$ are the trivializaing sections of the total space bundle that exhibit the trivialization with respect to which the Cech cocycle is given.
+
+They then prove:
+
+1. This is a Deligne cocycle;
+
+1. It represents the differential refinement of the first Pontryagin class.
+
+=--
+
+In the following we want to use the construction of the $\infty$-Chern-Weil homomorphism in order to understand why this construction is what it is and does what it does.
+
 
 (...)
 
