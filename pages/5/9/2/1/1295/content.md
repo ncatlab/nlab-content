@@ -23,22 +23,24 @@ For $C$ a [[category]], the **dependent product** of the morphism $g: B \to A$ i
 For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ must exist.  So a category with all dependent products is necessarily a category with all [[pullback]]s.
 
 
-## Dependent sums
+## Remarks
 
 Note that the *left* adjoint to the base-change functor, the __dependent coproduct__ or __[[dependent sum]]__ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).
+
+Dependent products (and sums) exist in any [[topos]]:
 
 +-- {: .un_prop }
 ###### Proposition
 
-For $C$ a [[topos]] and $f : A \to I$ any morphism in $C$, both the left adjoint $\sum_f : C/A \to C/I$ as well as the right adjoint $\prod_f: C/A \to C/I$ to $f^*: C/I \to C/A$ exist. 
+For $C$ a topos and $f : A \to I$ any morphism in $C$, both the left adjoint $\sum_f : C/A \to C/I$ as well as the right adjoint $\prod_f: C/A \to C/I$ to $f^*: C/I \to C/A$ exist. 
 
 Moreover, $f^*$ preserves the  [[subobject classifier]] and [[internal hom]]s.
-
 =--
 
 This is theorem 2 in section IV, 7 of
 
 * MacLane, Moerdijk, [[Sheaves in Geometry and Logic]]
+
 
 ### A Warning
 
