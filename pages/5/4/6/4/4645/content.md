@@ -3438,11 +3438,15 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 
 ### The $\infty$-Chern-Weil homomorphism
 
+We now discuss the [[Chern-Weil homomorphism]] and its generalization
+to [[connections on an ∞-bundle]].
+
 In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classifies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
 
 All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ in terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
 
-#### The ordinary Chern-Weil homomorphism with values in differential classes
+#### Differential characteristic classes
+
 
 A simple motivating example for the [[Chern-Weil homomorphism]]
 is the construction of 
@@ -3451,25 +3455,65 @@ is the construction of
 +-- {: .un_example}
 ###### Example
 
-For some $N \in \mathbb{N}$ consider a $U(N)$-[[principal bundle]]
-[[connection on a bundle|with connection]] on a [[smooth manifold]]
-$X$, given with respect to a [[good open cover]] $\{U_i \to X\}$
-by a [[Cech cohomology|Cech cocycle]] $\{(g_{i j}), (A_i)\}$
-with coefficients in the [[groupoid of Lie-algebra valued 1-forms]],
-as discussed above.
-
-By the defining characterization of the [[unitary group]] 
-$U(n)$ as a [[matrix Lie group]]
-we have a group homomorphism
+Let $N \in \mathbb{N}$. Consider the [[unitary group]] $U(N)$.
+By its definition as a [[matrix Lie group]], this comes canonically equipped with the [[determinant]] function
 
 $$
   det : U(N) \to U(1)
 $$
 
-to the [[circle group]]
- given by the [[determinant]] operation on $n \times n$ matrices.
+and by the standard properties of the determinant, this is in fact a group homomorphism. Therefore this has a [[delooping]] to a morphism if [[Lie groupoid]]s
 
-Similarly we may canonically identify the [[Lie algebra]] 
+$$
+  \mathbf{B}det : \mathbf{B}U(N) \to \mathbf{B}U(1)
+  \,.
+$$
+
+Under <a href="">geometric realization</a> this maps to a morphism
+
+$$
+  |\mathbf{B} det| : B U(N) \to B U(1) \simeq K(\mathbb{Z},2)
+$$
+
+of topological spaces. This is a [[characteristic class]] on the 
+[[classifying space]] $B U(N)$.
+
+Postcomposition of a [[Cech cohomology|Cech]] cocycle 
+
+$$
+  \array{
+    C(\{U_i\}) &\stackrel{(g_{i j})}{\to}& \mathbf{B} U(N)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+for a $U(N)$-[[principal bundle]] on a [[smooth manifold]] $X$
+with this characteristic class yields the cocycle for a circle bundle (or ita [[associated bundle|associated]] [[line bundle]])
+
+$$
+  \array{
+    (det (g_{i j})) : & C(\{U_i\}) 
+        &\stackrel{(g_{i j})}{\to}& 
+    \mathbf{B} U(N) 
+      &\stackrel{\mathbf{B}det}{\to}& 
+    \mathbf{B}U(1)
+    \\
+    && \downarrow^{\mathrlap{\simeq}}
+    \\
+    && X
+  }
+  \,,
+$$
+
+the [[determinant line bundle]]. The class of this line bundle is a characteristic of the original unitary bundle: its first [[Chern class]].
+
+This construction extends to the case where the bundles carry 
+[[connection on a bundle|connections]].
+
+We may canonically identify the [[Lie algebra]] 
 $\mathfrak{u}(n)$ with the
 [[matrix Lie algebra]] of skew-hermitean matrices on which we have the
 [[trace]] operation
