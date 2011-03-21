@@ -3442,6 +3442,81 @@ In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is co
 
 All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ in terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
 
+#### The ordinary Chern-Weil homomorphism with values in differential classes
+
+A simple motivating example for the [[Chern-Weil homomorphism]]
+is the construction of 
+[[determinant line bundle]]s.
+
++-- {: .un_example}
+###### Example
+
+For some $N \in \mathbb{N}$ consider a $U(N)$-[[principal bundle]]
+[[connection on a bundle|with connection]] on a [[smooth manifold]]
+$X$, given with respect to a [[good open cover]] $\{U_i \to X\}$
+by a [[Cech cohomology|Cech cocycle]] $\{(g_{i j}), (A_i)\}$
+with coefficients in the [[groupoid of Lie-algebra valued 1-forms]],
+as discussed above.
+
+By the defining characterization of the [[unitary group]] 
+$U(n)$ as a [[matrix Lie group]]
+we have a group homomorphism
+
+$$
+  det : U(N) \to U(1)
+$$
+
+to the [[circle group]]
+ given by the [[determinant]] operation on $n \times n$ matrices.
+
+Similarly we may canonically identify the [[Lie algebra]] 
+$\mathfrak{u}(n)$ with the
+[[matrix Lie algebra]] of skew-hermitean matrices on which we have the
+[[trace]] operation
+
+$$
+  tr : \mathfrak{u}(n) \to \mathfrak{u}(1) = i \mathbb{R}
+  \,.
+$$
+
+Using these two operations we may send the cocycle for our
+$U(N)$-bundle to a cocycle for a $U(1)$-bundle
+
+$$
+  (det,tr) : \{(g_{i j}), (A_i)\} \mapsto
+   \{(det  g_{i j}), (tr A_i)\}
+$$
+
+whose cocycle conditions
+
+$$
+  det (g_{i j}) det (g_{j k}) = det g_{i k}
+$$
+
+$$
+  tr A_j = tr A_i  + det(g_{i j}^{-1}) d det(g_{i j})
+$$
+
+are satisfied by the failiar properties of determinan and trace.
+
+This construction extends to a functor
+
+$$
+  (\hat det) :  U(N) Bund_{conn}(X) \to U(1) Bund_{conn}(X)
+$$
+
+natural in $X$. We have
+
+* the integral class of the determinant bundle is the 
+  first [[Chern class]] the $U(N)$-bundle;
+
+* the [[curvature]] 2-form of its connection is a representative
+  in de Rham cohomology of this class.
+
+=--
+
+(...)
+
 
 #### $\infty$-Chern-Simons functionals
 
