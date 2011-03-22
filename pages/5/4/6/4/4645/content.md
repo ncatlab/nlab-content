@@ -3436,16 +3436,17 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (for 11-dimensional [[supergravity]]). The way [[curvature]] and [[Bianchi identity]] are read off from "extded soft group manifolds" in this literature is -- apart from this difference in terminology -- precisely what is described above. 
 
 
-### The $\infty$-Chern-Weil homomorphism
+## The $\infty$-Chern-Weil homomorphism
+ {#InfityCWHomomorphism}
 
-We now discuss the [[Chern-Weil homomorphism]] and its generalization
-to [[connections on an ∞-bundle]].
+We now come to the discussion the [[Chern-Weil homomorphism]] and its generalization to the [[∞-Chern-Weil homomorphism]].
 
 We have seen $G$-principal $\infty$-bundles for general $\infty$-groups $G$ and in particular for abelian groups $G$. Naturally, the abelian case is easier and more powerful statements are known about this case. A general strategy for studying nonabelian $\infty$-bundles therefore is to _approximate_ them by abelian bundles. This is achieved by considering [[characteristic class]]es. Roughly, a characteristic class is a map that functorially sends $G$-principal $\infty$-bundles to $\mathbf{B}^n K$-principal $\infty$-bundles, for some $n$ and some abelian group $K$. In some cases such an assignment may be obtained by integration of infinitesimal data. If so, then the assignment refines to one of $\infty$-bundles [[connection on an ∞-bundle|with connection]]. For $G$ an ordinary [[Lie group]] this is then what is called the [[Chern-Weil homomorphism]]. For general $G$ we call it  the [[∞-Chern-Weil homomorphism]].
 
 
 
-#### Differential characteristic classes
+### Motivating examples
+ {#ExamplesForChernWeil}
 
 A simple motivating example for the [[Chern-Weil homomorphism]]
 is the construction of [[determinant line bundle]]s.
@@ -3460,7 +3461,7 @@ $$
   det : U(N) \to U(1)
 $$
 
-and by the standard properties of the determinant, this is in fact a group homomorphism. Therefore this has a [[delooping]] to a morphism if [[Lie groupoid]]s
+and by the standard properties of the determinant, this is in fact a group homomorphism. Therefore this has a [[delooping]] to a morphism of [[Lie groupoid]]s
 
 $$
   \mathbf{B}det : \mathbf{B}U(N) \to \mathbf{B}U(1)
@@ -3474,24 +3475,22 @@ $$
 $$
 
 of [[topological space]]s. This is a [[characteristic class]] on the 
-[[classifying space]] $B U(N)$.
+[[classifying space]] $B U(N)$: the first [[Chern class]].
 
-By postcomposion of this class with the classifying maps for principal bundles, it acts on principal bundles:
-
-Postcomposition of a [[Cech cohomology|Cech]] cocycle 
+By postcomposion of this class with the classifying maps for principal bundles, it acts on principal bundles: postcomposition of a [[Cech cohomology|Cech]] cocycle 
 
 $$
   \array{
-    C(\{U_i\}) &\stackrel{(g_{i j})}{\to}& \mathbf{B} U(N)
+    P : & C(\{U_i\}) &\stackrel{(g_{i j})}{\to}& \mathbf{B} U(N)
     \\
-    \downarrow^{\mathrlap{\simeq}}
+    & \downarrow^{\mathrlap{\simeq}}
     \\
-    X
+    & X
   }
 $$
 
 for a $U(N)$-[[principal bundle]] on a [[smooth manifold]] $X$
-with this characteristic class yields the cocycle for a circle bundle (or ita [[associated bundle|associated]] [[line bundle]])
+with this characteristic class yields the cocycle for a circle bundle (or its [[associated bundle|associated]] [[line bundle]])
 
 $$
   \array{
@@ -3561,13 +3560,24 @@ $$
   (\hat det) :  U(N) Bund_{conn}(X) \to U(1) Bund_{conn}(X)
 $$
 
-natural in $X$. We have
+natural in $X$, that sends $U(n)$-principal bundles with connection to 
+[[circle n-bundle with connection|circle bundles with connection]], hence to cocycles in degree-2 [[ordinary differential cohomology]].
 
 * the integral class of the determinant bundle is the 
-  first [[Chern class]] the $U(N)$-bundle;
+  first [[Chern class]] the $U(N)$-bundle
+
+  $$
+    [det P] = c_1(P)
+    \,;
+  $$
 
 * the [[curvature]] 2-form of its connection is a representative
-  in de Rham cohomology of this class.
+  in de Rham cohomology of this class
+
+  $$
+    [F_\nabla] = [det P]_{dR}
+    \,.
+  $$
 
 =--
 
@@ -3640,7 +3650,8 @@ In the following we want to use the construction of the $\infty$-Chern-Weil homo
 (...)
 
 
-#### $\infty$-Chern-Simons functionals
+### $\infty$-Chern-Simons functionals
+ {#CSFunctionals}
 
 In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classifies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
 
@@ -3843,7 +3854,8 @@ $$
 $$
 
 
-#### Secondary characteristic classes
+### Secondary/differential characteristic classes
+ {#DifferentialCharacteristic}
 
 So far we discussed the untruncated coefficient object $\exp(\mathfrak{g})_{conn}$ for $\mathfrak{g}$-valued
 [[connection on an infinity-bundle|∞-connections]]. 
