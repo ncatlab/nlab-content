@@ -1,4 +1,4 @@
-[[Shahn Majid]] has introduced a notion of bialgebra cocycles which as special cases comprise group cocycles, nonabelian Drinfel'd 2-cocycle and 3-cocycle, abelian Lie algebra cohomology and so on.
+[[Shahn Majid]] has introduced a notion of __bialgebra cocycles__ which as special cases comprise group cocycles, nonabelian Drinfel'd 2-cocycle and 3-cocycle, abelian Lie algebra cohomology and so on. Besides this case, by "bialgebra cohomology" many authors in the literature mean the abelian cohomology (Ext-groups) in certain category of "tetramodules" over a fixed bialgebra, which will be in $n$Lab referred as [[Gerstenhaber-Schack cohomology]]. 
 
 Let $(H,\mu,\eta,\Delta,\epsilon)$ be a $k$-[[bialgebra]]. 
 Denote $\Delta_i : B^{\otimes n}\to B^{\otimes (n+1)} := \id_B^{\otimes (i-1)}\otimes\Delta\otimes\id_B^{\otimes(n-i+1)}$, for $i = 1,\ldots, n$, and $\Delta_0 := 1_B\otimes \id_B^{\otimes n}$, $\Delta_n := \id_B^{\otimes n}\otimes 1_B$. Notice that for the compositions $\Delta_i\circ\Delta_j = \Delta_{j+1}\circ\Delta_i$ for $i\leq j$.
