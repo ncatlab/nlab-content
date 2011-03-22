@@ -20,7 +20,7 @@ $$
   det T : \wedge^n V\to \wedge^n W
 $$ 
 
-between these lines. This is the **[[determinant]]** of $T$. More specifically, if $V = W$ (both are necessarily [[isomorphic]] but not necessarily canoniclly so) then $det T : \wedge^n V \to \wedge^n V$ is a linear endomorphism of a 1-dimensional vector space and by the equivalence
+between these lines. This is the **[[determinant]]** of $T$. More specifically, if $V = W$ (being of the same finite dimension, both are necessarily [[isomorphic]] but not necessarily canonically so) then $det T : \wedge^n V \to \wedge^n V$ is a linear endomorphism of a 1-dimensional vector space and by the equivalence
 
 $$
   End(\wedge^n V) \simeq k
@@ -35,10 +35,10 @@ $$
 
 This is the standard meaning of the **determinant** of a linear endomorphism.
 
-Notice that the determinant constructon: 
+Notice that the determinant construction: 
 
 $$
-  det (T : V \to W) \mapsto (det T : \wedge^\bullet V \to \wedge^\bullet W)
+  det : (V \stackrel{T}{\to} W) \mapsto (\wedge^n V \stackrel{det T}{\to} \wedge^n W)
 $$ 
 
 is a [[functor]] from the [[category]] [[Vect]] to itself
@@ -68,7 +68,7 @@ $$
   (g_{i j} \in C(U_i \cap U_j, GL(n)))
 $$
 
-with values in the [[general linear group]], its image under $det : VectBund(X) \to VectBund(X)$ is the bunle with transition functions the determinants of these transition functions
+with values in the [[general linear group]], its image under $det : VectBund(X) \to VectBund(X)$ is the bundle with transition functions the determinants of these transition functions
 
 $$
   (det g_{i j} \in C(U_i \cap U_j, GL(1) \simeq k^\times))
@@ -105,11 +105,11 @@ $$
   \,.
 $$
 
-Morover, if $X$ is a [[smooth manifold]] and $(g_{i j}, A_i)$ is the data of a [[connection on a bundle]] $(E, \nabla)$ on $E$ then $(det g_{i j}, tr A_i)$ (where we take the [[trace]] $tr : \mathfrak{u}(n) \to \mathfrak{u}(1)$ on the [[Lie algebra]] of the [[unitary group]]) is a [[circle n-bundle with connection|line bundle with connection]] that refines the first Chern-class to [[ordinary differential cohomology]]. In other words, this is the image under the refined [[Chern-Weil homomorphism]] of $(E, \nabla)$ induced by the canonical unary [[invariant polynomial]] on $\mathfrak{u}(n)$.
+Moreover, if $X$ is a [[smooth manifold]] and $(g_{i j}, A_i)$ is the data of a [[connection on a bundle]] $(E, \nabla)$ on $E$ then $(det g_{i j}, tr A_i)$ (where we take the [[trace]] $tr : \mathfrak{u}(n) \to \mathfrak{u}(1)$ on the [[Lie algebra]] of the [[unitary group]]) is a [[circle n-bundle with connection|line bundle with connection]] that refines the first Chern-class to [[ordinary differential cohomology]]. In other words, this is the image under the refined [[Chern-Weil homomorphism]] of $(E, \nabla)$ induced by the canonical unary [[invariant polynomial]] on $\mathfrak{u}(n)$.
 
 =--
 
-An explicit version of this statement is for instance in ([GriffithsHaris](#GriffithsHarris)).
+An explicit version of this statement is for instance in ([GriffithsHarris, p. 414](#GriffithsHarris)).
 
 One can now look at operators $T:E\to F$ where $E,F$ are vector bundles of rank $n$ and the induced operators $\Lambda^n T : \Lambda^n E\to \Lambda^n F$ which can be considered as elements $det T\in (\Lambda^n E)^*\otimes\Lambda^n F$. 
 
@@ -145,6 +145,13 @@ In dimens&#238;on $8^k+2$ for $k \in \mathbb{N}$ the determinant line bundle has
 These determinant line bundles are important in the study of [[quantum anomaly|quantum anomalies]], in the formulation of cohomological quantum field theories, study of some invariants of differential operators like $\eta$-invariant and so on. 
 
 ## References
+
+The relation between determinant line bundles and the first Chern class is stated explicitly for instance on p. 414 of
+
+* Griffiths and Harris, _Principles of algebraic geometry_
+ {#GriffithsHarris}
+
+Literature on determinant line bundles of infinite-dimensional bundles includes the following:
 
 * [[Daniel Quillen|D.G. Quillen]], _Determinants of Cauchy-Riemann operators over a Riemann surface_, Funkcionalnii Analiz i ego Prilozhenija __19__ (1985), 37-41, ([pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=1334&volume=19&year=1985&issue=1&fpage=37&what=fullt&option_lang=eng) of Russian version).
 
