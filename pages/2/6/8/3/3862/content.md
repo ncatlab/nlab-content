@@ -3,15 +3,117 @@
 * automatic table of contents goes here
 {:toc}
 
-## Determinants and bundles
+## Determinant line bundle
+ {#DeterminantLineBundles}
 
-Multivectors $e_1\wedge\ldots\wedge e_n$ transform according to the rule involving determinants. In particular, the exterior product is good to express the $n$-volume of the parallelepiped spanned by $n$-vectors. 
+Let $V$ and $W$ be two [[vector space]]s of [[dimension]] $n = dim V = dim W$ and  
 
-Given a linear map $T:V\to W$ of $n$-dimensional vector spaces, there is a induced map of the top exterior powers $det T: \Lambda^n V\to \Lambda^n W$, which is therefore identified an element in the line $\Lambda(V)^*\otimes\Lambda^n(W)$.
+$$
+  T : V \to W
+$$ 
 
-Given a functor (bifunctor...) $F$ from the category of vector spaces to vector spaces, with certain continuity assumption on $F$, induces a functor from the category of vector bundles over an arbitrary manifold to vector bundles. In particular, we have exterior powers, (Whitney) sums, dual bundles and so on. Notice that if $f_{ij}$ are transition functions for the original bundle $E$ with values in $GL(n)$ then the determinants $det(f_{ij})$ are the transition functions for the bundle $\Lambda^n(E)$. One can now look at operators $T:E\to F$ where $E,F$ are vector bundles of rank $n$ and the induced operators $\Lambda^n T : \Lambda^n E\to \Lambda^n F$ which can be considered as elements $det T\in (\Lambda^n E)^*\otimes\Lambda^n F$. 
+a [[linear map]].
 
-Given a [[manifold]] $X$, the top exterior power $\Lambda^{dim X} T^* X$ is a line bundle called the __determinant bundle__ on $X$. Even more important is the case of when $X$ is replaced by an appropriate moduli space of [[connection]]s, instantons, holomorphic structures or some other objects related to Fredholm operators for which the determinants can be defined. 
+Write $\wedge^n V$ and $\wedge^n W$ for the _top exterior power_ of these vector spaces, the skew-symmetrized $n$th [[tensor algebra|tensor power]] of $V$ and $W$. These are 1-dimensional vector spaces, hence [[line]]s over the ground field. The linear map $T$ induces a linear map 
+
+$$
+  det T : \wedge^n V\to \wedge^n W
+$$ 
+
+between these lines. This is the **[[determinant]]** of $T$. More specifically, if $V = W$ (both are necessarily [[isomorphic]] but not necessarily canoniclly so) then $det T : \wedge^n V \to \wedge^n V$ is a linear endomorphism of a 1-dimensional vector space and by the equivalence
+
+$$
+  End(\wedge^n V) \simeq k
+$$
+
+of such endomorphisms with the ground [[field]] $k$ is identified with an element in $k$
+
+$$
+  det T \in k
+  \,.
+$$
+
+This is the standard meaning of the **determinant** of a linear endomorphism.
+
+Notice that the determinant constructon: 
+
+$$
+  det (T : V \to W) \mapsto (det T : \wedge^\bullet V \to \wedge^\bullet W)
+$$ 
+
+is a [[functor]] from the [[category]] [[Vect]] to itself
+
+$$
+  det : Vect \to Vect
+  \,.
+$$
+
+Any such functor $F : Vect \to Vect$ with certain continuity assumptions induces an endo-functor on the category of [[vector bundle]]s $VectBund(X)$ over an arbitrary [[manifold]] $X$. 
+
+Concretely, if a vector bundle $E \to X$ is given by a [[Cech cohomology|Cech cocycle]] 
+
+$$
+  \array{
+    C(U_i) &\stackrel{(g_{i j})}{\to}& \mathbf{B} GL(n) &\to& Vect
+    \\
+    \downarrow^{\simeq}
+    \\
+    X
+  }
+$$
+
+with respect to an [[open cover]] $\{U_i \to X\}$ (see [[principal bundle]] and [[associated bundle]] for details), hence by transition functions
+
+$$
+  (g_{i j} \in C(U_i \cap U_j, GL(n)))
+$$
+
+with values in the [[general linear group]], its image under $det : VectBund(X) \to VectBund(X)$ is the bunle with transition functions the determinants of these transition functions
+
+$$
+  (det g_{i j} \in C(U_i \cap U_j, GL(1) \simeq k^\times))
+  \,.
+$$
+
+This are the transition functions for the bundle $\wedge^\bullet E \to X$ which is fiberwise the top exterior power of $E \to X$. This is the **determinant line bundle** of $E$.
+
++-- {: .un_prop}
+###### Proposition
+
+Let 
+
+$$
+ E : X \stackrel{\simeq}{\leftarrow} C(U_i) \stackrel{g_{i j}}{\to} \mathbf{B} U(n)
+$$ 
+
+be a [[unitary group]]-[[principal bundle]] (to which is canonically [[associated bundle|associated]] a rank-$n$ complex [[vector bundle]]). Then the single [[characteristic class]]
+
+$$
+  [det E] \in H^2(X, \mathbb{Z})
+$$
+
+of its determinant [[circle bundle]]
+
+$$
+ det E : X \stackrel{\simeq}{\leftarrow} C(U_i) \stackrel{det g_{i j}}{\to} \mathbf{B} U(1)
+$$ 
+
+is the first [[Chern class]] of $E$
+
+$$
+  [det E] = c_1(E)
+  \,.
+$$
+
+Morover, if $X$ is a [[smooth manifold]] and $(g_{i j}, A_i)$ is the data of a [[connection on a bundle]] $(E, \nabla)$ on $E$ then $(det g_{i j}, tr A_i)$ (where we take the [[trace]] $tr : \mathfrak{u}(n) \to \mathfrak{u}(1)$ on the [[Lie algebra]] of the [[unitary group]]) is a [[circle n-bundle with connection|line bundle with connection]] that refines the first Chern-class to [[ordinary differential cohomology]]. In other words, this is the image under the refined [[Chern-Weil homomorphism]] of $(E, \nabla)$ induced by the canonical unary [[invariant polynomial]] on $\mathfrak{u}(n)$.
+
+=--
+
+An explicit version of this statement is for instance in ([GriffithsHaris](#GriffithsHarris)).
+
+One can now look at operators $T:E\to F$ where $E,F$ are vector bundles of rank $n$ and the induced operators $\Lambda^n T : \Lambda^n E\to \Lambda^n F$ which can be considered as elements $det T\in (\Lambda^n E)^*\otimes\Lambda^n F$. 
+
+Even more important is the case of when $X$ is replaced by an appropriate moduli space of [[connection]]s, instantons, holomorphic structures or some other objects related to Fredholm operators for which the determinants can be defined. 
 
 ## Quillen's determinant line bundle
 
