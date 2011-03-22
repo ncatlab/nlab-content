@@ -2,7 +2,7 @@
 
 ## Background
 
-* [[homotopy theory]]*, i.e., the theory of homotopy.
+* [[homotopy theory]] (i.e., the theory of homotopy)
 
 * [[algebraic topology]]
 
