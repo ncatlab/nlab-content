@@ -101,7 +101,7 @@ $$
 
 for $\mathcal{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbols, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[Smooth∞Grpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
 
-[^TwoForgetful]: There are actually two such forgetful functors, $\Gamma$ and $\Pi$. The first sends $\mathbf{B}G$ to $\mathcal{B}G$, which in [[topology]] is known as $K(G,1)$. The other sends $\mathbf{B}G$ to the [[classifying space]] $B G$. (see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">∞-Lie groupoid -- geometric realization</a>). This distinction is effectively the origin of differential cohomology.
+[^TwoForgetful]: There are actually two such forgetful functors, $\Gamma$ and $\Pi$. The first sends $\mathbf{B}G$ to $B G_{disc}$, which in [[topology]] is known as $K(G,1)$. The other sends $\mathbf{B}G$ to the [[classifying space]] $B G$. (see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">∞-Lie groupoid -- geometric realization</a>). This distinction is effectively the origin of differential cohomology.
 
 Also the smooth manifold $X$ may be regarded as a [[Lie groupoid]] -- a groupoid with only identity morphisms. Its cartoon description is simply
 
@@ -2751,7 +2751,7 @@ $$
 from Spin-[[principal bundle]]s with connection to [[circle n-bundle with connection|circle 3-bundles with connection]]?
 
 In the following we give a natural presentation of the 
-[[∞-Chern-Weil homomorphism]] by means of [[Lie integration]] of $L_\infty$-algebraic data to [[simplicial presheaves]]. Among other things, this construction yields an understanding of why this construction is what it is and does what it does.
+[[∞-Chern-Weil homomorphism]] by means of [[Lie integration]] of $L_\infty$-algebraic data to [[simplicial presheaves]]. Among other things, this construction yields an understanding of why this construction is what it is and does what it does. In prop. \ref{ReproducingBrylinskiMacLaughlin} we reproduce the above example.
 
 The construction proceeds in the following broad steps
 
@@ -2774,7 +2774,7 @@ The construction proceeds in the following broad steps
 1. By finding a [[Chern-Simons element]] $cs$ that witnesses the [[transgression]] of $\mu$ to an [[invariant polynomial]] on $\mathfrak{g}$ this construction has a differential refinement to a morphism
 
    $$
-     \exp((\mu,cs)) : \exp(\mathfrak{g})_{conn} \to \mathbf{B}^n \mathbb{R}_{conn}     
+     \exp(\mu,cs) : \exp(\mathfrak{g})_{conn} \to \mathbf{B}^n \mathbb{R}_{conn}     
    $$
 
    that sends $L_\infty$-algebra valued connections to [[circle n-bundle with connection|line n-bundles with connection]].
@@ -3943,17 +3943,17 @@ We have considered above [[connection on an ∞-bundle|∞-connections]] in term
 +-- {: .num_defn}
 ###### Definition
 
-Let $\mathfrak{g}$ be an [[L-∞ algebra]] and $\mu : \mathfrak{g} \to b^{n-1}\mathbb{R}$ a cocycle in its [[L-∞ algebra cohomology]], which transgreses to an [[invariant polynomial]] $\langle \rangle$, withnessed by a [[Chern-Simons element]] $cs$.
+Let $\mathfrak{g}$ be an [[L-∞ algebra]] and $\mu : \mathfrak{g} \to b^{n-1}\mathbb{R}$ a cocycle in its [[L-∞ algebra cohomology]], which transgresses to an [[invariant polynomial]] $\langle -\rangle$, witnessed by a [[Chern-Simons element]] $cs$.
 
 Then let 
 
 $$
-  \exp((\mu,cs)) : \exp(\mathfrak{g})_{conn} \to \exp(b^{n-1}\mathbb{R})_{conn} 
+  \exp(\mu,cs) : \exp(\mathfrak{g})_{conn} \to \exp(b^{n-1}\mathbb{R})_{conn} 
 $$
 
-be the morphism of [[simplicial presheaves]] obtained by forming [[pasting]] composites of the defining diagrams in [[dg-alg]] of these structures:
+be the morphism of [[simplicial presheaves]] obtained by forming [[pasting]] composites of the defining diagrams in [[dgAlg]] of these structures:
 
-over $U \in CartSp$ and $[k] \in \Delta$ it sends an element 
+over $U \in CartSp$ and $[k] \in \Delta$ the morphism $\exp(\mu,cs)$ sends an element 
 $A \in \exp(\mathfrak{g})_{conn}(U)_k$ to the element 
 $cs(A) \in \exp(b^{n-1}\mathbb{R})_{conn}$ given explicitly as follows
 
@@ -4001,7 +4001,7 @@ $$
      \uparrow && \uparrow
      \\
      inv(\mathfrak{g})
-     &\stackrel{\langle -\rangle_\mu}{\leftarrow}&
+     &\stackrel{\langle -\rangle}{\leftarrow}&
      inv(b^{n-1} \mathbb{R}) 
      &&&
      invariant\;polynomial
@@ -4030,7 +4030,7 @@ $$
      \Omega^\bullet(U \times \Delta^k)
      &\stackrel{A}{\leftarrow}&
      W(\mathfrak{g})
-     &\stackrel{cs_\mu}{\leftarrow}&
+     &\stackrel{cs}{\leftarrow}&
      W(b^{n-1} \mathbb{R})
      &
      : cs(A)
@@ -4042,10 +4042,10 @@ $$
      \Omega^\bullet(U)
      &\stackrel{\langle F_A\rangle}{\leftarrow}&
      inv(\mathfrak{g})
-     &\stackrel{\langle -\rangle_\mu}{\leftarrow}&
+     &\stackrel{\langle -\rangle}{\leftarrow}&
      inv(b^{n-1} \mathbb{R})
      &
-     : \langle F_A\rangle_\mu
+     : \langle F_A\rangle
      &&&
      curvature\;characteristic\;form
   }
@@ -4053,43 +4053,52 @@ $$
   \,.
 $$
 
-by restriction to the two two layers of these diagrams this analogously yields a morphism
+By restriction to the top two layers of these diagrams this analogously yields a morphism
 
 $$
   \exp(\mu, cs): \exp(\mathfrak{g})_{diff} \to \exp(b^{n-1}\mathbb{R})_{diff} 
   \,.
 $$
 
+Analogously, projection onto the third horizontal layer gives amorphism 
+
+$$
+  \exp(\mu,cs)
+   :
+  \exp(b^{n-1}\mathbb{R})_{diff} 
+    \to 
+  \mathbf{\flat}_{dR}\exp(b^{n} \mathbb{R})_{smp}
+  \underoverset{\int_{\Delta^\bullet}}{\simeq}{\to}
+  \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}_{ch}
+$$
+
+to the de Rham coefficient object.
+
 
 =--
 
 
++-- {: .num_note}
+###### Note
 
+The morphism $\exp(\mu,cs)$ carries $\mathfrak{g}$-valued connections $\nabla$ locally given by $\mathfrak{g}$-valued forms $A$ to 
+$b^{n-1}\mathbb{R}$-valued connections whose [[higher parallel transport]] over an $n$-[[dimension]]al [[smooth manifold]] $\Sigma$ is locally given by the integral $\int_\Sigma cs(A)$ of the [[Chern-Simons form]] $cs(A)$ over $\Sigma$. This assignment $A \mapsto \int_\Sigma cs(A)$ is the [[action functional]] for an [[schreiber:∞-Chern-Simons theory]] defined by the [[invariant polynomial]] $\langle -\rangle \in W(\mathfrak{g})$. Therefore we may regard $\exp(\mu,cs)$ as being the [[Lagrangian]] for this [[∞-Chern-Simons theory]]. 
 
+=--
 
-
-
-Projection onto the third horizontal component gives the map to the curvature classes
-
-$$
-  \exp(b^{n-1}\mathbb{R})_{diff} \to \mathbf{\flat}_{dR}\exp(b^{n} \mathbb{R})_{simp}
-  \,,
-$$
-
-In total, this constitutes an $\infty$-anafunctor
+In total, this construction constitutes an $\infty$-anafunctor
 
 $$
   \array{
     \exp(\mathfrak{g})_{diff}
     &\stackrel{\exp(\mu)_{diff}}{\to}&
-    \exp(b^{n-1}\mathbb{R})_{diff}
-    &\stackrel{}{\to}&
-    \mathbf{\flat}_{dR}b^n \mathbb{R}
+    \mathbf{\flat}_{dR} \mathbf{B}^{n+1}\mathbb{R}_{ch}
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
     \exp(\mathfrak{g})
   }
+  \,.
 $$
 
 Postcomposition with this is the simple $\infty$-Chern-Weil homomorphism: it sends a cocycle
@@ -4104,8 +4113,7 @@ $$
   }
 $$
 
-for an $\exp(\mathfrak{g})$-principal bundle to the curvature form represented by
-
+for an $\exp(\mathfrak{g})$-[[principal ∞-bundle]] to the [[curvature]] form represented by
 
 $$
   \array{
@@ -4114,7 +4122,7 @@ $$
     &\stackrel{\exp(\mu)_{diff}}{\to}&
     \exp(b^{n-1}\mathbb{R})_{diff}
     &\stackrel{}{\to}&
-    \mathbf{\flat}_{dR}b^n \mathbb{R}
+    \mathbf{\flat}_{dR} \mathbf{B}^{n+1}\mathbb{R}_{ch}
     \\
     \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
     \\
@@ -4137,21 +4145,9 @@ for $g$ the cocycle for a $G$-principal bundle, any ordinary [[connection on a b
 
 =--
 
+This construction however discards the information in the choice of [[connection on an ∞-bundle|connection]] and in the [[Chern-Simons form]] of this connection. Below we lift this construction to one that produces the full [[secondary characteristic classes]] in [[ordinary differential cohomology]] of the refined $\infty$-Chern-Weil homomorphism.
 
-But evidently we have more information available here. The ordinary [[Chern-Weil homomorphism]] refines from a map that assigns curvature characteristic forms, to a map that assigns [[secondary characteristic class]]es in the sense that it assigns [[circle n-bundles with connection]] whose curvature is this cuvature characteristic form.
 
-The local connection forms of these circle bundles are given by the middle horizontal morphisms. These are the [[Chern-Simons form]]s 
-
-$$
-  \Omega^\bullet(U)
-  \stackrel{A}{\leftarrow}
-  W(\mathfrak{g})
-  \stackrel{cs}{\leftarrow}
-  W(b^{n-1} \mathbb{R})
-  :
-  cs(A)
- \,.
-$$
 
 
 #### Secondary characteristic classes
@@ -4217,10 +4213,28 @@ $$
 $$
 
 
-+-- {: .un_example}
-###### Example
+We can now reproduce our [motivating example](#BMConstruction) of the Brylinski-McLaughlin construction of the the differential refinement of the first fractional Pontryagin class as a special case of the presentation of the $\infty$-Chern-Weil homomorphism by Lie integrated simplicial presheaves.
 
-Applying this to the discussion of the [[Chern-Simons circle 3-bundle]] above, we find a differential refinement
++-- {: .num_prop #ReproducingBrylinskiMacLaughlin}
+###### Proposition
+
+Let $\mathfrak{g} = \mathfrak{so}(n)$ be the [[special orthogonal Lie algebra]], $\mu = \langle -,[-,-]\rangle$ the canonical [[Lie algebra cohomology]] 3-cocycle and $cs \in W(\mathfrak{g})$ the standard [[Chern-Simons element]] witnessing the transgression to the [[Killing form]] [[invariant polynomial]]. 
+
+Then for $X$ any [[smooth manifold]], the [[Lie integration]] of $(\mu,cs)$ presents a morphism morphism
+
+$$
+  \exp(\mu) \mathbf{H}_{conn}(X, \mathbf{B}Spin(n)) \to 
+   \mathbf{H}_{conn}(X, \mathbf{B}^3 U(1)) 
+$$
+
+that sends $Spin$-principal bundles with connection to their [[Chern-Simons circle 3-bundle]] with connection and as such represents a differential refinement of the first fractional Pontryagin class
+
+$$
+  \exp(\mu,cs) = \frac{1}{2}\hat \mathbf{p}_1
+  \,.
+$$
+
+Moreover, the defining presentation on simplicial presheaves of $\exp(\mu,cs)$ given by the $\infty$-anafunctor
 
 $$
   \array{
@@ -4240,26 +4254,14 @@ $$
     \\
     X
   }
-  \,.
 $$
 
-Chasing components through this composite one finds that this descibes the cocycle in [[Deligne cohomology]] given by
-
-$$
-  (CS(\sigma_i^* \nabla) , \; \int_{\Delta^1} CS(\hat g_{i j}^* \nabla),
-  \int_{\Delta^2} CS(\hat g_{i j k}^* \nabla), 
-  \int_{\Delta^3} \hat g_{i j k l}^* \mu)
-  \,.
-$$
-
-This is the cocycle for the [[circle n-bundle with connection]]. 
+exhibits exactly the Brylinski-MacLaughlin algorithm for constructing Cech-cocycle representatives for this class.
 
 =--
 
-This is precisely the form of the 
-[[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne]]-cocycle given in (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>)
-only that here it comes out automatically normalized such
-as to represented the fractional generator $\frac{1}{2}\mathbf{p}_1$.
+This is due to (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#FSSIII">FSS</a>)
+
 
 By feeding in more general transgressive 
 [[∞-Lie algebra cohomology|∞-Lie algebra cocycles]] through this
@@ -4524,3 +4526,4 @@ A commented list of further related references is at
 [[!redirects ∞-Chern-Weil theory introduction]]
 
 [[!redirects infinity-Chern-Weil theory -- preparatory concepts]]
+s
