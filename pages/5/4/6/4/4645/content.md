@@ -2649,6 +2649,45 @@ from Spin-[[principal bundle]]s with connection to [[circle n-bundle with connec
 In the following we give a natural presentation of the 
 [[∞-Chern-Weil homomorphism]] by means of [[Lie integration]] of $L_\infty$-algebraic data to [[simplicial presheaves]]. Among other things, this construction yields an understanding of why this construction is what it is and does what it does.
 
+The construction proceeds in the following broad steps
+
+1. The [[infinitesimal object|infinitesimal]] analog of a characteristic class
+   $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ is a [[∞-Lie algebra cohomology|L-∞ algebra cocycle]]
+
+   $$
+     \mu : \mathfrak{g} \to b^{n-1} \mathbb{R}
+     \,.
+   $$
+
+1. There is a formal procedure of universal [[Lie integration]] which sends this to a morphism of [[smooth ∞-groupoid]]s
+
+   $$
+     \exp(\mu) : \exp(\mathfrak{g}) \to \exp(b^{n-1} \mathbb{R}) \simeq \mathbf{B}^n \mathbb{R}
+   $$
+
+   presented by a morphism of [[simplicial presheaves]] on [[CartSp]].
+
+1. By finding an [[Chern-Simons element]] $cs$ that witnesses the [[transgression]] of $\mu$ to an [[invariant polynomial]] on $\mathfrak{g}$ this construction has a differential refinement to a morphism
+
+   $$
+     \exp((\mu,cs)) : \exp(\mathfrak{g})_{conn} \to \mathbf{B}^n \mathbb{R}_{conn}     
+   $$
+
+   that sends $L_\infty$-algebra valued connections to [[circle n-bundle with connection|line n-bundles with connection]].
+
+1. The $n$-[[truncated|truncation]] $\mathbf{cosk}_{n+1} \exp(\mathfrak{g})$ of the object on the left produces the smooth $\infty$-groups on interest -- $\mathbf{cosk}_{n+1} \exp(\mathfrak{g}) \simeq \mathbf{B}G$ -- and the corresponding truncation of $\exp((\mu,cs))$ carves out the [[lattice]] $\Gamma$ of [[period]]s in $G$ of the cocycle $\mu$ inside $\mathbb{R}$. The result is the differential characteristic class
+
+   $$
+     \exp(\mu,cs) : \mathbf{B}G_{conn} \to \mathbf{B}^n \mathbb{R}/\Gamma_{conn}
+     \,.
+   $$
+
+   Typically we have $\Gamma \simeq \mathbb{Z}$ such that this then reads
+
+   $$
+     \exp(\mu,cs) : \mathbf{B}G_{conn} \to \mathbf{B}^n U(1)_{conn}
+     \,.
+   $$
 
 ### $\infty$-Lie theory
  {#LieTheory}
@@ -2784,7 +2823,7 @@ To see this, observe that the presheaf $\exp(\mathfrak{g})$ has as 1-morphisms $
 The following proposition establishes the Lie integraiton of the shifted
 1-dimensional abelian [[L-∞ algebras]] $b^{n-1} \mathbb{R}$.
 
-+-- {: .num_prop}
++-- {: .num_prop #IntegrationOfBnR}
 ###### Proposition
 
 For $n \in \mathbb{N}$, $n \geq 1$. Write 
@@ -2800,7 +2839,7 @@ Then there is a canonical morphism
 
 $$
   \int_{\Delta^\bullet} : 
-   \exp(b^{n-1}\mathb{R})
+   \exp(b^{n-1}\mathbb{R})
    \stackrel{\simeq}{\to}
    \mathbf{B}^n \mathbb{R}_{ch}
 $$
@@ -2854,7 +2893,8 @@ $$
 ###### Example
 **(first Pontryagin class)**
 
-Assume $\mathfrak{g}$ to be a [[semisimple Lie algebra]], let $\langle -,-\rangle$ be the [[Killing form]] and $\mu = \langle -,[-,-]\rangle$ the corresponding 3-cocycle in [[Lie algebra cohomology]]. We may assume without restriction that this cocycle is normalized such that its left-invariant continuation to a 3-form on $G$ has integral [[period]]s. Observe that since $\pi_2(G)$ is trivial we have that the 3-[[coskeleton]] of $\exp(\mathfrak{g})$ is equivalent to $\mathbf{B}G$. By the inegrality of $\mu$, the operation of $\exp(\mu)$ on $\exp(\mathfrak{g})$ followed by integration over simplices descends to an [[∞-anafunctor]] from $\mathbf{B}G$ to $\mathbf{B}^3 U(1)$, as indicated on the right of this diagram in $[CartSp^{op}, sSet]$
+Assume $\mathfrak{g}$ to be a [[semisimple Lie algebra]], let $\langle -,-\rangle$ be the [[Killing form]] and $\mu = \langle -,[-,-]\rangle$ the corresponding 3-cocycle in [[Lie algebra cohomology]]. We may assume without restriction that this cocycle is normalized such that its left-invariant continuation to a 3-form on $G$ has integral [[period]]s. Observe that since $\pi_2(G)$ is trivial we have that the 3-[[coskeleton]] of $\exp(\mathfrak{g})$ is equivalent to $\mathbf{B}G$. By the inegrality of $\mu$, the operation of $\exp(\mu)$ on $\exp(\mathfrak{g})$ followed by integration over simplices, 
+as in prop. \ref{IntegrationOfBnR}, descends to an [[∞-anafunctor]] from $\mathbf{B}G$ to $\mathbf{B}^3 U(1)$, as indicated on the right of this diagram in $[CartSp^{op}, sSet]$
 
 $$
   \array{
@@ -2907,7 +2947,7 @@ The [[Cech cohomology]] cocycle obtained this way is the first [[Pontryagin clas
 
 =--
 
-We shall show this below, as part of our $L_\infty$-algebraic reconstruction of the [above example](#BMConstruction). In order to do so, we now add differential refinement to this Lie integration of characteristic classes.
+We shall show this below, as part of our $L_\infty$-algebraic reconstruction of the [above motivating example](#BMConstruction). In order to do so, we now add differential refinement to this Lie integration of characteristic classes.
 
 
 
@@ -3779,7 +3819,7 @@ We first consider the _local_ construction that produces the de Rham cohomology 
 
 * [∞-Chern-Simons functionals](#CSFunctionals)
 
-Applying a [[coskeleton]]-truncation to this construction carves out the [[cycle]] [[lattice]] of the $L_\infty$-algebra cocycle inside the line $\mathbb{R}$, which yields to the fully-fledged differential characteristic classes, typically called [[secondary characteristic classes]]
+Applying a [[coskeleton]]-truncation to this construction carves out the [[period]] [[lattice]] of the $L_\infty$-algebra cocycle inside the line $\mathbb{R}$, which yields to the fully-fledged differential characteristic classes, typically called [[secondary characteristic classes]]
 
 * [Secondary characteristic classes from Lie integration](#DifferentialCharacteristic)
 
@@ -4343,7 +4383,11 @@ that sends principal $\infty$-bundles with connection to [[circle n-bundles with
 
 ## References
 
-A commented list of references is at
+The text of this entry is reproduced from the introduction of
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+A commented list of further related references is at
 
 * _[[schreiber:differential cohomology in an (∞,1)-topos -- references]]_ .
 
