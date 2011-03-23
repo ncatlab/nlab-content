@@ -23,15 +23,32 @@ $$
 
 of the [[classifying space]] $B U$ of the [[unitary group]].
 
-Accordingly these are characteristic classes of $U$-[[principal bundle]]s.
+Accordingly these are characteristic classes of $U$-[[principal bundle]]s and hence of [[complex numbers|complex]] [[vector bundle]]s.
 
 The first Chern class is the unique characteristic class of [[circle group]]-principal bundles.
 
 The analogous classes for the [[orthogonal group]] are the [[Pontryagin class]]es.
 
-## Related entries and literature
+## Properties
 
-* [[Pontryagin class]], [[Chern character]]
+* The First Chern class of a bundle $P$ is the class of its [[determinant line bundle]] $det P$
+
+  $$
+    c_1(P) = [det P]
+    \,.
+  $$
+
+  See [[determinant line bundle]] for more.
+
+## Related concepts 
+
+* [[Pontryagin class]]
+
+* [[Chern character]]
+
+
+## References
+
 * [[A. Grothendieck]], _La th&#233;orie des classes de Chern_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __86__ (1958), p. 137--154, [numdam](http://www.numdam.org/item?id=BSMF_1958__86__137_0)
 
 [[!redirects Chern classes]]
