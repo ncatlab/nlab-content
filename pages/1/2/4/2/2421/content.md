@@ -1,23 +1,32 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Supergeometry
++--{: .hide}
 [[!include supergeometry - contents]]
-</div>
+=--
+=--
+=--
+
 
 
 #Contents#
-
-* automatic toc goes here
+* table of contents
 {:toc}
 
+## Bare super groups
 
-#Super Lie groups#
+(...)
 
-##Definition##
+## Super Lie groups
+
+### Definition
 
 
 A _super Lie group_ is a [[group object]] in the [[category]] [[SDiff]] of [[supermanifold]]s, that is a super [[Lie group]].
 
-### in terms of generalized group elements ###
+#### In terms of generalized group elements 
 
 One useful way to characterize [[group object]]s $G$ in the
 [[category]] $SDiff$ of [[supermanifold]] is by first sending 
@@ -92,10 +101,10 @@ in terms of the [[Yoneda embedding]].
 
 
 
-##Examples##
+### Examples
 
 
-### the super-translation group ###
+#### The super-translation group
 
 also called the **super-Heisenberg group**
 
@@ -138,18 +147,19 @@ where $(t_i, \theta_i) \in C^\infty(S)^{ev} \times C^\infty(S)^{odd}$ etc and wh
 Since the formula looks the same for all $S$, one often just writes it without mentioning $S$ as above.
 
 
-### the super Euclidean group ###
+#### The super Euclidean group 
 
 The super-translaton group is the $(1|1)$-dimensional case of the [[super Euclidean group]].
 
 
-### $GL(n|N)$ ###
+#### $GL(n|N)$ 
 
 ...
 
-### $OSp(2p|N)$ ###
+#### $OSp(2p|N)$ 
 
 ...
 
 
 [[!redirects super Lie group]]
+[[!redirects super group]]
