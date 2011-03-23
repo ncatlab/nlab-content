@@ -1,7 +1,19 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Supergeometry
++--{: .hide}
 [[!include supergeometry - contents]]
-</div>
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
 
 
 
@@ -111,3 +123,5 @@ The first statement is a direct extension of the classical fact that the contrav
 * [[Alberto S. Cattaneo]], Florian Schaetz, _Introduction to supergeometry_, [arxiv/1011.3401](http://arxiv.org/abs/1011.3401)
 
 There are many books in [[physics]] on [[supersymmetry]] (most well known is by Wess and Barger from 1992), but they emphasise more on the [[supersymmetry algebra]]s rather than on (the superspace and) _supermanifolds_. They should therefore rather be listed under entry [[supersymmetry]]. One should also note that there are two different definitions of a supermanifold which are not equivalent (some examples intersect but not all); they are sometimes  connected and even named according to the main proponents of the two approaches: Leites (via [[sheaf|sheaves]]) and de Witt (via [[supernumber]]s). 
+
+[[!redirects super manifold]]
