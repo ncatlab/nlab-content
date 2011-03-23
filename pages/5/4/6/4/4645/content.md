@@ -1112,7 +1112,7 @@ $$
 
 In order to formalize this, we introduce a ([[diffeological space|diffeological]]) [[Lie groupoid]] to be called the [[path groupoid]] of $X$. (Constructions and results in this section are from (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SWI">[SWI]</a>).
 
-+-- {: .un_prop}
++-- {: .num_defn}
 ###### Definition
 
 For $X$ a [[smooth manifold]] let $[I,X]$ be the set of [[smooth function]]s $I = [0,1] \to X$. For $U$ a [[Cartesian space]], we say that _a $U$-parameterized smooth family of points in $[I,X]$_ is a smooth map $U \times I \to X$. (This makes $[I,X]$ a [[diffeological space]]).
@@ -1652,7 +1652,7 @@ We now describe connections on 1-bundles in terms of their _flat curvature 2-bun
 Throughout this section $G$ is a [[Lie group]], $\mathbf{B}G$ its [[delooping]] 2-groupoid and $INN(G)$ its [[inner automorphism 2-group]] and $\mathbf{B}INN(G)$ the corresponding delooping [[Lie 2-groupoid]]. 
 
 
-+-- {: .un_remark}
++-- {: .num_defn #BGdiff}
 ###### Definition
 
 Define the smooth groupoid $\mathbf{B}G_{diff} \in [CartSp^{op}, Grpd]$ as the [[pullback]]
@@ -3150,7 +3150,7 @@ $$
 
 This uniquely fixes the differential on the shifted generators -- a phenomenon known (at least after mapping this to differential forms, as we discuss below) as the [[Bianchi identity]].
 
-Using this, we can express also the presheaf $\mathbf{B}G_{diff}$ from above in diagrammatic fashion.
+Using this, we can express also the presheaf $\mathbf{B}G_{diff}$ from def \ref{BGdiff} in diagrammatic fashion.
 
 +-- {: .un_lemma}
 ###### Observation
@@ -3228,14 +3228,16 @@ This is achieved by imposing the following additional constraint on the choice o
 +-- {: .un_def}
 ###### Definition
 
-For $\mu \in CE(\mathfrak{g})$ a cocycle and $cs \in W(\mathfrak{g})$ a lift of $\mu$ through $W(\mathfrak{g}) \leftarrow CE(\mathfrak{g})$, we say that $d_{W(\mathfrak{g})}$ is an [[invariant polynomial]] _in transgression_ with $\mu$ if $d_{W(\mathfrak{g})}$ sits entirely in the shifted generators, in that $d_{W(\mathfrak{g})} \in \wedge^\bullet \mathfrak{g}^*[1] \hookrightarrow W(\mathfrak{g})$.
+For $\mu \in CE(\mathfrak{g})$ a cocycle and $cs \in W(\mathfrak{g})$ a lift of $\mu$ through $W(\mathfrak{g}) \leftarrow CE(\mathfrak{g})$, we say that $\langle -\rangle \in W(\mathfrak{g})$ is an [[invariant polynomial]] _in transgression_ with $\mu$ if 
+
+* both $\langle -\rangle$ as well as $d_{W(\mathfrak{g})}\langle - \rangle$ sit entirely in the shifted generators, in that $\in \wedge^\bullet \mathfrak{g}^*[1] \hookrightarrow W(\mathfrak{g})$.
 
 =--
 
-+-- {: .un_lemma}
-###### Observation
++-- {: .num_prop}
+###### Proposition
 
-For $\mathfrak{g}$ a [[Lie algebra]], this definition of invariant polynomials is equivalent to more traditional ones.
+For $\mathfrak{g}$ a [[Lie algebra]], this definition of invariant polynomials is equivalent to the traditional one.
 
 =--
 
@@ -3265,7 +3267,7 @@ $$
 
 for all $t_\bullet \in  \mathfrak{g}$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -3273,7 +3275,7 @@ Write $inv(\mathfrak{g}) \subset W(\mathfrak{g})$ (or $W(\mathfrak{g})_{basic}$)
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_prop}
 ###### Observation
 
 We have $W(b^{n-1}\mathbb{R}) \simeq CE(b^n \mathbb{R})$.
@@ -3312,7 +3314,7 @@ In such a diagram, we call $cs$ the **[[Chern-Simons element]]** that exhibits t
 
 We shall see below that under the $\infty$-Chern-Weil homomorphism, Chern-Simons elements give rise to the familiar [[Chern-Simons form]]s -- as well as their generalizations -- as local connection data of [[secondary characteristic class]]es realized as [[circle n-bundles with connection]]. 
 
-+-- {: .un_lemma}
++-- {: .num_note}
 ###### Observation
 
 What this diagram encodes is the construction of the [[connecting homomorphism]] for the [[fiber sequence|long exact sequence in cohomology]] that is induced from the short exact sequence
@@ -3353,7 +3355,7 @@ For $G$ a [[compact space|compact]] [[Lie group]], the [[rationalization]] $\mat
 
 =--
 
-So we have obtained the following picture:
+This means that we may think of the consztructons so far in terms of the following picture:
 
 $$
   \array{
@@ -3412,7 +3414,7 @@ $$
 
 We have seen above for $\mathfrak{g}$ an $\infty$-Lie algebroid the object
 $\exp(\mathfrak{g})_{diff}$ that classifies [[pseudo-connection]]s
-on $\exp(\mathfrak{g})$-principal $\infty$-bundles and serves to support the $\infty$-Chern-Weil homomorphism. We now discuss the genuine $\infty$-connections among these pseudo-connections. From the point of view of the general abstract theory these are particularly nice representatives of more intrinsically defined structures. 
+on $\exp(\mathfrak{g})$-principal $\infty$-bundles and serves to support the $\infty$-Chern-Weil homomorphism. We now discuss the genuine [[connection on an ∞-bundle|∞-connections]] among these pseudo-connections. From the point of view of the general abstract theory these are particularly nice representatives of more intrinsically defined structures. 
 
 For $X$ a [[smooth manifold]] and $\mathfrak{g}$ an [[∞-Lie algebra]] or more generally an [[∞-Lie algebroid]], a  **$\infty$-Lie algebroid valued differential form** on $X$ is a morphism of [[dg-algebra]]s
 
@@ -3479,10 +3481,10 @@ $$
 where $inv(\mathfrak{g}) \to W(\mathfrak{g})$ is the inclusion of the [[invariant polynomial]]s. 
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
-For $U$ a [[smooth manifold]], the **$\infty$-groupoid of $\mathfrak{g}$-valued forms is the [[Kan complex]]
+For $U$ a [[smooth manifold]], the **$\infty$-groupoid of $\mathfrak{g}$-valued forms (see [[∞-groupoid of ∞-Lie-algebra valued forms]]) is the [[Kan complex]]
 
 $$
   \exp(\mathfrak{g})_{conn}(U)
@@ -3927,15 +3929,33 @@ Applying a [[coskeleton]]-truncation to this construction carves out the [[perio
 
 * [Secondary characteristic classes from Lie integration](#DifferentialCharacteristic)
 
+In full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classifies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
+
+All the construction that we consider here in this introduction serve to _present_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ in terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
+
+
+
 #### $\infty$-Chern-Simons functionals
  {#CSFunctionals}
 
-In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classifies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
+We have considered above [[connection on an ∞-bundle|∞-connections]] in terms of [[dg-algebra]] homomorphisms and [[Chern-Simons element]]s witnessing the transgression of cocycles to invariant polynomials in terms of dg-algebra homomorphisms. There is an evident way to compose these two constructions.
 
-All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ in terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
++-- {: .num_defn}
+###### Definition
 
+Let $\mathfrak{g}$ be an [[L-∞ algebra]] and $\mu : \mathfrak{g} \to b^{n-1}\mathbb{R}$ a cocycle in its [[L-∞ algebra cohomology]], which transgreses to an [[invariant polynomial]] $\langle \rangle$, withnessed by a [[Chern-Simons element]] $cs$.
 
-If we express $G$ by [[Lie integration]] of an [[L-∞ algebra]] $\mathfrak{g}$, then the basic $\infty$-Chern-Weil homomorphism is modeled by composing an $\infty$-connection $(A_{vert}, A, \langle F_A\rangle)$ with the transgression of an invariant polynomial $(\mu, cs, \langle - \rangle)$ as follows
+Then let 
+
+$$
+  \exp((\mu,cs)) : \exp(\mathfrak{g})_{conn} \to \exp(b^{n-1}\mathbb{R})_{conn} 
+$$
+
+be the morphism of [[simplicial presheaves]] obtained by forming [[pasting]] composites of the defining diagrams in [[dg-alg]] of these structures:
+
+over $U \in CartSp$ and $[k] \in \Delta$ it sends an element 
+$A \in \exp(\mathfrak{g})_{conn}(U)_k$ to the element 
+$cs(A) \in \exp(b^{n-1}\mathbb{R})_{conn}$ given explicitly as follows
 
 $$
   \left(
@@ -3973,7 +3993,7 @@ $$
      \\
      \uparrow && \uparrow
      \\
-     W(\mathfrak{g}) &\stackrel{cs_\mu}{\leftarrow}&
+     W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}&
      W(b^{n-1} \mathbb{R})
      &&&
      Chern-Simons\;element
@@ -4013,7 +4033,7 @@ $$
      &\stackrel{cs_\mu}{\leftarrow}&
      W(b^{n-1} \mathbb{R})
      &
-     : cs_\mu(A)
+     : cs(A)
      &&&
      Chern-Simons\;form
      \\
@@ -4033,18 +4053,21 @@ $$
   \,.
 $$
 
-This evidently yields a morphism of simplicial presheaves
+by restriction to the two two layers of these diagrams this analogously yields a morphism
 
 $$
-  \exp(\mu)_{conn} : \exp(\mathfrak{g})_{conn} \to \exp(b^{n-1}\mathbb{R})_{conn} 
-$$
-
-and, upon restriction to the top two horizontal layers, a morphism
-
-$$
-  \exp(\mu)_{diff} : \exp(\mathfrak{g})_{diff} \to \exp(b^{n-1}\mathbb{R})_{diff} 
+  \exp(\mu, cs): \exp(\mathfrak{g})_{diff} \to \exp(b^{n-1}\mathbb{R})_{diff} 
   \,.
 $$
+
+
+=--
+
+
+
+
+
+
 
 Projection onto the third horizontal component gives the map to the curvature classes
 
