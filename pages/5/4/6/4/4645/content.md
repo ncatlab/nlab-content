@@ -18,7 +18,7 @@
 
 ## Idea
 
-Ordinary [[Chern-Weil theory]] studies [[connection on a bundle|connections]] on $G$-[[principal bundle]]s over a [[Lie group]] $G$. In the context of the [[cohesive (∞,1)-topos]] [[?LieGrpd]] of [[∞-Lie groupoid]]s these generalize to [[connection on an ∞-bundle|∞-connections]] on [[principal ∞-bundle]]s over [[∞-Lie group]]s $G$. Accordingly **[[∞-Chern-Weil theory]]** deals with these higher connections and their relation to [[ordinary differential cohomology]].
+Ordinary [[Chern-Weil theory]] studies [[connection on a bundle|connections]] on $G$-[[principal bundle]]s over a [[Lie group]] $G$. In the context of the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] of [[∞-Lie groupoid]]s these generalize to [[connection on an ∞-bundle|∞-connections]] on [[principal ∞-bundle]]s over [[∞-Lie group]]s $G$. Accordingly **[[∞-Chern-Weil theory]]** deals with these higher connections and their relation to [[ordinary differential cohomology]].
 
 Here we describe some introdutcory basics of the general theory in concrete terms.
 
@@ -64,7 +64,7 @@ formalization of [[∞-groupoid]] in terms of [[Kan complex]]es.
 
 ### Ordinary smooth principal bundles {#PrincipalBundles}
 
-Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[nLab:paracompact space|paracompact]]). 
+Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[paracompact space|paracompact]]). 
 
 We give a discussion of smooth $G$-[[principal bundle]]s on $X$ in a manner that paves the way to a straightforward generalization to a description of [[principal ∞-bundle]]s.
 
@@ -99,7 +99,7 @@ $$
   \mathbf{B}G \in LieGrpd
 $$
 
-for $\mathcal{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbols, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[?LieGrpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
+for $\mathcal{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbols, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[Smooth∞Grpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
 
 [^TwoForgetful]: There are actually two such forgetful functors, $\Gamma$ and $\Pi$. The first sends $\mathbf{B}G$ to $\mathcal{B}G$, which in [[topology]] is known as $K(G,1)$. The other sends $\mathbf{B}G$ to the [[classifying space]] $B G$. (see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">∞-Lie groupoid -- geometric realization</a>). This distinction is effectively the origin of differential cohomology.
 
@@ -354,7 +354,7 @@ $$
   G Bund(X)
 $$
 
-between the [[nLab:functor category]] of smooth functors and smooth natural transformations, and the groupoid of smooth $G$-[[nLab:principal bundle]]s on $X$. 
+between the [[functor category]] of smooth functors and smooth natural transformations, and the groupoid of smooth $G$-[[principal bundle]]s on $X$. 
 
 =--
 
@@ -1075,7 +1075,7 @@ With that in hand we then revisit the discussion of connections on ordinary bund
 
 This turns out to be the kind of formulation of [[connections on an ∞-bundle]] that drops out of the general abstract theory described at [[∞-Chern-Weil homomorphism]]. In classical terms, its full formulation involves the description of [[circle n-bundles with connection]] in terms of [[Deligne cohomology]] and the description of the [[∞-groupoid of ∞-Lie algebra valued forms]] in terms of [[dg-algebra]] homomorphisms. The first aspect we discuss in 
 
-* [Circle n-bundles with connection](#c)
+* [Circle n-bundles with connection](#CirclenBundles)
 
 the second in
 
@@ -1843,7 +1843,7 @@ $$
   \,.
 $$
 
-This happens to be an [[exact sequence]] of [[2-groupoid]]s. Abstractly, what really matters is rather that it is a [[fiber sequence]], meaning that it is exact in the correct sense inside the [[(∞,1)-category]] [[?LieGrpd]]. For our purposes it is however relevant that this particular model is also exact in the ordinary sense in that we have a commuting diagram
+This happens to be an [[exact sequence]] of [[2-groupoid]]s. Abstractly, what really matters is rather that it is a [[fiber sequence]], meaning that it is exact in the correct sense inside the [[(∞,1)-category]] [[Smooth∞Grpd]]. For our purposes it is however relevant that this particular model is also exact in the ordinary sense in that we have a commuting diagram
 
 $$
   \array{
@@ -2079,22 +2079,117 @@ is equivalent to disjoint union of groupoids of $U(1)$-bundles with connection w
 
 
 
-### Circle $n$-bundles with connection {#CirclenBundles}
+### Circle $n$-bundles with connection and Deligne cohomology
+ {#CirclenBundles}
 
 
-For $A$ an [[abelian group]] there is a straightforward generalization of the above constructions to $(G = \mathbf{B}^{n-1}A)$-principal $n$-bundles with connection for all $n \in \mathbb{N}$. We spell out the ingredients of the construction in a way analogous to the above discussion. A first-principles derivation of the objects we consider here is at [[circle n-bundle with connection]].
+For $A$ an [[abelian group]] there is a straightforward generalization of the above constructions to $(G = \mathbf{B}^{n-1}A)$-[[principal ∞-bundle|principal n-bundle]]s [[connection on an ∞-bundle|with connection]] for all $n \in \mathbb{N}$. We spell out the ingredients of the construction in a way analogous to the above discussion. A first-principles derivation of the objects we consider here is at [[circle n-bundle with connection]].
 This is  content that appeared partly in (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>, <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#FSSIII">FSS</a>).
+We restrict attention to the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle n-group</a> $G = \mathbf{B}^{n-1}U(1)$. 
 
-Specifically we consider the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle n-group</a> $G = \mathbf{B}^{n-1}U(1)$. As before we use of the [[Dold-Kan correspondence]] to identify sheaves of complexes with certain simplicial presheaves.
+There is a familiar traditional presentation for [[ordinary differential cohomology]] in terms of [[Cech cohomology|Cech]]-[[Deligne cohomology]]. We briefly recall how this works and then indicate how this presentation can be derived along the above lines as a presentation of [[circle n-bundles with connection]].
 
-Using this, we can write $\mathbf{B}^n U(1) \in [CartSp^{op}, sSet]$ for all $n \in \mathbb{N}$ simply as
++-- {: .num_defn}
+###### Definition
+
+For $n \in \mathbb{N}$ the **Deligne complex** is the [[chain complex]] of [[sheaves]] (on [[SmoothMfd]] in general or on [[CartSp]] for our purposes here) of [[abelian group]]s given as follows
 
 $$
-  \mathbf{B}^n U(1) := \Xi U(1)[n]
+ \mathbb{Z}(n+1)^\infty_D = 
+  \left[
+    \array{
+      C^\infty(-,\mathbb{R}/\mathbb{Z})
+       &\stackrel{d_{dR}}{\to}&
+      \Omega^1(-)
+       &\stackrel{d_{dR}}{\to}&
+      \cdots
+        &\stackrel{d_{dR}}{\to}&
+      \Omega^{n-1}(-)
+        &\stackrel{d_{dR}}{\to}&
+      \Omega^n(-)      
+      \\
+       n && n-1 && \cdots && 1 && 0
+    }
+  \right]
+  \,.
+$$
+
+=--
+
+This is similar to the $n$-fold shifted [[de Rham complex]] with two important differences
+
+1. In degree $n$ we have the sheaf of $U(1)$-valued functions, not of $\mathbb{R}$-valued functions (= 0-forms). The action of the de Rham differential on this is sometimes written $d log : C^\infty(-, U(1)) \to \Omega^1(-)$. But if we think of $U(1) \simeq \mathbb{R}/\mathbb{Z}$ then it is just the ordinary de Rham differential applied to any representative in $C^\infty(-, \mathbb{R})$ of an element in $C^\infty(-, \mathbb{R}/\mathbb{Z})$.
+
+1. In degree 0 we do not have closed differential $n$-forms (as one would have for the the de Rham complex shifted into non-negative degree), but all $n$-forms.
+
+
+As before we may use of the [[Dold-Kan correspondence]] $\Xi : Ch_\bullet^{+} \stackrel{\simeq}{\to} sAb \stackrel{U}{\to} sSet$ to identify sheaves of [[chain complex]]es with [[simplicial presheaves|simplicial sheaves]].
+
+For $\{U_i \to X\}$ a [[good open cover]], the [[Deligne cohomology]] of $X$ in degree $(n+1)$ is 
+
+$$
+  H_{diff}^{n+1}(X)
+  =
+  \pi_0 [CartSp^{op}, sSet](
+     C(\{U_i\}), \Xi \mathbb{Z}(n+1)^\infty_D
+  )
+  \,.
+$$
+
+Further using the [[Dold-Kan correspondence]] this is equivalently the cohomology of the Cech-Deligne [[double complex]]. A Deligne cocycle in degre $(n+1)$ then is a tuple
+
+$$
+  (g_{i_0, \cdots, i_n}, \cdots, A_{i j k}, B_{i j}, C_{i})
+$$
+
+with 
+
+* $C_i \in \Omega^n(U_i)$;
+
+* $B_{i j} \in \Omega^{n-1}(U_i \cap U_j)$;
+
+* $A_{i j k } \in \Omega^{n-2}(U_i \cap U_j \cap U_k)$
+
+* and so on
+
+* $g_{i_0, \cdots, i_n} \in C^\infty(U_{i_0} \cap \cdots \cap U_{i_n} , U(1))$
+
+satisfying the cocycle condition
+
+$$
+  (d_{dR} + (-1)^{deg}\delta)
+  (g_{i_0, \cdots, i_n}, \cdots, A_{i j k}, B_{i j}, C_{i})
+  = 0
+$$
+
+where $\delta = \sum_{i} (-1)^i p_i^*$ is the alternating sum of the pullback of forms along the face maps of the [[Cech nerve]].
+
+This is a sequence of conditions of the form
+
+* $C_i - C_j = d B_{i j}$;
+
+* $B_{i j} - B_{i k} + B_{j k} = d A_{i j k}$;
+
+* and so on
+
+* $(\delta g)_{i_0, \cdots, i_{n+1}} = 0$.
+
+For low $n$ we have seen these conditions in the dicussion of [[line bundle]]s and of [[bundle gerbe]]s with connection above. Generally, for any $n \in \mathbb{N}$, this is Cech-cocycle data for a [[circle n-bundle with connection]] where;
+
+* $C_i$ are the local connection $n$-forms;
+
+* $g_{i_0, \cdots, i_n}$ is the transition function of the circle $n$-bundle.
+
+We now discuss how this identification comes about as a presentation for [[circle n-bundles with connection]] along the above lines.
+
+Write
+
+$$
+  \mathbf{B}^n U(1)_{ch} := \Xi U(1)[n]
   \,,
 $$
 
-where in the argument of $\Xi$ we have the chain complex
+for the simplicial presheaf given under the [[Dold-Kan correspondence]] by the chain complex
 
 $$
   U(1)[n] = 
@@ -2106,14 +2201,14 @@ $$
 with the sheaf represented by $U(1)$ in degree $n$.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\{U_i \to X\}$ an [[open cover]] of a smooth manifold $X$ and $C(U)$ its [[Cech nerve]], [[∞-anafunctor]]s
 
 $$
   \array{
-    C(U) &\stackrel{g}{\to}& \mathbf{B}^n U(1)
+    C(U) &\stackrel{g}{\to}& \mathbf{B}^n U(1)_{ch}
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
@@ -2121,7 +2216,7 @@ $$
   }
 $$
 
-are in natural bijection to tuples of [[nLab:smooth function]]s
+are in natural bijection with tuples of [[smooth function]]s
 
 $$
   g_{i_0 \cdots i_n} : U_{i_0} \cap \cdots \cap U_{i_n} \to \mathbb{R}/\mathbb{Z}
@@ -2143,7 +2238,7 @@ Transformations
 
 $$
   \array{
-    C(U)\cdot \Delta^1 &\stackrel{(g \stackrel{\lambda}{\to} g')}{\to}& \mathbf{B}^n U(1)
+    C(U)\cdot \Delta^1 &\stackrel{(g \stackrel{\lambda}{\to} g')}{\to}& \mathbf{B}^n U(1)_{ch}
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
@@ -2151,7 +2246,7 @@ $$
   }
 $$
 
-are in natural bijection to tuples of [[nLab:smooth function]]s
+are in natural bijection with tuples of [[smooth function]]s
 
 $$
   \lambda_{i_0 \cdots i_{n-1}} : U_{i_0} \cap \cdots \cap U_{i_{n-1}} \to \mathbb{R}/\mathbb{Z}
@@ -2178,13 +2273,13 @@ The $\infty$-bundle $P \to X$ classified by such a cocycle we may call a
 
 To equip these circle $n$-bundles with connections, we consider the differential refinements $\mathbf{B}^n U(1)_{diff}$, $\mathbf{B}^n U(1)_{conn}$ and $\mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Write
 
 $$
-  \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)_{chn} := 
+  \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)_{ch} := 
   \Xi\left(
     \Omega^1(-) \stackrel{d_{dR}}{\to}
     \Omega^2(-) \stackrel{d_{dR}}{\to}
@@ -2193,10 +2288,10 @@ $$
   \right)
 $$
 
--- the truncated [[de Rham complex]] -- and
+-- the image under $\Xi$ of the truncated [[de Rham complex]] -- and
 
 $$
-  \mathbf{B}^n U(1)_{diff} = 
+  \mathbf{B}^n U(1)_{diff,ch} = 
   \left\{
    \array{
       (-) &\to& \mathbf{B}^n U(1)
@@ -2236,7 +2331,7 @@ $$
 and
 
 $$
-  \mathbf{B}^n U(1)_{conn}
+  \mathbf{B}^n U(1)_{conn,ch}
   = 
   \Xi\left(
     C^\infty(-, \mathbb{R}/\mathbb{Z})
@@ -2248,37 +2343,46 @@ $$
   \right)
 $$
 
--- the [[nLab:Deligne cohomology|Deligne complex]].
+-- the [[Deligne cohomology|Deligne complex]].
+
+There is a canonical morphism
+
+$$
+  curv : \mathbf{B}^n U(1)_{diff,ch} \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)_{ch}
+  \,.
+$$
+
+
 
 =--
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
-We have a pullback diagram
+We have a [[pullback]] diagram
 
 $$
   \array{
-    \mathbf{B}^n U(1)_{conn}
+    \mathbf{B}^n U(1)_{conn,ch}
     &\to&
     \Omega^{n+1}_{cl}(-)
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{B}^n U(1)_{diff}
+    \mathbf{B}^n U(1)_{diff,ch}
     &\stackrel{curv}{\to}&
-    \mathbf{\flat}_{dR}\mathbf{B}^{n-1}U(1)
+    \mathbf{\flat}_{dR}\mathbf{B}^{n-1}U(1)_{ch}
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
-    \mathbf{B}^n U(1)
+    \mathbf{B}^n U(1)_{ch}
   }
 $$
 
 in $[Cart^{op}, sSet]$.
 
-This models a homotopy pullback
+This models a [[homotopy pullback]]
 
 $$
   \array{
@@ -2294,7 +2398,7 @@ $$
   }
 $$
 
-in the [[nLab:(∞,1)-topos]] $\mathbf{H} = $[[nLab:?LieGrpd]] and this implies (in particular) for all smooth manifolds $X$ a homtotopy pullback
+in the [[(∞,1)-topos]] $\mathbf{H} = $[[Smooth∞Grpd]] and this implies (in particular) for all smooth manifolds $X$ a homtotopy pullback
 
 $$
   \array{
@@ -2314,7 +2418,7 @@ $$
 
 =--
 
-Here cocycles in $\mathbf{H}(X, \mathbf{B}^n U(1)_{conn})$ are modeled by [[nLab:∞-anafunctor]]s $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}^n U(1)_{conn}$, which are in natural bijection with tuples
+Here cocycles in $\mathbf{H}(X, \mathbf{B}^n U(1)_{conn})$ are modeled by [[∞-anafunctor]]s $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}^n U(1)_{conn}$, which are in natural bijection with tuples
 
 $$
   \left(
@@ -2667,7 +2771,7 @@ The construction proceeds in the following broad steps
 
    presented by a morphism of [[simplicial presheaves]] on [[CartSp]].
 
-1. By finding an [[Chern-Simons element]] $cs$ that witnesses the [[transgression]] of $\mu$ to an [[invariant polynomial]] on $\mathfrak{g}$ this construction has a differential refinement to a morphism
+1. By finding a [[Chern-Simons element]] $cs$ that witnesses the [[transgression]] of $\mu$ to an [[invariant polynomial]] on $\mathfrak{g}$ this construction has a differential refinement to a morphism
 
    $$
      \exp((\mu,cs)) : \exp(\mathfrak{g})_{conn} \to \mathbf{B}^n \mathbb{R}_{conn}     
@@ -3245,7 +3349,7 @@ To appreciate the construction so far, recall the
 +-- {: .un_prop}
 ###### Classical fact
 
-For $G$ a [[compact space|compact]] [[Lie group]], the [[rationalization]] $\mathcal{B}G \otimes k$ of the [[classifying space]] $\mathcal{B}G$ is the [[nLab:rational space]] whose [[Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[invariant polynomial]]s on the [[nLab:Lie algebra]] $\mathfrak{g}$.
+For $G$ a [[compact space|compact]] [[Lie group]], the [[rationalization]] $\mathcal{B}G \otimes k$ of the [[classifying space]] $\mathcal{B}G$ is the [[rational space]] whose [[Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[invariant polynomial]]s on the [[Lie algebra]] $\mathfrak{g}$.
 
 =--
 
@@ -3617,7 +3721,7 @@ Notice that in full [[∞-Chern-Weil theory]] the fundamental object of interest
 
 the object $\exp(\mathfrak{g})_{CW}$ may contain pseudo-connections, those for which at least the associated [[circle n-bundles with connection]] given by the $\infty$-Chern Weil homomorphism are genuine connections.
 
-This distinction is important: over objects $X \in $ [[?LieGrpd]] that are not [[smooth manifold]]s but for instance [[orbifold]]s, the genuine connections for higher Lie algebras do _not_ exhaust all nonabelian differential cocycles. This just means that not every differential class in this case does have a nice representative in the usual sense.
+This distinction is important: over objects $X \in $ [[Smooth∞Grpd]] that are not [[smooth manifold]]s but for instance [[orbifold]]s, the genuine connections for higher Lie algebras do _not_ exhaust all nonabelian differential cocycles. This just means that not every differential class in this case does have a nice representative in the usual sense.
 
 =--
 
