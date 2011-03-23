@@ -1059,7 +1059,7 @@ In the language of [[∞-stack]]s we may think of $\mathbf{B}G$ as the $\infty$-
 
 1. Why are these formulas what they are? What is the general abstract concept of an $\infty$-connection? What are its defining abstract properties?
 
-A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in an (∞,1)-topos]]. Here in this introduction we will not go into the full abstract theory, but using classical tools we get pretty close. What we describe is a generalization of the concept of [[parallel transport]] to [[higher parallel transport]]. As we shall see, this is naturally expressed in terms of [[∞-anafunctor]]s out of [[path n-groupoid]]s. This reflects how the full abstract theory arises in the context of an [[∞-connected (∞,1)-topos]] that comes canonically with a notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]].
+A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in a cohesive topos]]. Here in this introduction we will not go into the full abstract theory, but using classical tools we get pretty close. What we describe is a generalization of the concept of [[parallel transport]] to [[higher parallel transport]]. As we shall see, this is naturally expressed in terms of [[∞-anafunctor]]s out of [[path n-groupoid]]s. This reflects how the full abstract theory arises in the context of an [[∞-connected (∞,1)-topos]] that comes canonically with a notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]].
 
 Below we begin the discussion of $\infty$-connections by reviewing the classical theory of [[connection on a bundle]] in a way that will make its generalization to higher connections relatively straightforward:
 
@@ -3448,7 +3448,7 @@ We have seen $G$-principal $\infty$-bundles for general $\infty$-groups $G$ and 
 ### Motivating examples
  {#ExamplesForChernWeil}
 
-A simple motivating example for the [[Chern-Weil homomorphism]]
+A simple motivating example for [[characteristic class]]es and the [[Chern-Weil homomorphism]]
 is the construction of [[determinant line bundle]]s.
 
 +-- {: .un_example}
@@ -3475,9 +3475,9 @@ $$
 $$
 
 of [[topological space]]s. This is a [[characteristic class]] on the 
-[[classifying space]] $B U(N)$: the first [[Chern class]].
+[[classifying space]] $B U(N)$: the first [[Chern class]] (see [[determinant line bundle]] for more on this).
 
-By postcomposion of this class with the classifying maps for principal bundles, it acts on principal bundles: postcomposition of a [[Cech cohomology|Cech]] cocycle 
+By postcomposion with $\mathbf{B}det$ of the classifying morphisms for principal bundles, it acts on principal bundles: postcomposition of a [[Cech cohomology|Cech]] cocycle 
 
 $$
   \array{
@@ -3490,26 +3490,36 @@ $$
 $$
 
 for a $U(N)$-[[principal bundle]] on a [[smooth manifold]] $X$
-with this characteristic class yields the cocycle for a circle bundle (or its [[associated bundle|associated]] [[line bundle]])
+with this characteristic class yields the cocycle 
 
 $$
   \array{
-    (det (g_{i j})) : & C(\{U_i\}) 
-        &\stackrel{(g_{i j})}{\to}& 
-    \mathbf{B} U(N) 
-      &\stackrel{\mathbf{B}det}{\to}& 
-    \mathbf{B}U(1)
+    det P : & C(\{U_i\}) &\stackrel{(g_{i j})}{\to}& \mathbf{B} U(N)
+    &\stackrel{\mathbf{B}det}{\to}& \mathbf{B}U(1)
     \\
     & \downarrow^{\mathrlap{\simeq}}
     \\
     & X
   }
-  \,,
 $$
 
-the [[determinant line bundle]]. The class of this line bundle is a characteristic of the original unitary bundle: its first [[Chern class]].
+for a circle bundle (or its [[associated bundle|associated]] [[line bundle]])
+with transition functions $(det (g_{i j}))$:
+the [[determinant line bundle]] of $P$. The unique class 
 
-This construction extends to the case where the bundles carry 
+$$
+  [det P] \in 
+  H^2(X, \mathbb{Z})
+$$ 
+
+of this line bundle is a characteristic of the original unitary bundle: its first [[Chern class]] $c_1(P)$
+
+$$
+  [det P] = c_1(P)
+  \,.
+$$
+
+This construction directly extends to the case where the bundles carry 
 [[connection on a bundle|connections]].
 
 We may canonically identify the [[Lie algebra]] 
@@ -3522,52 +3532,56 @@ $$
   \,.
 $$
 
-Using these two operations we may send the cocycle for our
-$U(N)$-bundle to a cocycle for a $U(1)$-bundle
+This is the differential version of the determinant in that when regarding the [[Lie algebra]] as the [[infinitesimal space|infinitesimal neighbourhood]] of the neutral element in $U(N)$ (see [[∞-Lie algebroid]] for more on this) the determinant becomes the trace under the exponential map
+
+$$
+  det (1 + \epsilon A) = 1 + \epsilon tr(A)
+$$
+
+for $\epsilon^2 = 0$.
+
+It follows that for $tra_\nabla : \mathbf{P}_1(U_i) \to \mathbf{B}U(N)$ the [[parallel transport]] of a [[connection on a bundle|connection]] on $P$ locally given by a 1-forms $A \in \Omega^1(U_i, \mathfrak{u}(N))$ by
+
+$$
+  tra_\nabla(\gamma) = \mathcal{P} \exp \int_{[0,1]} \gamma^* A
+$$
+
+the determinant parallel transport
+
+$$
+  det tra_\nabla : \mathbf{P}_1(U_i) \stackrel{tra_\nabla}{\to}
+   \mathbf{B} U(N) \stackrel{det}{\to} \mathbf{B}U(1)
+$$
+is locally given by the formula
+
+$$
+  det tra_\nabla(\gamma) = \mathcal{P} \exp \int_{[0,1]} \gamma^* tr A
+$$
+
+which means that the local connection forms on the determinant line bundle are obtained from those of the unitary bundle by tracing.
 
 $$
   (det,tr) : \{(g_{i j}), (A_i)\} \mapsto
    \{(det  g_{i j}), (tr A_i)\}
+  \,.
 $$
-
-whose cocycle conditions are
-
-$$
-  det (g_{i j}) det (g_{j k}) = det g_{i k}
-$$
-
-and
-
-$$
-  det(1 + \epsilon A_j) 
-    = 
-  det(g_{ij}^{-1}(1 + \epsilon A_i) det g_{ij}) 
-    + 
-  det( g_{i j}^{-1} (1 + \epsilon d) g_{i j}))
-$$
-
-for [[infinitesimal space|infinitesimal]] $\epsilon$, hence
-
-$$
-  A_j = A_i + (det g_{ij})^{-1} d (det g_{i j}) 
-$$
-
-are satisfied.
 
 This construction extends to a functor
 
 $$
-  (\hat det) :  U(N) Bund_{conn}(X) \to U(1) Bund_{conn}(X)
+  (\hat \mathbf{c}_1) := (det, tr) :  U(N) Bund_{conn}(X) \to U(1) Bund_{conn}(X)
 $$
 
 natural in $X$, that sends $U(n)$-principal bundles with connection to 
 [[circle n-bundle with connection|circle bundles with connection]], hence to cocycles in degree-2 [[ordinary differential cohomology]].
 
+This assignment remembers of a unitary bundle one inegral class and its differential refinement:
+
 * the integral class of the determinant bundle is the 
   first [[Chern class]] the $U(N)$-bundle
 
   $$
-    [det P] = c_1(P)
+    [\hat \mathbf{c}_1(P)] = c_1(P)
     \,;
   $$
 
@@ -3575,19 +3589,28 @@ natural in $X$, that sends $U(n)$-principal bundles with connection to
   in de Rham cohomology of this class
 
   $$
-    [F_\nabla] = [det P]_{dR}
+    [F_{\nabla_{\hat \mathbf{c}_1(P)}}] = c_1(P)_{dR}
     \,.
   $$
+
+Equivalently this assignment is given by postcomposition of cocycles with a morphism of [[smooth ∞-groupoid]]s
+
+$$
+  \hat \mathbf{c}_1 : \mathbf{B}U(N)_{conn} \to \mathbf{B}U(1)_{conn}
+  \,.
+$$
+
+We say that $\hat \mathbf{c}_1$ is a **differential characteristic class**, the differential refinement of the first [[Chern class]]. 
+
 
 =--
 
 
-
-In <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a> an algorithm is given for contructing
+In (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>) an algorithm is given for contructing
 differential characteristic classes on Cech cocycles in this fashion for 
 more general [[Lie algebra cohomology|Lie algebra cocycles]].
 
-For instance they give the following construction
+For instance these authors give the following construction for the diffrential refinement of the first [[Pontryagin class]].
 
 +-- {: .un_example}
 ###### Example
@@ -3597,57 +3620,104 @@ and consider the canonical [[Lie algebra cohomology]] 3-cocycle
 
 $$
   \mu = \langle -,[-,-]\rangle : \mathfrak{so}(n) \to \mathbf{b}^2 \mathbb{R}
-  \,.
 $$
 
-Then for $(g_{i j}, A_i)$ a Cech cocycle for an $Spin(N)$-[[principal bundle]] [[connection on a bundle|with connection]], construct a Cech cocycle for [[Deligne cohomology]] in degree 4 as follows:
+on [[semisimple Lie algebra]]s, where $\langle -,- \rangle$ is the [[Killing form]] [[invariant polynomial]].,
 
-1. pick a lift of the original cocycle to an assignment 
+Let $(P \to X, \nabla)$ be a $Spin(N)$-[[principal bundle]] [[connection on a bundle|with connection]]. Let $A \in \Omega^1(P, \mathfrak{so}(N))$ be the [[Ehresmann connection]] 1-form on the total space of the bundle.
 
-   * of based paths in $SO(N)$ to double intersections 
-     $\hat g_{i j} : U_{i j}\times \Delta^1 \to Spin(N)$, with
+Then construct a [[Cech cohomology|Cech cocycle]] for [[Deligne cohomology]] in degree 4 as follows:
+
+1. pick an [[open cover]] $\{U_i \to X\}$ such that there is a choice of 
+   local [[section]]s $\sigma_i : U_i \to P$. Write 
+
+   $$
+     (g_{i j}, A_i) := (\sigma_i^{-1} \sigma_j, \sigma_i^* A)
+   $$
+
+   for the induced [[Cech cohomology|Cech]] cocycle.
+
+1. Choose a lift of this cocycle to an assignment 
+
+   * of based paths in $Spin(N)$ to double intersections 
+     
+     $$
+       \hat g_{i j} : U_{i j}\times \Delta^1 \to Spin(N)
+       \,,
+     $$
+
+     with
      $\hat g_{i j}(0) = e$ and $\hat g_{i j}(1) = g_{i j}$;
 
    * of based 2-simplices between these paths to triple intersections
-     $\hat g_{i j k} : U_{i j k}\times \Delta^2 \to Spin(N)$;  lifting these paths in the obvious way;
+     
+     $$
+       \hat g_{i j k} : U_{i j k}\times \Delta^2 \to Spin(N)
+       \,;
+     $$  
+
+     restricting to these paths in the obvious way;
 
    * similarly of based 3-simplices between these paths to quadruple intersections
-     $\hat g_{i j k l} : U_{i j k l}\times \Delta^3 \to Spin(N)$;  
+     
+     $$
+       \hat g_{i j k l} : U_{i j k l}\times \Delta^3 \to Spin(N)
+       \,.
+     $$
 
-  Such lifts always exists, because the Spin group is [[connected]], [[simply connected]] and also has $\pi_2(Spin(N)) = 0$.
+  Such lifts always exists, because the Spin group is [[connected]] (because already $SO(N)$ is), [[simply connected]] (because $Spin(N)$ is the [[universal cover]] of $SO(N)$) and also has $\pi_2(Spin(N)) = 0$ (because this is the case for every compact Lie group).
 
-1. Define from this a Deligne-cochain by setting
+1. Define from this a [[Deligne cohomology|Deligne-cochain]] by setting
 
    $$
      (g_{i j k l}, A_{i j k}, B_{i j}, C_{i})
      :=
-     (\;
-       \int_{\Delta^3} (\sigma_i \cdot\hat g_{i j k l})^* \mu(\nabla),\;\; 
-       \int_{\Delta^2} (\sigma_i\cdot \hat g_{i j k})^* cs(\nabla),\;\;
-       \int_{\Delta^1} (\sigma_i \cdot \hat g_{i j})^* cs(\nabla),\;\;
-       \sigma_i^* \mu(\nabla)
-     \;)
+     \left(
+      \array{
+       \int_{\Delta^3} (\sigma_i \cdot\hat g_{i j k l})^* \mu(A) mod \mathbb{Z},
+        \\ 
+       \int_{\Delta^2} (\sigma_i\cdot \hat g_{i j k})^* cs(A),
+        \\
+       \int_{\Delta^1} (\sigma_i \cdot \hat g_{i j})^* cs(A),
+        \\
+       \sigma_i^* \mu(A)
+      }
+     \right)
      \,,
    $$
 
-   where 
+   where $cs(A) = \langle A \wedge F_A\rangle + c \langle A \wedge [A \wedge A]\rangle + $ is the [[Chern-Simons form]] of the connection form $A$ with respect to the cocyle $\mu(A) = \langle A \wedge [A \wedge A]\rangle$.
 
-   1. $cs(\nabla)$ is the [[Chern-Simons form]] of the connection $\nabla$ with respect to $\mu$;
-
-   1. $\sigma_i$ are the trivializaing sections of the total space bundle that exhibit the trivialization with respect to which the Cech cocycle is given.
 
 They then prove:
 
-1. This is a Deligne cocycle;
+1. This is indeed a [[Deligne cohomology]] cocycle;
 
-1. It represents the differential refinement of the first Pontryagin class.
+1. It represents the differential refinement of the first 
+   fractional [[Pontryagin class]] of $P$.
 
 =--
 
-In the following we want to use the construction of the $\infty$-Chern-Weil homomorphism in order to understand why this construction is what it is and does what it does.
+In the form in which we have (re)stated this result here the second statement amounts, in view of the first statement, to the observation that the [[curvature]] 4-form of the Deligne cocycle is proportional to
 
+$$
+  \langle F_A \wedge F_A \rangle \in \Omega^4_{cl}(X)
+$$
 
-(...)
+which represents the first Pontryagin class in [[de Rham cohomology]]. 
+Therefore the key observation is that we have a Deligne cocycle at all. 
+This can be checked directly, if somewhat tediously, by hand. But then the question remains: where does this successful _Ansatz_ come from? And is it _natural_ ? For instance: does this construction extend to a morphism of [[smooth ∞-groupoid]]s
+
+$$
+  \frac{1}{2}\hat \mathbf{p}_1 : \mathbf{B} Spin(N)_{conn}
+   \to \mathbf{B}^3 U(1)_{conn}
+$$
+
+from Spin-[[principal bundle]]s with connection to [[circle n-bundle with connection|circle 3-bundles with connection]]?
+
+In the following we give a natural presentation of the 
+[[∞-Chern-Weil homomorphism]] by means of [[Lie integration]] of $L_\infty$-algebraic data to [[simplicial presheaves]]. Among other things, this construction yields an understanding of why this construction is what it is and does what it does.
+
 
 
 ### $\infty$-Chern-Simons functionals
