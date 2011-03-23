@@ -51,7 +51,7 @@ for low $n$ in a fashion that connects to the ordinary notion of [[parallel tran
 
 This leads to differential-form expressions that we shall then finally reformulate in terms of 
 
-* [∞-Lie algebra valued connections](#LieConnections).
+* [L-∞ algebra valued connections](#LieConnections).
 
 We end by indicating how under [[Lie integration]] this lifts to the full [[∞-Chern-Weil theory]].
 
@@ -1079,7 +1079,7 @@ This turns out to be the kind of formulation of [[connections on an ∞-bundle]]
 
 the second in
 
-* [∞-Lie algebra valued connections](#LieConnections).
+* [L-∞ algebra valued connections](#LieConnections).
 
 The combination of these two aspects yields naturally an explicit model for the [[Chern-Weil homomorphism]] and its generalization to higher bundles:
 
@@ -2365,39 +2365,299 @@ The definition of $\infty$-connections on $G$-principal $\infty$-bundles for non
 $X \stackrel{\simeq}{\leftarrow} C(U) \to \mathbf{B}G$ by abelian cocycles by postcomposing with all possible [[characteristic class]]es $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \hat \mathbf{B}G\to \mathbf{B}^n U(1)$ to extract a circle $n$-bundle from it. This is what we turn to now.
 
 
-## $\infty$-Lie algebra valued connections {#LieConnections}
 
-[Above](#LowDimension) we described ordinary [[connections on bundles]] as well as [[connections on 2-bundles]] in terms of [[parallel transport]] over paths and surfaces, and showed how such is equivalently given by cocycles with coefficients in [[Lie-algebra valued differential forms]] and [[Lie 2-algebra valued differential forms]], respectively. 
 
-Notably we saw ([here](#CurvatureCharacteristicsI)) for the case of ordinary $U(1)$-[[principal bundle]]s, that the connection and curvature data on these is encoded in presheaves of diagrams that over a given test space $U \in $ [[CartSp]] look like
+## The $\infty$-Chern-Weil homomorphism
+ {#InfityCWHomomorphism}
 
-$$  
+We now come to the discussion the [[Chern-Weil homomorphism]] and its generalization to the [[∞-Chern-Weil homomorphism]].
+
+We have seen [above](#http://ncatlab.org/nlab/show/infinity-Chern-Weil+theory+introduction#PrincipalNBundles) $G$-principal $\infty$-bundles for general smooth $\infty$-groups $G$ and in particular for abelian groups $G$. Naturally, the abelian case is easier and more powerful statements are known about this case. A general strategy for studying nonabelian $\infty$-bundles therefore is to _approximate_ them by abelian bundles. This is achieved by considering [[characteristic class]]es. Roughly, a characteristic class is a map that functorially sends $G$-principal $\infty$-bundles to $\mathbf{B}^n K$-principal $\infty$-bundles, for some $n$ and some abelian group $K$. In some cases such an assignment may be obtained by integration of infinitesimal data. If so, then the assignment refines to one of $\infty$-bundles [[connection on an ∞-bundle|with connection]]. For $G$ an ordinary [[Lie group]] this is then what is called the [[Chern-Weil homomorphism]]. For general $G$ we call it  the [[∞-Chern-Weil homomorphism]].
+
+
+
+### Motivating examples
+ {#ExamplesForChernWeil}
+
+A simple motivating example for [[characteristic class]]es and the [[Chern-Weil homomorphism]]
+is the construction of [[determinant line bundle]]s.
+
++-- {: .un_example}
+###### Example
+
+Let $N \in \mathbb{N}$. Consider the [[unitary group]] $U(N)$.
+By its definition as a [[matrix Lie group]], this comes canonically equipped with the [[determinant]] function
+
+$$
+  det : U(N) \to U(1)
+$$
+
+and by the standard properties of the determinant, this is in fact a group homomorphism. Therefore this has a [[delooping]] to a morphism of [[Lie groupoid]]s
+
+$$
+  \mathbf{B}det : \mathbf{B}U(N) \to \mathbf{B}U(1)
+  \,.
+$$
+
+Under [[geometric realization of simplicial topological spaces|geometric realization]] this maps to a morphism
+
+$$
+  |\mathbf{B} det| : B U(N) \to B U(1) \simeq K(\mathbb{Z},2)
+$$
+
+of [[topological space]]s. This is a [[characteristic class]] on the 
+[[classifying space]] $B U(N)$: the first [[Chern class]] (see [[determinant line bundle]] for more on this).
+
+By postcomposion with $\mathbf{B}det$ of the classifying morphisms for principal bundles, it acts on principal bundles: postcomposition of a [[Cech cohomology|Cech]] cocycle 
+
+$$
   \array{
-    U &\to& \mathbf{B}U(1) &&& transition\;function
+    P : & C(\{U_i\}) &\stackrel{(g_{i j})}{\to}& \mathbf{B} U(N)
     \\
-    \downarrow && \downarrow 
+    & \downarrow^{\mathrlap{\simeq}}
     \\
-    \mathbf{\Pi}(U) &\to& \mathbf{B}INN(U) &&& connection
-    \\
-    \downarrow &&  \downarrow
-    \\
-    \mathbf{\Pi}(U) &\to& \mathbf{B}^2 U(1) &&& curvature
+    & X
   }
 $$
 
-together with a constraint on the bottom morphism.
+for a $U(N)$-[[principal bundle]] on a [[smooth manifold]] $X$
+with this characteristic class yields the cocycle 
 
-It is in the form of such a kind of diagram that the general notion of [[connections on ∞-bundles]] may be modeled. In the full theory of [[schreiber:differential cohomology in an (∞,1)-topos]] this follows from first principles, but for our present introductory purpose we shall be content with taking this simple situation of $U(1)$-bundles together with the notion of [[Lie integration]] as sufficient motivation for the constructions considered now. 
+$$
+  \array{
+    det P : & C(\{U_i\}) &\stackrel{(g_{i j})}{\to}& \mathbf{B} U(N)
+    &\stackrel{\mathbf{B}det}{\to}& \mathbf{B}U(1)
+    \\
+    & \downarrow^{\mathrlap{\simeq}}
+    \\
+    & X
+  }
+$$
 
-So we pass now to what is to some extent the reverse construction of the one considered before: we define a notion of [[∞-Lie algebra valued differential forms]] and show how by a variant of [[Lie integration]] these integrate to coefficient objects for [[connections on ∞-bundles]].
+for a circle bundle (or its [[associated bundle|associated]] [[line bundle]])
+with transition functions $(det (g_{i j}))$:
+the [[determinant line bundle]] of $P$. The unique class 
+
+$$
+  [det P] \in 
+  H^2(X, \mathbb{Z})
+$$ 
+
+of this line bundle is a characteristic of the original unitary bundle: its first [[Chern class]] $c_1(P)$
+
+$$
+  [det P] = c_1(P)
+  \,.
+$$
+
+This construction directly extends to the case where the bundles carry 
+[[connection on a bundle|connections]].
+
+We may canonically identify the [[Lie algebra]] 
+$\mathfrak{u}(n)$ with the
+[[matrix Lie algebra]] of skew-hermitean matrices on which we have the
+[[trace]] operation
+
+$$
+  tr : \mathfrak{u}(n) \to \mathfrak{u}(1) = i \mathbb{R}
+  \,.
+$$
+
+This is the differential version of the determinant in that when regarding the [[Lie algebra]] as the [[infinitesimal space|infinitesimal neighbourhood]] of the neutral element in $U(N)$ (see [[∞-Lie algebroid]] for more on this) the determinant becomes the trace under the exponential map
+
+$$
+  det (1 + \epsilon A) = 1 + \epsilon tr(A)
+$$
+
+for $\epsilon^2 = 0$.
+
+It follows that for $tra_\nabla : \mathbf{P}_1(U_i) \to \mathbf{B}U(N)$ the [[parallel transport]] of a [[connection on a bundle|connection]] on $P$ locally given by a 1-forms $A \in \Omega^1(U_i, \mathfrak{u}(N))$ by
+
+$$
+  tra_\nabla(\gamma) = \mathcal{P} \exp \int_{[0,1]} \gamma^* A
+$$
+
+the determinant parallel transport
+
+$$
+  det tra_\nabla : \mathbf{P}_1(U_i) \stackrel{tra_\nabla}{\to}
+   \mathbf{B} U(N) \stackrel{det}{\to} \mathbf{B}U(1)
+$$
+is locally given by the formula
+
+$$
+  det tra_\nabla(\gamma) = \mathcal{P} \exp \int_{[0,1]} \gamma^* tr A
+$$
+
+which means that the local connection forms on the determinant line bundle are obtained from those of the unitary bundle by tracing.
+
+$$
+  (det,tr) : \{(g_{i j}), (A_i)\} \mapsto
+   \{(det  g_{i j}), (tr A_i)\}
+  \,.
+$$
+
+This construction extends to a functor
+
+$$
+  (\hat \mathbf{c}_1) := (det, tr) :  U(N) Bund_{conn}(X) \to U(1) Bund_{conn}(X)
+$$
+
+natural in $X$, that sends $U(n)$-principal bundles with connection to 
+[[circle n-bundle with connection|circle bundles with connection]], hence to cocycles in degree-2 [[ordinary differential cohomology]].
+
+This assignment remembers of a unitary bundle one inegral class and its differential refinement:
+
+* the integral class of the determinant bundle is the 
+  first [[Chern class]] the $U(N)$-bundle
+
+  $$
+    [\hat \mathbf{c}_1(P)] = c_1(P)
+    \,;
+  $$
+
+* the [[curvature]] 2-form of its connection is a representative
+  in de Rham cohomology of this class
+
+  $$
+    [F_{\nabla_{\hat \mathbf{c}_1(P)}}] = c_1(P)_{dR}
+    \,.
+  $$
+
+Equivalently this assignment is given by postcomposition of cocycles with a morphism of [[smooth ∞-groupoid]]s
+
+$$
+  \hat \mathbf{c}_1 : \mathbf{B}U(N)_{conn} \to \mathbf{B}U(1)_{conn}
+  \,.
+$$
+
+We say that $\hat \mathbf{c}_1$ is a **differential characteristic class**, the differential refinement of the first [[Chern class]]. 
 
 
-In the main entry [[∞-Chern-Weil theory]] we discuss how this dg-algebraic construction follows from a general abstract definitions of [[schreiber:differential cohomology in an (∞,1)-topos]].
-
-The material of this section is due to ([SSSI](#SSSI)) and ([FSS](#FSS)).
+=--
 
 
-### $\infty$-Lie algebroids
+In (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>) an algorithm is given for contructing
+differential characteristic classes on Cech cocycles in this fashion for 
+more general [[Lie algebra cohomology|Lie algebra cocycles]].
+
+For instance these authors give the following construction for the diffrential refinement of the first [[Pontryagin class]].
+
++-- {: .num_example #BMConstruction}
+###### Example
+
+Let $N \in \mathbb{N}$, write $Spin(N)$ for the [[Spin group]]
+and consider the canonical [[Lie algebra cohomology]] 3-cocycle
+
+$$
+  \mu = \langle -,[-,-]\rangle : \mathfrak{so}(n) \to \mathbf{b}^2 \mathbb{R}
+$$
+
+on [[semisimple Lie algebra]]s, where $\langle -,- \rangle$ is the [[Killing form]] [[invariant polynomial]].,
+
+Let $(P \to X, \nabla)$ be a $Spin(N)$-[[principal bundle]] [[connection on a bundle|with connection]]. Let $A \in \Omega^1(P, \mathfrak{so}(N))$ be the [[Ehresmann connection]] 1-form on the total space of the bundle.
+
+Then construct a [[Cech cohomology|Cech cocycle]] for [[Deligne cohomology]] in degree 4 as follows:
+
+1. pick an [[open cover]] $\{U_i \to X\}$ such that there is a choice of 
+   local [[section]]s $\sigma_i : U_i \to P$. Write 
+
+   $$
+     (g_{i j}, A_i) := (\sigma_i^{-1} \sigma_j, \sigma_i^* A)
+   $$
+
+   for the induced [[Cech cohomology|Cech]] cocycle.
+
+1. Choose a lift of this cocycle to an assignment 
+
+   * of based paths in $Spin(N)$ to double intersections 
+     
+     $$
+       \hat g_{i j} : U_{i j}\times \Delta^1 \to Spin(N)
+       \,,
+     $$
+
+     with
+     $\hat g_{i j}(0) = e$ and $\hat g_{i j}(1) = g_{i j}$;
+
+   * of based 2-simplices between these paths to triple intersections
+     
+     $$
+       \hat g_{i j k} : U_{i j k}\times \Delta^2 \to Spin(N)
+       \,;
+     $$  
+
+     restricting to these paths in the obvious way;
+
+   * similarly of based 3-simplices between these paths to quadruple intersections
+     
+     $$
+       \hat g_{i j k l} : U_{i j k l}\times \Delta^3 \to Spin(N)
+       \,.
+     $$
+
+  Such lifts always exists, because the Spin group is [[connected]] (because already $SO(N)$ is), [[simply connected]] (because $Spin(N)$ is the [[universal cover]] of $SO(N)$) and also has $\pi_2(Spin(N)) = 0$ (because this is the case for every compact Lie group).
+
+1. Define from this a [[Deligne cohomology|Deligne-cochain]] by setting
+
+   $$
+     (g_{i j k l}, A_{i j k}, B_{i j}, C_{i})
+     :=
+     \left(
+      \array{
+       \int_{\Delta^3} (\sigma_i \cdot\hat g_{i j k l})^* \mu(A) mod \mathbb{Z},
+        \\ 
+       \int_{\Delta^2} (\sigma_i\cdot \hat g_{i j k})^* cs(A),
+        \\
+       \int_{\Delta^1} (\sigma_i \cdot \hat g_{i j})^* cs(A),
+        \\
+       \sigma_i^* \mu(A)
+      }
+     \right)
+     \,,
+   $$
+
+   where $cs(A) = \langle A \wedge F_A\rangle + c \langle A \wedge [A \wedge A]\rangle + $ is the [[Chern-Simons form]] of the connection form $A$ with respect to the cocyle $\mu(A) = \langle A \wedge [A \wedge A]\rangle$.
+
+
+They then prove:
+
+1. This is indeed a [[Deligne cohomology]] cocycle;
+
+1. It represents the differential refinement of the first 
+   fractional [[Pontryagin class]] of $P$.
+
+=--
+
+In the form in which we have (re)stated this result here the second statement amounts, in view of the first statement, to the observation that the [[curvature]] 4-form of the Deligne cocycle is proportional to
+
+$$
+  \langle F_A \wedge F_A \rangle \in \Omega^4_{cl}(X)
+$$
+
+which represents the first Pontryagin class in [[de Rham cohomology]]. 
+Therefore the key observation is that we have a Deligne cocycle at all. 
+This can be checked directly, if somewhat tediously, by hand. But then the question remains: where does this successful _Ansatz_ come from? And is it _natural_ ? For instance: does this construction extend to a morphism of [[smooth ∞-groupoid]]s
+
+$$
+  \frac{1}{2}\hat \mathbf{p}_1 : \mathbf{B} Spin(N)_{conn}
+   \to \mathbf{B}^3 U(1)_{conn}
+$$
+
+from Spin-[[principal bundle]]s with connection to [[circle n-bundle with connection|circle 3-bundles with connection]]?
+
+In the following we give a natural presentation of the 
+[[∞-Chern-Weil homomorphism]] by means of [[Lie integration]] of $L_\infty$-algebraic data to [[simplicial presheaves]]. Among other things, this construction yields an understanding of why this construction is what it is and does what it does.
+
+
+### $\infty$-Lie theory
+ {#LieTheory}
+
+We discuss [[L-∞ algebra]]s and more generally [[∞-Lie algebroid]]s -- the higher analogs of [[Lie algebra]]s and [[Lie algebroid]]s -- and their [[Lie integration]] to [[smooth ∞-groupoid]]s presented by [[simplicial presheaves]].
+
+
+#### $\infty$-Lie algebroids
+ {#InfLieAlgebroids}
 
 There is a precise sense in which one may think of a [[Lie algebra]] $\mathfrak{g}$ as the [[infinitesimal space|infinitesimal]] sub-object of the delooping groupoid $\mathbf{B}G$ of the corresponding Lie group $G$. Without here going into the details of this relation (which needs a little bit of [[(∞,1)-topos]]-theory), we want to build certain [[∞-Lie groupoid]]s from the knowledge of their infinitesimal subobjects: these subobjects are [[∞-Lie algebroid]]s and specifically [[∞-Lie algebra]]s -- traditionally known as $L_\infty$-algebras. 
 
@@ -2449,7 +2709,10 @@ on graded-commutative cochain [[dg-algebra]]s in non-negative degree whose under
 
 =--
 
-### Characteristic cocycles from Lie integration {#LieIntOfCocycles}
+#### Lie integration
+ {#LieIntegration}
+
+We discuss [[Lie integration]]: a construction that sends an [[∞-Lie algebroid|L-∞ algebroid]] to a [[smooth ∞-groupoid]] of which it is the infinitesimal approximation.
 
 The construction we want to describe may be understood as a generalization
 of the following proposition. This is classical, even if maybe not reflected in the standard textbook literature to the extent it deserves to be (see [[Lie integration]] for details and references).
@@ -2518,8 +2781,42 @@ $$
 
 To see this, observe that the presheaf $\exp(\mathfrak{g})$ has as 1-morphisms $U$-parameterized families of $\mathfrak{g}$-valued 1-forms $A_{vert}$ on the interval, and as 2-morphisms $U$-parameterized families of _flat_ 1-forms on the disk, interpolating between these. By identifying these 1-forms with the pullback of the [[Maurer-Cartan form]] on $G$, we may equivalently think of the 1-morphisms as based smooth paths in $G$ and 2-morphisms smooth [[homotopies]] relative endpoints between them. Since $G$ is [[simply-connected]] this means that after dividing out 2-morphisms only the endpoints of these paths remain, which identify with the points in $G$. 
 
-We now describe [[characteristic class]]es and [[curvature characteristic form]]s on $G$-bundles in terms of these simplicial presheaves.
-For that purpose it is useful for a moment to ignore the truncation issue -- to come back to it later -- and consider these simplicial presheaves untruncated. 
+The following proposition establishes the Lie integraiton of the shifted
+1-dimensional abelian [[L-∞ algebras]] $b^{n-1} \mathbb{R}$.
+
++-- {: .num_prop}
+###### Proposition
+
+For $n \in \mathbb{N}$, $n \geq 1$. Write 
+
+$$
+  \mathbf{B}^n \mathbb{R}_{ch} :=
+   \Xi \mathbb{R}[n]
+$$
+
+for the [[simplicial presheaf]] on [[CartSp]] that is the image of the sheaf of [[chain complex]]es [[representable functor|represented]] by $\mathbb{R}$ in degree $n$ and 0 in other degrees, under the [[Dold-Kan correspondence]] $\Xi : Ch_\bullet^+ \to sAb \to sSet$.
+
+Then there is a canonical morphism
+
+$$
+  \int_{\Delta^\bullet} : 
+   \exp(b^{n-1}\mathb{R})
+   \stackrel{\simeq}{\to}
+   \mathbf{B}^n \mathbb{R}_{ch}
+$$
+
+given by [[fiber integration]] of differential forms along $U \times \Delta^n \to U$ and this is an equivalence (a global equivalence in the [[model structure on simplicial presheaves]]).
+
+=--
+
+The proof of this statement is discussed at [[Lie integration]]. 
+
+This statement will make an appearance repeatedly in the following discussion. Whenever we translate a construction given in terms $\exp(-)$ into a more convenient [[chain complex]] representation.
+
+#### Characteristic classes from Lie integration 
+  {#LieIntOfCocycles}
+
+We now describe [[characteristic class]]es and then furhter below [[curvature characteristic form]]s on $G$-bundles in terms of [[Lie integration]] to [[simplicial presheaves]]. For that purpose it is useful for a moment to ignore the truncation issue -- to come back to it later -- and consider these simplicial presheaves untruncated. 
 
 To see characteristic classes in this picture, write $CE(b^{n-1} \mathbb{R})$ for the commutative real [[dg-algebra]] on a single generator in degree $n$ with vanishing differential. As our notation suggests, this we may think as the [[Chevalley-Eilenberg algebra]] of a _higher Lie algebra_  -- the [[∞-Lie algebra]] $b^{n-1} \mathbb{R}$ -- which is an [[Eilenberg-MacLane object]] in the [[homotopy theory]] of [[∞-Lie algebra]]s, representing [[∞-Lie algebra cohomology]] in degree $n$ with coefficients in $\mathbb{R}$.
 
@@ -2610,13 +2907,46 @@ The [[Cech cohomology]] cocycle obtained this way is the first [[Pontryagin clas
 
 =--
 
-This follows by observing that the composition of [[∞-anafunctor]]s as spelled out in components above is verbatim the construction of Cech cocycles for the first Pontryagin class as given in (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>). We may think of this as the classifying map for the [[Chern-Simons circle 3-bundle]] corresponding to the $G$-bundle classified by $g$.
-
-In (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>) this was shown by refining this $U(1)$-cocycle to [[Deligne cohomology]] and computing its [[curvature]] 4-form. As we proceed now, we will see that this refinement, too, is obtained as a composition of $\infty$-anafunctors for cocycles of bundles with connection. 
+We shall show this below, as part of our $L_\infty$-algebraic reconstruction of the [above example](#BMConstruction). In order to do so, we now add differential refinement to this Lie integration of characteristic classes.
 
 
 
-### Curvature characteristics and Chern-Simons forms {#CurvCharAndCS}
+### $L_\infty$-algebra valued connections {#LieConnections}
+
+[Above](#LowDimension) we described ordinary [[connections on bundles]] as well as [[connections on 2-bundles]] in terms of [[parallel transport]] over paths and surfaces, and showed how such is equivalently given by cocycles with coefficients in [[Lie-algebra valued differential forms]] and [[Lie 2-algebra valued differential forms]], respectively. 
+
+Notably we saw ([here](#CurvatureCharacteristicsI)) for the case of ordinary $U(1)$-[[principal bundle]]s, that the connection and curvature data on these is encoded in presheaves of diagrams that over a given test space $U \in $ [[CartSp]] look like
+
+$$  
+  \array{
+    U &\to& \mathbf{B}U(1) &&& transition\;function
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathbf{\Pi}(U) &\to& \mathbf{B}INN(U) &&& connection
+    \\
+    \downarrow &&  \downarrow
+    \\
+    \mathbf{\Pi}(U) &\to& \mathbf{B}^2 U(1) &&& curvature
+  }
+$$
+
+together with a constraint on the bottom morphism.
+
+It is in the form of such a kind of diagram that the general notion of [[connections on ∞-bundles]] may be modeled. In the full theory of [[schreiber:differential cohomology in a cohesive topos]] this follows from first principles, but for our present introductory purpose we shall be content with taking this simple situation of $U(1)$-bundles together with the notion of [[Lie integration]] as sufficient motivation for the constructions considered now. 
+
+So we pass now to what is to some extent the reverse construction of the one considered before: we define a notion of [[∞-Lie algebra valued differential forms]] and show how by a variant of [[Lie integration]] these integrate to coefficient objects for [[connections on ∞-bundles]].
+
+
+In the main entry [[∞-Chern-Weil theory]] we discuss how this dg-algebraic construction follows from a general abstract definitions of [[schreiber:differential cohomology in a cohesive topos]].
+
+The material of this section is due to ([SSSI](#SSSI)) and ([FSS](#FSS)).
+
+
+
+
+#### Curvature characteristics and Chern-Simons forms 
+  {#CurvCharAndCS}
 
 For $G$ a Lie group, we have described [above](#ConnectionOnPrincipalBundle) connections on $G$-principal bundles in terms of cocycles with coefficients in the Lie-[[groupoid of Lie-algebra valued forms]] $\mathbf{B}G_{conn}$
 
@@ -2932,7 +3262,9 @@ $$
 
 =--
 
-### $\infty$-Connections from Lie integration {#LieIntConn}
+
+#### $\infty$-Connections from Lie integration 
+ {#LieIntConn}
 
 We have seen above for $\mathfrak{g}$ an $\infty$-Lie algebroid the object
 $\exp(\mathfrak{g})_{diff}$ that classifies [[pseudo-connection]]s
@@ -3064,7 +3396,7 @@ that define [[connections on ∞-bundles]].
 =--
 
 
-#### Curvature characteristics
+##### Curvature characteristics
 
 +-- {: .un_prop}
 ###### Proposition
@@ -3251,7 +3583,8 @@ This distinction is important: over objects $X \in $ [[?LieGrpd]] that are not [
 
 
 
-#### 1-Morphisms: integration of infinitesimal gauge transformations {#InfGaugeTrafo}
+##### 1-Morphisms: integration of infinitesimal gauge transformations   
+ {#InfGaugeTrafo}
 
 The 1-[[morphism]]s in $\exp(\mathfrak{g})(U)$ may be thought of as [[gauge transformation]]s between $\mathfrak{g}$-valued forms. We unwind what these look like concretely.
 
@@ -3361,7 +3694,7 @@ The unique solution $A_U(s = 1)$ of the above [[differential equation]] at $s = 
 
 
 
-#### Examples
+##### Examples
 
 
 +-- {: .un_prop}
@@ -3436,291 +3769,21 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (for 11-dimensional [[supergravity]]). The way [[curvature]] and [[Bianchi identity]] are read off from "extded soft group manifolds" in this literature is -- apart from this difference in terminology -- precisely what is described above. 
 
 
-## The $\infty$-Chern-Weil homomorphism
- {#InfityCWHomomorphism}
+### Differential characteristic classes from Lie integration
+ {#DiffClassesFromLie}
 
-We now come to the discussion the [[Chern-Weil homomorphism]] and its generalization to the [[∞-Chern-Weil homomorphism]].
+We have now the ingredients in hand to produce a construction of 
+differential characteristic classes -- the refined [[∞-Chern-Weil homomorphism]] -- in terms of [[Lie integration]] of differential refinements of $L_\infty$-algebra cocycles. 
 
-We have seen $G$-principal $\infty$-bundles for general $\infty$-groups $G$ and in particular for abelian groups $G$. Naturally, the abelian case is easier and more powerful statements are known about this case. A general strategy for studying nonabelian $\infty$-bundles therefore is to _approximate_ them by abelian bundles. This is achieved by considering [[characteristic class]]es. Roughly, a characteristic class is a map that functorially sends $G$-principal $\infty$-bundles to $\mathbf{B}^n K$-principal $\infty$-bundles, for some $n$ and some abelian group $K$. In some cases such an assignment may be obtained by integration of infinitesimal data. If so, then the assignment refines to one of $\infty$-bundles [[connection on an ∞-bundle|with connection]]. For $G$ an ordinary [[Lie group]] this is then what is called the [[Chern-Weil homomorphism]]. For general $G$ we call it  the [[∞-Chern-Weil homomorphism]].
+We first consider the _local_ construction that produces the de Rham cohomology data of the differential characteristic classes. Since this turns out to be a generalization of the construction of the [[action functional]] of [[Chern-Simons theory]], we speak of
 
+* [∞-Chern-Simons functionals](#CSFunctionals)
 
+Applying a [[coskeleton]]-truncation to this construction carves out the [[cycle]] [[lattice]] of the $L_\infty$-algebra cocycle inside the line $\mathbb{R}$, which yields to the fully-fledged differential characteristic classes, typically called [[secondary characteristic classes]]
 
-### Motivating examples
- {#ExamplesForChernWeil}
+* [Secondary characteristic classes from Lie integration](#DifferentialCharacteristic)
 
-A simple motivating example for [[characteristic class]]es and the [[Chern-Weil homomorphism]]
-is the construction of [[determinant line bundle]]s.
-
-+-- {: .un_example}
-###### Example
-
-Let $N \in \mathbb{N}$. Consider the [[unitary group]] $U(N)$.
-By its definition as a [[matrix Lie group]], this comes canonically equipped with the [[determinant]] function
-
-$$
-  det : U(N) \to U(1)
-$$
-
-and by the standard properties of the determinant, this is in fact a group homomorphism. Therefore this has a [[delooping]] to a morphism of [[Lie groupoid]]s
-
-$$
-  \mathbf{B}det : \mathbf{B}U(N) \to \mathbf{B}U(1)
-  \,.
-$$
-
-Under [[geometric realization of simplicial topological spaces|geometric realization]] this maps to a morphism
-
-$$
-  |\mathbf{B} det| : B U(N) \to B U(1) \simeq K(\mathbb{Z},2)
-$$
-
-of [[topological space]]s. This is a [[characteristic class]] on the 
-[[classifying space]] $B U(N)$: the first [[Chern class]] (see [[determinant line bundle]] for more on this).
-
-By postcomposion with $\mathbf{B}det$ of the classifying morphisms for principal bundles, it acts on principal bundles: postcomposition of a [[Cech cohomology|Cech]] cocycle 
-
-$$
-  \array{
-    P : & C(\{U_i\}) &\stackrel{(g_{i j})}{\to}& \mathbf{B} U(N)
-    \\
-    & \downarrow^{\mathrlap{\simeq}}
-    \\
-    & X
-  }
-$$
-
-for a $U(N)$-[[principal bundle]] on a [[smooth manifold]] $X$
-with this characteristic class yields the cocycle 
-
-$$
-  \array{
-    det P : & C(\{U_i\}) &\stackrel{(g_{i j})}{\to}& \mathbf{B} U(N)
-    &\stackrel{\mathbf{B}det}{\to}& \mathbf{B}U(1)
-    \\
-    & \downarrow^{\mathrlap{\simeq}}
-    \\
-    & X
-  }
-$$
-
-for a circle bundle (or its [[associated bundle|associated]] [[line bundle]])
-with transition functions $(det (g_{i j}))$:
-the [[determinant line bundle]] of $P$. The unique class 
-
-$$
-  [det P] \in 
-  H^2(X, \mathbb{Z})
-$$ 
-
-of this line bundle is a characteristic of the original unitary bundle: its first [[Chern class]] $c_1(P)$
-
-$$
-  [det P] = c_1(P)
-  \,.
-$$
-
-This construction directly extends to the case where the bundles carry 
-[[connection on a bundle|connections]].
-
-We may canonically identify the [[Lie algebra]] 
-$\mathfrak{u}(n)$ with the
-[[matrix Lie algebra]] of skew-hermitean matrices on which we have the
-[[trace]] operation
-
-$$
-  tr : \mathfrak{u}(n) \to \mathfrak{u}(1) = i \mathbb{R}
-  \,.
-$$
-
-This is the differential version of the determinant in that when regarding the [[Lie algebra]] as the [[infinitesimal space|infinitesimal neighbourhood]] of the neutral element in $U(N)$ (see [[∞-Lie algebroid]] for more on this) the determinant becomes the trace under the exponential map
-
-$$
-  det (1 + \epsilon A) = 1 + \epsilon tr(A)
-$$
-
-for $\epsilon^2 = 0$.
-
-It follows that for $tra_\nabla : \mathbf{P}_1(U_i) \to \mathbf{B}U(N)$ the [[parallel transport]] of a [[connection on a bundle|connection]] on $P$ locally given by a 1-forms $A \in \Omega^1(U_i, \mathfrak{u}(N))$ by
-
-$$
-  tra_\nabla(\gamma) = \mathcal{P} \exp \int_{[0,1]} \gamma^* A
-$$
-
-the determinant parallel transport
-
-$$
-  det tra_\nabla : \mathbf{P}_1(U_i) \stackrel{tra_\nabla}{\to}
-   \mathbf{B} U(N) \stackrel{det}{\to} \mathbf{B}U(1)
-$$
-is locally given by the formula
-
-$$
-  det tra_\nabla(\gamma) = \mathcal{P} \exp \int_{[0,1]} \gamma^* tr A
-$$
-
-which means that the local connection forms on the determinant line bundle are obtained from those of the unitary bundle by tracing.
-
-$$
-  (det,tr) : \{(g_{i j}), (A_i)\} \mapsto
-   \{(det  g_{i j}), (tr A_i)\}
-  \,.
-$$
-
-This construction extends to a functor
-
-$$
-  (\hat \mathbf{c}_1) := (det, tr) :  U(N) Bund_{conn}(X) \to U(1) Bund_{conn}(X)
-$$
-
-natural in $X$, that sends $U(n)$-principal bundles with connection to 
-[[circle n-bundle with connection|circle bundles with connection]], hence to cocycles in degree-2 [[ordinary differential cohomology]].
-
-This assignment remembers of a unitary bundle one inegral class and its differential refinement:
-
-* the integral class of the determinant bundle is the 
-  first [[Chern class]] the $U(N)$-bundle
-
-  $$
-    [\hat \mathbf{c}_1(P)] = c_1(P)
-    \,;
-  $$
-
-* the [[curvature]] 2-form of its connection is a representative
-  in de Rham cohomology of this class
-
-  $$
-    [F_{\nabla_{\hat \mathbf{c}_1(P)}}] = c_1(P)_{dR}
-    \,.
-  $$
-
-Equivalently this assignment is given by postcomposition of cocycles with a morphism of [[smooth ∞-groupoid]]s
-
-$$
-  \hat \mathbf{c}_1 : \mathbf{B}U(N)_{conn} \to \mathbf{B}U(1)_{conn}
-  \,.
-$$
-
-We say that $\hat \mathbf{c}_1$ is a **differential characteristic class**, the differential refinement of the first [[Chern class]]. 
-
-
-=--
-
-
-In (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>) an algorithm is given for contructing
-differential characteristic classes on Cech cocycles in this fashion for 
-more general [[Lie algebra cohomology|Lie algebra cocycles]].
-
-For instance these authors give the following construction for the diffrential refinement of the first [[Pontryagin class]].
-
-+-- {: .un_example}
-###### Example
-
-Let $N \in \mathbb{N}$, write $Spin(N)$ for the [[Spin group]]
-and consider the canonical [[Lie algebra cohomology]] 3-cocycle
-
-$$
-  \mu = \langle -,[-,-]\rangle : \mathfrak{so}(n) \to \mathbf{b}^2 \mathbb{R}
-$$
-
-on [[semisimple Lie algebra]]s, where $\langle -,- \rangle$ is the [[Killing form]] [[invariant polynomial]].,
-
-Let $(P \to X, \nabla)$ be a $Spin(N)$-[[principal bundle]] [[connection on a bundle|with connection]]. Let $A \in \Omega^1(P, \mathfrak{so}(N))$ be the [[Ehresmann connection]] 1-form on the total space of the bundle.
-
-Then construct a [[Cech cohomology|Cech cocycle]] for [[Deligne cohomology]] in degree 4 as follows:
-
-1. pick an [[open cover]] $\{U_i \to X\}$ such that there is a choice of 
-   local [[section]]s $\sigma_i : U_i \to P$. Write 
-
-   $$
-     (g_{i j}, A_i) := (\sigma_i^{-1} \sigma_j, \sigma_i^* A)
-   $$
-
-   for the induced [[Cech cohomology|Cech]] cocycle.
-
-1. Choose a lift of this cocycle to an assignment 
-
-   * of based paths in $Spin(N)$ to double intersections 
-     
-     $$
-       \hat g_{i j} : U_{i j}\times \Delta^1 \to Spin(N)
-       \,,
-     $$
-
-     with
-     $\hat g_{i j}(0) = e$ and $\hat g_{i j}(1) = g_{i j}$;
-
-   * of based 2-simplices between these paths to triple intersections
-     
-     $$
-       \hat g_{i j k} : U_{i j k}\times \Delta^2 \to Spin(N)
-       \,;
-     $$  
-
-     restricting to these paths in the obvious way;
-
-   * similarly of based 3-simplices between these paths to quadruple intersections
-     
-     $$
-       \hat g_{i j k l} : U_{i j k l}\times \Delta^3 \to Spin(N)
-       \,.
-     $$
-
-  Such lifts always exists, because the Spin group is [[connected]] (because already $SO(N)$ is), [[simply connected]] (because $Spin(N)$ is the [[universal cover]] of $SO(N)$) and also has $\pi_2(Spin(N)) = 0$ (because this is the case for every compact Lie group).
-
-1. Define from this a [[Deligne cohomology|Deligne-cochain]] by setting
-
-   $$
-     (g_{i j k l}, A_{i j k}, B_{i j}, C_{i})
-     :=
-     \left(
-      \array{
-       \int_{\Delta^3} (\sigma_i \cdot\hat g_{i j k l})^* \mu(A) mod \mathbb{Z},
-        \\ 
-       \int_{\Delta^2} (\sigma_i\cdot \hat g_{i j k})^* cs(A),
-        \\
-       \int_{\Delta^1} (\sigma_i \cdot \hat g_{i j})^* cs(A),
-        \\
-       \sigma_i^* \mu(A)
-      }
-     \right)
-     \,,
-   $$
-
-   where $cs(A) = \langle A \wedge F_A\rangle + c \langle A \wedge [A \wedge A]\rangle + $ is the [[Chern-Simons form]] of the connection form $A$ with respect to the cocyle $\mu(A) = \langle A \wedge [A \wedge A]\rangle$.
-
-
-They then prove:
-
-1. This is indeed a [[Deligne cohomology]] cocycle;
-
-1. It represents the differential refinement of the first 
-   fractional [[Pontryagin class]] of $P$.
-
-=--
-
-In the form in which we have (re)stated this result here the second statement amounts, in view of the first statement, to the observation that the [[curvature]] 4-form of the Deligne cocycle is proportional to
-
-$$
-  \langle F_A \wedge F_A \rangle \in \Omega^4_{cl}(X)
-$$
-
-which represents the first Pontryagin class in [[de Rham cohomology]]. 
-Therefore the key observation is that we have a Deligne cocycle at all. 
-This can be checked directly, if somewhat tediously, by hand. But then the question remains: where does this successful _Ansatz_ come from? And is it _natural_ ? For instance: does this construction extend to a morphism of [[smooth ∞-groupoid]]s
-
-$$
-  \frac{1}{2}\hat \mathbf{p}_1 : \mathbf{B} Spin(N)_{conn}
-   \to \mathbf{B}^3 U(1)_{conn}
-$$
-
-from Spin-[[principal bundle]]s with connection to [[circle n-bundle with connection|circle 3-bundles with connection]]?
-
-In the following we give a natural presentation of the 
-[[∞-Chern-Weil homomorphism]] by means of [[Lie integration]] of $L_\infty$-algebraic data to [[simplicial presheaves]]. Among other things, this construction yields an understanding of why this construction is what it is and does what it does.
-
-
-
-### $\infty$-Chern-Simons functionals
+#### $\infty$-Chern-Simons functionals
  {#CSFunctionals}
 
 In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classifies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
@@ -3728,7 +3791,7 @@ In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is co
 All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ in terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
 
 
-If we express $G$ by [[Lie integration]] of an [[∞-Lie algebra]] $\mathfrak{g}$, then the basic $\infty$-Chern-Weil homomorphism is modeled by composing an $\infty$-connection $(A_{vert}, A, \langle F_A\rangle)$ with the transgression of an invariant polynomial $(\mu, cs, \langle - \rangle)$ as follows
+If we express $G$ by [[Lie integration]] of an [[L-∞ algebra]] $\mathfrak{g}$, then the basic $\infty$-Chern-Weil homomorphism is modeled by composing an $\infty$-connection $(A_{vert}, A, \langle F_A\rangle)$ with the transgression of an invariant polynomial $(\mu, cs, \langle - \rangle)$ as follows
 
 $$
   \left(
@@ -3924,7 +3987,7 @@ $$
 $$
 
 
-### Secondary/differential characteristic classes
+#### Secondary characteristic classes
  {#DifferentialCharacteristic}
 
 So far we discussed the untruncated coefficient object $\exp(\mathfrak{g})_{conn}$ for $\mathfrak{g}$-valued
