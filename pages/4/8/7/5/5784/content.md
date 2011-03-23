@@ -68,3 +68,7 @@ Section 2.2.1 of
 
 
 [[!redirects super point]]
+[[!redirects super points]]
+
+
+[[!redirects superpoints]]
