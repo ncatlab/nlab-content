@@ -56,13 +56,13 @@ be the [[(∞,1)-sheaf (∞,1)-topos]] of [[smooth super ∞-groupoid]]s. This i
 
 ## References
 
-The proposal that the study of super-structures in mathematics should be regarded as taking place over the [[topos]] on the [[site]] of [[super point]]s has been made around 1984 in
+The proposal that the study of super-structures in mathematics should be regarded as taking place over the [[base topos]] on the [[site]] of [[super point]]s has been made around 1984 in
 
 * [[Albert Schwarz]], _On the definition of superspace_ Teoret. Mat. Fiz., 1984,  Volume 60,  Number 1, Pages 37&#8211;42   (Mi tmf5111), ([russian original](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
 
 and in 
 
-* V. Molotkov., _Infinite-dimensional $\mathbb{Z}_2^k$-supermanifolds_ ICTP
+* V. Molotkov., _Infinite-dimensional $\mathbb{Z}_2^k$-supermanifolds_ , ICTP
 preprints, IC/84/183, 1984.
 
 and in
