@@ -28,7 +28,7 @@ The corresponding [[super Lie group]] is the [[super Euclidean group]] (except f
 
 ## Cohomology
 
-The super Poincareacute; Lie algebra has, on top of the [[Lie algebra cohomology|Lie algebra cocycles]] that it inherits from $\mathfrak{so}(n)$, a discrete number of special cocycles bilinear in the spinors, on the super translation algebra, that exist only in very special dimensions.
+The super Poincar&#233; Lie algebra has, on top of the [[Lie algebra cohomology|Lie algebra cocycles]] that it inherits from $\mathfrak{so}(n)$, a discrete number of special cocycles bilinear in the spinors, on the super translation algebra, that exist only in very special dimensions.
 
 For the statement of the following theorem, we use the relation between [[division algebra and supersymmetry]], as described there.
 
