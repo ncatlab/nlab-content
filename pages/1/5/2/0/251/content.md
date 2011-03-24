@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -197,7 +196,7 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 
 * [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1976__17_4_343_0), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **17** (1976), 343--362.
 
-* [[Mike Shulman]], _Comparing composites of left and right derived functors_ , [arXiv:0706.2868](http://arxiv.org/abs/0706.2868)
+* [[Mike Shulman]], [Comparing composites of left and right derived functors](http://nyjm.albany.edu/j/2011/17-5v.pdf),_New York J. Math._ **17** (2011) 75--125. [arXiv:0706.2868](http://arxiv.org/abs/0706.2868)
 
 
 [[!redirects double categories]]
