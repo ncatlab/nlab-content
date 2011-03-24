@@ -22,7 +22,7 @@ An [[object]] of a [[category]] is *compact* if it is "finite" or "small" in som
 ## Definition 
 {#FinitelyPresentableObject}
 
-Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact**, (or **finitely presented** or **of finite presentation**), if the [[corepresentable functor]]
+Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact**, (or **finitely presented** or **finitely presentable** or **of finite presentation**), if the [[corepresentable functor]]
 
 $$
   Hom_C(X,-) : C \to Set
@@ -37,7 +37,7 @@ $$
 
 is an [[isomorphism]].
 
-More generally, if $\kappa$ is a [[regular cardinal]], then an object $X$ such that $C(X,-)$ commutes with $\kappa$-[[filtered colimits]] is called **$\kappa$-compact**, or **$\kappa$-presented**.  An object which is $\kappa$-compact for some regular $\kappa$ is called a [[small object]].
+More generally, if $\kappa$ is a [[regular cardinal]], then an object $X$ such that $C(X,-)$ commutes with $\kappa$-[[filtered colimits]] is called **$\kappa$-compact**, or **$\kappa$-presented** or **$\kappa$-presentable**.  An object which is $\kappa$-compact for some regular $\kappa$ is called a [[small object]].
 
 
 ## Examples 
@@ -190,3 +190,6 @@ For the general definition with an eye towards the definition of [[compact objec
 
 [[!redirects finitely-presentable object]]
 [[!redirects finitely-presentable objects]]
+
+[[!redirects presentable object]]
+[[!redirects presentable objects]]
