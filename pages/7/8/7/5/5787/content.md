@@ -1,7 +1,7 @@
 
 ## In general categorical setup
 
-Given a regular (right??) cardinal $\kappa$, a morphism $f: A\to B$ in a category $C$ is $\kappa$-pure if for every commutative square
+Given a [[regular cardinal]] $\kappa$, a [[morphism]] $f: A\to B$ in a [[category]] $C$ is $\kappa$-pure if for every [[commutative square]]
 
 $$\array{
 P & \stackrel{g}\to & Q\\
@@ -9,15 +9,15 @@ u\downarrow && \downarrow v \\
 A &\stackrel{f}\to & B
 }$$
 
-in which $P$ and $Q$ are $\kappa$-presentable objects, the morphism $u:P\to A$
-factors through $g$.
+in which $P$ and $Q$ are $\kappa$-[[presentable objects]], the morphism $u:P\to A$
+factors through $g$.  In other words, $f$ has the [[right lifting property]] with respect to all morphisms between $\kappa$-presentable objects.
 
-In a $\kappa$-accessible category $C$ every $\kappa$-pure morphism is monic. In a locally $\kappa$-presentable category $\kappa$-pure morphisms are, moreover, regular monomorphism, and in fact coincide with the $\kappa$-directed colimits of [[split monomorphism]]s in the category of arrows $C^2 = Arr(C)$; more generally this characterization holds in all $\kappa$-accessible categories admiting pushouts (Ad&#225;mek, Hub, Tholen).  
+In a $\kappa$-[[accessible category]] $C$ every $\kappa$-pure morphism is [[monic]]. In a locally $\kappa$-[[locally presentable category|presentable category]] $\kappa$-pure morphisms are, moreover, [[regular monomorphisms]], and in fact coincide with the $\kappa$-[[directed colimits]] of [[split monomorphism]]s in the category of arrows $C^2 = Arr(C)$; more generally this characterization holds in all $\kappa$-accessible categories admiting [[pushouts]] (Ad&#225;mek, Hub, Tholen).  
 
 ## In ring theory and for schemes
 
-We work with unital, possibly commutative, rings and modules. 
-Given a ring $R$, a morphism $f: M\to M'$ of left $R$-modules is pure if the tensoring the exact sequence of left $R$-modules
+We work with unital, possibly commutative, [[rings]] and [[modules]].
+Given a ring $R$, a morphism $f: M\to M'$ of left $R$-modules is pure if the tensoring the [[exact sequence]] of left $R$-modules
 
 $$
 0\to Ker f \to M\stackrel{f}\to M'\to Coker f\to 0
