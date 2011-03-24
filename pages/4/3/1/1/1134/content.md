@@ -22,7 +22,30 @@
 * automatic table of contents goes here
 {:toc}
 
-#Definition#
+## Idea
+
+A [[supermanifold]] is a [[space]] locally modeled on [[Cartesian space]]s and [[superpoint]]s.
+
+There are different approaches to the definition and theory of supermanifolds in the literature. The definition 
+
+* [As locally ringed spaces](#AsLocallyRingedSpace)
+
+is popular. The definition 
+
+* [As manifolds over superpoints](#OverSuperpoints)
+
+has been argued to have advantages, see also the references at [[super ∞-groupoid]].
+
+## As locally ringed spaces
+ {#AsLocallyRingedSpace}
+
+We discuss a description of supermanifolds that goes back to 
+([BerezinLeites](BerezinLeites)).
+
+### Definition
+
++-- {: .num_defn #SupermanifoldLocallyRingedSpace}
+###### Definition
 
 A **supermanifold** $X$ of dimension $p|q$ is a
 [[ringed space]] $(|X|, O_X)$ where
@@ -31,13 +54,17 @@ A **supermanifold** $X$ of dimension $p|q$ is a
 
 * $O_X$ is a [[sheaf]] of commutative [[super algebra]]s that is locally on small enough open subsets $U \subset |X|$ isomorphic to one of the form $C^\infty(U) \otimes \wedge^\bullet \mathbb{R}^q$.
 
+A [[morphism]] of supermanifolds is a morphism of [[ringed space]]s (...).
+
+=--
+
 Forgetting the graded part by projecting out the nilpotent ideal in $O_X$ yields the underlying ordinary smooth [[manifold]] $X_{red}$.
 
 One just writes $C^\infty(X)$ for the [[super algebra]] $O_X(X)$ of global sections.
 
 With the obvious morphisms of [[ringed space]] this forms the [[category]] [[SDiff]] of supermanifolds.
 
-#Examples#
+### Examples
 
 **Example** For $E \to X$ a smooth finite-rank [[vector bundle]] the [[manifold]] $X$ equipped with the [[Grassmann algebra]] over $C^\infty(X)$ of the sections  of the dual bundle
 
@@ -56,15 +83,22 @@ $$
 for the corresponding supermanifold.
 
 
-#Properties#
+### Properties
 
-**Theorem** (Batchelor's theorem) Every supermanifold is [[isomorphism|isomorphic]] to one of the form $\Pi E$ where $E$ is an ordinary smooth [[vector bundle]].
++-- {: .num_theorem}
+###### Theorem
+**(Batchelor's theorem)**
+
+Every supermanifold is [[isomorphism|isomorphic]] to one of the form $\Pi E$ where $E$ is an ordinary smooth [[vector bundle]].
+
+=--
 
 **Warning** Still, the category of supermanifolds is far from being [[equivalence|equivalent]] to that of [[vector bundle]]s because a morphism of vector bundles translates to a morphism of supermanifolds that is strictly homogeneous in degrees, while a general morphism of supermanifolds need not be of this form.
 
 But we have the following useful characterization of morphisms of supermanifolds:
 
-**Theorem**
++-- {: .num_theorem}
+###### Theorem
 
 * There is a natural bijection
 
@@ -86,19 +120,78 @@ But we have the following useful characterization of morphisms of supermanifolds
     \times C^\infty(X)^{odd}).
   $$
 
-**Proof**
 
-The first statement is a direct extension of the classical fact that the contravariant embedding of ordinary smooth [[manifold]]s into algebras $X \mapsto C^\infty(X)$ is a [[full and faithful functor]].
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is a direct extension of the classical fact that the contravariant embedding of ordinary [[smooth manifold]]s into algebras $X \mapsto C^\infty(X)$ is a [[full and faithful functor]].
+
+=--
+
+## As manifolds modeled on Grassman algebras
+ {#ModeledOnGrassmannAlgebra}
+
+We discuss a desription of supermanifolds that goes back to 
+([deWitt](#deWitt)) and ([Rogers](#Rogers)).
+
+(...)
+
+## As manifolds over the base topos on superpoints
+ {#OverSuperpoints}
+
+Let $SuperPoint$ be the [[category]] of [[superpoint]]s. And $Sh(SuperPoint) = PSh(SuperPoint)$ its [[presheaf topos]].
+
+We discuss a definition of supermanifolds that characterizes them, roughly,  as manifolds over this [[base topos]]. See ([Sachse](#Sachse)) and the references at [[super ∞-groupoid]].
+
+### Definition
+
+Write [[SmoothMfd]] for the [[category]] of ordinary [[smooth manifold]]s.
+
++-- {: .num_defn #SupermanifoldOverSuperpoint}
+###### Definition
+
+A _supermanifold_ is a functor $X : SuperPoint^{op} \to SmoothMfd$ equipped with an equivalence class of [supersmooth atlases](#).
+
+A [[morphism]] of supermanifolds is a [[natural transformation]] $f : X \to X'$, such that for each pair of [[chart]]s $u : U \to X$ and $u' : U' \to X'$ the [[pullback]]
+
+$$
+  \array{
+    U \times_{X'} U' &&\stackrel{p'}{\to}&& U'
+    \\
+    {}^{\mathllap{p_1}}\downarrow & & && \downarrow^{\mathrlap{u'}}
+    \\
+    U &\stackrel{u}{\to}& X &\stackrel{f}{\to}& X'
+  }
+$$
+
+can be equipped with the structture of a [Banach superdomain](#) such that $p_1$ and $p_2$ are supersmooth (...)
+
+=--
+
+This appears as ([Sachse, def. 4.13, 4.14](#Sachse)).
+
+### Properties
+
++-- {: .num_defn}
+###### Definition
+
+The categories of supermanifolds defined as locally ringed spaces, 
+def. \ref{SupermanifoldLocallyRingedSpace} and as manifolds over superpoints,
+def. \ref{SupermanifoldOverSuperpoint} are 
+[[equivalence of categories|equivalent]].
+
+=--
+
+This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a discussion of the relation to the [deWitt-definition](#ModeledOnGrassmannAlgebra).
 
 
-
-#Related entries#
+## Related concepts
 
 * [[NQ-supermanifold]]
 
 * [[integration over supermanifolds]]
-
-* [[ringed site]]
 
 * [[super vector bundle]] 
 
@@ -106,13 +199,62 @@ The first statement is a direct extension of the classical fact that the contrav
 
 * [[superdifferential form]]
 
-#References#
+## References
+
+### As locally ringed spaces
 
 * F. A. Berezin, D. A. Le&#301;tes, _Supermanifolds_, (Russian) Dokl. Akad. Nauk SSSR __224__ (1975), no. 3, 505--508; English transl.: Soviet Math. Dokl. __16__ (1975), no. 5, 1218--1222 (1976).
+ {#BerezinLeites}
 
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
+
+
+### As manifolds over superpoints
+
+The proposal that the study of super-structures in mathematics should be regarded as taking place over the [[base topos]] on the [[site]] of [[super point]]s has been made around 1984 in
+
+* [[Albert Schwarz]], _On the definition of superspace_ Teoret. Mat. Fiz., 1984,  Volume 60,  Number 1, Pages 37&#8211;42   (Mi tmf5111), ([russian original](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
+
+and in 
+
+* V. Molotkov., _Infinite-dimensional $\mathbb{Z}_2^k$-supermanifolds_ , ICTP
+preprints, IC/84/183, 1984.
+
+and in
+
+* [[Alexander Voronov]], _Maps of supermanifolds_ , Teoret. Mat.
+Fiz., 60(1):43&#8211;48, 1984.
+
+See also
+
+* Anatoly Konechny and [[Albert Schwarz]], 
+
+  _On $(k \oplus l|q)$-dimensional supermanifolds_ in _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Springer-Verlag, 1998 ,
+Lecture Notes in Physics, 509 , J. Wess and V. Akulov (editors)([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
+
+  _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 { 486
+
+* [[Albert Schwarz]], I- Shapiro, _Supergeometry and Arithmetic Geometry_ ([arXiv:hep-th/0605119](http://arxiv.org/abs/hep-th/0605119))
+
+A comprehensive discussion of the situation over the site of superpoints is given in 
+
+* Christoph Sachse, _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+{#Sachse}
+
+The site of formal duals not just to [[Grassmann algebra]]s but to all super-[[infinitesimally thickened point]]s is discussed in
+
+* L. Balduzzi, C. Carmeli, R. Fioresi, _The local functors of points of Supermanifolds_ ([arXiv:0908.1872](http://arxiv.org/abs/0908.1872))
+
+### As manifolds modeld on Grassmann algebras
+
 * Bryce de Witt, _Supermanifolds_, Cambridge Monographs on Mathematical Physics, 1984, 1992
+{#deWitt}
+
+* Alice Rogers
+ {#Rogers}
+
+### Other
 
 * Yu. I. Manin, _Topics in noncommutative geometry_, Princeton Univ. Press 1991. 
 
@@ -122,6 +264,6 @@ The first statement is a direct extension of the classical fact that the contrav
 
 * [[Alberto S. Cattaneo]], Florian Schaetz, _Introduction to supergeometry_, [arxiv/1011.3401](http://arxiv.org/abs/1011.3401)
 
-There are many books in [[physics]] on [[supersymmetry]] (most well known is by Wess and Barger from 1992), but they emphasise more on the [[supersymmetry algebra]]s rather than on (the superspace and) _supermanifolds_. They should therefore rather be listed under entry [[supersymmetry]]. One should also note that there are two different definitions of a supermanifold which are not equivalent (some examples intersect but not all); they are sometimes  connected and even named according to the main proponents of the two approaches: Leites (via [[sheaf|sheaves]]) and de Witt (via [[supernumber]]s). 
+There are many books in [[physics]] on [[supersymmetry]] (most well known is by Wess and Barger from 1992), but they emphasise more on the [[supersymmetry algebra]]s rather than on (the superspace and) _supermanifolds_. They should therefore rather be listed under entry [[supersymmetry]].  
 
 [[!redirects super manifold]]
