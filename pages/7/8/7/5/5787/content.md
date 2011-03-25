@@ -1,3 +1,6 @@
+# Pure morphisms
+* table of contents
+{: toc}
 
 ## In general categorical setup
 
@@ -14,6 +17,7 @@ factors through $g$.  In other words, $f$ has the [[right lifting property]] wit
 
 In a $\kappa$-[[accessible category]] $C$ every $\kappa$-pure morphism is [[monic]]. In a locally $\kappa$-[[locally presentable category|presentable category]] $\kappa$-pure morphisms are, moreover, [[regular monomorphisms]], and in fact coincide with the $\kappa$-[[directed colimits]] of [[split monomorphism]]s in the category of arrows $C^2 = Arr(C)$; more generally this characterization holds in all $\kappa$-accessible categories admiting [[pushouts]] (Ad&#225;mek, Hub, Tholen).  
 
+
 ## In ring theory and for schemes
 
 We work with unital, possibly commutative, [[rings]] and [[modules]].
@@ -26,6 +30,7 @@ $$
 with any right $R$-module $N$ (from the left) yields an exact sequence of abelian groups. 
 
 Grothendieck has proved that faithfully flat morphisms of commutative schemes are of effective descent for the categories of quasicoherent $\mathcal{O}$-modules. But this was not entirely optimal, as there is in fact a more general class than faithfully flat morphisms which satisfy the effective descent. For a local case of commutative rings, [[Joyal]] and Tierney have then proved (unpublished) that the effective descent morphisms for modules are precisely the pure morphisms of rings (or dually of affine schemes). Janelidze and Tholen have reproved the theorem as a corollary of a result for noncommutative rings obtained using the Beck's [[comonadicity theorem]].
+
 
 ## References
 
