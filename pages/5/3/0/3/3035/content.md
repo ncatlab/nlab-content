@@ -17,6 +17,8 @@
 
   * [[Cahiers topos]]
 
+* [[smooth ∞-groupoid]], [[synthetic differential ∞-groupoid]]
+
 ### Higher groupoids
 
 * [[∞-groupoid]]
@@ -36,6 +38,8 @@
 ### Lie theory
 
 * [[Lie theory]]
+
+  * [[Lie integration]]
 
   * [[Lie's three theorems]]
 
@@ -81,13 +85,10 @@
 
 * [[Lie 3-algebra]]
 
-  * [[differental 2-crossed module]]
+  * [[differential 2-crossed module]]
 
 * [[dg-Lie algebra]]
 
-## Integration and differentiation
-
-* [[Lie integration]]
 
 ## Cohomology
 
@@ -115,7 +116,7 @@
 
 * [[Atiyah Lie groupoid]]
 
-* [[schreiber:path ∞-groupoid]]
+* [[fundamental ∞-groupoid]]
 
   * [[path groupoid]]
 
@@ -127,13 +128,21 @@
 
 * [[orthogonal group]]
 
-* [[spin group]]
+  * [[special orthogonal group]]
 
-* [[string 2-group]]
+  * [[spin group]]
 
-* [[fivebrane 6-group]]
+  * [[string 2-group]]
+
+  * [[fivebrane 6-group]]
+
+* [[unitary group]]
+
+  * [[special unitary group]]
 
 * [[∞-Lie groupoid|circle Lie n-group]]
+
+  * [[circle group]]
 
 
 ### $\infty$-Lie algebroids
@@ -144,11 +153,11 @@
 
 * [[Atiyah Lie algebroid]]
 
-* [[n-symplectic manifold]]
+* [[symplectic Lie n-algebroid]]
 
   * [[symplectic manifold]]
 
-  * [[Poisson Lie algebroid]
+  * [[Poisson Lie algebroid]]
 
   * [[Courant Lie algebroid]]
 
@@ -156,12 +165,15 @@
 
 ### $\infty$-Lie algebras
 
+* [[automorphism ∞-Lie algebra]]
+
 * [[string Lie 2-algebra]]
 
 * [[fivebrane Lie 6-algebra]]
 
 * [[supergravity Lie 3-algebra]]
 
+* [[supergravity Lie 6-algebra]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-Lie+theory+-+contents)</div>
