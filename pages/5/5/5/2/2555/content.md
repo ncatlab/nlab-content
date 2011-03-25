@@ -49,11 +49,13 @@ of the codiagonal $X \coprod X \to X$ out of the [[coproduct]] of $X$ with itsel
 
 In some situations the assignment of cylinder objects may exist functorially, in which case one speaks of a [[cylinder functor]].
 
-If $C$ has the structure of a [[model category]] then one usually demands moreover that $X \coprod X \hookrightarrow Cyl(X)$ is a cofibration. The fsctoization axiom of a model category ensures that for each object there is a cylinder object with this property.
+If $C$ has the structure of a [[model category]] then one usually demands moreover that $X \coprod X \hookrightarrow Cyl(X)$ is a cofibration.  The factoization axiom of a model category ensures that for each object there is a cylinder object with this property; in fact, one with the additional property that $Cyl(X) \to X$ is an acyclic fibration.  Cylinder objects such that $X \coprod X \hookrightarrow Cyl(X)$ is a cofibration are sometimes called *good*, and those for which moreover $Cyl(X) \to X$ is an acyclic fibration are then called *very good*.
 
 ## Examples
 
 * In [[sSet]] equipped with the standard [[model structure on simplicial sets]] the standard cylinder object for any $S \in sSet$ is $S \times \Delta[1]$.
+
+* In [[Top]], the standard cylinder $X\times [0,1]$ is a cylinder object for both the Quillen and Hurewicz/Str&#248;m [[model structures on topological spaces]], but it is only "good" (and in fact, very good) for the latter.
 
 ## Related entries
 
