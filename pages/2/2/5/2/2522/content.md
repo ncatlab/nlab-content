@@ -21,7 +21,9 @@ A [[symmetry]] is (in most classical situations) invariance under a [[group]] [[
 
 In the general sense of the word, a **supersymmetry** is invariance under a [[supergroup]] action or a [[super Lie algebra]] action. 
 
-In the stricter sense of the word as it originates in theoretical fundamental [[physics]], _supersymmetry_ refers specifically to [[Lie superalgebra]] extensions of the [[Poincaré Lie algebra]] -- the [[super Poincaré Lie algebra]]. Given a [[gauge theory]] whose fields are [[connection on a bundle|connections]] with values in the Poincar&#233; Lie algebra (the theory of [[gravity]] in its [[first order formulation of gravity|first order formulation]]) a supersymmetric extension_ is a similar [[gauge theory]] with fields being connections in the [[super Poincaré Lie algebra]] -- a theory of [[supergravity]]. A [[gauge transformation]] in such a theory is called a **local supersymmetry transformation**.
+In the stricter sense of the word as it originates in theoretical fundamental [[physics]], _supersymmetry_ refers specifically to [[Lie superalgebra]] extensions of the [[Poincaré Lie algebra]] -- the [[super Poincaré Lie algebra]], often called the **supersymmetry algebra** in this context. An odd element in this [[super Lie algebra]] is called a **supersymmetry generator**.
+
+Given a [[gauge theory]] whose fields are [[connection on a bundle|connections]] with values in the Poincar&#233; Lie algebra (the theory of [[gravity]] in its [[first order formulation of gravity|first order formulation]]) a supersymmetric extension_ is a similar [[gauge theory]] with fields being connections in the [[super Poincaré Lie algebra]] -- a theory of [[supergravity]]. A [[gauge transformation]] in such a theory is called a **local supersymmetry transformation**.
 
 ### In fundamental physics
 
@@ -49,3 +51,6 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 * V. S. Varadarajan, _Supersymmetry for mathematicians: An introduction _ AMS (2004)
 
 [[!redirects supersymmetries]]
+
+[[!redirects supersymmetry algebra]]
+[[!redirects supersymmetry algebras]]
