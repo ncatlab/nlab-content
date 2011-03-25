@@ -30,7 +30,7 @@ $$
   0
 $$
 
-of the [[super Poincare Lie algebra]] $\mathfrak{siso}(10,1)$ in 10+1 dimensions induced by a degree 4-[[∞-Lie algebra cocycle]] $\mu_4$.
+of the [[super Poincare Lie algebra]] $\mathfrak{siso}(10,1)$ in 10+1 dimensions induced by the exceptional degree 4-[[Lie algebra cohomology|super Lie algebra cocycle]]
 
 $$
   \mu = \bar \psi \wedge \Gamma^{a b} \psi \wedge e_a \wedge e_b
@@ -43,6 +43,46 @@ This is the same mechanism by which the [[String Lie 2-algebra]] is a shifted ce
 
 ## Properties
 
+### The Chevalley-Eilenberg algebra
+
++-- {: .num_prop #TheCEAlgebra}
+###### Proposition
+
+The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{sugra}(10,1))$ is generated on 
+
+* elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
+
+* a single element $c$ of degree $(3,even)$ 
+
+* and elements $\{\psi^\alpha\}$ of degree $(1,odd)$
+
+with the differential defined by
+
+$$
+  d_{CE} \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
+$$
+
+$$
+  d_{CE} e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
+$$
+
+$$
+  d_{CE} \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
+$$
+
+$$
+  d_{CE} c = \frac{1}{2}\bar \psi \Gamma^{a b} \wedge \psi \wedge e_a \wedge e_b
+  \,.
+$$
+
+=--
+
+> (fill in details)
+
+
+### Relation to the 11-dimensional polyvector super Poincar&#233;-algebra
+ {#Polyvector}
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -50,7 +90,7 @@ This is the same mechanism by which the [[String Lie 2-algebra]] is a shifted ce
 Let $\mathfrak{der}(\mathfrak{sugra}(10,1))$ be the [[automorphism ∞-Lie algebra]] of $\mathfrak{sugra}(10,1)$. This is a [[dg-Lie algebra]]. Write
 $\mathfrak{der}(\mathfrak{sugra}(10,1))_0$ for the ordinary [[Lie algebra]] in degree 0.
 
-This is [[isomorphic]] to the polyvector-extension of the [[super Poincaré Lie algebra]] (see there) in $d = 10+1$, the Lie algebra spanned by generators
+This is [[isomorphic]] to the polyvector-extension of the [[super Poincaré Lie algebra]] (see there) in $d = 10+1$ -- the _"M-Lie algebra"_ -- with "2-brane central charge": the Lie algebra spanned by generators
 $\{P_a, Q_\alpha, J_{a b}, Z^{a b}\}$ and graded Lie brackets those of the [[super Poincaré Lie algebra]] as well as
 
 $$
@@ -65,8 +105,46 @@ etc.
 
 =--
 
-This computation is in ([Castellani05, section 3.1](#Castellani05)).
+This observation appears in ([Castellani05, section 3.1](#Castellani05)). 
 
+
++-- {: .proof}
+###### Proof
+
+With the presentation of the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{sugra}(10,1))$ as in prop. \ref{TheCEAlgebra} above, the generators are identified with [[derivation]]s on $CE(\mathfrak{sugra}(10,1))$ as
+
+$$
+  P_a = [d_{CE}, \frac{\partial}{\partial e^a} ]
+$$
+
+and
+
+$$
+  Q_\alpha = [d_{CE}, \frac{\partial}{\partial \psi^\alpha} ]
+$$
+
+and
+
+$$
+  J_{a b} = [d_{CE}, \frac{\partial}{\partial \omega^{a b}} ]
+$$
+
+and
+
+$$
+  Z^{a b} = [d_{CE}, e^a \wedge e^b \wedge \frac{\partial}{\partial b}]
+$$
+
+etc. With this it is straightforward to compute the commutators.
+Notably the last term in 
+
+$$
+  [Q_\alpha, Q_\beta] = i (C \Gamma^a)_{\alpha \beta} P_a + (C \Gamma_{a b})Z^{a b} 
+$$
+
+arises from the contraction of the 4-cocycle $\bar \psi \Gamma^{a b} \wedge \psi \wedge e_a \wedge e_b$ with $\frac{\partial}{\partial \psi^\alpha}\wedge \frac{\partial}{\partial \psi^\beta}$.
+
+=--
 
 ## Applications
 
