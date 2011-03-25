@@ -61,9 +61,18 @@ The 4-cocycle in $d = 11$ is the one that induces the [[supergravity Lie 3-algeb
 
 ## References
 
-A comprehensive account and classification of super Poincar&#233; Lie algebras is in
+### Polyvector extensions
+ {#PolyvectorExtensionRefs}
+
+A comprehensive account and classification of the polyvector extensions of the super Poincar&#233; Lie algebras is in
 
 * D. V. Alekseevsky, V. Cort&#233;s, C. Devchand, A. Van Proeyen, _Polyvector Super-Poincar&#233; Algebras_ ([arXiv](http://arxiv.org/abs/hep-th/0311107))
+
+See also
+
+* _The geometry of branes and extended superspaces_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9904/9904137v2.pdf))
+
+### Super Lie algebra cohomology
 
 The exceptional fermionic cocycles of the super Poincar&#233; Lie algebra are discussed in 
 
