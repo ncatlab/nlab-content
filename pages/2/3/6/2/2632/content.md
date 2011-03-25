@@ -96,9 +96,13 @@ For more on this see
 * [[quantum mechanics in terms of †-compact categories]].
 
 
-## References and related entries
+## Related concepts
 
 * [[Hamilton operator]], [[semiclassical approximation]], [[quantization]]
+
+* [[supersymmetric quantum mechanics]]
+
+## References
 
 * Glimm and Jaffe, [[Glimm-Jaffe|Quantum physics%3A a functional integral point of view]] (how to quote the link with : ??)
 
