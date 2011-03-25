@@ -1,11 +1,20 @@
 
+**[[superalgebra]]**
+
+and
+
 **[[supergeometry]]**
 
-## Approaches ##
+## Formal context ##
+
+* [[superpoint]]
+
+* [[super ∞-groupoid]], [[smooth super ∞-groupoid]]
 
 * [[synthetic differential supergeometry]]
 
-## Concepts ##
+
+## Superalgebra ##
 
 * [[super vector space]], [[SVect]]
 
@@ -18,6 +27,9 @@
 * [[super Lie algebra]]
 
   * [[super Poincare Lie algebra]]
+
+
+## Supergeometry ##
 
 * [[supermanifold]], [[SDiff]]
 
@@ -37,12 +49,17 @@
 
 ## Structures
 
+* [[supersymmetry]]
+
 * [[division algebra and supersymmetry]]
 
 ## Applications ##
 
+* [[supergravity]]
+
+* [[supersymmetric quantum mechanics]]
+
 * [[geometric model for elliptic cohomology]]
 
-* [[supergravity]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/supergeometry+-+contents)</div>
