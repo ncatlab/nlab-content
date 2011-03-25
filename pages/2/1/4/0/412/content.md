@@ -193,5 +193,8 @@ For the "mixed" or "m-" model structure:
 
 [[!redirects model category of topological spaces]]
 
+[[!redirects model structures on topological spaces]]
+[[!redirects model structures on Top]]
+
 [[!redirects Quillen model structure on topological spaces]]
 [[!redirects Quillen model structure on Top]]
