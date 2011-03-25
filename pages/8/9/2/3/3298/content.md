@@ -2016,7 +2016,7 @@ A survey of traditional higher order Hochschild (co)homology and further develop
 
 A considerably refined discussion of this which almost makes the construction of Hochschild complexes as an $(\infty,1)$-copowering operation manifest is in
 
-* [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, ([arxiv/1011.6483](http://arxiv.org/abs/1011.6483))
+* [[Grégory Ginot]], Thomas Tradler, [[Mahmoud Zeinalian]], _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, [arxiv/1011.6483](http://arxiv.org/abs/1011.6483)
 {#GinotTradlerZeinalian}
 
 
