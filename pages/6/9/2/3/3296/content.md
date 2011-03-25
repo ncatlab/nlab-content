@@ -34,6 +34,8 @@ $$
 
 Quite generally, for $[c] \in H(X,A)$ an $A$-cohomology class, its image $[k(c)] \in H(X,B)$ is the corresponding **characteristic class**.
 
+Notice that if $A = \mathbf{B}G$ is [[connected]], an $A$-cocycle on $X$ is a $G$-[[principal ∞-bundle]]. Hence characteristic classes are equivalently characteristic classes of principal $\infty$-bundles.
+
 +-- {: .standout}
 
 From the [[nPOV]], where [[cocycle]]s are elements in an [[derived hom space|(∞,1)-categorical hom-space]], forming **characteristic classes** is nothing but the _composition_ of cocycles.
@@ -41,10 +43,6 @@ From the [[nPOV]], where [[cocycle]]s are elements in an [[derived hom space|(�
 =--
 
 In practice one is interested in this notion for particularly simple objects $B$, notably for $B$ an [[Eilenberg-MacLane object]] $\mathbf{B}^n K$ for some component $K$ of a [[spectrum object]]. This serves to **characterize** cohomology with coefficients in a complicated object $A$ by a collection of cohomology classes with simpler coefficients. Therefore the name _characteristic class_ .
-
-+--{.query}
-Zoran: While the discussion of the name 'characteristic class' is plausible, it is, I think, unfortunately not historically true. The continuous map into the classifying space, by which the pullback of a universal class gives the characteristic class of a manifold is traditionally called the **characteristic map**. because that map characterizes that cohomology class. It is not the cohomology *theory* which is characterized by that map, but the very *class*. So characteristic classes are those which can be *characterized* by the maps to given classifying space.
-=--
 
 Then with the usual notation $H^n(X,K) := H(X, \mathbf{B}^n K)$ a given characteristic class in degree $n$ assigns
 
