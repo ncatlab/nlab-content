@@ -1,29 +1,82 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Super-Algebra and Super-Geometry
++--{: .hide}
 [[!include supergeometry - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
-#Definition#
+## Idea
 
-A **super Lie algebra** over a field $k$ is a [[Lie algebra]] [[internalization|internal]] to the [[symmetric monoidal category|symmetric monoidal]] $k$-linear [[category]] [[SVect]] of [[super vector space]]s.
+A _super Lie algebra_ is the analog of a [[Lie algebra]] in [[superalgebra]]/[[supergeometry]]. 
 
-#Examples#
+See also [[supersymmetry]].
 
-* [[super Poincare Lie algebra]]
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+A **super Lie algebra** over a [[field]] $k$ is a [[Lie algebra]] [[internalization|internal]] to the [[symmetric monoidal category|symmetric monoidal]] $k$-linear [[category]] [[SVect]] of [[super vector space]]s.
+
+=--
+
++-- {: .num_note}
+###### Note
+
+This means that a super Lie algebra is 
+
+1. a [[super vector space]] $\mathfrak{g} = \mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}$;
+
+1. equipped with a bilinear bracket
+ 
+   $$
+     [-,-] : \mathfrak{g}\otimes \mathfrak{g} \to \mathfrak{g}
+   $$
+
+   that is _graded_ skew-symmetric: is is skew symmetric on $\mathfrak{g}_{even}$ and _symmetric_ on $\mathfrak{g}_{odd}$.
+
+1. that satisfied the $\mathbb{Z}_2$-graded Jacobi identity:
+
+   $$
+     [x, [y, z]] = [[x,y],z] + (-1)^{deg x deg y} [y, [x,z]]
+     \,.
+   $$
+
+=--
+
++-- {: .num_note}
+###### Note
+
+Equivalently, a super Lie algebra is a "super-representable" Lie algebra internal to the [[cohesive (∞,1)-topos]] [[Super∞Grpd]] over the site of [[super point]]s. 
+
+See the discussion at [[superalgebra]] for details on this.
+
+=--
+
+## Examples
+
+* The [[super Poincare Lie algebra]] and various of its polyvector extension are super-extension of the ordinary [[Poincare Lie algebra]]. These are the [[supersymmetry algebra]]s in the strict original sense of the word. 
 
 * [[super q-Schur algebra]]
 
-# Higher generalizations #
+* higher super Lie algebras
 
-Just as [[Lie algebra]]s are [[vertical categorification|categorified]] to [[L-infinity algebra]]s and [[L-infinity algebroid]]s, so super Lie algebras categorifie to [[super L-infinity algebra]]s.  A secretly famous example is the
+  Just as [[Lie algebra]]s are [[vertical categorification|categorified]] to [[L-infinity algebra]]s and [[L-infinity algebroid]]s, so super Lie algebras categorifie to [[super L-infinity algebra]]s.  A secretly famous example is the
 
-* [[supergravity Lie 3-algebra]]
+  * [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
 
-#References#
+## References
 
 One of the original references (or the original reference?) is
 
