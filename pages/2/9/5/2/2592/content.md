@@ -9,9 +9,7 @@
 =--
 =--
 
- $\cdots\to$ [[fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ **orthogonal group**
 
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -52,3 +50,7 @@ Given a [[manifold]] $X$, lifts of the structure map $X \to \mathcal{B}O(n)$ of 
 * [[Fivebrane structure]]
 
 on $X$.
+
+## Related concepts
+
+ $\cdots\to$ [[fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ **orthogonal group**
