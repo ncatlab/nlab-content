@@ -83,7 +83,7 @@ Lecture Notes in Physics, 509 , J. Wess and V. Akulov (editors)([arXiv:hep-th/97
 
 A comprehensive discussion of the situation over the site of superpoints is given in 
 
-* Christoph Sachse, _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+* [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
 
 The site of formal duals not just to [[Grassmann algebra]]s but to all super-[[infinitesimally thickened point]]s is discussed in
 
