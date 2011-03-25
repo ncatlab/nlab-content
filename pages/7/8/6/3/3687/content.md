@@ -82,24 +82,26 @@ A. N. Kapustin, D. O. Orlov, _Lectures on mirror symmetry, derived categories, a
 
 * partial notes from Miami 08 workshop: [miami08-notes](http://www-math.mit.edu/~auroux/frg/miami08-notes) and abstracts from [miami09](http://www-math.mit.edu/~auroux/frg/miami09-abstracts.html), [miami10](http://www-math.mit.edu/~auroux/frg/miami10-abstracts.html)
 
+* [[Mark Gross]], _Tropical geometry and mirror symmetry_, CBMS regional conf. ser. 114 (2011), based on the CBMS course in Kansas, [AMS book page](http://www.ams.org/bookstore-getitem/item=CBMS-114), [pdf](http://www.math.ucsd.edu/~mgross/kansas.pdf) 
+
 ### Complete proofs {#CompleteProofs}
 
-Here is a list with references that give complete proofs of homological mirror symmetry on certain (types of) spaces.
+Here is a list with references that give complete proofs of *homological* mirror symmetry on certain (types of) spaces.
 
-* M. Abouzaid, I. Smith, _Homological mirror symmetry for the four-torus_ ([arXiv:0903.3065](http://arxiv.org/abs/0903.3065))
+* M. Abouzaid, I. Smith, _Homological mirror symmetry for the four-torus_, Duke Math. J. 152 (2010), 373&#8211;440, [arXiv:0903.3065](http://arxiv.org/abs/0903.3065)
 
-* A. Polishchuk and E. Zaslow, _Categorical mirror symmetry: the elliptic curve_ , Adv. Theor. Math. Phys., 2:443470, 1998.
+* A. Polishchuk and E. Zaslow, _Categorical mirror symmetry: the elliptic curve_, Adv. Theor. Math. Phys. 2:443470, 1998.
 
-* V. Golyshev, V. Lunts, D. Orlov, _Mirror symmetry for abelian varieties_, J. Algebraic Geom. __10__ (2001), no. 3, 433--496, [math.AG/9812003](http://arxiv.org/abs/math/9812003)
+* V. Golyshev, V. Lunts, D. Orlov, _Mirror symmetry for abelian varieties_, J. Alg. Geom. __10__ (2001), no. 3, 433--496, [math.AG/9812003](http://arxiv.org/abs/math/9812003)
 
-* P. Seidel, _Homological mirror symmetry for the quartic surface_ ([arXiv:0310414](http://arxiv.org/abs/math/0310414))
+* P. Seidel, _Homological mirror symmetry for the quartic surface_, [arXiv:0310414](http://arxiv.org/abs/math/0310414)
 
-* Alexander I. Efimov, _Homological mirror symmetry for curves of higher genus_ ([arXiv:0907.3903](http://arxiv.org/abs/0907.3903))
+* Alexander I. Efimov, _Homological mirror symmetry for curves of higher genus_, Inventiones Math. __166__ (2006), 537&#8211;582, [arXiv:0907.3903](http://arxiv.org/abs/0907.3903)
 
-* Auroux, Katzarkov, Orlov, _Mirror symmetry for Del Pezzo surfaces: Vanishing cycles and coherent sheaves_
+* D. Auroux, [[L. Katzarkov]], [[D. Orlov]], _Mirror symmetry for Del Pezzo surfaces: Vanishing cycles and coherent sheaves_, []();  _Mirror symmetry for weighted projective planes and their noncommutative deformations_, Ann. Math. __167__ (2008), 867&#8211;943, [math.AG/0404281](http://arxiv.org/abs/math/0404281)
 
-* Auroux, Katzarkov, Orlov, _Mirror symmetry for weighted projective planes and their noncommutative deformations_
+* [[Mohammed Abouzaid]], Denis Auroux, Alexander I. Efimov, Ludmil Katzarkov, Dmitri Orlov, _Homological mirror symmetry for punctured spheres_, [arxiv/1103.4322](http://arxiv.org/abs/1103.4322)
 
-* Seidel, _Homological mirror symmetry for the genus two curve_
+* Seidel, _Homological mirror symmetry for the genus two curve_, J. Algebraic Geometry, to appear, [arXiv:0812.1171](http://arxiv.org/abs/0812.1171)
 
 [[!redirects homological mirror symmetry]]
