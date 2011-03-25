@@ -37,6 +37,8 @@ is the [[(∞,1)-topos]] of **super $\infty$-groupoids**.
 
 ## Properties
 
+### Cohesion
+
 $Super\infty Grpd$ is a [[cohesive (∞,1)-topos]].
 
 Let 
@@ -53,6 +55,28 @@ $$
 $$
 
 be the [[(∞,1)-sheaf (∞,1)-topos]] of [[smooth super ∞-groupoid]]s. This is cohesive over the [[base topos]] $Super \infty Grpd$.
+
+### Superalgebra
+
+$Super \infty Grpd$ is naturally a [[ringed topos]], with [[commutative ring]]-object
+
+$$
+  \mathbb{K} \in Super \infty Grpd
+$$
+
+which as a presheaf $\mathbb{K} : SuperPoint^{op} \simeq GrAlg \to Set \hookrightarrow sSet$ is given by
+
+$$
+  \mathbb{K} : Spec \Lambda \mapsto \Lambda_{even}
+$$
+
+with ring structure induced over each [[super point]] $\mathbb{R}^{0|q} = Spec \Lambda = Spec \wedge^\bullet \mathbb{R}^q$ from the ring structure of the even part $\Lambda_{even}$ of the [[Grassmann algebra]] $\lambda$.
+
+The [[higher algebra]] over this ring object is what is called [[superalgebra]]. See there for details on this.
+
+### Supergeometry
+
+(...) [[supergeometry]] (...)
 
 ## References
 
