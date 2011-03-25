@@ -57,25 +57,39 @@ Alternatively, Lie algebras are the algebras over certain quadratic [[operad]], 
 
 See [[Lie algebra cohomology]].
 
-## Lie integration
+
+## Lie theory
 
 See
 
-* [[Lie integration]];
+* [[Lie theory]]
 
-* [[Lie theory]].
+  * [[Lie integration]]
 
-## Special properties
+  * [[Lie's three theorems]]
 
-* [[abelian Lie algebra]]
 
-* [[simple Lie algebra]]
+## Extra stuff, structure, properties
 
-* [[semisimple Lie algebra]]
+Notions of Lie algebras with extra [[stuff,structure, property]] includes
 
-## Higher Lie algebras
+* extra property
 
-The notion of  _Lie algebra_ is a special case that of [[∞-Lie algebra]] and more generally that of [[∞-Lie algebroid]]. See there for more details.
+  * [[abelian Lie algebra]]
+
+  * [[simple Lie algebra]]
+
+  * [[semisimple Lie algebra]]
+
+* extra structure
+
+  * [[super Lie algebra]]
+
+* extra stuff
+
+  * [[∞-Lie algebra]]
+
+  * [[∞-Lie algebroid]]
 
 
 ## Examples
