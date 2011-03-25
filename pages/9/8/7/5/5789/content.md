@@ -1,0 +1,48 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents
+* table of contents
+{:toc}
+
+
+## Idea
+
+Where a system of [[quantum mechanics]] is specified by
+
+* a [[Hilbert space]] $\mathcal{H}$;
+
+* a [[hermitean operator]] $H$  on $\mathcal{H}$ -- the [[Hamiltonian]];
+
+a system of _supersymmetric quantum mechanics_ has 
+
+* a [[super Hilbert space]] $\mathcal{H}$;
+
+* an odd operator $D$ in $\mathcal{H}$;
+
+* such that $D \circ D = H$ is the [[Hamiltonian]].
+
+If we regard the Hamiltonian as the generator of the [[Poincare Lie algebra]] in one dimension, then the graded commutator $[D,D] = 2 H$ is the [[supersymmetry]] extension to the [[super Poincare Lie algebra]].
+
+The data of a system of supersymmetric quantum mechanics may also be formalized in terms of a [[spectral triple]].
+
+## References
+
+* [[Edward Witten]], _Supersymmetry and Morse theory_  J. Differential Geom. Volume 17, Number 4 (1982), 661-692. ([Euclid](http://projecteuclid.org/euclid.jdg/1214437492))
+
