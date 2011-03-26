@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -107,7 +106,7 @@ and in higher dimensions more generally in
 * Michael Movshev, [[Albert Schwarz]], Renjun Xu, _Homology of Lie algebra of supersymmetries_ ([arXiv](http://arxiv.org/abs/1011.4731)) .
 
 
-
+C. Chrysso&#8204;malakos, J. A. de Azc&aaacute;rraga1, J. M. Izquierdo and C. P&#233;rez Bueno
 
 
 [[!redirects super Poincaré Lie algebra]]
