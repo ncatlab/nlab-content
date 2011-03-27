@@ -18,14 +18,9 @@ A scheme is a ringed space that is locally isomorphic to an affine space.
 
 =--
 
-is much more general and need not be restricted to a notion of affine spaces that are [[duality|formal duals]] of rings.
-But then one talks about locally affine *spaces*. 
+is much more general and need not be restricted to the locality in Zariski topology and to a notion of affine spaces that are [[duality|formal duals]] of rings. If one takes another subcanonical Grothendieck topology $\tau$ on $Aff$ then one talks about __$\tau$-locally affine spaces__. More generally one can take another "category of local models" $Loc$ replacing $Aff$ and suitable topology and consider sheaves on it, as locally affine space in this generalized sense. The category $Loc$ can sometimes be represented by ringed spaces of special type and the gluing can be sometimes made in a genuine (classical, not Grothendieck) topology, within the category of ringed spaces. 
 
-+--{.query}
-Zoran: this gives wrong impression that Grothendieck school was working with ringed spaces and not functor of points. This is true for EGA but not for most of works of Grothendieck school. The things about generalization called locally affine space should go under [[locally affine space]] and under [[functor of points] and not here. There is also redundancy in new text. 
-=--
-
-For instance a smooth [[manifold]] is a ringed space that is locally isomorphic to a "smooth affine space" $\mathbb{R}^n$, with its standard smooth structure.
+For instance a smooth [[manifold]] is a ringed space locally isomorphic to a "smooth affine space" $\mathbb{R}^n$, with its standard smooth structure.
 
 The standard concept of scheme in [[algebraic geometry]] is therefore usefully understood as a special case of [[generalized scheme]]s that naturally appear for instance also in [[differential geometry]], in [[synthetic differential geometry]] and many other topics.
 
@@ -53,7 +48,7 @@ Zoran: This is superfluous: the definition of morphisms in the category of LOCAL
 
 ## Functor of points approach: as sheaves on $CRing^{op}$ ##
 
-The fundamental theorem on morphisms of schemes is a [[fully faithful functor]] from the category of schemes to the category of [[presheaf|presheaves]] on $Aff = CRing^{op}$ 
+The __fundamental theorem on morphisms of schemes__ asserts that there is a [[fully faithful functor]] from the category of schemes to the category of [[presheaf|presheaves]] on $Aff = CRing^{op}$ 
 which sends $(X, \mathcal{O}_X)$ to the functor
 
 $$
@@ -66,24 +61,37 @@ This identifies schemes with those presheaves on [[CRing]]${}^{op}$ that
 1. are [[sheaf|sheaves]] with respect to the Zariski [[Grothendieck topology]] on $CRing^{op}$;
 2. have a [[cover]] by Zariski-open immersions of [[affine scheme]]s in the category of presheaves over $Aff$.
 
-The standard reference for the functor-of-points approach to schemes is 
-
-* M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970
-
+The standard reference for the functor-of-points approach to schemes is Demazure-Gabriel. 
 
 #Generalizations#
 
 In [[algebraic geometry]] this is a basic object of study, since the revolution of [[Grothendieck]]. There are generalizations like [[relative schemes]] (which are just objects in a [[slice category]] $Sch/S$), relative schemes in [[noncommutative algebraic geometry]] introduced by A. Rosenberg in terms of categories and covers defined using pairs of [[adjoint functors]], the generalized schemes of [[Nikolai Durov]], the [[algebraic stack]]s of [[Deligne-Mumford stack|Deligne-Mumford]] and Artin, the dg-schemes of Kapranov, the [[derived scheme]]s of [[Jacob Lurie]], the higher [[algebraic stack]]s of [[Bertrand Toen|Toën]]--Vezzosi, almost schemes (Ofer Gabber and Lorenzo Ramero), formal schemes (Cartier--Grothendieck), [[locally affine spaces]] in the fpqc, fppf or &#233;tale topology (Grothendieck), [[algebraic spaces]], etc. 
 
-See also [wikipedia](http://en.wikipedia.org/wiki/Scheme_%28mathematics%29). [[EGA]] says prescheme, for what we call algebraic scheme, and says scheme for what we call [[separated scheme]].
-
 
 #References#
 
-A useful quick introduction that presents the concept in the light of its higher categorical generalizations is at the beginning of 
+Terminology: [[EGA]] says prescheme, for what we call algebraic scheme, and says scheme for what we call [[separated scheme]].
 
-* [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
+#### Standard monographs
 
+* Robin Hartshorne, _Algebraic geometry_, Springer
+* Qing Liu, _Algebraic geometry and arithmetic curves_, 592 pp. Oxford Univ. Press 2002 
+* D. Eisenbud, J. Harris, _The geometry of schemes_, Springer Grad. Texts in Math.
+* [[David Mumford]], _Red book of varieties and schemes_
+* Amnon Neeman, _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__ 
+* William Fulton, _Intersection theory_, Springer 1984
+* Ulrich G&#246;rtz, Torsten Wedhorn, _Algebraic geometry I. Schemes with examples and exercises_, Advanced Lectures in Mathematics. Vieweg + Teubner, Wiesbaden, 2010. viii+615 pp. [Springerlink book](http://www.springerlink.com/content/kt5u74/#section=748613&page=1)
+* M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 (functor of points approach, mainly)
+* [[EGA]], [[FGA explained]]
+
+#### Other references
+
+* Ravi Vakil's Berkeley [course notes](http://math.stanford.edu/~vakil/0708-216)
+* [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]  -- at the beginning one fins a quick introduction in the light of its higher categorical generalizations 
+
+* Wikipedia: [scheme (mathematics)](http://en.wikipedia.org/wiki/Scheme_%28mathematics%29). 
+
+MathOverflow: [arbitrary-products-of-schemes-dont-exist](http://mathoverflow.net/questions/9134/arbitrary-products-of-schemes-dont-exist-do-they), [model-of-a-scheme-regular-over-the-generic-point](http://mathoverflow.net/questions/32196/model-of-a-scheme-regular-over-the-generic-point), [categorical-construction-of-the-category-of-schemes](http://mathoverflow.net/questions/26506/categorical-construction-of-the-category-of-schemes), [when-is-an-algebraic-space-a-scheme](http://mathoverflow.net/questions/4573/when-is-an-algebraic-space-a-scheme), [is-an-algebraic-space-group-always-a-scheme](http://mathoverflow.net/questions/8918/is-an-algebraic-space-group-always-a-scheme)
 
 [[!redirects schemes]]
 [[!redirects algebraic scheme]]
