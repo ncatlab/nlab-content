@@ -170,9 +170,14 @@ $$
     \\
     & \simeq
     Hom_{Ch^\bullet(SVect)}(\mathfrak{g}^*\otimes \Lambda^q ,  \Omega^\bullet_{vert}( \Delta^n))
+    \\
+    & \simeq
+    Hom_{Ch^\bullet(SVect)}((\mathfrak{g} \otimes \Lambda_q)^* ,  \Omega^\bullet_{vert}( \Delta^n))
   \end{aligned}
   \,.
 $$
+
+Here in the third step we used that the underlying dg-algebra of $CE(\mathfrak{g})$ is free to find the space of morphisms of dg-algebras inside that of super-vector spaces (of generators) as indicated. Since the differential on both sides is $\Lambda_q$-linear, the claim follows.
 
 =--
 
