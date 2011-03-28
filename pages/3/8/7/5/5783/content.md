@@ -84,13 +84,14 @@ We discuss the general abstract
 <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesive (∞,1)-topos</a> realized in $Super \infty Grpd$.
 
 ### Exponentiated $\infty$-Lie algebras
+ {#ExponentiatedLieAlgebras}
 
 We discuss <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebras">Exponentiated ∞-Lie algebras</a> in $Super \infty Grpd$.
 
 +-- {: .num_defn #SuperLInfinityAlgebra}
 ###### Definition
 
-A **super $L_\infty$-algebra** is an [[L-∞ algebra]] [[internalization|internal to]] [[super vector space]]s. 
+A **[[super L-∞ algebra]]** is an [[L-∞ algebra]] [[internalization|internal to]] [[super vector space]]s. 
 
 The [[category]] of super $L_\infty$-algebras is
 
@@ -132,7 +133,7 @@ Here on the right we have [[vertical differential form]]s with resppect to the p
 +-- {: .num_note}
 ###### Note
 
-For $q \in \mathb{N}$ write $\Lambda_q := C^\infty(\mathbb{R}^{0|q})$ for the [[Grassmann algebra]] on $q$-generators, being the global functions on the [[super point]] $\mathbb{R}^{0|q}$. 
+For $q \in \mathbb{N}$ write $\Lambda_q := C^\infty(\mathbb{R}^{0|q})$ for the [[Grassmann algebra]] on $q$-generators, being the global functions on the [[super point]] $\mathbb{R}^{0|q}$. 
 
 Over $\mathbb{R}^{0|q}$ the super Lie integration from def \ref{Exp} is the ordinary [[Lie integration]] of the ordinary [[L-∞ algebra]] $(\mathfrak{g} \otimes_k \Lambda_q)_{even}$
 
