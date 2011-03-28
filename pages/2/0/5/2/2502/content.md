@@ -69,7 +69,7 @@ A comprehensive account and classification of the polyvector extensions of the s
 
 See also
 
-* _The geometry of branes and extended superspaces_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9904/9904137v2.pdf))
+* C. Chrysso&#8204;malakos, J. A. de Azc&#225;rraga1, J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9904/9904137v2.pdf))
 
 ### Super Lie algebra cohomology
 
@@ -106,7 +106,6 @@ and in higher dimensions more generally in
 * Michael Movshev, [[Albert Schwarz]], Renjun Xu, _Homology of Lie algebra of supersymmetries_ ([arXiv](http://arxiv.org/abs/1011.4731)) .
 
 
-C. Chrysso&#8204;malakos, J. A. de Azc&aaacute;rraga1, J. M. Izquierdo and C. P&#233;rez Bueno
 
 
 [[!redirects super Poincaré Lie algebra]]
