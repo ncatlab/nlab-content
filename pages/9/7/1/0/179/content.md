@@ -77,7 +77,7 @@ general abstract definition \ref{TheGeneralAbstractDefinition} of $\infty$-Lie a
 
 
 
-+-- {: .num_defn}
++-- {: .num_defn #LInftyGlgebroid}
 ###### Definition
 
 Let
@@ -281,7 +281,7 @@ where the first morphism is the [[monoidal Dold-Kan correspondence]] as in prop.
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #RemarkOnModelStructure}
 ###### Remark
 
 We do not consider the standard [[model structure on dg-algebras]] and do not consider $L_\infty Algd$ itself as a [[model category]] and do not consider an [[(∞,1)-category]] spanned by it. Instead, the functor $i : L_\infty Algd \to SynthDiff\infty Grpd$ only serves to exhibit a class of objects in $SynthDiff\infty Grpd$, which below in the section [Models for the abstract axioms](#ModelsForTheAbstractAxioms) we show are indeed $\infty$-Lie algebroids by the general abstract definition, \ref{TheGeneralAbstractDefinition}. All the [[homotopy theory]] of objects in $L_\infty Algd$ is that of $SynthDiff\infty Grpd$ after this embedding.
@@ -363,7 +363,7 @@ for the projective and injective [[global model structure on functors]] on the [
 
 
 
-+-- {: .num_prop }
++-- {: .num_prop #LInftyAlgIsInfinitesimalObject}
 ###### Proposition
 
 Let $\mathfrak{g}$ be an [[L-∞ algebra]], regarded as an $L_\infty$-algebroid $b \mathfrak{g} \in L_\infty Algd$ over the point
@@ -584,14 +584,14 @@ where $\tilde D(k,n)$ is the [[smooth locus]] of [[infinitesimal object|infinite
 
 The following definition may be either taken as an informal but instructive definition -- in which case the [next definition](#FunctionsOnTwiddleD) is to be taken as the precise one --  or in fact it may be already itself be taken as the fully formal and precise definition if one reads it in the [[internal logic]] of any [[smooth topos]] with line object $R$ -- which for the present purpose is the [[Cahiers topos]] with line object $\mathbb{R}$. (For an exposition of the latter perspective see ([Kock](#Kock))).
 
-+-- {: .un_defn #FunctionsOnTwiddleD}
++-- {: .num_defn #FunctionsOnTwiddleD}
 ###### Definition
 
 
 For $k,n \in \mathbb{N}$, an **infinitesimal $k$-[[simplex]]** in $R^n$ based at the origin is a collection $(\vec \epsilon_a \in R^n)_{a = 1}^k$ of points in $R^n$, such that each is an infinitesimal neighbour of the origin
 
 $$
-  \forall a : \;\; \vec \epsilon_i \sim 0
+  \forall a : \;\; \vec \epsilon_a \sim 0
 $$ 
 
 and such that all are infinitesimal neighbours of each other
@@ -607,7 +607,7 @@ Write $\tilde D(k,n) \subset R^{k \cdot n}$ for the space of all such infinitesi
 
 Equivalently:
 
-+-- {: .un_defn}
++-- {: .num_defn #FuntionsOnInfinitesimalSimplices}
 ###### Definition
 
 For $k,n \in \mathbb{N}$, the [[smooth algebra]]
@@ -640,7 +640,7 @@ $$
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #InterpretationOfRelations}
 ###### Remark
 
 In the above form these relations are the manifest analogs of the conditions $\vec \epsilon_a \sim 0$ and $(\vec \epsilon_a - \vec \epsilon_{a'}) \sim 0$.
@@ -675,7 +675,7 @@ This appears as ([Kock, (1.2.1)](#Kock)).
 
 Since $C^\infty(\tilde D(k,n))$ is a [[infinitesimally thickened point|Weil algebra]] in the sense of [[synthetic differential geometry]], its structure as an $\mathbb{R}$-algebra extends uniquely to the structure of a [[smooth algebra]] (as discussed there) and we may think of $\tilde D(k,n)$ as an infinitesimal [[smooth locus]].
 
-+-- {: .un_example}
++-- {: .num_example #examplen2k2}
 ###### Example
 
 For $n = 2$ and $k = 2$ we have that $C^\infty(\tilde D(2,2))$ consists of elements of the form
@@ -742,7 +742,7 @@ $$
 for the corresponding [[determinant]], given as a product of generators in $C^\infty(\tilde D(k,n))$. Here the sum runs over all [[permutation]]s $\sigma$ of $\{1, \cdots, r\}$ and $sgn(\sigma) \in \{+1, -1\} \subset \mathbb{R}$ is the [[signature]] of the permutation $\sigma$.
 
 
-+-- {: .un_prop}
++-- {: .num_prop #FunctionsOnSimplicesByMatrices}
 ###### Proposition
 
 
@@ -897,7 +897,8 @@ $$
 =--
 
 
-#### Tangent Lie algebroid {#TangentLieAlgebroid}
+#### Tangent Lie algebroid 
+  {#TangentLieAlgebroid}
 
 
 For $X$ any [[smooth manifold]], there is a standard notion of the [[Lie algebroid]] which is the [[tangent Lie algebroid]] 
@@ -906,9 +907,70 @@ $$
   \mathfrak{a} = T X
 $$
 
-of $X$. 
+of $X$. We discuss this from the perspective of infinitesimal groupoids.
 
-+-- {: .un_prop}
+
++-- {: .num_defn #InfinitesimalSingularSimplicialComplex}
+###### Definition
+
+For $U \in CartSp_{synthdiff}$, the [[infinitesimal singular simplicial complex]]
+$X^{(\Delta^\bullet_{inf})}$ is the simplicial [[smooth locus]] which in terms  in degree $n$ is the space of $(k+1)$-tuples of pairwise infinitesimal neighbour points in $U$
+
+$$
+  U^{(\Delta^n_{inf})} = 
+  \left\{
+    x_{i_0}, \cdots x_{i_n} \in U | \forall r,s : x_{i_r} \sim x_{i_s}
+  \right\}
+$$
+
+and whose face and degeneracy maps are as for the finite [[singular simplicial complex]].
+
+More explicitly, in terms of the spaces from def. \ref{FunctionsOnTwiddleD} we may identify
+
+$$
+  U^{(\Delta^\bullet_{inf})}
+  =
+  \left(
+    \cdots
+    U \times \tilde D(dim U, 2)
+    \stackrel{\to}{\stackrel{\to}{\to}}U \tilde \tilde D(dim U, 1)\stackrel{\to}{\to} U
+  \right)
+  \,,
+$$
+
+where in degree $n$ a [[generalized element]] $(x, (\vec \epsilon_a)_{a = 1, \cdots, dim U})$ of $U \times \tilde D(dim U, n)$ is thought of as a base point $x$ and $dim U$ infinitesimal paths starting at that basepoint
+
+$$
+  (x_0, \cdots, x_n) = ( x, x + \epsilon_1, \cdots, x + \epsilon_{dim U} )
+  \,.
+$$
+
+The dual cosimplicial algebra is read off from this,
+
+$$
+  C^\infty(U^{(\Delta^\bullet_{inf})})
+  = 
+  \left(
+    \cdots C^\infty(U \times \tilde D(dim U ,1)) \stackrel{\overset{d_0^*}{\leftarrow}}{\underset{d_1^*}{\leftarrow}} C^\infty(U)
+  \right)
+  \,.
+$$
+
+For instance for $f \in C^\infty(U)$ we have $d_1^* f = f $ and $(d_2^* f)(x,\epsilon_1) = f(x + \epsilon_1) = f(x) + \frac{\partial f}{\partial x^i} \epsilon^i_1$.
+
+
+=--
+
++-- {: .num_not #InfinitesimalSingularNotAKanComplex}
+###### Note
+
+The object $X^{(\Delta^\bullet_{inf})}$ is not objectwise a [[Kan complex]]:
+in general the composite of two first order neighbours produces a second order infinitesimal neighbour. Its [[Kan fibrant replacement]] may be thought of as the infinitesikmal $\infty$-groupoid whose morphisms are paths of a finite number of first order infinitesimal steps.
+
+=--
+
+
++-- {: .num_prop #TangentLieAlgebroidAsSimplicialObject}
 ###### Proposition
 
 The image of $T X$ under the embedding $i$ from def. \ref{EmbeddingOfThePresentation} is the [[simplicial object|simplicial]] [[smooth locus]] given by the [[infinitesimal singular simplicial complex]] 
@@ -1053,7 +1115,7 @@ $$
   \,. 
 $$
 
-+-- {: .un_prop}
++-- {: .num_prop #CEAlgebraFromNormalizedCochains}
 ###### Proposition
 
 The normalized cochain complex of the cosimplicial alghebra of functions on this $b \mathfrak{g}$ is isomorphic to the ordinary [[Chevalley-Eilenberg algebra]] $(\wedge^\bullet \mathfrak{g}^*, [-,-]^*)$ of $\mathfrak{g}$.
