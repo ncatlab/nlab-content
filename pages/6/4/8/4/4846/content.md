@@ -17,7 +17,12 @@
 
 ## Definition
 
-The _supergravity Lie 6-algebra_ is an extension of the [[supergravity Lie 3-algebra]] by a super-[[Lie algebra cohomology|Lie algebra cocycle]] in degree 7.
+The _supergravity Lie 6-algebra_ is a [[super L-∞ algebra]] that is an extension of the [[supergravity Lie 3-algebra]] by a super-[[Lie algebra cohomology|Lie algebra cocycle]] in degree 7.
+
+$$
+  b^5 \mathbb{R} \to \mathfrak{sugra}_6 \to \mathfrak{sugra}_3
+  \,.
+$$
 
 In terms of its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{sugra}_6)$ it is defined by
 
@@ -66,5 +71,7 @@ Page 18 of
 
 Section III.8.3 of 
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], 
+
+  _[[Supergravity and Superstrings - A Geometric Perspective]]_
 {#CastellaniDAuriaFrre}
