@@ -2083,7 +2083,7 @@ $\infty$-bundle given by the cocycle $X \to \mathbf{\Pi}(X) \stackrel{\omega}{\t
 +-- {: .un_prop #deRhamWithDiscCoeffsIsTrivial}
 ###### Proposition
 
-The de Rham cohomology with coefficients in discrete object is trivial: for all $S \in \infty Grpd$ we have
+The de Rham cohomology with coefficients in discrete objects is trivial: for all $S \in \infty Grpd$ we have
 
 $$
   \mathbf{\flat}_{dR} Disc S \simeq *
