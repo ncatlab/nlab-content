@@ -42,7 +42,7 @@ From the [[nPOV]], where [[cocycle]]s are elements in an [[derived hom space|(âˆ
 
 =--
 
-In practice one is interested in this notion for particularly simple objects $B$, notably for $B$ an [[Eilenberg-MacLane object]] $\mathbf{B}^n K$ for some component $K$ of a [[spectrum object]]. This serves to **characterize** cohomology with coefficients in a complicated object $A$ by a collection of cohomology classes with simpler coefficients. Therefore the name _characteristic class_ .
+In practice one is interested in this notion for particularly simple objects $B$, notably for $B$ an [[Eilenberg-MacLane object]] $\mathbf{B}^n K$ for some component $K$ of a [[spectrum object]]. This serves to **characterize** cohomology with coefficients in a complicated object $A$ by a collection of cohomology classes with simpler coefficients. Historically the name _characteristic class_ came a little different way about, however (see also [[historical note on characteristic classes]]).
 
 Then with the usual notation $H^n(X,K) := H(X, \mathbf{B}^n K)$ a given characteristic class in degree $n$ assigns
 
