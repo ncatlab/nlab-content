@@ -239,7 +239,7 @@ The nerve $N(C)$ of a category is [[coskeleton|2-coskeletal]].
 
 =--
 
-Hence all [[horn]] inclusions $\Lambda[n]_i \hookrightarrow \Delta[n]$ have unique fillers for $n \gt 3$, and all boundary inclusions $\partial \Delta[n] \hookrightarrow \Delta[n]$ have unique fillers for $n \heq 3$.
+Hence all [[horn]] inclusions $\Lambda[n]_i \hookrightarrow \Delta[n]$ have unique fillers for $n \gt 3$, and all boundary inclusions $\partial \Delta[n] \hookrightarrow \Delta[n]$ have unique fillers for $n \geq 3$.
 
 Here the point as compared to the previous statements is that in particular all the outer horns have fillers for $n \gt 3$.
 
