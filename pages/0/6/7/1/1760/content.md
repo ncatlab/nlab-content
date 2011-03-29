@@ -76,6 +76,8 @@ $$
 
 and we say that $\mathbf{B} A$ is the **delooping** of $A$.
 
+See the section <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#Delooping">delooping</a> at [[groupoid object in an (∞,1)-category]] for more.
+
 ## Remarks
 
 If $\mathbf{B}$ is even a [[stable (∞,1)-category]] then all deloopings exist and are then also denoted $\Sigma A$ and called the **[[suspension]]** of $A$.
