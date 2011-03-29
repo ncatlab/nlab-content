@@ -2582,7 +2582,7 @@ $$
     H_{dR}^{n+1}(X,A)
 $$ 
 
-for the cocycle $\infty$-groupoid of [[twisted cohomology]] of $X$ with coefficients in $A$ induced by the canonical [curvature characteristic morphism](#CurvatureCharacteristics) 
+for the cocycle $\infty$-groupoid of [[twisted cohomology]] of $X$ with coefficients in $A$ and with twist given by the canonical [curvature characteristic morphism](#CurvatureCharacteristics) 
 $curv : \mathbf{B}^n A \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1} A$. This is the [[(∞,1)-pullback]]
 
 $$
@@ -2600,7 +2600,7 @@ $$
   \,,
 $$
 
-where the right vertical morphism $\pi_0 \mathbf{H}_{dR}(X,\mathbf{B}^{n+1}A)
+where the right vertical morphism $H^{n+1}_{dR}(X) = \pi_0 \mathbf{H}_{dR}(X,\mathbf{B}^{n+1}A)
  \to \mathbf{H}_{dR}(X,\mathbf{B}^{n+1}A)$ is any choice of cocycle representative for each cohomology class: a choice of point in every connected component.
 
 We call
@@ -2809,7 +2809,7 @@ $$
     \\
     {*} 
       &\to& 
-    \mathbf{H}(X, \mathbf{B} n A) 
+    \mathbf{H}(X, \mathbf{B}^n A) 
       &\stackrel{curv}{\to}&
     \mathbf{H}_{dR}(X, \mathbf{B}^{n+1} A)
   }
@@ -2819,7 +2819,8 @@ $$
 The square on the right is a pullback by the above definition.
 Since also the square on the left is assumed to be an $(\infty,1)$-pullback
 it follows by the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-pullback#QuasiCatPastingLaw">pasting law for (∞,1)-pullbacks</a> that the top left object is
-the $(\infty,1)$-pullback of the total rectangle diagram. That is 
+the $(\infty,1)$-pullback of the total rectangle diagram. 
+That total diagram is 
 
 $$
   \array{
@@ -2867,7 +2868,8 @@ the claim follows.
 
 This is essentially the short exact sequence whose form is familiar from the traditional definition of [[ordinary differential cohomology]] only up to the following slight nuances in notation:
 
-1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[?LieGrpd]] and $|X| \in Top$ the geometric realization of a paracompact manifold $X$, we have that $H^n(X,\mathbb{R}/\mathbb{Z})$ above is $H^{n+1}_{sing}({|\Pi X|},\mathbb{Z})$. 
+1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[?LieGrpd]], $A = U(1) =\mathbb{R}/\mathbb{Z}$
+the [[circle group]] and $|X| \in Top$ the geometric realization of a paracompact manifold $X$, we have that $H^n(X,\mathbb{R}/\mathbb{Z})$ above is $H^{n+1}_{sing}({|\Pi X|},\mathbb{Z})$. 
 
 1. The fact that on the left  of the short exact sequence for differential cohomology we have the de Rham cohomology set $H_{dR}^n(X,A)$ instead of 
 something like the set of all flat forms as familiar from 
@@ -2921,7 +2923,7 @@ $$
     \mathbf{\flat}_{dR} \mathbf{B}^{n+1} A
 $$
 
-represents the corresponding [[differential characteristic class]] or **[[curvature characteristic class]]** in 
+represents the corresponding [[differential characteristic class]] or **[[curvature characteristic class]]** 
 $[\mathbf{c}_{dR}] \in H_{dR}^{n+1}(\mathbf{B}G, A)$.
 
 The induced map on cohomology
@@ -3051,7 +3053,7 @@ Let $dim(\Sigma)$ be the maximum $n$ for which this is true.
 +-- {: .un_prop}
 ###### Observation
 
-If $\Sigma$ has [[cohomological dimension]] $\leq n$ then its  [intrinsic de Rham cohomology](#deRhamCohomology) vanishes in degree $\geq n$
+If $\Sigma$ has [[cohomological dimension]] $\leq n$ then its  [intrinsic de Rham cohomology](#deRhamCohomology) vanishes in degree $k \gt n$
 
 $$
   H_{dR}^{k \gt n}(\Sigma, A) \simeq *
