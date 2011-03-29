@@ -277,6 +277,57 @@ In $C$ is an [[(∞,1)-topos]], then every groupoid object in $C$ is an effectiv
 This is [[Higher Topos Theory|HTT, theorem 6.1.0.6 (4) iv)]].
 
 
+### Delooping
+  {#Delooping}  
+
+For $\mathcal{X}$ an [[(∞,1)-category]] with [[(∞,1)-pullback]]s and for
+$x : * \to X$ a [[pointed object|pointed]] object in $\mathcal{X}$, its [[loop space object]] at $x$ is the [[(∞,1)-pullback]]
+
+$$
+  \Omega_x X := {*} \prod_{X} {*}
+$$
+
+hence the object universally filling the diagram
+
+$$
+  \array{
+    \Omega_x X &\to& *
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{x}}
+    \\
+    * &\stackrel{x}{\to}& X
+  }
+  \,.
+$$
+
+Since this is the beginning of the [[Cech nerve]] of $* \to X$, $\Omega_x X$ is naturally equipped with the structure of an $\infty$-group object in $\mathcal{X}$.
+
++-- {: .un_prop}
+###### Proposition
+
+Let $\mathcal{X}$ be an [[(∞,1)-topos]]. Then the operation of forming [[loop space]] objects constitutes an [[equivalence of (∞,1)-categories]]
+
+$$
+  \Omega : PointedConnected(\mathcal{X}) \stackrel{\simeq}{\to}
+   Grp(\mathcal{X})
+$$
+
+from the full [[sub-(∞,1)-category]] of the [[over-(∞,1)-category|under-(∞,1)-category]] $*/\mathcal{X}$ of [[pointed object]]s on those that are also [[0-connected]] (hence those that have an essentially unique point) with the $(\infty,1)$-category of group objects in $\mathcal{X}$.
+
+=--
+
+This is [[Higher Topos Theory|HTT, lemma 7.2.2.11 (1)]]
+
+The inverse to $\Omega$ we write 
+
+$$
+  \mathbf{B} : Grp(\mathcal{X}) \to PointedConnected(\mathcal{X})
+  \,.
+$$
+
+For $G \in Grp(\mathcal{X})$ we call $\mathbf{B}G$ its [[delooping]].
+
+
 
 ## Examples
 
