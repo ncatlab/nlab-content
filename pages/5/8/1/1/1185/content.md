@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -16,7 +15,7 @@ Na&#239;vely, a **cardinal number** should be an [[isomorphism]] class of [[sets
 
 Then a **finite cardinal** is the cardinality of a [[finite set]], while an **infinite cardinal** or **transfinite cardinal** is the cardinality of an [[infinite set]].  (If you interpret both terms in the strictest sense, then there may be cardinals that are neither finite nor infinite, without some form of the [[axiom of choice]]).
 
-Taking this definition literally in material [[set theory]], each cardinal is then a [[proper class]] (so one could not make further sets using them as elements).  For this reason, in axiomatic set theory one usually defines a cardinal number as a particular representative of this equivalence class.  There are several ways to do this:
+Taking this definition literally in material [[set theory]], each cardinal is then a [[proper class]] (so one could not make further sets using them as elements).  For this reason, in axiomatic set theory one usually defines a cardinal number as a particular representative of this [[equivalence class]].  There are several ways to do this:
 
 * The __cardinality__ of a set $S$ is the smallest possible ordinal rank of any [[well-order]] on $S$.  In other words, it is the smallest [[ordinal number]] (usually defined following von Neumann) which can be put in bijection with $S$.  A __cardinal number__ is then any cardinality, i.e. any ordinal which is not in bijection with any smaller ordinal.
 
