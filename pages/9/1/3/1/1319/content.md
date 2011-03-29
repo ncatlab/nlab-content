@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -45,9 +44,9 @@ It is common to assume additional closure conditions on $W$ which make no differ
 In the presence of either sort of calculus of fractions, the 2-out-of-6 property is equivalent to _saturation_ of $W$, i.e. that any morphism in $C$ which becomes an isomorphism in $C[W^{-1}]$ is already in $W$.  Therefore, in this case we may equivalently call $(C,W)$ _saturated_.  See 7.1.20 of [[Categories and Sheaves]], in which a pair $(C,W)$ admitting a calculus of left fractions is called a _right multiplicative system_. 
 
 
-## Construction of the Localization ##
+## Construction of the localization ##
 
-Suppose that $(C,W)$ admits a calculus of right fractions.  Then the [[localization]] of $C$ at $W$ can be realized by taking the same objects as in $C$ and the [[hom-set]] $C[W^{-1}](a,b)$ to be the set of equivalence classes of [[span|spans]] whose left leg is in $W$, under the equivalence relation where $a\stackrel{v}\leftarrow a'\stackrel{f}\rightarrow b$ is equivalent to $a\stackrel{w}\leftarrow a''\stackrel{g}\rightarrow b$ iff there exists an object $\bar{a}$
+Suppose that $(C,W)$ admits a calculus of right fractions.  Then the [[localization]] of $C$ at $W$ can be realized by taking the same objects as in $C$ and the [[hom-set]] $C[W^{-1}](a,b)$ to be the set of [[equivalence classes]] of [[span|spans]] whose left leg is in $W$, under the equivalence relation where $a\stackrel{v}\leftarrow a'\stackrel{f}\rightarrow b$ is equivalent to $a\stackrel{w}\leftarrow a''\stackrel{g}\rightarrow b$ iff there exists an object $\bar{a}$
 and morphisms $s:\bar{a}\to a'$, $t:\bar{a}\to a''$ such that $f\circ s = g\circ t$, $v\circ s = w\circ t$, and $v\circ s = w\circ t$ is in $W$.  We denote the equivalence class of $a\stackrel{v}\leftarrow a'\stackrel{f}\rightarrow b$ by $f\circ v^{-1}$.
 
 These equivalence classes compose as follows: take a representative $a\stackrel{v}\leftarrow a'\stackrel{f}\rightarrow b$ and a representative $b\stackrel{u}\leftarrow b'\stackrel{h}\rightarrow c$; then by the Ore condition there exist morphisms $z:d\to a'$ and $k:d\to b'$, where $z\in W$, such that $f\circ z= u\circ k$.  The composition $(k\circ u^{-1})\circ (f\circ v^{-1})$ is the equivalence class of the span $a\stackrel{v\circ z}\leftarrow d\stackrel{h\circ   k}\rightarrow c$.  One proves that this definition does not depend on the choice of representatives, and that it is associative with units $1_a\circ 1^{-1}_a$.  Obviously, the localization functor $C\to C[W^{-1}]$ sends a morphism $p : a\to b$ to $p\circ 1^{-1}_a$.
