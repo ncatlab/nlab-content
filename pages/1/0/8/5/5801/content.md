@@ -12,10 +12,6 @@ According to [this site](http://www-history.mcs.st-and.ac.uk/Biographies/Stiefel
 
 the 1936., is of course Stiefel's paper on Stiefel-Whitney characteristic classes.
 
-* E. Stiefel, _Ueber Richtungsfelder in den projektiven Raumen und einen Saty aus der reellen Algebra_ (1936)
-
-
-
 That sites quotes
 
 * V Szebehely, D Saari, J Waldvogal, U Kirchgraber, _Eduard L Stiefel (1909-1978)_, in Proceedings of the Sixth Conference on Mathematical Methods in Celestial Mechanics, Math. Forschungsinst., Oberwolfach, 1978, Celestial Mech. __21__ (1) (1980), 3-4.
@@ -24,13 +20,16 @@ who say in the paper
 
 > ... perhaps Stiefel's most famous contribution to pure mathematics, was dedicated to a fundamental study of the theory of vector fields on manifolds. Generalising the classical notion of the Eulerian characteristic of a manifold, he introduced the idea of the characteristic classes. 
 
-In 
+In that paper, 
 
-* E. Stiefel, _RIchtungsfelder und Fernparallelismus in $n$-dimensionalen Mannigfaltigkeiten_, Comm. Math. Helv. __8__ (1935)
+* Eduard Stiefel, _Richtungsfelder und Fernparallelismus in $n$-dimensionalen Mannigfaltigkeiten_, Comm. Math. Helv. __8__, 305-353 (1935-1936) [perm URL](http://resolver.sub.uni-goettingen.de/purl?GDZPPN002052075)
 
-page 22, "Characteristik" (number) seems to appear for the first time
+page 324, "Characteristik" (number) seems to appear for the first time:
 
-> Due Zahl a heisst due Characteristik des $m$-Feldes $\mathfrak{F}$ aud der Sphaere $S^r = S^{n-m}$.
+> Die Zahl a heisst due Characteristik des $m$-Feldes $\mathfrak{F}$ auf der Sphaere $S^r = S^{n-m}$.
+
+* E. Stiefel at German [wikipedia](http://de.wikipedia.org/wiki/Eduard_Stiefel)
+* Eduard Stiefel, _&#220;ber Richtungsfelder in den projektiven R&#228;umen und einen Satz aus der reellen Algebra_, Comm. Math. Helv. _13_, 201-218 (1940-1941) [perm URL](http://resolver.sub.uni-goettingen.de/purl?GDZPPN002053217)
 
 Pontrjagin's 1942 paper is 
 
