@@ -111,7 +111,7 @@ We discuss now that $P$ canonically has the structure of a $G$-[[principal ∞-b
 **(principal $G$-action)**
 
 Let $G$ be a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $\mathbf{H}$. A **principal [[action]]** of $G$ on an object $P \in \mathbf{H}$ is 
-a [[groupoid object in an (∞,1)-category|groupoid object in the (∞,1)-topos]] $P//G$ that sits over $*//G$ in that we have a 
+a [[groupoid object in an (∞,1)-category|groupoid object]] $P//G$ that sits over $*//G$ in that we have a 
   morphism of [[simplicial object|simplicial diagram]]s $\Delta^{op} \to \mathbf{H}$
 
 $$
