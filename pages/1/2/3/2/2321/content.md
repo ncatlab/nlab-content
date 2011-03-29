@@ -18,7 +18,7 @@
 +-- {: .un_defn}
 ###### Definition
 
-For $X$ a [[manifold]] and $V \to X$ a [[vector bundle]] of [[rank]] $k$, an **orientation** on $V$ is an equivalence class of trivializations of the real [[line bundle]] $\wedge^k V$ that is obtained by associating to each [[fiber]] of $V$ its skew-symmetric $k$th [[tensor power]].
+For $X$ a [[manifold]] and $V \to X$ a [[vector bundle]] of [[rank]] $k$, an **orientation** on $V$ is an [[equivalence class]] of trivializations of the real [[line bundle]] $\wedge^k V$ that is obtained by associating to each [[fiber]] of $V$ its skew-symmetric $k$th [[tensor power]].
 
 Equivalently for a [[smooth manifold]] this is an equivalence class of an everywhere non-vanishing element of $\wedge^k_{C^\infty(X)} \Gamma(V)$.
 
