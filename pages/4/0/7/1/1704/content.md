@@ -198,7 +198,7 @@ is canonically equipped with a principal $G$-action with base space $X$.
 +-- {: .proof}
 ###### Proof
 
-By the above we need to show that we have a morphism of simplicial diagrams
+First we show that we have a morphism of simplicial diagrams
 
 $$
   \array{
@@ -228,7 +228,7 @@ $$
   \,,
 $$
 
-where the left horizontal morphissms are equivalences, as indicated. We proceed by induction through the height of this diagram.
+with the right square swhere the left horizontal morphisms are equivalences, as indicated. We proceed by induction through the height of this diagram.
 
 The defining [[(∞,1)-pullback]] square for $P \times_X P$ is 
 
@@ -337,8 +337,30 @@ $$
 
 to conclude the induction step with the same arguments as before.
 
+This shows that $P//G$ is the [[Cech nerve]] of $P \to X$. It remains to observe that
+indeed $X = {\lim_\to}_n P \times G^{\times^n}$. This follows from another
+Giraud axiom valid in every $\infty$-topos: that $\infty$-colimits _are universal_ hence that they are preserved by $\infty$-pullback (see [[universal colimits]]):
+
+using this we have
+$$
+  \begin{aligned}
+    X & \simeq \mathbf{B}G \prod_{\mathbf{B}G} X
+    \\
+      & \simeq \left({\lim_{\to}}_n G^{\times^n}\right) \prod_{\mathbf{B}G} X
+      \\
+      & \simeq {\lim_{\to}}_n ( G^{\times^n} \prod_{\mathbf{B}G} X )
+      \\
+      & \simeq {\lim_\to}_n ( P\times G^{\times^n} )
+      \\
+      & \simeq {\lim_\to} P//G
+  \end{aligned}
+  \,.
+$$
+
 
 =--
+
+We have established that every [[cocycle]] $X \to \mathbf{B}G$ canonically induced a $G$-principal action on the homotopy fiber $P \to X$. The following definition declares the _$G$-principal $\infty$-bundles_ to be those $G$-principal actions that do arise this way.
 
 +-- {: .un_defn}
 ###### Definition
