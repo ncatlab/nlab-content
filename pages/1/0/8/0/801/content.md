@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -7,7 +6,7 @@
 
 Homotopy type of a [[topological space]] refers either to weak homotopy type or to strong homotopy type. The strong/weak homotopy type is a class of topological spaces 'considered up to' [[homotopy equivalence]], or respectively [[weak homotopy equivalence]].  The two ideas coincide for CW complexes.
 
-More precisely, weak homotopy equivalences between spaces give an equivalence relation on the class of topological spaces, and referring to a _homotopy type_ means that you are to consider properties of a space that are shared by any of the spaces weakly equivalent to it and thus in that equivalence class.  In this expanded sense, therefore, a **homotopy type** is such a weak equivalence class of spaces. Using the terminology from [[homotopy category]], two spaces _have the same homotopy type_ if they are isomorphic in [[Ho(Top)]]. 
+More precisely, weak homotopy equivalences between spaces give an equivalence relation on the class of topological spaces, and referring to a _homotopy type_ means that you are to consider properties of a space that are shared by any of the spaces weakly equivalent to it and thus in that [[equivalence class]].  In this expanded sense, therefore, a **homotopy type** is such a weak equivalence class of spaces. Using the terminology from [[homotopy category]], two spaces _have the same homotopy type_ if they are isomorphic in [[Ho(Top)]]. 
 
 By standard theorems, homotopy types can also be 'modeled' by many other structures, such as
 
