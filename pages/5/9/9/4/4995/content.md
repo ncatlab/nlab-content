@@ -444,11 +444,11 @@ By the discussion at <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an
 We write
 
 $$
-  \mathbf{B} : Grpd(\mathbf{H}) \to  Connected(\mathbf{H})
+  \mathbf{B} : Grpd(\mathbf{H}) \to  PointedConnected(\mathbf{H})
 $$
 
 for the inverse to $\Omega$. For $G \in Grp(\mathbf{H})$ we call 
-$\mathbf{B}G \in Connected(\mathbf{H}) \hookrightarrow \mathbf{H}$ the 
+$\mathbf{B}G \in PointedConnected(\mathbf{H}) \hookrightarrow \mathbf{H}$ the 
 **[[delooping]]** of $G$.
 
 Notice that since the cohesive $(\infty,1)$-topos $\mathbf{H}$ has [[homotopy dimension]] $0$ by the [above proposition](#PointLike) every 0-connected object has an essentially unique point, but nevertheless the [[homotopy type]] of $*/\mathbf{H}(\mathbf{B}G, \mathbf{B}H)$ may differ from that of $\mathbf{H}(\mathbf{B}G, \mathbf{B}H)$.
