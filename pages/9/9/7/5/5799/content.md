@@ -16,11 +16,21 @@
 
 ## Definition
 
-For $X$ a [[scheme]], its **crystalline site** $Cris(X)$ is the [[big site]] of the [[de Rham space]] $X_{dR}$.
+Let $C_{et}$ be the [[etale site]] of complex [[scheme]]s of finite type. For $X$ a [[scheme]], its **infinitesimal site** $Cris(X)$ is the [[big site]] $C_{et}/X_{dR}$ of the [[de Rham space]] $X_{dR} : C_{et} \to Set$:
+
+the site whose objects are pairs $(Spec A, (Spec A)_{red} \to X)$ of an affine $Spec A$ and a morphism from its reduced part ($(Spec A)_{red} = Spec (A/I)$ for $I$ the [[nilradical]] of $A$) into $X$.
+
+More generally, for positive [[characteristic]], the definition is more involved than that.
 
 ## Properties
 
 The [[abelian sheaf cohomology]] over $Cris(X)$ is the [[crystalline cohomology]] of $X$.
+
+## Related concepts
+
+* [[crystalline cohomology]]
+
+* [[crystalline differential operator]]
 
 ## References
 
@@ -35,3 +45,9 @@ A review of some aspects is in
 and on page 7 of
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+
+See also
+
+* Arthur Ogus, _Cohomology of the infinitesimal site_ Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 8 no. 3 (1975), p. 295-318 ([numdam](http://www.numdam.org/item?id=ASENS_1975_4_8_3_295_0))
+
+[[!redirects infinitesimal site]]
