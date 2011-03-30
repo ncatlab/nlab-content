@@ -267,7 +267,7 @@ In the case where $\mathfrak{g}$ is an ordinary semisimple [[nLab:Lie algebra|Li
 
 For $\mathfrak{g}$ an [[semisimple Lie algebra]], the transgression between the [[Killing form]]-[[invariant polynomial]] and the 3-cocycle $\langle -, [-,-] \rangle$ is exhibited by the "ordinary" Chern-Simons element, which gives these [[action functional]] of ordinary [[Chern-Simons theory]].
 
-A [[schreiber:symplectic ∞-Lie algebroid]] is an [[∞-Lie algebroid]] equipped with a nondegenerate binary invariant polynomial in degree $n+2$.
+A [[symplectic Lie n-algebroid]] is an [[∞-Lie algebroid]] equipped with a nondegenerate binary invariant polynomial in degree $n+2$.
 
 Examples are 
 
@@ -286,7 +286,7 @@ In any  [[(∞,1)-topos]] with its intrinsic notion of [[cohomology]], a [[cocyc
 
 After embedding [[∞-Lie algebra]]s into the [[(∞,1)-topos]] of [[∞-Lie groupoid]]s as described [above](#Topos), the same abstract reasoning applies to $\infty$-Lie algebra cocycles and the extensions of $\infty$-Lie algebras that these classify: for $c : \mathfrak{g} \to b^n \mathbb{R} $ a cocycle of $\infty$-Lie algebras, the extension $b^{n-1} \mathbb{R} \to \hat \mathfrak{g} \to \mathfrak{g}$ is the [[homotopy fiber]] of this morphism in [[?LieGrpd]].
 
-> **Warning** there is a subtlety here which needs more discussion: the difference between the embedding and the derived embedding. Both have their meaning and use, but it differs. 
+> a more systematic discussion is now in the section <a href="http://ncatlab.org/nlab/show/synthetic+differential+infinity-groupoid#CohomologyOfLieAlgebroids">Cohomology of ∞-Lie algebroids</a> at [[synthetic differential ∞-groupoid]].
 
 For $\mathfrak{g}$ an ordinary [[Lie algebra]], this reproduces the ordinary notions of extensions from [[Lie algebra cohomology]] and [[nonabelian Lie algebra cohomology]].
 
@@ -333,6 +333,13 @@ Since [[∞-stackification]] preserves finite [[(∞,1)-limit]]s, this is suffic
 * The [[string Lie 2-algebra]] is the $b \mathbb{R}$-extension of a semisimple [[Lie algebra]] $\mathfrak{g}$ with bilinear [[invariant polynomial]] $\langle -,-\rangle$ corresponding to the 3-cocycle $\langle -,[-,-]\rangle \in CE(\mathfrak{g})$.
 
 ## Related concepts
+
+A comprehensive discusson of an ambient $\infty$-topos in which $\infty$-Lie algebroid cohomology lives is at
+
+* [[synthetic differential ∞-groupoid]].
+
+Other notions related to $\infty$-Lie algebroid cohomology include
+
 
 * **$\infty$-Lie algebra cocycle**
 
