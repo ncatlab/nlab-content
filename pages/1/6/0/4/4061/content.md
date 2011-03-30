@@ -175,8 +175,9 @@ The related subject of positive energy representations for loop groups is repres
 * geometrical background for [[Anton Kapustin]]'s course at Caltech: [list](http://theory.caltech.edu/~kapustin/Ph229/recbooks.html)
 
 * John Baez: _How to Learn Math and Physics_  ([here] (http://math.ucr.edu/home/baez/books.html))
-
+* Frederic Paugam, _Towards the mathematics of QFT_, [pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf), unfinished notes, 370 pp.
 * [[books about string theory]]
 * various lectures notes in mathematical physics, Ulrich Theis' list at [Jena](http://www.personal.uni-jena.de/~p5thul2/notes/math.html)
 
 category: reference
+[[!redirects books in mathematical physics]]
