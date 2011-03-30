@@ -203,10 +203,19 @@ We discuss the realization of the general abstract <a href="http://ncatlab.org/n
 
 Since by the [above discussion](#RelativeInftyConnectedness) $SynthDiff\infty Grpd$ is strongly $\infty$-connected _relative_ to [[Smooth∞Grpd]] all of these structures that depend only on $\infty$-connectedness (and not on [[local (∞,1)-topos|locality]]) acquire a relative version.
 
+### $\infty$-Lie algebras and deformation theory   
+ {#StrucLieTheory}
+
+The discussion that goes here is at 
+
+* [[∞-Lie algebroid]].
+
 
 ### Cohomology and principal $\infty$-bundles {#StrucCohomology}
 
 We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Cohomology">intrinsic cohomology in a cohesive (∞,1)-topos</a> realized in $SynthDiff\infty Grpd$.
+
+#### Cohomology localization
 
 +-- {: .un_prop}
 ###### Observation
@@ -313,6 +322,8 @@ The proof of the above statements is given in ([Stel](#Stel)), following ([To&#2
 
 =--
 
+#### Cohomology of Lie groups
+
 +-- {: .un_prop #RealCohomologyOfCompactLieGroup}
 ###### Proposition
 
@@ -360,6 +371,179 @@ This follows from applying the [above result](#RealCohomologyOfCompactLieGroup) 
 This means that the intrinsic cohomology of [[compact topological space|compact]] [[Lie group]]s in [[Smooth∞Grpd]] and $SynthDiff\infty Grpd$ coincides for these coefficients with the Segal-Blanc-Brylinski refined Lie group cohomology ([Brylinski](#Brylinski)).
 
 =--
+
+#### Cohomology of $\infty$-Lie algebroids
+ {#CohomologyOfLieAlgebroids}
+
++-- {: .un_prop #IntrinsicRealCohomologyByCECohomology}
+###### Proposition
+
+Let $\mathfrak{a} \in L_\infty \mathrm{Algd}$ be an [[L-∞ algebroid]]. 
+Then its intrinsic real cohomoloogy in $\mathrm{SynthDiff}\infty \mathrm{Grpd}$
+
+$$
+  H^n(\mathfrak{a}, \mathbb{R})
+  :=
+  \pi_0 \mathrm{SynthDiff}\infty \mathrm{Grpd}(\mathfrak{a}, \mathbf{B}^n \mathbb{R})
+$$
+
+coincides with its ordinary [[∞-Lie algebroid cohomology|L-∞ algebroid cohomology]]: 
+the cochain cohomology of its [[Chevalley-Eilenberg algebra]]
+
+$$
+  H^n(\mathfrak{a}, \mathbb{R})
+   \simeq
+  H^n(\mathrm{CE}(\mathfrak{a}))
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By the [above propoposition](#PresentationOfCohomologyLocalization) we have that 
+
+$$
+  H^n(\mathfrak{a}, \mathbb{R}) \simeq
+  H^n N^\bullet(\mathbb{L}\mathcal{O})(i(\mathfrak{a}))
+  \,.
+$$
+
+By [this lemma](http://ncatlab.org/nlab/source/Lie+infinity-algebroid#CofibrantResolutionOfLinfinityAlgebroid)  this is
+
+$$
+  \cdots \simeq
+  H^n N^\bullet
+  \left(
+    \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot \mathcal{O}(i(\mathfrak{a})_k)
+  \right)
+  \,.
+$$
+
+Observe that $\mathcal{O}(\mathfrak{a})_\bullet$ is cofibrant in the Reedy model structure 
+$[\Delta^{\mathrm{op}}, (\mathrm{SmoothAlg}^\Delta_{\mathrm{proj}})^{\mathrm{op}}]_{\mathrm{Reedy}}$ 
+relative to the opposite of the projective model structure on cosimplicial algebras:  
+the map from the latching object in degree $n$ in 
+$\mathrm{SmoothAlg}^\Delta)^{\mathrm{op}}$ is dually in 
+$\mathrm{SmoothAlg} \hookrightarrow \mathrm{SmoothAlg}^\Delta$ the projection 
+$$
+  \oplus_{i = 0}^n \mathrm{CE}(\mathfrak{a})_i \otimes \wedge^i \mathbb{R}^n
+  \to
+  \oplus_{i = 0}^{n-1} \mathrm{CE}(\mathfrak{a})_i \otimes \wedge^i \mathbb{R}^n
+$$
+hence is a surjection, hence a fibration in 
+$\mathrm{SmoothAlg}^\Delta_{\mathrm{proj}}$ and therefore indeed a cofibration in 
+$(\mathrm{SmoothAlg}^\Delta_{\mathrm{proj}})^{\mathrm{op}}$.
+
+Therefore using the Quillen bifunctor property of the coend over the tensoring in reverse to 
+lemma \ref{CofibrantResolutionOfLinfinityAlgebroid} the above is equivalent to
+$$
+  \cdots 
+  \simeq
+  H^n N^\bullet
+  \left(
+    \int^{[k] \in \Delta} \Delta[k] \cdot \mathcal{O}(i(\mathfrak{a})_k)
+  \right)
+$$
+with the fat simplex replaced again by the ordinary simplex. But in brackets this is now by definition the image under the monoidal Dold-Kan correspondence of the Chevalley-Eilenberg algebra
+$$
+  \cdots 
+  \simeq
+  H^n( N^\bullet \Xi \mathrm{CE}(\mathfrak{a}) )
+  \,.
+$$
+
+By the [[Dold-Kan correspondence]] we have hence
+
+$$
+  \cdots \simeq
+  H^n(\mathrm{CE}(\mathfrak{a}))
+  \,.
+$$
+
+=--
+
+It follows that a degree-$n$ $\mathbb{R}$-cocycle on $\mathfrak{a}$ is presented by a morphism
+$$
+  \mu : \mathfrak{a} \to b^n \mathbb{R} 
+  \,,
+$$
+where on the right we have the $L_\infty$-algebroid whose $\mathrm{CE}$-algebra is concentrated in
+degree $n$. Notice that if $\mathfrak{a} = b \mathfrak{g}$ is the delooping of an $L_\infty$-
+algebra $\mathfrak{g}$ this is equivalently a morphism of $L_\infty$-algebras
+$$
+  \mu : \mathfrak{g} \to b^{n-1} \mathbb{R} 
+  \,.
+$$
+The following proposition describes infinitesimal line $\infty$-bundles.
+
+
++-- {: .un_prop #InfinitesimalLineBundles}
+###### Proposition
+
+ Let $\mu : \mathfrak{a} \to b^n \mathbb{R}$ be a degree-$n$ cocycle on an $L_\infty$-algebroid.
+ The homotopy fiber of this morphism regarded as a morphism under the map from 
+ \ref{SmoothMonoidalDoldKan}
+ $$
+   L_\infty \mathrm{Algd} \stackrel{\Xi}{\to}
+    (\mathrm{SmothAlg}^{\Delta})^{\mathrm{op}}
+    \hookrightarrow
+   [\mathrm{CartSp}_{\mathrm{synthdiff}}, \mathrm{sSet}]_{\mathrm{proj}}
+ $$
+ hence, by prop. \ref{PrincipalBundleAsHomotopyFiber}, the $b^{n-1}\mathbb{R}$-principal $\infty$-bundle 
+ in $\mathrm{Smooth}\infty\mathrm{Algd}$ that 
+ it classifies, is presented under this same embedding by the $L_\infty$-algebroid
+ $\mathfrak{a}_{\mu}$
+ whose $\mathrm{CE}$-algebra is that of $\mathfrak{a}$ with one new generator $b$ 
+ in degree $(n-1)$ adjoined and with the differential extended to that generator by
+ $$
+   d_{\mathrm{CE}(\mathfrak{a}_\mu)} : b \mapsto \mu
+   \,.
+ $$
+ In other words, $\mathrm{CE}(\mathfrak{a}_\mu)$ is the pushout of dg-algebras
+ $$  
+   \array{
+     \mathrm{CE}(\mathfrak{a}_{\mu}) &\leftarrow& \mathrm{W}(b^{n-1} \mathbb{R})
+     \\
+     \uparrow && \uparrow
+     \\
+     \mathrm{CE}(\mathfrak{a}) & \leftarrow& \mathrm{CE}(b^{n}\mathbb{R}) \ar[u]
+   }
+   \,.
+ $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+  The functor $\Xi$ from prop. \ref{SmoothMonoidalDoldKan} sends the above pushout
+  to a pushout in $\mathrm{SmoothAlg}^{\Delta}$, hence dually preserves the pullback
+
+  $$
+    \array{
+      \mathfrak{a}_\mu & \to& \mathrm{inn}b^{n-1}\mathbb{R} 
+      \\
+       \downarrow && \downarrow
+      \\
+      \mathfrak{a} & \stackrel{\mu}{\to} & b^n \mathbb{R}
+    }
+    \,.
+  $$
+
+  Here the right vertical morphism is a fibration in the model structure on 
+  $(\mathrm{SmoothAlg}^\Delta)^{\mathrm{op}}$ (because dually it is a generating 
+  cofibration). Therefore by prop. \ref{PresentationOfCohomologyLocalization}
+  the further Yoneda embedding to a diagram in 
+  $[\mathrm{CartSp}_{\mathrm{synthdiff}}^{\mathrm{op}}, \mathrm{sSet}]_{\mathrm{proj}}$
+  preserves this fibration and preserves the pullback property. 
+  But the global projective model structure is right proper, hence a pullback
+  along a fibration is a homotopy pullback.
+
+=--
+
 
 ### Paths and geometric Postnikov towers 
   {#StrucPaths}
@@ -459,11 +643,6 @@ $$
 $$
 
 =--
-
-
-### $\infty$-Lie algebras and deformation theory   {#StrucLieTheory}
-
-For the moment see [[infinity-Lie algebroid]] for more
 
 
 
