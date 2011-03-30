@@ -421,10 +421,11 @@ If $X_\bullet \to Y_\bullet$ is an objectwise weak homotopy equivalence between 
 =--
 +-- {: .proof}
 ###### Proof
-The following proof is essentially from ([May74, A.4](#May_Einf)); see also ([Dugger, prop. 17.4, example 18.2](#Dugger)).  It relies on two facts relating Hurewicz cofibrations to weak homotopy equivalences:
+The following proof is essentially from ([May74, A.4](#May_Einf)); see also ([Dugger, prop. 17.4, example 18.2](#Dugger)).  It relies on two facts relating [[Hurewicz cofibration]]s to [[weak homotopy equivalence]]s:
 
-1. Pushouts along Hurewicz cofibrations preserve weak homotopy equivalences, and
-1. Colimits of sequences of Hurewicz cofibrations preserve weak homotopy equivalences.
+1. [[pushout|Pushouts]] along [[Hurewicz cofibration]]s preserve [[weak homotopy equivalence]]s, and
+
+1. [[colimit|Colimits]] of sequences of Hurewicz cofibrations preserve weak homotopy equivalences.
 
 Let $i_n \colon \Delta_{\le n} \hookrightarrow \Delta$ denote the inclusion of the objects $\le n$, and write ${|X_\bullet|}_n = i_n^* \Delta \otimes_{\Delta_{\le n}} i_n^* X_\bullet$.  Writing $L_n X$ for the $n$th [[latching object]] (the subspace of degeneracies in $X_n$), we have pushouts
 $$\array{ (L_n X \times \Delta^n) \sqcup_{L_n X \times \partial\Delta^n} (X_n \times \partial\Delta^n) & \to &  {|X_\bullet|}_{n-1}\\
@@ -627,7 +628,7 @@ We equip this with the projective [[model structure on simplicial presheaves]] $
 +-- {: .num_prop #GlobalKanFibImpliesProjectiveFib}
 ###### Proposition
 
-Under this embedding a [global Kan fibration](#GloballyKanSimplicialTopologicalSpace) $f \colon  X \to Y$ in $sTop_s$ maps to a fibraton in $[Top_s^{op}, sSet]_{proj}$.
+Under this embedding a [global Kan fibration](#GloballyKanSimplicialTopologicalSpace) $f \colon  X \to Y$ in $sTop_s$ maps to a fibration in $[Top_s^{op}, sSet]_{proj}$.
 
 =--
 
@@ -679,7 +680,7 @@ $$
 and analogously for the other factors in the above morphism. Therefore the lifting problem equivalently says that the function
 
 $$
-  Hom_{Top}(U, \; X_n \to Y_n \times_{sTop(\Lambda[n]_i), Y} sTop(\Lambda[n]_i,X) \;)
+  Hom_{Top}(U, \; X_n \to Y_n \times_{sTop(\Lambda[n]_i, Y)} sTop(\Lambda[n]_i,X) \;)
 $$
 
 is surjective. But by the assumption that $f \colon  X \to Y$ is a global Kan fibration of simplicial topological spaces, def. \ref{GloballyKanSimplicialTopologicalSpace}, we have a section $\sigma \colon  Y_n \times_{sTop(\Lambda[n]_i), Y} sTop(\Lambda[n]_i,X) \to X_n$. Therefore $Hom_{Top}(U, \sigma)$ is a section of our function.
