@@ -2570,7 +2570,7 @@ Smooth forms with sitting instants form a sub-dg-algebra of all smooth forms. We
 We write $\Omega_{si,vert}^\bullet(U \times \Delta^k)$ for the further sub-dg-algebra of [[vertical differential form]]s with respect to the projection $p : U \times \Delta^k \to U$, hence the [[coequalizer]]
 
 $$
-  \Omega^\bullet(U)
+  \Omega^{\bullet \geq 1}(U)
   \stackrel{\stackrel{p^*}{\to}}{\underset{0}{\to}}
   \Omega^\bullet_{si}(U \times \Delta^k)
   \to
