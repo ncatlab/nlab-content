@@ -1,4 +1,3 @@
-[[!redirects crystaline site]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -9,6 +8,8 @@
 =--
 =--
 =--
+
+> under construction
 
 #Contents#
 * table of contents
@@ -46,8 +47,11 @@ and on page 7 of
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 
-See also
+In the article 
 
 * Arthur Ogus, _Cohomology of the infinitesimal site_ Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 8 no. 3 (1975), p. 295-318 ([numdam](http://www.numdam.org/item?id=ASENS_1975_4_8_3_295_0))
 
+it is shown that if $X$ is proper over an algebraically closed field $k$ of [[characteristic]] $p$, and embeds into a smooth scheme over $k$, then the infinitesimal cohomology of $X$ coincides with [[etale cohomology]] with coefficients in $k$  (or more generally $W_n(k)$ if we work with the infinitesimal site of $X$ over $W_n(k)$). 
+
 [[!redirects infinitesimal site]]
+[[!redirects crystaline site]]
