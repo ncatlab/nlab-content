@@ -95,7 +95,7 @@ The term _de Rham space_ or _de Rham stack_ apparently goes back to
 
 A review of the constructions is on the first two pages of
 
-* [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf))
+* [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_ (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">pdf</a>)
 
 The deRham space construction on spaces ([[scheme]]s) is described in [section 3, p. 7](http://math.berkeley.edu/~teleman/math/simpson.pdf#page=7)
 
@@ -105,7 +105,7 @@ which goes on to assert the existence of its [[derived functor]] on the [[homoto
 
 The characterization of [[formally smooth scheme]] as above is also on that page.
 
-See also online comments by [[David Ben-Zvi]]  [here](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023287) and [here](http://golem.ph.utexas.edu/category/2009/08/question_on_synthetic_differen.html#c026218) on the $n$Caf&#233;. and [here](http://mathoverflow.net/questions/10556/d-modules-derham-spaces-and-microlocalization) on MO.
+See also online comments by [[David Ben-Zvi]]  [here](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023287) and [here](http://golem.ph.utexas.edu/category/2009/08/question_on_synthetic_differen.html#c026218) on the $n$Caf&eacute;. and [here](http://mathoverflow.net/questions/10556/d-modules-derham-spaces-and-microlocalization) on MO.
 
 
 
