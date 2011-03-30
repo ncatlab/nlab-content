@@ -171,7 +171,7 @@ This is the model structure which induces the [[transferred model structure|tran
 
 =--
 
-#### On cochain complexes of abelian groups
+#### With fibrations being surjections in all degrees
   {#CochainNonNegProj}
 
 We discuss a model structure on cochain complexes of abelian groups
