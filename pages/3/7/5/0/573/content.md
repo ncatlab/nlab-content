@@ -61,8 +61,9 @@ A list of known definitions of $n$-category, which should include all definition
 
 ## Examples ##
 
-One motivating example for $(\infty,n)$-categories is the [[(∞,n)-category of cobordisms]] which plays a central role in the formalization of the [[cobordism hypothesis]]. 
+* One motivating example for $(\infty,n)$-categories is the [[(∞,n)-category of cobordisms]] which plays a central role in the formalization of the [[cobordism hypothesis]]. 
 
+* Another class of examples are [[(∞,n)-categories of spans]].
 
 ## Related concepts
 
