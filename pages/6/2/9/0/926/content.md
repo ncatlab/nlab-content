@@ -42,13 +42,13 @@ modules, even if the pushout consists of finite groups.
 A Postnikov system is easiest to understand in the 2-stage case,
 i.e. two non vanishing homotopy groups, and focuses attention on the
 cohomology of [[Eilenberg-Mac Lane space]]s, which also determine all
-cohomology operations. Basic work on this area was done by Eilenberg
+[[cohomology operation]]s. Basic work on this area was done by Eilenberg
 and Mac Lane, and by H. Cartan, while the theory of cohomology
-operations, including Steenrod operations, is itself a large area.
+operations, including [[Steenrod operation]]s, is itself a large area.
 
 The reference below shows the problems in the 3-stage systems. 
 
-For homotopy 3-types, the algebraic model of [[crossed square]]s is more explicit than the corresponding Postnikov system, and more calculable. However, not much work has been done on, say, cohomology operations using the algebraic model of $n$-fold groupoids, and it is not clear if that would help. 
+For homotopy 3-types, the algebraic model of [[crossed square]]s is more explicit than the corresponding Postnikov system, and more calculable. However, not much work has been done on, say, [[cohomology operation]]s using the algebraic model of $n$-fold groupoids, and it is not clear if that would help. 
 
 
 ## Generalizations
