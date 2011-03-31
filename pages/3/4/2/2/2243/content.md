@@ -119,6 +119,8 @@
 
 ### Operations ###
 
+* [[cohomology operations]]
+
 * [[cup product]]
 
 * [[orientation]], [[orientation in generalized cohomology|in generalized cohomology]]
