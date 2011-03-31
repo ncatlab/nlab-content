@@ -9,9 +9,12 @@ A [[link diagram]] can be made into a diagram of a framed links by giving it the
 
 Two diagrams represent the same link diagram if and only if they can be related by a modified version of the [[Reidemeister moves]] in which the first move is replaced by the following move.
 
-_insert diagram of modified first Reidemester move here_
-
+[[!include modified Reidemeister move 1 - SVG]]
 
 [[!redirects framed links]]
 [[!redirects Framed link]]
 [[!redirects Framed links]]
+[[!redirects framed knot]]
+[[!redirects framed knots]]
+[[!redirects Framed knot]]
+[[!redirects Framed knots]]
