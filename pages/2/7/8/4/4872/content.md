@@ -1,5 +1,7 @@
 * **[[knot]]**, **[[link]]**
 
+* [[knot theory]]
+
 * [[knot diagram]]
   * [[isotopy]]
   * [[Reidemeister move]]
@@ -16,11 +18,13 @@
   * [[Alexander polynomial]]
   * [[Reshetikhin-Turaev invariant]]s
   * [[Khovanov homology]]
-  * [[Kauffman bracket]] 
+  * [[Kauffman bracket]]
+  * [[Vassiliev invariants]]
 
 * Link Invariants
   * [[Milnor mu-bar invariants]]
   * [[linking number]]
+
 * Examples
   * [[Borromean link]]
   * [[Whitehead link]]
