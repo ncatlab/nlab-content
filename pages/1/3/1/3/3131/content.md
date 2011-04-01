@@ -1,4 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The classical notion of an [[internal category]] in a category with [[pullbacks]], can be generalized by replacing pullbacks with cotensor products in a [[monoidal category]]. 
+
+## Definition
 
 One typically starts with a monoidal category $M = (M, \otimes, 1)$ which is _regular_ in the sense that it has equalizers which are preserved by $\otimes$ on both sides. (The monoidal structure does _not_ need be symmetric.)
 
@@ -11,11 +35,11 @@ There are two kind of morphisms of noncartesian internal categories: functors an
 
 ...
 
-### Examples
+## Examples
 
 Because every [[set]] is canonically a comonoid with respect to the [[cartesian product]], a comonoid in [[Set]] is just a set and a bicomodule is a [[span]], and a monad in the bicategory of spans of sets is just a small category.  More generally, an internal category in the above sense in any category with [[finite products]] is just an [[internal category]] in the usual sense.
 
-### References
+## References
 
 The main historical reference is Marcelo Aguiar's 1997 Cornell thesis ([pdf](http://www.math.tamu.edu/~maguiar/thesis2.pdf)), under the guidance of S. Chase. [[George Janelidze]] calls such generalization **noncartesian internal category**, because if the tensor product is the cartesian the notion reduces to the traditional internal category. 
 
