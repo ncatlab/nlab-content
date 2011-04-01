@@ -41,6 +41,35 @@ Classifying knots up to isotopy is usually done using [[knot invariant|knot inva
 
 It is often useful to consider the domain circle of a knot as being oriented.  This is then represented by putting a directional arrow on diagrams of the knot. Such oriented knots are usually considered up to [[ambient isotopy]] in which the isotopy is orientation preserving. This leads to the idea of [[invertible knot|invertible knots]].  It is also possible to take the [[mirror reflection]] of  knots and thus to introduce the concept of [[achiral knot|achiral knots]].
 
+## Relevant nLab Pages
+
+### Knots, Links, and other Variants
+
+The theory of knots can be extended to include various similar things:
+
+* [[links]]
+* [[braids]]
+* [[strings]]
+* [[tangles]]
+* [[singular knots]]
+
+### Invariants
+
+A major line in the study of knots is to look for [[knot invariants]] (see also [[link invariants]]).
+
+### Ancillary pages
+
+There are various pages related to knot theory that are linked from the main articles.
+
+* [[Vassiliev skein relations]]
+* [[Reidemeister moves]]
+
+### Images
+
+The study of knots is very pictorial.  There are various knot-related SVGs that can be included in to nLab pages.
+
+* [[SVG images]]
+
 ## References
 
 For introductions to Knot Theory,
