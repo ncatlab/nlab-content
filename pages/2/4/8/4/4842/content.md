@@ -1,3 +1,58 @@
-There is a huge online bibliography on Vassiliev invariants maintained by [[Dror Bar-Natan]] and Sergei Duzhin [here](http://www.pdmi.ras.ru/~duzhin/VasBib/Long).
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Knot theory
++-- {: .hide}
+[[!include knot theory - contents]]
+=--
+=--
+=--
+
+# Vassiliev Invariants
+* tic
+{: toc}
+
+## Idea ##
+
+The space of knots in $\mathbb{R}^3$ (or $S^3$) is an open submanifold of the [[smooth loop space]].  Knot invariants are locally constant functions on this manifold.  The complement of the space of knots is called the [[discriminent]] and consists of all [[singular knots]].
+
+If we consider those singular knots with only a finite number of double points, we can build a [[cubical complex]] from this data.  The vertices in the complex are labelled by the isotopy classes of knots, and more generally the $n$-cubes by the isotopy classes of singular knots with $n$ double points (and a few other technical pieces of information).  The boundary operator resolves a double crossing either upwards or downwards according to the orientation at the crossing.
+
+A **Vassiliev invariant** is simply a cubical morphism from this complex to an abelian group that vanishes above a certain degree.
+
+## Definition ##
+
+One does not need the language of cubical complexes to _define_ Vassiliev invariants.  Rather, there is a general method whereby a [[knot invariant]] can be extended to all [[singular knots]] with only finitely many double points (and no other singularities) using the [[Vassiliev skein relations]].
+
+
++-- {: .num_definition #vinv}
+###### Definition
+A **Vassiliev invariant** of degree (or order) $\le n$ is a knot invariant whose extension to singular knots (with double points) vanishes on all singular knots with more than $n$ double points.
+=--
+
+As is standard, it is of degree $n$ if it is of degree $\le n$ but not $\le n - 1$.  Vassiliev invariants are also called **finite type invariants**.
+
+
+## Remarks ##
+
+The degree of Vassiliev invariants defines a filtration on the space of knots (and more particularly, on the [[algebra of knots]]).  Two knots are $n$-equivalent if all the Vassiliev invariants of degree $\le n$ agree on them.  In particular, a knot that is $n$-equivalent to the unknot is said to be $n$-trivial.
+
+## Examples ##
+
+1. The $n$th coefficient of the Conway polynomial is a Vassiliev invariant of order $\le n$.
+
+## References ##
+
+* There is a huge online bibliography on Vassiliev invariants maintained by [[Dror Bar-Natan]] and Sergei Duzhin [here](http://www.pdmi.ras.ru/~duzhin/VasBib/Long).
+* Chmutov, S., Duzhin, S., & Mostovoy, J. Introduction to Vassiliev Knot Invariants. &lt;http://arxiv.org/abs/1103.5628>
 
 [[!redirects Vassiliev invariants]]
+[[!redirects Vassiliev finite type invariants]]
+[[!redirects Vassiliev finite type invariant]]
+[[!redirects Vassiliev finite-type invariants]]
+[[!redirects Vassiliev finite-type invariant]]
+[[!redirects finite type invariants]]
+[[!redirects finite type invariant]]
+[[!redirects finite-type invariants]]
+[[!redirects finite-type invariant]]
