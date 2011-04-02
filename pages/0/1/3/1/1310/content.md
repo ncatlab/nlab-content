@@ -250,6 +250,10 @@ to the derived category of [[D-modules]] on $X$, or the like.
 
 ## References
 
+The definition of representation of $L_\infty$-algebras is discussed in section 5 of
+
+* [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ ([arXiv:9406095](http://arxiv.org/abs/hep-th/9406095))
+
 The general definition of representation of $\infty$-Lie algebroids as above appears in
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Differential twisted string- and fivebrane structures_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">web</a>)
