@@ -78,9 +78,11 @@ Sometimes this is called a _representation up to homotopy_ .
 
 ## References
 
-The definition is considered for instance in
+See for instance the paragraph above theorem 5.4 in 
 
-* Yunhe Sheng, [[Chenchang Zhu]], _Integration of semidirect product Lie 2-algebras_
+* [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ ([arXiv:9406095](http://arxiv.org/abs/hep-th/9406095))
+
+
 
 [[!redirects endomorphism L-∞ algebra]]
 [[!redirects endomorphism L-∞ algebras]]
