@@ -194,7 +194,7 @@ The proposal that the study of super-structures in mathematics should be regarde
 and in 
 
 * V. Molotkov., _Infinite-dimensional $\mathbb{Z}_2^k$-supermanifolds_ , ICTP
-preprints, IC/84/183, 1984.
+preprints, IC/84/183, 1984. ([[MolotkovSupermanifolds.pdf:file]])
 
 and in
 
