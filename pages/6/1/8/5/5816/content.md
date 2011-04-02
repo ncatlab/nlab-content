@@ -19,9 +19,14 @@
 
 ## Idea
 
-The notion often called an _enriched bicategory_ is that of an [[enriched category]], but where the enriching context $\mathcal{V}$ is allowed to be generalized from a [[monoidal category]] to a [[monoidal bicategory]], while suitably weakening the [[associativity]] any [[unitality]] conditions on the enrichment.
+One notion often called an __enriched bicategory__ is the same as that of an [[enriched category]], but where the enriching context $\mathcal{V}$ is allowed to be generalized from a [[monoidal category]] to a [[monoidal bicategory]], while suitably weakening the [[associativity]] and [[unitality]] conditions on the enrichment.  Thus, it has a collection of objects with [[hom-objects]] $C(x,y)\in\mathcal{V}$.  It may also naturally be called a **pseudo enriched category**.
 
-So for $\mathcal{V}$ a [[monoidal bicategory]], a  $\mathcal{V}$-enriched (bi)category $C$ is
+A different notion that is also sometimes called an **enriched bicategory** is that of a bicategory enriched over a [[monoidal category|monoidal 1-category]] $V$ (which must be at least [[braided monoidal category|braided]]) at the level of 2-cells only.  Thus it has a collection of objects, with 1-morphisms between the objects, and for any parallel 1-morphisms $f,g\colon x\to y$, a hom-object $C(x,y)(f,g) \in V$.  This can be identified with a $(V Cat)$-enriched bicategory in the previous sense, so on this page we focus on the former, more general, definition.
+
+
+## Definition
+
+For $\mathcal{V}$ a [[monoidal bicategory]], a  $\mathcal{V}$-enriched (bi)category $C$ consists of
 
 * a collection of [[object]]s;
 
@@ -53,7 +58,16 @@ So for $\mathcal{V}$ a [[monoidal bicategory]], a  $\mathcal{V}$-enriched (bi)ca
 
 * similarly left and right [[unitor]]s
 
-* such that some more or less evident [[coherence]] conditions hold.
+* such that some more or less evident [[coherence]] conditions hold (see the references).
+
+
+## Examples
+
+* When $\mathcal{V} = Cat$, a $\mathcal{V}$-enriched bicategory is just a plain [[bicategory]].
+
+* When $\mathcal{V}$ is an ordinary [[monoidal category]], a $\mathcal{V}$-enriched bicategory is just an ordinary [[enriched category]].
+
+* When $\mathcal{V}$ is the cartesian monoidal 2-category of bicategories, pseudo [[2-functors]], and [[icons]], then a $\mathcal{V}$-enriched bicategory is an [[iconic tricategory]].
 
 ## References
 
@@ -68,10 +82,15 @@ A definition also appeared in
 
 Forcey has studied the combinatorics of [[polytope]]s associated to enrichment and [[higher category theory|higher categories]] in detail. See for example
 
-* S. Forcey, _Quotients of the Multiplihedron as Categoried Associahedra_ ,  ([arXiv:0803.2694]()).
+* S. Forcey, _Quotients of the Multiplihedron as Categoried Associahedra_ ,  ([arXiv:0803.2694](http://arxiv.org/abs/0803.2694)).
 
 The definition is reviewed in 
 
 * [[Alex Hoffnung]], _Notes on enrichment_ ([pdf](http://mysite.science.uottawa.ca/hoffnung/notes_files/enrichment_notes.pdf))
 
 [[!redirects enriched 2-category]]
+[[!redirects pseudo enriched category]]
+[[!redirects category enriched over a monoidal bicategory]]
+[[!redirects category enriched over a monoidal 2-category]]
+[[!redirects category enriched in a monoidal bicategory]]
+[[!redirects category enriched in a monoidal 2-category]]
