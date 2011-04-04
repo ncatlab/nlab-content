@@ -28,7 +28,7 @@ The **Kontsevich integral** generalises the [[Gauss integral formula]] which com
 ###### Definition
 Let $K$ be a [[strict Morse knot]].  Let $\widehat{\mathcal{A}}$ be the [[graded completion]] of the [[algebra of chord diagrams]] with $1$-term relations.  The **Kontsevich integral** of $K$ is given by:
 $$
-Z(K) = \sum_{m = 0}^\infty \frac{1}{(2 \pi i)^m} \int_{t_{\min} \lt t_m \lt \cdots \lt t_1 \lt t_{\max} \over t_j\; \text{non-critical}} \sum_{P = \{(z_j,z_j')\} (-1)^{\downarrow P} D_p \bigwedge_{j=1}^m \frac{d z_j - d z_j'}{z_j - z_j'}
+Z(K) = \sum_{m = 0}^\infty \frac{1}{(2 \pi i)^m} \int_{t_{\min} \lt t_m \lt \cdots \lt t_1 \lt t_{\max} \over t_j\; \text{non-critical}} \sum_{P = \{(z_j,z_j')\}} (-1)^{\downarrow P} D_p \bigwedge_{j=1}^m \frac{d z_j - d z_j'}{z_j - z_j'}
 $$
 =--
 
