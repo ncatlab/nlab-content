@@ -55,10 +55,15 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 * Michael D. Potter, _Set theory and its philosophy: a critical introduction_, Oxford Univ. Press 2004
 
 * Fernando Zalamea, _Filosof&#237;a sint&#233;tica de las matem&#225;ticas contempor&#225;neas_, (Spanish) <nowiki>[Synthetic philosophy of contemporary mathematics]</nowiki> Obra Selecta. Editorial Universidad Nacional de Colombia, Bogot&#225;, 2009. 231 pp. [MR2599170](http://www.ams.org/mathscinet-getitem?mr=2599170), ISBN: 978-958-719-206-3, [pdf](<http://files.acervopeirceano.webnode.es/200000065-18c1b19bb9/Zalamea-Fil-Sint-Mat-Cont.pdf>)
+
 * [[David Corfield]], _Towards a philosophy of real mathematics_, Cambridge University Press, 2003, [gBooks](http://books.google.hr/books?id=s37rhfWs73QC&lpg=PP1&ots=Zobx2bIWFh&dq=david%20corfield%20towards%20a%20philosophy%20of%20real%20mathematics&hl=en&pg=PP1#v=onepage&q&f=false)
+
 * [[Saunders MacLane]], _Mathematics, form and function_, Springer-Verlag 1986, xi+476 pp. [MR87g:00041](http://www.ams.org/mathscinet-getitem?mr=816347), [wikipedia](http://en.wikipedia.org/wiki/Mathematics,_Form_and_Function)
+
 * George Lakoff, Rafael E. N&#250;&#241;ez, _Where mathematics comes from_, Basic Books 2000, xviii+493 pp. [MR2001i:00013](http://www.ams.org/mathscinet-getitem?mr=1794854)
+
 * Ralf Kr&#246;mer, _Tool and object: A history and philosophy of category theory_, Birkh&#228;user 2007
+
 
 ### Articles 
 
