@@ -667,6 +667,48 @@ $$
 
 Here we are indicating on the right the generators and their relation in $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ and on the left their images and the images of the relations in $\Omega^\bullet(U_i)$.   This are first the definitions of the [[curvature]]s themselves and then the [[Bianchi identities]] satisfied by these.
 
+Consider now an <a href="http://ncatlab.org/nlab/show/infinity-Chern-Weil+theory+introduction#InfGaugeTrafo">integrated gauge transformation</a> of such data for arbtrary $A$-curvature $F_A$ but horizontal $H$-curvature $\mathcal{G}$. This is given by a 1-form
+
+$$
+  \hat A \in \Omega^1(U \times \Delta^1, \mathfrak{g})
+$$
+
+and a 3-form
+
+$$
+  \hat C = C_u + \omega \wedge d t \in \Omega^3(U \times \Delta^1)
+$$
+
+inducing the shift
+
+$$
+  \alpha = A_2 - A_1
+$$
+
+in the connection 1-form, and gauge transformation
+
+$$
+  C_2 = C_1 + d_U \Omega + CS(A_1, A_2)
+  \,,
+$$
+
+where
+
+$$
+   \Omega = \int_{\Delta^1} \omega d t 
+$$
+
+and where
+
+$$
+  CS(A_1, A_2) = \int_{\Delta^1} \langle F_{\hat A} \wedge F_{\hat A}\rangle
+$$
+
+is the relative [[Chern-Simons form]] corresponding to the linear path of connections from $A_1$ to $A_2$.
+
+This are the local gauge transformations for the [[supergravity C-field]] as considered in ([DFM, section 3](#DFM)).
+
+
 ### The Green-Schwarz mechanism in heterotic supergravity
 
 Local differential form data as above is known in [[higher category theory and physics|theoretical physics]] in the context of the [[Green-Schwarz mechanism]] for 10-dimensional [[supergravity]].
@@ -701,6 +743,11 @@ A discussion of differential string structures in terms of [[bundle 2-gerbe]]s i
 * [[Konrad Waldorf]], _String Connections and Chern-Simons Theory_ ([arXiv:0906.0117](http://arxiv.org/abs/0906.0117))
 {#Waldorf}
 
+The description of the [[gauge transformation]]s of the [[supergravity C-field]] is in section 3 of
+
+E. Diaconescu, [[nLab:Greg Moore]], [[nLab:Dan Freed]], _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
+ {#DFM}
+
 The local data for the [[∞-Lie algebra valued differential forms]] for the description of twisted differential string structures as above was given in 
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential string and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#SSSIII">web</a>)
@@ -717,6 +764,8 @@ A comprehensive discussion is at
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 in section 4.2.
+
+
 
 [[!redirects differential string structures]]
 
