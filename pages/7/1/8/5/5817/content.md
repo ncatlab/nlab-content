@@ -42,7 +42,7 @@ $$
   =
   (V_i \stackrel{f}{\to} V_{i+n} \stackrel{\delta_V}{\to} V_{i+n-1})  
   - (-1)^i
-  (V_{i+1} \stackrel{\delta_V}{\to} V_i \stackrel{f}{\to} V_{i+1})
+  (V_{i+1} \stackrel{\delta_V}{\to} V_i \stackrel{f}{\to} V_{i+n})
   \,.
 $$
 
@@ -89,3 +89,5 @@ See for instance the paragraph above theorem 5.4 in
 
 [[!redirects endomorphism L-infinity algebra]]
 [[!redirects endomorphism L-infinity algebras]]
+
+[[!redirects endomorphism infinity-Lie algebra]]
