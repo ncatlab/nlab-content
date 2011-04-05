@@ -215,7 +215,7 @@ To that end, we replace the [[Lie algebra]] $\mathfrak{g} = \mathfrak{so}$ by an
 
 * $\mathfrak{g} = \mathfrak{so}$, the [[special orthogonal Lie algebra]] (the Lie algebra of the [[spin group]]);
 
-* $b^2 \mathbb{R}$ the [[line Lie n-algebra|line Lie 3-algebra]], the single generator in degee 3 of its [[Chevalley-Eilenberg algebra]] we denote $h \in CE(b^2 \mathbb{R})$, $d h = 0$.
+* $b^2 \mathbb{R}$ the [[line Lie n-algebra|line Lie 3-algebra]], the single generator in degee 3 of its [[Chevalley-Eilenberg algebra]] we denote $c \in CE(b^2 \mathbb{R})$, $d c = 0$.
 
 * $\langle -,-\rangle \in W(\mathfrak{g})$ is the [[Killing form]] [[invariant polynomial]], regarded as an element of the [[Weil algebra]] of $\mathfrak{so}$;
 
@@ -261,19 +261,19 @@ Let $(b\mathbb{R} \to \mathfrak{g}_\mu)$ denote the
 
 $$
   CE(b\mathbb{R} \to \mathfrak{g}_\mu) = 
-  (\wedge^\bullet(  \mathfrak{g}^* \oplus \langle b\rangle \oplus \langle h \rangle ), d)
+  (\wedge^\bullet(  \mathfrak{g}^* \oplus \langle b\rangle \oplus \langle c \rangle ), d)
   \,,
 $$
 
-with $b$ a generator in degree 2, and $h$ a generator in degree 3, and with differential defined on generators by
+with $b$ a generator in degree 2, and $c$ a generator in degree 3, and with differential defined on generators by
 
 $$
   \begin{aligned}
     d|_{\mathfrak{g}^*} & = [-,-]^*
     \\
-    d  b & = - \mu + h
+    d  b & = - \mu + c
     \\
-    d h & =  0
+    d c & =  0
   \end{aligned}
   \,.
 $$
@@ -287,9 +287,9 @@ The 3-cocycle $ CE(\mathfrak{g}) \stackrel{\mu}{\leftarrow} CE(b^2 \mathbb{R})$ 
 
 $$
   CE(\mathfrak{g})
-   \stackrel{(h \mapsto \mu, b \mapsto 0)}{\leftarrow}
+   \stackrel{(c \mapsto \mu, b \mapsto 0)}{\leftarrow}
   CE(b\mathbb{R} \to \mathfrak{g}_\mu)
-   \stackrel{(h \mapsto h)}{\leftarrow}
+   \stackrel{(c \mapsto c)}{\leftarrow}
   CE(b^2 \mathbb{R})
   :
   \mu
@@ -323,7 +323,7 @@ where the first morphism is a weak equivalence followed by a fibration in the [[
 ###### Proof
 
 To see that the left morphism is objectwise a [[weak homotopy equivalence]], notice that 
-a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ consists of a triple $(A,B,H)$, where $A$ is a vertical flat $\mathfrak{g}$-valued 1-form on $U\times\Delta^k$, $B$ is a vertical 2-form and $H$ a 3-form on $U\times\Delta^k$, such that $d B=H-\mu(A,A,A)$ and $dH=0$. Since $A$ is flat, the condition $H=d B+\mu(A,A,A)$ implies $d H=0$ and so $H$ is completely determined by $B$, and there are no conditions on $B$. This means that  a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ is identified with a pair consisting of a based [[smooth function]] $f : \Delta^k \to Spin$ and a [[vertical differential form|vertical 2-form]] $B \in \Omega^2_{si,vert}(U \times \Delta^k)$, (both suitably with sitting instants perpendicular to the boundary of the simplex). Since there is no further condition on the 2-form, it can always be extended from the boundary of the $k$-simplex to the interior (for instance simply by radially rescaling it smoothly to 0). Accordingly the [[simplicial homotopy group]]s of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)(U)$ are the same as those of $\exp(\mathfrak{g})(U)$. The morphism between them is the identity in $f$ and picks $B = 0$ and is hence clearly an isomorphism on homotopy groups. 
+a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ consists of a triple $(A,B,C)$, where $A$ is a vertical flat $\mathfrak{g}$-valued 1-form on $U\times\Delta^k$, $B$ is a vertical 2-form and $C$ a 3-form on $U\times\Delta^k$, such that $d B=C-\mu(A,A,A)$ and $d C=0$, since $A$ is flat. Therefore $C$ is completely determined by $B$, and there are no conditions on $B$. This means that  a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ is identified with a pair consisting of a based [[smooth function]] $f : \Delta^k \to Spin$ and a [[vertical differential form|vertical 2-form]] $B \in \Omega^2_{si,vert}(U \times \Delta^k)$, (both suitably with sitting instants perpendicular to the boundary of the simplex). Since there is no further condition on the 2-form, it can always be extended from the boundary of the $k$-simplex to the interior (for instance simply by radially rescaling it smoothly to 0). Accordingly the [[simplicial homotopy group]]s of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)(U)$ are the same as those of $\exp(\mathfrak{g})(U)$. The morphism between them is the identity in $f$ and picks $B = 0$ and is hence clearly an isomorphism on homotopy groups. 
 
 We turn now to discussing that the second morphism is a fibration. The nontrivial degrees of the lifting problem
 
@@ -341,8 +341,8 @@ $$
 
 are $k = 3$ and $k = 4$.
 
-Notice that a $3$-cell of $\mathbf{B}^3 \mathbb{R}/ \mathbb{Z}_c(U)$ is a [[smooth function]] $c : U \to \mathbb{R}/\mathbb{Z}$ and 
-that the morphism $\exp(b\mathbb{R} \to \mathfrak{g}_\mu) \to \mathbf{B}^3 \mathbb{R}/\mathbb{Z}_c$ sends the pair $(f,B)$ to the [[fiber integration]] $\int_{\Delta^3}(f^* \langle \theta \wedge [\theta \wedge \theta]\rangle + d B)$. 
+Notice that a $3$-cell of $\mathbf{B}^3 \mathbb{R}/ \mathbb{Z}_c(U)$ is a [[smooth function]] $U \to \mathbb{R}/\mathbb{Z}$ and 
+that the morphism $\exp(b\mathbb{R} \to \mathfrak{g}_\mu) \to \mathbf{B}^3 \mathbb{R}/\mathbb{Z}_c$ sends the pair $(f,B)$ to the [[fiber integration]] $\int_{\Delta^3}(f^* \langle \theta \wedge [\theta \wedge \theta]\rangle + d B) mod \mathbb{Z}$. 
 
 Given our lifting problem in degree 3,
 we have given a function $c : U \to \mathbb{R}/\mathbb{Z}$ and a smooth function (with sitting instants at the subfaces) $U \times \Lambda^3_i \to Spin$ together with a 2-form $B$ on the [[horn]] $U \times \Lambda^3_i$.
@@ -351,7 +351,7 @@ By pullback along the standard [[continuous function|continuous]] [[retract]] $\
 
 In order to find a horn filler for the 2-form component, consider any smooth 2-form with sitting instants and non-vanishing integeral on $\Delta^2$, regarded as the missing face of the [[horn]]. By multiplying it with a suitable smooth function on $U$ we can obtain an extension $\tilde B \in \Omega^3_{si,vert}(U \times \partial \Delta^3)$ of $B$ to all of $U \times \partial \Delta^3$ with the property that its integral over $\partial \Delta^3$ is the given $c$. By the [[Stokes theorem]] it remains to extend $\tilde B$ to the interior of $\Delta^3$ in any way, as long as it is smooth and has sitting instants.
 
-To that end, we can find in a similar fashion a smooth $U$-parameterized family of closed 3-forms $H$ with sitting instants on $\Delta^3$, whose integral over $\Delta^3$ equals $c$. Since by sitting instants this 3-form vanishes in a neighbourhood of the boundary, the standard formula for the [[Poincare lemma]] applied to it produces a 2-form $B' \in \Omega^2_{si, vert}(U \times \Delta^3)$ with $d B' = H$ that itself is radially constant at the boundary. By construction the difference $\tilde B - B'|_{\partial \Delta^3}$ has vanishing surface integral. By the discussion at [[Lie integration]] it follows that the difference extends smoothly and with sitting instants to a closed 2-form $\hat B \in \Omega^2_{si,vert}(U \times \Delta^3)$. Therefore the sum 
+To that end, we can find in a similar fashion a smooth $U$-parameterized family of closed 3-forms $H$ with sitting instants on $\Delta^3$, whose integral over $\Delta^3$ equals $c$. Since by sitting instants this 3-form vanishes in a neighbourhood of the boundary, the standard formula for the [[Poincare lemma]] applied to it produces a 2-form $B' \in \Omega^2_{si, vert}(U \times \Delta^3)$ with $d B' = C$ that itself is radially constant at the boundary. By construction the difference $\tilde B - B'|_{\partial \Delta^3}$ has vanishing surface integral. By the discussion at [[Lie integration]] it follows that the difference extends smoothly and with sitting instants to a closed 2-form $\hat B \in \Omega^2_{si,vert}(U \times \Delta^3)$. Therefore the sum 
 
 $$
   B' + \hat B \in \Omega^2_{si,vert}(U \times \Delta^3)
@@ -370,17 +370,24 @@ We now proceed to extend this factorization to the exponentiated differential co
 +-- {: .un_prop }
 ###### Observation
 
-The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ of $(b^2 \mathbb{R} \to \mathfrak{g})$ is given on the extra shifted generators $\{r^a, c, l\}$ by
+The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ of $(b^2 \mathbb{R} \to \mathfrak{g})$ is given on the extra shifted generators 
+$\{r^a := \sigma t^a, h := \sigma b, g := \sigma c\}$ by
 
 * $d t^a = C^a{}_{b c} t^b \wedge t^c + r^a$;
 
 * $d r^a  = - C^a{}_{b c} t^b \wedge r^a$;
 
-* $d b = - \mu + h + c$;
+* $d b = - \mu + c + h$;
 
-* $d c = \sigma \mu - g$;
+* $d c = g$, 
 
-* $d h = g$ 
+with [[Bianchi identities]]
+
+* $d r^a = - C^a{}_{b c} t^b \wedge r^c$
+
+* $d h = \sigma \mu - g$;
+
+* $d g = 0$.
 
 (where $\sigma$ is the shift operator extended as a graded derivation, see [[Weil algebra]]).
 
@@ -392,11 +399,13 @@ but with the differential modified as follows
 
 * $d r^a  = - C^a{}_{b c} t^b \wedge r^a$;
 
-* $d b = - cs + h + c$;
+* $d b = - cs + c + c$;
 
-* $d c = \langle -,-\rangle - g$;
+* $d h = \langle -,-\rangle - g$;
 
-* $d h = g$ .
+* $d c = g$ .
+
+* $d g = 0$
 
 There is an [[isomorphism]] 
 
@@ -409,7 +418,7 @@ $$
 in [[dgAlg]] that is the identity on all generators except on $c$, where it is given by
 
 $$
-  c \mapsto c + (\mu - cs)
+  h \mapsto h + (\mu - cs)
   \,.
 $$
 
@@ -418,16 +427,16 @@ $$
 +-- {: .un_remark }
 ###### Remark
 
-Where the formula for the differential of $W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the 3-cocycle $\mu$ that for $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the [[Chern-Simons element]] $cs$.  The shift by $cs-\mu$ is precisely what shifts the curvature characteristic $d_{W(\mathfrak{g})}\mu$ into the shifted copy $\mathfrak{g}^*$ in the Weil algebra, thus exhibiting the modified $c$ as an [[invariant polynomial]].
+Where the formula for the differential of $W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the 3-cocycle $\mu$ that for $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the [[Chern-Simons element]] $cs$.  The shift by $cs-\mu$ is precisely what shifts the curvature characteristic $d_{W(\mathfrak{g})}\mu$ into the shifted copy $\mathfrak{g}^*$ in the Weil algebra, thus exhibiting the modified $h$ as an [[invariant polynomial]].
 
 =--
 
-We shall in the following write $c$ for the generator of that name in $c \in \tilde W(b\mathbb{R} \to \mathfrak{g}_\mu) \stackrel{\simeq}{\to} \tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$.
+We shall in the following write $h$ for the generator of that name in $ \tilde W(b\mathbb{R}$.
 
 +-- {: .un_corollary }
 ###### Corollary
 
-The [[invariant polynomial]]s on $(b \mathbb{R} \to \mathfrak{g}_\mu)$ are generated from those of $\mathfrak{g}_\mu$ together with $c$ and $g$.
+The [[invariant polynomial]]s on $(b \mathbb{R} \to \mathfrak{g}_\mu)$ are generated from those of $\mathfrak{g}_\mu$ together with $h$ and $g$.
 
 =--
 
@@ -457,7 +466,7 @@ of $\exp(\mu,cs)$ in $[CartSp^{op}, sSet]_{proj}$, where the first morphism is a
 +-- {: .proof}
 ###### Proof
 
-We discuss that the first morphism is an equivalence. Clearly it is injective on homotopy groups: if a sphere of $A$-data cannot be filled, then also adding the $(B,C,H)$-data does not yield a filler. So we need to check that it is also surjective on homtoopy groups: if the $A$-data can be filled, then also the corresponding $(B,C,H)$-data has a filler. Since $C$ is horizontal it is already extended. We may extend $B$ in any smooth way to $U \times \Delta^k$ (for instance by rescaling it smoothly to zero at the center of the $k$-simplex) and then take th equation $d B = CS(A)+ C  - H$ to define the extension of $H$. Its curvature is then $d CS(A) = \langle F_A \wedge F_A\rangle$ and hence horizontal by the assumption that we already have a filler of $A$-data.
+We discuss that the first morphism is an equivalence. Clearly it is injective on homotopy groups: if a sphere of $A$-data cannot be filled, then also adding the $(B,C,H)$-data does not yield a filler. So we need to check that it is also surjective on homtoopy groups: if the $A$-data can be filled, then also the corresponding $(B,C,H)$-data has a filler. Since $CH$ is horizontal it is already extended. We may extend $B$ in any smooth way to $U \times \Delta^k$ (for instance by rescaling it smoothly to zero at the center of the $k$-simplex) and then take the equation $d B = - CS(A)+ H  + C$ to define the extension of $C$. Its curvature is then $d CS(A) = \langle F_A \wedge F_A\rangle$ and hence horizontal by the assumption that we already have a filler of $A$-data.
 
 We now check that the second morphism is a fibration. It is itself the composite
 
@@ -490,17 +499,17 @@ $$
 
 may all be equivalently reformulated as lifting against a [[cylinder]] $D^k \hookrightarrow D^k \times [0,1]$ by using the sitting instants of all forms.
 
-We have then a 3-form $H \in \Omega^3_{si}(U \times D^{k-1}\times [0,1])$ and differential form data $(A,B,C)$ on $U \times D^{k-1}$ given. We may always extend $A$ along the cylinder direction $[0,1]$ (its vertical part is equivalently a based smooth function to $Spin$ which we may extend constantly). $C$  has to be horizontal so is already constantly extended along the cylinder.
+We have then a 3-form $C \in \Omega^3_{si}(U \times D^{k-1}\times [0,1])$ and differential form data $(A,B,H)$ on $U \times D^{k-1}$ given. We may always extend $A$ along the cylinder direction $[0,1]$ (its vertical part is equivalently a based smooth function to $Spin$ which we may extend constantly). $H$  has to be horizontal so is already constantly extended along the cylinder.
 
-We can then use the kind of formula that proves the [[Poincare lemma]] to extend $B$. Let $\Psi : (D^k \times [0,1]) \times [0,1] \to (D^k  \times [0,1])$ be a smooth contraction. Then while $d(H - CS(A) - C)$ may be non-vaishing, by horizonatlity of their [[curvature characteristic form]]s we still have that $\iota_{\partial_t} \Psi_t^* d(H - CS(A) - C)$ vanishes (since the contraction vanishes).
+We can then use the kind of formula that proves the [[Poincare lemma]] to extend $B$. Let $\Psi : (D^k \times [0,1]) \times [0,1] \to (D^k  \times [0,1])$ be a smooth contraction. Then while $d(H - CS(A) + C)$ may be non-vaishing, by horizonatlity of their [[curvature characteristic form]]s we still have that $\iota_{\partial_t} \Psi_t^* d(H - CS(A) + C)$ vanishes (since the contraction vanishes).
 
 Therefore the 2-form
 
 $$
-  \tilde B := \int_{[0,1]} \iota_{\partial_t} \Psi_t^*(H - CS(A)-C)
+  \tilde B := \int_{[0,1]} \iota_{\partial_t} \Psi_t^*(H - CS(A) + C)
 $$
 
-satisfies $d \tilde B = (H - CS(A) - C)$. It may however not coincide with our given $B$ at $t = 0$. But the difference $B - \tilde B|_{t = 0}$ is a closed form on the left boundary of the cylinder. We may find some closed 2-form on the other boundary such that the integral around the boundary vanishes. Then the argument from the proof of the [[Lie integration]] of the [[line Lie n-algebra]] applies and we find an extension $\lambda$ to a closed 2-form on the interior. The sum
+satisfies $d \tilde B = (H - CS(A) + C)$. It may however not coincide with our given $B$ at $t = 0$. But the difference $B - \tilde B|_{t = 0}$ is a closed form on the left boundary of the cylinder. We may find some closed 2-form on the other boundary such that the integral around the boundary vanishes. Then the argument from the proof of the [[Lie integration]] of the [[line Lie n-algebra]] applies and we find an extension $\lambda$ to a closed 2-form on the interior. The sum
 
 $$
   \hat B := \tilde B + \lambda
@@ -533,11 +542,12 @@ We observe that we can
 
 * fill the $A$-data horizonatlly due to the fact that $\pi_2 (Spin) = 0$. 
 
-* the $C$-form is already horizontal, hence already filled. 
+* the $H$-form is already horizontal, hence already filled. 
 
-Moreover, by the fact that the 2-form $B$ already is defined on all of $\partial \Delta[4] \setminus \delta_i(\Delta[3])$ its fiber integral over the boundary $\partial \Delta[3]$ coincides with the fiber integral of $H - CS(A) - C$ over $\partial Delta[4] \setminus \delta_i (\Delta[3])$). But by the fact that we have lifted $H$ and the fact that $\mu(A_{vert}) = CS(A)|_{\Delta^3}$ is an integral cocycle, it follows that this equals the fiber integral of $H - CS(A)$ over the remaining face.
+Moreover, by the fact that the 2-form $B$ already is defined on all of $\partial \Delta[4] \setminus \delta_i(\Delta[3])$ its fiber integral over the boundary $\partial \Delta[3]$ coincides with the fiber integral of $H - CS(A) + C$ over $\partial \Delta[4] \setminus \delta_i (\Delta[3])$). But by the fact that we have lifted $C$ and the fact that $\mu(A_{vert}) = CS(A)|_{\Delta^3}$ is an integral cocycle, it follows that this equals the fiber integral of $C - CS(A)$ over the remaining face.
 
-Use then as above the vertical Poincare lemma-formula to find $\tilde B$ on $U \times \Delta^3$ with sitting instants that satisfies the equation $d B = H - CS(A) - C$ there. Then extend the closed difference $B - \tilde B|_{0}$ to a closed smooth 2-form on $\Delta^3$. As before, the difference
+Use then as above the vertical Poincare lemma-formula to find $\tilde B$ on $U \times \Delta^3$ with sitting instants that satisfies the equation 
+$d B = H - CS(A) + C$ there. Then extend the closed difference $B - \tilde B|_{0}$ to a closed smooth 2-form on $\Delta^3$. As before, the difference
 
 $$
   \hat B := \tilde B  + \lambda
@@ -629,6 +639,8 @@ $$
       \\
       d H_3 =& \mathcal{G}_4 - \langle F_A \wedge F_A\rangle
       \\
+      d C_3 =& \mathcal{G}_4
+      \\
       d \mathcal{G}_4 =& 0
     }
   \right)_i
@@ -657,9 +669,11 @@ $$
        \\
        d r^a  =&  - C^a{}_{b c} t^b \wedge r^a
        \\
-       d c =& g - \langle -,-\rangle
+       d h =& g - \langle -,-\rangle
        \\
-       d h =& g
+       d c =& g
+       \\
+       d g =&  0 
     }
   \right)
   \,.
