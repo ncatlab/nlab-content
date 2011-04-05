@@ -89,7 +89,7 @@ Let moreover $\mathbf{B}^2 U(1) \in Smooth \infty Grpd$ be the <a href="http://n
 
 At [[Chern-Weil theory in Smooth∞Grpd]] the following statement is proven ([FSS](#FSS)).
 
-+-- {: .un_prop }
++-- {: .num_prop #LieIntegrationToPOne}
 ###### Proposition
 
 The image under [[Lie integration]] of the canonical [[Lie algebra cohomology|Lie algebra 3-cocycle]]
@@ -134,7 +134,7 @@ with values in [[ordinary differential cohomology]] that corresponds to the [[Ki
 
 =--
 
-+-- {: .un_def #DifferentialStringStructure}
++-- {: .num_defn #DifferentialStringStructure}
 ###### Definition
 
 For any $X \in $ [[Smooth∞Grpd]], the [[2-groupoid]]  of **differential string-structures** on $X$ -- $String_{diff}(X)$ -- is the [[homotopy fiber]] of  $\frac{1}{2}\hat \mathbf{p}_1(X)$ over the trivial differential cocycle.
@@ -159,8 +159,8 @@ where the right vertical morphism is a choice of (any) one point in each [[conne
 =--
 
 
-+-- {: .un_remark }
-###### Remark
++-- {: .num_note NoteOnLiterature}
+###### Note
 
 In terms of local [[∞-Lie algebra valued differential forms]] data this has been considered in ([SSSIII](#SSSIII)), as we shall discuss [below](#ChernWeilTheory).
 For the case where the twist is given by globally defined 3-forms, i.e. by  trivial 2-gerbes with connection, essentially this definition, explicitly modeled on [[bundle 2-gerbe]]s, has been given in ([Waldorf](#Waldorf)).
@@ -175,7 +175,7 @@ We use the [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-topos]
 
 Recall the following fact from [[Chern-Weil theory in Smooth∞Grpd]] ([FSS](#FSS)).
 
-+-- {: .un_prop }
++-- {: .num_prop #LieIntegrationOfDifferentialPOne}
 ###### Proposition
 
 The differential fractional Pontryagin class $\frac{1}{2} \hat \mathbf{p}_1$ is presented in $[CartSp_{smooth}^{op}, sSet]_{proj}$ by the top morphism of simplicial presheaves in
@@ -253,7 +253,7 @@ To that end, we replace the [[Lie algebra]] $\mathfrak{g} = \mathfrak{so}$ by an
 
 
 
-+-- {: .un_def }
++-- {: .num_defn #ResolutionOfLieAlgebra }
 ###### Definition
 
 Let $(b\mathbb{R} \to \mathfrak{g}_\mu)$ denote the 
@@ -280,7 +280,7 @@ $$
 
 =--
 
-+-- {: .un_prop #FactorizationOfTheCocycle}
++-- {: .num_prop #FactorizationOfTheCocycle}
 ###### Observation
 
 The 3-cocycle $ CE(\mathfrak{g}) \stackrel{\mu}{\leftarrow} CE(b^2 \mathbb{R})$ factors as 
@@ -300,7 +300,7 @@ where the morphism on the left (which is the identity when restricted to $\mathf
 
 =--
 
-+-- {: .un_prop #BareFibration}
++-- {: .num_prop #BareFibration}
 ###### Proposition
 
 The image under [[Lie integration]] of the above factorization is
@@ -323,7 +323,7 @@ where the first morphism is a weak equivalence followed by a fibration in the [[
 ###### Proof
 
 To see that the left morphism is objectwise a [[weak homotopy equivalence]], notice that 
-a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ consists of a triple $(A,B,C)$, where $A$ is a vertical flat $\mathfrak{g}$-valued 1-form on $U\times\Delta^k$, $B$ is a vertical 2-form and $C$ a 3-form on $U\times\Delta^k$, such that $d B=C-\mu(A,A,A)$ and $d C=0$, since $A$ is flat. Therefore $C$ is completely determined by $B$, and there are no conditions on $B$. This means that  a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ is identified with a pair consisting of a based [[smooth function]] $f : \Delta^k \to Spin$ and a [[vertical differential form|vertical 2-form]] $B \in \Omega^2_{si,vert}(U \times \Delta^k)$, (both suitably with sitting instants perpendicular to the boundary of the simplex). Since there is no further condition on the 2-form, it can always be extended from the boundary of the $k$-simplex to the interior (for instance simply by radially rescaling it smoothly to 0). Accordingly the [[simplicial homotopy group]]s of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)(U)$ are the same as those of $\exp(\mathfrak{g})(U)$. The morphism between them is the identity in $f$ and picks $B = 0$ and is hence clearly an isomorphism on homotopy groups. 
+a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ consists of a triple $(A,B,C)$, where $A$ is a vertical flat $\mathfrak{g}$-valued 1-form on $U\times\Delta^k$, $B$ is a vertical 2-form and $C$ a 3-form on $U\times\Delta^k$, such that $d B=C-\mu(A,A,A)$ and $d C=0$, since $A$ is flat. Therefore $C$ is uniquely determined by $A$ and $B$, and there are no conditions on $B$. This means that  a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ is identified with a pair consisting of a based [[smooth function]] $f : \Delta^k \to Spin$ and a [[vertical differential form|vertical 2-form]] $B \in \Omega^2_{si,vert}(U \times \Delta^k)$, (both suitably with sitting instants perpendicular to the boundary of the simplex). Since there is no further condition on the 2-form, it can always be extended from the boundary of the $k$-simplex to the interior (for instance simply by radially rescaling it smoothly to 0). Accordingly the [[simplicial homotopy group]]s of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)(U)$ are the same as those of $\exp(\mathfrak{g})(U)$. The morphism between them is the identity in $f$ and picks $B = 0$ and is hence clearly an isomorphism on homotopy groups. 
 
 We turn now to discussing that the second morphism is a fibration. The nontrivial degrees of the lifting problem
 
@@ -344,14 +344,14 @@ are $k = 3$ and $k = 4$.
 Notice that a $3$-cell of $\mathbf{B}^3 \mathbb{R}/ \mathbb{Z}_c(U)$ is a [[smooth function]] $U \to \mathbb{R}/\mathbb{Z}$ and 
 that the morphism $\exp(b\mathbb{R} \to \mathfrak{g}_\mu) \to \mathbf{B}^3 \mathbb{R}/\mathbb{Z}_c$ sends the pair $(f,B)$ to the [[fiber integration]] $\int_{\Delta^3}(f^* \langle \theta \wedge [\theta \wedge \theta]\rangle + d B) mod \mathbb{Z}$. 
 
-Given our lifting problem in degree 3,
-we have given a function $c : U \to \mathbb{R}/\mathbb{Z}$ and a smooth function (with sitting instants at the subfaces) $U \times \Lambda^3_i \to Spin$ together with a 2-form $B$ on the [[horn]] $U \times \Lambda^3_i$.
+Our lifting problem in degree 3,
+has given a function $c : U \times \Delta^3 \to \mathbb{R}/\mathbb{Z}$ and a smooth function (with sitting instants at the subfaces) $f : U \times \Lambda^3_i \to Spin$ together with a 2-form $B$ on the [[horn]] $U \times \Lambda^3_i$.
 
 By pullback along the standard [[continuous function|continuous]] [[retract]] $\Delta^3 \to \Lambda^3_i$ which is non-smooth only where $f$ has sitting instants,  we can always extend $f$ to a smooth function $f' : U \times \Delta^3 \to Spin$ with the property that $\int_{\Delta^3} (f')^* \langle \theta \wedge [\theta \wedge \theta]\rangle = 0$. (Following the general discussion at [[Lie integration]].)
 
 In order to find a horn filler for the 2-form component, consider any smooth 2-form with sitting instants and non-vanishing integeral on $\Delta^2$, regarded as the missing face of the [[horn]]. By multiplying it with a suitable smooth function on $U$ we can obtain an extension $\tilde B \in \Omega^3_{si,vert}(U \times \partial \Delta^3)$ of $B$ to all of $U \times \partial \Delta^3$ with the property that its integral over $\partial \Delta^3$ is the given $c$. By the [[Stokes theorem]] it remains to extend $\tilde B$ to the interior of $\Delta^3$ in any way, as long as it is smooth and has sitting instants.
 
-To that end, we can find in a similar fashion a smooth $U$-parameterized family of closed 3-forms $H$ with sitting instants on $\Delta^3$, whose integral over $\Delta^3$ equals $c$. Since by sitting instants this 3-form vanishes in a neighbourhood of the boundary, the standard formula for the [[Poincare lemma]] applied to it produces a 2-form $B' \in \Omega^2_{si, vert}(U \times \Delta^3)$ with $d B' = C$ that itself is radially constant at the boundary. By construction the difference $\tilde B - B'|_{\partial \Delta^3}$ has vanishing surface integral. By the discussion at [[Lie integration]] it follows that the difference extends smoothly and with sitting instants to a closed 2-form $\hat B \in \Omega^2_{si,vert}(U \times \Delta^3)$. Therefore the sum 
+To that end, we can find in a similar fashion a smooth $U$-parameterized family of closed 3-forms $H$ with sitting instants on $\Delta^3$, whose integral over $\Delta^3$ equals $c$. Since by sitting instants this 3-form vanishes in a neighbourhood of the boundary, the standard formula for the [[Poincare lemma]] applied to it produces a 2-form $B' \in \Omega^2_{si, vert}(U \times \Delta^3)$ with $d B' = H$ that itself is radially constant at the boundary. By construction the difference $\tilde B - B'|_{\partial \Delta^3}$ has vanishing surface integral. By the discussion at [[Lie integration]] it follows that the difference extends smoothly and with sitting instants to a closed 2-form $\hat B \in \Omega^2_{si,vert}(U \times \Delta^3)$. Therefore the sum 
 
 $$
   B' + \hat B \in \Omega^2_{si,vert}(U \times \Delta^3)
@@ -360,22 +360,20 @@ $$
 equals $B$ when restricted to $\Lambda^k_i$ and has the property that its integral over $\Delta^3$ equals $c$.
 Together with our extension $f'$, this constitutes a pair that solves the lifting problem.
 
-The extension problem in degree 4 amounts to a similar construction: by coskeletalness the condition is that for a given $c : U \to \mathbb{R}/\mathbb{Z}$ and a given vertical 2-form on $U \times \partial \Delta^3$ such that its integral equals $c$, as well as a function $f : U \times \partial \Delta^3 \to Spin$, we can extend the 2-form and the functionalong $U \times \partial \Delta^3 \to U \times \Delta^3$. The latter follows from the fact that $\pi_2 Spin = 0$ which guarantees a continuous filler (with sitting instants), and using the [[Steenrod-Wockel approximation theorem]] to make this smooth. We are left with the problem of extending the 2-form, which is the same problem we discussed above after the choice of $\tilde B$.
+The extension problem in degree 4 amounts to a similar construction: by coskeletalness the condition is that for a given $c : U \to \mathbb{R}/\mathbb{Z}$ and a given vertical 2-form on $U \times \partial \Delta^3$ such that its integral equals $c$, as well as a function $f : U \times \partial \Delta^3 \to Spin$, we can extend the 2-form and the function along $U \times \partial \Delta^3 \to U \times \Delta^3$. The latter follows from the fact that $\pi_2 Spin = 0$ which guarantees a continuous filler (with sitting instants), and using the [[Steenrod-Wockel approximation theorem]] to make this smooth. We are left with the problem of extending the 2-form, which is the same problem we discussed above after the choice of $\tilde B$.
 
 =--
 
 We now proceed to extend this factorization to the exponentiated differential coefficients (see [[connection on an ∞-bundle]]).
 
 
-+-- {: .un_prop }
++-- {: .num_prop #ShiftedWeilAlgebra}
 ###### Observation
 
 The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ of $(b^2 \mathbb{R} \to \mathfrak{g})$ is given on the extra shifted generators 
-$\{r^a := \sigma t^a, h := \sigma b, g := \sigma c\}$ by
+$\{r^a := \sigma t^a, h := \sigma b, g := \sigma c\}$  (where $\sigma$ is the shift operator extended as a graded derivation, see [[Weil algebra]]) by
 
-* $d t^a = C^a{}_{b c} t^b \wedge t^c + r^a$;
-
-* $d r^a  = - C^a{}_{b c} t^b \wedge r^a$;
+* $d t^a = -\frac{1}{2} C^a{}_{b c} t^b \wedge t^c + r^a$;
 
 * $d b = - \mu + c + h$;
 
@@ -389,13 +387,13 @@ with [[Bianchi identities]]
 
 * $d g = 0$.
 
-(where $\sigma$ is the shift operator extended as a graded derivation, see [[Weil algebra]]).
+
 
 Let $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ be the dg-algebra
 with the same underlying graded algebra as $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ 
 but with the differential modified as follows
 
-* $d t^a = C^a{}_{b c} t^b \wedge t^c + r^a$;
+* $d t^a = -\frac{1}{2} C^a{}_{b c} t^b \wedge t^c + r^a$;
 
 * $d r^a  = - C^a{}_{b c} t^b \wedge r^a$;
 
@@ -415,7 +413,7 @@ $$
   \tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)
 $$
 
-in [[dgAlg]] that is the identity on all generators except on $c$, where it is given by
+in [[dgAlg]] that is the identity on all generators except on $h$, where it is given by
 
 $$
   h \mapsto h + (\mu - cs)
@@ -424,23 +422,23 @@ $$
 
 =--
 
-+-- {: .un_remark }
-###### Remark
++-- {: .num_note #RemarkOnShiftedWeilAlgebra}
+###### Note
 
 Where the formula for the differential of $W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the 3-cocycle $\mu$ that for $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the [[Chern-Simons element]] $cs$.  The shift by $cs-\mu$ is precisely what shifts the curvature characteristic $d_{W(\mathfrak{g})}\mu$ into the shifted copy $\mathfrak{g}^*$ in the Weil algebra, thus exhibiting the modified $h$ as an [[invariant polynomial]].
 
 =--
 
-We shall in the following write $h$ for the generator of that name in $ \tilde W(b\mathbb{R}$.
+We shall in the following write $h$ for the generator of that name in $ \tilde W(b\mathbb{R})$.
 
-+-- {: .un_corollary }
++-- {: .num_cor #TheInvariantPolynomials}
 ###### Corollary
 
 The [[invariant polynomial]]s on $(b \mathbb{R} \to \mathfrak{g}_\mu)$ are generated from those of $\mathfrak{g}_\mu$ together with $h$ and $g$.
 
 =--
 
-+-- {: .un_prop #PresentationByFibration}
++-- {: .num_prop #PresentationByFibration}
 ###### Proposition
 **(presentation of the differential class by a fibration)**
 
@@ -466,7 +464,7 @@ of $\exp(\mu,cs)$ in $[CartSp^{op}, sSet]_{proj}$, where the first morphism is a
 +-- {: .proof}
 ###### Proof
 
-We discuss that the first morphism is an equivalence. Clearly it is injective on homotopy groups: if a sphere of $A$-data cannot be filled, then also adding the $(B,C,H)$-data does not yield a filler. So we need to check that it is also surjective on homtoopy groups: if the $A$-data can be filled, then also the corresponding $(B,C,H)$-data has a filler. Since $CH$ is horizontal it is already extended. We may extend $B$ in any smooth way to $U \times \Delta^k$ (for instance by rescaling it smoothly to zero at the center of the $k$-simplex) and then take the equation $d B = - CS(A)+ H  + C$ to define the extension of $C$. Its curvature is then $d CS(A) = \langle F_A \wedge F_A\rangle$ and hence horizontal by the assumption that we already have a filler of $A$-data.
+We discuss that the first morphism is an equivalence. Clearly it is injective on homotopy groups: if a sphere of $A$-data cannot be filled, then also adding the $(B,C)$-data does not yield a filler. So we need to check that it is also surjective on homotopy groups: if the $A$-data can be filled, then also the corresponding $(B,C)$-data has a filler. Since the curvature $H$ is horizontal it is already extended. We may extend $B$ in any smooth way to $U \times \Delta^k$ (for instance by rescaling it smoothly to zero at the center of the $k$-simplex) and then take the equation $d B = - CS(A) + C + H$ to define the extension of $C$. 
 
 We now check that the second morphism is a fibration. It is itself the composite
 
@@ -499,9 +497,9 @@ $$
 
 may all be equivalently reformulated as lifting against a [[cylinder]] $D^k \hookrightarrow D^k \times [0,1]$ by using the sitting instants of all forms.
 
-We have then a 3-form $C \in \Omega^3_{si}(U \times D^{k-1}\times [0,1])$ and differential form data $(A,B,H)$ on $U \times D^{k-1}$ given. We may always extend $A$ along the cylinder direction $[0,1]$ (its vertical part is equivalently a based smooth function to $Spin$ which we may extend constantly). $H$  has to be horizontal so is already constantly extended along the cylinder.
+We have then a 3-form $C \in \Omega^3_{si}(U \times D^{k-1}\times [0,1])$ with horizontal curvature $\mathcal{G} \in Omega^4(U)$ and differential form data $(A,B)$ on $U \times D^{k-1}$ given. We may always extend $A$ along the cylinder direction $[0,1]$ (its vertical part is equivalently a based smooth function to $Spin$ which we may extend constantly). $H$  has to be horizontal so it is to be constantly extended along the cylinder.
 
-We can then use the kind of formula that proves the [[Poincare lemma]] to extend $B$. Let $\Psi : (D^k \times [0,1]) \times [0,1] \to (D^k  \times [0,1])$ be a smooth contraction. Then while $d(H - CS(A) + C)$ may be non-vaishing, by horizonatlity of their [[curvature characteristic form]]s we still have that $\iota_{\partial_t} \Psi_t^* d(H - CS(A) + C)$ vanishes (since the contraction vanishes).
+We can then use the kind of formula that proves the [[Poincare lemma]] to extend $B$. Let $\Psi : (D^k \times [0,1]) \times [0,1] \to (D^k  \times [0,1])$ be a smooth contraction. Then while $d(H - CS(A) + C)$ may be non-vanishing, by horizonatlity of their [[curvature characteristic form]]s we still have that $\iota_{\partial_t} \Psi_t^* d(H - CS(A) + C)$ vanishes (since the contraction vanishes).
 
 Therefore the 2-form
 
@@ -533,12 +531,12 @@ $$
 
 starts out differently, due to the presence of $\mathbf{cosk}_3$, but it then ends up amounting to the same kind of argument:
 
-We have four functions $U \to \mathbb{R}/\mathbb{Z}$ which we may realize as the [[fiber integration]] of a 3-form $H$ on $U \times (\partial \Delta[4] \setminus \delta_i \Delta[3])$,
+We have four functions $U \to \mathbb{R}/\mathbb{Z}$ which we may realize as the [[fiber integration]] of a 3-form $C$ on $U \times (\partial \Delta[4] \setminus \delta_i \Delta[3])$,
 and we have a lift to $(A,B,C, H)$-data on $U \times (\partial \Delta[4]\setminus \delta_i(\Delta[3]))$ (the boundary of the 4-simplex minus one of its 3-simplex faces). 
 
 We observe that we can 
 
-* always extend $H$ smoothly to the remaining 3-face such that its [[fiber integration]] there reproduces the signed difference of the four given functions corresponding to the other faces (choose any smooth 3-form with sitting instants and with non-vanishing integral and rescale smoothly);
+* always extend $C$ smoothly to the remaining 3-face such that its [[fiber integration]] there reproduces the signed difference of the four given functions corresponding to the other faces (choose any smooth 3-form with sitting instants and with non-vanishing integral and rescale smoothly);
 
 * fill the $A$-data horizonatlly due to the fact that $\pi_2 (Spin) = 0$. 
 
@@ -561,7 +559,7 @@ is an extension of $B$ that constitutes a lift.
 
 ### Explicit Cech cocycles {#ExplicitCocycles}
 
-+-- {: .un_prop }
++-- {: .num_cor #PresentationBySimplicialPresheaves}
 ###### Corollary
 
 For any $X \in $ [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]], for any choice of differentiaby [[good open cover]] with corresponding cofibrant presentation $\hat X = C(\{C_i\})\in [CartSp_{smooth}^{op}, sSet]_{proj}$ we have that the [[2-groupoid]]s of [twisted different String structures](#DifferentialStringStructure)s are presented by the ordinary [[fiber]]s of the morphism of [[Kan complex]]es
@@ -617,6 +615,9 @@ $$
 
 with local connection 3-form $(H_3)_i \in \Omega^3(U_i)$ and globally defined [[curvature]] 4-form $\mathcal{G}_4 \in \Omega^4(X)$.
 
++-- {: .num_note #UnwindingTheLocalData}
+###### Note
+
 A differential string structure on $X$ twisted by this cocycles is on patches $U_i$ a morphism
 
 $$
@@ -631,13 +632,13 @@ The components of this are over each $U_i$ a collection of differential forms of
 $$
   \left(
     \array{ 
-      F_A =& d A + [A\wedge A]
+      F_\omega =& d \omega + \frac{1}{2}[\omega \wedge \omega]
       \\
-      H_3 =& \nabla B := d B + CS(A) + C_3 
+      H_3 =& \nabla B := d B + CS(\omega) - C_3 
       \\
-      d F_A =& - [A \wedge F_A]
+      d F_\omega =& - [\omega \wedge F_\omega]
       \\
-      d H_3 =& \mathcal{G}_4 - \langle F_A \wedge F_A\rangle
+      d H_3 =&  \langle F_\omega \wedge F_\omega\rangle - \mathcal{G}_4
       \\
       d C_3 =& \mathcal{G}_4
       \\
@@ -647,9 +648,9 @@ $$
   \;\;\;\;
   \stackrel{
     \array{
-       t^a & \mapsto A^a
+       t^a & \mapsto \omega^a
        \\
-       r^a & \mapsto F^a_A
+       r^a & \mapsto F^a_\omega
        \\
        b & \mapsto B
        \\
@@ -663,13 +664,13 @@ $$
   \;\;\;\;
   \left(
     \array{  
-       d t^a =& C^a{}_{b c} t^b \wedge t^c + r^a
+       d t^a =& -\frac{1}{2}C^a{}_{b c} t^b \wedge t^c + r^a
        \\
-       h = & d b + cs + c     
+       h = & d b + cs - c     
        \\
        d r^a  =&  - C^a{}_{b c} t^b \wedge r^a
        \\
-       d h =& g - \langle -,-\rangle
+       d h =& \langle -,-\rangle - g 
        \\
        d c =& g
        \\
@@ -679,63 +680,158 @@ $$
   \,.
 $$
 
+=--
+
 Here we are indicating on the right the generators and their relation in $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ and on the left their images and the images of the relations in $\Omega^\bullet(U_i)$.   This are first the definitions of the [[curvature]]s themselves and then the [[Bianchi identities]] satisfied by these.
 
-Consider now an <a href="http://ncatlab.org/nlab/show/infinity-Chern-Weil+theory+introduction#InfGaugeTrafo">integrated gauge transformation</a> of such data for arbtrary $A$-curvature $F_A$ but horizontal $H$-curvature $\mathcal{G}$. This is given by a 1-form
-
-$$
-  \hat A \in \Omega^1(U \times \Delta^1, \mathfrak{g})
-$$
-
-and a 3-form
-
-$$
-  \hat C = C_u + \omega \wedge d t \in \Omega^3(U \times \Delta^1)
-$$
-
-inducing the shift
-
-$$
-  \alpha = A_2 - A_1
-$$
-
-in the connection 1-form, and gauge transformation
-
-$$
-  C_2 = C_1 + d_U \Omega + CS(A_1, A_2)
-  \,,
-$$
-
-where
-
-$$
-   \Omega = \int_{\Delta^1} \omega d t 
-$$
-
-and where
-
-$$
-  CS(A_1, A_2) = \int_{\Delta^1} \langle F_{\hat A} \wedge F_{\hat A}\rangle
-$$
-
-is the relative [[Chern-Simons form]] corresponding to the linear path of connections from $A_1$ to $A_2$.
-
-This are the local gauge transformations for the [[supergravity C-field]] as considered in ([DFM, section 3](#DFM)).
 
 
-### The Green-Schwarz mechanism in heterotic supergravity
+## The Green-Schwarz mechanism in heterotic supergravity
+ {#InheteroticSugra}
 
-Local differential form data as above is known in [[higher category theory and physics|theoretical physics]] in the context of the [[Green-Schwarz mechanism]] for 10-dimensional [[supergravity]].
+We discuss the application of twisted differential string structures in [[supergravity]] and [[string theory]].
+
+Local differential form data as in note \ref{UnwindingTheLocalData} above is known in [[higher category theory and physics|theoretical physics]] in the context of the [[Green-Schwarz mechanism]] for 10-dimensional [[supergravity]].
 
 In this context 
 
-* $A$ is called the [[spin connection]]; 
+* $\omega$ is called the [[spin connection]]; 
 
-* $C_3$ is called the [[supergravity C-field]] 
+* the components $((H_3)_i, \cdots)$ of the above cocycle are known as the $\hat \mathcal{G}_4$-twisted [[Kalb-Ramond field]].
 
-* the components $((H_3)_i, \cdots)$ of the above cocycle are known as the $\hat \mathbf{G}_4$-twisted [[Kalb-Ramond field]].
+In this application the twisting cocycle $\hat \mathcal{G}_4 \in H^4_{diff}(X)$ is itself the [[Chern-Simons circle 3-bundle]] of a [[unitary group]]-[[principal bundle]] with local connection form $A \in \Omega^1(U, \mathfrak{u})$. Therefore in this case $C_3 = CS(A)$ and the above local form data becomes
+
+$$
+  H_3 = d B + CS(\omega) - CS(A)
+$$
+
+$$
+  d H_3 = \langle F_\omega \wedge F_\omega \rangle
+   - 
+   \langle F_A \wedge F_A \rangle
+  \,.
+$$
+
+Since $H_3$ is the would-be [[curvature]] of a [[circle n-bundle with connection|circle 2-bundle with connection]], this is the first higher [[Maxwell equation]] that exhibits 
+
+$$
+  j_{mag}
+  :=
+  \langle F_\omega \wedge F_\omega \rangle
+   - 
+   \langle F_A \wedge F_A \rangle
+$$
+
+as the [[magnetic charge]] distribution that twists this 2-bundle. This may be interpreted as the magnetic of a classical background density of magnetic [[fundamental brane|fivebranes]].  For more details on this see [[Green-Schwarz mechanism]].
+
+More precisely, the twisted differential string structure of the [[Green-Schwarz mechanism]] in heterotic [[supergravity]] for fixed gauge bundles are therefore given by the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    GSBackground_{fixed gauge bundle}(X) &\to& \pi_0 \mathbf{H}_{conn}(X, \mathbf{B}U)
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\hat \mathbf{c}_2}}
+    \\
+    \mathbf{H}_{conn}(X,\mathbf{B}Spin)
+     &\stackrel{\frac{1}{2}\hat \mathbf{p}_1}{\to}&
+    \mathbf{H}_{conn}(X, \mathbf{B}^3 U(1))
+  }
+  \,.
+$$
+
+Clearly, if we take into account also gauge transformations of the gauge bundle, we should replace this by the full
+
+$$
+  \array{
+    GSBackground(X) &\to& \mathbf{H}_{conn}(X, \mathbf{B}U)
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\hat \mathbf{c}_2}}
+    \\
+    \mathbf{H}_{conn}(X,\mathbf{B}Spin)
+     &\stackrel{\frac{1}{2}\hat \mathbf{p}_1}{\to}&
+    \mathbf{H}_{conn}(X, \mathbf{B}^3 U(1))
+  }
+  \,.
+$$
+
+
+The look of this diagram makes manifest how in this situation we are looking at the structures that homotopically cancel the differential classes $\frac{1}{2}\hat \mathbf{p}$ and $\hat \mathbf{c}_2$ against each other.
 
 More discussion of this is in ([SSSIII](#SSSIII)).
+
+
+Since $\mathbf{H}_{conn}(X, \mathbf{B}^3 U(1))$ is abelian, we may consider the corresponding <a href="http://ncatlab.org/nlab/show/fiber%20sequence#MayerVietoris">Mayer-Vietoris</a> sequence by realizing $GSBackground(X)$ equivalently as the [[homotopy fiber]] of the difference of differential cocycles $\frac{1}{2}\hat \mathbf{p}_1 - \mathbf{c}_2$.
+
+$$
+  \array{
+    GSBackground(X) &\to& *
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow
+    \\
+    \mathbf{H}_{conn}(X,\mathbf{B}Spin \times \mathbf{B}U)
+     &\stackrel{\frac{1}{2}\hat \mathbf{p}_1-\hat \mathbf{c}_2}{\to}&
+    \mathbf{H}_{conn}(X, \mathbf{B}^3 U(1))
+  }
+  \,.
+$$
+  
+Indeed, the above explicit presentation by simplicial presheaves generalizes immediately to describe this case, realizing $U$-twisted differential string structures equivalently as differential "untwisted $U$-twisted-string-structures".
+
+We may usefully formalize this further by defining the $String^{\mathbf{c}_2}$-2-group to be the homotopy fiber
+
+$$
+  \array{
+    \mathbf{B} String^{\mathbf{c}_2} &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{G}(Spin \times U)
+    &\stackrel{\frac{1}{2}\mathbf{p}_1 - \mathbf{c}_2}{\to}&
+    \mathbf{B}^3 U(1)
+  }
+  \,.
+$$
+
+We have then that $GSBackground(X)$ is the 3-groupoid of _untwisted_
+differential $\mathbf{B}String^{\mathbf{c}_2}$-structures.
+
+$$
+  \array{
+    GSBackground(X) &\to& *
+    \\
+    \downarrow && \downarrow^{0}
+    \\ 
+    \mathbf{H}_{conn}(\mathbf{B} (Spin \times U))
+    &\stackrel{\frac{1}{2}\hat \mathbf{p}_1 - \mathbf{c}_2}{\to}&
+    \mathbf{H}_{conn}(X, \mathbf{B}^3 U(1))
+  }
+  \,.
+$$
+
+More on this in ([FiSaSc](#FiSaSc)).
+
+Even more generally, we can now twist this twisted structure by a degree-4 cocycle in differential cohomology and consider the $\infty$-pullback
+
+$$
+  \array{
+    C Field(Y) &\to& H^4_{diff}(Y)
+    \\
+    \downarrow && \downarrow^{}
+    \\ 
+    \mathbf{H}_{conn}(Y,\mathbf{B} (Spin \times U))
+    &\stackrel{\frac{1}{2}\hat \mathbf{p}_1 - \mathbf{c}_2}{\to}&
+    \mathbf{H}_{conn}(Y, \mathbf{B}^3 U(1))
+  }
+  \,.
+$$
+
+When $Y$ is 11-dimensional this models the [[supergravity C-field]]. Suppose that 
+
+$$
+  X = \partial Y
+$$
+
+then we may understand $GSBackground(X)$ as the structure that remains when the supergravity $C$-field trivializes when restricted to the boundary of [[spacetime]].
 
 
 ## Related concepts
@@ -773,7 +869,13 @@ The full Cech-Deligne cocycles induced by this (but not yet the homotopy fibers 
 <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+%28%E2%88%9E%2C1%29-topos+--+references#FSS">web</a>)
 {#FSS}
 
-A comprehensive discussion is at
+Th 2-group $String^{\mathbf{c}_2}$ and its differential structurs, etc. are discussed in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], 
+  _Higher differential $Spin^c$-structures_
+ {#FiSaSc}
+
+A comprehensive discussion including all the formal background and the applications is attempted at
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
