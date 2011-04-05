@@ -734,7 +734,7 @@ $$
     \\
     \mathbf{H}_{conn}(X,\mathbf{B}Spin)
      &\stackrel{\frac{1}{2}\hat \mathbf{p}_1}{\to}&
-    \mathbf{H}_{conn}(X, \mathbf{B}^3 U(1))
+    \mathbf{H}_{dR}(X, \mathbf{B}^3 U(1))
   }
   \,.
 $$
@@ -749,7 +749,7 @@ $$
     \\
     \mathbf{H}_{conn}(X,\mathbf{B}Spin)
      &\stackrel{\frac{1}{2}\hat \mathbf{p}_1}{\to}&
-    \mathbf{H}_{conn}(X, \mathbf{B}^3 U(1))
+    \mathbf{H}_{dR}(X, \mathbf{B}^3 U(1))
   }
   \,.
 $$
@@ -760,7 +760,7 @@ The look of this diagram makes manifest how in this situation we are looking at 
 More discussion of this is in ([SSSIII](#SSSIII)).
 
 
-Since $\mathbf{H}_{conn}(X, \mathbf{B}^3 U(1))$ is abelian, we may consider the corresponding <a href="http://ncatlab.org/nlab/show/fiber%20sequence#MayerVietoris">Mayer-Vietoris</a> sequence by realizing $GSBackground(X)$ equivalently as the [[homotopy fiber]] of the difference of differential cocycles $\frac{1}{2}\hat \mathbf{p}_1 - \mathbf{c}_2$.
+Since $\mathbf{H}_{dR}(X, \mathbf{B}^3 U(1))$ is abelian, we may consider the corresponding <a href="http://ncatlab.org/nlab/show/fiber%20sequence#MayerVietoris">Mayer-Vietoris</a> sequence by realizing $GSBackground(X)$ equivalently as the [[homotopy fiber]] of the difference of differential cocycles $\frac{1}{2}\hat \mathbf{p}_1 - \mathbf{c}_2$.
 
 $$
   \array{
@@ -770,7 +770,7 @@ $$
     \\
     \mathbf{H}_{conn}(X,\mathbf{B}Spin \times \mathbf{B}U)
      &\stackrel{\frac{1}{2}\hat \mathbf{p}_1-\hat \mathbf{c}_2}{\to}&
-    \mathbf{H}_{conn}(X, \mathbf{B}^3 U(1))
+    \mathbf{H}_{dR}(X, \mathbf{B}^4 U(1))
   }
   \,.
 $$
@@ -803,35 +803,45 @@ $$
     \\ 
     \mathbf{H}_{conn}(\mathbf{B} (Spin \times U))
     &\stackrel{\frac{1}{2}\hat \mathbf{p}_1 - \mathbf{c}_2}{\to}&
-    \mathbf{H}_{conn}(X, \mathbf{B}^3 U(1))
+    \mathbf{H}_{dR}(X, \mathbf{B}^4 U(1))
   }
   \,.
 $$
 
 More on this in ([FiSaSc](#FiSaSc)).
 
-Even more generally, we can now twist this twisted structure by a degree-4 cocycle in differential cohomology and consider the $\infty$-pullback
+This is supposed to be (see section 12 of ([DFM](#DFM))) the restriction to the boundary of the [[supergravity C-field]], which is the $(\infty,1)$-pullback
 
 $$
   \array{
-    C Field(Y) &\to& H^4_{diff}(Y)
+    C Field(Y) &\to& H^4_{dR}(Y)
     \\
-    \downarrow && \downarrow^{}
+    \downarrow && \downarrow^{\mathrlap{d C_3}}
     \\ 
-    \mathbf{H}_{conn}(Y,\mathbf{B} (Spin \times U))
+    \mathbf{H}(Y,\mathbf{B} (Spin \times U))
     &\stackrel{\frac{1}{2}\hat \mathbf{p}_1 - \mathbf{c}_2}{\to}&
-    \mathbf{H}_{conn}(Y, \mathbf{B}^3 U(1))
+    \mathbf{H}(Y, \mathbf{B}^4 U(1))
   }
   \,.
 $$
 
-When $Y$ is 11-dimensional this models the [[supergravity C-field]]. Suppose that 
+where $Y$ is 11-dimensional with $\parital Y = X$. Notice that here in the bottom left we have bundles _without_ connection, or equivalently (when computing the [[homotopy pullback]] by an ordinary pullback along a fibration)  with [[pseudo-connection]]s. 
+
+By the discussion at [[supergravity C-field]] under a shift of connection $\nabla_1 \mapsto \nabla_2$ the $C$-field transforms as 
 
 $$
-  X = \partial Y
+  C_2 = C_1 + CS(\nabla_1, \nabla_2)
+  \,,
 $$
 
-then we may understand $GSBackground(X)$ as the structure that remains when the supergravity $C$-field trivializes when restricted to the boundary of [[spacetime]].
+where on the right we have the relative [[Chern-Simons form]]. This vanishes precisely on the genuine gauge transformations. Hence as we restrict from  11-dimensions to 10, two things happen:
+
+1. the supergravity $C$-field vanishes,
+
+1. the gauge bundles develop genuine connections.
+
+
+
 
 
 ## Related concepts
