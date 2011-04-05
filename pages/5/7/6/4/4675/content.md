@@ -636,11 +636,11 @@ $$
       \\
       H_3 =& \nabla B := d B + CS(\omega) - C_3 
       \\
+      \mathcal{G}_4  =& d C_3
+      \\
       d F_\omega =& - [\omega \wedge F_\omega]
       \\
       d H_3 =&  \langle F_\omega \wedge F_\omega\rangle - \mathcal{G}_4
-      \\
-      d C_3 =& \mathcal{G}_4
       \\
       d \mathcal{G}_4 =& 0
     }
@@ -664,15 +664,15 @@ $$
   \;\;\;\;
   \left(
     \array{  
-       d t^a =& -\frac{1}{2}C^a{}_{b c} t^b \wedge t^c + r^a
+       r^a  =& d t^a + \frac{1}{2}C^a{}_{b c} t^b \wedge t^c + 
        \\
        h = & d b + cs - c     
+       \\
+       g  =& d c
        \\
        d r^a  =&  - C^a{}_{b c} t^b \wedge r^a
        \\
        d h =& \langle -,-\rangle - g 
-       \\
-       d c =& g
        \\
        d g =&  0 
     }
@@ -722,7 +722,7 @@ $$
    \langle F_A \wedge F_A \rangle
 $$
 
-as the [[magnetic charge]] distribution that twists this 2-bundle. This may be interpreted as the magnetic of a classical background density of magnetic [[fundamental brane|fivebranes]].  For more details on this see [[Green-Schwarz mechanism]].
+as the [[magnetic charge]] distribution that twists this 2-bundle. This may be interpreted as the magnetic charge density of a classical background density of magnetic [[fundamental brane|fivebranes]].  For more details on this see [[Green-Schwarz mechanism]].
 
 More precisely, the twisted differential string structure of the [[Green-Schwarz mechanism]] in heterotic [[supergravity]] for fixed gauge bundles are therefore given by the [[(∞,1)-pullback]]
 
