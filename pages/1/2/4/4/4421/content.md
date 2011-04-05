@@ -260,7 +260,7 @@ $$
   : t \mapsto
   F_{A_t}
   + 
-  ((\partial_t A)_t + d_U \lambda(t) + [\lambda,A]) \wedge d t
+  ((\partial_t A)_t + d_U \lambda(t) + [\lambda,A_t]) \wedge d t
 $$
 
 +-- {: .un_prop}
