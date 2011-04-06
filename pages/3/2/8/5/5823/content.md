@@ -1,3 +1,4 @@
+[[!redirects Turaev]]
 Vladimir Turaev is a mathematician of Russian origin, who has made fundamental contributions to [[quantum field theory|Quantum Field Theory]], low dimensional [[topology]], [[knot theory]], and their interactions with [[mathematical physics]] and [[algebra]].
 
 He is currently based at Indiana University ([Home page](http://www.math.indiana.edu/people/profile.phtml?id=vtouraev) which is not very informative!)
@@ -17,7 +18,7 @@ EMS Tracts in Math.10, European Math. Soc. Publ. House, Zurich 2010.
 Math. Res. Lett.16(3) (2009), 515-529.
 
 * with C. [[Kassel]], _Braid groups_ ,
-Graduate Texts in Mathematics247, Springer, 2008.
+Graduate Texts in Mathematics 247, Springer, 2008.
 
   (on [[braid group]]s)
 
@@ -25,4 +26,6 @@ Graduate Texts in Mathematics247, Springer, 2008.
 J. Geom. Phys.  57(11)  (2007), 2419-2430.
 
   (on [[Dijkgraaf-Witten theory]])
+
+[[!redirects Turaev]]
 category: people
