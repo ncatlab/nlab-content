@@ -156,3 +156,6 @@ Related ideas are discussed in
 
 
 [[!redirects HQFTs]]
+
+[[!redirects homotopy quantum field theory]]
+[[!redirects homotopy quantum field theories]]
