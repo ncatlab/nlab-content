@@ -21,6 +21,8 @@
 
 The field content of 11-dimensional [[nLab:supergravity]] contains a field called the _supergravity C-field_ or _M-theory 3-form_ , which is locally a 3-form and globally _some_ variant of a [[circle n-bundle with connection|circle 3-bundle with connection]]. There have been several suggestions for what _precisely_ its correct global description must be.
 
+## Nature of $E-8$
+
 
 ## The DFM-model
  {#DFMmodel}
@@ -29,8 +31,10 @@ The field content of 11-dimensional [[nLab:supergravity]] contains a field calle
 
 In ([DFM, section 3](#DFM)) the following definition is considered and argued to be a good model of the supergravity $C$-field.
 
++-- {: .num_note #NatureOfE8}
+###### Note
 
-Notice that the [[homotopy group]]s of the [[classifying space]] $B E_8$ of the [[Lie group]] [[E8]] satisfy
+The [[homotopy group]]s of the [[classifying space]] $B E_8$ of the [[Lie group]] [[E8]] satisfy
 
 $$
   \pi_i B E_8 = 
@@ -44,7 +48,7 @@ $$
   \,.
 $$
 
-Therefore for $X$ a [[nLab:manifold]] of [[nLab:dimension]] $dim X \leq 5$ there is a canonical [[nLab:morphism]]
+Therefore for $X$ a [[manifold]] of [[dimension]] $dim X \leq 15$ there is a canonical [[morphism]]
 
 $$
   H^1(X, E_8)
@@ -53,10 +57,12 @@ $$
   \,.
 $$
 
+=--
+
 +-- {: .num_defn}
 ###### Definition
 
-Let $X$ be a [[nLab:smooth manifold]] of [[nLab:dimension]] $dim X \lt 15$.
+Let $X$ be a [[smooth manifold]] of [[dimension]] $dim X \lt 15$.
 For each  $a \in H^4(X, \mathbb{Z})$. choose an [[nLab:E8]]-[[nLab:principal bundle]] $P \to X$ which represents $a$ under the above isomorphism.
 
 Write then
@@ -184,6 +190,11 @@ in [[∞Grpd]].
 
 We consider now the analog of this definition for the universal curvature form on $\mathbf{B}^3 U(1)$ replaced by the difference of the differentially refined second [[Chern class]] of [[E8]] and the first fractional [[Pontryagin class]] of the [[spin group]]. The resulting $(\infty,1)$-pullback we tentatively call $C Field(Y)$.
 
++-- {: .num_defn #AbstractDefOfCField}
+###### Definition
+
+For $Y \in $ [[Smooth∞Grpd]], let $C Field(Y) \in $ [[∞Grpd]] be the [[(∞,1)-pullback]]
+
 $$
   \array{
     C Field(Y) &\to& H^4_{dR}(Y)
@@ -197,7 +208,15 @@ $$
   \,.
 $$
 
-Notice that by its <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ChernWeilTheory">intrinsic definition</a> we have that $(\mathbf{c}_2)_{dR}$ is the composite
+=--
+
+### General properties
+  {#CWPerspectiveGeneralProperties}
+
++-- {: .num_note #PastingDecompOfAbstractDefOfCField}
+###### Note
+
+By its <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ChernWeilTheory">intrinsic definition</a> we have that the differential characteristic class $(\mathbf{c}_2)_{dR}$ is the composite
 
 $$
   (\mathbf{c}_2)_{dR} : 
@@ -210,8 +229,7 @@ $$
 
 of the smooth second Chern-class with the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature form</a> on $\mathbf{B}^3 U(1)$. Similarly for $(\frac{1}{2}\mathbf{p}_2)_{dR}$.
 
-
-This implies by the [[pasting law]] for [[(∞,1)-pullback]]s that the above $(\infty,1)$-pullback may be decomposed into two consecutive pullbacks of the form
+This implies by the [[pasting law]] for [[(∞,1)-pullback]]s that the $(\infty,1)$-pullback from def. \ref{AbstractDefOfCField} may be decomposed into two consecutive pullbacks of the form
 
 $$
   \array{
@@ -232,79 +250,196 @@ $$
 
 where on the right we find the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#DifferentialCohomology">defining pullback</a> for (the [[cocycle]] [[3-groupoid]] of) [[ordinary differential cohomology]].
 
-This immediately implies the following properties
+=--
 
-1. There exists canonically a morphism
+This implies the following structure and properties.
 
-   $$
-     \hat \chi : C Field(X) \to \mathbf{H}(X,\mathbf{B}^3 U(1))
-       \stackrel{\tau_{\leq 0}}{\to}
-       H^4_{diff}(X)
-   $$
++-- {: .num_note #DifferentialCharacterOfCField}
+###### Note/Definition
 
-   that maps $C$-field configurations to [[ordinary differential cohomology]] in degree 4, whose [[curvature]] $\omega(\hat \chi)$ is the image $(\mathbf{c}_2)_{dR} :=  curv(2\mathbf{c}_2 - \frac{1}{2}\mathbf{p}_2)$ in de Rham cohomology of the second Chern-class of some $E_8$-bundle.
+By the above there exists canonically a morphism
 
-1. Over a fixed $E_8 \times Spin$-[[principal bundle]] $* \stackrel{P}{\to} \mathbf{H}(X, \mathbf{B}E_8 \times Spin)$ the [[gauge group]] of $C$-fields is $H^2(Y, U(1))$. We have the [[pasting]] [[diagram]] of [[(∞,1)-pullback]]s
+$$
+  \hat \chi : C Field(X) \to \mathbf{H}(X,\mathbf{B}^3 U(1))
+    \stackrel{\tau_{\leq 0}}{\to}
+    H^4_{diff}(X)
+$$
 
-   $$
-     \array{
-       C Field_{\omega = 0}(Y) &\to& \mathbf{H}(Y, \mathbf{\flat} \mathbf{B}^3 U(1)) &\to& {*}
-       \\
-       \downarrow && \downarrow && \downarrow^{\mathrlap{0}} 
-       \\
-       C Field(X) 
-        &\stackrel{\hat \chi}{\to}& 
-       \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
-        &\stackrel{\omega}{\to}&
-        H^4_{dR}(X)
-       \\
-       \downarrow && \downarrow && \downarrow
-      \\
-      \mathbf{H}(X, \mathbf{B}(E_8 \times Spin(10,1)))
-       &\stackrel{2\mathbf{c}_2- \frac{1}{2}\mathbf{p}_2}{\to}&
-      \mathbf{H}(X, \mathbf{B}^3 U(1))
-       &\stackrel{curv}{\to}&
-      \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}^4 U(1))
-     }
-     \,,
-   $$
-
-   where the top right square is discussed at <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#DifferentialCohomology">cohesive (∞,1)-topos --  Differential cohomology</a>. By the discussion at <a href="http://nlab.mathforge.org/nlab/show/smooth%20infinity-groupoid#StrucFlat">smooth ∞-groupoid -- Flat cohomology</a> we have that $\pi_0 \mathbf{H}(Y, \mathbf{\flat} \mathbf{B}^3 U(1)) \simeq H^3(Y,U(1))$, where on the right we have [[ordinary cohomology]] (for instance realized as [[singular cohomology]]). Finally observe that $\pi_0 \mathbf{H}(Y, \mathbf{E}_8) \simeq \pi_0 \mathbf{H}(Y.\mathbf{B}^3 U(1))$, by the [above remark](). This is where the nature of $E_8$ enters crucially. Therefore we get on cohomology
-
-   $$
-     \array{
-       H^3(Y, U(1)) &=& H^3(Y, U(1)) &\to& {*}
-       \\
-       \downarrow && \downarrow && \downarrow^{\mathrlap{0}} 
-       \\
-       \pi_0 C Field(X) 
-        &\stackrel{\hat \chi}{\to}& 
-       \mathbf{H}_{diff}^4(X)
-        &\stackrel{\omega}{\to}&
-        H^4_{dR}(X)
-       \\
-       \downarrow && \downarrow && \downarrow
-      \\
-      H^1(Y, E_8)
-       &=&
-      H^4(Y, \mathbb{Z})  
-       &\stackrel{curv}{\to}&
-      H^4_{dR}(Y)
-     }
-     \,.
-   $$
-   
-   So we have a [[short exact sequence]]
-
-   $$
-     0 \to H^3(Y, U(1)) \to \pi_0 C Field \to H^4_{dR}(Y) \to 0
-     \,.
-   $$
-
-1. The differential cocycle $\hat \chi(C)$ has all the general properties that make its [[higher parallel transport]] over [[membrane]] worldvolumes be well-defined. (Apart from the coefficient of $\lambda$, this is the only requirement from which [DFM](#DFM) deduce their model.)
+that maps $C$-field configurations to [[ordinary differential cohomology]] in degree 4, whose [[curvature]] $\omega(\hat \chi)$ is the image $(\mathbf{c}_2)_{dR}- (\frac{1}{2}\mathbf{p}_2)_{dR} :=  curv(2\mathbf{c}_2 - \frac{1}{2}\mathbf{p}_2)$ in de Rham cohomology of the second Chern-class of some $E_8$-bundle.
 
 
-### Explicit presentation by differential form data
+The differential cocycle $\hat \chi(C)$ has all the general properties that make its [[higher parallel transport]] over [[membrane]] worldvolumes be well-defined. (Apart from the coefficient of $\lambda$, this is the only requirement from which [DFM](#DFM) deduce their model.)
+
+
+=--
+
+
++-- {: .num_prop #HomotopyGroupsOfCField}
+###### Proposition
+
+
+Over a fixed $Spin$-[[principal bundle]] $P_{Spin}$ we have a [[short exact sequence]] (of [[pointed object|pointed sets]])
+
+$$
+  * \to 
+   H^3(Y, U(1))
+   \to
+   \pi_0 C Field_{P_{Spin}}(Y)
+   \to
+   H^4_{dR}(Y)_{2 \mathbb{Z}}
+   \to *
+$$
+
+and an [[isomorphism]]
+
+$$
+  H^0(Y, E_8) \times_{\cdots} H^2(Y, U(1)) 
+   \stackrel{\simeq}{\to} \pi_1 C Field(Y)_{P_{Spin}}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Notice that we have the [[pasting]] [[diagram]] of [[(∞,1)-pullback]]s
+
+$$
+  \array{
+    C Field_{\omega(\hat \chi(-)) = 0}(Y) 
+     &\to& \mathbf{H}(Y, \mathbf{\flat} \mathbf{B}^3 U(1)) &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{0}} 
+    \\
+    C Field(Y) 
+     &\stackrel{\hat \chi}{\to}& 
+    \mathbf{H}_{diff}(Y, \mathbf{B}^3 U(1))
+     &\stackrel{\omega}{\to}&
+     H^4_{dR}(Y)
+    \\
+    \downarrow && \downarrow && \downarrow
+   \\
+   \mathbf{H}(Y, \mathbf{B}E_8)
+    &\stackrel{2\mathbf{c}_2}{\to}&
+   \mathbf{H}(Y, \mathbf{B}^3 U(1))
+    &\stackrel{curv}{\to}&
+   \mathbf{H}(Y, \mathbf{\flat}_{dR} \mathbf{B}^4 U(1))
+  }
+  \,,
+$$
+
+where the top right square is discussed at <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#DifferentialCohomology">cohesive (∞,1)-topos --  Differential cohomology</a>. By the discussion at <a href="http://nlab.mathforge.org/nlab/show/smooth%20infinity-groupoid#StrucFlat">smooth ∞-groupoid -- Flat cohomology</a> we have that $\pi_0 \mathbf{H}(Y, \mathbf{\flat} \mathbf{B}^3 U(1)) \simeq H^3(Y,U(1))$, where on the right we have [[ordinary cohomology]] (for instance realized as [[singular cohomology]]). Finally observe that $\pi_0 \mathbf{H}(Y, \mathbf{E}_8) \simeq \pi_0 \mathbf{H}(Y.\mathbf{B}^3 U(1))$, by the [above remark](#NatureOfE8). Therefore after passing to [[0-connected|connected components]] by applying $\pi_0(-)$ we get on cohomology
+
+$$
+  \array{
+    H^3(Y, U(1)) & \stackrel{\cdot 2}{\to}& H^3(Y, U(1)) &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{0}} 
+    \\
+    \pi_0 C Field(Y) 
+     &\stackrel{\hat \chi}{\to}& 
+    \mathbf{H}_{diff}^4(Y)
+     &\stackrel{\omega}{\to}&
+     H^4_{dR}(Y)
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    H^1(Y, E_8)
+    & \stackrel{\cdot 2}{\to}&
+    H^4(Y, \mathbb{Z})  
+    &\stackrel{curv}{\to}&
+    H^4_{dR}(Y)
+  }
+$$
+
+by reasoning as discussed at [[fiber sequence]]. In parallel to the familiar [[short exact sequence]] for [[ordinary differential cohomology]] 
+
+$$
+  * \to H^3(Y, U(1)) \to H^4_{diff}(Y) \to H^4_{dR}(Y)_{\mathbb{Z}} \to *
+  \,.
+$$
+
+
+this therefore implies also the [[short exact sequence]]
+
+$$
+  * \to H^3(Y, U(1)) \to \pi_0 C Field \to H^4_{dR}(Y)_{2 \mathbb{Z}} \to *
+  \,.
+$$
+
+Next we redo the entire discussion after applying the [[loop space object]]-construction to everything. Using that
+
+$$
+  \Omega \mathbf{H}(Y, \mathbf{B}Q) \simeq
+ \mathbf{H}(Y, \Omega \mathbf{B}Q)
+  \simeq 
+ \mathbf{H}(Y, Q)
+$$
+
+on general grounds (see [[fiber sequence]] for details) and that also 
+
+$$
+  \Omega (\mathbf{\flat}\mathbf{B}^n U(1)) \simeq \mathbf{\flat}\mathbf{B}^{n-1} U(1)
+$$ 
+
+and 
+
+$$
+  \Omega (\mathbf{\flat}_{dR}\mathbf{B}^n U(1)) \simeq \mathbf{\flat}_{dR}\mathbf{B}^{n-1} U(1)
+$$ 
+
+(since $\mathbf{\flat}$ and $\mathbf{\flat}_{dR}$ are [[right adjoint|right]] [[adjoint (∞,1)-functor]]s -- by the discussion at [[cohesive (∞,1)-topos]] -- and hence commute with the [[(∞,1)-pullback]] that defines $\Omega$), we have then the looped [[pasting]] [[diagram]] of [[(∞,1)-pullback]]s
+
+$$
+  \array{
+    (\Omega C Field_{\omega(\hat \chi(-)) = 0}(Y))_{P_{E_8}} 
+     &\to&
+    \Omega C Field_{\omega(\hat \chi(-)) = 0}(Y) 
+     &\to& 
+    \mathbf{H}(Y, \mathbf{\flat} \mathbf{B}^2 U(1)) &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{0}} 
+    \\
+    \Omega C Field(Y)_{P_{E_8,Spin}} 
+     &\to&
+    \Omega C Field(Y)_{P_{Spin}} 
+     &\stackrel{\Omega \hat \chi}{\to}& 
+    \mathbf{H}_{flat}(Y, \mathbf{B}^2 U(1))
+     &\stackrel{\omega}{\to}&
+     *
+    \\
+    \downarrow && \downarrow && \downarrow
+   \\
+   *
+   &\to&
+   \mathbf{H}(Y, E_8)
+    &\stackrel{2\Omega \mathbf{c}_2}{\to}&
+   \mathbf{H}(Y, \mathbf{B}^2 U(1))
+    &\stackrel{curv}{\to}&
+   \mathbf{H}(Y, \mathbf{\flat}_{dR} \mathbf{B}^3 U(1))
+  }
+  \,.
+$$
+
+Observe that $E_8$ here is a smooth but [[0-truncated]] object, so that
+
+$$
+  \mathbf{H}(Y, E_8) \simeq H^0(Y, E_8) = C^\infty(Y, E_8)
+  \,.
+$$
+
+The map from there to $H^2(Y, U(1))$ is onot (...)
+
+=--
+
+
+
+
+
+### Presentation by differential form data
 
 In order to compute the $(\infty,1)$-pullback $C Field(X)$ more explicitly, we follow the discussion at  [[differential string structure]], where presentations of this pullback in terms of [[simplicial presheaves]] arising from  [[Lie integration]] is given.
 
@@ -461,7 +596,7 @@ Write therefore $(P, \nabla, C_3)$ for such a cocycle.
 For gauge transformations between two such pairs, parameterized by the above form data patchwise on  $U \times \Delta^1$, the fact that $\mathcal{G}_4$ vanishes on $\Delta^1$ implies the <a href="http://nlab.mathforge.org/nlab/show/infinity-Chern-Weil+theory+introduction#InfGaugeTrafo">infinitesmal gauge transformation</a> law
 
 $$
-  \frac{d}{d t} C = D_U \omega_t 
+  \frac{d}{d t} C = d_U \omega_t 
    + \iota_t \langle F_{\hat A} \wedge F_{\hat A}\rangle
   \,,
 $$
