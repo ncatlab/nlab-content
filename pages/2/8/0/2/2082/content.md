@@ -38,7 +38,7 @@ Springer 1995.
 
 * V. Chari, A. Pressley, _A guide to quantum groups_, Camb. Univ. Press 1994 
 
-* C. [[Kassel]], _Quantum groups_
+* C. [[Kassel]], _Quantum groups_, Graduate Texts in Mathematics, vol. 155, Springer-Verlag, New York, 1995 (see also [errata](http://www-irma.u-strasbg.fr/~kassel/QGbk.html)
 
 * Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
 
