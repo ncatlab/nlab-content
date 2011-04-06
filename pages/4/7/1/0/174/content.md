@@ -166,3 +166,6 @@ See also [[division algebras and supersymmetry]].
 
 [[!redirects fundamental brane]]
 [[!redirects fundamental branes]]
+
+[[!redirects membrane]]
+[[!redirects membranes]]
