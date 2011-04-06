@@ -21,7 +21,6 @@
 
 The field content of 11-dimensional [[nLab:supergravity]] contains a field called the _supergravity C-field_ or _M-theory 3-form_ , which is locally a 3-form and globally _some_ variant of a [[circle n-bundle with connection|circle 3-bundle with connection]]. There have been several suggestions for what _precisely_ its correct global description must be.
 
-## Nature of $E-8$
 
 
 ## The DFM-model
@@ -59,7 +58,7 @@ $$
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #DFMDefinitionOfCField}
 ###### Definition
 
 Let $X$ be a [[smooth manifold]] of [[dimension]] $dim X \lt 15$.
@@ -71,9 +70,9 @@ $$
   \mathbf{E}(X) \in Grpd
 $$
 
-for the [[nLab:groupoid]] whose 
+for the [[groupoid]] whose 
 
-* [[nLab:object]]s are triples $(P,\nabla,c)$ where 
+* [[object]]s are triples $(P,\nabla,c)$ where 
 
   * $P$ is one of the chosen $E_8$-bundles, 
 
@@ -81,7 +80,7 @@ for the [[nLab:groupoid]] whose
 
   * $c \in \Omega^3(X)$ is a degree-3 [[nLab:differential form]] on $X$.
 
-* [[nLab:morphism]]s $\omega : (P, \nabla_1, c_1) \to (P, \nabla_2, c_2)$
+* [[morphism]]s $\omega : (P, \nabla_1, c_1) \to (P, \nabla_2, c_2)$
   are parameterized by their source and target triples together with a closed 3-form  $\omega \in \Omega^3_{\mathbb{Z}}(X)$ with integral [[period]]s, subject to the condition that
 
   $$
@@ -95,7 +94,7 @@ for the [[nLab:groupoid]] whose
 
   * and $F_\omega$ is the [[nLab:curvature]] 4-form of the differential cohomology class.
 
-* the [[nLab:composition]] of morphisms 
+* the [[composition]] of morphisms 
 
   $$    
     (\omega_2 \circ \omega_1 )
@@ -125,7 +124,25 @@ $$
   \,.
 $$
 
+Notice that with the normalization implicit here the second terms is one half of the image of something in integral cohomology. So this is not itself a differential character, but can be regarded as "shifted differential character": a trivialization of the trivial 5-character with global connection 4-form given by $\frac{1}{2} tr R_\omega \wedge R_\omega$. See [below](#DFMOrientationAndFractionalClasses) for more on this.
+
++-- {: .num_prop #DFModelHomotopyGroups}
+###### Claim
+
+The above groupoid has [[homotopy group]]s
+
+* $\pi_0 \simeq H^4_{diff}(Y)$
+
+* $\pi_1(-,(\nabla,c)) \simeq H^2(Y, U(1))$ .
+
+=--
+
+The first, the set of connected components (gauge equivalence classes of $C$-fields) is isomorphic to the set of [[ordinary differential cohomology]] in degree 4 of $X$. In fact $\pi_0$ is naturally a [[torsor]] over this abelian group: the torsor of $\frac{1}{2}tr R^2$-shifted differential characters.
+
+The second, the [[fundamental group]], is that of flat [[circle bundle]]s.
+
 ### Orientation and fractional classes
+  {#DFMOrientationAndFractionalClasses}
 
 Ordinarily, given a $Spin \times E_8$-bundle $P \to Y$ with first fractional [[Pontryagin class]]
 
@@ -707,5 +724,5 @@ The state-of-the-art in the literature concerning attempts to find the correct m
 
 The discussion from the point of view of the $\infty$-Chern-Weil homomorphism is part of
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _Higher differential $Spin^c$-structures_
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _Higher differemtial $Spin^c$-structures_
  {#FiSaSc}
