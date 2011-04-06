@@ -210,9 +210,8 @@ $$
 
 of the smooth second Chern-class with the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature form</a> on $\mathbf{B}^3 U(1)$. Similarly for $(\frac{1}{2}\mathbf{p}_2)_{dR}$.
 
-This immediately implies two things 
 
-1. by the [[pasting law]] for [[(∞,1)-pullback]]s that the above $(\infty,1)$-pullback may be decomposed into two consecutive pullbacks of the form
+This implies by the [[pasting law]] for [[(∞,1)-pullback]]s that the above $(\infty,1)$-pullback may be decomposed into two consecutive pullbacks of the form
 
 $$
   \array{
