@@ -59,7 +59,7 @@ Right adjoint functors preserve
 
 *  See [[Galois connection]] for right adjoints of monotone functions.
 *  See [[adjoint functor]] for right adjoints of functors.
-*  See [[adjunction]] for right adjionts in $2$-categories.
+*  See [[adjunction]] for right adjoints in $2$-categories.
 *  See [[examples of adjoint functors]] for examples.
 
 [[!redirects right adjoints]]
