@@ -1,5 +1,8 @@
 Ideals show up both in [[ring]] theory and in [[lattice]] theory.  Actually, both of these can be slightly generalised:
 
+#Contents#
+* table of contents
+{:toc}
 
 ## In rings and other rigs
 
