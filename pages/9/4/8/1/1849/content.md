@@ -682,6 +682,13 @@ $$
 
 where $A = A_U + \lambda d t \in \Omega^1(U \times \Delta^1, \mathfrak{g})$ is the 1-form datum (with $t$ the canonical coordinate on the 1-[[simplex]] $\Delta^1 = [0,1]$).
 
++-- {: .num_note #NatureOfGaugedCSForm}
+###### Note
+
+In the literature often the relative [[Chern-Simons form]] is considered for "ungauged" paths of connections: for $\lambda = 0$ in the above formula, hence for a $\mathfrak{g}$-valued 1-form on $U \times \Delta^1$ with no leg along the simplex (only depending on the simplex coordinate). Here, however, it is crucially important that we consider the general "gauged" paths.
+
+=--
+
 Notice that on the [[semisimple Lie algebra]] and [[compact Lie algebra]] $\mathfrak{e}_8$ the [[Killing form]] \langle -,-\rangle in non-degenerate and positive definite (or negative definite, depending on convention). The latter condition means that this integral vanishes precisely if
 
 $$
