@@ -5,14 +5,14 @@
 
 ## Idea
 
-An __inner product space__ is a [[vector space]] $V$ equipped with a __bilinear__ or __sesquilinear form__: a linear map from $V \otimes V$ or $\bar{V} \otimes V$ to the [[ground field]] $k$.
+An __inner product space__ is a [[vector space]] $V$ equipped with a (conjugate)-symmetric [[bilinear form|bilinear]] or sesquilinear form: a linear map from $V \otimes V$ or $\bar{V} \otimes V$ to the [[ground ring]] $k$.
 
 One often studies _positive-definite_ inner product spaces; for these, see [[Hilbert space]].  Here we do not assume positivity or definiteness.
 
 
 ## Definitions
 
-Let $V$ be a [[vector space]] over the [[field]] (or more generally a division ring) $k$.  Suppose that $k$ is equipped with an [[involution]] $r \mapsto \bar{r}$, called _conjugation_; in many examples, this will simply be the [[identity function]], but not always.  An __inner product__ on $V$ is a function
+Let $V$ be a [[vector space]] over the [[field]] (or more generally a [[ring]]) $k$.  Suppose that $k$ is equipped with an [[involution]] $r \mapsto \bar{r}$, called _conjugation_; in many examples, this will simply be the [[identity function]], but not always.  An __inner product__ on $V$ is a function
 $$ \langle {-},{-} \rangle: V \times V \to k $$
 that is (1--3) _sesquilinear_ (or _bilinear_ when the involution is the identity) and (4) _conjugate-symmetric_ (or _symmetric_ when the involution is the identity).  That is:
 
@@ -22,7 +22,7 @@ that is (1--3) _sesquilinear_ (or _bilinear_ when the involution is the identity
 $\langle x, c y \rangle = \langle x, y \rangle c$;
 1.  $ \langle x, y \rangle = \overline{\langle y, x \rangle} $.
 
-Here we use the _physicist\'s convention_ that the inner product is antilinear ( = conjugate-linear) in the first variable rather than in the second, rather than the _mathematician\'s convention_, which is the reverse.  The physicist\'s convention fits in a little better with $2$-[[2-Hilbert space|Hilbert space]]s and is often used in a generalization for [[Hilbert module]]s.  Note that we use the same (skew)field as values of the inner product as for [[scalars]]. Notice that $\langle x, c y \rangle = \langle x, y \rangle c$ is written with $c$ on the right for the case that we deal with noncommutative division ring.
+Here we use the _physicist\'s convention_ that the inner product is antilinear ( = conjugate-linear) in the first variable rather than in the second, rather than the _mathematician\'s convention_, which is the reverse.  The physicist\'s convention fits in a little better with $2$-[[2-Hilbert space|Hilbert space]]s and is often used in a generalization for [[Hilbert module]]s.  Note that we use the same ring as values of the inner product as for [[scalars]]. Notice that $\langle x, c y \rangle = \langle x, y \rangle c$ is written with $c$ on the right for the case that we deal with noncommutative division ring.
 
 +-- {: .query}
 Are the two conventions really equivalent when $k$ is noncommutative?  &#8212;Toby
@@ -44,7 +44,7 @@ We define a function ${\|{-}\|^2}\colon V \to k$ by ${\|x\|^2} = \langle x, x \r
 Semidefinite inner products behave very much like definite ones; you can mod out by the elements with norm $0$ to get a [[quotient object|quotient space]] with a definite inner product.
 
 
-Now suppose that $k$ (or at least, its subfield of real values) is an [[ordered field]].  Then we can consider other conditions on the inner product:
+Now suppose that $k$ (or at least, its subring of real values) is an [[ordered field]].  Then we can consider other conditions on the inner product:
 
 *  The inner product is __positive semidefinite__, or simply __positive__, if ${\|x\|^2} \geq 0$ always.
 *  The inner product is __positive definite__ if it is both positive and definite, in other words if ${|x|^2} \gt 0$ whenever $x \ne 0$.
