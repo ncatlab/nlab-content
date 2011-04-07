@@ -5,7 +5,7 @@
 
 ## Definitions
 
-A __bilinear form__ is simply a [[linear map]] $\langle -,-\rangle\colon V \otimes V \to k$ out of a [[tensor product]] of &#167;k&#167;-[[module]]s into the [[ring]] $k$ (typically taken to be a [[field]]).
+A __bilinear form__ is simply a [[linear map]] $\langle -,-\rangle\colon V \otimes V \to k$ out of a [[tensor product]] of $k$-[[module]]s into the [[ring]] $k$ (typically taken to be a [[field]]).
 
 It is called __symmetric__ if $\langle x,y\rangle = \langle y,x\rangle$ for all $x,y \in V$.
 
