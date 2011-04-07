@@ -436,6 +436,8 @@ PS:  You\'re right about the display maps; that part\'s not so strange.  Maybe i
 
 ### Higher-categorical semantics
 
+* [[homotopy type theory]]
+
 (to be written...)
 
 ## Particular type theories
@@ -450,7 +452,7 @@ The following particular type theories are important enough to (potentially) hav
 * the [[internal logic]] of various kinds of categories, including the [[Mitchell-Benabou language]] of an [[elementary topos]]
 * the [[internal logic of a 2-topos]]
 * the [[internal logic of an (∞,1)-topos]]
-
+* [[homotopy type theory]]
 
 [[!redirects dependent type theory]]
 [[!redirects dependent type theories]]
