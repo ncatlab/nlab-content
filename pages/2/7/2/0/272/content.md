@@ -78,6 +78,10 @@ Sheaves are used explicitly in:
 
 ## References
 
+The classical textbook is
+
+* [[Rudolf Haag]], _Local quantum physics_ 
+
 A good account of the mathematical axiomatics of Haag-Kastler AQFT is
 
 * [[Hans Halvorson]], [[Michael Müger]], _Algebraic Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/math-ph/0602036))
