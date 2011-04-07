@@ -26,6 +26,8 @@ When applied to subalgebras of [[bounded operator]]s on a [[Hilbert space]] this
 
 ## Definition
 
+### $C^*$-algebras and partial $C^*$-algebras
+
 +-- {: .num_defn #PartialCStar}
 ###### Definition
 
@@ -51,7 +53,8 @@ A [[homomorphism]] of partial $C^\ast$-algebra is a function preserving this str
 
 This appears as ([vdBergHeunen, def. 11,12](#vdBergHeunen)).
 
-+-- {: .num_defn}
+
++-- {: .num_defn #PartialAlgebraOfNormalOperators}
 ###### Definition
 
 For $A$ a [[C-star algebra]], write 
@@ -64,18 +67,35 @@ for its set of [[normal operator]]s. This is naturally a [partial C-star algebra
 
 =--
 
-+-- {: .num_defn}
+### The topos over commutative subalgebras
+
+
++-- {: .num_defn #PosetOfCommutativeSubalgebras}
 ###### Definition
 
 For $A$ a [partial C-star algebra](#PartialCStar) write $\mathcal{C}(A)$ for the [[poset]] of total (not partial) commutative sub [[C-star algebra]]s. We call this the [[semilattice of commutative subalgebras]].
 
+Often we shall think of $\mathcal{C}(A)$ equivalently as the [[frame]] of opens of the [[Alexandrov topology]] of the poset.
+
+=--
+
++-- {: .num_defn #TheSheafTopos}
+###### Definition
+
+
 Let 
 
 $$
-  [\mathcal{C}(A), Set]
+  \begin{aligned}
+    Sh(\mathcal{C}(A))
+    \simeq
+    [\mathcal{C}(A), Set]
+  \end{aligned}
 $$ 
 
-be the [[presheaf topos]] over this poset and
+be the [[sheaf topos]] over the [[site]] of def. \ref{PosetOfCommutativeSubalgebras}, equivalently regarded as the [[presheaf topos]] over the [[poset]] of commutative subalgebras, or as the topos of sheaves on the corresponding [[Alexandrov topology]].
+
+Moreover, write
 
 $$
   Sh_{\not \not}(\mathcal{C}(A)^{op}) \hookrightarrow [\mathcal{C}(A), Set]
@@ -83,8 +103,27 @@ $$
 
 the [[sheaf topos]] for the [[double negation topology]].
 
+=--
+
++-- {: .num_defn #TheRingedSheafTopos}
+###### Definition
+
+
 Both of these are naturally [[ringed topos]]es with ring object 
-$\underline{A} : C \mapsto U(C)$ (where $U : CStar \to Set$ is the underlying set functor) that is actually a [[internalization|internal]] commutative $C^*$-algebra. Write $\underline{\Sigma}_A$ and $\Sigma_A^{\not \not}$, respectively for the corresponding [[internal locale]]s associated to $\underline{A}$ by internal [[constructive Gelfand duality]]. Write 
+
+$$
+  \underline{A} : C \mapsto U(C)
+$$ 
+
+(where $U : CStar \to Set$ is the underlying set functor) that is naturally equipped with the structure an [[internalization|internal]] commutative $C^*$-algebra. 
+
+=--
+
++-- {: .num_defn #TheInternalLocale}
+###### Definition
+
+
+Write $\underline{\Sigma}_A$ and $\Sigma_A^{\not \not}$, respectively for the corresponding [[internal locale]]s associated to $\underline{A}$ by internal [[constructive Gelfand duality]]. Write 
 
 $$
   \Sigma_A \to \mathcal{C}(A)
@@ -105,6 +144,8 @@ $$
 discussed at [[internal locale]].
 
 =--
+
+### Bohrification
 
 +-- {: .num_defn #Bohrification}
 ###### Definition
@@ -127,26 +168,60 @@ is called the **Bohrification** of $A$.
 
 ## Properties
 
+### Identification of the internal locale
 
-
-+-- {: .num_prop}
++-- {: .num_prop #TheInternalLocale}
 ###### Proposition
 
+Let $\underline{\Sigma}(\underline(A))$ be the [[internal locale]] from def. \ref{TheInternalLocale}.
 
-The [[locale]] in $Loc/\Sigma_A$ may be directly expressed as
+Regarded as an object 
 
 $$
-  \Sigma_A := 
-  \{
-    F : \mathcal{C}(A) \to Set | F(C) open in \Sigma(C), F monotone
-  \}
+  (\Sigma_A \to \mathcal{C}(A))
+  \in
+  Loc/\mathcal{C}(A)
+$$ 
+
+of external locales over $\mathcal{C}(A)$, this is the [[topological space]] whose underlying set is given by the disjoint union
+
 $$
+  \Sigma_A = \coprod_{C \in \mathcal{C}(A)} \Sigma(C)
+$$
+
+over all commutative $C^*$-subalgebras of $A$ of the ordinary [[Gelfand spectrum|Gelfand spectra]] $\Sigma(C)$ of these commutative $C^*$-algebras, and whose [[open subset]]s are defined to be those $\mathcal{U} \subset \Sigma_A$ for which
+
+1. $\mathcal{U}|_C \in \mathcal{O}(\Sigma(C))$ for all commutative subalgebras $C$;
+
+1. For all $C \hookrightarrow D$, if $\lambda \in \mathcal{U}|_C$ and $\lambda' \in \Sigma(D)$ such that   $\lambda'|_C = \lambda$, then $\lambda' \in \mathcal{U}|_D$.
+
+Regarded equivalently as an [[internal locale]] in $Sh(\mathcal{C}(A))$ this  
+
+As a [[presheaf]] on the poset $\mathcal{C}(A)$ this is given by
+
+$$
+  \underline{\Sigma}(\underline{A})
+  :
+  U \mapsto \Sigma_U
+  \,,
+$$
+
+where for $U \in \mathcal{O}(\mathcal{C}(A))$ we set
+
+$$
+  \Sigma_U := \coprod_{C \in U} \Sigma(C)
+$$
+
+with the relative topology inherited from $\Sigma_A$.
+
 
 =--
 
-(...)
+This appears as ([HLSW, theorem 1](#HLSW)).
 
-+-- {: .num_prop}
+### Properties of the internal locale
+
++-- {: .num_prop #BohrificationDependsOnNormalElementsOnly}
 ###### Proposition
 
 The Bohrification of $A \in ncCStar$ only depends on its [partial C-star algebra](#PartialCStar) $N(A)$ of normal elements
@@ -160,7 +235,7 @@ $$
 
 This is highlighted in ([vdBergHeunen](#vdBergHeunen)).
 
-+-- {: .num_prop}
++-- {: .num_prop #ReproducingOrdinaryGelfandDuality}
 ###### Proposition
 
 For $A$ a commutative $C^\ast$-algebra and $\Sigma_A^{Gelf} \in $ [[Loc]] its ordinary [[Gelfand spectrum]], we have that Bohrification in the double negation topology reproduces this ordinary Gelfand spectrum:
@@ -172,7 +247,7 @@ $$
 
 =--
 
-This is [Spittes06, theorem 9, corollary 10](#Spitters06).
+This is ([Spitters06, theorem 9, corollary 10](#Spitters06)).
 
 +-- {: .num_prop #FunctorToRingedToposes}
 ###### Proposition
@@ -226,7 +301,7 @@ This is effectively the functoriality of the internal [[constructive Gelfand dua
 
 Notice that in the context of [[AQFT]] a [[quantum field theory]] is encoded by a [[local net]] of [[C-star algebra]]s on [[spacetime]].
 
-+-- {: .num_note}
++-- {: .num_note #PresheavesFromLocalNets}
 ###### Note
 
 Let $X$ be a [[Lorentzian manifold]] and 
@@ -252,14 +327,25 @@ that assigns to each [[open subset]] of $X$ regarded as [[spacetime]] an object 
 
 [[Niels Bohr]]'s views on quantum mechanics that give the construction of _Bohrification_ its name are reviewed in
 
-* Erhard Scheibe. _The logical analysis of quantum mechanics_ . Oxford: Pergamon Press, 1973.
+* Erhard Scheibe, _The logical analysis of quantum mechanics_ . Oxford: Pergamon Press, 1973.
 {#Scheibe}
 
 The term _Bohrification_ and the investigations associated with it are initiated in
 
 * [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification of operator algebras and quantum logic_ ([arXiv:0905.2275](http://arxiv.org/abs/0905.2275))
 
-* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], [[Sander Wolters]], _The Gelfand spectrum of a noncommutative $C^\ast$-algebra: a topos-theoretic approach_ ([arxiv:1010.2050](http://arxiv.org/abs/1010.2050))
+The computation of the internal Gelfand spectrum $\underline{\Sigma}$ was initiated in 
+
+* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]] _A topos for algebraic quantum theory_ Communications in Mathematical Physics, 291:63&#8211;110, 2009
+
+and completed in 
+
+* Sander Wolters, _Contravariant vs covariant quantum logic: A comparison of two topos-theoretic approaches to quantum theory_ To appear, 2010.
+
+A comprehensive overview of the proof is given in 
+
+* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], Sander Wolters, _The Gelfand spectrum of a noncommutative $C^\ast$-algebra: a topos-theoretic approach_ ([arxiv:1010.2050](http://arxiv.org/abs/1010.2050))
+ {#HLSW}
 
 The [[functor|functoriality]] of Bohrification is observed in 
 
