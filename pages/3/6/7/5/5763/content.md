@@ -338,14 +338,22 @@ The computation of the internal Gelfand spectrum $\underline{\Sigma}$ was initia
 
 * [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]] _A topos for algebraic quantum theory_ Communications in Mathematical Physics, 291:63&#8211;110, 2009
 
+with some results in section 5 and 6 of 
+
+* Martijn Caspers, _Gelfand spectra of $C^*$-algebras in topos theory_ ([pdf](http://www.math.ru.nl/~landsman/scriptieMartijn.pdf))
+
 and completed in 
 
 * Sander Wolters, _Contravariant vs covariant quantum logic: A comparison of two topos-theoretic approaches to quantum theory_ ([arXiv:1010.2031](http://arxiv.org/abs/1010.2031))
 
-A comprehensive overview of the proof is given in 
+An complete outline of the full proof is given in 
 
 * [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], Sander Wolters, _The Gelfand spectrum of a noncommutative $C^\ast$-algebra: a topos-theoretic approach_ ([arxiv:1010.2050](http://arxiv.org/abs/1010.2050))
  {#HLSW}
+
+Applications and examples for $A$ a [[matrix]] algebra are discussed in 
+
+* Martijn Caspers, [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Intuitionistic Quantum Logic of an $n$-level System_ ([pdf](http://www.math.ru.nl/~landsman/CHLS.pdf))
 
 The [[functor|functoriality]] of Bohrification is observed in 
 
