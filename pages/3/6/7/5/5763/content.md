@@ -340,7 +340,7 @@ The computation of the internal Gelfand spectrum $\underline{\Sigma}$ was initia
 
 and completed in 
 
-* Sander Wolters, _Contravariant vs covariant quantum logic: A comparison of two topos-theoretic approaches to quantum theory_ To appear, 2010.
+* Sander Wolters, _Contravariant vs covariant quantum logic: A comparison of two topos-theoretic approaches to quantum theory_ ([arXiv:1010.2031](http://arxiv.org/abs/1010.2031))
 
 A comprehensive overview of the proof is given in 
 
