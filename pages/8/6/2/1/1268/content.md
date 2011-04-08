@@ -1,3 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -39,9 +59,16 @@ If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X
 
 =--
 
-## References and related entries
+## Related concepts
 
 Related $n$lab entries include [[Weyl algebra]], [[regular differential operator]], [[local system]], [[differential bimodule]], [[Grothendieck connection]], [[crystal]], [[algebraic analysis]]. 
+
+
+## References 
+
+A comprehensive account is in chapter 2 of
+
+* [[Alexander Beilinson] and [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
 
 * A. Beilinson, I. N. Bernstein, _A proof of Jantzen conjecture_, Adv. in Soviet Math. 16, Part 1 (1993), 1-50. MR95a:22022
 * S. C. Coutinho, _A primer of algebraic D-modules_, London Math. Soc. Stud. Texts, 33, Cambridge University Press, Cambridge, 1995. xii+207 pp.
