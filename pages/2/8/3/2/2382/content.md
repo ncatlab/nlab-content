@@ -139,4 +139,12 @@
 
   * [[(∞,1)-sheaf]], [[∞-stack]], [[derived stack]]
 
+
+## Theorems
+
+* [[Diaconescu's theorem]]
+
+* [[Barr's theorem]]
+
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/topos+theory+-+contents)</div>
