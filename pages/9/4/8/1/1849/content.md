@@ -141,6 +141,7 @@ The first, the set of connected components (gauge equivalence classes of $C$-fie
 
 The second, the [[fundamental group]], is that of flat [[circle bundle]]s.
 
+
 ### Orientation and fractional classes
   {#DFMOrientationAndFractionalClasses}
 
@@ -227,9 +228,6 @@ $$
 
 =--
 
-### General properties
-  {#CWPerspectiveGeneralProperties}
-
 +-- {: .num_note #PastingDecompOfAbstractDefOfCField}
 ###### Note
 
@@ -244,7 +242,33 @@ $$
   \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)
 $$ 
 
-of the smooth second Chern-class with the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature form</a> on $\mathbf{B}^3 U(1)$. Similarly for $(\frac{1}{2}\mathbf{p}_2)_{dR}$.
+of the smooth refinement of the second [[Chern class]] with the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature form</a> on $\mathbf{B}^3 U(1)$. Similarly for $(\frac{1}{2}\mathbf{p}_2)_{dR}$.
+
+=--
+
+Therefore we may either compute the [[(∞,1)-pullback]] in def. \ref{AbstractDefOfCField} directly, or in two consecutive steps. Both methods lead to their insights. 
+
+In 
+
+* [General properties](#CWPerspectiveGeneralProperties)
+
+we consider general abstract consequences of the above definition, mainly making use of the factorization. In
+
+* [Presentation by differential form data](#CWPresentationByDifferentialFormData)
+
+we find a presentation by [[simplicial presheaves]] of the direct [[homotopy pullback]]. 
+
+In the first approach [[connection on a bundle|connections]] on the [[E8]]-[[principal bundle]]s never appear explicitly. In the second approach they appear as [[pseudo-connection]]s, or as genuine connections whose morphisms are however allowed to shift them arbitrarily. This means that these connections are purely auxiliary data that serve to present the required homotopies. They do not survive in cohomology. This is as in the [DFM model](#DFMmodel) above. 
+
+Finally in 
+
+* [Restriction to the boundary](#RestrictionToBoundaryInChernWeil)
+
+we comment how genuine $E_8$-connections may appear inside the second presentation of the $C$-model. 
+
+### General properties
+  {#CWPerspectiveGeneralProperties}
+
 
 This implies by the [[pasting law]] for [[(∞,1)-pullback]]s that the $(\infty,1)$-pullback from def. \ref{AbstractDefOfCField} may be decomposed into two consecutive pullbacks of the form
 
@@ -474,6 +498,7 @@ $$
 
 
 ### Presentation by differential form data
+  {#CWPresentationByDifferentialFormData}
 
 In order to compute the $(\infty,1)$-pullback $C Field(X)$ more explicitly, we follow the discussion at  [[differential string structure]], where presentations of this pullback in terms of [[simplicial presheaves]] arising from  [[Lie integration]] is given.
 
