@@ -729,6 +729,10 @@ The state-of-the-art in the literature concerning attempts to find the correct m
 * E. Diaconescu, [[Greg Moore]], [[Dan Freed]], _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
  {#DFM}
 
+A summary and rview of this is in 
+
+* [[Greg Moore]], _Anomalies, Gauss laws, and Page charges in M-theory_ ([arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158))
+
 The discussion from the point of view of the $\infty$-Chern-Weil homomorphism is part of
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _Higher differemtial $Spin^c$-structures_
