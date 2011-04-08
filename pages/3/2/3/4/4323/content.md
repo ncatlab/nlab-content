@@ -64,7 +64,7 @@ This is a seminal result due to ([Thom](#Thom)), whose proof proceeds by the [[P
 
 We first construct a map $\Theta : \Omega_n^{un} \to \pi_n M O$. (The presentation follows [Francis, lecture 3](#Francis3)).
 
-Given a class $[X] \in \Omega_n^{un}$ we can choose a representaive $X \in $ [[Diff]] and a [[closed embedding]] $\nu$ of $X$ into the [[Cartesian space]] $\mathbb{R}^{n+k}$ of sufficiently large [[dimension]]. By the [[tubular neighbourhood theorem]] $\nu$ factors as the embedding of the [[zero section]] into the [[normal bundle]] $N_\nu$ followed by an [[open embedding]] of $N_\nu$ into $\mathbb{R}^{n+k}$
+Given a class $[X] \in \Omega_n^{un}$ we can choose a representative $X \in $ [[Diff]] and a [[closed embedding]] $\nu$ of $X$ into the [[Cartesian space]] $\mathbb{R}^{n+k}$ of sufficiently large [[dimension]]. By the [[tubular neighbourhood theorem]] $\nu$ factors as the embedding of the [[zero section]] into the [[normal bundle]] $N_\nu$ followed by an [[open embedding]] of $N_\nu$ into $\mathbb{R}^{n+k}$
 
 $$
   \array{
