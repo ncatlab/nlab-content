@@ -26,6 +26,24 @@ The **Cobordism Hypothesis** roughly states that the [[(∞,n)-category of cobor
 
 Since a fully [[extended topological quantum field theory]] may be identified with an [[(∞,n)-functor]] $Z : Bord_n \to C$, this implies that all these [[TQFT]]s are entirely determined by their value on the point: "the [[n-vector space]] of [[state]]s" of the theory.
 
+
+## Simple version on geometric realization
+
+By GalatiusTillmannMadsenWeiss (see [[cobordism category]]) we have that the [[loop space]] of the [[geometric realization]] of the framed [[cobordism category]] is equivalent to the [[sphere spectrum]]
+
+$$
+  \Omega \Vert Cob_d^{fr} \Vert
+  \simeq
+  {\lim_{\to}_{n \to \infty} Maps_*(S^n, S^n)
+  \simeq
+  \Omega^\infty S^\infty
+$$
+
+which can be understood as the free [[infinite loop space]] on the point.
+
+Therefore...
+
+
 ## Formalization 
 
 In ([Lurie](#Lurie)) a formalization and proof of the cobordism hypothesis is described.
