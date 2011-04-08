@@ -534,7 +534,7 @@ $$
 
 on $W(\mathfrak{g})$. We now discuss, following D'Auria-Fr&#233;, how the [[action functional]]s of supergravity are related to [[schreiber:∞-Chern-Simons theory]] for Chern-Simons elements on certain super $\infty$-Lie algebroids.
 
-We discuss a system of equations that characterizes a necessary condition [[Chern-Simons element]]s in the [[Weil algebra]] $W(\mathfrak{g})$. This condition is called the **cosmo-cocycle condition** in [DAuriaFre](#DAuriaFre).
+We discuss a system of equations that characterizes a necessary condition [[Chern-Simons element]]s in the [[Weil algebra]] $W(\mathfrak{g})$. This condition is called the **cosmo-cocycle condition** in ([DAuriaFre](#DAuriaFre)).
 
 To do so, we work in a basis $\{t^a\}$ of $\mathfrak{g}^*$. Let $\{r^a\}$ be the corresponding shifted basis of $\mathfrak{g}^*[1]$. Write $\{\frac{1}{n}C^a{}_{b_0 \cdots b_n}\}$ for the structure constants in this basis, so that the differential in the [[Weil algebra]] acts as
 
@@ -558,7 +558,7 @@ where $\lambda, \nu_a, \nu_{a b}, \cdots \in CE(\mathfrak{g})$.
 +-- {: .un_lemma}
 ###### Observation
 
-The condition $d_{W(\mathfrak{g})} (cs)$ has no terms _linear_ in the curvatures $r^a$ is equivalent to the system of equations 
+The condition that $d_{W(\mathfrak{g})} (cs)$ has no terms _linear_ in the curvatures $r^a$ is equivalent to the system of equations 
 
 $$
   \begin{aligned}
