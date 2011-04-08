@@ -23,14 +23,21 @@ There is a statement and proof of [[Gelfand duality]] in [[constructive mathemat
 
 ## References
 
-The constructive Gelfand duality is due t
+A proof of Gelfand' duality claimed to be constructive was given in.
 
 * Bernhard Banaschewski; Christopher J. Mulvey _A globalisation of the Gelfand duality theorem_ Annals of Pure and Applied Logic, 137(1&#8211;3):62&#8211;103, 2006
 
-A review is in section 2 of
+This uses however [[Barr's theorem]] which requires itself non-constructive logic and requires the ambient topos to be a [[Grothendieck topos]]
+
+A fully constructive proof is claimed in 
+
+* [[Thierry Coquand]], [[Bas Spitters]], _Constructive Gelfand duality for $C^*$-algebras_ , Mathematical Proceedings of the Cambridge Philosophical society , Volume 147, Issue 02, September 2009, pp 323-337 ([arXiv:0808.1518](http://arxiv.org/abs/0808.1518))
+
+A review of some aspects of constructive Gelfand duality is in section 2 of
 
 * [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _A topos for algebraic quantum theory_ ([arXiv:0709.4364](http://arxiv.org/abs/0709.4364))
 {#HeunenLandsmanSpitters}
+
 
 
 [[!redirects Stone-Gelfand-Naimark theorem]]
