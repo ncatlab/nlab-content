@@ -131,7 +131,7 @@ For the relation to ribbons see
 
 The formality of $fD_2$ was shown in 
 
-* Giansiracusa-Salvatore-&#352;evera 09
+* [[Jeff Giansiracusa|Giansiracusa]]-Salvatore-&#352;evera 09
  {#GiansiracusaSalvatoreSevera}
 
 
@@ -141,7 +141,7 @@ Discussion of [[homotopy BV-algebra]]s is in
 
 see also 
 
-* Imma G&#225;lvez, Vassily Gorbounov, Andrew Tonks, _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](http://arxiv.org/abs/math/0611231)
+* [[Imma Galvez-Carrillo]], Vassily Gorbounov, [[Andy Tonks]], _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](http://arxiv.org/abs/math/0611231)
 
 Slides of a talk summarizing this are at
 
