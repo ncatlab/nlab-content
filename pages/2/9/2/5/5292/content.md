@@ -19,7 +19,7 @@
 +-- {: .un_def}
 ###### Definition
 
-The **framed little 2-disk operad** is the [[operad]] $P$ in [[Top]] whose [[topological space]] $P(n)$ of $n$-ary operations is the space of maps
+The **framed little 2-disk operad** is the [[operad]] $fD_2$ in [[Top]] whose [[topological space]] $fD_2(n)$ of $n$-ary operations is the space of maps
 
 $$
   \coprod_n D \to D
@@ -49,12 +49,48 @@ This differs from the [[little 2-disk operad]] by the fact that rotations of the
 +-- {: .un_theorem}
 ###### Theorem
 
-The [[homology]] of the framed little 2-disk operad in chain complexes is the operad for [[BV-algebra]]s.
+The [[homology]] of the framed little 2-disk operad in chain complexes is the [[BV-operad]] $BV$ the operad for [[BV-algebra]]s:
+
+
+$$
+  BV \simeq H_\bullet(fD_2)
+  \,.
+$$
 
 =--
 
 This is due to ([Getzler](#Getzler)).
 
++-- {: .un_theorem}
+###### Theorem
+
+The framed little disk operad is [[formal dg-algebra|formal]]. 
+
+This means that there is a zig-zag of [[quasi-isomorphism]]s
+
+$$
+  C_\bullet(fD_2) 
+   \stackrel{\simeq}{\leftarrow}
+   \stackrel{\simeq}{\to}
+   \cdots 
+   \stackrel{\simeq}{\leftarrow}
+   \stackrel{\simeq}{\to}
+   H_\bullet(fD_2)
+  \,.
+$$
+
+=--
+
+This is due to ([Giansiracusa-Salvatore-Severa 09)](#Giansiracusa-Salvatore-Severa)). See also ([Valette, slide 35](#Valette)).
+
+Accordingly one makes the following definition:
+
++-- {: .un_defn}
+###### Definition
+
+The operad for [[homotopy BV-algebra]]s is any cofibrant [[resolution]] of $BV \simeq  H_\bullet(fD_2)$, or equivalently of $C_\bullet(fD_2)$.
+
+=--
 
 +-- {: .un_def}
 ###### Definition
@@ -88,7 +124,30 @@ The framed little 2-disk operad was introduced in
 * [[Ezra Getzler]], _Batalin-Vilkovisky algebras and two-dimensional topological field theories_ , Comm. Math. Phys. 159 (1994), no. 2, 265&#8211;285. ([arXiv](http://arxiv.org/abs/hep-th/9212043))
 {#Getzler}
 
+For the relation to ribbons see
+
 * Nathalie Wahl, _Ribbon braids and related operads_ PhD thesis, Oxford (2001) ([pdf](http://eprints.maths.ox.ac.uk/43/1/wahl.pdf)).
 {#Wahl}
 
+The formality of $fD_2$ was shown in 
+
+* Giansiracusa-Salvatore-&#352;evera 09
+ {#GiansiracusaSalvatoreSevera}
+
+
+Discussion of [[homotopy BV-algebra]]s is in 
+
+* [[Imma Galvez-Carrillo]], [[Andy Tonks]], [[Bruno Valette]], _Homotopy Batalin-Vilkovisky algebras_ ([arXiv:0907.2246](http://arxiv.org/abs/0907.2246))
+
+see also 
+
+* Imma G&#225;lvez, Vassily Gorbounov, Andrew Tonks, _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](http://arxiv.org/abs/math/0611231)
+
+Slides of a talk summarizing this are at
+
+*  [[Bruno Valette]], _Homotopy Batalin-Vilkovisky algebras_ ([pdf](http://math.unice.fr/~brunov/download/Homotopy%20BV.pdf))
+ {#Valette}
+
 [[!redirects framed little disk operad]]
+
+[[!redirects BV-operad]]
