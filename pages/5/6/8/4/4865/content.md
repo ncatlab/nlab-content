@@ -14,4 +14,20 @@
 =--
 
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 > for the moment see the respective section at [[D'Auria-Fre formulation of supergravity]]
+
+## Related concepts
+
+* [[supergravity]]
+
+* [[supergravity C-field]]
+
+* [[supergravity Lie 3-algebra]]
+
+* [[supergravity Lie 6-algebra]]
