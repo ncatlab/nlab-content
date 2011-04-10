@@ -111,7 +111,7 @@ If $P$ is an $R_\infty$-operad, then the sequence of quotient spaces $\{P(n)/P R
 
 This is ([Wahl, lemma 1.5.17](#Wahl)).
 
-# Related concpets
+## Related concepts
 
 * **framed little 2-disk operad**
 
@@ -131,12 +131,12 @@ For the relation to ribbons see
 
 The formality of $fD_2$ was shown in 
 
-* [[Jeff Giansiracusa|Jeffrey Giansiracusa]]-Salvatore, Formality of the framed little 2-discs operad and semidirect products, [Arxiv 0911.4428v2](http://arxiv.org/PS_cache/arxiv/pdf/0911/0911.4428v2.pdf)
+* [[Jeff Giansiracusa|Jeffrey Giansiracusa]]-Salvatore, _Formality of the framed little 2-discs operad and semidirect products_ , ([arxiv 0911.4428v2](http://arxiv.org/PS_cache/arxiv/pdf/0911/0911.4428v2.pdf))
  {#GiansiracusaSalvatoreSevera}
 
 and 
 
-* [[Pavol Severa]], Formality of the chain operad of framed little disks [Arxiv AT 0902.3576v2](http://arxiv.org/PS_cache/arxiv/pdf/0902/0902.3576v2.pdf)
+* [[Pavol Severa]], _Formality of the chain operad of framed little disks_,  ([arxiv AT 0902.3576v2](http://arxiv.org/PS_cache/arxiv/pdf/0902/0902.3576v2.pdf))
 
 
 Discussion of [[homotopy BV-algebra]]s is in 
@@ -153,5 +153,11 @@ Slides of a talk summarizing this are at
  {#Valette}
 
 [[!redirects framed little disk operad]]
+[[!redirects framed little disks operad]]
+
+[[!redirects framed little disk operads]]
+[[!redirects framed little disks operads]]
+
 
 [[!redirects BV-operad]]
+
