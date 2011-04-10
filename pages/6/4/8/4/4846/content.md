@@ -45,7 +45,44 @@ $$
 
 =--
 
-This appears on page 18 of ([DAuriaFre](#DAuriaFre)).
+This appears in ([DAuriaFre, page 18](#DAuriaFre)) and 
+[CastellaniDAuriaFre, III.8.3](#CastellaniDAuriaFre).
+
++-- {: .proof}
+###### Proof
+
+One computes
+
+$$
+  \begin{aligned}
+    d \mu_3 &= 
+     - \frac{5}{4} \bar \psi \wedge \Gamma^{a_1 \cdots a_4 b} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_4} \wedge \bar \psi \wedge \Gamma_b \psi
+  \\
+  & - i 15 \wedge \Gamma^{a b} e_a \wedge \bar \psi \wedge \Gamma_b \psi \wedge c_3
+   \\
+   & +
+    \frac{15}{4} \bar \psi \wedge \Gamma_{a b} \psi \wedge e^a \wedge e^b \wedge \bar \psi \wedge \Gamma_{c d} \psi \wedge e^c \wedge e^d 
+  \end{aligned}
+  \,.
+$$
+
+This expression vanishes due to the [[Fierz identities]]
+
+$$
+  \bar \psi \wedge 
+  \Gamma^{a_1 \cdots a_4 b} \psi \wedge \bar \psi \wedge \Gamma_b \psi = 
+  3 \bar \psi \wedge \Gamma^{[a_1 a_2} \psi \wedge \bar \psi \wedge \Gamma^{a_3 a_4 ]} \psi
+$$
+
+and
+
+$$
+  \bar \psi \wedge \Gamma^{a b} \psi \wedge \bar \psi \wedge \Gamma_b \psi = 0 
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_def #TheDefinition}
 ###### Definition
@@ -110,6 +147,14 @@ $$
 
 =--
 
+This appears as ([CastellaniDAuriaFre, (III.8.18)](#CastellaniDAuriaFre)).
+
++-- {: .num_note #MaximalExtension}
+###### Note
+
+According to ([CastellaniDAuriaFre, comment below (III.8.18)](#CastellaniDAuriaFre)): "no further extension is possible".
+
+=--
 
 ## Applications
 
@@ -126,11 +171,11 @@ See [[D'Auria-Fre formulation of supergravity]] for details.
 The supergravity Lie 6-algebra appears first on page 18 of
 
 * R. D'Auria, P. Fr&#233; _[[GeometricSupergravity.pdf:file]]_
-{#DAuriaFre} 
+ {#DAuriaFre} 
 
 A textbook discussion is in section III.8.3 of 
 
 * [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], 
 
   _[[Supergravity and Superstrings - A Geometric Perspective]]_
-{#CastellaniDAuriaFrre}
+ {#CastellaniDAuriaFre}
