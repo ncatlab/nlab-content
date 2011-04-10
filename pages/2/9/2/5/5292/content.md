@@ -131,8 +131,12 @@ For the relation to ribbons see
 
 The formality of $fD_2$ was shown in 
 
-* [[Jeff Giansiracusa|Giansiracusa]]-Salvatore-&#352;evera 09
+* [[Jeff Giansiracusa|Jeffrey Giansiracusa]]-Salvatore, Formality of the framed little 2-discs operad and semidirect products, [Arxiv 0911.4428v2](http://arxiv.org/PS_cache/arxiv/pdf/0911/0911.4428v2.pdf)
  {#GiansiracusaSalvatoreSevera}
+
+and 
+
+* [[Pavol Severa]], Formality of the chain operad of framed little disks [Arxiv AT 0902.3576v2](http://arxiv.org/PS_cache/arxiv/pdf/0902/0902.3576v2.pdf)
 
 
 Discussion of [[homotopy BV-algebra]]s is in 
