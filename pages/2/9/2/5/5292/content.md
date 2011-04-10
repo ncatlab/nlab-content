@@ -131,7 +131,7 @@ For the relation to ribbons see
 
 The formality of $fD_2$ was shown in 
 
-* [[Jeff Giansiracusa|Jeffrey Giansiracusa]]-Salvatore, _Formality of the framed little 2-discs operad and semidirect products_ , ([arxiv 0911.4428v2](http://arxiv.org/PS_cache/arxiv/pdf/0911/0911.4428v2.pdf))
+* [[Jeff Giansiracusa|Jeffrey Giansiracusa]]-[[Paolo Salvatore]], _Formality of the framed little 2-discs operad and semidirect products_ , in: Homotopy theory of function spaces and related topics, Cont. Math. 519, AMS, pp. 115-121  ([arxiv 0911.4428v2](http://arxiv.org/PS_cache/arxiv/pdf/0911/0911.4428v2.pdf))
  {#GiansiracusaSalvatoreSevera}
 
 and 
