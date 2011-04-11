@@ -27,3 +27,5 @@ $$
 (...)
 
 [[!redirects Riemann curvature]]
+
+[[!redirects Riemann tensor]]
