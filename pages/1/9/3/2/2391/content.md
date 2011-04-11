@@ -1,23 +1,95 @@
-#Idea
 
-$Q$-categories and $Q^\circ$-categories serve as generalizations of (a structure induced by) [[Grothendieck topology|Grothendieck topologies]] and cotopologies. Formally they correspond to the [[localization]]s having a left or right [[adjoint functor|adjoint]] and are motivated by similar adjoint pairs involving (co)[[sieves]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
 
-#Motivation
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _$Q$-category_ is nothing but a [[coreflective subcategory]] and a _$Q^\circ$-category_ is nothing but a [[reflective subcategory]]. Since both of these encode reflective [[localization]]s, following [Rosenberg](#Rosenberg) the "Q" is for _quotient_ and is to indicate that in this context one is interested in notions similar to, but different from, the standard notion of [[sheaves]]:
+
+for $\mathbb{C} := (C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}} \bar C)$ a $Q^\circ$-category there is canonically induced a quadruple of [[adjoint functor]]s between the corresponding [[presheaf categories]]
+
+$$
+  PSh(\bar A)
+   \stackrel{\overset{u_!}{\to}}{\stackrel{}{\stackrel{\overset{u^*}{\leftarrow}}{\stackrel{\overset{u_*}{\to}}{\underset{u^!}{\leftarrow}}}}}
+  PSh(A) 
+$$
+
+and a presheaf $F \in PSh(A)$ is called an _$\mathbb{A}$-sheaf_ if the canonical morphism
+
+$$
+  u^* F \to u^! F
+$$
+
+is an [[isomorphism]] in $PSh(\bar A)$. More generally, there are generalizations of this condition where presheaves of sets can be replaced with presheaves with values in other categories, notably in [[abelian categories]].
+
+In a central motivating class of examples $\bar C$ is a category of [[sieve]]s on objects in a [[small category]] $C$ that are regarded as being [[covering]] but which do not necessarily satisfy the axioms of a [[Grothendieck topology]] and not even of a [[coverage]].
+
+
+## Motivation
 
 The [[Yoneda embedding]] is continuous but not cocontinuous functor. Hence the Grothendieck topologies are used to define smaller image than the category of presheaves such that for that embedding some covering cones will stay covering cones. In one case the cones correspond to the Grothendieck topology but more general families of diagrams may be involved. The important properties of categories of diagrams for doing the sheaf theory can be expressed in terms of certain adjoint pairs of functors. As one application this generalization of sheaf theory can also rephrase categorically properties like formal smoothness and formal etaleness of functors, and as another puts the sheafification in a framework for which another special case is a construction of the Gabriel-type noncommutative localization. 
 
-#Definition
+## Definition
 
-An __almost quotient category__, or a __$Q$-category__ is a pair of functors
-$Q: A\leftrightarrow\bar{A}: I$,
-where $Q$ is fully faithful and left adjoint to $I$. In other words, $A$ is equipped with an equivalence with a [[coreflective subcategory]] of $\bar{A}$. Such an adjoint situation appears often, however the word $Q$-category is used only when the pair is used in a specific meaning useful to constructions like (generalized) sheaf theory (similarly like presheaf of objects in $D$ and contravariant functor to $D$ are synonyms, but a different word refers to a different context and intuition).
++-- {: .num_defn #QCategory}
+###### Definition
+
+An __almost quotient category__, or a __$Q$-category__ is 
+
+* a pair of [[adjoint functor]]s
+
+  $$
+    Q: A\leftrightarrow\bar{A}: I
+    \,,
+  $$
+
+  with $Q$ the [[left adjoint]];
+
+* such that $Q$ is [[full and faithful functor|full and faithful]] 
+
+In other words, $A$ is equipped with an equivalence with a [[coreflective subcategory]] of $\bar{A}$. 
+
+=--
+
++-- {: .num_note #QTerminology}
+###### Note
+
+Such an adjoint situation appears often, however the term _$Q$-category_ is used only when the pair is used in a specific meaning useful to constructions like (generalized) sheaf theory (similarly like presheaf of objects in $D$ and contravariant functor to $D$ are synonyms, but a different word refers to a different context and intuition).
+
+=--
+
+
++-- {: .num_defn #QopCategory}
+###### Definition
 
 A $Q^\circ$-category is a pair of functors $Q: A\leftrightarrow\bar{A}: I$,
 where $Q$ is fully faithful and right adjoint to $I$. In other words, $A$ is equipped with an equivalence with a [[reflective subcategory]] of $\bar{A}$.
 
+=--
+
 Morphisms...
 
-#Almost quotient category of cones
+## Examples
+
+### Presheaves on a $Q$-category
+
+If $\mathbb{A} = (Q: A\leftrightarrow\bar{A}: I)$ is a $Q$-category, and $E$ a category, then there is an induced $Q$-category of $E^{\mathbb{A}}:(E^Q: E^{A}\leftrightarrow E^{\bar{A}}):E^I$; the new adjunction has unit $E^{\eta} : Id_{E^A} \to E^Q\circ E^I = E^{IQ}$ and counit $E^\epsilon : E^I\circ E^Q = E^{QI}\to Id_{E^{\bar{A}}}$. 
+
+Any subcategory $B\subset E^{\bar{A}}$ containing $Im(E^I)$ determines a Q-subcategory $E^A\leftrightarrow B$. 
+
+
+### Almost quotient category of cones
 
 Let $C$ be a category and $LC$ be the category whose objects are [[cones]] $\alpha: x\to d$ over (small) diagrams $d: D\to C$ where $D$ are variable small categories; and the morphisms from $x\stackrel{\alpha}\to d$ to $x'\stackrel{\alpha'}\to d'$ are triples of the form $(f,\rho,\bar{f})$ where $f:x\to x'$ is a morphism in $C$, $\rho : D\to D'$ is a diagram (= functor), and $\bar{f}:d\circ\rho\to d'$ is a morphism of diagrams (= natural transformation) such that 
 $$\array{
@@ -49,43 +121,44 @@ A __semicosite__ (or semicositus pl. semicositi) is a Q-category of the form $C\
 
 An example of a cosite is a cosite of closed sets of a topological space. 
 
-#Q-categories of functors into a fixed category
 
-If $\mathbb{A} = (Q: A\leftrightarrow\bar{A}: I)$ is a $Q$-category, and $E$ a category, then there is an induced $Q$-category of $E^{\mathbb{A}}:(E^Q: E^{A}\leftrightarrow E^{\bar{A}}):E^I$; the new adjunction has unit $E^{\eta} : Id_{E^A} \to E^Q\circ E^I = E^{IQ}$ and counit $E^\epsilon : E^I\circ E^Q = E^{QI}\to Id_{E^{\bar{A}}}$. 
+### Sieves
 
-Any subcategory $B\subset E^{\bar{A}}$ containing $Im(E^I)$ determines a Q-subcategory $E^A\leftrightarrow B$. 
-
-#Other examples
-
-The $Q$-category of sieves 
+The $Q$-category of [[sieves]]
 
 The $Q$-subcategory of the $Q$-category of (all) sieves corresponding to the subcategory of sieves corresponding to the Grothendieck topology...
 
 (needs explanation)
 
-#Sheaves
+## Sheaves
 
 ...
 
-#Sheafification versus the Gabriel localization $G_{\mathcal{F}} = H^2_{\mathcal{F}}$
+### Sheafification versus the Gabriel localization $G_{\mathcal{F}} = H^2_{\mathcal{F}}$
 
-#Terminology and history
+(...)
 
-$Q$-category originally standed as "almost quotient category", presumably because of its role in the theory of [[Gabriel localization]]. The sheaf formalism in terms of $Q$-categories has been introduced in the mimeographed
-notes
+## References
 
-* A. Rosenberg, _Q-categories, sheaves and localization_, (in Russian) Seminar on supermanifolds __25__, Leites ed. Stockholms Universitet 1988 (there is a recent partial English translation)
+The term _$Q$-category_ originally was short for _almost quotient category_ , presumably because of its role in the theory of [[Gabriel localization]]. The sheaf formalism in terms of $Q$-categories has been introduced in the mimeographed notes
+
+* [[Alexander Rosenberg]], _Q-categories, sheaves and localization_, (in Russian) Seminar on supermanifolds __25__, Leites ed. Stockholms Universitet 1988 (there is a recent partial English translation)
+ {#Rosenberg}
 
 The formalism has been recently used (and shortly surveyed) in
 
-* M. Kontsevich, A. Rosenberg, _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
+* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
+ {#KontsevichRosenbergSpaces}
 
 and also used in the general definition of "noncommutative" stacks in
 
-* [[M. Kontsevich]], [[A. Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-37 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305))
+* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-37 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305))
+ {#KontsevichRosenbergStacks}
 
-The epipresheaf condition for the Q-category of nilpotent (infinitesimal) thickenings is in the Kontsevich-Rosenberg paper interpreted as [[formally smooth morphism|formal smoothness]] what is further studied in 
+
+The [[epipresheaf]] condition for the Q-category of nilpotent (infinitesimal) thickenings is in the Kontsevich-Rosenberg paper interpreted as [[formally smooth morphism|formal smoothness]] what is further studied in 
 
 * [[T. Brzeziński]], _Notes on formal smoothness_, *in*: Modules and Comodules (series _Trends in Mathematics_). T Brzezi&#324;ski, JL Gomez Pardo, I Shestakov, PF Smith (eds), Birkh&#228;user, Basel, 2008, pp. 113-124 ([doi](http://dx.doi.org/10.1007/978-3-7643-8742-6), [arXiv:0710.5527](http://arxiv.org/abs/0710.5527))
+ {#Brzezinski}
 
 [[!redirects Q-categories]]
