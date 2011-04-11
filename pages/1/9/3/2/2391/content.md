@@ -130,9 +130,75 @@ The $Q$-subcategory of the $Q$-category of (all) sieves corresponding to the sub
 
 (needs explanation)
 
-## Sheaves
+## $\mathbb{A}$-Sheaves
 
-...
+
++-- {: .num_defn #BareSheafCondition}
+###### Definition
+
+Let $\mathbb{A} = (\bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}}A)$ be a [Q-category](#QCategory). An object $x \in A$ is called an **$\mathbb{A}$-sheaf** if the canonical morphism
+
+$$
+  \bar A(y, u^*(x)) \to A(u_*(y), x)
+$$
+
+is an [[isomorphism]].
+
+This morphism is given by
+
+$$
+  g \mapsto \eta_x^{-1} \circ u_*(g)
+$$
+
+where $\eta_x : u_* u^*(x) \to x$ is the $x$-component of the $(u^* \dashv u_*)$-[[unit of an adjunction|counit]] (which is an [[isomorphism]] because $u^*$ is a [[full and faithful functor]]).
+
+
+=--
+
+This appears as ([Rosenberg, 3.1.1](#Rosenberg)).
+
+The object $x$ is called an **$\mathbb{A}$-monopresheaf** is this canonical morphism is just a [[monomorphism]].
+
++-- {: .num_defn #PresheafSheafCondition}
+###### Proposition
+
+Let $\mathbb{A} : \bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}} A$ be a Q-category for $A$ a [[small category]], let $C$ be a category with all small [[limit]]s  and let
+
+$$
+  C^{\mathbb{A}} : 
+   C^{\bar A} 
+    \stackrel{\overset{f^* := C^{u_*}}{\leftarrow}}{\stackrel{\underset{f_* := C^{u^*}}{\to}}{\underset{f^! := u^!_C}{\leftarrow}}}
+   C^{A}
+$$
+
+be the Q-category of presheaves. Her $u^!_C := Ran_{u^*}$ is the right [[Kan extension]] along $u^*$ which exists by the assumption that $C$ has all small limits.
+
+Then $F \in C^{A}$ is a $C^{\mathbb{A}}$-sheaf, def. \ref{BareSheafCondition}, precisely if the canonical morphism
+
+$$
+  f^* F \to f^! F
+$$
+
+is an [[isomorphism]].
+
+=--
+
+This appears as ([Rosenberg, 3.5](#Rosenberg)).
+
++-- {: .proof}
+###### Proof
+
+Using the $(f_* \dashv f^!)$-[[adjunction]]-[[isomorphism]] we have that the canonical morphism from def. \ref{BareSheafCondition} is isomorphic to
+
+$$
+  C^{\bar A}(G, f^* F) \to C^{A}(f_* G, F) \stackrel{\simeq}{\to}
+   C^{\bar A}(G, f^! F)
+$$
+
+for all $G \in C^{\bar A}$.
+
+=--
+
 
 ### Sheafification versus the Gabriel localization $G_{\mathcal{F}} = H^2_{\mathcal{F}}$
 
