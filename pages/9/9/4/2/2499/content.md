@@ -409,7 +409,7 @@ In this notation we have
     \label{ShiftedGaugeTrafo}
   \]
 
-* the **horizontality** or **[[rheonomy]]** constraint or **[[Ehresmann connection|second Ehresmann condition]]**
+* the **horizontality**  constraint or **[[Ehresmann connection|second Ehresmann condition]]**
 
   \[
     \frac{d}{d s} A_U = \nabla \lambda
@@ -428,70 +428,10 @@ The unique solution $A_U(s = 1)$ of the above differential equation at $s = 1$ f
 
 =--
 
-### Rheonomy {#Rheonomy}
+### Rheonomy 
+ {#Rheonomy}
 
-A central insight for the construction of supergravity theories in D'Auria-Fre formalism is their notion of _rheonomy_ . In terms of the interpretation supergravity fields as [[connections on ∞-bundles]] we shall interpret this as the [[supergeometry]] version of the [[Ehresmann connection|second Ehresmann condition]], as above for gauge transformations.
-
-For the folowing let $U$ be an ordinary non-super manifold. Write 
-
-$$
-  \Delta^{k|p} = \Delta^k \times \mathbb{R}^{0|p}
-$$
-
-for the [[supermanifold|super-simplex]]. Then the full diagram for higher gauge transformations of _super_-[[∞-Lie algebra valued forms]], generalizing the one for bosonic [gauge transformations above](#GaugeTransformations) is
-
-$$
-    \array{
-      \Omega^\bullet(X \times \Delta^{k|p})_{vert}
-      &\stackrel{A_{vert}}{\leftarrow}&
-      CE(\mathfrak{g})
-      &&&
-      gauge\;transformation
-      \\
-      \uparrow && \uparrow &&&& first\;Ehresmann\;condition
-      \\
-      \Omega^\bullet(X \times \Delta^{k|p})
-      &\stackrel{A}{\leftarrow}&
-      W(\mathfrak{g})
-      &&&
-      field
-      \\
-      \uparrow && \uparrow &&&& second\;Ehresmann\;condition
-      \\
-      \Omega^\bullet(X)
-      &\stackrel{\langle F_A\rangle}{\leftarrow}&
-      inv(\mathfrak{g})
-      &&&
-      gauge\;invariant\;observable
-    }
-$$
-
-Considering this for $\Delta^{0|1} = \mathbb{R}^{0|1}$, this encodes the _horizontality_ or second Ehresmann condition in the odd super-direction. Write $\theta$ for the canonical odd coordinate on $\Delta^{0|1}$. 
-
-The analog of the gauge parameter is now $\epsilon$ in the decomposition
-
-$$
-  \Omega^\bullet(U \times \Delta^{0|1}) 
-  \leftarrow
-  CE(\mathfrak{g})
-  : 
-  A_U + \epsilon \wedge d \theta
-$$
-
-and the analogs of equations \eqref{ShiftedGaugeTrafo} and \eqref{GaugeTrafo} are now the general identity
-
-$$
-  \frac{d}{d \theta} A_U = \nabla \epsilon + (F_A)_\theta
-$$
-
-for possibly shifted transformations, and the horizontality condition
-
-$$
-  \frac{d}{d \theta} A_U = \nabla \epsilon
-  \,.
-$$
-
-This is the _rheonomy constraint_ (if generalized to equality _on shell_  , see around (III.3.30)).
+(...)
 
 
 ## Dynamics
