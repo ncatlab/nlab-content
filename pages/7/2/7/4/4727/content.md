@@ -15,15 +15,6 @@
 
 
 
-* [[groupoid of Lie-algebra valued forms]]
-
-* [[2-groupoid of Lie 2-algebra valued forms]]
-
-* [[3-groupoid of Lie 3-algebra valued forms]]
-
-* **$\infty$-groupoid of ∞-Lie-algebra valued forms**
-
-***
 
 #Contents#
 * table of contents
@@ -588,6 +579,16 @@ This is shown at <a href="http://ncatlab.org/nlab/show/circle+n-bundle+with+conn
 
 What is called an  "extended soft group manifold" in the literature on the [[D'Auria-Fre formulation of supergravity]] is really precisely a collection of $\infty$-Lie algebroid valued forms with values in a super $\infty$-Lie algebra such as the [[supergravity Lie 3-algebra]] (for 11-dimensional [[supergravity]]). The way [[curvature]] and [[Bianchi identity]] are read off from "extded soft group manifolds" in this literature is -- apart from this difference in terminology -- precisely what is described above. 
 
+
+## Related concepts
+
+* [[groupoid of Lie-algebra valued forms]]
+
+* [[2-groupoid of Lie 2-algebra valued forms]]
+
+* [[3-groupoid of Lie 3-algebra valued forms]]
+
+* **$\infty$-groupoid of ∞-Lie-algebra valued forms**
 
 
 
