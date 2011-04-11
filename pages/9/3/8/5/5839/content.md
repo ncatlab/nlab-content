@@ -128,3 +128,5 @@
 </svg> 
 
 category: svg
+
+[[!redirects cinquefoil - SVG]]
