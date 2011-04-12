@@ -1,5 +1,3 @@
-[[!redirects Dan Quillen]]
-
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Daniel_Quillen)
 
@@ -11,7 +9,7 @@
 
 * and much much more....
 
-
-[[!redirects Daniel Quillen]]
+[[!redirects Dan Quillen]]
+[[!redirects D. Quillen]]
 
 category: people
