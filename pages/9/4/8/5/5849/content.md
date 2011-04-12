@@ -1,0 +1,188 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+An **adjoint quadruple** is a sequence of three [[adjunction]]s
+
+$$
+  f_! \dashv f^* \dashv f_* \dashv f^!
+$$
+
+between four morphisms.
+
+## Properties
+
+Let $(p_! \dashv p^* \dashv p_*\dashv p^!) : \mathcal{E} \to \mathcal{S}$ be an  [[adjoint quadruple]] of [[adjoint functor]]s such that $p^*$ and $p^!$ are [[full and faithful functor]]s. We record some general properties of such a setup.
+
+We write 
+
+$$
+  \iota : id \to p^* p_!
+$$
+
+etc. for [[unit of an adjunction|units]] and
+
+$$
+  \eta : p_! p^* \to id
+$$
+
+etc. for counits.
+
++-- {: .num_prop #TheCanonicalMorphisms}
+###### Proposition/Definition
+
+We have [[commuting diagram]]s, [[natural transformation|natural]] in $X \in \mathcal{E}$, $S \in \mathcal{S}$
+
+$$
+  \array{
+    p_*X  &\stackrel{\eta_{p^* X}^{-1}}{\to}& p_! p^* p_*X
+    \\
+    {}^{\mathllap{p_*(i_X)}}\downarrow 
+    &\searrow^{\mathrlap{\theta_X}}& 
+    \downarrow^{\mathrlap{p_!(\eta_X)}}
+    \\
+    p_* p^* p_! X &\stackrel{\iota_{p_!X}^{-1}}{\to}& p_! X
+  }
+$$
+
+and
+
+$$
+  \array{
+    p^* S &\stackrel{\iota_{p^* S}}{\to}& p^! p_* p^* S
+    \\
+    {}^{\mathllap{p^* \epsilon_S^{-1}}}\downarrow 
+    &\searrow^{\mathrlap{\phi_X}}& \downarrow^{\mathrlap{p^!(\iota_S^{-1})}}
+    \\
+    p^* p_* p^!S  &\stackrel{{\epsilon}_{p_!S }}{\to}& p^!S
+  }
+  \,.
+$$
+
+where the diagonal morphisms
+
+$$
+  \theta_X : p_* X \to p_! X
+$$
+
+and 
+
+$$
+  \phi_S : p^* S \to p^! S
+$$
+
+are defined to be the equal composites of the sides of these diagrams.
+
+=--
+
+This appears as ([Johnstone, lemma 2.1, corollary 2.2](#Johnstone)).
+
++-- {: .un_prop #TheEpiAndTheMono}
+###### Proposition
+
+The following conditions are equivalent:
+
+
+* for all $X \in \mathcal{E}$ the morphism $\theta_X : p_*X \to p_! X$ is an [[epimorphism]];
+
+* for all $S \in \mathcal{S}$,, the morphism $\phi_S : p^*S \to p^! S$ 
+  is a [[monomorphism]];
+
+* $p_*$ is [[faithful functor|faithful]] on morphisms of the form $A \to p^* S$.
+
+=--
+
+This appears as ([Johnstone, lemma 2.3](#Johnstone)).
+
+
+
++-- {: .proof}
+###### Proof
+
+By the above definition, $\phi_S$ is a [[monomorphism]] precisely if $\iota_{p^* S} : p^* S \to p^! p_* p^* S$ is. This in turn is so (see [[monomorphism]]) precisely if the first [[function]] in
+
+$$  
+    \mathcal{E}(A,p^* X) 
+     \stackrel{(\iota_{p^* X}) \circ (-)}{\to} 
+    \mathcal{E}(A, p^! p_* p^* S)
+     \stackrel{\simeq}{\to}
+    \mathcal{S}(p_* A, p_* p^* S)
+$$
+
+and hence the composite is a monomorphism in [[Set]].
+
+By definition of [[adjunct]] and using the $(p_* \dashv p^!)$-[[zig-zag identity]], this is equal to the action of $p_*$ on morphisms
+
+$$
+  (\iota_{p^* X}) \circ (-)  : 
+  (A \to p^* S) \mapsto p_*(A \to p^* S)  
+  \,.
+$$
+
+Similarly, by the above definition the morphism $\theta_X$ is an epimorphism precisely if $p_!(\eta_X) : p_! p^* p_* X \to p_! X$ is so, which is the case precisely if the top morphism in
+
+$$
+  \array{
+    \mathcal{S}(p_! X, S) 
+      &\stackrel{(-) \circ p_!(\eta_X)}{\to} &
+    \mathcal{S}(p_! p^* p_* X, S)
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    && \mathcal{E}(p^* p_* X, p^* S)
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathcal{E}(X, p^* S) &\stackrel{p_*}{\to}& \mathcal{S}(p_* X, p_* p^* S)
+  }
+$$
+
+and hence the bottom morphism is a monomorphism in [[Set]],
+where again the commutativity of this diagram follows from the 
+definition of [[adjunct]] and the 
+$(p_! \dashv p^*)$-[[zig-zag identity]].
+
+=--
+
+## Examples
+
+
+* For $(L \dashv R): C \to D$ any pair of [[adjoint functor]]s, there is induced on the [[presheaf categories]] a dquadruple of adjoint functors
+
+  $$
+    Lan L \dashv (-)\circ L \dashv (-) \circ R \dashv Ran R
+    \,,
+  $$
+
+  where $Lan$ and $Ran$ denote left and right [[Kan extension]], respectively.
+
+* For [[cohesive topos]] by definition the terminal [[geometric morphism]] extends to an adjoint quadruple.
+
+## Related concepts
+
+* [[adjunction]], [[adjoint functor]]
+
+* [[adjoint triple]]
+
+
+## References
+
+* [[Peter Johnstone]], _Remarks on punctual local connectedness_ ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+{#Johnstone}
+
+
+[[!redirects adjoint quadruples]]
