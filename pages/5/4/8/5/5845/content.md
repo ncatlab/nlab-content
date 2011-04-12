@@ -17,24 +17,85 @@
 
 ## Definition
 
-An __adjoint triple__ of functors $F\dashv G\dashv H$, is a triple of [[functor]]s $(F,G,H)$ together with [[adjunction]] data $F\dashv G$ and $G\dashv H$. 
++-- {: .num_defn}
+###### Definition
 
-The two adjunctions imply of course that $G$ preserves all small [[limit]]s and [[colimit]]s. Then also the [[monad]] $G F$ has a [[right adjoint]] and the comonad $G H$ has a [[left adjoint]]. In general there is a duality (an anti[[equivalence of categories]]) between the category of monads having right adjoint and comonads having left adjoints.  
+An __adjoint triple__ of functors 
 
-For an adjoint triple $F\dashv G\dashv H$ it is known that $F$ is fully faithful iff
-$H$ is fully faithful. 
+$$
+  ( F\dashv G\dashv H) : C \to D 
+$$
 
-## Special cases
+is a triple of [[functor]]s $F,H : C \to D$ and $G : D \to C$ together with [[adjunction]] data $F\dashv G$ and $G\dashv H$. 
 
-* An adjoint triple $F\dashv G\dashv H$ is Frobenius if $F$ is naturally isomorphic to $H$. See [[Frobenius functor]].
+=--
 
-* An *affine morphism* is an adjoint triple of functors in which the middle term is conservative. For example, any [[affine morphism of schemes]] induce an affine triples of functors among the categories of [[quasicoherent module]]s.
+## Properties
 
-* An adjoint triple of functors among $A_\infty$ or triangulated functors with certain additional structure is called spherical. See e.g. Rina Anno, _Spherical functors_, [arxiv/0711.4409](http://arxiv.org/abs/0711.4409). The main examples come from Serre functors in Calabi-Yau context. 
++-- {: .num_note}
+###### Note
 
-## Example
+The two adjunctions imply of course that $G$ preserves all small [[limit]]s and [[colimit]]s. 
 
-Example. Given any ring homomorphism $f^\circ: R\to S$ (in commutative case dual to s an affine morphism $f: Spec S\to Spec R$ of affine schemes), there is an adjoint triple $f^*\dashv f_*\dashv f^*$ where $f^*: {}_R Mod\to {}_S Mod$ is an extension of scalars, $f_*: {}_S Mod\to {}_R Mod$ the restriction of scalars and $f^! : M\mapsto Hom_R ({}_R S, {}_R M)$ its right adjoint. This triple is affine in the above sense. 
+=--
+
++-- {: .num_note #AdjointPairFromAdjointTriple}
+###### Note
+
+
+Every adjoint triple 
+
+$$
+  (F \dashv G \dashv H) : C \to D
+$$ 
+
+gives rise to an [[adjunction|adjoint pair]] 
+
+$$
+  (G F \dashv G H) : C \to C
+$$ 
+
+consisting of a [[monad]] $G F$ [[left adjoint]] to the [[comonad]] $G H$ on $C$. 
+
+=--
+
+In general there is a duality (an anti[[equivalence of categories]]) between the category of monads having right adjoint and comonads having left adjoints.  
+
++-- {: .num_prop}
+###### Proposition
+
+For an adjoint triple $F\dashv G\dashv H$ we have that $F$ is [[full and faithful functor|fully faithful]] precisely if $H$ is fully faithful. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By a basic <a href="http://nlab.mathforge.org/nlab/show/adjoint+functor#FullyFaithfulAndInvertibleAdjoints">property</a> [[adjoint functor]] we have that 
+
+* the [[left adjoint]] $F$ being full and faithful is equivalent to the [[unit of an adjunction|unit]] $Id \to G F$ being a [[natural isomorphism]];
+
+* the [[right adjoint]] $H$ being full and faithful is equivalent to the counit $G H \to Id$ being a [[natural isomorphism]].
+
+Moreover, by note \ref{AdjointPairFromAdjointTriple} and the fact that adjoints are unique up to isomorphism, we have that $G F$ is isomorphic to the identity precisely if $G H$ is.
+
+=--
+
+
+
+## Examples
+
+### Special cases
+
+* An adjoint triple $F\dashv G\dashv H$ is **Frobenius** if $F$ is naturally isomorphic to $H$. See [[Frobenius functor]].
+
+* An *[[affine morphism]]* is an adjoint triple of functors in which the middle term is [[conservative functor|conservative]]. For example, any [[affine morphism of schemes]] induce an affine triples of functors among the categories of [[quasicoherent module]]s.
+
+* An adjoint triple of functors among $A_\infty$- or [[triangulated functor]]s with certain additional structure is called **spherical** . See e.g. ([Anno](#Anno)). The main examples come from [[Serre functor]]s in a [[Calabi-Yau category]] context. 
+
+### Specific examples
+
+* Given any [[ring]] [[homomorphism]] $f^\circ: R\to S$ (in commutative case dual to s an [[affine morphism]] $f: Spec S\to Spec R$ of [[affine schemes]]), there is an adjoint triple $f^*\dashv f_*\dashv f^*$ where $f^*: {}_R Mod\to {}_S Mod$ is an [[extension of scalars]], $f_*: {}_S Mod\to {}_R Mod$ the restriction of scalars and $f^! : M\mapsto Hom_R ({}_R S, {}_R M)$ its [[right adjoint]]. This triple is affine in the above sense. 
 
 ## Related concepts
 
@@ -42,5 +103,17 @@ Example. Given any ring homomorphism $f^\circ: R\to S$ (in commutative case dual
 
 * [[affine morphism]], [[affine localization]] 
 
+
+## References
+
+Some remarks on adjoint triples are in
+
+* [[Peter Johnstone]], _Remarks on punctual local connectedness_ ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+{#Johnstone}
+
+On spherical triples see
+
+* Rina Anno, _Spherical functors_, ([arxiv/0711.4409](http://arxiv.org/abs/0711.4409)).
+  {#Anno} 
 
 [[!redirects adjoint triples]]
