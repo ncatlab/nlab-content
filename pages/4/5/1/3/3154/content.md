@@ -9,7 +9,7 @@ Sasha Rosenberg had defended in 1973 dissertation at Moscow State University stu
 
 * video of msri lecture _Noncommutative schemes and spaces_ (Feb 2000) can be found at [msri](http://www.msri.org/publications/ln/msri/2000/interact/rosenberg/1/index.html)
 
-* A. L. Rosenberg, _Topics in noncommutative algebraic geometry, homological algebra and K-theory_, preprint MPIM Bonn 2008-57 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3589)
+* A. L. Rosenberg, _Topics in noncommutative algebraic geometry, homological algebra and K-theory_, preprint MPIM Bonn 2008-57 [pdf](http://www.mpim-bonn.mpg.de/preblob/3589)
 
 * A. L. Rosenberg, _Almost quotient categories, sheaves and localizations_, 181 p. Seminar on supermanifolds __25__, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
 
@@ -25,7 +25,7 @@ Sasha Rosenberg had defended in 1973 dissertation at Moscow State University stu
 
 * A. L. Rosenberg, _The existence of fiber functors_, The Gelfand Mathematical Seminars, 1996--1999,  145--154, Gelfand Math. Sem., Birkh&#228;user Boston, Boston, MA, 2000.
 
-* A. L. Rosenberg, _The spectrum of abelian categories and reconstructions of schemes_, in Rings, Hopf Algebras, and Brauer groups, Lectures Notes in Pure and Appl. Math. __197__, Marcel Dekker, New York, 257--274, 1998; MR99d:18011; and Max Planck Bonn preprint _Reconstruction of Schemes_, [MPIM1996-108](http://www.mpim-bonn.mpg.de/preprints/send?bid=3948) (1996). 
+* A. L. Rosenberg, _The spectrum of abelian categories and reconstructions of schemes_, in Rings, Hopf Algebras, and Brauer groups, Lectures Notes in Pure and Appl. Math. __197__, Marcel Dekker, New York, 257--274, 1998; MR99d:18011; and Max Planck Bonn preprint _Reconstruction of Schemes_, [MPIM1996-108](http://www.mpim-bonn.mpg.de/preblob/3948) (1996). 
 
 * A. L. Rosenberg, _Spectra of noncommutative spaces_, MPIM2003-110 [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=1946) [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=1945) (2003)
 
@@ -42,7 +42,7 @@ MPIM1999-82, [dvi](http://www.mpim-bonn.mpg.de/preblob/947), [ps](http://www.mpi
 
 * M. Kontsevich, A. Rosenberg, _Noncommutative smooth spaces_,  The Gelfand Mathematical Seminars, 1996--1999,  85--108, Gelfand Math. Sem., Birkh&#228;user Boston, Boston, MA, 2000; ([arXiv:math/9812158](http://arxiv.org/abs/math/9812158))
 
-* A. Rosenberg, [Homological algebra of noncommutative 'spaces' I](http://www.mpim-bonn.mpg.de/preprints/send?bid=3623), 199 pages, preprint Max Planck, Bonn: MPIM2008-91.
+* A. Rosenberg, [Homological algebra of noncommutative 'spaces' I](http://www.mpim-bonn.mpg.de/preblob/3623), 199 pages, preprint Max Planck, Bonn: MPIM2008-91.
 
 * A. Rosenberg, _Underlying spaces of noncommutative schemes_, 
 MPIM2003-111, [dvi](http://www.mpim-bonn.mpg.de/preblob/1947), [ps](http://www.mpim-bonn.mpg.de/preblob/1948)
