@@ -84,6 +84,7 @@ Morphisms...
 
 ## Examples
 
+
 ### (Co)Presheaves on a $Q$-category
  {#PresheafQCategory}
 
@@ -168,6 +169,7 @@ Any subcategory $B\subset C^{\bar{A}}$ containing $Im(C^R)$ determines a Q-subca
 =--
 
 ### Domain and codomain fibration 
+ {#DomainAndCodomainFibration}
 
 +-- {: .num_defn #DomainAndCodomainFibration}
 ###### Proposition
@@ -268,6 +270,61 @@ The $Q$-category of [[sieves]].
 The $Q$-subcategory of the $Q$-category of (all) sieves corresponding to the subcategory of sieves corresponding to the Grothendieck topology...
 
 (needs explanation)
+
+### Quasi-(co)-sites
+
+(...)
+
++-- {: .num_defn #QuasiCoSite}
+###### Definition
+
+Let $A$ be a [[category]] and $\mathcal{T}$ a map that assigns to every [[object]] a collection of co[[sieve]]s on that object ([[subfunctor]]s of $A(x,-)$).
+
+Write $\bar A_{\mathcal{T}}$ for the category whose objects are co[[sieve]]s on $A$, and whose morphisms are morphisms in $A$ that respect the corresponding cosieves. This yields a Q-category
+
+$$
+  \bar A_{\mathcal{T}}
+   \stackrel{\leftarrow}{\to}
+  A
+  \,.
+$$
+
+Call this a **quasi-cosite** if
+
+1. for any two cosieves in $\mathcal{T}$ also their intersection is in $\mathcal{T}$;
+
+1. for any cosive in $\mathcal{T}$ also any cosieve containing it is in $\mathcal{T}$.
+
+
+=--
+
+This is ([KontsevichRosenberg, 2.2](#KontsevichRosenberg)).
+
++-- {: .num_defn #QuasiCoSiteAssociatedToQCategory}
+###### Definition
+
+For $\mathbb{A}$ a Q-category, the **quasi-cosite associated** with $\mathbb{A}$ is the Q-category $\mathcal{T}\mathbb{A}$ defined by...
+
+=--
+
+The following is supposed to be the standard quasi-cosite for non-commutative geometry.
+
++-- {: .num_defn #NCQuasiCosite}
+###### Definition
+
+For $k$ any [[ring]], let $A := Alg_k$ be the category of [[associative algebra]]s over $k$. Let $\bar A \subset A^I$ be the [[full subcategory]] of the [domain fibration](DomainAndCodomainFibration) on the **faithfully flat** morphisms, hence those morphism $\phi : R \to T$ in $Alg_k$ such that the induced
+
+$$
+  \phi^* : R Mod \to T Mod
+$$
+
+is an [[exact functor|exact]] and [[full and faithful functor]]. This forms a Q-category.
+
+Write $\mathcal{T}Alg_k$ for the quasi-cosite associated with this Q-category by def. \ref{QuasiCoSiteAssociatedToQCategory}. This is the **standard quasi-cosite for [[noncommutative geometry]]**.
+
+=--
+
+This is ([KontsevichRosenberg, A.1.9.2](#KontsevichRosenberg)).
 
 
 ### Infinitesimal thickenings
