@@ -5,7 +5,7 @@ There are at least two Alexander Rosenbergs (and one [[Jonathan Rosenberg]]) in 
 
 * Alexander L. Rosenberg (or Sasha Rosenberg) currently a professor at [Kansas State University](http://www.math.ksu.edu).  
 
-Sasha Rosenberg had defended in 1973 dissertation at Moscow State University studying [[Tannaka duality|Tannakian reconstruction theorems]], mainly using methods of [[functional analysis]]. His main goals were in [[representation theory]]. Until leaving Soviet Union around 1987, Rosenberg worked in applied mathematics; on the side however he was developing some methods in representation theory which included functional analysis and categorical and ring/module theoretic methods, and the noncommutative localization in particular. A main construction, presented at a conference at Baikal (1981), was a new spectrum of a ring, so-called left spectrum, later generalized to a spectrum of an abelian category, used to prove (in the  quasicompact case) the Gabriel-Rosenberg reconstruction theorem for commutative schemes; more [[spectral theory|spectral]] constructions followed. This work outgrown into a wide ongoing work on foundations of [[noncommutative algebraic geometry]], including a natural definition of [[noncommutative scheme]]. His coauthors in pure mathematics works are Valery Lunts and [[Maxim Kontsevich]]. One should be warned that most of newly released articles of Rosenberg are not at the arXiv but at the Max Planck Bonn [preprint server](http://www.mpim-bonn.mpg.de/Research/MPIM+Preprint+Series). Rosenberg's available papers and online resources include:
+Sasha Rosenberg had defended in 1973 dissertation at Moscow State University studying [[Tannaka duality|Tannakian reconstruction theorems]], mainly using methods of [[functional analysis]]. His main goals were in [[representation theory]]. Until leaving Soviet Union around 1987, Rosenberg worked in applied mathematics; on the side however he was developing some methods in representation theory which included functional analysis and categorical and ring/module theoretic methods, and the noncommutative localization in particular. A main construction, presented at a conference at Baikal (1981), was a new spectrum of a ring, so-called left spectrum, later generalized to a spectrum of an abelian category, used to prove (in the  quasicompact case) the Gabriel-Rosenberg reconstruction theorem for commutative schemes; more [[spectral theory|spectral]] constructions followed. This work outgrown into a wide ongoing work on foundations of [[noncommutative algebraic geometry]], including a natural definition of [[noncommutative scheme]]. His coauthors in pure mathematics works are [[Valery Lunts]] and [[Maxim Kontsevich]]. One should be warned that most of newly released articles of Rosenberg are not at the arXiv but at the Max Planck Bonn [preprint server](http://www.mpim-bonn.mpg.de/Research/MPIM+Preprint+Series). Rosenberg's available papers and online resources include:
 
 * video of msri lecture _Noncommutative schemes and spaces_ (Feb 2000) can be found at [msri](http://www.msri.org/publications/ln/msri/2000/interact/rosenberg/1/index.html)
 
@@ -33,22 +33,22 @@ Sasha Rosenberg had defended in 1973 dissertation at Moscow State University stu
 
 * V. A. Lunts, A. L. Rosenberg, _Differential operators on noncommutative rings_, Selecta Math. (N.S.)  __3__  (1997),  no. 3, 335--359 ([doi](http://dx.doi.org/10.1007/s000290050014)); sequel: _Localization for quantum groups_, Selecta Math. (N.S.) __5__ (1999), no. 1, pp. 123--159 ([doi](http://dx.doi.org/10.1007/s000290050044)).
 
-* V. A. Lunts, A. L. Rosenberg, _Differential calculus in noncommutative algebraic geometry I. D-calculus on noncommutative rings_, MPI 1996-53 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3894), II. D-Calculus in the braided case. The localization of quantized enveloping algebras, MPI 1996-76 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3916)
+* V. A. Lunts, A. L. Rosenberg, _Differential calculus in noncommutative algebraic geometry I. D-calculus on noncommutative rings_, MPI 1996-53 [pdf](http://www.mpim-bonn.mpg.de/preblob/3894), II. D-Calculus in the braided case. The localization of quantized enveloping algebras, MPI 1996-76 [pdf](http://www.mpim-bonn.mpg.de/preblob/3916)
 
 * V. A. Lunts, A. L. Rosenberg, _Kashiwara theorem for hyperbolic algebras_,
-MPIM1999-82, [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=947), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=948)
+MPIM1999-82, [dvi](http://www.mpim-bonn.mpg.de/preblob/947), [ps](http://www.mpim-bonn.mpg.de/preblob/948)
 
-* M. Kontsevich, A. Rosenberg, _Noncommutative spaces_, preprint MPI-2004-35 ([dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303),[ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331)), _Noncommutative spaces and flat descent_, MPI-2004-36 [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2304),[ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2332), _Noncommutative stacks_, MPI-2004-37 [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305),[ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333)
+* M. Kontsevich, A. Rosenberg, _Noncommutative spaces_, preprint MPI-2004-35 ([dvi](http://www.mpim-bonn.mpg.de/preblob/2303),[ps](http://www.mpim-bonn.mpg.de/preblob/2331)), _Noncommutative spaces and flat descent_, MPI-2004-36 [dvi](http://www.mpim-bonn.mpg.de/preblob/2304),[ps](http://www.mpim-bonn.mpg.de/preblob/2332), _Noncommutative stacks_, MPI-2004-37 [dvi](http://www.mpim-bonn.mpg.de/preblob/2305),[ps](http://www.mpim-bonn.mpg.de/preblob/2333)
 
 * M. Kontsevich, A. Rosenberg, _Noncommutative smooth spaces_,  The Gelfand Mathematical Seminars, 1996--1999,  85--108, Gelfand Math. Sem., Birkh&#228;user Boston, Boston, MA, 2000; ([arXiv:math/9812158](http://arxiv.org/abs/math/9812158))
 
 * A. Rosenberg, [Homological algebra of noncommutative 'spaces' I](http://www.mpim-bonn.mpg.de/preprints/send?bid=3623), 199 pages, preprint Max Planck, Bonn: MPIM2008-91.
 
 * A. Rosenberg, _Underlying spaces of noncommutative schemes_, 
-MPIM2003-111, [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=1947), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=1948)
+MPIM2003-111, [dvi](http://www.mpim-bonn.mpg.de/preblob/1947), [ps](http://www.mpim-bonn.mpg.de/preblob/1948)
 
 * A. Rosenberg, _Noncommutative spaces and schemes_, 
-MPIM1999-84, [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=949), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=950)
+MPIM1999-84, [dvi](http://www.mpim-bonn.mpg.de/preblob/949), [ps](http://www.mpim-bonn.mpg.de/preblob/950)
 
 [[!redirects Sasha Rosenberg]]
 [[!redirects Sasha Rozenberg]]
