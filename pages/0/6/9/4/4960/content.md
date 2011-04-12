@@ -207,7 +207,12 @@ This implies that for all $X \in \mathcal{E}$ also $f_! \Omega^X \simeq *$.
 
 This appears as axiom 2 in ([Lawvere, Categories of spaces](#LawvereCatsOfSpaces)).
 
++-- {: .un_note}
+###### Note
 
+There is some overlap between the structures and conditions appearing here and those considered in the context of [[Q-categories]]. See there for more details.
+
+=--
 ## Properties 
   {#Properties}
 
@@ -1048,6 +1053,9 @@ Sufficient condition for $\mathcal{E}/X$ to be a [[local topos]] is that
 
 =--
 
+### Infinitesimal thickening and formal smoothness
+
+See the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a> at [[Q-category]].
 
 ### Counter-examples {#CounterExamples}
 
@@ -1147,6 +1155,13 @@ An analysis of the interdependency of the axioms on a cohesive topos is in
 
 * [[Peter Johnstone]], _Remarks on punctual local connectedness_ ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
 {#Johnstone}
+
+A good deal of the structure of cohesive toposes is also considered in 
+
+* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
+ {#KontsevichRosenbergSpaces}
+
+under the name _[[Q-categories]]_ .
 
 [[!redirects cohesive topos]]
 [[!redirects cohesive toposes]]
