@@ -337,7 +337,6 @@ where $\eta_x : u_* u^*(x) \to x$ is the $x$-component of the $(u^* \dashv u_*)$
 This appears as ([Kontsevich-Rosenberg, 3.1.1](#KontsevichRosenbergSpaces)).
 
 
-The object $x$ is called an **$\mathbb{A}$-monopresheaf** is this canonical morphism is just a [[monomorphism]].
 
 +-- {: .num_prop #SheafConditionByExtraRightAdjoint}
 ###### Proposition
@@ -356,7 +355,13 @@ $$
 Then an object $x \in A$ is an $\mathbb{A}$-sheaf in the sense of def. \ref{BareSheafCondition} precisely if the canonical morphism
 
 $$
-  u^*(x) \to u^!(x)
+  (u^*(x) \to u^!(x))
+  :=
+  u^*(X) 
+    \stackrel{}{\to}
+  u^! u_* u^* (x)
+    \stackrel{\simeq}{\to}
+  u^! (x)
 $$
 
 is an [[isomorphism]] in $\bar A$. It is a monopresheaf precisely if this is a [[monomorphism]].
@@ -365,19 +370,78 @@ is an [[isomorphism]] in $\bar A$. It is a monopresheaf precisely if this is a [
 
 This appears as ([Kontsevich-Rosenberg, 3.1.3](#KontsevichRosenbergSpaces)).
 
+For more details on the canonical morphism appearing here see the section <a href="http://nlab.mathforge.org/nlab/show/cohesive+topos#AdjointQuadruples">Adjoint quadruples</a> at [[cohesive topos]].
+
 +-- {: .proof}
 ###### Proof
 
 Using the $(u_* \dashv u^!)$-[[adjunction]]-[[isomorphism]] we have that the canonical morphism from def. \ref{BareSheafCondition} is isomorphic to
 
 $$
-  \bar A(y, u^* x) \to A(u_* y, x) \stackrel{\simeq}{\to}
+  \phi : \bar A(y, u^* x) \to A(u_* y, x) \stackrel{\simeq}{\to}
    \bar A(y, u^! y)
+  \,,
 $$
 
-for all $y \in \bar A$.
+for all $y \in \bar A$, where the second map sends every morphism to its [[adjunct]]. Using the definition of the first morphism from def. \ref{BareSheafCondition} and the expression of [[adjunct]]s (as discussed there) by composition with (co)-units, we find that the composite map here sends any morphism
+
+$$
+  g : y \to u^* x
+$$
+
+to the composite
+
+$$
+  \array{
+     y 
+     \\
+     \downarrow
+     \\
+     u^! u_* y &\stackrel{u^! u_* g}{\to}& u^! u_* u^* x
+     \\
+     && \downarrow
+     \\
+     && u^! x
+  }
+  \,.
+$$
+
+Using that [[unit of an adjunction|adjunction units]] are [[natural transformation]]s, we can complete this to a [[commuting diagram]]
+
+$$
+  \array{
+     y &\stackrel{g}{\to}& u^* x
+     \\
+     \downarrow && \downarrow
+     \\
+     u^! u_* y &\stackrel{u^! u_* g}{\to}& u^! u_* u^* x
+     \\
+     && \downarrow
+     \\
+     && u^! x
+  }
+  \,.
+$$
+
+This shows that $\phi$ acts on any $g$ by postcomposition with the canonical morphism $u^* x \to u^! x$. By the [[Yoneda lemma]] it follows that $\phi$ is an [[isomorphism]] for all $y$ precisely if $u^* x \to u^!$ is an isomorphism.
 
 =--
+
++-- {: .num_def #MonoAndEpiPresheaves}
+###### Definition
+
+Let $\mathbb{A} = (u^* \dashv u_* \dashv u^!): \bar A \to A$ be a  Q-category with an extra right adjoint as in prop. \ref{SheafConditionByExtraRightAdjoint}.
+
+We say
+
+* an object $x \in A$ is **$\mathbb{A}$-monopresheaf** if $u^* x \to u^! x$ is a [[monomorphism]] in $\bar A$.
+
+* an object $x \in A$ is **$\mathbb{A}$-epipresheaf** if $u^* x \to u^! x$ is an [[epimorphism]] in $\bar A$.
+
+=--
+
+This appears as [Kontsevich-Rosenberg, 3.1.2, 3.1.4](#KontsevichRosenbergSpaces).
+
 
 +-- {: .num_note #PresheafSheafCondition}
 ###### Note
@@ -410,6 +474,7 @@ This appears as ([Kontsevich-Rosenberg, 3.5](#KontsevichRosenbergSpaces)).
 
 
 ### Formal smoothness and $Alg_k^{inf}$-sheaves
+ {#FormalSmoothness}
 
 Let 
 
@@ -444,18 +509,18 @@ An object $X \in [CAlg_k, Set]$ is
 
   from prop. \ref{SheafConditionByExtraRightAdjoint} is an [[isomorphism]];
 
-* [[unramified|formally unramified]] precisely if it is a $CAlg_k^{inf}$ monopresheaf, hence precisly if $u^* F \to u^! F$ is a [[monomorphism]];
+* [[formally unramified]] precisely if it is a $CAlg_k^{inf}$ monopresheaf, def. \ref{MonoAndEpiPresheaves}, hence precisly if $u^* F \to u^! F$ is a [[monomorphism]];
 
-* [[formally smooth]] precisely if $u^* F \to u^! F$ is a [[strict epimorphism]].
+* [[formally smooth]] precisely if it is a strict epipresheaf, def. \ref{MonoAndEpiPresheaves}, hence precisely if $u^* F \to u^! F$ is a [[strict epimorphism]].
 
 =--
 
 This appears as ([Kontsevich-Rosenberg, 4.1](#KontsevichRosenbergSpaces)).
 
 
-This [[category theory|category theoretic]] reformulation of these three properties therefore admits straightforward generalization of these notions to other contexts.
+This [[category theory|category theoretic]] reformulation of these three properties therefore admits straightforward generalization of these notions to other contexts. See the section <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalPaths">Infinitesimal paths</a> at [[cohesive (∞,1)-topos]].
 
-For instance the following direct generalization is of interest in [[noncommutative geometry]].
+For instance we have the following direct generalization is of interest in [[noncommutative geometry]].
 
 
 +-- {: .num_defn #FormalNCSmoothnessByASheaves}
@@ -537,7 +602,8 @@ $$
 
 In ([Lawvere](#Lawvere)) is the suggestion that it is interesting to consider the full subcategory of $\bar A$ on which $u_* \to u_!$ is an isomorphism. This is dual to the statement of the above section on [A-Sheaves](#ASheaves) which asserts that it is interesting to consider the full subcategory of $A$ on which $u^* \to u^!$ is an isomorphism.
 
-More concretely, the axioms of <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">infinitesimal cohesion</a> are an abstraction of the situation of prop. \ref{InfinitesimalThickening}.
+More concretely, the axioms of <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">Infinitesimal cohesion</a> are an abstraction of the situation of prop. \ref{InfinitesimalThickening}. In every cohesive $(\infty,1)$-topos equipped with an _infinitesimal neighbourhood_ there is an analog of the characterization of formal smoothness from prop. \ref{FormalSmoothnessByASheaves}. See the section <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalPaths">Infinitesimal paths and de Rham spaces</a>.
+
 
 ### Sheafification versus the Gabriel localization $G_{\mathcal{F}} = H^2_{\mathcal{F}}$
 
@@ -563,7 +629,7 @@ and also used in the general definition of "noncommutative" stacks in
 
 The [[epipresheaf]] condition for the Q-category of nilpotent (infinitesimal) thickenings is in the Kontsevich-Rosenberg paper interpreted as [[formally smooth morphism|formal smoothness]] what is further studied in 
 
-* [[T. Brzeziński]], _Notes on formal smoothness_, *in*: Modules and Comodules (series _Trends in Mathematics_). T Brzezi&#324;ski, JL Gomez Pardo, I Shestakov, PF Smith (eds), Birkh&#228;user, Basel, 2008, pp. 113-124 ([doi](http://dx.doi.org/10.1007/978-3-7643-8742-6), [arXiv:0710.5527](http://arxiv.org/abs/0710.5527))
+* [[T. Brzezi?ski]], _Notes on formal smoothness_, *in*: Modules and Comodules (series _Trends in Mathematics_). T Brzezi&#324;ski, JL Gomez Pardo, I Shestakov, PF Smith (eds), Birkh&#228;user, Basel, 2008, pp. 113-124 ([doi](http://dx.doi.org/10.1007/978-3-7643-8742-6), [arXiv:0710.5527](http://arxiv.org/abs/0710.5527))
  {#Brzezinski}
 
 The condition that $u_* x \to u_! x$ is an isomorpophism , dual to the condition for $\mathbb{A}$-sheaves considered above, has been considered in 
