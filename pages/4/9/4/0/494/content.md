@@ -252,7 +252,10 @@ For more on this see
 
 
 ## Properties
+ {#Properties}
 
++-- {: .num_prop #FullyFaithfulAndInvertibleAdjoints}
+###### Proposition
 
 
 Let $L \dashv R$ be a pair of adjoint functors. We have the following
@@ -273,7 +276,7 @@ Let $L \dashv R$ be a pair of adjoint functors. We have the following
 * $L$ [[preserved limit|preserves]] all [[colimits]] that may exist in $C$, while $R$ preserves all [[limits]] in $D$.  For a partial converse, see the [[adjoint functor theorem]].
 
 
-
+=--
 
 
 ## Examples {#Examples}
