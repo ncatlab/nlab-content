@@ -50,7 +50,7 @@ An __almost quotient category__, or a __$Q$-category__ is
 * a pair of [[adjoint functor]]s
 
   $$
-    Q: A\leftrightarrow\bar{A}: I
+    \mathbb{A} : (u^* \dashv u_*) :  \bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}} A
     \,,
   $$
 
@@ -65,7 +65,9 @@ In other words, $A$ is equipped with an equivalence with a [[coreflective subcat
 +-- {: .num_note #QTerminology}
 ###### Note
 
-Such an adjoint situation appears often, however the term _$Q$-category_ is used only when the pair is used in a specific meaning useful to constructions like (generalized) sheaf theory (similarly like presheaf of objects in $D$ and contravariant functor to $D$ are synonyms, but a different word refers to a different context and intuition).
+* In motivating classes of examples $\bar A$ and $A$ are [[topos]]es and $\mathbb{A}$ is a [[geometric morphism]] between them. Therefore one generally speaks of $u_*$ as the **[[direct image]]** and of $u^*$ as the **[[inverse image]]** of the Q-category.
+
+* The definition \ref{QCategory} is nothing but the definition of a [[coreflective subcategory]]. However the term _$Q$-category_ is used when the pair is used in a specific meaning useful to constructions in (generalized) sheaf theory (similarly like presheaf of objects in $D$ and contravariant functor to $D$ are synonyms, but a different word refers to a different context and intuition).
 
 =--
 
@@ -125,7 +127,37 @@ Since the [[left adjoint]] being a [[full and faithful functor]] is equivalent t
 
 =--
 
-This appears as ([Rosenberg, 2.7](#Rosenberg)).
+This appears as ([Kontsevich-Rosenberg, 2.7](#KontsevichRosenbergSpaces)).
+
++-- {: .num_note #ExtraAdjointsForPresheafQCategories}
+###### Note
+
+Assume in the context of prop. \ref{PresheafQCategories} that
+
+* $A$ and $\bar A$ are [[small categories]];
+
+* $C$ has all small [[limit]]s and [[colimit]]s (for instance $C$ = [[Set]]).
+
+Then there is a quadruple of [[adjoint functor]]s
+
+$$
+  (u_! \dashv u^* \dashv u_* \dashv u^* \dashv u_*) : 
+  [\bar A, C]
+    \stackrel{\overset{u_! = Lan R}{\to}}{\stackrel{\overset{u^* = C^R}{\leftarrow}}{\stackrel{\overset{u_* = C^L}{\to}}{\underset{u^! = Ran L}{\leftarrow}}}}
+  [A,C]
+  \,,
+$$
+
+where $Lan R$ denotes the left [[Kan extension]] along $R$ and $Ran L$ the right Kan extension along $L$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By general properties of [[Kan extension]]s.
+
+=--
 
 +-- {: .num_defn #SubcategoryOfPresheafQCategories}
 ###### Proposition
@@ -134,7 +166,66 @@ Any subcategory $B\subset C^{\bar{A}}$ containing $Im(C^R)$ determines a Q-subca
 
 =--
 
-### Almost quotient category of cones
+### Domain and codomain fibration 
+
++-- {: .num_defn #DomainAndCodomainFibration}
+###### Proposition
+
+For $A$ any [[category]], write $\bar A := A^I$ for its [[arrow category]].
+This comes equipped with the [[codomain fibration]] $cod : \bar A \to A$ and the [[domain cofibration]] $dom : \bar A \to A$. Both have a joint [[section]] $\epsilon : A \to \bar A$ by a [[full and faithful functor]] that assigns identity morphisms. These form a triple of [[adjoint functor]]s
+
+$$
+  (codom \dashv \epsilon \dashv dom) :
+  A^I
+    \stackrel{\overset{codom}{\to}}{\stackrel{\overset{\epsilon}{\leftarrow}}{\underset{dom}{\to}}}
+  A
+  \,.
+$$
+
+
+Taking this apart, we have that
+
+$$
+  A^{dom} : A^I \stackrel{\overset{\epsilon}{\leftarrow}}{\underset{dom}{\to}}
+  A
+$$
+
+is a $Q$-category and 
+
+$$
+  A^{dom} : A^I
+    \stackrel{\overset{cod}{\to}}{\underset{\epsilon}{\leftarrow}}
+  A
+$$
+
+is a $Q^o$-category.
+
+=--
+
+This appears as ([Kontsevich-Rosenberg, 2.5](#KontsevichRosenbergSpaces)).
+
+Several classes of examples of Q-categories of interest arise as sub-Q-categories of those of this form. For instance the Q-categories of infinitesimal thickenings [below](#InfinitesimalThickening).
+
++-- {: .num_note #PresheavesOnCodomainFibration}
+###### Note
+
+Passing to copresheaf Q-categories as in prop. \ref{PresheafQCategories}
+we have the Q-category
+
+$$
+  [A^I,Set]
+   \stackrel{\overset{u^* = (-)\circ dom}{\leftarrow}}{\stackrel{\overset{u_* = (-)\circ \epsilon}{\to}}{\overset{u^! = (-)\circ codom}{\leftarrow}}}
+  [A,Set]
+$$
+
+where the extra [[right adjoint]] is given by precomposition with the domain evaluation.
+
+
+
+=--
+
+
+### Q-category of cones
 
 Let $C$ be a category and $LC$ be the category whose objects are [[cones]] $\alpha: x\to d$ over (small) diagrams $d: D\to C$ where $D$ are variable small categories; and the morphisms from $x\stackrel{\alpha}\to d$ to $x'\stackrel{\alpha'}\to d'$ are triples of the form $(f,\rho,\bar{f})$ where $f:x\to x'$ is a morphism in $C$, $\rho : D\to D'$ is a diagram (= functor), and $\bar{f}:d\circ\rho\to d'$ is a morphism of diagrams (= natural transformation) such that 
 $$\array{
@@ -177,21 +268,60 @@ The $Q$-subcategory of the $Q$-category of (all) sieves corresponding to the sub
 
 (needs explanation)
 
-## $\mathbb{A}$-Sheaves
 
-We discuss the notion of a _$\mathbb{A}$-sheaves_ on a Q-category $\mathbb{A}$ and various equivalent reformulations.
+### Infinitesimal thickenings
+ {#InfinitesimalThickening}
+
+Generally, [[infinitesimal object|infintiesimal thickenings]] are characterized by [[coreflective subcategory|coreflective embeddings]]:
+
+A characteristic property of an [[infinitesimally thickened point]] $D$ is that for $X$ any object without infinitesimal thickening, there are in general nontrivial morphisms $D \to X$, but there is only a unique morphism $X \to D$, reflecting the fact that $D$ has only a single global point. Thus if by $i : C \to \bar C$ we denote the inclusion of objects $X$ without infinitesimal thickening into the collection of possibly infinitesimally thickened objects, and by $p : \bar C \to C$ the projection that contracts away the infinitesimal extension, we have indeed an [[adjunction]]
+
+$$
+  \bar C(i(X), D) \simeq C(X, p(D)) \simeq C(X,*) \simeq *
+  \,.
+$$
+
+This general concept is described at <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalNeighBourhoodSite">infinitesimal neighbourhood site</a>. See also the discussion below at [Relation to cohesive toposes](#RelationToCohesiveToposes).
+
+The following is one realization of this general concept. 
+
++-- {: .num_prop #InfinitesimalThickening}
+###### Proposition
+
+Let $k$ be a [[field]] and $A := CAlg_k$ be the category of commutative [[associative algebra]]s over $k$. 
+
+Let $\bar A \subset A^I$ be the [[full subcategory]] of the [[codomain fibration]] Q-category from prop. \ref{DomainAndCodomainFibration} on those morphisms of commutative algebras which are [[epimorphism]]s and whose [[kernel]] is nilpotent. Then
+
+$$
+  CAlg_k^{inf} : \bar A \stackrel{\overset{\epsilon}{\leftarrow}}{\underset{dom}{\to}} A
+$$
+
+is a Q-category.
+
+The analogous statement is true with $A = Alg_k$ the category of all [[associative algebra]]s, not necessarily commutative.
+
+=--
+
+This appears as [Kontsevich-Rosenberg, 2.6](#KontsevichRosenbergSpaces).
+
+
+
+## $\mathbb{A}$-Sheaves
+  {#ASheaves}
+
+We discuss the notion of a _$\mathbb{A}$-sheaves_ on a Q-category $\mathbb{A}$.
 
 
 +-- {: .num_defn #BareSheafCondition}
 ###### Definition
 
-Let $\mathbb{A} = (\bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}}A)$ be a [Q-category](#QCategory). An object $x \in A$ is called an **$\mathbb{A}$-sheaf** if the canonical morphism
+Let $\mathbb{A} = (\bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}}A)$ be a [Q-category](#QCategory). An object $x \in A$ is called an **$\mathbb{A}$-sheaf** if for all $y \in \bar A$ the canonical morphism
 
 $$
   \bar A(y, u^*(x)) \to A(u_*(y), x)
 $$
 
-is an [[isomorphism]].
+is an [[isomorphism]] (in [[Set]], hence a [[bijection]]).
 
 This morphism is given by
 
@@ -204,7 +334,7 @@ where $\eta_x : u_* u^*(x) \to x$ is the $x$-component of the $(u^* \dashv u_*)$
 
 =--
 
-This appears as ([Rosenberg, 3.1.1](#Rosenberg)).
+This appears as ([Kontsevich-Rosenberg, 3.1.1](#KontsevichRosenbergSpaces)).
 
 
 The object $x$ is called an **$\mathbb{A}$-monopresheaf** is this canonical morphism is just a [[monomorphism]].
@@ -233,7 +363,7 @@ is an [[isomorphism]] in $\bar A$. It is a monopresheaf precisely if this is a [
 
 =--
 
-This appears as ([Rosenberg, 3.1.3](#Rosenberg)).
+This appears as ([Kontsevich-Rosenberg, 3.1.3](#KontsevichRosenbergSpaces)).
 
 +-- {: .proof}
 ###### Proof
@@ -273,10 +403,143 @@ is an [[isomorphism]].
 
 =--
 
-This appears as ([Rosenberg, 3.5](#Rosenberg)).
+This appears as ([Kontsevich-Rosenberg, 3.5](#KontsevichRosenbergSpaces)).
 
 
-## Sheafification versus the Gabriel localization $G_{\mathcal{F}} = H^2_{\mathcal{F}}$
+## Examples
+
+
+### Formal smoothness and $Alg_k^{inf}$-sheaves
+
+Let 
+
+$$
+  CAlg_k^{inf} : \bar A \stackrel{\overset{i}{\leftarrow}}{\underset{p}{\to}}
+   CAlg_k
+$$
+
+be the Q-category of infinitesimal thickenings from prop. \ref{InfinitesimalThickening}. Write
+
+$$
+  [CAlg_k^{inf},Set] : [\bar A,Set] 
+    \stackrel{\overset{u^*}{\leftarrow}}{\stackrel{\overset{u_*}{\to}}{\underset{u^!}{\leftarrow}}}  
+  [CAlg_k,Set]  
+$$
+
+be the corresponding Q-category of copresheaves from prop. \ref{PresheafQCategories}. Notice that $[CAlg_k, Set]$ is the [[presheaf topos]] that contains [[scheme]]s over $k$. Recall the notion of 
+[[formally smooth scheme]], [[formally étale morphism]] and
+[[formally unramified morphism]] of schemes.
+
+
++-- {: .num_prop #FormalSmoothnessByASheaves}
+###### Proposition
+
+An object $X \in [CAlg_k, Set]$ is
+
+* [[formally étale morphism|formally étale]] precisely if it is an $CAlg_k^{inf}$-sheaf in the sense of def. \ref{BareSheafCondition}, hence precisely if the canonical morphism
+
+  $$
+    u^* F \to u^! F
+  $$
+
+  from prop. \ref{SheafConditionByExtraRightAdjoint} is an [[isomorphism]];
+
+* [[unramified|formally unramified]] precisely if it is a $CAlg_k^{inf}$ monopresheaf, hence precisly if $u^* F \to u^! F$ is a [[monomorphism]];
+
+* [[formally smooth]] precisely if $u^* F \to u^! F$ is a [[strict epimorphism]].
+
+=--
+
+This appears as ([Kontsevich-Rosenberg, 4.1](#KontsevichRosenbergSpaces)).
+
+
+This [[category theory|category theoretic]] reformulation of these three properties therefore admits straightforward generalization of these notions to other contexts.
+
+For instance the following direct generalization is of interest in [[noncommutative geometry]].
+
+
++-- {: .num_defn #FormalNCSmoothnessByASheaves}
+###### Definition
+
+Let $Alg_k$ be the full category of [[associative algebra]]s over $k$, not necessarily commutative. Write $Alk_k^{inf} : \bar A \to Alg_k$ for the Q-category of infinitesimal thickenings as in def. \ref{InfinitesimalThickening}. Notice that $[Alg_k, Set]$ is the [[presheaf topos]] that contains [[noncommutative scheme]]s.
+
+
+We then say an object $X \in [Alg_k, Set]$ is
+
+* [[formally étale morphism|formally étale]] precisely if it is an $Alg_k^{inf}$-sheaf in the sense of def. \ref{BareSheafCondition}, hence precisely if the canonical morphism
+
+  $$
+    u^* F \to u^! F
+  $$
+
+  from prop. \ref{SheafConditionByExtraRightAdjoint} is an [[isomorphism]];
+
+* [[unramified|formally unramified]] precisely if it is a $Alg_k^{inf}$ monopresheaf, hence precisly if $u^* F \to u^! F$ is a [[monomorphism]];
+
+* [[formally smooth]] precisely if $u^* F \to u^! F$ is a [[strict epimorphism]].
+
+=--
+
+This appears as ([Kontsevich-Rosenberg, section 4.2](#KontsevichRosenbergSpaces)).
+
++-- {: .num_prop #CharacterizationOfFormalNCSmoothness}
+###### Proposition
+
+Let $R \in Alg_k$ and write $Spec R \in [Alg_k, Set]$ for the corresponding [[representable functor]]. We have that
+
+1. $Spec R$ is an $Alg_k^{inf}$ epipresheaf (formally smooth) precisely if $R$ is Quillen-Cuntz quasi-free: the $R \otimes_k R^{op}$-[[module]] $\Omega^1_{R|k}$, being the [[kernel]] of the multiplication morphism
+
+   $$
+     \Omega^1_{R|k} := ker(R \otimes_k R \stackrel{mult}{\to} R)
+     \,,
+   $$
+
+   is a [[projective object|projective]] in $R \otimes R^{op}$[[Mod]];
+
+1. $Spec R$ is an $Alg_k^{inf}$-monopresheaf (formally unramified) precisely if $\Omega^1_{R|k} = 0$.
+
+=--
+
+This appears as ([Kontsevich-Rosenberg, prop. 4.3](#KontsevichRosenbergSpaces)).
+
+
+## Relation to other concepts
+
+
+### Relation to cohesive toposes
+  {#RelationToCohesiveToposes}
+
+If a Q-category $\mathbb{A}$ has the extra [[right adjoint]] of prop. \ref{SheafConditionByExtraRightAdjoint} and in addition an extra left adjoint to a total of a quadruple of [[adjoint functor]]s
+
+$$
+  \mathbb{A} : 
+   \bar A
+     \stackrel{\overset{u_!}{\to}}{\stackrel{\overset{u^*}{\leftarrow}}{\stackrel{\overset{u_*}{\rightarrow}}{\underset{u^!}{\leftarrow}}}}
+   A
+$$
+
+then essential axioms characterizing a [[cohesive topos]] are satisfied, in particular if for instance $\bar A$ and $A$ are [[presheaf topos]]es as in \ref{PresheafQCategories} (this is considered around [Kontsevich-Rosenberg, 3.5.1](#KontsevichRosenbergSpaces)).
+
+Notably in this case the canonical [[natural transformation]]
+
+$$
+  u^* \to u^!
+$$
+
+from prop. \ref{SheafConditionByExtraRightAdjoint} is the one appears in the axioms of a [[cohesive topos]]: if this transformation is a [[monomorphism]] in a cohesive topos -- hence if in the language of Q-categories all objects are monopresheaves -- one says that _discrete objects are concrete_ in the cohesive topos.
+
+Moreover, due to the extra left adjoint $u_!$ there is a canonical dual morphism
+
+$$
+  u_* \to u_!
+  \,.
+$$ 
+
+In ([Lawvere](#Lawvere)) is the suggestion that it is interesting to consider the full subcategory of $\bar A$ on which $u_* \to u_!$ is an isomorphism. This is dual to the statement of the above section on [A-Sheaves](#ASheaves) which asserts that it is interesting to consider the full subcategory of $A$ on which $u^* \to u^!$ is an isomorphism.
+
+More concretely, the axioms of <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">infinitesimal cohesion</a> are an abstraction of the situation of prop. \ref{InfinitesimalThickening}.
+
+### Sheafification versus the Gabriel localization $G_{\mathcal{F}} = H^2_{\mathcal{F}}$
 
 (...)
 
@@ -302,5 +565,11 @@ The [[epipresheaf]] condition for the Q-category of nilpotent (infinitesimal) th
 
 * [[T. Brzeziński]], _Notes on formal smoothness_, *in*: Modules and Comodules (series _Trends in Mathematics_). T Brzezi&#324;ski, JL Gomez Pardo, I Shestakov, PF Smith (eds), Birkh&#228;user, Basel, 2008, pp. 113-124 ([doi](http://dx.doi.org/10.1007/978-3-7643-8742-6), [arXiv:0710.5527](http://arxiv.org/abs/0710.5527))
  {#Brzezinski}
+
+The condition that $u_* x \to u_! x$ is an isomorpophism , dual to the condition for $\mathbb{A}$-sheaves considered above, has been considered in 
+
+* [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+{#Lawvere}
+
 
 [[!redirects Q-categories]]
