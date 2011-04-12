@@ -255,7 +255,8 @@ For $F : C \to D$ a $\mathcal{V}$-[[enriched functor]] between [[small category|
 
    for all $c \in C$.
 
-1. if $F$ is a [[full and faithful functor]] then $Lan_F \circ F^* \simeq id$.
+1. if $F$ is a [[full and faithful functor]] then 
+   $F^* (Lan_F H) \simeq H$.
 
 =-- 
 
