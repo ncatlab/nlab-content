@@ -37,7 +37,7 @@ For the same reason, in [[constructive mathematics]] (such as the [[internal log
 
 * If, alternatively, we interpret 'nonzero' in this clause as a reference to an [[apartness relation]] and assume that the ring operations are strongly extensional, then we obtain the notion of **Heyting field**. (Although this seems to have extra structure, the apartness relation is definable from the algebra: $x # y$ iff $x - y$ is invertible.) This is how 'practising' constructive analysts of the Bishop school usually define the simple word 'field.'  An advantage is that the real numbers (in the located Dedekind sense) form a Heyting field, although (for example) the MacNeille real numbers (a less located version of the Dedekind reals) need not form a Heyting field; another disadvantage is that this is not a coherent axiom and so cannot be [[internalization|internalized]] in as many categories.
 
-* If, finally, we replace this clause by "an element is noninvertible iff it is zero" (which is classically equivalent but constructively incomparable), we obtain the notion of **residue field**. An advantage is that even more versions of the real numbers (including the MacNeille real numbers) form a residue field; disadvantages are that this axiom is not coherent either and that a residue field lacks an apartness relation (in particular, the MacNeille reals have no apartness).
+* If, finally, we replace this clause by "an element is noninvertible iff it is zero" (which is classically equivalent but constructively incomparable), we obtain the notion of **residue field** (please distinguish from the [[residue field]] in algebraic geometry). An advantage is that even more versions of the real numbers (including the MacNeille real numbers) form a residue field; disadvantages are that this axiom is not coherent either and that a residue field lacks an apartness relation (in particular, the MacNeille reals have no apartness).
 
 Every discrete field is also a Heyting field, and every Heyting field is also a residue field. A Heyting or residue field is a discrete field if and only if [[decidable equality|equality is decidable]]; it is in this sense that a discrete field is 'discrete'.
 
@@ -84,8 +84,6 @@ _[[Gonçalo Marques]]_:  The [[sketch]] for fields is described on page 248 of "
 
 [[!redirects discrete field]]
 [[!redirects discrete fields]]
-[[!redirects residue field]]
-[[!redirects residue fields]]
 [[!redirects Heyting field]]
 [[!redirects Heyting fields]]
 [[!redirects heyting field]]
