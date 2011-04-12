@@ -3708,6 +3708,8 @@ $$
 
 is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
+We say $X$ is [[formally etale]] if this morphism is an [[equivalence in an (∞,1)-category]].
+
 =--
 
 In this form this is the evident $(\infty,1)$-categorical analog of the conditions as they appear for instance in [SimpsonTeleman, page 7](#SimpsonTeleman).
