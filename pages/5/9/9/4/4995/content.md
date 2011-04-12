@@ -3222,7 +3222,8 @@ $(n-dim\Sigma)$ defined on it.
 See [[schreiber:∞-Chern-Simons theory]] for more discussion.
 
 
-##  Infinitesimal cohesion {#InfinitesimalCohesion}
+##  Infinitesimal cohesion   
+  {#InfinitesimalCohesion}
 
 We discuss [[extra structure]] on a cohesive $(\infty,1)$-topos
 that encodes a refinement of the corresponding notion of cohesion to 
@@ -3233,7 +3234,7 @@ as infinitesimal cohesive neighbourhoods of objects in
 $\mathbf{H}$.
 
 
-+-- {: .un_def #InfinitesimalCohesiveInfTopos}
++-- {: .un_defn #InfinitesimalCohesiveInfTopos}
 ###### Definition
 
 Given a cohesive $(\infty,1)$-topos $\mathbf{H}$ we say that 
@@ -3695,6 +3696,58 @@ For $X\in \mathbf{H}_{th}$ we say that
   we call the **inclusion of the reduced part** of $X$.
 
 =-- 
+
++-- {: .num_defn #FormalSmoothness}
+###### Definition
+
+We say an object $X \in \mathbf{H}_{th}$ is **formally smooth** if the constant infinitesimal path inclusion
+
+$$
+  X \to \mathbf{\Pi}(X)
+$$
+
+is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
+
+=--
+
+In this form this is the evident $(\infty,1)$-categorical analog of the conditions as they appear for instance in [SimpsonTeleman, page 7](#SimpsonTeleman).
+
++-- {: .un_note #FormalSmoothnessByCanonicalMorphism}
+###### Note
+
+An object $X \in \mathbf{H}$ is formally smooth according to def. \ref{FormalSmoothness} precisely if the canonical morphism
+
+$$
+  i_! X \to i_* X
+$$
+
+is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The canonical morphism is the composite
+
+$$
+  (i_! \to i_*)
+  :=
+  i_!
+   \stackrel{\eta i_!}{\to}
+  \mathbf{\Pi}_{inf} i_! := i_* i^* i_!
+   \stackrel{\simeq}{\to}
+  i_*  
+  \,.
+$$
+
+By the condition that $i_!$ is a [[full and faithful (∞,1)-functor]] the second morphism here in an [[equivalence in an (∞,1)-category|equivalence]] and hence the component of the composite on $X$ being an effective epimorphism is equivalent to the component $i_! X \to \mathbf{\Pi} i_! X$ being an effective epimorphism.
+
+=--
+
+In this form this characterization of formal smoothness is the evident generalization of the condition given in [Kontsevich-Rosenberg, section 4.1](#KontsevichRosenbergSpaces). See the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a> at [[Q-category]].
+
+
 
 +-- {: .un_prop #RedIsIdempotent}
 ###### Observation
