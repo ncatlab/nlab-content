@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 This entry is about &#233;tale morphisms between [[scheme]]s. The word [[etale map|étale map]] is preferred in the context of [[topology]] and [[differential geometry]], see [[étalé space]] for the topological version. 
 
 #Contents#
@@ -37,16 +49,16 @@ Jointly surjective collection of &#233;tale morphisms $\{U_i \to X\}$ is called 
 
 =--
 
-There is a weaker notion of a formally &#233;tale morphism. 
+There is a weaker notion of a [[formally étale morphism]]. 
 
 +-- {: .un_defn}
 ###### Definition
 
-A morphism is **formally &#233;tale** if it is 
+A morphism is **[[formally étale morphism]]** if it is 
 
 * [[formally smooth]] (satisfying an infinitesimal lifting property) 
 
-* and formally unramified. 
+* and [[formally unramified]]. 
 
 =--
 
@@ -157,7 +169,3 @@ Lecture notes are
 [[!redirects étale morphism]]
 [[!redirects etale morphism of schemes]]
 [[!redirects étale morphism of schemes]]
-[[!redirects formally etale morphism]]
-[[!redirects formally étale morphism]]
-
-[[!redirects formally etale]]
