@@ -11,19 +11,22 @@
 
     * [[amazing right adjoint]]
 
-    * [[infinitesimal interval object]]
-
   * [[Kock-Lawvere axiom]]
 
   * [[integration axiom]]
 
   * [[microlinear space]]
 
-
 * [[synthetic differential supergeometry]]
 
   * [[super smooth topos]]
 
+* . <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">infinitesimal cohesion</a>
+
+  * [[de Rham space]] 
+
+  * [[formally smooth morphism]], [[formally unramified morphism]], 
+    [[formally étale morphism]]
 
 ## Models ##
 
