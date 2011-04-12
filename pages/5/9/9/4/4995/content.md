@@ -3708,7 +3708,6 @@ $$
 
 is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
-We say $X$ is [[formally etale]] if this morphism is an [[equivalence in an (∞,1)-category]].
 
 =--
 
@@ -3747,8 +3746,28 @@ By the condition that $i_!$ is a [[full and faithful (∞,1)-functor]] the secon
 
 =--
 
-In this form this characterization of formal smoothness is the evident generalization of the condition given in [Kontsevich-Rosenberg, section 4.1](#KontsevichRosenbergSpaces). See the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a> at [[Q-category]].
 
+
+In this form this characterization of formal smoothness is the evident generalization of the condition given in [Kontsevich-Rosenberg, section 4.1](#KontsevichRosenbergSpaces). See the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a> at [[Q-category]]. Notice that the notation there is related to the one used here by $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$.
+
+Therefore we have the following more general definition.
+
++-- {: .un_defn #FormalRelativeSmoothnessByCanonicalMorphism}
+###### Definition
+
+For $f : X \to Y$ a morphism in $\mathbf{H}$, we say that $f$ is a [[formally smooth morphism]] if
+
+$$
+  i_! X 
+   \to 
+  i^! Y \prod_{i_* Y} i_* Y
+$$
+
+is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
+
+Similarly we say that $f$ is a [[formally étale morphism]] if this morphism is an [[equivalence in an (∞,1)-category|equivalence]].
+
+=--
 
 
 +-- {: .un_prop #RedIsIdempotent}
@@ -4104,7 +4123,6 @@ Examples of [[∞-cohesive site]]s are
 
 * [[synthetic differential ∞-groupoid]]
 
-* [[super smooth ∞-groupoid]]
 
 ### Super $\infty$-groupoids
 
