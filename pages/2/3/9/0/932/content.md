@@ -51,7 +51,7 @@ The historical article of <a href="http://en.wikipedia.org/wiki/Ludwig_Maurer">L
 * L. Maurer, &#220;ber allgemeinere Invarianten-Systeme,
 M&#252;nch. Ber. 18 (1888), 103-150.
 
-
+A MathOverflow entry about Maurer-Cartan forms for Lie groups: [maurer-cartan-form](http://mathoverflow.net/questions/34418/maurer-cartan-form)
 [[!redirects Maurer-Cartan equation]]
 [[!redirects Maurer-Cartan elements]]
 [[!redirects Maurer-Cartan element]]
