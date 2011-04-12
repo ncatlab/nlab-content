@@ -3256,6 +3256,8 @@ where $i_!$ is
 
 =--
 
+This definition is an abstraction of similar situations considered in ([SimpsonTeleman](#SimpsonTeleman)) and in [Kontsevich-Rosenberg](#KontsevichRosenbergSpaces). See also the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#InfinitesimalThickening">Infinitesimal thickenings</a> at [[Q-category]].
+
 +-- {: .un_prop #InfinitesimalInclusionIfFullAndFaithful}
 ###### Observation
 
@@ -4099,6 +4101,13 @@ The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \das
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 {#SimpsonTeleman}
+
+The characterization of infinitesimal extensions and formal smoothness by adjoint functors is considered in 
+
+* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
+ {#KontsevichRosenbergSpaces}
+
+in the context of _[[Q-categories]]_ .
 
 Some of the material discussed here is in section 2 of
 
