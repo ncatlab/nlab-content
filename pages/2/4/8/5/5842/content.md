@@ -1,16 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea 
 
-Unramified morphism of algebraic [[scheme]]s is a geometric generalization of a notion of an unramified field extension. The notion of ramification there, in turn is motivated by the branching phenomena in number fields, which in the Riemann surface picture involve branchings similar to the branching involved in Riemann surfaces over complex numbers. 
+Unramified morphism of algebraic [[scheme]]s is a geometric generalization of a notion of an unramified [[field extension]]. The notion of ramification there, in turn is motivated by the branching phenomena in number fields, which in the [[Riemann surface]] picture involve branchings similar to the branching involved in Riemann surfaces over complex numbers. 
 
 A weaker (infinitesimal) version is the notion of formally unramified morphism. 
 
-#### Historical remarks
+### Historical remarks
 
 The basic picture is one from the Riemann surfaces: the power $z\mapsto z^n$ has a branching point around $z=0$. Dedekind and Weber in 19th century considered more generally algebraic curves over more general fields, and proposed a generalization of a Riemann surface picture by considering valuations and in this analysis the phenomenon of branching occured again. 
 
 ## Definition
 
-A morphism $f:X\to Y$ of schemes is __unramified__ if it is locally of finite presentation, and if for every point $y\in Y$ the induced morphism 
+A [[morphism]] $f:X\to Y$ of [[scheme]]s is __unramified__ if it is locally of finite presentation, and if for every point $y\in Y$ the induced morphism 
 $$
 \mathcal{O}_{X,f(y)}/\mathfrak{m}_{f(y)}\to\mathcal{O}_{Y,y}/\mathfrak{m}_y
 $$
@@ -47,3 +52,6 @@ Characterization: a morphism is formally unramified iff the module $\Omega_{Y/X}
 
 [[!redirects unramified morphisms]] 
 [[!redirects formally unramified morphism]]
+[[!redirects formally unramified morphisms]]
+
+[[!redirects formally unramified]]
