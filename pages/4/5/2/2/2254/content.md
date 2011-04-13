@@ -70,6 +70,8 @@ Formal geometry is closely related also to the *rigid* [[analytic geometry]].
 * [[Benoit Fresse]], _Lie theory of formal groups over an operad_, J. Alg. __202__, 455--511, 1998, [doi](http://dx.doi.org/10.1006/jabr.1997.7280) 
  {#Fresse}
 
+* Shigkaki T&#244;g&#244;, _Note of formal Lie groups_ , American Journal of Mathematics, Vol. 81, No. 3, Jul., 1959 ([JSTOR](http://www.jstor.org/stable/2372919))
+
 [[!redirects formal groups]]
 [[!redirects formal group scheme]]
 [[!redirects formal group schemes]]
