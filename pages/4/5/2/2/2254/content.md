@@ -55,6 +55,8 @@ For a generalization over [[operads]] see ([Fresse](#Fresse)).
 
 * [[Lie algebra]], [[Lie group]]
 
+* [[formal groupoid]]
+
 Formal geometry is closely related also to the *rigid* [[analytic geometry]].
 
 
@@ -62,7 +64,7 @@ Formal geometry is closely related also to the *rigid* [[analytic geometry]].
 
 ## References
 
-* Grothendieck et al. SGA III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
+* [[Alexander Grothendieck]] et al. SGA III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
  {#Grothendieck}
 
 * [[Benoit Fresse]], _Lie theory of formal groups over an operad_, J. Alg. __202__, 455--511, 1998, [doi](http://dx.doi.org/10.1006/jabr.1997.7280) 
