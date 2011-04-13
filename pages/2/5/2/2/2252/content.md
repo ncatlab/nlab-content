@@ -1,15 +1,30 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A _formal scheme_ is a [[ringed space]] which is (typically) not an algebraic [[scheme]]. It is instead an enlarged version of a scheme including an infinitesimal neighborhood, which is expressed in terms of structure sheaves which are closer to sheaves of completions like formal power series rings rather than the polynomial rings.
 
-#Motivation#
+## Motivation
 
 Formal [[power series]] [[ring]]s $k[\![x_1,\ldots,x_n]\!]$ are limits of their truncations (e.g. in one variable $k[\![x]\!]/(x^n)$); they can be viewed as completions and they get equipped with a natural filtration and [[adic topology]].
 
 They do not converge as a series (and make sense) in an open set or in any of the standard topologies (e.g. Zariski and complex topology over $\mathbb{Z}$), but they are rather "localized" in an *[[infinitesimal neighborhood|infinitesimal neighborhood]]* of the origin. One would like to be able to talk about functions supported only infinitesimally (in the transverse direction) to a [[closed subscheme]]. The formal schemes of [[Grothendieck]] are [[ringed spaces]] containing the information on all infinitesimal neighborhoods. Zariski's theorem on formal functions and establishing the theory of [[formal group]]s were some of the concrete motivations.
 
 
-#Noetherian formal schemes#
+## Noetherian formal schemes
 
 Given any [[ring]] $R$ and an [[ideal]] $I$ of $R$, there is a natural homomorphisms of rings $R/I^{n+1}\to R/I^n$ for all $n\geq 0$. The [[inverse limit]] $\hat{R}:=lim_n R/I^n$ is called the **completion of $R$ at the ideal $I$** or the **$I$-adic completion** of $R$. If $R$ is [[noetherian ring|noetherian]], the completion is noetherian as well. 
 
@@ -25,7 +40,7 @@ $colim_n Spec (R/I^n)$.
 A (locally) noetherian formal scheme is a formal completion of a (locally) noetherian scheme along a closed subscheme. Equivalently, a locally noetherian scheme is a locally ringed space which is locally isomorphic to the formal spectrum of a complete separated adic noetherian ring.
 
 
-#Other approaches# 
+## Other approaches
 
 The formal spectrum can be extended to a somewhat bigger class of topological rings than the noetherian ones; Grothendieck developed the theory in the generality of [[pseudocompact space|pseudocompact]] topological rings. However, some important rings, e.g. the ring of integers $\mathbb{Z}$, do not have a pseudocompact topology. Thus one could try to consider a more general subcategory of ind-schemes (with at least the requirement that the [[ind-object]] be represented by a diagram where the connecting morphisms are [[closed subscheme|closed immersions of schemes]]); one such approach is outlined in some detail in 
 
@@ -55,7 +70,7 @@ A topologists viewpoint:
 
 * Neil P. Strickland, _Formal schemes and formal groups_, [math.AT/0011121](http://arxiv.org/abs/math.AT/0011121)
 
-#Basic literature#
+## Basic literature
 
 * A. Grothendieck, _G&#233;om&#233;trie formelle et g&#233;om&#233;trie alg&#233;brique_, FGA 2 (S&#233;minaire Bourbaki, t. 11, 1958/59, no. 182)
 
