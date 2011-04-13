@@ -657,8 +657,19 @@ are equals. If $U$ is the point, then $\phi$ is necessarily constant. If $U$ is 
 
 This kind of argument is indicated in ([Simpson-Teleman, prop. 3.4](#SimpsonTeleman)).
 
++-- {: .num_prop #PiInfAndTangents}
+###### Proposition
 
+Let $X \in $ [[SmoothMfd]] and write 
+$X^{\Delta^\bullet_{inf}} \in [CartSp_{synthdiff}^{op}, sSet]$
+for the [[tangent Lie algebroid]] regarded as a simplicial object (see [[L-infinity algebroid]] for the details). 
 
+Then there is a morphism
+$X^{\Delta^\bullet_{inf}} \to \mathbf{\Pi}_{inf}(X)$ which is an equivalence in $\mathbb{R}$-cohomology.
+
+=--
+
+(...)
 
 ## Related concepts
 
