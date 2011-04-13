@@ -76,13 +76,13 @@ Here are some examples of strongly separable algebras:
 
 * the group algebra $k[G]$ of a finite group is strongly separable if and only if the order of $G$ is not divisible by the characteristic of $k$.
 
-For more details, see:
+For more details, see Aguiar's book below.
 
-* Marcelo Aguiar, A note on strongly separable algebras, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, 65 (2000) 51-60.  ([web](http://www.math.tamu.edu/~maguiar/strongly.ps.gz))
+
 
 ## Over commutative rings ##
 
-More generally, if $k$ is any unital [[commutative ring]], we can define a separable $k$-algebra to be an algebra $A$ such that $A$ is projective as a module over $A^e = A \otimes_k A^{op}$.  
+More generally, if $k$ is any unital [[commutative ring]], we can define a separable $k$-algebra to be an algebra $A$ such that $A$ is projective as a module over $A^e = A \otimes_k A^{op}$. 
 
 As in the case of algebras over a field, an algebra $A$ over a commutative ring $k$ is separable if and only if the $A^e$-module epimorphism 
 $$ \array{
@@ -92,9 +92,11 @@ m : & A^e &\to & A  \\
 $$
 splits, and this in turn is equivalent to the existence of a separability idempotent.
 
-If a separable algebra $A$ is also projective as a module over $k$, it must be finitely generated as a $k$-module.  For more details see:
+If a separable algebra $A$ is also projective as a module over $k$, it must be finitely generated as a $k$-module.  For more details see DeMeyer-Ingraham.
 
-* F. DeMeyer and E. Ingraham, _Separable Algebras over Commutative Rings_, Lecture Notes in Mathematics **181**, Springer, Berlin, 1971.
+## Separable extensions of noncommutative rings
+
+The ring extension $S$ over $R$ is said to be a separable extension if all short exact sequences of $S$-$S$-bimodules that are split as $S$-$R$-bimodules also split as $S$-$S$-bimodules. This is equivalent to the statement that the relative Hochschild cohomology $HH^n(S,R;M) = 0$ for all $n\gt 0$ and all coefficient bimodules $M$.
 
 ## In algebraic geometry ##
 
@@ -104,4 +106,14 @@ Separable algebras play a major role in the [[Galois theory]] of extensions of a
 
 There are further generalizations, leading to [[separable functor|separable functors]]...
 
+## Literature and links
+
+* $n$Lab: [[separable functor]], [[separable field extension]], [[separable coring]]
+* wikipedia [separable algebra](http://en.wikipedia.org/wiki/Separable_algebra)
+
+* Marcelo Aguiar, A note on strongly separable algebras, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, 65 (2000) 51-60.  ([web](http://www.math.tamu.edu/~maguiar/strongly.ps.gz)) 
+* F. DeMeyer and E. Ingraham, _Separable algebras over commutative rings_, Lecture Notes in Mathematics **181**, Springer, Berlin, 1971.
+* K. Hirata, K. Sugano, On semisimple and separable extensions of noncommutative rings, J. Math. Soc. Japan 18 (1966), 360-373.
 [[!redirects separable algebras]]
+[[!redirects separable ring extension]]
+[[!redirects separable ring extensions]]
