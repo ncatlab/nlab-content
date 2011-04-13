@@ -1,6 +1,12 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-category theory
++--{: .hide}
 [[!include 2-category theory - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -100,3 +106,8 @@ This latter is actually a special case of a general situation.  If $T$ is a (2-)
 [[!redirects colax-idempotent 2-monads]]
 [[!redirects colax-idempotent monad]]
 [[!redirects colax-idempotent monads]]
+
+[[!redirects lax-idempotent]]
+[[!redirects lax-idempotence]]
+[[!redirects colax-idempotent]]
+[[!redirects colax-idempotence]]
