@@ -133,4 +133,4 @@ Equation (3.26), (3.27) in [p. 81](http://www.math.tamu.edu/~maguiar/a.pdf) of
 
 * [[Marcelo Aguiar]], [[Swapneel Mahajan]], _[[Monoidal Functors, Species and Hopf Algebras]]_
 {#AguiarMahajan}
-* M. B. McCurdy, [[R. Street]], _What separable Frobenius monoidal functors_, [arxiv/0904.3449](http://arxiv.org/abs/0904.3449)
+* M. B. McCurdy, [[R. Street]], _What separable Frobenius monoidal functors preserve_, [arxiv/0904.3449](http://arxiv.org/abs/0904.3449) and Cahiers TGDC, 51 (2010)p. 29 - 50.
