@@ -1,6 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
+
+## Idea
+
+The _de Rham complex_ $\Omega^\bullet(X)$ of a[[space]] $X$ is the [[cochain complex]] that in degree $n$ has the [[differential form]]s (which may mean: [[Kähler differential form]]s) of degree $n$, and whose [[differential]] is the **de Rham differential** or **exterior derivative**.
 
 ## For smooth manifolds
 
@@ -10,12 +26,31 @@ Under the [[wedge product]], the deRham complex becomes a [[differential graded 
 
 ## For algebraic objects
 
-For smooth varieties $X$, algebraic de Rham cohomology is defined to be the [[hypercohomology]] of the de Rham complex $\Omega_X^\bullet$.
+For [[smooth varieties]] $X$, algebraic de Rham cohomology is defined to be the [[hypercohomology]] of the de Rham complex $\Omega_X^\bullet$.
 
-De Rham cohomology has a rather subtle generalization for possibly singular algebraic varieties due to Grothendieck. 
+De Rham cohomology has a rather subtle generalization for possibly singular algebraic varieties due to ([Grothendieck](#Grothendieck)). 
+
+## Properties
+
+* [[Poincare lemma]] 
+
+* [[de Rham theorem]]
+
+
+## References
+
+### For the differential geometric version
+
+
+(...)
+
+### For the algebraic version
 
 * [[Alexander Grothendieck]], _On the De Rham cohomology of algebraic varieties_, Publications Math&#233;matiques de l'IH&#201;S __29__, 351-359 (1966), [numdam](http://www.numdam.org/item?id=PMIHES_1966__29__95_0).
+ {#Grothendieck}
 
+* Yves Andr&#233;, _Comparison theorems between algebraic and
+analytic De Rham cohomology_ ([pdf](http://www.emis.de/journals/JTNB/2004-2/pages335-355.pdf))
 
 [[!redirects deRham complex]]
 [[!redirects deRham algebra]]
