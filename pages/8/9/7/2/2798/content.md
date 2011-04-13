@@ -191,7 +191,7 @@ A set of generating cofibrations is guaranteed to exist, but no good explicit ch
 +-- {: .un_corollary }
 ###### Corollary
 
-With this model structure and the standard [[model structure on operads]] the dendroidall [[nerve]] [[adjunction]]
+With this model structure and the standard [[model structure on operads]] the dendroidal [[nerve]] [[adjunction]]
 
 $$
   \tau_d : dSet \stackrel{\leftarrow}{\to} Operad : N
