@@ -24,6 +24,8 @@ A _formal groupoid_ is a groupoid whose hom-spaces have [[infinitesimal space|in
 
 * A formal groupoid over the point if the [[delooping]] of a [[formal group]].
 
+* The [[∞-groupoid]]-notion of formal groupoids is discussed at  _[[formal cohesive ∞-groupoid]]_ .
+
 ## References
 
 The notion of formal groupoid apparently goes back to
