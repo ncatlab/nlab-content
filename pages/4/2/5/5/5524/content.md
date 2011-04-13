@@ -32,7 +32,7 @@ In the [[cohesive (∞,1)-topos]] of synthetic differential $\infty$-groupoids t
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let $T := $ [[CartSp]]${}_{smooth}$ be the [[syntactic category]] of the [[Lawvere theory]] of [[smooth algebra]]s: the category of [[Cartesian space]]s $\mathbb{R}^n$ and [[smooth function]]s between them.
@@ -56,7 +56,7 @@ be the [[full subcategory]] on the [[infinitesimally thickened point]]s: this sm
 =--
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -82,14 +82,14 @@ Equip this category with the [[coverage]] where a family of morphisms  is [[cove
 This appears as ([Kock, (5.1)]{#Kock}). 
 
 
-+-- {: .un_remark}
-###### Remark
++-- {: .num_note}
+###### Note
 
 The [[sheaf topos]] over [[CartSp]]${}_{synthdiff}$ is ([[equivalence of categories|equivalent]] to) the [[topos]] known as the [[Cahiers topos]], a [[smooth topos]] that constitutes a [[Models for Smooth Infinitesimal Analysis|well adapted model]] for [[synthetic differential geometry]].
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 We say the [[(∞,1)-topos]] of **synthetic differential $\infty$-groupoids** is the [[(∞,1)-category of (∞,1)-sheaves]]
@@ -107,7 +107,7 @@ on $CartSp_{synthdiff}$.
 ## Properties
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 $SynthDiff \infty Grpd$ is a [[cohesive (∞,1)-topos]].
@@ -121,7 +121,7 @@ Because [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]]. See there for de
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Write $FSmoothMfd \hookrightarrow SmoothAlg^{op}$ for the [[full subcategory]] of [[smooth loci]] on the 
@@ -129,14 +129,14 @@ Write $FSmoothMfd \hookrightarrow SmoothAlg^{op}$ for the [[full subcategory]] o
 
 =--
 
-+-- {: .un_prop #CartSpAsDenseSubOfFSmoothMfd}
++-- {: .num_prop #CartSpAsDenseSubOfFSmoothMfd}
 ###### Observation
 
 $CartSp_{synthdiff}$ is a [[dense sub-site]] of $FSmoothMfd$.
 
 =--
 
-+-- {: .un_prop #EquivalenceToToposOverSoothSynthMfd}
++-- {: .num_prop #EquivalenceToToposOverSoothSynthMfd}
 ###### Proposition
 
 There is an [[equivalence of (∞,1)-categories]]
@@ -158,7 +158,7 @@ With the [above observation](#CartSpAsDenseSubOfFSmoothMfd) this is directly ana
 
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Write $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ for the canonical [[full subcategory|embedding]].
@@ -166,7 +166,7 @@ Write $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ for the canonical
 =--
 
 
-+-- {: .un_prop #CohesivenessUnderSmoothInfGrpd}
++-- {: .num_prop #CohesivenessUnderSmoothInfGrpd}
 ###### Proposition
 
 The functor $i^*$ given by restriction along $i$ exhibits 
@@ -211,14 +211,116 @@ The discussion that goes here is at
 * [[∞-Lie algebroid]].
 
 
+### Paths and geometric Postnikov towers 
+  {#StrucPaths}
+
+We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">intrinsic infinitesimal path adjunction</a> realized in $SynthDiff\infty Grpd$.
+
+$$
+  (\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf}) 
+   :=
+  (i \circ \Pi_{inf} \dashv Disc_{inf} \Pi_{inf} \dashv Disc_{inf} \circ \Gamma_{inf})
+  :
+  SynthDiff \infty Grpd
+  \to 
+  SynthDiff \infty Grpd
+  \,.
+$$
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $U \times D \in CartSp_{smooth} \ltimes InfinSmoothLoc = CartSp_{synthdiff} \hookrightarrow SynthDiff\infty Grpd$
+we have that
+
+$$
+  \mathbf{Red}(U \times D) \simeq U
+$$
+
+is the **reduced [[smooth locus]]**: the [[Isbell duality|formal dual]] of the [[smooth algebra]] obtained by quotienting out all nilpotent elements in the [[smooth algebra]] $C^\infty(K \times D) \simeq C^\infty(K) \otimes C^\infty(D)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[model category]] presentation of 
+$\mathbf{Red} \simeq  \mathbb{L} Lan_i \circ \mathbb{R}i^*$ of the [above proof](#CohesivenessUnderSmoothInfGrpd) and using that every [[representable functor|representable]] is cofibrant and fibrant in the local projective [[model structure on simplicial presheaves]] we have
+
+$$
+  \begin{aligned}
+    \mathbf{Red}(U \times D)
+    & 
+    \simeq
+     (\mathbb{L}Lan_i) (\mathbb{R}i^*) (U \times D)
+    \\
+     &\simeq
+     (\mathbb{L}Lan_i) i^* (U \times D)
+     \\
+     & \simeq
+     (\mathbb{L} Lan_i) U
+     \\
+     & \simeq
+     Lan_i U
+     \\
+    & \simeq U
+  \end{aligned}
+$$
+
+(using that $i$ is a [[full and faithful functor]]).
+
+=--
+
++-- {: .num_prop #PiInfYieldsDeRahmSpace}
+###### Proposition
+
+
+For $X \in SmoothAlg^{op}  \to SynthDiff \infty Grpd$ a [[smooth locus]], we have that $\mathbf{\Pi}_{inf}(X)$ is the corresponding [[de Rham space]], the object
+in which all [[infinitesimal object|infinitesimal]] neighbour points in $X$ are equivalent, characterized by
+
+$$
+  \mathbf{\Pi}_{inf}(X) : U \times D \mapsto X(U)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf})$-adjunction relation
+
+$$
+  \begin{aligned}
+    \mathbf{\Pi}_{inf}(X)(U \times D)
+    & =
+    SynthDiff \infty Grpd(U \times D, \mathbf{\Pi}_{inf}(X))
+    \\
+    & \simeq 
+    SynthDiff \infty Grpd( \mathbf{Red}(U \times D), X)
+    \\
+    & \simeq
+     SynthDiff \infty Grpd( U, X )
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
+
+
+
 ### Cohomology and principal $\infty$-bundles {#StrucCohomology}
 
 We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Cohomology">intrinsic cohomology in a cohesive (∞,1)-topos</a> realized in $SynthDiff\infty Grpd$.
 
 #### Cohomology localization
 
-+-- {: .un_prop}
-###### Observation
++-- {: .num_prop}
+###### Proposition
 
 The canonical [[line object]] of the [[Lawvere theory]] [[CartSp]]${}_{smooth}$ is the [[real line]], regarded as
 an object of the [[Cahiers topos]], and hence of
@@ -252,7 +354,7 @@ $$
 
 for the [[cohomology group]] of $X$ with coefficients in the canonical line object in degree $n$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Write
@@ -265,7 +367,7 @@ for the [[cohomology localization]] of $SynthDiff\infty Grpd$ at $\mathbb{R}$-[[
 
 =--
 
-+-- {: .un_prop #PresentationOfCohomologyLocalization}
++-- {: .num_prop #PresentationOfCohomologyLocalization}
 ###### Proposition
 
 Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebras|projective model structure on cosimplicial smooth algebras]] and let $j : (SmoothAlg^{\Delta})^{op} \to [CartSp_{synthdiff}, sSet]$ be the prolonged external [[Yoneda embedding]]. 
@@ -324,7 +426,7 @@ The proof of the above statements is given in ([Stel](#Stel)), following ([To&#2
 
 #### Cohomology of Lie groups
 
-+-- {: .un_prop #RealCohomologyOfCompactLieGroup}
++-- {: .num_prop #RealCohomologyOfCompactLieGroup}
 ###### Proposition
 
 Let $G \in SmoothMfd \hookrightarrow Smooth\infty Grpd \hookrightarrow SynthDiff\infty Grpd $ be a [[Lie group]]. 
@@ -345,7 +447,7 @@ $$
 
 For the full proof please see [[schreiber:differential cohomology in a cohesive topos|here, section 3.4]] for the moment.
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Corollary
 
 For $G$ a [[compact topological space|compact]] [[Lie group]] we have for all $n \geq 1$ that
@@ -365,8 +467,8 @@ This follows from applying the [above result](#RealCohomologyOfCompactLieGroup) 
 
 =--
 
-+-- {: .un_remark }
-###### Remark
++-- {: .num_note }
+###### Note
 
 This means that the intrinsic cohomology of [[compact topological space|compact]] [[Lie group]]s in [[Smooth∞Grpd]] and $SynthDiff\infty Grpd$ coincides for these coefficients with the Segal-Blanc-Brylinski refined Lie group cohomology ([Brylinski](#Brylinski)).
 
@@ -375,7 +477,7 @@ This means that the intrinsic cohomology of [[compact topological space|compact]
 #### Cohomology of $\infty$-Lie algebroids
  {#CohomologyOfLieAlgebroids}
 
-+-- {: .un_prop #IntrinsicRealCohomologyByCECohomology}
++-- {: .num_prop #IntrinsicRealCohomologyByCECohomology}
 ###### Proposition
 
 Let $\mathfrak{a} \in L_\infty \mathrm{Algd}$ be an [[L-∞ algebroid]]. 
@@ -478,104 +580,83 @@ $$
   \,.
 $$
 
-### Paths and geometric Postnikov towers 
-  {#StrucPaths}
+#### de Rham theorem
 
-We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">intrinsic infinitesimal path adjunction</a> realized in $SynthDiff\infty Grpd$.
+> under construction
+
+
+We consider the [[de Rham theorem]] in $SynthDiff \infty Grpd$, with respect to the infinitesimal de Rham cohomology
 
 $$
-  (\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf}) 
-   :=
-  (i \circ \Pi_{inf} \dashv Disc_{inf} \Pi_{inf} \dashv Disc_{inf} \circ \Gamma_{inf})
-  :
-  SynthDiff \infty Grpd
+  H_{dR,inf}^n(X) := \pi_0 SynthDiff \infty Grpd(X, \mathbf{\flat}_{inf} \mathbf{B}^n \mathbb{R})
+  \,.
+$$
+
+
+
++-- {: .num_prop #deRhamTheorem}
+###### Proposition
+
+
+For all $n \in \mathbb{N}$ The canonical morphism
+
+$$
+  \mathbf{\flat}_{inf} \mathbf{B}^n \mathbb{R}
   \to 
-  SynthDiff \infty Grpd
+  \mathbf{\flat} \mathbf{B}^n \mathbb{R}
+$$
+
+is an [[equivalence in an (∞,1)-category|equivalence]].
+
+=--
+
+This means that for all $X \in \mathbf{H}$ the infinitesimal de Rham cohomology coincides with the ordinary real cohomology of the geometric realization of $X$
+
+$$
+  H^n_{dR, inf}(X)
+   \simeq
+  H^n(|X|, \mathbb{R})
   \,.
 $$
-
-=--
-
-
-+-- {: .un_prop}
-###### Observation
-
-For $U \times D \in CartSp_{smooth} \ltimes InfinSmoothLoc = CartSp_{synthdiff} \hookrightarrow SynthDiff\infty Grpd$
-we have that
-
-$$
-  \mathbf{Red}(U \times D) \simeq U
-$$
-
-is the **reduced [[smooth locus]]**: the [[Isbell duality|formal dual] of the [[smooth algebra]] obtained by quotienting out all nilpotent elements in the [[smooth algebra]] $C^\infty(K \times D) \simeq C^\infty(K) \otimes C^\infty(D)$.
-
-=--
 
 +-- {: .proof}
 ###### Proof
 
-By the [[model category]] presentation of 
-$\mathbf{Red} \simeq  \mathbb{L} Lan_i \circ \mathbb{R}i^*$ of the [above proof](#CohesivenessUnderSmoothInfGrpd) and using that every [[representable functor|representable]] is cofibrant and fibrant in the local projective [[model structure on simplicial presheaves]] we have
+Since all representables are formally smooth, we have a colimit
 
 $$
-  \begin{aligned}
-    \mathbf{Red}(U \times D)
-    & 
-    \simeq
-     (\mathbb{L}Lan_i) (\mathbb{R}i^*) (U \times D)
-    \\
-     &\simeq
-     (\mathbb{L}Lan_i) i^* (U \times D)
-     \\
-     & \simeq
-     (\mathbb{L} Lan_i) U
-     \\
-     & \simeq
-     Lan_i U
-     \\
-    & \simeq U
-  \end{aligned}
-$$
-
-(using that $i$ is a [[full and faithful functor]]).
-
-=--
-
-+-- {: .un_prop #PiInfYieldsDeRahmSpace}
-###### Corollary
-
-
-For $X \in SmoothAlg^{op}  \to SynthDiff \infty Grpd$ a [[smooth locus]], we have that $\mathbf{\Pi}_{inf}(X)$ is the corresponding [[de Rham space]], the object
-in which all [[infinitesimal object|infinitesimal]] neighbour points in $X$ are equivalent, characterized by
-
-$$
-  \mathbf{\Pi}_{inf}(X) : U \times D \mapsto X(U)
+  U \times_{\mathbf{\Pi}_{inf}(U)} U
+  \stackrel{\to}{\to}
+  U 
+  \stackrel{}{\to}
+  \mathbf{\Pi}_{inf}(U)
   \,.
 $$
 
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf})$-adjunction relation
+In the presentation over the site we have that 
 
 $$
-  \begin{aligned}
-    \mathbf{\Pi}_{inf}(X)(U \times D)
-    & =
-    SynthDiff \infty Grpd(U \times D, \mathbf{\Pi}_{inf}(X))
-    \\
-    & \simeq 
-    SynthDiff \infty Grpd( \mathbf{Red}(U \times D), X)
-    \\
-    & \simeq
-     SynthDiff \infty Grpd( U, X )
-  \end{aligned}
+  X \times_{\mathbf{\Pi}_{inf}(X)} X : 
+  K \times D \mapsto 
+  \{
+    f,g : K \times D \to U | K \to K \times D \stackrel{\to}{\to} U
+  \} 
   \,.
 $$
 
+Therefore a morphism $\mathbf{\Pi}_{inf}(U) \to  \mathbb{R}$ is equivalently a morphism $\phi : U \to \mathbb{R}$ such that for all $K \times D \to U$ that coincide on $K$ we have that all the composites
+
+$$
+  K \times D \to U \stackrel{\phi}{\to} \mathbf{B}^n \mathbb{R}
+$$
+
+are equals. If $U$ is the point, then $\phi$ is necessarily constant. If $U$ is not the point, there is one nontrivial tangent vector $v$ in $U$. The composite produces the corresponding tangent vector $\phi_*(v)$ in $\mathbb{R}$. But all these tangent vectors must be equal.  Hence $\phi$ must be constant.
+
+
 =--
+
+This kind of argument is indicated in ([Simpson-Teleman, prop. 3.4](#SimpsonTeleman)).
+
 
 
 
@@ -600,7 +681,7 @@ The site [[CartSp]]${}_{synthdiff}$ is discussed in section 5 of
 The [infinitesimal path ∞-groupoid adjunction](#StrucPaths) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ and the de Rham theorem for $\infty$-stacks is discussed at the level of [[homotopy categories]] in section 3 of 
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
-{#SimpsonTeleman}
+ {#SimpsonTeleman}
 
 
 The $(\infty,1)$-topos $SynthDiff\infty Grpd$ is discussed in  section 3.4 of 
