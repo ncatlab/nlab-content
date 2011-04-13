@@ -224,7 +224,7 @@ In particular, setting $R = k$ we have that an object of the form $Spec S$ is fo
 
 The definition over commutative rings is in 
 
-* [[EGAIV]]${}_4$ Publ. IH&#201;S, 32 (1967), p. 5-361) see [numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1967__32__5_0.
+* [[EGAIV]]${}_4$, Publ. IH&#201;S __32__ (1967), p. 5-361, [numdam](http://www.numdam.org/item?id=PMIHES_1967__32__5_0)
 
 
 The definition over noncommutative algebras is in
