@@ -15,7 +15,7 @@
 
 ## Idea 
 
-The Barratt-Eccles operad is a realization of an [[E-infinity operad]].
+The Barratt-Eccles operad is a realization of an [[E-infinity operad]], a cofibrant [[resolution]] of the [[commutative operad]] in the [[model structure on operad|model structure on topological operads]].
 
 As a [[topological operad]] it is given by $P_n := E \Sigma_n$, the [[universal principal bundle]] for the [[symmetric group]] $\Sigma_n$. As an [[sSet]]-operad it has $P_n = N(\Sigma_n // \Sigma_n)$.
 
