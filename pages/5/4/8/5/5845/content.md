@@ -26,16 +26,16 @@ $$
   ( F\dashv G\dashv H) : C \to D 
 $$
 
-is a triple of [[functor]]s $F,H : C \to D$ and $G : D \to C$ together with [[adjunction]] data $F\dashv G$ and $G\dashv H$. 
+is a triple of [[functor]]s $F,H \colon C \to D$ and $G \colon D \to C$ together with [[adjunction]] data $F\dashv G$ and $G\dashv H$. 
 
 =--
 
 ## Properties
 
-+-- {: .num_note}
++-- {: .num_note #GIsBicontinuous}
 ###### Note
 
-The two adjunctions imply of course that $G$ preserves all small [[limit]]s and [[colimit]]s. 
+The two adjunctions imply of course that $G$ preserves all [[limit]]s and [[colimit]]s that exist in $D$.
 
 =--
 
@@ -59,7 +59,7 @@ consisting of a [[monad]] $G F$ [[left adjoint]] to the [[comonad]] $G H$ on $C$
 
 =--
 
-In general there is a duality (an anti[[equivalence of categories]]) between the category of monads having right adjoint and comonads having left adjoints.  
+In general there is a duality (an anti[[equivalence of categories]]) between the category of monads having right adjoint and comonads having left adjoints.  Note also that the [[algebra over a monad|algebras]] for a left-adjoint monad can be identified with the coalgebras for its right adjoint comonad.
 
 +-- {: .num_prop}
 ###### Proposition
