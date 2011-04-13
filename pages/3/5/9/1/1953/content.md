@@ -159,7 +159,7 @@ This appears as ([KontsevichRosenbergSpaces, 4.1](#KontsevichRosenbergSpaces)).
 
 For a morphism $f:X\to Y$ of schemes, and $x$ a point of $X$, the following are equivalent
 
-(i) $f$ is a [[smooth morphism]] at $x$
+(i) $f$ is a [[smooth morphism of schemes]] at $x$
 
 (ii) $f$ is locally of finite presentation at $x$ and there is an open neighborhood $U\subset X$ of $x$ such that $f|_U: U\to Y$ is formally smooth
 
