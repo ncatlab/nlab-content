@@ -1,0 +1,926 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+=--
+=--
+
+>  This is a subsection of the entry [[cohesive (∞,1)-topos]]. See there for background and context.
+
+***
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[cohesive (∞,1)-topos]] is a context of [[∞-groupoid]]s that are equipped with a [[geometry|geometric]] notion of _cohesion_ on their collections of [[object]]s and [[k-morphism]]s, for instance [[Euclidean-topological ∞-groupoid|topological cohesion]] or [[smooth ∞-groupoid|smooth cohesion]].
+
+While the axioms of cohesion do imply the intrinsic existence of _exponentiated_ [[infinitesimal space]]s, they do not admit access to an explicit [[synthetic differential geometry|synthetic]] notion of infinitesimal extension. 
+
+Here we consider one extra axiom on a [[cohesive (∞,1)-topos]] that does imply a good intrinsic notion of synthetic differential extension, compatible with the given notion of cohesion. We speak of _infinitesimal cohesion_ .
+
+In a cohesion $(\infty,1)$-topos with infinitesimal cohesion there are for instance good intrinsic notions of [[formally smooth morphism|formal smoothness]] and of [[de Rham space]]s of objects.
+
+## Infinitesimal cohesion
+
+We discuss [[extra structure]] on a [[cohesive (∞,1)-topos]]
+that encodes a refinement of the corresponding notion of cohesion to 
+_[[infinitesimal object|infinitesimal]] cohesion_ . More precisely, we consider inclusions
+$\mathbf{H} \hookrightarrow \mathbf{H}_{th}$ of cohesive 
+$(\infty,1)$-toposes that exhibit the objects of $\mathbf{H}_{th}$
+as infinitesimal cohesive neighbourhoods of objects in 
+$\mathbf{H}$.
+
+
+
++-- {: .un_defn #InfinitesimalCohesiveInfTopos}
+###### Definition
+
+Given a cohesive $(\infty,1)$-topos $\mathbf{H}$ we say that 
+an **infinitesimal cohesive neighbourhood** of $\mathbf{H}$
+is another cohesive $(\infty,1)$-topos $\mathbf{H}_{th}$
+equipped with an  [[adjoint quadruple]] of [[adjoint (∞,1)-functor]]s
+
+$$
+  (i_! \dashv i^* \dashv i_* \dashv i^!) : 
+  \mathbf{H}
+    \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\hookrightarrow}}{\underset{i^!}{\leftarrow}}}}
+  \mathbf{H}_{th}
+$$
+
+where $i_!$ is 
+
+* a [[full and faithful (∞,1)-functor]] 
+
+* that preserves the [[terminal object in an (∞,1)-category|terminal object]].
+
+=--
+
+This definition is an abstraction of similar situations considered in ([SimpsonTeleman](#SimpsonTeleman)) and in [Kontsevich-Rosenberg](#KontsevichRosenbergSpaces). See also the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#InfinitesimalThickening">Infinitesimal thickenings</a> at [[Q-category]].
+
++-- {: .un_prop #InfinitesimalInclusionIfFullAndFaithful}
+###### Observation
+
+This implies that also $i_*$ is a [[full and faithful (∞,1)-functor]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the characterizaton of full and faithful [[adjoint (∞,1)-functor]]s 
+the condition on $i_!$ is equivalent to $i^* i_! \simeq Id$. Since $(i^* i_! \dashv i^* i_*)$ it follows by essential uniqueness of [[adjoint (∞,1)-functor]]s that also $i^* i_* \simeq Id$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This definition captures the characterization of an [[infinitesimal object]] as having a single [[global element|global point]] surrounded by an infinitesimal neighbourhood: as we shall see in more detail [below](#InfinitesimalPathsAndReduction), the [[(∞,1)-functor]] $i^*$ may be thought of as contracting away any infinitesimal extension of an object. Thus $X$ being an [infinitesimal object](#InfinitesimalObject) amounts to  $i^* X \simeq *$, and the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(i_! \dashv i^*)$ then indeed guarantees that $X$ has only a single global point, since 
+
+$$
+  \begin{aligned}
+    \mathbf{H}_{th}(*, X) 
+      & \simeq \mathbf{H}_{th}(i_! *, X) 
+      \\
+      & \simeq \mathbf{H}(*, i^* X)
+      \\
+      & \simeq \mathbf{H}(*, *)
+      \\
+      & \simeq *
+ \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .un_prop #InfinitesimalNeighbourhoodIsOverInfGroupoid}
+###### Observation
+
+The inclusion into the infinitesimal neighbourhood is necessarily
+a morphism of [[(∞,1)-topos]]es over [[∞Grpd]].
+
+$$
+  \array{
+     \mathbf{H} && \stackrel{(i^* \dashv i_*)}{\to} && \mathbf{H}_{th}
+     \\
+     & {}_{\mathllap{\Gamma}}\searrow && \swarrow_{\mathrlap{\Gamma}}
+     \\
+     && \infty Grpd 
+  }
+$$
+
+as is the induced geometric morphism
+$(i_* \dashv i^!) : \mathbf{H}_{th} \to \mathbf{H}$
+
+$$
+  \array{
+     \mathbf{H}_{th} && \stackrel{(i_* \dashv i^!)}{\to} 
+      && \mathbf{H}
+     \\
+     & {}_{\mathllap{\Gamma}}\searrow && \swarrow_{\mathrlap{\Gamma}}
+     \\
+     && \infty Grpd 
+  }
+  \,.
+$$
+
+Moreover $i_*$ is necessarily a [[full and faithful (∞,1)-functor]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By essential uniqueness of th [[global section]] [[geometric morphism]]:
+In both cases the [[direct image]] functor has as [[left adjoint]]
+that preserves the [[terminal object]]. Therefore
+
+$$
+  \begin{aligned}
+    \Gamma_{\mathbf{H}_{th}}( i_* X )
+    & 
+    \simeq
+    \mathbf{H}_{th}(*, i_* X)
+    \\
+    & \simeq \mathbf{H}(i^* *, X)
+    \\
+    & 
+    \simeq \mathbf{H}(*, X)
+    \\
+    & \simeq \Gamma_{\mathbf{H}}(X)
+  \end{aligned}
+  \,.
+$$
+
+Analogously in the second case.
+
+=--
+
+
+We shall write 
+
+$$
+  (\Pi_{inf} \dashv Disc_{inf} \dashv \Gamma_{inf})
+  := 
+  (i^* \dashv i_* \dashv i^!)
+$$
+
+so that the [[global section]] geometric moprhism of $\mathbf{H}_{th}$ factors as
+
+$$
+  (\Pi_{\mathbf{H}_{th}} \dashv Disc_{\mathbf{H}_{th}} \dashv \Gamma_{\mathbf{H}_{th}})
+  :
+  \mathbf{H}_{th}
+  \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{Disc_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}}
+  \mathbf{H}
+  \stackrel{\overset{\Pi_{\mathbf{H}}}{\to}}{\stackrel{\overset{Disc_{\mathbf{H}}}{\leftarrow}}{\underset{\Gamma_{\mathbf{H}}}{\to}}}
+  \infty Grpd
+  \,.
+$$
+
+
+Let for the remainder of this section an infinitesimal neighbourhood $\mathbf{H} \hookrightarrow \mathbf{H}_{th}$ be fixed.
+
+
+### Properties
+
++-- {: .un_def #InfinitesimalNeighBourhoodSite}
+###### Definition
+
+Let $C$ be an [[∞-cohesive site]]. We say a [[site]] $C_{th}$ 
+
+* equipped with a [[coreflective subcategory|coreflective embedding]]
+
+  $$
+    (i \dashv p) : 
+     C \stackrel{\overset{i}{\hookrightarrow}}{\underset{p}{\leftarrow}}
+    C_{th}
+  $$
+
+* such that 
+
+  * $i$ preserves [[pullback]]s along morphisms in [[covering]] families;
+
+  * both $i$ and $p$ send [[covering]] families to covering families;
+
+  * for all $\mathbf{U}$ in $C_{th}$ and covering families $\{U_i \to p(\mathbf{U})\}$ there is a lift through $p$ to a covering family $\{\mathbf{U}_i \to \mathbf{U}\}$
+
+is an **infinitesimal neighbourhood site** of $C$.
+
+=--
+
+
++-- {: .un_prop #InfinitesimalNeighbourhoodFromInfinitesimalSite}
+###### Proposition
+
+Let $C$ be an [[∞-cohesive site]] and  $(i \dashv p) : C \stackrel{\overset{i}{\hookrightarrow}}{\underset{p}{\leftarrow}} C_{th}$ an [infinitesimal neighbourhood site](#InfinitesimalNeighBourhoodSite). 
+
+Then the [[(∞,1)-category of (∞,1)-sheaves]] on $C_{th}$ is a cohesive $(\infty,1)$-topos and the restriction $i^*$ along $i$ exhibits it as an [infinitesimal neighbourhood](#InfinitesimalNeighbourhoodIsOverInfGroupoid) of the cohesive $(\infty,1)$-topos over $C$.
+
+$$
+ ( i_! \dashv i^* \dashv i_* \dashv i^! )
+  :
+  Sh_{(\infty,1)}(C)
+  \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\stackrel{i^!}{\leftarrow}}}}
+  Sh_{(\infty,1)}(C^{th})
+  \,.
+$$
+
+Moreover, $i_!$ restricts on representables to the [[(∞,1)-Yoneda embedding]] factoring through $i$:
+
+$$
+  \array{
+    C &\hookrightarrow& Sh_{(\infty,1)}(C)
+    \\
+    \downarrow^{\mathrlap{i}} && \downarrow^{\mathrlap{i_!}}
+    \\
+    C_{th} &\hookrightarrow& Sh_{(\infty,1)}(C_{th})
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We [[presentable (∞,1)-category|present]] the [[(∞,1)-sheaf (∞,1)-category]] $Sh_{(\infty,1)}(C_{th})$ by the projective [[model structure on simplicial presheaves]] [[Bousfield localization of model categories|left Bousfield localized]] at the [[covering]] [[sieve]] inclusions 
+
+$$
+  Sh_{(\infty,1)}(C_{th}) \simeq
+  ([C_{th}^{op}, sSet]_{loc})^\circ
+$$
+
+(as discussed at [[models for ∞-stack (∞,1)-toposes|models for (∞,1)-sheaf (∞,1)-toposes]]).
+
+
+Consider the right [[Kan extension]] $Ran_i : [C^{op}, sSet] \to [C_{th}^{op},sSet]$ of [[simplicial presheaves]] along the functor $i$. On an object $K \times D \in C_{th}$ it is given by the [[end]]-expression
+
+$$
+  \begin{aligned}
+    \mathrm{Ran}_{i} F : \mathbf{K} 
+    & \mapsto 
+    \int_{U \in C} \mathrm{sSet}( C_{\mathrm{th}}(i(U), \mathbf{K})  , F(U))
+    \\
+    & \simeq 
+    \int_{U \in C} \mathrm{sSet}( C(U, p(\mathbf{K}))  , F(U))
+    \\
+    & \simeq 
+    F(p(\mathbf{K}))
+    \\
+    & =: (p^* F)(\mathbf{K})
+   \end{aligned}
+  \,,
+$$
+
+where in the last step we use the [[Yoneda reduction]]-form of the [[Yoneda lemma]]. 
+
+This shows that the [[right adjoint]] to $(-)\circ i$ is itself given by precomposition with a functor, and hence has itself a further right adjoint, which gives us a total of four [[adjoint functor]]s
+
+$$
+  [C^{op}, sSet]  
+    \stackrel{\overset{Lan_i}{\to}}{\stackrel{\overset{(-)\circ i}{\leftarrow}}{\stackrel{\overset{(-)\circ p}{\to}}{\underset{Ran_p}{\leftarrow}}}}
+  [C_{th}^{op}, sSet]
+  \,.
+$$
+
+From this are directly induced the corresponding [[simplicial Quillen adjunction]]s on the global projective and injective [[model structure on simplicial presheaves]]
+
+$$
+  (Lan_i \dashv (-) \circ i) : 
+  [C^{op}, sSet]_{proj}
+   \stackrel{\overset{Lan_i}{\to}}{\underset{(-)\circ i}{\leftarrow}}
+  [C_{th}^{op}, sSet]_{proj}
+  \,;
+$$
+
+$$
+  ((-)\circ i \dashv (-) \circ p) : 
+  [C^{op}, sSet]_{proj}
+   \stackrel{\overset{(-)\circ i}{\leftarrow}}
+    {\underset{(-)\circ p}{\to}}
+  [C_{th}^{op}, sSet]_{proj}
+  \,;
+$$
+
+$$
+  ((-) \circ p \dashv Ran_p) : 
+  [C^{op}, sSet]_{inj}
+   \stackrel{\overset{(-)\circ p}{\to}}{\underset{Ran_p}{\leftarrow}}
+  [C_{th}^{op}, sSet]_{inj}
+  \,.
+$$
+
+Observe that $Lan_i$, being a left [[Kan extension]], sends representables to representables: we have
+
+$$
+  Lan_i C(-,T) :
+  \mathbf{K}
+  \mapsto
+  \int^{U \in C} C_{th}(\mathbf{K}, i(U))
+   \cdot C(U,T)
+$$
+
+and by [[Yoneda reduction]] (more explicitly: observing that this is equivalently the formula for left [[Kan extension]] of the non-corepresentable $C_{th}(K \times D, i(-)) : C \to sSet$ along the identity functor) this is
+
+$$
+  \cdots \simeq C_{th}(\mathbf{K}, i(T))
+  \,.
+$$
+
+By the discussion at [[simplicial Quillen adjunction]] for the above Quillen adjunctions to descend to the Cech-local [[model structure on simplicial presheaves]] it suffices that the [[right adjoint]]s preserve locally fibrant objects. 
+
+We first check that $(-) \circ i$ sends locally fibrant objects to locally fibrant objects.  
+
+To that end, let $\{U_i \to U\}$ be a [[covering family]] in $C$. Write $\int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} (j(U_{i_0}) \times_{j(U)} j(U_{i_1}) \times_{j(U)} \cdots \times_{j(U)} j(U_k))$ for its [[Cech nerve]], where $j$ denotes the [[Yoneda embedding]]. Recall by the definition of the [[∞-cohesive site]] $C$ that all the [[fiber product]]s of representable presheaves here are again themselves representable, hence $\cdots = \int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} (j(U_{i_0} \times_U U_{i_1} \times_U \cdots \times_U U_k))$. This means that the [[left adjoint]] $Lan_i$ preserves not only the [[coend]] and [[tensoring]], but by the remark in the previous paragraph and the assumption that $i$ preserves [[pullback]]s along covers we have that
+
+$$
+  \begin{aligned}
+    Lan_i 
+    C(\{U_i \to U\})
+    & \simeq 
+     \int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} Lan_i (j(U_{i_0} \times_U U_{i_1} \times_U \cdots \times_U U_k))    
+     \\
+     & \simeq
+     \int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} 
+  j i (U_{i_0} \times_U U_{i_1} \times_U \cdots \times_U U_k)    
+    \\
+    & \simeq
+     \int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} 
+  j (i(U_{i_0}) \times_{i(U)} i(U_{i_1}) \times_{i(U)} \cdots \times_{i(U)} i(U_k))      
+  \end{aligned}
+   \,.
+$$ 
+
+By the assumption that $i$ preserves covers, this is the [[Cech nerve]] of a [[covering family]] in $C_{th}$. Therefore for $F \in [C_{th}^{op}, sSet]_{proj,loc}$ fibrant we have for all [[covering]]s $\{U_i \to U\}$ in $C$ that the [[descent]] morphism
+
+$$
+  (i^* F)(U) = F(i(U))
+   \stackrel{}{\to}
+  [C_{th}^{op}, sSet](C(\{i(U_i)\}), F)
+  =
+  [C^{op}, sSet](C(\{U_i\}), i^* F)
+$$
+
+is a weak equivalence, hence that $i^* F$ is locally fibrant.
+
+To see that $(-) \circ p$ preserves locally fibrant objects, we apply the analogous reasoning after observing that its [[left adjoint]] $(-)\circ i$ preserves all [[limit]]s and [[colimit]]s of [[simplicial presheaves]] (as these are computed objectwise) and by observing that for 
+$\{\mathbf{U}_i \stackrel{p_i}{\to} \mathbf{U}\}$ 
+a covering family in $C_{th}$ we have that its image under $(-) \circ i$ is its image under $p$, by the [[Yoneda lemma]]:
+
+$$
+  \begin{aligned}
+     [C^{op}, sSet](K, ((-)\circ i) (\mathbf{U}))
+     & \simeq
+     C_{th}(i(K), \mathbf{U})
+     \\
+     & \simeq
+      C(K, p(\mathbf{U}))
+  \end{aligned}
+$$
+
+and using that $p$ preserves covers by assumption.
+
+Therefore $(-) \circ i$ is a left and right local [[Quillen adjunction|Quillen functor]] with left local Quillen adjoint $Lan_i$ and right local Quillen adjoint $(-)\circ p$.
+
+It follows that $i^* : Sh_{(\infty,1)}(C_{th}) \to Sh_{(\infty,1)}(C)$ is given by the left [[derived functor]] of restriction along $i$, and 
+$i_* : Sh_{(\infty,1)}(C) \to Sh_{(\infty,1)}(C_{th})$ is given by the right [[derived functor]] of restriction along $p$. 
+
+Finally to see that also $Ran_p$ preserves locally fibrant objects by the same reasoning as above, notice that for every [[covering]] family $\{U_i \to U\}$ in $C$ and every morphism $\mathbf{K} \to p^* U$ in $C_{th}$ we may find a covering $\{\mathbf{K}_j  \to \mathbf{K}\}$ of $\mathbf{K}$ such that we find commuting diagrams on the left of
+
+$$
+  \array{
+    \mathbf{K}_j &\to& p^* U_{i(j)}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{K} &\to& p^* U
+  }
+  \;\;\;
+  \leftrightarrow
+  \;\;\;
+  \array{
+    p(\mathbf{K}_j) & =&  i^*(\mathbf{K}_j) &\to&  U_{i(j)}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    p(\mathbf{K}) &= & i^*(\mathbf{K})  &\to&  U
+  }
+  \,,
+$$
+
+because by adjunction these correspond to commuting diagrams as indicated on the right, which exist by definition of [[coverage]] on $C$ and lift through $p$ by assumption on $C_{th}$.
+
+This implies that $\{p^* U_i \to p^* U\}$ is a _generalized cover_ in the terminology at [[model structure on simplicial presheaves]], which by the discussion there implies that the corresponding [[Cech nerve]] equivalent to the [[sieve]] inclusion is a weak equivalence.
+
+This establishes the quadruple of [[adjoint (∞,1)-functor]]s as claimed.
+
+It remains to see that $i_!$ is full and faithful.
+
+For that notice the general fact that left 
+[[Kan extension]] (see the propeties discussed there) along a [[full and faithful functor]] $i$ satisfies $Lan_i \circ i \simeq id$. It remains to observe that since $(-)\circ i$ is not only right but also left Quillen by the above, we have that $i^* Lan_i$ applied to a cofibrant object is already the [[derived functor]] of the composite.
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+Conversely this implies that $Sh_{(\infty,1)}(C_{th})$ is an [[∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]], exhibited by the triple of adjunctions
+
+$$
+  (i^* \dashv i_* \dashv i^!) : 
+  SynthDiff \infty Grpd \to Smooth \infty Grpd
+  \,.
+$$
+
+
+=--
+
+
+### Structures in the presence of infinitesimal cohesion
+
+We discuss structures that are canonically present in 
+a cohesive $(\infty,1)$-topos equipped with infinitesimal cohesion. These structures parallel the [structures in a general cohesive (∞,1)-topos](#Structures).
+
+
+
+
+#### Infinitesimal paths and de Rham spaces
+  {#InfinitesimalPaths}
+ 
+In the presence of [infinitesimal cohesion](#InfinitesimalCohesiveInfTopos) there is an infinitesimal analog of the [geometric paths ∞-groupoids](#Paths).
+
+
++-- {: .un_def #InfinitesimalPathsAndReduction}
+###### Definition
+
+Define the [[adjoint triple]] of [[adjoint (∞,1)-functor]]s corresponding to the [[adjoint quadruple]] $(i_! \dashv i^* \dashv i_* \dashv i^!)$:
+
+$$
+ (\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{dR})
+ : 
+ (i_! i^* \dashv i_* i^* \dashv i_* i^! ) 
+  :
+ \mathbf{H}_{th} 
+  \to 
+ \mathbf{H}_{th}
+  \,.
+$$
+
+For $X\in \mathbf{H}_{th}$ we say that
+
+* $\mathbf{\Pi}_{inf}(X)$ is the **infinitesimal path $\infty$-groupoid** 
+  of $X$;
+
+  The $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] 
+
+  $$
+    X \to \mathbf{\Pi}_{inf}(X)
+  $$
+
+  we call the **constant infinitesimal path inclusion**.
+
+* $\mathbf{Red}(X)$ is the **reduced cohesive $\infty$-groupoid** underlying
+  $X$.
+
+  The $(i_* \dashv i^*)$-[[unit of an adjunction|counit]] 
+
+  $$
+    \mathbf{Red} X \to X
+  $$
+
+  we call the **inclusion of the reduced part** of $X$.
+
+=-- 
+
++-- {: .num_defn #FormalSmoothness}
+###### Definition
+
+We say an object $X \in \mathbf{H}_{th}$ is **formally smooth** if the constant infinitesimal path inclusion
+
+$$
+  X \to \mathbf{\Pi}_{inf}(X)
+$$
+
+is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
+
+
+=--
+
+In this form this is the evident $(\infty,1)$-categorical analog of the conditions as they appear for instance in [SimpsonTeleman, page 7](#SimpsonTeleman).
+
++-- {: .un_note #FormalSmoothnessByCanonicalMorphism}
+###### Note
+
+An object $X \in \mathbf{H}$ is formally smooth according to def. \ref{FormalSmoothness} precisely if the canonical morphism
+
+$$
+  i_! X \to i_* X
+$$
+
+(discussed at [[adjoint quadruple]]) is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The canonical morphism is the composite
+
+$$
+  (i_! \to i_*)
+  :=
+  i_!
+   \stackrel{\eta i_!}{\to}
+  \mathbf{\Pi}_{inf} i_! := i_* i^* i_!
+   \stackrel{\simeq}{\to}
+  i_*  
+  \,.
+$$
+
+By the condition that $i_!$ is a [[full and faithful (∞,1)-functor]] the second morphism here in an [[equivalence in an (∞,1)-category|equivalence]] and hence the component of the composite on $X$ being an effective epimorphism is equivalent to the component $i_! X \to \mathbf{\Pi} i_! X$ being an effective epimorphism.
+
+=--
+
+
+
+In this form this characterization of formal smoothness is the evident generalization of the condition given in [Kontsevich-Rosenberg, section 4.1](#KontsevichRosenbergSpaces). See the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a> at [[Q-category]]. Notice that the notation there is related to the one used here by $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$.
+
+Therefore we have the following more general definition.
+
++-- {: .un_defn #FormalRelativeSmoothnessByCanonicalMorphism}
+###### Definition
+
+For $f : X \to Y$ a morphism in $\mathbf{H}$, we say that 
+
+1. $f$ is a **[[formally smooth morphism]]** if the canonical morphism
+
+   $$
+     i_! X 
+      \to 
+     i^! Y \prod_{i_* Y} i_* Y
+   $$
+
+   is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
+
+1. $f$ is a **[[formally étale morphism]]** if this morphism is an [[equivalence in an (∞,1)-category|equivalence]];
+
+1. $f$ is a **[[formally unramified morphism]]** if this is a [[(-1)-truncated]] morphism. More generally,  $f$ is an _order-$k$ formally unramified morphisms_ for $(-2) \leq k \leq \infty$ if this is a [[k-truncated]] morphism.
+
+=--
+
++-- {: .num_note #MeaningOfFormallyUnramified}
+###### Note
+
+An order-(-2) formally unramified morphism is equivalently a [[formally étale morphism]].
+
+Only for [[0-truncated]] $X$ does formal smoothness together with formal unramifiedness imply formal &#233;taleness.
+
+=--
+
++-- {: .un_prop #RedIsIdempotent}
+###### Observation
+
+The operation $\mathbf{Red}$ is an [[idempotent]] projection of
+$\mathbf{H}_{th}$ onto the image of $\mathbf{H}$
+
+$$
+  \mathbf{Red} \mathbf{Red} \simeq \mathbf{Red}
+  \,.
+$$
+
+Accordingly also
+
+$$
+  \mathbf{\Pi}_{inf} \mathbf{\Pi}_{inf} \simeq \mathbf{\Pi}_{inf}
+$$
+
+and
+
+$$
+  \mathbf{\flat}_{inf} \mathbf{\flat}_{inf} \simeq 
+  \mathbf{\flat}_{inf}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of infinitesimal neighbourhood we have that
+$i_!$ is a [[full and faithful (∞,1)-functor]]. It follows that 
+$i^* i_! \simeq Id$ and hence
+
+$$
+  \begin{aligned}
+    \mathbf{Red} \mathbf{Red}
+    & \simeq
+    i_! i^* i_! i^* 
+    \\
+    & \simeq i_! i^*
+    \\
+    & \simeq \mathbf{Red}
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .un_prop #InclusionOfConstantIntoInfinitesimalIntoAllPaths}
+###### Observation
+
+There is a canonical [[natural transformation]]
+
+$$
+  \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}(X)
+$$
+
+that factors the finite path inclusion through the infinitesimal one
+
+$$
+  \array{
+    && \mathbf{\Pi}_{inf}(X)
+    \\
+    & \nearrow && \searrow
+    \\
+    X &&\to&& \mathbf{\Pi}(X)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is the formula for the unit of the composite adjunction
+$\mathbf{H}_{th} \stackrel{\overset{\Pi_{inf}}{\to}}{\underset{Disc_{inf}}{\leftarrow}} \mathbf{H} \stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\leftarrow}} \infty Grpd$:
+
+$$
+  X \stackrel{i_{inf}X}{\to} Disc_{inf}\Pi_{inf} X
+  \stackrel{Disc_{inf}(i_{\mathbf{H}}\Pi_{inf}X)}{\to}
+  Disc_{\mathbf{H}} Disc_{inf} \Pi_{\mathbf{H}} \Pi_{inf} X
+  =
+  Disc_{\mathbf{H}_{th}} \Pi_{\mathbf{H}_{th}}
+  \,.
+$$
+
+
+=--
+
+
+#### Flat $\infty$-connections and infinitesimal local systems
+  {#StrucInfinitesimalLocalSystem}
+
+
+We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">intrinsic flat cohomology</a> in an infinitesimal neighbourhood.
+
++-- {: .un_def}
+###### Definition
+
+For $X, A \in \mathbf{H}_{th}$ we say that
+
+$$
+  H_{infflat}(X,A) := \pi_0 \mathbf{H}(\mathbf{\Pi}_{inf}(X), A)
+   \simeq
+   \pi_0 \mathbf{H}(X, \mathbf{\flat}_{inf}A)
+$$
+
+is the **infinitesimal flat cohomology** of $X$ with coefficient in $A$.
+
+=--
+
+By the [above observation](#InclusionOfConstantIntoInfinitesimalIntoAllPaths) 
+we have canonical morphisms
+
+$$
+  \mathbf{H}_{flat}(X,A) 
+    \to  
+  \mathbf{H}_{infflat}(X,A)
+    \to
+  \mathbf{H}(X,A)
+$$
+
+The objects on the left are [[principal ∞-bundle]]s equipped with flat [[connection on an ∞-bundle|∞-connection]]. The first morphism forgets their [[higher parallel transport]] along finite volumes and just remembers the parallel transport along infinitesimal volumes. The last morphism finally forgets also this connection information.
+
+
+#### Formal cohesive $\infty$-groupoids
+ {#LieAlgebroids}
+
+The infinitesimal analog of [exponentiated ∞-Lie algebra](#LieAlgebras) are [[formal cohesive ∞-groupoid]]s.
+
++-- {: .un_def #InfinitesimalObject}
+###### Definition
+
+An object $X \in \mathbf{H}_{th}$ is an 
+**infinitesimal cohesive $\infty$-groupoid** if 
+$\mathbf{\Pi}_{inf} X \simeq *$.
+
+An [[∞-group]] object $\mathfrak{g} \in \mathbf{H}_{th}$ that is infinitesimal we call an **[[formal ∞-group]]** . 
+
+For $X \in \mathbf{H}$ any object, we say 
+$\mathfrak{a} \in \mathbf{H}_{th}$ is a
+**[[formal cohesive ∞-groupoid]] over $X$** if $\mathbf{\Pi}_{inf}(\mathfrak{a}) \simeq \mathbf{\Pi}_{inf}(X)$; equivalently: if there is a morphism
+
+$$
+  \mathfrak{a} \to \mathbf{\Pi}_{inf}(X)
+$$
+
+that serves as [[generalized the|the]] $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] on $\mathfrak{a}$, hence as the [infinitesimal path inclusion](#InfinitesimalPathsAndReduction) for $\mathfrak{a}$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+An infinitesimal cohesive $\infty$-groupoid
+is both geometrically contractible and has as underlying discrete $\infty$-groupoid the point:
+
+* $\Pi X \simeq *$
+
+* $\Gamma X \simeq {*}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is implied by the fact that 
+both $i_!$ as well as $i_*$ are full and faithful. This means that
+if $\mathbf{\Pi}_{\mathrm{inf}}(X) \simeq *$ then already $i^* X = \Pi_{\mathrm{inf}}(X) \simeq *$.
+Since $\Pi_{\mathbf{H}_{\mathrm{th}}} \simeq \Pi_{\mathbf{H}} \Pi_{\mathrm{inf}}$ and 
+$\Pi_{\mathbf{H}}$ preserves the terminal object by cohesiveness, this implies the first claim.
+ 
+The second statement follows by 
+$$
+  \begin{aligned}
+    \Gamma X & \simeq \mathbf{H}_{\mathrm{th}}(*,X)
+     \\
+     & \simeq \mathbf{H}_{\mathrm{th}}(\mathbf{Red}*, X)
+     \\
+     & \simeq \mathbf{H}_{\mathrm{th}}(*, \mathbf{\Pi}_{\mathrm{inf}}(X))
+     \\
+     & \simeq \mathbf{H}_{\mathrm{th}}(*,*)
+     \\
+     & \simeq *
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
+
++-- {: .un_prop}
+###### Observation
+
+For all $X \in \mathbf{H}$, we have that $X$ and $\mathbf{\Pi}_{inf}(X)$ are [formal cohesive ∞-groupoids](#InfinitesimalObject) over $X$, the first by the constant infinitesmal path inclusion, the second by the identity.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $X$ this is tautological, for $\mathbf{\Pi}(X)$ it follows from the [idempotency of Red](#RedIsIdempotent) and the $(i^* \dashv i_*)$-[[zig-zag identity]].
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+In other contexts the object $\mathbf{\Pi}_{inf}(X)$ is also called the **[[de Rham space]] of $X$**.
+
+Here we may tend to avoid this terminology, since by the [above discussion](#deRhamCohomology) we have a good notion of intrinsic [[de Rham cohomology]] in a cohesive $(\infty,1)$-topos already without introducing infinitesimal cohesion. From this point of view the object $\mathbf{\Pi}_{inf}(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represents de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly infinitesimal way.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The [[delooping]] $\mathbf{B}\mathfrak{g}$ of an [formal cohesive ∞-group](#InfinitesimalObject) $\mathfrak{g}$ is an [[formal cohesive ∞-groupoid]] over the point.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since both $i^*$ and $i_*$ are [[right adjoint]], the [infinitesimal path ∞-groupoid functor](#InfinitesimalPathsAndReduction) commutes with [[delooping]]. Therefore 
+
+$$
+  \begin{aligned}
+    \mathbf{\Pi}_{inf} \mathbf{B}\mathfrak{g}
+    & \simeq
+    \mathbf{B} \mathbf{\Pi}_{inf} \mathfrak{g}
+    \\
+    & \simeq \mathbf{B} *
+    \\
+    & \simeq *
+    \\
+    & \simeq \mathbf{\Pi}_{inf} *
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+An [infinitesimal cohesive ∞-groupoid](#InfinitesimalObject) 
+$X \in \mathbf{H}_{th}$ is both [geometrically contractible](#ExponentiatedLieAsGeometricallyContractible) and has as underlying [[discrete ∞-groupoid]] the point:
+
+* $\Pi X \simeq *$
+
+* $\Gamma X \simeq *$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows with using the [above observation](#InfinitesimalInclusionIfFullAndFaithful) from the full and faithfulness of $i_!$ and $i_*$.
+
+The former implies that with $\mathbf{\Pi}_{inf}(X) \simeq *$ already $i^*X  = \Pi_{inf}X = *$. Since $\Pi_{\mathbf{H}_{th}} \simeq \Pi_{\mathbf{H}} \Pi_{inf}$ and since $\Pi_{\mathbf{H}}$ preserves the point by cohesiveness, this implies the first claim.
+
+For the latter we compute
+
+$$
+  \begin{aligned}
+    \Gamma X & \simeq \mathbf{H}_{th}(*,X)
+     \\
+     & \simeq \mathbf{H}_{th}(\mathbf{Red}*, X)
+     \\
+     & \simeq \mathbf{H}_{th}(*, \mathbf{\Pi}_{inf}(X))
+     \\
+     & \simeq \mathbf{H}_{th}(*,*)
+     \\
+     & \simeq *
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
+#### Lie theory {#LieTheory} 
+
+(...)
+
+
+#### Deformation theory {#StrucDeformationTheory}
+
+(...)
+
+## Examples
+
+* [[synthetic differential ∞-groupoid]]
+
+## References
+
+
+The [[category theory|category-theoretic]] definition of [[cohesive topos]] was proposed by [[Bill Lawvere]]. See the references at [[cohesive topos]].
+
+The observation that the further left adjoint $\Pi$ in a [[locally ∞-connected (∞,1)-topos]] defines an intrinsic notion of paths and [[geometric homotopy groups in an (∞,1)-topos]] was suggested by [[Richard Williamson]].
+
+The observation that the further right adjoint $coDisc$ in a [[local (∞,1)-topos]] serves to characterize [[concrete sheaf|concrete (∞,1)-sheaves]] was amplified by [[David Carchedi]].
+
+Several aspects of the discussion here are, more or less explicitly, in 
+
+* [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+{#SimpsonTeleman}
+
+For instance something analogous to the notion of [[infinity-connected (infinity,1)-site|∞-connected site]] and the 
+[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] is the content of section 2.16.  The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3.
+
+
+The characterization of infinitesimal extensions and formal smoothness by adjoint functors is considered in 
+
+* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
+ {#KontsevichRosenbergSpaces}
+
+in the context of _[[Q-categories]]_ .
+
+Some of the material discussed here is in section 2 of
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
+
+A commented list of related references is at
+
+* [[schreiber:differential cohomology in an (∞,1)-topos -- references
+  |differential cohomology in a cohesive topos -- references]]
+
+
+[[!redirects  cohesive (∞,1)-topos -- infinitesimal cohesion]]
