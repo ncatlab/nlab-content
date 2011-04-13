@@ -588,6 +588,7 @@ A classical article that amplifies the expression of Postnikov towers in terms o
 [[!redirects 3-truncated]]
 [[!redirects 4-truncated]]
 [[!redirects n-truncated]]
+[[!redirects k-truncated]]
 
 
 [[!redirects n-truncated object of an (∞,1)-topos]]
