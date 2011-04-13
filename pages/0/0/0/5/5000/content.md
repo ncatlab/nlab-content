@@ -1,6 +1,6 @@
 # Books in algebraic geometry
 
-We should limit to books which we can really recommend, either by their special content, approach or pedagogical value. Historically fine but outdated books are in a separate historical section below. The outstanding surveys may be added to the lists if they are not too specialized to minor directions: the subfields may be covered in separate lists. See also MathOverflow discussion [best-algebraic-geometry-text-book-other-than-hartshorne](http://mathoverflow.net/questions/2446/best-algebraic-geometry-text-book-other-than-hartshorne).
+We should limit to books which we can really recommend, either by their special content, approach or pedagogical value. Historically fine but outdated books are in a separate historical section below. The outstanding surveys may be added to the lists if they are not too specialized to minor directions: the subfields may be covered in separate lists. See also MathOverflow discussions [best-algebraic-geometry-text-book-other-than-hartshorne](http://mathoverflow.net/questions/2446/best-algebraic-geometry-text-book-other-than-hartshorne), [life-after-hartshorne-the-book](http://mathoverflow.net/questions/61515/life-after-hartshorne-the-book-not-the-person)
 
 * table of contents
 {: toc}
@@ -34,21 +34,12 @@ We should limit to books which we can really recommend, either by their special 
 * R. Hartshorne, _Residues and duality_
 * A. Grothendieck et al. _Dix exposes sur la cohomologie des schemas_, North Holland, Amsterdam, 1968.
 
-
-## Complex-analytic approach
-
-* P. Griffiths, J. Harris, _Principles of algebraic geometry_
-* Phillip A. Griffiths, _Introduction to algebraic curves_
-* [[Daniel Huybrechts]], _Complex geometry - an introduction_, Springer (2004). Universitext. 309 pages.
-
-
 ## Background in commutative algebra
 
 * M. Atiyah, I. G. Macdonald, _Introduction to commutative algebra_, 1969, 1994
 * H. Matsumura, _Commutative algebra_, 2 vols.; see also the online summary notes by D. Murfet, [Matsumura.pdf](http://therisingsea.org/notes/Matsumura.pdf), [Matsumura-Part2.pdf](http://therisingsea.org/notes/Matsumura-Part2.pdf)
 * D. Eisenbud, _Commutative algebra: with a view toward algebraic geometry_, Grad. Texts in Math. 150, Springer-Verlag 1995. 
 * James Milne, _A primer of commutative algebra_, (online notes in progress) [webpage](http://www.jmilne.org/math/xnotes/ca.html), [pdf](http://www.jmilne.org/math/xnotes/CA.pdf)
-
 
 ## Algebraic groups/group schemes; Fourier-Mukai transform 
 
@@ -63,7 +54,20 @@ Bull. London Math. Soc. (1980) 12 (6): 476-478, [doi](http://dx.doi.org/10.1112/
 * J. S. Milne, _Abelian varieties_, course notes, [pdf](http://www.jmilne.org/math/CourseNotes/AV.pdf)
 * [[Daniel Huybrechts]], _Fourier-Mukai transforms in algebraic geometry_, Oxford Mathematical Monographs. 2006. 307 pages.
 * Andr&#233; Weil, _Courbes alg&#233;briques et vari&#233;t&#233;s ab&#233;liennes_, Paris: Hermann 1971
+* C. Bartocci, Ugo Bruzzo, D. Hernandez Ruiperez, _Fourier-Mukai and Nahm transforms in geometry and mathematical physics_, Progress in Mathematics __276__, Birkhauser 2009.
 
+## Complex-analytic approach
+
+* P. Griffiths, J. Harris, _Principles of algebraic geometry_
+* Phillip A. Griffiths, _Introduction to algebraic curves_
+* [[Daniel Huybrechts]], _Complex geometry - an introduction_, Springer (2004). Universitext. 309 pages.
+
+## Mori program and birational geometry
+
+* J&#225;nos Koll&#225;r, Shigefumi Mori, _Birational geometry of algebraic varieties_, 
+With the collaboration of C. H. Clemens and A. Corti. Translated from the 1998 Japanese original. Cambridge Tracts in Math. 134 (1998), viii+254 pp. 
+* Kenji Matsuki, _Introduction to the Mori program_, Universitext. Springer 2002. xxiv+478 pp. [MR2002m:14011](http://www.ams.org/mathscinet-getitem?mr=1875410)
+* Herbert Clemens, J&#225;nos Koll&#225;r, Shigefumi Mori, _Higher-dimensional complex geometry_, Ast&#233;risque __166__ (1988), 144 pp. (1989). 
 
 ## Arithmetic aspects
 
@@ -74,7 +78,7 @@ Bull. London Math. Soc. (1980) 12 (6): 476-478, [doi](http://dx.doi.org/10.1112/
 * Joseph H. Silverman, _The Arithmetic of Elliptic Curves_, Graduate Texts in Math. __106__, Springer 1986; _Advanced Topics in the Arithmetic of Elliptic Curves_ Graduate Texts in Mathl. __151__, Springer 1994.
 * J. H. Silverman, John Tate, _Rational Points on Elliptic Curves_, Springer 1992.
 * [[Gerd Faltings]], _Lectures on arithmetic Riemann-Roch theorem_, Annals of Math. Studies __127__, Princeton Univ. Press 1992
-
+* S. Bosch, W. L&#252;tkebohmert, M. Raynaud, _N&#233;ron models_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Springer 1990. x+325 pp. [MR91i:14034](http://www.ams.org/mathscinet-getitem?mr=1045822)
 
 ## Cohomology theories for schemes
 
@@ -106,7 +110,7 @@ Things like Groebner bases, combinatorical methods with toric varieties etc.
 
 ## Historical but now outdated
 
-While many of these fine books are still pleasure for some readers, they do not capture the modern viewpoint and have old notation to be regularly used. But one should be aware of them; and sometime unique material exposed there. 
+While many of these fine books are still pleasure for some readers, they do not capture the modern viewpoint and have maybe too old notation to be regularly used. But one should be aware of them, and of sometimes unique material exposed there. 
 
 * W. V. D. Hodge, Daniel Pedoe, _Methods of algebraic geometry_, 3 vols. (see review by Coxeter in Bull. Amer. Math. Soc. __55__, 3, part 1 (1949), 315-316, [euclid](http://projecteuclid.org/euclid.bams/1183513548))
 * F. Severi, Vol. I (1942): Serie, sistemi d'equivalenza e correspondenze algebriche sulle varieta algebriche. Vol. I I (1958) and I I I (1959): Geometria dei sistemi algebrici sopra una superficie e sopra una varieta algebrica.
