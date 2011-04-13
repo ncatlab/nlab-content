@@ -1,4 +1,9 @@
-__Pierre Gabriel__ (sometimes as Peter Gabriel, bio data hard to find) -- a Swiss mathematician, professor at Z&#252;rich, was a president of Swiss Mathematical Society in 1980/1981. A version of his PhD thesis has been published as [[Des catégories abéliennes]] in 1962. His thesis was a major breakthrough in the theory of [[localization]], and the study of [[abelian categories]], including categories of [[quasicoherent sheaves]] on schemes. In retrospective, it can be said that it was in its ideas and methods one of the starting points of modern [[noncommutative algebraic geometry]] as well. 
+__Pierre Gabriel__ (sometimes as Peter Gabriel, born 1933) -- a French and Swiss mathematician, professor at Z&#252;rich, was a president of Swiss Mathematical Society in 1980/1981. 
+
+* The [English wikipedia](http://en.wikipedia.org/wiki/Pierre_Gabriel) gives almost nothing, but there is some bio material 
+at [German wikipedia](http://de.wikipedia.org/wiki/Pierre_Gabriel)
+
+A version of Gabriel's PhD thesis has been published as [[Des catégories abéliennes]] in 1962. His thesis was a major breakthrough in the theory of [[localization]], and the study of [[abelian categories]], including categories of [[quasicoherent sheaves]] on schemes. In retrospective, it can be said that it was in its ideas and methods one of the starting points of modern [[noncommutative algebraic geometry]] as well. 
 
 Gabriel assisted [[Grothendieck]] in reformulating the [[pseudofunctor]] version of [[descent theory]] in invariant (property characterized way) i.e. as [[fibered categories]] which he wrote up under the guidance of Grothendieck in SGA I.6. Gabriel contributed to some other parts of SGA, namely in study of [[group schemes]] and [[formal schemes]], e.g. in SGA III.2 (Exp. 7a, P. Gabriel, &#201;tude infinit&#233;simale des sch&#233;mas en groupe et groupes formels; Exp. 7b, P. Gabriel, Groupes formels). Soon after with Demazure writes a first tome of an unfinished but monumental work on [[algebraic group]]s which, more than EGA, emphasised [[functor of points]] view. 
 
