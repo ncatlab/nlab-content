@@ -210,6 +210,43 @@ The discussion that goes here is at
 
 * [[∞-Lie algebroid]].
 
++-- {: .num_prop}
+###### Proposition
+
+For $X$ a [[smooth manifold]], write $T X \in L_\infty Algd \hookrightarrow [CartSp_{synthdiff}^{op}, sSet]$ for its [[tangent Lie algebroid]], regarded as a simplicial presheaf according to ...  and hence as a presentation for an object in $SynthDiff \infty Grpd$.
+
+We have an equialence
+
+$$
+  \mathbf{\Pi}_{inf}(T X) \simeeq \mathbf{\Pi}_{inf}(X)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+According to ...
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $(\mathfrak{a} \to T X) \in L_\infty Algd \hookrightarrow [CartSp_{synthdiff}, sSet]$ an [[L-∞ algebroid]] over a 
+[[smooth manifold]] . Then 
+$\mathfrak{a}$ presents an $\infty$-Lie algebroid in 
+$SynthDiff \infty Grpd$ in the general abstract sense of 
+...  in that 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+=--
 
 ### Paths and geometric Postnikov towers 
   {#StrucPaths}
