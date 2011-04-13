@@ -60,7 +60,7 @@ The two-cell in question is given here by $\ell \cdot (\Phi A \circ r) \cdot (\e
 
 ## Definition
 
-A two-sided fibration $A \leftarrow E \to B$ in $K$ is **discrete** if it is [[discrete]] as an object of $K/A \times B$.
+A two-sided fibration $A \leftarrow E \to B$ in $K$ is **discrete** if it is [[discrete object|discrete]] as an object of $K/A \times B$.
 
 For Grothendieck fibrations in [[Cat]], this means the following.
 
@@ -313,10 +313,12 @@ The category $E_F$ is equivalently characterizd as being the [[comma category]] 
 
 =--
 
+Note that profunctors can also be characterized by their collages, these being the two-sided [[codiscrete cofibrations]]; and the collage corresponding to a two-sided fibration is its [[cocomma object]].
+
 
 ## Related concepts
 
-* [[Grothendieck fibration]], **two-sided fibration**,
+* [[Grothendieck fibration]], [[Street fibration]], [[discrete fibration]], **two-sided fibration**,
 
 * [[Cartesian fibration]]
 
@@ -324,9 +326,9 @@ The category $E_F$ is equivalently characterizd as being the [[comma category]] 
 
 The notion is originally discussed in
 
-* [[Ross Street]], Ross Street. Fibrations and Yoneda's lemma in a 2-category. In Category Seminar (Proc. Sem., Sydney, 1972/1973), pages 104  133. Lecture Notes in Math., Vol. 420. Springer, Berlin, 1974.
+* [[Ross Street]]. _Fibrations and Yoneda's lemma in a 2-category_. In Category Seminar (Proc. Sem., Sydney, 1972/1973), pages 104  133. Lecture Notes in Math., Vol. 420. Springer, Berlin, 1974.
 
-* [[Ross Street]], _Fibrations in bicategories_ Cahiers Topologie G&#233;om. Diff&#233;rentielle,
+* [[Ross Street]], _Fibrations in bicategories_. Cahiers Topologie G&#233;om. Diff&#233;rentielle,
 21(2):111{160, 1980. (Corrections in 28(1):53{56, 1987)
 
 A useful review is in
