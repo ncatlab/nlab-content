@@ -96,6 +96,11 @@
 * [[super L-∞ algebra]]
 
   * [[super Lie algebra]]
+
+## Formal Lie groupoids
+
+* [[formal group]], [[formal groupoid]]
+
 ## Cohomology
 
 * [[Lie algebra cohomology]]
