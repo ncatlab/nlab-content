@@ -254,18 +254,88 @@ For more on this see
 ## Properties
  {#Properties}
 
++-- {: .num_prop #UniquenessOfAdjoints}
+###### Proposition
+
+If a functor $R$ has a [[left adjoint]] $L$, then $L$ is unique up to unique [[isomorphism]]. 
+
+If a functor $L$ has a [[right adjoint]] $R$, then $R$ is unique up to unique [[isomorphism]]. 
+
+
+=--
+
++-- {: .num_prop #AdjointsPreserveCoLimits}
+###### Proposition
+
+Let $(L \dashv R) : D \to C$ be a pair of adjoint functors. Then
+
+* $L$ [[preserved limit|preserves]] all [[colimits]] that may exist in $C$, 
+
+* $R$ preserves all [[limits]] in $D$.  
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $y : I \to D$ be a [[diagram]] whose [[limit]] $\lim_{\leftarrow_i} y_i$ exists. Then we have a sequence of [[natural isomorphism]]s, natural in $x \in C$
+
+$$
+  \begin{aligned}
+    C(x, R {\lim_\leftarrow}_i y_i)
+    &  \simeq
+    D(L x, {\lim_\leftarrow}_i y_i)
+    \\
+    & \simeq
+    {\lim_\leftarrow}_i D(L x, y_i)
+    \\
+    & \simeq
+    {\lim_\leftarrow}_i D( x, R y_i)
+    \\  
+    & \simeq
+    D( x, {\lim_\leftarrow}_i R y_i)
+    \,,
+  \end{aligned}
+$$
+where we used the adjunction isomorphism and the fact that any [[hom-functor]] preserves limits (see there). Because this is natural in $x$ the [[Yoneda lemma]] implis that we have an [[isomorphism]]
+
+$$
+  R {\lim_\leftarrow}_i y_i
+  \simeq
+  {\lim_\leftarrow}_i R y_i
+  \,.
+$$
+
+The argument that shows the preservation of colimits by $L$ is analogous.
+
+=--
+
++-- {: .num_note #AdjointFunctorTheorem}
+###### Note
+
+A partial converse to this fact is provided by the [[adjoint functor theorem]].
+
+=--
+
 +-- {: .num_prop #FullyFaithfulAndInvertibleAdjoints}
 ###### Proposition
 
 
-Let $L \dashv R$ be a pair of adjoint functors. We have the following
+Let $L \dashv R$ be a pair of adjoint functors. Then the following holds.
 
-* ($R$ is [[full and faithful functor|full and faithful]])
-  $\Leftrightarrow$ ($\epsilon : L \circ R \stackrel{\simeq}{\to} Id_D$)
+* $R$ is [[full and faithful functor|full and faithful]] 
+  (exhibits a [[reflective subcategory]])
+  precisely if
+  the [[unit of an adjunction|counit]] is a [[natural isomorphism]] 
+  $\eta : L \circ R \stackrel{\simeq}{\to} Id_D$
 
-* ($L$ is [[full and faithful functor|full and faithful]]) $\Leftrightarrow$ ($\eta : Id_C \stackrel{\simeq}{\to} R \circ L$)
+* $L$ is [[full and faithful functor|full and faithful]]
+  (exhibits a [[coreflective subcategory]]) precisely if
+  the [[unit of an adjunction|unit]] 
+  is a natural isomorphism 
+  $\epsilon : Id_C \stackrel{\simeq}{\to} R \circ L$.
 
-* the following are equivalent
+* The following are equivalent:
 
   * $L$ and $R$ are both [[full and faithful functor|full and faithful]];
 
@@ -273,11 +343,33 @@ Let $L \dashv R$ be a pair of adjoint functors. We have the following
 
   * $R$ is an [[equivalence of categories|equivalence]].
 
-* $L$ [[preserved limit|preserves]] all [[colimits]] that may exist in $C$, while $R$ preserves all [[limits]] in $D$.  For a partial converse, see the [[adjoint functor theorem]].
-
 
 =--
 
+This statement can be strenghened:
+
++-- {: .num_prop #ReflectionRecognizedByIdempotency}
+###### Proposition
+
+Let $(L \dashv R) : D \to C$ be a pair of [[adjoint functor]] such that there is _any_ [[natural isomorphism]] 
+
+$$
+  L R \simeq Id
+  \,,
+$$
+
+then also the [[unit of an adjunction|counit]] $\epsilon : L R \to Id$ is an isomorphism.
+
+=--
+
+This appears as ([Johnstone, lemma 1.1.1](#Johnstone)).
+
++-- {: .proof}
+###### Proof
+
+Using the given [[isomorphism]], we may transfer the [[comonad]] structure on $L R$ to a comonad structure on $Id_D$. By the [[Eckmann-Hilton argument]] the [[endomorphism monoid]] of $Id_D$ is commutative. Therefore,  since the coproduct on the comonad $Id_D$ is a [[left inverse]] to the counit (by the co-[[unitality]] property applied to this degenerate situation), it is in fact a two-sided [[inverse]] and hence the $Id_D$-counit is an [[isomorphism]]. Transferring this back one finds that also the counit of the comand $L R$, hence of the adjunction $(L \dashv R)$ is an isomorphism.
+
+=--
 
 ## Examples {#Examples}
 
@@ -349,10 +441,18 @@ Let $L \dashv R$ be a pair of adjoint functors. We have the following
 
 ## References
 
+For standard references see any of the standard references on [[category theory]], listed there, for instance 
+
+* [[Francis Borceux]], _Handbook of categorical algebra_, vol 1. 
+
 A video of a pedagogical introduction to adjoint functors is provided by
 
 * [[The Catsters]] ([list](http://www.youtube.com/view_play_list?p=54B49729E5102248))
 
+Some facts on adjoint functors are at the very beginning of
+
+* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_
+ {#Johnstone}
 
 [[!redirects adjoint functors]]
 [[!redirects adjoint pair of functors]]
