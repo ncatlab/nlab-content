@@ -203,48 +203,12 @@ We discuss the realization of the general abstract <a href="http://ncatlab.org/n
 
 Since by the [above discussion](#RelativeInftyConnectedness) $SynthDiff\infty Grpd$ is strongly $\infty$-connected _relative_ to [[Smooth∞Grpd]] all of these structures that depend only on $\infty$-connectedness (and not on [[local (∞,1)-topos|locality]]) acquire a relative version.
 
-### $\infty$-Lie algebras and deformation theory   
+### $\infty$-Lie algebroids and deformation theory   
  {#StrucLieTheory}
 
-Some discussion that goes here is at 
+This subsection is at
 
 * [[∞-Lie algebroid]].
-
-+-- {: .num_prop}
-###### Proposition
-
-Let $(\mathfrak{a} \to T X) \in L_\infty Algd \hookrightarrow [CartSp_{synthdiff}, sSet]$ be an [[L-∞ algebroid]] over a 
-[[smooth manifold]] $X$, regarded as a [[simplicial presheaf]] according to ...  and hence as a presentation for an object in $SynthDiff \infty Grpd$.
-
-We have an equivalence
-
-$$
-  \mathbf{\Pi}_{inf}(\mathfrak{a}) \simeeq \mathbf{\Pi}_{inf}(X)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-According to ... we have that $\mathfrak{a}$ is cofibrant in ... . Therefore we can compute $\mathbf{\Pi}_{inf}(\mathfrak{a}) \simeq i_* i^* \mathfrak{a} \simeq \mathbb{L} ((-) \circ p) \mathbb{L} ((-) \circ i) \mathfrak{a} \simeq ((-) \circ i p ) \mathfrak{a} $.
-
-By ... we have for all $k \in \mathbb{N}$ that  $\mathfrak{a}_k = X \times \tilde D(n, k)$. Therefore $((-) \circ i p ) \mathfrak{a}_k = ((-) \circ i p ) X$ for all $k$. Therefore $((-) \circ i p ) \mathfrak{a} \simeq \mathbf{\Pi}_{inf}(X)$.
-
-
-
-=--
-
-
-+-- {: .num_cor}
-###### Corollary
-
-Every [[L-∞ algebroid]] in the sense of ... is indeed 
-a _formal smooth $\infty$-groupoid_ in the sense of ...
-
-=--
-
 
 
 ### Paths and geometric Postnikov towers 
