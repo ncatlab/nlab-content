@@ -722,7 +722,8 @@ $$
 
 We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">intrinsic flat cohomology</a> in an infinitesimal neighbourhood.
 
-+-- {: .num_defn}
+
++-- {: .num_defn #InfinitesimalFlatCohomology}
 ###### Definition
 
 For $X, A \in \mathbf{H}_{th}$ we say that
@@ -733,9 +734,27 @@ $$
    \pi_0 \mathbf{H}(X, \mathbf{\flat}_{inf}A)
 $$
 
-is the **infinitesimal flat cohomology** of $X$ with coefficient in $A$.
+(where $(\mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is given by def. \ref{InfinitesimalPathsAndReduction}) is the **infinitesimal flat cohomology** of $X$ with coefficient in $A$.
 
 =--
+
++-- {: .num_note #CrystallineCohomology}
+###### Note
+
+In traditional contexts this is also called _[[crystalline cohomology]]_ or just _[[de Rham cohomology]]_ . Since we already have an <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#deRhamCohomology">intrinsic notion of de Rham cohomology</a> in any [[cohesive (∞,1)-topos]], which is similar to but may slightly differ from infinitesimal flat differential cohomology, we shall say **[[synthetic differential geometry|synthetic]] de Rham cohomology** for the notion of def. \ref{InfinitesimalFlatCohomology} if we wish to honor traditional terminology. In this case we shall write
+
+$$
+  H_{dR,synth}(X,A) 
+   := 
+  \pi_0 \mathbf{H}_{th}(\mathbf{\Pi}_{inf}(X), A) 
+  \,.
+$$
+
+=--
+
++-- {: .num_note #FiniteAndInfinitesimalFlatConnections}
+###### Note
+
 
 By the [above observation](#InclusionOfConstantIntoInfinitesimalIntoAllPaths) 
 we have canonical morphisms
@@ -748,13 +767,48 @@ $$
   \mathbf{H}(X,A)
 $$
 
-The objects on the left are [[principal ∞-bundle]]s equipped with flat [[connection on an ∞-bundle|∞-connection]]. The first morphism forgets their [[higher parallel transport]] along finite volumes and just remembers the parallel transport along infinitesimal volumes. The last morphism finally forgets also this connection information.
+The objects on the left are **[[principal ∞-bundle]]s equipped with flat [[connection on an ∞-bundle|∞-connection]]** . The first morphism forgets their [[higher parallel transport]] along finite volumes and just remembers the parallel transport along infinitesimal volumes. The last morphism finally forgets also this connection information.
+
+=--
+
++-- {: .num_defn #deRhamTheorem}
+###### Definition
+
+For $A \in \mathbf{H}_{th}$ an abelian [[∞-group]] object we say that the **[[de Rham theorem]]** for $A$-coefficients holds in $\mathbf{H}_{th}$ if for all $X \in \mathbf{H}_{th}$ the 
+[infinitesimal path inclusion](#spring)
+
+$$
+  \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}(X)
+$$
+
+is an equivalence in $A$-[[cohomology]], hence if for all $n \in \mathbb{N}$ we have that 
+
+$$
+  \pi_0 \mathbf{H}_{th}(\mathbf{\Pi}(X), \mathbf{B}^n A)
+  \to 
+  \pi_0 \mathbf{H}_{th}(\mathbf{\Pi}_{inf}(X), \mathbf{B}^n A)
+$$
+
+is an [[isomorphism]].
+
+=--
+
+If we follow the notation of note \ref{CrystallineCohomology} and moreover write $\vert X \vert = \vert \Pi X \vert$ for the <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#GeometricRealization">intrinsic geometric realization</a>, then this becomes
+
+$$
+  H^{\bullet}_{dR, synth}(X,A) \simeq H^\bullet(|X|, A_{disc})
+  \,,
+$$
+
+where on the right we have ordinary cohomology in [[Top]] (for instance realized as [[singular cohomology]]) with coefficients in the [[discrete group]] $A_{disc} := \Gamma A$ underlying the cohesive group $A$.
+
+In certain context of infinitesimal neighbourhoods of cohesive $\infty$-toposes the de Rham theorem in this form has been considered in ([SimpsonTeleman](#SimpsonTeleman)).
 
 
 #### Formal cohesive $\infty$-groupoids
  {#FormalInfinityGroupoids}
 
-The genuine infinitesimal analog of [exponentiated ∞-Lie algebra](#LieAlgebras) are [[formal cohesive ∞-groupoid]]s.
+The genuine infinitesimal analog of [exponentiated ∞-Lie algebras](#LieAlgebras) are [[formal cohesive ∞-groupoid]]s.
 
 +-- {: .num_defn #InfinitesimalObject}
 ###### Definition
