@@ -710,7 +710,7 @@ In the literature often the relative [[Chern-Simons form]] is considered for "un
 
 =--
 
-Notice that on the [[semisimple Lie algebra]] and [[compact Lie algebra]] $\mathfrak{e}_8$ the [[Killing form]] \langle -,-\rangle in non-degenerate and positive definite (or negative definite, depending on convention). The latter condition means that this integral vanishes precisely if
+Notice that on the [[semisimple Lie algebra]] and [[compact Lie algebra]] $\mathfrak{e}_8$ the [[Killing form]] $\langle -,-\rangle$ is non-degenerate and positive definite (or negative definite, depending on convention). The latter condition means that this integral vanishes precisely if
 
 $$
   \iota_{\partial_t} \langle F_A \wedge F_A \rangle = 0
@@ -761,5 +761,5 @@ The discussion from the point of view of the $\infty$-Chern-Weil homomorphism is
 
 A detailed discussion of the [[quantum anomaly]] of the supergravity C-field -- and its cancellation -- is in
 
-* [[Dan Freed]], [[Greg Moore]], _Setting the quantum integrand of M-theory_ ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135))
+* [[Dan Freed]], [[Greg Moore]], _Setting the quantum integrand of M-theory_ , Communications in mathematical physics,  Volume 263, Number 1, 89-132, DOI: 10.1007/s00220-005-1482-7  ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135))
 
