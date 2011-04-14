@@ -71,6 +71,16 @@
 
 * . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ChernSimonsTheory">higher holonomy and Chern-Simons functional</a>
 
+## Structures with infinitesimal cohesion
+
+* . <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#InfinitesimalPaths">de Rham space</a>
+
+* [[formal cohesive ∞-groupoid]]
+
+* . <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#StrucInfinitesimalLocalSystem">de Rham theorem</a>
+
+
+
 ## Models
 
 
@@ -90,6 +100,13 @@
 
   * [[Lie algebra]], [[Lie algebroid]], [[∞-Lie algebra]], [[∞-Lie algebroid]]
 
+* **[[super ∞-groupoid]]**
+
+  * [[superalgebra]], [[super Lie algebra]], [[super L-∞ algebra]]
+
+* **[[smooth super ∞-groupoid]]**
+
+  [[supergeometry]], [[supermanifold]], [[super Lie group]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/cohesive+infinity-toposes+-+contents)</div>
 
