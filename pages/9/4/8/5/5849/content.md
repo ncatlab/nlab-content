@@ -33,7 +33,9 @@ Every adjoint quadruple
 $$
   (f_! \dashv f^* \dashv f_* \dashv f^!)
   :
-  C \to D
+  C 
+    \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\stackrel{\overset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}}
+  D
 $$ 
 
 induces an [[adjoint triple]] on $C$
@@ -46,8 +48,20 @@ $$
   \,,
 $$
 
-hence a [[monad]] [[left adjoint]] to a [[comonad]] left adjoint to a monad.
+(hence a [[monad]] [[left adjoint]] to a [[comonad]] left adjoint to a monad) and an adjoint triple
 
+$$
+  (f_! f^* \dashv f_* f^* \dashv f_* f^!) : D \to D
+$$
+
+on $D$.
+
+Since moreover every [[adjoint triple]] $(F \dashv G \dashv H)$ induces an [[adjoint functor|adjoint pair]] $(G F \dashv G H)$ and an adjoint pair $(F G \dashv H G)$, the adjoint quadruple above induces four adjoint pairs, such as 
+
+$$
+  (f^* f_* f^* f_! \dashv f^* f_* f^! f_*) : C \to C
+  \,.
+$$
 
 ### Canonical natural transformations
 
