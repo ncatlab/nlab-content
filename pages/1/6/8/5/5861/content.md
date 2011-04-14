@@ -506,6 +506,16 @@ For $X\in \mathbf{H}_{th}$ we say that
 
 =-- 
 
++-- {: .num_remark}
+###### Remark
+
+In traditional contexts the object $\mathbf{\Pi}_{inf}(X)$ is called the **[[de Rham space]] of $X$** or the **de Rham stack of $X$** .
+Here we may tend to avoid this terminology, since by the <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#deRhamCohomology">cohesive (∞,1)-topos -- de Rham cohomology</a> we have a good notion of intrinsic [[de Rham cohomology]] in any [[cohesive (∞,1)-topos]] already without equipping it with infinitesimal cohesion. From this point of view the object $\mathbf{\Pi}_{inf}(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represent de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly ([[synthetic differential geometry|synthetic]]) infinitesimal way.
+
+=--
+
+
+
 +-- {: .num_defn #FormalSmoothness}
 ###### Definition
 
@@ -520,7 +530,7 @@ is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
 =--
 
-In this form this is the evident $(\infty,1)$-categorical analog of the conditions as they appear for instance in [SimpsonTeleman, page 7](#SimpsonTeleman).
+In this form this is the evident $(\infty,1)$-categorical analog of the conditions as they appear for instance in ([SimpsonTeleman, page 7](#SimpsonTeleman)).
 
 +-- {: .num_note #FormalSmoothnessByCanonicalMorphism}
 ###### Note
@@ -531,7 +541,7 @@ $$
   i_! X \to i_* X
 $$
 
-(discussed at [[adjoint quadruple]]) is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
+(induced from the [[adjoint quadruple]] $(i_! \dashv i^* \dashv i_* \dashv i^!)$, see there) is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
 =--
 
@@ -557,7 +567,7 @@ By the condition that $i_!$ is a [[full and faithful (∞,1)-functor]] the secon
 
 
 
-In this form this characterization of formal smoothness is the evident generalization of the condition given in [Kontsevich-Rosenberg, section 4.1](#KontsevichRosenbergSpaces). See the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a> at [[Q-category]]. Notice that the notation there is related to the one used here by $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$.
+In this form this characterization of formal smoothness is the evident generalization of the condition given in ([Kontsevich-Rosenberg, section 4.1](#KontsevichRosenbergSpaces)). See the section _<a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a>_ at _[[Q-category]]_ for more discussion.. Notice that the notation there is related to the one used here by $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$.
 
 Therefore we have the following more general definition.
 
@@ -592,7 +602,7 @@ Only for [[0-truncated]] $X$ does formal smoothness together with formal unramif
 =--
 
 +-- {: .num_prop #RedIsIdempotent}
-###### Observation
+###### Proposition
 
 The operation $\mathbf{Red}$ is an [[idempotent]] projection of
 $\mathbf{H}_{th}$ onto the image of $\mathbf{H}$
@@ -641,6 +651,28 @@ $$
 
 =--
 
++-- {: .num_cor #PiInfXIsFormallySmooth}
+###### Corollary
+
+For every $X \in \mathbf{H}_{th}$, we have that $\mathbf{\Pi}_{inf}(X)$ is formally smooth according to def. 
+\ref(FormalSmoothness).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{RedIsIdempotent} we have that 
+
+$$
+  \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}_{inf} \mathbf{\Pi}_{inf}X
+$$
+
+is an [[equivalence in an (∞,1)-category|equivalence]]. As such it is in particular an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
+
+=--
+
+
 +-- {: .num_prop #InclusionOfConstantIntoInfinitesimalIntoAllPaths}
 ###### Observation
 
@@ -668,7 +700,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is the formula for the unit of the composite adjunction
+This is the formula for the [[unit of an adjunction|unit]] of the composite adjunction
 $\mathbf{H}_{th} \stackrel{\overset{\Pi_{inf}}{\to}}{\underset{Disc_{inf}}{\leftarrow}} \mathbf{H} \stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\leftarrow}} \infty Grpd$:
 
 $$
@@ -800,15 +832,6 @@ For $X$ this is tautological, for $\mathbf{\Pi}(X)$ it follows from the [idempot
 
 =--
 
-
-+-- {: .num_remark}
-###### Remark
-
-In other contexts the object $\mathbf{\Pi}_{inf}(X)$ is also called the **[[de Rham space]] of $X$**.
-
-Here we may tend to avoid this terminology, since by the [above discussion](#deRhamCohomology) we have a good notion of intrinsic [[de Rham cohomology]] in a cohesive $(\infty,1)$-topos already without introducing infinitesimal cohesion. From this point of view the object $\mathbf{\Pi}_{inf}(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represents de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly infinitesimal way.
-
-=--
 
 +-- {: .num_prop}
 ###### Proposition
