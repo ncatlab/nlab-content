@@ -84,15 +84,11 @@ for the [[groupoid]] whose
   are parameterized by their source and target triples together with a closed 3-form  $\omega \in \Omega^3_{\mathbb{Z}}(X)$ with integral [[period]]s, subject to the condition that
 
   $$
-    c_2 -c_1 = CS(\nabla_1,\nabla_2) + F_\omega
+    c_2 -c_1 = CS(\nabla_1,\nabla_2) + \omega
     \,,
   $$
 
-  where 
-
-  * $CS(\nabla_1, \nabla_2)$ is the relative [[nLab:Chern-Simons form]] corresponding to the linear path of connections from $\nabla_1$ to $\nabla_2$ 
-
-  * and $F_\omega$ is the [[nLab:curvature]] 4-form of the differential cohomology class.
+  where $CS(\nabla_1, \nabla_2)$ is the relative [[nLab:Chern-Simons form]] corresponding to the linear path of connections from $\nabla_1$ to $\nabla_2$ 
 
 * the [[composition]] of morphisms 
 
@@ -188,7 +184,7 @@ Some remarks on ways to regard the $C$-field from the point of view of [[∞-Che
 We shall consider the sum of two $C$ fields,  whose curvature is the image in de Rham cohomology of the proper integral class $2 a - \lambda $
 
 Recall from the discussion at [[circle n-bundle with connection]]
-that in the [[cohesive (∞,1)-topos]] $\mathbf{H} := $ [[Smooth∞Grpd]] the circle 3-bundles with local 3-form connection over an [[object]] $Y \in \mathbf{H}$ (for instance a [[smooth manifold]], or an [[orbifold]]) are [[object]]s in the [[3-groupoid]] $\mathbf{H}_{diff}(X, \mathbf{G}^3 U(1))$ that is the [[(∞,1)-pullback]]
+that in the [[cohesive (∞,1)-topos]] $\mathbf{H} := $ [[Smooth∞Grpd]] the circle 3-bundles with local 3-form connection over an [[object]] $Y \in \mathbf{H}$ (for instance a [[smooth manifold]], or an [[orbifold]]) are [[object]]s in the [[3-groupoid]] $\mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))$ that is the [[(∞,1)-pullback]]
 
 $$
   \array{
