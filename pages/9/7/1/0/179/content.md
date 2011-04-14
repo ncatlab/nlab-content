@@ -46,30 +46,24 @@ $$
 ### General abstract definition
  {#GeneralAbstractDefinition}
 
-There is a <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebroids">general abstract definition of ∞-Lie algebroid</a> in infinitesimal cohesive neighbourhoods such as $\Pi_{inf} : SynthDiff\infty Grpd \to Smooth\infty Grpd$:
+There is a <a href="http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#FormalInfinityGroupoids">general abstract definition</a> of [[formal cohesive ∞-groupoid]]s in infinitesimal cohesive neighbourhood contexts such as $\Pi_{inf} : $ [[SynthDiff∞Grpd]] $ \to$  [[Smooth∞Grpd]]:
 
 +-- {: .num_defn #TheGeneralAbstractDefinition}
 ###### Definition
 
-An object $X \in SynthDiff\infty Grpd$ is an 
-**infinitesimal synthetic-differential $\infty$-groupoid** if 
-$\mathbf{\Pi}_{inf} X \simeq *$.
+An object $(\mathfrak{a} \to \mathbf{\Pi}_{inf}(X)) \in SynthDiff\infty Grpd$ over the [[de Rham space|infinitesimal fundamental ∞-groupoid]] 
+is a
+**formal synthetic-differential $\infty$-groupoid** over $X$ if 
+$\mathbf{\Pi}_{inf} \mathfrak{a} \simeq \mathbf{\Pi}_{inf} X$.
 
-An [[∞-group]] object $\mathfrak{g} \in SynthDiff\infty Grpd$ that is infinitesimal we call an **[[∞-Lie algebra]]** . 
-
-For $X \in \mathbf{H}$ any object, we say 
-$\mathfrak{a} \in \mathbf{H}_{th}$ is an 
-**$\infty$-Lie algebroid over $X$** if $\mathbf{\Pi}_{inf}(\mathfrak{a}) \simeq \mathbf{\Pi}_{inf}(X)$; equivalently: if there is a morphism
-
-$$
-  \mathfrak{a} \to \mathbf{\Pi}_{inf}(X)
-$$
-
-that serves as [[generalized the|the]] $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] on $\mathfrak{a}$, hence as the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#InfinitesimalPathsAndReduction">infinitesimal path inclusion</a> for $\mathfrak{a}$.
+An [[∞-group]] object $\mathfrak{g} \in SynthDiff\infty Grpd$ such that its [[delooping]] $\mathbf{B} \mathfrak{g}$ is a [[formal ∞-groupoid]] we call a  **[[formal ∞-group]]** . 
 
 =--
 
-### Presentation by Chevalley-Eilenberg algebras
+An **$\infty$-Lie algebroid** is supposed to be a [[formal cohesive ∞-groupoid]] whose infinitesimal extension is of first order. We now give an explicit presentation of such objects and then show that they do satisfy the abstract def. \ref{TheGeneralAbstractDefinition}.
+
+
+### Presentation by dg-algebras and simplicial presheaves
  {#PresentationByCE}
 
 We consider _presentations_ of the 
@@ -320,7 +314,7 @@ As in the discussion at [[SynthDiff∞Grpd]] we now present this [[cohesive (∞
 +-- {: .num_lemma #CofibrantResolutionOfLinfinityAlgebroid}
 ###### Lemma
 
-For $\mathfrak{a} \in L_\infty Algd$ and $i(\mathfrak{a}) \in [FSmoothMfd^{op}, sSet]_{proj,loc}$ its image in the presentation for $SynthDiff \infty Grpd$,  we have that
+For $\mathfrak{a} \in L_\infty Algd$ and $i(\mathfrak{a}) \in [FSmoothMfd^{op}, sSet]_{proj,loc}$ its image in the standard presentation for [[SynthDiff∞Grpd]],  we have that
 
 $$
   \left(
@@ -339,7 +333,17 @@ is a cofibrant [[resolution]], where $\mathbf{\Delta} : \Delta \to sSet$ is the 
 +-- {: .proof}
 ###### Proof
 
-The [[coend]] over the [[tensoring]] 
+We have
+
+1. The [[fat simplex]] is cofibrant in $[\Delta, sSet_{Quillen}]_{proj}$. 
+
+1. The canonical morphism $\mathbf{\Delta} \to Delta$ is a weak equivalence between cofibrant objects in the [[Reedy model structure]] $[\Delta, sSet_{Quillen}]_{Reedy}$.
+
+1. Because every representable $FSmoothMfd \hookrightarrow [FSmoothMfd^{op}, sSet]_{proj,loc}$ is cofibrant, the object $i(\mathfrak{a})_\bullet \in [\Delta^{op}, [FSmoothMfd^{op}, sSet]_{proj,loc} ]_{inj}$ is cofibrant.
+
+1. Every [[simplicial presheaf]] is cofibrant regarded as an object [[Reedy model structure]] $[\Delta^{op}, [FSmoothMfd^{op}, sSet]_{inj}]_{Reedy}$.
+
+Now the [[coend]] over the [[tensoring]] 
 
 $$
   \int^{[k] \in \Delta}
@@ -352,11 +356,23 @@ $$
   [FSmoothMfd^{op}, sSet]_{proj,loc}
 $$
 
-for the projective and injective [[global model structure on functors]] on the [[simplex category]] and its opposite is a [[Quillen bifunctor]] (as discussed there). We have moreover
+is a [[Quillen bifunctor]] (as discussed there) for the projective and injective [[global model structure on functors]] on the [[simplex category]] and its opposite as indicated. This implies the cofibrancy.
 
-1. The [[fat simplex]] is cofibrant in $[\Delta, sSet_{Quillen}]_{proj}$. 
+It is also a [[Quillen bifunctor]] (as discussed there) for the [[Reedy model structure]]s
 
-1. Because every representable $FSmoothMfd \hookrightarrow [FSmoothMfd^{op}, sSet]_{proj,loc}$ is cofibrant, the object $i(\mathfrak{a})_\bullet \in [\Delta^{op}, [FSmoothMfd^{op}, sSet]_{proj,loc} ]_{inj}$ is cofibrant; 
+$$
+  \int^{[k] \in \Delta}
+  (-)\cdot (-)
+  : 
+  [\Delta, sSet_{Quillen}]_{Reedy} 
+    \times
+  [\Delta^{op}, [FSmoothMfd^{op}, sSet]_{inj} ]_{Reedy}
+  \to 
+  [FSmoothMfd^{op}, sSet]_{inj}
+  \,.
+$$
+
+Using the [[factorization lemma]] this implies the weak equivalence (this is the argument of the [[Bousfield-Kan map]]).
    
 =--
 
@@ -369,7 +385,8 @@ for the projective and injective [[global model structure on functors]] on the [
 Let $\mathfrak{g}$ be an [[L-∞ algebra]], regarded as an $L_\infty$-algebroid $b \mathfrak{g} \in L_\infty Algd$ over the point
 by the embedding of def. \ref{LInfinityAlgebras}.
 
-Then $i(b \mathfrak{g}) \in $ [[SynthDiff∞Grpd]] is an infinitesimal object, in that it is geometrically contractible
+Then $i(b \mathfrak{g}) \in $ [[SynthDiff∞Grpd]] is an 
+<a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#LieAlgebras">infinitesimal cohesive object</a>, in that it is <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#Homotopy">geometrically contractible</a>
 
 $$
   \Pi b \mathfrak{g} \simeq *
@@ -387,7 +404,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We present now [[SynthDiff∞Grpd]] by $[CartSp_{synthdiff}^{op}, sSet]_{proj,loc}$. Since [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]] we have by the discussion there that $\Pi$ is presented by the left [[derived functor]] $\mathbb{L} \lim\to$ of the degreewise [[colimit]] and $\Gamma$ is presented by the left [[derived functor]] of evaluation on the point.
+We present now [[SynthDiff∞Grpd]] by the [[model structure on simplicial presheaves]] $[CartSp_{synthdiff}^{op}, sSet]_{proj,loc}$. Since [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]] we have by the discussion there that $\Pi$ is presented by the left [[derived functor]] $\mathbb{L} \lim\to$ of the degreewise [[colimit]] and $\Gamma$ is presented by the left [[derived functor]] of evaluation on the point.
 
 With lemma \ref{CofibrantResolutionOfLinfinityAlgebroid} we can evaluate 
 
@@ -425,15 +442,83 @@ $$
 
 is a [[Quillen bifunctor]], using that $* \in [\Delta^{op}, sSet_{Quillen}]_{inj}$ is cofibrant.
 
-Similarly, we have degreewise that 
+Similarily, we have degreewise that 
 
 $$
   Hom(*, (b \mathfrak{g})_n) = *
 $$
 
-by the fact that an [[infinitesimally thickened point]] has a single gllobal point. Therefore the claim for $\Gamma$ follows analogously.
+by the fact that an [[infinitesimally thickened point]] has a single global point. Therefore the claim for $\Gamma$ follows analogously.
 
 =--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $(\mathfrak{a} \to T X) \in L_\infty Algd \hookrightarrow [CartSp_{synthdiff}, sSet]$ be an $L_\infty$-algebroid,
+def. \ref{LInftyGlgebroid}, over a 
+[[smooth manifold]] $X$, regarded as a [[simplicial presheaf]]  and hence as a presentation for an object in $SynthDiff \infty Grpd$
+according to def. \ref{EmbeddingOfThePresentation}.
+
+We have an equivalence
+
+$$
+  \mathbf{\Pi}_{inf}(\mathfrak{a}) \simeq \mathbf{\Pi}_{inf}(X)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let first $X = U \in CartSp_{synthdiff}$ be a representable. 
+Then according to prop. \ref{CofibrantResolutionOfLinfinityAlgebroid} we have that 
+
+$$
+  \hat \mathfrak{a}
+  :=
+  \left(
+    \int^{k \in \Delta} \mathbf{\Delta}[k] \cdot \mathfrak{a}_k 
+  \right)
+  \simeq
+  \mathfrak{a}
+$$ 
+
+is cofibrant in
+$[CartSp_{synthdiff}^{op}, sSet]_{proj}$ . Therefore by <a href="http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#InfinitesimalNeighbourhoodFromInfinitesimalSite">this proposition</a> on the presentation of infinitesimal neighbourhoods by [[simplicial presheaves]] over _infinitesimal neighbourhood sites_
+we compute the [[derived functor]]
+
+$$
+  \begin{aligned}
+    \mathbf{\Pi}_{inf}(\mathfrak{a}) & \simeq i_* i^* \mathfrak{a} 
+    \\
+     & \simeq \mathbb{L} ((-) \circ p) \mathbb{L} ((-) \circ i) \mathfrak{a} 
+    \\
+    & \simeq ((-) \circ i p ) \hat \mathfrak{a} 
+  \end{aligned}
+$$
+
+with the notation as used there.
+
+In view of def. \ref{PresentationByMonoidalDoldKan} we have for all $k \in \mathbb{N}$ that  $\mathfrak{a}_k = X \times D$ where $D$ is an [[infinitesimally thickened point]]. Therefore $((-) \circ i p ) \mathfrak{a}_k = ((-) \circ i p ) X$ for all $k$ and hence $((-) \circ i p ) \hat \mathfrak{a} \simeq \mathbf{\Pi}_{inf}(X)$.
+
+For general $X$ choose first a cofibrant [[resolution]] by a [[split hypercover]] that is degreewise a coproduct of representables (which always exists, by the discussion at [[model structure on simplicial presheaves]]), then pull back the above discussion to these covers.
+
+=--
+
+
++-- {: .num_cor #LInfinityAlgebrboidsAreFormalInfinityGroupoids}
+###### Corollary
+
+Every $L_\infty$-algebroid in the sense of 
+def. \ref{LInftyGlgebroid} under the embedding of 
+def. \ref{EmbeddingOfThePresentation} is indeed 
+a [[formal cohesive ∞-groupoid]] in the sense of def. \ref{TheGeneralAbstractDefinition}.
+
+=--
+
+
 
 
 
