@@ -184,15 +184,17 @@ For $\mathbf{H}$ a cohesive $(\infty,1)$-topos, the [[(n,1)-topos|(1,1)-topos]] 
 
 ### Over an $\infty$-cohesive site
 
+We discuss a [[presentable (∞,1)-category|presentation]] of classes of cohesive [[(∞,1)-topos]]es by a [[model structure on simplicial presheaves]] over a suitable [[site]].
 
-+-- {: .un_prop}
+
++-- {: .num_prop #SimplicialPresheavesOverInfinityCohesviveSite}
 ###### Proposition
 
 For $C$ an [[∞-cohesive site] the [[(∞,1)-category of (∞,1)-sheaves]] $(\infty,1)Sh(C)$ over $C$ is a cohesive $(\infty,1)$-topos satisfying the two axioms _[pieces have points](#PiecesHavePoints)_ and _[discrete objects are concrete](#DiscreteObjectsAreConcrete)_ .
 
 =--
 
-See [[∞-cohesive site]].
+The detailed discussion is at [[∞-cohesive site]].
 
 ## Structures in a cohesive $(\infty,1)$-topos {#Structures}
 
@@ -1048,16 +1050,39 @@ is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ 
 We discuss canonical internal realizations of the notions of [[homotopy group]], [[local system]] and [[Galois theory]] in $\mathbf{H}$.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $\mathbf{H}$ a [[locally ∞-connected (∞,1)-topos]] and $X \in \mathbf{H}$ an [[object]], we call $\Pi X \in $ [[∞Grpd]] the 
-[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] of $X$. The ([[categorical homotopy groups in an (∞,1)-topos|categorical]]) [[homotopy group]]s of $\Pi(X)$ we call the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$
+**[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]** of $X$. 
+
+The ([[categorical homotopy groups in an (∞,1)-topos|categorical]]) [[homotopy group]]s of $\Pi(X)$ we call the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$
 
 $$
   \pi_\bullet^{geom}(X) := \pi_\bullet(\Pi (X))
   \,.
 $$
+
+=--
+
++-- {: .num_defn #GeometricRealization}
+###### Definition
+
+
+For $\vert - \vert : $ [[∞Grpd]] $\stackrel{\simeq}{\to}$ [[Top]] the [[homotopy hypothesis]]-[[equivalence of (∞,1)-categories|equivalence]] we write
+
+$$
+  \vert X \vert := \vert \Pi X \vert \in Top
+$$
+
+and call this the [[geometric realization]] of $X$.
+
+=--
+
++-- {: .num_note #GeometricRealizationInTheLiterature}
+###### Note
+
+In presentations of $\mathbf{H}$ by a [[model structure on simplicial presheaves]] as in prop. \ref{SimplicialPresheavesOverInfinityCohesviveSite} this abstract notion reproduces the notion of geometric realization of [[∞-stack]]s in ([Simpson](#Simpson)). See remark 2.22 in ([SimpsonTeleman](#SimpsonTeleman)).
 
 =--
 
@@ -2872,7 +2897,7 @@ the claim follows.
 This is essentially the short exact sequence whose form is familiar from the traditional definition of [[ordinary differential cohomology]] only up to the following slight nuances in notation:
 
 1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[?LieGrpd]], $A = U(1) =\mathbb{R}/\mathbb{Z}$
-the [[circle group]] and $|X| \in Top$ the geometric realization of a paracompact manifold $X$, we have that $H^n(X,\mathbb{R}/\mathbb{Z})$ above is $H^{n+1}_{sing}({|\Pi X|},\mathbb{Z})$. 
+the [[circle group]] and $|X| \in Top$ the [[geometric realization]] of a paracompact manifold $X$, we have that $H^n(X,\mathbb{R}/\mathbb{Z})$ above is $H^{n+1}_{sing}({|\Pi X|},\mathbb{Z})$. 
 
 1. The fact that on the left  of the short exact sequence for differential cohomology we have the de Rham cohomology set $H_{dR}^n(X,A)$ instead of 
 something like the set of all flat forms as familiar from 
@@ -3327,22 +3352,26 @@ Several aspects of the discussion here are, more or less explicitly, in
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 {#SimpsonTeleman}
 
-For instance something analogous to the notion of [[infinity-connected (infinity,1)-site|∞-connected site]] and the 
-[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] is the content of section 2.16.  The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3.
+For instance something similar to the notion of [[infinity-connected (infinity,1)-site|∞-connected site]] and the 
+[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] is the content of section 2.16.  The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3. The notion of geometric realization, \ref{GeometricRealization}, is touched on around remark 2.22, referring to
 
+* [[Carlos Simpson]], _The topological realization of a simplicial presheaf_ , [arXiv:q-alg/9609004](http://arxiv.org/abs/q-alg/9609004).
+ {#Simpson} 
 
-The characterization of infinitesimal extensions and formal smoothness by adjoint functors is considered in 
+But, more or less explicitly, the presentation of geometric realization of simplicial presheaves is much older, going back to Artin-Mazur. See [[geometric homotopy groups in an (∞,1)-topos]] for a detailed commented list of literature.
+
+A characterization of infinitesimal extensions and formal smoothness by adjoint functors (discussed at [[infinitesimal cohesion]]) is considered in 
 
 * [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
  {#KontsevichRosenbergSpaces}
 
 in the context of _[[Q-categories]]_ .
 
-Some of the material discussed here is in section 2 of
+The material presented here is also in section 2 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
 
-A commented list of related references is at
+A commented list of further related references is at
 
 * [[schreiber:differential cohomology in an (∞,1)-topos -- references
   |differential cohomology in a cohesive topos -- references]]
