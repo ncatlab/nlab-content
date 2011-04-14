@@ -37,6 +37,7 @@ $(\infty,1)$-toposes that exhibit the objects of $\mathbf{H}_{th}$
 as infinitesimal cohesive neighbourhoods of objects in 
 $\mathbf{H}$.
 
+### Definition
 
 
 +-- {: .un_defn #InfinitesimalCohesiveInfTopos}
@@ -716,9 +717,9 @@ The objects on the left are [[principal ∞-bundle]]s equipped with flat [[conne
 
 
 #### Formal cohesive $\infty$-groupoids
- {#LieAlgebroids}
+ {#FormalInfinityGroupoids}
 
-The infinitesimal analog of [exponentiated ∞-Lie algebra](#LieAlgebras) are [[formal cohesive ∞-groupoid]]s.
+The genuine infinitesimal analog of [exponentiated ∞-Lie algebra](#LieAlgebras) are [[formal cohesive ∞-groupoid]]s.
 
 +-- {: .un_def #InfinitesimalObject}
 ###### Definition
@@ -924,3 +925,4 @@ A commented list of related references is at
 
 
 [[!redirects  cohesive (∞,1)-topos -- infinitesimal cohesion]]
+[[!redirects infinitesimal cohesion]]
