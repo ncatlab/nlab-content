@@ -15,6 +15,8 @@ When $W=Z$, this is a **polynomial endofunctor**.
 
 Sometimes this general notion is called a **dependent polynomial functor**, with "polynomial (endo)functor" reserved for the "one-variable" case, when $W=Z=1$ is the [[terminal object]].
 
+The data $f$, $g$, and $h$ which specify a polynomial functor is sometimes referred to as a **container** (or an **indexed container**, with *container* reserved for the case $W=Z=1$).  Other times *container* is used as a synonym for "polynomial functor".
+
 If $g$ is an identity, the functor is sometimes called a **linear functor** or a **linear polynomial functor**.  Note that this notion makes sense even if $C$ is not locally cartesian closed; all it needs are [[pullbacks]].  More generally, we can make sense of polynomial functors in any category with pullbacks if we restrict $g$ to be an [[exponentiable morphism]].
 
 
@@ -73,3 +75,6 @@ Note that the above bicategory contains, as a locally full sub-bicategory, the u
 [[!redirects linear polynomial functors]]
 [[!redirects linear polynomial endofunctor]]
 [[!redirects linear polynomial endofunctors]]
+
+[[!redirects container]]
+[[!redirects containers]]
