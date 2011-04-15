@@ -72,8 +72,222 @@ As one of several variations, it is useful to regard a pair of [[vector bundle]]
 
 One version of $\mathbb{Z}_2$-graded vector bundles, which lead to a description of [[twisted cohomology|twisted]] $K$-theory are [[vectorial bundle]]s.
 
+## Definition
 
-## Spectrum ##
+Let $X$ be a [[compact space|compact]] [[Hausdorff space|Hausdorff]] [[topological space]]. Write $k$ for either the [[field]] of [[real number]]s $\mathbb{R}$ or of [[complex number]]s $C$ . By a [[vector space]] we here mean a vector space over $k$ of finite [[dimension]]. By a [[vector bundle]] we mean a topological $k$-vector bundle.  We write $I^n \to X$ for the trivial vector bundle $I^n = k^n \times X$ over $X$ of [[rank]] $n \in \mathbb{N}$.
+
++-- {: .num_lemma #DirectSumHasInverseUpToTrivialBundle}
+###### Lemma
+
+For every vector bundle $E \to X$ (with $X$ compact Hausdorff) there exists a vector bundle $E' \to X$ such that 
+
+$$
+  E \oplus E' \simeq I^{rank E + rank E'}
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+One invokes a [[partition of unity]] relative to an [[open cover]] on which $E$ trivializes, constructs $E'$ locally and glues.
+
+=--
+
+For details see for instance ([Hatcher, prop. 1.4](#Hatcher)) or ([Friedlander, prop. 3.1](#Friedlander)).
+
+
+
++-- {: .num_defn#DefinitionOfKClasses}
+###### Definition
+
+Define an [[equivalence relation]] on the [[set]] of finite-[[rank]] [[vector bundle]]s $E \to X$ over $X$ by declaring that $E_1 \sim E_2$ if there exists $k,l \in \mathbb{N}$ such that there is an [[isomorphism]] of vector bundles between the (fiberwise) [[direct sum]] of $E_1$ with $I^k$ and of $E_2$ with $I^l$
+
+$$
+  (E_1 \sim E_2)
+  :\Leftrightarrow
+  \exists (E_1 \oplus I^k \simeq E_2 \oplus I^l)
+  \,.
+$$
+
+Write 
+
+$$
+  K(X) := Vect(X)_\sim
+$$
+
+for the [[quotient set]] of [[equivalence class]]es. 
+
+=--
+
++-- {: .num_prop #KGroupIsIndeedAGroup}
+###### Proposition
+
+With $X$ compact Hausdorff as in the assumption, we have that fiberwise [[direct sum]] of vector bundles equips $K(X)$ with the structure of an [[abelian group]]. Together with the fiberwise [[tensor product]] of vector bundles this yields a [[ring]]. 
+
+=--
+
+Therefore $K(X)$ is called the **topological K-theory ring** of $X$ or just the **K-theory group** or even just the **K-theory** of $X$, for short.
+
++-- {: .proof}
+###### Proof
+
+The non-trivial part of the statement is that in $K(X)$ there is an [[inverse]] to the operation of direct sum of vector bundles. Because in $Vect(X)$ direct sum acts by addition of the ranks of vector bundles, it clearly has no inverse in $Vect(X)$.
+
+On the other hand, clearly the K-class $[I^n]$ of any trivial bundle $I^n$ is the neutral element in $K(X)$
+
+$$
+  [I^n] = 0
+$$
+
+for all $n \in \mathbb{N}$, because by definition $I^n \sim I^0$. Therefore an inverse of a class $[E_1]$ is given by a vector bundle $E_2$ with the property that the direct sum
+
+$$
+  E_1 \oplus E_2 \simeq I^n
+$$
+
+is isomorphic to a trivial bundle for some $n$. This is the case by lemma \ref{DirectSumHasInverseUpToTrivialBundle}.
+
+
+=--
+
++-- {: .num_prop #EquivalenceToGrothendieckGroup}
+###### Proposition
+
+$K(X)$ is isomorphic to the [[Grothendieck group]] of $(Vect(X), \oplus)$.
+
+=--
+
+However, def. \ref{DefinitionOfKClasses} is more directly related to the definition of K-theory by a classifying space, hence by a [[spectrum]]. This we discuss [below](#ClassifyingSpace).
+
+## Properties
+
+### Classifying space
+ {#ClassifyingSpace}
+
+
++-- {: .num_defn #BUn}
+###### Definition
+
+For $n \in \mathbb{N}$ write $U(n)$ for the [[unitary group]] in dimension $n$ and $O(n)$ for the [[orthogonal group]] in dimension $n$, both regarded as [[topological group]]s in the standard way. Write $B U(n) , B O(n)\in$ [[Top]] $ for the corresponding [[classifying space]].
+
+Write 
+
+$$
+  [X, B O(n)] := \pi_0 Top(X, B O(n))
+$$
+
+and
+
+$$
+  [X, B U(n)] := \pi_0 Top(X, B U(n))
+$$
+
+for the set of [[homotopy]]-classes of [[continuous function]]s $X \to B U(n)$.
+
+=--
+
++-- {: .num_prop #BUnClassifyingSpace}
+###### Proposition
+
+This is equivalently the set of [[isomorphism]] classes of $O(n)$- or $U(n)$-[[principal bundle]]s  on $X$ as well as of rank-$n$ real or complex [[vector bundle]]s on $X$, respectively:
+
+$$
+  [X, B O(n)] \simeq O(n) Bund(X) \simeq Vect_{\mathbb{R}}(X,n)
+  \,,
+$$
+
+$$
+  [X, B U(n)] \simeq U(n) Bund(X) \simeq Vect_{\mathbb{C}}(X,n)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #InclusionOfUns}
+###### Definition
+
+For each $n$ let 
+
+$$
+  U(n) \to U(n+1)
+$$
+
+be the inclusion of [[topological group]]s given by inclusion of $n \times n$ [[matrices]] into $(n+1) \times (n+1)$-matrices given by the block-diagonal form
+
+$$
+  \left[g\right] \mapsto 
+  \left[
+    \array{
+      1 & [0]
+      \\ 
+      [0] & [g]
+    }
+  \right]
+  \,.
+$$
+
+This induces a corresponding sequence of morphisms of classifying spaces, def. \ref{BUn}, in [[Top]]
+
+$$
+  B U(0) \hookrightarrow B U(1) \hookrightarrow B U(2) \hookrightarrow \cdots
+  \,.
+$$
+
+Write 
+
+$$
+  B U := {\lim_{\to}}_{n \in \mathbb{N}} B U(n)
+$$
+
+for the [[colimit]] (the "[[direct limit]]") over this diagram.
+
+=--
+
++-- {: .num_note }
+###### Note
+
+The [[topological space]] $B U$ is **not** equivalent to $B U(\mathcal{H}) $, where $U(\mathcal{H})$ is the [[unitary group]] on a separable infinite-dimensional [[Hilbert space]] $\mathcal{H}$. In fact the latter is [[contractible]], hence has a  [[weak homotopy equivalence]] to the point
+
+$$  
+  B U(\mathcal{H}) \simeq *
+$$
+
+while $B U$ has nontrivial [[homotopy group]]s in arbitrary higher degree. (See below).
+
+But there is the group $U(\mathcal{H})_{\mathcal{K}} \subset U(\mathcal{H})$ of unitary operators that differ from the [[identiy]] by a [[compact operator]]. This is essentially $U = \Omega B U$ (...). See below (...)
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Write $\mathbb{Z}$ for the set of [[integer]]s regarded as a [[discrete topological space]].
+
+The product space
+
+$$
+  B U \times \mathbb{Z}
+$$
+
+is a [[classifying space]] for complex $K$ theory: for every compact Hausdorff topological space $X$, we have an isomorphism of groups
+
+$$
+  K(X)
+  \simeq
+  [X, B U \times \mathbb{Z}]
+  \,.
+$$
+
+=--
+
+See ([Friedlander, prop. 3.2](#Friedlander)).
+
+
+
+### Spectrum 
 
 Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, toplogical K-theory is represented by a [[spectrum]]: the [[K-theory spectrum]].
 
@@ -81,24 +295,12 @@ The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topo
 
 ## References ##
 
-An introductory reference is
+Introductions are in
 
-* Allen Hatcher, _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+* [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+ {#Hatcher}
 
-More advanced material is in ...
+* [[Eric Friedlander]], _An introduction to K-theory_ ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
+ {#Friedlander}
 
-
-
-## Discussion ##
-
-The above idea section was originally at [[K-theory]] where it triggered the following discussion
-
-+--{ .query}
-_Zoran_ What do you mean by originally ?? K-theory was invented by Grothendieck in algebraic geometry and over there it does NOT correspond to an Eilenberg-Steenrod setup. It seems this entry belongs much more to title "topological K-theory" (as opposed to algebraic). Second even for topological case there are real and complex K-theory etc. so not "a cohomology". One of the nlab entries should also put emphasis on the K-theory of OPERATOR algebras (and also to the subject of K-homology, which is not known in geometric terms but in terms of operators), what corresponds to a rather central part of K-theory today, including most of the work in nc geometry. 
-
-[[Urs Schreiber]]: right, I have briefly modified the sentence now and then moved the entire paragraph here to "topological K-theory". Eventually we need a more exhaustive and more comprehensive discussion here and need something general at [[K-theory]].
-
-I made a blog comment about that [here](http://golem.ph.utexas.edu/category/2009/07/being_tentative_on_nlab.html#c025451).
-
-=--
 
