@@ -21,7 +21,7 @@ given a [[Reedy category]] $R$ and a [[model category]] $C$ the **Reedy model st
 
 As opposed to the [[global model structure on functors|projective and injective model structure]] on functors this does not require any further structure on $C$, but instead makes a strong assumption on $R$.
 
-There is a refinement to a notion of $V$-[[enriched Reedy category]] such that if $C$ is a $V$-[[enriched model category]] -- in particular when it is a [[simplicial model category]] for $V = $ [[SSet]] -- the [[enriched functor category]] $[R,C]$ is itself a $V$-[[enriched model category]]. (Reference _Ang_ below.)
+There is a refinement to a notion of $V$-[[enriched Reedy category]] such that if $C$ is a $V$-[[enriched model category]] -- in particular when it is a [[simplicial model category]] for $V = $ [[SSet]] -- the [[enriched functor category]] $[R,C]$ is itself a $V$-[[enriched model category]] (see [Angeltveit](#Angeltveit)). 
 
 
 
@@ -158,7 +158,7 @@ From this we find that for a [[natural transformation]] $\eta : F \to G$
 
 that 
 
-* it is a Reedy cofibration in $[I,C]$ of
+* it is a Reedy cofibration in $[I,C]$ if
 
   * $\eta_0 : F(0) \coprod_{\emptyset} \emptyset = F(0) \to G(0)$ is a cofibration
 
@@ -201,7 +201,7 @@ So in accord with the proposition above one finds that this Reedy model structur
 
 ### Over the tower category 
 
-Let $R = \mathbb{N}^{op} = \{\cdots \to 2 \to 1 \to 0\}$ be the natural numbers regarded as a [[poset]] using the great-than  relation.
+Let $R = \mathbb{N}^{op} = \{\cdots \to 2 \to 1 \to 0\}$ be the natural numbers regarded as a [[poset]] using the greater-than  relation.
 
 With the degree as indicated, this is a Reedy category with $R_- = R$ and $R_+$ containing only identity morphisms.
 
@@ -421,7 +421,7 @@ A review of Reedy model structures is in section A.2.9 of
 The discussion of enriched Reedy model structures is in
 
 * Vigleik Angeltveit, _Enriched Reedy categories_ ([arXiv](http://arxiv.org/abs/math/0612137))
-
+ {#Angeltveit}
 The main statement is theorem 4.7 there.
 
 [[!redirects Reedy model category]]
