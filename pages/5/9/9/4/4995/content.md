@@ -51,7 +51,7 @@ In the first the internal notion of [[Galois theory]] subsumes the usual one (ov
 
 ## Definition
 
-+-- {: .un_defn #CohesiveInfinTopos}
++-- {: .num_defn #CohesiveInfinTopos}
 ###### Definition
 
 An [[(∞,1)-topos]] $\mathbf{H}$ is **cohesive** if
@@ -74,7 +74,7 @@ where $f_!$ preserves [[finite limit|finite]] [[(∞,1)-product]]s.
 
 =--
 
-+-- {: .un_defn #PiecesHavePoints}
++-- {: .num_defn #PiecesHavePoints}
 ###### Definition
 
 We say that **pieces have points** for an object
@@ -93,7 +93,7 @@ is an [[effective epimorphism in an (∞,1)-category]], equivalently (as discuss
 Here the first morphismism is the image under $\Gamma$ of the 
 $(Disc \dashv \Gamma)$-[[unit of an adjunction|unit]] and the second is an inverse of the $(\Pi \dashv Disc)$-counit (which is invertible because $Disc$ is [[full and faithful (∞,1)-functor|full and faithful]] in a [[local (∞,1)-topos]].)
 
-+-- {: .un_defn #DiscreteObjectsAreConcrete}
++-- {: .num_defn #DiscreteObjectsAreConcrete}
 ###### Definition
 
 We say **discrete objects are concrete** in $\mathbf{H}$ if for all
@@ -114,7 +114,7 @@ induces [[monomorphism]]s on all [[categorical homotopy groups in an (infinity,1
 
 
 
-+-- {: .un_prop #PointLike}
++-- {: .num_prop #PointLike}
 ###### Proposition
 
 A nontrivial cohesive $(\infty,1)$-topos
@@ -139,7 +139,7 @@ The third follows from the second, see [[homotopy dimension]].
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark #ThickenedPoint}
 ###### Remark
 
 This says that a cohesive $(\infty,1)$-topos $\mathbf{H}$ is, when itself regarded as a [[little topos]], a generalized [[space]], a _thickened point_ . We may think of it as the standard [[point]] equipped with a _cohesive neighbourhood_ .
@@ -157,7 +157,7 @@ $$
 
 ### General
 
-+-- {: .un_prop}
++-- {: .num_prop #HypercompleteProperty}
 ###### Proposition
 
 Every cohesive $(\infty,1)$-topos is a 
@@ -174,7 +174,7 @@ By the [above proposition](#PointLike) it has finite
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop #Cohesive1Topos}
 ###### Proposition
 
 For $\mathbf{H}$ a cohesive $(\infty,1)$-topos, the [[(n,1)-topos|(1,1)-topos]] $\tau_{\leq 1-1} \mathbf{H}$ of 0-[[truncated]] objects is a [[cohesive topos]].
@@ -213,7 +213,7 @@ equipped with cohesive structure.
 Compare with the section <a href="http://nlab.mathforge.org/nlab/show/cohesive%20topos#ConcreteObjects">Quasitoposes of concrete objects</a> at [[cohesive topos]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop #SubToposesOfDiscreteAndCodiscrete}
 ###### Proposition
 
 On a cohesive $(\infty,1)$-topos $\mathbf{H}$ 
@@ -245,7 +245,7 @@ $(\Gamma \dashv \mathrm{coDisc})$ is indeed an
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop }
 ###### Proposition
 
 
@@ -269,7 +269,7 @@ This follows by general facts discussed at [[reflective sub-(∞,1)-category]].
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 We say a 0-[[truncated]] object $X \in \mathbf{H}$ is 
@@ -299,7 +299,7 @@ a [[concrete sheaf]] in the traditional sense.
 
 ### Geometry and structure sheaves {#GeometryAndStructureSheaves}
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Fix an uncountable [[regular cardinal]] $\kappa$. Let 
@@ -312,7 +312,7 @@ be the full [[sub-(∞,1)-category]] of [concrete objects](#ConcreteObjects) who
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 We equip $\mathcal{G}$ with the canonical structure of a [[geometry (for structured (infinity,1)-toposes)|geometry]]:
@@ -330,7 +330,7 @@ We equip $\mathcal{G}$ with the canonical structure of a [[geometry (for structu
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 This definition indeed makes $\mathcal{G}$ a [[geometry (for structured (infinity,1)-toposes)|geometry]].
@@ -352,7 +352,7 @@ A covering family in $\mathcal{G}$ goes to an effective epimorphism by definitio
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -367,7 +367,7 @@ from $\mathcal{G}$ to the [[over-(∞,1)-topos]] over $X$, where $X^*$ is the [[
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 This makes $\mathbf{H}/X$ a $\mathcal{G}$-[[structured (∞,1)-topos]].
@@ -390,7 +390,7 @@ comes with a notion of [[group object in an (∞,1)-category|∞-group objects]]
 
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
   For $X \in \mathbf{H}$ an object and $x : * \to X$ a point, the 
@@ -413,7 +413,7 @@ comes with a notion of [[group object in an (∞,1)-category|∞-group objects]]
 This object $\Omega_x X$ is canonically equipped with the structure of an [[∞-group]] obect.
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Notice that every [[0-connected]] object $A$ in the cohesive $(\infty,1)$-topos $\mathbf{H}$ does have a global point (then necessarily essentially unique) $* \to A$.
@@ -423,7 +423,7 @@ Notice that every [[0-connected]] object $A$ in the cohesive $(\infty,1)$-topos 
 This follows from the [above proposition](#PointLike) which says that $\mathbf{H}$ necessarily has [[homotopy dimension]] $\leq 0$.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The operation of forming [[loop space object]]s in $\mathbf{H}$ establishes an [[equivalence of (∞,1)-categories]]
@@ -456,7 +456,7 @@ $\mathbf{B}G \in PointedConnected(\mathbf{H}) \hookrightarrow \mathbf{H}$ the
 Notice that since the cohesive $(\infty,1)$-topos $\mathbf{H}$ has [[homotopy dimension]] $0$ by the [above proposition](#PointLike) every 0-connected object has an essentially unique point, but nevertheless the [[homotopy type]] of $*/\mathbf{H}(\mathbf{B}G, \mathbf{B}H)$ may differ from that of $\mathbf{H}(\mathbf{B}G, \mathbf{B}H)$.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
  The delooping object $\mathbf{B}G \in \mathbf{H}$ is concrete preciely if $G$ is.
@@ -465,7 +465,7 @@ Notice that since the cohesive $(\infty,1)$-topos $\mathbf{H}$ has [[homotopy di
 
 We may therefore unambiguously speak of **concrete cohesive $\infty$-groups**.
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 
   For $f : Y \to Z$ any morhism in $\mathbf{H}$
@@ -486,7 +486,7 @@ We may therefore unambiguously speak of **concrete cohesive $\infty$-groups**.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Observation
 
   Suppose that also $Y$ is pointed and $f$ is a morphism of pointed objects.
@@ -514,7 +514,7 @@ This follows from the pasting law for $(\infty,1)$-pullbacks in any
 [[(∞,1)-category]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If the cohesive $(\infty,1)$-topos $\mathbf{H}$ has an [[∞-cohesive site]] of definition $C$, then 
@@ -584,12 +584,14 @@ is
 
 =--
 
-### Cohomology and principal $\infty$-bundles {#Cohomology}
+
+### Cohomology and principal $\infty$-bundles 
+ {#Cohomology}
 
 There is an intrinsic notion of [[cohomology]] and 
 of [[principal ∞-bundles]] in any [[(∞,1)-topos]] $\mathbf{H}$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $X,A \in \mathbf{H}$ two [[object]]s, we say that
@@ -629,7 +631,7 @@ In the context of cohomology on $X$ with coefficients in $A$ we we say that
   $$
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -676,7 +678,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 * The long fiber sequence to the left of $c : \mathbf{B}G \to \mathbf{B}H$ becomes constant on the point after $n$ iterations if $H$ is $n$-[[truncated]]. 
@@ -735,7 +737,7 @@ $$
 We discuss now that $P$ canonically has the structure of a $G$-[[principal ∞-bundle]] and that $\mathbf{B}G$ is the [[fine moduli space]] for $G$-principal $\infty$-bundles.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(principal $G$-action)**
 
@@ -777,7 +779,7 @@ is the **base space** defined by this action.
 We may think of $P//G$ as the **[[action groupoid]]** of the $G$-action on $P$. For us it _defines_ this $G$-action.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The $G$-principal action as defined above satisfies the 
@@ -816,7 +818,7 @@ This principality condition asserts that the groupoid object $P//G$ is [[groupoi
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $X \to \mathbf{B}G$ any morphism, its [[homotopy fiber]] $P \to X$
@@ -969,7 +971,7 @@ to conclude the induction step with the same arguments as before.
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 We say a $G$-principal action of $G$ on $P$ over $X$ is a 
@@ -1005,10 +1007,172 @@ $$
 
 =--
 
+### Twisted cohomology
+ {#TwistedCohomology}
 
 
+A slight variant of [[cohomology]] is often relevant: [[twisted cohomology]].
 
-### Concordance {#Concordance}
++-- {: .num_defn #TwistedCohomologyInOvertopos}
+###### Definition
+
+For $\mathbf{H}$ an [[(∞,1)-topos]] let  $\mathbf{c} : B \to C$ a [[morphism]] representing a [[characteristic class]] $[\mathbf{c}] \in H(B,C)$. Let $C$ be [[pointed object|pointed]] and write  $A \to B$ for its [[homotopy fiber]].
+
+We say that the **[[twisted cohomology]]** with coefficients in $A$ relative to $\mathbf{c}$ is the [[cohomology|intrinsic cohomology]]] of the [[over-(∞,1)-topos]] $\mathbf{H}/C$ with coefficients in $f$.
+
+If $\mathbf{c}$ is understood and $\phi : X \to B$ is any morphism, we write
+
+$$
+  \mathbf{H}_{tw, \phi}(X, A)
+   :=
+  \mathbf{H}/C(\phi, \mathbf{c})
+$$
+
+and speak of the _[[cocycle]] [[∞-groupoid]] of twisted cohomology on $X$ with coefficients in $A$ and twist $\phi$ relative to $[\mathbf{c}]$_ .
+
+=--
+
++-- {: .num_prop #DirectPropsOfTwistedCohomology}
+###### Proposition
+
+We have the following immediate properties of twisted cohomology:
+
+* The $\phi$-twisted cohomology relative to $\mathbf{c}$ depends, up to [[equivalence in an (∞,1)-category|equivalence]], only on the [[characteristic class]] $[\mathbf{c}] \in H(B,C)$ represented by $\mathbf{c}$ and also only on the equivalence class $[\phi] \in H(X,C)$ of the twist.
+
+* If the characteristic class is [[terminal object|terminal]], $\mathbf{c} : B \to *$ we have $A \simeq B$ and the corresponding twisted cohomology is ordinary cohomology with coefficients in $A$.
+
+
+=--
+
++-- {: .num_prop #PullbackCharacterizationOfTwistedCohomology}
+###### Proposition
+
+Let the [[characteristic class]] $\mathbf{c} : B \to C$ and a twist $\phi : X \to C$ be given. Then the cocycle $\infty$-groupoid of twisted $A$-cohomology on $X$ is given by the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{H}_{\phi}(X,A) &\to& {*}
+    \\
+    \downarrow && \downarrow^{\mathrlap{\phi}}
+    \\
+    \mathbf{H}(X,B) &\stackrel{\mathbf{c}_*}{\to}& 
+    \mathbf{H}(X,C)
+  }
+$$
+
+in [[∞Grpd]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is an application of the general pullback-formula for hom-spaces in
+an [[over-(∞,1)-category]]. See there for details.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+If the twist is trivial, $\phi = 0$ (meaning that it factors as $\phi : X \to * \to C$ through the point of the pointed object $C$), the corresponding twisted $A$-cohomology is equivalent to ordinary $A$-cohomology
+
+$$
+  \mathbf{H}_{tw, \phi = 0}(X,A)
+   \simeq  
+  \mathbf{H}(X,A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In this case we have that the characterizing $(\infty,1)$-pullback diagram from prop. \ref{PullbackCharacterizationOfTwistedCohomology} is the image under the [[hom-functor]] $\mathbf{H}(X,-) : \mathbf{H} \to \infty Grpd$ of the pullback diagram $B \stackrel{\mathbf{c}}{\to} C \leftarrow *$. By definition of $A$ as the [[homotopy fiber]] of $\mathbf{c}$,  its pullback is $A$. Since the [[hom-functor]] $\mathbf{H}(X,-)$ preserves [[(∞,1)-pullbacks]] the claim follows:
+
+$$
+  \begin{aligned}
+    \mathbf{H}_{tw, \phi = 0 }(X,A)
+     & \simeq
+    \mathbf{H}(X,B) \prod_{\mathbf{H}(X,C)} \mathbf{H}(X,*)
+     \\
+     & \simeq
+      \mathbf{H}(X, B \prod_C *)
+     \\
+     & \simeq 
+      \mathbf{H}(X,A)
+  \end{aligned} 
+  \,.
+$$
+
+=--
+
++-- {: .num_note }
+###### Note
+
+In applications one is typically interested in situations where the [[characteristic class]] $[\mathbf{c}]$ and the domain $X$ is fixed and the twist $\phi$ varies. Since by prop. \ref{DirectPropsOfTwistedCohomology} only the equivalence class $[\phi] \in H(X,C)$ matters, it is sufficient to pick one representative $\phi$ in each equivalence class. Such as choice is equivalently a choice of [[section]]
+
+$$
+  H(X,C) := \pi_0 \mathbf{H}(X,C) \to \mathbf{H}(X,C)
+$$
+
+of the [[0-truncated|0-truncation]] projection $\mathbf{H}(X,C) \to H(X,C)$ from the cocycle $\infty$-groupoid to the set of cohomology classes. This justifies the following terminology.
+
+=--
+
++-- {: .num_Definition }
+###### Definition
+
+With a [[characteristic class]] $[\mathbf{c}] \in H(B,C)$ with [[homotopy fiber]] $A$ understood, we write
+
+$$
+  \mathbf{H}_{tw}(X,A) := \coprod_{[\phi] \in H(X,C)} \mathbf{H}_{tw, \phi}(X,A)
+$$
+
+for the union of all twisted cohomology cocycle $\infty$-groupoids.
+
+=--
+
++-- {: .num_prop }
+###### Observation
+
+We have that $\mathbf{H}_{tw}(X,A)$ is the [[(∞,1)-pullback]]
+
+
+$$
+  \array{
+     \mathbf{H}_{tw}(X,A) &\stackrel{tw}{\to}& H(X,C)
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbf{H}(X,B)
+       &\stackrel{\mathbf{c}_*}{\to}&
+     \mathbf{H}(X,C)
+  }
+  \,,
+$$
+
+where the right vertical morphism in any section of the projection from $C$-cocycles to $C$-cohomology.
+
+=--
+
++-- {: .num_note }
+###### Note
+
+When the [[(∞,1)-topos]] $\mathbf{H}$ is [[presentable (∞,1)-category|presented]] by a [[model structure on simplicial presheaves]] and model for $X$ and $C$ is chosen, then the cocycle [[∞-groupoid]] $\mathbf{H}(X,C)$ is presented by an explicit [[simplicial presheaf]] $\mathbf{H}(X,C)_{simp} \in sSet$. Once these choices are made, there is therefore the inclusion of simplicial presheaves
+
+$$
+  const (\mathbf{H}(X,C)_{simp})_0 \to \mathbf{H}(X,C)_{simp}
+  \,,
+$$
+
+where on the left we have the simplicially constant object on the vertices of $\mathbf{H}(X,C)_{simp}$. This morphism, in turn, presents a morphism in $\infty Grpd$ that in general contains a multitude of copies of the components of any $H(X,C) \to \mathbf{H}(X,C)$: a multitude of representatives of twists for each cohomology class of twists. Since by the above the twisted cohomology does not depend, up to equivalence, on the choice of representative, the coresponding $(\infty,1)$-pullback yields in general a larger coproduct of $\infty$-groupoids as the corresponding twisted cohomology. This however just contains copies of the [[homotopy type]]s already present in $\mathbf{H}_{tw}(X,A)$ as defined above.
+
+=--
+
+### Concordance 
+  {#Concordance}
 
 Since $\mathbf{H}$ is an [[(∞,1)-topos]] it carries canonically
 the structure of a [[cartesian closed (∞,1)-category]]. For  
@@ -2593,7 +2757,8 @@ for the intrinsic Maurer-Cartan form and call this the intrinsic **universal [[c
 
 
 
-### Differential cohomology {#DifferentialCohomology}
+### Differential cohomology 
+ {#DifferentialCohomology}
 
 In every [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos]] there is an intrinsic notion of [[ordinary differential cohomology]].
 
@@ -2610,7 +2775,7 @@ $$
     H_{dR}^{n+1}(X,A)
 $$ 
 
-for the cocycle $\infty$-groupoid of [[twisted cohomology]] of $X$ with coefficients in $A$ and with twist given by the canonical [curvature characteristic morphism](#CurvatureCharacteristics) 
+for the cocycle $\infty$-groupoid of [[twisted cohomology]], def. \ref{TwistedCohomologyInOvertopos}, of $X$ with coefficients in $A$ and with twist given by the canonical [curvature characteristic morphism](#CurvatureCharacteristics) 
 $curv : \mathbf{B}^n A \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1} A$. This is the [[(∞,1)-pullback]]
 
 $$
