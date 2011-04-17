@@ -1018,19 +1018,21 @@ A slight variant of [[cohomology]] is often relevant: [[twisted cohomology]].
 
 For $\mathbf{H}$ an [[(∞,1)-topos]] let  $\mathbf{c} : B \to C$ a [[morphism]] representing a [[characteristic class]] $[\mathbf{c}] \in H(B,C)$. Let $C$ be [[pointed object|pointed]] and write  $A \to B$ for its [[homotopy fiber]].
 
-We say that the **[[twisted cohomology]]** with coefficients in $A$ relative to $\mathbf{c}$ is the [[cohomology|intrinsic cohomology]]] of the [[over-(∞,1)-topos]] $\mathbf{H}/C$ with coefficients in $f$.
+We say that the **[[twisted cohomology]]** with coefficients in $A$ relative to $\mathbf{c}$ is the [[cohomology|intrinsic cohomology]] of the [[over-(∞,1)-topos]] $\mathbf{H}/C$ with coefficients in $f$.
 
 If $\mathbf{c}$ is understood and $\phi : X \to B$ is any morphism, we write
 
 $$
-  \mathbf{H}_{tw, \phi}(X, A)
+  \mathbf{H}_{\phi}(X, A)
    :=
   \mathbf{H}/C(\phi, \mathbf{c})
 $$
 
-and speak of the _[[cocycle]] [[∞-groupoid]] of twisted cohomology on $X$ with coefficients in $A$ and twist $\phi$ relative to $[\mathbf{c}]$_ .
+and speak of the _[[cocycle]] [[∞-groupoid]] of twisted cohomology on $X$ with coefficients in $A$ and twisting cocycle $\phi$ relative to $[\mathbf{c}]$_ .
 
 =--
+
+For short we often say _twist_ for _twisting cocycle_ .
 
 +-- {: .num_prop #DirectPropsOfTwistedCohomology}
 ###### Proposition
@@ -1072,13 +1074,13 @@ an [[over-(∞,1)-category]]. See there for details.
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #TrivialTwistYieldsOrdinaryCohomology}
 ###### Proposition
 
 If the twist is trivial, $\phi = 0$ (meaning that it factors as $\phi : X \to * \to C$ through the point of the pointed object $C$), the corresponding twisted $A$-cohomology is equivalent to ordinary $A$-cohomology
 
 $$
-  \mathbf{H}_{tw, \phi = 0}(X,A)
+  \mathbf{H}_{\phi = 0}(X,A)
    \simeq  
   \mathbf{H}(X,A)
   \,.
@@ -1093,7 +1095,7 @@ In this case we have that the characterizing $(\infty,1)$-pullback diagram from 
 
 $$
   \begin{aligned}
-    \mathbf{H}_{tw, \phi = 0 }(X,A)
+    \mathbf{H}_{\phi = 0 }(X,A)
      & \simeq
     \mathbf{H}(X,B) \prod_{\mathbf{H}(X,C)} \mathbf{H}(X,*)
      \\
@@ -1108,7 +1110,88 @@ $$
 
 =--
 
-+-- {: .num_note }
+Often twisted cohomology is formulated in terms of homotopy classes of sections of a bundle. The following asserts that this is equivalent to the above definition.
+
+By the discussion at [Cohomology and principal ∞-bundles](#Cohomology) we may understand the twist $\phi : X \to C$ as the cocycle for an $\Omega C$-[[principal ∞-bundle]] over $X$, being the [[(∞,1)-pullback]] of the point inclusion $* \to C$ along $\phi$, where the point is the homotopy-incarnation of the universal $\Omega C$-principal $\infty$-bundle. The [[characteristic class]] $B \to C$ in turn we may think of as an $\Omega A$-bundle [[associated bundle|associated]] to this universal bundle. Accordingly the pullback of $P_\phi := X \times_C B$ is the associated $\Omega A$-bundle over $X$ classified by $\phi$.
+
++-- {: .num_prop #TwistedCohomologyBySections}
+###### Proposition
+
+Let $P_\phi := X \times_C B$ be [[(∞,1)-pullback]] of the [[characteristic class]] $\mathbf{c}$ along the twisting cocycle $\phi$ 
+
+$$
+  \array{
+     P_\phi &\to& B
+     \\
+     {}^{\mathllap{p}}\downarrow && \downarrow^{\mathrlap{\mathbf{c}}}
+     \\
+     X &\stackrel{\phi}{\to}& C
+  }
+  \,.
+$$
+
+Then the $\phi$-twisted $A$-cohomology of $X$ is equivalently the space of [[section]]s $\Gamma_X(P_\phi)$ of $P_\phi$ over $X$:
+
+$$
+  \mathbf{H}_{tw,\phi}(X,A)
+  \simeq
+  \Gamma_X(P_\phi)
+  \,,
+$$
+
+where on the right we have the [[(∞,1)-pullback]]
+
+$$
+  \array{ 
+     \Gamma_X(P_\phi) &\to& *
+     \\
+     \downarrow && \downarrow^{\mathrm{id}}
+     \\
+     \mathbf{H}(X,P_\phi) &\stackrel{p_*}{\to}& \mathbf{H}(X,X)
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[pasting diagram]]
+
+$$
+  \array{
+     \mathbf{H}_{\phi}(X,A) \simeq & \Gamma_\phi(X)
+     &\to& {*}
+     \\
+     & \downarrow && \downarrow^{\mathrlap{id}}
+     \\
+     & \mathbf{H}(X,P_{\phi}) &\stackrel{p_*}{\to}& \mathbf{H}(X,X)
+     \\
+     & \downarrow && \downarrow^{\mathrlap{\phi}_*}
+     \\
+     & \mathbf{H}(X,B) &\stackrel{\mathbf{c}_*}{\to}&
+     \mathbf{H}(X,C)
+  }
+  \,.
+$$
+
+By the fact that the [[hom-functor]] $\mathbf{H}(X,-)$
+preserves [[(∞,1)-limit]]s the bottom square is an [[(∞,1)-pullback]].
+By the [[pasting law]] for [[(∞,1)-pullback]]s so is then the total outer
+diagram. 
+Noticing that the right vertical composite is 
+$* \stackrel{\mathbf{\phi}}{\to} \mathbf{H}(X,C)$ the claim
+follows with 
+prop. \ref{PullbackCharacterizationOfTwistedCohomology}.
+
+
+=--
+
+
+
++-- {: .num_note #CollectingTwistedCohomologyForDifferentTwists}
 ###### Note
 
 In applications one is typically interested in situations where the [[characteristic class]] $[\mathbf{c}]$ and the domain $X$ is fixed and the twist $\phi$ varies. Since by prop. \ref{DirectPropsOfTwistedCohomology} only the equivalence class $[\phi] \in H(X,C)$ matters, it is sufficient to pick one representative $\phi$ in each equivalence class. Such as choice is equivalently a choice of [[section]]
@@ -1121,7 +1204,8 @@ of the [[0-truncated|0-truncation]] projection $\mathbf{H}(X,C) \to H(X,C)$ from
 
 =--
 
-+-- {: .num_Definition }
+
++-- {: .num_defn #TotalTwistedCohomology}
 ###### Definition
 
 With a [[characteristic class]] $[\mathbf{c}] \in H(B,C)$ with [[homotopy fiber]] $A$ understood, we write
@@ -1134,7 +1218,7 @@ for the union of all twisted cohomology cocycle $\infty$-groupoids.
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #TotalTwistedCohomologyByPullback}
 ###### Observation
 
 We have that $\mathbf{H}_{tw}(X,A)$ is the [[(∞,1)-pullback]]
@@ -1157,7 +1241,7 @@ where the right vertical morphism in any section of the projection from $C$-cocy
 
 =--
 
-+-- {: .num_note }
++-- {: .num_note #NoteOnCopiesOfHomotopyFibersForTwistedCohomology}
 ###### Note
 
 When the [[(∞,1)-topos]] $\mathbf{H}$ is [[presentable (∞,1)-category|presented]] by a [[model structure on simplicial presheaves]] and model for $X$ and $C$ is chosen, then the cocycle [[∞-groupoid]] $\mathbf{H}(X,C)$ is presented by an explicit [[simplicial presheaf]] $\mathbf{H}(X,C)_{simp} \in sSet$. Once these choices are made, there is therefore the inclusion of simplicial presheaves
