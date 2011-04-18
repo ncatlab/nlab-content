@@ -211,12 +211,21 @@ The analysis of the Reedy model structure on this involves just a repetition of 
 
 * a natural transformation $\eta : F \to G$ is a fibration precisely if
 
-  * all components $\eta_n : F(n) \to G(n)$ are fibrations
+  * the component $\eta_0 : F(0) \to G(0)$ is a fibration
 
   * all universal morphisms $F(n) \to F(n-1) \times_{G(n-1)} G(n)$ are fibrations.
 
 * the fibrant objects are the towers of fibrations on fibrant objects in $C$.
 
+A detailed discussion of the model structure on towers is for instance in ([GoerssJardine, chapter 6](#GoerssJardine))
+
+By duality it follows that analogously there is a model structure on co-towers
+
+$$
+  X_0 \to X_1 \to X_2 \to \cdots
+$$
+
+in a model category $C$, whose fibrations and weak equivalences are the degreewise ones, and whose cofibrations are those transformations that are a cofibration in degree 0 and where the canonical pushout-morphisms in each square are cofibrations.
 
 ### Over the simplex category {#SimplexCategory}
 
@@ -422,8 +431,13 @@ The discussion of enriched Reedy model structures is in
 
 * Vigleik Angeltveit, _Enriched Reedy categories_ ([arXiv](http://arxiv.org/abs/math/0612137))
  {#Angeltveit}
+
 The main statement is theorem 4.7 there.
 
+The model structure on towers is discussed in section 6 of 
+
+* [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+ {#GoerssJardine}
 [[!redirects Reedy model category]]
 [[!redirects Reedy model categories]]
 
