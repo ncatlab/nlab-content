@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[bundle gerbe]] or [[circle n-bundle with connection|circle 2-bundle]] has a unique [[characteristic class]] in [[integral cohomology]] in degree 3, the higher analog of the [[Chern class]] of a [[circle group]]-[[principal bundle]] (or complex [[line bundle]]): this is called the **Dixmier-Douady class** of the [[bundle gerbe]].
+
+## Definition
+
+The [[classifying space]] of the <a href="http://nlab.mathforge.org/nlab/show/smooth%20infinity-groupoid#CircleLienGroup">circle 2-group</a>$ \mathbf{B}U(1)$ is an [[Eilenberg-MacLane space]] $B \mathbf{B} U(1) \simeq B^3 \mathbb{Z} \simeq K(\mathbb{Z}, 3)$.
+The _Dixmier-Douday class_ is this tautological [[characteristic class]]
+
+$$
+  DD : B B U(1) \stackrel{\simeq}{\to} K(\mathbb{Z}, 3)
+  \,,
+$$
+
+on the classifying space of the circle 2-group, which is really the [[identity]] up to equivalence (a [[weak homotopy equivalence]]).
+
+This means conversely that the [[equivalence class]] of a [[bundle gerbe]] is entirely characterized by its Dixmier-Douady class.
