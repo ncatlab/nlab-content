@@ -23,11 +23,85 @@ Here we write $H_{diff}^\bullet(X)$ for the ordinary differential cohomology gro
 
 ## Properties
 
+### Curvature and characteristic class
+ {#CurvatureAndCharClass}
+
 There are two [[natural transformation|natural]] morphism
 
-1. underlying cocycle $c : H_{diff}^\bullet(X) \to H^\bullet(X,\mathbb{Z})$ produces the cocycle in [[integral cohomology]] that underlies a differential cocycle;
+1. underlying [[characteristic class]] 
 
-1. [[curvature]] $F : H_{diff}^\bullet(X) \to \Omega^\bullet_{cl}(X)$ produces a closed [[differential form]] of degree $n$.
+   $$
+     c : H_{diff}^\bullet(X) \to H^\bullet(X,\mathbb{Z})
+   $$ 
+
+   produces the class [[integral cohomology]] that underlies a differential cocycle;
+
+   * for $H^2_{diff}(X)$ this is called the first [[Chern class]] of a [[line bundle]];
+
+   * for $H^3_{diff}(X)$ this is called the [[Dixmier-Douady class]] of the corresponding [[bundle gerbe]].
+
+1. [[curvature]] 
+
+   $$
+    F : H_{diff}^\bullet(X) \to \Omega^\bullet_{cl}(X)
+   $$ 
+
+   produces a closed [[differential form]] of degree $n$. This happens to land in closed differential forms with integral [[period]]s (see [below](#AbstractProperties)).
+
+
+### Abstract properties
+  {#AbstractProperties}
+
+The following is either a definition, if regarded as an axiomatic characterization of ordinary differential cohomology, or it is an proposition, if regarded as a property of one of the [models](#Models).
+
+Let $X$ be a [[smooth manifold]] and $n \in \mathbb{N}$ with $n \geq 1$ Write
+
+* $H_{diff}^n(X)$ for the ordinary differential cohomology of $X$ in degree $n$;
+
+* $\Omega^{n-1}(X)$ for the collection of [[differential form]]s of degree $n-1$;
+
+* $\Omega^{n-1}_{int}(X)$ for the collection of [[differential form]]s $\omega$ of degree $n-1$ that are closed and whose [[period]]s are integral: for every $\gamma : S^{n-1} \to X$ we have the [[integral]] $\int_{S^{n-1}} \gamma^* \omega \in \mathbb{Z} \hookrightarrow \mathbb{R}$. Similarly for $\Omega^n_{int}(X)$.
+
+* $H^n(X, \mathbb{Z})$ and $H^n(X, U(1))$ for the ordinary cohomology (for instance modeled as [[singular cohomology]]) of $X$ with coefficients in the [[integer]]s or the [[circle group]] (regarded as a [[discrete group]]), respectively.
+
+All of these sets are [[abelian group]]s: the forms under addition of forms, and the differential cohomology classes are defined or proven (depending on the approach, see above) to have abelian group structure such that  the maps to curvatures and characteristic classes, from [above](#CurvatureAndCharClass) are [[homomorphism]]s of [[abelian group]]s.
+
++-- {: .num_prop #ExactSequencesForOrdDiffCohomology}
+###### Proposition
+
+The differential cohomology $H_{diff}^n(X)$ of $X$ fits into [[short exact sequence]]s of abelian groups
+
+1. **curvature exact sequence**
+
+   \[
+     \label{CurvatureSequence}
+     0 \to H^{n-1}(X, U(1)) \to H^n_{diff}(X) \stackrel{F}{\to} \Omega_{int}^n \to 0
+   \]
+
+1. **characteristic class exact sequence**
+
+   \[
+      \label{CharacteristicClassSequence}
+      0 
+       \to 
+      \Omega^{n-1}(X)/\Omega^{n-1}_{int}(X)
+       \to
+      H_{diff}^n(X)
+       \stackrel{c}{\to} 
+      H^n(X, \mathbb{Z})
+       \to
+      0 
+      \,.
+   \]
+
+=--
+
+The first sequence (eq:CurvatureSequence) says in words: two circle $(n-1)$-bundles $n$ whose [[curvature]] coincides differ by a _flat_ [[circle n-bundle with connection|circle (n-2)]]-bundle.
+
+The second sequence (eq:CharacteristicClassSequence) says in words: two connections on the same circle $(n-1)$-bundle differ by a globally defined connection $(n-1)$-form, well defined up to addition of a form with integral periods. 
+
+### Explicit models
+  {#Models}
 
 There are various equivalent [[cocycle]]-models for ordinary differential cohomology. They include
 
