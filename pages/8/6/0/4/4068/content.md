@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 There are 18 countably infinite families and 26 sporadic [[finite group|finite]] [[simple group|simple]] [[group]]s.
 In slightly more detail, a finite simple group is one of the following
 
