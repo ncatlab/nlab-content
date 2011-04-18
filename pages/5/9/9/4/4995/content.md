@@ -3026,7 +3026,7 @@ $$
   \mathbf{B}^{n+1} A
 $$
 
-that [defines](#CurvatureCharacteristics) $curv$ (using that $\mathbf{\flat}$ preserves limits and hence looping and delooping)
+that [defines](#CurvatureCharacteristics) $curv$ (using that $\mathbf{\flat}$ preserves limits and hence looping and delooping).
 
 
 =--
