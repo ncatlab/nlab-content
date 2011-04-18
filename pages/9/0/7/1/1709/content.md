@@ -444,6 +444,10 @@ Notice that there is a canonical map $c : X \to \mathbf{B} \pi_1(X)$, the one th
 Then **$A$-cohomology with local coefficients** on $X$ is nothing but the $c$-twisted $A$-cohomology of $X$ in the above sense.
 
 
+## Related entries
+
+* . <a hrf="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#TwistedCohomology">twisted cohomology</a> in [[cohesive (∞,1)-topos -- structures]]
+
 ## References 
 
 For the special case of [[generalized (Eilenberg?Steenrod) cohomology]] twisted by a $G$-[[principal bundle]] see section 22.1 of
@@ -453,7 +457,7 @@ For the special case of [[generalized (Eilenberg?Steenrod) cohomology]] twisted 
 This in turn is based on the definition of twisted K-theory given in 
 
 * [[Michael Atiyah]] and [[Graeme Segal]], _Twisted K-theory_ . Ukr. Mat. Visn., 1(3):287&#8211;330, 2004.
-&lt;http://front.math.ucdavis.edu/0407.5054>
+<http://front.math.ucdavis.edu/0407.5054>
 
 Details on Larmore's work on twisted cohomology are at
 
