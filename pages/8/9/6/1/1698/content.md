@@ -258,6 +258,10 @@ $$
   \,.
 $$
 
+### Long exact sequences of homotopy groups
+
+See [[long exact sequence of homotopy groups]].
+
 ## Examples
 
 ### Characterization of equivalences {#CharOfEquivalences}
