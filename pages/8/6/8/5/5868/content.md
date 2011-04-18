@@ -1,0 +1,4 @@
+
+* [webpage](http://www.math.kyoto-u.ac.jp/~kgomi/)
+
+category: people
