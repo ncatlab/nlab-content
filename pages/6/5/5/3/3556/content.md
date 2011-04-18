@@ -1,3 +1,5 @@
+> see also [[hyperdoctrine]]
+
 The general concept of hyperdoctrines, introduced by [[Lawvere]], does for predicate logics precisely what Lindenbaum algebras do for propositional logic, positioning the categorification of logic as a natural extension of the algebraicization of logic. As a specific example:
 
 A first-order hyperdoctrine (with equality) consists of a category with finite products $C_T$, along with a functor $P : C_T^{op} \to HeytAlg_{AdjCyl}$ (where $HeytAlg_{AdjCyl}$ is the subcategory of [[HeytAlg|the category of Heyting algebras]] containing only those morphisms with left and right adjoints) such that the following [[Beck-Chevalley condition]] is satisfied: for every object $A$, the left adjoints to $P(\pi)$ for the projections $\pi : A \times - \to -$ comprise a natural transformation from $P(A \times -)$ to $P(-)$, and so do the right adjoints.
