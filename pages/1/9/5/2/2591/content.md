@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 #### $\infty$-Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
@@ -9,10 +13,8 @@
 =--
 =--
 
-$\cdots \to$ [[Fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ **special orthogonal group** $\to$ [[orthogonal group]].
 
 
-***
 
 #Contents#
 * table of contents
@@ -35,3 +37,8 @@ $$
 ## Orientation of manifolds
 
 For $X$ an $n$-dimensional [[manifold]] a lift of [[generalized the|the]] classifying map $X \to \mathcal{B}O(n)$ of the $O(n)$-[[principal bundle]] to which the [[tangent bundle]] $T X$ is [[associated bundle|associated]] is the same as a choice of [[orientation]] of $X$.
+
+## Related concepts
+
+$\cdots \to$ [[Fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ **special orthogonal group** $\to$ [[orthogonal group]].
+
