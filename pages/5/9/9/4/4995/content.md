@@ -2960,7 +2960,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-pullback#QuasiCatPastingLaw">pasting law for (∞,1)-pullbacks</a> the claim is equivalently that we have a an $(\infty,1)$-pullback diagram
+By the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-pullback#QuasiCatPastingLaw">pasting law for (∞,1)-pullbacks</a> the claim is equivalently that we have an $(\infty,1)$-pullback diagram
 
 $$
   \array{
@@ -3031,7 +3031,60 @@ that [defines](#CurvatureCharacteristics) $curv$ (using that $\mathbf{\flat}$ pr
 
 =--
 
-+-- {: .un_prop}
+The following establishes the characteristic [[short exact sequences]] that characterizes intrinsic [[differential cohomology]] as an extension of curvature forms by flat $\infty$-bundles and of bare $\infty$-bundles by connection forms.
+
++-- {: .un_prop #CurvatureExactSequence}
+###### Proposition
+
+Let $im F \subset H_{dR}^{n+1}(X, A)$ be the [[image]] of the curvatures. Then the differential cohomology group $H_{diff}^n(X,A)$ fits into a [[short exact sequence]]
+
+$$
+  0 \to H^n_{flat}(X, A) \to H^n_{diff}(X,A) \to im F \to 0
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply the [[long exact sequence of homotopy groups]] to the [[fiber sequence]] 
+
+$$
+  \mathbf{H}_{flat}(X, \mathbf{B}^n A)
+    \to 
+  \mathbf{H}_{diff}(X, \mathbf{B}^n A)
+   \stackrel{[F]}{\to}
+  H_{dR}^{n+1}(X,A)
+$$
+
+of prop. \ref{DiffCohomologyRestrictedToVanishingCurvature} and use that $H_{dR}^{n+1}(X,A)$ is, as a set, a [[homotopy n-type|homotopy 0-type]] to get the [[short exact sequence]]
+
+$$
+  \array{
+    \pi_1(H_{dR}(X,A))  
+     &\to& 
+    \pi_0(\mathbf{H}_{flat}(X, \mathbf{B}^n A))
+     &\to& 
+    \pi_0(\mathbf{H}_{diff}(X, \mathbf{B}^n A))
+     &\stackrel{[F]}{\to}&
+    \pi_0(H_{dR}^{n+1}(X,A))
+    \\
+    = && = && = && \downarrow
+    \\
+    0 
+      &\to& 
+    H_{flat}^n(X, A) 
+      &\to& 
+    H_{diff}^n(X,A)
+      &\to&
+    im [F]
+  }
+  \,.
+$$
+
+=--
+
++-- {: .un_prop #CharacteristicClassExactSequence}
 ###### Proposition
 
 The differential cohomology group $H_{diff}^n(X,A)$ fits into a [[short exact sequence]] of [[abelian group]]s
@@ -3163,6 +3216,8 @@ $\Omega_{cl}^{n+1}(X,A) {:=} \mathbb{R}Hom_C(X, \mathbf{B}^{n+1}A )_0
 by the [above observation](#DiffCohIsWellDefined) this 
 only adds multiple copies of the homotopy types of the connected 
 components of $\mathbf{H}_{diff}(X, \mathbf{B}^n A)$.
+
+For a detailed discussion of the relation to [[ordinary differential cohomology]] see at _[[smooth ∞-groupoid]]_ the section <a href="http://nlab.mathforge.org/nlab/show/smooth infinity-groupoid#DiffCohomologyAbstractProperties">Abstract properties of differential cohomology</a>.
 
 =--
 
