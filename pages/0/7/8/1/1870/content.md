@@ -21,6 +21,7 @@ Twisted K-theory is a [[twisted cohomology]] version of [[K-theory]], where the 
 
 ### By sections of associated $K U$-bundles
 
+
 Write $K U$ for the [[spectrum]] of complex [[topological K-theory]]. Its degree-0 space ism up to [[weak homotopy equivalence]],  the space 
 
 $$
@@ -45,18 +46,57 @@ The [[projective unitary group]] $P U(\mathcal{H})$ (a [[topological group]]) ac
 
 Since the [[homotopy type]] of $P U(\mathcal{H})$ is that of an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, there is precisely one isomorphism class of such bundles representing a class $\alpha \in H^3(X, \mathbb{Z})$.
 
++-- {: .num_defn #SpectrumBundDefinition}
+###### Definition
+
 The **twisted K-theory** with twist $\alpha \in H^3(X, \mathbb{Z})$ is the set of [[homotopy]]-classes of [[section]]s of such a bundle
 
 $$
-  K^\alpha(X)_0
+  K_\alpha(X)^0
   :=
   \Gamma_X(P^\alpha \times_{P U(\mathcal{H})} (K U)_0)
   \,.
 $$
 
+Similarily the reduced $\alpha$-twisted K-theory is the subset
+
+$$
+  \tilde K_\alpha(X)^0
+  :=
+  \Gamma_X(P^\alpha \times_{P U(\mathcal{H})} B U)
+  \,.
+$$
+
+
+=--
+
 ### By twisted vector bundles (gerbe modules)
 
-(...)
++-- {: .num_defn #TwBundDefinition}
+###### Definition
+
+Let $\alpha \in H^3(X, \mathbb{Z})$ be a class in degree-3 [[integral cohomology]] and let $P \in \mathbf{H}^3(X, \mathbf{B}^2 U(1))$ be any [[cocycle]] representative, which we may think of either as giving a 
+[[circle n-bundle with connection|circle 2-bundle]] or a [[bundle gerbe]]. 
+
+Write $TwBund(X, P)$ for the [[groupoid]] of [[twisted bundle]]s on $X$ with twist given by $P$. Then let
+
+$$
+  \tilde K_\alpha(X) := TwBund(X,P)
+$$
+
+be the set of [[isomorphism]] classes of twisted bundles. Call this the **twisted K-theory** of $X$ with twist $\alpha$.
+=--
+
+> (Some technical details need to be added for the non-torsion case.)
+
++-- {: .num_prop}
+###### Proposition
+
+This definition of twisted $K_0$ is equivalent to that of prop. \ref{SpectrumBundDefinition}.
+
+=--
+
+This is ([CBMMS, prop. 6.4, prop. 7.3](#CBMMS)).
 
 ## Other constructions
 
