@@ -941,7 +941,7 @@ $\mathbf{c} : B \to C$ in turn we may think of as an $\Omega A$-bundle [[associa
 +-- {: .num_prop #TwistedCohomologyBySections}
 ###### Proposition
 
-Let $P_\phi := X \times_C B$ be [[(∞,1)-pullback]] of the [[characteristic class]] $\mathbf{c}$ along the twisting cocycle $\phi$ 
+Let $P_\phi := X \times_C B$ be the [[(∞,1)-pullback]] of the [[characteristic class]] $\mathbf{c}$ along the twisting cocycle $\phi$ 
 
 $$
   \array{
@@ -957,7 +957,7 @@ $$
 Then the $\phi$-twisted $A$-cohomology of $X$ is equivalently the space of [[section]]s $\Gamma_X(P_\phi)$ of $P_\phi$ over $X$:
 
 $$
-  \mathbf{H}_{tw,\phi}(X,A)
+  \mathbf{H}_{\phi}(X,A)
   \simeq
   \Gamma_X(P_\phi)
   \,,
@@ -1035,7 +1035,8 @@ of the [[0-truncated|0-truncation]] projection $\mathbf{H}(X,C) \to H(X,C)$ from
 With a [[characteristic class]] $[\mathbf{c}] \in H(B,C)$ with [[homotopy fiber]] $A$ understood, we write
 
 $$
-  \mathbf{H}_{tw}(X,A) := \coprod_{[\phi] \in H(X,C)} \mathbf{H}_{tw, \phi}(X,A)
+  \mathbf{H}_{tw}(X,A) := \coprod_{[\phi] \in H(X,C)} 
+   \mathbf{H}_{\phi}(X,A)
 $$
 
 for the union of all twisted cohomology cocycle $\infty$-groupoids.
@@ -3357,5 +3358,5 @@ A commented list of further related references is at
 * [[schreiber:differential cohomology in an (∞,1)-topos -- references
   |differential cohomology in a cohesive topos -- references]]
 
-
+[[!redirects cohesive (∞,1)-topos -- structures]]
 
