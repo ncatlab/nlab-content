@@ -1,6 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -72,6 +82,21 @@ $$
 $$
 
 This $L$ is the line bundle ingredient in the lifting bundle gerbe. There is canocically a multiplication map that completes the definition.
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{H}$ be a separable infinite-dimensiona [[Hilbert space]], $U(\mathcal{H})$ its [[unitary group]] and $P U(\mathcal{H})$ its [[projective unitary group]]. Then the extension
+
+$$
+  0 \to U(1) \to U(\mathcal{H}) \to P U(\mathcal{H}) \to 0
+$$
+
+is universal with the above property: every $U(1)$-[[bundle gerbe]]/[[circle n-bundle with connection|circle 2-bundle]] is the lifting gerbe of some $P U(\mathcal{H})$-[[principal bundle]] through this extension.
+
+=--
+
+See [[projective unitary group]] for details.
 
 ### Lifting 2-gerbes
 
