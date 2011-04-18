@@ -1,7 +1,12 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 #### Higher category theory
 +--{: .hide}
 [[!include higher category theory - contents]]
@@ -9,15 +14,8 @@
 =--
 =--
 
-* [[group]]
 
-* **2-group**
 
-* [[n-group]]
-
-* [[∞-group]]
-
-***
 
 #Contents#
 
@@ -114,6 +112,18 @@ See [[inner automorphism 2-group]].
 ### String 2-group
 
 See [[string 2-group]].
+
+
+## Related concepts
+
+* [[group]]
+
+* **2-group**
+
+* [[n-group]]
+
+* [[∞-group]]
+
 
 
 ## References 
