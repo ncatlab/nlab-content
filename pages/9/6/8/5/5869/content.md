@@ -1,0 +1,130 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .num_defn #PUH}
+###### Definition
+
+
+For $\mathcal{H}$ a [[Hilbert space]], the _projective unitary group_ $P U(\mathcal{H})$ is the [[quotient]] of the [[unitary group]] $U(\mathcal{H})$ by its [[center]] $Z U(\mathcal{H}) \simeq U(1)$, the [[circle group]]
+
+$$
+ P U(\mathcal{H}) := U(\mathcal{H})/U(1)
+  \,.
+$$
+
+
+=--
+
+This is naturally a [[topological group]]. For $\mathcal{H}$ of finite-[[dimension]] $n$ $P U(n) := P U(\mathcal{H})$ is also naturally a [[Lie group]].
+
+
+## Properties
+
++-- {: .num_prop #KZ2}
+###### Prop
+
+If $\mathcal{H}$ is an infinite-[[dimension]]al [[separable Hilbert space]] the underlying [[topological space]] of its projective unitary group has the [[homotopy type]] of an [[Eilenberg-MacLane space]] $K(\mathbb{Z}, 2)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[unitary group]] $U(\mathcal{H})$ in this case is [[contractible]] and the [[circle group]] $U(1)$ [[action|acts]] free and faithfully on it. Therefore the quotient map $U(\mathcal{H}) \to P U(\mathcal{H})$ is a model for the [[circle group]]-[[universal principal bundle]] and in particular the topological space underlying $P U(\mathcal{H})$ is equivalent to the [[classifying space]] $B U(1) \simeq B^2 \mathbb{Z} \simeq K(\mathbb{Z},2)$.
+
+=--
+
+
++-- {: .num_prop #ClassesOfPUHBundles}
+###### Prop
+
+For $\mathcal{H}$ an infinite-dimensional separable Hilbert space $P U(\mathcal{H})$-[[principal bundle]]s over a [[topological space]] $X$ are classidied by third [[integral cohomology]] of $X$
+
+$$
+  P U(\mathcal{H}) Bund(X) \simeq H^3(X, \mathbb{Z})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{KZ2} we have that the [[classifying space]] of $P U(\mathcal{H})$ itself is an [[Eilenberg-MacLane space]]
+
+$$
+ B P U(\mathcal{H})
+  \simeq
+  B B U(1)
+  \simeq
+  B^3 \mathbb{Z}
+  \simeq
+  K(\mathbb{Z}, 3)
+  \,.
+$$
+
+This is the classifying space for degree-3 integral cohomology (see [[Eilenberg-MacLane spectrum]] for more on this).
+
+=--
+
+
++-- {: .num_prop #ClassesOfPUHBundles}
+###### Prop
+
+Every [[circle n-bundle with connection|circle 2-bundle]]/[[bundle gerbe]] on $X$ is equivalent to the [[lifting gerbe]] of some $P U(\mathcal{H})$-principal bundle to a $U(\mathcal{H})$-bundle, and the equivalence classes of these structures correspond uniquely.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[twisted bundle]]s of a given bundle gerbe are given by the [[twisted cohomology]] relative to the morphism $\mathbf{B} P U(\mathcal{H}) \to \mathbf{B}^2 U(1)$ that is part of the long [[fiber sequence]]
+
+$$
+  \mathbf{B} U(1) \to \mathbf{B} U(\mathcal{H}) \to B \mathbf{P} U(\mathcal{H}) \to \mathbf{B}^2 U(1)
+  \,.
+$$
+
+Since the topological space underlying $U(\mathcal{H})$ is contractible, on the underlying topological spaces this is
+
+$$
+  K(\mathbb{Z},2) \to * \to K(\mathbb{Z},3) \stackrel{\simeq}{\to} K(\mathbb{Z}, 3)
+  \,.
+$$
+
+This means that the morphism that sends $P U(\mathcal{H})$-bundles to the twist that they induce is an isomorphism.
+
+=--
+
+> (Somebody should force me to say this in more detail).
+
+
+For more on this see also [[twisted K-theory]].
+
+## Related concepts
+
+* [[unitary group]]
+
+  * [[special unitary group]], **projective unitary group**
+
+* [[orthogonal group]]
+
+  [[special orthogonal group]]
+
+[[!redirects projective unitary groups]]
