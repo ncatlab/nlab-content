@@ -1677,7 +1677,7 @@ We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity
 
 #### Cohomology with constant coefficients
 
-+-- {: .un_theorem }
++-- {: .num_theorem #FlatCohomologyAndWithConstantCoefficients}
 ###### Theorem
 
 Let $X$ be a [[paracompact space|paracompact]] [[smooth manifold]] regarded as a [[0-truncated]] smooth $\infty$-groupoid under the embedding 
@@ -1694,7 +1694,15 @@ $$
 and hence in particular an isomorphism on cohomology
 
 $$
-  H(X,A) \simeq \pi_0   Smooth \infty Grpd(X, Disc A)
+  H_{Top}(X,A) \simeq \pi_0   Smooth \infty Grpd(X, Disc A)
+  \,.
+$$
+
+This also means that 
+
+$$
+  H_{smooth,flat}(X,A ) \simeq H_{Top}(X, \Gamma A)
+  \,.
 $$
 
 =--
@@ -4926,8 +4934,82 @@ This is the complex of sheaves that defines [[Deligne cohomology]] in degree $(n
 =--
 
 
+#### Abstract properties
+ {#DiffCohomologyAbstractProperties}
+
+We discuss how the general abstract definition of differential cohomology in $Smooth \infty Grpd$ reproduces on general grounds the abstract properties of the traditional definition of [[ordinary differential cohomology]].
+
++-- {: .un_prop }
+###### Proposition
+
+For $X$ a [[smooth manifold]], the cohomology classes $H'_{diff}(X, \mathbf{B}^n U(1))$ of the cocycle $\infty$-groupoid $\mathbf{H}'_{diff}(X, \mathbf{B}^n U(1))$ defined by the [[homotopy pullback]]
+
+$$
+  \array{
+    \mathbf{H}'_{diff}(X, \mathbf{B}^n U(1)_{ch}) &\to & \Omega^{n+1}_{cl}(X)   
+     \\
+     \downarrow && \downarrow
+    \\ 
+     \mathbf{H}(X, \mathbf{B}^n U(1))
+     &\stackrel{curv}{\to}&
+     \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}^{n+1} U(1))
+  }
+$$
+
+fit, with their canonical [[abelian group]] structure, into the two <a href="http://nlab.mathforge.org/nlab/show/ordinary+differential+cohomology#AbstractProperties">characteristic short exact sequences</a> of [[ordinary differential cohomology]]:
+
+* $0 \to Omega^{n}(X)/\Omega^{n}_{cl}(X) \to H'_{diff}(X, \mathbf{B}^n U(1)) \to H^n(X, \mathbb{Z}) \to 0$.
+
+* $0 \to H^{n-1}(X, U(1)) \to H'_{diff}(X, \mathbf{B}^n U(1)) \to \Omega^{n+1}_{cl, int}(X) \to 0$
 
 
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first sequence, the characteristic class exact sequence, use <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#CharacteristicClassExactSequence">this general proposition</a> from the discussion at _[[cohesive (∞,1)-topos]]_ . This says that over the vanishing curvature form $0 \in \Omega_{cl}^{n+1}(X)$ we have the short exact sequence
+
+$$
+  0 \to \Omega_{cl}^n(X)/\Omega_{cl,int}^{n}(X)
+  \to 
+   H_{diff}^n(X, U(1))
+  \to 
+   H^{n+1}(X, \mathbb{Z})
+  \to 0
+  \,,
+$$
+
+where we used that $H_{smooth}(X, \mathbf{B}^n U(1)) \simeq H^{n+1}(X, \mathbb{Z})$ on the [[paracompact space]] $X$ and that $H_{dR}^n(X)/\Omega^n_{cl,int}(X) = \Omega^n_cl(X)/\Omega^n_{cl, int}(X)$ because exact forms are in particular closed integral forms (with periods $0 \in \mathbb{N}$). Looking at $H'_{diff}$ instead of $H_{diff}$, we get in the fibers one such contribution per closed $(n+1)$-form $\Lambda$ trivial in de Rham cohomology, hence per arbitrary $n$-form $\omega$ with $d \omega  = \Lambda$
+
+$$
+  0 \to \Prod_{\Lambda}\{\omega | d \omega = \Lambda \}/\Omega_{cl,int}^{n}(X)
+  \to 
+   H'_{diff}^n(X, U(1))
+  \to 
+   H^{n+1}(X, \mathbb{Z})
+  \to 0
+  \,.
+$$
+
+But this is the fiber sequence in question.
+
+For the second sequence, the curvature exact sequence, <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureExactSequence">this general proposition</a> from the discussion at _[[cohesive (∞,1)-topos]]_ , which implies that we have a short exact sequence
+
+$$
+  0 \to H_{flat}^n(X, \mathbf{B}^n U(1))
+  \to 
+   H_{diff}^n(X, U(1))
+  \to 
+   \Omega_{cl,int}^{n+1}(X)
+  \to 0
+  \,.
+$$
+
+Then use prop. \ref{FlatCohomologyAndWithConstantCoefficients}, which says that $H_{flat}^n(X, \mathbf{B}^n U(1)) \simeq H^{n}(X, U(1)_{disc})$.
+
+
+=--
 
 #### Presentation by exponentiated $\infty$-Lie algebras  
  {#U1FromLieIntegration}
