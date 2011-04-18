@@ -1,0 +1,13 @@
+
+For $Y \to Z$ a morphism of [[pointed object|pointed]] [[∞-groupoid]]s and $X \to Y$ its [[homotopy fiber]], there is a [[long exact sequence]] of [[homotopy group]]s
+
+$$
+  \cdots \to \pi_{n+1}(Z) \to \pi_n(X) \to \pi_n(Y) \to \pi_n(Z) \to \pi_{n-1}(X) \to \cdots
+  \,.
+$$
+
+In terms of [[presentable (infinity,1)-category|presentations]] this means:
+
+for $Y \to Z$ a fibration in the ordinary [[model structure on topological spaces]] or in the [[model structure on simplicial sets]], and for $X \to Y$ the ordinary [[fiber]] of [[topological space]]s or [[simplicial set]]s, respectively, we have such a long exact sequence.
+
+For background and details see [[fibration sequence]].
