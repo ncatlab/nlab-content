@@ -75,6 +75,8 @@ Notable families of examples include:
 
 * for $G = U$ the [[unitary group]]: [[Chern class]]es;
 
+* for $G = \mathbf{B}U(1)$ the <a href="">circle 2-group</a>: the [[Dixmier-Douady class]].
+
 ### Chern character
 
 The [[Chern character]] is a natural characteristic class with values in real cohomology. See there for more details.
