@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -17,7 +28,9 @@ For instance $U(1)$ is the [[circle group]].
 
 ## Related concepts
 
-The subgroup of unitary matrices with [[determinant]] equal to 1 is the [[special unitary group]].
+The subgroup of unitary matrices with [[determinant]] equal to 1 is the [[special unitary group]]. The [[quotient]] by the [[center]] is the [[projective unitary group]].
+
+
 The analog of the unitary group for real metric spaces is the [[orthogonal group]].
 
 
