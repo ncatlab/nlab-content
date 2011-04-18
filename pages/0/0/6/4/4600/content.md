@@ -46,7 +46,7 @@ Cocycles $\nabla \in H_{diff}^2(X)$ in degree 2 ordinary differential cohomology
 
 ### In Chern-Weil theory
 
-For $X$ a [[smooth manifold]], $G$ a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and [[invariant polynomial]] $\langle -\rangle$ of degree $2n$, the [[Chern-Weil homomorphism]] may b refined to a morphism
+For $X$ a [[smooth manifold]], $G$ a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and [[invariant polynomial]] $\langle -\rangle$ of degree $2n$, the [[Chern-Weil homomorphism]] may be refined to a morphism
 
 $$
   H^1(X,G) \to H_{diff}^{2n}(X)
