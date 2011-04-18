@@ -1,0 +1,6 @@
+
+* [website](http://www.adelaide.edu.au/directory/mathai.varghese)
+
+category: people
+
+[[!redirects Varghese Mathai]]
