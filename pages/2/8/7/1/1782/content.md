@@ -66,7 +66,14 @@ The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying
 A reference for classical constructions is
 
 * [[Charles Weibel]], _The K-Book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
+ {#Weibel}
 
 The $(\infty,1)$-categorical picture is described in
 
 * [[Andrew Blumberg]], [[David Gepner]], [[Gonzalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
+ {#BlumbergGepnerTabuada}
+
+For discussion of stable phenomena in algebraic K-theory, see section 4 of 
+
+* [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0908/0908.1938v2.pdf))
+ {#Cohen}
