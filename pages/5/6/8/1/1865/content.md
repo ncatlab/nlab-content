@@ -21,11 +21,11 @@ In as far as we can think of cocycles in [[K-theory]] as represented by [[vector
 
 There are various different models that differ in the concrete realization of these cocycles and in their extra properties.
 
+
 ## The Simons-Sullivan model {#SimonsSullivanModel}
 
-This section discusses the model presented in
+This section discusses the model presented in ([SimonsSullivan](#SimonsSullivan)).
 
-* [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
 
 More details will eventually be at
 
@@ -119,7 +119,25 @@ Moreover...
 
 [[Uli Bunke]] and [[Thomas Schick]] developed in a series of articles a differential-geometric cocycle model of differential K-theory where cocycles are given by smooth families of [[Dirac operator]]s.
 
-### References
+See the reference [below](BunkeSchickReferences).
+
+## The Hopkins-Singer model
+
+...
+
+
+## Examples 
+
+* In [[gauge theory]] gauge fields are modeled by cocycles in [[differential cohomology]]. The field modeled by differential K-theory is the [[RR-field]]. 
+
+
+## References
+
+* [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
+ {#SimonsSullivan}
+
+### Bunke-Schick model
+ {#BunkeSchickReferences}
 
 The basic article is
 
@@ -139,11 +157,9 @@ A construction of [[differential cobordism cohomology]] theory in terms of expli
 
 By tensoring this with the suitable ring, this also gives a model for differential K-theory, as well as for [[differential elliptic cohomology]].
 
-## The Hopkins-Singer model
-
-...
 
 
-## Examples 
+A variant of this definition with the advantage that there is a natural morphism to [[Cheeger-Simons differential character]]s refining the total [[Chern class]] is (as opposed to the [[Chern character]]) is presented in
 
-* In [[gauge theory]] gauge fields are modeled by cocycles in [[differential cohomology]]. The field modeled by differential K-theory is the [[RR-field]]. 
+* Alain Berthomieu, _A version of smooth K-theory adapted to the
+total Chern class_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0806/0806.4728v1.pdf))
