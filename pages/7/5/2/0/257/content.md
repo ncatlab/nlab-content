@@ -106,6 +106,15 @@ As a consequence of the definition, the classes $Cof, Fib$, and $W$ are all clos
 This is least obvious in the case of $W$. In the presence of functorial factorizations, it is easy to show that closure under retracts follows from axioms (i) and (ii); with a bit of cleverness, this can also be done without functoriality.
 
 
++-- {: .un_prop}
+###### Proposition
+
+If a category $C$ carries a model category structure, then the [[opposite category]] $C^{op}$ carries the opposite model structure: 
+
+its weak equivalences are those morphisms whose dual was a weak equivalence in $C$, its fibrations are those morphisms that were cofibrations in $C$ and similarly for its cofibrations.
+
+=--
+
 ## Examples
 
 Every category with limits and colimits carries the [[trivial model structure]] whose weak equivalences are the [[isomorphism]]s and all morphisms are cofibrations and fibrations.
