@@ -35,9 +35,14 @@ A **split exact sequence** is a short exact sequence in which $i$ is a [[split m
 
 The above works in any [[abelian category]], and possible more generally.  See also [[exact sequence of Hopf algebras]].
 
+## Examples
+
+* [[long exact sequence of homotopy groups]]
 
 [[!redirects long exact sequence]]
 [[!redirects short exact sequence]]
 [[!redirects split exact sequence]]
 
 [[!redirects exact sequences]]
+
+[[!redirects short exact sequences]]
