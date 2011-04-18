@@ -1,3 +1,5 @@
+> see also [[first-order hyperdoctrine]]
+
 Introduced by [[Lawvere]] in [Adjointness in Foundations](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html), Dialectica 23 (1969), 281-296, and developed in 'Equality in hyperdoctrines and
 comprehension schema as an adjoint functor', Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
 
