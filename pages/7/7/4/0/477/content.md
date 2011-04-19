@@ -11,13 +11,20 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Definition 
 
 In a [[category]], a **product** (also called a **cartesian product**) of two [[object|objects]] $X$ and $Y$ is an object $X\times Y$ equipped with [[morphism|morphisms]] $p:X\times Y \to X$ and $q:X\times Y \to Y$, called **projections**, such that for any object $Z$ equipped with maps $f:Z\to X$ and $g:Z\to Y$ there exists a unique $h:Z\to X\times Y$ (called the __[[pairing]]__ of $f$ and $g$) such that $p \circ h=f$ and $q \circ h=g$.
+
+Such a categorical product is equivalently a [[limit]] over a [[diagram]] of the shape of the category $\{a,b\}$ with two [[object]]s and no non-trivial morphisms.
+
+More generally, for $S \in $ [[Set]] $\hookrightarrow$ [[Cat]] any [[discrete category]], an $S$-indexed limit is a product of $|S|$ factors. If $S$ is a [[finite set]] we speak of a **finite product**. Notice that this includes the case of the [[empty set]], the product over which is, if it exists, the [[terminal object]] of the category in question.
+
+* A product created by the [[forgetful functor]] of a [[concrete category]], especially in algebra, is often called a [[direct product]].
+
 
 ## Properties
 
@@ -29,10 +36,11 @@ In a [[category]], a **product** (also called a **cartesian product**) of two [[
 
 * A product in $C$ is the same as a [[coproduct]] in its [[opposite category]] $C^{op}$.
 
-* A product created by the [[forgetful functor]] of a [[concrete category]], especially in algebra, is often called a [[direct product]].
 
 ## Examples
 
 * [[product of simplices]]
 
 [[!redirects products]]
+
+[[!redirects finite product]]
