@@ -70,6 +70,7 @@ $$
 
 where on the right we have the ordinary [[integral cohomology]] of the [[classifying space]] $B G \in$ [[Top]] of $G$.
 
+
 ### The abstract definition
 
 Let $G$ and $\mathbf{c}$ be as [above](#Setup).  
@@ -115,12 +116,7 @@ Let $X \in \mathbf{H}$ be any object. From _[[twisted cohomology]]_ we have the 
 +-- {: .num_defn #AbstractDefinition}
 ###### Definition
 
-The degree-1 **total twisted cohomology** 
-
-$$
-  H_{tw}^1(X, \hat G)
-$$
-
+The degree-1 **total twisted cohomology** $H_{tw}^1(X, \hat G)$
 of $X$ with coefficients in $\hat G$, def. \ref{TheGroupExtension}, relative to the characteristic class $[\mathbf{c}]$ is the set 
 
 $$
