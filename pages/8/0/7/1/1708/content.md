@@ -33,6 +33,14 @@ If $\mathbf{B}G$ is a [[strict omega-groupoid|strict n-groupoid]], then the corr
 
 Under the [[homotopy hypothesis]] $n$-groups correspond to (pointed) _connected_ [[homotopy n-type]]s.
 
+## Examples
+
+* [[circle n-group]]
+
+* [[string 2-group]]
+
+* [[fivebrane 6-group]]
+
 ## Related concepts
 
 See also 
