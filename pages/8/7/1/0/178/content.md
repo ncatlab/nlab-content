@@ -668,7 +668,7 @@ As [above](#LieGroupsDelooping) for Lie groups.
 
 #### Circle Lie $n$-groups {#CircleLienGroup}
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 Write equivalently
@@ -680,7 +680,7 @@ $$
 for the [[abelian group|abelian]] [[Lie group]] called the 
 _[[circle group]]_ or _1-dimensional [[unitary group]]_ , regarded as a [[0-truncated]] [[∞-group]] object in $Smooth\infty Grpd$ under the [embedding](#SmoothManifoldEmbeds) $SmoothMfd \hookrightarrow Smooth \infty Grpd$.
 
-For $n \in \mathbb{N}$ the $n$-fold [[delooping]] $\mathbf{B}^n U(1) \in Smooth \infty Grpd$ we call the circle **Lie $(n+1)$-group**.
+For $n \in \mathbb{N}$ the $n$-fold [[delooping]] $\mathbf{B}^n U(1) \in Smooth \infty Grpd$ we call the **[[circle n-group|circle Lie (n+1)-group]]**.
 
 =--
 
