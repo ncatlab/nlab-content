@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -110,8 +121,30 @@ The $\bar W(-)$-construction (see [[simplicial group]] and [[groupoid object in 
 The simplicial sets here are playing the role of 'topological data'.
 
 
+## Properties
+
+
+### For classical Lie groups
+
+Let $O(n)$ be the [[orthogonal group]] and $U(n)$ the [[unitary group]] in real/complex [[dimension]] $n$, respectively
+
++-- {: .num_prop #}
+###### Proposition
+
+The classifying spaces $B O(n)$ are [[paracompact space]]s.
+
+=--
+
+See ([Cartan-Schwarz, expose 5](#CartanSchwarz)).
+
 ## Moduli spaces 
 
 The notion of **[[moduli space]]** is closely related to that of classifying space, but has some subtle differences. See there for more on this.
+
+
+## References
+
+* Cartan-Schwarz, ....
+ {#CartanSchwarz}
 
 [[!redirects classifying spaces]]
