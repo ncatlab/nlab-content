@@ -45,6 +45,7 @@ the general mechanism of [[twisted cohomology]] induces a notion of _twisted_ $\
 We give a discussion of twisted bundles as a realization of [[twisted cohomology]] in any [[cohesive (∞,1)-topos]] $\mathbf{H}$ as described in the section <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#TwistedCohomology">cohesive (∞,1)-topos -- twisted cohomology</a>. For the cases that $\mathbf{H} = $ [[ETop∞Grpd]] or $\mathbf{H} = $ [[Smooth∞Grpd]] this reproduces the traditional notion of [[topology|topological]] and [[smooth structure|smooth]] twisted bundles, respectively, whose twists are correspondingly topological or smooth [[bundle gerbe]]s/[[circle n-bundle]]s.
 
 ### Setup
+ {#Setup}
 
 Let $\mathbf{B}U(1) \in \mathbf{H}$ be the [[circle n-group]]. We shall concentrate here for definiteness on twists in $\mathbf{B}^2 U(1)$-[[cohomology]], since that reproduces the usual notions of twisted bundles found in the literature. But every other choice would work, too, and yield a corresponding notion of twisted bundles.
 
@@ -71,7 +72,7 @@ where on the right we have the ordinary [[integral cohomology]] of the [[classif
 
 ### The abstract definition
 
-Let $G$ an $\mathbf{c}$ as above.  
+Let $G$ and $\mathbf{c}$ be as [above](#Setup).  
 
 +-- {: .num_defn #TheGroupExtension}
 ###### Definition
@@ -126,12 +127,12 @@ $$
   H^1_{tw}(X, \hat G) := \pi_0 \mathbf{H}_{tw}(X, \mathbf{G}\hat H)
 $$ 
 
-of connected cpomonets of the [[(∞,1)-pullback]]
+of connected components of the [[(∞,1)-pullback]]
 
 $$
   \array{  
     \mathbf{H}_{tw}(X, \mathbf{B}\hat G) &\stackrel{tw}{\to}& 
-      H_{Smooth}^3(X,U(1))
+      H_{Smooth}^2(X,U(1))
     \\
      \downarrow && \downarrow
     \\
@@ -181,64 +182,137 @@ $$
 where throughout we leave the characteristic class $[\mathbf{c}]$ with respect to which the twisting is defined implcitly understood.
 
 
-## Details
+### Explicit cocycles
 
-One may unwrap this abstract definition to obtain a concrete cocycle formula for twisted bundles.
+We unwind the abstract definition, def. \ref{AbstractDefinition}, to obtain the explicit definition of twisted bundles by [[Cech cohomology|Cech cocycles]] the way they appear in the traditional literature (see the [General References](#GeneralReferences) below).
 
-For that purpose the above [[homotopy pullback]] is conveniently computed as an ordinary [[pullback]] after making the fibrant replacement
++-- {: .num_prop #CechCocyclesForTwisted1Bundles}
+###### Proposition
+
+Let $U(1) \to \hat G \to G$ be a [[group extension]] of [[topological group]]s.
+
+Let $X \in $ [[Mfd]] $\hookrightarrow$ [[ETop∞Grpd]] $=: \mathbf{H}$ be a [[paracompact topological space|paracompact]] [[topological manifold]] with [[good open cover]] $\{U_i \to X\}$.
+
+1. Relative to this every twisting cocycle $[\alpha] \in H^2_{ETop}(X, U(1))$ is a [[Cech cohomology]] representative given by a collection of functions
+
+   $$
+     \{ \alpha_{i j k} : U_i \cap U_j \cap U_k \to U(1) \}
+   $$
+
+   satisfying on every quadruple intersection the equation
+
+   $$
+     \alpha_{i j k} \alpha_{i k l} = \alpha_{j k l} \alpha_{i j l}
+     \,.
+   $$
+
+1. Given this the twisted cohomology $H^1_{[\alpha]}(X, \hat G)$ is given by [[equivalence class]]es of [[cocycle]]s given by 
+
+   1. collections of functions
+
+      $$
+        \{g_{i j} : U_i \cap U_j \to \hat G \}
+      $$
+
+      subject to the condition that on each triple overlap the equation
+ 
+      $$
+        g_{i j} \dot g_{j k} = g_{i k} \cdot \alpha_{i j k}
+      $$
+
+      holds, where on the right we are injecting 
+      $\alpha_{i j k}$ via $U(1) \to \hat G$ into $\hat G$  
+      and then form the product there.
+
+   1. subject to the [[equivalence relation]] that identifies two such collections of cocycle data $\{g_{i j}\}$ and $\{g'_{i j}\}$ if there exists functions
+
+      $$
+        \{h_i : U_i \to \hat G\}
+      $$
+
+      and
+
+      $$
+        \{\beta_{i j} : U_i \cap U_j \to \hat U(1)\}
+      $$
+
+      such that
+
+      $$
+        \beta_{i j} \beta_{j k} = \beta_{i k}
+      $$
+
+      and
+
+      $$
+        g'_{i j} = h_i^{-1} \cdot g_{i j} \cdot h_j \cdot \beta_{i j}   
+        \,.
+      $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We pass to the standard [[presentable (∞,1)-category|presentation]] of [[ETop∞Grpd]] by the projective local [[model structure on simplicial presheaves]] over the [[site]] [[CartSp]]. We then compute the defining [[(∞,1)-pullback]] by a [[homotopy pullback]] there.
+
+Write $\mathbf{B}\hat G_{c}, \mathbf{B}^2 U(1)_c \in [CartSp^{op}, sSet]$ etc. for the standard models of the abstract objects of these names by simplicial presheaves. Write accordingly $\mathbf{B}(U(1) \to \hat G)_c$ for the delooping of the [[crossed module]] associated to the central extension $\hat G \to G$.
+
+In terms of this the [[characteristic class]] $\mathbf{c}$ is represented by the  [[∞-anafunctor]]
 
 $$
   \array{
-    \mathbf{H}(X,\mathbf{B}(A \to \hat G)) 
-     &\to & 
-    \mathbf{H}(X,\mathbf{B}^2 A)
-    &\leftarrow&
-    {*}
+    \mathbf{B}(U(1) \to \hat G)_c &\stackrel{\mathbf{c}}{\to}&
+     \mathbf{B}(U(1) \to 1)_c
+     =
+     \mathbf{B}^2 U(1)_c
     \\
-    \downarrow^{\simeq}
-    &&
-    \downarrow^{Id}
-    &&
-    \downarrow^{Id}
+    \downarrow^{\mathrlap{\simeq}}
     \\
-    \mathbf{H}(X,\mathbf{B}G) 
-     &\to & 
-    \mathbf{H}(X,\mathbf{B}^2 A)
-    &\leftarrow&
-    {*}
+    \mathbf{B}G_c
   }
   \,,
 $$
 
-where $(A \to \hat G)$ denotes the [[2-group]] corresponding to the [[crossed module]] obtained from the central extension $\hat G$.
-
-Similarly identifying $\mathbf{B}^2 A = \mathbf{B}(A \to 1)$ as the [[delooping]] of the [[2-group]] coming from the [[crossed module]] $(A \to 1)$
-the morphism $\mathbf{H}(X,\mathbf{B}(A \to G)) \to \mathbf{H}(X,\mathbf{B}^2 A)$ is now induced from the obvious projection of [[crossed module]]s
+where the top horizontal morphism is the evident projection onto the $U(1)$-labels.
+Moreover, the [[Cech nerve]] of the good open cover $\{U_i \to X\}$ forms a cofibrant [[resolution]]
 
 $$
- (A \to G) \to (A \to 1)
- \,.
+  \emptyset \hookrightarrow C(\{U_i\}) \stackrel{\simeq}{\to} X
 $$
 
-This then says that $c$-twisted $\mathbf{B}\hat G$-cocycles are precisely those $\mathbf{B}(A \to \hat G)$-cocycles whose projection to an $\mathbf{B}(A\to 1)$-cocycle is the prescribed twisting cocycle $c$.
-
-We may consider a [[?ech cohomology|?ech cocycle]] relative to a cover $\{U_i \to X\}$, i.e. an [[anafunctor]] 
+and so $\alpha$ is presented by an [[∞-anafunctor]]
 
 $$
   \array{
-    C(U) &\stackrel{\hat g_{tw}}{\to}& 
-      \mathbf{B}(A \to \hat G)
-    \\
-    \downarrow
-    \\
-    X
+     C(\{U_i\}) &\stackrel{\alpha}{\to}& \mathbf{B}^2 U(1)_c
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
   }
+  \,.
 $$
 
-out of a [[?ech nerve]] $C(U)$ and notice that the functor $\hat g_{tw}$ is an assignment
+Using that $[CartSp^{op}, sSet]_{proj}$ is a [[simplicial model category]] this means in conclusion that the [[homotopy pullback]] in question is given by the ordinary [[pullback]] of [[simplicial set]]s
 
 $$
-  \hat g_{tw}
+  \array{
+     \mathbf{H}^1_{[\alpha]}(X,\hat G) &\to& *
+     \\
+     \downarrow && \downarrow^{\mathrlap{\alpha}}
+     \\
+     [CartSp^{op}, sSet](C(\{U_i\}), \mathbf{B}(U(1) \to \hat G)_c)
+     &\stackrel{\mathbf{c}_*}{\to}&
+     [CartSp^{op}, sSet](C(\{U_i\}), \mathbf{B}^2 U(1)_c)
+  }
+  \,.
+$$
+
+An object of the resulting simplicial set is then seen to be a simplicial map $g : C(\{U_i\}) \to \mathbf{B}(U(1) \to \hat G)_c$ that assigns
+
+$$
+  g
   \;\;
   :
   \;\;
@@ -257,50 +331,61 @@ $$
   \array{
     && \bullet
     \\
-    & {}^{\hat g_{i j}(x)}\nearrow 
-     &\Downarrow^{c_{i j k}(x)}& 
-     \searrow^{\hat g_{j k}(x)}
+    & {}^{\mathllap{g_{i j}(x)}}\nearrow 
+     &\Downarrow^{\alpha_{i j k}(x)}& 
+     \searrow^{\mathrlap{g_{j k}(x)}}
     \\
     \bullet
-    &&\stackrel{\hat g_{i k}(x)}{\to}&&
+    &&\underset{g_{i k}(x)}{\to}&&
     \bullet
   }
 $$
 
-As already indicated by the notation, the further projection
+such that projection out along $\mathbf{B}(U(1) \to \hat G)_c \to \mathbf{B}(U(1) \to 1)_c = \mathbf{B}^2 U(1)_c$ produces $\alpha$.
 
-$$
-  C(U) \stackrel{\hat g_{tw}}{\to} 
-  \mathbf{B}(A \to \hat G)
-  \to 
-  \mathbf{B}^2 A
-$$
+Similarily for the morphisms. Writing out what these diagrams in $\mathbf{B}(U(1) \to \hat G)_c$ mean in equations, one finds the formulas claimed above.
 
-is constrained to be the cocycle $c$. Using the rules for [[crossed module]]s one reads off that the existence of the triangular cell on the right in $\mathbf{B}(A \to \hat G)$ is equivalent to the equation
-
-$$
-  \hat g_{i j}(x)
-  \hat g_{j k}(x)
-  =
-  \hat g_{i k}(x)
-  c_{i j k}(x)
-  \,.
-$$
-
-In this cocycle equation form twisted bundles traditionally appear in the literature. Alternatively, allowing a general surjective submersion instead of an open cover, this yields the description of twisted bundles as prefered in the literature on [[bundle gerbe]]s, where they are called [[bundle gerbe module]]s: the $\mathbf{B}^2 A$-cocycle $c$ represents the $A$-bundle gerbe.
+=--
 
 
 ## Properties
 
 ### General
 
+(...)
+
+Consider the extension $U(1) \to U(n) \to P U(n)$ of the [[projective unitary group]] to the [[unitary group]] for all $n$. Then [[direct sum]] of matrices gives a sum operation
+
+$$
+  H^1_{[\alpha]}(X, P U(n_1))
+  \times
+  H^1_{[\alpha]}(X, P U(n_2))
+  \to 
+  H^1_{[\alpha]}(X, P U(n_1 + n_2))  
+$$
+
+and a tensor product operation
+
+$$
+  H^1_{[\alpha_1]}(X, P U(n))
+  \times
+  H^1_{[\alpha_2]}(X, P U(n))
+  \to 
+  H^1_{[\alpha_1]+ [\alpha_2]}(X, P U(n_1 \cdot n_2))  
+$$
+
+
+(...)
+
 ### Twisted K-theory
 
 [[equivalence class|Equivalence classes]] of twisted $U(n)$-bundles for fixed $\mathbf{B}U(1)$-twist $\alpha$ form a model for [[topological K-theory|topological]] $\alpha$-[[twisted K-theory]]. See there for details.
 
 ## References
+ {#References}
 
 ### General
+ {#GeneralReferences}
 
 The notion and term _twisted bundle_ (with finite rank) apparently first appears in 
 
@@ -325,7 +410,7 @@ which also, apparently, is the source where gerbe modules as such were first int
 
 The generalization of this construction to non-torsion twists requires using [[vectorial bundle]]s instead of plain [[vector bundle]]s. Full twisted K-theory in terms of twisted vectorial bundles was realized in
 
-* Kiyonori Gomi, _Twisted K-theory and finite-dimensional approximation_ ([arXiv](http://arxiv.org/abs/0803.2327))
+* [[Kiyonori Gomi]], _Twisted K-theory and finite-dimensional approximation_ ([arXiv](http://arxiv.org/abs/0803.2327))
 
 There the twisted cocycle equation discussed above appears on the bottom of page 7.
 
