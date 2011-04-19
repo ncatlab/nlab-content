@@ -63,6 +63,6 @@
 
   * [[spectrum]]
 
-* [[string group]], [[string 2-group]], [[fivebrane Lie 6-group]]
+* [[circle n-group]], [[string group]], [[string 2-group]], [[fivebrane Lie 6-group]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/group+theory+-+contents)</div>
