@@ -1,0 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[quantum field theory]] the term _gaugino_ denotes a field that is a superpartner of a [[gauge boson]]. For instance the partner of a [[gluon]] is called a [[gluino]], and so on.
+
+In terms of [[Chern-Weil theory]]/[[differential cohomology]] we have that
+ 
+* [[gauge boson]]s are (the [[quanta]] of) [[connection on a bundle|connections]] on [[principal bundle]] or more generally the even components of [[superconnection]]s;
+
+
+* gauginos are the odd components of superconnections.
+
+## Related concepts
+
+* [[boson]]
+
+  * [[gauge boson]]
+
+    * [[photon]], [[gluon]], [[graviton]]
+
+* [[fermion]] 
+
+  * [[electron]], [[quark]],
+
+  * [[gravitino]], **gaugino** , [[dilatino]]
+
+## References
+
+For instance around page 48 of 
+
+* F. Gieres, _Geometry of Supersymmetric Gauge Theories: Including an Introduction to BRS Differential Algebras and Anomalies_  Springer Lecture Notes in Physics 302 (1998)
