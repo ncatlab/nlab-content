@@ -1,3 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Hall algebra_ of an [[abelian category]] is the [[Grothendieck group]] of [[constructible sheaves]]/[[perverse sheaves]] on the [[moduli stack]] of [[object]]s in the category. The Hall algebra is an algebra because the constructible derived category of the moduli stack of objects in an [[abelian category]] is [[monoidal category|monoidal]] in a canonical way.
+
+This perspective is taken from ([Webster11](#Webster)). See there for more details.
+
+## References
+
+A good survey is given in
+
+* [[Ben Webster]], _Hall algebras are Grothendieck groups_ ([SBS](http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/#more-3988))
+ {#Webster}
+
+Canonical references on Hall algebras include the following.
+
 * [[Kapranov|M. Kapranov]], _Eisenstein series and quantum affine algebras_, Journal Math. Sciences __84__ (1997), 1311&#8211;1360.
 * M. Kapranov, E. Vasserot, _Kleinian singularities, derived categories and Hall algebras_,  Math. Ann.  __316__  (2000), 565-576, [arxiv/9812016](http://arxiv.org/abs/math/9812016)
 * [[Bernhard Keller]], Dong Yang, Guodong Zhou, _The Hall algebra of a spherical object_, J. London Math Soc. (2) __80__ (2009) 771&#8211;784, [doi](http://dx.doi.org/10.1112/jlms/jdp054), [pdf](www.math.jussieu.fr/~keller/publ/HallAlgSphericalObject.pdf)
