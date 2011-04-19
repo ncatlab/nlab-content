@@ -1394,9 +1394,18 @@ the fibrant representative for $\mathbf{B}G$, effectively by defin&#238;tion.
 
 =--
 
+### Twisted cohomology
+ {#StrucTwistedCohomology}
 
+We discuss implementation in $Smooth \infty Grpd$ of the notion of 
+<a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#TwistedCohomology">twisted cohomology in a cohesive (∞,1)-topos</a>.
 
+* See [[twisted bundle]], [[twisted K-theory]].
 
+* The definition of differential cohomology 
+  [below](#StrucDifferentialCohomology) is an instance of 
+  twisted cohomology, with the twist being given by 
+  [[curvature characteristic form]]s.
 
 ### Concordance {#StrucConcordance}
 
