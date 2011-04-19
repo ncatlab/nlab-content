@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _gluon_ is the [[gauge boson]] of the $SU(3)$-[[Yang-Mills field]].
+
+## Related concepts
+
+* [[boson]]
+
+  * [[gauge boson]]
+
+    * [[photon]], **gluon**, [[graviton]]
+
+* [[fermion]] 
+
+  * [[electron]], [[quark]],
+
+  * [[gravitino]], [[gaugino]] , [[dilatino]]
+
+[[!redirects gluons]]
