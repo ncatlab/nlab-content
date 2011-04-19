@@ -163,3 +163,7 @@ A variant of this definition with the advantage that there is a natural morphism
 
 * Alain Berthomieu, _A version of smooth K-theory adapted to the
 total Chern class_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0806/0806.4728v1.pdf))
+
+The differential version of [[twisted K-theory]] is discussed in
+
+* [[Alan Carey]], _Differential twisted K-theory and applications_ ESI preprint ([pdf](http://www.esi.ac.at/preprints/esi1945.pdf))
