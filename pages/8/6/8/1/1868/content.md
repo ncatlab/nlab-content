@@ -42,6 +42,10 @@ the general mechanism of [[twisted cohomology]] induces a notion of _twisted_ $\
 
 ## Definition 
 
+We give a discussion of twisted bundles as a realization of [[twisted cohomology]] in any [[cohesive (∞,1)-topos]] $\mathbf{H}$ as described in the section <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#TwistedCohomology">cohesive (∞,1)-topos -- twisted cohomology</a>. For the cases that $\mathbf{H} = $ [[ETop∞Grpd]] or $\mathbf{H} = $ [[Smooth∞Grpd]] this reproduces the traditional notion of [[topology|topological]] and [[smooth structure|smooth]] twisted bundles, respectively, whose twists are correspondingly topological or smooth [[bundle gerbe]]s/[[circle n-bundle]]s.
+
+(...)
+
 For every $\mathbf{B}^2 A$-[[cohomology|cocycle]] $c \in \mathbf{H}(X,\mathbf{B}^2 A)$ the $c$-twisted $\hat G$-cohomology $\mathbf{H}^c(X,\mathbf{G} \hat G)$ is the [[homotopy pullback]]
 
 $$
@@ -105,7 +109,7 @@ $$
 
 This then says that $c$-twisted $\mathbf{B}\hat G$-cocycles are precisely those $\mathbf{B}(A \to \hat G)$-cocycles whose projection to an $\mathbf{B}(A\to 1)$-cocycle is the prescribed twisting cocycle $c$.
 
-We may consider a [[Čech cohomology|Čech cocycle]] relative to a cover $\{U_i \to X\}$, i.e. an [[anafunctor]] 
+We may consider a [[?ech cohomology|?ech cocycle]] relative to a cover $\{U_i \to X\}$, i.e. an [[anafunctor]] 
 
 $$
   \array{
@@ -118,7 +122,7 @@ $$
   }
 $$
 
-out of a [[Čech nerve]] $C(U)$ and notice that the functor $\hat g_{tw}$ is an assignment
+out of a [[?ech nerve]] $C(U)$ and notice that the functor $\hat g_{tw}$ is an assignment
 
 $$
   \hat g_{tw}
@@ -175,9 +179,19 @@ In this cocycle equation form twisted bundles traditionally appear in the litera
 
 
 
-## Examples 
+## References
 
-### Twisted K-theory 
+The notion and term _twisted bundle_ (with finite rank) apparently first appears in 
+
+* [[Marco Mackaay]], _A note on the holonomy of connections in twisted bundles_ ([arXiv](http://arxiv.org/abs/math/0106019)) .
+
+The equivalent notion of [[gerbe module]] apparently appears first in
+
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], _Gerbes over Orbifolds and Twisted K-theory_ ([arXiv](http://arxiv.org/abs/math/0105039)) ,
+
+there explicitly in terms of [[Cech cohomology|Cech cocycles]] relative to an [[open cover]]. The generalization to infinite rank and arbitrary covering morphisms was amplified in ([CBMMS](#CBMMS)) below.
+
+### In twisted K-theory 
 
 Just as [[vector bundle]]s model cocycles in [[K-theory]], twisted vector bundles model cocycles in [[twisted K-theory]].
 
@@ -193,5 +207,7 @@ The generalization of this construction to non-torsion twists requires using [[v
 * Kiyonori Gomi, _Twisted K-theory and finite-dimensional approximation_ ([arXiv](http://arxiv.org/abs/0803.2327))
 
 There the twisted cocycle equation discussed above appears on the bottom of page 7.
+
+
 
 [[!redirects twisted bundles]]
