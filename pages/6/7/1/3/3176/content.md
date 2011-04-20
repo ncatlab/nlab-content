@@ -23,7 +23,55 @@ If instead a topos is regarded as a context for [[geometry]] or specifically [[g
 
 ## Definition
 
-Since all the topos structure follows from having [[finite limits]] and [[power objects]], it suffices to define a logical functor to preserve these.  It then follows that it is also a [[locally cartesian closed functor]], a [[Heyting functor]], etc.
+Since all the elementary topos structure follows from having [[finite limits]] and [[power objects]], it suffices to define a logical functor to preserve these, up to [[isomorphism]].  It then follows that it is also a [[locally cartesian closed functor]], a [[Heyting functor]], etc.
+
++-- {: .num_defn}
+###### Definition
+
+Let $\mathcal{E}$ be an [[elementary topos]]. Write $\Omega \in \mathcal{E}$ for the [[subobject classifier]]. For each [[object]] $A \in \mathcal{E}$ write
+
+$$
+  P A := \Omega^A
+$$
+
+for the [[exponential object]]. Write
+
+$$
+  \in_A \hookrightarrow P A \times A
+$$
+
+for the [[subobject]] classified by the [[evaluation map]] $ev : P A \times A \to \Omega$. 
+
+=--
+
+This exhibits $P A$ as a [[power object]] for $A$. 
+
++-- {: .num_defn}
+###### Definition
+
+A [[functor]] $F : \mathcal{E} \to \mathcal{F}$ between [[elementary toposes]] is called a **logical morphism** if 
+
+1. $F$ is a [[cartesian functor]];
+
+1. for every object $A \in \mathcal{E}$ 
+
+   * the canonical morphism
+
+     $$
+       \phi_A : F(P A) \to P (F A)
+     $$
+
+     is an [[isomorphism]]; this is the [[name of the relation]]
+
+     $$
+       F(\in_A) \hookrightarrow F(P A \times A) \simeq F(P A) \times F A
+     $$
+
+     (using that [[cartesian functor]]s preserve both [[product]]s as well as [[monomorphism]])
+
+  * equivalently: $F(P A)$ equipped with the [[relation]] $F(\in_A)$ is a [[power object]] for $F(A)$ in $\mathcal{F}$.
+
+=--
 
 ## Properties
 
@@ -37,6 +85,38 @@ The difference between geometric and logical functors between toposes is, in a c
 
 However, while frame homomorphisms naturally categorified by geometric functors, a more precise categorification of Heyting algebra homomorphisms would be [[Heyting functors]], which preserve the internal first-order logic, but not the higher-order logic as logical functors do.
 
+## Examples
+
+* The inclusion [[FinSet]] $\hookrightarrow$ [[Set]] is logical.
+
+* More generally, for any [[small category]] $C$ the inclusion
+
+  $$
+    [C^{op}, FinSet] \hookrightarrow [C^{op}, Set]
+  $$
+
+  into the [[presheaf topos]] is logical.
+
+* For $G$ a [[group]] and $\mathbf{B}G$ its [[delooping]] [[groupoid]], the [[forgetful functor]]
+
+  $$
+    [\mathbf{B}G, Set] \to Set
+  $$
+
+  from [[permutation representation]]s to [[Set]] is logical.
+
+## References
+
+Section A2.1 in 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
+
+Section IV.2, page 170 of
+
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ {#MacLaneMoerdijk}
 
 [[!redirects logical functor]]
 [[!redirects logical functors]]
