@@ -85,6 +85,40 @@ The difference between geometric and logical functors between toposes is, in a c
 
 However, while frame homomorphisms naturally categorified by geometric functors, a more precise categorification of Heyting algebra homomorphisms would be [[Heyting functors]], which preserve the internal first-order logic, but not the higher-order logic as logical functors do.
 
++-- {: .num_prop #LogicalMorphismsRightAdjointToCartesianFunctors}
+###### Proposition
+
+If a logical functor is [[right adjoint]] to a [[cartesian functor]], then it is an [[equivalence of categories]].
+
+=--
+
+This appears as ([Johnstone, scholium 2.3.9](#Johnstone)).
+
++-- {: .num_cor #LogicalMorphismsAsDirectImages}
+###### Corollary
+
+A logical functor is the [[direct image]] of a [[geometric morphism]] precisely if it is an [[equivalence of categories|equivalence]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since by definition the direct image of a geometric morphism has a [[left adjoint]] that preserves [[finite limit]]s and hence is in particular a [[cartesian morphism]]
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+* The [[inverse image]] of an [[etale geometric morphism]] is a [[logical morphism]].
+
+=--
+
+Generally, a geometric morphism with logical inverse image is called an 
+[[atomic geometric morphism]]. See there for more details.
+
+
 ## Examples
 
 * The inclusion [[FinSet]] $\hookrightarrow$ [[Set]] is logical.
