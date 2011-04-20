@@ -1,9 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 In [[logic]], a __predicate__ is a statement with (potentially) a free variable in it.  More specifically, a predicate in (say) the variables $x,y,z$ is a statement whose free variables may include $x$, $y$, and $z$; a predicate on (say) the [[type]]s $X,Y,Z$ is a statement whose free variables may include a variable of type $X$, a variable of type $Y$, and a variable of type $Z$.
 
 The term 'proposition' may be used synonymously with 'predicate', or it may be restricted to the case when there are *no* free variables.
 
 In modern logic, it\'s often cleaner to speak of the propositions (or predicates) that can be stated in any given [[context]]; the context specifies the free variables available.
 
+
+## In categorical logic
+
+In the [[internal logic]] of a [[category]], [[type]]s are given by [[object]]s of the category predicates of type $T$ are given by [[subobject]]s $\phi \hookrightarrow T$.
+
+We think of $T$ as the analogue of the "set" of possible values of variables $t$ and of $\phi$ as being the subset on those $t$ for which the statement $\phi(t)$ is [[true]].
 
 [[!redirects predicates]]
 [[!redirects proposition]]
