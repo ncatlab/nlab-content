@@ -16,17 +16,51 @@
 
 ## Definition
 
-### In finite dimensions
 
 For $n \in \mathbb{N}$ a [[natural number]],  the **unitary group** $U(n)$ is the [[group]] of [[isometry|isometries]] of the $n$-dimensional complex [[Hilbert space]] $\mathbb{C}^n$.   This is canonically identified with the group of $n \times n$ unitary [[matrices]].
 
-### In infinite dimensions
 
 More generally, for $\mathcal{H}$ any Hilbert space, $U(\mathcal{H})$ is the group of [[unitary operator]]s on that Hilbert space.
 
-
+## Properties
 
 The unitary groups are naturally [[topological group]]s and [[Lie group]]s (infinite dimensional of $\mathcal{H}$) is infinite dimensional.
+
+
++-- {: .num_prop}
+###### Proposition
+
+The unitary group $U(\mathcal{H})$ and the [[general linear group]] $GL(\mathcal{H})$, regarded as [[topological group]]s, have the same [[homotopy type]]. 
+
+$U(\mathcal{H})$ is the [[maximal compact subgroup]] of $GL(\mathcal{H})$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[Gram-Schmidt process]].
+
+=--
+
+
++-- {: .num_theorem}
+###### Theorem
+**(Kuiper's theorem)**
+
+For $\mathcal{H}$ a separable infinite-dimensional complex [[Hilbert space]], the unitary group $U(\mathcal{H})$ is [[contractible]].
+
+=--
+
+See also [[Kuiper's theorem]].
+
++-- {: .num_note}
+###### Note
+
+This in in contrast to each of the $U(n)$ for $n \in \mathbb{N}$, with $n \geq 1$, not of which is contractible.
+
+=--
+
 
 Write $B U(n)$ for the [[classifying space]] of the [[topological group]] $U(n)$. Inclusion of matrices into larger matrices gives a canonical sequence of inclusions
 
@@ -64,3 +98,4 @@ The analog of the unitary group for real metric spaces is the [[orthogonal group
 
 [[!redirects unitary group]]
 [[!redirects unitary groups]]
+
