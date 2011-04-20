@@ -9,17 +9,6 @@
 =--
 =--
 
-* [[object]]
-
-* **morphism**
-
-* [[2-morphism]]
-
-* [[3-morphism]]
-
-* [[k-morphism]]
-
-***
 
 
 #Contents#
@@ -43,6 +32,20 @@ More generally, a morphism is what goes between objects in any [[n-category]].
 ## Examples
 
 The most familiar example is the category [[Set]], where the objects are sets and the morphisms are functions.  Here if $x$ and $y$ are sets, a morphism $f: x \to y$ is a function from $x$ to $y$.
+
+
+## Related concepts
+
+* [[object]]
+
+* **morphism**
+
+* [[2-morphism]]
+
+* [[3-morphism]]
+
+* [[k-morphism]]
+
 
 
 
