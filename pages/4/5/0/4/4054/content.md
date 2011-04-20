@@ -50,4 +50,5 @@ Most textbooks about operators on Hilbert spaces mention the polar decomposition
 
 * Kadison, Ringrose: _Fundamentals of the Theory of Operator Algebras_ , volume 2, _Advanced Theory_
 
+* wikipedia [polar decomposition](http://en.wikipedia.org/wiki/Polar_decomposition)
 [[!redirects polar decompositions]]
