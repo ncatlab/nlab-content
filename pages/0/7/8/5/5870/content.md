@@ -2,8 +2,8 @@
 **[[group theory]]**
 
 * [[group]]
-
 * [[group object]], [[group object in an (∞,1)-category]]
+* [[homogeneous space]]
 
 ## Classical groups
 
@@ -27,20 +27,18 @@
 
 * [[Monster group]]
 
+## Group schemes
 
+* [[algebraic group]]
+* [[abelian variety]]
 
 ## Topological groups
 
 * [[topological group]]
 
-
-## Lie groups
-
 * [[Lie group]]
 
-
-
-## Super-Lie group
+## Super-Lie groups
 
 * [[super Lie group]]
 
@@ -64,5 +62,7 @@
   * [[spectrum]]
 
 * [[circle n-group]], [[string group]], [[string 2-group]], [[fivebrane Lie 6-group]]
+
+* [[quantum group]] 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/group+theory+-+contents)</div>
