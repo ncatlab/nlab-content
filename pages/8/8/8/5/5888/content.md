@@ -34,9 +34,11 @@ Generally, a topos over a [[base topos]] $\Gamma : \mathcal{E} \to \mathcal{S}$ 
 +-- {: .num_note}
 ###### Note
 
-The term "atomic" is bad, but standard. 
+As shown in prop. \ref{AtomicMeansLocallyConnected} below, every atomic morphism $f : \mathcal{E} \to \mathcal{S}$ is also a [[locally connected geometric morphism]]. The connected objects $A \in \mathcal{E}, f_! A \simeq *$ are called the **atoms** of $\mathcal{E}$.
 
 =--
+
+See ([Johnstone, p. 689](#Johnstone)).
 
 ## Properties
 
@@ -46,6 +48,29 @@ The term "atomic" is bad, but standard.
 Atomic morphisms are closed under composition.
 
 =--
+
++-- {: .num_prop #AtomicMeansLocallyConnected}
+###### Proposition
+
+An atomic geometric morphism is also a [[locally connected geometric morphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By <a href="http://nlab.mathforge.org/nlab/show/logical+functor#LeftRightAdjoint">this proposition</a> a logical morphism with a [[right adjoint]] has also a [[left adjoint]].
+
+=--
+
++-- {: .num_prop #ConnectedAtomicImpliesHyperconnected}
+###### Proposition
+
+If an atomic morphism is also a [[connected geometric morphism|connected]], then it is even [[hyperconnected geometric morphism|hyperconnected]].
+ 
+=--
+
+This appears as ([Johnstone, lemma 3.5.4](#Johnstone)).
 
 +-- {: .num_cor}
 ###### Corollary
@@ -65,6 +90,16 @@ For the converse...
 
 =--
 
+
++-- {: .num_prop}
+###### Proposition
+
+A [[localic geometric morphism]] is atomic precisely if it is an [[etale geometric morphism]].
+
+=--
+
+This appears as ([Johnstone, lemma 3.5.4 (iii)](#Johnstone)).
+
 ## Examples
 
 +-- {: .num_prop}
@@ -81,7 +116,7 @@ Section C3.5 of
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
  {#Johnstone}
 
-[[!redirect atomic geometric morphisms]]
+[[!redirects atomic geometric morphisms]]
 
 [[!redirects atomic topos]]
 [[!redirects atomic toposes]]
