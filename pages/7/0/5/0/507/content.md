@@ -270,13 +270,19 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 #### D1.1 First-order languages
 
-* [[type theory]]
+* [[signature]]
+
+* [[term]]
+
+* [[formula]]
+
 * [[context]]
+
 * [[theory]]
-* [[geometric theory]]
-* [[constructive mathematics]]
 
 #### D1.2 Categorical semantics
+
+* [[categorical semantics]]
 
 * [[internal logic]]
 
