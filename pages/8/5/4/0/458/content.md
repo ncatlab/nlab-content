@@ -236,6 +236,7 @@ This is the beginning of a pattern in [[higher topos theory]], described at [[n-
 
 * A [[group object]] [[internalization|internal]] to locales or an [[internal groupoid]] in locales is a [[localic group]] or [[localic groupoid]], respectively. 
 
+There is also a notion of [[internal locale]], see also [[internal site]].
 
 ## Examples
 
