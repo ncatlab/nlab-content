@@ -15,7 +15,7 @@
 
 ## Idea
 
-Ordinary differential cohomology is the [[differential cohomology]]-refinement of [[ordinary cohomology]].
+Ordinary differential cohomology is the [[differential cohomology]]-refinement of [[ordinary cohomology]], for instance realized as [[singular cohomology]].
 
 Every [[generalized (Eilenberg-Steenrod) cohomology]]-theory has a refinement to [[differential cohomology]]. By _ordinary differential cohomology_ one refers, for emphasis, to the differential refinement of _ordinary [[integral cohomology]]_ , hence of the [[cohomology theory]] represented by the [[Eilenberg-MacLane spectrum]] $K(-,\mathbb{Z})$. To the extent that [[integral cohomology]] is often just called _cohomology_ if the context is clear, _ordinary differential cohomology_ is often called just _differential cohomology_ .
 
