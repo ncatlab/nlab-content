@@ -18,10 +18,10 @@
 
 #Contents#
 
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-# Idea #
+## Idea 
 
 _Synthetic differential supergeometry_ pairs the concepts of
 
@@ -32,12 +32,12 @@ with those of
 * [[supergeometry - contents|supergeometry]].
 
 
-# References #
+## References 
 
 
 * H. Nishimura, _Synthetic differential supergeometry_,  International Journal of Theoretical Physics, 	Volume 37, Number 11 (1998) ([journal](http://www.springerlink.com/content/l226546023178715/))
 
-* D. N. Yetter, _Models for synthetic supergeometry_, Cahiers, 29, 2 (1988) 
+* [[David Yetter]], _Models for synthetic supergeometry_, Cahiers, 29, 2 (1988) ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1988__29_2_87_0))
 
 * H. Nishimura, _Differential forms in synthetic differential supergeometry_, International Journal of Theoretical Physics, Volume 38, Number 2 / Februar 1999 ([journal](http://www.springerlink.com/content/w732u72q874u740k/))
 
