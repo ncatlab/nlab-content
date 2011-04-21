@@ -18,7 +18,7 @@
 
 ## Idea
 
-Differential cohomology is a refinement of ordinary [[cohomology]] such that a differential cocycle is to its underlying ordinary [[cocycle]] as a [[connection on a bundle|bundle with connection]] is to its underlying [[principal bundle|bundle]].
+Differential cohomology is a refinement of plain [[cohomology]] such that a differential cocycle is to its underlying ordinary [[cocycle]] as a [[connection on a bundle|bundle with connection]] is to its underlying [[principal bundle|bundle]].
 
 The details of a formulation of differential cohomology depend on how the generalized [[cohomology]] theory itself is formulated.
 
