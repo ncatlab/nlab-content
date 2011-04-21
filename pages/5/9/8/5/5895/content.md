@@ -159,7 +159,7 @@ Section C2.4 and C2.5 of
 
 The semidirect product externalization of internal sites is due to
 
-* [[Ieke Moerdijk]], ...
+* [[Ieke Moerdijk]], _Continuous fibrations and inverse limits of toposes_ , Composition Math. 68 (1986)
  {#Moerdijk}
 
 [[!redirects internal sites]]
