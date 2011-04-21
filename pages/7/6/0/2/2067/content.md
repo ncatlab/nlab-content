@@ -67,13 +67,14 @@ This has its analog in [[higher category theory|higher categories]].
 ###### Definition
 **(cartesian morphism)**
 
-Let $p : X \to Y$ be a [[functor]]. A [[morphism]] $f : x_1 \to x_2$ in the [[category]] $X$ is _**cartesian** with respect to $p$, or **$p$-cartesian** . If it satisfies the following property:
+Let $p : X \to Y$ be a [[functor]]. A [[morphism]] $f : x_1 \to x_2$ in the [[category]] $X$ is (strongly) **cartesian** with respect to $p$, or **$p$-cartesian** if for every $x'\in X$, for every $h:p(x')\to p(x_2)$ and every
+$u:p(x')\to p(x_2)$ such that $h = p(f) u$, there exists a unique $v:x'\to x_1$ such that $h = f v$:
 
 $$
   \array{
-    x'
+    \exists x'
     \\
-    \downarrow^{\mathrlap{\exists!}} & \searrow^{\mathrlap{\forall h}}
+    \downarrow^{\mathrlap{\exists! v}} & \searrow^{\mathrlap{\forall h}}
     \\
     x_1 &\stackrel{f}{\to}& x_2
   }
@@ -85,13 +86,15 @@ $$
   \array{
     p(x')
     \\
-    \downarrow^{\mathrlap{\forall g}} & \searrow^{\mathrlap{p(h)}}
+    \downarrow^{\mathrlap{\forall u}} & \searrow^{\mathrlap{p(h)}}
     \\
     p(x_1) &\stackrel{p(f)}{\to}& p(x_2)
   }
 $$
 
-In words: for all commuting triangles in $Y$ and all lifts through $p$ of its 2-[[horn]] to $X$, there is a unique refinement to a lift of the entire commuting triangle.
+In imprecise words: for all commuting triangles in $Y$ (involving $p(f)$ as above) and all lifts through $p$ of its 2-[[horn]] to $X$ (involving $f$ as above), there is a unique refinement to a lift of the entire commuting triangle.
+
+There is a weaker universal property, originally devised by Grothendieck and Gabriel, where one requires above lifting property only for $u = id_{p(x_1)}$, and traditionally also called simply cartesian, or rarely weak cartesian. In Grothendieck's [[fibered categories]] (see below), cartesian in the strong sense and cartesian in the weak sense are equivalent properties of morphisms.  
 
 If we pass to the [[nerve]] $N(X)$ and $N(Y)$ of the categories, then in terms of diagrams in [[sSet]] this means that the morphism $f : x \to y$ is $p$-cartesian precisely if for all [[horn]] inclusions
 
@@ -134,10 +137,8 @@ exists.
 ###### Definition
 **(Grothendieck fibration)**
 
-If for every morphism in $Y$ there is at least one lift through $p$ that is a $p$-cartesian morphism , one says that $p$ is a [[Grothendieck fibration]].
-
+If for every morphism in $Y$ there is at least one lift through $p$ that is a $p$-cartesian morphism in the strong sense, one says that $p$ is a [[Grothendieck fibration]]. Equivalently, for every morphism in $Y$ there is at least one lift through $p$ that is a $p$-cartesian morphism in the weak sense *and* the composition of every two composable $p$-cartesian morphisms (in the weak sense) is a $p$-cartesian morphism (in the weak sense). 
 =--
-
 
 
 #### Reformulations {#CartInOrdCatReformulation}
@@ -604,6 +605,16 @@ I imagine that there would then be an $(\infty,1)$-version using whatever passes
 
 
 ## References 
+
+The traditional reference is SGA I.6 (written by P. Gabriel and A. Grothendieck)
+
+* chapter 6 in A. Grothendieck, M. Raynaud et al. _Rev&#234;tements &#233;tales et groupe fondamental_ (SGA I), Lecture Notes in Mathematics __224__, Springer 1971 (retyped as [math.AG/0206203](http://arxiv.org/abs/math/0206203); published  version Documents Math&#233;matiques __3__, Soci&#233;t&#233; Math&#233;matique de France, Paris 2003)
+
+
+There are excellent lectures of Vistoli:
+
+* [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_, p. 1--104 in [[FGA explained]], [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406); [math.AG/0412512](http://arxiv.org/abs/math/0412512). 
+
 
 For the 1-categorical case see for instance section B1.3 of
 
