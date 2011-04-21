@@ -235,6 +235,8 @@ For $C$ any site with finite limits, there is canonically a  morphism of sites t
 
 * **site**
 
+  * [[internal site]]
+
 * [[2-site]], [[(2,1)-site]]
 
 * [[(∞,1)-site]]
