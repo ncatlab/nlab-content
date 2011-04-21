@@ -189,7 +189,9 @@ Here in the third step we used that the underlying dg-algebra of $CE(\mathfrak{g
 
 =--
 
+## Related concepts
 
+* [[smooth super infinity-groupoid]]
 
 ## References
  {#References}
