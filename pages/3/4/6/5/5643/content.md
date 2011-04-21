@@ -13,8 +13,6 @@
 =--
 =--
 
-
-
 > this entry is under construction
 
 #Contents#
@@ -27,53 +25,55 @@ A _smooth super $\infty$-groupoid_ is a [[super ∞-groupoid]] equipped with _sm
 
 This includes [[supermanifold]]s and [[delooping]]s of [[super Lie group]]s.
 
+
 ## Definition
 
-Let [[CartSp]]${}_{smooth}$ be the site of [[Cartesian space]]s and [[smooth function]]s between them. Notice that the [[(∞,1)-sheaf (∞,1)-topos]] $Smooth \infty Grpd := Sh_{(\infty,1)}(CartSp_{smooth})$ is that of [[smooth ∞-groupoid]]s. This is an [[(∞,1)-topos]] over the  [[base topos]]
+We conceive a smooth super $\infty$-groupoid as [[smooth ∞-groupoid]] but not over the [[base topos]] [[∞Grpd]] of bare [[∞-groupoid]]s, but over the [[base topos]] [[Super∞Grpd]] of [[super ∞-groupoid]]s.
+
+Recall from the discussion at _[[super ∞-groupoid]]_ that there is a canonical [[line object]] 
 
 $$
-  Smooth \infty Grpd \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}
-  Sh_{(\infty,1)}(Point) \simeq \infty Grpd
-  \,.
+  \mathcal{R} \in SuperSet \hookrightarrow Super\infty Grpd
 $$
 
-Consider in this construction the replacement of the category $Point = \{*\}$ with the categoy $SuperPoint$ of [[superpoints]].
+which as a presheaf on the [[site]] of [[superpoint]]s is given by
+
+$$
+  \mathcal{R} : \mathbb{R}^{0|q} \mapsto (\Lambda_q)_{even}
+  \,,
+$$
+
+where $\Lambda_q$ is (the underlying set of) the [[Grassmann algebra]] on $q$ generators, and $(\Lambda_q)_{even}$ is (the underlying set of) its even part.
+
++-- {: .num_defn}
+###### Definition
+
+Write $sCartSp$ for the [[internal site]] in $SuperSet \hookrightarrow$ [[Super∞Grpd]] whose
+
+* [[object]]s are the [[product]]s $\mathbb{R}^{}$s for $n \in \mathbb{N}$;
+
+* [[morphism]]s are those morphisms of supersets that are smooth with respect to the canonical [[supermanifold]] structure on $\mathbb{R}^n$ (see the section [As manifolds over the base topos on superpoints](#http://nlab.mathforge.org/nlab/show/supermanifold#OverSuperpoints))
+].
+
+* [[coverage]] is given by the internal [[good open cover]]s.
+
+(...)
+
+=--
 
 
 +-- {: .num_defn}
 ###### Definition
 
-The [[(∞,1)-topos]] of **super smooth ∞-groupoids** is the [[(∞,1)-category of (∞,1)-sheaves]] on [[CartSp]]${}_{smooth}$ with values in [[super ∞-groupoid]]s
+Let
 
 $$
-  \begin{aligned}
-    SuperSmooth\infty Grpd 
-     & := Sh_{(\infty,1)}(CartSp_{smooth}, Super \infty Grpd)
-     \\
-     & =: Sh_{(\infty,1)}(CartSp_{smooth} \times SuperPoint)
-  \end{aligned}
- \,,
+  SmoothSuper\infty Grpd := Sh_{(\infty,1)}(sCartSp, Super \infty Grpd)
 $$
 
-where the product site $CartSp_{smooth} \times SuperPoint$ is equipped with the product topology, whose [[covering]] families are precisely those of the form 
-$\{U_i \times D  \stackrel{(p_i, id)}{\to} U \times D\}$ for $\{U_i \stackrel{p_i}{\to} U\}$ a covering family in [[CartSp]]${}_{smooth}$ (a [[good open cover]]).
+be the [[(∞,1)-topos]] of internal [[(∞,1)-sheaves]] in [[Super∞Grpd]] over the [[internal site]] $sCartSp$.
 
 =--
-
-+-- {: .num_note}
-###### Note
-
-This definition follows the Molotkov-Voronov-Schwarz school on [[superalgebra]] and [[supergeometry]] that works over the [[base topos|base]] [[presheaf topos]] on [[superpoints]]. See the references listed at [[super ∞-groupoid]].
-
-=--
-
-## Properties
-
-The [[(∞,1)-topos]] $SmoothSuper\infty Grpd$ is a [[cohesive (∞,1)-topos]] over [[Super∞Grpd]].
-
-It is an <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#structures_in_the_presence_of_infinitesimal_cohesion_149">infinitesimal thickening</a> of [[Smooth∞Grpd]]. As such it is similar to [[SynthDiff∞Grpd]] but differs subtly from it. Both are unified in the $(\infty,1)$-topos [[SSynthDiff∞Grpd]] of _super synthetic differential $\infty$-groupoids_
-
-(...)
 
 ## References
 
