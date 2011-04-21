@@ -6,10 +6,6 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
-#### Category Theory
-+-- {: .hide}
-[[!include category theory - contents]]
-=--
 =--
 =--
 
@@ -109,21 +105,61 @@ between the category of internal presheaves in $\mathcal{E}$ over the internal c
 
 =--
 
-This appears as ([Johnstone, lemma 2.5.3](#Johnstone)).
+This appears as ([Johnstone, lemma C2.5.3](#Johnstone)).
 
 This result generalizes straightforwardly to an analogous statement for internal sheaves.
 
-(...)
++-- {: .num_defn #CoverageOnTheExternalizedSite}
+###### Definition
+
+If $\mathcal{C}$ is equipped with a [[coverage]] $J$ and $\mathbb{D}$ is equipped with an internal coverage $K$ , define a coverage $J \rtimes K$ on $\mathcal{C} \rtimes \mathbb{D}$ by declaring that a [[sieve]] on an object $(U,V)$ is $(J \times K)$-covering if there exists an element $S \in K(U)$ with $b(S) = V$, ...
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{E} = Sh_J(\mathcal{C})$ be a [[sheaf topos]] and $(\mathbb{D}, K)$ an internal site in $\mathcal{E}$. Then with def. \ref{CoverageOnTheExternalizedSite} we have an [[equivalence of categories]]
+
+$$
+  Sh_{K}(\mathbb{D})
+  \simeq
+  Sh_{J \rtimes K}(\mathcal{C} \rtimes \mathbb{D})
+$$
+
+between internal [[sheaves]] in $\mathcal{E}$ on $\mathbb{D}$ and external sheaves on the semidirect product site $J \rtimes K$.
+
+Moreover, the [[projection]] [[functor]] $P : \mathcal{C} \rtimes \mathbb{D}$ is [[cover]]-reflecting and induces a [[geometric morphism]]
+
+$$
+  \Gamma 
+   :
+  Sh_K(\mathbb{D})
+  \stackrel{}{\to}
+  \mathcal{E}
+  \,.
+$$
+
+=--
+
+This appears as ([Johnstone, prop. C2.5.4](#Johnstone)).
 
 ## Related concepts
+
+* [[site]]
 
 * [[internal locale]]
 
 ## References
 
-Section C2.4
+Section C2.4 and C2.5 of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
  {#Johnstone}
+
+The semidirect product externalization of internal sites is due to
+
+* [[Ieke Moerdijk]], ...
+ {#Moerdijk}
 
 [[!redirects internal sites]]
