@@ -15,7 +15,7 @@
 
 ## Idea
 
-Supergeometry is the ([[higher geometry|higher]]) [[geometry]] over the [[base topos]] on [[superpoint]]s.
+Supergeometry is the ([[higher geometry|higher]]) [[geometry]] over the [[base topos]] on [[superpoint]]s modeled on the canonical [[line object]] $\mathbb{R}$ in there.
 
 As ordinary [[differential geometry]] studies spaces -- [[smooth manifold]]s -- that locally look like [[vector space]]s, supergeometry studies spaces -- [[supermanifold]]s -- that locally look like [[super vector space]]s.
 
