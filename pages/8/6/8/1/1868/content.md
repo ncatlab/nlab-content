@@ -47,7 +47,7 @@ We give a discussion of twisted bundles as a realization of [[twisted cohomology
 ### Setup
  {#Setup}
 
-Let $\mathbf{B}U(1) \in \mathbf{H}$ be the [[circle n-group]]. We shall concentrate here for definiteness on twists in $\mathbf{B}^2 U(1)$-[[cohomology]], since that reproduces the usual notions of twisted bundles found in the literature. But every other choice would work, too, and yield a corresponding notion of twisted bundles.
+Let $\mathbf{B}^{n-1}U(1) \in \mathbf{H}$ be the [[circle n-group]]. We shall concentrate here for definiteness on twists in $\mathbf{B}^2 U(1)$-[[cohomology]], since that reproduces the usual notions of twisted bundles found in the literature. But every other choice would work, too, and yield a corresponding notion of twisted bundles.
 
 Fix once and for all an [[∞-group]] $G \in \mathbf{H}$ and a [[cocycle]]
 
@@ -58,7 +58,7 @@ $$
 representing a [[characteristic class]] 
 
 $$
-  [\mathbf{c}] \in H_{Smooth}^2(\mathbf{B}G,U(1)
+  [\mathbf{c}] \in H_{Smooth}^2(\mathbf{B}G,U(1))
 $$
 
 Notice that if $G$ is a [[compact space|compact]] [[Lie group]], as usual for the discussion of twisted bundles where $G = P U(n)$ is the [[projective unitary group]] in some dimension $n$, then by <a href="http://nlab.mathforge.org/nlab/show/smooth%20infinity-groupoid#CohomologyOfLieGroups">this theorem</a> we have that 
@@ -100,7 +100,7 @@ $$
   \mathbf{B}U(1) \to \mathbf{B}\hat G \to \mathbf{B}G
 $$
 
-is the smooth [[circle n-bundle|circle 2-bundle]]/[[bundle gerbe]] classified by $\mathbf{c}$ and its [[loop space object]]
+is the smooth [[circle n-bundle|circle 2-bundle]]/[[bundle gerbe]] classified by $\mathbf{c}$; and its [[loop space object]]
 
 $$
   U(1) \to \hat G \to G
@@ -141,7 +141,7 @@ $$
 
 where the right verticsl morphism is any [[section]] of the truncation projection from cocycles to cohomology classes.
 
-Given a twisting class $[\alpha] \in H^2_{smooth}(U(1))$ we say that
+Given a twisting class $[\alpha] \in H^2_{Smooth}(U(1))$ we say that
 
 $$
   H_{[\alpha]}^1(X,\hat G)
@@ -168,7 +168,7 @@ $$
 
 =--
 
-By the discussion at _[[principal ∞-bundle]]_ we may identify the elements of $H^1_{Smooth}(X, \hat G)$ with $\hat G$-[[principal ∞-bundle]]s $P \to X$. In particular if $\hat G$ is an ordinary [[Lie group]] and $X$ is an ordinary [[smooth manifold]], then these are ordinary $\hat G$-[[principal bundle]]s over $X$. This justifies equivalently calling the elements of $H^1_{tw}(X,\hat G)$ **twisted principal $\infty$-bundles**. And we shall also write
+By the discussion at _[[principal ∞-bundle]]_ we may identify the elements of $H^1_{Smooth}(X, \hat G)$ with $\hat G$-[[principal ∞-bundle]]s $P \to X$. In particular if $\hat G$ is an ordinary [[Lie group]] and $X$ is an ordinary [[smooth manifold]], then these are ordinary $\hat G$-[[principal bundle]]s over $X$. This justifies equivalently calling the elements of $H^1_{tw}(X,\hat G)$ **twisted principal $\infty$-bundles**; and we shall write
 
 $$
   \hat G TwBund(X) := H^1_{tw}(X, \hat G)
@@ -202,7 +202,7 @@ Let $X \in $ [[Mfd]] $\hookrightarrow$ [[ETop∞Grpd]] $=: \mathbf{H}$ be a [[pa
      \,.
    $$
 
-1. Given this the twisted cohomology $H^1_{[\alpha]}(X, \hat G)$ is given by [[equivalence class]]es of [[cocycle]]s given by 
+1. I terms of this cocycle data the twisted cohomology $H^1_{[\alpha]}(X, \hat G)$ is given by [[equivalence class]]es of [[cocycle]]s consisting of
 
    1. collections of functions
 
@@ -218,7 +218,7 @@ Let $X \in $ [[Mfd]] $\hookrightarrow$ [[ETop∞Grpd]] $=: \mathbf{H}$ be a [[pa
 
       holds, where on the right we are injecting 
       $\alpha_{i j k}$ via $U(1) \to \hat G$ into $\hat G$  
-      and then form the product there.
+      and then form the product there;
 
    1. subject to the [[equivalence relation]] that identifies two such collections of cocycle data $\{g_{i j}\}$ and $\{g'_{i j}\}$ if there exists functions
 
