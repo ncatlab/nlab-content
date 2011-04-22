@@ -88,7 +88,7 @@ for the [[homotopy fiber]] of $\mathbf{c}$.
 
 =--
 
-This identifies $\hat G$ as the [[group extension]] of $\mathbf{G}$ by the 2-[[cocycle]] $\mathbf{c}$.
+This identifies $\hat G$ as the [[group extension]] of $G$ by the 2-[[cocycle]] $\mathbf{c}$.
 
 
 +-- {: .num_note #TheGroupExtensionAsACircleBundle}
