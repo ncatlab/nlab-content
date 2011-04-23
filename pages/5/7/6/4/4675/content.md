@@ -80,7 +80,8 @@ Such a differential string structure over a [[smooth manifold]] $X$ is character
 More generally, one can consider the [[homotopy fiber]]s of $\frac{1}{2}\hat \mathbf{p}_1$ over arbitrary circle 3-bundles with connection $\hat \mathcal{G}_4 \in \mathbf{H}_{diff}^4(X, \mathbf{B}^3 U(1))$ and hence replace $(0,H_3)$ in the above with $\hat \mathcal{G}_4$. According to the general notion of [[twisted cohomology]], these may be thought of as **twisted differential string structures**, where the class $[\mathcal{G}_4] \in H^4_{diff}(X)$ is the twist.
 
 
-## Definition {#Definition}
+## Definition 
+  {#Definition}
 
 We will assume that the reader is familiar with basics of the discussion at [[Smooth∞Grpd]]. We often write $\mathbf{H} := Smooth \infty Grpd$ for short.
 
@@ -685,6 +686,11 @@ $$
 Here we are indicating on the right the generators and their relation in $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ and on the left their images and the images of the relations in $\Omega^\bullet(U_i)$.   This are first the definitions of the [[curvature]]s themselves and then the [[Bianchi identities]] satisfied by these.
 
 
+## Properties
+ {#Properties}
+
+
+(...)
 
 ## The Green-Schwarz mechanism in heterotic supergravity
  {#InheteroticSugra}
