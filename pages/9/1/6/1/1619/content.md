@@ -28,16 +28,15 @@ A lift one further step through the Whitehead tower is a [[Fivebrane structure]]
 
 This has generalizations to the smooth context, where instead of the topological String-group one uses the [[String Lie 2-group]].
 
-## Definition ##
+Let $X$ be an $n$-dimensional [[topological manifold]]. 
 
-Let $X$ be an $n$-dimensional manifold. 
-Its tangent [[bundle]] is canonically associated to a $O(n)$-principal bundle, which is in turn classified by a map
+Its tangent [[bundle]] is canonically associated to a $O(n)$-principal bundle, which is in turn classified by a [[continuous function]]
 
 $$
   X \to B O(n)
 $$
 
-from $X$ to the [[classifying space]] of the group $O(n)$.
+from $X$ to the [[classifying space]] of the [[orthogonal group]] $O(n)$.
 
 * A **String structure** on $X$ is the choice of a lift of this map a few steps through the [[Whitehead tower]] of $BO(n)$.
 
@@ -55,6 +54,7 @@ This means the following:
     B O(n) &\stackrel{w_1}{\to}& \mathbb{B}\mathbb{Z}_2
    }
   $$
+
   Namely using the [[homotopy hypothesis]] (which is a theorem, recall), we may identify $B O(n)$ with the one object [[groupoid]] whose space of morphisms is $O(n)$ and similarly for $ B \mathbb{Z}_2$. Then the map in question is the one induced from the group homomorphism that sends orientation preserving elements in $O(n)$ to the identity and orientation reversing elements to the nontrivial element in $\mathbb{Z}_2$.
 
   * an **[[orientation]]** on $X$ is a choice of lift of the structure group through $B SO(n) \to B O(n)$
@@ -139,7 +139,121 @@ This means the following:
   $$
 
 
-## In terms of classes on the total space {#ClassesOnTotalSpace}
+## Definition ##
+
+### Topological and smooth string structures
+
+Let the ambient [[(∞,1)-topos]] by $\mathbf{H} = $ [[ETop∞Grpd]] or [[Smooth∞Grpd]]. Write $X$ for a [[topological manifold]] or [[smooth manifold]] of [[dimension]] $n$, respectively. 
+
+Write $String(n)$ for the [[string 2-group]], a [[1-truncated]] [[∞-group]] object in $\mathbf{H}$.
+
+
++-- {: .num_defn #PlainStringStructures}
+###### Definition
+
+The [[2-groupoid]] of (topological or smooth) **string structures** on $X$ is 
+the hom-space of [[cocycle]]s $X \to \mathbf{B}String(n)$, or equivalently that of (topological or smooth) $String(n)$-[[principal 2-bundle]]s:
+
+$$
+  String(X) := String(n) Bund(X) \simeq \mathbf{X}(X,\mathbf{B}String)
+  \,.
+$$ 
+
+
+=--
+
+Write $\frac{1}{2} \mathbf{p}_1 : \mathbf{B} Spin(n) \to \mathbf{B}^3 U(1)$ in $\mathbf{H}$ for the topological or smooth refinement of the first fractional Pontryagin class (see [[differential string structure]] for details on this).
+
+
++-- {: .num_prop #StringStructuresAsObstructions}
+###### Observation
+
+The 2-groupoid of string structure on $X$ is the [[homotopy fiber]] of $\frac{1}{2}\mathbf{p}_1^X$: the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    String(X) &\to& * 
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathbf{H}(X, \mathbf{B}Spin(n))
+     &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}&
+    \mathbf{H}(X, \mathbf{B}^3 U(1))
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of the [[string 2-group]] we have the [[fiber sequence]] $\mathbf{B} String \to \mathbf{B}Spin \stackrel{\frac{1}{2}} \mathbf{p_1}{\to} \mathbf{B}^3 U(1)$. The [[hom-functor]] $\mathbf{H}(X,-)$ preserves every [[(∞,1)-limit]], hence preserves this [[fiber sequence]].
+
+=--
+
++-- {: .num_defn #FiberOverSpinStructure}
+###### Definition
+
+Given a [[spin structure]] $S : X \to \mathbf{B} Spin(n)$ we say that the **string structures extending this spin-structure** is the [[homotopy fiber]] $String_S(X)$ of the projection $String(X) \to Spin(X)$ from observation \ref{StringStructuresAsObstructions}:
+
+
+=--
+
+## Properties
+
+### Choices of string structures
+
++-- {: .num_prop #ChoicesOfSpinStructures}
+###### Observation
+
+The choices of string structures extending a given spin structure $S$ 
+
+* if $[\frac{1}{2}\mathbf{p}_1(S)] \neq 0$ it is empty: $String_S(X) \simeq \emptyset$;
+
+* $[\frac{1}{2}\mathbf{p}_1(S)] = 0$ it is $String_S(X) \simeq \mathbf{H}(X, \mathbf{B}^2 U(1))$.
+
+  In particular the set of [[equivalence class]]es of string structures lifting $S$ is the [[cohomology]] set 
+
+  $$
+    \pi_0 String_S(X) \simeq H^3(X, \mathbb{Z})
+    \,.
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply the [[pasting law]] for [[(∞,1)-pullback]]s on the [[diagram]]
+
+$$
+  \array{  
+    String_S(X) &\to& String(X) &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    * &\stackrel{S}{\to}& \mathbf{H}(X, \mathbf{B} Spin(n))
+    &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}&
+    \mathbf{H}(X, \mathbf{B}^3 U(1))
+  }
+  \,.
+$$
+
+The outer diagram defines the [[loop space object]] of $\mathbf{H}(X, \mathbf{B}^3 U(1))$. Since $\mathbf{H}(X,-)$ commutes with forming loop space objects (see [[fiber sequence]] for details) we have
+
+$$
+  String_S(X) \simeq \Omega \mathbf{H}(X, \mathbf{B}^3 U(1))
+   \simeq
+  \mathbf{H}(X, \mathbf{B}^2 U(1))
+  \,.
+$$
+
+=--
+
+
+### String structures by gerbes on a bundle 
+ {#ClassesOnTotalSpace}
 
 One can reformulate an
 
@@ -153,39 +267,31 @@ One can reformulate an
 
 structure in terms of the existence of a certain class in abelian cohomolgy on the total space of the given [[principal bundle]]. This decomposition is a special case of th general [[Whitehead principle of nonabelian cohomology]].
 
-We write this out for the case of string structures, all other cases work entirely analogously.
 
 
-Let $X$ be an oriented Spin manifold and let $P \to X$ be the corresponding $Spin(n)$-[[principal bundle]]. Notice that this, like any principal bundle (see [[universal principal ∞-bundle]]) is the [[(∞,1)-pullback]]/[[homotopy pullback]]
++-- {: .num_defn #StringStrucDefinitionByTotalSpace}
+###### Definition
 
-$$
-  \array{
-    P &\to& {*}
-    \\
-    \downarrow && \downarrow
-    \\
-    X &\stackrel{}{\to}& B Spin(n)
-  }
-$$
+Let $X$ be a manifolds with [[spin structure]] $S : X \to \mathbf{B}Spin$. Write $P \to X$ for the corresponding [[spin group]]-principal bundle. 
 
-of the point along the classifying map from $X$ to the [[classifying space]] $B Spin(n)$.
+Then a **string structure** lifting $S$ is a cohomology class $H^3(P,\mathbb{Z})$ such that the restriction of the class to any fiber $\simeq Spin(n)$ is a generator of $H^3(Spin(n), \mathb{Z}) \simeq \mathbb{Z}$.
 
-In other words, there is a [[fiber sequence]]
+=--
 
-$$
-  \cdots 
-  \to
-  (\Omega B Spin = Spin(n))
-  \to
-  P
-  \to 
-  X 
-  \to
-  B Spin(n)
-  \,.
-$$
+This kind of definition appears in ([Redden, def. 6.4.2](#Redden)).
 
-If now $X$ does admit a String structure, i.e. a decomposition of $X \to B Spin(n)$ into a map $X \to B String(n) \to B Spin(n)$ then we obtain the following diagram, where each square is a [[homotopy limit|homotopy pullback]]
++-- {: .num_prop #DirectStringStructureImpliesIndirectOne}
+###### Proposition
+
+Every string structure in the sense of def. \ref{FiberOverSpinStructure} induces a string structure in the sense of def. \ref{StringStrucDefinitionByTotalSpace}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Consider the [[pasting]] diagram of  [[(∞,1)-pullback]]s
 
 $$
   \array{
@@ -201,30 +307,13 @@ $$
   }
 $$
 
-Here we use repeatedly the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">pasting law</a> for $(\infty,1)$-pullbacks. The map $P \to B^2 U(1)$ appears by decomposing the homotopy pullback of the point along $X \to B Spin(n)$ into a homotopy pullback first along $B String(n) \to B Spin(n)$ and then along $X \to B String(n)$ using the given String structure. This is the [[cocycle]] for a $\mathbf{B}U(1)$-[[principal 2-bundle]] on the total space $P$ of the $Spin$-principal bundle: a [[bundle gerbe]].
+This uses repeatedly the [[pasting law]] for $(\infty,1)$-pullbacks. The map $P \to B^2 U(1)$ appears by decomposing the homotopy pullback of the point along $X \to B Spin(n)$ into a homotopy pullback first along $B String(n) \to B Spin(n)$ and then along $X \to B String(n)$ using the given String structure. This is the [[cocycle]] for a $\mathbf{B}U(1)$-[[principal 2-bundle]] on the total space $P$ of the $Spin$-principal bundle: a [[bundle gerbe]].
 
 The rest of the diagram is constructed in order to prove the following:
 
 * The class in $H^3(P, \mathbb{Z})$ of this bundle gerbe, represented by $P \to B^2 U(1)$ has the property that restricted to the fibers of the $Spin(n)$-principal bundle $P$ it becomes the generating class in $H^3(Spin(n), \mathbb{Z})$.
 
-**Proof**. 
-
-Here $\hat P \to X$ denotes the $String(n)$-principal bundle classified by $X \to B String(n)$.
-
-This uses 
-
-* the fact that <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">pasting compositites</a> of homotopy pullbacks are again homtopy pullbacks.
-
-* the fact that the homotopy pullback of the point to itself produces the [[loop space object]], e.g.
-  $$
-    \array{
-      \Omega B Spin(n) \simeq Spin(n) &\to& {*}
-      \\
-      \downarrow && \downarrow
-      \\
-      {*} &\to& B Spin
-    }
-  $$
+=--
 
 ## Twisted and differential string structures
 
@@ -278,6 +367,9 @@ The relation between the two pictures is analyzed for instance in
 
 * A. Asada, _Characteristic classes of loop group bundles and generalized string classes_ , Differential geometry and its applications (Eger, 1989), 33--66, Colloq. Math. Soc. J&#225;nos Bolyai, 56, North-Holland, Amsterdam, 1992. ([[Asada.pdf:file]])
 
+The definition of string structures by degree-3 classes on the total space of the spin bundle is in
+
+* [[Corbett Redden]], _Canonical metric connections associated to string structures_ PhD Thesis, (2006)([pdf](https://www.math.sunysb.edu/~redden/Thesis.pdf))
 
 For discussion of String-structures using 3-classes on total spaces see for instance the work by Corbett Redden and Konrad Waldorf described at 
 
