@@ -164,12 +164,55 @@ where the right vertical morphism is a choice of (any) one point in each [[conne
 ###### Note
 
 In terms of local [[∞-Lie algebra valued differential forms]] data this has been considered in ([SSSIII](#SSSIII)), as we shall discuss [below](#ChernWeilTheory).
-For the case where the twist is given by globally defined 3-forms, i.e. by  trivial 2-gerbes with connection, essentially this definition, explicitly modeled on [[bundle 2-gerbe]]s, has been given in ([Waldorf](#Waldorf)).
+
+For the case where the the underlying integral class of the twist is trivial, essentially this definition, explicitly modeled on [[bundle 2-gerbe]]s, has been given in ([Waldorf](#Waldorf)). See the discussion [below](#Properties).
 
 =--
 
 
-## Construction in terms of $L_\infty$-Cech cocycles 
+## Properties
+ {#Properties}
+
+### General
+ {#GeneralProperties}
+
+
++-- {: .num_prop #PropertiesOfTrivialIntegralTwistClass}
+###### Proposition
+
+If the underlying [[integral cohomology]] class of the twist is trivial, $c(tw) = 0 \in H^3(X, \mathbb{Z})$, then $tw$-twisted differential string structures on a $Spin$-[[connection on a bundle|connection]] $\nabla$ are characterized by a globally defined 3-form on $X$, that differs from the [[Chern-Simons form]] of $\nabla$ by a closed 3-form with integral [[period]]s.
+
+=--
+
+This appears as ([Waldorf, theorem 1.3.3](#Waldorf)).
+
++-- {: .proof}
+###### Proof
+
+Elements in the defining [[homotopy pullback]] from def. \ref{DifferentialStringStructure} over a given [[connection on a bundle|connection]] $\nabla \in \mathbf{H}(X,\mathbf{B} Spin)_{conn}$ are chracterized by an element $[\alpha] \in H^4_{diff}(X)$ and an [[equivalence in an (infinity,1)-category|equivalence]]
+
+$$
+  \Omega : CS(\nabla) \stackrel{\simeq}{\to} \alpha
+$$
+
+between the corresponding [[Chern-Simons circle 3-bundle]] and the given [[circle n-bundle with connection|circle 3-bundle]] $\alpha$. In the case at hand, both have underlying trivial class $c(CS(\nabla)) = c(\alpha) = 0$ .
+
+By the [characteristic class exact sequence](http://nlab.mathforge.org/nlab/show/ordinary%20differential%20cohomology#AbstractProperties)
+
+$$
+  0 \to \Omega^3(X)/\Omega_{int}^{3}(X)
+  \to 
+   H^4_{diff}(X) \stackrel{c}{\to} H^4(X, \mathbb{Z})
+$$
+
+any two classes in $\pi_0 \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1)) \simeq H^4_{diff}(X)$ that have trivial underlying class in $\pi_0 \mathbf{H}(X, \mathbf{B}^3 U(1)) \simeq H^4(X, \mathbb{Z})$ differ by a 3-form modulo a closed 3-form with integral periods.
+
+Therefore the tiwst $tw$ itself is identified with a globally defined 3-form (the global connection 3-form on a trivial [[circle n-bundle with connection|circle 3-bundle with connection]]). Since also the [[Chern-Simons circle 3-bundle]] $\frac{1}{2}\mathbf{p}_1(\nabla)$ has trivial underlying class by assumption, and has as globally defined connection form the [[Chern-Simons form]] $CS(\nablla)$, up to an exact from, the claim follows.
+
+=--
+
+
+### Construction in terms of $L_\infty$-Cech cocycles 
   {#ChernWeilTheory}
 
 We use the [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-topos]] [[Smooth∞Grpd]] (as described there) by the local [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ to give an explicit construction of twisted differential string structures in terms of [[Cech cohomology|Cech]]-cocycles with coefficients in [[∞-Lie algebra valued differential forms]].
@@ -208,7 +251,7 @@ In order to compute the [[homotopy fiber]]s of
 $\frac{1}{2}\hat \mathbf{p}_1$ we now find a [[resolution]] of this morphism $\exp(\mu,cs)$ by a fibration in $[CartSp_{smooth}^{op}, sSet]_{proj}$. By the fact that this is a [[simplicial model category]] then also the hom of any cofibrant object into this morphism, computing the cocycle $\infty$-groupoids, is a fibration, and therefore, by the general discussion at [[homotopy pullback]], we obtain the [[homotopy fiber]]s as the ordinary [[fiber]]s of this fibration.
 
 
-### Presentation of the differential class by a fibration
+#### Presentation of the differential class by a fibration
 
 In order to factor $\exp(\mu,cs)$ into a weak equivalence followed by a fibration, we start by considering such a factorization before differential refinement, on the underlying characteristic class $\exp(\mu)$.
 
@@ -558,7 +601,8 @@ is an extension of $B$ that constitutes a lift.
 
 
 
-### Explicit Cech cocycles {#ExplicitCocycles}
+#### Explicit Cech cocycles 
+  {#ExplicitCocycles}
 
 +-- {: .num_cor #PresentationBySimplicialPresheaves}
 ###### Corollary
@@ -686,11 +730,10 @@ $$
 Here we are indicating on the right the generators and their relation in $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ and on the left their images and the images of the relations in $\Omega^\bullet(U_i)$.   This are first the definitions of the [[curvature]]s themselves and then the [[Bianchi identities]] satisfied by these.
 
 
-## Properties
- {#Properties}
 
 
-(...)
+
+
 
 ## The Green-Schwarz mechanism in heterotic supergravity
  {#InheteroticSugra}
