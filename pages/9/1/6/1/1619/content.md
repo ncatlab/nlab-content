@@ -168,7 +168,7 @@ Write $\frac{1}{2} \mathbf{p}_1 : \mathbf{B} Spin(n) \to \mathbf{B}^3 U(1)$ in $
 +-- {: .num_prop #StringStructuresAsObstructions}
 ###### Observation
 
-The 2-groupoid of string structure on $X$ is the [[homotopy fiber]] of $\frac{1}{2}\mathbf{p}_1^X$: the [[(∞,1)-pullback]]
+The [[2-groupoid]] of string structure on $X$ is the [[homotopy fiber]] of $\frac{1}{2}\mathbf{p}_1^X$: the [[(∞,1)-pullback]]
 
 $$
   \array{
