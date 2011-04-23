@@ -4,7 +4,8 @@
 ###Context###
 #### Homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]=--
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -75,11 +76,25 @@ Note, though, that the coherence supplied by Vogt's lemma is not required to con
 
 Vogt's Lemma plays a key role in the proof of Vogt's theorem (cf. [[homotopy coherent diagram]]s).
 
-## Related notions
+## Related concepts
 
-* [[weak homotopy equivalence]]
+* [[equality]]
 
-* [[homotopy equivalence of toposes]].
+* [[isomorphism]]
+
+* [[equivalence]]
+
+* [[weak equivalence]]
+
+* **homotopy equivalence**, [[weak homotopy equivalence]]
+
+* [[homotopy equivalence of toposes]]
+
+* [[equivalence in an (∞,1)-category]]
+
+* [[equivalence of (∞,1)-categories]]
+
+.
 
 [[!redirects homotopy equivalences]]
 [[!redirects homotopy equivalent]]
