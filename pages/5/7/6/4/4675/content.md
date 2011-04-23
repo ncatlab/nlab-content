@@ -157,6 +157,8 @@ $$
 
 where the right vertical morphism is a choice of (any) one point in each [[connected component]] (differential cohomology class) of the [[cocycle]] [[∞-groupoid]] $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ (the [[homotopy type]] of the [[(∞,1)-pullback]] is independent of this choice).
 
+More specifically, a **geometric string structure** is a twisted differential string structure whose differential twist has underlying trivial class. 
+
 =--
 
 
@@ -165,7 +167,7 @@ where the right vertical morphism is a choice of (any) one point in each [[conne
 
 In terms of local [[∞-Lie algebra valued differential forms]] data this has been considered in ([SSSIII](#SSSIII)), as we shall discuss [below](#ChernWeilTheory).
 
-For the case where the the underlying integral class of the twist is trivial, essentially this definition, explicitly modeled on [[bundle 2-gerbe]]s, has been given in ([Waldorf](#Waldorf)). See the discussion [below](#Properties).
+For the case where the the underlying integral class of the twist is trivial -- geometric string structures -- something close to this definition, explicitly modeled on [[bundle 2-gerbe]]s, has been given in ([Waldorf](#Waldorf)). See the discussion [below](#Properties).
 
 =--
 
