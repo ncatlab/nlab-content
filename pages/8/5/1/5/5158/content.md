@@ -59,6 +59,28 @@ $E\times Sh(\Sigma)\to F$.  Now just pick a map $[0,1]\to \Sigma$ that doesn't i
 
 In particular, this means that any [[local geometric morphism]] or [[totally connected geometric morphism]] is a homotopy equivalence.
 
+
+## Related concepts
+
+* [[equality]]
+
+* [[isomorphism]]
+
+* [[equivalence]]
+
+* [[weak equivalence]]
+
+* [[homotopy equivalence]], [[weak homotopy equivalence]]
+
+* **homotopy equivalence of toposes**
+
+* [[equivalence in an (∞,1)-category]]
+
+* [[equivalence of (∞,1)-categories]]
+
+
+
+
 ## References
 
 * M. Artin and B. Mazur, 1969, _Etale homotopy_, No. 100, Lecture Notes in Maths., 
