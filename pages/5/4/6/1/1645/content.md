@@ -87,6 +87,7 @@ More concretely, the function algebra on $P$ is a graded-commutative [[dg-algebr
 ### Anomalous action functional
 
 #### Spinning particles and super-branes 
+  {#SpinningParticlesAndSuperBranes}
 
 The [[sigma-model]] for a [[supersymmetry|supersymmetric]] fundamental [[brane]] on a target space $X$ has an anomaly coming from the nontriviality of [[Pfaffian line bundle]]s associated with the [[fermion]]ic fields on the worldvolume. These anomalies disappear (i.e. these bundles are trivializable) when the structure group of the [[tangent bundle]] of $X$ has a sufficiently high lift through the [[Whitehead tower]] of $O(n)$.
 
@@ -101,6 +102,8 @@ The [[sigma-model]] for a [[supersymmetry|supersymmetric]] fundamental [[brane]]
   This is originally due to Killingback and Witten. A commented list of literature is [here](http://golem.ph.utexas.edu/string/archives/000572.html). Recently [[Ulrich Bunke]] gave the rigorous proof
 
   * [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv](http://arxiv.org/abs/0909.0846))
+
+in terms of [[differential cohomology]] in general and [[differential string structure]]s in particular.
 
 * **Fivebrane structure** the worldvolume anomaly for the super-5-brane in [[dual heterotic string theory]] vanishes (essentially) when $X$ has [[Fivebrane structure]]. See there.
 
