@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _local system_  -- which is short for _local system of coefficients for cohomology_ -- is a [[locally constant sheaf]]. Cohomology with coefficients in a local system is the corresonding [[sheaf cohomology]].
+A _local system_  -- which is short for _local system of coefficients for cohomology_ -- is a [[locally constant sheaf]]. Cohomology with coefficients in a local system is the corresponding [[sheaf cohomology]].
 
 More generally, we say a _local system_ is a [[locally constant stack]], ... and eventually a [[locally constant ∞-stack]].
 
