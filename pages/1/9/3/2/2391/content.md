@@ -143,7 +143,31 @@ $$
   \,.
 $$ 
 
-The only thing is who is adjoint -- now $C^R$ is the left adjoint. It is clear that $C^\eta$ and $C^\epsilon$ satisfy the triangle identities and that if $\eta$ is iso then the composition with $\eta$ is also iso. Thus we obtain a $Q$-categories.
+The only thing is who is adjoint -- now $C^R$ is the left adjoint. 
+
+The triangle identities for $C^R\dashv C^L$ can be obtained by expanding.  For $R: \bar{A}\to A$, one has $C^R : C^A\to C^{\bar{A}}$ is given by $C^R : G\mapsto GR$, and for $L:A\to\bar{A}$ one has $C^L:F\mapsto F L$. Then $C^\eta : Id_{C^A}\to C^R C^L = C^{LR}$ has the components $(C^\eta)_G : (Id_{C^A})(G) \Rightarrow C^R C^L (G)$ given by $G \eta : G\to G L R$. Thus for each functor $G\in C^{\bar{A}}$, the composition
+
+$$G R\stackrel{G\eta R}\longrightarrow G R L R \stackrel{G R \eta}\longrightarrow G R$$
+
+is the identity by the triangle identity for $L\dashv R$, but this is precisely the $G$-component of the transformation 
+
+$$
+C^R \stackrel{C^R C^\eta}\longrightarrow C^R C^L C^R \stackrel{C^\epsilon C^R}\longrightarrow C^R.
+$$
+ 
+Similarly the $F$-component of 
+
+$$
+C^{L} \stackrel{C^\eta C^L}\longrightarrow C^L C^R C^L \stackrel{C^L C^\epsilon}\longrightarrow C^L,
+$$
+
+for a functor $F\in C^A$ reads 
+
+$$ F L \stackrel{F L \eta}\longrightarrow F L R L  \stackrel{F \epsilon L}\longrightarrow F L $$
+
+and this composition equals $Id_{F L}$ by another triangle identity for $L\dashv R$.
+
+It is clear that if $\eta$ is iso then the composition with $\eta$ is also iso. Thus we obtain a $Q$-categories.
 
 In other words, since the [[left adjoint]] being a [[full and faithful functor]] is equivalent to the unit of the [[adjunction]] being an [[isomorphism]], it follows from $L$ being full and faithful that $C^R$ is full and faithful.
 
