@@ -29,7 +29,7 @@ An _orientifold_ is a background for [[string theory|string]] [[sigma-model]]s t
 
 Such orientifold gerbes with connection are the right structure for the definition of surface holonomy of _unoriented_ surfaces. Therefore they serve for defining the gauge part of the [[path integral|action functional]] for unoriented [[string theory|strings]].
 
-More precisely, the [[gauge field]]s that constiture the background for a string $\sigma$-model, such as the [[Kalb-Ramond field]] and the [[RR-field]]s are modeled as [[cocycle]]s in the [[differential cohomology]] of the target space, and an _orientifold_ is the data given by an [[orbifold]] [[spacetime]] that involves the [[group]] $\mathbb{Z}_2$ and equipped with certain [classes in its( [[twisted cohomology|twisted]]) [[differential cohomology]] that is suitably $\mathbb{Z}_2$-[[equivariant cohomology|equivariant]].
+More precisely, the [[gauge field]]s that constitute the background for a string $\sigma$-model, such as the [[Kalb-Ramond field]] and the [[RR-field]]s are modeled as [[cocycle]]s in the [[differential cohomology]] of the target space, and an _orientifold_ is the data given by an [[orbifold]] [[spacetime]] that involves the [[group]] $\mathbb{Z}_2$ and equipped with certain [classes in its( [[twisted cohomology|twisted]]) [[differential cohomology]] that is suitably $\mathbb{Z}_2$-[[equivariant cohomology|equivariant]].
 
 
 ## Orientifold circle $n$-bundles with connection
