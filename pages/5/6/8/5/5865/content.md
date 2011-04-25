@@ -866,7 +866,7 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #ExtendedBundlesByBundlesOfExtensions}
 ###### Proposition
 
 Let $A \to \hat G \to G$ be an extension of $\infty$-groups, 
@@ -875,6 +875,10 @@ def. \ref{InfinityGroupExtensions} in $\mathbf{H}$ and let $P \to X$ be a $G$-[[
 Then a $\hat G$-extension $\hat P \to X$ of $P$ is in particular also an $A$-principal $\infty$-bundle $\hat P \to P$ over $P$ with the property that its restriction to any [[fiber]] of $P$ is equivalent to $\hat G \to G$.
 
 =--
+
+We may summarize this as saying: 
+
+> An extension of $\infty$-bundles is an $\infty$-bundle of extensions.
 
 +-- {: .proof}
 ###### Proof
