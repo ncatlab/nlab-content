@@ -906,7 +906,7 @@ The bottom composite $g : X \to \mathbf{B}G$ is a cocycle for the given $G$-prin
 
 Since also the bottom right square is an $\infty$-pullback by the given $\infty$-group extension, the [[pasting law]] asserts that the square over $\hat g$ is also a pullback, and then that so is the square over $q$. This exhibits $\hat P$ as an $A$-principal $\infty$-bundle over $P$.
 
-Now choose any point $x : {*} \to X$ of the base space as on the left of the diagram. Pulling this back upwards through the diagram and using the pasting law and the definition of [[loop space object]]s $G \simeq \Omega \mathbf{B}G \simeq * \prod_{\mathbf{B}G} *$ the diagram completes by $(\infty-1)$-pullback squares on the left as indicated, which proves the claim.
+Now choose any point $x : {*} \to X$ of the base space as on the left of the diagram. Pulling this back upwards through the diagram and using the pasting law and the definition of [[loop space object]]s $G \simeq \Omega \mathbf{B}G \simeq * \prod_{\mathbf{B}G} *$ the diagram completes by $(\infty,1)$-pullback squares on the left as indicated, which proves the claim.
 
 =--
 
