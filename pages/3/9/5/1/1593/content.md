@@ -1,8 +1,4 @@
 
-<div class="rightHandSide toc">
-</div>
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -172,7 +168,7 @@ A formulation of some of the relevant aspects of orientifolds in terms of the  [
 
 * [[Urs Schreiber]],  talk [[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]] at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] 
 
-More on this in section 3.3 of 
+More on this in section 3.3.10 of 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
