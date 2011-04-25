@@ -9,6 +9,7 @@
 =--
 =--
 
+Adjoint triple is involving 3 functors. Please do not mix with the notion of [[adjoint monad]]s, which were sometimes called adjoint triples.
 
 #Contents#
 * table of contents
