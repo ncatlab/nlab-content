@@ -150,7 +150,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is the standard [[even rules]] mechanism: write $\Lambda^q$ for the [[Grassmann algebra]] of duals on the generators of $\Lambda_q$. Then
+This is the standard [[even rules]] mechanism: write $\Lambda^q$ for the [[Grassmann algebra]] of duals on the generators of $\Lambda_q$. Then using that the category $sVect$ of finite-dimensional [[super vector space]]s is a [[compact closed category]], we compute
 
 $$
   \begin{aligned}
