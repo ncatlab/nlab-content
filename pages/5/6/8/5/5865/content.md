@@ -24,7 +24,8 @@
 A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with good [[cohomology]] and [[homotopy]] properties. We list fundamental structures and constructions that exist in every cohesvive $(\infty,1)$-topos.
 
 
-### Concrete objects{#ConcreteObjects}
+### Concrete objects
+ {#ConcreteObjects}
 
 
 The cohesive structure on an object in a cohesive 
@@ -120,7 +121,8 @@ a [[concrete sheaf]] in the traditional sense.
 
 
 
-### Geometry and structure sheaves {#GeometryAndStructureSheaves}
+### Geometry and structure sheaves 
+ {#GeometryAndStructureSheaves}
 
 +-- {: .num_defn}
 ###### Definition
@@ -794,7 +796,7 @@ to conclude the induction step with the same arguments as before.
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #GPrincipalInfinityBundle}
 ###### Definition
 
 We say a $G$-principal action of $G$ on $P$ over $X$ is a 
@@ -830,6 +832,81 @@ $$
 
 =--
 
+Of special interest are principal $\infty$-bundles of the form $P \to \mathbf{B}G$:
+
++-- {: .num_defn #InfinityGroupExtensions}
+###### Definition
+
+We say a sequence of [cohesive ∞-groups](#InfinGroups)
+
+$$
+  A \to \hat G \to G
+$$
+
+_exhibits $\hat G$ as an [[group extension|extension]] of $G$ by $A$_ if the corresponding [[delooping]] sequence
+
+$$
+  \mathbf{B}A \to \mathbf{B}\hat G \to \mathbf{B}G
+$$
+
+if a [[fiber sequence]]. If this fiber sequence extends one step further to the right to a morphism $\phi : \mathbf{B}G \to \mathbf{B}^2 A$, we have by def. \ref{GPrincipalInfinityBundle} that $\mathbf{B}\hat G \to \mathbf{B}G$ is the $\mathbf{B}A$-[[principal ∞-bundle]] classified by the [[cocycle]] $\phi$; and $\mathbf{B}A \to \mathbf{B}\hat G$ is its [[fiber]] over the unique point of $\mathbf{B}G$.
+
+Given an extension and a  a $G$-[[principal ∞-bundle]] $P \to X$ in $\mathbf{H}$ we say a **lift** $\hat P$ of $P$ to a $\hat G$-principal $\infty$-bundle is a factorization of its classifying [[cocycle]] $g : X \to \mathbf{B}G$ through the extension
+
+$$
+  \array{
+      && \mathbf{B}\hat G
+     \\
+     & {}^{\mathllap{\hat g}}\nearrow & \downarrow
+    \\
+    X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $A \to \hat G \to G$ be an extension of $\infty$-groups, 
+def. \ref{InfinityGroupExtensions} in $\mathbf{H}$ and let $P \to X$ be a $G$-[[principal ∞-bundle]]. 
+
+Then a $\hat G$-extension $\hat P \to X$ of $P$ is in particular also an $A$-principal $\infty$-bundle $\hat P \to P$ over $P$ with the property that its restriction to any [[fiber]] of $P$ is equivalent to $\hat G \to G$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows from repeated application of the [[pasting law]] for [[(∞,1)-pullback]]s: consider the following diagram in $\mathbf{H}$
+
+$$
+  \array{
+    \hat G &\to& \hat P &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    G &\to& P &\stackrel{q}{\to}& \mathbf{B}A &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    {*} &\stackrel{x}{\to}&
+    X &\stackrel{\hat g}{\to}& \mathbf{B}\hat G
+    &\stackrel{}{\to}& \mathbf{B}G
+  }
+  \,.
+$$
+
+The bottom composite $g : X \to \mathbf{B}G$ is a cocycle for the given $G$-principal $\infty$-bundle $P \to X$ and it factors through $\hat g : X \to \mathbf{B}\hat G$ by assumption of the existence of the extension $\hat P \to P$. 
+
+Since also the bottom right square is an $\infty$-pullback by the given $\infty$-group extension, the [[pasting law]] asserts that the square over $\hat g$ is also a pullback, and then that so is the square over $q$. This exhibits $\hat P$ as an $A$-principal $\infty$-bundle over $P$.
+
+Now choose any point $x : {*} \to X$ of the base space as on the left of the diagram. Pulling this back upwards through the diagram and using the pasting law and the definition of [[loop space object]]s $G \simeq \Omega \mathbf{B}G \simeq * \prod_{\mathbf{B}G} *$ the diagram completes by $(\infty-1)$-pullback squares on the left as indicated, which proves the claim.
+
+=--
+
+
 ### Twisted cohomology
  {#TwistedCohomology}
 
@@ -839,7 +916,7 @@ A slight variant of [[cohomology]] is often relevant: [[twisted cohomology]].
 +-- {: .num_defn #TwistedCohomologyInOvertopos}
 ###### Definition
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] let  $\mathbf{c} : B \to C$ be a [[morphism]] representing a [[characteristic class]] $[\mathbf{c}] \in H(B,C)$. Let $C$ be [[pointed object|pointed]] and write  $A \to B$ for its [[homotopy fiber]].
+For $\mathbf{H}$ an [[(∞,1)-topos]] let  $\mathbf{c} : B \to C$ a [[morphism]] representing a [[characteristic class]] $[\mathbf{c}] \in H(B,C)$. Let $C$ be [[pointed object|pointed]] and write  $A \to B$ for its [[homotopy fiber]].
 
 We say that the **[[twisted cohomology]]** with coefficients in $A$ relative to $\mathbf{c}$ is the [[cohomology|intrinsic cohomology]] of the [[over-(∞,1)-topos]] $\mathbf{H}/C$ with coefficients in $f$.
 
@@ -935,13 +1012,12 @@ $$
 
 Often twisted cohomology is formulated in terms of homotopy classes of sections of a bundle. The following asserts that this is equivalent to the above definition.
 
-By the discussion at [Cohomology and principal ∞-bundles](#Cohomology) we may understand the twist $\phi : X \to C$ as the cocycle for an $\Omega C$-[[principal ∞-bundle]] over $X$, being the [[(∞,1)-pullback]] of the point inclusion $* \to C$ along $\phi$, where the point is the homotopy-incarnation of the universal $\Omega C$-principal $\infty$-bundle. The [[characteristic class]] 
-$\mathbf{c} : B \to C$ in turn we may think of as an $\Omega A$-bundle [[associated bundle|associated]] to this universal bundle. Accordingly the pullback $P_\phi := X \times_C B$ is the associated $\Omega A$-bundle over $X$ classified by $\phi$.
+By the discussion at [Cohomology and principal ∞-bundles](#Cohomology) we may understand the twist $\phi : X \to C$ as the cocycle for an $\Omega C$-[[principal ∞-bundle]] over $X$, being the [[(∞,1)-pullback]] of the point inclusion $* \to C$ along $\phi$, where the point is the homotopy-incarnation of the universal $\Omega C$-principal $\infty$-bundle. The [[characteristic class]] $B \to C$ in turn we may think of as an $\Omega A$-bundle [[associated bundle|associated]] to this universal bundle. Accordingly the pullback of $P_\phi := X \times_C B$ is the associated $\Omega A$-bundle over $X$ classified by $\phi$.
 
 +-- {: .num_prop #TwistedCohomologyBySections}
 ###### Proposition
 
-Let $P_\phi := X \times_C B$ be the [[(∞,1)-pullback]] of the [[characteristic class]] $\mathbf{c}$ along the twisting cocycle $\phi$ 
+Let $P_\phi := X \times_C B$ be [[(∞,1)-pullback]] of the [[characteristic class]] $\mathbf{c}$ along the twisting cocycle $\phi$ 
 
 $$
   \array{
@@ -957,7 +1033,7 @@ $$
 Then the $\phi$-twisted $A$-cohomology of $X$ is equivalently the space of [[section]]s $\Gamma_X(P_\phi)$ of $P_\phi$ over $X$:
 
 $$
-  \mathbf{H}_{\phi}(X,A)
+  \mathbf{H}_{tw,\phi}(X,A)
   \simeq
   \Gamma_X(P_\phi)
   \,,
@@ -1035,8 +1111,7 @@ of the [[0-truncated|0-truncation]] projection $\mathbf{H}(X,C) \to H(X,C)$ from
 With a [[characteristic class]] $[\mathbf{c}] \in H(B,C)$ with [[homotopy fiber]] $A$ understood, we write
 
 $$
-  \mathbf{H}_{tw}(X,A) := \coprod_{[\phi] \in H(X,C)} 
-   \mathbf{H}_{\phi}(X,A)
+  \mathbf{H}_{tw}(X,A) := \coprod_{[\phi] \in H(X,C)} \mathbf{H}_{tw, \phi}(X,A)
 $$
 
 for the union of all twisted cohomology cocycle $\infty$-groupoids.
@@ -2604,7 +2679,7 @@ $$
 
 In the [intrinsic de Rham cohomology](#deRhamCohomology) of a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos|∞-connected]] there exist canonical cocycles that we may identify with [[Maurer-Cartan form]]s and with universal [[curvature characteristic form]]s.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $G \in \mathbf{H}$ an [[∞-group]], write
@@ -2636,8 +2711,8 @@ We call $\theta$ the **[[Maurer-Cartan form]]** on $G$.
 
 =--
 
-+-- {: .un_remark}
-###### Remark
++-- {: .num_note}
+###### Note
 
 By postcomposition the Maurer-Cartan form sends $G$-valued functions on $X$ to $\mathfrak{g}$-valued forms on $X$
 
@@ -2650,7 +2725,7 @@ $$
 =--
 
 
-+-- {: .un_defn #UniversalCurvatureForms}
++-- {: .num_defn #UniversalCurvatureForms}
 ###### Definition
 
 
@@ -2673,7 +2748,7 @@ In every [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-con
 
 Fix a 0-[[truncated]] [[abelian group|abelian]] [[group object]] $A \in \tau_{\leq 0} \mathbf{H} \hookrightarrow \mathbf{H}$. For all $n \in \mathbf{N}$ we have then the [[Eilenberg-MacLane object]] $\mathbf{B}^n A$.
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition 
 
 For $X \in \mathbf{H}$ any object and $n \geq 1$ write
@@ -2725,7 +2800,7 @@ We also say $\nabla$ is an **$\infty$-connection** on $\eta(\nabla)$ (see [below
 
 =--
 
-+-- {: .un_prop #DiffCohIsWellDefined}
++-- {: .num_prop #DiffCohIsWellDefined}
 ###### Observation
 
 The differential cohomology $H_{diff}^n(X,A)$ does not depend on the choice of morphism $H_{dR}^{n+1}(X,A) \to \mathbf{H}_{dR}(X, \mathbf{B}^{n+1}A)$ (as long as it is an isomorphism on $\pi_0$, as required).
@@ -2758,7 +2833,7 @@ of the [[homotopy fiber]]s of $curv_*$ over each of the chosen points $* \to \ma
 
 =--
 
-+-- {: .un_prop #DiffCohomologyRestrictedToVanishingCurvature}
++-- {: .num_prop #DiffCohomologyRestrictedToVanishingCurvature}
 ###### Proposition
 
 When restricted to vanishing curvature, differential cohomology coincides with [flat differential cohomology](#FlatDifferentialCohomology):
@@ -2785,7 +2860,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-pullback#QuasiCatPastingLaw">pasting law for (∞,1)-pullbacks</a> the claim is equivalently that we have a an $(\infty,1)$-pullback diagram
+By the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-pullback#QuasiCatPastingLaw">pasting law for (∞,1)-pullbacks</a> the claim is equivalently that we have an $(\infty,1)$-pullback diagram
 
 $$
   \array{
@@ -2851,12 +2926,65 @@ $$
   \mathbf{B}^{n+1} A
 $$
 
-that [defines](#CurvatureCharacteristics) $curv$ (using that $\mathbf{\flat}$ preserves limits and hence looping and delooping)
+that [defines](#CurvatureCharacteristics) $curv$ (using that $\mathbf{\flat}$ preserves limits and hence looping and delooping).
 
 
 =--
 
-+-- {: .un_prop}
+The following establishes the characteristic [[short exact sequences]] that characterizes intrinsic [[differential cohomology]] as an extension of curvature forms by flat $\infty$-bundles and of bare $\infty$-bundles by connection forms.
+
++-- {: .un_prop #CurvatureExactSequence}
+###### Proposition
+
+Let $im F \subset H_{dR}^{n+1}(X, A)$ be the [[image]] of the curvatures. Then the differential cohomology group $H_{diff}^n(X,A)$ fits into a [[short exact sequence]]
+
+$$
+  0 \to H^n_{flat}(X, A) \to H^n_{diff}(X,A) \to im F \to 0
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply the [[long exact sequence of homotopy groups]] to the [[fiber sequence]] 
+
+$$
+  \mathbf{H}_{flat}(X, \mathbf{B}^n A)
+    \to 
+  \mathbf{H}_{diff}(X, \mathbf{B}^n A)
+   \stackrel{[F]}{\to}
+  H_{dR}^{n+1}(X,A)
+$$
+
+of prop. \ref{DiffCohomologyRestrictedToVanishingCurvature} and use that $H_{dR}^{n+1}(X,A)$ is, as a set, a [[homotopy n-type|homotopy 0-type]] to get the [[short exact sequence]]
+
+$$
+  \array{
+    \pi_1(H_{dR}(X,A))  
+     &\to& 
+    \pi_0(\mathbf{H}_{flat}(X, \mathbf{B}^n A))
+     &\to& 
+    \pi_0(\mathbf{H}_{diff}(X, \mathbf{B}^n A))
+     &\stackrel{[F]}{\to}&
+    \pi_0(H_{dR}^{n+1}(X,A))
+    \\
+    = && = && = && \downarrow
+    \\
+    0 
+      &\to& 
+    H_{flat}^n(X, A) 
+      &\to& 
+    H_{diff}^n(X,A)
+      &\to&
+    im [F]
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #CharacteristicClassExactSequence}
 ###### Proposition
 
 The differential cohomology group $H_{diff}^n(X,A)$ fits into a [[short exact sequence]] of [[abelian group]]s
@@ -2988,6 +3116,8 @@ $\Omega_{cl}^{n+1}(X,A) {:=} \mathbb{R}Hom_C(X, \mathbf{B}^{n+1}A )_0
 by the [above observation](#DiffCohIsWellDefined) this 
 only adds multiple copies of the homotopy types of the connected 
 components of $\mathbf{H}_{diff}(X, \mathbf{B}^n A)$.
+
+For a detailed discussion of the relation to [[ordinary differential cohomology]] see at _[[smooth ∞-groupoid]]_ the section <a href="http://nlab.mathforge.org/nlab/show/smooth infinity-groupoid#DiffCohomologyAbstractProperties">Abstract properties of differential cohomology</a>.
 
 =--
 
@@ -3319,6 +3449,7 @@ We call $[\Sigma, \mathbf{B}G_{conn}]$ the [[configuration space]] of the [[schr
 $(n-dim\Sigma)$ defined on it. 
 
 See [[schreiber:∞-Chern-Simons theory]] for more discussion.
+
 
 
 ## References
