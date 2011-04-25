@@ -42,6 +42,10 @@ $$
 
 > Zoran: The mechanism strongly reminds of [[mate]]s, but it is not (classical) mates (in their case one starts with one adjunction). Maybe somebody can elucidate the connection, maybe in some framework it is the same.
 
++-- {: .query}
+Yaron:  Incidentally, this is what Mac Lane calls _conjugate_ natural transformations (for the given adjunctions) (pp. 99--102 of CWM).  
+=--
+
 This correspondence now enables in our special case to dualize $\mu^T$ to $\delta^G$, and similarly unit to the counit. 
 
 ## Adjoint monad and comonad from an adjoint triple of functors
