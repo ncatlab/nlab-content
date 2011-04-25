@@ -31,6 +31,21 @@ The construction generalizes naturally to a map from [[simplicial object|simplic
 
 ## Definition
 
+There are various levels of generality in which the notion of (topoligcal) geometric realization makes sense. The basic definition is 
+
+* [For cell complexes such as simplicial sets](#OfSimplicialSets).
+
+A generalization of this of central importance is the
+
+* [Geometric realization of simplicial topological spaces](#OfSimplicialTopologicalSpaces)
+
+This is a special case of a general notion of 
+
+* [Geometric realization of cohesive ∞-groupoids](#OfCohesiveInfinityGroupoids).
+
+### Of cell complexes such as simplicial sets
+ {#OfSimplicialSets}
+
 Let $S$ be one of the categories of [[geometric shapes for higher structures]], such as the [[globe category]] or the [[simplex category]] or the [[cube category]].
 
 There is an obvious functor
@@ -46,10 +61,34 @@ $$
   \,.
 $$
 
+In the case of [[simplicial sets]], see for more discussion also
+
+* [[nerve]], [[homotopy hypothesis]].
+
+### Of simplicial topological spaces
+ {#OfSimplicialTopologicalSpaces}
+
+
+See
+
+* [[geometric realization of simplicial topological spaces]]
+
+
+### Of cohesive $\infty$-groupoids
+ {#OfCohesiveInfinityGroupoids}
+
+Every [[cohesive (∞,1)-topos]] $\mathbf{H}$ (in fact every [[locally ∞-connected (∞,1)-topos]]) comes with its intrinsic notion of geometric realization.
+
+The general abstract definition is at [[cohesive (∞,1)-topos]] in the section 
+<a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos%20--%20structures#Homotopy">Geometric homotopy</a>.
+
+For the choicde $\mathbf{H} = $ [[∞Grpd]] this reproduces the [geometric realization of simplicial sets](#OfSimplicialSets), see at [[discrete ∞-groupoid]] the section <a href=""></a>
+
+For the choice $\mathbf{H} = $  [[ETop∞Grpd]] and [[Smooth∞Grpd]] this reproduces [geometric realization of simplicial topological spaces](#OfSimplicialTopologicalSpaces). See the sections <a href="http://nlab.mathforge.org/nlab/show/Euclidean-topological+infinity-groupoid#GeometricHomotopy">ETop∞Grpd -- Geometric homotopy</a> and <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#StrucGeometricHomotopy">Smooth ∞-groupoid --  Geometric homotopy</a>
 
 ## Properties ## 
 
-In this section we consider geometric realization of simplicial sets, which is the best studied and perhaps most significant case. 
+In this section we consider topological [geometric realization of simplicial sets](#OfSimplicialSets), which is the best studied and perhaps most significant case. 
 
 ### Realizations are CW complexes ### 
 
