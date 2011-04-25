@@ -1,11 +1,26 @@
 
 <div class="rightHandSide toc">
-[[!include physicscontents]]
 </div>
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -17,14 +32,132 @@ Such orientifold gerbes with connection are the right structure for the definiti
 More precisely, the [[gauge field]]s that constiture the background for a string $\sigma$-model, such as the [[Kalb-Ramond field]] and the [[RR-field]]s are modeled as [[cocycle]]s in the [[differential cohomology]] of the target space, and an _orientifold_ is the data given by an [[orbifold]] [[spacetime]] that involves the [[group]] $\mathbb{Z}_2$ and equipped with certain [classes in its( [[twisted cohomology|twisted]]) [[differential cohomology]] that is suitably $\mathbb{Z}_2$-[[equivariant cohomology|equivariant]].
 
 
+## Orientifold circle $n$-bundles with connection
+
+We discuss the notion of [[circle n-bundles with connection]] over double covering spaces with orientifold structure.
+
++-- {: .num_prop #ExtensionOfZTwo}
+###### Proposition
+
+The [[smooth infinity-groupoid|smooth]] [[automorphism 2-group]] of the [[circle group]] $U(1)$ is that corresponding to the smooth [[crossed module]]
+
+$$
+  AUT(U(1)) \simeq [U(1) \to \mathbb{Z}_2]
+  \,,
+$$
+
+where the differential $U(1) \to \mathbb{Z}_2$ and where the [[action]] of $\mathbb{Z}_2$ on $U(1)$ is given under the identification of $U(1)$ with the unit circle in the plane by reversal of the sign of the angle.
+
+This is an <a href="http://nlab.mathforge.org/nlab/edit/cohesive+%28infinity%2C1%29-topos+--+structures#InfinityGroupExtensions">extension of smooth ∞-groups</a>
+
+$$
+  \mathbf{B}U(1) \to AUT(U(1)) \to \mathbb{Z}_2
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The nature of $AUT(U(1))$ is clear. Let $\mathbf{B}U(1) \to AUT(U(1))$ be the evident inclusion. We have to show that its [[delooping]] is the [[homotopy fiber]] of $\mathbf{B}AUT(U(1)) \to \mathbf{B}\mathbb{Z}_2$.
+
+For this it is sufficient to show that $\mathbf{B}^2 U(1)$ is equivalent to the  ordinary [[pullback]] of simplicial presheaves 
+$\mathbf{AUT}(U(1))\times_{\mathbf{B}\mathbb{Z}_2} \mathbf{E}\mathbb{Z}_2$ of the $\mathbb{Z}$_2-[[universal principal bundle]].
+
+This pullback is the [[2-groupoid]] whose 
+
+* [[object]]s are elements of $\mathbb{Z}_2$;
+
+* [[morphism]]s $\sigma_1 \to \sigma_2$ are labeled by $\sigma \in \mathbb{Z}_2$ such that $\sigma_2 = \sigma \sigma_1$;
+
+* all [[2-morphism]]s are [[endomorphism]]s, labeled by $c \in U(1)$;
+
+* [[vertical composition]] of 2-morphisms is given by the group operation in $U(1)$, 
+
+* horizontal composition of 1-morphisms with 1-morphisms is given by the group operation in $\mathbb{Z}_2$
+
+* horizontal composition of 1-morphisms with 2-morphisms ([[whiskering]]) is given by the [[action]] of $\mathbb{Z}_2$ on $U(1)$.
+
+This 2-groupoid has vanishing $\pi_1$, and $\pi_2 = U(1)$ and the inclusion in question is an isomorphism of $\pi_2$.
+
+=--
+
++-- {: .num_prop }
+###### Observation
+
+A $U(1)$-[[gerbe]] in the full sense Giraud (as opposed to a $U(1)$-[[bundle gerbe]] in the sense of Murray) is equivalent to an $AUT(U(1))$-[[principal 2-bundle]], not in general to a circle 2-bundle, wich is only a special case.
+
+=--
+
+More generally we have:
+
++-- {: .num_prop }
+###### Observation
+
+For every $n \in \mathbb{N}$ the automorphism $(n+1)$-group of $\mathbf{B}^n U(1)$ is given by the [[crossed complex]]
+
+$$
+  AUT(\mathbf{B}^n U(1))
+  \simeq
+  [U(1) \to 0 \to \cdots \to 0 \to \mathbb{Z}_2]
+$$
+
+with $U(1)$ in degree $n+1$ and $\mathbb{Z}_2$ acting by automorphisms.
+
+This is an extension of cohesive $\infty$-groups
+
+$$
+  \mathbf{B}^{n+1} U(1) \to AUT(\mathbf{B}^n U(1)) \to \mathbb{Z}_2
+  \,.
+$$
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $X \in Smooth\infty Grpd$ a **double cover** $\hat X \to X$ is a $\mathbb{Z}_2$-[[principal bundle]]. 
+
+For $n \in \mathbb{N}$, $n \geq 1$, an **orientifold circle $n$-bundle (with connection)** is an $AUT(\mathbf{B}^{n-1})$-[[principal ∞-bundle]] (with [[connection on an ∞-bundle|∞-connection]]) on $X$ that <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#Cohomology">extends</a> $\hat X \to X$ with respect to the extension def. \ref{ExtensionOfZTwo} of $\mathbb{Z}^2$ by $AUT(\mathbf{B}^n U(1))$.
+
+=--
+
+This means that if $X \to \mathbf{B}\mathbb{Z}^2$ is the cocycle for the double cover $\hat X$, this factors as
+
+$$
+  X \stackrel{g}{\to} \mathbf{B} AUT(\mathbf{B}^{n-1} U(1)) \to \mathbf{B}\mathbb{Z}^2
+$$
+
+where $g$ is the [[cocycle]] for the given $AUT(\mathbf{B}^n U(1))$-[[principal ∞-bundle]].
+
++-- {: .num_prop }
+###### Proposition
+
+Every orientifold circle $n$-bundle (with connection) on $X$ induces an ordinary [[circle n-bundle with connection|circle n-bundle (with connection)]] $\hat P \to \hat X$ on the given double cover $\hat X$ such that restricted to any [[fiber]] of $\hat X$ this is equivalent to $AUT(\mathbf{B}^{n-1}U(1)) \to \mathbb{Z}_2$.
+
+=--
+
+This is a special case of a general statement about extensions of $\infty$-bundles, discussed at [[cohesive (infinity,1)-topos]] <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#ExtendedBundlesByBundlesOfExtensions">here</a>.
+
+For $n = 2$ in this latter form orientifold circle 2-bundles were discussed in ([SSW05](#Jandl)) under the term _Jandl gerbe_ modelling the circle 2-bundle on the double cover as a [[bundle gerbe]]. The name _Jandl gerbe_ refers to the poem _<a href="http://www.worte-projekt.de/jandl.html">lichtung</a>_ by <a href="http://de.wikipedia.org/wiki/Ernst_Jandl">Ernst Jandl</a>.
+
+
++-- {: .num_remark }
+###### Remark
+
+Orientifold circle $n$-bundles are not $\mathbb{Z}_2$-[[equivariant cohomology|equivariant]] circle $n$-bundles: in the latter case the orientation reversal acts by an _[[automorphism]]_ between the bundle and its pullback along the orientation reversal, whereas for an orientifold circle $n$-bundle the orientation reversal acts by an equivalence to the _dual_ of the pulled-back bundle.
+
+=--
+
 ## References
 
 A definition and study of orientifold [[bundle gerbe]]s, modeling the [[Kalb-Ramond field]], is in
 
 * [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
+ {#Jandl}
 
 * [[Krzysztof Gawedzki]], Rafal R. Suszek,  [[Konrad Waldorf]], _Bundle Gerbes for Orientifold Sigma Models_ ([arXiv](http://arxiv.org/abs/0809.5125))
-
 
 A more encompassing formalization in terms of [[differential cohomology]] in general and [[twisted K-theory|twisted]] [[differential K-theory]] in particular that also takes the spinorial degrees of freedom into account is being announced in 
 
@@ -38,3 +171,8 @@ A formulation of some of the relevant aspects of orientifolds in terms of the  [
 
 * [[Urs Schreiber]],  talk [[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]] at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] 
 
+More on this in section 3.3 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+[[!redirects orientifolds]]
