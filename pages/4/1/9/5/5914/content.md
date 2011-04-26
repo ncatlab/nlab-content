@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Regular logic is the [[internal logic]] of [[regular categories]].
+
+
+## Related concepts
+
+* [[cartesian category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
+
+* [[regular category]], [[regular functor]], **regular logic**, [[regular theory]], [[regular coverage]], [[regular topos]]
+
+* [[coherent category]], [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], [[coherent topos]]
+
+* [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
+
+## References
+
+Section 4.2 of
+
+* [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
