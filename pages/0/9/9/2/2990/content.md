@@ -1,6 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## In Top
@@ -9,13 +19,17 @@
 
 Given a [[continuous map]] $f:X\to Y$ of [[topological space]]s, one can define its **mapping cylinder** as a [[pushout]] 
 
-$$\array{
-X&\stackrel{f}\to& Y \\
-\sigma_0\downarrow && \downarrow f_*(\sigma_0)\\
-X\times I &\stackrel{(\sigma_0)_* (f)}\to & Cyl(f)
-}$$
+$$
+\array{
+  X &\stackrel{f}\to& Y 
+  \\
+  {}^{\mathllap{\sigma_0}}\downarrow && \downarrow^{\mathrlap{ f_*(\sigma_0)}}
+  \\
+  X\times I &\stackrel{(\sigma_0)_* (f)}\to & Cyl(f)
+}
+$$
 
-where $I = [0,1]$ (the [[unit interval]]) and $\sigma_0:X\to X\times I$ is given by $x\mapsto (x,0)$. By tradition, homotopy theorists sometimes use the inverted (upside-down) mapping cylinder where $\sigma_0$ is replaced by $\sigma_1:x\mapsto (x,1)$. Of course the two mapping cylinders are [[homeomorphism|homeomorphic]] so it is matter of convention which one to use, of course, compatibly with other constructions depending on the orientation of $I$. 
+in [[Top]], where $I = [0,1]$ (the [[unit interval]]) and $\sigma_0:X\to X\times I$ is given by $x\mapsto (x,0)$. By tradition, [[homotopy theory|homotopy theorists]] sometimes use the inverted (upside-down) mapping cylinder where $\sigma_0$ is replaced by $\sigma_1:x\mapsto (x,1)$. Of course the two mapping cylinders are [[homeomorphism|homeomorphic]] so it is matter of convention which one to use, of course, compatibly with other constructions depending on the [[orientation]] of $I$. 
 
 Set-theoretically, the mapping cylinder is usually represented as the [[quotient space]] $(X\times I \coprod Y)/{\sim}$ where $\sim$ is the smallest [[equivalence relation]] identifying $(x,0)\sim f(x)$ for all $x\in X$. 
 
@@ -26,7 +40,7 @@ As any other pushout, the mapping cylinder has a [[universal property]]: for any
 +-- {: .un_theorem}
 ###### Theorem
 Let $f:X\to Y$ be any continuous map.
-The canonical map $j:=f_*(\sigma_0):Y\to Cyl(f)$ is a homotopy equivalence. In fact its homotopy inverse can be chosen a deformation retraction. 
+The canonical map $j:=f_*(\sigma_0):Y\to Cyl(f)$ is a [[homotopy equivalence]]. In fact its homotopy inverse can be chosen a [[deformation retraction]]. 
 =--
 
 +-- {: .proof}
