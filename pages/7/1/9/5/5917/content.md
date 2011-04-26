@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[theory]] in [[cartesian logic]].
+
+## Related concepts
+
+* [[cartesian category]], [[cartesian functor]], [[cartesian logic]], **cartesian theory**
+
+* [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
+
+* [[coherent category]], [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], [[coherent topos]]
+
+* [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
+
+## References
+
+Around def. 1.3.4 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
