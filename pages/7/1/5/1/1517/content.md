@@ -1,7 +1,27 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
+
+
+## Idea
+
+A _coalgebra over an endofunctor_ is like a [[comonad|coalgebra over a comonad]], but without a notion of [[associativity]].
 
 ## Definition
 
@@ -67,6 +87,10 @@ This is discussed in
 * [[Peter Freyd]], [cat list](http://www.mta.ca/~cat-dist/catlist/1999/realcoalg)
 
 
+## Related concepts
+
+* [[algebra over a monad]], [[algebra over an endofunctor]], [[algebra over a profunctor]]
+
 
 ## References
 
@@ -85,3 +109,6 @@ Here are two blog discussions of coalgebra theory:
 * [[David Corfield]], _[_Coalgebraically Thinking_](http://golem.ph.utexas.edu/category/2008/11/coalgebraically_thinking.html)_
 
 * [[David Corfield]], _[_The Status of Coalgebra_](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html)_
+
+
+[[!redirects coalgebra over an endofunctor]]
