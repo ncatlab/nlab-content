@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $\mathbb{T}$ a [[theory]], the _syntactic site_ of a [[syntactic category]] $\mathcal{C}_{\mathbb{T}}$  is the structure of a [[site]] on $\mathcal{T}$ such that [[geometric morphism]]s $\mathcal{E} \to Sh(\mathcal{C}_{\mathbb{T}})$ into the [[sheaf topos]] over the syntactic site are equivalent to [[model]]s for the [[theory]] $\mathbb{T}$ in $\mathcal{E}$, hence such that $Sh(\mathcal{C}_{\mathbb{T}})$ is the [[classifying topos]] for $\mathbb{T}$.
+
+## Definition
+
+For $\mathbb{T}$ a [[theory]] and $\mathcal{C}_{\mathbb{T}}$ its [[syntactic category]], we define [[coverage]]s $J$ on $\mathcal{C}_{\mathbb{T}}$. These depend on which type of theory $\mathb{T}$ is (or is regarded to be).
+
++-- {: .num_defn}
+###### Definition
+
+* For $\mathbb{T}$ a [[cartesian theory]], $J$ is the trivial coverage: the covering families consist of single [[isomorphism]]s.
+
+* For $\mathbb{T}$ a [[regular theory]], $J$ is the [[regular coverage]]: the [[covering]] families consist of single [[regular epimorphism]]s.
+
+* ...
+
+
+=--
+
+## References
+
+Section D3.1 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+[[!redirects syntactic sites]]
