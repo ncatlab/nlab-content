@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+An **infinitary [[coherent category]]** or **geometric category** is a [[well-powered category|well-powered]] [[regular category]] in which the [[subobject]] [[poset]]s $Sub(X)$ have all _small_ [[union]]s which are [[pullback stability|stable under pullback]].  
+
++--{: .query}
+[[Mike Shulman]]: I'm starting to feel that well-poweredness shouldn't be included here.  Any thoughts?
+=--
+
+## Properties
+
+See [[familial regularity and exactness]] for a general description of the spectrum from regular categories through finitary and infinitary coherent categories.
+
+
+## Related concepts
+
+* [[cartesian category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
+
+* [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
+
+* [[coherent category]], [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], [[coherent topos]]
+
+* **geometric category**, [[geometric functor]], [[geometric logic]], [[geometric theory]]
+
+
+## References
+
+Around lemma A1.4.18 in 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+
+
+[[!redirects geometric categories]]
+[[!redirects infinitary coherent category]]
+[[!redirects infinitary coherent categories]]
