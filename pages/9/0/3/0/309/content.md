@@ -1,15 +1,26 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
 
-A **finitely complete category** is a [[category]] $C$ which admits all __[[finite limit]]s__, that is all [[limit|limits]] for any [[diagrams]] $F: J \to C$ with $J$ a [[finite category]].  Finitely complete categories are also called **lex categories**.  They are also called (at least by Johnstone in the [[Elephant]]) **cartesian categories**, although this term more often means a [[cartesian monoidal category]].
+A **finitely complete category** (also called a **[[cartesian category]]** ) is a [[category]] $C$ which admits all __[[finite limit]]s__, that is all [[limit|limits]] for any [[diagrams]] $F: J \to C$ with $J$ a [[finite category]].  Finitely complete categories are also called **lex categories**.  They are also called (at least by Johnstone in the [[Elephant]]) **cartesian categories**, although this term more often means a [[cartesian monoidal category]].
 
 ## Variants
 
@@ -34,7 +45,24 @@ exhibits $F(c \times d)$ as a product of $F(c)$ and $F(d)$, where $\pi_1: c \tim
 * $F: C \to D$ **preserves equalizers** if the map 
 $$F(i): F(e) \to F(c)$$ 
 is the equalizer of $F(f), F(g): F(c) \stackrel{\to}{\to} F(d)$, whenever $i: e \to c$ is the equalizer of $f, g: c \stackrel{\to}{\to} d$ in $C$. 
- 
+
+## Related concepts
+
+* **cartesian category**, [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
+
+* [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
+
+* [[coherent category]], [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], [[coherent topos]]
+
+* [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
+
+
+
+## References
+
+Section A1.2 in 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ 
 
 [[!redirects lex category]]
 [[!redirects left exact category]]
