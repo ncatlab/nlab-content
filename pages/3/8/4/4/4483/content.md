@@ -7,7 +7,7 @@
 It is well known that you cannot divide by [[zero]], lest you be doomed to [[trivial ring|triviality]].  Conversely, in a [[field]], you *can* divide by anything *except* zero.  But this rule can be misleading, since it\'s possible that (even) an ordinary number can be zero when you don\'t expect it!  The _characteristic_ of a field states when (if ever) this happens.
 
 It is straightforward to generalise from fields to other [[rings]], and even [[rigs]].
-
+See also [[characteristic zero]].
 
 ## Definition
 
