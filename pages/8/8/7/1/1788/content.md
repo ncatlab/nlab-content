@@ -19,7 +19,7 @@ $\hookleftarrow$
 
 
 Can we have arrays in arrays?
-
+Apparently
 $$
   \array{
     \left\{
