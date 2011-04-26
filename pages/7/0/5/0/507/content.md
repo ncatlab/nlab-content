@@ -27,9 +27,19 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 #### A1.1 Preliminary assumptions
 
+* [[category theory]]
+
+* [[reflective subcategory]]
+
+* [[monadicity theorem]]
+
+* [[adjoint lifting theorem]]
+
 #### A1.2 Cartesian categories
 
-* [[finitely complete category]]
+* [[finitely complete category]] / [[cartesian category]]
+
+* [[cartesian functor]]
 
 #### A1.3 Regular categories
 
@@ -337,12 +347,25 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 ### D3 Classifying toposes
 
-* [[syntactic site]]
-
-* [[classifying topos]]
 
 #### D3.1 Classifying toposes via syntactic sites
 
+* [[syntactic site]]
+
+  * [[regular coverage]]
+
+  * [[coherent coverage]]
+
+* [[classifying topos]]
+
+
+### D3.2 The object classifier
+
+* [[theory of objects]]
+
+### D3.3 Coherent toposes
+
+* [[coherent topos]]
 
 ### D4 Higher-order logic
 
