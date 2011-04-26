@@ -15,7 +15,7 @@
 
 ## Definition
 
-Regular logic is the [[internal logic]] of [[regular categories]].
+Regular logic is the [[internal logic]] of [[regular categories]].  Its logical operations consist only of [[truth]], [[conjunction]], and [[existential quantification]], which makes it a superset of [[finite-limit logic]] and a subset of [[coherent logic]] and [[geometric logic]].
 
 
 ## Related concepts
@@ -33,3 +33,9 @@ Regular logic is the [[internal logic]] of [[regular categories]].
 Section 4.2 of
 
 * [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
+
+Section D1.2 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+[[!redirects logic of regular categories]]
