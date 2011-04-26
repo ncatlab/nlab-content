@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Type theory
++--{: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _axiom_ is a [[proposition]] in [[logic]] that a given [[theory]] requires to be [[true]]: every [[model]] of the theory is required to make the axiom hold true.
+
+## Definition
+
+Given a language specified by a [[signature (in logic)]] (a collection of [[type]]s, [[function symbol]]s and [[relation symbol]]s), a [[theory]] is a collection of [[sequent]]s
+
+$$
+  \phi_1 \vdash_{\vec x} \psi_1\;,\;
+  \phi_2 \vdash_{\vec x} \psi_2\;,\; \dots
+$$
+
+(asserting that "If  [[proposition]] $\phi_i$ is true in [[context]] $\vec x$ then also $\psi_i$ is/has to be true"). These are the **axioms** of the theory.
+
+## References
+
+For instance def. D1.1.6 in 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+[[!redirects axioms]]
