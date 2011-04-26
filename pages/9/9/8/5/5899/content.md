@@ -20,14 +20,14 @@
 
 ## Definition
 
-A [[monad]] $(T,\mu,\eta)$ is adjoint to a [[comonad]] $(G,\delta,\epsilon)$, if its underlying endofunctor $T$ is _[[left adjoint]]_ to the underlying 1-cell $G$ of the comonad, and $\delta$ and $\epsilon$ are conjugate/adjoint 2-cells to $\mu$ and $\eta$ in the sense explained below.
+A [[monad]] $(T,\mu,\eta)$ is adjoint to a [[comonad]] $(G,\delta,\epsilon)$, if its underlying endofunctor $T$ is _[[left adjoint]]_ to the underlying 1-cell $G$ of the comonad, and $\delta$ and $\epsilon$ are conjugate/adjoint/[[mate]] 2-cells to $\mu$ and $\eta$ in the sense explained below.
 
 
 ## Construction
 
-In fact given a [[monad]] $\mathbf{T} = (T,\mu^T,\eta^T)$ which has a _[[right adjoint]]_ $G$, automatically $G$ is a part of a comonad $\mathbf{G} = (G,\delta^G,\epsilon^G)$ where $\delta^G$ and $\epsilon^G$ are in some sense dual to $\mu^T$ and $\eta^T$. 
+In fact given a [[monad]] $\mathbf{T} = (T,\mu^T,\eta^T)$ which has a _[[right adjoint]]_ $G$, automatically $G$ is a part of a comonad $\mathbf{G} = (G,\delta^G,\epsilon^G)$ where $\delta^G$ and $\epsilon^G$ are in some sense dual to $\mu^T$ and $\eta^T$.
 
-Thus there is a bijective correspondence between monads having right adjoint and comonads having left adjoint (what [[Alexander Rosenberg]] calls **duality**). I am not sure that the terminology is optimal. In any case, it is a little more than a consequence of two general facts. 
+Thus there is a bijective correspondence between monads having a right adjoint and comonads having a left adjoint (what [[Alexander Rosenberg]] calls **duality**). I am not sure that the terminology is optimal. In any case, it is a little more than a consequence of two general facts. 
 
 1. If $T\dashv G$ then $T^k \dashv G^k$ for every [[natural number]] $k$. 
 
@@ -43,10 +43,10 @@ $$
 }
 $$
 
-where the horizontal arrows are the natural bijections given by the adjunctions. [Eilenberg and Moore](#EilenbergMoore) would write $\phi\dashv\psi$ and talk about "adjointness for morphisms" (of functors), which is of course relative to the given adjunctions among functors. MacLane calls the correspondence *conjugation* ([[Categories for Working Mathematician]], 99-102). 
+where the horizontal arrows are the natural bijections given by the adjunctions. [Eilenberg and Moore](#EilenbergMoore) would write $\phi\dashv\psi$ and talk about "adjointness for morphisms" (of functors), which is of course relative to the given adjunctions among functors. MacLane calls the correspondence *conjugation* ([[Categories for Working Mathematician]], 99-102).  The Australian category theory school calls it the [[mate]] correspondence.
 
 If $\eta,\eta'$ and $\epsilon,\epsilon'$ are their 
-[[unit of an adjunction|unit]] and counit of course the upper arrow is $(SM\stackrel{f}\to N)\mapsto Tf\circ \eta_M$ and the lower arrow $(S'M\stackrel{g}\to N)\mapsto T'g\circ\eta'_M$. Thus the condition renders as 
+[[unit of an adjunction|unit]] and counit of course the upper arrow is $(S M\stackrel{f}\to N)\mapsto Tf\circ \eta_M$ and the lower arrow $(S'M\stackrel{g}\to N)\mapsto T'g\circ\eta'_M$. Thus the condition renders as 
 
 $$T'(f\circ\phi_M)\circ\eta'_M = \psi_N\circ Tf\circ\eta_M$$ 
 
@@ -60,8 +60,6 @@ and checks that it works. The inverse is similarly given by the composition
 $$
 S'\stackrel{S'\eta}\longrightarrow S' TS\stackrel{S'\psi S}\longrightarrow S'T'S\stackrel{\epsilon' S}\longrightarrow S
 $$
-
-> Zoran: The mechanism strongly reminds of [[mate]]s, but it is not (classical) mates (in their case one starts with one adjunction). Maybe somebody can elucidate the connection, maybe in some framework it is the same.
 
 This correspondence now enables in our special case to dualize $\mu^T$ to $\delta^G$, and similarly unit to the counit. 
 
