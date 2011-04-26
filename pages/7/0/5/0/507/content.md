@@ -289,6 +289,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[context]]
 
+* [[sequent]]
+
 * [[axiom]]
 
 * [[theory]]
