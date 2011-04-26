@@ -25,7 +25,7 @@ Mathematics done within or about $\Fin\Set$ is [[finite mathematics]].
 
 A [[presheaf]] of sets on $\Fin\Set$ is a [[symmetric set]]; one generally uses the skeletal version of $\Fin\Set$ for this.
 
-The [[copresheaf]] category $[FinSet,Set]$ is the [[classifying topos]] for the [[theory]] _of objects_ (the empty theory over the signature with one sort and no primitive symbols except equality). ([[Elephant|Elephant, D3.2]]).
+The [[copresheaf]] category $[FinSet,Set]$ is the [[classifying topos]] for the [[theory of objects]]_ (the empty theory over the signature with one sort and no primitive symbols except equality). ([[Elephant|Elephant, D3.2]]).
 
 
 category: category
