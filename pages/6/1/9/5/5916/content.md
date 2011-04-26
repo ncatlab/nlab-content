@@ -16,7 +16,8 @@
 
 ## Definition
 
-Cartesian logic is the [[internal logic]] of [[cartesian categories]].
+
+_Cartesian logic_ or _finite limit logic_ is the [[internal logic]] of [[cartesian categories]].
 
 
 ## Related concepts
@@ -34,3 +35,5 @@ Cartesian logic is the [[internal logic]] of [[cartesian categories]].
 Around def. 1.3.4 of 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+[[!redirects finite-limit logic]]
