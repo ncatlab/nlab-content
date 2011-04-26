@@ -1,0 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+## Definition
+
+_Disjunctive logic_ is the [[internal logic]] of [[lextensive categories]].
