@@ -67,6 +67,46 @@ $$
 
 from the [[arrow category]] of $C$.  (Note that unless $C$ has [[pullbacks]], this functor is not actually a [[Grothendieck fibration|fibration]], though it is always an opfibration.)
 
+### Adjunctions on overcategories
+ {#Adjunction}
+
++-- {: .un_prop}
+###### Proposition
+
+Let
+
+$$
+  (L \dashv R) : D \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
+     C
+$$
+
+be a pair of [[adjoint functor]]s, where the category $C$ has all [[pullback]]s. 
+
+Then for every object $X \in C$ there is induced a pair of adjoint functors between the slice categories
+
+$$
+  (L/X \dashv R/X) 
+   : D/(L X) \stackrel{\overset{L/X}{\leftarrow}}{\underset{R/X}{\to}}
+     C/X
+$$
+
+where
+
+* $L/X$ is the evident induced functor;
+
+* $R/X$ is the composite
+
+  $$
+    R/X : D/{L X} \stackrel{R}{\to} C/{(R L X)} \stackrel{i_{X}^*}{\to}
+     C/X
+  $$
+
+  of the evident functor induced by $R$ with the [[pullback]] along the $(L \dashv R)$-[[unit of an adjunction|unit]] at $X$.
+
+=--
+
+
+
 
 ### Presheaves on over-categories and over-categories of presheaves {#RelWithPresheaves}
 
