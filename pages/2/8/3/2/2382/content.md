@@ -41,12 +41,13 @@
 
 * [[quasitopos]]
 
+* [[base topos]], [[indexed topos]]
 
 ## Internal Logic
 
-* [[internal logic]]
+* [[categorical semantics]]
 
-  * [[type theory]]
+* [[internal logic]]
 
   * [[subobject classifier]]   
 
