@@ -28,13 +28,13 @@ A [[theory]] formulated in $\Sigma$ is given by collection of sequents called th
 
 A sequent is called a **regular sequent** or **coherent sequent** etc., if $\phi$ and $\psi$ are formulas in [[regular logic]] or [[coherent logic]] etc. , respectively.
 
-## Sequent caluclus
+## Sequent calculus
 
-_Sequent caluclus_ is a tool for proving statements in [[first-order logic]].
+_Sequent calculus_ is a _proof system_, in which provability in many different logics can be formulated. 
 
 ### Definition
 
-The basic building block are  **rewrite rules**,  which are rules for inferring the validity of certain sequents from other sequents. One writes
+The basic building blocks of a sequent-calculus proof are  **inference rules**,  which are rules for inferring the validity of certain sequents from other sequents. One writes
 
 $$
   \frac{\Gamma}{\sigma}
@@ -42,15 +42,16 @@ $$
 
 where $\Gamma$ is a (possibly empty) list of sequents and $\sigma$ is a single sequent, to indicate that from the validity of the sequents in $\Gamma$ that of $\sigma$ may be inferred, or that $\Gamma$ may be _rewritten_ to $\sigma$.
 
-A **derivation** is a compound of rewrite rules, such as
+A **derivation** or **proof tree** is a compound of rewrite rules, such as
 
 $$
-  \frac{\frac{\sigma_1 \sigma_2}{\sigma_3} \;\; \sigma_4 }{\sigma_5}
+  \frac{\frac{\sigma_1 \;\; \sigma_2}{\sigma_3} \;\; \sigma_4 }{\sigma_5}
   \,.
 $$
 
 +-- {: .num_defn}
 ###### Definition
+The following are the **structural rules** of sequent calculus, and are essentially the same no matter what logic is being formalised.
 
 * The **identity axiom** is
 
@@ -71,7 +72,7 @@ $$
     \,,
   $$
 
-  where $\vec y$ is any string of [[variable]]s including that of $\vec s$ and $\phi [\vec s / \vec x]$ is the [[predicate]] obtained from $\phi$ by substituting $\vec s$ for $\vec x$, etc.
+  where $\vec y$ is any string of [[variable]]s including that of the terms $\vec s$ and $\phi [\vec s / \vec x]$ is the [[predicate]] obtained from $\phi$ by substituting $\vec s$ for $\vec x$, etc.  Of course, this rule is only included if the formulas of the logic in question may contain terms.
 
 * The **cut rule** is
 
@@ -82,6 +83,11 @@ $$
       \phi \vdash_{\vec x} \chi
    }\,.
   $$
+=--
+
++-- {: .num_defn }
+###### Definition
+The **logical rules** of sequent calculus for intuitionistic first-order logic are as follows.
 
 * the **equality rule** is ...
 
@@ -97,10 +103,9 @@ $$
 
 
 
-### Cut rule and cut free proofs
+### Cut rule and cut-free proofs
 
-The cut rule expresses the composition of proofs.  
-Gentzen's main result ([Gentzen, Haupsatz](#Gentzen)) is that any sequent proof that uses the cut rule can be transformed into one that doesn't.  This yields a normalization algorithm for proofs, which provided much of the inspiration behind Lambek's approach to categorical logic.
+The cut rule expresses the composition of proofs.  Gentzen's main result ([Gentzen, Haupsatz](#Gentzen)) is that any sequent proof that uses the cut rule can be transformed into one that doesn't.  This yields a normalization algorithm for proofs, which provided much of the inspiration behind Lambek's approach to categorical logic.
 
 The most important property of cut-free proofs is that every formula occuring anywhere in a proof is a subformula of a formula contained in the conclusion of the proof (the _subformula property_).  This makes induction over proof-trees much more straightforward than with natural deduction or other systems.
 
