@@ -1,0 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A **coherent topos** is a [[sheaf topos]] with a [[site]] of definition that is a [[coherent category]] with [[coherent coverage]].
+
+Notice that the terminology is slightly confusing: every topos is a [[coherent category]].
+
+
+## Examples
+
+* The [[classifying topos]] of a [[coherent theory]] is a coherent topos. 
+
+## Related concepts
+
+* [[cartesian category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
+
+* [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
+
+* [[coherent category]], [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], **coherent topos**
+
+* [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
+
+## References
+
+Section D3.3 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+[[!redirects coherent toposes]]
+[[!redirects coherent topoi]]
