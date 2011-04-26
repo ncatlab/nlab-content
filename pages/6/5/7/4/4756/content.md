@@ -21,7 +21,7 @@
 
 A **(2,1)-presheaf** is a [[presheaf]] with values in thte [[(2,1)-category]] [[Grpd]]. A 2-[[truncated]] [[(∞,1)-presheaf]].
 
-Sometimes this is also called a **prestack**. Other times a prestack is a $(2,1)$-presheaf such that the functors into its [[descent]] objects are [[full and faithful functor]]s.
+Sometimes this is also called a **prestack**. Other times a prestack is more specificaly taken to be a [[separated (infinity,1)-presheaf|separated (2,1)-presheaf]]: a $(2,1)$-presheaf such that the functors into its [[descent]] objects are [[full and faithful functor]]s.
 
 The [[∞-stackification]] of a $(2,1)$-presheaf is a certain [[2-sheaf]] or [[stack]].
 
@@ -30,7 +30,7 @@ The [[∞-stackification]] of a $(2,1)$-presheaf is a certain [[2-sheaf]] or [[s
 
 * [[presheaf]]
 
-* **(2,1)-presheaf**
+* **(2,1)-presheaf**, [[indexed category]]
 
 * [[(∞,1)-presheaf]]
 
