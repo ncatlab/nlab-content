@@ -23,5 +23,15 @@ A [[functor]] $F : C \to D$ between [[regular categories]] is called **regular**
 
   For $\mathcal{C}_{\mathbb{T}}$ equipped with the structure of the [[syntactic site]] (the [[regular coverage]]), this is in turn equivalent to [[geometric morphism]]s $\mathcal{E} \to Sh(\mathcal{C}_{\mathbb{T}})$ into the [[sheaf topos]] over $\mathcal{C}_{\mathbb{T}}$ (the [[classifying topos]] for the theory).
 
+## Related concepts
+
+* [[cartesian functor]]
+
+* **regular functor**
+
+* [[coherent functor]]
+
+* [[geometric functor]]
+
 [[!redirects regular functors]]
 
