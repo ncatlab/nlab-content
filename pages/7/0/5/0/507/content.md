@@ -192,6 +192,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 #### B3.1 $\mathcal{S}$-Toposes as $\mathcal{S}$-indexed categories
 
+* [[indexed topos]]
+
 * [[bounded geometric morphism]]
 
 * [[bounded topos]]
