@@ -55,9 +55,9 @@ One may also call $\mathbb{C}$ a [[prestack]] in categories over $S$.
 
 Traditionally one writes the image of $X\in an object S$ under $\mathbb{C}$ as $\mathbb{C}^X$ and calls it _the category of $X$-indexed families of objects of $\mathbb{C}$_ .  Similarly, one write thes image of a [[morphism]] $u\colon X\to Y$ as $u^*\colon \mathbb{C}^Y\to \mathbb{C}^X$.
 
+If $\mathcal{S}$ has a [[terminal object]] $*$ we think of $\mathbb{C}^*$ as the **underlying ordinary category** of the $\mathcal{S}$-indexed category $\mathbb{C}$. Part of the theory of indexed categories is about when and how to extend structures on $\mathbb{C}^*$ to all of $\mathbb{C}$.
 
 ## Examples
-
 
 
 +-- {: .num_example #CanonicalSelfIndexing}
@@ -79,7 +79,7 @@ and to a morphism $f : I \to J$ the functor $f^*$ that sends every $s \to I$ to 
 This indexed category represents $\mathcal{S}$ itself in the world of $\mathcal{S}$-indexed categories. 
 
 
-+-- {: .num_example #CartesianFunctorIndexing}
++-- {: .num_example #BaseChange}
 ###### Example
 **(change of base)**
 
@@ -106,6 +106,86 @@ If the functor $F$ preserves [[pullback]]s then this induces a morphism $\mathbb
 
 
 This situation frequently arises when $\mathcal{S}$ and $\mathcal{T}$ are [[toposes]] and $F$ is the [[inverse image]] part of a [[geometric morphism]].  In this way, if $\mathcal{S}$ is a topos, then any topos *over* $\mathcal{S}$ (i.e. an object of the [[slice 2-category]] [[Topos]]$/S$) gives rise to a topos *relative to* $\mathcal{S}$, i.e. a "topos object" in the 2-category of $\mathcal{S}$-indexed categories, and this operation can be shown to be fully faithful. See [[base topos]] for more on this.
+
+## Properties
+
+### Extensions of adjunctions to indexed categories
+
++-- {: .num_prop}
+###### Proposition
+
+Let 
+
+$$
+  (L \dashv R) : 
+   \mathcal{C} \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} \mathcal{S}
+$$ 
+
+be a pair of [[adjoint functor]]s between 
+[[cartesian categories|categories with finite limits]]. Then $R$ extends to an $\mathcal{S}$-indexed functor
+
+$$
+  \mathbb{R} : \mathbb{C} \to \mathbb{S}
+$$
+
+where $\mathbb{S}$ is the self-indexing of $\mathcal{S}$ from example \ref{CanonicalSelfIndexing} and $\mathbb{C}$ is the base change indexing of $\mathcal{C}$ from example \ref{CartesianFunctorIndexing}.
+
+By the general properties of adjunctions on [[overcategories]] (see there) we get for each $I \in \mathcal{S}$ an adjunction
+
+$$
+  (L/I \dashv R/I) : \mathbb{C}^I = \mathcal{C}/R(I) \to \mathcal{S}/I = \mathbb{S}^I
+  \,.
+$$
+
+Here $\mathbb{R} : I \mapsto R/I$ is always a $\mathcal{S}$-indexed functor $\mathbb{C} \to \mathbb{S}$, and $\mathbb{L} : I \mapsto L/I$ is if $L$ preserves [[pullback]]s (by example \ref{CartesianFunctorIndexing}). If so, we have an $\mathcal{S}$-indexed adjunction
+
+$$
+  (\mathbb{L} \dashv \mathbb{R}) : 
+  \mathbb{C} \to \mathbb{S}
+$$
+
+=--
+
+This appears as ([Johnstone, lemma B1.2.3](#Johnstone)).
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
+### Well-powered indexed categories
+ {#WellPoweredness}
+ 
++-- {: .num_defn}
+###### Definition
+
+An $\mathcal{S}$-indexed category $\mathbb{C}$ is called **well-powered** if the [[fibered category]] $\tilde \mathbb{C} \to \mathcal{S}$ corresponding to it under the [[Grothendieck construction]] has the property that the [[forgetful functor]]
+
+$$
+  U : Q(2, \tilde \mathbb{C})
+   \to
+  Rect(*,\tilde \mathbb{C})
+$$
+
+has a [[right adjoint]], where $Q(2,\tilde \mathbb{C})$ is the [[full subcategory]] of $Rect(2, \tilde \mathbb{C})$ on vertical [[monomorphism]]s.
+
+=--
+
+This appears as ([Johnstone, example. B1.3.14](#Johnstone)).
+
++-- {: .num_prop}
+###### Proposition
+
+Let $(L \dashv R) : \mathcal{C} \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} \mathcal{S}$  be a pair of [[adjoint functor]]s such that $L$ preserves pullbacks. Then the $\mathcal{S}$-indexed category $\mathbb{C}$ is well powered if $\mathbb{S}$ is.
+
+=--
+
+> hm
+
+This is ([Johnstone, prop. B1.3.17](#Johnstone)).
+
 
 ## Related concepts
 
