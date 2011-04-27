@@ -338,7 +338,7 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 * [[operad]] / [[(∞,1)-operad]]
 
 
-* [[cartesian category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
+* [[finitely complete category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
 
 * [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
 
