@@ -75,6 +75,8 @@ We may without restriction assume that every hom-$\infty$-groupoid is in fact a 
 
 * [[(∞,0)-category]]
 
+* [[(n,1)-category]]
+
 * [[(∞,1)-category]]
 
 * [[(∞,2)-category]]
