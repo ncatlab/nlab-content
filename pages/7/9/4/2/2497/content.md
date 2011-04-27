@@ -54,6 +54,8 @@ There are two definitions.  The second is more general, and is homotopy equivale
 
 ## Related concepts
 
+* [[blob n-category]]
+
 Blob homology has some similarities with 
 
 * [[factorization algebra]]
