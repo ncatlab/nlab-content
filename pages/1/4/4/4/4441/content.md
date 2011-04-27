@@ -75,7 +75,7 @@ See for instance ([Johnstone, theorem B3.2.7](#Johnstone)).
 +-- {: .num_remark}
 ###### Remark
 
-If $C$ is a [[cartesian category]] we may think of it as the [[syntactic category]] and in fact the [[syntactic site]] of an [[essentially algebraic theory]] $\mathbb{T}_C$.  A [[flat functor]] $C \to \mathcal{E}$ is then precisely a [[finite limit]] preserving functor, hence is precisely a $\mathbb{T}$-[[model]] in $\mathcal{E}$. 
+If $C$ is a [[finitely complete category]] we may think of it as the [[syntactic category]] and in fact the [[syntactic site]] of an [[essentially algebraic theory]] $\mathbb{T}_C$.  A [[flat functor]] $C \to \mathcal{E}$ is then precisely a [[finite limit]] preserving functor, hence is precisely a $\mathbb{T}$-[[model]] in $\mathcal{E}$. 
 
 Therefore the above theorem says in this case that there is an [[equivalence of categories]]
 
