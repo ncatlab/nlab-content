@@ -199,6 +199,8 @@ Other standard operations on categories include
 
 * [[(∞,0)-category]]
 
+* [[(n,1)-category]]
+
 * [[(∞,1)-category]]
 
 * [[(∞,2)-category]]
