@@ -64,7 +64,7 @@ The abbreviation "fpqc" is for _fid&#232;lement plat quasi-compacte_ : faithfull
 
 ## Related concepts
 
-* [[fppf site]], [[étale site]]
+* [[fppf site]], [[étale site]], [[Zariski site]]
 
 
 ## References
