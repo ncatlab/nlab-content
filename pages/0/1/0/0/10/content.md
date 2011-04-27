@@ -194,27 +194,47 @@ The discussion above for groups can be repeated verbatim for rings, since they t
 
 ### For local rings
 
-The classifying topos for [[local ring|local rings]] is the [[big Zariski topos]] of the [[scheme]] $Spec(\mathbb{Z})$.  Note that a "local ring" in a topos (the structure classified by this topos) is precisely what algebraic geometers usually call a "sheaf of local rings": namely, a sheaf of rings all of whose [[stalk|stalks]] are local.
+The classifying topos for [[local ring|local rings]] is the [[big Zariski topos]] of the [[scheme]] $Spec(\mathbb{Z})$.  Note that a "local ring" in a topos (the structure classified by this topos) is precisely what algebraic geometers usually call a "sheaf of local rings": namely, a sheaf of rings all of whose [[stalk|stalks]] are local. See [[locally ringed topos]]. This is a special case of the case of [Cover-preserving flat functors](#CoverPreservingFLatFunctors) below.
 
 ### Any Grothendieck topos 
 
-In fact, _any_ [[Grothendieck topos]] can be thought of as a classifying topos.  This is related to the discussion above, since Joyal and Tierney showed that any Grothendieck topos is equivalent to the $B G$ for some localic groupoid $G$.  A useful discussion of this idea starts
+In fact, _any_ [[Grothendieck topos]] can be thought of as a classifying topos.  This is related to the discussion above, since Joyal and Tierney showed that any Grothendieck topos is equivalent to the $B G$ for some [[localic groupoid]] $G$.  A useful discussion of this idea starts
 [here](http://golem.ph.utexas.edu/category/2007/10/geometric_representation_theor_2.html#c012724).
 
-### Any topos of presheaves
+### For flat functors
 
-As a special case of the above, any presheaf topos, i.e. any topos of the form $Set^{C^{op}}$, is the classifying topos for [[flat functors]] from $C$ (sometimes also called "$C$-[[torsor]]s").  In other words, geometric morphisms $E \to Set^{C^{op}}$ are the same as [[flat functor]]s $C \to E$.  This is [[Diaconescu's theorem]].  If $C$ has finite limits, then a flat functor $C \to E$ is the same as a functor that preserves finite limits.
+As a special case of the above, any [[presheaf topos]], i.e. any topos of the form $Set^{C^{op}}$, is the classifying topos for [[flat functors]] from $C$ (sometimes also called "$C$-[[torsor]]s").  In other words, geometric morphisms $E \to Set^{C^{op}}$ are the same as [[flat functor]]s $C \to E$.  This is [[Diaconescu's theorem]].  If $C$ has finite limits, then a flat functor $C \to E$ is the same as a functor that preserves finite limits.
 
 ### For cover-preserving flat functors on a site
+ {#CoverPreservingFLatFunctors}
 
 Another way of viewing any Grothendieck topos $E$ as a classifying topos is to start with a small [[site]] of definition for it.  Any such site gives rise to a [[geometric theory]] called the theory of [[cover-preserving functor|cover-preserving]] flat functors on that site.  The classifying topos of this theory is again $E$.
 
 Moreover, for any object $X$ of $E$, there is a small site of definition
 for $E$ which includes $X$, and thus for which $X$ is (part of) the universal object.  
 
-> [[Urs Schreiber|Urs]]: check if the following paragraph is correct
+### For local algebras
+ {#LocalAlgebras}
 
-The [[vertical categorification]] of this to the context of [[(∞,1)-category]] theory is the notion of [[structured (∞,1)-topos]] and of [[geometry (for structured (∞,1)-toposes)]]:
+As a special case of the above, let $\mathcal{T}$ be any
+[[essentially algebraic theory]] and equip its [[syntactic category]] $\mathcal{C}_{\mathbb{T}}$ with some [[coverage]] $J$. Then the [[sheaf topos]] $Sh(\mathcal{C}_{\mathbb{T}}, J)$ is the classifying topos for _local $\mathbb{T}$-algebras_ : 
+
+for $Sh(X)$ any [[sheaf topos]] a [[geometric morphism]]
+
+$$
+  \mathcal{O} : Sh(X) \to Sh(\mathcal{C}_{\mathbb{T}}, J)
+$$
+
+is
+
+1. a $\mathbb{T}$-[[algebra over an algebraic theory|algebra]] in $Sh(X)$, hence a [[sheaf]] of $\mathbb{T}$-algebras over the site $X$;
+
+1. such that this sheaf of algebras is local as seen by the respective topologies.
+
+See [[locally algebra-ed  topos]] for more on this.
+
+
+The [[vertical categorification]] of this situation to the context of [[(∞,1)-category]] theory is the notion of [[structured (∞,1)-topos]] and of [[geometry (for structured (∞,1)-toposes)]]:
 
 The geometry $\mathcal{G}$ is the [[(∞,1)-category]] that plays role of the syntactic theory. For $\mathcal{X}$ an [[(∞,1)-topos]], a model of this theory is a limits and covering-preserving [[(∞,1)-functor]]
 
