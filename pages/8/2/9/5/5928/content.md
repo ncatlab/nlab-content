@@ -83,7 +83,7 @@ See [[classifying topos]] and [[locally ringed topos]] for more details on this.
 
 ## References
 
-Example D3.1.11 in
+Examples A2.1.11(f) and D3.1.11 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
