@@ -104,6 +104,20 @@ $$
 
 This appears as ([Johnstone](#Johnstone)), theorem 3.1.1, 3.1.4, 3.1.9, 3.1.12.
 
+
++-- {: .un_defn}
+###### Definition
+
+
+For cartesian theories this is the statement of [[Diaconescu's theorem]].
+
+The other cases follow from this by using <a href="http://nlab.mathforge.org/nlab/show/classifying+topos#GeometricMorphismsAndMorphismsOfSites">this discussion</a> at [[classifying topos]], which says that geometric morphism $\mathcal{E} \to Sh(\mathcal{C})$ are equivalent to [[site|morphisms of site]]s $\mathcal{C} \to \mathcal{E}$ (for the [[canonical coverage]] on $\mathcal{E}$). This means that in addition to preserving finite limits, as in [[Diaconescu's theorem]], these functors also send [[cover]]s in $\mathcal{C}$ to [[epimorphism]]s in $\mathcal{E}$. 
+
+In the cases at hand this last condition means precisely that $\mathcal{C}_{\mathbb{T}} \to \mathcal{E}$ is a [[regular functor]] or [[coherent functor]] etc., respectively. 
+
+=--
+
+
 ## References
 
 Section D3.1 of
