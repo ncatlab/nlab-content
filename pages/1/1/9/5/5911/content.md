@@ -28,7 +28,7 @@ See [[familial regularity and exactness]] for a general description of the spect
 
 ## Related concepts
 
-* [[cartesian category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
+* [[finitely complete category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
 
 * [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
 
