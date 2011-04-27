@@ -4,7 +4,7 @@
 
 ## Idea
 
-Given a [[cartesian monad]] $T$ on a [[cartesian category]] $C$ one can define a generalized graph and a [[generalized multicategory]] of type $T$ ($T$-multicategory). We want to impose a "suitability" condition on $C$ and $T$ which would ensure that one can talk about a free $T$-multicategory. In other words, the forgetful functor 
+Given a [[cartesian monad]] $T$ on a [[locally cartesian category]] $C$ one can define a generalized graph and a [[generalized multicategory]] of type $T$ ($T$-multicategory). We want to impose a "suitability" condition on $C$ and $T$ which would ensure that one can talk about a free $T$-multicategory. In other words, the forgetful functor 
 $$
 U : (C,T)Multicat \to (C,T)Graph
 $$ 
