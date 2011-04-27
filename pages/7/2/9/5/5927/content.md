@@ -1,0 +1,5 @@
+Given an object $X$ in a category $B$ the domain functor $(Y\stackrel{f}\to X)\mapsto Y$ from the [[slice category]] $B/X$ to $B$ is a [[fibered category]] (i.e. Grothendieck fibration). 
+
+Any fibered category isomorphic to the $dom:B/X\to B$ is said to be __representable__.
+
+[[!redirects representable Grothendieck fibration]]
