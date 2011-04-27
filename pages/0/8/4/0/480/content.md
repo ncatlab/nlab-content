@@ -17,9 +17,9 @@
 
 A **coherent category** is a [[regular category]] in which the [[subobject posets]] $Sub(X)$ all have finite [[union]]s which are preserved by the [[base change]] functors $f^*:Sub(Y)\to Sub(X)$.
 
-A coherent category has an [[internal logic]] which is [[coherent logic]].
+A [[coherent functor]] serves as a morphism between coherent categories.
 
-A [[coherent functor]] server as a morphism between coherent categories.
+The [[internal logic]] of a coherent category is [[coherent logic]].
 
 ## Extensivity
 
