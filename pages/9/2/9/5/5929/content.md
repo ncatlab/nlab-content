@@ -3,13 +3,13 @@
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include topos theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -17,9 +17,10 @@
 
 A [[site]] is called a **standard site** if 
 
-1. the underlying category is a [[cartesian category]] (has all [[finite limit]]s);
+1. the underlying category is a [[finitely complete category]];
 
-1. its [[coverage]] is a [[subcanonical coverage]].
+2. its [[coverage]] is a [[subcanonical coverage]].
+
 
 ## Properties
 
@@ -33,4 +34,6 @@ C2.1.11 in
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
   {#Johnstone}
 
+
+[[!redirects standard site]]
 [[!redirects standard sites]]
