@@ -35,6 +35,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[adjoint lifting theorem]]
 
+* [[Grothendieck construction]]
+
 #### A1.2 Cartesian categories
 
 * [[finitely complete category]] / [[cartesian category]]
@@ -145,6 +147,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[Grothendieck fibration]]
 
 * [[bifibration]]
+
+* [[Grothendieck construction]]
 
 #### B1.4 Limits and colimits
 
