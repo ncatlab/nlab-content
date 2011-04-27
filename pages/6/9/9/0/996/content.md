@@ -66,6 +66,8 @@ If the inclusion of the full subcategory on the objects $\{S_a\}$ is [[dense fun
 
 
 [[!redirects generating family]]
+[[!redirects generating families]]
+
 [[!redirects generating set]]
 [[!redirects strong generator]]
 [[!redirects generators]]
