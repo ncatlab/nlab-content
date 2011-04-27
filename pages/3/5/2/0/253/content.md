@@ -127,9 +127,13 @@ When we do have a strict 2-category, however, other strict notions can be quite 
 * [[tetracategory]]
 
 
-## Discussion
+## Related concepts
 
 Discussion about the use of the term "weak enrichment" above is now at [[weak enrichment]].
+
+## References
+
+See the references at [[2-category]].
 
 
 [[!redirects bicategory]]
