@@ -34,9 +34,10 @@ $$
 
 Hence one can think of classifying topoi as a grand generalization of the notion of [[classifying space]] in topology.
 
+
 ## Definition
 
-In a tautological way, every topos $F$ is the classifying topos for something, namely for the categories of [[geometric morphism]]s $E \to F$ into it. The concept of [[geometric theory]] allows to usefully interpret these categories as _categories of certain structures in $E$_ :
+In a tautological way, every [[topos]] $F$ is the classifying topos for something, namely for the categories of [[geometric morphism]]s $E \to F$ into it. The concept of [[geometric theory]] allows to usefully interpret these categories as _categories of certain structures in $E$_ :
 
 as decribed in [Geometric theories -- In terms of sheaf topoi](http://ncatlab.org/nlab/show/geometric+theory#InTermsOfSheafTopoi), every [[sheaf topos]] $F$ is a completion $S[T]$ of the [[syntactic category]] $C_T$ of _some_ [[geometric theory]] $T$
 
@@ -47,7 +48,7 @@ $$
 
 And structures of type $T$ in $E$ is what geometric morphisms $E \to F$ classify.
 
-So the **classifying [[topos]]** for the geometric theory $T$ is a [[Grothendieck topos]] $S[T]$ equipped with a "universal model $U$ of $T$".  This means that for any Grothendieck topos $E$ together with a model $X$ of $T$ in $E$, there exists a unique (up to isomorphism) [[geometric morphism]] $f: E \to S[T]$ such that $f^*$ maps the $T$-model $U$ to the model $X$.  More precisely, for any Grothendieck topos $E$, the category of $T$-models in $E$ is equivalent to the category of geometric morphisms $E \to S[T]$.
+So the **classifying [[topos]]** for the [[geometric theory]] $T$ is a [[Grothendieck topos]] $S[T]$ equipped with a "universal model $U$ of $T$".  This means that for any Grothendieck topos $E$ together with a model $X$ of $T$ in $E$, there exists a unique (up to isomorphism) [[geometric morphism]] $f: E \to S[T]$ such that $f^*$ maps the $T$-model $U$ to the model $X$.  More precisely, for any Grothendieck topos $E$, the category of $T$-models in $E$ is equivalent to the category of geometric morphisms $E \to S[T]$.
 
 If $C_T$ is the [[syntactic category]] of $T$, so that $T$-models are the same as [[geometric category|geometric functors]] out of $C_T$, then this universal model can be identified with a certain geometric functor
 
@@ -70,17 +71,19 @@ $$
 
 for $U$ the universal model and $f^*$ the [[left adjoint]] part of a [[geometric morphism]].  More precisely, composition with $U$ defines an equivalence between the category of geometric morphisms $E\to S[T]$ and the category of geometric functors $C_T\to E$.
 
-Classifying toposes can also be defined over any base topos $S$ instead of [[Set]].  In that case "Grothendieck topos" is replaced by "bounded $S$-topos."
+More specifically, for any [[cartesian theory]], [[regular theory]] or [[coherent theory]] $\mathbb{T}$ (which in ascending order are special cases of each other and all of geometric theories), the corresponding [[syntactic category]] $\mathcal{C}_{\mathbb{T}}$ comes equipped with the structure of a [[syntactic site]] $(\mathcal{C},\mathbb{T}, J)$ (see there) and the classifying topos for $\mathbb{T}$ is the [[sheaf topos]] $Sh(\mathcal{C}_{\mathbb{T}}, J)$.
+
+Classifying toposes can also be defined over any [[base topos]] $S$ instead of [[Set]].  In that case "Grothendieck topos" is replaced by "bounded $S$-topos."
 
 
 ## Background on the theory of theories
 
 
-The notion of _classifying topos_ is part of a trend, begun by [[Bill Lawvere|Lawvere]], of viewing a mathematical [[theory]] as a category with suitable exactness properties and which contains a "generic model", and a model of the theory as a functor which preserves those properties.  This is described in more detail at [[internal logic]] and [[type theory]], but here are some simple examples to give the flavor.  The original example is that of a 'finite products theory':
+The notion of _classifying topos_ is part of a trend, begun by [[Bill Lawvere|Lawvere]], of viewing a mathematical [[theory]] in [[logic]] as a [[category]] with suitable [[exact functor|exactness]] properties and which contains a "generic model", and a [[model]] of the theory as a functor which preserves those properties.  This is described in more detail at [[internal logic]] and [[type theory]], but here are some simple examples to give the flavor.  The original example is that of a 'finite products theory':
 
-* **Finite products theory.**  Roughly speaking, a 'finite products theory', 'Lawvere theory', or 'algebraic theory' is a theory describing some mathematical structure that can be defined in an arbitrary category with finite products.  An example would be the theory of [[groups]]. As explained in the entry for [[Lawvere theory]], for each such theory $T$ there is a category with finite products $C_{fp}[T]$, which serves as a "classifying category" for $T$, in that models of $T$ in the category of sets correspond to product-preserving functors $f : C_{fp}[T] \to Set$.   More generally, for any category with finite products, say $E$, models of $T$ in $E$ correspond to product-preserving functors $f : C_{fp}[T] \to E$.   
+* **Finite products theory.**  Roughly speaking, a 'finite products theory', '[[Lawvere theory]]', or '[[algebraic theory]]' is a [[theory]] describing some mathematical structure that can be defined in an arbitrary category with finite [[product]]s.  An example would be the theory of [[groups]]. As explained in the entry for [[Lawvere theory]], for each such theory $T$ there is a category with finite products $C_{fp}[T]$ -- the [[syntactic category]], which serves as a "classifying category" for $T$, in that models of $T$ in the category of sets correspond to product-preserving [[functor]]s $f : C_{fp}[T] \to Set$.   More generally, for any category with finite products, say $E$, models of $T$ in $E$ correspond to product-preserving functors $f : C_{fp}[T] \to E$.   
 
-* **Finite limits theory.** Next up the line is the notion of  'finite limits theory', sometimes called an [[essentially algebraic theory]].  This is roughly a theory describing some structure that can be defined in an arbitrary category with finite limits (also called a [[finitely complete category]]).  An example of a finite limits theory would be the theory of categories.   (The notion of 'category' requires finite limits, while the notion of 'group' does not, because categories but not groups involve a _partially defined_ operation, namely composition of morphisms.)    Every finite limits theory $T$ admits a classifying category $C_{fl}(T)$: a finitely complete category such that models of $T$ in a category $E$ with finite limits correspond to functors $f: C_{fl}(T) \to E$ that preserve finite limits.  (Such functors are called [[left exact]], or 'lex' for short.)  
+* **Finite limits theory.** Next up the line is the notion of  'finite limits theory', sometimes called an [[essentially algebraic theory]].  This is roughly a theory describing some structure that can be defined in an arbitrary category with [[finite limit]]s (also called a [[finitely complete category]]).  An example of a finite limits theory would be the theory of categories.   (The notion of 'category' requires finite limits, while the notion of 'group' does not, because categories but not groups involve a _partially defined_ operation, namely composition of morphisms.)    Every finite limits theory $T$ admits a [[syntactic category|classifying category]] $C_{fl}(T)$: a finitely complete category such that models of $T$ in a category $E$ with finite limits correspond to functors $f: C_{fl}(T) \to E$ that preserve finite limits.  (Such functors are called [[left exact]], or 'lex' for short.)  
 
 * **Geometric theory.** Further up the line, a [[geometric theory]] is roughly a theory which can be formulated in that fragment of first-order logic that deals in finite limits and arbitrary (small) colimits, plus certain [[familial regularity and exactness|exactness]] properties the details of which need not concern us.  The point is that a category with finite limits, small colimits, and appropriate exactness is just a Grothendieck topos, and a functor preserving finite limits and small colimits is just the inverse image part of a geometric morphism.  Just as in the previous two cases, any 'geometric theory' has a classifying category $S[T]$ (which is now a Grothendieck topos) which possesses a "generic object" for that theory, and T-models in any other Grothendieck topos E can be identified with geometric morphisms $f\colon E\to S[T]$, or specifically with their inverse image parts.
 
@@ -88,13 +91,87 @@ Each type of theory may be considered a $2$-theory, or [[doctrine]].  Furthermor
 
 For instance, to go from a finite products theory $T$ to the corresponding finite limits theory, we can take the opposite of the category of [[finitely presentable object|finitely presentable models]] of $T$ in $Set$, thanks to [[Gabriel-Ulmer duality]].  Similarly, to go from a finite limits theory to the classifying topos of the corresponding geometric theory, we can take the category of presheaves on the classifying category of the finite limits theory.
 
+## Properties
+
+### Geometric morphisms equivalent to morphisms of sites
+ {#GeometricMorphismsAndMorphismsOfSites}
+
+The fact that classifying toposes are what they all comes down,
+if spelled out explicitly, to the fact that [[geometric morphism]]
+$f : \mathcal{E} \to \mathcal{F}$ of toposes can be identified with certain
+morphism of [[site]]s $C_{\mathcal{E}}$, $C_{\mathcal{F}}$  for these toposes, going the other way round, $C_\mathcal{E} \leftarrow C_{\mathcal{F}}$, and having certain properties. If here $C_\mathcal{F}$ is the [[syntactic site]] of some [[theory]] $\mathbb{T}$ and we choose $C_{\mathcal{E}}$ to be the [[canonical site]] of $\mathcal{E}$ (itself equipped with the [[canonical coverage]]) this makes manifest why the geoetric morphisms in $\mathcal{F}$ correspond to [[model]]s of $\mathcal{T}$ in $\mathcal{E}$. 
+
+We now say this in precise manner. In the following a _[[cartesian site]]_ means a [[site]] whose underlying category is a [[cartesian category]] (has all [[finite limit]]s).
+
++-- {: .num_prop }
+###### Proposition
+
+Let $(\mathcal{C}, J)$ and $(\mathcal{D}, K)$ be [[cartesian site]]s such that $\mathcal{C}$ is a [[small category]], $\mathcal{D}$ is an [[essentially small category]] and the [[coverage]] $K$ is [[subcanonical coverage|subcanonical]]. 
+
+Then a [[geometric morphism]] of the corresponding [[sheaf toposes]]
+
+$$
+  f : Sh(\mathcal{D}, K) \to Sh(\mathcal{C}, J)
+$$
+
+is induced by a morphism of [[sites]] (see there)
+
+$$
+  (\mathcal{D}, K) \leftarrow (\mathcal{C}, J)  
+$$
+
+precisely if the [[inverse image]] of $f$ respects the [[Yoneda embedding]]s $j$ as
+
+$$
+  \array{
+    \mathcal{D } &\leftarrow& \mathcal{C}
+    \\
+    {}^{\mathllap{j_{\mathcal{D}}}}\downarrow && \downarrow^{\mathrlap{j_{\mathcal{C}}}}
+    \\
+    Sh(\mathcal{D}, K) &\stackrel{f^*}{\leftarrow}&
+    Sh(\mathcal{C}, J)    
+  }
+  \,.
+$$
+
+=--
+
+This appears as ([Johnstone, lemma C2.3.8](#Johnstone)).
+
++-- {: .proof}
+###### Proof
+
+It suffices to observe that the factorization, if it exists, is a morphism of sites.
+
+=--
+
++-- {: .num_cor }
+###### Corollary
+
+Let $(\mathcal{C},J)$ be a [[small category|small]] [[cartesian site]] and let $\mathcal{E}$ be any [[sheaf topos]]. Then we have an [[equivalence of categories]]
+
+$$
+  Topos(\mathcal{E}, Sh(\mathcal{C}, J))
+  \simeq
+  Site((\mathcal{J}, J), (\mathcal{E}, C))
+$$
+
+between the [[geometric morphism]]s from $\mathcal{E}$ to $Sh(\mathcal{C}, J)$ and the morphisms of [[site]]s from $(\mathcal{C}, J)$ to the [[big site]] $(\mathcal{E}, C)$ for $C$ the [[canonical coverage]] on $\mathcal{E}$.
+
+=--
+
+This appears as ([Johnstone, cor. C2.3.9](#Johnstone)).
+
+
 ## Examples 
+
+We list and discuss explit examples of classifying toposes.
 
 ### For objects
 
-The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the classifying topos _for objects_, sometimes called the "object classifier" (not to be confused with the notion of an [[object classifier]] in an $(\infty,1)$-topos).
+The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the classifying topos for the [[theory of objects]] , sometimes called the "object classifier" (not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]] ).
 
-For $E$ any topos, a geometric morphism $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$.
+For $E$ any [[topos]], a [[geometric morphism]] $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$.
 
 ### For groups
 
@@ -126,7 +203,7 @@ In fact, _any_ [[Grothendieck topos]] can be thought of as a classifying topos. 
 
 ### Any topos of presheaves
 
-As a special case of the above, any presheaf topos, i.e. any topos of the form $Set^{C^{op}}$, is the classifying topos for [[flat functors]] from $C$ (sometimes also called "$C$-torsors").  In other words, geometric morphisms $E \to Set^{C^{op}}$ are the same as flat functors $C \to E$.  This is [[Diaconescu's theorem]].  If $C$ has finite limits, then a flat functor $C \to E$ is the same as a functor that preserves finite limits.
+As a special case of the above, any presheaf topos, i.e. any topos of the form $Set^{C^{op}}$, is the classifying topos for [[flat functors]] from $C$ (sometimes also called "$C$-[[torsor]]s").  In other words, geometric morphisms $E \to Set^{C^{op}}$ are the same as [[flat functor]]s $C \to E$.  This is [[Diaconescu's theorem]].  If $C$ has finite limits, then a flat functor $C \to E$ is the same as a functor that preserves finite limits.
 
 ### For cover-preserving flat functors on a site
 
