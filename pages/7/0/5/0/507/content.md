@@ -234,9 +234,16 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 #### C2.1 Sites and coverages
 
 * [[coverage]]
+
+  * [[regular coverage]]
+
 * [[Grothendieck topology]]
-* [[Grothendieck pretopology]]
+
+  * [[Grothendieck pretopology]]
+
 * [[site]]
+
+  * [[standard site]]
 
 #### C2.2 The topos of sheaves
 
