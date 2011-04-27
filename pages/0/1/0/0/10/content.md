@@ -470,6 +470,10 @@ Original articles include
 
 * [[Ieke Moerdijk]], Classifying spaces and classifying topoi, _Lecture Notes in Math._ **1616**, Springer-Verlag, New York, 1995.
 
+Classifying toposes as [[locally algebra-ed (infinity,1)-toposes]] are discussed in section 1.4 of
+
+* [[Jacob Lurie]], _[[Structured Spaces]]_
+ {#Lurie}
 
 [[!redirects Another page]]
 [[!redirects classifying toposes]]
