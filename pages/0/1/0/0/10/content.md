@@ -196,64 +196,6 @@ The discussion above for groups can be repeated verbatim for rings, since they t
 
 The classifying topos for [[local ring|local rings]] is the [[big Zariski topos]] of the [[scheme]] $Spec(\mathbb{Z})$.  Note that a "local ring" in a topos (the structure classified by this topos) is precisely what algebraic geometers usually call a "sheaf of local rings": namely, a sheaf of rings all of whose [[stalk|stalks]] are local. See [[locally ringed topos]]. This is a special case of the case of [Cover-preserving flat functors](#CoverPreservingFLatFunctors) below.
 
-### Any Grothendieck topos 
-
-In fact, _any_ [[Grothendieck topos]] can be thought of as a classifying topos.  This is related to the discussion above, since Joyal and Tierney showed that any Grothendieck topos is equivalent to the $B G$ for some [[localic groupoid]] $G$.  A useful discussion of this idea starts
-[here](http://golem.ph.utexas.edu/category/2007/10/geometric_representation_theor_2.html#c012724).
-
-### For flat functors
-
-As a special case of the above, any [[presheaf topos]], i.e. any topos of the form $Set^{C^{op}}$, is the classifying topos for [[flat functors]] from $C$ (sometimes also called "$C$-[[torsor]]s").  In other words, geometric morphisms $E \to Set^{C^{op}}$ are the same as [[flat functor]]s $C \to E$.  This is [[Diaconescu's theorem]].  If $C$ has finite limits, then a flat functor $C \to E$ is the same as a functor that preserves finite limits.
-
-### For cover-preserving flat functors on a site
- {#CoverPreservingFLatFunctors}
-
-Another way of viewing any Grothendieck topos $E$ as a classifying topos is to start with a small [[site]] of definition for it.  Any such site gives rise to a [[geometric theory]] called the theory of [[cover-preserving functor|cover-preserving]] flat functors on that site.  The classifying topos of this theory is again $E$.
-
-Moreover, for any object $X$ of $E$, there is a small site of definition
-for $E$ which includes $X$, and thus for which $X$ is (part of) the universal object.  
-
-### For local algebras
- {#LocalAlgebras}
-
-As a special case of the above, let $\mathcal{T}$ be any
-[[essentially algebraic theory]] and equip its [[syntactic category]] $\mathcal{C}_{\mathbb{T}}$ with some [[coverage]] $J$. Then the [[sheaf topos]] $Sh(\mathcal{C}_{\mathbb{T}}, J)$ is the classifying topos for _local $\mathbb{T}$-algebras_ : 
-
-for $Sh(X)$ any [[sheaf topos]] a [[geometric morphism]]
-
-$$
-  \mathcal{O} : Sh(X) \to Sh(\mathcal{C}_{\mathbb{T}}, J)
-$$
-
-is
-
-1. a $\mathbb{T}$-[[algebra over an algebraic theory|algebra]] in $Sh(X)$, hence a [[sheaf]] of $\mathbb{T}$-algebras over the site $X$;
-
-1. such that this sheaf of algebras is local as seen by the respective topologies.
-
-See [[locally algebra-ed  topos]] for more on this.
-
-
-The [[vertical categorification]] of this situation to the context of [[(∞,1)-category]] theory is the notion of [[structured (∞,1)-topos]] and of [[geometry (for structured (∞,1)-toposes)]]:
-
-The geometry $\mathcal{G}$ is the [[(∞,1)-category]] that plays role of the syntactic theory. For $\mathcal{X}$ an [[(∞,1)-topos]], a model of this theory is a limits and covering-preserving [[(∞,1)-functor]]
-
-$$
-  \mathcal{G} \to \mathcal{X}
-  \,.
-$$
-
-The [[Yoneda embedding]] followed by [[∞-stackification]] 
-
-
-$$
-  \mathcal{G} \stackrel{Y}{\to} PSh_{(\infty,1)}(\mathcal{G})
-  \stackrel{\bar(-)}{\to} Sh_{(\infty,1)}(\mathcal{G})
-$$
-
-constitutes a model of $\mathcal{G}$ in the (Cech) [[∞-stack]] [[(∞,1)-topos]] $Sh_{(\infty,1)}(\mathcal{G})$ and exhibits it as the classifying topos for such models (geometries):
-
-This is _[[Structured Spaces]]_ [prop 1.4.2](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=26).
 
 
 ### For principal bundles {#PrincipalBund}
@@ -415,7 +357,86 @@ $$
 
 > needs more discussion...
 
-## Classifying topos as a generalization of the notion of classifying space in topology
+### For general localic groupoids
+  {#ForLocalicGroupoids} 
+
+In fact, _any_ [[Grothendieck topos]] can be thought of as a classifying topos for some [[localic groupoid]].  This is related to the discussion above, since Joyal and Tierney showed that any Grothendieck topos is equivalent to the $B G$ for some [[localic groupoid]] $G$.  A useful discussion of this idea starts
+[here](http://golem.ph.utexas.edu/category/2007/10/geometric_representation_theor_2.html#c012724).
+
+### For flat functors
+
+As a special case of the above, any [[presheaf topos]], i.e. any topos of the form $Set^{C^{op}}$, is the classifying topos for [[flat functors]] from $C$ (sometimes also called "$C$-[[torsor]]s").  In other words, geometric morphisms $E \to Set^{C^{op}}$ are the same as [[flat functor]]s $C \to E$.  This is [[Diaconescu's theorem]].  If $C$ has finite limits, then a flat functor $C \to E$ is the same as a functor that preserves finite limits.
+
+### For geometric theories / cover-preserving flat functors on a site
+ {#CoverPreservingFLatFunctors}
+
+Another way, apart from that [above](#ForLocalicGroupoids), of viewing any [[Grothendieck topos]] $E$ as a classifying topos is to start with a small [[site]] of definition for it.  Any such site gives rise to a [[geometric theory]] called the theory of [[cover-preserving functor|cover-preserving]] flat functors on that site.  The classifying topos of this theory is again $E$.
+
+Moreover, for any object $X$ of $E$, there is a small site of definition
+for $E$ which includes $X$, and thus for which $X$ is (part of) the universal object.  
+
+
+We have:
+
++-- {: .num_prop #EveryToposIsAClassifyingToposForLocalAlgebras}
+###### Proposition
+
+Every [[sheaf topos]] has a [[cartesian site]] $(\mathcal{C}, J)$ of definition.
+
+This $Sh(\mathcal{C}, J)$ is the classifying topos for cover-preserving [[flat functor]]s out of $\mathcal{C}$.
+
+Every category of such functors is the category of [[model]]s of some geometric theory, and for every geometric theory there is such a cartesian site.
+
+=--
+
+This appears as ([Johnstone, remark D3.1.13](#Johnstone)).
+
+
+### For local algebras
+ {#LocalAlgebras}
+
+As a special case or rather re-interpretation of the [above](#CoverPreservingFLatFunctors), let $\mathcal{T}$ be any
+[[essentially algebraic theory]] and equip its [[syntactic category]] $\mathcal{C}_{\mathbb{T}}$ with some [[coverage]] $J$. Then the [[sheaf topos]] $Sh(\mathcal{C}_{\mathbb{T}}, J)$ is the classifying topos for _local $\mathbb{T}$-algebras_ : 
+
+for $Sh(X)$ any [[sheaf topos]] a [[geometric morphism]]
+
+$$
+  \mathcal{O} : Sh(X) \to Sh(\mathcal{C}_{\mathbb{T}}, J)
+$$
+
+is
+
+1. a $\mathbb{T}$-[[algebra over an algebraic theory|algebra]] in $Sh(X)$, hence a [[sheaf]] of $\mathbb{T}$-algebras over the site $X$;
+
+1. such that this sheaf of algebras is local as seen by the respective topologies.
+
+See [[locally algebra-ed  topos]] for more on this.
+
+By prop. \ref{EveryToposIsAClassifyingToposForLocalAlgebras} we have that every [[sheaf topos]] is the classifying topos of _some_ theory of local algebras.
+
+The [[vertical categorification]] of this situation to the context of [[(∞,1)-category]] theory is the notion of [[structured (∞,1)-topos]] and of [[geometry (for structured (∞,1)-toposes)]]:
+
+The geometry $\mathcal{G}$ is the [[(∞,1)-category]] that plays role of the syntactic theory. For $\mathcal{X}$ an [[(∞,1)-topos]], a model of this theory is a limits and covering-preserving [[(∞,1)-functor]]
+
+$$
+  \mathcal{G} \to \mathcal{X}
+  \,.
+$$
+
+The [[Yoneda embedding]] followed by [[∞-stackification]] 
+
+
+$$
+  \mathcal{G} \stackrel{Y}{\to} PSh_{(\infty,1)}(\mathcal{G})
+  \stackrel{\bar(-)}{\to} Sh_{(\infty,1)}(\mathcal{G})
+$$
+
+constitutes a model of $\mathcal{G}$ in the (Cech) [[∞-stack]] [[(∞,1)-topos]] $Sh_{(\infty,1)}(\mathcal{G})$ and exhibits it as the classifying topos for such models (geometries):
+
+This is _[[Structured Spaces]]_ [prop 1.4.2](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=26).
+
+
+## As a generalization of the notion of classifying space in topology
 
 In view of the analogy between the classifying topos denoted $B G$, such that the [[groupoid]] $G Bund(X)$ of $G$-[[principal bundle]]s over $X$ is equivalent to geometric morphims $Sh(X) \to B G$:
 
