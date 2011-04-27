@@ -18,22 +18,41 @@
 
 ## Idea 
 
-A _site_ is a [[small category]] equipped with a [[coverage]] or [[Grothendieck topology]]. The [[category of sheaves]] is a [[sheaf topos]] and the site is a _site of definition_ for this topos.
+A _site_  is a [[locally presentable category|presentation]] of a [[sheaf topos]] as a structure [[free cocompletion|freely generated under colimits]] from a category, subject to the relation that certain [[covering]] colimits are preserved.
+
+As such the notion of site generalizes that of [[topological spaces]] and of [[locale]]s, which are presentations for [[localic topos|localic]] sheaf toposes.
+
+In technical terms, a _site_ is a [[small category]] equipped with a [[coverage]] or [[Grothendieck topology]]. The [[category of sheaves]] over a site is a [[sheaf topos]] and the site is a _site of definition_ for this topos.
+
 
 ## Definition 
 
-+-- {: .un_defn}
++-- {: .num_defn #Site}
 ###### Definition
 
 A _site_ $(C,J)$ is a [[category]] $C$ equipped with a [[coverage]] $J$.
 
+For $\mathcal{E}$ a topos equipped with an [[equivalence of categories]]
+
+$$
+  \mathcal{E} \simeq Sh(C,J)
+$$
+
+to the [[sheaf topos]] over a site, ones says that $(C,J)$ is a **site of definition** for $\mathcal{E}$.
 
 =--
 
-+-- {: .un_remark}
+
+
++-- {: .num_remark #SmallAndLarge}
 ###### Remark
 
-Usually a site is required to be a [[small category]]. See [[large site]].
+Often a site is required to be a [[small category]]. But also [[large site]]s play a role.
+
+=--
+
++-- {: .num_remark #CoveragesAndTopologies}
+###### Remark
 
 Every [[coverage]] induces a [[Grothendieck topology]]. Often sites are defined to be categories equipped with a Grothendieck topology. Some constructions and properties are more elegantly handled with covergaes, some with Grothendieck topologies.
 
@@ -42,7 +61,7 @@ Notice that there are many equivalent ways to define a [[Grothendieck topology]]
 =--
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $(C,J)$ a site, we write $Sh_J(C)$ for the
@@ -50,9 +69,8 @@ For $(C,J)$ a site, we write $Sh_J(C)$ for the
 
 =--
 
-+-- {: .un_defn #MorphismOfSites}
++-- {: .num_defn #MorphismOfSites}
 ###### Definition
-
 
 A **morphism of sites** $f : (C,J) \to (D,K)$ is 
 
@@ -69,7 +87,7 @@ A **morphism of sites** $f : (C,J) \to (D,K)$ is
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 If $C$ has [[finite limit]]s then the condition that $f : C \to D$ is a [[flat functor]] is equivalent to $f$ preserving these finite limits: to $f$ being a left [[exact functor]].
@@ -78,7 +96,12 @@ If $C$ has [[finite limit]]s then the condition that $f : C \to D$ is a [[flat f
 
 ## Properties
 
-+-- {: .un_prop}
+### Morphisms of sites and geometric morphisms
+ {#MorphismsOfSitesAndGeometricMorphisms}
+
+We discuss how morphisms of sites, def. \ref{MorphismOfSites}, induce [[geometric morphism]]s of the corresponding [[sheaf topos]]es, and how the converse holds, too, under certain conditions.
+
++-- {: .num_prop}
 ###### Proposition
 
 Let $f : (C,J) \to (D,K)$ be a [morphism of sites](#MorphismOfSites). 
@@ -88,8 +111,8 @@ Notice that precomposition with $f$ defines a [[functor]] between categories of 
 There is a [[geometric morphism]] between the [[categories of sheaves]]
 
 $$
-  (f^* \dashv f_*) : Sh_K(D) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
-    Sh_(J)(C)
+  (f^* \dashv f_*) : Sh(D,K) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
+    Sh(C,J)
 $$
 
 where $f_*$ is the restriction of $f$ to sheaves.
@@ -120,18 +143,95 @@ $Lan_f X : d \mapsto {\lim_{\to}}((f^{op}/d) \to C^{op} \stackrel{X}{\to})$ over
 
 =--
 
++-- {: .num_prop }
+###### Proposition
+
+Let $(\mathcal{C}, J)$ and $(\mathcal{D}, K)$ be [[cartesian site]]s such that $\mathcal{C}$ is a [[small category]], $\mathcal{D}$ is an [[essentially small category]] and the [[coverage]] $K$ is [[subcanonical coverage|subcanonical]]. 
+
+Then a [[geometric morphism]] of the corresponding [[sheaf toposes]]
+
+$$
+  f : Sh(\mathcal{D}, K) \to Sh(\mathcal{C}, J)
+$$
+
+is induced by a morphism of [[sites]] (see there)
+
+$$
+  (\mathcal{D}, K) \leftarrow (\mathcal{C}, J)  
+$$
+
+precisely if the [[inverse image]] of $f$ respects the [[Yoneda embedding]]s $j$ as
+
+$$
+  \array{
+    \mathcal{D } &\leftarrow& \mathcal{C}
+    \\
+    {}^{\mathllap{j_{\mathcal{D}}}}\downarrow && \downarrow^{\mathrlap{j_{\mathcal{C}}}}
+    \\
+    Sh(\mathcal{D}, K) &\stackrel{f^*}{\leftarrow}&
+    Sh(\mathcal{C}, J)    
+  }
+  \,.
+$$
+
+=--
+
+This appears as ([Johnstone, lemma C2.3.8](#Johnstone)).
+
++-- {: .proof}
+###### Proof
+
+It suffices to observe that the factorization, if it exists, is a morphism of sites.
+
+=--
+
++-- {: .num_cor #LemmaForClassifyingToposes}
+###### Corollary
+
+Let $(\mathcal{C},J)$ be a [[small category|small]] [[cartesian site]] and let $\mathcal{E}$ be any [[sheaf topos]]. Then we have an [[equivalence of categories]]
+
+$$
+  Topos(\mathcal{E}, Sh(\mathcal{C}, J))
+  \simeq
+  Site((\mathcal{J}, J), (\mathcal{E}, C))
+$$
+
+between the [[geometric morphism]]s from $\mathcal{E}$ to $Sh(\mathcal{C}, J)$ and the morphisms of [[site]]s from $(\mathcal{C}, J)$ to the [[big site]] $(\mathcal{E}, C)$ for $C$ the [[canonical coverage]] on $\mathcal{E}$.
+
+=--
+
+This appears as ([Johnstone, cor. C2.3.9](#Johnstone)).
+
++-- {: .num_remark }
+###### Remark
+
+Corollary \ref{LemmaForClassifyingToposes} leads to the notion of
+[[classifying topos]]es. See there for more details.
+
+=--
 
 ## Examples
-
 
 
 ### Classes of sites
 
 * Every [[frame]] is canonically a site, where $U$ is covered by $\{U_i\}$ precisely if it is their [[join]].
   
-  An subclass of examples is the [[category of open subsets]] of a [[topological space]].
+  A subclass of examples is the [[category of open subsets]] of a [[topological space]].
 
-This are examples of [[posite]]s/[[(0,1)-site]].
+  This are examples of [[posite]]s/[[(0,1)-site]].
+
+* Various categories come with canonical structures of sites on them:
+
+  * For every category $C$ there is its [[canonical coverage]].
+
+  * On every [[regular category]] there is its [[regular coverage]].
+
+  * On every [[coherent category]] there is its [[coherent coverage]].
+
+  If the category in question is the [[syntactic category]] of a [[theory]], the corresponding site is the [[syntactic site]].
+
+* For every site there is the corresponding [[double negation topology]] that forces the sheaf topos to a [[Boolean topos]].
 
 Other classes of sites are listed in the following.
 
@@ -156,10 +256,27 @@ Other classes of sites are listed in the following.
 * [[cohesive site]], [[∞-cohesive site]]
 
 
+### Specific sites
+
+* Sites for [[big topos]]es defining notions of [[higher geometry|geometry]] are:
+
+  * The sites that define the [[higher geometry|geometry]] called [[differential geometry]] are [[CartSp]]${}_{smooth}$, [[SmoothMfd]], etc, equipped with the [[open cover]] [[coverage]]. Or more generally [[smooth loci]] etc.
+
+  * The sites that induce [[topology]topological geometry]] are small versions of [[Top]] equipped with the [[open cover]] [[coverage]].
+
+  * The sites that induce the [[higher geometry]] modeled on [[Euclidean topology]] are the large site of [[paracompact manifold]]s and its [[dense sub-site]] [[CartSp]]${}_{top}$.
+
+* The sites that define the [[higher geometry|geometry]] called [[algebraic geometry]] are site structures on categories of formal duals of [[commutative ring]]s or commutative [[associative algebra]]s
+
+  * [[fppf site]], [[fpqc site]], [[etale site]], [[Zariski site]] [[crystalline site]], 
+    etc.
+
+
+
 ### Morphisms of sites
 
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 If $A$ and $B$ are [[frame]]s regarded as sites via their canonical coverages, then a morphism of sites $A \to B$ is equivalently a frame [[homomorphism]], a function preserving finite [[meet]]s and arbitrary [[join]]s.
@@ -199,7 +316,7 @@ There are natural operations for [[restriction and extension of sheaves]] from a
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 For $C$ and $D$ [[regular category|regular categories]] equipped with their [[regular coverage]]s, a morphism of sites is the same as a [[regular functor]], i.e. a functor preserving finite limits and covers.
@@ -207,31 +324,12 @@ For $C$ and $D$ [[regular category|regular categories]] equipped with their [[re
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 For $C$ any site with finite limits, there is canonically a  morphism of sites to its [[tangent category]]. See there for details.
 
 =--
-
-
-
-
-### Specific sites
-
-* For every site there is the corresponding [[double negation topology]] that forces the sheaf topos to a [[Boolean topos]].
-
-* The sites that define the [[higher geometry|geometry]] called [[differential geometry]] are [[CartSp]]${}_{smooth}$, [[Diff]], etc, equipped with the [[open cover]] [[coverage]].
-
-* The sites that induce [[topology]topological geometry]] are small versions of [[Top]] equipped with the [[open cover]] [[coverage]].
-
-  * The sites that induce the [[higher geometry]] modeled on [[Euclidean topology]] are the large site of [[paracompact manifold]]s and its [[dense sub-site]] [[CartSp]]${}_{top}$.
-
-* The sites that define the [[higher geometry|geometry]] called [[algebraic geometry]] are site structures on categories of formal duals of [[commutative ring]]s or commutative [[associative algebra]]s
-
-  * [[fppf site]], [[fpqc site]], [[etale site]], [[crystalline site]], etc.
-
-
 
 
 ## Related concepts
