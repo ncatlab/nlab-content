@@ -42,6 +42,22 @@ to the [[sheaf topos]] over a site, ones says that $(C,J)$ is a **site of defini
 
 =--
 
+Some classes of sites have their special names
+
++-- {: .num_defn #TypesOfSites}
+###### Definition
+
+A site is called
+
+* a [[small site]], [[large site]], _essentially small site_ if the underlying category is a [[small category]], [[large category]], [[essentially small category]], respectively;
+
+* a **[[cartesian site]]** if the underlying category is a [[cartesian category]] (has all finite [[limit]]s);
+
+* a **[[standard site]]** if it is a cartesian site equipped with a [[subcanonical coverage]].
+
+=--
+
+The term [[standard site]] appears in ([Johnstone, example A2.1.11](#Johnstone)).
 
 
 +-- {: .num_remark #SmallAndLarge}
@@ -60,7 +76,6 @@ Notice that there are many equivalent ways to define a [[Grothendieck topology]]
 
 =--
 
-
 +-- {: .num_defn}
 ###### Definition
 
@@ -68,6 +83,7 @@ For $(C,J)$ a site, we write $Sh_J(C)$ for the
 [[category of sheaves]] on $C$ with respect to the [[coverage]] $J$.
 
 =--
+
 
 +-- {: .num_defn #MorphismOfSites}
 ###### Definition
@@ -94,7 +110,10 @@ If $C$ has [[finite limit]]s then the condition that $f : C \to D$ is a [[flat f
 
 =--
 
+
+
 ## Properties
+
 
 ### Morphisms of sites and geometric morphisms
  {#MorphismsOfSitesAndGeometricMorphisms}
@@ -209,6 +228,28 @@ Corollary \ref{LemmaForClassifyingToposes} leads to the notion of
 [[classifying topos]]es. See there for more details.
 
 =--
+
+### Morita equivalent sites
+
+Many inequivalent sites may have equivalent [[sheaf topos]]es.
+
++-- {: .num_prop }
+###### Proposition
+
+Every [[sheaf topos]] has a [standard site](#TypesOfSites) of definition.
+
+=--
+
+This appears as ([Johnstone, theorem C2.2.8 (iii)](#Johnstone)).
+
++-- {: .num_remark }
+###### Remark
+
+By cor. \ref{LemmaForClassifyingToposes} this means that every sheaf topos is the [[classifying topos]] for some [[theory]] of [[local algebra]]s.
+
+=--
+
+
 
 ## Examples
 
