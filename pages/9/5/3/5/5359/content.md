@@ -103,7 +103,7 @@ This is ([MorrisonWalker, def. 6.3.2](#MorrisonWalker)).
 +-- {: .un_defn}
 ###### Definition
 
-For $X$ a [[topological space]], its **fundamental blob $n$-category** $\Pi_{\leq n}(X)$ is the blob $n$-category which sends a $k$-ball for $k \lt n$ to the set of [[continuous map]] of the ball into $X$, and an $n$-ball to the set of [[homotopy]]-classes of such maps, relative boundary.
+For $X$ a [[topological space]], its **fundamental blob $n$-category** $\Pi_{\leq n}(X)$ is the blob $n$-category which sends a $k$-ball for $k \lt n$ to the set of [[continuous map]]s of the ball into $X$, and an $n$-ball to the set of [[homotopy]]-classes of such maps, relative boundary.
 
 =--
 
