@@ -225,6 +225,8 @@ An $A_\infty$-[[A-infinity category|category]] can also be thought of as a categ
 
 * [[(∞,0)-category]]
 
+* [[(n,1)-category]]
+
 * **(∞,1)-category**
 
 * [[(∞,2)-category]]
