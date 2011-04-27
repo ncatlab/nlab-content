@@ -3,24 +3,21 @@
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include topos theory - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
-
+{: toc}
 
 ## Idea 
 
 A _site_  is a [[locally presentable category|presentation]] of a [[sheaf topos]] as a structure [[free cocompletion|freely generated under colimits]] from a category, subject to the relation that certain [[covering]] colimits are preserved.
 
-As such the notion of site generalizes that of [[topological spaces]] and of [[locale]]s, which are presentations for [[localic topos|localic]] sheaf toposes.
+As such, sites generalise [[topological spaces]] and [[locales]], which present [[localic topos|localic]] sheaf toposes.  More precisely, sites generalise and [[categorify]] [[posites]], which present localic toposes but also present locales themselves in a decategorified manner.
 
 In technical terms, a _site_ is a [[small category]] equipped with a [[coverage]] or [[Grothendieck topology]]. The [[category of sheaves]] over a site is a [[sheaf topos]] and the site is a _site of definition_ for this topos.
 
@@ -51,7 +48,7 @@ A site is called
 
 * a [[small site]], [[large site]], _essentially small site_ if the underlying category is a [[small category]], [[large category]], [[essentially small category]], respectively;
 
-* a **[[cartesian site]]** if the underlying category is a [[cartesian category]] (has all finite [[limit]]s);
+* a **[[cartesian site]]** if the underlying category is [[finitely complete category|finitely complete]] (which the [[Elephant]] calls a [[cartesian category]]);
 
 * a **[[standard site]]** if it is a cartesian site equipped with a [[subcanonical coverage]].
 
