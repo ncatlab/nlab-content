@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -23,9 +33,13 @@ Surjective submersions form a singleton [[Grothendieck pretopology]] on [[Diff]]
 
 ## Variants
 
-The [[algebraic geometry]] analogue of a submersion is a [[smooth morphism]].
+The [[algebraic geometry]] analogue of a submersion is a [[smooth morphism of schemes|smooth morphism]].
 
 The analogue between arbitrary [[topological spaces]] (not manifolds) is simply an [[open map]]. There is also [[topological submersion]], of which there are two versions.
+
+## Related concepts
+
+* [[immersion]], **submersion**, [[local diffeomorphism]]
 
 
 [[!redirects submersion]]
