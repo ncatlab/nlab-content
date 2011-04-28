@@ -71,16 +71,17 @@ $$
 The concept of base change generalises from this case to other [[fibered category|fibred categories]].
 
 
-### Base change geometric morphisms {#GeometricMorphism}
+### Base change geometric morphisms 
+  {#GeometricMorphism}
 
-+-- {: .un_prop}
++-- {: .num_prop #BaseChangeIsEssentialGeometricMorphism}
 ###### Proposition
 
 
 For $\mathbf{H}$ is a [[topos]] (or [[(∞,1)-topos]], etc.) $f : X \to Y$ a [[morphism]] in $\mathbf{H}$, then base change induces an [[essential geometric morphism]] betwen over-toposes/[[over-(∞,1)-topos]]es
 
 $$
-  (f_! \dashv f^* \dashv f_*) : \mathbf{H}/X 
+  (\sum_f \dashv f^* \dashv \prod_f) : \mathbf{H}/X 
    \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
  \mathbf{H}/Y
 $$ 
@@ -96,12 +97,39 @@ That we have [[adjoint functor]]s/[[adjoint (∞,1)-functor]]s $(f_! \dashv f^*)
 
 =--
 
-+-- {: .un_def}
-###### Definition
++-- {: .num_prop}
+###### Proposition
 
-In the case $Y = *$ is the  [[terminal object]], the base change geometric morphism is called an **[[etale geometric morphism]]**. See there for more details
+$f^*$ is a [[logical functor]]. Hence $(f^* \dashv f_*)$ is also an [[atomic geometric morphism]].
 
 =--
+
+This appears for instance as ([MacLaneMoerdijk, theorem IV.7.2](#MacLaneMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{BaseChangeIsEssentialGeometricMorphism} $f^*$ is a [[right adjoint]] and hence preserves all [[limit]]s, in particular [[finite limit]]s.
+
+Notice that the [[subobject classifier]] of an [[over topos]] $\mathbf{H}/X$ is $(p_2 : \Omega_{\mathbf{H}} \times X \to X)$. This [[product]] is preserved by the [[pullback]] by which $f^*$ acts, hence $f^*$ preserves the subobject classifier.
+
+To show that $f^*$ is logical it therefore remains to show that it also preserves [[exponential object]]s.  (...)
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A (necessarily essential and atomic) geometric morphism of the form $(f^* \dashv \prod_f)$ is called the **base change geometric morphism** along $f$.
+
+The [[right adjoint]] $f_* = \prod_f$ is also called the [[dependent product]] relative to $f$.
+
+The [[left adjoint]] $f_! = \sum_f$ is also called the [[dependent sum]] relative to $f$.
+
+In the case $Y = *$ is the  [[terminal object]], the base change geometric morphism is also called an **[[etale geometric morphism]]**. See there for more details
+
+=--
+
 
 ## Applications
 
@@ -109,8 +137,15 @@ Base change geometric morphisms may be interpreted in terms of [[fiber integrati
 
 ## References
 
-* [[Peter Johnstone]],  _[[Elephant]]_ , Example A.4.1.2
+Around Example A.4.1.2 of
 
+* [[Peter Johnstone]],  _[[Sketches of an Elephant]]_ 
+ {#Johnstone}
+
+Around theorem IV.7.2 in 
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+  {#MacLaneMoerdijk}
 
 [[!redirects change of base]]
 
