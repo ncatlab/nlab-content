@@ -581,7 +581,7 @@ For $f : X \to Y$ a morphism in $\mathbf{H}$, we say that
    $$
      i_! X 
       \to 
-     i^! Y \prod_{i_* Y} i_* Y
+     i_! Y \prod_{i_* Y} i_* Y
    $$
 
    is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
