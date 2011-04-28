@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[smooth function]] $f : X \to Y$ between two [[smooth manifold]]s is a **local diffeomorphism** if the following equivalent conditions hold
+
+* $f$ is both a [[submersion]] and an [[immersion]];
+
+* for each point $x \in X$ the [[derivative]] $d f : T_x X \to T_{f(x)} Y$ is an [[isomorphism]] of [[tangent space|tangent]] [[vector space]]s;
+
+* for each point $x \in X$ there exists an [[open subset]] $x \in U \subset X$ such that
+
+  1. the [[image]] $f(U)$ is an [[open subset]] in $Y$;
+
+  1. $f$ restricted to $U$ is a [[diffeomorphism]] onto its image
+
+     $$
+       f|_U : U \stackrel{\simeq}{\to}  f(U)
+     $$
+
+The equivalence of the conditions on [[tangent space]] with the conditions on [[open subset]]s follows by the [[inverse function theorem]].
+
+## Properties
+
+* A local diffeomorphism is a [[local homeomorphism]] and so also an [[open map]].
+
+[[!redirects local diffeomorphisms]]
