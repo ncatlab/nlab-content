@@ -45,11 +45,25 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 * the inclusion of [[Kelley space]]s into [[Top]], where the right adjoint "kelleyfies"
 
+
 ## Related concepts
 
-* [[reflective subcategory]] / [[reflective sub-(∞,1)-category]]
+* [[subcategory]]
 
-* **coreflective subcategory**
+  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], **coreflective subcategory**
+
+  * [[dense sub-site]]
+
+* [[sub-2-category]]
+
+  * [[full sub-2-category]]
+
+  * [[locally full sub-2-category]]
+
+* [[sub-(∞,1)-category]]
+
+  * [[reflective sub-(∞,1)-category]]
+
 
 ## References
 
