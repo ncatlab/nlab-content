@@ -10,15 +10,6 @@
 =--
 =--
 
-* [[principal bundle]] / [[torsor]] / [[associated bundle]]
-
-* **principal 2-bundle** / [[gerbe]] / [[bundle gerbe]]
-
-* [[principal 3-bundle]] / [[bundle 2-gerbe]]
-
-* [[principal ∞-bundle]] / [[associated ∞-bundle]]
-
-***
 
 
 #Contents#
@@ -84,6 +75,18 @@ $$
 where $P_1(X)$ is the [[path groupoid]] of $X$.
 
 Similarly, 2-bundles may be equipped with connections by refining their cocycles $X \to \mathbf{B}H$ to cocycles out of a higher path groupoid. Details on this are at [[schreiber:differential cohomology in an (∞,1)-topos -- survey]]. 
+
+## Related concepts
+
+* [[principal bundle]] / [[torsor]] / [[associated bundle]]
+
+* **principal 2-bundle** / [[gerbe]] / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
+* [[principal ∞-bundle]] / [[associated ∞-bundle]]
+
+
 
 ## References
 
@@ -158,6 +161,9 @@ This is for instance in
 
 Notice that [[torsor]] is just another word for (internal) [[principal bundle]].
 
+An extensive discussion of various models of principal 2-bundles is in
 
+* [[Thomas Nikolaus]], [[Konrad Waldorf]], _Four Equivalent Versions of Non-Abelian Gerbes_ ([arXiv:1103.4815](http://arxiv.org/abs/1103.4815))
+ {#NikolausWaldorf}
 
 [[!redirects principal 2-bundles]]
