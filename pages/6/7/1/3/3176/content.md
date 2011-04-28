@@ -73,6 +73,26 @@ A [[functor]] $F : \mathcal{E} \to \mathcal{F}$ between [[elementary toposes]] i
 
 =--
 
+The notion of logical functors between [[topos]]es is in contrast to [[geometric morphism]]s between toposes: the former preserve the structure of an [[elementary topos]], the latter those of a [[sheaf topos]].
+
+But both can be combined:
+
++-- {: .num_defn #AtomicGeometricMorphism}
+###### Definition
+
+A [[geometric morphism]] whose [[inverse image]] is a logical functor 
+is called an [[atomic geometric morphism]]. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The other case, that the [[direct image]] of a geometric morphism is a logical functor is not of interest. See cor. \ref{LogicalMorphismsAsDirectImages} below.
+
+=--
+
+
 ## Properties
 
 ### General
@@ -138,22 +158,41 @@ Since by definition the direct image of a geometric morphism has a [[left adjoin
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
+But logical inverse images are of interest. Recall from def. \ref{AtomicGeometricMorphism} above that a [[geometric morphism]] with logical inverse image is called an [[atomic geometric morphism]].
 
-* The [[inverse image]] of an [[etale geometric morphism]] is a [[logical morphism]].
++-- {: .num_cor}
+###### Corollary
+
+Every [[atomic geometric morphism]] is an [[essential geometric morphism]].
 
 =--
 
-Generally, a geometric morphism with logical inverse image is called an 
-[[atomic geometric morphism]]. See there for more details.
++-- {: .proof}
+###### Proof
 
+By prop. \ref.{LeftRightAdjoint}.
+
+=--
+
+The following is the main source of examples of atomic geometric morphisms.
+
++-- {: .num_prop}
+###### Proposition
+
+* The [[inverse image]] of any [[base change geometric morphism]], hence in particular of any [[etale geometric morphism]], is a [[logical morphism]].
+
+=--
+
+
++-- {: .num_prop}
+###### Remark
+
+When considering the [[internal logic]] of a given [[topos]] $\mathcal{E}$ relations, [[predicate]]s/[[proposition]]s about [[variable]]s of [[type]] $A \in ob \mathcal{E}$ are [[subobject]]s of $A$. Application of function symbols to such expressions corresponds to pullback along the morphism representing the function symbol. The above says that this is, indeed, a _logical operation_ .
+
+=--
 
 ## Examples
 
-* The [[inverse image]] of any [[base change geometric morphism]] is logical. 
-
-  Generally, [[geometric morphism]] with logical inverse image are called [[atomic geometric morphism]]s.
 
 * The inclusion [[FinSet]] $\hookrightarrow$ [[Set]] is logical.
 
