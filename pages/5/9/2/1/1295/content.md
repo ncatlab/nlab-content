@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
 # Dependent products
 * table of contents
 {: toc}
@@ -52,6 +67,12 @@ This is essentially a [[categorification|categorified]] version of the familiar 
 ## Examples
 
 * the dependent product plays a role in the definition of [[universe in a topos]].
+
+## Related concepts
+
+* [[base change]]
+
+  * [[dependent sum]], **dependent product**
 
 
 [[!redirects dependent product]]
