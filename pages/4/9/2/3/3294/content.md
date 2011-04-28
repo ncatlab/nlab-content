@@ -32,11 +32,26 @@ If $X$ is a [[compact space|compact]] [[smooth manifold]], then the space of [[s
 
 The [[Lebesgue space]] $L^p(\mathbb{R})$ for p &lt; 1 is *not* a Fr&#233;chet space, because it is not locally convex.
 
+## Calculus
+It is possible to generalize some aspects of calculus to Fr&#233;chet spaces, for example the definition of the derivative of a curve is simply the same as in finite dimensions:
+
+
++-- {: .un_defn}
+###### Definition
+For a continuous path in a Fr&#233;chet space $f(t)$ we define
+$$
+f'(t) = lim_{h \to 0} \frac{1}{h} (f(t + h) - f(t))
+$$
+If the limit exists and is continous, we say that $f$ is continuously differentiably or $C^1$.
+=--
 
 ## References
 
 * [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Fr&#233;chet_space)
 
+Calculus on Fr&#233;chet spaces is nicely explained in this paper:
+
+* Richard S. Hamilton: _The Inverse Function Theorem of Nash and Moser_ (Bulletin (New Series) of the American Mathematical Society Volume 7, Number 1, July 1982)
 
 [[!redirects Frechet space]]
 [[!redirects Frechet spaces]]
