@@ -25,17 +25,23 @@ This entry is about &#233;tale morphisms between [[scheme]]s. The word [[etale m
 
 A [[morphism]] of [[schemes]] is an **&#233;tale morphism** if the following equivalent conditions hold
 
-* it is
+1. it is
 
-  * a [[smooth morphism of schemes|smooth morphism]] 
+   1. [[smooth morphism of schemes|smooth]] 
 
-  * and it is of [[relative dimension]] $0$. 
+   1 of [[relative dimension]] $0$. 
 
 1. it is 
 
-   * [[flat morphism|flat]] 
+   1. [[flat morphism|flat]] 
 
-   * and [[unramified]].  
+   1. [[unramified]];
+
+1. it is
+
+   1. [[formally étale morphism|formally étale]];
+
+   1. [[locally of finite presentation]]
 
 =---
 
