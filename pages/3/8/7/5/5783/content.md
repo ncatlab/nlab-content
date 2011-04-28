@@ -232,4 +232,7 @@ The site of formal duals not just to [[Grassmann algebra]]s but to all super-[[i
 
 [[!redirects super ∞-groupoid]]
 
+[[!redirects super infinity-groupoids]]
+[[!redirects super ∞-groupoids]]
+
 [[!redirects Super∞Grpd]]
