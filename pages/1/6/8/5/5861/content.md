@@ -586,9 +586,22 @@ For $f : X \to Y$ a morphism in $\mathbf{H}$, we say that
 
    is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
-1. $f$ is a **[[formally étale morphism]]** if this morphism is an [[equivalence in an (∞,1)-category|equivalence]];
-
 1. $f$ is a **[[formally unramified morphism]]** if this is a [[(-1)-truncated]] morphism. More generally,  $f$ is an _order-$k$ formally unramified morphisms_ for $(-2) \leq k \leq \infty$ if this is a [[k-truncated]] morphism.
+
+1. $f$ is a **[[formally étale morphism]]** if this morphism is an [[equivalence in an (∞,1)-category|equivalence]], hence if
+
+   $$
+     \array{
+        i_! X &\stackrel{i_! f}{\to}& i_! Y
+        \\
+        \downarrow && \downarrow
+        \\
+        i_* X &\stackrel{i_* f}{\to}& i_* Y
+     }
+   $$
+
+   is an [[(∞,1)-pullback]] square.
+
 
 =--
 
