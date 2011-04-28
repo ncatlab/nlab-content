@@ -18,6 +18,9 @@ If we regard sets as [[discrete categories]], then a **function** is a [[functor
 
 \[ x = y \Rightarrow f(x) = f(y) .\]
 
+## For classes
+
+See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow.net/questions/63265/what-are-maps-between-proper-classes)
 
 [[!redirects function]]
 [[!redirects functions]]
