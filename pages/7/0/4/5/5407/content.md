@@ -6,7 +6,7 @@
 
 ## Idea
 
-A _locally ringed topos_ is a [[locally algebra-ed topos]] for the [[theory of local ring]]s.
+A _locally ringed topos_ is a [[locally algebra-ed topos]] for the [[theory of local rings]].
 
 ## Definition
 
@@ -61,6 +61,11 @@ This is for instance in ([Johnstone]{#Johnstone}) and in ([Lurie, remark 2.5.11]
 * [[locally algebra-ed (∞,1)-topos]]
 
 ## References
+
+Section VIII.6 of 
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ {#MacLaneMoerdijk}
 
 Section abc of
 
