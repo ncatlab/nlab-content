@@ -14,7 +14,6 @@
 =--
 
 # Replete subcategories
-
 * table of contents
 {: toc}
 
@@ -69,7 +68,7 @@ Do we want this parametrised [[equivalence]]?  I see that isomorphism is $0$-equ
 
 [[Mike Shulman|Mike]]: Definitely, unqualified "equivalent" in an $n$-category should mean $(n-1)$-equivalent, or equivalently (if you like your $n$-categories to be secretly $\infty$-categories) it should mean $\infty$-equivalent.  I think that is by far the most common usage, so it won't have to change.  However, there are occasionally reasons to speak about stronger sorts of equivalence; for instance in a strict 2-category it is occasionally important to distinguish between isomorphism and equivalence.  People do also talk about "biequivalence" for bicategories and "2-equivalence" for 2-categories.  I would venture that $k$-equivalence in an $n$-category for $k\lt n-1$ is not likely to be useful unless your $n$-category is some sort of semistrict, but in that case it might occasionally turn out to be helpful.
 
-[[Zoran Škoda]]: The $0$-cells in $n$-category are by default $(n-1)$-equivalent (what is of course maximal weakness and equals infty-equivalent), while it is possible that they are equivalent in more strict sense, for example isomorphic (there is a strictly invertible 1-arrow in between); for higher cells equivalence is the same as equivalence in lower dimension category which is its hom, thuis the number is not $(n-1)$ by default for k cells k bigger than 0; of course you are right that all these maximal equivalences are in the same time equivalences in higher sense because there is no difference since higher dimensional cells do not exist different than identities. But regarding that sometimes stricter versions are needed, not  only maximal the terminology can be kept precise. 
+[[Zoran ?koda]]: The $0$-cells in $n$-category are by default $(n-1)$-equivalent (what is of course maximal weakness and equals infty-equivalent), while it is possible that they are equivalent in more strict sense, for example isomorphic (there is a strictly invertible 1-arrow in between); for higher cells equivalence is the same as equivalence in lower dimension category which is its hom, thuis the number is not $(n-1)$ by default for k cells k bigger than 0; of course you are right that all these maximal equivalences are in the same time equivalences in higher sense because there is no difference since higher dimensional cells do not exist different than identities. But regarding that sometimes stricter versions are needed, not  only maximal the terminology can be kept precise. 
 For example in Cat one can consider both isomorphic and
 equivalent categories and these are two different notions;
 and of course equal categories as the strictest possible notion of (-1)-equivalence. I do not recall if I first read this in print from Leinster's book, but before that Igor explained me those after his readings of Australian school works. 
@@ -78,6 +77,25 @@ _Toby_:  Not every concept of $n$-category even has a concept of equivalence of 
 
 Zoran, you might also want to address these issues at [[equivalence]].
 =--
+
+## Related concepts
+
+* [[subcategory]]
+
+  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], **replete subcategory**, [[reflective subcategory]], [[coreflective subcategory]]
+
+  * [[dense sub-site]]
+
+* [[sub-2-category]]
+
+  * [[full sub-2-category]]
+
+  * [[locally full sub-2-category]]
+
+* [[sub-(∞,1)-category]]
+
+  * [[reflective sub-(∞,1)-category]]
+
 
 
 [[!redirects replete subcategory]]
