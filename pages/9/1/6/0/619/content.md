@@ -1,5 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -148,6 +160,25 @@ This can always be made to work by brute force, but sometimes there is something
 ## A terminological remark
 
 A few sources (such as [[Categories Work]]) do not require a reflective subcategory to be full.  However, in light of the fact that non-full subcategories are not [[evil|invariant under equivalence]], consideration of non-full reflective subcategories seems of limited usefulness.  The general consensus among category theorists nowadays seems to be that "reflective subcategory" implies fullness.
+
+## Related concepts
+
+* [[subcategory]]
+
+  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], **reflective subcategory**, [[coreflective subcategory]]
+
+  * [[dense sub-site]]
+
+* [[sub-2-category]]
+
+  * [[full sub-2-category]]
+
+  * [[locally full sub-2-category]]
+
+* [[sub-(∞,1)-category]]
+
+  * [[reflective sub-(∞,1)-category]]
+
 
 
 ## References
