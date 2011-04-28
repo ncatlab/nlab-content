@@ -29,7 +29,7 @@ Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](
 
 * _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
 
-  on (implicitly) [[cohesive topos]]es;
+  (on -- implicitly -- [[cohesive topos]]es);
 
 * _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York (1992)
 
