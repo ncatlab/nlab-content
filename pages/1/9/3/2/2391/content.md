@@ -400,7 +400,7 @@ Let $k$ be a [[field]] and $A := CAlg_k$ be the category of commutative [[associ
 Let $\bar A \subset A^I$ be the [[full subcategory]] of the [[codomain fibration]] Q-category from prop. \ref{DomainAndCodomainFibration} on those morphisms of commutative algebras which are [[epimorphism]]s and whose [[kernel]] is nilpotent. Then
 
 $$
-  CAlg_k^{inf} : \bar A \stackrel{\overset{\epsilon}{\leftarrow}}{\underset{dom}{\to}} A
+  CAlg_k^{inf} = (\epsilon \dashv dom) : \bar A \stackrel{\overset{\epsilon}{\leftarrow}}{\underset{dom}{\to}} A
 $$
 
 is a Q-category.
@@ -409,9 +409,52 @@ The analogous statement is true with $A = Alg_k$ the category of all [[associati
 
 =--
 
-This appears as [Kontsevich-Rosenberg, 2.6](#KontsevichRosenbergSpaces).
+This appears as ([Kontsevich-Rosenberg, 2.6](#KontsevichRosenbergSpaces)).
 
++-- {: .num_remark #DiscussionOfTheInfinitesimalThickeningFormalization}
+###### Remark
 
+Here we think of an algebra epimorphism $\phi : \mathbf{B} \to B$ with nilpotent kernel as the infinitesimal thickening of $Spec B$ by $Spec ker \phi$ to $Spec \mathbf{B}$.
+
+The functor $\epsilon$ builds the trivial (empty) infinitesimal thickenings
+
+$$
+  \epsilon B : B \stackrel{id_B}{\to} B
+  \,.
+$$
+
+The functor $dom$ remembers the _thickened_ algebra
+
+$$
+  dom (\mathbf{B} \to B) = \mathbf{B}
+  \,.
+$$
+
+But notice that we also have the codomain-functor, which is the functor that forgets the thickening
+
+$$
+  cod (\mathbf{B} \to B) = B
+$$
+
+and that the [[adjoint pair]] $(\epsilon \dashv dom)$ does extend to an [[adjoint triple]]
+
+$$
+  CAlg_k^{inf} : \bar A \stackrel{\overset{cod}{\to}}{\stackrel{\overset{\epsilon}{\leftarrow}}{\underset{dom}{\to}}} A
+  \,.
+$$
+
+In the discussion at <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">Infinitesimal cohesion</a> it is the pair $(cod \dashv \epsilon)$ that appears in the axiomatization, or rather its version on the opposite categories
+
+$$
+  (\epsilon^{op} \dashv cod^{op}) : \bar A^{op} \stackrel{\overset{\epsilon^{op}}{\leftarrow}}{\underset{cod^{op}}{\to}} A^{op}
+  \,,
+$$
+
+not the other adjoint pair $(\epsilon \dashv dom)$ used here.
+
+This is the reason for the shift in adjoint triples that is mentioned in <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos+--+infinitesimal+cohesion#RelationToRK">this remark</a> over at _[[cohesive (infinity,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]]_ .
+
+=--
 
 ## $\mathbb{A}$-Sheaves
   {#ASheaves}
