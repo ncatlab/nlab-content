@@ -255,6 +255,7 @@ Examples of [[∞-cohesive site]]s are
 
 =--
 
+From this one obtains the following list of examples of cohesive $(\infty,1)$-toposes.
 
 ### Discrete $\infty$-groupoids
 
