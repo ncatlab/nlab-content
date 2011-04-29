@@ -189,7 +189,7 @@ Assume in the context of prop. \ref{PresheafQCategories} that
 
 * $C$ has all small [[limit]]s and [[colimit]]s (for instance $C$ = [[Set]]).
 
-Then there is a quadruple of [[adjoint functor]]s
+Then there is an [[adjoint quadruple]]
 
 $$
   (u_! \dashv u^* \dashv u_* \dashv u^!) : 
