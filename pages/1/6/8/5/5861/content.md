@@ -619,6 +619,125 @@ Only for [[0-truncated]] $X$ does formal smoothness together with formal unramif
 
 =--
 
++-- {: .num_prop #PropertiesOfFormallyEtaleMorphisms}
+###### Proposition
+
+The collection of [[formally étale morphism]]s in $\mathbf{H}$, def. \ref{FormalRelativeSmoothnessByCanonicalMorphism}, is closed under the following operations.
+
+1. The composite of two formally &#233;tale morphisms is itself formally &#233;tale.
+
+1. If
+
+   $$
+     \array{
+       && Y
+       \\
+       & {}^{\mathllap{f}}\nearrow &\swArrow_{\simeq}& \searrow^{\mathrlap{g}}
+       \\
+       X &&\stackrel{h}{\to}&& Z
+     }
+   $$
+
+   is a [[diagram]] such that $g$ and $h$ are formally &#233;tale, then also $f$ is formally &#233;tale.
+
+1. Any [[retract]] of a formally &#233;tale morphisms is itself formally &#233;tale.
+
+1. The [[(∞,1)-pullback]] of a formally &#233;tale morphisms is formally &#233;tale if the pullback is preserved by $i_!$.
+
+=--
+
+The statements about closure under composition and pullback appears as([KontsevichRosenberg, prop. 5.4, prop. 5.6](#KontsevichRosenbergSpaces)). Notice that the extra assumption that $i_!$ preserves the pullback is implicit in their setup, by remark \ref{RelationToRK}.
+
++-- {: .proof}
+###### Proof
+
+The first two statements follow by the [[pasting law]] for [[(∞,1)-pullback]]s: let $f : X \to Y$ and $g : Y \to Z$ be two 
+morphisms and consider the [[pasting diagram]] 
+
+$$
+  \array{
+    i_! X &\stackrel{i_! f }{\to}& i_! Y &\stackrel{i_! g}{\to}&  Z
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    i_* X &\stackrel{i_* f }{\to}& i_* Y &\stackrel{i_* g}{\to}& I_* Z    
+  }
+  \,.
+$$
+
+If $f$ and $g$ are formally &#233;tale then both small squares are pullback squares. Then the pasting law says that so is the outer rectandle and hence $g \circ f$ is formally &#233;tale. Similaryl, of $g$ and $g \circ f$ are formally &#233;tale then the right square and the total reactangle are pullbacks, so the pasting law says that also the left square is a pullback and so also $f$ is formally &#233;tale.
+
+For the third claim notice that if a square diagram is the retract of another square diagram and the latter is a pullback, then also the former is. This is directly seen in ordinary [[category theory]] and follows from this for pullbacks in [[locally presentable (∞,1)-categories]] by using any presentation by a [[combinatorial simplicial model category]] and presenting the coresponding [[homotopy pullback]] by an ordinary pullback of fibrant [[resolution]]s of pullback diagrams.
+
+For the last claim, consider an [[(∞,1)-pullback]] diagram
+
+$$
+  \array{
+    A \times_Y X &\to& X
+    \\
+    {}^{\mathllap{p}}\downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    A &\to& Y
+  }
+$$
+
+where $f$ is formally &#233;tale.
+
+Applying the [[natural transformation]] $\phi : i_! \to i_*$ to this yields a square of squares. Two sides of this are the [[pasting]] composite
+
+
+$$
+  \array{
+    i_! A \times_Y X &\to& i_! X &\stackrel{\phi_X}{\to}&  i_* X
+    \\
+    \downarrow^{\mathrlap{i_! p}} && \downarrow^{\mathrlap{i_! f}} 
+                        && \downarrow^{\mathrlap{i_* f}}
+    \\
+    i_! A &\to& i_! Y &\stackrel{\phi_Y}{\to}& i_* Y
+  }
+$$
+
+and the other two sides are the pasting composite
+
+$$
+  \array{
+     i_! A \times_Y X &\stackrel{\phi_{A \times_Y X}}{\to}& i_* A \times_Y A
+     &\stackrel{}{\to}& i_* X
+     \\
+     \downarrow^{\mathrlap{i_! p}} && \downarrow^{\mathrlap{i_! p}} && \downarrow^{\mathrlap{i_* f}}
+     \\
+     i_! A &\stackrel{\phi_A}{\to}& i_* A &\to& i_* Y
+  }
+  \,.
+$$
+
+Counting left to right and top to bottom, we have that
+
+* the first square is a pullback by assumption that $i_!$ preserves the given pullback;
+
+* the second square is a pullback, since $f$ is formally &#233;tale.
+
+* the total top rectangle is therefore a pullback, by the [[pasting law]];
+
+* the fourth square is a pullback since $i_*$ is [[right adjoint]] and so also preserves pullbacks;
+
+* also the total bottom rectangle is a pullback, since it is equal to the top  total rectangle;
+
+* therefore finally the third square is a pullback, by the other clause of the [[pasting law]]. Hence  $p$ is formally &#233;tale.
+
+=--
+
++-- {: .num_remark #AsOpenMaps}
+###### Remark
+
+The properties listed in prop. \ref{PropertiesOfFormallyEtaleMorphisms} correspond to the axioms on the _[[open map]]s_ ("admissible maps") in a [[geometry (for structured (∞,1)-toposes)]]  ([Lurie, def. 1.2.1](#LurieStSp)). This means that a notion of formally &#233;tale morphisms induces a notion of [[locally algebra-ed topos|locally algebra-ed (∞,1)toposes]]/[[structured (∞,1)-topos]]es in a cohesive context. This is discuss in 
+
+* [[cohesive (∞,1)-topos -- structure ∞-sheaves]].
+
+=--
+
+In order to interpret the notion of formal smoothness, we turn now to the discussion of infinitesimal reduction.
+
 +-- {: .num_prop #RedIsIdempotent}
 ###### Proposition
 
