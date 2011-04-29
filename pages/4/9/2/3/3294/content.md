@@ -32,6 +32,13 @@ If $X$ is a [[compact space|compact]] [[smooth manifold]], then the space of [[s
 
 The [[Lebesgue space]] $L^p(\mathbb{R})$ for p &lt; 1 is *not* a Fr&#233;chet space, because it is not locally convex.
 
+## Properties
+Fr&#233;chet spaces are [[barrelled]] and [[bornological]]. 
+
+The dual of a Fr&#233;chet space $F$ is a Fr&#233;chet space iff $F$ is a [[Banach space]].
+
+Reference: This follows from the statement $29.1 (7) in Gottfried K&#246;the: _Topological Vector Spaces I_, which is: The strong dual of a locally convex metrizable TVS $F$ is metrizable iff $F$ is normable.
+
 ## Calculus
 It is possible to generalize some aspects of calculus to Fr&#233;chet spaces, for example the definition of the derivative of a curve is simply the same as in finite dimensions:
 
