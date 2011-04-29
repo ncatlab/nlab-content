@@ -35,6 +35,21 @@ The equivalence of the conditions on [[tangent space]] with the conditions on [[
 
 ## Properties
 
+### General
+
 * A local diffeomorphism is a [[local homeomorphism]] and so also an [[open map]].
+
+### Abstract characterization
+
+The [[category]] [[SmoothMfd]] of [[smooth manifold]]s may naturally be thought of as sitting inside the more general context of the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s. This is canonically equipped with a notion of [[cohesive (∞,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]] exhibited by its inclusion into [[SynthDiff∞Grpd]]. This implies that there is an intrinsic notion of [[formally étale morphism]]s of smooth $\infty$-groupoids in general and of smooth manifolds in particular
+
++-- {: .num_prop}
+###### Proposition
+
+A [[smooth function]] is a [[formally étale morphism]] in this sense precisely if it is a local diffeomorphism.
+
+=--
+
+See <a href="http://nlab.mathforge.org/nlab/show/synthetic+differential+infinity-groupoid#StructureSheaves">this section</a> for more details.
 
 [[!redirects local diffeomorphisms]]
