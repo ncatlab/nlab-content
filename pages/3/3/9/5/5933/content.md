@@ -57,6 +57,8 @@ He calls the subtopos given by the image of $\mathrm{coDisc} : \mathcal{S} \to \
 
 whereas any old [[(∞,1)-topos]] is a collection of _[[space]]s_ , a [[cohesive (∞,1)-topos]] comes with the extra adjoint $\Pi$ which, as mentioned above, has the interpretation of sending any space to its [[fundamental ∞-groupoid]]. Therefore there is an intrinsic notion of _geometric paths_ in any cohesive $\infty$-topos. This allows notably to define [[parallel transport]] along paths and [[higher parallel transport]] along higher [[dimension]]al paths, hence a kind of _dynamics_ . In fact there is [[differential cohomology]] in every cohesive $(\infty,1)$-topos. 
 
+Now, in a [[discrete space|discrete object]] there are no non-trivial paths (formally because   by the fact that $Disc$  is [[full and faithful functor|full and faithful]] and [[left adjoint]] to $\Pi$ we haver $\Pi Disc \simeq Id$), so there is "no dynamics" in a discrete object hence "no becoming", if one wishes. Conversely in a [[codiscrete space|codiscrete object]] every sequence of points whatsoever counts as a path, hence the distinction between the space and its "dynamics" disappears and so we have "pure becoming", if one wishes.
+
 Notice next that every [[adjoint triple]] induces an [[adjoint functor|adjoint pair]] of [[monad]]s. In the present situation we get
 
 $$
