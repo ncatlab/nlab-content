@@ -35,17 +35,23 @@ $$
   \mathbf{H}_{th}   
 $$
 
-be a triple of [[adjoint functor]]s with $u^*$ a [[full and faithful functor]] that preserves the [[terminal object]]. 
+be an [[adjoint triple]] of [[functor]] with $u^*$ a [[full and faithful functor]] that preserves the [[terminal object]]. 
 
 We may think of this as exhibiting <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">infinitesimal cohesion</a> (see there for details, but notice that in the notation used there we have $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$). 
 
 We think of the objects of $\mathbf{H}$ as [[cohesive topos|cohesive space]]s and of the objects of $\mathbf{H}_{th}$ as such cohesive spaces possibly equipped with [[infinitesimal object|infinitesimal extension]]. 
 
-As a class of examples that is useful to keep in mind consider a [[Q-category]] $(cod \dashv \epsilon \dashv dom) : \bar A \to A$  of <a href="http://nlab.mathforge.org/nlab/show/Q-category#InfinitesimalThickening">infinitesimal thickening of rings</a> and let
+As a class of examples that is useful to keep in mind consider a [[Q-category]] 
+
+$$
+  (cod \dashv \epsilon \dashv dom) : \bar A \to A
+$$  
+
+of <a href="http://nlab.mathforge.org/nlab/show/Q-category#InfinitesimalThickening">infinitesimal thickening of rings</a> and let
 
 $$
   ((u^* \dashv u_* \dashv u^!) : \mathbf{H}_{th} \to \mathbf{H}) := 
-  ([dom,Set] \dashv [\epsilon, Set] \dashv [codom,Set] : [\bar A, Set] \to [A,Set])
+  ([dom,Set] \dashv [\epsilon, Set] \dashv [cod,Set] : [\bar A, Set] \to [A,Set])
 $$ 
 
 be the corresponding <a href="http://nlab.mathforge.org/nlab/show/Q-category#PresheafQCategory">Q-category of copresheaves</a>.
@@ -231,7 +237,7 @@ $$
   \array{
     u^* A \times_Y X &\to& u^* X &\stackrel{\phi_X}{\to}&  u^! X
     \\
-    \downarrow && \downarrow && \downarrow
+    \downarrow && \downarrow^{\mathrlap{u^* f}} && \downarrow^{\mathrlap{u^! f}}
     \\
     u^* A &\to& u^* Y &\stackrel{\phi_X}{\to}& u^! Y
   }
@@ -244,7 +250,7 @@ $$
      u^* A \times_Y X &\stackrel{\phi_{A \times_Y X}}{\to}& u^! A \times_Y A
      &\stackrel{}{\to}& u^! X
      \\
-     \downarrow && \downarrow && \downarrow
+     \downarrow^{} && \downarrow && \downarrow^{\mathrlap{u^* f}}
      \\
      u^* A &\stackrel{\phi_A}{\to}& u^! A &\to& u^! Y
   }
