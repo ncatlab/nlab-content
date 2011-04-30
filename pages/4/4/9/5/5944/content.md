@@ -1,5 +1,10 @@
-Let $f : X \to Y$ be a morphism of [[scheme]]s. Let $\Delta : X \to X \times_Y X$ be the diagonal map. We say that $f$ is __quasi-separated__ if $\Delta(X)$ is [[quasicompact scheme]].
+Let $f : X \to Y$ be a morphism of [[scheme]]s. Let $\Delta_f: X \to X \times_Y X$ be the diagonal map. We say that $f$ is __quasi-separated__ if $\Delta_f$ is a [[quasicompact morphism]]. Every separated morphism is quasi-separated; every monomorphism of schemes is separated hence also quasi-separated. 
+
+A scheme is quasi-separated if it is quasi-separated over $Spec\, \mathbb{Z}$. 
 
 * MathOverflow [why-does-finitely-presented-imply-quasi-separated](http://mathoverflow.net/questions/36737/why-does-finitely-presented-imply-quasi-separated)
+* [[Daniel Murfet]], _Concentrated schemes_, [pdf](http://therisingsea.org/notes/ConcentratedSchemes.pdf), an expositional digest from EGA
 
 [[!redirects quasiseparated morphism]]
+[[!redirects quasiseparated scheme]]
+[[!redirects quasi-separated schemes]]
