@@ -194,6 +194,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Nuit Blanche](http://nuit-blanche.blogspot.com) (data/imager/sensory compression, pattern recognition, networking, internet, AI/machine learning, neuroscience)
 
+* [QED Insight](http://qedinsight.wordpress.com) (by Santo D'Agostino; mathematics, physics, education, pitched mainly to high school and undergraduate university students and teachers, with some material for lay people as well) 
+
 * [qrazydragon](http://qrazydraqon.livejournal.com) (math, books, internet, in Russian)
 
 * [Reasonable Deviations](http://stochastix.wordpress.com) (control and dynamical systems, game theory, information, optimization, statistical mechanics, chemical kinetics, technology, puzzles)
