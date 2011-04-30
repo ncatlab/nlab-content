@@ -4,7 +4,7 @@ We say that scheme $X$ is __separated__ if the canonical map $X \to \operatornam
 
 Separated schemes are analogous to [[Hausdorff space|Hausdorff topological spaces]] (which are also sometimes called 'separated').  The characterisation in terms of the diagonal map is precisely the same as that used for Hausdorff [[locales]].
 
-There is a valuative criterion of separatedness. See Hartshorne or EGA for more details.
+There is a [[valuative criterion of separatedness]]. See Hartshorne or EGA II for more details.
 
 
 [[!redirects separated morphism]]
