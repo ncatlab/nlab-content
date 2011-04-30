@@ -1,0 +1,13 @@
+Given a functor $F: C\to D$ we say that $F$ __admits a proadjoint__ if the canonical extension $pro(F): pro(C)\to pro(D)$ of $F$ to the categories of [[pro-object]]s
+has a left adjoint $G$. In other words, there is a functor $G: pro(D)\to pro(C)$ and a bijection
+
+$$
+pro(C)(GY',X) \cong pro(D)(Y',y(F)X)
+$$
+
+natural in $X$ and $Y'$, where $y:C\hookrightarrow pro(C)$ is the Yoneda embedding into the category of proobjects $pro(C)\subset Set^{C^{op}}$. Equivalently, for every [[prorepresentable functor]] $X:C'^{op}\to Set$, the functor $X\mapsto X\circ F$ is also prorepresentable.
+
+* [[J.-M. Cordier]], [[T. Porter]], _Shape theory_, sec. 2.3
+
+[[!redirects proadjonts]]
+
