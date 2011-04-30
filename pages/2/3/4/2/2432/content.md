@@ -12,11 +12,13 @@
 #Contents#
 * table of contents
 {:toc}
-## Between topolgical spaces
+## Between topological spaces
 
 While every [[continuous map]] sends compact sets to compact sets, it is not true in general that the preimage of a compact set along a continuous map is compact.
 
 A [[continuous function]] $f : X \to Y$ between [[topological space]]s is **proper** if the [[inverse image]] of any [[compact space|compact]] subset is itself compact.
+
+A notion of proper homotopy between proper maps leads to [[proper homotopy theory]].
 
 Similarly, one can consider the conditions on morphisms in other geometric situations, like [[algebraic geometry]], and properness often either reflects or implies good behaviour with respect to the compact objects (cf. also proper push-forward). 
 
