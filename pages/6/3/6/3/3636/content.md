@@ -55,7 +55,7 @@ $$e(X) \cong 2^{\aleph_0}.$$
 $e(X) \cong \pi_0(\partial M)$.
 
 ###Proper maps###
-The assignment sending $X$ to $E(X)$ cannot be functorial on the category of spaces and _continuous_ maps, since the contracting map $\mathbb{R}\to \{0\}$ is continuous, $e(\mathbb{R})$ is $\{-\infty, \infty\}$, whilst $e(\{0\})$ is empty since $\{0\}$ is compact.
+The assignment sending $X$ to $e(X)$ cannot be functorial on the category of spaces and _continuous_ maps, since the contracting map $\mathbb{R}\to \{0\}$ is continuous, $e(\mathbb{R})$ is $\{-\infty, \infty\}$, whilst $e(\{0\})$ is empty since $\{0\}$ is compact.
 The problem is that continuity is really about inverse images (inverse image of open is open), but the inverse image mapping does not preserve compactness  (as in the example!).
 +--{: .un_defn}
 ######Definition (recall)######
