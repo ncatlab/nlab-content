@@ -9,7 +9,7 @@
 =--
 =--
 
-Adjoint triple is involving 3 functors. Please do not mix with the notion of [[adjoint monad]]s, which were sometimes called adjoint triples.
+> This entry is about the notion of _adjoint triple_ involving 3 functors. Please do not mix with the notion of [[adjoint monad]]s, which were also sometimes called adjoint triples, with "triple" then being a synonym for monad..
 
 #Contents#
 * table of contents
@@ -56,9 +56,18 @@ $$
   (G F \dashv G H) : C \to C
 $$ 
 
-consisting of a [[monad]] $G F$ [[left adjoint]] to the [[comonad]] $G H$ on $C$. 
+consisting of a [[monad]] $G F$ [[left adjoint]] to the [[comonad]] $G H$ on $C$;
+
+as well as an adjoint pair
+
+$$
+   ( F G \dashv H G ) : D \to D
+   \,.
+$$
 
 =--
+
+See [[adjoint monad]] for more.
 
 In general there is a duality (an anti[[equivalence of categories]]) between the category of monads having right adjoint and comonads having left adjoints.  Note also that the [[algebra over a monad|algebras]] for a left-adjoint monad can be identified with the coalgebras for its right adjoint comonad.
 
