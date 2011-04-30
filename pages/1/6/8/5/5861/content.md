@@ -624,6 +624,8 @@ Only for [[0-truncated]] $X$ does formal smoothness together with formal unramif
 
 The collection of [[formally étale morphism]]s in $\mathbf{H}$, def. \ref{FormalRelativeSmoothnessByCanonicalMorphism}, is closed under the following operations.
 
+1. Every [[equivalence in an (∞,1)-category|equivalence]] is formally &#233;tale.
+
 1. The composite of two formally &#233;tale morphisms is itself formally &#233;tale.
 
 1. If
@@ -651,7 +653,9 @@ The statements about closure under composition and pullback appears as([Kontsevi
 +-- {: .proof}
 ###### Proof
 
-The first two statements follow by the [[pasting law]] for [[(∞,1)-pullback]]s: let $f : X \to Y$ and $g : Y \to Z$ be two 
+The first statement follows since $\infty$-pullbacks are well defined up to quivalence.
+
+The second two statements follow by the [[pasting law]] for [[(∞,1)-pullback]]s: let $f : X \to Y$ and $g : Y \to Z$ be two 
 morphisms and consider the [[pasting diagram]] 
 
 $$
@@ -660,14 +664,14 @@ $$
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    i_* X &\stackrel{i_* f }{\to}& i_* Y &\stackrel{i_* g}{\to}& I_* Z    
+    i_* X &\stackrel{i_* f }{\to}& i_* Y &\stackrel{i_* g}{\to}& i_* Z    
   }
   \,.
 $$
 
-If $f$ and $g$ are formally &#233;tale then both small squares are pullback squares. Then the pasting law says that so is the outer rectandle and hence $g \circ f$ is formally &#233;tale. Similaryl, of $g$ and $g \circ f$ are formally &#233;tale then the right square and the total reactangle are pullbacks, so the pasting law says that also the left square is a pullback and so also $f$ is formally &#233;tale.
+If $f$ and $g$ are formally &#233;tale then both small squares are pullback squares. Then the pasting law says that so is the outer rectangle and hence $g \circ f$ is formally &#233;tale. Similarly, if $g$ and $g \circ f$ are formally &#233;tale then the right square and the total reactangle are pullbacks, so the pasting law says that also the left square is a pullback and so also $f$ is formally &#233;tale.
 
-For the third claim notice that if a square diagram is the retract of another square diagram and the latter is a pullback, then also the former is. This is directly seen in ordinary [[category theory]] and follows from this for pullbacks in [[locally presentable (∞,1)-categories]] by using any presentation by a [[combinatorial simplicial model category]] and presenting the coresponding [[homotopy pullback]] by an ordinary pullback of fibrant [[resolution]]s of pullback diagrams.
+For the fourth claim notice that if a square diagram is the retract of another square diagram and the latter is a pullback, then also the former is. This is directly seen in ordinary [[category theory]] and follows from this for pullbacks in [[locally presentable (∞,1)-categories]] by using any presentation by a [[combinatorial simplicial model category]] and presenting the coresponding [[homotopy pullback]] by an ordinary pullback of fibrant [[resolution]]s of pullback diagrams.
 
 For the last claim, consider an [[(∞,1)-pullback]] diagram
 
@@ -704,7 +708,7 @@ $$
      i_! A \times_Y X &\stackrel{\phi_{A \times_Y X}}{\to}& i_* A \times_Y A
      &\stackrel{}{\to}& i_* X
      \\
-     \downarrow^{\mathrlap{i_! p}} && \downarrow^{\mathrlap{i_! p}} && \downarrow^{\mathrlap{i_* f}}
+     \downarrow^{\mathrlap{i_! p}} && \downarrow^{\mathrlap{i_* p}} && \downarrow^{\mathrlap{i_* f}}
      \\
      i_! A &\stackrel{\phi_A}{\to}& i_* A &\to& i_* Y
   }
