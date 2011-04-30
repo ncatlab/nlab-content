@@ -57,10 +57,12 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 * S. Rempel, B-W. Schulze, _Index theory of elliptic boundary problems_, Akademie--Verlag, Berlin, 1982.
 
-* Lars H&#246;rmander, _The analysis of linear partial differential operators. III. Pseudo-differential operators_, 1994, reprinted 2007. 
+* [[Lars Hörmander]], _The analysis of linear partial differential operators. III. Pseudo-differential operators_, 1994, reprinted 2007. 
 
 * Pietro Aiena, _Fredholm and local spectral theory, with applications to multipliers_, [book page](http://www.springer.com/mathematics/analysis/book/978-1-4020-1830-5)
 
 * Otgonbayar Uuye, _A simple proof of the Fredholm Alternative_, [arxiv/1011.2933](http://arxiv.org/abs/1011.2933)
+
+* [[Alexander Grothendieck]], _La th&#233;orie de Fredholm_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __84__ (1956), p. 319-384, [numdam](http://www.numdam.org/item?id=BSMF_1956__84__319_0) 
 
 [[!redirects Fredholm complex]]
