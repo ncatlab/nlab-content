@@ -24,14 +24,14 @@ A _concrete category_ is a [[category]] that looks like a category of "[[set]]s 
 A __concrete category__ is a category $C$
 
 * equipped with a [[faithful functor]]
+  
+  $$
+    U : C \to Set
+  $$
 
-$$
-  U : C \to Set
-$$
+  to the category [[Set]];
 
-to the category [[Set]];
-
-* such that $U$ is [[representable functor|representable]], $U \simeq C(c_0,-)$
+* such that $U$ is [[representable functor|representable]] by some object $c_0 \in C$, in that $U \simeq C(c_0,-)$
 
 The object $c_0$ is called a [[generator]] of the category.
 
