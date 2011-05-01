@@ -1,4 +1,10 @@
-The following constructions are due Baues and Wirsching.
+##A bit of history
+
+In his monograph on (co-)extensions of monoids, Leech introduced a construction that had also been used for other purposes by MacLane.  A short time later Charles Wells distributed a preprint which made the short trip from monoids to small categories with a fixed set of objects.  This introduced the constructions below but then the subject lay fallow until work by [[Baues]] and Wirshing introduced what is now usually called [[Baues-Wirsching cohomology]].
+  
+##Factorisation category
+
+The following constructions were used by Baues and Wirsching and we will more or less adapt their terminology and notation.
 
 Given a small category $I$, one defines a __category of factorizations__ $FI$ as follows. The objects of $FI$ are the morphisms of $I$. A morphism from $x:i\to j$ to $y : k\to l$ is a commutative square of the form (note the direction of arrows!)
 $$\array{
@@ -9,7 +15,13 @@ j &\stackrel{u}\longrightarrow & l
 In other words, it is a pair $(u,v)$ which factorizes $y = u\circ x \circ v$. The composition is defined in the obvious way: $(u',v')\circ (u,v) := (u'\circ u, v\circ v')$. For a morphism $f$ in $I$, one usually denotes $D(f)$ by $D_f$ and uses the abbreviation $D_i = D_{id_i}$ for every object $i$ in $I$. Other conventions include
 $u_* = D(u,Id) : D_x\to D_{ux}$ and $v^* = D(Id, v) : D_x\to D_{xv}$. 
 
+##Natural System
+
+
+
 A __natural system__ on $I$ is a functor $D : FI\to Ab$.
+
+The evident notion of a non-Abelian natural system does not behave that well. A lax version (introduced by Wells) handles that case.
 
 Simple examples of natural systems are provided from the consideration of the sequence of functors
 
@@ -27,10 +39,19 @@ $$
 
 where the product is over all $i_n\stackrel{x_n}\longrightarrow \ldots \stackrel{x_1}\longrightarrow i_0$.
 
-* H.-J. Baues, _Algebraic homotopy_, Cambridge Studies in Adv, Math. __15__, Camb, Univ. Press 1989.
 
-* H.-J. Baues, G. Wirsching, _Cohomology of small categories_, J. Pure Appl. Alg. __38__ (1985), 187-211.
+##References 
+
+(A more extensive list may be found at the entry on [[Baues-Wirsching cohomology]].)
+  
+
+* [[H.-J. Baues]], _Algebraic homotopy_, Cambridge Studies in Adv, Math. __15__, Camb, Univ. Press 1989.
+
+* [[H.-J. Baues]], G. Wirsching, _Cohomology of small categories_, J. Pure Appl. Alg. __38__ (1985), 187-211.
 
 * T. Pirashvili, _On the center and Baues-Wirsching cohomology_, Georgian Math. J. __16__ (2009) 1, 131-144
+
+* [[C. Wells]], _Extension theories for categories (preliminary report)_ (1979), [available here](
+http://www.cwru.edu/artsci/math/wells/pub/pdf/catext.pdf).
 
 [[!redirects natural system]]
