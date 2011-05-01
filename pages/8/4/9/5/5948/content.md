@@ -45,7 +45,7 @@ where the product is over all $i_n\stackrel{x_n}\longrightarrow \ldots \stackrel
 (A more extensive list may be found at the entry on [[Baues-Wirsching cohomology]].)
   
 
-* [[H.-J. Baues]], _Algebraic homotopy_, Cambridge Studies in Adv, Math. __15__, Camb, Univ. Press 1989.
+* [[H.-J. Baues]], _[[Algebraic Homotopy]]_, Cambridge Studies in Adv, Math. __15__, Camb, Univ. Press 1989.
 
 * [[H.-J. Baues]], G. Wirsching, _Cohomology of small categories_, J. Pure Appl. Alg. __38__ (1985), 187-211.
 
