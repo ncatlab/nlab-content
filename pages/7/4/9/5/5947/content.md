@@ -1,0 +1,12 @@
+Entry [[characteristic class]] defines characteristic classes from [[nPOV]], within $(\infty,1)$-topos and relates the characteristic classes to $(\infty,1)$-principal bundles. Here we present an older axiomatics, where characteristic classes *characterize* any structure on spaces (example: characteristic classes of foliations, bundles, bundles with structure etc). 
+
+Thus one considers a base category $\mathcal{T}$ of "spaces" and a category $\mathcal{S}$ of spaces with a structure (for example, space together with a vector bundle on it), this category should be a category over $\mathcal{T}$, i.e. equipped with a functor $U : \mathcal{S}\to\mathcal{T}$. A morphism of categories with structures is a morphism in the overcategory $Cat/\mathcal{T}$, i.e. a morphism $U\to U'$ is a functor $F: dom(U)\to dom(U')$ such that $U' F = U$. 
+
+Suppose now the category $\mathcal{T}$ is equipped with a cohomology theory which is, for purposes of this definition, a functor of the form $H : \mathcal{T}\to A$ where $A$ is some concrete category, typically category of $T$-algebras for some algebraic theory in $Set$, e.g. the category of abelian groups. Define 
+$\mathcal{H} = \mathcal{H}_H$ as a category whose objects are pairs $(X,a)$ where $X$ is a space (= object in $\mathcal{T}$) and $a\in H(X)$. This makes sense as $A$ is a concrete category. A morphism $(X,a)\to (Y,b)$ is a morphism $f: X\to Y$ such that $H(f)(b) = a$. We also denote $f^* = H(f)$, hence $f^*(b) = a$. 
+
+A __characteristic class of structures of type $\mathcal{S}$ with values in__ $H$ is a morphism of structures $h: \mathcal{S}\to\mathcal{H}_H$ over $\mathcal{T}$. In other words, to each structure $S$ of the type $\mathcal{S}$ over a space $X$ in $\mathcal{T}$ it assigns an element $h(S)$ in $H(X)$ such that for a morphism $t: S\to T$ in $\mathcal{S}$ the homomorphism $(U(t))^* : H(Y)\to H(X)$, where $Y = U(T)$, sends $h(S)$ to $h(T)$. 
+
+This axiomatics can be found e.g. in the section 7 of
+
+* D. B. Fuks, &#1053;&#1077;&#1087;&#1088;&#1077;&#1088;&#1080;&#1074;&#1085;&#1099;&#1077; &#1082;&#1086;&#1075;&#1086;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1080; &#1090;&#1086;&#1087;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1075;&#1088;&#1091;&#1087;&#1087; &#1080; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1082;&#1083;&#1072;&#1089;&#1089;&#1099;, appendix to the Russian translation of K. S. Brown, _Cohomology of groups_, Moskva, Mir 1987.
