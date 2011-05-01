@@ -10,32 +10,32 @@ This book by [[Baues]] gives an acoount of the author's interpretation of  [[Hen
 
 ## Preface
 
-## Introduction 
+### Introduction 
 
-##I Axioms for homotopy theory and examples of cofibration categories
+###I Axioms for homotopy theory and examples of cofibration categories
 
-##II  Homotopy theory in a cofibration category
+###II  Homotopy theory in a cofibration category
 
-##III The homotopy spectral sequences in a cofibration category
+###III The homotopy spectral sequences in a cofibration category
 
-##IV Extensions, coverings and cohomology groups of a category
+###IV Extensions, coverings and cohomology groups of a category
 
-##V Maps between mapping cones
+###V Maps between mapping cones
 
-##VI Homotopy theory of CW-complexes
+###VI Homotopy theory of CW-complexes
 
-##VII Homotopy theory of complexes in a cofibration category
+###VII Homotopy theory of complexes in a cofibration category
 
-## VIII Homotopy theory of Postnikov towers and the Sullivan-de Rham equivalence of rational homotopy categories
+### VIII Homotopy theory of Postnikov towers and the Sullivan-de Rham equivalence of rational homotopy categories
 
-##IX Homotopy theory of reduced complexes
+###IX Homotopy theory of reduced complexes
 
-##Bibliography
+###Bibliography
 
-##Index
+###Index
 
-#References
+##References
 
 * _Algebraic Homotopy_, Cambridge studies in advanced mathematics 15, Cambridge University Press, (1989).
 
-*[[Tim Porter]], Review of "Algebraic Homotopy'' by H.J.Baues, in Bull. London Math. Soc. 22 (1990) 196-197.
+*  [[Tim Porter]], _Review of "Algebraic Homotopy'' by H.J.Baues_, in Bull. London Math. Soc. 22 (1990) 196-197.
