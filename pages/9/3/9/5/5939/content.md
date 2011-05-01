@@ -28,6 +28,6 @@ In particular, for $h=id_Y$ we see that a universally closed morphism is itself 
 
 ## Examples
 
-* The assumptions are satisfied in the category of [[scheme]]s.
+* The assumptions are satisfied in the category of [[scheme]]s. See [[valuative criterion of properness]] for a characterization of universally closed morphisms of schemes via valuation rings. 
 
 [[!redirects universally closed morphisms]]
