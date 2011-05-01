@@ -281,6 +281,7 @@ $\frac{1}{2}\hat \mathbf{p}_1$ we now find a [[resolution]] of this morphism $\e
 
 
 #### Presentation of the differential class by a fibration
+ {#PresentationOfClassByFibration}
 
 In order to factor $\exp(\mu,cs)$ into a weak equivalence followed by a fibration, we start by considering such a factorization before differential refinement, on the underlying characteristic class $\exp(\mu)$.
 
@@ -372,6 +373,79 @@ $$
 where the morphism on the left (which is the identity when restricted to $\mathfrak{g}^*$ and acts on the new generators as indicated) is a [[quasi-isomorphism]].
 
 =--
+
++-- {: .proof}
+###### Proof
+
+To see that we have a quasi-isomorphism, notice that the dg-algebra is [[isomorphic]] to the one with generators $\{t^a, b, c'\}$ and differentials
+
+$$
+  \begin{aligned}
+    d|_{\mathfrak{g}^*} & = [-,-]^*
+    \\
+    d  b & = c'
+    \\
+    d c' & =  0
+  \end{aligned}
+  \,,
+$$
+
+where the isomorphism is given by the identity on the $t^a$s and on $b$ and by
+
+$$
+  c \mapsto c' + \mu
+  \,.
+$$
+
+The primed dg-algebra is the [[tensor product]] $CE(\mathfrak{g}) \otimes CE( inn(b \mathbb{R}))$, where the second factor is manifestly cohomologically trivial.
+
+=--
+
+The point of introducing the resolution $(b \mathbb{R} \to \mathfrak{g}_\mu)$ in the above way is that it naturally supports the obstruction theory of lifts from $\mathfrak{g}$-[[connection on a bundle|connections]] to [[string Lie 2-algebra]] [[connection on an infinity-bundle|2-connection]] 
+
++-- {: .num_prop #LongFiberSequenceOnLieAlgebras}
+###### Observation
+
+The defining projection $\mathfrak{g}_\mu \to \mathfrak{g}$
+factors through the above quasi-isomorphism $(b \mathbb{R} \to \mathfrak{g}_\mu) \to \mathfrak{g}$ by the canonical inclusion
+
+$$
+  \mathfrak{g}_\mu \to (b \mathbb{R} \to \mathfrak{g}_\mu)
+  \,,
+$$
+
+which dually on $CE$-algebras is given by 
+
+$$
+  t^a \mapsto t^a
+$$
+
+$$
+  b \mapsto - b
+$$
+
+$$
+  c \mapsto 0
+  \,.
+$$
+
+In total we are looking at a convenient presentation of the long [[fiber sequence]] of the [[string Lie 2-algebra]] extension:
+
+$$
+  \array{   
+    && && (b \mathbb{R} \to \mathfrak{g}_\mu) &\to& b^2 \mathbb{R}
+    \\
+    && & \nearrow & \downarrow^{\mathrlap{\simeq}}
+    \\
+    b \mathbb{R} &\to& \mathfrak{g}_\mu &\to& \mathfrak{g}
+  }
+  \,.
+$$
+
+=--
+
+(The signs appearing here are just unimportant convention made in order for some of the formulas below to come out nice.)
+
 
 +-- {: .num_prop #BareFibration}
 ###### Proposition
@@ -470,7 +544,7 @@ but with the differential modified as follows
 
 * $d r^a  = - C^a{}_{b c} t^b \wedge r^a$;
 
-* $d b = - cs + c + c$;
+* $d b = - cs + c + h$;
 
 * $d h = \langle -,-\rangle - g$;
 
@@ -760,11 +834,7 @@ Here we are indicating on the right the generators and their relation in $\tilde
 
 
 
-
-
-
-
-## The Green-Schwarz mechanism in heterotic supergravity
+### The Green-Schwarz mechanism in heterotic supergravity
  {#InheteroticSugra}
 
 We discuss the application of twisted differential string structures in [[supergravity]] and [[string theory]].
@@ -918,6 +988,86 @@ where on the right we have the relative [[Chern-Simons form]]. This vanishes pre
 
 1. the gauge bundles develop genuine connections.
 
+
+
+
+### Relation to string 2-connections
+
+By the discussion at _[[connection on an ∞-bundle]]_ we have that for $\mathfrak{g}$ an [[L-∞ algebra]] and 
+
+$$
+  \mathbf{B}G := \mathbf{cosk}_{n+1} \exp(\mathfrak{g})
+$$
+
+the [[delooping]] of the [[smooth ∞-groupoid|smooth Lie n-group]] obtained from it by [[Lie integration]], the coefficient for [[connection on an ∞-bundle|∞-connections]] on $G$-[[principal ∞-bundle]]s is 
+
+$$  
+  \mathbf{B}G_{conn} := \mathbf{cosk}_{n+1} \exp(\mathfrak{g})_{conn}
+  \,,
+$$
+
+where on the very right we have the [[simplicial presheaf]]
+
+$$
+  \exp(\mathfrak{g}) : (U,[k]) \mapsto
+   \left\{
+     A : CE(\mathfrak{g}) \to \Omega^\bullet(U \times \Delta^n)
+     |
+     A\;is\;vertically\;flat\; and\;F_A\;is \; horizontal
+   \right\}
+   \,.
+$$
+
+(See [[∞-Chern-Weil homomorphism]] for details).
+
++-- {: .num_prop #StringConnectionsFromDiffStringStructzres}
+###### Proposition
+
+The [[2-groupoid]] of entirely untwisted differential string structures on $X$ (the twist being $0 \in H^4_{diff}(X)$) is equivalent to that of [[string 2-group]] [[principal 2-bundle]]s with [[connection on an ∞-bundle|2-connection]]:
+
+$$
+  String_{diff, tw = 0}(X) \simeq String 2Bund_{\nabla}(X)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the above discussion of [Cech cocycles](#ExplicitCocycles) we compute $String_{diff, tw = 0}(X)$ as the ordinary fiber of the morphism of simplicial presheaves
+
+$$
+  [CartSp^{op}, sSet](
+  C(\{U_i\}),  \mathbf{cosk}_3 \exp(b \mathbb{R} \to \mathfrak{g}_\mu))
+  \to 
+  [CartSp^{op}, sSet](
+  C(\{U_i\}), \mathbf{B}^3 U(1)_{diff})
+$$
+
+over the identically vanishing cocycle.
+
+In terms of the component formulas spelled out in the [above discussion](#InheteroticSugra) of the GS-mechanism, this amounts to restricting to those cocyles for which n each degree the equations
+
+$$
+  C = 0
+$$
+
+$$
+  G = 0
+$$
+
+holds. 
+
+Comparing this to the explicit formulas for $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ and $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)_{conn}$ in the [above](#PresentationOfClassByFibration) we see that these cocycles are exactly those that factor through the canonical inclusion
+
+$$
+  \mathfrak{g}_\mu \to (b \mathbb{R} \to \mathfrak{g}_\mu)
+$$
+
+from observation \ref{LongFiberSequenceOnLieAlgebras} of the [[string Lie 2-algebra]] into the [[mapping cone]] Lie 3-algebra of the extension $b \mathbb{R} \to \mathfrak{g}_\mu \to \mathfrak{g}$ that defines it.
+
+=--
 
 
 
