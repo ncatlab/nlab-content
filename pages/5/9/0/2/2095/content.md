@@ -6,4 +6,6 @@ Case Western Reserve University; his research interest has been in [[category th
 
 * [website](http://www.cwru.edu/artsci/math/wells/home.html)
 
+[[!redirects C. Wells]]
+
 category: people
