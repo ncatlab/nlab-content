@@ -1,4 +1,6 @@
 
+> this entry is about the notion of colimits in posets. For the notion of [[join of simplicial sets]] and [[join of quasi-categories]] see there.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
