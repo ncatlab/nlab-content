@@ -1,6 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -73,7 +83,9 @@ According to the [[Benabou–Roubaud theorem]], the Chevalley condition  is cruc
 
 ## References
 
-* See Mac Lane and Moerdijk, section IV.9 (page 205).
+For instance section IV.9 (page 205) of
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 
 [[!redirects Beck-Chevalley_Condition]]
@@ -85,3 +97,6 @@ According to the [[Benabou–Roubaud theorem]], the Chevalley condition  is cruc
 [[!redirects Beck-Chevalley property]]
 [[!redirects Beck–Chevalley property]]
 [[!redirects Beck--Chevalley property]]
+
+[[!redirects Beck-Chevalley transformation]]
+[[!redirects Beck-Chevalley transformations]]
