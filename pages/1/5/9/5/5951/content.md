@@ -1,4 +1,3 @@
-[[!redirects Cohesive Toposes: Combinatorial and Infinitesimal Cases]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -26,3 +25,6 @@ on [[cohesive topos]]es.
 
 > (This might be the first public occurence of the precise term "cohesive topos". In the 2007 article _[Axiomatic cohesion](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html)_ it still said "category of cohesion" and in a series of articles preceding that one, other terms are used. In fact, at the same place but 18 years earlier, at the [[Como|Como conference on Category Theory]], Lawvere used the term "category of Being", instead, in his [[Some Thoughts on the Future of Category Theory]].)
 
+category: reference
+
+[[!redirects Cohesive Toposes: Combinatorial and Infinitesimal Cases]]
