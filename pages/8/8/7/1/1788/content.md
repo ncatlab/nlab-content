@@ -7,6 +7,8 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
+$\Box$
+
 $\underoverset{a}{b}{\to}$
 
 $\hookleftarrow$
