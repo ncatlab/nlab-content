@@ -1,4 +1,6 @@
 
+**[[cohesive topos]]
+
 **[[cohesive (∞,1)-topos]]**
 
 ## Backround
@@ -22,7 +24,7 @@
 * [[cohesive topos]] / [[cohesive (∞,1)-topos]]
 
 
-## Construction
+## Presentation over a site
 
 * [[locally connected site]] / [[locally ∞-connected site]]
 
@@ -39,9 +41,9 @@
 
 ## Structures in a cohesive $(\infty,1)$-topos
 
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ConcreteObjects">concrete objects</a>
+**[[cohesive (∞,1)-topos -- structures|structures in a cohesive (∞,1)-topos]]**
 
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#GeometryAndStructureSheaves">geometry and structure sheaves</a>
+* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ConcreteObjects">concrete objects</a>
 
 * . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#InfinGroups">cohesive ∞-groups</a>
 
@@ -73,12 +75,13 @@
 
 ## Structures with infinitesimal cohesion
 
+**[[cohesive (∞,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]]**
+
 * . <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#InfinitesimalPaths">de Rham space</a>
 
 * [[formal cohesive ∞-groupoid]]
 
 * . <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#StrucInfinitesimalLocalSystem">de Rham theorem</a>
-
 
 
 ## Models
@@ -106,9 +109,9 @@
 
 * **[[smooth super ∞-groupoid]]**
 
-  [[supergeometry]], [[supermanifold]], [[super Lie group]]
+  * [[supergeometry]], [[supermanifold]], [[super Lie group]]
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/cohesive+infinity-toposes+-+contents)</div>
-
 
 
