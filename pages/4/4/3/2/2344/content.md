@@ -206,11 +206,11 @@ $$\array{(L/j) & \overset{}{\to} & L & \overset{p}{\to} & I \\
   * & \underset{j}{\to} & J & \underset{v}{\to} & K}$$
 for any $j\in J$, where the left-hand square is a comma square.  Conversely, if all of these squares are exact, then so is the given one, by (Der2).  We play the same game by composing with comma squares on the top to conclude that the given square is exact if and only if all the induced squares
 \[\array{(i/L/j) & \overset{f}{\to} & *\\
-  ^g\downarrow & \Downarrow & \downarrow^{u(i)}\\
+  ^g\downarrow & \Downarrow & \downarrow^{\mathrlap{u(i)}}\\
   * & \underset{v(j)}{\to} & K}\label{ijsquare}\]
 are exact.  But the square
 $$\array{K(u(i),v(j)) & \overset{s}{\to} & *\\
-  ^t\downarrow & \Downarrow & \downarrow^{u(i)}\\
+  ^t\downarrow & \Downarrow & \downarrow^{\mathrlap{u(i)}}\\
   * & \underset{v(j)}{\to} & K}$$
 is exact, since it is a comma square, and by the universal property of a comma square, the square \eqref{ijsquare} factors uniquely through this one by a functor $r\colon (i/L/j) \to K(u(i),v(j))$, which is precisely the functor $r$ defined above.  Specifically, we have $f = s r$ and $g = t r$.  Therefore, the Beck-Chevalley transformation $g_! f^* \to (v j)^* (u i)^*$ is equal to the composite
 $$ g_! f^* = t_! r_! r^* s^* \to t_! s^* \to (v j)^* (u i)^* $$
@@ -341,7 +341,7 @@ Derivators were also recently used by [[Gonçalo Tabuada]] in a universal charac
 
 An introduction to some of the theory of pointed and stable derivators, in English, can be found in the paper:
 
-* [[Denis-Charles Cisinski]] and Amnon Neeman, "Additivity for derivator K-theory", [MR](http://www.ams.org/mathscinet-getitem?mr=2382732)
+* [[Denis-Charles Cisinski]] and Amnon Neeman, _Additivity for derivator K-theory_ , [MR](http://www.ams.org/mathscinet-getitem?mr=2382732)
 
 An brief informal discussion of derivators as a 2-categorical tool for studying $(\infty,1)$-categories is contained in
 
