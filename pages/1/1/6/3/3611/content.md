@@ -348,9 +348,11 @@ For more see [[model structure on algebras over an operad]].
 
 ## Related concepts
 
-* **model structure on operads**
+* [[(∞,1)-operad]], **model structure on operads**
 
-* [[model structure on algebras over an operad]]
+  * [[algebra over an (∞,1)-operad]], [[model structure on algebras over an operad]]
+
+    * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad]]
 
 ## References
 
