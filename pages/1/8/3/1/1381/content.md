@@ -36,7 +36,7 @@ This means that it is
 This can be understood as a special case of an [[(∞,1)-operad]] (...to be expanded on...)
 
 
-##Definition in terms of quasi-categories ##
+## Definition in terms of quasi-categories 
 
 Recall that in terms of [[quasi-category|quasi-categories]] a general [[monoidal (infinity,1)-category]] is conceived as a coCartesian fibration $C^\otimes \to N(\Delta)^{op}$ of [[simplicial set]]s over the ([[opposite category|opposite]] of) the [[nerve]]  $N(\Delta)^{op}$ of the [[simplex category]] satisfying a certain property. 
 
@@ -44,9 +44,11 @@ The fiber of this fibration over the 1-[[simplex]] $[1]$ is the [[monoidal (infi
 
 The following definition encodes the _commutativity_ of all these operations by replacing $\Delta$ with the category $FinSet_*$ of pointed finite sets.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
-A **symmetric monoidal $(\infty,1)$-category** is a coCartesian fibration of [[simplicial set]]s 
+
+A **symmetric monoidal $(\infty,1)$-category** is a 
+[[coCartesian fibration]] of [[simplicial set]]s 
 
 $$
   p : C^\otimes \to N(FinSet_*)
@@ -58,7 +60,23 @@ such that
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_remark}
+###### Remark
+
+In other words, a symmetric monoidal $(\infty,1)$-category is an 
+$\mathcal{O}$-[[monoidal (∞,1)-category]] for 
+
+$$
+  \mathcal{O} = Com
+$$
+
+the [[commutative operad|commutative]] [[(∞,1)-operad]].
+
+=--
+
+See ([Lurie, def. 2.0.0.7](#LurieAlgebra)).
+
++-- {: .num_prop}
 ###### Proposition
 
   The [[homotopy category of an (infinity,1)-category|homotopy category]] of a symmetric monoidal $(\infty,1)$-category is an ordinary [[symmetric monoidal category]].
@@ -66,7 +84,7 @@ such that
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 There is a functor $\varphi : \Delta^{op} \to FinSet_*$ such that the [[monoidal (infinity,1)-category]] _underlying_ a symmetric monoidal $(\infty,1)$-category $p : C^\otimes \to N(FinSet_*)$ is the [[(infinity,1)-pullback]] of $p$ along $\varphi$.
@@ -98,8 +116,12 @@ See [[commutative monoid in a symmetric monoidal (∞,1)-category]].
 
 The defintion of symmetric monoidal quasi-category is definition 1.2 in 
 
-* [[Jacob Lurie]], _[[higher algebra|Commutative algebra]]_
+* [[Jacob Lurie]], _[[Commutative Algebra]]_
 
+and definition 2.0.0.7 in 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#LurieAlgebra}
 
 [[!redirects symmetric monoidal (infinity,1)-categories]]
 [[!redirects symmetric monoidal (∞,1)-category]]
