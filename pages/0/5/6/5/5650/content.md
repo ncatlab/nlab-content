@@ -41,6 +41,19 @@ The following is (or will eventually be) a linked list of keywords.
 
 * [[algebra over an (∞,1)-operad]]
 
+### 3.1 Free algebras
+
+### 3.2 Limits and colimits of algebras
+
+### 3.3 Modules over $\infty$-operads
+
+#### 3.3.1 Coherent $\infty$-operads
+
+* [[coherent (∞,1)-operad]]
+
+### 3.4 General features of module $\infty$-categories
+
+
 ## 4. Associative algebras and their modules
 
 * [[A-∞ operad]]
@@ -80,9 +93,9 @@ The book is based on the serues of articles
 
   _[[Stable ∞-Categories]]_ ([arxiv](http://www.arxiv.org/abs/math.CT/0608228))
 
-  _Noncommutative Algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
+  _[[Noncommutative Algebra]]_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
-  _Commutative Algebra_ ([arXiv](http://arxiv.org/abs/math/0703204))
+  _[[Commutative Algebra]]_ ([arXiv](http://arxiv.org/abs/math/0703204))
 
 * _[[Deformation Theory]]_ ([arXiv](http://arxiv.org/abs/0709.3091))
 
