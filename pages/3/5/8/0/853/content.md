@@ -1,10 +1,33 @@
-The notion of a constant morphism in a category generalises the notion of [[constant function]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of a _constant morphism_ in a [[category]] generalises the notion of [[constant function]].
+
+## Definition
 
 +-- {: .num_defn #ConstMorph}
 ###### Definition
-A _constant morphism_ in a category $\mathcal{C}$ is a morphism $c : B \to C$ with the property that for any morphisms $f,g : A \to B$ then $c \circ f = c \circ g$.
+A _constant morphism_ in a [[category]] $\mathcal{C}$ is a [[morphism]] $c : B \to C$ with the property that for any morphisms $f,g : A \to B$ then $c \circ f = c \circ g$.
 =--
+
+## Examples
 
 Using the two-point set, it is simple to show that the constant morphisms in [[Set]] are precisely the constant functions.
 
 As with $Set$, any morphism which factors through a terminal object is constant but although this is an "if and only if" in $Set$ it need not be in a general category.  It is, however, true in a [[regular category]] that any constant morphism factors through a [[subterminal object]], namely its [[image]].
+
+[[!redirects constant morphisms]]
