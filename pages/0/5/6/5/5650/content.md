@@ -35,11 +35,27 @@ The following is (or will eventually be) a linked list of keywords.
 
 ## 2. $\infty$-Operads
 
+### 2.1 Foundations
+
+#### 2.1.1 From colored operads to $\infty$-operads
+
 * [[(∞,1)-operad]]
+
+#### 2.1.2 Maps of $\infty$-operads
+
+* $\mathcal{O}$-[[monoidal (∞,1)-category]]
+
+#### 2.1.3 Algebra objects
+
+* [[algebra over an (∞,1)-operad]]
+
+#### $\infty$-Preoperads
+
+
+
 
 ## 3. Algebras and modules over $\infty$-operads
 
-* [[algebra over an (∞,1)-operad]]
 
 ### 3.1 Free algebras
 
