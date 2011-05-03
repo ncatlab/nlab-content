@@ -1115,7 +1115,33 @@ $$
 (...)
 
 
-#### Deformation theory {#StrucDeformationTheory}
+#### Deformation theory 
+ {#StrucDeformationTheory}
+
+For $C^{op}$ any [[(∞,1)-site]] the construction of the 
+[[tangent (∞,1)-category]] $T_{C} \to C$ provides a canonical infinitesimal thickening of $C$:
+
+$$
+  C
+  \stackrel{\overset{cod}{\leftarrow}}{\stackrel{\overset{\Delta}{\to}}{\underset{dom}{\leftarrow}}}
+  C^{\Delta[1]}
+  \stackrel{\overset{L}{\to}}{\underset{\Omega^\infty}{\leftarrow}}  
+  \,,
+$$
+
+where the $\infty$-functor pair on the right forms a 
+$cod$-[[relative (∞,1)-adjunction]]. The composite $L \circ i$ is the [[cotangent complex]] functor for $C$ and $\Omega^\infty$ is fiberwise the canonical map out of the [[stabilization]].
+
+The image of $i$ is contained in that of $\Omega^\infty$. Therefore we may restrict the $(cod \dashv i)$-adjunction on the right to the [[full sub-(∞,1)-category]] $\tilde T_C$ of $C^{\Delta[1]}$ on thise objects in the image of $\Omega^\infty$. This yields an infinitesimal neighbourhood of [[(∞,1)-sites]]
+
+$$
+  C^{op}
+  \stackrel{\overset{i}{\hookrightarrow}}{\underset{cod}{\leftarrow}}
+  (\tilde T_C)^{op}
+  \,.
+$$
+
+(...)
 
 (...)
 
