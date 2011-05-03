@@ -101,7 +101,31 @@ We discuss how the tangent $(\infty,1)$-category construction indeed generalizes
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathcal{O}^\otimes$ by a [[coherent (∞,1)-operad]] and let $\mathcal{C}^\otimes \to \mathcal{O}^\otimes$ be a [[presentable (∞,1)-category|presentable]] [[stable (∞,1)-category|stable]] $\mathcal{O}$-[[monoidal (∞,1)-category]]. Then there is a canonical [[equivalence of (∞,1)-categories|equivalence]]
+Let $\mathcal{O}^\otimes$ be a [[coherent (∞,1)-operad]] and let $\mathcal{C}^\otimes \to \mathcal{O}^\otimes$ be a [[stable (∞,1)-category|stable]] $\mathcal{O}$-[[monoidal (∞,1)-category]]. 
+
+Let 
+
+$$
+  A \in Alg_\mathcal{O}(\mathcal{C})
+$$
+
+be an $\mathcal{O}$-[[algebra over an (infinity,1)-operad|algebra]] in $\mathcal{C}$. Then the [[stabilization]] of the [[over-(∞,1)-category]] over $A$ is canonically equivalent to $Func_\mathcal{O}(\mathcal{O}, Mod_A^\mathcal{O}(\mathcal{C}))$
+
+$$
+  Stab( Alg_\mathcal{O}(\mathcal{C})/A)
+  \simeq
+  Func_\mathcal{O}(\mathcal{O}, Mod_A^\mathcal{O}(\mathcal{C}))
+  \,.
+$$
+
+=--
+
+This is ([Lurie, theorem 1.5.14](#Lurie)).
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{O}^\otimes$ be a [[coherent (∞,1)-operad]] and let $\mathcal{C}^\otimes \to \mathcal{O}^\otimes$ be a [[presentable (∞,1)-category|presentable]] [[stable (∞,1)-category|stable]] $\mathcal{O}$-[[monoidal (∞,1)-category]]. Then there is a canonical [[equivalence of (∞,1)-categories|equivalence]]
 
 $$
   \phi : T_{Alg_\mathcal{O}(\mathcal{C})}
@@ -115,7 +139,7 @@ of presentble [[Cartesian fibration|fibrations]] over $Alg_\mathcal{O}(\mathcal{
 
 =--
 
-This is ([Lurie, theore, 1.5.19](#Lurie)).
+This is ([Lurie, theorem, 1.5.19](#Lurie)).
 
 In words this says that under the given assumptions, objects of $T_{\mathcal{C}}$ may be identified with pairs
 
@@ -166,6 +190,24 @@ This $\Omega$ is the **cotangent complex $(\infty,1)$-functor** : for $A \in C$ 
 This is ([Lurie, def. 1.1.2, remark 1.2.3](#Lurie)).
 
 
+## Examples 
+
+### Of $E_\infty$-rings
+
++-- {: .num_cor}
+###### Corollary
+
+Let $E_\infty$ be the [[(∞,1)-category]] of [[E-∞ ring]]s and let $A \in E_\infty$. Then the [[stabilization]] of the [[over-(∞,1)-category]] over $A$ 
+
+$$
+  Stab(E_\infty/A) \simeq A Mod(Spec)
+$$
+
+is equivalentl to the category of $A$-[[module spectra]].
+
+=--
+
+([Lurie, cor. 1.5.15](#Lurie)).
 
 ## References
 
