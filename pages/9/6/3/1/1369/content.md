@@ -109,7 +109,11 @@ In any case, this motivates the following definition.
 
 ## Definition
 
-### Simplicial/geometric definition 
+### Plain monoidal $(\infty,1)$-category 
+
++-- {: .num_defn}
+###### Definition
+
 
 A **monoidal ($\infty,1$)-category** $(C, \otimes)$
 is 
@@ -137,6 +141,47 @@ $$
 $$
 
 Here $\Delta$ is the [[simplex category]] and $N(\Delta)$ its [[nerve]].
+
+=--
+
+### $\mathcal{O}$-monoidal $(\infty,1)$-category
+
+The following defines [[symmetric monoidal (∞,1)-categories]] and their variants, where the [[commutative operad]] is replaced by any other [[(∞,1)-operad]].
+
++-- {: .num_defn}
+###### Definition
+
+Let $\mathcal{O}^\otimes$ be an [[(∞,1)-operad]]. A **coCartesian fibration** of $(\infty,1)$-operads is
+
+1. a [[coCartesian fibration]] $p : \mathcal{C}^\otimes \to \mathcal{O}^\otimes$ of the underlying [[quasi-categories]];
+
+1. such that the composite 
+
+   $$
+     \mathcal{C}^\otimes \stackrel{p}{\to} \mathcal{O}^\otimes \to Fin_* = Comm
+   $$
+
+   exhibits $\mathcal{C}^\otimes$ as an [[(∞,1)-operad]].
+
+In this case we say that the underlying [[(∞,1)-category]]
+
+$$
+  \mathcal{C}  = \mathcal{C}^\otimes \times_{\mathcal{O}^\otimes} \mathcal{O}
+$$
+
+is equipped by $p$ with the [[structure]] of an **$\mathcal{O}$-monoidal $(\infty,1)$-category**.
+
+=--
+
+This is ([Lurie, def. 2.1.2.13](#Lurie)).
+
++-- {: .num_defn}
+###### Definition
+
+For $\mathcal{O}$ = [[commutative operad|Comm]], an $\mathcal{O}$-monoidal $(\infty,1)$-category is a [[symmetric monoidal (∞,1)-category]].
+
+=--
+
 
 ## Higher monoidal structure 
 
@@ -178,15 +223,19 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the th
 
 ## References
 
-the simplicial definition is definition 1.1.2 in 
+The simplicial definition for plain monoidal $(\infty,1)$-categories is definition 1.1.2 in 
 
-* [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
+* [[Jacob Lurie]], _[[Noncommutative Algebra]]_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
 John Francis' work on [[little cubes operad]]-actions on  $(\infty,1)$-categories is in
 
 * [[John Francis]], PhD thesis ([web](http://dspace.mit.edu/handle/1721.1/43792))
 {#Francis}
 
+The general notion of an $\mathcal{O}$-monoidal $(\infty,1)$-category is around definition 2.1.2.13 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_ .
+ {#Lurie}
 
 [[!redirects monoidal (infinity,1)-categories]]
 [[!redirects monoidal (∞,1)-category]]
