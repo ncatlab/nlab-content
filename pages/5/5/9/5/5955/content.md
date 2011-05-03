@@ -1,0 +1,51 @@
+[[!redirects module spectra]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _module spectrum_ is a [[module over an algebra over an (∞,1)-operad]] for the [[commutative operad]]:
+
+for $R$ an [[E-∞ ring]] (an [[algebra over an (∞,1)-operad|∞-algebra]] over [[Comm]]), an $R$-module spectrum is a [[spectrum]] equipped with an $R$-[[action]].
+
+## Properties
+
+By the discussion an [[tangent (∞,1)-category]] we may realize $E_\infty$-modules over $R$ as objects in the [[stabilization]] of the [[over-(∞,1)-category]] over $R$:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $E_\infty := Alg^{Comm}(\infty Grpd)$ be the [[(∞,1)-category]] of [[E-∞ ring]]s and let $R \in E_\infty$. Then the [[stabilization]] of the [[over-(∞,1)-category]] over $A$ 
+
+$$
+  Stab(E_\infty/R) \simeq A Mod(Spec)
+$$
+
+is equivalentl to the category of $R$-module spectra.
+
+=--
+
+This is ([Lurie, cor. 1.5.15](#Lurie)).
+
+## References
+
+* [[Jacob Lurie]], _[[Deformation Theory]]_ 
+ {#Lurie}
+
