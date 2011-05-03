@@ -28,3 +28,5 @@ Its cofibrant [[resolution]]s in the [[model structure on operads]] are [[E-infi
 * [[Lie operad]]
 
 [[!redirects operad for commutative algebras]]
+
+[[!redirects Comm]]
