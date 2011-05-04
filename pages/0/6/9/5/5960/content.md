@@ -1,0 +1,7 @@
+[website](http://www.math.harvard.edu/~gquick/)
+
+##related nLab entries
+
+* [[profinite homotopy theory]]
+
+category: people
