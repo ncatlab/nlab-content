@@ -31,7 +31,15 @@ Various authors have proposed ([Butterfield-Hamilton-Isham](#ButterfieldHamilton
 
 ### As a site for noncommutative phase spaces
 
-Specifically, when applied to the algebra $A = B(\mathcal{H})$ of [[bounded operator]]s on a [[Hilbert space]], the [[locale]] $\Sigma(A)$ internal to $\mathcal{T}_A$ behaves like the noncommutative [[phase space]] of a system of [[quantum mechanics]], which however internally looks like an ordinary commutative geometry. Various statements about [[operator algebra]] then have geometric analogs in $\mathcal{T}_A$. 
+Specifically, consider the case that the algebra $A = B(\mathcal{H})$ is that of [[bounded operator]]s on a [[Hilbert space]].
+
+Notice that if we think of $A$ as being the [[C-star algebraic deformation quantization]] of a [[symplectic manifold]] then
+
+* commutative subalgebras correspond to [[isotropic subspace]]s;
+
+* maximal commutative subalgebras correspond to [[Lagrangian subspace]]s,
+
+Applying Bohrification to this situation, one finds that the [[locale]] $\Sigma(A)$ internal to $\mathcal{T}_A$ behaves like the noncommutative [[phase space]] of a system of [[quantum mechanics]], which however internally looks like an ordinary commutative geometry. Various statements about [[operator algebra]] then have geometric analogs in $\mathcal{T}_A$. 
 
 Notably the [[Kochen-Specker theorem]] says that $\Sigma(B(\mathcal{H}))$, while nontrivial, has no [[point]]s/no [[global element]]s. (This topos-theoretic geometric reformulation of the Kochen-Specker theorem had been the original motivation for considering $ComSub(A)$ in the first place in [ButterfieldIsham](#ButterfieldIsham)).
 
