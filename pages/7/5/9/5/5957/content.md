@@ -1,8 +1,9 @@
-[[!redirects J. P. Pridham]]
+
 Jonathan Pridham is a mathematician based in Trinity College, Cambridge.  His publication and preprint list is [here](http://www.dpmms.cam.ac.uk/~jpp24/).
 
 
 category: people
 
 [[!redirects Pridham]]
+[[!redirects Jon Pridham]]
 [[!redirects J. P. Pridham]]
