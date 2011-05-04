@@ -5,4 +5,8 @@
 
 * [[model structure on simplicial presheaves]]
 
+* [[pro-homotopy theory]]
+
 category: people
+
+[[!redirects D.C. Isaksen]]
