@@ -1,0 +1,18 @@
+
+
+In a [[symplectic vector space]] a **Lagrangian subspace** is a maximal [[isotropic subspace]]: 
+
+a sub-[[vector space]] 
+
+* on which the restriction of the [[symplectic form]] vanishes;
+
+* and which has maximal [[dimension]] with this property.
+
+Similarly for a [[symplectic manifold]]. See _[[Lagrangian submanifold]]_ .
+
+[[!redirects lagrangian subspace]]
+
+[[!redirects lagrangian subspaces]]
+[[!redirects Lagrangian subspaces]]
+
+
