@@ -1,12 +1,15 @@
 
 * [website](http://www.math.wayne.edu/~isaksen/)
 
-#related $n$Lab entries#
+# related $n$Lab entries
 
 * [[model structure on simplicial presheaves]]
 
 * [[pro-homotopy theory]]
 
+
 category: people
 
 [[!redirects D.C. Isaksen]]
+[[!redirects Dan Isaksen]]
+[[!redirects Daniel Isaksen]]
