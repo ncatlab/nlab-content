@@ -15,14 +15,14 @@
 
 ## Idea
 
-A _coherent $(\infty,1)$-operad_ is an [[(∞,1)-operad]] $\mathcal{O}$ whose [[∞-module over an ∞-algebra over an (∞,1)-operad|modules]] over $\mathcal{O}$-[[algebra over an (∞,1)-operad|algebras]] come equipped with a well behaved [[tensor product]]
+A _locally monoidal $(\infty,1)$-operad_ (called a _coherent $(\infty,1)$-operad_ in ([Lurie](#Lurie))) is an [[(∞,1)-operad]] $\mathcal{O}$ whose [[∞-module over an ∞-algebra over an (∞,1)-operad|modules]] over $\mathcal{O}$-[[algebra over an (∞,1)-operad|algebras]] come equipped with a well behaved [[tensor product]]
 
 ## Definition
 
 +-- {: .num_defn}
 ###### Definition
 
-An [[(∞,1)-operad]] $\mathcal{O}^\otimes$ is called **coherent** if
+An [[(∞,1)-operad]] $\mathcal{O}^\otimes$ is **locally monoidal** if
 
 1. it is unital;
 
@@ -36,7 +36,7 @@ This is ([Lurie, def. 3.3.1.9](#Lurie)).
 
 ## Examples
 
-Coherent $(\infty,1)$-operads include
+Locally monoidal $(\infty,1)$-operads include
 
 * [[Comm]]
 
@@ -56,8 +56,15 @@ Coherent $(\infty,1)$-operads include
 Section 3.3.1 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
 
+[[!redirects coherent (infinity,1)-operad]]
 [[!redirects coherent (∞,1)-operad]]
 
 [[!redirects coherent (∞,1)-operads]]
 [[!redirects coherent (infinity,1)-operads]]
+
+[[!redirects locally monoidal (∞,1)-operad]]
+
+[[!redirects locally monoidal (∞,1)-operads]]
+[[!redirects locally monoidal (infinity,1)-operads]]
