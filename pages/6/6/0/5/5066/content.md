@@ -110,6 +110,7 @@ Let $0 \to P \to Q \to R \to 0$ be an [[exact sequence]] of [[abelian groups]]. 
 The version for topological spaces and the [[fundamental infinity-groupoid]] functor is discussed in  Appendix A of
 
 * [[Jacob Lurie]], _[[Ek-Algebras]]_
+ {#Lurie}
 
 The version for filtered topological spaces and the strict homotopy $\infty$-groupoid functor is discussed in
 
