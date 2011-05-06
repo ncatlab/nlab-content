@@ -1,0 +1,140 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## The context
+
+Let $X$ be a [[spacetime]] of [[dimension]] $n$, $E \to X$ a [[bundle]], $j:\infty E \to X$ its [[jet bundle]] and 
+
+$$
+  \Omega^{\bullet,\bullet}(j_\infty E), (D = \delta + d)
+$$ 
+
+the corresponding [[variational bicomplex]] with $\delta$ being the vertical and $d = d_{dR}$ the horizontal [[differential]].
+
+
++-- {: .num_prop #VariationOfTheLagrangian}
+###### Proposition
+
+For $L \in \Omega^{n,0}(j_\infty E)$ a [[Lagrangian]] we have that 
+
+$$
+  \delta L = E(L) + d \Theta
+$$
+
+for $E$ the [[Euler-Lagrange equations|Euler-Lagrange operator]].
+
+=--
+
+The [[covariant phase space]] of the Lagrangian is the locus
+
+$$ 
+  \{\phi \in \Gamma(E) | E(L)(j_\infty \phi) = 0\}  
+  \,.
+$$
+
+For $\Sigma \subset X$ any $(n-1)$-dimensional submanifold, 
+
+$$
+  \delta \theta := \delta \int_\Sigma \Theta
+$$
+
+is the [[presymplectic structure]] on covariant phase space
+
++-- {: .num_defn #Symmetry}
+###### Definition
+
+A **[[symmetry]]** of $L$ is a vertical [[vector field]] $v$ such that 
+
+$$
+  v(L) = d \sigma_v
+$$
+
+for some
+
+$$
+  \sigma_v \in \Omega^{n-1,0}(j_\infty E)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By [[Cartan's magic formula]] this is equivalent to 
+
+$$
+  \iota_{v} \delta L = d \sigma_v
+  \,.
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A **[[conserved current]]** is an element
+
+$$
+  j \in \Omega^{n-1, 0}(j_\infty E)
+$$
+
+which is horizontally closed on [[covariant phase space]]
+
+$$
+  d j|_{E(L) = 0} = 0
+  \,.
+$$
+
+=--
+
+## Statement
+
+With the above notions and notation, **Noether's theorem** states:
+
++-- {: .num_theorem}
+###### Theorem
+
+If $v \in T_v(j_\infty E)$ is a symmetry, then 
+
+$$
+  j_v := \sigma_v - \iota_v \theta
+$$
+
+is a [[conserved current]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{VariationOfTheLagrangian} and def. \ref{Symmetry} we have
+
+$$
+  \begin{aligned}
+    d (\sigma_v - \iota_v \theta)
+    & =
+    \iota_v \delta L + \iota_v d \theta
+    \\
+    & = \iota_v E(L)
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+[[!redirects Noether theorem]]
