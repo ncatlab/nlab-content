@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 #### $\infty$-Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
@@ -92,6 +96,37 @@ $$
 $$
 
 ## Properties
+
+### Symplectomorphisms
+
++-- {: .num_prop}
+###### Proposition
+
+For $(X, \omega)$ a symplectic manifold, the [[vector field]]s
+$v \in \Gamma(T X)$ that generate [[diffeomorphism]]s that preserve the symplectic structure are precisely the locally Hamiltonian vector fields.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The condition in question is that the [[Lie derivative]]
+
+$$
+  L_v \omega = 0
+$$
+
+vanishes. By [[Cartan's magic formula]] and using that $d \omega = 0$ this is equivalently
+
+$$
+  d \iota_v \omega = 0
+  \,.
+$$
+
+By the [[Poincare lemma]] it follows that there is locally a function $H$ with $d H = \iota_v \omega$.
+
+=--
+
 
 ### Poisson structure
 
