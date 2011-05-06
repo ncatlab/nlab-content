@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Variational calculus
++--{: .hide}
+[[!include variational calculus - contents]]
+=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
@@ -9,7 +13,9 @@
 =--
 =--
 
-For a classical mechanical system, the laws of motion can be expressed in terms of action principle: the actual paths must be the (locally) extremal paths of the [[action functional]]. 
+## Idea
+
+For a [[classical mechanics|classical mechanical]] system, the [[equations of motion|laws of motion]] can be expressed in terms of an [[action]] principle: the actual paths must be the (locally) extremal paths of the [[action functional]]. 
 
 In one of the formulations of the classical mechanics, called Lagrangean formalism, every mechanical system is characterized by its configuration space and a single function called Lagrangian which determines the laws of motion (the initial configuration should be given independently).
 
@@ -22,6 +28,31 @@ $$
 Here $q = (q_1,\ldots, q_n)$ is the coordinate in the configuration space. 
 
 For continuum systems satisfying reasonable locality, Lagrangians can be expressed in terms of integrating a local quantity, so-called Lagrangian density. 
+
+## Definition
+
+For $X$ a ([[spacetime]]) [[smooth manifold]] of [[dimension]] $n$ and $E \to X$ a field [[bundle]] with [[jet bundle]] $j_\infty E \to X$ let $\Omega^{\bullet, \bullet}(j_\infty E)$ be the corresponding [[variational bicomplex]].
+
+A **Lagrangian** on $E$ is an element
+
+$$
+  L \in \Omega^{n,0}(j_\infty E)
+$$
+
+regarded as a [[differential form]]-valued [[functional]] on the space of [[section]]s:
+
+$$
+  L : (\phi \in \Gamma(E)) \mapsto L(j_\infty \phi)
+  \,.
+$$
+
+The [[integral]]
+
+$$
+  \int_X L(j_\infy(-)) : \Gamma(\phi) \to \mathbb{R}
+$$
+
+is the corresponding [[local action functional]].
 
 [[!redirects Lagrangean]]
 [[!redirects Lagrangian function]]
