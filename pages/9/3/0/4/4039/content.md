@@ -6,8 +6,17 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Variational calculus
++--{: .hide}
+[[!include variational calculus - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
 =--
 =--
+=--
+
 
 
 #Contents#
