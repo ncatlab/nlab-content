@@ -454,6 +454,13 @@ The following particular type theories are important enough to (potentially) hav
 * the [[internal logic of an (∞,1)-topos]]
 * [[homotopy type theory]]
 
+## Related concepts
+
+* [[2-type theory]]
+
+* [[(∞,1)-type theory]]
+
+
 [[!redirects dependent type theory]]
 [[!redirects dependent type theories]]
 [[!redirects type theories]]
