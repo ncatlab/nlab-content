@@ -22,7 +22,7 @@
 
 ## Idea
 
-Type theory is a branch of mathematical [[logic]] which studies elements of varying _types_, or _sorts_, rather than elements of a single fixed sort.  Type theory is distinguished particularly by the importance of [[context]] in the specification of terms and formulas, and has close links to the [[internal logic]] of categories.
+Type theory is a branch of mathematical [[logic]] which studies elements of varying _types_, or _sorts_, rather than elements of a single fixed sort.  Type theory is distinguished particularly by the importance of [[context]] in the specification of [[term]]s and [[formula]]s, and has close links to the [[internal logic]] of [[categories]].
 
 
 ## An introduction for category-theorists {#CategoricalSemantics}
@@ -44,19 +44,19 @@ A couple of side notes for experts:
 
 ### The internal language of a category
 
-Given a [[category]] $\mathcal{C}$, we may speak about its **internal language** as a type theory.  There is a whole page on [[internal logic]], but here our goal is to exhibit it as a particular type theory, to help explain the meaning of type-theoretic notions.  The [[syntax|syntactic]] constructs corresponding to [[object]]s and [[morphism]]s are called _types_ and _terms_, respectively. The types correspond to objects (with various subtleties), while the terms denote morphisms by using _variables_ to indicate domains.  
+Given a [[category]] $\mathcal{C}$, we may speak about its **internal language** as a type theory.  There is a whole page on [[internal logic]], but here our goal is to exhibit it as a particular type theory, to help explain the meaning of type-theoretic notions.  The [[syntax|syntactic]] constructs corresponding to [[object]]s and [[morphism]]s are called _[[type]]s_ and _[[terms]]_, respectively. The types correspond to [[object]]s (with various subtleties), while the [[terms]] denote [[morphism]]s by using _[[variables]]_ to indicate [[domain]]s.  
 
 #### Types, terms, and variables
 
-* In category theory a [[morphism]] $f$ in $\mathcal{C}$ with 
+* In [[category theory]] a [[morphism]] $f$ in $\mathcal{C}$ with 
   [[domain]] $B$ and [[codomain]] $A$ 
   is in symbols
 
   $$  B \stackrel{f}{\to} A\,. $$ 
 
 * In the internal language of the category the same is
-   a _term_ $f(x)$ of _type_ $A$ where $x$ is 
-  a _free variable_ of _type_ $B$, which in symbols is given by
+   a _[[term]]_ $f(x)$ of _[[type]]_ $A$ where $x$ is 
+  a _[[free variable]]_ of _type_ $B$, which in symbols is given by
 
   $$ x\colon B \vdash f(x)\colon A\,. $$
 
@@ -456,9 +456,14 @@ The following particular type theories are important enough to (potentially) hav
 
 ## Related concepts
 
-* [[2-type theory]]
+## Related concepts
 
-* [[(∞,1)-type theory]]
+* **type theory**, [[logic]]
+
+* [[2-type theory]], [[2-logic]]
+
+* [[(∞,1)-type theory]], [[(∞,1)-logic]]
+
 
 
 [[!redirects dependent type theory]]
