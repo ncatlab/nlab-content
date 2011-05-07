@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Type theory
++--{: .hide}
+[[!include type theory - contents]]
+=--
 #### Foundations
 +--{: .hide}
 [[!include foundations - contents]]
@@ -26,6 +30,14 @@
 
 A flavor of [[type theory]] that seems to serve as a [[foundation]] for [[homotopy theory]] and [[(∞,1)-topos theory]].
 
+## Related concepts
+
+* [[type theory]]
+
+* [[2-type theory]]
+
+* **$(\infty,1)$-type theory**
+
 ## References
  {#References}
 
@@ -35,3 +47,6 @@ A flavor of [[type theory]] that seems to serve as a [[foundation]] for [[homoto
  {#Awodey}
 
 * [[Michael Shulman]], _Homotopy type theory_  <a href="http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_i.html">I</a>,  <a href="http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_ii.html">II</a>, <a href="http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_iii.html">III</a>, <a href="http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html">IV</a>
+
+[[!redirects (∞,1)-type theory]]
+[[!redirects (infinity,1)-type theory]]
