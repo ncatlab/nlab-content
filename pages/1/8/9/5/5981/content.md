@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+In the [[internal language]] of a [[category]] a [[morphism]]
+
+$$
+  f: B \to A
+$$
+
+is a _[[term]]_ $f(x)$ of _[[type]]_ $A$ where $x$ is 
+a **free variable** of _type_ $B$, which in symbols is given by
+
+$$ x\colon B \vdash f(x)\colon A\,. $$
+
+We may think of the _free variables_ here as being placeholders for all the [[generalized element]]s $U \stackrel{x}{\to} B$ of $B$. Then the assertion $x\colon B \vdash f(x)\colon A$ indicates that with $B \stackrel{f}{\to} A$ given we may send $U \stackrel{x}{\to} B$ to the [[composition]] $(U \stackrel{x}{\to} B \stackrel{f}{\to}A ) = (U \stackrel{f(x)}{\to} A)$.
+
+[[!redirects variables]]
+
+[[!redirects free variable]]
+[[!redirects free variables]]
