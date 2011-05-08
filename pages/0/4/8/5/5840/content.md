@@ -1,1 +1,3 @@
-This is S. Carnahan's page.  You can find me by searching for words like "carnahan" and "ipmu".
+* [website](http://member.ipmu.jp/scott.carnahan/)
+
+category: people
