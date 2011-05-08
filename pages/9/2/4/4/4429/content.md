@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea
@@ -36,62 +36,73 @@ $$
 where $i$ runs over a set of generators of the invariant polynomials. This is the analogy in [[nonabelian cohomology|nonabelian]] [[differential cohomology]] of the generalized [[Chern character]] map in [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg-Steenrod]]-[[differential cohomology]].
 
 
-## In terms of $\infty$-Lie algebroids
+## Refined Chern-Weil homomorphism
 
-An [[Ehresmann connection]] on a $G$-[[principal bundle]] $P$ is a differential form $A \in \Omega^1(P,\mathfrak{g})$ that restricts to the canonical flat $\mathfrak{g}$-valued 1-form $A_{vert} \in \Omega^1(P_x, \mathfrak{g})$ on the fibers $\simeq G$ of $P$. nWriten $T P$ for the [[tangent Lie algebroid]] of $P$ and $T_{vert}P$ for the [[vertical tangent Lie algebroid]], and $inn(\mathfrak{g})$ for the [[Lie 2-algebra]] coming from the [[differential crossed module]] $[\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g}]$, this gives a diagram of [[∞-Lie algebroid]]s
+We describe the _refined_ Chern-Weil homomorphism (which associates a class in [[ordinary differential cohomology]] to a [[principal bundle]] with [[connection on a bundle|connection]]) in terms of the [[universal connection]] on the [[universal principal bundle]]. We follow ([HopkinsSinger, section 3.3](#HopkinsSinger)).
 
+
+* Let $G$ be a [[compact space|compact]] [[Lie group]]
+
+* with [[Lie algebra]] $\mathfrak{g}$;
+
+* and write $inv(\mathfrak{g})$ for the [[dg-algebra]] of [[invariant polynomial]]s on $\mathfrak{g}$ (which has trivial differential).
+
+* Write $B^{(n)}G$ for the smooth level $n$ [[classifying space]] 
+
+* and $B G := {\lim_\to}_n B^{(n)}G$ for the [[colimit]], a smooth model of the [[classifying space]] of $G$.
+
+* Write $\nala_{univ}$ for the [[universal connection]] on $E G \to B G$.
+
+* Let $[c] \in H^k(B G, \mathbb{Z})$ be a [[characteristic class]] 
+
+* and choose a refinement $[\hat \mathbf{c}] \in H_{diff}^k(B G)$ in [[ordinary differential cohomology]] represented by a [[differential function complex|differential function]]
+
+  $$
+    (c, h, w) \in C^k(B G, \mathbb{Z}) \times C^{k-1}(B G, \mathbb{R}) \times (W(\mathfrak{g}) \simeq C^k(B G, \mathbb{R}))^k
+    \,.
+  $$
+
++-- {: .num_defn}
+###### Definition
+
+For $X$ a [[smooth manifold]], $P \to X$ a smoth $G$-[[principal bundle]] with smooth classifying map $f : X \to B G$ and [[connection on a bundle|connection]] $\nabla$. 
+Write $CS(\nabla, f^* \nabla_{univ})$ for the [[Chern-Simons form]] for the interpolation between $\nabla$ and the pullback of the universal connection along $f$.
+
+Then defined the cocycle in [[ordinary differential cohomology]] given by the [[differential function complex|function complex]]
 
 $$
-  \array{
-     T_{vert} P &\stackrel{A_{vert}}{\to}& \mathfrak{g}
-     \\
-     \downarrow && \downarrow
-     \\
-     T P &\stackrel{(A,F_A)}{\to}& inn(\mathfrak{g})
-  }
-  \,.
+  \hat \mathbf{c} :=
+  (f^* c , f^* h + CS(\nabla, f^* \nabla_{univ}), w(F_{\nabla_t}))
+  \in
+    (c, h, w) \in C^k(B G, \mathbb{Z}) \times C^{k-1}(B G, \mathbb{R}) \times \Omega_{cl}^k(X)
+    \,.  
 $$
 
-The [[curvature characteristic form]]s of $A$ on $P$ are in terms of this given by postcomposition with the canonical morphisms
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The above construction constitutes a map
 
 $$
-  P_i : inn(\mathfrak{g}) \to b^{2 n_i} \mathfrak{u}(1)
+  \hat \mathbf{c} : G Bund_\nabla(X)_\sim \to H_{diff}^k(X)
 $$
 
-that encode the [[invariant polynomial]]s (dually this are the morphism of [[dg-algebra]]s $W(\mathfrak{g}) \leftarrow CE(b^n \mathfrak{u}(1))$ from the dg-algebra on a single degree $2 n_i$-generator and vanishing differential into the [[Weil algebra]]), i.e. by the composite
+from [[equivalence class]]es of $G$-[[principal bundle]]s with [[connection on a bundle|connection]] to degree $k$ [[ordinary differential cohomology]].
 
-$$
-  P(F_A) : T P \stackrel{(A,F_A)}{\to}
-  inn(\mathfrak{g})
-  \stackrel{P_i}{\to}
-  b^{2 n_i} \mathfrak{u}(1)
-  \,.
-$$
+=--
 
-The _second_ condition on an [[Ehresmann connection]], which says that $A$ is Ad-equivariant under the $G$-action on $P$, ensures precisely that these forms are _invariant_ under the $G$-action and hence descend to forms down on $X$. This is expressed by the commutativiy of the bottom square in
-
-$$
-  \array{
-     T_{vert} P &\stackrel{A_{vert}}{\to}& b \mathfrak{g}
-     \\
-     \downarrow && \downarrow
-     \\
-     T P &\stackrel{(A,F_A)}{\to}& b inn(\mathfrak{g})
-     \\
-     \downarrow && \downarrow
-     \\
-     T X &\stackrel{P_i(F_A)}{\to}& b^{2 n_i} \mathfrak{u}(1)
-  }
-  \,.
-$$
-
-So this kind of diagram may be thought of as inducing the Weil-homomorphism mapping $P$ to $P_i(F_A)$.
-
-(...)
 
 ## References
 
-See [[Chern-Weil theory]].
+The description of the refined Chern-Weil homomorphism in terms of [[differential function complex]]es is in section 3.3. of 
+
+* [[Mike Hopkins]], I. Singer, _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
+ {#HopkinsSinger}
+
+
+For more references see [[Chern-Weil theory]].
 
 
 [[!redirects Weil homomorphism]]
