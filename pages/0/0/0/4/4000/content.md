@@ -14,14 +14,10 @@
 =--
 =--
 
-* **Chern-Simons circle 3-bundle**
 
-* [[Chern-Simons circle 7-bundle]]
-
-***
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -642,6 +638,9 @@ that are associative up to a higher coherent morphisms, etc.
 * The [[higher parallel transport]] of a Chern-Simons circle 3-bundle is the [[action functional]] for [[Chern-Simons theory]].
 
 * For the case that $G = O$ is the [[orthogonal group]] and $X \to \mathbf{B}O$ the classifying map of the [[tangent bundle]] of $X$, a trivialization of the corresponding Chern-Simons 3-bundle is a [[string structure]] on $X$. A trivialization of the Chern-Simons 3-bundle _with connection_ is a [[differential string structure]] on $X$.
+
+* **Chern-Simons circle 3-bundle**, [[Chern-Simons circle 7-bundle]]
+
 
 ## References
 
