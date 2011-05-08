@@ -345,7 +345,7 @@ See [[connection on a principal ∞-bundle]].
 
 ## Related concepts
 
-* **connection on a bundle**
+* **connection on a bundle**, [[universal connection]]
 
 * [[connection on a 2-bundle]] / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
 
