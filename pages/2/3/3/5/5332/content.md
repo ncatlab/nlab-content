@@ -251,3 +251,6 @@ in section 4.2.
 
 
 [[!redirects differential fivebrane structures]]
+
+[[!redirects twisted differential fivebrane structure]]
+[[!redirects twisted differential fivebrane structures]]
