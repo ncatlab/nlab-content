@@ -169,3 +169,6 @@ See also [[division algebras and supersymmetry]].
 
 [[!redirects membrane]]
 [[!redirects membranes]]
+
+[[!redirects NS-fivebrane]]
+[[!redirects NS-fivebranes]]
