@@ -13,6 +13,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 For a [[classical mechanics|classical mechanical]] system, the [[equations of motion|laws of motion]] can be expressed in terms of an [[action]] principle: the actual paths must be the (locally) extremal paths of the [[action functional]]. 
