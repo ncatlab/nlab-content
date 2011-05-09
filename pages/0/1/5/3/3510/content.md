@@ -1,11 +1,21 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
 [[!include model category theory - contents]]
-</div>
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -46,7 +56,7 @@ by setting
 
 * cofibrations are the [[monomorphism]]s
 
-* weak equivalences are the **Rezk weak equivalences**:. those morphisms $u : A \to B$ such that for all [[complete Segal space]]s $X$ the morphism $hom(u,X) \to hom(B,X) \to hom(A,X)$ is a weak equivalence in the standard [[model structure on simplicial sets]].
+* weak equivalences are the **Rezk weak equivalences**:. those morphisms $u : A \to B$ such that for all [[complete Segal space]]s $X$ the morphism $hom(u,X) : hom(B,X) \to hom(A,X)$ is a weak equivalence in the standard [[model structure on simplicial sets]].
 
 The fibrant objects in the structure are precisely the [[complete Segal space]]s.
 
@@ -65,7 +75,7 @@ For handling this it can be useful to realize it as a [[Bousfield localization o
 ###### Proposition
 **(vertical model structure on bisimplicial sets)**
 
-The category $[\Delta^{op}\times \Delta^{op}, Set]$ of [[bisimplicial set]]carries the structure of a 
+The category $[\Delta^{op}\times \Delta^{op}, Set]$ of [[bisimplicial set]] carries the structure of a 
 
 * [[proper model category|proper]]
 
@@ -127,7 +137,7 @@ $$
 
 where 
 
-* $t_!$ assigns the total simplicial set to a bisimplicial set: it is the left [[Kan extension]] of the functor $t : \Delta \times \Delta \to BiSSet$ given by $([k],[l]) \mapsto \Delta[k]\times Ex^{\infty}(\Delta[l])$ along the [[Yoneda embedding]]
+* $t_!$ assigns the total simplicial set to a bisimplicial set: it is the left [[Kan extension]] of the functor $t : \Delta \times \Delta \to BiSSet$ given by $([k],[l]) \mapsto \Delta[k]\times Ex^{\infty} (\Delta[l])$ (where $Ex^\infty$ is described at [[Kan fibrant replacement]]) along the [[Yoneda embedding]]
 
   $$
     t_!(X_{\bullet,\bullet})
@@ -140,13 +150,14 @@ where
 * and where $t^!$ forms in each degree the mapping space
 
   $$
-    t^! : X_\bullet \mapsto ([m,n] \mapsto 
+    t^! : X_\bullet \mapsto 
+    \left(
+     [m,n] \mapsto 
       Hom_{sSet}( \Delta[m] \times Ex^{\infty} \Delta[n], X)
-    )
-    \,,
+    \right)
+    \,.
   $$
 
-where $Ex^\infty$ is the [[Kan fibrant replacement]] functor.
 
 +-- {: .un_prop}
 ###### Proposition
