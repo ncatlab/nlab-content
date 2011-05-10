@@ -14,7 +14,7 @@
 =--
 
 #Contents# 
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -92,6 +92,8 @@ Differential geometric and topological aspects (e.g. connections to index theore
 * [[Albert Schwarz]], Quantum field theory and topology, Grundlehren der Math. Wissen. __307__, Springer 1993.  
 
 * [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]], _Mathematical foundations of quantum field and perturbative string theory_ Proceedings of Symposia in Pure Mathematics, AMS (<a href="http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory">web</a>).
+
+* [[Graeme Segal]}, _[[Three Roles of Quantum Field Theory]]_ , Felix Klein lectures, Bonn (2011)
 
 For further references see [[FQFT]] and [[AQFT]].
 
