@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _Berezinian integral_ is an [[integration over supermanifolds|integral over a supermanifold]] that is  a [[superpoint]] $\mathbb{R}^{0|q}$.
+
+For the infinite-dimensional version see [[fermionic path integral]].
+
+## Related entries
+
+* [[integration]], [[integral]]
+
+* [[superpoint]], [[Grassmann algebra]]
+
+[[!redirects Berezinian integral]]
