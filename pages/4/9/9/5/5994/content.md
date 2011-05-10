@@ -1,0 +1,175 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The [[path integral]] over the [[fermion]]ic variables of the standard kinetic [[action functional]] for [[fermion]]s has a well-defined meaning in terms of a [[section]] of the [[Pfaffian line bundle]] of the corresponding [[Dirac operator]].
+
+We consider a [[sigma model]] [[quantum field theory]] on a worldvolume $\Sigma$ and target space $X$ with fields
+
+* [[boson]]: $\phi : \Sigma \to X$
+
+* [[fermion]] ([[gravitino]]): $\psi \in \Gamma(S(\Sigma) \otimes \phi^* T M)$
+
+* [[action functional]]
+
+  * $S^{bos})(\phi) = \int_\Sigma \langle d \phi \wedge \start d \phi\rangle$
+
+  * $S^{ferm}(\psi) = \int_\Sigma \langle \psi, D_\phi \psi\rangle $
+
+  where $D_\phi$ is the [[Dirac operator]] on $S \otimes \phi^* T M$
+
+problem: makes sense of the quantum integrand
+
+Solution:
+
+[[index theory]] defined a [[pfaffian line bundle]] $Pfaff(D_\phi)$ over $C^\infty(\Sigma, X)$ and a [[section]] $pfaff$ such that
+
+$$
+  \int_\psi \exp(S_\phi^{ferm}(\psi)) = pfaff(\phi)
+$$
+
+a [[differential string structure]] $\mathbb{T}$ on $X$ defines a trivialization
+
+$$
+  t_{\mathcal{T}} Pfaff(D_\phi) \to \mathb{C}
+$$
+
+Then
+
+$$
+  \mathcal{A}(\phi) = \exp(S^{bos}(\phi))
+ (t_{\mathbb{T}} \circ pfaff)
+$$
+
+## Pfaffian bundles
+
+recall the [[Pfaffian]] of a [[matrix]]
+
+given $\phi : \Sigma \to X$ we have a [[Dirac operator]]
+
+$$
+  D_\phi^{\pm} : \mathcal{H}_\phi^{\pm} \to \mathcal{H}^{\mp}_\phi
+$$
+
+and a "quaternionic structure"
+
+$$
+  J_\phi^{\pm} : \mathcal{H}_\phi^{\pm} \to \mathcal{H}^{\mp}_\phi
+$$
+
+
+define an [[open cover]] $(0 \leq \mu)$
+
+$$
+  U_\mu = \{ \phi \in C^\infty(\Sigma,X)  | \mu not \in Spec D_\phi^2\}
+$$
+
+over $\phi U_\mu$ look at 
+
+$$
+  \mathcal{H}_\phi^{\mu \pm} :=
+   \oplus_{0 \leq \epsilon \leq \mu}
+  Eig(D_\phi^2, \epsilon)
+$$ 
+
+these are finite [[dimension]]al [[vector space]]s 
+
+with
+
+$$
+  D_\phi^\mu
+  :=
+  J_\phi^- \circ D_\phi^+ : \mathcal{H}_\phi^{\mu,+} \to \mathcal{H}_\phi^{\mu,+}
+$$
+
+define
+
+$$
+  f_\phi^\mu \in \wedge^2 (\mathcal{H}_\phi^{\mu +})
+$$
+
+by 
+
+$$
+  \langle -, D_\phi^\mu -\rangle
+$$
+
+it follows that the [[Pfaffian]] $pfaff(f_\phi^\mu) \in det(\mathcal{H})_\phi^{\mu +}^*$ is in the [[determinant]] line of the vector space
+
+and so we get 
+
+* a smooth [[line bundle]] $Pfaff(D_X)|_\phi = det(\mathcal{H}_\phi^{\mu +})^*$
+
+* a smooth [[section]] $pfaff|_\phi = pfaff(f_\phi^\mu)$
+
+There is canonically a [[hermitean metric]] and a  unitary [[connection on a bundle]] (the [[Freed-Bismut connection]]) on this bundle.
+
+## Quantum integrand
+
+The [[Berezinian integral]]
+
+$$
+  \int : \wedge^\bullet V^* \to det V^*
+$$
+
+$$
+  \alpha \in \Lambda^k(V^*) \mapsto \left\{
+  \array{
+     \alpha & if k = 2 n
+     \\
+      0 & otherwise
+  }
+  \right.
+$$
+
+**Proposition** $f \in \wedge^2 V^*$ then the [[Pfaffian]] is the [[Berezinian integral]] over the [[exponential]] of $f$
+
+$$
+  pfaff(f) = \int \exp(f)
+$$
+
+
+Now over $U_\mu$: apply this to $V = \mathcal{H}_\phi^\mu$, f_\phi^\mu \in \wedge^2(\mathcal{H)_\phi^{\mu,+})^*
+
+$$
+  \int \exp(f_\phi^\mu)
+  = 
+  \int \exp \int_\Sigma \langle -, D_\phi^\mu - \rangle dvol_\Sigma
+  = 
+  pfaff(\phi)
+  \,.
+$$
+
+The right hand does not depend on $\mu$, so the left hand does not, and hence this yields a definition of the fermionic path integral
+
+## Examples
+
+For the superstring the trivialization of the Pfaffian line bundle, hence the cancellation of its fermionic [[quantum anomaly]] is related to the existence of a (twisted) [[differential string structure]] on target space. See there for more details.
+
+## Related entries
+
+* [[path integral]]
+
+* [[spinors in Yang-Mills theory]]
