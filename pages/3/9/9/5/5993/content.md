@@ -1,0 +1,80 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Pfaffian_ of a [[skew-symmetric matrix]] is a [[square root]] of its [[determinant]].
+
+## Definition
+
+Let $A = (A_{i,j})$ be a skew-symmetric $(2n \times 2n)$-[[matrix]]  with entries in some [[field]] (or [[ring]]) $k$.
+
+
++-- {: .num_defn}
+###### Definition
+
+The _Pfaffian_ $Pf(A) \in k$ is the element
+
+$$
+  \frac{1}{2^n n!}  \sum_{\sigma \in S_{2n}} sgn(\sigma) \prod_{i = 1}^n 
+  A_{\sigma(2i -1), A_{\sigma(2i)}}
+  \,,
+$$
+
+where 
+
+* $\sigma$ runs over all [[permutation]]s of $2n$ elements;
+
+* $sgn(\sigma)$ is the [[signature of a permutation]].
+
+=--
+
+## Properties
+
+### In terms of Berezinian integrals
+
++-- {: .num_prop}
+###### Proposition
+
+
+Let $\Lambda_{2n}$ be the [[Grassmann algebra]] on $2n$ generators $\{\theta_i\}$, which we think of as a [[vector]] $\vec \theta$
+
+Then the Pfaffian $Pf(A)$ is the [[Berezinian integral]]
+
+$$
+  Pf(A)
+  =
+  \int   
+    \exp( \langle \vec \theta, A \cdot \vec \theta \rangle )
+  d \theta_1 d \theta_2 \cdots d \theta_{2n}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Compare this to the Berezinian integral representation of the [[determinant]], which is 
+
+$$
+  det(A)
+  \propto
+  \int   
+    \exp( \langle \vec \theta, A \cdot \vec \psi \rangle )
+  d \theta_1 d \theta_2 \cdots d \theta_{2n}
+  d \psi_1 d \psi_2 \cdots d \psi_{2n}
+  \,.
+$$
+
+=--
+
+## Related entries
+
+* [[determinant]]
+
+* [[Pfaffian line bundle]]
+
+[[!redirects Pfaffians]]
