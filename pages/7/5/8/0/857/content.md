@@ -6,3 +6,19 @@ In general, the requirements are:
 1. Every degenerate element is thin.
 1. Every hollow shape has a unique thin filler.
 1. If a thin element has every face but one also thin, then the last face is thin as well.
+
+There is also a notion of polyhedral$T$-complex, defined in David Jones 1983 PhD Thesis, see References. There are no degeneracies in this theory, but it does allow for the shapes quite, but not completely,  general forms of regular cell decompositions of cells. This gives a solution to the problem of defining general compositions. One has  to define:
+1. What are the pieces that might be composable?
+1. When are they composable?
+1. What is their composite?
+1. What are the axioms on the composition?
+
+On the face of it, the last problem seems the hardest. It turns out that the last two $T$-complex axioms are sufficient!  Thus the geometry determines the algebra. 
+
+Currently the theory gives really a version of higher groupoids, rather than categories. 
+
+
+##References##
+
+* David W. Jones, _A general theory of polyhedral sets and the corresponding
+  $T$-complexes_. Dissertationes Math. (Rozprawy Mat.) 266 (1988) 110. [Scanned Thesis](http://pages.bangor.ac.uk/r.brown/pdffiles/jones1983PolyTComplexes.pdf)
