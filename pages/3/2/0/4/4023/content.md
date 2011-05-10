@@ -3,7 +3,6 @@
 
 ### Determinant of a matrix
 
-...
 
 ## Properties
 
@@ -13,6 +12,6 @@ see [[Pfaffian]] for the moment
 
 ## Related entries
 
-* [[Pfaffian]], [[determinant line bundle]], [[quasideterminant]], [[resultant]]
+* [[Pfaffian]], [[determinant line]], [[determinant line bundle]], [[quasideterminant]], [[resultant]]
 
 [[!redirects determinants]]
