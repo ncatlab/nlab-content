@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
-#### $(\infty,1)$-topos theory
+#### $(\infty,1)$-Category theory
 +--{: .hide}
-[[!include (infinity,1)-topos - contents]]
+[[!include quasi-category theory contents]]
 =--
 =--
 =--
@@ -93,14 +93,14 @@ Define a **category with zeros** to be a category $B$ equipped with a full subca
 The following is a "first try"; probably a more precise statement is possible.
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #LocallyNullFinal}
 ###### Definition
 A functor $f\colon A \to B$ between categories with zeros is **locally null-final** if for every $a\in A$, every $b_0 \in B_0$, and every morphism $\phi\colon b_0 \to f(a)$, the category of triples $(a_0\in A_0, a_0 \xrightarrow{\alpha} a, b_0 \xrightarrow{\beta} f(a_0))$ such that $\phi = f(\alpha).\beta$ has a contractible nerve.
 =--
 
 +-- {: .num_lemma #LocallyNullFinalLemma}
 ###### Lemma
-If $f\colon A \to B$ is locally null-final and $D$ is a pointed derivator, then the functors $f^*\colon D(B) \to D(A)$ and $f^*\colon D(B,B_0) \to D(A,A_0)$ commute with the reflections of $D(B)$ and $D(A)$ into $D(B,B_0)$ and $D(A,A_0)$, respectively.  In other words, the canonical [[natural transformation]]
+If $f\colon A \to B$ is [locally null-final](#LocallyNullFinal) and $D$ is a pointed derivator, then the functors $f^*\colon D(B) \to D(A)$ and $f^*\colon D(B,B_0) \to D(A,A_0)$ commute with the reflections of $D(B)$ and $D(A)$ into $D(B,B_0)$ and $D(A,A_0)$, respectively.  In other words, the canonical [[natural transformation]]
 
 $$
   \array{ 
@@ -157,8 +157,9 @@ $$\array{ I & \xrightarrow{f} & J \\
   K & \xrightarrow{g} & L}$$
 of categories with zeros has the properties that
 
-1. it is homotopy exact as a square of categories, when the full subcategories are ignored, and
-1. $g$ is locally null-final,
+1. it is [[homotopy exact square|homotopy exact]] as a square of categories, when the full subcategories are ignored, and
+
+1. $g$ is [locally null-final](#LocallyNullFinal),
 
 then for any pointed derivator, the induced transformation
 $$\array{ D(I,I_0) & \xleftarrow{f^*} & D(J,J_0) \\
