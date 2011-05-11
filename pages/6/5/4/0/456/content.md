@@ -95,14 +95,15 @@ also serves as a motivation or justification of the notion of geometric morphism
 
 * [Relation to homomorphisms of sites](#RelationToMorphismsOfSites)
 
-is a fairly straightforward generalization of that situation, reflecting the passage from (sheaf-) [[(0,1)-topos]]es to general [[(1,1)-toposes]].
+is a fairly straightforward generalization of that situation, reflecting the passage from (sheaf-) [[(0,1)-topos]]es to general [[topos|(1,1)-toposes]].
 
-One of the subtle points about geometric morphisms of toposes is that there is also another sensible notion of topos [[homomorphism]]s: [[logical morphism]]s. In
+A somewhat subtle point about geometric morphisms of toposes is that there is also another sensible notion of topos [[homomorphism]]s: [[logical morphism]]s. In
 
 * [Relation to logical morphism](#RelationToLogicalMorphisms)
 
 aspects of the relation between the two concepts are discussed.
 
+The reader wishing to learn about geometric morphisms systematically might want to first read the section on _[Geometric morphisms between presheaf toposes](#BetweenPresheafToposes)_ below, as much of the following discussion makes use of a few basic facts discussed there.
 
 ### Relation to homomorphisms of locales
  {#RelationToHomomorphismOfLocales}
@@ -288,7 +289,7 @@ $$
   f := (f^* \dashv f_*) 
   : 
   [C,Set] 
-    \stackrel{\overset{f_1}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
+    \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
   [D, Set]
   \,,
 $$
@@ -323,7 +324,68 @@ Hence $f_! \simeq Lan_f$ and $f_* \simeq Ran_f$. Notice that [[left adjoint]]s a
 
 =--
 
+Next we consider extra [[property]] on $C$, $D$ and $f$ such that $f^*$ induces also a second geometric morphism, going the other way round. This plays a role for the discussion of [morphisms of sites](#RelationToMorphismsOfSites). For that reason we pass now from $C$ and $D$ to their [[opposite categories]] hence consider genuine [[presheaves]] on $C$ and $D$.
 
++-- {: .num_prop }
+###### Proposition
+
+Let $C$ and $D$ by categories with [[finite limit]]s and let $f : C \to D$ be a finite-limit [[preserved limit|preserving]] functor.
+
+Then in the [[adjoint triple]]
+
+$$
+  (f_! \dashv f^* \dashv f_*) 
+  :
+  [C^{op},Set] 
+    \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
+  [D^{op}, Set]
+$$
+
+the left [[Kan extension]] $f_1$ also preserves finite limits and hence in this case $f^*$ is also the [[direct image]] of a geometric morphism going the other way round:
+
+$$
+  (f_! \dashv f^* ) : [D^{op},Set] \to [C^{op}, Set]
+  \,.
+$$
+
+=--
+
+This appears as ([Johnstone, example 4.1.10](#Johnstone)).
+
++-- {: .proof}
+###### Proof
+
+Recall that for $F : C^{op} \to Set$ a functor, the left [[Kan extension]] $f_! F : D^{op} \to Set$ is computed over each object $d \in D$ by the [[colimit]]
+
+$$
+  (f_! F)(d) = 
+  \lim_\to
+  \left(
+     (d/f)^{op} \stackrel{U}{\to} C^{op} \stackrel{F}{\to} Set
+  \right)
+$$
+
+where $(d/f)$ is the [[comma category]] and 
+
+$$
+  U : (d/f) \to C
+$$
+
+is the evident forgetful functor. This is natural in $F$ and so $(f_! -)(d)$ is the functor
+
+$$
+  (f_! -)(d) : [C^{op}, Set] \stackrel{U^*}{\to}
+   [(d/f)^{op}, Set]
+   \stackrel{\lim_\to}{\to}  
+   Set
+  \,.
+$$
+
+By the above argument $U^*$ has a [[left adjoint]] (the left [[Kan extension]] along $U$) hence itself preserves all [[limit]]s. 
+
+It then suffices to observe that by the fact that $f$ preserves finite limits we have that the categories $(d/f)^{op}$ are [[filtered categories]]. Then by the fact (see there) that [[filtered colimit]]s commute with finite limits, it follows that also $\lim_\to$ preserves finite limits, and hence $(f_! -)(d)$ does. Since colimits of presheaves are computed objectwise, this shows that $f_!$ preserves finite limits.
+
+=--
 
 ### Surjections and embeddings
 
