@@ -25,9 +25,9 @@ A [[derivator]] is *pointed* if it has a [[zero object]] in the sense appropriat
 
 ## Definition
 
-A derivator $D\colon Dia^{op} \to Cat$ is **pointed**, or has a **zero object**, if each category $D(X)$ has a zero object.
+A derivator $D\colon Dia^{op} \to Cat$ is **pointed**, or has a **zero object**, if each [[category]] $D(X)$ has a zero object.
 
-Note that these zero objects are automatically preserved by all the functors $u_!,u^*,u_*$, since they are all adjoints on one side or the other.
+Note that these zero objects are automatically preserved by all the [[functors]] $u_!,u^*,u_*$, since they are all [[adjoint functor|adjoints]] on one side or the other.
 
 ## Properties
 
@@ -39,7 +39,7 @@ If $D$ is a pointed derivator and $i\colon A\hookrightarrow B$ is a [[full subca
 
 +-- {: .num_lemma #SieveRel}
 ###### Lemma
-If $i$ is the inclusion of a [[sieve]], then $i_*\colon D(A) \to D(B)$ is fully faithful and its essential image is $D(B,B\setminus A)$.  Similarly, if $i$ is a cosieve, then $i_!$ identifies $D(A)$ with $D(B,B\setminus A)$.
+If $i$ is the inclusion of a [[sieve]], then $i_*\colon D(A) \to D(B)$ is [[full and faithful functor|fully faithful]] and its [[essential image]] is $D(B,B\setminus A)$.  Similarly, if $i$ is a cosieve, then $i_!$ identifies $D(A)$ with $D(B,B\setminus A)$.
 =--
 +-- {: .proof}
 ###### Proof
@@ -51,14 +51,14 @@ $$
 is homotopy exact (where $j$ is the inclusion).  Therefore $j^* i_* X$ is terminal for any $X\in D(A)$, so that $i_*$ lands inside $D(B,B\setminus A)$.  Conversely, if $X\in D(B,B\setminus A)$, then the map $X \to i_* i^* X$ is an isomorphism on $A$ (since $i_*$ is fully faithful) and on $B\setminus A$ (since both are terminal there), hence is itself an isomorphism; so $X$ is in the essential image of $i_*$.
 =--
 
-The following theorem is stated as Proposition 7.4 of Heller's paper "Stable homotopy theories and stabilization".
+The following theorem is stated as Proposition 7.4 of [Heller's paper](#HellerStable) "Stable homotopy theories and stabilization".
 
 +-- {: .num_theorem #RelRefl}
 ###### Theorem
 $D(B,A)$ is a [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]] subcategory of $D(B)$.
 =--
 +-- {: .proof}
-Let $M i$ denote the "codirected mapping cylinder" of $i\colon A \hookrightarrow B$, by which we mean the full subcategory of $B\times I$ on the objects $(x,0)$ for $x\in B$ and $(i(x),1)$ for $x\in A$ (here $I$ is the [[interval category]] $(0\to 1)$).  This is also the same as the [[cocomma object]] $(B \uparrow i)$.  Write $B \overset{u}{\to} M i \overset{p}{\to} B$ for the evident inclusion and projection.
+Let $M i$ denote the "codirected [[mapping cylinder]]" of $i\colon A \hookrightarrow B$, by which we mean the full subcategory of $B\times I$ on the objects $(x,0)$ for $x\in B$ and $(i(x),1)$ for $x\in A$ (here $I$ is the [[interval category]] $(0\to 1)$).  This is also the same as the [[cocomma object]] $(B \uparrow i)$.  Write $B \overset{u}{\to} M i \overset{p}{\to} B$ for the evident inclusion and projection.
 
 Consider the adjunction
 $$ D(M i) \underoverset{p^*}{p_!}{\rightleftarrows} D(B). $$
@@ -93,19 +93,29 @@ Define a **category with zeros** to be a category $B$ equipped with a full subca
 The following is a "first try"; probably a more precise statement is possible.
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 A functor $f\colon A \to B$ between categories with zeros is **locally null-final** if for every $a\in A$, every $b_0 \in B_0$, and every morphism $\phi\colon b_0 \to f(a)$, the category of triples $(a_0\in A_0, a_0 \xrightarrow{\alpha} a, b_0 \xrightarrow{\beta} f(a_0))$ such that $\phi = f(\alpha).\beta$ has a contractible nerve.
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma #LocallyNullFinalLemma}
 ###### Lemma
-If $f\colon A \to B$ is locally null-final and $D$ is a pointed derivator, then the functors $f^*\colon D(B) \to D(A)$ and $f^*\colon D(B,B_0) \to D(A,A_0)$ commute with the reflections of $D(B)$ and $D(A)$ into $D(B,B_0)$ and $D(A,A_0)$, respectively.  In other words, the canonical transformation
-$$\array{ D(A) & \xleftarrow{f^*} & D(B) \\
-  ^{L_A}\downarrow & \seArrow & \downarrow^{L_B} \\
-  D(A,A_0) & \xleftarrow{f^*} & D(B,B_0)} $$
-is an isomorphism.
+If $f\colon A \to B$ is locally null-final and $D$ is a pointed derivator, then the functors $f^*\colon D(B) \to D(A)$ and $f^*\colon D(B,B_0) \to D(A,A_0)$ commute with the reflections of $D(B)$ and $D(A)$ into $D(B,B_0)$ and $D(A,A_0)$, respectively.  In other words, the canonical [[natural transformation]]
+
+$$
+  \array{ 
+    D(A) & \xleftarrow{f^*} & D(B) 
+    \\
+    ^{L_A}\downarrow & \seArrow & \downarrow^{L_B} 
+    \\
+    D(A,A_0) & \xleftarrow{f^*} & D(B,B_0)
+  } 
+$$
+
+is an [[isomorphism]].
+
 =--
+
 +-- {: .proof}
 ###### Proof
 Recall that $L_A$ is computed as the composite $D(A) \xrightarrow{u_*} D(M_A, A_0) \xrightarrow{p_!} D(A,A_0)$, where $M_A$ is the codirected mapping cylinder of $A_0\to A$.  We can therefore factor the above square as
@@ -139,7 +149,7 @@ By definition of $M_A$, the morphisms between these objects are the obvious ones
 Finally, consider the case of an $a\in A$ and a $b_0\in B_0 \subset M_B$, and a $\varphi\colon b_0 \to f(a)$.  The category in question consists of triples $(a_0\in A_0, b_0 \to f(a_0), a_0\to a)$ which compose to $\varphi$ (since there are no morphisms in $M_B$ from $b_0\in B_0$ to anything in the image of $A\subset M_A$).  But this is precisely the category asserted to be contractible in the assumption that $f$ is locally null-final.
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 If a square
 $$\array{ I & \xrightarrow{f} & J \\
@@ -164,12 +174,14 @@ $$\array{ D(I,I_0) & \xleftarrow{f^*} & D(J,J_0) \\
   D(K)  & \xleftarrow{g^*} & D(L)\\
   ^{L_K}\downarrow & \seArrow & \downarrow^{L_L}\\
   D(K,K_0) & \xleftarrow{g^*} & D(L,L_0)}$$
-in which the first square is an isomorphism by (1) and the second by (2).
+in which the first square is an isomorphism by the first assumption and by the second assumption and 
+lemma \ref{LocallyNullFinalLemma}.
+
 =--
 
 For example, we can conclude:
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 If $f\colon A\to B$ is a locally null-final functor between categories with zeros, then for any pointed derivator $D$, the functor $f_!\colon D(A,A_0) \to D(B,B_0)$ is fully faithful.
 =--
@@ -217,7 +229,7 @@ Equivalently, the suspension can be defined as the composite
 $$ D 1 = D(1,\emptyset) \overset{(a,\emptyset)_!}{\to} D(\square,bc) \overset{(d,\emptyset)^*}{\to} D(1,\emptyset) = D 1.$$
 This follows because we have $D 1 \simeq D(\Gamma,bc)$, and thus $(a,\emptyset)_!$ is isomorphic to $(abc,bc)_!\colon D(\Gamma,bc) \to D(\square,bc)$, which by definition is $L_{\square,bc} \circ abc_!$.  But $abc_!$ is fully faithful since $abc\colon \Gamma \hookrightarrow \square$ is, and so it already takes $D(\Gamma,bc)$ into $D(\square,bc)$.  Thus $L_{\square,bc}$ is doing nothing, so $(a,\emptyset)_!$ is essentially just $abc_!$ which appeared in our previous definition of $\Sigma$.  (The other functor $a_*$ essentially implements the equivalence $D 1 \simeq D(\Gamma,bc)$.)
 
-Similarly, we have a [[loop space]] functor $\Omega\colon D 1 \to D 1$ defined as the composite
+Similarly, we have a [[loop space object]] functor $\Omega\colon D 1 \to D 1$ defined as the composite
 $$ D 1 \overset{d_!}{\to} D \Gamma^{op} \overset{bcd_*}{\to} D \square \overset{a^*}{\to} D 1.$$
 where $\Gamma^{op}$ is the full subcategory of $\square$ on $\{b,c,d\}$, and it can equivalently be given as the composite
 $$ D 1 = D(1,\emptyset) \overset{(d,\emptyset)_*}{\to} D(\square,bc) \overset{(a,\emptyset)^*}{\to} D(1,\emptyset) = D 1.$$
@@ -250,18 +262,20 @@ Thus we have a $Set_*$-analogue of the derivator axiom (Der3), existence of adjo
 
 ## The pointed reflection
 
-Every derivator can be made pointed in a universal way; given $D$ we define $D_*(A)$ to be the full subcategory of $D(A\times I)$ which is terminal when restricted along $0\colon A\to A\times I$.  It requires a little work to show that this is a derivator.  The main observation being that the inclusion $D_*(A) \hookrightarrow D(A\times I)$ has a left adjoint (the "mapping cone"), which can be constructed just as in the proof of Theorem \ref{RelRefl}.  See III.5 of Heller's memoir.
+Every derivator can be made pointed in a universal way; given $D$ we define $D_*(A)$ to be the full subcategory of $D(A\times I)$ which is terminal when restricted along $0\colon A\to A\times I$.  It requires a little work to show that this is a derivator.  The main observation being that the inclusion $D_*(A) \hookrightarrow D(A\times I)$ has a left adjoint (the "mapping cone"), which can be constructed just as in the proof of Theorem \ref{RelRefl}.  See III.5 of [Heller's memoir](#HellerHomotopy).
 
 
 ## References
 
 See [[derivator]] for general references.  The pointed reflection is discussed in III.5 of
 
-* Alex Heller, "Homotopy theories," Mem. AMS 71:383.
+* Alex Heller, _Homotopy theories_ , Mem. AMS 71:383.
+ {#HellerHomotopy}
 
 The definition of relative diagram categories is taken from:
 
-* Alex Heller, "Stable homotopy theories and stabilization", [MR](http://www.ams.org/mathscinet-getitem?mr=1431157)
+* Alex Heller, _Stable homotopy theories and stabilization_ , [MR](http://www.ams.org/mathscinet-getitem?mr=1431157)
+ {#HellerStable}
 
 
 [[!redirects pointed derivators]]
