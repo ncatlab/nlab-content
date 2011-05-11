@@ -65,10 +65,108 @@ $$\array{A & \overset{f}{\to} & A'\\
   B& \underset{g}{\to} & B'}$$
 commutes, then we have a restriction $(g,f)^*\colon D(B',A') \to D(B,A)$, which has a left adjoint $(g,f)_!$ given by the composite
 $$ D(B,A) \hookrightarrow D(B) \overset{g_!}{\to} D(B') \overset{L_{B',A'}}{\to} D(B',A') $$
-where $L_{B,A}\colon D(B) \to D(B,A)$ denotes the reflection.  It also has a right adjoint defined dually.  Thus, if we wish, we can consider a pointed derivator to be a functor on the 2-category of pairs $(B,A)$ of a category together with a full subcategory, all of whose transition functors have both adjoints.
+where $L_{B,A}\colon D(B) \to D(B,A)$ denotes the reflection.  It also has a right adjoint defined dually.
+
+
+### Pointed exactness
+
+Define a **category with zeros** to be a category $B$ equipped with a full subcategory $B_0$.  By the preceeding remarks, any pointed derivator gives rise to a contravariant pseudofunctor defined on the 2-category of categories with zeros (and functors preserving the specified subcategories), all of whose transition functors have both adjoints.  It is natural to look for exactness conditions, analogous to (Der4) and the characterization of [[homotopy exact squares]], which apply to these adjoints.
 
 +-- {: .query}
-Is it possible to characterize the "homotopy exact squares" in the 2-category of category-pairs?
+The following is a "first try"; probably a more precise statement is possible.
+=--
+
++-- {: .un_defn}
+###### Definition
+A functor $f\colon A \to B$ between categories with zeros is **locally null-final** if for every $a\in A$, every $b_0 \in B_0$, and every morphism $\phi\colon b_0 \to f(a)$, the category of triples $(a_0\in A_0, a_0 \xrightarrow{\alpha} a, b_0 \xrightarrow{\beta} f(a_0))$ such that $\phi = f(\alpha).\beta$ has a contractible nerve.
+=--
+
++-- {: .un_lemma}
+###### Lemma
+If $f\colon A \to B$ is locally null-final and $D$ is a pointed derivator, then the functors $f^*\colon D(B) \to D(A)$ and $f^*\colon D(B,B_0) \to D(A,A_0)$ commute with the reflections of $D(B)$ and $D(A)$ into $D(B,B_0)$ and $D(A,A_0)$, respectively.  In other words, the canonical transformation
+$$\array{ D(A) & \xleftarrow{f^*} & D(B) \\
+  ^{L_A}\downarrow & \seArrow & \downarrow^{L_B} \\
+  D(A,A_0) & \xleftarrow{f^*} & D(B,B_0)} $$
+is an isomorphism.
+=--
++-- {: .proof}
+###### Proof
+Recall that $L_A$ is computed as the composite $D(A) \xrightarrow{u_*} D(M_A, A_0) \xrightarrow{p_!} D(A,A_0)$, where $M_A$ is the codirected mapping cylinder of $A_0\to A$.  We can therefore factor the above square as
+$$\array{
+  D(A) & \xleftarrow{f^*} & D(B) \\
+  ^{u_*}\downarrow & & \downarrow^{u_*} \\
+  D(M_A,A_0) & \xleftarrow{f^*} & D(M_B,B_0)\\
+  ^{p_!}\downarrow & & \downarrow^{p_!} \\
+  D(A,A_0) & \xleftarrow{f^*} & D(B,B_0)}
+$$
+It suffices, therefore, to show that the squares
+$$\array{A & \xrightarrow{u} & M_A \\
+  ^f \downarrow & & \downarrow^f \\
+  B & \xrightarrow{u} & M_B}
+\qquad\text{and}\qquad
+\array{M_A & \xrightarrow{f} & M_B\\
+  ^p\downarrow & & \downarrow^p\\
+  A & \xrightarrow{f} & B}
+$$
+are homotopy exact.
+
+For the first square, consider first a $b\in B$ and $a\in A\subset M_A$ and a $\varphi\colon f(a)\to b$ in $B\subset M_B$.  The category of triples $(a', a\to a', f(a')\to b)$ which compose to $\varphi$ is contractible, since $(a, id_a, \varphi)$ is an initial object.  Second, we should consider a $b\in B$ and an $a_0\in A_0 \subset M_A$, and a $\varphi\colon f(a_0)\to b$ in $B_0 \subset M_B$ --- but by definition of $M_B$, no such morphism $\varphi$ can exist.  Thus, the first square is always homotopy exact.
+
+For the second square, consider first an $a\in A$ and a $b\in B\subset M_B$, and a $\varphi\colon b \to f(a)$.  The category we must investigate containts two types of objects:
+
+* triples $(a'\in A, b\to f(a'), a' \to a)$ which compose to $\varphi$, and
+* triples $(a_0 \in A_0, b\to f(a_0), a_0 \to a)$ which compose to $\varphi$.
+
+By definition of $M_A$, the morphisms between these objects are the obvious ones, except that there are no morphisms from the second type to the first.  Now the full subcategory on the first type of object is coreflective, since $A_0$ is coreflective in $M_A$.  And that full subcategory is contractible, since $(a, \varphi, id_a)$ is a terminal object.  Thus, since adjunctions induce homotopy equivalences of nerves, the category in question is also contractible.
+
+Finally, consider the case of an $a\in A$ and a $b_0\in B_0 \subset M_B$, and a $\varphi\colon b_0 \to f(a)$.  The category in question consists of triples $(a_0\in A_0, b_0 \to f(a_0), a_0\to a)$ which compose to $\varphi$ (since there are no morphisms in $M_B$ from $b_0\in B_0$ to anything in the image of $A\subset M_A$).  But this is precisely the category asserted to be contractible in the assumption that $f$ is locally null-final.
+=--
+
++-- {: .un_theorem}
+###### Theorem
+If a square
+$$\array{ I & \xrightarrow{f} & J \\
+  ^h\downarrow & \swArrow & \downarrow^k\\
+  K & \xrightarrow{g} & L}$$
+of categories with zeros has the properties that
+
+1. it is homotopy exact as a square of categories, when the full subcategories are ignored, and
+1. $g$ is locally null-final,
+
+then for any pointed derivator, the induced transformation
+$$\array{ D(I,I_0) & \xleftarrow{f^*} & D(J,J_0) \\
+  ^{h_!}\downarrow & \seArrow & \downarrow^{k_!}\\
+  D(K,K_0) & \xleftarrow{g^*} & D(L,L_0)}$$
+is an isomorphism.
+=--
++-- {: .proof}
+###### Proof
+By definition, the displayed functors $h_!$ and $k_!$ are obtained by applying the $h_!$ and $k_!$ of a derivator followed by the reflection into the relative diagram categories.  Thus the given square factors into
+$$\array{ D(I,I_0) & \xleftarrow{f^*} & D(J,J_0) \\
+  ^{h_!}\downarrow & \seArrow & \downarrow^{k_!}\\
+  D(K)  & \xleftarrow{g^*} & D(L)\\
+  ^{L_K}\downarrow & \seArrow & \downarrow^{L_L}\\
+  D(K,K_0) & \xleftarrow{g^*} & D(L,L_0)}$$
+in which the first square is an isomorphism by (1) and the second by (2).
+=--
+
+For example, we can conclude:
+
++-- {: .un_cor}
+###### Corollary
+If $f\colon A\to B$ is a locally null-final functor between categories with zeros, then for any pointed derivator $D$, the functor $f_!\colon D(A,A_0) \to D(B,B_0)$ is fully faithful.
+=--
++-- {: .proof}
+###### Proof
+The square
+$$\array{ A & \xrightarrow{id} & A \\
+  ^{id}\downarrow & \swArrow & \downarrow^f\\
+  A & \xrightarrow{f} & B}$$
+satisfies the hypotheses of the previous theorem.
+=--
+
++--{: .query}
+Ideally, however, it should be possible to weaken the hypotheses of the theorem to assert only that $g$ is "locally-null-final relative to $k$."
 =--
 
 
