@@ -1,15 +1,15 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Type theory
-+--{: .hide}
++-- {: .hide}
 [[!include type theory - contents]]
 =--
 =--
 =--
 
-# The Lambda Calculus
-
+# The &#955;-calculus
 * table of contents
 {: toc}
 
@@ -17,13 +17,14 @@
 
 The **lambda calculus** is:
 
-* a simple programming language;
+* a simple [[programming language]];
 
 * a *model of computation* (akin to [[Turing machine]]s and [[recursive function]]s), through which we can study the computability and complexity of [[functions]] and predicates; and
 
 * an [[internal language]] for [[cartesian closed categories]].
 
 It comes in both *typed* and *untyped* (or, more correctly, *single-typed*) versions.
+
 
 ## Concepts
 
@@ -92,30 +93,48 @@ Most [[functional programming|functional]] [[programming language|programming la
 Please add...
 
 
+[[!redirects lambda calculus]]
 [[!redirects lambda calculi]]
+[[!redirects lambda-calculus]]
+[[!redirects lambda-calculi]]
+[[!redirects ∞-calculus]]
+[[!redirects ∞-calculi]]
 
 [[!redirects pure lambda calculus]]
-[[!redirects untyped lambda calculus]]
-[[!redirects typed lambda calculus]]
-[[!redirects simply typed lambda calculus]]
-
-[[!redirects lambda-calculus]]
 [[!redirects pure lambda-calculus]]
-[[!redirects untyped lambda-calculus]]
-[[!redirects typed lambda-calculus]]
-[[!redirects simply typed lambda-calculus]]
-
-[[!redirects ∞-calculus]]
 [[!redirects pure ∞-calculus]]
+
+[[!redirects untyped lambda calculus]]
+[[!redirects untyped lambda-calculus]]
 [[!redirects untyped ∞-calculus]]
+
+[[!redirects typed lambda calculus]]
+[[!redirects typed lambda-calculus]]
 [[!redirects typed ∞-calculus]]
+
+[[!redirects simply typed lambda calculus]]
+[[!redirects simply typed lambda-calculus]]
 [[!redirects simply typed ∞-calculus]]
 
 [[!redirects beta reduction]]
+[[!redirects beta-reduction]]
+[[!redirects ∞-reduction]]
 [[!redirects beta equivalent]]
-[[!redirects ∞-reduction]]
+[[!redirects beta-equivalent]]
 [[!redirects ∞-equivalent]]
+[[!redirects beta equivalence]]
+[[!redirects beta-equivalence]]
+[[!redirects ∞-equivalence]]
+
 [[!redirects eta reduction]]
-[[!redirects eta expansion]]
+[[!redirects eta-reduction]]
 [[!redirects ∞-reduction]]
+[[!redirects eta expansion]]
+[[!redirects eta-expansion]]
 [[!redirects ∞-expansion]]
+[[!redirects eta equivalent]]
+[[!redirects eta-equivalent]]
+[[!redirects ∞-equivalent]]
+[[!redirects eta equivalence]]
+[[!redirects eta-equivalence]]
+[[!redirects ∞-equivalence]]
