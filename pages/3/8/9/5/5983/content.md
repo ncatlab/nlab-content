@@ -17,7 +17,7 @@
 
 ## Idea
 
-A _differential function complex_ ([HopkinsSinger](#HopkinsSinger)) is an explicit [[cocycle]] model for _generalized_ [[differential cohomology]], hence for differential refinements of [[generalized (Eilenberg-Steenrod) cohomology]] theories:
+A _differential function complex_ ([HopkinsSinger](#HopkinsSinger)) is a [[Kan complex]] of [[cocycle]] s for _generalized_ [[differential cohomology]], hence for differential refinements of [[generalized (Eilenberg-Steenrod) cohomology]] theories:
 
 roughly, given a [[spectrum]] $E$ [[Brown representability|representing]] a given [[cohomology theory]], its _differential function complex_ over any given [[smooth manifold]] $U$ is the [[simplicial set]] whose $k$-[[simplices]] are triples consisting of
 
@@ -35,6 +35,8 @@ When applied to the [[Eilenberg-MacLane spectrum]] $K\mathbb{Z}$ this constructi
 ## Definitions
 
 ### Cocycles with values in graded vector spaces
+
+For the present purposes it will be convenient to collect [[cocycle]]s of various degrees together to a single cocycle. For that purpose we make the following simple definition.
 
 +-- {: .num_defn }
 ###### Definition
@@ -55,6 +57,7 @@ For $V = V^\bullet$ a [[graded vector space]] over the [[real number]]s set
 
 
 ### Differential functions
+
 
 +-- {: .num_defn #DifferentialFunctions}
 ###### Definition
@@ -87,13 +90,13 @@ holds, where
 
 =--
 
-This is ([HopkinsSinger, def.4.1](#HokinsSinger)).
+This is ([HopkinsSinger, def.4.1](#HopkinsSinger)).
 
 In words this is: a continuous map to the topological space together with a _smooth_ refinement of the pullback of the chosen singular cochain.
 
 ### Differential function complexes
 
-+-- {: .num_defn}
++-- {: .num_defn #DifferentialFunctionComplex}
 ###### Definition
 
 For 
@@ -141,60 +144,178 @@ For $s \in \mathbb{N}$ write
 
 This is ([HopkinsSinger, def. 4.5](#HopkinsSinger)).
 
-+-- {: .num_remark }
-###### Remark
++-- {: .num_prop }
+###### Proposition
 
-The complex $filt_s (E,\iota)^U$ is (up to equivalence, of course) the [[homotopy pullback]]
+The complex $filt_s (E,\iota)^U$ is (up to [[weak homotopy equivalence|equivalence]], of course) the [[homotopy pullback]]
 
 $$
   \array{
-    (E,\iota)^U &\to& \Omega^n_{cl}(U \times \Delta^\bullet, \mathcal{V})
+    filt_s (E,\iota)^U &\to& 
+      filt_s \Omega^n_{cl}(U \times \Delta^\bullet, \mathcal{V})
     \\
     \downarrow && \downarrow
     \\
-    Sing E^U &\to& Z^\bullet(U \times \Delta^bullet, \mathcal{V})
+    Sing E^U &\to& Z^\bullet(U \times \Delta^\bullet, \mathcal{V})
   }
 $$
 
-in [[sSet]] equipped with its standard [[model structure on simplicial sets]].
+in [[sSet]] (regarded as equipped with its standard [[model structure on simplicial sets]]).
 
 =--
 
+Here $E^U$ is the [[internal hom]] in [[Top]] and $Sing(-)$ denotes the [[singular simplicial complex]].
 
+The following proposition gives the [[simplicial homotopy groups]] of these differential function complexes in dependence of the parameter $s$.
 
-## Properties
-
-+-- {: .num_prop}
++-- {: .num_prop #HomotopyGroupsOfDiffFunctionComplex}
 ###### Proposition
 
-The [[simplicial homotopy group]]s of $filt_0 \Omega^n_{cl}(S \times \Delta^\bullet_{Diff})$ are 
+We have generally
 
 $$
-  \pi_k filt_0 \Omega^n_{cl}(S \times \Delta^\bullet_{Diff})
+  \pi_k Z(S \times \Delta^\bullet_{Diff}, \mathcal{V}) = 
+   H^{n-m}(S; \mathcal{V})
+$$
+
+(for instance by the [[Dold-Kan correspondence]]).
+
+The [[simplicial homotopy group]]s of $filt_s \Omega^n_{cl}(S \times \Delta^\bullet_{Diff})$ are 
+
+$$
+  \pi_k filt_s \Omega^n_{cl}(S \times \Delta^\bullet_{Diff})
   =
   \left\{
     \array{
-       \Omega^n_{cl}(S) & | k = 0
+       H_{dR}^{n-m}(S, \mathcal{V})
        \\
-       0 & | k \gt 0
+       \Omega_{cl}(S; \mathcal{V})^{n-s} & | k = s
+       \\
+       0 & | k \gt s
     }
   \right\}
   \,.
 $$
 
-The homotopy groups of $Z^n(S \times\Delta^\bullet, \mathbb{R})$ are
+This implies [[isomorphism]]s
 
 $$
-  \pi_k Z^n(S \times\Delta^\bullet, \mathbb{R})
-  = 
-  H^{n-k}(S)
+  \pi_k filt_s(X; \iota)^S 
+   \stackrel{\simeq}{\to}
+  \left{
+    \array{
+       \pi_k X^S & | k \lt s
+       \\
+       H^{n-k-1}(S; \mathcal{V})/ \pi_{k+1} X^S
+       |
+       k \gt s
+    }
+  \right.
   \,.
 $$
 
 =--
 
-This appears as [HopkinsSinger, p. 36 and corollary D15](#HopkinsSinger) .
+This appears as [HopkinsSinger, p. 36 and corollary D15](#HopkinsSinger).
 
+
+### Differential $E$-cohomology
+
+Let $E_\bullet$ be an [[Omega-spectrum]]. Let $\iota_\bullet$ be the canonical [[Chern character]] class (...).
+
++-- {: .num_prop}
+###### Proposition/Definition
+
+For $S$ a [[smooth manifold]], and $s \in \mathbb{N}$, the sequence of differential function complexes, def. \ref{DifferentialFunctionComplex},
+
+$$
+  filt_{s + n}(E_n; \iota_n)^S
+   \stackrel{\simeq}{\to}
+  \Omega  filt_{s + (n + 1)}(E_{n+1}; \iota_{n+1})^S
+$$
+
+forms an [[Omega-spectrum]].
+
+This is the **differential function spectrum** for $E$, $S$, $s$.
+
+=--
+
+This is ([HopkinsSinger, section 4.6]).
+
++-- {: .num_defn}
+###### Definition
+
+The **differential $E$-cohomology group** of the smooth manifold $S$ in degree $n$ is
+
+$$
+  H_{diff}^n(S,E) :=
+  \pi_0
+  filt_0(E_n \iota_n)^S
+$$
+
+=--
+
+This is ([HopkinsSinger, def. 4.34](#HopkinsSinger)).
+
+
+## Properties
+
+### Relation to differential cohomology in cohesive $(\infty,1)$-toposes
+
+The following is a simple corollary or slight rephrasing of some of the above constructions, which may serve to show how differential function complexes present differential cohomology in the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]]s.
+
++-- {: .num_prop}
+###### Proposition
+
+For $E_\bullet$ a spectrum as above,  
+we have an [[(∞,1)-pullback]] square
+
+$$
+  \array{  
+    filt_0 (E_n; \iota_n)^{(-)} &\to& \prod_i \Omega^{n_i}_{cl}(-)
+    \\
+    \downarrow && \downarrow
+    \\
+    Disc E_n
+    & 
+     \stackrel{}{\to}
+    &
+    \prod_i \mathbf{B}^{n_i} \mathbb{R}_{disc}
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{HomotopyGroupsOfDiffFunctionComplex} we have that
+
+* $filt_\infty (E; \iota_n)^S \simeq Sing X^S$;
+
+* $filt_0 \Omega_{cl}(S \times \Delta^\bullet) \simeq \Omega_{cl}(S)$.
+
+The statement then follows with the [[pasting law]] for [[homotopy pullback]]s
+
+$$
+  \array{
+     filt_0 (E_n; \iota_n)^S &\to&  \Omega^n_{cl}(S; \mathcal{V})
+     \\
+     \downarrow && \downarrow     
+     \\  
+     filt_\infty (E_n; \iota_n)^S &\to&  filt_\infty \Omega_{cl}(S \times \Delta^\bullet; \mathcal{V})
+     \\
+     \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+     \\
+     Sing X^S &\to& Z(S \times \Delta^\bullet; \mathcal{V})
+  }
+  \,.
+$$
+
+(...)
+
+=--
 
 
 ## Examples
@@ -226,5 +347,7 @@ Differential function complexes were introduced and studied in
 
 * [[Mike Hopkins]], I. Singer, _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
  {#HopkinsSinger}
+
+For further references see [[differential cohomology]].
 
 [[!redirects differential function complexes]]
