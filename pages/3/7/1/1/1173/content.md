@@ -18,6 +18,7 @@ If a poset is both a meet- *and* a join-semilattice, then we call it a [[lattice
 
 
 ## Bounded semilattices and semipseudolattices
+ {#BoundedAndPseudo}
 
 Traditionally, a semilattice need have only finite [[inhabited set|inhabited]] meets/joins; that is, it need not have a top/bottom element.  Algebraically, this means that a semilattice need not be a monoid, but is any commutative idempotent [[semigroup]].
 
