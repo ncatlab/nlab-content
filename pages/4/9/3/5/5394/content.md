@@ -22,7 +22,7 @@
 
 ### General
 
-For $A$ a an [[associative algebra]], not necessatily commutative, its collection $ComSub(A)$ of commutative subalgebras $B \hookrightarrow A$ is naturally a [[poset]] under inclusion of subalgebras. Moreover, $ComSub(A)$ is a complete [[semilattice]].
+For $A$ a an [[associative algebra]], not necessarily commutative, its collection $ComSub(A)$ of commutative subalgebras $B \hookrightarrow A$ is naturally a [[poset]] under inclusion of subalgebras. 
 
 ### As a site for noncommutative geometry
 
@@ -53,11 +53,20 @@ The assignment to a noncommutative algebra $A$ of a [[locale]] $\underline{\Sigm
 
 ## Properties
 
+### General
+
++-- {: .num_lemma}
+###### Observation
+
+The poset of copmmutative subalgebras $C(A)$ is always an (unbounded) meet-[[semilattice]]. If $A$ itself is commutative then it is a bounded meet semilattice, with $A$ itself being the top element.
+
+=--
+
 ### Relation to Jordan algebras {#RelationToJordanAlgebras}
 
 For $A$ an [[associative algebra]] write $A_J$ for its corresponding [[Jordan algebra]], where the commutative product $\circ : A_J \otimes A_J \to A_J$ is the symmetrization of the product in $A$: $a \circ b = \frac{1}{2}(a b + b a)$.
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 There exist von Neumann algebras $A$, $B$ such that there exists a Jordan algebra isomorphism $A_J \to B_J$ but not an algebra isomorphism $A \to B$.
@@ -195,3 +204,5 @@ The presheaf topos on $ComSub(A)^{op}$ and its internal localic Gelfand dual to 
 * [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _A topos for algebraic quantum theory_ ([arXiv:0709.4364](http://arxiv.org/abs/0709.4364))
 {#HeunenLandsmanSpitters}
 {#HeunenLandsmanSpitters}
+
+[[!redirects semilattice of commutative subalgebras]]
