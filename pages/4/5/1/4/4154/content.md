@@ -1,6 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### $(\infty,1)$-topos theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
 # Homotopy exact squares
 * automatic table of contents
-{: toc}
+{:toc}
 
 ## Idea
 
