@@ -1,0 +1,28 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+An [[action]]
+
+$$
+  \rho : G \times X \to X
+$$
+
+is _transitive_ if for every $x \in X$ the morphisms
+
+$$
+  \rho_x : G \to G
+$$
+
+is an [[epimorphism]].
+
+## Related concepts
+
+* [[homogeneous space]]
+
+* [[torsor]]
+
+[[!redirects transitive]]
