@@ -26,7 +26,11 @@ By __$Topos$__ (or __$Toposes$__) is denoted the [[category]] of [[topos]]es. Us
 
 * [[morphism]]s are [[geometric morphism]]s of toposes.
 
-This naturally a [[2-category]], with the [[2-morphism]]s being [[natural transformation]]s between the [[inverse image]] parts of geometric morphisms.  That is, a 2-morphism $f\to g$ is a natural transformation $f^* \to g^*$ (which is, by [[mate]] calculus, equivalent to a natural transformation $g_* \to f_*$ between [[direct image]]s).  Thus, $Toposes$ is equivalent to both of
+This naturally a [[2-category]], where
+
+* [[2-morphism]] are [[geometric transformation]]s 
+
+That is, a 2-morphism $f\to g$ is a [[natural transformation]] $f^* \to g^*$ (which is, by [[mate]] calculus, equivalent to a natural transformation $g_* \to f_*$ between [[direct image]]s).  Thus, $Toposes$ is equivalent to both of
 
 * the (non-full) [[sub-2-category]] of $Cat^{op}$ on categories that are toposes and morphisms that are the inverse image parts of geometric morphisms, and
 * the (non-full) sub-2-category of $Cat^{co}$ on categories that are toposes and morphisms that are the direct image parts of geometric morphisms.
