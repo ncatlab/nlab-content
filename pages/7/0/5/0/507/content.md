@@ -120,6 +120,12 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[geometric morphism]]
 
+  * [[direct image]]
+
+  * [[inverse image]]
+
+  * [[geometric transformation]]
+
 * [[essential geometric morphism]]
 
 ## B 2-Categorical Aspects of Topos Theory
