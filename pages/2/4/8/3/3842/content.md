@@ -40,24 +40,17 @@ An object in this category is a [[presheaf]]. See there for more details.
 
 * A category of presheaves is a [[topos]].
 
+* The construction of forming (co)-presheaves extends to a [[2-functor]]
+
+  $$
+    [-,Set] : Cat \to Topos
+  $$
+
+  from the [[2-category]] [[Cat]] to the [[2-category]] [[Topos]]. (See at [[geometric morphism]] the section _<a href="http://nlab.mathforge.org/nlab/show/geometric+morphism#BetweenPresheafToposes">Between presheaf toposes</a>_ for details).
+
 * A [[reflective subcategory]] of a category of presheaves is a [[locally presentable category]] if it is closed under $\kappa$-[[directed colimit]]s for some [[regular cardinal]] $\kappa$ (the embedding is an [[accessible functor]]).
 
-* A [[geometric embedding|sub-topos]] of a category of presheaves is a [[Grothendieck topos]]: a [[category of sheaves]].
-
-+--{: .query}
-[[David Roberts]]: so the only sub-topoi of $PSh(C)$ are categories of sheaves? Do these need to be sheaves on $C$ with some Grothendieck topology, or can they be sheaves on other sites? Isn't there some way of cooking up a sub-topos using a subcategory of $C$?
-
-[[Harry Gindi]]: Grothendieck topologies are in canonical bijection with full reflective subcategories of the presheaf category, if I remember correctly.
-
-[[Mike Shulman]]: Grothendieck topologies on $C$ are in canonical
-bijection with left-exact-reflective subcategories of a presheaf
-category, i.e. geometric subtoposes.  You can define a subtopos in
-other ways, but it will always end up being *equivalent* to one
-determined by a Grothendieck topology on $C$.
-
-[[Urs Schreiber]]: Yes, the $n$Lab is your friend, just follow its links: [[category of sheaves]].
-
-=--
+* A [[geometric embedding|sub-topos]] of a category of presheaves is a [[Grothendieck topos]]: a [[category of sheaves]] (see there for details).
 
 ### Cartesian closed monoidal structure
 
