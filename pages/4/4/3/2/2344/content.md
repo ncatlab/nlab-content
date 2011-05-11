@@ -184,7 +184,7 @@ Now suppose given any square
 $$\array{L & \overset{p}{\to} & I\\
   ^q\downarrow & \Downarrow^\mu & \downarrow^u\\
   J & \underset{v}{\to} & K}$$
-in $Dia$ which commutes up to a specified 2-cell $\mu$.  Given a derivator $D$, we say that this square is $D$-**exact** if the Beck-Chevalley transformations
+in $Dia$ which commutes up to a specified 2-cell $\mu$.  Given a derivator $D$, we say that this square is $D$-**exact** if the [[Beck-Chevalley transformation]]s
 $$ q_! p^* \to v^* u_! \quad \text{and} \quad u^* v_* \to p_* q^* $$
 are isomorphisms.  (In fact, if one of these is an isomorphism, so is the other, since they are [[mate|mates]].)  Thus, the derivator axioms say that all comma squares are exact.
 
