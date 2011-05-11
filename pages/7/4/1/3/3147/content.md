@@ -14,7 +14,9 @@ This entry is about the article
 
 on [[differential cohomology]], higher [[gauge field]]s appearing in [[string theory]] and their [[quantum anomaly|quantum anomalies]].
 
-Motivated by attempting to fully formalize [[Green-Schwarz mechanism]]-type [[quantum anomaly]] problems previously studied by [[Edward Witten]], this article introduced a systematic general definition for the refinement of any [[generalized (Eilenberg-Steenrod) cohomology]] theory to [[differential cohomology]], the context for higher [[gauge field]]s in physics. 
+Motivated by attempting to fully formalize [[Green-Schwarz mechanism]]-type [[quantum anomaly]] problems previously studied by [[Edward Witten]], this article introduced a systematic general definition for the refinement of any [[generalized (Eilenberg-Steenrod) cohomology]] theory to [[differential cohomology]] (the context for higher [[gauge field]]s in physics) in terms of [[differential function complex]]es. 
+
+In this construction continuous classifying maps from a [[smooth manifold]] into a [[spectrum]] [[Brown representablity theorem|representing]] the given [[cohomology]] are equipped with smooth [[differential form]]s that have under the [[de Rham theorem]] the same class in real cohomology as the pullback along the classifying map of a collection of given real cocycles on the spectrum.
 
 The connecton of this work to the physics of the [[electromagnetic field]] and of higher [[gauge field]]s in  [[string theory]] was later developed further notably in
 
@@ -24,9 +26,15 @@ To this date generalized [[differential cohomology]] theories keep being studied
 
 ## Some linked kewords 
 
+* [[differential function complex]]
+
 * [[differential cohomology]]
 
   * [[generalized (Eilenberg-Steenrod) cohomology]]
+
+    * [[ordinary differential cohomology]]
+
+    * [[differential K-theory]]
 
   * [[Chern character]]
 
