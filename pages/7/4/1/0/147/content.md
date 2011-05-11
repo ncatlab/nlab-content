@@ -117,7 +117,7 @@ If $C$ has [[finite limit]]s then the condition that $f : C \to D$ is a [[flat f
 +-- {: .num_prop #CharacterizationOfSubcanonicalSites}
 ###### Proposition
 
-For $\mathcal{E}$ a [[sheaf topos]] the [[essentially small category|essentially small]] site of definition $(\mathcal{C}, J)$ of $\mathcal{E}$ such that $J$ is a [[subcanonical coverage]] are precisely the [[full subcategories]] on [[generating families]] of objects equipped with the coverages induced from the [[canonical coverage]] of $\mathcal{E}$.
+For $\mathcal{E}$ a [[sheaf topos]], the [[essentially small category|essentially small]] sites of definition $(\mathcal{C}, J)$ of $\mathcal{E}$ such that $J$ is a [[subcanonical coverage]] are precisely the [[full subcategories]] on [[generating families]] of objects equipped with the coverages induced from the [[canonical coverage]] of $\mathcal{E}$.
 
 =--
 
@@ -129,20 +129,20 @@ This appears as ([Johnstone, prop. C2.2.16](#Johnstone)).
 ### Morphisms of sites and geometric morphisms
  {#MorphismsOfSitesAndGeometricMorphisms}
 
-We discuss how morphisms of sites, def. \ref{MorphismOfSites}, induce [[geometric morphism]]s of the corresponding [[sheaf topos]]es, and how the converse holds, too, under certain conditions.
+We discuss how morphisms of sites, def. \ref{MorphismOfSites}, induce [[geometric morphism]]s of the corresponding [[sheaf topos]]es, and how the converse holds, too, under certain conditions. The reader might want to first have a look at the discussion of <a href="http://nlab.mathforge.org/nlab/show/geometric+morphism#BetweenPresheafToposes">Geometric morphisms between presheaf toposes</a>.
 
 +-- {: .num_prop #MorphismsOfSitesInduceGeometricMorphisms}
 ###### Proposition
 
-Let $f : (C,J) \to (D,K)$ be a [morphism of sites](#MorphismOfSites). 
+Let $f : (\mathcal{C},J) \to (\mathcal{D},K)$ be a [morphism of sites](#MorphismOfSites). 
 
-Notice that precomposition with $f$ defines a [[functor]] between categories of presheaves $(-)\circ f : PSh(D) \to PSh(C)$.
+Notice that precomposition with $f$ defines a [[functor]] between categories of presheaves $(-)\circ f : PSh(\mathcal{D}) \to PSh(\mathcal{C})$.
 
 There is a [[geometric morphism]] between the [[categories of sheaves]]
 
 $$
-  (f^* \dashv f_*) : Sh(D,K) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
-    Sh(C,J)
+  (f^* \dashv f_*) : Sh(\mathcal{D},K) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
+    Sh(\mathcal{C},J)
 $$
 
 where $f_*$ is the restriction of $f$ to sheaves.
@@ -154,13 +154,13 @@ This appears for instance as ([Johnstone, lemma C2.2.3, cor. C2.2.4](#Johnstone)
 +-- {: .proof}
 ###### Proof
 
-By the assumption that $f$ preserves covers we have that the restriction of $(-)\circ f$ to $Sh_K(D)$ indeed factors through $Sh_C(C) \hookrightarrow PSh(C)$. 
+By the assumption that $f$ preserves covers we have that the restriction of $(-)\circ f$ to $Sh_K(\mathcal{D})$ indeed factors through $Sh(\mathcal{C}) \hookrightarrow PSh(\mathcal{C})$. 
 
-Because for $\{U_i \to U\}$ a [[cover]] in $C$ and $F$ a [[sheaf]] on $D$, we have that (assuming here for simplicity that $C$ has finite limits)
+Because for $\{U_i \to U\}$ a [[cover]] in $\mathcal{C}$ and $F$ a [[sheaf]] on $\mathcal{D}$, we have that (assuming here for simplicity that $\mathcal{C}$ has finite limits)
 
 $$
   \begin{aligned}
-    PSh_C( \lim_\to ( \coprod_{i, j} U_i \prod_{U} U_j)
+    PSh_{\mathcal{C}}( \lim_\to ( \coprod_{i, j} U_i \prod_{U} U_j)
     \stackrel{\to}{\to}
       \coprod_{i} U_i )
     \;,\;
@@ -169,9 +169,9 @@ $$
     & \simeq 
     \lim_{\leftarrow}
      \left(
-      \prod_{i,j} PSh( U_i \prod_U U_j, F(f(-)))
+      \prod_{i,j} PSh_{\mathcal{C}}( U_i \prod_U U_j, F(f(-)))
        \stackrel{\leftarrow}{\leftarrow}
-       \prod_i PSh(U_i , F(f(-)))
+       \prod_i PSh_C(U_i , F(f(-)))
      \right)
     \\
     & \simeq
@@ -191,7 +191,7 @@ $$
      \right)       
     \\
     & \simeq
-    PSh_D( \lim_\to ( \coprod_{i, j} f(U_i) \prod_{f(U)} f(U_j))
+    PSh_{\mathcal{D}}( \lim_\to ( \coprod_{i, j} f(U_i) \prod_{f(U)} f(U_j))
     \stackrel{\to}{\to}
       \coprod_{i} f(U_i) )
     \;,\;
@@ -201,26 +201,26 @@ $$
   \,,
 $$
 
-where we used the [[Yoneda lemma]] and the assumption that $f$ preserves the [[pullback]]s involved.
+where we used the [[Yoneda lemma]], the fact that the [[hom functor]] $PSh(-,-)$ sends [[colimit]]s in the first argument to [[limit]]s, and the assumption that $f$ preserves the [[pullback]]s involved.
 
-Also $(-)\circ f$ preserves all [[limit]]s, because for presheaves these are computed objectwise. And since the inclusion $Sh_K(D) \to PSh(D)$ is [[right adjoint]] (to [[sheafification]]) we have that 
+Also $(-)\circ f$ preserves all [[limit]]s, because for presheaves these are computed objectwise. And since the inclusion $Sh_K(\mathcal{D}) \to PSh(\mathcal{D})$ is [[right adjoint]] (to [[sheafification]]) we have that 
 
 $$
-  f_* : Sh_K(D) \hookrightarrow PSh(D) \stackrel{(-)\circ f}{\to} Sh_J(C)
+  f_* : Sh_K(\mathcal{D}) \hookrightarrow PSh(\mathcal{D}) \stackrel{(-)\circ f}{\to} Sh_J(\mathcal{C})
 $$ 
 
-preserves all limits. Therefore by the [[adjoint functor theorem]] it has a [[left adjoint]]. Explicitly, this is the composite of the left adjoints to $(-)\circ f$ and to sheaf inclusion. The first is left [[Kan extension]] $Lan_f$ along $f$ and the second is [[sheafification]] $L_J$ on $(C,J)$, so the left adjoint is the composite
+preserves all limits. Therefore by the [[adjoint functor theorem]] it has a [[left adjoint]]. Explicitly, this is the composite of the left adjoint to $(-)\circ f$ and to sheaf inclusion. The first is left [[Kan extension]] $Lan_f$ along $f$ and the second is [[sheafification]] $L_J$ on $(\mathcal{C},J)$, so the left adjoint is the composite
 
 $$
-  f^*  :Sh_J(C) \hookrightarrow PSh(C) \stackrel{Lan_f}{\to}S
-   PSh(D) \stackrel{L_J}{\to} Sh_J(D)
+  f^*  :Sh_J(\mathcal{C}) \hookrightarrow PSh(\mathcal{C}) \stackrel{Lan_f}{\to}S
+   PSh(\mathcal{D}) \stackrel{L_J}{\to} Sh_J(\mathcal{D})
   \,.
 $$
 
 Here the first morphism preserves all limits, the last one all finite limits. Hence the composite preserves all finite limits if the left [[Kan extension]] $Lan_f$ does. This is the case if $f$ is a [[flat functor]].
 
 (Because the left [[Kan extension]] is given by the [[colimit]] 
-$Lan_f X : d \mapsto {\lim_{\to}}((f^{op}/d) \to C^{op} \stackrel{X}{\to} Set)$ over the [[comma category]] $f^{op}/d$ which is a [[filtered category]] by definition if $f$ is flat, and [[filtered colimit]]s are precisely those that commute with [[finite limit]]s ).
+$Lan_f X : d \mapsto {\lim_{\to}}((f^{op}/d) \to {\mathcal{C}}^{op} \stackrel{X}{\to} Set)$ over the [[comma category]] $f^{op}/d$ which is a [[filtered category]] if $f$ is flat, and [[filtered colimit]]s are precisely those that commute with [[finite limit]]s. For more details on this argument see the discussion at <a href="http://nlab.mathforge.org/nlab/show/geometric+morphism#BetweenPresheafToposes">Geometric morphisms between presheaf toposes</a>.)
 
 =--
 
@@ -268,7 +268,7 @@ This appears as ([Johnstone, lemma C2.3.8](#Johnstone)).
 +-- {: .proof}
 ###### Proof
 
-It suffices to show that given $f$, the factorization $F$ is, if it exists, necessarily a morphism of sites: because since $f^*$ is [[left adjoint]] and thus preserves all [[colimit]]s and every object in $Sh(C)$ is a colimit of [[representable functor|representables]], $f^*$ is fixed by the factorization and by uniqueness of [[adjoint functor]]s together with its [[right adjoint]] it is then the geometric morphism induced from the morphism of sites, by prop. \ref{MorphismsOfSitesInduceGeometricMorphisms}.
+It suffices to show that given $f$, the factorization $F$ is, if it exists, necessarily a morphism of sites: because since $f^*$ is [[left adjoint]] and thus preserves all [[colimit]]s and every object in $Sh(C)$ is a colimit of [[representable functor|representables]], $f^*$ is fixed by the factorization. By uniqueness of [[adjoint functor]]s this means then that together with its [[right adjoint]] it is the geometric morphism induced from the morphism of sites, by prop. \ref{MorphismsOfSitesInduceGeometricMorphisms}.
 
 So we show that $F$ is necessarily a morphisms of sites: 
 
