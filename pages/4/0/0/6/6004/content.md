@@ -1,0 +1,9 @@
+
+This entry is about the textbook
+
+* [[Francis Borceux]], _Handbook of Categorical Algebra_
+  {#Borceux}
+
+(...)
+
+category: reference
