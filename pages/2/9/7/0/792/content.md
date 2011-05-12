@@ -95,6 +95,10 @@ There is a [[C*-algebra]]ic version of toplogical T-duality, discussed for insta
 
 * V. Mathai and [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv](http://arxiv.org/abs/hep-th/0401168))
 
+Jonathan Rosenberg has also written a little introductory book for mathematicians:
+
+* Jonathan Rosenberg: _Topology, $C^*$-algebras, and string duality_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete))
+
 The [[bi-brane]] perspective on T-duality is amplified in
 
 * Gor Sarkissian and [[Christoph Schweigert]], _Some remarks on defects and duality_ ([arXiv](http://arxiv.org/abs/0810.3159))
