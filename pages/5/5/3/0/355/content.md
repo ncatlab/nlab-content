@@ -62,3 +62,6 @@ Even a bit smaller than this is a Kan complex that is an $n$-[[hypergroupoid]], 
 
 [[!redirects n-groupoid]]
 [[!redirects n-groupoids]]
+
+[[!redirects k-groupoid]]
+[[!redirects k-groupoids]]
