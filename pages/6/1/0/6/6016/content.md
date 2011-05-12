@@ -1,0 +1,4 @@
+
+* [wikipedia entry](#http://de.wikipedia.org/wiki/Murray_Gell-Mann)
+
+category: people
