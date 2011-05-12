@@ -103,7 +103,7 @@ The following is (or will eventually be) a linked list of keywords.
 
 ## References
 
-The book is based on the serues of articles
+The book is based on the series of articles
 
 * [[Jacob Lurie]], 
 
