@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -20,6 +20,8 @@ $$
 
 The dual notion is that of [[conormal bundle]].
 
-## Related entries
+## Related concepts
 
-Normal bundle plays a central role for instance in the theory of [[fiber integration]] by means of [[Pontrjagin-Thom collaps map]]s.
+* Normal bundle plays a central role for instance in the theory of [[fiber integration]] by means of [[Pontrjagin-Thom collaps map]]s.
+
+* [[conormal bundle]]
