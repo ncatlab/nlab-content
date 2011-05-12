@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
+This entry is about the book
+
+* [[Peter May|May]], Sigurdsson, _Parametrized Homotopy Theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
+
+which discusses [[homotopy theory]] and [[cohomology]] over base spaces, hence in [[slice categories]] [[Top]]$/X$ for given topological base spaces $X$. 
+
+A survey is in the slides
+
+* [[Peter May]], _What are parameterized spectra good for?_ ([pdf slides](http://www.math.uchicago.edu/~may/TALKS/MichiganPrint.pdf)) 
+
+One application is [[twisted cohomology]]: instead of cocycles given by maps $X \to A$, twisted cocycles are given by [[section]]s $X \to P$ of a bundle $P \to X$ of spectra over $X$.
+
+category: reference
