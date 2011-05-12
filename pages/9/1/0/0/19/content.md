@@ -277,7 +277,7 @@ Other standard references include:
 
 * [[Steve Awodey]], _Categories for everybody_. 
 
-* [[Francis Borceux]], _Handbook of categorical algebra_, vol 1--3. 
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol 1--3. 
 
 * [[Colin McLarty]], _Elementary categories, elementary toposes_. 
 
