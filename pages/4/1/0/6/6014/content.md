@@ -1,0 +1,19 @@
+__Quotient category__ is an alternative name (used especially in 1960s and 1970s) for a result of a strict [[localization functor]], that is, given a category $C$ and a class of morphisms $\Sigma\subset C$ the category $\Sigma^{-1} C$ equipped with a functor $Q_\Sigma: C\to \Sigma^{-1} C$ sending all morphisms in $\Sigma$ to [[isomorphism|isos]] and which has a strict universal property, that is, for every other functor $F: C\to A$ inverting all morphisms in $\Sigma$, there is a factorization $F = \tilde{F}\circ Q$. 
+
+Note that large part of a topos community and category community calls by localization those (non-strict) localization functors, for which the localization functor is left exact and admits a right adjoint. These people often use quotient functor when removing the "admits right adjoint" and "left exact" conditions..
+
+Following the extensions of early work of Serre, the term (Serre's) __quotient category__ is especially used when the input is a [[thick subcategory]] $T$ of an abelian category $A$, instead of the class $\Sigma$. A nonempty full subcategory of an abelian category is thick in strong sense if it is closed under subquotients and extensions. Then one defines $T/A$ to have the same objects as $T$ and 
+
+$$
+(A/T)(X,Y) := colim A(X',Y/Y')
+$$
+
+where the colimit runs through all subobjects $X'\subset X$, $Y'\subset Y$ such that $X/X' \in Ob T$, $Y'\in Ob T$. The quotient functor $Q: A\to A/T$ is obvious. 
+
+A thick subcategory (here always in strong sense) is said to be [[localizing subcategory|localizing]] if and $Q$ admits a right adjoint $A/T\to A$, often called the __section functor__. Every coreflective thick subcategory admits a section functor, and the converse holds if $A$ has injective envelopes. A thick subcategory $T\subset A$ is a coreflective iff $(T,F)$ is a [[torsion theory]] where
+
+$$
+F := \{X\in Ob A\,|\,A(T,X) = 0\}
+$$
+
+[[!redirects quotient functors]]
