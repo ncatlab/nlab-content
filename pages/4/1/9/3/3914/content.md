@@ -252,6 +252,13 @@ The existence of an $H$-orientation is necessary in order to have a notion of [[
 
 (...)
 
+
+## Related concepts
+
+* [[differential Thom class]]
+
+* [[differential orientation]]
+
 ## References
 
 Orientation of vector bundles in $E$-cohomology is discussed for instance in
