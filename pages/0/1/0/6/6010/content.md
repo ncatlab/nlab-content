@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+An _embedding of smooth manifolds_ is a [[smooth function]] $f : X \hookrightarrow Y$ such that
+
+* $f$ is an [[immersion]]
+
+* the underlyiing [[continuous function]] is an [[embedding]] of topological spaces.
+
+## Properties
+
+### Whitney embedding theorem
+
+Every [[smooth manifold]] (of finite [[dimension]], [[Hausdorff space|Hausdorff]] and [[second countable space|second countable]]) has an embedding into a [[Cartesian space]].
+
+[[!redirects imbedding]]
+
+[[!redirects Whitney embedding theorem]]
+[[!redirects Whitney's embedding theorem]]
+[[!redirects Whitney imbedding theorem]]
+[[!redirects Whitney's imbedding theorem]]
