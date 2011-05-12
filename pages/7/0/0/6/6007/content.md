@@ -33,6 +33,93 @@ $$
 
 is the [[higher parallel transport|higher]] [[holonomy]] of $\nabla$ over $Y$.
 
+## Definition
+
+
+### Differential orientation
+
+The operation of [[fiber integration]] in [[generalized (Eilenberg-Steenrod) cohomology]] requires a choice of [[orientation in generalized cohomology]]. For fiber integration in [[differential cohomology]] this is to be refined to a _differential orientation_ .
+
+Accordingly, instead of a [[Thom class]] there is a _differential Thom class_ .
+
++-- {: .num_defn #DifferentialThomCocycle}
+###### Definition
+
+For $X$ a [[compact space|compact]] [[smooth manifold]] and $V \to X$ a smooth real [[vector bundle]] of [[rank]] $k$ a **differential Thom cocycle** on $V$ is
+
+* a compactly supported cocycle $\hat \omega$ in the [[ordinary differential cohomology]] of degree $k$ of $V$;
+
+* such that for each $x \in X$ we have 
+  
+  $$
+    \int_{V_x} \omega = \pm 1
+    \,.
+  $$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The underlying class $[\hat \omega] \in H^{k}_{compact}(V, \mathbb{Z})$ in compactly supported [[integral cohomology]] is an ordinary [[Thom class]] for $V$.
+
+=--
+
++-- {: .num_defn #DifferentialOrientation}
+###### Definition
+
+Let $p : X \to Y$ be a [[smooth function]] of [[smooth manifold]]s.
+
+An **$H \mathbb{Z}_{diff}$-orientation** on $p$ is
+
+1. A factorization through an [[embedding of smooth manifolds]] 
+
+   $$
+     p : X \hookrightarrow Y \times \mathbb{R}^N \stackrel{}{\to} Y
+   $$
+
+   for some $N \in \mathbb{N}$;
+
+1. a [[tubular neighbourhood]] $W \hookrightarrow Y \times \mathbb{R}^N$ of $X$;
+
+1. a differential Thom cocycle, def. \ref{DifferentialThomCocycle}, $U$ on $W \to X$.
+
+=--
+
+This appears as ([HopkinsSinger, def. 2.9](#HopkinsSinger)).
+
+
+### Fiber integration
+
+Write $\mathbf{H}^n_{diff}(-)$ for the (a) [[cocycle]] [[∞-groupoid]] of [[ordinary differential cohomology]]. For either choice, there is a fairly evident fiber integration of compactly supported cocycles along trivial Cartesian bundles $Y \times \mathbb{R}^N \to Y$ over a [[compact space|compact]] $Y$:
+
+$$
+  \int_{\mathbb{R}^N} 
+   : \mathbf{H}^{n+N}_{diff,cpt}(Y \times \mathbb{R}^n)
+  \to
+  \mathbf{H}^n_{diff}(Y)
+  \,.
+$$
+
++-- {: .num_defn}
+###### Definition
+
+Let $X \to Y$ be a smooth function equipped with differential $H\mathbb{Z}$-orientation $U$, def. \ref{DifferentialOrientation}. Then the corresponding **fiber integration** of ordinary differential cohomology is the composite
+
+$$
+  \int_{X/Y} :
+   \mathbf{H}_{diff}^{n+k}(X)
+   \stackrel{(-)\cup U}{\to}
+   \mathbf{H}_{diff, cpt}^{n+N}(X \times \mathbb{R}^N)
+   \stackrel{\int_{\mathbb{R}^N}}{\to}
+   \mathbf{H}_{diff}^n(Y)
+  \,.
+$$
+
+=--
+
+This appears as ([HopkinsSinger, def. 3.11](#HopkinsSinger)).
+
 ## Properties
 
 ### General
@@ -48,9 +135,11 @@ At least the fiber integration all the way to the point exists on general ground
 A discussion in the general sense of [[fiber integration]] in [[generalized (Eilenberg-Steenrod) cohomology]] is in section 3.4 of 
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
+ {#HopkinsSinger}
 
 Explicit formulas for fiber integration of cocycles in [[Cech cohomology|Cech]]-[[Deligne cohomology]] are given in
 
 * [[Kiyonori Gomi]] and Yuji Terashima, _A Fiber Integration Formula for the Smooth Deligne Cohomology_ International Mathematics Research Notices
 2000, No. 13 ([pdf](http://imrn.oxfordjournals.org/content/2000/13/699.full.pdf))
 
+[[!redirects differential Thom class]]
