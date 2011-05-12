@@ -139,6 +139,8 @@ are homotopy exact.
 
 For the first square, consider first a $b\in B$ and $a\in A\subset M_A$ and a $\varphi\colon f(a)\to b$ in $B\subset M_B$.  The category of triples $(a', a\to a', f(a')\to b)$ which compose to $\varphi$ is contractible, since $(a, id_a, \varphi)$ is an initial object.  Second, we should consider a $b\in B$ and an $a_0\in A_0 \subset M_A$, and a $\varphi\colon f(a_0)\to b$ in $B_0 \subset M_B$ --- but by definition of $M_B$, no such morphism $\varphi$ can exist.  Thus, the first square is always homotopy exact.
 
+In fact, however, the preceeding argument is unnecessary, because we have seen that with their targets restricted as above, the functors $u_*$ are equivalences, and the [[mate]] of an isomorphism with respect to any pair of adjoint equivalences is again an isomorphism.  Note that the fact that $u_*$ is an equivalence was already used in making the assertion that $p_! u_*$ is a left adjoint to $D(A,A_0) \hookrightarrow D(A)$, and therefore the inverse of the top square already factors into the definition of the transformation appearing in the statement of the lemma.  (This may reassure a reader who was worried about the fact that the canonical transformation in the first square goes the "wrong direction".)
+
 For the second square, consider first an $a\in A$ and a $b\in B\subset M_B$, and a $\varphi\colon b \to f(a)$.  The category we must investigate containts two types of objects:
 
 * triples $(a'\in A, b\to f(a'), a' \to a)$ which compose to $\varphi$, and
