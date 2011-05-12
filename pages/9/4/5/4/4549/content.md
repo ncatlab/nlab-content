@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -54,5 +54,9 @@ We may think of $Id + \Ad_{tra_\nabla(\gamma)}(F_A(\phi))$ as being the holonomy
 ## Applications
 
 (...)
+
+## Higher holonomy
+
+The [[higher parallel transport|higher]] holonomy of [[circle n-bundles with connection]] is given by [[fiber integration in ordinary differential cohomology]].
 
 [[!redirects holonomies]]
