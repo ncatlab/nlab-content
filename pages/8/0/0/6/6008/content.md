@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 For $i : X \hookrightarrow Y$ an [[embedding]] of [[manifold]]s, a **tubular neighbourhood** of $X$ in $Y$ is
