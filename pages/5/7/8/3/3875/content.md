@@ -1,3 +1,7 @@
 * [wikipedia](http://en.wikipedia.org/wiki/Isadore_Singer)
 
+## Related $n$Lab entries
+
+* _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
+
 category: people
