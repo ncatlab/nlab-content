@@ -28,7 +28,15 @@
 
 ## Higher abelian differential cohomology
 
+* [[differential function complex]]
+
+* [[differential orientation]]
+
 * [[ordinary differential cohomology]]
+
+  * [[differential Thom class]]
+
+  * [[fiber integration in ordinary differential cohomology]]
 
   * [[differential character]]s, 
 
@@ -37,6 +45,7 @@
   * [[circle n-bundle with connection]], 
 
   * [[bundle gerbe|bundle gerbe with connection]]
+
 
 * [[differential K-theory]]
 
