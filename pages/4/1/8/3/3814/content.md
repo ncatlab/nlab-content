@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -28,7 +35,7 @@ There is a plethora of attempts and suggestions for variations and generalizatio
 
 ### Kaluza--Klein theory
 
-Shortly after the conception of [[general relativity]], it was observed by Kaluza and Klein that the force of [[gravity]] alone may effectively appear -- if considered on a [[spacetime]] that is a [[bundle]] whose [[fiber]] has a tiny volume (as meaured by the [[Riemannian metric]]) -- as the field of gravity coupled to [[gauge field]]s on the base of the bundle.
+Shortly after the conception of [[general relativity]], it was observed by Kaluza and Klein that the force of [[gravity]] alone may effectively appear -- if considered on a [[spacetime]] that is a [[bundle]] whose [[fiber]] has a tiny volume (as meaured by the [[Riemannian metric]]) -- as the field of gravity coupled to [[gauge field]]s on the base of the bundle. For details on this see [[Kaluza-Klein mechanism]].
 
 The huge conceptual simplification that this observation suggested had excited theoreticians early on, but a problem of Kaluza--Klein models is that not only does the "compactified" theory of gravity as if by magic emulate [[gauge field]]s, but it also always contains further scalar fields that are _not_ experimentally observed. 
 
@@ -40,10 +47,11 @@ For that reason interest in Kaluza--Klein theories had decreased in the middle o
 One of the oldest studies of variations of the standard model is the investigation of [[GUT|grand unified theories]] (GUTs), which are [[Yang-Mills theory|Yang–Mills theories]] that instead of the standard model gauge group have a bigger gauge group which is however a [[simple group]].
 
 ### Noncommutative geometry
+ {#NCGeometry}
 
 A wide-spread perception is that some of the conceptual problems with the standard model point to the fact that some basic assumption of 20th century physics on the nature of reality is too oversimplified. In approaches of [[noncommutative geometry]] one postulates that modeling  [[spacetime]] as a smooth [[manifold]] is an oversimplification that makes itself felt when the quantization of the force of [[gravity]] becomes relevant.
 
-In a class of "noncommutative" generalizations of the standard model, spacetime is therefore replaced more generally by a [[spectral triple]] that models a possibly "noncommutative space". One of the more successful approaches in this direction is the Connes--Lott--Chamseddine model. This effectively is a Kaluza--Klein theory (see above), but with the crucual difference that the fiber in the KK-picture is a highly non-classical non-commutative space, whose classical dimension is that of a point, but whose intrinsic dimension is 6. (This is incidentally the same value of the internal dimension as suggest by [[string theory]].)
+In a class of "noncommutative" generalizations of the standard model, spacetime is therefore replaced more generally by a [[spectral triple]] that models a possibly "noncommutative space". One of the more successful approaches in this direction is the Connes--Lott--Chamseddine model. This effectively is a [[Kaluza-Klein theory]] (see above), but with the crucual difference that the fiber in the KK-picture is a highly non-classical non-commutative space, whose classical dimension is that of a point, but whose intrinsic dimension is 6. (This is incidentally the same value of the internal dimension as suggest by [[string theory]].)
 
 For more on this see
 
