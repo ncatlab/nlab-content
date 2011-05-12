@@ -1,0 +1,16 @@
+
+## Definition
+
+For $i : X \hookrightarrow Y$ an [[embedding]] of [[manifold]]s, a **tubular neighbourhood** of $X$ in $Y$ is
+
+* a real [[vector bundle]] $E \to X$;
+
+* an extension of $i$ to an [[isomorphism]]
+
+  $$
+    \hat i : E \to U_{i(X)}
+  $$
+
+  with an [[open neighbourhood]] of $X$ in $Y$.
+
+The [[derivative]] of $\hat i$ provides an [[isomorphism]] of $E$ with the [[normal bundle]] $\nu_{X/Y}$ of $X$ in $Y$.
