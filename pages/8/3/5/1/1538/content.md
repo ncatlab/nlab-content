@@ -24,9 +24,21 @@
 
 ## Idea
 
-_Dijkgraaf-Witten theory_ in dimension $n$ is the topological [[sigma-model]] [[quantum field theory]] whose target space is the [[classifying space]] of a [[discrete group]] and whose background [[gauge field]] is a [[circle n-bundle with connection]] on $\mathbf{B}G$, necessarily flat.
+_Dijkgraaf-Witten theory_ in dimension $n$ is the [[TFT|topological]] [[sigma-model]] [[quantum field theory]] whose [[target space]] is the [[classifying space]] of a [[discrete group]] and whose 
+[[background gauge field]] is a [[circle n-bundle with connection]] on $\mathbf{B}G$ (necessarily flat) which is equivalently a [[cocycle]] in the [[group cohomology]] of $G$ with coefficients in the [[circle group]].
 
-We may think of this as the theory describing the [[quantum mechanics]] of an $(n-1)$-[[brane]] with $n$-dimensional worldvolume $\Sigma$ propagating on $B G$ and being [[charge]]d under a higher analog of the [[electromagnetic field]]: a field configuration is a [[morphism]] $\phi : \Sigma \to \mathbf{B}G$, hence equivalently a $G$-[[principal bundle]] on $\Sigma$. The background [[gauge field]] is a morphism $\alpha : \mathbf{B}G \to \mathbf{B}^n U(1)$ -- hence a [[characteristic class]] for $G$: a cocycle in [[group cohomology]] of degree $n$. 
+Viewed in a broader context and generalizing: Dijkgraaf-Witten theory is the [[schreiber:∞-Chern-Simons theory]] induced from a [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ on a [[discrete ∞-groupoid]] $\mathbf{B}G := Disc B G$. If $G$ here is an ordinary [[discrete group]] this is traditional Dijkgraaf-Witten theory, if $G$ is a discrete [[2-group]] and the background field is a circle 4-bundle, then this is called the [[Crane-Yetter model]].
+
+This are the first two steps in filtering of target spaces by [[homotopy type]] [[truncated|truncation]] of [[schreiber:∞-Chern-Simons theory]] <a href="http://nlab.mathforge.org/schreiber/show/infinity-Chern-Simons+theory#DiscreteTargets">with discrete target spaces</a>.
+
+### Concise survey of the ingredients
+
+We may think of this as  describing the [[quantum mechanics]] of an $(n-1)$-[[brane]] with $n$-dimensional [[worldvolume]] $\Sigma$ propagating on $B G$ and being [[charge]]d under a [[gauge field|higher analog]] of the [[electromagnetic field]]: 
+
+a field configuration over $\Sigma$ (a $\Sigma$-shaped _trajectory_) is a [[morphism]] $\phi : \Sigma \to \mathbf{B}G$, hence equivalently a $G$-[[principal bundle]] on $\Sigma$. The [[configuration space]] of fields over $\Sigma$ is the [[groupoid]] of $G$-[[principal bundle]]s over $\Sigma$.
+
+The [[background gauge field]] is a [[morphism]] $\alpha : \mathbf{B}G \to \mathbf{B}^n U(1)$ -- hence a [[characteristic class]] for $G$: a [[cocycle]] of degree $n$ in the [[group cohomology]] of $G$. 
+
 The value of the [[Lagrangian]] $L(\phi)$ on a field configuration $\phi$ is the [[characteristic class]] of this bundle with respect to the universal characteristic class of the given [[principal infinity-bundle|circle n-bundle]]:
 
 $$
@@ -35,36 +47,29 @@ $$
   (\alpha(\phi) : \Sigma \stackrel{\phi}{\to} \mathbf{B}G \stackrel{\alpha}{\to} \mathbf{B}^n U(1)).
 $$
 
+This is the [[classical field theory]] input of the model. The [[extended quantum field theory]] defined by this is supposed to be a rule that assigns space of [[state]]s to lower dimensional pieces of $\Sigma$ and to $n$-dimensional $\Sigma$s a propagator.
 
-Viewed in a broader context and generalizing: Dijkgraaf-Witten theory is the [[schreiber:∞-Chern-Simons theory]] induced from a [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ on a [[discrete ∞-groupoid]] $\mathbf{B}G := Disc B G$. If $G$ here is an ordinary [[discrete group]] this is traditional Dijkgraaf-Witten theory, if $G$ is a discrete [[2-group]] and the background field is a circle 4-bundle, then this is called the [[Crane-Yetter model]].
-
-This are the first two steps in filtering of target spaces by [[homotopy type]] [[truncated|truncation]] of [[schreiber:∞-Chern-Simons theory]] <a href="http://nlab.mathforge.org/schreiber/show/infinity-Chern-Simons+theory#DiscreteTargets">with discrete target spaces</a>.
+The space of [[state]]s assigned to a $\Sigma$ of [[dimension]] $n-k$ for $k \in \mathbb{N}$ is the [[k-groupoid]] of [[section]]s of the higher line bundle [[associated infinity-bundle|associated]] to the [[circle n-bundle|circle (n-k)-bundle]] $\tau_\Sigma \alpha$ obtained by [[transgression]] of $\alpha$ to the [[mapping space]] $\mathbf{H}(\Sigma, \mathbf{B}G)$. 
 
 
-## Definition
+The propagator on $\Sigma$ of dimension $n$ is given by the [[path integral]] computed with [[measure]] the [[groupoid cardinality]] of $\mathbf{B}G$ and  [[integral kernel]] given by the [[action functional]]
+
+$$
+  \exp(i S(-)) : G Bund(\Sigma) \to U(1)
+$$
+
+that sends a field $\phi$ to the evaluation of $\alpha(\phi)$ on the [[fundamental class]] of $\Sigma$
+
+$$
+  \exp(i S(\phi)) = \int_\Sigma \alpha(\phi)
+  \,.
+$$
+
+
+### Gentle exposition
+
 
 (...)
-
-More in detail:
-
-* the target space of is the groupoid $\mathbf{B}G = \{ \bullet \righttoleftarrow g \;|\; g \in G \}$ obtained by [[delooping]]  from a _finite_ [[group]] $G$ ;
-
-* background field is an $n$-functor $\alpha : \mathbf{B} G \to \mathbf{B}^n U(1)$ 
-
-  * this is the same thing as a $U(1)$-valued [[group cohomology|group n-cocycle]] $c$ on $G$;
-
-* or rather the background field is the associated functor $\mathbf{B} G \to \mathbf{B}^n U(1) \to n Vect$ for the canonical representation of $\mathbf{B}^n U(1)$ on [[n-vector space]]s 
-
-* parameter spaces $\Sigma = \Pi(X)$ are [[skeleton|skeleta]] of the [[fundamental ∞-groupoid]]s of $n$-dimensional [[manifold]]s $X$.
-
-Therefore 
-
-* a field configuration $\Sigma  = \Pi(X) \stackrel{\phi}{\to} \mathbf{B} G$ is a $G$-[[principal bundle]] on $X$ (recall that $G$ is assumed to be a finite group);
-
-* the action $\Pi(X) \stackrel{\phi}{\to} \mathbf{B} G \stackrel{\alpha}{\to} \mathbf{B}^n U(1)$ of this field configuration is the [[cohomology]] class $c(\phi)$ of this bundle under the given group cocycle;
-
-* the weight in the path integral over all $\phi$ for $n$-dimensional $X$ (i.e. in codimension 0) is the [[groupoid cardinality|groupoid measure]] of the [[functor category]] $[\Pi(X), \mathbf{B}G]$.
-
 
 ## Details of DW-theory as an extended TQFT
 
