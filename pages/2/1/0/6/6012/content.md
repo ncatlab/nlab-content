@@ -22,6 +22,12 @@ If the abelian category satisfies the Gabriel's [[property (sup)]] then for ever
 
 A torsion theory is __hereditary__ if $T$ is closed under subobjects, or equivalently, $t$ is [[left exact functor]]. 
 
+## Properties
+
+If $(T,F)$ is a torsion class then $T$ and $F$ both contain the zero object and are closed under biproducts (Borceux II 1.12.3). Presentation of an object $X$ in $Ob A$ as an extension $0\to Y\to X\to X/Y\to 0$,  $Y$ in $Ob T$ by $X/Y$ in $Ob F$ is unique up to an isomorphism of short exact sequences (Borceux II 1.12.4). 
+
+Given an abelian category $A$ there is a bijection between universal closure operations on $A$, hereditary torsion theories in $A$ (Borceux II 1.12.8) and, if $A$ us locally finitely presentable also with left exact localizations of $A$ admiting a right adjoint and with localizing subcategories of $A$ (Borceux II 1.13.15). 
+
 ## Examples
 
 The basic example of a torsion class is the class of torsion abelian groups within the category of all abelian groups. The torsion theories are often used as a means to formulate localization theory in abelian categories. 
