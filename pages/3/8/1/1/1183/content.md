@@ -27,15 +27,13 @@
 
 ## Idea
 
-A _$\sigma$-model_ is a [[quantum field theory]]  whose fields are maps into some _target space_ that carries some geometric structure -- usually that of a [[connection on an infinity-bundle]] generally or cocycle in abelian [[differential cohomology]] more specifically -- representing a background [[gauge field]].
+A _$\sigma$-model_ is a [[quantum field theory]]  whose fields are maps from a _[[worldvolume]]_ $\Sigma$ into some _[[target space]]_ that carries some geometric structure -- usually a [[background gauge field]] given by a [[connection on an infinity-bundle]] generally or a cocycle in abelian [[differential cohomology]] more specifically.
 
-The _fields_ of a $\sigma$-model on parameter space $\Sigma$ are maps from $\Sigma$ to target space $X$.
-
-One way to make this precise for _topological_ $\sigma$-models is to say that target space $X$, or possibly the gauge bundle $P \to X$ over it, [[representable functor|represents]] an functor that sends [[cobordism]] [[cospan]]s to [[span]]s which in turn are taken to act by pull-push on the quantum states, which are objects in [[geometric infinity-function theory]] living over the mapping spaces $[\Sigma, P]$.
+One way to make this precise for _topological_ $\sigma$-models is to say that target space $X$, or possibly the gauge bundle $P \to X$ over it, [[representable functor|represents]] an functor that sends [[cobordism]] [[cospan]]s to [[span]]s which in turn are taken to act by pull-push on the quantum states, which are objects in [[geometric infinity-function theory]] living over the mapping spaces $[\Sigma, P]$. (...)
 
 ### Physical interpretation 
 
-$\sigma$-model quantum field theories on parameter spaces $\Sigma$ of top dimension $n+1$ are to be thought of as encoding the quantum mechanics of the propagation of an $n$-dimensional particle, called an _$n$-brane_, in target space $X$, subject to the forces imposed on it by the backgreound field, under which it is said to be charged.
+$\sigma$-model quantum field theories on [[worldvolume]] $\Sigma$ of top dimension $n+1$ are to be thought of as encoding the quantum mechanics of the propagation of an $n$-dimensional particle, called an _$(n-1)$-[[brane]]_, in [[target space]] $X$, subject to [[force]]s imposed on it by the [[background gauge field]], under which it is said to be _[[charge]]d_.
 
 These cases describe non-topological quantum field theories. Here the formalization of the notion of $\sigma$-model is not entirely complete. Yet.
 
@@ -86,6 +84,16 @@ In the context of [[11-dimensional supergravity]] there is a $\sigma$-model with
 
 * generally [[schreiber:∞-Chern-Simons theory]] is a $\sigma$-model with a [[smooth ∞-groupoid]] of [[connection on an ∞-bundle|∞-connections]].
 
+
+## Related concepts
+
+* **sigma model**
+
+  * [[worldvolume]]
+
+  * [[target space]]
+
+  * [[background gauge field]]
 
 ## References 
 
