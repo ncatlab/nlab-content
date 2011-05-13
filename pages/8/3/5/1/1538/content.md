@@ -27,7 +27,7 @@
 _Dijkgraaf-Witten theory_ in dimension $n$ is the [[TFT|topological]] [[sigma-model]] [[quantum field theory]] whose [[target space]] is the [[classifying space]] of a [[discrete group]] and whose 
 [[background gauge field]] is a [[circle n-bundle with connection]] on $\mathbf{B}G$ (necessarily flat) which is equivalently a [[cocycle]] in the [[group cohomology]] of $G$ with coefficients in the [[circle group]].
 
-Viewed in a broader context and generalizing: Dijkgraaf-Witten theory is the [[schreiber:∞-Chern-Simons theory]] induced from a [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ on a [[discrete ∞-groupoid]] $\mathbf{B}G := Disc B G$. If $G$ here is an ordinary [[discrete group]] this is traditional Dijkgraaf-Witten theory, if $G$ is a discrete [[2-group]] and the background field is a circle 4-bundle, then this is called the [[Crane-Yetter model]].
+Viewed in a broader context and generalizing: Dijkgraaf-Witten theory is the [[schreiber:∞-Chern-Simons theory]] induced from a [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ on a [[discrete ∞-groupoid]] $\mathbf{B}G := Disc B G$. If $G$ here is an ordinary [[discrete group]] this is traditional Dijkgraaf-Witten theory, if $G$ is a discrete [[2-group]] and the background field is a circle 4-bundle, then this is called the [[Yetter model]].
 
 This are the first two steps in filtering of target spaces by [[homotopy type]] [[truncated|truncation]] of [[schreiber:∞-Chern-Simons theory]] <a href="http://nlab.mathforge.org/schreiber/show/infinity-Chern-Simons+theory#DiscreteTargets">with discrete target spaces</a>.
 
