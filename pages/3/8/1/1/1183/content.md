@@ -55,6 +55,168 @@ In [[string theory]] one considers 2-[[dimensional]] $\Sigma$ and thinks of maps
 
 In the context of [[11-dimensional supergravity]] there is a $\sigma$-model with 3-dimensional $\Sigma$, describing the propagation of a [[membrane]] in [[spacetime]].
 
+## Exposition
+ {#Exposition}
+
+We give a leisurely exposition of the idea of $\sigma$-models, aimed at readers with a background in [[category theory]] but trying to assume no other prerequisites.
+
+What is called an _$n$-dimensional $\sigma$-model_ is first of all an instance of an $n$-dimensional [[quantum field theory]] (to be explained). The distinctive feature of those quantum field theories that are $\sigma$-models is that 
+
+1. these arise from a simpler kind of field theory -- called a [[classical field theory]] -- by a process called [[quantization]] 
+
+1. moreover, this simpler kind of field theory encoded by[[geometry|geometric data]] in a nice way: it describes physical [[configuration space]]s that are [[mapping space]]s into a [[geometry|geometric]] [[space]] equipped with some [[synthetic differential geometry|differential geometric]] [[structure]].
+
+We give expositions of these items step-by-step:
+
+1. [Quantum field theory](#ExpositionQuantumFieldTheory)
+
+1. [Classical field theory](#ExpositionClassicalFieldTheory)
+
+1. [Quantization](#ExpositionQuantization)
+
+1. [Classical sigma-models](#ExpositionClassicalSigmaModels)
+
+1. [Quantum sigma-models](#ExpositionQuantumSigmaModels)
+
+We draw from ([FHLT, section 3](#FHLT)).
+
+### Quantum field theory
+ {#ExpositionQuantumFieldTheory}
+
+For our purposes here, a [[quantum field theory]] of [[dimension]] $n$ is a [[symmetric monoidal functor]]
+
+$$
+  Z : Bord_n^S \to \mathcal{C}
+  \,,
+$$
+
+where
+
+* $Bord_n^S$ is a [[cobordism category|category of n-dimensional cobordisms]] that are equipped with some [[structure]] $S$: 
+
+  * its [[object]]s are $(n-1)$-[[dimension]]al [[topological manifold]]s;
+
+  * its [[morphism]]s are [[isomorphism class]]es of $n$-[[dimension]]al [[cobordism]]s between such manifolds
+
+  * and all manifolds are equipped with _$S$-[[structure]]_ . For instance $S$ could be _[[Riemannian structure]]_ . Then we would call $Z$ a [[Euclidean quantum field theory]] (confusingly). If $S$ is "no structure" then we call $Z$ a [[topological quantum field theory]].
+
+* $\mathcal{C}$ is some [[symmetric monoidal category]].
+
+We think of data as follows:
+
+* $Bord_n^S$ is a model for _being_ and _becoming_ in [[physics]] (following [[Bill Lawvere]]'s terminology): the objects of $Bord_n^S$ are archetypes of _physical spaces that are_ and the morphisms are _physical spaces that evolve_ ;
+
+* the [[object]] $Z(\Sigma)$ that $Z$ assigns to any $(n-1)$-manifold $\Sigma$ is to be thought of as the _[[space]] of all possible [[state]]s_ over the space $\Sigma$ of a the physical system to be modeled;
+
+* the [[morphism]] $Z(\hat \Sigma) : Z(\Sigma_{in}) \to Z(\Sigma_{out})$ that $\Sigma$ assigns to any [[cobordism]] $\hat \Sigma$ with incoming [[boundary]] $\Sigma_{in}$ and outgoing boundary $\Sigma_{out}$ is the [[propagator]] along $\hat \Sigma$: it maps every state $\psi \in Z(\Sigma_{in})$ of the system over $\Sigma_{in}$ to the state $Z(\Psi) \in \Sigma_{out}$ that is the result of the evolution of $\psi$ along $\hat \Sigma$ by the _dynamics_ of the system. Or conversely: the action of $Z$ encodes what this dynamics is supposed to be.
+
+
+### Classical field theory
+ {#ExpositionClassicalFieldTheory}
+
+A special class of examples of $n$-dimensional quantum field theories, as discussed [above](#ExpositionQuantumFieldTheory), arise as [[deformation quantization|deformations]] or _[[path integral|averages]]_ of similar, but simpler structure: _[[classical field theories]]_ . The process that constructs a quantum field theory out of a classical field theory is called _[[quantization]]_ . This is discussed [below](#ExpositionQuantization). Here we describe what a classical field theory is. We shall inevitably oversimplify the situation such as to still count as a leisurely exposition. The kind of examples that the following discussion applies to strictly are field theories <a href="http://nlab.mathforge.org/schreiber/show/infinity-Chern-Simons+theory#DiscreteTargets">of Dijkgraaf-Witten type</a>. But despite its simplicity, this case accurately reflects most of the general abstract properties of the general theory.
+
+For our purposes here, a [[classical field theory]] of dimension $n$ is
+
+* a [[symmetric monoidal functor]]
+
+  $$
+    \exp(i S(-)) : Bord_n^S \to Span(Grpd, \mathcal{C})
+    \,,
+  $$
+
+  where
+
+  * $Bord_n^S$ is the same [[category of cobordisms]] as before;
+
+  * $Span(Grpd, \mathcal{C})$ is the [[category of spans]] of [[groupoid]]s over $\mathcal{C}$:
+
+    * [[object]]s are [[groupoid]]s $K$ equipped with [[functor]]s $\phi : K \to \mathcal{C}$;
+
+    * [[morphism]]s $(K_1, \phi_1) \to (K_2, \phi_2)$ are [[diagram]]s
+
+      $$
+        \array{
+           && \hat K
+           \\
+           & \swarrow && \searrow
+           \\
+           K_1 &&\swArrow&& K_2
+           \\
+           & \searrow && \swarrow
+           \\
+           && \mathcal{C}
+        }
+        \,,
+      $$
+
+      where in the middle we have a [[natural transformation]];
+
+    * [[composition]] of morphism is by forming [[2-pullback]]s:
+
+      $$
+        (\hat K_2 \circ \hat K_1) = \hat K_1 \prod_{K_2} \hat K_2
+        \,.
+      $$
+
+
+Let $\hat \Sigma : \Sigma_1 \to \Sigma_2$ be a [[cobordism]] and
+
+$$
+  \exp(i S(-))_{\Sigma} =
+  \left(
+        \array{
+           && Conf_{\hat \Sigma}
+           \\
+           & {}^{\mathllap{(-)|_{in}}}\swarrow && \searrow^{\mathrlap{(-)|_{out}}}
+           \\
+           Conf_{\Sigma_1} &&\swArrow_{\exp(i S(-)_{\hat \Sigma})}&& Conf_{\Sigma_2}
+           \\
+           & {}_{V_{\Sigma_1}}\searrow && \swarrow_{\mathrlap{V_{\Sigma_2}}}
+           \\
+           && \mathcal{C}
+        }
+  \right)
+$$
+
+the value of a classical field theory on $\hat \Sigma$.
+We interpret this data as follows:
+
+* $Conf_{\Sigma_1}$ is the [[configuration space]] of a [[classical field theory]] over $\Sigma_1$: [[object]]s are "field configurations" on $\Sigma_1$ and [[morphism]]s are [[gauge transformation]]s between these. Similarly for $Conf_{\Sigma_2}$.
+
+  Here a "physical field" can be something like the [[electromagnetic field]]. But it can also be something very different. For the special case of $\sigma$-models that we are eventually getting at, a "field configuration" here will instead be a way of an particle of shape $\Sigma_1$ sitting in some [[target space]].
+
+* $Conf_{\hat \Sigma}$ is similarly the groupoid of field configurations on the whole cobordism, $\hat \Sigma$. If we think of an object in $Conf_{\hat \Sigma}$ of a way of a [[brane]] of shape $\Sigma_1$ sitting in some [[target space]], then an object in $Conf_{\hat Sigma}$ is a _trajectory_ of that brane in that target space, along which it evolves from shape $\Sigma_1$ to shape $\Sigma_2$.
+
+* $V_{\Sigma_i} : Conf_{\Sigma_i} \to \mathcal{C}$ is the [[classifying space|classifying map]] of a kind of [[vector bundle]] over configuration space: a [[state]] $\psi \in Z(\Sigma_1)$ of the [[quantum field theory]] that will be associated to this [[classical field theory]] by [[quantization]] will be a [[section]] of this vector bundle. Such a section is to be thought of as a generalization of a 
+[[probability distribution]] on the space of classical field configurations. The [[generalized element]]s of a [[fiber]] $V_{c}$ of $V_{\Sigma_1}$ over a configuration $c \in Conf_{\Sigma_1}$ may be thought of as an _internal state_ of the brane of shape $\Sigma_1$ sitting in target space. 
+
+* $\exp(i S(-))_{\hat \Sigma}$ is the [[action functional]] that defines the classical field theory: the component
+
+  $$
+   \exp(i S(\gamma))_{\hat \Sigma} 
+    : 
+    V_{\gamma|_{in}}
+    \to
+    V_{\gamma|_{out}}
+  $$
+
+ of this [[natural transformation]] on a trajectory $\gamma \in Conf_{\hat \Sigma}$ going from a configuration $\gamma|_{in}$ to a configuration $\gamma|_{out}$ is a morphism in $\mathcal{C}$ that maps the internal states of the ingoing configuration $\gamma|_{\Sigma_1}$ to the internal states of the outgoing configuration $\gamma|_{\Sigma_2}$. This evolution of internal states encodes the _classical dynamics_ of the system.
+ 
+
+### Quantization
+ {#ExpositionQuantization}
+
+### Classical $\sigma$-models
+ {#ExpositionClassicalSigmaModels}
+
+(...)
+
+### Quantum $\sigma$-models
+ {#ExpositionQuantumSigmaModels} 
+
+(...)
+
 ## Examples 
 
 ### Non-topological $\sigma$-models 
@@ -104,6 +266,7 @@ First indications on how to formalize $\sigma$-models in a [[higher category the
 A grand picture developing this approach further is sketched in 
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_  ([arXiv](http://arxiv.org/abs/0905.0731))
+ {#FHLT}
 
 A discussion of 2 or 2+1-dimensional $\Sigma$-models whose target is an [[derived stack]]/[[infinity-stack]] is in
 
