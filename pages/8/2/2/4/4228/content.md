@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -67,7 +66,7 @@ The [[category]] of [[convenient vector space]]s embeds as a [[full subcategory]
 +-- {: .proof}
 ###### Proof
 
-[Kock86](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)
+Note: the proof given in [Kock86](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0) is incorrect - for the correct version, see his [Corregendum and addenda to "Convenient vector spaces embed"...](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1987__28_2).  (Essentially, he tries to take a short cut by giving an alternative version of the Cahiers topos, but this alternative version has too few maps).
 
 =--
 
