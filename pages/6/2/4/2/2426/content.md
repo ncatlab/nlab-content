@@ -39,3 +39,4 @@ See also [[pseudo-Riemannian manifold]]
 
 
 [[!redirects Riemannian manifolds]]
+[[!redirects Riemannian structure]]
