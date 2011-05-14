@@ -45,4 +45,6 @@ The above works in any [[abelian category]], and possible more generally.  See a
 
 [[!redirects exact sequences]]
 
+[[!redirects long exact sequences]]
 [[!redirects short exact sequences]]
+[[!redirects split exact sequences]]
