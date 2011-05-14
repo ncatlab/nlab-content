@@ -16,6 +16,8 @@
 
     * [[spectrum object]]
 
+  * [[stable derivator]]
+
   * [[triangulated category]]
 
 * [[stable (∞,1)-category of spectra]]
