@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Stable homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -39,6 +54,8 @@ $$\array{X & \overset{}{\to} & 0\\
   0 & \underset{}{\to} & S X.}$$
 This makes sense in the more general context of any [[pointed derivator]], but the stability axiom guarantees that $S$ is actually an equivalence of categories.  Its inverse being given by the obvious dual "loop space" construction (which in a general pointed derivator is only right adjoint to it).  This provides a motivation for the stability axiom: it is a generalization of the statement that every object is the loop space of its suspension and the suspension of its loop space.
 
+One can also prove that $S$ is also a [[copower]] with the pointed [[circle]] $S^1$ in a suitable sense.  In particular, since every object is isomorphic to a double suspension, it is a cogroup object; thus $D(X)$ is canonically an [[Ab-enriched category]].
+
 Let $Q$ denote the category
 $$\array{ & \overset{}{\to} & & \to &\\
   \downarrow && \downarrow && \downarrow\\
@@ -59,9 +76,23 @@ and we define the *distinguished triangles* in $D(1)$ to be those isomorphic to 
 
 One can then prove the axioms of a triangulated category.
 
++-- {: .un_remark}
+###### Remark
+If $ A \overset{f}{\to} B \overset{g}{\to} C \overset{h}{\to} S A$ is a distinguished triangle in a triangulated category, then $ A \overset{f}{\to} B \overset{g}{\to} C \overset{-h}{\to} S A$ is also an "exact" triangle in the sense that it induces [[long exact sequences]] in [[homology]] and [[cohomology]], but it is not in general distinguished.  On the other hand, if 
+$$\array{A & \overset{f}{\to} & B & \to & 0\\
+  \downarrow && \downarrow^g && \downarrow\\
+  0 & \to & C & \underset{h}{\to} & D.}$$
+is bicartesian in an $(\infty,1)$-category, then so is
+$$\array{A & \overset{f}{\to} & B & \to & 0\\
+  \downarrow && \downarrow^g && \downarrow\\
+  0 & \to & C & \underset{-h}{\to} & D.}$$
+This seeming paradox is resolved by noticing that although these two bicartesian diagrams have the same object $D$ at their lower-right-hand corner, the different maps $h$ and $-h$ cause these diagrams to induce different isomorphisms $D \cong S A$.  The isomorphism for the latter diagram incorporates an extra minus sign, relative to the first one, causing these two diagrams to both induce the *same* triangle $ A \overset{f}{\to} B \overset{g}{\to} C \overset{h}{\to} S A$ in the homotopy category.
+=--
+
+
 ## References
 
-See [[derivator]] for general references about derivators.  References particularly pertaining to the stable version include:
+See [[derivator]] for general references about derivators, and also [[pointed derivator]].  References particularly pertaining to the stable version include:
 
 * [[Alex Heller]], "Stable homotopy theories and stabilization" [MR](http://www.ams.org/mathscinet-getitem?mr=1431157)
 
