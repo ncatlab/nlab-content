@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -37,7 +36,7 @@ More precisely, $C_0$ and $C_1$ are, respectively, the collections of [[objects]
 
 then $C^{op}$ is the category with
 
-* the same (isomorphic) collectionns of objects and morphisms
+* the same (isomorphic) collections of objects and morphisms
 
   $(C^{op})_0 := C_0$
 
