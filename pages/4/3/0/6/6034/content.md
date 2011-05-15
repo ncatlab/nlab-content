@@ -1,0 +1,22 @@
+## Motivation
+
+In the philosophy of Grothendieck school, one starts with some category $C$ of "local models" of spaces, equips it with a subcanonical Grothendieck topology, $\tau$, and enlarges $C$ to some category of sheaves of sets on the site $(C,\tau)$ playing the role of *spaces*. There are further generalizations to stacks and so on.
+
+The main role of properties of spaces have to be done in a relative setup, that is, the emphasis is on __properties of morphisms__. Thus one of the main steps in the construction of the theory is to extend good classes of morphisms of local models to the category of spaces. Grothendieck axiomatizes the situation, actually for general presheaves.
+
+
+## Definition
+
+Let $\mathcal{P}$ be some class of morphisms in a category $C$ satisfying the following
+
+1) $\mathcal{P}$ is closed under precomposition and postcomposition with isomorphisms
+
+2) if $f: X\to Y$ is in $\mathcal{P}$ and $g : V\to Y$ a morphism in $C$, then the
+pullback $X\times_Y V$ exists and the projection $X\times_Y V\to V$ is a morphism in $\mathcal{P}$.
+
+A morphism $\alpha : F\to G$ of presheaves of sets on $C$ is said to be __representable by a morphism in__ $\mathcal{P}$ if for every morphism from a representable presheaf
+$h_X\to G$, the projection $F\times_G h_X\to h_X$ is in $\mathcal{P}$. 
+
+In particular, a morphism $h_X\to h_Y$ is representable by a morphism in $\mathcal{P}$ iff it is of the form $h_w$ with $x\stackrel{w}\longrightarrow y\in \mathcal{P}$.
+
+This way the class $\mathcal{P}$ of morphisms in $C$ is extended to a class $\mathcal{P}\check{}$ of morphisms in the category of presheaves of sets $C\check{} = Set^{C^{op}}$.
