@@ -164,6 +164,8 @@ There are a sequence of variations on the concept of epimorphism, from strongest
 [[extremal epimorphism]]$\Rightarrow$
 epimorphism.
 
+Here: split epi = morphism having a section; regular epi = coequalizer of some pair of morphisms (if it has a kernel pair, then it is the coequalizer of its kernel pair); strict epi = joint coequalizer of all pairs which it coequalizes; strong epi = epimorphism such that it has a left lifting property with respect to the class of monomorphisms (in a category with coequalizers "epi" requirement is automatic); effective epi = epimorphism having a kernel pair and which is coequalizer of its kernel pair.  
+
 In [[Set|the category of sets]], every epimorphism is regular (and even split if you believe the [[axiom of choice]]), so it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.
 
 In general, the two serious distinctions come
