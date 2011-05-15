@@ -1,3 +1,4 @@
+[[!redirects differential orientation]]
 
 
 +-- {: .rightHandSide}
@@ -16,7 +17,7 @@
 
 ## Idea
 
-An [[orientation in generalized cohomology]] is a certain cohomology class. A _differential orientation_ is a refinement of this class to a cocycle in the corresponding [[differential cohomology]].
+An [[orientation in generalized cohomology]] is a certain cohomology class. An __orientation in differential cohomology__ (possibly shortened to somewhat cryptic _differential orientation_) is not just the orientation in the underlying generalized cohomology theory, but it has more structure, namely it is a refinement of the ordinary orientation class to a cocycle in the corresponding [[differential cohomology]].
 
 ## Examples
 
