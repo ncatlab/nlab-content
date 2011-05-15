@@ -10,7 +10,7 @@ A\times I &&\stackrel{i\times id}\to&&X\times I
 
 Here we denote $\sigma_0:x\mapsto (x,0)$, so that $F\circ\sigma_0=F(-,0)$. The map $\tilde{f}$ is sometimes said to be the _initial condition_ of a _homotopy extension problem_. $\tilde{F}$ is the extension of the homotopy $F$ with given initial condition which itself extends $F\circ\sigma_0$. 
 
-Surely it is superfluous to write the arrow $f:A\to Y$: if we erase it, the commutativity of the remaning square just sorrounding its position is saying $F\circ\sigma_0=\tilde{f}\circ i$; however it is conceptually nice to think of $\tilde{f}$ as extending some $f:=F\circ\sigma_0$. 
+Surely it is superfluous to write the arrow $f:A\to Y$: if we erase it, the commutativity of the remaining square just surrounding its position is saying $F\circ\sigma_0=\tilde{f}\circ i$; however it is conceptually nice to think of $\tilde{f}$ as extending some $f:=F\circ\sigma_0$. 
 
 One can instead of the diagram above write a diagram involving adjoint maps. In other words, instead of any homotopy $h:A\times I\to Y$ we use the exponential law to write $h':A\to Y^I$ where the correspondence is given by the formula $h'(a)(t)=f(a,t)$. Then the homotopy lifting property is the existence of the diagonal map $\tilde{F}'$ in the diagram:
 
