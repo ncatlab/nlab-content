@@ -1,0 +1,13 @@
+
+## In differential geometry
+
+For $X$ a [[smooth manifold]], a _smooth curve_ in $X$ is a [[smooth function]] $\gamma : \mathbb{R} \to X$ from the [[real line]] to $X$.
+
+
+## In algebraic geometry
+
+(...)
+
+for instance [[elliptic curve]].
+
+[[!redirects curves]]
