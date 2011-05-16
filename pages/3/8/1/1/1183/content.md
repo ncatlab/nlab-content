@@ -319,6 +319,7 @@ $$
   \,;
 $$
 
+(at least after replacing the kinetic [[Nabu-Goto action]] by the classically equivalent [[Polyakov action]])
 and the path integral is just the "expectation value" (after Wick rotation) of the holonomy, taken over all trajectories.
 
 Since there is a good general abstract theory of higher gauge fields and their higher holonomies (see [[differential cohomology]] and [[cohesive (infinity,1)-topos|differential cohomology in a cohesive topos]]), this suggests that there should be a general abstract theory of $\sigma$-models. Aspects of this are discussed [below](Exposition).
