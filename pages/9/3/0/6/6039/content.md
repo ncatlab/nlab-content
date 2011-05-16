@@ -1,0 +1,6 @@
+[[!redirects Chan-Paton bundles]]
+
+
+Geometric examples of [[D-brane]]s carry a [[vector bundle]] -- or in general a [[twisted bundle|twisted vector bundle]] with twist being the restriction of the [[Kalb-Ramond field]] to the D-brane. In the original literature these bundles are called _Chan-Paton bundles_ . 
+
+(This paragraph is of course at best a stub.)
