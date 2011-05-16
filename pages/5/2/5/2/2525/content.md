@@ -39,3 +39,6 @@ Unlike in the usual [[classical mechanics|classical mechanical] systems, in some
 * [wikipedia](http://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation).
 
 [[!redirects Euler-Lagrange equations]]
+
+[[!redirects equations of motion]]
+[[!redirects laws of motion]]
