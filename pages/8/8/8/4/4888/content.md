@@ -100,6 +100,7 @@ Compare [[universal principal ∞-bundle]].
 
 * [[principal ∞-bundle]] / **associated $\infty$-bundle
 
+* [[n-vector bundle]]
 
 ## References
 
