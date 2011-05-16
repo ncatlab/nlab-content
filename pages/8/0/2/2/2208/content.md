@@ -5,7 +5,7 @@ The [[hyperreal number]]s ([wikipedia](http://en.wikipedia.org/wiki/Hyperreal_nu
 
 From Michael Barr's [Models of Sketches](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1986__27_2/CTGDC_1986__27_2_93_0/CTGDC_1986__27_2_93_0.pdf)  
 
->Unlike [[limits]] and [[colimits]], an ultraproduct is not defined by any [[universal mapping property]]. Of course, if the category has limits and ([[filtered colimit|filtered]]) colimits, then it has ultraproducts constructed as colimits of [[products]] ... But usually the category of models of a [[coherent theory]] (such as the theory of [[discrete field|fields]]) lacks products and [Outdoor Fountains](http://www.outdoorfountains.com/) hence does not have categorical ultraproducts.
+>Unlike [[limits]] and [[colimits]], an ultraproduct is not defined by any [[universal mapping property]]. Of course, if the category has limits and ([[filtered colimit|filtered]]) colimits, then it has ultraproducts constructed as colimits of [[products]] ... But usually the category of models of a [[coherent theory]] (such as the theory of [[discrete field|fields]]) lacks products and  hence does not have categorical ultraproducts.
 
 
 [[!redirects ultraproduct]]
