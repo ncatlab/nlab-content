@@ -60,6 +60,20 @@ In the context of [[11-dimensional supergravity]] there is a $\sigma$-model with
 
 We survey, starting from the very basics, [[classical field theory]] aspects of $\sigma$-models that describe dynamics of [[particle]]s, [[strings]]s and [[brane]]s on geometric [[target space]]s.
 
+We are going to build a particular kind of [[classical field theory]], and call it a _classical $\sigma$-model.  We start by assuming we have some "[[space]]" $X$, in a [[category]] of "[[spaces]]" which includes [[smooth manifolds]].  We call $X$ the [[target space]], and we define the "[[configuration space]] of fields" $Conf_\Sigma$  over a manifold $\Sigma$ to be the [[mapping space]] $Map(\Sigma, X)$.  That is, a "configuration of fields" over a manifold $\Sigma$ is just like an an $X$-valued [[function]] on $\Sigma$.
+
+We assign a [[dimension]] $n \in \mathbb{N}$ to our $\sigma$-model, take $dim \sigma \leq n$ and assume that [[target space]] $X$ is equipped with a "[[circle n-bundle with connection]]".  
+
+For $n = 1$ this is an ordinary [[circle bundle]] [[connection on a bundle|with connection]] and models an [[electromagnetic field]] configuration on $X$. To distinguish this "field" on $X$ from the fields on $\Sigma$ we speak of a [[background gauge field]]. A field configuration $\Sigma \to X$ on $\Sigma$ models a trajectory of a charged particle subject to the forces excerted by this background field.
+
+For $n = 2$, a circle $n$-bundle with connection is a [[circle n-group|circle 2-group]] [[principal 2-bundle]] or equivalently a [[bundle gerbe]] with connection. This models a "higher electromagnetic field" called a [[Kalb-Ramond field]]. Now $\Sigma$ is taken to be 2-dimensional and a map $\Sigma \to X$ models the trajectory of a [[string]] on $X$, subject to forces excerted on it by this higher order field.
+
+While one can speak of [[principal ∞-bundles|higher bundles]] in full generality and full analogy to ordinary [[principal bundle]]s, it is useful to observe that any circle $n$-bundle is characterized by a classifying map $\alpha : X \to \mathbf{B}^n U(1)$ in our category of [[space]]s, so we can just think about classifying maps instead.  Here $U(1)$ is the [[circle group]], and $\mathbf{B}^n$ denotes its $n$th [[delooping]]; thus such a map is also a sort of [[cocycle]] in "smooth $n$th [[cohomology]] of $X$ with coefficients in $U(1)$". The additional data of a _connection_ refines this to a cocycle in [[ordinary differential cohomology|differential cohomology]] of $X$.
+
+Now, just like an ordinary [[circle group]]-[[principal bundle]] has an [[associated bundle|associated]] [[vector bundle]] once we fix a [[representation]] of $U(1)$ to be the [[fiber]]s, any "[[circle n-bundle]]" has an associated "[[n-vector bundle]]" once we fix a "[[∞-representation]]" $\rho : \mathbf{B}^n U(1) \to n Vect$ on "[[n-vector spaces]]".  Just as for the ordinary $U(1)$, here we usually pick the canonical 1-dimensional such "representation".  Finally, we define bundles $V_\Sigma : Conf_\Sigma \to \mathcal{C}$ of "internal states" by [[trangression]] of these associated bundles.
+
+We now try to fill this with life by spelling out some standard examples. Further [below](Exposition) we look at precise formalizations of the situation.
+
 ### The Newtonian particle
  {#ExpositionNewtonianParticle}
 
