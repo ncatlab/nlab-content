@@ -9,15 +9,6 @@
 =--
 =--
 
-* **principal bundle** / [[torsor]] / [[groupoid principal bundle]] / [[associated bundle]]
-
-* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
-
-* [[principal 3-bundle]] / [[bundle 2-gerbe]]
-
-* [[principal ∞-bundle]] / [[associated ∞-bundle]]
-
-***
 
 
 #Contents#
@@ -549,6 +540,19 @@ In [[higher category theory]] the notion of principal bundle has various [[verti
 In [[physics]], principal bundles [[connection on a bundle|with connection]] and their higher categorical analogs model [[gauge field]]s. 
 
 In fact, the history of the development of the theory of principal bundles and [[gauge theory]] is closely related. In the early 1930s Dirac and Hopf independently introduced $U(1)$-principal bundles: Dirac, somewhat implicitly, in his study of the [[electromagnetic field]] as a background for [[quantum mechanics]], Hopf in terms of the fibration named after him. However, from there it took apparently many years for the first publication to appear that explicitly states that these two considerations are aspects of the same phenomenon.
+
+
+## Related concepts
+
+* **principal bundle** / [[torsor]] / [[groupoid principal bundle]] / [[associated bundle]]
+
+* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
+* [[principal ∞-bundle]] / [[associated ∞-bundle]]
+
+* [[n-vector bundle]]
 
 
 
