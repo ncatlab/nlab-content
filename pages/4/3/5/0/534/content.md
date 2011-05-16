@@ -34,7 +34,7 @@
 
 ### Lorentzian manifold
 
-A _Lorentzian manifold_ $(X, \eta)$ of dimension $(d+1)$ is a [[smooth manifold]] equipped with a [[pseudo-Riemannian metric]] $\eta$ of signature $[+--\cdots -]$ (but note that the complementary choice $[-++\cdots +]$ is also used in the literature). This equips the [[tangent bundle|tangent space]] $T_x X$ at every point $x \in X$ canonically with the structure of a $(d+1)$-dimensional [[Minkowski space]].  Accordingly, tangent vectors $v \in T_x X$ of $X$ are called _timelike_ , _lightlike_ or _spacelike_ , if their norm-square $\mu_x(v,v)$ is positive, zero or negative, respectively. 
+A _Lorentzian manifold_ $(X, \eta)$ of dimension $(d+1)$ is a [[smooth manifold]] equipped with a [[pseudo-Riemannian metric]] $\eta$ of signature $[+--\cdots -]$ (but note that the complementary choice $[-++\cdots +]$ is also used in the literature). This equips the [[tangent bundle|tangent space]] $T_x X$ at every point $x \in X$ canonically with the structure of a $(d+1)$-dimensional [[Minkowski space]].  Accordingly, tangent vectors $v \in T_x X$ of $X$ are called _[[timelike]]_ , _[[lightlike]]_ or _[[spacelike]]_ , if their norm-square $\mu_x(v,v)$ is positive, zero or negative, respectively. 
 
 
 ### Causal structure
@@ -296,3 +296,6 @@ _[[Urs Schreiber|Urs]]_: Yes, exactly. There was the idea that, since many finit
 
 [[!redirects Lorentzian space]]
 [[!redirects Lorentzian spaces]]
+
+[[!redirects Lorentzian spacetime]]
+[[!redirects Lorentzian spacetimes]]
