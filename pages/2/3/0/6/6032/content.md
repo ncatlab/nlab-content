@@ -1,27 +1,39 @@
-Here we discuss two things: the relation and stand of $n$Lab, $n$Forum and related projects and our $n$-community toward the copyright issues and the copyright issues and literature (mainly in science) in general. 
 
-### nLab and copyright
+# Copyright
+* table of contents
+{: toc}
 
-While $n$Lab is free to use the usual practices of dealing with the original work of others are assumed, like citing original research and so on. $n$Lab cites, links and uses the work of other following also established practices for non-commercial and scientific uses. Some of the issues are at [[General Discussion]]. 
+Here we discuss two things:
+* the relation and stand of the $n$Lab, $n$Forum and related projects and our $n$-community toward copyright issues, and
+* copyright issues and literature (mainly in science) in general.
 
-The ideology of most of the principal contributors of $n$Lab is that scientific results should be freely distributed and fairly acknowledged. We try to foster this by our own example and release of our own contribution. We encourage finding free or inexpensive sources, alternative versions and other material which will enhance the scope of work available to as many interested people as possible. 
 
-While providing easier access to material in $n$Lab might seem to some commercial publishers to be a competition to them, we do count that many users of $n$Lab have the access to commercial resources, and we do often also make detailed and correct 
-links or hints to the latter. This way, as a byproduct, our bibliographies in $n$Lab do make also some favor to commercial publishers, with hopefully primary satisfaction of their users. We do not consider our citations being an advertisement for the publisher, but a neutral information for end users.
+## The $n$Lab and copyright
 
-#### We abide the law 
+While the $n$Lab is free to use, we follow the usual practices of dealing with the original work of others, like citing original research and so on. The $n$Lab cites, links and uses the work of others, following established practices for non-commercial and scientific uses. Some discussion of these issues is at [[General Discussion]].
 
-However, we do not do any "revolution" nor we intend to break the law. One tries to stretch the freedom of distribution of scientific work as much as possible, but without getting into risks of compromising our effort or making our links and resources unstable and unsecure. Namely, providing illegal links would make them subject to future removal, what would make the resources just temporary and any link and document structure related to such links ephemeral. The fact that we abide to the rules does not mean that we support their ideology. While we support the persecution of plagiarism, and protection of **authors**, most of the contributors consider the system of journals which get the work of authors for free and then charge for access immoral and support the alternative to the present system. Also we consider the present time extent of author's commercial rights to typically 75 years after publication and/or 25 after the death (in some countries **maximum** of the two, so it may be over 75 after the death of the author, if the book is published about the date of death of the author !!), rather extreme for creative heritage of humanity to develop optimally and beneficial for our culture, or even to benefit the very authors themselves. We also distinguish strongly between the rights of the authors and of their one-time publishers, which often blackmail the first in the scientific publication market.
+The ideology of most of the principal contributors of the $n$Lab is that scientific results should be freely distributed and fairly acknowledged. We try to foster this by our own example and release of our own contributions. We encourage finding free or inexpensive sources, alternative versions and other material which will enhance the scope of work available to as many interested people as possible.
 
-We sharply distinguish between the usage of work of others for personal and scientific issues from the commercial usage. Moreover, we consider that intellectual texts can be studied in depth by their users, including translating for personal use, reverse-engineer (e.g. in the case of software), analyse by machine-analysers, and use as a data for computer experiments. If one has a legal access to a source of information, its reading includes reading by any level of intelligence and data analysis, human or machine. 
+While providing easier access to material in the $n$Lab might seem to some commercial publishers to be in competition to them, we take into account that many users of $n$Lab have the access to commercial resources, and we do often also make detailed and correct links or hints to the latter. This way, as a byproduct, our bibliographies in the $n$Lab also provide a favor to commercial publishers, with hopefully the primary satisfaction of their users. We do not consider our citations as an advertisement for the publisher, but as a neutral information for end users.
 
-### Copyright issues in natural sciences and mathematics
 
-While in court it is easier to win if somebody had a prior registration of copyright in a copyright office, in principle most of the copyright laws and patent laws in provable cases give advantage to the **factual priority** of the work, even if non-registered. That is, every author's work is a priori protected from the moment of creation; the registration at a copyright office just makes it easier to prove the priority in disputes. 
+### We abide by the law 
 
-According to some historians and anti-copyright activists the copyright in 19th and early 20th century was mainly working toward the authors, while today it is structure in a way which is mainly protecting the publishers, and less the authors. In particular, often the authors loose the battles with their own publishers in attempts of making parts of their work free or published in a form which they prefer. 
+Despite our ideology, we do not attempt any "revolution" nor do we intend to break the law. We tries to stretch the freedom of distribution of scientific work as much as possible, but without getting into the risks of compromising our effort or making our links and resources unstable and insecure. Namely, providing illegal links would make them subject to future removal, which would make the resources just temporary and any link and document structure related to such links ephemeral.
 
-#### Links and literature 
+The fact that we abide by the rules does not mean that we support their ideology. While we denounce of plagiarism, and support *credit for authors*, most of the contributors consider the system of journals, which get the work of authors for free and then charge for access, immoral and support alternatives to the present system. Also, we consider the present time extent of author's commercial rights of typically 75 years after publication and/or 25 after the death (in some countries the *maximum* of the two, so it may be over 75 after the death of the author, if the book is published about the date of death of the author, and in some countries eve longer!), rather extreme for the creative heritage of humanity to develop optimally and beneficially for our culture, or even to benefit the very authors themselves. We also distinguish strongly between the rights of the authors and of their one-time publishers, which often blackmail the former in the scientific publication market.
+
+We sharply distinguish between the usage of work of others for personal and scientific issues from commercial usage. Moreover, we consider that intellectual texts can be studied in depth by their users, including translation for personal use, reverse-engineering (e.g., in the case of software), analysis by machine, and use as a data for computer experiments. If one has a legal access to a source of information, its reading includes reading by any level of intelligence and data analysis, human or machine.
+
+
+## Copyright issues in natural sciences and mathematics
+
+While in court it is easier to win if somebody had a prior registration of copyright in a copyright office, in principle most of the copyright laws and patent laws in provable cases give advantage to the *factual priority* of the work, even if not registered. That is, every author's work is a priori protected from the moment of creation; the registration at a copyright office just makes it easier to prove the priority in disputes.
+
+According to some historians and anti-copyright activists, the copyright in the 19th and early 20th centuries mainly worked for the authors, while today it is structured in a way which is protects the publishers and less the authors. In particular, often the authors lose battles with their own publishers in attempts to make parts of their work free or published in a form which they prefer.
+
+
+### Links and literature 
 
 * MathOverflow [publishing-journals-articles-without-transferring-copyright](http://mathoverflow.net/questions/64982/publishing-journals-articles-without-transferring-copyright/64983), [how-to-select-a-journal](http://mathoverflow.net/questions/7284/how-to-select-a-journal)
 
@@ -29,4 +41,7 @@ According to some historians and anti-copyright activists the copyright in 19th 
 
 * Wikipedia [Copyright](http://en.wikipedia.org/wiki/Copyright), [copyright law](http://en.wikipedia.org/wiki/Copyright_law), [intellectual property activism](http://en.wikipedia.org/wiki/Category:Intellectual_property_activism), [anti-copyright](http://en.wikipedia.org/wiki/Anti-copyright)
 
-See also the related issues of [[zoranskoda:citations]]. 
+See also the related issues at [[zoranskoda:citations]].
+
+
+category: meta
