@@ -172,3 +172,6 @@ See also [[division algebras and supersymmetry]].
 
 [[!redirects NS-fivebrane]]
 [[!redirects NS-fivebranes]]
+
+[[!redirects D-brane]]
+[[!redirects D-branes]]
