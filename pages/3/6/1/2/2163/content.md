@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -146,21 +147,6 @@ This is ([GalatiusTillmannMadsenWeiss, main theorem](#GMWT)).
 The [[Thom group]] $\mathcal{N}_*$ of cobordism classes of unoriented compact smooth manifolds is the cobordism semigroup for $D=Diff_c$.
 
 
-## References
-
-A classical reference is
-
-* Robert E. Stong, _Notes on cobordism theory_, Princeton University Press 1968 (Russian transl., Mir 1973)
-
-The [GMTW theorem](#GMTWTheorem) about the [[homotopy type]] of the cobordisms category with topological structures on the cobordisms appears in 
-
-* [[Soren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]], and [[Michael Weiss]], _The homotopy type of the cobordism category_ ([arXiv](http://arxiv.org/abs/math/0605249))
-{#GMWT}
-
-A generalization to geometric structure on the cobordisms is discussed in
-
-* [[David Ayala]], _Geometric cobordism categories_ ([pdf](http://www.math.ku.dk/~ayala/geombord.pdf))
-{#Ayala}
 
 ## Related concepts
 
@@ -176,6 +162,23 @@ A generalization to geometric structure on the cobordisms is discussed in
   * [[(∞,n)-category of cobordisms]]
 
 * [[cobordism hypothesis]]
+
+
+## References
+
+A classical reference is
+
+* Robert E. Stong, _Notes on cobordism theory_, Princeton University Press 1968 (Russian transl., Mir 1973)
+
+The [GMTW theorem](#GMTWTheorem) about the [[homotopy type]] of the cobordisms category with topological structures on the cobordisms appears in 
+
+* [[Soren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]], and [[Michael Weiss]], _The homotopy type of the cobordism category_ ([arXiv](http://arxiv.org/abs/math/0605249))
+{#GMWT}
+
+A generalization to geometric structure on the cobordisms is discussed in
+
+* [[David Ayala]], _Geometric cobordism categories_ ([pdf](http://www.math.ku.dk/~ayala/geombord.pdf))
+{#Ayala}
 
 
 [[!redirects category of cobordisms]]
