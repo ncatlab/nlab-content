@@ -13,6 +13,8 @@
 
 * [[cobordism]]
 
+  * [[B-bordism]]
+
   * [[extended cobordism]]
 
   * [[cobordism category]]
