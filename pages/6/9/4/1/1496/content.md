@@ -201,8 +201,6 @@ and
 
 [[!redirects Banach space]]
 [[!redirects Banach spaces]]
-[[!redirects normed vector space]]
-[[!redirects normed vector spaces]]
 [[!redirects pseudonormed vector space]]
 [[!redirects pseudonormed vector spaces]]
 [[!redirects seminormed vector space]]
