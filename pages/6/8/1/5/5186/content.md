@@ -153,7 +153,7 @@ To deal with this, we first look at variations of trajectories in a small region
 With the above choice diffeomorphism gauge, the equations of motion are
 
 $$
-  g(\nabla_{\dot \gamma} \dot \gamma,-)  = \iota_{\dot \gamma} F
+  g(\nabla_{\dot \gamma} \dot \gamma / {\vert \dot \gamma}\vert ,-)  = \iota_{\dot \gamma} F
   \,,
 $$
 
