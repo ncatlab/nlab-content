@@ -175,7 +175,7 @@ The $\sigma$-model describing the relativistic particle is the following.
     P =
     \{ [\gamma] \in Conf
      |\;\;
-    m g(\nabla_{\dot \gamma} \dot \gamma,-) =  q\iota_{\dot \gamma} F
+    m g(\nabla_{\dot \gamma} \dot \gamma/{\vert \dot \gamma}\vert , - ) =  q F(\dot \gamma, -)
     \;\; \}
     \subset Conf
     \,,
@@ -184,10 +184,6 @@ The $\sigma$-model describing the relativistic particle is the following.
   where 
 
   * $\nabla$ denotes the [[covariant derivative]] of the [[Levi-Civita connection]] of the background metric $g$ on the [[tangent bundle]] $T X$ of $X$;
-
-  * $g(\nabla_{\dot \gamma} \dot \gamma,-)$ is the 1-form given by evaluating the covariant acceleration in the metric tensor;
-
-  * $\frac{q}{m}\iota_{\dot \gamma} F$ is the 1-form given by evaluation the [[field strength]] 2-form on the covariant velocity,
 
   * the equation is taken to hold in each [[cotangent space]] $T^*_{\gamma(\tau)} X$ for each $\tau \in \mathbb{R}$.
 
@@ -226,7 +222,7 @@ $$
     &= 2 g(\nabla_{\dot \gamma} \dot \gamma, \dot \gamma)
     \\
     & = 
-    2 g(g^{-1}(\iota_{\dot \gamma} F, -), \dot \gamma)
+    2 g(g^{-1}(F(\dot \gamma,-), -), \dot \gamma)
     \\
     & \propto F(\dot \gamma, \dot \gamma)
     \\
@@ -244,7 +240,7 @@ The points in the [[covariant phase space]]
 
 $$
   P := \{ [\gamma] \in Conf | 
-   g(\nabla_{\dot \gamma} \dot \gamma,-) =  \frac{q}{m}\iota_{\dot \gamma} F
+   m g(\nabla_{\dot \gamma} \dot \gamma / {\vert \dot \gamma}\vert,-) =  q\iota_{\dot \gamma} F
     \}
   \subset Conf 
 $$
@@ -257,7 +253,8 @@ $$
 
 given by
 
-$$
+\[
+  \label{ParticleActionForGlobalA}
   \begin{aligned}
     S([\gamma]) 
      & := 
@@ -270,7 +267,7 @@ $$
      m \int_\Sigma dvol(\gamma^*g)  + q \int_\Sigma \gamma^* A
   \end{aligned}
   \,,
-$$
+\]
 
 where on the left we have the integral of the [[volume form]] of the pullback $\gamma^* g \in Sym^2 T^* \Sigma$ of the metric on target space to the [[worldline]].
 
@@ -312,7 +309,7 @@ $$
  \int_{\gamma \in Conf} hol(\nabla,\gamma) d \mu_{Wien}
 $$
 
-can be interpreted as the [[integral]] with respect to the [[Wiener measure]] on path space (after [[Wick rotation, at least]]). The kinetic part of the action functional is then absorbed into the Wiener measure $d \mu_{Wien}$
+can be interpreted as the [[integral]] with respect to the [[Wiener measure]] on path space (after [[Wick rotation]], at least). The kinetic part of the action functional is then absorbed into the Wiener measure $d \mu_{Wien}$
 
 $$
   \exp(i S_{kin}(\gamma)) [d\gamma] := d \mu_{Wien}
@@ -324,11 +321,73 @@ and the path integral is just the "expectation value" (after Wick rotation) of t
 
 Since there is a good general abstract theory of higher gauge fields and their higher holonomies (see [[differential cohomology]] and [[cohesive (infinity,1)-topos|differential cohomology in a cohesive topos]]), this suggests that there should be a general abstract theory of $\sigma$-models. Aspects of this are discussed [below](Exposition).
 
+### The relativistic $(n-1)$-brane
+
+It is hard _not_ to consider the following generalization of the [relativistic particle sigma-model](#RelativisticParticle):
+
+notice that nothing in the structure of the relativistic particle's action functional (eg:ParticleActionForGlobalA) relies on the [[dimension]] of $\Sigma$ being $1$. It is just the degree-1 case of the following family of types of classical $\sigma$-models that make sense for all $n \in \mathbb{N}$:
+
+* let $\Sigma$ be of [[dimension]] $n$;
+
+* let $(X,g)$ be a [[pseudo-Riemannian manifold]] as before;
+
+* let $A \in \Omega^n(X)$ be a smooth [[differential form|differential n-form]].
+
+* let [[configuration space]] be 
+
+  $$
+    Conf_\Sigma := C^\infty(\Sigma, X)/Diff(\Sigma)   
+    \,.
+  $$
+
+* let the [[action functional]] be given by
+
+  $$
+    S([\gamma]) = \int_\Sigma dvol(\gamma^* g) + \int_\Sigma \gamma^* A
+    \,.
+  $$
+
+
+For $n = 3$ this describes an analog of a relativistic particle which is not pointlike, but 2-dimensional (with 3-dimensional trajectory) hence which reminds one of a [[membrane]]. Inspired by this case the general case has come to known the relativistic $(n-1)$-[[brane]]. The case $n = 2$ is called the relativistic [[string]].
+
+Moreover, for each $n \in \mathbb{N}$ there is an analog of the generalization 
+
+$$
+  \{1-forms\} \hookrightarrow \{circle bundles with connection\}
+$$
+
+to 
+
+$$
+  \{n-forms\} \hookrightarrow \{circle $n$-bundles with connection\}
+  \,.
+$$
+
+Given any [[circle n-bundle with connection]] $\nabla$ and closed $\Sigma$ of dimension $n$, there is a [[higher parallel transport|higher]] [[holonomy]] [[functional]]
+
+$$
+  hol(\nabla, -) : (\Sigma \stackrel{\gamma}{\to} X) \mapsto 
+  hol(\nabla, \gamma) \in U(1)
+$$
+
+that extends the functional $A \mapsto \exp(i \int_\Sigma \gamma^* A)$.
+
+Therefore more generally we say
+
+* a [[background gauge field]] for the $(n-1)$-brane on $X$ is a [[circle n-bundle with connection]] $\nabla$;
+
+* the exponentiated [[action functional]] is 
+
+  $$
+    [\gamma] \mapsto \exp(i \int_\Sigma dvol(\gamma^* )) \; hol(\nabla,\gamma)
+   \,.
+  $$
+
+
 
 ### The relativistic string
  {#RelativisticString}
 
-(...)
 
 ## Exposition of a general abstract formulation
  {#Exposition}
