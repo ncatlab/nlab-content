@@ -1,5 +1,5 @@
 
-A morphism $f\colon X \to Y$ is a __universal epimorphism__ if for every morphism $u\cplon V \to Y$ there is a [[pullback]] $X \times_Y V$ and its projection $u^*(f)\colon X \times_Y V \to V$ is an [[epimorphism]]. 
+A morphism $f\colon X \to Y$ is a __universal epimorphism__ if for every morphism $u\colon V \to Y$ there is a [[pullback]] $X \times_Y V$ and its projection $u^*(f)\colon X \times_Y V \to V$ is an [[epimorphism]]. 
 
 In particular, setting $u = id_Y\colon Y \to Y$, we see that $f$ itself is an epimorphism.
 
