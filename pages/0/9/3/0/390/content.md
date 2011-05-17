@@ -61,11 +61,17 @@ Several classical examples of OFS $(E,M)$:
 
 ## Related concepts
 
-* **orthogonal factorization system**
+* [[factorization system]]
 
-* [[weak factorization system]]
+  * [[weak factorization system]]
 
-* [[orthogonal factorization system in an (∞,1)-category]]
+  * **orthogonal factorization system**
+
+* [[factorization system in a 2-category]]
+
+* [[factorization system in an (∞,1)-category]]
+
+  * [[orthogonal factorization system in an (∞,1)-category]]
 
 [[!redirects orthogonal factorization system]]
 [[!redirects orthogonal factorization systems]]
