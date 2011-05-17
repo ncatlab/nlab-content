@@ -16,3 +16,4 @@ where a 1-[[dimension]]al [[sigma-model]] may be thought of a describing the dyn
 
 Much of traditional [[quantum field theory]] on $X$ can be understood in terms of 1-dimensional sigma-models with target $X$. What is called _[[string theory]]_ is the corresponding study of what happens to this situation as the 1-dimensional $\sigma$-model is replaced by a 2-dimensional one.
 
+[[!redirects superstring]]
