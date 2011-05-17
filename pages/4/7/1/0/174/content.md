@@ -167,6 +167,8 @@ See also [[division algebras and supersymmetry]].
 
 * [[Chan-Paton bundle]]
 
+* [[M2-brane]], [[NS5-brane]]
+
 [[!redirects branes]]
 
 [[!redirects fundamental brane]]
