@@ -321,6 +321,7 @@ and the path integral is just the "expectation value" (after Wick rotation) of t
 
 Since there is a good general abstract theory of higher gauge fields and their higher holonomies (see [[differential cohomology]] and [[cohesive (infinity,1)-topos|differential cohomology in a cohesive topos]]), this suggests that there should be a general abstract theory of $\sigma$-models. Aspects of this are discussed [below](Exposition).
 
+
 ### The relativistic $(n-1)$-brane
  {#RelativisticNBrane}
 
@@ -401,26 +402,27 @@ Below we will see that when $\sigma$-models are considered [[internalization|int
 ### The relativistic string
  {#RelativisticString}
 
+The important case $n = 2$ of the general [(n-1)-brane sigma-model](RelativisticNBrane) that we considered above is called the [[string]]-$\sigma$-model. Even though this is just the first step after the relativistic particle, the theory of this $\sigma$-model is already considerably richer. Classically and all the more so after quantization. For the purposes of this exposition here we only briefly indicate the physical interpretation of the $\sigma$-model and then consider some qualitatively new higher [[gauge theory]] aspects, that appear in this dimension.
 
-The local 2-form of the [[background gauge field]] for the string is traditionally denoted $B \in \Omega^2(X)$ and called the [[B-field]]. It 3-form [[curvature]] [[field strength]] is traditionally denoted $H := d B$.
 
-With $T \in \mathbb{R}$ a freely specifyable parameter that plays a role analogous to the mass _and_ the charge of the relativistic particle, the [[action functional]] for the [[string]]'s $\sigma$-model is
+First notice that by the general reasoning of relativistic $(n-1)$-branes, the [[background gauge field]] is now given (if we assume for the moment a topological trivial class) by a 2-form, which is traditionally denoted $B \in \Omega^2(X)$ and called the _[[B-field]]_ . Its 3-form [[curvature]] [[field strength]] is traditionally denoted $H := d B$.
+
+The [[action functional]] of the [[string]]'s $\sigma$-model for a [[pseudo-Riemannian manifold|pseudo-Riemannian]] [[target space]] $(X,g)$ with background gauge field $B$ is
 
 $$
-  [\gamma] \mapsto T \int_\Sigma dvol(\gamma^* g) + T \int_\Sigma \gamma^* B
+  [\gamma] \mapsto \int_\Sigma dvol(\gamma^* g) + \int_\Sigma \gamma^* B
   \,.
 $$
 
-To gain insight into the physical meaning of this, we consider the
-critical locus of this for the simple case that [[target space]] $(X,g)$ is [[Minkowski spacetime]] and $\Sigma = \mathbb{R}^2$. With $(\tau,\sigma)$ the two canonical [[coordinate]]s on $\Sigma$, we still write 
+To gain insight into the physical meaning of this, consider the simple case that [[target space]] $(X,g)$ is [[Minkowski spacetime]] and that the [[worldsheet]] $\Sigma = \mathbb{R} \times S^1$ is the [[cylinder]]. With $(\tau,\sigma)$ the two canonical [[coordinate]]s on $\Sigma$, we still write 
 
 $$
   \dot \gamma := \partial_\tau \gamma
 $$
 
-but now also have the derivative $\partial_\sigma \gamma$ which we may think of as being _tangential to the string_ at any instant of its trajectory.
+for the derivative "along the trajectory" (along the $\mathbb{R}$-factor), but now we also have the derivative $\partial_\sigma \gamma$ which we may think of as being _tangential to the string_ at any instant of its trajectory. A field configuration $\gamma : \Sigma \to X$ may be thought of as the trajectory of a [[circle]] propagating in $X$.
 
-The critical trajectories $\gamma : \Sigma \to X$ are those that satisfy the [[wave equation]]
+The critical trajectories $\gamma : \Sigma \to X$ are found to be those that satisfy the 2-dimensional [[wave equation]]
 
 $$
   g(\ddot \gamma,-)  - g(\partial_\sigma^2 \gamma,-)
@@ -428,24 +430,52 @@ $$
   H(\dot \gamma, \partial_\sigma \gamma,-)
 $$
 
-on the [[worldsheet]]. Comparison with the equation of motion of the  [relativistic particle](#RelativisticParticle) shows that $H(\partial_\sigma \gamma, -,-)$ plays the role of a [[field strength]] 2-form. Hence the string behaves as if electric [[charge]] is spread out evenly along it. In the _point particle limit_ where the string has no extension in that $\partial_\sigma \gamma = 0$, the above equation reduces again to free Newtonian motion
+on the [[worldsheet]]. Comparison with the equation of motion of the  [relativistic particle](#RelativisticParticle) shows that $H(\partial_\sigma \gamma, -,-)$ plays the role of an electromagnetic [[field strength]] 2-form.  Hence the string behaves as if electric [[charge]] is spread out evenly along it. 
+
+For _point particle limit configurations_  $\gamma$, where the string has vanishing extension in that $\partial_\sigma \gamma = 0$, the above equation reduces again to free motion
 
 $$
   \ddot \gamma = \vec a = 0
+$$
+
+and for general $(X,g)$ to the corresponding [[geodesic]] motion.
+
+Therefore close to these point particle configurations the string looks like a little oscillating loop whose dynamics is that of its "center of mass" point, but slightly modified by the energy in the oscillations and the way these interact with the background fields. After quantization of the $\sigma$-model, these oscillations have a discrete ( quantized!) set of possible frequencies, and indeed each of the oscillation modes makes the string appear in the point particle limit as one species or other of a relativistic particle. (For more on this see _[[string theory]]_ .)
+
+Next we have a look at aspects of higher [[gauge theory]] that appears in $n = 2$.
+
+The above 2-form $B$ is in general just the local connection form of a _[[circle n-bundle with connection|circle 2-bundle with connection]]_ $\nabla$ on $X$, given (as its [[homotopy fiber]]) by a morphism of [[smooth ∞-groupoid]]s $\alpha : X \to \mathbf{B}^2 U(1)$. Equivalently this is a $U(1)$-[[bundle gerbe]] with connection.
+
+There is a canonical 1-dimensional [[infinity-representation|2-representation]] of the [[circle n-group|circle 2-group]] $\mathbf{B} U(1)$ on [[2-vector space]]s:
+
+$$
+  \rho : \mathbf{B} \mathbf{B}U(1) \to 2 Vect
   \,.
 $$
 
+Hence the corresponding [[associated infinity-bundle|associated 2-bundle]] is classified by a morphism
 
+$$
+  \rho(g) : X \stackrel{g}{\to} \mathbf{B}^2 U(1)
+   \stackrel{\rho}{\to}
+  2 Vect
+  \,.
+$$
 
-* [[string]]
+One can consider the string $\sigma$-model for [[worldsheet]]s with [[boundary]]. A careful analysis then shows that the consistent Dirichlet-type boundary conditions that can be added correspond, roughly,  to certain subspace of [[target space]] -- called [[D-brane]]s -- that are equipped with a section $V : \mathbf{1} \to \rho(g)|_{D-brane}$ of the background gauge field 
+[[n-vector bundle|2-vector bundle]] restricted to the $D$-brane. Such a section is precisely a [[twisted bundle|twisted vector bundle]] on the brane, where the twist is the class in [[integral cohomology]] $H^3(X, \mathbb{Z})$ of the background gauge field. More generally, these twisted bundles are cocycles in [[twisted K-theory]] and [[differential K-theory]]. Hence more [[differential cohomology]] appears on the target space for the string in the presence of string boundaries.
 
-* [[wave equation]]
+More generally, the structure [[2-group]] of the background [[principal 2-bundle]] need not be $\mathbf{B}U(1)$, which is given by the [[crossed module]] $[U(1) \to 1]$. Instead, it can be the [[automorphism 2-group]] $AUT(U(1))$, which is given by the crossed module $(U(1) \to Aut(U(1)) \simeq \mathbb{Z}_2)$. An $AUT(U(1))$-[[principal 2-bundle]] on $X$ is equivalently a double cover of $X$, equipped with a circle 2-bundle that has a twisted [[equivariant cohomology|equivariance]] under the $\mathbb{Z}_2$-[[action]].  Such a background gauge field structure is called an _string [[orientifold]]_ background. This is a kind of [[higher category theory|higher structure]] that the relativistic particle alone cannot see.
 
-* [[Kalb-Ramond field]], [[B-field]]
+More such higher structure appears as one passes to the [[supergeometry]] analogs of the $\sigma$-models that we have considered so far: the [[superstring]]. The presence of the additional [[fermion]] fields that this brings with it (both on [[target space]] as well as on the [[worldsheet]]) influences all the structures that we have considered so far. For instance a phenonemon called a fermionic [[quantum anomaly]] forces the above background [[circle n-bundle|circle 2-bundle]] to become a [[twisted cohomology|twisted 2-bundle]], where the twist is given by a [[fivebrane]] [[charge]] [[Chern-Simons circle 3-bundle]]. This is discussed in detail at _[[differential string structure]]_
 
-* [[orientifold]]
+These are the first examples of a general phenomenon: as $n$ increases, a background gauge $n$-bundle with connection may constitute considerably more structure then one might naively expect from a generalization of the ordinary notion of a connection. More examples of this phenomenon arise when we allow our [[target space]]s to be general [[smooth ∞-groupoid]]s, below.
 
-* [[D-brane]]
+## Higher gauge theories as $\sigma$-models
+ {#GaugeTheoryAsSigmaModel}
+
+(...)
+
 
 ## Exposition of a general abstract formulation
  {#Exposition}
