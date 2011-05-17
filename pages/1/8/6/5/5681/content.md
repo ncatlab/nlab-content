@@ -1,4 +1,3 @@
-[[!redirects orthogonal factorization system in an (∞,1)-category]]
 
 
 +-- {: .rightHandSide}
@@ -79,14 +78,25 @@ Let $C$ be an [[(∞,1)-category]]. An **orthogonal factorization system** on $C
 
 ## Related concepts
 
-* [[orthogonal factorization system]]
+* [[factorization system]]
 
-* [[weak factorization system]]
+  * [[weak factorization system]]
 
-* **factorization system in an $(\infty,1)$-category**
+  * [[orthogonal factorization system]]
+
+* [[factorization system in a 2-category]]
+
+* [[factorization system in an (∞,1)-category]]
+
+  * **orthogonal factorization system in an (∞,1)-category**
 
 ## References
 
 Section 5.2.8 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+[[!redirects orthogonal factorization system in an (∞,1)-category]]
+
+[[!redirects factorization system in an (∞,1)-category]]
+[[!redirects factorization system in an (infinity,1)-category]]
