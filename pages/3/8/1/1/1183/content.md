@@ -401,6 +401,42 @@ Below we will see that when $\sigma$-models are considered [[internalization|int
 ### The relativistic string
  {#RelativisticString}
 
+
+The local 2-form of the [[background gauge field]] for the string is traditionally denoted $B \in \Omega^2(X)$ and called the [[B-field]]. It 3-form [[curvature]] [[field strength]] is traditionally denoted $H := d B$.
+
+With $T \in \mathbb{R}$ a freely specifyable parameter that plays a role analogous to the mass _and_ the charge of the relativistic particle, the [[action functional]] for the [[string]]'s $\sigma$-model is
+
+$$
+  [\gamma] \mapsto T \int_\Sigma dvol(\gamma^* g) + T \int_\Sigma \gamma^* B
+  \,.
+$$
+
+To gain insight into the physical meaning of this, we consider the
+critical locus of this for the simple case that [[target space]] $(X,g)$ is [[Minkowski spacetime]] and $\Sigma = \mathbb{R}^2$. With $(\tau,\sigma)$ the two canonical [[coordinate]]s on $\Sigma$, we still write 
+
+$$
+  \dot \gamma := \partial_\tau \gamma
+$$
+
+but now also have the derivative $\partial_\sigma \gamma$ which we may think of as being _tangential to the string_ at any instant of its trajectory.
+
+The critical trajectories $\gamma : \Sigma \to X$ are those that satisfy the [[wave equation]]
+
+$$
+  g(\ddot \gamma,-)  - g(\partial_\sigma^2 \gamma,-)
+  = 
+  H(\dot \gamma, \partial_\sigma \gamma,-)
+$$
+
+on the [[worldsheet]]. Comparison with the equation of motion of the  [relativistic particle](#RelativisticParticle) shows that $H(\partial_\sigma \gamma, -,-)$ plays the role of a [[field strength]] 2-form. Hence the string behaves as if electric [[charge]] is spread out evenly along it. In the _point particle limit_ where the string has no extension in that $\partial_\sigma \gamma = 0$, the above equation reduces again to free Newtonian motion
+
+$$
+  \ddot \gamma = \vec a = 0
+  \,.
+$$
+
+
+
 * [[string]]
 
 * [[wave equation]]
