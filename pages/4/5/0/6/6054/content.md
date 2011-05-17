@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contemts#
+* table of contents
+{:toc}
+
+
+
+
+## Idea
+
+Every [[geometric morphism]] between [[toposes]] factors into a [[geometric surjection]] followed by a [[geometric embedding]]. This exhibits an [[image]] construction in the [[topos theory|topos-theoretic]] sense.
+
+## Statement
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[factorization system on a 2-category|factorization system]] on the [[2-category]] [[Topos]] whose left class is the 
+[[surjective geometric morphism]]s and whose right class is the [[geometric embeddings]].  
+
+The factorization of a given geometric morphism $f$ can be given by constructing the [[Eilenberg-Moore category]] of the [[comonad]] $f^* f_*$.
+
+=--
+
+This appears for instance as ([MacLaneMoerdijk, VII 4., theorem 6](#MacLaneMoerdijk)).
+
+
+## References
+
+Section VII. 4. of 
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ {#MacLaneMoerdijk}
+
