@@ -160,14 +160,14 @@ The $\sigma$-model describing the relativistic particle is the following.
 
 * The [[background gauge field]] is given by a [[circle n-bundle with connection|circle bundle with connection]], which for the moment we shall assume to be topologically trivial and hence be equivalently given by a smooth [[differential form|1-form]] $A \in \Omega^1(X)$. Its [[curvature]] [[exterior derivative]] $F := d A$ is the [[field strength]] of an [[electromagnetic field]] on $X$. 
 
-* The [[configuration space]] is the [[quotient]]
+* The [[configuration space]] is the [[quotient]] (or rather [[action groupoid]])
 
   $$
     Conf = C^\infty(\mathbb{R}, X)//Diff(\mathbb{R})
     \,,
   $$
 
-  of [[smooth function]]s $\Sigma \to X$ by [[diffeomorphism]]s $\Sigma \stackrel{\simeq}{\to} \Sigma$. Each point in cofiguration space is a trajectory of a particle in spacetime.
+  of [[smooth function]]s $\Sigma \to X$ by [[diffeomorphism]]s $\Sigma \stackrel{\simeq}{\to} \Sigma$. Each [[object]] in [[cofiguration space]] is a trajectory $\gamma : \Sigma \to X$ of a particle in spacetime, each morphism/equivalence $\gamma_1 \stackrel{\simeq}{\to} \gamma_2$ : a [[gauge transformation]].
 
 * The [[covariant phase space]] -- the subspace of the configuration space of those configurations that satisfy the [[equations of motion]] -- is defined to be
 
@@ -316,39 +316,39 @@ $$
   \,;
 $$
 
-(at least after replacing the kinetic [[Nabu-Goto action]] by the classically equivalent [[Polyakov action]])
+(at least after replacing the kinetic [[Nambu-Goto action]] by the classically equivalent [[Polyakov action]])
 and the path integral is just the "expectation value" (after Wick rotation) of the holonomy, taken over all trajectories.
 
 Since there is a good general abstract theory of higher gauge fields and their higher holonomies (see [[differential cohomology]] and [[cohesive (infinity,1)-topos|differential cohomology in a cohesive topos]]), this suggests that there should be a general abstract theory of $\sigma$-models. Aspects of this are discussed [below](Exposition).
 
 ### The relativistic $(n-1)$-brane
+ {#RelativisticNBrane}
 
-It is hard _not_ to consider the following generalization of the [relativistic particle sigma-model](#RelativisticParticle):
+It is hard not to consider the following generalization of the relativistic particle $\sigma$-model, that we discussed [above](#RelativisticParticle):
 
-notice that nothing in the structure of the relativistic particle's action functional (eg:ParticleActionForGlobalA) relies on the [[dimension]] of $\Sigma$ being $1$. It is just the degree-1 case of the following family of types of classical $\sigma$-models that make sense for all $n \in \mathbb{N}$:
+notice that nothing in the structure of the relativistic particle's [[action functional]] (eq:ParticleActionForGlobalA) relies on the [[dimension]] of $\Sigma$ being $1$. Instead, it is just the degree-1 case of the following family of types of classical $\sigma$-models, that make sense for all $n \in \mathbb{N}$:
 
 * let $\Sigma$ be of [[dimension]] $n$;
 
-* let $(X,g)$ be a [[pseudo-Riemannian manifold]] as before;
+* let [[target space]] be a [[pseudo-Riemannian manifold]] $(X,g)$ as before;
 
-* let $A \in \Omega^n(X)$ be a smooth [[differential form|differential n-form]].
+* let the [[background gauge field]] be given by a smooth [[differential form|differential n-form]] $A \in \Omega^n(X)$.
 
-* let [[configuration space]] be 
+* let [[configuration space]] be the [[action groupoid|weak quotient]]
 
   $$
-    Conf_\Sigma := C^\infty(\Sigma, X)/Diff(\Sigma)   
+    Conf_\Sigma := C^\infty(\Sigma, X)//Diff(\Sigma)   
     \,.
   $$
 
-* let the [[action functional]] be given by
+* let then finally the [[action functional]] be given by
 
   $$
     S([\gamma]) = \int_\Sigma dvol(\gamma^* g) + \int_\Sigma \gamma^* A
     \,.
   $$
 
-
-For $n = 3$ this describes an analog of a relativistic particle which is not pointlike, but 2-dimensional (with 3-dimensional trajectory) hence which reminds one of a [[membrane]]. Inspired by this case the general case has come to known the relativistic $(n-1)$-[[brane]]. The case $n = 2$ is called the relativistic [[string]].
+This is the same formula as for the relativistic particle as before, only that now the differential forms are taken to be of degree $n$ and integrals to be over $n$-dimensional spaces.
 
 Moreover, for each $n \in \mathbb{N}$ there is an analog of the generalization 
 
@@ -356,10 +356,10 @@ $$
   \{1-forms\} \hookrightarrow \{circle bundles with connection\}
 $$
 
-to 
+to the generalization
 
 $$
-  \{n-forms\} \hookrightarrow \{circle $n$-bundles with connection\}
+  \{n-forms\} \hookrightarrow \{circle n-bundles with connection\}
   \,.
 $$
 
@@ -372,22 +372,44 @@ $$
 
 that extends the functional $A \mapsto \exp(i \int_\Sigma \gamma^* A)$.
 
-Therefore more generally we say
+Therefore, generally, we may take for $n \in \mathbb{N}$
 
-* a [[background gauge field]] for the $(n-1)$-brane on $X$ is a [[circle n-bundle with connection]] $\nabla$;
+* the [[background gauge field]] on $X$ is a [[circle n-bundle with connection]] $\nabla$;
 
 * the exponentiated [[action functional]] is 
 
   $$
-    [\gamma] \mapsto \exp(i \int_\Sigma dvol(\gamma^* )) \; hol(\nabla,\gamma)
+    [\gamma] \mapsto \exp(i \int_\Sigma dvol(\gamma^* )) \;\;\; hol(\nabla,\gamma)
    \,.
   $$
 
+
+For $n = 3$ such a $\sigma$-model describes an analog of a relativistic particle which is not pointlike, but 2-dimensional (with 3-dimensional trajectory) hence which reminds one of a [[membrane]]. Inspired by this term, the general case has come to be known as the _relativistic $(n-1)$-[[brane]]_ . 
+
+The case $n = 2$ is called the relativistic [[string]], which we consider in more detail [below](#RelativisticString). This has received a lot of attention (in _[[string theory]]_ ) not just because it is the next simplest in an infinite hierarchy of cases, but also because its quantum theory turns out to have various interesting features that seem to make it special. Moreover, many of the $(n-1)$-branes for other $n$ re-appear in one way or other in the study of the string (as its boundary [[D-brane]]s in all dimensions $0 \leq n \leq 10$, as its "strongly coupled" version: the [[M-theory membrane]], or as its [[electric-magnetic duality|electric-magnetic dual]]: the [[NS5-brane]]). If nothing else, the seemingly innocent step from $n = 1$ to $n = 2$ in the $\sigma$-model shows that there is a rich pattern of higher dimensional ($\sigma$-model) quantum field theories that are all interrelated in intricate ways.
+
+Another important special case for the general discussion of $\sigma$-models is the case of the [[membrane]], $n = 3$, for which the [[background gauge field]] is a _[[Chern-Simons circle 3-bundle]]_ for some $G$-[[principal bundle]] on $X$, for $G$ some suitable [[Lie group]]. In this case the gauge-coupling [[Lagrangian]] of the $\sigma$-model is, locally, the [[Chern-Simons form]] $CS(\nabla_\mathfrak{g})$ of a $G$-[[connection on a bundle|connection]] $\nabla_{\mathfrak{g}}$, hence the [[action functional]] is (locally) the [[Chern-Simons theory|Chern-Simons functional]]
+
+$$
+  (\Sigma \stackrel{\gamma}{\to} X) \mapsto \int_\Sigma CS(\gamma^* \nabla_\mathfrak{g})
+  \,.
+$$
+
+Below we will see that when $\sigma$-models are considered [[internalization|internal to]] a suitable [[cohesive (∞,1)-topos]], then there are _universal_ $\sigma$-models of this Chern-Simons type, whose [[target space]] is no longer a [[smooth manifold]], but a [[smooth ∞-groupoid]] incarnation of a [[classifying space]] $B G$. 
 
 
 ### The relativistic string
  {#RelativisticString}
 
+* [[string]]
+
+* [[wave equation]]
+
+* [[Kalb-Ramond field]], [[B-field]]
+
+* [[orientifold]]
+
+* [[D-brane]]
 
 ## Exposition of a general abstract formulation
  {#Exposition}
