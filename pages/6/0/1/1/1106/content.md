@@ -110,7 +110,7 @@ For a similar link list with considerable overlap see
 
 
 
-##V Basic Constructions of Topoi
+## V Basic Constructions of Topoi
 
 * [[Lawvere-Tierney topology]]
 
@@ -138,15 +138,57 @@ For a similar link list with considerable overlap see
 * [[Heyting algebra]]
 
 
-##VII Geometric Morphisms
+## VII Geometric Morphisms
+
+### VII 1. Geometric Morphisms and Basic Examples
 
 * [[geometric morphism]]
 
-  * [[geometric embedding]]
+  * [[direct image]], [[inverse image]]
 
-  * [[point of a topos]]
+Examples:
 
-    * [[stalk]]
+* [[continuous function]]
+
+* [[base change geometric morphism]]
+
+* [[sheafification]], [[geometric embedding]]
+
+* [[global section geometric morphism]]
+
+### VII 2. Tensor products
+
+* [[Kan extension]]
+
+### VII 3. Group actions
+
+* [[group object]]
+
+### VII 4. Embeddings and surjections
+
+* [[geometric embedding]]
+
+* [[geometric surjection]]
+
+* [[geometric surjection/embedding factorization]]
+  
+
+### VII 5. Points
+
+* [[point of a topos]]
+
+* [[stalk]]
+
+### VII 6. Filtering functors
+
+### VII 7. Morphisms into Grothendieck Topoi
+
+### VII 8. Filtering functors into a topos
+
+### VII 9. Geometric morphisms as filtering functors
+
+### VII 10. Morphisms between sites
+
 
 ##VIII Classifying Topoi
 
