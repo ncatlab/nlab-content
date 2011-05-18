@@ -4,8 +4,8 @@
 {: toc}
 
 Here we discuss two things:
-* the relation and stand of the $n$Lab, $n$Forum and related projects and our $n$-community toward copyright issues, and
-* copyright issues and literature (mainly in science) in general.
+* 1. the relation and stand of the $n$Lab, $n$Forum and related projects and our $n$-community toward copyright issues. This is not a formal statement, nor declaration, nor factual page, but rather subjective description, summary of practices and approximative overview of the general sentiment in the community. 
+* 2. copyright issues and literature (mainly in science) in general.
 
 
 ## The $n$Lab and copyright
