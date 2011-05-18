@@ -28,11 +28,30 @@ Every [[geometric morphism]] between [[toposes]] factors into a [[geometric surj
 There is a [[factorization system on a 2-category|factorization system]] on the [[2-category]] [[Topos]] whose left class is the 
 [[surjective geometric morphism]]s and whose right class is the [[geometric embeddings]].  
 
-The factorization of a given geometric morphism $f$ can be given by constructing the [[Eilenberg-Moore category]] of the [[comonad]] $f^* f_*$.
+Moreover, the factorization of a given geometric morphism $f : \mathcal{E} \to \mathcal{F}$ is, up to [[equivalence of categories|equivalence]], through the canonical surjection onto the [[topos of coalgebras]] $f^* f_* CoAlg(\mathcal{E})$ of the [[comonad]]  $f^* f_* : \mathcal{E} \to \mathcal{E}$:
+
+$$
+  \array{
+     \mathcal{E} &&\stackrel{f}{\to}&& \mathcal{E}
+     \\
+     & {}_{\mathllap{F}}\searrow && \nearrow
+     \\
+     && f^* f_* CoAlg(\mathcal{E})
+  }
+  \,.
+$$
 
 =--
 
 This appears for instance as ([MacLaneMoerdijk, VII 4., theorem 6](#MacLaneMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+
+(...)
+
+=--
 
 
 ## References
