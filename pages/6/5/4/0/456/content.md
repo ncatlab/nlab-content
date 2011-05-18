@@ -240,6 +240,10 @@ The [[inverse image]]s of geometric morphisms preserves the structure of toposes
 This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3.17 and prop. B1.3.14. See at [[indexed category]] the section <a href="http://nlab.mathforge.org/nlab/show/indexed+category#WellPoweredness">Well-poweredness</a>.
 
 
+### Surjection/embedding factorization
+
+Every geometric morphism factors, essentially uniquely, as a [[geometric surjection]] followed by a [[geometric embedding]]. See _[[geometric surjection/embedding factorization]]_ for more on this.
+
 ## Special classes of geometric morphisms
 
 There are various special cases and types of classes of geometric morphisms. For instance
