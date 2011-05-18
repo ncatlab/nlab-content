@@ -34,6 +34,12 @@ A [[functor]] $U: D \to C$ is **monadic** if it has a [[left adjoint]] $F: C\to 
 Various versions of Beck's [[monadicity theorem]] (old-fashioned name of some schools: tripleability theorem) give sufficient, and sometimes necessary, conditions for a given functor to be monadic. There are also  dual, [[comonadic functor|comonadic versions]].
 
 
+## Related concepts
+
+* **monadic functor** , [[comonadic functor]]
+
+* [[monadicity theorem]]
+
 [[!redirects monadic]]
 [[!redirects monadic category]]
 [[!redirects monadic functors]]
