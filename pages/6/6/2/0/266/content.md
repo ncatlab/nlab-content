@@ -20,8 +20,7 @@
 
 
 #Contents#
-
-* tic
+* table of contents
 {:toc}
 
 
@@ -39,7 +38,7 @@ $$
  }
 $$
 
-is, if it exists, a "best approximation" to 
+is, if it exists, a kind of _best approximation_ to 
 the problem of finding a functor $C' \to D$ such that 
 $$
   \array{
@@ -51,7 +50,8 @@ $$
   }
   \,,
 $$
-i.e. to extending the domain of $F$ through $p$ from $C$ to $C'$.
+
+hence to extending the [[domain]] of $F$ through $p$ from $C$ to $C'$.
 
 More generally, this makes sense not only in [[Cat]] but in any [[2-category]].
 
@@ -79,6 +79,8 @@ $$
   }
   \,.
 $$
+
+Kan extensions are ubiquitous. See the discussion at _[Examples](#Examples)_ below.
 
 
 ##Definitions
@@ -301,6 +303,20 @@ $$
 =--
 
 ## Examples
+ {#Examples}
+
+The central point about examples of Kan extensions is:
+
+_Kan extensions are ubiquitous_ . 
+
+To a fair extent, [[category theory]] is all about Kan extensions and the other [[universal construction]]s: [[limit]]s, [[adjoint functor]]s, [[representable functor]]s, which are all special cases of Kan extensions -- and Kan extensions are special cases of these.
+
+Listing examples of Kan extensions in [[category theory]] is much like listing examples of [[integral]]s in [[analysis]]: one can and does fill books with these. (In fact, that analogy has more to it than meets the casual eye: see [[coend]] for more).
+
+
+Keeping that in mind, we do list some special cases and special classes of examples that are useful to know. But any list is necessarily wildly incomplete.
+
+### General
 
 * For $C' = $ the [[point]], the right Kan extension of $F$ is the [[limit]] of $F$, $Ran F \simeq \lim F$ and the left Kan extension is the [[colimit]] $Lan F \simeq colim F$.
 
@@ -368,6 +384,10 @@ This means that whether or not Kan extension corresponds geometrically to pushfo
 ## References
 
 Textbook sources include
+
+Section 3.7 of
+
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]] I_
 
 section 2.3 in 
 
