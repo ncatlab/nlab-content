@@ -35,7 +35,9 @@ $T$-modules and their morphisms thus form a [[category]] $C^T$ which is called t
 In general, if $t \colon a \to a$ is a monad in a [[2-category]] $K$, then the __Eilenberg--Moore object__ $a^t$ of $t$ is, if it exists, the universal (left) $t$-module.  That is, there is a morphism $u^t \colon a^t \to t$ and a 2-cell $t u^t \Rightarrow u^t$ that mediate a natural isomorphism $K(x, a^t) \cong LMod(x,t)$ between morphisms $x \to a^t$ and $t$-modules $(m \colon x \to a, \lambda \colon t m \Rightarrow m)$.  Not every 2-category admits Eilenberg--Moore objects.
 
 
-## Universal properties
+## Properties
+
+### Universal properties
 
 Apart from being the universal left $T$-module, the EM category of a monad $T$ in $Cat$ has some other interesting properties.
 
@@ -54,7 +56,7 @@ Thus a $T$-algebra may be regarded as a [[presheaf]] on the Kleisli category of 
 Just as the [[Kleisli object]] of a monad $t$ in a 2-category $K$ can be defined as the [[lax colimit]] of the [[lax functor]] $\ast \to K$ [[monad|corresponding]] to $t$, the EM object of $t$ is its [[lax limit]].
 
 
-#### Remarks
+### By lax 2-limits
 
 S. Lack has shown how Eilenberg-Moore objects $C^T$ can be obtained as combinations of certain simpler lax limits, when the 2-category $K$ in question is the 2-category of 2-algebras over a 2-monad $\mathbf{G}$ and lax, colax or pseudo morphisms of such: 
 
@@ -77,11 +79,21 @@ $$
 [B^\Omega, A] \cong [B,A]^{[\Omega,A]}
 $$
 
-## Limits and colimits in EM categories
+### Limits and colimits in EM categories
 
 * The Eilenberg-Moore category of a monad $T$ on a category $C$ has all [[limits]] which exist in $C$, and they are [[created limit|created]] by the forgetful functor.
 
 * In contrast, the subject of [[colimits in categories of algebras]] is less easy, but a good deal can be said.
+
+### EM-Categories on toposes
+
+Let $C$ be a [[topos]]. Then
+
+* if a [[monad]] $T : C \to C$ has a [[right adjoint]] then $T Alg(C)= C^T$ is itself a topos;
+
+* if a [[comonad]] $T : C \to C$ is [[exact functor|left exact]], then $T CoAlg(C) = C_T$ is itself a topos.
+
+See [[topos of algebras over a monad]] for details.
 
 ## References
 
