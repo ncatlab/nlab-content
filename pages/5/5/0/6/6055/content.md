@@ -30,19 +30,26 @@ Let $\mathcal{E}$ be a [[topos]]. Then
 
 * if a [[comonad]] $T : \mathcal{E} \to \mathcal{E}$ is [[exact functor|left exact]], then the [[Eilenberg-Moore category|category of coalgebras]] $T CoAlg(\mathcal{E})$ is itself an ([[elementary topos|elementary]]) topos.
 
-  Moreover, the [[free functor|cofree/forgetful adjunction]]
+  Moreover, 
 
-  $$
-    (U \dashv F)
-    : 
-    \mathcal{E} \stackrel{\overset{U}{\leftarrow}}{\underset{F}{\to}} T CoAlg
-  $$
+  * the [[free functor|cofree/forgetful adjunction]]
 
-  is a [[geometric morphism]].
+    $$
+      (U \dashv F)
+      : 
+      \mathcal{E} \stackrel{\overset{U}{\leftarrow}}{\underset{F}{\to}}  T CoAlg
+    $$
+
+    is a [[geometric morphism]].
+
+  * if $T$ is furthermore [[accessible functor|accessible]] and $\mathcal{E}$ is a [[sheaf topos]], then also $T CoAlg(\mathcal{C})$ is a sheaf topos.
 
 =--
 
 This appears for instance as ([MacLaneMoerdijk, V 8. thm 4, cor 7](#MacLaneMoerdijk))
+
+
+### Image factorization of toposes
 
 +-- {: .num_prop}
 ###### Proposition
@@ -53,9 +60,7 @@ The [[geometric morphism]]s of the form $ p = (U \dashv F) : \mathcal{E} \to T C
 
 This appears as ([MacLaneMoerdijk, VII 4. prop. 4](#MacLaneMoerdijk)).
 
-### Image factorization of toposes
-
-Toposes of coalgebras are closely related to the [[geometric surjection/embedding factorization]]. See there for more.
+This way the [[geometric surjection/embedding factorization]] in [[Topos]] is constructed. See there for more.
 
 ## Examples
 
@@ -72,12 +77,18 @@ is evidently left exact, hence $(f^* f_*) CoAlg(\mathcal{E})$ is a topos of coal
 
 =--
 
-## References and links
+## Related concepts
+
+* Also a category of [[algebra over an algebraic theory|algebras over]] a *commutative* [[finitary algebraic theory]] in [[Set]] has properties very close to the properties of a Grothendieck topos, in fact only one axiom has to be modified. This is one of the themes of the theory of [[vectoid]]s of [[Nikolai Durov]].
+
+
+## References
+
+Section V 8. of
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
  {#MacLaneMoerdijk}
 
-Note also that the modules over a *commutative* [[finitary algebraic theory]] in $Set$ has properties very close to the properties of a Grothendieck topos, in fact only one axiom has to be modified. This is one of the themes of the theory of [[vectoid]]s of [[Nikolai Durov]].
 
 [[!redirects topos of coalgebras over a comonad]]
 
@@ -86,3 +97,5 @@ Note also that the modules over a *commutative* [[finitary algebraic theory]] in
 
 [[!redirects topoi of algebras over a monad]]
 [[!redirects topoi of coalgebras over a comonad]]
+
+[[!redirects topos of coalgebras]]
