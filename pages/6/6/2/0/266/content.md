@@ -83,54 +83,174 @@ $$
 Kan extensions are ubiquitous. See the discussion at _[Examples](#Examples)_ below.
 
 
-##Definitions
+## Definitions
+ {#Definitions}
 
-There are two definitions of Kan extensions, one of which is stronger than the other.
+There are various slight variants of the definition of _Kan extension_ . In good cases they all exist and all coincide, but in some cases only some of these will actually exist.
 
-  When the stronger (or "pointwise") type of Kan extension exists, then it is also a Kan extension in the other (or "weak") sense, but a "weak" Kan extension can exist without being pointwise (see [below](#pointwiseVsWeak)).
+We (have to) distinguish the following cases:
 
-* Ordinary, or "weak" Kan extensions, are given by adjoints to (or, more generally, universal transformations to/from) precomposition functors between functor categories.
+1. ["ordinary" or "weak" Kan extensions](#OrdinaryKanExtensions) 
 
-* Strong, or "pointwise," Kan extensions, are computed at each input by a certain weighted (co)limit.
+   These define the extension of an entire functor, by an [[adjunct|adjointness]] relation. 
 
-Kan extensions that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "**weak** Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
+   Here we (have to) distinguish futher between
+
+   1. [global Kan extensions](#GlobalKanExtensions),
+
+      which define extensions of _all_ possible functors of given domain and codomain (if all of them indeed exist);
+
+   1. [local Kan extensions](#LocalKanExtensions),
+
+      which define extensions of single functors only, which may exist even if not every functor has an extension.
+
+1. ["pointwise" or "strong" Kan extensions](#Pointwise)
+
+   These define the _value_ of an extended functor on each object (each "point") by a [[weighted limit|weighted (co)limit]]. 
+
+If the pointwise version exists, then it coincides with the "ordinary" or "weak" version, but the former may exist without the pointwise version existing. See [below](#pointwiseVsWeak) for more.
+
+Some authors (such as [Kelly](Kelly)) assert that only pointwise Kan extensions deserve the name "Kan extension," and use the term as 
+"weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
 
 
-### Ordinary Kan extensions ##
+### Ordinary or weak Kan extensions 
+ {#OrdinaryKanExtensions}
 
-Any functor $p : C \to C'$ induces, by precomposition, a functor between [[functor category|functor categories]]
+
+#### Global Kan extensions
+ {#GlobalKanExtensions}
+
+
+Let 
+
 $$
-  p^*: G\mapsto G\circ p  : [C',D] \to [C,D]
-  \,.
+  f : C \to C'
+$$ 
+
+be a [[functor]]. For $D$ any other category, write
+
+$$
+  f^* : [C',D] \to [C,D]
 $$
 
-(In some contexts, this functor might be called $p_*$; see "remark on terminology" below.)
+for the induced functor on the [[functor categories]]: this sends a functor $h : C' \to D$ to the composite functor $f^* h : C \stackrel{f}{\to} C' \stackrel{h}{\to} D$.
 
-+-- {: .un_defn}
+
++-- {: .num_defn}
 ###### Definition
-If $p^*$ has a [[left adjoint]], then this left adjoint is called **left Kan extension** along $p$ and denoted 
+
+If $f^*$ has a [[left adjoint]], typically denoted
+
 $$
-  Lan = Lan_p : [C,D] \to [C',D]
-  \,,
+  f_! : [C,D] \to [C',D]
 $$
-The image $Lan_p(f)$ of some functor $f\colon C\to D$ is called *the left Kan extension of $f$ along $p$*.  Similarly, if $p^*$ has a [[right adjoint]], this right adjoint is called **right Kan extension** along $p$ and denoted
+
+or 
+
+$$
+  Lan_f : [C,D] \to [C',D]
+$$
+
+then this left adjoint is called the ( _ordinary_ or _weak_ ) **left Kan extension** operation along $f$. For $h \in [C,D]$ we call $f_! h$ the **left Kan extension of $h$** along $f$.
+
+Similarly, if $f^*$ has a [[right adjoint]], this right adjoint is called the **right Kan extension** operation along $f$. It is typically denoted
+
+$$
+  f_* : [C,D] \to [C',D]
+$$
+
+or 
+
 $$
   Ran = Ran_p: [C,D] \to [C',D]
   \,.
 $$
+
 =--
 
-We may call this the *global* definition of Kan extension.  It clearly makes sense as stated in other contexts, such as in [[enriched category theory]].  Note that if $C' = 1$ is the [[terminal category]], then saying that the left (resp. right) Kan extension functor exists along $p$ is the same as saying that $D$ admits all [[colimits]] (resp. [[limits]]) of shape $C$.
+The analogous definition clearly makes sense as stated in other contexts, such as in [[enriched category theory]].  
+
++-- {: .num_prop}
+###### Observation
+
+If $C' = *$ is the [[terminal category]], then
+
+* the left Kan extension operation forms the [[colimit]] of a functor;
+
+* the right Kan extension operation forms the [[limit]] of a functor.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The functor $f^*$ in this case sends objects $d$ of $D$ to the [[constant functor]] $\Delta_d$ on $d$. Notice that for $F \in [C,D]$ any functor, 
+
+* a [[natural transformation]] $\Delta_d \to F$ is the same as a [[cone]] over $F$;
+
+* a [[natural transformation]] $F \to \Delta_d$ is the same as a [[cocone]] under $F$.
+
+Therefore the natural hom-isomorphisms of the [[adjoint functor]]s 
+$(f_! \dashv f^*)$ and $(f^* \dashv f_*)$ 
+
+$$
+  D(d, f_* F) \simeq Func(\Delta_d, F)
+$$
+
+and
+
+$$
+  D(f_! F, d) \simeq Func(F, \Delta_d)
+$$
+
+assert that
+
+* $f_* F$ corepresents the [[cone]]s over $F$: this means by definition that $f_* F = \lim_\leftarrow F$ is the [[limit]] over $F$;
+
+* $f_! F$ represents the [[cocone]]s under $F$: this means by definition that $f_! F = \lim_\to F$ is the [[colimit]] of $F$.
+
+=--
+
+
+#### Local Kan extension
+ {#LocalKanExtensions}
 
 There is also a *local* definition of "the Kan extension of a given functor $f$ along $p$" which can exist even if the entire functor defined above does not.  This is a generalization of the fact that a *particular* diagram of shape $C$ can have a limit even if not every such diagram does.  It is also a special case of the fact discussed at [[adjoint functor]] that an adjoint functor can fail to exist completely, but may still be partially defined.  If the local Kan extension of every single functor exists for some given $p\colon C\to C'$ and $D$, then these local Kan extensions fit together to define a functor which is the global Kan extension.
 
-Thus, by the general notion of "partial adjoints," *the left Kan extension of $F\in [C,D]$ along $p$* should be a functor $Lan_p\,F:C'\to D$ equipped with a natural isomorphism
-$$
-Hom_{[C,D]}(F,p^*(-))\cong Hom_{[C',D]}(Lan_p\,F,-),
-$$
-i.e. a (co)representation of the functor $Hom_{[C,D]}(F,p^*(-))$.  The local definition of right Kan extensions along $p$ is dual.
+Thus, by the general notion of "partial adjoints"; we say
 
-As for adjoints and limits, by the usual logic of representable functors this can be rephrased as a "universal arrow."  Namely, [[generalized the|the]] left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along $p:C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p^* Lan F$. 
++-- {: .num_defn}
+###### Definition
+
+The local **left Kan extension** of  a functor $F\in [C,D]$ along $f : C \to C'$* is, if it exists, a functor
+
+$$
+  Lan_f\,F : C'\to D
+$$ 
+
+equipped with a [[natural isomorphism]]
+
+$$
+  Hom_{[C,D]}(F,f^*(-))\cong Hom_{[C',D]}(Lan_f\,F,-)
+  \,,
+$$
+
+hence a [[representable functor|(co)representation]] of the functor $Hom_{[C,D]}(F,p^*(-))$.  
+
+The local definition of right Kan extensions along $p$ is dual.
+
+=--
+
+
+As for adjoints and limits, by the usual logic of representable functors this can equivalently be rephrased in terms of 
+<a href="http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows">universal morphisms</a>:
+
++-- {: .num_defn}
+###### Definition
+
+The **left Kan extension $Lan F = Lan_f F$ of $F : C \to D$ along 
+$f :C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p^* Lan F$. 
 
 <center markdown="1">[[kan-0.png:pic]]</center>
 
@@ -143,12 +263,19 @@ Similarly for the right Kan extension, with the direction of the natural transfo
 
 <center markdown="1">[[kan-2.png:pic]]</center>
 
+=--
+
 By the usual reasoning (see e.g. [[Categories Work]], chapter IV, theorem 2), if these representations exist for every $F$ then they can be organised into a left (right) adjoint $Lan_p$ ($Ran_p$) to $p^*$.
 
-It is clear that the definition in this form makes sense in every [[2-category]]. In slightly different terminology, the left Kan extension 1-cell $F:C\to D$ along a 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p^* = K(p,D):K(C',D)\to K(C,D)$.
++-- {: .num_remark}
+###### Remark
 
+The definition in this form makes sense not just in [[Cat]] but in every [[2-category]]. In slightly different terminology, the left Kan extension 1-cell $F:C\to D$ along a 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p^* = K(p,D):K(C',D)\to K(C,D)$.
 
-### Pointwise Kan extensions {#Pointwise}
+=--
+
+### Pointwise or strong Kan extensions 
+ {#Pointwise}
 
 If $D$ admits certain [[limit|(co)limits]], then left and right Kan extensions can be constructed out of these.  The requisite limits are most naturally expressed as [[weighted limits]], but in good cases they can be re-expressed in terms of [[end|(co)ends]] or conical colimits over [[comma categories]], which may be more familiar.  However, we first give a definition that doesn't rely on any computational framework:
 
@@ -203,22 +330,41 @@ $$
   \,.
 $$
 
-#### in terms of conical colimits
+#### in terms of conical (co)limits
 
-In the special case that $V = Set$, and only then, there is an expression of a weighted (co)limit and hence a Kan extension as a (co)limit over a [[comma category]].  Namely, the right Kan extension of a functor of ordinary categories is given by the [[limit]]
+In the case of functors between ordinary [[locally small categories]], hence in the special case of $V$-[[enriched category theory]] for $V = $ [[Set]], there is an expression of a weighted (co)limit and hence a pointwise Kan extension as am ordinary ("conical", meaning: in terms of [[cone]]s) (co)limit over a [[comma category]]:
+
++-- {: .num_prop}
+###### Proposition
+
+The right Kan extension of a functor $F : C \to D$ of locally small categories along a functor $f : C \to C'$ is the functor $Ran_f F$ whose value on an object $c' \in C'$ is (if either exists) given by the [[limit]]
+
 $$
     (Ran_p F)(c')
-      \simeq lim \left((const_{c'}/p) \to C \stackrel{F}{\to} D\right)
+      \simeq 
+    \lim_\leftarrow \left((\Delta_{c'}/f) \to C \stackrel{F}{\to} D\right)
   \,,
 $$
-if it exists for all $c'$.  Likewise, the left Kan extension of a functor of ordinary categories is given by the [[colimit]]
+
+where 
+
+* $\Delta_{c'}/f$ is the [[comma category]];
+
+* $\Delta_{c'}/f \to C$ is the canonical [[forgetful functor]].
+
+Likewise, the left Kan extension of a functor of ordinary categories is given (if either exists) by the [[colimit]]
+
 $$
-  \begin{aligned}
-    (Lan_p F)(c')
-      \simeq colim \left((p/const_{c'}) \to C \stackrel{F}{\to} D\right)
-  \end{aligned}
+    (Lan_f F)(c')
+      \simeq 
+     \lim_\to \left((f/\Delta_{c'}) \to C \stackrel{F}{\to} D\right)
 $$
-if it exists for all $c'$.  Here $(const_{c'}/p)$ and $(p/const_{c'})$ are [[comma category|comma categories]] in the notation described there.
+
+=--
+
+This appears for instance as ([Borceux, I, thm 3.7.2](#Borceux)).
+
+Discussion in the context of [[enriched category theory]] is in ([Kelly, section 3.4](#Kelly)).
 
 
 ### Comparing the definitions   {#pointwiseVsWeak}
@@ -324,6 +470,12 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 * see also [[examples of Kan extensions]]
 
+### Non-pointwise Kan extensions
+
+We discuss examples of Kan extensions that are not point-wise
+
+* ([Borceux, I exercise 3.9.7](#Borceux))
+
 ### Restriction and extension of sheaves 
 
 For more on the following see also 
@@ -407,6 +559,7 @@ and chapter 4 of
 
 * [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, 
  Cambridge University Press, Lecture Notes in Mathematics 64, 1982,  Republished in: Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+ {#Kelly}
 
 The [[(∞,1)-category theory]] notion is discussed in section 4.3 of
 
