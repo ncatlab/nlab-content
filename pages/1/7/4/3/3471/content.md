@@ -183,3 +183,8 @@ The composite [[(âˆž,1)-functor]] $\Gamma \circ LConst$ is the [[shape of an (âˆ
 
 
 [[!redirects global sections]]
+
+[[!redirects global section geometric morphism]]
+[[!redirects global section geometric morphisms]]
+[[!redirects global sections geometric morphism]]
+[[!redirects global sections geometric morphisms]]
