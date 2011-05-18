@@ -150,3 +150,4 @@ Around theorem IV.7.2 in
 [[!redirects change of base]]
 
 [[!redirects base change geometric morphism]]
+[[!redirects base change geometric morphisms]]
