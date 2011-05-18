@@ -46,14 +46,14 @@ $$
   R L c \simeq \lim_{c\to R d} R d
 $$ 
 
-and hence an obvious morphim of [[cone]] tips
+and hence an obvious morphism of [[cone]] tips
 
 $$
  c \to R L c
  \,.
 $$  
 
-It is easy to check that these would be the unit and counit of an [[adjunction]] $L\dashv R$.
+It is easy to check that these would be the unit and counit of an [[adjunction]] $L\dashv R$. See [[adjoint functor]] for more.
 
 The problem with this would-be argument is that in general the comma category $(c/G)$ may not be [[small category]]. But one can generally not expect a large category to have all large limits: even if we pass to a [[universe]] in which $(c/G)$ is considered small, a classical theorem of Freyd says that any [[complete small category]] is a [[preorder]] (see [[complete small category]] for the proof, which is valid in [[classical logic]] and also holds classically in any [[Grothendieck topos]]).  Thus, the argument we gave above is necessarily an **adjoint functor theorem for preorders**: 
 
