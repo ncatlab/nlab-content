@@ -1,6 +1,8 @@
-(under construction)
+**Algebrad** is a new notion due [[Nikolai Durov]]; see the article
 
-**Algebrad** is a new notion due [[Nikolai Durov]]; see the conference talk:
+* Nikolai Durov, _Classifying vectoids and generalisations of operads_, [arxiv/1105.3114](http://arxiv.org/abs/1105.3114), the translation of "&#1050;&#1083;&#1072;&#1089;&#1089;&#1080;&#1092;&#1080;&#1094;&#1080;&#1088;&#1091;&#1102;&#1097;&#1080;&#1077; &#1074;&#1077;&#1082;&#1090;&#1086;&#1080;&#1076;&#1099; &#1080; &#1082;&#1083;&#1072;&#1089;&#1089;&#1099; &#1086;&#1087;&#1077;&#1088;&#1072;&#1076;", Trudy MIAN, vol. 273
+
+and based on the earlier conference talk:
 
 * _Classifying vectoids and generalizations of operads_ , The International Conference "Contemporary Mathematics", June 12, 2009, [link](http://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=34084)
 
