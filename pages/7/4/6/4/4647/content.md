@@ -1,6 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of a _comonadic functor_ is the dual of that of a [[monadic functor]]. See there for more background.
+
+## Definition
+
 Given a pair $L\dashv R$ of [[adjoint functors]], $L\colon A \to B\colon R$, with counit $\epsilon$ and unit $\eta$, one forms a [[comonad]] $\mathbf{\Omega} = (\Omega, \delta, \epsilon)$ by $\Omega \coloneqq L \circ R$, $\delta \coloneqq L \eta R$. $\mathbf{\Omega}$ comodules form a category $B_{\mathbf{\Omega}}$ and there is a natural comparison functor $K = K_{\mathbf{\Omega}}\colon A \to B_{\mathbf{\Omega}}$ given by $A \mapsto (L A, L A \stackrel{L(\eta_A)}\to L R L A)$. 
 
 A functor $L\colon A\to B$ is __comonadic__ if it has a right adjoint $R$ and the corresponding comparison functor $K$ is an [[equivalence of categories]].  The adjunction $L \dashv R$ is said to be a **comonadic adjunction**.
+
+## Properties
 
 Beck's [[monadicity theorem]] has its dual, comonadic analogue. To discuss it, observe that for every $\Omega$-comodule $(N, \rho)$, 
 
@@ -136,6 +159,12 @@ Beck's [[monadicity theorem]] has its dual, comonadic analogue. To discuss it, o
 manifestly exhibits a [[split equalizer]] sequence.
 
 ...
+
+## Related concepts
+
+* [[monadic functor]], **comonadic functor**
+
+* [[monadicity theorem]]
 
 
 [[!redirects comonadic functor]]
