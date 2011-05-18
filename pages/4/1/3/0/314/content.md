@@ -371,6 +371,19 @@ The notion of limit, being fundamental to category theory, generalizes to many o
 
 ## Examples
 
+The central point about examples of limits is:
+
+_Categorical limits are ubiquitous_ . 
+
+To a fair extent, [[category theory]] is all about limits and the other [[universal construction]]s: [[Kan extension]]s, [[adjoint functor]]s, [[representable functor]]s, which are all special cases of limits -- and limits are special cases of these.
+
+Listing examples of limits in [[category theory]] is much like listing examples of [[integral]]s in [[analysis]]: one can and does fill books with these. (In fact, that analogy has more to it than meets the casual eye: see [[coend]] for more).
+
+
+Keeping that in mind, we do list some special cases and special classes of examples that are useful to know. But any list is necessarily wildly incomplete.
+
+### General
+
 * For a pedagogical list of examples see [[limits and colimits by example]].
 
 Here are some important examples of limits, classified by the shape of the [[diagram]]:
