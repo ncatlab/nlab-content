@@ -9,7 +9,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition 
@@ -323,6 +323,11 @@ A partial converse to this fact is provided by the [[adjoint functor theorem]].
 
 Let $L \dashv R$ be a pair of adjoint functors. Then the following holds.
 
+* $R$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is an [[epimorphism]] $L R x \stackrel{}{\to} x $;
+
+* $L$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|unit]] over every object $x$ is a [[monomorphism]] $x \hookrightarrow R L x $;
+
+
 * $R$ is [[full and faithful functor|full and faithful]] 
   (exhibits a [[reflective subcategory]])
   precisely if
@@ -346,7 +351,67 @@ Let $L \dashv R$ be a pair of adjoint functors. Then the following holds.
 
 =--
 
-This statement can be strenghened:
++-- {: .proof}
+###### Proof
+
+For the characterization of faithful $R$ by epi counit components, notice (as discussed at _[[epimorphism]]_ ) that $L R x \to x$ being an epimorphism is equivalent to the induced [[function]]
+
+$$
+  Hom(x, a) \to Hom(L R x, a)
+$$
+
+being an [[injection]] for all objects $a$. Then use that, by adjointness, we have an isomorphism  
+
+$$
+  Hom(L R x , a ) \stackrel{\simeq}{\to} Hom(R x, R a)
+$$ 
+
+and that, by the formula for [[adjunct]]s and the [[zig-zag identity]], this is  such that the composite
+
+$$
+ R_{x,a} :  Hom(x,a) \to Hom(L R x, a) \stackrel{\simeq}{\to}
+    Hom(R x, R a)
+$$
+
+is the component map of the functor $R$:
+
+$$
+  \begin{aligned}
+    (x \stackrel{f}{\to} a) & \mapsto 
+    (L R x \to x \stackrel{f}{\to} a)
+    \\
+    & \mapsto 
+    (R L R x \to R x \stackrel{R f}{\to} R a)
+    \\
+    & \mapsto 
+    (R x \to R L R x \to R x \stackrel{R f}{\to} R a)     
+    \\
+    & = (R x \stackrel{R f}{\to} R a)
+  \end{aligned}
+  \,.
+$$
+
+Therefore $R_{x,a}$ is injective for all $x,a$, hence $R$ is faithful, precisely if $L R x \to x$ is an epimorphism for all $x$.
+
+For the characterization of faithful $L$ by monic units notice that analogously (as discussed at [[monomorphism]]) $x \to R L x$ is a monomorphism if for all objects $a$ the function
+
+$$
+  Hom(a,x ) \to Hom(a, R L x)
+$$
+
+is an injection. Analogously to the previous argument we find that this is equivalent to 
+
+$$
+  L_{a,x} : Hom(a,x ) \to Hom(a, R L x) \stackrel{\simeq}{\to} Hom(L a, L x)
+$$
+
+being an injection. So $L$ is faithful precisely if all $x \to R L x$ are monos.
+
+The proof of the other statements proceeds analogously.
+
+=--
+
+Parts of this statement can be strenghened:
 
 +-- {: .num_prop #ReflectionRecognizedByIdempotency}
 ###### Proposition
@@ -358,7 +423,7 @@ $$
   \,,
 $$
 
-then also the [[unit of an adjunction|counit]] $\epsilon : L R \to Id$ is an isomorphism.
+then also the [[unit of an adjunction|counit]] $\epsilon : L R \to Id$ is an [[isomorphism]].
 
 =--
 
