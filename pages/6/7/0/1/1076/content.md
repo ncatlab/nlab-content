@@ -204,6 +204,8 @@ $$
 
 * The [[stable homotopy category]] (the homotopy category of [[spectrum|spectra]]) is a triangulated category.  This is also true for parametrized, equivariant, etc. spectra.
 
+* The stable category of a [[Quillen exact category]] is [[suspended category]] as exhibited by [[Bernhard Keller]]. If the exact category is Frobenius, i.e. has enough injectives and enough projective and these two classes coincide, then the suspension of the stable category is in fact invertible, hence the stable category is triangulated. A triangulated category equivalent to a triangulated categories is said to be an [[algebraic triangulated category]]. 
+
 * As mentioned before, the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (infinity,1)-category]] is a triangulated category.  Slightly more generally, this applies also to a [[stable derivator]], and slightly less generally, it applies to a [[stable model category]].  This includes both the preceeding examples.
 
 * The [[localization]] $C/N$ of any triangulated category $C$ at a [[null system]] $N \hookrightarrow C$, i.e. the localization using the [[calculus of fractions]] given by the morphisms $f : X \to Y$ such that there exists distinguished triangles $X \to Y \to Z \to T X$ with $Z$ an object of a [[null system]], is still naturally a triangulated category, with the distinguished triangles being the triangles isomorphic to an image of a distinguished triangle under $Q : C \to C/N$.
