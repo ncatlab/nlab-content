@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -28,7 +30,112 @@ which is the assertion that this setup naturally induces the T-duality operation
 ## Formalization of the setup
  {#FormalizationOfTheSetup}
 
+
+Let $\Lambda \subset \mathbb{R}^n$ be a [[lattice]] (an [[discrete group|discrete]] subgroup of the [[abelian group]] of [[real number]]s to the $n$th [[cartesian product|cartesian power]]).
+
+Write 
+
+$$
+  \hat \Lambda := Hom_{Grp}(\Lambda, \mathbb{Z})
+$$
+
+for the dual lattice and
+
+$$
+  (-,-) : \lambda \times \hat \Lambda \to \mathbb{Z}
+$$
+
+for the canonical pairing (the [[evaluation map]]).
+
+The [[quotient]] $\mathbb{R}^n / \Lambda$ is a [[torus]].
+A $\mathbb{R}^n/\Lambda$-[[principal bundle]] is a [[torus]]-bundle. Write $B \mathb{R}^n/\Lambda \in $ [[Top]] for the [[classifying space]] and $\mathbf{B} \mathbb{R}^n / \Lambda$ for its [[moduli space]]: the [[smooth infinity-groupoid|smooth groupoid]] [[delooping]] the [[Lie group]] $\mathbb{R}/\Lambda$.
+
+Torus bundles on a [[smooth manifold]] $X$ are classified by $H^2(X, \Lambda)$. Following the discussion at [[smooth ∞-groupoid]] we write here $\mathbf{H}(X, \mathbf{B}\mathbb{R})$ for the [[groupoid]] of smooth torus bundles and _smooth_ bundle morphisms between. Write $\mathbf{H}_{conn}(X,\mathbf{B} \mathbb{R}^n /\Lambda)$ for the corresponding differential refinement to bundles with [[connection on a bundle|connection]].
+
+The tensor product of [[chain complex]]es
+
+$$
+  (\Lambda \to \mathbb{R}^n \to 0) \otimes
+  (\hat \Lambda \to \mathbb{R}^n \to 0)
+  \simeq
+  (\Lambda \otimes \hat \Lambda \to (\Lambda \oplus \hat \Lambda) \otimes \mathbb{R}^n \to \mathbb{R}^{2n} \to 0 \to 0)
+$$
+
+induces (via the [[Dold-Kan correspondence]]) the [[cup product]] 
+
+$$
+  H^k_{diff}(X, \Lambda) \times
+  H^l_{diff}(X, \hat \Lambda)
+  \to 
+  H^{k+l}_{diff}(X, \Lambda \otimes \hat \Lambda)
+   \stackrel{(-,-)}{\to}
+  H^{k+l}_{diff}(X, \mathbb{Z})
+  \,.
+$$
+
+Differential T-duality relates differential cohomological structures on $\mathbb{R}^n / \Lambda$-principal bundles with that on certain dual $\mathbb{R}^n /\hat \Lambda$-principal bundles:
+
++-- {: .num_defn}
+###### Definition
+
+A **differential T-duality pair** is
+
+* a [[smooth manifold]] $X$;
+
+* a $\mathbb{R}^n/\Lambda$-[[principal bundle]] $P \to X$ with connection $\theta$ and a $\mathbb{R}^n / \hat \Lambda$-principal bundle $\hat P \to X$ with connection $\hat \theta$;
+
+  such that the underlying topological class of the [[cup product]]
+  $(P, \theta) \cup (\hat P, \hat \theta )$ is trivial;
+
+* a choice of trivialization 
+  
+  $$
+    \sigma 
+     : 
+    (0,C) \stackrel{\simeq}{\to} (P, \theta) \cup (\hat P , \hat \theta)
+    \,.
+  $$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This is analogous to a [[differential string structure]]: in that case we have
+
+$$
+  \array{
+    StringBund(X)_{tw,conn} &\to& H^4_{diff}(X)
+    \\
+    \downarrow &\swArrow_{\sigma}& \downarrow
+    \\
+    \mathbf{H}(X, \mathbf{B}Spin \times \mathbf{B} SU)
+    &\stackrel{\frac{1}{2}\hat \mathbf{p}_1 - \frac{1}{46}\hat \mathbf{c}}{\to}&
+    \mathbf{H}(X, \mathbf{B}^3 U(1))_{conn}
+  }
+  \,.
+$$
+
+Here we have
+
+$$
+  \array{
+    TDualityPairs(X)_{conn} &\to& H^4_{diff}(X)
+    \\
+    \downarrow &\swArrow_{\sigma}& \downarrow
+    \\
+    \mathbf{H}(X, \mathbf{B}\mathbb{R}^n/\Lambda \times \mathbf{B} \mathbb{R}^n/\hat \Lambda)
+    &\stackrel{}{\to}&
+    \mathbf{H}(X, \mathbf{B}^3 U(1))_{conn}
+  }
+  \,.
+$$
+
+
+=--
+
 (...)
+
 
 ## Statement of differential T-duality
  {#StatementOfDifferentialTDuality} 
