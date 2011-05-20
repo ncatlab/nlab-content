@@ -1,0 +1,5 @@
+
+
+The ordinary [[Chern character]] for [[K-theory]] sends K-classes to [[ordinary cohomology]] with real coefficients. Over a [[smooth manifold]] the [[de Rham theorem]] makes this equivalently take values in [[de Rham cohomology]]. 
+
+The **twisted Chern character** analogously goes from [[twisted K-theory]] to [[twisted de Rham cohomology]].
