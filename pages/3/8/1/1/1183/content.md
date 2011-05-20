@@ -504,15 +504,15 @@ $$
   \,.
 $$ 
 
-This indicates that ([[nonabelian cohomology|nonabelian]]) [[gauge theory]] on $\Sigma$ should have a formulation as a $\sigma$-model with target "space" $X$ the Lie groupoid $X = \mathbf{B}G$: a $\sigma$-model field $\Sigma \to X = \mathbf{B}G$ a $G$-bundle, and an isomorphism of field configurations being a [[gauge transformation]] of $G$-bundles.
+This indicates that ([[nonabelian cohomology|nonabelian]]) [[gauge theory]] on $\Sigma$ should have a formulation as a $\sigma$-model with target "[[space]]" $X$ the Lie groupoid $X = \mathbf{B}G$: a $\sigma$-model field $\Sigma \to X = \mathbf{B}G$ is a $G$-bundle, and an isomorphism of field configurations is a [[gauge transformation]] of $G$-bundles.
 
-But the field configuration of $G$-gauge theory on $\Sigma$ is not just a $G$-principal bundle, but is a $G$-bundle _with [[connection on a bundle|connection]]_ . There is no Lie groupoid that that would similarly represent such connections. But there is a _[[smooth infinity-groupoid|smooth groupoid]]_ that does: $\mathbf{B}G_{conn}$, the [[groupoid of Lie algebra valued 1-forms]].
+But a field configuration in $G$-gauge theory on $\Sigma$ is not just a $G$-principal bundle, but is a $G$-bundle _with [[connection on a bundle|connection]]_ . There is no Lie groupoid that that would similarly represent such connections as a target space object. But there is a _[[smooth infinity-groupoid|smooth groupoid]]_ that does: $\mathbf{B}G_{conn}$, the [[groupoid of Lie algebra valued 1-forms]].
 
-Here by a _smooth groupoid_ we mean a [[groupoid]] that comes with rule for which of its collectins of objects or morphisms are _smoothly parameterized families_ . Technically this is a _[[(2,1)-sheaf]]_ or _[[stack]]_ on the [[site]] [[CartSp]]. Among all smooth groupoids, Lie groupoids and generally [[diffeological space|diffeological groupoid]]s are singled out as being the _[[concrete sheaf|concrete]]_ objects. It's nice if a smooth groupoid is concrete or even Lie, but all [[higher geometry|higher]] [[differential geometry]] exists for general smooth $\infty$-groupoids just as well. Therefore if we can allow Lie groupoids as targets for $\sigma$-models, we can allow general smooth groupoids as well.
+Here by a _smooth groupoid_ we mean a [[groupoid]] that comes with rule for which of its collectins of objects or morphisms are _smoothly parameterized families_ . Technically this is a _[[(2,1)-sheaf]]_ or _[[stack]]_ on the [[site]] [[CartSp]] of [[nLab:Cartesian space]]s and [[smooth function]]s between them. Among all smooth groupoids, Lie groupoids and generally [[diffeological space|diffeological groupoid]]s are singled out as being the _[[concrete sheaf|concrete]]_ objects. While it is useful to know if a given smooth groupoid is [[concrete sheag|concrete]] or even [[Lie groupoidLie]], quite independent of that all [[higher geometry|higher]] [[differential geometry]] exists for general smooth $\infty$-groupoids just as well. Therefore if we can allow Lie groupoids as targets for $\sigma$-models, we can allow general smooth groupoids as well.
 
-The non-concrete smooth groupoid $\mathbf{B}G_{conn}$ is defined by the following rule: for $U \in $ [[CartSp]], a smoothly $U$-paramezterized famnily of objects is by definition a $\mathfrak{g}$-valued differential 1-form on $U$, where $\mathfrak{g}$ is the [[Lie algebra]] of $G$. A smoothly $U$-parameterized family of morphisms is a smooth [[gauge transformation]] between two such form data.
+The non-concrete smooth groupoid $\mathbf{B}G_{conn}$ that we just mentioned is defined by the following rule: for $U \in $ [[CartSp]], a smoothly $U$-paramezterized famnily of objects is by definition a $\mathfrak{g}$-[[Lie algebra valued 1-form|valued differential 1-form]] $A \in \Omega^1(U, \mathfrak{g})$, where $\mathfrak{g}$ is the [[Lie algebra]] of $G$. A smoothly $U$-parameterized family of morphisms $g : A_1 \to A_2$ is a smooth [[gauge transformation]] $g \in C^\infty(U, G) : A_2 = g A g^{-1} + g d g^{-1}$ between two such form data. (This is "non-concrete" because the smooth $U$-parameterized families $U \to \mathbf{B}G_{conn}$ are not $U$-families of points $* \to \mathbf{B}G_{conn}$).
 
-One then finds that the [[mapping space]] groupoid for this target is
+One then finds that the [[mapping space]] groupoid for this target $X = \mathbf{B}G_{conn}$ is
 
 $$
   SmoothGrpd(\Sigma , \mathbf{B}G_{conn})
@@ -521,14 +521,42 @@ $$
   \,,
 $$
 
-where on the right we have the groupoid of smooth $G$-principal bundles with conection on $\Sigma$, and whose morphisms are smooth morophisms of principal bundles with connection.
+where on the right we have the groupoid whose objects are smooth $G$-principal bundles with conection on $\Sigma$, and whose morphisms are smooth morophisms of principal bundles with connection. 
+
+This groupoid is the [[configuration space]] of $G$-gauge theory on $\Sigma$, for instance of $G$-[[Yang-Mills theory]] or of $G$-[[Chern-Simons theory]]:
+
+$$
+  SmoothGrpd(\Sigma, \mathbf{B}G_{conn})
+  \simeq 
+   Conf_{Yang-Mills}(\Sigma)
+  \simeq
+   Conf_{Chern-Simons}(\Sigma)
+  \,.
+$$
+
+Notice that this "space" is now itself a groupoid. In fact, it is naturally itself a smooth groupoid (when we read the [[hom-object]] here as an [[internal hom]] in [[Smooth∞Grpd|SmoothGrpd]].) In the traditional physics literature Lie groupoidal [[configuration space]]s of fields are best known in terms of their [[infinitesimal object|infinitesimal]] approximation $Lie(Conf(\Sigma)) \in LieAld$, which is a [[Lie algebroid]], and these in turn are best known in terms of their [[function algebras on ∞-stacks|function algebras]], called the [[Chevalley-Eilenberg algebra]] $CE(Lie(Conf(\Sigma)))$: this [[dg-algebra]] is called in [[physics]] the [[BRST complex]]. Its degree-1 generators, the [[cotangent vector|cotangents]] to the [[morphism]]s of $Conf(\Sigma)$, are called the _gauge ghost fields_ .
+
+Of coure we already saw secretly groupoidal configuration spaces in the [above](ExpositionClassical) list of examples of $\sigma$-models of relativistic [[brane]]s: we said that their configuration spaces $C^\infty(\Sigma,X)//Diff(\Sigma)$ were [[quotient]]s, but really they are to be taken as higher categorical quotients, known as _[[homotopy colimit|homotopy quotients]]_ or _[[2-colimit|weak quotients]]_ : they are the [[action groupoid]]s of $Diff(\Sigma)$ acting on $C^\infty(\Sigma,X)$.
+
+We will see in the examples below that there is, of course, no reason to stop after passing from target manifolds to smooth target groupoids. At least as the $\sigma$-model increases in dimension it is natural to consider smooth target [[2-groupoid]]s, [[3-groupoid]]s, ... [[n-groupoid]]s  and eventually [[smooth ∞-groupoids]]. In fact the full context of smooth $\infty$-groupoids is the natural completion of traditional [[differential geometry]] to _[[higher geometry]]_ .
 
 
-But the pattern continues: target spaces can be [[Lie 2-groupoid]]s and eventually [[smooth ∞-groupoids]].
+Given that it does thus make sense to regard general [[smooth ∞-groupoid]]s as target spaces for $\sigma$-models, the questions is if there are useful [[background gauge field]]s on such. This is indeed the case:
 
-the data specifying a $\sigma$-model is not generally hosted in the context of ordinary [[geometry]]. Rather, background data for $\sigma$-models are objects in _[[higher geometry]]_ .
+for instance we have a <a href="">theorem</a> that says that for $G$ a compact Lie group, there is, for every integral cohomology class $c \in H^{n+1}(B G, \mathbb{Z})$ of the classifying space of $G$ -- a [[characteristic class]] for $G$-principal bundles -- up to equivalence a unique smooth lift $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ to a smooth [[circle n-bundle]] on the smooth $\mathbf{B}G$. Moreover, we have a theorem that for sufficiently highly connected Lie groups or smooth $\infty$-groups $G$, this refines canonically to a [[circle n-bundle with connection]] on the differentially refined smooth moduli space $\mathbf{B}G_{conn}$:
+
+$$
+  \hat \mathbf{c} : \mathbf{B}G_{conn} \to \mathbf{B}^n U(1)
+  \,.
+$$
+
+This assignment generalizes the classical [[Chern-Weil homomorphism]]: we may speak of the _[[∞-Chern-Weil homomorphism]]_ . The first example [below](#SigmaCS) shows that ordinary [[Chern-Simons theory]] is a $\sigma$-model that arises this way. Generally we may this speak of $\sigma$-models with target space a [[smooth ∞-groupoid]] and [[background gauge field]]s given by the [[∞-Chern-Weil homomorphism]] this way as [[schreiber:∞-Chern-Simons theories]]. 
+
+The second example [below](#SigmaDW) shows that ordinatry [[Dijkgraaf-Witten theory]] is a $\sigma$-model that arises this way when $G$ is a [[discrete group]]. Generally we may thus speak of $\sigma$-models with target space a [[discrete ∞-groupoid]] and  [[background gauge field]]s given by the [[∞-Chern-Weil homomorphism]] this way as [[schreiber:∞-Dijkgraaf-Witten theories]]. 
+
 
 ### Chern-Simons theory as a $\signa$-model
+ {#SigmaCS}
 
 (...)
 
@@ -537,6 +565,7 @@ the data specifying a $\sigma$-model is not generally hosted in the context of o
 (...)
 
 ### Dijkgraaf-Witten theory as a $\sigma$-model
+ {#SigmaDW}
 
 (...)
 
