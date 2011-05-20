@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+This entry is about the article
+
+* [[Alexander Kahle]], [[Alessandro Valentino]], _T-duality and Differential K-Theory_ ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
+
+on the identification of the correct description in [[differential cohomology]] ([[ordinary differential cohomology]] and [[differential K-theory]]) of [[T-duality]] or [[topological T-duality]].
+
+We try to indicate some of the content. There are two main ingredients:
+
+* a [formalization of the setup](#FormalizationOfTheSetup)
+
+which proposes a refinement of the ingredients of [[topological T-duality]] to [[differential cohomology]]; and then the
+
+* [statement of differential T-duality](#StatementOfDifferential T-duality),
+
+which is the assertion that this setup naturally induces the T-duality operation as an [[isomorphism]] on [[twisted differential K-theory]].
+
+## Formalization of the setup
+ {#FormalizationOfTheSetup}
+
+(...)
+
+## Statement of differential T-duality
+ {#StatementOfDifferential T-duality} 
+
+(...)
+
+category: reference
