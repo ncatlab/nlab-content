@@ -477,12 +477,12 @@ These are the first examples of a general phenomenon: as $n$ increases, a backgr
 ### Higher geometric target spaces
  {#HigherGeometricTargetSpaces}
 
-The standard classical $\sigma$-models discussed 
-[above](ExpositionClassical) all head [[target space]]s that were [[smooth manifold]]s. However, we saw that from [[dimension]] $d \geq 2$ on, the [[background gauge field]]s on these target spaces are naturally no longer just [[principal bundle]]s [[connection on a bundle|with connection]]: instead they are smoth [[principal 2-bundle]]s, then smooth principal 3-bundles, etc. and eventually generally [[principal ∞-bundle]]s with [[connection on an ∞-bundle|∞-connections]]. But the total [[space]] of such higher smooth bundles is no longer in general a [[smooth manifold]] anymore: instead, the total space is a _[[Lie groupoid]]_ for $d = 2$ , then a _[[Lie 2-groupoid]]_ for $d = 3$ and eventually generally a [[smooth ∞-groupoid]].
+The classical $\sigma$-models discussed 
+[above](ExpositionClassical) all have [[target space]]s that are [[smooth manifold]]s. However, we saw that from [[dimension]] $d \geq 2$ on, the [[background gauge field]]s on these target spaces are naturally no longer just [[principal bundle]]s [[connection on a bundle|with connection]]: instead they are smoth [[principal 2-bundle]]s, then smooth principal 3-bundles, etc. and eventually generally [[principal ∞-bundle]]s with [[connection on an ∞-bundle|∞-connections]]. But the total [[space]] of such higher smooth bundles is no longer in general a [[smooth manifold]] anymore: instead, the total space is a _[[Lie groupoid]]_ for $d = 2$ , then a _[[Lie 2-groupoid]]_ for $d = 3$ and eventually generally a [[smooth ∞-groupoid]].
 
-This means that -- unless we would artifically treat the total space of a [[background gauge field]] bundle on different grounds than its base space -- the general theory of $\sigma$-models should naturally include target spaces that are not just [[smooth manifold]]s. 
+This means that -- unless we would artifically treat the total space of a [[background gauge field]] bundle on different grounds than its base space -- the general theory of $\sigma$-models should naturally include target spaces that are not just smooth manifolds. 
 
-At least from $d = 2$ on, for instance, target spaces should be allowed to be [[Lie groupoid]]s. This case is still quite familiar: the _[[proper groupoid|proper]] [[étale groupoid|étale]]_ [[Lie groupoid]]s are precisely _[[orbifold]]s_ : manifolds that are locally modeled on sufficiently nice quotients of a [[Cartesian space]] by a [[group]] [[action]]. Orbifolds have received a lot of attention in the study of [[string]] [[sigma-model]]s. The [[orientifold]] background gauge fields mentioned [above](RelativisticString) involve in general a $\mathbb{Z}_2$-orbifold target space.
+At least from $d = 2$ on, for instance, target spaces should be allowed to be [[Lie groupoid]]s. This has a fairly long tradition: the _[[proper groupoid|proper]] [[étale groupoid|étale]]_ [[Lie groupoid]]s are precisely _[[orbifold]]s_ : spaces that are locally isomorphic to sufficiently nice quotients of a [[Cartesian space]] by a [[group]] [[action]]. Orbifolds have received a lot of attention in the study of [[string]] [[sigma-model]]s. The [[orientifold]] background gauge fields mentioned [above](RelativisticString) involve in general a $\mathbb{Z}_2$-orbifold target space, for instance.
 
 But once we pass to the higher geometry of [[Lie groupoid]]s at all, there is no good reason to restrict back to those that are orbifolds. For instance for any [[Lie group]] $G$ there is its _[[delooping]]_ Lie groupoid, the [[action groupoid]] of the trivial action of $G$ on the point, which we shall write 
 
@@ -491,7 +491,7 @@ $$
   \,;
 $$
 
-and this should perfectly serve as a [[target space]] object for $\sigma$-models, too. Here the boldface notation is to indicate that this Lie groupoid is a smooth refinement of the [[classifying space]] $B G \in Top$ of the Lie group: in fact, where $B G$ classifies [[isomorphism class]] of smooth $G$-principal bundles, $\mathbf{B}G$ also remembers the [[isomorphism]]s -- and hence in particular the [[automorphism]]s -- of these bundles: it is the _[[moduli stack]]_ of smooth $G$-principal bundles: for $\Sigma$ a [[smooth manifold]] we have that the _groupoid_ of morphisms of [[smooth infinity-groupoid|smooth groupoid]]s $\Sigma \to \mathbf{B}G$ (the _correct_ morphisms, sometimes called _[[Morita morphism]]_ to distinguish them from the incorrect notion) is that of smooth $G$-principal bundles and smooth homomorphisms between these
+and this should perfectly serve as a [[target space]] object for $\sigma$-models, too. Here the boldface notation is to indicate that this Lie groupoid is a smooth refinement of the [[classifying space]] $B G \in Top$ of the Lie group: in fact, where $B G$ gives [[isomorphism class]] of smooth $G$-principal bundles, $\mathbf{B}G$ also remembers the [[isomorphism]]s themselves -- and hence in particular the [[automorphism]]s -- of these bundles: it is the _[[moduli stack]]_ of smooth $G$-principal bundles: for $\Sigma$ a [[smooth manifold]] we have that the _groupoid_ of morphisms of [[smooth infinity-groupoid|smooth groupoid]]s $\Sigma \to \mathbf{B}G$ (the _correct_ morphisms, sometimes called _[[Morita morphism]]_ to distinguish them from any incorrect notion) is that of smooth $G$-principal bundles and smooth homomorphisms between these
 
 $$
   SmoothGrpd(\Sigma, \mathbf{B}G) \simeq G Bund(\Sigma) \in Grpd
@@ -508,11 +508,11 @@ This indicates that ([[nonabelian cohomology|nonabelian]]) [[gauge theory]] on $
 
 But a field configuration in $G$-gauge theory on $\Sigma$ is not just a $G$-principal bundle, but is a $G$-bundle _with [[connection on a bundle|connection]]_ . There is no Lie groupoid that that would similarly represent such connections as a target space object. But there is a _[[smooth infinity-groupoid|smooth groupoid]]_ that does: $\mathbf{B}G_{conn}$, the [[groupoid of Lie algebra valued 1-forms]].
 
-Here by a _smooth groupoid_ we mean a [[groupoid]] that comes with rule for which of its collectins of objects or morphisms are _smoothly parameterized families_ . Technically this is a _[[(2,1)-sheaf]]_ or _[[stack]]_ on the [[site]] [[CartSp]] of [[nLab:Cartesian space]]s and [[smooth function]]s between them. Among all smooth groupoids, Lie groupoids and generally [[diffeological space|diffeological groupoid]]s are singled out as being the _[[concrete sheaf|concrete]]_ objects. While it is useful to know if a given smooth groupoid is [[concrete sheag|concrete]] or even [[Lie groupoidLie]], quite independent of that all [[higher geometry|higher]] [[differential geometry]] exists for general smooth $\infty$-groupoids just as well. Therefore if we can allow Lie groupoids as targets for $\sigma$-models, we can allow general smooth groupoids as well.
+Here by a _smooth groupoid_ we mean a [[groupoid]] that comes with a rule for which of its collections of objects or morphisms are _smoothly parameterized families_ . Technically this is a _[[(2,1)-sheaf]]_ or _[[stack]]_ on the [[site]] [[CartSp]] of [[Cartesian space]]s and [[smooth function]]s between them. Among all smooth groupoids, Lie groupoids -- and generally [[diffeological space|diffeological groupoid]]s -- are singled out as being the _[[concrete sheaf|concrete]]_ objects. While it is useful to know if a given smooth groupoid is [[concrete sheaf|concrete]] or even [[Lie groupoid|Lie]], quite independent of that all of [[higher geometry|higher]] [[differential geometry]] exists for general smooth $\infty$-groupoids just as well. Therefore if we can allow Lie groupoids as targets for $\sigma$-models, we can allow general smooth groupoids as well.
 
-The non-concrete smooth groupoid $\mathbf{B}G_{conn}$ that we just mentioned is defined by the following rule: for $U \in $ [[CartSp]], a smoothly $U$-paramezterized famnily of objects is by definition a $\mathfrak{g}$-[[Lie algebra valued 1-form|valued differential 1-form]] $A \in \Omega^1(U, \mathfrak{g})$, where $\mathfrak{g}$ is the [[Lie algebra]] of $G$. A smoothly $U$-parameterized family of morphisms $g : A_1 \to A_2$ is a smooth [[gauge transformation]] $g \in C^\infty(U, G) : A_2 = g A g^{-1} + g d g^{-1}$ between two such form data. (This is "non-concrete" because the smooth $U$-parameterized families $U \to \mathbf{B}G_{conn}$ are not $U$-families of points $* \to \mathbf{B}G_{conn}$).
+The non-concrete smooth groupoid $\mathbf{B}G_{conn}$ that we just mentioned is defined by the following rule: for $U \in $ [[CartSp]], a smoothly $U$-paramezterized family of objects is by definition a $\mathfrak{g}$-[[Lie algebra valued 1-form|valued differential 1-form]] $A \in \Omega^1(U, \mathfrak{g})$ on $U$, where $\mathfrak{g}$ is the [[Lie algebra]] of $G$. A smoothly $U$-parameterized family of morphisms $g : A_1 \to A_2$ is a smooth [[gauge transformation]] $g \in C^\infty(U, G) : A_2 = g A g^{-1} + g d g^{-1}$ between two such form data. (This is "non-concrete" because the smooth $U$-parameterized families $U \to \mathbf{B}G_{conn}$ are not $U$-families of points $* \to \mathbf{B}G_{conn}$).
 
-One then finds that the [[mapping space]] groupoid for this target $X = \mathbf{B}G_{conn}$ is
+One then finds that the [[mapping space]] groupoid for this target $X = \mathbf{B}G_{conn}$ is the groupoid 
 
 $$
   SmoothGrpd(\Sigma , \mathbf{B}G_{conn})
@@ -521,9 +521,8 @@ $$
   \,,
 $$
 
-where on the right we have the groupoid whose objects are smooth $G$-principal bundles with conection on $\Sigma$, and whose morphisms are smooth morophisms of principal bundles with connection. 
-
-This groupoid is the [[configuration space]] of $G$-gauge theory on $\Sigma$, for instance of $G$-[[Yang-Mills theory]] or of $G$-[[Chern-Simons theory]]:
+whose objects are smooth $G$-principal bundles with conection on $\Sigma$, and whose morphisms are smooth morophisms of principal bundles with connection. 
+This groupoid is the [[configuration space]] of $G$-[[gauge theory]] on $\Sigma$, for instance of $G$-[[Yang-Mills theory]] or of $G$-[[Chern-Simons theory]]:
 
 $$
   SmoothGrpd(\Sigma, \mathbf{B}G_{conn})
@@ -534,19 +533,19 @@ $$
   \,.
 $$
 
-Notice that this "space" is now itself a groupoid. In fact, it is naturally itself a smooth groupoid (when we read the [[hom-object]] here as an [[internal hom]] in [[Smooth∞Grpd|SmoothGrpd]].) In the traditional physics literature Lie groupoidal [[configuration space]]s of fields are best known in terms of their [[infinitesimal object|infinitesimal]] approximation $Lie(Conf(\Sigma)) \in LieAld$, which is a [[Lie algebroid]], and these in turn are best known in terms of their [[function algebras on ∞-stacks|function algebras]], called the [[Chevalley-Eilenberg algebra]] $CE(Lie(Conf(\Sigma)))$: this [[dg-algebra]] is called in [[physics]] the [[BRST complex]]. Its degree-1 generators, the [[cotangent vector|cotangents]] to the [[morphism]]s of $Conf(\Sigma)$, are called the _gauge ghost fields_ .
+Notice that this configuration space is now itself a groupoid: morphisms are [[gauge transformation]]s. In fact, it is naturally itself a smooth groupoid (when we read the [[hom-object]] here as an [[internal hom]] in [[Smooth∞Grpd|SmoothGrpd]].) In the traditional physics literature these Lie groupoidal [[configuration space]]s of fields are best known in terms of their [[infinitesimal object|infinitesimal]] approximation $Lie(Conf(\Sigma)) \in LieAld$, which are _[[Lie algebroid]]s_ , and these in turn are best known in terms of their [[function algebras on ∞-stacks|function algebras]], called the _[[Chevalley-Eilenberg algebra]]s_ $CE(Lie(Conf(\Sigma)))$: this [[dg-algebra]] is in physics called the [[BRST complex]]. Its degree-1 generators, the [[cotangent vector|cotangents]] to the [[morphism]]s of $Conf(\Sigma)$, are called the _ghost fields_ of gauge theory.
 
-Of coure we already saw secretly groupoidal configuration spaces in the [above](ExpositionClassical) list of examples of $\sigma$-models of relativistic [[brane]]s: we said that their configuration spaces $C^\infty(\Sigma,X)//Diff(\Sigma)$ were [[quotient]]s, but really they are to be taken as higher categorical quotients, known as _[[homotopy colimit|homotopy quotients]]_ or _[[2-colimit|weak quotients]]_ : they are the [[action groupoid]]s of $Diff(\Sigma)$ acting on $C^\infty(\Sigma,X)$.
+Of coure we already saw secretly groupoidal configuration spaces in the [above](ExpositionClassical) list of examples of $\sigma$-models of relativistic [[brane]]s. We said that their configuration spaces $C^\infty(\Sigma,X)//Diff(\Sigma)$ were [[quotient]]s; but really they are to be taken as higher categorical quotients, known as _[[homotopy colimit|homotopy quotients]]_ or _[[2-colimit|weak quotients]]_ : they are the [[action groupoid]]s of $Diff(\Sigma)$ acting on $C^\infty(\Sigma,X)$.
 
-We will see in the examples below that there is, of course, no reason to stop after passing from target manifolds to smooth target groupoids. At least as the $\sigma$-model increases in dimension it is natural to consider smooth target [[2-groupoid]]s, [[3-groupoid]]s, ... [[n-groupoid]]s  and eventually [[smooth ∞-groupoids]]. In fact the full context of smooth $\infty$-groupoids is the natural completion of traditional [[differential geometry]] to _[[higher geometry]]_ .
+We will see in the examples below that there is, of course, no reason to stop after passing from target manifolds to smooth target groupoids. At least as the $\sigma$-model increases in dimension, it is natural to consider smooth target [[2-groupoid]]s, target [[3-groupoid]]s, ... target [[n-groupoid]]s  and eventually [[smooth ∞-groupoids]]. The full context of smooth $\infty$-groupoids is the natural completion of traditional [[differential geometry]] to _[[higher geometry]]_ .
 
 
 Given that it does thus make sense to regard general [[smooth ∞-groupoid]]s as target spaces for $\sigma$-models, the questions is if there are useful [[background gauge field]]s on such. This is indeed the case:
 
-for instance we have a <a href="">theorem</a> that says that for $G$ a compact Lie group, there is, for every integral cohomology class $c \in H^{n+1}(B G, \mathbb{Z})$ of the classifying space of $G$ -- a [[characteristic class]] for $G$-principal bundles -- up to equivalence a unique smooth lift $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ to a smooth [[circle n-bundle]] on the smooth $\mathbf{B}G$. Moreover, we have a theorem that for sufficiently highly connected Lie groups or smooth $\infty$-groups $G$, this refines canonically to a [[circle n-bundle with connection]] on the differentially refined smooth moduli space $\mathbf{B}G_{conn}$:
+for instance we have a <a href="http://ncatlab.org/nlab/show/smooth%20infinity-groupoid#CohomologyOfLieGroups">theorem</a> that says that for $G$ a compact Lie group, there is, for every integral cohomology class $c \in H^{n+1}(B G, \mathbb{Z})$ of the classifying space of $G$ -- a [[characteristic class]] for $G$-principal bundles -- up to equivalence a unique smooth lift $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ to a smooth [[circle n-bundle]] on the smooth $\mathbf{B}G$. Moreover, we have a [[infinity-Chern-Weil theory|theorem]] that for sufficiently highly connected Lie groups or smooth $\infty$-groups $G$, this refines canonically to a [[circle n-bundle with connection]] on the differentially refined smooth moduli space $\mathbf{B}G_{conn}$, given by a morphism:
 
 $$
-  \hat \mathbf{c} : \mathbf{B}G_{conn} \to \mathbf{B}^n U(1)
+  \hat \mathbf{c} : \mathbf{B}G_{conn} \to \mathbf{B}^n U(1)_{conn}
   \,.
 $$
 
@@ -555,7 +554,7 @@ This assignment generalizes the classical [[Chern-Weil homomorphism]]: we may sp
 The second example [below](#SigmaDW) shows that ordinatry [[Dijkgraaf-Witten theory]] is a $\sigma$-model that arises this way when $G$ is a [[discrete group]]. Generally we may thus speak of $\sigma$-models with target space a [[discrete ∞-groupoid]] and  [[background gauge field]]s given by the [[∞-Chern-Weil homomorphism]] this way as [[schreiber:∞-Dijkgraaf-Witten theories]]. 
 
 
-### Chern-Simons theory as a $\signa$-model
+### Chern-Simons theory as a $\sigma$-model
  {#SigmaCS}
 
 (...)
