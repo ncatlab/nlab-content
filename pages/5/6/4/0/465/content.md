@@ -61,7 +61,7 @@ $$
   \cdots c_2 \stackrel{\to}{\stackrel{\to}{\to}} c_1 \stackrel{\to}{\to} c \stackrel{f}{\to} d
 $$
 
-over this [Outdoor Fountains](http://www.outdoorfountains.com/) diagram.
+over this diagram.
 
 This is a morphism such that for all objects $e \in C$ the induced morphism $f^* : C(d,e) \to C(c,e)$ is a [[regular monomorphism]] in the [[(∞,1)-category]] [[∞Grpd]].
 
