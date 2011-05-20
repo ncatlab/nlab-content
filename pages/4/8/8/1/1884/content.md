@@ -352,7 +352,20 @@ Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, toplogical K-the
 
 The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topological $K$-theory is modeled in particular by the space $Fred$ of [[Fredholm operator]]s.
 
-## References ##
+## Related concepts
+
+* [[K-theory]]
+
+* **topological K-theory
+
+* [[twisted K-theory]]
+
+* [[differential K-theory]]
+
+* [[twisted differential K-theory]]
+
+
+## References 
 
 Introductions are in
 
