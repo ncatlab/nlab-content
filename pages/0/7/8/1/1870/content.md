@@ -149,6 +149,19 @@ After unwrapping what this means, the result of ([Gomi](#Gomi))
 shows that [[concordance]] classes in $\mathbf{H}^c(X,Vectr)$ yield twisted K-theory.
 
 
+## Related concepts
+
+* [[K-theory]]
+
+* [[topological K-theory]]
+
+* **twisted K-theory**
+
+* [[differential K-theory]]
+
+* [[twisted differential K-theory]]
+
+
 
 ## References 
 
