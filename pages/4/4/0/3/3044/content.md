@@ -21,6 +21,12 @@ A [[model category]] structure on the [[category]] of  [[dg-coalgebra]]s.
 There is a [[Quillen equivalence]] to the [[model structure on dg-Lie algebras]].
 
 
+## Related concepts
+
+* [[model structure for L-∞ algebras]]
+
+* [[model structure on dg-Lie algebras]]
+
 ## References
 
 Appendix B of
