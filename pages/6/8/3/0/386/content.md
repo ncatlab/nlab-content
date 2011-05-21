@@ -1,7 +1,17 @@
-[[!redirects augmented simplex category]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Idea##
@@ -14,12 +24,14 @@ The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for
 ###### Definition
 
 
-* The **augmented simplex category** $\Delta_a$ is the [[full subcategory]] of [[Cat]] consisting of the [[finite set|finite]] linear [[quivers]], or equivalently the category of finite [[total order|totally ordered sets]], or finite ordinals, and order-preserving functions between them:
+* The **augmented simplex category** $\Delta_a$ is the [[full subcategory]] of [[Cat]] on the [[finite set|finite]] linear [[quivers]]
 
 $$
   \{c_0 \to c_1 \to \cdots \to c_n\}
   \,.
 $$
+
+  Equivalently this is the category whose [[object]]s are finite [[total order|totally ordered sets]], or finite ordinals, and whose [[morphism]]s are order-preserving functions between them.
 
 * The **simplex category** $\Delta$ is the [[full subcategory]] of $\Delta_a$ (and hence of $Cat$) consisting of the finite **[[inhabited set|inhabited]]** linear quivers, non-empty linear orders or non-zero ordinals.
 
@@ -28,15 +40,17 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-It is common, convenient and without risk to use a [[skeleton]] of $\Delta$ or $\Delta_a$, where we pick a fixed representative in each isomorphism class of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
+It is common, convenient and without risk to use a [[skeleton]] of $\Delta$ or $\Delta_a$, where we pick a fixed representative in each [[isomorphism class]]] of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
 
-With this the objects of $\Delta$ are indexed by $n \in \mathbb{N}$ and one usually writes 
+With this the objects of $\Delta$ are in bijection with [[natural number]]s $n \in \mathbb{N}$ and one usually writes 
 
 $$
   [n] = \{0 \to 1 \to \cdots \to n\}
 $$
 
-for the object of $\Delta$ given by the category with $(n+1)$ [[object]]s. Geometrically one may think of this as the [[spine]] of the standard cellular $n$-[[simplex]].  
+for the object of $\Delta$ given by the category with $(n+1)$ [[object]]s. Geometrically one may think of this as the [[spine]] of the standard cellular $n$-[[simplex]], see the discussion of [simplicial sets](#SimplicialSets) below. In this context one also writes $\Delta[n]$ or $\Delta^n$ for the [[simplicial set]] [[representable functor|represented]] by the object $[n]$: the simplicial $n$-[[simplex]]. By the [[Yoneda lemma]] one may identify the subcategory of simplicial sets on the $\Delta[n]$ with $\Delta$.
+
+With this convention the first few objects of $\Delta$ are
 
 $$
   [0] = \{0\}
@@ -52,28 +66,34 @@ $$
 
 etc.
 
-The category $\Delta_a$ contains one more object, correspondig to the empty category $\emptyset$. When sticking with the above standard notation for the objects of $\Delta$, that extra object is naturally often denoted 
+The category $\Delta_a$ contains one more object, correspondig to the empty category $\emptyset$. When sticking to the above standard notation for the objects of $\Delta$, that extra object is naturally often denoted 
 
 $$
   [-1] = \emptyset
   \,.
 $$ 
 
-However, in some contexts where only the augmented simplex category plays a role, one rathers starts counting with 0 instead of with $-1$. Then for instance the notation
+However, in contexts where only $\Delta_a$ and not $\Delta$ plays a role, one rathers starts counting with 0 instead of with $-1$. Then for instance the notation
 
 $$
   \mathbf{0} = \emptyset
 $$
 
 $$
-  \mathbf{1} = \{0\}
+  \mathbf{1} = [-1] =  \{0\}
 $$
 
 $$
-  \mathbf{2} = \{0 \to 1\}
+  \mathbf{2} = [1]  = \{0 \to 1\}
 $$
 
-etc. may be used.
+and generally
+
+$$
+  \mathbf{n} = [n-1]
+$$
+
+may be used.
 
 =--
 
@@ -84,13 +104,13 @@ The [[skeleton|skeletal]] version of the **augmented simplex category** $\Delta_
 
 * objects are the finite totally ordered sets $\mathbf{n} := \{0 \lt 1 \lt  \cdots \lt n-1\}$ for all $n \in \mathbb{N}$;
 
-* morphisms are order-preserving functions $\mathbf{n} \to \mathbf{m}$ -- these are _generated_ by (are all expressible as finite compositions of) the following two elementary kinds of maps
+* morphisms  _generated_ by (are all expressible as finite compositions of) the following two elementary kinds of maps
 
-  * **face maps**: $\delta_i := \delta_i^n : \mathbf{n-1} \hookrightarrow \mathbf{n}$ is the injection whose image leaves out $i \in [n]$;
+  1. **face maps**: $\delta_i := \delta_i^n : \mathbf{n-1} \hookrightarrow \mathbf{n}$ is the injection whose image leaves out $i \in [n]$;
 
-  * **degeneracy maps**: $\sigma_i := \sigma_i^n : \mathbf{n+1} \to  \mathbf{n}$ is the surjection such that $\sigma_i(i) = \sigma_i(i+1) = i$.
+  1. **degeneracy maps**: $\sigma_i := \sigma_i^n : \mathbf{n+1} \to  \mathbf{n}$ is the surjection such that $\sigma_i(i) = \sigma_i(i+1) = i$;
 
-These morphisms generate $\Delta_a$ subject to the following relations, called the **simplicial relations** or **simplicial identities**:
+subject to the following relations, called the **simplicial relations** or **[[simplicial identities]]**:
 
 $$
   \array{
@@ -124,8 +144,6 @@ $$
     }
   \right.
 $$
-
-The (unaugmented) **simplex category** $\Delta$ is given by the full subcategory of $\Delta_a$ that leaves out $\mathbf{0}$.  Usually the objects are reindexed to start from 0, so that $[n] \in \Delta = \mathbf{n+1} \in \Delta_a$.  Authors who use the unaugmented category then often retain this numbering for $\Delta_a$, writing $[-1]$ for its initial object $\{\,\}$.
 
 =--
 
@@ -218,7 +236,8 @@ When $\Delta_a$ is considered as a 2-category, a similar argument to the above s
 
 ## Related constructions ##
 
-### Simplicial sets ###
+### Simplicial sets 
+ {#SimplicialSets}
 
 [[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]]. Presheaves on $\Delta_a$ are **[[augmented simplicial sets]]..
 
@@ -231,40 +250,50 @@ The face and degeneracy maps and the relation they satisfy are geometrically bes
 * the degeneracy map $Y(\sigma_i) : \Delta^{n+1} \to \Delta^{n}$ projects the standard simplicial $(n+1)$-simplex onto the standard simplicial $n$-simplex by collapsing its vertex number $i$ onto the face opposite to it.
 
 
-#### Realization and nerve ####
+### Realization and nerve
+ {#RealizationAndNerve}
 
-There are important standard functors from $\Delta$ to other categories which _realize_ $[n]$ as a concrete model of the standard $n$-[[simplex]].
+There are important standard functors from $\Delta$ to other categories which _[[nerve and realization|realize]]_ $[n]$ as a concrete model of the standard $n$-[[simplex]]. 
 
-* The functor
-$$
-  |\cdot| : \Delta \to Top
-$$
-sends $[n]$ to the standard topological $n$-simplex $[n] \mapsto \{x_0 \leq x_1 \leq \cdots \leq x_n \leq 1\}\subset \mathbb{R}^{n}$. This functor induced [[geometric realization]] of [[simplicial sets]].
+* The functor $\Delta[-] : \Delta \to $ [[sSet]] (the [[Yoneda embedding]]) realizes $[n]$ as a [[simplicial set]].
 
-* The functor
-$$
-  O : \Delta \to Str\omega Cat  
-$$
-sends $[n]$ to the $n$th [[oriental]]. This induces simplicial [[nerves]] of [[omega-category|omega-categories]].
 
-Under the functor $Str \omega Cat \to Cat$ which discards all higher morphisms and identifies all 1-morphisms that are connected by a 2-morphisms, this becomes again the identification of $\Delta$ with the full subbcategory of $Cat$ on linear [[quivers]] that we started the above definition with
+* The functor $|\cdot| : \Delta \to $ [[Top]]
 
-$$
-  [n] \mapsto \{0 \to 1 \to \cdots \to n\}
-  \,.
-$$
+  sends $[n]$ to the standard topological $n$-simplex $[n] \mapsto \{x_0 \leq x_1 \leq \cdots \leq x_n \leq 1\}\subset \mathbb{R}^{n}$. This functor induced [[geometric realization]] of [[simplicial sets]].
+
+* The functor $O : \Delta \to Str\omega Cat $
+  sends $[n]$ to the $n$th [[oriental]]. This induces simplicial [[nerves]] of [[omega-category|omega-categories]].
+
+  Under the functor $Str \omega Cat \to Cat$ which discards all higher morphisms and identifies all 1-morphisms that are connected by a 2-morphisms, this becomes again the identification of $\Delta$ with the full subbcategory of $Cat$ on linear [[quivers]] that we started the above definition with
+
+  $$
+    [n] \mapsto \{0 \to 1 \to \cdots \to n\}
+    \,.
+  $$
 
 ## Related concepts
 
-* [[cube category]]
+* [[geometric shapes for higher structures]]
 
-* [[globe category]]
+  * **simplex category**
+
+  * [[cube category]]
+
+  * [[globe category]]
+
+* [[simplicial set]]
+
+* [[augmented simplicial set]]
+
+* [[join of simplicial sets]]
+
+## References
+
+See the references at [[simplicial set]].
 
 
-
-##References##
-
-see the references at [[simplicial set]].
+[[!redirects augmented simplex category]]
 
 
 category: category
