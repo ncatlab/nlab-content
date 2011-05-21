@@ -8,9 +8,14 @@
 
 The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for higher structures]]. Its objects are the standard cellular $n$-[[simplex|simplices]]. It is also called the [[simplicial category]], but that term is ambiguous.
 
-##Definition##
+## Definition ##
+
++-- {: .num_defn }
+###### Definition
+
 
 * The **augmented simplex category** $\Delta_a$ is the [[full subcategory]] of [[Cat]] consisting of the [[finite set|finite]] linear [[quivers]], or equivalently the category of finite [[total order|totally ordered sets]], or finite ordinals, and order-preserving functions between them:
+
 $$
   \{c_0 \to c_1 \to \cdots \to c_n\}
   \,.
@@ -18,24 +23,72 @@ $$
 
 * The **simplex category** $\Delta$ is the [[full subcategory]] of $\Delta_a$ (and hence of $Cat$) consisting of the finite **[[inhabited set|inhabited]]** linear quivers, non-empty linear orders or non-zero ordinals.
 
-### Details ###
-
-First of all, it is common, convenient and without risk to use a [[skeleton]] of $\Delta$ or $\Delta_a$, where we pick a fixed representative in each isomorphism class of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
-
-With this in mind, the **augmented simplex category** $\Delta_a$ can be presented as follows:
-
-+-- {: .standout}
-This definition of $[n]$ is non-standard! See comment at the bottom of the page.
 =--
 
++-- {: .num_remark }
+###### Remark
 
-* objects are the finite totally ordered sets $[n] := \{0 \lt 1 \lt  \cdots \lt n-1\}$ for all $n \in \mathbb{N}$;
+It is common, convenient and without risk to use a [[skeleton]] of $\Delta$ or $\Delta_a$, where we pick a fixed representative in each isomorphism class of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
 
-* morphisms are order-preserving functions $[n] \to [m]$ -- these are _generated_ by (are all expressible as finite compositions of) the following two elementary kinds of maps
+With this the objects of $\Delta$ are indexed by $n \in \mathbb{N}$ and one usually writes 
 
-  * **face maps**: $\delta_i := \delta_i^n : [n-1] \hookrightarrow [n]$ is the injection whose image leaves out $i \in [n]$;
+$$
+  [n] = \{0 \to 1 \to \cdots \to n\}
+$$
 
-  * **degeneracy maps**: $\sigma_i := \sigma_i^n : [n+1] \to  [n]$ is the surjection such that $\sigma_i(i) = \sigma_i(i+1) = i$.
+for the object of $\Delta$ given by the category with $(n+1)$ [[object]]s. Geometrically one may think of this as the [[spine]] of the standard cellular $n$-[[simplex]].  
+
+$$
+  [0] = \{0\}
+$$
+
+$$
+  [1] = \[0 \to 1\}
+$$
+
+$$
+  [2] = \[0 \to 1 \to 2\}
+$$
+
+etc.
+
+The category $\Delta_a$ contains one more object, correspondig to the empty category $\emptyset$. When sticking with the above standard notation for the objects of $\Delta$, that extra object is naturally often denoted 
+
+$$
+  [-1] = \emptyset
+  \,.
+$$ 
+
+However, in some contexts where only the augmented simplex category plays a role, one rathers starts counting with 0 instead of with $-1$. Then for instance the notation
+
+$$
+  \mathbf{0} = \emptyset
+$$
+
+$$
+  \mathbf{1} = \{0\}
+$$
+
+$$
+  \mathbf{2} = \{0 \to 1\}
+$$
+
+etc. may be used.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The [[skeleton|skeletal]] version of the **augmented simplex category** $\Delta_a$ can be presented as follows:
+
+* objects are the finite totally ordered sets $\mathbf{n} := \{0 \lt 1 \lt  \cdots \lt n-1\}$ for all $n \in \mathbb{N}$;
+
+* morphisms are order-preserving functions $\mathbf{n} \to \mathbf{m}$ -- these are _generated_ by (are all expressible as finite compositions of) the following two elementary kinds of maps
+
+  * **face maps**: $\delta_i := \delta_i^n : \mathbf{n-1} \hookrightarrow \mathbf{n}$ is the injection whose image leaves out $i \in [n]$;
+
+  * **degeneracy maps**: $\sigma_i := \sigma_i^n : \mathbf{n+1} \to  \mathbf{n}$ is the surjection such that $\sigma_i(i) = \sigma_i(i+1) = i$.
 
 These morphisms generate $\Delta_a$ subject to the following relations, called the **simplicial relations** or **simplicial identities**:
 
@@ -72,9 +125,13 @@ $$
   \right.
 $$
 
-The (unaugmented) **simplex category** $\Delta$ is given by the full subcategory of $\Delta_a$ that leaves out $[0]$.  Usually the objects are reindexed to start from 0, so that $[n] \in \Delta = [n+1] \in \Delta_a$.  Authors who use the unaugmented category then often retain this numbering for $\Delta_a$, writing $[-1]$ for its initial object $\{\,\}$.
+The (unaugmented) **simplex category** $\Delta$ is given by the full subcategory of $\Delta_a$ that leaves out $\mathbf{0}$.  Usually the objects are reindexed to start from 0, so that $[n] \in \Delta = \mathbf{n+1} \in \Delta_a$.  Authors who use the unaugmented category then often retain this numbering for $\Delta_a$, writing $[-1]$ for its initial object $\{\,\}$.
 
-## Monoidal structure ##
+=--
+
+## Properties
+
+### Monoidal structure 
 
 The addition of natural numbers extends to a [[bifunctor]] $\oplus$ on both $\Delta$ and $\Delta_a$, by taking $[m] \oplus [n]$ to be the [[disjoint union]] of the underlying sets of $[m]$ and $[n]$, with the linear order that extends those on $[m]$ and $[n]$ by putting every element of $[m]$ below every element of $[n]$.  So if we visualise $[n]$ as a totally ordered set $\{0 \lt 1 \lt \cdots \lt n-1\}$, and similarly for $[m]$, then $[m] \oplus [n]$ looks like
 $$
@@ -105,7 +162,7 @@ It is important to note that this tensor does _not_ give a monoidal structure to
 
 Under [[Day convolution]] this monoidal structure induces the [[join of simplicial sets]].
 
-## $\Delta$ and $\Delta_a$ as 2-categories ##
+### $\Delta$ and $\Delta_a$ as 2-categories 
 
 Being full subcategories of the [[2-category]] $Cat$, $\Delta$ and $\Delta_a$ are themselves 2-categories: their [[2-cell|2-cells]] $f \Rightarrow g$ are given by the pointwise order on monotone functions.  Equivalently, they are generated under (vertical and [[horizontal composition|horizontal]]) composition by the inequalities
 $$ \delta^n_{i+1} \leq \delta^n_i \qquad \qquad \sigma^n_i \leq \sigma^n_{i+1} \, .$$
@@ -139,7 +196,7 @@ $$
 $$
 The universal property of pushouts, together with those of the initial and terminal objects $[0],[1]$, then suffices to define $\oplus$ as a 2-functor.
 
-## Universal properties ##
+### Universal properties 
 
 The morphisms $[0] \overset{\delta_0}{\to} [1] \overset{\sigma_0}{\leftarrow} [2]$ in $\Delta_a$ make $[1]$ into a [[monoid object]].  Indeed, it is easy to see that
 $$
@@ -156,11 +213,11 @@ In particular, for $K$ a 2-category, [[monads]] in $K$ correspond to 2-functors 
 
 When $\Delta_a$ is considered as a 2-category, a similar argument to the above shows that the one-object [[3-category]] $\mathbf{B}\Delta_a$ classifies [[lax-idempotent monads]]: given a 3-category $M$ and a lax-idempotent monad $t$ therein, there is a unique 3-functor $\mathbf{B}\Delta_a \to M$ sending $[1]$ to $t$, essentially because $\sigma^1_0 \dashv \delta^1_0 = \delta^0_0 \oplus [1]$ with identity counit.
 
-## Remarks ##
+## Relazted constructions ##
 
 ### Simplicial sets ###
 
-[[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]], and presheaves on $\Delta_a$ are **augmented** simplicial sets.
+[[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]]. Presheaves on $\Delta_a$ are **[[augmented simplicial sets]]..
 
 Under the [[Yoneda embedding]] $Y : \Delta \to $ [[SSet]] the object $[n]$ induces the standard simplicial $n$-[[simplex]] $Y([n]) =: \Delta^n$.
 
@@ -171,7 +228,7 @@ The face and degeneracy maps and the relation they satisfy are geometrically bes
 * the degeneracy map $Y(\sigma_i) : \Delta^{n+1} \to \Delta^{n}$ projects the standard simplicial $(n+1)$-simplex onto the standard simplicial $n$-simplex by collapsing its vertex number $i$ onto the face opposite to it.
 
 
-#### realization and nerve ####
+#### Realization and nerve ####
 
 There are important standard functors from $\Delta$ to other categories which _realize_ $[n]$ as a concrete model of the standard $n$-[[simplex]].
 
