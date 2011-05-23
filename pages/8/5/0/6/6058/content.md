@@ -49,38 +49,61 @@ $$
 for the dual lattice and
 
 $$
-  (-,-) : \lambda \times \hat \Lambda \to \mathbb{Z}
+  (-,-) : \Lambda \times \hat \Lambda \to \mathbb{Z}
 $$
 
-for the canonical pairing (the [[evaluation map]]).
+for the canonical pairing (the [[evaluation map]]). Notice that $\hat\Lambda$ is canonically identified with the lattice of $(\mathbb{R}^n)^*$ consisting of those linear functionals $\varphi:\mathbb{R}^n\to\mathbb{R}$ such that $\varphi(\Lambda)\subseteq \mathbb{Z}$. With this identification, the canonical pairing $\Lambda \times \hat \Lambda \to \mathbb{Z}$ can be seen as the restriction to $\Lambda \times \hat \Lambda$ of the canonical pairing $\mathbb{R}^n\otimes(\mathbb{R}^n)^*\to \mathbb{R}$.
 
 The [[quotient]] $\mathbb{R}^n / \Lambda$ is a [[torus]].
-A $\mathbb{R}^n/\Lambda$-[[principal bundle]] is a [[torus]]-bundle. Write $B \mathb{R}^n/\Lambda \in $ [[Top]] for the [[classifying space]] and $\mathbf{B} \mathbb{R}^n / \Lambda$ for its [[moduli space]]: the [[smooth infinity-groupoid|smooth groupoid]] [[delooping]] the [[Lie group]] $\mathbb{R}/\Lambda$.
+A $\mathbb{R}^n/\Lambda$-[[principal bundle]] is a [[torus]]-bundle. Write $\mathcal{B}\mathbb{R}^n/\Lambda \in $ [[Top]] for the [[classifying space]] and $\mathbf{B} \mathbb{R}^n / \Lambda$ for its [[moduli space]]: the [[smooth infinity-groupoid|smooth groupoid]] [[delooping]] the [[Lie group]] $\mathbb{R}/\Lambda$.
 
-Torus bundles on a [[smooth manifold]] $X$ are classified by $H^2(X, \Lambda)$. Following the discussion at [[smooth ∞-groupoid]] we write here $\mathbf{H}(X, \mathbf{B}\mathbb{R})$ for the [[groupoid]] of smooth torus bundles and _smooth_ bundle morphisms between. Write $\mathbf{H}_{conn}(X,\mathbf{B} \mathbb{R}^n /\Lambda)$ for the corresponding differential refinement to bundles with [[connection on a bundle|connection]].
+Torus bundles on a [[smooth manifold]] $X$ are classified by $H^2(X, \Lambda)$. Following the discussion at [[smooth ∞-groupoid]] we write here $\mathbf{H}(X, \mathbf{B}\mathbb{R}^n/\Lambda)$ for the [[groupoid]] of smooth torus bundles and _smooth_ bundle morphisms between. Write $\mathbf{H}_{conn}(X,\mathbf{B} \mathbb{R}^n /\Lambda)$ for the corresponding differential refinement to bundles with [[connection on a bundle|connection]].
 
 The tensor product of [[chain complex]]es
 
 $$
   (\Lambda \to \mathbb{R}^n \to 0) \otimes
-  (\hat \Lambda \to \mathbb{R}^n \to 0)
+  (\hat \Lambda \to (\mathbb{R}^n)^* \to 0)
   \simeq
-  (\Lambda \otimes \hat \Lambda \to (\Lambda \oplus \hat \Lambda) \otimes \mathbb{R}^n \to \mathbb{R}^{2n} \to 0 \to 0)
+  (\Lambda \otimes \hat \Lambda \to \Lambda\otimes (\mathbb{R}^n)^* \oplus \mathbb{R}^n\otimes \hat \Lambda) \to \mathbb{R}^{n}\oplus(\mathbb{R}^n)^* \to 0 \to 0)
 $$
-
+together with the map of complexes
+$$
+(\Lambda \otimes \hat \Lambda \to \Lambda\otimes (\mathbb{R}^n)^* \oplus \mathbb{R}^n\otimes \hat \Lambda \to \mathbb{R}^{n}\oplus(\mathbb{R}^n)^* \to 0 \to 0)\to 
+(\Lambda \otimes \hat \Lambda \to 0 \to 0 \to 0 \to 0)\stackrel{(-,-)}{\to}
+(\mathbb{Z}\to 0\to 0\to 0\to 0)
+$$
 induces (via the [[Dold-Kan correspondence]]) the [[cup product]] 
-
 $$
-  H^k_{diff}(X, \Lambda) \times
-  H^l_{diff}(X, \hat \Lambda)
+  H^k(X, \Lambda) \times
+  H^l(X, \hat \Lambda)
   \to 
-  H^{k+l}_{diff}(X, \Lambda \otimes \hat \Lambda)
+  H^{k+l}(X, \Lambda \otimes \hat \Lambda)
    \stackrel{(-,-)}{\to}
-  H^{k+l}_{diff}(X, \mathbb{Z})
+  H^{k+l}(X, \mathbb{Z})
   \,.
 $$
-
-Differential T-duality relates differential cohomological structures on $\mathbb{R}^n / \Lambda$-principal bundles with that on certain dual $\mathbb{R}^n /\hat \Lambda$-principal bundles:
+This is conveniently seen as a manifestation of the morphism of smooth groupoids
+$$
+\mathbf{B}\mathbb{R}^n/\Lambda\times \mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda\to \mathbf{B}^4\mathbb{Z}.
+$$
+This can in turn be naturally refined as follows: instead of truncating the amove morphism of chain complexes at the bottom level, consider the lenght two truncation:
+$$
+(\Lambda \otimes \hat \Lambda \to \Lambda\otimes (\mathbb{R}^n)^* \oplus \mathbb{R}^n\otimes \hat \Lambda \to \mathbb{R}^{n}\oplus(\mathbb{R}^n)^* \to 0 \to 0)\to 
+(\Lambda \otimes \hat \Lambda \to \Lambda\otimes (\mathbb{R}^n)^* \oplus \mathbb{R}^n\otimes \hat \Lambda \to 0 \to 0 \to 0)\stackrel{(-,-)}{\to}
+(\mathbb{Z}\to \mathbb{R}\to 0\to 0\to 0)
+$$
+_(here there is a normalization factor $1/2$ to be taken into account: in the evaluation map $\Lambda\otimes (\mathbb{R}^n)^* \oplus \mathbb{R}^n\otimes \hat \Lambda\to \mathbb{R}$)_
+giving the
+morphism of smooth groupoids
+$$
+\mathbf{B}\mathbb{R}^n/\Lambda\times \mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda\to \mathbf{B}^3(\mathbb{Z}\to \mathbb{R})\simeq \mathbf{B}^3\mathbf{U}(1).
+$$
+Differential T-duality is (the homotopy fiber of) the lifting of this morphism to a morphism
+$$
+(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}\times (\mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda)_{conn}\to \mathbb{R})\simeq \mathbf{B}^3\mathbf{U}(1)_{conn}
+$$
+It relates differential cohomological structures on $\mathbb{R}^n / \Lambda$-principal bundles with that on certain dual $(\mathbb{R}^n)^* /\hat \Lambda$-principal bundles:
 
 +-- {: .num_defn #DifferentialTDualityPair}
 ###### Definition
