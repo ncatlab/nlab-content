@@ -349,6 +349,12 @@ An brief informal discussion of derivators as a 2-categorical tool for studying 
 
 * [[Mike Shulman]], _Squeezing Higher Categories out of Lower Categories_ ([blog](http://golem.ph.utexas.edu/category/2010/05/squeezing_higher_categories_ou.html))
 
+In the paper
+
+* Olivier Renaudin, _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_, [arxiv](http://arxiv.org/abs/math/0603339)
+
+it is proven that the 2-category of "[[locally presentable category|locally presentable]]" derivators is equivalent to the [[localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].  Thus in some sense derivators capture "all the information" about a combinatorial model category, hence also about a [[locally presentable (∞,1)-category]].
+
 [[!redirects derivators]]
 [[!redirects prederivator]]
 [[!redirects prederivators]]
