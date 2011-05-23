@@ -101,7 +101,7 @@ $$
 $$
 Differential T-duality is (the homotopy fiber of) the lifting of this morphism to a morphism
 $$
-(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}\times (\mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda)_{conn}\to \mathbb{R})\simeq \mathbf{B}^3\mathbf{U}(1)_{conn}
+(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}\times (\mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda)_{conn}\to \mathbf{B}^3\mathbf{U}(1)_{conn}
 $$
 It relates differential cohomological structures on $\mathbb{R}^n / \Lambda$-principal bundles with that on certain dual $(\mathbb{R}^n)^* /\hat \Lambda$-principal bundles:
 
