@@ -43,7 +43,7 @@ Early frameworks for [[Grothendieck topos|Grothendieck]] (as opposed to "element
 * [[Bertrand Toën]] , [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_, [arXiv:math.AG/0212330](http://arXiv.org/abs/math/0212330)
 
 
-A genral abstract conception of $(\infty,1)$-topos theory in terms of [[(∞,1)-category theory]]  was given in
+A general abstract conception of $(\infty,1)$-topos theory in terms of [[(∞,1)-category theory]]  was given in
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
