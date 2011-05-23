@@ -1,4 +1,4 @@
-A category $C$ is regular if it is [[pointed category|pointed]], [[regular category|regular]] and [[protomodular category|protomodular]].
+A category $C$ is __homological__ if it is [[pointed category|pointed]], [[regular category|regular]] and [[protomodular category|protomodular]].
 
 Many of the standard results of classical homological algebra in abelian categories extend to homological categories: the [[five lemma]], the [[nine lemma]], the [[snake lemma]], long exact sequence in homology, the Noether isomorphism theorem. There is also a version of Jordan-Hoelder theorem.  
 
