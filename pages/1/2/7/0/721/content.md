@@ -9,7 +9,7 @@
 =--
 =--
 
-> This entry is about the notion of [[site]]. For a generalization of [[topological space]]s based on neighborhoods, see [[pretopological space]].
+> This entry is about the notion of [[site]]. For a similarly-named generalization of [[topological space]]s based on neighborhoods, see [[pretopological space]].
 
 ***
 
