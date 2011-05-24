@@ -1,0 +1,15 @@
+__Noncommutative sheaf__ is an informal term which for some people denotes either
+
+* a sheaf of noncommutative algebras on a space or on a site, or
+
+* a sheaf (of anything, say sets) on a noncommutative space. 
+
+The latter concept of a sheaf is in a more general sense than sheaf on
+a site. For the latter see
+
+* [[sheaf on a noncommutative space]]
+
+category: redirect
+
+[[!redirects non-commutative sheaf]]
+[[!redirects noncommutative sheaves]]
