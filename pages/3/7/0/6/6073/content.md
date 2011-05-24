@@ -1,0 +1,3 @@
+If $\{,\}$ and $\{,\}'$ are two Poisson brackets on the same commutative algebra, or on the same manifold, then we say that they are **compatible** if any linear combination of these brackets $a\{,\}+b\{,\}'$ is again a Poisson bracket on the same commutative algebra or manifold. If so, all linear combination make a 2-parametric family of Poisson brackets. Such families are called Poisson pencils.
+
+[[!redirects Poisson pencil]]
