@@ -80,4 +80,6 @@ First works on coherent sheaves in complex analytic geometry. Serre adapted thei
 * [[EGA]] 0.5.3.1
 * Qing Liu, _Algebraic geometry and arithmetic curves_, 5.1.3
 
+Categories of ind-coherent sheaves on schemes and stacks are studied  in [[Dennis Gaitsgory]], _Notes on Geometric Langlands: ind-coherent sheaves_, [arxiv/1105.4857](http://arxiv.org/abs/1105.4857)
+
 [[!redirects coherent sheaves]]
