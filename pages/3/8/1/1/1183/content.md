@@ -557,7 +557,7 @@ The second example [below](#SigmaDW) shows that ordinatry [[Dijkgraaf-Witten the
 ### Chern-Simons theory as a $\sigma$-model
  {#SigmaCS}
 
-An ordinary (as opposed to higher) _[[gauge theory]]_ is a [[quantum field theory]] whose field configurations on a manifold $\Sigma$ are [[connection on a bundle|connections]] on $G$-[[principal bundle]]s, for $G$ some [[Lie group]]. The word _[[gauge transformation]]_ is essentially the physics equivalent of the word _[[isomorphism]]_ , referring to the isomorphisms between such bundles with connection. The [[action functional]] of a gauge theory is assumed to be _[[gauge invariance|gauge invariant]]_ meaning that it assigns the same value to configurations that are related by a gauge transformaitons. This means precisely that the exponentiated action is a [[functor]]
+An ordinary (as opposed to higher) _[[gauge theory]]_ is a [[quantum field theory]] whose field configurations on a manifold $\Sigma$ are [[connection on a bundle|connections]] on $G$-[[principal bundle]]s, for $G$ some [[Lie group]]. The word _[[gauge transformation]]_ is essentially the physics equivalent of the word _[[isomorphism]]_ , referring to isomorphisms in a [[configuration space]] of a field theory and specifically to isomorphisms between such bundles with connection. The [[action functional]] of a gauge theory is to be _[[gauge invariance|gauge invariant]]_ meaning that it assigns the same value to configurations that are related by a gauge transformaiton. This means precisely that the exponentiated action is a [[functor]]
 
 $$
   \exp(i S(-)) :  G Bund_{conn}(\Sigma) \to U(1)
@@ -565,36 +565,42 @@ $$
 
 from the [[groupoid]] of gauge field configurations and gauge transformaitons, to the [[circle group]] (regarded as a [[0-truncated]] groupoid).
 
-The first gauge theory to receive attention was [[Yang-Mills theory]]: in that model $\Sigma$ is 4-dimensional and equipped with [[pseudo-Riemannian manifold|pseudo-Riemannian structure]]. The exponentiated action functional is
+The first nonabelian gauge theory to receive attention was _[[Yang-Mills theory]]_ : in that model $\Sigma$ is a 4-dimensional [[pseudo-Riemannian manifold]] modelling [[spacetime]]. The exponentiated [[action functional]] is given by the integral of differential 4-forms naturally associated with a connection and a Riemannian structure:
 
 $$
   \exp(i S_{YM}(-)) : (P, \nabla) \mapsto \exp(i \int_\Sigma 
-     g^2 \langle F_\nabla \wedge \star F_\nabla 
+     \frac{1}{e^2} \langle F_\nabla \wedge \star F_\nabla 
      +
-     g^2 \theta \langle F_\nabla \wedge  F_\nabla 
+     i \theta \langle F_\nabla \wedge  F_\nabla 
    \rangle)
-  \,,
+  \,.
 $$
 
-where
+Here
 
 * $P$ is any $G$-[[principal bundle]] and $\nabla$ a [[connection on a bundle|connection]] on it;
 
 * $F_\nabla \in \Omega^2(P, \mathfrak{g})$ is the [[Lie algebra]]-valued [[curvature]] 2-form of this connection;
 
-* $\langle -,-\rangle : \mathfrak{g} \otimes \mathfrak{g} \to \mathbb{R}$ is an _[[invariant polynomial]]_ on the Lie algebra;
+* $\langle -,-\rangle : \mathfrak{g} \otimes \mathfrak{g} \to \mathbb{R}$ is an _[[invariant polynomial]]_ on the Lie algebra: a bilinear form that is gauge invariant when evaluated on curvature 2-forms --  for $\mathfrak{g}$ a [[semisimple Lie algebra]] this would be the _[[Killing form]]_ and for a [[matrix Lie algebra]] this is simply the [[trace]] operation on products of matrices;
 
-* $\star$ is the [[Hodge star]] operator given by the metric structure on $\Sigma$. 
+* $\star$ is the [[Hodge star]] operator given by the pseudo-Riemannian metric structure on $\Sigma$. 
 
-* $g \in \mathcal{R}$ is some constant, called the [[coupling constant]];
+* $e \in \mathcal{R}$ is some constant, called the [[coupling constant]] of the model;
 
-* $\theta$ is the [[theta-angle]]. 
+* $\theta$ is another parameter called the [[theta-angle]]. 
 
-(...)
+The first term here, that depending on the pseudo-Riemannian structure, is the crucial term for the direct application of this as a model of phenomenologically observed physics: it controls the broad dynamics of three of the four [[force]] fields in the [[standard model of particle physics]]. 
 
-I the case that $g^2 \to 0$ with $g^2 \theta \neq 0$ one speaks of [[topological Yang-Mills theory]].
+While therefore not directly of phenomenological relevance, for theoretically understanding the space of all possible field theories it is of interest to consider the case that the constant $\frac{1}{e^2}$ is set to 0 and only the second term remains. Since the resulting action functional
 
-Its action functional relates to a boundary terms given by the 
+$$
+  \exp(i S_{tYM}) : (P, \nabla) \mapsto \exp(i \int_\Sigma \langle F_\nabla \wedge F_\nabla \rangle) 
+$$
+
+no longer depends on any extra (pseudo-Riemannian) structure on $\Sigma$, one speaks of the QFT that this as _[[topological Yang-Mills theory]]_ .
+
+
 
 * [[Chern-Simons form]]
 
