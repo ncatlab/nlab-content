@@ -293,13 +293,35 @@ Dually, we can identify $\Omega \cong s^! t_!$, from which it again follows dire
 
 ### Enrichment over pointed sets
 
-Every pointed derivator can be canonically "enriched" over [[pointed sets]], in the sense that we can extend it to a functor $D':Set_* Cat \to Set_* CAT$ from small $Set_*$-enriched categories to large ones, satisfying analogues of the derivator axioms.  Specifically, if $C$ is a $Set_*$-category, define $\bar{C}$ to be $C$ with a [[zero object]] adjoined; this is the [[Cauchy completion]] of a $Set_*$-category.  Then set $D'(C) = D(\bar{C},0)$, the "relative diagram category" as defined above, defined as the full subcategory of $D(\bar{C})$ on those diagrams which send the zero object to zero.
+Every pointed derivator can be canonically "[[enriched derivator|enriched]]" over [[pointed sets]], in the sense that we can extend it to a functor
+$$D': \; Set_* Cat \; \to\; Set_* CAT$$
+from small $Set_*$-enriched categories to large ones, satisfying analogues of the derivator axioms.  Specifically, if $C$ is a $Set_*$-category, define $\bar{C}$ to be $C$ with a [[zero object]] adjoined.  (Note that zero objects are [[absolute colimits]] in $Set_*$-categories.)  Then set $D'(C) = D(\bar{C},0)$, the "relative diagram category" as defined above, i.e. the full subcategory of $D(\bar{C})$ on those diagrams which send the zero object to zero.
 
-Any $Set_*$-functor automatically preserves zero objects (since an object $x$ of a $Set_*$-category is zero iff its identity $id_x$ is the basepoint of the pointed homset $hom(x,x)$).  In particular, any $Set_*$-functor $u:A\to B$ induces a functor $(u,0):(\bar{A},0) \to (\bar{B},0)$, and hence a pullback $u^* = (u,0)^*:D'(B) \to D'(A)$.  According to the general theory of relative diagram categories, this functor has left and right adjoints $u_!$ and $u_*$, obtained from left and right extension along $u$ followed by reflection or coreflection from $D(\bar{B})$ into $D(\bar{B},0)$.  In fact, however, in this case the reflection/coreflection is unnecessary: since the comma category $(u,0)/0$ has a terminal object $0$, the functor $u_!$ already maps $D(\bar{A},0)$ into $D(\bar{B},0)$.
+Any $Set_*$-functor automatically preserves zero objects (since an object $x$ of a $Set_*$-category is zero iff its identity $id_x$ is the basepoint of the pointed homset $hom(x,x)$).  In particular, any $Set_*$-functor $u:A\to B$ induces a relative functor $(u,0):(\bar{A},0) \to (\bar{B},0)$, and hence a pullback $u^* = (u,0)^*:D'(B) \to D'(A)$.  According to the general theory of relative diagram categories, this functor has left and right adjoints $u_!$ and $u_*$, obtained from left and right extension along $u$ followed by reflection or coreflection from $D(\bar{B})$ into $D(\bar{B},0)$.  In fact, however, in this case the reflection/coreflection is unnecessary: since the comma category $(u,0)/0$ has a terminal object $0$, the functor $u_!$ already maps $D(\bar{A},0)$ into $D(\bar{B},0)$.
 
 Thus we have a $Set_*$-analogue of the derivator axiom (Der3), existence of adjoints.  For the enriched axiom (Der2), conservativity, observe that if $I$ is the unit $Set_*$-category having one object $x$ with $hom(x,x) = S^0 = \{1_x, 0\}$, then $D'(I) \simeq D(*)$.  So the family of $Set_*$ functors $I \to A$ for any $Set_*$-category $A$ gives rise a family $*\to \bar{A}$ picking out the nonzero objects, but since any two zero objects are isomorphic, (Der2) for $D$ implies that the resulting family of functors $D'(A) \to D'(I)$ are jointly conservative.
 
-*Remaining to consider:* axiom (Der1) on coproducts, and axiom (Der4) on exact squares.
+We can also conclude a version of the axiom (Der4) about exact squares from the above theorems about exactness for categories with zeros.  Namely, if
+$$\array{ A & \to & B \\ \downarrow & \swArrow & \downarrow \\ C & \to & D }$$
+is a comma square of $Set_*$-categories, then
+$$\array{ \bar{A} & \to & \bar{B} \\ \downarrow & \swArrow & \downarrow \\ \bar{C} & \to & \bar{D} }$$
+is homotopy exact when considered as a square of ordinary categories.  Moreover, the functor $\bar{C} \to \bar{D}$ is always locally null-final.  Thus, by Theorem \ref{HomotopyExactWithZeros1}, our "$Set_*$-enriched derivator" satisfies the Beck-Chevalley condition for any comma square of $Set_*$-categories.
+
+It remains to consider the axiom (Der1) regarding coproducts.  The coproduct "$A\vee B$" of two $Set_*$-categories $A$ and $B$, as $Set_*$-categories, is not quite a "disjoint" union, but rather includes zero morphisms in both directions from each category to the other.  The inclusions $i,j$ of $A$ and $B$ are fully faithful, however, and the induced functors $\bar{i}\colon \bar{A}\to \overline{A\vee B}$ and $\bar{j}\colon \bar{B}\to \overline{A\vee B}$ are locally null-final; hence the left extensions $i_! \colon D'(A) \to D'(A\vee B)$ and $j_!\colon D'(B) \to D'(A\vee B)$ are also fully faithful.
+
+By exactness with zeros, we can show that $j^* i_!$ and $i^* j_!$ send everything to zero.  Therefore, if we define a functor $(i,j)_!\colon D'(A) \times D'(B) \to D'(A\vee B)$ by $(i,j)_!(X,Y) = (i_! X + j_! Y)$, then we have $(i^*, j^*)(i,j)_! \cong Id$.  On the other hand, by fully-faithfulness of $i_!$ and $j_!$, for any $Z\in D'(A\vee B)$ the map $i_! i^* Z \to Z$ is an isomorphism on objects of $A$, and similarly for $j$ and $B$; hence $(i,j)_! (i^*,j^*) \cong Id$ as well.  In particular, $(i^*,j^*)$ is an equivalence of categories, providing the $Set_*$-enriched version of (Der1).
+
++--{: .query}
+What about (Der5)?
+=--
+
+Conversely, given a functor $D'$ as above satisfying the axioms as given above, we can define $D(A) = D'(A')$, where $A'$ denotes the free $Set_*$-category on an ordinary category $A$ (i.e. adjoin a new zero morphism between each pair of objects).  This $D$ will automatically satisfy axioms (Der3) (homotopy Kan extensions) and (Der2) (conservativity on objects) since $D'$ does, and it satisfies (Der1) on coproducts since $D'$ does and since $(A+B)' \cong A' + B'$.
+
++--{: .query}
+Does (Der4) on Beck-Chevalley conditions carry back over?  Does this require a "pointed version of Cisinski's theorem"?
+=--
+
+Finally, of course each category $D(A) = D'(A')$ has a zero object, so $D$ is a pointed derivator.  Thus, $Set_*$-enrichment is an essentially equivalent way to express the notion of pointed derivator.  This approach was used by Franke (see below).
 
 
 ## The pointed reflection
@@ -318,6 +340,10 @@ The definition of relative diagram categories is taken from:
 
 * Alex Heller, _Stable homotopy theories and stabilization_ , [MR](http://www.ams.org/mathscinet-getitem?mr=1431157)
  {#HellerStable}
+
+The $Set_*$-enriched approach is taken as basic in
+
+* Jens Franke, _Uniqueness theorems for certain triangulated categories with an Adams spectral sequence_, [K-theory archive](http://www.math.uiuc.edu/K-theory/0139/)
 
 
 [[!redirects pointed derivators]]
