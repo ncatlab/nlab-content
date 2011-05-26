@@ -26,9 +26,8 @@
 
 Gromov-Witten invariants may be understood (and have originally been found) as arising from a particular [[TQFT]], or actually a [[TCFT]], called the [[A-model]].
 
-For a useful exposition of this see
+For a useful exposition of this see ([Tolland](#Tolland)).
 
-* A. J. Tolland, _Gromov-Witten Invariants and Topological Field Theory_ ([blog](http://sbseminar.wordpress.com/2008/12/11/gromov-witten-invariants-and-topological-field-theory))
 
 
 
@@ -49,7 +48,22 @@ And this introductory bit on the [[moduli stack]] of [[elliptic curve]]s:
 
 * [[A Survey of Elliptic Cohomology - elliptic curves]]. 
 
+An exposition of GW theory as a [[TCFT]] is at
+
+* A. J. Tolland, _Gromov-Witten Invariants and Topological Field Theory_ ([blog](http://sbseminar.wordpress.com/2008/12/11/gromov-witten-invariants-and-topological-field-theory))
+ {#Tolland}
+
+### As a TCFT
+
+* [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([arXiv:0509264](http://arxiv.org/abs/math/0509264))
+
+See also the references at [[A-model]].
+
 ### General
+
+A discussion by quantization of quadratic Hamiltonians is in
+
+* [[Alexander Givental]], _Gromov-Witten invariants and quantization of quadratic Hamiltonians_ ([pdf](http://math.berkeley.edu/~giventh/papers/gwi.pdf))
 
 * M. Kontsevich, Yu. Manin, _Gromov-Witten classes, quantum cohomology, and enumerative geometry_, Comm. Math. Phys. 164 (1994), no. 3, 525--562 ([euclid](http://projecteuclid.org/euclid.cmp/1104270948)).
 
