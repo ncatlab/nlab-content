@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -63,6 +62,7 @@ The axioms of $Th(Cat)$ are as follows:
 1. ([[associativity|Associativity]]) $(c(f, g, j) \wedge c(g, h, k)) \vdash (c(j, h, m) \Leftrightarrow c(f, k, m))$
 
 (Notice that an **object-term** may be defined as a term $e$ for which either of the following equivalent equations holds: $e = s(e)$, $e = t(e)$.) 
+
 
 =--
 
@@ -136,6 +136,7 @@ The axioms of $Th(Topos)$ are obtained by adjoining to $Th(Lex)$ the following f
 
 1. $\Lambda(f, g, h) \vdash (M(f, g) \wedge s(h) = t(f) \wedge t(h) = P(g))$ 
 
+
 1. (Classifying map for relations: existence) 
 $$M(f, g) \vdash \exists_h \Lambda(f, g, h)$$ 
 
@@ -189,7 +190,7 @@ Hence, the only "irremovable" existential clauses (that necessitate passing from
 
 This is in marked contrast to ZFC, whose axiom list is superficially shorter (ignoring the fact that axiom schemas are technically infinite lists of axioms!) but whose logical complexity is much greater. 
 
-It must be added that this fully formal presentation masks much of the conceptual clarity afforded by the underlying categorical and structural insights that are actually at work, particularly the systematic use of universal mapping properties. To put it more sharply: the traditional syntactic machinery used to present first-order theories is not really a natural or well-adapted 'home' for presenting categorical theories such as ETCS. The natural mode of presentation would use diagrams of arrows from the outset, as formalized say by Freyd's [[Q-sequence]]s, and that is as fully formal as the more traditional (fuddy-duddy) mode adopted here, which after all goes back to Frege and hasn't changed in a century. 
+It must be added that this fully formal presentation masks much of the conceptual clarity afforded by the underlying categorical and structural insights that are actually at work, particularly the systematic use of universal mapping properties. To put it more sharply: the traditional syntactic machinery used to present first-order theories is not really a natural or well-adapted 'home' for presenting categorical theories such as ETCS. The natural mode of presentation would use diagrams of arrows from the outset, as formalized say by Freyd's [[Q-sequence]]s, and that is as fully formal as the more traditional (concise without the skewing effect of personal perception and misleading labels) mode adopted here, which after all goes back to Frege and hasn't changed in a century. 
 
 
 
