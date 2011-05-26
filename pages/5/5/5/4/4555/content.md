@@ -19,7 +19,7 @@ The notion of _differential character_ as introduced by [CheegerSimons](#Cheeger
 
 Accordingly, Cheeger-Simons differential characters model [[connection on a bundle|connection]]s on <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle n-group</a>-[[principal ∞-bundle]]s ( $U(1)$-$(n-1)$-[[gerbe]]s)  and as such are equivalent to other models for these structures, such as [[Deligne cohomology]]. For $n=1$ these are ordinary [[connection on a bundle|connections]] on ordinary [[circle group]]-[[principal bundle]]s.
 
-The definition of CS-differential characters encodes rather directly the higher dimensional notion of [[parallel transport]] of such higher connections: a CS-character is a rule that assigns values in $U(1)$ to $n$-dimensional  surfaces $\Sigma_n \to X$ in a manifold $X$, such that whenever $\Sigm_n = \partial \Sigma_{n+1}$ is the boundary of a $\phi : \Sigma_{n+1} \to X$, this assignment coincides with the integral $\int_{\Sigma_{n+1}} \phi^* F$ of a smooth [[curvature]] $(n+1)$-form $F \in \Omega^{n+1}_{cl}(X)$.
+The definition of CS-differential characters encodes rather directly the higher dimensional notion of [[parallel transport]] of such higher connections: a CS-character is a rule that assigns values in $U(1)$ to $n$-dimensional  surfaces $\Sigma_n \to X$ in a manifold $X$, such that whenever $\Sigma_n = \partial \Sigma_{n+1}$ is the boundary of a $\phi : \Sigma_{n+1} \to X$, this assignment coincides with the integral $\int_{\Sigma_{n+1}} \phi^* F$ of a smooth [[curvature]] $(n+1)$-form $F \in \Omega^{n+1}_{cl}(X)$.
 
 
 ## As secondary characteristic classes
