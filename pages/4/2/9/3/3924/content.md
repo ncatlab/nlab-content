@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -29,7 +28,7 @@ An _associator_ in [[category theory]] and [[higher category theory]] is an [[is
 
 ### In Bicategories
 
-In a [[bicategory]] the [[composition]] of [[1-morphism]]s does not satisfy [[associativity]] as an equation, but ther are natural _associator_ 2-morphisms 
+In a [[bicategory]] the [[composition]] of [[1-morphism]]s does not satisfy [[associativity]] as an equation, but there are natural _associator_ 2-morphisms 
 
 $$
   h \circ (g \circ f) \stackrel{\simeq}{\Rightarrow} (h \circ g) \circ f
