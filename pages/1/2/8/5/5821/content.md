@@ -96,7 +96,7 @@ for all $h\in G$;
 
 $$Tr(c\varphi_h : L_g \to L_g) = Tr(\varphi_{g^{-1}}c : L_h \to L_h),$$
 
-where $Tr$ denotes the $\mathbb{k}$-valued trace of the endomorphism. (The homomorphism $c\varphi_h$ sends $a\in L_g$ to $c\varphi_h(a) \in L_g$, whilst $(\varphi_{g^{-1}}c)(b) = \varphi_{g^{-1}}(cb)$ for $c \in L_h$. This is sometimes called the `torus condition'.)
+where $Tr$ denotes the $\mathbb{k}$-valued trace of the endomorphism. (The homomorphism $c\varphi_h$ sends $a\in L_g$ to $c\varphi_h(a) \in L_g$, whilst $(\varphi_{g^{-1}}c)(b) = \varphi_{g^{-1}}(cb)$ for $c \in L_h$. This is sometimes called the 'torus condition'.)
 
 ###Note:
 
