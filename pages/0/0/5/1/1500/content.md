@@ -79,6 +79,13 @@ A monoidal category which is fusion is [[fully dualizable object|fully dualizabl
 
 This is due to ([DouglasSchommer-PriesSnyder](#DSPS))
 
+### Relation to weak Hopf algebras
+
+Every fusion catgeory $C$ arises as the [[representation category]] of a [[weak Hopf algebra]].
+
+This is explained by [[Liang Kong]] and Kitaev. Also probably in work by [[Viktor Ostrik]].
+
+
 ## Suggestions ##
 
 Here are three things such that it'd be awesome if they were sorted out on this page:
