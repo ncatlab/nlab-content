@@ -48,7 +48,7 @@ Finally, just like an ordinary [[circle group]]-[[principal bundle]] has an [[as
 
 The passage from [[principal ∞-bundle]]s to [[associated ∞-bundle]]s is necessary for the description of the quantum $\sigma$-model: it assigns in positive codimension spaces of [[section]]s of these associated bundles. For a 1-categorical description of the resulting [[QFT]] ordinary vector bundles (assigned in codimension 1) would suffice, but the $\sigma$-model should determine much more: an [[extended quantum field theory]]. This requires sections of higher vector bundles. For instance for $n = 2$ some boundary conditions of the $\sigma$-model are given by sections of the background [[n-vector bundle|2-vector bundle]]: these are the [[twisted bundle|twisted vector bundles]] known as the [[Chan-Paton bundles]] on the [[boundary]]-[[D-brane]]s of the [[string]]. (...)
 
-We now try to fill this with life by spelling out some standard examples. Further [below](Exposition) we look at precise formalizations of the situation.
+We now try to fill this with life by spelling out some standard examples. Further [below](#Exposition) we look at precise formalizations of the situation.
 
 
 ## Terminology and history
@@ -100,7 +100,7 @@ More in detail, this is meant to describe the following situation:
 
   * $\vec v := \dot \gamma \in Hom(T \Sigma, T X)$ for the [[derivative]] of $\gamma$; think of this as the [[velocity]] of the particle; and
 
-  * $\vec a := \ddot \gamma$ for the second [[derivative]], the [[acceleration]] of the particle (strictly speaking this is the [[covariant derivative]] with respect to the trivial [[connection on a bundle|connection]] on the (canonically trivialized) [[tangent bundle]] on $\mathbb{R}^3$, see [below](RelativisticParticle) for the fully fledged discussion).
+  * $\vec a := \ddot \gamma$ for the second [[derivative]], the [[acceleration]] of the particle (strictly speaking this is the [[covariant derivative]] with respect to the trivial [[connection on a bundle|connection]] on the (canonically trivialized) [[tangent bundle]] on $\mathbb{R}^3$, see [below](#RelativisticParticle) for the fully fledged discussion).
 
 We call then the collection of all [[smooth function]]s
 
@@ -954,6 +954,7 @@ We interpret this data as follows:
  
 Notice that this way a classical field theory is taken to be a special case of a [quantum field theory](#ExpositionQuantumFieldTheory), where the codomain of the symmetric monoidal functor is of the special form $Span(Grpd, \mathcal{C})$. For more on this see [[classical field theory as quantum field theory]].
 
+
 ### Quantization
  {#ExpositionQuantization}
 
@@ -1092,6 +1093,131 @@ One says that $[\alpha]$ is the [[Lagrangian]] of the theory.
  {#ExpositionQuantumSigmaModels} 
 
 (...)
+
+
+## Exposition of second quantization of $\sigma$-models
+ {#SecondQuantization}
+
+Low dimensional $\sigma$-models that describe the dynamics of [[particle]]s or generally [[brane]]s propagating in a [[target space]] $X$ subject to the forces exerted by a [[background field]] are just the first ingredient in a description of the quantum physics on $X$: one is interested in describing a [[quantum field theory]] (or possibly some higher analog, such as a _[[string field theory]]_ ) on $X$, such that the original branes described by the $\sigma$-model are _quanta_ of the fields on $X$. The $\sigma$-model quantum field theory on $\Sigma$ is supposed to induce, in turn, another quantum field theory, or something similar, but now on $X$. This process -- or its idea -- goes by the name _[[second quantization]]_ . We shall try to indicate below in which sense this should indeed be a direct iteration of the ("first") quantization of the original $\sigma$-model itself, as described [above](ExpositionQuantization). But we will (have to) be more vague and schematic than before.
+
+Let 
+
+$$
+  Z : Bord_n^S \to Vect
+$$
+
+be the (un-extended, for simplicity of dicussion) [[FQFT]]-incarnation of the given quantum $\Sigma$-model. Assume for simplicity that the corresponding [[target space]] is of the form $X = Y \times \mathbb{R}$, where the second factor is the time-axis. By definition of second quantization, we declare that the second-quantized field theory on $X$ assigns to $Y$ the space of [[state]]s 
+
+$$
+  \begin{aligned}
+    Sym^\bullet(\oplus_{[\Sigma_{n-1}]} Z(\Sigma_{n-1}) )
+    & :=
+    Sym^\bullet( \mathcal{V} )
+    \\
+    & \simeq   
+    \mathbf{1}
+    \oplus 
+    \mathcal{V}
+    \oplus
+    \mathcal{V} \otimes_{sym} \mathcal{V}
+    \oplus
+    \cdots
+  \end{aligned}
+  \,,
+$$
+
+which is the _[[Fock space]]_ -- the free commutative [[tensor algebra]] -- over the vector space $\mathcal{V}$ of [[state]]s of the given single brane . This has a contribution for each equivalence class of connected shapes $\Sigma_{n-1}$ of this brane. For instance for the [[string]] with $n = 2$ there is one contribution from the closed string $\Sigma_1 = S^1$ and one contribution from the open string $\Sigma_1 = [0,1]$ (and in turn several contributions of this type is the open string carries boundary [[D-brane]] labels). (In the presence of [[fermion]]s the vector spaces appearing here are [[super vector space]]s and the Fock space construction is the corresponding [[super algebra]] version.)
+
+This space encodes a quantum theory whose _classical_ field configurations are given by _many_ states of the original quantum $\sigma$-model. We therefore say that the original brane of shape $\Sigma_{n-1}$ is a _quantum_ or a _single excitation_ of the field theory that it induces on target space $X$.
+
+Of course $Sym^\bullet(-) : Vect \to Vect$ is a [[functor]]. This is traditionally stated as the notorious slogan "second quantization is a functor", usually meant to state a contrast with first quantization. Notice however, firstly, that the ("first") quantization of $\sigma$-models -- at least for the version discussed [above](#ExpositionQuantization) -- also is a functor, and, secondly, that the $Sym^\bullet$-construction is at best half of what second quantization is about: the other half is the description of the _interaction_ of the many branes:
+
+for $X = Y \times (-t,t)$ piece of target space, the would-be second quantized theory on $X$ should assign a morphism
+
+$$
+  S : Sym^\bullet(\mathcal{V}) \to Sym^\bullet(\mathcal{V})
+$$
+
+between the space of states of the incoming piece $Y$, to the outgoing piece $Y$, here taken to be the same. Usually one assumes here $t = \infty$ and calls $S$ the _[[S-matrix]]_ of the theory, where "S" is the _scattering_ : for $(v^{in}_1 \otimes \dots v^{in}_r) \in Sym^r \mathcal{V}$ the state of $r$ incoming brane quanta and $(v^{out}_1 \otimes \dots v^{out}_s) \in Sym^s \mathcal{V}$ a state of $s$ outgoing brane quanta, the [[matrix]] element
+
+$$
+  \left( (v^{out}_1 \otimes \dots v^{out}_s) , S (v^{in}_1 \otimes \dots v^{in}_r \right)
+$$
+
+is the probability amplitude for $r$-many branes in the given states propagating through $X$, interacting among each other, thereby transmuting into other states -- hence _scattering off each other_ --  and eventually emerging again as $(v^{out}_1 \otimes \dots v^{out}_s)$.
+
+The idea is that this scattering happens in all possible ways that it can happen, with each way weighted by the probability amplitude for it to happen as seen by the quantum $\sigma$-model $Z$. The S-matrix is given by an expression like
+
+$$
+  S 
+  :=
+  \int_{\Sigma_n \in Bord^S_n}
+  Z(\Sigma)
+  \,
+  d\mu(\Sigma)
+  \,,
+$$
+
+and called the _brane perturbation series_ . For instance the _Feynman perturbation series_ for $n = 1$, or the _string perturnation series_ for $n = 2$: we sum over all possible $S$-structured [[cobordism]]s $\Sigma$, each representing an interaction "channel" for branes of shape $\partial_{in} \Sigma$ to scatter into shape $\partial_{out} \Sigma$ the linear maps $S(\Sigma) : \mathcal{V}_{\partial_{in} \Sigma} \to \mathcal{V}_{\partial_{out} \Sigma}$ weighted by some [[measure]] $\mu(\Sigma)$, and all regarded as giving one single endomorphism on $Sym^\bullet(\mathcal{V})$ in the evident way.
+
+Here the quotation marks indicate that plenty of technical subtleties may have to be taken care of in order to get anything close to being well defined. For instance the "sum" over $S$-structured cobordism is really some [[integral]] over some suitably compactified [[moduli space]] of such. For sufficiently simple but still nontrivial $\sigma$-models this has been made fully precise (for instance for $n = 1$ in standard QFT perturbation theory with [[renormalization]] or for $n = 2$ in the example of [[Gromov-Witten theory]], discussed [above](GWTheory)), and intuition and motivation is drawn from these cases, but in full generality it remains an open problem to fully realize this idea. 
+
+This Fock-space and S-matrix construction provides at least the rudiments of a quantum field theory on target space $X$ obtained by "second quantization" of a $\Sigma$-model describing brane dynamics on $X$. In application of phenomenological physics we think of $X$ here as our [[spacetime]]. Everything that is measured in particle accelerator experiments is explained with such a construction for $n = 1$. Everything that perturbative [[string theory]] hypothesizes is a refinement of this theory relevant at energies not visible in current accelerator experiments is described with such a construction for $n = 2$. A little bit of investigation has gone into exploring the $n = 3$-case. In principle one could investigate this further for $n \geq 4$.  but so far the jump in complexity given by the step from $n = 1$ to $n = 2$ has kept mankind busy enough. There is already an intricate interrelation of quantum field theories showing up at this level. For instance the second quantization of the [A-model string](spring) $\sigma$-model can be shown to be [[Chern-Simons theory]], which we have seen may itself be understood as a 3-dimensional $\sigma$-model. The second quantization of the non-topological string $\sigma$-model contains [[Yang-Mills theory]] and [[gravity]].
+
+Given the evident importance of the "brane perturbation series" or "second quantization" of $\sigma$-models it would be desireable to have a more general abstract and systematic description of it, in the spirit of the [above discussion](ExpositionQuantization) of general abstract first quantization. Here is an observation that might be suggestive:
+
+we had amplified that the input data for a classical ("0-quantized") $\sigma$-model is a [[background field]] on a target space $X$. At least in nice cases this background field is entirely encoded in its [[higher parallel transport]] and [[holonomy]]-assignment, which is a map
+
+$$
+  tra_\nabla : Bord_n(X) \to n Vect
+$$
+
+from $n$-dimensional bordisms _in_ $X$ to [[n-vector space]]s (we had mostly discussed an equivalent characteristic morphism $\nabla : X \to \mathbf{B}^n U(1)_{conn}$ and should eventually discuss in more detail how both perspectives are related...). 
+
+The process of ("first") quantization of this $\sigma$-model involves the [[path integral]] 
+
+$$
+  Z :=  \int_{\gamma \in Bord^S_n} tra_\nabla(\gamma) d \mu(\gamma)
+$$
+
+and thereby produces a functor
+
+$$
+  Z : Bord_n^S \to n Vect
+  \,,
+$$
+
+now on _abstract_ cobordisms (not equipped with maps into $X$). We saw that "second quantization" reads in this $Z$, in turn, and from the sum-expression
+
+$$
+  S := \int_{\Sigma \in Bord^S_n} Z(\Sigma) \; d \mu(\Sigma)
+$$
+
+produces a target space quantum field theory. Hence apparently there is a pattern:
+
+* classical (0-quantized) $\sigma$-model: 
+
+  $$
+    tra_\nabla : Bord_n^S(X) \to n Vect
+    \,;
+  $$
+
+* quantum (1st quantizes) $\sigma$-model: 
+
+  $$
+    Z = \int_{\gamma \in Bord^S_n(X)} tra_\nabla(\gamma) \, 
+      d\mu(\Sigma) : Bord_n^S \to n Vect
+    \,;
+  $$
+
+* second quantized $\sigma$-model: 
+
+  $$
+    S = \int_{\Sigma \in Bord^S_n} Z(\Sigma)\, d\mu(\Sigma)
+    \,.
+  $$
+
+
 
 ## Examples 
 
