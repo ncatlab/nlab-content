@@ -129,9 +129,7 @@ See
 
 * [[orbifold]]
 
-* [[effective Lie groupoid]]
-
-* [[etale groupoid]]
+* [[effective Lie groupoid]], [[proper Lie groupoid]], [[etale groupoid]]
 
 * [[homotopy groups of a Lie groupoid]]
 
