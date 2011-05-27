@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -325,6 +335,10 @@ $$
 in $Vect$. Finally using that $FinVect(V,W) \simeq V\otimes W^*$ the above coend expression follows.
 
 As before, more work is required to show that ven for $A$ itself not finite dimensional, it is still recovered in terms of the above (co)end over just its finite dimensional modules.
+
+### For Lie groupoids
+
+See [[Tannaka duality for Lie groupoids]].
 
 ###  For geometric stacks
 
