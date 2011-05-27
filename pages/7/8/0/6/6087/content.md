@@ -1,8 +1,20 @@
 
-A [[Lie groupoid]] $(C_1 \stackrel{\overset{s}{\to}}{\underset{t}{\to}}) C_0$ is **proper** if
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+A [[Lie groupoid]] $(C_1 \stackrel{\overset{s}{\to}}{\underset{t}{\to}} C_0)$ is **proper** if
 
 $$
   (s,t) : C_1 \to C_0
 $$
 
 is a [[proper map]].
+
+So in particular the [[automorphism group]] of any [[object]] in a proper Lie groupoid is a [[compact space|compact]] [[Lie group]]. In this sense proper Lie groupoids generalize compact Lie groups.
