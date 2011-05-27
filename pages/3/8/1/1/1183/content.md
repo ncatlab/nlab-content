@@ -713,7 +713,7 @@ of $X$. For the moment, see there for more.
 ### The topological $A$-model string and Gromov-Witten theory
  {#GWTheory}
 
-The quantum [[string]]-[[sigma model]] whose [[target space]] is a [[complex manifold]] $X$ -- often called the [[A-model]] -- is given by the
+The quantum [[string]]-[[sigma model]] whose [[target space]] is a [[symplectic manifold]] $(X, \omega)$ -- often called the [[A-model]] -- is given by the
 
 * [[Gromov-Witten theory]] 
 
