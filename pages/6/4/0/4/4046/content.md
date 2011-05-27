@@ -1,12 +1,31 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-</div>
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Definition
 
 A **pivotal category** is an [[autonomous category]] equipped with a [[monoidal natural transformation|monoidal natural isomorphism]] $A \to (A^*)^*$.  Pivotal categories have also been called "sovereign categories."  This is a kind of [[category with duals]].
 
 A right autonomous category with such an isomorphism is automatically left autonomous too, so the right/left distinction does not apply to pivotal categories.
+
+## Related concepts
+
+* [[fusion category]]
+
+* **pivotal category
+
+* [[spherical category]]
 
 
 [[!redirects pivotal category]]
