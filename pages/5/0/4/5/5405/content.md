@@ -287,6 +287,9 @@ This statement justifies thinking of $QC(X)$ as being the "2-algebra" of functio
 
 =--
 
+## Related concepts
+
+* [[Tannaka duality for Lie groupoids]]
 
 ## References
 
