@@ -1,0 +1,4 @@
+
+An operation that makes a divergent [[series]] become convergent.
+
+* [[Borel resummation]]
