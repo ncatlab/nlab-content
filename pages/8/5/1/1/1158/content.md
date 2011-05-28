@@ -381,6 +381,10 @@ For higher $n$ there is as yet no detailed proof in the literature, but the
 low dimensional proofs have obvious generalizations.
 
 
+### Cup product
+
+See [[Beilinson-Deligne cup product]].
+
 ## Examples 
 
 As described in some detail at [[electromagnetic field]] in abelian higher [[gauge theory|gauge theories]] the background field naturally arises as a [[Čech cohomology|Čech]]--Deligne cocycle, i.e. a [[Čech cohomology|Čech cocycle]] representative with values in the Deligne complex.
