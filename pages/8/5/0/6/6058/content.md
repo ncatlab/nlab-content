@@ -88,7 +88,7 @@ $$
   \bar{H}^{k+l}(X, \mathbb{Z})
   \,.
 $$
-by considering the [[Deligne complex]] of sheaves
+by considering the [[Deligne cohomology|Deligne complex]] of sheaves
 $$
 \Lambda[2]^\infty_D:=(\Lambda\hookrightarrow C^\infty(-,\mathbb{R}^n)\xrightarrow{d_\Lambda} \Omega^1(-,\mathbb{R}^n)),
 $$
