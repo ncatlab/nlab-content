@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _Calabi-Yau algebra_ is an algebraic incarnation of athe notion of _[[Calabi-Yau manifold]]_ .
+
+## Definition
+
+(...)
+
+## Properties
+
+For $X$ a suitable [[smooth scheme|smooth]] [[variety]] and $\mathcal{E} in D^b(Coh X)$ a [[tilting generator]] in the [[derived category]] of [[coherent sheaves]] over $X$, we have that the [[endomorphism]]-algebra
+$End \mathcal{E}$ is a Calabi-Yau algebra of dimension $d$ precisely if $X$ is a [[Calabi-Yau manifold]] of dimension $d$.
+
+This appears as ([Ginzburg, prop. 3.3.1](#Ginzburg)).
+
+## Related concepts
+
+* [[Calabi-Yau object]]
+
+  * **Calabi-Yau algebra**, [[Calabi-Yau manifold]]
+
+## References
+
+* [[Victor Ginzburg]], _Calabi-Yau algebras_ ([arXiv:0612139](http://arxiv.org/abs/math/0612139))
+ {#Ginzburg}
+
+[[!redirects Calabi-Yau algebras]]
