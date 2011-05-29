@@ -96,3 +96,6 @@ The [[homotopy category]] and [[triangulated category]] of dg-modules is discuss
 
 [[!redirects category of dg-modules]]
 [[!redirects categories of dg-modules]]
+
+[[!redirects dg-module]]
+[[!redirects dg-modules]]
