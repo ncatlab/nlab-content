@@ -50,6 +50,8 @@ whose main content is a formalization and proof of the
 
 * [[factorization algebra]]
 
+* [[Calabi-Yau object]]
+
 * [[TCFT]]
 
 category: reference
