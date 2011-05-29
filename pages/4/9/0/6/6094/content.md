@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of _Calabi-Yau algebra_ is an algebraic incarnation of athe notion of _[[Calabi-Yau manifold]]_ .
+The notion of _Calabi-Yau algebra_ is an algebraic incarnation of the notion of _[[Calabi-Yau manifold]]_ .
 
 ## Definition
 
