@@ -81,6 +81,7 @@ $$
   * **of categories**, [[geometric realization of simplicial topological spaces|of simplicial topological spaces]], [[geometric realization of cohesive ∞-groupoids|of cohesive ∞-groupoids]]
 
 
+[[!redirects geometric realization of a category]]
 
 [[!redirects Quillen's theorem A]]
 [[!redirects Quillen's theorem A]]
