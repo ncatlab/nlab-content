@@ -194,7 +194,7 @@ For more see [[counterexamples in algebra]].
 
 ## Related concepts
 
-* **group**
+* **group**, [[finite group]], [[discrete group]], [[topological group]], [[Lie group]], [[loop group]]
 
 * [[2-group]]
 
