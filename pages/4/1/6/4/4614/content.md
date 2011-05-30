@@ -899,7 +899,9 @@ For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is
 
 * [[simplicial topological group]]
 
-* **geometric realization of simplicial spaces**
+* [[geometric realization]]
+
+  * [[geometric realization of categories|of categories]], **of simplicial topological spaces**, [[geometric realization of cohesive ∞-groupoids|of cohesive ∞-groupoids]]
 
 
 
