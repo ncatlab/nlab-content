@@ -1,4 +1,22 @@
-Given a Riemann surface $S$ of genus $g$ with $s$ punctures, its __mapping class group__ is the group of [[isotopy]] classes of orientation preserving homeomorphisms $S\to S$. Central role is played by [[Dehn twist]]s. The mapping class group is of importance in many areas of geometry including study of [[Teichmüller space]]s, of moduli spaces, of automorphisms of free group and in geometric and [[combinatorial group theory]], hyperbolic geometry and so on. Some of the key contributors were [[Max Dehn]], [[Jakob Nielsen]], [[William Thurston]], [[David Mumford]]. Recent proof of the related Mumford conjecture has been accomplished by Madsen and Weiss.
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+
+Given a [[Riemann surface]] $S$ of genus $g$ with $s$ punctures, its __mapping class group__ is the group of [[isotopy]] classes of orientation preserving homeomorphisms $S\to S$. Central role is played by [[Dehn twist]]s. The mapping class group is of importance in many areas of geometry including study of [[Teichmüller space]]s, of moduli spaces, of automorphisms of free group and in geometric and [[combinatorial group theory]], hyperbolic geometry and so on. Some of the key contributors were [[Max Dehn]], [[Jakob Nielsen]], [[William Thurston]], [[David Mumford]]. Recent proof of the related Mumford conjecture has been accomplished by Madsen and Weiss.
+
+## Properties
+
+### For 2-dimensional surfaces
+
+The [[classifying space]]s of mapping class groups for 2-[[dimension]]al [[manifold]]s are encoded combinatorially in the [[geometric realization]] of a [[category]] of [[ribbon graph]]s. See there for details.
+
+
+## References
 
 * wikipedia: [mapping class group](http://en.wikipedia.org/wiki/Mapping_class_group)
 
