@@ -182,10 +182,10 @@ Other standard operations on categories include
 
 * [[localization]]
 
-...
-
+* [[geometric realization of categories]]
 
 ## Related concepts
+
 
 * [[0-category]], [[(0,1)-category]]
 
