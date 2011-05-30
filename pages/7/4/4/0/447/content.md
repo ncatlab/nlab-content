@@ -65,6 +65,10 @@ In the case of [[simplicial sets]], see for more discussion also
 
 * [[nerve]], [[homotopy hypothesis]].
 
+Via simplicial [[nerve]] functors geometric realization of simplicial sets induces geometric realizations of many other structures, for instance
+
+* [[geometric realization of categories]]
+
 ### Of simplicial topological spaces
  {#OfSimplicialTopologicalSpaces}
 
@@ -206,6 +210,14 @@ R(X \times Y) & \cong & R((X \otimes_{\Delta} \hom) \times (Y \otimes_{\Delta} \
     \mathcal{B}G = |N\mathbf{B}G|
   $$
   is the [[topological space]] that is the [[classifying space]] for $G$-[[principal bundle]]s ([[covering space]]s), as long as we give $G$ the [[discrete topology]].
+
+## Related concepts
+
+* **geometric realization**
+
+  * [[geometric realization of categories|of categories]], [[geometric realization of simplicial topological spaces|of simplicial topological spaces]], [[geometric realization of cohesive ∞-groupoids|of cohesive ∞-groupoids]]
+
+
 
 
 [[!redirects geometric realisation]]
