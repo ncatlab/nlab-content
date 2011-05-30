@@ -1,0 +1,6 @@
+
+* [wikipedia entry](http://de.wikipedia.org/wiki/Dale_Husem%C3%B6ller)
+
+category: people
+
+[[!redirects Dale Husemoeller]]
