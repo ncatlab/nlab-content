@@ -1,6 +1,6 @@
-#Contents##
 
-* automatic table of contents goes here
+#Contents##
+* table of contents
 {:toc}
 
 ##  Idea
@@ -35,7 +35,7 @@ Note:  While 'simple graph' is unambiguous, the other terms above are not.  In p
 
 In all four of the above, edges are interpreted as *unordered* pairs.  If we instead interpret edges as *ordered* pairs, then we get four new concepts:
 
-*  A __directed graph__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2 \setminus \Delta_V$;
+*  A __[[directed graph]]__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2 \setminus \Delta_V$;
 *  a __directed multigraph__ consists of $V$, $E$, and a function $d: E \to V^2 \setminus \Delta_V$;
 *  a __directed loop graph__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2$;
 *  a __directed pseudograph__ consists of $V$, $E$, and a function $d: E \to V^2$.  These are commonly used in [[category theory]]; see [[quiver]].
@@ -86,6 +86,15 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 * [[Ronnie Brown]], I. Morris, J. Shrimpton, and C.D. Wensley (2008), _Graphs of Morphisms of Graphs_, Electronic Journal of Combinatorics, A1 of Volume 15(1), 1--28.
 * [[Bill Lawvere]] (1989), _Qualitative distinctions between some toposes of generalized graphs_, in Categories in computer science and logic (Boulder, CO,   1987), volume 92 of _Contemporary Mathematics_, 261--299. American Mathematical Society, Providence, RI.
 
+## Related concepts
+
+* **graph**
+
+* [[directed graph]]
+
+  * [[directed n-graph]]
+
+* [[ribbon graph]]
 
 ## Discussion ## {#talk}
 
