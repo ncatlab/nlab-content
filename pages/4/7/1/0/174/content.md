@@ -165,9 +165,19 @@ See also [[division algebras and supersymmetry]].
 
 ## Related concepts
 
-* [[Chan-Paton bundle]]
+* [[sigma-model]]
 
-* [[M2-brane]], [[NS5-brane]]
+* [[particle]], [[string]] [[M2-brane]], [[NS5-brane]]
+
+
+## References
+
+(lots of references eventually go here)
+
+Classical dynamics of fundamental branes is discussed for instance in
+
+* [[Jens Hoppe]], _Fundamental Structures of M(brane) Theory_ ([arXiv:1003.5189](http://arxiv.org/abs/1003.5189))
+ {#Hoppe10}
 
 [[!redirects branes]]
 
