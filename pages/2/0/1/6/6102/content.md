@@ -1,0 +1,7 @@
+
+
+## References
+
+course notes:
+
+* Frank Jones, _Implicit function theorem_ ([pdf](http://www.owlnet.rice.edu/~fjones/chap6.pdf))
