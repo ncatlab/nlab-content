@@ -228,7 +228,7 @@ and the [[cobordism hypothesis]] in
 
 it is suggested (see example 4.2.16, remark 4.2.17) that there should be an [[extended quantum field theory]] version of this. This has essentially been described in
 
-* Veronique Godin, _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
+* [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
  {#Godin}
 
 More details on all this, as well as the generalization to multiple [[D-brane]]s is discussed in
