@@ -190,6 +190,10 @@ So this construxts a 2d TCFT and shows that its effective background [[string th
 
 So via the detour over the effective background field theory, this sort of shows that the physicist's A-model and B-model are indeed captured by the abstract [[FQFT]] definition of TCFT as given above.
 
+## Related concepts
+
+* [[HCFT]]
+
 ## References
 
 The definition was given independently by 
