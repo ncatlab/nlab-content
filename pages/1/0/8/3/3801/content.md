@@ -168,7 +168,25 @@ given by the [[FQFT]] corresponding to the $\sigma$-modelon these state spaces, 
 
 The identification of string topology with a topological field theory was proved in ([Tamanoi07](#Tamanoi07)). The [[extended quantum field theory|extended]] [[TCFT]] version of this which is suggested by ([Costello](#Costello)) and ([Lurie](#Lurie)) (see towards the end) was essentially worked out in detail in ([Godin](#Godin)). More details on all this are in ([Kuipers](#Kuipers)).
 
-(...)
+### Closed string TQFT
+
+### Open closed string TQFT
+
+Let $X$ be an [[orientation|oriented]] [[compact space|compact]] [[manifold]] of dimension $d$.
+ 
+For $\mathcal{B} = \{A, B , \cdots\}$
+a collection of oriented compact submanifolds write
+$P_X(A,B)$ for the [[path space]] of paths in $X$ that start in $A \subset X$ and end in $B \subset X$.
+
++-- {: .num_theorem }
+###### Theorem
+
+The  tuple $(H_\bullet(L M, \mathbb{Q}), \{H_\bullet(P_X(A,B), \mathbb{Q})\}_{A,B \in \mathcal{B}})$ carries the
+structure of a $d$-dimensional [[HCFT]] with _positive boundary_ and set of [[branes]] $\mathcal{B}$, such that the correlators in the closed sector are the standard string topology operation.
+
+=--
+
+For a single [[brane]] $\mathcal{B} = \{*\}$ this was shown in ([Godin](#Godin)), where the general statement is conjectured. The detailed proof for the general statement is in ([Kuipers](#Kuipers)).
 
 ## Related concepts
 
@@ -211,7 +229,7 @@ and the [[cobordism hypothesis]] in
 it is suggested (see example 4.2.16, remark 4.2.17) that there should be an [[extended quantum field theory]] version of this. This has essentially been described in
 
 * Veronique Godin, _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
- {#Godin}.
+ {#Godin}
 
 More details on all this, as well as the generalization to multiple [[D-brane]]s is discussed in
 
