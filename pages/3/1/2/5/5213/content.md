@@ -432,3 +432,7 @@ $$
 $$
 
 =--
+
+## Related concepts
+
+* [[path integral as a pull-push transform]]
