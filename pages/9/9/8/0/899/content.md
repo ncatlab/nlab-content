@@ -95,7 +95,9 @@ and this will generally not be continuous in the norm topology, but is always co
 
 * [[group]]
 
-* **topological group**
+* [[dicrete group]], [[finite group]]
+
+* **topological group**, [[loop group]]
 
 * [[Lie group]]
 
