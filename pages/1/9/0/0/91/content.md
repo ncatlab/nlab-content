@@ -171,6 +171,19 @@ consecutive identity-assigning, source or target maps, respectively.
 
 * Also related is the notion of [[computad]], which is similar to a globular set in some ways, but allows "formal composites" of $n$-cells to appear in the sources and targest of $(n+1)$-cells.
 
+## Related concepts
+
+* [[graph]]
+
+* [[directed graph]]
+
+  * **directed $n$-graph**
+
+* [[ribbon graph]]
+
+
+
+
 
 [[!redirects globular set]]
 [[!redirects globular sets]]
