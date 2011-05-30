@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[loop space]] of a [[topological group]] inherits itself the structure of a [[group]] under pointwise group multiplication of loops. This is called a _loop group_ .
+
+## References
+
+The standard textbook on loop groups is
+
+* Andrew Pressley, [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
+
+## Related concepts
+
+* [[string group]]
+
+[[!redirects loop groups]]
