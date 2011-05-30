@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -26,7 +36,12 @@ $$
 
 ## References
 
-Section 2 of 
+For 2-dimensional cobordisms with closed boundary HCFT has been considered in 
+
+* Veronique Godin, _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
+ {#Godin}
+
+A detailed treatment in $d = 2$ involving arbitrary sets of [[brane]]s is in section 2 of 
 
 * [[Sander Kuipers]], _String topology operations_ MSc thesis (2011)
 
