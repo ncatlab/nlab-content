@@ -1,5 +1,3 @@
-[[!redirects fundamental infinity-groupoid in a locally ∞-connected (infinity,1)-topos]]
-[[!redirects fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -38,3 +36,11 @@ For $(\Pi \dashv \Gamma \dashv LConst) :  \mathbf{H} \to \infty Grpd$ a [[locall
 
 * In [[ETop∞Grpd]] the intrinsic fundamental $\infty$-groupoid is the generalization of that on [[Top]] to [[∞-groupoid]]s in [[paracompact space]]s.
 
+
+## Related concepts
+
+* [[geometric realization of cohesive ∞-groupoids]]
+
+
+[[!redirects fundamental infinity-groupoid in a locally ∞-connected (infinity,1)-topos]]
+[[!redirects fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]
