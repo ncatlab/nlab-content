@@ -1,0 +1,37 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _homological_ [[TQFT]] is a representation of the [[cobordism]] category that depends only on the [[homology]] of the [[hom-space]]s.
+
+In $d = 2$ this is also called a _homological_ [[conformal field theory]]. The passage to homology forgets the conformal structure.
+The refinement of this concept from [[homology group]]s to [[chain complex]]es is called [[TCFT]].
+
+
+## Definition
+
+Write $Bord$ for any given [[cobordism category]], regarded as a [[Top]]-[[enriched category]]. A **homological TQFT** is a [[symmetric monoidal functor|symmetric monoidal]] [[Ab]]-[[enriched functor]]
+
+$$
+  Z : H_\bullet(Bord) \to Ab
+  \,.
+$$
+
+## Applications
+
+* The [[string topology]] operations of a manifold are part of an HTQFT. See there for details.
+
+## References
+
+Section 2 of 
+
+* [[Sander Kuipers]], _String topology operations_ MSc thesis (2011)
+
+[[!redirects HCFT]]
+[[!redirects HCFTs]]
+
+[[!redirects HQFT]]
+[[!redirects HQFTs]]
