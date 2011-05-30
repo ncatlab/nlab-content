@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 =--
 =--
 
@@ -15,6 +19,10 @@
 {:toc}
 
 ## Definition
+
+
++-- {: .num_defn}
+###### Definition
 
 For $i : X \hookrightarrow Y$ an [[embedding]] of [[manifold]]s, a **tubular neighbourhood** of $X$ in $Y$ is
 
@@ -28,12 +36,53 @@ For $i : X \hookrightarrow Y$ an [[embedding]] of [[manifold]]s, a **tubular nei
 
   with an [[open neighbourhood]] of $X$ in $Y$.
 
+=--
+
++-- {: .num_remark}
+###### Remark
+
 The [[derivative]] of $\hat i$ provides an [[isomorphism]] of $E$ with the [[normal bundle]] $\nu_{X/Y}$ of $X$ in $Y$.
+
+=--
+
+## Properties
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[embedding]] does admit a tubular neighbourhood.
+
+=--
+
+Moreover, tubular neighbourhoods are unique _up to [[homotopy]]_ in a suitable sense:
+
++-- {: .num_defn}
+###### Definition
+
+For an embedding $i X \to Y$, write $Tub(i)$ for the [[topological space]] whose underlying set is the set of tubular neighbourhoods of $i$ and whose [[topology]] is the [[subspace topology]] of $Hom(N_i X, Y)$ equipped with the [[C-infinity topology]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+If $X$ and $Y$ are [[compact space|compact]] [[manifold]]s, then $Tub(i)$ is [[contractible]] for all [[embedding]]s $i : X \to Y$.
+
+=--
+
+This appears as ([Godin, prop. 31](#Godin)).
 
 ## References
 
-* wikipedia [tubular neighborhood](http://en.wikipedia.org/wiki/Tubular_neighborhood)
+The homotopical uniqueness of tubular neighbourhoods is discussed in
+
+* [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
+ {#Godin}
 
 For an analogue in homotopical algebraic geometry see
 
 * [[Marc Levine]], _Motivic tubular neighborhoods_, [pdf](http://www.uni-due.de/~bm0032/publ/TubNbdDocumenta.pdf)
+
+see also
+
+* wikipedia [tubular neighborhood](http://en.wikipedia.org/wiki/Tubular_neighborhood)
