@@ -1,0 +1,11 @@
+
+* [website](http://www.e.kth.se/~hoppe/)
+
+
+## Related entries
+
+* [[brane]]
+
+* [[sigma-model]]
+
+category: people
