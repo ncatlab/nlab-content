@@ -19,9 +19,10 @@
 
 ## Idea ##
 
-The _suspension_ $\Sigma X$ or $S X$ of a [[topological space]] is its [[suspension object]] formed in [[Top]]:
 
 the suspension $S X$ of a [[topological space]] $X$ is a space of one higher dimension, which is (for [[inhabited set|inhabited]] $X$) a [[quotient object|quotient space]] of $X \times [0,1]$.  The difference between $S X$ and $X \times [0,1]$ is that the copy of $X$ at each endpoint ($0$ or $1$) is replaced by a single point.  
+
+The _reduced suspension_ $\Sigma X$  of a [[topological space]] is its [[suspension object]] formed in [[Top]].
 
 This is the special case in [[Top]] of a general operation in [[(∞,1)-categories]]: see [[suspension object]].
 
@@ -36,7 +37,9 @@ Note that we *replace* $X$ by a single point at each endpoint; we don\'t merely 
 Compare the [[reduced suspension]], where you start with a [[pointed space]] and identify all copies of the base point as well.
 
 
-## Definitions ##
+## Definition
+
+### Suspension
 
 Let $X$ be a [[space]] (such as a [[topological space]], or something more interesting like a [[generalized smooth space]]).  Let $I$ be the unit [[interval]] $[0,1]$ in the [[real line]]; let $2$ be the $2$-point [[discrete space]] $\{\bot,\top\}$.  Let $X \times I \times 2$ be the [[cartesian product]] of $X$, $2$, and $I$; let $X + (X \times 2 \times I) + 2$ be the [[disjoint union]] of $X$, $X \times I \times 2$ and $2$.  We will suppress reference to the inclusion maps into $X + (X \times I) + 2$; it will be clear from context how to parse an element of the latter.
 
@@ -72,8 +75,18 @@ If $X$ has a point $p$, then we can define $S X$ as the quotient space of $X \ti
 
 This is probably the most common definition seen, but it only works for $X$ an inhabited space (and even then gives only the topological structure).
 
-
 It\'s easy to extend the suspension operation $S$ to a [[functor]] from [[Top]] to itself.
+
+
+### Reduced suspension
+
+The _reduced suspension_ of a [[pointed object|pointed]] spaces is its [[smash product]] with the [[circle]]
+
+$$
+  \Sigma X \simeq S^1 \wedge X
+$$
+
+For [[CW-complex]]es the reduced suspension is [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary suspension, $\Sigma X \simeq S X$.
 
 
 ## Examples ##
