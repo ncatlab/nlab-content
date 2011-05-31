@@ -15,6 +15,55 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Given an [[embedding]] of [[manifold]]s $i : X \hookrightarrow Y$, the _Thom collaps map_ is a useful approximation to its would-be [[left inverse]].
+
+## Definition
+
+All [[topological space]]s in the following are taken to be [[compact space|compact]].
+
+Let $X$ and $Y$ be two [[manifold]]s and let 
+
+$$
+  i : X \hookrightarrow Y
+$$ 
+
+be an [[embedding]].  Write $N_i X$ for the [[normal bundle]] of $X$ relative to $i$ and let $f : N_i X \to Y$ be any [[tubular neighbourhood]] of $i$. Finally write $Th(N_i X)$ for the [[Thom space]] of the normal bundle. 
+
+
++-- {: .num_defn}
+###### Definition
+
+The **collaps map** associated to $i$ and the choice of tubular neighbourhood $f$ is 
+
+$$
+  c_i : Y \to Y/(Y - f(N_i X)) \stackrel{\simeq}{\to}
+   Th(N_i X)
+  \,,
+$$
+
+where the first morphism is the projection onto the [[quotient]] [[topological space]] and the second is the canonical [[homeomorphism]] to the [[Thom space]] of the [[normal bundle]]. 
+
+=--
+
+## Properties
+
++-- {: .num_prop}
+###### Proposition
+
+For given $i$ all collaps maps for different choices of [[tubular neighbourhood]] $f$ are [[homotopy|homotopic]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the fact that the space of [[tubular neighbourhood]]s (see there for details) is [[contractible]].
+
+=--
+
+
 ## Related concepts
 
 * [[fiber integration]]
@@ -30,3 +79,6 @@ More details are in
 * [[Ralph Cohen]], [[John Klein]], _Umkehr Maps_ ([arXiv:0711.0540](http://arxiv.org/abs/0711.0540))
 
 [[!redirects Pontryagin-Thom collaps map]]
+
+[[!redirects Thom collaps map]]
+[[!redirects Thom collaps maps]]
