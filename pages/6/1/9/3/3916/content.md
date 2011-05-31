@@ -1,5 +1,3 @@
-[[!redirects Pontrjagin-Thom collapse map]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -17,7 +15,7 @@
 
 ## Idea
 
-Given an [[embedding]] of [[manifold]]s $i : X \hookrightarrow Y$, the _Thom collaps map_ is a useful approximation to its would-be [[left inverse]].
+Given an [[embedding]] of [[manifold]]s $i : X \hookrightarrow Y$, the _Thom collapse map_ is a useful approximation to its would-be [[left inverse]].
 
 ## Definition
 
@@ -35,7 +33,7 @@ be an [[embedding]].  Write $N_i X$ for the [[normal bundle]] of $X$ relative to
 +-- {: .num_defn}
 ###### Definition
 
-The **collaps map** associated to $i$ and the choice of tubular neighbourhood $f$ is 
+The **collapse map** associated to $i$ and the choice of tubular neighbourhood $f$ is 
 
 $$
   c_i : Y \to Y/(Y - f(N_i X)) \stackrel{\simeq}{\to}
@@ -52,7 +50,7 @@ where the first morphism is the projection onto the [[quotient]] [[topological s
 +-- {: .num_prop}
 ###### Proposition
 
-For given $i$ all collaps maps for different choices of [[tubular neighbourhood]] $f$ are [[homotopy|homotopic]].
+For given $i$ all collapse maps for different choices of [[tubular neighbourhood]] $f$ are [[homotopy|homotopic]].
 
 =--
 
@@ -78,7 +76,12 @@ More details are in
 
 * [[Ralph Cohen]], [[John Klein]], _Umkehr Maps_ ([arXiv:0711.0540](http://arxiv.org/abs/0711.0540))
 
+[[!redirects Pontryagin-Thom collapse map]]
 [[!redirects Pontryagin-Thom collaps map]]
+[[!redirects Pontrjagin-Thom collaps map]]
+[[!redirects Pontrjagin-Thom collapse map]]
 
+[[!redirects Thom collapse map]]
+[[!redirects Thom collapse maps]]
 [[!redirects Thom collaps map]]
 [[!redirects Thom collaps maps]]
