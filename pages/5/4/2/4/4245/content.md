@@ -24,7 +24,7 @@ in terms of counting pseudo-holomorphic disks into $X$ whose boundaries
 lie on the given Lagrangian submanifolds, but when intersections are
 nontransverse, the definition of $m_k$ becomes more evasive.
 
-In string theory, the Fukaya category of a symplectic manifold $X$ represents the category of [[D-branes]] in the [[A-model]] with target $X$. For [[Landau-Ginzburg models]], the category of D-branes for the A-model is described by [[Fukaya-Seidel categories]].
+In [[string theory]], the Fukaya category of a [[symplectic manifold]] $X$ represents the category of [[D-branes]] in the [[A-model]] with [[target space]] $X$. For [[Landau-Ginzburg models]], the category of D-branes for the A-model is described by [[Fukaya-Seidel categories]].
 
 
 ## References
