@@ -1,29 +1,28 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 #### Stable homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include stable homotopy theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 
-## Definition ##
+## Definition
 
 In an [[(∞,1)-category]] $C$, for any object $X$ its **suspension object** $\Sigma X$ is the [[homotopy pullback|homotopy pushout]]
 
@@ -44,9 +43,11 @@ This is the [[mapping cone]] of the terminal map $X \to {*}$. See there for more
 
 This concept is dual to that of [[loop space object]].
 
-## Examples ##
 
-* In [[Top]], this is the ordinary [[suspension]] of a space.
+## Examples
+
+* In [[Top]], this is the [[reduced suspension]] of a space.
+
 
 ## Related concepts
 
@@ -58,6 +59,8 @@ This concept is dual to that of [[loop space object]].
 
 * **suspension object**
 
-  * [[suspension]]
+  * [[reduced suspension]]
 
+
+[[!redirects suspension object]]
 [[!redirects suspension objects]]
