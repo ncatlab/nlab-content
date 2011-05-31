@@ -47,12 +47,16 @@ The [[derivative]] of $\hat i$ provides an [[isomorphism]] of $E$ with the [[nor
 
 ## Properties
 
+
 +-- {: .num_prop}
 ###### Proposition
+**(tubular neighbourhood theorem)**
 
 Every [[embedding]] does admit a tubular neighbourhood.
 
 =--
+
+For instance ([DaSilva, theorem 3.1](#DaSilva)).
 
 Moreover, tubular neighbourhoods are unique _up to [[homotopy]]_ in a suitable sense:
 
@@ -72,7 +76,13 @@ If $X$ and $Y$ are [[compact space|compact]] [[manifold]]s, then $Tub(i)$ is [[c
 
 This appears as ([Godin, prop. 31](#Godin)).
 
+
 ## References
+
+Basics on tubular neighbourhoods are for instance in section 3 of
+
+* Ana Cannas da Silva, _Prerequisites from differential geometry_ ([pdf](http://www.math.princeton.edu/~acannas/appendix_dg.pdf))
+ {#DaSilva}
 
 The homotopical uniqueness of tubular neighbourhoods is discussed in
 
@@ -86,3 +96,5 @@ For an analogue in homotopical algebraic geometry see
 see also
 
 * wikipedia [tubular neighborhood](http://en.wikipedia.org/wiki/Tubular_neighborhood)
+
+[[!redirects tubular neighbourhood theorem]]
