@@ -194,7 +194,7 @@ is just the identity map, using that $Obj(G) = G$ and $Mor(\mathbf{B}G) = G$.
 
 * [[suspension object]]
 
-  * [[suspension]]
+  * [[suspension]], [[reduced suspension]]
 
 
 
