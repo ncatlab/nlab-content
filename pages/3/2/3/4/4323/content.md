@@ -31,15 +31,47 @@ In particular, $\pi_n M O$ is naturally identified with the set of cobordism cla
 
 ## Definition
 
-For any $n\geq 1$, let $E_n\to B O(n)$ be the $\mathbb{R}^n$-bundle [[associated bundle|associated to]] the [[universal principal bundle]] $E O(n)\to B O(n)$ by the defining [[representation]] of the [[orthogonal group]] $O(n)$. The inclusion $O(n)\equiv O(n)\times\{1\}\hookrightarrow O(n+1)$ induces a map $\varphi_n:B O(n)\to B O(n+1)$. One sees that $\varphi_n^*E_{n+1}\simeq E_n\oplus\mathbb{R}$. therefore, passing to [[Thom space]]s, 
+For $V \to X$ a [[vector bundle]], we have a [[weak homotopy equivalence]]
+
 $$
-\Sigma Th(E_n)\simeq Th(E_n)\wedge Th(\mathbb{R})\simeq Th(E_n\oplus \mathbb{R})\simeq Th(\varphi_n^*E_{n+1})\to Th(E_{n+1}).
+  Th(\mathbb{R}^n \oplus V) \simeq S^n \wedge Th(V) \simeq \Sigma^n Th(V)
 $$
-Hence, setting $M O(n):=Th(E_n)$, we get a system of maps
+
+of the [[Thom space]] (see there for details) of the [[direct sum]] with the trivial [[vector bundle]] of rank $n$ and the $n$-fold [[suspension]] of $V$.
+
++-- {: .num_defn}
+###### Definition
+
+For $V \to X$ a [[vector bundle]], its **Thom spectrum** is the [[Omega spectrum]]
+
 $$
-\Sigma M O(n) \to M O(n+1),
+  E_n := (X^V)_n = Th(\mathbb{R}^n \oplus V)
+  \,.
 $$ 
-and so a [[spectrum]] $M O$, which is called the **Thom spectrum** .
+
+=--
+
+Without qualifiers, _the_ Thom spectrum is that of the universal vector bundles:
+
++-- {: .num_defn}
+###### Definition
+
+For each $n \in \mathbb{N}$ let 
+
+$$
+  M O(n) := (B O)^{V(n)}
+$$
+
+be the Thom spectrum of the vector bundle $V(n)$ that is canonically [[associated bundle|associated]] to the $O(n)$-[[universal principal bundle]] $E O(n) \to B O(n)$ over the [[classifying space]] of the [[orthogonal group]] of dimension $n$.
+
+The inclusions $O(n) \hookrightarrow O(n+1)$ induce a directed system of such spectra. The **Thom spectrum** is the [[colimit]]
+
+$$
+  M O := {\lim_\to}_n M O(n) 
+  \,.
+$$
+
+=--
 
 ## Properties
 
@@ -169,7 +201,7 @@ We check that this construction provides an inverse to $\Theta$.
 
 =--
 
-The [[homotopy equivalence]] $\Omega^\infty M O \simeq B Cob_\infty$ is the content of Galatius-Madsen-Tillmann-Weiss theorem, and is now seen as a part of the [[cobordism hypothesis]] theorem.
+The [[homotopy equivalence]] $\Omega^\infty M O \simeq B Cob_\infty$ is the content of [[Galatius-Madsen-Tillmann-Weiss theorem]], and is now seen as a part of the [[cobordism hypothesis]] theorem.
 
 ## Generalizations
 
@@ -178,6 +210,12 @@ Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$
 ## Cohomology
 
 Under the [[Brown representability theorem]] the Thom spectrum represents the [[generalized (Eilenberg-Steenrod) cohomology]] theory called [[complex cobordism cohomology theory|cobordism cohomology theory]].
+
+## Related concepts
+
+* [[Thom space]], [[Thom isomorphism]]
+
+* [[cobordism ring]]
 
 ## References
 
@@ -191,12 +229,10 @@ A review is in
 * [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)) 
 
   Lecture 3 _Thom's theorem_ (notes by A. Smith) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/3thom.pdf))
-{#Francis3}
 
-A remark of the relation of the Thom spectrum to [[(∞,n)-category of cobordisms]] for $n = \infty$ is in
-
-* [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)) 
+  A remark of the relation of the Thom spectrum to [[(∞,n)-category of cobordisms]] for $n = \infty$ is in:
 
   Lecture 2 _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
+  {#Francis3}
 
 
