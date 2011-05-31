@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 # Reduced suspension
 * table of contents
 {: toc}
@@ -36,4 +46,4 @@ For [[CW-complex]]es the reduced suspension is [[weak homotopy equivalence|weakl
 
 * [[suspension object]]
 
-  * **reduced suspension**
+  * [[suspension]], **reduced suspension**
