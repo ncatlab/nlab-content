@@ -19,14 +19,16 @@
 
 ## Idea
 
-For $H$ a [[multiplicative cohomology theory]], and $V \to X$ a [[vector bundle]] of rank $n$, which is $H$-[[orientation in generalized cohomology|orientable]], the **Thom isomorphism** is the isomorphism 
+For $H$ a [[multiplicative cohomology theory]], and $V \to X$ a [[vector bundle]] of rank $n$, which is $H$-[[orientation in generalized cohomology|orientable]], the **Thom isomorphism** is the [[isomorphism]] 
  
 $$
   (-) \cdot u : H^\bullet(X) \stackrel{\simeq}{\to} H^{\bullet + n}(Th(V))
   \,.
 $$
 
-from the cohomology of $X$ to the cohomology of the [[Thom space]] $Th(V$, induced by multiplication with a [[Thom class]] $u \in H^n(Th(V))$.
+from the [[cohomology]] of $X$ to the cohomology of the [[Thom space]] $Th(V$, induced by multiplication with a [[Thom class]] $u \in H^n(Th(V))$.
+
+We think of this from left to right as wedging with a generalized [[volume form]] on the fibers, and from right to left as performing [[fiber integration]].
 
 
 ## Applications
