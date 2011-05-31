@@ -50,6 +50,10 @@ $X$ is [[dense subspace|dense]] in $X^*$ iff $X$ is not already compact.  Note t
 $X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X$ is already both Hausdorff and [[locally compact space|locally compact]].
 
 
+## Related concepts
+
+* [[Thom space]]
+
 ## References
 
 * John Kelly, _General Topology_ (1975)
