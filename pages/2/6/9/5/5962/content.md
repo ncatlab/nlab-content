@@ -4,3 +4,5 @@ A topotally isotropic subspace of an [[inner product space]] is a sub-[[vector s
 An **isotropic subspace** of a [[symplectic vector space]] is a sub-[[vector space]] on which the [[symplectic form]] vanishes.
 
 A maximal isotropic subspace is called a [[lagrangian subspace]].
+
+The space of all isotropic subspaces of a given inner product space is called its [[isotropic Grassmannian]].
