@@ -90,6 +90,18 @@ Up to topological structure, the suspension of the $n$-[[sphere]] is the $(n+1)$
 
 Up to topological structure, the suspension of the $n$-[[simplex]] is the $(n+1)$-simplex, but now this is not very useful.  To study simplices, you should use the __cone__ functor instead, which is $\Lambda X = X \star 1$, where $1$ is the [[point]].
 
+## Related concepts
+
+* [[loop space object]], [[free loop space object]],
+
+  * [[delooping]]
+
+  * [[loop space]], [[free loop space]], [[derived loop space]]
+
+* [[suspension object]]
+
+  * **suspension**, [[reduced suspension]]
+
 
 ## References
 
