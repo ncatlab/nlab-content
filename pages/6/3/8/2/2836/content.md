@@ -59,7 +59,7 @@ This concept is dual to that of [[loop space object]].
 
 * **suspension object**
 
-  * [[reduced suspension]]
+  * [[suspension]], [[reduced suspension]]
 
 
 [[!redirects suspension object]]
