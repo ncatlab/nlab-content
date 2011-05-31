@@ -1,4 +1,9 @@
-##Idea
+
+# Reduced suspension
+* table of contents
+{: toc}
+
+## Idea
 
 If we take a [[pointed set|pointed space]] $(X,x_0)$, then its *reduced suspension* $\Sigma X$ is obtained by taking  the cylinder $I\times X$ and identifying the subspace $\{0,1\}\times X\cup I\times \{x_0\}$ to a point.  
 
@@ -6,11 +11,29 @@ If we take a [[pointed set|pointed space]] $(X,x_0)$, then its *reduced suspensi
 
 Compare the [[suspension]] $S X$, where there is no basepoint and only the ends of the cylinder are crushed.
 
-##Definition
+
+## Definition
+
 For a pointed space $(X,x_0)$,
 $$\Sigma X = (I\times X)/\{0,1\}\times X\cup I\times \{x_0\}$$
 
+This can also be thought of as forming $S^1\wedge X$, the  [[smash product]] of the [[circle]] (based at some point) with $X$: 
 
-##Remark
+$$
+  \Sigma X \simeq S^1 \wedge X
+$$
 
-This can also be thought of as forming $S^1\wedge X$ the  [[smash product]] of the circle (based at some point, thought of as $1$ in the unit circle in the complex plane) with $X$. 
+For [[CW-complex]]es the reduced suspension is [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary suspension: $\Sigma X \simeq S X$.
+
+
+## Related concepts
+
+* [[loop space object]], [[free loop space object]],
+
+  * [[delooping]]
+
+  * [[loop space]], [[free loop space]], [[derived loop space]]
+
+* [[suspension object]]
+
+  * **reduced suspension**
