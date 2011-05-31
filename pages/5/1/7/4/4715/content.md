@@ -13,18 +13,127 @@ by thin oriented rectangles (ribbons) and glueing them together at all vertices 
 
 ## Definition
 
-Set theoretically, a __ribbon graph__ is given by a finite set of half edges, equipped with two (unordered) [[partitions]]:
+The following definion of an ordinary [[graph]] is not the standard one used for ordinary graphs, but is easily seen to be equivalent to it, while being the right starting point for describing ribbon graphs.
 
-(i) into subsets which we call *vertices*; each with cardinality at least 3
++-- {: .num_defn}
+###### Definition
 
-(ii) into *pairs of half-edges* called *edges*
+A **[[graph]]** is a quadruple $(V, H, s, i)$, where
 
-and with a cyclic ordering of ("on") each vertex. Without a cyclic ordering, 
-we will just say graph. 
+* $V$ is a [[set]], called the **set of vertices**;
 
-The half-edges belonging to the same vertex are said to be *incident*. An edge is a *loop* if its constituent half-edges are incident. 
+* $H$ is a [[set]], called the **set of half-edges**
 
-## Further constructions
+* $s : H \to V$ is a [[function]], thought of as sending each half-edge to the vertex that it is _incident_ on;
+
+* $i : H \to H$ is a [[involution|involutive]] [[function]] without fixed points, thought of as sending each half-edge to its other half.
+
+The set of [[cycle]]s of $i$ is the set $E$ of full edges.
+
+A [[homomorphism]] of graphs is a pair of [[function]]s $V_1 \to V_2$ and $H_1 \to H_2$ commuting with the $i$- and $s$-maps.
+
+=--
+
+An edge is a *loop* if its constituent half-edges are incident on the same vertex. 
+
++-- {: .num_defn}
+###### Definition
+
+A **fat graph** or **ribbon graph** is a graph $(V,H,i,s)$ equipped with a [[bijection]] $\sigma : H \to H$ whose [[cycle]]s correspond to the sets $s^{-1}(v)$ of half-edges incident on vertices $v \in V$. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This means that on all sets $s^{-1}(v)$ of jointly incident half-edges there is induced a cyclic ordering.
+
+When drawing ribbon graphs on paper this cyclic ordering is identified with the ordering induced from the standard orientation of the plane.
+
+=--
+
+
+### Boundary of a fat graph
+
++-- {: .num_defn}
+###### Definition
+
+Write 
+
+$$
+  \partial : FatGraph \to Graph
+$$
+
+for the [[functor]] -- called the **boundary graph functor** -- that sends a fat graph $\Gamma = (V, H, s, i, \sigma)$ to the graph
+
+$$
+  \partial \Gamma = \left(
+     \coprod_{v \in V} \coprod_{h \in s^{-1}(v)} \{v_h\},\,
+     \coprod_{h \in H} \{h_0, h_1\},\,
+     s_{\partial_\Gamma},\,
+     i_{\partial_\Gamma}
+  \right)
+$$
+
+with $s_{\partial \Gamma}$ given by 
+
+$$
+  s_{\partial \Gamma}(h_0) = v_h
+$$
+
+$$
+  s_{\partial \Gamma}(h_1) = \sigma(v_h)
+$$
+
+and $i_{\partial \Gamma}$ given by
+
+$$
+  i_{\partial \Gamma}(h_0) = i(h)_1
+$$
+
+$$
+  i_{\partial \Gamma}(h_1) = i(h)_0
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The set of [[boundary]] components of $\Sigma_\Gamma$ is naturally identified with the [[cycle]]s of $\sigma \circ i : H \to H$, or equivalently with the cycles of $i \circ \sigma$.
+
+=--
+
+Write $S : FatGraph \to Graph$ for the evident [[forgetful functor]] sending fat graphs to their underlying graph.
+
++-- {: .num_prop}
+###### Proposition/Definition
+
+There is a [[natural transformation]]
+
+$$
+  c : \partial \to S
+$$
+
+from the boundary graph functor to the forgetful functor -- called the **collaps map**, whose components morphism on a fat graph $\Gamma$ sends on vertices
+
+$$
+  v_h \mapsto s(h)
+$$
+
+and on half-edges
+
+$$
+  h_{0,1} \mapsto h
+  \,.
+$$
+
+=--
+
+
+### Further constructions
 
 Given any edge $e$ in a graph $\Gamma$, 
 we can collapse it to a new graph $\Gamma/e$ by merging the two vertices
@@ -65,12 +174,6 @@ For the following we represent a fat graph by
 For $\Gamma$ a fat graph, write $\Sigma_\Gamma$ for the [[surface]] that it defines.
 
 
-+-- {: .num_prop}
-###### Proposition
-
-The [[boundary]] components of $\Sigma_\Gamma$ are naturally identified with the [[cycle]]s of $\sigma \circ i : H \to H$, as well as with the cycles of $i \circ \sigma$.
-
-=--
 
 +-- {: .num_prop}
 ###### Proposition
