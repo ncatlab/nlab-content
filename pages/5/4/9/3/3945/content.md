@@ -100,6 +100,7 @@ See [[derivator]] for general references about derivators, and also [[pointed de
 
 * Jens Franke, _Uniqueness theorems for certain triangulated categories with an Adams spectral sequence_, [K-theory archive](http://www.math.uiuc.edu/K-theory/0139/)
 
+* [[Moritz Groth]], _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
 
 [[!redirects stable derivators]]
 [[!redirects triangulated derivator]]
