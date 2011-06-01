@@ -2,14 +2,18 @@
 
 * [wikipedia entry](http://de.wikipedia.org/wiki/Shiing-Shen_Chern)
 
-## related $n$Lab entries
+## related entries
 
 * [[Chern-Weil theory]]
  
   * [[Chern-Weil homomorphism]]
 
+  * [[Chern-Gauss-Bonnet theorem]]
+
 * [[secondary characteristic class]]
 
   * [[Chern-Simons form]] 
+
+[[!redirects Chern]]
 
 category: people
