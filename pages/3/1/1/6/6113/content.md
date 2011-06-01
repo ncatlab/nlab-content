@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $X$ a [[pointed object|pointed]] [[topological space]], its **suspension spectrum** is [[spectrum]] $\Sigma^\infty X$, given as an [[Omega spectrum]]  whose degree $n$ space is the $n$-fold [[suspension]] of $X$:
+
+$$
+  (\Sigma^\infty X)_n = 
+  \left\{
+    \array{
+       \Sigma^n X & for n \geq 0
+       \\
+       * & for n \lt 0
+    }
+  \right.
+$$
+
+## Properties
+
+As an [[infinity-functor]] $\Sigma^\infty : Top_* \to Spec$ the suspension spectrum functor exhibits the [[stabilization]] of [[Top]].
+
+$$
+  (\Sigma^\infty \dashv \Omega^\infty) : 
+  Top_* \stackrel{\overset{\Sigma^\infty}{\leftarrow}}{\underset{\Sigma^\infty}{\to}}
+  Spec
+$$
+
+[[!redirects suspension spectra]]
