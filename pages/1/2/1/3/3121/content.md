@@ -101,4 +101,7 @@ has a [[left adjoint]]
 
 * stabilization is _not_ in general functorial. It's failure of being functorial, and approximations to it, are studied in [[Goodwillie calculus]].
 
+## Examples
+
+* For $C = $ [[Top]] the stabilization is the category [[Spec]] of [[spectra]]. The functor $\Sigma^\infty : Top_* \to Spec$  is that which forms [[suspension spectra]].
 
