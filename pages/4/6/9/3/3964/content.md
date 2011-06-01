@@ -349,6 +349,10 @@ The $Set_*$-enriched approach is taken as basic in
 
 * Jens Franke, _Uniqueness theorems for certain triangulated categories with an Adams spectral sequence_, [K-theory archive](http://www.math.uiuc.edu/K-theory/0139/)
 
+See also
+
+* [[Moritz Groth]], _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
+
 
 [[!redirects pointed derivators]]
 [[!redirects derivator with a zero object]]
