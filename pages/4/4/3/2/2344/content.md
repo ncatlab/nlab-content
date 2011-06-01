@@ -360,6 +360,11 @@ In the paper
 
 it is proven that the 2-category of "[[locally presentable category|locally presentable]]" derivators is equivalent to the [[localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].  Thus in some sense derivators capture "all the information" about a combinatorial model category, hence also about a [[locally presentable (∞,1)-category]].
 
+A discussion aimed towards [[stable derivator]]s is also in
+
+* [[Moritz Groth]], _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
+
+
 [[!redirects derivators]]
 [[!redirects prederivator]]
 [[!redirects prederivators]]
