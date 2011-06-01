@@ -957,3 +957,4 @@ Other references are
 
 [[!redirects homotopy limits]]
 [[!redirects homotopy colimit]]
+[[!redirects homotopy colimits]]
