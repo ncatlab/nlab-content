@@ -41,9 +41,16 @@ $$
   \,,
 $$
 
-where the first morphism is the projection onto the [[quotient]] [[topological space]] and the second is the canonical [[homeomorphism]] to the [[Thom space]] of the [[normal bundle]]. 
+where the first morphism is the projection onto the [[quotient]] [[topological space]] and the second is the canonical [[homeomorphism]] to the [[Thom space]] of the [[normal bundle]].
 
 =--
+
+Since every point of $N_i X$ is associated to a particular point of $X$, this map can be refined to a map
+
+$$ Y \to X_+ \wedge Th(N_i X) $$
+
+If $Y = S^n$ for some $n\in\mathbb{N}$, then this refined Thom collapse map induces a stable map $S \to \Sigma_+^\infty X \wedge \Sigma^{-n} Th(N_i X)$, where $S$ denotes the [[sphere spectrum]].  This stable map is the [[unit of an adjunction|unit]] which exhibits the [[suspension spectrum]] $\Sigma_+^\infty X$ as a [[dualizable object]] in the [[stable homotopy category]].  See [[n-duality]] and [[fixed point index]].
+
 
 ## Properties
 
