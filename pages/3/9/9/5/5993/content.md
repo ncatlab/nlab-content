@@ -19,7 +19,7 @@ The _Pfaffian_ $Pf(A) \in k$ is the element
 
 $$
   \frac{1}{2^n n!}  \sum_{\sigma \in S_{2n}} sgn(\sigma) \prod_{i = 1}^n 
-  A_{\sigma(2i -1), A_{\sigma(2i)}}
+  A_{\sigma(2i -1), \sigma(2i)}
   \,,
 $$
 
