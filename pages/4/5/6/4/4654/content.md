@@ -40,4 +40,10 @@
 * [[Chern-Simons form]]
 
 
+## Theorems
+
+* [[Chern-Weil homomorphism]]
+
+* [[Chern-Gauss-Bonnet theorem]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-Chern-Weil+theory+-+contents)</div>
