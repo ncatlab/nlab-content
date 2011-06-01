@@ -93,6 +93,11 @@ from [[equivalence class]]es of $G$-[[principal bundle]]s with [[connection on a
 
 =--
 
+## Examples
+
+* [[Gauss-Bonnet theorem]]
+
+(...)
 
 ## References
 
