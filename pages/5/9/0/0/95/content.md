@@ -16,13 +16,13 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Idea
 
-...
+Essentially another term for [[Euler characteristic]]. See there for more.
 
 ## Definition
 
