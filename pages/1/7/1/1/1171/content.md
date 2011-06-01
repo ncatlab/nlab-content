@@ -1,14 +1,14 @@
+
 # Convergence spaces
-* tic
+* table of contents
 {: toc}
 
-
-## Idea ##
+## Idea
 
 A convergence space is a generalisation of a [[topological space]] based on the concept of convergent [[filter]] (or [[net]]) as fundamental.  The basic concepts of point-set topology (continuous functions, compact and Hausdorff spaces, etc) make sense also for convergence spaces, although not all theorems hold.  The [[category]] of convergence spaces is a [[quasitopos]] and may be thought of as a [[nice category of spaces]] that includes [[Top]] as a [[full subcategory]].
 
 
-## Definitions ##
+## Definitions
 
 A __convergence space__ is a [[set]] $S$ together with a [[relation]] $\to$ from $\mathcal{F}S$ to $S$, where $\mathcal{F}S$ is the set of [[filters]] on $S$; if $F \to x$, we say that $F$ __converges__ to $x$ or that $x$ is a __limit__ of $F$.  This must satisfy some axioms:
 1. Centred: The principal ultrafilter $F_x = \{ A \;|\; x \in A \}$ at $x$ converges to $x$;
@@ -26,7 +26,7 @@ The morphisms of convergence spaces are the continuous functions; a function $f$
 Note that the definition of 'convergence' varies in the literature; at the extreme end, one could define it any relation from $\mathcal{F}S$ (or even from the class of all nets on $S$) to $S$ whatsoever, but that is so little structure as to be not very useful.  Here we follow the terminology of Lowen-Colebunders.
 
 
-## Examples ##
+## Examples
 
 In [[measure theory]], given a measure space $X$ and a measurable space $Y$, the space of almost-everywhere defined measurable functions from $X$ to $Y$ becomes a convergence space under convergence almost everywhere.  In general, this convergence space does not fit into any of the examples below.
 
@@ -51,7 +51,7 @@ In particular, the intersection of all of the filters converging to $x$ also con
 Any [[topological space]] is a convergence space, and in fact a pretopological one: we define $F \to x$ if every neighbourhood of $x$ belongs to $F$.  A convergence space is __topological__ if it comes from a topology on $S$.  The [[full subcategory]] of $Conv$ consisting of the topological convergence spaces is [[equivalence of categories|equivalent]] to the category [[Top]] of topological spaces.  In this way, the definitions below are all suggested by theorems about topological spaces.
 
 
-## Properties ##
+## Properties
 
 The improper filter (the [[power set]] of $S$) converges to every point.  On the other hand, a convergence space $S$ is __Hausdorff__ if every proper filter converges to at most one point; then we have a [[partial function]] $\lim$ from the proper filters on $S$ to $S$.  A topological space is Hausdorff in the [[Hausdorff space|usual sense]] if and only if it is Hausdorff as a convergence space.
 
@@ -60,7 +60,7 @@ A convergence space $S$ is __compact__ if every proper filter clusters at some p
 The topological convergence spaces can be characterized as the pseudotopological ones in which the convergence satisfies a certain "associativity" condition.  In this way one can (assuming the ultrafilter theorem) think of a topological space as a "[[generalized multicategory]]" parametrized by ultrafilters.  In particular, note that a compact Hausdorff pseudotopological space is defined by a single function $\mathcal{U}S \to S$, where $\mathcal{U}S$ is the set of ultrafilters on $S$, such that the composite $S \to \mathcal{U}S \to S$ is the identity.  That is, it is an [[algebra for an endofunctor|algebra]] for the [[pointed object|pointed]] [[endofunctor]] $\mathcal{U}$.  The compact Hausdorff _topological_ spaces (the [[compacta]]) are precisely the [[algebra for a monad|algebras]] for $\mathcal{U}$ considered as a [[monad]].
 
 
-## Topological structure ##
+## Topological structure
 
 Given a convergence space, a filter $F$ __star-converges__ to a point $x$ if every proper filter that refines $F$ clusters at $x$.  (Assuming the [[ultrafilter theorem]], $F$ star-converges to $x$ iff every ultrafilter that refines $F$ converges to $x$.)  The relation of star convergence makes any convergence space into a [[pseudotopological space]] with a weaker convergence.  In this way, $Ps Top$ becomes a [[reflective subcategory]] of $Conv$ over $Set$.
 
@@ -77,9 +77,16 @@ Given a convergence space, a set $G$ is __open__ if $G$ belongs to every filter 
 Other topological notions:  A set $F$ is __closed__ if $F$ meets every neighbourhood of every point that belongs to $F$, equivalently if $F$ equals its preclosure.  The __interior__ of $A$ is the union of all of the open sets contained in $A$; it is the largest open set contained in $A$.  The __closure__ of $A$ is the intersection of all of the closed sets that contain $A$; it is the smallest closed set that contains $A$.
 
 
-## References ##
+## References
 
 * Eva Lowen-Colebunders (1989). Function Classes of Cauchy Continuous Maps. Dekker, New York, 1989.
 
 
+[[!redirects convergence space]]
 [[!redirects convergence spaces]]
+[[!redirects convergence structure]]
+[[!redirects convergence structures]]
+[[!redirects convergence relation]]
+[[!redirects convergence relations]]
+[[!redirects convergence]]
+[[!redirects convergences]]
