@@ -1,19 +1,17 @@
-[[!redirects sequential space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea 
 
@@ -47,4 +45,8 @@ A __sequential topological space__ is a [[topological space]] $X$ such that a su
 
 * R. Engelking, _General topology_
 
+
+[[!redirects sequential topological space]]
+[[!redirects sequential topological spaces]]
+[[!redirects sequential space]]
 [[!redirects sequential spaces]]
