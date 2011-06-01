@@ -118,6 +118,8 @@ One realization of this kind of idea is the notion of [[combinatorial spectrum]]
 
 ## Examples 
 
+* [[suspension spectrum]]
+
 * [[sphere spectrum]]
 
 * [[Eilenberg-MacLane spectrum]]
@@ -145,5 +147,9 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 ### Model category structure
 
 * [[model structure on spectra]]
+
+## Related concepts
+
+* [[parametrized spectrum]]
 
 [[!redirects spectra]]
