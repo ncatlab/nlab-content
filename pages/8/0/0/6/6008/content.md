@@ -47,6 +47,7 @@ The [[derivative]] of $\hat i$ provides an [[isomorphism]] of $E$ with the [[nor
 
 ## Properties
 
+### General
 
 +-- {: .num_prop}
 ###### Proposition
@@ -75,6 +76,12 @@ If $X$ and $Y$ are [[compact space|compact]] [[manifold]]s, then $Tub(i)$ is [[c
 =--
 
 This appears as ([Godin, prop. 31](#Godin)).
+
+### Pullbacks of tubular neighbourhoods
+
+
+
+(...) propagating flow (...) ([Godin](#Godin)).
 
 
 ## References
