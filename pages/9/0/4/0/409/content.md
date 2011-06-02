@@ -42,5 +42,9 @@ Notice that this article says "$\infty$-groupoid" for _strict globular $\infty$-
 [[!redirects strict ∞-groupoid]]
 [[!redirects strict ∞-groupoids]]
 
+[[!redirects strict infinity-groupoid]]
+[[!redirects strict infinity-groupoids]]
+
+
 [[!redirects strict ∞-groupoid]]
 [[!redirects strict ∞-groupoids]]
