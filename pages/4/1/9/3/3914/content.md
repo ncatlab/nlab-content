@@ -261,9 +261,10 @@ The existence of an $H$-orientation is necessary in order to have a notion of [[
 
 ## References
 
-Orientation of vector bundles in $E$-cohomology is discussed for instance in
+A comprehesive account is in 
 
-* [[eom]], _[Orientation](http://eom.springer.de/o/o070200.htm)_
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+ {#ABGHR}
 
 The general abstract story of $E$-orientation of sphere fibrations is discussed in
 
@@ -271,5 +272,9 @@ The general abstract story of $E$-orientation of sphere fibrations is discussed 
 {#Hopkins}
 
 with an eye towards constructing the [[string structure]]-orientation of [[tmf]].
+
+Orientation of vector bundles in $E$-cohomology is discussed for instance in
+
+* [[eom]], _[Orientation](http://eom.springer.de/o/o070200.htm)_
 
 [[!redirects Thom class]]
