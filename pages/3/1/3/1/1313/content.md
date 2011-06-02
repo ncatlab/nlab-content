@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include monoidal categories - contents]]
 =--
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
 =--
 =--
 
