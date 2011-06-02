@@ -27,4 +27,9 @@ A survey is in the slides
 
 One application is [[twisted cohomology]]: instead of cocycles given by maps $X \to A$, twisted cocycles are given by [[section]]s $X \to P$ of a bundle $P \to X$ of spectra over $X$.
 
+A discussion of some of these issues using tools from [[(infinity,1)-category theory]] are in 
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ , section 7: _Parametrized spectra, units and Thom spectra via $\infty$-categories_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+ {#ABGHR}
+
 category: reference
