@@ -45,9 +45,11 @@
 
 * derived smooth geometry 
 
+  * [[differential geometry]], [[differential topology]]
+
   * [[derived smooth manifold]]
 
-  * [[∞-Lie groupoid]], [[∞-Lie algebroid]]
+  * [[smooth ∞-groupoid]], [[∞-Lie algebroid]]
 
 ## Theorems
 
