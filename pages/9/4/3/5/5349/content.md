@@ -34,3 +34,5 @@ We may define this rank explicitly (and [[recursion|recursively]]) as follows:
 $$ rank S = \bigcup_{x \in S} (rank x)^+ ,$$
 
 where $\bigcup$ is the [[supremum]] operation on ordinals (literally the [[union]] for [[von Neumann ordinals]]) and $(-)^+$ is the [[successor]] operation (which is $a \mapsto a \cup \{a\}$ for von Neumann ordinals).
+
+[[!redirects ranks]]
