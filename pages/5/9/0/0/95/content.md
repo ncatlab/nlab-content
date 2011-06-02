@@ -22,7 +22,11 @@
 
 ## Idea
 
-Essentially another term for [[Euler characteristic]]. See there for more.
+The _homotopy cardinality_ or _$\infty$-groupoid cardinality_ or of a (sufficiently "finite") [[space]] or [[∞-groupoid]] $X$ is an invariant of $X$ (a value assigned to its [[equivalence class]]) that generalizes the [[cardinality]] of a [[set]] (a [[0-truncated]] $\infty$-groupoid).
+
+Specifically, whereas cardinality counts elements in a set, the homotopy cardinality counts [[object]]s up to [[equivalence]]s, up to [[2-morphism|2-equivalence]]s, up to [[3-morphism|3-equivalence]], and so on.  
+
+This is closely related to the notion of [[Euler characteristic]] of a space or $\infty$-groupoid. See there for more details.
 
 ## Definition
 
@@ -119,6 +123,6 @@ This corresponds to what is referred to as the *total homotopy order of a space*
 K. Uhlenbeck, eds., Geometry and Quantum Field Theory , volume 1 of IAS/Park City Mathematics Series , AMS/IAS.
 
 [[!redirects ∞-groupoid cardinality]]
-
+[[!redirects homotopy cardinality]]
 
 [[!redirects infinity-groupoid cardinality]]
