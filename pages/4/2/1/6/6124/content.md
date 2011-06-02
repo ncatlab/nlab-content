@@ -1,0 +1,11 @@
+A matrix $A$ over the field of [[real numbers]] is __totally positive__ (resp. __totally nonnegative__) if every minor (= determinant of any submatrix) is a positive (resp. nonnegative) real number. Total positivity implies a number of remarkable properties; for example all eigenvalues are distinct and positive. George Lusztig discovered that __total positivity__ is closely related to some phenomena in the theory of [[Lie groups]] and [[quantum groups]].
+
+### Literature and related entries
+
+* [[cluster algebra]]
+* many lecture notes listed at a minicourse [page](http://www.math.lsa.umich.edu/~fomin/eidma.html) on total positivity
+* M. Skandera, _Introductory notes on total positivity_, [ps](http://www.math.lsa.umich.edu/~fomin/565/intp.ps), June 2003. 
+* Yuji Kodama, Lauren Williams, _KP solitons and total positivity for the Grassmannian_, [arxiv/1106.0023](http://arxiv.org/abs/1106.0023)
+
+
+[[!redirects total positivity]]
