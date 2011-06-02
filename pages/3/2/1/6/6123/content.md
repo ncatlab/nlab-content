@@ -1,0 +1,4 @@
+
+For $R$ a [[ring]], its _group of units_ $GL_1(R)$ is the [[group]] whose elements are the elements of $R$ that are invertible under the product, and whose group operation is the multiplication in $R$.
+
+For $R$ an [[ring spectrum]], its group of units is a [[spectrum]] $GL_1(R)$ (...)
