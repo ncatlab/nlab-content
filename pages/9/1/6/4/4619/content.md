@@ -21,4 +21,17 @@ Puiseux series were in essence considered by [[Isaac Newton]], who developed a m
 If $K$ is [[algebraically closed field|algebraically closed]] and has characteristic 0, then the field of Puiseux series over $K$ is the algebraic closure of the field of Laurent series over $K$. 
 =-- 
 
+
+## References
+
+* wikipedia [Puiseux series](http://en.wikipedia.org/wiki/Puiseux_series)
+
+For a noncommutative generalization see
+
+* D. Grigoriev, _Analogue of Newton-Puiseux series for non-holonomic D-modules and factoring_, Moscow Math. J. __9__, 2009, 775--800, [pdf](http://logic.pdmi.ras.ru/~grigorev/pub/puiseux_journal.pdf); MPIM2008-6, [pdf](http://www.mpim-bonn.mpg.de/preblob/3537)
+
+Other references
+
+* Jan Kiwi, _Puiseux series dynamics of Quadratic rational maps_,  [arxiv/1106.0059](http://arxiv.org/abs/1106.0059)
+
 (Proof or suitable reference to be inserted later.) 
