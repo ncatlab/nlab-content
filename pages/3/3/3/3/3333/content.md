@@ -11,6 +11,10 @@
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
 =--
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
 =--
 =--
 
