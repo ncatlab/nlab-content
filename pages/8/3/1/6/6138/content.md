@@ -1,0 +1,2 @@
+
+A [[function]] $f : X \to V$ on a [[topological space]] with values in a [[vector space]] $V$ has _compact support_ if the set $f^{-1}(\{0\}) \subset X$ is a [[compact space|compact subset]].
