@@ -1,0 +1,4 @@
+
+* [wikipedia entry](http://de.wikipedia.org/wiki/Dieter_Puppe)
+
+category: people
