@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -84,6 +83,10 @@ This appears as ([Godin, prop. 31](#Godin)).
 (...) propagating flow (...) ([Godin](#Godin)).
 
 
+## Related concepts
+
+* [[tubular neighbourhood of a mapping space]]
+
 ## References
 
 Basics on tubular neighbourhoods are for instance in section 3 of
@@ -103,5 +106,7 @@ For an analogue in homotopical algebraic geometry see
 see also
 
 * wikipedia [tubular neighborhood](http://en.wikipedia.org/wiki/Tubular_neighborhood)
+
+[[!redirects tubular neighbourhoods]]
 
 [[!redirects tubular neighbourhood theorem]]
