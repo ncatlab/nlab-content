@@ -191,3 +191,6 @@ $C^\infty(N,M;\{Q_i\},\{P_i\})$ is a smooth manifold.
 =--
 
 [[!redirects mapping spaces that are manifolds]]
+
+[[!redirects smooth mapping space]]
+[[!redirects smooth mapping spaces]]
