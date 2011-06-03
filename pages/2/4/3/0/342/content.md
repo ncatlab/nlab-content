@@ -55,14 +55,14 @@ Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as 
 
 As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq n + 1$ (but still allowing $r = 0$ for $n = - 2$).
 
-In terms of the standard notion of [[(∞,n)-categories]] we can make this precise as follows:
+For finite $r$, we can also define this inductively in terms of [[(∞,n)-categories]] as follows:
 
 +-- {: .num_defn}
 ###### Definition
 
 For $-2 \leq n \leq \infty$, an **[[(n,0)-category]]** is an [[∞-groupoid]] that is [[n-truncated]]: an [[n-groupoid]].
 
-For $0 \leq r \lt \infty$, an **(n,r)-category** is an [[(∞,n)-category|(∞,r)-category]] $C$ such that for all [[object]]s $X,Y \in C$ the $(\infty,r-1)$-categorical [[hom-object]] $C(X,Y)$ is an $(n-1,r-1)$-category.
+For $0 \lt r \lt \infty$, an **(n,r)-category** is an [[(∞,n)-category|(∞,r)-category]] $C$ such that for all [[object]]s $X,Y \in C$ the $(\infty,r-1)$-categorical [[hom-object]] $C(X,Y)$ is an $(n-1,r-1)$-category.
 
 =--
 
