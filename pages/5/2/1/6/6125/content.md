@@ -32,6 +32,14 @@ The _Whitney $C^k$ topology_ is a [[topology]] on the set $C^\infty(X,Y)$ of [[s
 
 Often, and espcially for $k = \infty$ this is just called the _$C^k$-topology_ .
 
+## Related concepts
+
+* [[topology of mapping spaces]]
+
+* [[differential topology of mapping spaces]]
+
+* [[compact-open topology]]
+
 
 ## References
 
