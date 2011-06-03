@@ -1,5 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
+
 # $2$-posets
-* tic
+* table of contents
 {: toc}
 
 
@@ -19,6 +32,14 @@ Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict
 * [[Rel]]
 
 Just as the motivating example of a $2$-category is the $2$-category [[Cat]] of categories, so the motivating example of a $2$-poset is the $2$-poset [[Pos]] of posets.
+
+## Related concepts
+
+* [[n-poset]]
+
+  * [[poset]]
+
+  * **2-poset**
 
 
 [[!redirects 2-posets]]
