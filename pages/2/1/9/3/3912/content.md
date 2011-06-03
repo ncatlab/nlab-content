@@ -74,8 +74,6 @@ A comprehensive general abstract account is in
 
 See also
 
-* R. Thom,   _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_  Comm. Math. Helv. , 28  (1954)  pp. 17&#8211;86
-
 * A. Dold, _Relations between ordinary and extraordinary homology_ , Colloq. Algebraic Topology, August 1&#8211;10, 1962 , Inst. Math. Aarhus Univ.  (1962)  pp. 2&#8211;9
 
 * Yu.B. Rudyak, _On the Thom&#8211;Dold isomorphism for nonorientable bundles_  Soviet Math. Dokl. , 22  (1980)  pp. 842&#8211;844  Dokl. Akad. Nauk. SSSR , 255 : 6  (1980)  pp. 1323&#8211;1325
