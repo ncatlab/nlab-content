@@ -33,6 +33,10 @@ The compact-open topology is most sensible when the topology of $X$ is [[locally
 
 ## Related concepts
 
+* [[topology of mapping spaces]]
+
+* [[differential topology of mapping spaces]]
+
 * [[C-k topology]]
 
 [[!redirects compact open topology]]
