@@ -43,6 +43,7 @@ An **$\infty$-Lie group** is accordingly a group object in [[∞-Lie groupoid]]s
 
 * **$\infty$-group**
 
+* [[looping and delooping]]
 
 ## Properties
 
