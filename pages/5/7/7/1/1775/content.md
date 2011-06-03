@@ -435,6 +435,10 @@ $$
 
 This appears as ([GoerssJardine, ch. V prop. 6.3](#GoerssJardine)).
 
+## Related concepts
+
+* [[looping and delooping]]
+
 ## References
 
 Groupoid objects in $(\infty,1)$-categories are the topic of section 6.1.2 in
