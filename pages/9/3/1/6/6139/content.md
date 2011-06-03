@@ -89,6 +89,10 @@ This is [[Ek-Algebras|EkAlg, theorem 1.3.16.]]
 
 =--
 
+### For cohesive $\infty$-groupoids
+
+A special case of the parameterized $\infty$-groupoids above are [[cohesive ∞-groupoid]]s. Looping and delooping for these is discussed at
+[[cohesive (∞,1)-topos -- structures]] in the section <a href="http://www.ncatlab.org/nlab/show/cohesive%20%28infinity,1%29-topos%20--%20structures#InfinGroups">Cohesive ∞-groups</a>.
 
 ### For $(\infty,n)$-categories
 
