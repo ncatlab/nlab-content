@@ -1,7 +1,7 @@
 
 There are at least two Alexander Rosenbergs (and one [[Jonathan Rosenberg]]) in mathematics: 
 
-* an (older) algebraist Alex or Alexander Rosenberg known from [[Hochschild-Kostant-Rosenberg theorem]] an many other articles in [[algebra]] 
+* algebraist Alex (Alexander) Rosenberg (1926-2007) known from [[Hochschild-Kostant-Rosenberg theorem]] an many other articles in [[algebra]] (cf. [notices](http://www.spelman.edu/~colm/alexnotices.html))
 
 * Alexander L. Rosenberg (or Sasha Rosenberg) currently a professor at [Kansas State University](http://www.math.ksu.edu).  
 
@@ -12,6 +12,8 @@ Rosenberg's coauthors in pure mathematics works are [[Valery Lunts]] and [[Maxim
 * video of msri lecture _Noncommutative schemes and spaces_ (Feb 2000) can be found at [msri](http://www.msri.org/publications/ln/msri/2000/interact/rosenberg/1/index.html)
 
 * A. L. Rosenberg, _Topics in noncommutative algebraic geometry, homological algebra and K-theory_, preprint MPIM Bonn 2008-57 [pdf](http://www.mpim-bonn.mpg.de/preblob/3589)
+
+* &#1040;. &#1051;. &#1056;&#1086;&#1079;&#1077;&#1085;&#1073;&#1077;&#1088;&#1075;, _&#1058;&#1077;&#1086;&#1088;&#1077;&#1084;&#1099; &#1076;&#1074;&#1086;&#1081;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086;&#1089;&#1090;&#1080; &#1076;&#1083;&#1103; &#1075;&#1088;&#1091;&#1087;&#1087; &#1080; &#1072;&#1083;&#1075;&#1077;&#1073;&#1088; &#1051;&#1080;_, &#1059;&#1052;&#1053;, 26:6(162) (1971), 253&#8211;254, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=5287&what=fullt&option_lang=rus), _&#1048;&#1085;&#1074;&#1072;&#1088;&#1080;&#1072;&#1085;&#1090;&#1085;&#1099;&#1077; &#1072;&#1083;&#1075;&#1077;&#1073;&#1088;&#1099; &#1085;&#1072; &#1082;&#1086;&#1084;&#1087;&#1072;&#1082;&#1090;&#1085;&#1099;&#1093; &#1075;&#1088;&#1091;&#1087;&#1087;&#1072;&#1093;_, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1089;&#1073;., 81(123):2 (1970), 176&#8211;184, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=sm&paperid=3368&what=fullt&option_lang=rus)
 
 * A. L. Rosenberg, _Almost quotient categories, sheaves and localizations_, 181 p. Seminar on supermanifolds __25__, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
 
