@@ -66,6 +66,64 @@ $$
 
 =--
 
+### Natural transformations and homotopies
+
++-- {: .num_prop #NaturalTrafoMapsToHomotopy}
+###### Proposition
+
+A [[natural transformation]] $\eta : F \Rightarrow G$ between two [[functor]]s $F, G : C \to D$ induces under geometry realization a [[homotopy]] $|\eta| : \vert F\vert \to \vert G \vert$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The natural transformation is equivalently a functor
+
+$$
+  \eta : C \times \{0 \to 1\} \to D
+  \,.
+$$
+
+SInce [[geometric realization]] of simplicial sets preserves products (see there) we have that $\vert C \times \{0,1\}\vert \simeq_{iso} \vert C \vert \times \vert \{0 \to 1\} \vert$. But this is a [[cylinder object]] in topological spaces, hence $\vert \eta \vert$ is a [[left homotopy]].
+
+=--
+
++-- {: .num_prop #RealizationWithTerminalObjectIsContractible}
+###### Proposition
+
+If a [[category]] $C$ has an [[initial object]] or a [[terminal object]], then its geometric realization is [[contractible]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Assume the case of a terminal object, the other case works dually. Write $*$ for the terminal category.
+
+Then we have an equality of functors
+
+$$
+  Id_* = (* \stackrel{\bottom}{\to} C \to *)
+  \,,
+$$
+
+where the first functor on the right picks the terminal object, and we have a [[natural transformation]]
+
+$$
+  Id_C \Rightarrow (C \to * \stackrel{\bottom}{\to} C)
+$$
+
+whose components are the unique morphisms into the terminal object. 
+
+By prop. \ref{NaturalTrafoMapsToHomotopy} it follows that we have a [[homotopy equivalence]] $\vert C \vert \to \vert * \vert = *$.
+
+=--
+
+### Categories and posets
+
+(...)
+
 ## References
 
 * Jonathan Ariel Barmak, _On Quillen's Theorem A for posets_ ([arXiv:1005.0538](http://arxiv.org/abs/1005.0538))
