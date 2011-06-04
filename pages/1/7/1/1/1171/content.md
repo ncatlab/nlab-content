@@ -1,4 +1,3 @@
-
 # Convergence spaces
 * table of contents
 {: toc}
@@ -57,7 +56,7 @@ The improper filter (the [[power set]] of $S$) converges to every point.  On the
 
 A convergence space $S$ is __compact__ if every proper filter clusters at some point; that is, every proper filter is contained in a convergent proper filter.  Equivalently (assuming the [[ultrafilter theorem]]), $S$ is compact iff every ultrafilter converges.  A topological space is compact in the [[compact space|usual sense]] if and only if it is compact as a convergence space.
 
-The topological convergence spaces can be characterized as the pseudotopological ones in which the convergence satisfies a certain "associativity" condition.  In this way one can (assuming the ultrafilter theorem) think of a topological space as a "[[generalized multicategory]]" parametrized by ultrafilters.  In particular, note that a compact Hausdorff pseudotopological space is defined by a single function $\mathcal{U}S \to S$, where $\mathcal{U}S$ is the set of ultrafilters on $S$, such that the composite $S \to \mathcal{U}S \to S$ is the identity.  That is, it is an [[algebra for an endofunctor|algebra]] for the [[pointed object|pointed]] [[endofunctor]] $\mathcal{U}$.  The compact Hausdorff _topological_ spaces (the [[compacta]]) are precisely the [[algebra for a monad|algebras]] for $\mathcal{U}$ considered as a [[monad]].
+The topological convergence spaces can be characterized as the pseudotopological ones in which the convergence satisfies a certain "associativity" condition.  In this way one can (assuming the ultrafilter theorem) think of a topological space as a "[[generalized multicategory]]" parametrized by ultrafilters.  In particular, note that a compact Hausdorff pseudotopological space is defined by a single function $\mathcal{U}S \to S$, where $\mathcal{U}S$ is the set of ultrafilters on $S$, such that the composite $S \to \mathcal{U}S \to S$ is the identity.  That is, it is an [[algebra for an endofunctor|algebra]] for the [[pointed object|pointed]] [[endofunctor]] $\mathcal{U}$.  The compact Hausdorff _topological_ spaces (the [[compacta]]) are precisely the [[algebra for a monad|algebras]] for $\mathcal{U}$ considered as a [[monad]].  If we treat $\mathcal{U}$ as a monad on [[Rel]], then the [[lax algebras]] are the topological spaces in their guise as [[relational beta-modules]].
 
 
 ## Topological structure
@@ -74,7 +73,7 @@ Other pretopological notions:  The __preinterior__ of a set $A$ is the set of al
 
 Given a convergence space, a set $G$ is __open__ if $G$ belongs to every filter that converges to any point in $G$, or equivalently if $G$ equals its preinterior.  The class of open sets makes any convergence space into a [[topological space]], although the topological convergence is weaker in general.  In this way, $Top$ is a [[reflective subcategory]] of $Conv$ (and in fact of $Ps Top$ and $Pre Top$) over $Set$.
 
-Other topological notions:  A set $F$ is __closed__ if $F$ meets every neighbourhood of every point that belongs to $F$, equivalently if $F$ equals its preclosure.  The __interior__ of $A$ is the union of all of the open sets contained in $A$; it is the largest open set contained in $A$.  The __closure__ of $A$ is the intersection of all of the closed sets that contain $A$; it is the smallest closed set that contains $A$.
+Other topological notions:  A set $F$ is __closed__ if $F$ meets every neighbourhood of every point that belongs to $F$, equivalently if $F$ equals its preclosure.  The __interior__ of $A$ is the union of all of the open sets contained in $A$; it is the largest open set contained in $A$.  The __closure__ of $A$ is the intersection of all of the closed sets that contain $A$; it is the smallest closed set that contains $A$.  (For a topological convergence space, the interior and closure match the preinterior and preclosure.)
 
 
 ## References
