@@ -1,0 +1,40 @@
+## Definition. 
+
+Given a [[locally compact topological group]] $G$, a system of imprimitivity on $G$ consists of a
+
+* unitary representation $\rho: G\to U(H)$ on a Hilbert space $H$
+
+* a locally compact Hausdorff space $X$ with continuous left $G$-action
+
+* a regular [[projection-valued measure]] $P:B(X)\to End H$ where $B(X)$ is the Borel $\sigma$-algebra of $X$
+
+such that 
+
+$$
+\rho(g)P(E)\rho(g)^{-1} = P(gE)
+$$
+
+for all $g\in G$ and $E\in B(X)$. 
+
+#### An approach via $\ast$-representations
+
+In the above definition, one can replace the projection-valued measure $P$ by a $\ast$-representation $M : C_0(X)\to H$ of the $C^\ast$-algebra $C_0(X)$ by defining $M(f) = \int f dP$, then 
+$$
+\rho(g)M(f)\rho(g^{-1}) = M(L_g f), \,\,\,\,L_g(f)(x) := f(g^{-1}x).
+$$
+On the other hand, any $M$ satisfying this property defines a regular projection-valued measure as above. 
+
+
+#### Extensions
+
+Remark: A possible extension is to replace $X$ by a measurable space with a measurable left action of $G$.
+
+## Applications
+
+This concept is important in Mackey machinery and in the applications to the study of coherent states and Berezin quantization.
+
+## Literature and related entries
+
+* sec. 6.4 in: Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Adv. Math. CRC Press 1995
+
+[[!redirects systems of imprimitivity]]
