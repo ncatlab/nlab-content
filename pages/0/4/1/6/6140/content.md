@@ -1,4 +1,26 @@
-An __operator topology__ is an abbreviation of a __topology on a space of (continuous linear) operators__ between [[topological vector space]]s over a fixed field $k$ of reals or complexes (possibly also p-adics, skewfield of quaternions etc.). In other words the hom-sets in the category of topological vector spaces as objects and continuous linear operators as morphisms are equipped with an operator topology.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+An __operator topology__ is an abbreviation of a __[[topology]] on a space of (continuous linear) [[linear operator|operator]]s__ between [[topological vector space]]s over a fixed [[field]] $k$ of [[real number|reals]] or [[complex number|complexes]] (possibly also p-adics, skewfield of [[quaternions]] etc.). In other words the [[hom-sets]] in the category of topological vector spaces as objects and continuous linear operators as morphisms are equipped with an operator topology.
 
 There are many widely used topologies, some with standard names. Let $L(V,W) = Hom_{TVS}(V,W)$ be the set of continuous linear operators. 
 
@@ -15,7 +37,7 @@ $$
 
 * __ultraweak operator topology__ ...
 
-### Links and literature
+## Links and literature
 
 * A. A. Kirillov, A. D. Gvi&#353;iani, &#1058;&#1077;&#1086;&#1088;&#1077;&#1084;&#1099; &#1080; &#1079;&#1072;&#1076;&#1072;&#1095;&#1080; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072; (theorems and exercises in functional analysis), Moskva, Nauka 1979, 1988
 
