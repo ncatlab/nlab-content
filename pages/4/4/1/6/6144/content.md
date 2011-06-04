@@ -1,0 +1,13 @@
+If $X$ is a [[locally compact group|locally compact]] [[Hausdorff topological space]] __Radon measure__ on $X$ is a [[Borel measure]] on $X$ that is 
+
+* finite on all compact sets,
+
+* outer regular on all Borel sets (i.e. can be approximated from outside by measure on the open sets), and
+
+* inner regular (i.e. can be approximated from inside by measure on compacts) on open sets. 
+
+If a Radon measure is $\sigma$-finite then it is regular (i.e. both inner and outer regular) on all Borel subsets. Left (right) [[Haar measure]] on a [[locally compact topological group]] is a nonzero Radon measure which is invariant under left (right) multiplications by elements in the group. 
+
+### Literature and related entries
+
+* Gerald B. Folland, A course in abstract harmonic analysis, Studies in Adv. Math. CRC Press 1995
