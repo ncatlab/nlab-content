@@ -166,7 +166,7 @@ $$
 
 given by the [[FQFT]] corresponding to the $\sigma$-modelon these state spaces, acting on these state spaces.
 
-The identification of string topology with a topological field theory was proved in ([Tamanoi07](#Tamanoi07)). The [[extended quantum field theory|extended]] [[TCFT]] version of this which is suggested by ([Costello](#Costello)) and ([Lurie](#Lurie)) (see towards the end) was essentially worked out in detail in ([Godin](#Godin)). More details on all this are in ([Kuipers](#Kuipers)).
+The identification of string topology with a topological field theory was proved in ([Tamanoi07](#Tamanoi07)). The [[extended quantum field theory|extended]] [[TCFT]] version of this which is suggested by ([Costello](#Costello)) and ([Lurie](#Lurie)) (see towards the end) was essentially worked out in detail in ([Godin](#Godin)). More details on all this are in ([Kupers](#Kupers)).
 
 ### Closed string TQFT
 
@@ -186,7 +186,7 @@ structure of a $d$-dimensional [[HCFT]] with _positive boundary_ and set of [[br
 
 =--
 
-For a single [[brane]] $\mathcal{B} = \{*\}$ this was shown in ([Godin](#Godin)), where the general statement is conjectured. The detailed proof for the general statement is in ([Kuipers](#Kuipers)).
+For a single [[brane]] $\mathcal{B} = \{*\}$ this was shown in ([Godin](#Godin)), where the general statement is conjectured. The detailed proof for the general statement is in ([Kupers](#Kupers)).
 
 ## Related concepts
 
@@ -233,8 +233,8 @@ it is suggested (see example 4.2.16, remark 4.2.17) that there should be an [[ex
 
 More details on all this, as well as the generalization to multiple [[D-brane]]s is discussed in
 
-* [[Sander Kuipers]], _String topology operations_ MS thesis (2011)
- {#Kuipers}
+* [[Sander Kupers]], _String topology operations_ MS thesis (2011)
+ {#Kupers}
 
 Also
 
