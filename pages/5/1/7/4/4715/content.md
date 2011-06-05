@@ -242,7 +242,7 @@ where again on the right the [[coproduct]] ranges over [[isomorphism class]]es o
 
 =--
 
-This has been shown in ([Godin](#Godin)). One of the $B U(1)$-summands is also produced in ([Igusa02](#Igusa02)). A detailed complete proof appears as ([Kuipers, theorem 3.59](#Kuipers)).
+This has been shown in ([Godin](#Godin)). One of the $B U(1)$-summands is also produced in ([Igusa02](#Igusa02)). A detailed complete proof appears as ([Kupers, theorem 3.59](#Kupers)).
 
 
 ## Related concepts
@@ -291,7 +291,7 @@ Society, 2002.
 
 A survey is in chapter 3 of 
 
-* [[Sander Kuipers]], _String topology operations_ MSc thesis (2011)
+* [[Sander Kupers]], _String topology operations_ MSc thesis (2011)
 
 Some discussion is at
 
