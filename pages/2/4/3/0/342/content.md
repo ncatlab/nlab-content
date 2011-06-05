@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Higher category theory
-+--{: .hide}
++-- {: .hide}
 [[!include higher category theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -26,7 +25,7 @@ Put another way: given a sequence of (higher) categories $C_0, C_1, ..., C_n$ in
 
 So $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering all of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(infinity,n)-category|categories]].
 
-+--{.query}
++-- {: .query}
 [[Eric]]: What is the category of all (small) $(n,r)$-categories? An $(n+1,r+1)$-category?
 
 [[Urs Schreiber]]: yes, that should be right. Roughly the argument is that a $(k+1)$-morphism of $(n,r)Cat$ is a [[(n,k)-transformation]]:
@@ -42,11 +41,11 @@ So $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]]
 So $(n,r)Cat$ is an $(n+1)$-category. 
 
 The invertibiliy of the $(n,k)$-transformations is that of their components which are $(\ell \geq k)$-morphisms in the target $n$-category $D$. So if all $(\ell \gt r)$-morphisms in $D$ are invertible, then so are all $(n,\ell \gt r)$-transformations between $C$ and $D$ hence all $(\ell \gt r+1)$-morphisms in $(n,r)Cat$. So $(n,r)Cat$ is an $(n+1,r+1)$-category.
-
 =--
 
+
 ## Definition
- {#Definition}
+{#Definition}
 
 Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as you like), then an **$(n,r)$-category** can be defined to be an $\infty$-category such that
 
@@ -55,17 +54,17 @@ Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as 
 
 As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq n + 1$ (but still allowing $r = 0$ for $n = - 2$).
 
-For finite $r$, we can also define this inductively in terms of [[(∞,n)-categories]] as follows:
+For finite $r$, we can also define this inductively in terms of [[(∞,r)-categories]] as follows:
 
 +-- {: .num_defn}
 ###### Definition
 
 For $-2 \leq n \leq \infty$, an **[[(n,0)-category]]** is an [[∞-groupoid]] that is [[n-truncated]]: an [[n-groupoid]].
 
-For $0 \lt r \lt \infty$, an **(n,r)-category** is an [[(∞,n)-category|(∞,r)-category]] $C$ such that for all [[object]]s $X,Y \in C$ the $(\infty,r-1)$-categorical [[hom-object]] $C(X,Y)$ is an $(n-1,r-1)$-category.
-
+For $0 \lt r \lt \infty$, an **(n,r)-category** is an [[(∞,r)-category]] $C$ such that for all [[object]]s $X,Y \in C$ the $(\infty,r-1)$-categorical [[hom-object]] $C(X,Y)$ is an $(n-1,r-1)$-category.
 =--
 
+(Even for $r = \infty$, this definition makes sense, taking $\infty - 1$ to be $\infty$, as long as we know that an $(-1,\infty)$-category is the same thing as a $(-1,0)$-category.  But this may be overkill.)
 
 You can also start with a notion of $n$-[[n-poset|poset]], then define an $(n,r)$-category to be an $(n+1)$-poset such that any $j$-morphism is an [[equivalence]] for $j \gt r$. Or, for $r \leq n$, you can start with a notion of $n$-[[n-category|category]], then define an $(n,r)$-category to be an $n$-category such that any $j$-morphism in an [[equivalence]] for $j \gt r$.
 
