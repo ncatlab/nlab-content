@@ -163,23 +163,18 @@ In particular, the reg/lex completion is a left adjoint to the [[forgetful funct
 Regular categories of the form $C_{reg/lex}$ for a lex category $C$ can be characterized as those regular categories in which every object admits both a regular epi from a projective object and a monomorphism into a projective object, and the projective objects are closed under finite limits.  In this case $C$ can be recovered as the subcategory of projective objects.  In fact, the construction of $C_{reg/lex}$ can be extended to categories having only [[weak finite limits]], and the regular categories of the form $C_{reg/lex}$ for a "weakly lex" category $C$ are those satisfying the first two conditions but not the third.
 
 When the reg/lex completion is followed by the [[ex/reg completion]] which completes a regular category into an [[exact category|exact one]], the result is unsurprisingly the [[ex/lex completion]].  See [[regular and exact completions]] for more about all of these operations.
+ 
+## References and related pages
 
-## Related pages
+Related classes of 1-categories: [[exact category]], [[coherent category]], [[pretopos]]
 
-* **regular category**
-* [[exact category]]
-* [[coherent category]]
-* [[pretopos]]
+Related classes of higher categories: [[regular 2-category]], [[regular derivator]], [[regular (∞,1)-category]]
 
-* [[regular 2-category]]
-* [[regular derivator]]
-* [[regular (∞,1)-category]]
-
-## References
+Other related pages: [[Barr embedding theorem]]
 
 Regular categories were introduced by Barr in
 
-* [[Michael Barr]],  _Exact categories_,  Lecture Notes in Mathematics, Springer-Verlag 1971
+* [[Michael Barr]],  _Exact categories_,  Lec. Notes in Math. __236__, Springer-Verlag 1971, 1-119
 
 and by Grillet in the same volume of Lecture Notes in Mathematics.
 
@@ -198,5 +193,9 @@ An application of the regularity condition is found in the paper
 
 Knop's condition for regularity is slightly different from that presented here; he works with categories that when augmented by an absolutely initial object are regular in the terminology here.  In the paper, Knop generalizes a construction of Deligne by showing how to construct a symmetric pseudo-abelian [[tensor category]] out of a regular category through the calculus of relations.
 
+Enriched generalization of regular categories is considered in
 
+* B. Day, R. Street, _Localisation of locally presentable categories_, J. Pure and Appl. Algebra __58__ (1989) 227-233.
+
+* Dimitri Chikhladze, _Barr's embedding theorem for enriched categories_, J. Pure Appl. Alg. __215__, n. 9 (2011) 2148-2153, [arxiv/0903.1173](http://arxiv.org/abs/0903.1173), [doi](http://dx.doi.org/10.1016/j.jpaa.2010.12.004)
 [[!redirects regular categories]]
