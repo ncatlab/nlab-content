@@ -460,7 +460,7 @@ This Hopf-direction has been advanced by many authors including
 
 A generalization of several classical reconstruction theorems with nontrivial [[functional analysis]] is in 
 
-* [[Alexander Rosenberg|Alexander L. Rosenberg]],  _Reconstruction of groups_, Selecta Math. (N.S.) __9__, 1 (2003), 101--118, [doi](http://dx.doi.org/10.1007/s00029-003-0322-x).
+* [[Alexander Rosenberg|Alexander L. Rosenberg]],  _[[Reconstruction of Groups|Reconstruction of groups]]_, Selecta Math. (N.S.) __9__, 1 (2003), 101--118, [doi](http://dx.doi.org/10.1007/s00029-003-0322-x).
 
 Categorically oriented notes were written also by Pareigis, emphasising on using [[coend|Coend]] in dual picture. His works can be found [here](http://www.mathematik.uni-muenchen.de/~pareigis/pa_schft.html) but the most important is the chapter 3 of his online book
 
