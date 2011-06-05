@@ -1,0 +1,5 @@
+__Paul Balmer__ is a mathematician working in algebraic geometry, homotopy theory and category theory. 
+
+* [web](http://www.math.ucla.edu/~balmer)
+
+[[!redirects P. Balmer]]
