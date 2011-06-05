@@ -24,6 +24,6 @@ One can also consider categories enriched over a locally finitely presentable cl
 
 Its main results is 
 
-> Theorem 10. For a small regular $V$-category $C$ there exists a small category $T$ and a regular fully faithful functor $E : C &#8594; [T, V]$.
+> Theorem 10. For a small regular $V$-category $C$ there exists a small category $T$ and a regular fully faithful functor $E : C \longrightarrow [T, V]$.
 
 [[!redirect Barr's embedding theorem]]
