@@ -39,4 +39,10 @@ The compact-open topology is most sensible when the topology of $X$ is [[locally
 
 * [[C-k topology]]
 
+* [Funny Quotes](http://bit.ly/dt3ruz)
+
+* [Nursery Rhymes](http://itshumour.blogspot.com/2009/07/funny-nursery-rhymes-remixed.html)
+
+* [Hilarious Quotes](http://itshumour.blogspot.com/2009/09/top-10-hilarious-quotes.html)
+
 [[!redirects compact open topology]]
