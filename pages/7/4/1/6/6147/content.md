@@ -8,3 +8,9 @@ The original theorem is (in two independent and different formulations) stated a
 For a textbook treatment see
 
 * E. Hewitt, K. A. Ross, _Abstract harmonic analysis_, 2 vols. 
+
+See also
+
+* [[Alexander Rosenberg|A. L. Rosenberg]], _[[Reconstruction of groups|Reconstruction of groups]]_ , Selecta Math. N.S. 9:1 (2003) doi
+
+[[!redirects Tannaka-Krein duality]]
