@@ -129,3 +129,5 @@ $$
 
 [[!redirects homology group]]
 [[!redirects homology groups]]
+
+[[!redirects generalized homology]]
