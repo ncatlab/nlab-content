@@ -18,7 +18,7 @@
 >One of my early Honours students at [[Macquarie University]] baffled his proposed Queensland graduate studies supervisor who asked whether the student knew the definition of a [[topological space]]. The aspiring researcher on [[dynamical system]]s answered positively: "Yes, it is a relational $\beta$-module!"  I received quite a bit of flak from colleagues concerning that one; but the student [[Peter Kloeden]] went on to become a full professor of mathematics in Australia then Germany.
 ---[[Ross Street]], in _[[An Australian conspectus of higher categories]]_
 
-In 1970, [[Michael Barr]] gave an abstract definition of [[topological space]] based on a notion of [[convergence]] between [[ultrafilters]] (building on work by [[Ernest Manes]] on [[compact Hausdorff spaces]]).   Succinctly, Barr defined topological spaces as 'relational $\beta$-modules'.  Here we unpack this definition and examine its properties.
+In 1970, [[Michael Barr]] gave an abstract definition of [[topological space]] based on a notion of [[convergence]] between [[ultrafilters]] (building on work by [[Ernest Manes]] on [[compact Hausdorff spaces]]).   Succinctly, Barr defined topological spaces as 'relational $\beta$-modules'.  It was subsequently realized that this was a special case of the notion of [[generalized multicategory]].  Here we unpack this definition and examine its properties.
 
 The correctness of this definition (in the sense of matching [[Bourbaki]]\'s definition) is equivalent to the [[ultrafilter principle]] ($UP$).  However, the definition can be treated on its own, even in a context without $UP$.  So we also consider the properties of relational $\beta$-modules when these might not match Bourbaki spaces.
 
@@ -37,6 +37,8 @@ This functor $\beta$ becomes a [[monad]] on $Rel$ and even on $Set$ as follows:
 
 Then a __relational $\beta$-module is a [[lax algebra]] (module) of $\beta$ on the [[2-poset]] $Rel$.
 
+Arguably, it is better to consider $Rel$ as a [[proarrow equipment]] in this construction; otherwise it is difficult to extract the notion of [[continuous function]] between topological spaces.  See [[generalized multicategory]].
+
 
 ### Concrete
 
@@ -47,6 +49,8 @@ To explain this rule, we first define a [[subset]] $A$ of $S$ to be __[[open sub
 *  $\mathcal{U} \to x$ if $A \in \mathcal{U}$ whenever $A$ is open and $x \in A$.
 
 ...
+
+This definition exhibits a topological space as a particular type of [[pseudotopological space]].  (A pseudotopological space is just a relational $\beta$-module which omits the "associativity" axiom.)
 
 
 ## Properties
@@ -71,7 +75,7 @@ So ultrafilters behave very much like hyperpoints.  This is not to say that ultr
 
 If $\beta$ is treated as a monad on $Set$ instead of on $Rel$, then its algebras are the [[compacta]] (the compact Hausdorff spaces), again assuming $UF$.
 
-There should be an analogous treatment of [[uniform spaces]] based on an [[equivalence relation]] between ultrafilters.  (In nonstandard analysis, this becomes a relation $\approx$ of infinite closeness between hyperpoints.)
+One might hope that there would be an analogous treatment of [[uniform spaces]] based on an [[equivalence relation]] between ultrafilters.  (In nonstandard analysis, this becomes a relation $\approx$ of infinite closeness between hyperpoints.)  The description in terms of generalized multicategories is known to generalize to a description of uniform spaces, but rather than using relations between ultrafilters, this description uses pro-relations between points.
 
 
 [[!redirects relational beta-module]]
