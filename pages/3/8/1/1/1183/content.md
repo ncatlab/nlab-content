@@ -716,7 +716,7 @@ for the moment see the discussion at
 Chas and Sullivan famously noticed, that the [[homology group]]s of the [[free loop space]] $L X$ of a [[compact space|compact]] [[orientation|oriented]] [[smooth manifold]] $X$ are equipped with an interesting paring operation
 
 $$
-  H_\bullet(L X) \otimes H_\bullet(L X) \to H_{bullet - dim X}(L X)
+  H_\bullet(L X) \otimes H_\bullet(L X) \to H_{\bullet - dim X}(L X)
 $$
 
 that generalizes the [[Goldman bracket]] on $H_0(L X) \simeq F \pi_1(X)$. Since this operation is induced from concatenating loops, they called it the _string product_ . Its study has come to be known as [[string topology]], now a branch of [[differential topology]].
@@ -737,14 +737,14 @@ $$
   \array{
      && X^{\Sigma}
      \\
-     & \swarrow && \searrow
+     & {}^{\mathllap{X^{in}}}\swarrow && \searrow^{\mathrlap{X^{out}}}
      \\
     X^{\partial_{in} \Sigma} &&&& X^{\partial_{out} \Sigma}
   }
   \,.
 $$
 
-For $\Sigma \simeq S^1 \vee S^1$ the 3-holed sphere with two incoming and one outgoing circle, ths would describe an operation on string states induced by the merging of two closed strings to a single one
+For $\Sigma \simeq S^1 \vee S^1$ the 3-holed sphere with two incoming and one outgoing circle, this would describe an operation on string states induced by the merging of two closed strings to a single one
 
 $$
   H_\bullet(X^{S^1 \coprod S^1})
@@ -764,7 +764,7 @@ In the context of our discussion of $\sigma$-models, we would want to refine thi
 
 Given that the string topology [[TCFT]] itself has not been fully identified yet, we cannot expect a complete answer to this at the moment, but we will discuss some crucial ingredients that are available. 
 
-Notaby we can first ignore the dynamics of the system, just consider the kinematics and ask the simple question: _which quantum $\sigma$-models on $X$ have [[(∞,n)-vector space]]s of [[states]] whose [[decategorification]] are graded [[homology group]]s $H_\bullet(X^{\partial \Sigma})$ of mapping spaces of $X$?
+Notably we can first ignore the dynamics of the system, just consider the kinematics and ask the simple question: _which quantum $\sigma$-models on $X$ have [[(∞,n)-vector space]]s of [[states]] whose [[decategorification]] are graded [[homology group]]s $H_\bullet(X^{\partial \Sigma})$ of mapping spaces of $X$?_
 
 The answer to this question is more more transparent after we formulate the question in more generality: as observed by Cohen and Godin in their _[[A Polarized View of String Topology]]_ , we may assume without restriction that the [[homology group]]s here are with respect to the [[generalized homology]] with coefficients in any [[E-∞ ring|commutative ∞-ring]] $K$ (as long as this is an "$\infty$-field" and as long as $X$ is $K$-[[orientation in generalized cohomology|oriented]]):
 
