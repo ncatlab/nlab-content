@@ -91,7 +91,9 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 
 * [[principal ∞-bundle]] / [[associated ∞-bundle]]
 
-* [[n-vector bundle]]
+* [[vector bundle]]
+
+* [[(∞,1)-vector bundle]] / **$(\infty,n)$-vector bundle**
 
 
 
