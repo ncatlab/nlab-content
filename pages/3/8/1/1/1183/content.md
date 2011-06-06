@@ -854,7 +854,8 @@ For our discussion here this means that Cohen-Godin's finding that the string to
 Recall that if we interpret such an $K$-line bundle as a [[background gauge field]] for a $\sigma$-model, then for $\Sigma$ any [[cobordism]] the corresponding [[(∞,1)-vector space]] of states assigned to, say, the incoming boundary $\partial_{in} \Sigma$ is defined to be the $\infty$-vector space of sections of the [[transgression]] of this $\infty$-vector bundle to the [[mapping space]]. The transgression of a trivial bundle is again the trivial bundle. And the $\infty$-vector space of (co)sections is, in the discrete case,  as we had discussed [above](ExpositionQuantization), the [[(∞,1)-colimit]]
 
 $$
-  \Gamma_{\partial_{in} \Sigma} := 
+  \Gamma_{\partial_{in} \Sigma} 
+    := 
   \lim_\to(\Pi X^{\partial_{in} \Sigma} \to S Line \to  K Mod )
   \,.
 $$
@@ -871,7 +872,28 @@ $$
 
 This is hence the $\infty$-vector space of states over $\partial_{in} \Sigma$ assigned by a $\sigma$-model with [[background gauge field]] a $K$-line $\infty$-bundle over a $K$-oriented [[target space]]. 
 
-Its [[decategorification]] is precisely the tower of homology groups of $X$:
+Notice that for $K = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]] for the [[integer]]s, we have an equivalence
+
+$$
+  H \mathbb{Z} Mod \simeq Ch_\bullet
+$$
+
+and in fact
+
+$$
+  H \mathbb{Z} Alg \simeq dgAlg_{\mathbb{Z}}
+$$
+
+betwee the [[(∞,1)-category]] of $H \mathbb{Z}$-[[module spectra]]/$H \mathbb{Z}$-[[algebra spectra]] (see there for details on this equivalence) and the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by the [[model structure on chain complexes]]/[[model structure on dg-algebras|on dg-algebras]]. Under this equivalence the above [[module spectrum]]-space of states over the circle is identified with the ordinary integral homology chain complex
+
+$$
+  (\Sigma^\infty X^{S^1}) \wedge K
+  \sim
+  C_\bullet(X^{S^1})
+  \,.
+$$
+
+The "[[decategorification]]" of this $\infty$-vector space of states is precisely the tower of homology groups of $X$:
 
 $$
   \pi_\bullet(\Gamma_{\partial \Sigma}) = H_\bullet(X^{\partial_{in} \Sigma}, K)
