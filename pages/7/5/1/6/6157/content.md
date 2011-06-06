@@ -1,4 +1,3 @@
-[[!redirects (∞,1)-vector bundle]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -35,11 +34,12 @@ These statements [[categorification|categorify]] in a straightforward manner to 
 
 The resulting notion of $(\infty,1)$-vector bundles plays a central role in many constructions in [[orientation in generalized cohomology]], [[twisted cohomology]] and [[Thom isomorphism]]s.
 
-Further generalization of the concept leads to [[(∞,n)-vector bundle]]s: an $(\infty,n)$-module over an [[E-∞-ring]] $K$ is essentially an object of the [[(∞,n)-category]] $(\cdots (K Mod) Mod ) \cdots Mod$.
+Further generalization of the concept leads to [[(∞,n)-vector bundle]]s: an $(\infty,n)$-module over an [[E-∞-ring]] $K$ is an object of the [[(∞,n)-category]] $(\cdots (K Mod) Mod ) \cdots Mod$, where we are iteratively forming module $(\infty,k)$-categories over the monoidal $(\infty,k-1)$-category of $(\infty,k-1)$-modules, $n$ times.
 
-## Definition
 
-### Discrete $(\infty,1)$-vector bundles
+## Discrete $(\infty,1)$-vector bundles
+
+### General
 
 Throughout we denote by $K$ an [[E-∞ ring]] and by $A$ a $K$-algebra, hence an [[A-∞ algebra]] in [[Spec]] equipped with a $\infty$-algebra homomorphism $K \to A$.
 
@@ -88,11 +88,164 @@ for the [[full sub-(∞,1)-category]] on the _$A$-line_ : on those $A$-modules t
 
 =--
 
-This appears as ([ABG def. 3.12](#ABG)).
+This appears as ([ABG def. 3.12](#ABG)), ([ABGHR, 7.5](#ABGHR)).
 
-### Structured $(\infty,1)$-vector bundles
+
+### Sections and trivializations
+
++-- {: .num_prop}
+###### Proposition
+
+There is an [[equivalence of (∞,1)-categories]] 
+
+$$
+ A Line \simeq B GL_1(A) \simeq B Aut(A)
+$$
+
+that identified $A Line$ as the [[delooping]] of the [[automorphism ∞-group]] of $A$, equivalently its [[group of units]].
+
+=--
+
+This appears in ([ABG, 3.6](#ABG)).
+
+
++-- {: .num_remark}
+###### Remark
+
+This means that every $A$-line $\infty$-bundle is canonically [[associated ∞-bundle|associated]] to a $GL_1(A)$-[[principal ∞-bundle]] $X \to B GL_1(A)$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A $GL_1(A)$-[[principal ∞-bundle]] on $X$ is also called a **[[twisted cohomology|twist]]** for 
+$A$-[[generalized (Eilenberg-Steenrod) cohomology|cohomology]] on $X$.
+
+=--
+
+For the moment see [[twisted cohomology]] for more on this.
+
++-- {: .num_defn}
+###### Definition
+
+The $A$-module of (dual) [[section]]s of an $(\infty,1)$-module bundle $f : X \to A Mod$ is the [[(∞,1)-colimit]] over this functor
+
+$$
+  \Gamma(f) := \lim_\to (X \stackrel{\alpha}{\to} A Mod)
+  \,.
+$$
+
+=--
+
+For $f$ an $A$-line bundle  $\Gamma(f)$ is called in ([ABGHR, def. 7.27, remark 7.28](#ABGHR)) the **Thom $A$-module** of $f$ and written $M f$. Because for $A = S$ the [[sphere spectrum]], $M f$ is indeed the classical [[Thom spectrum]] of the spherical fibration given by $f$:
+
++-- {: .num_prop}
+###### Proposition
+
+For $K = S$ the [[sphere spectrum]], $f : X \to K Line = S Line$ an $S$-line bundle -- hence a spherical fibration, and $A$ any other $\infty$-ring with canonical inclusion $S \to A$, the Thom $A$-module of the composite $X \stackrel{f}{\to} S Mod \to A Mod$ is the classical [[Thom spectrum]] of $f$ tensored with $A$:
+
+$$
+  \Gamma(X \stackrel{f}{\to} S Line \to A Line \to A Mod)
+  \simeq
+   X^f \wedge_S A
+  \,.
+$$
+
+=--
+
+This is ([ABGHR, theorem 4.5](#ABGHR)).
+
+
++-- {: .num_defn}
+###### Definition
+
+For $f : X \to A Line$ an $A$-line $\infty$-bundle, its [[∞-groupoid]] of **trivializations** is the $\infty$-groupoid of lifts
+
+$$
+  \array{  
+     && *
+     \\
+     & \nearrow & \downarrow
+    \\
+    X &\stackrel{f}{\to}& A Line
+  }
+  \,.
+$$
+
+For $K \to A$ the canonical inclusion and $f : X \to K Line$ a $K$-line bundle, we say that an **$A$-orientation** of $f$ is a trivialization of the associated $A$-line bundle $X \stackrel{f}{\to} K Line \to A Line$.
+
+=--
+
+That this encodes the notion of [[orientation in generalized cohomology|orientation in A-cohomology]] is around 
+([ABGHR, theorem 7.32])(#ABGHR)).
+
++-- {: .num_cor #ThomModuleInOrientedCase}
+###### Corollary
+
+Every trivialization/orientation of an $A$-line $\infty$-bundle $f : X \to A Line$ induces an equivalence
+
+$$
+  \Gamma(f) \simeq (\Sigma^\infty X )\wedge A
+$$
+
+of the $A$-module of sections of $f$ / the Thom $A$-module of $f$ with the [[homology|generalized A-homology]]-spectrum of $X$:
+
+$$
+  \pi_\bullet \Gamma(f) \simeq H_\bullet(X,A)   
+  \,.
+$$
+
+=--
+
+This appears as ([ABGHR, cor. 7.34](#ABGHR)).
+
+Therefore if $f$ is _not_ trivializable, we may regard its $A$-module of sections as encoding $f$-[[twisted cohomology|twisted A-cohomology]]:
+
++-- {: .num_defn}
+###### Definition
+
+For $f : X \to A Line$ an $A$-line $\infty$-bundle, the $f$-**[[twisted cohomology|twisted A-homology]] of $A$ is
+
+$$
+  H_\bullet^f(X, A) := \pi_\bullet(\Gamma(f)) := \pi_\bullet(M f)
+  \,.
+$$
+
+The **$f$-[[twisted cohomology|twisted A-cohomology]] is**
+
+$$
+  H^\bullet_f(X,A) := \pi_0 A Mod(M f, \Sigma^\bullet A)
+  \,.
+$$
+
+=--
+
+## Structured $(\infty,1)$-vector bundles
 
 (...)
+
+## Applications
+
+* The [[string topology]] operations on a compact [[smooth manifold]] $X$ may be understood as arising from a [[sigma-model]] [[quantum field theory]] with [[target space]] $X$ whose [[background gauge field]] is a flat $A$-line $\infty$-bundle $(P,\nabla)$ which is $A$-oriented over $X$, hence trivializabe over $X$ (for instance for $A = H \mathbb{Q}$ the [[Eilenberg-MacLane spectrum]] this may be the sphereical fibration of Thom spaces induced from the [[tangent bundle]] if the manifold is [[oriented]] in the ordinary sense). 
+
+  By prop. \ref{ThomModuleInOrientedCase} this implies that the space of [[state]]s of the $\sigma$-model is the $A$-homology spectrum $\Gamma(P) \simeq X \edge A$ of $X$, and that for every suitable [[surface]] $\Sigma$ with incoming and outgoing boundary components $\partial_{in} \Gamma \stackrel{in}{\to} \Gamma \stackrel{out}{\leftarrow} \partial_{out} \Gamma$ the [[mapping space]] [[span]]
+
+  $$
+    X^{\partial_{in} \Gamma}
+     \stackrel{X^{in}}{\leftarrow}
+    X^{\Gamma}
+     \stackrel{X^{out}}{\rightarrow}
+    X^{\partial_{out} \Gamma}
+  $$
+
+  acts by [[path integral as a pull-push transform]] on these spaces of states
+
+  $$
+    (X^{out})_* (X^{in})^! : H_\bullet(X^{\partial_{in} \Gamma},A) \to 
+     H_\bullet(X^{\partial_{out} \Gamma}, A)
+     \,.
+  $$
 
 ## References
 
@@ -102,4 +255,16 @@ A systematic discussion of discrete $(\infty,1)$-module bundles is in the pair o
  {#ABGHR}
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_ ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
- [#ABG}
+ {#ABG}
+
+
+[[!redirects (∞,1)-vector bundle]]
+
+[[!redirects (infinity,1)-vector bundles]]
+[[!redirects (∞,1)-vector bundles]]
+
+
+[[!redirects (∞,1)-vector space]]
+[[!redirects (∞,1)-vector spaces]]
+[[!redirects (infinity,1)-vector space]]
+[[!redirects (infinity,1)-vector spaces]]
