@@ -154,4 +154,13 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 * [[ring spectrum]], [[algebra spectrum]], [[module spectrum]]
 
+## References
+
+Surveys include
+
+* A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+
+* [[John Greenlees]], _Spectra for commutative algebraists_ ([arXiv:math/0609452](http://arxiv.org/abs/math/0609452))
+
 [[!redirects spectra]]
