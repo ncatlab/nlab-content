@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 # Vector bundles
-* tic
+* table of contents
 {: toc}
 
 
@@ -93,7 +104,9 @@ Much else to be discussed...
 
 * [[principal bundle]], [[associated bundle]]
 
-* [[n-vector bundle]]
+* **vector bundle**
+
+* [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
 ## Literature
 
