@@ -22,7 +22,19 @@
 
 For $X$ any kind of [[space]] (possibly a [[directed space]], hence a [[category]]) its [[loop space object]]s $\Omega_x X$ canonically inherit a [[monoidal category|monoidal structure]], coming from composition of loops. 
 
-If $x \in X$ is essentially unique, then $\Omega_x X$ equipped with this monoidal structure remembers all of the structure of $X$: we say $X \simeq B \Omega_x X$ and call $B A$ the _[[delooping]]_ of the monoidal object $A$.
+?? what kind of loops Moore?
+
+If $x \in X$ is essentially unique, then $\Omega_x X$ equipped with this monoidal structure remembers all of the structure of $X$: we say $X \simeq B \Omega_x X$ 
+
+for some unspecified B
+
+and 
+
+?for any monoidal object $S$ ??
+
+call $B A$ the _[[delooping]]_ of the monoidal object $A$.
+
+the point being that this adapts the language to the general monoidal setting
 
 ## Examples
 
@@ -78,7 +90,7 @@ Specifically for $\mathcal{X} = Top$, this reduces to the classical theorem by [
 +-- {: .un_theorem}
 ###### Theorem (May recognition theorem)
 
-Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes operad]] $\mathcal{C}_k$ and suppose that $X$ is grouplike. Then $Y$ is homotopy equivalent to a $k$-fold loop space $\Omega^k X$ for some pointed topological space $X$.
+Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes operad]] $\mathcal{C}_k$ and suppose that $Y$ is grouplike. Then $Y$ is homotopy equivalent to a $k$-fold loop space $\Omega^k X$ for some pointed topological space $X$.
 
 =--
 
