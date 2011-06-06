@@ -39,4 +39,3 @@ Joseph A. Goguen, _Sheaf Semantics for Concurrent Interacting Objects_, in _Math
 ### Link ###
 
 [_Sheaf Semantics for Concurrent Interacting Objects_](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.4296). CiteSeerX page.
-[Funny Quotes](http://itshumour.blogspot.com/2010/06/twenty-hilarious-funny-quotes.html)
