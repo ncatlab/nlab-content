@@ -62,13 +62,10 @@ The problem with this is that we do not want just any diffeomorphism.  We want o
 
 Choose a smooth function $\sigma \colon \mathbb{R} \to [0,1]$ with the following properties:
 
-1. $\sigma(t) = \begin{cases} 0 & t \le -2 \\
- - 1 & 0 \le t \le 1 \\
-0 & 2 \le t
-\end{cases}$
+1. $\sigma(t) = \begin{cases} 0 & t \le -2 \\ - 1 & 0 \le t \le 1 \\ 0 & 2 \le t \end{cases}$
 2. $\sigma'(t) \gt -1$ (note that this is possible as we have given ourselves an interval of length $2$ to get from $0$ at $t = -2$ to $-1$ at $t = 0$.
 
-We are actually interested in the function $t \mapsto t + h \sigma(t)$ for $\abs{h} \le 1$.  The first property of $\sigma$ tells us that this agrees with the identity outside $[-2,2]$ and that it is $t \mapsto t - h$ on $[0,1]$.  The second property tells us that its derivative is strictly bigger than $1 - h$ and so, for $h \le 1$, is a diffeomorphism.
+We are actually interested in the function $t \mapsto t + h \sigma(t)$ for $|h| \le 1$.  The first property of $\sigma$ tells us that this agrees with the identity outside $[-2,2]$ and that it is $t \mapsto t - h$ on $[0,1]$.  The second property tells us that its derivative is strictly bigger than $1 - h$ and so, for $h \le 1$, is a diffeomorphism.
 
 On $V$, we choose a "dual functional" to $v$.  That is, we choose some continuous linear functional $f \colon V \to \mathbb{R}$ with $f(v) = 1$ (we need to assume that $v \ne 0$ for this part, we shall correct for that later).  Then we define a diffeomorphism on $V$ by:
 $$
@@ -82,7 +79,7 @@ $$
 $$
 As before, the second expression makes it clear that this is a diffeomorphism.  When $\widehat{\tau}(w - f(w)v) = 0$ then it is the identity.
 
-This will do, but there are a few too many choices in the above.  To simplify these, we assume that $V$ admits a smooth inner product, $g$.  Let us write $q$ for the square of the associated norm.  Then we can choose $f$ to be evaluation of the inner product at $v$ and $\tau$ to be composition of the inner product with a suitable bump function on $\mathbb{R}$.  We shall write $\tau$ for that bump function.  To make the final formula cleaner, we assume that $\tau(t) = 1$ for $\abs{t} \le 2$.  This leads us to:
+This will do, but there are a few too many choices in the above.  To simplify these, we assume that $V$ admits a smooth inner product, $g$.  Let us write $q$ for the square of the associated norm.  Then we can choose $f$ to be evaluation of the inner product at $v$ and $\tau$ to be composition of the inner product with a suitable bump function on $\mathbb{R}$.  We shall write $\tau$ for that bump function.  To make the final formula cleaner, we assume that $\tau(t) = 1$ for $|t| \le 2$.  This leads us to:
 $$
 \begin{aligned}
 \phi_v(w) &= w + \tau\left(\frac{q(w)}{1 + q(v)}\right) \sigma\left(\frac{g(w,v)}{q(v)}\right) v
@@ -110,7 +107,8 @@ Notice that $X_v(p) = 0$ if $p$ is "sufficiently far" from $\pi(v)$.
 
 Thus our diffeomorphism $\phi_v$ at $w$, with $p = \pi(w)$, is:
 $$
-\phi_v(w) = w + \tau\left(\frac{q(w)}{1 + q(X_v(p))}\right) \sigma \left(\frac{g(w,X_v(p))}{q(X_v(p))}\right) X_v(p).
+\phi_v(w) = \begin{cases} w + \tau\left(\frac{q(w)}{1 + q(X_v(p))}\right) \sigma \left(\frac{g(w,X_v(p))}{q(X_v(p))}\right) X_v(p) & X_v(p) \ne 0 \\
+w & X_v(p) = 0 \end{cases}.
 $$
 
 ## References
