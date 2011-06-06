@@ -40,7 +40,11 @@ An _$n$-vector bundle_ is an [[associated ∞-bundle]] whose [[fiber]]s are [[n-
 
 * [[principal ∞-bundle]] / [[associated ∞-bundle]]
 
-* **n-vector bundle**
+* [[vector bundle]]
+
+* [[(∞,1)-vector bundle]] / **$(\infty,n)$-vector bundle**
 
 
 [[!redirects n-vector bundles]]
+
+[[!redirects (∞,n)-vector bundle]]
