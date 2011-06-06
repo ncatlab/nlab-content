@@ -52,7 +52,7 @@ $$
   V_{n-1} \to \cdots
   )
 $$
-be a [[chain complex]] in $C$. For each interger $n \in \mathbb{N}$ this induces the following diagram of [[kernel]]s, [[cokernel]]s and [[image]]s
+be a [[chain complex]] in $C$. For each integer $n \in \mathbb{N}$ this induces the following diagram of [[kernel]]s, [[cokernel]]s and [[image]]s
 
 $$
   \array{
