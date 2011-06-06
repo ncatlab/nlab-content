@@ -1,15 +1,25 @@
-<div class="rightHandSide toc">
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
 [[!include higher algebra - contents]]
-
-***
-
+=--
+#### Stable homotopy theory
++--{: .hide}
 [[!include stable homotopy theory - contents]]
+=--
+=--
+=--
 
-</div>
+#Contents#
+* table of contents
+{:toc}
 
+## Idea
 
-An $A_\infty$-ring is a [[monoid in an (∞,1)-category|monoid]] in an additive (that is, [[stable (infinity,1)-category|stable]]) (∞,1)-category. Alternatively one can take a model which is a (non-homotopic) additive monoidal category, but the monoid is replaced by an algebra over a resolution of the associative operad.
+An $A_\infty$-ring is a [[monoid in an (∞,1)-category]] in an additive (that is, [[stable (infinity,1)-category|stable]]) [[(∞,1)-category]]. Alternatively one can take a model which is a (non-homotopic) additive monoidal category, but the monoid is replaced by an algebra over a resolution of the associative operad.
 
 For example there is a variant for the [[stable (∞,1)-category of spectra]]. Sometimes this is called an [[associative ring spectrum]].
 
@@ -20,6 +30,8 @@ Notice the difference to an ordinary [[ring spectrum]] which which is not necess
 $A_\infty$-rings play the role of [[ring]]s in [[higher algebra]].
 
 The higher analog of a commutative ring is an $E_\infty$-[[E-∞-ring|ring]].
+
+## References
 
 Another version of the $A_\infty$-ring is simply what is usually called the $A_\infty$-[[A-infinity-algebra|algebra]] in the case when the [[ground ring]] is the ring of integers. See
 
@@ -35,3 +47,8 @@ Another version of the $A_\infty$-ring is simply what is usually called the $A_\
 [[!redirects A-∞-ring]]
 [[!redirects A-∞ ring]]
 [[!redirects A-∞-rings]]
+
+[[!redirects ∞-ring]]
+[[!redirects ∞-rings]]
+[[!redirects infinity-ring]]
+[[!redirects infinity-rings]]
