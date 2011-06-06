@@ -1,0 +1,15 @@
+
+This entry is about the article
+
+* [[Ralph Cohen]], [[Veronique Godin]], _A polarized view of string topology_
+  ([arXiv:math/0303003](http://arxiv.org/abs/math/0303003))
+
+on realization of [[string topology]] operations as an [[HQFT]].
+
+See also the followup
+
+* [[Veronique Godin]], _Higher string topology operations_ ([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
+
+for corrections and a completion of this program.
+
+category: reference
