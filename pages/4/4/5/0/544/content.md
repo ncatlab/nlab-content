@@ -135,6 +135,11 @@ Every $A_\infty$-space is [[weak homotopy equivalence|weakly homotopy equivalent
 
 This is a classical result by ([Stasheff](#Stasheff), [BoardmanVogt](#BoardmanVogt)). It follows also as a special case of the more general result on rectification in a [[model structure on algebras over an operad]] (see there). 
 
+### In spectra
+
+See [[ring spectrum]] and [[algebra spectrum]].
+
+
 ## Related concepts
 
 * **$A_\infty$-algebra**, [[A-∞-category]]
