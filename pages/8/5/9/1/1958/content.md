@@ -20,3 +20,6 @@ This fact can also be used as the basis of a definition of the cotangent bundle.
 [[!redirects cotangent vector space]]
 [[!redirects covector field]]
 [[!redirects cotangent vector field]]
+[[!redirects cotangent bundles]]
+[[!redirects Cotangent bundle]]
+[[!redirects Cotangent bundles]]
