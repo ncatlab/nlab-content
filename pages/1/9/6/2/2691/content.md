@@ -987,6 +987,20 @@ $$
 This follows along the above lines. The statement appears for instance as
 ([Behrend, lemma 1.19](#Behrend)).
 
+#### Relation to $H \mathbb{Z}$-algebra spectra
+
+For every [[ring spectrum]] $R$ there is the notion of [[algebra spectra]] over $R$. Let $R := H \mathbb{Z}$ be the [[Eilenberg-MacLane spectrum]] for the [[integer]]s. Then unbounded dg-algebras (over $\mathbb{Z}$) are one model for $H \mathbb{Z}$-algebra spectra.
+
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[Quillen equivalence]] between the standard [[model category]] structure for $H \mathbb{Z}$-[[algebra spectra]] and the model structure on unbounded differential graded algebras.
+
+=--
+
+See [[algebra spectrum]] for details.
+
 
 ## Related concepts
 
