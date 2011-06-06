@@ -142,6 +142,35 @@ $$
 
 =--
 
+### Behaviour under homotopy colimits
+
++-- {: .num_prop }
+###### Proposition
+
+
+For $F : D \to $ [[Cat]] a [[functor]], let 
+$\vert F(-)\vert : D \stackrel{F}{\to} Cat \stackrel{\vert-\vert}{\to}$ [[Top]] be the postcomposition with geometric realization.
+
+Then we have a [[weak homotopy equivalence]]
+
+$$
+  \vert \int F \vert 
+    \simeq
+  hocolim \vert F(-) \vert
+$$
+
+exhibiting the [[homotopy colimit]] in [[Top]] over $\vert F (-) \vert$ as the geometric realization of the [[Grothendieck construction]] $\int F$ of $F$.
+
+=--
+
+This is due to ([Thomason](#Thomason)). 
+
+
+## Related concepts
+
+* [[geometric realization]]
+
+  * **of categories**, [[geometric realization of simplicial topological spaces|of simplicial topological spaces]], [[geometric realization of cohesive ∞-groupoids|of cohesive ∞-groupoids]]
 
 
 ## References
@@ -152,11 +181,10 @@ $$
 
 * [[David Roberts]], _[[davidroberts:Theorem A for topological categories]]_
 
-## Related concepts
+The geometric realization of Grothendieck constructions has been analyzed in
 
-* [[geometric realization]]
-
-  * **of categories**, [[geometric realization of simplicial topological spaces|of simplicial topological spaces]], [[geometric realization of cohesive ∞-groupoids|of cohesive ∞-groupoids]]
+* R.W. Thomason, _Homotopy colimits in the category of small categories_ , Math. Proc. Cambridge Philos. Soc. 85 (1979), no. 1, 91109.
+ {#Thomason}
 
 
 [[!redirects geometric realization of a category]]
