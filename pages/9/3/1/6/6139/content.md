@@ -22,21 +22,13 @@
 
 For $X$ any kind of [[space]] (possibly a [[directed space]], hence a [[category]]) its [[loop space object]]s $\Omega_x X$ canonically inherit a [[monoidal category|monoidal structure]], coming from composition of loops. 
 
-?? what kind of loops Moore?
+If $x \in X$ is essentially unique, then $\Omega_x X$ equipped with this monoidal structure remembers all of the structure of $X$: we say $X \simeq B \Omega_x X$ call $B A$ the _[[delooping]]_ of the monoidal object $A$.
 
-If $x \in X$ is essentially unique, then $\Omega_x X$ equipped with this monoidal structure remembers all of the structure of $X$: we say $X \simeq B \Omega_x X$ 
+What all these terms ("loops" $\Omega$, "delooping" $B$ etc.) mean in detail and how they are _presented_ concretely depends on the given setup. We discuss some of these below in the section [Examples](#Examples).
 
-for some unspecified B
-
-and 
-
-?for any monoidal object $S$ ??
-
-call $B A$ the _[[delooping]]_ of the monoidal object $A$.
-
-the point being that this adapts the language to the general monoidal setting
 
 ## Examples
+ {#Examples}
 
 ### For topological spaces and $\infty$-groupoids
 
