@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
 ## Idea
@@ -19,6 +19,8 @@
 Generally, for $E$ an [[E-∞ ring]] [[spectrum]], and $P \to X$ a [[sphere spectrum]]-bundle, an _$E$-orientation_ of $P$ is a trivialization of the [[associated bundle|associated]] $E$-bundle.
 
 Specifically, for $P = Th(V)$ the [[Thom space]] of a [[vector bundle]] $V \to X$, an $E$-orientation of $V$ is an $E$-orientation of $P$.
+
+More generally, for $A$ an $E$-algebra spectrum, an $E$-bundle is $A$-orientable if the associated $A$-bundle is trivializable. For more on this see [[(∞,1)-vector bundle]].
 
 ## Definition
 
