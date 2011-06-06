@@ -41,7 +41,7 @@ Further generalization of the concept leads to [[(∞,n)-vector bundle]]s: an $(
 
 ### General
 
-Throughout we denote by $K$ an [[E-∞ ring]] and by $A$ a $K$-algebra, hence an [[A-∞ algebra]] in [[Spec]] equipped with a $\infty$-algebra homomorphism $K \to A$.
+Throughout we denote by $K$ an [[E-∞ ring]] and by $A$ a $K$-[[algebra spectrum|algebra]], hence an [[A-∞ algebra]] in [[Spec]] equipped with a $\infty$-algebra homomorphism $K \to A$.
 
 Write $A Mod$ for the [[(∞,1)-category]] of $A$-[[module spectrum|module spectra]].
 
