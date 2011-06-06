@@ -301,7 +301,7 @@ $$
 
 #### ... and $\infty$-sections as twisted $\infty$-functions {#InfSections}
 
-Regarded this way the above discussion has a generalization to the case where the [[monoid]] $\mathbb{C}$ is replaced with any [[ring spectrum]] $R$ and we consider
+Regarded this way, the above discussion has a generalization to the case where the [[monoid]] $\mathbb{C}$ is replaced with any [[ring spectrum]] $R$ and we consider
 
 $$
   X \stackrel{\tau}{\to} R Line \hookrightarrow R Mod
@@ -312,7 +312,7 @@ Twisted cohomology in terms of such morphisms $\tau$ is effectively considered i
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_ ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
 
-and in unpublished work of [[Ulrich Bunke]] et al.
+and in unpublished work of [[Ulrich Bunke]] et al. For more on this see the discussion at [[(∞,1)-vector bundle]].
 
 
 ### twisted K-theory 
