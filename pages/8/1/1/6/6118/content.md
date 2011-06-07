@@ -35,7 +35,7 @@ This functor $\beta$ becomes a [[monad]] on $Rel$ and even on $Set$ as follows:
 
 ...
 
-Then a __relational $\beta$-module is a [[lax algebra]] (module) of $\beta$ on the [[2-poset]] $Rel$.
+Then a __relational $\beta$-module__ is a [[lax algebra]] (module) of $\beta$ on the [[2-poset]] $Rel$.
 
 Arguably, it is better to consider $Rel$ as a [[proarrow equipment]] in this construction; otherwise it is difficult to extract the notion of [[continuous function]] between topological spaces.  See [[generalized multicategory]].
 
@@ -59,7 +59,7 @@ We say that $\mathcal{U}$ __converges__ to $x$ if $\mathcal{U} \to x$.
 
 As above, a [[subset]] $A$ of $S$ is __[[open subset|open]]__ if $A \in \mathcal{U}$ whenever $\mathcal{U} \to x \in A$.  On the other hand, $A$ is __[[closed subset|closed]]__ if $x \in A$ whenever $A \in \mathcal{U} \to x$.
 
-A relational $\beta$-module is __[[compact space|compact]]__ if every ultrafilter converges to at least one point.  It is __[[Hausdorff space|Hausdorff]]__ if every ultrafilter converges to at most one point.  Thus, a __[[compactum]]__ is (assuming $UF$) precisely a relational $\beta$-module in which every ultrafilter converges to exactly one point, that is in which the action of the monad $\beta$ lives in $Set$ rather than in $Rel$.
+A relational $\beta$-module is __[[compact space|compact]]__ if every ultrafilter converges to at least one point.  It is __[[Hausdorff space|Hausdorff]]__ if every ultrafilter converges to at most one point.  Thus, a __[[compactum]]__ is (assuming $UF$) precisely a relational $\beta$-module in which every ultrafilter converges to exactly one point, that is in which the action of the monad $\beta$ lives in $Set$ rather than in $Rel$; see [[ultrafilter monad]].
 
 ...
 
@@ -73,7 +73,7 @@ So ultrafilters behave very much like hyperpoints.  This is not to say that ultr
 
 ## Relation to other topological concepts
 
-If $\beta$ is treated as a monad on $Set$ instead of on $Rel$, then its algebras are the [[compacta]] (the compact Hausdorff spaces), again assuming $UF$.
+If $\beta$ is treated as a monad on $Set$ instead of on $Rel$, then its algebras are the [[compacta]] (the compact Hausdorff spaces), again assuming $UF$; see [[ultrafilter monad]].
 
 One might hope that there would be an analogous treatment of [[uniform spaces]] based on an [[equivalence relation]] between ultrafilters.  (In nonstandard analysis, this becomes a relation $\approx$ of infinite closeness between hyperpoints.)  The description in terms of generalized multicategories is known to generalize to a description of uniform spaces, but rather than using relations between ultrafilters, this description uses pro-relations between points.
 
