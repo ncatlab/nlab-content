@@ -756,7 +756,7 @@ $$
 
 and this ought to be Chas-Sullivan string product operation.
 
-That this is indeed the case was finally demonstrated by Veronique Godin. (See [[string topology]] for all references.) While the idea is rather simple, the concrete realization, especially when taking open strings into account, is fairly technical (see for instance [this MO discussion](http://mathoverflow.net/questions/66977/pull-push-in-godins-hcft-for-string-topology)).
+That this is indeed the case was finally demonstrated by [[Ralph Cohen]] and [[Veronique Godin]]. (See [[string topology]] for all references.) While the idea is rather simple, the concrete realization, especially when taking open strings into account, is fairly technical (see for instance [this MO discussion](http://mathoverflow.net/questions/66977/pull-push-in-godins-hcft-for-string-topology)).
 
 But there should be more to it: one expects that these operations on [[homology group]]s are just a shadow of a refined construction on [[chain complex]]es (for instance [[singular homology|singular chains]]): while Godin's construction gives an _[[HQFT]]_ -- a [[quantum field theory]]  that depends only on the [[homology]] of the [[moduli space]]s of the relevant [[cobordism]]s -- one expect that this is the homology of a genuine [[extended TQFT]] (which in this dimension is widely but somewhat unfortunately known under the term "[[TCFT]]"). Remarks on how that might be obtained have been made in print by Costello and Lurie.
 
@@ -884,7 +884,7 @@ $$
   H \mathbb{Z} Alg \simeq dgAlg_{\mathbb{Z}}
 $$
 
-betwee the [[(∞,1)-category]] of $H \mathbb{Z}$-[[module spectra]]/$H \mathbb{Z}$-[[algebra spectra]] (see there for details on this equivalence) and the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by the [[model structure on chain complexes]]/[[model structure on dg-algebras|on dg-algebras]]. Under this equivalence the above [[module spectrum]]-space of states over the circle is identified with the ordinary integral homology chain complex
+betwee the [[(∞,1)-category]] of $H \mathbb{Z}$-[[module spectra]]/$H \mathbb{Z}$-[[algebra spectra]] (see there for details on this equivalence) and the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by the [[model structure on chain complexes]]/[[model structure on dg-algebras|on dg-algebras]]. Under this equivalence the above [[module spectrum]]-space of states over the circle ought to be identified with the ordinary integral homology chain complex
 
 $$
   (\Sigma^\infty X^{S^1}) \wedge K
