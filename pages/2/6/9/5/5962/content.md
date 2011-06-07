@@ -6,3 +6,7 @@ An **isotropic subspace** of a [[symplectic vector space]] is a sub-[[vector spa
 A maximal isotropic subspace is called a [[lagrangian subspace]].
 
 The space of all isotropic subspaces of a given inner product space is called its [[isotropic Grassmannian]].
+
+A [[submanifold]] of a [[symplectic manifold]] each [[tangent space]] of which is isotropic with respect to the ambient symplectic structure is an **[[isotropic submanifold]]**.
+
+[[!redirects isotropic subspaces]]
