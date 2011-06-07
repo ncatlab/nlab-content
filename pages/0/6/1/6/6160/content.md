@@ -45,7 +45,14 @@ This is due to ([Shipley](#Shipley)).
 
 ## References
 
+The equivalence of $H R$-algebra spectra with [[dg-algebra]]s is due to
+
 * [[Brooke Shipley]], _$H \mathbb{Z}$-algebra spectra are differential graded algebras_ , Amer. Jour. of Math. 129 (2007) 351-379. ([arXiv:math/0209215](http://arxiv.org/abs/math/0209215))
  {#Shipley}
 
+Eilenberg-MacLane spectra $H R$ for $R$ itself a [[dg-algebra]] are discussed in
+
+* [[Daniel Dugger]], [[Brooke Shipley]], _Topological equivalences for differential graded algebras_ ([arXiv:math/0604259](http://arxiv.org/abs/math/0604259))
+
 [[!redirects algebra spectra]]
+
