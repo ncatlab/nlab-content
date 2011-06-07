@@ -170,7 +170,7 @@ The bracket $\{-,-\}$ makes $C^\infty(X)$ a [[Poisson algebra]].
 
 The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-algebroid]] for $n = 0$. (See there.) 
 
-
+* [[isotropic submanifold]], [[coisotropic submanifold]]
 
 [[!redirects symplectic manifolds]]
 [[!redirects symplectic form]]
