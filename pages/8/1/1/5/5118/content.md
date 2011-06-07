@@ -593,7 +593,9 @@ is a weak equivalence in $D$. But since $\chi_B$ is a weak equivalence, this is 
 
 ## Examples
 
-Examples arise in the [[monoidal Dold-Kan correspondence]]. See there for details.
+* Examples arise in the [[monoidal Dold-Kan correspondence]]. See there for details.
+
+* The quivalence between [[module spectra]] and [[chain complex]]es is exhibited by monoidal Quillen equivalences. See [[module spectrum]] for details.
 
 
 ## Related concepts
