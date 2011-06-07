@@ -9,3 +9,4 @@ The effective topos is an example of an elementary [[topos]] with a [[natural nu
 ## Reference
 
 *   J.M.E. [[Martin Hyland|Hyland]], 'The effective topos' in  A.S. Troelstra (ed.)  D. van Dalen (ed.) , _The L.E.J. Brouwer Centenary Symposium_, North-Holland  (1982)  pp. 165--216.
+* Andy Pitts, _The theory of [[tripos]]es_, thesis, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)
