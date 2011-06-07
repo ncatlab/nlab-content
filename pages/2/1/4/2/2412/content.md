@@ -1,8 +1,13 @@
-<div class="rightHandSide toc">
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
 [[!include functorial quantum field theory - contents]]
-
-</div>
+=--
+=--
+=--
 
 
 +-- {: .standout}
@@ -295,4 +300,8 @@ $$
 and similarly after dividing out concordance, the push-forward becomes the push-forward in [[deRham cohomology]].
 
 
+## References
+
+* [[Stefan Stolz]] (notes by Arlo Caine), _Supersymmetric Euclidean field theories and generalized cohomology_ Lecture notes (2009) ([pdf](http://www.nd.edu/~jcaine1/pdf/Lectures_complete.pdf))
+ {#Stolz}
 
