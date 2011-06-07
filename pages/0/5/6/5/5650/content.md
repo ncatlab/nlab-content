@@ -101,6 +101,8 @@ The following is (or will eventually be) a linked list of keywords.
 
 * [[algebra spectrum]]
 
+* stable [[monoidal Dold-Kan correspondence]]
+
 ### 7.2 Properties of rings and modules
 
 ### 7.3 The cotangent complex formalism
