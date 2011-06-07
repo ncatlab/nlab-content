@@ -33,6 +33,8 @@ This means that a ring spectrum is a monoid in the category $\mathcal{S}$ of [[s
 
 A monoid-up-to-homotopy in the category of spectra for which the homotopies are coherent is called an $A_\infty$-[[A-infinity ring specturm|ring spectrum]] or just an $A_\infty$-[[A-∞ ring|ring]]. These may be modeled as [[monoid]]s with respect to the [[symmetric monoidal smash product of spectra]].
 
+Abstractly these are [[En-algebra|E1-algebras]] in the [[symmetric monoidal (∞,1)-category]] [[Spec]] of [[spectra]].
+
 ## Properties
 
 Not every ring spectrum may be refined to an $A_\infty$-ring spectrum.
@@ -55,3 +57,9 @@ See also the references at [[stable homotopy theory]].
 
 
 [[!redirects ring spectra]]
+
+[[!redirects E-∞ ring spectrum]]
+[[!redirects E-∞ ring spectra]]
+
+[[!redirects E-infinity ring spectrum]]
+[[!redirects E-infinity ring spectra]]
