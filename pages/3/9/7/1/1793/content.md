@@ -648,6 +648,8 @@ This is theorem 2.2 in [Christensen-Hovey](#ChristensenHovey).
 
 We shall write $Ch(\mathcal{A})_{\mathcal{P}}$ for this model category structure.
 
+
+
 #### Examples 
 
 Let $R$ be an associative ring and $\mathcal{A} = R$[[Mod]].
@@ -759,6 +761,10 @@ A morphism $f : A \to B$ in $Ch(\mathcal{A})_{\mathcal{P}}$ is a cofibration pre
 =--
 
 This appears as ([ChristensenHovey, prop. 2.5](#ChristensenHovey)).
+
+### Relation to module spectra
+
+For $R$ any ring, there is the [[Eilenberg-MacLane spectrum]] $H R$. This is an [[algebra spectrum]], hence there is a notion of $H R$-[[module spectra]]. These are [[Quillen equivalence|Quillen equivalent]] to chain complexes of $R$-modules. See [[module spectrum]] for details.
 
 ## Examples
 
