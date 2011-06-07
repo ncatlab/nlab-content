@@ -42,3 +42,6 @@ A survey of formalisms used in stable homotopy theory -- tools to present the [[
 
 * [[Neil Strickland]], _Axiomatic stable homotopy - a survey_ ([arXiv:math.AT/0307143](http://front.math.ucdavis.edu/0307.5143))
 
+An account in terms of [[(∞,1)-category theory]] is in section 7 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
