@@ -219,7 +219,7 @@ the string product was realized as genuine pull-push (in terms of dual [[fiber i
 The interpretation of closed string topology as an [[HQFT]] is discussed in
 
 * [[Ralph Cohen]], [[Veronique Godin]], 
-  _[[A Polarized View Of String Topology]]_
+  _[[A Polarized View of String Topology]]_
 
 * Hirotaka Tamanoi, _Loop coproducts in string topology and triviality of higher genus TQFT operations_ (2007) ([arXiv](http://arxiv.org/abs/0706.1276))
  {#Tamanoi07}
