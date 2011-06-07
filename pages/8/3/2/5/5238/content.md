@@ -148,4 +148,4 @@ Under mild conditions on $C$ the model structure on monoids in $C$ is [[Quillen 
 
 [[!redirects model structure on monoids]]
 
-
+[[!redirects model structures on monoids]]
