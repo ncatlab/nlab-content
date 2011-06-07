@@ -30,3 +30,5 @@ A discussiion of model structures on spectra in general ambiend model categories
 
 * [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_ ([arXiv](http://arxiv.org/abs/math/0004051))
 
+
+[[!redirects model structure on symmetric spectrum objects]]
