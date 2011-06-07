@@ -39,14 +39,19 @@ Not every ring spectrum may be refined to an $A_\infty$-ring spectrum.
 
 ## Related concepts
 
-* [[algebra spectrum]]
+* [[module spectrum]], [[algebra spectrum]]
 
 ## Reference
 
-See the references at [[stable homotopy theory]], for instance
+An account in terms of [[(∞,1)-category theory]] is in section 7.1 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
+An account in terms of [[model categories]] is in 
 
 * A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
+See also the references at [[stable homotopy theory]].
+
 
 [[!redirects ring spectra]]
