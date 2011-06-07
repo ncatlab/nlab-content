@@ -118,7 +118,7 @@ $$
   \,,
 $$
 
-where on the right we have the [[smash product of spectra]] with the [[suspension spectrum]] of $X$ and on the left we abbreviate this to the [[(∞,1)-tensoring]] of [[Spec]] over [[Top]].
+where on the right we have the [[smash product of spectra]] with the [[suspension spectrum]] of $X$ and on the left we abbreviate this to the [[(∞,1)-colimit|(∞,1)-tensoring]] of [[Spec]] over [[Top]].
 
 The corresponding [[homology group]]s are the [[homotopy group]]s of this spectrum:
 
@@ -127,7 +127,8 @@ $$
   \,.
 $$
 
+For more see [[generalized homology]].
+
 [[!redirects homology group]]
 [[!redirects homology groups]]
 
-[[!redirects generalized homology]]
