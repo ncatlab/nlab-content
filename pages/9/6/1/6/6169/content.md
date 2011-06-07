@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[submanifold]] of a [[symplectic manifold]] each [[tangent space]] of which is an [[isotropic subspace]] with respect to the ambient symplectic structure is an **isotropic submanifold**.
+
+## Related concepts
+
+* [[coisotropic submanifold]]
+
+[[!redirects isotropic submanifolds]]
