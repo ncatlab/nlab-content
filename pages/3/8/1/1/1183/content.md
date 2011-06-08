@@ -1465,6 +1465,10 @@ Remember that these formulas are to be taken with a grain of salt. Quite some ad
 
 ## References 
 
+Standard references on nonlinear sigma-models in low dimension include
+
+(...)
+
 First indications on how to formalize $\sigma$-models in a [[higher category theory|higher categorical]] context were given in
 
 * [[Dan Freed]], _Higher algebraic structures and quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
@@ -1479,6 +1483,15 @@ A discussion of 2- or (2+1)-dimensional $\Sigma$-models whose target is an [[der
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral transforms and Drinfeld centers in derived geometry_ ([arXiv](http://arxiv.org/abs/0805.0157)) .
 
 More discussion of the latter is at [[geometric infinity-function theory]].
+
+Concrete applications of $\sigma$-models with target [[stack]]s (typically smooth ones, hence [[smooth infinity-groupoid|smooth groupoid]]s) in [[string theory]] and [[supergravity]] are discussed for instance in
+
+* [[Tony Pantev]], [[Eric Sharpe]], _Gauged linear sigma-models for gerbes (and other toric stacks)_ ([arXiv:hep-th/0502053](http://arxiv.org/abs/hep-th/0502053))
+ {#PantevSharpe}
+
+* S. Hellerman, [[Eric Sharpe]], _Sums over topological sectors and quantization of Fayet-Iliopoulos parameters_ ([arXiv:1012.5999](http://arxiv.org/abs/1012.5999))
+ {#HellermanSharpe}
+
 
 [[!redirects sigma-models]]
 [[!redirects sigma model]]
