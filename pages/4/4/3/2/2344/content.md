@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 #### $(\infty,1)$-Category theory
 +--{: .hide}
 [[!include quasi-category theory contents]]
@@ -298,6 +302,10 @@ Special kinds of derivators:
 * [[enriched derivator]]
 * [[finitely complete prederivator]]
 * [[regular derivator]]
+
+The calculus of derivators:
+
+* [[homotopy exact square]]
 
 Special limits and structures in derivators:
 
