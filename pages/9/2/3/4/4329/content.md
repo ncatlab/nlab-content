@@ -281,6 +281,8 @@ $$
   \,.
 $$
 
+We could also prove this by showing that this functor is [[homotopy final functor|homotopy initial]] using the characterization in terms of slice categories, and then invoking the theorem of [[HTT]] 4.1.1.3(4) which says (in dual form) that an inclusion of simplicial sets is homotopy initial if and only if it is left anodyne.
+
 One of the <a href="http://ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#PropRightAnodyne">properties of left anodyne morphisms</a> is that restriction of [[over quasi-categories]] along left anodyne morphisms produces an acyclic [[Kan fibration]]. This shows the desired statement for $\psi$.
 
 To see that also $\phi$ is an acyclic fibration (...)
@@ -295,7 +297,7 @@ To see that also $\phi$ is an acyclic fibration (...)
 
 ### In derivators
 
-(...)
+* [[pullback in a derivator]]
 
 
 ## Examples
