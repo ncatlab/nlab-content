@@ -1,3 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+#### Contents
++-- {: .hide}
+[[!include contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Searching the nLab ##
 
 There are two methods of searching the nLab:
