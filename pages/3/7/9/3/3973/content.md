@@ -1,3 +1,4 @@
+[[!redirects n-vector space]]
 
 
 +-- {: .rightHandSide}
@@ -27,9 +28,7 @@ Another is, recursively: an $(n-1)$-algebra object (or its $(n-1)$-category of m
 
 For $n=2$ this subsumes various other definitions of [[2-vector space]] that are in the literature, such as notably the notion of [[Kapranov-Voevodsky 2-vector space]].
 
-
-### Iterated module construction
- {#IteratedModules}
+We sketch the iterative definition of $n$-vector spaces. More details are below.
 
 Assume that a notion of [[n-category]] is chosen for each $n$ (for instance [[(n,1)-category]]), that a notion of [[symmetric monoidal category|symmetric monoidal]] $n$-category is fixed (for instance [[symmetric monoidal (∞,1)-category]]) and that a notion of (weak) commutative [[monoid]] objects and [[module]] and [[bimodule]] object in a symmetric monoidal $n$-category is fixed (for instance the notion of [[algebra in an (∞,1)-category]]).
 
@@ -72,23 +71,38 @@ Following the [above idea](IteratedModules) we have the following definition.
 +-- {: .num_defn #nVectViaALgObjects}
 ###### Definition
 
-Fix a [[field]] $k$. For $n \in \mathbb{N}$, define an [[symmetric monoidal (∞,n)-category]] $n Vect_k$ of **$n$-vector spaces** as follows.
+Fix a [[ring]] $k$ (usually taken to be a [[field]] if one speaks of "vector spaces" instead of just [[module]]s, but this is not actually essential for the construction). This may be an [[ring spectrum|∞-ring]].
 
-A 0-vector space is an element of $k$. The [[0-category]] $0 Vect$ is the underlying set of $k$, regarded as a [[symmetric monoidal category]] using the product structure on $k$.
+For $n \in \mathbb{N}$, define an [[symmetric monoidal (∞,n)-category]] $n Vect_k$ of **$(\infty,n)$-vector spaces** as follows (the bi-counting follows the pattern of [[(n,r)-categories]]).
 
-A 1-vector space is an ordinary [[vector space]] over $k$. A morphism is a [[linear function]]. Set $1 Vect := $ [[Vect]], the ordinary category of [[vector space]]s over $k$.
+An **$(\infty,0)$-vector space** is an element of $k$. If $k$ is an ordinary ring, then the [[0-category]] $0 Vect$ is the underlying set of $k$, regarded as a [[symmetric monoidal category]] using the product structure on $k$. If $k$ is more generally an [[ring spectrum|∞-ring]], then the "stabilized [[(∞,0)-category]]" (= [[spectrum]]) of $(\infty,0)$-vector spaces is $k$ itself: $(\infty,0)Vect_k \simeq k$.
 
-For $n \geq 2$, an $n$-vector space is an [[algebra in an (infinity,1)-category|algebra object in the symmetric monoidal (∞,1)-category]] $(n-1)Vect$. A [[morphism]] is a [[bimodule object]]. [[k-morphism|Higher morphisms]] are defined recursively.
+An **[[(∞,1)-vector space]]** is an [[module spectrum|∞-module]] over $k$. The [[(∞,1)-category]] of $(\infty,1)$-vector spaces is 
+
+$$
+  (\infty,1)Vect_k := k Mod
+  \,,
+$$
+
+the $(\infty,1)$-category of $k$-[[module spectra]].
+
+For $k$ a field ordinary [[vector space]]s over $k$ are a [[full sub-(∞,1)-category]] of this: $1Vect_k \hookrightarrow (\infty,1)Vect_k$ . 
+
+For $n \geq 2$, an **$(\infty,n)$-vector space** is an [[algebra in an (infinity,1)-category|algebra object in the symmetric monoidal (∞,1)-category]] $(\infty,n-1)Vect$. A [[morphism]] is a [[bimodule object]]. [[k-morphism|Higher morphisms]] are defined recursively.
 
 =--
 
-This appears as ([Schreiber, appendix A](#Schreiber)) and then with allusion to more sophisticated [[higher category theory|higher categorical]] tools in ([FHLT, def. 7.1](#FHLT)). 
+For $\infty$ replaced by $n$ this appears as ([Schreiber, appendix A](#Schreiber)) and then with allusion to more sophisticated [[higher category theory|higher categorical]] tools in ([FHLT, def. 7.1](#FHLT)). 
 
 Notice that FHLT say "$(n-1)$-algebra" instead of "$n$-vector space", but only for the reason (p. 29) that
 
 > The discrepancy between $m$ (the algebra level) and $n$ [the algebra level] -- for which we apologize -- is caused by the fact that the term "$n$-vector space" has been used for a much more restrictive notion than our $(n-1)$-algebras.
 
 ## Examples
+
+### $(\infty,1)$-vector spaces
+
+See [[(∞,1)-vector space]] for more.
 
 ### 2-Vector spaces
 
@@ -160,11 +174,11 @@ See [[infinity-representation]].
 
 ## Related concepts
 
-* [[vector space]]
+* [[vector space]], [[(∞,1)-vector space]], [[(∞,1)-vector bundle]]
 
 * [[2-vector space]]
 
-* **$n$-vector space**, [[n-vector bundle]]
+* **$n$-vector space**, [[n-vector bundle]], 
 
 ## References
 
