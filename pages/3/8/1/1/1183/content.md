@@ -778,7 +778,8 @@ $$
 Most every statement about ordinary commutative rings has its analog for 
 [[E-∞ ring|commutative ∞-rings]], and so we can just follow our nose:
 
-An _[[(∞,1)-vector space]]_ over $K$ is an $K$-[[module spectrum]] and we have an [[(∞,1)-category]] $K$[[Mod]] of such $\infty$-vector spaces. Notice that these are a [[categorification]] of the ordinary notion of [[vector space]] only in the "$r$"-direction of the lattice of [[(n,r)-category|(r,n)-categories]]. A genuine [[(∞,n)-vector space]] over $K$ -- as appears in the description of general $n$-dimensional $\sigma$-models -- is instead an object of $(\cdots ((K Mod) Mod) \cdots ) Mod $. Here we should be fine with just $(\infty,1)$-vector spaces.
+An _[[(∞,1)-vector space]]_ over $K$ is an $K$-[[module spectrum]] and we have an [[(∞,1)-category]] $K$[[Mod]] of such $\infty$-vector spaces. Notice that these are a [[categorification]] of the ordinary notion of [[vector space]] only in the "$r$"-direction of the lattice of [[(n,r)-category|(r,n)-categories]]. A genuine [[(∞,n)-vector space]] over $K$ -- as appears in the description of general $n$-dimensional $\sigma$-models -- is instead an object of $(\cdots ((K Mod) Mod) \cdots ) Mod $. In particular the $(\infty,2)$-category of $(\infty,2)$-vector spaces over $K$ is 
+something like $(K Mod) Mod$.
 
 This means that an [[(∞,1)-vector bundle]] with flat [[connection on an ∞-bundle|∞-connection]] over some [[manifold]] $X$ is equivalently encoded by an [[(∞,1)-functor]]
 
@@ -851,7 +852,7 @@ $$
 
 For our discussion here this means that Cohen-Godin's finding that the string topology HQFT exists for $K$ such that $X$ is $K$-orientable meaks that the $K$-line $\infty$-bundle background field that we are to consider in this context are to be trivializable.
 
-Recall that if we interpret such an $K$-line bundle as a [[background gauge field]] for a $\sigma$-model, then for $\Sigma$ any [[cobordism]] the corresponding [[(∞,1)-vector space]] of states assigned to, say, the incoming boundary $\partial_{in} \Sigma$ is defined to be the $\infty$-vector space of sections of the [[transgression]] of this $\infty$-vector bundle to the [[mapping space]]. The transgression of a trivial bundle is again the trivial bundle. And the $\infty$-vector space of (co)sections is, in the discrete case,  as we had discussed [above](ExpositionQuantization), the [[(∞,1)-colimit]]
+Recall that if we interpret an $(\infty,2)$-vector bundle as a [[background gauge field]] for a $\sigma$-model, then for $\Sigma$ any 2-dimensional [[cobordism]] the corresponding [[(∞,1)-vector space]] of states assigned to, say, the incoming boundary $\partial_{in} \Sigma$ is defined to be the $\infty$-vector space of sections of the [[transgression]] of this $(\infty,2)$-vector bundle to an [[(∞,1)-vector bundle]] the [[mapping space]] $X^{\partial_{in} \Sigma}$. The transgression of a trivial bundle is again the trivial bundle. And the $\infty$-vector space of (co)sections is, in the discrete case,  as we had discussed [above](ExpositionQuantization), the [[(∞,1)-colimit]]
 
 $$
   \Gamma_{\partial_{in} \Sigma} 
@@ -1050,6 +1051,7 @@ Moreover, for $\hat \Sigma$ a closed [[cobordism]], hence a morphism $\emptyset 
    This $H$ is called the [[Hamilton operator]] of the system.
    
    (We are glossing here over some technical fine print in the definition of $Bord_1^{Riem}$. Done right we have that $\mathcal{H}$ may indeed be an infinite-dimensional vector space. See [[(1,1)-dimensional Euclidean field theories and K-theory]])
+
 
 ### Classical field theory
  {#ExpositionClassicalFieldTheory}
