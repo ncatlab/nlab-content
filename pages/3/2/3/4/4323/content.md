@@ -388,8 +388,18 @@ We check that this construction provides an inverse to $\Theta$.
 The [[homotopy equivalence]] $\Omega^\infty M O \simeq \vert Cob_\infty \vert$ is the content of [[Galatius-Madsen-Tillmann-Weiss theorem]], and is now seen as a part of the [[cobordism hypothesis]] theorem.
 
 
+### As a dual in the stable homotopy category
+ {#AsDualObject}
 
+Write [[Spec]] for the category of [[spectra]] and $Ho(Spec)$ for its standard [[homotopy category]]: the [[stable homotopy category]]. By the [[symmetric monoidal smash product of spectra]] this becomes a [[monoidal category]].
 
+For $X$ any [[topological space]], we may regard it as an object in $Ho(Spec)$ by forming its [[suspension spectrum]] $\Sigma^\infty_+ X$. We may ask under which conditions on $X$ this is a [[dualizable object]] with respect to the smash-product monoidal structure.
+
+It turns out that a sufficient condition is that $X$ a closed [[smooth manifold]]. In that case $Th(N X)$ -- the Thom spectrum of its [[normal bundle|stabe normal bundle]] is the corresponding [[dual object]].
+
+Using this one shows that the [[trace]] of the identity on $\Sigma^\infty_+ X$ in $Ho(Spec)$ -- the categorical [[dimension]] of $\Sigma^\infty_+ X$ -- is the [[Euler characteristic]] of $X$.
+
+This appears as ([PontoShulman, example 3.7](#PontoShulman)).
 
 
 ## Cohomology
@@ -424,3 +434,9 @@ The generalized notion of Thom spectra is discussed in
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR}
+
+The relation of Thom spectra to dualizable objects in the stable homotopy catregory is discussed as example 3.7 in
+
+* [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/traces_sym.pdf), [slides](http://www.math.ucsd.edu/~mshulman/papers/ccrtraces.pdf)).
+ {#PontoShulman}
+
