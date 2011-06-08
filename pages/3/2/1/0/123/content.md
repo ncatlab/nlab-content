@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -7,17 +8,6 @@
 =--
 =--
 =--
-
-
-* **functor**
-
-* [[2-functor]]
-
-* [[n-functor]]
-
-* [[(∞,1)-functor]]
-
-***
 
 
 #Contents#
