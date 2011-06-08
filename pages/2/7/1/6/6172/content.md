@@ -60,3 +60,7 @@ Special characters
 `re1|re2`
 : Matches either `re1` or `re2`.
 
+
+[[!redirects searching in the nLab]]
+
+category: meta
