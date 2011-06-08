@@ -21,7 +21,7 @@ Not that anybody would be na&#239;ve enough to believe otherwise, but perhaps th
 
 *  [[false|False]] is not [[true]].
 
-The point is that, in many cases, the na&#239;ve definition imposes only an uniqueness requirement (so that some set of possibilities ---such as the set of proper divisors of a prime number, or the set of non-invertible elements of a field--- must be a [[subsingleton]]) when it should in fact impose an *existence and uniqueness* requirement (so that the set of possibilities must be a [[singleton]]).
+The point is that, in many cases, the na&#239;ve definition imposes only a uniqueness requirement (so that some set of possibilities ---such as the set of proper divisors of a prime number, or the set of non-invertible elements of a field--- must be a [[subsingleton]]) when it should in fact impose an *existence and uniqueness* requirement (so that the set of possibilities must be a [[singleton]]).
 
 The general pattern is a progression of definitions (of 'simple') from more to less na&#239;ve:
 
