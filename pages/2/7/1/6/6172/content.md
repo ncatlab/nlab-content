@@ -1,0 +1,62 @@
+## Searching the nLab ##
+
+There are two methods of searching the nLab:
+
+1. **The built-in search.**  This is via the search box at the top of every page.  The distinguishing characteristics of this search are:
+   1. It uses _regular expressions_.
+   1. It searches the _source_ of each page.
+
+1. **An external search engine.** Most search engines allow you to restrict the search to a single site.  The best site to use for the nLab is `http://ncatlab.org/nlab`.  The distinguishing characteristics of an external search are:
+   1. Most just search for alphanumeric characters.
+   1. It searches the _rendered version_ of each page.
+
+## Google Search ##
+
++-- {: .query style="text-align: center"}
+ *Search the nLab using Google:*
+ <form  name="gsearch" method="get" action="http://www.google.com/search"><input type="text" size="30" name="as_q" style="display: inline"/><input type="hidden" name="as_sitesearch" value="http://ncatlab.org/nlab/"/></form>
+=--
+
+## Regular Expressions ##
+
+Regular expressions are a powerful way of extending search capabilities to take into account that one often wants to search for more than just a set phrase.  In a regular expression, certain characters are declared to be "special" and have a particular interpretation (somewhat like TeX with its special catcodes).  A special character can always be "escaped" to interpret it as an ordinary character.  Thus `.` means "match any single character" but `\.` means "match a period".
+
+As Instiki is written in ruby, it uses the ruby version of regular expressions (each language has its own version; the differences are usually minor).  The following is based on the list at [ruby-doc](http://www.ruby-doc.org/docs/ProgrammingRuby/html/language.html#UJ).  It has been condensed slightly to those aspects likely to be of use here:
+
+Special characters
+: The special characters are: `.`, `|`, `(`, `)`, `[`, `\`, `^`, `{`, `+`, `$`, `*`, and `?`. To match one of these characters, precede it with a backslash.  All other characters ordinarily just match themselves unless they are made somehow special by one of the special characters.
+
+`\b`, `\B`
+: Match word boundaries and nonword boundaries respectively.  Thus `cat` matches against `category` and `cat` but `cat\b` only matches `cat` (and `scat`).
+
+`[character list]`
+: This matches against a single character in the list.  The characters `|`, `(`, `)`, `[`, `^`, `$`, `*`, `?` are treated as regular characters in such a list.  You can specify a range using `-`: thus, `a-z`.  To include a `]` or `-` it must come at the start of the list.  A `^` at the start negates the list.
+
+`\d`, `\s`, `\w`
+: These match, respectively, digits, spaces, and word characters.
+
+`\D`, `\S`, `\W`
+: These are the negations of the lowercase versions.
+
+`.` (period)
+: Matches any character except a newline.
+
+`(...)`
+: Parentheses group pieces of the regular expression.  This is important for the following modifications.  In these, `re` stands for a sub-expression which can be a single character, a `[...]`, or a grouped expression.
+
+`re*`
+: Matches zero or more occurrences of `re`.  Thus `ab*` matches `a`, `ab`, `abb`, and so forth.  Similarly, `(cat)*` matches `cat`, `catcat`, `catcatcat`, and so forth.  This will try to match as much as possible; use `re*?` to make it match as little as possible.
+
+`re+`
+: Matches one or more occurrences of `re`.  Thus `ab+` matches `ab`, `abb`, but not `a`.  This will try to match as much as possible; use `re+?` to make it match as little as possible.
+
+
+`re{m,n}`
+: Matches at least `m` and at most `n` occurrences of re.  This will try to match as much as possible; use `re{m,n}?` to make it match as little as possible.
+
+`re?`
+: Matches zero or one occurrence of `re`.
+
+`re1|re2`
+: Matches either `re1` or `re2`.
+
