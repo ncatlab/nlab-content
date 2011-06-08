@@ -30,7 +30,7 @@ $$
   \array{
     A \times_C B &\to& B
     \\
-    \downarrow &\swArrow& \downarrow
+    \downarrow &\cong\swArrow& \downarrow
     \\
     A &\to& C
   }
@@ -58,7 +58,7 @@ $$
   }
 $$
 
-A **sqare** in a [[quasi-category]] $C$ is an image of this in $C$, i.e. a morphism
+A **square** in a [[quasi-category]] $C$ is an image of this in $C$, i.e. a morphism
 
 $$
   s : \Delta[1] \times \Delta[1] \to C
