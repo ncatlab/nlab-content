@@ -395,11 +395,11 @@ Write [[Spec]] for the category of [[spectra]] and $Ho(Spec)$ for its standard [
 
 For $X$ any [[topological space]], we may regard it as an object in $Ho(Spec)$ by forming its [[suspension spectrum]] $\Sigma^\infty_+ X$. We may ask under which conditions on $X$ this is a [[dualizable object]] with respect to the smash-product monoidal structure.
 
-It turns out that a sufficient condition is that $X$ a closed [[smooth manifold]]. In that case $Th(N X)$ -- the Thom spectrum of its [[normal bundle|stabe normal bundle]] is the corresponding [[dual object]].
+It turns out that a sufficient condition is that $X$ a closed [[smooth manifold]]. In that case $Th(N X)$ -- the Thom spectrum of its [[normal bundle|stabe normal bundle]] is the corresponding [[dual object]]. This is called the [[Spanier-Whitehead dual]] of $\Sigma^\infty_+ X$.
 
 Using this one shows that the [[trace]] of the identity on $\Sigma^\infty_+ X$ in $Ho(Spec)$ -- the categorical [[dimension]] of $\Sigma^\infty_+ X$ -- is the [[Euler characteristic]] of $X$.
 
-This characterization is due to Dold.  It is mentioned as an example of traces in the expository ([PontoShulman, example 3.7](#PontoShulman)).
+This characterization is due to Dold.  It is mentioned as an example of traces in the expository ([PontoShulman, example 3.7](#PontoShulman)). For more see [[Spanier-Whitehead duality]].
 
 
 ## Cohomology
