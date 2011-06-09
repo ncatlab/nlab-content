@@ -1,8 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 By _cohomology theory_ is usually meant more precisely an example of [[generalized (Eilenberg-Steenrod) cohomology]] regarded as a [[functor]] that assigns abelian [[group]] or even [[ring]]s to [[topological space]]s, subject to some conditions.  Note that the subject of cohomology theories is itself simply called _[[cohomology]]_.
 
-See also
+## References
 
-* [[A Survey of Elliptic Cohomology - cohomology theories]]
+* [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_ course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
 [[!redirects generalized cohomology theory]]
 [[!redirects generalised cohomology theory]]
