@@ -76,7 +76,7 @@ $(\Gamma \dashv \mathrm{coDisc})$ is indeed an
 The [[(∞,1)-topos]] [[∞Grpd]] is equivalent to 
 the full [[sub-(∞,1)-category]] of $\mathbf{H}$ on 
 those objects $X \in \mathbf{H}$ for which the 
-[[unit of an adjunction|counit]]
+[[unit of an adjunction|unit]]
  
 $$
     X \to \mathrm{coDisc}\Gamma X
@@ -96,16 +96,20 @@ This follows by general facts discussed at [[reflective sub-(∞,1)-category]].
 +-- {: .num_defn}
 ###### Definition
 
-We say a 0-[[truncated]] object $X \in \mathbf{H}$ is 
-is **concrete** if the [[unit of an adjunction|counit]]
+For $n \in \mathbf{N}$ we say an object $X \in \mathbf{H}$ is 
+**$n$-concrete** if 
 
-$$
-  X \to \mathrm{coDisc} \Gamma X
-$$
+* it is [[n-truncated]];
 
-is a [[monomorphism]]. We say a general object $X$ is 
-concrete if all its 
-[[categorical homotopy groups in an (∞,1)-topos|categorical homotopy sheaves]] are concrete.
+* the $(coDisc \dashv \Gama)$-[[unit of an adjunction|unit]]
+  $X \to coDisc \Gamma X$ is a $(n-1)$-[[truncated]] morphism.
+
+We say an object is **concrete** if the following recursive condition holds.
+
+* A 0-concrete object is concrete.
+
+* For $n \geq 1$ an $n$-concrete object $X$ is concrete if 
+  there exists an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] $Y \to X$ such that $Y$ is $(n-1)$-concrete.
 
 =--
 
@@ -117,6 +121,8 @@ For $C$ an [[∞-cohesive site]], a 0-truncated object in the
 a [[concrete sheaf]] in the traditional sense.
 
 =--
+
+> [[Dave Carchedi]] has an argument that shows, at least over some sites, that, generally, concrete objects are presented by simplicial concrete sheaves. Details will go here, evebtually.
 
 +-- {: .num_defn #NConcretfication}
 ###### Definition
