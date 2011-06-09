@@ -1,0 +1,63 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+The term _S-duality_ can mean two different things:
+
+* in [[mathematics]] it is short for _[[Spanier-Whitehead duality]]_ : [[dual object|monoidal duality]] in the [[stable homotopy category]];
+
+* in [[physics]] it denotes a certain equivalence between [[quantum field theories]], this is what we discuss below
+
+--
+
+#Contents#
+* tabe of contents
+{:toc}
+
+## Idea
+
+In its original form, S-duality refers to **Montonen-Olive duality** , which is about the following phenomenon:
+
+The [[Lagrangian]] of [[Yang-Mills theory]] has two summands, 
+
+$$
+  S_{YM} : \nabla \mapsto \int_X \frac{1}{e^2} \langle F_\nabla \wedge \star F_\nabla\rangle
+   + \int_{X} i \theta \langle F_\nabla \wedge F_\nabla \rangle
+  \,,
+$$
+
+each pairing the [[curvature]] 2-form with itself in an [[invariant polynomial]], but the first involing the [[Hodge star operator]] dual, and the second not. One can combine the coefficients $\frac{1}{e^2}$ and $i \theta$ into a single [[complex number]]
+
+$$
+  \tau = \frac{\theta}{2 \pi} +  \frac{4 \pi i}{e^2}
+  \,.
+$$
+
+Montonen-Olive duality asserts that the quantum field theories induced from one such parameter value and another one obtained from it by an action of $SL(2,\mathbb{Z})$ on the upper half plane are equivalent.
+
+This is actually not quite true for ordinary Yang-Mills theory, but seems to be true for [[super Yang-Mills theory]].
+
+[[Edward Witten]] has suggested that this is to be understood geometrically by understand Yang-Mills theory as a [[compactification]] of a conformal quantum field theory in 6-dimensions -- that instead of a [[gauge field]] given by a [[principal bundle]] with [[connection on a bundle|connection]] involves a [[principal 2-bundle]] with [[connection on a 2-bundle|2-connection]] -- on a [[torus]]. The $SL(2,\mathbb{Z})$-invariance of the resulting 4-dimensional theory is then the remnant of the invariance of the 6-dimensional theory under conformal transformations of that torus.
+
+Moreover, Witten has suggested that this S-duality secretly drives a host of other subtle phenomena, notably that the [[geometric Langlands duality]] is just an aspect of a special case of this.
+
+
+## References
+
+The understanding of Montonen-Olive duality as a remnant conformal transformation on a 6-dimensional [[principal 2-bundle]]-theory compactified on a torus is described in 
+
+* [[Edward Witten]], 
+
+  _On S-Duality in Abelian Gauge Theory_ ([arXiv:hep-th/9505186](http://arxiv.org/abs/hep-th/9505186))
+
+  _Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
+
+
+[[!redirects Montonen-Olive duality]]
