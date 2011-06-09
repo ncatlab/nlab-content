@@ -58,6 +58,13 @@ is drawn as the Young diagram
 
 * [[characteristic classes]] for hemitian vector bundles: that is, [[cohomology]] classes on the [classifying spaces]] of the [[unitary groups]] $U(N)$
 
+* finite-dimensional C${}^*$-algebras: any such algebra is of the form $M_{n_1}(\mathbb{C}) \oplus \cdots \oplus M_{n_k}(\mathbb{C})$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots n_k$.
+
+* finite abelian $p$-groups: any such group is of the form $\mathbb{Z}/p^{n_1} \oplus \cdots \oplus \mathbb{Z}/p^{n_k}$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots n_k$.
+
+* finite semisimple algebras over $\mathbb{F}_p$: any such algebra is of the form $\mathbb{F}_{p^{n_1}} \oplus \cdots \oplus \mathbb{F}_{p^{n_k}}$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots n_k$.
+
+* the [[trace of a category|trace of the category of finite sets]] has isomorphism classes of objects corresponding to Young diagrams.
 
 ## Young diagram 
 
