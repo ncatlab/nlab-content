@@ -18,15 +18,13 @@
     * [[classical mechanics]]
     * [[waves]] and [[optics]]
 
-  * [[Lagrangian mechanics]]
+    * [[Lagrangian mechanics]]
 
     * [[configuration space]], [[state]]
 
     * [[action functional]], [[Lagrangian]]
 
-    * [[covariant phase space]]
-
-    * [[Euler-Lagrange equations]]
+    * [[covariant phase space]], [[Euler-Lagrange equations]]
 
   * [[Hamiltonian mechanics]]
 
