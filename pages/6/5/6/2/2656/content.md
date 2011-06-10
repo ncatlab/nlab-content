@@ -2,16 +2,16 @@
 #Contents#
 * automatic table of contents goes here
 {:toc}
- 
+
 ## The idea
 
 Young diagrams are used to describe many objects in algebra and combinatorics, including:
 
 * integer partitions.  For example, the integer partition 
 
-  $$ 17 = 5 + 4 + 4 + 2 + 1 + 1 $$ 
+$$ 17 = 5 + 4 + 4 + 2 + 1 + 1 $$ 
 
-  is drawn as the Young diagram
+is drawn as the Young diagram
 
 +-- {: #Young style="text-align:center"}
 <svg width="120" height="140" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -62,7 +62,7 @@ Young diagrams are used to describe many objects in algebra and combinatorics, i
 
 * finite abelian $p$-groups: any such group is of the form $\mathbb{Z}/p^{n_1} \oplus \cdots \oplus \mathbb{Z}/p^{n_k}$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots n_k$.
 
-* finite semisimple algebras over $\mathbb{F}_p$: any such algebra is of the form $\mathbb{F}_{p^{n_1}} \oplus \cdots \oplus \mathbb{F}_{p^{n_k}}$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots n_k$.
+* finite commutative semisimple algebras over $\mathbb{F}_p$: any such algebra is of the form $\mathbb{F}_{p^{n_1}} \oplus \cdots \oplus \mathbb{F}_{p^{n_k}}$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots n_k$.
 
 * the [[trace of a category|trace of the category of finite sets]] has isomorphism classes of objects corresponding to Young diagrams.
 
