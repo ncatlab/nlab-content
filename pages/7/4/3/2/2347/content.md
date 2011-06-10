@@ -177,6 +177,26 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 =--
 
 
+## Related concepts
+
+* **classical mechanics**
+
+  * [[semiclassical approximation]]
+
+* [[quantization]]
+
+  * [[deformation quantization]], [[geometric quantization]]
+
+* [[quantum mechanics]]
+
+  * [[supersymmetric quantum mechanics]]
+
+* [[quantum field theory]]
+
+  * [[FQFT]], [[AQFT]]
+
+
+
 ## References
 
 * [[Klaas Landsman]], _[[Mathematical Topics Between Classical and Quantum Mechanics]]_
