@@ -25,12 +25,162 @@ For a theoretical classical mechanics one often starts with a concrete system of
 
 ## Definition
 
-Eventually there wil be a discussion here that starts with something like:
+We set up some basic notions of classical mechanics. 
 
-The [[category]] of classical physical systems is the [[opposite category]] of real [[Poisson algebra]]s.
+### Classical mechanical systems
 
-In nice cases these come from [[symplectic manifold]]s. See also there for more details.
++-- {: .num_defn}
+###### Definition
+
+A _real [[Poisson algebra]]_ is an [[associative algebra]] $(A, \dot )$over the [[real number]]s that is equipped with with an additional bilinear operation
+
+$$
+  [-,-] : A \otimes_{\mathbb{R}} A \to A 
+$$
+
+that makes $A$ into a [[Lie algebra]] such that for each element $a \in A$ the operation $[a,-] : A \to A$ is a [[derivation]] of the product $\cdot : A \otimes A \to A$.
+
+A _[[homomorphism]]_ $(A, \dot, [-,-]) \to (B, \cdot, [-,-])$ of Poisson algebras is a [[linear function]] $A \to B$ that respects both the associative product and the Lie bracket.
+
+Write [[Poiss]] for th resulting category of Poisson algebras. Write
+$CPoiss \subset Poiss$ for the [[full subcategory]] on those Poisson algebras whose underlying [[associative algebra]] is commutative.
+
+=--
+
+
++-- {: .num_defn #ClassMechSys}
+###### Definition
+
+The [[opposite category]] of that of commutative real Poisson algebras we call the category of **classical mechanical systems**
+
+$$
+  ClassMechSys := CPoiss^{op}
+  \,.
+$$ 
+
+=--
+
++-- {: .num_example #ClassicalSystemFromPoissonManifold}
+###### Example
+
+For $(X, \{-,-\})$ a [[Poisson manifold]] or $(X, \omega)$ a [[symplectic manifold]], the algebra of [[smooth function]]s $C^\infty(X, \mathbb{R})$ is naturally a Poisson algebra, thus may be regarded as an object in $ClassMechSys$. For classical mechanical systems of this form, we say that the [[manifold]] $X$ is the [[phase space]] of the system.
+
+Generally, therefore, for $(A, \cdot,[-,-])$ a Poisson algebra, we may regard it as a formal dual to some generalized Phase space.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For $(A, \cdot, \{-,-\})$ a Poisson algebra, $A$ together with its [[module]] $\Omega^1(A)$ of [[Kähler differential]]s naturally form a [[Lie-Rinehart pair]], with bracket given by
+
+$$
+  [d a, d b ] := d \{a,b\}
+  \,.
+$$
+
+If the Poisson algebra comes from a [[Poisson manifold]] $X$, then this Lie-Rinehart pair is the [[Chevalley-Eilenberg algebra]] of the given [[Poisson Lie algebroid]] over $X$. We can therefore identify classical mechanical systems over a phase space manifold also with Poisson Lie algebroids. 
+
+=--
+
+
+### Observables and states
+
++-- {: .num_defn}
+###### Definition
+
+Given $S := (A,\cdot, \{-,-\})$ a classical mechanical system, we say
+
+* an **[[observable]]** of $S$ is an element $a \in A$, hence we call $A$ the **algebra of observables**;
+
+* a **[[state]]** of $S$ is 
+
+  * a [[linear function]] $\rho : A \to \mathbb{R}$;
+
+  * which is **positive** in that for all $a \in A$ we have that
+
+    $\rho(a \cdot a) \geq 0$.
+
+* a **[[pure state]]** of $S$ is a state that is not only a linear map, but even an algebra homomorphism $\rho : A \to \mathbb{R}$.
+
+Write $States((A, \cdot))$ for the set of states of $A$. 
+
+For $\rho \in States$ and $a \in A$ we say that $\rho(a)$ is the **value of the observable $a$ on the system in state $\rho$**.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If the classical mechanical system comes from a [[Poisson manifold]] $(X, \{-,-\})$ by 
+example \ref{ClassicalSystemFromPoissonManifold}, then the pure states correspond precisely to the points of the manifold $X$. So each point of $X$ is one _specific_ (= "pure") state that the mechanical system defined by $(X, \{-,-\})$ can be in, whereas a general state $\rho : A \to \mathbb{R}$ is a distribution of such specific states.
+
+=--
+
+### Flows and evolution
+
+Let $(A, \cdot, \{-,-\})$ be a classical mechanical system.
+
++-- {: .num_remark}
+###### Remark
+
+For any observable $a \in A$ we say that a **1-parameter flow induced by the observable** is, if it exists, an [[action]] of the [[real number]]s on the observables
+
+$$
+  F_a : \mathbb{R} \times A \to A
+$$
+
+which is [[differentiation|differentiable]] in $\mathbb{R}$ and satisfies for all $b \in A$ the [[differential equation]]
+
+$$
+  \frac{d}{d t} F_a(b) (t) = \{a,b\}
+  \,.
+$$
+
+=--
+
+In non-relativistic classical mechanics it makes sense to single out one element $H \in A$ and declare that the corresponding flow is the _time evolution_ of observables of the system. One calls this $H$ the **[[Hamiltonian]]** or **energy** observable of the system.
+
+### Quantization
+
++-- {: .num_defn}
+###### Definition
+
+Write $StarAlg_{\mathbb{C}}$ for the category of [[star-algebra]]s over the [[complex number]]s. 
+
+The [[opposite category]]
+
+$$
+  QuantMechSys := StarAlg^{op}
+$$
+
+we call the category of **[[quantum mechanical systems]]**.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $(A, \cdot, \{-,-\})$ a classical mechanical system, 
+def. \ref{ClassMechSys}, a **[[quantization]]** of it is -- if it exists --
+
+* a 1-parameter [[field of star-algebras]] $\{A_\hbar\}_{\hbar \in [0,\infty)}$;
+
+* such that in the limit $\hbar \to 0$ we have
+
+  1. $A_\hbar \to A_0 := A \otimes_{\mathbb{R}}\mathbb{C}$;
+
+  1. for all $a,b \in A_{\hbar}$: $\frac{1}{i \hbar } [a,b] = \{a,b\}$.
+
+Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-algebras such that $A = A_1$, then we call the clasical system $A_0$ its (or rather: a)**[[classical limit]]**.
+
+=--
+
 
 ## References
 
 * [[Klaas Landsman]], _[[Mathematical Topics Between Classical and Quantum Mechanics]]_
+ 
+
+[[!redirects classical mechanical system]]
+[[!redirects classical mechanical systems]]
