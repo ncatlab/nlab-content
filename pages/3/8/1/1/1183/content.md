@@ -1463,6 +1463,16 @@ Remember that these formulas are to be taken with a grain of salt. Quite some ad
 
   * [[background gauge field]]
 
+* [[brane]]
+
+  * [[particle]], [[string]], [[membrane]]
+
+* [[homological mirror symmetry]]
+
+  * [[A-model]], [[B-model]]
+
+  * [[Landau-Ginzburg model]]
+
 ## References 
 
 Standard references on nonlinear sigma-models in low dimension include
