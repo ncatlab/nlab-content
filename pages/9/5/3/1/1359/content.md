@@ -51,7 +51,9 @@ $$
 
 etc.
 
-for more see [[pretriangulated dg-category]].
+## Properties
+
+Passing from a [[dg-category]] to its category of twisted complexes is a step towrds enhancing it to a [[pretriangulated dg-category]].
 
 ## Related concepts
 
