@@ -29,9 +29,9 @@ The axioms of ETCS can be summed up in one sentence as:
 +-- {: .un_defn}
 ###### Definition
 
-The [[Set|category of sets]] is [[generalized the|the]] [[topos]] which is
+The [[Set|category of sets]] is [[generalized the|the]] [[topos]] which
 
-1. is [[well-pointed topos]] 
+1. is a [[well-pointed topos]] 
 
 1. has a [[natural numbers object]]
 
