@@ -174,7 +174,21 @@ A transformation which is natural only relative to [[isomorphisms]] may be calle
 For functors with more complicated shapes than $C \rightrightarrows D$, see [[extranatural transformation]] and [[dinatural transformation]].
 
 
-## Discussion 
+## Related entries
+
+* [[homotopy]]
+
+* [[transfor]]
+
+  * **natural transformation**
+
+    * [[extranatural transformation]], [[dinatural transformation]]
+
+  * [[pseudonatural transformation]]
+
+  * [[lax natural transformation]]
+
+
 
 * See [[natural transformation (discussion)]] for an informal discussion about natural transformations.
 
