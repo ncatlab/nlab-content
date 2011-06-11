@@ -104,8 +104,27 @@ These are both special cases of the entropy of a [[state]] on a $C^*$-[[C-star-a
 
 There is a way to fit this into the framework given by (eq:general), but I don\'t remember it (and never really understood it).
 
+### Relative entropy
+ {#RelativeEntropy}
 
-## Physical entropy
+For two finite probability distributions $(p_i)$ and $(q_i)$, their **relative entropy** is 
+
+$$
+  S(p/q) := \sum_{k = 1}^n p_k(log p_k - log q_k)
+  \,.
+$$
+
+
+Or alternatively, for $\rho, \phi$ two [[density matrix|density matrices]], their relative entropy is 
+
+$$
+  S(\rho/\phi) := tr \rho(log \rho - log \phi)
+  \,.
+$$
+
+There is a generalization of these definitions to [[state]]s on general [[von Neumann algebra]]s, due to ([Araki](#Araki)).
+
+### Physical entropy
 
 As hinted above, any probability distribution on a [[phase space]] in [[classical physics]] has an entropy, and any [[density matrix]] on a [[Hilbert space]] in [[quantum physics]] has an entropy.  However, these are __microscopic entropy__, which is not the usual entropy in [[thermodynamics]] and most other branches of [[physics]].  (In particular, microscopic entropy is conserved, rather than increasing with time.)
 
@@ -117,9 +136,16 @@ Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure s
 ## References
 {#References}
 
-Relative entropy of [[state]]s on  [[von Neumann algebra]]s was introduced in 
+[Relative entropy](#RelativeEntropy) of [[state]]s on  [[von Neumann algebra]]s was introduced in 
 
 * H. Araki, _Relative Entropy of States of von Neumann Algebras_ ([pdf](http://www.google.de/url?sa=t&source=web&cd=5&ved=0CEsQFjAE&url=http%3A%2F%2Fwww.ems-ph.org%2Fjournals%2Fshow_pdf.php%3Fissn%3D0034-5318%26vol%3D11%26iss%3D3%26rank%3D9&rct=j&q=entropy%20cocycle%20von%20Neumann%20algebra&ei=n3jrTYyxOI-c-waJvMnPDw&usg=AFQjCNGuJgVUE7CtGPmb2PZLhOOWt1_JPQ&cad=rja))
+ {#Araki}
+
+A characterization of [relative entropy](#RelativeEntropy) on finite-[[dimension]]al [[C-star algebra]]s is given in 
+
+* D. Petz, _Characterization of the relative entropy of states of matrix algebras_ ([pdf](http://www.renyi.hu/~petz/pdf/52.pdf))
+ {#Petz}
+
 
 A survey of entropy in [[operator algebra]]s is in 
 
