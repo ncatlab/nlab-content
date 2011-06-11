@@ -1,8 +1,20 @@
-* toc
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
 {: toc}
 
 
-# Idea
+## Idea
 
 **Extraordinary natural transformations**, or **extranatural transformations**, are what you get when you "bend the rules" for [[natural transformation]]s.  One intuitive approach to them is through [[string diagrams]]: every time you bend a string (that represents a component of a natural transformation) into a U-shape or upside-down U-shape, the U-shape represents a component of an extranatural transformation.  Thus, the rules for extranatural transformations mirror rules for ordinary [[natural transformations]], except they are bent into shapes with a covariant part and a contravariant part.  (Cf. interactions between particles and their corresponding [[antiparticle]]s.) 
 
@@ -13,7 +25,8 @@ The calculus of natural and extranatural transformations is a very simple string
 There is also a yet more general notion of [[dinatural transformation]].  However, there are few examples of dinatural transformations which are not extranatural.  Also, unlike extranatural transformations, dinatural transformations cannot be generalized to all [[enriched categories]] and do not admit a natural string diagram calculus.
 
 
-# Examples
+
+## Examples
 
 Consider the [[function set]] functor $\hom: Set^{op} \times Set \to Set$ (or more generally, the [[internal hom]] functor $\hom: V^{op} \times V \to V$ where $V$ is [[symmetric monoidal category|symmetric monoidal]] [[closed category|closed]]). The [[identity transformation]] $1: \hom \to \hom$ has components of the form 
 
@@ -54,7 +67,7 @@ As these examples indicate, instances of ordinary naturality are typically trans
 $$\varepsilon: F U \to 1 \qquad \eta: 1 \to U F$$
 
 
-# Formalization {#Defn}
+## Formalization {#Defn}
 
 Let $F\colon A\times B^{op}\times B \to D$ and $G\colon A\times C^{op}\times C\to D$ be functors.  A family of morphisms
 $$ \alpha_{a,b,c}\colon F(a,b,b) \to G(a,c,c) $$
@@ -120,7 +133,7 @@ Similarly, a transformation from $f\colon (A,B,A^{op},C^{op}) \to X$ to $g\colon
  </g>
 </svg>
 
-# Extranatural calculus
+## Extranatural calculus
 
 We set down a few basic lemmas which describe how extranatural transformations compose. These lemmas become very intuitive once one draws string diagrams to accompany them. (Cf. "yanking moves" in the string diagram calculus of adjunctions.)
 
@@ -155,11 +168,28 @@ In fact, these lemmas essentially capture "all possible" ways in which extranatu
 With the operation of "loop-free composition," extranatural transformations with a given target form a [[paracategory]].  And as we vary the source and target categories, they assemble into an [[extraordinary 2-multicategory]].
 
 
-# Profunctors
+## Profunctors
 
 One abstract way to describe the structure of extranatural transformations is as an [[extraordinary 2-multicategory]].  Another abstract structure, which arguably arises more naturally in practice (but also includes more data than necessary), is an [[compact closed category|compact closed]] monoidal [[bicategory]], [[double category]], or [[proarrow equipment]].
 
 More should go here, but for now see [[compact closed double category]].
+
+## Related concepts
+
+* [[homotopy]]
+
+* [[transfor]]
+
+  * [[natural transformation]]
+
+    * **extranatural transformation**, [[dinatural transformation]]
+
+  * [[pseudonatural transformation]]
+
+  * [[lax natural transformation]]
+
+
+
 
 
 [[!redirects extranatural transformations]]
