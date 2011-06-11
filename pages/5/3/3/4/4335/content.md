@@ -7,7 +7,7 @@
 [[!include 2-category theory - contents]]
 =--
 =--
-=--http://ncatlab.org/nlab/edit/pseudonatural+transformation
+=--
 
 #Contents#
 * table of contents
