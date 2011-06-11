@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -175,11 +175,20 @@ Also, if you reverse the definitions of lax and oplax transformations, then you 
 [[Mike Shulman]]: Please don't try to reverse the definitions of lax and oplax functors!  As far as I know everyone is consistent about those, regardless of the choices they make about lax and oplax transformations, so let's not create _additional_ confusion.  Lax functors have comparison maps that go $F g \circ F f\to F(g\circ f)$.
 =--
 
+## Related concepts
+
+* [[transfor]]
+
+* [[natural transformation]]
+
+* [[pseudonatural transformation]]
 
 ## References ##
 
-* Gray, [[Gray-adjointness-for-2-categories|Adjointness For
-2-Categories]]
+See the references at [[2-category]]. For instance
+
+* [[John Gray]], _[[Gray-adjointness-for-2-categories|Adjointness For
+2-Categories]]_
 
 * [[Tom Leinster]], _Basic bicategories_,
 [arXiv](http://arxiv.org/abs/math/9810017).
