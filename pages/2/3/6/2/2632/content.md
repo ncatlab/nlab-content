@@ -112,7 +112,7 @@ One also says that the internal classical mechanical system $(Sh(Com(A)), \under
 Given a $\ast$-algebra $A$ together with a [[state]] $\rho$ on it, the [[GNS construction]] provides an [[inner product space]] $H_\rho$ together an [[action]] of $A$ on $H_\rho$ and together with a [[vector]] $\Omega = \sqrt(\rho)$ -- the [[vacuum vector]]  -- such that for all $a \in A$ the value of the state $\rho : A \to \mathbb{C}$ is obtained by applying $a$ to $\sqrt{\rho}$ and then taking the inner product with $\sqrt \rho$:
 
 $$
-  \rho(A) = \langle \sqrt\rho, a \sqrt a\rangle
+  \rho(A) = \langle \sqrt\rho, a \sqrt \rho\rangle
   \,.
 $$
 
