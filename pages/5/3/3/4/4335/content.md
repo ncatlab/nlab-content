@@ -7,14 +7,13 @@
 [[!include 2-category theory - contents]]
 =--
 =--
-=--
+=--http://ncatlab.org/nlab/edit/pseudonatural+transformation
 
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
-
 
 A __pseudonatural transformation__ is a [[lax natural transformation]] whose $2$-cell components are all [[invertible 2-morphism|invertible]].  
 
@@ -33,7 +32,7 @@ V(r) & \underset{V(f)}{\to} & V(s)
 }
 $$ 
 
-such that the following pasting diagram equalities hold: 
+These 2-cells must be well-behaved on composition of 1-cells and on unit 1-cells in the following sense, where we leave [[compositor]]s and [[unitor]]s implicit:
 
 $$
 \array{
@@ -43,17 +42,18 @@ $$
 V(r) & \underset{V(f)}{\to} & V(s) & \underset{V(g)}{\to} & V(t) & & V(r) & \underset{V(g f)}{\to} & V(t) & & & 
 }$$
 
-(where the [[compositor]]s are left implicit)
-
-and
-
 $$\array{
 U(r) & \stackrel{U(1_r)}{\to} & U(r) & & \\
 \phi(r) \downarrow & \phi(1_r) \swArrow & \downarrow \phi(r) & = & 1_{\phi(r)} \\
 V(r) & \underset{V(1_r)}{\to} & V(r) & & 
 }$$
 
-and one more, expressing the naturality of the components at the level of [[2-morphisms]].
+We also require the maps $\phi(r)$ to satisfy a naturality property, for every 1-cell $f:s \to t$ in $S$:
+
+$$\array{
+x
+}$$
+
 
 =-- 
 
