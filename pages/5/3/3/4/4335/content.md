@@ -48,7 +48,7 @@ V(r) & \underset{V(f)}{\to} & V(s) & \underset{V(g)}{\to} & V(t) & & V(r) & \und
 and
 
 $$\array{
- U(r) & \stackrel{U(1_r)}{\to} & U(r) & & \\
+U(r) & \stackrel{U(1_r)}{\to} & U(r) & & \\
 \phi(r) \downarrow & \phi(1_r) \swArrow & \downarrow \phi(r) & = & 1_{\phi(r)} \\
 V(r) & \underset{V(1_r)}{\to} & V(r) & & 
 }$$
@@ -56,7 +56,6 @@ V(r) & \underset{V(1_r)}{\to} & V(r) & &
 and one more, expressing the naturality of the components at the level of [[2-morphisms]].
 
 =-- 
-
 
 ## Related concepts
 
@@ -71,8 +70,6 @@ and one more, expressing the naturality of the components at the level of [[2-mo
   * **pseudonatural transformation**
 
   * [[lax natural transformation]]
-
-
 
 [[!redirects pseudonatural transformation]]
 [[!redirects pseudonatural transformations]]
