@@ -63,4 +63,8 @@ See also the book
 
 * Peter Freyd, Abelian categories, Harper 1966. 
 
+The duality of Grothendieck categories with categories of modules over [[linearly compact ring]]s is discussed in
+
+*  U. Oberst, _Dualtiy theory for Grothendieck categories and linearly compact rings_, J. Algebra, 15 (1970), p. 473 --542.
+
 [[!redirects Grothendieck categories]]
