@@ -22,11 +22,11 @@
 
 A _simplicial model category_ is a model or presentation for an [[(∞,1)-category]] that is half way in between a bare [[model category]] and a [[Kan complex]]-[[enriched category]].
 
-Specifically, a simplicial model category is an [[SSet]]-[[enriched category]] $C$ together with the structure of a [[model category]] on its underlying [[category]] $C_0$ such that both structures are compatible in a reasonable way.
+Specifically, a simplicial model category is an [[sSet]]-[[enriched category]] $C$ together with the structure of a [[model category]] on its underlying [[category]] $C_0$ such that both structures are compatible in a reasonable way.
 
-One important use of simplicial model categories comes from the fact that the full [[SSet]]-subcategory $C^\circ \hookrightarrow C$ on the fibrant-cofibrant objects -- which is not just [[SSet]]-enriched but actually [[Kan complex]]-enriched -- is the [[(∞,1)-category]]-enhancement of the [[homotopy category]] of the [[model category]] $C_0$.
+One important use of simplicial model categories comes from the fact that the full [[sSet]]-subcategory $C^\circ \hookrightarrow C$ on the fibrant-cofibrant objects -- which is not just [[sSet]]-enriched but actually [[Kan complex]]-enriched -- is the [[(∞,1)-category]]-enhancement of the [[homotopy category]] of the [[model category]] $C_0$.
 
-For generalizations of this construction with [[SSet]] replaced by another [[monoidal model category]] see [[enriched homotopical category]].
+For generalizations of this construction with [[sSet]] replaced by another [[monoidal model category]] see [[enriched homotopical category]].
 
 
 
@@ -39,7 +39,7 @@ This means that a simplicial model category is
 
 * an [[sSet]]-[[enriched category]]
 
-  * which is [[power]]ed and [[copower]]ed over [[SSet]]
+  * which is [[power]]ed and [[copower]]ed over [[sSet]]
 
 * with the structure of a [[model category]] on the underlying category $C_0$
 
@@ -204,7 +204,9 @@ For instance the [[Andre Joyal]]-[[model structure for quasi-categories]] is an 
 
 section 9.1.5 of
 
-* Hirschhorn, _Model categories and their localization_
+* [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 
+of Mathematical Surveys and Monographs , American Mathematical Society, 
+2009.
 
 section A.3 in
 
