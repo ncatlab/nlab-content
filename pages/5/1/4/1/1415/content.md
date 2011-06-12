@@ -646,8 +646,6 @@ Finally, here's the same but run through the command-line version of scour:
 </svg>
 
 
-
-
 category: meta
 
 [[!redirects Sandbox > SVG]]
