@@ -1,9 +1,9 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 _Geometric quantization_ is the approach of Kirillov ("orbit method"), Kostant and Souriau for attaching a [[Hilbert space]] to a [[symplectic manifold]] with a [[line bundle]] with [[connection]], provided the symplectic manifold satisfies certain quantization conditions.
 
@@ -26,7 +26,7 @@ Blog discussion of this is at
 * [Landsman on Quantization of Poisson Algebras Associated to Lie Algebroids](http://golem.ph.utexas.edu/category/2008/06/landsmanon_quantization_of_poi.html)
 
 
-# Overview #
+## Overview 
 
 Geometric quantization is a marvelous tool for understanding the relation between classical physics and [[quantum field theory|quantum physics]]. However, it's a bit like a power tool -- you have to be an expert to operate it without running the risk of seriously injuring your brain. Here's a brief sketch of how it goes. This is pretty terse; for the details you'll have to read the series of articles on geometric quantization on the sci.physics.research archive.
 
@@ -52,7 +52,7 @@ Geometric quantization is a marvelous tool for understanding the relation betwee
 
 1. The next step is to *quantize classical observables*, turning them into linear operators on the quantum Hilbert space $H$. Unfortunately, we can't quantize all such observables while still sending [[Poisson bracket]]s to [[commutator]]s, as we did at the prequantum level. So at this point things get trickier and my brief outline will stop. Ultimately, the reason for this problem is that quantization is not a [[functor]] from the [[category]] of symplectic manifolds to the category of Hilbert spaces -- but for that one needs to learn a bit about [[category theory]]. 
 
-# Basic Jargon # 
+## Basic Jargon 
 
 Here are some definitions of important terms. Unfortunately they are defined using other terms that you might not understand. If you are really mystified, you need to read some books on [[differential geometry]] and the math of [[classical mechanics]] before proceeding.
 
@@ -111,11 +111,27 @@ Here are some definitions of important terms. Unfortunately they are defined usi
 
 >The only way to learn the rules of this Game of games is to take the usual prescribed course, which requires many years, and none of the initiates could ever possibly have any interest in making these rules easier to learn. --- Hermann Hesse, The Glass Bead Game
 
-# of Poisson manifolds #
+## of Poisson manifolds 
 
 One can also consider the theory of geometric quantization of just [[Poisson manifold]]s. This is done in terms of [[symplectic groupoid]]s.
 
-#References#
+## Related concepts
+
+* [[reductions deformations resolutions in physics]]
+
+* [[quantization]]
+
+  * [[deformation quantization]]
+
+  * **geometric quantization**
+
+  * [[path integral]]
+
+  * [[semiclassical approximation]]
+
+
+
+## References
 
 many references should go here. 
 
