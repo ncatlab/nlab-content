@@ -62,3 +62,4 @@ The fully general description for [[connections on ∞-bundles]] is at
 * [[∞-groupoid of ∞-Lie-algebra valued forms]].
 
 [[!redirects gauge transformations]]
+[[!redirects gauge symmetry]]
