@@ -9,7 +9,9 @@
 =--
 =--
 
-
++--{: .query}
+The SVG figures are still not displaying completely properly. The text labels seem to be almost all left aligned, while some of them should be right or center aligned. In particular, the (?) in the last figure should be centered. --Igor
+=--
 
 # Reductions, deformations, and resolutions in the service of physics 
 * table of contents
