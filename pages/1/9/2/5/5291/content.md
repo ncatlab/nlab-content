@@ -22,18 +22,20 @@ A **Poisson algebra** is
 
 * a [[module]] $A$ over some [[field]] or other [[commutative ring]] $k$,
 
-* equipped with the structure ${\cdot}\colon A \otimes_k A \to A$ of an [[associative algebra]];
+* equipped with the structure ${\cdot}\colon A \otimes_k A \to A$ of a commutative [[associative algebra]];
 
-* and equipped with the structure $[-,-]\colon A \otimes_k A \to A$ of a [[Lie algebra]];
+* and equipped with the bracket $[-,-]\colon A \otimes_k A \to A$ of a [[Lie algebra]];
 
 * such that for every $a \in A$ we have that $[a,-]\colon A \to A$ is a [[derivation]] of $(A,\cdot)$.
 
 =--
 
+The definition makes sense, but is not standardly used, also for the more general case when the product $\cdot$ is not necessarily commutative (it is often however taken in the sense of commutative internally to a symmetric monoidal category, say of chain complexes, graded vector spaces or supervector spaces). 
 +-- {: .num_defn}
+
 ###### Definition
 
-The [[opposite category]] of that of commutative real Poisson algebras can be identified with the category of **[[classical mechanical systems]]**
+The [[opposite category]] of that of (commutative) real Poisson algebras can be identified with the category of **[[classical mechanical systems]]**
 
 $$
   ClassMechSys := CPoiss^{op}
@@ -80,7 +82,9 @@ If the Poisson algebra comes from a [[Poisson manifold]] $X$, then this Lie-Rine
 
 ## References
 
-* Encyclopedia of mathematics _Poisson algebra_ ([pdf](http://www.math.polytechnique.fr/~kosmann/palg.pdf))
-
+* Yvette Kosmann-Schwarzbach,  _Poisson algebra_, article in Encyclopedia of mathematics, [pdf](http://www.math.polytechnique.fr/~kosmann/palg.pdf)
+* [[Klaas Landsman]], [[Mathematical Topics Between Classical and Quantum Mechanics]]
+* N. Chriss, [[Victor Ginzburg]], _Complex geometry and representation theory_
+* [[P. Olver]], _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995
 [[!redirects Poisson algebra]]
 [[!redirects Poisson algebras]]
