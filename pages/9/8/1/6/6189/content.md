@@ -9,13 +9,6 @@
 =--
 =--
 
-+-- {: .query}
-
-There is still some technical problem with the display of the figures in the following. For instance all arrow heads are missing.
-
-_Igor_: The problem appears to be in the fact that the wiki software processes the SVG code before embedding it. The embedded version is thus a corrupted and broken version of the original. The original SVG code displays fine for me.
-
-=--
 
 
 # Reductions, deformations, and resolutions in the service of physics 
@@ -120,7 +113,7 @@ above.
 * Classical and quantum mechanics
 :	* algebraic structure of [[classical mechanics]]
 :	* algebraic structure of [[quantum mechanics]]
-:	* [[classical limit]] and ([[deformation|quantization|deformation]]) [[quantization]]
+:	* [[classical limit]] and ([[deformation quantization|deformation]]) [[quantization]]
 * Classical and quantum field theory
 :	* geometry of [[space-time]]
 :	* algebraic and geometric structure of [[classical field theory]]
@@ -129,7 +122,7 @@ above.
 :	* space-time, field content, dynamics
 :	* [[phase space|(covariant) phase space]]
 :	* algebra of [[observables]]
-:	* ( [[deformation quantization|deformation]] ) [[quantization]]
+:	* (deformation) [[quantization]]
 * Examples of field theories
 :	* [[scalar field]] (Klein-Gordon)
 :	* vector field ([[electromagnetism|Maxwell]], [[Yang-Mills theory|Yang-Mills]])
