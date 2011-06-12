@@ -1,146 +1,17 @@
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="343.37946"
-   height="150.83868"
-   id="svg26671"
-   version="1.1"
-   inkscape:version="0.48.0 r9654"
-   sodipodi:docname="pg-arr.svg">
-  <defs
-     id="defs26673">
-    <marker
-       inkscape:stockid="Arrow1Mstart"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Mstart"
-       style="overflow:visible">
-      <path
-         inkscape:connector-curvature="0"
-         id="path9741"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(0.4,0,0,0.4,4,0)" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Mstart"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker26656"
-       style="overflow:visible">
-      <path
-         inkscape:connector-curvature="0"
-         id="path26658"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(0.4,0,0,0.4,4,0)" />
-    </marker>
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="176.85192"
-     inkscape:cy="82.963008"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="10"
-     fit-margin-left="10"
-     fit-margin-right="10"
-     fit-margin-bottom="10"
-     inkscape:window-width="1020"
-     inkscape:window-height="725"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0" />
-  <metadata
-     id="metadata26676">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-165.45314,-474.0857)">
-    <g
-       transform="translate(-35.617355,-495.28021)"
-       id="g26291">
-      <path
-         sodipodi:nodetypes="czc"
-         inkscape:connector-curvature="0"
-         id="path9542-1-26-5"
-         d="m 273.99626,1026.0982 c 0,0 41.45331,-25.2538 95.71196,-25.2538 54.25865,0 95.71196,25.2538 95.71196,25.2538"
-         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart)" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text25968"
-         y="987.69208"
-         x="369.24484"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-         xml:space="preserve"><tspan
-           y="987.69208"
-           x="369.24484"
-           id="tspan25970"
-           sodipodi:role="line">quotient by gauge</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text25972"
-         y="1109.9409"
-         x="369.01047"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-         xml:space="preserve"><tspan
-           id="tspan25986"
-           y="1109.9409"
-           x="369.01047"
-           sodipodi:role="line">BV-BRST</tspan></text>
-      <path
-         sodipodi:nodetypes="czc"
-         inkscape:connector-curvature="0"
-         id="path9542-1-26-5-5"
-         d="m 464.21217,1066.1274 c 0,0 -41.45331,25.2538 -95.71196,25.2538 -54.25865,0 -95.71196,-25.2538 -95.71196,-25.2538"
-         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0;marker-start:url(#Arrow1Mstart)" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text26258"
-         y="1050.4711"
-         x="466.10522"
-         style="font-size:17.43305016px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-         xml:space="preserve"><tspan
-           y="1050.4711"
-           x="466.10522"
-           id="tspan26260"
-           sodipodi:role="line">w/ghosts</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text26262"
-         y="1050.3732"
-         x="272.14575"
-         style="font-size:17.43305016px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-         xml:space="preserve"><tspan
-           y="1050.3732"
-           x="272.14575"
-           id="tspan26264"
-           sodipodi:role="line">physical</tspan></text>
-    </g>
-  </g>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="150.84" width="343.38" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<defs>
+<marker id="Arrow1Mstart" refY="0" refX="0" orient="auto" style="overflow:visible">
+<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.4 0 0 .4 4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+</defs>
+<g transform="translate(-165.45 -474.09)">
+<g transform="translate(-35.617 -495.28)">
+<path d="m274 1026.1s41.453-25.254 95.712-25.254 95.712 25.254 95.712 25.254" marker-start="url(#Arrow1Mstart)" stroke="#000" stroke-width="2" fill="none"/>
+<text style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" line-height="125%" font-size="12px" y="987.69208" x="369.24484" font-family="cmr10" xml:space="preserve" fill="#000000"><tspan y="987.69208" x="369.24484">quotient by gauge</tspan></text>
+<text style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" line-height="125%" font-size="12px" y="1109.9409" x="369.01047" font-family="cmr10" xml:space="preserve" fill="#000000"><tspan y="1109.9409" x="369.01047">BV-BRST</tspan></text>
+<path d="m464.21 1066.1s-41.453 25.254-95.712 25.254-95.712-25.254-95.712-25.254" marker-start="url(#Arrow1Mstart)" stroke="#000" stroke-dasharray="6, 6" stroke-width="2" fill="none"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-size="17.433px" line-height="125%" y="1050.4711" x="466.10522" font-family="cmr10" xml:space="preserve" fill="#000000"><tspan y="1050.4711" x="466.10522">w/ghosts</tspan></text>
+<text style="word-spacing:0px;letter-spacing:0px;text-anchor:end;text-align:end" line-height="125%" font-size="17.433px" y="1050.3732" x="272.14575" font-family="cmr10" xml:space="preserve" fill="#000000"><tspan y="1050.3732" x="272.14575">physical</tspan></text>
+</g>
+</g>
 </svg>
