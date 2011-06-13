@@ -25,11 +25,27 @@ For a theoretical classical mechanics one often starts with a concrete system of
 
 A terminological and scope discussion is archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2807&Focus=23543#Comment_23543).
 
-## Definition
+## Formalisms
+
+The fundamental distinction is between open and closed mechanical systems. Open systems have exchange of energy with the rest of universe, that is with the energy sources or sinks which are not described by the mechanical system: for example the energy can be absorbed through forces from external bodies not belonging to the system but accounted in terms of such forces, or the energy can be lost by heating (described by friction force and alike). Closed systems are conservative in energetic sense. The terminology open/closed is wider than conservative/nonconservative, as it pertains also to statistical and quantum systems. 
+
+The standard formalisms for classical mechanics are Newtonian mechanics, Lagrangean formalism, and the Hamiltonian formalism which can be studied in the generality of symplectic manifolds and more general (allowing degeneracies) formalism of Poisson manifolds; Poisson manifolds can generalize to he study of somewhat nonclassically to (the opposite of) more general Poisson algebras. 
+
+### Newtonian formalism
+
+...
+
+### Lagrangean formalism
+
+...
+
+### Hamiltonian formalism and symplectic manifolds
+
+...
+
+###  Mechanical systems based on Poisson algebras
 
 We set up some basic notions of classical mechanics. 
-
-### Classical mechanical systems
 
 +-- {: .num_defn}
 ###### Definition
@@ -195,7 +211,7 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 =--
 
 
-## Related concepts
+## Literature and related entries
 
 * **classical mechanics**
 
@@ -213,12 +229,11 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 
   * [[FQFT]], [[AQFT]]
 
+#### References
 
-
-## References
-
+* [[V. Arnold]], _Mathematical methods of classical mechanics_
 * [[Klaas Landsman]], _[[Mathematical Topics Between Classical and Quantum Mechanics]]_
- 
+* Lev Landau, Lifschitz, _Classical mechanics_, vol. I of the [[Landau-Lifschitz|Course of theoretical physics]]
 
 [[!redirects classical mechanical system]]
 [[!redirects classical mechanical systems]]
