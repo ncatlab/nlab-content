@@ -20,7 +20,7 @@
 
 A _principal 2-bundle_ is the generalization of a $G$-[[principal bundle]] over a [[group]] $G$ to a principal structure over a [[2-group]]. It is a special case of a [[principal ∞-bundle]].
 
-For $G = AUT(H)$ the [[automorphism 2-group]] of a group $G$, $G$-principal bundles are equivalent to $H$-[[gerbe]] (see [[gerbe (general idea)]] for more background.). An $H$-[[nonabelian bundle gerbe]] is a model for the total space of an $AUT(H)$-principal 2-bundle.
+For $G = AUT(H)$ the [[automorphism 2-group]] of a group $H$, $G$-principal bundles are equivalent to $H$-[[gerbe]] (see [[gerbe (general idea)]] for more background.). An $H$-[[nonabelian bundle gerbe]] is a model for the total space of an $AUT(H)$-principal 2-bundle.
 
 An expository introduction to the concepts is at [[infinity-Chern-Weil theory introduction]].
 
