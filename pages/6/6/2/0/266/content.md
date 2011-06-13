@@ -705,3 +705,5 @@ For uses of Kan extension in the study of [[algebra over a Lawvere theory|algebr
 [[!redirects right Kan extensions]]
 [[!redirects right kan extension]]
 [[!redirects right kan extensions]]
+[[!redirects pointwise Kan extension]]
+[[!redirects pointwise Kan extensions]]
