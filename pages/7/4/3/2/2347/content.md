@@ -42,11 +42,12 @@ $$
 
 that makes $A$ into a [[Lie algebra]] such that for each element $a \in A$ the operation $[a,-] : A \to A$ is a [[derivation]] of the product $\cdot : A \otimes A \to A$.
 
-This definition is rarely used, but it makes sense also when $\cdot$ is not commutative. 
-A _[[homomorphism]]_ $(A, \dot, [-,-]) \to (B, \cdot, [-,-])$ of Poisson algebras is a [[linear function]] $A \to B$ that respects both the associative product and the Lie bracket.
+As real _super Poisson algebra_ is accordingly a [[superalgebra]] which is graded-commutative and equipped with the compatible structure of a [[super Lie algebra]].
 
-Write [[Poiss]] for the resulting category of (not necessarily commutative)
-Poisson algebras. Write $CPoiss \subset Poiss$ for the [[full subcategory]] on those Poisson algebras whose underlying [[associative algebra]] is commutative.
+A _[[homomorphism]]_ $(A, \dot, [-,-]) \to (B, \cdot, [-,-])$ of (super) Poisson algebras is a [[linear function]] $A \to B$ that respects both the associative product and the Lie bracket.
+
+Write [[Poiss]] for the resulting category of 
+(super) Poisson algebras. 
 
 =--
 
@@ -54,12 +55,26 @@ Poisson algebras. Write $CPoiss \subset Poiss$ for the [[full subcategory]] on t
 +-- {: .num_defn #ClassMechSys}
 ###### Definition
 
-The [[opposite category]] of that of commutative real Poisson algebras we call the category of **classical mechanical systems**
+The [[opposite category]] of that of commutative real (super) Poisson algebras we call the category of **classical mechanical systems**
 
 $$
   ClassMechSys := CPoiss^{op}
   \,.
 $$ 
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Poisson superalgebras describe systems with [[fermion]]s. Systems without fermions may be described by plain Poisson algebras.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This definition captures most notions of "mechanical systems". Exceptions contain non-fundamental systems such as [[dissipative systems]] (which are really approximations to a larger system that _is_ given by a Poisson algebra ).
 
 =--
 
