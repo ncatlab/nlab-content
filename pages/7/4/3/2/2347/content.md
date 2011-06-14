@@ -69,7 +69,14 @@ Write [[Poiss]] for the resulting category of
 
 The standard setup of conservative classical mechanical system is a Poisson manifold. 
 
-A [[Poisson manifold]] is a smooth real manifold $M$ equipped with a Poisson structure (that is the Poisson bracket) on the commutative algebra $C^\infty(M)$ of smooth real valued functions on $M$. Recall that every [[symplectic manifold]] provides an example of a Poisson manifold. Possibly infinite-dimensional generalization of this example is called a [[phase space]]. Hence commutative Poisson algebras should be viewed as formal opposites to phase spaces in a generalized sense. 
++-- {: .num_defn #PoissonManifoldExample}
+###### Definition - principal example
+
+A [[Poisson manifold]] is a smooth real manifold $M$ equipped with a Poisson structure (that is the Poisson bracket) on the commutative algebra $C^\infty(M)$ of smooth real valued functions on $M$. 
+=--
+
+Recall that every [[symplectic manifold]] provides an example of a Poisson manifold. Possibly infinite-dimensional generalization of this example is called a [[phase space]]. Hence commutative Poisson algebras should be viewed as formal opposites to phase spaces in a generalized sense. 
+
 
 +-- {: .num_defn #ClassMechSys}
 ###### Definition
@@ -143,7 +150,7 @@ For $\rho \in States$ and $a \in A$ we say that $\rho(a)$ is the **value of the 
 ###### Remark
 
 If the classical mechanical system comes from a [[Poisson manifold]] $(X, \{-,-\})$ by 
-example \ref{ClassicalSystemFromPoissonManifold}, then the pure states correspond precisely to the points of the manifold $X$. So each point of $X$ is one _specific_ (= "pure") state that the mechanical system defined by $(X, \{-,-\})$ can be in, whereas a general state $\rho : A \to \mathbb{R}$ is a distribution of such specific states.
+example \ref{PoissonManifoldExample}, then the pure states correspond precisely to the points of the manifold $X$. So each point of $X$ is one _specific_ (= "pure") state that the mechanical system defined by $(X, \{-,-\})$ can be in, whereas a general state $\rho : A \to \mathbb{R}$ is a distribution of such specific states.
 
 =--
 
