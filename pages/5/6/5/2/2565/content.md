@@ -14,11 +14,27 @@ More precisely,
 
 One of the founders of the subject is Shun-ichi [Amari](http://www.brain.riken.jp/labs/mns/amari/home-E.html).
 
+## Definitions
+
+For $X$ a [[measurable space]] let $S$ be (a subspace of) the space of probability [[measure]]s on $X$, equipped with the structure of a [[smooth manifold]].
+
+The **Fisher metric** on $S$ is the [[Riemannian metric]] given on two [[vector field]]s $v,w \in T S$ by
+
+$$
+  g(v,w)_s := E_s( v(log s) w(log s))
+  \,,
+$$
+
+where $E_s(\cdots)$ denotes the [[expectation value]] under the measure $s \in S$ of the function $x \mapsto  v(log s)_x w(log s)_x$ on $X$.
+
+For instance ([Amari, (2.1)](#AmariTextbook)).
+
 ## References
 
 A textbook providing the big picture is
 
 * Shun-ichi Amari, O. E. Barndorff-Nielsen, R. E. Kass, S. L. Lauritzen, and C. R. Rao, _Differential geometry in statistical inference_ ([project Euclid](http://projecteuclid.org/euclid.lnms/1215467056))
+ {#AmariTextbook}
 
 *  Shun-ichi Amari, Hiroshi Nagaoka, _Methods of information geometry_, Transactions of mathematical monographs; v. 191, American Mathematical Society, 2000. 
 
