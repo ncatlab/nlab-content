@@ -17,4 +17,4 @@ Of course, if $C$, $D$, $F$, and $G$ are [[symmetric monoidal category|symmetric
 
 ## References
 
-* Alain Brugui&#232;resa, [[Steve Lack]], and Alexis Vireliziera, _Hopf monads on monoidal categories_.  Adv. Math. 227 No. 2, June 2011, pp 745--800.
+* Alain Brugui&#232;res, [[Steve Lack]], Alexis Virelizier, _Hopf monads on monoidal categories_,  Adv. Math. __227__ No. 2, June 2011, pp 745--800, [arxiv/0812.2443](http://arxiv.org/abs/0812.2443)
