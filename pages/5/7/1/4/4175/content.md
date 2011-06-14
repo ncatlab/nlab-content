@@ -17,7 +17,7 @@ A __monoidal monad__ on a monoidal category is a monad whose underlying endofunc
 * D. Chikladze, S. Lack, [[R. Street]], _Hopf monoidal comonads_, Theorya and Appl. of Cat. __24__ (2010) No. 19, 554-563.[tac](http://www.tac.mta.ca/tac/volumes/24/19/24-19abs.html)
 * A. Brugui&#232;res, _Hopf monads_, [math.QA/0604180](http://arxiv.org/abs/math/0604180); _Hopf monads: an introduction_, an expos&#232;, [pdf](http://www.cirm.univ-mrs.fr/videos/2006/exposes/23/Bruguieres.pdf); _Hopf monads, tensor categories and quantum invariants_, an expos&#232;, [pdf](http://www.cirm.univ-mrs.fr/videos/2008/exposes/307/Bruguiere.pdf)
 * Alain Brugui&#232;res, Steve Lack, Alexis Virelizier, _Hopf monads on monoidal categories_, [arxiv/1003.1920](http://arxiv.org/abs/1003.1920)
-* A. Brugui&#232;res, A. Virelizier, _The double of a Hopf monad_, [arxiv/0812.2443](http://arxiv.org/abs/0812.2443)
+* A. Brugui&#232;res, A. Virelizier, _The double of a Hopf monad_, Adv. Math. __227__ No. 2, June 2011, pp 745--800, [arxiv/0812.2443](http://arxiv.org/abs/0812.2443)
 * Group = Hopf algebra, blog discussion, [sbseminar](http://sbseminar.wordpress.com/2007/10/07/group-hopf-algebra)
 * Marek Zawadowski, _The formal theory of monoidal monads_, [arxiv/1012.0547](http://arxiv.org/abs/1012.0547)
 * M. Zawadowski, _coMalcev monads_, slides from a talk, [pdf](http://duch.mimuw.edu.pl/~zawado/Talks/coMalcev_talk.pdf)
