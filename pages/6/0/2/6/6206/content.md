@@ -1,0 +1,23 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _Wasserstein metric_ is a certain [[Riemannian metric]] over a space of [[probability measure]]s on a [[measurable space]] $X$.
+
+By ([JKO](#JKO)) we have that the  [[heat flow]] on $X$ is the [[gradient flow]] of the [[entropy|Boltzman-Shannon entropy]] functional with respect to the Wasserstein metric.
+
+## References
+
+The characterization of heat flow as the gradient flow of Shannon-entropy is due to
+
+* R. Jordan, D. Kinderlehrer, and F. Otto, _The variational formulation of the Fokker-Planck equation_ , SIAM J. Math. Anal. 29 (1998), no. 1, 1{17.
+ {#JKO}
+
+The analog of this for finite probability spaces is discussed in 
+
+* Jan Maas, _Gradient flows of the entropy for finite Markov chains_ ([pdf](http://www.janmaas.org/papers/discrete.pdf))
+
+[[!redirects Wasserstein metrics]]
