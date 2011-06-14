@@ -94,7 +94,7 @@ We (have to) distinguish the following cases:
 
    These define the extension of an entire functor, by an [[adjunct|adjointness]] relation. 
 
-   Here we (have to) distinguish futher between
+   Here we (have to) distinguish further between
 
    1. [global Kan extensions](#GlobalKanExtensions),
 
