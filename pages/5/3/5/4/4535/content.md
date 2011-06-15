@@ -19,10 +19,16 @@
 
 ## Idea
 
-The [[spacetime]] that describes a [[black hole]] with a given mass. And nothing else.
+The [[spacetime]] that describes a [[black hole]] with a given [[mass]]. And nothing else.
 
 ## Generalizations
 
 * [[Kerr spacetime]]
 
 * [[Reissner-Nordstrom spacetime]]
+
+[[!redirects Schwarzschild spacetimes]]
+
+
+[[!redirects Schwarzschild black hole]]
+[[!redirects Schwarzschild black holes]]
