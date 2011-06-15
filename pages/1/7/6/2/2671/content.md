@@ -58,3 +58,9 @@ The additional [[fermion]]ic field $\Psi$ is the [[gravitino]] field.
 
 * [[Chern-Simons gravity]]
 
+
+* gravitational entropy
+
+  * [[Bekenstein-Hawking entropy]]
+
+  * [[generalized second law of thermodynamics]]
