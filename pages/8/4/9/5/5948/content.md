@@ -1,6 +1,6 @@
 ##A bit of history
 
-In his monograph on (co-)extensions of monoids, Leech introduced a construction that had also been used for other purposes by MacLane.  A short time later Charles Wells distributed a preprint which made the short trip from monoids to small categories with a fixed set of objects.  This introduced the constructions below but then the subject lay fallow until work by [[Baues]] and Wirshing introduced what is now usually called [[Baues-Wirsching cohomology]].
+In his monograph on (co-)extensions of monoids, Leech introduced a construction that had also been used for other purposes by MacLane, see [[twisted arrow category]].  A short time later Charles Wells distributed a preprint which made the short trip from monoids to small categories with a fixed set of objects.  This introduced the constructions below but then the subject lay fallow until work by [[Baues]] and Wirshing introduced what is now usually called [[Baues-Wirsching cohomology]].
   
 ##Factorisation category
 
@@ -55,3 +55,4 @@ where the product is over all $i_n\stackrel{x_n}\longrightarrow \ldots \stackrel
 http://www.cwru.edu/artsci/math/wells/pub/pdf/catext.pdf).
 
 [[!redirects natural system]]
+[[!redirects category of factorisations]]
