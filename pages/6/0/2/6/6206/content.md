@@ -13,7 +13,7 @@ By ([JKO](#JKO)) we have that the  [[heat flow]] on $X$ is the [[gradient flow]]
 
 The characterization of heat flow as the gradient flow of Shannon-entropy is due to
 
-* R. Jordan, D. Kinderlehrer, and F. Otto, _The variational formulation of the Fokker-Planck equation_ , SIAM J. Math. Anal. 29 (1998), no. 1, 1{17.
+* R. Jordan, D. Kinderlehrer, F. Otto, _The variational formulation of the [[Fokker-Planck equation]]_ , SIAM J. Math. Anal. 29 (1998), no. 1, 1-17.
  {#JKO}
 
 The analog of this for finite probability spaces is discussed in 
