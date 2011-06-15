@@ -1090,8 +1090,18 @@ from observation \ref{LongFiberSequenceOnLieAlgebras} of the [[string Lie 2-alge
 
 * [[string structure]],  **differential string structure**
 
-* [[fivebrane structure]], [[differential fivebrane structure]]
+* [[fivebrane structure]],
 
+* [[twisted differential c-structure]]
+
+  * **differential string structure**
+
+  * [[supergravity C-field]]
+
+  * [[differential fivebrane structure]]
+
+  * [[differential T-duality]]
+  
 ## References
 
 A discussion of differential string structures in terms of [[bundle 2-gerbe]]s is given in
@@ -1111,9 +1121,8 @@ The local data for the [[∞-Lie algebra valued differential forms]] for the des
 
 The full Cech-Deligne cocycles induced by this (but not yet the homotopy fibers over them) were discussed in
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cocycles for differential characteristic classes_ (
-<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+%28%E2%88%9E%2C1%29-topos+--+references#FSS">web</a>)
-{#FSS}
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], 
+  _[[schreiber:Cech cocycles for differential characteristic classes]]_ 
 
 Th 2-group $String^{\mathbf{c}_2}$ and its differential structurs, etc. are discussed in 
 
