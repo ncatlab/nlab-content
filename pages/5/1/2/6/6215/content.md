@@ -1,0 +1,7 @@
+
+* [website](http://www-theory.lbl.gov/~horava/)
+
+
+[[!redirects Petr Horava]]
+
+category: people
