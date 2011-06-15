@@ -1,0 +1,6 @@
+In [[nonstandard analysis]], a monad is a set of all points infinitesimally close to a fixed point (which can be taken a standard point). 
+
+* wikipedia [Monad (non-standard analysis)](http://en.wikipedia.org/wiki/Monad_%28non-standard_analysis%29)
+
+[[!redirects monad in non-standard analysis]]
+[[!redirects monads in nonstandard analysis]]
