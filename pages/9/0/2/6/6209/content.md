@@ -1,0 +1,33 @@
+
+
+# Baire spaces
+* table of contents
+{: toc}
+
+## Idea
+
+A Baire space is a [[topological space]] that satisfies the conclusion of the [[Baire category theorem]].
+
+It should not be confused with the [[space of irrational numbers]] (sometimes called 'Baire space' and coincidentally an example of a Baire space in our sense) or a [[Baire set]] (a [[subset]] somewhat analogous to a [[measurable set]] but defined by a topological property).
+
+
+## Definition
+
+A __Baire space__ is a [[topological space]] such that the [[intersection]] of any [[countable family]] of [[dense subspace|dense]] [[open subspace|open]] subspaces is also dense.
+
+
+## Examples
+
+*  The space of [[irrational numbers]], or equivalently of [[infinite sequences]] of [[natural numbers]], is a Baire space.  (This is not a very important example, except that this space is coincidentally also called 'Baire space'.)
+
+*  Any [[complete metric space]] (or rather its [[underlying]] topological space) is a Baire space.
+
+*  Any [[locally compact Hausdorff space]] is a Baire space.
+
+*  Any [[open subspace]] of a Baire space is also a Baire space.
+
+*  Any [[product space|product]] of Baire spaces is a Baire space.
+
+
+[[!redirects Baire space]]
+[[!redirects Baire spaces]]
