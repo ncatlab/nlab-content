@@ -1,4 +1,36 @@
-__Bekenstein-Hawking entropy__ is an entropy assigned to [[black hole]], on the basis of laws of thermodynamics and observers outside black hole.  
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[gravity]],  __Bekenstein-Hawking entropy__ is an [[entropy]] assigned to [[black hole]], on the basis of laws of thermodynamics and observers outside black hole.  It striking property is that it is proportional to the surface area of the balck hole's [[horizon]].
+
+## Related concepts
+
+* gravitational entropy
+
+  * **Bekenstein-Hawing entropy**
+
+  * [[generalized second law of thermodynamics]]
+
+
+## References
 
 * scholarpedia [article](http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy) (written by Bekenstein, with lost of references)
 
