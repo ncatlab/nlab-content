@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -55,7 +56,15 @@ This generalizes the traditional use of the terms [[discrete space]] and [[discr
 
 =--
 
-## $Top$ as a cohesive $(\infty,1)$-topos {#TopAsCohesiveInfinTopos}
+## Structures in $Disc\infty Grpd$
+
+We discuss now some of the general abstract [[cohesive (∞,1)-topos -- structures|structures in a cohesive (∞,1)-topos]] realized in discrete $\infty$-groupoids.
+
+
+### Geometric homotopy and Galois theory 
+ {#TopAsCohesiveInfinTopos}
+
+We discuss the general absatract notion of geometric homotopy in cohesive $(\infty,1)$-toposes (see <a href="http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#Homotopy">here</a>) in the context of discrete cohesion.
 
 By the [[homotopy hypothesis]]-theorem the [[(∞,1)-topos]]es [[Top]] and [[∞Grpd]] are [[equivalence of (∞,1)-categories|equivalent]], hence indistinguishable by general abstract constructions in [[(∞,1)-topos theory]]. However, in practice it can be useful to distinguish them as two different [[presentable (∞,1)-category|presentations]] for an equivalence class of $(\infty,1)$-toposes.
 
@@ -142,7 +151,129 @@ For discussion of $\infty$-groupoids equipped with genuine _topological cohesion
 =--
 
 
+### Cohomology and principal $\infty$-bundles
 
+We discuss the general abstract notion of cohomology and principal $\infty$-bundles a 
+in cohesive $\infty$-toposes (see <a href="http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#Cohomology">here</a>) in the context of  discrete cohesion.
+
++-- {: .num_defn}
+###### Definition
+
+  Write $\mathrm{sGrp} = \mathrm{Grp}(\mathrm{sSet})$ 
+ for the category of [[simplicial group]]s. 
+
+=--
+
+A classical reference is section 17 of [May](#May).
+
++-- {: .num_prop}
+###### Proposition
+ {#DiscreteLoopingDelooping}
+
+The category $\mathrm{sGrpd}$ inherits a [[model category]] structure [[transferred model structure|transferred]] along the
+forgetful functor $F : \mathrm{sGrp} \to \mathrm{sSet}$.
+  
+The category $\mathrm{sSet}_0 \hookrightarrow \mathrm{sSet}$ of reduced simplicial sets (simplicial sets with a single vertex) carries a model category structure whose weak equivalences and cofibrations are those of $\mathrm{sSet}_{\mathrm{Quillen}}$.
+    
+    There is a [[Quillen equivalence]]
+    $$
+      (G \dashv \bar W)
+      :
+      \xymatrix{
+         \mathrm{sGrpd}
+          \ar@{<-}@<+4pt>[r]^{G}
+          \ar@<-4pt>[r]_{\bar W}
+          &
+         \mathrm{sSet}_0
+      }
+      \,,
+    $$
+    which presents the abstract looping/delooping equivalence of $\infty$-categories
+    $$
+      (\Omega \dashv \mathbf{B})
+      :
+      \xymatrix{
+         \infty \mathrm{Grp}
+          \ar@{<-}@<+4pt>[r]^<<<<{\Omega}
+          \ar@<-4pt>[r]_<<<<{\mathbf{B}}
+          &
+         \infty \mathrm{Grpd}|_{\pi_0 = {*}}
+      }
+      \,,
+    $$
+
+=--
+
+\proof
+  The model structures and the Quillen equivalence are classical, discussed in section V of
+  \cite{goerss-jardine}. 
+\endofproof
+This means on abstract grounds that for $G$ a simplicial group, $\bar W G \in \mathrm{sSet}$ is a model of the
+classifying delooping object $\mathbf{B}G$ for $G$-principal discrete $\infty$-bundles. 
+The following statements assert that these principal $\infty$-bundles themselves can 
+be modeled as ordinary principal bundles internal to simplicial sets.
+\begin{definition}
+  For $G$ a simplicial group and $\bar W G$  the model for $\mathbf{B}G$ given by prop.
+  \ref{DiscreteLoopingDelooping}, write
+  $$
+    W G \to \bar W G
+  $$
+  for the simplicial d{\'e}calage on $\bar W G$.
+\end{definition}
+This characterization of the object going by the classical name $W G$ is made fairly 
+explicit on p. 85 of \cite{Duskin}. 
+\begin{proposition}
+  The morphism $W G \to \bar W G$ is a Kan fibration resolution of the point inclusion
+  ${*} \to \bar W G$. 
+\end{proposition}
+\proof
+  This follows directly from the characterization of $W G \to \bar W G$ by d{\'e}calage.
+\endofproof
+  Pieces of this statement appear in \cite{May}: lemma 18.2 there gives the
+  fibration property, prop. 21.5 the contractibility of $W G$. 
+\begin{corollary}
+  \index{universal principal $\infty$-bundle!for simplicial groups})
+  For $G$ a simplicial group, the sequence of simplicial sets
+  $$
+    G \to W G \to \bar W G
+  $$
+  is a presentation of the fiber sequence
+  $$
+    G \to * \to \mathbf{B}G
+    \,.
+  $$
+  Hence $W G \to \bar W G$ is a model for the universal $G$-principal discrete $\infty$-bundle:
+  every $G$-principal discrete $\infty$-bundle $P \to X$ in $\infty \mathrm{Grpd}$, which 
+  by definition is a homotopy fiber
+  $$
+    \xymatrix{
+       P \ar[d]\ar[r] & {*} \ar[d]
+       \\
+       X \ar[r] & \mathbf{B}G
+    }
+  $$ 
+  in $\infty \mathrm{Grpd}$, is
+  presented in the model category $\mathrm{sSet}_{\mathrm{Quillen}}$ by the 
+  ordinary pullback 
+  $$
+    \xymatrix{
+      P \ar[d]\ar[r] & W G \ar[d]
+      \\
+      X \ar[r] & \bar W G
+    }
+    \,.
+  $$
+\end{corollary}
+The explicit statement that the sequence $G \to W G \to \bar W G$ is a model for
+the looping fiber sequence appears on p. 239 of \cite{Porter}.
+The universality of $W G \to \bar W G$ for $G$-principal simplicial bundles is the 
+topic of section 21 in \cite{May}, where however it is not made explicit that the
+``twisted cartesian products'' considered there are precisely the models for the 
+pullbacks as above. This is made explicit on page 148 of \cite{Porter}.
+
+In \ref{ETopStrucCohomology} we discuss how this model of discrete principal $\infty$-bundles
+by simplicial principal bundles lifts to a model of topological principal $\infty$-bundles
+by simplicial topological bundles principal over simplicial topological groups.
 
 
 ## Related concepts
@@ -154,6 +285,26 @@ For discussion of $\infty$-groupoids equipped with genuine _topological cohesion
 * [[discrete groupoid]]
 
 * **discrete ∞-groupoid**
+
+## References
+
+
+Simplicial groups and simplicial principal bundles are discussed in
+
+* [[Peter May]], _Simplicial Objects in Algebraic Topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu)).
+ {#May}
+
+and sectin V of
+
+* [[Paul Goerss]] and [[Rick Jardine]], 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+ {#GoerssJardine}
+
+Discrete cohesion is the topic of section 3.1 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a coghesive topos]]_ , 
+
+where much of the above material is taken from.
+
 
 [[!redirects discrete ∞-groupoid]]
 
