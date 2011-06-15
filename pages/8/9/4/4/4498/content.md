@@ -1,16 +1,27 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Simplicial groups model all [[∞-group]]s in [[∞Grpd]]. Accordingly  [[principal ∞-bundle]]s in [[∞Grpd]] should be modeled by [[Kan complex]]es $E \to X$ equipped with a principal [[action]] by a [[simplicial group]].
+[[simplicial group|Simplicial groups]] model all [[∞-group]]s in [[∞Grpd]]. Accordingly  [[principal ∞-bundle]]s in [[∞Grpd]] (a [[discrete ∞-groupoid|discrete]] $\infty$-bundle) should be modeled by [[Kan complex]]es $E \to X$ equipped with a principal [[action]] by a [[simplicial group]]. It is suficient to assume the action to be strict. This yields the notion of _simplicial principal bundles_ .
 
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 **(principal action)**
 
@@ -25,7 +36,7 @@ is called **principal** if it is degreewise principal, i.e. if for all $n \in \m
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 The canonical action 
@@ -38,7 +49,7 @@ of any simplicial group on itself is principal.
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 **(simplicial principal bundle)**
 
@@ -58,7 +69,9 @@ For $G$ a simplicial group, a morphism $P \to X$ of [[Kan complex]]es equipped w
 
 ## Properties
 
-+-- {: .un_prop}
+### General
+
++-- {: .num_prop}
 ###### Proposition
 
 A simplicial $G$-principal bundle $P \to X$ is necessarly a [[Kan fibration]].
@@ -68,12 +81,31 @@ A simplicial $G$-principal bundle $P \to X$ is necessarly a [[Kan fibration]].
 +-- {: .proof}
 ###### Proof
 
-This appears as Lemma 18.2 in [MaySimpOb](#MaySimplicialObjects).
+This appears as ([May, emma 18.2](#May)).
 
 =--
 
 
+### Twisted cartesian products
+
++-- {: .num_prop}
+###### Proposition
+
+Let $E \to B$ be a [[twisted cartesian product]] of the [[simplicial set]] $B$ with a [[simplicial group]] $G$. Then with respect to the canonical $G$-[[action]] this is a simplicial principal bundle.
+
+=--
+
+This is ([May, prop. 18.4](#May)).
+
++-- {: .num_remark}
+###### Remark
+
+It is simplicial principal bundles of this form that one is mainly interested in. These are the objects that are classified by the evident [[classifying space]] $\bar W G$. This is discussed [below](UniversalSimplicialBundle).
+
+=--
+
 ## The universal simplicial $G$-principal bundle
+ {#UniversalSimplicialBundle}
 
 Recall from [[generalized universal bundle]] that a universal $G$-principal simplicial bundle should be a principal bundle $\mathbf{E}G \to \mathbf{B}G$ such that every other $G$-principal simplicial bundle $P \to X$ arises up to equivalence as the [[pullback]] of $\mathbf{E}G$ along a morphism $X \to \mathbf{B}G$.
 
@@ -88,7 +120,7 @@ This is described at <a href="http://ncatlab.org/nlab/show/simplicial%20group#De
 
 ### Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $G$ a simplicial group, define the [[simplicial set]] $W G$ to be the [[decalage]] of $\overline{W}G$
@@ -128,7 +160,7 @@ $$
 
 i.e. as the [[homotopy fiber]] of the cocycle $g$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 We call $P_\bullet := X_\bullet \times^g W G$ the simplicial $G$-[[principal bundle]] corresponding to $g$.
@@ -137,7 +169,7 @@ We call $P_\bullet := X_\bullet \times^g W G$ the simplicial $G$-[[principal bun
 
 ### Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $\{\phi : X_n \to G_{(n-1)}\}$ be the [[twisting function]] corresponding to $g : X_\bullet \to \overline{W}G$ by the above discussion.
@@ -168,10 +200,11 @@ Here are some pointers on where precisely in the literature the above statements
 One useful reference is
 
 * [[Peter May]], _Simplicial Objects in Algebraic Topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu)).
+ {#May}
 
 There the abbreviation PCTP ( _principal twisted cartesian product_ ) is used for what above we called just [[twisted Cartesian product]]s.
 
-The fact that every PTCP $X \times_\phi G \to X$ defined by a [[twisting function]] $\phi$ arises as the pullback of $W G \to \overline{W}G$ along a morphjism of simplicial sets $X \to \overline{W}G$ can be found there by combining
+The fact that every PTCP $X \times_\phi G \to X$ defined by a [[twisting function]] $\phi$ arises as the pullback of $W G \to \overline{W}G$ along a morphism of simplicial sets $X \to \overline{W}G$ can be found there by combining
 
 1. the last sentence on p. 81 which asserts that pullbacks of PTCPs $X \times_\phi G \to X$ along morphisms of simplicial sets $f : Y \to X$ yield PTCPs corresponding to the composite of $f$ with $\phi$;
 
