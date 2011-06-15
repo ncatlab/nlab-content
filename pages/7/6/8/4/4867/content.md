@@ -33,6 +33,11 @@
 
   * [[Kerr spacetime]]
 
+## Properties
+
+* [[Bekenstein-Hawking entropy]]
+
+* [[generalized second law of thermodynamics]]
 
 ## Models
 
