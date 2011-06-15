@@ -1,5 +1,10 @@
+There are two cases, one in algebraic geometry (proved by Faltings) and a related one in the theory of [[vertex operator algebra]]s (proved only in very special cases). 
 
 
 ## References
 
-Dowker, On Verlinde's formula for the dimensions of vector bundles on moduli spaces  ([web](http://iopscience.iop.org/0305-4470/25/9/033))
+Faltings
+
+Mukai moduli space book
+
+Dowker, _On Verlinde's formula for the dimensions of vector bundles on moduli spaces_, [iopscience](http://iopscience.iop.org/0305-4470/25/9/033)
