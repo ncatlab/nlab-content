@@ -743,6 +743,15 @@ This means that cocycles with coefficients in this subobject for $C = 0$ are coc
 
 * **supergravity $C$-field**
 
+* [[twisted differential c-structure]]
+
+  * [[differential string structure]]
+
+  * [[differential fivebrane structure]]
+
+  * [[differential T-duality]]
+
+
 ## References
 
 The state-of-the-art in the literature concerning attempts to find the correct mathematical model for the supergravity C-field seems to be
