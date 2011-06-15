@@ -17,6 +17,8 @@
 * automatic table of contents goes here
 {:toc}
 
+The entry is about monads in the sense of category theory, for another concept see also [[monad in nonstandard analysis]]. 
+
 ## Idea
 
 A [[monad]] is a structure that is a lot like a [[monoid]], but that lives in a [[bicategory]] rather than a [[monoidal category]].  In other words, the concept of a monad is the [[horizontal categorification]] of that of a monoid.
