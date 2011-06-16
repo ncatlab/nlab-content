@@ -1,0 +1,9 @@
+
+This entry is about the article
+
+* [[Jacob Lurie]], _Quasi-Coherent Sheaves and Tannaka Duality Theorems
+_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VIII.pdf))
+
+On [[quasi-coherent sheaves]] and [[Tannaka duality for geometric stacks]] in the context of [[derived algebraic geometry]] over [[E-infinity ring]]s.
+
+category: reference
