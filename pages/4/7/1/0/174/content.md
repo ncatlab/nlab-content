@@ -167,7 +167,15 @@ See also [[division algebras and supersymmetry]].
 
 * [[sigma-model]]
 
-* [[particle]], [[string]] [[M2-brane]], [[NS5-brane]]
+* [[particle]], [[superparticle]]
+
+* [[string]] 
+
+* [[membrane]]
+
+  * [[M2-brane]], 
+
+* [[NS5-brane]]
 
 
 ## References
