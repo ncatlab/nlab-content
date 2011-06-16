@@ -23,11 +23,9 @@ Historically, it was an approximation to the true time evolution that was origin
 In view of this, quantization is often understood as a [[retraction|right inverse]] to the procedure that sends the full quantum dynamics to its [[classical limit]].
 
 
-## Related entries 
+## Related entries
 
-* [[reductions deformations resolutions in physics]]
-
-  * **quantization**
+* **quantization**
 
     * [[deformation quantization]]
 
@@ -37,13 +35,16 @@ In view of this, quantization is often understood as a [[retraction|right invers
 
     * [[semiclassical approximation]]
 
+    * [[coherent state]]
+
     * [[quantization via the A-model]]
 
-  * [[gauge transformation]]
+* [[gauge transformation]]
 
     * [[BV-BRST formalism]]
 
-  * [[perturbation theory]]
+* [[perturbation theory]]
+* overview: [[reductions deformations resolutions in physics]]
 
 ## References 
 
