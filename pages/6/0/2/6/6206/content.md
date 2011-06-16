@@ -5,9 +5,11 @@
 
 ## Idea
 
-A _Wasserstein metric_ is a certain [[Riemannian metric]] over a space of [[probability measure]]s on a [[measurable space]] $X$.
+A _Wasserstein metric_ is a certain [[metric]] over a space of [[probability measure]]s on a [[measurable space]] $X$.
 
-By ([JKO](#JKO)) we have that the  [[heat flow]] on $X$ is the [[gradient flow]] of the [[entropy|Boltzman-Shannon entropy]] functional with respect to the Wasserstein metric.
+By ([JKO](#JKO)) the  [[heat flow]]/[[diffusion equation]] on $X$ is the [[gradient flow]] of the [[entropy|Boltzman-Shannon entropy]] functional with respect to the Wasserstein metric.
+
+The Wasserstein metric does not seem to arise from a [[Riemannian metric|Riemann metric tensor]]. A detailed discussion of the relevant gradient flows in non-smooth [[metric space]]s is in ([AGS](#AGS)).
 
 ## References
 
@@ -22,6 +24,7 @@ The analog of this for finite probability spaces is discussed in
 
 A comprehensive discussion of the corresponding gradient flows is in 
 
-* L. Ambrosio, N. Gigli, G. Savar6eacute; _Gradient flows in metric spaces and in the space of probability measures_ ([pdf](http://www.imati.cnr.it/~savare/research/optimal_transportation/Introduction.pdf))
+* L. Ambrosio, N. Gigli, G. Savar6eacute; _Gradient flows in metric spaces and in the space of probability measures_ ([pdf of toc and introduction](http://www.imati.cnr.it/~savare/research/optimal_transportation/Introduction.pdf))
+ {#AGS}
 
 [[!redirects Wasserstein metrics]]
