@@ -16,7 +16,7 @@
 
 ##Idea 
 
-The notion of _twisting functions_ is an explicit [[simplicial set|simplicial]] formula for a [[cocycle]] with values in a [[simplicial group]]. The _twisted propduct_ induced from the twisting function is an explicit simplicial formula for a [[simplicial principal bundle]], a model for a [[discrete ∞-groupoid|discrete]] [[principal ∞-bundle]] classified by this cocycle.
+The notion of _twisting functions_ is an explicit [[simplicial set|simplicial]] formula for a [[cocycle]] with values in a [[simplicial group]]. The _twisted product_ induced from the twisting function is an explicit simplicial formula for a [[simplicial principal bundle]], a model for a [[discrete ∞-groupoid|discrete]] [[principal ∞-bundle]] classified by this cocycle.
 
 In a fibre [[bundle]] or more generally in a fibration, the fibre 'twists' as one goes around a loop in the base space, (the standard simple example is the [[Möbius band]]). Such fibre bundles are usually restricted to being 'locally trivial', that is locally a product of an open set in the base with the fibre.
 
