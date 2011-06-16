@@ -447,6 +447,13 @@ In the case of general (commutative) schemes, every presheaf of $O_X$-modules wh
 
 The category of [[D-module]]s on a [[space]] $X$ is equivalently that of quasicoherent sheaves on the corresponding [[deRham space]].
 
+
+## References
+
+Quasicoherent sheaves on [[Spectral Schemes]] over [[E-infinity rings]] are discussed in 
+
+* [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+
 [[!redirects quasicoherent sheaves]]
 [[!redirects quasicoherent module]]
 [[!redirects quasicoherent modules]]
@@ -454,3 +461,5 @@ The category of [[D-module]]s on a [[space]] $X$ is equivalently that of quasico
 [[!redirects quasi-coherent sheaves]]
 [[!redirects quasi-coherent module]]
 [[!redirects quasi-coherent modules]]
+
+[[!redirects quasi-coherent sheaf]]
