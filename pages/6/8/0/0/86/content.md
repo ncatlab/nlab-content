@@ -512,7 +512,11 @@ This is written in the traditional informal style of the physics literature. A p
 A nice exposition of this is in section 3 and section 4 of 
 
 * [[Frédéric Paugam]], _Histories and observables in covariant field theory_ Journal of Geometry and Physics (2010) ([arXiv](http://arxiv.org/abs/1010.3210))
-{#Paugam}
+ {#Paugam}
+
+More details are in 
+
+* [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
 
 ### Lagrangian BV
 
