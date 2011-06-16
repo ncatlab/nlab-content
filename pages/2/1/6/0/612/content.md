@@ -81,5 +81,13 @@ The following articles have mostly been subsumed and expanded in the book [[High
 
   on little cubes [[(∞,1)-operad]]s
 
+* [[Spectral Schemes]]
+
+  on the [[derived geometry]] of [[scheme]]s over [[E-infinity ring]]s.
+
+* [[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]
+
+  on [[quasi-coherent sheaves]] over [[Spectral Schemes]] and
+  [[Tannaka duality for geometric stacks]] in this context
 
 category: people
