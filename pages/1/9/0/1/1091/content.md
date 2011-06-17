@@ -147,6 +147,10 @@ Around theorem IV.7.2 in
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
   {#MacLaneMoerdijk}
 
+Section 6.3.5 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
 [[!redirects change of base]]
 
 [[!redirects base change geometric morphism]]
