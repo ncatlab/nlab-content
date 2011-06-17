@@ -17,8 +17,9 @@
 
     * [[classical mechanics]]
     * [[waves]] and [[optics]]
+    * [[thermodynamics]]
 
-    * [[Lagrangian mechanics]]
+  * [[Lagrangian mechanics]]
 
     * [[configuration space]], [[state]]
 
