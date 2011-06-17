@@ -27,7 +27,7 @@ You can start from any notion of $\infty$-category, strict or weak; up to [[equi
 
 ## Models
 
-So, a (2,1)-category is on partucular modeled by
+So, a (2,1)-category is in particular modeled by
 
 * a [[2-category]] in which all [[2-morphisms]] are invertible;
 
