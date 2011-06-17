@@ -232,7 +232,7 @@ The central theorem says that formal integration in this dg-manifold over [[Lagr
 ### The standard construction
  {#StandardLagrangianBV}
 
-We discuss the standard constructions and theorems in Lagrangian BV formalism. The discussion here is supposed to be a direct formalization of the informal discussion in the standard physics literature (e.g. [HenneauxTeitelboim](#HenneauxTeitelboim)) but more pedestrian and more lightweight than for instance the more powerful formalizaton of ([BeilinsonDrinfeld](#BeilinsonDrinfeld)).
+We discuss the standard constructions and theorems in Lagrangian BV formalism. The discussion here is supposed to be a direct formalization of the informal discussion in the standard physics literature (e.g. [HenneauxTeitelboim](#HenneauxTeitelboim)) but more pedestrian and more lightweight than for instance the more powerful formalization of ([BeilinsonDrinfeld](#BeilinsonDrinfeld)).
 
 Let $k$ be a [[field]] of [[characteristic]] 0. Write $dgcAlg_{k}$ for the [[category]] of graded-commutative [[dg-algebra]]s over $k$ (not assumed to be finitely generated and not assumed to be bounded). For the present discussion we regared the [[opposite category]] $Space := dgAlg_k^{op}$ as our category of [[space]]s and write
 
@@ -504,19 +504,28 @@ A classical standard references is
 
 The bulk of the book considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangian ("antifield") formulation, with section 18.4 devoted to the relation between the two.
 
-This is written in the traditional informal style of the physics literature. A powerful general formalization of Lagrangian BV is in 
+This is written in the traditional informal style of the physics literature. A general formalization of Lagrangian quantum BV (chapter 18 of Henneaux-Teitelboim) in the Chiral algebra setting for perturbative quantum field theory on algebraic curves is in
 
 * [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_ . 
 {#BeilinsonDrinfeld}
 
-A nice exposition of this is in section 3 and section 4 of 
+The extension of this approach to higher dimensions is being worked out in
 
-* [[Frédéric Paugam]], _Histories and observables in covariant field theory_ Journal of Geometry and Physics (2010) ([arXiv](http://arxiv.org/abs/1010.3210))
- {#Paugam}
+* [[Kevin Costello]], [[Owen Gwilliam]] _Factorization algebras in perturbative quantum field theory_ ([pdf](http://math.northwestern.edu/~costello/factorization_public.html))
 
-More details are in 
+and in
+
+* [[Gaitsgory]], [[Francis]] _Chiral Koszul duality_ ([pdf](http://arxiv.org/abs/1103.5803))
+
+
+The general classical BV formalism (chapter 17 of Henneaux-Teitelboim) is formalized in the same language in
 
 * [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
+
+and in the book
+
+* [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf))
+
 
 ### Lagrangian BV
 
