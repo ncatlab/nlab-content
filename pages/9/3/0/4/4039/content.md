@@ -53,7 +53,7 @@ Some new results are in
 * [[E. Getzler]], _A Darboux theorem for Hamiltonian operators in the formal calculus of variations_, Duke Math. J. __111__, n. 3 (2002), 535-560, [MR2003e:32026](http://www.ams.org/mathscinet-getitem?mr=1885831), [doi](http://dx.doi.org/10.1215/S0012-7094-02-11136-3)
 * Alberto De Sole, Victor G. Kac, _The variational Poisson cohomology_, [arxiv/1106.0082](http://arxiv.org/abs/1106.0082)
 
-A formalism for variational calculus based on [[categorical analysis]] (with a precise relation with analytical methods and jet formalism) and a long list of examples of variational problems arising in [[classical mechanics]] and [[quantum field theory]] are collected in
+A formalism for variational calculus based on [[functorial analysis]] (with a precise relation with functional analytic methods and jet formalism) and a long list of examples of variational problems arising in [[classical mechanics]] and [[quantum field theory]] are collected in
 
 * [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf))
 
