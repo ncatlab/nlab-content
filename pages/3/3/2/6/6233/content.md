@@ -1,0 +1,64 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $X$ a [[scheme]], analogous to how an $X$-scheme is a [[scheme]] $E \to X$ over $X$, a _$\mathcal{D}_X$-scheme_ is a scheme over the [[de Rham space]] $\mathbf{\Pi}_{inf}(X)$ of $X$.
+
+See also [[diffiety]].
+
+## Definition
+
+For $X$ a [[scheme]], a _$\mathcal{D}_X$-scheme_ is a [[scheme]] over the [[de Rham space]] $\mathbf{\Pi}_{inf}(X)$ of $X$.
+
+Concretely, an $X$-affine $\mathcal{D}_X$-scheme is a [[commutative monoid]] object in the [[monoidal category]] of [[quasicoherent sheaves]] $QC(\mathbf{\Pi}_{inf}(X))$, which is equivalently the category of [[D-module]]s over $X$:
+
+$$
+  Aff \mathcal{D}_X Scheme \simeq CMon(\mathcal{D}Mod(X))
+  \,.
+$$ 
+
+This is ([BeilinsonDrinfeld, section 2.3](#BeilinsonDrinfeld)).
+
+
+## Properties
+
+The [[free functor|free]] $\matrhcal{D}_X$-scheme on a given $X$-scheme $E \to X$ is the [[jet bundle]] of $E$. 
+
+This is [BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld)
+
+## Related concepts
+
+* [[scheme]]
+
+* [[D-module]]
+
+* [[de Rham space]]
+
+* [[diffiety]]
+
+## References
+
+Section 2.3 in
+
+* [[Alexander Beilinson]] and [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
+ {#BeilinsonDrinfeld}
+
+[[!redirects D-schemes]]
