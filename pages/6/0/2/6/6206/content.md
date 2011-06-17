@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -10,6 +21,10 @@ A _Wasserstein metric_ is a certain [[metric]] over a space of [[probability mea
 By ([JKO](#JKO)) the  [[heat flow]]/[[diffusion equation]] on $X$ is the [[gradient flow]] of the [[entropy|Boltzman-Shannon entropy]] functional with respect to the Wasserstein metric.
 
 The Wasserstein metric does not seem to arise from a [[Riemannian metric|Riemann metric tensor]]. A detailed discussion of the relevant gradient flows in non-smooth [[metric space]]s is in ([AGS](#AGS)).
+
+## Related concepts
+
+* [[information metric]]
 
 ## References
 
