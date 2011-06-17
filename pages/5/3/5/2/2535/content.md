@@ -28,6 +28,8 @@
   * [[formally smooth morphism]], [[formally unramified morphism]], 
     [[formally étale morphism]]
 
+  * [[jet bundle]]
+
 ## Models ##
 
 * [[Models for Smooth Infinitesimal Analysis]]
