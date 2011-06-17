@@ -1,5 +1,28 @@
-A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mimicking this situation Vinogradov has introduced a geometric object related to systems of nonlinear differential equations, the __diffieties__. Closely related notions in various flavours of geometry are the [[crystal]]s of schemes (Grothendieck), D-varieties (Malgrange), D-schemes (Beilinson, Drinfeld) and differential algebras (Ritt, Kolchin). 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* tabel of contents
+{:toc}
+
+## Idea
+
+A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mimicking this situation Vinogradov has introduced a geometric object related to systems of nonlinear [[differential equations]], the __diffieties__. Closely related notions in various flavours of geometry are the [[crystal]]s of schemes (Grothendieck), D-varieties (Malgrange), [[D-schemes]] ([[Chiral Algebras|Beilinson, Drinfeld]]) and differential algebras (Ritt, Kolchin). 
+
+## References
 
 * A. M. Vinogradov, _Local symmetries and conservation laws_, Acta Appl. Math., Vol. 2, 1984, p. 21, [MR85m:58192](http://www.ams.org/mathscinet-getitem?mr=736872), [doi](http://dx.doi.org/10.1007/BF01405491)
 
