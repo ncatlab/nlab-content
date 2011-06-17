@@ -10,13 +10,14 @@
 =--
 
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 The notion of _relative entropy_ of [[state]]s is a generalization of the notion of [[entropy]] to a situation where the entropy of one [[state]] is measured "relative to" another state.
+
 
 ## Definition
 
@@ -37,10 +38,10 @@ $$
   \,.
 $$
 
+
 ### For states on general von Neumann algebras
 
 Let $A$ be a [[von Neumann algebra]] and let $\phi$, $\psi : A \to \mathbb{C}$ be two [[state]]s on it (faithful, positive [[linear functional]]s).
-
 
 +-- {: .num_defn}
 ###### Definition
@@ -70,13 +71,12 @@ This is due to ([Araki](#Araki)).
 
 ## References
 
-
 Relative entropy of [[state]]s on  [[von Neumann algebra]]s was introduced in 
 
 * H. Araki, _Relative Entropy of States of von Neumann Algebras_ ([pdf](http://www.google.de/url?sa=t&source=web&cd=5&ved=0CEsQFjAE&url=http%3A%2F%2Fwww.ems-ph.org%2Fjournals%2Fshow_pdf.php%3Fissn%3D0034-5318%26vol%3D11%26iss%3D3%26rank%3D9&rct=j&q=entropy%20cocycle%20von%20Neumann%20algebra&ei=n3jrTYyxOI-c-waJvMnPDw&usg=AFQjCNGuJgVUE7CtGPmb2PZLhOOWt1_JPQ&cad=rja))
  {#Araki}
 
-A characterization of [relative entropy](#RelativeEntropy) on finite-[[dimension]]al [[C-star algebra]]s is given in 
+A characterization of [relative entropy](#OnFiniteDimensionalSpaces) on finite-[[dimension]]al [[C-star algebra]]s is given in 
 
 * D. Petz, _Characterization of the relative entropy of states of matrix algebras_ ([pdf](http://www.renyi.hu/~petz/pdf/52.pdf))
  {#Petz}
@@ -88,4 +88,5 @@ A survey of entropy in [[operator algebra]]s is in
 
 
 
+[[!redirects relative entropy]]
 [[!redirects relative entropies]]
