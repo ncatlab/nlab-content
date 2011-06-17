@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+
 # Entropy
 * table of contents
 {: toc}
@@ -124,6 +135,8 @@ $$
 
 There is a generalization of these definitions to [[state]]s on general [[von Neumann algebra]]s, due to ([Araki](#Araki)).
 
+For more on this see _[[relative entropy]]_ .
+
 ### Physical entropy
 
 As hinted above, any probability distribution on a [[phase space]] in [[classical physics]] has an entropy, and any [[density matrix]] on a [[Hilbert space]] in [[quantum physics]] has an entropy.  However, these are __microscopic entropy__, which is not the usual entropy in [[thermodynamics]] and most other branches of [[physics]].  (In particular, microscopic entropy is conserved, rather than increasing with time.)
@@ -167,5 +180,3 @@ and State Disturbance_ ([pdf](http://www.perimeterinstitute.ca/personal/cfuchs/B
 [[!redirects entropy]]
 [[!redirects entropies]]
 
-[[!redirects relative entropy]]
-[[!redirects relative entropies]]
