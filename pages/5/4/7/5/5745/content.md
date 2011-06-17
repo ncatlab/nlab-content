@@ -20,35 +20,47 @@ This entry is about the book
 
   * [Index](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ind.pdf)
 
-## Contents
+#Contents#
+* table of contents
+{:toc}
 
-### Introduction
+## Introduction
 
-### 1. Axiomatic patterns
+## 1. Axiomatic patterns
 
-### 2. The Geometry of $\mathcal{D}$-Schemes
+## 2. The Geometry of $\mathcal{D}$-Schemes
 
-#### 2.1 $\mathcal{D}$-modules: recollection and basics
+### 2.1 $\mathcal{D}$-modules: recollection and basics
 
-#### 2.2 The compound tensor structure
+* [[D-module]]
 
-#### 2.3 $\mathcal{D}_X$-Schemes
+### 2.2 The compound tensor structure
 
-#### 2.4 The space of horizontal sections
+### 2.3 $\mathcal{D}_X$-Schemes
 
-#### 2.5 $Lie^\ast$-algebras and algebroids
+* [[D-scheme]]
 
-#### 2.6 Coisson algebra
+#### 2.3.1 $\mathcal{D}_X$-algebras
 
-#### 2.7 The Tate extension
+#### 2.3.2 Jet schemes
 
-#### 2.8 Tate structures and characteristic classes
+* [[jet bundle]]
 
-#### 2.9 The Harish-Chandra setting and the setting of $c$-stacks
+### 2.4 The space of horizontal sections
 
-### 3. Local theory: chiral basics
+### 2.5 $Lie^\ast$-algebras and algebroids
 
-### 4. Global theory: chiral homology
+### 2.6 Coisson algebra
+
+### 2.7 The Tate extension
+
+### 2.8 Tate structures and characteristic classes
+
+### 2.9 The Harish-Chandra setting and the setting of $c$-stacks
+
+## 3. Local theory: chiral basics
+
+## 4. Global theory: chiral homology
 
 
 
