@@ -1,2 +1,15 @@
 
-see [[probability theory]] for the moment
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+A [[measure]] whose total [[integral]] equals 1.
+
+
+[[!redirects probability distributions]]
