@@ -9,7 +9,29 @@
 =--
 =--
 
-A [[measure]] whose total [[integral]] equals 1.
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _probability distribution_ is a [[measure]] used in [[probability theory]] whose [[integral]] over some subspace of a [[measurable space]] is regarded as assigning a _probability_ for some event to take values in this subset.
+
+## Definition
+
+A _probability distribution_ is a [[measure]] $\rho$ on a [[measurable space]] $X$ such that
+
+* it is non-negative: $\forall U \subset X : \int_U d\rho \geq 0$;
+
+* it is normalized: $\int_X d\rho = 1$.
+
+## Properties
+
+The collection of all probability distributions on a measurable space carries various [[metric]] structures that are studied in [[information geometry]]:
+
+* [[information metric]]
+
+* [[Wasserstein metric]]
 
 
 [[!redirects probability distributions]]
