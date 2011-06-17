@@ -19,6 +19,15 @@
 The notion of _relative entropy_ of [[state]]s is a generalization of the notion of [[entropy]] to a situation where the entropy of one [[state]] is measured "relative to" another state.
 
 
+is also called 
+
+* _Kullback-Leibler divergence_
+
+* _information divergence_
+
+* _information gain_ . 
+
+
 ## Definition
 
 ### For states on finite probability spaces
@@ -39,7 +48,25 @@ $$
 $$
 
 
-### For states on general von Neumann algebras
+### For states on classical probability spaces
+
++-- {: .num_defn}
+###### Definition
+
+For $X$ a [[measurable space]] and $P$ and $Q$ two [[probability measure]]s on $X$, such that $Q$ is absolutely continuous with respect to $P$, their relative entropy is the [[integral]]
+
+$$
+  S(Q|P) = \int_X log \frac{d Q}{d P} d P
+  \,,
+$$
+
+where $d Q / d P$ is the [[Radon-Nikodym derivative]] of $Q$ with respect to $P$. 
+
+=--
+
+
+
+### For states on quantum probability spaces (von Neumann algebras)
 
 Let $A$ be a [[von Neumann algebra]] and let $\phi$, $\psi : A \to \mathbb{C}$ be two [[state]]s on it (faithful, positive [[linear functional]]s).
 
@@ -90,3 +117,7 @@ A survey of entropy in [[operator algebra]]s is in
 
 [[!redirects relative entropy]]
 [[!redirects relative entropies]]
+
+[[!redirects Kullback-Leibler divergence]]
+[[!redirects information divergence]]
+[[!redirects information gain]]
