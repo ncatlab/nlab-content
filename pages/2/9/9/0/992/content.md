@@ -257,6 +257,13 @@ In terms of ([[stable model category|stable]]) [[model category|model categories
 
 A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-category|stably monoidal]] $\infty$-category.  A connection between the terms is that the $(\infty,1)$-category of [[spectrum|spectra]] is the prototypical stable $\infty$-category, while _connective_ spectra (not all spectra) can be identified with [[k-tuply groupal n-groupoid|stably groupal]] $\infty$-groupoids, aka _infinite loop spaces_ or $E_\infty$-[[E-infinity-space|spaces]].
 
+## Related concepts
+
+* [[Stab(∞,1)Cat]]
+
+* [[stable homotopy theory]]
+
+* [[stabe model category]]
 
 ## References
 
