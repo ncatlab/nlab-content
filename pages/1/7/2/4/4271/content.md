@@ -6,11 +6,18 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
 =--
 =--
 
+
+
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -51,11 +58,15 @@ $$
 
 In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned to an $(n-1)$-dimensional [[manifold]] $\Sigma_{n-1}$ is the _space of states_ over that manifold. A state is accordingly a [[generalized element]] of this object.
 
-### In AQFT
+### In AQFT and operator algebra
 
 Dually, in the [[AQFT]] formulation of [[quantum field theory]] a physical system is encoded by a [[local net]] of [[operator algebra]]s. These are to be interpreted as _algebras of observables_. Since each observable is supposed to have a given value on a given state, a state here is a [[linear functional]] on the operator algebra of observables. For more on this see
 
 * [[states in AQFT and operator algebra]].
+
+## Related concepts
+
+* [[GNS construction]]
 
 
 [[!redirects state]]
