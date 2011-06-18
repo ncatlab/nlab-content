@@ -10,8 +10,15 @@ and right-handed; they give rise to left and right chiral fields. CFT in 2d, in 
 
 [[Beilinson]] and [[Drinfel'd]] were unhappy with non-illuminating definition of [[vertex operator algebra]] and invented a mathematical definition of version of chiral [[conformal field theory]] on an algebraic curve, under the name __chiral algebra__; their manuscript has being circulating from around 1995 as a long preprint and being more recently published by Amer. Math. Soc.  
 
+## Related concepts
+
+* [[factorization algebra]]
+
 ## References
 
 * [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_, Colloqium Publications __51__,  Amer. Math. Soc. 2004, [gbooks](http://books.google.hr/books?id=yHZh3p-kFqQC&lpg=PP1&vq=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&dq=isbn%3A0817638296&pg=PP1#v=onepage&q=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&f=false)
+
+* [[Dennis Gaitsgory]], [[John Francis]] _Chiral Koszul duality_ ([arXiv:1103.5803](http://arxiv.org/abs/1103.5803))
+ {#GaitsgoryFrancis}
 
 [[!redirects chiral algebras]]
