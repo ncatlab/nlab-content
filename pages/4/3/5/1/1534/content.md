@@ -172,6 +172,7 @@ Factorization algebras have some similarity with
 
 * [[local net]]s in [[AQFT]].
 
+* [[chiral algebra]], [[vertex operator algebra]]
 
 ## References
 
@@ -204,5 +205,11 @@ There seems to be a close relation between the description of [[quantum field th
 The relation of locally constant factorization algebras to higher order [[Hochschild homology]] is in 
 
 * [[Gregory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, [arxiv/1011.6483](http://arxiv.org/abs/1011.6483)
+
+An [[(infinity,1)-category theory|(infinity,1)-category theoretic ]] treatment of higher factorization algebras is in 
+
+* [[Dennis Gaitsgory]], [[John Francis]] _Chiral Koszul duality_ ([arXiv:1103.5803](http://arxiv.org/abs/1103.5803))
+ {#GaitsgoryFrancis}
+ 
 
 [[!redirects factorization algebras]]
