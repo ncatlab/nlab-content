@@ -246,6 +246,8 @@ Therefore both $[\alpha]$ as well as $[CS(\nabla)] \in H^4_{diff}(X)$ are given 
 
 We use the [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-topos]] [[Smooth∞Grpd]] (as described there) by the local [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ to give an explicit construction of twisted differential string structures in terms of [[Cech cohomology|Cech]]-cocycles with coefficients in [[∞-Lie algebra valued differential forms]].
 
+Proofs not displayed here can be found at _[[differential string structure -- proofs]]_ .
+
 Recall the following fact from [[Chern-Weil theory in Smooth∞Grpd]] ([FSS](#FSS)).
 
 +-- {: .num_prop #LieIntegrationOfDifferentialPOne}
@@ -355,7 +357,7 @@ $$
 =--
 
 +-- {: .num_prop #FactorizationOfTheCocycle}
-###### Observation
+###### Proposition
 
 The 3-cocycle $ CE(\mathfrak{g}) \stackrel{\mu}{\leftarrow} CE(b^2 \mathbb{R})$ factors as 
 
@@ -371,33 +373,6 @@ $$
 $$
 
 where the morphism on the left (which is the identity when restricted to $\mathfrak{g}^*$ and acts on the new generators as indicated) is a [[quasi-isomorphism]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-To see that we have a quasi-isomorphism, notice that the dg-algebra is [[isomorphic]] to the one with generators $\{t^a, b, c'\}$ and differentials
-
-$$
-  \begin{aligned}
-    d|_{\mathfrak{g}^*} & = [-,-]^*
-    \\
-    d  b & = c'
-    \\
-    d c' & =  0
-  \end{aligned}
-  \,,
-$$
-
-where the isomorphism is given by the identity on the $t^a$s and on $b$ and by
-
-$$
-  c \mapsto c' + \mu
-  \,.
-$$
-
-The primed dg-algebra is the [[tensor product]] $CE(\mathfrak{g}) \otimes CE( inn(b \mathbb{R}))$, where the second factor is manifestly cohomologically trivial.
 
 =--
 
@@ -573,6 +548,8 @@ $$
 ###### Note
 
 Where the formula for the differential of $W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the 3-cocycle $\mu$ that for $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the [[Chern-Simons element]] $cs$.  The shift by $cs-\mu$ is precisely what shifts the curvature characteristic $d_{W(\mathfrak{g})}\mu$ into the shifted copy $\mathfrak{g}^*$ in the Weil algebra, thus exhibiting the modified $h$ as an [[invariant polynomial]].
+
+More details on this are at _[[differential string structure -- proofs]]_ .
 
 =--
 
