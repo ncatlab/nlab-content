@@ -515,8 +515,8 @@ The extension of this approach to higher dimensions is being worked out in
 
 and in
 
-* [[Gaitsgory]], [[Francis]] _Chiral Koszul duality_ ([pdf](http://arxiv.org/abs/1103.5803))
-
+* [[Dennis Gaitsgory]], [[John Francis]] _Chiral Koszul duality_ ([arXiv:1103.5803](http://arxiv.org/abs/1103.5803))
+ {#GaitsgoryFrancis}
 
 The general classical BV formalism (chapter 17 of Henneaux-Teitelboim) is formalized in the same language in
 
