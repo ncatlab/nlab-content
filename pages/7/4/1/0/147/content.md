@@ -91,7 +91,7 @@ A **morphism of sites** $f : (C,J) \to (D,K)$ is
 
 * such that 
 
-  1, $f$ is a [[flat functor]];
+  1, $f$ is a [[representably flat functor]];
 
   1. $f$ _preserves [[cover]]s_ 
 
@@ -485,7 +485,7 @@ as well as in section VII. 10 of
 
 In 
 
-* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephan]]_
+* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_
 
 sites are discussed in section C2.1 and morphism of sites in C2.3.
 
