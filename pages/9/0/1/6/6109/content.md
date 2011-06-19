@@ -119,9 +119,11 @@ This is the standard expression for the path integral of the particle on the lin
 
 * [[integral transforms on sheaves]]
 
+* [[geometric infinity-function theory]]
+
 ## References
 
-The pull-push nature of the path integral was amplified in
+The pull-push nature of the path integral was originally amplified in
 
 * [[Dan Freed]]
 
