@@ -42,6 +42,11 @@ $$
 
 Many textbooks on operator algebras contain a chapter about modular theory.
 
+MathOverflow question [tomita-takesaki-versus-frobenuis-where-is-the-similarity](http://mathoverflow.net/questions/68270/tomita-takesaki-versus-frobenuis-where-is-the-similarity)
+
+* A. Connes, C. Rovelli, _Von Neumann algebra automorphisms and time-thermodynamics relation in general covariant quantum theories_, [arXiv:gr-qc/9406019](http://arxiv.org/abs/gr-qc/9406019), [pdf](http://www.alainconnes.org/docs/carlotime.pdf)
+
+
 [[!redirects modular group]]
 [[!redirects modular groups]]
 [[!redirects modular conjugation]]
