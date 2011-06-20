@@ -56,7 +56,7 @@ In this case, $B=\mathrm{Ext}(L,L)$ is forced to be formal (if it had any intere
 
   * More generally, a singular block of [[parabolic category O]] is dual to a different singular block of parabolic category O where the combinatorial data determining the central character and finiteness conditions switch.
 
-* Braden, Licata, Proudfoot and Webster gave a combinatorial construction of a large family of Koszul dual algebras in [Gale duality and Koszul duality](http://front.math.ucdavis.edu/0806.3256).
+* Braden, Licata, Proudfoot and Webster gave a combinatorial construction of a large family of Koszul dual algebras in [Gale duality and Koszul duality](http://arxiv.org/abs/0806.3256).
 
 
 ## References
@@ -73,11 +73,7 @@ Koszul duality is also discussed in
 
 * _The Everything Seminar_ , _[koszul-duality-and-lie-algebroids](http://cornellmath.wordpress.com/2008/03/25/koszul-duality-and-lie-algebroids)_ 
 
-* MathOverflow,
- 
-  _[What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality), 
-
-  _[Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality)_
+* MathOverflow: [What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality), [Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality), [what-extra-conditions-are-necessary-for-the-following-version-of-koszul-duality](http://mathoverflow.net/questions/67909/what-extra-conditions-are-necessary-for-the-following-version-of-koszul-duality)
 
 A "curved" generalization is discussed in
 
