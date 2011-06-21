@@ -79,6 +79,7 @@ If the Poisson algebra comes from a [[Poisson manifold]] $X$, then this Lie-Rine
 
   *  A [[Gerstenhaber algebra]] is a Poisson 2-algebra.
 
+* A [[Coisson algebra]] is essentially a Poisson algebra [[internalization|internal to]] [[D-module]]s.
 
 ## References
 
