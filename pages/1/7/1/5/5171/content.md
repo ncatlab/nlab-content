@@ -16,9 +16,7 @@ For appropriate choices of dagger categories this restricts to various notions o
 
 * a **self-adjoint [[matrix]]** is a self-adjoint morphism in the $\dagger$-category whose objects are $\mathbb{C}^n$s and whose morphisms are [[linear map]]s and the dagger-operation is transposition followed by [[complex conjugation]];
 
-* more generally, a **self adjoint [[linear operator]] on a [[Hilbert space]] is ..
-
-(...)
+* a *bounded* self-adjoint [[linear operator]] on a [[Hilbert space]] is defined everywhere and equals its own adjoint. The [[self-adjoint operator]] in general, unbounded case, is however not precisely equal to its adjoint as their domains may differ. As [[unbounded operator]]s do not form an algebra this notion is nevertheless not a special case of the above. See [[self-adjoint operator]].
 
 
 ## Related concepts
@@ -35,7 +33,5 @@ For appropriate choices of dagger categories this restricts to various notions o
 
 [[!redirects self-adjoint matrix]]
 [[!redirects self-adjoint matrices]]
-[[!redirects self-adjoint operator]]
-[[!redirects self-adjoint operators]]
 [[!redirects self-adjoint]]
 [[!redirects self-adjointness]]
