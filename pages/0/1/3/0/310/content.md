@@ -69,7 +69,7 @@ In a [[Heyting category]], every [[subobject poset]] $Sub(A)$ is a Heyting algeb
 
 ### To topology
 
-One of the chief sources of Heyting algebras is given by [[topology|topologies]]. As a poset, the topology of a topological space $X$ is a lattice (it has arbitrary joins and meets, and therefore finite joins and meets), and the implication operator is given by 
+One of the chief sources of Heyting algebras is given by [[topology|topologies]]. As a poset, the topology of a topological space $X$ is a lattice (it has arbitrary, in particular finite joins and finite meets), and the implication operator is given by 
 
 $$(U \Rightarrow V) = int(U^c \vee V)$$ 
 
