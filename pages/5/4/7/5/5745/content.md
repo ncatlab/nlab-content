@@ -2,7 +2,7 @@ This entry is about the book
 
 * [[Alexander Beilinson]] and [[Vladimir Drinfeld]]
 
-  _Chiral Algebras_
+  _Chiral Algebras_, Amer. Math. Society 2004
 
   * [Contents](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_toc.pdf), [Introduction](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_intro.pdf), [Chapter 1](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ch1.pdf), [Chapter 2](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ch2.pdf), [Chapter 3](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ch3.pdf), [Chapter 4](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ch4.pdf), [References](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ref_new.pdf), [Index](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ind.pdf)
 
@@ -53,6 +53,10 @@ on [[chiral algebra]]s/[[factorization algebra]]s in the language of [[D-scheme]
 
 
 ## Related references
+
+Much complementary content by the same authors is also in the developing book on the geometric Langlands program
+
+* [[Alexander Beilinson]], [[Vladimir Drinfeld]], _Quantization of the Hitchin system and Hecke eigensheaves_, draft, [pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf)
 
 A goood accessible survey of or introduction into some of the developments in this book can be found around section 8.3
 
