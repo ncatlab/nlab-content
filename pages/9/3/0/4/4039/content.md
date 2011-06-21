@@ -64,4 +64,10 @@ The formulation of variational calculus in terms of [[diffeological space]]s is 
 
 * [[Frédéric Paugam]], _Histories and observables in covariant field theory_ ([arXiv:1010.3210](http://arxiv.org/abs/1010.3210)), sec. 2.4
 {#Paugam}
+
+following section 2.3.20 of 
+
+
+* [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
+
 [[!redirects calculus of variations]]
