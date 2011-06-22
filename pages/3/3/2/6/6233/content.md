@@ -73,7 +73,10 @@ This appears as ([Lurie, theorem, 0.6 and below remark 0.7](#Lurie))
 
 The [[free functor|free]] $\mathcal{D}_X$-scheme on a given $X$-scheme $E \to X$ is the [[jet bundle]] of $E$. 
 
-This is [BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld)
+This is ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld)).
+
+This fact makes $\mathcal{D}$-geometry a natural home for [[variational calculus]].
+
 
 ## Related concepts
 
