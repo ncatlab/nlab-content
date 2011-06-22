@@ -14,14 +14,43 @@
 =--
 
 
-> for the moment this entry just records references. See also [[holographic principle of higher category theory]] and [[AdS/CFT correspondence]]
-
 #Contents#
 * table of contents
 {:toc}
 
+## Idea
+
+In [[quantum field theory]] what has come to be known as the _holographic principle_ is the fact that the [[partition function]]s of some [[quantum field theories]] of [[dimension]] $n$ may be identified with [[state]] of QFTs in dimension $n + 1$:
+
+
+
+## Related concepts
+
+* [[holographic principle of higher category theory]]
+
+* [[AdS/CFT correspondence]]
 
 ## References
+
+### Self-dual higher gauge fields and higher abelian Chern-Simons
+
+The idea of describing [[self-dual higher gauge theory]] by abelian Chern-Simons theory in one dimension higher originates in 
+
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv](http://arxiv.org/abs/hep-th/9610234))
+
+* [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_ ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
+
+More discussion of the general principle is in 
+
+* Dmitriy Belov, [[Greg Moore]], _Holographic Action for the Self-Dual Field_ ([arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038))
+
+A quick exposition of the basic idea is in
+
+* [[Jacques Distler]], _Actions for self-dual gauge fields_ ([blog](http://golem.ph.utexas.edu/~distler/blog/archives/000809.html))
+
+The application of this to the description of type II [[string theory]] in 10-dimensions to 11-dimensional Chern-Simons theory is in the followup 
+
+* Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv](http://arxiv.org/abs/hep-th/0611020))
 
 ### In $d = 3$
 
