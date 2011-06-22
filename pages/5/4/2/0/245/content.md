@@ -31,7 +31,7 @@ If the braiding squares to the identity, then the braided monoidal category is a
 
 ### The coherence laws
 
-To see the haxagon identities, let us write $a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ for the components of the associator in $V$.   Then the first hexagon identity says that for all $x,y,z \in Obj(V)$ the following diagram commutes:
+To see the hexagon identities, let us write $a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ for the components of the associator in $V$.   Then the first hexagon identity says that for all $x,y,z \in Obj(V)$ the following diagram commutes:
 
 $$
   \array{
