@@ -71,7 +71,7 @@ This appears as ([Lurie, theorem, 0.6 and below remark 0.7](#Lurie))
 
 ### Relation to jet schemes
 
-The [[free functor|free]] $\matrhcal{D}_X$-scheme on a given $X$-scheme $E \to X$ is the [[jet bundle]] of $E$. 
+The [[free functor|free]] $\mathcal{D}_X$-scheme on a given $X$-scheme $E \to X$ is the [[jet bundle]] of $E$. 
 
 This is [BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld)
 
