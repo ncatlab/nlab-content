@@ -1,0 +1,72 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The standard [[action functional]] for the higher abelian [[gauge field]] given by a [[circle n-bundle with connection]] $(P, \nabla)$ over a [[pseudo-Riemannian manifold|(pseudo)]] [[Riemannian manifold]] $(X,g)$ is 
+
+$$
+  \nabla \mapsto \int_X F_\nabla \wedge \star_g F_{\nabla}
+  \,,
+$$
+
+where $F_\nabla$ is the [[curvature]] $(n+1)$-form. If the [[dimension]] 
+
+$$
+  dim X = 4 k + 2 
+$$
+
+then the [[Hodge star]] operator squares to $+1$ (Lorentian signature) or $-1$ (Euclidean signature) on $\Omega^{k+1}(X)$. Therefore it makes sense in these dimensions to impose the _self-duality constraint_
+
+$$
+  \pm F_\nabla = \star F_\nabla
+  \,.
+$$
+
+With this duality constraint imposed, one speaks of _self-dual_ higher gauge fields. Their [[quantum field theory]] is more subtle than usual: first of all the above standard action functional now vanishes constantly. 
+
+But sense can be made of the theory of self-dual gauge fields by other means. Notably --  by a version of the [[holographic principle]] the -- [[partition function]] of the self-dual theory on an $X$ of dimension $4 k +2$ is given by the [[state]] (wave function) of an abelian  [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons theory]] in dimension $4 k + 3$.
+
+## References
+
+The idea of describing self-dual higher gauge theory by abelian Chern-Simons theory in one dimension higher originates in 
+
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+
+* [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_ ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
+
+Motivated by this the [[differential cohomology]] of self-dual fields had been discussed in 
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
+More discussion of the general principle is in 
+
+* Dmitriy Belov, [[Greg Moore]], _Holographic Action for the Self-Dual Field_ ([arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038))
+
+A quick exposition of the basic idea is in
+
+* [[Jacques Distler]], _Actions for self-dual gauge fields_ ([blog](http://golem.ph.utexas.edu/~distler/blog/archives/000809.html))
+
+The application of this to the description of type II [[string theory]] in 10-dimensions to [[schreiber:infinity-Chern-Simons theory|11-dimensional Chern-Simons theory]] is in the followup 
+
+* Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
+
+[[!redirects self-diual higher gauge field]]
+[[!redirects self-diual higher gauge fields]]
