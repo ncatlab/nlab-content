@@ -15,11 +15,11 @@ This entry is about the article
 
 * [[Mike Hopkins]], [[Isadore Singer]], _Quadratic Functions in Geometry, Topology,and M-Theory_  J. Differential Geom. Volume 70, Number 3 (2005), 329-452.  ([journal](http://projecteuclid.org/euclid.jdg/1143642908), [arXiv](http://arxiv.org/abs/math.AT/0211216))
 
-on [[differential cohomology]], higher [[gauge field]]s appearing in [[string theory]] and their [[quantum anomaly|quantum anomalies]].
+on [[differential cohomology]], [[self-dual higher gauge theory]] appearing in [[string theory]] and thee corresponding [[quantum anomaly|quantum anomalies]].
 
 Motivated by attempting to fully formalize [[Green-Schwarz mechanism]]-type [[quantum anomaly]] problems previously studied by [[Edward Witten]], this article introduced a systematic general definition for the refinement of any [[generalized (Eilenberg-Steenrod) cohomology]] theory to [[differential cohomology]] (the context for higher [[gauge field]]s in physics) in terms of [[differential function complex]]es. 
 
-In this construction continuous classifying maps from a [[smooth manifold]] into a [[spectrum]] [[Brown representablity theorem|representing]] the given [[cohomology]] are equipped with smooth [[differential form]]s that have under the [[de Rham theorem]] the same class in real cohomology as the pullback along the classifying map of a collection of given real cocycles on the spectrum.
+In this construction continuous classifying maps from a [[smooth manifold]] into a [[spectrum]] [[Brown representability theorem|representing]] the given [[cohomology]] are equipped with smooth [[differential form]]s that have under the [[de Rham theorem]] the same class in real cohomology as the pullback along the classifying map of a collection of given real cocycles on the spectrum.
 
 The connecton of this work to the physics of the [[electromagnetic field]] and of higher [[gauge field]]s in  [[string theory]] was later developed further notably in
 
