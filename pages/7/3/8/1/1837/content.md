@@ -163,6 +163,10 @@ The following tries to give an overview of some collection of gauge fields in ph
 
   * [[Green-Schwarz mechanism]]
 
+* [[self-dual higher gauge theory]]
+
+* [[schreiber:infinity-Chern-Simons theory]]
+
 ## References
 
 An introduction to concepts in the [[quantization]] of gauge theories is in
