@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -132,11 +131,11 @@ There are several alternate characterizations of when a functor is a fibration, 
 
 ### In terms of adjoints
 
-Since Grothendieck fibrations are a strict notion, in what follows we denote by $E/p$ the strict [[comma category]] (i.e. determined up to isomorphism, not merely up to equivalence) and by $Cat/B$ the [[strict slice 2-category]] (elsewhere denoted $Cat/_s B$).
+Since Grothendieck fibrations are a strict notion, in what follows we denote by $B\downarrow p$ the strict [[comma category]] (i.e. determined up to isomorphism, not merely up to equivalence) and by $Cat/B$ the [[strict slice 2-category]] (elsewhere denoted $Cat/_s B$).
 
 +--{: .un_lemma}
 ###### Lemma
-A functor $p \colon E \to B$ is a cloven fibration if and only if the canonical functor $i \colon B \to E/p$ has a right adjoint $r$ in $Cat / B$.
+A functor $p \colon E \to B$ is a cloven fibration if and only if the canonical functor $i \colon E \to B\downarrow p$ has a right adjoint $r$ in $Cat / B$.
 =--
 +-- {: .proof }
 ###### Proof
@@ -144,13 +143,13 @@ First, recall that the strict slice 2-category $Cat/X$ has objects the functors 
 $$\array{C & \stackrel{h}{\to} & C' \\ & f \searrow \swarrow g &  \\  & X,  & }$$
 and as 2-cells the natural transformations $\alpha : h_1 \to h_2$ such that $g\alpha = id_f$.
 
-Next, recall that the [[comma category]] $B/p$ has objects the triples $(x, e, k)$, with $k \colon x \to p e$.  Let $\pi \colon B/p \to B$ denote the projection $(x, e, k) \mapsto x$.
+Next, recall that the [[comma category]] $B\downarrow p$ has objects the triples $(x, e, k)$, with $k \colon x \to p e$.  Let $\pi \colon B\downarrow p \to B$ denote the projection $(x, e, k) \mapsto x$.
 
-The canonical morphism $p \to B/p$ is simply the inclusion functor of identity maps $i b = 1 \colon p b \to p b$.
+The canonical morphism $i:E \to B\downarrow p$ is simply the inclusion functor of identity maps $i e  = 1_{p e} \colon p e \to p e$.
 
-Somewhat imprecisely, seeing both categories $E$ and $B/p$ as sitting over $B$ means that functors between those should be the identity on the $b$ component, and natural transformations should have the identity as their $b$ component.
+Somewhat imprecisely, seeing both categories $E$ and $B\downarrow p$ as sitting over $B$ means that functors between those should be the identity on the $b$ component, and natural transformations should have the identity as their $b$ component.
 
-To give an adjunction $i \dashv r$ it suffices to give, for each $k \colon x \to p e$ in $B/p$, an object $r k$ in $E$ such that $p r k = x$ and an arrow $i r k = 1_x \to k$ in $B/p$ that is [[universal arrow|universal]] from $i$ to $k$.  For the adjunction to live in $Cat/B$ we must have that $\pi \circ i r k = 1_{p r k} = 1_x$, so the universal arrow must be of the form
+To give an adjunction $i \dashv r$ it suffices to give, for each $k \colon x \to p e$ in $B\downarrow p$, an object $r k$ in $E$ such that $p r k = x$ and an arrow $i r k = 1_x \to k$ in $B\downarrow p$ that is [[universal arrow|universal]] from $i$ to $k$.  For the adjunction to live in $Cat / B$ we must have that $\pi \circ i r k = 1_{p r k} = 1_x$, so the universal arrow must be of the form
 $$
 \array{
   x & \overset{1}{\to} & x \\
@@ -160,7 +159,7 @@ $$
 $$
 and thus amounts to a choice of $\epsilon_k \colon r k \to e$ in $E$ such that $p \epsilon_k = k$.
 
-The universal property of $\epsilon_k$ tells us that for any other morphism in $B/p$ from some $i y$ to $k$, i.e., for any $y$ and any pair $(f,g)$ making the square
+The universal property of $\epsilon_k$ tells us that for any other morphism in $B\downarrow p$ from some $i y$ to $k$, i.e., for any $y$ and any pair $(f,g)$ making the square
 $$
 \array{
   p y & \stackrel{1}{\to} & p y \\
@@ -168,7 +167,7 @@ $$
   x & \underset{k}{\to} & p e
 }
 $$
-commute, there is a unique map $h \colon y \to r k$ in $B$ such that the above square factors in $B/p$ as
+commute, there is a unique map $h \colon y \to r k$ in $B$ such that the above square factors in $B\downarrow p$ as
 $$
 \array{
   p y & \stackrel{1}{\to} & p y \\
