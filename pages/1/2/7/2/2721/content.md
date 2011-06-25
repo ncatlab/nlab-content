@@ -557,6 +557,15 @@ But while $\mu_3$ is not in $ker(W(\mathfrak{g}_{\mu_3}) \to CE(\mathfrak{g}_{\m
 
 * **invariant polynomial**
 
+## References
+
+The notion of invariant polynomials of $L_\infty$-algebras has been introduced in 
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos+--+references#SSSI">web</a>).
+
+An account in the more general context of Lie theory in [[cohesive (infinity,1)-toposes]] is in section 3.3.11 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ .
 
 
 [[!redirects algebra of invariant polynomials]]
