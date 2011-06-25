@@ -104,6 +104,13 @@ for all $x$. But the condition for an invariant polynomial is stronger than thes
 
 =--
 
++-- {: .num_defn #DecomposableInvPolynomial}
+###### Definition 
+
+We say an invariant polynomial is _decomposable_ if it is the wedge product in $W(\mathfrak{g})$ of two invariant polynomials of non-vanishing degree. 
+
+=--
+
 +-- {: .num_defn #HorizontalEquivalence}
 ###### Definition 
 
@@ -114,6 +121,31 @@ $$
   \,.
 $$
 
+=--
+
++-- {: .num_prop #DecomposablePolysAreHorizontallyTrivial}
+###### Proposition
+
+Every decomposable invariant polynomial, def. \ref{DecomposableInvPolynomial}, is horizontally equivalent to 0.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $P = P_1 \wedge P_2$ be a wedge product of two indecomposable polynomials. Then there exists a [[Chern-Simons element]] $cs_1 \in W(\mathfrak{g})$ such that $d_W cs_1 = P_1$. By the assumption that $P_2$ is in non-vanishing degree and hence in $ker(W(\mathfrak{g}) \to CE(\mathfrak{g}))$ it follows that 
+
+1. also $cs_1 \wedge P_2$ is in $ker(W(\mathfrak{g}) \to CE(\mathfrak{g}))$ 
+
+1. $d_W (cs_1 \wedge P_2) = P_1 \wedge P_2$ .
+
+Therefore $cs_1 \wedge P_1$ exhibits a horizontal equivalence $P_1 \wedge P_2 \sim 0$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
 We write $inv(\mathfrak{g})$ for the graded algebra of horizontal-equivalence classes of invariant polynomials of $\mathfrak{g}$, When regarded as a [[dg-algebra]] with trivial differential there is a dg-algebra homomorphism
 
 $$
@@ -121,6 +153,14 @@ $$
 $$
 
 that includes for each class one representative into the Weil algebra.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By prop. \ref{DecomposablePolysAreHorizontallyTrivial} it follows that 
+$inv(\mathfrak{g})$ is generated from indecomposable invariant polynomials.
 
 =--
 
