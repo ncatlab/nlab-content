@@ -46,7 +46,7 @@ For $\mathfrak{a} = \mathfrak{g}$ an ordinary [[Lie algebra]], an invariant poly
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $\mathfrak{a}$ an [[∞-Lie algebroid]] (of finite type, i.e. degreewise of finite rank) with [[Chevalley-Eilenberg algebra]] 
@@ -84,7 +84,7 @@ an **invariant polynomial** on $\mathfrak{a}$ is an elements $\langle - \rangle 
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 
@@ -101,6 +101,26 @@ $$
 $$
 
 for all $x$. But the condition for an invariant polynomial is stronger than these ad-invariances. For instance there are  [[∞-Lie algebra cohomology|∞-Lie algebra cocycles]] $\mu \in CE(\mathfrak{g})$ which when regarded as elements in $W(\mathfrak{g})$ are ad-invariant. But being entirely in the un-shifted copy, $\mu \in \wedge^\bullet \mathfrak{g}^*$, these are not invariant polynomials.
+
+=--
+
++-- {: .num_defn #HorizontalEquivalence}
+###### Definition 
+
+Two invariant polynomials $P_1, P_2 \in W(\mathfrak{g})$ are _horizontally equivalent_ if there is $\omega \in ker(W(\mathfrak{g}) \to CE(\mathfrak{g}))$ such that
+
+$$
+  P_1 = P_2 + d_W \omega
+  \,.
+$$
+
+We write $inv(\mathfrak{g})$ for the graded algebra of horizontal-equivalence classes of invariant polynomials of $\mathfrak{g}$, When regarded as a [[dg-algebra]] with trivial differential there is a dg-algebra homomorphism
+
+$$
+  inv(g) \to W(g)
+$$
+
+that includes for each class one representative into the Weil algebra.
 
 =--
 
@@ -404,6 +424,90 @@ See [[Killing form]], [[string Lie 2-algebra]].
 
 For $X$ a [[smooth manifold]], and invariant polynomial on the [[tangent Lie algebroid]] $\mathfrak{a} = T X$ is precisely a closed [[differential form]] on $X$.
 
+### On the string Lie 2-algebra
+ {#OnStringLie2Algebra}
+
+For $\mathfrak{g}$ a [[semisimple Lie algebra]] let 
+$\mu_3 := \langle -,[-,-]\rangle$ be the canonical [[Lie algebra cocycle]] in degree 3, which is the one in [[transgression]] with the [[Killing form]] invariant polynomial $\langle -,-\rangle$.
+
+Write $\mathfrak{g}_{\mu_3}$ for the corresponding [[string Lie 2-algebra]]. We have that the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g}_{\mu_3})$ is given by
+
+$$
+  d_{CE} t^a = - \frac{1}{2}C^a{}_{b c} t^b \wedge t^c
+$$
+
+$$
+  d_{CE} b = \mu_3
+$$
+
+and the [[Weil algebra]] $W(\mathfrak{g}_{\mu_3})$ is given by
+
+$$
+  d_W t^a = - \frac{1}{2}C^a{}_{b c} t^b \wedge t^c + r^a
+$$
+
+$$
+  d_W b = \mu_3 - h
+$$
+
+$$
+  d_W r^a = - C^a_{b c} t^b \wedge r^c
+$$
+
+$$
+  d_W h = d_W \mu_3 = \sigma \mu_3
+  \,,
+$$
+
+where $\sigma$ acts by degree shift isomorphism on unshifted generators.
+
+It follows at once that every invariant polynomial 
+
+$$
+  P = P_{a_1, \cdots, a_n} r^{a_1} \wedge \cdots \wedge r^{a_n}
+$$ 
+
+on the Lie algebra $\mathfrak{g}$ canonically identifies also with an invariant polynomial of the string Lie 2-algebra. But the differnce is that the [[Killing form]] $\langle -,- \rangle := P_{a b} r^a \wedge r^b$ is non-trivial as a polynomial on $\mathfrak{g}$, but as a polynomial on $\mathfrak{g}_{\mu_3}$ becomes 
+horizontally equivalent ,def. \ref{HorizontalEquivalence}), to the trivial invariant polynomial.
+
++-- {: .num_prop}
+###### Proposition
+
+On the [[string Lie 2-algebra]] $\mathfrak{g}_{\mu_3}$ the [[Killing form]] $\langle -,-\rangle$ is horizontally equivalent to 0.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $cs_3 \in W(\mathfrak{g})$ be any [[Chern-Simons element]] for $\langle -,- \rangle$, hence an element such that 
+
+1. $cs_3|_{CE(\mathfrak{g})} = \mu_3$;
+
+1. $d_W cs_3 = \langle -,- \rangle$.
+
+Then notice that by the above we have in $W(\mathfrak{g}_{\mu_3})$ that the differential of the new generator $h$ is equal to that of $\mu_3$:
+
+$$
+  d_W h = d_W \mu_3
+  \,.
+$$
+
+We on $\mathfrak{g}_{\mu_4}$ we can replace $\mu_3$ by $h$ and still get a  [[Chern-Simons element]] for the Killing form:
+
+$$
+  \tilde cs_3 := cs_3 - \mu_3 + h
+  \,.
+$$
+
+$$
+  d_W \tilde cs_3 = \langle -,- \rangle
+  \,.
+$$
+
+But while $\mu_3$ is not in $ker(W(\mathfrak{g}_{\mu_3}) \to CE(\mathfrak{g}_{\mu_3}))$, the element $h$ is, by definition. Therefore $\tilde cs_3$ is in that kernel, and hence exhibits a horizontal equivalence between $\langle -,- \rangle$ and $0$.
+
+=--
 
 ## Related concepts
 
