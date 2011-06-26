@@ -1,3 +1,36 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Yoneda lemma
++--{: .hide}
+[[!include Yoneda lemma - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of context
+{:toc}
+
+## Idea
+
+A _derived moduli space_ is a [[moduli space]] in the context of [[derived geometry]].
+
+## Related concepts
+
+* [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]]
+
+* [[classifying morphism]]
+
+## References
+
 Derived moduli spaces and stacks were considered in 
 
 * Jacob Lurie, [[Moduli Problems and DG-Lie Algebras]]
