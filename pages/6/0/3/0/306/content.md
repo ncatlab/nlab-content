@@ -124,8 +124,12 @@ By further playing around with this one finds that this latter subobject of $\Om
 
 In the category of [[set]]s, the 2-element set $\mathbf{2} = \{f, t\}$ plays the role of $\Omega$; the morphism $t: 1 \to \mathbf{2}$ just names the element $t$. Given a [[subset]] $S \subseteq X$, the characteristic function $\chi_S: X \to \mathbf{2}$ is the function defined by $\chi_S(x) = t$ if $x \in S$, and $\chi_S(x) = f$ if $x \notin S$.
 
-**Remark.** It is not usually true in toposes that $\Omega$ is the coproduct $\mathbf{2} = 1 + 1$; toposes where that occurs are called _[[Boolean topos|Boolean]]. Thus the category $Set$ of sets is a Boolean topos, as is the [[presheaf]] topos $Set^G$ when $G$ is a [[groupoid]].
++-- {: .num_remark}
+###### Remark
 
+It is not usually true in [[toposes]] that $\Omega$ is the [[coproduct]] $\mathbf{2} = 1 + 1$; toposes where that occurs are called _[[Boolean topos|Boolean]]. Thus the category $Set$ of sets is a Boolean topos, as is the [[presheaf]] topos $Set^G$ when $G$ is a [[groupoid]].
+
+=--
 
 ### In a presheaf topos
 
@@ -133,10 +137,14 @@ The subobject classifier in a [[presheaf]] topos $PSh(S)$ is the presheaf that s
 
 The corresponding morphism $true : * \to \Omega$ of presheaves is the [[natural transformation]] that picks over each object the _maximal sieve_ $true_U = maximal_{sieves(U)} : * \to sieves(U)$
 
+#### In $G Set$
+
+As a special case of presheaf toposes, for $G$ a [[discrete group]] and $G Set = [\mathbf{B} G, Set]$ the topos of [[permutation representation]]s, there are precisely two [[sieve]]s on the single object of the [[delooping]] [[groupoid]] $\mathbf{B}G$: the trivial one and the empty one. Hence the subobject classifier here is the 2-element set as in [[Set]], but now regarded as a $G$-set with trivial $G$-[[action]].
+
 
 ### In a non-boolean topos
 
-An example of a non-Boolean topos is the category of [[sheaf|sheaves]] over a "typical" [[topological space]] $X$ such as $\mathbb{R}$ in its usual topology. In this case, $\Omega$ is the sheaf where the set of sections over an open set $U$ is the set of open subsets of $U$, with the obvious restriction maps; the [[sheaf and topos theory|sheaf topos]] in this case is guaranteed to be non-Boolean provided there are some non-regular open sets in $X$ (a open set is _regular_ if it is the interior of its closure). The "[[internal logic]]" of such a topos is [[intuitionistic logic|intuitionistic]]. 
+An example of a non-[[Boolean topos]] is the [[category of sheaves]] over a "typical" [[topological space]] $X$ such as the [[real line]] $\mathbb{R}$ in its usual [[topology]]. In this case, $\Omega$ is the sheaf where the set of sections over an [[open subset]] $U$ is the set of open subsets of $U$, with the obvious restriction maps; the [[sheaf and topos theory|sheaf topos]] in this case is guaranteed to be non-Boolean provided there are some non-regular open sets in $X$ (a open set is _regular_ if it is the interior of its closure). The "[[internal logic]]" of such a topos is [[intuitionistic logic|intuitionistic]]. 
 
 
 ## Properties
@@ -149,7 +157,7 @@ In fact, this internal poset is an internal [[Heyting algebra]]; it\'s an intern
 
 In higher topoi the the subobject classifiers are the [[generalized universal bundle|universal fibrations]]:
 
-in the [[n-topos]] $n Cat$ of [[n-category|n-categories]] the subobject classifier is the [[stuff, structure, property|forgetful functor]]
+in the [[n-topos|(n+1)-topos]] $n Cat$ of [[n-category|n-categories]] the subobject classifier is the [[stuff, structure, property|forgetful functor]]
 
 $$
   n true : (n-1)Cat_* \to (n-1)Cat
