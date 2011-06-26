@@ -182,6 +182,14 @@ A **[[classifying space]]** $\mathcal{B}G$ is precisely a representing object fo
 These general considerations are quite commonplace in algebraic topology, where they crop up for example in the connection between generalized cohomology theories and spectra; cf. Brown's representability theorem. 
 
 
+## Related concepts
+
+* [[Yoneda lemma]]
+
+* [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
+
+* [[classifying morphism]]
+
 ## References
 
 A discussion of representable functors in the context of enriched category theory is in section 1.6 and section 1.10 of
