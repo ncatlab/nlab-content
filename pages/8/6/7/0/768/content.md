@@ -2,12 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
+#### Yoneda lemma
 +--{: .hide}
-[[!include cohomology - contents]]
+[[!include Yoneda lemma - contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
@@ -141,6 +146,11 @@ See ([Cartan-Schwarz, expose 5](#CartanSchwarz)).
 
 The notion of **[[moduli space]]** is closely related to that of classifying space, but has some subtle differences. See there for more on this.
 
+## Related concepts
+
+* **classifying space**, [[classifying stack]], [[moduli space]], [[moduli stack]]
+
+* [[classifying morphism]]
 
 ## References
 
