@@ -1,24 +1,31 @@
-A [[functor]] $F:C\to D$ is **essentially surjective** if for every [[object]] $y$ of $D$, there exists an object $x$ of $C$ and an [[isomorphism]] $F(x) \cong y$ in $D$.  Sometimes one says "essentially surjective on objects" (because it\'s a weaking of being surjective on objects), and this is sometimes abbreviated to **eso**. For example, a functor among [[discrete categories]] is essentially surjective iff it is a surjective function among the classes of objects.
+## Idea
 
-In any 2-category there is a notion of [[eso morphism]] which generalizes the essentially surjective functors in [[Cat]].
+A [[functor]] $F:C\to D$ is **essentially surjective**, or **essentially surjective on object** (sometimes abbreviated to **eso**), if it is surjective on objects "up to isomorphism".
 
-Every functor bijective on objects is essentially surjective, a composition of any two essentially surjective functors is essentially surjective, and if an essentially surjective functor $f$ factorizes as $js$ where $s$ is surjective on objects then $j$ is an equivalence of categories. Thus essentially surjective is a non-[[evil]] version of a "bijective on objects", i.e. the version which views $Cat$ as a bicategory. 
+## Definition
 
-There is a strict factorization on $Cat$: each functor $f$ decomposes as a composition of the form $je$ where $e$ is bijective on objects and $j$ fully faithful; and if 
+$F:C\to D$ is **essentially surjective** if for every [[object]] $y$ of $D$, there exists an object $x$ of $C$ and an [[isomorphism]] $F(x) \cong y$ in $D$.
 
-$$\array{
-A &\stackrel{u}\longrightarrow& C
-\\
-e\downarrow &&\downarrow j
-\\
-B &\stackrel{v}\longrightarrow& D
-}$$
+## Examples
 
-is a commutative diagram with $e$ bijective on objects and $s$ essentially surjective, then there is a unique functor $h : B\to C$ such that $h e = u$ and $j h = v$. There is an analogue for commuting up to invertible two cell. For essentially surjective functors, one relaxes both the commuting and the uniqueness to obtain a weak factorization system. 
+* A functor between [[discrete categories]] (or, more generally, [[skeletal categories]]) is essentially surjective iff it is a [[surjective function]] between the classes of objects.
 
-[[R. Street]] in _Categorical and combinatorial aspects of descent theory_ proves
+## Properties
 
-Proposition. A functor is bijective on objects if and only if it exhibits its
-codomain as the (2-categorical) codescent object of some simplicial category.
+* Any [[bijective-on-objects functor]] is essentially surjective.
+
+* A [[composition]] of any two essentially surjective functors is essentially surjective.
+
+* If $g f$ is essentially surjective, then $g$ is essentially surjective.
+
+* An essentially surjective functor is additionally [[fully faithful functor|fully faithful]] precisely when it is an [[equivalence of categories]].  In fact, there is an [[factorization system in a 2-category|orthogonal factorization system]] (in the up-to-isomorphism 2-categorical sense) on $Cat$, in which eso functors are the left class and fully faithful functors are the right class.
+
+  This is an "up-to-isomorphism" version of the [[bo-ff factorization system]], which is a 1-categorical orthogonal factorization system on $Cat$ in which the left class consists of [[bijective-on-objects functors]].  Thus essentially surjective is a non-[[evil]] version of "bijective on objects", i.e. the version which views $Cat$ as a bicategory.
+
+* In any 2-category there is a notion of [[eso morphism]] which generalizes the essentially surjective functors in [[Cat]].  In a [[regular 2-category]], these form a [[factorization system in a 2-category]] together with the [[ff morphisms]].
 
 [[!redirects essentially surjective functors]]
+[[!redirects essentially surjective on objects functor]]
+[[!redirects essentially surjective on objects functors]]
+[[!redirects eso functor]]
+[[!redirects eso functors]]
