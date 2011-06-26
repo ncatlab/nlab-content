@@ -45,13 +45,13 @@ Another known universal characterization of the ultrafilter monad is via the con
 
 Let $i: Fin \to Set$ be the usual full inclusion of finite sets into sets. The restricted co-Yoneda embedding 
 
-$$Set \stackrel{y^{op}}{\to} (Set^{Set})^{op} \stackrel{(Set^i)^{op}}{\to} (Set^{Fin})^{op}: X \mapsto Set(X, i-)$$ 
+$$Set \stackrel{y^{op}}{\to} (Set^{Set})^{op} \stackrel{(Set^i)^{op}}{\to} (Set^{Fin})^{op},$$ 
 
-has a right adjoint 
+taking a set $X$ contravariantly to the functor $Set(X, i-)$, has a right adjoint 
 
 $$Set^{Fin}(-, i): (Set^{Fin})^{op} \to Set$$ 
 
-(Note: this construction is dual to the familiar Kan construction, which from a functor $F: A \to C$ from a small category to a cocomplete category, produces an adjoint pair whose right adjoint is a functor $C \to Set^{A^{op}}$; see for instance [[nerve and realization]].) 
+(Note: this construction is dual to the familiar Kan construction, which takes as input a functor $F: A \to C$ from a small category to a cocomplete category, and produces as output an adjoint pair whose right adjoint is a functor $C \to Set^{A^{op}}$; see for instance [[nerve and realization]].) 
 
 The composition of these functors gives a monad $Set \to Set$ which in fact is just the ultrafilter monad: 
 
@@ -71,7 +71,7 @@ where $Fin_+$ is the category of nonempty finite sets. If $X$ is any set, there 
 
 $$Set(X, i_+ -): Fin_+ \to Set$$ 
 
-which may be called the **unbiased power set**. (Here $i_+: Fin_+ \to Set$ denotes the standard inclusion.) We may denote this by $(-)^X$ for short. The inclusion functor $i_+$ is identified with $(-)^1$, and corresponds to the Boolean algebra $2$. 
+which may be called the _unbiased power set_. (Here $i_+: Fin_+ \to Set$ denotes the standard inclusion.) We may denote this by $(-)^X$ for short. The inclusion functor $i_+$ is identified with $(-)^1$, and corresponds to the Boolean algebra $2$. 
 
 +-- {: .un_def}
 ######Definition 2
@@ -82,7 +82,7 @@ Of course this is the same as a natural transformation $(-)^X \to (-)^1$ in the 
 
 $$Set(X, i-) \to Set(1, i-)$$ 
 
-in $Set^{Fin}$ used in the codensity monad description. 
+in $Set^{Fin}$ used in the codensity monad description of ultrafilters. 
 
 ### Ultrafilters via other algebraic theories 
 
