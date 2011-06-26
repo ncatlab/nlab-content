@@ -32,13 +32,18 @@ Just as the archetypical example of an ordinary [[topos]] (i.e. a $(1,1)$-topos)
 
 ## Related concepts
 
-* [[topos theory]]
+* [[(0,1)-topos]]
 
-* [[2-topos theory]]
+* [[topos theory]], [[topos]]
 
-* [[(∞,1)-topos theory]]
+* [[2-topos theory]], [[2-topos]]
+
+* [[n-topos]]
+
+* [[(∞,1)-topos theory]], [[(∞,1)-topos]]
 
 * **higher topos theory**
+
 
 
 ## References
