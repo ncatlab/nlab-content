@@ -122,6 +122,8 @@ pastes to give the inverse $(\theta \cdot f)^{-1}$, where the left and right squ
 
 A transformation $\theta: F \to G: B \to C$ is **map-valued** if each 1-cell $\theta b$ is a map in $C$. By the previous proposition, a map-valued transformation $\theta$ in $Hom_l(B, C)$ restricts to a strong transformation $\theta|: F| \to G|$ in $Hom_s(Map(B), Map(C))$. 
 
+* **Warning:** In general it is imprecise to identify maps in a 2-category with the "functional relations". That is, for some of the standard examples of cartesian bicategories, such as $B = Prof$, we cannot simply identify $Map(B)$ with $Cat$: 1-cell equivalences are only Morita equivalences, not $Cat$-equivalences. A better adapted framework is one of a bicategory with a proarrow equipment, or a [[framed bicategory]]. Eventually this article will be rewritten with this remark in mind... 
+
 ## Definition of cartesian structure and basic results 
 
 A **cartesian structure** on a bicategory $B$ consists of the following data: 
@@ -135,7 +137,7 @@ where $\Delta: B \to B \times B$ is the diagonal 2-functor and $!: B \to \mathbf
 * Invertible modifications 
 $$\array{
 \otimes & \overset{\delta \otimes}{\to} & \otimes \Delta \otimes & & & & \Delta & \overset{\Delta \delta}{\to} & \Delta \otimes \Delta & & & & I & \overset{\varepsilon I}{\to} & I ! I\\
-1_{\otimes} \downarrow & \overset{s}{\Rightarrow} & \downarrow \otimes \pi & & & & 1_{\Delta} \downarrow & \overset{t}{\Leftarrow} & \downarrow \pi \Delta & & & & 1_{I} \downarrow & \overset{u}{\Rightarrow} & \downarrow I \cdot id\\
+\mathllap{1_{\otimes}} \downarrow & \overset{s}{\Rightarrow} & \downarrow \mathrlap{\otimes \pi} & & & & \mathllap{1_{\Delta}} \downarrow & \overset{t}{\Leftarrow} & \downarrow \mathrlap{\pi \Delta} & & & & \mathllap{1_{I}} \downarrow & \overset{u}{\Rightarrow} & \downarrow \mathrlap{I \cdot id}\\
 \otimes & \underset{1_{\otimes}}{\to} & \otimes & & & & \Delta & \underset{1_{\Delta}}{\to} & \Delta & & & & I & \underset{1_I}{\to} & I
 }$$ 
 satisfying the triangulator coherence conditions. $\Box$ 
@@ -242,6 +244,6 @@ and by our earlier discussion of lax adjunctions, this means we have local 1-adj
 
 $$(B(a, b \otimes c) \to (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \dashv (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \to B(a, b \otimes c))$$
 
-[Been sitting on this for weeks doing nothing; will return to it soon.]  
+ 
 
 [[!redirects cartesian bicategories]]
