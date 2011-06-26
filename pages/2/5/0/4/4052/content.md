@@ -44,6 +44,8 @@ The archetypical 2-topos is [[Cat]].
 
 * **2-topos**
 
+* [[n-topos]]
+
 * [[(∞,1)-topos]]
 
 
