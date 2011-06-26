@@ -147,6 +147,27 @@ As a special case of presheaf toposes, for $G$ a [[discrete group]] and $G Set =
 An example of a non-[[Boolean topos]] is the [[category of sheaves]] over a "typical" [[topological space]] $X$ such as the [[real line]] $\mathbb{R}$ in its usual [[topology]]. In this case, $\Omega$ is the sheaf where the set of sections over an [[open subset]] $U$ is the set of open subsets of $U$, with the obvious restriction maps; the [[sheaf and topos theory|sheaf topos]] in this case is guaranteed to be non-Boolean provided there are some non-regular open sets in $X$ (a open set is _regular_ if it is the interior of its closure). The "[[internal logic]]" of such a topos is [[intuitionistic logic|intuitionistic]]. 
 
 
+### In a slice topos
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{E}$ be a [[topos]] and $X \in \mathcal{E}$ any object. Write $\mathcal{E}/X$ for the corresponding [[over-topos]].
+
+The subobject classifier of $\mathcal{E}/X$ is $p_2 : \Omega_{\mathcal{E}} \times X \to X$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows for instance from the statement that the [[inverse image]] of any [[base change geometric morphism]] is a [[logical functor]] and hence preserves subobject classifiers: Here we are looking at the base change along $p : X \to *$ and hence $p^* \Omega_{\mathcal{E}}\simeq \Omega_{\mathcal{E}} \times X$.
+
+But the statement is also easily directly checked.
+
+=--
+
+
 ## Properties
 
 The subobject classifier always comes with the structure of an internal [[partial order|poset]]; that is, a relation $\subseteq\, \hookrightarrow \Omega\times\Omega$ which is internally reflexive, antisymmetric, and transitive.  This can be constructed directly, or obtained via the [[Yoneda lemma]] since the collection of subobjects of any object is an external poset.
