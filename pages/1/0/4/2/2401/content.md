@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Yoneda lemma
++--{: .hide}
+[[!include Yoneda lemma - contents]]
+=--
 #### Higher geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
@@ -10,7 +14,7 @@
 =--
 
 #Contents#
-* automatic tanle of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -104,10 +108,17 @@ Notice well the two assumptions that were made to make this argument work:
 
 
 
-## Related entries and references
+## Related concepts 
+
+* [[representable functor]]
+
+* [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
+
+* [[classifying morphism]]
 
 * [[Hilbert scheme]], [[Moduli Problems and DG-Lie Algebras]], 
-[[derived moduli space]]
+
+## References
 
 A bit of elementary exposition of these ideas is at 
 
@@ -118,3 +129,13 @@ A blog discussion about the issue of classifying spaces versus moduli spaces is 
 [[!redirects fine moduli space]]
 [[!redirects coarse moduli space]]
 [[!redirects moduli stack]]
+[[!redirects classifying stack]]
+
+[[!redirects fine moduli spaces]]
+[[!redirects coarse moduli spaces]]
+[[!redirects moduli stacks]]
+[[!redirects classifying stacks]]
+
+
+
+
