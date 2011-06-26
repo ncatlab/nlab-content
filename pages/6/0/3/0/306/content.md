@@ -24,23 +24,98 @@ In this sense $\Omega$ is the [[classifying space|classifying object]] for subob
 
 ## Definition
 
-If $C$ is a [[finitely complete category]], a _subobject classifier_ is a [[representable functor|representing object]] for the functor
-$$Sub: C^{op} \to Set$$
-which assigns to each object $c$ of $C$ its set of [[subobject]]s. In [[topos theory]], the subobject classifier is traditionally denoted $\Omega$; it is also called the "[[truth value]] object".
++-- {: .num_defn}
+###### Definition
 
-(For this description to parse, we should ask that $C$ be [[locally small category|locally small]] and [[well-powered category|well-powered]], but actually it won't matter because presently we will redefine the notion in elementary terms, without reference to [[Set]].
+In a [[category]] $C$ with [[finite limit]]s, a **subobject classifier** is a [[monomorphism]] $true : * \to \Omega$ out of the [[terminal object]], such that for every [[monomorphism]] $U \to X$ in $C$ there is a unique morphism $\chi_U : X \to \Omega$ such that there is a [[pullback]] [[diagram]]
 
-In more detail: given a morphism $f: c \to d$ in $C$, the function
-$$Sub(f): Sub(d) \to Sub(c)$$
-takes a subobject $i: t \hookrightarrow d$ to the subobject of $d$ obtained by pulling back $i$ along $f$. [An easy basic lemma of category theory states that the [[pullback]] of a mono $i$ along any morphism $f$ is still a [[monomorphism|mono]].] The representability of this functor means there is an object $\Omega$ together with a subobject $t: T \hookrightarrow \Omega$ which is *[[universal construction|universal]]*, meaning that given any subobject $i: s \hookrightarrow c$, there is a unique morphism $f: c \to \Omega$ such that $i$ is obtained as the pullback of $t$ along $f$.
+$$
+  \array{
+    U &\to& *   
+    \\
+    \downarrow && \downarrow^{\mathrlap{true}}
+    \\
+    X &\stackrel{\chi_U}{\to}& \Omega
+  }
+  \,.
+$$
 
-It is not hard to show that the domain $T$ of the universal subobject is a [[terminal object]], typically denoted $1$. Therefore the elementary definition of subobject classifier becomes
-
-+--{.un_defn}
-A __subobject classifier__ in a finitely complete category $C$ is an object $\Omega$ together with a morphism $t: 1 \to \Omega$ such that for any mono $i: s \to c$ in $C$, there exists a unique morphism $\chi_i: c \to \Omega$ such that $i$ arises as the pullback of $t$ along $\chi_i$. The morphism $\chi_i$ is called the _classifying map_ or _characteristic map_ (of the subobject or isomorphism-equivalence class of $i$).
 =--
 
-[[global element|Elements]] $\phi: 1 \to \Omega$ are often referred to as "truth values"; the distinguished element $t: 1 \to \Omega$ is referred to as "true".  Note that these truth values correspond to the [[subterminal object]]s.
+See for instance ([MacLane-Moerdijk, p. 22](#MacLaneMoerdijk)).
+
++-- {: .num_remark}
+###### Remark
+
+Some terminology:
+
+If it exists, the object $\Omega$ is also called the **object of [[truth value]]s**, a [[global element]] $K \to \Omega$ is called a **[[truth value]]** and the element $true : * \hookrightarrow \Omega$ is the truth value **[[true]]**, where all these terms allude to the [[internal logic]] of the category $C$.
+
+Note that the subobjects classified by the truth values are [[subterminal object]]s.
+
+The morphism $\chi_U$ is also called the **[[characteristic map]]** or **[[classifying map]]** of the subobject $U \hookrightarrow X$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+If $C$ has [[finite limit]]s and is in addition a [[locally small category]], then it has a subobject classifier precisely if the [[subobject]]-assigning [[presheaf]]
+
+$$
+  Sub : C^{op} \to Set
+$$
+$$
+  X \mapsto \{U \hookrightarrow X\}/\sim
+$$
+
+is [[representable functor|representable]]. In this case the representing object is [[generalized the|the]] subobject classifier: there is a [[natural isomorphism]]
+
+$$
+  Sub(X) \simeq C(X, \Omega)
+$$
+
+in $X \in C$.
+
+Moreover, in this case $C$ is [[well-powered category|well powered]].
+
+=--
+
+This appears for instance as ([MacLane-Moerdijk, prop. I.3.1](#MacLaneMoerdijk)).
+
+In more detail: given a [[morphism]] $f: c \to d$ in $C$, the function
+
+$$
+  Sub(f): Sub(d) \to Sub(c)
+$$
+
+takes a [[subobject]] $i: t \hookrightarrow d$ to the subobject of $d$ obtained by [[pullback|pulling back]] $i$ along $f$. (Notice that [[monomorphism]]s, as discussed there, are stable under pullback.) 
+
+The representability of this functor means there is an object $\Omega$ together with a subobject $t: T \hookrightarrow \Omega$ which is *[[universal construction|universal]]*, meaning that given any subobject $i: s \hookrightarrow c$, there is a unique morphism $f: c \to \Omega$ such that $i$ is obtained as the pullback of $t$ along $f$.
+
++-- {: .proof}
+###### Proof
+
+To see that a subobject classifier induces such a natural isomorphism,
+we need that the morphisms $Sub(f)$ for $f \in Mor(C)$ corresponds to the morphisms $C(f,\Omega)$. This is the [[pasting law]] for [[pullback]]s.
+
+Conversely, to see that a subobjects-representing object $\Omega$ is a subobject classifier, use that by [[natural transformation|naturality]] we have for each morphism $ \phi : X \to \Omega$ a [[commuting diagram]]
+
+$$
+  \array{
+    Sub(\Omega) &\stackrel{\simeq}{\to}& C(\Omega, \Omega)
+    \\
+    {}^{\mathllap{Sub(\phi)}}\downarrow && \downarrow^{\mathrlap{C(\phi,\Omega)}}
+    \\
+    Sub(X) &\stackrel{\simeq}{\to}& C(X, \Omega)
+  }
+$$
+
+whose commuativity says that every element of $Sub(X)$ is the pullback along some $\phi : X \to \Omega$ of the subobject of $\Omega$ corresponding under the natural isomorphism to $Id : \Omega \to \Omega$.
+
+By further playing around with this one finds that this latter subobject of $\Omega$ has to be a [[terminal object]]. 
+
+=--
 
 
 ## Examples
@@ -102,5 +177,6 @@ As pointed out there, from some perspective it is not so much a _subobject_ clas
 section I.3 and I.4 in
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ {#MacLaneMoerdijk}
 
 [[!redirects subobject classifiers]]
