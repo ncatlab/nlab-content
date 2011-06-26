@@ -58,24 +58,116 @@ Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on [[monomo
 
 ## Properties
 
-### Size issues
+### The poset of subobjects.
 
-For $C$ an [[accessible category]], $c \in C$ any object, the poset $Sub(c)$ of subobjects of $c$ is a [[small category]].
+* For $C$ an [[accessible category]], $c \in C$ any object, the poset $Sub(c)$ of subobjects of $c$ is a [[small category]].
 
-(...)
+* Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the poset of subobjects of object $X$ in $E$. The correspondence $Sub:X\mapsto Sub(X)$ may be extended to a [[contravariant functor]] $X \to Pos$ (that is a functor $X^op \to Pos$), namely if $f: X\to Y$ is arbitrary and $m:S\hookrightarrow Y$ is a monic, then the pullback $f^*(m):f^*(S)\to X$ of $m$ along $f$ is automatically a monic; the correspondence $m\mapsto f^*(m)$ describes $Sub(f)$ at the level of representatives of subobjects.  
 
-### The poset of subobjects as a functor
+### Limits and colimits of subobjects
 
-Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the poset of subobjects of object $X$ in $E$. The correspondence $Sub:X\mapsto Sub(X)$ may be extended to a [[contravariant functor]] $X \to Pos$ (that is a functor $X^op \to Pos$), namely if $f: X\to Y$ is arbitrary and $m:S\hookrightarrow Y$ is a monic, then the pullback $f^*(m):f^*(S)\to X$ of $m$ along $f$ is automatically a monic; the correspondence $m\mapsto f^*(m)$ describes $Sub(f)$ at the level of representatives of subobjects.  
+Assume that the ambient category has all [[limit]]s and [[colimit]]s considered in the following.
+
++-- {: .num_defn}
+###### Definition
+
+For $X \in C$ an [[object]], $Sub(X)$ the [[poset]] of subobjects and  
+$U_1, U_2 \hookrightarrow X$ two [[subobject]]s, 
+
+*  their [[product]] in $Sub(X)$ is denoted $U_1 \cap U_2$ or $U_1 \wedge U_2$ and called the **[[intersection]]** or **[[meet]]** of the two subobject;
+
+* their [[coproduct]] in $Sub(X)$ is denoted $U_1 \cup U_2$ or $U_1 \vee U_2$ and called the **[[union]]** or **[[join]]** of the two subobjects.
+ 
+=--
 
 
-## Comparison with the notion of "subset"
++-- {: .num_prop #IntersectionAndUnionAsFiberProductAndCoimage}
+###### Proposition
 
-The notion of subobject figures prominently in [[topos]] theory and in other approaches to [[set theory]] based on categories. It is not an exact translation of the usual notion of "subset" in traditional set theory; in ordinary set theory, the notion of subset is defined in terms of a global elementhood relation between sets, which one doesn't have in categorical set theory (and which one wouldn't necessarily want: it's "[[evil|evil]]" in the sense of not being invariant with respect to isomorphism).
+1. The intersection of two subobjects in $Sub_C(X)$ is their [[fiber product]] in $C$: the [[diagram]]
+
+   $$
+     \array{
+       U_1 \cap U_2 &\to& U_2
+       \\
+       \downarrow && \downarrow
+       \\
+       U_1 &\to& X
+     }
+   $$
+
+   is a [[pullback]] diagram.
+
+1. The union of two subobjects $U_1, U_2 \in Sub_C(X)$ is the [[pushout]]  $U_1 \coprod_{U_1 \cap U_2} U_2$ in $C$: the [[diagram]]
+
+   $$
+     \array{
+       U_1 \cap U_2 &\to& U_2
+       \\
+       \downarrow && \downarrow
+       \\
+       U_1 &\to& U_1 \cup U_2
+     }
+   $$
+  
+   is a [[pushout]] diagram.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+1. Since [[monomorphism]] are (as discussed there) stable under [[pullback]] and composition, the fiber product is a subobject. Its [[universal property]] as a [[limit]] in $C$ then implies its universal property as a [[product]] in $Sub_C(X)$.
+
+1. First observe that the canonical morphism $U_1 \coprod_{U_1 \cap U_2} U_2 \to X$ is a [[monomorphism]] and hence exhibits the pushout as a subobject: (...)
+
+   From this it follows as above that the universal property of the pushout in $C$ implies the universal property of the coproduct in $Sub(X)$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $U_1, U_2 \hookrightarrow X$ two subobjects in any [[topos]], the [[diagram]]
+
+$$
+  \array{
+    U_1 \cap U_2 &\to& U_2
+    \\
+    \downarrow && \downarrow
+    \\
+    U_1 &\to& U_1 \cup U_2
+  }
+$$
+
+is both a [[pullback]] as well as a [[pushout]] diagram.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The pushout property is item 2 of prop. \ref{IntersectionAndUnionAsFiberProductAndCoimage}.
+
+This pushout is equivalent to 
+
+$$
+  U_1 \cap U_2 \stackrel{\to}{\to} U_1 \coprod U_2 \to U_1 \cup U_2
+$$
+
+being a [[coequalizer]] diagram. 
+
+=--
+
+
+### Comparison with the notion of "subset"
+
+The notion of subobject figures prominently in [[topos theory]] and in other approaches to [[set theory]] based on categories. It is not an exact translation of the usual notion of "subset" in traditional set theory; in ordinary set theory, the notion of subset is defined in terms of a global elementhood relation between sets, which one doesn't have in categorical set theory (and which one wouldn't necessarily want: it's "[[evil|evil]]" in the sense of not being invariant with respect to isomorphism).
 
 Category-theoretically, the traditional notion of subset gives a way of picking out a canonical representative or "normal form" among all the monos in an isomorphism class. As we intimated, there is no intrinsic way of defining such representatives in the theory of toposes: such would have to be considered an extra structure on a topos. Mathematically, there is no particular gain in having such structure around; at best it enables a traditional mode of discourse in which subsets are concrete maps, and to this end it can function as a linguistic or psychological convenience.
 
 On the other hand, there is no particular harm either in having such structure around, as long as one remembers that it is not an isomorphism invariant.  People will instinctively turn to canonical representatives whenever they can -- think of what we would tell a student who asks for help understanding how to multiply elements in $\mathbb{Z}_13$ -- and even category theorists do so when they are available.
+
 
 ## Related concepts
 
@@ -84,6 +176,18 @@ On the other hand, there is no particular harm either in having such structure a
 * [[subobject in an (∞,1)-category]]
 
 * [[property sup]]
+
+## References
+
+Standard textbook references include section I.3 of 
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ {#MacLaneMoerdijk}
+
+and 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
 
 [[!redirects subobject]]
 [[!redirects subobjects]]
