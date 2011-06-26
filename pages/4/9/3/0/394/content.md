@@ -1,5 +1,24 @@
-A [[functor]] $F:C\to D$ is **essentially surjective** if for every [[object]] $y$ of $D$, there exists an object $x$ of $C$ and an [[isomorphism]] $F(x) \cong y$ in $D$.  Sometimes one says "essentially surjective on objects" (because it\'s a weaking of being surjective on objects), and this is sometimes abbreviated to **eso**.
+A [[functor]] $F:C\to D$ is **essentially surjective** if for every [[object]] $y$ of $D$, there exists an object $x$ of $C$ and an [[isomorphism]] $F(x) \cong y$ in $D$.  Sometimes one says "essentially surjective on objects" (because it\'s a weaking of being surjective on objects), and this is sometimes abbreviated to **eso**. For example, a functor among [[discrete categories]] is essentially surjective iff it is a surjective function among the classes of objects.
 
 In any 2-category there is a notion of [[eso morphism]] which generalizes the essentially surjective functors in [[Cat]].
+
+Every functor bijective on objects is essentially surjective, a composition of any two essentially surjective functors is essentially surjective, and if an essentially surjective functor $f$ factorizes as $js$ where $s$ is surjective on objects then $j$ is an equivalence of categories. Thus essentially surjective is a non-[[evil]] version of a "bijective on objects", i.e. the version which views $Cat$ as a bicategory. 
+
+There is a strict factorization on $Cat$: each functor $f$ decomposes as a composition of the form $je$ where $e$ is bijective on objects and $j$ fully faithful; and if 
+
+$$\array{
+A &\stackrel{u}\longrightarrow& C
+\\
+e\downarrow &&\downarrow j
+\\
+B &\stackrel{v}\longrightarrow& D
+}$$
+
+is a commutative diagram with $e$ bijective on objects and $s$ essentially surjective, then there is a unique functor $h : B\to C$ such that $h e = u$ and $j h = v$. There is an analogue for commuting up to invertible two cell. For essentially surjective functors, one relaxes both the commuting and the uniqueness to obtain a weak factorization system. 
+
+[[R. Street]] in _Categorical and combinatorial aspects of descent theory_ proves
+
+Proposition. A functor is bijective on objects if and only if it exhibits its
+codomain as the (2-categorical) codescent object of some simplicial category.
 
 [[!redirects essentially surjective functors]]
