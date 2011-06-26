@@ -64,6 +64,7 @@ Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on [[monomo
 
 * Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the poset of subobjects of object $X$ in $E$. The correspondence $Sub:X\mapsto Sub(X)$ may be extended to a [[contravariant functor]] $X \to Pos$ (that is a functor $X^op \to Pos$), namely if $f: X\to Y$ is arbitrary and $m:S\hookrightarrow Y$ is a monic, then the pullback $f^*(m):f^*(S)\to X$ of $m$ along $f$ is automatically a monic; the correspondence $m\mapsto f^*(m)$ describes $Sub(f)$ at the level of representatives of subobjects.  
 
+
 ### Limits and colimits of subobjects
  {#LimitsAndColimits}
 
@@ -83,19 +84,6 @@ Two subobjects $U_1, U_2 \in Sub_C(X)$ are called **disjoint** if $U_1 \cap U_2 
  
 =--
 
-+-- {: .num_prop }
-###### Proposition
-
-In a [[topos]], if two subobjects are disjoint, then their [[join]] in $Sub_C(X)$ is given by their [[coproduct]] in $C$.
-
-$$
-  U_1 \cup U_2 = U_1 \coprod U_2
-  \,.
-$$
-
-=--
-
-For instance ([MacLane-Moerdijk, IV.7.6](#MacLaneMoerdijk)). This generalizes as follows:
 
 +-- {: .num_prop #IntersectionAndUnionAsFiberProductAndCoimage}
 ###### Proposition
@@ -139,7 +127,61 @@ Let $C$ be a [[topos]].
 
 For the first point: Since [[monomorphism]] are (as discussed there) stable under [[pullback]] and composition, the fiber product is a subobject. Its [[universal property]] as a [[limit]] in $C$ then implies its universal property as a [[product]] in $Sub_C(X)$.
 
-(...)
+For the second point: by the same kind of argument, it is sufficient to show that the canonical morphism $U_1 \coprod_{U_1 \cap U_2} U_2 \to X$ exhibits the coproduct as a subobject. 
+
+Since [[monomorphism]]s (as discussed there) are characterized by the fact that the [[pullback]] along themselves is their domain, it is sufficient to show that 
+
+$$
+  \array{
+     U_1 \coprod_{U_1 \cap U_2} U_2 &\stackrel{Id}{\to}&  U_1 \coprod_{U_1 \cap U_2} U_2
+     \\
+     {}^{\mathllap{id}}\downarrow && \downarrow
+     \\  
+     U_1 \coprod_{U_1 \cap U_2} U_2 &\stackrel{i}{\to}& X
+  }
+$$
+
+is a [[pullback]] diagram. For showing this we use that in a [[topos]] we have [[universal colimits]], so that equivalently it is sufficient to show that
+
+$$
+  U_1 \coprod_{U_1 \cap U_2} U_2
+  \simeq
+  (i^* U_1) \coprod_{i^* (U_1 \cap U_2)} (i^* U_2)
+  \,.
+$$
+
+To see this, again use [[universal colimits]] to get
+
+$$
+  \begin{aligned}
+    i^* U_1 & \simeq U_1 \times_X (U_1 \coprod_{U_1 \cap U_2} U_2)
+    \\
+     & \simeq (U_1 \times_X U_1) \coprod_{U_1 \times_X (U_1 \cap U_2)} (U_1 \times_X U_2)
+    \\
+    & \simeq U_1 \coprod_{U_1 \cap U_2} (U_1 \times_X U_2)
+    \\
+    & \simeq U_1 \coprod_{U_1 \cap U_2} (U_1 \cap U_2)
+    \\ 
+    & \simeq U_1
+  \end{aligned}
+$$
+
+and similarly
+
+$$
+  i^* U_2 \simeq U_2
+$$
+
+and
+
+$$
+  i^* (U_1 \cap U_2) \simeq (U_1 \cap U_2)
+  \,.
+$$
+
+This proves the second point.
+
+The third point is directly verified by checking the universal property.
 
 =--
 
