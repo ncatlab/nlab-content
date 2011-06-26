@@ -69,7 +69,7 @@ A [[functor]] $F : \mathcal{E} \to \mathcal{F}$ between [[elementary toposes]] i
 
      (using that [[cartesian functor]]s preserve both [[product]]s as well as [[monomorphism]])
 
-  * equivalently: $F(P A)$ equipped with the [[relation]] $F(\in_A)$ is a [[power object]] for $F(A)$ in $\mathcal{F}$.
+   * equivalently: $F(P A)$ equipped with the [[relation]] $F(\in_A)$ is a [[power object]] for $F(A)$ in $\mathcal{F}$.
 
 =--
 
@@ -179,10 +179,16 @@ The following is the main source of examples of atomic geometric morphisms.
 +-- {: .num_prop}
 ###### Proposition
 
-* The [[inverse image]] of any [[base change geometric morphism]], hence in particular of any [[etale geometric morphism]], is a [[logical morphism]].
+The [[inverse image]] of any [[base change geometric morphism]], hence in particular of any [[etale geometric morphism]], is a [[logical morphism]].
 
 =--
 
++-- {: .proof}
+###### Proof
+
+The inverse image is given by [[pullback]] along the given morphism.
+
+=--
 
 +-- {: .num_prop}
 ###### Remark
