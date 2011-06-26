@@ -393,6 +393,12 @@ A discussion in the language of [[D-module]]s, following the book [[Chiral Algeb
 * [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics-impa-v01-2011.pdf))
 {#Paugam}
 
+The relation between covariant phase space methods and [[multisymplectic geometry]] is discussed in
+
+* [[Frédéric Hélein]], _Multisymplectic formalism and the covariant phase_ ([arXiv:1106.2086](http://arxiv.org/abs/1106.2086))
+  {#Helein}
+
+
 
 ### Reduced phase space
 
