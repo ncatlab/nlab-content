@@ -57,7 +57,7 @@ The composition of these functors gives a monad $Set \to Set$ which in fact is j
 
 $$\beta \cong Set^{Fin}(Set(X, i-), Set(1, i-))$$ 
 
-One way of considering the codensity monad formulation is that the ultrafilter functor is terminal among endofunctors whose restriction to the category of finite sets is the identity functor. 
+One way of considering the codensity monad formulation is that the ultrafilter functor is terminal among endofunctors whose restriction to the category of finite sets is the identity functor. This likewise gives the uniqueness of the monad structure, as well as the fact that $\beta$ is the terminal monad that restricts to $1_{Fin}$. 
 
 ### Ultrafilters and unbiased Boolean algebras 
 
