@@ -93,3 +93,4 @@ For example, given any projections $A\times B\to A$ and $A\times B\to B$ that ex
 [[!redirects skeletons]]
 [[!redirects skeletal]]
 [[!redirects skeletal category]]
+[[!redirects skeletal categories]]
