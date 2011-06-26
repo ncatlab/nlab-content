@@ -41,7 +41,16 @@
 
 * [[universal element]]
 
-## Applications
+## Classification
+
+* [[classifying space]], [[classifying stack]]
+
+* [[moduli space]], [[moduli stack]], [[derived moduli space]]
+
+* [[classifying morphism]]
+
+
+## Induced theorems
 
 * [[Tannaka duality]]
 
