@@ -117,6 +117,16 @@ which moroever is itself (continuously) homotopic to $\eta$ via some continuous 
 =--
 
 
+## Related theorems
+
+* the [[Hadamard lemma]]
+
+* [[Borel's theorem]]
+
+* the [[Tietze extension theorem]]
+
+
+
 
 ## References
 
