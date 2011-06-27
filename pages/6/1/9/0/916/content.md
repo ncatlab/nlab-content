@@ -1,10 +1,16 @@
-# Idea #
+
+# Partial functions
+* table of contents
+{: toc}
+
+## Idea
 
 A _partial function_ $f: A \to B$ is like a [[function]] from $A$ to $B$ except that $f(x)$ may not be defined for every element $x$ of $A$.  (Compare a [[multi-valued function]], where $f(x)$ may have several possible values.)
 
 In some fields (including secondary-school mathematics even today), functions are often considered to be parital by default, requiring one to specify a _total_ function otherwise.  As category-theoretic and type-theoretic formalisation spreads, this is difficult to treat as the basic concept, and the most modern idea is that a function must be total.  If you want partial functions, then you can get them in terms of total functions as below.
 
-# Definition #
+
+## Definitions
 
 Given [[set]]s $A$ and $B$, a __partial function__ $f$ from a $A$ to $B$ consists a [[subset]] $D$ of $A$ and a (total) function from $D$ to $B$.  In more detail, this is a [[span]]
 $$ \array {
@@ -20,14 +26,14 @@ Notice that the induced function $D \to A \times B$ is an [[injection]], so a pa
 
 We consider two partial functions (with the same given source and target) to be __equal__ if there is a [[bijection]] between their domains that makes the obvious diagrams commute.  You can get this automatically in a traditional set theory by requiring $D$ to be literally a [[subset]] of $A$ (with $\iota$ the inclusion map).
 
-# Examples #
+
+## Examples
 
 In secondary-school mathematics, one often makes functions partial by fiat, just to see if students can calculate the domains of composite functions and the like.  This is not (only) busywork, as in applications one often has a function given by a formula that is really valid only on a certain domain.  However, in more sophisticated analyses (such as those that Lawvere and his followers propose for physics and synthetic geometry), these domains and the total functions on them become the primary objects of study, with the partial functions being secondary (as $\iota$ is seen as merely a way to place _coordinates_ on $D$).
 
 In analysis, one often considers partial functions whose domains are required to be intervals in the real line, regions of the complex plane, or dense subsets of a [[Banach space]].
 
 +-- {: .query}
-
 [[Ronnie Brown|Ronnie]] There is an interesting debate possible here! 
 
 On the basis of my teaching of first year analysis and calculus since 1959, I found the most convenient  idea is that of a function $f: R \to R$ being a _partial function_ with a domain  which can be calculated from a formula for the function, and may be empty. Then one finds that the inverse of an injective function $R \to R$ is also a function $R \to R$. A first order differential equation has a solution which is a partial function. What seems to be lacking is the functional analysis of such solutions. For example $dy/dx=1/ (\lambda +x)$ has a solution whose domain varies with $\lambda$ and ought to (and can be made to) vary continuously, including its open domain! 
@@ -43,12 +49,12 @@ Of course category theory initially derived from algebra and algebraic topology,
 _Toby_:  For first-year calculus, I agree with you, except that you ought to be able to restrict the definition to an interval (or a union of intervals) by fiat.  (Actually, you can get this from formulas by adding appropriate terms of the form $\sqrt {x-a} - \sqrt{x-a}$, $\log(a-x) - \log(a-x)$, etc, but that\'s silly.)  So calculus is about (certain) functions to $\mathbf{R}$ from unions of intervals on $\mathbf{R}$.  Of course, this doesn\'t include *all* partial functions on $\mathbf{R}$, but then it doesn\'t even include all such *total* functions, so maybe the restriction on allowed domains doesn\'t matter.
 
 But if you disagree that 'in more sophisticated analyses [...], these domains and the total functions on them become the primary objects of study', then feel free to change the text (say to 'in other analyses [...]'; I don\'t intend to defend the claim that this is really the right way to do things.
-
 =--
 
 In a [[field]], the multiplicative [[inverse]] is a partial function whose domain is the set of non-zero elements of the field.
 
-# The category of partial functions #
+
+## The category of sets and partial functions
 
 The [[category]] $Set_part$ of sets and partial functions between them is important for understanding computation.  However, one often replaces this with an [[equivalence of categories|equivalent]] category of sets and total functions.
 
@@ -58,4 +64,10 @@ Classically, $S_\bot \cong S \amalg \{\bot\}$, although this is not true [[const
 
 For a more sophisticated analysis of computation, $Set_\bot$ can be replaced with a suitable category of domains, such as [[direction|directed]] [[complete lattice|complete]] [[partial order|partially ordered]] sets (DCPOs).  The requirement that $\bot$ be preserved can then be removed to model lazy computation, but now we are hardly talking about partial functions anymore.
 
+
+[[!redirects partial function]]
 [[!redirects partial functions]]
+[[!redirects partially defined function]]
+[[!redirects partially defined functions]]
+[[!redirects partially-defined function]]
+[[!redirects partially-defined functions]]
