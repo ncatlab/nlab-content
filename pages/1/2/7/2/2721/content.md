@@ -550,10 +550,152 @@ But while $\mu_3$ is not in $ker(W(\mathfrak{g}_{\mu_3}) \to CE(\mathfrak{g}_{\m
 
 =--
 
+This is a special case of the more general statement below, about [invariant polynomials on shifted central extensions](OnShiftedCentralExtenstions).
+
+For illustration purposes it is useful to consider the following variant of this example:
+
++-- {: .num_defn}
+###### Definition
+
+Write
+
+$$
+ (b \mathbb{R} \to \mathfrak{string}) \in L_\infty Alg
+$$
+
+for the [[L-∞ algebra]] defined by the fact that its [[Chevalley-Eilenberg algebra]] is given by
+
+$$
+  d_{CE} t^a = - \frac{1}{2} C^a{}_{b c} t^b \edge t^c
+$$
+
+$$
+  d_{CE} b = \mu_3 - c
+$$
+
+$$
+  d_{CE} c = 0
+  \,,
+$$
+
+where $\{t^a\}$ is a dual basis in degree 1 for some [[semisimple Lie algebra]] $\mathfrak{g}$ as above, $b$ and $c$ are generators in degree 2 and 3, respectively, and $\mu_3 \propto \langle -,[-,-]\rangle$ is the canonical [[Lie algebra cohomology|Lie algebra cocycle]] in degree 3, as above.
+
+=--
+
+It is easily seen that
+
++-- {: .num_prop}
+###### Observation
+
+The canonical morphism
+
+$$
+  \mathfrak{g} \to (b \mathbb{R} \to \mathfrak{string})
+$$
+
+given dually by sending 
+
+$$
+  t^a \mapsto t^a\,,\,\,\, b \mapsto 0\,,\, \,\, c \mapsto \mu_3
+$$
+
+is a weak equivalence.
+
+=--
+
+So the Lie 3-algebra $(b \mathbb{R} \to \mathfrak{string})$ is a kind of [[resolution]] of the ordinary Lie algebra $\mathfrak{g}$. It is for instance of use in the presentation of twisted [[differential string structure]]s, where the shifted piece $b \mathbb{R}$ in $(b \mathbb{R} \to \mathfrak{string})$ picks up the failure of $\mathfrak{so}$-valued [[connection on an ∞-bundle|connections]] to lift to $\mathfrak{string}$-[[connection on a 2-bundle|2-connections]].
+
+The proof of the following proposition may be instructive for seeing how the definition of horizontal equivalence of invariant polynomials takes care of having the invariant polynomials of $(b\mathbb{R} \to \mathfrak{string})$ agree with those of $\mathfrak{g}$.
+
++-- {: .num_prop}
+###### Observation
+
+There is an [[isomorphism]]
+
+$$
+  inv(\mathfrak{g}) \simeq inv(b \mathbb{R} \to \mathfrak{string})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that the [[Weil algebra]] of $(b\mathbb{R} \to \mathfrak{string})$ is given by
+
+$$
+  d_W t^a = - \frac{1}{2} C^a{}_{b c} t^b \wedge t^c + r^a
+$$
+
+$$
+  d_W b = \mu_3 - c - h
+$$
+
+$$
+  d_W c = g
+$$
+
+for new generators $\{r^a\}$ in degree 2, $h$ in degree 3 and $g$ in degree 4, coming with their [[Bianchi identities]]
+
+$$
+  d_W r^a = - C^a{}_{b c}t^b \wedge r^c
+$$
+
+$$
+  d_W h = d_W \mu_3 - g
+$$
+
+$$
+  d_W g = 0
+$$
+
+For the following computations let $\{k_{a b}\}$ be the structure constants of the [[Killing form]], so that
+
+$$
+  \langle -,- \rangle = k_{a b} r^a \wedge r^b
+$$
+
+and assume that $\mu_3$ is normalized such that 
+
+$$
+  \mu_3 = k_{a a'}C^{a'}_{b c} t^a \wedge t^b \wedge t^c
+$$
+
+(if another normalization is chosen, then the corresponding factor will float around the following formulas without changing anything of the end result).
+
+Now the indecomposable invariant polynomials are those of $\mathfrak{g}$ and one additional one: $g$. This means that before deviding out horizontal equivalence on generators, the invariant polynomials of $(b \mathbb{R} \to \mathfrak{string})$ are not equal to those of $\mathfrak{g}$, due to the superfluous generator $g$.
+
+But we do have the horizontal equivalence relation
+
+$$
+  \langle -,-\rangle = g + d_W (cs - \mu_3 + h)
+ \,,
+$$
+
+where $cs$ is any [[Chern-Simons element]] for $\langle - , \rangle$, for instance
+
+$$
+  cs 
+   = 
+   \frac{1}{6} k_{a a'}C^{a'}_{b c} t^a \wedge t^b \wedge t^c 
+   + 
+   k_{a b} t^a r^b
+  \,,
+$$
+
+Notice that the homotopy $cs - \mu_3 + h$ here is indeed in $ker(W(\mathfrak{g}) \to CE(\mathfrak{g}))$: the component of $cs$ not in that kernel is precisely $\mu$. The above formula subtracts this offending summand and replaces it with the new generator $h$, which by definition _is_ in the kernel and whose image under $d_W$ is the image of $\mu$ under $d_W$, plus the superfluous new generator of invariant polynomials.
+
+Therefore in horizontal equivalence classes of invariant polynomials on $(b \mathbb{R} \to \mathfrak{string})$ the superfluous $g$ is identified with the Killing form $\langle-,- \rangle$, and hence the claim follows.
+
+
+=--
+
+
 ## Properties
  {#Properties}
 
-+-- {: .num_prop}
++-- {: .num_prop #OnShiftedCentralExtenstions}
 ###### Proposition
 
 Let $\mathfrak{g}$ be an [[L-infinity algebra]] and 
