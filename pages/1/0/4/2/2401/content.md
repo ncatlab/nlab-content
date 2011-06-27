@@ -114,6 +114,10 @@ Notice well the two assumptions that were made to make this argument work:
 
 * [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
 
+* [[classifying topos]]
+
+* [[universal principal bundle]], [[universal principal infinity-bundle]]
+
 * [[classifying morphism]]
 
 * [[Hilbert scheme]], [[Moduli Problems and DG-Lie Algebras]], 
