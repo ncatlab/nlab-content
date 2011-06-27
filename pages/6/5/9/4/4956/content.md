@@ -317,3 +317,7 @@ $$
 $$ 
 
 [[!redirects derivative]] 
+[[!redirects derivatives]] 
+
+[[!redirects partial derivative]] 
+[[!redirects partial derivatives]] 
