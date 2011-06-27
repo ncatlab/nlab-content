@@ -1,5 +1,4 @@
 
-
 # Baire spaces
 * table of contents
 {: toc}
@@ -20,13 +19,11 @@ A __Baire space__ is a [[topological space]] such that the [[intersection]] of a
 
 *  The space of [[irrational numbers]], or equivalently of [[infinite sequences]] of [[natural numbers]], is a Baire space.  (This is not a very important example, except that this space is coincidentally also called 'Baire space'.)
 
-*  Any [[complete metric space]] (or rather its [[underlying]] topological space) is a Baire space.
+*  Any [[complete metric space]] (or rather its [[forgetful functor|underlying]] topological space) is a Baire space.
 
 *  Any [[locally compact Hausdorff space]] is a Baire space.
 
 *  Any [[open subspace]] of a Baire space is also a Baire space.
-
-*  Any [[product space|product]] of Baire spaces is a Baire space.
 
 
 [[!redirects Baire space]]
