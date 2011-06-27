@@ -25,7 +25,7 @@
 
 ## Idea
 
-**Variational calculus** is a version of [[differential calculus]] that deals with local extremization of nonlinear [[functionals]]: extremization of differentiable functions on non-finite dimensional spaces such as [[mapping space]]s. 
+**Variational calculus** -- sometimes called **secondary calculus** -- is a version of [[differential calculus]] that deals with local extremization of nonlinear [[functionals]]: extremization of differentiable functions on non-finite dimensional spaces such as [[mapping space]]s. 
 
 Specifically, it studies the _critical points_ , i.e. the points where the first variational derivative of a functional vanishes, for functionals on spaces of [[section]]s of [[jet bundle]]s. The kinds of equations specifying these critical points are [[Euler-Lagrange equation]]s.
 
@@ -36,9 +36,14 @@ There are strong [[cohomology|cohomological]] tools for studying variational cal
 
 ## Definition
 
-## References 
+(...)
+
+## Related concepts
 
 * [[phase space]], [[variational bicomplex]]
+
+## References 
+
 
 Fundamental texts of variational calculus include
 
@@ -52,6 +57,14 @@ Some new results are in
 
 * [[E. Getzler]], _A Darboux theorem for Hamiltonian operators in the formal calculus of variations_, Duke Math. J. __111__, n. 3 (2002), 535-560, [MR2003e:32026](http://www.ams.org/mathscinet-getitem?mr=1885831), [doi](http://dx.doi.org/10.1215/S0012-7094-02-11136-3)
 * Alberto De Sole, Victor G. Kac, _The variational Poisson cohomology_, [arxiv/1106.0082](http://arxiv.org/abs/1106.0082)
+
+### Relation to covariant phase spaces
+
+* L. Vitagliano, _Secondary calculus and the covariant phase space_, [pdf](http://diffiety.ac.ru/preprint/2008/02-08.pdf)
+ {#Vitagliano}
+
+
+### By functorial analysis and $\mathcal{D}$-geoemtry
 
 A formalism for variational calculus based on [[functorial analysis]] (with a precise relation with functional analytic methods and jet formalism) and a long list of examples of variational problems arising in [[classical mechanics]] and [[quantum field theory]] are collected in
 
