@@ -47,6 +47,12 @@
 
 * [[moduli space]], [[moduli stack]], [[derived moduli space]]
 
+* [[classifying topos]]
+
+* [[subobject classifier]]
+
+* [[universal principal bundle]], [[universal principal ∞-bundle]]
+
 * [[classifying morphism]]
 
 
