@@ -23,7 +23,7 @@ A __Baire space__ is a [[topological space]] such that the [[intersection]] of a
 
 *  Any [[open subspace]] of a Baire space is also a Baire space. 
 
-**Note:** The space of [[irrational numbers]] $J$, or equivalently of [[infinite sequences]] of [[natural numbers]], is also known as 'Baire space'. $J$ is coincidentally a Baire space in the present sense (because its topology can be given by a complete metric), but aside from that, not much meaning should be attached to the fact it shares the same name. 
+**Note:** As mentioned above, the space of [[irrational numbers]], or equivalently of [[infinite sequences]] of [[natural numbers]], is also known as 'Baire space'. Despite the coincidence that it is a Baire space in the present sense, not much should be made of the fact it has the same name. 
 
 [[!redirects Baire space]]
 [[!redirects Baire spaces]]
