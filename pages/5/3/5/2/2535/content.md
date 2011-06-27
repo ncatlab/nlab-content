@@ -78,6 +78,8 @@
 
 * [[Hadamard lemma]]
 
+* [[Borel's theorem]]
+
 * [[Boman's theorem]]
 
 * [[Steenrod-Wockel approximation theorem]]
