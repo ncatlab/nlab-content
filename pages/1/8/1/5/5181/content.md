@@ -27,6 +27,10 @@ A _derived moduli space_ is a [[moduli space]] in the context of [[derived geome
 
 * [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]]
 
+* [[classifying topos]]
+
+* [[universal principal bundle]], [[universal principal infinity-bundle]]
+
 * [[classifying morphism]]
 
 ## References
