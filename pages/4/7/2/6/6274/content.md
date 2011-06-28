@@ -5,7 +5,7 @@
 
 ## Idea
 
-A _conformal structure_ on a [[manifold]] is the structure of a [[Riemannian metric]] modulo rescalings of the metric tensor by some function.
+A conformal mapping is a mapping which preserves angles infinitesimally. A _conformal structure_ on a [[manifold]] is the structure of a [[Riemannian metric]] modulo rescalings of the metric tensor by some real valued function on the manifold. 
 
 ## Related concepts
 
@@ -13,7 +13,7 @@ A _conformal structure_ on a [[manifold]] is the structure of a [[Riemannian met
 
 ## References
 
-* David Gu, _Conformal structure_ ([pdf](http://www.cs.sunysb.edu/~gu/lectures/lecture_2_conformal_structure.pdf))
+* David Gu, _Conformal structure_, slides ([pdf](http://www.cs.sunysb.edu/~gu/lectures/lecture_2_conformal_structure.pdf))
 
 
 
