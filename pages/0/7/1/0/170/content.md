@@ -35,6 +35,12 @@ There are several candidate formalizations of 2-spectral triple. One that has ac
 
 There is at least evidence that there is a continuous path in the space of 2-spectral triples that starts and ends at a point describing the ordinary geometry of a complex 3-dimensional [[Calabi-Yau space]] but passes in between through a 2-spectral triple/2d SCFT (a [[Gepner model]]) which is not the $\sigma$-model of an ordinary geometry, hence which describes "noncommutative 2-geometry" (to borrow that terminology from the situation of ordinary spectral triples). This is called the [[flop transition]] (alluding to the fact that the geometries at the start and end of this path have different [[topology]]).
 
+## Related concepts
+
+* [[spectral triple]]
+
+* [[spectral action]]
+
 ## References
 
 Early attempts to understand the [[string theory|string]]'s worldvolume CFT as a higher spectral triple appear in secton 7.2 of 
@@ -64,6 +70,11 @@ Also
 A brief indication of some ideas of [[Yan Soibelman]] and [[Maxim Kontsevich]] on this matter is at
 
 * [[Urs Schreiber]],  [_Spectral triples and graph field theory_](http://golem.ph.utexas.edu/category/2007/06/had_the_pleasure_of_talking.html)
+
+Details are in
+
+* [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ , in [[Branislav Jurčo]], [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+
 
 See also the references at [[geometric model for elliptic cohomology]].
 
