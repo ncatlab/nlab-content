@@ -17,7 +17,9 @@
 
   * [[Cahiers topos]]
 
-* [[smooth ∞-groupoid]], [[synthetic differential ∞-groupoid]]
+* [[smooth ∞-groupoid]], [[concrete smooth ∞-groupoid]]
+
+* [[synthetic differential ∞-groupoid]]
 
 ### Higher groupoids
 
