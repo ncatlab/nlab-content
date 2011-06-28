@@ -212,6 +212,7 @@ for all $U \in C$ there is a [[covering]] $\{p_i : U_i \to U\}_{i \in I}$ such t
 =--
 
 ### Proofs
+ {#Proofs}
 
 We spell out proofs of some of the above claims.
 
@@ -225,7 +226,7 @@ a [[reflective subcategory]], hence a [[full subcategory]] with a [[left adjoint
 
 Write $W := L^{-1}(isos) \subset Mor([C^{op}, Set])$ for the [[class]] of [[morphism]]s in $[C^{op}, Set]$ that are sent to [[isomorphism]]s by $L$.
 
-+-- {: .num_prop}
++-- {: .num_prop #CharacterizationOfLocalObjects}
 ###### Proposition
 
 A [[presheaf]] $A \in [C^{op}, Set]$ is in $\mathcal{E}$ (meaning: in the [[essential image]] of $i$) precisely if for all $f : X \to Y$ in $W$ the induced function
@@ -277,6 +278,131 @@ $$
 is an [[isomorphism]]. Write $k_A : i L A \to A$ for the preimage of $id_A$ under this isomorphism, which is therefore a [[left inverse]] of $\epsilon_A$. This immediately implies that also $k_A$ is in $W$, and so we can enter the same argument with $k_A$ to find that it has a left inverse itself. But this means that $k_A$ is in fact an [[isomorphism]] and hence so is $\epsilon A$, which thus exhibits $A$ as being in the essential image of $i$.
 
 =--
+
++-- {: .num_prop #WeakEquivalencesDetectedOnRepresentableCodomains}
+###### Proposition
+
+A [[morphism]] $f : X \to Y$ is in $W$ precisely if for every morphism $z : j(c) \to Y$ with [[representable functor|representable]] [[domain]], the [[pullback]] $z^* f$ in 
+
+$$
+  \array{
+     X \times_Y j(c) &\to& X
+     \\  
+     {}^{\mathllap{z^* f}}\downarrow && \downarrow^{\mathrlap{f}}
+     \\
+     j(c) &\stackrel{z}{\to}& Y
+  }
+$$
+
+is in $W$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Assume first that $f$ is in $W$. Since by assumption $L$ preserves finite limits, it follows that 
+
+$$
+  \array{
+     L(X \times_Y j(c)) &\to& L X
+     \\  
+     {}^{\mathllap{L(z^* f)}}\downarrow && \downarrow^{\mathrlap{L f}}
+     \\
+     L(j(c)) &\stackrel{L z}{\to}& L Y
+  }
+$$
+
+is still a [[pullback]] diagram in $\mathcal{E}$ and hence that $L(z^* f)$ is the pullback of the [[isomorphism]] $L f$ and thus itself an isomorphism. Therefore $z^* f$ is in $W$.
+
+Conversely, suppose that all these pullbacks are in $W$. Then use the "[[co-Yoneda lemma]]" to write the presheaf $Y$ as a [[colimit]] over all representables mapping into it
+
+$$
+  {\lim_\to}_{j(c_i) \stackrel{z_i}{\to} Y} j(c)  \stackrel{\simeq}{\to} Y
+  \,.
+$$
+
+Forming the [[pullback]] along $f$, using that in a [[topos]] (such as our [[presheaf topos]]) colimits are preserved by pullbacks, we get
+
+$$
+  \array{
+    {\lim_\to}_i f^* j(c_i) &\stackrel{\simeq}{\to}& X
+    \\   
+    {}^{\mathllap{{\lim_\to}_i z_i^* f}}\downarrow && \downarrow^{\mathrlap{f}}
+    \\   
+    {\lim_\to}_i j(c_i)
+    &\stackrel{\simeq}{\to}&
+    Y
+  }
+  \,.
+$$
+
+Since $L$ preserves all colimits and finite limits, we also get
+
+$$
+  \array{
+    {\lim_\to}_i L(f^* j(c_i)) &\stackrel{\simeq}{\to}& L(X)
+    \\   
+    {}^{\mathllap{{\lim_\to}_i L(z_i^* f)}}\downarrow && \downarrow^{\mathrlap{L(f)}}
+    \\   
+    {\lim_\to}_i L(j(c_i))
+    &\stackrel{\simeq}{\to}&
+    L(Y)
+  }
+  \,.
+$$
+
+Since by assumption now all $L(z_i^* f )$ are isomorphisms, also ${\lim_\to}_i L(z_i^* f) $ is an isomorphism and hence three sides of the above square are isomorphisms. Therefore also $L(f)$ is and hence $f$ is in $W$.
+
+=--
+
++-- {: .num_prop #LocalizationInducesGrothendieckTopology}
+###### Proposition
+
+The collection of [[sieve]]s in $W$, hence the collection of [[monomorphism]]s in $W$ whose [[codomain]] is a [[representable functor|representable]], constitute a [[Grothendieck topology]] on $C$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check the list of axioms, given at [[Grothendieck topology]]:
+
+1. _Pullbacks of covering sieves are covering_ : 
+
+   First of all, the pullback of a sieve along a morphism of representables is still a sieve, because [[monomorphism]]s are (as discussed there) stable under pullback.
+
+   Next, since $L$ preserves [[finite limit]]s, $L$ applied to the pullback sieve is the pullback of an isomorphism, hence is an isomorphism, hence the pullback sieve is in $W$.
+
+1. _The maximal sieve is covering._ Clear: $L$ applied to an [[isomorphism]] is an [[isomorphism]].
+
+1. _Two sieves cover precisely if their intersection covers._ This is again due to the [[pullback]]-stability of elements of $W$, due to the preservation of finite limits by $L$.
+
+1. _If all pullbacks of a sieve along morphisms of a covering sieve are covering, then the original sieve was covering_ .
+
+   This is the same argument as in the second part of the proof of
+   prop. \ref{WeakEquivalencesDetectedOnRepresentableCodomains}.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+$\mathcal{E}$ is a [[Grothendieck topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{LocalizationInducesGrothendieckTopology} and
+prop. \ref{CharacterizationOfLocalObjects} we are reduced to showing that an object $A$ is in $\mathcal{E}$ already if for all _[[monomorphisms]]_ $f$ in $W$ the function $Hom(f,A)$ is a bijection.
+
+(...)
+
+=--
+
+
 
 ## Related concepts
 
