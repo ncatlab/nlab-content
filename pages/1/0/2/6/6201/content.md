@@ -191,87 +191,12 @@ Therefore the degreewise  forgetful functor $\mathrm{SmoothMfd} \to \mathrm{TopM
 =--
 
 
-### Concrete objects {#StrucConcreteObjects}
+### Concrete objects -- diffeological $\infty$-groupoids
+ {#StrucConcreteObjects}
 
-We discuss the general abstract notion of 
-<a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ConcreteObjects">concrete objects in a cohesive (∞,1)-topos</a> in 
-$Smooth \infty Grpd$.
+This section is at
 
-+-- {: .un_prop}
-###### Proposition
-
-Write $Conc(\tau_{\leq 0} Smooth \infty Grpd)$ for the full [[subcategory]] on the [[concrete sheaf|concrete]] [[0-truncated]] objects. This is [[equivalence of categories|equivalent]] to the category of [[diffeological space]]s
-
-$$
-  DiffeolSp 
-   \simeq 
-  Conc(\tau_{\leq 0} Smooth \infty Grpd)
-  \,.
-$$
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-Let $X \in Sh(CartSp) \hookrightarrow Smooth \infty Grpd$ be a [[sheaf]] on $CartSp$. The condition for it to be concrete is that the [[unit of an adjunction|unit]]
-
-$$
-  X \to coDisc \Gamma X
-$$
-
-is a [[monomorphism]]. Since monomorphisms of sheaves are detected objectwise (see [[category of sheaves]]) this is equivalent to the statement that for all $U \in CartSp$ the morphism
-
-$$
-  X(U) \simeq Smooth\infty Grpd(U, X) \to Smooth \infty Grpd(U, coDisc \Gamma X)
-  \simeq
-  \infty Grpd(\Gamma U, \Gamma X)
-$$
-
-is a monomorphism of sets, where in the first step we used the [[(∞,1)-Yoneda lemma]] and in the last one the $(\Gamma \dashv coDisc)$-[[adjunction]]. 
-
-That this morphism is indeed $\Gamma : Sh(U,X) \to Set(\Gamma(U), \Gamma(X)) \hookrightarrow \infty Grpd(\Gamma(U), \Gamma(X))$ follows by chasing the identity on $\Gamma X$ through the adjunction naturality square for any morphism $f : U \to X$
-
-$$
-  \array{
-    Set(\Gamma X, \Gamma X) &\stackrel{\simeq}{\to}&
-    Sh(X, coDisc \Gamma X)
-    \\
-    \downarrow^{\mathrlap{\Gamma(f)^*}} && \downarrow^{\mathrlap{f^*}}
-    \\
-    Set(\Gamma U, \Gamma X) &\stackrel{\simeq}{\leftarrow}& Sh(U, coDisc \Gamma X)
-  }
-  \,.
-$$
-
-So this is indeed the defining condition for [[concrete sheaves]] that defines [[diffeological space]]s.
-
-=--
-
-+-- {: .un_prop}
-###### Corollary
-
-The canonical embedding $SmoothMfd \hookrightarrow Smooth \infty Grpd$
-from [above](#EmbeddingOfSmoothManifolds) factors through [[diffeological spaces]]: we have a sequence of [[full and faithful (∞,1)-functor]]s
-
-$$
-  SmoothMfd \hookrightarrow DiffeolSp \hookrightarrow Smooth \infty Grpd
-  \,.
-$$
-
-=--
-
-+-- {: .un_def #DiffeologicalKanComplex}
-###### Definition
-
-A **diffeological $\infty$-groupoid** or **diffeological Kan complex**
-is a [[Kan complex]] [[internalization|internal to]] [[diffeological space]]s.
-
-=--
-
-
-
+* [[concrete smooth infinity-groupoid]].
 
 
 ### Geometry and structure sheaves {#StrucGeometry}
@@ -5571,3 +5496,4 @@ and the generalization to classification of smooth [[principal 2-bundle]]s is in
 * [[Thomas Nikolaus]], [[Konrad Waldorf]], _Four Equivalent Versions of Non-Abelian Gerbes_ ([arXiv:1103.4815](http://arxiv.org/abs/1103.4815))
  {#NikolausWaldorf}
 
+[[!redirects smooth ∞-groupoid -- structures]]
