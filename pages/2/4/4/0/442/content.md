@@ -25,7 +25,7 @@ In his 1963 doctoral dissertation, Bill Lawvere introduced a new categorical met
 +-- {: .un_defn}
 ###### Definition
 
-A **Lawvere [[theory]]** or **finite-product theory** is (equivalently enoded by its [[syntactic category]] which is) a [[category]] $T$ with finite [[products]] in which every [[object]] is [[isomorphism|isomorphic]] to a finite cartesian power $x^n = x \times x \times \cdots \times x$ of a distinguished object $x$ (called the _generic object_ for the theory $T$). 
+A **Lawvere [[theory]]** or **finite-product theory** is (equivalently encoded by its [[syntactic category]] which is) a [[category]] $T$ with finite [[products]] in which every [[object]] is [[isomorphism|isomorphic]] to a finite cartesian power $x^n = x \times x \times \cdots \times x$ of a distinguished object $x$ (called the _generic object_ for the theory $T$). 
 
 A _[[homomorphism]]_ of such theories $T \to T'$ is a product-preserving [[functor]]. 
 
@@ -34,7 +34,7 @@ A _[[homomorphism]]_ of such theories $T \to T'$ is a product-preserving [[funct
 +-- {: .un_remark}
 ###### Remark
 
-For $T$ a Lawvere theory, we are to think of the [[hom-set]] $T(n,1)$ as the set of $n$-ary operations defined by the theory. For instance for $T$ the theory of [[abelian group]]s, we have $T(2,1) = \{+,-\}$ and also $T(0,1) = \{0\}$. 
+For $T$ a Lawvere theory, we are to think of the [[hom-set]] $T(n,1)$ as the set of $n$-ary operations defined by the theory. For instance for $T$ the theory of [[abelian group]]s, we have $T(2,1) = \{+,-\}$ and $T(0,1) = \{0\}$. 
 
 =--
 
@@ -55,7 +55,7 @@ and _homomorphism of $T$-algebras_ is a [[natural transformation]] between such 
 +-- {: .un_remark}
 ###### Remark
 
-Such a functor picks a single [[set]] $U(A) := A(1)$ and picks for every $n$-ary abstract operation $\phi \in T(n,1)$ an actual $n$-ary operation on the elements of this set
+Such a functor picks out a single [[set]] $U(A) := A(1)$ and picks for every $n$-ary abstract operation $\phi \in T(n,1)$ an actual $n$-ary operation on the elements of this set
 
 $$
   A(\phi) : U(A)^n \to U(A)
@@ -72,7 +72,7 @@ such that these operations are all compatible with each other in the way governe
 
 1. Some people use 'finite-product theory' to mean any (small) category with finite products, reserving 'Lawvere theory' to refer to finite product theories with the property that every object is isomorphic to a product of finitely many copies of a given object $x$. Finite-product theories $C$ can be regarded as a special case of multisorted Lawvere theories (see below) where the set of sorts is $Ob(C)$ itself. Some, but not all, the above discussion generalizes to this case. 
 
-1. As _finite-product theories_, Lawvere theories are at one end of a spectrum of [[theory|theories]] of differing logical strengths. For example, there are left exact theories, regular theories, geometric theories, and so on, which require for their interpretation categories of differing degrees of strength in their [[internal logic]]. See also [[classifying topos]].
+1. As _finite-product theories_, Lawvere theories are at one end of a spectrum of [[theory|theories]] of differing logical strengths. For example, there are left exact theories, [[regular theory|regular theories]], geometric theories, and so on, which require for their interpretation categories of differing degrees of strength in their [[internal logic]]. See also [[classifying topos]].
 
 1. If $C$ is a category with finite products, then a group (object) in $C$ may be defined as a product-preserving functor $T_{Grp} \to C$. For example, a topological group may be identified with a functor $T_{Grp} \to Top$, and a Lie group with a product-preserving functor $T_{Grp} \to Man$ into the category of smooth [[manifold]]s. An analogous statement holds for any finitary algebraic theory, when formulated in terms of its Lawvere theory $T$. 
 
@@ -84,11 +84,6 @@ such that these operations are all compatible with each other in the way governe
 * An [[infinitary Lawvere theory]] allows for infinitary operations.  An example is the theory of [[suplattices]], where we have, for every [[cardinal number]] $n$, an operation to take the [[supremum]] of $n$ elements.  While Lawvere theories correspond to finitary monads on $Set$, infinitary Lawvere theories correspond to arbitrary monads.
 
 * A [[Fermat theory]] is a Lawvere theory equipped with a notion of differentiation.
-
-
-
-
-
 
 ## Examples
 
