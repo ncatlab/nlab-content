@@ -81,11 +81,11 @@ From these axioms, it follows that the braiding is compatible with the left and 
 
 $$
   \array{
-    I \otimes X &&\stackrel{B_{I,x}}{\to}&& x \otimes I
+    I \otimes x &&\stackrel{B_{I,x}}{\to}&& x \otimes I
     \\
     & {}_{l_x}\searrow && \swarrow_{r_x}  
     \\
-    && X
+    && x
   }
 $$
 
