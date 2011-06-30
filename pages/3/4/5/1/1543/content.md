@@ -554,6 +554,11 @@ In fact, the history of the development of the theory of principal bundles and [
 
 * [[n-vector bundle]]
 
+## References
+
+A classical reference for smooth principal bundles is
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
 
 [[!redirects principal bundles]]
