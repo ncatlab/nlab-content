@@ -50,7 +50,7 @@ $$
 is the $GL_1(R)$-principal $\infty$-bundle $P \to X$ classified by that map.
 
 
-**Example** For $R = \mathbb{S}$ the [[sphere spectrum]], we have that $GL_1(\mathbb{S})$ is the [[classifying space]] for spherical fibrations.
+**Example** For $R = \mathbb{S}$ the [[sphere spectrum]], we have that $B GL_1(\mathbb{S})$ is the [[classifying space]] for spherical fibrations.
 
 **Example** There is a canonical morphism
 
