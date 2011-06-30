@@ -196,3 +196,5 @@ subject to the equations $f h = f k$ and $g h = g k$, both $f$ and $g$ are stron
 [[!redirects epimorphisms]]
 [[!redirects epic]]
 [[!redirects epics]]
+
+[[!redirects surjective map]]
