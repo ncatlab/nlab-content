@@ -66,7 +66,11 @@ Dually, in the [[AQFT]] formulation of [[quantum field theory]] a physical syste
 
 ## Related concepts
 
+* [[quasi-state]]
+
 * [[GNS construction]]
+
+
 
 
 [[!redirects state]]
