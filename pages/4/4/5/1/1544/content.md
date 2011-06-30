@@ -358,6 +358,9 @@ See [[connection on a principal ∞-bundle]].
 
 ## References
 
+A classical textbook reference is
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
 References for the description of connections in terms of their parallel transport are collected at 
 
