@@ -1,15 +1,27 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
 
 # Contents
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 ## Idea
 
-The classical Gleanson's theorem says that a [[state]] of the [[C-star algebra]] $\mathcal{B}(\mathcal{H})$ of all [[bounded operators]] on a [[Hilbert space]] is uniquely described by the values it takes on the orthogonal projections $\mathcal{P}$, if the dimension of the [[Hilbert space]] $\mathcal{H}$ is not 2.
+The classical _Gleanson theorem_ says that a [[state]] of the [[C-star algebra]] $\mathcal{B}(\mathcal{H})$ of all [[bounded operators]] on a [[Hilbert space]] is uniquely described by the values it takes on the orthogonal projections $\mathcal{P}$, if the dimension of the [[Hilbert space]] $\mathcal{H}$ is not 2.
+
+In other words: every [[quasi-state]] is already a state $(if dim(H) \gt 2)$.
 
 It is possible to extend the theorem to certain types of [[von Neumann algebras]] (e.g. obviously factors of type $I_2$ have to be excluded).
 
@@ -98,12 +110,16 @@ f(u) =
 $$
 This probability measure will in general not extend to a state.
 
+## Related theorem
+
+* [[Kochen-Specker theorem]]
+
+* [[Wigner theorem]]
+
 
 ## References
 
-* Wikipedia on [Gleason's theorem] (http://en.wikipedia.org/wiki/Gleason%27s_theorem)
-
-Gleason's original paper outlining the theorem:
+Gleason's original paper outlining the theorem is
 
 * A.M. Gleason "Measures on the closed subspaces of a Hilbert space," Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050).
 
@@ -118,6 +134,14 @@ The classical theorem is proved also in this monograph:
 Gleason\'s Theorem for POVMs is proved here:
 
 * Paul Busch; 1999; _Quantum states and generalized observables: a simple proof of Gleason's theorem_; [arXiv](http://arxiv.org/abs/quant-ph/9909073)
+
+The failure of Gleason's theorem for _classical_ states (on [[Poisson algebra]]s) is discussed in
+
+* Michael Entov, Leonid Polterovich, _Symplectic quasi-states and semi-simplicity of quantum homology_ ([arXiv](http://arxiv.org/abs/0705.3735)).
+
+See also
+
+* Wikipedia on [Gleason's theorem] (http://en.wikipedia.org/wiki/Gleason%27s_theorem)
 
 
 [[!redirects Gleason's theorem]]
