@@ -444,7 +444,7 @@ and inserting the above decomposition for $A$.
 Define the **[[covariant derivative]] of the gauge parameter** to be
 
 $$
-  \nabla \lambda := d \lambda + [A \wedge \lambda] + [A \wedge A \wedge \lambda] + \cdots
+  \nabla_A \lambda := d \lambda + [A \wedge \lambda] + [A \wedge A \wedge \lambda] + \cdots
   \,.
 $$
 
