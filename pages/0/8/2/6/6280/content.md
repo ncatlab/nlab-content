@@ -1,0 +1,156 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+This entry is about the book
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]]
+
+  _Connections, Curvature, and Cohomology_
+
+  Academic Press (1973)
+
+on [[Chern-Weil theory]]: [[principal bundle]]s with [[connection on a bundle|connections]] and their [[characteristic class]]es.
+
+#Contents#
+* table of contents
+{:toc}
+
+## Volume I
+
+### 0 Algebraic and analytic preliminaries
+
+* [[linear algebra]]
+
+* [[homological algebra]]
+
+* [[analysis]], [[topology]]
+
+### 1 Basic concepts
+
+* [[topological manifold]]
+
+* [[smooth manifold]]
+
+* [[fiber bundle]]
+
+### II Vector bundles
+
+* [[vector bundle]]
+
+* [[section]]
+
+### III Tangent bundle and differential forms
+
+* [[tangent bundle]]
+
+* [[vector field]]
+
+* [[differential form]]
+
+* [[orientation]]
+
+### IV Calculus of differential forms
+
+* [[Cartan caluclus]]
+
+* [[integration]]
+
+* [[Stokes theorem]]
+
+### V De Rham cohomology
+
+* [[de Rham cohomology]]
+
+* [[Poincare duality]]
+
+* [[Künneth theorem]]
+
+* [[de Rham theorem]]
+
+### VI Mapping degree
+
+### VII Integration over the fiber
+
+* [[fiber integration]]
+
+### VIII Cohomology of sphere bundles
+
+* [[Euler class]]
+
+### IX Cohomology of vector bundles
+
+* [[Thom isomorphism]]
+
+### X The Lefschetz class of a manifold
+
+* [[Lefschetz isomorphism]]
+
+### Appendix A The exponential map
+
+## Volume II
+
+### 0 Algebraic and analytic preliminaries
+
+### I Lie groups
+
+* [[Lie group]]
+
+### II Subgroups and homogeneous spaces
+
+* [[homogeneous space]]
+
+### III Transformation groups
+
+### IV Invariant cohomology
+
+* [[equivariant cohomology]]
+
+### V Bundles with structrue group
+
+* [[principal bundle]]
+
+### VI Principal connections and the Weil homomorphism
+
+* [[connection on a bundle]]
+
+* [[Chern-Weil homomorphism]]
+
+### VII Linear connections
+
+### VIII Characteristic homomorphism for $\Sigma$-bundles
+
+### IX Pontrjagin, Pfaffian, Chern classes
+
+* [[Pontryagin class]]
+
+* [[Pfaffian]]
+
+* [[Chern class]]
+
+### X The Gauss-Bonnet-Chern theorem
+
+* [[Gauss-Bonnet theorem]]
+
+### Appendix A Characteristic coefficients and the Pfaffian
+
+
+## Volume III
+
+category: reference
