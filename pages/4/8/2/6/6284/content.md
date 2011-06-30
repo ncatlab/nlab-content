@@ -1,0 +1,6 @@
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/John_Coleman_Moore)
+
+category: people
+
+[[!redirects John C. Moore]]
