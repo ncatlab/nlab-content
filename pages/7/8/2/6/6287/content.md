@@ -23,6 +23,8 @@ A [[Lie algebra]] $\mathfrak{g}$ is called _reductive_ if the following equivale
 
 ## Properties
 
+* The [[Lie algebra]] of a [[compact space|compact]] and [[connected]] [[Lie group]] is reductive. ([GHV, vol III, section 4.4.](#GHV)).
+
 * The graded algebra of [[invariant polynomial]]s on a reductive Lie algebra is the [[free construction|free]] graded algebra on the [[graded vector space]] of indecomposable invariant polynomials, and via [[transgression]] there generators are in bijection with the odd generators of the [[Lie algebra cohomology]].
 
 [[!redirects reductive Lie algebras]]
@@ -32,3 +34,4 @@ A [[Lie algebra]] $\mathfrak{g}$ is called _reductive_ if the following equivale
 For instance volume III of 
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+ {#GHV}
