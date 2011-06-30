@@ -791,6 +791,12 @@ groupe de Lie_ , Colloque de topologie (espaces fibrs), Bruxelles, (1950), pp. 1
 
 This also explains the use of the Weil algebra in the calculation of the [[equivariant cohomology|equivariant]] [[de Rham cohomology]] of manifolds acted on by a compact group. These papers are reprinted, explained and put in a modern context in the book
 
+A textbook account of standard material is in chapter VI, vol III of 
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+Some related material is also in
+
 * Victor Guillemin, Shlomo Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, (1999).
 
 The (obvious but conceptually important) observation that [[Lie algebra-valued 1-forms]] regarded as morphisms of graded vector spaces $\Omega^\bullet(X) \leftarrow \wedge^1 \mathfrak{g}^* : A$ are equivalently morphisms of dg-algebras out of the Weil algebra $\Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : A$ and that one may think of as the identity $W(\mathfrak{g}) \leftarrow W(\mathfrak{g}) : Id$ as the _universal $\mathfrak{g}$-connection_ appears in early articles for instance highlighted on p. 15 of
