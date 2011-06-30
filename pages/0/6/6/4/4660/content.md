@@ -295,6 +295,11 @@ This is discussed in detail at [[Smooth∞Grpd]] and proven at [[SynthDiff∞Grp
 
 ## References
 
+A textbook account of standard material is in chapter V in vol III of 
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+
 The definition of the refined [[topological group]] cohomology in terms of degreewise [[abelian sheaf cohomology]] was given in
 
 * [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
