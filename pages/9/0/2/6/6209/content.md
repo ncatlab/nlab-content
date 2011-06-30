@@ -19,11 +19,12 @@ A __Baire space__ is a [[topological space]] such that the [[intersection]] of a
 
 *  Any [[complete metric space]] (or rather its [[forgetful functor|underlying]] topological space) is a Baire space.
 
-*  Any [[locally compact Hausdorff space]] is a Baire space. In fact, any [[G_delta set]] of a locally compact Hausdorff space is a Baire space under the [[subspace]] topology. 
+*  Any [[locally compact Hausdorff space]] is a Baire space. In fact, any [[G-delta set]] of a locally compact Hausdorff space is a Baire space under the [[subspace]] topology. 
 
 *  Any [[open subspace]] of a Baire space is also a Baire space. 
 
-**Note:** As mentioned above, the space of [[irrational numbers]], or equivalently of [[infinite sequences]] of [[natural numbers]], is also known as 'Baire space'. Despite the coincidence that it is a Baire space in the present sense, not much should be made of the fact it has the same name. 
+*  As mentioned above, the space of [[irrational numbers]], or equivalently of [[infinite sequences]] of [[natural numbers]], is also known as 'Baire space'. It is a Baire space in the present sense (since it admits a complete metric), but not much should be made of the fact it has the same name.
+
 
 [[!redirects Baire space]]
 [[!redirects Baire spaces]]
