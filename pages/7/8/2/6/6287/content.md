@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[Lie algebra]] $\mathfrak{g}$ is called _reductive_ if the following equivalence conditions hold:
+
+1. it is the [[direct sum]] $\mathfrak{g} \simeq \mathfrak{h} \oplus \mathfrak{a}$ of a [[semisimple Lie algebra]] $\mathfrak{h}$ and an abelian Lie algebra $\mathfrak{a}$;
+
+1. its [[adjoint representation]] is completely [[reducible representation|reducible]]: every invariant subspace has an invariant complement.
+
+## Properties
+
+* The graded algebra of [[invariant polynomial]]s on a reductive Lie algebra is the [[free construction|free]] graded algebra on the [[graded vector space]] of indecomposable invariant polynomials, and via [[transgression]] there generators are in bijection with the odd generators of the [[Lie algebra cohomology]].
+
+[[!redirects reductive Lie algebras]]
+
+## References
+
+For instance volume III of 
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
