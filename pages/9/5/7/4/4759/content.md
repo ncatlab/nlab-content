@@ -49,6 +49,11 @@ The analogous classes for the [[orthogonal group]] are the [[Pontryagin class]]e
 
 ## References
 
+A classical textbook reference is chapter IX of volume II of
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+
 * [[A. Grothendieck]], _La th&#233;orie des classes de Chern_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __86__ (1958), p. 137--154, [numdam](http://www.numdam.org/item?id=BSMF_1958__86__137_0)
 
 [[!redirects Chern classes]]
