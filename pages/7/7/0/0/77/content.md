@@ -70,7 +70,7 @@ See
 
 ## Extra stuff, structure, properties
 
-Notions of Lie algebras with extra [[stuff,structure, property]] includes
+Notions of Lie algebras with extra [[stuff, structure, property]] includes
 
 * extra property
 
@@ -79,6 +79,8 @@ Notions of Lie algebras with extra [[stuff,structure, property]] includes
   * [[simple Lie algebra]]
 
   * [[semisimple Lie algebra]]
+
+  * [[reductive Lie algebra]]
 
 * extra structure
 
