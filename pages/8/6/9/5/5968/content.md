@@ -21,13 +21,13 @@
 
 ## The context
 
-Let $X$ be a [[spacetime]] of [[dimension]] $n$, $E \to X$ a [[bundle]], $j:\infty E \to X$ its [[jet bundle]] and 
+Let $X$ be a [[spacetime]] of [[dimension]] $n$, $E \to X$ a [[bundle]], $j_\infty E \to X$ its [[jet bundle]] and 
 
 $$
   \Omega^{\bullet,\bullet}(j_\infty E), (D = \delta + d)
 $$ 
 
-the corresponding [[variational bicomplex]] with $\delta$ being the vertical and $d = d_{dR}$ the horizontal [[differential]].
+the corresponding [[variational bicomplex]] with $\delta$ being the vertical and $d$ the horizontal [[differential]].
 
 
 +-- {: .num_prop #VariationOfTheLagrangian}
