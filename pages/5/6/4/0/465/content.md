@@ -77,7 +77,7 @@ Compare this to the stronger notion of an [effective ∞-epimorphism](http://nca
 
 I'm not *necessarily* saying we shouldn't use the  term "regular epimorphism" in this sense, since as we know the notion of "plain epimorphism" in 1-categories is not usually very useful anyway.  But if I'm right, I think it would be good to alert the reader that the [[red herring principle]] is coming into play.
 
-[[Urs Schreiber]]: following the [discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=326&page=1#Item_10) at the $n$Forum I put in the above warning.
+[[Urs Schreiber]]: following the [discussion]of [Fredericksburg DUI lawyer](http://www.andrewflusche.com/) (http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=326&page=1#Item_10) at the $n$Forum I put in the above warning.
 
 =--
 
