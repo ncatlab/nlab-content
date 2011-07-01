@@ -1,4 +1,6 @@
-Let $X$ be a set of symbols. The free associative $k$-algebra $k\langle X \rangle$ on the set $X$ where $k$ is commutative unital ring, will be denoted $A(X)$. It is clearly graded (by the length of the word) as $A(X) = \oplus_n A^n(X)$. The product of $k$-modules $\hat{A}(X) = \prod_n A^n(X)$ has a natural multiplication 
+### Magnus algebras and Magnus group
+
+Let $X$ be a set of symbols. The free associative $k$-algebra $k\langle X \rangle$ on the set $X$ where $k$ is a commutative unital ring, will be denoted $A(X)$. It is clearly graded (by the length of the word) as $A(X) = \oplus_n A^n(X)$. The product of $k$-modules $\hat{A}(X) = \prod_n A^n(X)$ has a natural multiplication 
 
 $$
 (ab)_n = \sum_{i = 0}^n a_i b_{n-i}
@@ -12,19 +14,39 @@ Element in $\hat{A}(X)$ is invertible (under multiplication) iff it's free term 
 The __Magnus group__ is the (multiplicative) subgroup of the Magnus algebra consisting of all elements in the Magnus algebra with free 
 term $1$. 
 
+### Hausdorff group and Hausdorff series
+
 The [[free Lie algebra]] $L(X)$ naturally embeds in (the Lie algebra corresponding to the associative algebra) $A(X)\hookrightarrow \hat{A}(X)$; one defines $\hat{L}(X)$ as the closure of $L(X)$ in $\hat{A}(X)$. The exponential series and the makes sense in $\hat{A}(X)$; when restricted to $\hat{L}(X)$ it gives a bijection between $\hat{L}(X)$ and a closed subgroup of the Magnus group which is sometimes called the Hausdorff group $exp(\hat{L}(X))$.  
 
 __Hausdorff series__ $H(U,V)$ is an element $log(exp(U)exp(V))$ in $\hat{L}(\{U,V\})$. 
 
+The formula $exp(X)exp(Y) = (exp(Y)exp(X))^{-1}$ implies the basic symmetry of the Hausdorff series: $H(-Y,-X) = -H(X,Y)$.
+
 The specializations of the Hausdorff series 
 in Lie algebras which are not necessarily free are known as 
-the __Baker-Campbell-Hausdorff__ series and play the role in the corresponding BCH formula $exp(U)exp(V) = exp(H(U,V))$. 
+the __Baker-Campbell-Hausdorff__ series and play the role in the corresponding BCH formula $exp(U)exp(V) = exp(H(U,V))$.  
 
 The BCH formula can be written in many ways, the most important which belong to Dynkin. The part which is linear in one of the variables involves [[Bernoulli number]]s.
 
+There is a decomposition $H(X,Y) = \sum_{N=0}^\infty H_N(X,Y)$ where
+__Dynkin's Lie polynomials__ $H_N = H_N(X,Y)$ are defined
+recursively by $H_1 = X+Y$ and
+$$
+(N+1)H_{N+1} = \frac{1}{2}[X-Y,H_N] +
+\sum_{r = 0}^{\lfloor N/2 -1\rfloor}
+\frac{B_{2r}}{(2r)!}\sum_s
+[H_{s_1},[H_{s_2},[ \ldots, [H_{s_{2r}},X+Y]\ldots]]]
+$$
+
+where the sum over $s$ is the sum over all
+$2r$-tuples $s = (s_1,\ldots,s_{2r})$
+of strictly positive integers whose sum $s_1 +\ldots+s_{2r} = N$. 
+
+## Literature
+
 * [[N. Bourbaki]], _Lie groups and algebras_, chapter II
 * [[M M Postnikov]], Lectures on geometry, Semester V, Lie groups and algebras
-* E. B. Dynkin, _Calculation of the coeffients in the Campbell-Hausdorff formula_, Doklady Akad. Nauk SSSR (N.S.) 57, 323-326, (1947).
+* E. B. Dynkin, _Calculation of the coefficents in the Campbell-Hausdorff formula_, Doklady Akad. Nauk SSSR (N.S.) 57, 323-326, (1947).
 
 cf. [[Malcev completion]] 
 
