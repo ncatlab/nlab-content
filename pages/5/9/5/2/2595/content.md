@@ -25,7 +25,7 @@ The notion of ringed topos makes sense for the theory of rings replaced by any [
 ## Definition
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A **ringed topos** $(\mathcal{X}, \mathcal{O}_X)$ is 
@@ -59,6 +59,39 @@ A morphism of ringed toposes $(f, \eta) : (\mathcal{X}, \mathcal{O}_{\mathcal{X}
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Let $PSh((CRing^{fg})^{op})$ be the [[classifying topos]] for the [[Lawvere theory]] of [[ring]]s Then 
+
+* a ringed topos $(\mathcal{X}, \mathcal{O}_{\mathcal{X}})$ is a [[geometric morphism]]
+
+  $$
+    \mathcal{O}_{\mathcal{X}} : \mathcal{X} \to PSh((CRing^{fg})^{op})
+    \,,
+  $$
+
+* a morphism $(f,\eta) : (\mathcal{X}, \mathcal{O}_{\mathcal{X}}) \to (\mathcal{Y}, \mathcal{O}_{\mathcal{Y}})$ is a [[diagram]]
+
+  $$
+    \array{
+      \mathcal{X} &&\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}&& \mathcal{Y}
+      \\
+      & {}_{\mathllap{}}\searrow \nwarrow^{\mathrlap{\mathcal{O}_{\mathcal{X}}}}
+      &\swArrow_{\eta}&
+     \swarrow \nearrow_{\mathcal{O}_{\mathcal{Y}}}
+      \\
+      && PSh((CRing^{fg})^{op})
+    }
+  $$
+
+  in the [[2-category]] [[Topos]].
+
+So the [[2-category]] of ringed toposes is the [[overcategory]] $Topos/PSh(Ring^{fp})$.
+
+
+=--
+
 More generally:
 
 +-- {: .un_defn}
@@ -67,6 +100,8 @@ More generally:
 For $T$ a [[Lawvere theory]], a $T$-ringed topos is a [[topos]] $X$ together with a [[product]]-preserving [[functor]] $\mathcal{O}_X : T \to X$.
 
 =--
+
+See [[locally algebra-ed topos]] for more on this.
 
 In order to say what _locally_ $T$-ringed means, one needs the extra structure of a [[geometry (for structured (infinity,1)-toposes)|geometry]] on $T$. See there for details.
 
@@ -86,7 +121,7 @@ In order to say what _locally_ $T$-ringed means, one needs the extra structure o
 
 * [[ringed site]],  
 
-* **ringed topos**, [[locally ringed topos]]
+* **ringed topos**, [[locally ringed topos]], [[locally algebra-ed topos]]
 
 * [[structured (∞,1)-topos]]
 
