@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -60,8 +60,10 @@ But since we are taking care of the sheaf condition on $S$, we also want to allo
 
 ### Geometries and admissibility structure
 
-+-- {: .un_defn}
-###### Definition An **admissiblility structure** on an $(\infty,1)$-category $V$ is 
++-- {: .num_defn}
+###### Definition 
+
+An **admissiblility structure** on an $(\infty,1)$-category $V$ is 
 
 * a choice of [[sub-quasi-category|sub (∞,1)-category]] $V^{ad} \hookrightarrow V$, whose morphisms are to be called the **admissible morphisms**, such that
 
@@ -102,7 +104,7 @@ This is [[Structured Spaces|StrSh, def 1.2.1]] in view of remark 1.2.4 below tha
 
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition ([StrSh, def 1.2.5](http://arxiv.org/abs/0905.0459))
 
 An $(\infty,1)$-category $V$ equipped with an admissiblility structure is a **geometry** if it is essentially small, admits finite limits and is [[idempotent complete (infinity,1)-category|idempotent complete]].
@@ -114,7 +116,7 @@ The admissible morphisms in an admissibility structure are roughly to be thought
 ### Structure sheaves: local $\infty$-algebras
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition ([StrSh, def 1.2.8](http://arxiv.org/abs/0905.0459))
 **(structure sheaf)**
 
@@ -145,7 +147,7 @@ $\mathcal{G}$-**[[structure sheaf]]** on $\mathcal{X}$ if
 
 Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for the full subcategory of such morphisms of the [[(∞,1)-category of (∞,1)-functors]].
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Without the condition on preservations of covers, the above defined the [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]] over the [[essentially algebraic (∞,1)-theory]] $\mathcal{G}$. The preservation of covers encodes the **local** $\mathcal{G}$-algebras. 
@@ -159,7 +161,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 $\mathcal{G}Alg_{loc}(\mathcal{X})$ is the $(\infty,1)$-category of algebras over an $(\infty,1)$-[[geometric theory]]. 
@@ -197,7 +199,7 @@ in [[geometric morphism]]s to the [[(∞,1)-category of (∞,1)-sheaves]] on the
 
 Formally we have:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathcal{G}$ a geometry, precomposition of the [[inverse image]] functor with the [[(∞,1)-Yoneda embedding]] $y : \mathcal{G} \to Sh_{(\infty,1)}(\mathcal{G})$ induces an [[equivalence of (∞,1)-categories]]
@@ -232,7 +234,7 @@ is spanned by the left exact and cover preserving functors.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 We may think of this as saying that $Sh_{(\infty,1)}(\mathcal{G})$ is the $(\infty,1)$-[[classifying topos]] for the $(\infty,1)$-[[geometric theory]] of **local [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]]** over the [[essentially algebraic (∞,1)-theory]] $\mathcal{G}$.
@@ -254,7 +256,7 @@ The admissibility structure does serve to allow the following definition of _loc
 
 #### In terms of admissibility structures
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition 
 **(local morphism of structure sheaves)**
 
@@ -305,7 +307,7 @@ Let $(\infty,1)Toposes \subset $ [[(∞,1)Cat]]  be the [[sub-quasi-category|sub
 
 Write $LTop := (\infty,1)Toposes^{op}$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition 
 **($(\infty,1)$-category of $\mathcal{G}$-structured $(\infty,1)$-toposes)**
 
@@ -369,7 +371,7 @@ $$
 
 be the induced functor on categories of structured toposes.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 This functor is a left [[adjoint (∞,1)-functor]]
@@ -393,7 +395,7 @@ $$
 
 This is ([Lurie, theorem 2.1.1](#Lurie)).
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $\mathcal{G}$ a geometry, let $\mathcal{G}_0$ be the corresponding discrete geometry. We have a canonical morphism $\mathcal{G}_0 \to \mathcal{G}$.
@@ -414,7 +416,7 @@ for the composite.
 
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 This fits into an adjunction
@@ -430,9 +432,11 @@ $$
 
 This is ([Lurie, theorem xyz](#Lurie)).
 
-## Classes of examples
+## Examples
 
-### Canonical structure sheaves on objects in the big topos {#CanonicalStructureSheafOnObjectsInBigTopos}
+### Classes of examples
+
+#### Canonical structure sheaves on objects in the big topos {#CanonicalStructureSheafOnObjectsInBigTopos}
 
 For $\mathcal{G}$ a [[geometry (for structured (infinity,1)-toposes)|geometry]] let
 
@@ -495,9 +499,9 @@ This is the "sheaf of $V$-valued functions on $X$".
 (...)
 
 
-## Specific examples
+### Specific examples
 
-### Structure sheaves of continuous functions {#StrSheafOfcontFuncts}
+#### Structure sheaves of continuous functions {#StrSheafOfcontFuncts}
 
   Consider $X$ an ordinary [[topological space]] and
    $Sh(X)$ the ordinary [[category of sheaves]] on its 
@@ -545,7 +549,7 @@ This is the "sheaf of $V$-valued functions on $X$".
    $f$ as $U_x$).
 
 
-### Locally ringed spaces
+#### Locally ringed spaces
 
 [StrSh, remark 2.5.11](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=71) 
 
@@ -631,7 +635,7 @@ This is the "sheaf of $V$-valued functions on $X$".
 
 
 
-### Ordinary ringed spaces
+#### Ordinary ringed spaces
 
 It may be worthwhile to retell the motivating example in the "Idea" introduction above for the maybe more familiar case of ordinary (1-categorical) structure sheaves with values in (unital) rings.
 
@@ -664,7 +668,7 @@ $$
 
 Since rings can be identified with left-exact functors $(Ring^{fin})^{op}\to Set$, we don't need to impose any admissibility structure in order to recover the notion of a sheaf of rings, since left-exactness is part of the definition of a "structure sheaf."  We do, however, need an admissibility structure if we want to recover the notion of a sheaf of *local* rings, as in the previous example above.
 
-### Derived ringed spaces
+#### Derived ringed spaces
 
 Now formulate the previous example according to the above definition:
 
@@ -687,7 +691,7 @@ the $(\infty,1)$-category of [[(∞,1)-presheaves]] on commutative $k$-algebras 
 Then...
 
 
-### Derived smooth manifolds 
+#### Derived smooth manifolds 
 
 ([StrSh, example 4.5.2](http://arxiv.org/abs/0905.0459))
 
@@ -717,6 +721,25 @@ $$
 
 possible. They describe **[[derived smooth manifolds]]** as described in [DerSmooth](http://math.berkeley.edu/~dspivak/thesis2.pdf).
 
+## Properties
+
+### Limits and colimits
+  {#LimitsAndColimits}
+
+
+Let $\mathcal{G}$ be a [[geometry for structured (infinity,1)-toposes]]. Write $F : (\infty,1)Topos(\mathcal{G}) \to $ [[(∞,1)Topos]] for the [[forgetful functor|forgetful]] [[(∞,1)-functor]] from $\mathcal{G}$-structured $(\infty,1)$-toposes to their underlying $(\infty,1)$-topos.
+
+
++-- {: .prop_prop}
+###### Proposition
+
+The $(\infty,1)$-category $(\infty,1)Topos(\mathcal{G})$ has all [[filtered (∞,1)-category|cofiltered]] [[(∞,1)-limit]]s and the forgetful functor 
+$F : (\infty,1)Topos(\mathcal{G}) \to (\infty,1)Topos$ preserves these.
+
+
+=--
+
+This appears as ([Lurie, corl 1.5.4](#Lurie)).
 
 ## Related concepts
 
