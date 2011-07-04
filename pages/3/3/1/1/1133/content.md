@@ -30,8 +30,24 @@ A morphism $(f^{-1}, f^\sharp):(S_X, O_X) \to (S_Y, O_Y)$ of ringed sites is a p
 
 ## Related concepts
 
-* [[ringed space]], **ringed site**, [[ringed topos]]
+* [[ringed space]], [[locally ringed space]]
+
+*  **ringed site**, [[locally ringed site]]
+
+*  [[ringed topos]], [[locally ringed topos]]
+
+* [[locally algebra-ed topos]]
 
 * [[structured (∞,1)-topos]]
 
+## References
+
+Section 14.6 (ringed sites) and 14.33 (locally ringed sites) of
+
+* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+{#deJong}
+
+
 [[!redirects ringed sites]]
+[[!redirects locally ringed site]]
+[[!redirects locally ringed sites]]
