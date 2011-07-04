@@ -171,7 +171,7 @@ $inv(\mathfrak{g})_V$ contains only indecomposable invariant polynomials.
 
 We write $inv(\mathfrak{g})$ for the [[dg-algebra]] whose underlying [[graded algebra]] is the [[free construction|free]] graded algebra on the [[graded vector space]] $inv(\mathfrak{g})_V$, and whose [[differential]] is trivial.
 
-Since invariant polynomials are closed, the inclusion of graded vector spaces from observation \ref{ClassesOfInvPolysFormGradedVectorSpace} induces an inclusion of dg-algebras
+Since invariant polynomials are closed, the inclusion of graded vector spaces from observation \ref{ClassesOfInvPolysFormGradedVectorSpace} induces an inclusion ([[monomorphism]]) of dg-algebras
 
 $$
   inv(g) \hookrightarrow W(g)
