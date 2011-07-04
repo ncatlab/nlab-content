@@ -9,3 +9,5 @@
 
 
 category: people
+
+[[!redirects Stefan Stolz]]
