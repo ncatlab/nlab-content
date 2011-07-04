@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -52,9 +66,9 @@ This is for instance in ([Johnstone]{#Johnstone}) and in ([Lurie, remark 2.5.11]
 
 * [[ringed space]], [[locally ringed space]]
 
-* [[ringed site]]
+* [[ringed site]], [[locally ringed sire]]
 
-* [[ringed topos]], [[locally ringed topos]]
+* [[ringed topos]], **locally ringed topos**
 
 * [[locally algebra-ed topos]]
 
@@ -76,5 +90,11 @@ Section 2.5 of
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_
  {#Lurie}
+
+Section 14.33 of 
+
+* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+{#deJong}
+
 
 [[!redirects locally ringed toposes]]
