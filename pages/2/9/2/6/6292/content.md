@@ -1,0 +1,9 @@
+
+## Related concepts
+
+* [[analytic torsion]]
+
+
+## References
+
+* L. Nicolaescu, _Notes on Reidemeister torsion_ ([pdf](http://www.nd.edu/~lnicolae/Torsion.pdf))
