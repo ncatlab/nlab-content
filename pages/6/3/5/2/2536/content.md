@@ -299,6 +299,9 @@ For every associative algebra there is its [[semilattice of commutative subalgeb
 
 For more details see [[semilattice of commutative subalgebras]].
 
+## Related concepts
+
+* [[Jordan-Lie-Banach algebra]]
 
 ## References
 
