@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $C$ a [[category]] with [[finite limit]]s, a _ring object_ in $C$ is a [[ring]] [[internalization|internal]] to $C$.
+
+This is an [[abelian group|abelian]] [[group object]] equipped with the structure of a [[monoid|monoid object]] internal to abelian group objects internal to $C$.
+
+## Examples
+
+* A [[topos]] equipped with a ring object is called a [[ringed topos]], see there for more details.
+
+## Related concepts
+
+* [[group object]]
+
+[[!redirects ring objects]]
