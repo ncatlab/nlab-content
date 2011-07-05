@@ -70,9 +70,12 @@ $$
   \,.
 $$
 
+We thus may regard a non-commutative star-algebra as a _[[nonassociative algebra|non-associative]] [[Poisson algebra]]_ : a [[Jordan-Lie algebra]]. See there for more details.
+
 =--
 
-(For the interpretation of the Jordan-multiplication see for instance [BatesWeinstein, p. 80](#BatesWeinsten))
+
+
 
 ### Observables and states
 
@@ -224,7 +227,7 @@ For more on this see
 
 * Leon Takhtajan, _[[Quantum mechanics for mathematicians]]_ , Amer. Math. Soc. 2008. 
 
-* Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
  {#BatesWeinstein}
 
 [[!redirects quantum physics]]
