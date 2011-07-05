@@ -194,13 +194,20 @@ For more see [[counterexamples in algebra]].
 
 ## Related concepts
 
-* **group**, [[finite group]], [[discrete group]], [[topological group]], [[Lie group]], [[loop group]]
 
 * [[2-group]]
 
 * [[n-group]]
 
 * [[∞-group]]
+
+* [[monoid]], [[monoid object]],
+
+* **group**, [[group object]]
+
+  * [[finite group]], [[discrete group]], [[abelian group]], [[topological group]], [[Lie group]], [[loop group]]
+
+* [[ring]], [[ring object]]
 
 
 [[!redirects groups]]
