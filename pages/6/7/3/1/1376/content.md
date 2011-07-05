@@ -49,8 +49,11 @@ $$
 
 ## Related concepts
 
-* [[En-algebra|E1-algebra]]
+* [[monoid]]
 
+* [[En-algebra]]
+
+* [[commutative monoid in an (∞,1)-category]]
 
 ## References
 
@@ -62,6 +65,11 @@ An equivalent reformulation of commutative monoids in terms [[(∞,1)-algebraic 
 
 * [[James Cranch]], _Algebraic Theories and $(\infty,1)$-Categories_ ([arXiv](http://arxiv.org/abs/1011.3243))
  
+
+[[!redirects monoid in an (∞,1)-category]]
+[[!redirects monoid in an (infinity,1)-category]]
+[[!redirects monoid object in an (∞,1)-category]]
+[[!redirects monoid object in an (infinity,1)-category]]
 [[!redirects monoid in a monoidal (infinity,1)-category]]
 [[!redirects monoid in a monoidal (∞,1)-category]]
 [[!redirects algebra in an (∞,1)-category]]
