@@ -81,6 +81,8 @@ If the Poisson algebra comes from a [[Poisson manifold]] $X$, then this Lie-Rine
 
 * A [[Coisson algebra]] is essentially a Poisson algebra [[internalization|internal to]] [[D-module]]s.
 
+* A [[Jordan-Lie-Banach algebra]] is a non-associative (quantum) Poisson algebra.
+
 ## References
 
 * Yvette Kosmann-Schwarzbach,  _Poisson algebra_, article in Encyclopedia of mathematics, [pdf](http://www.math.polytechnique.fr/~kosmann/palg.pdf)
