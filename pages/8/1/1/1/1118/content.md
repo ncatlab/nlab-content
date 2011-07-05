@@ -140,5 +140,8 @@ The basic results of elementary group theory apply to group objects in any categ
 
 The theory of group objects is an example of a [[Lawvere theory]].
 
+## Related concepts
+
+* [[ring object]]
 
 [[!redirects group objects]]
