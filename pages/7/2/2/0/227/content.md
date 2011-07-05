@@ -74,7 +74,11 @@ Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid]
 
 ## Related concepts
 
-* [[ring object]]
+* [[monoid]], [[monoid object]]
+
+* [[group]], [[group object]]
+
+* **ring**, [[ring object]], [[E-∞ ring]]
 
 * [[affine scheme]]
 
