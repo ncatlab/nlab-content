@@ -31,7 +31,7 @@ and developed in
 
 
 
-## For assoociative and dg-algebras
+## For associative and dg-algebras
 
 There are a lot of algebras whose derived categories are equivalent in surprising ways.  [[Morita equivalences]] are pretty simple, especially for finite dimensional algebras; essentially the only free parameter is the dimension of the object.
 
