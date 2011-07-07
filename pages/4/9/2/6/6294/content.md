@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 #### Category theory
@@ -13,10 +13,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -26,12 +25,20 @@ This is a [[monoid|monoid object]] internal to the category of  [[abelian group|
 
 It can be defined in more general symmetric monoidal categories as the corresponding module over a ring operad. 
 
+
 ## Examples
 
 * A [[topos]] equipped with a ring object is called a [[ringed topos]], see there for more details.
 
+
 ## Related concepts
 
-* [[group object]]
+* [[monoid]], [[monoid object]],
 
+* [[group]], [[group object]], [[group object in an (∞,1)-category]]
+
+* [[ring]], **ring object**
+
+
+[[!redirects ring object]]
 [[!redirects ring objects]]
