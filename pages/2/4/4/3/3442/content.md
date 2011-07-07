@@ -125,4 +125,9 @@ In this diagram now
     \,.
   $$
 
+***********************
+
+* Yves Andre, _Solution algebras of differential equations and quasi-homogeneous varieties_, [pdf](http://arxiv.org/abs/1107.1179)
+
+
 [[!redirects differential equations]]
