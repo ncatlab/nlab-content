@@ -10,13 +10,6 @@
 =--
 =--
 
-* [[algebraic theory]] / [[Lawvere theory]] /  **2-Lawvere theory** [[(∞,1)-algebraic theory]]
-
-* [[monad]] / [[(∞,1)-monad]]
-
-* [[operad]] / [[(∞,1)-operad]]
-
-***
 
 #Contents#
 * table of contents
@@ -25,6 +18,16 @@
 ## Idea
 
 The notion of _2-Lawvere theory_ or _Lawvere 2-theory_ is the [[categorification]] of [[Lawvere theory]].
+
+
+## Related concepts
+
+* [[algebraic theory]] / [[Lawvere theory]] /  **2-Lawvere theory** [[(∞,1)-algebraic theory]]
+
+* [[monad]] / [[2-monad]] / [[(∞,1)-monad]]
+
+* [[operad]] / [[(∞,1)-operad]]
+
 
 
 ## References
