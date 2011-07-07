@@ -65,7 +65,7 @@ A **geometry** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[Grothendieck topo
 
 If only all finite [[product]]s exist we speak of a pre-geometry. Every pregeometry $\mathcal{T}$ extends uniquely $\mathcal{T} \hookrightarrow \mathcal{G}$ to an _enveloping geometry_ $\mathcal{G}$. 
 
-When the objects of the geopmetry $\mathcal{G}$ are thought of as test spaces (affine schemes), the objects of the pregeometry $\mathcal{T} \hookrightarrow \mathcal{G}$ are to be thought of as the [[affine space]]s. This distinction is used to encode [[smooth map|smoothness]] of maps between test spaces: a morphism in $\mathcal{G}$ is smooth if it locally factors through admissible maps between objects in $\mathcal{T}$. 
+When the objects of the geometry $\mathcal{G}$ are thought of as test spaces (affine schemes), the objects of the pregeometry $\mathcal{T} \hookrightarrow \mathcal{G}$ are to be thought of as the [[affine space]]s. This distinction is used to encode [[smooth map|smoothness]] of maps between test spaces: a morphism in $\mathcal{G}$ is smooth if it locally factors through admissible maps between objects in $\mathcal{T}$. 
 
 =--
 
@@ -290,7 +290,7 @@ $\mathcal{O} : \mathcal{T} \to \mathcal{X}$ such that
 
 The first clause says that $\mathcal{O} : \mathcal{T} \to \mathcal{X}$ is in particular an $\infty$-algebra over the (multi-sorted) [[(∞,1)-algebraic theory]] $\mathcal{T}$.
 
-The other two clauses encode that this this $\infty$-algebra $mathcal{O}$ indeed behaves like a _function algebra_ . 
+The other two clauses encode that this $\infty$-algebra $\mathcal{O}$ indeed behaves like a _function algebra_ . 
 
 =--
 
@@ -387,7 +387,7 @@ and details on the general case.
 
 In the version of this that is available on the arXiv ([arXiv](http://arxiv.org/abs/0810.5174))
 the point of view is more on bi-presheaves, a useful discussion to the relation
-to structured morphisms here is in section 10.1. there.
+to structured morphisms here is in section 10.1 there.
 
 
 [[!redirects geometry (for structured (∞,1)-toposes)]]
