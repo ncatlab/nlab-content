@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -43,7 +43,7 @@ $$
 Write $\Sigma_n$ for the [[symmetric group]] on $n \in \mathbb{N}$ elements. Take $\Sigma_0$ and $\Sigma_1$ to be both the trivial group.
 
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 The category of **collections** (of potential operations) in $V$  is the [[product]]
@@ -65,7 +65,7 @@ each equipped with an [[action]] by the respective $\Sigma_n$.
 
 ### Hopf interval object
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 An object $H \in V$ is a [[Hopf algebra]] object if it is equipped with the structure of a [[monoid]], that of a [[comonoid]] such that product and coproduct preserve each other.
@@ -80,7 +80,7 @@ that factor the [[codiagonal]] on $I$ by a cofibration followed by a weak equiva
  
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Examples
 
 Such cocommutative coalgebra intervals exist in
@@ -100,7 +100,7 @@ there is a coalgebra interval.
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Since the coalgebra interval in the [[category of chain complexes]] is not cocommutative, this case requires special discussion, as some of the statements below will not apply to it. For more on this case see [[model structure on dg-operads]].
@@ -109,9 +109,9 @@ Since the coalgebra interval in the [[category of chain complexes]] is not cocom
 
 ### Model category structure
 
-Assume now that $V$ is moreover equippepd with a compatible structure of a [[monoidal model category]].
+Assume now that $V$ is moreover equipped with a compatible structure of a [[monoidal model category]].
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 If $V$ is a [[cofibrantly generated model category]], then for each [[finite group]] $G$ the [[transferred model structure]] on $V^{\mathbf{B}G}$ along the [[forgetful functor]]
@@ -126,7 +126,7 @@ It follows that in this case the category of collections $Coll(V)$ is a [[cofibr
 
 =--
 
-+-- {: .un_lemma #SigmaCofibrant}
++-- {: .num_lemma #SigmaCofibrant}
 ###### Lemma
 
 A $V$-operad is called **$\Sigma$-cofibrant** if its underlying collection is cofibrant in the above model stucture
@@ -135,7 +135,7 @@ A $V$-operad is called **$\Sigma$-cofibrant** if its underlying collection is co
 
 A $V$-operad $P$ is called _reduced_ if $P(0)$ is the tensor unit, $P(0) = I$.  A morphism of reduced operads is one that is the identity on the 0-component. 
 
-+-- {: .un_theorem }
++-- {: .num_theorem #ModelStrucOnOperads}
 ###### Theorem
 
 If 
@@ -148,7 +148,9 @@ If
 
 * $V$ admits a commutative Hopf interval object.
 
-Then there exists a [[cofibrantly generated model category]] structure on the category of reduced $V$-[[operad]]s, in which a morphism $P \to Q$ is a weak equivalence (resp. fibration) precisely if for all $n \gt 0$ the morphisms $P(n) \to Q(n)$ are weak equivalences (resp. fibrations) in $V$.
+Then there exists a [[cofibrantly generated model category]] structure on the category of reduced $V$-[[operad]]s, in which 
+
+* a morphism $P \to Q$ is a weak equivalence (resp. fibration) precisely if for all $n \gt 0$ the morphisms $P(n) \to Q(n)$ are weak equivalences (resp. fibrations) in $V$.
 
 =--
 
@@ -161,7 +163,7 @@ This is [BergerMoerdijk, theorem 3.1](#BergerMoerdijkHomotopy).
 
 If $V$ is even a [[cartesian closed category]], a stronger statement is possible:
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 Let $V$ be a [[cartesian closed category]], such that
@@ -210,7 +212,7 @@ This means we have rectification theorems for [[A-∞ algebras]] but not for [[E
 
 ### Cofibrancy
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Every cofibrant operad is also $\Sigma$-[cofibrant](#SigmaCofibrancy).
@@ -220,7 +222,7 @@ Every cofibrant operad is also $\Sigma$-[cofibrant](#SigmaCofibrancy).
 This is ([BergerMoerdijk, prop. 4.3](#BergerMoerdijkHomotopy)).
 
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 The relebance of this is in section [Homotopy algebras](#HomotopyAlgebras): this property enters the proof of the statement that the [[model structure on algebras over an operad]] over a $\Sigma$-cofibrant resolution is already Quillen equivalent to that of a full cofibrant resolution.
@@ -240,14 +242,14 @@ We now discuss the construction and properties of cofibrant [[resolution]]s of o
 
 First we describe _free_ operads, and then _[[Boardman-Vogt resolution]]s_ of operads, obtained from the construction of the free ones by adding labels for _lengths_ in an [[interval object]]
  
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The category of $C$-coloured operads is itself the category of algebras over a non-symmetric operad. See [[coloured operad]] for more. Thus the above theorem procides conditions under which $C$-coloured operads carry a model structure in which fibrations and weak equivalences are those morphisms of operads $P \to Q$ that are  degreewise fibrations and weak equivalences in $\mathcal{E}$.
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Terminology
 
 We shall from now on call an operad $P$ **cofibrant** if the morphism $I_C \to P$ from the initial $C$-[[coloured operad]] has the [[left lifting property]] against degreewise acyclic fibrations of operads (irrespective of whether the above conditions for the existence of the model structure hold).
@@ -256,7 +258,7 @@ We shall from now on call an operad $P$ **cofibrant** if the morphism $I_C \to P
 
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The [[forgetful functor]] from $C$-colored operads to pointed $C$-colored collections has a [[left adjoint]]
@@ -275,7 +277,7 @@ $$
 This is  ([BergerMoerdijk, theorem 3.2](#BergerMoerdijkAlgebras)).
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 For each well-pointed  $\Sigma$-[cofibrant](#SigmaCofibrancy) $C$-coloured operad $P$, the $(F^*_C \dashv U_C)$-counit factors as a cofibration followed by a weak equivalence
@@ -305,7 +307,7 @@ We discuss model structures on algebras over resolutions of operads. A more  det
 With $V$ as above, say 
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 A $V$-operad $P$ is _admissible_ if the category of $P$-[[algebra over an operad|algebras]] carries a [[transferred model structure]] from the [[free functor]]/[[forgetful functor]] [[adjunction]]
@@ -319,7 +321,7 @@ $$
 
 Under mild assumptions on $V$, cofibrant operads are admissible.
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 For an arbirtrary $V$-operad $P$, [[generalized the|the]] category of **homotopy $P$-algebras** is the category of $\hat P$-algebras for some cofibrant replacement $\hat P$ of $P$.
@@ -332,7 +334,7 @@ Indeed, this is well defined up to [[Quillen equivalence]]:
 
 Moreover, for this it is sufficient that $\hat P$ be _$\Sigma$-[cofibrant](#SigmaCofibrancy)_ . 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 If $V$ is a [[left proper model category]] with cofibrant unit, then for $\hat P$ a $\Sigma$-[cofibrant](#SigmaCofibrancy) [[resolution]] of $P$ (not necessarily fully cofibrant!) the category of $\hat P$ algebras is [[Quillen equivalence|Quillen equivalent]] to that of homotopy $P$-algebras.
@@ -353,6 +355,11 @@ For more see [[model structure on algebras over an operad]].
   * [[algebra over an (∞,1)-operad]], [[model structure on algebras over an operad]]
 
     * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad]]
+
+
+* [[A-∞ operad]]
+
+* [[E-∞ operad]]
 
 ## References
 
