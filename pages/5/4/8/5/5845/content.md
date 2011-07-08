@@ -32,6 +32,7 @@ is a triple of [[functor]]s $F,H \colon C \to D$ and $G \colon D \to C$ together
 =--
 
 ## Properties
+ {#Properties}
 
 +-- {: .num_note #GIsBicontinuous}
 ###### Note
@@ -81,13 +82,15 @@ For an adjoint triple $F\dashv G\dashv H$ we have that $F$ is [[full and faithfu
 +-- {: .proof}
 ###### Proof
 
-By a basic <a href="http://nlab.mathforge.org/nlab/show/adjoint+functor#FullyFaithfulAndInvertibleAdjoints">property</a> [[adjoint functor]] we have that 
+By a basic <a href="http://nlab.mathforge.org/nlab/show/adjoint+functor#FullyFaithfulAndInvertibleAdjoints">property</a> of [[adjoint functors]] we have that 
 
 * the [[left adjoint]] $F$ being full and faithful is equivalent to the [[unit of an adjunction|unit]] $Id \to G F$ being a [[natural isomorphism]];
 
 * the [[right adjoint]] $H$ being full and faithful is equivalent to the counit $G H \to Id$ being a [[natural isomorphism]].
 
-Moreover, by note \ref{AdjointPairFromAdjointTriple} and the fact that adjoints are unique up to isomorphism, we have that $G F$ is isomorphic to the identity precisely if $G H$ is.
+Moreover, by note \ref{AdjointPairFromAdjointTriple} and the fact that adjoints are unique up to isomorphism, we have that $G F$ is isomorphic to the identity precisely if $G H$ is. 
+
+Finally, by a standard fact about [[adjoint functor]]s (for instance (([Elephant, lemma 1.1.1](#Elephant))) $G H$ is isomorphic to the identity precisely if it is so by the [[unit of an adjunction|adjunction unit]].
 
 =--
 
@@ -125,5 +128,10 @@ On spherical triples see
 
 * Rina Anno, _Spherical functors_, ([arxiv/0711.4409](http://arxiv.org/abs/0711.4409)).
   {#Anno} 
+
+Generalities are in 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ 
+ {#Elephant}
 
 [[!redirects adjoint triples]]
