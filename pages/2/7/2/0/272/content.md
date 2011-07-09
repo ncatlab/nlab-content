@@ -111,3 +111,7 @@ Out of laziness for the moment I point for further references and more backgroun
 Recent account of the principle of locality in AQFT from the point of view of traditional school
 
 * [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi](http://dx.doi.org/10.1063/1.3276100)
+
+[[!redirects algebraic quantum field theory]]
+[[!redirects algebraic quantum field theories]]
+
