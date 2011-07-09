@@ -129,3 +129,6 @@ Around definition 9 of
 
 [[!redirects conserved current]]
 [[!redirects conserved currents]]
+
+[[!redirects current]]
+[[!redirects currents]]
