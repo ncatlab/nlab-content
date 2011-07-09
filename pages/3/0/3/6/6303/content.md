@@ -1,0 +1,9 @@
+
+* [webpage](http://unith.desy.de/people/allmembers/fredenha/)
+
+
+## related pages
+
+* [[AQFT]], [[local net of observables]]
+
+category: people
