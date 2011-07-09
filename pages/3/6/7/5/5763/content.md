@@ -364,3 +364,5 @@ The application of the [[double negation topology]] to make Bohrification coinic
 
 * [[Bas Spitters]], _The space of measurement outcomes as a spectrum for non-commutative algebras_ in Cooper, Kashefi, Panangaden (eds.) _Developments in computational models_ (DCM 2010)([arXiv:1006.1432](http://arxiv.org/abs/1006.1432))
 {#Spitters06}
+
+* Joost Nuiten, _Bohrification of local nets_ ([[NuitenBachelor.pdf:file]])
