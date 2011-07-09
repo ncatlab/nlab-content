@@ -208,7 +208,7 @@ See for instance ([BrunettiFredenhagen, section 5.2.2](#BrunettiFredenhagen)).
 +-- {: .num_defn}
 ###### Definition
 
-Given two independent subsystems $B_1, B_2 \hookrightarrow \mathcal{A}$, and two [[state]] $\rho_1 : B_1 \to \mathbb{C}$ and $\rho_2 : B_2 \to \mathbb{C}$, the corresponding **product state** $\rho_1 \otimes \rho_2$ is defined to be
+Given two independent subsystems $B_1, B_2 \hookrightarrow \mathcal{A}$, and two [[state]] $\rho_1 : B_1 \to \mathbb{C}$ and $\rho_2 : B_2 \to \mathbb{C}$, the corresponding **product state** $\rho_1 \otimes \rho_2$ on $B_1 \vee B_2$ is defined to be
 
 $$
   (\rho_1 \otimes \rho_2) : 
