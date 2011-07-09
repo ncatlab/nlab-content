@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -32,9 +32,9 @@ If
 
 * the net takes values in [[algebra]]s;
 
-* there is given the structure of a Minkowski manifold on $X$
+* there is given the structure of a [[Lorentzian manifold]] on $X$
 
-the net $A$ is called _local_ precisely if for all open subset $O_1, O_2 \subset O$ the images of the algebras $A(O_1)$ and $A(O_2)$ in $A(O)$ commute whenever $O_1$ and $O_2$ are completely spacelike seperated
+the net $A$ is called _(causally) local_ precisely if for all open subset $O_1, O_2 \subset O$ the images of the algebras $A(O_1)$ and $A(O_2)$ in $A(O)$ commute whenever $O_1$ and $O_2$ are completely [[spacelike]] seperated
 
 $$
   (A local)
@@ -44,9 +44,9 @@ $$
   \right)
 $$
 
-This axiom encodes the the physical property known as Einstein-causality or micro-causality, which states that physical effects do not propagate faster that the speed of like.
+This [[axiom]] encodes the the physical property known as [[Einstein-causality]] or micro-causality, which states that physical effects do not propagate faster that the speed of like.
 
-It is to be noted that many auxiliary operators in usual [[quantum field theory]] do _not_ satisfy this axioms, for instance operators associate to currents in gauge theory. The idea is that those operators that actually do qualify as _observables_ do satisfy the axiom, however, i.e. in particular those that are gauge invariant.
+It is to be noted that many auxiliary [[operator]]s in usual [[quantum field theory]] do _not_ satisfy this axioms, for instance operators associate to [[current]]s in [[gauge theory]]. The idea is that those operators that actually do qualify as _[[observables]]_ do satisfy the axiom, however, i.e. in particular those that are [[gauge symmetry|gauge invariant]].
 
 ## Related concepts
 
@@ -65,3 +65,8 @@ for the moment see the references at [[AQFT]].
 [[!redirects local nets]]
 
 [[!redirects Haag-Kastler net]]
+
+[[!redirects net of observables]]
+[[!redirects nets of observables]]
+[[!redirects local net of observables]]
+[[!redirects local nets of observables]]
