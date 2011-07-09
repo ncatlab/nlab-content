@@ -1,2 +1,1 @@
-
-see [[local net of observables]]
+&lt; [[causal net of algebras]]
