@@ -1,9 +1,24 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 
 ## Idea ##
+
 Duality for [[nets]] of [[von Neumann algebras]] is a concept that was introduced for [[local nets]] in the [[Haag-Kastler approach]] to [[quantum field theory]]. Many results of this approach need some sort of duality in the sense described here or close to it as a precondition.
 
 ## Definition ##
