@@ -16,6 +16,8 @@ Check that these produce different results in the MathML:
 *  $\widehat{S(\mathfrak{g}^*)}$
 *  $\hat{S(\mathfrak{g}^*)}$
 
+I want a [[pdf-test.pdf|PDF file:file]]!
+
 ***
 
 category: meta
