@@ -3,8 +3,10 @@
 </div>
 
 
+> to be merged with [[local net of observables]]
+
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 
