@@ -56,7 +56,7 @@ The universal cover of $SO^+(1, 3)$ is a double cover (the **spin double cover**
 
 $$SL_2(\mathbb{C}) \to SO^+(1, 3)$$ 
 
-constructed as follows: to each $x = (x_0, x_1, x_2, x_3)$ there is an associated [[Hermitian matrix]] 
+constructed as follows: to each $x = (x_0, x_1, x_2, x_3)$ one associates a [[Hermitian matrix]] 
 
 $$X = \left(
 \array{
@@ -89,7 +89,7 @@ x_2 - i x_3 & x_0 - x_1
 \right)
 $$
 
-whose determinant is the Minkowski norm of $x$. We identify $\mathbb{R}^4$ with the space $H$ of Hermitian matrices, and define an action of $SL_2(\mathbb{C})$ on $H$:  
+whose determinant is the Minkowski norm of $x$. We thus identify $\mathbb{R}^4$ with the space $H$ of Hermitian matrices, and define an action of $SL_2(\mathbb{C})$ on $H$:  
 
 $$A \cdot X = A X A^*, A \in SL_2(\mathbb{C}), X \in H$$ 
 
