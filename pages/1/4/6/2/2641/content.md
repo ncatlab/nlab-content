@@ -9,7 +9,7 @@
 
 $$U: G \to U(H)$$ 
 
-into the [[unitary group]] of a [[Hilbert space]] $H$ that is irreducible in the usual sense of [[representation theory]]. 
+into the [[unitary group]] of a [[Hilbert space]] $H$ that is irreducible in the usual sense of [[representation theory]]. The topology on $U(H)$ here is understood to be the [[operator topology|strong operator topology]]. 
 
 In this and related articles, we study such representations in the case where 
 
