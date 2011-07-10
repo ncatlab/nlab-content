@@ -1,5 +1,11 @@
 * [website](http://sites.google.com/site/chrisschommerpriesmath/Home)
+
+
+## Slides and talks
+
 * 2d vs 3d TQFT [slides](http://sites.google.com/site/chrisschommerpriesmath/Home/Slides-MFO-6-11-09.pdf?attredirects=0)
+
+* ([[DSSFusionSlides.pdf:file]])
 
 ## related $n$Lab entries
 
