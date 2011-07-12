@@ -127,11 +127,11 @@ The beginnings of a classification theory for $n$-truncated $\Pi$-algebras can b
 
 [[David Blanc]] has written a lot on these objects. An example is
 
-* [[David Blanc]], _Loop spaces and homotopy operations_, Fund. Math. 154 (1974) 75 - 95.
+* [[David Blanc]], _Loop spaces and homotopy operations_, Fund. Math. 154 (1997) 75 - 95.
 
 The realisability problem is discussed in 
 
-* [[David Blanc]], _Higher homotopy operations and the realizability of homotopy groups_, Proc.  London Math. Soc. (3) 70 (19950 214 -240,
+* [[David Blanc]], _Higher homotopy operations and the realizability of homotopy groups_, Proc.  London Math. Soc. (3) 70 (1995) 214 -240,
 
 and further in 
 
