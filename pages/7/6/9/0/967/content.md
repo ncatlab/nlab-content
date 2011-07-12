@@ -29,12 +29,18 @@ The definition above requires some set-theoretic assumption to ensure that the [
 
 ## Examples
 
-Any category which is [[monadic]] over [[Set]] is total, as is any category admitting a [[topological functor|topological functor]] to [[Set]].
+Any [[cocomplete category|cocomplete]], [[well-powered category|well-copowered]] category with a [[generator]] is total; this includes:
+
+* any category which is [[monadic]] over [[Set]]
+* any category admitting a [[topological functor|topological functor]] to [[Set]]
+* [[locally presentable category|locally presentable categories]]
 
 
 ## References
 
 * [[Max Kelly]], _A survey of totality for enriched and ordinary categories_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 2 (1986), p. 109-132, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_109_0)
+* [[W Tholen]], _Note on total categories_ Bulletin of the Australian Mathematical Society [cambridge journals](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=4759056)
+
 
 
 [[!redirects cototal category]]
