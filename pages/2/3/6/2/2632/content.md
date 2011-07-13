@@ -280,6 +280,16 @@ For more on this see
 * Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
  {#BatesWeinstein}
 
+
+* F. Strocchi, _An Introduction to the Mathematical Structure of Quantum Mechanics_ .
+
+This follows an axiomatic approach with [[observable]]s as elements of 
+[[C-star algebra]]s.
+
+The generalization of this kind of discussion to [[quantum field theory]] is
+
+* [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_ 
+
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum field theory on curved backgrounds_ , in  [[Christian Bär]], [[Klaus Fredenhagen]], (eds.) _Quantum field theory on curved spacetime_ , Lecture notes in physics, Springer (2009)
   {#BrunettiFredenhagen}
 
