@@ -80,7 +80,7 @@ Sheaves are used explicitly in:
 
 The classical textbook is
 
-* [[Rudolf Haag]], _Local quantum physics_ 
+* [[Rudolf Haag]], _[[Local Quantum Physics -- Fields Particles Observables]]_ 
 
 A good account of the mathematical axiomatics of Haag-Kastler AQFT is
 
