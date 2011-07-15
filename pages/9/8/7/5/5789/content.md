@@ -45,4 +45,4 @@ The data of a system of supersymmetric quantum mechanics may also be formalized 
 ## References
 
 * [[Edward Witten]], _Supersymmetry and Morse theory_  J. Differential Geom. Volume 17, Number 4 (1982), 661-692. ([Euclid](http://projecteuclid.org/euclid.jdg/1214437492))
-
+* Fred Cooper, Avinash Khare, Uday Sukhatme, _Supersymmetry and Quantum Mechanics_ Physics Reports Volume 251 (1995), 267-385. [arXiv:hep-th/9405029](http://arxiv.org/abs/hep-th/9405029)
