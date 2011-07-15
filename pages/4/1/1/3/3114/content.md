@@ -68,7 +68,7 @@ Moreover, at least assuming classical logic, SVC + COSHEP implies AC.  First not
 
 SVC was introduced in the paper
 
-* Blass, Andreas.  "Injectivity, projectivity, and the axiom of choice."  Trans. Amer. Math. Soc. 1979
+* [[Andreas Blass]],  "Injectivity, projectivity, and the axiom of choice."  Trans. Amer. Math. Soc. 1979
 
 where most of the above results were proven.  Some others can be found in
 
