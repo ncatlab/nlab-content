@@ -37,7 +37,26 @@ $$
 
 * __ultraweak operator topology__ ...
 
-## Links and literature
+## Properties
+
+### Relation to norm topology
+
+The reason that in the definition of a [[unitary representation]], the strong operator topology on $\mathcal{U}(\mathcal{H})$ is used and not the [[norm topology]], is that only few [[homomorphism]]s turn out to be [[continuous map|continuous]] in the norm topology.
+
+Example: let $G$ be a [[compact topological space|compact]] [[Lie group]] and $L^2(G)$ be the [[Hilbert space]] of square integrable [[measurable function]]s with respect to its [[Haar measure]]. The right [[regular representation]] of $G$ on $L^2(G)$ is defined as
+
+$$
+      R: G \to \mathcal{U}(L^2(G))
+$$
+
+$$
+         g \mapsto (R_g: f(x) \mapsto f(x g))
+$$
+
+and this will generally not be continuous in the norm topology, but is always continuous in the strong topology. 
+
+
+## References
 
 * A. A. Kirillov, A. D. Gvi&#353;iani, &#1058;&#1077;&#1086;&#1088;&#1077;&#1084;&#1099; &#1080; &#1079;&#1072;&#1076;&#1072;&#1095;&#1080; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072; (theorems and exercises in functional analysis), Moskva, Nauka 1979, 1988
 
@@ -45,3 +64,5 @@ $$
 [[!redirects strong operator topology]]
 [[!redirects weak operator topology]]
 [[!redirects uniform operator topology]]
+
+[[!redirects strong topology]]
