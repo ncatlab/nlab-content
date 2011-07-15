@@ -1,5 +1,7 @@
 * **[[mathematics]]**
 
+  * [[math resources]]
+
 * [[foundations|Structural Foundations]]
 
   * [[logic]]
