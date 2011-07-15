@@ -1,7 +1,15 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
 [[!include mathematicscontents]]
-</div>
+=--
+=--
+=--
+
+
 
 * [[foundations|Structural Foundations]] with annotated toc of 3 great books with numerous links to related nlab content:
 
