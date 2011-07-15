@@ -28,3 +28,5 @@ In [[constructive mathematics]], the principle of [[excluded middle]] is equival
 [[!redirects choice objects]]
 [[!redirects choice set]]
 [[!redirects choice sets]]
+[[!redirects well-orderable set]]
+[[!redirects well-orderable sets]]
