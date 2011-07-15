@@ -78,9 +78,13 @@ Sheaves are used explicitly in:
 
 ## References
 
+The original article that introduced the [[Haag-Kastler axioms]] is
+
+* [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_ , Journal of Mathematical Physics, Bd.5, 1964, S.848-861 
+
 The classical textbook is
 
-* [[Rudolf Haag]], _[[Local Quantum Physics -- Fields Particles Observables]]_ 
+* [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_ 
 
 A good account of the mathematical axiomatics of Haag-Kastler AQFT is
 
