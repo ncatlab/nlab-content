@@ -1,10 +1,11 @@
-[[!redirects Online Resources]]
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Contents### {: .clickToReveal}
-###Contents### {: .clickToHide tabindex="0"}
-+--{: .hide}
-[[!include contents]]
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
 =--
 =--
 =--
@@ -319,3 +320,5 @@ category: meta
 [[!redirects mathematical blogs]]
 [[!redirects Math Blogs]]
 [[!redirects Math blogs]]
+
+[[!redirects Online Resources]]
