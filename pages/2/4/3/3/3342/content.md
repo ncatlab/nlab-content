@@ -81,7 +81,7 @@ The classic references are
 
 and
 
-* Huzihiro Araki: _Mathematical theory of quantum fields._ Oxford University Press 1999 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0998.81501&format=complete). 
+* [[Huzihiro Araki]]: _[[Mathematical Theory of Quantum Fields]]_ Oxford University Press 1999 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0998.81501&format=complete). 
 
 and
 
