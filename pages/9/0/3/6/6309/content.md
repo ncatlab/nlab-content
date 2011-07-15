@@ -1,0 +1,38 @@
+## Idea
+
+The **small cardinality selection axiom (SCSA)** is a weak form of the [[axiom of choice]], which asserts in a certain precise way that choice fails "in at most a small way".  It was introduced by [[Michael Makkai]] for the study of [[anafunctors]], and thus it also has consequences for the existence of [[stack]] completions.
+
+## Definition
+
+The "global version" of the axiom states:
+
+* The ([[large category|large]]) [[category]] [[Set]] of [[sets]] is [strongly equivalent](/nlab/show/equivalence+of+categories#StrongEquivalence) to a full subcategory of itself, each of whose isomorphism classes contains only a set of objects.
+
+Therefore, we have a [[class]] [[function]] assigning to each set $A$, another set $\Vert A\Vert$ and a [[bijection]] $A \cong \Vert A \Vert$, in such a way that $\Vert-\Vert$ takes only set-many values on each isomorphism class in [[Set]].
+
+
+## Relationship to other forms of choice
+
+* In the presence of the [[axiom of global choice]] in [[material set theory]], the category [[Set]] has a [[skeleton]], namely the category of [[von Neumann ordinals]].  Ordinary AC is all that is needed to ensure that every set is bijective to a von Neumann ordinal, and that ordinal can be uniquely determined as the smallest in its cardinality class, but in order to additionally choose for every set a *bijection* to its cardinality, we need global AC.
+
+* SCSA also follows from the "global" version of the axiom of [[small violations of choice]], as proven in Makkai's paper (attributed to the referee).
+
++--{: .query}
+[[Mike Shulman]]: Is there a "local" version of SCSA which follows from non-global AC and non-global SVC?  Is there a structural version?
+=--
+
+
+## Consequences
+
+* SCSA implies that the [[anabicategory]] of categories and [[anafunctors]] is [[cartesian closed category|cartesian closed]].
+
+## References
+
+* [[Michael Makkai]], [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/).
+
+
+category: foundational axiom
+
+[[!redirects SCSA]]
+[[!redirects axiom of small cardinality selection]]
+[[!redirects small cardinality selection]]
