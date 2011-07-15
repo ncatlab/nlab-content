@@ -98,7 +98,7 @@ Give an intuitively clear counterexample here.
 =--
 
 
-### Strong equivalence
+### Strong equivalence {#StrongEquivalence}
 
 Two strict categories $C$ and $D$ are __strongly equivalent__ if there exist strict functors $F\colon C \to D$ and $G\colon D \to C$ such that $F G$ and $G F$ are each naturally isomorphic (isomorphic in the relevant [[functor category]]) to the appropriate identity functor.  In this case, we say that $F$ is a __strong equivalence__ from $C$ to $D$ (so $G$ is a strong equivalence from $D$ to $C$).  The functor $G$ is called a __weak inverse__ of $F$ (so $F$ is a weak inverse of $G$).
 
