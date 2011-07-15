@@ -1,0 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+This entry is about the book
+
+
+* [[Huzihiro Araki]], _Mathematical Theory of Quantum Fields_ Oxford University Press (1999)
+
+category: reference
