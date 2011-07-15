@@ -1,22 +1,48 @@
+
 * **[[functional analysis|Functional Analysis]]**
+
+## Basic concepts
+
 * [[TVS|Topological Vector Spaces]]
-* [[LCTVS|Locally Convex Topological Vector Spaces]]
-* Types of topological vector space
+
+  * [[LCTVS|Locally Convex Topological Vector Spaces]]
+
   * [[TVS relationships|The Topological Vector Space Diagram]]
+
   * [[Banach space|Banach Spaces]]
-  * [[Hilbert space|Hilbert Spaces]]
-  * [[Fréchet space|Fréchet Spaces]]
+
+    * [[reflexive Banach space|reflexive]]
+
+  * [[Hilbert space|Hilbert Spaces]], [[Fréchet space|Fréchet Spaces]], [[Sobolev space|Sobolev spaces]], [[Lebesgue space|Lebesgue Spaces]]
+
   * [[bornological vector space|Bornological Vector Spaces]]
+
   * [[barrelled topological vector space|Barrelled Vector Spaces]]
 
 * [[linear operator]] 
-  * [[bounded linear operator|bounded]], [[unbounded linear operator|unbounded]], [[self-adjoint operator|self-adjoint]]
+
+  * [[bounded linear operator|bounded]], [[unbounded linear operator|unbounded]], [[self-adjoint operator|self-adjoint]], [[compact operator|compact]], [[Fredholm operator|Fredholm]]
+
   * [[spectrum of an operator]]
+
 * [[operator algebras]]
+
+  * [[functional calculus]]  
+
+## Theorems
+
 * [[spectral theory]]
-* Topics in Functional Analysis
-  * [[basis in functional analysis|Bases]]
-  * [[algebraic theories in functional analysis|Algebraic Theories in Functional Analysis]]
-  * [[an elementary treatment of Hilbert spaces|An Elementary Treatment of Hilbert Spaces]]
+
+  * [[spectral theorem]]
+
+* [[measure theory]]
+
+## Topics in Functional Analysis
+
+* [[basis in functional analysis|Bases]]
+
+* [[algebraic theories in functional analysis|Algebraic Theories in Functional Analysis]]
+
+* [[an elementary treatment of Hilbert spaces|An Elementary Treatment of Hilbert Spaces]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/functional+analy0sis+-+contents)</div>
