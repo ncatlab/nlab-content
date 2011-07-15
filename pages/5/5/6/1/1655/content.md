@@ -21,7 +21,7 @@
 
 A **topological vector space**, or **TVS** for short, is a [[vector space]] $X$ (usually over the [[ground field]] $k = \mathbb{R}$ or $k = \mathbb{C}$) equipped with a [[topological space|topology]] for which the addition and scalar multiplication maps 
 $$+: X \times X \to X, \qquad \cdot: k \times X \to X$$ 
-are continuous (where $k$ is given its standard topology).
+are [[continuous function|continuous]] (where $k$ is given its standard [[topology]]).
 
 Much as a [[topological group]] is a [[group object]] in [[Top]], so a TVS is a vector space [[internalization|internal to]] $Top$ ... *but* not just any vector space in $Top$ is a TVS!  The reason is that, in a vector space internal to $Top$, $\cdot$ only need be continuous in the second variable; in other words, this concept uses the [[discrete topology]] on $k$.  So only some vector spaces in $Top$ are TVSes.
 
