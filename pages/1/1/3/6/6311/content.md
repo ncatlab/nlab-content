@@ -13,3 +13,5 @@
 ## References
 
 * [[eom]], _[Functional calculus](http://eom.springer.de/F/f042030.htm)_
+
+* [[Planet Math]], _[Borel functional calculus](http://planetmath.org/encyclopedia/BorelFunctionalCalculus.html)_
