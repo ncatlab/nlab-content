@@ -71,6 +71,8 @@ There are a number of weaker axioms which are implied by the full axiom of choic
 
 * The [[axiom of multiple choice]] is a different way of saying that choice is violated in only a small way, which is more "local" than SVC.  It apparently follows from SVC, at least in [[ZF]].
 
+* The [[small cardinality selection axiom]] is another similar axiom.  It asserts that there is a class function selecting for every set an isomorphic set (its "cardinality") such that among each isomorphism class of sets, the collection of all "cardinalities" forms only a set.
+
 * A still weaker axiom along the lines of "AC fails in only a small way," which is implied by AMC, is [[WISC]], i.e. that for any set $X$, the full subcategory of $Set/X$ consisting of the surjections has a [[weakly initial set]] (under COSHEP it has a single weakly initial object, namely a projective cover of $X$).  Two similar assertions are that the [[free exact completion]] $Set_{ex/lex}$ of $Set$ is a [[topos]] (i.e. that $Set$ has a [[generic proof]]), and that $Set_{ex/lex}$ is [[well-powered category|well-powered]]; both of these imply WISC.
 
 The axiom of choice can also be strengthened in a few ways.
@@ -107,3 +109,5 @@ category: foundational axiom
 
 
 [[!redirects Choice]]
+[[!redirects axiom of global choice]]
+[[!redirects global axiom of choice]]
