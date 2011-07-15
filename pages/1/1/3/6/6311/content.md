@@ -1,0 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+
+## References
+
+* [[eom]], _[Functional calculus](http://eom.springer.de/F/f042030.htm)_
