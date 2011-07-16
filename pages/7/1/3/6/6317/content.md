@@ -1,0 +1,8 @@
+[[!redirects Alexander I. Efimov]]
+__Alexander I. Efimov__ is a mathematician at Steklov Mathematical Institute in Moscow and has involvement into the laboratory for algebraic geometry ([Efimov page](http://www.hse.ru/en/org/persons/26335030)) which is lead by Fodor Bogomolov.  
+
+* _Cohomological Hall algebra of a symmetric quiver_, [arxiv/1103.2736](http://arxiv.org/abs/1103.2736) 
+
+* other [arxiv papers](http://arxiv.org/find/math/1/au:+Efimov_A/0/1/0/all/0/1)
+
+[[!redirects Alexander I. Efimov]]
