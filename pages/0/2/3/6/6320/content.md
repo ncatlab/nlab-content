@@ -1,0 +1,8 @@
+
+* [website](http://personal-homepages.mis.mpg.de/verch/)
+
+## related $n$Lab pages
+
+* [[AQFT]]
+
+category: people
