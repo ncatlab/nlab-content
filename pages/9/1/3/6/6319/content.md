@@ -1,0 +1,6 @@
+
+* [website](http://www.theorie.physik.uni-goettingen.de/forschung/qft/research/index.en.html)
+
+category: people
+
+[[!redirects Michael Duetsch]]
