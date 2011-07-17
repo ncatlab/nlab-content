@@ -1,4 +1,19 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 _Perturbation theory_ is a general method of finding (or even defining) the solution of equations of mathematical physics by expanding them with respect to a small parameter in the vicinity of known, defined or well-understood solution (for which the small parameter is $0$). It is used in the study of PDEs involving operators depending on small parameter, in classical and celestical mechanics, in quantum mechanics, and in the statistical and quantum field theory. 
 
@@ -6,7 +21,7 @@ One of the varieties of perturbation theory provides a method to make sense of a
 
 It is based on the observation that the [[quantization]] of free [[classical field theory|classical field theories]], whose [[action functional]] contains only the kinetic term, is well understood; therefore, the quantization of a functional consisting of a kinetic term and polynomial interaction terms may be expanded like a [[Taylor series]] in the interaction terms, thus yielding what looks like a series of [[correlator]]s in a free field theory.  If the **coupling constant** -- the parameter in front of the interaction terms -- is small enough, one says one is in the _weakly coupled regime_ of the theory and expects this perturbation series to approximate the desired answer. Usually, even for that to work the [[action functional]] first has to be subjected to [[renormalization]].
 
-#More details#
+## More details
 
 Suppose we're working with a quantum system that's nearly a [[quantum harmonic oscillator]], but not quite; that is, the quadratic potential $V_0 = \frac{1}{2}k x^2 - \frac{1}{2}$ is only a good local approximation to the real potential $V_0 + \lambda V$.  Then we can write the [[Hamiltonian]] as $H = H_0 + \lambda V,$ where $V$ is a function of the [[position]] $x$ and the [[momentum]] $p$ (or equivalently, of $z = \frac{p+i x}{\sqrt{2}}$ and $\frac{d}{dz}$) and $\lambda$ is small.
 
@@ -31,5 +46,27 @@ Here's an example Feynman diagram for this simple system, representing the fourt
 The lines represent evolving under the free Hamiltonian $H_0$, while the dots are interactions with the potential $V$.
 
 As an example, let's consider $V = (z + \frac{d}{dz})$ and choose $\lambda = \frac{1}{\sqrt{2}}$ so that $\lambda V = p.$  When $V$ acts on a state $\psi = z^n,$ we get $V \psi = z^{n+1} + nz^{n-1}.$  So at each interaction, the system either gains a photon or changes phase and loses a photon.
+
+## References
+
+### In AQFT
+
+Perturbation theory in the context of [[AQFT]] is discussed in 
+
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _Algebraic quantum field theory, perturbation theory, and the loop expansion_
+Commun. Math. Phys. 219:5-30 (2001) ([arXiv:hep-th/0001129](http://xxx.uni-augsburg.de/abs/hep-th/0001129))
+
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_
+Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/ps/hep-th/0101079)) 
+
+(relation to [[deformation quantization]])
+
+* [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
+
+(relation to [[renormalization]])
+
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative)_ construction of observables in gauge theores: the example of qed_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/ps/hep-th/9807078)). 
+
+(relation to [[gauge theory]] and [[QED]])
 
 [[!redirects Feynman perturbation series]]
