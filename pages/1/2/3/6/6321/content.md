@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Quantum electrodynamics_ ("QED") is the [[quantum field theory]] of [[electromagnetism]]: it describes the [[quantum theory]] of  [[photon]]s and [[electron]]s.
+
+## Related concepts
+
+* [[quantum field theory]]
+
+  * [[gauge theory]]
+
+    * **QED**
+
+    * [[QCD]]
+
+[[!redirects QED]]
+[[!redirects quantum electro dynamics]]
