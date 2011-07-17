@@ -1,2 +1,31 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Electromagnetism is the [[gauge theory]] whose field is the [[electromagnetic field]].
+
+The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
+
+## Related concepts
+
+* [[quantum field theory]]
+
+  * [[gauge theory]]
+
+    * **electromagnetism**
+
+    * [[Yang-Mills theory]]
+
