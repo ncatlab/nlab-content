@@ -139,11 +139,8 @@ Recent account of the principle of locality in AQFT from the point of view of tr
 ### Perturbation theory and renormalization
  {#ReferencesPerturbationTheory}
 
-[[perturbation theory|Perturbation theory]] and [[renormalization]] in the context of AQFT and  is discussed in
+[[perturbation theory|Perturbation theory]] and [[renormalization]] in the context of AQFT and  is discussed in the following articles
 
-* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of qed_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
-
-(relation to [[gauge theory]] and [[QED]])
 
 * [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_
 Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/abs/hep-th/0101079)) 
@@ -153,6 +150,10 @@ Proceedings of the Conference on Mathematical Physics in Mathematics and Physics
 * [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
 
 (relation to [[renormalization]])
+
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of qed_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
+
+(relation to [[gauge theory]] and [[QED]])
 
 
 ### Relation to functorial QFT
