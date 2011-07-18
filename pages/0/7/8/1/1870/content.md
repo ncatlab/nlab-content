@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -22,7 +21,7 @@ Twisted K-theory is a [[twisted cohomology]] version of [[K-theory]], where the 
 ### By sections of associated $K U$-bundles
 
 
-Write $K U$ for the [[spectrum]] of complex [[topological K-theory]]. Its degree-0 space ism up to [[weak homotopy equivalence]],  the space 
+Write $K U$ for the [[spectrum]] of complex [[topological K-theory]]. Its degree-0 space is, up to [[weak homotopy equivalence]],  the space 
 
 $$
   B U \times \mathbb{Z} = {\lim_\to}_n B U(n) \times \mathbb{Z}
