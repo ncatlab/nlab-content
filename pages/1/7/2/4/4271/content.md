@@ -78,3 +78,4 @@ Dually, in the [[AQFT]] formulation of [[quantum field theory]] a physical syste
 [[!redirects physical state]]
 [[!redirects physical states]]
 [[!redirects space of states]]
+[[!redirects spaces of states]]
