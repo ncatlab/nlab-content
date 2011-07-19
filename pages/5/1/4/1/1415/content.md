@@ -17,7 +17,7 @@ Testing tikzpicture to svg capability.
 
 (removed; see [revision 10](http://ncatlab.org/nlab/revision /Sandbox+>+SVG/10))
 
-Not bad!  Thanks to Jacques, the sphere is fine now.  This picture is probably a little too big to leave in the sandbox so I'll remove it soon - just want to show off a little first!  For the original, see [Comparative Smootheology at Ottawa](http://www.math.ntnu.no/~stacey/Seminars/ottawa.html). [loan modification](http://www.mycaal.com)
+Not bad!  Thanks to Jacques, the sphere is fine now.  This picture is probably a little too big to leave in the sandbox so I'll remove it soon - just want to show off a little first!  For the original, see [Comparative Smootheology at Ottawa](http://www.math.ntnu.no/~stacey/Seminars/ottawa.html). 
 
 
 +-- {: .query}
