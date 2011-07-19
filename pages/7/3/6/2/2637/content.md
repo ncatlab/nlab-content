@@ -1,3 +1,8 @@
-In [[quantum mechanics]], [[canonical quantization]] replaces the [[momentum]] $p$ with the operator $-i \hbar \frac{d}{dx}$.  After this substitution, [[position]] and momentum fail to commute:
-\[ \array{[p,x] x^n &=& \left(-i \hbar \frac{d}{dx} x x^n\right) - \left(x \cdot -i \hbar \frac{d}{dx} x^n\right) \\ &=& -i \hbar [(n+1)x^n - n x^n] \\ &=& -i \hbar x^n} \]
+
+In [[quantum mechanics]], [[canonical quantization]] replaces the [[momentum]] $p$ with the operator $-\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d}x}$.  After this substitution, [[position]] and momentum fail to commute:
+\[ \array{[p,x] x^n &=& \left(-\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d}x} x x^n\right) - \left(x \cdot -\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d}x} x^n\right) \\ &=& -\mathrm{i}\hbar [(n+1)x^n - n x^n] \\ &=& -\mathrm{i}\hbar x^n} \]
 This is related to the [[combinatorics]] of placing a ball into a box and removing a ball from a box.
+
+
+[[!redirects canonical commutation relation]]
+[[!redirects canonical commutation relations]]
