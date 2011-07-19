@@ -55,6 +55,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Dmitri Roytenberg]]
 * [[Domenico Fiorenza]]
 * [[Dylan Thurston]]
+* [[dsk]]
 * [[Edmund Harriss]]
 * [[Eduardo Ochs]]
 * [[Emily Riehl]]
