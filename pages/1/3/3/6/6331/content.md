@@ -1,0 +1,9 @@
+In the context of families of algebraic varieties, the cohomology classes vary with families in a way which induces a specific kind of flat connections. The most important case is in Picard-Fuchs theory.
+
+* wikipedia [Gauss-Manin connection](http://en.wikipedia.org/wiki/Gauss%E2%80%93Manin_connection)
+
+There is a version in noncommutative setup
+
+* [[Boris Tsygan]], _On the Gauss-Manin connection in cyclic homology_, Methods Funct. Anal. Topology __13__ (2007), no. 1, 8394.
+* [[Ezra Getzler]], _Cartan homotopy formulas and the Gauss/manin connection in cyclic homology_, [pdf](http://www.math.northwestern.edu/~getzler/Papers/barilan.pdf)
+* V. Dolgushev, D. Tamarkin, B. Tsygan, _Noncommutative calculus and the Gauss-Manin connection_, [arxiv/0902.2202](http://arxiv.org/abs/0902.2202)
