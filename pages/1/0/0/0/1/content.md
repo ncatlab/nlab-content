@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Contents {: .clickToReveal}
@@ -25,7 +26,8 @@ $\,$
 =--
 
 
-[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]] 
+[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]].  
+
 
 # The $n$Lab
 * automatic table of contents goes here
@@ -71,7 +73,8 @@ If you wish to make use of content obtained from the $n$Lab, you are free and en
 Conversely, if you contribute material to the $n$Lab, you are making it publically available and should be aware that others may use it (whatever you decide to do with it elsewhere) or, in fact, edit it. In the first case you trust that they will cite your contributions properly, in the second that they respect it and only improve on it. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
 
 Usually this works well. If there is need for discussion, the 
-[nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene.
+[nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
+
 
 ## Software requirements
  {#SoftwareRequirements}
