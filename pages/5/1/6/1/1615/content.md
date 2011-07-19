@@ -193,15 +193,17 @@ The notion of local net in the context of [[conformal field theory]] is a [[conf
 
 ## Related concepts
 
-* [[AQFT]]
+* [[quantum field theory]]
 
-  * [[Haag-Kastler axioms]]
+  * [[AQFT]]
 
-  * **local net of observables**
+    * [[Haag-Kastler axioms]]
 
-    * [[factorization algebra]], [[chiral algebra]], [[topological chiral homology]], [[blob complex]].
+    * **local net of observables**
 
-* [[FQFT]]
+      * [[factorization algebra]], [[chiral algebra]], [[topological chiral homology]], [[blob complex]].
+
+  * [[FQFT]]
 
 
 ## References
