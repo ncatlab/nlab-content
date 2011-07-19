@@ -141,7 +141,7 @@ $$
   \,.
 $$
 
-In a non-relativistic system one specifies an observable $H$ -- called the [[Hamiltonian]] -- whose flow represents the time evolution of the system.
+In a non-relativistic system one specifies an observable $H$ -- called the [[Hamiltonian]] -- whose flow represents the time evolution of the system. (This is the [[Heisenberg picture]].)
 
 We comment on how to interpret this from the point of view of [[FQFT]]:
 
@@ -174,6 +174,8 @@ from [[cobordism]]s to [[Hilbert space]]s (or some other flavor of [[vector spac
   where $H$ is the [[Hamiltonian operator]], typically of the form $H = \nabla^\dagger \circ \nabla $ for $\nabla$ the [[covariant derivative]] of the given background [[gauge field]].
 
 Such a setup describes the quantum mechanics of a particle that feels forces of backgound [[gravity]] encoded in the [[Riemannian metric]] on $X$ and forces of background gauge fields (such as the [[electromagnetic field]]) encoded in the covariant derivative $\nabla$.
+
+(This is the [[Schrödinger picture]].)
 
 ### Quantum subsystems 
  {#Subsystems}
@@ -257,6 +259,8 @@ For more on this see
   * [[deformation quantization]], [[geometric quantization]]
 
 * **quantum mechanics**
+
+  * [[Schrödinger picture]], [[Heisenberg picture]], [[Dirac picture]]
 
   * [[supersymmetric quantum mechanics]]
 
