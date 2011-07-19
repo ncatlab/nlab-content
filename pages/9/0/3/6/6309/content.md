@@ -1,6 +1,12 @@
+
+# The small cardinality selection axiom
+* table of contents
+{: toc}
+
 ## Idea
 
-The **small cardinality selection axiom (SCSA)** is a weak form of the [[axiom of choice]], which asserts in a certain precise way that choice fails "in at most a small way".  It was introduced by [[Michael Makkai]] for the study of [[anafunctors]], and thus it also has consequences for the existence of [[stack]] completions.
+The small cardinality selection axiom (SCSA) is a weak form of the [[axiom of choice]], which asserts in a certain precise way that choice fails "in at most a [[small set|small]] way".  It was introduced by [[Michael Makkai]] for the study of [[anafunctors]], and thus it also has consequences for the existence of [[stack]] completions.
+
 
 ## Definition
 
@@ -8,7 +14,7 @@ The "global version" of the axiom states:
 
 * The ([[large category|large]]) [[category]] [[Set]] of [[sets]] is [strongly equivalent](/nlab/show/equivalence+of+categories#StrongEquivalence) to a full subcategory of itself, each of whose isomorphism classes contains only a set of objects.
 
-Therefore, we have a [[class]] [[function]] assigning to each set $A$, another set $\Vert A\Vert$ and a [[bijection]] $A \cong \Vert A \Vert$, in such a way that $\Vert-\Vert$ takes only set-many values on each isomorphism class in [[Set]].
+Therefore, we have a [[class]] [[function]] assigning to each set $A$, another set ${\Vert A\Vert}$ and a [[bijection]] $A \cong {\Vert A \Vert}$, in such a way that ${\Vert{-}\Vert}$ takes only set-many values on each isomorphism class in [[Set]].
 
 
 ## Relationship to other forms of choice
@@ -17,7 +23,7 @@ Therefore, we have a [[class]] [[function]] assigning to each set $A$, another s
 
 * SCSA also follows from the "global" version of the axiom of [[small violations of choice]], as proven in Makkai's paper (attributed to the referee).
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman]]: Is there a "local" version of SCSA which follows from non-global AC and non-global SVC?  Is there a structural version?
 =--
 
@@ -26,6 +32,7 @@ Therefore, we have a [[class]] [[function]] assigning to each set $A$, another s
 
 * SCSA implies that the [[anabicategory]] of categories and [[anafunctors]] is [[cartesian closed category|cartesian closed]].
 
+
 ## References
 
 * [[Michael Makkai]], [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/).
@@ -33,6 +40,7 @@ Therefore, we have a [[class]] [[function]] assigning to each set $A$, another s
 
 category: foundational axiom
 
-[[!redirects SCSA]]
+[[!redirects small cardinality selection axiom]]
 [[!redirects axiom of small cardinality selection]]
 [[!redirects small cardinality selection]]
+[[!redirects SCSA]]
