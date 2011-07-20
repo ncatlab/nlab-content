@@ -30,7 +30,7 @@ Dynamics in [[quantum mechanics]] and [[quantum field theory]] affects both [[ob
 
   the axiomatic formalization of this is given by the [[Haag-Kastler axioms]]s of [[AQFT]]
 
-* the the [[Dirac interaction picture]] a mixture of these two approaches is used: dynamics is split into a free part and an interaction (see [[perturbation theory]]) and one of these is take to affect the states, the other the observables.
+* the the _Dirac interaction picture_ a mixture of these two approaches is used: dynamics is split into a free (or otherwise solvable) part and an interaction or perturbation (see [[perturbation theory]]) and one of these is take to affect the states, the other the observables.
 
 ## Formulation
 
