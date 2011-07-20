@@ -4,7 +4,7 @@ From a fundamental category theoretic perspective, there are two fundamental kin
 
 * _concrete duality_: the oppositely-oriented image of some diagram under a contravariant [[internal hom]] functor $hom(-,V)$.
 
-(See Chapter 7 of Lawvere and Rosebrugh's [Sets for Mathematics](http://www.mta.ca/~rrosebru/setsformath/).)
+(See Chapter 7 of [[Lawvere]] and [[Rosebrugh]]'s [Sets for Mathematics](http://www.mta.ca/~rrosebru/setsformath/).)
 
 > Not every statement will be taken into its formal dual by the process of dualizing with respect to $V$, and indeed a large part of the study of mathematics
 
