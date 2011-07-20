@@ -21,7 +21,7 @@
 
 ## Structure in a cohesive $(\infty,1)$-topos
 
-A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with good [[cohomology]] and [[homotopy]] properties. We list fundamental structures and constructions that exist in every cohesvive $(\infty,1)$-topos.
+A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with good [[cohomology]] and [[homotopy]] properties. We list fundamental structures and constructions that exist in every cohesive $(\infty,1)$-topos.
 
 
 ### Concrete objects
@@ -30,9 +30,7 @@ A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with 
 
 The cohesive structure on an object in a cohesive 
 $(\infty,1)$-topos need not be supported by points. 
-We discuss a general abstract characterization of  
-objects that do have an interpretation as bare $n$-groupoids 
-equipped with cohesive structure.
+We discuss a general abstract characterization of objects that do have an interpretation as bare $n$-groupoids equipped with cohesive structure.
 
 Compare with the section <a href="http://nlab.mathforge.org/nlab/show/cohesive%20topos#ConcreteObjects">Quasitoposes of concrete objects</a> at [[cohesive topos]].
 
@@ -110,14 +108,14 @@ the [[(∞,1)-pullback]] $U \times_X U$ is concrete.
 ###### Proposition
 
 For $C$ an [[∞-cohesive site]], a 0-truncated object in the 
-[[(∞,1)-topos]] over $C$ is concrete prescisely if it is
+[[(∞,1)-topos]] over $C$ is concrete precisely if it is
 a [[concrete sheaf]] in the traditional sense.
 
 =--
 
 > [[Dave Carchedi]] has an argument that shows, at least over some sites, that, generally, concrete objects are presented by simplicial concrete sheaves. Details will go here, eventually.
 
-+-- {: .num_defn #NConcretfication}
++-- {: .num_defn #NConcretification}
 ###### Definition
 
 For $X \in \mathbf{H}$ and $n \in \mathbb{N}$, the 
@@ -231,7 +229,7 @@ Notice that since the cohesive $(\infty,1)$-topos $\mathbf{H}$ has [[homotopy di
 +-- {: .num_prop}
 ###### Observation
 
- The delooping object $\mathbf{B}G \in \mathbf{H}$ is concrete preciely if $G$ is.
+ The delooping object $\mathbf{B}G \in \mathbf{H}$ is concrete precisely if $G$ is.
 
 =--
 
