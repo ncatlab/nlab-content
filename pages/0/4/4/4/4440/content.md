@@ -113,11 +113,11 @@ The above involves content transferred from
 
 Strict 2-sites were considered in
 
-* [[Ross Street]], _Two-dimensional sheaf theory_ J. Pure Appl. Algebra 23 (1982), no. 3, 251-270.
+* [[Ross Street]], _Two-dimensional sheaf theory_ J. Pure Appl. Algebra 23 (1982), no. 3, 251-270, [MR83d:18014](http://www.ams.org/mathscinet-getitem?mr=644277), <a href="http://dx.doi.org/10.1016/0022-4049(82)90101-3">doi</a>
 
 Bicategorical 2-sites in
 
-* [[Ross Street]], _Characterizations of bicategories of stacks_ , Lecture Notes in Math., 962, 
+* [[Ross Street]], [[zoranskoda:Characterization of Bicategories of Stacks]], MR0682967 (84d:18006), p. 282-291 in: Category theory (Gummersbach 1981) Springer LNM __962__, 1982 
 
 
 [[!redirects 2-sheaves]]
