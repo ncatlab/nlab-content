@@ -47,11 +47,37 @@ The lines represent evolving under the free Hamiltonian $H_0$, while the dots ar
 
 As an example, let's consider $V = (z + \frac{d}{dz})$ and choose $\lambda = \frac{1}{\sqrt{2}}$ so that $\lambda V = p.$  When $V$ acts on a state $\psi = z^n,$ we get $V \psi = z^{n+1} + nz^{n-1}.$  So at each interaction, the system either gains a photon or changes phase and loses a photon.
 
+## Related concepts
+
+* **perturbation theory**
+
+* [[renormalization]]
+
 ## References
+
+### General
+
+A solid mathematical formulation of perturbation theory has been given in
+
+* K. Hepp.: _Th&eacute;orie de la Renormalisation_ Lect. Notes in Phys. Springer (1969)
+
+* O. Steinmann, _Perturbation expansion in axiomatic field theory_ Lect. Notes in Phys. 11, Springer (1971)
 
 ### In AQFT
 
-Perturbation theory in the context of [[AQFT]] is discussed in 
+Perturbation theory in the context of [[AQFT]] is discussed in the following articles.
+
+The observation that in [[perturbation theory]] the [[renormalization|Stückelberg-Bogoliubov-Epstein-Glaser]] local [[S-matrix|S-matrices]] yield a [[local net of observables]] was first made in 
+
+* V. Il'in, D. Slavnov, _Observable algebras in the S-matrix approach_ Theor. Math. Phys. **36** , 32 (1978)
+
+which was however mostly ignored and forgotten. It is taken up again in
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_  Commun.Math.Phys.208:623-661 (2000) ([arXiv](http://arxiv.org/abs/math-ph/9903028))
+
+(a quick survey is in section 8, details are in section 2).
+
+Further developments along these lines are then
 
 * [[Michael Dütsch]], [[Klaus Fredenhagen]], _Algebraic quantum field theory, perturbation theory, and the loop expansion_
 Commun. Math. Phys. 219:5-30 (2001) ([arXiv:hep-th/0001129](http://xxx.uni-augsburg.de/abs/hep-th/0001129))
