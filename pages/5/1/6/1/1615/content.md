@@ -208,7 +208,9 @@ The notion of local net in the context of [[conformal field theory]] is a [[conf
 
 ## References
 
-See also the references at [[AQFT]].
+For more details see the references at [[AQFT]].
+
+### General
 
 The axioms of local nets on general spacetimes were first articulated in
 
@@ -219,6 +221,19 @@ A comprehensive review, with plenty of background information, is in
 
 * [[Christian Bär]], [[Klaus Fredenhagen]], (eds.) _Quantum field theory on curved spacetime_ , Lecture notes in physics, Springer (2009)
   {#BaerFredenhagen}
+
+
+### In perturbation theory
+
+The observation that in [[perturbation theory]] the [[renormalization|Stückelberg-Bogoliubov-Epstein-Glaser]] local [[S-matrix|S-matrices]] yield a [[local net of observables]] was first made in 
+
+* V. Il'in, D. Slavnov, _Observable algebras in the S-matrix approach_ Theor. Math. Phys. **36** , 32 (1978)
+
+which was however mostly ignored and forgotten. It is taken up again in
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_  Commun.Math.Phys.208:623-661 (2000) ([arXiv](http://arxiv.org/abs/math-ph/9903028))
+
+(a quick survey is in section 8, details are in section 2).
 
 
 [[!redirects local nets]]
