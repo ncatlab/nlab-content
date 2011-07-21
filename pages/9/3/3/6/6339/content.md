@@ -1,0 +1,8 @@
+
+* [website](http://www.math.ku.dk/~imadsen/)
+
+## related $n$Lab entries
+
+* [[cobordism categories]]
+
+category: people
