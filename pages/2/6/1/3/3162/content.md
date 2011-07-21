@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -160,3 +167,4 @@ This homotopy fiber may be thought of as the internal [[principal ∞-bundle]] i
 
 
 
+[[!redirects cocycles]]
