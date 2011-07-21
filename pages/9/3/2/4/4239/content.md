@@ -104,6 +104,10 @@ This is however not the morally correct CY $A_\infty$-structure associated with 
 
 Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This remarkable result is what actually one should expect. Indeed, TCFTs originally arose as an abstract version of the [[CFT]]s constructed from [[sigma-model]]s whose targets are [[Calabi-Yau space]]s.
 
+## Related concepts
+
+* [[Calabi-Yau object]]
+
 ## References
 
 * [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ ([arXiv:math/0509264](http://arxiv.org/abs/math/0509264))
