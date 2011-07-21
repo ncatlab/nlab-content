@@ -62,3 +62,5 @@ The formalization of AdS/CFT is still very much out of reach. One proposal to fo
 [[!redirects AdS/CFT]][[!redirects AdS/CFT correspondence]][[!redirects AdS-CFT correspondence]]
 
 [[!redirects AdS-CFT correspondence]]
+
+[[!redirects AdS/CFT correspondence]]
