@@ -245,7 +245,7 @@ A definition and study of orientifold [[bundle gerbe]]s, modeling the [[Kalb-Ram
 
 A more encompassing formalization in terms of [[differential cohomology]] in general and [[twisted K-theory|twisted]] [[differential K-theory]] in particular that also takes the spinorial degrees of freedom into account is being announced in 
 
-* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Precis_ in: [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]] ([arXiv](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&eacute;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
  {#Precis}
 
 A summary talk on this is
