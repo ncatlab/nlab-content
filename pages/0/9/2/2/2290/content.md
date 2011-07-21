@@ -228,3 +228,5 @@ The attempted "Proof" of this is the motivation for the [[Stephan Stolz|Stolz]]-
 #References#
 
 * [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
+
+[[!redirects elliptic cohomology theory]]
