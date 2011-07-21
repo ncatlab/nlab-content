@@ -255,6 +255,7 @@ In the study of [[quantum field theory]] and [[string theory]] such kinds of rel
 See also [[higher category theory and physics]].
 
 ## References
+  {#References}
 
 The discussion of transformations between 2d FQFTs and how these encode boundary 1-[[brane]]s and defect 1-[[bi-brane]]s is in
 
