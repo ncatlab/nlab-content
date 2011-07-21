@@ -16,4 +16,8 @@ $$
 F := \{X\in Ob A\,|\,A(T,X) = 0\}
 $$
 
++-- {: .query}
+Yaron:  The above definition of a quotient category appears to be different from that of CWM (p. 51 of the second edition), where a quotient category is obtained by identifying arrows.  Perhaps there is a need for disambiguation?
+=--
+
 [[!redirects quotient functors]]
