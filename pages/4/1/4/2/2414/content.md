@@ -410,4 +410,4 @@ $$
 * [[Stefan Stolz]] (notes by Arlo Caine), _Supersymmetric Euclidean field theories and generalized cohomology_ Lecture notes (2009) ([pdf](http://www.nd.edu/~jcaine1/pdf/Lectures_complete.pdf))
  {#Stolz}
 
-* [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric Euclidean field theories and generalized cohomology_ , in [[Branislav Jurčo]], [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+* [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric Euclidean field theories and generalized cohomology_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011)
