@@ -59,39 +59,59 @@ between the [[model structure on reduced simplicial sets]] and the [[transferred
 
 The following result makes precise for _parameterized [[∞-groupoid]]s_  -- for [[∞-stack]]s -- the general statement that $k$-fold [[delooping]] provides a correspondence betwen [[n-category|n-categories]] that have trivial [[k-morphism|r-morphism]]s for $r \lt k$ and  [[k-tuply monoidal n-category|k-tuply monoidal n-categories]].
 
-+-- {: .un_theorem}
++-- {: .num_defn}
+###### Definition
+
+An [[Ek-algebra]] object $A$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **groupal** if its [[homotopy groups in an (∞,1)-topos|connected components]] $\pi_0(A) \in \mathbf{H}_{\leq 0}$ is a [[group object]].
+
+Write $Mon^{gp}_{\mathbb{E}[k]}(\mathbf{H})$ for the [[(∞,1)-category]] of groupal $E_k$-algebra objects in $\mathbf{H}$.
+
+A groupal $E_1$-algera -- hence an groupal [[A-∞ algebra]] object in $\mathbf{H}$ -- we call an _[[∞-group]]_ in $\mathbf{H}$. Write $\infty Grp(\mathbf{H})$ for the [[(∞,1)-category]] of [[∞-group]]s in $\mathbf{H}$.
+
+=--
+
++-- {: .num_theorem}
 ###### Theorem (k-tuply monoidal $\infty$-stacks)
 
-Let $k \gt 0$, let $\mathcal{X}$ be an [[∞-stack]] [[(∞,1)-topos]] and let $\mathcal{X}_*^{\geq k}$ denote the [[full subcategory]] of the category $\mathcal{X}_{*}$ of pointed objects, spanned by those pointed objects thar are $k-1$-[[connected]] (i.e. their first $k$ [[homotopy groups in an (∞,1)-topos|∞-stack homotopy groups]]) vanish. Then there is a canonical equivalence of [[(∞,1)-category|(∞,1)-categories]]
+Let $k \gt 0$, let $\mathbf{H}$ be an [[(∞,1)-category of (∞,1)-sheaves]] and let $\mathbf{H}_*^{\geq k}$ denote the [[full subcategory]] of the category $\mathbf{H}_{*}$ of [[pointed objects]], spanned by those pointed objects thar are $k-1$-[[connected]] (i.e. their first $k$ [[homotopy groups in an (∞,1)-topos|homotopy sheaves]]) vanish. Then there is a canonical equivalence of [[(∞,1)-category|(∞,1)-categories]]
 
 $$
-  \mathcal{X}_*^{\geq k} \simeq Mon^{gp}_{\mathbb{E}[k]}(\mathcal{X}) \,.
+  \mathbf{H}_*^{\geq k} \simeq Mon^{gp}_{\mathbb{E}[k]}(\mathbf{H}) \,.
 $$
+
+between the $(k-1)$-[[connected]] pointed objects and the groupal [[Ek-algebra]] objects in $\mathbf{H}$.
 
 =--
 
-+-- {: .proof}
-###### Proof
+This is ([Lurie, Higher Algebra, theorem 5.1.3.6](#LurieAlgebra)).
 
-This is [[Ek-Algebras|EKAlg, theorem 1.3.6.]].
 
-=--
+Specifically for $\mathbf{H} = $ [[Top]], this reduces to the classical theorem by [[Peter May]]
 
-Specifically for $\mathcal{X} = Top$, this reduces to the classical theorem by [[Peter May]]
-
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem (May recognition theorem)
 
 Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes operad]] $\mathcal{C}_k$ and suppose that $Y$ is grouplike. Then $Y$ is homotopy equivalent to a $k$-fold loop space $\Omega^k X$ for some pointed topological space $X$.
 
 =--
 
-+-- {: .proof}
-###### Proof
-
 This is [[Ek-Algebras|EkAlg, theorem 1.3.16.]]
 
++-- {: .num_remark}
+###### Remark
+
+For $k = 1$ we have a leooping/delooping equivalence
+
+$$
+  \mathbf{H}_*
+   \stackrel{\overset{\mathbf{B}}{\leftarrow}}{\underset{\Omega}{\to}}
+  \infty Grpd(\mathbf{H})
+$$
+
+between pointed connected objects in $\mathbf{H}$ and groupal [[A-∞ algebra]] objects in $\mathbf{H}$: [[∞-group]] objects in $\mathbf{H}$.
+
 =--
+
 
 ### For cohesive $\infty$-groupoids
 
@@ -127,4 +147,5 @@ Section 6.1.2 of
 Section 5.1.3 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#LurieAlgebra}
 
