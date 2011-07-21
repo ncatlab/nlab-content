@@ -1,10 +1,16 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -19,10 +25,9 @@ A __fermion__ is a [[particle]]/[[quantum field]] that obeys [[Fermi-Dirac stati
 
 * [[Pfaffian line bundle]]
 
-* [[fermion anomaly]]
+* [[quantum anomaly|fermion anomaly]]
 
 
-[[!redirects fermion]]
 [[!redirects fermions]]
 
 [[!redirects fermion field]]
