@@ -186,3 +186,5 @@ A generalization to geometric structure on the cobordisms is discussed in
 [[!redirects Galatius-Madsen-Tillmann-Weiss theorem]]
 [[!redirects Galatius-Tillmann-Madsen-Weiss theorem]]
 [[!redirects GMWT theorem]]
+
+[[!redirects cobordism categories]]
