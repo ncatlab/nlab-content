@@ -3,7 +3,7 @@
 
 ## Publications
 
-* _Higher Tannaka duality_ PhD thesis, Adelaide (2011)
+* _Higher Tannaka duality_ PhD thesis, Adelaide/Toulouse (2011)
 
   (on [[Tannaka reconstruction]] in the context of [[(∞,1)-category theory]])
 
