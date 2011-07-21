@@ -1,3 +1,4 @@
+[[!redirects Greg Moore]]
 
 * [website](http://www.physics.rutgers.edu/~gmoore/)
 
@@ -12,3 +13,4 @@
 * [[Donaldson-Thomas invariant]]
 
 category: people
+
