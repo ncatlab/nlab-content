@@ -1,12 +1,10 @@
 
 ## Related entries
 
-* [[classical mechanics]]
+* [[classical mechanics]], [[quantum mechanics]]
 
-* [[quantum mechanics]]
+  * [[kinematics]], [[dynamics]]
 
-* [[Hamiltonian mechanics]]
-
-* [[Lagrangean mechanics]]
+* [[Hamiltonian mechanics]], [[Lagrangean mechanics]]
 
 * [[matrix mechanics]]
