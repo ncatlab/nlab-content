@@ -1,0 +1,4 @@
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Michael_R._Douglas)
+
+category: people
