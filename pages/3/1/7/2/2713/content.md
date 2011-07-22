@@ -125,6 +125,8 @@ Then with all the ordinary geoemtry re-encoded algebraically this way, in terms 
 
 ## References
 
+### General
+
 The standard textbook is
 
 * [[Alain Connes]], _Noncommutative Geometry_ , Academic Press (1994)
@@ -137,7 +139,13 @@ The characterization of ordinary [[compact space|compact]] [[smooth manifold]]s 
 
 * [[Alain Connes]], _On the spectral characterization of manifolds_ ([arXiv:0810.2088](http://arxiv.org/abs/0810.2088))
 
-### Relation to physics 
+### Relation to quantum physics 
+
+A discussion of spectral triples as [[FQFT]] data encoding a [[representation]] of a category of 1-dimensional [[cobordisms]] with [[Riemannian manifold|Riemannian]] structure and vertices is in section 1.4 of 
+
+* [[Yan Soibelman]], _Collapsing Conformal Field Theories, spaces with
+non-negative Ricci curvature and
+non-commutative geometry_ in _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ .
 
 A general introduction to and discussion of spectral triples with an eye on [[quantum mechanics]], [[quantum field theory]] and [[string theory]] is in
 
