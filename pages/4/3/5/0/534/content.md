@@ -226,6 +226,16 @@ Then the path $(2,1)$-category $P_1(X)$ is defined as follows:
 
   There is an evident diffeology and evident composition operations on this. Notice that the generating 2-cells are 2-isomorphisms, but that their source and target morphisms are not generally invertible. 
 
+## Related concepts
+
+* [[pseudo-Riemannian manifold]]
+
+  * [[Lorentzian manifold]]
+
+    * [[spacetime]]
+
+  * [[globally hyperbolic Lorentzian manifold]]
+
 ## References
 
 A classic reference for general relativity is
