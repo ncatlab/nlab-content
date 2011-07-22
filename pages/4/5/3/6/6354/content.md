@@ -1,0 +1,10 @@
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Chris_Hull_%28physicist%29)
+
+## related $n$Lab entries
+
+* [[string theory]]
+
+* [[T-fold]]
+
+category: people
