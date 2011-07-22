@@ -30,6 +30,7 @@ A Cauchy surface is a [[hypersurface]] in [[spacetime]] (so actually a $3$-dimen
 
 For $(X,g)$ a [[Lorentzian manifold]], a **Cauchy surface** is an [[embedding|embedded]] [[submanifold]] $\Sigma \hookrightarrow X$ such that every [[timelike]] [[curve]] in $X$ may be extended to a timelike curve that intersects $\Sigma$ precisely in one point.
 
+A Lorentzian manifold that does admit a Cauchy surface is called _[[globally hyperbolic]]_ . 
 
 ## Applications
 
