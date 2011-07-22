@@ -230,6 +230,8 @@ One special cases of T-duality is [[mirror symmetry]].
 
   * [[differential T-duality]]
 
+* [[T-fold]]
+
 ## References
 
 Geometric T-duality in terms of [[differential cohomology]] as an operation on [[twisted K-theory|twisted]] [[differential K-theory]] is discussed in
