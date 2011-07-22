@@ -63,6 +63,16 @@ These aspects have motivated the impression that the string perturbation series 
 
 ## Subtopics
 
+* string theory
+
+  * [[heterotic string theory]]
+
+    * [[Green-Schwarz mechanism]]
+
+    * [[dual heterotic string theory]]
+
+  * [[type II string theory]]
+
 * [[landscape of string theory vacua]]
 
 ...
