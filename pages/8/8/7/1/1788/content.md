@@ -18,6 +18,14 @@ Check that these produce different results in the MathML:
 
 I want a [[pdf-test.pdf|PDF file:file]]!
 
+
+I thought breaking lines was allowed: $x_{n = 0}$?
+
+I thought breaking lines was allowed: $x_n = 0$?
+
+
+Also, does $y ^{3}$ work?
+
 ***
 
 category: meta
