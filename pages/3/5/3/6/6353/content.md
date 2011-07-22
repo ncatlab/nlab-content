@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _T-fold_ is a [[space]] that locally looks like a [[Riemannian manifold]] but is glued together from these not just by [[diffeomorphism]]s but also by [[T-duality]] transformations.
+
+The idea is that A T-fold is a [[target space]] for a [[string]] [[sigma-model]] that is only locally a [[Riemannian manifold]] but globally a more general kind of [[geometry]]. In the literature sometimes the term _non-geometric backgrounds_ is used for such "generalized geometric" backgrounds.
+
+## References
+
+The idea was originally introduced in 
+
+* [[Chris Hull]], _A Geometry for Non-Geometric String Backgrounds_ ([arXiv:hep-th/0406102](http://arxiv.org/abs/hep-th/0406102))
+
+Further developments are in 
+
+* [[Chris Hull]], _Doubled geometry and T-folds_ JHEP0707:080,2007  ([arXiv:hep-th/0605149](http://arxiv.org/abs/hep-th/0605149))
+
+* [[Chris Hull]], _Global Aspects of T-Duality, Gauged Sigma Models and T-Folds_ ([arXiv:hep-th/0604178](http://arxiv.org/abs/hep-th/0604178))
+
+[[!redirects T-folds]]
