@@ -1,0 +1,7 @@
+[[!redirects correlators]]
+
+
+## Idea
+
+In [[quantum field theory]] a _correlator_ is an assignment of [[probability amplitudes]] to a collection of incoming and outgoing [[state]]s. In [[FQFT]] a correlator is simply the value of the theory on a given (class of) [[cobordism]]s.
+
