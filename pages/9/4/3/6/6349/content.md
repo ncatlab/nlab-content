@@ -1,0 +1,16 @@
+[[!redirects globally hyperbolic pseudo-Riemannian manifold]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+
+A [[Lorentzian manifold]] is called _globally hyperbolic_ if it does contain a [[Cauchy surface]].
+
+[[!redirects globally hyperbolic]]
