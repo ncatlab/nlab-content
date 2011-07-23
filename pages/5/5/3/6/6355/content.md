@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -8,9 +9,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -20,12 +21,13 @@ In the context of [[mechanics]] (broadly construed), one distinguishes between *
 
 2. __Dynamics__ additionally treats the evolution of the system in [[time]] or even [[spacetime]]: as given by a [[Hamiltonian]], [[Lagrangian]], [[action functional]], etc.  
 
-   In the [[Schrödinger picture]], we think of the [[states]] as evolving, while the [[observables]] evolve in the [[Heisenberg picture]]. In the [[interaction picture]] we think of the states as evolving with respect to a given time evolution and the observables to eveolve, too, with respect to a [[perturbation theory|perturbation]] of this time evolution.
+   In the [[Schrödinger picture]], we think of the [[states]] as evolving, while the [[observables]] evolve in the [[Heisenberg picture]]. In the [[interaction picture]] we think of the states as evolving with respect to a given time evolution and the observables to evolve, too, with respect to a [[perturbation theory|perturbation]] of this time evolution.
 
 
 ## Formalization
 
 The notions of kinematics and dynamics may be formally defined in the two formalizations of [[quantum field theory]]: [[FQFT]] and [[AQFT]].
+
 
 ### In FQFT
 
@@ -51,15 +53,18 @@ $$
 
 to from a [[(infinity,n)-category of cobordisms]] with $S$-structure to some [[symmetric monoidal (infinity,n)-category]] $\mathcal{C}$ the dichotomy between kinematics and dynamics may be regarded as being blurred a bit: we can regard the action $Z_0$ on [[object]]s as the genuine kinematics and the action $Z_n$ on [[n-morphism]]s as the genuine dynamics, and then the actions $Z_{1 \leq k \leq n-1}$ as interpolating between these two notions.
 
+
 ### In AQFT
 
 (...)
+
 
 ## Examples
 
 ### In $\sigma$-models
 
 We discuss the notions of kinematics and dynamics for [[sigma-model]] [[QFT]]s.
+
 
 #### Charged particle
 
@@ -83,7 +88,8 @@ So in terms of the background field data we have:
 * the dynamics is encoded in a [[connection on a bundle|connection]] on this bundle -- hence a refinement of the above cocycle to [[ordinary differential cohomology]].
 
 
+[[!redirects kinematics and dynamics]]
+[[!redirects dynamics and kinematics]]
+
 [[!redirects kinematics]]
 [[!redirects dynamics]]
-
-[[!redirects dynamics and kinematics]]
