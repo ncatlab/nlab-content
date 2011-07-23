@@ -13,3 +13,4 @@
 
 * M.F. Atiyah, I.M. Singer, _The index of elliptic operators I_, Ann. of Math. (2) __87__ (1968)  pp. 484&#8211;530; _III_,  Ann. of Math. (2) __87__  (1968)  pp. 546&#8211;604; _IV_,  Ann. of Math. (2) __93__  (1971)  pp. 119&#8211;138; _V_,  Ann. of Math. (2) __93__  (1971)  pp. 139&#8211;149
 * M.F. Atiyah, G.B. Segal,  _The index of elliptic operators II_,  Ann. of Math. (2) __87__ (1968)  pp. 531&#8211;545
+* P. Windey,  _[[supersymmetric quantum mechanics|Supersymmetric quantum mechanics]] and the Atiyah&#8211;Singer index theorem_, Acta Physica Polonica, __B15__ (1984). ([PDF](http://th-www.if.uj.edu.pl/~acta/vol15/pdf/v15p0435.pdf))
