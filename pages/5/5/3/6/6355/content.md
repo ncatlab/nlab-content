@@ -14,7 +14,7 @@ In the context of [[mechanics]] (broadly construed), one distinguishes between *
 
 1. __Kinematics__ concerns (only) the [[states]] and [[observables]], including the [[spaces]] and [[algebras]] (such as a [[phase space]] or [[Hilbert space]] of (pure) states and an appropriate [[algebra of observables]]) into which they are organised;
 
-2. __Dynamics__ additionally treats the evolution of the system in [[time]] or even [[spacetime]]: as given by a [[Hamiltonian]], [[Lagrangian]], [[action form]], etc.  In the [[Schrödinger picture]], we think of the states as evolving, while the observables evolve in the [[Heisenberg picture]].
+2. __Dynamics__ additionally treats the evolution of the system in [[time]] or even [[spacetime]]: as given by a [[Hamiltonian]], [[Lagrangian]], [[action functional]], etc.  In the [[Schrödinger picture]], we think of the states as evolving, while the observables evolve in the [[Heisenberg picture]].
 
 
 [[!redirects kinematics]]
