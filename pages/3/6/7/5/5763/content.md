@@ -139,16 +139,39 @@ $$
   \,.
 $$
 
-Write $Alex(\mathcal{C}(A))$ for the [[Alexandroff space]] associated with $\mathcal{C}(A)$.
+to the [[category]] [[Poset]] of [[posets]].
+
+=--
+
+Notice the following fact about [[Alexadrov space]]s:
+
++-- {: .num_prop }
+###### Proposition
+
+The functor
 
 $$
-  Alex \mathcal{C} : C^* Alg \stackrel{\mathcal{C}}{\to}
-    Poset \underoverset{\simeq}{Alex}{\to}
-  AlexandrofvTop 
-  \hookrightarrow 
-  Top
-  \,.
+  Alex : Poset \to Top
 $$
+
+from [[posets]] to [[topological spaces]] that sends a poset $P$ to the topological space whose underlying set is the underlying set of $P$ and whose [[open subsets]] are the upward closed subsets $Up(P)$ exhibits an [[equivalence of categories]]
+
+$$
+  Poset 
+    \underoverset{\simew}{ALex}{\to}
+  AlexTop
+  \hookrightarrow
+  Top
+$$
+
+of [[Poset]] with the [[full sub-category]] of [[Alexandrov space]]s.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $A \in C^* Alg$ we call $Alex \mathcal{C}(A)$ the **Bohr [[site]]** of $A$.
 
 =--
 
@@ -211,54 +234,77 @@ for the subcategories of $C^* Alg$ on the monomorphisms and on the commutativity
 ### The Bohr topos
  {#BohrTopos}
 
+Above we considered to each $C^*$-algebra $A$ its [Bohr site](BohrSite) $Alex \mathcal{C}(A)$. There are canonical embeddings ([[full and faithful functor]])s
+
+$$
+  Top \hookrightarrow Locale \stackrel{Sh}{\hookrightarrow} Topos
+$$
+
+first of [[Top]] into [[Locale]] and then into [[Topos]].
+
+
+
++-- {: .num_defn }
+###### Definition
+
+Write
+
+$$
+  C^*_{com} Top \hookrightarrow C^*_{com} Topos
+$$
+
+for the categories of [[ringed spaces]] and [[ringed toposes]], where the [[internalization|internal]] ring object is equipped with the structure of an internal _commutative_ [[C-star algebra]] and the morphisms respect the $C^*$-algebra structure.
+
+=--
+
 
 +-- {: .num_defn #TheSheafTopos}
 ###### Definition
 
-Let 
+For $A \in C^* Alg$ the **Bohr topos** of $A$ is the $C^\ast$-space/topos
 
 $$
-  \begin{aligned}
-    Sh(Alex(\mathcal{C}(A)))
-    \simeq
-    [\mathcal{C}(A), Set]
-  \end{aligned}
-$$ 
+  Bohr(A) := ( Sh(Alex(\mathcal{C}(A))), \underline{A}) \in
+  C^\ast_{com} Top \hookrightarrow C^\ast_{com} Topos
+$$
 
-be the [[sheaf topos]] over the [Bohr site](#BohrSite) of $A$, equivalently regarded as the [[presheaf topos|copresheaf topos]] over the [[poset of commutative subalgebras]], or as the [[sheaf topos]] on the corresponding [[Alexandrov topology]].
+whose underlying [[topological space]] is (that corresponding to) the [Bohr site](#BohrSite), and whose internal $C^\ast$-algebra is the tautological [[copresheaf]]
+
+$$
+  \underline{A} : (C \in \mathcal{C}(A)) \mapsto C
+$$
+
+in $[\mathcal{C}(A), Set] \simeq Sh(Alex(\mathcal{C}(A)))$.
+
 
 Moreover, write
 
 $$
-  Sh_{\not \not}(\mathcal{C}(A)^{op}) \hookrightarrow [\mathcal{C}(A), Set]
+  Bohr_{\not \not}(A)
+  :=
+  (Sh_{\not \not}(Alex \mathcal{C}(A)), \underline{A})
 $$
 
-the [[sheaf topos]] for the [[double negation topology]].
-
-=--
-
-+-- {: .num_defn #TheRingedSheafTopos}
-###### Definition
-
-
-Both of these are naturally [[ringed topos]]es with ring object 
-
-$$
-  \underline{A} : C \mapsto U(C)
-$$ 
-
-(where $U : CStar \to Set$ is the underlying set functor) that is naturally equipped with the structure an [[internalization|internal]] commutative $C^*$-algebra. 
+for the $C^*$-topos whose underlying [[sheaf topos]] is that for the [[double negation topology]] on the plain Bohr topos.
 
 =--
 
 +-- {: .num_prop }
 ###### Proposition
 
-This construction extends to a [[functor]]
+This construction extends to a [[functor]] of the form
 
 $$
-  Bohr : C^* Alg_{cr}^{op} \to C^* TopSpace
+  Bohr 
+  : 
+  C^\ast Alg_{cr}^{op} 
+    \to 
+  C^\ast_{com} TopSpace 
+    \hookrightarrow 
+  C^\ast_{com} Topos
 $$
+
+that takes values in [[essential geometric morphism]]s.
 
 =--
 
@@ -267,26 +313,26 @@ This is ([Nuiten, lemma 2.7](#Nuiten)).
 +-- {: .proof}
 ###### Proof
 
-To $f : A \to B$ with
+To $f : A \to B$ in $C^\ast Alg$ with
 
 $$
-  ( L_f \dashv Alex \mathcal{C}(f)) : 
-  Alex \mathcal{C}(A)
-  \stackrel{\overset{L_f}{\leftarrow}}{\underset{Alex \mathcal{C}(f)}{\to}}
-  Alex \mathcal{C}(B)
+  ( \mathcal{C}(f) \dashv R_f) : 
+  \mathcal{C}(A)
+   \stackrel{\overset{R_f}{\leftarrow}}{\underset{\mathcal{C}(f)}{\to}}
+  \mathcal{C}(B)
 $$
 
-we assing the [[geometric morphism]]
+we assing the [[essential geometric morphism]]
 
 $$
-  (f^* \dashv f_*)
+  (f_! \dashv f^* \dashv f_* )
   :=
   [\mathcal{C}(B), Set]
-   \stackrel{\overset{(-)\circ L_f}{\leftarrow}}{\underset{Ran_{L_f}}{\to}}
+   \stackrel{\overset{f_! := Lan_{R_f}}{\to}}{\stackrel{\overset{f^* := (-)\circ R_f}{\leftarrow}}{\underset{f_* := (-)\circ \mathcal{C}(f)}{\to}}}
   [\mathcal{C}(A), Set]
 $$
 
-equipped with the evident morphism of internal $C^*$-algebras
+equipped with the morphism of internal $C^*$-algebras
 
 $$
   f^* \underline{A} \to \underline{B}
@@ -295,13 +341,13 @@ $$
 which over $C \in \mathcal{C}(B)$ is the restriction
 
 $$
-  (f^* \underline{A})(C) = L_f(C) \stackrel{f|_{L_f C}}{\to} C
+  (f^* \underline{A})(C) = R_f(C) \stackrel{f|_{R_f C}}{\to} C
 $$
 
-of $f$ to $L_f C$. This indeed lands in $C$ due to the $(f \dashv L_f)$-[[unit of an adjunction|counit]] (on posets)
+of $f$ to $R_f C$. This indeed lands in $C$, due to the $(\mathcal{C}(f) \dashv R_f)$-[[unit of an adjunction|counit]] (on posets), which exhibits an inclusion
 
 $$
-  f(L_f(D)) \hookrightarrow D
+  f(R_f(D)) = \mathcal{C}(f)(R_f(D)) \hookrightarrow D
   \,.
 $$
 
@@ -310,6 +356,32 @@ $$
 
 ## Kinematics in a Bohr topos
  {#KinematicsOnBohrTopos}
+
+
+A key aspect about the Bohr topos $Bohr(A)$ is that that _classical_ [[kinematics]] of the commutative _internal_ $C^*$-algebra $\underline{A} \in Bohr(A)$ is the _quantum_ [[kinematics]] of $A$. In fact, the very definition of $Bohr(A)$ provides a formal context in which [[Gleason's theorem]] has a natural formulation:
+
++-- {: .num_theorem }
+###### Theorem 
+**(GLeason's theorem)**
+
+For $H$ a [[Hilbert space]] of [[dimension]] $dim H \gt 2$, and $A = B(H) \in C^\ast Alg$ its algebra of [[bounded operators]], a [[state]] on $A$ is a [[function]]
+
+$$
+  \rho : A \to \mathbb{C}
+$$
+
+which is a $\mathbb{C}$-[[linear map]] when restricted to each commutative subalgebra $C \subset A$.
+
+=--
+
+A function that preserves certain [[structure]] locally -- here: over each commutative subalgebra -- is precisely an [[internalization|internal]] fully structure preserving [[homomorphism]] in the [[presheaf topos]] over these local objects -- here: over commutative subalgebras. Hence we have the following direct topos-theoretic equivalent reformulation of Gleason's theorem.
+
++-- {: .num_cor }
+###### Corollary
+
+For $A = B(H) \in C^\ast Alg$ as above, we have a natural bijection between the quantum [[state]]s on $A$ and the  (classical) states of $\underline{A}$ [[internalization|internal to]] $Bohr(H)$.
+
+=--
 
 
 ### The phase space
@@ -414,7 +486,6 @@ with the relative topology inherited from $\Sigma_A$.
 
 This appears as ([HLSW, theorem 1](#HLSW)).
 
-#### Properties of the internal locale
 
 +-- {: .num_prop #BohrificationDependsOnNormalElementsOnly}
 ###### Proposition
