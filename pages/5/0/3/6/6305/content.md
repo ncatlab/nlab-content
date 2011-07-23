@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -16,7 +17,6 @@
 =--
 =--
 
-
 # Cauchy surfaces
 * table of contents
 {: toc}
@@ -30,13 +30,14 @@ A Cauchy surface is a [[hypersurface]] in [[spacetime]] (so actually a $3$-dimen
 
 For $(X,g)$ a [[Lorentzian manifold]], a **Cauchy surface** is an [[embedding|embedded]] [[submanifold]] $\Sigma \hookrightarrow X$ such that every [[timelike]] [[curve]] in $X$ may be extended to a timelike curve that intersects $\Sigma$ precisely in one point.
 
-A Lorentzian manifold that does admit a Cauchy surface is called _[[globally hyperbolic]]_ . 
+A Lorentzian manifold that does admit a Cauchy surface is called _[[globally hyperbolic]]_. 
+
 
 ## Applications
 
 One way to formulate [[causality]] in [[physics]] is that the values of all [[observables]] at all points on a single Cauchy surface in [[spacetime]] is enough information (in the sense of a [[boundary condition]] to apply to a [[differential equation]] constituting a relevant physical theory) to determine the values of all observables at all points of spacetime.  (This is not always an actual theorem of differential equations.)  Stated more intuitively, the state of the universe at any given time is enough information to determine the state of the universe at all times.
 
-If [[spacetime]] can be equipped with a [[foliation]] of Cauchy surfaces, then we may assign a [[real number]] $t$ to each surface $\Sigma$, so that we think of $\Sigma$ as 'space at time $t$'.  Of course, there are typically many ways to do this (if any), in accordance with the principle of [[relativity of simultaneity]].  On the other hand, for some spacetimes, this may not be possible at all (even if there are plenty of individual Cauchy surfaces).
+If [[spacetime]] can be equipped with a [[foliation]] of Cauchy surfaces, then we may assign a [[real number]] $t$ to each surface $\Sigma$, so that we think of $\Sigma$ as 'space at time $t$'.  Of course, there are typically many ways to do this (if any), in accordance with the principle of [[relativity of simultaneity]].  On the other hand, for some spacetimes, this may not be possible at all (because they are not globally hyperbolic).
 
 
 [[!redirects Cauchy surface]]
