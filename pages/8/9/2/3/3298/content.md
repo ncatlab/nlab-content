@@ -90,7 +90,7 @@ We look at the very general abstract definition of Hochschild (co)homology and s
 
 #### Hochschild homology
 
-We discuss Hohchschild homology of commutative algebras for the case that these are related to function algebras on derived loop spaces.
+We discuss Hochschild homology of commutative algebras for the case that these are related to function algebras on derived loop spaces.
 
 +-- {: .num_defn #DefByTensoring}
 ###### Definition
