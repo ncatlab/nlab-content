@@ -31,9 +31,15 @@
 
 ## Theorems
 
+* [[Stone-Weierstrass theorem]]
+
 * [[spectral theory]]
 
   * [[spectral theorem]]
+
+  * [[Gelfand duality]]
+
+* [[functional calculus]]
 
 * [[measure theory]]
 
@@ -45,4 +51,4 @@
 
 * [[an elementary treatment of Hilbert spaces|An Elementary Treatment of Hilbert Spaces]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/functional+analy0sis+-+contents)</div>
+<div markdown="1">[Edit this sidebar](/nlab/edit/functional+analysis+-+contents)</div>
