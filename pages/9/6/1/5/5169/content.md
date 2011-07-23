@@ -1,6 +1,15 @@
 
-There are different meanings of _operator_
+There are different meanings of _operator_:
 
-* [[linear operator]] (as in [[operator algebra]])
+* A [[linear operator]], or more generally an element of an [[operator algebra]].
 
-* etc.
+* In [[higher type theory]], an operator is a [[function]] from a [[set]] of functions to itself:
+  $$ O\colon Y^X \to Y^X , \quad O \in (Y^X)^{Y^X} = Y^{X \times Y^X} .$$
+
+* Probably more ...
+
+The connection between these two is that, if $H$ is a [[vector space]] of functions ($H \subseteq Y^X$), then a linear operator (in the first) is a special case of a ([[partial function|partially defined]]) operator (in the second sense).
+
+
+[[!redirects operator]]
+[[!redirects operators]]
