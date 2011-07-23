@@ -1,22 +1,21 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-
 ## Idea
 
-In the context of [[mechanics]] one distinguishes between **kinematics** and **dynamics**:
+In the context of [[mechanics]] (broadly construed), one distinguishes between *kinematics* and *dynamics*:
 
-1. _kinematics_ concerns the [[phase space]], the [[states]] and [[observables]];
+1. __Kinematics__ concerns (only) the [[states]] and [[observables]], including the [[spaces]] and [[algebras]] (such as a [[phase space]] or [[Hilbert space]] of (pure) states and an appropriate [[algebra of observables]]) into which they are organised;
 
-1. _dynamics_ concerns the evolution of the system in [[spacetime]]: for instance its [[Hamiltonian]].
+2. __Dynamics__ additionally treats the evolution of the system in [[time]] or even [[spacetime]]: as given by a [[Hamiltonian]], [[Lagrangian]], [[action form]], etc.  In the [[Schrödinger picture]], we think of the states as evolving, while the observables evolve in the [[Heisenberg picture]].
+
 
 [[!redirects kinematics]]
 [[!redirects dynamics]]
