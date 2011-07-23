@@ -1,4 +1,5 @@
-#Contents#
+
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -222,3 +223,5 @@ A kind of reiew is in
 * [[Bill Lawvere]], _[Taking categories seriously](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)_
 
 
+[[!redirects space and quantity]]
+[[!redirects duality between space and quantity]]
