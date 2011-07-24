@@ -145,7 +145,7 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-A local net is said to satisfy the **time slice axiom** if whenever 
+A local net is said to satisfy the **[[time slice axiom]]** if whenever 
 
 $$
   i : X_1 \to X_2
