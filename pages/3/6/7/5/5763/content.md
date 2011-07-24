@@ -48,11 +48,46 @@ Therefore the notion of _[[quasi-state]]_ was introduced: a quasi-state on $A$ i
 
 One would therefore tend to think that the terminology has been chosen in an unfortunate way. While maybe true, it turns out -- nontrivially -- that in a major class of cases of interest the distinction does not matter! Namely _[[Gleason's theorem]]_ states that for $H$ a separable complex [[Hilbert space]] with $dim H \gt 2$ and $A = B(H)$ the $C^\ast$-algebra of [[bounded operators]] on $\H$, all quasi-states on $A$ are automatically states: a function that is linear on all commutative subalgebras is automatically also linear on all of $A$.
 
-While this means that the distinction between states and quasi-states vanishes in a major case of interest, it does not vanish in all cases of interest. 
+While this means that the distinction between states and quasi-states vanishes in a major case of interest, it does not vanish in all cases of interest. In particular, other foundational theorems about quantum mechanics concern the collection of commutative subalgebras, too.
 
+Notably, one may wonder about the evident strengthening of the notion of quasi-states to that of a map $\rho : A \to \mathbb{C}$ which is not just linear but also an [[associative algebra|algebra]] [[homomorphism]] on each commuting subalgebra. Notice that by [[Gelfand duality]] every commutative $C^\ast$-algebra $C$ is the algebra of continuous functions on some [[topological space]} $sp(C)$. Under this duality a [[state]] on $C$ is a [[probability distribution]] on $sp(C)$, while an algebra homomorphism $C \to \mathbb{C}$ is a [[point]] of $X_C$. Therefore a quasi-state which is commutative-algebra-wise and algebra homomorphism may be thought of as encoding a collection of precise numerical values (as opposed to just expectation values) of _all_ possible observables. Such a hypothetical quasi-state is sometimes called a collection of _[[hidden variables]]_ of the [[quantum mechanical system]]: it's existence would mean that despite the apparent probabilistic nature of [[quantum mechanics]], there are "hidden" non-probabilistic states. But there are not! This is the statement of the [[Kochen-Specker theorem]]: under precisely the assumptions that make [[Gleason's theorem]] work, there is _no_ quasi-state which is commutative-algebra-wise an algebra homomorphism.
 
+In summary, this means:
 
++-- {: .standout}
 
+The foundational characteristics of [[quantum physics]] are enocded in notions of [[function]]s on the [[algebra of observables]] $A$ which are _[[homomorphisms]]_ only _commutative subalgebra-wise_ .
+
+=--
+
+Since therfore the notion of **commutative-subalgebra-wise homomorphism** is at the heart of quantum physics, it seems worthwhile to consider natural formalizations of this notion. There is indeed a very natural and [[category theory|general abstract]] one: whenever any notion of [[function]] is defined only _locally_ it is natural to consider the [[sheaf]] of such functions over all possible local patches. 
+
+The historically motivating example and possible still the most widely familiar one is that of [[holomorphic function]]s on a [[complex manifold]]: there are in general very few holomorphic functions defined over all of a complex manifold, but plenty of them defoined over any small enough subset. And it is of fundamental interst to consider the collections of holomorphic functions over each such subset, and how these retsrict to each other under restriction of subsets. This collection of local data is a [[sheaf]] of functions on the complex manifold.
+
+There is an evident analog setup of this situation that applies in the present case of interst, that of functions defined on commutative subalgebras:
+
+for $A$ any [[C-star algebra]], write $\mathcal{C}(A)$ for the set of all its commutative $C^\ast$-subalgebras. This is naturally a [[poset]] under inclusion of subalgebras. A (co)[[presheaf]] of this set is a [[functor]] $\mathcal{C}(A) \to Set$. Any such functor we may think of as a collection of commutative-subalgebra-wise data on $A$, consistent with restriction of subalgebras. The collection of all such functors -- which we write $[\mathcal{C}(A), Set]$ -- is a [[category]] called a [[presheaf topos]]. 
+
+Inside this [[topos]], all the above discussion of foundations of quantum mechanics finds a natural simple equivalent reformulation:
+
+first of all the non.commutative $C^\ast$-algebra $A$ naturally induces a _commutative_ [[C-star algebra]] object $\underline{A}$ [[internalization|internal to]] $[\mathcal{C}(A), Set]$: namely the [[copresheaf]] defined by the tautological assignment
+
+$$
+  \underline{A} : (C \in \mathcal{C}(A)) \mapsto C
+  \,.
+$$
+
+In words this means nothing but that the collection of all commutative subalgebras of $A$ may naturally be regarded as a _single_ commutative $C^\ast$-algebra [[internalization|internal to]] the [[topos]] $[\mathcal{C}(A), Set]$.
+
+Below we shall discuss ([here](...)) that in a precise sense $\underline{A}$ captures precisely all the [[kinematics|kinematical]] information encoded in the [[quantum mechanical system]] of $A$ -- everything related to [[states]] and [[observables]] but not information about (time) evolution. So everything we have discussed so far.
+
+The pair of these two ingredients
+
+$$
+  Bohr(A) := ([\mathcal{C}(A), Set], \underline{A})
+$$  
+
+constitutes what is called a _[[ringed topos]]_ . We shall call this the **Bohr topos** of $A$. 
 
 
 (...)
