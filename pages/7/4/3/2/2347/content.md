@@ -130,15 +130,17 @@ Given $S := (A,\cdot, \{-,-\})$ a classical mechanical system, we say
 
 * an **[[observable]]** of $S$ is an element $a \in A$, hence we call $A$ the **algebra of observables**;
 
-* a **[[state]]** of $S$ is 
+* a **[[classical state]]** of $S$ is 
 
   * a [[linear function]] $\rho : A \to \mathbb{R}$;
 
-  * which is **positive** in that for all $a \in A$ we have that
+    * which is **positive** in that for all $a \in A$ we have that
 
-    $\rho(a \cdot a) \geq 0$.
+      $\rho(a \cdot a) \geq 0$;
 
-* a **[[pure state]]** of $S$ is a state that is not only a linear map, but even an algebra homomorphism $\rho : A \to \mathbb{R}$.
+    * and which is **normalized** in that $\rho(1) = 1$.
+
+* a **[[pure state]]** of $S$ is a state that is not only a linear map, but even an [[associative algebra]] [[homomorphism]] $\rho : A \to \mathbb{R}$.
 
 Write $States((A, \cdot))$ for the set of states of $A$. 
 
@@ -242,3 +244,4 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 
 [[!redirects classical mechanical system]]
 [[!redirects classical mechanical systems]]
+[[!redirects system of classical mechanics]]
