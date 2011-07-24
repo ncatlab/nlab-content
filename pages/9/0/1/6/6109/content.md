@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functorial quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -113,17 +128,25 @@ This is the standard expression for the path integral of the particle on the lin
 
 ### String topology
 
+On the [[singular homology]] of [[smooth manifold]]s and other [[topological space]]s, pullback operations can be defined by [[Thom isomorphism]]s and [[fiber integration]] ("[[Umkehr map]]s"). Together with the canonically defined push-forward of singular cycles, this yields a definition of pull-push transformations on singular homology.
+
+It was realized in ([CohenGodin](#CohenGodin)) and ([Godin](#Godin)) that such pull-push operations define a 2-dimensional [[HQFT]] whose [[space of states]] is the singular complex, and that the [[correlator]]s of the thus defined [[FQFT]] are the Chas-Sullivan [[string topology]] operations. See there for more details.
+
 * [[string topology]]
+
+### Geometric $\infty$-function theory
+
+Every perfect [[derived stack]] in [[dg-geometry]] forms the [[target space]] for a pull-push transform on the [[stable (infinity,1)-category]] of [[quasicoherent sheaves]] and yields a 2-dimensional [[TQFT]]. For details on this see _[[geometric infinity-function theory]]_ .
+
 
 ## Related concepts
 
 * [[integral transforms on sheaves]]
 
-* [[geometric infinity-function theory]]
 
 ## References
 
-The pull-push nature of the path integral was originally amplified in
+The pull-push nature of the path integral was originally amplified somewhat implicitly in
 
 * [[Dan Freed]]
 
@@ -131,7 +154,22 @@ The pull-push nature of the path integral was originally amplified in
 
   * _Higher algebraic structures and quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
 
+and fully explicitly in
 
 * [[Dan Freed]], _Twisted K-theory and the Verlinde ring_ ([pdf slides](http://www.ma.utexas.edu/users/dafr/Andrejewski%20Lectures.html))
+
+The description of [[string topology]] operations as an [[HQFT]] defined by pull-push transforms was originally realized in 
+
+* [[Ralph Cohen]], [[Veronique Godin]], 
+  _[[A Polarized View of String Topology]]_
+
+* Hirotaka Tamanoi, _Loop coproducts in string topology and triviality of higher genus TQFT operations_ (2007) ([arXiv](http://arxiv.org/abs/0706.1276))
+ {#Tamanoi07}
+
+A detailed discussion and generalization to the open-closed [[HQFT]] in the presence of a single space-filling [[brane]] is in
+
+* [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
+ {#Godin}
+
 
 [[!redirects path integral as a pull-push transformation]]
