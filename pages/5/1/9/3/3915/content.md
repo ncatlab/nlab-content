@@ -28,16 +28,22 @@ $$
   N_i X  \to X
 $$
 
-which is [[fiber]]wise the [[quotient]] (of [[abelian group]]s underlying the [[vector space]]s) of the fiber of the [[tangent bundle]] of $Y$ by the [[tangent bundle]] of $X$: for $x \in X$
+defined as the quotient bundle 
+
+$$
+N_i X =\frac{i^* T Y}{T X}  
+$$
+
+=--
+
+The pullback $i^* T Y$ can be of course interpreted as the restriction $T Y|_X$. The normal bundle is [[fiber]]wise the [[quotient]] of the fiber of the [[tangent bundle]] of $Y$ by the fiber of the [[tangent bundle]] of $X$: for $x \in X$
 
 $$
   N_i (X)_x =  T_{i(x)}Y/T_x(X)
   \,.
 $$
 
-=--
-
-The dual notion is that of [[conormal bundle]].
+The dual notion is that of [[conormal bundle]]. The notion also makes sense for some other contexts, e.g. for smooth algebraic varieties. 
 
 +-- {: .num_remark}
 ###### Remark
@@ -63,8 +69,16 @@ $$
 
 =--
 
+Let $M^n$ be a smooth compact $n$-dimensional manifold without boundary, then the question of triviality of the normal bundle for an embedding $M^n\hookrightarrow \mathbf{R}^{n+r}$ for sufficiently large $r$ does not depend on the embedding. For this one uses the fact that any two such embeddings are regularly homotopic (this means the existence of a smooth homotopy $H(x,t)$ which is immersion for every $t \in [0,1]$ and which induces on the level of differentials a homotopy for the tangent bundles and that any two regular homotopies are themselves homotopic through regular homotopies leaving end points fixed. Then one just uses the homotopy invariance of vector bundles. This, if $M^n$ allows an embedding into $\mathbf{R}^{n+r}$ with a trivial normal bundle then one says that $M^n$ has a __stably trivial normal bundle__. In that case, if $M^n_+$ is the union of $M$ with a disjoint base point, then there is a homeomorphism $T (M^n\times \mathbf{R}^{r})\cong \Sigma^r M^n_+$ where $\Sigma^r$ denotes the $r$-fold (reduced) suspension of based spaces $(S^r\times M^n_+)/(S^r\wedge M_+)$.
+
 ## Related concepts
 
 * Normal bundle plays a central role for instance in the theory of [[fiber integration]] by means of [[Pontrjagin-Thom collaps map]]s.
 
 * [[tubular neighbourhood]], [[conormal bundle]]
+
+## Literature
+
+* Victor P. Snaith, _Stable homotopy around the arf-Kervaire invariant_, Birkhauser 2009
+
+[[!redirects normal bundles]]
