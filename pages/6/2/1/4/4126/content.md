@@ -40,7 +40,7 @@ to the [[real number]]s, satisfying two conditions:
 =--
 
 
-Note that is $\hat{A}_{1}$ and $\hat{A}_{2}$ commute, it follows from the spectral theorem that there exists an operator $\hat{C}$ and functions $h_{1}$ and $h_{2}$ such that $\hat{A}_{1}=h_{1}(\hat{C})$ and $\hat{A}_{2}=h_{2}(\hat{C})$.  It follows from FUNC that
+Note that is $\hat{A}_{1}$ and $\hat{A}_{2}$ commute, it follows from the [[spectral theorem]] that there exists an operator $\hat{C}$ and functions $h_{1}$ and $h_{2}$ such that $\hat{A}_{1}=h_{1}(\hat{C})$ and $\hat{A}_{2}=h_{2}(\hat{C})$.  It follows from FUNC that
 
 $$
   \lambda(\hat{A}_{1} + \hat{A}_{2}) = \lambda(\hat{A}_{1}) + \lambda(\hat{A}_{2})
@@ -74,7 +74,7 @@ If a valuation _did_ exist and was restricted to a commutative sub-algebra of op
 ###### Definition
 **(category of contexts)**
 
-Let $\mathcal{V}(\mathcal{H})$ be a [[category]] (the [[semilattice of commutative subalgebras]] of the algebra $B(\mathcal{H})$ of [[bounded operato]]s) whose
+Let $\mathcal{V}(\mathcal{H})$ be a [[category]] (the [[poset of commutative subalgebras]] of the algebra $B(\mathcal{H})$ of [[bounded operator]]s) whose
 
 * [[object]]s are _commutative_ [[von Neumann algebra|von Neumann subalgebras]] $V \subset B(\mathcal{H})$;
 
@@ -123,7 +123,10 @@ The Kochen-Specker theorem is equivalent to the statement that in the presheaf [
 
 
 
-## Contextuality
+## Related concepts
+
+* [[Bohr topos]]
+
 
 ## References
 
