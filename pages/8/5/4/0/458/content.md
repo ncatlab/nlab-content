@@ -166,7 +166,7 @@ and this restricts to an
 This appears for instance as ([MacLaneMoerdijk, corollary IX.3 4](#MacLaneMoerdijk)).
 
 
-### Relation to toposes 
+### Relation to toposes -- localic reflection
  {#RelationToToposes}
 
 The [[frame]] of opens $O(X)$ corresponding to a locale $X$ is naturally a [[site]]:
@@ -247,7 +247,7 @@ $$
   \,.
 $$
 
-In fact this is even a genuine [[reflective sub-2-category]]: 
+In fact this is even a genuine [[full sub-2-category]]: 
 
 +-- {: .num_prop}
 ###### Proposition
@@ -261,7 +261,7 @@ $$
 
 =--
 
-See ...
+This appears as ([Johnstone, prop. C1.4.5](#Johnstone)).
 
 +-- {: .num_prop}
 ###### Proposition
@@ -337,7 +337,7 @@ that develops, among other things, much of standard [[topology]] entirely with t
 See also part C (volume 2) of
 
 *  [[Peter Johnstone]], _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.  .
-{#Johnstone}
+ {#Johnstone}
 
 Locales are discussed in section IX.1 of 
 
