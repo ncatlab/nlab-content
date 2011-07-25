@@ -1,9 +1,17 @@
 [[!redirects Leon A. Takhtajan]]
+[[!redirects L. A. Takhtajan]]
+[[!redirects L. Takhtajan]]
+[[!redirects Lev Tahtajan]]
+
 __Leon A. Takhtajan__ is a [[mathematical physicist]] at SUNY Stony Brook. 
 
 * [[Quantum mechanics for mathematicians]], Graduate Studies in Mathematics __95__, Amer. Math. Soc. 2008.
 
 * [webpage](http://www.math.sunysb.edu/~leontak)
+
+The following 2 articles make parallel between some notions of [[quantum field theory]] and of [[number theory]] and in particular about the analogy between the [[Weil reciprocity law]] for [[function field]]s and the Takahashi-Ward identities of quantum field theory:
+
+* [[Leon Takhtajan]], _Quantum field theories on algebraic curves and A. Weil reciprocity law_, [arxiv/0812.0169](http://arxiv.org/abs/0812.0169); _Quantum field theories on an algebraic curve_, [pdf](http://www.math.sunysb.edu/~leontak/Takhtajan-00.pdf), 2000 
 
 category: people
 
