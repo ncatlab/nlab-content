@@ -45,6 +45,24 @@ $$
 
 That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f:X\to Y$ of locales is a frame homomorphism $f^*:O(Y)\to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
 
+This category is naturally enhanced to a [[2-category]]:
+
++-- {: .num_defn}
+###### Definition
+
+The [[2-category]] [[Locale]] has
+
+* as [[object]]s $X$ [[frame]]s $Op(X)$;
+
+* as [[morphisms]] $f : X \to Y$ frame homomorphisms $f^* : Op(Y) \to Op(X)$;
+
+* a unique [[2-morphisms]] $f \Rightarrow g$ whenever for all $U \in Op(Y)$ we have a (then necessarily unique) morphism $f^* U \to g^* U$.
+
+=--
+
+(For instance [Johnstone, C1.4, p. 514](#Johnstone).)
+
+This [[2-category]] is in fact a [[(1,2)-category]]: a [[Poset]]-[[enriched category]].
 
 ## Properties
 
