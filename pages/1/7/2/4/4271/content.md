@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _state_ is a [[configuration space|configuration]] of a system in [[physics]], together with enough information about its [[time evolution]] (typically, the first derivative is sufficient) to allow one to propogate it arbitrarily.
+A _state_ is a [[configuration space|configuration]] of a system in [[physics]], together with enough information about its [[time evolution]] (typically, the first derivative is sufficient) to allow one to propagate it arbitrarily.
 
 
 ## Definitions
