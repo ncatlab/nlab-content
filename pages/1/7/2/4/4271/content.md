@@ -36,9 +36,9 @@ More generally, a _[[classical state]]_ is a [[linear function]] $\rho\colon A \
 
 ### In quantum mechanics
 
-In the [[Schrödinger picture]] of [[quantum mechanics]], a state is a ray in a [[Hilbert space]] -- the Hilbert space of states.
+In the simple version of [[quantum mechanics]] given by a [[Hilbert space]] $H$, then a _[[pure state]]_ is a ray in $H$, which we often call the Hilbert space of states.  Strictly speaking, the space of states is not $H$ but $(H \setminus \{0\})/\mathbb{C}$, or equivalently $S(H)/U(1)$.
 
-In the dual [[Heisenberg picture]] where a [[quantum mechanical system]] is given by a $C^*$-[[C-star-algebra|algebra]] $A$, a state is a linear function $\rho\colon A \to \mathbb{C}$ which satisfies positivity_ and _normalization_. See [[states in AQFT and operator algebra]] for more on this.
+In the more general case where a [[quantum mechanical system]] is given by a $C^*$-[[C-star-algebra|algebra]] $A$, a state is a linear function $\rho\colon A \to \mathbb{C}$ which satisfies _positivity_ and _normalization_. See [[states in AQFT and operator algebra]] for more on this.
 
 It has been argued that more accurately the correct notion is that of [[quasi-state]] instead. See also the Idea-section at [[Bohr topos]] for a discussion of this point.
 
