@@ -316,17 +316,7 @@ Every [[monomorphism]] $A \hookrightarrow B$ in $C^* Alg$ is commutativity refle
 +-- {: .num_prop #CommutativityReflectionByAdjoints}
 ###### Proposition
 
-A morphism $f : A \to B$ in $C^* Alg$ is commutativity reflecting precisely if the morphism $Alex \mathcal{C} (f) : Alex \mathcal{C}(A) \to Alex \mathcal{C}(B)$  in $AlexandrovTop$ has a [[right adjoint]]
-
-$$
-  (Alex \mathcal{C}(f) \dashv Alex R_f)
-  Alex \mathcal{C}(A)
-   \stackrel{\overset{Alex R_f}{\leftarrow}}{\underset{Alex \mathcal{C}(f)}{\to}}
-  Alex \mathcal{C}(B)
-  \,.
-$$
-
-or equivalently
+A morphism $f : A \to B$ in $C^* Alg$ is commutativity reflecting precisely if the morphism $\mathcal{C}(f)$ has a [[right adjoint]]
 
 $$
   (\mathcal{C}(f) \dashv R_f)
@@ -335,7 +325,6 @@ $$
   \mathcal{C}(B)
   \,.
 $$
-
 
 =--
 
@@ -357,6 +346,7 @@ $$
 for the subcategories of $C^* Alg$ on the monomorphisms and on the commutativity-reflecting morphisms, respectively.
 
 =--
+
 
 
 ### The Bohr topos
@@ -417,7 +407,7 @@ for the $C^*$-topos whose underlying [[sheaf topos]] is that for the [[double ne
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #BohrFunctoriality}
 ###### Proposition
 
 This construction extends to a [[functor]] of the form
@@ -479,14 +469,31 @@ $$
 which over $C \in \mathcal{C}(A)$ is the restriction of $f$ to $C$ and [[corestriction]] to $\mathcal{C}(f)(C)$
 
 $$
-  f|_C : C \to \mathcal{C}(f)()C
+  f|_C : C \to \mathcal{C}(f)(C)
 $$
 
 (to the $C^\ast$-completion of the algebraic image of $f|_C$).
 
 =--
 
-This statement has the following partial converse.
+The extra right adjoint functors appearing here ensure the relation between the morphisms of Bohr sites and Bohr toposes:
+
+
++-- {: .num_prop }
+###### Proposition
+
+Every [[geometric morphism]] $Bohr(A) \to Bohr(B)$ with an extra [[right adjoint]] is in the image under $Sh \circ Alex$ of a functor $\mathcal{C}(A) \to \mathcal{C}(B)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion of [Alexandrov locales](#http://ncatlab.org/nlab/show/specialization+topology#AlexandrovLocales) in the entry _[[Alexandrov space]]_ we have that the functor $Alex : Poset \to Locale$ takes values precisely on those morphisms of locales that have a [[right adjoint]]. The statement then follows using the properties of [[localic reflection]], which says that $Sh : Locale \to Topos$ is a [[full and faithful 2-functor]].
+
+=--
+
+Using this, prop. \ref{BohrFunctoriality} has the following partial converse.
 
 +-- {: .num_prop #ToposCharacterizationOfAlgebraHomomorphisms}
 ###### Proposition
@@ -531,7 +538,6 @@ $$
 By the assumption that this is epi we have that indeed $f(C) = image_{f_C}(C)$.
 
 =--
-
 
 
 
