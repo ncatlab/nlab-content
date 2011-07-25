@@ -119,6 +119,13 @@ Write $AlexLocale$ for the non-[[full subcategory|full]] [[subcategory]] of [[Lo
 
 This appears as ([Caramello, p. 55](#Caramello)).
 
++-- {: .num_remark}
+###### Remark
+
+By the definition of the [[2-category]] [[Locale]] (see there), this means that $AlexPoset$ consists of those morphisms which have _right_ adjoints in [[Locale]].
+
+=--
+
 +-- {: .num_prop}
 ###### Proposition
 
