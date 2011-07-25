@@ -1,0 +1,6 @@
+Emil Artin's reciprocity law is a reciprocity law in [[class field theory]] for [[global field]]s.
+
+* wikipedia: en:[Artin reciprocity law](http://en.wikipedia.org/wiki/Artin_reciprocity_law), de:[Artinsches_Reziprozitaetsgesetz](http://de.wikipedia.org/wiki/Artinsches_Reziprozit%C3%A4tsgesetz)
+* [[Serge Lang]], _Algebraic number theory_, GTM 110, Springer 1970, 1986, 1994, 2000
+
+[[!redirects Artin's reciprocity law]]
