@@ -1,0 +1,26 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _unitalization of a  non-unital [[algebra]] is a unital algebra with a unit [[free construction|freely]] adjoined.
+
+## Definition
+
+### For associative algebras
+
+For $R$ a [[commutative ring]] write $R Alg$ for the [[category]] of [[associative algebra]]s with unit over $R$ and unit-preserving [[homomorphisms]], and write $R Alg_{nu}$ for non-unital associative $R$-algebras.
+
+The evident [[forgetful functor]] $F : R Alg \to R Alg_{nu}$ has a [[left adjoint]]  $(-)^+ : R Alg_{nu} \to R Alg$. For $A \in R Al_{nu}$ we say $A^+$ is the **unitalization** of $A$.
+
+Explicitly, $A^+ = A \oplus R$ with product given by $(a_1, 0) (a_2, 0 ) = (a_1 a_2, 0)$ and $(0,r_1) (0,r_2) = (0, r_1 r_2)$ and $(a,0) (0,r) = (r a , 0)$.
+
+## Related concepts
+
+* [[unit]]
+
+* [[unitality]]
+
+[[!redirects unitalization]]
