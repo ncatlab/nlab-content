@@ -352,6 +352,10 @@ See [[Isbell envelope]].
 
 ## Examples
 
+### Gelfand duality
+
+[[Gelfand duality]] is the [[equivalence of categories]] between (nonunital) commutative [[C-star algebras]] and ([[locally compact space|locally]]) [[compact topological spaces]]. See there for more details.
+
 ### Function $T$-Algebras on presheaves {#FunctionAlgebrasOnPresheaves}
 
 Let $\mathcal{V}$ be any [[cartesian closed category]]. 
