@@ -63,7 +63,7 @@ A [[function]] between preorders is order-preserving if and only if it is a [[co
 
 =--
 
-### Alexandrov spaces
+### Alexandrov topological spaces
 
 +-- {: .num_defn}
 ###### Definition
@@ -104,8 +104,45 @@ If we restrict to a [[finite set|finite]] underlying set, then the categories $\
 
 
 ### Alexandrov locales
+ {#AlexandrovLocales}
 
-* The category of Alexandrov locales is equivalent to that of completely distributive [[algebraic lattice]]s. ([Caramello, remark 4.3](#Caramello)).
++-- {: .num_defn}
+###### Definition
+
+Write $AlexLocale$ for the non-[[full subcategory|full]] [[subcategory]] of [[Locale]] whose
+
+* [[object]]s are alexandrov locales, hence locales of the form $Alex P$ for $P\in Poset$ with $Open(Alex(P)) = UpSets(P)$;
+
+* [[morphisms]] are those morphisms of locales $f : Alex P \to Alex Q$, for which the dual [[inverse image]] morphism of [[frame]]s $f^* : UpSet(Q) \to UpSet(P)$ has a [[left adjoint]] $f_! : UpSet(P) \to UpSet(Q)$.
+
+=--
+
+This appears as ([Caramello, p. 55](#Caramello)).
+
++-- {: .num_prop}
+###### Proposition
+
+The functor $Alex : Poset \to Locale$ factors through $AlexLocale$ and exhibits an [[equivalence of categories]]
+
+$$
+  Alex : Poset \stackrel{\simeq}{\to} AlexLocale
+  \,.
+$$
+
+=--
+
+This appears as ([Caramello, theorem 4.2](#Caramello)).
+
+
++-- {: .num_prop}
+###### Proposition
+
+
+The category of Alexandrov locales is equivalent to that of completely distributive [[algebraic lattice]]s. 
+
+=--
+
+This appears as ([Caramello, remark 4.3](#Caramello)).
 
 ## References
 
