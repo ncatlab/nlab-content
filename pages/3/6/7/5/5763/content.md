@@ -50,7 +50,7 @@ More subtle is the interpretation of the axiom for [[state]]s. Historically this
 
 Therefore the notion of _[[quasi-state]]_ was introduced: a quasi-state on $A$ is defined to be a (positive and normalized) [[function]] $\rho : A \to \mathbb{C}$ which is required to be $\mathbb{C}$-[[linear function|linear]] only on all commutative subalgebras of $A$. Operationally, quasi-states should be the genuine states!
 
-One would therefore tend to think that the terminology has been chosen in an unfortunate way. While maybe true, it turns out -- nontrivially -- that in a major class of cases of interest the distinction does not matter! Namely _[[Gleason's theorem]]_ states that for $H$ a separable complex [[Hilbert space]] with $dim H \gt 2$ and $A = B(H)$ the $C^\ast$-algebra of [[bounded operators]] on $\H$, all quasi-states on $A$ are automatically states: a function that is linear on all commutative subalgebras is automatically also linear on all of $A$.
+One would therefore tend to think that the terminology has been chosen in an unfortunate way. While maybe true, it turns out -- non-trivially -- that in a major class of cases of interest the distinction does not matter! Namely _[[Gleason's theorem]]_ states that for $H$ a separable complex [[Hilbert space]] with $dim H \gt 2$ and $A = B(H)$ the $C^\ast$-algebra of [[bounded operators]] on $\H$, all quasi-states on $A$ are automatically states: a function that is linear on all commutative subalgebras is automatically also linear on all of $A$.
 
 While this means that the distinction between states and quasi-states disappears in a major case of interest, it does not disappear in all cases of interest. In particular, other foundational theorems about quantum mechanics concern the collection of commutative subalgebras, too.
 
@@ -64,11 +64,11 @@ The foundational characteristics of [[quantum physics]] are encoded in notions o
 
 =--
 
-Since therfore the notion of **commutative-subalgebra-wise homomorphism** is at the heart of quantum physics, it seems worthwhile to consider natural formalizations of this notion. There is indeed a very natural and [[category theory|general abstract]] one: whenever any notion of [[function]] is defined only _locally_ it is natural to consider the [[sheaf]] of such functions over all possible local patches. 
+Since the notion of **commutative-subalgebra-wise homomorphism** is at the heart of quantum physics, it seems worthwhile to consider natural formalizations of this notion. There is indeed a very natural and [[category theory|general abstract]] one: whenever any notion of [[function]] is defined only _locally_ it is natural to consider the [[sheaf]] of such functions over all possible local patches. 
 
 The historically motivating example, and possibly still the most widely familiar one, is that of [[holomorphic function]]s on a [[complex manifold]]: there are in general very few holomorphic functions defined over all of a complex manifold, but plenty of them defined over any small enough subset. And it is of fundamental interest to consider the collections of holomorphic functions over each such subset, and how these restrict to each other under restriction of subsets. This collection of local data is a [[sheaf]] of functions on the complex manifold.
 
-There is an evident analog setup of this situation that applies in the present case of interst, that of functions defined on commutative subalgebras:
+There is an evident analog setup of this situation that applies in the present case of interest, that of functions defined on commutative subalgebras:
 
 for $A$ any [[C-star algebra]], write $\mathcal{C}(A)$ for the set of all its commutative $C^\ast$-subalgebras. This is naturally a [[poset]] under inclusion of subalgebras. A (co)[[presheaf]] of this set is a [[functor]] $\mathcal{C}(A) \to Set$. Any such functor we may think of as a collection of commutative-subalgebra-wise data on $A$, consistent with restriction of subalgebras. The collection of all such functors -- which we write $[\mathcal{C}(A), Set]$ -- is a [[category]] called a [[presheaf topos]]. 
 
@@ -115,7 +115,7 @@ and
 
 =--
 
-These two statements might be taken as suggesting that a quantum mechanical system $A$ is naturally regarded in terms of its Bohr topos $Bohr(A)$ -- somewhat more naturally than as a $C^\ast$-algebra $A$! (The second, in a slightly different setup, was emphasized in [IshamHamiltonButterfield](#ButterfieldHamiltonIsham), which inspired all of the following discussion, the first in [Spitters]()). In fact, thinking of [[ringed topos]]es as generalized [[space]]s in [[higher geometry]], it suggestes that the Bohr topos $Bohr(A)$ itself _is_ the _quantum [[phase space]]_ of the quantum mechnanical system in question.
+These two statements might be taken as suggesting that a quantum mechanical system $A$ is naturally regarded in terms of its Bohr topos $Bohr(A)$ -- somewhat more naturally than as a $C^\ast$-algebra $A$! (The second, in a slightly different setup, was emphasized in [IshamHamiltonButterfield](#ButterfieldHamiltonIsham), which inspired all of the following discussion, the first in [Spitters]()). In fact, thinking of [[ringed topos]]es as generalized [[space]]s in [[higher geometry]], it suggests that the Bohr topos $Bohr(A)$ itself _is_ the _quantum [[phase space]]_ of the quantum mechanical system in question.
 
 To which extent this perspective is genuinely useful is maybe still to be established. For pointers to the literature see the [references](#References) below. Discussion along the above lines may suggest that this perspective is indeed useful, but what is probably still missing is a statement about [[quantum physics]] that can be formulated and proven in terms of Bohr toposes, while being hardly conceivable or at least more unnatural without. It is probably currently not clear if such statements have been found.
 
@@ -148,7 +148,7 @@ The discussion below proceeds in the following steps (following ([Nuiten11](#Nui
 
 1. [Bohr topos of a quantum mechanics system](#BohrToposOfQMSystem)
 
-   This discusses the Bohr topos incarnation of a [[quantum mechanical system]] -- the topos-theoretic quantum [[phase space]] -- and its [[functor]]iality.
+   This discusses the Bohr topos incarnation of a [[quantum mechanical system]] -- the topos-theoretic quantum [[phase space]] -- and its [[functor|functoriality]].
 
 1. [Kinematics in a Bohr topos](#KinematicsOnBohrTopos)
 
@@ -269,7 +269,7 @@ from [[posets]] to [[topological spaces]] that sends a poset $P$ to the topologi
 
 $$
   Poset 
-    \underoverset{\simew}{ALex}{\to}
+    \underoverset{\simeq}{Alex}{\to}
   AlexTop
   \hookrightarrow
   Top
@@ -752,7 +752,7 @@ By [[functional calculus]]: every [[self-adjoint operator]] $a \in A$ provides s
 For $A \in C^\ast Alg$ write 
 $(Sh(Alex \mathcal{C}(A)), \mathbb{R})$ for the [[ringed topos]] as indicated, where $\mathbb{R}$ denotes the copresheaf constant on $\mathbb{R}$.
 
-The internal $C^\ast$-algebra $\underline{A} \in Bohr(A)$ is an internal $\mathbb{R}$-module. Forgetting the algebra structure and only remembering the $\mathbb{R}$-module structure, we get a category of "$\mathbb{R}$-moduld toposes".
+The internal $C^\ast$-algebra $\underline{A} \in Bohr(A)$ is an internal $\mathbb{R}$-module. Forgetting the algebra structure and only remembering the $\mathbb{R}$-module structure, we get a category of "$\mathbb{R}$-module toposes".
 
 =--
 
@@ -826,7 +826,7 @@ This appears as ([Nuiten, def. 17](#Nuiten)).
 ## References
  {#References}
 
-[[Niels Bohr]]'s views on quantum mechanics that give the construction of _Bohrification_ its name are reviewed i
+[[Niels Bohr]]'s views on quantum mechanics that give the construction of _Bohrification_ its name are reviewed in
 
 * Erhard Scheibe, _The logical analysis of quantum mechanics_ . Oxford: Pergamon Press, 1973.
 {#Scheibe}
