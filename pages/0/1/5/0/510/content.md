@@ -1,7 +1,7 @@
 
 Many very different things in mathematics are called _spectrum_ or _spectral_ or the like. This entry is about the notion of spectrum in [[stable homotopy theory]]. Most other meanings are instances of [[spectral theory]] including
 
-* [[spectrum of an operator]], spectra of families, of a Banach algebra, prime (primitive etc.) spectrum of a commutative or noncommutative ring, [[spectrum of an abelian category]], [[Orlov spectrum]] of a triangulated category etc.
+* [[spectrum of an operator]], spectra of families, of a Banach algebra, [[Gelfand spectrum]], prime (primitive etc.) spectrum of a commutative or noncommutative ring, [[spectrum of an abelian category]], [[Orlov spectrum]] of a triangulated category etc.
 
 There is also a notion of 
 
