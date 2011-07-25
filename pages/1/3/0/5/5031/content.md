@@ -26,7 +26,7 @@ By __$Topos$__ (or __$Toposes$__) is denoted the [[category]] of [[topos]]es. Us
 
 * [[morphism]]s are [[geometric morphism]]s of toposes.
 
-This naturally a [[2-category]], where
+This is naturally a [[2-category]], where
 
 * [[2-morphism]] are [[geometric transformation]]s 
 
@@ -277,7 +277,7 @@ The fact that $Topos$ is extensive is in
 
 Limits and colimits of toposes are discussed in 6.3.2-6.3.4 of 
 
-* [[Jacob Lurie]], _[[Higher toposes]]_ .
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
  {#Lurie}
 
 There fore [[(∞,1)-topos]]es, but the statements are verbatim true also for ordinary toposes (in the [[(2,1)-category]] version of $Topos$).
