@@ -151,6 +151,10 @@ Section 6.3.5 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
+See also 
+
+* A. Carboni, G. Kelly, R. Wood, _A 2-categorical approach to change of base and geometric morphisms I_ ([numdam](http://po-start.com/reyes/wp-content/uploads/2007/01/metrics.pdf))
+
 [[!redirects change of base]]
 
 [[!redirects base change geometric morphism]]
