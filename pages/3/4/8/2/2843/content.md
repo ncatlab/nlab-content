@@ -159,6 +159,20 @@ We claim that $\nabla_i|_{U_i \cap U_j} = \nabla_j|_{U_i \cap U_j}$.  This is an
 In the [[physics]], the theory of [[general relativity]] models the field of [[gravity]] in terms of the Levi-Civita connection on a [[Lorentzian manifold]]. See there for more details.
 
 
+## References
+
+A discussion in terms of [[synthetic differential geometry]] is in 
+
+* [[Gonzalo Reyes]], _General Relativity: 
+
+  _Metrics, connections and curvature_ ([pdf](http://po-start.com/reyes/wp-content/uploads/2007/01/metrics.pdf))
+
+  _The Riemann-Christoffel tensor_ ([pdf](http://po-start.com/reyes/wp-content/uploads/2007/01/the-riemann-christoffel-tensor.pdf))
+
+  _Affine connections, parallel
+transport and sprays_ ([pdf](http://po-start.com/reyes/wp-content/uploads/2009/01/affineconnections.pdf))
+
+
 [[!redirects Levi-Civita connections]]
 [[!redirects metric connecitons]]
 
