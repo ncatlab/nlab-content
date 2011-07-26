@@ -15,7 +15,7 @@
 
 ## Definition
 
-* [[Einstein-Hilbert action]], [[general relativity]]
+* [[Einstein-Hilbert action]], [[Einstein's equations]], [[general relativity]]
 
   * [[first-order formulation of gravity]], [[D'Auria-Fre formulation of supergravity]]
 
