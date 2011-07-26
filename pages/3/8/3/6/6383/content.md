@@ -1,0 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[group]] $G$ is called **divisible** if for every [[integer]] $n$ we have that for every element $g \in G$ there is an element $h \in G$ such that
+
+$$
+  g = n \times h := (h \cdot h \cdot \cdots \cdot h)
+  \,,
+$$
+
+where on the right we have $n$ factors.
+
+For $p$ a [[prime number]] an [[abelian group]] is **$p$-divisible** if the above formula holds for all $n = p^k$ for all $k \in \mathbb{N}$.
+
+## Examples
+
+* The underlying abelian group of any [[vector space]] over the [[rational number]]s $\mathbb{Q}$ is divisible.
