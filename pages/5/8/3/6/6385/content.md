@@ -1,4 +1,3 @@
-[[!redirects What to Contribute]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -19,7 +18,6 @@
 
 This page is supposed to give some idea about which kind of contributions to the [[HomePage|nLab]] are appropriate or desired.
 
-## Encouraged
 
 * **small contributions**: While it is certainly possible that any entry could _eventually_ grow into a comprehensive discussion, everything needs to start small. If you feel like creating an entry but only have a single sentence to say or a single reference to record for the moment, please do so! One also speaks of _stub entries_ for such entries that are waiting to be expanded into something more substantial. Their existence can be very helpful to the general process of creating a good wiki. Just be sure to announce the creation of the entry on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).
 
@@ -33,5 +31,10 @@ This page is supposed to give some idea about which kind of contributions to the
 
   The $n$Lab differs from other wikis out there by containing a considerable amount of technical material and abstract mathematics. This does not mean, however, that expositions and friendly pedagogical lead-ins are discouraged. On the contrary! As far as they seem to be lacking, this is only because nobody has yet found the time to add them.
 
+In general: if some topic that seems to be worthwhile is missing from the $n$Lab (and a lot is) this is with high probability not by intent, but by lack of manpower. Be the first to improve on the situation!
+
+
 
 category: meta
+
+[[!redirects What to Contribute]]
