@@ -13,7 +13,7 @@ __Quadratic reciprocity law__. Let $q,p$ be primes.
 
 (ii) if $p,q = 3 (mod 4)$ then  $\left(\frac{p}{q}\right) = -\left(\frac{q}{p}\right)$
 
-(iii) if $q = 2$ and $p$ is odd then $\left(\frac{2}{p}\right) = 1$ if $p = \pm 1 (mod 8)$ and $\left(\frac{q}{p}\right)= -1$ if $p = \pm 3 (mod 8)$
+(iii) if $q = 2$ and $p$ is odd then $\left(\frac{2}{p}\right) = 1$ if $p = \pm 1 (mod 8)$ and $\left(\frac{2}{p}\right)= -1$ if $p = \pm 3 (mod 8)$
 
 Quadratic reciprocity law is due [[Gauss]] and is the first discovered among the numerous reciprocity laws in number theory. It comes from facts about [[cyclotomic extension]]s. 
 
