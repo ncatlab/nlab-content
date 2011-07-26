@@ -1,4 +1,6 @@
 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -13,6 +15,12 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 For $X$ a [[smooth manifold]], $ v \in \Gamma(T X)$ a [[vector field]] and $\omega \in \Omega^\bullet(X)$ a [[differential form]] on $X$, the **Lie derivative** $\mathcal{L}_v \omega$ of $\omega$ along $v$ is the linearization of the pullback of $\omega$ along the flow $\exp(v -) : \mathbb{R} \times X \to X$ induced by $v$
 
 $$
@@ -26,5 +34,11 @@ $$
   \mathcal{L}_v = [d_{dR}, \iota_v] = d_{dR} \circ \iota_v + \iota_v \circ d_{dR} : \Omega^\bullet(X) \to \Omega^\bullet(X)
   \,.
 $$
+
+## References
+
+An introduction in the context of [[synthetic differential geometry]] is in 
+
+* [[Gonzalo Reyes]], _Lie derivatives, Lie brackets and vector fields over curves_ ([pdf](http://po-start.com/reyes/wp-content/uploads/2007/01/lie-derivatives.pdf))
 
 [[!redirects Lie derivatives]].
