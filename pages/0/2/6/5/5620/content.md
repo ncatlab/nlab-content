@@ -1,3 +1,21 @@
-__Virasoro algebra__ or Virasoro Lie algebra is the nontrivial central extension of the Witt Lie algebra (the Lie algebra of the group of diffeomorphisms of the circle). It is of central importance in some questions of complex analysis, in [[conformal field theory]] and the study of affine Lie algebras. 
+## Idea
+
+__Virasoro algebra__ or Virasoro [[Lie algebra]] is the nontrivial central extension of the Witt Lie algebra (the Lie algebra of the group of diffeomorphisms of the circle). It is of central importance in some questions of complex analysis, in [[conformal field theory]] and the study of affine Lie algebras. 
+
+## Definition
+
+The generators $L_n$ of the Virasoro algebra are indexed by an integer $n \in \mathbb{Z}$, and they satisfy the commutation relation
+
+$$
+[L_m, L_n] = (m - n) L_{m+n} + \frac{c}{12}(m^3 - m) \delta_{m+n,0}.
+$$
+
+Here, $c$ denotes the element of the algebra known as the **central charge**; it commutes with each generator,
+
+$$
+[L_n, c] = 0 \forall n.
+$$
+
+The factor of 1/12 is conventional and chosen for normalisation purposes.
 
 [[!redirects Virasoro Lie algebra]]
