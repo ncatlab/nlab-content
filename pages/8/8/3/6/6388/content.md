@@ -1,0 +1,35 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What are called _Einstein's equations_ are the [[equations of motion]] of gravity: the [[Euler-Lagrange equations]] induced by the [[Einstein-Hilbert action]].
+
+## References
+
+A discussion of the vacuum Einstein equations (only gravity, no other fields) in terms of [[synthetic differential geometry]] is in
+
+* [[Gonzalo Reyes]], _A derivation of Einstein's vacuum field equations_ ([pdf](http://marieetgonzalo.files.wordpress.com/2009/12/a-derivation-of-einsteins-vacuum-field-equations1.pdf))
+
+[[!redirects Einstein's equation]]
+
+[[!redirects Einstein equations]]
+[[!redirects Einstein's equations]]
