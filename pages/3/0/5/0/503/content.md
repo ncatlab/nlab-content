@@ -17,9 +17,9 @@
 
 ## Idea and definition
 
-The concept of Cauchy completeness, ordinarily thought of as applying to [[metric space]]s, was vastly generalized by [[Bill Lawvere]] in his influential paper [Metric spaces, generalized logic, and closed categories](#Lawvere). It is now seen by [[category theory|category theorists]] as a concept of [[enriched category theory]], with close ties to the concept of [[Morita equivalence]] in the theory of [[module]]s. 
+The concept of Cauchy completeness, ordinarily thought of as applying to [[metric space]]s, was vastly generalized by [[Bill Lawvere]] in his influential paper _[Metric spaces, generalized logic, and closed categories](#Lawvere)_. It is now seen by [[category theory|category theorists]] as a concept of [[enriched category theory]], with close ties to the concept of [[Morita equivalence]] in the theory of [[module]]s. 
 
-The basic idea is that the Cauchy [[completion]] of a [[category]] is the closure of a category under what are called "[[absolute limit]]s", i.e., those [[limit]]s that are preserved by any [[functor]] whatsoever. Equivalently, the Cauchy completion is the closure with respect to [[absolute colimit]]s. If $C$ is [[small category|small]], the Cauchy completion $\bar{C}$ of $C$ lies between $C$ and its "[[free cocompletion]]", aka [[presheaf]] category
+The basic idea is that the Cauchy [[completion]] of a [[category]] is the closure of a category under what are called "[[absolute limit]]s", i.e., those [[limit]]s that are preserved by any [[functor]] whatsoever. Equivalently, the Cauchy completion is the closure with respect to [[absolute colimit]]s. If $C$ is [[small category|small]], the Cauchy completion $\bar{C}$ of $C$ lies between $C$ and its "[[free cocompletion]]", aka [[presheaf category]]
 
 $$C \hookrightarrow \bar{C} \hookrightarrow Set^{C^{op}}$$ 
 
@@ -171,7 +171,7 @@ $$C(-, c) \overset{\pi}{\to} p \overset{i}{\to} C(-, c)$$
 
 is an [[idempotent]] represented by a morphism $e: c \to c$ in $C$ (by the Yoneda lemma), and this factorization through $p$ [[split idempotent|splits]] the idempotent $C(-, e)$ in $Set^{C^{op}}$. 
 
-Indeed, the claim is that modules $p: C^{op} \to Set$ in the Cauchy completion are precisely those presheaves on $C$ which arise as [[retract]]s of [[representable functor|representable]]s in $Set^{C^{op}}$, or in other words may be identified with objects of the idempotent-splitting completion of $C$ (aka the _[[Karoubi envelope]]_ of $C$). Therefore, in the $Set$-enriched case, the Cauchy completion _is_ the idempotent-splitting completion. In particular, representables themselves are points of the Cauchy completion. 
+Indeed, the claim is that modules $p: C^{op} \to Set$ in the Cauchy completion are precisely those presheaves on $C$ which arise as [[retract]]s of [[representable functor|representable]]s in $Set^{C^{op}}$, or in other words may be identified with objects of the [[split idempotent|idempotent-splitting]] completion of $C$ (aka the _[[Karoubi envelope]]_ of $C$). Therefore, in the $Set$-enriched case, the Cauchy completion _is_ the idempotent-splitting completion. In particular, representables themselves are points of the Cauchy completion. 
 
 Notice that in a finitely complete category (such as $Set$ or a [[presheaf]] category), idempotents $e: c \to c$ split automatically: just take the equalizer of the pair 
 
@@ -200,7 +200,7 @@ If two categories can be Morita equivalent, should this be reflected in the page
 ## References
 
 * [[Bill Lawvere]], _Metric spaces, generalized logic and closed categories_ Reprints in Theory and Applications of Categories, No. 1 (2002) pp 1-37 ([tac](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html))
-{#Lawvere}
+ {#Lawvere}
 
 [[!redirects Cauchy complete categories]]
 [[!redirects Cauchy completion]]
