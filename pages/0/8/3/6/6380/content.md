@@ -7,21 +7,20 @@
 
 ## Idea
 
-Every [[variety]] in positive characteristic has a [[formal group]] attached to it. This group is often related to arithmetic properties of the variety such as being ordinary or supersingular.
+Every [[variety]] in positive [[characteristic]] has a [[formal group]] attached to it. This group is often related to arithmetic properties of the variety such as being ordinary or supersingular.
 
 
 ## Definition
 
-Let $X$ be a smooth proper $n$ dimensional variety over an algebraically closed field $k$ of positive characteristic $p$. Define the functor $\Phi: Art_k\to Grp$ by $\Phi(S)=\mathrm{ker}(H^n_{et}(X\otimes S, \mathbb{G}_m)\to H^n_{et}(X, \mathbb{G}_m))$. It is a fundamental result of the paper of Artin and Mazur that under these hypotheses the functor is [[prorepresentable functor|prorepresentable]] by a one-dimensional formal group. This is known as the Artin-Mazur formal group.
+Let $X$ be a [[smooth scheme|smooth]] [[proper scheme|proper]] $n$ [[dimension|dimensional]] [[variety]] over an [[algebraically closed field]] $k$ of positive [[characteristic]] $p$. Define the [[functor]] $\Phi: Art_k\to Grp$ by $\Phi(S)=\mathrm{ker}(H^n_{et}(X\otimes S, \mathbb{G}_m)\to H^n_{et}(X, \mathbb{G}_m))$. It is a fundamental result of the [paper of Artin and Mazur](#ArtinMazur) that under these hypotheses the functor is [[prorepresentable functor|prorepresentable]] by a one-dimensional [[formal group]]. This is known as the **Artin-Mazur formal group** .
 
 
 
-### Examples
+## Examples
 
-For a curve, this group is often called the formal Picard group $\widehat{\mathrm{Pic}}$.
+For a [[curve]], this group is often called the **formal [[Picard group]]** $\widehat{\mathrm{Pic}}$.
 
-For a surface, this group is called the formal Brauer group $\widehat{Br}$.
-
+For a [[surface]], this group is called the **formal [[Brauer group]]** $\widehat{Br}$.
 
 
 ## Related concepts
@@ -32,6 +31,6 @@ For a surface, this group is called the formal Brauer group $\widehat{Br}$.
 
 ## References
 
-Artin, M. and B. Mazur, <a href="archive.numdam.org/article/ASENS_1977_4_10_1_87_0.pdf">Formal Groups Arising from Algebraic Varieties</a>
-
+* [[Michael Artin]] and [[Barry Mazur]], _[Formal Groups Arising from Algebraic Varieties](archive.numdam.org/article/ASENS_1977_4_10_1_87_0.pdf)_
+ {#ArtinMazur}
 
