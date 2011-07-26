@@ -1,10 +1,19 @@
-[[algebraic number|Algebraic number]] is a root of a polynomial equation with [[integer]] coefficients (or, equivalently with rational coeffients). An algebraic integer is a root of a [[monic polynomial]] with integer coefficients. Given a field $k$ a (algebraic) __number field__ $K = k[P]$ over $k$ is the minimal field containing all the roots of a given polynomial $P$ with coefficients in $k$. Usually one considers algebraic number fields over rational numbers. 
 
-Algebraic number theory studies algebraic numbers, number fields and related algebraic structures. 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Algebraic number theory studies [[algebraic numbers]], [[number fields]] and related [[algebra|algebraic]] structures. 
+
+An [[algebraic number]] is a [[root]] of a [[polynomial]] [[equation]] with [[integer]] coefficients (or, equivalently with [[rational number|rational]] coeffients). An [[algebraic integer]] is a root of a [[monic polynomial]] with integer coefficients. Given a [[field]] $k$ a (algebraic) __[[number field]]__ $K = k[P]$ over $k$ is the minimal [[field]] containing all the roots of a given polynomial $P$ with coefficients in $k$. Usually one considers algebraic number fields over rational numbers. 
 
 The main direction in algebraic number theory is the [[class field theory]] which roughly studies finite abelian extensions of number fields. The one dimensional class field theory stems from the ideas of Kronecker and Weber, and results of Hilbert soon after them. Main results of the theory belong to the first half of the 20th century (Hilbert, Artin, Tate, Hasse...) and are quite different for the [[local field]] from the [[global field]] case. Generalizations for higher dimensional fields came later under now active higher class field theory, which is usually formulated in terms of algebraic K-theory and is closely related to deep questions of algebraic geometry (Tate, Kato, Saito etc.). 
 
-The circle of $n$Lab entries belonging or realted closely to algebraic number theory is in its infancy, and the partial list of entries some of which are started and most of which are to be created should include (the entries grouped by similarity)
+## Related entries
+
+The circle of $n$Lab entries belonging or related closely to algebraic number theory is in its infancy, and the partial list of entries some of which are started and most of which are to be created should include (the entries grouped by similarity)
 
 * [[field]], [[characteristic]], [[division ring]], [[ideal]], [[integer]]
 
