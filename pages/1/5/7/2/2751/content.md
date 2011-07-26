@@ -308,4 +308,10 @@ $$
 
 and this find the usual expression of the [[curvature]] of a connection as the square of the covariant derivative.
 
+## References
+
+A discussion of covariant derivatives for a [[Levi-Civita connection]] in terms of [[synthetic differential geometry]] is in
+
+* [[Gonzalo Reyes]], _Covariant derivation_ ([pdf](http://po-start.com/reyes/wp-content/uploads/2007/01/covariant-derivation.pdf))
+
 [[!redirects covariant derivative]]
