@@ -70,7 +70,7 @@ $$
   \right\}
 $$
 
-of [[sieve]] inclusions for all [[covering]] families of the [[coverage]] $J$.
+of [[sieve]] inclusions for all [[covering]] families of the [[coverage]] $J$. (Here the [[colimit]] $\lim_\to$ is the [[coequalitzer]] of the two injection maps, as indicated. This is spelled out in more detail at [[sheaf]].)
 
 Now we invoke the following results:
 
