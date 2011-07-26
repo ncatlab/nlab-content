@@ -1,9 +1,11 @@
 
 
+* [blog](http://po-start.com/reyes/)
 
-# indexed books by Reyes on the $n$Lab #
 
-* (with [[Ieke Moerdijk]]), [[Models for Smooth Infinitesimal Analysis]]
+## Publications
+
+* (with [[Ieke Moerdijk]]), _[[Models for Smooth Infinitesimal Analysis]]_
 
   on [[synthetic differential geometry]]
 
