@@ -392,7 +392,7 @@ $$
   \underline{A} : (C \in \mathcal{C}(A)) \mapsto C
 $$
 
-in $[\mathcal{C}(A), Set] \simeq Sh(Alex(\mathcal{C}(A)))$.
+in $[\mathcal{C}(A), Set] \simeq Sh(Alex(\mathcal{C}(A)))$ equipped with the evident objectwise commutative $C^\ast$-algebra structure.
 
 
 Moreover, write
@@ -407,10 +407,56 @@ for the $C^*$-topos whose underlying [[sheaf topos]] is that for the [[double ne
 
 =--
 
+The general notion of [[morphism]]s between [[topos]]es are [[geometric morphism]]. But those that remember the morphisms of Bohr sites are [[essential geometric morphism]]s. 
+
++-- {: .num_remark}
+###### Remark
+
+Every [[functor]] $f : \mathcal{C}(A) \to \mathcal{C}(B)$ induces an [[essential geometric morphism]] 
+
+$$
+  (f_! \dasghv f^* \dashv f_*) : 
+  [\mathcal{C}(A), Set]
+    \stackrel{\overset{f_! := Lan_f}{\to}}{\stackrel{\overset{f^* := (-) \circ f}{\leftarrow}}{\underset{f_* := Ran_f }{\to}}}
+  [\mathcal{C}(B), Set]   
+$$
+
+where $Lan_f$ and $Ran_f$ are left and right [[Kan extension]] along $f$, respectively.
+
+We also write $[f,Set] : [\mathcal{C}(A), Set] \to [\mathcal{C}(B), Set]$ for this. Notice that by the equivalence of [[copresheaves]] on [[posets]] and [[sheaves]] on the corresponding [[Alexandrov locales]] (see there for details) this is equivalently
+
+$$
+  Sh (Alex(f))) : Sh(Alex \mathcal{C}(A)) \to Sh(Alex \mathcal{C}(B))
+  \,.
+$$
+
+=--
+
+The next proposition asserts that all essential geometric morphisms between Bohr toposes arise this way:
+
++-- {: .num_prop #EssentialGeomMorphismsAndPosetMorphisms}
+###### Proposition
+
+The [[essential geometric morphism]]s of the underlying toposes $Bohr(A) \to Bohr(B)$ are precisely those in image under the functor $Sh \circ Alex$ of functors $\mathcal{C}(A) \to \mathcal{C}(B)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by general abstract properties of [[essential geometric morphisms]] (see there).
+
+More concretely: by the discussion of [Alexandrov locales](#http://ncatlab.org/nlab/show/specialization+topology#AlexandrovLocales) (in the entry _[[Alexandrov space]]_ ) we have that the functor $Alex : Poset \to Locale$ takes values precisely on those morphisms of locales whose inverse image has a [[left adjoint]]. The statement then follows using the properties of [[localic reflection]], which says that the [[2-functor]] $Sh : Locale \to Topos$ is a [[full and faithful 2-functor]].
+
+=--
+
+Using this we now obtain morphisms of Bohr toposes as [[ringed toposes]].
+
 +-- {: .num_prop #BohrFunctoriality}
 ###### Proposition
 
-This construction extends to a [[functor]] of the form
+The construction of Bohr toposes from 
+def. \ref{TheSheafTopos} extends to a [[functor]] of the form
 
 $$
   Bohr 
@@ -436,7 +482,7 @@ with the special property that any $f : A \to B$ is sent to
 
 =--
 
-For the most part this is due to ([vdBergHeunen, prop. 33](#vdBergHeunen)). The extra right adjoint is observed in ([Nuiten, lemma 2.7](#Nuiten)).
+For the most part this is due to ([vdBergHeunen, prop. 33](#vdBergHeunen)). The extra adjoint is observed in ([Nuiten, lemma 2.7](#Nuiten)).
 
 +-- {: .proof}
 ###### Proof
@@ -476,24 +522,8 @@ $$
 
 =--
 
-The extra adjoints appearing here ensure the relation between the morphisms of Bohr sites and Bohr toposes:
 
-
-+-- {: .num_prop }
-###### Proposition
-
-Every [[essential geometric morphism]] $Bohr(A) \to Bohr(B)$ is in the image under $Sh \circ Alex$ of a functor $\mathcal{C}(A) \to \mathcal{C}(B)$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the discussion of [Alexandrov locales](#http://ncatlab.org/nlab/show/specialization+topology#AlexandrovLocales) in the entry _[[Alexandrov space]]_ we have that the functor $Alex : Poset \to Locale$ takes values precisely on those morphisms of locales whose inverse image has a [[left adjoint]]. The statement then follows using the properties of [[localic reflection]], which says that the [[2-functor]] $Sh : Locale \to Topos$ is a [[full and faithful 2-functor]].
-
-=--
-
-Using this, prop. \ref{BohrFunctoriality} has the following partial converse.
+Using prop. \ref{EssentialGeomMorphismsAndPosetMorphisms} the above prop. \ref{BohrFunctoriality} has the following partial converse.
 
 +-- {: .num_prop #ToposCharacterizationOfAlgebraHomomorphisms}
 ###### Proposition
@@ -519,13 +549,13 @@ In particular when $A$ is already commutative, morphisms $Bohr(B) \to Bohr(A)$ w
 +-- {: .proof}
 ###### Proof
 
-By [[localic reflection]] every [[geometric morphism]] $Sh(Alex \mathcal{C}(A)) \to Sh(Alex \mathcal{C}(B))$ comes from a morphism of locales $Alex \mathcal{C}A \to Alex \mathcal{C}A$, which by the discussion at [[Alexandrov space]] is equivalently a morphism of posets $\mathcal{C}(f) : \mathcal{C}(A) \to \mathcal{C}(B)$. By the assumption of the extra right adjoint we also have a geometric morphism the other way round, and hence by [[localic reflection]] an [[adjoint pair]]
+By prop \ref{EssentialGeomMorphismsAndPosetMorphisms} every [[essential geometric morphism]] $Sh(Alex \mathcal{C}(A)) \to Sh(Alex \mathcal{C}(B))$ comes from a morphism of locales $Alex \mathcal{C}A \to Alex \mathcal{C}A$, which by the discussion at [[Alexandrov space]] is equivalently a morphism of posets $\mathcal{C}(f) : \mathcal{C}(A) \to \mathcal{C}(B)$. By the assumption of the extra right adjoint we also have a geometric morphism the other way round, and hence, again by prop. \ref{EssentialGeomMorphismsAndPosetMorphisms}, an [[adjoint pair]]
 
 $$
   (\mathcal{C}(f) \dashv R_f) : \mathcal{C}(A) \leftrightarrow \mathcal{C}(B)
 $$
 
-that induces functors between toposes as in the above proof.
+that induces functors between toposes as in prop. \ref{BohrFunctoriality}.
 Then the fact that $f$ is a morphisms of $C^\ast$-toposes implies 
 algebra homomorphisms
 
@@ -535,7 +565,8 @@ $$
 
 [[natural transformation|natural]] in $C \in \mathcal{C}(A)$.
 
-By the assumption that this is epi we have that indeed $f(C) = image_{f_C}(C)$.
+By the assumption that this are the components of an [[epimorphism]] 
+of [[copresheaves]] all these component morphisms are themselves epimorphisms and hence we have that indeed $f(C) = image_{f_C}(C)$.
 
 =--
 
