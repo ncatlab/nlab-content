@@ -31,11 +31,6 @@ Similarly a _Killing spinor_ is a covariantly constant [[spinor]].
 * [[Killing spinor]]
 
 [[!redirects Killing vectors]]
-
 [[!redirects Killing vector field]]
 
-[[!redirects Killing spinor]]
-[[!redirects Killing spinors]]
 
-[[!redirects covariantly constant spinor]]
-[[!redirects covariantly constant spinors]]
