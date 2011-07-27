@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
 "Projective limit" is another term for what here is simply called [[limit]].  (Similarly, "[[inductive limit]]" is another term for what here is called [[colimit]].)
 
 Many authors restrict this term to limits over [[codirected sets]] (or [[cofiltered categories]]), especially the codirected set $(\mathbb{N}, \geq)$ of [[natural numbers]]; see [[codirected limit]] (or [[cofiltered limit]]) for discussion of this case if you think that it may be what you want.
