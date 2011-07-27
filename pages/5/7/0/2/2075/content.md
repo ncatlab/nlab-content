@@ -58,7 +58,11 @@ This is [[Higher Topos Theory|HTT, lemma 3.1.3.2]].
 
 * [[equivalence in an (∞,1)-category]]
 
-* **equivalence of (∞,1)-categories**
+* [[equivalence of categories]], [[adjoint functor]]
+
+* [[equivalence of 2-categories]], [[2-adjunction]]
+
+* **equivalence of (∞,1)-categories**, [[adjoint (∞,1)-functor]]
 
 
 
