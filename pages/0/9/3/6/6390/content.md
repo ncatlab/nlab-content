@@ -47,7 +47,7 @@ That some [[particle]]s have a property called [[spinor|spin]] was found in 1922
 
   * [[relativistic particle]], **spinning particle**, [[superparticle]]
 
-  * [[string]]
+  * [[string]], [[spinning string]], [[superstring]]
 
   * [[membrane]]
 
@@ -88,6 +88,10 @@ also p. 194 of
 * Warren Siegel, _Fields_ ([arXiv:hep-th/9912205](http://arxiv.org/abs/hep-th/9912205))
 
 There, first exercise IIIB1.3 gives the action expanded out in all components, and then the following exercise IIIB1.4 gives the reformulation in [[superfield formalism]] which makes manifest that the action is invariant under worldline [[supersymmetry]].
+
+See also
+
+* Roberto Casalbuoni, Joaquim Gomis, Kiyoshi Kamimura, Giorgio Longhi, _Space-time Vector Supersymmetry and Massive Spinning Particle_ ([web](http://www.mendeley.com/research/spacetime-vector-supersymmetry-and-massive-spinning-particle/))
 
 
 [[!redirects spinning particles]]
