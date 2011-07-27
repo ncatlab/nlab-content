@@ -56,7 +56,7 @@ The most famous example of this is that of [[Calabi-Yau manifolds]]: a  standard
 
 One finds that this condition is solved precisely by $Y^6$ being a [[Calabi-Yau manifold]].
 
-But notice that nothing in the theory of 10-dimensional [[supergravity]] _demands_ that its solutions have a global supersymmetry left (generically they will not) nor that they factor locally as $M^4 \times Y^6$. All this is an _ansatz_ a _phenomenological model_ . It only says that _if_ we make this ansatz, then $Y^6& needs to be a Calabi-Yau space. In fact, it turns out to be nontrivial to check that with all the other fields taken into account, such a factor ansatz is indeed consistent. (This problem of "moduli stabilization" is discussed a little bit at [[landscape of string theory vacua]].)
+But notice that nothing in the theory of 10-dimensional [[supergravity]] _demands_ that its solutions have a global supersymmetry left (generically they will not) nor that they factor locally as $M^4 \times Y^6$. All this is an _ansatz_ a _phenomenological model_ . It only says that _if_ we make this ansatz, then $Y^6$ needs to be a Calabi-Yau space. In fact, it turns out to be nontrivial to check that with all the other fields taken into account, such a factor ansatz is indeed consistent. (This problem of "moduli stabilization" is discussed a little bit at [[landscape of string theory vacua]].)
 
 Latest experimental results strongly suggest that this model of global $(N = 1)$-supersymmetry at observable energies is not a desription of our phenomenological reality. Still, it could well be that the underlying theory of the world is nevertheless not plain [[general relativity]] but [[supergravity]].
 
@@ -99,9 +99,13 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 
 * [[superparticle]]
 
+  * [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
 * [[superstring]]
 
-  [[heterotic string]], [[type II superstring]]
+  * [[heterotic string]], [[type II superstring]]
+
+  * [[(2,1)-dimensional Euclidean field theories and tmf]]
 
 ## References
 
