@@ -169,6 +169,22 @@ For example, assuming choice, a [[strict 2-functor]] between strict $2$-categori
 
 As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricategory]] of $Gray$ by formally inverting all such weak equivalences.  Note that even with the axiom of choice, $Bicat$ is *not* equivalent (as a tricategory) to $Gray$, even though by the coherence theorem for tricategories it is equivalent to *some* Gray-category; see [here](http://arxiv.org/abs/math/0612299).
 
+## Related concepts
+
+* [[equality]], [[isomorphism]], [[equivalence]]
+
+* [[weak equivalence]], [[homotopy equivalence]], [[weak homotopy equivalence]]
+
+* [[homotopy equivalence of toposes]]
+
+* [[equivalence in an (∞,1)-category]]
+
+* **equivalence of categories**, [[adjoint functor]]
+
+* [[equivalence of 2-categories]], [[2-adjunction]]
+
+* [[equivalence of (∞,1)-categories]], [[adjoint (∞,1)-functor]]
+
 
 [[!redirects equivalence of categories]]
 [[!redirects equivalences of categories]]
