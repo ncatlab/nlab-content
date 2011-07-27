@@ -25,10 +25,17 @@ A [[Calabi-Yau variety]] of any dimension is ordinary if and only if it has heig
 The height of an [[abelian variety]] depends on its $p$-rank, but must be $1$, $2$, or infinite.
 
 
-## Relation to Witt cohomology
+## Relation to Witt Cohomology
+
+Let $\mathcal{W}$ be the sheaf of Witt vectors on a variety $X$ satisfying the conditions above. If $X$ has finite height, then the [[Dieudonne module]] of the [[Artin-Mazur formal group]] is isomorphic to $H^n(X, \mathcal{W})$. By standard Dieudonne theory, $D(\Phi)$ is a free of rank $ht(X)$ module over $W$, so $ht(X)=\dim_K H^n(X, \mathcal{W})\otimes K$ where $K$ is the fraction field of $W$.
+
+One consequence of the above is that $X$ is supersingular (of infinite height) if $H^n(X, \mathcal{W})$ is not a finite-type $W$-module. It is possible also that it is a torsion module in which case $H^n(X, \mathcal{W})\otimes K=0$ and again we can conclude that $X$ is of infinite height (since if $X$ were of finite height it would be a free module).
 
 
 ## Relation to Crystalline Cohomology
+
+Suppose that $X$ is a variety with the above hypotheses, then the [[crystalline cohomology]] $H^n_{crys}(X/W)$ is a [[Cartier module]] under the action of Frobenius. We can consider the part with slopes less than $1$, i.e. $H^n_{crys}(X/W)_{[0,1)}$. The rank of this as a $W$-module is the height of $X$.
+
 
 
 
