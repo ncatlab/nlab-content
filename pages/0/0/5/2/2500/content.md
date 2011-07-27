@@ -85,7 +85,9 @@ In the absence of further fields besides gravity, the condition that such a conf
 
 More generally, in the presence of other [[background gauge field]]s, the Calabi-Yau condition here is deformed. One also speaks of [[generalized Calabi-Yau space]]s. (For instance ([GMPT05](#GMPT))).
 
+For more see 
 
+* [[supersymmetry and Calabi-Yau manifolds]]
 
 
 ## Examples
@@ -136,6 +138,14 @@ The [[Cauchy problem]] for classical solutions of simple supergravity has been d
 * [[Yvonne Choquet-Bruhat]], 
   _[[The Cauchy Problem in Classical Supergravity]]_
   Letters in Mathematical Physics 7 (1983) 459-467. 0377
+
+
+A canonical textbook reference for the role of Calabi-Yau manifolds in compactifications of 10-dimensional [[supergravity]] is volume II, starting on page 1091 in
+
+* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  
+
+  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
 
 Discussion of solutions with $N = 1$ global supersymmetry left and their relation to Calabi-Yau compactifications are for instance in 
 
