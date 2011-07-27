@@ -1,0 +1,99 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+This entry collects linked keywords for the book
+
+* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  
+
+  _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+on [[quantum field theory]] and [[string theory]].
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Volume I
+
+### Part 1: Classical fields and Supersymmetry
+
+* [[supersymmetry]]
+
+### Part 2: Formal Aspects of QFT
+
+## Volume II
+
+
+### Part 3: Conformal field theory and strings
+
+#### Lectures on Conformal Field Theory
+
+* [[CFT]]
+
+#### Perturbative String Theory
+
+##### Lecture 1. Point varticles and strings
+
+##### Lecture 2. Spectrum of the free bosonic string
+
+##### Lecture 3. String amplitudes and moduli space of curves
+
+##### Lecture 4. Fadeev-Popov Ghost -- BRST Quantization
+
+##### Lecture 5. Moduli dependence of determinants and Green functions
+
+##### Lecture 6. Strings on general manifolds
+
+* [[Killing spinor]]
+
+##### Lecture 7. Free superstrings
+
+##### Lecture 8. Heterotic strings
+
+* [[heterotic string theory]]
+
+##### Lecture 9. Superstring perturbation theory
+
+##### Lecture 10. Supersymmetry and supergravity
+
+* [[supersymmetry]]
+
+* [[supergravity]]
+
+
+
+#### Super Space Description of Super Gravity
+
+* [[supergravity]]
+
+#### Notes on 2d Conformal Field Theory and String Theory
+
+#### Kaluza-Klein Compactifications, Supersymmetry, and Calabi Yau Spaces
+
+##### Lecture 1. Compactifications to dimension four
+
+##### Lecture 2. Supersymmetry and Calabi-Yau manifolds
+
+* [[supersymmetry and Calabi-Yau manifolds]]
+
+### Part 4: Dynamicl Aspects of QFT
+
+#### Dynamics of Quantum Field Theory
+
+#### Dynamics of $N = 1$ Supersymmetric Field Theories in Four Dimensions
+
+category: reference
