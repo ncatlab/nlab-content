@@ -1,0 +1,1 @@
+__Kronecker-Weber theorem.__ Every abelian extension of the field $\mathbf{Q}$ of rational numbers is contained in some [[cyclotomic field]] (extension of $\mathbf{Q}$ by roots of unity). 
