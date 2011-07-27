@@ -11,7 +11,7 @@ A $p$-divisible group is special type of directed system of finite [[group schem
 
 Fix a prime $p$, positive integer $h$, and a [[commutative ring]] $R$. A **p-divisible group** of height $h$ over $R$ is an directed system $(G_\nu, i_\nu)_{\nu \in \mathbb{N}}$ where each $G_\nu$ is a finite commutative [[group scheme]] over $R$ of order $p^{\nu h}$ that also satisfies the property that $0\to G_\nu \stackrel{i_\nu}{\to} G_{\nu +1}\stackrel{p^\nu}{\to} G_{\nu +1}$ is exact. In other words, the maps of the system identify $G_\nu$ with the kernel of multiplication by $p^\nu$ in $G_{\nu +1}$.
 
-Some authors refer to the $p$-divisible group as the limit of the system $\lim_{\to} G_\nu$. Note that if everything is affine, $G_\nu=\mathrm{Spec}(A_\nu)$ and the limit $\lim_{\to}G_\nu = \mathrm{Spec}(\lim_{\leftarrow} A_\nu)=\mathrm{Spf}(A)$.
+Some authors refer to the $p$-divisible group as the colimit of the system $\lim_{\to} G_\nu$. Note that if everything is affine, $G_\nu=\mathrm{Spec}(A_\nu)$ and the limit $\lim_{\to}G_\nu = \mathrm{Spec}(\lim_{\leftarrow} A_\nu)=\mathrm{Spf}(A)$.
 
 It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutative [[formal group]] $G$ for which $p: G\to G$ is an [[isogeny]].
 
