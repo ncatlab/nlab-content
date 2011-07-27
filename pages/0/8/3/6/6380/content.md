@@ -1,9 +1,7 @@
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -13,7 +11,6 @@ Every [[variety]] in positive [[characteristic]] has a [[formal group]] attached
 ## Definition
 
 Let $X$ be a [[smooth scheme|smooth]] [[proper scheme|proper]] $n$ [[dimension|dimensional]] [[variety]] over an [[algebraically closed field]] $k$ of positive [[characteristic]] $p$. Define the [[functor]] $\Phi: Art_k\to Grp$ by $\Phi(S)=\mathrm{ker}(H^n_{et}(X\otimes S, \mathbb{G}_m)\to H^n_{et}(X, \mathbb{G}_m))$. It is a fundamental result of the [paper of Artin and Mazur](#ArtinMazur) that under these hypotheses the functor is [[prorepresentable functor|prorepresentable]] by a one-dimensional [[formal group]]. This is known as the **Artin-Mazur formal group** .
-
 
 
 ## Examples
@@ -29,8 +26,16 @@ For a [[surface]], this group is called the **formal [[Brauer group]]** $\wideha
 
 * [[height of a variety]]
 
+
 ## References
 
 * [[Michael Artin]], [[Barry Mazur]], _Formal Groups Arising from Algebraic Varieties_, [numdam](http://www.numdam.org/item?id=ASENS_1977_4_10_1_87_0), [MR56:15663](http://www.ams.org/mathscinet-getitem?mr=56:15663)
  {#ArtinMazur}
 
+
+[[!redirects Artin-Mazur formal group]]
+[[!redirects Artin-Mazur formal groups]]
+[[!redirects Artin–Mazur formal group]]
+[[!redirects Artin–Mazur formal groups]]
+[[!redirects Artin--Mazur formal group]]
+[[!redirects Artin--Mazur formal groups]]
