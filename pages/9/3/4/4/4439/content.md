@@ -9,11 +9,11 @@ Literature on [[string theory]].
 
 ## Mathematically inclined monographs about string theory
 
-* P. Deligne, P. Etingof, D.S. Freed, L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and E. Witten, eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 * Paul Aspinwall, Tom Bridgeland, Alastair Craw, Michael R. Douglas, Mark Gross, _Dirichlet branes and mirror symmetry_, Amer. Math. Soc. Clay Math. Institute 2009.
 
-* [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, in preparation
+* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011)
 
 * Igor V. Dolgachev, [Introduction to string theory](http://www.math.lsa.umich.edu/~idolga/lecturenotes.html)
 
