@@ -1,0 +1,12 @@
+
+* [webpage](http://www.phys.ufl.edu/~ramond/)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Pierre_Ramond)
+
+## related entries
+
+* [[string theory]]
+
+* [[spinning string]]
+
+category: people
