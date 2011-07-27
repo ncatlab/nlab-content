@@ -1,6 +1,11 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-Abelian varieties are higher dimensional analogues of [[elliptic curve]]s (which are included) -- they are varieties equipped with a structure of an [[abelian group]] whose multiplication and inverse are regular maps.
+Abelian varieties are higher dimensional analogues of [[elliptic curve]]s (which are included) -- they are [[varieties]] equipped with a structure of an [[abelian group]] whose multiplication and inverse are regular maps.
 
 ## Literature
 
