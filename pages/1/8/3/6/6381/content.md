@@ -40,6 +40,7 @@ The height of an [[abelian variety]] depends on its $p$-rank, but must be $1$, $
 
 ## References
 
-* [[Michael Artin]], [[Barry Mazur]], _[Formal Groups Arising from Algebraic Varieties](archive.numdam.org/article/ASENS_1977_4_10_1_87_0.pdf)_
+* [[Michael Artin]], [[Barry Mazur]], _Formal Groups Arising from Algebraic Varieties_, [numdam](http://www.numdam.org/item?id=ASENS_1977_4_10_1_87_0), [MR56:15663](http://www.ams.org/mathscinet-getitem?mr=56:15663)
+ {#ArtinMazur}
 
 
