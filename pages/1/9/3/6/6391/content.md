@@ -1,0 +1,61 @@
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A $p$-divisible group is special type of directed system of finite [[group scheme]]s whose orders grow in a uniform way. They arise naturally in many arithmetic situations such as the $p$-torsion groups of [[abelian varieties]].
+
+
+## Definition
+
+Fix a prime $p$, positive integer $h$, and a [[commutative ring]] $R$. A **p-divisible group** of height $h$ over $R$ is an directed system $(G_\nu, i_\nu)_{\nu \in \mathbb{N}}$ where each $G_\nu$ is a finite commutative [[group scheme]] over $R$ of order $p^{\nu h}$ that also satisfies the property that $0\to G_\nu \stackrel{i_\nu}{\to} G_{\nu +1}\stackrel{p^\nu}{\to} G_{\nu +1}$ is exact. In other words, the maps of the system identify $G_\nu$ with the kernel of multiplication by $p^\nu$ in $G_{\nu +1}$.
+
+Some authors refer to the $p$-divisible group as the limit of the system $\lim_{\to} G_\nu$. Note that if everything is affine, $G_\nu=\mathrm{Spec}(A_\nu)$ and the limit $\lim_{\to}G_\nu = \mathrm{Spec}(\lim_{\leftarrow} A_\nu)=\mathrm{Spf}(A)$.
+
+It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutative [[formal group]] $G$ for which $p: G\to G$ is an [[isogeny]].
+
+
+
+## Examples
+
+* The motivating example is the Barsotti-Tate group of an [[abelian variety]]. Let $X$ be an [[abelian variety]] over $R$ of dimension $g$, then the multiplication map by $p^\nu$ has kernel $_{p^\nu}X$ which is a finite [[group scheme]] over $R$ of order $p^{2g \nu}$. The natural inclusions satisfy the conditions for the limit denoted $X(p)$ to be a $p$-divisible group of height $2g$.
+
+* Similarly, the kernel of raising to the $p^\nu$ power on $\mathbb{G}_m$ is a [[group scheme]] $\mu_{p^\nu}$. The limit $\lim_{\to} \mu_{p^\nu}=\mu_{p^\infty}$ is a $p$-divisible group of height $1$.
+
+* A theorem of [Serre and Tate](#Tate) says that there is an [[equivalence of categories]] between divisible, commutative, formal [[Lie group]]s over $R$ and the category of connected $p$-divisible groups over $R$ given by $\Gamma \mapsto \Gamma (p)$, where $\Gamma(p)=\lim_{\to} \mathrm{ker}(p^n)$. In particular, every connected $p$-divisible group is smooth {#Tate}
+
+
+## The Cartier Dual
+
+* Given a $p$-divisible group $G$, each individual $G_\nu$ has a [[Cartier dual]] $G_\nu^D$ since they are all group schemes. There are also maps $j_\nu$ that make the composite $G_{\nu+1}\stackrel{j_\nu}{\to} G_\nu \stackrel{i_\nu} G_{\nu +1}$ the multiplication by $p$ on $G_{\nu +1}$. After taking duals, the composite is still the multiplication by $p$ map on $G_{\nu +1}^D$, so it is easily checked that $(G_{\nu}^D, j_{\nu}^D)$ forms a $p$-divisible group called the Cartier dual.
+
+* One of the important properties of the Cartier dual is that one can determine the height of a $p$-divisible group (often a hard task when in the abstract) using the information of the dimension of the formal group and its dual. For any $p$-divisible group, $G$, we have the formula that $ht(G)=ht(G^D)=\dim G + \dim G^D$.
+
+### Examples
+
+* The dual $\mu_{p^\infty}^D\simeq \mathbb{Q}_p/\mathbb{Z}_p$. 
+
+* For an abelian variety $X$, the dual is $X(p)^D=X^t(p)$ where $X^t$ denotes the dual abelian variety. Another proof that $X(p)$ has height $2g$ is to note that $X$ and $X^t$ have the same dimension $g$, so using our formula for height we get $ht(X(p))=2g$.
+
+
+
+
+## Related concepts
+
+* [[formal group]]
+
+* [[Artin-Mazur formal group]]
+
+* [[height of a variety]]
+
+## References
+
+* John Tate, $p$-Divisible Groups, Proceedings of a Conference on Local Fields, 1966 {#Tate}
+
+* Stephen Shatz, Group Schemes, Formal Groups, and $p$-Divisible Groups in the book Arithmetic Geometry Ed. Gary Cornell and Joseph Silverman
+
+* Michel Demazure, Lectures on $p$-Divisible Groups
+ 
+
+
