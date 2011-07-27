@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/John_Henry_Schwarz)
+
+## related entries
+
+* [[string theory]]
+
+* [[spinning string]]
+
+category: people
