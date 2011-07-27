@@ -1,0 +1,45 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _Killing spinor_ on a ([[pseudo-Riemannian manifold|pseudo]]-)[[Riemannian manifold]] is a _covariantly constant [[spinor]]_ : a [[section]] of some [[spinor bundle]] $v \in \Gamma(S)$ that is annihilated by  the [[covariant derivative]] of the corresponding [[Levi-Civita connection]].
+
+
+Similarly a _[[Killing vector]]_ is a covariantly constant [[vector field]].
+
+
+## Related concepts
+
+* [[Killing vector]]
+
+## References
+
+A discussion with an eye towards applications in [[supersymmetry]] is around page 907 in volume II of
+
+* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  
+
+  _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+
+
+
+[[!redirects covariantly constant spinor]]
+[[!redirects covariantly constant spinors]]
