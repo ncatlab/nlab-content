@@ -70,7 +70,11 @@ Superconformal invariance of the spinning string was discussed in
 
 * [[Paul Howe]], _Super Weyl transformations in two dimensions_ J. Phys. 12 (1979) 393. 
 
-A review of some technical aspects is in the wiki
+A review of the history of these developments is in 
+
+* [[John Schwarz]], _String theory origins of supersymmetry_, Nucl. Phys. Proc. Suppl. 101 (2001) 54-61 ([arXiv:hep-th/0011078](http://arxiv.org/abs/hep-th/0011078))
+
+An exposition of some technical aspects is in the wiki
 
 * [The Tangent Bundle](http://www.physics.thetangentbundle.net/wiki/Main_Page), _[RNS superstring](http://www.physics.thetangentbundle.net/wiki/String_theory/RNS_superstring)_
 
