@@ -16,6 +16,12 @@
 
 In [[string theory]] a [[spacetime]] [[landscape of string theory vacua|vaccuum]] is encoded by a [[sigma-model]] 2-dimensional [[SCFT]]. In _heterotic string theory_ that SCFT is assumed to be the sum of a supersymmetric chiral piece and a  non-supersymmetric piece (therefore "heterotic").
 
+## Backgrounds
+
+An effective [[target space]] [[quantum field theory]] induced from a given heterotic 2d [[CFT]] [[sigma model]] that has a [[spacetime]] of the form $M^4 \times Y^6$ for $M^4$ the 4-dimensional [[Minkowski space]] that is experimentally observed locally (say on the scale of a particle accelerator) has $N= 1$ global [[supersymmetry]] precisely if the remaining 6-dimensional [[Riemannian manifold]] $Y^6$ is a [[Calabi-Yau manifold]]. See the [references below](#ReferencesNEqOne). 
+
+Since global $N=1$ supersymmetry for a long time has been considered a promising phenomenological model in high energy physics, this fact has induced a lot of interest in heterotic string background with a Yalabi-Yau factor.
+
 
 ## Related concepts
 
@@ -30,6 +36,14 @@ In [[string theory]] a [[spacetime]] [[landscape of string theory vacua|vaccuum]
   * [[type II string theory]]
 
 * [[landscape of string theory vacua]]
+
+## References
+
+### On $N=1$ supersymmetric backgrounds
+ {#ReferencesNEqOne}
+
+* _Why Calabi-Yau?_ ([pdf](http://www-personal.umich.edu/~mcdermod/JournalClub/ekuflik_Notes_3-27-08.pdf))
+
 
 [[!redirects heterotic superstring]]
 [[!redirects heterotic superstrings]]
