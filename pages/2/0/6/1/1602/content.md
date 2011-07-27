@@ -20,7 +20,7 @@
 
 ## Idea
 
-A **Green-Schwarz mechanism** is a modification of an [[action functional]] of a [[quantum field theory]] involving higher [[gauge field]]s that makes a [[quantum anomaly]] of the original action functional disappear.
+A **Green-Schwarz mechanism** (named after [[Michael Green]] and [[John Schwarz]]) is a modification of an [[action functional]] of a [[quantum field theory]] involving higher [[gauge field]]s that makes a [[quantum anomaly]] of the original action functional disappear.
 
 More in detail:
 
