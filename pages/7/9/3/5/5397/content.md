@@ -1,2 +1,12 @@
 
-[bicommutant theorem] (http://en.wikipedia.org/wiki/Von_Neumann_bicommutant_theorem)
+## Statement
+
+The bicommutant theorem (as known as the double commutant theorem, or von Neumann's double commutant theorem) is the following result. 
+
+Let $A \subseteq B(H)$ be a sub-$\ast$-algebra of the [[C-star algebra]] of [[bounded linear operator|bounded linear operators]] on a Hilbert space $H$. Then $A$ is a [[von Neumann algebra]] on $H$ if and only if $A = A''$, where $A'$ denotes the [[commutant]] of $A$. 
+
+Notice that the condition of $A$ being a von Neumann algebra (being closed in the weak operator topology; "weak" here can be replaced by "strong", "ultrastrong", or "ultraweak" as described in [[operator topology]]), which is a topological condition, is by this result equivalent to an algebraic condition (being equal to its bicommutant).  
+
+## References 
+
+* Wikipedia article: [bicommutant theorem] (http://en.wikipedia.org/wiki/Von_Neumann_bicommutant_theorem)
