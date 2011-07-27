@@ -1,0 +1,61 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _spinning string_ is a variant of the [[string]] in direct analogy (but one [[worldvolume]] [[dimension]] higher) to how the [[spinning particle]] is a variant of the [[particle]].
+
+And just as as the [[spinning particle]] automatically exhibits local [[worldline supersymmetry]], the spinning string automatically exhibits local [[worldsheet]] [[supersymmetry]]. For that reason it is today almost exclusively known as the _[[superstring]]_ . 
+
+In fact, the very notion of [[supersymmetry]] was realized (in parallel to its independent discovery in Russia) when people noticed that the spinning string [[sigma-model]] -- also called the _Neveu-Ramond-Schwarz model_ (NSR model) -- automatically exhibits this extra graded symmetry.
+
+## Related concepts
+
+* [[sigma model]], [[brane]]
+
+  * [[relativistic particle]], [[spinning particle]], [[superparticle]]
+
+  * [[string]], **spinning string** , [[superstring]]
+
+  * [[membrane]]
+
+* [[string theory]]
+
+## References
+
+The original articles that formulated the NSR model are
+
+* A. Neveu, [[John Schwarz]], Nucl. Phys. B31, 86 (1971)
+
+* [[Pierre Ramond]], Phys Rev. D3  2415 (1971)
+
+Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the spinning string include
+
+* S. Deser,; B. Zumino, . _A complete action for the spinning string_ Physics Letters B 65 (4): 369-373 (1976) ([pdf](http://cdsweb.cern.ch/record/201648/files/CM-P00061857.pdf?version=1)) 
+
+* L. Brink, P. Di Vecchia and [[Paul Howe]], _A locally supersymmetric and reparametrization invariant action for the spinning string_ , Physics Letters B Volume 65, Issue 5, 20 (1976) Pages 471-474 
+
+Superconformal invariance of the spinning string was discussed in
+
+* [[Paul Howe]], _Super Weyl transformations in two dimensions_ J. Phys. 12 (1979) 393. 
+
+A review of some technical aspects is in the wiki
+
+* [The Tangent Bundle](http://www.physics.thetangentbundle.net/wiki/Main_Page), _[RNS superstring](http://www.physics.thetangentbundle.net/wiki/String_theory/RNS_superstring)_
+
+Reviews and survays are also in any text on [[string theory]]. See the references there for more detail.
+
+[[!redirects spinning string]]
