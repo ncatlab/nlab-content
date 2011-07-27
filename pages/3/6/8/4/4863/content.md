@@ -120,6 +120,11 @@ While interesting, there are few tools known for performing this classification.
 
 ## References
 
+A textbook discussion in the context of [[supergravity]] is in vol II, from p. 1091 on in
+
+* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds. , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+
 A survey of the history of the role of the KK-mechanism in theoretical physics is
 
 * [[Michael Duff]], _Kaluza-Klein Theory in Perspective_ ([arXiv](http://arxiv.org/abs/hep-th/9410046))
