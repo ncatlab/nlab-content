@@ -65,13 +65,17 @@ These aspects have motivated the impression that the string perturbation series 
 
 * string theory
 
-  * [[heterotic string theory]]
+  * [[sigma model]], [[string]], [[CFT]]
 
-    * [[Green-Schwarz mechanism]]
+  * [[spinning string]], [[superstring]]
 
-    * [[dual heterotic string theory]]
+    * [[heterotic string theory]]
 
-  * [[type II string theory]]
+      * [[Green-Schwarz mechanism]]
+
+      * [[dual heterotic string theory]]
+
+    * [[type II string theory]]
 
 * [[landscape of string theory vacua]]
 
