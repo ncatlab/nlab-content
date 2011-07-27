@@ -31,6 +31,23 @@ There is one warning to keep in mind here.  Every $3$-category is equivalent to 
 
 In particular, an "internal (bi)equivalence" in $Gray$ consists of *strict* $2$-functors $F,G$ together with pseudonatural equivalences relating $G F$ and $F G$ to identities.  This is a semistrict notion of equivalence, intermediate between the fully weak notion and the fully strict one.
 
+## Related concepts
+
+* [[equality]], [[isomorphism]], [[equivalence]]
+
+* [[weak equivalence]], [[homotopy equivalence]], [[weak homotopy equivalence]]
+
+* [[homotopy equivalence of toposes]]
+
+* [[equivalence in an (∞,1)-category]]
+
+* [[equivalence of categories]], [[adjoint functor]]
+
+* **equivalence of 2-categories**, [[2-adjunction]]
+
+* [[equivalence of (∞,1)-categories]], [[adjoint (∞,1)-functor]]
+
+
 
 [[!redirects equivalence of 2-categories]]
 [[!redirects equivalences of 2-categories]]
