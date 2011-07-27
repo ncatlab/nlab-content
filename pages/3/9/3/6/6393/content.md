@@ -22,9 +22,9 @@ And just as as the [[spinning particle]] automatically exhibits local [[worldlin
 
 In fact, the very notion of [[supersymmetry]] was realized (in parallel to its independent discovery in Russia) when people noticed that the spinning string [[sigma-model]] -- also called the _Neveu-Ramond-Schwarz model_ (**NSR model**) -- automatically exhibits this extra graded symmetry.
 
-When supplemented with an operation called the _[[GSO projection]]_ also the [[second quantization]] of the spinning string -- its effective [[target space|target]] [[spacetime]] theory -- becomes a locally supersymmetric theory: [[spacetime]] [[supergravity]].
+When supplemented with an operation called the _[[GSO projection]]_, the [[second quantization]] of the spinning string -- its effective [[target space|target]] [[spacetime]] theory -- also becomes a locally supersymmetric theory: [[spacetime]] [[supergravity]].
 
-There are other formulations of the [[superstring]] which are thought to be equivalent is some sense. Notably the [[Green-Schwarz superstring]] is a sigma-model which is not supersymmetric on the [[worldsheet]] but instead takes values in a genuine [[spacetime]] [[supermanifold]].
+There are other formulations of the [[superstring]] which are thought to be equivalent in some sense. Notably the [[Green-Schwarz superstring]] is a sigma-model which is not supersymmetric on the [[worldsheet]] but instead takes values in a genuine [[spacetime]] [[supermanifold]].
 
 ## Related concepts
 
