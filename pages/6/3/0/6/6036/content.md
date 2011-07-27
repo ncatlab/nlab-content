@@ -26,9 +26,9 @@ Much of traditional [[quantum field theory]] on $X$ can be understood in terms o
 
 * [[sigma model]], [[brane]]
 
-  * [[particle]], [[superparticle]]
+  * [[particle]], [[spinning particle]], [[superparticle]]
 
-  * [[string]]
+  * [[string]], [[spinning string]], [[superstring]]
 
   * [[membrane]]
 
