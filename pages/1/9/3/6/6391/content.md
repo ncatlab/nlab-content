@@ -5,7 +5,7 @@
 
 ## Idea
 
-A $p$-divisible group is special type of [[inductive limit|inductive system]] of finite [[group scheme]]s whose orders grow in a uniform way. They arise naturally in many arithmetic situations such as the $p$-torsion groups of [[abelian varieties]].
+A $p$-divisible group is special type of [[inductive system]] of finite [[group scheme]]s whose orders grow in a uniform way. They arise naturally in many arithmetic situations such as the $p$-torsion groups of [[abelian varieties]].
 
 (There is also a more elementary notion of $p$-divisible group; see [[divisible group]].)
 
@@ -31,7 +31,7 @@ It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutati
 
 ## The Cartier dual
 
-* Given a $p$-divisible group $G$, each individual $G_\nu$ has a <a href="http://ncatlab.org/nlab/show/group+scheme#cartier_dual_12">Cartier dual</a> $G_\nu^D$ since they are all group schemes. There are also maps $j_\nu$ that make the composite $G_{\nu+1}\stackrel{j_\nu}{\to} G_\nu \stackrel{i_\nu}{\to} G_{\nu +1}$ the multiplication by $p$ on $G_{\nu +1}$. After taking duals, the composite is still the multiplication by $p$ map on $G_{\nu +1}^D$, so it is easily checked that $(G_{\nu}^D, j_{\nu}^D)$ forms a $p$-divisible group called the Cartier dual.
+* Given a $p$-divisible group $G$, each individual $G_\nu$ has a [[Cartier dual]] $G_\nu^D$ since they are all group schemes. There are also maps $j_\nu$ that make the composite $G_{\nu+1}\stackrel{j_\nu}{\to} G_\nu \stackrel{i_\nu}{\to} G_{\nu +1}$ the multiplication by $p$ on $G_{\nu +1}$. After taking duals, the composite is still the multiplication by $p$ map on $G_{\nu +1}^D$, so it is easily checked that $(G_{\nu}^D, j_{\nu}^D)$ forms a $p$-divisible group called the Cartier dual.
 
 * One of the important properties of the Cartier dual is that one can determine the height of a $p$-divisible group (often a hard task when in the abstract) using the information of the dimension of the formal group and its dual. For any $p$-divisible group, $G$, we have the formula that $ht(G)=ht(G^D)=\dim G + \dim G^D$.
 
