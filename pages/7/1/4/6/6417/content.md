@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Kenneth_G._Wilson)
+
+## related entries
+
+* [[effective field theory]]
+
+category: people
