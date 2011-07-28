@@ -62,7 +62,7 @@ A standard textbook exposition is section 6.6 of
 
 The fact that a single Cauchy surface implies a foliation by Cauchy surfaces is due to 
 
-* Geroch, (1970)
+* [[Robert Geroch]], (1970)
  {#Geroch}
 
 
