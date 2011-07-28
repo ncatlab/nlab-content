@@ -1,4 +1,6 @@
 
+> this entry should be merged with [[category of sheaves]]
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -10,14 +12,14 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Definition##
 
 Classically, we have:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 
 A __Grothendieck topos__ $\mathcal{T}$ is a category that admits a [[geometric embedding]]
 
@@ -34,7 +36,8 @@ This is equivalently the [[category of sheaves]] ([[Set]]-valued [[presheaves]] 
 
 Since smallness can be relative, we also have:
 
-+-- {: .un_defn}
++-- {: .num_defn}
+
 For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck topos__ over $S$ is a [[category of sheaves]] ($S$-valued [[presheaves]] satisfying the sheaf condition) over a [[site]] which is [[small category|small]] relative to $S$, that is a site [[internal category|internal]] to $S$.
 =--
 
@@ -52,8 +55,18 @@ By the general theory of [[geometric morphisms]], every Grothendieck topos sits 
 
 * Sometimes it is useful to distinguish between [[petit topos]] and [[gros topos]].
 
+## Properties
 
-## Giraud\'s axioms
+### General
+
++-- {: .un_prop}
+###### Proposition
+
+Every Grothendieck topos is a [[total category]] and a [[cototal category]].
+
+=--
+
+### Giraud\'s axiomatic characterization
 
 Giraud characterized Grothendieck toposes as categories satisfying certain exactness and small [[complete category|completeness]] properties (where "small" is again relative to the given category of sets $S$). The exactness properties are elementary (not depending on $S$), and are satisfied in any elementary [[topos]], or even a [[pretopos]].
 
@@ -73,9 +86,6 @@ See the [[Elephant]], theorem C.2.2.8.  See also [Wikipedia](https://secure.wiki
 Sometimes (3,4) are combined and strengthened to the statement that the category has all small [[colimits]], which are effective and pullback-stable.  However, this is a mistake for two reasons: it is a significantly stronger axiomatisation (since without the small generating set, not every infinitary pretopos has this property), and it is not valid in predicative mathematics (while the definition given above is).
 
 
-## Generalizations
-
-The notion of Grothendieck topos and its characterization from Giraud-type properties can be generalized from the context of categories to that of [[(∞,1)-categories]], where it yields the notion of [[(∞,1)-topos]].
 
 
 ## In weak foundations
@@ -95,6 +105,16 @@ Constructivism as such is irrelevant; even in [[classical mathematics]], most Gr
 
 The theorem that every Grothendieck topos is [[cocomplete category|cocomplete]] is a subtle point; it fails only in finitist predicative mathematics.
 
+
+## Related concepts
+
+* [[topos]]
+
+  * **Grothendieck topos**,  [[category of sheaves]]
+
+  * [[2-sheaf 2-topos]]
+
+  * [[(∞,1)-sheaf (∞,1)-topos]]
 
 ## References
 
