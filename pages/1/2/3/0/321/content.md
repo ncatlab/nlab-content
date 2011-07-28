@@ -153,7 +153,7 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 
 ## References ##
 
-An exposition discussing the fole of spans in [[quantum field theory]]:
+An exposition discussing the role of spans in [[quantum field theory]]:
 
 * [[John Baez]], _Spans in quantum Theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf), [blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
 
