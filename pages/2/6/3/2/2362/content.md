@@ -1,8 +1,28 @@
 
-The term "direct limit" is another term for what here is simply called [[colimit]].  (Similarly, "[[inverse limit]]" is another term for what here is called [[limit]].)
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++-- {: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
 
-Many authors restrict this term to colimits over [[directed sets]] (or [[filtered categories]]), especially the directed set $(\mathbb{N}, \leq)$ of [[natural numbers]]; see [[directed colimit]] (or [[filtered colimit]]) for discussion of this case if you think that it may be what you want.
+A __direct limit__ is the same thing as a [[colimit]].  (Similarly, an [[inverse limit]] is the same thing as a [[limit]].)  In this context, a __direct system__ is the same thing as a [[diagram]], and a __direct cone__ is the same thing as a [[cocone]].
+
+Many authors restrict this terminology to limits over [[directed sets]] (or [[filtered categories]]), especially the directed set $(\mathbb{N},\leq)$ of [[natural numbers]]; see [[directed colimit]] (or [[filtered colimit]]) for discussion of this case if you think that it may be what you want.
 
 
 [[!redirects direct limit]]
 [[!redirects direct limits]]
+
+[[!redirects direct system]]
+[[!redirects direct systems]]
+
+[[!redirects direct cone]]
+[[!redirects direct cones]]
