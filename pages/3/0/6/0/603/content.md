@@ -53,7 +53,7 @@ Nils Baas has made, in print and in private communication, suggestions for a for
 * Nils Baas, _Introducing abstract matter_ ([pdf](http://pagesperso-orange.fr/vbm-ehr/ChEh/articles/Baas%20paper.pdf))
 
 
-* N.A.Baas; _Hyperstructures as Abstract Matter_ ,Advances in Comlex Systems, vol.9 , no 3(2006),157-182.
+* N.A.Baas; _Hyperstructures as Abstract Matter_ , Advances in Complex Systems, vol.9 , no 3(2006), 157-182.
 
 * N.A.Baas, _Hyperstructures, Topology and Datasets_ , Axiomathes 19(2009), 215-221.
 
