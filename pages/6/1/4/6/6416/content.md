@@ -1,0 +1,14 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Robert_Geroch)
+
+## some publications
+
+* _Partial Differential Equations of Physics_ ([arXiv:gr-qc/9602055](http://arxiv.org/abs/gr-qc/9602055))
+
+## related entries:
+
+* [[general relativity]]
+
+
+
+category: people
