@@ -1,8 +1,28 @@
 
-The term "inverse limit" is another name for what here is simply called [[limit]].  (Similarly, "[[direct limit]]" is another term for what here is called [[colimit]].)
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++-- {: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
 
-Many authors restrict this term to limits over [[codirected sets]] (or [[cofiltered categories]]), especially the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]]; see [[codirected limit]] (or [[cofiltered limit]]) for discussion of this case if you think that it may be what you want.
+An __inverse limit__ is the same thing as a [[limit]].  (Similarly, a [[direct limit]] is the same thing as a [[colimit]].)  In this context, an __inverse system__ is the same thing as a [[diagram]], and an __inverse cone__ is the same thing as a [[cone]].
+
+Many authors restrict this terminology to limits over [[codirected sets]] (or [[cofiltered categories]]), especially the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]]; see [[codirected limit]] (or [[cofiltered limit]]) for discussion of this case if you think that it may be what you want.
 
 
 [[!redirects inverse limit]]
 [[!redirects inverse limits]]
+
+[[!redirects inverse system]]
+[[!redirects inverse systems]]
+
+[[!redirects inverse cone]]
+[[!redirects inverse cones]]
