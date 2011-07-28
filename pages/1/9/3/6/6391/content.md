@@ -5,7 +5,7 @@
 
 ## Idea
 
-A $p$-divisible group is special type of [[directed system]] of finite [[group scheme]]s whose orders grow in a uniform way. They arise naturally in many arithmetic situations such as the $p$-torsion groups of [[abelian varieties]].
+A $p$-divisible group is special type of [[inductive limit|inductive system]] of finite [[group scheme]]s whose orders grow in a uniform way. They arise naturally in many arithmetic situations such as the $p$-torsion groups of [[abelian varieties]].
 
 (There is also a more elementary notion of $p$-divisible group; see [[divisible group]].)
 
@@ -14,7 +14,7 @@ A $p$-divisible group is special type of [[directed system]] of finite [[group s
 
 Fix a [[prime number]] $p$, a [[natural number|positive integer]] $h$, and a [[commutative ring]] $R$. A **$p$-divisible group** of height $h$ over $R$ is a directed system $(G_\nu, i_\nu)_{\nu \in \mathbb{N}}$ where each $G_\nu$ is a finite commutative [[group scheme]] over $R$ of order $p^{\nu h}$ that also satisfies the property that $0\to G_\nu \stackrel{i_\nu}{\to} G_{\nu +1}\stackrel{p^\nu}{\to} G_{\nu +1}$ is [[exact sequence|exact]]. In other words, the maps of the system identify $G_\nu$ with the [[kernel]] of multiplication by $p^\nu$ in $G_{\nu +1}$.
 
-Some authors refer to the $p$-divisible group as the [[colimit]] of the system $\lim_{\to} G_\nu$. Note that if everything is [[affine scheme|affine]], $G_\nu=\mathrm{Spec}(A_\nu)$ and the [[limit]] $\lim_{\to}G_\nu = \mathrm{Spec}(\lim_{\leftarrow} A_\nu)=\mathrm{Spf}(A)$.
+Some authors refer to the $p$-divisible group as the [[colimit]] of the system $colim G_\nu$. Note that if everything is [[affine scheme|affine]], $G_\nu=\mathrm{Spec}(A_\nu)$ and the [[limit]] $colim G_\nu = \mathrm{Spec}(\lim A_\nu)=\mathrm{Spf}(A)$.
 
 It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutative [[formal group]] $G$ for which $p\colon G \to G$ is an [[isogeny]].
 
@@ -30,7 +30,7 @@ It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutati
 
 ## The Cartier dual
 
-* Given a $p$-divisible group $G$, each individual $G_\nu$ has a [[Cartier dual]] $G_\nu^D$ since they are all group schemes. There are also maps $j_\nu$ that make the composite $G_{\nu+1}\stackrel{j_\nu}{\to} G_\nu \stackrel{i_\nu} G_{\nu +1}$ the multiplication by $p$ on $G_{\nu +1}$. After taking duals, the composite is still the multiplication by $p$ map on $G_{\nu +1}^D$, so it is easily checked that $(G_{\nu}^D, j_{\nu}^D)$ forms a $p$-divisible group called the Cartier dual.
+* Given a $p$-divisible group $G$, each individual $G_\nu$ has a [[Cartier dual]] $G_\nu^D$ since they are all group schemes. There are also maps $j_\nu$ that make the composite $G_{\nu+1}\stackrel{j_\nu}{\to} G_\nu \stackrel{i_\nu}{\to} G_{\nu +1}$ the multiplication by $p$ on $G_{\nu +1}$. After taking duals, the composite is still the multiplication by $p$ map on $G_{\nu +1}^D$, so it is easily checked that $(G_{\nu}^D, j_{\nu}^D)$ forms a $p$-divisible group called the Cartier dual.
 
 * One of the important properties of the Cartier dual is that one can determine the height of a $p$-divisible group (often a hard task when in the abstract) using the information of the dimension of the formal group and its dual. For any $p$-divisible group, $G$, we have the formula that $ht(G)=ht(G^D)=\dim G + \dim G^D$.
 
