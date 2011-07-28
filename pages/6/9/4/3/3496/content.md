@@ -18,7 +18,7 @@
 
 A [[geometric morphism]] $f : E \to F$ between [[topos]]es is a [[functor]] of the underlying categories that is consistent with the interpretation of $E$ and $F$ as generalized [[topological space]]s. 
 
-If $F = Set = Sh(*)$ is the terminal [[sheaf topos]], then $E \to Set$ is essential if $E$ is a [[locally connected topos]]. In general, $f$ being essential is a necessary (but not sufficient) condition to ensure that $f$ behaves like a map of topological spaces whose [[fiber]]s are locally connected: that it is a [[locally connected geometric morphism]].
+If $F = Set = Sh(*)$ is the terminal [[sheaf topos]], then $E \to Set$ is essential if $E$ is a **[[locally connected topos]]** . In general, $f$ being essential is a necessary (but not sufficient) condition to ensure that $f$ behaves like a map of topological spaces whose [[fiber]]s are locally connected: that it is a [[locally connected geometric morphism]].
 
 
 ## Definition
@@ -39,6 +39,9 @@ $$
 $$
 
 =--
+
+A [[point of a topos]] $x : Set \to E$ which is given by an essential geometric morphism is called an **essential point** of $E$.
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -63,6 +66,8 @@ There are various further conditions that can be imposed on a geometric morphism
   is a [[geometric embedding]] and hence makes $F$ a subtopos of $E$.
 
 =--
+
+
 
 ## Properties 
  {#Properties}
@@ -252,6 +257,12 @@ $$
 In this case, the functor $\Gamma_! = \Pi_0 : E \to Set$ sends each object to its set of connected components.  More on this situation is at [[homotopy groups in an (∞,1)-topos]].  
 
 Note, though that if $p\colon E\to S$ is an arbitrary geometric morphism through which we regard $E$ as an $S$-topos, i.e. a topos "in the world of $S$," the condition for $E$ to be locally connected as an $S$-topos is not just that $p$ is essential, but that the left adjoint $p_!$ can be made into an $S$-[[indexed functor]] (which is automatically true for $p^*$ and $p_*$).  This is automatically the case for $Set$-toposes (at least, when our [[foundation]] is [[material set theory]]---and if our foundation is [[structural set theory]], then our large categories and functors all need to be assumed to be $Set$-indexing anyway). For more see [[locally connected geometric morphism]].
+
+### Tiny objects
+
+The [[tiny object]]s of a [[presheaf topos]] $[C,Set]$ are precisely the essential points $Set \to [C,Set]$. See [[tiny object]] for details.
+
+
 
 ## Related concepts
 
