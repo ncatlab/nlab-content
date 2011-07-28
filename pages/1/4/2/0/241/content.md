@@ -64,6 +64,23 @@ By the general theory of [[geometric morphisms]], every Grothendieck topos sits 
 
 Every Grothendieck topos is a [[total category]] and a [[cototal category]].
 
+=-- 
+
++-- {: .proof} 
+######Proof 
+From the page [[total category]], totality follows from the fact that a Grothendieck topos is 
+
+* Cocomplete, 
+* Well-copowered (because quotient objects of an object $X$ are in bijection with equivalence relations on $X$, and there is a small set of these because a Grothendieck topos is well-powered), and 
+* Has a generator (e.g., the coproduct of all representables for a small site presentation). 
+
+Dually, a Grothendieck topos is 
+
+* Complete, 
+* Well-powered (because subobjects of an object $X$ are in bijection with elements of a small hom-set $\hom(X, \Omega)$, and 
+* Has a cogenerator (e.g., the product of power objects $\Omega^c$ where $c$ ranges over representables for a small site presentation). 
+
+Therefore a Grothendieck topos is also cototal. 
 =--
 
 ### Giraud\'s axiomatic characterization
