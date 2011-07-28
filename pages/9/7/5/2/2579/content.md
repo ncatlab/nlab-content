@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Geometry
-+--{: .hide}
++-- {: .hide}
 [[!include higher geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -44,11 +44,13 @@ See also [[formal group]].
 
 A morphism of group schemes $G\to H$ is a morphism of schemes that is a group homomorphism on any choice of values of points. This is more easily stated by saying that a morphism of group schemes must be a [[natural transformation]] between the functor of points.
 
-## Cartier Dual
 
-Suppose now that $G$ is a finite flat commutative group scheme (over $X$). The Cartier dual of $G$ is given by the functor $G^D(S)=Hom (G\otimes S, \mathbb{G}_m \otimes S)$. The Hom is taken in the category of group schemes over $S$.
+## Cartier dual
+
+Suppose now that $G$ is a finite flat commutative group scheme (over $X$). The __Cartier dual__ of $G$ is given by the functor $G^D(S)=Hom (G\otimes S, \mathbb{G}_m \otimes S)$. The Hom is taken in the category of group schemes over $S$.
 
 For example, $\alpha_p^D\simeq \alpha_p$.  
+
 
 ## References
 
@@ -62,4 +64,9 @@ For example, $\alpha_p^D\simeq \alpha_p$.
 
 * J. C. Jantzen, _Representations of algebraic groups_, Acad. Press 1987 (Pure and Appl. Math. vol 131); 2nd edition AMS Math. Surveys and Monog. 107 (2003; reprinted 2007)
 
+
+[[!redirects group scheme]]
 [[!redirects group schemes]]
+
+[[!redirects Cartier dual]]
+[[!redirects Cartier duals]]
