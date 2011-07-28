@@ -33,7 +33,7 @@ Any [[cocomplete category|cocomplete]], [[well-powered category|well-copowered]]
 
 * any category which is [[monadic]] over [[Set]]
 * any category admitting a [[topological functor|topological functor]] to [[Set]]
-* [[locally presentable category|locally presentable categories]]
+* [[locally presentable category|locally presentable categories]], hence [[toposes]]
 
 
 ## References
