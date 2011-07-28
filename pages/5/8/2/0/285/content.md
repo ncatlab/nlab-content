@@ -51,9 +51,12 @@ In particular, in a category with a [[terminal object|terminal]] [[generator]] $
 
 ## Related concepts
 
-* **hom-set**
 
 * [[hom-object]]
+
+* **hom-set**
+
+* [[hom-category]]
 
 * [[hom-space]]
 
