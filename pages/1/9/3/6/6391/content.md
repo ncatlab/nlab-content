@@ -19,6 +19,7 @@ Some authors refer to the $p$-divisible group as the [[colimit]] of the system $
 It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutative [[formal group]] $G$ for which $p\colon G \to G$ is an [[isogeny]].
 
 
+
 ## Examples
 
 * The motivating example is the Barsotti--Tate group of an [[abelian variety]]. Let $X$ be an [[abelian variety]] over $R$ of dimension $g$, then the multiplication map by $p^\nu$ has kernel $_{p^\nu}X$ which is a finite [[group scheme]] over $R$ of order $p^{2g \nu}$. The natural inclusions satisfy the conditions for the limit denoted $X(p)$ to be a $p$-divisible group of height $2g$.
@@ -30,7 +31,7 @@ It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutati
 
 ## The Cartier dual
 
-* Given a $p$-divisible group $G$, each individual $G_\nu$ has a [[Cartier dual]] $G_\nu^D$ since they are all group schemes. There are also maps $j_\nu$ that make the composite $G_{\nu+1}\stackrel{j_\nu}{\to} G_\nu \stackrel{i_\nu}{\to} G_{\nu +1}$ the multiplication by $p$ on $G_{\nu +1}$. After taking duals, the composite is still the multiplication by $p$ map on $G_{\nu +1}^D$, so it is easily checked that $(G_{\nu}^D, j_{\nu}^D)$ forms a $p$-divisible group called the Cartier dual.
+* Given a $p$-divisible group $G$, each individual $G_\nu$ has a <a href="http://ncatlab.org/nlab/show/group+scheme#cartier_dual_12">Cartier dual</a> $G_\nu^D$ since they are all group schemes. There are also maps $j_\nu$ that make the composite $G_{\nu+1}\stackrel{j_\nu}{\to} G_\nu \stackrel{i_\nu}{\to} G_{\nu +1}$ the multiplication by $p$ on $G_{\nu +1}$. After taking duals, the composite is still the multiplication by $p$ map on $G_{\nu +1}^D$, so it is easily checked that $(G_{\nu}^D, j_{\nu}^D)$ forms a $p$-divisible group called the Cartier dual.
 
 * One of the important properties of the Cartier dual is that one can determine the height of a $p$-divisible group (often a hard task when in the abstract) using the information of the dimension of the formal group and its dual. For any $p$-divisible group, $G$, we have the formula that $ht(G)=ht(G^D)=\dim G + \dim G^D$.
 
