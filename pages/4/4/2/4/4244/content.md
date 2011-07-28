@@ -1,13 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An $n$-dimensional Calabi-Yau variety is an $n$-dimensional [[Kähler manifold]] with (holomorphically, rather than topologically) trivial [[canonical bundle]]. This is equivalent to having $SU(N)$-[[holonomy]]. 
+An $n$-dimensional _Calabi-Yau variety_ is an $n$-dimensional [[Kähler manifold]] with (holomorphically, rather than topologically) trivial [[canonical bundle]]. This is equivalent to having $SU(N)$-[[holonomy]]. 
 
-For compact Kaehler manifolds, Yau's theorem (also known as the Calabi conjecture) implies that the above conditions are also equivalent to the vanishing of the first [[Chern class]].
+For [[compact topological space|compact]] K#hler manifolds, [[Yau's theorem]] (also known as the  [[Calabi conjecture]]) implies that the above conditions are also equivalent to the vanishing of the first [[Chern class]].
 
 +--{.query}
 Is it also true for non-compact?
@@ -21,9 +32,9 @@ The language used in this article is implicitly analytic, rather than algebraic.
 
 ## Generalized Definition
 
-A Calabi-Yau variety can be described algebraically as a smooth proper variety $X$ of dimension $n$ over a field $k$ (not necessarily algebraically closed and not necessarily of characteristic $0$) in which $\omega_X=\wedge^n\Omega^1\simeq \mathcal{O}_X$ and also $H^j(X, \mathcal{O}_X)=0$ for all $1\leq j \leq n-1$.
+A Calabi-Yau variety can be described algebraically as a [[smooth scheme|smooth]] [[proper scheme|proper]] [[variety]] $X$ of [[dimension]] $n$ over a [[field]] $k$ (not necessarily [[algebraically closed field|algebraically closed]] and not necessarily of [[characteristic]] $0$) in which $\omega_X=\wedge^n\Omega^1\simeq \mathcal{O}_X$ and also $H^j(X, \mathcal{O}_X)=0$ for all $1\leq j \leq n-1$.
 
-If the base field is $\mathbb{C}$, then one can form the analyticification of $X$ and obtain a compact manifold that satisfies the first given definition.
+If the base field is $\mathbb{C}$, then one can form the analyticification of $X$ and obtain a [[compact space|compact]] [[manifold]] that satisfies the first given definition.
 
 
 
