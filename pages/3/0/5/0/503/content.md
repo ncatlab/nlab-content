@@ -94,7 +94,9 @@ A retract of a representale $y(c) \in [C^{op}, Set]$ induces an idempotent on $y
 
 =--
 
-+-- {: .num_prop}
+### In terms of tiny objects
+
++-- {: .num_prop #CauchyComplIsFullSubcatOnTinyObjects}
 ###### Proposition
 
 The Cauchy completion $\overline{C}$ is equivalently the [[full subcategory]] of $[C^{op}, Set]$ on the [[tiny object]]s ("small projective objects"). 
@@ -102,6 +104,8 @@ The Cauchy completion $\overline{C}$ is equivalently the [[full subcategory]] of
 =--
 
 This appears for instance as ([BorceuxDejean, prop. 2](#BorceuxDejean)).
+
+### In terms of obsolute colimits
 
 +-- {: .num_prop}
 ###### Proposition
@@ -196,12 +200,14 @@ is an [[essential geometric morphism]] of [[topos]]es $f : Set \to [C,Set]$; or 
 By the [[adjoint functor theorem]] this is equivalently simply a single functor $f^* : [C, Set] \to Set$ that preserves all small [[limit]]s and [[colimit]]s. Write
 
 $$
-  Topos_{ess}(Set,[C,Set]) \simeq LRFunc([C,Set], Set)^{op}
-  \subset 
-  Func([C,Set], Set)^{op}
+  Topos_{ess}(Set,[C,Set]) 
+   \simeq 
+  LRFunc([C,Set], Set)
+   \subset 
+  Func([C,Set], Set)
 $$
 
-for the [[full subcategory]] of the [[functor category]] on these functors.
+for the [[full subcategory]] of the [[functor category]] on functors that have a [[left adjoint]] and a [[right adjoint]].
 
 +-- {: .num_prop}
 ###### Proposition
@@ -209,7 +215,7 @@ for the [[full subcategory]] of the [[functor category]] on these functors.
 For $C$ a [[small category]] there is an [[equivalence of categories]]
 
 $$
-  \overline{C} \simeq Topos_{ess}(Set, [C,Set])
+  \overline{C} \simeq Topos_{ess}(Set, [C,Set])^{op}
 $$
 
 of its Cauchy completion, def. \ref{CauchyCompletionByRetractsOfRepresentablePresheaves}, with the category of essential points of $[C,Set]$.
@@ -219,7 +225,41 @@ of its Cauchy completion, def. \ref{CauchyCompletionByRetractsOfRepresentablePre
 +-- {: .proof}
 ###### Proof
 
-This should follow directly from prop. \ref{CuachyCompByLeftAdjointProfunctor}.
+We first exhibit a [[full subcategory|full inclusion]] $Topos_{ess}(Set,[C,Set])^{op} \hookrightarrow \overline{C}$.
+
+So let $Set \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}} [C,Set]$ be an [[essential geometric morphism]]. Then because $f_!$ is [[left adjoint]] and thus preserves all small [[colimits]] and because every [[set]] $S \in Set$ is the colimit over itself of the singleton set we have that
+
+$$
+  f_! S \simeq \coprod_{s \in S} f_!(*)
+$$
+
+is fixed by a choice of [[copresheaf]]
+
+$$
+  F := f_!(*) \in [C, Set]
+  \,.
+$$
+
+The $(f_! \dashv f^*)$-[[adjunction]] [[isomorphism]] then implies that for all $H \in [C,Set]$ we have
+
+$$
+  f^* H \simeq Set(*, f^* H) \simeq [C,Set](f_! *, H)
+  \simeq [C,Set](F,H)
+  \,.
+$$
+
+naturally in $H$, and hence that
+
+$$
+  f^*(-) \simeq [C,Set](F,-) : Set \to [C,Set]
+  \,.
+$$
+
+By assumption this has a further right adjoint $f_!$ and hence preserves all [[colimits]]. By the discussion at [[tiny object]] it follows that $F \in [C,Set]$ is a tiny object. By prop. \ref{CauchyComplIsFullSubcatOnTinyObjects} this means that $F$ belongs to $\overline{C} \subset [C,Set]$.
+
+A morphism $f \Rightarrow g$ between [[geometric morphisms]] $f,g : Set \to [C,Set]$ is a [[geometric transformation]], which is a [[natural transformation]] $f^* \Rightarrow g^*$, hence by the above a natural transformation $[C,Set](F,-) \Rightarrow [C,Set](G,-)$. By the [[Yoneda lemma]] these are in bijection with morphisms $G \to H$ in $[C,Set]$. This gives the full inclusion $Topos_{ess}(Set,[C,Set])^{op} \subset \overline{C}$.
+
+The converse inclusion is now immediate by the same arguments: since the objects in $\overline{C}$ are precisely the [[tiny object]]s $F \in [C,Set]$ each of them corresponds to a functor $[C,Set](F,-) : [C,Set] \to Set$ that has a [[right adjoint]]. Since this generally also has a left adjoint, it is the [[inverse image]] of an essential geometric morphism $f : Set \to [C,Set]$.
 
 =--
 
@@ -519,8 +559,6 @@ Further references include for instance
 * R. Walters, _Sheaves and Cauchy complete categories_ , Cahiers Top. Geom. Diff. Cat. 22 no. 3 (1981) 283-286 ([numdam](http://www.numdam.org/item?id=CTGDC_1981__22_3_283_0))
 
 * R. Walters, _Sheaves on sites as Cauchy-complete categories, J. Pure Appl. Algebra 24 (1982) 95-102
-
-* G. Rosolino, _A note on Cauchy completeness for preorders_ ([pdf](http://www.disi.unige.it/person/RosoliniG/notccp.pdf))
 
 Cauchy completion of [[internalization|internal]] [[prosets]] is discussed in 
 
