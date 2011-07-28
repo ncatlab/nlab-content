@@ -30,6 +30,8 @@ from the base topos [[Set]] to $\mathcal{E}$.
 
 For $A \in \mathcal{E}$ an object, its [[inverse image]] $x^* A \in Set$ under such a point is called the [[stalk]] of $A$ at $x$.
 
+If $x$ is given by an [[essential geometric morphism]] we say that it is an **essential point** of $E$.
+
 =--
 
 +-- {: .un_remark}
@@ -130,7 +132,7 @@ A Grothendieck topos has enough points precisely when it underlies a bounded [[i
 
 A general discussion is in section 7.5 of 
 
-* MacLane Moerdijk, [[Sheaves in Geometry and Logic]]
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 In 
 
