@@ -26,7 +26,7 @@
 
 ## Idea
 
-The words "Chern--Simons theory" can mean various things to various people, but here it generally refers to the three-dimensional [[TQFT|topological quantum field theory]] introduced by [[Edward Witten]] in his seminal paper ([Witten 1989](#Witten)), the paper which went a large way to him obtaining the Fields medal. 
+The words "Chern--Simons theory" (after [[Shiing-shen Chern]] and [[James Simons]] who have their names attached to the [[Chern-Simons elements]] involved) can mean various things to various people, but here it generally refers to the three-dimensional [[TQFT|topological quantum field theory]] introduced by [[Edward Witten]] in his seminal paper ([Witten 1989](#Witten)), the paper which went a large way to him obtaining the Fields medal. 
 
 Witten
 
@@ -305,6 +305,11 @@ In
 an argument was given that Chern-Simons theory can be understood as the effective target space [[string theory]] of the [[A-model]] or [[B-model]] [[TCFT]]. This argument has later been made more precise in the language of [[TCFT]]. See [TCFT -- Effective background theories](#http://nlab.mathforge.org/nlab/show/TCFT#ActionFunctionals) for more on this.
 
 * [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+
+
+A talk about the historical origins of the standard Chern-Simons forms see
+
+* [[Jim Simons]], _Origin of Chern-Simons_ talk at Simons Center for Geometry and Physics (2011) ([video](http://media.scgp.stonybrook.edu/video/video.php?f=20110728_1_qtp.mp4))
 
 
 [[!redirects Chern-Simons theory]]
