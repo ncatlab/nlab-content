@@ -128,11 +128,24 @@ If in addition each $d \downarrow R$ has a weakly initial family (solution set c
 
 +-- {: .proof} 
 ###### Proof of SAFT 
-As before, the proof proceeds by constructing initial objects of comma categories. We assume that $C$ is locally small and small-complete, has a cogenerating set $\{c_\alpha: \alpha \in A\}$, and that $R: C \to D$ is a small-continuous functor into a locally small category $D$. 
+As before, the proof proceeds by constructing initial objects of comma categories. We assume that $C$ is locally small, small-complete, well-powered, has a cogenerating set $\{c_\alpha: \alpha \in A\}$, and that $R: C \to D$ is a small-continuous functor into a locally small category $D$. 
 
-As before, for each object $d$ of $D$, the comma category $d \downarrow R$ is locally small and small-complete. Moreover, it is easy to check that the set of all objects of the form $d \to R c_\alpha$ is a cogenerating set for $d \downarrow R$. 
+As before, for each object $d$ of $D$, the comma category $d \downarrow R$ is locally small and small-complete. Moreover, it is easy to check that it is well-powered, and that the set of all objects of the form $d \to R c_\alpha$ is a cogenerating set for $d \downarrow R$. 
 
-It then remains to prove that any locally small and small-complete category $X$ with a cogenerating set $\{k_s: s \in S\}$ has an initial object. TO BE CONTINUED. 
+It then remains to prove that any locally small, small-complete, well-powered category $X$ with a cogenerating set $\{k_s: s \in S\}$ has an initial object. The initial object $0$ is constructed as the intersection = pullback of all subobjects of $\prod_s k_s$, i.e., the minimal subobject. Then, given $f, g: 0 \to x$, the equalizer $Eq(f, g)$ is isomorphic to $0$ because $0$ is minimal, and so $f = g$: there is at most one arrow $0 \to x$ for each $x$. 
+
+On the other hand, for each $x$ the canonical map 
+
+$$i: x \to \prod_{s \in S} k_{s}^{\hom(x, k_s)}$$ 
+
+is monic since the $k_s$ cogenerate. The following pullback of $i$, 
+
+$$\array{
+k & \to & x \\ 
+\downarrow & & \downarrow \mathrlap{i} \\
+\prod_s k_{s}^1 & \stackrel{\prod_s k_{s}^!}{\to} & \prod_s k_{s}^{\hom(x, k_s)}
+},$$ 
+gives a subobject $k$ of $\prod_s k_s$ that maps to $x$, and into which $0$ embeds. Thus there exists a map $0 \to x$, and we conclude $0$ is initial. 
 =--
 
 In practice an important special case is that of functors between
