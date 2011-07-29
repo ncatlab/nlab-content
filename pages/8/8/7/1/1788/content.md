@@ -176,6 +176,17 @@ subobject classifier.
 A **_topos_{: style="font-style: normal"}** (or **_elementary topos_{: style="font-style: normal"}**) is a cartesian closed category with finite limits and a subobject classifier.
 =--
 
+$$
+\mathcal{E}
+\underoverset{\underoverset{f_*}{\perp}{\rightarrow}}{\underoverset{\perp}{f_!}{\rightarrow}}{\longleftarrow {\scriptsize f^*} -}
+\mathcal{F}
+$$
+
+$$
+\mathcal{E}
+\underoverset{f^*}{f_*}{\underoverset{\leftarrow}{\rightarrow}{\quad {\scriptsize \perp} \quad}}
+\mathcal{F}
+$$
 
 ***
 
