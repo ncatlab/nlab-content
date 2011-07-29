@@ -1,0 +1,27 @@
+# Specker sequences
+* table of contents
+{: toc}
+
+## Definition
+
+A __Specker sequence__ is a [[bounded function|bounded]] [[computable function|computable]] [[increasing function|increasing]] [[infinite sequence]] of [[rational numbers]] with no [[computable number|computable]] [[supremum]].
+
+
+## Examples
+
+Since there is a sequence of all [[Turing machine|Turing machines]], define a sequence $(S_n)_n$ as
+$$ S_n = \sum_{i + j = n} 2^{-i} \{i\}_j ,$$
+where $\{i\}_j$ is the [[bit]] giving whether the $i$th Turing machine halts before $j$ steps.  The theoretical limit of this sequence is
+$$ \sum_i 2^{-i} \{i\} ,$$
+where $\{i\}$ is the bit giving whether the $i$th Turing machine halts at all, but this is uncomputable (by the [[halting problem]]).
+
+
+## In constructive mathematics
+
+In [[Russian constructivism]], all [[real numbers]] are computable, so a Specker sequence has no (located) supremum, giving a counterexample to the [[classical mathematics|classical]] [[least upper bound principle]] ($LUP$).
+
+In many other varieties of [[constructive mathematics]], the computability of all real numbers can be neither proved nor refuted, but Specker sequences still provide [[weak counterexample|weak counterexamples]], since $LUP$ is equivalent to [[excluded middle]].
+
+
+[[!redirects Specker sequence]]
+[[!redirects Specker sequences]]
