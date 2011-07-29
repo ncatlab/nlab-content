@@ -201,7 +201,7 @@ A textbook treatment is
 
 Some heavywheight automated computations using this formalism are discussed in 
 
-* Broadhurst, [[Dirk Kreimer]], _Renormalization automated by Hopf algebra_ ([arXiv:hep-th/9810087](http://arxiv.org/abs/hep-th/9810087)
+* Broadhurst, [[Dirk Kreimer]], _Renormalization automated by Hopf algebra_ ([arXiv:hep-th/9810087](http://arxiv.org/abs/hep-th/9810087))
 
 
 
