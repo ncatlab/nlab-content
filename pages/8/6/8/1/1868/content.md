@@ -377,6 +377,14 @@ $$
 
 [[equivalence class|Equivalence classes]] of twisted $U(n)$-bundles for fixed $\mathbf{B}U(1)$-twist $\alpha$ form a model for [[topological K-theory|topological]] $\alpha$-[[twisted K-theory]]. See there for details.
 
+## Related concepts
+
+* [[twisted K-theory]]
+
+* [[Chan-Paton bundle]]
+
+* [[twisted spin structure]]
+
 ## References
  {#References}
 
@@ -411,11 +419,6 @@ The generalization of this construction to non-torsion twists requires using [[v
 There the twisted cocycle equation discussed above appears on the bottom of page 7.
 
 
-## Related concepts
-
-* [[twisted K-theory]]
-
-* [[Chan-Paton bundle]]
 
 
 [[!redirects twisted bundles]]
