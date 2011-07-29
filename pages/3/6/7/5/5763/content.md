@@ -352,15 +352,6 @@ for the subcategories of $C^* Alg$ on the monomorphisms and on the commutativity
 ### The Bohr topos
  {#BohrTopos}
 
-Above we considered to each $C^*$-algebra $A$ its [Bohr site](BohrSite) $Alex \mathcal{C}(A)$. There are canonical embeddings ([[full and faithful functor]])s
-
-$$
-  Top \hookrightarrow Locale \stackrel{Sh}{\hookrightarrow} Topos
-$$
-
-first of [[Top]] into [[Locale]] and then into [[Topos]].
-
-
 
 +-- {: .num_defn #CStarTopos}
 ###### Definition
