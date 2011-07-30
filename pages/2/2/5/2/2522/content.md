@@ -29,11 +29,11 @@ In the stricter sense of the word as it originates in theoretical fundamental [[
 
 ### Global supersymmetry and superparticles
 
-By Wigner-Weyl theory we have in ordinary [[quantum field theory]] that [[unitary representations of the Poincare group]] correspond to the [[particle]]s in the theory. For a _globally_ supersymmetric quantum field theory the [[Poincare group]] here is replaced by the [[super Poincare group]] and accordingly particles are now [[irreducible representation]]s of this group. The new -- odd graded -- representations appearing this way are called the **superpartners** of the original _bosonic_ particles.
+By Wigner-Weyl theory we have in ordinary [[quantum field theory]] that [[unitary representations of the Poincaré group]] correspond to the [[particle]]s in the theory. For a _globally_ supersymmetric quantum field theory the [[Poincare group]] here is replaced by the [[super Poincare group]] and accordingly particles are now [[irreducible representation]]s of this group: the irreducible [[unitary representations of the super Poincaré group]]. The new -- odd graded -- pieces of these representations -- called **[[supermultiplets]]** -- appearing this way  are called the **[[superpartners]]** of the original _bosonic_ particles.
 
 ### Local supersymmetry: supergravity
 
-To be distinguished from this _global supersymmetry_ is _local supersymmetry_ :  given a [[gauge theory]] whose fields are [[connection on a bundle|connections]] with values in the [[Poincaré Lie algebra]] -- the theory of [[gravity]] in its [[first order formulation of gravity|first order formulation]] -- a supersymmetric extension_ is similarly a [[gauge theory]] with fields being connections in the [[super Poincaré Lie algebra]] -- a theory of [[supergravity]]. A [[gauge transformation]] in such a theory is called a **local supersymmetry transformation**.
+To be distinguished from this _global supersymmetry_ is _local supersymmetry_ (see _[[gauge group]]_ and links given there for a discussion of _local_ and _global_ gauge groups):  given a [[gauge theory]] whose fields are [[connection on a bundle|connections]] with values in the [[Poincaré Lie algebra]] -- the theory of [[gravity]] in its [[first order formulation of gravity|first order formulation]] -- a supersymmetric extension_ is similarly a [[gauge theory]] with fields being connections in the [[super Poincaré Lie algebra]] -- a theory of [[supergravity]]. A [[gauge transformation]] in such a theory is called a **local supersymmetry transformation**.
 
 ### The relation between local and global supersymmetry
 
