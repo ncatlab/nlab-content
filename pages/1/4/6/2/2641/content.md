@@ -91,6 +91,9 @@ Simultaneous diagonalization.
 
 Fact that Poincar&#233; group is a semidirect product. 
 
+## Related concepts
+
+* [[unitary representation of the super Poincaré group]]
 
 ## References
 
