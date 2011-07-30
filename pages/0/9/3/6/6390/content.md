@@ -33,8 +33,6 @@ In the [[Polyakov action]]-formulation the [[action functional]] of the [[relati
 
 It turns out that the generalization of this 1-dimensional gravity action to [[supergravity]] yields the action functional that describes ordinary Dirac [[spinors]] -- spinning particles like [[electron]]s -- propagating on [[target space]] $X$. See the [references on worldline supersymmetry](#WorldlineSupersymmtryReferences) below.
 
-For appreciating this fact it is important to keep the ingredients of [[sigma-model]] theory sorted out correctly: a supersymmetric theory on the worldline describes a spinning particle on some [[target space|spacetime]] coupled to some [[background gauge field]]s. That background geometry need not have a "global supersymmetry" (a covariant constant spinor), hence under [[second quantization]] the [[perturbation theory]] _on target space_ induced by the worldline theory need not have any global supersymmetries (in particular no superpartners to the effective particle excitations). What will happen, though, is that the full target space theory induced under [[second quantization]] will be a [[supergravity]] theory on target space. Some of its solutions may have covariantly constant spinors (and hence global supersymmetry), but generically they will not, just like the generic solution to ordinary [[Einstein equations]] does not have a [[Killing vector]]. 
-
 The worldline supersymmetry of fermions comes down to the fact that their [[Hamiltonian]](-constraint) operator $H$ has a square root: the 
 [[Dirac operator]] $D$. Its defining equations
 
@@ -43,6 +41,10 @@ $$
 $$
 
 characterize the $d = 1$ [[translation super-Lie algebra]].
+
+
+For appreciating this fact it is important to keep the ingredients of [[sigma-model]] theory sorted out correctly: a supersymmetric theory on the worldline describes a spinning particle on some [[target space|spacetime]] coupled to some [[background gauge field]]s. That background geometry need not have a "global supersymmetry" (a covariant constant spinor), hence under [[second quantization]] the [[perturbation theory]] _on target space_ induced by the worldline theory need not have any global supersymmetries (in particular no superpartners to the effective particle excitations). What will happen, though, is that the full target space theory induced under [[second quantization]] will be a [[supergravity]] theory on target space. Some of its solutions may have covariantly constant spinors (and hence global supersymmetry), but generically they will not, just like the generic solution to ordinary [[Einstein equations]] does not have a [[Killing vector]]. 
+
 
 ## History
 
