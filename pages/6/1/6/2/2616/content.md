@@ -214,6 +214,8 @@ In particular, an **elementary particle** in quantum physics is sometimes define
 
   * [[super Euclidean group]]
 
+* [[super Poincaré group]]
+
 * [[Poincare Lie algebra]]
 
   * [[super Poincare Lie algebra]]
