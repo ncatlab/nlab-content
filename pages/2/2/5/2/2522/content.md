@@ -141,6 +141,8 @@ Around the same time Golfand and Likhtman in Russia wrote down the [[super Poinc
 
 * [[supergeometry]]
 
+* [[unitary representation of the super Poincaré group]]
+
 * [[supersymmetry and Calabi-Yau manifolds]]
 
 ## References
