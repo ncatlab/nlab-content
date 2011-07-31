@@ -233,7 +233,7 @@ $$\Pi_n: Top \to V_n$$
 to $T$. But other operads are possible.  For the purposes of $n$-category theory, we should choose operads that are contractible in some sense (which the $\Pi_n(T)$ should be), but even in the realm of contractible operads there are many possible choices which may be convenient for different purposes.
 
 
-## Extension to $\infty$-categories
+## Extension to $\infty$-categories {#InftyCats}
 
 Using some theory of terminal coalgebras, Leinster and Cheng described a viable notion of Trimble $\infty$-category.
 
