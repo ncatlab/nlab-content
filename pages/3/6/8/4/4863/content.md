@@ -114,15 +114,15 @@ This means that physical model building using the specific ansatz of KK-reductio
 
 While interesting, there are few tools known for performing this classification. The only thing that seems to be clear is that the classification is not sparse: there are many points in this space of choices. Since all this is relevant in model building in [[string theory]], the space of these choices has been termed the [[landscape of string theory vacua]]. 
 
+See [[supergravity and Calabi-Yau manifolds]] for more.
 
 
+## Related concepts
+
+* [[spontaneously broken symmetry]]
 
 
 ## References
-
-A textbook discussion in the context of [[supergravity]] is in vol II, from p. 1091 on in
-
-* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds. , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 
 A survey of the history of the role of the KK-mechanism in theoretical physics is
@@ -133,6 +133,13 @@ The seminal analysis of the semi-realistic KK-reductions is in
 
 * [[Edward Witten]], _Search for a realistic Kaluza-Klein theory_ , Nuclear Physics B Volume 186, Issue 3, 10 August 1981, Pages 412-428 
 {#Witten}
+
+A textbook discussion in the context of [[supergravity]] is in 
+
+* [[Andrew Strominger]] (notes by [[John Morgan]]), _Kaluza-Klein compactifications, Supersymmetry and Calabi-Yau spaces_ , volume II, starting on page 1091 in
+
+  [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
 
 In
 
