@@ -49,6 +49,8 @@ More generally, in the presence of other [[background gauge field]]s, the Calabi
 
 * [[Kaluza-Klein mechanism]]
 
+* [[spontaneously broken symmetry]]
+
 ## References
 
 The original references are
