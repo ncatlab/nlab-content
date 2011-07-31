@@ -38,8 +38,10 @@ A discussion with an eye towards applications in [[supersymmetry]] is around pag
 
   _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
-
-
+[[!redirects Killing spinors]]
 
 [[!redirects covariantly constant spinor]]
 [[!redirects covariantly constant spinors]]
+
+[[!redirects Killing spinor field]]
+[[!redirects Killing spinor fields]]
