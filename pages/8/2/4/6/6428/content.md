@@ -1,9 +1,86 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 ### Broken global symmetry
 
+For $Conf$ a [[configuration space]] and
+
+$$
+  S : Conf \to \mathbb{R}
+$$
+
+an [[action functional]], consider the [[action]] of a [[group]] $G$ on $Conf$ under which $S$ is invariant: for all $g \in G$ and $\phi \in Conf$ we have $S(g(\phi)) = S(\phi)$.
+
+Then a solution $\phi \in Conf$ to the [[Euler-Lagrange equations]] of $S$ -- a solution to the [[classical mechanics]] defines by this action functional -- is said to _**spontaneously break the symmetry group**_ if it is not a $G$-fixed point: if it is not true that for all $g \in G$ we have $g(\phi) = \phi$.
+
 ### Broken local symmetry
+
+## Examples
+
+### Global symmetry
+
+#### Scalars in mexican hat potential
+
+A standard example which is both very simple but at the same time of central importance in one of the main applications in the [[standard model of particle physics]] -- the [[Higgs effect]] -- is this:
+
+Let $Conf = C^\infty(X = [0,1]^d, \mathbb{R}^N)$ be the configuration space of $N$ real scalar fields and take the action functional to be
+
+$$
+  S : \phi \mapsto \int_X \left( -\frac{1}{2}\vert \nabla \phi \vert^2
+  -
+  \frac{h}{2} \vert\phi\vert^2 - \frac{g}{4} \vert\phi\vert^4
+  \right) d\mu_X
+$$
+
+for some $h, g \in \mathbb{R}$. This is manifestly invariant under the canonical action of the [[orthogonal group]] $G = O(N)$ on $Conf$.
+
+This action functional has a class of critical points given by constant maps $\phi : X \to \mathbb{R}^n : \phi(x) = \Phi$. These extremize the [[action functional]] precisely if the $\Phi$ extremize the potential energy
+
+$$
+  \frac{m^2}{2} \vert\phi\vert^2 + \frac{g}{4} \vert\phi\vert^4
+  \,.
+$$
+
+If both $g$ and $h$ are positive, then there is only one such critical point, given by $\Phi = 0$.  Therefore in this case the unique constant solution does _not_ break the symmetry, in that $g( \Phi = 0) = (\Phi = 0)$ for all $g \in O(N)$.
+
+However, if $h$ is negative and $g$ positve, then the solutions are all those $\Phi$ with
+
+$$
+  \vert \Phi \vert^2 = - \frac{h}{g} \gt 0
+  \,.
+$$
+
+The set of all these is closed under the action of $G = O(N)$ -- this group takes one of these solutions into another -- but none of these solutions is _fixed_ by this action.
+
+One says in this case that any such solution $\phi : x \mapsto \Phi$ is a solution that _spontaneously breaks the symmetry_ of the theory.
+
+
+
+### Local symmetry
+
+## Related concepts
+
+* [[gauge group]]
+
+  * [[global gauge group]], [[local gauge group]]
+
+* [[Goldstone boson]]
+
 
 ## References
 
@@ -12,4 +89,3 @@ In
 * [[Steven Weinberg]], _The quantum theory of fields_
 
 sponaneously broken [[global gauge group]] symmetry is discssuion in vol I, section 19, and spontaneously broken [[local gauge group]] symmetry in vol I, section 21.4.
-
