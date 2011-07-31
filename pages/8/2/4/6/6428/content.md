@@ -16,29 +16,41 @@
 
 ## Idea
 
-Given an [[action functional]] that is invariant under a [[group]] of symmetries on the corresponding [[configuration space]], a solution to the [[Euler-Lagrange equations]] of motion is said to exhibit _spontaneously broken symmetry_ if it is not a fixed-point of that group [[action]].
-
-In the context of the [[quantum field theory]] arising by [[quantization]] of this action functional one considers the given classical solution as a background about which to consider [[perturbation theory]]. The fields in this QFT are then small excitations of the given classical solution and the state containing no such excitations is the [[vacuum]] of the corresponding theory. Therefore in this context one often says that a quantum theory exhibits spontaneouly broken symmetry if its vacuum state is not invariant under the pertinent symmetries.
-
-### Broken global symmetry
-
 For $Conf$ a [[configuration space]] and
 
 $$
   S : Conf \to \mathbb{R}
 $$
 
-an [[action functional]], consider the [[action]] of a [[group]] $G$ on $Conf$ under which $S$ is invariant: for all $g \in G$ and $\phi \in Conf$ we have $S(g(\phi)) = S(\phi)$.
+an [[action functional]] that is invariant under a [[group]] $G$ of symmetries [[action|acting]] on $Conf$, in that
 
-Then a solution $\phi \in Conf$ to the [[Euler-Lagrange equations]] of $S$ -- a solution to the [[classical mechanics]] defines by this action functional -- is said to _**spontaneously break the symmetry group**_ if it is not a $G$-fixed point: if it is not true that for all $g \in G$ we have $g(\phi) = \phi$.
+$$
+  \forall g \in G, \phi \in Conf : \,\,\, S(g(\phi)) = S(\phi)
+$$
 
-### Broken local symmetry
+
+a solution $\phi_0$ to the [[Euler-Lagrange equations]] of motion is said to exhibit **spontaneously broken symmetry** if it is not a fixed-point of that group [[action]]: if there is $g \in G$ such that $g(\phi_0) \neq \phi_0$.
+
+The "breaking" refers to the fact that the group no longer acts. It is called "spontaneous" because one imagines that by a physical process the theory "finds" one of its solutions. This comes from the class of examples where a statistical system is first considered at high temperature and then cooled down. At some point it will "spontaneously" freeze in one allowed configuration. A standard example is a [[ferromagnet]]: at high temperature its [[magnetization]] vanishes, while at very low termperature it spontaneously finds a direction of magnetization, thus "breaking" rotational symmetry.
+
+One calls the subgroup $G_{\phi_0} \subset G$ that fixes the given configuration $\phi_0$ the _unbroken symmetry group_ .
+
+In the context of the [[quantum field theory]] arising by [[quantization]] of this action functional one considers the given classical solution $\phi_0$ as a background about which to consider [[perturbation theory|perturbations]] of the remaining [[effective quantum field theory]]. 
+
+The fields in this effective QFT are then small excitations $\delta \phi$ around the given $\phi_0$. Since the original symmetry group still acts on the full fields $\phi_0 + \delta \phi$, the remaining symmetry group of the effective field theory is $G_{\phi_0}$, whose elements $g$ send
+
+$$
+  g : (\phi_0 + \delta \phi) \mapsto g(\phi_0) + g(\delta \phi)
+  = \phi_0 + g \delta \phi
+ \,.
+$$
+
+Since in the effective theory around $\phi_0$ the [[vacuum]] state where all the $\delta \phi$ have no excitations (or rather: are in their ground state) corresponds to $\phi_0$ itself one says in this context that _a quantum theory exhibits spontaneouly broken symmetry if its vacuum state is not invariant under the pertinent symmetries_ .
+
 
 ## Examples
 
-### Global symmetry
-
-#### Scalars in mexican hat potential
+### Scalars in mexican hat potential
 
 A standard example which is both very simple but at the same time of central importance in one of the main applications in the [[standard model of particle physics]] -- the [[Higgs effect]] -- is this:
 
@@ -56,7 +68,7 @@ for some $h, g \in \mathbb{R}$. This is manifestly invariant under the canonical
 This action functional has a class of critical points given by constant maps $\phi : X \to \mathbb{R}^n : \phi(x) = \Phi$. These extremize the [[action functional]] precisely if the $\Phi$ extremize the potential energy
 
 $$
-  \frac{m^2}{2} \vert\phi\vert^2 + \frac{g}{4} \vert\phi\vert^4
+  \frac{h}{2} \vert\phi\vert^2 + \frac{g}{4} \vert\phi\vert^4
   \,.
 $$
 
@@ -74,8 +86,38 @@ The set of all these is closed under the action of $G = O(N)$ -- this group take
 One says in this case that any such solution $\phi : x \mapsto \Phi$ is a solution that _spontaneously breaks the symmetry_ of the theory.
 
 
+### In gravity
 
-### Local symmetry
+The theory of [[gravity]] on a given [[topological manifold]] $X$ has as 
+[[configuration space|configurations]] [[pseudo-Riemannian metric]]s on $X$ and its [[action functional]] -- the [[Einstein-Hilbert action]] or one of its variants -- is invariant under the [[action]] of the [[diffeomorphism]] group on $X$.
+
+The corresponding [[Euler-Lagrange equation]]s are _[[Einstein's equations]]_ . A given solution $(X,g)$ _breaks_ the symmetry given by a [[diffeomorphism]] $f : X \to X$ unless $f$ is an [[isometry]]. This means that the unbroken symmetries connected to the identiy correspond precisely to the [[Killing vector field]]s on $(X,g)$.
+
+#### Kaluza-Klein reductions
+
+Spontaneous symmetry breaking in [[gravity]] plays a central role for instance in the context of the [[Kaluza-Klein mechanism]]. For instance for $dim X = 5$ the [[effective field theory]] of gravity around a solution of the form $(X = X_4 \times S^1, g_4 \otimes g_1)$ is 4-dimensional gravity coupled to [[electromagnetism]] (and a [[dilaton]] field): the components of the field of gravity along the circle transmute into the electromagnetic field. The ansatz _breaks_ all the symmetries that would mix the remaining 4-dimensional gravitational excitations with these new electromagnetic excitations.
+
+This is discussed in a bit of detail for instance in 
+([Strominger, lecture 1](#Strominger)).
+
+#### Super Kaluza-Klein reductions
+
+The above discussion has a direct analog in theories of higher 
+[[supergravity]]. By the same logic, one finds that the 
+[[effective quantum field theory]] around classical solutions that are
+[[Kaluza-Klein mechanism|Kaluza-Klein reductions]] of the form 
+$(X^4 \times Y^d, (g_4 \otimes g_d))$ exhibts as global symmetries all
+those [[diffeomorphism]]s that are not _spontaneously broken_ by this solution.
+
+In this case, though, there are also [[supersymmetry]] analogs of the plain diffeomorphism action. Such a local supersymmetry remains unbroken in the given solution if it comes from a [[Killing spinor field]].
+
+Therefore KK-reductions to 4-dimensional [[Minkowski space]] in supergravity that admit precisely four Killing spinors of the form $(\psi_4 = const \otimes \psi_d = covariantly const)$ give rise to [[effective field theories]] with exactly one remaining global [[supersymmetry]]. 
+
+For more see [[supersymmetry and Calabi-Yau manifolds]].
+
+This is discussed in a bit of detail for instance in 
+([Strominger, lecture 2](#Strominger)).
+
 
 ## Related concepts
 
@@ -93,3 +135,13 @@ In
 * [[Steven Weinberg]], _The quantum theory of fields_
 
 sponaneously broken [[global gauge group]] symmetry is discssuion in vol I, section 19, and spontaneously broken [[local gauge group]] symmetry in vol I, section 21.4.
+
+Textbook discussion of broken symmetry in [[gravity]] and [[supergravity]] in the context of the [[Kaluza-Klein mechanism]] is in
+
+* [[Andrew Strominger]] (notes by [[John Morgan]]), _Kaluza-Klein compactifications, Supersymmetry and Calabi-Yau spaces_ , volume II, starting on page 1091 in
+
+  [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
+[[David Kazhdan]],  [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+ {#Strominger}
+
+[[!redirects spontaneously broken symmetries]]
