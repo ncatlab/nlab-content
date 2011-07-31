@@ -1,0 +1,4 @@
+
+* [Wikipedia entry](http://de.wikipedia.org/wiki/John_Morgan_%28Mathematiker%29)
+
+category: people
