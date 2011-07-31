@@ -30,3 +30,5 @@ Perturbative [[string theory]] is defined in terms of certain classes of 2d [[CF
 
 
 [[!redirects type II superstring]]
+
+[[!redirects type II supergravity]]
