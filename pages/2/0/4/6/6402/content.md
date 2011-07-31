@@ -16,12 +16,14 @@
 
 This entry collects linked keywords for the book
 
-* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
+[[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  
 
   _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 on [[quantum field theory]] and [[string theory]].
 
+While advertized as "A course for mathematicians", it is not. But it is much better than the average physics text.
 
 #Contents#
 * table of contents
@@ -82,13 +84,55 @@ on [[quantum field theory]] and [[string theory]].
 
 #### Notes on 2d Conformal Field Theory and String Theory
 
+##### Chpater 0. Introduction
+
+* [[vertex operator algebra]]
+
+* [[D-module]]
+
+
+##### Chapter 1. Chiral algebra
+
+* [[chiral algebra]]
+
+* [[conformal block]]
+
+* [[correlation function]]
+
+##### Chapter 2. CFT data
+
+* [[CFT]]
+
+##### Chapter 3. Examples
+
+* [[Kac-Moody algebra]]
+
+* [[dilaton]]
+
+* [[bc-system]]
+
+##### Chapter 4. BRST  and string amplitudes
+
+* [[BRST complex]]
+
+##### Chapter 5. Further construcitons 
+
+* [[Ran space]]
+
+##### Chapter 6. The free bosonic theory
+
+* [[canonical line bundle]]
+
 #### Kaluza-Klein Compactifications, Supersymmetry, and Calabi Yau Spaces
 
 ##### Lecture 1. Compactifications to dimension four
 
+* [[Kaluza-Klein mechanism]]
+
 ##### Lecture 2. Supersymmetry and Calabi-Yau manifolds
 
 * [[supersymmetry and Calabi-Yau manifolds]]
+
 
 ### Part 4: Dynamicl Aspects of QFT
 
