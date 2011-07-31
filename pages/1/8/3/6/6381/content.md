@@ -34,7 +34,7 @@ One consequence of the above is that $X$ is supersingular (of infinite height) i
 
 ## Relation to Crystalline Cohomology
 
-Suppose that $X$ is a variety with the above hypotheses, then the [[crystalline cohomology]] $H^n_{crys}(X/W)$ is a [[Cartier module]] under the action of Frobenius. We can consider the part with slopes less than $1$, i.e. $H^n_{crys}(X/W)_{[0,1)}$. The rank of this as a $W$-module is the height of $X$.
+Suppose that $X$ is a variety with the above hypotheses, then the torsion free part of the [[crystalline cohomology]] $H^n_{crys}(X/W)$ is a [[Cartier module]] under the action of Frobenius. We can consider the part with slopes less than $1$, i.e. $H^n_{crys}(X/W)\otimes_W K_{[0,1)}$. The dimension of this is the height of $X$.
 
 
 
