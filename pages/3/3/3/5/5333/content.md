@@ -37,12 +37,24 @@ Since global $N=1$ supersymmetry for a long time has been considered a promising
 
 * [[landscape of string theory vacua]]
 
+* [[supersymmetry and Calabi-Yau manifolds]]
+
 ## References
 
-### On $N=1$ supersymmetric backgrounds
- {#ReferencesNEqOne}
+Heterotic strings were introduced in 
 
-* _Why Calabi-Yau?_ ([pdf](http://www-personal.umich.edu/~mcdermod/JournalClub/ekuflik_Notes_3-27-08.pdf))
+* [[David Gross]], J. A. Harvey, E. Martinec and R. Rohm, 
+
+  _Heterotic string theory (I). The free heterotic string_  Nucl. Phys. B 256 (1985), 253. 
+
+  _Heterotic string theory (I). The interacting heterotic string_ , Nucl. Phys. B 267 (1986), 75. 
+
+A textbook introduction is lecture 8 starting on p. 941 of volume II of 
+
+* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds. . _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+
+
 
 
 [[!redirects heterotic superstring]]
