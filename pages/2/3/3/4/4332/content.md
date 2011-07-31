@@ -35,6 +35,11 @@ In [[Yang-Mills theory]] and other [[gauge theories]] the _gauge groups_ is the 
 
 Local gauge groups are are visible in the [[Lagrangian mechanics|Lagrangian]] approach to [[quantum field theory]], where they act on the configuration space on which the [[action functional]] is a function by [[gauge transformation]]s. A large machinery has been developed to handle the ([[path integral]]) [[quantization]] of [[action functional]]s on such configuration spaces. See for instance [[BV-BRST formalism]].
 
+
+## Related concepts
+
+* [[spontaneously broken symmetry]]
+
 ## References
 
 * Wikipedia: [gauge group](http://en.wikipedia.org/wiki/Gauge_group)
@@ -52,6 +57,6 @@ Chapter IV of
 [[!redirects gauge groups]]
 
 [[!redirects global gauge group]]
-[[!redirects global local group]]
+[[!redirects local gauge group]]
 [[!redirects global gauge groups]]
-[[!redirects global local groups]]
+[[!redirects local gauge groups]]
