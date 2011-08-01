@@ -190,6 +190,13 @@ $$
 
 ***
 
+1. {: .num_enuma #first style="color: red;"} The first item
+2. {: .num_enuma #second style="font-style: italic;"} The second item
+
+Can we refer to \ref{first} or \ref{second}?
+
+***
+
 category: meta
 
 [[!redirects sandbox]]
