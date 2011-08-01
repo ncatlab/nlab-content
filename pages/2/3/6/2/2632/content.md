@@ -305,6 +305,12 @@ The generalization of this kind of discussion to [[quantum field theory]] is
 
 For more along these lines see the references at [[AQFT]].
 
+Aspects of quantum mechanics in [[category theory]] and [[topos theory]] are discussed in 
+
+* [[Hams Halvorson]] (ed.) _Deep Beauty -- Understanding the quantum world through mathematical innovation_ Cambridge (2011) ([pdf](http://www.tacron.com/uploads/Deep_Beauty_-_Understg_the_Quantum_World_Through_Mathem._Innov._-_H._Halvorson__Cambridge__2011__WW.pdf))
+
+This discusses for instance [[higher category theory and physics]] and the [[Bohr topos]] of a quantum system.
+
 [[!redirects quantum physics]]
 [[!redirects quantum theory]]
 
