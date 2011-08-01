@@ -32,6 +32,8 @@ The pictures are named after those physicists ([[Werner Heisenberg]], [[Erwin Sc
 
 ## Formulation
 
+### With global time
+
 Let us assume a global notion of [[time]], say a [[fixed background]] [[spacetime]] which is [[globally hyperbolic spacetime|globally hyperbolic]], so that it admits a [[foliation]] into [[Cauchy surfaces]], and choose a [[time coordinate]] for this foliation.  The upshot of this is that each [[event]] occurs at a time $t$, and conversely we can speak of [[space]] at any time $t$ (at least within certain bounds).  Thus we may speak sensibly of either the state of the world at time $t$ or the value of some observable quantity at time $t$.
 
 Because this is a picture of [[dynamics]], states or observables (as appropriate to the picture) will vary through time.  We therefore have a [[time evolution]] operator $U(t,t')$ between any two times $t,t'$; actually, we need consider only $U(t) \coloneqq U(t,0)$, since $U(t,t') = U(t) \circ U(t')^{-1}$.
@@ -67,7 +69,7 @@ as desired, using the [[cyclic property of the trace]].
 The time evolution operator $U(t)$ is often derived from a [[Hamiltonian]] and the formula for $A(t)$ or $\psi(t)$ is further derived from a [[differential equation]] involving this Hamiltonian.  However, this is unnecessary for the connection between the two pictures.
 
 
-## Without time
+### Without time
 
 If spacetime is not [[globally hyperbolic spacetime|globally hyperbolic]], then there is no time coordinate $t$, and none of the discussion above makes sense; or if we choose a coordinate $t$ and call it time regardless, then time evolution is not a symmetry and we do not have the operators $U(t)$.
 
