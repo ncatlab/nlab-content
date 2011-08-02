@@ -46,7 +46,7 @@ The [[action functional]] of AKSZ theory is that of [[∞-Chern-Simons theory]] 
 
 The original reference is 
 
-* M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997
+* M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997 ([arXiv:hep-th/9502010](http://arxiv.org/abs/hep-th/9502010))
 
 Dmitry Roytenberg wrote a useful exposition of the central idea of the original work and studied the case of the Courant sigma-model:
 
