@@ -49,14 +49,56 @@ For a discussion of this in the finite-dimensional case see
 
 
 ## Properties
+ {#Properties}
 
-The [[GNS construction]] shows how to interpret every abstract $C^*$-algebra as a concrete $C^*$-algebra.
+See also [[operator algebras]].
 
-[[Gelfand duality]] says that every _commutative_ $C^*$-algebra is that of [[continuous functions]] on some [[topological space]]. 
+### GNS construction
 
-$C^*$-algebras with a group $G$ that is represented via automorphisms of the algebra are called [[C-star-systems]].
+The [[GNS construction]] shows that every abstract $C^*$-algebra as a concrete $C^*$-algebra: a subalgebra of an algebra of [[bounded operator]]s on some [[Hilbert space]].
 
-See [[operator algebras]].
+### Gelfand duality
+
+[[Gelfand duality]] says that every (unital) _commutative_ $C^*$-algebra is that of [[continuous functions]] on some [[compact topological space|compact]] [[topological space]]: there is an [[equivalence of categories]] $C^* Alg_{com} \simeq $ [[Top]]${}_{cpt}$.
+
+### General
+ {#General}
+
++-- {: .num_prop}
+###### Proposition
+
+The set-theoretic [[image]] of a $C^\ast$-algebra under a [[star-algebra]] [[homomorphism]] is itself again a $C^\ast$-algebra.
+
+=--
+
+This is ([KadisonRingrose, theorem 4.1.9](#KadisonRingrose)).
+
+
+## Variants
+
+$C^*$-algebras equipped with the [[action]] of a [[group]] by [[automorphisms]] of the algebra are called _[[C-star-systems]]_ .
+
+
+
+## References
+
+
+A standard textbook is for instance
+
+* Richard Kadison and John Ringrose, _Fundamentals of the theory of operator algebras_ Academic Press, (1983)
+ {#KadisonRingrose}
+
+See also the references at [[operator algebras]].
+
+
+An exposition that explicitly gives [[Gelfand duality]] as an [[equivalence of categories]] and introduces all the notions of [[category theory]] necessary for this statement is in
+
+* Ivo Dell'Ambrogio, _Categories of $C^\ast$-algebras_ ([pdf](http://www.math.ethz.ch/u/ambrogio/exercise_C_-algebras.pdf))
+
+A characterizations of injections of commutative sub-$C^*$-algebras -- hence of the [[poset of commutative subalgebras]] of a $C^*$-algebra -- is in
+
+* [[Chris Heunen]], _Characterizations of categories of commutative $C^*$-algebras_ ([arXiv:1106.5942](http://arxiv.org/abs/1106.5942)).
+
 
 
 [[!redirects C-star algebra]]
