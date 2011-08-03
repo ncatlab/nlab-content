@@ -262,9 +262,9 @@ An object $X$ or $A$ is **Isbell-self-dual** if
 
 Under certain circumstances, Isbell duality can be extended to large $\mathcal{V}$-enriched categories $C$. For example, if $C$ has a small generating ssubcategory $S$ and a small cogenerating subcategory $T$, then for each $F: C^{op} \to \mathcal{V}$ and $G: C \to \mathcal{V}$, one may construct $\mathcal{O}(F)$ and $Spec(G)$ objectwise as appropriate subobjects in $\mathcal{V}$: 
 
-$$\mathcal{O}(F)(c) = V^{C^{op}}(F, C(-, c)) \hookrightarrow \int_{s: S} V(F s, \hom(s, c))$$ 
+$$\mathcal{O}(F)(c) = [C^{op}, \mathcal{V}](F, C(-, c)) \hookrightarrow \int_{s: S} \mathcal{V}(F s, \hom(s, c))$$ 
 
-$$Spec(G)(c) = V^C(G, C(c, -)) \hookrightarrow \int_{t: T} V(G t, \hom(c, t))$$
+$$Spec(G)(c) = [C, \mathcal{V}](G, C(c, -)) \hookrightarrow \int_{t: T} \mathcal{V}(G t, \hom(c, t))$$
 
 =--
 
