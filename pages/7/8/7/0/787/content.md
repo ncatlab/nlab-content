@@ -145,4 +145,9 @@ Chris Rogers' paper discusses 2-plectic manifolds, manifolds with nondegenerate 
 * [[Chris Rogers]], _2-plectic geometry, Courant algebroids, and categorified prequantization_, ([arxiv:1009.2975](http://arxiv.org/abs/1009.2975))
 
 [[!redirects Courant Lie algebroid]]
+[[!redirects Courant Lie algebroids]]
+
 [[!redirects Courant algebroids]]
+
+[[!redirects Courant Lie 2-algebroid]]
+[[!redirects Courant Lie 2-algebroids]]
