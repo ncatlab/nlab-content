@@ -67,11 +67,31 @@ The [[GNS construction]] shows that every abstract $C^*$-algebra as a concrete $
 +-- {: .num_prop}
 ###### Proposition
 
-The set-theoretic [[image]] of a $C^\ast$-algebra under a [[star-algebra]] [[homomorphism]] is itself again a $C^\ast$-algebra.
+For $A$ and $B$ two $C^\ast$-algebras and $f : A \to B$
+a [[star-algebra]] [[homomorphism]] the set-theoretic [[image]]
+$f(A) \subset B$ is a $C^\ast$-subalgebra of $B$, hence is also the 
+[[image]] of $f$ in $C^\ast Alg$.
 
 =--
 
 This is ([KadisonRingrose, theorem 4.1.9](#KadisonRingrose)).
+
++-- {: .num_cor}
+###### Corollary
+
+There is a [[functor]]
+
+$$
+  \mathcal{C} : C^\ast Alg \to Poset
+$$
+
+to the [[category]] [[Poset]] of [[posets]], which sends each $A \in C^\ast Alg$
+to its [[poset of commutative subalgebras]] $\mathcal{C}(A)$ 
+and sends each morphism $f : A \to B$ to the [[functor]]
+$\mathcal{C}(f) : \mathcal{C}(A) \to \mathcal{C}(B)$ which
+sends a commutative subalgebra $C \subset A$ to $f(C) \subset B$.
+
+=--
 
 
 ## Variants
@@ -83,7 +103,7 @@ $C^*$-algebras equipped with the [[action]] of a [[group]] by [[automorphisms]] 
 ## References
 
 
-A standard textbook is for instance
+A standard textbook reference is chapter 4 in volume 1 of 
 
 * Richard Kadison and John Ringrose, _Fundamentals of the theory of operator algebras_ Academic Press, (1983)
  {#KadisonRingrose}
