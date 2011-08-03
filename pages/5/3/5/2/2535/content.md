@@ -21,7 +21,7 @@
 
   * [[super smooth topos]]
 
-* . <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">infinitesimal cohesion</a>
+* . [[cohesive (infinity,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]]
 
   * [[de Rham space]] 
 
