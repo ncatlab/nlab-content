@@ -1,7 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Operator algebra
++--{: .hide}
 [[!include AQFT and operator algebra contents]]
-</div>
+=--
+=--
+=--
 
 # Contents
 * automatic table of contents goes here
@@ -40,7 +50,9 @@ For a discussion of this in the finite-dimensional case see
 
 ## Properties
 
-The [[GNS construction]]) shows how to interpret every abstract $C^*$-algebra as a concrete $C^*$-algebra.
+The [[GNS construction]] shows how to interpret every abstract $C^*$-algebra as a concrete $C^*$-algebra.
+
+[[Gelfand duality]] says that every _commutative_ $C^*$-algebra is that of [[continuous functions]] on some [[topological space]]. 
 
 $C^*$-algebras with a group $G$ that is represented via automorphisms of the algebra are called [[C-star-systems]].
 
