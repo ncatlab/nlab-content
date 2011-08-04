@@ -79,4 +79,23 @@ It is this question that Dominic Verity's theorem answers.
 In words, Verity's theorem says that Ross Street's descent conditon on a $Str \omega Grpd$-valued presheaf $A$ is the correct one if the [[hypercover]] $\pi : Y \to X$  along which one checks descent is sufficiently well behaved -- in that the [[simplicial object|cosimplicial]] $\infty$-groupoid $A(Y)$ is [[Reedy category|Reedy fibrant]]. 
 
 
+## Related concepts
+
+* [[descent]]
+
+  * [[cover]]
+
+  * [[cohomological descent]]
+
+  * [[monadic descent]], 
+
+    * [[Sweedler coring]]
+
+    * [[higher monadic descent]]
+
+    * [[descent in noncommutative algebraic geometry]]
+
+* [[sheaf]], [[(2,1)-sheaf]], [[2-sheaf]] [[(∞,1)-sheaf]]
+
+
 [[!redirects Verity on descent for strict omega-groupoid valued presheave]]
