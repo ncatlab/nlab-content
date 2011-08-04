@@ -1,11 +1,32 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 ## Idea
 
-A Sweedler [[coring]] is an algebraic structure that is roughly the [[duality|formal dual]] of the [[Čech nerve]] of a [[cover]].
+A Sweedler [[coring]] is an algebraic structure that is roughly the [[duality|formal dual]] of the [[?ech nerve]] of a [[cover]]: it is used to describe [[descent]] in algebraic contexts.
+
+See also [[monadic descent]].
 
 ## Definition
 
@@ -86,7 +107,7 @@ $$
   \,.
 $$
 
-The morphism $\pi$ induces its augmented [[Čech nerve]]
+The morphism $\pi$ induces its augmented [[?ech nerve]]
 
 $$
   \left(
@@ -151,7 +172,7 @@ In other words, the objects of $\mathrm{Desc}(S/R)$ are the pairs $(N,\alpha)$ w
 
 ### In terms of (co)monadic descent {#ComonadicDescent}
 
-This [[coring]]-formulation of [[descent]] may be understood as special case of [[comonadic descent]] (see also the discussion at [[Bénabou–Roubaud theorem]]). We spell this out in detail:
+This [[coring]]-formulation of [[descent]] may be understood as special case of [[comonadic descent]] (see also the discussion at [[Bénabou?Roubaud theorem]]). We spell this out in detail:
 
 The [[bifibration]] in question is 
 
@@ -315,10 +336,32 @@ obtained this way is the co-action morphism from the above algebraic definition.
 The further cocycle condition on $g$ similarly translates into the condition that $\alpha$ really satisfies the [[comodule]] property.
 
 
-
 ## Properties are related to the ones of the ring extension
 
 Various properties of canonical coring correspond to adequate properties of the ring extension. For example, [[coseparable coring|coseparable]] Sweedler corings correspond to [[split extension]]s (the $k$-algebra extension $R\to S$ is split if there is an $R$-bimodule map $h: S\to R$ with $h(1_S) = 1_R$).
+
+## Related concepts
+
+
+* [[descent]]
+
+  * [[cover]]
+
+  * [[cohomological descent]]
+
+  * [[monadic descent]], 
+
+    * **Sweedler coring**
+
+    * [[higher monadic descent]]
+
+    * [[descent in noncommutative algebraic geometry]]
+
+* [[sheaf]], [[(2,1)-sheaf]], [[2-sheaf]] [[(∞,1)-sheaf]]
+
+## References
+
+A review of some basics is in 
 
 [[!redirects Sweddler corings]]
 [[!redirects Sweedler's coring]]
