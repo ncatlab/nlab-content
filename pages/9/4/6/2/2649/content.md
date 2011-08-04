@@ -35,19 +35,19 @@ is always a [[bijection]]. See the following section.)
 ### Reduction to binary coproducts 
 
 +-- {: .un_thm}
-######Theorem 
+###### Theorem 
 Let $C$ be infinitary extensive. Then an object $X$ of $C$ is connected if and only if $\hom(X, -): C \to Set$ preserves binary coproducts. 
 =-- 
 
 +-- {: .proof}
-######Proof 
+###### Proof 
 The "only if" is clear, so we just prove the "if". 
 
 We first show that $\hom(X, -)$ preserves the [[initial object]] $0$. Indeed, if $\hom(X, -)$ preserves the binary product $X + 0 = X$, then the canonical map $\hom(X, X) + \hom(X, 0) \to \hom(X, X)$  
 is a bijection of sets, where the restriction to $\hom(X, X)$ is also a bijection of sets $id: \hom(X, X) \to \hom(X, X)$. This forces the set $\hom(X, 0)$ to be empty. 
 
 Now let $\{Y_\alpha: \alpha \in A\}$ be a set of objects of $C$. We are required to show that each map 
-$$f: X \to \sum_\alpha Y_\alpha$$ 
+$$ f\colon X \to \sum_\alpha Y_\alpha $$
 factors through a unique inclusion $i_\alpha: Y_\alpha \to \sum_\alpha Y_\alpha$. By infinite extensivity, each pullback $U_\alpha \coloneqq f^\ast (Y_\alpha)$ exists and the canonical map $\sum_\alpha U_\alpha \to X$ is an isomorphism. We will treat it as the identity. 
 
 Now all we need is to prove the following. 
@@ -56,10 +56,12 @@ Now all we need is to prove the following.
 
 Indeed, for each $\alpha$, the identity map factors through one of the two summands in 
 
-$$id: X \to U_\alpha + \sum_{\beta \neq \alpha} U_\beta$$ 
+$$ id\colon X \to U_\alpha + \sum_{\beta \neq \alpha} U_\beta $$ 
 
 because $\hom(X, -)$ preserves binary coproducts. In others words, either $X = U_\alpha$ or $X = \sum_{\beta \neq \alpha} U_\beta$ (and the other is $0$). We cannot have $U_\alpha = 0$ for every $\alpha$, for then $X = \sum_\alpha U_\alpha$ would be $0$, contradicting the fact that $\hom(X, 0) = 0$. So $X = U_\alpha$ for at least one $\alpha$. And no more than one $\alpha$, since we have $U_\alpha \cap U_\beta = 0$ whenever $\alpha \neq \beta$. 
 =--
+
+Note that the proof is not [[constructive mathematics|constructive]], as we have no way to construct a particular $\alpha$ such that $X = U_\alpha$.  (It is constructive if [[Markov's principle]] applies to $A$.)
 
 
 ## Examples
