@@ -35,7 +35,7 @@ A [[functor]] that preserves finite limits is called [[left exact functor]], a _
 
 A [[category]] that has all 
 
-* binary [[product]]s
+* finite [[product]]s
 
 * [[equalizer]]s
 
