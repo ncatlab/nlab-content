@@ -10,9 +10,8 @@ in [[classical mechanics]] it is the physical system given by a point mass in a 
 
 In [[quantum mechanics]] and in particular [[quantum field theory]] the quantum harmonic oscillator governs not just the dynamics of idealized point masses but crucially appears in the dynamics of all free massive quantum fields. 
 
-Somebody somewhere has this quote, whose source I can't find right now
-
-> The life of every physicist consists of understanding the harmonic oscillator with ever growing degree of sophistication.
+To quote the field theorist Sidney Coleman,
+> The career of a young theoretical physicist consists of treating the harmonic oscillator in ever-increasing levels of abstraction.
 
 #Classical oscillator#
 
@@ -57,7 +56,7 @@ relate wavefunctions expressed in the Fock basis to [[structure types]].
 
 This originates in
 
-* [[John Baez]], [[James Dolan]], _From finite sets to Feynman diagram_ ([arXiv](http://arxiv.org/abs/math/0004133)).
+* [[John Baez]], [[James Dolan]], _From finite sets to Feynman diagrams_ ([arXiv](http://arxiv.org/abs/math/0004133)).
 
 For more along these lines see
 
