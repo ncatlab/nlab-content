@@ -1,3 +1,9 @@
+# Regular spaces
+* table of contents
+{: toc}
+
+## Idea
+
 A regular space is a [[topological space]] (or variation) that has, in a certain sense, enough regular open subsets.  The condition of regularity is one the [[separation axioms]] satsified by every [[metric space]] (in this case, by every pseudometric space).
 
 
@@ -112,6 +118,3 @@ A bit stronger than regularity is _complete regularity_; a bit stronger than $T_
 
 [[!redirects semiregular space]]
 [[!redirects semiregular spaces]]
-
-[[!redirects completely regular space]]
-[[!redirects completely regular spaces]]
