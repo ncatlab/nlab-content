@@ -138,12 +138,9 @@ of the action functionals
 of the 2-dimensional $\sigma$-models called the 
 _[[A-model]]_ and the _[[B-model]]_ .
 
-In ([Roytenberg](#Roytenberg)) a more detailed discussion of
-the general construction is given. While there, too, some 
-technical subtleties are glossed over, such as the precise definition of the 
-mapping space, a central achievement is that an explicit 
-and general formula for $\mathbf{S}$ and hence for $S_{\mathrm{AKSZ}}$ 
-is derived. For $\{x^a\}$ a coordinate chart on $X$ that formula is
+In ([Roytenberg](#Roytenberg)), a more detailed discussion of the general construction is given, including an explicit 
+and general formula for $\mathbf{S}$ and hence for $S_{\mathrm{AKSZ}}$ . 
+For $\{x^a\}$ a coordinate chart on $X$ that formula is
 the following.
 
 
