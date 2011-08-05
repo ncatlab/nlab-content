@@ -45,7 +45,7 @@ That is, convergence in a Hausdorff space is unique.
 
 ## Properties
 
-The topology on a [[compact space|compact]] Hausdorff space is given precisely by the (existent because compact, unique because Hausdorff) limit of each [[ultrafilter]] on the space.  Accordingly, compact Hausdorff topological spaces are (perhaps surprisingly) described by a (large) [[algebraic theory]].  In fact, the category of compact Hausdorff spaces is monadic (over [[Set]]); the [[monad]] in question maps each set to the set ultrafilters on it.  (The results of this paragraph require the [[ultrafilter theorem]], a weak form of the [[axiom of choice]].)
+The topology on a [[compact space|compact]] Hausdorff space is given precisely by the (existent because compact, unique because Hausdorff) limit of each [[ultrafilter]] on the space.  Accordingly, compact Hausdorff topological spaces are (perhaps surprisingly) described by a (large) [[algebraic theory]].  In fact, the category of compact Hausdorff spaces is monadic (over [[Set]]); the [[monad]] in question maps each set to the set ultrafilters on it.  (The results of this paragraph require the [[ultrafilter theorem]], a weak form of the [[axiom of choice]]; see [[ultrafilter monad]].)
 
 A compact Hausdorff locale (or space) is necessarily [[regular locale|regular]]; a regular locale (or $T_0$ space) is necessarily Hausdorff.  Accordingly, [[locale]] theory usually speaks of 'compact regular' locales instead of 'compact Hausdorff' locales, since the definition of regularity is easier and more natural.  Then a version of the previous paragraph works for compact regular locales *without* the ultrafilter theorem, and indeed [[constructive mathematics|constructively]] over any [[topos]].
 
