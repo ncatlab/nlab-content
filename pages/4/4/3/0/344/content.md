@@ -41,6 +41,12 @@ If an extensive category also has [[finitely complete category|finite limits]], 
 
 * The alternative definitions of finitary disjunctive refer only to binary coproducts, but they obviously imply analogous statements for $n$-ary coproducts for all finite $n \ge 1$.  Less obviously, they also imply the analogous statement for $0$-ary coproducts (that is, [[initial object]]s).  In this case, the statement is that the initial object 0 is _strict_ (any map $a\to 0$ is an isomorphism).
 
+* Furthermore, if binary coproducts are disjoint, then (at least assuming [[classical logic]]) any infinitary coproducts that exist are also disjoint, since
+  $$\bigsqcup_{a\in A} X_a \cong
+X_{a_0} \sqcup \bigsqcup_{a\neq a_0} X_a \cong
+X_{a_0} \sqcup X_{a_1} \sqcup \bigsqcup_{a\neq a_0,a_1} X_a$$
+  for any $a_0, a_1\in A$.  Therefore, if a finitary-extensive category has infinitary pullback-stable coproducts, it is necessarily infinitary-extensive.  In particular, a cocomplete [[locally cartesian closed category]] is finitary extensive if and only if it is infinitary extensive.
+
 * See [[familial regularity and exactness]] for a generalization of extensivity and its relationship to [[exact category|exactness]].
 
 * Any extensive category with finite [[products]] is automatically a [[distributive category]].
@@ -48,7 +54,7 @@ If an extensive category also has [[finitely complete category|finite limits]], 
 
 ## Examples
 
-1. A [[topos]] is finitary lextensive; a [[Grothendieck topos]] is infinitary lextensive.
+1. An [[elementary topos]] is finitary lextensive; a [[Grothendieck topos]] (or, more generally, any [[cocomplete category|cocomplete]] elementary topos) is infinitary lextensive.
 
 2. The category [[Top]] of [[topological spaces]] is infinitary lextensive.  The category [[Diff]] of smooth [[manifolds]] is infinitary extensive, though it lacks all pullbacks.
 
