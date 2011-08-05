@@ -19,7 +19,7 @@ Often one adds the requirement
 
 (Unlike with [[regular spaces]], $T_0$ is not sufficient here.)
 
-One may also see terminology where a __normal space__ is any space that satsifies $T_4$, while a __$T_4$ space__ must satisfy both.  This has the benefit that a $T_4$-space is always also a $T_3$-space while still having a term available for the weaker notion.  On the other hand, the reverse might make more sense, since you would expect any space that satisfies $T_4$ to be a $T_4$-space; this convention is also seen.
+One may also see terminology where a __normal space__ is any space that satsifies $T_4$, while a __$T_4$-space__ must satisfy both.  This has the benefit that a $T_4$-space is always also a $T_3$-space while still having a term available for the weaker notion.  On the other hand, the reverse might make more sense, since you would expect any space that satisfies $T_4$ to be a $T_4$-space; this convention is also seen.
 
 If instead of $T_1$, you add only
 
@@ -31,7 +31,7 @@ Any space that satisfies both $T_4$ and $T_1$ must be [[Hausdorff space|Hausdorf
 
 Any space that satisfies both $T_4$ and $R_0$ must be [[regular space|regular]] (in the weaker sense of that term), and every regular space satisfies $R_0$, so one may call such a space a __normal regular space__; however, those who interpret 'normal' to include $T_1$ usually also interpret 'regular' to include $T_1$, so this term can be ambiguous.
 
-It can be useful to rephrase $T_4$ in terms of open sets instead of closed:
+It can be useful to rephrase $T_4$ in terms of only open sets instead of also closed ones:
 
 *  $T_4$: if $G,H \subset X$ are [[open subspace|open]] and $G \cup H = X$, then there exist open sets $U,V$ such that $U \cup G$ and $V \cup H$ are still $X$ but $U \cap V$ is empty.
 
