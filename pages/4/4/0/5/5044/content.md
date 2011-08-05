@@ -33,11 +33,19 @@ For a [[Courant algebroid]] $(\mathfrak{P}, \omega)$ this is called the _Courant
 
 * [[schreiber:∞-Chern-Simons theory]]
 
-  * [[AKSZ theory]]
+* [[sigma-model]]
+
+  * [[AKSZ sigma-model]]
 
     * [[Poisson sigma-model]]
 
-    * **Courant $\sigma$-model**
+      * [[A-model]], [[B-model]]
+
+    * **Courant sigma-model**
+
+      * [[Chern-Simons theory]]
+
+
 
 ## References
 
