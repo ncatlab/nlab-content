@@ -90,7 +90,25 @@ While advertized as "A course for mathematicians", it is not. But it is much bet
 
 #### Lectures on Conformal Field Theory
 
+##### Lecture 1. Simple functional integrals
+
+* [[path integral]]
+
+##### Lecture 2. Axiomatic approaches to conformal field theory
+
 * [[CFT]]
+
+  * [[vertex operator algebra]]
+
+  * [[FQFT]]
+
+##### Lecture 3. $\sigma$-Models
+
+* [[sigma-models]]
+
+##### Lecture 4. Constructive conformal field theory
+
+* [[WZW model]]
 
 #### Perturbative String Theory
 
@@ -117,6 +135,10 @@ While advertized as "A course for mathematicians", it is not. But it is much bet
 
 ##### Lecture 7. Free superstrings
 
+* [[type II string theory]]
+
+* [[type I string theory]]
+
 ##### Lecture 8. Heterotic strings
 
 * [[heterotic string theory]]
@@ -131,6 +153,7 @@ While advertized as "A course for mathematicians", it is not. But it is much bet
 
 * [[supergravity]]
 
+* [[Green-Schwarz superstring]]
 
 
 #### Super Space Description of Super Gravity
