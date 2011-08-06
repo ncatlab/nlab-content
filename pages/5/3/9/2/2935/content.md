@@ -37,7 +37,46 @@ If one considers [[brane]]s in the target space of the Poisson sigma-model, then
 
 ## Definition
 
-The [[action functional]] of the _Poisson sigma model_ is that of the [[Chern-Simons theory]] for the canonical [[invariant polynomial]] on the [[Poisson Lie algebroid]] (see there for details).
+The [[target space]] of a Poisson $\sigma$-model is any [[Poisson manifold]] $(X, \{\})$, or rather the [[Poisson Lie algebroid]] $\mathfrak{P}$ corresponding to that.
+
+A field configuration on a 2-dimensional $\Sigma$ is a [[connection on an infinity-bundle|connection]]
+
+$$
+  (\phi,\eta) : \mathfrak{T}\Sigma \to \mathfrak{P}  
+ \,.
+$$
+
+In components this is
+
+1. a [[smooth function]] $\phi : \Sigma \to X$;
+
+1. a 1-form $\eta \in \Omega^1(\Sigma, \phi^* T X)$
+   with values in the pullback of the [[tangent bundle]] of $X$ along $\phi$.
+
+The [[action functional]] on the [[configuration space]] of all such maps for [[compact space|compact]] $\Sigma$ is defined to be
+
+$$
+  S : \phi \mapsto 
+  \int_\Sigma
+  \left(
+     \langle \eta \wedge d_{dR}\phi\rangle
+     + 
+     \frac{1}{2}
+     \phi^*\pi(\eta)
+  \right)
+  \,,
+$$
+
+where $\pi \in \wedge^2_{C^\infty(C)}\Gamma(T X)$ is the Poisson tensor of $(X, \{-,-\})$ and where  $\langle -,-\rangle$ is the canonical [[invariant polynomial]] on the [[Poisson Lie algebroid]].
+
+
+## Properties
+
+The 2-dimensional Poisson sigma-model is [[holographic principle|holographically]] related to the 1-dimensional QFT ([[quantum mechanics]]) defined by the [[quantization]] of the Poisson manifold $(X,\{-,-\})$.
+
+This is famously due to ([CattaneoFelder](#CattaneoFelder)), following a construction by ([Kontsevich](#Kontsevich)).
+
+(...)
 
 ## Related concepts
 
@@ -55,6 +94,7 @@ The [[action functional]] of the _Poisson sigma model_ is that of the [[Chern-Si
 
       * [[Chern-Simons theory]]
 
+* [[holographic principle]]
 
 ## References
 
@@ -72,6 +112,7 @@ The detailed argument by Cattaneo and Felder on how Kontsevich's formula for the
 
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _A path integral approach to the Kontsevich quantization formula_ ,
 Commun. Math. Phys. 212, 591--611 (2000) [doi](http://dx.doi.org/10.1007/s002200000229), [math.QA/9902090](http://arxiv.org/abs/math/9902090).
+ {#CattaneoFelder}
 
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and deformation quantization_ ,
 Mod. Phys. Lett. A 16, 179--190 (2001) [hep-th/0102208](http://arxiv.org/abs/hep-th/0102208).
