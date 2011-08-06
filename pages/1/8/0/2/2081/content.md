@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -24,6 +35,17 @@ $$
 where $F_x$ denotes the [[stalk]] of $F$ at point $x$. 
 
 
+## Related concepts
+
+* [[sheaf]]
+
+* [[abelian sheaf cohomology]]
+
+  * [[soft sheaf]]
+
+  * [[fine sheaf]]
+
+  * **flabby sheaf**
 
 ## References
 
