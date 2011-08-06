@@ -13,8 +13,13 @@ Perturbative [[string theory]] is defined in terms of certain classes of 2d [[CF
 
 * In ...
 
+## Properties
 
-## References
+The [[effective quantum field theory]] of type II string theory containts --besides [[supergravity]] -- the [[self-dual higher gauge theory]] of [[RR-fields]] and [[Kalb-Ramond field]]s.
+
+(..)
+
+## Related concepts
 
 * [[string theory]]
 
@@ -27,6 +32,22 @@ Perturbative [[string theory]] is defined in terms of certain classes of 2d [[CF
   * **type II string theory**
 
 * [[landscape of string theory vacua]]
+
+
+## References
+
+A canonical textbook source is
+
+* [[Eric D'Hoker]], _String theory -- lecture 7: Free superstrings_ , in part 3 of
+
+  [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
+[[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+
+
+A [[holographic principle|holographic]] description of type II by [[higher dimensional Chern-Simons theory]] is discussed in
+
+* Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
 
 
 [[!redirects type II superstring]]
