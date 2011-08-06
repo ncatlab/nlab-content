@@ -35,6 +35,12 @@ Moreover, every [[line Lie n-algebra]] $b^n \mathbb{R}$ carries a canonical inva
 
 More general "higher"-generalization of Chern-Simons theory to [[schreiber:infinity-Chern-Simons theory]] allow $\mathfrak{g}$ to be a (nonabelian) [[Lie 2-algebra]] or more generally a (nobabelian) [[L-infinity algebra]] or fully generally a [[L-infinity algebroid]].
 
+## Higher abelian Chern-Simons theory.
+
+
+
+
+
 
 ## Examples
 
@@ -63,5 +69,31 @@ Higher Chern-Simons theory in dimension $4k+3$ is related by a [[holographic pri
     * [[Courant sigma-model]]
 
       * [[Chern-Simons theory]]
+
+## References
+
+The idea of describing [[self-dual higher gauge theory]] by abelian Chern-Simons theory in one dimension higher originates in 
+
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+
+* [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_ ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
+
+Motivated by this the [[differential cohomology]] of self-dual fields had been discussed in 
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
+More discussion of the general principle is in 
+
+* Dmitriy Belov, [[Greg Moore]], _Holographic Action for the Self-Dual Field_ ([arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038))
+
+A quick exposition of the basic idea is in
+
+* [[Jacques Distler]], _Actions for self-dual gauge fields_ ([blog](http://golem.ph.utexas.edu/~distler/blog/archives/000809.html))
+
+The application of this to the description of 
+[[type II string theory]] in 10-dimensions to [[schreiber:infinity-Chern-Simons theory|11-dimensional Chern-Simons theory]] is in the followup 
+
+* Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
+
 
 [[!redirects higher Chern-Simons theories]]
