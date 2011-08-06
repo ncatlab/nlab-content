@@ -465,6 +465,9 @@ Therefore in horizontal equivalence classes of invariant polynomials on $(b \mat
 
 =--
 
+### On symplectic Lie $n$-algebroids
+
+A _[[symplectic Lie n-algebroid]]_ is an [[L-infinity algebroid]] that carries a binary and non-degeneraty invariant polynomial of grade $n$. This is a generalization of the notion of [[symplectic form]] to which it reduces for $n = 0$.
 
 ## Properties
  {#Properties}
