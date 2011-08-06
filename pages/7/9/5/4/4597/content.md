@@ -1137,13 +1137,41 @@ In terms of the underlying $\infty$-Lie algebra valued local connection data, i.
 (...)
 
 
+### $\infty$-Chern-Simons theory
 
+The refined higher Chern-Weil homomorphism takes values in
+[[circle n-bundles with connection]] in [[ordinary differential cohomology]]. Each of these comes with a notion of higher [[holonomy]] over $n$-dimensional curves $\Sigma_n \to X$. The map that takes a [[connection on an infinity-bundle]] to this holonomy is a generalization of the [[action functional]] of [[Chern-Simons theory]].
+
+Therefore the higher Chern-Weil homomorphism defines a class of [[sigma-model]] [[quantum field theories]] that we call
+
+[[schreiber:infinity-Chern-Simons theory]].
+
+See there for more details.
+
+Special noteworthy cases are 
+
+* the class of [[AKSZ sigma-models]] ([FRS11](#FRS))
+
+* higher [[Chern-Simons supergravity]]
+
+  (see [[D'Auria-Fre formulation of supergravity]])
 
 ## References
 
-The $\infty$-Chern-Weil homomorphism is considered in
+An explicit presentation of the $\infty$-Chern-Weil homomorphism in terms of [[simplicial presheaves]] and the application to [[differential string structure]]s and [[differential fivebrane structure]]s is considered in
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _&Ccaron;ech cocycles for differential characteristic classes_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_
+
+The special case that gives the [[AKSZ sigma-model]] is discussed in 
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_
+ {#FRS}
+
+A general abstract account is in
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+
 
 For a commented list of related literature see
 
