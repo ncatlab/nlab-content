@@ -23,16 +23,22 @@
 
 ## Idea
 
-For $\mathfrak{g}$ a [[Lie algebra]] with non-generate binary [[invariant polynomial]] $\langle -,-\rangle$, the corresponding [[schreiber:infinity-Chern-Simons theory]] [[QFT]] is ordinary [[Chern-Simons theory]] in dimension 3.
+There are two kinds of higher dimensional generalizations of ordinary 3-dimensional [[Chern-Simons theory]] that are often called "higher dimensional Chern-Simons theory" in the literature. Both are special cases of [[schreiber:infinity-Chern-Simons theory]].
 
-But also every other [[invariant polynomial]] $\langle-,-,\cdots,-\rangle$ on $\mathfrak{g}$ induces an [[schreiber:infinity-Chern-Simons theory]], now in higher dimension. This is often called _higher Chern-Simons theory_ . 
+Recall that for $\mathfrak{g}$ a [[Lie algebra]] (not necessarily abelian) with non-generate binary [[invariant polynomial]] $\langle -,-\rangle$, the corresponding [[schreiber:infinity-Chern-Simons theory]] [[QFT]] is ordinary [[Chern-Simons theory]] in dimension 3.
 
-Here we say _higher dimensional_ (but otherwise ordinary) Chern-Simons theory in order to distinguish from the more general "higher"-generalization, where $\mathfrak{g}$ is allowed to be a [[Lie 2-algebra]] or more generally an [[L-infinity algebra]] or fully generally a [[L-infinity algebroid]].
+But also every other [[invariant polynomial]] $\langle-,-,\cdots,-\rangle$ on $\mathfrak{g}$ induces an [[schreiber:infinity-Chern-Simons theory]], now in higher dimension. 
+
+Moreover, every [[line Lie n-algebra]] $b^n \mathbb{R}$ carries a canonical invariant polynomial. The [[schreiber:infinity-Chern-Simons theory]] associated with that is often called _abelian higher dimensional CS theory_ .
+
+(...)
+
+More general "higher"-generalization of Chern-Simons theory to [[schreiber:infinity-Chern-Simons theory]] allow $\mathfrak{g}$ to be a (nonabelian) [[Lie 2-algebra]] or more generally a (nobabelian) [[L-infinity algebra]] or fully generally a [[L-infinity algebroid]].
 
 
 ## Examples
 
-Higher dimensional Chern-Simons theories appear automatically as components of systems of higher [[supergravity]], for instance in [[1-dimensional supergravity]] (they are automatically induced by the requirement of  [[local supersymmetry]] in these higher dimensional supergravity theories).
+Higher dimensional abelian Chern-Simons theories appear automatically as components of systems of higher [[supergravity]], for instance in [[11-dimensional supergravity]] (they are automatically induced by the requirement of  [[local supersymmetry]] in these higher dimensional supergravity theories).
 
 (...)
 
