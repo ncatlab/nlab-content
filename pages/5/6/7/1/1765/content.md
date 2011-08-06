@@ -361,7 +361,7 @@ Various properties of canonical coring correspond to adequate properties of the 
 
 ## References
 
-Sweedler is a major author on Hopf algebras, authoring an old book in the subject, and a professor emeritus at Cornell. His work on noncommuytative extensions dealing with Sweedler coring and related work of his colleague from Cornell Chase on noncommutative Galois, predating Hopf-Galois theory is from 1970s.
+Sweedler corings are named after [[Moss Sweedler]].
 
 [[!redirects Sweddler corings]]
 [[!redirects Sweedler's coring]]
