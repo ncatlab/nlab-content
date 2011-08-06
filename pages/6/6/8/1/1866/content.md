@@ -53,7 +53,7 @@ In the remainder of the article various further details of the differential coho
 
 The subtle self-duality conditions on [[differential cohomology|differential cocycles]] found in these [[string theory|string theoretic]] [[supergravity]] backgrounds was what led Hopkins and Singer to their foundational work on [[differential cohomology]]:
 
-* Hopkins, Singer, _Quadratic functions in geometry, topology,and M-theory_ ([arXiv](http://arxiv.org/abs/math/0211216))
+* [[Mike Hopkins]], I. Singer, _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_ ([arXiv](http://arxiv.org/abs/math/0211216))
 
 [[!redirects RR-field]]
 [[!redirects Ramond-Ramond field]]
