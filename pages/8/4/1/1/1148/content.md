@@ -1,9 +1,21 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Idea##
@@ -221,7 +233,7 @@ $$
 
 =--
 
-##Examples##
+## Examples
 
 * [[Deligne cohomology]]
 
@@ -231,11 +243,24 @@ $$
 
 * [[syntomic cohomology]]
 
+## Related concepts
+
+* [[sheaf]]
+
+* **abelian sheaf cohomology**
+
+  * [[soft sheaf]]
+
+  * [[fine sheaf]]
+
+  * [[flabby sheaf]]
+
+
 ##References##
 
 The ordinary definition of sheaf cohomology in terms of the right derived global section functor can be found recalled for instance in these notes:
 
-* Ch&ecirc;nevert, Kassaei, _Sheaf Cohomology_ ([pdf](http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf))
+* Ch&#234;nevert, Kassaei, _Sheaf Cohomology_ ([pdf](http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf))
 
 * Cibotaru, _Sheaf cohomology_ ([pdf](http://www.nd.edu/~lnicolae/sheaves_coh.pdf))
 
