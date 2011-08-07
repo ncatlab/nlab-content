@@ -75,7 +75,7 @@ For models of higher categories by [[simplicial set]]s, i.e. presehaves on the [
 
 Semicategories and semigroups are mentioned for instance in section 2 in
 
-* W. Dale Garraway, _Sheaves for an involutive quantaloid_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 46 no. 4 (2005), p. 243-274  ([numdam](http://www.numdam.org/item?id=CTGDC_2005__46_4_243_0))
+* W. Dale Garraway, _Sheaves for an involutive quantaloid_,  Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 46 no. 4 (2005), p. 243-274  ([numdam](http://www.numdam.org/item?id=CTGDC_2005__46_4_243_0))
 
 
 
