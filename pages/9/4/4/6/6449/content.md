@@ -33,7 +33,7 @@ Moreover, every [[line Lie n-algebra]] $b^n \mathbb{R}$ carries a canonical inva
 
 (...)
 
-More general "higher"-generalization of Chern-Simons theory to [[schreiber:infinity-Chern-Simons theory]] allow $\mathfrak{g}$ to be a (nonabelian) [[Lie 2-algebra]] or more generally a (nobabelian) [[L-infinity algebra]] or fully generally a [[L-infinity algebroid]].
+More general "higher"-generalization of Chern-Simons theory to [[schreiber:infinity-Chern-Simons theory]] allow $\mathfrak{g}$ to be a (nonabelian) [[Lie 2-algebra]] or more generally a (nonabelian) [[L-infinity algebra]] or fully generally a [[L-infinity algebroid]].
 
 ## Higher abelian Chern-Simons theory.
 
@@ -43,7 +43,7 @@ The definition of higher abelian Chern-Simons theory is simple _locally_ when ce
 
 Let $k \in \mathbb{N}$ be a [[natural number]], let $d = 4 k + 3$ and let $\Sigma$ be a [[compact space|compact]] [[smooth manifold]] of [[dimension]] $d$.
 
-Then the _simple version_ of abelain $d$-dimensional Chern-Simons theory is defined as follows. 
+Then the _simple version_ of abelian $d$-dimensional Chern-Simons theory is defined as follows. 
 
 * the [[configuration space]] is the [[space]] of [[differential form]]s on $\Sigma$ of degree $2k+1$
 
