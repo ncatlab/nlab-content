@@ -37,10 +37,77 @@ More general "higher"-generalization of Chern-Simons theory to [[schreiber:infin
 
 ## Higher abelian Chern-Simons theory.
 
+### Definition
 
+The definition of higher abelian Chern-Simons theory is simple _locally_ when certain global [[cohomology|cohomological]] effects can be ignored.
 
+Let $k \in \mathbb{N}$ be a [[natural number]], let $d = 4 k + 3$ and let $\Sigma$ be a [[compact space|compact]] [[smooth manifold]] of [[dimension]] $d$.
 
+Then the _simple version_ of abelain $d$-dimensional Chern-Simons theory is defined as follows. 
 
+* the [[configuration space]] is the [[space]] of [[differential form]]s on $\Sigma$ of degree $2k$
+
+  $$
+    Conf_{simpl} = \Omega^{2k}(\Sigma)
+    \,,
+  $$
+
+* the [[Lagrangian]] is 
+
+  $$
+    L : B \mapsto B \wedge d_{dR} B
+    \,,
+  $$
+
+* and hence the [[action functional]]
+
+  $$
+    S : \Omega^{2k}(\Sigma) \to \mathbb{R}
+  $$
+
+  is therefore
+
+  $$
+    S : B \mapsto \int_\sigma B \wedge d_{dR}B
+    \,.
+  $$
+
+In the full theory instead the configuration space is 
+
+$$
+  Conf = \mathbf{H}_{diff}^{2k+1}(\Sigma)
+  \,,
+$$
+
+the space of [[circle n-bundle with connection|circle 2k-bundles with connection]] (given by [[cocycle]]s in degree $2k+1$ [[ordinary differential cohomology]]). This contains the above simplifies configuration space as the subspace of $n$-connections whose underlying circle $n$-bundle is trivial. 
+
+The action functional is given by
+
+$$
+  S : \hat B \mapsto \int_\Sigma \hat B \cup \hat B
+  \,,
+$$
+
+where now the integral is [[fiber integration in ordinary differential cohomology]] and in the integrand we have the [[cup product]] of differential cocycles.
+
+### Formulation in $\infty$-Chern-Simons theory
+
+We discuss how the above definition arises as a special case of the general notion of 
+[[schreiber:infinity-Chern-Simons theory]].
+
+These theories are defined by
+
+* an [[L-infinity algebroid]] $\mathfrak{a}$;
+
+* equipped with an [[invariant polynomial]] $\langle \rangle$.
+
+The abelian higher dimensional Chern-Simons theories in dimension $4k+3$ are the special case of this general situation where
+
+* $\mathfrak{a} = b^{2k}\mathbb{R}$ is the [[line Lie n-algebra|line Lie 2k-algebra]], the $2k$-fold [[delooping]] of the abelian [[Lie algebra]] $\mathbb{R}$;
+
+* $\langle - \rangle$ is the canonical quadratic [[invariant polynomial]] on this.
+
+(...)
 
 ## Examples
 
@@ -86,9 +153,6 @@ More discussion of the general principle is in
 
 * Dmitriy Belov, [[Greg Moore]], _Holographic Action for the Self-Dual Field_ ([arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038))
 
-A quick exposition of the basic idea is in
-
-* [[Jacques Distler]], _Actions for self-dual gauge fields_ ([blog](http://golem.ph.utexas.edu/~distler/blog/archives/000809.html))
 
 The application of this to the description of 
 [[type II string theory]] in 10-dimensions to [[schreiber:infinity-Chern-Simons theory|11-dimensional Chern-Simons theory]] is in the followup 
