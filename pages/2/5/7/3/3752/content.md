@@ -32,7 +32,7 @@ Semicategories, like categories, appear as [[semipresheaf|semipresheaves]] on th
 
 ## Definition
 
-A **semicategory* or **category without units** $C$ consists of 
+A **semicategory** or **category without units** $C$ consists of 
 
 * a [[collection]] $C_0$ of _objects_;
 
