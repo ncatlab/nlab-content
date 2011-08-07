@@ -45,7 +45,14 @@ See
 ### Higher dimensional Chern-Simons theory / Self-dual higher gauge theory
 
 Generally, [[higher dimensional Chern-Simons theory]]
-in dimension $4k+3$ (for $k \in \mathbb{N}$) is holograohically related to [[self-dual higher gauge theory]] in dimension $4k+2$ (at least in the abelian case). See there for more details.
+in dimension $4k+3$ (for $k \in \mathbb{N}$) is holograohically related to [[self-dual higher gauge theory]] in dimension $4k+2$ (at least in the abelian case). 
+
+* $(k=0)$: ordinary 3-dimensional [[Chern-Simons theory]] is related to a [[string]] [[sigma-model]] on its boundary;
+
+* $(k=1)$: 7-dimensional Chern-Simons theory is related to a [[fivebrane]] model on its boundary;
+
+* $(k=2)$: 11-dimensional Chern-Simons theory is related to a parts of a [[type II string theory]] on its bounday (or that of the space-filling 9-[[brane]], if one wishes) ([BelovMoore](#BelovMoore)).
+
 
 ### Ads/CFT
 
@@ -73,6 +80,7 @@ The idea of describing [[self-dual higher gauge theory]] by abelian Chern-Simons
 More discussion of the general principle is in 
 
 * Dmitriy Belov, [[Greg Moore]], _Holographic action for the self-dual field_, [arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038)
+ {#BelovMoore}
 
 A quick exposition of the basic idea is in
 
@@ -109,4 +117,4 @@ An identification of boundary conditions and [[QFT with defects|defects]] as [[n
 * [[Chris Schommer-Pries]], _Topological defects and classifying local topological field theories in low dimension_ ([[SchommerPriesDefects.pdf:file]])
 {#SchommerPries}
 
-See [[holographic principle in higher category theory]] for more on this.
+See [[holographic principle of higher category theory]] for more on this.
