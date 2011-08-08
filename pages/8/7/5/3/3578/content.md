@@ -513,6 +513,18 @@ Let $p : X \to S$ be a morphism of simplicial sets with [[section]] $s : S \to X
 
 This appears as [[Higher Topos Theory|HTT, prop. 2.1.2.11]].
 
+## Related concepts
+
+* [[Kan fibration]], [[anodyne morphism]]
+
+* **right/left Kan fibration**, [[right/left anodyne map]]
+
+* [[inner fibration]]
+
+* [[Cartesian fibration]]  
+
+
+
 
 [[!redirects left fibration]]
 [[!redirects left fibrations]]
@@ -536,3 +548,5 @@ This appears as [[Higher Topos Theory|HTT, prop. 2.1.2.11]].
 
 [[!redirects left anodyne maps]]
 [[!redirects right anodyne maps]]
+
+[[!redirects right/left anodyne map]]
