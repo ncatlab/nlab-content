@@ -347,3 +347,15 @@ We check successively what this means for increasing $n$:
 * Just as the underlying simplicial set of a [[simplicial group]] is a [[Kan complex]] (see algorithm at [[simplicial group]]), so also given any simplicial morphism $f : G\to H$ of simplicial groups for which in each dimension, $n$, the homomorphism $f_n : G_n \to H_n$ is an [[epimorphism]], then the underlying simplicial map of simplicial sets is a Kan fibration. (Apart from a careful choice of section in each dimension, the proof can be constructed from the algorithm given in [[simplicial group]].)
 
 * A morphism of simplicial sets that has the left [[lifting property]] with respect to all Kan fibrations is called an [[anodyne morphism]].
+
+## Related concepts
+
+* **Kan fibration**, [[anodyne morphism]]
+
+* [[right/left Kan fibration]], [[right/left anodyne map]]
+
+* [[inner fibration]]
+
+* [[Cartesian fibration]]  
+
+
