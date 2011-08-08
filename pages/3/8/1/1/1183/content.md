@@ -158,7 +158,7 @@ The content of this section is at
 ### Topological $\sigma$-models 
 
 
-* [[Dijkgraaf-Witten theory]] is the (2+1)-dimensioanl $\sigma$-model induced from an abelian 2-gerbe on $\mathbf{B} G$, for $G$ a finite group.
+* [[Dijkgraaf-Witten theory]] is the (2+1)-dimensional $\sigma$-model induced from an abelian 2-gerbe on $\mathbf{B} G$, for $G$ a finite group.
 
 * [[Chern-Simons theory]] is supposed to be analogously the $\sigma$-model induced from an abelian 2-gerbe with connection on $\mathbf{B}G$, but now for $G$ a Lie group.
 
@@ -212,16 +212,16 @@ A standard reference on 2-dimensional [[string]] $\sigma$-models is
 
 First indications on how to formalize $\sigma$-models in a [[higher category theory|higher categorical]] context were given in
 
-* [[Dan Freed]], _Higher algebraic structures and quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
+* [[Dan Freed]], _Higher algebraic structures and quantization_, ([arXiv](http://arxiv.org/abs/hep-th/9212115))
 
 A grand picture developing this approach further is sketched in 
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_  ([arXiv](http://arxiv.org/abs/0905.0731))
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_,  ([arXiv](http://arxiv.org/abs/0905.0731))
  {#FHLT}
 
 A discussion of 2- or (2+1)-dimensional $\Sigma$-models whose target is an [[derived stack]]/[[infinity-stack]] is in
 
-* [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral transforms and Drinfeld centers in derived geometry_ ([arXiv](http://arxiv.org/abs/0805.0157)) .
+* [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral transforms and Drinfeld centers in derived geometry_, ([arXiv](http://arxiv.org/abs/0805.0157)) .
 
 More discussion of the latter is at [[geometric infinity-function theory]].
 
@@ -231,10 +231,10 @@ A discussion of $\sigma$-models of higher gauge theory type is at
 
 Concrete applications of $\sigma$-models with target [[stack]]s (typically smooth ones, hence [[smooth infinity-groupoid|smooth groupoid]]s) in [[string theory]] and [[supergravity]] are discussed for instance in
 
-* [[Tony Pantev]], [[Eric Sharpe]], _Gauged linear sigma-models for gerbes (and other toric stacks)_ ([arXiv:hep-th/0502053](http://arxiv.org/abs/hep-th/0502053))
+* [[Tony Pantev]], [[Eric Sharpe]], _Gauged linear sigma-models for gerbes (and other toric stacks)_, ([arXiv:hep-th/0502053](http://arxiv.org/abs/hep-th/0502053))
  {#PantevSharpe}
 
-* S. Hellerman, [[Eric Sharpe]], _Sums over topological sectors and quantization of Fayet-Iliopoulos parameters_ ([arXiv:1012.5999](http://arxiv.org/abs/1012.5999))
+* S. Hellerman, [[Eric Sharpe]], _Sums over topological sectors and quantization of Fayet-Iliopoulos parameters_, ([arXiv:1012.5999](http://arxiv.org/abs/1012.5999))
  {#HellermanSharpe}
 
 
