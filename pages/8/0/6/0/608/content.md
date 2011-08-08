@@ -1,7 +1,36 @@
-# Definition #
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition 
 
 A **simplicial object in  $Cat$** is a particular case of [[simplicial object]], of course, with the $C$ there being $Cat$.  It therefore has a simplicial set of objects and a simplicial set of morphisms.
 
-# Remark #
 
-A simplicial object in $\Cat$ is sometimes called a [[simplicial category]], but that has other meanings.
+**Remark** A simplicial object in $\Cat$ is sometimes called a [[simplicial category]], but that has other meanings.
+
+## Related concepts
+
+* [[simplicial category]]
+  
+  * [[simplicially enriched category]]
+
+  * **simplicial object in Cat**
+
+* [[simplicial groupoid]]
+
+* [[relation between quasi-categories and simplicial categories]]
+
+
+[[!redirects simplicial objects in Cat]]
