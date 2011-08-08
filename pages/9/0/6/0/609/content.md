@@ -1,4 +1,19 @@
-(For a discussion of the terminology of simplicial groupoid and [[simplicial category]], see the entry on the second of these.)
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 It is probably best to distinguish between the following:
 
@@ -7,6 +22,7 @@ in which is all the categories involved are [[groupoid]]s.
 
 *   A **simplicially enriched groupoid** is a groupoid [[enriched category|enriched]] over the category [[SimpSet]] of [[simplicial set]]s.  
 
+(For a discussion of the terminology of simplicial groupoid and [[simplicial category]], see the entry on the second of these.)
 
 
 Any simplicially enriched groupoid yields a simplicial groupoid in which the face and degeneracy operators are constant on objects and it is often in this latter form that they are met in homotopy theory.
@@ -22,6 +38,19 @@ Any simplicially enriched groupoid yields a simplicial groupoid in which the fac
 *  A simplicially enriched groupoid having exactly one object is essentially the same as a [[simplicial group]]. Notationally however it is often important to distinguish a simplicial group form the corresponding single object simplicially enriched groupoid.
 
 *  Many constructions on simplicial groups, such as that of its [[Moore complex]] carry over to simplicialy enriched groupoids without difficulty.
+
+## Related concepts
+
+* [[simplicial category]]
+  
+  * [[simplicially enriched category]]
+
+  * [[simplicial object in Cat]]
+
+* **simplicial groupoid**
+
+* [[relation between quasi-categories and simplicial categories]]
+
 
 [[!redirects simplicial groupoids]]
 [[!redirects simplicially enriched groupoids]]
