@@ -134,7 +134,7 @@ $$
 
 ## References
 
-* [[Peter May]], _Simplicial objects in algebraic topology_ University of chicago press, 1967, ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
+* [[Peter May]], _Simplicial objects in algebraic topology_ , University of Chicago Press, 1967, ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
 
 
 [[!redirects simplicial objects]]
