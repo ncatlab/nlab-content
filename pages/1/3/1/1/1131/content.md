@@ -212,6 +212,43 @@ The differential on $L\star L'$ is the unique Lie algebra derivation extending $
 
 * [[model structure on dg-Lie algebras]]
 
+
+### Relation to $L_\infty$-algebras
+
+Every dg-Lie algebra is in an evident way an 
+[[L-infinity algebra]]. Dg-Lie algebras are precisely those $L_\infty$-algebras for which all $n$-ary brackets for $n \gt 2$ are trivial. These may be thought of as the _strict_ $L_\infty$-algebras: those for which the [[Jacobi identity]] holds on the nose and all its possible higher coherences are trivial.
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $k$ be a [[field]] of [[characteristic]] 0 and write $L_\infty Alg_k$ for the [[category]] of [[L-infinity algebras]] over $k$. 
+
+Then every object of $L_\infty Alg_k$ is [[quasi-isomorphism|quasi-isomorphic]] to a [[dg-Lie algebra]].
+
+Moreover, one can find a functorial replacement: there is a [[functor]]
+
+$$
+  W : L_\infty Alg_k \to L_\infty Alg_k
+$$
+
+such that for each $\mathfrak{g} \in L_\infty Alg_k$ 
+
+1. $W(\mathfrak{k})$ is a [[dg-Lie algebra]];
+
+1. there is a [[quasi-isomorphism]]
+
+   $$
+     \mathfrak{g} \stackrel{\simeq}{\to}
+     W(\mathfrak{g})
+     \,.
+   $$
+
+=--
+
+This appears for instance as ([KrizMay, cor. 1.6](#KrizMay)).
+
+
+
 ### Relation to simplicial Lie algebras
 
 +-- {: .num_theorem}
@@ -264,6 +301,10 @@ A standard reference in the context of [[rational homotopy theory]] is
 * [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725))
  {#Quillen}
 
+The relation to $L_\infty$-algebras is discussed for instance in 
+
+* [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
+ {#KrizMay}
 
 
 See also the regerences at [[model structure on dg-Lie algebras]].
