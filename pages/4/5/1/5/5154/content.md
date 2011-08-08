@@ -169,13 +169,13 @@ We now discuss conditions under which model categories of algebras over a resolv
 
 Let $\mathcal{E}$ be in addition a [[left proper model category]]. 
 
-Then for $\phi : P \to Q$ a weak equivalence between asdmissible $\Sigma$-cofibrant well-pointed $C$-colourred operads in $\mathcal{E}$, the [[adjunction]]
+Then for $\phi : P \to Q$ a weak equivalence between admissible $\Sigma$-cofibrant well-pointed $C$-coloured operads in $\mathcal{E}$, the [[adjunction]]
 
 $$
   (\phi_! \dashv \phi^*) : 
   Alg_\mathcal{E}(P)
   \stackrel{\leftarrow}{\to}
-  Alg_\mathcal{E}(P)
+  Alg_\mathcal{E}(Q)
 $$
 
 is a [[Quillen equivalence]].
@@ -253,6 +253,15 @@ This follows from the [rectification theorem](#RectificationTheorem), using that
 This is a classical statement. See [[A-∞ algebra]] for background and references.
 
 =--
+
+### $L_\infty$-algebras and simplicial Lie algebras
+
+Let $Lie$ be the [[Lie operad]]. 
+
+A cofibrant resolution is $L_\infty$, the operad whose algebras in [[chain complex]]es are [[L-infinity algebras]].
+
+Now (...)
+  
 
 ### Homotopy coherent diagrams {#HomotopyCoherentDiagrams}
 
