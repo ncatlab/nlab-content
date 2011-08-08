@@ -56,21 +56,21 @@ We originally designed this place as as an adjunct to the [$n$-Category Caf&eacu
 While we work on the $n$Lab, we talk to each other on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/). We inform ourselves about latest edits to the $n$Lab in the part [nForum -- latest changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5). Have a look around there. 
 
 
-## Contributing 
+## Contributing to the $n$Lab
  {#Contributing}
 
 If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here (to the extent that we understand this ourselves, at least). If you feel unsure about appropriate content, see [[What to Contribute]]. For technical hints see [[HowTo]].
 
-After you did make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/)!
+If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/)!
 
-## Terms of use
+## Using the $n$Lab
  {#TermsOfUse}
 
-One purpose (or at least: one goal) of the $n$Lab is to help make information widely available and usefully related to other information. This follows the traditional practices of exchange of information in academia: 
+One goal of the $n$Lab is to help make information widely available and usefully related to other information.  In this users and contributors are expected to follow traditional academic practice:
 
-Using content obtained from the $n$Lab is free and encouraged, while properly acknowledging and/or citing the source. Cited $n$Lab page may change, hence in citations you can point to a specific version number of a page, while the past version(s) can be found by clicking on the _history_ button at the bottom of any page.
+* Using content obtained from the $n$Lab is free and encouraged as long as you properly acknowledge the source. Because $n$Lab pages can change, in citing a page you should point to a specific version of it.  You can find a list of all the versions of a page by clicking on the **History** link at the bottom of the page itself.
 
-Conversely, any content contributed to $n$Lab is publicly available and the author should be aware that others may use it (whatever you decide to do with it elsewhere) or, in fact, edit it. In the first case author trusts that users will cite his/her contributions properly, in the second that they respect it and only improve on it. At the same time, one is expected to properly acknowledge sources of information for material entered into the $n$Lab. 
+* Conversely, any content contributed to $n$Lab is publicly available and you should be aware that others may use your contributions (whatever you decide to do with their content elsewhere) or indeed edit them. In the first case you trust that users will cite your contributions properly, in the second that they will respect and only improve on them. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
 
 Usually this works well. If there is need for discussion, the 
 [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
