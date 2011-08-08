@@ -30,7 +30,9 @@ $$
 
 ## Relations
 
-* For $C$ any [[SSet]]-[[enriched category]], the canonical morphism
+### Via homotopy coherent nerve
+
+For $C$ any [[SSet]]-[[enriched category]], the canonical morphism
 
   $$ 
     |N(C)| \to C
@@ -45,6 +47,47 @@ $$
   $$
 
   is a [[model structure for quasi-categories|categorical equivalence]] of simplicial sets.
+
+### Via $\bar W$-construction
+
+We have an evident inclusion 
+
+$$
+  sSet Cat \hookrightarrow Cat^{\Delta}
+$$
+
+of [[simplicially enriched categories]]
+into [[simplicial objects in Cat]].
+
+On the latter the $\bar W$-functor is defined as the composite
+
+$$
+  \bar W 
+   :
+  Cat^\Delta
+   \stackrel{N^\Delta}{\to}
+  sSet^\Delta
+   \stackrel{}{\to}
+  sSet
+$$
+
+where first we degreewise form the ordinary [[nerve]] of categories and then take the total simplicial set of [[bisimplicial sets]] (the [[right adjoint]] of pullback along the [[diagonal]] $\Delta^n \to \Delta^n \times \Delta^n$).
+
++-- {: .num_prop}
+###### Proposition
+
+For $C$ a [[simplcial groupoid]] there is a [[weak homotopy equivalence]]
+
+$$
+  \mathcal{N}(C) \to \bar W(C)
+$$
+
+from the [[homotopy coherent nerve]]
+
+=--
+
+([Hinich](#Hinich))
+
 
 ## Model category structures
 
@@ -64,6 +107,16 @@ $$
 
 is the [[right adjoint]] part of a [[Quillen equivalence]] between these model structures.
 
+## Related concepts
+
+* [[simplicial category]]
+
+  * [[simplicially enriched category]]
+
+  * [[simplicial object in Cat]]
+
+* [[simplicial groupoid]]
+
 ## References
 
 The idea of a [[homotopy coherent nerve]] has been around for some time; see there for references.
@@ -81,6 +134,11 @@ A detailed discussion of the map from quasi-categories to $SSet$-categories is i
 More along these lines is in 
 
 * [[Emily Riehl]], _On the structure of simplicial categories associated to quasi-categories_ ([pdf](http://www.math.uchicago.edu/~eriehl/necklace.pdf))
+
+See also
+
+* [[Vladimir Hinich]], _Simplicial nerve in Deformation theory_ ([arXiv:0704.2503](http://arxiv.org/abs/0704.2503))
+ {#Hinich}
 
 An introduction and overview of the relation between quasi-categories and simplicial categories is in section 1.1.5 of 
 
