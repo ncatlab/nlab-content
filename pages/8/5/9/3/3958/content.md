@@ -62,6 +62,7 @@ A  smooth manifold is equivalently a  [[locally ringed space]] $(X,\mathcal{O}_X
 
 
 ### General abstract geometric definition
+ {#GeneralAbstractCharacterization}
 
 There is a more fundamental and [[category theory|general abstract]] way to think of smooth manifolds, which realizes their theory as a special case of general constructions in [[higher geometry]]. In this context one specifies $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]] and then plenty of geometric notions are defined canonically in terms of $\mathcal{G}$. The theory of smooth manifolds appears if one takes $\mathcal{G} = $ [[CartSp]]. 
 
