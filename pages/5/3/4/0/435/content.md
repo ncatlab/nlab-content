@@ -97,6 +97,18 @@ All of [[(∞,1)-topos theory]] can be modeled in terms of $sSet$-categories. ([
 
 See [[(∞,2)-category]] for the moment.
 
+## Related concepts
+
+* [[simplicial category]]
+  
+  * **simplicially enriched category**
+
+  * [[simplicial object in Cat]]
+
+* [[simplicial groupoid]]
+
+* [[relation between quasi-categories and simplicial categories]]
+
 
 ## References
 
