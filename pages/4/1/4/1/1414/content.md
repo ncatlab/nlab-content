@@ -480,6 +480,8 @@ A review of this latter aspect is also in
 
 * Mitya Boyarchenko, _Notes and exercise on $\infty$-categories_ ([pdf](http://math.uchicago.edu/~mitya/langlands/quasicategories.pdf))
 
+* [[Vladimir Hinich]], _Simplicial nerve in Deformation theory_ ([arXiv:0704.2503](http://arxiv.org/abs/0704.2503))
+
 For more references see [[relation between quasi-categories and simplicial categories]].
 
 Two query-discussions on terminology and concrete description of the coherent/"simplicial" nerve are archived at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=754&Focus=20607#Comment_20607).
