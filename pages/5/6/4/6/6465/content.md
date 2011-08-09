@@ -59,11 +59,11 @@ Define $x \odot y \coloneqq \neg (\neg x \oplus \neg y)$, and define $x \Rightar
 
 +-- {: .un_prop}
 ######Proposition 1
-Each MV algebra carries a lattice structure, where the meet and join operations are defined by 
+Each MV algebra carries a lattice structure, where the join and meet operations are defined by 
 
-$$x \wedge y = (x \odot \neg y) \oplus y$$ 
+$$x \vee y = (x \odot \neg y) \oplus y$$ 
 
-$$x \vee y = x \odot (\neg x \oplus y)$$ 
+$$x \wedge y = x \odot (\neg x \oplus y)$$ 
 
 and where $0$ and $1 = \neg 0$ are the bottom and top elements. 
 =-- 
