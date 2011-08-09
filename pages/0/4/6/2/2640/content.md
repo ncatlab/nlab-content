@@ -1,5 +1,7 @@
+
+
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 ## Definition
@@ -14,156 +16,14 @@ where $\Delta$ is the [[simplex category]].
 
 This is the same as a [[simplicial object]] in the [[category]] of [[simplicial object]]s in $C$.
 
-#Special cases#
+## Examples
 
-## Bisimplicial sets 
+* [[bisimplicial set]]
 
-### Definition
+* [[bisimplicial group]]
 
-A bisimplicial set is a bisimplicial object in [[Set]].
+## Related concepts
 
-### Properties
+* [[simplicial object]]
 
-+-- {: .un_def }
-###### Definition
-**(diagonal)**
-
-For $X_{\bulet,\bullet}$ a bisimplicial set, its **diagonal** is the simplicial set that this the precomposition with $(Id, Id) : \Delta^{op} \to \Delta^{op} \times \Delta^{op}$, i.e. the simplicial set with components.
-
-$$
-  d(X)_n = X_{n,n}
-  \,.
-$$
-
-=--
-
-
-+-- {: .un_def }
-###### Definition
-**(realization)**
-
-The **realization** $|X|$ of a bisimplicial set $X_{\bullet,\bullet}$ is the [[simplicial set]] that is given by the [[coend]]
-
-$$
-  |X| =  \int^{[n] \in \Delta} X_{n,\bullet} \times \Delta[n]_\bullet
-$$
-
-in [[sSet]].
-
-=--
-
-+-- {: .un_prop }
-###### Proposition
-**(diagonal is realization)**
-
-For $X$ a bisimplicial set, its diagonal $d(X)$ is (isomorphic to) its realization $|X|$:
-
-$$
-  |X| \simeq d(X)
-  \,.
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is exercise 1.6 in  in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
-
-* Goerss-Jardine, _Simplicial Homotopy Theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)) 
-
-
-=--
-
-+-- {: .un_prop }
-###### Proposition
-**(diagonal is homotopy colimit)**
-
-The diagonal of a bisimplicial set $X_{\bullet,\bullet}$ is also (up to weak equivalence) the [[homotopy colimit]] of $X$ regarded as a simpliciall diagram in the [[model structure on simplicial sets]]
-
-$$  
-  diag X \simeq hocolim (X : \Delta^{op} \to sSet_{Quillen})
-  \,.
-$$
-
-=--
-
-This appears for instance as theorem 3.6 in ([Isaacson](#Isaacson)).
-
-+-- {: .proof}
-###### Proof
-
-This follows with the above equivalence to the [[coend]] $diag X \simeq \int^{[k] \in \Delta} \Delta[k] \cdot X_k$ and general expression of  [[homotopy colimit]]s by coends (as discussed there) in terms of the [[Quillen bifunctor]]
-
-$$
-  \int^\Delta (-) \cdot (-)
-    :
-   [\Delta, sSet_{Quillen}]_{Reedy} \times
-   [\Delta, sSet_{Quillen}]_{Reedy}  
-  \to 
-    sSet_{Quillen}
-$$
-
-in [[Reedy model structure]]s (as discussed there) by using that $\Delta[-] : \Delta \to sSet_{Quillen}$ is a Reedy cofibrant resultion of the point in $[\Delta, sSet_{Quillen}]$ and that every object in $[\Delta^{op}, sSet_{Quillen}]_{Reedy}$ is cofibrant.
-=--
-
-+-- {: .un_prop }
-###### Proposition
-**(degreewise weak equivalences)**
-
-Let $X,Y : \Delta^{op} \times \Delta^{op} \to Set$ be bisimplicial sets.
-A morphism $f : X \to Y$ which is degreewise in one argument a weak equivalence
-$f_{n,\bullet} : X(n,\bullet) \to Y(n,\bullet)$ induces a weak equivalence 
-$d(f) : d(X) \to d(Y)$ of the associated diagonal simplicial sets
-(with respect to the standard [[model structure on simplicial sets]]).
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-This is prop 1.9 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
-
-* Goerss-Jardine, _Simplicial Homotopy Theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)) 
-
-=--
-
-
-
-
-## Bisimplicial abelian groups 
-
-
-+-- {: .un_prop }
-###### Proposition
-
-Let $A,B : \Delta^{op} \times \Delta^{op} \to Ab$ be bisimplicial abelian groups.
-A morphism $f : A \to B$ which is degreewise in one argument a weak equivalence
-$f_{n,\bullet} : A(n,\bullet) \to B(n,\bullet)$ induces a weak equivalence 
-$d(f) : d(A) \to d(B)$ of the associated diagonal complexes.
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-This is Lemma 2.7 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of ([GoerssJardine](#GoerssJardine))
-
-
-=--
-
-## References
-
-* Goerss-Jardine, _Simplicial Homotopy Theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)) 
-{#GoerssJardine}
-
-* Jardine, Lecture 008 (2010) ([pdf](http://www.math.uwo.ca/~jardine/papers/HomTh/lecture008.pdf))
-
-* Samuel Issacson, _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
-{#Isaacson}
-
-[[!redirects bisimplicial group]]
-[[!redirects bisimplicial set]]
+[[!redirects bisimplicial objects]]
