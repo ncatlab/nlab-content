@@ -51,6 +51,7 @@ Any simplicially enriched groupoid yields a simplicial groupoid in which the fac
 
 * [[relation between quasi-categories and simplicial categories]]
 
+* [[model structure on presheaves of simplicial groupoids]]
 
 [[!redirects simplicial groupoids]]
 [[!redirects simplicially enriched groupoids]]
