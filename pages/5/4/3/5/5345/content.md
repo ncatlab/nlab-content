@@ -61,6 +61,12 @@ When restricted to simplicial groupoids of the form $(B G)_\bullet$ for $G_\bull
 
 =--
 
+## Related concepts
+
+* [[model structure on simplicial sets]]
+
+* [[model structure on presheaves of simplicial groupoids]]
+
 ## References
 
 The model structure is discussed after corollary 7.3 in chapter V of
