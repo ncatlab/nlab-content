@@ -1,0 +1,58 @@
+
+# MV algebras
+* table of contents
+{: toc}
+
+## Idea
+
+An MV-algebra  is an algebraic structure which models Luzasiewicz multivalued logic, and  the fragment of that calculus which deals with the basic logical connectives "and", "or", and "not", but in a multivalued context.
+
+
+## Definitions
+
+An MV-algebra consists of
+
+* a non-empty set, $A$;
+
+* a binary operation, $\oplus$, on $A$;
+
+* a unary operation, $\neg$, on $A$; and a constant, $0$, such that
+
+
+1. $\langle A, \oplus,\neg\rangle$ is a commutative [[monoid]];
+
+1. $\neg\neg x =  x$ for all $x \in A$;
+
+1. $x\oplus \neg 0 = \neg 0$ for all $x\in A$; and 
+
+1. $\neg(\neg x\oplus y)\oplus y = \neg(\neg y\oplus x)\oplus x$ for all $x, y$ in $A$.
+
+
+
+The last axiom is more difficult to interpret but is clarified by some examples.
+
+
++-- {: .num_example}
+###### Example
+
+Let $A = [0,1]$ be the unit interval.  Define
+
+$$x\oplus y = min(1,x+y)$$
+
+$$\neg x = 1-x.$$
+
+This gives a commutative monoid easily enough and the double negation and absorption axioms are easy to check. Finally the last axiom divides into two cases: $x \lt y$ and $y \lt x$ and only one of these needs checking!
+
+=--
+
+
++-- {: .num_example}
+###### Example 
+
+Any [[Boolean algebra]] defines a MV-algebra with $\oplus = \vee$, and $\neg$ being the complement operation. The expressions in the last axiom evaluate to $x\vee y$.
+
+=--
+
+##References
+
+*  D. Mundici, _MV-algebras, a short tutorial_, available [here](http://www.matematica.uns.edu.ar/IXCongresoMonteiro/spanish.htm#cursos).
