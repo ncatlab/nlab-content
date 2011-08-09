@@ -852,7 +852,7 @@ $$
     \int_{[n] \in \Delta} sSet(\Delta[n], [C^{op}, sSet](Y_n, A))
     \\
     & =
-    \int_{[n] \in \Delta} sSet(\Delta[n], A(Y_\bullet))
+    \int_{[n] \in \Delta} sSet(\Delta[n], A(Y_n))
     \\
     & =:Desc(Y,A)
   \end{aligned}  
@@ -860,7 +860,7 @@ $$
 
 (equality signs denote [[isomorphism]]s), where in the second but last line we again used the [[copower|tensoring]] of [[simplicial presheaves]] $[C^{op}, sSet]$ over [[sSet]].
 
-In the last line we have the _totalization_ of the cosimplicial [[simplicial object]]
+In the last line we have the _[[totalization]]_ of the cosimplicial [[simplicial object]]
 
 $$
   A(Y_\bullet) : \Delta \to sSet
