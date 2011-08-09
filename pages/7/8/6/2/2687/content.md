@@ -185,6 +185,10 @@
 
     [[global model structure on simplicial presheaves|global model structure]]/[[Cech model structure on simplicial presheaves|Cech model structure]]/[[local model structure on simplicial presheaves|local model structure]]
 
+    [[model structure on simplicial sheaves|on simplicial sheaves]]
+
+    [[model structure on presheaves of simplicial groupoids|on presheaves of simplicial groupoids]]
+
     [[model structure on sSet-enriched presheaves|on sSet-enriched presheaves]]
 
 * [[model structure for (2,1)-sheaves]]/for stacks
