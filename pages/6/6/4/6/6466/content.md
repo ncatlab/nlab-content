@@ -64,6 +64,12 @@ This allows us to define various further constructions on $X$ in internal terms 
 It is also possible to define several notions of a [[Cauchy real number]] in any topos with an NNO, but as the internal logic of toposes is in general intuitionistic, these are usually inequivalent.
 
 
+## Related concepts
+
+* [[natural numbers object]]
+
+* [[Dedekind cut]]
+
 ##References
 
 * [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
