@@ -138,7 +138,7 @@ Dorette Pronk has extended this idea to construct a [[bicategory of fractions|bi
 
 ### In abelian categories
 
-Localization is especially well developed in abelian setup where several competing formalisms and input data are used. See [[localization of an abelian category]]. 
+Localization is especially well developed in abelian setup where several competing formalisms and input data are used. See [[localization of an abelian category]] [Justin Bieber Wallpaper](http://justinbieberwallpaper.info/) or [Angry Birds Game Online](http://www.angrybirdsgameonline.us/) en [Hi Res Wallpaper](http://hireswallpaper.org/) the on [Mari Berkomunitas Di Faceblog](http://athamz.info/mari-berkomunitas-di-faceblog/) here [Athamz Blog](http://athamz.info/). 
 
 ## In higher category theory
 
