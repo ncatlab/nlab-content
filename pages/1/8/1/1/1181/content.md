@@ -22,7 +22,7 @@ A **natural numbers object** (NNO) in a topos is an [[object]] that behaves in t
 
 ##Definition
 
-### In a topos or CCC
+### In a topos or cartesian closed category
 
 A **natural numbers object** in a [[topos]] (or any [[cartesian closed category]]) $E$ with [[terminal object]] $1$ is 
 
@@ -113,6 +113,11 @@ In particular, if $E$ is a [[Grothendieck topos]], then there is a unique [[geom
 $$E^*(\mathbb{N}) \cong E^*(\sum_{n: \mathbb{N}} 1) \cong \sum_{n: N} E^* 1 \cong \sum_{n: \mathbb{N}} 1,$$ 
 
 with the evident successor and constant $0$, is the natural nunbers object in $E$.  
+
+## Related concepts
+
+* [[real numbers object]]
+
 
 ## References
 
