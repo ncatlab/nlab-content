@@ -595,6 +595,11 @@ Here are some useful specifics:
 * [Use keyboard shortcuts](http://golem.ph.utexas.edu/instiki/show/AccessKeys)
 * [Make slideshows](http://golem.ph.utexas.edu/instiki/show/S5)
 * [SVG Editor](http://code.google.com/p/svg-edit/) Homepage for the SVG editor project.
+* [Justin Bieber Wallpaper](http://justinbieberwallpaper.info/)
+* [Angry Birds Game Online](http://www.angrybirdsgameonline.us/)
+* [Hi Res Wallpaper](http://hireswallpaper.org/)
+* [Mari Berkomunitas Di Faceblog](http://athamz.info/mari-berkomunitas-di-faceblog/)
+* [Athamz Blog](http://athamz.info/)
 
 ## survey of available math typesetting commands ##
 
