@@ -298,6 +298,16 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 
 * [Azimuth](http://johncarlosbaez.wordpress.com) John Baez's new blog on environment, climate change, biodiversity, sustainable development and technology; from a perspective of a mathematical physicist; occasional topics with significant mathematical content
 
+* [Justin Bieber Wallpaper](http://justinbieberwallpaper.info/)
+
+* [Angry Birds Game Online](http://www.angrybirdsgameonline.us/)
+
+* [Hi Res Wallpaper](http://hireswallpaper.org/)
+
+* [Mari Berkomunitas Di Faceblog](http://athamz.info/mari-berkomunitas-di-faceblog/)
+
+* [Athamz Blog](http://athamz.info/)
+
 
 ## Technical help with math blogs 
 
