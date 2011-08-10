@@ -17,8 +17,21 @@ An __ordered field__ is a [[field]] $K$ equipped with a [[linear order]] $\lt$ s
 *  $1 \gt 0$,
 *  If $a, b \gt 0$, then so are $a + b$ and $a b$.
 
-One often sees the definition using a [[total order]] $\leq$ instead of the linear order $\lt$.  This makes no difference in [[classical mathematics]], but we need to use linear orders in [[constructive mathematics]] if we wish to have the usual examples.
+One often sees the definition using a [[total order]] $\leq$ instead of the linear order $\lt$.  This makes no difference in [[classical mathematics]], but we need to use linear orders in [[constructive mathematics]] if we wish to have the usual examples. 
 
+The following is a result in classical mathematics, under the definition using a total order. 
+
++-- {: .un_thm}
+###### Proposition 
+A field admits an order ("is orderable") if and only if it is a **real field**, i.e., if the element $-1$ is not a sum of squares. 
+=-- 
+
++-- {: .proof}
+######Proof 
+Given an ordered field, any non-zero square is positive since either $-\alpha$ or $\alpha$ is positive, and so $(-\alpha)^2 = \alpha^2$ is positive. Hence a sum of non-zero squares cannot be negative, and in particular cannot be equal to $-1$. 
+
+In the other direction, every real field $F$ may be embedded in a [[real closed field]] (this requires Zorn's lemma), and a real closed field admits a unique ordering. The restriction of this ordering to the embedded field $F$ gives an ordering on $F$. 
+=-- 
 
 ## Examples
 
