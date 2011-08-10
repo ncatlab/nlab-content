@@ -27,7 +27,10 @@ Real closed fields can be equivalently characterized by any of the following pro
 1. $F$ is an ordered field that has no ordered algebraic extension. 
 
 +-- {: .query}
-Colin: Is it true that real closure is an adjoint construction to the forgetful functor from real closed fields to orderable fields?
+Colin: Is it true that real closure is an adjoint construction to the forgetful functor from real closed fields to orderable fields? 
+
+_Todd_: I hadn't seen this query until today. I believe this is true. If an orderable field (aka a real field) $F$ is contained in _some_ real closed field $R$, then a real closure $\widebar{F}$ may be obtained as the subfield of elements of $R$ which are algebraic over $F$. Moreover (and this is the crucial part), I believe the embedding $F \to R$ has a _unique_ extension $j: \widebar{F} \to R$. Any such extension would have to preserve algebraicity, and so any such $j$ would have to factor through the inclusion $i: \widebar{F} \hookrightarrow R$, hence $i = j \circ k$ for some $k: \widebar{F} \to \widebar{F}$. However, any $F$-endomorphism on a real closure of $F$ is the identity (I have to double-check this though). This, together with the fact that every real field embeds in a real closed field, would complete the proof. 
+
 =--
 
 
