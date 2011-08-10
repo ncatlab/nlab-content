@@ -1,8 +1,26 @@
 ## About ##
 
-This is the nLab page for Jacob Biamonte.  
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://qubit.org/content/biamonte/biamonte-perimeter-institute-for-theoretical-physics.jpg" alt="Jacob Biamonte" /></div>
 
-My life was fine.  I was happy, content if you will.  I was working on two types of networks.  Then I met John Baez and my dual-network world turned upside down.  Now I'm working on what I jokingly and seriously call at the same time, _a grand unified theory of networks_.  John even managed to sneak in some of his [green mathematics](http://ncatlab.org/johnbaez/show/green+mathematics).  
+This is the nLab page for [Jacob Biamonte](http://qubit.org/jacob-biamonte.html).  
+
+My life was fine.  I was happy, content if you will.  I was working on two types of networks.  Then I met John Baez and my dual-network world turned upside down.  
+
+
+Now I'm working on what I jokingly and seriously call at the same time, _a grand unified theory of networks_.  John even managed to sneak in some of his [green mathematics](http://ncatlab.org/johnbaez/show/green+mathematics).  
+
+
+***
+
+&nbsp; <br/>
+&nbsp; <br/>
+&nbsp; <br/>
+&nbsp; <br/>
+
+
+
+
+
 
 ## nLab pages ## 
 
@@ -18,3 +36,5 @@ My life was fine.  I was happy, content if you will.  I was working on two types
 ## Links ## 
 
 * [My homepage at St Peter's College](http://www.spc.ox.ac.uk/Staff/69/Staff.html?StaffId=292) 
+* [Biamonte] (http://qubit.org/jacob-biamonte.html) (My homepage!)
+* [CQT, Singapore](http://qubit.org/jacob-biamonte.html) (Centre for Quantum Technologies, NUS, Singapore) 
