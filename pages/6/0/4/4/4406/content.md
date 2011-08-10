@@ -11,8 +11,7 @@ An [[ordered field]] $F$ is **real closed** if it satisfied the following two pr
 
 * Any odd-degree [[polynomial]] with coefficients in $F$ has a root in $F$. 
 
-Notice that the order on a real closed field is definable from the algebraic structure: $x \leq y$ if and only if $\exists_z x + z^2 = y$. Thus the category of real closed fields is a full subcategory of the category of [[field]]s. 
-
+Notice that the order on a real closed field is definable from the algebraic structure: $x \leq y$ if and only if $\exists_z x + z^2 = y$. (In particular, there is a _unique_ ordering on a real closed field, defined by taking the positive elements to be precisely the nonzero squares.) Thus the category of real closed fields and order-preserving field homomorphisms is a full subcategory of the category of [[field|fields]] and field homomorphisms. 
 
 ## Properties 
 
@@ -26,13 +25,19 @@ Real closed fields can be equivalently characterized by any of the following pro
 
 1. $F$ is an ordered field that has no ordered algebraic extension. 
 
-+-- {: .query}
-Colin: Is it true that real closure is an adjoint construction to the forgetful functor from real closed fields to orderable fields? 
+In fact, there is a [[completion]] of any [[ordered field]] to a real closed field, in the following sense: 
 
-_Todd_: I hadn't seen this query until today. I believe this is true. If an orderable field (aka a real field) $F$ is contained in _some_ real closed field $R$, then a real closure $\widebar{F}$ may be obtained as the subfield of elements of $R$ which are algebraic over $F$. Moreover (and this is the crucial part), I believe the embedding $F \to R$ has a _unique_ extension $j: \widebar{F} \to R$. Any such extension would have to preserve algebraicity, and so any such $j$ would have to factor through the inclusion $i: \widebar{F} \hookrightarrow R$, hence $i = j \circ k$ for some $k: \widebar{F} \to \widebar{F}$. However, any $F$-endomorphism on a real closure of $F$ is the identity (I have to double-check this though). This, together with the fact that every real field embeds in a real closed field, would complete the proof. 
++-- {: .un_thm} 
+######Theorem 
+The full inclusion of the category of real closed fields and field homomorphisms to the category of _orderable_ fields and field homomorphisms has a left adjoint. 
+=-- 
 
-=--
++-- {: .proof} 
+######Proof 
+We sketch the main ingredients of the proof, and refer to Lang's _Algebra_ ($3^{rd}$ edition), 454-455, for the full details. 
 
+By a Zorn's lemma argument, every ordered field $F$ (which a fortiori is a real field) may be embedded in a real closed field which is algebraic over $F$. Let $\widebar{F}$ be such an extension. It suffices to prove that every field embedding $F \to R$ into a real closed field uniquely extends to a field embedding $i: \widebar{F} \to R$. Let $\alpha \in \widebar{F}$; then $\alpha$ and all of its conjugates in $\widebar{F}$ form the roots of a degree $n$ polynomial $f(x)$ with coefficients in $F$. This $f(x)$ has $n$ roots in $R$ because $R$, being real closed, has no nontrivial real algebraic extensions. We may linearly order the conjugates in $\widebar{F}$ as $\alpha_1 \lt \ldots \lt \alpha_n$ according to the unique ordering on $F$ (the roots are distinct since we are working in a characteristic zero field and such fields are perfect), and similarly we may order the roots in $R$ as $\beta_1 \lt \ldots \lt \beta_n$. The extension $i$ between real closed fields must preserve order, and so if $\alpha = \alpha_k$, then $i(\alpha_k)$ can only be $\beta_k$, and the mapping $\alpha_k \mapsto \beta_k$ then defines a unique order-preserving field embedding $F(\alpha_1, \ldots, \alpha_n) \to R$ over $F$. Since any algebraic extension of $F$ is the filtered colimit of finite extensions of $F$, we obtain a unique extension $i: \widebar{F} \to R$, as desired. 
+=-- 
 
 ## Examples 
 
