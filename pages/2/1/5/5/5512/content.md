@@ -107,22 +107,16 @@ The Frobenius laws follow from Frobenius reciprocity.
 
 +-- {: .proof} 
 ######Proof 
-Frobenius reciprocity in a (locally posetal) cartesian bicategory $B$ means that for any map $f: a \to b$ and any two relations $q \in B(a, c)$, $r \in B(b, c)$, that the canonical inclusion 
+Frobenius reciprocity in a (locally posetal) cartesian bicategory $B$ means that for any map $f: a \to b$ and any two relations $q \in B(a, c)$, $r \in B(b, c)$, the canonical inclusion 
 $$(q \wedge r f)f^{op} \leq q f^{op} \wedge r$$ 
 is an equality. One (and therefore both) of the Frobenius laws will follow by taking the following choices for $f$, $q$, and $r$: 
 
 $$f = \delta_x, \qquad q = \varepsilon_{x}^{op} \otimes 1_x, \qquad r = \varepsilon_x \otimes 1_x \otimes \varepsilon_{x}^{op}$$ 
 
-where $\delta_x: x \to x \otimes x$ is the diagonal map and $\varepsilon_x: x \to 1$ is the projection. The remainder of the proof is best exhibited by appeal to a string diagram calculation, which is given here: [[FR=>FL.pdf:FR=>FL]]. 
+where $\delta_x: x \to x \otimes x$ is the diagonal map and $\varepsilon_x: x \to 1$ is the projection. The remainder of the proof is best exhibited by appeal to a string diagram calculation, which is given here: [[Frobenius-reciprocity.pdf:file]]. 
 =--
 
-(The following occurred in a previous revision.) 
 
-The relationship between the two usages is not clear.  In fact, since the category-theoretic usage is a special case of being a [[Hopf adjunction]], it seems as though it might have been misnamed, since [[Frobenius algebras]] and [[Hopf algebras]] are similar, but different.
-
-The word "Frobenius" is also sometimes used in category theory to denote a condition which is in some way analogous to the characteristic property of a [[Frobenius algebra]].
-
-[[Frobenius-reciprocity.pdf:file]]
 
 [[!redirects Frobenius reciprocity]]
 [[!redirects Frobenious reciprocity]]
