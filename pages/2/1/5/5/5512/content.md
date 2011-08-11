@@ -113,7 +113,7 @@ is an equality. One (and therefore both) of the Frobenius laws will follow by ta
 
 $$f = \delta_x, \qquad q = \varepsilon_{x}^{op} \otimes 1_x, \qquad r = \varepsilon_x \otimes 1_x \otimes \varepsilon_{x}^{op}$$ 
 
-where $\delta_x: x \to x \otimes x$ is the diagonal map and $\varepsilon_x: x \to 1$ is the projection. The remainder of the proof is best exhibited by appeal to a string diagram calculation, which is given here: [[myfile.pdf:FR=>FL]]. 
+where $\delta_x: x \to x \otimes x$ is the diagonal map and $\varepsilon_x: x \to 1$ is the projection. The remainder of the proof is best exhibited by appeal to a string diagram calculation, which is given here: [[FR=>FL.pdf:FR=>FL]]. 
 =--
 
 (The following occurred in a previous revision.) 
