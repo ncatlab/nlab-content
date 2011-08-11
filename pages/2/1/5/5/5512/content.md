@@ -122,5 +122,7 @@ The relationship between the two usages is not clear.  In fact, since the catego
 
 The word "Frobenius" is also sometimes used in category theory to denote a condition which is in some way analogous to the characteristic property of a [[Frobenius algebra]].
 
+[[Frobenius-reciprocity.pdf:file]]
+
 [[!redirects Frobenius reciprocity]]
 [[!redirects Frobenious reciprocity]]
