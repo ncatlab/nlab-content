@@ -425,11 +425,21 @@ The [[group extension]] classified by this cocycle is the [[Heisenberg group]].
 
 ## References 
 
-Aspects of this general point of view on group cohomology is described for instance in chaper 12 of
+A standard textbook references on group cohomology is for instance
+
+* Adem, Milgram, _Cohomology of finite groups_ 
+
+
+Aspects of the general point of view on group cohomology is described for instance in chaper 12 of
 
 * R. Brown, P. Higgins, R. Sivera, _Nonabelian algebraic topology_ ([pdf](http://www.bangor.ac.uk/%7Emas010/pdffiles/rbrsbookb-e040609.pdf), [web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html))
 
-Much of what is called "nonabelian cohomology" in the existing literature concerns the case of nonabelian group cohomology with coefficients in the [[automorphism 2-group]] $AUT(H)$ of some possibly nonabelian group $H$.
+Cohomology of [[simplicial group]]s is discussed for instance in
+
+* Sebastian Thomas, _On the second cohomology group of a simplicial group_ ([pdf](http://www.math.rwth-aachen.de/~Sebastian.Thomas/publications/Thomas_On_the_second_cohomology_group_of_a_simplicial_group.pdf))
+
+
+Much of what is called "[[nonabelian cohomology]]" in the existing literature concerns the case of nonabelian group cohomology with coefficients in the [[automorphism 2-group]] $AUT(H)$ of some possibly nonabelian group $H$.
 
 This is the topic of [[Schreier theory]].
 
@@ -445,9 +455,7 @@ Group cocycles classify [[group extension]]s. This is often discussed only for 2
 
 * [[Johannes Huebschmann]], _Crossed $n$-fold extensions and group cohomology_ ([web](http://dx.doi.org/10.1007/BF02566688))
 
-Some standard references on group cohomology:
 
-* Adem, Milgram, _Cohomology of finite groups_ 
 
 ...
 
