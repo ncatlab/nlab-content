@@ -49,15 +49,15 @@ Every element of $K = F[\sqrt{-1}]$ has a square root in $K$.
 
 +-- {: .proof} 
 ###### Proof 
-The proof is most easily apprehended by analogy with polar coordinate representations of complex numbers and half-angle formulas, where a square root of $r e^{i\theta}$ is given by $r^{1/2}e^{i\theta /2}$. Let $i$ be a fixed square root of $-1$, and let $a + b i$ be an arbitrary element of $K$, with $a, b \in F$. We must solve $(x + y i)^2 = a + b i$, i.e., find $x, y \in F$ such that 
+The proof is most easily apprehended by analogy with polar coordinate representations of complex numbers and half-angle formulas, where a square root of $r e^{i\theta}$ is given by $r^{1/2}e^{i\theta /2}$. Let $i$ be a fixed square root of $-1$, and let $a + b i$ be an arbitrary element of $K$, with $a, b \in F$. We must solve $(x + y i)^2 = a + b i$, i.e., find $x, y \in F$ that solve 
 
 $$x^2 - y^2 = a, \qquad 2x y = b$$ 
 
-Since $a^2 + b^2$ has a square root in $F$, we may assume without loss of generality that $a^2 + b^2 = 1$. By interchanging $x$ and $y$ if need be, we may assume $0 \leq a \leq 1$; replacing $y$ by $-y$ if need be, we may assume $b \geq 0$. Taking $x, y \geq 0$ such that 
+Since $a^2 + b^2$ has a square root in $F$, we may assume by homogeneity in $x, y$ that $(a, b)$ is on the unit circle: $a^2 + b^2 = 1$. By interchanging $x$ and $y$ if need be, we may assume $0 \leq a \leq 1$; replacing $y$ by $-y$ if need be, we may assume $b \geq 0$. Taking $x, y \geq 0$ such that 
 
 $$x^2 = \frac{1+a}{2}, \qquad y^2 = \frac{1-a}{2},$$ 
 
-we obtain a solution. 
+we obtain a solution (since $x^2 - y^2 = a$ and $4 x^2 y^2 = b^2$). 
 =--
 
 
