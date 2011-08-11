@@ -62,6 +62,7 @@ A classical reference on the algebraic version is
  {#Grothendieck}
 * A. Grothendieck, _Crystals and the de Rham cohomology of schemes_, in Giraud, Jean; Grothendieck, Alexander; Kleiman, Steven L. et al., Dix Expos&#233;s sur la Cohomologie des Sch&#233;mas, Advanced studies in pure mathematics __3__, Amsterdam: North-Holland, pp. 306&#8211;358, [MR0269663](http://www.ams.org/mathscinet-getitem?mr=0269663), [pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/DixExp.pdf)
 * [[Robin Hartshorne]], _On the de Rham cohomology of algebraic varieties_, Publ. Math&#233;matiques de l'IH&#201;S __45__ (1975), p. 5-99 [MR55#5633](http://www.ams.org/mathscinet-getitem?mr=55:5633)
+* P. Monsky, _Finiteness of de Rham cohomology_, Amer. J. Math. __94__ (1972), 237&#8211;245, [MR301017](http://www.ams.org/mathscinet-getitem?mr=301017), [doi](http://dx.doi.org/10.2307/2373603)
 
 See also
 
