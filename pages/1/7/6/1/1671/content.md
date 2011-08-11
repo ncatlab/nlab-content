@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -56,3 +55,4 @@ category: foundational axiom
 [[!redirects AC00]]
 
 [[!redirects weak countable choice]]
+[[!redirects WCC]]
