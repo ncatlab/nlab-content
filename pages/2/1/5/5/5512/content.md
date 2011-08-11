@@ -75,7 +75,7 @@ for any map $f: a \to b$ and predicates $q \in \hom(a, 1)$, $r \in \hom(b, 1)$.
 Recall that a **bicategory of relations** is a (locally posetal) cartesian bicategory in which the Frobenius laws hold. 
 
 +-- {: .un_prop}
-######Proposition 
+######Proposition{#FL to FR}
 Frobenius reciprocity holds in the hyperdoctrine associated with a bicategory of relations. 
 =-- 
 
@@ -100,6 +100,21 @@ but in fact this is just a special case of the more general modular law, which h
 
 Thus, in this instance, _Frobenius reciprocity follows from the Frobenius laws_. 
 
++-- {: .un_prop} 
+######Proposition{#FR to FL}
+The Frobenius laws follow from Frobenius reciprocity. 
+=-- 
+
++-- {: .proof} 
+######Proof 
+Frobenius reciprocity in a (locally posetal) cartesian bicategory $B$ means that for any map $f: a \to b$ and any two relations $q \in B(a, c)$, $r \in B(b, c)$, that the canonical inclusion 
+$$(q \wedge r f)f^{op} \leq q f^{op} \wedge r$$ 
+is an equality. One (and therefore both) of the Frobenius laws will follow by taking the following choices for $f$, $q$, and $r$: 
+
+$$f = \delta_x, \qquad q = \varepsilon_{x}^{op} \otimes 1_x, \qquad r = \varepsilon_x \otimes 1_x \otimes \varepsilon_{x}^{op}$$ 
+
+where $\delta_x: x \to x \otimes x$ is the diagonal map and $\varepsilon_x: x \to 1$ is the projection. The remainder of the proof is best exhibited by appeal to a string diagram calculation, which is given here: [[myfile.pdf:FR=>FL]]. 
+=--
 
 (The following occurred in a previous revision.) 
 
