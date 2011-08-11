@@ -11,7 +11,8 @@ An [[ordered field]] $F$ is **real closed** if it satisfied the following two pr
 
 * Any odd-degree [[polynomial]] with coefficients in $F$ has a root in $F$. 
 
-Notice that the order on a real closed field is definable from the algebraic structure: $x \leq y$ if and only if $\exists_z x + z^2 = y$. (In particular, there is a _unique_ ordering on a real closed field, defined by taking the positive elements to be precisely the nonzero squares.) Thus the category of real closed fields and order-preserving field homomorphisms is a full subcategory of the category of [[field|fields]] and field homomorphisms. 
+Notice that the order on a real closed field is definable from the algebraic structure: $x \leq y$ if and only if $\exists_z x + z^2 = y$. Thus the category of real closed fields is a full subcategory of the category of [[field]]s. 
+
 
 ## Properties 
 
@@ -25,19 +26,10 @@ Real closed fields can be equivalently characterized by any of the following pro
 
 1. $F$ is an ordered field that has no ordered algebraic extension. 
 
-In fact, there is a [[completion]] of any [[ordered field]] to a real closed field, in the following sense: 
++-- {: .query}
+Colin: Is it true that real closure is an adjoint construction to the forgetful functor from real closed fields to orderable fields?
+=--
 
-+-- {: .un_thm} 
-######Theorem 
-The full inclusion of the category of real closed fields and field homomorphisms to the category of _orderable_ fields and field homomorphisms has a left adjoint. 
-=-- 
-
-+-- {: .proof} 
-######Proof 
-We sketch the main ingredients of the proof, and refer to Lang's _Algebra_ ($3^{rd}$ edition), 454-455, for the full details. 
-
-By a Zorn's lemma argument, every orderable field $F$ (which is the same thing as a real field) may be embedded in a real closed field which is algebraic over $F$. Let $\widebar{F}$ be such an extension. It suffices to prove that every field embedding $F \to R$ into a real closed field uniquely extends to a field embedding $i: \widebar{F} \to R$. Let $\alpha \in \widebar{F}$; then $\alpha$ and all of its conjugates in $\widebar{F}$ form the roots of a degree $n$ polynomial $f(x)$ with coefficients in $F$. This $f(x)$ has $n$ roots in $R$ because $R$, being real closed, has no nontrivial real algebraic extensions. We may linearly order the roots of $f$ in $\widebar{F}$ as $\alpha_1 \lt \ldots \lt \alpha_n$ according to the unique ordering on $\widebar{F}$ (the roots are distinct since we are working in a characteristic zero field and such fields are perfect), and similarly we may order the roots of $f$ in $R$ as $\beta_1 \lt \ldots \lt \beta_n$. A field homomorphism $i$ between real closed fields must preserve order, and so for $k = 1, \ldots, n$, $i(\alpha_k)$ can only be $\beta_k$, and the mapping $\alpha_k \mapsto \beta_k$ then specifies a field embedding $F(\alpha_1, \ldots, \alpha_n) \to R$ over $F$. Since any algebraic extension of $F$ is the filtered colimit of finite extensions of $F$, we obtain a unique extension $i: \widebar{F} \to R$, as desired. 
-=-- 
 
 ## Examples 
 
