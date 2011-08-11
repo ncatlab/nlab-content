@@ -242,6 +242,10 @@ a-b a--b a---b
 
 a&#x2010;b a&#x2011;b a&#x2012;b a&#x2013;b a&#x2014;b a&#x2105;b
 
+$$
+\lim_{n \to 0} \frac{1}{n} = 0
+$$
+
 category: meta
 
 [[!redirects sandbox]]
