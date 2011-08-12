@@ -1,3 +1,4 @@
+
 # Dedekind completions
 * table of contents
 {: toc}
@@ -8,12 +9,6 @@ While Dedekind completeness was traditionally described in the context of the [[
 
 
 ## Definitions
-
-+--{: .query}
-[[David Roberts]]: I lifted the following definition from Paul Taylor's page on Dedekind cuts. It clearly needs expanding.
-
-_Toby_:  I changed [[total order]] to [[linear order]] as a technicality ($ \leq $ vs $ \lt $; constructively the theory is cleaner with the latter, which you were already using).
-=--
 
 +-- {: .un_defn}
 ###### Definition
@@ -29,13 +24,24 @@ The set of Dedekind cuts of [[rational numbers]] -- the real numbers -- is Dedek
 Since the operation of forming the set of Dedekind cuts is idempotent, the Dedekind completion can be constructed as the set of Dedekind cuts.  More precisely, the Dedekind-complete linear orders form a [[reflective subcategory]] of the category of linear orders, so that Dedekind completion is a kind of [[completion]] in the abstract categorial sense.
 
 
+## Generalisation
+
+At least in [[classical mathematics]], one can generalise Dedekind completion from [[total orders]] (classically equivalent to linear orders) to [[partial orders]]; see Sections 4.31--39 of _[[HAF]]_.
+
 
 ## References
 
 *  [[Paul Taylor]]\'s [page on Dedekind cuts](http://www.paultaylor.eu/ASD/dedras/classical)
 
 
+[[!redirects Dedekind completion]]
+[[!redirects Dedekind completions]]
+
+[[!redirects Dedekind-complete]]
 [[!redirects Dedekind complete]]
-[[!redirects Dedekind complete order]]
-[[!redirects Dedekind-complete order]]
 [[!redirects Dedekind completeness]]
+
+[[!redirects Dedekind-complete order]]
+[[!redirects Dedekind-complete orders]]
+[[!redirects Dedekind complete order]]
+[[!redirects Dedekind complete orders]]
