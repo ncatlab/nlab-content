@@ -70,7 +70,11 @@ A comprehensive treatment in the context of [[(∞,1)-category]]-theory,  genera
 
 Unfortunately, [[Maxim Kontsevich|Kontsevich]]'s [[monadicity theorem]] (July 2004) which is in the setup of [[A-infinity category|A-∞-categories]], still remains unpublished. The [[triangulated category|triangulated]] version is in Rosenberg's lectures
 
-* [[Alexander Rosenberg|A. L. Rosenberg]], _Topics in noncommutative algebraic geometry, homological algebra and K-theory_, preprint MPIM Bonn 2008-57 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3589), page 36-37.
+* [[Alexander Rosenberg|A. L. Rosenberg]], _Topics in noncommutative algebraic geometry, homological algebra and K-theory_, preprint MPIM Bonn 2008-57 [pdf](http://www.mpim-bonn.mpg.de/preblob/3589), page 36-37.
+
+See also, for another point of view, 
+
+* [[Paul Balmer]], _Descent in triangulated categories_, [pdf](http://www.math.ucla.edu/~balmer/research/Pubfile/Descent.pdf)
 
 Its proof is based on [[Verdier's abelianization functor]]. 
 
