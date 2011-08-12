@@ -1,26 +1,25 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Cohomology
-+--{: .hide}
++-- {: .hide}
 [[!include cohomology - contents]]
 =--
 =--
 =--
-
 
 # Vector bundles
 * table of contents
 {: toc}
 
 
-## Idea ##
+## Idea
 
 A **vector bundle** is a [[vector space]] which "continuously varies" over a [[topological space]] $X$.
 
 
-## Definition ## 
+## Definition
 
 A **vector bundle** over a space $X$ is a [[bundle]] over $X$ which is locally isomorphic to a product with a [[vector space]] $V$ as fiber.  More precisely, the data is an object $\pi: E \to X$ in $Top/X$ equipped with a vector space structure [[internalization|internal]] to $Top/X$, consisting of maps 
 
@@ -72,7 +71,7 @@ via the action of the transition functions:
 $$(U_\alpha \cap U_\beta) \times V \overset{(\langle incl, g_{\alpha\beta} \rangle) \times V}{\to} U_\beta \times GL(V) \times V \overset{action}{\to} U_\beta \times V \hookrightarrow \sum_{\beta} U_\beta \times V$$
 
 
-## Remarks ##
+## Remarks
 
 * In most applications, the [[ground field]] of scalars is assumed to be $\mathbb{R}$ or $\mathbb{C}$, although sometimes other fields are allowed, as in the study of algebraic vector bundles. 
 
@@ -81,13 +80,13 @@ $$(U_\alpha \cap U_\beta) \times V \overset{(\langle incl, g_{\alpha\beta} \rang
 * In the context of differential topology or differential geometry, one also assumes that $\pi$ is smooth and that the local bundle isomorphisms $\phi_{\alpha}$ are diffeomorphisms.
 
 
-## Sheaf-theoretic version ##
+## Sheaf-theoretic version
 
 Vector bundles can also be defined via [[sheaf and topos theory|sheaf theory]], which permits easy transport to general [[Grothendieck topos]]es. Let $Sh(X)$ be the category of (set-valued) [[sheaf|sheaves]] on $X$. The sheaf of continuous local sections of the product projection 
 
 $$X \times \mathbb{R} \to X$$ 
 
-forms a [[local ring]] object $R$; when interpreted in the [[internal logic]] of $Sh(X)$, it is the Dedekind [[real number]] object. Then, according to a theorem of Richard Swan, in its sheaf-theoretic incarnation a vector bundle is the same thing as a projective $R$-module. 
+forms a [[local ring]] object $R$; when interpreted in the [[internal logic]] of $Sh(X)$, it is the Dedekind [[real numbers object]]. Then, according to a theorem of Richard Swan, in its sheaf-theoretic incarnation a vector bundle is the same thing as a projective $R$-module. 
 
 * A theorem of Kaplansky states "every projective module over a local ring is free". When interpreted in [[sheaf semantics]] ([[Kripke-Joyal semantics]]), the [[existential quantifier]] implicit in "free" is interpreted _locally_, so we can consider a vector bundle as a locally free module over the Dedekind reals. 
 
@@ -108,6 +107,7 @@ Much else to be discussed...
 
 * [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
+
 ## Literature
 
 * Glenys Luke, Alexander S. Mishchenko, _Vector bundles and their applications_, Math. and its Appl. __447__, Kluwer 1998. viii+254 pp. [MR99m:55019](http://www.ams.org/mathscinet-getitem?mr=99m:55019)
@@ -124,4 +124,6 @@ Much else to be discussed...
 
 * Dale Husemoller, _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer GTM 1975 (327 p.), 1994 (353 p.). 
 
+
+[[!redirects vector bundle]]
 [[!redirects vector bundles]]
