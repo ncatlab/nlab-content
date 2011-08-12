@@ -5,22 +5,22 @@
 
 ## Idea 
 
-A **real number** is something that may be approximated by [[rational numbers]].  The real numbers form the **real line** $\mathbb{R}$, also known as the **continuum**, which is the completion of the [[field]] $\mathbb{Q}$ of rational numbers. To be precise, we may use the [[absolute value]] [[metric space|metric]] on rational numbers and forming a [[complete space|metric completion]], or alternatively (and equivalently) use their unique [[order|ordering]] as an [[ordered field]] and forming the [[Dedekind completion]].
+A **real number** is something that may be approximated by [[rational numbers]].  The real numbers form the **real line** $\mathbb{R}$, also known as the **continuum**, which is the completion of the [[field]] $\mathbb{Q}$ of rational numbers. To be precise, we may use the [[absolute value]] [[metric space|metric]] on rational numbers and form a [[complete space|metric completion]], or alternatively (and equivalently) use their unique [[order|ordering]] as an [[ordered field]] and form the [[Dedekind completion]].
 
-Together with its cartesian powers -- the [[cartesian spaces]] $\mathbb{R}^n$ -- the continuum encodes one basic idea of of _continuous space_; see [[cartesian space]].  The notion of (especially smooth) [[manifold]] is modeled on this notion.  These provides some of the basic models of [[space]], notably the standard model for _physical space_ and _time_ (see [[spacetime]]), at least in [[classical physics]].
+Together with its cartesian powers -- the [[cartesian spaces]] $\mathbb{R}^n$ -- the continuum encodes one basic idea of of _continuous space_.  The notion of (especially [[smooth manifold|smooth]]) [[manifold]] is modeled on this notion.  These provide some of the basic models of [[space]], notably the standard model for _physical space_ and _time_ (see [[spacetime]]), at least in [[classical physics]].
 
 
-### History of formalisations
+## History
 
-The original idea of a real number came from [[geometry]]; one thinks of a real number as specifying a _point on a line_ , with _line_ understood as the abstract idea of the object that a pencil and a ruler draw on a piece of paper.  
+The original idea of a real number came from [[geometry]]; one thinks of a real number as specifying a _point on a line_, with _[[line]]_ understood as the abstract idea of the object that a pencil and a ruler draw on a piece of paper.  (More precisely, given two distinct points on the line, called $0$ and $1$, you get a [[bijection]] between the points and the real numbers.)
 
-(More precisely, given two distinct points on the line, called $0$ and $1$, you get a [[bijection]] between the points and the real numbers.)  [[Euclid]] (citing [[Eudoxus]]) dealt with ratios of geometric magnitudes, which give positive real numbers; an arbitrary real number is then a difference of ratios of magnitudes.  (But the Greeks did not think of such ratios as [[number]]s; that appears to have been an insight of the Arabs.)
+[[Euclid]] (citing [[Eudoxus]]) dealt with ratios of geometric magnitudes, which give positive real numbers; an arbitrary real number is then a difference of ratios of magnitudes.  (But the Greeks did not think of such ratios as [[number]]s; that appears to have been an insight of the Arabs.)
 
 A big project of the 19th century (at least in hindsight) was the 'arithmetisation of analysis': showing how real numbers could be defined completely in terms of rational numbers (and the desired classes of functions on them could be defined in terms of the general point-set notion of [[function]]).  Two successful approaches were developed in 1872, [[Richard Dedekind]]\'s definition of real numbers as certain sets of rational numbers (called _[[Dedekind cuts]]_) and [[Georg Cantor]]\'s definition as certain sequences of rational numbers (called _[[Cauchy sequences]]_).
 
-A more modern approach is instead to characterise the properties that the set of real numbers must have and to prove that this is [[generalized the|categorical]] (unique up to a unique bijection preserving those properties).  Then the important result of the 19th century programme is simply that this is consistent (that there exists at least one such set).  One can even use Hilbert\'s or Tarski\'s axioms for geometry to do this characterisation, coming full circle back to geometry.
+A more modern approach is instead to characterise the properties that the set of real numbers must have and to prove that this is [[generalized the|categorical]] (unique up to a unique bijection preserving those properties).  Then the important result of the 19th century programme is simply that this is consistent (that there exists at least one such set).  One can even use [[David Hilbert|Hilbert]]\'s or [[Alfred Tarski|Tarski]]\'s axioms for geometry to do this characterisation, coming full circle back to geometry.
 
-Exactly how to define or characterise real numbers is still important in [[constructive mathematics]] and [[topos]] theory with its [[internal logic]] of every topos. For more on this see the examples below.
+Exactly how to define or characterise real numbers is still important in [[constructive mathematics]] and [[topos]] theory with its [[internal logic]].  For more on this, see the examples below.
 
 
 ## Definitions and characterizations
@@ -48,7 +48,7 @@ See [[Dedekind cut]] for more.
 
 Classically, a real number can be given by an [[infinite sequence]] of rational numbers, each of which is a decimal fraction that approximates the real number to a given number of decimal places.  We can generalise this to any [[Cauchy sequence]] of rational numbers.  However, now each real number has several representations, so we need to specify an [[equivalence relation]] on the Cauchy sequences.  Thus, $\mathbb{R}$ is constructed as a [[subquotient]] of the [[function set]] $\mathbb{Q}^{\mathbb{N}}$.
 
-This construction is equivalent to the construction by Dedekind cuts, at least assuming a weak form of [[countable choice]] that also follows from [[excluded middle]].  Thus it is popular in both [[classical mathematics]] and traditional [[constructive mathematics]], which accepts countable choice.  However, in stricter forms of constructive mathematics, including those used as [[internal languages]] in [[topos theory]], the Cauchy reals and Dedekind reals are not equivalent.
+This construction is equivalent to the construction by Dedekind cuts, at least assuming [[weak countable choice]] (which also follows from [[excluded middle]]).  Thus it is popular in both [[classical mathematics]] and traditional [[constructive mathematics]], which accepts [[countable choice]].  However, in stricter forms of constructive mathematics, including those used as [[internal languages]] in [[topos theory]], the Cauchy reals and Dedekind reals are not equivalent.  (On the other hand, by generalising to Cauchy [[nets]], we recover the Dedekind reals again.)
 
 See [[Cauchy real number]] for more.
 
@@ -82,11 +82,12 @@ However, we note that the proof is valid in weak [[foundations]], in particular 
 
 ### The locale of real numbers
 
-Consider a [[binary relation]] $\sim$ on [[rational numbers]] satisfying these three properties:
+Consider a [[binary relation]] $\sim$ on [[rational numbers]] satisfying these four properties:
 
-*  If $a \geq b$ are rational numbers, then $a \sim b$.
+*  If $a \geq b$, then $a \sim b$.
 *  If $a \geq b \sim c \geq d$, then $a \sim d$.
 *  If $a \sim b \gt c \sim d$, then $a \sim d$.
+*  If $b \sim c$ whenever $a \lt b$ and $c \lt d$, then $a \sim d$.
 
 These relations form a [[frame]], which we may interpret (by definition) as the __[[locale of real numbers]]__.
 
@@ -104,13 +105,13 @@ The real line $\mathbb{R}$, or at least the positive real line $\mathbb{R}^+$, m
 Let [[Pos]] be the [[category]] of [[poset]]s. Consider the endofunctor
 
 $$
-  F_1 : Pos \to Pos
+  F_1\colon Pos \to Pos
 $$
 
 that acts by [[ordinal product]] with $\omega$
 
 $$
-  F_1 : X \mapsto X \cdot \omega
+  F_1\colon X \mapsto X \cdot \omega
   \,.
 $$
 
