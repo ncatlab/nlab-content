@@ -18,14 +18,14 @@ To describe the locale of the real numbers, we need first of all to describe wha
 
 ## Opens
 
-An __open__ in the real line is a [[binary relation]] ${\sim}$ on the [[rational numbers]] that satisfies the three properties listed below.  Intuitively, we have $a \sim b$ iff the open [[interval]] $(a,b)$ is contained in the corresponding [[open subspace|open set]].
+An __open__ in the real line is a [[binary relation]] ${\sim}$ on the [[rational numbers]] that satisfies the four properties listed below.  Intuitively, we have $a \sim b$ iff the open [[interval]] $(a,b)$ is contained in the corresponding [[open subspace|open set]].
 
 1. If $a \geq b$, then $a \sim b$.
 2. If $a \geq b \sim c \geq d$, then $a \sim d$.
 3. If $a \sim b \gt c \sim d$, then $a \sim d$.
 4. If $b \sim c$ whenever $a \lt b$ and $c \lt d$, then $a \sim d$.
 
-Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a \geq b$.  Property (2) is motivated because $(a,d) \subseteq (b,c)$ whenever $a \geq b$ and $c \geq d$.  Property (4) is somewhat technical; it keeps $\{(a,b) \;|\; a \lt b \;\Rightarrow\; 0 \lt a \lt b \lt 1\}$ from being an open, while $\{(a,b) \;|\; a \lt b \;\Rightarrow\; 0 \leq a \lt b \leq 1\}$ is allowed.
+Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a \geq b$.  Property (2) is motivated because $(a,d) \subseteq (b,c)$ whenever $a \geq b$ and $c \geq d$.  Property (4) is somewhat technical; it keeps $\{a,b \;|\; a \lt b \;\Rightarrow\; 0 \lt a \lt b \lt 1\}$ from being an open, while $\{a,b \;|\; a \lt b \;\Rightarrow\; 0 \leq a \lt b \leq 1\}$ is allowed.
 
 The really interesting property is property (3).  It in fact generalises as follows:
 
@@ -41,7 +41,7 @@ We call the combined hypothesis of this property a __zigzag__; each hypothesis $
 [[!include zigzag of real numbers - SVG]]
 =--
 
-Thus the zigzag property for $n = 2$ is property (3), the zigzag property for $n = 1$ is trivial (if $a \sim b$, then $a \sim b$), and the zigzag property for $n \gt 2$ may be proved by [[induction]].  (There is also a sense in which the zigzag property for $n = 0$ is property (1), but I haven\'t quite got my head around that.)
+Thus the zigzag property for $n = 2$ is property (3), the zigzag property for $n = 1$ is trivial (if $a \sim b$, then $a \sim b$), and the zigzag property for $n \gt 2$ may be proved by [[induction]].  (There is also a sense in which the zigzag property for $n = 0$ is property (1), but I haven\'t quite got my head around that.  It would be awesome if the zigzag property for $n = \infty$ could be interepreted as property (4), but that seems unlikely so far.)
 
 If $G$ is an open in the real line, then we write $(a,b) \subseteq G$ to mean that $a$ is related to $b$ through $G$ and say that $G$ __contains__ the interval from $a$ to $b$.
 
