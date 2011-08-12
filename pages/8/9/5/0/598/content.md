@@ -317,7 +317,7 @@ A simplicial group $G$ is a [[group object in an (infinity,1)-category|group obj
 
 An explicit construction of $\mathbf{B}G$ from $G$ goes traditionally by the symbol $\bar W G \in KanCplx$. Another one by $d B G$.
 
-#### $\bar W G$
+#### Delooping modeled by $\bar W G$
 
 
 It is immediate to deloop the simplicial group $G$ to the [[simplicial groupoid]] that in degree $k$ is the 1-[[groupoid]] with a single object and $G_k$ as its collection of morphisms. 
@@ -397,7 +397,7 @@ $$
 
 =--
 
-#### $d B G$
+#### Delooping modeled by $d B G$
 
 For $G$ a [[simplicial group]], write $B G$ for the [[bisimplicial set]] obtained by taking degreewise the [[nerve]] of the [[delooping]] [[groupoid]]. Write $d B G \in $ [[sSet]] for its [[delooping]].
 
@@ -427,7 +427,6 @@ $$
   \right)
   \,.
 $$
-
 
 
 
