@@ -3,5 +3,6 @@ __Felix Klein__ is an author of Erlangen program of [[Klein geometry]].
 * wikipedia: [Felix Klein](http://en.wikipedia.org/wiki/Felix_Klein)
 * mathematics genealogy page for: [Felix Klein](http://genealogy.math.ndsu.nodak.edu/id.php?id=7401)
 * Felix Klein, _The development of mathematics in 19th century_
+* A comparative review of recent researches in geometry, [Erlangen Programme](http://math.ucr.edu/home/baez/erlangen/)
 
 [[!redirects F. Klein]]
