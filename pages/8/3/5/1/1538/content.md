@@ -89,7 +89,7 @@ To be continued...
 
 ### The $k$-vector spaces of states in codimension $k$
 
-The [[n-vector space|k-vector space]] associated with a closed $(n-k)$-dimensional manifold $X_{n-k}$ admits a simple description in terms of [[section]]s:
+The [[n-vector space|k-vector space]] associated with a closed oriented $(n-k)$-dimensional manifold $X_{n-k}$ admits a simple description in terms of [[section]]s:
 
 The background field $\alpha : \mathbf{B}G \to A$ is [[transgression|transgressed]] to the mapping space $[\Pi(X_{n-k}), \mathbf{B}G]$ by forming the [[internal hom]]
 
@@ -179,6 +179,23 @@ $$
 
 =--
 
++-- {: .un_prop}
+###### Remark
+Another proof of the isomorphism $H^{n-k}(X_{n-k},U(1))\cong U(1)$ and of the identities $H^{n-i}(X_{n-k},U(1))=0$ for $i\lt k$ can be obtained as follows. Consider the short exact sequence of locally constant sheaves of abelian groups
+$$
+0\to \mathbb{Z}\to \mathbb{R}\to U(1)\to 1.
+$$
+This induces a long exact sequence in cohomology
+$$
+\cdots \to H^{n-i-1}(X_{n-k},U(1))\to H^{n-i}(X_{n-k},\mathbb{Z})\to H^{n-i}(X_{n-k},\mathbb{R}) \to H^{n-i}(X_{n-k},U(1))\to H^{n-i+1}(X_{n-k},\mathbb{Z})\to \cdots
+$$
+For $i\lt k$ we have $H^{n-i}(X_{n-k},U(1))=0$ by dimensional reasons, while for $i=k$ we find the exact sequence
+$$
+\cdots \to H^{n-k}(X_{n-k},\mathbb{Z})\to H^{n-k}(X_{n-k},\mathbb{R}) \to H^{n-k}(X_{n-k},U(1))\to 0.
+$$
+Since $X_{n-k}$ is a closed oriented manifold, we have $H^{n-k}(X_{n-k},\mathbb{Z})=\mathbb{Z}$, $H^{n-k}(X_{n-k},\mathbb{R})=\mathbb{R}$, and the map $H^{n-k}(X_{n-k},\mathbb{Z})\to H^{n-k}(X_{n-k},\mathbb{R})$ is the inclusion of $\mathbb{Z}$ into $\mathbb{R}$. Hence $H^{n-k}(X_{n-k},U(1))\cong \mathbb{R}/\mathbb{Z}\cong U(1)$.
+=--
+ 
 This means that the [[transgression]] of the Dijkgraaf-Witten background field
 
 $$
