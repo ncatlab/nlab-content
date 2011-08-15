@@ -1,3 +1,4 @@
+[[!redirects pullback stability]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
