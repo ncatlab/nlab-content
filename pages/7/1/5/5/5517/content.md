@@ -20,12 +20,11 @@
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]].
 
-For $n \in \overline{\mathbb{N}}$, an **$n$-gerbe** is an object $\mathcal{G} \in \mathbf{G}$ that is 
+For $n \in \overline{\mathbb{N}}$ an [[extended natural number]], an **$n$-gerbe** is an object $\mathcal{G} \in \mathbf{G}$ that is 
 
 * $n$-[[n-connective|connective]] 
 
 * as well as $n$-[[truncated]].
-
 =--
 
 This appears as [[Higher Topos Theory|HTT, def. 7.2.2.20]].
@@ -34,7 +33,6 @@ This appears as [[Higher Topos Theory|HTT, def. 7.2.2.20]].
 ###### Remark
 
 If one adds the condition that $\mathcal{G}$ has a global section $* \to \mathcal{G}$, then this defines an [[Eilenberg-MacLane object]] in degree $n$.
-
 =--
 
 
