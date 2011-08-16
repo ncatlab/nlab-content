@@ -10,6 +10,7 @@ __Mikhail Gromov__ (&#1052;&#1080;&#1093;&#1072;&#1080;&#1083; &#1051;&#1077;&#1
 category: people
 
 [[!redirects Mikhail Gromov]]
+[[!redirects Mikhael Gromov]]
 [[!redirects Mikhail Leonidovich Gromov]]
 [[!redirects Михаил Громов]]
 [[!redirects Михаил Леонидович Громов]]
