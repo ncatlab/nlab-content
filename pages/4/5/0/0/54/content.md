@@ -11,7 +11,7 @@ The best way to contact me is by sending me an email at <urs.schreiber@gmail.com
 
 # my position {#myposition}
 
-I have my PhD in theoretical [[physics]]. Have been a postdoc in math and mathematical physics for four years at Hamburg University. Was based for a bit at <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and am now on a postdoc position in [[Ieke Moerdijk]]'s [group](http://www.math.uu.nl/Research/Topology/) in Utrecht. 
+I have my PhD in theoretical [[physics]]. Have been a postdoc in math and mathematical physics for four years at Hamburg University. Was based for a bit at <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and am now on a postdoc position in [[Ieke Moerdijk]]'s [group](http://www.math.uu.nl/Research/Topology/) in Utrecht[.](http://www.angrybirdsgameonline.us/) 
 
 # my research {#myresearch}
 
@@ -21,7 +21,7 @@ My research has to a large extent been motivated by thinking about mathematical 
 
 This is the kind of stuff that I am thinking about.
 
-A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, teaching and other activity is
+A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research[,](http://hireswallpaper.org/) teaching and other activity is
 
 * [[schreiber:HomePage|my personal web within the nLab]]
 
