@@ -20,7 +20,9 @@
  
 ## Idea
 
-For $A$ a commutative [[∞-algebra]], its _Hochschild homology complex_ is its [[(∞,1)-colimit|(∞,1)-tensoring]] $S^1 \cdot A$ with the [[∞-groupoid]] incarnation of the circle. More generally, for $S$ any $\infty$-groupoid/simplicial set, $S \cdot A$ is the corresponding _higher order Hochschild homology_ of $X$.
+Hochschild (co)homology is a homological construction which makes sense for any [[associative algebra]], or more generally any [[dg-algebra]] or [[ring spectrum]].  It has multiple interpretations in [[higher category theory]].  Presently, everything below pertains to Hochschild homology of *commutative* algebras; an exposition of the noncommutative case remains to be written.
+
+Thus, for $A$ a commutative [[∞-algebra]], its _Hochschild homology complex_ is its [[(∞,1)-colimit|(∞,1)-tensoring]] $S^1 \cdot A$ with the [[∞-groupoid]] incarnation of the circle. More generally, for $S$ any $\infty$-groupoid/simplicial set, $S \cdot A$ is the corresponding _higher order Hochschild homology_ of $X$.
 
 In the presence of [[function algebras on ∞-stacks]] it may happen that $A = \mathcal{O}(X)$ is the algebra of functions on some [[∞-stack]] $X$ and that $\mathcal{O}(-)$ sends [[powering]]s of  $X$ to tensorings of $\mathcal{O}(X)$. In that case it follows that the Hochschild homology complex of $\mathcal{O}(X)$ is the function complex $\mathcal{O}(\mathcal{L}(X))$ on the [[derived loop space]] $\mathcal{L}X$ of $X$.
 
