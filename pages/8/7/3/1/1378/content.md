@@ -31,6 +31,10 @@ Ordinary [[algebra]] concerns itself with [[monoid]]s [[internalization|internal
 
 * a [[monoid]] in a [[category of chain complexes]] is a [[differential graded algebra]];
 
+* [Hi Res Wallpaper](http://hireswallpaper.org/)
+
+* [Angry Birds Game Online](http://hireswallpaper.org/)
+
 etc.
 
 
