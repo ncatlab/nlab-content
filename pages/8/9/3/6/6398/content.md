@@ -42,4 +42,18 @@ There are several different incarnations of the superstring.
 
 * [[string theory]], [[supersymmetry]]
 
+## References
+
+The relationship between the NRS [[spinning string]] and the [[Green-Schwarz superstring]] [[sigma-models]] is discussed in
+
+* Rafael I. Nepomechie, _Nonabelian bosonization, triality, and superstring theory_ Physics Letters B
+Volume 178, Issues 2-3, 2 October 1986, Pages 207-210 
+
+* I. Bars, D. Nemschansky and S. Yankielowicz, SLACPub-
+3758.
+
+This involves the relation between the [[octonion]] algebra an [[spinor]]s in 2+8 dimensions (see also [[division algebra and supersymmetry]]):
+
+* H. Tachibana, K. Imeda, _Octonions, superstrings and ten-dimensional spinors_ , Il nuovo cimento, Vol 104 B N.1
+
 [[!redirects superstrings]]
