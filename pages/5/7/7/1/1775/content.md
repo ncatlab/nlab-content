@@ -206,7 +206,9 @@ If we are given a [[model category]] [[presentable (∞,1)-category|presentation
 
 ## Properties
 
-+-- {: .un_prop}
+### The $(\infty,1)$-category of groupoid objects
+
++-- {: .num_prop}
 ###### Proposition
 
 The $(\infty,1)$-category of groupoid objects in $C$ is a [[reflective sub-(∞,1)-category]]
@@ -220,7 +222,24 @@ $$
 
 =--
 
-This is [[Higher Topos Theory|HTT, prop. 6.1.2.9]].
+This is [[Higher Topos Theory|HTT, prop. 6.1.2.9]]. In nice cases the image of this reflective subcategory are the effective epimorphisms:
+
++-- {: .num_prop}
+###### Proposition
+
+If $C = \mathbf{H}$ in an [[(∞,1)-semitopos]] there is a natural [[equivalence of (∞,1)-categories]]
+
+$$
+  Grpd(\mathbf{H})
+  \simeq
+  (\mathbf{H}^I)_{eff}
+$$
+
+between the $(\infty,1)$-category of groupoid objects in $\mathbf{H}$ and the full [[sub-(∞,1)-category]] of the [[arrow category]] of $\mathbf{H}$ (the [[(∞,1)-functor (∞,1)-category]] $Func(\Delta[1], \mathb{H})$) on the [[effective epimorphism in an (∞,1)-category|effective epimorphisms]].
+
+=--
+
+This appears below [[Higher Topos Theory|HTT, cor. 6.3.2.5]].
 
 ### Cech nerves
 
