@@ -35,7 +35,7 @@ The term __cartesian category__ usually means a category with finite products bu
 
 Cartesian monoidal categories have a number of special and important properties, such as the existence of diagonal maps $\Delta_x : x \to x\otimes x$ and augmentations $e_x: x \to I$ for any object $x$.  In applications to computer science we can think of $\Delta$ as 'duplicating data' and $e$ as 'deleting' data.  These maps make any object into a [[comonoid]].  In fact, any object in a cartesian monoidal category becomes a comonoid in a unique way.  
 
-Moreover, one can show that any monoidal category equipped with suitably well-behaved diagonals and augmentations _must_ in fact be cartesian monoidal.   More precisely: suppose $C$ is a symmetric monoidal category equipped with monoidal natural transformations
+Moreover, one can show that any symmetric monoidal category equipped with suitably well-behaved diagonals and augmentations _must_ in fact be cartesian monoidal.   More precisely: suppose $C$ is a symmetric monoidal category equipped with monoidal natural transformations
 $$           \Delta_x : x \to x \otimes x $$
 and
 $$             e_x : x \to I   $$
@@ -48,7 +48,7 @@ $$       x \stackrel{\Delta_x}{\longrightarrow} x \otimes x
 \stackrel{r_x}{\longrightarrow} x $$
 where $r$, $\ell$ are the right and left unitors.   Then $C$ is cartesian.  
 
-Heuristically: a monoidal category is cartesian if we can duplicate and delete data, and 'duplicating a piece of data and then deleting one copy is the same as not doing anything'.
+Heuristically: a symmetric monoidal category is cartesian if we can duplicate and delete data, and 'duplicating a piece of data and then deleting one copy is the same as not doing anything'.
 
 A related theorem describes cartesian monoidal categories as monoidal categories satisfying two properties involving the unit object.  First, we say a monoidal category $C$ is [[semicartesian monoidal category|semicartesian]] if the unit for the tensor product is [[terminal object|terminal]].   If this is true, any tensor product of objects $x \otimes y$ comes equipped with morphisms 
 $$ p_x : x \otimes y  \to x $$
