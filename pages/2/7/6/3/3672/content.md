@@ -47,5 +47,18 @@ A survey is in
 
 * [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_ ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
 
+The relationship in [[string theory]] via [[octonion]] algebra between the NRS [[spinning string]] and the [[Green-Schwarz superstring]] [[sigma-models]] is discussed in
+
+* Rafael I. Nepomechie, _Nonabelian bosonization, triality, and superstring theory_ Physics Letters B
+Volume 178, Issues 2-3, 2 October 1986, Pages 207-210 
+
+* I. Bars, D. Nemschansky and S. Yankielowicz, SLACPub-
+3758.
+
+* H. Tachibana, K. Imeda, _Octonions, superstrings and ten-dimensional spinors_ , Il nuovo cimento, Vol 104 B N.1
+
+The relation of the division algebras to ordinary (Lie algebraic) extensions of the [[super Poincare Lie algebra]] is discussed in
+
+* Jerzy Lukierski, Francesco Toppan, _Generalized Space-time Supersymmetries, Division Algebras and Octonionic M-theory_ ([pdf](http://cbpfindex.cbpf.br/publication_pdfs/NF00102.2010_08_03_10_47_48.pdf))
 
 [[!redirects division algebras and supersymmetry]]
