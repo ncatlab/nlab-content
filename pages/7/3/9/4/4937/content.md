@@ -20,6 +20,8 @@
 
   * [[Riemann curvature]]
 
+* [[moduli space of Riemannian metrics]]
+
 ## Theorems
 
 * [[Poincaré conjecture]]-theorem
