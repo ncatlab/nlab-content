@@ -26,7 +26,7 @@ An _$A_\infty$-category_ is a kind of [[category]] in which the associativity co
 
 The "A" is for Associative and the "${}_\infty$" indicates that associativity is relaxed up to higher homotopies without bound on the degree of the homotopies.
 
-In the most wide-spread use of the word $A_\infty$-categories are _linear_ categories in that they have [[hom-object]]s that are [[chain complex]]es. These are really models/presentations for [[stable (∞,1)-category|stable (∞,1)-categories]].
+In the most widespread use of the word $A_\infty$-categories are _linear_ categories in that they have [[hom-object]]s that are [[chain complex]]es. These are really models/presentations for [[stable (∞,1)-category|stable (∞,1)-categories]].
 
 If the composition in the linear $A_\infty$-category does happen to be strictly associative it becomes the same as a [[dg-category]]. In fact, every linear $A_\infty$-category is $A_\infty$-equivalent to a [[dg-category]]. In this way, we have that $A_\infty$-categories related to [[dg-category|dg-categories]] as models for [[stable (∞,1)-category|stable (∞,1)-categories]] in roughly the same way as [[quasi-category|quasi-categories]] relate to [[simplicially enriched category|simplicially enriched categories]] as models for [[(∞,1)-category|(∞,1)-categories]]: the former is the general incarnation, while the latter is a [[semi-strict infinity-category|semi-strictified]] version.
 
@@ -36,7 +36,7 @@ If the composition in the linear $A_\infty$-category does happen to be strictly 
 
 In what is strictly speaking a restrictive sense -- which is however widely and conventionally understood in [[homological algebra]] as the standard notion of $A_\infty$-category (see references below) -- the [[hom-space]]s of an $A_\infty$-category are taken to be linear spaces, i.e. [[module]]s over some [[ring]] or [[field]], and in fact [[chain complex]]es of such modules.
 
-Therefore an $A_\infty$-category in this standard sense of [[homological algebra]] is a category which is in some way [[homotopical enrichment|homotopically enriched]] over a [[category of chain complexes]] $Ch$. Since a category which is [[enriched category|enriched]] in the ordinary ?dg? sense of [[enriched category theory]] is a [[dg-category]], there is a close relation between $A_\infty$-categories and [[dg-category|dg-categories]].
+Therefore an $A_\infty$-category in this standard sense of [[homological algebra]] is a category which is in some way [[homotopical enrichment|homotopically enriched]] over a [[category of chain complexes]] $Ch$. Since a category which is [[enriched category|enriched]] in the ordinary sense of [[enriched category theory]] is a [[dg-category]], there is a close relation between $A_\infty$-categories and [[dg-category|dg-categories]].
 
 
 $A_\infty$-categories in this linear sense are a [[horizontal categorification]] of the notion of [[A-infinity-algebra]]. As such they are to [[A-infinity-algebra]]s as [[Lie infinity-algebroid]]s are to [[L-infinity-algebra]]s. For this point of view see the Kontsevich--Soibelman reference below.
