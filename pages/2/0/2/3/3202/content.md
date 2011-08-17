@@ -1,29 +1,35 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The term 'Lebesgue space' can stand for two distinct notions: one is the general notion of [[measure space]] (compare the [Springer Encyclopaedia of Mathematics](http://eom.springer.de/L/l057910.htm)) and another is the notion $L_p$ spaces (or $L^p$ space). 
+The term 'Lebesgue space' can stand for two distinct notions: one is the general notion of [[measure space]] (compare the [Springer Encyclopaedia of Mathematics](http://eom.springer.de/L/l057910.htm)) and another is the notion of $L_p$ space (or $L^p$ space).  Here we discuss the latter.
 
-If $1\leq p \lt \infty$ and a domain $\Omega$ (in a $n$-dimensional real space with easy generalization to manifolds) one first considers the **$L_p$ spaces** $L_p = L_p(\Omega)$ ([wikipedia](http://en.wikipedia.org/wiki/Lp_space)) of (equivalence classes of) [[measurable function|measurable]] (complex or real valued) functions $f:\Omega\to\mathbb{C}$ whose (absolute values of) $p$-th powers are Lebesgue integrable; i.e. whose norm 
 
-$$\| f\|_{L_p} = \left(\int_\Omega |f|^p d\mu\right)^{1/p}$$
+## Definitions
 
-is finite. For $p = \infty$ one looks at the [[essential supremum]] norm $\|f\|_{L_\infty}$ instead.
+If $1 \leq p \lt \infty$ is a [[real number]] and $(\Omega,\mu)$ is a [[measure space]], one considers the **$L_p$ space** $L_p = L_p(\Omega)$ of (equivalence classes of) [[measurable function|measurable]] (complex- or real-valued) functions $f\colon \Omega \to \mathbb{K}$ whose (absolute values of) $p$th powers are integrable; i.e. whose norm 
+
+$$ {\|f\|}_p = \left(\int_\Omega {|f|}^p \,d\mu\right)^{1/p} $$
+
+is finite.
 
 The $L_p$ spaces are examples of [[Banach spaces]]; they are continuous analogues of $l_p$ spaces of $p$-summable series. (Indeed, $l_p(S)$, for $S$ a [[set]], is simply $L_p(S)$ if $S$ is equipped with [[counting measure]].)
+
+For fixed $f$, the norm ${\|f\|}_p$ is continuous in $p$.  Accordingly, for $p = \infty$, one may take the limit of ${\|f\|}_p$ as $p \to \infty$.  However, this turns out to be the same as the [[essential supremum]] norm $\|f\|_\infty$.  Therefore, $L^\infty(\Omega)$ makes sense as long as $\Omega$ is a [[measurable space]] equipped with a family of [[null sets]] (or [[full sets]]); the measure $\mu$ is otherwise irrelevant.
+
 
 ## References
 
