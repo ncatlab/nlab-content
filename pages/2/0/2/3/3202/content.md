@@ -30,6 +30,8 @@ The $L_p$ spaces are examples of [[Banach spaces]]; they are continuous analogue
 
 For fixed $f$, the norm ${\|f\|}_p$ is continuous in $p$.  Accordingly, for $p = \infty$, one may take the limit of ${\|f\|}_p$ as $p \to \infty$.  However, this turns out to be the same as the [[essential supremum]] norm $\|f\|_\infty$.  Therefore, $L^\infty(\Omega)$ makes sense as long as $\Omega$ is a [[measurable space]] equipped with a family of [[null sets]] (or [[full sets]]); the measure $\mu$ is otherwise irrelevant.
 
+For $0 \lt p \lt 1$, we can define the $L^p$ space using the same formula; however, it is no longer a Banach space (but still a [[locally convex space]]).  For $p = 0$, we can again take the limit, or equivalently use the essential infimum.
+
 
 ## References
 
@@ -40,6 +42,7 @@ For fixed $f$, the norm ${\|f\|}_p$ is continuous in $p$.  Accordingly, for $p =
 * wikipedia: [Lp space](http://en.wikipedia.org/wiki/Lp_space)
 
 
+[[!redirects Lebesgue space]]
 [[!redirects Lebesgue spaces]]
 [[!redirects L-p space]]
 [[!redirects L-p spaces]]
