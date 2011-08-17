@@ -35,18 +35,17 @@ If we work in a category of based spaces, then still the topological space $Map(
 If $X$ is a [[topological space]], the **free loop space** $L X$ of $X$ is defined as the [[free loop space object]] of $X$ formed in the [[(∞,1)-category]] [[Top]].
 
 
-## Related concepts
+## Related entries and literature
 
 * [[loop space object]], [[free loop space object]],
-
   * [[delooping]]
-
   * [[loop space]], **free loop space**, [[derived loop space]]
 
-
 * [[suspension object]]
-
   * [[suspension]]
 
+* [[Kathryn Hess]], _Free loop spaces in topology and physics_, [pdf](http://sma.epfl.ch/~hessbell/Pub_Edinburgh.pdf), slides from Meeting of Edinburgh Math. Soc. Glasgow, 14 Nov 2008
+* [[D. Ben-Zvi]], D. Nadler, _Loop spaces and connections_,
+[arxiv/1002.3636](http://arxiv.org/abs/1002.3636)
 
 [[!redirects free loop spaces]]
