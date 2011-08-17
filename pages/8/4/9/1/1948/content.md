@@ -19,7 +19,7 @@
 
 The [[model category]] structures on [[functor category|functor categories]] are models for [[(∞,1)-category of (∞,1)-functors|(∞,1)-categories of (∞,1)-functors]].
 
-For $C$ a [[model category]] and $D$ any [[small category]] there are two "obvious" ways to put a [[model category]] structures on the [[functor category]] $[D,C]$, called the _projective_ and the _injective_ model structure.  For completely general $C$, neither one need exist.  The projective model structure exists as long as $C$ is [[cofibrantly generated model category|cofibrantly generated]], while the injective model structure exists as long as $C$ is [[combinatorial model category|combinatorial]].
+For $C$ a [[model category]] and $D$ any [[small category]] there are two "obvious" ways to put a [[model category]] structure on the [[functor category]] $[D,C]$, called the _projective_ and the _injective_ model structures.  For completely general $C$, neither one need exist.  The projective model structure exists as long as $C$ is [[cofibrantly generated model category|cofibrantly generated]], while the injective model structure exists as long as $C$ is [[combinatorial model category|combinatorial]].
 
 A related kind of model structure is the [[Reedy model structure]] on functor categories, which applies for *any* model category $C$, but requires $D$ to be a very special sort of category.  See the link for further information.
 
