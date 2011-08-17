@@ -62,7 +62,7 @@ $$
 
 ***
 
-# Contents
+# &nbsp;
 * toc
 {: toc}
 
