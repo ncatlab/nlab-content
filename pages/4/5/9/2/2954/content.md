@@ -16,3 +16,4 @@
 [[!redirects Daniel Freed]][[!redirects Daniel S. Freed]]
 
 category: people
+[[!redirects D. Freed]]
