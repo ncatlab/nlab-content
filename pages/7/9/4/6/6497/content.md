@@ -1,0 +1,8 @@
+__George Lusztig__ is a mathematician at MIT, born in Romania. He has many deep contributions to Lie theory and representation theory, especially using and developing the methods of [[geometric representation theory]]. He discovered the canonical bases of quantum and Lie groups (in a sense dual to the crystal basis of [[Masaki Kashiwara]]).
+
+* $n$Lab: [[Kazhdan-Lusztig theory]]
+* [homepage](http://math.mit.edu/~gyuri/)
+* list of [papers](http://www-math.mit.edu/~gyuri/pub.html) and his own [comments](http://www-math.mit.edu/~gyuri/papers/comm.html) on some papers
+* [wikipedia](http://en.wikipedia.org/wiki/George_Lusztig)
+
+[[!redirects G. Lusztig]]
