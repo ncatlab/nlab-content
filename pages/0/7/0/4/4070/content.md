@@ -35,11 +35,16 @@ An "example-driven digest" with applications in [[string theory]] is
 
 * [[Dennis Gaitsgory]], _Noted on 2d conformal field theory and string theory_, from p. 1017 on in
 
-  [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+  [[Pierre Deligne]], [[P. Etingof]], [[D. Freed]], L. Jeffrey, [[D. Kazhdan]], J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 Generalization to [[higher algebra]] is discussed in 
 
 * [[Dennis Gaitsgory]], [[John Francis]] _Chiral Koszul duality_ ([arXiv:1103.5803](http://arxiv.org/abs/1103.5803))
  {#GaitsgoryFrancis}
+
+Other references
+
+* N. Rozenblyum, _Modules over a chiral algebra_, [arxiv/1010.1998](http://arxiv.org/abs/1010.1998)
+
 
 [[!redirects chiral algebras]]
