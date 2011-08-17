@@ -76,7 +76,7 @@ where first we degreewise form the ordinary [[nerve]] of categories and then tak
 +-- {: .num_prop}
 ###### Proposition
 
-For $C$ a [[simplcial groupoid]] there is a [[weak homotopy equivalence]]
+For $C$ a [[simplicial groupoid]] there is a [[weak homotopy equivalence]]
 
 $$
   \mathcal{N}(C) \to \bar W(C)
