@@ -16,5 +16,11 @@ Argument in favor of its use are:
 ###References:###
 (to be expanded)
 
+A short introduction for large audience can be found in the following
+article of the EMS newsletter:
+
+* Jerome Poineau: [Global analytic geometry](http://www.ems-ph.org/journals/newsletter/pdf/2007-09-65.pdf)
+
 Many references and ideas can be found in the master course (preliminary form):
-*[Global analytic geometry and the functional equation](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf).
+
+* Frederic Paugam: [Global analytic geometry and the functional equation](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf).
