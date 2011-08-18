@@ -1,0 +1,16 @@
+[Global analytic geometry]
+
+Global analytic geometry is a developping subject that gives an alternative/complementary approach to scheme theory in arithmetic geometry and analytic number theory. The starting point of this theory is in Vladimir Berkovich's book about spectral theory and non-archimedean analytic geometry. It was then developped further by Jerome Poineau.
+
+The main interests of this approach to arithmetic geometry are the following:
+* it combines non-archimedean and archimedean analytic geometry
+* it contains algebraic geometry as a sub-theory
+* it treats all places on equal footing, contrary to scheme theory. This implies that it is closer in spirit to the automorphic philosophy and Langlands program, and more historically to Tate's proof of the functional equation.
+
+The main aim of this theory is to define, using global analytic tools, a good category of analytic motivic coefficients, that would help in proving naturally:
+* the functional equation of zeta functions of arbitrary arithmetic varieties
+* an analytic langlands program, giving a correspondence between general (non-algebraic) automorphic representations and global analytic motives.
+
+Argument in favor of its use are:
+* the fact that archimedean factors are deeply related to (analytic) Hodge theory.
+* the fact that all proofs of parts of local Langlands program use deeply non-archimedean analytic spaces that are out of the scope of classical algebraic scheme theory
