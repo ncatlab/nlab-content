@@ -1,0 +1,1 @@
+&lt; [[finitely presentable object]]
