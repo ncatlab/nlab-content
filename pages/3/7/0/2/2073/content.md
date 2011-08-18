@@ -1,1 +1,1 @@
-&lt; marked simplicial set
+&lt; [[marked simplicial set]]
