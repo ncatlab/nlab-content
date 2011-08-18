@@ -1,2 +1,1 @@
-
-> see [[Grothendieck pretopology]]
+&lt; [[basis for a topology]]
