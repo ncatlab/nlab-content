@@ -1,1 +1,1 @@
-see [[Searching the nLab]]
+&lt; [[Searching in the nLab]]
