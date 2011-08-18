@@ -1,2 +1,1 @@
-
-see [[Isbell duality]]
+&lt; [[Isbell conjugation]]
