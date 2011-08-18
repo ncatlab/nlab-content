@@ -1,3 +1,1 @@
-
-
-see [[Universal Homotopy Theories]]
+&lt; [[Universal homotopy theories]]
