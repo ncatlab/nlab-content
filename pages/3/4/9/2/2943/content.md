@@ -36,8 +36,7 @@ Mathematical analogies and generalizations include also
 1108.2874](http://arxiv.org/1108.2874)
 * M. Zinsmeister, _Thermodynamic formalism and holomorphic dynam-
 ical systems_, Amer. Math. Soc. 2000.
-* I. Itenberg, G. Mikhalkin, Geometry in the tropical limit, [arXiv:
-1108.3111](http://arxiv.org/1108.3111)
+* I. Itenberg, G. Mikhalkin, Geometry in the tropical limit, [arXiv/1108.3111](http://arxiv.org/abs/1108.3111)
 
 ## Literature and links
 
