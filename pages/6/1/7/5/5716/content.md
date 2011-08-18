@@ -17,7 +17,7 @@ Mathematics of quantum field theory: i am presently writing a book whose aim is 
 
 * [Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf).
 
-Arithmetic geometry: i did my Phd thesis on Abelian varieties, Galois representations and Shimura varieties. My recent interests are related to global analytic geometry, that is an approach alternative to scheme theory
+Arithmetic geometry: i did my Phd thesis on Abelian varieties, Galois representations and Shimura varieties. My recent interests are related to [[global analytic geometry]], that is an approach alternative to scheme theory
 in the geometric study of (analytic) number theory. You can find a presentation of this subject in my master course notes
 (preliminary form):
 
