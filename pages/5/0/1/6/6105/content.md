@@ -1,2 +1,1 @@
-
-see [[AJ Tolland]]
+&lt; [[A. J. Tolland]]
