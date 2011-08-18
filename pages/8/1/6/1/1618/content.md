@@ -173,23 +173,39 @@ A Grothendieck topos has enough points precisely when it underlies a bounded [[i
 
 ### In classifying toposes
 
-On the other hand, if $E$ is the [[classifying topos]] of a [[geometric theory]] $T$, then a point of $E$ is the same as a model of $T$ in [[Set]].
+From the above it follows that if $E$ is the [[classifying topos]] of a [[geometric theory]] $T$, then a point of $E$ is the same as a [[model]] of $T$ in [[Set]].
 
 
+### Of toposes with enough points
+
++-- {: .num_prop}
+###### Proposition
+
+If a [[sheaf topos]] $E$ has _enough points_ then
+
+* there exists a [[topological space]] $X$ whose [[cohomology]] and [[homotopy theory]] is the [[cohomology|intrinsic cohomology]] and [[homotopy groups in an (infinity,1)-topos|intrinsic homtopy theory]] of the topos;
+
+* such that $E$ is the category of [[equivariant cohomology|equivariant]] objects in the [[sheaf topos]] $Sh(X)$ with respect to some groupoid action on $X$.
+
+=--
+
+This is due to ([Butz](#Butz)) and ([Moerdijk]{#Moerdijk}).
 
 ## Examples 
 
+### General
+
 * For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points: a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]]. 
+
+* Points of [[over-topos]]es are discussed at <a href="http://ncatlab.org/nlab/show/over-topos#Points">over topos -- points</a>.
+
+### Over $\infty$-cohesive sites
 
 * Let $Diff$ be a [[small category]] version of the category of smooth manifolds (for instance take it to be the category of manifolds embedded in $\mathbb{R}^\infty$). Then the sheaf topos $Sh(Diff)$ has precisely one point $p_n$ per natural number $n \in \mathbb{N}$ , corresponding to the $n$-ball: the [[stalk]] of a sheaf on $Diff$ at that point is the colimit over the result of evaluating the sheaf on all $n$-dimensional smooth balls.
 
-  This is discussed for instance on p. 36 of 
+  This is discussed for instance in ([Dugger, p. 36](#Dugger)) in the context of the [[model structure on simplicial presheaves]].
 
-  * Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
-  in the context of the [[model structure on simplicial presheaves]].
-
-* Points of [[over-topos]]es are discussed at <a href="http://ncatlab.org/nlab/show/over-topos#Points">over topos -- points</a>.
 
 ### Toposes with enough points
 
@@ -208,7 +224,7 @@ Textbook references are section 7.5 of
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
   {#MacLaneMoerdijk}
 
-as well as sectin C2.2 of 
+as well as section C2.2 of 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
  {#Johnstone}
@@ -216,11 +232,26 @@ as well as sectin C2.2 of
 In 
 
 * Carsten Butz, _Logical and cohomological aspects of the space of points of a topos_ ([ps](http://www.itu.dk/~butz/research/thesis0.ps.gz))
+ {#Butz}
 
-is a discussion of how for every topos with enough points there is a topological space whose [[cohomology]] is related to the intrinsic cohomology of the topos.
+is a discussion of how for every topos with enough points there is a [[topological space]] whose [[cohomology]] and [[homotopy theory]] is related to the [[cohomology|intrinsic cohomology]] and [[homotopy groups in an (infinity,1)-topos|intrinsic homtopy theory]]of the topos.
+
+More on this is in
+
+* [[Ieke Moerdijk]], _Classifying toposes for toposes with enough points_ , Milan Journal of Mathematics Volume 66, Number 1, 377-389
+ {#Moerdijk}
+
+See also
 
 * Sam Zoghaib, _A few points in topos theory_ ([pdf](http://www.normalesup.org/~zoghaib/math/points-tt.pdf))
  {#Zoghaib}
+
+Points of the sheaf topos over the category of [[manifold]]s are discussed in
+
+* [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+ {#Dugger}
+
+
 
 [[!redirects point of topos]]
 [[!redirects topos with enough points]]
