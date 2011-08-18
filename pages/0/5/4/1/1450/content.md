@@ -167,6 +167,9 @@ Transcipts or notes of further talks by Bill Lawvere on the subject are
 
 * [[Bill Lawvere]], _Outline of synthetic differential geometry_ , seminar notes (1998) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/SDG_Outline.pdf))
 
+See also
+
+* [[Marta Bunge]], [[Eduardo Dubuc]], _Archimedian local $C^\infty$-rings and models of synthetic differential geometry_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 3 (1986), p. 3-22 ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_3_3_0)).
 
 
 ### Books
