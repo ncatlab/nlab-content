@@ -242,7 +242,8 @@ $$
   F(c,c)
   \stackrel{\stackrel{\rho}{\to}}{\stackrel{\lambda}{\to}}  
   \prod_{c_1,c_2 \in Obj(C)}
-  [C(c_1,c_2),F(c_1,c_2)]\qquad\qquad (*)
+  [C(c_1,c_2),F(c_1,c_2)]
+  \label{endeq}
 $$
 
 with $\rho$ in components given by
@@ -277,7 +278,8 @@ Dually, the coend of $F$ is the [[coequalizer]]
 $$
 \coprod_{c_1,c_2} C(c_2,c_1) \times F(c_1,c_2)\, \rightrightarrows\,
 \coprod_c F(c,c)\,\to\,
-\int^c F(c,c) \qquad \qquad (**)
+\int^c F(c,c)
+\label{coendcoeq}
 $$
 
 with the parallel morphisms again induced by the two actions of $F$.
@@ -310,11 +312,11 @@ $$
 
 This can be seen directly, or from the fact that the [[functor category]] $[C^{op} \times C, V]$ is the [[Eilenberg-Moore category|category of algebras]] for the [[monad]] on $[ob C \times ob C, V]$ that sends a family $F_{c,c'}$ of objects of $V$ to the family $\coprod_{c''} C(c,c'') \times F(c'',c')$.  That the diagram above is a split coequalizer then follows from general facts about algebras.
 
-It is also a general fact (see e.g.~[Kelly, ch.~3](#Kelly)) that weighted (co)limits are continuous in their weight: that is,
+It is also a general fact (see e.g. [Kelly, ch. 3](#Kelly)) that weighted (co)limits are continuous in their weight: that is,
 $$ \{W \ast V, F\} \cong \{W, \{V-, F\}\}$$
 and
 $$ (W \ast V, G) \cong W \ast (V \ast G)$$
-This implies, after some fiddling with the [[Yoneda lemma]], that $\{-,F\}$ takes the coequalizer above to the equalizer $(*)$, and similarly for $(**)$.
+This implies, after some fiddling with the [[Yoneda lemma]], that $\{-,F\}$ takes the coequalizer above to the equalizer (eq:endeq), and similarly for (eq:coendcoeq).
 
 
 ## Properties {#Properties}
@@ -491,7 +493,6 @@ The standard reference is
 * [[Max Kelly]], _Basic concepts in enriched category theory_ 
   ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
   {#Kelly}
-
   * ends of $V$-valued bifunctors are discussed in section 2.1
 
   * the enriched functor category that they give rise to is discussed in section 2.2;
