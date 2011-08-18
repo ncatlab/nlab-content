@@ -1,25 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(\infty,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include quasi-category theory contents]]
 =--
 #### Stable Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include stable homotopy theory - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
-
+# Contents
 * automatic TOC goes here
-{:toc}
-
+{: toc}
 
 ## Idea
 
@@ -275,6 +271,10 @@ A diagram of the interrelation of all the models for stable $(\infty,1)$-categor
 
 * [[Stefan Schwede]], _Enhancements of triangulated categories_ ([pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf))
 
+
+[[!redirects stable (infinity,1)-category]]
 [[!redirects stable (infinity,1)-categories]]
 [[!redirects stable (∞,1)-category]]
 [[!redirects stable (∞,1)-categories]]
+
+[[!redirects stable (infinity,1)-topos]]
