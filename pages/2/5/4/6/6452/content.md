@@ -41,7 +41,7 @@ d'analyse du concept d'espace topologique_, thesis, Universit&#233; de Montr&#23
 
 * [[history of cohomology with local coefficients]]
 * [[historical notes on characteristic classes]]
-* [[geometry of 19th century]]
+* [[geometry of 19th century]], [[Erlangen program]]
 * see also [[philosophy]]
 * lots of person entries for major mathematicians, e.g. [[Alexander Grothendieck]], [[Jacob Lurie]], [[Maxim Kontsevich]], [[Saunders MacLane]] etc.
 
