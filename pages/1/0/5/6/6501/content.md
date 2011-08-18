@@ -1,6 +1,20 @@
-Given a $k$-vector bundle $p : E\to M$ of finite rank $n$, its __frame bundle__ (or bundle of frames in $E\to M$) is the bundle $F E\to M$ over the same base whose fiber over $x\in M$ is the set consisting of all vector space bases of $E_x = p^{-1}(x)$. The frame bundle has a natural action of $GL_n(k)$ given by an ordered change of basis which is free and transitive, i. e. the frame bundle is a principal $GL_n(k)$-bundle. 
 
-The __frame bundle of a manifold__ $M$ is the principal bundle $F T M\to M$ (also denoted $F M\to M$) of frames in $T M$. 
+# Frame bundles
+* table of contents
+{: toc}
 
-* wikipedia [frame bundle](http://en.wikipedia.org/wiki/Frame_bundle)
+## Definitions
+
+Given a $k$-[[vector bundle]] $p\colon E \to M$ of finite [[rank]] $n$, its __frame bundle__ (or bundle of frames in $E \to M$) is the bundle $F E \to M$ over the same base whose [[fiber]] over $x \in M$ is the set of all vector space [[basis|bases]] of $E_x = p^{-1}(x)$. The frame bundle has a natural action of $GL_n(k)$ given by an ordered change of basis which is free and transitive, i. e., the frame bundle is a [[principal bundle|principal]] $GL_n(k)$-bundle. 
+
+The __frame bundle of a [[manifold]]__ $M$ is the principal bundle $F T M \to M$ (also denoted $F M \to M$) of frames in the [[tangent bundle]] $T M$. 
+
+
+## References
+
+* Wikipedia (English) [frame bundle](http://en.wikipedia.org/wiki/Frame_bundle)
 * [[Shlomo Sternberg]], _Lectures on differential geometry_
+
+
+[[!redirects frame bundle]]
+[[!redirects frame bundles]]
