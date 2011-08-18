@@ -9,6 +9,8 @@
 =--
 =--
 
-An _affine connection_ $\nabla$ on a [[smooth manifold]] $X$ is a [[connection on a bundle]] for the [[tangent bundle]] $T X$ of $X$.
+An _affine connection_ $\nabla$ on a [[smooth manifold]] $M$ is a [[connection on a bundle|connection]] on the [[frame bundle]] $F M$ of $M$, i. e. the principal bundle of frames in the tangent bundle $T M$. 
 
 The components of the local [[Lie-algebra valued 1-form]] of an affine connection are called [[Christoffel symbol]]s.
+
+* wikipedia [frame bundle](http://en.wikipedia.org/wiki/Affine_connection)
