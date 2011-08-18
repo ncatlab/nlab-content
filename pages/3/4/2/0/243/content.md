@@ -34,9 +34,10 @@ $$
   \prod_{c \in C} F(c,c)
 $$
 
-then the _end_ of the functor picks out the universal [[subobject]] on which the left and right action coincides.
+then the _end_ of the functor picks out the universal [[subobject]] on which the left and right action coincides.  Dually, the _coend_ of $F$ is the universal quotient of $\coprod_{c \in C} F(c,c)$ that forces the two actions of $F$ on that object to be equal.
 
-A classical example of an _end_ is the $V$-object of [[natural transformations]] between $V$-[[enriched functors]] in [[enriched category theory]]. 
+A classical example of an _end_ is the $V$-object of [[natural transformations]] between $V$-[[enriched functors]] in [[enriched category theory]].  Perhaps the most common way in which ends and coends arise is through homs and tensor products of (generalized) modules, and their close cousins, weighted limits and weighted colimits. These concepts are fundamental in enriched category theory. 
+
 
 
 ## Definition
@@ -53,13 +54,8 @@ there exists a unique map $f: x \to e$ such that
 $$\theta_c = \pi_c f$$ 
 for every object $c$ of $C$.
 
-The notion of __coend__ is dual to the notion of end, written $\int^{c: C} F(c, c)$. 
-
-
-#### Examples: Module homs and module tensor products
-
-Perhaps the most common way in which ends and coends arise is through homs and tensor products of (generalized) modules, and their close cousins, weighted limits and weighted colimits. These concepts are fundamental in enriched category theory. 
-
+The notion of __coend__ is dual to the notion of end.  The coend of $F$ is written $\int^{c: C} F(c, c)$, and comes equipped with a universal extranatural transformation with components
+$$\iota_c \colon F(c,c) \to \int^c F(c,c)$$
 
 
 ### In enriched category theory 
@@ -89,7 +85,6 @@ $$
 in $V$. Similarly for the contravariant action.
 
 
-
 A $V$- **extranatural transformation**
 $$\theta: v \stackrel{\bullet}{\to} F$$ 
 from $v$ to $F$ consists of a family of arrows in $V$, 
@@ -107,12 +102,26 @@ for all objects $c$ of $C$.
 
 #### End of $C$-valued functors for $C \in V\Cat$ 
 
-If $X$ is any $V$-enriched category and $F: C^{op} \otimes C \to X$ is a $V$-enriched functor, then the **end** of $F$ in $X$ is an object $\int_{c: C} F(c, c)$ of $X$ equipped with an $Ob(C)$-indexed family of arrows 
-$$\pi_c: I \to X(\int_{c: C} F(c, c), F(c, c))$$ 
+If $X$ is any $V$-enriched category and $F: C^{op} \otimes C \to X$ is a $V$-enriched functor, then the **end** of $F$ in $X$ is, if it exists, an object $\int_{c: C} F(c, c)$ of $X$ that [[representable functor|represents]] the functor
+
+$$
+\int_{c: C} X(-,F(c,c))\,.
+$$
+
+That means that the $\int_{c: C} F(c,c)$ comes equipped with an $Ob(C)$-indexed family of arrows
+
+$$
+\pi_c: I \to X(\int_{c: C} F(c, c), F(c, c))
+$$ 
+
 in $V$, such that for every object $x$ of $X$, the family 
 of maps 
-$$X(x, \pi_c): X(x, \int_{c: C} F(c, c)) \to X(x, F(c, c))$$ 
-are the projection maps realizing $X(x, \int_{c: C} F(c, c))$ as the corresponding end in $V$. This is an example of the general notion of [[weighted limit]] in enriched category theory. 
+
+$$
+X(x, \pi_c): X(x, \int_{c: C} F(c, c)) \to X(x, F(c, c))
+$$ 
+
+are the projection maps realizing $X(x, \int_{c: C} F(c, c))$ as the corresponding end $\int_{c: C} X(x, F(c, c))$ in $V$. 
 
 
 #### End as an equalizer
@@ -233,7 +242,7 @@ $$
   F(c,c)
   \stackrel{\stackrel{\rho}{\to}}{\stackrel{\lambda}{\to}}  
   \prod_{c_1,c_2 \in Obj(C)}
-  [C(c_1,c_2),F(c_1,c_2)]
+  [C(c_1,c_2),F(c_1,c_2)]\qquad\qquad (*)
 $$
 
 with $\rho$ in components given by
@@ -261,8 +270,17 @@ $$
   \,.
 $$
 
-
 This definition manifestly exhibits the **end as the equalizer of the left and right action** encoded by the [[distributor]] $F$.
+
+Dually, the coend of $F$ is the [[coequalizer]]
+
+$$
+\coprod_{c_1,c_2} C(c_2,c_1) \times F(c_1,c_2)\, \rightrightarrows\,
+\coprod_c F(c,c)\,\to\,
+\int^c F(c,c) \qquad \qquad (**)
+$$
+
+with the parallel morphisms again induced by the two actions of $F$.
 
 
 #### End as a weighted limit 
@@ -279,6 +297,24 @@ $$
 $$
 
 where the right hand denotes the [[weighted limit]] over $F$ with weight $Hom_C : C^{op} \times C \to V$.
+
+#### Connecting the two definitions
+
+If $C$ is a $V$-category, then the hom functor $C(-,-) \colon C^{op} \times C \to V$ is the [[coequalizer]] (in fact a [[split coequalizer]]) in
+
+$$
+\coprod_{c,c'} C(-,c) \times C(c,c') \times C(c',-)
+\,\rightrightarrows\,
+\coprod_c C(-,c) \times C(c,-) \,\to\, C(-,-)
+$$
+
+This can be seen directly, or from the fact that the [[functor category]] $[C^{op} \times C, V]$ is the [[Eilenberg-Moore category|category of algebras]] for the [[monad]] on $[ob C \times ob C, V]$ that sends a family $F_{c,c'}$ of objects of $V$ to the family $\coprod_{c''} C(c,c'') \times F(c'',c')$.  That the diagram above is a split coequalizer then follows from general facts about algebras.
+
+It is also a general fact (see e.g.~[Kelly, ch.~3](#Kelly)) that weighted (co)limits are continuous in their weight: that is,
+$$ \{W \ast V, F\} \cong \{W, \{V-, F\}\}$$
+and
+$$ (W \ast V, G) \cong W \ast (V \ast G)$$
+This implies, after some fiddling with the [[Yoneda lemma]], that $\{-,F\}$ takes the coequalizer above to the equalizer $(*)$, and similarly for $(**)$.
 
 
 ## Properties {#Properties}
