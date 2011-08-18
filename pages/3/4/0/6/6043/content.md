@@ -6,17 +6,17 @@
 
 ## Definition
 
-For $k$ a [[field]], a **norm** on a $k$-[[vector space]] $V$ is a [[function]] 
+For $k$ a [[field]] equipped with a [[valuation]] (most usually, a [[local field]] such as $\mathbb{R}$, $\mathbb{C}$, or a $p$-adic completion of a number field), a **norm** on a $k$-[[vector space]] $V$ is a [[function]] 
 
 $$
-  {\vert-\vert} : V \to k
+  {\vert-\vert} : V \to \mathbb{R}
 $$ 
 
 such that for all $\lambda \in k$, $v,w \in V$ we have
 
-1.  ${\vert \lambda v \vert} = {\vert \lambda\vert} {\vert v \vert}$  
+1.  ${\vert \lambda v \vert} = {\vert \lambda\vert} {\vert v \vert}$ (where $\vert \lambda \vert$ denotes the valuation)
 
-1.  ${\vert v + m\vert } \leq {\vert v \vert } + {\vert w \vert}$ ("triangle inequality")
+1.  ${\vert v + w\vert } \leq {\vert v \vert } + {\vert w \vert}$ ("triangle inequality")
 
 1.  if ${\vert v\vert} = 0$ then $v = 0$.
 
