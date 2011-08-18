@@ -60,6 +60,13 @@ In constrast to topological QFTs, non-topological quantum field theories in the 
 These somehow lie between the previous two types. There is some simple extra structure in the form of a 'characteristic map' from the manifolds and bordisms to a 'background space' $X$. 
 In many of the simplest examples, this is taken to be the [[classifying space]] of a group, but this is not the only case that can be considered.  The topic is explored more fully in [[HQFT]]. 
 
+## Literature 
+
+* [[Anton Kapustin]], _Topological field theory, higher categories, and their applications_, survey for ICM 2010, [arxiv/1004.2307](http://arxiv.org/abs/1004.2307)
+* D. Freed, M. Hopkins, J. Lurie, C. Teleman, [[Topological Quantum Field Theories from Compact Lie Groups]]
+* [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]; _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
+* see also [[cobordism hypothesis]] and references therein
+* Mark Feshbach, Alexander A. Voronov, _A higher category of cobordisms and topological quantum field theory_, [arxiv/1108.3349](http://arxiv.org/abs/1108.3349) 
 
 [[!redirects topological quantum field theories]]
 [[!redirects TQFT]]
