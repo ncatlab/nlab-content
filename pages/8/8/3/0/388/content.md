@@ -1,1 +1,2 @@
-&lt; [[homotopy]] and [[homotopy (as an operation)]]
+&lt; [[homotopy]]<br />
+&lt; [[homotopy (as an operation)]]
