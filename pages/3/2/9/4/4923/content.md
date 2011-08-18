@@ -1,3 +1,1 @@
-[[!redirects logic of regular categories]]
-
-See [[regular logic]].
+&lt; [[logic of regular categories]]
