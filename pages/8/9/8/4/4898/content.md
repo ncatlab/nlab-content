@@ -19,7 +19,7 @@ We keep lists:
 
 Main other lists are:
 
-* [Math on the Web](http://www.ams.org/mathweb/index.html) -- links maintained by American Mathematical Society
+* [Math on the Web](http://www.mathontheweb.org/mathweb/index.html) -- links maintained by American Mathematical Society
 * [MathOverflow](http://mathoverflow.net) question: [mathematical resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web)
 
 [[!redirects mathematical resources]]
