@@ -19,11 +19,11 @@
 
 ## Idea
 
-For $C$ a [[category]] with [[finite limit]]s, an __internal ring__ or a __ring object__ in $C$ is an [[internalization]] to the category $C$ of a notion of a [[ring]].
+For $C$ a [[cartesian monoidal category]] (a category with [[finite products]]), an __internal ring__ or a __ring object__ in $C$ is an [[internalization]] to the category $C$ of the notion of a [[ring]].
 
 This is a [[monoid|monoid object]] internal to the category of  [[abelian group|abelian]] [[group object]]s internal to $C$.
 
-It can be defined in more general symmetric monoidal categories as the corresponding module over a ring operad. 
+Ring objects can be defined in more general [[symmetric monoidal categories]] as the corresponding module over a [[ring operad]]. 
 
 
 ## Examples
@@ -42,3 +42,5 @@ It can be defined in more general symmetric monoidal categories as the correspon
 
 [[!redirects ring object]]
 [[!redirects ring objects]]
+[[!redirects internal ring]]
+[[!redirects internal rings]]
