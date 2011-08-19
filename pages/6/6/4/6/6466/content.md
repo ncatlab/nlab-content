@@ -83,6 +83,8 @@ Summary: modify the construction of a [[Cauchy real numbers]] object to use [[mu
 
 In any Heyting category with an RNO $\mathbf{R}$, $\mathbf{R}$ is a [[local ring]] object.
 
+Any two RNOs in a Heyting category are [[isomorphic]], and the isomorphism can be chosen in such as a way as to preserve the ring structure and preserve the linear order; furthermore, the isomorphism is unique if it preserves these.
+
 Any Heyting category with an RNO must also have an NNO; in fact, we can construct the NNO as a [[subobject]] of the RNO.  (Thus in a topos, or in more general categories as in the other constructions, the existence of an RNO is equivalent to the existence of an NNO.)
 
 
