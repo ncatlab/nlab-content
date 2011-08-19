@@ -21,8 +21,8 @@ See also [[math blogs]], [[math archives]] and the top page [[math resources]]. 
 * [ams](http://www.ams.org) American Mathematical Society
 * [imu](http://www.mathunion.org) International Mathematical Union
 * [ems](http://www.emis.de) European Mathematical Society
-* long [list of math societies](http://www.ams.org/mathweb/mi-sao.html) at AMS site
-* [list of mathematics departments](http://www.ams.org/mathweb/mi-depts.html) at AMS site 
+* long [list of math societies](http://www.mathontheweb.org/mathweb/mi-sao.html) at (former AMS's) [Math on the Web](http://www.mathontheweb.org) 
+* [list of mathematics departments](http://www.mathontheweb.org/mathweb/mi-depts.html) at Math On the Web
 
 ## Main research institutes
 
@@ -75,11 +75,11 @@ Please do not list small unimportant instututions, they will be included in exis
 * [Fields](http://www.fields.utoronto.ca) Institute, Toronto, Canada
 * [Banff](http://www.birs.ca) Research Institute Station (BIRS), Canada 
 * [PIMS](http://www.nims.re.kr/eng) Vancouver
-
+* [Perimeter Institute](http://www.perimeterinstitute.ca)
 
 ### Global and lists
 
-* [list](http://www.ams.org/mathweb/mi-inst.html) of math institutes at AMS site
+* [list](http://www.mathontheweb.org/mathweb/mi-inst.html) of math institutes at AMS site
 * [IMSI](http://www.fields.utoronto.ca/aboutus/IMSI.html) consortium of math institutes (long list included!)
 * Math Research Institute [list](http://www.dmoz.org/Science/Math/Research/Institutes) at Open Directory
 * [physics institutes](http://greybook.cern.ch/institutes) -- long list maintained at CERN
