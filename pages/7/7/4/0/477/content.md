@@ -1,8 +1,7 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Limits and colimits
 +--{: .hide}
 [[!include infinity-limits - contents]]
@@ -10,10 +9,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Definition 
 
@@ -39,8 +37,13 @@ More generally, for $S \in $ [[Set]] $\hookrightarrow$ [[Cat]] any [[discrete ca
 
 ## Examples
 
+* [This interactive demonstration](http://www.j-paine.org/cgi-bin/webcats/set_prod_nlab.php) in [[FinSet]] lets you type two sets and see a product, showing the unique map to it from a randomly chosen $Z$ equipped with $f$ and $g$. It also generates a second product, showing the unique canonical isomorphism between this and the first product.
+
 * [[product of simplices]]
 
+
+[[!redirects product]]
 [[!redirects products]]
 
 [[!redirects finite product]]
+[[!redirects finite products]]
