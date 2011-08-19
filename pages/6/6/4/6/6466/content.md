@@ -24,7 +24,79 @@ More generally, we can define a real numbers object (RNO) in any category with s
 
 Let $\mathcal{E}$ be a [[Heyting category]].  (This means, in particular, that every [[subobject poset]] has full [[first-order logic|first-order]] [[intuitionistic logic]].)  A (located Dedekind) __real numbers object__ in $\mathcal{E}$ is a [[ring object]] in $\mathcal{E}$ that satisfies (in the [[internal logic]]) the axioms of a [[Dedekind-complete]] [[linearly ordered]] [[Heyting field]].
 
-In detail, ...
+In detail, a _commutative ring object_ in $\mathcal{E}$ is an object $R$ equipped with morphisms $0\colon \mathbf{1} \to R$, ${-}\colon R \to R$, ${+}\colon R \times R \to R$, $1\colon \mathbf{1} \to R$, and ${\cdot}\colon R \times R \to R$ (where $\mathbf{1}$ is the [[terminal object]] of $\mathcal{E}$ and $\times$ is the [[product]] operation) that make certain diagrams commute.  (These diagrams may be found at [[ring object]], in principle, although right now they\'re not there.)
+
+Given a commutative ring object $R$ in $\mathcal{E}$, we define a [[binary relation]] $\#$ on $R$ (that is a [[subobject]] of $R \times R$) as
+$$ \{ (x,y)\colon R \times R \;|\; \exists z\colon R.\, x \cdot z = y \cdot z + 1 \} ,$$
+written in the [[internal language]] of $\mathcal{E}$.  Then $R$ is a (Heyting) _field object_ if $\#$ is a tight [[apartness relation]]; that is if the following axioms (in the internal language) hold:
+*  $\forall x\colon R.\, \neg(x \# x)$,
+*  $\forall x\colon R.\, \forall y\colon R.\, (x \# y \implies y \# x)$,
+*  $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, (x \# z \implies (x \# y \vee y \# z))$,
+*  $\forall x\colon R.\, \forall y\colon R.\, (\neg(x \# y) \implies x = y)$.
+
+A (linearly) _ordered field object_ in $\mathcal{E}$ is a field object $R$ equipped with a binary relation $\lt$ such that the following axioms hold:
+*  $\forall x\colon R.\, \forall y\colon R.\, (x \lt y \implies x \# y)$,
+*  $\forall x\colon R.\, \forall y\colon R.\, (x \# y \implies (x \lt y \vee y \lt x))$,
+*  $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, ((x \lt y \wedge y \lt z) \implies x \lt z)$,
+*  $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, (x \lt y \implies x + z \lt y + z)$,
+*  $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, ((x \lt y \wedge 0 \lt z) \implies x \cdot z \lt y \cdot z)$.
+
+Given an ordered field object $R$ in $\mathcal{E}$, any object $\Gamma$ in $\mathcal{E}$, and subobjects $L$ and $U$ of $\Gamma \times R$, we say that $(L,U)$ is a _Dedekind cut_ in $R$ parametrised by $\Gamma$ if the following axioms hold:
+*  $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in L$,
+*  $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in U$,
+*  $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, ((x \lt y \wedge (a,y) \in L) \implies (a,x) \in L)$,
+*  $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (((a,x) \in U \wedge x \lt y) \implies (a,y) \in U)$,
+*  $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (x \lt y \implies ((a,x) \in L \vee (a,y) \in U))$,
+*  $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (((a,x) \in L \wedge (a,y) \in U) \implies x \lt y)$.
+
+An ordered field object $R$ in $\mathcal{E}$ is _Dedekind complete_ if, given any object $\Gamma$ of $\mathcal{E}$ and any Dedekind cut $(L,U)$ in $R$ parametrised by $\Gamma$, there exists a morphism $x\colon \Gamma \to R$ such that
+$$ L = \{ (a,b)\colon \Gamma \times R \;|\; b \lt x(a) \} ,$$
+$$ U = \{ (a,b)\colon \Gamma \times R \;|\; x(a) \lt b \} .$$
+
+Finally, a _real numbers object_ in $\mathcal{E}$ is a Dedekind-complete ordered field object.
+
+
+## Properties
+
+In the last requirement, of Dedekind completeness, we postulate (under certain conditions) the existence of a morphism $x\colon \Gamma \to R$ satisfying certain properties.
++-- {: .un_thm}
+###### Theorem
+This morphism is in fact unique.
+=--
++-- {: .proof}
+###### Proof
+...
+=--
+
+In the definition of a Heyting field object, all of the axioms except the last are [[geometric logic|geometric]] and therefore make sense in any [[geometric category]].
++-- {: .un_thm}
+###### Theorem
+An object satisfying all but the last axiom of a field object is precisely a [[local ring]] object (so in particular an RNO is a local ring object).
+=--
++-- {: .proof}
+###### Proof
+...
+=--
+
+We usually speak of *[[the]]* RNO, if one exists.  This is because any two RNOs in a Heyting category are [[isomorphic]], in an essentially unique way.
++-- {: .un_thm}
+###### Theorem
+If $R$ and $R'$ are both RNOs in a Heyting category $\mathcal{E}$, then there is a unique isomorphism from $R$ to $R'$ that preserves the structures on them ($0$, $-$, $+$, $1$, $\cdot$, $\lt$).
+=--
++-- {: .proof}
+###### Proof
+...
+=--
+
+Any Heyting category with an RNO must also have a [[natural numbers object]] (NNO).  Thus in a topos, or in more general categories as in the other constructions below, the existence of an RNO is equivalent to the existence of an NNO.
++-- {: .un_thm}
+###### Theorem
+If $R$ is an RNO in a Heyting category, then there is unique subobject $N$ of $R$ that is both a sub-[[rig]] object of $R$ and an NNO under the operations $0\colon \mathbf{1} \to N$ and ${-} + 1\colon N \to N$.
+=--
++-- {: .proof}
+###### Proof
+...
+=--
 
 
 ## Constructions
@@ -79,16 +151,12 @@ Note that any [[Boolean topos]] with an NNO satisfies $WCC$, so in all we have t
 Summary: modify the construction of a [[Cauchy real numbers]] object to use [[multi-valued function|multi-valued]] [[Cauchy sequences]].
 
 
-## Properties
-
-In any Heyting category with an RNO $\mathbf{R}$, $\mathbf{R}$ is a [[local ring]] object.
-
-Any two RNOs in a Heyting category are [[isomorphic]], and the isomorphism can be chosen in such as a way as to preserve the ring structure and preserve the linear order; furthermore, the isomorphism is unique if it preserves these.
-
-Any Heyting category with an RNO must also have an NNO; in fact, we can construct the NNO as a [[subobject]] of the RNO.  (Thus in a topos, or in more general categories as in the other constructions, the existence of an RNO is equivalent to the existence of an NNO.)
-
-
 ## Examples
+
+### In $Set$
+
+The real numbers object in [[Set]] is the [[real line]], the usual set of (located Dedekind) [[real numbers]].  Note that this is a theorem of [[constructive mathematics]], as long as we assume that $Set$ is an elementary topos with an NNO.
+
 
 ### In sheaves on a topological space
 
