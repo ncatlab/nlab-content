@@ -5,7 +5,7 @@ $$(f \cdot g)(x) = \sum_{y+z = x in G} f(y)g(z)$$
 The [[valuation ring|multiplicative valuation]] $v(f)$ is the least $x \in G$ for which $f(x) \neq 0$. 
 =-- 
 
-We obtain a valuation ring from this construction since, as noted above, a valuation ring is essentially the same as a valuation on a field.
+We obtain a valuation ring from this construction since a valuation ring determines and is determined by a valuation on a field.
 
 +-- {: .un_thm}
 ######Theorem 
