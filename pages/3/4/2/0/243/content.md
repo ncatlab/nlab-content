@@ -108,7 +108,7 @@ $$
 \int_{c: C} X(-,F(c,c))\,.
 $$
 
-That means that the $\int_{c: C} F(c,c)$ comes equipped with an $Ob(C)$-indexed family of arrows
+That means that the end $\int_{c: C} F(c,c)$ comes equipped with an $Ob(C)$-indexed family of arrows
 
 $$
 \pi_c: I \to X(\int_{c: C} F(c, c), F(c, c))
@@ -289,16 +289,22 @@ with the parallel morphisms again induced by the two actions of $F$.
 
 The end for $V$-functors with values in $V$ serves, among other things, to define [[weighted limits]], and weighted limits in turn define ends of bifunctors with values in more general $V$-categories.
 
-For $C$ and $D$ both $V$-categories and $F : C^\op \times C \to D$ an $V$-[[enriched functor]], the **end** of $F$ is the [[weighted limit]]
+For $C$ and $D$ both $V$-categories and $F : C^\op \times C \to D$ an $V$-[[enriched functor]], the **end** of $F$ is the [[weighted limit]] of $F$
 
 $$
   \int_{c \in C} F(c,c)
-  :=
+  \coloneqq
+  \{Hom_C, F\} =
   lim^{Hom_C} F
   \,,
 $$
 
-where the right hand denotes the [[weighted limit]] over $F$ with weight $Hom_C : C^{op} \times C \to V$.
+with weight $Hom_C : C^{op} \times C \to V$.  The **coend** of $F$ is the colimit
+
+$$
+\int^c F(c,c) \coloneqq Hom_{C^{op}} \ast F =  \colim^{Hom_{C^{op}}} F
+$$
+of $F$ weighted by the hom functor of $C^{op}$.
 
 #### Connecting the two definitions
 
@@ -316,7 +322,8 @@ It is also a general fact (see e.g. [Kelly, ch. 3](#Kelly)) that weighted (co)li
 $$ \{W \ast V, F\} \cong \{W, \{V-, F\}\}$$
 and
 $$ (W \ast V, G) \cong W \ast (V \ast G)$$
-This implies, after some fiddling with the [[Yoneda lemma]], that $\{-,F\}$ takes the coequalizer above to the equalizer (eq:endeq), and similarly for (eq:coendcoeq).
+This implies that $\{-,F\}$ takes the coequalizer above to an equalizer, which, after some fiddling with the [[Yoneda lemma]], turns out to be the same as (eq:endeq).
+Similarly, $(- \ast F)$ takes the analogous coequalizer presentation of $C^{op}(-,-)$ to (eq:coendcoeq).
 
 
 ## Properties {#Properties}
