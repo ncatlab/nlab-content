@@ -1,11 +1,51 @@
 
-In the terminology of [[Bill Lawvere]]:
 
-* a [[Lawvere theory]] (or the equivalent in any [[doctrine]]) $T$ is an _abstract general_;
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[category theory|category theoretic]] notions of 
+
+* _[[category]]_ and _[[object]]_ 
+
+on the one hand and of 
+
+* _[[theory]]_ and _[[model]]_ 
+
+on the other have been suggested ([Lawvere](#Lawvere)) to usefully formalize, respectively, the heuristic notions 
+
+* "general" and "particular" 
+
+as well as 
+
+* "abstract" and "concrete", respectively. 
+
+We have:
+
+* a ([[syntactic category]] of a) [[Lawvere theory]] $T$ (or the equivalent in any [[doctrine]]) $T$ is an _abstract general_;
+
+* a (generating) [[object]] in $T$ is an _abstract particular_ ;
 
 * the [[category]] $T Mod(E)$ of $T$-[[models]]/[[algebra over an algebraic theory|algebras]] in any context $E$ is a _concrete general_;
 
 * an [[object]] of any $T Mod(E)$ is a _concrete particular_.
+
+## Examples
+
+### Groups
+
+The [[syntactic category]] $T_{Grp}$ of the [[theory]] of [[group]]s is the "general abstract" of groups. Its essentially unique generating object is  _the abstract particular_ group.
+
+The category $T_{Grp} Mod(Set) = $ [[Grp]] of all groups is the _concrete general_ of groups.
+
+An object in there is some [[group]]: a concrete particular.
+
+## References
+
+* [[Bill Lawvere]], various lectures
+ {#Lawvere}
 
 
 [[!redirects abstract general]]
@@ -16,6 +56,9 @@ In the terminology of [[Bill Lawvere]]:
 
 [[!redirects concrete particular]]
 [[!redirects concrete particulars]]
+
+[[!redirects abstract particular]]
+[[!redirects abstract particulars]]
 
 [[!redirects abstract general, concrete general and concrete particular]]
 [[!redirects abstract general, concrete general, and concrete particular]]
