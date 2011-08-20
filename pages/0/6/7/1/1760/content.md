@@ -77,7 +77,7 @@ $$
 
 and we say that $\mathbf{B} A$ is the **delooping** of $A$.
 
-See the section <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#Delooping">delooping</a> at [[groupoid object in an (∞,1)-category]] for more. [Tablet Adroid Honeycomb terbaik Murah](http://cupu.web.id/tablet-android-honeycomb-terbaik-murah/)
+See the section <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#Delooping">delooping</a> at [[groupoid object in an (∞,1)-category]] for more.
 
 ## Remarks
 
