@@ -68,9 +68,9 @@ If you make any edits to the $n$Lab, please inform the rest of the $n$Lab commun
 
 One goal of the $n$Lab is to help make information widely available and usefully related to other information.  In this users and contributors are expected to follow traditional academic practice:
 
-* Using content obtained from the $n$Lab in your publications is free and encouraged if [Android App](http://edoziedo.info) you acknowledge the source, as usual. Because $n$Lab pages can change, in citing a page you should point to a specific version of it.  You can find a list of all the versions of a page [belajar seo - belajar bisnis online](http://cupu.web.id) by clicking on the **History** link at the bottom of the page itself.
+* Using content obtained from the $n$Lab in your publications is free and encouraged if you acknowledge the source, as usual. Because $n$Lab pages can change, in citing a page you should point to a specific version of it.  You can find a list of all the versions of a page by clicking on the **History** link at the bottom of the page itself.
 
-* Conversely, any content contributed to $n$Lab is publicly available and you should be aware that others may use your contributions (whatever you decide to do with [Mari Berkomunitas Di Faceblog](http://cupu.web.id/mari-berkomunitas-di-faceblog/) their content elsewhere) or indeed edit them. In the first case you trust that users will cite your contributions properly, in the second that they will respect and only improve on them. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
+* Conversely, any content contributed to $n$Lab is publicly available and you should be aware that others may use your contributions (whatever you decide to do with their content elsewhere) or indeed edit them. In the first case you trust that users will cite your contributions properly, in the second that they will respect and only improve on them. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
 
 Usually this works well. If there is need for discussion, the 
 [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
@@ -89,7 +89,7 @@ Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how 
 ## Steering Committee 
  {#SteeringCommitte}
 
-The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have. [Tablet Android Honeycomb Terbaik Murah](http://cupu.web.id/tablet-android-honeycomb-terbaik-murah/)
+The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
 
 
 category: meta
