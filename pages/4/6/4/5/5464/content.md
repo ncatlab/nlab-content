@@ -127,7 +127,7 @@ X & \underset{\scriptsize f}{\begin{svg}[[!include SVG rightarrow]]\end{svg}} & 
 \end{matrix}
 $$
 
-In particular, [Tablet Android Honeycomb Terbaik Murah](http://cupu.web.id/tablet-android-honeycomb-terbaik-murah/) this holds when $B$ is a 1-element subset $\{y\}$ of $Y$:
+In particular, this holds when $B$ is a 1-element subset $\{y\}$ of $Y$:
 
 $$
 \begin{matrix}
@@ -138,7 +138,7 @@ X & \underset{\scriptsize f}{\begin{svg}[[!include SVG rightarrow]]\end{svg}} & 
 \end{matrix}
 $$
 
-There is no virtue in distinguishing {Mari Berkomunitas Di Faceblog](http://cupu.web.id/mari-berkomunitas-di-faceblog/) between one-element sets, so we might as
+There is no virtue in distinguishing between one-element sets, so we might as
 well write $1$ instead of $\{y\}$; then the inclusion $\{y\} \hookrightarrow Y$ becomes
 the map $1 \to Y$ picking out $y \in Y$, and we have a pullback square
 
