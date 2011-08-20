@@ -28,7 +28,7 @@ As such, this article is a forunner of the development of the full [[model categ
 
 But the [[homotopy category of an (∞,1)-category|homotopy category]] of these [[(∞,1)-topos]]es -- that category which remembers just the [[∞-stack]] [[cohomology]] classes, and not the [[cocycle]]s -- is precisely what Kenneth Brown constructed, studied and identified correctly in its nature back then in 1973.
 
-[Tablet Adroid Honeycomb terbaik Murah](http://cupu.web.id/tablet-android-honeycomb-terbaik-murah/)
+
 category: reference
 
 [[!redirects Brown -- Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
