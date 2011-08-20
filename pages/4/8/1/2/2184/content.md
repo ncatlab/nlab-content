@@ -158,7 +158,7 @@ _Toby_:  I don\'t know the difference between 'a set with a (certain kind of) bi
 
 _Long time lurker_: I'm talking about the definition of graph homomorphism that graph theorists use, which I think agrees with the one given here at least for simple undirected graphs. And as for "binary relation" vs. "adjacency structure," I don't think there's any real mathematical difference, but it can pay off to think of a (directed loop) graph as a function $V \rightarrow 2^V$ rather than a subset of $V \times V$.
 
-Obviously there are some issues with this; for one thing, I don't see an obvious way [Mari Berkomunitas Di Faceblog](http://cupu.web.id/mari-berkomunitas-di-faceblog/) to abstract this in a category that doesn't have a subobject classifier. But philosophically, I'd like to propose that the key property of graphs is that their edges don't carry any information except for incidence -- so, e.g., [Tablet Android Honeycomb Terbaik Murah](http://cupu.web.id/tablet-android-honeycomb-terbaik-murah/) when we take a category and forget about how arrows compose, we get a digraph. And this suggests that we should have some way of defining a graph without any reference to edges. 
+Obviously there are some issues with this; for one thing, I don't see an obvious way to abstract this in a category that doesn't have a subobject classifier. But philosophically, I'd like to propose that the key property of graphs is that their edges don't carry any information except for incidence -- so, e.g., when we take a category and forget about how arrows compose, we get a digraph. And this suggests that we should have some way of defining a graph without any reference to edges. 
 
 [[!redirects undirected graph]]
 [[!redirects graph theory]]
