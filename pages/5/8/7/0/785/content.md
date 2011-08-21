@@ -1,33 +1,32 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homotopy theory
-+--{: .hide}
-[[!include homotopy - contents]]=--
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
 #### Model category theory
-+--{: .hide}
++-- {: .hide}
 [[!include model category theory - contents]]
 =--
 #### $(\infty,1)$-Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
-
-
+{: toc}
 
 
 ## Idea 
 
 A **homotopy pullback** is a special kind of [[homotopy limit]]: the appropriate notion of [[pullback]] in the context of [[homotopy theory]]. Homotopy pullbacks model the [[limit in quasi-categories|quasi-category pullbacks]] in the [[(infinity,1)-category]] that is [[presentable (infinity,1)-category|presented]] by a given [[homotopical category]].  Since pullbacks are also called fiber products, homotopy pullbacks are also called **homotopy fiber products**.
+
+A __homotopy pushout__ is the [[duality|dual]] concept.
 
 For more details see [[homotopy limit]].
 
@@ -36,7 +35,7 @@ For more details see [[homotopy limit]].
 
 As with all homotopy limits, there is both a _local_ and a _global_ notion of homotopy pullback.
 
-The _global_ definition says that the homotopy pullback of a a [[co-span|cospan]] $X \to Z \leftarrow Y$ in a [[category with weak equivalences]] $C$ is its image under the right [[derived functor]] of the [[base change]] functor $pb: C^{\to \leftarrow} \to C$.
+The _global_ definition says that the homotopy pullback of a [[co-span|cospan]] $X \to Z \leftarrow Y$ in a [[category with weak equivalences]] $C$ is its image under the right [[derived functor]] of the [[base change]] functor $pb: C^{\to \leftarrow} \to C$.
 
 The _local_ definition says that the homotopy pullback of $X \to Z \leftarrow Y$ in a category with a notion of [[homotopy]] consists of a square
 $$
@@ -58,14 +57,13 @@ $$
    X &\to& Z
   }
 $$
-that commutes up to homotopy, there exists a morphism $T\to P$ making the two triangles commute up to homotopy, and similarly for homotopies and higher homotopies.  In other words, there is an equivalence
+that commutes up to homotopy, there exists a morphism $T\to P$, unique up to homotopy, making the two triangles commute up to homotopy, and similarly for homotopies and higher homotopies.  In other words, there is an equivalence
 $$Map(T,P) \simeq HoSq(T,X\to Z\leftarrow Y)$$
 between the space of maps $T\to P$ and the space of homotopy commutative squares with vertex $T$.
 
 In good situations, such as when $X,Y,Z$ are [[fibrant object|fibrant]] in a [[model category]], the two constructions agree up to weak equivalence.
 
 Note that in both cases, there is a canonical map from the actual pullback $X\times_Z Y$ to the homotopy pullback $X\times_Z^h Y$.  In the global case this comes by the definition of a derived functor; in the local case it comes because a commutative square is, in particular, a homotopy commutative one.
-
 
 
 ## Concrete construction
@@ -105,7 +103,7 @@ $$\array{X\times_Z^h Y & \to & Z^I\\
   \downarrow && \downarrow \\
   X\times Y & \to & Z\times Z.}
 $$
-In good situations, this will be a (local) homotopy pullback of $X \to Z \leftarrow Y$.  This is the case when $C = $ [[Top]] with its canonical [[interval object]] $[0,1]$, and also in many [[model category|model categories]] (when $X,Y,Z$ are fibrant) and [[category of fibrant objects|categories of fibrant objects]].  For details on the latter case, see [section 5](http://ncatlab.org/schreiber/files/nacqFeb14.pdf#page=21) of [[schreiber:Nonabelian cocycles and their sigma model QFTs]].
+In good situations, this will be a (local) homotopy pullback of $X \to Z \leftarrow Y$.  This is the case when $C = $ [[Top]] with its canonical [[interval object]] $[0,1]$ (the [[unit interval]]), and also in many [[model category|model categories]] (when $X,Y,Z$ are fibrant) and [[category of fibrant objects|categories of fibrant objects]].  For details on the latter case, see [section 5](http://ncatlab.org/schreiber/files/nacqFeb14.pdf#page=21) of [[schreiber:Nonabelian cocycles and their sigma model QFTs]].
 
 The canonical morphism $X \times_{Z} Y \to X \times_Z^h Y$ here is induced by the section $Z \to Z^I$.
 
@@ -120,7 +118,8 @@ $$
   }
 $$
 is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
-+--{.query}
+
++-- {: .query}
 Should the last diagram rather be
 $$
   \array{
@@ -134,15 +133,15 @@ $$
 ?
 
 To Stephen: Yes you are right. It is generally better to post such queries on the nForum as they can easily be lost when posted in the Lab.
-
 =--
+
 
 ## Fiber sequences 
 
 Of particular interest are consecutive homotopy pullbacks of point inclusions. These give rise to [[fiber sequence]]s and [[loop space object]]s.
 
 
-
+[[!redirects homotopy pullback]]
 [[!redirects homotopy pullbacks]]
 
 [[!redirects homotopy pushout]]
