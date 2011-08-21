@@ -18,7 +18,8 @@ For a quick introduction to math blogging, see
 
   blog discussion about this piece: [Part I](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html) and [Part II](http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.html)
 
-See also [MO question: most helpful math resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web) and the directory of many math blogs with update information [www.mathblogging.org](http://www.mathblogging.org).
+See also [MO question: most helpful math resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web), the directory of many math blogs with alerts on recent updates [www.mathblogging.org](http://www.mathblogging.org) and another math blog  
+list at the [Academic Blog Portal](http://wiki.henryfarrell.net/wiki/index.php/Main_Page), wiki section [mathematics and statistics](http://wiki.henryfarrell.net/wiki/index.php/Mathematics/Statistics).
 
 +-- {: .standout}
 
@@ -132,12 +133,14 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [equalis](http://www.equalis.com) Online community about SciLab and computing
 
+* [Explaining Math](http://explainingmaths.wordpress.com) math teaching with multimedia, screencasts
+
 * [Frank Morgan's Blog](http://blogs.williams.edu/Morgan) (Riemannian and metric geometry, inequalities...)
 
 * [F_un mathematics](http://matrix.cmi.ua.ac.be/fun) ("field with one element")
 
 * [Geometric Group Theory](http://392c.wordpress.com) (structured text with theorems, proofs and exercises in GGT)
-
+* [Geometry and combinatorics](http://konradswanepoel.wordpress.com) (Konrads Wanepoel)
 * [Geometry and the Imagination](http://lamington.wordpress.com) (Danny Calegari: hyperbolic geometry, geometric group theory...)
 
 * [God plays dice](http://godplaysdice.blogspot.com) (probability, combinatorics, puzzles, financial math)
@@ -172,6 +175,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [Mathematics Expressions](http://mathexpressions.wordpress.com/) (Colin Tan: complex geometry)
 
 * [Mathematics Under the Microscope](http://micromath.wordpress.com) (Alexandre Borovik)
+
+* [Mathlinks / Art of Problem Solving](http://www.artofproblemsolving.com/Forum/portal.php?ml=1) community, math olympiad style problems discussed
 
 * [mathlight](http://mathlight.wordpress.com) (just started, by an $n$lab regular)
 
