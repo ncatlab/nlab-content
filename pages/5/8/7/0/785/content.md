@@ -116,7 +116,7 @@ $$
    \\
     \downarrow && \downarrow
    \\
-   Y &\to& X
+   X &\to& Z
   }
 $$
 is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
@@ -132,6 +132,8 @@ $$
   }
 $$
 ?
+
+To Stephen: Yes you are right. It is generally better to post such queries on the nForum as they can easily be lost when posted in the Lab.
 
 =--
 
