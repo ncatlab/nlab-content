@@ -20,8 +20,10 @@
 
 ## Idea
 
-The definition of [[differential cohomology]], is a special case of the definition of [[twisted cohomology]] (see [[cohesive (infinity,1)-topos -- structures]] for more on this).
-It is natural to iterate these constructions and consider twists by differential cohomology classes. Following ([SSSIII](#SSSIII)) one can speak of _twisted differential $\mathbf{c}$-structures_ .
+For $c$ any [[characteristic class]], its [[homotopy fiber]]s on [[cocycle]] [[∞-groupoid]]s represent $c$-[[twisted cohomology]] (for instance [[twisted bundle]]s, [[twisted spin structure]]s, etc.).
+
+If $c$ is refined to a characteristic class $\mathbf{c}$ in [[Smooth∞Grpd]] there may exists further refinements $\hat {\mathbf{c}}$ to [[ordinary differential cohomology]]. The twisted cohomology of these _differential characteristic classes_ may be called _twisted differential structures_ . For instance _[[differential string structure]]s_ . See [below](#Examples) for more examples.
+
 
 
 ## Definition
@@ -58,10 +60,13 @@ $$
 =--
 
 ## Examples
+ {#Examples}
 
 Twisted differential $\mathbf{c}$-structures appear in various guises in the [[background gauge field]]s of  [[string theory]] application. 
 
 * Higher differential spin structures 
+
+  * [[twisted differential spin structure]]
 
   * [[differential string structure]]
 
