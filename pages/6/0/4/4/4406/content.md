@@ -1,17 +1,18 @@
 
 # Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Definition 
 
-An [[ordered field]] $F$ is **real closed** if it satisfied the following two properties: 
+An [[ordered field]] $F$ is **real closed** if it satisfies the following two properties: 
 
 * Any positive element $x \geq 0$ in $F$ has a [[square root]] in $F$; 
 
 * Any odd-degree [[polynomial]] with coefficients in $F$ has a root in $F$. 
 
-Notice that the order on a real closed field is definable from the algebraic structure: $x \leq y$ if and only if $\exists_z x + z^2 = y$. (In particular, there is a _unique_ ordering on a real closed field, defined by taking the positive elements to be precisely the nonzero squares.) Thus the category of real closed fields and order-preserving field homomorphisms is a full subcategory of the category of [[field|fields]] and field homomorphisms. 
+Notice that the order on a real closed field is definable from the algebraic structure: $x \leq y$ if and only if $\exists_z x + z^2 = y$. (In particular, there is a _unique_ ordering on a real closed field, defined by taking the positive elements to be precisely the nonzero squares.) In fact, the [[category]] of real closed fields and order-preserving field homomorphisms is a [[full subcategory]] of the category of [[fields]] and field homomorphisms. 
+
 
 ## Properties 
 
@@ -19,11 +20,11 @@ Real closed fields can be equivalently characterized by any of the following pro
 
 1. $F$ is not [[algebraically closed field|algebraically closed]], but some finite [[field extension|extension]] is. This extension is necessarily $F[\sqrt{-1}]$. See also [[fundamental theorem of algebra]]. 
 
-1. As a field, $F$ is [[elementary equivalence|elementarily equivalent]] to the field of real numbers. 
+2. As a field, $F$ is [[elementary equivalence|elementarily equivalent]] to the field of real numbers. 
 
-1. The [[intermediate value theorem]] holds for all polynomials with coefficients in $F$. 
+3. The [[intermediate value theorem]] holds for all polynomials with coefficients in $F$. 
 
-1. $F$ is an ordered field that has no ordered algebraic extension. 
+4. $F$ is an ordered field that has no ordered algebraic extension. 
 
 In fact, there is a [[completion]] of any [[ordered field]] to a real closed field, in the following sense: 
 
@@ -48,29 +49,31 @@ Finally, let $F \to R$ be any order-preserving field homomorphism to a real clos
 
 1. The [[real number]]s form a real closed field. 
 
-1. Real [[algebraic number]]s form a real closed field. 
+2. Real [[algebraic number]]s form a real closed field, which is the real closure of the ordered field of [[rational numbers]]. 
 
-1. A field of nonstandard real numbers (as in Robinson [[nonstandard analysis]]) is real closed. 
+3. A field of nonstandard real numbers (as in Robinson [[nonstandard analysis]]) is real closed. 
 
-1. [[surreal number|Surreal numbers]] form a (large) real closed field. 
+4. [[surreal number|Surreal numbers]] form a (large) real closed field. 
 
-1. If $F$ is real closed, then the field of [[Puiseux series]] over $F$ is also real closed. 
+5. If $F$ is real closed, then the field of [[Puiseux series]] over $F$ is also real closed. 
 
-1. More generally, given a real closed field $F$, the field of [[Hahn series]] over $F$ with [[valuation ring|value group]] $G$ (an ordered group) is real closed provided that $G$ is divisible. 
+6. More generally, given a real closed field $F$, the field of [[Hahn series]] over $F$ with [[valuation ring|value group]] $G$ (a linearly ordered group) is real closed provided that $G$ is [[divisible group|divisible]].
 
-1. Any [[o-minimal structure|o-minimal]] ordered ring structure $R$ is a real closed field. 
+7. Any [[o-minimal structure|o-minimal]] ordered ring structure $R$ is a real closed field. 
 
-1. Given an o-minimal ordered ring $R$, the field of [[germ]]s at infinity of definable functions $R \to R$ in any o-minimal expansion of $(R, 0, 1, +, -, \cdot, \lt)$ is real closed. (By "germ at infinity", we mean an equivalence class of functions for which $f \equiv g$ if and only if $f(x) = g(x)$ for all sufficiently large $x$.)
+8. Given an o-minimal ordered ring $R$, the field of [[germ]]s at infinity of definable functions $R \to R$ in any o-minimal expansion of $(R, 0, 1, +, -, \cdot, \lt)$ is real closed. (By "germ at infinity", we mean an equivalence class of functions for which $f \equiv g$ if and only if $f(x) = g(x)$ for all sufficiently large $x$.)
+
 
 ## Infinites and infinitesimals 
 
 Each real closed field $R$ contains a [[valuation ring|valuation]] subring $B \hookrightarrow R$ consisting of the "bounded" or archimedean elements, i.e., elements $x \in R$ such that $-n \leq x \leq n$ for some integer multiple $n$ of the identity. An element in the complement of $B$ is an **infinite** element of $R$, and the reciprocal of an infinite element is an **infinitesimal** element. The field of fractions of $B$ is clearly $R$. 
 
-We remark that any real closed field contains a copy of the field of real algebraic numbers over $\mathbb{Q}$, which we denote by $\widebar{\mathbb{Q}}_{real}$. Each of the elements of $\widebar{\mathbb{Q}}_{real}$ is archimedean. 
+We remark that any real closed field contains a copy of the field of real [[algebraic numbers]], which we denote by $\widebar{\mathbb{Q}}$. Each of the elements of $\widebar{\mathbb{Q}}$ is archimedean. 
 
-Let $B^\ast$ be the group of units of $B$. The quotient $R^\ast/B^\ast$ is the **value group** of $R$. It can be viewed as the "group of orders of infinities and infinitesimals" of $R$. If $R$ is real closed, then the value group is an ordered divisible group (divisible because we can take $n^{th}$ roots in $R$). The structure of the value group as ordered group is an important invariant of the real closed field. 
+Let $B^\ast$ be the group of units of $B$. The quotient $R^\ast/B^\ast$ is the **value group** of $R$. It can be viewed as the "group of orders of infinities and infinitesimals" of $R$. If $R$ is real closed, then the value group is a linearly ordered [[divisible group]] (divisible because we can take $n^{th}$ roots in $R$). The structure of the value group as ordered group is an important invariant of the real closed field. 
 
-In the other direction, to each ordered divisible abelian group $G$, there exists a real closed field having $G$ as its value group. For example, one may form the [[Hahn series]] over $\widebar{\mathbb{Q}}_{real}$ with value group $G$. 
+In the other direction, to each ordered divisible abelian group $G$, there exists a real closed field having $G$ as its value group. For example, one may form the [[Hahn series]] over $\widebar{\mathbb{Q}}$ with value group $G$. 
+
 
 ## References 
 
