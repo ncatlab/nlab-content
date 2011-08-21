@@ -72,11 +72,13 @@ The obstruction cocycles in $\mathbf{H}(X, \mathbf{[B}^2 \mathbb{Z}_2)$ are $\ma
 
 * [[orientation]]
 
-* [[spin structure]], **twisted spin structure**
+* [[twisted differential c-structure]]
 
-* [[string structure]], [[differential string structure]]
+  * [[spin structure]], **twisted spin structure**
 
-* [[fivebrane structure]], [[differential fivebrane structure]]
+  * [[string structure]], [[differential string structure]]
+
+  * [[fivebrane structure]], [[differential fivebrane structure]]
 
 
 ## References
@@ -93,3 +95,5 @@ The general abstract discussion given above appears as an example in
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Differential Structures]]_
 
 [[!redirects twisted spin structures]]
+
+[[!redirects twisted differential spin structures]]
