@@ -120,19 +120,8 @@ $$
 is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
 
 +-- {: .query}
-Should the last diagram rather be
-$$
-  \array{
-   W & \to& Y
-   \\
-    \downarrow && \downarrow
-   \\
-   X &\to& Z
-  }
-$$
-?
 
-To Stephen: Yes you are right. It is generally better to post such queries on the nForum as they can easily be lost when posted in the Lab.
+To Stephen: Yes you were right. It worth noting that it is generally better to post such queries on the nForum as they can easily be lost when posted in the Lab. (This query box will be deleted after a short time, as it is no longer really needed except to say thanks!)
 =--
 
 
