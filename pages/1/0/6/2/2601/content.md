@@ -28,12 +28,12 @@ Consider the "global sections" functor $\Gamma = S(1,-) \colon S\to Set$.  Well-
 
 Let $X\in S$ and suppose that $Y\subset X$ is a subset of $X$.  By assumption on $S$, it admits the coproduct $\coprod_{x\colon 1\to X} Z_x$ where $Z_x$ is $1$ if $x\in Y$ and $\emptyset$ otherwise.  But this coproduct maps to $Y$ via a bijection on global elements as before, so it is an isomorphism, and thus $Y\in S$ as well.  Hence $S$ is closed in $Set$ under subsets.  It follows that the full inclusion $S\hookrightarrow Set$ is a bijection on [[subobject]] lattices, and thus a [[logical functor]] (preserves [[power objects]]).  Finally, the hypothesis on coproducts implies that the union of an $S$-set of $S$-sets is again an $S$-set.
 
-(We have proven the axioms of a universe in a "structural" form.  We can alternately directly construct an [[inaccessible cardinal]] such that $S$ is the category of sets in $V_\kappa$.  Let $\kappa$ denote the smallest cardinal number not in $S$, it follows that $S$ consists precisely of the sets of cardinality $\lt\kappa$.  Since $S$ is a topos with a NNO, $\kappa$ must be an uncountable strong limit.  Finally, if $X\in S$ and $Y_x \in S$ for each $x\in X$, then $\coprod_{x\colon 1\to x} Y_x\in S$, showing that $\kappa$ is regular, and hence inaccessible.)
+(We have proven the axioms of a universe in a "structural" form.  We can alternately directly construct an [[inaccessible cardinal]] such that $S$ is the category of sets in $V_\kappa$.  We argue as before that $S$ is a full subcategory of $Set$, and let $\kappa$ be the smallest cardinal number not the cardinality of a set in $S$; it follows that $S$ consists precisely of the sets of cardinality $\lt\kappa$.  Since $S$ is a topos with a NNO, $\kappa$ must be an uncountable strong [[limit cardinal|limit]].  Finally, if $X\in S$ and $Y_x \in S$ for each $x\in X$, then $\coprod_{x\colon 1\to X} Y_x\in S$, showing that $\kappa$ is [[regular cardinal|regular]], and hence inaccessible.)
 =--
 
 +-- {: .un_cor}
 ###### Corollary
-$Set$ is, up to equivalence, the unique locally small and cocomplete model of ETCS, and the unique locally small and complete model of ETCS.
+$Set$ is, up to equivalence, the unique locally small and cocomplete well-pointed topos (hence the unique locally small and cocomplete model of ETCS), and the unique locally small and complete well-pointed topos (hence three unique locally small and complete model of ETCS).
 =--
 
 A more direct proof of the corollary is possible.
@@ -50,6 +50,6 @@ For surjectivity, we need to show that any map $k\colon 1\to \coprod_X 1$ is equ
 
 ## Intuitionistic Failure
 
-This theorem, and even the corollary, fail intuitionistically, as may be suspected from the use of [[excluded middle]] in their proofs.  A concrete counterexample is given by the following.
+In [[constructive mathematics]], $Set$ is not a model of $ETCS$, although of course it is a model of the intuitionistic version.  In any case, $Set$ is still a locally small, well-pointed topos, both complete and cocomplete, which is all that we need.  However, both the theorem and its corollary fail intuitionistically, as may be suspected from the use of [[excluded middle]] (or worse, the [[axiom of choice]] in the guise of the well-ordering of cardinals) in their proofs.  A concrete weak counterexample is given by the following.
 
-Let $\mathcal{U}$ be a truth value (identified with the subset $\{\star | \mathcal{U}\} \subseteq \{\star\} = 1$) such that $\not\not\mathcal{U}$ is valid and $\mathcal{U}$ is indecomposable and projective, and let $S$ be the topos $Set/\mathcal{U}$.  Then $S$ is a [[Grothendieck topos]], hence cocomplete and locally small, and the assumptions on $\mathcal{U}$ ensure that it is well-pointed, but in an intuitionistic theory they don't imply that $\mathcal{U}=\top$.
+Let $\mathcal{U}$ be a truth value (identified with the subset $\{\star \;|\; \mathcal{U}\} \subseteq \{\star\} = 1$) such that $\not\not\mathcal{U}$ is valid and $\mathcal{U}$ is [[indecomposable object|indecomposable]] and [[projective object|projective]], and let $S$ be the topos $Set/\mathcal{U}$.  Then $S$ is a [[Grothendieck topos]], hence cocomplete and locally small, and the assumptions on $\mathcal{U}$ ensure that it is well-pointed, but in an intuitionistic theory they don't imply that $\mathcal{U} = \top$.
