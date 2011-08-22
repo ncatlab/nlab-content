@@ -146,6 +146,9 @@ Discussion in the context of [[BRST-BV formalism]] is in
 
 * R. Amorim, N.R.F.Braga, R. Thibes, _Axial and gauge anomalies in the field antifield quantization of the generalized Schwinger model_ ([arXiv:hep-th/9712014](http://arxiv.org/abs/hep-th/9712014))
 
+### In finite-dimensional quantum mechanics
+
+* [[A. P. Balachandran]], Amilcar R. de Queiroz, _Mixed states from anomalies_, [arxiv/1108.3898](http://arxiv.org/abs/1108.3898)
 
 [[!redirects anomaly]]
 
