@@ -114,6 +114,9 @@ long list goes here, but for the moment there is just:
 ## Related entries ##
 
 * [[algebraic homotopy]]
+
+* [[proper homotopy theory]]
+
 * [[category of fibrant objects]]
 * [[category with weak equivalences]]
 * [[closed monoidal deformation retract]]
