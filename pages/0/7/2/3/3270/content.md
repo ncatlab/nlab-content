@@ -53,4 +53,8 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * Masahito Yamazaki, _Crystal melting and wall crossing phenomena_, Ph.D. thesis, [arxiv/1002.1709](http://arxiv.org/abs/1002.1709)
 
+* Michele Cirafici, Annamaria Sinkovics, Richard J. Szabo, _Instanton counting and wall-crossing for orbifold quivers_, [arxiv/1108.3922](http://arxiv.org/abs/1108.3922)
+
 Related entries [[BPS state]], [[D-module]], [[cluster algebra]], [[quiver]], [[representation theory]], [[Donaldson-Thomas invariant]].
+
+[[!redirects wall-crossing]]
