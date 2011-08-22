@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
 #### Differential geometry
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
@@ -16,7 +20,7 @@
 
 ## Idea
 
-An _isometry_ is a [[function]] that preserves a metric, either in the sense of a [[metric space]] or in the sense of a [[Riemannian manifold]].
+An _isometry_ is a [[function]] that preserves a [[metric]], either in the sense of a [[metric space]] or in the sense of a [[Riemannian manifold]].
 
 
 ## Metric spaces
@@ -38,5 +42,9 @@ Global isometries are the [[isomorphisms]] of metric spaces or Riemannian manifo
 ## Infinitesimal isometries
 
 see [[Killing vector field]]
+
+## Related concepts
+
+* [[isometry group]]
 
 [[!redirects isometries]]
