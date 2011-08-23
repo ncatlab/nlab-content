@@ -146,11 +146,6 @@ long list goes here, but for the moment there is just:
 * [[topology]]
 * [[weak equivalence]]
 
-+--{.query}
-_[[Tim Porter|Tim]]_ : Should someone attempt to discuss the Baues approach to Homotopy Theory somewhere?  It is closely related to the approach based on Ken Brown's cohomology stuff, so might be useful.
-
-Zoran: I am not quite sure what you mean, Baues has introduced several axiomatic formalisms. Probably you mean something called categories with cofibrations (if I recall right). The axioms are somewhat different from (the dual of) Brown's categories of fibered objects and also from Waldhausen's categories. 
-=--
 
 
 [[!redirects Homotopy Theory]]
