@@ -490,6 +490,7 @@ Conversely this means that on an arbitrary pullback diagram  $holim_D F$ can be 
 For $B$ any [[pointed object]] with point $pt \stackrel{pt_B}{\to} B$ the homotopy pullback of the point along itself is the [[loop space object]] of $B$
 
 $$
+
   \array{
     \Omega_{pt} &\to& {*}
     \\
@@ -987,7 +988,7 @@ and Homotopical Categories]]_, Mathematical Surveys and Monographs __113__
 
 An introduction is 
 
-* [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://www.uoregon.edu/~ddugger/hocolim.pdf))
+* [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://math.brown.edu/~thobel/hocolim.pdf))
  {#Dugger}
 
 A general overview via universal properties is in the 
@@ -1015,7 +1016,7 @@ A nice discussion of the expression of homotopy colimits in terms of coends is i
 
 A collection of examples and exercises is in 
 
-* [[Samuel Issacson]], _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
+* [[Samuel Isaacson]], _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
 {#Isaacson}
 
 See also 
