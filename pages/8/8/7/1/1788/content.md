@@ -4,6 +4,15 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 =--
 ***
 
+<div id="section1"></div>
+
+A link to the [[Sandbox]].
+
+***
+
+Another link to the [[Sandbox]].
+
+
 1. {: .num_enuma #first style="color: red;"} The first item
 2. {: .num_enuma #second style="font-style: italic;"} The second item
 
