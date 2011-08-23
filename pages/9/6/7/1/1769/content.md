@@ -1,3 +1,8 @@
+
+# Complete spaces
+* table of contents
+{: toc}
+
 ## Idea
 
 A space is complete (or Cauchy complete) if every sequence/net/filter that should converge really does converge.  We identify those that should converge as the _Cauchy_ sequences/nets/filters.  A space that is not complete has gaps that may be filled to form its _completion_; it is rather natural to make the space [[Hausdorff space|Hausdorff]] at the same time.
@@ -43,7 +48,14 @@ When [[Bill Lawvere]] interpreted [[metric space]]s as certain [[enriched catego
 
 
 [[!redirects complete space]]
+[[!redirects complete spaces]]
 [[!redirects Cauchy complete space]]
+[[!redirects Cauchy complete spaces]]
+[[!redirects Cauchy-complete space]]
+[[!redirects Cauchy-complete spaces]]
 [[!redirects complete Cauchy space]]
+[[!redirects complete Cauchy spaces]]
 [[!redirects complete uniform space]]
+[[!redirects complete uniform spaces]]
 [[!redirects complete metric space]]
+[[!redirects complete metric spaces]]
