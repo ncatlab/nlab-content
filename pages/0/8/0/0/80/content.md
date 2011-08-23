@@ -7,6 +7,10 @@
 
 In philosophical part of $n$Lab we discuss the higher category theory and its repercussions in philosophy. More widely, the future entries on philosophy in nLab should also contain philosophy of mathematics in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the [[history of mathematics]] are welcome. 
 
+### Nonscope
+
+There are many articles which are not philosphy, but rather essays on general mathematics, and so on, often opinion pieces on what is important and so on. That is not philosophy per se, but it may be relavent thoughts and we could link them rather at related pages, like [[opinions on development of mathematics]].  
+
 
 ## Idea of relevance of higher categories
 
