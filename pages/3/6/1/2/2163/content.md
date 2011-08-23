@@ -177,7 +177,7 @@ The [GMTW theorem](#GMTWTheorem) about the [[homotopy type]] of the cobordisms c
 
 A generalization to geometric structure on the cobordisms is discussed in
 
-* [[David Ayala]], _Geometric cobordism categories_ ([pdf](http://www.math.ku.dk/~ayala/geombord.pdf))
+* [[David Ayala]], _Geometric cobordism categories_ thesis (2009) ([pdf](http://www.math.ku.dk/~ayala/geombord.pdf))
 {#Ayala}
 
 
