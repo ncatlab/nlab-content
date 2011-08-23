@@ -45,7 +45,7 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 * [[Chern-Simons theory]]
 
-* [[instanton]]
+* [[Yang-Mills instanton]]
 
 ## References
 
