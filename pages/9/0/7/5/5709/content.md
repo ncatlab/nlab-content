@@ -142,6 +142,10 @@ Comments on this point are also in
 
 [[!redirects effective quantum field theories]]
 
+[[!redirects effective QFT]]
+[[!redirects effective QFTs]]
+
+
 [[!redirects effective field theory]]
 [[!redirects effective field theories]]
 
