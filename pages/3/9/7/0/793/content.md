@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
@@ -14,8 +18,9 @@
 =--
 
 
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
