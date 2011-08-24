@@ -489,6 +489,10 @@ A realization of the string 2-group as a [[2-group]] in finite-dimensional [[smo
 * [[Chris Schommer-Pries]], _Central Extensions of Smooth 2-Groups and a Finite-Dimensional String 2-Group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
 {#Schommer-Pries}
 
+A 2-group model which has a smoothening of the _topological_ [[string group]] in lowest degree has been given in 
+
+* [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_ ([arXiv:1104.4288](http://arxiv.org/abs/1104.4288))
+
 A discussion as an [[∞-group]] object in [[Smooth∞Grpd]] and the realization of the smooth first fractional Pontryagin class is in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
