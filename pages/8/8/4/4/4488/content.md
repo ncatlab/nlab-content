@@ -32,6 +32,8 @@ A [[cocycle]] with coefficients in this 2-groupoid is a [[connection on a 2-bund
 
 ## Definition
 
+### For strict Lie 2-algebras
+
 Consider a Lie [[strict 2-group]] $G$ corresponding to a Lie [[crossed module]] $(G_2 \stackrel{\delta}{\to} G_1)$ with action $\alpha : G_1 \to Aut(G_2)$.  Write $\mathbf{B}G$ for the corresponding [[delooping]] 2-groupoid, the one coming from the [[crossed complex]]
 
 $$
@@ -121,6 +123,91 @@ and composition is defined as follows
 
 =--
 
+### For general Lie 2-algebras
+ {#ForGeneralLie2Algebras}
+
+We consider now $\mathfrak{g}$ a general [[Lie 2-algebra]].
+
+Let $\mathfrak{g}_0$ and $\mathfrak{g}_1$ be the two vector spaces involved and let
+
+$$
+  \{t^a\} \,, \;\;\; \{b^i\}
+$$
+
+be a dual basis, respectively. The structure of a Lie 2-algebra is conveniently determined by writing out the most general [[Chevalley-Eilenberg algebra]] 
+
+$$
+  CE(\mathfrak{g}) \in cdgAlg_\mathbb{R}
+$$
+
+with these generators.
+
+We thus have
+
+$$
+  d_{CE(\mathfrak{g})} t^a = - \frac{1}{2}C^a{}_{b c} t^b \wedge t^c - r^a{}_i b^i
+$$
+
+$$
+  d_{CE(\mathfrak{g})} b^i = -\alpha^i_{a j} t^a \wedge b^j  
+    - 
+    r_{a b c} t^a \wedge t^b \wedge t^c
+  \,,
+$$
+
+for collections of structure constants $\{C^a{}_{b c}\}$ (the bracket on $\mathfrak{g}_0$) and $\{r^i_a\}$ (the differential $\mathfrak{g}_1 \to \mathgfrak{g}_0$) and $\{\alph^i{}_{a j}\}$ (the [[action]] of $\mathfrak{g}_0$ on $\mathfrak{g}_1$) and $\{r_{a b c}\}$ (the "Jacobiator" for the bracket on $\mathfrak{g}_0$).
+
+These constants are subject to constraints (the weak [[Jacobi identity]] and its higher [[coherence law]]s) which are precisely equivalent to the condition
+
+$$
+  (d_{CE(\mathfrak{g})})^2 = 0
+  \,.
+$$
+
+Over a test space $U$ a $\mathfrak{g}$-valued form datum is a morphism
+
+$$
+  \Omega^\bullet(U) \leftarrow W(\mathfrak{g}) 
+   : 
+  (A,B)
+$$
+
+from the [[Weil algebra]] $W(\mathfrak{g})$.
+
+This is given by a 1-form
+
+$$
+  A \in \Omega^1(U, \mathfrak{g}_0)
+$$
+
+and a 2-form
+
+$$
+  B \in \Omega^2(U, \mathfrak{g}_1)
+  \,.
+$$
+
+The [[curvature]] of this is $(\beta, H)$, where the 2-form component ("fake curvature") is
+
+$$
+  \beta^a = d_{dR} A^a + \frac{1}{2}C^a{}_{b c} A^b \wedge A^c
+  + r^a{}i B^i
+$$
+
+and whose 3-form component is 
+
+$$
+  H^i
+     =
+    d_{dR} B^i 
+    +
+   \alpha^i{}_{a j} A^a \wedge B^j
+   +
+   t_{a b c} A^a \wedge A^b \wedge A^c
+  \,.
+$$
+
+
 ## Properties
 
 +-- {: .un_def }
@@ -182,7 +269,7 @@ $$
   Hom_{2Grpd(Diffeol)}( C(\{U_i\}), \bar \mathbf{B}G)
 $$
 
-is equivalent to the 2-groupoid of $G$-[[principal 2-bundle]]s with connection.
+is equivalent to the [[2-groupoid]] of $G$-[[principal 2-bundle]]s with [[connection on a 2-bundle|2-connection]].
 
 =--
 
