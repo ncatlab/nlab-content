@@ -24,7 +24,9 @@ In [[quantum field theory]] what has come to be known as the _holographic princi
 
 ### For higher Chern-Simons/self dual gauge theory
 
-The [[phase space]] of [[higher dimensional Chern-Simons theory]] in dimension $4k+3$ on $\Sigma \times \mathbb{R}$ can be identified with the space of flat $2k+1$-forms on $\Sigma$. The [[presymplectic form]] on this space is given by the pairing
+We indicate why [[higher dimensional Chern-Simons theory]] is -- if holographically related to anything -- holographically related to [[self-dual higher gauge theory]].
+
+The [[phase space]] of [[higher dimensional Chern-Simons theory]] in [[dimension]] $4k+3$ on $\Sigma \times \mathbb{R}$ can be identified with the space of [[curvature|flat]] $2k+1$-forms on $\Sigma$. The [[presymplectic form]] on this space is given by the pairing
 
 $$
   (\delta B_1, \delta B_2) \mapsto
@@ -32,7 +34,7 @@ $$
   \,.
 $$
 
-The [[geometric quantization]] of the theory requires that we choose a polarization of this (split the space of forms into "coordinates" and their "canonical momenta"). 
+The [[geometric quantization]] of the theory requires that we choose a polarization of the [[complexification]] of this space (split the space of forms into "coordinates" and their "canonical momenta"). 
 
 One way to achieve this is to choose a [[conformal structure]] on $\Sigma$. The corresponding [[Hodge star operator]]
 
@@ -40,9 +42,66 @@ $$
   \star : \Omega^{2k+1}(\Sigma) \to \Omega^{2k+1}(\Sigma)
 $$
 
-provides the polarization by splitting into self-dual and anti-self-dual forms.
+provides the polarization by splitting into self-dual and anti-self-dual forms: 
 
-Therefore a [[state]] of higher Chern-Simons theory on $\Sigma$ may locally be thought of as a function of the self-dual forms on $\Sigma$. Under holography this is identified with the [[correlator]] of a [[self-dual higher gauge theory]] on $\Sigma$.
+notice that (by the formulas at [[Hodge star operator]]) we have on mid-dimensional forms
+
+$$
+  \star \star B = (-1)^{(2k+1)(4k+3)} B
+  = - B
+  \,.
+$$
+
+Therefore it provides a [[complex structure]] on $\Omega^{2k+1}(\Sigma) \otimes \mathbb{C}$.
+
+We see that the symplectic structure on the space of forms can equivalently be rewritten as
+
+$$
+  \begin{aligned}
+    \int_X B_1 \wedge B_2
+    & = - \int_X B_1 \wedge \star \star B_2 
+  \end{aligned}
+  \,.
+$$
+
+Here on the right now the [[Hodge star operator|Hodge inner product]] of $B_1$ with $\star B_2$ appears, which is invariant under applying the Hodge star to both arguments.
+
+We then decompose $\Omega^{2k+1}(\Sigma)$ into the $\pm i$-[[eigenspace]]s of $\star$: say $B \in \Omega^{2k+1}(\Sigma)$ is  _imaginary self-dual_ if
+
+$$
+  \star B = i B
+$$
+
+and _imaginary anti-self-dual_ if
+
+$$
+  \star B = - i B
+  \,.
+$$
+
+Then for imaginary self-dual $B_1$ and $B_2$ we find that the symplectic pairing is
+
+$$
+  \begin{aligned}
+    (B_1, B_2)
+    &=
+    -i \int_X B_1 \wedge \star B_2
+    \\
+    & =
+    -i \int_X (\star B_1) \wedge \star (\star B_2)
+    \\
+    & =    
+    +i \int_X B_1 \wedge \star B_2
+  \end{aligned} 
+  \,.
+$$
+
+Therefore indeed the symplectic pairing vanishes on the self-dual and on the anti-selfdual forms. Evidently these provide a decomposition into [[Lagrangian subspace]]s.
+
+
+Therefore a [[state]] of higher Chern-Simons theory on $\Sigma$ may locally be thought of as a function of the self-dual forms on $\Sigma$. Under holography this is (therefore) identified with the [[correlator]] of a [[self-dual higher gauge theory]] on $\Sigma$.
+
+(...)
 
 ## Examples
 
