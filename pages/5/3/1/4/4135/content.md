@@ -1,41 +1,40 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
-
+{: toc}
 
 ## Idea
 
+Given a finite dimensional (pseudo)-[[Riemannian manifold]] $(X,g)$, the _Hodge star operator_ "completes" a $k$-[[differential form]] to the [[volume form]] of $(X,g)$. 
 
-Given a finite dimensional (pseudo-)Euclidean [[vector space]] $V$, the _Hodge star operator_ "completes" a $k$-[[differential form]] to the [[volume form]] of $V$. 
 
 ## Definition
 
-Let $(V,g)$ be an $n$-dimensional real [[vector space]] endowed with a nondegenerate symmetric [[bilinear form]] $g$. The **Hodge star operator** is the linear operator $\wedge^k V^*\to \wedge^{n-k}V^*$ defined by the identity
+Let $(X,g)$ be an $n$-dimensional [[smooth manifold]] $X$ endowed with a nondegenerate symmetric [[bilinear form]] $g$.  The **Hodge star operator** is the linear operator ${*}\colon \Omega^k X \to \Omega^{n-k} X$ defined by the identity
 
 $$
-\alpha\wedge *\beta= (\alpha|\beta)_g vol_g, \qquad \forall\alpha,\beta\in \wedge^k V^*,
+\alpha \wedge *\beta = (\alpha \mid \beta) vol, \qquad \forall \alpha,\beta \in \bigwedge^k X,
 $$
 
-where $(\,|\,)$ is the nondegenerate symmetric bilinear form induced by $g$ on $\wedge^k V^*$ and $vol_g \in \wedge^n V^*$ is the [[volume form]] induced by $g$.
+where $(\mid)$ is the nondegenerate symmetric bilinear form induced by $g$ on $\Omega^k X$ and $vol \in \Omega^n X$ is the [[volume form]] induced by $g$.
 
-If $e_1,\dots, e_n$ is a basis of $V$ and $e^1,\dots, e^n$ is the dual basis, so that $\alpha=\frac{1}{k!}\alpha_{i_1\dots i_k}e^{i_1}\wedge\cdots \wedge e^{i_k}$, then
+If $e_1,\dots,e_n$ is a [[local frame|local basis]] on $X$ and $e^1,\dots,e^n$ is the [[dual basis]], so that $\alpha = \frac{1}{k!} \alpha_{i_1,\dots,i_k} e^{i_1} \wedge \cdots \wedge e^{i_k}$, then
 
 $$
-*\alpha=\frac{1}{k!(n-k)!}\epsilon_{i_1,\dots, i_n}\sqrt{det(g)} \alpha_{j_1\dots j_k} g^{i_1 j_1}\cdots g^{i_k j_k} e^{i_{k+1}}\wedge\cdots\wedge e^{i_n},
-$$ 
+*\alpha = \frac{1}{k!(n-k)!} \epsilon_{i_1,\dots,i_n} \sqrt{|det(g)|} \alpha_{j_1,\dots,j_k} g^{i_1,j_1} \cdots g^{i_k,j_k} e^{i_{k+1}} \wedge \cdots \wedge e^{i_n},
+$$
 
-where $\epsilon_{i_1,\dots,i_n}$ is [[signature of a permutation|sign]] of the [[permutation]] $(1,2,\dots,n)\mapsto (i_1,i_2,\dots, i_n)$.
+where $\epsilon_{i_1,\dots,i_n}$ is the [[signature of a permutation|sign]] of the [[permutation]] $(1,2,\dots,n)\mapsto (i_1,i_2,\dots,i_n)$ and $det(g)$ is the [[determinant]] of $g$ in the local basis.
+
 
 ## Properties
 
-### General
+Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\lambda \in \Omega^k(X)$. Then
 
-Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $d$ and let $\omega,\lambda \in \Omega^p(X)$. Then
+* $*(*\omega) = (-1)^{k(n+1)} \Omega$;
 
-* $\star (\star \omega) = (-1)^{p(d+1)} \Omega$;
+* $(*\omega | *\lambda) = (\omega | \lambda)$.
 
-* $(\star \omega, \star \lambda) = (\omega, \lambda)$.
 
 ## References
 
@@ -45,4 +44,5 @@ Some useful basic formulas are listed in
 
 
 [[!redirects Hodge star]]
+[[!redirects Hodge star operator]]
 [[!redirects Hodge star operators]]
