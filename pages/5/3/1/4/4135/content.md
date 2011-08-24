@@ -31,7 +31,7 @@ where $\epsilon_{i_1,\dots,i_n}$ is the [[signature of a permutation|sign]] of t
 
 Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\lambda \in \Omega^k(X)$. Then
 
-* $*(*\omega) = (-1)^{k(n+1)} \Omega$;
+* $*(*\omega) = (-1)^{k(n+1)} \omega$;
 
 * $(*\omega | *\lambda) = (\omega | \lambda)$.
 
