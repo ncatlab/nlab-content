@@ -93,3 +93,5 @@ The [[formal groupoid]] version of symplectic groupoids is discussed in
 
 * [[Alberto Cattaneo]], Benoit Dherin, [[Giovanni Felder]], _Formal symplectic groupoid_ ([arXiv:0312380](http://arxiv.org/abs/math/0312380))
  {#CattaneoDherinFelder}
+
+[[!redirects symplectic Lie groupoid]]
