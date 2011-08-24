@@ -13,22 +13,11 @@
 =--
 =--
 
-* [[groupoid of Lie-algebra valued forms]]
 
-* [[2-groupoid of Lie 2-algebra valued forms]]
-
-* **3-groupoid of Lie 3-algebra valued forms**
-
-* [[∞-groupoid of ∞-Lie-algebra valued forms]]
-
-
-***
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
-
-
 
 
 
@@ -41,6 +30,17 @@ This can be understood as the 3-groupoid of _trivial_ $G$-[[principal ∞-bundle
 Regarded as a presheaf of 3-groupoids over all suitable manifolds $U$, this is a non-concrete [[∞-Lie groupoid|3-Lie groupoid]]. 
 
 A [[cocycle]] with coefficients in this 3-groupoid is a [[connection on a 3-bundle]].
+
+
+## Related concepts
+
+* [[groupoid of Lie-algebra valued forms]]
+
+* [[2-groupoid of Lie 2-algebra valued forms]]
+
+* **3-groupoid of Lie 3-algebra valued forms**
+
+* [[∞-groupoid of ∞-Lie-algebra valued forms]]
 
 
 ## References
