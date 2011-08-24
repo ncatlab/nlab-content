@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include gravity contents]]
 =--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
@@ -22,10 +26,15 @@ This entry is about the textbook
 
 * [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _Supergravity and Superstrings - A Geometric Perspective_
 
-on [[supergravity]] with an emphasis on the [[D'Auria-Fre formulation of supergravity]].
+on [[supergravity]] and [[string theory]] with an emphasis on the [[D'Auria-Fre formulation of supergravity]].
 
 At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library may have a copy.
 
+## Description
+
+  This book focuses on the discussion of [[supergravity]]-aspects of [[string theory]] from the point of view of the [[D'Auria-Fre formulation of supergravity]]. Therefore, while far, far from being written in the style of a mathematical treatise, this book stands out as making a consistent proposal for what the central ingredients of a mathematical formalization might be: as explained at the above link, secretly this book is all about describing supergravity in terms of [[connection on an infinity-bundle|infinity-connections]] with values in [[super L-infinity algebra]]s such as the [[supergravity Lie 3-algebra]].
+
+See also [[higher category theory and physics]].
 
 ## Further references
 
