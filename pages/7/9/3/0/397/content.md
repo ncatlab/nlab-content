@@ -1,4 +1,3 @@
-
 Following is a list of people who have contributed content to the nLab (or at least who have claimed credit for content or who have been impersonated by people who contributed content).  Some people have also contributed [[AnonymousCoward|anonymously]] (including as a [[lab elf]] or [[admin|administrator]]).  See also [category: people](http://ncatlab.org/nlab/list/people) and [Authors](http://ncatlab.org/nlab/authors); the former includes both contributors and others, but only people with a page in the Lab; while the latter also displays a list of all pages that each author has contributed to, under the names that they signed, as well as names under which the Lab has been spammed and names which have been left off this list through oversight.
 
 * [[Aaron F]]
@@ -133,6 +132,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Peter C Marks]]
 * [[Peter LeFanu Lumsdaine]]
 * [[Peter Selinger]]
+* [[phx]]
 * [[PrimeDeGold]]
 * [[Rafael Borowiecki]]
 * [[Rasmus Bentmann]]
