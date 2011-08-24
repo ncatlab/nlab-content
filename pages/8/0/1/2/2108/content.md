@@ -28,17 +28,7 @@ The basic idea is to let the quantum Hilbert space of states be _half_ the space
 
 In a long term project [[Alan Weinstein]] and many of his students have followed the idea that the true story behind this prescription crucially involves [[Lie groupoid]]s.
 
-This idea has been developed quite far. A good reference is the work of [[Eli Hawkins]]
-
-* Eli Hawkins, _A Groupoid Approach to Quantization_ ([arXiv](http://arxiv.org/abs/math.SG/0612363))
-
-Blog discussion of this is at
-
-* [Eli Hawkins on Geometric Quantization, I](http://golem.ph.utexas.edu/category/2008/06/eli_hawkins_on_geometric_quant.html)
-
-* [Eli Hawkins on Geometric Quantization, II](http://golem.ph.utexas.edu/category/2008/06/eli_hawkins_on_geometric_quant_1.html)
-
-* [Landsman on Quantization of Poisson Algebras Associated to Lie Algebroids](http://golem.ph.utexas.edu/category/2008/06/landsmanon_quantization_of_poi.html)
+This idea has been developed quite far. A good reference is ([Hawkins06]{#Hawkins})
 
 
 ## Overview 
@@ -148,8 +138,21 @@ One can also consider the theory of geometric quantization of just [[Poisson man
 
 ## References
 
-many references should go here. 
-
 The above "Overview" and "Basic Jargon" sections are taken from 
 
 * [[John Baez]], _Geometric Quantization_ ([web](http://math.ucr.edu/home/baez/quantization.html))
+
+References on the [[symplectic Lie groupoid]]-approach to geometric quantization are
+
+* Eli Hawkins, _A Groupoid Approach to Quantization_ ([arXiv](http://arxiv.org/abs/math.SG/0612363))
+ {#Hawkins}
+
+Blog discussion of this is at
+
+* [Eli Hawkins on Geometric Quantization, I](http://golem.ph.utexas.edu/category/2008/06/eli_hawkins_on_geometric_quant.html)
+
+* [Eli Hawkins on Geometric Quantization, II](http://golem.ph.utexas.edu/category/2008/06/eli_hawkins_on_geometric_quant_1.html)
+
+* [Landsman on Quantization of Poisson Algebras Associated to Lie Algebroids](http://golem.ph.utexas.edu/category/2008/06/landsmanon_quantization_of_poi.html)
+
+
