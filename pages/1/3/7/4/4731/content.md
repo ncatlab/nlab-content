@@ -144,11 +144,15 @@ We spell out the data of a connection on a 2-bundle over a [[smooth manifold]] $
 
 * The [[worldvolume]] theory of the [[fivebrane]] is expected to support a [[self-dual higher gauge theory]] whose fields are 2-connections (see _[Self-dual 2-connections](http://ncatlab.org/nlab/show/NS5-brane#SelfDual2Connections)_ there).
 
+* A connection on a [[twisted vector bundle]] is naturally a 2-connection.
+
 ## Related concepts
 
 * [[connection on a bundle]]
 
 * **connection on a 2-bundle** / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
+
+  * [[2-groupoid of Lie 2-algebra valued forms]]
 
 * [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
 
@@ -198,3 +202,8 @@ See also [[connection on an infinity-bundle]] for the general theory.
 
 [[!redirects connections on a 2-bundle]]
 [[!redirects connections on 2-bundles]]
+
+[[!redirects 2-connection]]
+[[!redirects 2-connections]]
+
+[[!redirects connectin on a principal 2-bundle]]
