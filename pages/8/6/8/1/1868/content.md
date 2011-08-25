@@ -422,3 +422,6 @@ There the twisted cocycle equation discussed above appears on the bottom of page
 
 
 [[!redirects twisted bundles]]
+
+[[!redirects twisted vector bundle]]
+[[!redirects twisted vector bundles]]
