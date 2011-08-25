@@ -10,8 +10,7 @@ Given a finite dimensional (pseudo)-[[Riemannian manifold]] $(X,g)$, the _Hodge 
 
 ## Definition
 
-Let $(X,g)$ be an [[orientation|oriented]] $n$-[[dimension]]al [[smooth manifold]] $X$ endowed with a [[Riemannian metric]] $g$.  Write 
-$\Omega^\bullet(X)$ for the [[graded vector space]] of [[differential forms]] on $X$.
+Let $(X,g)$ be an [[orientation|oriented]] $n$-[[dimension]]al [[smooth manifold]] $X$ endowed with a (pseudo)-[[Riemannian metric]] $g$.  For $0 \leq k \leq n$, write $\Omega^k(X)$ for the [[vector space]] of $k$-[[differential forms|forms]] on $X$.
 
 The **Hodge star operator** is the linear operator 
 
@@ -45,8 +44,7 @@ $$
 where $\epsilon_{i_1,\dots,i_n}$ is the [[signature of a permutation|sign]] of the [[permutation]] $(1,2,\dots,n)\mapsto (i_1,i_2,\dots,i_n)$ and $det(g)$ is the [[determinant]] of $g$ in the local basis.
 
 
-
-### Basic properties
+### Basis-independent formulas
 
 Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\lambda \in \Omega^k(X)$. Then
 
@@ -57,11 +55,9 @@ Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\l
 * $*1 = vol$.
 
 
-
-
 ## Generalisations
 
-The [[Riemannian metric|metric]] $g$ is used in two places in the specification of the Hodge operator: in the inner product on forms and in the volume form.  If $X$ is equipped only with a [[volume form]] (not necessarily coming from a metric), then the Hodge operator still takes $k$-forms to $(n-k)$-[[multivector field|vector fields]].  If the manifold is not oriented, then the metric only gives a [[volume pseudoform]], but the Hodge operator still takes $k$-forms to $(n-k)$-pseudoforms.  Finally, if $X$ is equipped with only a volume pseudoform (which is equivalent to an [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] on $X$), then the Hodge operator takes $k$-forms to $(n-k)$-pseudovector fields.  (Of course, in every case, one might apply the operator to pseudoforms or multivector fields to begin with.)
+The [[Riemannian metric|metric]] $g$ is used in two places in the specification of the Hodge operator: in the inner product on forms and in the volume form.  If $X$ is equipped only with a [[volume form]] (not necessarily coming from a metric), then the Hodge operator still takes $k$-forms to $(n-k)$-[[multivector field|vector fields]].  If the manifold is not oriented, then the metric only gives a [[volume pseudoform]], but the Hodge operator still takes $k$-forms to $(n-k)$-[[pseudoforms]].  Finally, if $X$ is equipped with only a volume pseudoform (which is equivalent to an [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] on $X$), then the Hodge operator takes $k$-forms to $(n-k)$-pseudovector fields.  (Of course, in every case, one might apply the operator to pseudoforms or multivector fields to begin with.)
 
 
 ## References
