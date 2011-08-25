@@ -21,7 +21,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -157,6 +157,17 @@ The notions of [[Lie group]], [[Lie algebra]], [[principal bundle]] and all the 
 There is a [[noncommutative geometry|noncommutative]] analogue discussed in ([AlekseevMeinrenken2000](AlekseevMeinrenken)).
 .
 
+## Examples and applications
+
+* [[de Rham theorem]]
+
+* [[Gauss-Bonnet theorem]]
+
+* [[differential string structure]]
+
+* [[differential fivebrane structure]]
+
+
 ## History {#History}
 
 > (following notes provided by [[Jim Stasheff]])
@@ -260,6 +271,10 @@ A classical textbook reference is
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
+A review of much of the theory and comments on applications to [[elliptic genus|elliptic genera]] is in 
+
+* Fei Han, _Chern-Weil theory and some results on classic genera_ ([pdf](http://math.berkeley.edu/~alanw/240papers03/han.pdf))
+
 
 Some standard monographs are
 
@@ -273,6 +288,11 @@ Some standard monographs are
 * [[Raoul Bott|R. Bott]], L. W. Tu, _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
 
 * V. Guillemin, S. Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, 1999.
+
+Lecture notes with an eye on [[Morse theory]] in terms of [[supersymmetric quantum mechanics]] are in
+
+* Weiping Zhang, _Lectures on Chern-Weil theory and Witten deformations_ , 	Nankai Tracts in Mathematics - Vol. 4  ([web](http://www.worldscibooks.com/mathematics/4756.html))
+
 
 Chern-Weil theory in the context of noncommutative geometry is discussed in
 
