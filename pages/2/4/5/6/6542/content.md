@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Euler class_ is a [[characteristic class]] of the [[special orthogonal group]], hence of [[oriented]] real [[vector bundle]]s. 
+
+The Euler class of the [[tangent bundle]] of a [[manifold]] is its [[Euler characteristic]].
+
+## References
+
+* Robert Brown, _On the Lefschetz number and the Euler class_  Transactions of the AMS, Vol. 118, (1965)  ([JSTOR](http://www.jstor.org/pss/1993952))
+
+* Solomon Jekel, _A simplicial formula and bound for the Euler class_ Israel Journal of Mathematics
+Volume 66, Numbers 1-3, 247-259 (1989)
+
+[[!redirects Euler classes]]
