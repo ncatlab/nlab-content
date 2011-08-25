@@ -20,7 +20,7 @@ It is usually defined as a linear automorphism of the [[Schwarz space]] $S(\math
 There is also a unitary operator on $L_2(\mathbb{R},d x)$ which when restricted to $L_2(\mathbb{R},d x)\cap L_1(\mathbb{R},dx)$ agrees with the Fourier transform. 
 
 The study of the Fourier transform and its generalizations is the main subject of [[harmonic analysis]]. 
-For noncommutative topological groups, instead of continuous characters one should consider [[irreducible representation|irreducible]] unitary [[representation]]s, which makes the subject much more difficult. There are also generalizations in [[noncommutative geometry]].  
+For noncommutative topological groups, instead of continuous characters one should consider [[irreducible representation|irreducible]] unitary [[representation]]s, which makes the subject much more difficult. There are also generalizations in [[noncommutative geometry]], see [[quantum group Fourier transform]].   
 
 
 [[!redirects Fourier series]]
