@@ -360,6 +360,10 @@ However, by applying some standard apparent "tricks" on non-convergent series, o
 
 For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic may also be given by [[integration]] of [[infinitesimal object|infinitesimal]] data: this is the statement of the higher dimensional [[Gauss-Bonnet theorem]].
 
+## Related concepts
+
+* [[Euler class]]
+
 ## References
 
 A standard textbook reference for topological Euler characteristics is page p. 156 and onwards in
