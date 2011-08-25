@@ -56,7 +56,7 @@ The [[object]]s of $C$ we sometimes call [[space]]s. Examples to keep in mind ar
 +-- {: .un_defn}
 ###### Definition
 
-A left **$G$-torsor** over a [[group]] $G$ is an [[inhabited object]] $P$ equipped with a $G$-[[action] $\rho: G \times P \to P$ (subject to the usual laws for actions) such that the map 
+A left **$G$-torsor** over a [[group]] $G$ is an [[inhabited object]] $P$ equipped with a $G$-[[action]], $\rho: G \times P \to P$ (subject to the usual laws for actions) such that the map 
 
 $$\langle \rho, \pi_2 \rangle: G \times P \to P \times P$$ 
 
