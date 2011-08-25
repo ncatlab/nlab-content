@@ -1,4 +1,4 @@
-Let $k$ be a field, $H$ a $k$-bialgebra and $H^*$ a dual bialgebra with duality $\langle, \rangle : H\otimes H^*\to k$. The __left coregular action__ is a [[Hopf action]] of $H$ on $H^*$ given by
+Let $k$ be a field, $H$ a $k$-bialgebra and $H^*$ a [[dual bialgebra]] with duality $\langle, \rangle : H\otimes H^*\to k$. The __left coregular action__ is a [[Hopf action]] of $H$ on $H^*$ given by
 
 $$
 (h,\phi) \mapsto R_h(\phi) := \phi_{(1)} \langle h, \phi_{(2)}\rangle 
