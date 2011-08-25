@@ -1,8 +1,8 @@
 __Quantum group Fourier transform__ refers to several variants of Fourier transforms attached to Hopf algebras or their analytic versions. 
 
-The usual Fourier transform is between functions on locally compact abelian group $G$ and functions on its Pontrjagin dual locally compact abelian group $\hat{G}$ (the group of continuous characters on $G$ with the topology of uniform convergence on compact sets), cf. wikipedia, [Pontrjagin duality](http://en.wikipedia.org/wiki/Pontryagin_duality). 
+The usual Fourier transform is between functions on locally compact abelian group $G$ and functions on its [[Pontrjagin dual]] locally compact abelian group $\hat{G}$ (the group of continuous characters on $G$ with the topology of uniform convergence on compact sets), cf. wikipedia, [Pontrjagin duality](http://en.wikipedia.org/wiki/Pontryagin_duality). 
 
-In noncommutative case, the role of Pontrjagin duality is played by a version of Tannaka-Krein duality. 
+In noncommutative case, the role of Pontrjagin duality is played by a version of [[Tannaka-Krein theorem|Tannaka-Krein duality]]. 
 
 To avoid analytic details for starters, and still to introduce elements of the general story, one can look at the case when $G$ is finite. Then, over a field $k$, the group Hopf algebra $k \hat{G}$ is isomorphic with the [[dual Hopf algebra]] $(k G)^*$ of the group Hopf algebra $k G$ which is itself isomorphic as a Hopf algebra to the function algebra $k(G)$. The composition is giving the Fourier transform $k \hat{G}\cong k(G)$, which is a linear map from the convolution algebra of $G$ to the function algebra on $G$. In such a situation one has a discrete version of Haar measure. Define 
 
