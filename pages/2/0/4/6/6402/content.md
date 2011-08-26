@@ -135,6 +135,8 @@ More in detail: this is a long collection of (in parts) long lectures by many to
 
 * [[Killing spinor]]
 
+* [[gravity]], [[Kalb-Ramond field]], [[dilaton]]
+
 ##### Lecture 7. Free superstrings
 
 * [[type II string theory]]
