@@ -28,12 +28,18 @@ Consider the "global sections" functor $\Gamma = S(1,-) \colon S\to Set$.  Well-
 
 Let $X\in S$ and suppose that $Y\subset X$ is a subset of $X$.  By assumption on $S$, it admits the coproduct $\coprod_{x\colon 1\to X} Z_x$ where $Z_x$ is $1$ if $x\in Y$ and $\emptyset$ otherwise.  But this coproduct maps to $Y$ via a bijection on global elements as before, so it is an isomorphism, and thus $Y\in S$ as well.  Hence $S$ is closed in $Set$ under subsets.  It follows that the full inclusion $S\hookrightarrow Set$ is a bijection on [[subobject]] lattices, and thus a [[logical functor]] (preserves [[power objects]]).  Finally, the hypothesis on coproducts implies that the union of an $S$-set of $S$-sets is again an $S$-set.
 
+If $S$ is essentially small, then these properties imply that it must be a Grothendieck universe.  If $S$ is large, then it contains sets of arbitrarily large cardinality, hence (by closure under subsets) it contains sets of all cardinalities---thus it is all of $Set$.
+
 (We have proven the axioms of a universe in a "structural" form.  We can alternately directly construct an [[inaccessible cardinal]] such that $S$ is the category of sets in $V_\kappa$.  We argue as before that $S$ is a full subcategory of $Set$, and let $\kappa$ be the smallest cardinal number not the cardinality of a set in $S$; it follows that $S$ consists precisely of the sets of cardinality $\lt\kappa$.  Since $S$ is a topos with a NNO, $\kappa$ must be an uncountable strong [[limit cardinal|limit]].  Finally, if $X\in S$ and $Y_x \in S$ for each $x\in X$, then $\coprod_{x\colon 1\to X} Y_x\in S$, showing that $\kappa$ is [[regular cardinal|regular]], and hence inaccessible.)
 =--
 
 +-- {: .un_cor}
 ###### Corollary
 $Set$ is, up to equivalence, the unique locally small and cocomplete well-pointed topos (hence the unique locally small and cocomplete model of ETCS), and the unique locally small and complete well-pointed topos (hence three unique locally small and complete model of ETCS).
+=--
++-- {: .proof}
+###### Proof
+Since the category of sets in some Grothendieck universe does not admit all small coproducts (for instance, not those of the size of the universe itself), if any of the equivalent statements the theorem hold for some cocomplete topos, that topos must be all of Set.
 =--
 
 A more direct proof of the corollary is possible.
@@ -48,8 +54,16 @@ For surjectivity, we need to show that any map $k\colon 1\to \coprod_X 1$ is equ
 =--
 
 
-## Intuitionistic Failure
+## In Constructive/Intuitionistic Mathematics
 
-In [[constructive mathematics]], $Set$ is not a model of $ETCS$, although of course it is a model of the intuitionistic version.  In any case, $Set$ is still a locally small, well-pointed topos, both complete and cocomplete, which is all that we need.  However, both the theorem and its corollary fail intuitionistically, as may be suspected from the use of [[excluded middle]] (or worse, the [[axiom of choice]] in the guise of the well-ordering of cardinals) in their proofs.  A concrete weak counterexample is given by the following.
+In [[constructive mathematics]], $Set$ is not a model of $ETCS$, but it is a model of the [[IETCS|intuitionistic version]] thereof -- that is, it is a (constructively) well-pointed topos with a NNO.  It is also locally small, complete and cocomplete.
+
+However, the above theorem and corollary both fail intuitionistically, at least as stated above.  The proof of the theorem goes through up to the point where we identify $S$ with a full subcategory of $Set$.  The next paragraph, however, proves only that $S$ is closed under indexed unions and [[detachable subsets]] (more precisely, under subsets whose [[characteristic function]] lands in the set of truth values belonging to $S$ --- whereas for arbitrary $S$, the only truth values we can be sure belong to $S$ are "true" and "false").
+
+Depending on how we choose to define "Grothendieck universe" intuitionistically, this may imply that if $S$ is essentially small then it is a Grothendieck universe.  However, it definitely does *not* follow intuitionistically that if $S$ is large, it must be all of $Set$; the argument for this in the classical case implicitly uses the [[axiom of choice]] in the guise of the [[well-ordering]] (or at least [[total ordering]]) of [[cardinal numbers]].
+
+In particular, the corollary fails to hold intuitionistically.  A concrete [[weak counterexample]] (which can be made into a strong counterexample by working internally to some topos) is given by the following.
 
 Let $\mathcal{U}$ be a truth value (identified with the subset $\{\star \;|\; \mathcal{U}\} \subseteq \{\star\} = 1$) such that $\not\not\mathcal{U}$ is valid and $\mathcal{U}$ is [[indecomposable object|indecomposable]] and [[projective object|projective]], and let $S$ be the topos $Set/\mathcal{U}$.  Then $S$ is a [[Grothendieck topos]], hence cocomplete and locally small, and the assumptions on $\mathcal{U}$ ensure that it is well-pointed, but in an intuitionistic theory they don't imply that $\mathcal{U} = \top$.
+
+Note that in this example, the "global sections" functor $S\to Set$ is *not* the forgetful functor $Set/\mathcal{U} \to Set$ (which doesn't even preserve the terminal object), but the [[exponential]] functor $\Pi_U = Hom(U,-)$.  This is the [[direct image functor]] in the [[geometric morphism]] $Set/\mathcal{U} \to Set$, whereas the obvious forgetful functor is the left adjoint to the inverse image functor that exhibits $S$ as a [[locally connected topos]].
