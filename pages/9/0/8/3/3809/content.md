@@ -7,3 +7,5 @@
 * Terence Tao's blog: [What's new](http://terrytao.wordpress.com/)
 
 category: people
+
+[[!redirects Terry Tao]]
