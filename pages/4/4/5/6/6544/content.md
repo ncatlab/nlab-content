@@ -3,7 +3,7 @@
 * table of contents
 {: toc}
 
-##Idea
+## Idea
 
 > To understand recursion, one must first understand recursion.
 > 
@@ -13,57 +13,68 @@ Joke as it may be, the quote above is very nearly the truth. The missing ingredi
 
 Frequently the domain of interest is the [[natural numbers]], or more generally an [[induction|inductive structure]]. In the former case there is a rich theory regarding the functions which can or cannot be recursively defined: this is [[computability theory]] and has deep connections with the logic of [[Peano arithmetic]].
 
-##Examples
 
-**Example.** In the theory of Peano arithmetic, we define $x + y$ recursively in terms of the successor operation $s$ as follows:
+## Examples
+
++-- {: .un_example}
+###### Example
+
+In the theory of Peano arithmetic, we define $x + y$ recursively in terms of the successor operation $s$ as follows:
 
 1. $x + 0 = x$
-1. $x + s(y) = s(x + y)$
+2. $x + s(y) = s(x + y)$
 
 The definition above is taken as axiomatic in Peano arithmetic. More generally, given a (parametrizable) [[natural numbers object]] $\mathbb{N}$, its universal property guarantees that there is a unique (!) map $\mathbb{N} \times \mathbb{N} \to \mathbb{N}$ with the above properties.
+=--
 
-##Recursion theorem
-###In classical mathematics
+
+## Recursion theorem
+
+### In general
 
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $X$, $Y$, and $Z$ be [[set|sets]], and suppose $\rightsquigarrow$ is a [[well-founded relation]] on $X$. Let $h : X \times Y \times \mathcal{P}(Z) \to Z$ be a given function. Then, there is a unique function $f : X \to Z$ satisfying
+Let $X$, $Y$, and $Z$ be [[set|sets]], and suppose $\rightsquigarrow$ is a [[well-founded relation]] on $X$. Let $h\colon X \times Y \times \mathcal{P}(Z) \to Z$ be a given function. Then, there is a unique function $f\colon X \to Z$ satisfying
 $$f (x', y) = h (x', y, S)$$
 for all $y$ in $Y$, where
 $$S = \{ z \in Z : \exists x . \, ( x \rightsquigarrow x' \wedge z = f (x, y) ) \}$$
-
 =--
 
 +-- {: .proof}
 ###### Proof
 
 By the principle of well-founded induction. (Details to be added.)
-
 =--
 
-###For a natural numbers object
+
+### For a natural numbers object
 
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $\mathbb{N}$ be a (parametrizable) [[natural numbers object]] in a [[category]] with finite products, with zero $0 : 1 \to \mathbb{N}$ and successor $s : \mathbb{N} \to \mathbb{N}$. For any morphisms $f_0 : Y \to Z$ and $h : \mathbb{N} \times Y \times Z \to Z$, there is a unique morphism $f : \mathbb{N} \times Y \to Z$ such that
+Let $\mathbb{N}$ be a (parametrizable) [[natural numbers object]] in a [[cartesian monoidal category|category with finite products]], with zero $0\colon 1 \to \mathbb{N}$ and successor $s\colon \mathbb{N} \to \mathbb{N}$. For any morphisms $f_0\colon Y \to Z$ and $h\colon \mathbb{N} \times Y \times Z \to Z$, there is a unique morphism $f\colon \mathbb{N} \times Y \to Z$ such that
 $$f(0, -) = f_0$$
 and
 $$f(s(x), y) = h(s(x), y, f(x, y))$$
-where $x : \mathbb{N} \times Y \to \mathbb{N}$ is the first projection and $y : \mathbb{N} \times Y \to Y$ is the second projection.
-
+where $x\colon \mathbb{N} \times Y \to \mathbb{N}$ is the first projection and $y\colon \mathbb{N} \times Y \to Y$ is the second projection.
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Recall that the universal property for $\mathbb{N}$ states that for data $g_0 : Y \to A$, $k : Y \times A \to A$, there is a unique morphism $u : \mathbb{N} \times Y \to A$ such that $u \circ (0 \times \mathrm{id}_Y) = g_0$ and $u \circ (s \times \mathrm{id}_Y) = k \circ u$. We take $A = \mathbb{N} \times Z$, $g_0 = 0 \times f_0$, and $k(y, n, z) = \langle n, h(n, y, z) \rangle$, where $n : Y \times \mathbb{N} \times Z \to \mathbb{N}$, $y : Y \times \mathbb{N} \times Z \to Y$, and $z : Y \times \mathbb{N} \times Z \to Z$ are the obvious projections. The $f$ we seek is then obtained as $p_2 \circ u$, where $p_2 : \mathbb{N} \times Z \to Z$ is the second projection. $\blacksquare$
-
+Recall that the universal property for $\mathbb{N}$ states that for data $g_0\colon Y \to A$, $k\colon Y \times A \to A$, there is a unique morphism $u\colon \mathbb{N} \times Y \to A$ such that $u \circ (0 \times \mathrm{id}_Y) = g_0$ and $u \circ (s \times \mathrm{id}_Y) = k \circ u$. We take $A = \mathbb{N} \times Z$, $g_0 = 0 \times f_0$, and $k(y, n, z) = \langle n, h(n, y, z) \rangle$, where $n\colon Y \times \mathbb{N} \times Z \to \mathbb{N}$, $y\colon Y \times \mathbb{N} \times Z \to Y$, and $z\colon Y \times \mathbb{N} \times Z \to Z$ are the obvious projections. The $f$ we seek is then obtained as $p_2 \circ u$, where $p_2 : \mathbb{N} \times Z \to Z$ is the second projection.
 =--
+
 
 ## Related concepts
 
 Dually, there is a notion of [[corecursion]] on a [[coinduction|coinductive structure]]. 
 
+
+[[!redirects recursion]]
 [[!redirects recursive]]
+[[!redirects recursive definition]]
+[[!redirects recursive definitions]]
+[[!redirects inductive definition]]
+[[!redirects inductive definitions]]
