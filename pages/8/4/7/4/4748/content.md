@@ -635,6 +635,18 @@ In [[physics]] various [[action functional]]s for [[quantum field theories]] are
 * The action functional of [[Chern-Simons theory]] is the parallel 3-transport of a [[Chern-Simons circle 3-bundle]].
 
 
+## Related concepts
+
+* [[connection on a bundle]], [[connection on a 2-bundle]], [[connection on an infinity-bundle]],
+
+* [[parallel transport]], **higher parallel transport**
+
+* [[holonomy]]
+
+  * [[holonomy group]]
+
+  * [[special holonomy]]
+
 
 ## References
 
