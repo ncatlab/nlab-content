@@ -1,10 +1,18 @@
+
+# Terminal coalgebras
+* table of contents
+{: toc}
+
+## Introduction
+
 A __terminal coalgebra__, also called __final coalgebra__, for an [[endofunctor]] $F$ on a category $C$ is a [[terminal object]] in the category of [[coalgebra for an endofunctor|coalgebras]] of $F$.
 
-If $F$ has a terminal coalgebra $\alpha: X \to F(X)$, then $X$ is isomorphic to $F(X)$ (see below); in this sense, $X$ is a fixed point of $F$.  Being terminal, $X$ is the largest fixed point of $F$ in that there is a map to $X$ to any other fixed point (indeed, any other coalgebra), and this map is an [[injection]] if $C$ is [[Set]].
+If $F$ has a terminal coalgebra $\alpha\colon X \to F(X)$, then $X$ is isomorphic to $F(X)$ (see below); in this sense, $X$ is a fixed point of $F$.  Being terminal, $X$ is the largest fixed point of $F$ in that there is a map to $X$ to any other fixed point (indeed, any other coalgebra), and this map is an [[injection]] if $C$ is [[Set]].
 
 The dual concept is [[initial algebra]]. Just as initial algebras allow for [[induction]] and [[recursion]], so terminal coalgebras allow for [[coinduction]] and [[corecursion]].
 
-##Details##
+
+## Details
 
 Given two coalgebras $(x, \eta: x \to F x)$, $(y, \theta: y \to F y)$, a coalgebra map is a morphism $f: x \to y$ which respects the coalgebra structures: 
 
@@ -90,11 +98,11 @@ so that we were forced to define the $f_n$ by recursion as we did, and the coalg
 
 ### Real numbers 
 
-As first observed by Freyd, the [[real number object|real numbers]] (or more precisely, the real interval $[0, 1]$) can be characterized as a suitable terminal coalgebra. There are various ways of realizing this; we give one (but see remarks below). 
+As first observed by [[Peter Freyd]], the [[real number object|real numbers]] (or more precisely, the [[unit interval]] $[0, 1]$) can be characterized as a suitable terminal coalgebra. There are various ways of realizing this; we give one (but see remarks below). 
 
 Consider the category of intervals $Int$, i.e., linearly ordered sets with separate top and bottom elements $1$ and $0$, and let 
 
-$$F: Int \to Int$$ 
+$$F\colon Int \to Int$$ 
 
 be the endofunctor which takes an interval $X$ to $X \vee X$, the linear order obtained by taking two copies of $X$ and gluing the top element of the first copy to the bottom element of the second. The real interval $[0, 1]$ becomes a coalgebra if we identify $[0, 1] \vee [0, 1]$ with $[0, 2]$ and consider the multiplication-by-2 map $[0, 1] \to [0, 2]$ as giving a coalgebra structure. 
 
@@ -120,8 +128,9 @@ as the model which classifies the [[geometric realization]] functor, can be just
 * Freyd, in his original [post](#Freyd) on this result, was inspired by a similar theorem due to [Pavlovic and Pratt](#PP), that the half-open interval $[0, \infty)$ can be described as the terminal coalgebra for the endofunctor that sends a linearly ordered set $X$ to $\omega \times X$ with the dictionary order. 
 
 * The theorem holds in an arbitrary topos (with $[0, 1]$ being the interval of [[real number object|Dedekind reals]]), provided that the word "separate" is interpreted correctly: 
-$$\forall p: P (\neg(0 = p) \vee \neg(1 = p))$$ 
+$$\forall p\colon P\; (\neg(0 = p) \vee \neg(1 = p))$$ 
 and provided that the process of gluing endpoints is given correctly. See Johnstone's [[Elephant]], section D.4.7, for an extended discussion. 
+
 
 ### Categorified example: Trees 
 
@@ -167,6 +176,7 @@ $$Set^{\omega^{op}},$$
 
 aka the [[tree|category of trees]], where $\omega$ is the colimit of the finite ordinals $[n]$. The statement that the category of trees is equivalent to its small-coproduct cocompletion says that the category of trees is equivalent to the category of forests. 
 
+
 ## References 
 
 * P. Freyd, Real coalgebra. Mailing to the categories list, Dec. 22, 1999. ([link](http://www.mta.ca/~cat-dist/catlist/1999/realcoalg))
@@ -179,5 +189,8 @@ Cross-relations between algebraic and coalgebraic aspects of real numbers may be
 
 * P. Freyd, Algebraic Real Analysis, Theor. Appl. Cat., vol. 20, no. 10 (2008), 215-308. ([link](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
 
+
 [[!redirects terminal coalgebra]]
+[[!redirects terminal coalgebras]]
 [[!redirects final coalgebra]]
+[[!redirects final coalgebras]]
