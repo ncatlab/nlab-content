@@ -158,7 +158,9 @@ We spell out the data of a connection on a 2-bundle over a [[smooth manifold]] $
 
 * [[connection on an ∞-bundle]]
 
+* [[parallel transport]], [[higher parallel transport]]
 
+* [[holonomy]]
 
 
 ## References
