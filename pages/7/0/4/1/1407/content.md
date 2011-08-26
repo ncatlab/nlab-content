@@ -82,6 +82,14 @@ These aspects have motivated the impression that the string perturbation series 
 
     * [[type II string theory]]
 
+* [[background gauge field]]s
+
+  * [[gravity]], [[Kalb-Ramond field]], [[dilaton field]]
+
+  * [[Yang-Mills field]]
+
+  * [[RR-field]]
+
 * [[landscape of string theory vacua]]
 
 ...
