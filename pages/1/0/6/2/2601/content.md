@@ -35,7 +35,7 @@ If $S$ is essentially small, then these properties imply that it must be a Groth
 
 +-- {: .un_cor}
 ###### Corollary
-$Set$ is, up to equivalence, the unique locally small and cocomplete well-pointed topos (hence the unique locally small and cocomplete model of ETCS), and the unique locally small and complete well-pointed topos (hence three unique locally small and complete model of ETCS).
+$Set$ is, up to equivalence, the unique locally small and cocomplete well-pointed topos (hence the unique locally small and cocomplete model of ETCS), and the unique locally small and complete well-pointed topos (hence the unique locally small and complete model of ETCS).
 =--
 +-- {: .proof}
 ###### Proof
