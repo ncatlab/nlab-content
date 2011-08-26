@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $(X,g)$ a [[Riemannian manifold]] and $f : X \to \mathbb{R}$ a [[smooth function]], let 
+
+$$
+  \nabla f := g^{-1}(d_{dR} f) \in \Gamma(T X)
+$$
+
+be the [[gradient]] [[vector field]] of $X$. The [[flow]] induced by this on $X$ is the **gradient flow** of $f$.
+
+## Examples
+
+
+* [[Yang-Mills instanton]]s are the gradient flow trajectories of the [[Chern-Simons action functional]].
+
+* [[Ricci flow]] is the gradient flow of the [[action functional]] of [[dilaton gravity]]. 
+
+  (This is a key part of Perelman's proof of the [[Poincare conjecture]].)
+
+[[!redirects gradient flows]]
