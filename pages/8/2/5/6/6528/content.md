@@ -53,6 +53,61 @@ $$
 
 is called the **instanton number** of $\nabla$.
 
+## Properties
+
+### As gradient flows between flat connections.
+
+Let $(\Sigma,g_\Sigma)$ be a [[compact space|compact]] 3-[[dimensional]] [[Riemannian manifold]] . 
+
+Consider in [[Yang-Mills theory]] on the [[product]] space $X = \Sigma \times \mathbb{R}$ (with metric the product metric of $g$ with the canonical metric  on $\mathbb{R}$) field configurations $\nabla$ with finite Yang-Mills action 
+
+$$
+  S_{YM}(\nabla) = \int_{\Sigma \times \mathbb{R}} F_\nabla \wedge \star F_\nabla
+  \lt \infty
+  \,.
+$$
+
+These must be such that there is $t_1 \lt t_2 \in \mathbb{R}$ such that $F_\nabla(t \lt t_1) = 0$ and $F_\nabla(T \gt t_2) = 0$, hence these must be solutions interpolating between two [[curvature|flat]] connections.
+
+Observe that on a [[coordinate patch]] $U\times \mathbb{R} \subset \Sigma \times \mathbb{R}$ where $\nabla$ is given by a [[Lie algebra valued 1-form]] $A \in \Omega^1(U\times \mathbb{R}, \mathfrak{g})$ we can always find a [[gauge transformation]] such that $A_{\partial_t} = 0$ ("[[temporal gauge]]"). In this gauge the self-duality condition on a Yang-Mills instanton 
+
+$$
+  F_\nabla = - \star F_\nabla
+$$
+
+reads equivalently
+
+$$
+  \frac{d}{d t} A = -\star_{g_{\Sigma}} F_A
+  \,\,\,
+  \in 
+  \Omega^1(\Sigma, \mathfrak{g})
+  \,.
+$$
+
+This equation may be interpreted as characterizing the [[gradient flow]] of the [[Chern-Simons action functional]]
+
+$$
+  S_{CS} : \Omega^1(\Sigma, \mathfrak{g}) \to \mathbb{R}
+$$
+
+$$
+  A \mapsto \int_\Sigma CS(A)
+$$
+
+with respect to $g_\Sigma$, because the [[variational calculus|variation]] of the Chern-Simons action is
+
+$$
+  \delta S_{CS}(A) = \int_\Sigma \langle \delta A \wedge F_A\rangle
+$$
+
+(see [[Chern-Simons theory]] for details).
+
+Since (therefore) flat connections are the [[critical loci]] of $S_{CS}$ we find that a finite-action Yang-Mills instanton on $\Sigma \times \mathbb{R}$ is a [[gradient flow]] between two "Chern-Simons theory vacua".
+
+Often this is interpreted as saying that "a Yang-Mills instanton describes the [[tunneling]] between two Chern-Simons vacua".
+
+
 ## Related concepts
 
 * [[instanton Floer homology]]
