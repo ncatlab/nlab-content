@@ -1,5 +1,6 @@
+
 # Recursion
-* tic
+* table of contents
 {: toc}
 
 ##Idea
@@ -24,23 +25,45 @@ The definition above is taken as axiomatic in Peano arithmetic. More generally, 
 ##Recursion theorem
 ###In classical mathematics
 
-**Theorem.** Let $X$, $Y$, and $Z$ be [[set|sets]], and suppose $\rightsquigarrow$ is a well-founded relation on $X$. Let $h : X \times Y \times \mathcal{P}(Z) \to Z$ be a given function. Then, there is a unique function $f : X \to Z$ satisfying
++-- {: .num_theorem}
+###### Theorem
+
+Let $X$, $Y$, and $Z$ be [[set|sets]], and suppose $\rightsquigarrow$ is a [[well-founded relation]] on $X$. Let $h : X \times Y \times \mathcal{P}(Z) \to Z$ be a given function. Then, there is a unique function $f : X \to Z$ satisfying
 $$f (x', y) = h (x', y, S)$$
 for all $y$ in $Y$, where
 $$S = \{ z \in Z : \exists x . \, ( x \rightsquigarrow x' \wedge z = f (x, y) ) \}$$
 
-*Proof.* By the principle of well-founded induction. (Details to be added.)
+=--
+
++-- {: .proof}
+###### Proof
+
+By the principle of well-founded induction. (Details to be added.)
+
+=--
 
 ###For a natural numbers object
 
-**Theorem.** Let $\mathbb{N}$ be a (parametrizable) [[natural numbers object]] in a [[category]] with finite products, with zero $0 : 1 \to \mathbb{N}$ and successor $s : \mathbb{N} \to \mathbb{N}$. For any morphisms $f_0 : Y \to Z$ and $h : \mathbb{N} \times Y \times Z \to Z$, there is a unique morphism $f : \mathbb{N} \times Y \to Z$ such that
++-- {: .num_theorem}
+###### Theorem
+
+Let $\mathbb{N}$ be a (parametrizable) [[natural numbers object]] in a [[category]] with finite products, with zero $0 : 1 \to \mathbb{N}$ and successor $s : \mathbb{N} \to \mathbb{N}$. For any morphisms $f_0 : Y \to Z$ and $h : \mathbb{N} \times Y \times Z \to Z$, there is a unique morphism $f : \mathbb{N} \times Y \to Z$ such that
 $$f(0, -) = f_0$$
 and
 $$f(s(x), y) = h(s(x), y, f(x, y))$$
 where $x : \mathbb{N} \times Y \to \mathbb{N}$ is the first projection and $y : \mathbb{N} \times Y \to Y$ is the second projection.
 
-*Proof.* Recall that the universal property for $\mathbb{N}$ states that for data $g_0 : Y \to A$, $k : Y \times A \to A$, there is a unique morphism $u : \mathbb{N} \times Y \to A$ such that $u \circ (0 \times \mathrm{id}_Y) = g_0$ and $u \circ (s \times \mathrm{id}_Y) = k \circ u$. We take $A = \mathbb{N} \times Z$, $g_0 = 0 \times f_0$, and $k(y, n, z) = \langle n, h(n, y, z) \rangle$, where $n : Y \times \mathbb{N} \times Z \to \mathbb{N}$, $y : Y \times \mathbb{N} \times Z \to Y$, and $z : Y \times \mathbb{N} \times Z \to Z$ are the obvious projections. The $f$ we seek is then obtained as $p_2 \circ u$, where $p_2 : \mathbb{N} \times Z \to Z$ is the second projection. $\blacksquare$
+=--
 
-##Related concepts
++-- {: .proof}
+###### Proof
+
+Recall that the universal property for $\mathbb{N}$ states that for data $g_0 : Y \to A$, $k : Y \times A \to A$, there is a unique morphism $u : \mathbb{N} \times Y \to A$ such that $u \circ (0 \times \mathrm{id}_Y) = g_0$ and $u \circ (s \times \mathrm{id}_Y) = k \circ u$. We take $A = \mathbb{N} \times Z$, $g_0 = 0 \times f_0$, and $k(y, n, z) = \langle n, h(n, y, z) \rangle$, where $n : Y \times \mathbb{N} \times Z \to \mathbb{N}$, $y : Y \times \mathbb{N} \times Z \to Y$, and $z : Y \times \mathbb{N} \times Z \to Z$ are the obvious projections. The $f$ we seek is then obtained as $p_2 \circ u$, where $p_2 : \mathbb{N} \times Z \to Z$ is the second projection. $\blacksquare$
+
+=--
+
+## Related concepts
 
 Dually, there is a notion of [[corecursion]] on a [[coinduction|coinductive structure]]. 
+
+[[!redirects recursive]]
