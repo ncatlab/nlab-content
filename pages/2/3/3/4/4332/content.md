@@ -38,7 +38,12 @@ Local gauge groups are are visible in the [[Lagrangian mechanics|Lagrangian]] ap
 
 ## Related concepts
 
+* [[gauge symmetry]]
+
+* [[gauge fixing]]
+
 * [[spontaneously broken symmetry]]
+
 
 ## References
 
