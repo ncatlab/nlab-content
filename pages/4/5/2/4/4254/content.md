@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-_Floer homology_ is a common name for several similar frameworks of infinite-dimensional analogues of [[Morse homology]], related to certain elliptic operators. Some of these are related to [[symplectic geometry]] or [[contact geometry]] and another group is related to aspects of the geometry of 3-[[manifolds]]. One of these uses the [[Chern-Simons theory]] [[action functional]] as a [[Morse function]] on the space of [[connection on a bundle|connection]]s on $G$-[[principal bundle]]s over the given 3-manifold.
+_Floer homology_ is a common name for several similar frameworks of infinite-dimensional analogues of [[Morse homology]], related to certain [[elliptic operator]]s. Some of these are related to [[symplectic geometry]] or [[contact geometry]] and another group is related to aspects of the geometry of 3-[[manifolds]]. One of these uses the [[Chern-Simons theory]] [[action functional]] as a [[Morse function]] on the space of [[connection on a bundle|connection]]s on $G$-[[principal bundle]]s over the given 3-manifold.
 
 The most important flavours are the **Floer-Oh homology for [[action functional]]s** which is important in the study of [[symplectic manifold]]s, its version for Lagrangean intersection theory and the instanton Floer homology studied by Andreas Floer and important in the study of 3-manifolds and the mathematics of [[gauge theories]]. 
 
