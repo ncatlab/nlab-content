@@ -79,6 +79,10 @@ $$
 
 [[proper homotopy theory (unbroken copy)]]
 
+***
+
+[[fig1.gif:pic]]
+
 category: meta
 
 [[!redirects sandbox]]
