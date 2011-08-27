@@ -14,34 +14,47 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Yang--Mills theory is a [[gauge theory]] on 4-dimensional (pseudo)[[Riemannian manifold|Riemannian]] [[manifold]] $X$ whose field is the [[Yang–Mills field]] -- a cocycle $\hat F \in \mathbf{H}(X,\bar \mathbf{B}U(n))$ in differential [[nonabelian cohomology]] represented by a [[vector bundle]] [[connection on a bundle|with connection]] -- and whose [[action functional]] is 
+Yang--Mills theory is a [[gauge theory]] on a given 4-[[dimensional]] ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian manifold|Riemannian]] [[manifold]] $X$ whose field is the [[Yang–Mills field]] -- a cocycle $\nabla \in \mathbf{H}(X,\bar \mathbf{B}U(n))$ in differential [[nonabelian cohomology]] represented by a [[vector bundle]] [[connection on a bundle|with connection]] -- and whose [[action functional]] is 
 
 $$
-  \hat F \mapsto
-  \frac{1}{e^2 }\int_X F \wedge \star F  + i \theta \int_X F \wedge F
+  \nabla \mapsto
+  \frac{1}{e^2 }\int_X F_\nabla \wedge \star F_\nabla  + i \theta \int_X F_\nabla \wedge F_\nabla
 $$
 
 for 
 
-* $F$ the [[field strength]], $\mathfrak{u}(n)$-valued [[differential form|differential 2-form]] on $X$ ( with $\mathfrak{u}(n)$ the [[Lie algebra]] of the [[unitary group]] $U(n)$);
+* $F_\nabla$ the [[field strength]], locally the [[curvature]] $\mathfrak{u}(n)$-[[Lie algebra valued differential form]] on $X$ ( with $\mathfrak{u}(n)$ the [[Lie algebra]] of the [[unitary group]] $U(n)$);
 
-* $\star$ the [[Hodge star]] operator;
+* $\star$ the [[Hodge star]] operator of the metric  $g$;
 
 * $\frac{1}{e^2}$ and $\theta$ some [[real number]]s (see [[S-duality]])
 
-All gauge fields in the [[standard model of particle physics]] as well as in [[GUT]] models are Yang--Mills fields.
+## Applications
 
+All gauge fields in the [[standard model of particle physics]] as well as in [[GUT]] models are Yang--Mills fields.
 
 The matter fields in the standard model are spinors charged under the Yang-Mills field. See
 
 * [[spinors in Yang-Mills theory]]
 
 ## Related concepts
+
+* [[standard model of particle physics]]
+
+  * [[electromagnetism]]
+
+  * [[spinors in Yang-Mills theory]]
+
+* [[S-duality]], [[Montonen-Olive duality]]
+
+  * [[electric-magnetic duality]]
+
+  * [[geometric Langlands duality]]
 
 * [[Chern-Simons theory]]
 
@@ -51,7 +64,7 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 * [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) ([pdf](http://www2.imperial.ac.uk/~skdona/YMILLS.PDF))
 
-For the relation to [[Floer homology]] see also
+For the relation to [[instanton Floer homology]] see also
 
 * [[Simon Donaldson]], _Floer homology groups in Yang-Mills theory_ Cambridge University Press (2002) ([pdf](http://catdir.loc.gov/catdir/samples/cam031/2001035888.pdf))
 
