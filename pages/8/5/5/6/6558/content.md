@@ -1,0 +1,74 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _cocommutative [[coalgebra]]_ is the formal [[duality|dual]] of [[commutative algebra]].
+
+Coommutative coalgebras form the [[category]] [[CocommCoalg]].
+
+## Definition
+
+For $(C,\otimes, \sigma)$ a [[symmetric monoidal category]], a [[comonoid object]] in $C$ is an [[object]] $A$ equipped with a [[morphism]]
+
+$$
+  \Delta : A \to A \otimes A
+$$
+
+("[[comultiplication]]") that satisfies [[coassociativity]]
+
+$$
+  \array{
+     A &\to& A \otimes A
+     \\
+     \downarrow && \downarrow^{\mathrlap{Id \otimes \Delta}}
+     \\
+     A \otimes A &\underset{\Delta \otimes Id}{\to}&
+     A \otimes A \otimes A
+  }
+  \,.
+$$
+
+This is **co-commutative** if we have a [[commuting diagram]]
+
+$$
+  \array{
+    && A \otimes A
+    \\
+    & {}^{\mathllap{\Delta}}\nearrow && \searrow^{\mathrlap{\sigma}_{A,A}}
+    \\
+    A  &&\underset{\Delta}{\to}&& A \otimes A
+  }
+  \,,
+$$ 
+
+where $\sigma_{A,A} : A \otimes A \to A \otimes A$ is the [[braiding]] [[isomorphism]] of $C$.
+
+## Related concepts
+
+* [[monoid]], [[commutative monoid]], [[category of monoids]]
+
+
+[[!redirects cocommutative]]
+[[!redirects co-commutative]]
+
+
+[[!redirects cocommutative coalgebras]]
+[[!redirects co-commutative coalgebra]]
+[[!redirects co-commutative coalgebras]]
+
+[[!redirects cocommutative comonoid]]
+[[!redirects cocommutative comonoids]]
