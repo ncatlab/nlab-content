@@ -13,4 +13,4 @@
 The [[2-category]] $Poset$ is the [[full sub-2-category]] of [[Cat]] on the [[poset]]s. 
 
 
-category: categories
+category: category
