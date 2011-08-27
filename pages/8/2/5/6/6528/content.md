@@ -57,7 +57,7 @@ is called the **instanton number** of $\nabla$.
 
 ### As gradient flows between flat connections.
 
-We discuss how Yang-Mills instantons may be understood a trajectories of the [[gradient flow]] of the [[Chern-Simons theory]] [[action functional]].
+We discuss how Yang-Mills instantons may be understood as trajectories of the [[gradient flow]] of the [[Chern-Simons theory]] [[action functional]].
 
 Let $(\Sigma,g_\Sigma)$ be a [[compact space|compact]] 3-[[dimensional]] [[Riemannian manifold]] . 
 
@@ -78,9 +78,15 @@ $$
   \,.
 $$
 
-These must be such that there is $t_1 \lt t_2 \in \mathbb{R}$ such that $F_\nabla(t \lt t_1) = 0$ and $F_\nabla(T \gt t_2) = 0$, hence these must be solutions interpolating between two [[curvature|flat]] connections.
+These must be such that there is $t_1 \lt t_2 \in \mathbb{R}$ such that $F_\nabla(t \lt t_1) = 0$ and $F_\nabla(T \gt t_2) = 0$, hence these must be solutions interpolating between two [[curvature|flat]] connections $\nabla_{t_1}$ and $\nabla_{t_2}$.
 
-Observe that on a [[coordinate patch]] $U\times \mathbb{R} \subset \Sigma \times \mathbb{R}$ where $\nabla$ is given by a [[Lie algebra valued 1-form]] $A \in \Omega^1(U\times \mathbb{R}, \mathfrak{g})$ we can always find a [[gauge transformation]] such that $A_{\partial_t} = 0$ ("[[temporal gauge]]"). In this gauge the self-duality condition on a Yang-Mills instanton 
+For $A \in \Omega^1(U\times \mathbb{R}, \mathfrak{g})$ the [[Lie algebra valued 1-form]] corresponding to $\nabla$, we can always find a [[gauge transformation]] such that $A_{\partial_t} = 0$ ("[[temporal gauge]]"). In this gauge we may hence equivalently think of $A$ as a 1-parameter family
+
+$$
+  t \mapsto A(t) \in \Omega^1(\Sigma, \mathfrak{g})
+$$
+
+of connections on $\Sigma$. Then the self-duality condition on a Yang-Mills instanton 
 
 $$
   F_\nabla = - \star F_\nabla
@@ -89,7 +95,7 @@ $$
 reads equivalently
 
 $$
-  \frac{d}{d t} A = -\star_{g_{\Sigma}} F_A
+  \frac{d}{d t} A = -\star_{g} F_A
   \,\,\,
   \in 
   \Omega^1(\Sigma, \mathfrak{g})
@@ -99,10 +105,10 @@ $$
 +-- {: .num_defn #HodgeInnerProduct}
 ###### Definition
 
-On the linear [[configuration space]] $\Omega^1(U, \mathfrak{g})$ of [[Lie algebra valued forms]] on $U$ define the [[Hodge inner product]] [[metric]]
+On the linear [[configuration space]] $\Omega^1(\Sigma, \mathfrak{g})$ of [[Lie algebra valued forms]] on $\Sigma$ define the [[Hodge inner product]] [[metric]]
 
 $$
-  G(\alpha, \beta) := \int_{U} \langle \alpha \wedge \star \beta \rangle
+  G(\alpha, \beta) := \int_{\Sigma} \langle \alpha \wedge \star_g \beta \rangle
   \,,
 $$
 
@@ -117,10 +123,10 @@ The instanton equation
 
 $$
   \frac{d}{d t} A = 
-  -\star_{g_{\Sigma}} F_A
+  -\star_{g} F_A
 $$
 
-is the equation characterizing the [[gradient flow]] of the [[Chern-Simons action functional]]
+is the equation characterizing trajectories of the [[gradient flow]] of the [[Chern-Simons action functional]]
 
 $$
   S_{CS} : \Omega^1(\Sigma, \mathfrak{g}) \to \mathbb{R}
@@ -206,7 +212,7 @@ $$
 
 Since [[curvature|flat]] connections are the [[critical loci]] of $S_{CS}$ this says that a finite-action Yang-Mills instanton on $\Sigma \times \mathbb{R}$ is a gradient flow trajectory between two _Chern-Simons theory [[vacuum|vacua]]_ .
 
-Often this is interpreted as saying that "a Yang-Mills instanton describes the [[tunneling]] between two Chern-Simons vacua".
+Often this is interpreted as saying that "a Yang-Mills instanton describes the [[tunneling]] between two [[Chern-Simons theory]] [[vacua]]".
 
 
 ## Related concepts
