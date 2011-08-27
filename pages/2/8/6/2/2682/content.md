@@ -16,18 +16,18 @@
 > at least one thing missing here is the subtlety explained out by [[Jacques Distler]] in blog dicussion [here](http://golem.ph.utexas.edu/category/2009/10/structural_foundations_of_quan.html#c028474)
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
 ### recalling the context ##
 
-The undertaking called [[string theory]] started out as _perturbative string theory_ where the idea was to encode spacetime physics by an [[S-matrix]] that is obtained by a sum of the integrals of the correlators of a fixed 2-dimensional [[conformal field theory]] over the [[moduli space]]s of conformal structures on surfaces of all possible genera.
+The undertaking called [[string theory]] started out as _perturbative string theory_ where the idea was to encode [[spacetime]] [[physics]] in [[perturbation theory]] by an [[S-matrix]] that is obtained by a sum of the integrals of the [[correlators]] of a fixed 2-dimensional [[conformal field theory]] over the [[moduli space]]s of conformal structures on surfaces of all possible genera -- thought of as the [[second quantization]] of a [[string]] [[sigma-model]].
 
-The [[S-matrix]] elements obtained this way from the [[string perturbation series]] could be seen to be approximated by the ordinary [[perturbative quantum field theory|perturbation series]] of ordinary [[quantum field theory|quantum field theories]] on target space. These ordinary [[quantum field theory|quantum field theories]] are called the [[effective background field theory]] of the 2-dimensional [[conformal field theory]] that defines the given string perturbation series.
+The [[S-matrix]] elements obtained this way from the [[string perturbation series]] could be seen to be approximated by an ordinary [[effective QFT]] (some flavor of [[supergravity]] coupled to [[gauge theory]] and [[fermion]]s) on [[target space]]. 
 
-Moreover, the precise choice of 2-d [[conformal field theory|CFT]] also encodes the [[classical field theory|classical solution]] of the background field theory around which one finds the string pertrubation series to be approximated by an ordinary QFT perturbation series. Therefore 2-dimensional CFTs "on the worldsheet" correspond to classical solutions of "background" [[supergravity]] theories.
+Moreover, the precise choice of 2d [[CFT]] also encodes a [[Euler-Lagrange equation|classical solution]] of the effective background QFT, hence a [[vacuum]] of that theory.
 
 The _first superstring revolution_ was given by the realization that this makes sense: the effective background theories obtained this way are indeed free of [[quantum anomaly|quantum anomalies]].
 
@@ -35,9 +35,9 @@ The _first superstring revolution_ was given by the realization that this makes 
 
 The _second superstring revolution_ was given by the realization that all these background field theories seem to fit into one single bigger context that seems to exists independently of their perturbatve definitions. 
 
-Aspects of this bigger non-perturbative context are known as [[M-theory]]. While one couldn't figure out what that actually is, the circumstancial evidence suggested that whatever it is, it has a low-energy limit where it also looks like an effective background field theory, this time 11-dimensional [[supergravity]].
+Aspects of this bigger non-perturbative context are known as [[M-theory]]. While one couldn't figure out what that actually is, the circumstancial evidence suggested that whatever it is, it has a low-energy limit where it also looks like an effective background field theory, this time [[11-dimensional supergravity]].
 
-In a different but similar manner, other background field theories were found whose classical solutions are thought to encode "stable solutions" ("vacuum solutions") of whatever physical theory this non-perturbative definition of string theory is.
+In a different but similar manner, other background field theories were found whose classical solutions are thought to encode "stable solutions" ("[[vacuum]] solutions") of whatever physical theory this non-perturbative definition of string theory is.
 
 Here, when talking about a "stable solution" one thinks of solutions of these theories of [[gravity]] with plenty of extra fields that look like [[Minkowski space]] times something else, such that all these extra fields are constant in time (using the simple Minkowsi-space-times-internal-part-ansatz to say what "constant in time" means), hence sitting at the bottom of their corresponding effective potentials.
 
