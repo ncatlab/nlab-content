@@ -1,6 +1,6 @@
 **[[Riemannian geometry]]**
 
-## Definitions
+## Basic definitions
 
 * [[Riemannian manifold]]
 
@@ -21,6 +21,12 @@
 * [[Levi-Civita connection]]
 
   * [[Riemann curvature]], [[torsion of a metric connection]]
+
+## Further concepts
+
+* [[Hodge inner product]], [[Hodge star operator]]
+
+* [[gradient]], [[gradient flow]]
 
 
 ## Theorems
