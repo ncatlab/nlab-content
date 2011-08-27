@@ -17,6 +17,6 @@
 
 _$Stab(\infty,1)Cat$_ denotes the [[(∞,1)-category]] of [[stable (∞,1)-categories]].
 
-category: categories
+category: category
 
 [[!redirects Stab(∞,1)Cat]]
