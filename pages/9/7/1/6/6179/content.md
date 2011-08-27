@@ -55,6 +55,16 @@ This is actually not quite true for ordinary Yang-Mills theory, but seems to be 
 Moreover, Witten has suggested that this S-duality secretly drives a host of other subtle phenomena, notably that the [[geometric Langlands duality]] is just an aspect of a special case of this.
 
 
+## Related concepts
+
+* [[Yang-Mills theory]]
+
+* [[electric-magnetic duality]]
+
+* [[geometric Langlands duality]]
+
+
+
 ## References
 
 The understanding of Montonen-Olive duality as a remnant conformal transformation on a 6-dimensional [[principal 2-bundle]]-theory compactified on a torus is described in 
