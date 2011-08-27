@@ -236,7 +236,7 @@ Cahiers Topologie G&#233;om. Diff&#233;rentielle 18 (1977), no. 3, 271--289, [nu
 
 * Thomas Booker, Ross Street, Torsors, herds and flocks, [arXiv:0912.4551](http://arxiv.org/abs/0912.4551)
 
-* J. Duskin,  Simplicial mehtods and the interpretation of &#171;triple&#187; cohomology, Memoirs AMS __3__, issue 2, n&#176; 163, 1975.  MR393196
+* J. Duskin,  Simplicial methods and the interpretation of 'triple' cohomology, Memoirs AMS __3__, issue 2, n&#176; 163, 1975.  MR393196
 
 * A. Vistoli, Grothendieck topologies, fibered categories and descent theory. Fundamental algebraic geometry, 1--104, Math. Surveys Monogr., 123, AMS 2005, [math.AG/0412512](http://front.math.ucdavis.edu/0412.5512).
 
