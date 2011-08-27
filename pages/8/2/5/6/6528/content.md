@@ -177,7 +177,7 @@ $$
 With the formula (see [[Hodge star operator]])
 
 $$
-  \star \stat A = (-1)^{1(3+1)} A = A
+  \star \star A = (-1)^{1(3+1)} A = A
 $$
 
 we find therefore
