@@ -1,11 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Measure coalgebras
-* tic
+* table of contents
 {: toc}
 
 
 ## Idea
 
-Measure coalgebras are an [[enriched category|enrichment]] of the category of [[commutative rings]] (or commutative $\mathbb{Z}$-algebras) in the [[cartesian closed category]] $k$ [[Cocomm Coalg]] of [[cocommutative coalgebra|cocommutative]] [[coalgebras]] (which we will write simply as $Coalg$), given a [[ground field]] $k$. 
+_Measure coalgebras_ are an [[enriched category|enrichment]] of the category of [[commutative rings]] (or commutative $\mathbb{Z}$-algebras) in the [[cartesian closed category]] $k$ [[Cocomm Coalg]] of [[cocommutative coalgebra|cocommutative]] [[coalgebras]] (which we will write simply as $Coalg$), given a [[ground field]] $k$. 
 
 The starting point is the observation that the category $Coalg$ acts on the category [[CommAlg|Alg]] of [[commutative algebras]]: there is a functor 
 
@@ -15,7 +27,8 @@ where, given a coalgebra $C$ and an algebra $A$, $\{C, A\}$ is the [[abelian gro
 
 $$C \overset{d}{\to} C \otimes C \overset{f \otimes g}{\to} A \otimes A \overset{m}{\to} A$$ 
 
-where $d$ is the coalgebra comultiplication and $m$ is the algebra multiplication. That this is an "action" here means that there is a natural isomorphism 
+where $d$ is the coalgebra comultiplication and $m$ is the algebra multiplication. That this is an "[[action]]" here means that there is a 
+[[natural isomorphism]]
 
 $$\{C \otimes D, A\} \cong \{C, \{D, A\}\}$$ 
 
@@ -24,29 +37,34 @@ of algebras; here $Alg$ is sometimes described as an [[actegory]] over $Coalg$.
 
 ## Definition
 
-Given two algebras $A, B$, the **measure coalgebra** $\mu(A, B)$ is by definition the [[representing object]] of the functor 
++-- {: .num_defn}
+###### Definition
+
+Given two algebras $A, B$, the **measure coalgebra** $\mu(A, B)$ is by definition the [[representing object]] of the [[functor]] 
 
 $$Alg(A, \{-, B\}): Coalg^{op} \to Set$$ 
 
-so that there is an isomorphism, [[natural isomorphism|natural]] for coalgebras $C$, of the form
+so that there is an [[isomorphism]], [[natural isomorphism|natural]] for coalgebras $C$, of the form
 
 $$Coalg(C, \mu(A, B)) \cong Alg(A, \{C, B\})$$ 
+
+=--
 
 Assume the existence of [[equalizers]] in $Coalg$, and of a [[right adjoint]]
 
 $$Cof: Vect \to Coalg$$ 
 
-to the forgetful functor $U: Coalg \to Vect$ (the [[cofree object|cofree]] cocommutative coalgebra construction). We let 
+to the [[forgetful functor]] $U: Coalg \to Vect$ (the [[cofree object|cofree]] cocommutative coalgebra construction). We let 
 
 $$\pi: U \circ Cof \to 1_{Vect}$$ 
 
-denote the counit of the adjunction $U \dashv Cof$. 
+denote the [[counit of an adjunction|counit of the adjunction]] $U \dashv Cof$. 
 
-We construct $\mu(A, B)$ explicitly as the equalizer in $Coalg$ of a pair of maps of the form 
+We construct $\mu(A, B)$ explicitly as the [[equalizer]] in $Coalg$ of a pair of maps of the form 
 
 $$Cof(B^A) \overset{\to}{\to} Cof(B^{A \otimes A}) \times Cof(B^k)$$ 
 
-where we denote the internal hom in $Vect$ by exponentiation (and we recall here that the cartesian product in $Coalg$ is given by tensor product at the level of $Vect$). The first of these maps is 
+where we denote the [[internal hom]] in [[Vect]] by [[exponential object|exponentiation]] (and we recall here that the [[cartesian product]] in $Coalg$ is given by [[tensor product]] at the level of $Vect$). The first of these maps is 
 
 $$\langle Cof(B^{m_A}), Cof(B^{u_A}) \rangle: Cof(B^A) \to Cof(B^{A \otimes A}) \times Cof(B^k)$$ 
 
@@ -71,11 +89,20 @@ through $\pi: U Cof(B^A) \to B^A$. Here $\varepsilon$ denotes the counit (same a
 
 ## Enrichment of algebras in coalgebras 
 
-The measure coalgebra $\mu(A, B)$ indeed gives an enrichment 
++-- {: .num_prop}
+###### Proposition
 
-$$\mu(-, -): Alg^{op} \times Alg \to Coalg$$ 
 
-where the composition law in $Coalg$ 
+The measure coalgebra $\mu(A, B)$ indeed gives an [[enriched category|enrichment]] 
+
+$$
+  \mu(-, -): Alg^{op} \times Alg \to Coalg
+  \,.
+$$
+
+=--
+
+Here the composition law in $Coalg$ 
 
 $$\mu(A_0, A_1) \times \mu(A_1, A_2) \to \mu(A_0, A_2)$$ 
 
@@ -92,3 +119,4 @@ Coalg(C, \mu(A_0, A_1) \times \mu(A_1, A_2)) & \cong & Coalg(C, \mu(A_0, A_1)) \
 }$$ 
 
 
+[[!redirects measure coalgebras]].
