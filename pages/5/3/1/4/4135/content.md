@@ -1,6 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -10,26 +24,67 @@ Given a finite dimensional (pseudo)-[[Riemannian manifold]] $(X,g)$, the _Hodge 
 
 ## Definition
 
-Let $(X,g)$ be an [[orientation|oriented]] $n$-[[dimension]]al [[smooth manifold]] $X$ endowed with a (pseudo)-[[Riemannian metric]] $g$.  For $0 \leq k \leq n$, write $\Omega^k(X)$ for the [[vector space]] of $k$-[[differential forms|forms]] on $X$.
+Let $(X,g)$ be an [[orientation|oriented]] $n$-[[dimension]]al [[smooth manifold]] $X$ endowed with a ([[pseudo-Riemannian metric|pseudo]])-[[Riemannian metric]] $g$.  For $0 \leq k \leq n$, write $\Omega^k(X)$ for the [[vector space]] of $k$-[[differential forms|forms]] on $X$.
 
-The **Hodge star operator** is the linear operator 
+### Hodge inner product
+
+The metric $g$ naturally induces a nondegenerate symmetric [[bilinear form]]  
 
 $$
-  {*}\colon \Omega^k X \to \Omega^{n-k} X
+  (-\mid-) 
+   : 
+  \Omega^k(X) \otimes \Omega^k(X)
+    \to 
+  \Omega^0(X)
+  \,.
+$$
+
+If $X$ is [[compact space|compact]] then the [[integral]] of this against the [[volume form]] $vol_g$ exists. This is the _Hodge inner product_ 
+
+$$
+  \langle - , - \rangle : 
+  \Omega^k(X)\otimes \Omega^k(X)
+  \to 
+  \mathbb{R}
+$$
+
+$$
+  \langle \alpha, \beta \rangle
+  :=
+  \int_X (\alpha\mid \beta) vol
+ \,.
+$$
+
+### Hodge star operator
+
+The **Hodge star operator** is the unique 
+[[linear function]] 
+
+$$
+  {\star}\colon \Omega^k (X) \to \Omega^{n-k} (X)
 $$ 
 
 defined by the identity
 
 $$
-\alpha \wedge *\beta = (\alpha \mid \beta) vol, \qquad \forall \alpha,\beta \in \bigwedge^k X,
+  \alpha \wedge \star\beta 
+  = 
+  (\alpha \mid \beta) vol_g, 
+  \qquad 
+  \forall \alpha,\beta \in \bigwedge^k X
+  \,,
 $$
 
-where 
+where $vol_g \in \Omega^n X$ is the [[volume form]] induced by $g$.
 
-* $(\mid)$ is the nondegenerate symmetric bilinear form induced by $g$ on $\Omega^k X$ 
+Therefore in terms of the Hodge operator the [[Hodge inner product]] reads
 
-* and $vol \in \Omega^n X$ is the [[volume form]] induced by $g$.
-
+$$
+  \langle \alpha , \beta\rangle
+  = 
+  \int_X \alpha \wedge \star \beta
+  \,.
+$$
 
 ## Properties
 
@@ -48,11 +103,11 @@ where $\epsilon_{i_1,\dots,i_n}$ is the [[signature of a permutation|sign]] of t
 
 Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\lambda \in \Omega^k(X)$. Then
 
-* $*(*\omega) = (-1)^{k(n+1)} \omega = (-1)^{k(n-k)} \omega$;
+* $\star(\star\omega) = (-1)^{k(n+1)} \omega = (-1)^{k(n-k)} \omega$;
 
-* $(*\omega | *\lambda) = (\omega | \lambda)$;
+* $\langle\star\omega , \star\lambda\rangle = \langle\omega | \lambda\rangle$;
 
-* $*1 = vol$.
+* $\star 1 = vol$.
 
 
 ## Generalisations
@@ -64,9 +119,11 @@ The [[Riemannian metric|metric]] $g$ is used in two places in the specification 
 
 Some useful basic formulas are listed in 
 
-* _Hodge theory on Riemannian manifolds_ lecture notes ([pdf](http://math.uh.edu/~minru/Riemann08/hodgetheory.pdf))
+* _Hodge theory on Riemannian manifolds_ , lecture notes ([pdf](http://math.uh.edu/~minru/Riemann08/hodgetheory.pdf))
 
 
 [[!redirects Hodge star]]
 [[!redirects Hodge star operator]]
 [[!redirects Hodge star operators]]
+
+[[!redirects Hodge inner product]]
