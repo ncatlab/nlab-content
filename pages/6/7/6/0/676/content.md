@@ -51,7 +51,9 @@
 
     * [[general relativity]]
 
-    * [[gravity]], [[supergravity]]
+    * [[gravity]]
+
+      * [[supergravity]], [[dilaton gravity]]
 
       * [[black hole]]
  
@@ -123,7 +125,7 @@
 
   * Tools
 
-    * [[perturbative quantum field theory]]
+    * [[perturbative quantum field theory]], [[vacuum]]
 
     * [[effective quantum field theory]]
 
@@ -136,7 +138,9 @@
   * Models
 
     * [[standard model of particle physics]]
+
     * [[GUT|Grand Unified Theories]]
+
     * [[integrable systems]]
 
   * Phenomena
