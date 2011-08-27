@@ -4,7 +4,7 @@
 
 ## Idea
 
-Let $S$ be any [[set]], and let $\mathbf{N}$ be the [[set]] of [[natural number]]s.  Let $|S$ be the [[cardinality]] of $S$, and let $\aleph_0$ be the cardinality of $\mathbf{N}$.
+Let $S$ be any [[set]], and let $\mathbf{N}$ be the [[set]] of [[natural number]]s.  Let $|S|$ be the [[cardinality]] of $S$, and let $\aleph_0$ be the cardinality of $\mathbf{N}$.
 
 Then $S$ is:
 *  __denumerable__ if ${|S|} = \aleph_0$,
