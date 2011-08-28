@@ -15,7 +15,7 @@
 
 ## Idea 
 
-_Differential K-theoiry_ is the refinement of the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[K-theory]] to [[differential cohomology]].
+_Differential K-theory_ is the refinement of the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[K-theory]] to [[differential cohomology]].
 
 In as far as we can think of cocycles in [[K-theory]] as represented by [[vector bundle]]s or [[vectorial bundle]]s, cocycles in differential K-theory may be represented by [[vector bundle]]s [[connection on a bundle|with connection]].
 
