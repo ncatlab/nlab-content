@@ -105,9 +105,9 @@ This means that it is
       \,.
     $$
 
-### Strict
+### Strict case
 
-If the trinary bracket $[-,-,-]$ in a Lie 2-algebra is trivial, one speaks of a [[strict Lie 2-algebra]]. Strict Lie 2-algebras arise from [[differential crossed module]]s.
+If the trinary bracket $[-,-,-]$ in a Lie 2-algebra is trivial, one speaks of a [[strict Lie 2-algebra]]. Strict Lie 2-algebras are equivalently [[differential crossed module]]s (see there for details).
 
 
 ## Examples
@@ -131,5 +131,8 @@ If the trinary bracket $[-,-,-]$ in a Lie 2-algebra is trivial, one speaks of a 
 ## References
 
 * [[John Baez]], [[Alissa Crans]], _Higher-Dimensional Algebra VI: Lie 2-Algebras_ Theory and Applications of Categories, Vol. 12, (2004) No. 15, pp 492-528. ([TAC](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html)) 
+
+* [[Dmitry Roytenberg]], _On weak Lie 2-algebras_,  ([arXiv](http://arxiv.org/abs/0712.3461))
+
 
 [[!redirects Lie 2-algebras]]
