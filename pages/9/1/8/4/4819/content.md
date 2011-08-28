@@ -52,4 +52,23 @@ For $d= 4$ EM-duality is the special abelian case of [[S-duality]] for [[Yang-Mi
 
 In [[heterotic string theory]] one considers 1-dimensional objects in $d=10$-dimensional spaces electrically charged (under the [[Kalb-Ramond field]]). Their magnetic duals are 5-dimensional objects (fivebranes), studied in [[dual heterotic string theory]].
 
+## Related concepts
 
+* [[S-duality]]
+
+  * **electro-magnetic duality**
+
+  * [[geometric Langlands correspondence]]
+
+  * [[quantum geometric Langlands correspondence]]
+
+
+
+## References
+
+An exposition of the relation to [[geometric Langlands duality]] is given in
+
+* [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
+
+
+[[!redirects electro-magnetic duality]]
