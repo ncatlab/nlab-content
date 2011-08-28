@@ -1,22 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Riemannian geometry
-+--{: .hide}
++-- {: .hide}
 [[!include Riemannian geometry - contents]]
 =--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
+
 
 ## Definition
 
@@ -44,7 +44,12 @@ $$
   \,,
 $$
 
-where $vol_g$ is the [[volume form]] and $\star_g$ is the [[Hodge star operator]] induced by $g$.
+where $vol_g$ is the [[volume form]] and $\star_g$ is the [[Hodge star operator]] induced by $g$.  (The result is independent of [[orientation]], which can be made explicit by interpreting both $vol$ and $\star$ as valued in [[pseudoforms]].)
+
+
+## Remark
+
+In many applications to [[vector analysis]], the Riemannian structure is irrelevant, and the gradient can be replaced with the [[differential]] $1$-[[1-form|form]].
 
 
 ## Related concepts
@@ -57,4 +62,8 @@ where $vol_g$ is the [[volume form]] and $\star_g$ is the [[Hodge star operator]
 
 * [[divergence]]
 
+
+[[!redirects gradient]]
+[[!redirects gradients]]
 [[!redirects gradient vector field]]
+[[!redirects gradient vector fields]]
