@@ -49,6 +49,18 @@ The twisted sheaves of differential operators $\mathcal{D}^{k,\lambda}$ have the
 
 In the case where $G$ is abelian, the quantum correspondence is given by a [[Fourier-Mukai transform]] and has been constructed in ([Polishuk-Rothenstein](#PolishukRothenstein))
 
+## Related concepts
+
+* [[S-duality]]
+
+  * [[electro-magnetic duality]]
+
+  * [[geometric Langlands correspondence]]
+
+  * **quantum geometric Langlands correspondence**
+
+
+
 ## References
 
 The statement of the quantum geometric Langlands correspondence is surveyed on [page 70-71](http://arxiv.org/PS_cache/hep-th/pdf/0512/0512172v1.pdf#page=71) of
