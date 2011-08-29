@@ -40,7 +40,11 @@ $$
 
 ## References
 
-A discussion of _moment of inertia_ in terms of [[bivector]]s that applies in any [[dimension]] of [[space]]([[spacetime]]) is around page 56 of 
+A discussion of _moment of inertia_ in terms of [[bivector]]s that applies in any [[dimension]] of [[space]]([[spacetime]]) is around page 74 of 
+
+* Chris Doran, Anthony Lasenby, _Geometric Algebra for Physicists_ Cambridge University Press
+
+or around page 56 of 
 
 * Chris Doran, Anthony Lasaenby, _Physical applications of geometric algebra_ ([pdf](https://dspace.ist.utl.pt/bitstream/2295/52599/1/Lectures_on_Geometric_Algebra.pdf#page=56))
 
