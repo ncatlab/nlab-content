@@ -14,7 +14,9 @@
 
   * [[mass]], [[charge]], [[momentum]], [[angular momentum]], [[moment of inertia]]
 
-  * [[rigid body dynamics]]
+  * [[dynamics on Lie groups]]
+
+    * [[rigid body dynamics]]
 
 
 * **[[classical field theory|Classical Field Theory]]**
