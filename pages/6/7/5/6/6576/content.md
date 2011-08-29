@@ -1,0 +1,15 @@
+
+A [[differential form]] on a [[Lie group]] $\omega \in \Omega^1(G)$ is called **left invariant** if for every $g \in G$ it is invariant under the left [[action]] of $G$ on itself
+
+$g^* \omega = \omega$.
+
+Analogously a form is **right invariant** if it is invariant under right multiplication.
+
+
+[[!redirects left invariant]]
+
+[[!redirects right invariant]]
+[[!redirects right invariant differential form]]
+
+[[!redirects left invariant form]]
+[[!redirects right invariant form]]
