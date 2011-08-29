@@ -23,9 +23,9 @@ The [[mechanics]] of rigid bodies in [[Cartesian space]].
 
 ## References
 
-A standard textbook reference is section 28 of
-
-* [[Vladimir Arnol'd]], _Mathematical methods of classical mechanics_ Springer
+* [[Vladimir Arnol'd]], _Mathematical methods of classical mechanics_, Springer 1989 (section 28)
+* [[Landau-Lifschitz]], vol.1, Mechanics
+* R. Abraham, J. Marsden: The Foundations of Mechanics, Benjamin Press, 1967, Addison-Wesley, 1978; large pdf 86 Mb free at [CaltechAuthors](http://resolver.caltech.edu/CaltechBOOK:1987.001)
 
 References from the point of view of [[Geometric Algebra]] include
 
