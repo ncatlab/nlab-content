@@ -17,7 +17,7 @@
 
 ## Idea
 
-_Measure coalgebras_ are an [[enriched category|enrichment]] of the category of [[commutative rings]] (or commutative $\mathbb{Z}$-algebras) in the [[cartesian closed category]] $k$ [[Cocomm Coalg]] of [[cocommutative coalgebra|cocommutative]] [[coalgebras]] (which we will write simply as $Coalg$), given a [[ground field]] $k$. 
+_Measure coalgebras_ (or _measuring coalgebras_) are an [[enriched category|enrichment]] of the category of [[commutative rings]] (or commutative $\mathbb{Z}$-algebras) in the [[cartesian closed category]] $k$ [[Cocomm Coalg]] of [[cocommutative coalgebra|cocommutative]] [[coalgebras]] (which we will write simply as $Coalg$), given a [[ground field]] $k$. 
 
 The starting point is the observation that the category $Coalg$ acts on the category [[CommAlg|Alg]] of [[commutative algebras]]: there is a functor 
 
@@ -119,4 +119,6 @@ Coalg(C, \mu(A_0, A_1) \times \mu(A_1, A_2)) & \cong & Coalg(C, \mu(A_0, A_1)) \
 }$$ 
 
 
-[[!redirects measure coalgebras]].
+[[!redirects measure coalgebras]]
+[[!redirects measuring coalgebra]]
+[[!redirects measuring coalgebras]]
