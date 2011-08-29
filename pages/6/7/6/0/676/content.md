@@ -43,6 +43,8 @@
 
       * [[n-symplectic manifold]]
 
+  * [[mass]], [[charge]], [[momentum]], [[angular momentum]], [[moment of inertia]]
+
   * [[spacetime]]
 
     * [[smooth Lorentzian manifold]]
