@@ -10,6 +10,12 @@
 
 ***
 
+* **[[mechanics]]**
+
+  * [[mass]], [[charge]], [[momentum]], [[angular momentum]], [[moment of inertia]]
+
+  * [[rigid body dynamics]]
+
 
 * **[[classical field theory|Classical Field Theory]]**
 
@@ -42,8 +48,6 @@
     * [[multisymplectic geometry]]
 
       * [[n-symplectic manifold]]
-
-  * [[mass]], [[charge]], [[momentum]], [[angular momentum]], [[moment of inertia]]
 
   * [[spacetime]]
 
