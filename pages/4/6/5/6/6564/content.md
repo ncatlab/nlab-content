@@ -1,0 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+## References
+
+A discussion of _moment of inertia_ in terms of [[bivector]]s that applies in any [[dimension]] of [[space]]([[spacetime]]) is around page 56 of 
+
+* Chris Doran, Anthony Lasaenby, _Physical applications of geometric algebra_ ([pdf](https://dspace.ist.utl.pt/bitstream/2295/52599/1/Lectures_on_Geometric_Algebra.pdf#page=56))
+
+These authors amplify the canonical embedding of bivectors into the [[Clifford algebra]], which they call "[[Geometric Algebra]]".
