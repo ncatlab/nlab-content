@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -37,7 +36,7 @@ Just as two algebras are Morita equivalent if their categories of modules are eq
 
 ## Properties
 
-A differentible stack is in partuclar an object in the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] that is 
+A differentible stack is in particular an object in the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] that is 
 
 * [[1-truncated]] 
 
