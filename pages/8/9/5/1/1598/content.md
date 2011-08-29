@@ -142,5 +142,9 @@ The notion of [[group]] generalizes in [[higher category theory]] to that of [[2
 Accordingly, so does the notion of Lie group generalize to [[Lie 2-group]], ... [[∞-Lie group]]. For details see [[∞-Lie groupoid]].
 
 
+## Related concepts
+
+* [[Hamiltonian dynamics on Lie groups]]
+
 
 [[!redirects Lie groups]]
