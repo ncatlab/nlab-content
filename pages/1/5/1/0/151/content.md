@@ -47,12 +47,9 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 
 * H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
 
+* David Corfield: [More on duality](http://golem.ph.utexas.edu/category/2007/01/more_on_duality.html) (blog discussion)
 
+* wikipedia [duality (mathematics)](http://en.wikipedia.org/wiki/Duality_%28mathematics%29)
+* MathOverflow: [the-concept-of-duality](http://mathoverflow.net/questions/73711/the-concept-of-duality)
 
-#Blog discussion#
-
-* David Corfield: [More on duality](http://golem.ph.utexas.edu/category/2007/01/more_on_duality.html)
-
-
-[[!redirects duality]]
 [[!redirects dualities]]
