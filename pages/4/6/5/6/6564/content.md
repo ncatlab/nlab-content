@@ -9,10 +9,43 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the [[mechanics]] of [[rigid body dynamics]] in [[Cartesian space]] $\mathbb{R}^n$ the _moment of inertia_ of a rigid body is a [[linear function]] 
+
+$$
+  I : \wedge^2 \mathbb{R}^n \to \wedge^2 \mathbb{R}^n
+$$
+
+that relates its [[angular velocity]] [[bivector]] $\Omega \in \wedge^2 \mathbb{R}^n$  to its [[angular momentum]] [[bivector]] $L \in \wedge^2 \mathbb{R}^n$ (and thus to its [[kinetic energy]] and other quantites).
+
+$$
+  I : \Omega \mapsto L(\Omega) :=  I \Omega
+  \,.
+$$
+
+
+The moment of inertia is the analog of [[mass]] for rotational dynamics: in linear dynamics the analog of the above formula says that the [[momentum]] $P$ is proportional to the [[velocity]] $V$ as
+
+$$
+  \vec p = m \vec v
+  \,.
+$$
+
+
+
 ## References
 
 A discussion of _moment of inertia_ in terms of [[bivector]]s that applies in any [[dimension]] of [[space]]([[spacetime]]) is around page 56 of 
 
 * Chris Doran, Anthony Lasaenby, _Physical applications of geometric algebra_ ([pdf](https://dspace.ist.utl.pt/bitstream/2295/52599/1/Lectures_on_Geometric_Algebra.pdf#page=56))
+
+and around slide 6 in 
+
+* Anthony Lasenby, Chris Doran and Robert Lasenby, _Rigid Body Dynamics and Conformal Geometric Algebra_ ([pdf](http://staff.science.uva.nl/~leo/agacse2010/talks_world/Lasenby.pdf))
 
 These authors amplify the canonical embedding of bivectors into the [[Clifford algebra]], which they call "[[Geometric Algebra]]".
