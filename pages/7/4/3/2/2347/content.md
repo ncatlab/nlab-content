@@ -217,10 +217,16 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 
 =--
 
+## Special cases
+
+* [[Hamiltonian dynamics on Lie groups]]
+
+  * [[rigid body dynamics]]
 
 ## Related concepts
 
 * [[mechanics]]
+
 
 * **classical mechanics**
 
