@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 =--
 =--
 
@@ -36,18 +40,38 @@ $$
   \,.
 $$
 
+## Definition
+
+In terms of the discussion at [[Hamiltonian dynamics on Lie groups]] the [[rigid body dynamics]] in $\mathbb{R}^n$ is given by Hamiltonian motion on the [[special orthogonal group]] $SO(n)$. It is defined by any [[left invariant]] [[Riemannian metric]]
+
+$$
+  \langle -,-\rangle \in Sym^2_{C^\infty(G)} \Gamma(T G) 
+$$
+
+hence a bilinear non-degenarate form on the [[Lie algebra]] $\mathfrak{so}(n)$ (not necessarily the [[Killing form]]).
+
+This bilinear form is the moment of inertia. (For instance [AbrahamMarsden, section 4.6](#AbrahamMarsden).)
+
+
 ## Related pages
 
-* [[rigid body dynamics]]
+* [[Hamiltonian dynamics on Lie groups]]
 
-  * [[angular velocity]]
+  * [[rigid body dynamics]]
 
-  * [[angular momentum]]
+    * [[angular velocity]]
+
+    * [[angular momentum]]
 
 
 ## References
 
-A discussion of _moment of inertia_ in terms of [[bivector]]s that applies in any [[dimension]] of [[space]]([[spacetime]]) is around page 74 of 
+A classical textbook discussion is for instance sectin 4.6 of
+
+* [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ 
+ {#AbrahamMarsden}
+
+A pedestrian discussion of _moment of inertia_ in terms of [[bivector]]s that applies in any [[dimension]] of [[space]]([[spacetime]]) is around page 74 of 
 
 * Chris Doran, Anthony Lasenby, _Geometric Algebra for Physicists_ Cambridge University Press
 
