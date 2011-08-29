@@ -26,7 +26,14 @@ Since the two [[Lie group]]s differ by an discrete group $\mathbb{Z}_2$, these t
 
 ## Properties
 
+### In the classification of Lie algebras
+
 For $n \gt 2$, $\mathfrak{so}(n)$ is a [[simple Lie algebra]], either $\mathfrak{d}_{n/2}$ when $n$ is even or $\mathfrak{b}_{(n-1)/2}$ when $n$ is odd.  For $n = 2$, $\mathfrak{so}(n)$ is the [[line]], an [[abelian Lie algebra]], which is also a [[simple object]] in [[LieAlg]] but is not counted as a simple Lie algebra.  For $n \lt 2$, $\mathfrak{so}(n)$ is the [[trivial Lie algebra]] (which is [[too simple to be simple]] by any standard).
+
+### Relation to Clifford algebra
+
+For $V$ an [[inner product space]], 
+the special orthogonal Lie algebra on $V$ is naturally isomorphism to the algebra of [[bivectors]] in the [[Clifford algebra]] $Cl(V)$ under the Clifford [[commutator]] bracket. 
 
 ## Related Lie concepts
 
