@@ -218,7 +218,9 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 =--
 
 
-## Literature and related entries
+## Related concepts
+
+* [[mechanics]]
 
 * **classical mechanics**
 
@@ -236,11 +238,20 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 
   * [[FQFT]], [[AQFT]]
 
-#### References
+## References
 
-* [[V. Arnold]], _Mathematical methods of classical mechanics_
-* [[Klaas Landsman]], _[[Mathematical Topics Between Classical and Quantum Mechanics]]_
+Classical textbooks include
+
+* [[Vladimir Arnol'd]], _Mathematical methods of classical mechanics_
+
+* [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ (1978)
+
 * Lev Landau, Lifschitz, _Classical mechanics_, vol. I of the [[Landau-Lifschitz|Course of theoretical physics]]
+
+
+Discussion with an eye also towards [[quantum mechanics]] is in
+
+* [[Klaas Landsman]], _[[Mathematical Topics Between Classical and Quantum Mechanics]]_
 
 [[!redirects classical mechanical system]]
 [[!redirects classical mechanical systems]]
