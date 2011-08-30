@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -22,7 +21,7 @@ More generally, we can define a real numbers object (RNO) in any category with s
 
 ## Definition
 
-Let $\mathcal{E}$ be a [[Heyting category]].  (This means, in particular, that every we can interpret full [[first-order logic|first-order]] [[intuitionistic logic]] using the [[stack semantics]].)  A (located Dedekind) __real numbers object__ in $\mathcal{E}$ is a [[ring object]] in $\mathcal{E}$ that satisfies (in the [[internal logic]]) the axioms of a [[Dedekind-complete]] [[linearly ordered]] [[Heyting field]].
+Let $\mathcal{E}$ be a [[Heyting category]].  (This means, in particular, that we can interpret full [[first-order logic|first-order]] [[intuitionistic logic]] using the [[stack semantics]].)  A (located Dedekind) __real numbers object__ in $\mathcal{E}$ is a [[ring object]] in $\mathcal{E}$ that satisfies (in the [[internal logic]]) the axioms of a [[Dedekind-complete]] [[linearly ordered]] [[Heyting field]].
 
 In detail, a _commutative ring object_ in $\mathcal{E}$ is an object $R$ equipped with morphisms $0\colon \mathbf{1} \to R$, ${-}\colon R \to R$, ${+}\colon R \times R \to R$, $1\colon \mathbf{1} \to R$, and ${\cdot}\colon R \times R \to R$ (where $\mathbf{1}$ is the [[terminal object]] of $\mathcal{E}$ and $\times$ is the [[product]] operation in $\mathcal{E}$) that make certain diagrams commute.  (These diagrams may be found at [[ring object]], in principle, although right now they\'re not there.)
 
@@ -96,20 +95,20 @@ An object satisfying all but the last axiom of a field object is precisely a [[l
 ...
 =--
 
-We usually speak of *[[the]]* RNO, if one exists.  This is because any two RNOs in a Heyting category are [[isomorphic]], in an essentially unique way.
+It would be nice to say that Heyting category with an RNO must have an NNO; after all, $\mathbb{N}$ is contained in $\mathbb{R}$.  However, my only argument is impredicative; although I don't know a specific example, there could be a $\Pi$-pretopos with an RNO but no NNO.  However, the argument works for a [[infinitary coherent category|geometric]] Heyting category or a [[topos]].  (In light of the constructions below, the existence of an RNO is equivalent to the existence of an NNO in a topos.)
 +-- {: .un_thm}
 ###### Theorem
-If $R$ and $R'$ are both RNOs in a Heyting category $\mathcal{E}$, then there is a unique isomorphism from $R$ to $R'$ that preserves the structures on them ($0$, $-$, $+$, $1$, $\cdot$, $\lt$).
+If $R$ is an RNO in an infinitary Heyting category or topos, then there is unique subobject $N$ of $R$ that is both a sub-[[rig]] object of $R$ and an NNO under the operations $0\colon \mathbf{1} \to N$ and $({-}) + 1\colon N \to N$.
 =--
 +-- {: .proof}
 ###### Proof
 ...
 =--
 
-Any [[infinitary coherent category|geometric]] Heyting category or [[topos]] with an RNO must also have a [[natural numbers object]] (NNO).  The argument is impredicative, so as far as I can tell, there may even be a $\Pi$-[[pretopos]] with an RNO but no NNO (although I don't know an example).  In a topos on the other hand, in light of the constructions below, the existence of an RNO is equivalent to the existence of an NNO.
+We usually speak of *[[the]]* RNO, if one exists.  This is because any two RNOs in a Heyting category with an NNO are [[isomorphic]], in an essentially unique way.  (I can't price this without an NNO,although the previous theorem shows that we often have this.)
 +-- {: .un_thm}
 ###### Theorem
-If $R$ is an RNO in an infinitary Heyting category, then there is unique subobject $N$ of $R$ that is both a sub-[[rig]] object of $R$ and an NNO under the operations $0\colon \mathbf{1} \to N$ and $({-}) + 1\colon N \to N$.
+If $R$ and $R'$ are both RNOs in a Heyting category $\mathcal{E}$ with NNO $N$, then there is a unique isomorphism from $R$ to $R'$ that preserves the structures on them ($0$, $-$, $+$, $1$, $\cdot$, $\lt$).
 =--
 +-- {: .proof}
 ###### Proof
