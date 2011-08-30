@@ -185,7 +185,7 @@ For higher dimensional non-abelian Chern-Simons theory see for instance
 
 For the formulation of abelian Chern-Simons theory by fiber integration over cup products in [[ordinary differential cohomology]] see
 
-* Enore Guadagnini, Frank Thuillier, _Deligne-Beilinson cohomology and abelian links invariants_ ([arXiv:0801.1445](http://arxiv.org/abs/0801.1445))
+* Enore Guadagnini, Frank Thuillier, _Deligne-Beilinson cohomology and abelian links invariants_ SIGMA 4 (2008), 078, 30 ([arXiv:0801.1445](http://arxiv.org/abs/0801.1445))
   {#GT}
 
 * R. Floreanini, R. Percacci, _Higher dimensional abelian Chern-Simons theory_ Physics Letters B Volume 224, Issue 3, 29 (1989)
@@ -197,7 +197,10 @@ For the formulation of abelian Chern-Simons theory by fiber integration over cup
 
 The idea of describing [[self-dual higher gauge theory]] by abelian Chern-Simons theory in one dimension higher originates in 
 
-* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ Journal of Geometry and Physics
+Volume 22, Issue 2, May 1997, Pages 103-133  ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+
+(there for the [[6d (2,0)-susy QFT]] on the [[fivebrane]]) and
 
 * [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_ ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
 
