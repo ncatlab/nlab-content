@@ -15,7 +15,8 @@
 
 ## Idea
 
-The Beilinson-Deligne [[cup product]] is the standard cup product on [[Deligne cohomology|Deligne complexes]]:
+The _Beilinson-Drinfeld cup product_ is an explicit presentation of the [[cup product]] in [[ordinary differential cohomology]] for the case that the latter is modeled by the [[Deligne complex]]. It sends
+
 $$
 \cup: A[p]^\infty_D\otimes B[q]^\infty_D\to (A\otimes_{\mathbb{Z}} B)[p+q]^\infty_D,
 $$
