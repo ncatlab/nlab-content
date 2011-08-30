@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -17,7 +16,7 @@
 
 ## Idea
 
-A _theory_ is a collection of _axioms_ in soFme [[logic]].
+A _theory_ is a collection of _axioms_ in some [[logic]].
 
 ## Definition
 
