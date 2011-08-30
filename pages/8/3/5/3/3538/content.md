@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -19,7 +18,7 @@
 
 ## Definition
 
-A __clique__ of a category $C$ is a [[functor]] $T \to C$ from a [[truncated|(-2)-truncated]] [[groupoid]] $T$, or equivalently an [[anafunctor]] to $C$ from the [[trivial category]].
+A __clique__ of a category $C$ is a [[functor]] $T \to C$ from a [[(-2)-groupoid]] $T$, or equivalently an [[anafunctor]] to $C$ from the [[trivial category]].
 
 So this is a pair of a category $T$ which is weakly equivalent to $1$ (i.e., $T$ is the [[indiscrete category]] on an [[inhabited set|inhabited collection]] of [[object]]s) and a [[functor]] $A\colon T \rightarrow C$.
 
