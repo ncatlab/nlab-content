@@ -457,3 +457,6 @@ _ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foun
 
 
 [[!redirects CFT]]
+[[!redirects CFTs]]
+
+[[!redirects conformal field theories]]
