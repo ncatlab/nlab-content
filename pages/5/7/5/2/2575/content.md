@@ -38,10 +38,11 @@ For $G$ a discrete group the corresponding (much simpler) theory is [[Dijkgraaf-
 
 
 
-## Classical Chern-Simons theory
+## Classical Chern-Simons theory (for simply connected groups)
  {#ClassicalChern-SimonsTheory}
 
-We describe the basic setup of Chern-Simons theory
+For $G$ a [[simply connected]] [[Lie group]] 
+we describe the basic setup of $G$-Chern-Simons theory
 
 * [Lagrangian and action functional](#LagrangianAndActionFunctional)
 
@@ -138,6 +139,61 @@ Zuckerman states that on the reduced phase space of $GL(2,\mathbb{R})$-Chern-Sim
 ### Geometric quantization
 
 (...)
+
+
+## Classical Chern-Simons theory (general case)
+ {#ClassicalChern-SimonsTheoryGeneral}
+
+If the [[Lie group]] $G$ is not [[simply-connected]]
+a $G$-[[principal bundle]] on 3-dimensional $\Sigma$
+is not necessarily trivializable. (For instance for 
+$G = U(1)$ the [[circle group]] the [[circle bundle]]s
+on $\Sigma$ are classified by their [[Chern class]], which
+can be any element in the [[integral cohomology]]
+$H^2(\Sigma,\mathbb{Z})$.)
+
+Therefore in these cases the [[configuration space]] of
+Chern-Simons theory is no longer in general just a
+[[groupoid of Lie algebra valued forms]] -- which is a [[groupoid]] of [[connection on a bundle|connections]] on trivial [[principal bundles]], but
+a [[groupoid]] of more general [[connection on a bundle|connections]] on non-trivial [[principal bundle]]s.
+
+The general formulation of Chern-Simons theory is then this:
+
+let $G$ be a [[compact space|compact]] [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and let $\langle-,-\rangle$
+be a binary [[invariant polynomial]]. Then the refined
+[[Chern-Weil homomorphism]] produces a map
+
+$$
+  \hat \mathbf{c} : H^1(\Sigma,G)_{conn} \to 
+  H^4(\Sigma)_{diff}
+$$
+
+from $G$-bundles with connection to degree-4 [[ordinary differential cohomology]] of $\Sigma$, classifying [[circle n-bundle with connection|circle 3-bundles with connection]] on $\Sigma$: the [[Chern-Simons circle 3-bundle]]s.
+
+The [[action functional]] of Chern-Simons theory is the
+[[higher holonomy]] of this circle 3-bundle
+
+$$
+  S_CS : \nabla \mapsto \int_\Sigma \hat \mathbf{c}(\nabla)
+  \in U(1)
+  \,.
+$$
+
+### Abelian case
+
+Let $G = U(1)$ the circle Lie group, and $\langle-,-\rangle$ the canonical invariant polynomial. 
+
+
+Then the configuration space is $\mathbf{H}^2(\Sigma)_{diff}$ -- [[ordinary differential cohomology]] in degree 2 -- and the action functional is given by the [[fiber integration in ordinary differential cohomology]] over the [[Beilinson-Deligne cup product]]
+
+$$
+  S_{CS} : \hat A \mapsto \int_\Sigma \hat A \cup \hat A
+  \,.
+$$
+
+(For the moment see [[higher dimensional Chern-Simons theory]] for references on this case.)
+
+
 
 ## Quantum Chern-Simons theory
 
