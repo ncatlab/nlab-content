@@ -75,6 +75,23 @@ $$
   \,.
 $$
 
+## Applications
+
+### In higher Chern-Simons theory
+
+The [[action functional]] of abelian [[higher dimensional Chern-Simons theory]] is given by the [[fiber integration in ordinary differential cohomology]] over the BD cup product of differential cocycles
+
+$$
+  S_{CS} : H^{2k+2}(\Sigma)_diff  \to U(1)
+$$
+
+$$
+  \hat C \mapsto \int_\Sigma \hat C \cup \hat C
+  \,.
+$$
+
+For more on this see [[higher dimensional Chern-Simons theory]].
+
 ## References 
 
 The original references are 
