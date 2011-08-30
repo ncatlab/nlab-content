@@ -1,3 +1,4 @@
+[[!redirects universal colimits]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -19,7 +20,7 @@
 
 ## Idea 
 
-One says -- at least in the context of [[Giraud's axioms]] for [[topos]]es and [[(∞,1)-toposes]]) -- that _[[colimit]]s are universal_ in a context in which they are _stable under [[pullback]]_. This is described in more detail at [[commutativity of limits and colimits]].
+One says -- at least in the context of [[Giraud's axioms]] for [[topos]]es and [[(∞,1)-toposes]]) -- that a _[[colimit]] is universal_ if it is _stable under [[pullback]]s_. This is described in more detail at [[commutativity of limits and colimits]].
 
 The statement "colimits are universal" is then one of [[Giraud's axioms]] that characterize [[Grothendieck topos]]es in the [[category theory|1-categorical context]] and Grothendieck-Rezk-Lurie [[(∞,1)-topos]]es in the [[higher category theory|higher categorical context]].
 
