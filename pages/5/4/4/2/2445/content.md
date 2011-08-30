@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Algebra and Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents 
 {:toc}
@@ -25,7 +36,9 @@ If $M$ is a projective $R$-module of rank $d$, then independently of $q$, the Cl
 
 If $R$ is the ring of smooth functions on a pseudo-Riemannian manifold $X$, and $M$ is the $R$-module of sections of the tangent bundle, then the metric endows $M$ with a quadratic structure, and one can form the Clifford algebra of the tangent bundle.  
 
-## As a superalgebra
+## Properties
+
+### As a superalgebra
 
 While the [[tensor algebra]] of an $R$-module $M$ has a natural [[integer]] grading, the quadratic relation collapses this to a natural $\mathbb{Z}/2\mathbb{Z}$-grading on $Cl(M,q)$.
 
@@ -37,7 +50,13 @@ When $M$ is projective of rank $d$, each homogeneous piece is projective of rank
 
 One can view the Clifford algebra multiplication as a quantization of the commutative [[super algebra]] $\bigwedge_R M$.
 
-## Relation to $Spin$ groups
+### Relation to exterior algebra (quantization)
+
+For $V$ an [[inner product space]], the [[symbol map]] (see there) constitutes an [[isomorphism]] of the underlying [[super vector space]]s of the Clifford algebra with the [[exterior algebra]] on $V$.
+
+One can understand the Clifford algebra as the [[quantization]] [[Grassmann algebra]] induced from the [[inner product]] regarded as an odd [[symplectic form]].
+
+### Relation to $Spin$ groups
 
 Let $M$ be a projective $R$-module of finite [[rank]], and let $q$ be nondegenerate.  Write $Cl(M,q)^\times$ for the [[group of units]] of the Clifford algebra $Cl(M,q)$.  
 
@@ -75,5 +94,14 @@ Special orthogonal groups over the reals are sometimes defined to be the connect
 
 Spin groups in signature $(m,n)$ for $m,n \geq 2$ have fundamental groups of order two.  They are simply connected when $m$ or $n$ is at most one. 
 
+## References
+
+For some standard material see for instance
+
+* [[Eckhard Meinrenken]], _Clifford algebras and Lie groups_ ([pdf](http://www.math.toronto.edu/mein/teaching/clif_main.pdf))
+
+* Lawson, Michelson _Spin geometry_
+
+For a program that promotes the use of Clifford algebra as a good expositional tool in introductory [[mechanics]] see _[[Geometric Algebra]]_ . 
 
 [[!redirects Clifford algebras]]
