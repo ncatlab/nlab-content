@@ -62,22 +62,18 @@ In the last requirement, of Dedekind completeness, we postulate (under certain c
 ###### Theorem
 This morphism is in fact unique.
 =--
+Here is an explicit 'external' proof:
 +-- {: .proof}
 ###### Proof
-
-Here is an explicit 'external' proof:
-
 Suppose that $x, x'\colon \Gamma \to R$ both satisfy the required properties, and consider $x \# x'$, which is a subobject of $\Gamma$.  By the strong connectedness of $\lt$, $x \# x'$ is contained in (factors through) $x \lt x' \vee x' \lt x$, which is the [[union]] of $x \lt x'$ and $x' \lt x$.
 
 Now consider $x \lt x'$, and let $a$ be a [[generalised element]] of $\Gamma$.  If $a$ belongs to (factors through) $x \lt x'$, or equivalently $(x(a), x'(a))$ belongs to $\lt$, it follows that $(a,x(a))$ belongs to $L$.  Thus, $(x(a), x(a))$ also belongs to $\lt$, or equivalently $a$ belongs to $x \lt x$.  By the strong irreflexivity of $\lt$, this is contained in $x \# x$; by the irreflexivity of $\#$, this is contained in $\bot$ (as a subobject of $\Gamma$).  Since every $a$ that belongs to $x \lt x'$ belongs to $\bot$, $x \lt x'$ is contained in (and so equals as a subobject) $\bot$.
 
 Similarly (either by swapping $x$ with $x'$ or by using $U$ instead of $L$), $x' \lt x$ is also $\bot$.  Therefore, $x \# x'$ is $\bot$.  By the tightness of $\#$, $x = x'$.
 =--
+Here is an 'internal' proof, to be interpreted in the [[stack semantics]] of $\mathcal{E}$:
 +-- {: .proof}
 ###### Proof
-
-Here is an 'internal' proof, to be interpreted in the [[stack semantics]] of $\mathcal{E}$:
-
 Suppose that $x, x'\colon R$ both satisfy the required properties, and suppose that $x \# x'$.  By the strong connectedness of $\lt$, $x \lt x'$ or $x' \lt x$.
 
 Now suppose that $x \lt x'$.  It follows that $x$ belongs to $L$, so $x \lt x$.  By the strong irreflexivity of $\lt$, $x \# x$; by the irreflexivity of $\#$, we have a contradiction.
@@ -95,7 +91,7 @@ An object satisfying all but the last axiom of a field object is precisely a [[l
 ...
 =--
 
-It would be nice to say that Heyting category with an RNO must have an NNO; after all, $\mathbb{N}$ is contained in $\mathbb{R}$.  However, my only argument is impredicative; although I don't know a specific example, there could be a $\Pi$-pretopos with an RNO but no NNO.  However, the argument works for a [[infinitary coherent category|geometric]] Heyting category or a [[topos]].  (In light of the constructions below, the existence of an RNO is equivalent to the existence of an NNO in a topos.)
+It would be nice to say that a Heyting category with an RNO must have an NNO; after all, $\mathbb{N}$ is contained in $\mathbb{R}$.  However, my only argument is impredicative; although I don't know a specific example, there could be a $\Pi$-pretopos with an RNO but no NNO.  However, the argument works for a [[infinitary coherent category|geometric]] Heyting category or a [[topos]].  (In light of the constructions below, the existence of an RNO is therefore equivalent to the existence of an NNO in a topos.)
 +-- {: .un_thm}
 ###### Theorem
 If $R$ is an RNO in an infinitary Heyting category or topos, then there is unique subobject $N$ of $R$ that is both a sub-[[rig]] object of $R$ and an NNO under the operations $0\colon \mathbf{1} \to N$ and $({-}) + 1\colon N \to N$.
@@ -105,10 +101,10 @@ If $R$ is an RNO in an infinitary Heyting category or topos, then there is uniqu
 ...
 =--
 
-We usually speak of *[[the]]* RNO, if one exists.  This is because any two RNOs in a Heyting category with an NNO are [[isomorphic]], in an essentially unique way.  (I can't price this without an NNO,although the previous theorem shows that we often have this.)
+We usually speak of *[[the]]* RNO, if one exists.  This is because any two RNOs in a Heyting category with an NNO are [[isomorphic]], in an essentially unique way.  (I can't prove this without an NNO, although the previous theorem shows that we often have one.)
 +-- {: .un_thm}
 ###### Theorem
-If $R$ and $R'$ are both RNOs in a Heyting category $\mathcal{E}$ with NNO $N$, then there is a unique isomorphism from $R$ to $R'$ that preserves the structures on them ($0$, $-$, $+$, $1$, $\cdot$, $\lt$).
+If $R$ and $R'$ are both RNOs in a Heyting category $\mathcal{E}$ with an NNO, then there is a unique isomorphism from $R$ to $R'$ that preserves the structures on them ($0$, $-$, $+$, $1$, $\cdot$, $\lt$).
 =--
 +-- {: .proof}
 ###### Proof
