@@ -178,15 +178,17 @@ This is prop. 5.2.4.6 and remark 5.2.4.7 in [[Higher Topos Theory|HTT]].
 
 Often and traditionally, the concept of derived functors is considered in [[homological algebra]] exclusively in the context of [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ in an [[abelian category]] $\mathcal{A}$.
 
-By taking [[quasi-isomorphism]]s as weak equivalences, $Ch_\bullet(\mathcal{A})$ is naturally a [[category with weak equivalences]]. In much of the literature on homological algebra the refinement of this structure to an injective [[model structure on chain complexes]] is implicit. For instance injective [[resolution]] of chain complexes is nothing but fibrant replacement in this model structure.
+By taking [[quasi-isomorphism]]s as weak equivalences, $Ch_\bullet(\mathcal{A})$ is naturally a [[category with weak equivalences]]. In much of the literature on homological algebra, the refinement of this structure to a projective or injective [[model structure on chain complexes]] is implicit.  For instance, injective [[resolution]] of chain complexes is nothing but fibrant replacement in the injective model structure.  Dually, projective resolution is cofibrant replacement in the projective model structure.  (Note, though, that hypotheses on $\mathcal{A}$ are required in order for these model structures to exist.)
 
 
-Now any ordinary functor $F:\mathcal{A} \to \mathcal{B}$ between [[abelian categories]] induces a functor $Ch_\bullet(F):Ch_\bullet(\mathcal{A}) \to Ch_\bullet(\mathcal{B})$ between [[category of chain complexes|categories of chain complexes]].
+Now, any ordinary [[additive functor]] $F\colon \mathcal{A} \to \mathcal{B}$ between [[abelian categories]] induces a functor $Ch_\bullet(F)\colon Ch_\bullet(\mathcal{A}) \to Ch_\bullet(\mathcal{B})$ between [[category of chain complexes|categories of chain complexes]].  We can therefore ask about derived functors of $Ch_\bullet(F)$.
 
-Suppose $F$ is a [[left exact functor]], then $Ch_\bullet(F)$ is right Quillen. What in the homological algebra literature is called the derived functor 
+Note first that $Ch_\bullet(F)$ automatically preserves [[chain homotopies]], and therefore also preserves [[chain homotopy equivalence]]s.  Since the projective (resp. injective) model structure on chain complexes has the property that weak equivalences (that is, quasi-isomorphisms) between cofibrant (resp. fibrant) objects are chain homotopy equivalences, it follows that $Ch_\bullet(F)$ automatically preserves weak equivalences between projective-cofibrant objects, and also between injective-fibrant objects.  Thus, it has a left derived functor if the projective model structure on $Ch_\bullet(\mathcal{A})$ exists, and a right derived functor if the injective model structure exists.
+
+In the homological algebra literature, what is called the $p$th right derived functor 
 
 $$
-  R^p F : \mathcal{A} \to \mathcal{B}
+  R^p F \colon \mathcal{A} \to \mathcal{B}
 $$
 
 is the composite
@@ -200,11 +202,9 @@ $$
   \,,
 $$
 
-where
+1. The first map sends an object $A \in \mathcal{A}$ to the corresponding [[Eilenberg-MacLane object]] $\mathbf{B}^p A$: the cochain complex $A[p]$ concentrated on $A$ in degree $p$.
 
-1. the first map sends an object $A \in \mathcal{A}$ to the corresponding [[Eilenberg-MacLane object]] $\mathbf{B}^p A$: the cochain complex $A[p]$ concentrated on $A$ in degree $p$;
-
-1. the second map is the actual derived functor $\mathbb{R}Ch_\bullet(F)$ of $Ch_\bullet(F)$ in the above sense, so this is itself the composite
+1. The second map is the actual right derived functor $\mathbb{R}Ch_\bullet(F)$ of $Ch_\bullet(F)$ in the sense used previously on this page.  Thus, this is itself the composite
 
    $$
      \mathbb{R}F : Ch_\bullet(\mathcal{A}) \stackrel{P}{\to}
@@ -214,16 +214,37 @@ where
      \,,
    $$
 
-   where $P$ denotes a fibrant resolution functor. In the injective [[model structure on chain complexes]] this amounts to the usual [[injective]] resolutions seen in the homological algebra literature;
+   where $P$ denotes a fibrant resolution functor in the injective [[model structure on chain complexes]].  Applied to an Eilenberg-MacLane object, this amounts to the usual [[injective]] resolutions seen in the homological algebra literature.
 
-1. the last morphisms computes the [[cochain cohomology]] of the resulting cochain complex in degree 0.
+1. The last morphism computes the [[cochain cohomology]] of the resulting cochain complex in degree 0.
 
-Here the first and the last steps are considered traditionally, but are not really necessary:
+Of course, it is equivalent to instead regard $A$ as concentrated in degree $0$, and then take the $p$th homology group at the last step.  Left derived functors are dual, using the projective model structure.
 
-1. Instead of applying the first step and resticting attention to arguments that are chain complexes concentrated in a single degree, one can evaluate $\mathbb{R} Ch_\bullet(F)$ on all chain complexes. In homological algebra one then speaks of [[hyper-derived functor]]s.
+The first and the last steps are traditionally included, but are not really necessary:
 
-1. The last step of taking cohomology groups serves to extract invariant information. It also destroys the simple composition law of functors, though. But there is a computational tool that can be used to recover the derived functor -- in this homological sense -- of the composite of two functors from their individual derivations: this is the [[spectral sequence]] called the  <a href="http://ncatlab.org/nlab/show/spectral+sequence#GrothendieckSpectralSequence">Grothendieck spectral sequence</a>.
+1. Instead of applying the first step and resticting attention to arguments that are chain complexes concentrated in a single degree, one can evaluate $\mathbb{R} Ch_\bullet(F)$ on all chain complexes (and then, if desired, take homology groups). In homological algebra one then speaks of [[hyper-derived functor]]s.
 
+1. The last step of taking cohomology groups serves to extract invariant and computable information. It also destroys the simple composition law of functors, though. But there is a computational tool that can be used to recover the derived functor -- in this homological sense -- of the composite of two functors from their individual derivations: this is the [[spectral sequence]] called the  <a href="http://ncatlab.org/nlab/show/spectral+sequence#GrothendieckSpectralSequence">Grothendieck spectral sequence</a>.
+
+#### Long exact sequences
+
+Traditionally, in homological algebra, one only takes left derived functors of right exact functors, and right derived functors of left exact ones.  As we saw above, both left and right derived functors can be *defined* without these hypotheses, but it is only in the presence of these hypotheses that we obtain [[long exact sequences]].
+
+Specifically, suppose we have a [[short exact sequence]]
+$$ 0 \to A \to B \to C \to 0$$
+in $\mathcal{A}$.  Assuming $\mathcal{A}$ has enough projectives, we can then find projective resolutions $Q A$, $Q B$, and $Q C$ of $A$, $B$, and $C$, respectively, such that
+$$ 0 \to Q A \to Q B \to Q C \to 0 $$
+is a short exact sequence of chain complexes.  But since $Q C$ is projective, this short exact sequence is split, and therefore preserved by any additive functor.  Thus we have another short exact sequence
+$$ F Q A \to F Q B \to F Q C $$
+which therefore gives rise to a long exact sequence in homology:
+$$ \cdots \to H_1(F Q A) \to H_1(F Q B) \to H_1(F Q C) \to H_0 (F Q A) \to H_0(F Q B) \to H_0(F Q C). $$
+Of course, these homology groups are precisely the left derived functors of $F$, in the traditional homological algebra sense, applied to $A$, $B$, and $C$.
+
+All of this works without hypothesis on $F$.  However, if $F$ is [[right exact functor|right exact]], then it preserves the exactness of the sequence
+$$ Q A_1 \to Q A_0 \to A \to 0 $$
+(and the analogous ones for $B$ and $C$.  This implies that $F A \cong H_0 (F Q A)$ and so on, so that the above long exact sequence actually finishes
+$$ \cdots \to H_1(F Q A) \to H_1(F Q B) \to H_1(F Q C) \to F A \to F B \to F C \to 0. $$
+This is how derived functors are traditionally introduced in homological algebra: as a way to continue the right half of a short exact sequence preserved by a right exact functor into a long exact sequence.  The case of left exact functors and right derived functors is dual.
 
 
 ## Examples
