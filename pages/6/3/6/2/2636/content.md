@@ -18,3 +18,5 @@ In [[Hamiltonian mechanics]], the momentum coordinates are half of the basic coo
 
 
 In [[quantum mechanics]], the [[canonical quantization]] process formally replaces momentum by $-i \hbar \frac{\partial}{\partial x},$ where $x$ is position.  (Equivalently, in [[momentum space]], canonical quantization replaces $x$ by $i \hbar \frac{\partial}{\partial p}.)$  In this situation, position and momentum [[canonical commutation relation|fail to commute]].
+
+There is a generalization of momentum in symplectic geometry, so called [[moment map]].
