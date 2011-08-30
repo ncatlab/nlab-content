@@ -43,9 +43,9 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 * [[Lie theory]]
 
-* [[Riemannian geometry]]
-
-
+[[Euclidean geometry]] | $\stackrel{generalization}{\to}$ | [[Klein geometry]]
+------------------|-------------|---------------
+[[Riemannian geometry]] | $\stackrel{generalization}{\to}$ | [[Cartan geometry]]
 
 ## References
  {#References}
@@ -53,6 +53,8 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 A comprehensive standard textbook is
 
 * Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of Differential Geometry_ , Wiley Classics Library
+
+* R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
 
 Among online lecture notes there is
 
