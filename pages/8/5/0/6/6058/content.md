@@ -112,7 +112,9 @@ $$
 $$
 where $\cup$ is the [[Beilinson-Deligne cup-product]].
 
-Differential T-duality is the homotopy fiber of the morphism
+Notice that this is the one which defines [[higher dimensional Chern-Simons theory|abelian Chern-Simons theories]]. The higher [[holonomy]] of the  [[circle n-bundle with connection |circle 3-bundle with connection]] appearing here is the [[action functional]] of torus-[[Chern-Simons theory]].
+
+Differential T-duality pairs form the homotopy fiber of the morphism
 $(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}\times (\mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda)_{conn}\to \mathbf{B}^3\mathbf{U}(1)_{conn}$
 It relates differential cohomological structures on $\mathbb{R}^n / \Lambda$-principal bundles with that on certain dual $(\mathbb{R}^n)^* /\hat \Lambda$-principal bundles.
 
