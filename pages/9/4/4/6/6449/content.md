@@ -99,7 +99,9 @@ $$
   \,,
 $$
 
-where now the integral is [[fiber integration in ordinary differential cohomology]] and in the integrand we have the [[cup product]] of differential cocycles.
+where now the integral is [[fiber integration in ordinary differential cohomology]] and in the integrand we have the [[cup product in ordinary differential cohomology]] of differential cocycles.
+
+(See for instance ([GT, section 4.1](#GT)), ([FMS, (1.28)](#FMS))).
 
 ### Formulation in $\infty$-Chern-Simons theory
 
@@ -179,11 +181,17 @@ For higher dimensional non-abelian Chern-Simons theory see for instance
 
 * G Giachetta, L Mangiarotti, G Sardanashvily, _Noether conservation laws in higher-dimensional Chern-Simons theory_ Modern Physics Letters A Volume 18(2003) ([pdf](http://gnsardan.appfarm.ru/a84.pdf))
 
+### Formulation in differential cohomology
+
 For the formulation of abelian Chern-Simons theory by fiber integration over cup products in [[ordinary differential cohomology]] see
 
 * Enore Guadagnini, Frank Thuillier, _Deligne-Beilinson cohomology and abelian links invariants_ ([arXiv:0801.1445](http://arxiv.org/abs/0801.1445))
+  {#GT}
 
 * R. Floreanini, R. Percacci, _Higher dimensional abelian Chern-Simons theory_ Physics Letters B Volume 224, Issue 3, 29 (1989)
+
+* [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _The Uncertainty of Fluxes_ ([arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198))
+  {#FMS}
 
 ### Relation to self-dual theories
 
