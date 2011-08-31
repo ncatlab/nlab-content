@@ -42,12 +42,12 @@ A **Klein geometry** is a pair $(G, H)$ where $G$ is a
 
 ## Related concepts
 
-  local model           |     global geometry
-------------------------|--------------------------
- [[Euclidean geometry]] | [[Riemannian geometry]]
-  [[Klein geometry]]    |    [[Cartan geometry]]
+ local model                |   global geometry
+----------------------------|----------------------------
+ _Klein geometry_           |   [[Cartan geometry]]
+ [[Klein 2-geometry]]       |   [[Cartan 2-geometry]]
+ [[higher Klein geometry]]  |   [[higher Cartan geometry]]
 
-* [[higher Klein geometry]]
 
 ## References
 
