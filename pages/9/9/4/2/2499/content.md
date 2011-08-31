@@ -754,6 +754,12 @@ Apart from that the first vague mention of the observation that the "FDA"-formal
 
 * [[Pietro Fre]], [[Pietro Antonio Grassi]], _Free differential algebras, rheonomy and pure spinors_ ([arXiv](http://arxiv.org/abs/0801.3076))
 
+An attempt at a comprehensive discussion of the formalism in the context of [[cohesive (∞,1)-topos]]-theory for 
+[[smooth super ∞-groupoid]]s is in the last section of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+
 To compare D'Auria-Fre with our language here, notice the following points in their book
 
 * The statement that a supergravity field is a morphisms $\phi : T X \to inn(\mathfrak{g})$ or dually a morphism $\Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : \phi$ out of the [[Weil algebra]] of the [[supergravity Lie 3-algebra]] or similar is implicit in $(I.3.122)$ (but it is evident, comparing with the formulas at [[Weil algebra]]) -- notice that these authors call $\phi$ here a "soft form".
