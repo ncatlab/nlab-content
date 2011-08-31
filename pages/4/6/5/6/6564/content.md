@@ -31,7 +31,7 @@ $$
 $$
 so that the above equation becomes simply
 $$ L = I(\Omega). $$
-This linear function is additionally *symmetric* with respect to the induced inner product on $\wedge^2 \mathbb{R}^n$, so it can be represented in coordinates by a symmetric $\frac{n(n-1)}{2} \times \frac{n(n-1)}{2}$ matrix.
+This linear function is additionally *symmetric* with respect to the induced [[inner product]] on $\wedge^2 \mathbb{R}^n$, so it can be represented in coordinates by a symmetric $\frac{n(n-1)}{2} \times \frac{n(n-1)}{2}$ [[matrix]].
 
 Similarly, differentiating this equation once, we have
 $$ \tau = I(\alpha) $$
@@ -41,9 +41,9 @@ relating the [[torque]] $\tau$ to the [[angular acceleration]] $\alpha$ --- this
 
 In low dimensions, the situation can be (and usually is) simplified.
 
-* In two dimensions, bivectors form a one-dimensional vector space, so that the moment of inertia is simply a scalar.
+* In two [[dimensions]], [[bivectors]] form a one-dimensional [[vector space]], so that the moment of inertia is simply a scalar.
 
-* In three dimensions, bivectors form a three-dimensional vector space, so that the moment of inertia can be represented by a symmetric $3\times 3$ matrix.  Additionally, in three dimensions, there is an isomorphism between bivectors and vectors (once we choose a [[volume form]], which in particular implies an [[orientation]]); so that angular velocity and momentum can be (and usually are) identified with vectors, and the moment of inertia with a symmetric rank-2 [[tensor]].
+* In three dimensions, bivectors form a three-dimensional [[vector space]], so that the moment of inertia can be represented by a symmetric $3\times 3$ matrix.  Additionally, in three dimensions, there is an [[isomorphism]] between [[bivectors]] and [[vectors]] (once we choose a [[volume form]], which in particular implies an [[orientation]]); so that [[angular velocity]] and [[momentum]] can be (and usually are) identified with [[vectors]], and the moment of inertia with a symmetric rank-2 [[tensor]].
 
 
 ## Definition
