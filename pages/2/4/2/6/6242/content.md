@@ -42,4 +42,6 @@ Stanford encyclopaedia of philosophy: [quantum logic and probability theory](htt
 
 * A. Sudbery, _Quantum mechanics and the particles of nature_, An outline for mathematicians, Camb. Univ. Press 1986
 
+* Steve Vickers, slides from Midland Grad. School 2010, quantum topos theory, [web](http://www.cs.bham.ac.uk/~sjv/teaching/MGS2010), most relevant part IV: [pdf](http://www.cs.bham.ac.uk/~sjv/teaching/MGS2010/slides4.pdf)
+
 [[!redirects quantum logics]]
