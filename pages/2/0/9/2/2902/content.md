@@ -1,8 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 #Idea#
+
+A certain identity in [[Euclidean geometry]].
 
 Suppose we inscribe a regular pentagon, a regular decagon, and a regular hexagon in circles of the same radius.  If we denote the respective edge lengths of these polygons by $P$, $D$ and $H$, then these lengths will satisfy the identity:
 
