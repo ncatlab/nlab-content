@@ -2,12 +2,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential geometry
+#### Symplectic geometry
 +--{: .hide}
-[[!include synthetic differential geometry - contents]]
+[[!include symplectic geometry - contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
