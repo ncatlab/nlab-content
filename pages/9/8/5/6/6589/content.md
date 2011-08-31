@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+### Idea ###
+
+The fixed point of a [[renormalization]]-group (RG) transform applied to a [[field theory]] should, intuitively, be described by a theory which is scale-invariant.  The **Zamolodchikov $c$-theorem** makes this precise:  for any renormalizable 2D field theory, there exists a function $c(g)$ of its coupling constants $g = (g_1,g_2,\ldots)$ which
+
+* decreases monotonically with successive RG transforms, and
+* at the fixed point of the RG, is equal to the [[Virasoro algebra|central charge]] of the [[conformal field theory]] which describes that critical point.
+
+Attempts to find analogues for the 2D $c$-theorem in higher [[dimensions]] have involved versions of [[holographic principle|holographic duality]] such as the [[AdS/CFT correspondence]].
+
+### References ###
+
+* A. B. Zamolodchikov (1986), _"Irreversibility" of the Flux of the Renormalization Group in a 2-D Field Theory_, JETP Lett. **43**: 730--732. ([pdf](http://www.jetpletters.ac.ru/ps/1413/article_21504.pdf))
+* R. C. Myers and A. Sinha (2010), _Seeing a $c$-theorem with holography_, Physical Review D **82**: 046006, ([arXiv:1006.1263](http://arxiv.org/abs/1006.1263))
+* R. C. Myers and A. Sinha (2011), _Holographic $c$-theorems in arbitrary dimensions_, Journal of High Energy Physics **2011**, 1: 1--53, ([arXiv:1011.5819](http://arxiv.org/abs/1011.5819))
