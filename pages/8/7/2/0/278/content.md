@@ -43,9 +43,11 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 * [[Lie theory]]
 
-[[Euclidean geometry]] | $\stackrel{generalization}{\to}$ | [[Klein geometry]]
-------------------|-------------|---------------
-[[Riemannian geometry]] | $\stackrel{generalization}{\to}$ | [[Cartan geometry]]
+
+  local model           |     global geometry
+------------------------|--------------------------
+ [[Euclidean geometry]] | [[Riemannian geometry]]
+  [[Klein geometry]]    |    [[Cartan geometry]]
 
 ## References
  {#References}
