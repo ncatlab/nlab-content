@@ -46,17 +46,21 @@ $$
 
 where $vol_g$ is the [[volume form]] and $\star_g$ is the [[Hodge star operator]] induced by $g$.  (The result is independent of [[orientation]], which can be made explicit by interpreting both $vol$ and $\star$ as valued in [[pseudoforms]].)
 
-####Example.
 
-If $(M,g)$ is $\mathbb{R}^n$ endowed with the standard Euclidean metric, then
+## Example
+
+If $(M,g)$ is the [[Cartesian space]] $\mathbb{R}^n$ endowed with the standard Euclidean metric, then
 
 $$
-\nabla f= \sum_{i=1}^n\frac{\partial f}{\partial x^i}\partial_i.
-$$
+\nabla f= \sum_{i=1}^n\frac{\partial f}{\partial x^i}\partial_i
+.$$
+
+This is the classical gradient from [[vector analysis]].
+
 
 ## Remark
 
-In many applications to [[vector analysis]], the Riemannian structure is irrelevant, and the gradient can be replaced with the [[differential form|differential 1-form]].
+In many classical applications of the gradient in [[vector analysis]], the Riemannian structure is actually irrelevant, and the gradient can be replaced with the [[differential form|differential 1-form]].
 
 
 ## Related concepts
