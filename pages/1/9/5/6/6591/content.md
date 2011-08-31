@@ -1,15 +1,44 @@
+The story starts with an embedding $i:X\to Y$ of compact manifolds. In this situation one can construct an homomorphism 
 
+$$
+i_{!}:K(T X)\longrightarrow K(T Y)
+$$ 
 
-Story starts with an embedding $i:X\longrightarrow Y$ of compact manifolds. In this situation one can construct an homomorphism 
-$$i_!.K(TX)\longrightarrow K(TY)$$ between the supported compact $K$ theories of their tangent bundle. Note the reverse functoriality, for the base space is contra variant while for the total spaces of the tangent bundles is covariant. This uses the Thom mapping. If $X$ is a compact manifold and $V$ a real vector bundle over $X$ there is a map
-$$\varphi:K(X)\longrightarrow K(V).$$ The most important result of $K$ theory i.e. Bott periodicity can be seen as the statement of the fact that this is an isomorphism. Now apply this construction to the normal bundle $N$ of $X$ to get
-$$\varphi:K(TX)\longrightarrow K(TN)$$ and composing it with the natural map ($N$ can be looked as a tubular neighborhood) $$K_*:K(TN)\longrightarrow K(TY)$$ to get $i_!$. 
-Now if you have a manifold $X$, embed it in an euclidean space $\mathbb{R}^n$ and consider the inclusion $\{0\}\longrightarrow \mathbb{R^n}$ This induces the (Thom isomorphism) mapping $j_!\mathbb{Z}=K(\{0\} \longrightarrow K(T\mathbb{R}^n)$. The topological index is defined to be
-$$t-ind:=j_!^{-1}\circ i_!.$$ One can prove that this is independent on the choices. In particular it does not depend on the embedding of the manifold to the euclidean space. The topological index function is uniquely fixed bu two properties (this is the content of the Atiyah Singer index theorem):
+between the compactly supported $K$-theories of their tangent bundles. Note the reverse functoriality: for the base space $K$ is contravariant while for the total spaces of the tangent bundles it is covariant. This uses the Thom mapping: if $X$ is a compact manifold and $V$ a real vector bundle over $X$ there is a natural map
 
-1 For a point $ind=id$
+$$
+\varphi:K(X)\longrightarrow K(V).
+$$ 
 
-2 Index functions commutes with the maps $i_!$.
+One of the most important results of $K$-theory, namely Bott periodicity, can be seen as the statement of the fact that this map is an isomorphism. Now apply this construction to the normal bundle $N$ of $X$ in $Y$ to get
 
-Now it is easy to define the topological index of an elliptic operator. Its principal symbol define a homogenous length one complex of bundles on $TX$ exact out of the null section. Elements of this kind are exactly cycles for the compactly supported $K$ theory of $TX$ hence an operator has a topological index only depending on its principal symbol. On the other hand, analysis associates to it its analytical symbol that is
-$$\operatorname{dim}\operatorname{Ker}(D)-\operatorname{dim}\operatorname{coKer}(D)$$ on one (hence all) Sobolev space . The Atiyah Singer index theorem states that the analytical index is equal to the topological one.
+$$
+\varphi:K(T X)\longrightarrow K(T N)
+$$
+
+and (looking at $N$ as a tubular neighborhood of $X$ in $Y$) compose it with the natural map  
+
+$$
+K_*:K(T N)\longrightarrow K(T Y)
+$$ 
+
+to get $i_!$. 
+Now given a manifold $X$, embed it in an Euclidean space $\mathbb{R}^n$ for some suitable $n$ and consider the inclusion $\{0\}\to \mathbb{R}^n$. This induces the (Thom isomorphism) mapping $j_!:\mathbb{Z}=K(\{0\} \longrightarrow K(T\mathbb{R}^n)$. The topological index is defined to be
+
+$$
+ind_t:=j_!^{-1}\circ i_!.
+$$ 
+
+One can prove that this is independent of all the occurring choices. In particular it does not depend on the embedding of the manifold $X$ into to the Euclidean space. The topological index function is uniquely fixed by two properties (this is the content of the Atiyah-Singer index theorem):
+
+1. For a point $ind_t=id$
+
+1. Index functions commutes with the maps $i_!$.
+
+Now it is easy to define the topological index of an elliptic operator. Its principal symbol defines a homogenous length one complex of bundles on $T X$ exact outside the null section. Elements of this kind are precisely cycles for the compactly supported $K$-theory of $T X$ hence an elliptic operator $D$ has a topological index only depending on its principal symbol. On the other hand, analysis associates to $D$ its analytical index that is
+
+$$
+\operatorname{dim}\operatorname{Ker}(D)-\operatorname{dim}\operatorname{coKer}(D)
+$$ 
+
+on one (hence all) Sobolev space $D$ is defined on. The Atiyah-Singer index theorem then states that the analytical index of is equal to the topological one.
