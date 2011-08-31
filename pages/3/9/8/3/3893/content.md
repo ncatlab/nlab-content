@@ -27,6 +27,12 @@ See [[Cartan connection]].
 
 ## Related concepts
 
+  local model           |     global geometry
+------------------------|--------------------------
+ [[Euclidean geometry]] | [[Riemannian geometry]]
+  [[Klein geometry]]    |    [[Cartan geometry]]
+
+
 * [[Cartan connection]]
 
 
