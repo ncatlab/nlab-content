@@ -2,16 +2,45 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential geometry
+#### $\infty$-Chern-Weil theory
 +--{: .hide}
-[[!include synthetic differential geometry - contents]]
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
 =--
 =--
 =--
 
-An _affine connection_ $\nabla$ on a [[smooth manifold]] $M$ is a [[connection on a bundle|connection]] on the [[frame bundle]] $F M$ of $M$, i. e. the principal bundle of frames in the tangent bundle $T M$. 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+An _affine connection_ $\nabla$ on a [[smooth manifold]] $M$ is a [[connection on a bundle|connection]] on the [[frame bundle]] $F M$ of $M$, i. e. the [[principal bundle]] of [[frames]] in the [[tangent bundle]] $T M$. 
 
 The components of the local [[Lie-algebra valued 1-form]] of an affine connection are called [[Christoffel symbol]]s.
+
+## Related concepts
+
+* [[connection on a bundle]]
+
+  * [[parallel transport]], [[holonomy]]
+
+* [[principal connection]]
+
+  * [[affine connection]], [[Levi-Civita connection]], [[Cartan connection]]
+
+* [[connection on a 2-bundle]]
+
+* [[connection on an infinity-bundle]]
+
+  * [[higher parallel transport]]
+
+
+## References
 
 * wikipedia [affine connection](http://en.wikipedia.org/wiki/Affine_connection)
 * eom [affine connection](http://eom.springer.de/a/a010950.htm)
