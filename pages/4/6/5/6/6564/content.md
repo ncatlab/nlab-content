@@ -19,30 +19,38 @@
 
 ## Idea
 
-In the [[mechanics]] of [[rigid body dynamics]] in [[Cartesian space]] $\mathbb{R}^n$ the _moment of inertia_ of a rigid body is a [[linear function]] 
+In the [[mechanics]] of [[rigid body dynamics]] in [[Cartesian space]] $\mathbb{R}^n$, the _moment of inertia_ of a [[rigid body]] is the analog of [[mass]] for [[rotational dynamics]].  In [[linear dynamics]], we have the formula
+$$ \vec p = m \vec v $$
+which says that the [[momentum]] $\vec p$ is proportional to the [[velocity]] $\vec v$.  Similarly, in rotational dynamics, we have the analogous formula
+$$ L = I \Omega $$
+where $L$ is the [[angular momentum]], $\Omega$ is the [[angular velocity]], and $I$ is the moment of inertia.
 
+However, the rotational equation is somewhat more complicated than the linear one: firstly because $L$ and $\Omega$ are not naturally vectors but [[bivectors]]; and secondly because they are not necessarily proportional, so that $I$ cannot be a scalar.  In general, the moment of inertia is a [[linear function]]
 $$
-  I : \wedge^2 \mathbb{R}^n \to \wedge^2 \mathbb{R}^n
+  I \colon \wedge^2 \mathbb{R}^n \to \wedge^2 \mathbb{R}^n
 $$
+so that the above equation becomes simply
+$$ L = I(\Omega). $$
+This linear function is additionally *symmetric* with respect to the induced inner product on $\wedge^2 \mathbb{R}^n$, so it can be represented in coordinates by a symmetric $\frac{n(n-1)}{2} \times \frac{n(n-1)}{2}$ matrix.
 
-that relates its [[angular velocity]] [[bivector]] $\Omega \in \wedge^2 \mathbb{R}^n$  to its [[angular momentum]] [[bivector]] $L \in \wedge^2 \mathbb{R}^n$ (and thus to its [[kinetic energy]] and other quantites).
+Similarly, differentiating this equation once, we have
+$$ \tau = I(\alpha) $$
+relating the [[torque]] $\tau$ to the [[angular acceleration]] $\alpha$ --- this is the rotational analogue of [[Newton's second law]] $F = m a$.
 
-$$
-  I : \Omega \mapsto L(\Omega) :=  I \Omega
-  \,.
-$$
+### In low dimensions
 
+In low dimensions, the situation can be (and usually is) simplified.
 
-The moment of inertia is the analog of [[mass]] for rotational dynamics: in linear dynamics the analog of the above formula says that the [[momentum]] $P$ is proportional to the [[velocity]] $V$ as
+* In two dimensions, bivectors form a one-dimensional vector space, so that the moment of inertia is simply a scalar.
 
-$$
-  \vec p = m \vec v
-  \,.
-$$
+* In three dimensions, bivectors form a three-dimensional vector space, so that the moment of inertia can be represented by a symmetric $3\times 3$ matrix.  Additionally, in three dimensions, there is an isomorphism between bivectors and vectors (once we choose a [[volume form]], which in particular implies an [[orientation]]); so that angular velocity and momentum can be (and usually are) identified with vectors, and the moment of inertia with a symmetric rank-2 [[tensor]].
+
 
 ## Definition
 
-In terms of the discussion at [[Hamiltonian dynamics on Lie groups]] the [[rigid body dynamics]] in $\mathbb{R}^n$ is given by Hamiltonian motion on the [[special orthogonal group]] $SO(n)$. It is defined by any [[left invariant]] [[Riemannian metric]]
+### In Hamiltonian dynamics
+
+In terms of the discussion at [[Hamiltonian dynamics on Lie groups]], the [[rigid body dynamics]] in $\mathbb{R}^n$ is given by Hamiltonian motion on the [[special orthogonal group]] $SO(n)$. It is defined by any [[left invariant]] [[Riemannian metric]]
 
 $$
   \langle -,-\rangle \in Sym^2_{C^\infty(G)} \Gamma(T G) 
@@ -51,6 +59,12 @@ $$
 hence a bilinear non-degenarate form on the [[Lie algebra]] $\mathfrak{so}(n)$ (not necessarily the [[Killing form]]).
 
 This bilinear form is the moment of inertia. (For instance [AbrahamMarsden, section 4.6](#AbrahamMarsden).)
+
+### In terms of mass density
+
+If a [[rigid body]] has [[mass]] density $\rho$, then its moment of inertia about the [[origin]] is defined, as a function of $\Omega$, by the $n$-dimensional integral
+$$ \int \rho \vec{x} \wedge (\vec{x} \cdot \Omega) \,d^n x $$
+over all space, where $\vec{x}$ is the vector from the origin to the point of integration, $\cdot$ denotes the "interior product" of a vector with a bivector (yielding a vector), and $\wedge$ denotes the exterior product of two vectors (yielding a bivector).
 
 
 ## Related pages
@@ -66,7 +80,7 @@ This bilinear form is the moment of inertia. (For instance [AbrahamMarsden, sect
 
 ## References
 
-A classical textbook discussion is for instance sectin 4.6 of
+A classical textbook discussion is for instance section 4.6 of
 
 * [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ 
  {#AbrahamMarsden}
