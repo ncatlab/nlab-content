@@ -1,4 +1,3 @@
-
 # Euclidean spaces
 * table of contents
 {: toc}
@@ -19,7 +18,7 @@ One generally takes the inner product to be positive-definite; otherwise, we say
 
 Arguably, the spaces studied by Euclid were not really modelled on inner product spaces, as the distances were lengths, not [[real numbers]] (which, if non-negative, are *ratios* of lengths).  So we should say that $V$ has an inner product valued in some [[orientation|oriented]] [[line]] $L$ (or rather, in $L^2$).  Of course, Euclid did not use the inner product (which takes negative values) directly, but today we can recover it from what Euclid did discuss: lengths (valued in $L$) and angles (dimensionless).
 
-Since the days of [[Rene Descartes]], it is common to identify a Euclidean space with a [[Cartesian space]], that is $\mathbb{R}^n$ for $n$ the dimension.  But Euclid\'s spaces had no coordinates; and in any case, what we do with them today is still coordinate-independent.
+Since the days of [[René Descartes]], it is common to identify a Euclidean space with a [[Cartesian space]], that is $\mathbb{R}^n$ for $n$ the dimension.  But Euclid\'s spaces had no coordinates; and in any case, what we do with them is still coordinate-independent.
 
 
 ## Lengths and angles
@@ -30,7 +29,11 @@ This real number (or properly, element of the line $L$) is the __distance__ betw
 
 Given three points $x, y, z$, with $x, y \ne z$ (so that ${\|x - z\|}, {\|y - z\|} \ne 0$), we can form the ratio
 $$ \frac{\langle{x - z, y - z}\rangle}{{\|x - z\|} {\|y - z\|}} ,$$
-which is a (dimensionless) real number.  By the Cauchy--Schwartz inequality, this number lies between $-1$ and $1$, so it\'s the [[cosine]] of a unique angle measure between $0$ and $\pi$ radians.  This is the measure of the __angle__ $\angle x z y$.  In a $2$-dimensional Euclidean space, we can interpret $\angle x z y$ as a signed angle if we fix an [[orientation]] of $E$.
+which is a (dimensionless) real number.  By the Cauchy--Schwartz inequality, this number lies between $-1$ and $1$, so it\'s the [[cosine]] of a unique angle measure between $0$ and $\pi$ radians.  This is the measure of the __angle__ $\angle x z y$.  In a $2$-dimensional Euclidean space, we can interpret $\angle x z y$ as a signed angle (so taking values anywhere on the [[unit circle]]) if we fix an [[orientation]] of $E$.
+
+Conversely, knowing angles and lengths, we may recover the inner product on $V$;
+$$ \langle{x - z, y - z}\rangle = {\|\overline{x z}\|} {\|\overline{y z}\|} \cos \angle x z y ,$$
+and other inner products are recovered by linearity.  (We must then use the axioms of [[Euclidean geometry]] to prove that this is well defined and actually an inner product.)  It's actually possible to recover the inner product and angles from lengths alone; this is discussed at [[Hilbert space]].
 
 
 [[!redirects Euclidean space]]
