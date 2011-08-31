@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
