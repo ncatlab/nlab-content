@@ -424,3 +424,5 @@ and the generalization to classification of smooth [[principal 2-bundle]]s is in
 
 [[!redirects smooth ∞-group]]
 [[!redirects smooth ∞-groups]]
+[[!redirects smooth infinity-group]]
+[[!redirects smooth infinity-groups]]
