@@ -71,7 +71,7 @@ The following is a capsule history tabulating some important events in the histo
 |1980| |Libchaber _et al._ | | Observation of Feigenbaum's constants in experimental systems, starting with convection of mercury |
 | 1981--82 | | Janssen, Grassberger | | Formulation of DP conjecture, setting out the likely criteria for phase transitions to belong to the directed-percolation class | 
 | 1984 | | Belavin, Polyakov, Zamolodchikov | | [[conformal field theory]] in 2D |
-| 1986 | | Zamolodchikov | | $c$-theorem for 2D theories, identifying RG fixed points with CFTs of specific [[Virasoro algebra|central charges]] |
+| 1986 | | Zamolodchikov | | [[c-theorem]] for 2D theories, identifying RG fixed points with CFTs of specific [[Virasoro algebra|central charges]] |
 |1986| |Kardar, Parisi, Zhang | | KPZ equation for dynamical surface growth by deposition, showing that RG is applicable to its far-from-equilibrium dynamics |
 |1996--97| |Zirnbauer, Altland| | Symmetry classes (not _exactly_ the same thing as universality classes, but clearly part of the same picture) for random matrices, following Cartan's classification of symmetric spaces |
 |1998--99 | | Freedman, _et al._ | | First indications that the [[AdS/CFT correspondence]] and related implementations of gauge/gravity duality could lead to a "holographic $c$-theorem" generalising Zamolodchikov's work to higher dimensions |
