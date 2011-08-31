@@ -1,3 +1,103 @@
-__Cartan connection__ is a special case of a [[connection on a bundle]] which is more general than [[affine connection]], but more special than the [[principal connection]] in general. The fiber of a Cartan connection is a [[homogeneous space]]. This notion is closely related to [[Klein geometry|Klein geometries]]. [[Élie Cartan]] has introduced Cartan connections in his work on the Cartan's "method of moving frames" (cf. [[Cartan geometry]]).
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A __Cartan connection__ is a special case of a [[connection on a bundle]] which is more general than [[affine connection]], but more special than the [[principal connection]], in general: 
+
+it is an $G$-[[principal connection]] subject to the constraint that the connection 1-form linearly identifies each [[tangent space]] of the base space with a quotient $\mathfrak{g}/\mathfrak{h}$ of the [[Lie algebra]] $\mathfrak{g}$ of $G$ by a sub-Lie algebra $\mathfrak{h}$.
+
+The [[fiber]] of the [[bundle]] underlying a  Cartan connection is a [[homogeneous space]]. This notion is closely related to [[Klein geometry|Klein geometries]]. 
+
+Cartan connections are also just called _[[Cartan geometries]]_ . 
+
+
+
+## Definition
+
+Let $G$ be a [[Lie group]] and $H \hookrightarrow G$  a sub-Lie group. (So that we may think of the [[coset space]] $G/H$ as a [[Klein geometry]].) Write $\mathfrak{h} \hookrightarrow \mathfrak{g}$ for the corresponging [[Lie algebras]]. 
+
++-- {: .num_defn}
+###### Definition
+
+A $(H \hookrightarrow G)$-Cartan connection over a [[smooth manifold]] $X$ is;
+
+* a $G$-[[principal connection]] $\nabla$ on $X$;
+
+* such that 
+
+  1. the structure group of the underlying [[principal bundle]] reduces to $H$.
+
+  1. for each point $x \in X$ the canonical composite (for any local trivialization)
+
+     $$
+       T_x X \stackrel{\nabla}{\to} \mathfrak{g} \to \mathfrak{g}/\mathfrak{h}
+     $$
+
+     is an [[isomorphism]].
+
+=--
+
+This appears for instance as ([Sharpe, section 5.1](#Sharpe)).
+
+## Examples
+
+### (pseudo-)Riemannian geometry
+
+Let $G = Iso(d,1)$ be the [[Poincare group]] and $H \subset G$ the [[orthogonal group]] $O(d,1)$. Then the quotient
+
+$$
+  \mathfrak{iso}(d,1)/\mathfrak{so}(d,1) \simeq
+  \mathbb{R}^{d+1}
+$$
+
+is [[Lorentzian spacetime]]. Therefore an $(O(d,1)\hookrightarrow Iso(d,1))$-Cartan connection is nothing but an $O(d,1)$-connection on a manifold whose [[tangent space]]s look like [[Minkowski spacetime]]: this is  nothing but a [[pseudo-Riemannian manifold]] from the perspective discussed at [[first-order formulation of gravity]]:
+
+the $\mathbb{R}^{d+1}$-valued part of the connection is the [[vielbein]]. 
+
+## Related concepts
+
+* [[connection on a bundle]]
+
+  * [[parallel transport]], [[holonomy]]
+
+* [[principal connection]]
+
+  * [[affine connection]], [[Levi-Civita connection]], **Cartan connection**
+
+* [[connection on a 2-bundle]]
+
+* [[connection on an infinity-bundle]]
+
+  * [[higher parallel transport]]
+
+
+
+
+## References
+
+[[Élie Cartan]] has introduced Cartan connections in his work on the Cartan's "method of moving frames" (cf. [[Cartan geometry]]).
+
+A standard textbook reference is
+
+* R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
+ {#Sharpe}
+
+See also
 
 * wikipedia [Cartan connection](http://en.wikipedia.org/wiki/Cartan_connection)
