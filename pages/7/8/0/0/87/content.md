@@ -45,7 +45,9 @@ Every functor may be interpreted as an anafunctor; that every anafunctor is equi
   
 ### Motivation from internal categories {#InternalCatMotivation}
 
-Since questions concerning the axiom of choice tend to look a bit esoteric to those not actively interested in questions of [[foundations]], it is helpful (and useful!) to think of this more generally in terms of [[internal category]] theory, where the concept is of independent use, and in fact well known by other names than "anafunctor".  Consider some ambient category $\mathcal{E}$ [[internalization|internal]] to which we want to do category theory. A good example to keep in mind is the category [[Top]] of [[topological space]]s.  We observe that "the axiom of choice fails in [[Top]]", but that this is a very non-esoteric and obvious statement: it just means that not every continous [[epimorphism]] $P \to X$ between topological spaces has a _continuous_ [[section]].
+Since questions concerning the axiom of choice tend to look a bit esoteric to those not actively interested in questions of [[foundations]], it is helpful (and useful!) to think of this more generally in terms of [[internal category]] theory, where the concept is of independent use, and in fact well known by other names than "anafunctor".
+
+Consider some ambient category $\mathcal{E}$ [[internalization|internal]] to which we want to do category theory. A good example to keep in mind is the category [[Top]] of [[topological space]]s.  We observe that "the axiom of choice fails in [[Top]]", but that this is a very non-esoteric and obvious statement: it just means that not every continous [[epimorphism]] $P \to X$ between topological spaces has a _continuous_ [[section]].
 
 Then it may easily happen that an internal functor $f\colon C \to D$ between [[internal category|internal categories]] in $\mathcal{E}$ (for instance between topological categories) is fully faithful, in the "internal" sense that
 $$\array{C_1 & \overset{}{\to} & D_1\\
