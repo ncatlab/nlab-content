@@ -347,6 +347,10 @@ See [[connection on a principal ∞-bundle]].
 
 * **connection on a bundle**, [[universal connection]]
 
+  * [[principal connection]]
+
+    * [[affine connection]], [[Levi-Civita connection]] [[Cartan connection]]
+
 * [[connection on a 2-bundle]] / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
 
 * [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
