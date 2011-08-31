@@ -2,12 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
+
 
 #Contents#
 * automatic table of contents goes here
