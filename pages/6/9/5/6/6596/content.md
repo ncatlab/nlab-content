@@ -1,7 +1,29 @@
-In [[Riemannian geometry]] the divergence of a vecor field $X$ over a [[Riemannian manifold]] $(M,g)$ is the real valued function $div(X)$ defined by
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+In [[Riemannian geometry]] the **divergence** of a 
+[[vector field]] $X$ over a [[Riemannian manifold]] $(M,g)$ is the real valued [[smooth function]] $div(X)$ defined by
 
 $$
-div(X)=\star_g^{-1}d_{dR}\star_g g(X)
+  div(X)=\star_g^{-1}d_{dR}\star_g g(X)
 $$
 
 where $\star_g$ is the [[Hodge star]] operator of $(M,g)$,
@@ -10,9 +32,16 @@ $$
 \star_g:\Omega^i(M;\mathbb{R}) \to \Omega^{dim M-i}(M;\mathbb{R})
 $$
 
-#### Example.
+## Example
+
 If $(M,g)$ is $\mathbb{R}^n$ endowed with the canonical Euclidean metric, then the divergence of a vector field $X^i\partial_i$ is
 
 $$
 div(X)=\sum_{i=1}^n\frac{\partial X^i}{\partial x^i}.
 $$
+
+## Related concepts
+
+* [[gradient]]
+
+* [[curl]]
