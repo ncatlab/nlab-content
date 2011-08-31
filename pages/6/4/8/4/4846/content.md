@@ -257,3 +257,7 @@ A textbook discussion is in section III.8.3 of
 
   _[[Supergravity and Superstrings - A Geometric Perspective]]_
  {#CastellaniDAuriaFre}
+
+A discussion in the context of [[smooth super ∞-groupoid]]s is in the last section of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
