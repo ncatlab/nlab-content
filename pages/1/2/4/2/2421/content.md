@@ -105,8 +105,9 @@ in terms of the [[Yoneda embedding]].
 
 
 #### The super-translation group
+  {#SuperTranslationGroup}
 
-also called the **super-Heisenberg group**
+also called the **[[super-Heisenberg group]]**
 
 The additive group structure on $\mathbb{R}^{1|1}$ is given on [[generalized element]]s in (i.e. in the logic internal to) the [[topos]] of [[sheaf|sheaves]] on the category [[SCartSp]] of [[cartesian space|cartesian]] superspaces by
 
