@@ -1,0 +1,8 @@
+Suppose we are given a commutative unital ring $k$ and a module $M$ over $k$ equipped with a skew-symmetric form $\omega: M\otimes_k M\to k$ (Typically, one requires the non-degeneracy, but it is not needed for the definitions.). The __Heisenberg Lie algebra__ corresponding to $(M,\omega)$ is the $k$-module $M\oplus k$ together with the unit $k \hookrightarrow M\oplus k$, $s\mapsto (0,s) =: s 1$ and Lie $k$-algebra bracket
+
+$$
+[(m,s),(m',s')] = \omega(m,m')1
+$$
+
+ 
+
