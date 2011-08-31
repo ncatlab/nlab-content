@@ -49,7 +49,7 @@ where $vol_g$ is the [[volume form]] and $\star_g$ is the [[Hodge star operator]
 
 ## Remark
 
-In many applications to [[vector analysis]], the Riemannian structure is irrelevant, and the gradient can be replaced with the [[differential]] $1$-[[1-form|form]].
+In many applications to [[vector analysis]], the Riemannian structure is irrelevant, and the gradient can be replaced with the [[differential form|differential 1-form]].
 
 
 ## Related concepts
