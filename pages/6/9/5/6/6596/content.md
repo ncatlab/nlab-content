@@ -1,47 +1,64 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Riemannian geometry
-+--{: .hide}
++-- {: .hide}
 [[!include Riemannian geometry - contents]]
 =--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-In [[Riemannian geometry]] the **divergence** of a 
+In [[Riemannian geometry]], the **divergence** of a 
 [[vector field]] $X$ over a [[Riemannian manifold]] $(M,g)$ is the real valued [[smooth function]] $div(X)$ defined by
 
 $$
-  div(X)=\star_g^{-1}d_{dR}\star_g g(X)
-$$
+  div(X) = \star_g^{-1} d_{dR} \star_g g(X)
+,$$
 
 where $\star_g$ is the [[Hodge star]] operator of $(M,g)$,
 
 $$
-\star_g:\Omega^i(M;\mathbb{R}) \to \Omega^{dim M-i}(M;\mathbb{R})
-$$
+\star_g\colon \Omega^i(M;\mathbb{R}) \to \Omega^{dim M-i}(M;\mathbb{R})
+,$$
+
+and $d_{dR}$ is the [[de Rham differential]].
+
+Although an [[orientation]] is required for the usual notion of Hodge star as given above, we may take it as valued in [[pseudoforms]] to show that the orientation (or even orientability) of $M$ is irrelevant (since the Hodge star is applied twice, returning us to untwisted forms).
+
 
 ## Example
 
-If $(M,g)$ is $\mathbb{R}^n$ endowed with the canonical Euclidean metric, then the divergence of a vector field $X^i\partial_i$ is
+If $(M,g)$ is the [[Cartesian space]] $\mathbb{R}^n$ endowed with the canonical Euclidean metric, then the divergence of a vector field $X^i \partial_i$ is
 
 $$
-div(X)=\sum_{i=1}^n\frac{\partial X^i}{\partial x^i}.
-$$
+div(X) = \sum_{i=1}^n\frac{\partial X^i}{\partial x^i}
+.$$
+
+
+## Remarks
+
+The divergence was first developed in [[quaternion]] analysis, where its opposite appeared most naturally, called the _convergence_ $con(X) = - div(X)$.  In many applications of the divergence to the successor field, classical [[vector analysis]], the metric is irrelevant and we may use [[differential forms]] instead: we translate a vector field $X$ into the $(n-1)$-form $\star_g g(X)$ and a scalar field $f$ into the $n$-form $\star_g f$, so that the divergence *is* simply the [[de Rham differential]], and simply use the differential forms from the start.
+
 
 ## Related concepts
 
 * [[gradient]]
 
 * [[curl]]
+
+* **divergence**
+
+
+[[!redirects divergence]]
+[[!redirects divergences]]
