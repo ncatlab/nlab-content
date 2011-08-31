@@ -20,8 +20,12 @@
 
 ## Idea
 
-_Differential geometry_ is the [[higher geometry|geometry]] modeled on 
+_Differential geometry is the [[geometry]] modeled on [[Cartesian space]]s and [[smooth functions]] between them.
+
+Formally, it is the [[higher geometry|geometry]] modeled on 
 the [[pregeometry (for structured (infinity,1)-toposes)|pre-geometry]] $\mathcal{G} = $[[CartSp]].
+
+This includes a sequence of concepts of [[generalized smooth space]]s:
 
 * A [[smooth manifold]] (see there for details) is a locally $CartSp$-representable object in the [[sheaf topos]] $Sh(CartSp)$.
 
@@ -43,11 +47,14 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 * [[Lie theory]]
 
+* [[Riemannian geometry]]
 
-  local model           |     global geometry
-------------------------|--------------------------
- [[Euclidean geometry]] | [[Riemannian geometry]]
-  [[Klein geometry]]    |    [[Cartan geometry]]
+ local model                |   global geometry
+----------------------------|-----------------
+ [[Klein geometry]]         |   [[Cartan geometry]]
+ [[Klein 2-geometry]]       |   [[Cartan 2-geometry]]
+ [[higher Klein geometry]]  |   [[higher Cartan geometry]]
+
 
 ## References
  {#References}
