@@ -19,9 +19,13 @@ From a fundamental category theoretic perspective, there are two fundamental kin
 #Examples#
 
 * the duality between [[space and quantity]]
+* [[Poincaré duality]]
 * [[Pontryagin duality]]
+* [[Grothendieck duality]]
 * [[Stone duality]]
 * [[Eckmann-Hilton duality]]
+* [[Spanier-Whitehead duality]]
+* [[Tannaka duality]]
 
 #Definition#
 
