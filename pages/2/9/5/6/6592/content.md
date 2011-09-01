@@ -64,7 +64,7 @@ The fact that a [[quotient]] is given by a [[homotopy fiber]] is a special case 
 +-- {: .num_prop}
 ###### Observation
 
-The above statement remains true _verbatim_ for [[discrete group]]s generalized to [[Lie group]]s -- or other [cohesive groups](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#InfinGroups) --  if only we pass from the [[(2,1)-topos]] [[Grpd]] of [[discrete groupoid]]s to the [[(2,1)-topos]] [[Smooth∞Grpd|SmoothGrpd]] of _smooth groupoids_ . 
+The above statement remains true _verbatim_ if [[discrete group]]s are generalized to [[Lie group]]s -- or other [cohesive groups](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#InfinGroups) --  if only we pass from the [[(2,1)-topos]] [[Grpd]] of [[discrete groupoid]]s to the [[(2,1)-topos]] [[Smooth∞Grpd|SmoothGrpd]] of _smooth groupoids_ . 
 
 =--
 
@@ -99,7 +99,23 @@ for $i$ any morphism between two [[connected]] objects, as indicated.
 
 =--
 
-Notice that (by the discussion at [[looping and delooping]], and using that a [[cohesive (∞,1)-topos]] has [[homotopy dimension]] 0) every connected object indeed is the delooping of an [[∞-group]] object.
++-- {: .num_remark}
+###### Remarks
+
+
+* By the discussion at [[looping and delooping]], and using that a [[cohesive (∞,1)-topos]] has [[homotopy dimension]] 0 it follows that  every connected object indeed is the delooping of an [[∞-group]] object.
+
+* The above says that $G//H$ is the [[principal ∞-bundle]] over $\mathbf{B}H$ that is classified by the [[cocycle]] $i$.
+
+  Continuing this [[fiber sequence]] further to the left yields the long fiber sequence
+
+  $$
+    H \to G \to G//H \to \mathbf{B}H \stackrel{i}{\to} \mathbf{B}G
+  $$
+
+  This exhibits $G$ indeed as the [[fiber]] of $G//H \to \mathbf{B}G$.
+
+=--
 
 ## Examples
 
