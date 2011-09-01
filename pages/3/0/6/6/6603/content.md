@@ -1,0 +1,4 @@
+* [web](http://www.math.harvard.edu/~shlomo)
+* wikipedia [Shlomo Sternberg](http://en.wikipedia.org/wiki/Shlomo_Sternberg)
+
+[[!redirects S. Sternberg]]
