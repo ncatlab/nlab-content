@@ -4,3 +4,5 @@
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Bertram_Kostant)
 
 category: people
+
+[[!redirects B. Kostant]]
