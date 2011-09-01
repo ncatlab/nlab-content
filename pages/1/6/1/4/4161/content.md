@@ -1,13 +1,22 @@
 
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-***
+=--
+#### AQFT
++--{: .hide}
 [[!include AQFT and operator algebra contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -45,3 +54,7 @@ An exposition is at
 A statement and proof of both a spin-statistics and a PCT theorem in the [[Haag-Kastler approach]] can be found in this paper:
 
 * [[Daniele Guido]], [[Roberto Longo]]: _An Algebraic Spin and Statistics Theorem_ ([arXiv] (http://arxiv.org/abs/funct-an/9406005))
+
+Generalization to curved spacetime is in 
+
+* [[Rainer Verch]], _A spin-statistics theorem for quantum fields on curved spacetime manifolds in a generally covariant framework_ ([arXiv:math-ph/0102035](http://arxiv.org/abs/math-ph/0102035))
