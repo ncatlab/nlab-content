@@ -20,9 +20,13 @@
 
   * [[Courant Lie 2-algebroid]]
 
+* [[symplectomorphism]]
+
 * [[Hamiltonian vector field]]
 
   * [[symplectic gradient]]
+
+* [[moment map]]
 
 * [[isotropic submanifold]], [[Lagrangian submanifold]]
 
