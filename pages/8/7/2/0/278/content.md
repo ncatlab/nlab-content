@@ -71,6 +71,7 @@ A comprehensive standard textbook is
 * Michael Spivak, _A comprehensive introduction to differential geometry_ (5 Volumes) 
 * [[M M Postnikov]], _Lectures on geometry_ (5 vols. 3,4,5 are largely on differential geometry)
 * R. Sharpe, _Differential geometry -- Cartan's generalization of Klein's Erlagen program_, Springer (1997)
+* [[Shlomo Sternberg]], _Differential geometry_
 
 Online: 
 
