@@ -11,3 +11,4 @@ Tropical geometry is often thought as an [[algebraic geometry]] over the [[tropi
 * [[Mikhail Kapranov]], _Thermodynamics and the moment map_, [arxiv/1108.3472](http://arxiv.org/abs/1108.3472)
 * Walter Gubler, _A guide to tropicalizations_, [arxiv/1108.6126](http://arxiv.org/abs/1108.6126)
 * E. Katz: A tropical toolkit. Expo. Math. 27, No. 1, 1-36 (2009).
+* Oleg Viro, _Hyperfields for tropical geometry I. hyperfields and dequantization_, [arxiv/1006.3034](http://arxiv.org/abs/1006.3034)
