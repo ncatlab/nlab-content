@@ -74,5 +74,3 @@ The closely related Cartan model for [[equivariant cohomology]] is discussed for
 The expression _Cartan calculus_ is also used for noncommutative analogues, see e.g.
 
 * P. Schupp, _Cartan calculus: differential geometry for quantum groups_,  Quantum groups and their applications in physics (Varenna, 1994),  507--524, Proc. Internat. School Phys. Enrico Fermi, 127, IOS, Amsterdam, 1996. 
-
-[[!redirects Cartan's magic formula]]
