@@ -17,3 +17,6 @@ An old discussion on the terminological aspects (Mike, Zoran, Toby) is at $n$For
 [[!redirects quasi-compact morphisms]]
 [[!redirects quasi-compact schemes]]
 [[!redirects quasi-compact scheme]]
+
+[[!redirects quasi-compact map]]
+[[!redirects quasi-compact maps]]
