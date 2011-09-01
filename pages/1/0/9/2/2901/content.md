@@ -26,12 +26,13 @@ _Euclidean geometry_ studies the [[geometry]] of [[Euclidean space]]s.  These sp
 
 * [[pentagon decagon hexagon identity]]
 
+* [[Hadwiger's theorem]]
 
 ## Related concepts
 
   local model           |     global geometry
 ------------------------|--------------------------
- [[Euclidean geometry]] | [[Riemannian geometry]]
+ _Euclidean geometry_   | [[Riemannian geometry]]
   [[Klein geometry]]    |    [[Cartan geometry]]
 
 
