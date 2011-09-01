@@ -113,7 +113,7 @@ for $i$ any morphism between two [[connected]] objects, as indicated.
     H \to G \to G//H \to \mathbf{B}H \stackrel{i}{\to} \mathbf{B}G
   $$
 
-  This exhibits $G$ indeed as the [[fiber]] of $G//H \to \mathbf{B}G$.
+  This exhibits $G$ indeed as the [[fiber]] of $G//H \to \mathbf{B}H$.
 
 =--
 
