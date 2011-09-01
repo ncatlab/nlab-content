@@ -1,0 +1,15 @@
+_Calogero_ models comprise several [[integrable system]]s in classical mechanics and their relatives; they are describing interacting systems of $n$ particles on a circle or on a line. Basic variants include Calogero-Moser system, Calogero-Sutherland system and "relativistic" Ruijsenaars models. Calogero-Moser system was a historical source of the study of [[Dunkl operator]]s and Cherednik's double Hecke algebras. The Calogero-Moser system can also be related to the $n$-soliton solutions of KdV system; the elucidation of the relation between the soliton solutions and solutions of the Calogero-Moser system is rather deep and is called __Calogero-Moser correspondence__. Its modern formulation involves [[noncommutative algebraic geometry]].
+
+* Pavel Etingof, _Lectures on Calogero-Moser systems_, [pdf](http://www-math.mit.edu/~etingof/zlecnew.pdf)
+* [[D. Kazhdan]], [[B. Kostant]], [[S. Sternberg]], _Hamiltonian group actions and dynamical systems of Calogero type_, Comm. Pure Appl. Math. __31__ (1978), 481-508, [MR478225](http://www.ams.org/mathscinet-getitem?mr=478225), [doi](http://dx.doi.org/10.1002/cpa.3160310405)
+
+On Calogero-Moser correspondence:
+
+* [[V. Ginzburg]], _Non-commutative symplectic geometry, quiver varieties, and
+operads_, Math. Res. Lett. 8 (2001), 377-400.
+* [[Yuri Berest]], 
+* Wilson 
+[[!redirects Calogero models]]
+[[!redirects Calogero-Moser model]]
+[[!redirects Calogero-Moser system]]
+[[!redirects Calogero-Sutherland model]]
