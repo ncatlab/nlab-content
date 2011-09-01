@@ -1,6 +1,6 @@
 The moment map came up historically as a generalization of [[angular momentum]] in the [[rigid body dynamics|dynamics of rigid bodies]].
 
-The basic setup is the following: Let $(M,\omega)$ be a [[symplectic manifold]] with a [[Hamiltonian action]] of a [[Lie group]] $G$. That means that there is an [[action]] $\nu\colon G \times M \to M$ via [[symplectomorphism]]s (diffeomorphisms $\nu_g$ such that $\nu_g^*(\omega) = \omega$). A vector field $X$ is [[symplectic]] if the corresponding flow preserves (again by pullbacks) $\omega$. 
+The basic setup is the following: Let $(M,\omega)$ be a [[symplectic manifold]] with a [[Hamiltonian action]] of a [[Lie group]] $G$. In particular that means that there is an [[action]] $\nu\colon G \times M \to M$ via [[symplectomorphism]]s (diffeomorphisms $\nu_g$ such that $\nu_g^*(\omega) = \omega$). A vector field $X$ is [[symplectic]] if the corresponding flow preserves (again by pullbacks) $\omega$. The symplectic vector fields form a Lie subalgebra $\xhi(M,\omega)$ of the Lie algebra of all smooth vector fields $\chi(M)$ on $M$ with respect to the Lie bracket. 
 
 By the [[Cartan homotopy formula]] and closedness $d \omega = 0$
 
@@ -8,10 +8,37 @@ $$
 \mathcal{L}_X \omega = d \iota_X \omega
 $$
 
-where $\mathcal{L}_X$ denotes the [[Lie derivative]].
+where $\mathcal{L}_X$ denotes the [[Lie derivative]]. Therefore a vector field $X$ is symplectic iff $\iota(X)\omega = d H$ for some function $H\in C^\infty(M)$, usually called Hamiltonian (function) for $X$. Here $X$ is determined by $H$ up to a locally constant function. Such $X = X_H$ is called the __Hamiltonian vector field__ corresponding to $H$.  The Poisson structure on $M$ is the bracket $\{,\}$ on functions may be given by 
+
+$$
+\{ f, g\} := [X_f,X_g]
+$$
+
+where there is a Lie bracket of vector fields on the right hand side.
+
+There is an exact sequence
+
+$$
+0 \to \mathbf{R}\to C^\infty(M)\to \chi(M,\omega)
+$$
+
+and $H^1(M, \mathbf{R})$ measures hgow far is the right-most map from the identity. Thus there is a possible difference between the set of symplectic vector fields and of Hamiltonian vector fields only if the manifold is not simply connected. __Hamiltonian action__ above means that the action induced at the level of Lie algebra is by Hamiltonian vector fields. That means that the infinitesimal action from $\mathfrak{g}\to \chi(M,\omega)$ lifts to a linear map
+
+$$
+\mathfrak{g}\to C^\infty(M); \,\,\,\,\,A\mapsto \mu_A
+$$ 
+
+One usually dualizes that map. The __moment map__
+
+$$\mu: M\to \mathfrak{g}^*$$
+
+is determined by the formula 
+
+$$
+\langle \mu(z),A\rangle = \mu_A(z),\,\,\,\,\,\,\forall z\in M.
+$$
 
 The moment map is a crucial ingredient in the construction of Marsden--Weinstein [[symplectic quotient]]s.
-
 
 ## References
 
