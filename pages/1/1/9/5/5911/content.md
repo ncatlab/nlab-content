@@ -1,25 +1,28 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
 An **infinitary [[coherent category]]** or **geometric category** is a [[well-powered category|well-powered]] [[regular category]] in which the [[subobject]] [[poset]]s $Sub(X)$ have all _small_ [[union]]s which are [[pullback stability|stable under pullback]].  
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman]]: I'm starting to feel that well-poweredness shouldn't be included here.  Any thoughts?
+
+Toby:  It allows us to conclude that $Sub(X)$ also has all intersections.  I'll be using this at [[real number object]] to construct an NNO out of an RNO.
 =--
+
 
 ## Properties
 
@@ -44,7 +47,7 @@ Around lemma A1.4.18 in
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 
-
+[[!redirects geometric category]]
 [[!redirects geometric categories]]
 [[!redirects infinitary coherent category]]
 [[!redirects infinitary coherent categories]]
