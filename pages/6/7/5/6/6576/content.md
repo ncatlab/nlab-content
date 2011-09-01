@@ -1,3 +1,4 @@
+[[!redirects left invariant differential form]]
 
 A [[differential form]] on a [[Lie group]] $\omega \in \Omega^1(G)$ is called **left invariant** if for every $g \in G$ it is invariant under the left [[action]] of $G$ on itself
 
