@@ -14,13 +14,175 @@
 =--
 
 
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 A _symplectic $\infty$-groupoid_ is a [[smooth ∞-groupoid]] equipped with a [[symplectic form]], or, more generally, with an [[n-plectic form]].
 
 This is the generalization of the notion of [[symplectic manifold]] to [[higher symplectic geometry]]. It is also the image under [[Lie integration]] of the notion of [[symplectic Lie n-algebroid|symplectic L-∞ algebroid]], which is also a higher analog of symplectic manifolds, but in an [[infinitesimal object|infinitesimal]] way.
 
-Notice that every symplectic manifold is in particular a [[Poisson manifold]] and that the structure of a Poisson manifold is equivalently encoded in the corresponding [[Poisson Lie algebroid]]. A _[[symplectic groupoid]]_ is the [[Lie integration]] of such a Poisson Lie algebroid. Therefore, strictly speaking, already "ordinary" symplectic geometry secretly involves [[Lie groupoid]]s. This insight is exploited in the refinement of [[geometric quantization]] in terms of symplectic groupoids ([Hawkins06](http://arxiv.org/abs/math.SG/0612363)).
+Notice that every symplectic manifold is in particular a [[Poisson manifold]] and that the structure of a Poisson manifold is equivalently encoded in the corresponding [[Poisson Lie algebroid]]. A _[[symplectic groupoid]]_ is the [[Lie integration]] of such a Poisson Lie algebroid. Therefore, strictly speaking, already "ordinary" symplectic geometry secretly involves [[Lie groupoid]]s. This insight is exploited in the refinement of [[geometric quantization of symplectic groupoids]]. 
+
+## Properties
+
+### As Lie integration of symplectic $L_\infty$-algebroids
+
+Let $\mathfrak{P}$ be the [[Poisson Lie algebroid]] corresponding to a [[Poisson manifold]] that comes from a [[symplectic manifold]] $(X,\omega)$.
+
+Assume for the moment that $(X,\omega)$ has a global [[Darboux coordinate chart]] $\{x^i\}$. Write $\{\omega_{i j}\}$ for the components of the [[symplectic form]] in these coordinates, and $\{\omega^{i j}\}$ for the components of the [[inverse]].
+
+
+Then the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{P})$ is generated from $\{x^i\}$ in degree 0 and $\{\partial_i\}$ in degree 1, with differential given by
+
+$$
+  d_{CE} x^i = - \omega^{i j} \partial_j
+$$
+
+$$
+  d_{CE} \partial_i = \frac{\partial \pi^{j k}}{\partial i} \partial_j \wedge \partial_k = 0
+  \,.
+$$
+
+The differential in the corresponding [[Weil algebra]] is hence
+
+$$
+  d_{W} x^i = - \omega^{i j} \partial_j + \mathbf{d}x^i
+$$
+
+$$
+  d_{W} \partial_i = \mathbf{d} \partial_i
+  \,.
+$$
+
+
+The symplectic [[invariant polynomial]] is
+
+$$
+  \mathbf{\omega} = \mathbf{d} x^i \wedge \mathbf{d} \partial_i \in W(\mathfrak{P})
+  \,.
+$$
+
+Clearly we should introduce the new basis of generators with
+
+$$
+  \partial^i := -\omega^{i j} \partial_j
+  \,.
+$$
+
+In this new basis we have a manifest isomorphism
+
+$$
+  CE(\mathfrak{P}) = CE(\mathfrak{T}X)
+$$
+
+with the [[Chevalley-Eilenberg algebra]] of the [[tangent Lie algebroid]] of $X$. 
+
+Therefore the [[Lie integration]] of $\mathfrak{P}$ is the [[fundamental groupoid]] of $X$, which, since we have assumed gloabl Darboux oordinates and [[contractible]] $X$, is just the [[pair groupoid]]:
+
+$$
+  \tau_1 \exp(\mathfrak{P}) = \Pi_1(X) = (X \times X \stackrel{\overset{p_2}{\to}}{\underset{p_1}{\to}} X)
+  \,.
+$$
+
+It remains to show that the symplectic form on $\mathfrak{P}$ makes this a [[symplectic groupoid]].
+
+Notice that in the new basis the invariant polynomial reads
+
+$$
+  \begin{aligned}
+    \mathbf{\omega} 
+      &= 
+     - \omega_{i j} \mathbf{d}x^i \wedge \mathbf{d} \partial^j 
+     \\
+      \mathbf{d}( \omega_{i j} \partial^i \wedge \mathbf{d}x^j)
+   \end{aligned}
+  \,.
+$$
+
+
+
+$$
+  \mathbf{\omega}
+   : 
+  \mathfrak{T}\mathfrak{P} \to \mathfrak{T}b \mathbb{R}
+$$
+
+We construct the corresponding [[infinity-Chern-Weil theory|infinity-Chern-Weil homomorphism]].
+
+$$
+  \array{
+    \exp(\mathfrak{P})_{diff}
+     &\stackrel{\exp(\mathbf{\omega})}{\to}&
+    \exp(b \mathbb{R})_{dR}
+    &\stackrel{\int_{\Delta^\bullet}}{\to}&
+    \mathbf{\flat}_{dR}\mathbf{B}^2 \mathbb{R} 
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \exp(\mathfrak{P})
+  }
+  \,.
+$$
+
+Over a test space $U$ in degree 1 an element in $\exp(\mathfrak{P})_{diff}$ is a pair
+$(X^i, \eta^i)$
+
+$$
+  X^i \in C^\infty(U \times \Delta^1)
+$$
+
+$$
+  \eta^i \in \Omega^1_{vert}(U \times \Delta^1)
+  \,.
+$$
+
+This pair is taken by the top morphism to
+
+$$
+  (X^i, \eta^j) 
+    \mapsto 
+  \int_{\Delta^1}
+    \omega_{i j} (d_{dR} X^i + \eta^i) \wedge d_{dR} \eta^j
+  \in 
+  \Omega^2(U)
+  \,.
+$$
+
+By the [[Stokes theorem]] the integration yields
+
+$$
+  \cdots 
+    =
+  \omega_{i j} d_{dR} x^i \wedge \eta^j|_{1}
+   -
+  \omega_{i j} d_{dR} x^i \wedge \eta^j|_{0}
+   + \cdots
+  \,.
+$$
+
+Restricting this back to $\exp(\mathfrak{P})$ where the flatness conditions
+
+$$
+  d_{dR} X^i - \eta^i = 0
+$$
+
+and
+
+$$
+  d_{dR} \eta^i = 0
+$$
+
+holds this yields the promised form on the space of morphisms of the [[symplectic groupoid]].
+
+(...)
+
+
+(...)
+
 
 [[!redirects symplectic ∞-groupoid]]
 [[!redirects symplectic ∞-groupoids]]
