@@ -12,5 +12,93 @@ On the advice of [[John Baez]], I'm going to try writing a bit about [[universal
 * [[Reggeon field theory]]
 * [[RSOS model]]
 * [[ADE classification]]
-  
+
+### Scratchpad ###
+
+#### Zamolodchikov's proof of the c-theorem ####
+
+We start with a field theory whose action functional is an integral of a local Lagrangian density:
+
+$ S = \int \mathcal{L}(g,a,x) dx. $
+
+The RG flow is described by the beta functions:
+
+$ dg^i = \beta^i(g) dt. $
+
+At the fixed points, $\beta^i(g) = 0$.
+
+The local energy-momentum tensor $T_{\mu\nu}(x) = T_{\nu\mu}(x)$ satisfies the conservation equation $\partial_\mu T_{\mu\nu} = 0$.  Define the complex coordinates
+
+$ (z, \bar{z}) = (x^1 + ix^2, x^1 - ix^2) $
+
+and define $T = T_{zz}$, $\Theta = T_{z\bar{z}}$.  The local scalar fields are given by
+
+$\Phi_i(g,x) = \frac{\partial}{\partial g^i} \mathcal{L}(g,a,x).$
+
+If the field theory is renormalizable, we can expand the field $\Theta$ in the basis given by the $\Phi_i$:
+
+$\Theta = \beta^i(g) \Phi_i.$
+
+Define
+
+$ C(g) = 2z^4 \langle T(x) T(0) \rangle $
+
+$ H_i(g) = z^2 x^2 \langle T(x) \Phi_i(0) \rangle $
+
+$ G_{ij}(g) = x^4 \langle \Phi_i(x) \Phi_j(0) \rangle $
+
+The positivity condition of the field theory implies that the symmetric matrix $G_{ij}(g)$ is positive definite, and that we can use it as the metric in the space of coupling constants.  We combine our expansion of the field $\Theta$ with the conservation condition $\partial_\mu T_{\mu\nu} = 0$ and the Callan--Symanzik equation to get
+
+$ \frac{1}{2} \beta^i\partial_i C = -3\beta^i H_i + \beta^i\beta^k\partial_k H_i + \beta^k(\partial_k \beta^i) H_i$
+
+and
+
+$ \beta^k \partial_k H_i + (\partial_i \beta^k)H_k - H_i = -2\beta^k G_{ik} + \beta^j \beta^k G_{ij} + \beta^j (\partial_i \beta^k) G_{jk} + \beta^j (\partial_j \beta^k) G_{ik}, $
+
+where we have written $\partial_i$ for the derivative in the coupling-constant space, $\partial/\partial g^i$.
+
+For the function
+
+$c(g) = C(g) + 4\beta^i H_i = 6\beta^i \beta^j G_{ij},$
+
+we have that
+
+$\beta^i \partial_i c(g) = -12 \beta^i \beta^j G_{ij}.$
+
+This verifies that
+
+$ \frac{dc}{dt} = \beta^i(g) \partial_i c(g) \leq 0, $
+
+establishing that the function $c(g)$ decreases monotonically as we apply the RG transform.
+
+Consider a fixed point $g_*$, and choose a coordinate system centered on that point, so that the metric becomes
+
+$ G_{ij}(g) = \delta_{ij} + \mathcal{O}(g^2). $
+
+Near the fixed point, we can calculate $c(g)$ using perturbation theory.  This calculation results in
+
+$ c(g) = \tilde{c}(g_*) - 3(2 - d_i) g^i g^i + 2C_{ijk} g^i g^j g^k + \mathcal{O}(g^4). $
+
+We have written $d_i$ for the anomalous dimensions of the vectors $\Phi_i(g_*, x)$, which at the fixed point are conformal fields.  It then follows that the 2D field theory at the fixed point has conformal symmetry, with an infinite set of generators
+
+$\{L_n | n = 0, \pm 1, \pm 2, \ldots \}$
+
+which satisfy the [[Virasoro algebra]]
+
+$ [L_n, L_m] = (n - m)L_{n+m} + \frac{\tilde{c}}{12}(n^3 - n) \delta_{n+m,0}. $
+
+The fixed-point value of the $c$-function becomes the central charge of the Virasoro algebra.  The central charge is the numerical coefficient in the correlation function
+
+$\langle T(z) T(0) \rangle = z^{-4} \tilde{c}(g_*) / 2.$
+
+Near the fixed point, we can also compute the beta functions in perturbation theory.
+
+$ \beta^i(g) = \epsilon_i g^i - \frac{1}{2} C_{ijk} g^j g^k + \mathcal{O}(g^3).$
+
+Note that to maintain consistency of indices across both sides of this equation, we do not sum over $i$ in the first term.  If the perturbations are "soft", satisfying $|\epsilon_i| \ll 1$, then the coefficients $C_{ijk}$ form the structure constants of a CFT operator algebra.  Raising the indices on $G_{ij}$ by $G^{ik}G_{kj} = \delta^i_j$, we can write
+
+$\beta^i(g) = -\frac{1}{12} G^{ij}(g) \partial_j c(g).$
+
+
+
 category: people
