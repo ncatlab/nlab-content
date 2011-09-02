@@ -51,6 +51,12 @@
 
   * [[smooth ∞-groupoid]], [[∞-Lie algebroid]]
 
+* [[higher symplectic geometry]]
+
+* [[higher Klein geometry]]
+
+* [[higher Cartan geometry]]
+
 ## Theorems
 
 * [[Isbell duality]]
