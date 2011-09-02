@@ -1,0 +1,24 @@
+Operator nabla assigns to a scalar field its density of current ([[gradient]]) $T\mapsto \nabla T$ by the integral formula (here valid on a Riemannian manifold)
+
+$$
+(\nabla T)(x) = lim_{vol D\to 0} \frac{1}{vol D} \oint_{\partial D} \vec{n} T d S,\,\,\,\,\stackrel{\circ}{D}\ni x,
+$$
+
+where $D$ runs over the domains with smooth boundary $\partial D$ containing point $x$ in its interior and $\vec{n}$ is the unit vector of outer normal to the surface $S$. The formula does not depend on the shape of boundaries taken in limiting process, so one can typically take a coordinate chart containing balls $D = D_r$ with decreasing radius $r\gt 0$ in this particular coordinate chart. 
+
+Hamilton introduced this operator symbolically in coordiantes of $\mathbf{R}^n$ as
+$$\nabla = \sum_{k = 1}^n e_k \frac{\partial}{\partial x^k}.$$
+
+
+It can be used to define the [[divergence]] and [[rotation of a vector field]]. 
+
+## Historical and terminological notes 
+
+Nabla is an old instrument in the shape of inverted triangle, sort of assyrian harp. Hamilton introduced the operator $\nabla$ (sometimes called Hamilton's or Hamiltonian operator, but distinguish strictly from [[Hamiltonian]] in the mechanics sense)
+
+* History of nabla [nabla.txt](http://www.mat.univie.ac.at/~neum/contrib/nabla.txt)
+
+## References
+
+* G.E. Shilov, _Mathematical analysis (functions of several real variables)_, part 1-2
+ 	
