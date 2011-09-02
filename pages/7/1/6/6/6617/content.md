@@ -22,6 +22,20 @@ $$
 
 This is $n$ equations, which together with $m$ equations $G = (g^1,\ldots, g^n) = 0$ for $S$ give $m+n$ equations for $m+n$ unknowns $x_1,\ldots, x_n, \lambda_1,\ldots,\lambda_m$. The last $m$ variables here are the Lagrange multipliers. 
 
+## Application to spectral theory 
+
+The method of Lagrange multipliers affords an elementary proof of the spectral theorem for finite-dimensional real vector spaces, one which does not involve passage to the complex numbers and the fundamental theorem of algebra. 
+
++-- {: .un_prop}
+######Proposition 
+Let $A$ be a real symmetric $n \times n$ matrix. Then $A$ is diagonalizable over the real numbers. 
+=-- 
+
++-- {: .proof} 
+######Proof 
+Consider the problem of maximizing the function $f(x) = \langle x \vert A \vert x \rangle$ where $x \in \mathbb{R}^n$ is subject to the constraint $\langle x \vert x \rangle = 1$. (Such an extreme point exists, say by compactness.) By the symmetry of $A$, the gradient of $f$ is easily calculated to be $\nabla f (x) = 2 A x$, whereas the gradient of the Euclidean norm $\langle x \vert x \rangle$ is $2 x$. At a point $x$ where a maximum is attained, we have $\nabla f(x) = 2 A x = \lambda (2 x)$ for some Lagrange multiplier $\lambda$. Thus $x$ is an eigenvector of $A$ with eigenvalue $\lambda$. The usual arguments show that $A$ restricts to a self-adjoint operator on the hyperplane orthogonal to $x$; by picking an orthonormal basis of this hyperplane, we may represent this restriction of $A$ by a real symmetric matrix of size $(n-1) \times (n-1)$, and the argument repeats. 
+=-- 
+
 ## Literature
 
 * wikipedia [Lagrange multiplier](http://en.wikipedia.org/wiki/Lagrange_multiplier)
