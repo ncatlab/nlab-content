@@ -14,7 +14,7 @@
 ***
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -61,6 +61,32 @@ A notable exception to this is possibly the program by [[Maxim Kontsevich]] and 
 ### Structured big $(\infty,1)$-toposes
 
 (...)
+
+## Examples
+
+* [[derived algebraic geometry]]
+
+  * [[étale (∞,1)-site]], [[dg-geometry]], [[Hochschild cohomology]] of [[dg-algebra]]s
+
+  * [[schematic homotopy type]]
+
+* [[derived noncommutative geometry]]
+
+  * [[noncommutative geometry]]
+
+* derived smooth geometry 
+
+  * [[differential geometry]], [[differential topology]]
+
+  * [[derived smooth manifold]]
+
+  * [[smooth ∞-groupoid]], [[∞-Lie algebroid]]
+
+* [[higher symplectic geometry]]
+
+* [[higher Klein geometry]]
+
+* [[higher Cartan geometry]]
 
 ## References
 
