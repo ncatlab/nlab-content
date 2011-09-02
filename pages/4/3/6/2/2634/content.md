@@ -14,6 +14,8 @@
 * table of contents
 {: toc}
 
+Disambiguation: there is an unrelated notion of a Hamilton or Hamiltonian operator also called [[nabla]] in [[vector analysis]]. 
+
 ## Definition
 
 Given a [[Poisson manifold]] $(X, \{-,-\})$ and a [[vector field]] $v \in \Gamma(T X) $ a **Hamiltonian** for $v$ is a function $h_v \in C^\infty(X)$ such that $\{h_v,-\}$ is the [[derivation]] corresponding to $v$.
