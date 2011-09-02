@@ -1,6 +1,6 @@
 **[[symplectic geometry]]**
 
-[[multisymplectic geometry]]
+[[higher symplectic geometry]]
 
 ## Background
 
