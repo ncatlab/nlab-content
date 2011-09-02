@@ -138,9 +138,9 @@ A [[homotopical category]] is a category $C$
 equipped with a class $W$ of [[category with weak equivalences|weak equivalences]].
 Every homotopical category $(C,W)$ has a _quasi-localisation_ $C[W(-1)]$
 which is a [[quasi-category]]. The simplicial set $C[W(-1)]$ is
-obtained from the [[nerve]] of $C$ by freely gluing a [[homotopy]] inverse to each [[morphism]] in $W$, and then, by adding simplicies to turn it into a quasi-category (this last step is called a fibrant completion).
+obtained from the [[nerve]] of $C$ by freely gluing a [[homotopy]] inverse to each [[morphism]] in $W$, and then, by adding simplices to turn it into a quasi-category (this last step is called a fibrant completion).
 
-The [[quasi-category]] $C[W(-1)]$ is equivalent to the [[Dwyer-Kan localisation]] of $C$ with respect to $W$, via the equivalence between [[quasi-category|quasi-categories]] [[simplicially enriched category|simplicial categories]] mentioned above.
+The [[quasi-category]] $C[W(-1)]$ is equivalent to the [[Dwyer-Kan localisation]] of $C$ with respect to $W$, via the equivalence between [[quasi-category|quasi-categories]] and [[simplicially enriched category|simplicial categories]] mentioned above.
 
 
 Conversely, every quasi-category is equivalent to
@@ -168,7 +168,7 @@ http://arxiv.org/abs/math/0007070
 
 ### Model categories
 
-A specific notion of [[homotopical category]] is that of a [[model category]]. $(\infty,1)$-categories obtained as the Dwyer-Kan simplicial localizations of model categories have for instance finite $(\infty,1)$-[[limit]]s and $(\infty,1)$-[[colimit]]. The [[presentable (∞,1)-category|locally presentable (∞,1)-categories]] are precisely those presented this way by [[combinatorial model category|combinatorial model categeories]]. 
+A specific notion of [[homotopical category]] is that of a [[model category]]. $(\infty,1)$-categories obtained as the Dwyer-Kan simplicial localizations of model categories have for instance finite $(\infty,1)$-[[limit]]s and $(\infty,1)$-[[colimit]]s. The [[presentable (∞,1)-category|locally presentable (∞,1)-categories]] are precisely those presented this way by [[combinatorial model category|combinatorial model categeories]]. 
 
 At the very beginning, a [[model category]] was understood as a "model for the category [[Top]] of topological spaces," or more precisely [[homotopy types]]: some [[category]] with extra [[stuff, structure, property|structure and properties]] which allows one to perform all operations familiar of the [[homotopy theory]] of [[topological spaces]].
 
