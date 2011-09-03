@@ -1,4 +1,4 @@
-* [website](http://www.facebook.com/people/Hisham-Sati/664774609)
+* website: [personal](http://www.facebook.com/people/Hisham-Sati/664774609), [institute](http://www.mathematics.pitt.edu/people/HishamSati.php)
 
 ## References
 
