@@ -59,4 +59,15 @@ It is possible to generalize the statement to compact operators on (not necessar
 
 (...) [[normal operator]] (...)
 
+## Proofs
+
+### ...
+
+### By Lagrange multipliers
+
+For the case of symmetric real matrices there is a
+simple proof using [[Lagrange multiplier]] techniques.
+
+See [Lagrange multiplier -- Applications -- To Spectral theory](http://ncatlab.org/nlab/show/Lagrange+multiplier#ApplicationToSpectralTheory).
+
 [[!redirects spectral theorems]]
