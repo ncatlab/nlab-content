@@ -15,18 +15,20 @@
 
 ## Definition
 
-An **infinitary [[coherent category]]** or **geometric category** is a [[well-powered category|well-powered]] [[regular category]] in which the [[subobject]] [[poset]]s $Sub(X)$ have all _small_ [[union]]s which are [[pullback stability|stable under pullback]].  
-
-+-- {: .query}
-[[Mike Shulman]]: I'm starting to feel that well-poweredness shouldn't be included here.  Any thoughts?
-
-Toby:  It allows us to conclude that $Sub(X)$ also has all intersections.  I'll be using this at [[real number object]] to construct an NNO out of an RNO.
-=--
+An **infinitary [[coherent category]]** or **geometric category** is a [[regular category]] in which the [[subobject]] [[poset]]s $Sub(X)$ have all _small_ [[union]]s which are [[pullback stability|stable under pullback]].
 
 
 ## Properties
 
 See [[familial regularity and exactness]] for a general description of the spectrum from regular categories through finitary and infinitary coherent categories.
+
+### Well-poweredness
+
+Frequently, geometric categories are additionally required to be [[well-powered category|well-powered]].  If a geometric category is well-powered, then its subobject posets are [[complete lattices]], hence also have all intersections.  Moreover, by the [[adjoint functor theorem]] for posets, it is a [[Heyting category]].
+
+However, since [[geometric logic]] does not include [[implication]] or infinite [[conjunction]], this categorical structure should not necessarily be expected to exist in a category called "geometric" (and when they do exist, they are not preserved by [[geometric functors]]).  A requirement of well-poweredness is also inconsistent with the spectrum of [[familial regularity and exactness]].
+
+Note, however, that if a geometric category has a small [[generating set]], then it is necessarily well-powered.  In particular, this applies to the [[syntactic category]] of any (small) [[geometric theory]], and also to any [[Grothendieck topos]].
 
 
 ## Related concepts
