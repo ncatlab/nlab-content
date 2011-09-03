@@ -27,7 +27,10 @@ $$
 
 This is $n$ equations, which together with $m$ equations $G = (g^1,\ldots, g^n) = 0$ for $S$ give $m+n$ equations for $m+n$ unknowns $x_1,\ldots, x_n, \lambda_1,\ldots,\lambda_m$. The last $m$ variables here are the Lagrange multipliers. 
 
-## Application to spectral theory 
+## Applications 
+
+### To spectral theory 
+ {#ApplicationToSpectralTheory}
 
 The method of Lagrange multipliers affords an elementary proof of the [[spectral theorem]] for finite-dimensional real [[vector spaces]], one which does not involve passage to the [[complex numbers]] and the [[fundamental theorem of algebra]]. 
 
