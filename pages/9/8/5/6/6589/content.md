@@ -33,17 +33,17 @@ We follow the original proof given by [Zamolodchikov (1986)](#Zamolodchikov).
 
 We start with a field theory whose action functional is an integral of a local [[Lagrangian]] density:
 
-$$ S = \int \mathcal{L}(g,a,x) dx. $$
+$$ S = \int \mathcal{L}(g,a,x) d x. $$
 
 The RG flow is described by the **beta functions**:
 
-$$ dg^i = \beta^i(g) dt. $$
+$$  d g^i = \beta^i(g) \,d t. $$
 
 At the fixed points, $\beta^i(g) = 0$.  (The beta functions in RG theory should not be confused with the Euler beta function, which is related to the gamma function that generalises the factorial operation.  Here, we are using the term in the same sense as when people say, "The beta function in [[QCD]] is negative.")  The **Callan--Symanzik equation** describes how the $n$-point [[correlation function]]s vary under the RG transform.
 
 The local energy-momentum tensor $T_{\mu\nu}(x) = T_{\nu\mu}(x)$ satisfies the conservation equation $\partial_\mu T_{\mu\nu} = 0$.  Define the complex coordinates
 
-$$ (z, \bar{z}) = (x^1 + ix^2, x^1 - ix^2) $$
+$$ (z, \bar{z}) = (x^1 + i x^2, x^1 - i x^2) $$
 
 and define $T = T_{zz}$, $\Theta = T_{z\bar{z}}$.  The local scalar fields are given by
 
@@ -59,39 +59,39 @@ $$ C(g) = 2z^4 \left.\langle T(x) T(0) \rangle\right|_{x^2 = x_0^2} $$
 
 $$ H_i(g) = z^2 x^2 \left.\langle T(x) \Phi_i(0) \rangle\right|_{x^2 = x_0^2} $$
 
-$$ G_{ij}(g) = x^4 \left.\langle \Phi_i(x) \Phi_j(0) \rangle\right|_{x^2 = x_0^2} $$
+$$ G_{i j}(g) = x^4 \left.\langle \Phi_i(x) \Phi_j(0) \rangle\right|_{x^2 = x_0^2} $$
 
-The positivity condition of the field theory implies that the symmetric [[matrix]] $G_{ij}(g)$ is positive definite, and that we can use it as the [[metric space|metric]] in the space of coupling constants.  We combine our expansion of the field $\Theta$ with the conservation condition $\partial_\mu T_{\mu\nu} = 0$ and the Callan--Symanzik equation to get
+The positivity condition of the field theory implies that the symmetric [[matrix]] $G_{i j}(g)$ is positive definite, and that we can use it as the [[metric space|metric]] in the space of coupling constants.  We combine our expansion of the field $\Theta$ with the conservation condition $\partial_\mu T_{\mu\nu} = 0$ and the Callan--Symanzik equation to get
 
 $$ \frac{1}{2} \beta^i\partial_i C = -3\beta^i H_i + \beta^i\beta^k\partial_k H_i + \beta^k(\partial_k \beta^i) H_i, $$
 
 and
 
-$$ \beta^k \partial_k H_i + (\partial_i \beta^k)H_k - H_i = -2\beta^k G_{ik} + \beta^j \beta^k G_{ij} + \beta^j (\partial_i \beta^k) G_{jk} + \beta^j (\partial_j \beta^k) G_{ik}, $$
+$$ \beta^k \partial_k H_i + (\partial_i \beta^k)H_k - H_i = -2\beta^k G_{i k} + \beta^j \beta^k G_{i j} + \beta^j (\partial_i \beta^k) G_{j k} + \beta^j (\partial_j \beta^k) G_{i k}, $$
 
 where we have written $\partial_i$ for the derivative in the coupling-constant space, $\partial/\partial g^i$.
 
 For the function
 
-$$c(g) = C(g) + 4\beta^i H_i = 6\beta^i \beta^j G_{ij},$$
+$$c(g) = C(g) + 4\beta^i H_i = 6\beta^i \beta^j G_{i j},$$
 
 we have that
 
-$$\beta^i \partial_i c(g) = -12 \beta^i \beta^j G_{ij}.$$
+$$\beta^i \partial_i c(g) = -12 \beta^i \beta^j G_{i j}.$$
 
 This verifies that
 
-$$ \frac{dc}{dt} = \beta^i(g) \partial_i c(g) \leq 0, $$
+$$ \frac{d c}{d t} = \beta^i(g) \partial_i c(g) \leq 0, $$
 
 establishing that the function $c(g)$ decreases monotonically as we apply the RG transform.
 
 Consider a fixed point $g_*$, and choose a coordinate system centered on that point, so that the metric becomes
 
-$$ G_{ij}(g) = \delta_{ij} + \mathcal{O}(g^2). $$
+$$ G_{i j}(g) = \delta_{i j} + \mathcal{O}(g^2). $$
 
 Near the fixed point, we can calculate $c(g)$ using [[perturbation theory]].  This calculation results in
 
-$$ c(g) = \tilde{c}(g_*) - 3(2 - d_i) g^i g^i + 2C_{ijk} g^i g^j g^k + \mathcal{O}(g^4). $$
+$$ c(g) = \tilde{c}(g_*) - 3(2 - d_i) g^i g^i + 2C_{i j k} g^i g^j g^k + \mathcal{O}(g^4). $$
 
 We have written $d_i$ for the [[anomalous dimension]]s of the vectors $\Phi_i(g_*, x)$, which at the fixed point are conformal fields.  It then follows that the 2D field theory at the fixed point has conformal symmetry, with an infinite set of generators
 
@@ -107,11 +107,11 @@ $$\langle T(z) T(0) \rangle = z^{-4} \tilde{c}(g_*) / 2.$$
 
 Near the fixed point, we can also compute the beta functions in perturbation theory.
 
-$$ \beta^i(g) = \frac{2 - d_i}{2} g^i - \frac{1}{2} C_{ijk} g^j g^k + \mathcal{O}(g^3).$$
+$$ \beta^i(g) = \frac{2 - d_i}{2} g^i - \frac{1}{2} C_{i j k} g^j g^k + \mathcal{O}(g^3).$$
 
-Note that to maintain consistency of indices across both sides of this equation, we do not sum over $i$ in the first term.  If the perturbations are "soft", satisfying $|2 - d_i| \ll 1$, then the coefficients $C_{ijk}$ form the structure constants of a [[CFT]] operator algebra.  Raising the indices on $G_{ij}$ by $G^{ik}G_{kj} = \delta^i_{\,j}$, we can write
-
-$$\beta^i(g) = -\frac{1}{12} G^{ij}(g) \partial_j c(g).$$
+Note that to maintain consistency of indices across both sides of this equation, we do not sum over $i$ in the first term.  If the perturbations are "soft", satisfying $|2 - d_i| \ll 1$, then the coefficients $C_{i j k}$ form the structure constants of a [[CFT]] operator algebra.  Raising the indices on $G_{i j}$ by $G^{i k}G_{k j} = \delta^i_{\,j}$, we can write
+ 
+$$\beta^i(g) = -\frac{1}{12} G^{i j}(g) \partial_j c(g).$$
 
 
 ## References
