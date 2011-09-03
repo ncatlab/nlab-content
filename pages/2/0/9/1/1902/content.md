@@ -1,10 +1,16 @@
 
-<div style="float:left;margin:0 20px 10px 20px;"><img width = "150" src="http://www.ics.mq.edu.au/mugshots/domv.jpg" alt="Dominic Verity" /></div>
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "150" src="http://www.ics.mq.edu.au/mugshots/domv.jpg" alt="Dominic Verity" /></div>
+
 
 
 * [webpage](http://www.ics.mq.edu.au/gen/person/domv.html)
 
-#Related $n$Lab entries#
+## Some publications
+
+* _Enriched categories, internal categories and change of base_ Ph.D. thesis, Cambridge University (1992), reprinted as Reprints in Theory and Applications of Categories, No. 20 (2011) pp 1-266 ([TAC](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html))
+
+
+## Related entries
 
 * [[simplicial model for weak omega-categories]]
 
