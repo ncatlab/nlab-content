@@ -1,1 +1,24 @@
-By pseudo differential analysis an elliptic operator acting on sections of two vector bundles on a manifold is fredholm hence has closed kernel and cockernel of finite dimension. The difference of these two dimensions is the analytical index. It does not the depend of the Sobolev space used to get a bounded operator (intact by elliptic regularity the kernel is made up of smooth sections and the same for the cockerel as it is the kernel of the adjoint). By topological methods ($K$ theory) one can associate to it a [topological index]. The Atiyah Singer index theorem say that this two indexes coincide.
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+
+By [[pseudo-differential operator|pseudo-differential analysis]] an [[elliptic operator]] acting on [[sections]] of two [[vector bundles]] on a [[manifold]] is a [[Fredholm operator]] and hence has closed [[kernel]] and [[cokernel]] of finite [[dimension]]. The difference of these two dimensions is the _analytical index_ of the operator. 
+
+This index does not the depend of the [[Sobolev space]] used to get a [[bounded operator]] (by elliptic regularity the kernel is made up of smooth sections and the same for the cokernel as it is the kernel of the adjoint). By [[topological K-theory]]  one can associate to it also a [[topological index]]. The [[Atiyah-Singer index theorem]] say that this two indexes coincide.
+
+## Related concepts
+
+* [[index theory]]
+
+  * [[topological index]]
+
+  * analytical index
+
+  * [[Atiyah-Singer index theorem]]
+
+[[!redirects analytical indices]]
