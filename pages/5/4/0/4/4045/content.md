@@ -86,7 +86,7 @@
 
 ## Theorems
 
-* [[coherence theorem]]
+* [[coherence theorem for monoidal categories]]
 
 * [[monoidal Dold-Kan correspondence]]
 
