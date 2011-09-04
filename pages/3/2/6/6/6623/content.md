@@ -1,4 +1,4 @@
-Our account closely follows that of Paul Taylor (Practical Foundations of Mathematics, section 6.3). 
+The notion of well-founded coalgebra is due to Paul Taylor (with antecedents in the work of Gerhard Osius). Our account is based on Taylor's book, Practical Foundations of Mathematics (section 6.3), and on his paper [The General Recursion Theorem](#taylor). 
 
 Let $C$ be a [[finitely complete category]], and let $T$ be an endofunctor on $C$. We will suppose that $T$ preserves [[monomorphism|monos]]. 
 
@@ -17,7 +17,7 @@ the map $j$ factors through $i$ (note that $j$ is monic since $T$ preserves mono
 A coalgebra $(X, \theta)$ is **well-founded** if the only inductive subobject of $X$ is $X$ itself. 
 =-- 
 
-Our goal in this article is to show that one can perform inductive arguments and recursive constructions in the abstract context of well-founded coalgebras. The more challenging aspect is to make precise what is meant by a recursive construction of a map $\phi: X \to A$, where the problem is to build $\phi$ from the ground up, as it were. Stages in the recursive construction of a morphism will be _partial_ maps, defined as usual as spans 
+Our goal in this article is to show that one can perform inductive arguments and recursive constructions in the abstract context of well-founded coalgebras. The more challenging aspect is to make precise what is meant by a recursive construction of a map $\phi: X \to A$, where the problem is to show how to build $\phi$ from the ground up, as it were. Stages in the recursive construction of a morphism will be _partial_ maps, defined as usual as spans 
 
 $$\array{
  & & D & & \\
@@ -25,8 +25,18 @@ $$\array{
 A & & & & B
 }$$ 
 
-for which the arrow $i$ is _monic_. Composition of partial maps is effected by span composition, for which we need only finite cocompleteness (we do not need $C$ to be a [[regular category]], as we would if we were composing general relations between $A$ and $B$). We denote a partial map by 
+for which the arrow $i$ is _monic_. Composition of partial maps is effected by span composition, for which we need only finite cocompleteness (we do not need $C$ to be a [[regular category]], as we would if we were composing general relations between $A$ and $B$). Notice that since $T$ preserves monos, it carries partial maps to partial maps. That being said, $T$ is only a colax functor, in the sense of there being 2-cells $T(g \circ f) \to T g \circ T f$ in the bicategory of partial maps. This will be no cause for concern. 
 
-$$f: A \harpoonright B$$ 
+We denote a partial map by 
 
-generally without explicitly mentioning the domain $D$ of $f$. 
+$$f: A \dashleftarrow B$$ 
+
+(generally without explicitly mentioning the domain $D$ of $f$), or sometimes by a harpoon notation. 
+
+## Example: well-founded relations 
+
+The prototype of the notion of well-founded coalgebra is a [[well-founded relation]]. 
+
+## References 
+
+* Paul Taylor, Towards a unified treatment of induction, I: the general recursion theorem (1996). ([pdf](http://www.paultaylor.eu/ordinals/towuti.pdf)){#taylor}
