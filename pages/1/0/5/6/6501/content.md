@@ -1,5 +1,5 @@
 
-# Frame bundles
+# Frame and coframe bundles
 * table of contents
 {: toc}
 
@@ -9,6 +9,13 @@ Given a $k$-[[vector bundle]] $p\colon E \to M$ of finite [[rank]] $n$, its __fr
 
 The __frame bundle of a [[manifold]]__ $M$ is the [[principal bundle]] $F T M \to M$ (also denoted $F M \to M$) of frames in the [[tangent bundle]] $T M$. 
 
+In the finite-dimensional case, the dual $GL_n$-principal bundle $(F T)^* M$ is the __coframe bundle__ of the manifold. This means that $F^* M = (F T)^* M$ is the associated bundle to $F T M \times_{GL_n(k)}GL_n(k)$ where the left action of $GL_n(k)$ on $GL_n(k)$ is given by right multiplication by inverses $g. h = h\cdot g^{-1}$. Also $F T M\cong (F T)^* M\times_{GL_n(k)} GL_n(k)$ using the same formula. Furthermore, the right action of $GL_n(k)$ on this associated bundle is given by left multiplication by inverses on $GL_n(k)$ factor. 
+
+Coframe bundle $F^* M$ has the following independent description. One looks at the tuples of the form $(p,(U,h))$ where $p\in U$ and $(U,h)$ is chart of the smooth structure on $M$, $U\subset M$, $h : U\to \mathbf{R}^n$ (an atlas where $U$-s make a basis of topology suffices). The total space $F^* M$ of the coframe bundle by the definition, as a set, consists of classes of equivalence of such tuples where $(p,(U,h)) \sim (p',(U',h'))$ iff $p = p'$ and the Jacobian matrix of the transition between charts at $h'(p)$ is the unit matrix: $J_{h'(p)}(h\circ (h')^{-1}) = I$. There is an obvious projection $\pi: [(p,(U,h)]\mapsto p$. To define the differential and principal bundle structure one charts $F^* M\to M$ with local trivializations from the neighborhoods of the form $U\times GL_n(k)$, transfers the structure and checks that the transition functions are of the\ appropriate smoothness class and right $GL_n(k)$-equivariant. The basic prescription is that to every chart $(U,h)$ one defines a map
+
+$$
+\pi^{-1}(U)\to U \times GL_n(k),\,\,\,\,\,\,z\mapsto (\pi(z), J_{h'(z)}(h\circ h'^{-1})).
+$$
 
 ## References
 
@@ -16,5 +23,5 @@ The __frame bundle of a [[manifold]]__ $M$ is the [[principal bundle]] $F T M \t
 * [[Shlomo Sternberg]], _Lectures on differential geometry_
 
 
-[[!redirects frame bundle]]
+[[!redirects coframe bundle]]
 [[!redirects frame bundles]]
