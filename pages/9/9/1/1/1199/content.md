@@ -1,4 +1,3 @@
-
 # Contents
 * automatic table of contents goes here
 {: toc}
@@ -64,7 +63,7 @@ Other relevant notions may also be packaged; for example, the $P$-coalgebra $X$ 
 
 ## Simulations
 
-Given two sets $S$ and $T$, each equipped with a well-founded relation $\prec$, a [[function]] $f\colon S \to T$ is a __simulation__ of $S$ in $T$ if
+Given two sets $S$ and $T$, each equipped with a well-founded relation $\prec$, a [[function]] $f\colon S \to T$ is a __[[simulation]]__ of $S$ in $T$ if
 1.  $f(x) \prec f(y)$ whenever $x \prec y$ and
 2.  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
 
