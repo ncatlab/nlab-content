@@ -83,6 +83,12 @@ $$
 
 [[fig1.gif:pic]]
 
+$\hat{\otimes}$ in the same line with $$\hat\otimes$$, same line 
+
+$$
+\hat{\otimes}
+$$
+
 category: meta
 
 [[!redirects sandbox]]
