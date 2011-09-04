@@ -411,7 +411,7 @@ to $z$ such that the above diamond is commutative in $B$ will be proved
 by considering all possible cases for $\beta$ and $\gamma$.  For
 $\beta$, we have three possibilities: 
 
-1. $\beta = \beta'\hat{\otimes} 1\tilde{w}$ for some $\tilde{w}\in W_0$ and some
+* $\beta = \beta'\hat{\otimes} 1\tilde{w}$ for some $\tilde{w}\in W_0$ and some 
 directed $\beta'\in S$.  In this case
 
 $$
@@ -422,12 +422,12 @@ and therefore $dom(\beta') = u$ and $\tilde{w}=w$ (by standard ''unique
 decomposition'' of terms in a first-order language).  Also, 
 $v' = cod(\beta) = cod(\beta')\otimes w $.
 
-1. $\beta = 1\tilde{u}\hat{\otimes}\beta'' $ for some $\tilde{u}\in W_0$ and some
+* $\beta = 1\tilde{u}\hat{\otimes}\beta'' $ for some $\tilde{u}\in W_0$ and some
 directed $\beta''\in S$. As above, we get in this case that
 $dom(\beta'') =w$ and $\tilde{u} = u$. Also, 
 $v' = cod(\beta) = u\otimes cod(\beta'')$.
 
-1. $\beta = \alpha \tilde{u} s t$ for some $\tilde{u},s,t\in W_0$, in which
+* $\beta = \alpha \tilde{u} s t$ for some $\tilde{u},s,t\in W_0$, in which
 case 
 
 $$
@@ -439,15 +439,15 @@ so that $\tilde{u} = u$ and $w = s\otimes t$.  Also, $v' = cod(\beta) =
 
 In summary, we have the following 3 cases for $\beta$:
 
-{\bf Case $1_{\beta}$:} $\beta = \beta'\hat{\otimes} 1w$ for some directed
+* Case $1_{\beta}$: $\beta = \beta'\hat{\otimes} 1w$ for some directed
 $\beta'\in S$ with $dom(\beta')=u$. Also, $v' = 
 cod(\beta')\otimes w$. 
 
-{\bf Case $2_{\beta}$:} $\beta = 1u \hat{\otimes} \beta''$ for some
+* Case $2_{\beta}$: $\beta = 1u \hat{\otimes} \beta''$ for some
 directed $\beta''\in S$ with $dom(\beta'') = w$. Also, $v' =
 u\otimes cod(\beta'')$. 
 
-{\bf Case $3_{\beta}$:} $\beta = \alpha u s t$ for some $s,t\in W_0$,
+* Case $3_{\beta}$: $\beta = \alpha u s t$ for some $s,t\in W_0$,
 and also $w = s\otimes t$ and $v' = (u\otimes s)\otimes t$.
 
 Similarly, we have Case $1_{\gamma}$, Case $2_{\gamma}$ and Case
@@ -610,7 +610,7 @@ ending with associators, as in
 [[Coh_fig_18.gif:pic]]
 
 Here, $clean(v)$ is the word obtained by removing all instances of
-the unitor from $v$ (this can be defined rigorously by induction), and
+the unit from $v$ (this can be defined rigorously by induction), and
 $r$ is the total number of units appearing in $v$.
 The right part of the last diagram, where there are no units and
 unitors, commutes in $B$ by the ''coherence 
@@ -717,10 +717,10 @@ of _An ABC of Category Theory_, Autumn 2004.  [available online](http://www.math
 
 * [[Max Kelly]] _On MacLane's conditions for coherence of natural associators, commutativities, etc._, _Journal of Algebra_, 1, pp. 397--402, 1964. 
 
-* I.~Beylin and P.~Dybjer, _Extracting a proof of coherence for monoidal categories from a formal proof of normalization of monoids_, 
+* I. Beylin and P. Dybjer, _Extracting a proof of coherence for monoidal categories from a formal proof of normalization of monoids_, 
 [available online](http://www.cse.chalmers.se/~peterd/papers/Hol_alf.pdf)
 
-* P.~Etingof, S.~Galeki, D. Nikshych, and V.~Ostrik,
+* P. Etingof, S. Galeki, D. Nikshych, and V. Ostrik,
 _Tensor Categories_, [course notes available online](http://www-math.mit.edu/~etingof/tenscat.pdf)
 
-* J.~Armstrong, [Mac Lane's coherence theorem](http://unapologetic.wordpress.com/2007/06/29/mac-lanes-coherence-theorem/)
+* J. Armstrong, [Mac Lane's coherence theorem](http://unapologetic.wordpress.com/2007/06/29/mac-lanes-coherence-theorem/)
