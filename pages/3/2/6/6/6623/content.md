@@ -1,6 +1,6 @@
-The notion of well-founded coalgebra is due to Paul Taylor (with antecedents in the work of Gerhard Osius). Our account is based on Taylor's book, Practical Foundations of Mathematics (section 6.3), and on his paper [The General Recursion Theorem](#taylor). 
+The notion of well-founded coalgebra is due to Paul Taylor (with antecedents in the work of Gerhard Osius). Our account is largely based on Taylor's book, Practical Foundations of Mathematics (section 6.3), and on his paper [The General Recursion Theorem](#taylor), although in some cases we work with slightly different hypotheses. 
 
-Let $C$ be a [[finitely complete category]], and let $T$ be an endofunctor on $C$. We will suppose that $T$ preserves [[monomorphism|monos]]. 
+Let $C$ be a [[finitely complete category]], and let $T$ be an endofunctor on $C$. We will suppose that $T$ preserves pullbacks of cospans in which one of the cospan arrows is [[monomorphism|monic]]; in particular, $T$ preserves monos. An example is the covariant power-set functor $P: Set \to Set$. 
 
 +-- {: .un_def}
 ######Definition 
@@ -17,7 +17,9 @@ the map $j$ factors through $i$ (note that $j$ is monic since $T$ preserves mono
 A coalgebra $(X, \theta)$ is **well-founded** if the only inductive subobject of $X$ is $X$ itself. 
 =-- 
 
-Our goal in this article is to show that one can perform inductive arguments and recursive constructions in the abstract context of well-founded coalgebras. The more challenging aspect is to make precise what is meant by a recursive construction of a map $\phi: X \to A$, where the problem is to show how to build $\phi$ from the ground up, as it were. Stages in the recursive construction of a morphism will be _partial_ maps, defined as usual as spans 
+**Example:** Suppose $X$ is an initial algebra for the endofunctor $T$, with algebra structure map $\alpha: T X \to X$. By Lambek's theorem, $\alpha$ is invertible, so that $X$ carries a coalgebra structure $\theta = \alpha^{-1}: X \to T X$. It is easy to check that an inductive subobject gives a subalgebra $i: U \to X$, but a subalgebra of an initial algebra must be the initial algebra itself. Hence $(X, \theta)$ is well-founded. 
+
+Our goal in this article is to show that one can perform inductive arguments and recursive constructions in the abstract context of well-founded coalgebras. An interesting challenge is to make precise what is meant by a recursive construction of a map $\phi: X \to A$, where the problem is to show how to build $\phi$ from the ground up, as it were. Stages in the recursive construction of a morphism will be _partial_ maps, defined as usual as spans 
 
 $$\array{
  & & D & & \\
@@ -25,18 +27,52 @@ $$\array{
 A & & & & B
 }$$ 
 
-for which the arrow $i$ is _monic_. Composition of partial maps is effected by span composition, for which we need only finite cocompleteness (we do not need $C$ to be a [[regular category]], as we would if we were composing general relations between $A$ and $B$). Notice that since $T$ preserves monos, it carries partial maps to partial maps. That being said, $T$ is only a colax functor, in the sense of there being 2-cells $T(g \circ f) \to T g \circ T f$ in the bicategory of partial maps. This will be no cause for concern. 
+for which the arrow $i$ is _monic_. Composition of partial maps is effected by span composition, for which we need only finite cocompleteness (we do not need $C$ to be a [[regular category]], as we would if we were composing general relations between $A$ and $B$). Notice that since $T$ preserves the pulling back of monos, it carries partial maps to partial maps and also preserves partial map composition. 
 
-We denote a partial map by 
+We denote a partial map by a dashed arrow 
 
-$$f: A \dashleftarrow B$$ 
+$$f: A \dashrightarrow B$$ 
 
 (generally without explicitly mentioning the domain $D$ of $f$), or sometimes by a harpoon notation. 
 
 ## Example: well-founded relations 
 
-The prototype of the notion of well-founded coalgebra is a [[well-founded relation]]. 
+The prototype of the notion of well-founded coalgebra is a well-founded relation, which is essentially the same thing as a well-founded coalgebra over the covariant power-set functor $P: Set \to Set$. In brief, a binary relation $\prec$ on a set $X$ corresponds to a coalgebra $\theta: X \to P X$, by saying $y \prec x$ if and only if $y \in \theta(x)$. See [[well-founded relation]] for more information. 
+
+Most of the constructions of this article are well-illustrated by checking them against the background of this prototypical case. 
+
+## Induction and recursion 
+
+"One _proves_ things by induction; one _defines_ things by recursion." This slogan is not mere pedantry; it is meant to underline a difference between these processes. 
+
+A proof by induction, say a proof of a property or predicate $R(x)$ where $x$ varies over a domain $X$, proceeds by showing that the subobject $i: U \hookrightarrow X$ defined by $R$ is an inductive subset with respect to a relation on $X$. It follows that $R$ is universally true on $X$, if the relation is well-founded. The same idiom applies more generally to well-founded coalgebras. 
+
+A recursive construction on the other hand involves a _dependency_ on prior stages of the construction. A typical application is to define a map $f: X \to A$ by recursion with respect to a well-founded relation, where $f(x)$ is specified in three stages: 
+
+* Consider the collection $\theta(x) = \{y: y \prec x\}$ of all elements preceding $x$; 
+
+* Pass to the values $f(y)$ defined earlier in the construction, giving a subset $P(f)(\theta(x)) = \{f(y): y \prec x\}$ of $A$; 
+
+* Apply a given operation $\phi: P(A) \to A$ to this subset $(P(f) \circ \theta)(x)$, to obtain $f(x)$.   
+
+In the last step, the operation may be only partially defined on $P(A)$. In fact, the map $f$ itself may be only partially defined; $f(x)$ is defined only if $\phi((P(f) \circ \theta) (x))$ is defined "when we call for it". 
+
+An inductive argument is used to show that $f$, so far as it is defined, is uniquely determined. The recursive equation that uniquely determines $f$ (to the extent that it exists, of course) is 
+
+$$f = \phi \circ P(f) \circ \theta.$$ 
+
+Letting $\downarrow x$ denote the down-closure of an element $x \in X$ with respect to $\prec$ (and containing $x$), we may then form the set 
+
+$$\{x \in X: \exists_{g: \downarrow x \to A} (g = \phi \circ P(g) \circ \theta)\}$$ 
+
+whence the existence of a map $f: X \to A$ satisfying the recursive equation might indeed be proven by appeal to an inductive argument. 
+
+However, notice that this set is defined by a construction in [[dependent type theory]]. For other categories $C$, we might not have the luxury of interpreting dependent types, so there it wouldn't be right to conflate recursion with induction. 
+
+It is nevertheless true that one can prove, in rather considerable generality, both an induction principle and recursion theorem for well-founded coalgebras; this will occupy us in the following sections. 
 
 ## References 
+
+* Paul Taylor, Practical Foundations of Mathematics, Cambridge University Press (1999). 
 
 * Paul Taylor, Towards a unified treatment of induction, I: the general recursion theorem (1996). ([pdf](http://www.paultaylor.eu/ordinals/towuti.pdf)){#taylor}
