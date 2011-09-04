@@ -37,4 +37,4 @@ Now I'm working on what I jokingly and seriously call at the same time, _a grand
 
 * [My homepage at St Peter's College](http://www.spc.ox.ac.uk/Staff/69/Staff.html?StaffId=292) 
 * [Biamonte] (http://qubit.org/jacob-biamonte.html) (My homepage!)
-* [CQT, Singapore](http://qubit.org/jacob-biamonte.html) (Centre for Quantum Technologies, NUS, Singapore) 
+* [CQT, Singapore](http://qubit.org/courses/46-iqc2011.html) (Centre for Quantum Technologies, NUS, Singapore) 
