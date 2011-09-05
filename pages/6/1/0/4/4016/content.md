@@ -1,23 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
-
+{: toc}
 
 ## Definition
 
 A [[cardinal number]] $\kappa$ is **measurable** if some (hence any) set of cardinality $\kappa$ admits a two-valued [[measure]] which is $\kappa$-additive, or equivalently an [[ultrafilter]] which is $\kappa$-complete.
+
 
 ## Properties
 
@@ -27,6 +26,7 @@ It follows from this that the existence of any measurable cardinals cannot be pr
 
 Measurable cardinals are sometimes said to mark the boundary between "small" large cardinals (such as inaccessibles, [[Mahlo cardinal]]s, and [[weakly compact cardinal]]s) and "large" large cardinals (such as [[strongly compact cardinal]]s, [[supercompact cardinal]]s, and so on).
 
+
 ## In category theory
 
 The existence or nonexistence of measurable cardinals can have noticeable impacts on [[category theory]], notably in terms of the properties of the category [[Set]].
@@ -35,4 +35,6 @@ For instance, the category $Set^{op}$ has a [[small category|small]] [[dense sub
 
 This is theorem A.5 of [[LPAC]].
 
+
+[[!redirects measurable cardinal]]
 [[!redirects measurable cardinals]]
