@@ -141,6 +141,13 @@ A discussion in terms of [[model category]] [[presentable (∞,1)-category|prese
 [[!redirects 4-connected]]
 [[!redirects 5-connected]]
 
+
+[[!redirects 0-connective]]
+[[!redirects 1-connective]]
+[[!redirects 2-connective]]
+[[!redirects 3-connective]]
+
+
 [[!redirects n-connected object]]
 [[!redirects n-connected objects]]
 [[!redirects n-connected]]
