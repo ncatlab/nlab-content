@@ -1,19 +1,17 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 #### Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include topos theory - contents]]
 =--
 =--
 =--
-
-
-
 
 # Contents
 * automatic table of contents goes here
@@ -190,8 +188,7 @@ Hence, the only "irremovable" existential clauses (that necessitate passing from
 
 This is in marked contrast to ZFC, whose axiom list is superficially shorter (ignoring the fact that axiom schemas are technically infinite lists of axioms!) but whose logical complexity is much greater. 
 
-It must be added that this fully formal presentation masks much of the conceptual clarity afforded by the underlying categorical and structural insights that are actually at work, particularly the systematic use of universal mapping properties. To put it more sharply: the traditional syntactic machinery used to present first-order theories is not really a natural or well-adapted 'home' for presenting categorical theories such as ETCS. The natural mode of presentation would use diagrams of arrows from the outset, as formalized say by Freyd's [[Q-sequence]]s, and that is as fully formal as the more traditional mode adopted here, which after all goes back to Frege and hasn't changed in a century. 
-
+It must be added that this fully formal presentation masks much of the conceptual clarity afforded by the underlying categorical and structural insights that are actually at work, particularly the systematic use of universal mapping properties. To put it more sharply: the traditional syntactic machinery used to present first-order theories is not really a natural or well-adapted 'home' for presenting categorical theories such as ETCS. The natural mode of presentation would use diagrams of arrows from the outset, as formalized say by Freyd's [[Q-sequence]]s, and that is as fully formal as the more traditional mode adopted here, which after all goes back to Frege and hasn't changed in a century.
 
 
 ## References
@@ -204,4 +201,5 @@ Over the years various people at
 have challenged [[category theory|category theorists]] to write down a fully formal presentation of ETCS.
 
 
+[[!redirects fully formal ETCS]]
 [[!redirects fully formal definition of ETCS]]
