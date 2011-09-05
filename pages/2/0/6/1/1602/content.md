@@ -444,9 +444,15 @@ A clear and precise account of what anomalies are and what the Green-Schwarz mec
 
 For the moment, see there for further references.
 
+
 ### For $10 D$ supergravity
 
-Much of the literature discusses the Green-Schwarz mechanism in 10 d supergravity while suppressing the contributions from the [[fermion]]s. An excveption is
+An account of historical developments is in section 7 of
+
+* [[John Schwarz]], _The Early Years of String Theory: A Personal Perspective_ in _The birth of string theory_ ([arXiv:0708.1917](http://arxiv.org/abs/0708.1917))
+
+
+The full formula for the differential form data including the fermionic contributions is in 
 
 * L. Bonora, M. Bregola, R. D'Auria, P. Fr&eacute; K. Lechner, P. Pasti, 
 I. Pesando, M. Raciti, F. Riva, M. Tonin and D. Zanon, _Some remarks
@@ -454,7 +460,6 @@ on the supersymmetrization of the Lorentz Chern-Simons form
 in $D = 10$ $N= 1$ supergravity theories_ ([[BonoraSuperGS.pdf:file]])
 
 and references given there.
-
 
 
 [[!redirects Green Schwarz mechanism]]
