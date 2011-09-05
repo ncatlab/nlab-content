@@ -67,7 +67,7 @@ $u\otimes v$ for convenience) is also in $W$.
 Next, we define a set $S'$ of certain arrow symbols as
 follows (the reason for the tag in $S'$ will be clear later).
 Let $S'$ be the smallest set of strings in the alphabet
-$W\cup\{1,\alpha,\alpha^{-1},\lambda,\lambda^{-1},\varrho,\varrho^{-1},\hat{\otimes}\}$
+$W\cup\{1,\alpha,\alpha^{-1},\lambda,\lambda^{-1},\varrho,\varrho^{-1},\displaystyle{\hat{\otimes}\}}$
 satisfying $\alpha u v w, \alpha^{-1} u v w\in S'$ for all
 $u,v,w\in W$, $\lambda w, \lambda^{-1} w, \varrho w,
 \varrho^{-1} w \in S'$ for all $w\in W$, and for all $w\in W$, if
