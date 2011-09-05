@@ -1,30 +1,29 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Type theory
-+--{: .hide}
++-- {: .hide}
 [[!include type theory - contents]]
 =--
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 #### $(\infty,1)$-Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -48,5 +47,8 @@ A flavor of [[type theory]] that seems to serve as a [[foundation]] for [[homoto
 
 * [[Michael Shulman]], _Homotopy type theory_  <a href="http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_i.html">I</a>,  <a href="http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_ii.html">II</a>, <a href="http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_iii.html">III</a>, <a href="http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html">IV</a>
 * Homotopy type theory, Oberwolfach Reports 11-2011, [pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf)
+
+
+[[!redirects homotopy type theory]]
 [[!redirects (∞,1)-type theory]]
 [[!redirects (infinity,1)-type theory]]
