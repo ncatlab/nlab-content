@@ -3,11 +3,11 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include topos theory - contents]]
 =--
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
@@ -15,7 +15,7 @@
 
 # Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea 
 
@@ -26,7 +26,7 @@ To free the notion from membership-based set theory, we must replace _sets of se
 
 ## Definition 
 
-A **universe** in a topos $\mathcal{E}$ is a morphism $el:E\to U$ satisfying the axioms to follow.  We think of $el:E\to U$ as a $U$-indexed family of objects (sets), and we define a morphism $a:A\to I$ (regarded as an $I$-indexed family of objects) to be **$U$-small** if there exists a morphism $f:I\to U$ and a [[pullback]] square
+A **universe** in a topos $\mathcal{E}$ is a morphism $el\colon E \to U$ satisfying the axioms to follow.  We think of $el\colon E \to U$ as a $U$-indexed family of objects (sets), and we define a morphism $a\colon A \to I$ (regarded as an $I$-indexed family of objects) to be **$U$-small** if there exists a morphism $f\colon I \to U$ and a [[pullback]] square
 $$\array{A & \to & E\\
   ^a\downarrow && \downarrow^{el}\\
   I& \underset{f}{\to} & U.}
@@ -37,15 +37,15 @@ The axioms which must be satisfied are:
 
 1. Every [[monomorphism]] is $U$-small.
 
-1. The composite of $U$-small morphisms is $U$-small.
+2. The composite of $U$-small morphisms is $U$-small.
 
-1. If $f:A\to I$ and $g:B\to A$ are $U$-small, then so is the [[dependent product]] $\Pi_f g$ (where $\Pi_f$ is the right adjoint to $f^*:\mathcal{E}/I\to \mathcal{E}/A$).
+3. If $f\colon A \to I$ and $g\colon B \to A$ are $U$-small, then so is the [[dependent product]] $\Pi_f g$ (where $\Pi_f$ is the right adjoint to $f^*\colon \mathcal{E}/I \to \mathcal{E}/A$).
 
-1. The [[subobject classifier]] $\Omega$ is $U$-small.
+4. The [[subobject classifier]] $\Omega$ is $U$-small.
 
-Note that since $0\to \Omega$ is a monomorphism, (1) and (4) imply that the [[initial object]] $0$ is $U$-small.  A _[[predicative mathematics|predicative]] universe_ is a morphism $el:E\to U$ where instead of (4) we assume merely that $0$ is $U$-small; this makes sense in any [[locally cartesian closed category]].  In a topos, the generic subobject $1\to \Omega$ is a predicative universe, and of course a morphism is $\Omega$-small if and only if it is a monomorphism.
+Note that since $0\to \Omega$ is a monomorphism, (1) and (4) imply that the [[initial object]] $0$ is $U$-small.  A _[[predicative mathematics|predicative]] universe_ is a morphism $el\colon E \to U$ where instead of (4) we assume merely that $0$ is $U$-small; this makes sense in any [[locally cartesian closed category]].  In a topos, the generic subobject $1\to \Omega$ is a predicative universe, and of course a morphism is $\Omega$-small if and only if it is a monomorphism.
 
-If we assume only (1)--(3), then the identity morphism $1_0:0\to 0$ of the initial object would be a universe, for which it itself is the only $U$-small morphism.  On the other hand, if $\mathcal{E}$ has a [[natural numbers object]] $N$, we may additionally assume that $N$ is $U$-small, to ensure that all universes contain "infinite" sets.
+If we assume only (1)--(3), then the identity morphism $1_0\colon 0 \to 0$ of the initial object would be a universe, for which it itself is the only $U$-small morphism.  On the other hand, if $\mathcal{E}$ has a [[natural numbers object]] $N$, we may additionally assume that $N$ is $U$-small, to ensure that all universes contain "infinite" sets.
 
 Note that any object isomorphic to a $U$-small object is $U$-small; thus in the language of [[Grothendieck universe]]s this notion of smallness corresponds to _essential_ smallness.  Roughly, we may say that (1) corresponds to transitivity of a Grothendieck universe, (3) and (4) correspond to closure under power sets, and (2) corresponds to closure under indexed unions.
 
@@ -86,10 +86,10 @@ $S_0$ is $U$-small. So: a subset of a $U$-small set is $U$-small.
   empty set is $U$-small.
   
 * Let $S$, $T$ and $K$ be objects of $SET$, regarded as $*$-indexed families
-$f : S \to *$, $T \to *$ and $K \to *$. Notice that 
+$f\colon S \to *$, $T \to *$ and $K \to *$. Notice that 
 $(SET\downarrow S)(f^* K, f^* T) \simeq (SET\downarrow S)(\array{K \times S \\ \downarrow^{p_2} \\ S}, \array{T \times S \\ \downarrow^{p_2} \\ S})$
 is canonically isomorphic to $SET(K \times S, T)$. Since $\Pi_f$ is 
-defined to be the [[right adjoint]] to $f^* : SET \to SET \downarrow S$
+defined to be the [[right adjoint]] to $f^*\colon SET \to SET \downarrow S$
 it follows that $\Pi_f f^* T \simeq T^S$  is the function set of functions
 from $S$ to $T$. By 3), if $S$, $T$ are $U$-small then so is 
 the function set $T^S$.
@@ -112,7 +112,7 @@ By axiom 2) the composite morphism $(S \to I \to *) = (S \to *)$ is $U$-small,
 hence $S$ is a $U$-small set, hence the $I$-indexed union of $U$-small sets
 $\sqcup_{i \in I} S_i$ is $U$-small.
 
-By standard constructions in [[nLab:set theory|set theory]] from these
+By standard constructions in [[set theory]] from these
 properties the following further closure properties of the universe $U$
 follow.
 
@@ -144,7 +144,7 @@ Just as [[ZFC]] and other material [[set theory|set theories]] may be augmented 
 
 would be
 
-* For every morphism $a:A\to I$ in $\mathcal{E}$, there exists a universe $el:E\to U$ such that $a$ is $U$-small.
+* For every morphism $a\colon A \to I$ in $\mathcal{E}$, there exists a universe $el\colon E \to U$ such that $a$ is $U$-small.
 
 
 ## Consequences 
@@ -154,21 +154,21 @@ One can show, from the above axioms, that the $U$-small morphisms are closed und
 
 ## In terms of indexed categories 
 
-Recall that an $\mathcal{E}$-[[indexed category]] is a [[pseudofunctor]] $\mathcal{E}^{op}\to \Cat$.  The fundamental $\mathcal{E}$-indexed category is the _self-indexing_ $\mathbb{E}$ of $\mathcal{E}$, which takes $I\in \mathcal{E}$ to the [[over category|slice category]] $\mathbb{E}^I = \mathcal{E}/I$ and $x:I\to J$ to the [[base change]] functor $x^*$.
+Recall that an $\mathcal{E}$-[[indexed category]] is a [[pseudofunctor]] $\mathcal{E}^{op}\to \Cat$.  The fundamental $\mathcal{E}$-indexed category is the _self-indexing_ $\mathbb{E}$ of $\mathcal{E}$, which takes $I\in \mathcal{E}$ to the [[over category|slice category]] $\mathbb{E}^I = \mathcal{E}/I$ and $x\colon I \to J$ to the [[base change]] functor $x^*$.
 
-An **internal full subcategory** of $\mathcal{E}$ is a full sub-indexed category $\mathbb{F}$ of $\mathbb{E}$ (that is, a collection of full subcategories $\mathbb{F}^I\subset \mathbb{E}^I$ closed under reindexing) such that there exists a generic $\mathbb{F}$-morphism, i.e. a morphism $el:E\to U$ in $\mathbb{F}^U$ such that for any $a:A\to I$ in $\mathbb{F}^I$, we have $a \cong f^*(el)$ for some $f:I\to U$.  In this case (since $\mathcal{E}$ is [[locally cartesian closed category|locally cartesian closed]]) there exists an [[internal category]] $U_1 \;\rightrightarrows\; U$ in $\mathcal{E}$ such that $\mathbb{F}$ is equivalent, as an indexed category, to the indexed category represented by $U_1 \;\rightrightarrows\; U$.
+An **internal full subcategory** of $\mathcal{E}$ is a full sub-indexed category $\mathbb{F}$ of $\mathbb{E}$ (that is, a collection of full subcategories $\mathbb{F}^I\subset \mathbb{E}^I$ closed under reindexing) such that there exists a generic $\mathbb{F}$-morphism, i.e. a morphism $el\colon E \to U$ in $\mathbb{F}^U$ such that for any $a\colon A \to I$ in $\mathbb{F}^I$, we have $a \cong f^*(el)$ for some $f\colon I \to U$.  In this case (since $\mathcal{E}$ is [[locally cartesian closed category|locally cartesian closed]]) there exists an [[internal category]] $U_1 \;\rightrightarrows\; U$ in $\mathcal{E}$ such that $\mathbb{F}$ is equivalent, as an indexed category, to the indexed category represented by $U_1 \;\rightrightarrows\; U$.
 
 An internal full subcategory is an **internal full subtopos** if each $\mathbb{F}$ is a logical subtopos of $\mathbb{E}$ (closed under finite limits, exponentials, and containing the subobject classifier).  A universe in $\mathcal{E}$, as defined above, can then be identified with an internal full subtopos satisfying the additional axiom that $U$-small morphisms are closed under composition.
 
 
 ## In the internal logic 
 
-In a topos with a universe, we can talk about small objects in the [[internal logic]] by instead talking about elements of $U$.  We can then rephrase the axioms of a universe in the internal logic to look more like the usual axioms for a Grothendieck universe, with the morphism $el:E\to U$ interpreted as a "family of objects"  $(S_u)_{u:U}$:
+In a topos with a universe, we can talk about small objects in the [[internal logic]] by instead talking about elements of $U$.  We can then rephrase the axioms of a universe in the internal logic to look more like the usual axioms for a Grothendieck universe, with the morphism $el\colon E \to U$ interpreted as a "family of objects"  $(S_u)_{u\colon U}$:
 
 1. for all $u$ in $U$, if $X$ is a [[subset]] of $S_u$ (in the sense that there exists an [[injection]] $X \embedsin S_u$), then there is a $v$ in $U$ such that $X \cong S_v$;
-1. for all $u$ in $U$, there is a $v$ in $U$ such that the [[power set]] $P(S_u) \cong S_v$;
-1. there is a $v$ in $U$ such that $S_v$ is [[empty set|empty]];
-1. for all $u$ in $U$ and all functions $f: S_u \to U$, there is a $v$ in $U$ such that the [[disjoint union]] $\biguplus_{i: S_u} S_{f(i)} \cong S_v$.
+2. for all $u$ in $U$, there is a $v$ in $U$ such that the [[power set]] $P(S_u) \cong S_v$;
+3. there is a $v$ in $U$ such that $S_v$ is [[empty set|empty]];
+4. for all $u$ in $U$ and all functions $f\colon S_u \to U$, there is a $v$ in $U$ such that the [[disjoint union]] $\biguplus_{i\colon S_u} S_{f(i)} \cong S_v$.
 
 In a [[well-pointed topos]], such as a model of [[ETCS]], these "internal" axioms are equivalent to their "external" versions that refer to [[global element]]s of $U$.
 
