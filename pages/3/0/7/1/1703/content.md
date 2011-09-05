@@ -132,9 +132,9 @@ Similarly, 2-bundles may be equipped with connections by refining their cocycles
 
 * **principal 2-bundle** / [[gerbe]] / [[bundle gerbe]]
 
-* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+* [[principal 3-bundle]] / [[2-gerbe]] / [[bundle 2-gerbe]]
 
-* [[principal ∞-bundle]] / [[associated ∞-bundle]]
+* [[principal ∞-bundle]] / [[associated ∞-bundle]] / [[∞-gerbe]]
 
 
 
