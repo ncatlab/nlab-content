@@ -31,7 +31,7 @@ The [[model category]] presenting this [[(∞,2)-category]] is the Joyal [[model
 
 ## The $(\infty,1)$-category
 
-Sometimes it is useful to consider inside the full $(\infty,2)$-catgeory of $(\infty,1)$-categories just the maximal $(\infty,1)$-category and discrading all non-invertible [[k-morphism|2-morphisms]]. This is the [[(∞,1)-category of (∞,1)-categories]].
+Sometimes it is useful to consider inside the full $(\infty,2)$-catgeory of $(\infty,1)$-categories just the maximal $(\infty,1)$-category and discarding all non-invertible [[k-morphism|2-morphisms]]. This is the [[(∞,1)-category of (∞,1)-categories]].
 
 ### As an $SSet$-category
 
