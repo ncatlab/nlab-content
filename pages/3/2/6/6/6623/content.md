@@ -4,7 +4,7 @@ Let $C$ be a [[finitely complete category]], and let $T$ be an endofunctor on $C
 
 +-- {: .un_def}
 ######Definition 
-Let $\theta: X \to T X$ be a $T$-[[coalgebra of an endofunctor|coalgebra]] structure on $X$. A [[subobject]] $i: U \hookrightarrow X$ in $C$ is $\theta$-**inductive** if in the pullback 
+Let $\theta: X \to T X$ be a $T$-[[coalgebra for an endofunctor|coalgebra]] structure on $X$. A [[subobject]] $i: U \hookrightarrow X$ in $C$ is $\theta$-**inductive** if in the pullback 
 
 $$\array{
 H & \stackrel{j}{\to} & X \\ 
