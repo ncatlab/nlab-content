@@ -67,7 +67,7 @@ The Yoneda lemma states that the functor $Y$ has good properties which make this
 
 Let $C$ be a [[locally small category]], $[C^{op}, Set]$ the category of [[presheaf|presheaves]] on $C$. Let $c \in C$ be an [[object]].
 
-The Yoneda lemma asserts that the set of morphisms from the [[presheaf]] [[representable presheaf|represented by]] $c$ into any other presheaf $X$ is in natural bijection with the set $F(c)$ that this presheaf assigns to $c$.
+The Yoneda lemma asserts that the set of morphisms from the [[presheaf]] [[representable presheaf|represented by]] $c$ into any other presheaf $X$ is in natural bijection with the set $X(c)$ that this presheaf assigns to $c$.
 
 Formally:
 
