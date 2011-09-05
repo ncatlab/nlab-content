@@ -81,7 +81,8 @@ The [[derived geometry]] of the &#233;tale site is the [[étale (∞,1)-site]]. 
 
 * [[étale (∞,1)-site]]
 
-* [[fppf-site]], [[fpqc-site]], [[Zariski site]]
+[[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ **&#233;tale site** $\to$ [[Nisnevich site]] $\to$ [[Zariski site]]
+
 
 ## References
 
