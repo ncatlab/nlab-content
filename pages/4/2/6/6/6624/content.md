@@ -66,7 +66,7 @@ F & \stackrel{\phi}{\to} & G \\
 P s^\ast F & \underset{P s^\ast \phi}{\to} & P s^\ast G
 }$$ 
 
-where $\leq$ comes from the internal poset structure of $P s^\ast G$. If this inclusion is an equality; in other words, if $\phi$ is a coalgebra map or simulation over $P s^\ast$, then we also say (following Joyal and Moerdijk) that $\phi$ is _open_. Alternatively, we could say that the maps $\phi_n$ collectively reflect the predecessor relation. 
+where $\leq$ comes from the internal poset structure of $P s^\ast G$. If this inclusion is an equality; in other words, if $\phi$ is a coalgebra map or simulation over $P s^\ast$, then we also say (following Joyal and Moerdijk) that $\phi$ is _open_. Alternatively, we could say that $\phi$ is open if the maps $\phi_n$ collectively preserve and reflect the predecessor relation. 
 
 Pursuing this more concretely: the composite $\theta_G \circ \phi$ corresponds to the subobject $S$ of $F \times s^\ast G$ occurring in the pullback 
 
