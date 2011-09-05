@@ -92,6 +92,9 @@ $$\ldots \to F_{n+1} \to F_n \to \ldots \to F_1 \to F_0$$
 
 where each map $F_{n+1} \to F_n$ and $F_0 \to 1$ is small. On the other hand, the small map axioms guarantee that small subobjects are representable by a functor $P_{small}: C \to C$. This induces a functor $P_{small}: C^{\omega^{op}} \to C^{\omega^{op}}$ on the category of forests, and analogous to what we described above, a small forest can be construed in terms of a coalgebra structure $F \to P_{small} (s^\ast F)$. 
 
+## Related Concepts
+
+* [[bisimulation]]
 
 [[!redirects simulation]]
 [[!redirects simulations]]
