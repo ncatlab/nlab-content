@@ -87,7 +87,7 @@ $\hat{\otimes}$ in the same line with $\hat{x}$, $\hat { x }$
 $\hat {\otimes}$, $\hat{ \otimes}$, $\bar{\otimes}$ $\displaystyle{\hat{\otimes}}$
 
 $$
-\hat{\otimes}
+\hat{\otimes} \hat{\times}
 $$
 
 category: meta
