@@ -1,15 +1,15 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -33,6 +33,7 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
 * [[higher order logic]]
 
 
+[[!redirects predicate logic]]
 [[!redirects predicate calculus]]
 [[!redirects 1st-order logic]]
 [[!redirects first-order logic]]
