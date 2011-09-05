@@ -1,1 +1,3 @@
-* wikipedia: [bisimulation](http://en.wikipedia.org/wiki/Bisimulation)
+
+* Wikipedia (English), _[Bisimulation](http://en.wikipedia.org/wiki/Bisimulation)_
+* Sam Staton, _[Relating coalgebraic notions of bisimulation](http://arxiv.org/abs/1101.4223)_
