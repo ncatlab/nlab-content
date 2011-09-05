@@ -56,3 +56,7 @@ There it was clarified that every cofibrant object in the Thomason model structu
 A useful review of the Thomason model structure and a generalization of the model structure to [[n-fold category|n-fold categories]] is given in 
 
 * Thomas M. Fiore, [[Simona Paoli]], _A Thomason Model Structure on the Category of Small n-fold Categories_ ([arXiv](http://arxiv.org/abs/0808.4108))
+
+The analog of the Thomason model structure for the _stable_ case -- an equivalence between connective [[stable homotopy theory]] and [[nerve]]s of [[symmetric monoidal categories]] -- is discussed in 
+
+* R. Thomason, _Symmetric monoidal categories model all connective spectra_ , Theory and applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
