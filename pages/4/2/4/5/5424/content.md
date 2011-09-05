@@ -1,3 +1,4 @@
 
 * Wikipedia (English), _[Bisimulation](http://en.wikipedia.org/wiki/Bisimulation)_
 * Sam Staton, _[Relating coalgebraic notions of bisimulation](http://arxiv.org/abs/1101.4223)_
+* Davide Sangiorgi, _[On the Origins of Bisimulation and Coinduction](http://www.cs.unibo.it/~sangio/DOC_public/history_bis_coind.pdf)_
