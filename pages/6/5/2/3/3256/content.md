@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -20,6 +20,11 @@ The _Nisnevich site_ relative to a [[scheme]] $S$ is the [[site]] given by
   that form a cover in the [[etale site]] and such that 
   for all [[field]]s $k$ every morphism
   $Spec k \to U$ lifts to one of the $V_i$.
+
+
+## Related concepts
+
+[[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ [[étale site]] $\to$ **Nisnevich site** $\to$ [[Zariski site]]
 
 
 ## References
