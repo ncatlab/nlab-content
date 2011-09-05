@@ -66,7 +66,8 @@ An object in there is some [[group]]: a concrete particular.
 [[!redirects general abstract]]
 
 [[!redirects concrete general]]
-[[!redirects concrete generals]]
+[[!redirects general concrete]]
+[[!redirects concrete general]]
 
 [[!redirects concrete particular]]
 [[!redirects concrete particulars]]
