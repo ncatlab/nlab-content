@@ -98,6 +98,8 @@ This is discussed in
 
 ## Related concepts
 
+* [[well-founded coalgebra]]
+
 * [[algebra over a monad]], [[algebra over an endofunctor]], [[algebra over a profunctor]]
 
 
