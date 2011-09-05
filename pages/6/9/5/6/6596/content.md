@@ -61,9 +61,20 @@ The divergence was first developed in [[quaternion]] analysis, where its opposit
 
 ## Related concepts
 
+* [[nabla]]
+
 * [[gradient]]
 
+  * [[gradient flow]]
+
+  * [[symplectic gradient]]
+
+* [[Hamiltonian flow]]
+
 * [[curl]]
+
+* **divergence**
+
 
 [[!redirects divergence]]
 [[!redirects divergences]]
