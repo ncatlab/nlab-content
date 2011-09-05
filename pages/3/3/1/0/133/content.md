@@ -1,8 +1,9 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
@@ -11,7 +12,6 @@
 # The axiom of choice
 * tic
 {: toc}
-
 
 ## Statement
 
@@ -108,5 +108,6 @@ category: foundational axiom
 
 
 [[!redirects Choice]]
+[[!redirects axiom of choice]]
 [[!redirects axiom of global choice]]
 [[!redirects global axiom of choice]]
