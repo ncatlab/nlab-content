@@ -1,21 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include topos theory - contents]]
 =--
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -73,11 +73,6 @@ An informative discussion of the pros and cons of Lawvere's approach can be foun
 Erik Palmgren has a [[constructive mathematics|constructive]] [[predicative mathematics|predicative]] variant of ETCS, which can be summarized as: $Set$ is a [[well-pointed topos|well-pointed]] $\Pi$-[[Π-pretopos|pretopos]] with a [[NNO]] and [[enough projectives]] (i.e. [[COSHEP]] is satisfied).  Here "well-pointed" must be taken in its constructive sense, as including that the [[terminal object]] is indecomposable and projective.
 
 *  Erik Palmgren, _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ ([pdf](http://www.math.uu.se/~palmgren/cetcs.pdf))
-
-
-
-
-
 
 
 category: foundational axiom
