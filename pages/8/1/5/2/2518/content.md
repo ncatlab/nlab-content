@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -52,4 +51,5 @@ Among category theorists, it's popular to state the axioms of a structural set t
 {#NumbersCanBe}
 
 
+[[!redirects structural set theory]]
 [[!redirects structural set theories]]
