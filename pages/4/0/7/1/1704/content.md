@@ -702,9 +702,9 @@ Classes of examples include
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
 
-* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+* [[principal 3-bundle]] / [[2-gerbe]] / [[bundle 2-gerbe]]
 
-* **principal $\infty$-bundle** / [[associated ∞-bundle]]
+* **principal $\infty$-bundle** / [[associated ∞-bundle]] / [[∞-gerbe]]
  
 * [[vector bundle]]
 
@@ -714,9 +714,9 @@ Classes of examples include
 
 The notion of principal $\infty$-bundle (often addressed in the relevant literature in the language of [[torsors]]) appears in the context of the [[simplicial presheaf]] [[model structure on simplicial presheaves|model]] for generalized spaces in
 
-* Jardine, Luo, _Higher order principal bundles_ ([pdf](http://www.math.uiuc.edu/K-theory/0681/cocycles6.pdf)).
+* [[Rick Jardine]], Luo, _Higher order principal bundles_ ([pdf](http://www.math.uiuc.edu/K-theory/0681/cocycles6.pdf)).
 
-* Jardine, _Cocycle categories_ ([pdf](http://arxiv.org/abs/math.AT/0605198)).
+* [[Rick Jardine]], _Cocycle categories_ ([pdf](http://arxiv.org/abs/math.AT/0605198)).
 
 An earlier description in terms of simplicial objects is
 
@@ -740,6 +740,8 @@ The fully general abstract formalization in [[(∞,1)-topos theory]] as discusse
 A more comprehensive conceptual account is in 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- models and general theory]]_
 
 [[!redirects principal infinity-bundles]]
 [[!redirects principal ∞-bundle]]
