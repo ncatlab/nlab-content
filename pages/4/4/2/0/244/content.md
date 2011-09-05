@@ -98,13 +98,52 @@ $$ B_{y,x} B_{x,y} = 1_{x \otimes y} . $$
 (The definition of [[braided monoidal category]] has _two_ hexagon identities, but either one implies the other given this equation.)
 
 
-## Basic facts
+## Properties
 
-There is a [[strict 2-category]] SymmMonCat with:
+### The 2-Category of symmetric monoidal categories
+
+There is a [[strict 2-category]] $SymmMonCat$ with:
 
 * symmetric monoidal categories as objects,
 * [[symmetric monoidal functor]]s as morphisms, 
 * [[symmetric monoidal natural transformation]]s as 2-morphisms.
+
+### As models for connective spectra
+  {#ModelsForConnectiveSpectra}
+
+The [[nerve]] of a symmetric monoidal category is always an  [[infinite loop space]], hence the degree-0-space of a [[connective spectrum]]. One calls this also the [[K-theory]] spectrum of the symmetric monoidal category:
+
+$$
+  \array{
+     &&&& Spectra
+     \\
+      && {}^{\mathllap{K}}\nearrow && \downarrow
+    \\
+    SymmMonCat &\to& Cat &\underset{N}{\to}& sSet
+  }
+  \,.
+$$
+
+This construction extended to an [[equivalence of categories]] 
+
+$$
+  K :  Ho(SymmMonCat)
+   \stackrel{\simeq}{\to}
+  Ho(Spectra)_{\geq 0}
+  \hookrightarrow
+  Ho(Spectra)
+$$ 
+
+between the [[full subcategory]] of the [[stable homotopy category]] $Ho(Spectra)$ on the [[connective spectra]] and the [[homotopy category]] of $SymmMonCat$, regarded with the [[transferred model structure|transferred structure]] of a [[category with weak equivalences]].
+
+This is due to ([Thomason, 95](#Thomason)). Further discussion is in ([Mandell, 2010](#Mandell)).
+
+Notice that this is _almost_ the complete analog in [[stable homotopy theory]] of the [[Quillen equivalence]] between the [[Thomason model structure]] on [[Cat]] and the standard [[model structure on simplicial sets]]. Only that $SymmMonCat$ cannot carry a [[model category]] structure because it does not have all [[colimit]]s. In some sense the "colimit completion" of $SymmMonCat$ is the category of [[multicategories]]. Once expects that this carries a model structure that refines the above equivalence of homotopy categories to a [[Quillen equivalence]]. 
+
+(This is currently being investigated by Elmendorf, Nikolaus and maybe others.)
+
+
+### As algebras over the little $k$-cubes operad
 
 A symmetric monoidal category is equivalently a category that is equipped with the structure of an [[algebra over an operad|algebra over]] the [[little cubes operad|little k-cubes operad]] for $k \geq 3$
 
@@ -133,14 +172,22 @@ Details are in examples 1.2.3 and 1.2.4 of
 
 ## References
 
-For definitions of symmetric monoidal categories, [[symmetric monoidal functor]]s and [[symmetric monoidal natural transformation]]s, see:
+For a survey of definitions of symmetric monoidal categories, [[symmetric monoidal functor]]s and [[symmetric monoidal natural transformation]]s, see for instance
 
-* [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
+* [[John Baez]], _[Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf)_
 
 For an elementary introduction to symmetric monoidal categories using string diagrams, see:
 
-* John Baez and [[Mike Stay]], [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf).
+* [[John Baez]] and [[Mike Stay]], [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf).
 
-Eventually we should include all these definitions and diagrams here!  I don't know a good way to do this yet.
+The theorem that symmetric monoidal categories model all connective spectra is due to 
+
+* R. Thomason, _Symmetric monoidal categories model all connective spectra_ , Theory and applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
+ {#Thomason}
+
+More discussion is in 
+
+* [[Michael Mandell]], _An Inverse K-Theory Functor_ ([arXiv:1002.3622](http://arxiv.org/abs/1002.3622))
+ {#Mandell}
 
 [[!redirects symmetric monoidal categories]]
