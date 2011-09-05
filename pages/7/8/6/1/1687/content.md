@@ -97,7 +97,7 @@ Introductions include
   {#Breen}
 
 
-The defintion for $n$-gerbes as $n$-truncated and $n$-connected objects (see [[∞-gerbe]]) is in
+The definition for $n$-gerbes as $n$-truncated and $n$-connected objects (see [[∞-gerbe]]) is in
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
