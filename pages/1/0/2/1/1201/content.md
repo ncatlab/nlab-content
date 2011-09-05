@@ -1,3 +1,4 @@
+
 # The axiom of foundation
 * table of contents
 {: toc}
@@ -107,7 +108,9 @@ Since the axiom of foundation is about pure sets, there seems little point to it
 That this statement the correct structural version of antifoundation may be justified by appeal to the [[material-structural adjunction]].
 
 
+category: foundational axiom
+
+[[!redirects axiom of foundation]]
+
 [[!redirects axiom of anti-foundation]]
 [[!redirects anti-foundation]]
-
-category: foundational axiom
