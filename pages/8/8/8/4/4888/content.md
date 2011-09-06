@@ -124,7 +124,7 @@ Consideration of associated $\infty$-bundles / [[fiber sequence]]s in general [[
 
 Associated $\infty$-bundles in terms of the presentation of the $(\infty,1)$-topos by the [[model structure on simplicial presheaves]] are discussed in
 
-* [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/1009.2930))
+* [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ Journal of  Homotopy and Related Structures 6(1), 2011, pp. 1--38.  ([arXiv](http://arxiv.org/abs/1009.2930)) ([published version](http://tcms.org.ge/Journals/JHRS/volumes/2011/volume6-1.htm))
 {#Wendt}
 
 Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfield localization of model categories]] is in
