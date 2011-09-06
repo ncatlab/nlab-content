@@ -1,3 +1,4 @@
-&lt; [[syntax]]<br />
-&lt; [[semantics]]
-[[!redirects syntax, semantics, pragmatics]]
+* [[Steve Awodey]], [[Henrik Forssell]], _First-order logical duality_, [arxiv/1008.3145](http://arxiv.org/abs/1008.3145)
+* Henrik Forssell, _Topological representation of geometric theories_,  [arxiv/1109.0699](http://arxiv.org/abs/1109.0699)
+
+[[!redirects duality of syntax and semantics]]
