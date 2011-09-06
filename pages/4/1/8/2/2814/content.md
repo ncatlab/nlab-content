@@ -77,6 +77,7 @@ satisfying the following conditions
     }
   $$
 
+Lax monoidal functors are the [[lax morphism]] for an appropriate [[2-monad]].
 
 If $\epsilon$ and $\mu_{x,y}$ are [[isomorphism]]s then $F$ is called a **strong monoidal functor**. If they are even identities it is called a **strict monoidal functor**. 
 
@@ -84,7 +85,7 @@ In contrast to this, a strong monoidal functor may also be called a **weak monoi
 
 An __[[oplax monoidal functor]]__ (with various alternative names including **comonoidal**), is a monoidal functor from the [[opposite categories]] $C^{op}$ to $D^{op}$.
 
-A [[homomorphism]] between monoidal functors is a [[natural transformation]] that respects the extra structure in an obvious way (...).
+A [[monoidal transformation]] between monoidal functors is a [[natural transformation]] that respects the extra structure in an obvious way (...).
 
 
 ## Properties
