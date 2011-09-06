@@ -15,7 +15,9 @@
 
 ## Idea
 
-An **associated $\infty$-bundle** $E \to X$ is a [[fiber bundle]] in an [[(∞,1)-topos]] $\mathbf{H}$ with typical fiber $F \in \mathbf{H}$ that is classified by a [[cocycle]] $X \to \mathbf{B}Aut(F)$ with coefficients in the [[delooping]] of the [[automorphism ∞-group]] of $F$.  We say this is _associated to_ the corresponding  $Aut(F)$-[[principal ∞-bundle]]. 
+An **associated $\infty$-bundle** $E \to X$ is a [[fiber bundle]] in an [[(∞,1)-topos]] $\mathbf{H}$ with typical fiber $F \in \mathbf{H}$ that is classified by a [[cocycle]] $X \to \mathbf{B}\underline{Aut}(F)$ with coefficients in the [[delooping]] of the [[internalization|internal]] [[automorphism ∞-group]] of $F$.  We say this is _associated to_ the corresponding  $\underline{Aut}(F)$-[[principal ∞-bundle]]. 
+
+More generally there should be notions of accociated $\infty$-bundles whose fibers are objects in an [[(∞,n)-topos]] over $\mathbf{H}$ for some $n \gt 1$.
 
 ## Definition
 
@@ -85,6 +87,11 @@ $$
 
 Compare [[universal principal ∞-bundle]].
 
+## Examples
+
+### $\infty$-Gerbes
+
+In the case that the fiber $F$ is the [[delooping]] $F = \mathbf{B}G$ of an [[∞-group]] object $G$, the $\underline{Aut}(\mathbf{B}G)$-associated $\infty$-bundles are called **$G$-[[∞-gerbe]]s**. See there for more details.
 
 ## Related concepts
 
@@ -94,11 +101,11 @@ Compare [[universal principal ∞-bundle]].
 
 * [[principal 3-bundle]] / [[2-gerbe]] / [[bundle 2-gerbe]]
 
-* [[principal ∞-bundle]] / **associated $\infty$-bundle
+* [[principal ∞-bundle]] / [[∞-gerbe]] / **associated $\infty$-bundle**
 
 * [[vector bundle]]
 
-* [[(∞,1)-vector bundle]] / **associated $\infty$-bundle** / [[∞-gerbe]]
+* [[(∞,1)-vector bundle]]
 
 ## References
 
