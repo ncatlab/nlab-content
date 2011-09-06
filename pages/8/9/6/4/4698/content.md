@@ -13,16 +13,17 @@
 =--
 =--
 
-
-
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea 
 
-On a [[Riemannian manifold]] $(X,g)$, a __geodesic__ (or geodesic line, geodesic path) is a path $x : I \to X$ which locally minimizes the length between its end points. In other words, it is a [[critical point]] of the [[functional]] of length 
+On a [[Riemannian manifold]] $(X,g)$, a __geodesic__ (or geodesic line, geodesic path) is a path $x : I \to X$, for some (possibly infinite) [[interval]] $I$, which locally minimizes distance.
+
+## Definition
+
+One way to define a geodesic is as a [[critical point]] of the [[functional]] of length 
 
 $$
   (x : I \to M) 
@@ -30,13 +31,13 @@ $$
    \int_I \sqrt{g(\stackrel{\cdot}{x}(t),\stackrel{\cdot}{x}(t))} dt
 $$
 
-on the appropriate space of curves $I \to X$, where $g$ is the [[metric]] tensor. Hence it satisfies the corresponding [[Euler-Lagrange equation]]s, namely for geodesic $x : I\to M$ on a Riemannian manifold $M$, the [[covariant derivative]] (for the [[Levi-Civita connection]])
+on the appropriate space of curves $I \to X$, where $g$ is the [[metric]] tensor. This implies that it satisfies the corresponding [[Euler-Lagrange equation]]s, which in this case means that the [[covariant derivative]] (for the [[Levi-Civita connection]])
 
 $$
 \nabla_{\stackrel{\cdot}{x}} \stackrel{\cdot}{x} = 0
 $$
 
-vanishes. 
+vanishes.
 
 In local coordinates, with [[Christoffel symbol]]s $\Gamma^i_{jk}$ the Euler-Lagrange equations for geodesics form a system 
 
@@ -45,6 +46,12 @@ $$
 $$
 
 So this means that a curve is a _geodesic_ if at every point its [[tangent vector]] is the [[parallel transport]] of the tangent vector at the start point along the curve.
+
+## Minimizing geodesics
+
+A geodesic may not *globally* minimize the distance between its end points.  For instance, on a 2-dimensional [[sphere]], geodesics are [[arcs]] of [[great circle]]s.  Any two distinct non-antipodal points are connected by exactly two such geodesics, one shorter than the other (you can go from Los Angeles to Boston directly across North America, or the long way around the world).
+
+A geodesic which does globally minimize distance between its end points is called a **minimizing geodesic**.  The length of a minimizing geodesic between two points defines a distance function for any Riemannian manifold which makes it into a [[metric space]].
 
 
 ## Links and literature
