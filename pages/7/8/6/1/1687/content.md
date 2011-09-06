@@ -199,7 +199,7 @@ $$
   \,.
 $$
 
-However, a $G$-gerbe is not quite the total space object of the corresponding $AUT(G)$-[[principal 2-bundle]]. The latter differs by an $Aut(H)$-factor. Where a $G$-gerbe is locally equivalent to 
+Notice that under this equivalence a $G$-gerbe is not identified with the total space object of the corresponding $AUT(G)$-[[principal 2-bundle]]. The latter differs by an $Aut(H)$-factor. Where a $G$-gerbe is locally equivalent to 
 
 $$
   \mathbf{B}(G|_U)
@@ -218,6 +218,8 @@ $$
   \,.
 $$
 
+Instead, under the above equivalence a gerbe is identified with the [[associated ∞-bundle]] with fibers $\mathbf{B}G$ 
+that is associated via the canonical [[action]] of $AUT(G) = Aut(\mathbf{B}G)$ on $\mathbf{B}G$.
 
 =--
 
@@ -251,7 +253,7 @@ For $P \in G Gerbe$ one says that $Band(P)$ is its **band**.
 
 Sometimes in applications one considers not just the restriction from all gerbes to $G$-gerbes for some $G$, but further to $K$-banded $G$-gerbes for some $K \in H_{\mathcal{X}}^1(X,Out(G))$.
 
-The [[groupoid]] $G Gerbe_K(X)$ of $K$-banded gerbes is the $K$-[[twisted cohomology|twisted]] $AUT(G)$-[[nonabelian cohomology]] of $X$: it is the [[homotopy pullback]]
+The [[groupoid]] $G Gerbe_K(X)$ of $K$-banded gerbes is the $K$-[[twisted cohomology|twisted]] $\mathbf{B}^2 Z(G)$-cohomology of $X$ (where $Z(G)$ is the [[center]] of $G$): it is the [[homotopy pullback]]
 
 $$
   \array{
