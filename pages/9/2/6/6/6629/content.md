@@ -65,6 +65,6 @@ Def. 1.7 of
 
 * Florian Marty, _Smoothness in relative geometry_ (2009) ([pdf](http://webdoc.sub.gwdg.de/ebook/serien/e/mpi_mathematik/2010/2009_104.pdf))
 
-Definition 5.9 of 
+A different meaning of "compactly generated model category" is used in Definition 5.9 of 
 
 * [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _Model categories of diagram spectra_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
