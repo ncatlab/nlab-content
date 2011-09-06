@@ -41,7 +41,7 @@ Note that $\{X|P\}$, equipped with $i_P$, is a [[subset]] of $X$ in the structur
 
 The structural axioms can of course be stated even in a material set theory, where they are actually weaker than the corresponding material axioms; however, the material axioms follow (as usual) from the structural axioms using [[axiom of replacement|restricted replacement]], which is quite weak (and also follows from the material form of bounded separation).
 
-If a structural set theory is given by stating axioms for the [[category of sets]], then full separation amounts to the property that this category is [[autological category|autological]].
+If a structural set theory is given by stating axioms for the [[category of sets]], then restricted separation amounts to the property that this category is a [[Heyting category]].  If it is an [[elementary topos]], then since it satisfies the power set axiom, this implies limited separation as well.  Full separation is somewhat less natural to state category-theoretically, but the combination of full separation with the structural [[axiom of collection]] is equivalent to saying that the category of sets is [[autological category|autological]].
 
 
 ## Axiom or axiom scheme?
