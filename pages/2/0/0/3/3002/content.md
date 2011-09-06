@@ -9,6 +9,7 @@ In a restrictive sense, a homomorphism is a [[function]] between (the [[underlyi
 
 More generally, a homomorphism is a function between [[structured sets]] that preserves whatever structure there is around. Even more generally, 'homomorphism' is just a synonym for '[[morphism]]' in any [[category]], the structured sets being generalised to arbitrary [[object]]s.
 
+*Note: The word "homomorphism" has also traditionally been used for what we call a (weak) [[2-functor]] between [[bicategories]]*.
 
 ## Definitions
 
