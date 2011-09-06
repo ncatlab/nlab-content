@@ -1,29 +1,41 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Definition
 
-The **[[circle]] [[group]]** $S^1$ is equivalently ([[isomorphism|isomorphically]])
+The **[[circle]] [[group]]** $\mathbb{T}$ is equivalently ([[isomorphism|isomorphically]])
 
-* the [[quotient]] $\mathbb{R}/ \mathbb{Z}$ of the additive group of [[real number]]s by the additive group of [[integer]]s, induced by the canonical embedding $\mathbb{Z} \hookrightarrow \mathbb{R}$;
+* the [[quotient group]] $\mathbb{R}/\mathbb{Z}$ of the additive group of [[real numbers]] by the additive group of [[integers]], induced by the canonical embedding $\mathbb{Z} \hookrightarrow \mathbb{R}$;
 
-* the [[unitary group]] $U(1)$;
+* the [[unitary group]] $\mathrm{U}(1)$;
 
 * the [[special orthogonal group]] $SO(2)$;
 
-* the subgroup of the group $\mathbb{C}^\times$ of units  of the [[complex number]]s given by those of any fixed positive modulus.
+* the [[subgroup]] of the group $\mathbb{C}^\times$ of units  of the [[field]] of [[complex numbers]] given by those of any fixed positive modulus (standardly $1$).
+
 
 ## Properties
 
 For general abstract properties usually the first characterization is the most important one. Notably it implies that the circle group fits into a [[short exact sequence]]
 
 $$
-  0 \to \mathbb{Z} \to \mathbb{R} \to S^1 \to 0
+  0 \to \mathbb{Z} \to \mathbb{R} \to \mathbb{T} \to 0
   \,.
 $$
 
+(On the other hand, the last characterization is usually preferred when one wants to be concrete.)
+
+A [[character]] of an [[abelian group]] $A$ is simply a [[homomorphism]] from $A$ to the circle group.
+
+
 ## Related concepts
 
-A [[principal bundle]] with structure group the circle group is a [[circle bundle]]. The canonically corresponding [[associated bundle]] under the standard [[representation]] of $S^1 \simeq U(1) \hookrightarrow \mathbb{C}$ is a complex [[line bundle]].
+A [[principal bundle]] with structure group the circle group is a [[circle bundle]]. The canonically corresponding [[associated bundle]] under the standard [[representation]] of $U(1) \hookrightarrow \mathbb{C}$ is a complex [[line bundle]].
+
+
+[[!redirects circle group]]
+[[!redirects R/Z]]
+[[!redirects U(1)]]
+[[!redirects SO(2)]]
