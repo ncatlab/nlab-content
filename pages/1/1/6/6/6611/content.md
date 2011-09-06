@@ -62,5 +62,4 @@ More recent developments include
 
 * Rudranil Basu, Samir K Paul, _Consistent 3D Quantum Gravity on Lens Spaces_ ([arXiv:1109.0793](http://arxiv.org/abs/1109.0793))
  
-Another approach are [[spin foam]] models and in particular [[group field theory]]. 
-
+Authors of [[spin foam]] models view them as an approach to quantum gravity. 
