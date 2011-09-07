@@ -43,4 +43,10 @@ An old query about the categorical notion of center is archived at $n$Forum [her
 
 A special case is the [[center of an abelian category]] which has a special entry because of a number of special applications and properties. 
 
+### Of $\infty$-groups
+
+See [[center of an ∞-group]].
+
 [[!redirects centre]]
+[[!redirects centers]]
+[[!redirects centres]]
