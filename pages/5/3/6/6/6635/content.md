@@ -51,7 +51,7 @@ Let $(E,M)$ be a [[prefactorization system]] on a category $C$, and assume that
 Then $(E,M)$ is an orthogonal factorization system.
 =--
 
-The following is a slight generalization of Theorem 3.3 of [CHK](#CHK).
+The following is a slight generalization of Theorem 3.3 of [CHK](#CHK).  There it is stated only for the case $M=$ [[strong monomorphisms]], in which case a finitely complete and $M$-complete category is called **finitely well-complete**.
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -81,3 +81,5 @@ Let $w = n g$ be the $(E',M')$-factorization of $w$.  Since $M' \subseteq M_S$, 
 [[!redirects E-cocomplete categories]]
 [[!redirects epi-cocomplete category]]
 [[!redirects epi-cocomplete categories]]
+[[!redirects finitely well-complete category]]
+[[!redirects finitely well-complete categories]]
