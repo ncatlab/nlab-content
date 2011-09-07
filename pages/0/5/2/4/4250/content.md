@@ -279,3 +279,6 @@ The model in terms of the [[model structure on simplicial presheaves]] is duscus
 
 
 [[!redirects categorical homotopy groups in an (∞,1)-topos]]
+
+[[!redirects homotopy sheaf]]
+[[!redirects homotopy sheaves]]
