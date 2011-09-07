@@ -99,11 +99,27 @@ $$
 
 Therefore it is natural to consider the notion of an _$G$-$\infty$-gerbe_ for a fixed $G \in \infty Grp(\mathcal{X})$. This is done [below](#GInfinityGerbes).
 
+=--
+
++-- {: .num_defn #AbelianBand}
+###### Definition
+
+A "restricted" $n$-gerbe $E$ has, by definition, a single non-trivial [[categorical homotopy group in an (infinity,1)-topos|homotopy sheaf]]. For $n \geq 2$ this is an sheaf of abelian groups $A$ in the underlying [[topos]]
+
+$$
+  \pi_n E \simeq A
+  \,.
+$$
+
+This $A$ is called the **band** of $E$ and that $E$ is **banded by** $A$.
 
 =--
 
+In the case that $n = 1$ or that we have a "general" $n$-gerbe the notion of band is refined by [[nonabelian cohomology]]-information. See [below].
+
 ### $G$-$\infty$-Gerbes
  {#GInfinityGerbes}
+
 
 Let $\mathcal{X}$ be an [[(∞,1)-topos]].
 
@@ -125,9 +141,36 @@ For $G \in \infty Grp(\mathcal{X})$ an [[∞-group]], a **$G$-$\infty$-gerbe** $
 
 ## Properties
 
+### Classification of abelian $\infty$-gerbes.
+
+Let $A \in Grp(\mathcal{X}) \subset \infty Grpd(\mathcal{X})$ be an [[abelian group]] object and fix $n \in \mathbb{N}$, $n \geq 2$. 
+
+Recall the notion of $A$-banded $n$-gerbes from def. \ref{AbelianBand}.
+
+Write
+
+$$
+  H^{n+1}_{\mathcal{X}}(X, A)  
+   := 
+  \pi_0 \mathcal{X}(*, \mathbf{B}^{n+1}A)
+$$
+
+for the [[cohomology]] in $\mathcal{X}$ of the [[terminal object]] with coefficients in $A$ in degree $n+1$.
+
++-- {: .num_prop}
+###### Proposition
+
+There is a canonical bijection between $H^{n+1}_{\mathcal{X}}(X, A)$ and [[equivalence class]]es of $A$-banded $n$-gerbes.
+
+=--
+
+This appears as [[Higher Topos Theory|HTT, cor. 7.2.2.27]].
+
+
 ### Classification of $G$-$\infty$-gerbes
 
-> A brief note on a discussion that should go here in more detail:
+We discuss partial generalizations of the above result to nonabelian $\infty$-gerbes
+
 
 Comparing with the discussion at [[associated ∞-bundle]] one finds that def. \ref{GInfinityGerbe} of $G$-$\infty$-gerbes defines "locally trivial $\mathbf{B}G$-fibrations". By the main theorem there, these are classified by [[cohomology]] in $\mathcal{X}$ with coefficients in the [[internalization|internal]] [[automorphism ∞-group]] 
 
@@ -135,20 +178,93 @@ $$
   AUT(G) := \underline{Aut}(\mathbf{B}G)
 $$
 
-in that 
+
++-- {: .num_prop}
+###### Proposition
+
+At least for $\mathcal{X}$ a [[n-localic (∞,1)-topos|1-localic]] [[(∞,1)-topos]] we have a canonical bijection
 
 $$
-  \pi_0 Core(G Gerbe)
+  \pi_0 (G Gerbe)
   \simeq
-  \pi_0 \mathcal{X}(*,\mathbf{B}AUT(G))
-  =:
   H^1(\mathcal{X}, AUT(G))
   \,.
 $$
 
+=--
+
+This follows as a special case of the result by ([Wendt](#Wendt)) discussed at [[associated infinity-bundle]].
+
++-- {: .num_remark}
+###### Remark
+
+
 The right hand side classifies als $AUT(G)$-[[principal ∞-bundles]] and this equivalence identifies $G$-$\infty$-gerbes as the canonical $AUT(G)$-[[associated ∞-bundles]].
 
+=--
+
 (Compare to the analogous discussion in the special case of [[gerbe]]s.)
+
+### Nonabelian banded $\infty$-gerbes
+
+For $G \in \infty Grpd(\mathcal{X})$ an $n$-group (with $n \geq 1$) write
+
+$$
+  Out(G) := \tau_{n-1} AUT(G) = \tau_{n-1}\underline{Aut}(\mathbf{B}G)
+  \,.
+$$
+
+Call this the [[outer automorphism infinity-group]] of $G$. By definition there is a canonical morphism
+
+$$
+  \mathbf{B} AUT(G) \to \mathbf{B} Out(G)
+  \,.
+$$
+
+By the above classification, this induces a morphism
+
+$$
+  Band : \pi_0 G Gerbe \to H^1_{\mathcal{X}}(X, Out(G))
+$$
+
+from $G$-$n$-gerbes to [[nonabelian cohomology]] in degree 1 with coefficients in $Out(G)$. For $E \in G Gerbe$ the pair
+
+$$
+  (\pi_n, Band(E))
+$$ 
+
+is called the **band** of $E$. For $[K] \in H^1_{\mathcal{X}}(X, Out(G))$ the [[n-groupoid|(n+1)-groupoid]] $G Gerbe_K$ of $K$-banded $G$-$n$-gerbes is the [[homotopy pullback]] 
+
+$$
+  \array{
+    G Gerbe_K &\to& *
+    \\
+    \downarrow && \downarrow^{\mathrlap{K}}
+    \\  
+    \mathcal{X}(X, \mathbf{B}AUT(G))
+    &\to&
+    \mathcal{X}(X, \mathbf{B}Out(G))
+  }
+  \,.
+$$
+
+Write $\mathbf{B}^2 Z(G)$ for the [[homotopy fiber]] of $\mathbf{B}AUT(G) \to \mathbf{B}Out(G)$, producing a [[fiber sequence]]
+
+$$
+  \mathbf{B}^2 Z(G) \to \mathbf{B} AUT(G) \to \mathbf{B}Out(G)
+  \,.
+$$
+
+We call $Z(G)$ the [[center of an infinity-group|center of the infinity-group]].
+
+In terms of this the above $G Gerbe_K$ is the  [[cocycle]] $(n+1)$-groupoid of the [[twisted cohomology|K-twisted Z(G)-cohomology]] in degree 2:
+
+$$
+  \pi_0 G Gerbe_K \simeq H^2_K(X,Z(G))
+  \,.
+$$
+
+Notice that if $Z(G)$ itself is [[n-connected|higher connected]] then $H^2_K(X, Z(G))$ is accordingly cohomology in higher degree.
 
 ## Related entries
 
@@ -177,6 +293,11 @@ The "general" notion (but without a concept of ambient $(3,1)$-topos made explic
 The general notion for arbitrary $n$ in an $(\infty,1)$-topos context is discussed in section 2.3 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ .
+
+Discussion of the classification of $G$-$\infty$-gerbes and more general fiber bundles in 1-localic $(\infty,1)$-toposes  is in
+
+* [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ , Journal of  Homotopy and Related Structures 6(1), 2011, pp. 1--38.  ([arXiv](http://arxiv.org/abs/1009.2930)) ([published version](http://tcms.org.ge/Journals/JHRS/volumes/2011/volume6-1.htm))
+{#Wendt}
 
 
 [[!redirects ∞-gerbe]]
