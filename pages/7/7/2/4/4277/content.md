@@ -87,5 +87,14 @@ A discussion of its relation to the Thom spectrum and the [[(∞,n)-category of 
 
 * [[John Francis]], _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
 
+On [[fibered cobordsism groups]]:
+
+* Astey, Greenberg, Micha, Pastor, _Some fibered cobordisms groups are not finitely generated_ ([pdf](http://www.ams.org/journals/proc/1988-104-01/S0002-9939-1988-0958093-3/S0002-9939-1988-0958093-3.pdf))
 
 [[!redirects bordism ring]]
+
+[[!redirects cobordism rings]]
+
+
+[[!redirects cobordism group]]
+[[!redirects cobordism groups]]
