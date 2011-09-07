@@ -71,6 +71,8 @@ It also follows that $U$ is a [[Grothendieck fibration|fibration]] and opfibrati
 
 *  If $D$ is [[complete category|complete]] or [[cocomplete category|cocomplete]], then so is $C$.
 
+* If $D$ is [[mono-complete category|mono-complete]] or epi-cocomplete, then so is $C$.
+
 *  If $D$ is [[well-powered category|well-powered]] or co-well-powered, then so is $C$.
 
 *  If $D$ is [[concrete category|concrete]], then so is $C$.  More generally, if $D$ has a [[generator]], then $C$ is concrete over $D$.
