@@ -63,7 +63,7 @@ Further conditions are the following
 
 ## Relation to groupoid objects
 
-The _groupoid object_ associated to a geometric stack $X$ with atlas $p : U \to X$ is simply the 2-categorical [[Cech-nerve]] of $p$: set $\mathcal{G}_0 := U$ and $\mathcal{G}_1 = U \times_X U$, where the latter is the 2-categorical [[pullback]]
+The _groupoid object_ associated to a geometric stack $X$ with atlas $p : U \to X$ is the [[Cech groupoid of a functor|Cech groupoid]] of $p$ (this is simply the Cech groupoid of $p$ seen as a singleton cover) defined by $\mathcal{G}_0 := U$ and $\mathcal{G}_1 = U \times_X U$, where the latter is the 2-categorical [[pullback]]
 
 $$
   \array{
