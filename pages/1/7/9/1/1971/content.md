@@ -38,32 +38,7 @@ where we add in new terms with the new variable to make the result symmetric.
 
 The definition depends on the [[ground field|ground]] [[field]] (or [[commutative ring]] or [[rig]]) $k$, so we may write $\Lambda(k)$ to be precise.
 
-+-- {: .query}
-[[David Corfield]]: Why does Hazewinkel in his description of the construction of $\Lambda$ on p. 129 of [this](http://arxiv.org/abs/0804.3888) use a graded projective limit construction in terms of projections of polynomial rings?
-
-[[John Baez]]: Hmm, it sounds like you're telling me that there are 'projections' 
-
-$$ \Lambda_{n+1} \to \Lambda_n $$
-
-given by setting the $(n+1)$st variable to zero, and that Hazewinkel defines $\Lambda$ to be the limit (= projective limit) 
-
-$$ \cdots \to \Lambda_2 \to \Lambda_1 \to \Lambda_0 $$
-
-rather than the colimit
-
-$$ \Lambda_0 \to \Lambda_1 \to \Lambda_2 \to \cdots $$
-
-Right now I don't understand the difference between these two constructions well enough to tell which one is 'right'.
-Can someone explain the difference?  Presumably there's more stuff in the limit than the colimit.
-
-[[Mike Shulman]]: I think the difference is that the limit contains "polynomials" with infinitely many terms, and the colimit doesn't.  That's often the way of these things.
-
-Actually, on second glance, I don't understand the description of the maps in the colimit system; are you sure they actually exist?  What exactly does it mean to "add in new terms with the new variable to make the result symmetric"?
-
-[[David Corfield]]: The two constructions are explained very well in section 2.1 of the [Wikipedia article](http://en.wikipedia.org/wiki/Ring_of_symmetric_functions).
-
-[[Mike Shulman]]: Thanks!  Here's what I get from the Wikipedia article: the projections are easy to define.  They are surjective and turn out to have sections (as ring homomorphisms).  The ring of symmetric functions can be defined either as the colimit of the sections, or as the the limit of the projections _in the category of graded rings_.  The limit in the category of all rings would contain too much stuff.
-=--
+A query about the Hazewinkel's description of the construction of $\Lambda$ as a (co)limit is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=3117&Focus=25812#Comment_25812). 
 
 
 ## Properties
@@ -92,9 +67,14 @@ The classification described above of irreducible $S_n$-modules over $\mathbb{C}
 
 Apart from this, the field matters a lot.  There is a construction that gives all irreducible $k S_n$-modules for any field $k$, field, completely analogous to the Specht module construction over $\mathbb{C}$.  However, it describes each module as a quotient module of a Specht module, and in general not even the dimension of these irreducible modules is known, let alone an explicit basis, or representing matrices.
 
-Possibly the best book on this subject is:
+The following article surveys the subject in light of the connections to [[Hopf algebra]]s and also to  [[noncommutative symmetric function|noncommutative analogue]]:
+
+* [[Michael Hazewinkel]], _Symmetric functions, noncommutative symmetric functions and quasisymmetric functions_, [pdf](http://oai.cwi.nl/oai/asset/10344/10344B.pdf)
+
+Among the best books in the subject are 
 
 * Gordon D. James, _The representation theory of the symmetric groups_, Lecture Notes in Mathematics **682**, Springer, Berlin, 1978.
+* Gordon James, Adalbert Kerber, _The representation theory of the symmetric group_, With a foreword by P. M. Cohn. With an intr. by G. de B. Robinson. Enc. of Math. and its Appl. __16__, Addison-Wesley 1981. xxviii+510 pp. 
 
 James also has a readable survey article that outlines developments in the '80's and '90's: 
 
@@ -105,8 +85,6 @@ Another approach is described here:
 * Alexander Kleshchev, _Linear and Projective Representations of Symmetric Groups_, Cambridge University Press, Cambridge 2009.
 
 One can study symmetric functions in any characteristic, or over any integral domain.  The power sum symmetric functions do not generate the ring of symmetric functions over $\mathbb{Z}$, and this difference matters. They appear to be of limited usefulness in the description of the modular irreducible representations of $S_n$.
-
-
 
 [[!redirects symmetric function]]
 [[!redirects symmetric functions]]
