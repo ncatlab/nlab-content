@@ -60,7 +60,7 @@ In ([Vicary](#Vicary)) it is shown that in $\dagger$-compact categories with all
 
 * it is a [[field]] of characteristic 0 with involution $\dagger$;
 
-* the subfield $\mathbb{R}_R$ fixed under $\dagger$ is [[order]]able.
+* the subfield $\mathbb{R}_C$ fixed under $\dagger$ is [[order]]able.
 
 If furthermore every bounded sequence of measurements in $C$ with values in $\mathbb{R}_C$ has a least upper bound, then it follows that this field coincides with the [[complex number]]s 
 
