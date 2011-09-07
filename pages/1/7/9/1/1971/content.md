@@ -1,4 +1,5 @@
 
+# Symmetric functions
 * table of contents
 {: toc}
 
@@ -21,6 +22,7 @@ $$ \sum_{i \lt j} x_i x_j .$$
 (The homogeneous symmetric functions of degree $0$ are just the constants, as usual.)
 
 There is also a noncommutative analogue: [[noncommutative symmetric function]]s.
+
 
 ## Definitions
 
@@ -85,6 +87,7 @@ Another approach is described here:
 * Alexander Kleshchev, _Linear and Projective Representations of Symmetric Groups_, Cambridge University Press, Cambridge 2009.
 
 One can study symmetric functions in any characteristic, or over any integral domain.  The power sum symmetric functions do not generate the ring of symmetric functions over $\mathbb{Z}$, and this difference matters. They appear to be of limited usefulness in the description of the modular irreducible representations of $S_n$.
+
 
 [[!redirects symmetric function]]
 [[!redirects symmetric functions]]
