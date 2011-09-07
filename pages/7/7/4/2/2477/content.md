@@ -55,7 +55,7 @@ Further conditions are the following
 
 * for $C = Sch_{et}$ the [[site]] of [[scheme]]s with the [[etale topology]]
 
-  * $\Delta_X$ is required to be quasicompact and separated
+  * $\Delta_X$ is required to be [[quasicompact]] and [[separated]]
 
   * for [[Deligne-Mumford stack]]s $p$ is moreover required to be etale
 
