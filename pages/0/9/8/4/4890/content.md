@@ -36,11 +36,13 @@ See [[inner automorphism 2-group]].
 
 ## Related concepts
 
-* [[automorphism group]]
+* [[group]], [[∞-group]],
 
-* **automorphism 2-group**
+* [[automorphism group]], [[automorphism ∞-group]],
 
-* [[automorphism ∞-group]]
+* [[center]], [[center of an ∞-group]]
+
+* [[outer automorphism group]], [[outer automorphism ∞-group]]
 
 
 [[!redirects automorphism 2-groups]]
