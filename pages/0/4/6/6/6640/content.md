@@ -1,4 +1,15 @@
-Cf. [[symmetric function]]. 
+
+# Noncommutative symmetric functions
+* table of contents
+{: toc}
+
+
+## Definition
+
+Not here yet; but cf. [[symmetric function]].
+
+
+## References
 
 ### Full research articles 
 
@@ -9,11 +20,13 @@ Cf. [[symmetric function]].
 * D. Krob, J.-Y. Thibon, _Noncommutative symmetric functions IV:
 Quantum linear groups and Hecke algebras at $q = 0$_, [pdf](http://hal.inria.fr/docs/00/05/79/10/PDF/ncsf4.pdf)
 
+
 ### Long surveys and lecture notes
 
 * Michael Hazewinkel, _Symmetric functions, noncommutative symmetric functions and quasisymmetric functions_, [pdf](http://oai.cwi.nl/oai/asset/10344/10344B.pdf)
 * [[V. Retakh]] and R. Wilson, Advanced Course on Quasideterminants and Universal Localization: [pdf](http://castellet.cat/Publications/quaderns/Quadern41.pdf) (see the part _Factorization of Noncommutative Polynomials
 and Noncommutative Symmetric Functions_)
+
 
 ### Expositions/short summaries
 
@@ -22,4 +35,6 @@ Combinatorics and coinvariants_, slides from a talk [pdf](http://garsia.math.yor
 * Lenny Tevlin, _Introduction to quasisymmetric and noncommutative
 symmetric functions_, slides, Fields Institute 2010  [pdf](http://www.fields.utoronto.ca/programs/scientific/10-11/schubert/Noncommutative-Symmetric-and-Quasi-Symmetric-Functions-Fields-2010.pdf)
 
+
+[[!redirects noncommutative symmetric function]]
 [[!redirects noncommutative symmetric functions]]
