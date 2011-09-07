@@ -1,0 +1,5 @@
+__Vladimir Retakh__ is a professor of mathematics at Rutgers University, formerly in Moscow, specialized in combinatorics, algebra and their applications. 
+
+* [web](http://www.math.rutgers.edu/~vretakh)
+
+[[!redirects V. Retakh]]
