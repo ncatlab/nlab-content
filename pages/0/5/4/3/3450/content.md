@@ -33,6 +33,11 @@ Under the [[homotopy hypothesis|identification]] of [[∞Grpd]] with [[Top]] thi
 
 An **$\infty$-Lie group** is accordingly a group object in [[∞-Lie groupoid]]s. And so on.
 
+## Properties
+
+For details see [[groupoid object in an (∞,1)-category]].
+
+
 ## Related concepts
 
 * [[group]]
@@ -45,9 +50,14 @@ An **$\infty$-Lie group** is accordingly a group object in [[∞-Lie groupoid]]s
 
 * [[looping and delooping]]
 
-## Properties
+* [[automorphism ∞-group]],
 
-For details see [[groupoid object in an (∞,1)-category]].
+* [[center of an ∞-group]]
+
+* [[outer automorphism ∞-group]]
+
+* [[Eilenberg-MacLane object]], [[∞-gerbe]]
+
 
 [[!redirects ∞-group]]
 [[!redirects ∞-groups]]
