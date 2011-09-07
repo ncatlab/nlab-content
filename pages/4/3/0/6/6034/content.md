@@ -29,3 +29,20 @@ This way the class $\mathcal{P}$ of morphisms in $C$ is extended to a class $\ma
 ## Examples
 
 * [[representable morphism of stacks]]
+
++--{: .query}
+Stephan:To me it is not clear how the projection in the presheaf category can be in $\mathcal{P}$. I would rather rephrase the definition to something like:
+Let $h:C\hookrightarrow \mathbf{Psh} C$ be the contravariant Yoneda embedding from some category $C$ into the category of pre sheaves on $C$ and $\mathcal{P}$ some class of morphisms in $C$ satisfying the following
+
+1) $\mathcal{P}$ is closed under precomposition and postcomposition with isomorphisms
+
+2) if $f: X\to Y$ is in $\mathcal{P}$ and $g : V\to Y$ a morphism in $C$, then the
+pullback $X\times_Y V$ exists and the projection $X\times_Y V\to V$ is a morphism in $\mathcal{P}$.
+
+A morphism $\alpha : F\to G$ of [[presheaves]] of sets on $C$ is said to be __representable by a morphism in__ $\mathcal{P}$ if for every morphism from a representable presheaf
+$h(X)\to G$, for the projection $p_{h(X)}:F\times_G h_X\to h(X)$ there is a $p\in\mathcal{P}$ such that $h(p)=p_{h(X)}$. 
+
+In particular, a morphism $h(X)\to h(Y)$ is representable by a morphism in $\mathcal{P}$ iff it is of the form $h(w)$ with $(w: y\to x)\in \mathcal{P}$.
+
+This way the class $\mathcal{P}$ of morphisms in $C$ is extended to a class $\mathcal{P}\check{}$ of morphisms in the category of presheaves of sets $C\check{} = Set^{C^{op}}$.
+=--
