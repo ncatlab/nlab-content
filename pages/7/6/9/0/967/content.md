@@ -29,7 +29,7 @@ The definition above requires some set-theoretic assumption to ensure that the [
 
 ## Examples
 
-Any [[cocomplete category|cocomplete]], [[well-powered category|well-copowered]] category with a [[generator]] is total. See ([Day](#Day)), theorem 1, for a proof.  This includes:
+Any [[cocomplete category|cocomplete]] and [[epi-complete category|epi-complete]] category with a [[generator]] is total.  See ([Day](#Day)), theorem 1, for a proof.  This includes:
 
 * [[locally presentable category|locally presentable categories]], hence in particular [[Grothendieck toposes]].
 
