@@ -1,48 +1,53 @@
-#Contents#
+
+# Contents
 * automatic table of contents
-{:toc}
+{: toc}
 
 ## Idea 
 
-A **metric space** is a [[set]] which comes equipped with a [[function]] which measures [[distance]] between points, called a _metric_. The metric can be used to generate a [[topology]] on the set, and a [[topological space]] whose topology comes from some metric is said to be _metrizable_. 
+A **metric space** is a [[set]] which comes equipped with a [[function]] which measures _distance_ between points, called a _metric_. The metric can be used to generate a [[topology]] on the set, and a [[topological space]] whose topology comes from some metric is said to be _metrizable_. 
 
-## Definition 
 
-Traditionally, a metric space is defined to be a [[set]] $X$ equipped with a [[distance]] function 
-$$d: X \times X \to [0, \infty)$$ 
+## Definitions
+
+Traditionally, a __metric space__ is defined to be a [[set]] $X$ equipped with a __distance__ function 
+$$ d\colon X \times X \to [0, \infty) $$ 
 (valued in nonnegative [[real numbers]]) satisfying the following axioms: 
 * Triangle inequality: $d(x, y) + d(y, z) \geq d(x, z)$;
 * Point inequality: $0 \geq d(x, x)$ (so $0 = d(x,x)$);
 * Separation: $x = y$ if $d(x, y) = 0$ (so $x = y$ iff $d(x,y) = 0$);
 * Symmetry: $d(x, y) = d(y, x)$.
 
-Given a metric space $(X, d)$ and a point $x \in X$, the _open ball_ centered at $x$ of radius $r$ is 
-$$B_r(x) = \{y \in X: d(x, y) \lt r\}$$ 
-and it may be shown that the open balls form a basis for a [[topological space|topology]] on $X$. In fact, metric spaces are examples of [[uniform spaces]], and much of the general theory of metric spaces, including for example the notion of completion of a metric space, can be extrapolated to uniform spaces and even [[Cauchy spaces]].
+Given a metric space $(X, d)$ and a point $x \in X$, the __open [[ball]]__ centered at $x$ of radius $r$ is 
+$$ B_r(x) \coloneqq \{y \in X : d(x, y) \lt r\} ,$$ 
+and it may be shown that the open balls form a basis for a [[topological structure|topology]] on $X$. In fact, metric spaces are examples of [[uniform spaces]], and much of the general theory of metric spaces, including for example the notion of [[complete space|completion]] of a metric space, can be extrapolated to uniform spaces and even [[Cauchy spaces]].
+
 
 ### Metrizable spaces
 
-A **metrizable space** is a topological space $X$ which admits a metric such that the metric topology agrees with the topology on $X$. In general, many different metrics (in the sense of giving different [[uniform space|uniform structures]]) may give rise to the same topology; nevertheless, metrizability is manifestly a topological notion. 
+A **metrizable space** is a [[topological space]] $X$ which admits a metric such that the metric topology agrees with the topology on $X$. In general, many different metrics (even ones giving different [[uniform space|uniform structures]]) may give rise to the same topology; nevertheless, metrizability is manifestly a topological notion. 
 
-Metrizable spaces enjoy a number of separation properties: they are [[Hausdorff space|Hausdorff]], regular, and even normal. They are also paracompact. 
+Metrizable spaces enjoy a number of separation properties: they are [[Hausdorff space|Hausdorff]], [[regular space|regular]], and even [[normal space|normal]]. They are also [[paracompact space|paracompact]]. 
 
-Metrizable spaces are closed under topological coproducts and of course subspaces (and therefore equalizers); they are closed under countable products but not general products (since normal spaces are not closed under general topological products; for instance, a product of uncountably many copies of $\mathbb{R}$ is not a normal space). 
+Metrizable spaces are closed under topological [[coproducts]] and of course [[subspaces]] (and therefore [[equalizers]]); they are closed under [[countable family|countable]] [[products]] but not general products (for instance, a product of uncountably many copies of the [[real line]] $\mathbb{R}$ is not a normal space). 
 
-## Variations 
 
-If we allow $d$ to take values in $[0,\infty]$ instead of just in $[0,\infty)$, then we get __extended metric spaces__.  If we drop separation, then we get __pseudometric spaces__.  If we drop the symmetry condition, then we get __quasimetric spaces__.  Thus the most general notion is that of an extended quasipseudometric space, which are also called __Lawvere metric spaces__ for the reasons below.
+### Variations 
+
+If we allow $d$ to take values in $[0,\infty]$ (the nonnegative [[lower reals]]) instead of just in $[0,\infty)$, then we get __extended metric spaces__.  If we drop separation, then we get __pseudometric spaces__.  If we drop the symmetry condition, then we get __quasimetric spaces__.  Thus the most general notion is that of an extended quasipseudometric space, which are also called __Lawvere metric spaces__ for the reasons below.
 
 On the other hand, if we strengthen the triangle inequality to
 $$ max(d(x,y), d(y,z)) \geq d(x,z) ,$$
-then we get __ultrametric spaces__, a more restricted concept.  (This include for example $p$-adic completions of number fields.)  Extended quasipseudoultrametric spaces can also be called __Lawvere ultrametric spaces__.
+then we get __ultrametric spaces__, a more restricted concept.  (This include for example $p$-[[adic completion]]s of [[number fields]].)  Extended quasipseudoultrametric spaces can also be called __Lawvere ultrametric spaces__.
+
 
 ## Lawvere metric spaces 
 
-[[Lawvere]] has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be supremum instead, enriched categories amount to Lawvere ultrametric spaces.
+[[Bill Lawvere]] has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be [[supremum]] instead, enriched categories amount to Lawvere ultrametric spaces.
 
-Thus generalized, many constructions and results on metric spaces turn out to be special cases of yet more general constructions and results of enriched category theory.  This includes for example the notion of [[Cauchy complete category|Cauchy completion]], which in general enriched category theory is related to [[Karoubi envelope|Karoubi envelopes]] and [[Morita equivalence]].
+Thus generalized, many constructions and results on metric spaces turn out to be special cases of yet more general constructions and results of [[enriched category theory]].  This includes for example the notion of [[Cauchy complete category|Cauchy completion]], which in general enriched category theory is related to [[Karoubi envelope|Karoubi envelopes]] and [[Morita equivalence]].
 
-Imposing the symmetry axiom then gives us enriched $\dagger$-[[dagger category|categories]].  Note that when enriching over a [[cartesian monoidal category|cartesian monoidal]] poset, there is no difference between a $\dagger$-category and a groupoid, so ultrametric spaces can also be regarded as [[enriched groupoid|enriched groupoids]], which is perhaps a more familiar concept.
+Imposing the symmetry axiom then gives us enriched $\dagger$-[[dagger category|categories]].  Note that when enriching over a [[cartesian monoidal category|cartesian monoidal]] poset, there is no difference between a $\dagger$-category and a [[groupoid]], so ultrametric spaces can also be regarded as [[enriched groupoid|enriched groupoids]], which is perhaps a more familiar concept.
 
 (The requisite axioms for an enriched groupoid do not make sense when the enriching category is not cartesian, but one might argue that since in a poset "they would commute automatically anyway", it makes sense to call any poset-enriched $\dagger$-category also an "enriched groupoid".  However, perhaps it makes more sense just to speak about enriched $\dagger$-categories.)
 
@@ -57,37 +62,37 @@ Besides extended metric spaces (where distances may be infinite), one might cons
 $$ d(x,x) + d(x,x) \geq d(x,x) $$
 forces $d(x,x) \geq 0$, so $d(x,x) = 0$; then
 $$ 2 d(x,y) = d(x,y) + d(y,x) \geq d(x,x) $$
-forces $d(x,y) \geq 0$.  A generalisation to negative distances is possible for quasimetric spaces, however; the simplest example has $2$ elements, with $d(x,y) = -d(y,x)$.
+forces $d(x,y) \geq 0$.  A generalisation to negative distances is possible for quasimetric spaces, however; the simplest example has $2$ elements, with $d(x,y) = -d(y,x)$ (but necessarily $d(x,x) = 0$ still).
 
-We can define a [[partial order]] $\leq$ on the points of a Lawvere metric space:
+We can define a [[preorder]] $\leq$ on the points of a Lawvere metric space:
 $$ x \leq y \;\Leftrightarrow\; d(x,y) = 0 .$$
 Then the symmetry axiom implies that this relation is [[symmetric relation|symmetric]] and hence an [[equivalence relation]].  The [[quotient set]] under this equivalence relation satisfies separation; in this way, every pseudometric space is [[equivalence of categories|equivalent]] (as an enriched category) to a metric space.  Even for quasimetric spaces, we can still define an equivalence relation:
 $$ x \equiv y \;\Leftrightarrow\; d(x,y) = 0 \;\wedge\; d(y,x) = 0 .$$
-In [[constructive mathematics]], it works better to use $\lt$:
-$$ x \lt y \;\Leftrightarrow\; d(x,y) \gt 0 ;$$
+In [[constructive mathematics]], it works better to use $\lneq$:
+$$ x \lneq y \;\Leftrightarrow\; d(x,y) \gt 0 ;$$
 then the symmetry axiom implies that this is an [[apartness relation]], which (for quasimetric spaces) we can also define directly:
 $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
+
 
 ## Examples 
 
 * Every [[set]] carries the **[[discrete space|discrete metric]]** given by
   $$
-    d(x,y) = \left\{\array{
-      0 & if x = y
+    d(x,y) \coloneqq \left\{\array{
+      0 & \text{if }x = y
       \\
-      1 & otherwise
+      1 & \text{otherwise}
     }\right.
   $$
 
   For certain purposes, it makes more sense to make most the non-zero distance $\infty$ instead of $1$; then one has an extended metric space.
 
-* Every [[normed vector space]] is a metric space by $d(x,y) := \Vert x-y \Vert$; a pseudonormed vector space is a pseudometric space.
+* Every [[normed vector space]] is a metric space by $d(x,y) \coloneqq {\|x - y\|}$; a pseudonormed vector space is a pseudometric space.
 
-* Every connected [[Riemannian manifold]] becomes a pseudometric space (or a metric space if, as is often assumed, the manifold is a [[Hausdorff space]]) by taking the distance between two points to be infimum of the Riemannian length of all continuously differentiable paths connecting them
-
+* Every [[connected space|connected]] [[Riemannian manifold]] becomes a pseudometric space (or a metric space if, as is often assumed, the manifold is [[Hausdorff space|Hausdorff]]) by taking the distance between two points to be [[infimum]] of the Riemannian lengths of all continuously differentiable [[path|paths]] connecting them:
   $$
-    d(x,y) := inf_{x \stackrel{\gamma}{\to} y} len(\gamma)
-  $$
+    d(x,y) \coloneqq inf_{x \stackrel{\gamma}{\to} y} len(\gamma)
+  .$$
 
   If the manifold might not be connected, then it still becomes an extended metric space.
 
@@ -109,6 +114,7 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 [[!redirects ultrametric spaces]]
 [[!redirects Lawvere metric space]]
 [[!redirects Lawvere metric spaces]]
+
 [[!redirects metrizable space]]
 [[!redirects metrizable spaces]]
 [[!redirects metrisable space]]
