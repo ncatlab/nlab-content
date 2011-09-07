@@ -19,7 +19,7 @@ Let $\mathcal{P}$ be some class of morphisms in a category $C$ satisfying the fo
 2) if $f: X\to Y$ is in $\mathcal{P}$ and $g : V\to Y$ a morphism in $C$, then the
 pullback $X\times_Y V$ exists and the projection $X\times_Y V\to V$ is a morphism in $\mathcal{P}$.
 
-A morphism $\alpha : F\to G$ of presheaves of sets on $C$ is said to be __representable by a morphism in__ $\mathcal{P}$ if for every morphism from a representable presheaf
+A morphism $\alpha : F\to G$ of [[presheaves]] of sets on $C$ is said to be __representable by a morphism in__ $\mathcal{P}$ if for every morphism from a representable presheaf
 $h_X\to G$, the projection $F\times_G h_X\to h_X$ is in $\mathcal{P}$. 
 
 In particular, a morphism $h_X\to h_Y$ is representable by a morphism in $\mathcal{P}$ iff it is of the form $h_w$ with $x\stackrel{w}\longrightarrow y\in \mathcal{P}$.
