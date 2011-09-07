@@ -21,22 +21,43 @@
 
 ## Definition
 
+### General
+
 For $F \in C$ an [[object]] in an [[(∞,1)-category]] $C$ its **automorphism $\infty$-group** is the [[∞-group]] $Hom_C(F,F) \in $ [[∞Grpd]] given by the [[derived hom space]] from $X$ to itself. 
 
 For $C$ an ordinary [[category]] this reduces to the ordinary notion of [[automorphism group]].
 
+### Of $\infty$-groups
+
+For $G \in \infty Grp(\mathcal{X})$ an [[∞-group]] there is the direct automorphism $\infty$-group $Aut(G)$. But there is also the [[delooping]] $\mathbf{B}G \in \mathcal{X}$ and _its_ automorphism $\infty$-group.
+
+Sometimes (for instance in the discussion of [[∞-gerbes]]) one considers
+
+$$
+  AUT(G) := Aut(\mathbf{B}G)
+$$
+
+and calls this the automorphism $\infty$-group of $G$.
+
+For instance when $G$ is an ordinary [[group]], $AUT(G)$ is the [[2-group]] discussed at [[automorphism 2-group]].
 
 ## Related concepts
 
 There may be the [[stuff, structure, property|structure]] of an [[∞-Lie group]] on $Aut(F)$. The corresponding [[∞-Lie algebra]] is an [[automorphism ∞-Lie algebra]].
 
 
-* [[automorphism group]]
+* [[group]], [[∞-group]],
 
-* [[automorphism 2-group]]
+* [[automorphism group]], [[automorphism 2-group]], **automorphism $\infty$-group,
 
-* **automorphism $\infty$-group**
+* [[center]], [[center of an ∞-group]]
 
+* [[outer automorphism group]], [[automorphism 2-group]], [[outer automorphism ∞-group]]
+
+[[!redirects outer automorphism group]]
+[[!redirects outer automorphism groups]]
+
+[[!redirects outer automorphisms]]
 [[!redirects automorphism ∞-group]]
 
 [[!redirects automorphism infinity-groups]]
