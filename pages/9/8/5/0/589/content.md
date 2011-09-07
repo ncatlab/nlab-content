@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++-- {: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
 # Complete categories
 * table of contents
 {: toc}
@@ -20,6 +34,10 @@ Many familiar categories of mathematical structures are complete: to name just a
 
 As hinted above, every [[complete lattice]] is complete as a category.
 
+
+## Related concepts
+
+* [[M-complete category]]
 
 [[!redirects complete category]]
 [[!redirects complete categories]]
