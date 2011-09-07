@@ -21,11 +21,14 @@ Dual to a cobordism is a [[bordism]].
 
 ## Related concepts
 
+* [[cobordism group]]
+
 * [[cobordism category]]
+
+* [[extended cobordism]] 
 
 * [[B-bordism]]
 
-* [[extended cobordism]] 
 
 
 [[!redirects cobordisms]]
