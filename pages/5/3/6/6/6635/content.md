@@ -1,0 +1,24 @@
+## Definition
+
+Let $C$ be a [[category]] and let $M$ be a class of [[monomorphisms]] in $C$.  (Often, $M$ will be the right class in an [[orthogonal factorization system]].)  We say that $C$ is **$M$-complete** if it admits all (even [[large category|large]]) [[intersections]] of $M$-[[subobjects]].  This means that it admits all (even large) [[wide pullbacks]] of families of $M$-morphisms, and such pullbacks are again in $M$.  (If $M$ is the right class of an OFS, then any intersection of $M$-morphisms which exists is automatically in $M$.)
+
+If $M$ is the class of all monomorphisms, we may say **mono-complete** for $M$-complete.
+
+Dually, if $E$ is a class of [[epimorphisms]], we say $C$ is **$E$-cocomplete** if it admits all cointersections of $E$-morphisms, and **epi-cocomplete** if $E$ is the class of all epimorphisms.
+
+## Examples
+
+* If $C$ is $M$-[[well-powered category|well-powered]], then no large limits are required in the definition of $M$-completeness.  Therefore, if $C$ is well-powered and complete, it is $M$-complete whenever $M$ is the right class in an OFS.  Dually, if $C$ is well-copowered and cocomplete, it is $E$-cocomplete whenever $E$ is the left class in an OFS.
+
+* For similar reasons, the category [[FinSet]] is mono-complete and epi-cocomplete---although it is not complete or cocomplete, it is finitely complete and cocomplete, and its subobject lattices are likewise essentially finite.
+
+* If $C$ is a [[topological concrete category]] over a category $D$ which is mono-complete, then $C$ is also mono-complete.  For the faithful forgetful functor $U\colon C\to D$ preserves and reflects monos, and so the initial $C$-structure on an intersection of underlying monos in $D$ gives an intersection in $C$.
+
+[[!redirects M-complete category]]
+[[!redirects M-complete categories]]
+[[!redirects mono-complete category]]
+[[!redirects mono-complete categories]]
+[[!redirects E-cocomplete category]]
+[[!redirects E-cocomplete categories]]
+[[!redirects epi-cocomplete category]]
+[[!redirects epi-cocomplete categories]]
