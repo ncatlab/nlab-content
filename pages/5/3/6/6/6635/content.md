@@ -13,7 +13,7 @@
 =--
 =--
 
-#Contents#
+# M-complete and E-cocomplete categories
 * table of contents
 {:toc}
 
@@ -73,7 +73,7 @@ Then $(E,M)$ is an orthogonal factorization system.
 
 The following is a slight generalization of Theorem 3.3 of [CHK](#CHK).  There it is stated only for the case $M=$ [[strong monomorphisms]], in which case a finitely complete and $M$-complete category is called **finitely well-complete**.
 
-+-- {: .num_theorem}
++-- {: .num_theorem #OFSFromAdjunction}
 ###### Theorem
 Let $S : A \rightleftarrows C : T$ be an [[adjunction]], and assume that $A$ is finitely complete and $M$-complete for some OFS $(E,M)$, where $M$ consists of monomorphisms and contains the split monics.  Define $E_S$ to be the class of maps inverted by $S$, and $M_S = (E_S)^\perp$; then $(E_S,M_S)$ is an OFS on $A$.
 =--
@@ -85,6 +85,8 @@ Now suppose given $f\colon A\to B$; we want to construct an $(E_S,M_S)$-factoriz
 
 Let $w = n g$ be the $(E',M')$-factorization of $w$.  Since $M' \subseteq M_S$, it suffices to show that $g\in E_S$.  Note also that since $w$ is a first factor of the unit $\eta_A$, by passing to adjuncts we find that $S w$ is [[split monic]]; hence so also is $S g$.  But $T S g$ is then also split monic, hence belongs to $M$ and thus also to $M'$.  Therefore, since $g\in E'$, the naturality square for $\eta$ at $g$ contains a lift.  Passing to adjuncts again, we find that $S g$ is also [[split epic]], hence an isomorphism; thus $g\in E_S$ as desired.
 =--
+
+This is useful in the construction of [[reflective factorization systems]].
 
 ## Related concepts
 
