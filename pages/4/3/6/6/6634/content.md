@@ -49,7 +49,9 @@ Note that a lax morphism of algebras for the 2-comonad $W$ is a *colax* morphism
 
 * A [[lax monoidal functor]] is a lax morphism for the 2-monad on [[Cat]] whose algebras are [[monoidal categories]].  Similarly, an [[oplax monoidal functor]] is a colax morphism for this 2-monad.
 
-* A [[lax natural transformation]] between [[2-functors]] $C\to D$ is a lax morphism for the 2-monad on $[ob(C),D]$ whose algebras are 2-functors.  Similarly, an oplax natural transformation is a colax morphism for this 2-monad.  Some authors have tried to change the traditional meanings of "lax" and "colax" in this case, but the general framework of 2-monads gives a good argument for keeping it this way (even if in this particular case, oplax transformations are more common or useful).
+* A [[lax natural transformation]] between [[2-functors]] $C\to D$ is a lax morphism for the 2-monad on $[ob(C),D]$ whose algebras are 2-functors (which exists if $D$ is cocomplete and $C$ is small).  Similarly, an oplax natural transformation is a colax morphism for this 2-monad.  If $D$ is also complete, then this 2-monad has a right adjoint, which then as usual becomes a 2-comonad whose coalgebras are also 2-functors.  The above conventions for lax morphisms between coalgebras mean that a lax natural transformation is unambiguously "lax" rather than "colax", whether we regard the 2-functors as algebras for a 2-monad or coalgebras for a 2-comonad.
+
+  Some authors have tried to change the traditional meanings of "lax" and "colax" in this case, but the general framework of 2-monads gives a good argument for keeping it this way (even if in this particular case, oplax transformations are more common or useful).
 
 * A [[lax functor]] between 2-categories is a lax morphism for the 2-monad on Cat-graphs whose algebras are 2-categories.
 
