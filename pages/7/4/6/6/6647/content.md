@@ -1,0 +1,8 @@
+Let $\cdot: M\times M\to M$ be a binary operation, i.e. $(M,\cdot)$ is a [[magma]]. We say that the operation $\cdot$ is
+
+* __left self-distributive__ if for all $x,y,z\in M$, $x\cdot(y\cdot z) = (x\cdot y)\cdot (x\cdot z)$
+* __right self-distributive__ if for all $x,y,z\in M$, $(y\cdot z)\cdot x = (y\cdot x)\cdot (z\cdot x)$
+
+[[!redirects left self-distributivity]]
+[[!redirects right self-distributivity]]
+[[!redirects selfdistributivity]]
