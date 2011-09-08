@@ -212,7 +212,7 @@ This is at its heart trivial, but potentially a bit tedious. We proceed in two s
 ### The modified Weil algebra
  {#ModifiedWeilAlgebra}
 
-Our factorization [below](#spring) makes use of an isomorphic copy of the Weil algebra $W(b\mathbb{R} \to \mathfrak{g}_\mu)$.
+Our factorization [below]() makes use of an isomorphic copy of the Weil algebra $W(b\mathbb{R} \to \mathfrak{g}_\mu)$.
 
 +-- {: .num_prop #ShiftedWeilAlgebra}
 ###### Proposition
@@ -305,7 +305,7 @@ $$
   \tilde W(b \mathbb{R} \to \mathfrak{string})
 $$
 
-from prop. \ref{ShiftedWeilAlgebra} and obtain the desired factorization, spring as the composite
+from prop. \ref{ShiftedWeilAlgebra} and obtain the desired factorization,  as the composite
 
 $$
   \array{
@@ -356,11 +356,11 @@ $$
          \\
          b \mapsto 0
          \\
-         c \mapsto \mu
+         c \mapsto cs
          \\
          r^a \mapsto r^a
          \\
-         h \mapsto 0
+         \tilde h \mapsto 0  
          \\
          g \mapsto \langle-,-\rangle
        }
