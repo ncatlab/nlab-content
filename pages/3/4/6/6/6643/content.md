@@ -19,7 +19,7 @@
 
 ## Idea
 
-A **flexible limit** is a [[strict 2-limit]] whose [[weighted limit|weight]] is [[cofibrant object|cofibrant]].  This implies that flexible limits are also [[2-limits]] (in the non-strict sense, which for us is the default, that is [[bilimits]]).
+A **flexible limit** is a [[strict 2-limit]] whose [[weighted limit|weight]] is [[cofibrant object|cofibrant]].  This implies that flexible limits are also [[2-limits]] (in the non-strict sense, which for us is the default -- recall that these are traditionally called [[bilimits]]).
 
 Furthermore, all [[PIE-limits]] and therefore all [[strict pseudo-limits]] are flexible; thus any [[strict 2-category]] which admits all flexible limits also admits all $2$-limits.  A number of [[strict 2-categories]] admit all flexible limits, but not all strict $2$-limits, and this is a convenient way to show that they admit all $2$-limits.
 
