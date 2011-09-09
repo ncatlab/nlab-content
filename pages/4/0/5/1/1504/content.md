@@ -59,7 +59,9 @@ Original articles are
 
 * [[Edward Witten]], _Noncommutative Geometry and String Field Theory_ , Nucl. Phys B268 , 253, (1986)
 
-* [[Edward Witten]], _On background independent open string field theory_,  Phys.Rev. D46 (1992) 5467.
+* [[Edward Witten]], _On background independent open string field theory_,  Phys.Rev. D46 (1992) 5467. ([arXiv:hep-th/9208027](http://arxiv.org/abs/hep-th/9208027))
+
+* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33
 
 Reviews and introductions include
 
@@ -72,12 +74,28 @@ Reviews and introductions include
 * [[Nathan Berkovits]], _Review of open superstring field theory_ , ([arXiv:hep-th/0105230](http://arxiv.org/abs/hep-th/0105230))
 
 ### Relation to $A_\infty$- and $L_\infty$-algebras
+ {#ReferencesHomotopyAlgebra}
 
-Original articles include
+The [[L-infinity algebra]] structure in closed string field theory was first noticed in 
+
+* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33
+
+The [[A-infinity algebra]] structure of open string field theory in 
+
+* [[Matthias Gaberdiel]], [[Barton Zwiebach]], _Tensor Constructions of Open String Theories I: Foundations_ ([arXiv:hep-th/9705038](http://arxiv.org/abs/hep-th/9705038))
+
+For the topological string see
+
+* [[Manfred Herbst]], _Quantum A-infinity Structures for Open-Closed Topological Strings_ ([arXiv:hep-th/0602018](http://arxiv.org/abs/hep-th/0602018))
+
+Discussion of the mathematical aspects is in 
 
 * [[Jim Stasheff]], _Closed string field theory, strong homotopy Lie algebras and the operad actions of moduli space_ Talk given at the _Conference on Topics in Geometry and Physics_ (1992) ([arXiv:hep-th/9304061](http://arxiv.org/abs/hep-th/9304061))
 
 * [[Martin Markl]], _Loop Homotopy Algebras in Closed String Field Theory_ (1997) ([arXiv:hep-th/9711045](http://arxiv.org/abs/hep-th/9711045))
+
+* [[Alessandro Tomasiello]], _A-infinity structure and superpotentials_ ([arXiv:hep-th/0107195](http://arxiv.org/abs/hep-th/0107195))
+
 
 * [[Hiroshige Kajiura]], _Homotopy Algebra Morphism and Geometry of Classical String Field Theory_ (2001) ([arXiv:hep-th/0112228](http://arxiv.org/abs/hep-th/0112228))
 
