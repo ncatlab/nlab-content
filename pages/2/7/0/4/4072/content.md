@@ -43,7 +43,23 @@ also has all finite limits.
 
 =--
 
-This is analogous to how a category with _all_ small products and equalizers has all small [[limit]]s.
+This is analogous to how a category with _all_ small products and equalizers has all small [[limits]].  We also have:
+
++-- {: .un_prop}
+###### Proposition
+
+A [[category]] that has all 
+
+* [[pullbacks]] and a
+
+* [[terminal object]]
+
+also has all finite limits.
+
+=--
+
+More precisely, finite limits are the [[saturation of a class of limits|saturation]] of the class containing only finite products and equalizers, and also of the class containing only pullbacks and terminal objects.
+
 
 [[!redirects finite limits]]
 
