@@ -48,3 +48,9 @@ In his paper "Cauchy characterization of enriched categories," Street instead de
 These hypotheses imply that it is equivalent to the bicategory of categories and [[profunctors]] [[enriched category|enriched]] over some "base" *bicategory*.  (Note the generalization from enrichment over a monoidal category to enrichment over a bicategory.)
 
 Defined in this way, cosmoi are closed under [[opposite category|dualization]], parametrization and [[localization]], suitably defined.
+
+[[!redirects cosmoi]]
+[[!redirects Benabou cosmos]]
+[[!redirects Bénabou cosmos]]
+[[!redirects Benabou cosmoi]]
+[[!redirects Bénabou cosmoi]]
