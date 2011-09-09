@@ -374,6 +374,8 @@ Tim: I have a feeling that this anabelian question should have a form that gener
 
 * [[Grothendieck's Galois theory]]
 
+* [[categorical Galois theory]]
+
 * [[geometric homotopy groups in an (∞,1)-topos]]
 
 * [[fundamental group of a topos]]
