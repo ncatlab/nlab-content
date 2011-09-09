@@ -249,8 +249,8 @@ As for adjoints and limits, by the usual logic of representable functors this ca
 +-- {: .num_defn}
 ###### Definition
 
-The **left Kan extension $Lan F = Lan_f F$ of $F : C \to D$ along 
-$f :C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p^* Lan F$. 
+The **left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along 
+$p :C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p^* Lan F$. 
 
 <center markdown="1">[[kan-0.png:pic]]</center>
 
@@ -267,10 +267,16 @@ Similarly for the right Kan extension, with the direction of the natural transfo
 
 By the usual reasoning (see e.g. [[Categories Work]], chapter IV, theorem 2), if these representations exist for every $F$ then they can be organised into a left (right) adjoint $Lan_p$ ($Ran_p$) to $p^*$.
 
-+-- {: .num_remark}
++-- {: .num_remark #InHigherCats}
 ###### Remark
 
-The definition in this form makes sense not just in [[Cat]] but in every [[2-category]]. In slightly different terminology, the left Kan extension 1-cell $F:C\to D$ along a 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p^* = K(p,D):K(C',D)\to K(C,D)$.
+The definition in this form makes sense not just in [[Cat]] but in every [[2-category]]. In slightly different terminology, the left Kan extension of a 1-cell $F:C\to D$ along a 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p^* = K(p,D):K(C',D)\to K(C,D)$.  Equivalently, it is such a pair such that for every $G\colon C' \to D$, the function
+$$ K(C',D)(Lan_p F, G) \xrightarrow{- \cdot \alpha} K(C,D)(F, G \circ p) $$
+is a [[bijection]].
+
+In this form, the definition generalizes easily to any [[n-category]] for any $n\ge 2$.  If $K$ is an $n$-category, we say that the left Kan extension of a 1-morphism $F:C\to D$ along a 1-morphism $p\in K(C,C')$ is a pair $(Lan_p F,\alpha)$, where $Lan_p F \colon C' \to D$ is a 1-morphism and $\alpha : F\to Lan_p F\circ p$ is a 2-morphism, with the property that for any 1-morphism $G\colon C'\to D$, the induced functor
+$$ K(C',D)(Lan_p F, G) \xrightarrow{- \cdot \alpha} K(C,D)(F, G \circ p) $$
+is an [[equivalence]] of $(n-2)$-categories.
 
 =--
 
