@@ -7,3 +7,5 @@ Even when the paradigm is not adopted, however, there is still a close relations
 
 
 [[!redirects propositions as types in type theory]]
+[[!redirects Curry-Howard correspondence]]
+[[!redirects Curry-Howard isomorphism]]
