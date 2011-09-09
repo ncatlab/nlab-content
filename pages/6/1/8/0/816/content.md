@@ -236,7 +236,11 @@ is discussed there in definition 14.7.8 on p. 269.
 
 * for $V$ set to [[SimpSet]] the above definition of homotopy limit appears in example 18.3.6 (2).
 
+# Related pages
 
+* [[strict 2-limit]]
+
+* [[saturated class of limits]]
 
 #References#
 
