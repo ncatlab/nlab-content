@@ -27,6 +27,8 @@
 
 * [[type II string theory]]
 
+* [[string field theory]]
+
 ## Relations between the critical models
 
 * [[T-duality]]
