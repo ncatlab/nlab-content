@@ -12,13 +12,20 @@ The [[well-ordering theorem]] states precisely that every set may be equipped wi
 
 ## Definition
 
-A [[binary relation]] $\prec$ on a [[set]] $S$ is a __well-order__ if it is a [[well-founded relation|well-founded]] [[linear order]].  Equivalently, a well-order is a [[transitive relation|transitive]], [[extensional relation|extensional]], well-founded relation.  A set equipped with a well-order is called a __well-ordered set__, or (following '[[partial order|poset]]') a __woset__.  Actually, the term 'well-ordered' came first; 'well-order' is a back formation, which explains the strange grammar.
+A [[binary relation]] $\prec$ on a [[set]] $S$ is a __well-order__ if it is [[transitive relation|transitive]], [[extensional relation|extensional]], and [[well-founded relation|well-founded]].  A set equipped with a well-order is called a __well-ordered set__, or (following '[[partial order|poset]]') a __woset__.  Actually, the term 'well-ordered' came first; 'well-order' is a back formation, which explains the strange grammar.
 
-Sometimes one wants $S$ to have a [[total order]] $\preceq$ instead of a linear order $\prec$ (that is, a reflexive rather than an irreflexive one).  In [[classical mathematics]], at least, the distinction is a technicality: $x \preceq y$ if $y \nprec x$, and $x \prec y$ if $y \npreceq x$.  (In [[constructive mathematics]], $\preceq$ is not sufficient to reconstruct $\prec$, and we really want $\prec$.)
+Other definitions of a well-order may be found in the literature; they are equivalent given [[excluded middle]], but the definition above seems to be the most powerful in [[constructive mathematics]].  Specifically:
 
-Using either $\prec$ or $\preceq$, we may equivalently define a well order on $S$ to be a linear or total order such that every [[inhabited set|inhabited subset]] has a lowest element.  That is, for all $U \subset S$ with $U \neq \emptyset$ there exists $\bottom_U \in U$ such that no $u \in U$ satisfies $u \prec \bottom_U$ (equivalently, every $u$ satisfies $\bottom_U \leq u$).  This is probably the definition most often found in textbooks.
+*  a well-order is precisely a well-founded [[linear order]];
+*  a well-order is precisely a well-founded [[total order]];
+*  (assuming also [[dependent choice]]) a well-order is precisely a linear order $\prec$ with no infinite descending sequence $\cdots \prec x_2 \prec x_1 \prec x_0$;
+*  (assuming also [[dependent choice]]) a well-order is precisely a total order $\preceq$ such that every infinite descending sequence $\cdots \preceq x_2 \preceq x_1 \preceq x_0$ has $x_i = x_{i^+}$ for some $i$ (and hence for infinitely many $i$);
+*  a well-order on $S$ is precisely a linear order $\prec$ with the property that every [[inhabited subset]] $U$ of $S$ has a least element (an element $\bot_U$ such that no $x \in U$ satisfies $x \prec \bot_U$;
+*  a well-order on $S$ is precisely a total order $\prec$ with the property that every [[inhabited subset]] $U$ of $S$ has a least element (an element $\bot_U$ such that every $x \in U$ satisfies $\bot_U \preceq x$.
 
-Note that in [[constructive mathematics]], $\prec$ cannot necessarily be reconstructed from $\preceq$ (which is not necessarily a total order either), and we really want $\prec$.  Also, not every well-ordered set satisfies the property that every inhabited subset has a least element; if it does we call it **classically well-ordered**.  Any classically well-ordered set is a [[choice object|choice set]], and so if any set with at least $2$ elements has a classical well-order, [[excluded middle]] follows.
+The really interesting thing here is that every well-order is linear; it is a constructive theorem that every linear order is weakly extensional (and so extensional if well-founded) and transitive.  For the other equivalences, we\'re simply using well-known classical equivalents for well-foundedness and the classical correspondence between a linear relation $\prec$ and its [[reflexive closure]] $\preceq$.
+
+For reference, a __classical well-order__ is any order satisfying the last definition (a total order that is classically well-founded).  A classically well-ordered set is a [[choice object|choice set]], and so if any set with at least $2$ elements has a classical well-order, [[excluded middle]] follows.
 
 
 ## Examples
@@ -27,9 +34,11 @@ Note that in [[constructive mathematics]], $\prec$ cannot necessarily be reconst
 
 * The set of [[natural numbers]] is well-ordered under the usual order $\lt$.
 
-* More generally, any set of [[ordinal numbers]] (or even the proper class of all ordinal numbers) is well-ordered under the usual order $\lt$.
+* More generally, any set of [[ordinal numbers]] (or even the [[proper class]] of all ordinal numbers) is well-ordered under the usual order $\lt$ (which, constructively, may not be linear).
 
-* The [[cardinal numbers]] of well-orderable sets are themselves well-ordered.  So by the well-ordering theorem, the class of all cardinal numbers is well-ordered.
+* The [[cardinal numbers]] of well-orderable sets (the well-orderable cardinals), forming a [[retract]] of the ordinals, are well-ordered.  So by the well-ordering theorem, the class of *all* cardinal numbers is well-ordered.
+
+* A special case of the well-ordering theorem is the existence of a well-order on the set of [[real numbers]]; this is enough for many applications of the [[axiom of choice]] to [[analysis]].
 
 
 ## Interpretation as an ordinal number
@@ -40,7 +49,7 @@ This may be defined immediately (and constructively) as a recursively defined fu
 $$ r(x) = \sup_{t \prec x} r(t)^+ ;$$
 the validity of this sort of recursive definition is precisely what the well-foundedness of $\prec$ allows.  Here, $\beta^+$ is the [[successor]] of the ordinal number $\beta$, and $\sup$ is the [[supremum]] operation on ordinal numbers (which is the [[union]] of von Neumann ordinals).
 
-Since $S$ is a set, the image of $r$ in the class of all ordinals is also a set, and one can now prove that $r$ is an order isomorphism between $S$ and the set of ordinals less than the next ordinal, $\alpha$.
+Since $S$ is a set, the image of $r$ in the class of all ordinals is also a set (by the [[axiom of replacement]]), and one can now prove that $r$ is an order isomorphism between $S$ and the set of ordinals less than the next ordinal, $\alpha \coloneqq (\im r)^+$.
 
 
 ## Simulations
@@ -56,7 +65,7 @@ Note that any simulation of $S$ in $T$ must be unique.  Thus, well-ordered sets 
 
 A well-ordered set $S$ comes equipped with a **[[successor]]** map
 $
-  succ : S \to S  
+  succ\colon S \to S  
   \,.
 $
 this sends $a \in S$ to the lowest element of the subset $S_a := \{ s \in S, a \prec s\}$.
