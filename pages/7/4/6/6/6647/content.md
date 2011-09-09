@@ -13,9 +13,11 @@ Let $\cdot\colon M \times M\to M$ be a binary operation, i.e. $(M,\cdot)$ is a [
 
 ## Examples
 
-The binary operation in any [[semilattice]] is self-distributive on both sides, following from associativity, commutativity, and idempotence.
+* The binary operation in any [[semilattice]] is self-distributive on both sides, following from associativity, commutativity, and idempotence.
 
-The operations in a [[rack]] are self-distributive on the side on which they act.
+* The operations in a [[rack]] (and hence also in a [[quandle]]) are self-distributive on the side on which they act.  In particular, this includes the operation of [[conjugation]] in a [[group]].
+
+* A [[Laver table]] is the multiplication table of a self-distributive operation.
 
 
 [[!redirects self-distributive operation]]
