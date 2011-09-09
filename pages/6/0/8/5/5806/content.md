@@ -49,7 +49,7 @@ An _$(\infty,n)$-category of spans_ in [[∞-groupoid]] is an [[(∞,n)-category
     }
   $$
 
-  (where the trianglura sub-[[diagram]]s are filled with [[2-morphism]]s in [[∞Grpd]] which we do not display here)
+  (where the triangular sub-[[diagram]]s are filled with [[2-morphism]]s in [[∞Grpd]] which we do not display here)
 
 * and so on up to [[k-morphism|n-morphism]]s
 
