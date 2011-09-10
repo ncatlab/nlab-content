@@ -27,7 +27,8 @@
 
 ## Idea
 
-A flavor of [[type theory]] that seems to serve as a [[foundation]] for [[homotopy theory]] and [[(∞,1)-topos theory]].
+Homotopy type theory, or $(\infty,1)$-type theory, is a flavor of [[type theory]] that seems to serve as a [[foundation]] for [[homotopy theory]] and [[(∞,1)-topos theory]] (and thereby also of [[higher category theory]], [[category theory]], [[set theory]], and mathematics in general).
+
 
 ## Related concepts
 
@@ -37,15 +38,17 @@ A flavor of [[type theory]] that seems to serve as a [[foundation]] for [[homoto
 
 * **$(\infty,1)$-type theory**
 
+
 ## References
  {#References}
 
-* _Homotopy Type Theory_ <a href="http://homotopytypetheory.org/">website</a> 
+* _Homotopy Type Theory_ [website](http://homotopytypetheory.org/)
 
 * [[Steve Awodey]], _Type theory and homotopy_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/TTH.pdf))
  {#Awodey}
 
-* [[Michael Shulman]], _Homotopy type theory_  <a href="http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_i.html">I</a>,  <a href="http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_ii.html">II</a>, <a href="http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_iii.html">III</a>, <a href="http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html">IV</a>
+* [[Michael Shulman]], _Homotopy type theory_ [I](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_i.html), [II](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_ii.html), [III](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_iii.html), [IV](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html)
+
 * Homotopy type theory, Oberwolfach Reports 11-2011, [pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf)
 
 
