@@ -50,6 +50,39 @@ Closed string field theory is governed by an [[L-infinity algebra]] of interacti
 
 In fact the [[action functional]] of closed string field theory is a kind of [[schreiber:infinity-Chern-Simons theory]] functional, but over an "odd 3-dimensional space" (of [[BV-BRST complex|BRST-ghosts]]) 
 
+## Definition
+
+So far string field theory is defined in terms of an [[action functional]]. So, strictly speaking, it is defined as a [[classical field theory]] whose [[quantization]] is to be considered.
+
+The [[configuration space]] is the [[BRST complex]] of the closed ([[superstring|super]]-)[[string]]. We shall write $\mathfrak{g}$ for that. 
+
+This is equipped for each $k \in \mathbb{N}$ with a $k$-ary operation
+
+$$
+  [-,\cdots,-]_k : \mathfrak{g}^{\otimes k} \to \mathfrak{g}
+$$
+
+given by the [[correlator|(k+1)-point function]] of the string (the amplitude for $k$ closed strings coming in and merging into a single outgoing string). For $k = 1$ this is the [[BRST complex|BRST operator]].
+
+Moreover, there is a bilinear [[inner product]]
+
+$$
+  \langle -,- \rangle : \mathfrak{g} \otimes \mathfrak{g} \to \mathbb{C}
+$$
+
+given by pairing of states.
+
+The _[[action functional]]_ of closed string field theory is of the form
+
+$$
+  S : \Psi 
+   \mapsto 
+   \sum_{k = 1}^\infty
+   \langle \Psi, [\Psi, \cdots, \Psi]_k\rangle
+  \,.
+$$
+
+One finds that $(\mathfrak{g}, \{[-,\cdots,-]_k\})$ is an [[L-infinity algebra]] (see the references [below](ReferencesHomotopyAlgebra)) equipped with an [[invariant polynomial]] $\langle -,-\rangle$. The above action functional is of the form of [[schreiber:infinity-Chern-Simons theory]] for this input data.
 
 ## References
 
@@ -102,6 +135,10 @@ Discussion of the mathematical aspects is in
 * [[Hiroshige Kajiura]], [[Jim Stasheff]], _Homotopy algebras inspired by classical open-closed string field theory_ (2004) ([arXiv:math/0410291](http://arxiv.org/abs/math/0410291))
 
 
+Discussion of the CSFT-action as of the form of [[schreiber:infinity-Chern-Simons theory]] is in section 4.4 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
 Surveys are in 
 
 
@@ -127,3 +164,5 @@ Discussion of the [[L-infinity algebra]] structure in the [[Yang-Mills theory]] 
   _Conformal Field Theory and Algebraic Structure of Gauge Theory_ ([arXiv:0812.1840](http://arxiv.org/abs/0812.1840))
 
 [[!redirects String field theory]]
+
+[[!redirects closed string field theory]]
