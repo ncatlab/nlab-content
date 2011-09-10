@@ -27,6 +27,18 @@ The really interesting thing here is that every well-order is linear; it is a co
 
 For reference, a __classical well-order__ is any order satisfying the last definition (a total order that is classically well-founded).  A classically well-ordered set is a [[choice object|choice set]], and so if any set with at least $2$ elements has a classical well-order, [[excluded middle]] follows.
 
+### Well-orders are linear 
+
+As stated above, well-founded extensional transitive relations $\prec$ on a set $X$ are linear, assuming classical logic. 
+
++-- {: .proof}
+######Proof 
+Order $X \times X$ lexicographically: $(a, b) \prec (a', b')$ if either $a \prec a'$ in $X$ or $a = a'$ and $b \prec b$ in $X$. It is not hard to see that the lexicographic order is well-founded. Now let $A \subset X \times X$ be the set of pairs $(x, y)$ of distinct elements $x$ and $y$ that are incomparable in $X$, and suppose $A$ is nonempty. Then $A$ has a minimal element $(a, b)$. Then, for every $b' \prec b$, either $a \preceq b'$ or $b' \preceq a$. If the former holds for some $b'$, then $a \prec b$ follows by transitivity, contradiction. Hence $b' \prec a$ for every $b' \prec b$. Now let $a'$ be minimal such that $b' \prec a' \preceq a$ for every $b' \prec b$. Then 
+
+$$\{x: x \prec a'\} = \{x: x \prec b\}$$ 
+
+and therefore $a' = b$ by extensionality, whence $b \prec a$, contradiction. Therefore $A$ was empty, so that $X$ is linear. 
+=-- 
 
 ## Examples
 
