@@ -57,6 +57,9 @@ Since $E'$ is, by definition, the class of maps inverted by the reflector into $
 Conversely, if $f\colon X\to Y$ is in $E'$, then we have $\eta_Y \circ f = \ell(f) \circ \eta_X$ by naturality, where $\ell$ is the reflector into $M/1$ and $\eta$ its unit.  But by construction of $\ell$, $\eta_Y$ and $\eta_X$ are in $E$, and by assumption, $\ell(f)$ is invertible; hence we can take $g = \eta_Y$.
 =--
 
+Note that the left class in any orthogonal factorization system is automatically closed under composition, contains the isomorphisms, and satisfies the property that $g f \in E$ and $f\in E$ together imply $g\in E$.  Therefore, $(E,M)$ is reflective precisely when $E$ is a system of [[category with weak equivalences|weak equivalences]].  See [Relation to Localization](#Localization), below.
+
+
 ### Construction of factorizations
 
 The following is a slightly generalized version of Corollary 3.4 from [CHK](#CHK).
@@ -92,7 +95,7 @@ A reflection satisfying the condition of the preceeding theorem is called **semi
 Semi-left-exactness of a reflection $\ell$ of $C$ into $A\subseteq C$ is also equivalent to saying that for any $x\in C$, the right adjoint of the induced functor $\ell\colon C/x \to A/\ell(x)$ (which is given by pullback along $\eta_x$) is fully faithful.  In this form it is equivalent to (a particular case of) the notion of *admissible* reflection in [[categorical Galois theory]].
 
 
-### Relation to localizations
+### Relation to localizations {#Localization}
 
 For any favorable prefactorization system $(E,M)$, it is easy to show that $M/1$ is the [[localization]] of $C$ at $E$.  If $(E',M')$ is the reflective interior of $(E,M)$, then since $E'$ is the class of maps inverted by the reflector into $M/1$, it is precisely the *saturation* of $E$ in the sense of localization (the class of maps inverted by the localization at $E$).
 
