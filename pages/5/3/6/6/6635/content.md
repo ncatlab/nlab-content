@@ -58,6 +58,8 @@ $$\array{ A & \overset{g}{\to} & Z \\
 with $p\in M$.  By pulling $p$ back to $Y$ (since pullbacks of $M$-morphisms exist), we may assume that $Y=W$ and $h$ is the identity.  But now the composite $m p$ is an $M$-morphism through which $f$ factors, so by definition, $m$ factors through it.  Thus $p$ is an isomorphism and so the lifting problem can be solved.
 =--
 
+In fact, it is easy to see that the same proof constructs a [[factorization structure for sinks]].
+
 Note that if $M$ is already part of a [[prefactorization system]], then any composite, pullback, or intersection of $M$-morphisms which exists is automatically also in $M$, since $M = E^\perp$.
 
 +-- {: .num_cor}
