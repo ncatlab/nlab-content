@@ -29,7 +29,7 @@ The definition above requires some set-theoretic assumption to ensure that the [
 
 ## Examples
 
-Any [[cocomplete category|cocomplete]] and [[epi-complete category|epi-complete]] category with a [[generator]] is total.  See ([Day](#Day)), theorem 1, for a proof.  This includes:
+Any [[cocomplete category|cocomplete]] and [[epi-cocomplete category|epi-cocomplete]] category with a [[generator]] is total.  (And more generally, any cocomplete and $E$-complete category with an $E$-generator is total, for a suitable class $E$.)  See ([Day](#Day)), theorem 1, for a proof.  This includes:
 
 * [[locally presentable category|locally presentable categories]], hence in particular [[Grothendieck toposes]].
 
@@ -52,4 +52,6 @@ Also, totality lifts along [[solid functors]]; that is, if the [[codomain]] of a
  {#Day}
 
 
+[[!redirects total categories]]
 [[!redirects cototal category]]
+[[!redirects cototal categories]]
