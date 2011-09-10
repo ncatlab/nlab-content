@@ -533,6 +533,8 @@ In some context the descent condion may algebraically be encoded in an [[adjunct
 
   * [[cohomological descent]]
 
+  * [[descent morphism]]
+
   * [[monadic descent]], 
 
     * [[Sweedler coring]]
