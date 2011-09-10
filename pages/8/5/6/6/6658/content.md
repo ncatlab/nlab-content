@@ -1,0 +1,76 @@
+# Descent morphisms
+* table of contents
+{: toc}
+
+## Definition
+
+Let $C$ be a [[category]] with [[pullbacks]].  For any morphism $p\colon A\to B$, we have an [[internal category]] $ker(p)$ defined by $A\times_B A \rightrightarrows A$ (the [[kernel pair]] of $p$).  The category of [[descent data]] for $p$ is the category $C^{ker(p)}$ of internal diagrams on this internal category.  Explicitly, an object of $C^{ker(p)}$ is a morphism $C\to A$ together with an action $A\times_B C \to C$ satisfying suitable axioms.
+
+The evident internal functor $ker(p) \to B$ (viewing $B$ as a [[discrete category|discrete]] internal category) induces a *comparison functor* $C^B \to C^{ker(p)}$.  We say that $p$ is:
+
+* a **descent morphism** if this comparison functor is [[fully faithful functor|fully faithful]], and
+* an **effective descent morphism** if this comparison functor is an [[equivalence of categories]].
+
+It is a little unfortunate that the more important notion of *effective descent* has the longer name, but it seems unwise to try to change it (although the [[Elephant]] uses "pre-descent" and "descent").
+
+
+### Relation to other concepts
+
+In general, [[descent]] is about higher [[sheaf]] conditions (i.e. [[stack]] conditions).  In this language, saying that $p$ is an effective descent morphism says that the [[codomain fibration]] of $C$ is a stack (that is, a [[2-sheaf]]) for the singleton covering family $p$.  Similarly, $p$ is a descent morphism iff the codomain fibration is a pre-stack (that is, a 2-separated 2-presheaf) for $p$.
+
+More generally, we may use the terms "descent morphism" and "effective descent morphism" relativized to any [[fibration]] or [[indexed category]] rather than the codomain fibration.
+
+We can also, of course, generalize to higher categories: an [[n-category]] with pullbacks has an analogue of a "codomain fibration", and we can ask for stack conditions on it.  This is most common in the case of [[(infinity,1)-categories]]; see the page [[descent]] for more information and links.
+
+Descent can also be rephrased in terms of the [[monadicity theorem]]; see [[monadic descent]].
+
+
+## Properties
+
+Let $C$ be a category with pullbacks.
+
++-- {: .un_theorem}
+###### Theorem
+$p\colon A\to B$ is a descent morphism if and only if $p$ is a [[pullback-stability|stable]] [[regular epimorphism]].
+=--
+
+In particular, descent morphisms are closed under [[pullback]] and [[composition]].  Moreover, in a [[regular category]], the descent morphisms are precisely the regular epimorphisms.
+
+Perhaps more surprising is:
+
++-- {: .un_theorem}
+###### Theorem
+Effective descent morphisms are closed under pullback and composition.
+=--
+
+See ([ST](#ST)) and ([RST](#RST)) for proofs.
+
+
+## Examples
+
+If $C$ is [[exact category|exact]], or has stable [[reflexive coequalizers]], then every regular epimorphism is an effective descent morphism.  (See, for instance, section B1.5 of the [[Elephant]].)  In particular, this is the case for any [[topos]].
+
+However, there are also important effective descent morphisms in non-exact categories.
+
+* In [[Top]], there is a characterization...
+
+* In the category [[Loc]] of [[locales]], every [[triquotient map]] is an effective descent morphism.  These includes [[open map|open]] surjections and also [[proper map|proper]] surjections.
+
+...
+
+## References
+
+* Sobral and [[Walter Tholen|Tholen]], "Effective descent morphisms and effective equivalence relations", *Category Theory 1991*, CMS Conference Proceedings vol. 13 (1992), 421--433
+ {#ST}
+
+* Reiterman and Sobral and [[Walter Tholen|Tholen]], "Composites of effective descent maps", *Cahiers* 34 (1993), 193--207, [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_3_193_0)
+ {#RST}
+
+[[!redirects descent morphism]]
+[[!redirects descent morphisms]]
+[[!redirects effective descent morphism]]
+[[!redirects effective descent morphisms]]
+[[!redirects descent map]]
+[[!redirects descent maps]]
+[[!redirects effective descent map]]
+[[!redirects effective descent maps]]
