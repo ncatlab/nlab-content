@@ -87,7 +87,7 @@ $$
   }
 $$
 
-there is a unique function $h: X \to Y$ such that 
+there is a unique function $h: Y \to X$ such that 
 
 $$ q_A h = p_A $$
 
