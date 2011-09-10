@@ -211,7 +211,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is just the image $cs = \tau \langle \rangle$ of the invartiant polynomial under the canonical homotopy operator 
+This is just the image $cs = \tau \langle \rangle$ of the invartiant polynomial under the canonical contractint homotopy operator 
 
 $$
   \tau : W(\mathfrak{g}) \to W(\mathfrak{g})
@@ -232,7 +232,7 @@ $$
   F(\mathfrak{g}^*) \stackrel{\simeq}{\to} W(\mathfrak{g})  
 $$
 
-given by sending $t^a \mapsto t^a$ and $\mathbf{d}t^a \mapsto d_W t^a + d_{CE} t^a$.
+given by sending $t^a \mapsto t^a$ and $\mathbf{d}t^a \mapsto d_{CE} t^a + r^a$.
 
 
 Let $h : F(\mathfrak{g}^*) \to F(\mathfrak{g}^*)$ be the [[derivation]] which on generators is defined by 
