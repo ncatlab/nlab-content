@@ -29,7 +29,7 @@ $$
 
 with any right $R$-module $N$ (from the left) yields an exact sequence of abelian groups. 
 
-Grothendieck has proved that faithfully flat morphisms of commutative schemes are of effective descent for the categories of quasicoherent $\mathcal{O}$-modules. But this was not entirely optimal, as there is in fact a more general class than faithfully flat morphisms which satisfy the effective descent. For a local case of commutative rings, [[Joyal]] and Tierney have then proved (unpublished) that the effective descent morphisms for modules are precisely the pure morphisms of rings (or dually of affine schemes). Janelidze and Tholen have reproved the theorem as a corollary of a result for noncommutative rings obtained using the Beck's [[comonadicity theorem]].
+Grothendieck has proved that faithfully flat morphisms of commutative schemes are of effective descent for the categories of quasicoherent $\mathcal{O}$-modules. But this was not entirely optimal, as there is in fact a more general class than faithfully flat morphisms which satisfy the effective descent. For a local case of commutative rings, [[Joyal]] and Tierney have then proved (unpublished) that the [[effective descent morphisms]] for modules are precisely the pure morphisms of rings (or dually of affine schemes). Janelidze and Tholen have reproved the theorem as a corollary of a result for noncommutative rings obtained using the Beck's [[comonadicity theorem]].
 
 
 ## References
