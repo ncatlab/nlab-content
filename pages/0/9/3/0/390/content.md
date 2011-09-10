@@ -85,6 +85,8 @@ Several classical examples of OFS $(E,M)$:
 
   * [[orthogonal factorization system in an (∞,1)-category]]
 
+* [[factorization structure for sinks]]
+
 [[!redirects orthogonal factorization system]]
 [[!redirects orthogonal factorization systems]]
 [[!redirects orthogonal factorisation system]]
