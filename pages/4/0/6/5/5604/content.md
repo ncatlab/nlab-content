@@ -38,11 +38,11 @@ If (in some [[universe]] $U$) a small [[category]] $D$ has [[product]]s of famil
 +-- {: .proof}
 ######Proof
 
-Let $x$, $y$ be any two objects, and suppose (contrary to $D$ being a preorder) that there are at least two different morphisms $x \stackrel{\overset{g}{\to}}{\underset{f}{\to}} y$. Then the set of morphisms 
+Let $x$, $y$ be any two objects, and suppose (contrary to $D$ being a preorder) that there are at least two different morphisms $x \,\underoverset{s}{r}{\rightrightarrows}\, y$. Then the set of morphisms 
 
 $$x \to \prod_{f \in Mor(D)} y$$ 
 
-has [[cardinality]] at least $2^{|Mor(D)|} \gt |Mor(D)|$, which is a contradiction. 
+has [[cardinality]] at least $2^{|Mor(D)|} \gt {|Mor(D)|}$, which is a contradiction. 
 
 =--
 
