@@ -45,7 +45,7 @@ There are several equivalent ways to define proarrow equipments on a 2-category.
 Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ with proarrows**.
 
 * A 2-category $M$, whose arrows are called *proarrows*.
-* A functor $K\to M$ which is [[bijective-on-objects functor|bijective on objects]] and [[locally fully faithful functor|locally fully faithful]].  If $f\colon A\to B$ is a 1-morphism in $K$, we write its image in $M$ as $B(1,f)\colon A\nrightarrow B$.
+* A functor $K\to M$ which is [[bijective-on-objects functor|bijective on objects]] and [[locally fully faithful 2-functor|locally fully faithful]].  If $f\colon A\to B$ is a 1-morphism in $K$, we write its image in $M$ as $B(1,f)\colon A\nrightarrow B$.
 * For each arrow $f\colon A\to B$ in $K$, the proarrow $B(1,f)\colon A\to B$ has a right adjoint in $M$, which we write as $B(f,1)$.
 
 As usual on the nLab, here by [[2-category]] we mean a weak 2-category (aka [[bicategory]]) and by [[functor]] we mean a weak 2-functor (aka [[pseudofunctor]]).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
