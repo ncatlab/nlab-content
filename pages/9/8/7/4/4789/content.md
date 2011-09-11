@@ -151,7 +151,47 @@ of Chern-Simons elements for vanishing cocycle and vanishing invariant polynomia
 
 Since the [[Weil algebra]] of an [[L-∞ algebra]] has trivial cohomolgy in positive degree, every [[invariant polynomial]] $\langle -,\cdots, -\rangle$ has a Chern-Simons element and there is a standard formula for it.
 
-Let $\mathfrak{g}$ be an [[L-∞ algebra]] and let $\{t_a\}$ be a [[basis]] and $\{t^a\}$ the dual basis. Then the differential of the [[Chevalley-Eilenberg algebra]] can be written
+
++-- {: .num_pop}
+###### Proposition
+
+Let $\mathfrak{g}$ be an [[L-∞ algebra]] with $k$-ary brackets $[-,\cdots, -]_k : \mathfrak{g}^{\otimes k} \to \mathfrak{g}$ and equipped with a quadratic [[invariant polynomial]] $\langle -,-\rangle$.
+
+A Chern-Simons element for $\langle-,-\rangle$ is given by the formula
+
+$$
+  cs(A) = 
+  \langle A, d_{dR} A\rangle
+  + 
+  \sum_{k = 1}^\infty
+  \frac{2}{(k+1)!}
+  \langle A, [A,\cdots,A]_k\rangle
+  \,,
+$$
+
+where $A : W(\mathfrak{g}) \to \Omega^\bullet(\Sigma)$ is any $\mathfrak{g}$-[[infinity-Lie algebroid-valued differential form|valued form]]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+There is a canonical contracting [[homotopy]]
+
+$$
+  \tau : W(\mathfrak{g}) \to W(\mathfrak{g})
+$$
+
+satisfying $[d_W, \tau] = Id$
+
+and the above element is
+
+$$
+  cs = \tau \langle -,-\rangle
+  \,.
+$$
+
+To see this, let $\{t_a\}$ be a [[basis]] and $\{t^a\}$ the dual basis. Then the differential of the [[Chevalley-Eilenberg algebra]] can be written
 
 $$
   d_{CE(\mathfrak{g})} t^a 
@@ -173,17 +213,16 @@ $$
 
 is the corresponding $k$-ary bracket.
 
-+-- {: .num_pop}
-###### Proposition
-
-If $\langle-,-\rangle \in W(\mathfrak{g})$ is a quadratic invariant polynomial on $\mathfrak{g}$ with components
+Write
 
 $$
   P_{a b} := \langle t_a , t_b\rangle
   \,,
 $$
 
-then a Chern-Simons element for it is given by
+for the components of the [[invariant polynomial]] in this basis.
+
+Then the claim is that
 
 $$
   cs 
@@ -206,36 +245,17 @@ $$
   (P_{a b} [t_{b_1}, \cdots, t_{b_k}]^b)
 $$
 
-=--
 
-+-- {: .proof}
-###### Proof
-
-This is just the image $cs = \tau \langle \rangle$ of the invartiant polynomial under the canonical contractint homotopy operator 
+Write $F(\mathfrak{g})$ for the [[free construction|free]] [[dg-algebra]] on the [[graded vector space]] $\mathfrak{g}^*$. In terms of the above basis this is generated from $\{t^a, \mathbf{d}t^a\}$. As discussed at [[Weil algebra]], there is a dg-algebra [[isomorphism]]
 
 $$
-  \tau : W(\mathfrak{g}) \to W(\mathfrak{g})
-$$
-
-on the [[Weil algebra]], which satisfies
-
-$$
-  [d_{W}, \tau] = Id
-  \,.
-$$
-
-We recall how to construct this:
-
-Write $F(\mathfrak{g}^*)$ for the [[free construction|free]] [[dg-algebra]] on the [[graded vector space]] $\mathfrak{g}^*$. This is generated from $\{t^a, \mathbf{d}t^a\}$. As discussed at [[Weil algebra]], there is a dg-algebra [[isomorphism]]
-
-$$
-  F(\mathfrak{g}^*) \stackrel{\simeq}{\to} W(\mathfrak{g})  
+  F(\mathfrak{g}) \stackrel{\simeq}{\to} W(\mathfrak{g})  
 $$
 
 given by sending $t^a \mapsto t^a$ and $\mathbf{d}t^a \mapsto d_{CE} t^a + r^a$.
 
 
-Let $h : F(\mathfrak{g}^*) \to F(\mathfrak{g}^*)$ be the [[derivation]] which on generators is defined by 
+Let $h : F(\mathfrak{g}) \to F(\mathfrak{g})$ be the [[derivation]] which on generators is defined by 
 
 $$
   h : t^a \mapsto 0
@@ -257,7 +277,7 @@ $$
     &&
     \uparrow^{\mathrlap{\simeq}}
     \\
-    F(\mathfrak{g}^*) &\stackrel{\frac{1}{L} h}{\to}& F(\mathfrak{g}^*)
+    F(\mathfrak{g}) &\stackrel{\frac{1}{L} h}{\to}& F(\mathfrak{g})
   }
   \,.
 $$
