@@ -54,7 +54,7 @@ where $[A,B]_{strict,pseudo}$ denotes the 2-category of strict 2-functors, pseud
 $$ [(C')^{op},Cat]_{strict,pseudo}(\overline{C(-,x)}, \overline{F}) \to \overline{F}(x) = F(x) $$
 given by evaluation at $1_x$.  Here $\overline{C(-,x)}$ and $\overline{F}$ denote the strict 2-functors $(C')^{op}\to Cat$ corresponding to the pseudofunctors $C(-,x)$ and $F$ under the $(-)'$ adjunction.  However, we also have a strict 2-functor $C'(-,x)$, and the equivalence $C\simeq C'$ induces an equivalence $C'(-,x)\simeq \overline{C(-,x)}$.  Therefore, it suffices to analyze the functor
 $$ [(C')^{op},Cat]_{strict,pseudo}(C'(-,x), \overline{F}) \to \overline{F}(x). $$
-Now for any $A$ and $B$, we have an inclusion functor $[A,B]_{strict,strict} \to [A,B]_{strict,pseudo}$ where $[A,B]_{strict,strict}$ denotes the 2-category of strict 2-functors, strict 2-natural transformations, and modifications.  This functor is bijective on objects and locally fully faithful.  Moreover, the composite
+Now for any $A$ and $B$, we have an inclusion functor $[A,B]_{strict,strict} \to [A,B]_{strict,pseudo}$ where $[A,B]_{strict,strict}$ denotes the 2-category of strict 2-functors, strict 2-natural transformations, and modifications.  This functor is [[bijective on objects functor|bijective on objects]] and [[locally fully faithful 2-functor|locally fully faithful]].  Moreover, the composite
 $$ [(C')^{op},Cat]_{strict,strict}(C'(-,x), \overline{F}) \to [(C')^{op},Cat]_{strict,pseudo}(C'(-,x), \overline{F}) \to \overline{F}(x). $$
 is an *isomorphism*, by the [[Yoneda lemma for enriched categories]], in the special case of $Cat$-enrichment.  Since   
 $$[(C')^{op},Cat]_{strict,strict}(C'(-,x), \overline{F}) \to [(C')^{op},Cat]_{strict,pseudo}(C'(-,x), \overline{F})$$
