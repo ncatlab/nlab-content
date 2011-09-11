@@ -48,6 +48,24 @@ There are [[model category]] [[presentable (infinity,1)-category|presentations]]
 
 * [[(∞,1)-sheaf]] / [[∞-stack]]
 
+* [[descent]]
+
+  * [[cover]]
+
+  * [[cohomological descent]]
+
+  * [[descent morphism]]
+
+  * [[monadic descent]], 
+
+    * [[Sweedler coring]]
+
+    * [[higher monadic descent]]
+
+    * [[descent in noncommutative algebraic geometry]]
+
+
+
 
 [[!redirects (2,1)-sheaves]]
 [[!redirects (2,1)-category of (2,1)-sheaves]]
