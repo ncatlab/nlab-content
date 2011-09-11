@@ -1,0 +1,41 @@
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
+Suppose $k$ is a [[field]] of positive [[characteristic]] $p$. The **Frobenius morphism** is an [[endomorphism]] of the field $F:k\to k$ defined by $F(a)=a^p$. It is a map of fields since $(ab)^p=a^p b^p$ for all $a,b\in k$. The characteristic of the field is used to show $(a+b)^p=a^p+b^p$. 
+
+### Properties
+
+* Frobenius is always [[injective]].
+
+* The [[image]] of Frobenius is the set of elements of $k$ with a $p$-th root and is sometimes denoted $k^{1/p}$.
+
+* Frobenius is [[surjective]] if and only if $k$ is [[perfect field|perfect]].
+
+## Frobenius in algebraic geometry
+
+Suppose $X$ is an $S$-[[scheme]] where $S$ is a [[scheme]] over $k$. The **absolute Frobenius** is the map $F^{ab}:X\to X$ which is the identity on [[topological space]]s and locally on sections of the structure sheaf the $p$-th power map. This is not a map of $S$-schemes in general since it doesn't respect the structure of $X$ as an $S$-scheme, i.e. the diagram:
+
+$\displaystyle \begin{matrix} X & \stackrel{F^{ab}}{\to} & X \\
+\downarrow &  & \downarrow \\
+S & \stackrel{F^{ab}}{\to} & S \end{matrix}$, 
+
+so in order for the map to be an $S$-scheme morphism, $F^{ab}$ must be the identity on $S$, i.e. $S=Spec(\mathbb{F}_p)$.
+
+Now we can form the [[fiber product]] using this square: $X^{(p)}:=X\times_{S} S$. By the universal property of [[pullback]]s there is a map $F^{rel}:X\to X^{(p)}$ so that the composition $X\to X^{(p)}\to X$ is $F^{ab}$. This is called the **relative Frobenius**. By construction the relative Frobenius is a map of $S$-schemes.
+
+### Properties
+
+For the purposes below $k$ will be a [[perfect field]] of [[characteristic]] $p$>$0$.
+
+* $X$ is [[smooth scheme|smooth]] over $k$ if and only if $F$ is a [[vector bundle]], i.e. $F_*\mathcal{O}_X$ is a free $\mathcal{O}_X$-module of rank $p$. One can study singularities of $X$ by studying properties of $F_*\mathcal{O}_X$.
+
+* If $X$ is [[smooth scheme|smooth]] and [[proper scheme| proper]] over $k$, the sequence $0\to \mathcal{O}_X\stackrel{F^{ab}}{\to} F_*\mathcal{O}_X \to d\mathcal{O}_X\to 0$ is exact and if it [[split exact sequence|splits]] then $X$ has a lifting to $W_2(k)$.
+
+## References
+
+Karen Smith, *Brief Guide to Some of the Literature on F-singularities*, <a href="www.aimath.org/WWN/singularvariety/F-sings.pdf">American Institute of Mathematics</a>
+
