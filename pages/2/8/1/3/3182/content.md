@@ -240,7 +240,7 @@ Let $X \in [Mfd^{op}, sSet]$ be an object that is _globally fibrant_ , _separate
 
 1. $X(U)$ is an [[inhabited]] [[Kan complex]] for all $U \in Mfd$;
 
-1. for every [[covering]] $\{U_i \to U\}$ in [[Mfd]] the [[descent]] morphism
+1. for every [[covering]] $\{U_i \to U\}$ in [[Mfd]] the [[descent]] comparison morphism
    $X(U) \to [Mfd^{op}, sSet](C(\{U_i\}), X)$ is a [[full and faithful (∞,1)-functor]];
 
 1. for [[contractible]] $U$ we have $\pi_0[Mfd^{op}, sSet](C(\{U_i\}), X) \simeq *$.
