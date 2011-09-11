@@ -152,37 +152,51 @@ is a [[pushout]] diagram and observe that left adjoint functors preserve pushout
 
 =--
 
-## Variations 
+## Variations {#Variations}
 
-There are a sequence of variations on the concept of epimorphism, from strongest to weakest:
+There are a sequence of variations on the concept of epimorphism, which conveniently arrange themselves in a [[total order]].  In order from strongest to weakest, we have:
 
+* [[split epimorphism]] = morphism having a [[section]]
+* [[effective descent morphism]]
+* [[descent morphism]] = [[pullback-stability|stable]] [[regular epimorphism]]
+* [[effective epimorphism]] = [[coequalizer]] of its [[kernel pair]]
+* [[regular epimorphism]] = [[coequalizer]] of some [[parallel pair]] of morphisms
+* [[strict epimorphism]] = joint coequalizer of all pairs which it coequalizes
+* [[strong epimorphism]] = an epimorphism [[orthogonality|right orthogonal]] to [[monomorphisms]]
+* [[extremal epimorphism]] = an epimorphism not factoring through any nontrivial monomorphism.
+* epimorphism.
 
-[[split epimorphism]] $\Rightarrow$
-[[regular epimorphism]] $\Rightarrow$ 
-[[strict epimorphism]]$\Rightarrow$
-[[strong epimorphism]]$\Rightarrow$ 
-[[extremal epimorphism]]$\Rightarrow$
-epimorphism.
+In [[Set|the category of sets]], every epimorphism is effective descent (and even split if you believe the [[axiom of choice]]).  Thus, it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.  The following discussion may be helpful in this regard.
 
-Here: split epi = morphism having a section; regular epi = coequalizer of some pair of morphisms (if it has a kernel pair, then it is the coequalizer of its kernel pair); strict epi = joint coequalizer of all pairs which it coequalizes; strong epi = epimorphism such that it has a left lifting property with respect to the class of monomorphisms (in a category with coequalizers "epi" requirement is automatic); effective epi = epimorphism having a kernel pair and which is coequalizer of its kernel pair.  
+First we note:
 
-In [[Set|the category of sets]], every epimorphism is regular (and even split if you believe the [[axiom of choice]]), so it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.
+* Descent and effective descent morphisms are only defined in a category with [[pullbacks]].  The other notions can be defined in any category, although of course for an effective epimorphism one must in general assert the existence of the kernel pair.
 
-In general, the two serious distinctions come
+Moreover, if the category has finite [[limits]], then the picture becomes much simpler:
 
-* Between split epimorphisms and regular ones: in very few categories are all regular epimorphisms split.  Splitting of even regular epimorphisms is a form of the axiom of choice, which may be valid  in [[Set]] (if you believe it) but very often fails [[internalization|internally]].
+* If a strict epimorphism has a kernel pair, then it is effective and hence also regular.  Thus, in a category with pullbacks, effective = regular = strict.  Probably for this reason, there is substantial variation among authors in their use of these words; some use "effective epi" or "regular epi" to mean what we have called a "strict epi".
 
-* Between extremal epimorphisms and "plain" epimorphisms: in many categories, the plain epimorphisms are oddly behaved, but the extremal ones are what we would expect.  For instance, the inclusion $\mathbb{Z}\hookrightarrow\mathbb{Q}$ is an epimorphism of [[ring]]s, but the extremal epimorphisms of rings are just the surjective ring homomorphisms.
+* Likewise, in a category with pullbacks, every extremal epimorphism is strong, since monomorphisms are always pullback-stable.
 
-The remaining distinctions frequently collapse.  For instance:
+* Moreover, in a category with [[equalizers]], strong and extremal epimorphisms do not need to explicitly be asserted to be epic; that follows from the other condition in their definition.
 
-* In a category with [[pullback]]s, any strict epimorphism is regular, and any extremal epimorphism is strong.
+Also worth noting are:
 
-* In a [[regular category]], every extremal epimorphism is regular, so the sequence reduces to three: split, regular = strict = strong = extremal, plain.  In [[algebraic category|algebraic categories]] (categories of algebra for a [[Lawvere theory]]), which are regular, the regular/strict/strong/extremal epimorphisms are the morphisms whose underlying function is surjective.
+* In a [[regular category]], every extremal epimorphism is a descent morphism (i.e. a pullback-stable regular epimorphism).  Thus in this case there remain only four types of epimorphism: split, effective descent, regular, and plain.
 
-* In a [[pretopos]] (hence also in a [[topos]]), every epimorphism is regular, so the only distinction remaining is split versus non-split.
+* In an [[exact category]], or a category that has pullback-stable [[reflexive coequalizers]] (which implies that it is regular), any regular epimorphism is effective descent.  Thus in this case we have only three types: split, regular, and plain.
 
-Moreover, even in non-regular categories, there seems to be a strong tendency for strong/extremal epimorphisms to coincide with regular/strict ones.  For example, this is the case in [[Top]].  However, the distinction is real; for instance, in the category generated by the following graph:
+* In a [[pretopos]] (hence also in a [[topos]]), every epimorphism is regular, leaving only two types: split and plain.  The collapsing of these two types into one is called the [[axiom of choice]] for that category.
+
+Thus, in general, the two serious distinctions come
+
+* Between split epimorphisms and regular ones: in very few categories are all regular epimorphisms split.  Splitting of even regular epimorphisms is a form of the axiom of choice, which may be valid in [[Set]] (if you believe it) but very often fails [[internalization|internally]].
+
+* Between extremal epimorphisms and "plain" epimorphisms: in many categories, the plain epimorphisms are oddly behaved, but the extremal ones are what we would expect.  For instance, the inclusion $\mathbb{Z}\hookrightarrow\mathbb{Q}$ is an epimorphism of [[ring]]s, but the extremal epimorphisms of rings are just the surjective ring homomorphisms.  More generally, in all [[algebraic category|algebraic categories]] (categories of algebra for a [[Lawvere theory]]), which are regular, the regular epimorphisms are the morphisms whose underlying function is surjective.
+
+Moreover, even in non-regular categories, there seems to be a strong tendency for strong/extremal epimorphisms to coincide with regular/strict ones.  For example, this is the case in [[Top]], where both are the class of quotient maps.  (The plain epimorphisms are the surjective continuous functions.)
+
+However, the distinction is real.  For instance, in the category generated by the following graph:
 $$
 \array{ &&&& C\\
   &&& ^f\nearrow\\
@@ -196,5 +210,3 @@ subject to the equations $f h = f k$ and $g h = g k$, both $f$ and $g$ are stron
 [[!redirects epimorphisms]]
 [[!redirects epic]]
 [[!redirects epics]]
-
-[[!redirects surjective map]]
