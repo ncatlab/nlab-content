@@ -23,13 +23,16 @@ A [[category]] is __normal__ if every monomorphism is normal; it is __conormal__
 
 The [[inclusion function]] of a [[subgroup]] into a [[group]] is normal if and only if the subgroup is [[normal subgroup|normal]]; this is the origin of the terminology for normal monomorphisms.
 
-Every normal monomorphism or epimorphism is clearly regular; the converse holds in any [[Ab-enriched category]].
+Every normal monomorphism or epimorphism is clearly regular; the converse holds in any [[Ab-enriched category]] (the equalizer of $f$ and $g$ is the kernel of $f-g$).
 
 Every [[abelian category]] must be binormal; this is one of the axioms in a common definition of abelian category.
 
-
+[[!redirects normal monomorphisms]]
 [[!redirects normal epimorphism]]
+[[!redirects normal epimorphisms]]
 [[!redirects normal category]]
 [[!redirects conormal category]]
 [[!redirects binormal category]]
-[[!redirects normal monomorphisms]]
+[[!redirects normal categories]]
+[[!redirects conormal categories]]
+[[!redirects binormal categories]]
