@@ -69,6 +69,8 @@ For $\mathcal{V}$ a [[monoidal bicategory]], a  $\mathcal{V}$-enriched (bi)categ
 
 * When $\mathcal{V}$ is the cartesian monoidal 2-category of bicategories, pseudo [[2-functors]], and [[icons]], then a $\mathcal{V}$-enriched bicategory is an [[iconic tricategory]].
 
+* When $\mathcal{V}$ is the cartesian monoidal 2-category of [[fully faithful functors]], then a $\mathcal{V}$-enriched bicategory is a weak [[F-category]].
+
 ## References
 
 The definition first appeared in 
@@ -87,8 +89,11 @@ The definition is reviewed in
 
 * [[Alex Hoffnung]], _Notes on enrichment_ ([pdf](http://mysite.science.uottawa.ca/hoffnung/notes_files/enrichment_notes.pdf))
 
+[[!redirects enriched bicategories]]
 [[!redirects enriched 2-category]]
 [[!redirects pseudo enriched category]]
+[[!redirects enriched 2-categories]]
+[[!redirects pseudo enriched categories]]
 [[!redirects category enriched over a monoidal bicategory]]
 [[!redirects category enriched over a monoidal 2-category]]
 [[!redirects category enriched in a monoidal bicategory]]
