@@ -6,21 +6,18 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
 =--
 =--
-
-* [[sheaf]]
-
-* **2-sheaf** / [[stack]]
-
-* [[(∞,1)-sheaf]] / [[∞-stack]] 
+=--
 
 
-***
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -103,6 +100,33 @@ If $C$ lacks finite limits, then in the definitions of "2-separated" and "2-shea
 A 2-site is said to be **subcanonical** if for any $U\in C$, the representable functor $C(-,U)$ is a 2-sheaf.  When $C$ has finite limits, it is easy to verify that this is true precisely when every covering family is a (necessarily pullback-stable) quotient of its kernel [[2-polycongruence]].  In particular, the regular coverage on a regular 2-category is subcanonical, as is the coherent coverage on a coherent 2-category.
 
 The 2-category $2Sh(C)$ of 2-sheaves on a small 2-site $C$ is, by definition, a [[Grothendieck 2-topos]].
+
+
+## Related concepts
+
+* [[presheaf]] /  [[sheaf]] / [[cosheaf]]
+
+* **2-sheaf** / [[stack]]
+
+* [[(∞,1)-sheaf]] / [[∞-stack]] 
+
+* [[descent]]
+
+  * [[cover]]
+
+  * [[cohomological descent]]
+
+  * [[descent morphism]]
+
+  * [[monadic descent]], 
+
+    * [[Sweedler coring]]
+
+    * [[higher monadic descent]]
+
+    * [[descent in noncommutative algebraic geometry]]
+
+
 
 
 ## References
