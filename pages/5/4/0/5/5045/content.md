@@ -43,7 +43,7 @@
 
   * [[higher dimensional Chern-Simons theory]]
 
-* **For [[symplectic Lie n-algebroid]] targets**
+* **for [[symplectic Lie n-algebroid]] targets**
 
   * [[AKSZ theory]]
 
@@ -56,6 +56,10 @@
       * [[Chern-Simons theory]]
 
     * [[topological Yang-Mills theory]]
+
+* for the $L_\infty$-structure on the [[BRST complex]] of the closed [[string]]:
+
+  * [[string field theory]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-Chern-Simons+theory+-+contents)</div>
