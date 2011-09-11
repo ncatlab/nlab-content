@@ -43,7 +43,7 @@ The concept of 2-category generalizes further in [[higher category theory]] to [
 
 ## Definitions
 
-### Strict 2-catgeories
+### Strict 2-categories
 
 The easiest definition of 2-category is that it is a category [[enriched category|enriched]] over the [[cartesian monoidal category]] [[Cat]].  Thus it has a collection of objects, and for each pair of objects a category $hom(x,y)$.  The objects of these hom-categories are the morphisms, and the morphisms of these hom-categories are the 2-morphisms.  This produces the classical notion of [[strict 2-category]].
 
