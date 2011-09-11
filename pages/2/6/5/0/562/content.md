@@ -71,13 +71,13 @@ In fact, this is an instance of the general theory of representability for [[gen
 
 ## Properties
 
-* It is easy to verify that fibrations are closed under pullback in [[Cat]], and that the composite of fibrations is a fibration.  This latter property is notably difficult to even express in the language of pseudofunctors.
+* It is easy to verify that fibrations are closed under   [[pullback]] in [[Cat]], and that the composite of fibrations is a fibration.  This latter property is notably difficult to even express in the language of pseudofunctors.
 
 * Every fibration (or opfibration) is a [[Conduché functor]], and therefore an [[exponentiable morphism]] in [[Cat]].
 
 * Every fibration or opfibration is an [[isofibration]].  In particular, [[strict 2-limit|strict 2-pullbacks]] of fibrations are also [[2-pullbacks]].
 
-* If $p\colon A\to B$ is a fibration, then [[limits]] in $A$ can be constructed out of limits in $B$ and in the fiber categories.  Specifically, given a diagram $f\colon I\to A$, let $L$ be the limit of $p f\colon I\to B$, with projections $\phi_i\colon L \to p(f(i))$.  Then for each $i\in I$, let $g(i) = \phi_i^*(f(i)) \in p^{-1}(L)$; these objects form a diagram $g\colon I\to p^{-1}(L)$ whose limit is the limit of $f$.  Dually, if $p\colon A\to B$ is an opfibration, then [[colimits]] in $A$ can be constructed out of those in $B$ and in the fiber categories.
+* If $p\colon A\to B$ is a fibration, then [[limits]] in $A$ can be constructed out of limits in $B$ and in the fiber categories.  Specifically, given a [[diagram]] $f\colon I\to A$, let $L$ be the limit of $p f\colon I\to B$, with projections $\phi_i\colon L \to p(f(i))$.  Then for each $i\in I$, let $g(i) = \phi_i^*(f(i)) \in p^{-1}(L)$; these objects form a diagram $g\colon I\to p^{-1}(L)$ whose limit is the limit of $f$.  Dually, if $p\colon A\to B$ is an opfibration, then [[colimits]] in $A$ can be constructed out of those in $B$ and in the fiber categories.
 
 * If $p\colon A\to B$ is a fibration and $B$ admits an [[orthogonal factorization system]] $(E,M)$, then there is a factorization system $(E',M')$ on $A$, where $M'$ is the class of cartesian arrows whose image in $B$ lies in $M$, and $E'$ is the class of all arrows whose image in $B$ lies in $E$.  A dual construction is possible if $p$ is an opfibration.  If it is a bifibration (or more generally, an [[ambifibration]] over $(E,M)$), then these together form a [[ternary factorization system]].
 
