@@ -21,7 +21,7 @@
 ###### Definition
 
 
-A  **separated** [[(∞,1)-presheaf]] over an [[(∞,1)-site]] $C$ is a [[(∞,1)-presheaf]] $X : C^{op} \to $ [[∞Grpd]] such that [[covering]] families $\{U_i \to U\}$ in $C$ the [[descent]] morphism
+A  **separated** [[(∞,1)-presheaf]] over an [[(∞,1)-site]] $C$ is a [[(∞,1)-presheaf]] $X : C^{op} \to $ [[∞Grpd]] such that [[covering]] families $\{U_i \to U\}$ in $C$ the [[descent]] comparison morphism
 
 $$
   X(U) \to PSh_{(\infty,1)}(S(\{U_i\}), X)
