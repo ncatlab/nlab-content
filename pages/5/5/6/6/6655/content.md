@@ -101,7 +101,7 @@ Under the [[Curry-Howard isomorphism|Curry–Howard isomorphism]], we may identi
 
 We write $\Gamma \vdash A : \mathrm{true}$ for the judgement that $A$ is [[inhabited set|inhabited]]: that is, if $\Gamma \vdash a : A$, then $\Gamma \vdash A : \mathrm{true}$. The type-formation rules above are then seen to be the rules of inference for (a fragment of) [[intuitionistic logic|intuitionistic]] [[first-order logic]]. Indeed, we have:
 
-* [[conjunction|Conjunction]] introduction:
+* [[logical conjunction|Conjunction]] introduction:
 $$\frac{\Gamma \vdash A : \mathrm{true} ; \Delta \vdash B : \mathrm{true}}{\Gamma, \Delta \vdash A \times B : \mathrm{true}}$$
 * Conjunction elimination:
 $$\begin{aligned}
