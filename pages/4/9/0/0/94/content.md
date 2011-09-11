@@ -40,7 +40,7 @@ In the following we spell out in detail what this means in components.
 
 Originally $L_\infty$-algebras were defined as follows:
 
-an $L_\infty$-algebra is an $\mathbb{N}_+$-[[graded vector space]] $\mathfrak{g} = V$ together with for each $n \in \mathbb{N}_+$ a list of skew linear maps
+an $L_\infty$-algebra is an $\mathbb{N}_+$-[[graded vector space]] $\mathfrak{g} = V$ together with for each $n \in \mathbb{N}_+$ a list of graded-symmetric linear maps
 
 $$
   l_n(\cdots) := [-,-, \cdots, -] : V^{\wedge n} \to V
