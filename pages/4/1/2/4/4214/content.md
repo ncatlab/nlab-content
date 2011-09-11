@@ -37,7 +37,7 @@ Given such a companion pair, we say that $f$ and $f'$ are **companions** of each
 
 * Companion pairs (and conjunctions) have a [[mate]] correspondence generalizing the calculus of mates in 2-categories.
 
-* If every vertical arrow in some double category $D$ has a companion, then the functor $f\mapsto f'$ is a [[pseudofunctor]] $V D\to H D$ from the vertical 2-category to the horizontal one, which is the identity on objects, and locally fully faithful by the mate correspondence.  A choice of companions that make this a strict 2-functor is called a [[connection on a double category|connection]] on $D$.  On the other hand, if every vertical arrow also has a conjoint, then this makes $D$ into a [[proarrow equipment]], or equivalently a [[framed bicategory]].
+* If every vertical arrow in some double category $D$ has a companion, then the functor $f\mapsto f'$ is a [[pseudofunctor]] $V D\to H D$ from the vertical 2-category to the horizontal one, which is the identity on objects, and [[locally fully faithful 2-functor|locally fully faithful]] by the mate correspondence.  A choice of companions that make this a strict 2-functor is called a [[connection on a double category|connection]] on $D$ (an arbitrary choice of companions may be called a "pseudo-connection").  A double category with a connection is thereby equivalent to an [[F-category]].  If every vertical arrow also has a [[conjoint]], then this makes $D$ into a [[proarrow equipment]], or equivalently a [[framed bicategory]].
 
 * Companion pairs and mate-pairs of 2-cells between them in any double category $D$ form a 2-category $Comp(D)$.  The functor $Comp\colon DblCat \to 2Cat$ is right adjoint to the functor $Sq\colon 2Cat \to DblCat$ sending a 2-category to its double category of squares.
 
