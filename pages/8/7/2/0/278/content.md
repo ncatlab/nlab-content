@@ -26,7 +26,7 @@ __Differential geometry__ is a mathematical discipline studying geometry of spac
 
 See also [[generalized smooth space]].
 
-_Differential geometry is the [[geometry]] modeled on [[Cartesian space]]s and [[smooth functions]] between them.
+Finite-dimensional _differential geometry is the [[geometry]] modeled on [[Cartesian space]]s and [[smooth functions]] between them.
 
 Formally, it is the [[higher geometry|geometry]] modeled on 
 the [[pregeometry (for structured (infinity,1)-toposes)|pre-geometry]] $\mathcal{G} = $[[CartSp]].
@@ -53,7 +53,7 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 * [[Lie theory]]
 
-* some modern subfields of differential geometry: [[symplectic geometry]], [[contact geometry]], [[Riemannian geometry]], Finsler, pseudoriemannian
+* some modern subfields of differential geometry: [[symplectic geometry]], [[contact geometry]], [[Riemannian geometry]], Finsler, pseudoriemannian, [[symmetric space]]s, [[Fréchet manifold]]s
 
  local model                |   global geometry
 ----------------------------|-----------------
@@ -67,13 +67,15 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 A comprehensive standard textbook is
 
-* Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of Differential Geometry_ , Wiley Classics Library
+* Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of differential geometry_ , Wiley Classics Library
 * Michael Spivak, _A comprehensive introduction to differential geometry_ (5 Volumes) 
-* [[M M Postnikov]], _Lectures on geometry_ (5 vols. 3,4,5 are largely on differential geometry)
+* [[M M Postnikov]], _Lectures on geometry_ (6 vols.: 1 "Analytic geometry", 2 "Linear algebra", 3 "Diff. manifolds"; 4 "Diff. geometry" (covers extensively fibre bundles and connections); 5 "Lie groups"; 6 "Riemannian geometry")
 * R. Sharpe, _Differential geometry -- Cartan's generalization of Klein's Erlagen program_, Springer (1997)
-* [[Shlomo Sternberg]], _Differential geometry_
+* [[Shlomo Sternberg]], _Lectures on differential geometry_
+* Kriegl, P. Michor, _A convenient setting of global analysis_
 
 Online: 
 
 * Sigmundur Gudmundsson, _An Introduction to Riemannian Geometry_ ([pdf](http://www.maths.lth.se/matematiklu/personal/sigma/Riemann.pdf))
 * wikipedia: [differential geometry](http://en.wikipedia.org/wiki/Differential_geometry)
+d
