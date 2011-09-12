@@ -28,6 +28,13 @@ Let $\mathbf{H}$ be an [[(∞,1)-topos]]. For all $(-2) \leq n \leq \infty$ the 
 
 This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A construction of the factorization in terms of a [[model category]] [[presentable (∞,1)-category|presentation]] is in ([Rezk, prop. 8.5](#Rezk)). 
 
++-- {: .num_remark}
+###### Remark
+
+For $n = -1$ this says that [[effective epimorphisms in an (∞,1)-category]] have the left lifting property against [[monomorphisms in an (∞,1)-category]]. Therefore one may say that the effective epimorphisms in an $(\infty,1)$-topos are the [[strong epimorphisms]].
+
+=--
+
 ## References
 
 The general abstract statement is in 
