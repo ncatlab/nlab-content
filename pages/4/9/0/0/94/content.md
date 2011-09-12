@@ -48,16 +48,20 @@ $$
 
 of degree -1, that satisfy a generalized [[Jacobi identity]] of the form
 
-$$
-  \sum_{i+j = n+1} \sum_{\sigma \in Shuff(i,j)}
-  \pm l_i (l_j (v_{\sigma(1)}, \cdots, v_{\sigma(j)})
+\[
+ \label{LInfinityJacobiIdentity}
+  \sum_{i+j = n+1} \sum_{\sigma \in UnShuff(i,j)}
+  (-1)^{sgn(\sigma)} 
+   l_i (l_j (v_{\sigma(1)}, \cdots, v_{\sigma(j)})
    , v_{\sigma(j+1)} , \cdots , v_{\sigma(n)}
   ) )
   = 0
   \,,
-$$
+\]
 
-for all elements $(v_i) \in V^{\otimes n}$, where the inner sum runs over all $(i,j)$-[[unshuffle]]s $\sigma$.
+for all elements $(v_i) \in V^{\otimes n}$, where the inner sum runs over all $(i,j)$-[[unshuffle]]s $\sigma$ and where $sgn(\sigma)$ is the [[signature]] of the [[permutation]] $\sigma$.
+
+In this form this appears for instance as ([CattaneoSchaetz, (1)](#CattaneoSchaetz)). Notice that there are different conventions on the gradings possible, which lead to similar formulas with different sign factors.
 
 Notably for $n = 4$ this says that the binary bracket $l_2 = [-,-]$, the trinary bracket $l_3 = [-,-,-]$ and the unary "bracket" $l_1$ are related by
 
@@ -202,7 +206,11 @@ This means that we may just as well _define_ a (degreewise finite dimensional) $
 And this turns out to be one of the most useful perspectives on $L_\infty$-algebras.
 
 In particular, if we simply drop the condition that the dg-algebra be generated in positive degree and allow it to be generated in non-negative degree over the algebra in degree 0, then we have the notion of the (Chevalley-Eilenberg algebra of) an [[L-infinity-algebroid]]. 
-We provide some more details.
+
+#### Details
+  {#DGAlgebraDetails}
+
+We discuss in explit detail the computation that shows that an $L_\infty$-algebra structure on $\mathfrak{g}$ is equivalently a [[dg-algebra]]-structure on $\wedge^\bullet \mathfrak{g}^*$.
 
 Let $\mathfrak{g}$ be a degreewise finite-dimensional $\mathbb{N}_+$[[graded vector space]] equipped with multilinear graded-symmetric maps
 
@@ -240,24 +248,24 @@ $$
   \begin{aligned}
     d d t^a 
       &= 
-    d\sum_{k = 1}^\infty 
-    \frac{-1}{k!}
-   [t_{a_1}, \cdots, t_{a_k}]^a_k
+    d (-1)\sum_{k = 1}^\infty 
+    [t_{a_1}, \cdots, t_{a_k}]^a_k
    \,
    t^{a_1} \wedge \cdots \wedge t^{a_k}
     \\
     & = 
     \sum_{k,l = 1}^\infty
-    \frac{(-1)^{k-1}}{(k-1)! l!}
-    [t_{a_1}, \cdots, t_{a_{k-1}}, [t_{b_1}, \cdots, t_{b_l}]_l]_k
-    t^{a_1} \wedge \cdots \wedge t^{a_{k-1}}
-   \wedge 
-    t^{b_1} \wedge \cdots \wedge t^{b_l}    
+    \frac{1}{(k-1)! l!}
+    [[t_{b_1}, \cdots, t_{b_l}], t_{a_2}, \cdots, t_{a_k}]^a
+    \,
+    t^{b_1} \wedge \cdots \wedge t^{b_l}  
+    \wedge  
+    t^{a_2} \wedge \cdots \wedge t^{a_{k}}
   \end{aligned}
   \,.
 $$
 
-Here the wedge product on the right projects the nested bracket onto its graded-symmetric components. This is produced by summing over all [[permutation]]s $\sigma \in \Sigma_{k+l-1}$ wighted by the [[signature]] of the permutation:
+Here the wedge product on the right projects the nested bracket onto its graded-symmetric components. This is produced by summing over all [[permutation]]s $\sigma \in \Sigma_{k+l-1}$ weighted by the [[signature]] of the permutation:
 
 $$
   \cdots = 
@@ -265,24 +273,26 @@ $$
     \frac{1}{(k+l-1)!}
     \sum_{\sigma \in \Sigma_{k+l-1}}
     (-1)^{sgn(\sigma)}
-    \frac{(-1)^{k-1}}{(k-1)! l!}
-    [t_{a_{\sigma(1)}}, \cdots, t_{a_{\sigma(k-1)}}, [t_{a_{\sigma(k)}}, \cdots, t_{a_{\sigma(k+l-1)}}]_l]^a_k
+    \frac{1}{(k-1)! l!}
+    [[t_{b_1}, \cdots, t_{b_l}], t_{a_2}, \cdots, t_{a_k}]^a
     \,
-    t^{a_1} \wedge \cdots \wedge t^{a_{k+l-1}}
+    t^{b_1} \wedge \cdots \wedge t^{b_l}  
+    \wedge  
+    t^{a_2} \wedge \cdots \wedge t^{a_{k}}
   \,.
 $$
 
-The sum over all permutations decomposes into a sum over the $(k-1,l)$-[[unshuffle]]s and a sum over permutations that act inside the first $(k-1)$ and the last $l$ indices.
-By the graded-symmetry of the bracket, the latter  don't change the value of the nested bracket. Since there are $(k-1)! l!$ many of them, we get
+The sum over all permutations decomposes into a sum over the $(l,k-1)$-[[unshuffle]]s and a sum over permutations that act inside the first $l$ and the last $(k-1)$ indices.
+By the graded-symmetry of the bracket, the latter  do not change the value of the nested bracket. Since there are $(k-1)! l!$ many of them, we get
 
 $$
   \cdots 
     =
     \sum_{k,l = 1}^\infty
     \frac{1}{(k+l-1)!}
-    \sum_{\sigma \in Unsh(k-1,l)}
-    (-1)^{sgn(\sigma)+ (k-1)}
-    [t_{a_{\sigma(1)}}, \cdots, t_{a_{\sigma(k-1)}}, [t_{a_{\sigma(k)}}, \cdots, t_{a_{\sigma(k+l-1)}}]_l]^a_k
+    \sum_{\sigma \in Unsh(l,k-1)}
+    (-1)^{sgn(\sigma)}
+    [[t_{a_1}, \cdots, t_{a_l}], t_{a_{l+1}}, \cdots, t_{a_{k+l-1}}]
     \,
     t^{a_1} \wedge \cdots \wedge t^{a_{k+l-1}}
   \,.
@@ -291,16 +301,14 @@ $$
 Therefore the condition $d^2 = 0$ is equivalent to the condition 
 
 $$
-    \sum_{k,l = 1}^\infty
-    \frac{1}{(k+l-1)!}
-    \sum_{\sigma \in Unsh(k-1,l)}
-    (-1)^{sgn(\sigma)+ (k-1)}
-    [t_{a_{\sigma(1)}}, \cdots, t_{a_{\sigma(k-1)}},   
-[t_{a_{\sigma(k)}}, \cdots, t_{a_{\sigma(k+l-1)}}]_l]^a_k
+    \sum_{k+l = n+1}
+    \sum_{\sigma \in Unsh(l,k-1)}
+    (-1)^{sgn(\sigma)}
+    [[t_{a_1}, \cdots, t_{a_l}], t_{a_{l+1}}, \cdots, t_{a_{k+l-1}}]
   = 0
 $$
 
-for all $\{t_{a_i} \in \mathfrak{g}\}$.
+for all $n \in \mathbb{N}$ and all $\{t_{a_i} \in \mathfrak{g}\}$. This is equation (eq:LInfinityJacobiIdentity) which says that $\{\mathfrak{g}, \{[-,\dots,-]_k\}\}$ is an $L_\infty$-algebra.
 
 
 ### In terms of algebras over an operad
@@ -441,7 +449,7 @@ A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance i
 See also for instance section 3.1 of:
 
 * [[Alberto Cattaneo]], [[Florian Schätz]], _Equivalences of higher derived brackets_ ([arXiv](http://arxiv.org/abs/0704.1403))
-
+ {#CattaneoSchaetz}
 A detailed reference for Lie 2-algebras is:
 
 * [[John Baez]] and Alissa Crans, _Higher-dimensional algebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv](http://arxiv.org/abs/math/0307263))
