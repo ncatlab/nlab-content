@@ -201,7 +201,107 @@ This means that we may just as well _define_ a (degreewise finite dimensional) $
 
 And this turns out to be one of the most useful perspectives on $L_\infty$-algebras.
 
-In particular, if we simply drop the condition that the dg-algebra be generated in positive degree and allow it to be generated in non-negative degree, we have the notion of the (Chevalley-Eilenberg algebra of) an [[L-infinity-algebroid]]. 
+In particular, if we simply drop the condition that the dg-algebra be generated in positive degree and allow it to be generated in non-negative degree over the algebra in degree 0, then we have the notion of the (Chevalley-Eilenberg algebra of) an [[L-infinity-algebroid]]. 
+We provide some more details.
+
+Let $\mathfrak{g}$ be a degreewise finite-dimensional $\mathbb{N}_+$[[graded vector space]] equipped with multilinear graded-symmetric maps
+
+$$
+  [-,\cdots,-]_k : Sym^k \mathfrak{g} \to \mathfrak{g}
+$$
+
+of degree -1, for each $k \in \mathbb{N}_+$. 
+
+Let $\{t_a\}$ be a [[basis]] of $\mathfrak{g}$ and $\{t^a\}$ a dual basis of the degreewise dual $\mathfrak{g}^*$. Equip the [[Grassmann algebra]] $Sym^\bullet \mathfrak{g}^*$ with a [[derivation]]
+
+$$
+  d : Sym^\bullet \mathfrak{g}^* \to Sym^\bullet \mathfrak{g}^*
+$$
+
+defined on generators by
+
+$$
+  d : t^a 
+    \mapsto 
+    -
+   \sum_{k = 1}^\infty 
+    \frac{1}{k!}
+   [t_{a_1}, \cdots, t_{a_k}]^a_k
+   \,
+   t^{a_1} \wedge \cdots \wedge t^{a_k}
+  \,.
+$$
+
+Here we take $t^a$ to be of the same degree as $t_a$. Therefore this derivation has degree +1.
+
+We compute the square $d^2 = d \circ d$:
+
+$$
+  \begin{aligned}
+    d d t^a 
+      &= 
+    d\sum_{k = 1}^\infty 
+    \frac{-1}{k!}
+   [t_{a_1}, \cdots, t_{a_k}]^a_k
+   \,
+   t^{a_1} \wedge \cdots \wedge t^{a_k}
+    \\
+    & = 
+    \sum_{k,l = 1}^\infty
+    \frac{(-1)^{k-1}}{(k-1)! l!}
+    [t_{a_1}, \cdots, t_{a_{k-1}}, [t_{b_1}, \cdots, t_{b_l}]_l]_k
+    t^{a_1} \wedge \cdots \wedge t^{a_{k-1}}
+   \wedge 
+    t^{b_1} \wedge \cdots \wedge t^{b_l}    
+  \end{aligned}
+  \,.
+$$
+
+Here the wedge product on the right projects the nested bracket onto its graded-symmetric components. This is produced by summing over all [[permutation]]s $\sigma \in \Sigma_{k+l-1}$ wighted by the [[signature]] of the permutation:
+
+$$
+  \cdots = 
+    \sum_{k,l = 1}^\infty
+    \frac{1}{(k+l-1)!}
+    \sum_{\sigma \in \Sigma_{k+l-1}}
+    (-1)^{sgn(\sigma)}
+    \frac{(-1)^{k-1}}{(k-1)! l!}
+    [t_{a_{\sigma(1)}}, \cdots, t_{a_{\sigma(k-1)}}, [t_{a_{\sigma(k)}}, \cdots, t_{a_{\sigma(k+l-1)}}]_l]^a_k
+    \,
+    t^{a_1} \wedge \cdots \wedge t^{a_{k+l-1}}
+  \,.
+$$
+
+The sum over all permutations decomposes into a sum over the $(k-1,l)$-[[unshuffle]]s and a sum over permutations that act inside the first $(k-1)$ and the last $l$ indices.
+By the graded-symmetry of the bracket, the latter  don't change the value of the nested bracket. Since there are $(k-1)! l!$ many of them, we get
+
+$$
+  \cdots 
+    =
+    \sum_{k,l = 1}^\infty
+    \frac{1}{(k+l-1)!}
+    \sum_{\sigma \in Unsh(k-1,l)}
+    (-1)^{sgn(\sigma)+ (k-1)}
+    [t_{a_{\sigma(1)}}, \cdots, t_{a_{\sigma(k-1)}}, [t_{a_{\sigma(k)}}, \cdots, t_{a_{\sigma(k+l-1)}}]_l]^a_k
+    \,
+    t^{a_1} \wedge \cdots \wedge t^{a_{k+l-1}}
+  \,.
+$$
+
+Therefore the condition $d^2 = 0$ is equivalent to the condition 
+
+$$
+    \sum_{k,l = 1}^\infty
+    \frac{1}{(k+l-1)!}
+    \sum_{\sigma \in Unsh(k-1,l)}
+    (-1)^{sgn(\sigma)+ (k-1)}
+    [t_{a_{\sigma(1)}}, \cdots, t_{a_{\sigma(k-1)}},   
+[t_{a_{\sigma(k)}}, \cdots, t_{a_{\sigma(k+l-1)}}]_l]^a_k
+  = 0
+$$
+
+for all $\{t_{a_i} \in \mathfrak{g}\}$.
+
 
 ### In terms of algebras over an operad
 
