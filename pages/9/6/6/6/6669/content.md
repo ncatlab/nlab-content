@@ -1,6 +1,7 @@
+[[!redirects Alexander Alexandrov]]
+[[!redirects A. D. Aleksandrov]]
+[[!redirects Aleksandr Danilovich Aleksandrov]]
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Aleksandr_Danilovich_Aleksandrov)
 
 category: people
-
-[[!redirects Alexandr Alexandrov]]
