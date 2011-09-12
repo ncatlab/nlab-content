@@ -141,7 +141,7 @@ $$
      &\stackrel{\exp(\mathbf{\omega})}{\to}&
     \exp(b \mathbb{R})_{dR}
     &\stackrel{\int_{\Delta^\bullet}}{\to}&
-    \mathbf{\flat}_{dR}\mathbf{B}^2 \mathbb{R} 
+    \mathbf{\flat}_{dR}\mathbf{B}^3 \mathbb{R} 
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
@@ -217,6 +217,10 @@ This completes the proof.
 ## Related concepts
 
 * [[higher symplectic geometry]]
+
+  * [[symplectic Lie n-algebroid]] 
+
+  * [[symplectic groupoid]]
 
 * [[smooth ∞-groupoid]]
 
