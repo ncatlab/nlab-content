@@ -65,6 +65,8 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 ## References
  {#References}
 
+### Traditional
+
 A comprehensive standard textbook is
 
 * Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of differential geometry_ , Wiley Classics Library
@@ -78,4 +80,11 @@ Online:
 
 * Sigmundur Gudmundsson, _An Introduction to Riemannian Geometry_ ([pdf](http://www.maths.lth.se/matematiklu/personal/sigma/Riemann.pdf))
 * wikipedia: [differential geometry](http://en.wikipedia.org/wiki/Differential_geometry)
-d
+
+### Derived
+
+For differential [[derived geometry]] see
+
+* [[Dominic Joyce]], _D-manifolds and d-orbifolds: a theory of derived differential geometry_ ([web](http://people.maths.ox.ac.uk/joyce/dmanifolds.html))
+
+* [[Urs Schreiber]], _[[schreiber:Seminar on derived differential geometry]]_
