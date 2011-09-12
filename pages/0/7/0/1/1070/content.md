@@ -84,7 +84,7 @@ The derived category is still naturally a [[triangulated category]] itself.
 
 ##References##
 
-A disucssion in a comprehensive [[category theory|category theoretic]] and [[homological algebra]]-context is in [section 13](Categories and Sheaves) of
+A discussion in a comprehensive [[category theory|category theoretic]] and [[homological algebra]]-context is in [section 13] of
 
 * Kashiwara-Schapira, [[Categories and Sheaves]]
 
