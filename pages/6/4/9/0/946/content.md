@@ -1,5 +1,5 @@
 
-> This entry discusses topological spaces that are also called _Alexandroff spaces_ or (maybe more commonly) _Alexandrov spaces_ after [[Paul Alexandrov]]. This is unrelated to the notion of [[Alexandrov space (in differential geometry)]] named after [[Alexander Alexandrov]].
+> This entry discusses topological spaces that are also called _Alexandroff spaces_ or (maybe more commonly) _Alexandrov spaces_ after [[Paul Alexandroff]]. This is unrelated to the notion of [[Alexandrov space (in differential geometry)]] named after [[Alexander Alexandrov]].
 
 ***
 
