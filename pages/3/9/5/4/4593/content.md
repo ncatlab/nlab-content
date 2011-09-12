@@ -1,3 +1,5 @@
+[[!redirects quantifier]]
+
 # Quantifiers
 * table of contents
 {: toc}
@@ -70,7 +72,7 @@ When [[type theory]] is used as a [[foundation of mathematics]], we have a freel
 
 In contrast, quantification over variables from *small* types (for a suitable notion of smallness) is called __bounded quantification__.
 
-In the usual formulations of [[material set theory]], there is only one type (the type of sets), which is not small.  However, we can consider guarded quantification over small subtypes using the trick of guarded quantification.  So the axiom of separation in so-called 'bounded' variations of ZFC allows only statements in which all quantifiers are guarded by a set.
+In the usual formulations of [[material set theory]], there is only one type (the type of sets), which is not small.  However, we can consider quantification over small subtypes using the trick of guarded quantification (above).  So the axiom of separation in so-called 'bounded' variations of ZFC allows only statements in which all quantifiers are guarded by a set.
 
 
 ## Internalised quantifiers
