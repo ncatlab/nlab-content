@@ -1,0 +1,6 @@
+
+* [Wikipedia entry](http://de.wikipedia.org/wiki/Pawel_Sergejewitsch_Alexandrow)
+
+category: people
+
+[[!redirects Paul Alexandroff]]
