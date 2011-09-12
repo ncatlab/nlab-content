@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -26,7 +26,7 @@ The [[Whitehead tower]] construction produces $n$-connected objects.
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An [[object]] $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **$n$-connected** for $n \in \mathbb{N}$ if
@@ -61,7 +61,9 @@ This appears as [[Higher Topos Theory|HTT, def. 6.5.1.10]], but under the name "
 
 ## Properties
 
-+-- {: .un_prop}
+### General
+
++-- {: .num_prop}
 ###### Proposition
 
 An object $X$ is $n$-connected (for $n \geq -2$) precisely if its [[n-truncated object in an (∞,1)-category|n-truncation]] $\tau_{\leq n} X$ is [[generalized the|the]] [[terminal object]] of $\mathbf{H}$.
@@ -70,7 +72,7 @@ An object $X$ is $n$-connected (for $n \geq -2$) precisely if its [[n-truncated 
 This is [[Higher Topos Theory|HTT, prop. 6.5.1.12]].
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 Every [[equivalence in a quasi-category|equivalence]] is $\infty$-connected.
@@ -79,14 +81,14 @@ Every [[equivalence in a quasi-category|equivalence]] is $\infty$-connected.
 
 This is [[Higher Topos Theory|HTT, prop. 6.5.1.16, item 2]].
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 In a general $(\infty,1)$-topos the converse is not true: not every $\infty$-connected morphisms needs to be an equivalence. It is true in a [[hypercomplete (∞,1)-topos]].
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The class of $n$-connected morphisms is stable under [[pullback]] and [[pushout]].
@@ -97,12 +99,16 @@ If the pullback of a morphism along an [[effective epimorphism]] is $n$-connecte
 
 This is [[Higher Topos Theory|HTT, prop. 6.5.1.16, item 6]].
 
-+-- {: .un_prop}
+### Factorization system
+
++-- {: .num_prop}
 ###### Proposition
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]]. For all $(-2) \leq n \leq \infty$ the [[class]] of $n$-connected morphisms in $\mathbf{H}$ forms the left class in a [[orthogonal factorization system in an (∞,1)-category]]. The right class is that of [[n-truncated]] morphisms in $\mathbf{H}$.
 
 =--
+
+See also [[n-connected/n-truncated factorization system]].
 
 This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A construction of the factorization in terms of a [[model category]] [[presentable (∞,1)-category|presentation]] is in ([Rezk, prop. 8.5](#Rezk)).
 
