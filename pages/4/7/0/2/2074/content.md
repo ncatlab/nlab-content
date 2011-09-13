@@ -82,7 +82,7 @@ A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \t
 
   * $S^\flat$ or $S^{min}$ be the minimally marked simplicial set: only the degenerate edges are marked;
 
-  * $S^#$ or $S^{max}$ be the maximally marked simplicial set: every edges is marked.
+  * $S^#$ or $S^{max}$ be the maximally marked simplicial set: every edge is marked.
 
 * for $p : X \to S$ a [[Cartesian fibration]] of [[simplicial set]]s let
 
