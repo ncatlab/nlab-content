@@ -40,7 +40,6 @@ We discuss the general abstract
 
 We discuss the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Homotopy">intrinsic fundamental ∞-groupioid</a> construction realized in $Smooth \infty Grpd$.
 
-#### Geometric realization
 
 +-- {: .un_prop #UnderlyingSimplicialTopologicalSpace}
 ###### Proposition
@@ -194,12 +193,16 @@ Therefore the degreewise  forgetful functor $\mathrm{SmoothMfd} \to \mathrm{TopM
 =--
 
 
-#### Presentations of the path $\infty$-groupoid
+### Paths and geometric Postnikov towers
 
-We make some comments on the presentation of $\mathbf{\Pi}(X)$.
+### Paths and geometric Postnikov towers
+ {#PresentationOfPathGroupoid}
+
+We discuss the notion of _[geometric path  ∞-groupoids](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#Paths)_ realized in $Smooth\infty Grpd$.
 
 
-+-- {: .un_defn }
+
++-- {: .num_defn }
 ###### Definition
 
 For $X \in $ [[SmthMfd]] write
