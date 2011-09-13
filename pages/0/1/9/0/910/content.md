@@ -1,19 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-
-
-#Content#
+# Content
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea 
 
@@ -21,20 +19,22 @@ A [[topological space]] is _compactly generated_ if (in a certain sense) the con
 
 Compactly generated spaces form a [[convenient category of topological spaces]].
 
+
 ## Definitions 
 
-A function $f:X\to Y$ between [[topological space]]s is __$k$-continuous__
-if for all [[compact topological space|compact]] [[Hausdorff space]]s $C$ and continuous functions $t: C \to X$ the composite $f \circ t:C \to Y$ is continuous.
+A [[function]] $f\colon X \to Y$ between [[topological space]]s is __$k$-continuous__
+if for all [[compact Hausdorff space]]s $C$ and [[continuous functions]] $t\colon C \to X$ the composite $f \circ t\colon C \to Y$ is continuous.
  
 The following conditions on a space $X$ are equivalent:
 
-1. For all spaces $Y$ and all functions $f:X \to Y$, $f$ is
+1. For all spaces $Y$ and all functions $f\colon X \to Y$, $f$ is
 continuous if and only if $f$ is $k$-continuous.
-1. There is a set $S$ of compact Hausdorff spaces such that the previous condition holds for all $C \in S$.
-1. $X$ is an [[identification space]] of a [[disjoint union]] of compact Hausdorff spaces.
-1. A subset $U\subseteq X$ is open if and only if $t^{-1}(U)$ is open for any compact Hausdorff space $C$ and continuous $t:C\to X$.
+2. There is a [[set]] $S$ of compact Hausdorff spaces such that the previous condition holds for all $C \in S$.
+3. $X$ is an [[identification space]] of a [[disjoint union]] of compact Hausdorff spaces.
+4. A [[subspace]] $U \subseteq X$ is [[open subspace|open]] if and only if the [[preimage]] $t^{-1}(U)$ is open for any compact Hausdorff space $C$ and continuous $t\colon C \to X$.
 
-A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t:C\to X$ is closed (when $C$ is compact Hausdorff).
+A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t\colon C\to X$ is closed (when $C$ is compact Hausdorff).
+
 
 ## Examples
 
@@ -44,9 +44,10 @@ Examples of compactly generated spaces include
 
 * every [[locally compact space]];
 
-* every [[topological manifold]]
+* every [[topological manifold]];
 
 * every [[CW-complex]].
+
 
 ## Kaonization
 
@@ -77,7 +78,7 @@ With this topology, $\Top_k(X,Y)$ becomes an [[exponential object]] in $Top_k$. 
 $$k\Top(X \times Y, Z) \to kTop(X,k\Top(Y,Z))$$
 is actually an isomorphism in $\Top_k$, which we may call a *$k$-homeomorphism*.  In fact, it is actually a homeomorphism, i.e. an isomorphism already in $Top$.
 
-+--{: .query}
++-- {: .query}
 [[Zoran Škoda]]: I do not understand the remark. I mean if the domain is k-space then by the characterization above continuous is the same as k-continuous. Thus if both domain and codomain are continuous then homeo is the same as k-homeo. I assume that even in noHausdorff case, the test-open topology for $X$ and $Y$ k-spaces gives a k-space and that the cartesian product has the correction for the k-spaces. 
 
 [[Todd Trimble]]: That may be just the point: that the domain is not necessarily a $k$-space. I have to admit that I haven't worked through the details of this exposition, but one thing I tripped over is the fact that we're dealing with _all_ topological spaces $X$, $Y$, not just $k$-spaces. 
@@ -107,12 +108,14 @@ is closed but not open). From this one can get an [[exponential law for
 spaces]] over $B$ if $B$ is $T_0$, so that all fibres of spaces over
 $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman]]: What precisely does "get an exponential law" mean?  Do you mean that $k Top/B$ is cartesian closed if $B$ is $T_0$?
 
-_Toby_:  Hopefully that is explained in the new article.
+_Toby_: Hopefully that is explained in the new article.
 
 _Mike_: Which new article?  [[exponential law for spaces]]?  That page doesn't talk about fibered exponentials at all.
+
+_Toby_: Seeing this later, I no longer know what article I meant.
 =--
 
 
@@ -141,9 +144,10 @@ Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Un
 
 * [[Peter May]], _[[A concise course in algebraic topology]]_, Chapter 5
 
-
 * Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
 
+
+[[!redirects compactly generated space]]
 [[!redirects compactly generated spaces]]
 [[!redirects k-space]]
 [[!redirects k-spaces]]
