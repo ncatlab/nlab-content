@@ -463,18 +463,18 @@ By the discussion at [[geometric realization of simplicial topological spaces]],
 #### Presentation of the path $\infty$-groupoid
  {#PresentationOfPathGroupoid}
 
-In the [above](GeometricRealization) constructions of $\mathbf{\Pi}(X)$ the actual paths are not explicit. We discuss here presentations of $\mathbf{\Pi}(X)$ in terms of actual paths.
+In the [above](#GeometricRealization) constructions of $\mathbf{\Pi}(X)$ the actual paths are not explicit. We discuss here presentations of $\mathbf{\Pi}(X)$ in terms of actual paths.
 
 Notice that by prop. \ref{FundGroupoidOfParacompact} we have
 
 +-- {: .num_prop #DiscretePathGroupoid}
 ###### Proposition
 
-Let $X$ be a a paracompact topological space, regarded as an object of $ETop\infty Grpd$. Then $\mathbf{\Pi}(X)$ is presented by the constant simplicial presheaf
+Let $X$ be a a [[paracompact topological space]], regarded as an object of $ETop\infty Grpd$. Then $\mathbf{\Pi}(X)$ is presented by the constant [[simplicial presheaf]]
 
 $$
   Disc Sing(X) 
-   : 
+   \,:\, 
   (U,[k]) 
     \mapsto 
   Hom_{Top}(\Delta^k, X)
@@ -502,7 +502,7 @@ $$
 =--
 
 +-- {: .num_prop }
-###### Proposition
+###### Observation
 
 Also $\mathbf{Sing} X$ is a presentation of $\mathbf{\Pi}(X)$
 
@@ -511,26 +511,15 @@ Also $\mathbf{Sing} X$ is a presentation of $\mathbf{\Pi}(X)$
 +-- {: .proof}
 ###### Proof
 
-Since the [[Cartesian space]] $U$ is [[Hausdorff space|Hausdorff]] and [[locally compact space|locally compact]], it is [[exponentiable object|exponentiable]] (see [[exponential law for topological spaces]].) Therefore we have an isomorphism
+For each fixed $U \in CartSp$ the inclusion of simplicial sets
 
 $$
-  \mathbf{Sing}(X)(U)
-  :=
-  Hom_{Top}(U \times \Delta^\bullet , X)
-  =
-  Hom_{Top}(\Delta^\bullet, X^U)
-  =:
-  Sing X^U
-  \,.
+  Sing X \to \mathbf{Sing}(X)(U)
 $$
 
-But since $U$ is also [[contractible space|contractible]] the canonical inclusion 
+is a [[weak homotopy equivalence]], since $U \in CartSp$ is [[contractible space|contractible]].
 
-$$
-  Sing X \to Sing X^U
-$$
-
-is a [[homotopy equivalence]]. Hence
+Therefore the inclusion of simplicial presheaves
 
 $$  
   Disc Sing X \to \mathbf{Sing} X
