@@ -319,7 +319,7 @@ In other words, suppose that $\lim_x F(x,y)$ exists for all $y$ and $\lim_y F(x,
 
 ## Examples
 
-### $\infty$-Limits of special shap
+### $\infty$-Limits of special shape
 
 #### Coproduct
 
