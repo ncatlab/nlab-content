@@ -37,7 +37,10 @@ We discuss the general abstract
   {#StrucGeometricHomotopy}
 
 
+
 We discuss the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Homotopy">intrinsic fundamental ∞-groupioid</a> construction realized in $Smooth \infty Grpd$.
+
+#### Geometric realization
 
 +-- {: .un_prop #UnderlyingSimplicialTopologicalSpace}
 ###### Proposition
@@ -190,6 +193,65 @@ Therefore the degreewise  forgetful functor $\mathrm{SmoothMfd} \to \mathrm{TopM
 
 =--
 
+
+#### Presentations of the path $\infty$-groupoid
+
+We make some comments on the presentation of $\mathbf{\Pi}(X)$.
+
+
++-- {: .un_defn }
+###### Definition
+
+For $X \in $ [[SmthMfd]] write
+
+$$
+  \mathbf{Sing} X  \in [CartSp^{op}, sSet]
+$$ 
+
+for the simplicial presheaf that sends a test space $U \in $ [[CartSp]] to the [[singular simplicial complex]] of smooth simplices smoothly parameterized over $U$:
+
+$$
+  \mathbf{Sing} X : (U,k) 
+  \mapsto Hom_{SmthMfd}(U \times \Delta^k, X)
+  \,.
+$$
+
+=--
+
++-- {: .un_prop }
+###### Proposition
+
+The object $\mathbf{Sing} X \in [CartSp^{op}, sSet]$ presents the abstractly defined [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] $\mathbf{\Pi}(X)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One sees that the ordinary [[singular simplicial complex]] of $X$ equipped with discrete smooth structure is a presentation for $\mathbf{\Pi}(X)$. 
+
+There is a canonical inclusion of simplicial presheaves
+
+$$
+  Disc Sing X \to \mathbf{Sing}X
+  \,.
+$$
+
+We claim that this is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
+
+For this we need to exhibit a [[weak homotopy equivalence]]
+
+$$
+  Hom_{Top}(\Delta^\bullet,X)
+  \simeq
+   Hom_{SmthMfd}(U \times \Delta^\bullet, X)
+$$
+
+for each $U \in CartSp$.
+
+By the [[Steenrod-Wockel approximation theorem]] we have that the right is weakly equivalent to $Hom_{Top}(U \times \Delta^\bullet , X) \simeq Hom_{Top}(\Delta^\bullet, X^U) \simeq Sing X^U$. Since $X^U \simeq X$ due to the fact that the Cartesian space $U$ is contractible, the result follows.
+
+=--
 
 ### Concrete objects -- diffeological $\infty$-groupoids
  {#StrucConcreteObjects}
