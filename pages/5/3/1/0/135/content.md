@@ -122,7 +122,7 @@ $$
 
 * [[CartSp]]${}_{top}$ ,  [[TopMfd]]
 
-* [[CartSp]]${}_{top}$, **SmoothMfd**
+* [[CartSp]]${}_{smth}$, **SmoothMfd**
 
 
 
@@ -132,3 +132,4 @@ category: category
 [[!redirects Mfd]]
 
 [[!redirects SmoothMfd]]
+[[!redirects SmthMfd]]
