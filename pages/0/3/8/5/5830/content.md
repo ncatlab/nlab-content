@@ -51,7 +51,9 @@ Homotopy type theory, or $(\infty,1)$-type theory, is a flavor of [[type theory]
 
 * Homotopy type theory, Oberwolfach Reports 11-2011, [pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf)
 
+* [[Vladimir Voevodsky]], [Univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)
 
 [[!redirects homotopy type theory]]
 [[!redirects (∞,1)-type theory]]
 [[!redirects (infinity,1)-type theory]]
+[[!redirects univalent foundations]]
