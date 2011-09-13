@@ -316,149 +316,16 @@ This is [[Higher Topos Theory|HTT, lemma 5.5.2.3]]
 
 In other words, suppose that $\lim_x F(x,y)$ exists for all $y$ and $\lim_y F(x,y)$ exists for all $x$ and also that $\lim_y (\lim_x F(x,y))$ exists, then this object is also $\lim_x \lim_y F(x,y)$.
 
-### Limits in over-$(\infty,1)$-categories {#InOvercategories}
 
-+-- {: .un_prop }
-###### Proposition
+## Examples
 
-For $C$ an $(\infty,1)$-category, $X : D \to C$ a diagram, $C/X$ the [[over-(∞,1)-category]] and $F : K \to C/X$ another diagram, we have that the limit $\lim_{\leftarrow} F$ in $C/X$ coincides with the limit $\lim_{\leftarrow} F/X$ in $C$. 
- 
-=--
+### $\infty$-Limits of special shap
 
-+-- {: .proof}
-###### Proof
-
-Modelling $C$ as a [[quasi-category]] we have that $C/X$ is given by the [[simplicial set]]
-
-$$
-  C/X : [n] \mapsto Hom_X([n] \star D, C) 
-  \,,
-$$
-
-where $\star$ denotes the [[join of simplicial sets]]. The limit $\lim_{\leftarrow} F$ is the initial object in $(C/X)/F$, which is the quasi-category given by the simplicial set
-
-$$
-  (C/X)/F : [n] \mapsto Hom_{F}( [n] \star K, C/X)
-  \,.
-$$
-
-Since the join preserves colimits of simplicial sets in both arguments, we can apply the [[co-Yoneda lemma]] to decompose $[n] \star K = {\lim_{\underset{{[r] \to [n]\star K}}{\to}}}  [r]$, use that the [[hom-functor]] sends colimits in the first argument to limits and obtain
-
-$$
-  \begin{aligned}
-     Hom([n] \star K, C/X) 
-     &\simeq
-     Hom( {\lim_{\to}}_r [r], C/X)
-     \\
-     & \simeq {\lim_{\leftarrow}}_r Hom([r], C/X)
-     \\
-     & \simeq {\lim_{\leftarrow}}_r Hom_F( [r] \star D, C )
-     \\
-     & \simeq  Hom_F({\lim_{\to}}_r ([r] \star D), C )
-     \\
-     & \simeq  Hom_F( ({\lim_{\to}}_r[r]) \star D, C )     
-     \\
-     & \simeq Hom_F(([n] \star K) \star D, C)
-     \\
-     & \simeq Hom_F([n] \star (K \star D), C)
-  \end{aligned}
-  \,.
-$$
-
-Here $Hom_F([r]\star D,C)$ is shorthand for the hom in the (ordinary) [[under category]] $sSet^{D/}$ from the canonical inclusion $D \to [r] \star D$ to $X : D \to C$. Notice that we use the 1-categorical analog of the statement that we are proving here when computing the colimit in this under-category as just the colimit in $sSet$. We also use that the [[join of simplicial sets]], being given by [[Day convolution]] is an associative tensor product.
-
-In conclusion we have an isomorphism of simplicial sets
-
-$$
-  (C/X)/F \simeq C/(X/F)
-$$
-
-and therefore the initial objects of these quasi-categories coincide on both sides. This shows that $\lim_{\leftarrow} F$ is computed as an initial object in $C/(X/F)$.
-
-=--
-
-
-### Limits and colimits with values in $\infty Grpd$ {#WithValInooGrpd}
-
-Limits and colimits over a [[(∞,1)-functor]] with values in the [[(∞,1)-category]] [[∞-Grpd]] of [[∞-groupoids]] may be reformulation in terms of the  [[universal fibration of (infinity,1)-categories]].
-
-Let [[∞-Grpd]] be the [[(∞,1)-category]] of [[∞-groupoid]]s. Let the [[(∞,1)-functor]] $Z|_{Grpd} \to \infty Grpd^{op}$ be the [[universal fibration of (infinity,1)-categories|universal ∞-groupoid fibration]] whose fiber over the object denoting some $\infty$-groupoid is that very $\infty$-groupoid.
-
-Then let $X$ be any [[∞-groupoid]] and
-
-$$
-  F : X \to \infty Grpd
-$$
-
-an [[(∞,1)-functor]]. Recall that the [[Cartesian fibration|coCartesian fibration]] $E_F \to X$ classified by $F$ is the pullback of the [[universal fibration of (∞,1)-categories]] $Z$ along F:
-
-$$
-  \array{
-    E_F &\to& Z|_{Grpd}
-    \\
-    \downarrow && \downarrow
-    \\
-    X &\stackrel{F}{\to}& \infty Grpd
-  }
-$$
-
-+-- {: .un_prop }
-###### Proposition
-
-Let the assumptions be as above. Then:
-
-* The colimit of $F$ is equivalent to $E_F$:
-
-  $$
-    E_F \simeq colim F
-  $$
-
-* The limit of $F$ is equivalent to the [[(infinity,1)-category of cartesian section|(∞,1)-groupoid of sections]] of $E_F \to X$
-
-  $$
-    \Gamma_X(E_F) \simeq lim F
-    \,.
-  $$
-
-=-- 
-
-+-- {: .proof}
-###### Proof
-
-The statement for the colimit is corollary 3.3.4.6 in [[Higher Topos Theory|HTT]]. The statement for the limit is corollary 3.3.3.4.
-
-=--
-
-### Limits and colimits with values in $(\infty,1)$Cat
- {#ColimitsInInfinityCat}
-
-+-- {: .num_prop }
-###### Proposition
-
-For $F : D \to $ [[(∞,1)Cat]] an [[(∞,1)-functor]], its $\infty$-colimit is given by forming the [[(∞,1)-Grothendieck construction]] $\int F$ of $F$ and then inverting the [[Cartesian morphism]]s.
-
-Formally this means, with respect to the [[model structure for Cartesian fibrations]] that there is a [[natural isomorphism]]
-
-$$
-  \lim_\to F \simeq (\int F)^\sharp
-$$
-
-in the [[homotopy category]] of the presentation of $(\infty,1)$-category by [[marked simplicial sets]].
-
-=--
-
-This is [[Higher Topos Theory|HTT, corollary 3.3.4.3]].
-
-For the special case that $F$ takes values in ordinary categories see also at [[2-limit]] the section [2-limits in Cat](http://ncatlab.org/nlab/show/2-limit#2ColimitsInCat).
-
-
-## Special cases
-
-### Coproduct
+#### Coproduct
 
 ...
 
-### Pullback / Pushout
+#### Pullback / Pushout
 
 See also [[(∞,1)-pullback]].
 
@@ -526,7 +393,7 @@ $$
 
 is [[generalized the|the]] **pushout** of the diagram $F$.
 
-#### Pasting law of pushouts {#PushoutPasting}
+##### Pasting law of pushouts {#PushoutPasting}
 
 We have the following $(\infty,1)$-categorical analog of the familiar [pasting law of pushouts](http://ncatlab.org/nlab/show/pullback#Pasting) in ordinary [[category theory]]:
 
@@ -565,13 +432,13 @@ A proof appears as [[Higher Topos Theory|HTT, lemma 4.4.2.1]]
 =--
 
 
-### Coequalizer
+#### Coequalizer
 
 ...
 
-### Tensoring and cotensoring with an  $\infty$-groupoid {#Tensoring}
+#### Tensoring and cotensoring with an  $\infty$-groupoid {#Tensoring}
 
-#### Recap of the 1-categorical situation
+##### Recap of the 1-categorical situation
 
 An ordinary [[category]] with [[limit]]s is canonically [[power|cotensored]] over [[Set]]:
 
@@ -625,7 +492,7 @@ $$
 
 Of course all the colimits appearing here are just [[coproduct]]s and all limits just [[product]]s, but for the generalization to $(\infty,1)$-categories this is a misleading simplification, it is really the notion of limit and colimit that matters here.
 
-#### Definition
+##### Definition
 
 We expect for $S, T \in $ [[∞Grpd]] and for $const_T : S \to \infty Grpd$ the constant diagram, that 
 
@@ -717,7 +584,7 @@ $$
 
 See [[Higher Topos Theory|HTT, section 4.4.4]].
 
-#### Models {#ModelsForTensoring}
+##### Models {#ModelsForTensoring}
 
 We discuss models for $(\infty,1)$-(co)limits in terms of ordinary [[category theory]] and [[homotopy theory]].
 
@@ -767,16 +634,149 @@ The claim then follows from the above proposition.
 
 =--
 
+### Limits in over-$(\infty,1)$-categories {#InOvercategories}
 
-## Examples
++-- {: .un_prop }
+###### Proposition
 
-### Limits in functor categories
+For $C$ an $(\infty,1)$-category, $X : D \to C$ a diagram, $C/X$ the [[over-(∞,1)-category]] and $F : K \to C/X$ another diagram, we have that the limit $\lim_{\leftarrow} F$ in $C/X$ coincides with the limit $\lim_{\leftarrow} F/X$ in $C$. 
+ 
+=--
+
++-- {: .proof}
+###### Proof
+
+Modelling $C$ as a [[quasi-category]] we have that $C/X$ is given by the [[simplicial set]]
+
+$$
+  C/X : [n] \mapsto Hom_X([n] \star D, C) 
+  \,,
+$$
+
+where $\star$ denotes the [[join of simplicial sets]]. The limit $\lim_{\leftarrow} F$ is the initial object in $(C/X)/F$, which is the quasi-category given by the simplicial set
+
+$$
+  (C/X)/F : [n] \mapsto Hom_{F}( [n] \star K, C/X)
+  \,.
+$$
+
+Since the join preserves colimits of simplicial sets in both arguments, we can apply the [[co-Yoneda lemma]] to decompose $[n] \star K = {\lim_{\underset{{[r] \to [n]\star K}}{\to}}}  [r]$, use that the [[hom-functor]] sends colimits in the first argument to limits and obtain
+
+$$
+  \begin{aligned}
+     Hom([n] \star K, C/X) 
+     &\simeq
+     Hom( {\lim_{\to}}_r [r], C/X)
+     \\
+     & \simeq {\lim_{\leftarrow}}_r Hom([r], C/X)
+     \\
+     & \simeq {\lim_{\leftarrow}}_r Hom_F( [r] \star D, C )
+     \\
+     & \simeq  Hom_F({\lim_{\to}}_r ([r] \star D), C )
+     \\
+     & \simeq  Hom_F( ({\lim_{\to}}_r[r]) \star D, C )     
+     \\
+     & \simeq Hom_F(([n] \star K) \star D, C)
+     \\
+     & \simeq Hom_F([n] \star (K \star D), C)
+  \end{aligned}
+  \,.
+$$
+
+Here $Hom_F([r]\star D,C)$ is shorthand for the hom in the (ordinary) [[under category]] $sSet^{D/}$ from the canonical inclusion $D \to [r] \star D$ to $X : D \to C$. Notice that we use the 1-categorical analog of the statement that we are proving here when computing the colimit in this under-category as just the colimit in $sSet$. We also use that the [[join of simplicial sets]], being given by [[Day convolution]] is an associative tensor product.
+
+In conclusion we have an isomorphism of simplicial sets
+
+$$
+  (C/X)/F \simeq C/(X/F)
+$$
+
+and therefore the initial objects of these quasi-categories coincide on both sides. This shows that $\lim_{\leftarrow} F$ is computed as an initial object in $C/(X/F)$.
+
+=--
+
+
+### Limits and colimits with values in $\infty Grpd$ {#WithValInooGrpd}
+
+Limits and colimits over a [[(∞,1)-functor]] with values in the [[(∞,1)-category]] [[∞-Grpd]] of [[∞-groupoids]] may be reformulation in terms of the  [[universal fibration of (∞,1)-categories]], hence in terms of the [[(∞,1)-Grothendieck construction]].
+
+Let [[∞Grpd]] be the [[(∞,1)-category]] of [[∞-groupoid]]s. Let the [[(∞,1)-functor]] $Z|_{Grpd} \to \infty Grpd^{op}$ be the [[universal fibration of (infinity,1)-categories|universal ∞-groupoid fibration]] whose fiber over the object denoting some $\infty$-groupoid is that very $\infty$-groupoid.
+
+Then let $X$ be any [[∞-groupoid]] and
+
+$$
+  F : X \to \infty Grpd
+$$
+
+an [[(∞,1)-functor]]. Recall that the [[Cartesian fibration|coCartesian fibration]] $E_F \to X$ classified by $F$ is the pullback of the [[universal fibration of (∞,1)-categories]] $Z$ along F:
+
+$$
+  \array{
+    E_F &\to& Z|_{Grpd}
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{F}{\to}& \infty Grpd
+  }
+$$
+
++-- {: .un_prop }
+###### Proposition
+
+Let the assumptions be as above. Then:
+
+* The $\infty$-colimit of $F$ is equivalent to the [[(∞,1)-Grothendieck construction]] $E_F$:
+
+  $$
+    \lim_\to F \simeq E_F 
+  $$
+
+* The $\infty$-limit of $F$ is equivalent to the [[(∞,1)-category of cartesian section|(∞,1)-groupoid of sections]] of $E_F \to X$
+
+  $$
+    \Gamma_X(E_F) \simeq lim F
+    \,.
+  $$
+
+=-- 
+
++-- {: .proof}
+###### Proof
+
+The statement for the colimit is corollary 3.3.4.6 in [[Higher Topos Theory|HTT]]. The statement for the limit is corollary 3.3.3.4.
+
+=--
+
+### Limits and colimits with values in $(\infty,1)$Cat
+ {#ColimitsInInfinityCat}
+
++-- {: .num_prop }
+###### Proposition
+
+For $F : D \to $ [[(∞,1)Cat]] an [[(∞,1)-functor]], its $\infty$-colimit is given by forming the [[(∞,1)-Grothendieck construction]] $\int F$ of $F$ and then inverting the [[Cartesian morphism]]s.
+
+Formally this means, with respect to the [[model structure for Cartesian fibrations]] that there is a [[natural isomorphism]]
+
+$$
+  \lim_\to F \simeq (\int F)^\sharp
+$$
+
+in the [[homotopy category]] of the presentation of $(\infty,1)$-category by [[marked simplicial sets]].
+
+=--
+
+This is [[Higher Topos Theory|HTT, corollary 3.3.4.3]].
+
+For the special case that $F$ takes values in ordinary categories see also at [[2-limit]] the section [2-limits in Cat](http://ncatlab.org/nlab/show/2-limit#2ColimitsInCat).
+
+
+### Limits in $\infty$-functor categories
 
 For $C$ an ordinary [[category]] that admits small [[limit]]s and [[colimit]]s, and for $K$ a [[small category]], the [[functor category]] $Func(D,C)$ has all small limits and colimits, and these are computed objectwise. See [[limits and colimits by example]]. The analogous statement is true for an [[(∞,1)-category of (∞,1)-functors]].
 
 
 +-- {: .un_prop}
-###### Propositon
+###### Proposition
 
 Let $K$ and $C$ be [[quasi-categories]], such that $C$ has all [[limit in a quasi-category|colimits]] indexed by $K$. 
 
@@ -795,6 +795,15 @@ This is [[Higher Topos Theory|HTT, corollary 5.1.2.3]]
 
 =--
 
+## Related concepts
+
+* [[limit]]
+
+* [[2-limit]]
+
+* **$(\infty,1)$-limit
+
+  * [[homotopy limit]]
 
 
 ## References
