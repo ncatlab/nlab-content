@@ -321,12 +321,12 @@ for the defining quadruple of [[adjoint (∞,1)-functor]]s that refine the [[glo
 By the general properties of [[cohesive (∞,1)-topos]]es with an [[∞-cohesive site]] of definition, every [[∞-group]] object is presented by a presheaf of [[simplicial group]]s. For  $ETop\infty Grpd$ among these are the [[simplicial topological group]]s. See there for more details.
 
 
-### Geometric homotopy and Galois theory {#GeometricHomotopy}
+### Geometric homotopy and Galois theory    
+ {#GeometricHomotopy}
+ {#GeometricRealization}
 
 We discuss the realization of the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] in $ETop \inft Grpd$.
 
-#### Geometric realization
- {#GeometricRealization}
 
 +-- {: .num_prop #FundGroupoidOfParacompact}
 ###### Proposition
@@ -460,12 +460,14 @@ $$
 By the discussion at [[geometric realization of simplicial topological spaces]], this maps to the [[homotopy colimit]] of the simplicial topological space $X_\bullet$, which is just its geometric realizaiton if it is proper. 
 =--
 
-#### Presentation of the path $\infty$-groupoid
+### Paths and geometric Postnikov towers
  {#PresentationOfPathGroupoid}
 
-In the [above](#GeometricRealization) constructions of $\mathbf{\Pi}(X)$ the actual paths are not explicit. We discuss here presentations of $\mathbf{\Pi}(X)$ in terms of actual paths.
+We discuss the notion of _[geometric path  ∞-groupoids](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#Paths)_ realized in $ETop\infty Grpd$.
 
-Notice that by prop. \ref{FundGroupoidOfParacompact} we have
+In the [above](#GeometricRealization) constructions of $\Pi(X)$ the actual paths are not explicit. We discuss here presentations of $\mathbf{\Pi}(X)$ in terms of actual paths.
+
+By prop. \ref{FundGroupoidOfParacompact} we have
 
 +-- {: .num_prop #DiscretePathGroupoid}
 ###### Proposition
