@@ -73,7 +73,7 @@ Since $k\Top \hookrightarrow \Top$ is coreflective, it follows that $k\Top$ is [
 
 ### Cartesian closure
 
-The categories $k\Top\simeq \Top_k$ are [[cartesian closed category|cartesian closed]].  For arbitrary spaces $X$ and $Y$, define the *test-open* or *compact-open topology* on $\Top_k(X,Y)$ to have the [[subbase]] of sets $M(t,U)$, for a given compact Hausdorff space $C$, a map $t\colon C \to X$, and an open set $U$ in $Y$, where $M(t,U)$ consists of all $k$-continuous functions $f\colon X \to Y$ such that $f(t(C))\subseteq U$.
+The categories $k\Top\simeq \Top_k$ are [[cartesian closed category|cartesian closed]]. (While in [[Top]] only some objects are exponentiable, see [[exponential law for spaces]].)  For arbitrary spaces $X$ and $Y$, define the *test-open* or *compact-open topology* on $\Top_k(X,Y)$ to have the [[subbase]] of sets $M(t,U)$, for a given compact Hausdorff space $C$, a map $t\colon C \to X$, and an open set $U$ in $Y$, where $M(t,U)$ consists of all $k$-continuous functions $f\colon X \to Y$ such that $f(t(C))\subseteq U$.
 
 (This is slightly different from the usual [[compact-open topology]] if $X$ happens to have non-Hausdorff compact subspaces; in that case the usual definition includes such subspaces as tests, while the above definition excludes them.  Of course, if $X$ itself is Hausdorff, then the two become identical.)
 
