@@ -21,7 +21,7 @@
 
 A [[crossed module]] is a bit like a [[normal subgroup]] ... without being a [[subgroup]]. In fact if a crossed module has a boundary map which is a monomorphism then it is isomorphic to the inclusion crossed module of a normal subgroup.
 
-Crossed modules model all connected [[homotopy 2-type]]s.  _Crossed squares_ model all connected [[homotopy 3-type]]s and correspond to pairs of normal subgroups. Suppose $G$ is a group and $M$ and $N$ are normal subgroups of $G$; then of course, so is $M \cap N$.  Put these groups in a square, with the inclusion maps between them. Finally note that if $m \in M$ and $n \in N$, then $[m,n]$ is in the intersection $M \cap N$. This gives you a crossed square with $h$-map $h(m,n) = [m,n]$.  Removing the  condition that the inclusions are inclusions (!) gives the general form.
+Crossed modules model all connected [[homotopy 2-type]]s (which by the [[looping and delooping]]-theorem means: all [[2-group]]s).  _Crossed squares_ model all connected [[homotopy 3-type]]s (hence all [[3-group]]s) and correspond to pairs of normal subgroups. Suppose $G$ is a group and $M$ and $N$ are normal subgroups of $G$; then of course, so is $M \cap N$.  Put these groups in a square, with the inclusion maps between them. Finally note that if $m \in M$ and $n \in N$, then $[m,n]$ is in the intersection $M \cap N$. This gives you a crossed square with $h$-map $h(m,n) = [m,n]$.  Removing the  condition that the inclusions are inclusions (!) gives the general form.
 
 (The definition that follows is that given by Guin-Valery and Loday in their paper (see references).  Another definition can be given that is just the case $n = 2$ of that of [[crossed n-cube]], for which see that entry.
  
@@ -117,13 +117,13 @@ This theme of using two equivalent categories, one for conjecture and proof, the
 
 ## Related concepts
 
-* [[crossed module]], [[differential crossed module]]
+* [[group]]
 
-* [[2-crossed module]] / **crossed square**, [[differential 2-crossed module]]
+* [[2-group]], [[crossed module]], [[differential crossed module]]
 
-* [[crossed complex]]
+* [[3-group]], [[2-crossed module]] / **crossed square**, [[differential 2-crossed module]]
 
-* [[hypercrossed complex]]
+* [[∞-group]], [[simplicial group]], [[crossed complex]], [[hypercrossed complex]]
 
 
 
