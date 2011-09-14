@@ -1,0 +1,5 @@
+
+
+## Related concepts
+
+[[n-group]], [[crossed square]]
