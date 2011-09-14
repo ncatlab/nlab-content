@@ -663,14 +663,21 @@ and chapter 8 of
 * [[Charles Weibel]], _An introduction to homological algebra_ Cambridge (1994)
  {#Weibel}
 
-The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. This is originally due to theorem 3 on p. 18-04 of
+The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. 
 
-* J. C. Moore, _Homotopie des complexes monoideaux, I_ , Seminaire Henri Cartan, 1954-55. ([numdam](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0)) 
+This proof that simplicial groups are Kan complexes is originally due to theorem 3.4 in 
+
+* [[John Moore]],  _Semi-Simplicial Complexes And Postnikov Systems, in _Symposium International De
+Topologia Algebraica_ , 1956 conference, book published in 1958
+
+which apears in more detail as  theorem 3 on p. 18-04 of
+
+* [[John Moore]], _Homotopie des complexes monoideaux, I_ , Seminaire Henri Cartan, 1954-55. ([numdam](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0)) 
  {#Moore54}
 
-and often attributed to
+and is often attributed to
 
-* J. C. Moore, _Algebraic homotopy theory_, lecture notes, Princeton University, 1955--1956
+* [[John Moore]], _Algebraic homotopy theory_, lecture notes, Princeton University, 1955--1956
  {#Moore}
 
 In fact, it seems that this is the origin of the very notion of [[Kan complex]].
