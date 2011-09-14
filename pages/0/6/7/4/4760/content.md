@@ -23,7 +23,7 @@ $$
 
 ## Definition
 
-We may think of the [[simplex category]] $\Delta$ as the [[full subcategory]] of [[Cat]] on the categories free on non-empty finite linear graphs. This givbes the canonical inclusion $\Delta \hookrightarrow Cat$ that defines the ordinary nerve of categories. 
+We may think of the [[simplex category]] $\Delta$ as the [[full subcategory]] of [[Cat]] on the categories free on non-empty finite linear graphs. This gives the canonical inclusion $\Delta \hookrightarrow Cat$ that defines the ordinary nerve of categories. 
 
 There is also the canonical embedding of categories into bicategories. Combined this gives the inclusion 
 
