@@ -507,13 +507,15 @@ a variety in the category of all simplicial groups.
 
 ## Related concepts
 
-* [[crossed module]], [[differential crossed module]]
+* [[group]]
 
-* [[2-crossed module]] / [[crossed square]], [[differential 2-crossed module]]
+* [[2-group]], [[crossed module]], [[differential crossed module]]
 
-* **crossed complex**
+* [[3-group]], [[2-crossed module]] / [[crossed square]], [[differential 2-crossed module]]
 
-* [[hypercrossed complex]]
+* [[n-group]]
+
+* [[∞-group]], [[simplicial group]], **crossed complex**, [[hypercrossed complex]]
 
 
 
