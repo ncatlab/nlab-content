@@ -46,6 +46,8 @@ The result that every Poisson manifold admits a deformation quantization is due 
 
 * [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds_,  Lett. Math. Phys. __66__ (2003),  no. 3, 157--216, [q-alg/9709040](http://arxiv.org/abs/q-alg/9709040).
 
+This secretly uses the [[Poisson sigma-model]] (see there for more details) induced by the given target [[Poisson Lie algebroid]].
+
 Deformation quantization in [[quantum field theory]] in the context of [[AQFT]] is discussed in
 
 * [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_
