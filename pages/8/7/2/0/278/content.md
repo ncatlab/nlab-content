@@ -20,7 +20,7 @@
 
 ## Scope
 
-__Differential geometry__ is a mathematical discipline studying geometry of spaces using differential and integral calculus. Classical differential geometry studied submanifolds (curves, surfaces...) in Euclidean spaces. The traditional objects of differential geometry are finite and infinite-dimensional [[differentiable manifold]]s modelled locally on [[topological vector space]]s. Techniques of differential calculus can be further stretched to generalized smooth spaces. One often distinguished analysis on manifolds from differential geometry: analysis on manifolds focuses on functions from a manifold to the ground field and their properties, togehter with applications like PDEs on manifolds. Differential geometry on the other hand studies objects embedded into the manifold like submanifolds, their relations and additional structures on manifolds like bundles, connections etc. while the topological aspects are studied in a younger branch (from 1950s on) which is called [[differential topology]].
+__Differential geometry__ is a mathematical discipline studying geometry of spaces using differential and integral calculus. Classical differential geometry studied submanifolds (curves, surfaces...) in Euclidean spaces. The traditional objects of differential geometry are finite and infinite-dimensional [[differentiable manifold]]s modelled locally on [[topological vector space]]s. Techniques of differential calculus can be further stretched to [[generalized smooth space]]s. One often distinguished analysis on manifolds from differential geometry: analysis on manifolds focuses on functions from a manifold to the ground field and their properties, togehter with applications like PDEs on manifolds. Differential geometry on the other hand studies objects embedded into the manifold like submanifolds, their relations and additional structures on manifolds like bundles, connections etc. while the topological aspects are studied in a younger branch (from 1950s on) which is called [[differential topology]].
 
 ## Generalized smooth spaces from $n$POV
 
@@ -74,7 +74,7 @@ A comprehensive standard textbook is
 * [[M M Postnikov]], _Lectures on geometry_ (6 vols.: 1 "Analytic geometry", 2 "Linear algebra", 3 "Diff. manifolds"; 4 "Diff. geometry" (covers extensively fibre bundles and connections); 5 "Lie groups"; 6 "Riemannian geometry")
 * R. Sharpe, _Differential geometry -- Cartan's generalization of Klein's Erlagen program_, Springer (1997)
 * [[Shlomo Sternberg]], _Lectures on differential geometry_
-* Kriegl, P. Michor, _A convenient setting of global analysis_
+* Andreas Kriegl, Peter W. Michor, _A convenient setting of global analysis_, Math. Surveys and Monographs __53__, Amer. Math. Soc. 1997. 618 pages
 
 Online: 
 
