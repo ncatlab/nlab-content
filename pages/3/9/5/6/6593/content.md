@@ -53,3 +53,5 @@ Since the formula looks the same for all $S$, one often just writes it without m
 [[!redirects super-Heisenberg group]]
 
 [[!redirects super translation Lie algebra]]
+
+[[!redirects translation super-Lie algebra]]
