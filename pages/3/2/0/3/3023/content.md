@@ -85,3 +85,6 @@ In the theory of Riemann surfaces, there are several important theorems.  Here a
 * The [[Riemann-Roch theorem]], which analyzes the vector space of meromorphic functions satisfying certain conditions on zeros and poles;
 * The [[uniformization theorem]], which partially classifies Riemann surfaces.
 
+## Literature
+
+* Hermann Weyl, _The concept of a Riemann surface_
