@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -83,6 +83,10 @@ The derivation of the fact that the Kalb-Ramond field that is locally given by a
 
   which says that $(B_i, A_{i j}, \lambda_{i j k})$ is indeed a degree 3 [[Deligne cohomology|Deligne cocycle]].
 
+## Over D-branes
+
+The restriction of the Kalb-Ramond field in the 10-dimensional [[spacetime]] to a [[D-brane]] is a twist (as in [[twisted cohomology]]) of the [[gauge field]] on the D-brane: its 3-class is [[magnetic charge]] for the [[electromagnetic field]]/[[Yang-Mills field]] on the D-brane. See also [[Freed-Witten anomaly cancellation]] or the discussion in ([Moore](#Moore)).
+
 ## References {#References}
 
 
@@ -107,6 +111,11 @@ In fact, in full generality the Kalb-Ramond field on an [[orientifold]] backgrou
 * [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Precis_ ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795))
 
 * [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
+
+The role of the KR field in [[twisted K-theory]] is discussed a bit in 
+
+* [[Greg Moore]], _K-theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
+  {#Moore}
 
 [[!redirects Kalb--Ramond field]]
 [[!redirects Kalb–Ramond field]]
