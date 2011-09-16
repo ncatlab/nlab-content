@@ -25,7 +25,16 @@ It is expected ([Witten](#Witten07)) that such theories arise as the [[worldvolu
 
 Due to the [[self-dual higher gauge theory|self-duality]] a characterization of these theories by an [[action functional]] is at best subtle, maybe impossible. Therefore more direct descriptions are still under investigation (for instance [SSW11](#SSW11)). A review of recent developments is in ([Moore11](#Moore)).
 
+## Properties
+
+### Holographic dual
+
+Under [[holographic principle|holography]] the 6d $(2,0)$-superconformal QFT is supposed to be dual to [[11-dimensional supergravity|M-theory]] on $AdS_7 \times S^4$.  ([HEGK](#HEGK))
+
+
 ## References
+
+### General
 
 * [[Edward Witten]], _Conformal Field Theory In Four And Six Dimensions_ in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ LMS Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
  {#Witten07}
@@ -40,6 +49,16 @@ Physical Mathematics_ , talk at Strings2011 ([pdf slides](http://www-conference.
 * [[Henning Samtleben]], Ergin Sezgin, Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
  {#SSW11}
 
+### On the holographic dual 
+ {#ReferencesOnTheHolographicDual}
+
+* [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, 
+
+  _Exact Half-BPS Flux Solutions in M-theory I
+Local Solutions_ ([arXiv:0806.0605](http://arxiv.org/abs/0806.0605))
+
+  _Exact Half-BPS Flux Solutions in M-theory II: Global solutions asymptotic to $AdS_7 \times S^4$ ([arXiv:0810.4647](http://arxiv.org/abs/0810.4647))
+  {#HEGK}
 
 [[!redirects 6d (2,0)-susy QFT]]
 [[!redirects 6d (2,0)-superconformal QFT]]
