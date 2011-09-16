@@ -1,6 +1,5 @@
 
-
-A **path space** is a [[mapping space]] for maps from the [[interval]].
+A **path space** is a [[mapping space]] for maps from the [[interval]], a space of [[path]]s.
 
 See also 
 
@@ -8,6 +7,10 @@ See also
 
 * [[path groupoid]];
 
-* [[fundamental groupoid]].
+* [[fundamental groupoid]];
 
+* [[loop space]].
+
+
+[[!redirects path space]]
 [[!redirects path spaces]]
