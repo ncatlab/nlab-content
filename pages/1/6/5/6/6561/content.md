@@ -29,7 +29,9 @@ Due to the [[self-dual higher gauge theory|self-duality]] a characterization of 
 
 ### Holographic dual
 
-Under [[holographic principle|holography]] the 6d $(2,0)$-superconformal QFT is supposed to be dual to [[11-dimensional supergravity|M-theory]] on $AdS_7 \times S^4$.  ([HEGK](#HEGK))
+Under [[holographic principle|holography]] the 6d $(2,0)$-superconformal QFT is supposed to be dual to [[11-dimensional supergravity|M-theory]] on $AdS_7 \times S^4$.  
+
+This goes back to ([Maldacena, 3.1](#Maldacena)). More details are for instance in ([HEGK](#HEGK)).
 
 
 ## References
@@ -51,6 +53,10 @@ Physical Mathematics_ , talk at Strings2011 ([pdf slides](http://www-conference.
 
 ### On the holographic dual 
  {#ReferencesOnTheHolographicDual}
+
+* [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); _Wilson loops in Large N field theories_, Phys. Rev. Lett. __80__ (1998) 4859, [hep-th/9803002](http://arxiv.org/abs/hep-th/9803002)
+ {#Maldacena}
+
 
 * [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, 
 
