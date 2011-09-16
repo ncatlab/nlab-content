@@ -1,28 +1,28 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $\infty$-Lie theory
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
-For $X$ a smooth space, there are useful refinements of the [[fundamental groupoid]] $\Pi_1(X)$ which remember more than just the [[homotopy]] class of paths, i.e. whose morphisms are (piecewise, say) smooth paths in $X$ modulo an equivalence relation still strong enough to induce a groupoid structure, but weaker than dividing out homotopies relative to endpoints.
+For $X$ a smooth space, there are useful refinements of the [[fundamental groupoid]] $\Pi_1(X)$ which remember more than just the [[homotopy]] class of [[paths]], i.e. whose morphisms are (piecewise, say) smooth paths in $X$ modulo an equivalence relation still strong enough to induce a groupoid structure, but weaker than dividing out homotopies relative to endpoints.
+
 
 ## Definition
 
 Let $X$ be a smooth [[manifold]].
 
-+--{: .un_defn}
++-- {: .un_defn}
 ###### Definition
 For $\gamma_1, \gamma_2  : [0,1] \to X$ two smooth maps, a **[[thin homotopy]]** $\gamma_1 \Rightarrow \gamma_2$ is a smooth [[homotopy (as an operation)|homotopy]], i.e. a smooth map
 $$
@@ -40,12 +40,12 @@ which is _thin_ in that it doesn't sweep out any surface: every $2$-form pulled 
 * $\forall B \in \Omega^2(X) : \Sigma^* B = 0$.
 =--
 
-+--{: .un_defn}
++-- {: .un_defn}
 ######Definition
 A path $\gamma : [0,1] \to X$ has **[[sitting instant]]s** if there is a neighbourhood of the boundary of $[0,1]$ such that $\gamma$ is constant restricted to that.
 =--
 
-+--{: .un_defn}
++-- {: .un_defn}
 ######Definition
 The **path groupoid** $P_1(X)$ is the [[diffeological groupoid]] that has
 
@@ -61,9 +61,10 @@ Moreover, $P_1(X)$ is always itself naturally a groupoid [[internal category|int
 
 There are various generalizations of the path groupoid to [[n-groupoids]] and [[∞-groupoids]]. See
 
-* [[path n-groupoid]]
+* [[path n-groupoid]],
 
-* [[path ∞-groupoid]] .
+* [[path ∞-groupoid]].
+
 
 ## Remarks
 
@@ -81,8 +82,8 @@ $$
 
 See also 
 
-* [[Atiyah Lie groupoid]]
+* [[Atiyah Lie groupoid]].
 
 
-[[!redirects path groupoids]]
 [[!redirects path goupoid]]
+[[!redirects path groupoids]]
