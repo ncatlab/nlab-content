@@ -1,0 +1,24 @@
+
+# Loops
+* table of contents
+{: toc}
+
+## Definitions
+
+In [[topology]], a (parametrised, oriented) __loop__ in a [[space]] $X$ is a map (a [[morphism]] in an appropriate [[category]] of spaces) to $X$ from the [[circle]] $S^1 = \mathbb{R}/\mathbb{Z}$.  A __loop at $a$__ is a loop $c$ such that $c(k) = a$ for any (hence every) [[integer]] $k$.  An __unparametrised loop__ is an [[equivalence class]] of loops, such that $f$ and $g$ are equivalent if there is an [[monotone function|increasing]] [[automorphism]] $\phi$ of $S^1$ such that $g = f \circ \phi$.  An __unoriented loop__ is an equivalence class of loops such that $f$ is equivalent to $(x \mapsto f(-x))$.  A __Moore loop__ has domain $\mathbb{R}/n \mathbb{Z}$ for some [[natural number]] $n$ (or possibly any [[real number]]).  All of these variations can be combined, of course.  (A Moore loop at $a$ has $f(k n) = a$ instead of $f(k) = a$.  Also, a Moore loop for $n = 0$ is simply a [[point]], so possibly there is a better way to define this to avoid making this exception.)
+
+In [[graph theory]], a __loop__ is an edge whose endpoints are the same vertex.  Actually, this is a special case of the above, if we use interpret $S^1$ as the graph with $1$ vertex and $1$ edge; in this way, the other variations become meaningful (although as the only directed graph automorphism of $S^1$ is the [[identity morphism|identity]], parametrisation is trivial for directed graphs and equivalent to orientation for undirected graphs).
+
+
+## Related entries
+
+* [[path]],
+* [[loop space]],
+* [[fundamental group]].
+
+
+[[!redirects loop]]
+[[!redirects loops]]
+
+[[!redirects Moore loop]]
+[[!redirects Moore loops]]
