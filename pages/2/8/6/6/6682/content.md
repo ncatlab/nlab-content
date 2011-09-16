@@ -1,0 +1,13 @@
+
+* [webpage](http://www.physics.ucsb.edu/people/academic/joseph-polchinski)
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Joseph_Polchinski)
+
+
+## related entries
+
+* [[string theory]]
+
+[[!redirects Joe Polchinski]]
+
+category: people
