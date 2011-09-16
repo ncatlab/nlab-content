@@ -56,6 +56,8 @@ The subtle self-duality conditions on [[differential cohomology|differential coc
 * [[Mike Hopkins]], I. Singer, _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_ ([arXiv](http://arxiv.org/abs/math/0211216))
 
 [[!redirects RR-field]]
+[[!redirects RR-fields]]
 [[!redirects Ramond-Ramond field]]
 [[!redirects Ramond–Ramond field]]
 [[!redirects Ramond--Ramond field]]
+
