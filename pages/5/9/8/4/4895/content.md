@@ -148,9 +148,13 @@ Conjecturally, [[type II string theory]] on a [[anti-de Sitter space]] backgroun
 
 See [[AdS/CFT correspondence]].
 
-#### M-theory on $AdS_7 \times S_4$ and 6d $(2,0)$-SCFT
+#### M-theory on $AdS_7 \times S_4$ and 6d $(2,0)$-SCFT on M5 branes
 
 [[11-dimensional supergravity|M-theory]] on $AdS_7 \times S^4$ is supposed to have as holographic boundary the [[6d (2,0)-superconformal QFT]]. See there for references.
+
+#### M-theory on $AdS_4 \times S^7/\mathbb{Z}_k$ and Chern-Simons on M2 branes
+
+See [[ABJM theory]].
 
 
 
@@ -214,3 +218,5 @@ An identification of boundary conditions and [[QFT with defects|defects]] as [[n
 {#SchommerPries}
 
 See [[holographic principle of higher category theory]] for more on this.
+
+[[!redirects holographic duality]]
