@@ -28,9 +28,14 @@ Perturbative [[string theory]] is defined in terms of certain classes of 2d [[CF
 
 ## Properties
 
+### Effective QFT
+
 The [[effective quantum field theory]] of type II string theory containts --besides [[supergravity]] -- the [[self-dual higher gauge theory]] of [[RR-fields]] and [[Kalb-Ramond field]]s.
 
-(..)
+
+### Holographic dual
+
+By a [[holographic principle]] realized in this case as [[AdS/CFT correspondence]] (see the references there), type II string theory is supposed to be dual to 4-dimensional [[super Yang-Mills theory]].
 
 ## Related concepts
 
