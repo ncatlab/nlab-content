@@ -1,2 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In _topological quantum computation_ one aims to make use of [[quantum systems]] described by [[topological quantum field theory]] for [[quantum computation]].
+
+
+## References
+
 * Michael H. Freedman, Alexei Kitaev, Michael J. Larsen, Zhenghan Wang. _Topological quantum computation_,  Bull. Amer. Math. Soc. __40__ (2003), 31-38, [web](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf)
 * M. Freedman, M. Larsen, and Z. Wang, _A modular functor which is universal for quantum computation_, Comm. Math. Phys. __227__ (2002), no. 3, 605-622, [pdf](http://stationq.cnsi.ucsb.edu/~freedman/Publications/76.pdf)
