@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $\infty$-Chern-Simons theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A 3-dimensional [[Chern-Simons theory]] coupled to matter, which is supped to describe aspects of [[M2-brane]] dynamics.
+
+## Properties
+
+Under  [[holographic duality]] supposed to be related to [[11-dimensional supergravity|M-theory]] on $AdS_4 \times S^7 / \mathbb{Z}_k$.
+
+## References
+
+The original article is
+
+* [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, [[Juan Maldacena]], _$N=6$ superconformal Chern-Simons-matter theories, M2-branes and their gravity duals_ ([arXiv:0806.1218](http://arxiv.org/abs/0806.1218))
+
+Further developments are in 
+
+* Nadav Drukker, Marcos Marino, Pavel Putrov, _From weak to strong coupling in ABJM theory_ ([arXiv:1007.3837](http://arxiv.org/abs/1007.3837))
+
