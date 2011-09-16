@@ -1,0 +1,12 @@
+
+* [webpage](http://www.sns.ias.edu/~malda/)
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Juan_Mart%C3%ADn_Maldacena)
+
+## Related entries
+
+* [[AdS/CFT correspondence]]
+
+* [[holographic principle]]
+
+category: people
