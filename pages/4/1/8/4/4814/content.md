@@ -59,12 +59,16 @@ The observation that the BF-theory action functional looks like it should be rea
 
 * [[Florian Girelli]], Hendryk Pfeiffer, _Higher gauge theory -- differential versus integral formulation_, [arXiv:hep-th/0309173](http://arxiv.org/abs/hep-th/0309173)
 
-The observation that it can be read as the [[∞-Chern-Simons theory]] action functional on [[connections on 2-bundles]] is in 
+The observation that coupled to [[topological Yang-Mills theory]] it can be read as the [[schreiber:∞-Chern-Simons theory]] action functional on [[connections on 2-bundles]] is in 
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-conections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>))
 {#SSSI}
 
-For more on this see [[Chern-Simons element]].
+and a more comprehensive discussion is in section 4.3 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ .
+
+See also
 
 * Aristide Baratin, Florian Girelli, Daniele Oriti,  _Diffeomorphisms in group field theories_, Physical Review D, vol. 83, Issue 10, id. 104051, [doi](http://dx.doi.org/10.1103/PhysRevD.83.104051), [arxiv/1101.0590](http://arxiv.org/abs/1101.0590)
 
