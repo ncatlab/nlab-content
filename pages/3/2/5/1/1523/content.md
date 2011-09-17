@@ -50,7 +50,7 @@ We may naturally give $\bar{\mathbb{N}}$ a [[topological structure|topology]] gi
 
 We may define the topology simply (and constructively) as follows: a [[subset]] $G$ of $\bar{\mathbb{N}}$ is _[[open subset|open]]_ if, whenever $\infty \in G$, there is a finite $n$ such that $m \in G$ whenever $m \geq n$.  In other words, $G$ is a [[neighbourhood]] of $\infty$ just when almost every finite number also belongs to $G$.
 
-In this way, $\bar{\mathbb{N}}$ is the [[Alexandrov compactification]] of the [[discrete space]] $\mathbb{N}$.  The space is obviously compact because, given an [[open cover]] $\mathcal{U}$, we have $\infty \in G \in \mathcal{U}$ for some $G$, so $G$ alone contains almost every point, and only finitely many more open sets are needed.
+In this way, $\bar{\mathbb{N}}$ is the [[Alexandroff compactification]] of the [[discrete space]] $\mathbb{N}$.  The space is obviously compact because, given an [[open cover]] $\mathcal{U}$, we have $\infty \in G \in \mathcal{U}$ for some $G$, so $G$ alone contains almost every point, and only finitely many more open sets are needed.
 
 It is sometimes convenient to represent $\bar{\mathbb{N}}$ as a [[subspace]] of the [[real line]] $\mathbb{R}$, which we can do by interpreting the natural number $n$ as $2^{-n}$ and $\infty$ as $0$.  Constructively, the monotone bit sequence $x$ becomes the real number
 $$ 
