@@ -68,7 +68,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         5.  [[spatial locale]]
         6.  [[irreducible closed subspace]], [[sober space]]
         7.  [[soberification]], $T_D$-[[T-D-space|space]]
-        8.  [[specialization order]], [[Alexandrov topology]], [[upper set]], [[upper interval topology]]
+        8.  [[specialization order]], [[Alexandroff topology]], [[upper set]], [[upper interval topology]]
         9.  [[Scott topology]]
         10. (none)
         11. enrichment of $Loc$ over $Pos$
@@ -163,9 +163,9 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         4.  [[Wallman base]], [[Wallman compactification]]
         5.  [[cozero set]]
         6.  (none)
-        7.  [[Alexandrov compactification]]
+        7.  [[Alexandroff compactification]]
         8.  (none)
-        9.  [[cozero element]], [[Alexandrov algebra]]
+        9.  [[cozero element]], [[Alexandroff algebra]]
         10. (none)
         11. (none)
     3.  $C(X)$ and $C^*(X)$
