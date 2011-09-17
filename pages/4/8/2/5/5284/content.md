@@ -1,28 +1,28 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 #### Mapping space
-+--{: .hide}
++-- {: .hide}
 [[!include mapping space - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The _free loop space_ of a [[topological space]] $X$ (based or not) is the space of *all* loops in $X$. This is in contrast to the *based* [[loop space]] of a based space $X$ for which the loops begin and end in the fixed base point $x_0\in X$.
+The _free loop space_ of a [[topological space]] $X$ (based or not) is the space of *all* [[loops]] in $X$. This is in contrast to the *based* [[loop space]] of a based space $X$ for which the loops are at the fixed [[base point]] $x_0\in X$.
+
 
 ## Definition
-
 
 ### Explicit description
 
@@ -48,4 +48,6 @@ If $X$ is a [[topological space]], the **free loop space** $L X$ of $X$ is defin
 * [[D. Ben-Zvi]], D. Nadler, _Loop spaces and connections_,
 [arxiv/1002.3636](http://arxiv.org/abs/1002.3636)
 
+
+[[!redirects free loop space]]
 [[!redirects free loop spaces]]
