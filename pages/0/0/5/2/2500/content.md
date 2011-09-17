@@ -106,6 +106,9 @@ In dimension $(1+1)$ supergravity coupled to [[sigma-model]] fields is the [[spi
 
 ## References
 
+A good modern reference for the diverse flavours of supergravity theories is
+
+* Antoine Van Proeyen, _Structure of supergravity theories_ ([arXiv:hep-th/0301005](http://arxiv.org/abs/hep-th/0301005))
 
 A fair bit of detail on [[supersymmetry]] and on supergravity is in 
 
