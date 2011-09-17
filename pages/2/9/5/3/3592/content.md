@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -9,8 +9,11 @@ An __algebraic lattice__ is a [[complete lattice]] (or perhaps rather a [[suplat
 
 The morphisms most commonly considered between algebraic lattices are the [[finitary functor]]s between them, which is to say, the [[Scott topology|Scott-continuous]] functions between them; i.e., those functions which preserve directed joins (hence the parenthetical remarks before). The resulting category __AlgLat__ is [[cartesian closed]] and is dually equivalent to the category whose objects are [[meet semilattices]] (construed as categories with finite limits [[enriched category|enriched]] over [[truth values]]) and whose morphisms are meet-preserving [[profunctors]] between them (using the convention that a $V$-enriched profunctor from $C$ to $D$ is a functor $D^{op} \times C \rightarrow V$; of course, with an opposite convention, one could similarly state a covariant equivalence). The category of [[topological spaces]] is the [[stuff, structure, property|2-image]] of the projection from the [[comma category]] $(Set / Forgetful)$ to $Set$, where $Forgetful : AlgLat \rightarrow Set$ is the obvious forgetful functor. This connection is explored in more depth with the category of [[equilogical space]]s, equivalent to both a category of [[partial equivalence relation]]s over $AlgLat$, and of total equivalence relations on $T_0$ topological spaces.
 
+
 ## Properties
 
-* Completely distributive algebraic lattice are equivalently [[Alexandrov locale]]s.
+* Completely distributive algebraic lattices are equivalently [[Alexandroff locale]]s.
 
+
+[[!redirects algebraic lattice]]
 [[!redirects algebraic lattices]]
