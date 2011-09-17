@@ -1,31 +1,25 @@
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(\infty,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include quasi-category theory contents]]
 =--
 #### Stabe homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include stable homotopy theory - contents]]
 =--
 #### Mapping space
-+--{: .hide}
++-- {: .hide}
 [[!include mapping space - contents]]
 =--
 =--
 =--
 
-
-
-
 # Loop space objects
 * tic
 {: toc}
-
 
 ## Idea
 
@@ -48,6 +42,8 @@ $$
   }
   \,.
 $$
+
+A ([[generalised element|generalised]]) [[global point|element]] of $\Omega X$ may be thought of as a [[loop]] in $X$ at the [[base point]] $*$.
 
 
 ### Remarks
@@ -188,7 +184,6 @@ $$
 $$
 
 
-
 ## Related concepts
 
 * **loop space object**, [[free loop space object]],
@@ -202,4 +197,5 @@ $$
   * [[suspension]], [[reduced suspension]]
 
 
+[[!redirects loop space object]]
 [[!redirects loop space objects]]
