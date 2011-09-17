@@ -179,3 +179,5 @@ A discussion of [[abelian sheaf cohomology]] on Alexandroff spaces is in
 
 [[!redirects Alexandroff locale]]
 [[!redirects Alexandroff locales]]
+[[!redirects Alexandrov locale]]
+[[!redirects Alexandrov locales]]
