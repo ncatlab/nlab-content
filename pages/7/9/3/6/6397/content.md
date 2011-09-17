@@ -28,7 +28,12 @@ Similarly a _Killing spinor_ is a covariantly constant [[spinor]].
 
 ## Related concepts
 
+* [[Killing tensor]]
+
 * [[Killing spinor]]
+
+* [[Killing-Yano tensor]]
+
 
 [[!redirects Killing vectors]]
 [[!redirects Killing vector field]]
