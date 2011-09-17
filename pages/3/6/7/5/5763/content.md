@@ -51,7 +51,7 @@ One would therefore tend to think that the terminology has been chosen in an unf
 
 While this means that the distinction between states and quasi-states disappears in a major case of interest, it does not disappear in all cases of interest. In particular, other foundational theorems about quantum mechanics concern the collection of commutative subalgebras, too.
 
-Notably, one may wonder about the evident strengthening of the notion of quasi-states to that of a map $\rho : A \to \mathbb{C}$ which is not just linear but also an [[associative algebra|algebra]] [[homomorphism]] on each commuting subalgebra. Notice that by [[Gelfand duality]] every commutative $C^\ast$-algebra $C$ is the algebra of continuous functions on some [[topological space]} $sp(C)$. Under this duality a [[state]] on $C$ is a [[probability distribution]] on $sp(C)$, while an algebra homomorphism $C \to \mathbb{C}$ is a [[point]] of $X_C$. Therefore a quasi-state which is commutative-subalgebra-wise even an algebra [[homomorphism]] may be thought of as encoding a collection of precise numerical values (as opposed to just expectation values) of _all_ possible observables. Such a hypothetical quasi-state is sometimes called a collection of _[[hidden variables]]_ of the [[quantum mechanical system]]: it's existence would mean that despite the apparent probabilistic nature of [[quantum mechanics]], there are "hidden" non-probabilistic states. But there are not. This is the statement of the [[Kochen-Specker theorem]]: under precisely the assumptions that make [[Gleason's theorem]] work, there is _no_ quasi-state which is commutative-subalgebra-wise an algebra homomorphism.
+Notably, one may wonder about the evident strengthening of the notion of quasi-states to that of a map $\rho : A \to \mathbb{C}$ which is not just linear but also an [[associative algebra|algebra]] [[homomorphism]] on each commuting subalgebra. Notice that by [[Gelfand duality]] every commutative $C^\ast$-algebra $C$ is the algebra of continuous functions on some [[topological space]} $sp(C)$. Under this duality a [[state]] on $C$ is a [[probability distribution]] on $sp(C)$, while an algebra homomorphism $C \to \mathbb{C}$ is a [[point]] of $X_C$. Therefore a quasi-state which is commutative-subalgebra-wise even an algebra [[homomorphism]] may be thought of as encoding a collection of precise numerical values (as opposed to just expectation values) of _all_ possible observables. Such a hypothetical quasi-state is sometimes called a collection of _[[hidden variable]]s_ of the [[quantum mechanical system]]: it's existence would mean that despite the apparent probabilistic nature of [[quantum mechanics]], there are "hidden" non-probabilistic states. But there are not. This is the statement of the [[Kochen-Specker theorem]]: under precisely the assumptions that make [[Gleason's theorem]] work, there is _no_ quasi-state which is commutative-subalgebra-wise an algebra homomorphism.
 
 In summary, this means:
 
@@ -265,7 +265,7 @@ image $im(f|_C)$ is simply the set-theoretic image $f(C)$.
 
 =--
 
-Notice the following fact about [[Alexandrov space]]s:
+Notice the following fact about [[Alexandroff space]]s:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -286,7 +286,7 @@ $$
   Top
 $$
 
-of [[Poset]] with the [[full subcategory]] of [[Alexandrov space]]s.
+of [[Poset]] with the [[full subcategory]] of [[Alexandroff space]]s.
 
 =--
 
@@ -431,7 +431,7 @@ $$
 
 where $Lan_f$ and $Ran_f$ are left and right [[Kan extension]] along $f$, respectively.
 
-We also write $[f,Set] : [\mathcal{C}(A), Set] \to [\mathcal{C}(B), Set]$ for this. Notice that by the equivalence of [[copresheaves]] on [[posets]] and [[sheaves]] on the corresponding [[Alexandrov locales]] (see there for details) this is equivalently
+We also write $[f,Set] : [\mathcal{C}(A), Set] \to [\mathcal{C}(B), Set]$ for this. Notice that by the equivalence of [[copresheaves]] on [[posets]] and [[sheaves]] on the corresponding [[Alexandroff locales]] (see there for details) this is equivalently
 
 $$
   Sh (Alex(f))) : Sh(Alex \mathcal{C}(A)) \to Sh(Alex \mathcal{C}(B))
@@ -462,7 +462,7 @@ Analogously, [[essential geometric morphism]]s of the underlying toposes $Bohr(A
 
 By the discussion in the section _[In terms of essential geometric morphisms](http://ncatlab.org/nlab/show/Cauchy+complete+category#InOrdinaryCatTheoryByEssGeomMorphisms)_ at _[[Cauchy complete category]]_ we have a full and faithful embedding of Cauchy-complete catgeories $[-,Set] : Cat_{Cauchy} \hookrightarrow Topos_{ess}$. But posets are trivially Cauchy, complete, hence this restricts to an embedding $[-,Set] : Poset \hookrightarrow Cat_{Cauchy} \hookrightarrow Topos_{ess}$. 
 
-In terms of Alexandrov topologies: by the discussion of [Alexandrov locales](http://ncatlab.org/nlab/show/specialization+topology#AlexandrovLocales) (in the entry _[[Alexandrov space]]_) we have that the functor $Alex\colon Poset \to Locale$ takes values precisely on those morphisms of locales whose inverse image has a [[left adjoint]]. The statement then follows using the properties of [[localic reflection]], which says that the [[2-functor]] $Sh : Locale \to Topos$ is a [[full and faithful 2-functor]].
+In terms of Alexandroff topologies: by the discussion of [Alexandroff locales](http://ncatlab.org/nlab/show/specialization+topology#AlexandrovLocales) (in the entry _[[Alexandroff space]]_) we have that the functor $Alex\colon Poset \to Locale$ takes values precisely on those morphisms of locales whose inverse image has a [[left adjoint]]. The statement then follows using the properties of [[localic reflection]], which says that the [[2-functor]] $Sh : Locale \to Topos$ is a [[full and faithful 2-functor]].
 
 =--
 
@@ -584,7 +584,7 @@ In particular when $A$ is already commutative, morphisms $Bohr(B) \to Bohr(A)$ w
 +-- {: .proof}
 ###### Proof
 
-By prop \ref{EssentialGeomMorphismsAndPosetMorphisms} every [[essential geometric morphism]] $Sh(Alex \mathcal{C}(A)) \to Sh(Alex \mathcal{C}(B))$ comes from a morphism of locales $Alex \mathcal{C}A \to Alex \mathcal{C}A$, which by the discussion at [[Alexandrov space]] is equivalently a morphism of posets $\mathcal{C}(f) : \mathcal{C}(A) \to \mathcal{C}(B)$. By the assumption of the extra right adjoint we also have a geometric morphism the other way round, and hence, again by prop. \ref{EssentialGeomMorphismsAndPosetMorphisms}, an [[adjoint pair]]
+By prop \ref{EssentialGeomMorphismsAndPosetMorphisms} every [[essential geometric morphism]] $Sh(Alex \mathcal{C}(A)) \to Sh(Alex \mathcal{C}(B))$ comes from a morphism of locales $Alex \mathcal{C}A \to Alex \mathcal{C}A$, which by the discussion at [[Alexandroff space]] is equivalently a morphism of posets $\mathcal{C}(f) : \mathcal{C}(A) \to \mathcal{C}(B)$. By the assumption of the extra right adjoint we also have a geometric morphism the other way round, and hence, again by prop. \ref{EssentialGeomMorphismsAndPosetMorphisms}, an [[adjoint pair]]
 
 $$
   (\mathcal{C}(f) \dashv R_f) : \mathcal{C}(A) \leftrightarrow \mathcal{C}(B)
@@ -645,7 +645,7 @@ For $A = B(H) \in C^\ast Alg$ as above, we have a natural bijection between the 
 The idea is is that for $A \in C^* Alg$, the Bohr topos 
 $Bohr(A) = (Sh(Alex(\mathcal{C}(A))), \underline{A}) \in C^* TopSpace \subset C^* Topos$ _is_ the corresponding quantum [[phase space]].  More precisely, we may think of the internal commutative $C^*$-algebra $\underline{A} \in Bohr(A)$ as the [[Isbell duality|formal dual]] to the quantum phase space.
 
-The following discussion makes this precise by exhibiting this formal dual as an [[internal locale]]. Since $Bohr(A)$ is a spatial topos, this internal locale is in fact an ordinary [[topological space]] [[bundle]] $\Sigma \to Alex \mathcal{C}(A)$ over the [[Alexandrov space]] $Alex \mathcal{C}(A)$.
+The following discussion makes this precise by exhibiting this formal dual as an [[internal locale]]. Since $Bohr(A)$ is a spatial topos, this internal locale is in fact an ordinary [[topological space]] [[bundle]] $\Sigma \to Alex \mathcal{C}(A)$ over the [[Alexandroff space]] $Alex \mathcal{C}(A)$.
 
 +-- {: .num_defn #TheInternalLocale}
 ###### Definition
