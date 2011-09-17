@@ -239,7 +239,9 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
+A more general variant of this in the spirit of [[locally algebra-ed topos]]es is in
 
+* Alexander Alldridge, _A convenient category of supermanifolds_ ([arXiv:1109.3161](http://arxiv.org/abs/1109.3161))
 
 ### As manifolds over superpoints
 
