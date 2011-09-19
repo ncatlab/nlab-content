@@ -19,15 +19,15 @@
 
 ## Idea
 
-The _AdS-CFT correspondence_ (or _Maldacena duality_ ) is a special case of more general and more conjectural [[holographic principle|holographic duality]] in [[quantum field theory]].
+The _AdS-CFT correspondence_ (or _[Maldacena](Maldacena) duality_ ) is a class of cases for which there is strong evidence that it realizes the more general and more conjectural [[holographic principle|holographic duality]]:
 
-The conjectural correspondence asserts a the duality between [[string theory]] on an asymptotically [[anti-de Sitter spacetime]] and [[CFT|superconformal]] [[Yang-Mills theory]] on the asymptotic boundary.
+the conjectural Ads/CFT correspondence asserts an identification of the [[state]]s of [[quantum gravity]] given by [[string theory]] on an asymptotically [[anti-de Sitter spacetime]] with [[correlator]]s of a [[CFT|superconformal]] [[Yang-Mills theory]] on the asymptotic boundary.
 
 
 
 ## Formalizations
 
-The formalization of AdS/CFT is still very much out of reach. 
+The full formalization of AdS/CFT is still very much out of reach. 
 
 One proposal for a formalization of a toy version in the context of [[AQFT]] is [[Rehren duality]]. However, it does not seem that this actually formalizes AdS-CFT, but something else.
 
@@ -37,6 +37,7 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 The original article is
 
 * [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); _Wilson loops in Large N field theories_, Phys. Rev. Lett. __80__ (1998) 4859, [hep-th/9803002](http://arxiv.org/abs/hep-th/9803002)
+ {#Maldacena}
 
 The relevance of this was amplified in
 
