@@ -21,8 +21,7 @@
 
 ### For maps between topological spaces
 
-A [[function]]  $f : X \to Y$ between [[topological space]]s  is called __open__ if the [[image]] of every [[open set]] in $X$ is also open in $Y$.  Typically 
-
+A [[function]]  $f : X \to Y$ between [[topological space]]s  is called __open__ if the [[image]] of every [[open set]] in $X$ is also open in $Y$.
 
 Recall that $f$ is __[[continuous map]]__ if the [[preimage]] of every [[open subspace|open set]] in $Y$ is open in $X$.  For defining open maps typically one restricts attention to open [[continuous map]]s, although it also makes sense to speak of open functions that are not continuous.
 
@@ -89,7 +88,7 @@ For instance ([JoyalMoerdijk, section 1](#JoyalMoerdijk)).
 
 ## References
 
-* [[Andre Joyal]], [[Ieke Moerdijk]], _A completness theorem for open maps_, Annals of Pure and Applied Logic __70__, Issue 1, 18 November 1994, p. 51-86, [MR95j:03104](http://www.ams.org/mathscinet-getitem?mr=1303663), <a href="http://dx.doi.org/10.1016/0168-0072(94)90069-8">doi</a> 
+* [[Andre Joyal]], [[Ieke Moerdijk]], _A completeness theorem for open maps_, Annals of Pure and Applied Logic __70__, Issue 1, 18 November 1994, p. 51-86, [MR95j:03104](http://www.ams.org/mathscinet-getitem?mr=1303663), <a href="http://dx.doi.org/10.1016/0168-0072(94)90069-8">doi</a> 
 {#JoyalMoerdijk}
 
 [[!redirects open maps]]
