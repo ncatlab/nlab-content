@@ -50,13 +50,13 @@ The [[homotopy category]] of a [[category of presheaves]] over a test category, 
 
 ### Model category structure
 
-The [[presheaf category]] over a test category with the above weak equivalences admits a [[model category]] structure: the [[model structure on presheaves over a test category]]. This is due to ([Cisinkis](#Cisinski)) with further developments due to ([Jardine](#Jardine)).
+The [[presheaf category]] over a test category with the above weak equivalences admits a [[model category]] structure: the [[model structure on presheaves over a test category]]. This is due to ([Cisinski](#Cisinski)) with further developments due to ([Jardine](#Jardine)).
 
 ## Examples
 
 Apart from the archeytpical example of the [[simplex category]] we have the following
 
-* The [[cube category]] is a test category ([Grothendieck](#Grothendieck), [Cisinksi](#Cisinski)), however not a strict one ([Kan](#Kan)). (The corresponding [[model category]] is discussed at [[model structure on cubical sets]].=)
+* The [[cube category]] is a test category ([Grothendieck](#Grothendieck), [Cisinski](#Cisinski)), however not a strict one ([Kan](#Kan)). (The corresponding [[model category]] is discussed at [[model structure on cubical sets]].=)
 
   The category of [[cubes]] equipped with [[connection on a cubical set]] is even a strict test category ([Maltsiniotis, 2008](#Maltsiniotis)).
 
