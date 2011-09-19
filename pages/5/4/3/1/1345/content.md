@@ -137,6 +137,13 @@ $$
 
 ## References
 
+The original reference is
+
+* [[Aldridge Bousfield]] and [[Dan Kan]], _Homotopy limits, completions and localizations_ Springer-Verlag, Berlin, 1972. Lecture Notes in Mathematics, Vol. 304.
+ {#BousfieldKan}
+
+Reviews include 
+
 * Hirschhorn, _Simplicial model categories and their localization_.
 
 The Bousfield--Kan map(s) are on p. 397, def. 18.7.1 and def. 18.7.3.
