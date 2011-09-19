@@ -45,8 +45,9 @@ with the property that
 
 $$
   \phi(v) : v \mapsto \pi(v)
-  \,.
 $$
+
+where we identify $\pi(v)$ with the zero vector in the corresponding fibre of $E$.
 
 =--
 
@@ -60,7 +61,7 @@ $$
 $$
 The problem with this is that we do not want just any diffeomorphism.  We want one that is the identity "near infinity".  Let us start by fixing the diffeomorphism in the $v$-direction.
 
-Choose a smooth function $\sigma \colon \mathbb{R} \to [0,1]$ with the following properties:
+Choose a smooth function $\sigma \colon \mathbb{R} \to [-1,0]$ with the following properties:
 
 1. $\sigma(t) = \begin{cases} 0 & t \le -2 \\ - 1 & 0 \le t \le 1 \\ 0 & 2 \le t \end{cases}$
 2. $\sigma'(t) \gt -1$ (note that this is possible as we have given ourselves an interval of length $2$ to get from $0$ at $t = -2$ to $-1$ at $t = 0$.
