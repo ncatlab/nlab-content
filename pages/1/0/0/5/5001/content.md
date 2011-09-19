@@ -31,15 +31,25 @@ $$
 
 There is an eviden [[model category]] structure on $sSet^{\Delta}$ which models cosimplicial [[infinity groupoid]]s.
 
+## Properties
+
+There are several standard ways to equip $sSet^\Delta$ with the structure of a [[model category]]. See [[model structure on cosimplicial simplicial sets]] for more.
+
 ## References
 
 The standard reference is 
 
-* Goerss, Jardine, _Simplicial homotopy theory_
+* [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_
+
+Chapter X of 
+
+* [[Aldridge Bousfield]] and [[Dan Kan]], _Homotopy limits, completions and localizations_ Springer-Verlag, Berlin, 1972. Lecture Notes in Mathematics, Vol. 304.
+ {#BousfieldKan}
+
 
 The homotopy [[spectral sequence]] for cosimplicial spaces is in chapter VIII.
 
-* J. Jardine, _Cosimplicial spaces and cocycles_ ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/cosimp3.pdf))
+* [[Rick Jardine]], _Cosimplicial spaces and cocycles_ ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/cosimp3.pdf))
 
 
 * [[Thomas Goodwillie]], _A remark on the homology of cosimplicial spaces_ , Journal of Pure and Applied Algebra Volume 127, Issue 2, 15 May 1998, Pages 167-175 
