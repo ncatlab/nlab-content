@@ -181,3 +181,5 @@ A quantitative analysis showing that locally supersymmetric [[spacetime]] theori
 
 [[!redirects local supersymmetries]]
 [[!redirects global supersymmetries]]
+
+[[!redirects supersymmetric]]
