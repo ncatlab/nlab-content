@@ -35,3 +35,5 @@ In [[gravity]],  __Bekenstein-Hawking entropy__ is an [[entropy]] assigned to [[
 * scholarpedia [article](http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy) (written by Bekenstein, with lost of references)
 
 * MO question [statistical-physics-of-string-theory](http://mathoverflow.net/questions/31789/statistical-physics-of-string-theory)
+
+[[!redirects black hole entropy]]
