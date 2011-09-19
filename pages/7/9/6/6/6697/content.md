@@ -1,0 +1,51 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Gravity
++-- {: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Up to [[isometry]], the **anti de Sitter spacetime** of [[dimension]] $d + 1$ is the [[pseudo-Riemannian manifold]] whose underlying [[manifold]] is the submanifold of the [[Cartesian space]] $\mathbb{R}^{d+2}$ that solves the equation
+
+$$
+  \sum_{i = 1}^{d+1} (x^i)^2 - (x^{d+2})^2 = 0
+$$
+
+and equipped with the metric induced from the ambient metric
+
+$$
+  g = \sum_{i = 1}^{d+1} d x^i \otimes d x^i
+   - d x^{i+1} \otimes d x^{i+t}
+ \,,
+$$
+
+where $x^i : \mathbb{R}^{d+2} \to \mathbb{R}$ denote the canonical [[coordinate]]s on a [[Cartesian space]].
+
+## Properties
+
+* [[AdS/CFT correspondence]]
+
+## References
+
+* Ingemar Bengtsson, _Anti-de Sitter space_ lecture notes ([ps](http://www.physto.se/~ingemar/Kurs.ps))
+
+* wikipedia_ [anti de Sitter space](http://en.wikipedia.org/wiki/Anti_de_Sitter_space)
+
+[[!redirects anti-de Sitter spacetime]]
+[[!redirects anti de Sitter spacetimes]]
+[[!redirects anti-de Sitter spacetimes]]
