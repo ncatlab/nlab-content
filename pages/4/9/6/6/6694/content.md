@@ -1,0 +1,37 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+## Properties of Maps From Compact Spaces to Hausdorff Spaces ## {: #title}
+
+There is a classic theorem about maps from [[compact spaces]] to [[Hausdorff spaces]] which states:
+
++-- {: .num_theorem #theorema .thplain }
+###### Theorem ######
+Let $C$ be a [[compact space]] and $H$ be a [[Hausdorff space]]. Let $f \colon C \to H$ be a [[continuous map|continuous]] [[bijection]]. Then $f$ is a [[homeomorphism]].
+=--
+
+An immediate corollary is that the two spaces involved are both [[compact Hausdorff spaces]].
+
+The idea that this captures is that Hausdorffness is about having "enough" open sets whilst compactness is about having "not too many". Thus a [[compact Hausdorff space]] has both "enough" and "not too many". This theorem says that both conditions are at their limit: if we try to have more open sets, we lose compactness. If we try to have fewer open sets, we lose Hausdorffness.
+
+The above theorem is a special case of a slightly more general result.
+
++-- {: .num_theorem #theoremb .thplain }
+###### Theorem ######
+Let $C$ be a [[compact space]] and $H$ be a [[Hausdorff space]]. Let $f \colon C \to H$ be a [[continuous map]]. Then $f$ is [[closed map|closed]] and [[proper map|proper]].
+=--
+
++-- {: .proof }
+To prove this, we need to show that a closed subset of $C$ is taken to a closed subset of $H$ and that the preimage of a compact subset of $H$ is compact in $C$.  Both follow from the fact that closed subsets of a compact set are compact and that compact subsets of a Hausdorff space are closed.
+
+For the first, let $D \subseteq C$ be closed. As it is a closed subset of a compact space, it is compact. Since $f$ is continuous, $f(D)$ is a compact subset of $H$. Thus as $H$ is a Hausdorff space, $f(D)$ is closed.
+
+For the second, let $G \subseteq H$ be compact.  As it is a compact subset of a Hausdorff space, it is closed.  Thus as $f$ is continuous, $f^{-1}(G)$ is closed in $C$.  Hence as $C$ is compact, $f^{-1}(G)$ is compact.
+=--
