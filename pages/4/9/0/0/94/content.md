@@ -428,7 +428,12 @@ and
 
   * [[infinity-Lie algebra cohomology]]
 
+  * [[L-∞ algebroid]]
+
+  * [[derived L-∞ algebroid]]
+
 ## References ##
+
 
 The original references are:
 
