@@ -49,3 +49,12 @@ This category $(T Alg^{\Delta^{op} \times \Delta})^{op}$ we identify with that o
 
 In the literature the most familiar example of a derived $\infty$-Lie algebroids -- even if not under this name -- are the [[BV-BRST complex]]es. These are [[action Lie algebroid]]s for actions of [[∞-Lie algebra]]s on [[derived smooth manifold]]s.
 
+[[!redirects derived L-infinity algebra]]
+[[!redirects derived L-infinity algebroid]]
+[[!redirects derived L-∞ algebra]]
+[[!redirects derived L-∞ algebroid]]
+
+[[!redirects derived L-infinity algebras]]
+[[!redirects derived L-infinity algebroids]]
+[[!redirects derived L-∞ algebras]]
+[[!redirects derived L-∞ algebroids]]
