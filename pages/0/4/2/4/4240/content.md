@@ -82,7 +82,7 @@ He attributes this result to:
 
 ## References ##
 
-* [[Dominic Joyce]], _A classifying invariant of knots; the knot quandle_, J. Pure Appl. Alg. __23__ (1982), 37-65
+* [[David Joyce]], _A classifying invariant of knots; the knot quandle_, J. Pure Appl. Alg. __23__ (1982), 37-65
 
 * Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
 
