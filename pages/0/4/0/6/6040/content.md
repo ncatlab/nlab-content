@@ -1,13 +1,14 @@
 
 ## In differential geometry
 
-For $X$ a [[smooth manifold]], a _smooth curve_ in $X$ is a [[smooth function]] $\gamma : \mathbb{R} \to X$ from the [[real line]] to $X$.
+For $X$ a [[smooth manifold]], a (parametrized) _smooth curve_ in $X$ is a [[smooth function]] $\gamma : \mathbb{R} \to X$ from the [[real line]] to $X$.
+
+For most purposes in differential geometry one needs to work with a __regular curve__, which is a parametrized smooth curve whose velocity, i.e. the derivative with respect to the parameter is never zero. For example, this is important if one wants to split curve into "segments" which have no self-intersections, what is not important. 
 
 
 ## In algebraic geometry
 
-(...)
-
-for instance [[elliptic curve]].
+An algebraic curve is a 1-dimensional [[algebraic variety]] over a field. 
+An example: [[elliptic curve]].
 
 [[!redirects curves]]
