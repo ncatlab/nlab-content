@@ -1,6 +1,19 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
 [[!include mathematicscontents]]
-</div>
+=--
+=--
+=--
+
+
 
 This entry provides a keyword list on concepts related to **categories and sheaves** following the book
 
