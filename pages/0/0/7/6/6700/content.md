@@ -15,7 +15,7 @@
 
 ## Idea
 
-The local data for a [[CFT]] in [[dimension]] $d$ allows to assign to each $d$-[[dimension]]al [[cobordism]] $\Sigma$ a [[vector space]] of "possible correlator"s: those functions on the space of [[conformal structure]]s on $\Sigma$ that have the correct behaviour to qualify as the [[correlator]] of a CFT. This is called a space of [[conformal block]]s $Bl(\Sigma)$. This assignment is [[functor]]ial under [[diffeomorphism]]. The corresponding functor is called a **modular functor**.
+The local data for a [[CFT]] in [[dimension]] $d$ allows to assign to each $d$-[[dimension]]al [[cobordism]] $\Sigma$ a [[vector space]] of "possible correlator"s: those functions on the space of [[conformal structure]]s on $\Sigma$ that have the correct behaviour to qualify as the (chiral) [[correlator]] of a CFT. This is called a space of [[conformal block]]s $Bl(\Sigma)$. This assignment is [[functor]]ial under [[diffeomorphism]]. The corresponding functor is called a **modular functor**.
 
 To get an actual collection of correlators one has to choose from each space of conformal blocks $Bl(\Sigma)$ an element such that these choices glue under composition of [[cobordism]]: such that they solve the [[sewing constraint]]s.
 
