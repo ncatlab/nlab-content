@@ -3,7 +3,7 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Riemannian geometry
-+--{: .hide}
++-- {: .hide}
 [[!include Riemannian geometry - contents]]
 =--
 #### Gravity
@@ -13,10 +13,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -34,18 +33,26 @@ $$
  \,,
 $$
 
-where $x^i : \mathbb{R}^{d+2} \to \mathbb{R}$ denote the canonical [[coordinate]]s on a [[Cartesian space]].
+where $x^i\colon \mathbb{R}^{d+2} \to \mathbb{R}$ denote the canonical [[coordinate]]s on a [[Cartesian space]].
+
 
 ## Properties
 
 * [[AdS/CFT correspondence]]
 
+
 ## References
 
 * Ingemar Bengtsson, _Anti-de Sitter space_ lecture notes ([ps](http://www.physto.se/~ingemar/Kurs.ps))
 
-* wikipedia_ [anti de Sitter space](http://en.wikipedia.org/wiki/Anti_de_Sitter_space)
+* Wikipedia (English): [anti de Sitter space](http://en.wikipedia.org/wiki/Anti_de_Sitter_space)
 
-[[!redirects anti-de Sitter spacetime]]
+
+[[!redirects anti de Sitter space]]
+[[!redirects anti de Sitter spaces]]
+[[!redirects anti-de Sitter space]]
+[[!redirects anti-de Sitter spaces]]
+[[!redirects anti de Sitter spacetime]]
 [[!redirects anti de Sitter spacetimes]]
+[[!redirects anti-de Sitter spacetime]]
 [[!redirects anti-de Sitter spacetimes]]
