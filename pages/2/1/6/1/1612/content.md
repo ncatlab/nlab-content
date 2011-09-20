@@ -1,9 +1,16 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -22,7 +29,7 @@ Here on the right what is means is the diagram in the modular tensor category ma
 
 In the description of 2-dimensional [[conformal field theory]] in the [[FFRS-formalism]] it is manifestly this kind of modular diagram that encodes the torus partition function of the CFT. This explains the relevance of modular tensor categories in the description of [[conformal field theory]].
 
-Since 2-dimensional conformal field theory is related by [[quantum holography]] to 3-dimensional [[TQFT]], modular tensor categories also play a role there, which was in fact understood before the full application in conformal field theory was: in the [[Reshetikhin-Turaev model]].
+Since 2-dimensional conformal field theory is related by a [[holographic principle]] to 3-dimensional [[TQFT]], modular tensor categories also play a role there, which was in fact understood before the full application in conformal field theory was: in the [[Reshetikhin-Turaev model]].
 
 
 ## Definition ##
