@@ -76,7 +76,7 @@ $X \stackrel{c}{\to} B G \stackrel{k}{\to} \mathcal{B}^n A$ represents a class $
 
 Notable families of examples include:
 
-* for $G = O$ the [[orthogonal group]]: [[Pontryagin class]]es;
+* for $G = O$ the [[orthogonal group]]: [[Pontryagin class]]es, [[Stiefel-Whitney class]]es;
 
 * for $G = SO$ the [[special orthogonal group]]: [[Euler class]]es;
 
