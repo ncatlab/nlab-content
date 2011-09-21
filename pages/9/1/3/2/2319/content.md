@@ -72,15 +72,17 @@ It is the generalization of this anomaly computation from the worldlines of supe
 
 ## Related concepts
 
-* [[orientation]]
+* [[twisted differential c-structure|(twisted differential) c-structure]]
 
-* **spin structure**, [[twisted spin structure]]
+  * [[orientation]]
 
-  [[spin^c structure]], [[twisted spin^c structure]]
+  * **spin structure**, [[twisted spin structure]], [[differential spin structure]]
 
-* [[string structure]], [[differential string structure]]
+    [[spin^c structure]], [[twisted spin^c structure]]
 
-* [[fivebrane structure]], [[differential fivebrane structure]]
+  * [[string structure]], [[differential string structure]]
+
+  * [[fivebrane structure]], [[differential fivebrane structure]]
 
 ## References
 
