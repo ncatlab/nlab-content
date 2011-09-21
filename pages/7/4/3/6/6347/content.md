@@ -69,6 +69,11 @@ A [[holographic principle|holographic]] description of type II by [[higher dimen
 
 
 [[!redirects type II superstring]]
+[[!redirects type II string]]
+[[!redirects type II superstrings]]
+[[!redirects type II strings]]
+
+
 
 [[!redirects type II supergravity]]
 
