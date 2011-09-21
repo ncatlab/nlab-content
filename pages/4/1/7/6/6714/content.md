@@ -1,0 +1,21 @@
+The exact sequence of [[abelian group]]s
+
+$$
+0\to \mathbb{Z}\stackrel{\cdot2}{\to} \mathbb{Z}\to\mathbb{Z}/2\mathbb{Z}\to 0
+$$
+
+induces a [[fiber sequence]]
+
+$$
+\cdots\to\mathbf{B}^n \mathbb{Z}\to \mathbf{B}^n\mathbb{Z}\to \mathbf{B}^n\mathbb{Z}/2\mathbb{Z}\to \mathbf{B}^{n+1}\mathbb{Z}\to \cdots
+$$
+
+and so, for any object $X$, a fiber sequence
+
+$$
+\cdots\to\mathbf{H}(X,\mathbf{B}^n \mathbb{Z})\to \mathbf{H}(X,\mathbf{B}^n\mathbb{Z})\to \mathbf{H}(X,\mathbf{B}^n\mathbb{Z}/2\mathbb{Z})\stackrel{\beta}{\to} \mathbf{H}(X,\mathbf{B}^{n+1}\mathbb{Z})\to \cdots
+$$
+
+The image via $\beta$ of the $n$-th [[Stiefel-Whitney class|Stiefel-Whitney map]] $w_n\in \mathbf{H}(X,\mathbf{B}^n\mathbb{Z}/2\mathbb{Z})$ in $\mathbf{H}(X,\mathbf{B}^{n+1}\mathbb{Z})$ is called the $(n+1)$-th **integral Stiefel-Whithey map** and is denoted by $W_{n+1}$. One uses the same symbol to denote the connected component of $W_{n+1}$ in $H^{n+1}(X;\mathbb{Z})=\pi_0\mathbf{H}(X,\mathbf{B}^{n+1}\mathbb{Z})$, and calls this the $(n+1)$-th **integral Stiefel-Whithey class**.
+
+For instance, the third integral Stiefel-Whitney class $W_3(T X)$ of the [[tangent bundle]] of an oriented $n$-dimensional manifold $X$ vanishes if and only if the second Stiefel-Whitney class $w_2(T X)$ is in the image of the reduction mod 2 morphism $H^2(X;\mathbb{Z})\to H^2(X;\mathbb{Z}/2\mathbb{Z})$. Since $H^2(X;\mathbb{Z})$ classifies isomorphism classes of principal $U(1)$-bundles over $X$ and $W_3(E)$ is the obstruction to the existence of a [[spin^c structure]] on $X$, we see that $X$ has a spin^c structure if and only if there exists a principal $U(1)$-bundle on $X$ "killing" the second Stiefel-Whitney class of $X$. In particular, when $w_2(T X)$ is killed by the trivial $U(1)$-bundle, i.e., when $w_2(T X)=0$, $X$ has a [[spin structure]].
