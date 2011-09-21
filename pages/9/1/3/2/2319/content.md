@@ -76,6 +76,8 @@ It is the generalization of this anomaly computation from the worldlines of supe
 
 * **spin structure**, [[twisted spin structure]]
 
+  [[spin^c structure]], [[twisted spin^c structure]]
+
 * [[string structure]], [[differential string structure]]
 
 * [[fivebrane structure]], [[differential fivebrane structure]]
