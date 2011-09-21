@@ -58,9 +58,15 @@ Particularly the [[A-model]] and the [[B-model]] are well understood.
 
 *  the branes of the A-model form the [[Fukaya category]] of the target space.
 
-(...)
 
-See also _[[string topology]]_ .
+
+* the category of D-branes of the A-model on a symplectic [[Landau-Ginzburg model]], is a [[Fukaya-Seidel category]];
+
+* the category of D-branes of the B-model on a complex Landau-Ginzburg model is a category of [[matrix factorization]]s.
+
+
+
+There is also a mathematical structure called _[[string topology]]_  with D-branes. At present this is more "string inspired" than actually derived from string theory, though.
 
 ### In terms of geometric data of the $\sigma$-model background 
 
@@ -110,6 +116,11 @@ For exhaustive details on D-branes in 2-dimensional rational [[CFT]] see the ref
 
 * [[FFRS-formalism]].
 
+### For topological strings
+
+A discussion of topological D-branes in the context of [[higher category theory]] is in
+
+* [[Anton Kapustin]], _Topological Field Theory, Higher Categories, and Their Applications_ ([arXiv:1004.2307](http://arxiv.org/abs/1004.2307))
 
 ### Anomaly cancellation
 
@@ -125,5 +136,11 @@ More details are in
 A clean review is provided in
 
 * Kim Laine, _Geometric and topological aspects of Type IIB D-branes_ ([arXiv:0912.0460](http://arxiv.org/abs/0912.0460))
+
+
+
+
+
+
 
 [[!redirects D-branes]]
