@@ -438,6 +438,7 @@ Discussion of the mathematical aspects is in
 
 * [[Hiroshige Kajiura]], [[Jim Stasheff]], _Homotopy algebras inspired by classical open-closed string field theory_ (2004) ([arXiv:math/0410291](http://arxiv.org/abs/math/0410291))
 
+* Korbinian Muenster, Ivo Sachs, _Quantum Open-Closed Homotopy Algebra and String Field Theory_ ([arXiv:1109.4101](http://arxiv.org/abs/1109.4101))
 
 Discussion of the CSFT-action as of the form of [[schreiber:infinity-Chern-Simons theory]] is in section 4.4 of 
 
