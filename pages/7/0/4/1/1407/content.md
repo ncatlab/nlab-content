@@ -66,6 +66,28 @@ These aspects have motivated the impression that the string perturbation series 
 
 * More fundamentally, already the role of the original perturbation series in quantum field theory is actually not fully understood. Its main success is the observation that truncating or resumming the perturbation series in a more or less ad hoc way, it does yield values that very well describe a plethora of real world measurements.  One imagines that there is a _non-perturbative_ definition of [[quantum field theory]] such that in certain well-defined circumstances the perturbation series does yield an approximation to it and is _a posteriori_ justified. If so, there should be an analogous nonperturbative definition of string theory. There is a large ratio of speculations as to what that might be over solid results about it.
 
+## Critical string theories and quantum anomalies
+ {#CriticalStringsAndQuantumAnomalies}
+
+The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[quantum anomaly]] of both kinds:
+
+1. For both the bosonic string and the superstring the corresponding [[Polyakov action]] has a [gauge anomaly]() for the [[conformal field theory|conformal symmetry]], depending on the [[dimension]] $d$ of [[target space]], and on the strength of the [[dilaton]] background field. For vanishing dilaton field this anomaly vanishes exactly for $d = 26$ for the bosonic model, and in $d = 10$ for the [[superstring]]. 
+
+   For target spaces of these dimensions one speaks of **critical string theory**. In as far as string theory is expected to have relevance for physics at all, it is usually expected to be in this critical dimension. But also noncritical string models can and have been considered.
+
+1. Apart from the gauge anomaly, the [[action functional]] of the [[string]]-[[sigma-model]] also in general has an _[anomalous action functional](http://ncatlab.org/nlab/show/quantum+anomaly#AnomalousActionFunctional)_ , for two reasons:
+
+   1. The [[holonomy|higher holonomy]] of the higher [[background gauge field]]s is in general not a function, but a [[section]] of a [[line bundle]];
+
+   1. The fermionic [[path integral]] over the [[worldsheet]]-[[spinor]]s of the [[superstring]] produces as section of a [[Pfaffian line bundle]].
+
+   In order for the action functional to be well-defined, the [[tensor product]] of these different anomaly [[line bundle]]s over the bosonic [[configuration space]] must have trivial class (as [[connection on a bundle|bundles with connection]], even). This gives rise to various further anomaly cancellation conditions:
+
+   1. For the [[heterotic string]] (necessarily closed) the anomaly cancellation condition is known as the _[[Green-Schwarz mechanism]]_ : it says that the background fields of [[gravity]] and [[B-field]] must organize to a [[twisted differential string structure]] whose twist is given by the background [[Yang-Mills field]].
+
+   1. For the open [[type II string]] the condition is known as the [[Freed-Witten anomaly cancellation]] condition: it says that the restriction of the [[B-field]] to any [[D-brane]] must consistute the twist of a [[twisted spin^c structure]] on the brane.
+
+
 ## Subtopics
 
 * string theory
@@ -81,6 +103,8 @@ These aspects have motivated the impression that the string perturbation series 
       * [[dual heterotic string theory]]
 
     * [[type II string theory]]
+
+      * [[Freed-Witten anomaly cancellation]]
 
 * [[background gauge field]]s
 
