@@ -1,0 +1,32 @@
+Let $A$ be an [[abelian group]] and $m$ be an integer such that the multiplication by $m$
+
+$$
+A \stackrel{m\cdot}{\to} A
+$$
+
+is injective. Then we have a short exact sequence of abelian groups
+
+$$
+0\to A \stackrel{m\cdot}{\to} A \to A/m A\to 0
+$$
+
+and so a long [[fiber sequence]]
+
+$$
+\cdots \mathbf{B}^n A \to \mathbf{B}^n A \to \mathbf B^n(A/ m A) \to \mathbf{B}^{n+1} A \to \cdots
+$$
+
+This induces, for any object $X$, a long fiber sequence
+
+$$
+\cdots \mathbf{H}(X,\mathbf{B}^n A) \to \mathbf{H}(X,\mathbf{B}^n A) \to \mathbf{H}(X,\mathbf B^n(A/ m A)) \stackrel{\beta_m}{\to} \mathbf{H}(X,\mathbf{B}^{n+1} A) \to \cdots
+$$
+
+where the morphisms $\beta_m$ are called the **Bockstein morphisms**. Note that the term Bockstein homomorphism often refers to the image of $\beta_m$ via $\pi_0$:
+
+$$
+\beta_m:H^n(X,A/ m A) \to H^{n+1}(X,A).
+$$
+
+
+  
