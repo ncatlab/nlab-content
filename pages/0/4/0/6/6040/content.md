@@ -1,14 +1,23 @@
 
+# Curves
+* table of contents
+{: toc}
+
 ## In differential geometry
 
-For $X$ a [[smooth manifold]], a (parametrized) _smooth curve_ in $X$ is a [[smooth function]] $\gamma : \mathbb{R} \to X$ from the [[real line]] to $X$.
+For $X$ a [[smooth manifold]], a (parametrized oriented) __smooth curve__ in $X$ is a [[smooth function]] $\gamma\colon \mathbb{R} \to X$ from the [[real line]] (or an [[interval]] therein) to $X$.  (Compare [[path]].)
 
-For most purposes in differential geometry one needs to work with a __regular curve__, which is a parametrized smooth curve whose velocity, i.e. the derivative with respect to the parameter is never zero. For example, this is important if one wants to split curve into "segments" which have no self-intersections, what is not important. 
+For most purposes in [[differential geometry]] one needs to work with a __regular curve__, which is a parametrized smooth curve whose velocity, i.e. the [[derivative]] with respect to the parameter, is never zero. For example, this is important if one wants to split curve into segments which have no self-intersections, which is important.
+
+In the foundations of [[differential topology]], it is possible to define a [[tangent vector]] as an equivalence class of curves, effectively identifying a curve with its derivative at (say) $0$.
 
 
 ## In algebraic geometry
 
-An algebraic curve is a 1-dimensional [[algebraic variety]] over a field. 
+In [[algebraic geometry]], an __algebraic curve__ is a $1$-dimensional [[algebraic variety]] over a field.
+
 An example: [[elliptic curve]].
 
+
+[[!redirects curve]]
 [[!redirects curves]]
