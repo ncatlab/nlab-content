@@ -43,6 +43,8 @@ $$
 In the case that $C$ has just a single object $\bullet$ the category $C$ is just a [[monoid]] (might for instance be a [[group]]), there is just a single set $S = \rho(\bullet)$ and we recover the ordinary notion of a [[monoid]] or [[group]] acting on a set.
 
 
+Indeed this generalizes the instance (the motivating example for the notion of action) where $\rho:G\rightarrow \mathbf{Aut}(S)$ is a group action on a set $S$, since the notion of coproduct is a generalization of the notion of automorphism group since naively a [[cardinal]] is an isomorphism class of sets and the notion of coproduct in turn generalizes that of cardinal ( see [[cardinal|there]]).  
+
 ### Action as an algebra for a monad
 
 An equivalent perspective on the above situation is often useful. To motivate this, notice that the decomposition $S = \sqcup_{c \in Obj(c)} \rho(c)$ of the set $S$ into subsets corresponding to objects of the category $C$ can equivalently be encoded in a map of sets
