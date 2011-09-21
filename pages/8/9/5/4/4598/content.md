@@ -32,12 +32,14 @@ The analogs for the [[unitary group]] are the [[Chern class]]es.
 
 * [[Chern class]]
 
+* [[Stiefel-Whitney class]]
+
 * [[Chern character]]
 
 
 ## References
 
-* J. Milnor, [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press
+* [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press
 
 A classical textbook reference is
 
