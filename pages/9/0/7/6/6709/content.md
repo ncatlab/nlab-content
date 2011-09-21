@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A family of [[characteristic class]]es that obstruct [[orientation]], [[spin structure]], [[spin^c structure]], etc.
+
+## Related concepts
+
+* [[Chern class]]
+
+* [[Pontryagin class]]
+
+## References
+
+* wikipedia: _[Stiefel-Whitney class](http://en.wikipedia.org/wiki/Stiefel%E2%80%93Whitney_class)_
