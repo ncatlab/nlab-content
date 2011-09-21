@@ -29,7 +29,8 @@ There are at least two things that are called _quantum anomalies_ in the context
 
 ## Definition
 
-### Anomalous action functional
+### Anomalous action functional 
+ {#AnomalousActionFunctional}
 
 There are two major kinds of [[action functional]]s that may be anomalous in that they are not actually [[function]]s/[[functional]]s on the configuration space of fields, but just [[section]]s of some [[line bundle]]:
 
@@ -50,6 +51,7 @@ For the moment see [[Green-Schwarz mechanism]] for more.
 
 
 ### Anomalous symmetry
+ {AnomalousSymmetry}
 
 > under construction
 
