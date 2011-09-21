@@ -1,0 +1,51 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
+For $X$ a [[manifold]], a [[spin^c structure]] exists precisely if the third [[Steifel-Whitney class]] $W_3(X)$ vanishes. The space of _twisted_ $spin^c$-structures for twist a given class $[c] \in H^3(X, \mathbb{Z})$ is the [[homotopy fiber]] of the refined Stiefel-Whitney class over this element.
+
+## Related concepts
+
+* [[orientation]]
+
+* [[spin structure]], [[twisted spin structure]]
+
+  [[spin^c structure]], **twisted $spin^c$ structure**
+
+* [[string structure]], [[differential string structure]]
+
+* [[fivebrane structure]], [[differential fivebrane structure]]
+
+
+## References
+
+### General
+
+Twisted $Spin^c$-structures as such are discussed in 
+
+* [[Bai-Ling Wang]], _Geometric cycles, index theory and twisted K-homology_ ([arXiv:0710.1625](http://arxiv.org/abs/0710.1625)) 
+
+### In physics
+
+The origin of twisted $Spin^c$-structures on the [[worldvolume]] of [[D-brane]]s in [[string theory]] is
+
+* [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_ ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
+
+A more recent review is provided in
+
+* Kim Laine, _Geometric and topological aspects of Type IIB D-branes_ ([arXiv:0912.0460](http://arxiv.org/abs/0912.0460))
