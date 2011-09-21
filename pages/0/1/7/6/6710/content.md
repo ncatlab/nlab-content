@@ -31,7 +31,7 @@ $$
   \,,
 $$
 
-where $W_3$ is the _third integral [[Stiefel-Whitney class]]_ . 
+where $W_3$ is the _third [[integral Stiefel-Whitney class]]_ . 
 
 An [[oriented]] manifold $X$ **has $Spin^c$-structure** if the class $[W_3(X)] \in H^3(X, \mathbb{Z})$
 
