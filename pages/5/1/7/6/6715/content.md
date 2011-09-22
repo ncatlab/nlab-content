@@ -15,22 +15,23 @@
 
 ## Definition
 
-Let $A$ be an [[abelian group]] and $m$ be an [[integer]] such that the multiplication by $m$
+Let $A$ be an [[abelian group]] and $m$ be an [[integer]]. Then multiplication by $m$
 
 $$
   A \stackrel{m\cdot}{\to} A
 $$
 
-is [[monomorphism|injective]]. Then we have a [[short exact sequence]] of abelian groups
+induces a [[short exact sequence]] of abelian groups
 
 $$
-  0\to A \stackrel{m\cdot}{\to} A \to A/m A\to 0
+  0\to A/A_{m-tors} \stackrel{m\cdot}{\to} A \to A/m A\to 0,
 $$
 
+where $A_{m-tors}$ is the subgroup of $m$-torsion elements of $A$,
 and so a long [[fiber sequence]]
 
 $$
-\cdots \mathbf{B}^n A \to \mathbf{B}^n A \to \mathbf B^n(A/ m A) \to \mathbf{B}^{n+1} A \to \cdots
+\cdots \mathbf{B}^n (A/A_{m-tors}) \to \mathbf{B}^n A \to \mathbf B^n(A/ m A) \to \mathbf{B}^{n+1} (A/A_{m-tors}) \to \cdots
 $$
 
 of [[∞-groupoid]]s, where $\mathbf{B}^n(-)$ denotes the $n$-fold [[delooping]] (hence $\mathbf{B}^n A$ is the [[Eilenberg-MacLane object]] on $A$ in degree $n$).
@@ -38,7 +39,7 @@ of [[∞-groupoid]]s, where $\mathbf{B}^n(-)$ denotes the $n$-fold [[delooping]]
 This induces, in turn, for any object $X \in \mathbf{H}$ (for $\mathbf{H}$ the ambient [[(∞,1)-topos]], such as [[Top]] $\simeq$ [[∞Grpd]]) , a long [[fiber sequence]]
 
 $$
-\cdots \mathbf{H}(X,\mathbf{B}^n A) \to \mathbf{H}(X,\mathbf{B}^n A) \to \mathbf{H}(X,\mathbf B^n(A/ m A)) \stackrel{\beta_m}{\to} \mathbf{H}(X,\mathbf{B}^{n+1} A) \to \cdots
+\cdots \mathbf{H}(X,\mathbf{B}^n (A/A_{m-tors})) \to \mathbf{H}(X,\mathbf{B}^n A) \to \mathbf{H}(X,\mathbf B^n(A/ m A)) \stackrel{\beta_m}{\to} \mathbf{H}(X,\mathbf{B}^{n+1} (A/A_{m-tors})) \to \cdots
 $$
 
 of [[cocycle]] [[∞-groupoids]].
@@ -48,15 +49,18 @@ Here the [[connecting homomorphisms]] $\beta_m$ are called the **Bockstein homom
 Notice that often this term is used to refer only to the image of the above in [[cohomology]], hence to the image of $\beta_m$ under [[0-truncated|0-truncation]]/[[homotopy group|0th homotopy group]] $\pi_0$:
 
 $$
- \beta_m : H^n(X,A/ m A) \to H^{n+1}(X,A)
+ \beta_m : H^n(X,A/ m A) \to H^{n+1}(X,(A/A_{m-tors}))
   \,.
 $$
 
 ## Examples
 
+* When $A=\mathbb{Z}$, the equivalence $\mathbf{B}^{n+1}\mathbb{Z}\cong \mathbf{B}^n U(1)$ identifies the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n+1}\mathbb{Z}$ with the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n} U(1)$ indices by the inclusion of the subgroup of $m$-th roots of unity into $U(1)$. This identifies the Bockstein homomorphism $\beta_m: H^n(X;\mathbb{Z}_m)\to H^{n+1}(X;\mathbb{Z})$ with the natural homomorphism 
+$H^n(X;\mathbb{Z}_m)\to H^{n}(X;U(1))$.
+
 * The Bockstein homomorphism $\beta$ for the sequence $\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{Z} \stackrel{}{\to} \mathbb{Z}_2$ serves to defined [[integral Stiefel-Whitney class]]es $W_{n+1} := \beta w_n$ in degree $n+1$ from $\mathbb{Z}_2$-valued [[Stiefel-Whitney class]]es in degree $n$.
 
-* For $p$ any [[prime number]] the Bockstein homomorphism for the sequence $\mathbb{Z}_p \to \mathbb{Z}_{p^2} \to \mathbb{Z}_p$ appears as one of the generators of the [[Steenrod algebra]].
+* For $p$ any [[prime number]] the multiplication by $p$ on $\mathbb{Z}_{p^2}$ induces the short exact sequence $\mathbb{Z}_p \to \mathbb{Z}_{p^2} \to \mathbb{Z}_p$. The corresponding Bockstein homomorphism $\beta_p$ appears as one of the generators of the [[Steenrod algebra]].
 
 
 ## References
