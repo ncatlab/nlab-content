@@ -25,6 +25,16 @@ of the [[product]] of the [[spin group]] with the [[circle group]] by the common
 
 ## Properties
 
+### As homotopy fiber of smooth $\mathbf{W}_3$
+ {#AsHomotopyFiberOfSmoothW3}
+
+We dicuss in the following that 
+
+1. the universal third [[integral Stiefel-Whitney class]] $W_3$ has an esentially unique lift from [[∞Grpd]] $\simeq$ [[Top]] to [[Smooth∞Grpd]];
+
+* the smooth [[delooping]] $\mathbf{B}Spin^c \in Smooth\infty Grpd$ is the [[homotopy fiber]] of $\mathbf{W}_3$, hence is the [[circle n-bundle|circle 2-bundle]] over $\mathbf{B} SO$ classified by $\mathbf{W}_3$. 
+
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -39,7 +49,7 @@ where $U(1) \to Spin^c$ is the canonical inclusion into the defining product $U(
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #SpinCAsHomotopyPullbackOfW2AndC1}
 ###### Proposition
 
 We have a [[homotopy pullback]] diagram
@@ -171,37 +181,138 @@ $$
 
 =--
 
-Notice from _[[integral Stiefel-Whitney class]]_ that the universal third integral SW-class 
++-- {: .num_prop #SmoothRefinementOfBockstein}
+###### Proposition
+
+
+The third _[[integral Stiefel-Whitney class]]_ 
 
 $$
-  W_3 := \beta_2 \circ w_2 
+  W_3
+   := 
+  \beta_2 \circ w_2 
+   :
+  B SO \stackrel{w_2}{\to} B^2 \mathbb{Z}
+  \stackrel{\beta_2}{\to}
+  B^3 \mathbb{Z}
 $$
 
-has a smooth refinement 
+has an essentially unique lift through [[geometric realization]] $\vert -\vert : $ [[Smooth∞Grpd]] $\stackrel{\Pi}{\to}$ [[∞Grpd]] $\stackrel{\simeq}{\to}$ [[Top]] 
+
+given by
 
 $$
   \mathbf{W}_3 = \mathbf{\beta}_2 \circ \mathbf{w}_2
+  : 
+  \mathbf{B} SO(n)
+   \stackrel{w_2}{\to}
+  \mathbf{B}^2 \mathbb{Z}_2
+    \stackrel{\mathbf{\beta}_2}{\to}
+  \mathbf{B}^2 U(1)
   \,,
 $$
 
-where
+where $\mathbf{\beta}_2$ is simply given by the canonical subgroup embedding.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Once we establish that this is a lift at all, the essential uniqueness follows from the respective theorem at [[smooth ∞-groupoid -- structures]].
+
+The ordinary [[Bockstein homomorphism]] $\beta_2$ is presented by the [[∞-anafunctor]]
 
 $$
-  \mathbf{\beta}_2 : \mathbf{B}^2 \mathbb{Z} \to \mathbf{B}^2 U(1)
+  \array{
+    \mathbf{B}^2(\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{Z})
+    &\to&
+    \mathbf{B}^2 (\mathbb{Z} \to 1)
+    =
+    \mathbf{B}^3 \mathbb{Z}
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}^2 \mathbb{Z}_2
+  }
+  \,.
 $$
 
-is simply given by the canonical subgroup embedding.
+Accordingly we need to lift the canonical presentation of $\mathbf{\beta}_2$ to a comparable $\infty$-anafunctor. This is accomplished by
+
+$$
+  \array{  
+    \mathbf{B}^2(\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{Z})
+    &\stackrel{\hat \mathbf{\beta}_2}{\to}&
+    \mathbf{B}^2 (\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{R})
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+     &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}^2 \mathbb{Z}_2
+     &\stackrel{\mathbf{\beta}_2}{\to}&
+    \mathbf{B}^2 U(1)
+  }
+  \,.
+$$
+
+Here the top horizontal morphism is induced from the morphism of [[crossed module]]s that is given by the commuting diagram
+
+$$
+  \array{
+    \mathbb{Z} &\stackrel{id}{\to}& \mathbb{Z}
+    \\
+    \downarrow^{\mathrlap{\cdot 2}} && \downarrow^{\mathrlap{\cdot 2}}
+    \\
+    \mathbb{Z}
+    &\stackrel{}{\hookrightarrow}&
+    \mathbb{R}
+  }
+  \,.
+$$
+
+Since $\mathbb{R}$ is contractible, we have indeed under [[geometric realization]] an equivalence
+
+$$
+  \array{
+    \vert\mathbf{B}^2(\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{Z})\vert
+    &\stackrel{}{\to}&
+    \vert
+      \mathbf{B}^2 (\mathbb{Z} \stackrel{\cdot}{\to} \mathbb{R})
+    \vert
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}^2(\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{Z})
+    &\to&
+    \mathbf{B}^2(\mathbb{Z} \to 1)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    B^2 \mathbb{Z}_2
+     & \stackrel{\beta_2}{\to}&
+    B^3 \mathbb{Z}
+  }
+  \,.
+$$
+
+=--
 
 +-- {: .num_cor}
 ###### Corollary
 
-The [[delooping]] $\mathbf{B}Spin^c$ of the group $Spin^c$ is the [[homotoy fiber]] of the universal third [[integral Stiefel-Whitney class]].
+The [[delooping]] $\mathbf{B}Spin^c$ of the Lie group $Spin^c$ in [[Smooth∞Grpd]] is the [[homotopy fiber]] of the universal third smooth [[integral Stiefel-Whitney class]] from \ref{SmoothRefinementOfBockstein}.
 
 $$
   \mathbf{B}Spin^c 
    \to 
   \mathbf{B} SO
-   \stackrle{\mathbf{W}_2}{\to}
+   \stackrel{\mathbf{W}_2}{\to}
   \mathbf{B}^2 U(1)
   \,,
 $$
@@ -223,9 +334,32 @@ $$
   \mathbf{B}^2 U(1)
 $$
 
-Pasting this to the above homotopy pullback gives the desired result.
+where $\mathbf{\beta}_2$ is the smoothly refined [[Bockstein homomorphism]].
 
-(...)
+Then consider the [[pasting diagram]] of [[homotopy pullback]]
+
+$$
+  \array{
+     \mathbf{B}Spin^c 
+       &\to& 
+     \mathbf{B} U(1)
+     &\to&
+     {*}
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     \mathbf{B} Spin 
+       &\stackrel{\mathbf{w}_2}{\to}&
+     \mathbf{B}^2 \mathbb{Z}_2
+       &\stackrel{\mathbf{\beta}_2}{\to}&
+     \mathbf{B}^2 U(1)
+  }
+  \,.
+$$
+
+The right square is a [[homotopy pullback]] by prop \ref{SmoothRefinementOfBockstein}. The left square is a homotopy pullback by 
+prop. \ref{SpinCAsHomotopyPullbackOfW2AndC1}.
+This implies by the [[pasting law]] for homotopy pullbacks that the total rectangle is also a homotopy pullback. This proves the claim.
 
 =--
 
