@@ -118,11 +118,11 @@ See the [references below](ReferencesAnomalyCancellation) for details.
 
 The notion of twisted $Spin^c$-structures as such were apparently first discussed in section 5 of 
 
-* [[Christopher Douglas]], _On the Twisted K-Homology of Simple Lie Groups_ ([arXiv:0402082](http://arxiv.org/abs/math/0402082))
+* [[Christopher Douglas]], _On the Twisted K-Homology of Simple Lie Groups_ Topology, Volume 45, Issue 6, November 2006, Pages 955-988 ([arXiv:0402082](http://arxiv.org/abs/math/0402082))
 
 More discussion appears in section 3 of
 
-* [[Bai-Ling Wang]], _Geometric cycles, index theory and twisted K-homology_ ([arXiv:0710.1625](http://arxiv.org/abs/0710.1625)) 
+* [[Bai-Ling Wang]], _Geometric cycles, index theory and twisted K-homology_ J. Noncommut. Geom. 2 (2008), no. 4, 497--552 ([arXiv:0710.1625](http://arxiv.org/abs/0710.1625)) 
 
 The refinement to smooth twisted structures is discussed in section 4.1 of
 
