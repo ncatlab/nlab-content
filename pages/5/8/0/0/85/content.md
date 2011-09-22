@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -23,7 +22,7 @@ Just as we can convolve [[function|functions]] $f : M \to \mathbb{C}$ where $M$ 
 
 We can generalize this idea by replacing [[Set]] with a more general [[cocomplete category|cocomplete]] [[symmetric monoidal category]] $V$. The technical condition is that the tensor product $u \otimes v$ must preserve colimits in the separate arguments $u$ and $v$; that is, that the functors $u \otimes -$ and $- \otimes v$ must preserve colimits. This occurs when for instance $V$ is symmetric monoidal closed (so that these functors are left adjoints). 
 
-## Definition
+## Restricted Definition
 
 For $(C, \otimes)$ a [[monoidal category]] and $F, G : C^{op} \to Set$ two [[presheaf|presheaves]] on $C$, their _Day convolution product_ $F \star G$ is the presheaf given by the [[end|coend]]
 
@@ -106,6 +105,42 @@ $$
   \end{aligned}
   \,.
 $$
+
+...
+
+=--
+
+##Extended Day Convolution
+
+In Day's original paper, a stronger form of the Day convolution is discussed.  In the sequel, let $V$ be a complete-cocomplete symmetric monoidal closed category.
+
+We define a pro-monoidal $V$-category $\mathfrak{P}=(A,P,J,\lambda,\rho,\alpha)$ with the following data specified:
+
+1. A small $V$-category $A$.
+
+1. A $3$-ary functor $P:A^\op \otimes A \otimes A\to V^{A^{op}}$.  For notational clarity, we will write $P(a,b,c)$ as $P(a,b \diamond c)$.
+
+1. A $V$-functor $J:A^{op}\to V$
+
+and natural isomorphisms
+
+1. $\lambda_{ab}:J(x) \otimes P(b,a \diamond x)\to A(b,a)$
+
+1. $\rho_{ab}: J(x)\otimes P(b,x \diamond a)\to A(b,a)$
+
+1. $\alpha_{abcd}: P(x,a\diamond b)\otimes P(d,x\diamond c) \to P(x,b\diamond c)\otimes P(d,a\diamond x)$
+
+Satisfying some coherence diagrams (omitted, see references).
+
++-- {: .un_prop}
+###### Proposition
+
+There is an equivalence of categories between the category of pro-monoidal structures on $A$ with strong pro-monoidal functors between them and the category of biclosed monoidal structures on $V^{A^{op}}$ with strong monoidal functors between them.  
+
+=--
+
++-- {: .proof}
+###### Proof
 
 ...
 
