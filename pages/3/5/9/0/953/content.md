@@ -9,7 +9,7 @@
 
 # Idea #
 
-A _Waldhausen category_ $C'$ is a [[homotopical category]] equipped with a bit of extra structure that allows to regard it as a presentation (via [[simplicial localization]]) of an [[(infinity,1)-category]] $C$ such that the extra structure allows to conveniently compute the [[K-theory]] [[Grothendieck group]] $\mathbf{K}(C)$ of $C$.
+A _Waldhausen category_ $C'$ is a [[homotopical category]] equipped with a bit of extra structure that allows us to consider it as a presentation (via [[simplicial localization]]) of an [[(infinity,1)-category]] $C$ such that the extra structure allows to conveniently compute the [[K-theory]] [[Grothendieck group]] $\mathbf{K}(C)$ of $C$.
 
 Notably a Waldhausen category provides the notion of co[[fibration sequence]]s, which are crucial structures controlling $\mathbf{K}(C)$. Dual to the discussion at [[homotopy limit]] and [[homotopy pullback]], ordinary [[pushout]]s in Waldhausen categories of the form
 
@@ -29,7 +29,7 @@ Using this, the [[Waldhausen S-construction]] on $C'$ is an algorithm for comput
 
 # Definition #
 
-Waldhausen in his work in [[K-theory]] introduced the notion of a category with cofibration and weak equivalences, nowdays known as _Waldhausen category_. As the original name suggests, this is a category $C$ with zero object $0$, equipped with a choice of two classes of maps $\mathrm{cof}$ of the cofibrations and $w.e.$ of weak equivalences such that
+Waldhausen in his work in [[K-theory]] introduced the notion of a category with cofibration and weak equivalences, nowadays known as _Waldhausen category_. As the original name suggests, this is a category $C$ with zero object $0$, equipped with a choice of two classes of maps $\mathrm{cof}$ of the cofibrations and $w.e.$ of weak equivalences such that
 
 * (C1) all isomorphisms are cofibrations
 
