@@ -47,9 +47,15 @@ The first column, "stable distributions", basically comes from the [[central lim
 [T]he study of the [[representation theory]] of the [[Virasoro algebra]] gives a way of classifying all possible [[CFT]]s and thereby universality classes in 2d. The breakthrough in this direction came following the seminal 1984 paper of Belavin, Polyakov and Zamolodchikov (BPZ) in which they showed that, for certain special rational values of $c \lt 1$, the [[CFT]] closes with only a finite number of [[representation]]s of the Virasoro algebra, and, for, these cases, all the [[critical exponent]]s and multi-point [[correlation function]]s are calculable. Shortly thereafter Friedan, Qiu and Shenker showed that unitary CFTs (corresponding to local, positive definite Boltzmann weights) are a subset of this list, with $c = 1 - 6/m(m + 1)$ and $m$ an integer $\geq 3$. This gives rise to what might be termed the 'conformal periodic table'. The first few examples may be identified with well-known universality classes. The 'hydrogen atom' of CFT is the scaling limit of the critical Ising model, 'helium' is the tricritical Ising model, and so on. Note, however, that at the next value of $c = 4$ two possible 'isotopes' arise. In the second, corresponding to the critical 3-state Potts model, not all the scaling dimensions allowed by BPZ in fact occur, but some of those that do actually appear twice. In fact the constraint of unitarity is not sufficient to determine exactly which representations actually occur in a given CFT. The answer to this is provided by demanding consistency of the theory on a [[torus]], by interchanging the interpretations of space and imaginary time [...]. For the torus, this is a [[modular form|modular]] transformation, and the requirement of modular invariance has become another powerful tool in classifying CFTs, completely solved in the case $c \lt 1$ by Cappelli, Itzykson and Zuber.
 =--
 
-Relationships from one column to another do exist. For example, dynamical surface growth and [[random matrix theory]] are, unexpectedly, linked: the [[eigenvalue]] distributions of the [[Gaussian Unitary Ensemble|Gaussian Unitary]] and [[Gaussian Orthogonal Ensemble|Gaussian Orthogonal Ensembles]] show up as surface heights in Kardar-Parisi-Zhang phenomena. See ([Takeuchi et al](#Takeuchi)).
+Relationships from one column to another do exist. For example, dynamical surface growth and [[random matrix theory]] are, unexpectedly, linked: the [[eigenvalue]] distributions of the [[Gaussian Unitary Ensemble|Gaussian Unitary]] and [[Gaussian Orthogonal Ensemble|Gaussian Orthogonal Ensembles]] show up as surface heights in Kardar-Parisi-Zhang phenomena. See ([Takeuchi _et al._](#Takeuchi)).
 
 ## Timeline ##
+
+The modern terminology of this subject dates to the late 1960s and early '70s.  At the 1970 Enrico Fermi summer school in Varenna, Italy, Leo P. Kadanoff summarized recent results with a "hypothesis of universality" which the conference proceedings record as follows:
+
++-- {: .standout}
+All phase transition problems can be divided into a small number of different classes depending upon the dimensionality of the system and the symmetries of the order state. Within each class, all phase transitions have identical behaviour in the critical region, only the names of the variables are changed. ([Kadanoff 1971](#Kadanoff1971))
+=--
 
 The following is a capsule history tabulating some important events in the historical development of the modern understanding of universality.
 
@@ -67,7 +73,7 @@ The following is a capsule history tabulating some important events in the histo
 |1947--49| |Feynman, Schwinger, Tomonaga| | Workable [[renormalization]] techniques for "sweeping infinities under the rug" in [[quantum electrodynamics]] |
 |1954--56| |Stueckelberg, Gell-Mann, Bogoliubov _et al._ | | Discovery that the "renormalization group" (RG) captured an important formal property of [[quantum field theory]] |
 |1955| | Wigner | | Eigenvalue statistics of random matrices |
-|1971--72| |Kadanoff, Wilson _et al._ | | Development of RG concept, discovery that it explains universal properties of phase transitions like critical exponents |
+|1970--72| |Kadanoff, Wilson _et al._ | | Development of RG concept, discovery that it explains universal properties of phase transitions like critical exponents |
 |1976 | | Doi| | Second-quantization formalism for classical stochastic many-particle dynamics |
 |1976--79| |Feigenbaum| | Observation and use of RG to explain universal scaling exponents in 1D dynamical maps |
 |1977| | Hohenberg, Halperin | | Classification of critical phenomena in dynamic continuum theories |
@@ -101,6 +107,8 @@ Equilibrium critical phenomena:
 * J. Cardy (2010), _The Ubiquitous 'c': From the Stefan--Boltzmann Law to Quantum Information_, J.Stat.Mech. **2010**: P10004, ([arXiv:1008.2331](http://arxiv.org/abs/1008.2331))
   {#Cardy2010}
 * A. Cappelli and J.-B. Zuber (2010), _A-D-E Classification of Conformal Field Theories_ Scholarpedia, 5(4): 10314 ([web](http://www.scholarpedia.org/article/A-D-E_Classification_of_Conformal_Field_Theories)).  Also available as [arXiv:0911.3242](http://arxiv.org/abs/0911.3242).
+* L. P. Kadanoff (1971), _Critical Behavior. Universality and Scaling_ in Proceedings of the International School of Physics Enrico Fermi, Course LI (27 July -- 8 August 1970). Edited by M. S. Green.
+  {#Kadanoff1971}
 
 Random matrix theory:
 * Yan Fyodorov (2011) Random matrix theory. Scholarpedia, 6(3):9886 ([web](http://www.scholarpedia.org/article/Random_matrix_theory))
