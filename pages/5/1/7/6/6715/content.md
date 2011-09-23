@@ -78,3 +78,5 @@ Original references include
 [[!redirects Bockstein homomorphisms]]
 [[!redirects Bockstein morphism]]
 [[!redirects Bockstein morphisms]]
+[[!redirects Bockstein operation]]
+[[!redirects Bockstein operations]]
