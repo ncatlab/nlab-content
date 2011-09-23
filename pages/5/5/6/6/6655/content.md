@@ -167,7 +167,7 @@ If $\Gamma, x : X \vdash a(x) : A$ and $\Delta \vdash t : X$, then $\Gamma, \Del
 If $\Gamma \vdash f : X \to A$, then $\Gamma \vdash f = (\lambda x : X) \mathrm{apply}(f, x) : \mathrm{true}$.
 
 ###Finite sum types
-If $\Gamma \vdash a : A$ and $\Gamma \vdash A + B : \mathrm{Type}$, $\Delta, x : A \vdash c(x) : C(x)$ and $\Epsilon, y : B \vdash c'(y) : C(y)$, then $\Gamma, \Delta, E \vdash \mathrm{cases}(a, (\lambda x : A) c(x), (\lambda y : B) c(y)) = c(a) : \mathrm{true}$ and $\Gamma, \Delta, E \vdash \mathrm{cases}(b, (\lambda x : A) c(x), (\lambda y : B) c'(y)) = c'(b) : \mathrm{true}$
+If $\Gamma \vdash a : A$ and $\Gamma \vdash A + B : \mathrm{Type}$, $\Delta, x : A \vdash c(x) : C(x)$ and $E, y : B \vdash c'(y) : C(y)$, then $\Gamma, \Delta, E \vdash \mathrm{cases}(a, (\lambda x : A) c(x), (\lambda y : B) c(y)) = c(a) : \mathrm{true}$ and $\Gamma, \Delta, E \vdash \mathrm{cases}(b, (\lambda x : A) c(x), (\lambda y : B) c'(y)) = c'(b) : \mathrm{true}$
 
 ###Dependent sum types
 If $\Gamma \vdash t : X$, $\Gamma \vdash a : A(t)$ and $\Delta, x : X, y : A(x) \vdash b(x, a) : B((x, a))$, then $\Gamma, \Delta \vdash \mathrm{cases}((t, a), (\lambda x : X)(\lambda y : A(x)) b(x, y)) = b(t, a) : \mathrm{true}$.
