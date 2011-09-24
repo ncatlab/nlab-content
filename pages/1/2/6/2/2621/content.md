@@ -64,6 +64,7 @@ A solid mathematical formulation of perturbation theory has been given in
 * O. Steinmann, _Perturbation expansion in axiomatic field theory_ Lect. Notes in Phys. 11, Springer (1971)
 
 ### In AQFT
+ {#ReferencesInAQFT}
 
 Perturbation theory in the context of [[AQFT]] is discussed in the following articles.
 
@@ -91,7 +92,7 @@ Proceedings of the Conference on Mathematical Physics in Mathematics and Physics
 
 (relation to [[renormalization]])
 
-* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative)_ construction of observables in gauge theores: the example of qed_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/ps/hep-th/9807078)). 
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of qed_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/ps/hep-th/9807078)). 
 
 (relation to [[gauge theory]] and [[QED]])
 
