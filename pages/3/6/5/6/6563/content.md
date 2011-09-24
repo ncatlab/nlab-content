@@ -51,7 +51,7 @@ Relationships from one column to another do exist. For example, dynamical surfac
 
 ## Timeline ##
 
-The modern terminology of this subject dates to the late 1960s and early '70s.  At the 1970 Enrico Fermi summer school in Varenna, Italy, Leo P. Kadanoff summarized recent results with a "hypothesis of universality" which the conference proceedings record as follows:
+The modern terminology of this subject dates to the late 1960s and early '70s.  By 1968, the quantitative concurrence of [[critical exponent]]s experimentally observed in magnetic materials and fluid phase transitions was sufficiently well established that it was reasonable to ask, "To what extent are the observed values of the critical-point exponents universal?" ([Fisher 1968](#Fisher1968))  At the 1970 Enrico Fermi summer school in Varenna, Italy, Leo P. Kadanoff summarized recent results with a "hypothesis of universality" which the conference proceedings record as follows:
 
 +-- {: .standout}
 All phase transition problems can be divided into a small number of different classes depending upon the dimensionality of the system and the symmetries of the order state. Within each class, all phase transitions have identical behaviour in the critical region, only the names of the variables are changed. ([Kadanoff 1971](#Kadanoff1971))
@@ -107,6 +107,8 @@ Equilibrium critical phenomena:
 * J. Cardy (2010), _The Ubiquitous 'c': From the Stefan--Boltzmann Law to Quantum Information_, J.Stat.Mech. **2010**: P10004, ([arXiv:1008.2331](http://arxiv.org/abs/1008.2331))
   {#Cardy2010}
 * A. Cappelli and J.-B. Zuber (2010), _A-D-E Classification of Conformal Field Theories_ Scholarpedia, 5(4): 10314 ([web](http://www.scholarpedia.org/article/A-D-E_Classification_of_Conformal_Field_Theories)).  Also available as [arXiv:0911.3242](http://arxiv.org/abs/0911.3242).
+* Michael E. Fisher (1968), _Renormalization of Critical Exponents by Hidden Variables_ Physical Review **176**: 257--72. ([web](http://link.aps.org/doi/10.1103/PhysRev.176.257))
+  {#Fisher1968}
 * L. P. Kadanoff (1971), _Critical Behavior. Universality and Scaling_ in Proceedings of the International School of Physics Enrico Fermi, Course LI (27 July -- 8 August 1970). Edited by M. S. Green.
   {#Kadanoff1971}
 
