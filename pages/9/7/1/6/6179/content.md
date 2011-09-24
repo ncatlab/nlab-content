@@ -63,6 +63,10 @@ Moreover, Witten has suggested that this S-duality secretly drives a host of oth
 
   * [[electro-magnetic duality]]
 
+    * [[Montonen-Olive duality]]
+
+  * [[Seiberg duality]]
+
   * [[geometric Langlands correspondence]]
 
   * [[quantum geometric Langlands correspondence]]
