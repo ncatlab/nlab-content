@@ -85,7 +85,8 @@ The obstruction cocycles in $\mathbf{H}(X, \mathbf{[B}^2 \mathbb{Z}_2)$ are $\ma
 
 A model of twisted spin structures by [[bundle gerbes]] is discussed in
 
-* [[Michael Murray]], Michael Singer, _Gerbes, Clifford modules and the index theorem_  ([arXiv:math/0302096](http://arxiv.org/abs/math/0302096))
+* [[Michael Murray]], Michael Singer, _Gerbes, Clifford modules and the index theorem_  Annals of Global Analysis and Geometry
+Volume 26, Number 4, 355-367, DOI: 10.1023/B:AGAG.0000047514.71785.96 ([arXiv:math/0302096](http://arxiv.org/abs/math/0302096))
  {#MurraySinger}
 
 * Atsushi Tomoda, _A relation of spin-bundle gerbes and Mayer's Dirac operator_ ([pdf](http://ton.prosou.nu/official/procNCG20050413.pdf))
