@@ -1,0 +1,4 @@
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Igor_Klebanov)
+
+category: people
