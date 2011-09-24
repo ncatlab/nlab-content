@@ -58,6 +58,10 @@ In [[heterotic string theory]] one considers 1-dimensional objects in $d=10$-dim
 
   * **electro-magnetic duality**
 
+    * [[Montonen-Olive duality]]
+
+  * [[Seiberg duality]]
+
   * [[geometric Langlands correspondence]]
 
   * [[quantum geometric Langlands correspondence]]
