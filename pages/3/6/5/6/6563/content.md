@@ -51,7 +51,7 @@ Relationships from one column to another do exist. For example, dynamical surfac
 
 ## Timeline ##
 
-The modern terminology of this subject dates to the late 1960s and early '70s.  By 1968, the quantitative concurrence of [[critical exponent]]s experimentally observed in magnetic materials and fluid phase transitions was sufficiently well established that it was reasonable to ask, "To what extent are the observed values of the critical-point exponents universal?" ([Fisher 1968](#Fisher1968))  At the 1970 Enrico Fermi summer school in Varenna, Italy, Leo P. Kadanoff summarized recent results with a "hypothesis of universality" which the conference proceedings record as follows:
+The modern terminology of this subject dates to the late 1960s and early '70s.  By 1968, the quantitative concurrence of [[critical exponent]]s experimentally observed in magnetic materials and fluid phase transitions was sufficiently well established that it was reasonable to ask, "To what extent are the observed values of the critical-point exponents universal?" ([Fisher 1968](#Fisher1968); for a more recent presentation of relevant empirical figures, see [Sethna 2006](#Sethna2006), p. 267).  At the 1970 Enrico Fermi summer school in Varenna, Italy, Leo P. Kadanoff summarized recent results with a "hypothesis of universality" which the conference proceedings record as follows:
 
 +-- {: .standout}
 All phase transition problems can be divided into a small number of different classes depending upon the dimensionality of the system and the symmetries of the order state. Within each class, all phase transitions have identical behaviour in the critical region, only the names of the variables are changed. ([Kadanoff 1971](#Kadanoff1971))
@@ -64,8 +64,9 @@ The following is a capsule history tabulating some important events in the histo
 |1733| |de Moivre| | Suggestion of what we now know as the [[central limit theorem]]|
 |1822| |Cagniard de la Tour| | Observation of critical point at end of liquid-gas coexistence curve |
 |1873--75| |van der Waals, Maxwell| | Equation of state for non-ideal gases, and its application to phase transitions |
+|1893| | van der Waals | | Use of critical exponents to characterize a phase transition ([Levelt Sengers 1976](#LeveltSengers1976))|
 |1895| |P. Curie| | Experimental observation of demagnetization by heat; pointing out similarity between liquid-gas and ferromagnetic transitions |
-|1896| | Verschaffelt | | Discovery that the critical exponents predicted from van der Waals theory do not match experiment |
+|1896--1900| | Verschaffelt | | Discovery that the critical exponents predicted from van der Waals theory do not match experiment ([Levelt Sengers 1976](#LeveltSengers1976))|
 |1901| |Lyapunov| | Demonstration of why the central limit theorem works|
 |1908| |Smoluchowski| | Discovery that critical opalescence is due to density fluctuations across many scales |
 |1937| |Landau| | General mean-field theory of phase transitions|
@@ -101,6 +102,7 @@ Statistical distributions:
 Equilibrium critical phenomena:
 * B. Berche _et al._ (2009), "Critical phenomena: 150 years since Cagniard de la Tour" _J. Phys. Studies_ **13**: 3201, [arXiv:0905.1886](http://arxiv.org/abs/0905.1886).
 * J. P. Sethna (2006), _Statistical Physics: Entropy, Order Parameters, and Complexity_. Oxford University Press. [Available on the author's website](http://pages.physics.cornell.edu/sethna/StatMech/).  See in particular chapter 12.
+  {#Sethna2006}
 * Kardar's _Statistical Physics of Particles_ and _Statistical Physics of Fields_
 * Henkel's _Conformal Invariance and Critical Phenomena_ (1999)
 * P. A. Pearce (1994), "Recent progress in solving _A--D--E_ lattice models" _Physica A_ **205**: 15--30. ([pdf](http://mac0916.ms.unimelb.edu.au/~pap/Publications_pdf/1994PearceRecentProgressADE.pdf)) This one brings in [[Temperley-Lieb algebra]]s, two-colour braid monoid algebras and [[Reidemeister moves]].
@@ -111,6 +113,8 @@ Equilibrium critical phenomena:
   {#Fisher1968}
 * L. P. Kadanoff (1971), _Critical Behavior. Universality and Scaling_ in Proceedings of the International School of Physics Enrico Fermi, Course LI (27 July -- 8 August 1970). Edited by M. S. Green.
   {#Kadanoff1971}
+* J. M. H. Levelt Sengers (1976), _Critical Exponents at the Turn of the Century_ Physica A **82**: 319--51. ([web](http://www.sciencedirect.com/science/article/pii/0378437176900121))
+  {#LeveltSengers1976}
 
 Random matrix theory:
 * Yan Fyodorov (2011) Random matrix theory. Scholarpedia, 6(3):9886 ([web](http://www.scholarpedia.org/article/Random_matrix_theory))
