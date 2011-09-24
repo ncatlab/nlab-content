@@ -26,9 +26,11 @@
 
 The _Green-Schwarz action functional_ is the [[action functional]] of a [[sigma-model]] that describes the propagation of a fundamental $p$-[[brane]] $\Sigma$ on a [[supermanifold]] [[spacetime]].
 
-For $p = 0$ this is the **Green-Schwarz [[superparticle]]**.
+* For $p = 0$ this is the **Green-Schwarz [[superparticle]]**.
 
-For $p = 1$ the **Green-Schwarz superstring** (at the center of attention in [[string theory]]).
+* For $p = 1$ the **Green-Schwarz [[type II superstring]]** (at the center of attention in [[string theory]]).
+
+  This model is in contrast to the [[NSR-string]], which instead has manifest worldsheet supersymmetry. See [[superstring]] for more on this.
 
 ## Properties
 
@@ -90,7 +92,7 @@ More along these lines is in
 See also [[division algebras and supersymmetry]].
 
 
-### $\kappa$-Symmetry
+### $\kappa$-Symmetry 
 
 * Warren Siegel, _Hidden Local Supersymmetry In The Supersymmetric Particle Action_ Phys. Lett. B 128, 397 (1983)
   {#Siegel83}
@@ -98,8 +100,12 @@ See also [[division algebras and supersymmetry]].
 * Warren Siegel, _Light Cone Analysis Of Covariant Superstring_ , Nucl. Phys. B 236, 311 (1984).
   {#Siegel84}
 
-* [[Michael Green]], [[John Schwarz]], _Covariant Description Of Superstrings_ , Phys. Lett. B 136, 367 (1984).
+* [[Michael Green]], [[John Schwarz]], _Covariant Description Of Superstrings_ , Phys. Lett. B 136, 367 (1984) ([web](http://adsabs.harvard.edu/abs/1984PhLB..136..367G))
  {#GreenSchwarz}
+
+### GS superstrings in various backgrounds
+
+* R.R.Metsaev, _Type IIB Green-Schwarz superstring in plane wave Ramond-Ramond background_ ([arXiv:hep-th/0112044](http://arxiv.org/abs/hep-th/0112044))
 
 [[!redirects Green-Schwarz string]]
 [[!redirects Green-Schwarz superstring]]
