@@ -79,7 +79,11 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 ## References
 
+Actions for the NS5-brane are discussed in
+
 * Igor Bandos, Alexei Nurmagambetov, Dmitri Sorokin, _The type IIA NS5--Brane_ ([arXiv:hep-th/0003169](http://arxiv.org/abs/hep-th/0003169))
+
+* Marco Cariglia, Kurt Lechner, _NS5-branes in IIA supergravity and gravitational anomalies_ ([arXiv:hep-th/0203238](http://arxiv.org/abs/hep-th/0203238))
 
 The fact that the worldvolume theory of the 5-brane should support fields that are [[self-dual higher gauge theory|self-dual]] [[connections on a 2-bundle]] ($\sim$ a [[gerbe]]) is discussed in 
 
@@ -90,6 +94,10 @@ as well as sections 3 and 4 of
 
 * [[Edward Witten]], _Geometric Langlands From Six Dimensions_ ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720))
  {#Witten09}.
+
+A review of some aspects is in 
+
+* [[Robbert Dijkgraaf]], _The mathematics of fivebranes_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9810/9810157v1.pdf))
 
 Proposal for a detailed realization of this are for instance in
 
