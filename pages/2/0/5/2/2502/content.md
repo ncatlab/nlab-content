@@ -90,7 +90,7 @@ Some standard exposition is for instance in
 
 A comprehensive account and classification of the polyvector extensions of the super Poincar&#233; Lie algebras is in
 
-* D. V. Alekseevsky, V. Cort&#233;s, C. Devchand, A. Van Proeyen, _Polyvector Super-Poincar&#233; Algebras_ ([arXiv](http://arxiv.org/abs/hep-th/0311107))
+* D. V. Alekseevsky, V. Cort&#233;s, C. Devchand, A. Van Proeyen, _Polyvector Super-Poincar&#233; Algebras_ Commun.Math.Phys. 253 (2004) 385-422 ([arXiv:hep-th/0311107](http://arxiv.org/abs/hep-th/0311107))
 
 See also
 
