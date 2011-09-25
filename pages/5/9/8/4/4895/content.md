@@ -45,6 +45,8 @@ Later two more precise classes of correspondences were identified, that are rega
 
 In view of these two classes of examples it is maybe noteworthy that one can see that also closed [[string field theory]], which is supposed to be one side of the [[AdS/CFT correspondence]], has the form of an [[schreiber:infinity-Chern-Simons theory]], as discussed there, for the [[L-infinity algebra]] of closed string correlators. So maybe the above two different realizations of the holographic principle are really aspects of one single mechanism for $\infty$-Chern-Simons theory. 
 
+Evidence for this also comes from the details of the AdS/CFT mechanism. In ([Witten98](#Witten98)) it is discussed how the [SYM/IIB duality](#SYMAds5) is carried by the Chern-Simons term $\int B_{NS} \wedge d B_{RR}$ in the [[type II string theory]] action, the [6d(2,0)/AdS7 duality](#6dAdS7) - is induced by the Chern-Simons term $\int C_3 \wedge d C_3 \wedge d C_3$ of the [[11-dimensional supergravity]] action. 
+
 =--
 
 Below at _[Examples](Examples)_ we list some systems for which something along these lines is known.
@@ -250,12 +252,14 @@ Therefore a [[state]] of higher Chern-Simons theory on $\Sigma$ may locally be t
 
 
 #### Type II on $AdS_5 \times S^5$ and $d = 4$ super Yang-Mills
+ {#SYMAds5}
 
 Conjecturally, [[type II string theory]] on a [[anti-de Sitter space]] background is holographically dual to [[super Yang-Mills theory]] on the asymptotic boundary.
 
 See [[AdS/CFT correspondence]].
 
 #### M-theory on $AdS_7 \times S_4$ and 6d $(2,0)$-SCFT on M5 branes
+ {#6dAdS7}
 
 [[11-dimensional supergravity|M-theory]] on $AdS_7 \times S^4$ is supposed to have as holographic boundary the [[6d (2,0)-superconformal QFT]]. See there for references.
 
@@ -324,6 +328,11 @@ The application of this to the description of type II [[string theory]] in 10-di
 3-dimensional [[Chern-Simons theory]] in the context of holography is discussed for instance in
 
 * Victor O. Rivelles, _Holographic Principle and AdS/CFT Correspondence_ ([arXiv](http://arxiv.org/abs/hep-th/9912139))
+
+### Aspects of Chern-Simons/conformal-blocks in AdS/CFT
+
+* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
+ {#Witten98}
 
 
 ### General abstract formulation
