@@ -181,5 +181,5 @@ See also [[division algebra and supersymmetry]].
 
 The computation of the automorphism Lie algebra of $\mathfrak{sugra}(10,1)$ is in 
 
-* [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors and the M-theory superalgebra_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/0508/0508213v2.pdf))
-{#Castellani05}
+* [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors and the M-theory superalgebra_ ([arXiv:hep-th/0508213](http://arxiv.org/abs/hep-th/0508213))
+ {#Castellani05}
