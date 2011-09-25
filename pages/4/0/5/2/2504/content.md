@@ -132,7 +132,7 @@ $$
 and
 
 $$
-  Z^{a b} = [d_{CE}, e^a \wedge e^b \wedge \frac{\partial}{\partial b}]
+  Z^{a b} = [d_{CE}, e^a \wedge e^b \wedge \frac{\partial}{\partial c}]
 $$
 
 etc. With this it is straightforward to compute the commutators.
