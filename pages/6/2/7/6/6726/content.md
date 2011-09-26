@@ -1,0 +1,26 @@
+## Idea
+
+The ring of polynomials in $n$ variables has a linear basis $\{s_\lambda]}$ of __Schur functions__ (also called Schur polynomials) indexed by [[partition]]s $|\lambda| \vdash \lambda_1+\ldots +\lambda_n$, $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$. They are precisely the irreducible characters of f.d. representations of $GL_n$. 
+
+## Definition
+
+Given the partition $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$, the corresponding Schur function is the $n\times n$-determinant
+$$
+s_\lambda = det (x_i^{\lambda_j})
+$$
+
+## Generalizations via Schur functors
+
+[[Schur functors]] may be viewed as a categorification of Schur functions. In fact, the Schur functors make sense in more general symmetric monoidal categories than vector spaces. It is a theorem in the case of vector space that the trace of 
+a Schur functor $\mathbf{S}_\lambda(V)\stackrel{\mathbf{S}_\lambda(g)}\to \mathbf{S}_\lambda(V)$ on an endomorphism $g\in GL(V)$ is the Schur function of the eigenvalues of $g$. Considering the trace of a Schur functor makes sense in a general situation allowing for Schur functors and for the trace ([[rigid monoidal category]]); of course choosing appropriate variables to express the trace may depend on a context. 
+
+## Literature 
+
+The authoritative monograph on the subject is 
+
+* I. G. Macdonald, _Symmetric functions and Hall polynomials_, Oxford Math. Monographs, 2nd enlarged ed. 1995
+
+Other references
+
+* Bruce E. Sagan, _Schur functions_, in (M. Hazewinkel, ed.) Encyclopaedia of Mathematics, Springer, [pdf](http://www.mth.msu.edu/~sagan/Papers/Old/schur.pdf)
+* [wikipedia](http://en.wikipedia.org/wiki/Schur_function)
