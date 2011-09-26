@@ -23,7 +23,7 @@ Don Knuth proposed that every professor should be required to have both a "major
 
 ##What you can find here and on my personal pages##
 
-I have given a summary of some of the research area that I have worked in with references for further 'enlightenment' Some of these are in areas that continue to interest me, and I have various 'projects' and lists of 'work in progress' there as well, some of which are mentioned below.
+I have given a summary in my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage) of some of the research area that I have worked in with references for further 'enlightenment'. Some of these are in areas that continue to interest me, and I have various 'projects' and lists of 'work in progress' there as well, some of which are mentioned below.
 
 
 I am writing a series of notes on the theory and application of crossed gadgetry in algebra and topology, and some parts of these notes (approximately first 10 chapters) have been made available on the web at various times. I am currently trying to write new sections on the links between homotopy quantum field theory and non-Abelian cohomology.
@@ -50,7 +50,7 @@ theory_ This article is an expanded version of notes for a series of lectures gi
 
 * _$\mathcal{S}$-categories, $\mathcal{S}$-groupoids, Segal categories and quasicategories_ The notes were prepared for a series of talks that I gave in Hagen in late June and early July 2003, and, with some changes, in the University of La Laguna, the Canary Islands, in September, 2003.
 
-*  _Profinite Algebraic Homotopy_.   There is a link to the first seven chapters of a draft monograph.  This may be going to be published, so this is an incomplete version.
+*  _Profinite Algebraic Homotopy_.   There is a link to the first seven chapters of a draft monograph.  This is likely to be published, so this is an incomplete version. (At present count the full version will have more than 500 pages.)
 
 category: people
 
