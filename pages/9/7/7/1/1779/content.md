@@ -65,3 +65,4 @@ This example is more or less the way that [[Eduard ?ech]] gave the original form
 [[!redirects ?ech-nerve]]
 [[!redirects ?ech nerve]]
 [[!redirects ?ech-nerve]]
+[[!redirects Cech complex]]
