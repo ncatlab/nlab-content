@@ -39,6 +39,8 @@
 
 * [[11-dimensional supergravity]]
 
+  * [[Hořava-Witten theory]]
+
 ### Extended objects
 
 * [[sigma-model]]
