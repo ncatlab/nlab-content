@@ -1,0 +1,9 @@
+
+
+## References
+
+Lectures note:
+
+around p. 43 in 
+
+* _String primer_ ([arXiv:hep-th/9810240](http://arxiv.org/abs/hep-th/9810240))
