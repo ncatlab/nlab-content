@@ -1,3 +1,6 @@
 * [[Gabriele Vezzosi]], _Derived critical loci I - Basics_, [arxiv/1109.5213](http://arxiv.org/abs/1109.5213)
 
 * [[Urs Schreiber]]: [[schreiber:derived critical locus]]
+
+* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory -- Derived critical locus_ ([web](http://math.northwestern.edu/~costello/factorization_public.html#[[Derived%20critical%20locus]])) 
+{#CostelloGwilliam}
