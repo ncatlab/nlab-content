@@ -114,12 +114,6 @@ That means that for $a \in A$, $\mu(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  
   is the zero map $A \to I \to A$.  This is precisely the relation that $\iota$ is the inverse for $\mu$ since we have the following identifications: $\mu = \Delta$, $A \coprod A = A \times A$, and $\Delta^c = \alpha$.  Also, $\epsilon = 0$ and $\eta : I \to A$ is the initial morphism in $AbGrp$.
 
   Thus the fact that $\iota$ is the inverse for the diagonal+zero co-monoidal structure is due to the fact that $\iota$ is the inverse for $(\alpha,\eta)$ and $\alpha : A \oplus A \to A$ is the co-diagonal in $AbGrp$ and $\eta : I \to A$ is the unit.
-
-  +-- {: .query}
-  [[Andrew Stacey]]: I've deleted the original query boxes.  The above now contains the all the details, but I suspect that there may be neater ways of putting it and other ways to see it.  If so, these are certainly worth discussing but I think that the above is a new launching point for discussion.  If anyone is interested in the discussion that led up to that point then they can look in the history but I don't think that that is necessary to discuss the above.
-
-  And remember what Tony Blair said: _Indentation, Indentation, Indentation_.
-  =--
  
   It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
 
