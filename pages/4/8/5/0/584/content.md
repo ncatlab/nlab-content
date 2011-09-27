@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -30,7 +29,7 @@ $n$-Dimensional [[manifolds]] (possibly and usually equipped with certain struct
 
 * etc.
 
-* (n+1)-morphims are _diffeomorphisms_ between $n$-dimensional cobordisms;
+* (n+1)-morphisms are _diffeomorphisms_ between $n$-dimensional cobordisms;
 
 * (n+2)-morphisms are smooth homotopies of these;
 
