@@ -65,7 +65,11 @@ The corresponding table has been called the **brane scan**
 
 ### General
 
-A canonical textbook reference is
+Canonical textbook references are
+
+appendix 4.A of volume 1 of
+
+* [[Michael Green]], [[John Schwarz]], [[Edward Witten]], _Superstring theory_
 
 * [[Eric D'Hoker]], _String theory -- lecture 10: Supersymmetry and supergravity_ , in part 3 of
 
