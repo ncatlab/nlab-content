@@ -37,7 +37,7 @@ The _Green-Schwarz action functional_ is the [[action functional]] of a [[sigma-
 ### Siegel- or $\kappa$-symmetry
  {#KappaSymmetry}
 
-The naive Green-Schwarz-action produces "too many fermionic fields". This is due to an extra symmetry first discussed in ([Siegel 83](#Siegel83)) for the [[superparticle]] and in ([Siegel 84](#Siegel84)) for the [[superstring]] in 3-dimensions, and finally in ([GreenSchwarz 84](#GreenSchwarz)) for the critical superstring in 10-dimensions. This is also called **$\kappa$-symmetry**.
+The Green-Schwarz action has an extra fermionic symmetry, on top of the genuine supersymmetry, first observed in ([Siegel 83](#Siegel83)) for the [[superparticle]] and in ([Siegel 84](#Siegel84)) for the [[superstring]] in 3-dimensions, and finally in ([GreenSchwarz 84](#GreenSchwarz)) for the critical superstring in 10-dimensions. This is also called **$\kappa$-symmetry**. It has a natural interpretation in terms of the [[supergeometry|super]]-[[Cartan geometry]] of [[target space]] ([McArthur](#McArthur), [GKW](#GKW)).
 
 ### Dimensions
 
@@ -98,6 +98,8 @@ See also [[division algebras and supersymmetry]].
 
 ### $\kappa$-Symmetry 
 
+The existence of $\kappa$-symmetry was first noticed around
+
 * Warren Siegel, _Hidden Local Supersymmetry In The Supersymmetric Particle Action_ Phys. Lett. B 128, 397 (1983)
   {#Siegel83}
 
@@ -106,6 +108,14 @@ See also [[division algebras and supersymmetry]].
 
 * [[Michael Green]], [[John Schwarz]], _Covariant Description Of Superstrings_ , Phys. Lett. B 136, 367 (1984) ([web](http://adsabs.harvard.edu/abs/1984PhLB..136..367G))
  {#GreenSchwarz}
+
+The meaning of $\kappa$-symmetry in terms of the [[supergeometry|super]]-[[Cartan geometry]] of super-[[target space]] is discussed in 
+
+* I.N. McArthur, _Kappa-Symmetry of Green-Schwarz Actions in Coset Superspaces_ ([arXiv:hep-th/9908045](http://arxiv.org/abs/hep-th/9908045))
+ {#McArthur}
+
+* Joaquim Gomis, Kiyoshi Kamimura, [[Peter West]], _Diffeomorphism, kappa transformations and the theory of non-linear realisations_ ([arXiv:hep-th/0607104](http://arxiv.org/abs/hep-th/0607104))
+ {#GKW}
 
 ### GS superstrings in various backgrounds
 
