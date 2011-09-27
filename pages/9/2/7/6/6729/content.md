@@ -1,0 +1,3 @@
+* [[Gabriele Vezzosi]], _Derived critical loci I - Basics_, [arxiv/1109.5213](http://arxiv.org/abs/1109.5213)
+
+* [[Urs Schreiber]]: [[schreiber:derived critical locus]]
