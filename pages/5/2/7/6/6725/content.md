@@ -49,6 +49,10 @@ Reviews are in
 * [[Pete Townsend]], _Four Lectures on M-Theory_ ([arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121)). 
 
 
+Section 3 of
+
+* Adam Falkowski, _Five dimensional locally supersymmetric theories with branes_ ([[FalkowskiLecture.pdf:file]])
+
 [[!redirects Hořava-Witten theory]]
 [[!redirects Hořava–Witten theory]]
 [[!redirects Hořava--Witten theory]]
