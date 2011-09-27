@@ -1,6 +1,6 @@
 
 
-* [[Jim Stasheff]], [[StasheffCohomPhysicsSurvey.pdf:file]] 
+* [[Jim Stasheff]], _[[StasheffCohomPhysicsSurvey.pdf:file]]_
 
 
 #Content#
