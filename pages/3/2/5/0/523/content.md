@@ -1,9 +1,9 @@
 
 I am a math PhD student at Hamburg University. I am working on [[higher category theory|higher categorial structures]] in physics, in particular on [[bundle gerbe]]s.
 
-My Email address is: &lt;Thomas.Nikolaus@uni-hamburg.de>
+My Email address is: &lt;Thomas1.Nikolaus@mathematik.uni-regensburg.de>
 
-My website is: &lt;http://www.math.uni-hamburg.de/home/nikolaus/>
+My website is: &lt;http://www.mathematik.uni-regensburg.de/nikolaus/>
 
 ## Notes
 
