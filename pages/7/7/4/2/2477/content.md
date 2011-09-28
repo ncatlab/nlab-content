@@ -108,7 +108,7 @@ paragraph 4.4 in
  
 See also
 
-* [[Bertrand Toen]], _Master Course on Stacks_ ([web](http://www.math.univ-toulouse.fr/~toen/m2.html))
+* [[Bertrand Toen]], _Master Course on Stacks_ ([web](http://ens.math.univ-montp2.fr/~toen/m2.html))
 
 * [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
 {#deJong}
