@@ -99,7 +99,7 @@ That a convenient category of topological spaces contains all the CW complexes w
 
 "Nice categories of spaces" should be thought of as a wider and vaguer term; it really means the category of spaces has "nice" categorical properties for some mathematical purpose at hand. Certainly any convenient category of spaces should be considered a nice category of spaces for the general purposes of algebraic topology. On the other hand, there are categories of spaces which are not "convenient" in the technical sense described above, but which may be very nice for certain purposes. 
 
-For example, the category of [[compact Hausdorff spaces]] can be considered as being very nice for certain purposes, because it is [[monadic category|monadic]] over $Set$ (!). It is, however, not "convenient", as it very far from being cartesian closed. Another example of a nice category of spaces, as explained by [Johnstone](#Johnstone), is the category of [[sequential spaces]], but this too is not cartesian closed. In a different direction, there is the (complete, cocomplete) cartesian closed category of [[equilogical spaces]], but this is not a full subcategory of $Top$, and the core concerns of mathematicians working with equilogical spaces are somewhat different from those of algebraic topologists.
+For example, the category of [[compact Hausdorff spaces]] can be considered as being very nice for certain purposes, because it is [[monadic category|monadic]] over $Set$ (!). It is, however, not "convenient", as it very far from being cartesian closed. In a different direction, there is the (complete, cocomplete) cartesian closed category of [[equilogical spaces]], but this is not a full subcategory of $Top$, and the core concerns of mathematicians working with equilogical spaces are somewhat different from those of algebraic topologists.
 
 It should also be noted that "[[space]]" itself has a wider meaning than the technical notion of "[[topological space]]", even if topological intuitions come into play. For example, in [[domain theory]], one often considers certain types of [[posets]] (for example, [[directed-complete partial order|dcpos]]) as certain types of "spaces". In this direction, we have that the category of dcpos and [[Scott-continuous map]]s between them forms a complete, cocomplete, cartesian closed category. However, these types of spaces are quite far removed from the traditional concerns of topology, hence are not "convenient" in the sense given above (despite the manifold relations between Scott continuity and the point-set topology which underlies the classical results on compactly generated spaces). In another direction, the category of [[locales]] is in some respects "nice", but these are not topological spaces either. 
 
@@ -108,7 +108,7 @@ Along with the entry on [[nice category of spaces]] and the examples above, see 
 
 ## Historical remarks 
 
-The phrase "convenient category of topological spaces" predates Steenrod's paper by a number of years. Indeed, [[Ronnie Brown]] [[1963](#Brown63)] had written the following in the Introduction to his paper "Ten topologies for $X \times Y$": 
+The phrase "convenient category of topological spaces" predates Steenrod's paper by a number of years. Indeed, [[Ronnie Brown]] [$[1963]$](#Brown63) had written the following in the Introduction to his paper "Ten topologies for $X \times Y$": 
 
 * "It may be that the category of Hausdorff k-spaces is adequate and convenient for all purposes of topology."
 
