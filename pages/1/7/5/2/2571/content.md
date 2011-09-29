@@ -14,7 +14,7 @@
 
 ## Idea
 
-The commonly accepted standard [[foundation of mathematics]] today is a material [[set theory]], $ZFC$ or Zermelo--Fraenkel set theory with the [[axiom of choice]].
+The commonly accepted standard [[foundation of mathematics]] today is a [[material set theory]], $ZFC$ or Zermelo--Fraenkel set theory with the [[axiom of choice]].
 
 
 ## History
