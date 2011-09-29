@@ -14,7 +14,7 @@ In some special cases (most often in the presence of supersymmetry) the main con
 
 ## Large N-limit 
 
-Large N-limit of gauge theories, which is of importance in [[collective field theory]] and in the study of relation between gauge and string theories is formally very similar to semiclassical expansion, where the role of Planck constant is played by $1/N^2$. 
+The [[large N limit]] of gauge theories, which is of importance in [[collective field theory]] and in the study of relation between gauge and string theories is formally very similar to semiclassical expansion, where the role of Planck constant is played by $1/N^2$. 
 
 ## Terminology
 
