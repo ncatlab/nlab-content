@@ -531,7 +531,7 @@ a concept from a set of examples and/or a set of properties.
 
 This is
 apparently related to Lawvere's comment about an adjunction between syntax
-and semantics, explained in Peter Smith's article [_The Galois connection between syntax and semantics_](http://www.logicmatters.net/resources/pdfs/Galois.pdf). 
+and semantics, explained in Peter Smith's article [_The Galois connection between syntax and semantics_](http://www.logicmatters.net/resources/pdfs/Galois.pdf). As [_Patterns in Functional Programming_](http://patternsinfp.wordpress.com)'s posting [_Universal properties and Galois connections_](http://patternsinfp.wordpress.com/2011/02/15/universal-properties-and-galois-connections/) puts it: .................
 
 ### 21. The adjunction between minimal realization and behaviour ###
 
