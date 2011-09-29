@@ -134,4 +134,3 @@ The above discussion makes use of some blog comments (notably by [[Jacques Distl
 [[!redirects 5-branes]]
 [[!redirects fivebranes]]
 
-[[!redirects M5-brane]]
