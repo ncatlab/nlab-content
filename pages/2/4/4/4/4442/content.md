@@ -23,7 +23,15 @@ The _AdS-CFT correspondence_ (or _[Maldacena](Maldacena) duality_ ) is a class o
 
 the conjectural Ads/CFT correspondence asserts an identification of the [[state]]s of [[quantum gravity]] given by [[string theory]] on an asymptotically [[anti-de Sitter spacetime]] with [[correlator]]s of a [[CFT|superconformal]] [[Yang-Mills theory]] on the asymptotic boundary.
 
+## Examples
 
+### $AdS_5 / CFT_4$
+
+[[type II string theory]] on 5d [[anti de Sitter spacetime]] is dual to [[4d super Yang-Mills theory]].
+
+### $AdS_7 / CFT_7$
+
+[[11-dimensional supergravity]] on 7d [[anti de Sitter spacetime]] is dual to the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]].
 
 ## Formalizations
 
