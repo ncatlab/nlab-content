@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -34,4 +33,6 @@ Horizontal and vertical composition are subject to the compatibility condition c
 ## Examples
 
 * In [[Cat]], horizontal composition is the [[Godement product]] of [[natural transformation]]s.
+
+*[[whiskering]] 
 
