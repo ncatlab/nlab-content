@@ -34,8 +34,22 @@ The [[AdS/CFT correspondence]] for the 5-brane is $AdS_7/CFT_6$ and relates the 
 
 ## Related concepts
 
+* [[string]]
+
+* [[D-brane]]
+
+* [[NS5-brane]]
+
+* [[M2-brane]]
 
 ## References
+
+### Surveys
+
+A review of some aspects is in 
+
+* [[Robbert Dijkgraaf]], _The mathematics of fivebranes_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9810/9810157v1.pdf))
+
 
 ### Sugra solutions
 
@@ -49,6 +63,14 @@ Action for the Super-Five-Brane of M-Theory,
 Phys.Rev.Lett. 78 (1997) 4332.
 
 *  M. Aganagic, J. Park, C. Popescu and J. H. Schwarz, World-Volume Action of the M Theory Five-Brane, Nucl.Phys. B496 (1997) 191.
+
+### Nonabelian 2-form fields
+
+* Chong-Sun Chu, _A Theory of Non-Abelian Tensor Gauge Field with Non-Abelian Gauge Symmetry $G \times G$_ ([arXiv:1108.5131](http://arxiv.org/abs/1108.5131))
+
+* [[Henning Samtleben]], Ergin Sezgin, Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
+ {#SSW11}
+
 
 ### Holography
 
