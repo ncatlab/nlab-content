@@ -15,7 +15,7 @@
 
 ## Idea
 
-Problems of set theory arise by unjustified recursion of the naive notion of "collection of things."  If "Col"s are one notion of collections (such as "set" or "class"), then the notion "Col of all Cols" is in general problematic, since it is subject to the construction of Russel-style paradoxes (although it's not the only source of such paradoxes).
+Problems of set theory arise by unjustified recursion of the naive notion of "collection of things."  If "Col"s are one notion of collections (such as "set" or "class"), then the notion "Col of all Cols" is in general problematic, since it is subject to the construction of Russell-style paradoxes (although it's not the only source of such paradoxes).
 
 One way out is to consider a hierarchy of notions of collections: postulate that the collection of all "Col"s is not a "Col" itself, but is another notion of collection, a "Col+": the "Col+ of all Cols". Similarly, the collection of all "Col+"-type collections may be taken to be a "Col++", and so on.
 
