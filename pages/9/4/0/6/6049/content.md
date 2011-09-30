@@ -77,6 +77,8 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 * [[6d (2,0)-supersymmetric QFT]]
 
+* [[M2-brane]], [[M5-brane]]
+
 ## References
 
 Actions for the NS5-brane are discussed in
@@ -99,10 +101,7 @@ A review of some aspects is in
 
 * [[Robbert Dijkgraaf]], _The mathematics of fivebranes_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9810/9810157v1.pdf))
 
-Proposal for a detailed realization of this are for instance in
 
-* [[Henning Samtleben]], Ergin Sezgin, Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
- {#SSW11}
 
 The relation to [[Khovanov homology]] is discussed in 
 
