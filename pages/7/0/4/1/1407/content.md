@@ -124,7 +124,16 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
   * [[Hořava-Witten theory]]
 
-...
+* [[brane]]
+
+  * [[string]]
+
+  * [[D-brane]]
+
+  * [[NS5-brane]]
+
+  * [[M2-brane]], [[M5-brane]]
+
 
 ## References
 
