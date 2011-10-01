@@ -1,0 +1,1 @@
+In a [[preorder]] or [[poset]] $P$, an **antichain** is a subset $S \subset P$ such that no two distinct elements of $S$ are comparable. 
