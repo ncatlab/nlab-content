@@ -9,7 +9,7 @@ In [[material set theory]], there is an intuitive conception of what a [[set]] i
 
 The primary motivation for [[structural set theory]] is that this conception of a set is not needed in ordinary [[mathematics]]; it is sufficient to characterise the [[category of sets]] (although a structural set theory can also be described in ways other than category-theoretic).  However, material set theory is itself part of mathematics, and we may want to describe the material notion of a pure set in structural terms.
 
-There is also a very practical point to this exercise: the translation between material and structural set theories.  Any model of a material set theory is already a model of a corresponding structural set theory, but we go through the yoga below to construct a model of a material set theory out a model of a structural set theory.  In particular, we must do this to prove that two set theories (one material and one structural) are equiconsistent.
+There is also a very practical point to this exercise: the translation between material and structural set theories.  Any model of a material set theory is already a model of a corresponding structural set theory, but we go through the yoga below to construct a model of a material set theory out of a model of a structural set theory.  In particular, we must do this to prove that two set theories (one material and one structural) are equiconsistent.
 
 
 ## Idea
