@@ -58,10 +58,8 @@ $$
 
 is positive.
 
-Note that [[Bob Coecke|Coecke]] has shown that FdHilb, the category of finite dimensional Hilbert spaces and linear maps, has the completely positive maps as morphisms.  See _Complete positivity without compactness_ ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)).
 
-
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 A map $\Phi$ as above is _completely positive_ precisely if there exists a [[set]] $I$ and an $I$-family $\{E_i \in Mat(k \times n, \mathbb{C}| i \in I)\}$ of matrices, such that for all $A \in Mat(n \times n, \mathbb{C})$ we have
@@ -80,16 +78,7 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-This is theorem 1 in 
-
-* Choi, _Completely positive linear maps on complex matrices_, Linear Algebra and its Applications Volume 10, Issue 3, June 1975, Pages 285-290
-
-=--
-
-Note that a proof of the above theorem in terms of [[dagger category|†-categories]] can be found in [[Peter Selinger]], _Dagger-compact closed categories and completely positive maps_ ([ps](http://www.mscs.dal.ca/~selinger/papers/dagger.ps)).
+This is originally due to ([Choi, theorem 1](#Choi)). A proof in terms of [[dagger category|†-categories]] is given in ([Selinger](#Selinger)). A characterization of completely positive maps entirely in terms of $\dagger$-categories is given in ([Coecke](#Coecke)).
 
 The matrices $\{E_i\}$ that are associated to a completely positive and trace-preserving map by the above theorem are called **Kraus operators**.
 
@@ -119,6 +108,7 @@ $$
 An early influential reference on _(completely) positive trace-preserving maps (CPTP)_ is:
 
 * Choi, M. (1975). _Completely positive linear maps on complex matrices_, Linear Algebra and its Applications Volume 10, Issue 3, June 1975, Pages 285-290
+ {#Choi}
 
 A useful review of the notion is provided by 
 
@@ -135,8 +125,11 @@ A useful review of the notion is provided by
 The description of completely positive maps in terms of [[dagger-categories]] goes back to
 
 * [[Peter Selinger]], _Dagger-compact closed categories and completely positive maps_ ([ps](http://www.mscs.dal.ca/~selinger/papers/dagger.ps))
+ {#Selinger}
+
 
 * [[Bob Coecke]], _Complete positivity without compactness_ ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)) 
+ {#Coecke}
 
 This was further developed in
 
