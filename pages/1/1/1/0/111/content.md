@@ -137,9 +137,9 @@ See [[higher category theory]].
 
 ## Examples
 
-There is the beginning of a [[database of categories]] listing well-known categories (with links to articles on these categories, if such articles) and some of their properties. 
+There is the beginning of a [[database of categories]] listing well-known categories (with links to articles on these categories, if such articles exist) and some of their properties. 
 
-The classic example of a catgory is [[Set]], the category with [[set]]s as objects and [[function]]s as morphisms, and the usual composition of functions as composition.  Here are some other famous examples, which arise as variations on this theme:
+The classic example of a category is [[Set]], the category with [[set]]s as objects and [[function]]s as morphisms, and the usual composition of functions as composition.  Here are some other famous examples, which arise as variations on this theme:
 
 * [[Vect]] - [[vector space]]s as objects, linear maps as morphisms.
 
@@ -231,7 +231,7 @@ A textbook with an eye towards the theory of [[categories of sheaves]] and their
 * Kashiwara, Shapira, _[[Categories and Sheaves]]_
 
 
-For more referebnces see [[category theory]].
+For more references see [[category theory]].
 
 [[!redirects category]]
 [[!redirects categories]]
