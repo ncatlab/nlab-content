@@ -1,23 +1,50 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-A [[morphism]] $e: B\to B$ in a [[category]] is an **idempotent** if the [[composition]] with itself equals itself 
+An [[endomorphism]] $e\colon B \to B$ in a [[category]] is an **idempotent** if the [[composition]] with itself equals itself 
 
 $$
   e \circ  e = e
   \,.
 $$
 
-A **splitting** of an idempotent $e$ consists of morphisms $s: A \to B$ and $r: B \to A$ such that $r \circ s = 1_A$ and $s \circ r = e$.  In this case $A$ is a [[retract]] of $B$, and we call $e$ a [[split idempotent]].
+A **splitting** of an idempotent $e$ consists of morphisms $s\colon A \to B$ and $r\colon B \to A$ such that $r \circ s = 1_A$ and $s \circ r = e$.  In this case $A$ is a [[retract]] of $B$, and we call $e$ a [[split idempotent]].
 
+Of course, we can simply consider the __idempotent elements__ of any [[monoid]].
+
+
+## The algebra of idempotents
+
+Given an [[abelian monoid]] $R$, the idempotent elements form a [[submonoid]] $Idem(R)$.
+
+Given a [[commutative ring]] $R$, the idempotent elements of $R$ form a [[Boolean algebra]] $Idem(R)$ with these operations:
+
+*  $\top \coloneqq 1$,
+*  $P \wedge Q \coloneqq P Q$,
+*  $\bot \coloneqq 0$,
+*  $P \vee Q \coloneqq P - P Q + Q$,
+*  $\neg{P} \coloneqq 1 - P$.
+
+This is important in [[measure theory]]; if $R$ is the ring $L^\infty(X,\mathcal{M},\mathcal{N})$ of [[essentially bounded function|essentially bounded]] [[real number|real]]-valued [[measurable functions]] on some [[measurable space]] $(X,\mathcal{M})$ modulo an ideal $\mathcal{N}$ of [[null sets]], then $Idem(R)$ is the Boolean algebra of [[characteristic functions]] of [[measurable sets]] modulo null sets, which is [[isomorphic]] to the Boolean algebra $\mathcal{M}/\mathcal{N}$ of measurable sets modulo null sets itself.
+
+If $R$ is a commutative $*$-[[star-ring|ring]], then we may restrict to the [[self-adjoint element|self-adjoint]] idempotent elements to get the Boolean algebra $Proj(R)$.  In measure theory, if $R$ is the [[complex number|complex]]-valued version of $L^\infty(X,\mathcal{M},\mathcal{N})$, then $Proj(R)$ will still reconstruct $\mathcal{M}/\mathcal{N}$.  In [[operator algebra]] theory, the self-adjoint idempotent elements of an operator algebra are called [[projection operator]]s, which the origin of the notation $Proj$.  (Sometimes one requires projection operators to be _proper_: to have norm $1$; the only projection operator that is not proper is $0$.)
+
+The projection operators of a commutative $W^\star$-[[W-star-algebra|algebra]] give the link between operator algebra theory and measure theory; in fact, the [[categories]] of commutative $W^\star$-algebras and of [[localisable measurable spaces]] (or [[measurable locale]]s in [[constructive mathematics]]) are [[dual equivalence|dual]], and $W^\star$-algebra theory in general may be thought of as noncommutative measure theory.  In noncommutative measure theory, the projection operators are still important, but they no longer form a Boolean algebra.
+
+
+[[!redirects idempotent]]
 [[!redirects idempotents]]
+[[!redirects idempotent element]]
+[[!redirects idempotent elements]]
+[[!redirects idempotent operator]]
+[[!redirects idempotent operators]]
 [[!redirects idempotent morphism]]
 [[!redirects idempotent morphisms]]
