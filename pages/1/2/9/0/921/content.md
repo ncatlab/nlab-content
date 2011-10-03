@@ -1,4 +1,3 @@
-
 # Contents
 * automatic table of contents goes here
 {: toc}
@@ -167,9 +166,13 @@ Finally, one can consider points on a [[noncommutative geometry|noncommutative]]
 
 So in summary, this page is about the _real, finite, located, standard, analytic, infinite-precision, $0$-adic, characteristic-$0$, commutative numbers_.
 
-
+ 
 [[!redirects real number]]
 [[!redirects real numbers]]
+
 [[!redirects real line]]
 [[!redirects real number line]]
 [[!redirects the continuum]]
+
+[[!redirects located real number]]
+[[!redirects located real numbers]]
