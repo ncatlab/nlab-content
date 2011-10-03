@@ -1,17 +1,18 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
+
 
 ## Definition
 
@@ -42,9 +43,11 @@ A __Hermitean__ (or __hermitian__) operator is the same as a self-adjoint operat
 
 For a bounded operator $A: H\to K$ between Hilbert spaces define the Hermitean conjugate operator $A^*: K\to H$ by $(Ax|y)_H = (x|A^*y)_K$, for all $x\in K$, $y\in H$. Distinguish it from the concept of the [[transposed operator]] $A^T: K^*\to H^*$ between the dual spaces. 
 
+
 ## Related concepts
 
 * [[self-adjoint extension]]
+
 
 ## References
 
@@ -54,9 +57,16 @@ For a bounded operator $A: H\to K$ between Hilbert spaces define the Hermitean c
 * Reed, M.; Simon, B.: _Methods of modern mathematical physics_. Volume 1, Functional Analysis 
 * Walter Rudin, _Functional analysis_
 
+
+[[!redirects self-adjoint]]
+[[!redirects self-adjoint element]]
+[[!redirects self-adjoint elements]]
+[[!redirects self-adjoint operator]]
+[[!redirects self-adjoint operators]]
+
 [[!redirects essentially selfadjoint operator]]
 [[!redirects adjoint operator]]
-[[!redirects self-adjoint operators]]
+
 [[!redirects Hermitean operator]]
 [[!redirects hermitian operator]]
 
