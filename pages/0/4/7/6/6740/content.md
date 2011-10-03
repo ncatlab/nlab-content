@@ -1,0 +1,45 @@
+
+# Measurable locales
+* table of contents
+{: toc}
+
+## Idea
+
+Measurable locales are certain [[locales]], which may serve as a basis for [[measure theory]] much as general locales serve as a basis for [[topology]] (especially in [[constructive mathematics]]).
+
+The concept appears to be due to [[Dmitri Pavlov]].
+
+
+## Definitions
+
+At present, there is no purely [[order theory|order-theoretic]] definition of measurable locales.  However, there are a few other ways of defining them.
+
+As a preliminary step, consider the [[category]] $Comp Bool Alg$ of [[complete boolean algebras]] and [[supremum]]-preserving [[homomorphisms]] of boolean algebras.  This is a [[full subcategory]] of the category $Frm$ of [[frames]] and so its [[opposite category]] $Comp Bool Alg^{op}$ is a full subcategory of the category [[Loc]] of locales.  The category $Meas Loc$ of measurable locales is yet further a full subcategory of $Comp Bool Alg^{op}$, so our job is simply to specify *which* complete boolean algebras are the [[objects]] of this category.
+
+By one definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a [[complete measure space]] $X$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $\mathcal{M}/\mathcal{N}$ of [[measurable subsets]] of $X$ modulo [[null subsets]].  Note that the measure on $X$ is irrelevant except to specify the null subsets.  In this way, $Meas Loc$ becomes [[equivalence of categories|equivalent]] to the category $Loc Meas$ of [[localisable measurable spaces]].
+
+By another definition, a complete boolean algebra $L$ is a __measurable locale__ if ....
+
+By yet another definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a commutative $W^*$-[[W-star-algebra|algebra]] $A$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $Proj(A)$ of [[projection operator]]s in $A$; see [[idempotent operator]] for a construction of $Proj(A)$.  In this way, $Meas Loc$ becomes [[dual equivalence|dual]] to the category $Comm W^* Alg$ of commutative $W^*$-algebras.
+
+Whichever of these equivalent definitions is adopted, a __measurable map__ between measurable locales is simply a [[continuous map]] between them as locales; these are the [[morphisms]] of $Meas Loc$.
+
+For purposes of [[constructive mathematics]], [[Toby Bartels|I]] suspect that it is correct to use the definition from $W^\star$-algebras, so long as we allow norms to be [[upper real numbers]].  (If they are all [[located real number|located]], then $Proj(A)$ has [[decidable equality]], which we don't want to require.)  I'm less certain whether the other definitions can work.
+
+
+## The Borel real line
+
+To do [[measure theory]], it's important to know how to interpret the [[real line]] with the [[Borel sets]] as measurable.  This is actually a little tricky, because [[Lebesgue measure]] is not complete on the Borel sets, and passing to the Lebesgue sets gives a different measurable space.
+
+...
+
+
+## References
+
+The theory of measurable locales seems to be published entirely on MathOverflow, in various questions and answers by [[Dmitri Pavlov]].  Here is an index:
+
+* Dmitri Pavlov, [answer](http://mathoverflow.net/questions/49426/is-there-a-category-structure-one-can-place-on-measure-spaces-so-that-category-th/49542#49542) to _Is there a category structure one can place on measure spaces so that category-theoretic products exist?_ (version: 2011-01-08)
+
+
+[[!redirects measurable locale]]
+[[!redirects measurable locales]]
