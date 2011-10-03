@@ -19,7 +19,7 @@ In the context of [[homological algebra]] the right [[derived functor]] of the [
 
 (This is really a special case of the general discussion at [[cohomology]] and [[group cohomology]].)
 
-Together with the [[Tor]]-functor it is one of the central objects of interst in homological algebra.
+Together with the [[Tor]]-functor it is one of the central objects of interest in homological algebra.
 
 ## Details
 
