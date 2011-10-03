@@ -51,7 +51,11 @@ For a [[Courant algebroid]] $(\mathfrak{P}, \omega)$ this is called the _Courant
 
 The action functional was first deduced in
 
-* [[Dmitry Roytenberg]], _AKSZ-BV Formalism and Courant Algebroid-induced Topological Field Theories_ ([arXiv:hep-th/0608150](http://arxiv.org/abs/hep-th/0608150)).
+* Noriaki Ikeda, _Chern-Simons Gauge Theory coupled with BF Theory_ Int. J. Mod. Phys. A18 (2003) 2689-2702 ([arXiv:hep-th/0203043](http://arxiv.org/abs/hep-th/0203043))
+
+As an example of an [[AKSZ sigma-model]] it was later re-derived in
+
+* [[Dmitry Roytenberg]], _AKSZ-BV Formalism and Courant Algebroid-induced Topological Field Theories_ (2006) ([arXiv:hep-th/0608150](http://arxiv.org/abs/hep-th/0608150)).
 
 Further discussion is in 
 
