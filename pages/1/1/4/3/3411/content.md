@@ -23,7 +23,7 @@
 
 A [[function]]  $f : X \to Y$ between [[topological space]]s  is called __open__ if the [[image]] of every [[open set]] in $X$ is also open in $Y$.
 
-Recall that $f$ is __[[continuous map]]__ if the [[preimage]] of every [[open subspace|open set]] in $Y$ is open in $X$.  For defining open maps typically one restricts attention to open [[continuous map]]s, although it also makes sense to speak of open functions that are not continuous.
+Recall that $f$ is a __[[continuous map]]__ if the [[preimage]] of every [[open subspace|open set]] in $Y$ is open in $X$.  For defining open maps typically one restricts attention to open [[continuous map]]s, although it also makes sense to speak of open functions that are not continuous.
 
 
 ### For morphisms between locales
