@@ -44,7 +44,7 @@ In general, we may intuitively think of an object $A$ in the [[slice category]] 
 
 ## Propositional and predicate logic
 
-In [[propositional logic]], we fix a single context and consider the logic of propositions in that context.  In [[predicate logic]], we fix a base context but work also in extensions of that context by free variables.  Predicate logic uses [[quantifiers]] as a way to move between contexts, more specifically to move from a predicate $P$ in a given context $\Gamma$ (which is a proposition in some extension of $\Gamma$) to a proposition in $\Gamma$.  The free variables in the predicate still appear in the written form of the proposition, but they are now *bound* variables and are not free in the proposition\'s context; some logicians prefer to systematically replace bound variables with numbered placeholders (especially when defining [[Goedel number]]s and the like).
+In [[propositional logic]], we fix a single context (perhaps the empty context) and consider the logic of propositions in that context.  In [[predicate logic]], we fix a base context (perhaps the empty context) but work also in extensions of that context by free variables.  Predicate logic uses [[quantifiers]] as a way to move between contexts, more specifically to move from a predicate $P$ in a given context $\Gamma$ (which is a proposition in some extension of $\Gamma$) to a proposition in $\Gamma$.  The free variables in the predicate still appear in the written form of the proposition, but they are now *bound* variables and are not free in the proposition\'s context; some logicians prefer to systematically replace bound variables with numbered placeholders (especially when defining [[Goedel number]]s and the like).
 
 
 [[!redirects proposition]]
