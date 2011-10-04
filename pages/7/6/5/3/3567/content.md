@@ -41,7 +41,7 @@ By the [[homotopy hypothesis]]-theorem $Ho(CW)$ is equivalent for instance to th
 
 ## Shape theory
 
-The category $Ho(Top)_{he}$ of can be studied by testing its objects with objcts from $Ho(CW)$. This is the topic of [[shape theory]].
+The category $Ho(Top)_{he}$ can be studied by testing its objects with objects from $Ho(CW)$. This is the topic of [[shape theory]].
 
 category: category
 
