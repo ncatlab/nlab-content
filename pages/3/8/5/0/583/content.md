@@ -1,29 +1,25 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include topos theory - contents]]
 =--
 #### Type theory
-+--{: .hide}
++-- {: .hide}
 [[!include type theory - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
-
+{: toc}
 
 ## Idea 
 
@@ -72,6 +68,7 @@ There is a hierarchy of types of logical theories, each of which corresponds to 
 |[[higher order logic|higher order]]| |[[topos|elementary topos]]|
 
 Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]].  Not coincidentally, the corresponding types of category up through "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having all finite limits, such as finite product sketches or finite sum sketches, but the logical approach taken here seems to require at least finite limits.
+
 
 ### Theories
 
@@ -161,7 +158,8 @@ The second, more important, caveat is that the internal logic of all these categ
 The third caveat is that one must take care to distinguish the _internal_ logic of a category from what is _externally_ true about it.  In general, internal validity is "local" truth, meaning things which become true "after passing to a [[cover]]."  This is particularly important for formulas involving _disjunction_ and _existence_.  For example, an object's being [[projective object|projective]] in the category $C$ is a different statement from its being _internally_ projective, meaning that "$X$ is projective" is true in the internal logic.  Another good example can be found in the different notions of [[finite object]] in a topos.  This problem goes away if the ambient category is [[well-pointed topos|well-pointed]], but well-pointed categories are even rarer than Boolean ones satisfying choice; the only well-pointed Grothendieck topos is [[Set]] itself.
 
 
-## Completeness, syntactic categories, and Morita equivalence # {#syntactic_categories}
+## Completeness, syntactic categories, and Morita equivalence
+{#syntactic_categories}
 
 The converse of the Soundness Theorem is called the _Completeness Theorem_, and states that if a sequent $\varphi\vdash\psi$ is valid in every model of a theory, then it is _provable_ from that theory.  This is noticeably less trivial.  In classical first-order logic, where the only models considered are set-valued ones, the completeness theorem is usually proven using [[ultraproduct]]s.  However, in categorical logic there is a more elegant approach (which additionally no longer depends on any form of the [[axiom of choice]]).  From any theory $T$ we can construct a category, called its **[[syntactic category]]** $C_T$, containing a "generic" model of the theory, in which the valid sequents are precisely those provable from the theory.  It turns out that $C_T$ is precisely the category of [[context]]s described on the page [[context]].  Therefore, if a sequent is valid in all models, it is also valid in the generic model in $C_T$, and hence provable from $T$.
 
@@ -363,9 +361,12 @@ $$
 
 for $V \in Op(X)$.
 
-**Remark** In the *[[presheaf]]* topos $PSh(Op(X))= Func(Op(X)^{op},Set)$, the subobjects of $1$ are arbitrary [[sieves]] in $Op(X)$, not just representables.  For instance, for any two open sets $U$ and $V$ there is a sieve consisting of all open sets contained in either $U$ or $V$, which doesn't necessarily contain $U\cup V$.  It's only in the *sheaf* topos $Sh(X)$ that the representables are precisely the subobjects of $1$.  
++-- {: .un_remark}
+###### Remark
+In the *[[presheaf]]* topos $PSh(Op(X))= Func(Op(X)^{op},Set)$, the subobjects of $1$ are arbitrary [[sieves]] in $Op(X)$, not just representables.  For instance, for any two open sets $U$ and $V$ there is a sieve consisting of all open sets contained in either $U$ or $V$, which doesn't necessarily contain $U\cup V$.  It's only in the *sheaf* topos $Sh(X)$ that the representables are precisely the subobjects of $1$.  
+=--
 
- The [[poset]] of [[subobject]]s formed by these is just the [[category of open subsets]] itself:
+The [[poset]] of [[subobject]]s formed by these is just the [[category of open subsets]] itself:
 
 $$
   L = Op(X)
@@ -420,10 +421,7 @@ Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in gener
 * Paul Taylor\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is arguably all about this subject (although you wouldn\'t know it until about Chapter VIII), but from a different perspective.  In particular, Taylor allows us to replace having *all* pullbacks with pullbacks along a pullback-stable class of [[display morphisms]].
 
 
+[[!redirects internal logic]]
 [[!redirects internal logics]]
 [[!redirects internal language]]
 [[!redirects internal languages]]
-
-
-[[!redirects categorical logic]]
-[[!redirects categorial logic]]
