@@ -1,4 +1,4 @@
-Given a [[Lie group]] $G$, it [[action|acts]] smoothly on the dual $g^*$ of its [[Lie algebra]] $g$ by the __coadjoint action__.  The [[orbit|orbits]] of that action are called __coadjoint orbits__. They are especially important in the orbit method of [[representation theory]] or, more generally, [[geometric quantization]].
+Given a [[Lie group]] $G$, it [[action|acts]] smoothly on the dual $g^*$ of its [[Lie algebra]] $g$ by the __coadjoint action__.  The [[orbit|orbits]] of that action are called __coadjoint orbits__. They are especially important in the [[orbit method]] of [[representation theory]] or, more generally, [[geometric quantization]].
 
 The dual $g^*$ of a (say finite-dimensional real) [[Lie algebra]] has a structure of a [[Poisson manifold]] with the Poisson structure due to A. Kirillov and Souriau, namely for any $a\in g^*$, 
 
