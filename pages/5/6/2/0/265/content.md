@@ -24,7 +24,7 @@ A [[category with weak equivalences]] $C$ serves as a presentation for an [[(∞
 
 If $F$ is a [[homotopical functor]] in that it respects the weak equivalences in $C$ and $D$, then by the universal property of [[simplicial localization]] it extends to a functor of [[(∞,1)-category|(∞,1)-categories]] and this is the corresponding _derived functor_ .
 
-However, typically functors of interest do not respect weak equivalences and hence do not uniquely or even naturally give rise to an [[(∞,1)-functor]]. In general, they contains too little information to accomplish this. Notably, to objects $x, y \in C$ that are [[homotopy equivalence|equivalent]] in $\mathbf{C}$ but not [[isomorphism|isomorphic]] in $C$, the functor will in general not assign objects $F(x)$ and $F(y)$ that are equivalent in $\mathbf{D}$, as an [[(∞,1)-functor]] would. So it matters on which representatives of a $\mathbf{C}$-equivalence class of objects the functor $F$ is applied. 
+However, typically functors of interest do not respect weak equivalences and hence do not uniquely or even naturally give rise to an [[(∞,1)-functor]]. In general, they contain too little information to accomplish this. Notably, to objects $x, y \in C$ that are [[homotopy equivalence|equivalent]] in $\mathbf{C}$ but not [[isomorphism|isomorphic]] in $C$, the functor will in general not assign objects $F(x)$ and $F(y)$ that are equivalent in $\mathbf{D}$, as an [[(∞,1)-functor]] would. So it matters on which representatives of a $\mathbf{C}$-equivalence class of objects the functor $F$ is applied. 
 
 Remembering that by Dwyer-Kan [[simplicial localization]] the morphisms in $\mathbf{C}$ and $\mathbf{D}$ are zig-zags of morphisms in $C$ and $D$, a very general notion of derived functor therefore takes a derived functor of $F$ to be a functor $\mathbb{D}F : \mathbf{C} \to \mathbf{D}$ induced from the universal property of the localization by a functor of the form $F \circ Q : C \to D$, where $Q : C \to C$ is an endofunctor which is naturally connected to the identity by a zig-zag of weak equivalences. 
 
@@ -178,7 +178,7 @@ This is prop. 5.2.4.6 and remark 5.2.4.7 in [[Higher Topos Theory|HTT]].
 
 Often and traditionally, the concept of derived functors is considered in [[homological algebra]] exclusively in the context of [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ in an [[abelian category]] $\mathcal{A}$.
 
-By taking [[quasi-isomorphism]]s as weak equivalences, $Ch_\bullet(\mathcal{A})$ is naturally a [[category with weak equivalences]]. In much of the literature on homological algebra, the refinement of this structure to a projective or injective [[model structure on chain complexes]] is implicit.  For instance, injective [[resolution]] of chain complexes is nothing but fibrant replacement in the injective model structure.  Dually, projective resolution is cofibrant replacement in the projective model structure.  (Note, though, that hypotheses on $\mathcal{A}$ are required in order for these model structures to exist.)
+By taking [[quasi-isomorphism]]s as weak equivalences, $Ch_\bullet(\mathcal{A})$ is naturally a [[category with weak equivalences]]. In much of the literature on homological algebra, the refinement of this structure to a projective or injective [[model structure on chain complexes]] is implicit.  For instance, an injective [[resolution]] of chain complexes is nothing but a fibrant replacement in the injective model structure.  Dually, a projective resolution is a cofibrant replacement in the projective model structure.  (Note, though, that hypotheses on $\mathcal{A}$ are required in order for these model structures to exist.)
 
 
 Now, any ordinary [[additive functor]] $F\colon \mathcal{A} \to \mathcal{B}$ between [[abelian categories]] induces a functor $Ch_\bullet(F)\colon Ch_\bullet(\mathcal{A}) \to Ch_\bullet(\mathcal{B})$ between [[category of chain complexes|categories of chain complexes]].  We can therefore ask about derived functors of $Ch_\bullet(F)$.
@@ -222,7 +222,7 @@ Of course, it is equivalent to instead regard $A$ as concentrated in degree $0$,
 
 The first and the last steps are traditionally included, but are not really necessary:
 
-1. Instead of applying the first step and resticting attention to arguments that are chain complexes concentrated in a single degree, one can evaluate $\mathbb{R} Ch_\bullet(F)$ on all chain complexes (and then, if desired, take homology groups). In homological algebra one then speaks of [[hyper-derived functor]]s.
+1. Instead of applying the first step and restricting attention to arguments that are chain complexes concentrated in a single degree, one can evaluate $\mathbb{R} Ch_\bullet(F)$ on all chain complexes (and then, if desired, take homology groups). In homological algebra one then speaks of [[hyper-derived functor]]s.
 
 1. The last step of taking cohomology groups serves to extract invariant and computable information. It also destroys the simple composition law of functors, though. But there is a computational tool that can be used to recover the derived functor -- in this homological sense -- of the composite of two functors from their individual derivations: this is the [[spectral sequence]] called the  <a href="http://ncatlab.org/nlab/show/spectral+sequence#GrothendieckSpectralSequence">Grothendieck spectral sequence</a>.
 
