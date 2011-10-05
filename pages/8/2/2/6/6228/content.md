@@ -11,6 +11,8 @@
 
 * [[von Neumann algebra]]
 
+* [[geometric measure theory]]
+
 ## Probability theory
 
 * [[probability space]]
@@ -41,6 +43,6 @@
 
 * [[second law of thermodynamics]], [[generalized second law of theormodynamics|generalized second law]]
 
-
+* [[ergodic theory]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/measure+theory+-+contents)</div>
