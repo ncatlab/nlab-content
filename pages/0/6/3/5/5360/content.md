@@ -56,6 +56,7 @@ The definition in terms of quandles coincides with the classical definition in t
 The relation to quandles is given in Theorem I.4.3.  Bertram attributes this result to part I, chapter II of
 
 * Ottmar Loos, _Symmetric Spaces I, II_, Chapter II, Benjamin, New York, 1969.
-
+* Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_,
+* S. Helgason, _Group representations and symmetric spaces_, Proc. ICM. Nice 1970, vol. 2, 313-320, [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.pdf), [djvu](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.djvu) 
 [[!redirects symmetric space]]
 [[!redirects symmetric spaces]]
