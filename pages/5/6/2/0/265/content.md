@@ -96,13 +96,13 @@ This is often in the literature given as the _definition_ of, respectively , tot
 
 ## Definition
 
-We first give the [[decategorification|decatergorified]] definition of total derived functors on [[homotopy category|homotopy categories]] in 
+We first give the [[decategorification|decategorified]] definition of total derived functors on [[homotopy category|homotopy categories]] in 
 
 * [As functors on homotopy categories](#OnHomotopyCat)
 
 and then the [[(∞,1)-category]]-version in
 
-* [Af functors on (∞,1)-categories](#OnInftyCats).
+* [As functors on (∞,1)-categories](#OnInftyCats).
 
 
 
