@@ -3,3 +3,5 @@ __Ergodic theory__ studies [[dynamical system]]s in spaces with an invariant mea
 Ergodic reasoning is important also in construction of counterexamples in geometry and geometric group theory as well as in the construction and study of various measures, representations, random walks and so on related to algebraic objects and objects of harmonic analysis.   
 
 * wikipedia [ergodic theory](http://en.wikipedia.org/wiki/Ergodic_theory)
+
+A list of references available at this course [page](http://www.math.cornell.edu/~slim/ergodic.html).
