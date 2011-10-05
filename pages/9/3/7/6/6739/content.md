@@ -5,3 +5,6 @@ Let $G$ and $H$ be [[graph|simple graphs]]. Then $H$ is a **graph minor** of $G$
 * Removing an isolated point; 
 
 * Contracting an edge, i.e., removing an edge and identifying its endpoints. 
+
+If we define a simple graph to mean a set equipped with a symmetric reflexive relation, with the evident notion of morphism, then graph minors can be equivalently described as subquotients in the category of simple graphs. 
+(To be continued.) 
