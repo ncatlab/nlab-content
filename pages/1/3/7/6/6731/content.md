@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 __Collective field theory__ is a generalization of the method of treating plasma oscillations from 
 
 * D. Bohm, D. Pines, Phys. Rev. __92__ (1953) 609;
