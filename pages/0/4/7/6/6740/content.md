@@ -34,6 +34,11 @@ To do [[measure theory]], it's important to know how to interpret the [[real lin
 ...
 
 
+## Measures on measurable locales
+
+...
+
+
 ## References
 
 The theory of measurable locales seems to be published entirely on MathOverflow, in various questions and answers by [[Dmitri Pavlov]].  Here is an index:
