@@ -1,0 +1,5 @@
+* wikipedia [rectifiable set](http://en.wikipedia.org/wiki/Rectifiable_set)
+
+Related entries: [[geometric measure theory]]. 
+
+[[!redirects rectifiability]]
