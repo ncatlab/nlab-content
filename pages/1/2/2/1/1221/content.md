@@ -1,4 +1,4 @@
-A __Karoubian category__ is a [[additive and abelian categories|preadditive category]] $C$ such that every [[idempotent]] morphism $P: A \to A$ in $C$ has a [[kernel]]. It is also called a __pseudo-abelian category__.
+A __Karoubian category__ is a [[additive and abelian categories|preadditive category]] $C$ such that every [[idempotent]] morphism $P: A \to A$ in $C$ has a [[kernel]]. It is also called a __pseudo-abelian category__ (also spelled pseudoabelian).
 
 There is a [[reflective subcategory|universal functor]] from the category of (say, small) preadditive categories to the category of Karoubian categories, the __Karoubinization functor__; its value on a preadditive category $C$ is also called the __Karoubian envelope__ or the __pseudo-abelian completion__ of $C$. 
 
@@ -6,6 +6,7 @@ The requirement that, say, a [[dg-category]] or a [[triangulated category]] be K
 
 
 [[!redirects pseudo-abelian category]]
+[[!redirects pseudoabelian category]]
 [[!redirects pseudo-abelian completion]]
 [[!redirects Karoubian envelope]]
 [[!redirects Karoubianization]]
