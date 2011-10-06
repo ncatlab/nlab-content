@@ -6,5 +6,27 @@ Let $G$ and $H$ be [[graph|simple graphs]]. Then $H$ is a **graph minor** of $G$
 
 * Contracting an edge, i.e., removing an edge and identifying its endpoints. 
 
-If we define a simple graph to mean a set equipped with a symmetric reflexive relation, with the evident notion of morphism, then graph minors can be equivalently described as subquotients in the category of simple graphs. 
-(To be continued.) 
+If we define a simple graph to mean a set $V$ equipped with a symmetric reflexive relation $E$, with the evident notion of morphism, then graph minors can be equivalently described as subquotients in the category of simple graphs. 
+
+We begin by quoting some exactness properties of the category of simple graphs (or, again, the category of sets equipped with a symmetric reflexive relation). There is an evident inclusion 
+
+$$i: SimpGph \to Set^{\bullet \stackrel{\to}{\to} \bullet}$$ 
+
+where the category on the right is the topos of directed graphs. 
+
++-- {: .un_thm}
+###### Theorem 
+The functor $i$ preserves and reflects both finite limits and finite colimits. 
+=-- 
+
+The category of directed graphs can be equivalently described as the comma category $Set \downarrow sq$ where $sq: Set \to Set$ is the squaring functor. A morphism in the comma category amounts to a commutative square of the form 
+
+$$\array{
+E & \stackrel{g}{\to} & F \\
+\downarrow & & \downarrow \\ 
+V^2 & \underset{f^2}{\to} & W^2
+}$$ 
+
+and such may be factored according to a [[ternary factorization system]], first by factoring through a pullback as follows: 
+
+
