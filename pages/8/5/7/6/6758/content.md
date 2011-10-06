@@ -1,0 +1,3 @@
+
+
+A [[differential form]] whose [[period]]s are [[integer]]s. A closed form that represents in [[de Rham cohomology]] a class in [[integral cohomology]].
