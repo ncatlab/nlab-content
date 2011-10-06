@@ -4,5 +4,4 @@ __Teimuraz Pirashvili__ is a Georgian mathematician (Razmadze Institute of the G
 
 category: people 
 
-
-  
+[[!redirects T. Pirashvili]]
