@@ -30,7 +30,7 @@
 
 A **2-morphism** in an [[n-category]] is a [[k-morphism]] for $k = 2$: it is a higher morphism between ordinary 1-[[morphism]]s.
 
-So in the hierachty of $n$-categories, the first step where 2-morphisms appear is in a [[2-category]]. This includes cases such as [[bicategory]], [[2-groupoid]] or [[double category]].
+So in the hierarchy of $n$-categories, the first step where 2-morphisms appear is in a [[2-category]]. This includes cases such as [[bicategory]], [[2-groupoid]] or [[double category]].
 
 ## Shapes 
 
@@ -87,7 +87,7 @@ or maybe
 $$\alpha_a\circ g \simeq f\circ\alpha_b$$
 ? Could there be a 2-morphism without the corresponding 1-morphism components?
 
-[[Urs Schreiber]]: in any given [[2-category]] you have to specify which 2-morphisms exactly there are supposed to be, what $ \alpha $ exactly you allow between $f$ and $g$. When you ask about components, it seems you are thinking of 2-morphisms specifically in the 2-category [[Cat]]. Here, yes, th allowed 2-morphisms are those that are [[natural transformation]]s between their source and target 1-morphisms, which are [[functor]]s.
+[[Urs Schreiber]]: in any given [[2-category]] you have to specify which 2-morphisms exactly there are supposed to be, what $ \alpha $ exactly you allow between $f$ and $g$. When you ask about components, it seems you are thinking of 2-morphisms specifically in the 2-category [[Cat]]. Here, yes, the allowed 2-morphisms are those that are [[natural transformation]]s between their source and target 1-morphisms, which are [[functor]]s.
 
 [[Eric]]: I think the [[exchange law]] might be what I had in mind.
 
@@ -96,7 +96,7 @@ $$\alpha_a\circ g \simeq f\circ\alpha_b$$
 
 ## Examples
 
-* in the [[2-category]] [[Cat]], 2-morphisms are [[natural transformation]]s between functors.
+* In the [[2-category]] [[Cat]], 2-morphisms are [[natural transformation]]s between functors.
 
 * In a [[path 2-groupoid]] 2-morphisms are certain surfaces or images of surfaces in a space, going between paths in that space.
 
