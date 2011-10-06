@@ -50,6 +50,10 @@ The theory of measurable locales seems to be published entirely on MathOverflow,
 
 * Dmitri Pavlov, [answer](http://mathoverflow.net/questions/49426/is-there-a-category-structure-one-can-place-on-measure-spaces-so-that-category-th/49542#49542) to _Is there a category structure one can place on measure spaces so that category-theoretic products exist?_ (version: 2011-01-08)
 
+Another post not in this index is:
+
+* Dmitri Pavlov, _[Which complete Boolean algebras arise as the algebras of projections of commutative von Neumann algebras?](http://mathoverflow.net/questions/71259/which-complete-boolean-algebras-arise-as-the-algebras-of-projections-of-commutati)_ (version: 2011-07-25)
+
 
 [[!redirects measurable locale]]
 [[!redirects measurable locales]]
