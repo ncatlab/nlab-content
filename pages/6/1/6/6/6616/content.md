@@ -283,6 +283,30 @@ We shall show below that all notions of geometric quantization of symplectic $\i
 ### Prequantum circle $(n+1)$-bundle 
  {#PrequantumBundles}
 
+
+#### Idea
+
+What is called _[[geometric quantization|(geometric) prequantization]]_ is a refinement of symplectic 2-forms to [[curvature]] 2-forms on a [[line bundle]] with [[connection on a bundle|connection]]. This is called a choice of _prequantum line bundle_ for the given symplectic form.  
+
+This has an evident generalization to closed forms of degree $(n+2)$. If integral, these may be refined to a [[curvature]] $(n+2)$-form on a _[[circle n-bundle with connection]]_ . Since in the context of [[smooth ∞-groupoid]]s we can have circle $n$-bundles over other smooth $\infty$-groupoids, this means that we canonically have the notion of **prequantum circle $(n+1)$-bundles** on a symplectic $n$-groupoid.
+
+Moreover, since, as discussed above, the symplectic form on a symplectic $n$-groupoid may be regarded as the image of an [[invariant polynomial]] under the unrefined [[∞-Chern-Weil homomorphism]]
+
+$$
+  \omega : X \to \mathbf{\flat}_{dR} \mathbf{B}^{n+2}\mathbb{R}
+  \,,
+$$
+
+the passage to the prequantum $(n+1)$-bundle with connection corresponds to passing to the _refined_ [[∞-Chern-Weil homomorphism]] 
+
+$$
+  \hat \omega : X \to \mathbf{B}^{n+1}U(1)_{conn}
+$$
+
+(as discussed there).
+
+#### Definition
+
 Let $(X, \omega)$ be a symplectic $\infty$-groupoid. Then $\omega$ represents a class
 
 $$
@@ -344,50 +368,93 @@ $$
   \,.
 $$
 
-### Details
+## Hamiltonian vector fields on symplectic $n$-groupoids
 
-(...)
++-- {: .num_defn}
+###### Definition
 
-> to be merged / absorbed / rewritten
-
-We discuss the [[geometric quantization]] of symplectic $\infty$-groupoids by generalizing the [[geometric quantization of symplectic groupoids]].
-
-Given a [[symplectic Lie n-algebroid]] $(\mathfrak{P}, \omega)$ we have by ([FRS](#FRS)) the corresponding [[infinity-Lie algebra cohomology|L-∞ cocycle]] in [[transgression]] with $\omega$
+Let $\omega : X \to \mathbf{\flat}_{dR} \mathbf{B}^{n+2} U(1)$ be a symplectic $n$-groupoid and let
 
 $$
-  \pi : \mathfrak{P} \to b^{n+1}\mathbb{R}
-  \,.
+  \hat \omega
+  : 
+  X \to  \mathbf{B}^{n+2} U(1)_{conn}
 $$
 
-Its [[Lie integration]] 
+be a [prequantization](#PrequantumBundles).
+
+Regard it as an object in the [[over-(∞,1)-topos]] $\mathbf{H}/\mathbf{B}^{n+2}U(1)_{conn}$.
+
+Then the internal [[automorphism ∞-group]]
 
 $$
-  \exp(\pi)
-  :
-  \tau_{n} \exp(\mathfrak{P})
-  \to
-  \mathbf{B}^{n+1} U(1)
+  \underline{Aut}_{\mathbf{H}/\mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)}(X)
+  \in \mathbf{H}
 $$
 
-classifies a [[circle n-bundle with connection|circle n-bundle]]
+of auto-equivalences that respect the [[connection on an infinity-bundle|∞-connection]] that refines $\omega$ we call the $\infty$-group of **Hamiltonian diffeomorphisms**  of $X$. Its [[∞-Lie algebra]] we call that of **Hamiltonian vector fields** on $X$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $\omega : X \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ an ordinary [[symplectic manifold]] regarded as a symplectic 0-groupoid, this definition reproduces the standard notion of [[Hamiltonian]] vector fields.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+An Hamiltonian diffeomorphism is given by a diagram
 
 $$
-  \widehat \tau_n \exp(\mathfrak{P}) 
-   \to 
-  \tau_n \exp(\mathfrak{P})
+  \array{
+     X &&\stackrel{\phi}{\to} && X
+     \\
+     & {}_{\mathllap{\hat \omega}}\searrow 
+     &\swArrow_{\alpha}& 
+     \swarrow_{\mathrlap{\hat \omega}}
+     \\
+     && \mathbf{B} U(1)_{conn}
+  }
   \,,
 $$
 
-the **prequantum circle $n$-bundle**. By [[∞-Chern-Weil theory]] this pairs with the symplectic form from [above](ByLieIntegration) to a cocycle in [[ordinary differential cohomology]] 
+where $\phi$ is an ordinary [[diffeomorphism]]. To compute the Lie algebra of this, we need to consider smooth 1-parameter families of such and differentiate them. 
+
+Assume first that the connection 1-form in $\hat \omega$ is globally defined $A \in \Omega^1(X)$ with $d A = \omega$. Then the above diagram is equivalent to
 
 $$
-  [\nabla] \in H_{diff}^{n+1}(A, U(1))
+  (\phi(t)^* A - A) = d \alpha(t)
+  \,,
 $$
 
-which classifies a [[circle n-bundle with connection]] $(\widehat \tau_n \exp(\mathfrak{P}), \nabla)$.
+where $\alpha(t) \in C^\infty(X)$. Differentiating this at 0 yiels the [[Lie derivative]]
 
-This is the **geometric prequantization** of $(\mathfrak{P}, \omega)$.
+$$
+  \mathcal{L}_v A = d \alpha'
+  \,,
+$$
 
+where $v$ is the [[vector field]] of which $t \mapsto \phi(t)$ is the [[flow]].
+
+By [[Cartan calculus]] this is
+
+$$
+  d \iota_v A + \iota_v d_{dR} A  = d \alpha'
+$$
+
+hence
+
+$$
+  \iota_v \omega = d (\alpha' - \iota_v A)
+  \,.
+$$
+
+This says that for $v$ to be Hamiltonian, its contraction with $\omega$ must be exact. This is precisely the definition of [[Hamiltonian vector field]]s. The corresponding [[Hamiltonian]] here is $\alpha'-\iota_v A$.
+
+=--
 
 ## Related concepts
 
