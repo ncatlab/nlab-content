@@ -18,7 +18,7 @@ Disambiguation: there is an unrelated notion of a Hamilton or Hamiltonian operat
 
 ## Definition
 
-Given a [[Poisson manifold]] $(X, \{-,-\})$ and a [[vector field]] $v \in \Gamma(T X) $ a **Hamiltonian** for $v$ is a function $h_v \in C^\infty(X)$ such that $\{h_v,-\}$ is the [[derivation]] corresponding to $v$.
+Given a [[Poisson manifold]] $(X, \{-,-\})$ and a [[vector field]] $v \in \Gamma(T X) $, a **Hamiltonian** for $v$ is a [[smooth function]] $h_v \in C^\infty(X)$ such that $\{h_v,-\}$ is the [[derivation]] corresponding to $v$.
 
 Conversely, one says that $v$ is the [[Hamiltonian vector field]] of $h_v$.
 
