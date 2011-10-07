@@ -33,7 +33,7 @@ In some cases the category-theoretic notion of limit does reproduce notions of l
 
 ### Global versus local 
 
-In correspondence to the _local_ defintion of [[adjoint functor]]s (as discussed there), there is a _local_ definition of limits (in terms of cones), that defines a limit (if it exists) for each individual diagram, and there is a _global_ definition, which defines the limit for _all_ diagrams (in terms of an [[adjoint functor|adjoint]]).
+In correspondence to the _local_ definition of [[adjoint functor]]s (as discussed there), there is a _local_ definition of limits (in terms of cones), that defines a limit (if it exists) for each individual diagram, and there is a _global_ definition, which defines the limit for _all_ diagrams (in terms of an [[adjoint functor|adjoint]]).
 
 If all limits over the given shape of diagrams exist in a category, then both definitions are equivalent.
 
@@ -102,7 +102,7 @@ $$
 
 In particular, the limit of a set-valued functor always exists. 
 
-Notice the important triviality that the covariant [[hom-functor]] comutes with set-valued limits: for every set $S$ we have a bijection of sets
+Notice the important triviality that the covariant [[hom-functor]] commutes with set-valued limits: for every set $S$ we have a bijection of sets
 
 $$
   Hom_{Set}(S, lim F)
@@ -158,7 +158,7 @@ $$
   \,.
 $$
 
-So also the [[presheaf]]-valued limit always exist. If this presheaf is [[representable functor|representble]] by an object $lim F$ of $F$, then this is the **limit** of $F$:
+So also the [[presheaf]]-valued limit always exist. If this presheaf is [[representable functor|representable]] by an object $lim F$ of $F$, then this is the **limit** of $F$:
 
 $$
   Hom(c, \lim F)
@@ -266,7 +266,7 @@ where the first morphism picks the [[identity morphism]]
 on $\lim F$ and the second one is the defining
 bijection of a limit as above.
 
-This cone
+The cone
 $$
   \array{
      && \lim F
@@ -280,8 +280,8 @@ $$
   }
 $$
 is called the **universal cone** over $F$, because,
-again by the defining proprty of limit as above,
-everey other cone $\{c \to F(d)\}_{d \in D}$ as 
+again by the defining property of limit as above,
+every other cone $\{c \to F(d)\}_{d \in D}$ as 
 above is bijectively related to a morphism
 $c \to  \lim F$ 
 
@@ -378,7 +378,7 @@ The notion of limit, being fundamental to
 
 The central point about examples of limits is:
 
-_Categorical limits are ubiquitous_ . 
+_Categorical limits are ubiquitous_. 
 
 To a fair extent, [[category theory]] is all about limits and the other [[universal construction]]s: [[Kan extension]]s, [[adjoint functor]]s, [[representable functor]]s, which are all special cases of limits -- and limits are special cases of these.
 
@@ -427,7 +427,7 @@ $$
   \,.
 $$
 
-Conversely, if both of these products exist and so does the equalizer of this pair of maps, then that equalizer is a limit of $F$.  In particular, therefore, a category has all limits as soon asit has all products and equalizers, and a functor defined on such a category [[preserved limit|preserves]] all limits as soon as it preserves products and equalizers.
+Conversely, if both of these products exist and so does the equalizer of this pair of maps, then that equalizer is a limit of $F$.  In particular, therefore, a category has all limits as soon as it has all products and equalizers, and a functor defined on such a category [[preserved limit|preserves]] all limits as soon as it preserves products and equalizers.
 
 Another example is that all [[finite limits]] can be computed in terms of [[pullbacks]] and a [[terminal object]].
 
