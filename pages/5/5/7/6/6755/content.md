@@ -1,7 +1,7 @@
-__Ergodic theory__ studies [[dynamical system]]s in spaces with an invariant measure. In particular, the long term limit of the average of the position of a particle is studied. In [[statistical physics]], the derivation of various thermodynamic principles depends much on the so-called ergodic hypothesis saying that in long term in the system with large system of particles passing near some state on the surface of given energy is equally probable and this does not depend on the initial conditions (other than energy). 
+__Ergodic theory__ studies [[dynamical system]]s in spaces with an invariant measure. In particular, the long term limit of the average of the position of a particle is studied. In [[statistical physics]], the derivation of various thermodynamic principles depends much on the so-called __ergodic hypothesis__ ([wikipedia](http://en.wikipedia.org/wiki/Ergodic_hypothesis)) saying that in long term in the system with large system of particles the probability of passing on the constant energy surface near some particular state is independent of the state on that surface and its probability does not depend on the initial conditions (other than energy). 
 
 Ergodic reasoning is important also in construction of counterexamples in geometry and geometric group theory as well as in the construction and study of various measures, representations, random walks and so on related to algebraic objects and objects of harmonic analysis.   
 
-* wikipedia [ergodic theory](http://en.wikipedia.org/wiki/Ergodic_theory)
+* wikipedia [ergodic theory](http://en.wikipedia.org/wiki/Ergodic_theory), [ergodic hypothesis](http://en.wikipedia.org/wiki/Ergodic_hypothesis)
 
 A list of references available at this course [page](http://www.math.cornell.edu/~slim/ergodic.html).
