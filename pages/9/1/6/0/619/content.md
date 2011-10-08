@@ -94,8 +94,17 @@ $$
   \,.
 $$
 
-The reflector in that case is the [[sheafification]] functor.
+The reflector in that case is the [[sheafification]] functor. 
 
++-- {: .un_thm}
+######Theorem 
+If $C$ is an exact reflective subcategory of a cartesian closed category $D$, then $C$ is an [[exponential ideal]] of $D$. In particular, $C$ is also cartesian closed. 
+=-- 
+
++-- {: .proof}
+######Proof 
+See [[Day's reflection theorem]] for a more general statement and proof. 
+=-- 
 
 ### Complete reflective subcategories
 
