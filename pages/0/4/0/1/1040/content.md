@@ -22,12 +22,12 @@ $2\Rightarrow 3$ Compositions $\mu\circ T\eta$ and $\mu\circ\eta T$ are always t
 $3\Rightarrow 4$ Compatibility of action and unit is $u \circ \eta_M = id_M$, hence also $T(u)\circ T(\eta_M) = id_{T M}$. If $T\eta = \eta T$ then this 
 implies $id_M = T(u)\circ \eta_{T M} = \eta_M\circ U$, where the naturality of $\eta$ is used in the second equality. Therefore we exhibited $\eta_M$ both as a left and a right inverse of $u$. 
 
-$4\Rightarrow 1$ If every action is iso, then the components of multiplication $\mu_M : TTM\to TM$ are isos as a special case, namely of the free action on $TM$. 
+$4\Rightarrow 1$ If every action is iso, then the components of multiplication $\mu_M : T T M\to T M$ are isos as a special case, namely of the free action on $T M$. 
 
 $4\Rightarrow 5$ For any monad $T$, the forgetful functor from Eilenberg-Moore category $C^T$ to $C$ is faithful: a morphism of $T$-algebras is always a morphism of underlying objects in $C$. To show that it is also full, we consider any pair $(M,u)$, $(M',u')$ in $C^T$ 
 and must show that any $f: M\to M'$ is actually 
-a map $f : (M,u)\to (M',u')$; i.e. $u'\circ Tf = f\circ u$. But we know that $\eta_M, \eta_{M'}$ are inverses of $u,u'$ respectively and 
-the naturality for $\eta$ says $\eta_{M'}\circ f = Tf \circ \eta_M$. Compose that equation with $u$ on the right and $u'$ on the left with the result (notice that we used just the invertibility of $u$).  
+a map $f : (M,u)\to (M',u')$; i.e. $u'\circ T f = f\circ u$. But we know that $\eta_M, \eta_{M'}$ are inverses of $u,u'$ respectively and 
+the naturality for $\eta$ says $\eta_{M'}\circ f = T f \circ \eta_M$. Compose that equation with $u$ on the right and $u'$ on the left with the result (notice that we used just the invertibility of $u$).  
 
 $5\Rightarrow 6$ Trivial, because the Eilenberg-Moore construction induces the original monad by the standard recipe. 
 
@@ -62,16 +62,16 @@ Let $(M, \eta, \mu)$ be an idempotent monad on a category $E$. The following con
 ###### Proof 
 The implication 1. $\Rightarrow$ 2. is immediate. Next, if $\xi: M e \to e$ is any retraction of $\eta e$, we have both $\xi \circ \eta e = 1_e$ and 
 $$\array{
-\eta e \circ \xi & = & (R L \xi)(\eta R L e) & & \text{naturality of}\, \eta \\
- & = & (R L \xi)(R L \eta e) & & \text{see definitions above} \\
- & = & R L(\xi \circ \eta e) & & \text{functoriality} \\
- & = & 1_{R L e} & & 
+\eta e \circ \xi & = & (M \xi)(\eta M e) & & \text{naturality of}\, \eta \\
+ & = & (M \xi)(M \eta e) & & \text{see definitions above} \\
+ & = & M(\xi \circ \eta e) & & \text{functoriality} \\
+ & = & 1_{M e} & & 
 }$$
 so 2. implies 3. Finally, if $\eta e$ is an isomorphism, put $\xi = (\eta e)^{-1}$. Then $\xi \circ \eta e = 1_e$ (unit condition), and the associativity condition for $\xi$, 
 
-$$\xi \circ \mu e = \xi \circ R L \xi,$$
+$$\xi \circ \mu e = \xi \circ M \xi,$$
 
-follows by inverting the naturality equation $\eta R L e \circ \eta e = R L \eta e \circ \eta e$. Thus 3. implies 1. 
+follows by inverting the naturality equation $\eta M e \circ \eta e = M \eta e \circ \eta e$. Thus 3. implies 1. 
 =-- 
 
 ## The associated idempotent monad of a monad # 
@@ -85,7 +85,7 @@ $$IdempotentMonad(C) \hookrightarrow Monad(C)$$
 
 +-- {: .proof} 
 ######Proof
-Given a monad $M$, define a functor $M'$ as the equalizer $M u$ and $u M$:  
+Given a monad $M$, define a functor $M'$ as the equalizer of $M u$ and $u M$:  
 
 $$M' \hookrightarrow M \stackrel{\overset{u M}{\to}}{\underset{M u}{\to}} M M.$$ 
 
@@ -150,3 +150,5 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 * F. Borceux, _Handbook of categorical algebra_, vol.2, p. 196.
 
 * P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_
+
+[[!redirects idempotent monads]]
