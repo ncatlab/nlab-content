@@ -66,6 +66,8 @@ On *any* complete boolean algebra $L$, given any [[abelian monoid]] $R$ equipped
 
 One could, of course, define a garden-variety [[measure]] by requiring continuity only when $A$ is the image of a (decreasing) [[sequence]], but apparently normal measures are what we want for measurable locales.
 
+(Perhaps there is a theorem that non-atomic measures on, say, Lebesgue space correspond to normal measures on the real line as a measurable locale?  Certainly [[Lebesgue measure]] is not normal on the $\sigma$-algebra of measurable sets, but presumably it is normal on the boolean algebra of measurable sets modulo null sets, which is what we want.)
+
 
 ## References
 
