@@ -169,7 +169,7 @@ Note that [[countable choice]] is essential here and elsewhere in measure theory
 
 ### Relation to von Neumann algebras
 
-One version of the [[Gelfand-Naimark theorem|Gel'fand?Naimark theorem]] states that the category of [[commutative algebra|commutative]] $W^*$-[[W*-algebra|algebras]] is [[dual equivalence|dual]] to the category of *localisable* measurable spaces.  (As such, arbitrary $W^*$-algebras may be interpreted as 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]].)
+One version of the [[Gelfand-Naimark theorem|Gel'fand–Naimark theorem]] states that the category of [[commutative algebra|commutative]] $W^*$-[[W*-algebra|algebras]] is [[dual equivalence|dual]] to the category of *localisable* measurable spaces.  (As such, arbitrary $W^*$-algebras may be interpreted as 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]].)
 
 To make this work correctly, we cannot simply define localisability as a [[property]] of measurable spaces; instead, a __localisable measurable space__ is a measurable space (a set $X$ with a $\sigma$-algebra $\Sigma$) with a $\sigma$-[[sigma-ideal|ideal]] $\mathcal{N}$ of $\Sigma$ and $\mathcal{P}X$ simultaneously (called the ideal of __[[null sets]]__) such that $\Sigma/\mathcal{N}$ is a [[complete lattice]]; and a [[morphism]] of localisable measurable spaces is a measurable function, with the property that the [[preimage]] of any null set is null, up to an [[equivalence relation]] where $f \cong g$ if $\{ x \;|\; f(x) \neq g(x) \}$ is a null set.
 
@@ -313,48 +313,6 @@ A useful series of expositions along these lines is in
 
 [[!redirects measurable function]]
 [[!redirects measurable functions]]
-
-[[!redirects sigma-algebra]]
-[[!redirects sigma-algebras]]
-[[!redirects ∞-algebra]]
-[[!redirects ∞-algebras]]
-[[!redirects ∞-algebra]]
-[[!redirects ∞-algebras]]
-
-[[!redirects delta-algebra]]
-[[!redirects delta-algebras]]
-[[!redirects ∞-algebra]]
-[[!redirects ∞-algebra]]
-[[!redirects ∞-algebras]]
-[[!redirects ∞-algebras]]
-
-[[!redirects sigma-field]]
-[[!redirects sigma-fields]]
-[[!redirects ∞-field]]
-[[!redirects ∞-fields]]
-[[!redirects ∞-field]]
-[[!redirects ∞-fields]]
-
-[[!redirects delta-field]]
-[[!redirects delta-fields]]
-[[!redirects ∞-field]]
-[[!redirects ∞-fields]]
-[[!redirects ∞-field]]
-[[!redirects ∞-fields]]
-
-[[!redirects sigma-ring]]
-[[!redirects sigma-rings]]
-[[!redirects ∞-ring]]
-[[!redirects ∞-rings]]
-[[!redirects ∞-ring]]
-[[!redirects ∞-rings]]
-
-[[!redirects delta-ring]]
-[[!redirects delta-rings]]
-[[!redirects ∞-ring]]
-[[!redirects ∞-rings]]
-[[!redirects ∞-ring]]
-[[!redirects ∞-rings]]
 
 [[!redirects localizable measurable space]]
 [[!redirects localizable measurable spaces]]
