@@ -1,4 +1,8 @@
 
 * [website](http://math.berkeley.edu/~pavlov/)
 
+
 category: people
+
+[[!redirects Dmitri Pavlov]]
+[[!redirects Dmitry Pavlov]]
