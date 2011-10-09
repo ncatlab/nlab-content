@@ -35,6 +35,8 @@ For purposes of [[constructive mathematics]], [[Toby Bartels|I]] suspect that it
 
 For this definition, we need not require that $L \cong Proj(A)$ be complete (or even a boolean algebra); this can be proved.  But constructively (although it is still a boolean algebra) $Proj(A)$ need not be complete.  Indeed, consider the point (see the examples), based on $A \coloneqq \mathbb{C}$, which is *not* the complete [[Heyting algebra]] of all [[truth values]] by only the (possibly incomplete) boolean algebra $\{\bot, \top\}$ (corresponding to the self-adjoint idempotent complex numbers $0$ and $1$).
 
+It seems to me that there is some notion of completeness that applies here; $L$ should in some sense be 'measurably complete'.  In the point, for example, the [[subsingleton]] $\{* \;|\; P\}$, where $P$ is a truth value, is measurable iff $P$ is true or false, so the supremum of $\{\top \;|\; P\}$ exists in $L$ under the same circumstances.
+
 
 ## Examples
 
@@ -42,7 +44,7 @@ The [[empty space]], which is [[initial object|initial]] in $Meas Loc$, is the [
 
 The [[point]], which [[terminal object|terminal]] in $Meas Loc$, is the [[initial object|initial]] boolean algebra $\{\bot, \top\}$ of (classical) [[truth values]].
 
-The [[real line]] is the boolean algebra of Lebesgue-[[measurable sets]] of [[real numbers]] modulo the [[null sets]].  This is complete as a boolean algebra because ....
+The [[real line]] is the boolean algebra of Lebesgue-[[measurable sets]] of [[real numbers]] modulo the [[null sets]].  This is complete as a boolean algebra because ... (and even constructively, it is a boolean algebra at all).
 
 Applying the classification of $W^*$-algebras, we find that (up to [[isomorphism]]), every measurable locale is a [[direct product]] (of boolean algebras, which is a [[coproduct]] in $MeasLoc$) of points or of points and infinitely many real lines.  (A single real line is already isomorphic to the product of countably infinitely many real lines.)  Of course, we can\'t expect this to hold constructively.
 
