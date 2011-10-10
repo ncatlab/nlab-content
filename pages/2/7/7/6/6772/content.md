@@ -8,5 +8,6 @@ which can be expressed in terms of the gamma function as stated.
 
 A multidimensional generalization is the [[Selberg integral]]. 
 
-* G. E. Andrews, R. Askey, R. Roy, _Special functions_, Enc. of Math. and its Appl. (1999)
+* G. E. Andrews, R. Askey, R. Roy, _Special functions_, Enc. of Math. and its Appl. __71__, Cambridge Univ. Press 1999
 [[!redirects Euler's beta function]]
+[[!redirects Euler beta integral]]
