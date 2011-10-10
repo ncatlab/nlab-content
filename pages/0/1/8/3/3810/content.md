@@ -6,5 +6,13 @@ Some of the questions in set and model theory concerning the fine questions on c
 
 A person doing combinatorics is usually called a __combinatorialist__. See also [wikipedia](http://en.wikipedia.org/wiki/Combinatorics).
 
+Entries on combinatorics and on various combinatorial objects in $n$Lab include:
+
+* [[graph]], [[quiver]]
+* [[matroid]], [[oriented matroid]]
+* [[permutation]]
+* [[symmetric function]], [[Schur functor]], [[Schur function]]
+* (combinatorial) [[species]]
+
 [[!redirects combinatorial]]
 [[!redirects combinatorialist]]
