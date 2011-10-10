@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+In the [[(2,1)-topos]] [[Grpd]] the pair of classes of morphisms ([[essentially surjective functor|essentially surjective]] and [[full functor]]s, [[faithful functor]]s) forms an [[factorization system in a 2-category]].
+
+## Properties
+
+* This is the special case of the [[n-connected/n-truncated factorization system]] in the [[(∞,1)-topos]] [[∞Grpd]] for the case that $(n = 0)$ and restricted to [[1-truncated]] [[object]]s.
+
+* For $f : X \to Y$ a functor between groupoids, its factorization is through a groupoid $im_2 f$ which is, up to equivalence, given as follows;
+  
+  * [[object]]s are those of $X$;
+
+  * a morphism $[\phi] : x_1 \to x_2$ is an equivalence class of morphisms in $X$ where $[\phi] = [\phi']$ if $f(\phi) = f(\phi')$.
+
+## Related concepts
+
+* [[epi/mono factorization system]]
+
+* **essentially surjective and full/faithful factorization system**
+
+* [[n-connected/n-truncated factorization system]].
