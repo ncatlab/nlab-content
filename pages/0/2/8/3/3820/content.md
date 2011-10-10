@@ -76,15 +76,15 @@ $$
      &= 
     \int_X EL(\phi) \delta \phi 
       + 
-     \int_X d_{dR} \theta_\phi(\delta \phi)
+     \int_X d_{dR} \theta(\phi)
     \,,
   \end{aligned}
 $$
 
-where $EL(\phi) = 0$ is the [[Euler-Lagrange equation]] on $\phi$ and where $\theta$ is a deggre-$(1, dim X - 1)$ element in the [[variational bicomplex]] (one variational form degree and $(dim X - 1)$-spacetime form degrees). On a local [[coordinate]] patch $\{x^i\}$ for $X$ this is 
+where $EL(\phi) = 0$ is the [[Euler-Lagrange equation]] on $\phi$, and where $EL(\phi)\delta\phi$ is a degree-$(1,dim X)$ and $\theta$ is a deggre-$(1, dim X - 1)$ element in the [[variational bicomplex]] (one variational form degree and, respectively, $dim X$ or $(dim X - 1)$-spacetime form degrees). On a local [[coordinate]] patch $\{x^i\}$ for $X$ this is 
 
 $$
-  \theta 
+  \theta(\phi) 
     = 
   (\iota_{\partial_i} \frac{\partial L}{\partial_i \phi^a} )
    \delta \phi^a
@@ -97,32 +97,39 @@ $$
   \delta(\delta S(\phi)) = 0
   = \int_X \left[
     \delta(EL(\phi)) \wedge \delta\phi
-    + d_{dR} \delta \theta_phi(\delta \phi) \right]
+    + d_{dR} \delta \theta(\phi) \right]
   \, ,
 $$
 
-where the first term on the right clearly vanishes when pulled back to the shell, $EL(\phi)=0$ on $X$. This implies that the presymplectic potential current is de Rham closed on shell:
+where the first term on the right clearly vanishes when pulled back to the shell, $EL(\phi)=0$ on $X$. The above wedge product is between variational forms. This implies that the presymplectic current density, $\omega(\phi) = \delta(\theta(\phi))$, is de Rham-closed on shell:
 
 $$
-  d_{dR} \iota^* \omega = d_{dR} \iota^* (\delta \theta_\phi(\delta\phi)) = 0
+\begin{aligned}
+  d_{dR} \iota^* \omega(\phi)
+  &= d_{dR} \iota^* (\delta \theta(\phi)) \\
+  &= \iota^* d_{dR} (\delta \theta(\phi)) \\
+  &= -\iota^* \delta(EL(\phi)) \wedge \delta\phi \\
+  &= 0
   \, ,
+\end{aligned}
 $$
 
-where $\iota$ is the embedding of the solutions of the [[Euler-Lagrange equation]]s into the space of all field configurations.
+where $\iota$ is the embedding of the solutions of the [[Euler-Lagrange equation]]s  (the shell) into the space of all field configurations. The reason is that $\iota^* \delta(EL(\phi)) = 0$ for each $x\in X$, since the functions $EL(\phi)$ are all constant (in fact $0$) on solutions.
 
 The variational 1-form
 
 $$
-  \Theta = \int_{X|_{in}} \theta 
+  \Theta = \int_{X|_{in}} \iota^* \theta(\phi)
 $$
 
 given by an [[integration]] over a [[Cauchy surface]] $X|_{in}$ is the potential for the presymplectic form 
 
 $$
-  \Omega = \delta \Theta
+  \Omega = \delta \Theta = \int_{X|_{in}} \iota^* \delta(\theta(\phi))
+  = \int_{X|_{in}} \iota^* \omega(\phi)
 $$
 
-on covariant phase space.
+on covariant phase space (the shell). Since $\omega(\phi)$ is de Rham-closed on shell, the presymplectic form $\Omega$ is independent of the choice of the surface $X|_{in}$ (provided the choice is restricted to a single homology class of surfaces).
 
 Notice that this does depend on the choice of Cauchy surface. Performing [[symplectic reduction]] gives the symplectic space of equivalence classes of solutions of equations of motion modulo [[gauge transformation]]s, which is the _reduced phase space_ . The end point of the reduction no longer depends on the choice of the Cauchy surface.
 
