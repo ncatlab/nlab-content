@@ -3,7 +3,7 @@ F. William Lawvere
 
 * ([web site](http://www.acsu.buffalo.edu/~wlawvere/))
 
-is an influential pure [[category theory|category theorists]].
+is an influential pure [[category theory|category theorist]].
 
 #Contents#
 * table of contents
