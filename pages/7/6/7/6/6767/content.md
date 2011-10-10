@@ -1,0 +1,3 @@
+Given a manifold $M$, the __Fadell's configuration space__ (in topology called simply [[configuration space]]) is the manifold of $N$-tuples of pairwise distinct points in $M$.
+
+It is important in the study of topological fibrations, in the study of [[arrangements of hyperplanes]], of [[Knizhnik-Zamolodchikov connection]]s and in study of geometry of renormalization. 
