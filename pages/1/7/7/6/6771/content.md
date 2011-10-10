@@ -1,0 +1,1 @@
+In statistical field theory and in quantum field theory, there is a beta function related to the renormalization group flow. This entry will be dedicated to it. Please distinguish from [[Euler beta function]], which is related to the gamma function that generalises the factorial operation.
