@@ -4,7 +4,7 @@ The ring of polynomials in $n$ variables has a linear basis $\{s_\lambda]}$ of _
 
 ## Definition
 
-Given the partition $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$, the corresponding Schur function is the $n\times n$-determinant
+Given the partition $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$, the corresponding __Schur function__ is the $n\times n$-determinant
 $$
 s_\lambda = det (x_i^{\lambda_j})
 $$
@@ -24,3 +24,5 @@ Other references
 
 * Bruce E. Sagan, _Schur functions_, in (M. Hazewinkel, ed.) Encyclopaedia of Mathematics, Springer, [pdf](http://www.mth.msu.edu/~sagan/Papers/Old/schur.pdf)
 * [wikipedia](http://en.wikipedia.org/wiki/Schur_function)
+
+For a generalization see [[Macdonald polynomial]]. 
