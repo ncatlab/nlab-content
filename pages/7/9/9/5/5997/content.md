@@ -35,6 +35,43 @@ For $n = -1$ this says that [[effective epimorphisms in an (∞,1)-category]] ha
 
 =--
 
+## Examples
+
+### The case $n = -2$
+
+A [[(-2)-truncated]] [[morphism]] is precisely an [[equivalence in an (∞,1)-category]] (see there or [[Higher Topos Theory|HTT, example 5.5.6.13]]).
+
+Moreover, every morphism is [[(-2)-connected]]. 
+
+Therefore for $n = -2$ the $n$-connected/$n$-truncated factorization system says (only) that equivalences have inverses, unqique up to coherent homotopy.
+
+### The case $n = -1$
+
+A [[(-1)-truncated]] morphism is precisely a [[monomorphism in an (∞,1)-category|full and faithful morphism]].
+
+A [[(-1)-connected]] morphism is one whose [[homotopy fiber]]s are [[inhabited]].
+
+In [[∞Grpd]] a morphism between _[[0-truncated]]_ [[object]]s ([[set]]s) 
+
+* is full and faithful precisely if it is an [[injection]];
+
+* has non-empty fibers precisely if it is an [[epimorphism]].
+
+Therefore between 0-truncated objects the (-1)-connected/(-1)-truncated factorization system is the [[epi/mono factorization system]] and hence [[image]] factorization.
+
+Generally, the (-1)-connected/(-1)-truncated factorization is through the **[[homotopy image]]** (see there for more details).
+
+
+### The case $n = 0$
+
+Let $X,Y$ be two [[groupoid]]s ([[homotopy n-type|homotopy 1-types]]) in [[∞Grpd]]. 
+
+A morphism $X \to Y$ is [[0-truncated]] precisely if it is a [[faithful functor]]. 
+
+A morphism $X \to Y$ is [[0-connected]] precisely if it is a [[full functor]] and an [[essentially surjective functor]].
+
+Therefore on 1-trypes the 0-connected/0-truncated factorization system is the [[essentially surjective and full/faithful factorization system]].
+
 ## References
 
 The general abstract statement is in 
