@@ -46,11 +46,12 @@ If $C$ is a [[locally presentable category]], then for any *small set* of maps $
 On the other hand, if $(E,M)$ is any prefactorization system for which $M$ consists of monomorphisms and $C$ is [[complete category|complete]] and [[well-powered category|well-powered]], then $(E,M)$ is actually a factorization system.  (Of course, there is a dual statement as well.)  In fact something slightly more general is true; see [[M-complete category]] for this and other related ways to construct factorization systems.
 
 
-## Examples #
+## Examples 
+ {#Examples}
 
 Several classical examples of OFS $(E,M)$:
 
-* in any [[topos]], $E$ = class of all epis, $M$ = class of all monos
+* in any [[topos]], $E$ = class of all epis, $M$ = class of all monos: the [[epi/mono factorization system]];
 
 * more generally, in any [[regular category]], $E$ = class of all [[regular epimorphisms]], $M$ = class of all monos
 
