@@ -1,0 +1,14 @@
+The __Vandermonde determinant__ or Vandermonde polynomial $\Delta(x_1,\ldots,x_n)$ is the determinant of the Vandermonde matrix 
+
+$$
+V(x_1,\ldots,x_n) = \left( \array{1 & x_1 & \cdots & x_1^{n-1}\\ 1 & x_2 &\cdots & x_2^{n-1}\\ \cdot &\cdot &\cdot &\cdots\\ 1 & x_n &\cdots &x_n^{n-1}}\right) 
+$$
+
+The formula $\Delta(x_1,\ldots,x_n)= \prod_{1\leq i\lt j\leq n} (x_j - x_i)$ can be obtained by the subtracting the first row from all others, then 
+
+It appears in many important situations, as a square root of a [[discriminant]], sometimes as [[Wronskian]], then in Lagrange interpolation (see wikipedia [Lagrange polynomial](http://en.wikipedia.org/wiki/Lagrange_polynomial)), [[Selberg integral]] etc. 
+
+* wikipedia [Vandermonde matrix](http://en.wikipedia.org/wiki/Vandermonde_matrix)
+* A. Varchenko, Multidimensional Vandermonde Determinant, Uspekhi Mat. Nauk 43:4 (1988), p. 190. 
+* A. Varchenko, _Beta-function of Euler, Vandermonde determinant, Legendre equation and critical values of linear functions of configuration of hyperplanes_, I. Izv. Akademii Nauk USSR, Seriya Mat., 53:6 (1989), 1206-1235. 
+[[!redirects Vandermonde matrix]]
