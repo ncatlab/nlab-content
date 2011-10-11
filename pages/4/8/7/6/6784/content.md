@@ -8,3 +8,4 @@ Some other references close in spirit
 
 * P. Littelmann, _Paths and root operators in representation theory_, Ann. Math. 142, 1995, pp. 499--525.
 * Fulton, J. Harris, _Representation theory_, 
+* [[Claudio Procesi]], _Lie groups, an approach through invariants and representations_, Universitext, Springer 2006, [gBooks](http://books.google.co.in/books?id=Sl8OAGYRz_AC&printsec=frontcover&hl=hr&source=gbs_atb)
