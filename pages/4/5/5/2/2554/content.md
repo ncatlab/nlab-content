@@ -96,10 +96,11 @@
 
 * [[homotopy hypothesis]]-theorem
 
-* [[Galois theory]]
+* [[Hurewicz theorem]]
 
 * [[higher homotopy van Kampen theorem]]
 
+* [[Galois theory]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/homotopy+-+contents)</div>
