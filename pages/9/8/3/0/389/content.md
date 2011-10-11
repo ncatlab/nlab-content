@@ -19,3 +19,4 @@ This factorization system can be constructed using [[generalized kernels]].
 For [[essentially surjective functors]], one can relax both the commuting and the uniqueness to obtain a [[factorization system in a 2-category]].
 
 [[!redirects (bo,ff) factorization system]]
+[[!redirects bo-ff factorization system]]
