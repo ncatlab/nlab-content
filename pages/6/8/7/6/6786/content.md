@@ -25,7 +25,7 @@ In fact, an analogous factorization system exists in any regular 2-category and 
 
 ## Related concepts
 
-* [[epi-mono factorization system]]
+* [[(epi, mono) factorization system]]
 
 * **(eso, fully faithful)-factorization system**
 * [[(eso+full, faithful) factorization system]]
