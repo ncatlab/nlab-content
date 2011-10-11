@@ -25,4 +25,6 @@ Other references
 * Bruce E. Sagan, _Schur functions_, in (M. Hazewinkel, ed.) Encyclopaedia of Mathematics, Springer, [pdf](http://www.mth.msu.edu/~sagan/Papers/Old/schur.pdf)
 * [wikipedia](http://en.wikipedia.org/wiki/Schur_function)
 
-For a generalization see [[Macdonald polynomial]]. 
+For generalizations see [[Jack polynomial]] and [[Macdonald polynomial]]. 
+
+[[!redirects Schur polynomial]][[!redirects Schur functions]]
