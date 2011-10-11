@@ -43,8 +43,7 @@ There are two main routes to the construction of the covariant phase space,
 ### (S) Via pre-symplectic structures
  {#ViaSymplecticStructure}
 
-We describe the canonical [[presymplectic structure]] on the covariant phase space of a [[local action functional]].
-Terminology is as in the discussion at [[variational bicomplex]].
+We describe the canonical [[presymplectic structure]] on the covariant phase space of a [[local action functional]]. The _covariant phase space_ is defined as the space of critical points of an action functional or, equivalently, the space of solutions of its [[Euler-Lagrange equation]]s, also known as the _shell_. The shell is naturally embedded as a subset of the space of all field configurations. Terminology is as in the discussion at [[variational bicomplex]].
 
 Let $E \to X$ be a smooth [[fiber bundle]] over [[spacetime]] $X$ and $J(E)$ the corresponding [[jet bundle]]. The [[local action functional]]
 
@@ -116,22 +115,69 @@ $$
 
 where $\iota$ is the embedding of the solutions of the [[Euler-Lagrange equation]]s  (the shell) into the space of all field configurations. The reason is that $\iota^* \delta(EL(\phi)) = 0$ for each $x\in X$, since the functions $EL(\phi)$ are all constant (in fact $0$) on solutions.
 
-The variational 1-form
+The variational 1-form on the space of field configurations
 
 $$
-  \Theta = \int_{X|_{in}} \iota^* \theta(\phi)
+  \Theta = \int_{X|_{in}} \theta(\phi)
 $$
 
 given by an [[integration]] over a [[Cauchy surface]] $X|_{in}$ is the potential for the presymplectic form 
 
 $$
-  \Omega = \delta \Theta = \int_{X|_{in}} \iota^* \delta(\theta(\phi))
-  = \int_{X|_{in}} \iota^* \omega(\phi)
+  \Omega = \delta \Theta = \int_{X|_{in}} \delta(\theta(\phi))
+  = \int_{X|_{in}} \omega(\phi)
 $$
 
-on covariant phase space (the shell). Since $\omega(\phi)$ is de Rham-closed on shell, the presymplectic form $\Omega$ is independent of the choice of the surface $X|_{in}$ (provided the choice is restricted to a single homology class of surfaces).
+on the space of field configurations. Since $\omega(\phi)$ is de Rham-closed on shell, the the pullback of the presymplectic form $\iota^* \Omega$ is independent of the choice of the surface $X|_{in}$ (provided the choice is restricted to a single homology class of surfaces).
 
-Notice that this does depend on the choice of Cauchy surface. Performing [[symplectic reduction]] gives the symplectic space of equivalence classes of solutions of equations of motion modulo [[gauge transformation]]s, which is the _reduced phase space_ . The end point of the reduction no longer depends on the choice of the Cauchy surface.
++-- {: .un_claim}
+###### Claim
+
+The presymplectic form $\iota^* \Omega$ on the covariant phase space is symplectic iff the linearized [[Euler-Lagrange equation]]s, $EL(\phi)=0$, have a locally well-posed initial value problem on $X|_{in}$. In particular, in the presence of gauge symmetries, due to the failure of uniqueness of solutions for given initial data on $X|_{in}$, the form $\iota^*\Omega$ is only presymplectic.
+
+=--
+
+However, the infinitesimal actions of gauge symmetries exhaust the kernel of the $\iota^* \Omega$ and upon performing [[symplectic reduction]], we obtain the space of orbits of solutions under the action of gauge symmetries, which is the _physical_ or _reduced phase space_.
+
+Notice that the form $\Omega$, on the field configuration space, does depend on the choice of Cauchy surface. Performing [[symplectic reduction]] gives the symplectic space of equivalence classes of solutions of equations of motion modulo [[gauge transformation]]s, and hence also the _reduced phase space_. Thus, the end point of the reduction no longer depends on the choice of the Cauchy surface.
+
+#### Application to the inverse problem of the calculus of variations
+ {#InverseProblem}
+
+We use same notation as the preceding section. Namely dependence on $\phi$ in local forms really means dependence on finitely many components of the infinite jet $j^\infty(\phi)$. Also, $\iota$ denotes the embedding of the space of solutions in the space of field configurations. Moreover, we presume to work on a sufficiently small neighborhoods in the space of solutions and field configurations that the Poincar\'e lemma applies.
+
+Consider a system of partial differential equations $P(\phi)=0$, together with a local presymplectic form $\Omega = \int_X \omega(\phi)$, where $\omega(\phi)$ is a degree-$(2,dim X-1)$ element of the [[variational bicomplex]], that is $\delta \omega = 0$. Suppose further that presymplectic current density $\omega(\phi)$ is de Rham conserved on solutions:
+
+$$
+  d_{dR}  \iota^* \omega(\phi) = \iota^* d_{dR} \omega(\phi) = 0
+  \quad \implies \quad
+  d_{dR} \omega(\phi) = P(\phi) \lambda(\phi) + \delta(P(\phi)) \wedge \mu(\phi)
+    = P(\phi) (\lambda(\phi) - \delta\mu(\phi)) + \delta (P(\phi)\mu(\phi))
+  \, ,
+$$
+where $\lambda$ and $\mu$ are systems (suitably contracted with the $P(\phi)$ system) of degree-$(2,dim X)$ and degree-$(1,dim X)$ elements of the [[variational bicomplex]]. Using the variational closure of $\omega(\phi)$, we can conclude that
+$\delta(P(\phi)(\lambda(\phi)-\delta\mu(\phi))) = 0$ and thus $P(\phi)(\lambda(\phi)-\delta(\phi)) = \delta(P(\phi)\lambda'(\phi))$. [Justify why the representative on the last RHS can be chosen proportional to $P(\phi)$.]
+
+On the other hand, the variational closure of $\omega(\phi)$ also implies the existence of a degree-$(1,dim X-1)$ form $\theta(\phi)$, such that $\delta(\theta(\phi)) = \omega(\phi)$. The following identity then allows us to (locally) reconstruct a Lagrangian whose [[Euler-Lagrange equation]]s are satisfied by solutions to $P(\phi)=0$.
+
+$$
+\begin{aligned}
+  \delta(d_{dR} \theta(\phi))
+    &= - d_{dR}(\delta\theta(\phi)) \\
+    &= - d_{dR} \omega(\phi) \\
+    &= - \delta[P(\phi)(\lambda'(\phi)+\mu(\phi))] \\
+  \implies d_{dR}\theta(\phi) - \delta L(\phi)
+    &= -P(\phi)\lambda''(\phi)
+  \, ,
+\end{aligned}
+$$
+
+where $\lambda''(\phi)$ is a degree-$(1,dim X)$ form and $L(\phi)$ is a Lagrangian degree-$(0,dim X)$ form. Rearranging the last equality as
+
+$$
+  \delta L(\phi) = P(\phi)\lambda''(\phi) + d_{dR}\theta(\phi) \, ,
+$$
+we conclude that the [[Euler-Lagrange equation]]s of $L(\phi)$ are satisfied on solutions of $P(\phi)=0$, since $EL(\phi)\delta\phi = P(\phi)\lambda''(\phi)$.
 
 ### (P) Via Poisson structures
  {#ViiaPoissonStructure}
