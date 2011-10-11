@@ -197,9 +197,6 @@ $$
   \,.
 $$
 
-
-
-
 ## Related concepts ##
 
 * Under [[Lie integration]] a Poisson Lie algebroid is supposed to yield a [[symplectic groupoid]].
@@ -215,6 +212,8 @@ $$
 
   * [[Courant algebroid]]
 
+* [[Hopf algebroid]] (appears as a deformation quantization of a Poisson-Lie algebroid)
+
 ## References ##
 
 One of the earliest reference seems to be
@@ -226,3 +225,5 @@ A review is for instance in appendix A of
 * [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and
   even symplectic supermanifolds_
   ([arXiv](http://arxiv.org/abs/math/9910078))
+
+[[!redirects Poisson-Lie algebroid]]
