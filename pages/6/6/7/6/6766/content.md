@@ -20,6 +20,8 @@ Related entries include [[Kohno-Drinfeld theorem]].
 * I. B. Frenkel, N. Yu. Reshetikihin, _Quantum affine algebras and holonomic diference equations_, Comm. Math. Phys. __146__ (1992), 1-60, [MR94c:17024](http://www.ams.org/mathscinet-getitem?mr=94c:17024)
 * [[Valerio Toledano-Laredo]], _Flat connections and quantum groups_, Acta Appl. Math. 73 (2002), 155-173, [math.QA/0205185](http://arxiv.org/abs/math.QA/0205185)
 * Toshitake Kohno, _Conformal field theory and topology_, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002. x+172 pp.
+* [[P. Etingof]], N. Geer, _Monodromy of trigonometric KZ equations_, [math.QA/0611003](http://arxiv.org/abs/math.QA/0611003)
+* [[Valerio Toledano-Laredo]], _A Kohno-Drinfeld theorem for quantum Weyl groups_, [math.QA/0009181](http://arxiv.org/abs/math.QA/0009181)
 * A. Tsuchiya, Y. Kanie, _Vertex operators in conformal field theory on $\mathbf{P}^1$ and monodromy representations of braid group_, Adv. Stud. Pure Math. __16__, pp. 297&#8211;372 (1988); Erratum in vol. 19, 675&#8211;682
 * C. Kassel, _Quantum groups_, Grad. Texts in Math. __155__, Springer 1995
 * V. Chari, , A. Pressley, _A guide to quantum groups_, Camb. Univ. Press 1994&#1042;. 
@@ -28,3 +30,5 @@ Related entries include [[Kohno-Drinfeld theorem]].
 * V. A. Golubeva, _Integrability conditions for two&#8211;parameter Knizhnik&#8211;Zamolodchikov equations of type $B_n$ in the tensor and spinor cases_, Doklady Mathematics, 79:2 (2009), 147&#8211;149 
 * V. G. Drinfel&#697;d, _Quasi-Hopf algebras and Knizhnik-Zamolodchikov equations_, Problems of modern quantum field theory (Alushta, 1989), 1&#8211;13, Res. Rep. Phys., Springer 1989.
 [[!redirects Knizhnik-Zamolodchikov connection]]
+[[!redirects KZ equation]]
+[[!redirects KZ connection]]
