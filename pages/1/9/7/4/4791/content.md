@@ -1,11 +1,59 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 The [[Lie group]] called $E_8$ is the largest-dimensional one of the five [[exceptional Lie groups]].
 
+## Properties
+
+### Homotopy groups
+
+The first nontrivial [[homotopy group]] of the [[topological space]] underlying $E_8$ is
+
+$$
+  \pi_3(E_8) \simeq \mathbb{Z}
+$$
+
+as for any compact Lie group. Then the next nontrivial homotopy group is
+
+$$
+  \pi_{15}(E_8) \simeq \mathbb{Z}
+  \,.
+$$
+
+This means that all the way up to the 15 [[coskeleton]] the group $E_8$ looks, [[homotopy theory|homotopy theoretically]] like the [[Eilenberg-MacLane space]] $K(\mathbb{Z},3) \simeq B^3 \mathbb{Z} \simeq B^2 U(1) \simeq B \mathbb{C}P^\infty$.
+
+
 ## References
 
-An introducory survey with an eye towards the relation to the [[octonions]] is given in [section 4.6](http://math.ucr.edu/home/baez/octonions/node19.html) of 
+An introductory survey with an eye towards the relation to the [[octonions]] is given in [section 4.6](http://math.ucr.edu/home/baez/octonions/node19.html) of 
 
 * [[John Baez]], _The Octonions_ ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
 
+The lower [[homotopy groups]] of $E_8$ are a classical result due to
+
+* [[Raoul Bott]] and H. Samelson, _Application of the theory of Morse to symmetric spaces_ , Amer.
+J. Math., 80 (1958), 964-1029.
+
+The higher homotopy groups are discussed in 
+
+* Hideyuki Kachi, _Homotopy groups of compact Lie groups $E_6$, $E_7$ and $E_8$_ Nagoya Math. J. Volume 32 (1968), 109-139. ([project EUCLID](http://projecteuclid.org/euclid.nmj/1118797372))
