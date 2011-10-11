@@ -1,4 +1,3 @@
-[[!redirects epi/mono factorization system]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -32,3 +31,7 @@ The epi-mono factorization system in a topos is the special case of the [[n-conn
 * [[(eso+full, faithful) factorization system]]
 
 * [[n-connected/n-truncated factorization system]].
+
+[[!redirects epi/mono factorization system]]
+[[!redirects (epi, mono) factorization system]]
+[[!redirects epi-mono factorization system]]
