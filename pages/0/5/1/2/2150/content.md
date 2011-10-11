@@ -18,7 +18,7 @@
 
 Let $X$ be a [[paracompact space|paracompact]] [[Hausdorff space]]. A [[sheaf]] $F$ of [[groups]] over $X$ is __fine__ if for every two disjoint closed subsets $A,B\subset X$, $A\cap B = \emptyset$, there is an [[endomorphism]] of the sheaf of groups $F\to F$ which restricts to the identity in a neighborhood of $A$ and to the $0$ endomorphism in a neighborhood of $B$. Every fine sheaf is [[soft sheaf|soft]].
 
-A slightly different definition is given in Voisin, in _Hodge Theory and Complex Alegbraic Geometry I_, (definition 4.35):
+A slightly different definition is given in Voisin, in _Hodge Theory and Complex Algebraic Geometry I_, (definition 4.35):
 
 
 :A fine sheaf $\mathcal{F}$ over $X$ is a sheaf of $\mathcal{A}$-modules, where $\mathcal{A}$ is a sheaf of rings such that, for every open cover $U_i$ of $X$, there is a partition of unity $1 = \sum f_i$ (where the sum is locally finite) subordinate to this covering.
@@ -27,7 +27,7 @@ A slightly different definition is given in Voisin, in _Hodge Theory and Complex
 
 
 +-- {: .query}
-David Speyer asks: Voisin, in _Hodge Theory and Complex Alegbraic Geometry I_, definition 4.35 makes a different definition of fine sheaf. I can see that they are related, but I can't see precisely what the relation is. 
+David Speyer asks: Voisin, in _Hodge Theory and Complex Algebraic Geometry I_, definition 4.35 makes a different definition of fine sheaf. I can see that they are related, but I can't see precisely what the relation is. 
 
 According to Voisin:
 
