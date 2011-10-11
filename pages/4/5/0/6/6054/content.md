@@ -18,7 +18,7 @@
 
 ## Idea
 
-Every [[geometric morphism]] between [[toposes]] factors into a [[geometric surjection]] followed by a [[geometric embedding]]. This exhibits an [[image]] construction in the [[topos theory|topos-theoretic]] sense.
+Every [[geometric morphism]] between [[toposes]] factors into a [[geometric surjection]] followed by a [[geometric embedding]]. This exhibits an [[image]] construction in the [[topos theory|topos-theoretic]] sense, and gives rise to a [[factorization system in a 2-category]] for [[Topos]].
 
 ## Statement
 
@@ -323,3 +323,8 @@ Section VII. 4. of
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
  {#MacLaneMoerdijk}
 
+[[!redirects geometric surjection/embedding factorization]]
+[[!redirects geometric surjection/inclusion factorization]]
+[[!redirects geometric surjection/embedding factorization system]]
+[[!redirects geometric surjection/inclusion factorization system]]
+[[!redirects (geometric surjection, inclusion) factorization system]]
