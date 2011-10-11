@@ -1,4 +1,4 @@
-There are a number of different types of [[morphism]] bearing the name **fibration**, which are all connected to each other at least by a zigzag of relationships.
+There are a number of different types of [[morphism]] bearing the name **fibration**, which are all connected to each other at least by a [[zigzag]] of relationships.
 
 
 #Contents#
