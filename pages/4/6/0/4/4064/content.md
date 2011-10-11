@@ -35,19 +35,19 @@ which commutes up to specified isomorphism, where $e\in E$ and $m\in M$, has a d
 
 * The following are all factorization systems in the 2-category $Cat$.  Many of them have analogues in more general 2-categories.
 
-  * $E=$ [[essentially surjective functors]], $M=$ [[fully faithful functors]].  This is the "ur-example," and it generalizes to [[enriched category theory]], [[internal category]] theory, etc.
+  * $E=$ [[essentially surjective functors]], $M=$ [[fully faithful functors]].  This is the "ur-example," and it generalizes to [[enriched category theory]], [[internal category]] theory, etc.  See [[(eso, fully faithful) factorization system]].
 
-  * $E=$ functors $e:a\to b$ such that every object of $b$ is a [[retract]] of an object in the image of $a$, and $M=$ fully faithful functors whose image is closed under retracts.
+  * $E=$ functors $e\colon a\to b$ such that every object of $b$ is a [[retract]] of an object in the image of $a$, and $M=$ fully faithful functors whose image is closed under retracts.
 
-  * $E=$ [[essentially surjective functor|essentially surjective]] and [[full functors]], $M=$ [[faithful functors]]; 
-
-    (see [[essentially surjective and full/faithful factorization system]] for more).
-
+  * $E=$ [[essentially surjective functor|essentially surjective]] and [[full functors]], $M=$ [[faithful functors]].  See [[(eso+full, faithful) factorization system]].
 
   * $E=$ (possibly [[transfinite compositions|transfinite]]) composites of [[localizations]], $M=$ [[conservative functors]].
 
-* A 2-factorization system on [[Topos]] is [[geometric surjection/embedding factorization]].
+* The 2-category [[Topos]] admits several interesting factorization systems.
 
+  * The [[(geometric surjection, embedding) factorization system]].
+
+  * $E=$ [[hyperconnected geometric morphisms]], $M=$ [[localic geometric morphisms]].
 
 
 ## Cat-enriched factorization systems
