@@ -15,11 +15,13 @@
 
 ## Definition
 
-In the [[(2,1)-topos]] [[Grpd]] the pair of classes of morphisms ([[essentially surjective functor|essentially surjective]] and [[full functor]]s, [[faithful functor]]s) forms an [[factorization system in a 2-category]].
+In the [[2-topos]] [[Cat]], the pair of classes of morphisms ([[essentially surjective functor|essentially surjective]] and [[full functor|full]] functors, [[faithful functors]]) form a [[factorization system in a 2-category]].  This factorization system can also be restricted to the [[(2,1)-topos]] [[Grpd]].
+
+In fact, this factorization system exists in any 2-exact 2-category and any (2,1)-exact (2,1)-category, including any Grothendieck 2-topos or (2,1)-topos; see [[michaelshulman:full morphism|here]].
 
 ## Properties
 
-* This is the special case of the [[n-connected/n-truncated factorization system]] in the [[(∞,1)-topos]] [[∞Grpd]] for the case that $(n = 0)$ and restricted to [[1-truncated]] [[object]]s.
+* When restricted to [[Grpd]], this is the special case of the [[n-connected/n-truncated factorization system]] in the [[(∞,1)-topos]] [[∞Grpd]] for the case that $(n = 0)$ and restricted to [[1-truncated]] [[object]]s.
 
 * For $f : X \to Y$ a functor between groupoids, its factorization is through a groupoid $im_2 f$ which is, up to equivalence, given as follows;
   
