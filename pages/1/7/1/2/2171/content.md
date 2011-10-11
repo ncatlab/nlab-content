@@ -352,9 +352,8 @@ Simplifying notation as before, we have generators $u,v,w$ and relations
 
 A classic reference is
 
-* Joan S. Birman, Braids, Links, and Mapping Class Groups, Princeton Univ Press, 1974.
+* Joan S. Birman, _Braids, links, and mapping class groups_, Princeton Univ Press, 1974.
+* R. Fox, L. Neuwirth, _The braid groups_, Math. Scand. __10__ (1962) 119-126, [pdf](http://www.mscand.dk/article.php?id=1624), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)
+* Wikipedia: [Braid group](http://en.wikipedia.org/wiki/Braid_group)
 
-For a survey of other aspects, see
-
-English Wikipedia article: [Braid group](http://en.wikipedia.org/wiki/Braid_group)
-
+[[!redirects Artin braid group]]
