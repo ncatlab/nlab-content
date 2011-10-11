@@ -17,3 +17,4 @@ On Calogero-Moser correspondence:
 [[!redirects Calogero-Moser model]]
 [[!redirects Calogero-Moser system]]
 [[!redirects Calogero-Sutherland model]]
+[[!redirects Calogero integrable system]]
