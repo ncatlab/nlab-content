@@ -31,7 +31,7 @@ In fact, this factorization system exists in any 2-exact 2-category and any (2,1
 
 ## Related concepts
 
-* [[epi/mono factorization system]]
+* [[epi-mono factorization system]]
 
 * **essentially surjective and full/faithful factorization system**
 
