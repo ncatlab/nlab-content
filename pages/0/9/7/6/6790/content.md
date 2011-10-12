@@ -1,0 +1,6 @@
+
+* [wikiepdia entry](http://de.wikipedia.org/wiki/Luis_%C3%81lvarez-Gaum%C3%A9)
+
+category: people
+
+[[!redirects Luis Alvarez-Gaume]]
