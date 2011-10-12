@@ -1,5 +1,6 @@
 
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -48,12 +49,16 @@ then this is the [[generalized Chern-Simons theory]] action functional indiced f
 
 
 
-## Applicatins
+## Applications
 
 Much of the interest in BF-theory results from the fact that on a 4-dimensional manifold, to some extent the [[Einstein-Hilbert action]] for [[gravity]] may be encoded in BF-theory form. See [[gravity as a BF-theory]].
 
 
 ## References
+
+BF theory was maybe first considered in
+
+* [[Gary Horowitz]], _Exactly soluable diffeomorphism invariant theories_ Commun. Math. Phys. 125, 417-437 (1989)
 
 The observation that the BF-theory action functional looks like it should be read as a functional on a space of  [[∞-Lie algebra valued forms]] with values in a [[strict Lie 2-algebra]] possibly appears in print first in <a href="http://arxiv.org/PS_cache/hep-th/pdf/0309/0309173v2.pdf#page=22">section 3.9</a> of 
 
