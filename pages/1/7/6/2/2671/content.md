@@ -70,7 +70,20 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 ## References
 
+### General
+
 The theory of gravity based on the standard [[Einstein-Hilbert action]] may be regarded as just an [[effective quantum field theory]], which makes some of its notorious problems be non-problems:
 
 * John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
+
+### Covariant phase space
+ {#CovariantPhaseSpaceReferences}
+
+The (reduced) [[covariant phase space]] of gravity (presented for instance by its [[BV-BRST complex]], see there fore more details) is discussed for instance in
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Towards a Background Independent Formulation of Perturbative Quantum Gravity_ ([arXiv:gr-qc/0603079](http://arxiv.org/abs/gr-qc/0603079))
+
+which is surveyed in
+
+* Katarzyna Rejzner, _The BV formalism applied to classical gravity_ ([pdf](http://katarzyna.rejzner.pl/talks/Karlsruhe2011.pdf))
 
