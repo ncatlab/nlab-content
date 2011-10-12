@@ -1,5 +1,6 @@
 
 * [website](http://math.haifa.ac.il/hinich/WEB/hinich.htm)
+* [recent publications](http://math.haifa.ac.il/hinich/WEB/publications.htm)
 
 category: people
 
