@@ -29,6 +29,8 @@ Related entries include [[Kohno-Drinfeld theorem]].
 * V. A. Golubeva, V. P. Leksin, _Rigidity theorems for multiparametric deformations of algebraic structures, associated with the Knizhnik-Zamolodchikov equations_, Journal of Dynamical and Control Systems, 13:2 (2007), 161&#8211;171, [MR2317452](http://www.ams.org/mathscinet-getitem?mr=2317452)
 * V. A. Golubeva, _Integrability conditions for two&#8211;parameter Knizhnik&#8211;Zamolodchikov equations of type $B_n$ in the tensor and spinor cases_, Doklady Mathematics, 79:2 (2009), 147&#8211;149 
 * V. G. Drinfel&#697;d, _Quasi-Hopf algebras and Knizhnik-Zamolodchikov equations_, Problems of modern quantum field theory (Alushta, 1989), 1&#8211;13, Res. Rep. Phys., Springer 1989.
+* R. Rim&#225;nyi, V. Tarasov, A. Varchenko, P. Zinn-Justin, _Extended Joseph polynomials, quantized conformal blocks, and a $q$-Selberg type integral_, [arxiv/1110.2187](http://arxiv.org/abs/1110.2187)
+
 [[!redirects Knizhnik-Zamolodchikov connection]]
 [[!redirects KZ equation]]
 [[!redirects KZ connection]]
