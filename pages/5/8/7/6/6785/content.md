@@ -1,3 +1,5 @@
 __Arun Ram__ is a mathematician at the University of Melbourne (formerly at the Univ. of Wisconsin-Madison), a specialist in [[combinatorial representation theory]] and Lie theory (Lie groups and Lie algebras, quantum groups, Iwahori-Hecke algebras etc.).
 
 * [web](http://www.ms.unimelb.edu.au/~ram)
+
+category: people
