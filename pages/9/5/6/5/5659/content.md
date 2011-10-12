@@ -5,7 +5,7 @@
 
 ## Definitions
 
-Let $A,B$ be separable $C^\ast$-[[C-star-algebra|algebras]]. A morphism $f\colon A \to B$ is __semiprojective__ if for any separable $C^\ast$-algebra $C$, any  sequence $J_n \subset C$ of [[ideal of a ring|ideals]] with $J = \overline{\cup_{n=0}^\infty C_n}$ and any morphism $\sigma\colon B \to C/J$, there exist $n$ and an "$f$-relative lift" $\tilde{\sigma}\colon B \to C/J_n$ in the sense that the composition $A \stackrel{f}\to B\stackrel{\tilde\sigma} \to C/J_n \to C/J$ equals the composition $A \stackrel{f}\to B \stackrel{\sigma}\to C/J$, where $C/J_n\to C/J$ is the [[epimorphism]] induced by the inclusion $J_n \subset J$ of ideals.
+Let $A,B$ be separable $C^\ast$-[[C-star-algebra|algebras]]. A morphism $f\colon A \to B$ is __semiprojective__ if for any separable $C^\ast$-algebra $C$, any increasing sequence $J_n \subset C$ of [[ideal of a ring|ideals]] with $J = \overline{\cup_{n=0}^\infty J_n}$ and any morphism $\sigma\colon B \to C/J$, there exist $n$ and an "$f$-relative lift" $\tilde{\sigma}\colon A \to C/J_n$ in the sense that the composition $A \stackrel{\tilde\sigma} \to C/J_n \to C/J$ equals the composition $A \stackrel{f}\to B \stackrel{\sigma}\to C/J$, where $C/J_n\to C/J$ is the [[epimorphism]] induced by the inclusion $J_n \subset J$ of ideals.
 
 A separable $C^\ast$-algebra is __semiprojective__ if the identity $id_A\colon A \to A$ is a semiprojective morphism. In particular, every projective separable $C^\ast$-algebra is semiprojective. They are viewed as a generalization of (continuous function algebras) of [[ANR]]s for metric spaces. 
 
