@@ -68,9 +68,11 @@ The "cascade" of Seiberg dualities is due to
 
 ### Lectures and reviews
 
-A good survey is in 
+Surveys and reviews include 
 
-* [[Matthew Strassler]], _The Duality Cascade_ ([arXiv:hep-th/0505153](http://arxiv.org/abs/hep-th/0505153))
+* [[Matthew Strassler]], _The Duality Cascade_ (2005) ([arXiv:hep-th/0505153](http://arxiv.org/abs/hep-th/0505153))
+
+* M. Chaichian, W.F. Chen, C. Montonen, _New Superconformal Field Theories in Four Dimensions and N=1 Duality_ ([arXiv:hep-th/0007240](http://arxiv.org/abs/hep-th/0007240))
 
 See also section 22 of 
 
