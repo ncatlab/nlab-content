@@ -90,6 +90,52 @@ $$
   \,.
 $$
 
+### Exceptional isomorphisms
+
+In low dimensions the spin group happens to be [[isomorphism|isomorphic]] to various other classical group (among them the [[general linear group]] $GL(p,V)$ for $V$ the [[real number]]s $\mathbb{R}$, the [[complex number]]s $\mathbb{C}$ and the [[quaternions]] $\mathbb{Q}$, the [[orthogonal group]] $O(p,q)$, the [[unitary group]] $U(p,q)$ and the [[symplectic group]] $Sp(p,q)$).
+
+We have
+
+* in [[Riemannian manifold|Riemannian]] signature
+
+  * $Spin(1) \simeq O(1)$
+
+  * $Spin(2) \simeq U(1) \simeq SO(2)$
+
+  * $Spin(3) \simeq Sp(1) \simeq SU(2)$
+
+  * $Spin(4) \simeq Sp(1)\times Sp(1)$
+
+  * $Spin(5) \simeq Sp(2)$
+
+  * $Spin(6) \simeq SU(4)$ 
+
+* in [[Lorentzian spacetime|Lorentzian]] signature
+
+  * $Spin(1,1) \simeq GL(1,\mathbb{R})$
+
+  * $Spin(2,1) \simeq SL(2, \mathbb{R})$
+
+  * $Spin(3,1) \simeq SL(s,\mathbb{X})$
+
+  * $Spin(4,1) \simeq Sp(1,1)$
+
+  * $Spin(5,1) \simeq SL(2,\mathbb{H})$
+
+* in [[anti de Sitter spacetime|anti de Sitter]] signature
+
+  * $Spin(2,2) \simeq SL(2,\mathbb{R}) \times SL(2,\mathbb{R})$
+
+  * $Spin(3,2) \simeq Sp(4,\mathbb{R})$
+
+  * $Spin(4,2) \simeq SU(2,2)$
+
+Beyond these dimensions there are still some interesting identifications, but the situation becomes much more involved.
+
+
+
+
+
 ## Applications
 
 ### Spin geometry
@@ -102,7 +148,8 @@ The name arises due to the requirement that the structure group of the [[tangent
 
 See [[spin structure]].
 
-## Related concdeps
+## Related concepts
+
 
 The [[Whitehead tower]] of the [[orthogonal group]] looks like
 
@@ -115,6 +162,10 @@ Another extension of $SO$ is the [[spin^c group]].
 A standard textbook reference is
 
 * H.B. Lawson and M.-L. Michelson, _Spin Geometry_ , Princeton University Press, Princeton, NJ, (1989)
+
+See also
+
+* wikipedia _[Spin group](http://en.wikipedia.org/wiki/Spin_group)_ 
 
 [[!redirects Spin group]]
 [[!redirects Spin]]
