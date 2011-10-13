@@ -27,7 +27,7 @@ the conjectural Ads/CFT correspondence asserts an identification of the [[state]
 
 ### $AdS_5 / CFT_4$
 
-[[type II string theory]] on 5d [[anti de Sitter spacetime]] is dual to [[4d super Yang-Mills theory]].
+[[type II string theory]] on 5d [[anti de Sitter spacetime]] is dual to 4d [[super Yang-Mills theory]].
 
 ### $AdS_7 / CFT_6$
  {#AdS7CFT6}
@@ -134,6 +134,9 @@ Further references include:
 * [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012))
 
 ### $AdS_5 / CFT_4$
+
+* N. Beisert et al., _Review of AdS/CFT Integrability, An Overview_ 
+Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.3982)).
 
 ### $AdS_7 / CFT_6$
 
