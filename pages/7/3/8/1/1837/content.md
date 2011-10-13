@@ -165,6 +165,8 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 * [[self-dual higher gauge theory]]
 
+* [[higher spin gauge theory]]
+
 * [[schreiber:infinity-Chern-Simons theory]]
 
 ## References
