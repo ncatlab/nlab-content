@@ -24,9 +24,15 @@ An $n$-poset is any of several concepts that generalize [[partial order|posets]]
 Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict you wish. Then an __$n$-poset__ is an $\infty$-category such that all [[parallel morphisms|parallel]] pairs of $j$-morphisms are [[equivalence|equivalent]] for $j \geq n$. Thus, up to equivalence, there is no point in mentioning anything beyond $n$-morphisms, not even whether two given parallel $n$-morphisms are equivalent. This definition makes sense as low as $n = -1$; the statement that parallel $(-1)$-morphisms are equivalent simply means that there exists an object (a $0$-morphism).
 
 ## Special cases
+
 * The concept of $(-1)$-[[(-1)-poset|poset]] is trivial.
+
 * A $0$-[[0-poset|poset]] is a [[truth value]].
+
 * A $1$-[[1-poset|poset]] or [[(0,1)-category]] is simply a [[partial order|poset]].
+
+  Because, by the definition of $(0,1)$-category, we have that any two $1$-morphisms with the same source and target are equivalent. Hence there is, up to equivalence, at most one morphism for every ordered pair of objects. The rest of the axioms say that this is all the information there is in a $(0,1)$-category. Therefore, by the discussion at _[poset -- As a category with extra properties](http://ncatlab.org/nlab/show/partial+order#AsACategoryWithExtraProperties)_ , a $(0,1)$-category is a poset.
+
 * A $2$-[[2-poset|poset]] or [[(1,2)-category]] is a [[locally posetal 2-category]].
 * In general, an $n$-poset is an $n$-[[n-category|category]] in which all parallel pairs of $n$-morphisms are equal.
 * An $\infty$-poset is the same thing as an $\infty$-[[infinity-category|category]].
