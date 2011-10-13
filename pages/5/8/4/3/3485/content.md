@@ -1,5 +1,17 @@
 
-A _permutation representation_ is a [[representation]] on [[Set]], i.e. a [[functor]] $C \to Set$. 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _permutation representation_ is a [[representation]] on [[Set]], i.e. a [[functor]] $C \to $ [[Set]]. 
+
+A _linear permutation representation_ is a functor $C \to $ [[Vect]] that factors through a permutation representation via the functor $k^{|-|} :  Set \to Vect$ which sends a set to the vector space for which this set is a basis.
+
+**Warning** Often in the literature "linear permutaton representations" are just called "permutation representations".
+
+## Examples
 
 Notably for $C = \mathbf{B}G$ the [[delooping]] [[groupoid]] of a [[group]] $G$, a permutation representation $\mathbf{B}G \to Set$ is a set equipped with a $G$-[[action]].
 
@@ -10,3 +22,9 @@ $$
 $$
 
 is the [[classifying topos]] for the group $G$.
+
+## Related entries
+
+* [[representation theory]], [[linear representation]]
+
+[[!redirects permutation representations]]
