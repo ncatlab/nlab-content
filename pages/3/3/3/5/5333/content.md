@@ -56,6 +56,8 @@ Since global $N=1$ supersymmetry for a long time has been considered a promising
 
 ## References
 
+### General
+
 Heterotic strings were introduced in 
 
 * [[David Gross]], J. A. Harvey, E. Martinec and R. Rohm, 
@@ -72,6 +74,11 @@ A textbook introduction is
   [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds. . _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 
+### Gauge-theoretic aspects
+
+Subtleties in the realization of general [[E8]] [[background gauge field]]s for the heterotic string are discussed in
+
+* [[Jacques Distler]], [[Eric Sharpe]], _Heterotic compactifications with principal bundles for general groups and general levels_ Adv. Theor. Math. Phys.14:335-398 (2010) ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
 
 
 
