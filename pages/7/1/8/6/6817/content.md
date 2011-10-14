@@ -1,0 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A special case of [[CFT]]: 2-dimensional and with [[supersymmetry]].
+
+
+## Applications
+
+In the [[worldsheet]] description of the [[NSR string]].
+
+[[!include table of branes]]
+
+## References
+
+* L. Dixon, [[Paul Ginsparg]], and J. Harvey, _$\hat c = 1$ Superconformal field theory_ ([pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-4515.pdf))
+ 
+* [[Yasuyuki Kawahigashi]], _$N = 2$ Superconformal Field Theory
+and Operator Algebras_ ([pdf](http://www.rci.rutgers.edu/~yzhuang/math/papers/kawahigashi.pdf))
