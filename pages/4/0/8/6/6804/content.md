@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[D-brane]] of [[dimension]] $1+1$ in [[type IIB string theory]]. Also called the **D-string**, to be distinguished from the _fundamental_ [[string]].
+
+## Properties
+
+### Black hole entropy
+
+At low string coupling D1-brane/[[D5-brane]] systems are described by 2d [[CFT]], which is well understood. After passage to the corresponding strongly coupled [[black brane]] configurations in [[type IIB supergravity]], which are [[black hole]]s in the given [[Kaluza-Klein mechanism|compactification]], the [[entropy]] of these 2d CFTs matches the [[Bekenstein-Hawking entropy]] of these black holes.
+
+This is parts of the [[AdS/CFT correspondence]]. See ([AGMOO, chapter 5](#AGMOO)).
+
+## Related concepts
+
+[[!include table of branes]]
+
+## References
+
+Chapter 5.3 of 
+
+* [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+ {#AGMOO}
+
+
+
+[[!redirects D1-branes]]
