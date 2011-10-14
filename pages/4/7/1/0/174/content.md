@@ -33,7 +33,7 @@ There are two fundamentally different concrete realizations of this somewhat vag
 
 1. **[[D-brane]]s** and other boundary conditions
 
-1. **fundamental** or $\sigma$-model branes
+1. **fundamental** or $\sigma$-model branes or **[[NS-branes]]**
 
 
 ### Boundary conditions or D-branes
