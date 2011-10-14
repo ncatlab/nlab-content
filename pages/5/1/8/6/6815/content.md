@@ -1,7 +1,35 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+There are two types of [[black brane]] solutions in [[11-dimensional supergravity]], one of dimension $2+1$, one of dimension 5+1. These are thought to correspond to a fundamental 2-brane and its [[electric-magnetic duality|EM dual]], called the
 
 * [[M2-brane]]
 
-* [[M5-brane]]
+* [[M5-brane]].
 
+The M2-brane carries [[electric charge]] under the [[supergravity C-field]]. The M5-brane is the dual magnetic charge.
+
+## Properties
+
+### Reduction to branes in 10 d
+
+Under [[Kaluza-Klein mechanism|reduction]] to [[type II supergravity]] the M2 and the M5 turn into the [[D-brane]]s and the [[NS-brane]]s.
+
+## Related concepts
+
+[[!include table of branes]]
