@@ -24,6 +24,11 @@ In [[11-dimensional supergravity]] the [[brane]] electrically charged under the 
 
 the [[worldvolume]] theory of the M5-brane is the [[6d (2,0)-superconformal QFT]].
 
+This [[worldvolume]] theory involves [[self-dual higher gauge theory]] of the [[nonabelian cohomology|nonabelian]] kind ([Witten07](#Witten07), [Witten09](#Witten09)): the fields are supposed to be [[connections on a 2-bundle]]($\sim$ [[gerbe]]), presumably with structure [[2-group]] the [[automorphism 2-group]] $AUT(G)$ of some [[Lie group]] $G$. 
+
+For instance in the proposal of ([SSW11](#SSW11)) one sees in equation (2.1) _almost_ the data of an $\mathfrak{aut}(\mathfrak{g})$-[[2-groupoid of Lie 2-algebra valued forms|Lie 2-algebra valued forms]].
+
+
 ### Dimensional reduction
 
 On dimensional reduction of [[11-dimensional supergravity]] on a circle the M5-brane turns into the [[NS5-brane]] and the [[D-brane|D4-brane]] of [[type II string theory]].
@@ -38,9 +43,8 @@ The [[AdS/CFT correspondence]] for the 5-brane is $AdS_7/CFT_6$ and relates the 
 
 * [[D-brane]]
 
-* [[NS5-brane]]
+[[!include table of branes]]
 
-* [[M2-brane]]
 
 ## References
 
@@ -66,11 +70,24 @@ Phys.Rev.Lett. 78 (1997) 4332.
 
 ### Nonabelian 2-form fields
 
+The fact that the worldvolume theory of the M5-brane should support fields that are [[self-dual higher gauge theory|self-dual]] [[connections on a 2-bundle]] ($\sim$ a [[gerbe]]) is discussed in 
+
+* [[Edward Witten]], _Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
+ {#Witten07}
+
+as well as sections 3 and 4 of 
+
+* [[Edward Witten]], _Geometric Langlands From Six Dimensions_ ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720))
+ {#Witten09}.
+
+Proposals for how to implement this are for instance in
+
 * Chong-Sun Chu, _A Theory of Non-Abelian Tensor Gauge Field with Non-Abelian Gauge Symmetry $G \times G$_ ([arXiv:1108.5131](http://arxiv.org/abs/1108.5131))
 
 * [[Henning Samtleben]], Ergin Sezgin, Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
  {#SSW11}
 
+A formal proposal is [[schreiber:7d Chern-Simons theory and the 5-brane|here]].
 
 ### Holography
 
