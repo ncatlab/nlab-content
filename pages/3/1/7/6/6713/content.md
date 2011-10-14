@@ -93,8 +93,20 @@ Starting with Kontsevich's [[homological algebra]] reformulation of [[homologica
 ... lots of further things to say ...
 
 
+## Examples
 
+* [[D0-brane]]
 
+* [[D1-brane]]
+
+* [[D3-brane]]
+
+* [[D4-brane]]
+
+* [[D5-brane]]
+## Related concepts
+
+[[!include table of branes]]
 
 ## References
 
