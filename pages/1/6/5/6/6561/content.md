@@ -29,10 +29,13 @@ Due to the [[self-dual higher gauge theory|self-duality]] a characterization of 
 
 ### Holographic dual
 
-Under [[holographic principle|holography]] the 6d $(2,0)$-superconformal QFT is supposed to be dual to [[11-dimensional supergravity|M-theory]] on $AdS_7 \times S^4$.  
+Under [[AdS-CFT|AdS7/CFT6]] the 6d $(2,0)$-superconformal QFT is supposed to be dual to [[11-dimensional supergravity|M-theory]] on [[anti de Sitter spacetime]] $AdS_7 \times S^4$.  
 
-This goes back to ([Maldacena, 3.1](#Maldacena)). More details are for instance in ([HEGK](#HEGK)).
+See [[AdS/CFT correspondence]] for more on this.
 
+## Related entries
+
+[[!include table of branes]]
 
 ## References
 
