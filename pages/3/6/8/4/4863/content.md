@@ -143,10 +143,15 @@ A textbook discussion in the context of [[supergravity]] is in
 
 In
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_Compactification in first order gravity
 {#CastellaniDAuriaFre}
 
 the mechanism is discussed around Section V.3.3., page 1186 in volume 2.
+
+The discussion in the [[first order formulation of gravity]] is given in 
+
+* Rodrigo Arosa, Mauricio Romob and Nelson Zamorano, _Compactification in first order gravity_ 	J.Phys.Conf.Ser.134:012013,2008 ([arXiv:0705.1162](http://arxiv.org/abs/0705.1162))
+
 
 [[!redirects Kaluza-Klein theory]]
 
