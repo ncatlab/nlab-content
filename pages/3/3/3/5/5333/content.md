@@ -87,3 +87,5 @@ Subtleties in the realization of general [[E8]] [[background gauge field]]s for 
 
 [[!redirects heterotic string]]
 [[!redirects heterotic strings]]
+
+[[!redirects heterotic supergravity]]
