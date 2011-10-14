@@ -200,9 +200,10 @@ Discussion of type II anomalies is in
 * [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
   {#DFMII} 
 
-[[!redirects superstring theory]]
+[[!redirects string theories]]
 
-[[!redirects string]]
+[[!redirects superstring theory]]
+[[!redirects superstring theories]]
 
 [[!redirects string perturbation series]]
 [[!redirects perturbative string theory]]
