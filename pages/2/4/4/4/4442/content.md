@@ -92,6 +92,10 @@ The full formalization of AdS/CFT is still very much out of reach.
 One proposal for a formalization of a toy version in the context of [[AQFT]] is [[Rehren duality]]. However, it does not seem that this actually formalizes AdS-CFT, but something else.
 
 
+## Related concepts
+
+[[!include table of branes]]
+
 ## References
 
 The original article is
