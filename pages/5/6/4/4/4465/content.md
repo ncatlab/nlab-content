@@ -21,6 +21,16 @@
 
 In [[gravity]],  __Bekenstein-Hawking entropy__ is an [[entropy]] assigned to [[black hole]], on the basis of laws of thermodynamics and observers outside black hole.  It striking property is that it is proportional to the surface area of the balck hole's [[horizon]].
 
+## Properties
+
+### Interpretation in AdS/CFT correspondence
+
+In the context of [[string theory]] BH entropy is explained by a version of the [[AdS/CFT correspondence]]. Here every [[black brane]] solution in [[supergravity]] is the strong-coupling limit of a [[D-brane]] [[worldvolume]] [[QFT]]. After [[Kaluza-Klein mechanism|KK-reduction]] these black brane configurations become ordinary [[black hole]]s.  The [[entropy]] of the [[D-brane]] worldvolume theories on the [[event horizon]] turns out to coincide with the BH entropy of the corresponding black hole. 
+
+Detailed computations exist in particular for [[D1-brane]]/[[D5-brane]] systems. This is parts of the [[AdS/CFT correspondence]]. See ([AGMOO, chapter 5](#AGMOO)).
+
+
+
 ## Related concepts
 
 * gravitational entropy
@@ -32,8 +42,22 @@ In [[gravity]],  __Bekenstein-Hawking entropy__ is an [[entropy]] assigned to [[
 
 ## References
 
+### General
+
 * scholarpedia [article](http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy) (written by Bekenstein, with lost of references)
 
 * MO question [statistical-physics-of-string-theory](http://mathoverflow.net/questions/31789/statistical-physics-of-string-theory)
 
+### Entropy
+
+## References
+
+Chapter 5 of 
+
+* [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+ {#AGMOO}
+
+
+
 [[!redirects black hole entropy]]
+[[!redirects BH entropy]]
