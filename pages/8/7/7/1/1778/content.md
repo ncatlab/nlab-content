@@ -1,11 +1,13 @@
-[[!redirects {Č}ech cohomology]]
-[[!redirects ?ech cohomology]]
-[[!redirects Čech cohomology]]
-[[!redirects Cech cohomology]]
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
 
 #&#268;ech cohomology#
 * automatic table of contents goes here
@@ -15,11 +17,11 @@
 ## Idea ##
 
 
-&#268;ech cohomology is the [[cohomology]] theory of the [[(infinity,1)-topos]] of [[infinity-stack]] that are [[localization of an (infinity,1)-category|localized]] not with respect to all [[hypercovers]] but only with respect to all [[Čech covers]].
+&#268;ech cohomology is the [[cohomology]] theory of the [[(infinity,1)-topos]] of [[infinity-stack]] that are [[localization of an (infinity,1)-category|localized]] not with respect to all [[hypercovers]] but only with respect to all [[?ech covers]].
 
 The former is the [[hypercompletion]] of the &#268;ech model, which for instance includes ordinary [[abelian sheaf cohomology]].
 Traditionally this is what what people were interested in. From the point of view of the [[hypercompletion]]
-&#268;ech cohomology is more an algorithm for computing hypercohomology in special cases (see [[Čech methods]]) than 
+&#268;ech cohomology is more an algorithm for computing hypercohomology in special cases (see [[?ech methods]]) than 
 a cohomology theory in itself.
 
 On the other hand, in section 6.5.4 of [[Higher Topos Theory|HTT]] it is argued that &#268;ech cohomology is the better behaved cohomology theory after all (see references below).
@@ -36,17 +38,17 @@ $$
 
 where the colimit is over all acyclic fibrations $Y \stackrel{\in W \cap F}{\to} X$ in an appropriate [[model category]] $C_H$ that [[presentable (infinity,1)-category|presents]] $\mathbf{H}$. For $\mathbf{H}$ an [[infinity-stack]] [[(infinity,1)-topos]] this $C_H$ is a [[model structure on simplicial presheaves]] and the acyclic fibrations $Y \stackrel{\in W \cap F}{\to} X$ for $X$ an ordinary space are the [[hypercovers]].
 
-Now, for some coefficient objects $A$ it is sufficient to take the colimit here not over all [[hypercovers]], but just over [[Čech covers]]. The resulting formula
+Now, for some coefficient objects $A$ it is sufficient to take the colimit here not over all [[hypercovers]], but just over [[?ech covers]]. The resulting formula
 
 $$
   H(X,A)
-  = colim_{Y \stackrel{\mathop{&#x010C;ech} cover}{\to} X} 
+  = colim_{Y \stackrel{\mathop{&#268;ech} cover}{\to} X} 
   C_H(Y,A)/_{homotopy}
 $$
 
 is then called the formula for **&#268;ech cohomology** on $X$ with values in $A$.
 
-Here a [[Čech cover]] is a simplicial presheaf that arises from an ordinary covering map $U \to X$ of $X$ by another space $U$ as the corresponding [[Čech nerve]] simplicial presheaf
+Here a [[?ech cover]] is a simplicial presheaf that arises from an ordinary covering map $U \to X$ of $X$ by another space $U$ as the corresponding [[?ech nerve]] simplicial presheaf
 
 $$
  \begin{aligned}
@@ -66,7 +68,7 @@ See [[descent for simplicial presheaves]] for more on the manipulations involved
 
 To amplify, a general [[hypercover]] would start in degree 0 with a $U$ as above, but then in the next degree would have a cover $V \to U \times_X U$ of the fiber product, and so on, each fiber product in turn being covered by another space.
 
-If $Y$ is not simply a [[Čech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **&#268;ech cover of level $n$** and of the corresponding cohomology formula as **higher &#268;ech cohomology**. See for instance the reference by Tibor Beke below.
+If $Y$ is not simply a [[?ech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **&#268;ech cover of level $n$** and of the corresponding cohomology formula as **higher &#268;ech cohomology**. See for instance the reference by Tibor Beke below.
 
 
 
@@ -421,7 +423,7 @@ Remembering that the &#268;ech cohomology is the colimit over refinement of cove
 (as above) classies $G$-[[principal bundles]]
 
 $$
-  colim_{U \stackrel{\mathop{&#x010C;ech} cover}{\to} X}
+  colim_{U \stackrel{\mathop{&#268;ech} cover}{\to} X}
   SSh(C(U), \mathbf{B}G)/_{homtopy}
   \simeq
   G Bund(X)/_\sim
@@ -649,7 +651,7 @@ on the right to the
 free abelian chain complex operation 
 $C_bullet(F(C(U)))$
 on the 
-[[Čech cover]] simplicial sheaf $C(U)$ and then 
+[[?ech cover]] simplicial sheaf $C(U)$ and then 
 use the [[Yoneda lemma]] to evaluate $A_\bullet$
 on $N_\bullet(F(C(U)))$. The result is the 
 &#268;ech complex of $A_\bullet$. 
@@ -660,10 +662,10 @@ Spelled out in full detail this looks a bit more lengthy,
 but is nothing but this simple idea.
 
 Before starting the computation notice the following
-observation on the image of the [[Čech cover]]
+observation on the image of the [[?ech cover]]
 $C(U)$ under the [[Dold-Kan correspondence]]:
 
-For $Y = C(U)$ a [[Čech cover]] on a sieve 
+For $Y = C(U)$ a [[?ech cover]] on a sieve 
 $\{U_i \to X\}_{i \in I}$, and for $W$ any test object,
 the non-degenerate $n$-simplices in $C(U)(W)$ are the
 
@@ -811,7 +813,7 @@ $$
   \check{H}(X,A) \to H(X,A)
 $$
 
-from the &#268;ech cohomology to the full (hypercompleted) cohomology, which is [[abelian sheaf cohomology]] in the case that $A$ is in the image of the [[Dold-Kan correspondence|Dold-Kan map]] from [[chain complexes]]. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[Čech covers]] into all [[hypercovers]].
+from the &#268;ech cohomology to the full (hypercompleted) cohomology, which is [[abelian sheaf cohomology]] in the case that $A$ is in the image of the [[Dold-Kan correspondence|Dold-Kan map]] from [[chain complexes]]. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[?ech covers]] into all [[hypercovers]].
 
 +-- {: .un_theorem }
 ###### Theorem 
@@ -844,7 +846,7 @@ $$
   H_0(C(U,A)_\bullet) \to H(X,A)
 $$
 
-from the cohomology of the &#268;ech complex with respect to a cover $U$ with coefficients in $A$ to the [[abelian sheaf cohomology]] of $X$ with values in $A$. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[Čech covers]] into all [[hypercovers]].
+from the cohomology of the &#268;ech complex with respect to a cover $U$ with coefficients in $A$ to the [[abelian sheaf cohomology]] of $X$ with values in $A$. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[?ech covers]] into all [[hypercovers]].
 
 +-- {: .un_theorem }
 ###### Theorem 
@@ -1043,7 +1045,11 @@ in the Deligne complex, we obtain the formulas for
 
 ##References##
 
-A discussion of &#268;ech cohomology in the wider context of [[cohomology]] particularly realized in terms of the [[model structure on simplicial presheaves]] and with an emphasis on the shades of notions between [[Čech cover]] and [[hypercover]] is
+A classical reference is
+
+* Godement _Topologie alg&#233;brique et th&#233;orie de faisceaux_
+
+A discussion of &#268;ech cohomology in the wider context of [[cohomology]] particularly realized in terms of the [[model structure on simplicial presheaves]] and with an emphasis on the shades of notions between [[?ech cover]] and [[hypercover]] is
 
 * Tibor Beke, _Higher &#268;ech theory_ ([journal](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
 
@@ -1062,3 +1068,9 @@ A long list of reasons why higher &#268;ech cohomology might
 is after all better behaved than its [[hypercompletion]] where a cycle is with respect to an arbitrary [[hypercover]] is in section 6.5.4, **Descent versus Hyperdescent** of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+
+[[!redirects {?}ech cohomology]]
+[[!redirects ?ech cohomology]]
+[[!redirects ?ech cohomology]]
+[[!redirects Cech cohomology]]
