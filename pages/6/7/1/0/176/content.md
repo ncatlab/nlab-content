@@ -274,12 +274,6 @@ The [[Liouville cocycle]] appears when one moves from genuine [[representation]]
 
 ...
 
-## Related entries
-
-* [[Liouville cocycle]]
-
-* The target space structure corresponding to [[defect line]]s in 2d CFT are [[bi-brane]]s.
-
 
 ## CFT in AQFT language
 
@@ -372,6 +366,10 @@ Witt class.
 ## Related concepts
 
 * [[conformal structure]], [[conformal net]]
+
+* [[Liouville cocycle]]
+
+* [[2d SCFT]]
 
 ## References ##
 
