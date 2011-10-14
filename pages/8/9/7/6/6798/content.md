@@ -29,6 +29,9 @@ A  [[supersymmetry|supersymmetric]] extension of plain [[Yang-Mills theory]].
 
 $N=4$ $d=4$ SYM is supposed to be related under the [[AdS/CFT correspondence]] to [[type II superstring theory]] [[Kaluza-Klein mechanism|compactified]] on a 5-[[sphere]] to an asymptotically [[anti de Sitter spacetime]].
 
+## Related concepts
+
+[[!include table of branes]]
 
 ## References
 
