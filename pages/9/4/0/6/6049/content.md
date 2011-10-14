@@ -34,12 +34,6 @@ Similarly, the "black" NS5-brane is characterizes by mass, [[B-field]] charge an
 
 ## Properties
 
-### Self-dual nonabelian 2-connections
- {#SelfDual2Connections}
-
-The 6-dimensional [[worldvolume]] theory of the 5-brane is expected to involve [[self-dual higher gauge theory]] of the [[nonabelian cohomology|nonabelian]] kind ([Witten07](#Witten07), [Witten09](#Witten09)): the fields are supposed to be [[connections on a 2-bundle]]($\sim$ [[gerbe]]), presumably with structure [[2-group]] the [[automorphism 2-group]] $AUT(G)$ of some [[Lie group]] $G$. 
-
-For instance in the proposal of ([SSW11](#SSW11)) one sees in equation (2.1) _almost_ the data of an $\mathfrak{aut}(\mathfrak{g})$-[[2-groupoid of Lie 2-algebra valued forms|Lie 2-algebra valued forms]].
 
 ### Relation to Khovanov homology
 
@@ -52,7 +46,7 @@ $$
 between the Khovanov homologies associated to the two knots.
 
 In ([Witten11](#Witten11)) it is argued, following indications in ([GukovSchwarzVafa](#GukovSchwarzVafa))
-that this 4d TQFT is related to the [[worldvolume]] theory of the _image_ in [[type IIA string theory|type IIA]] of [[D-brane|D3-branes]] ending on NS5-branes in [[type IIB string theory|type IIB]] after one [[S-duality]] and one [[T-duality]] operation:
+that this 4d TQFT is related to the [[worldvolume]] theory of the _image_ in [[type IIA string theory|type IIA]] of [[D3-branes]] ending on NS5-branes in [[type IIB string theory|type IIB]] after one [[S-duality]] and one [[T-duality]] operation:
 
 $$
   (D3 - NS4)
@@ -67,7 +61,7 @@ Earlier indication for this had come from the observation that [[Chern-Simons th
 
 Notice that after the above [[T-duality]] operation the $(D4-D6)$-system wraps the $S^1$ ([[circle]]) along which the T-duality takes place. 
 
-Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]] (the erstwhile D4s) on [[Taub-NUT spacetime|Taub-NUT]] ($\times S^1$). The M5-branes wrap the circle-fiber of Taub-NUT, which shrinks to zero size at the origin (the location of the erstwhile D6, which is where the D4s "end"). The low-energy theory, on a stack of M5-branes, is the [[6d (2,0)-susy QFT]]. 
+Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]] (the erstwhile [[D4-brane]]s) on [[Taub-NUT spacetime|Taub-NUT]] ($\times S^1$). The [[M5-branes]] wrap the circle-fiber of Taub-NUT, which shrinks to zero size at the origin (the location of the erstwhile D6, which is where the D4s "end"). The low-energy theory, on a stack of M5-branes, is the [[6d (2,0)-susy QFT]]. 
 
 ## Related concepts
 
@@ -75,9 +69,8 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 * [[fivebrane structure]], [[differential fivebrane structure]]
 
-* [[6d (2,0)-supersymmetric QFT]]
+[[!include table of branes]]
 
-* [[M2-brane]], [[M5-brane]]
 
 ## References
 
@@ -87,7 +80,7 @@ Actions for the NS5-brane are discussed in
 
 * Marco Cariglia, Kurt Lechner, _NS5-branes in IIA supergravity and gravitational anomalies_ ([arXiv:hep-th/0203238](http://arxiv.org/abs/hep-th/0203238))
 
-The fact that the worldvolume theory of the 5-brane should support fields that are [[self-dual higher gauge theory|self-dual]] [[connections on a 2-bundle]] ($\sim$ a [[gerbe]]) is discussed in 
+The fact that the worldvolume theory of the M5-brane should support fields that are [[self-dual higher gauge theory|self-dual]] [[connections on a 2-bundle]] ($\sim$ a [[gerbe]]) is discussed in 
 
 * [[Edward Witten]], _Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
  {#Witten07}
