@@ -116,11 +116,15 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 
 * [[super Yang-Mills theory]]
 
+  * [[N=4 D=4 super Yang-Mills theory]]
+
 * [[spinning particle]] (which happens to have [[worldline supersymmetry]])
 
 * [[superparticle]]
 
   * [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
+* [[2d SCFT]]
 
 * [[spinning string]] [[superstring]]
 
