@@ -98,9 +98,9 @@ For supergravity Lagrangians "of ordinary type" it turns out that
 
 is the highest dimensional possible. All lower dimensional theories in this class appear as compactifications of this theory or otherwise derived from it, such as
 
-* [[type II supergravity]]
+* 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
 
-* [[heterotic supergravity]]
+* [[7-dimensional supergravity]]
 
 In dimension $(1+0)$ supergravity coupled to [[sigma-model]] fields is the [[spinning particle]].
 
