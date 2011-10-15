@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The [[isometry group]] $SO(n,2)$ of $(n+1)$-dimensional [[anti de Sitter spacetime]].
+
+## Properties
+
+### Exceptional isomorphisms
+
+* $SO(6,2) \simeq SO(4,\mathbb{H})$ (where $\mathbb{H}$ is the [[quaternions]])
+
+## Related concepts
+
+* [[anti de Sitter spacetime]]
+
+[[!include table of orthogonal groups and related]]
+
