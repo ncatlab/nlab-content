@@ -36,7 +36,8 @@ Inc., Boston, MA, 2009.
 
 * Junwu Tu, _Matrix factorizations via Koszul duality_, [arxiv/1009.4151](http://arxiv.org/abs/1009.4151)
 
-
+* J. Burke, M. E. Walker, _Matrix factorizations over projective schemes_, [arxiv/1110.2918](http://arxiv.org/abs/1110.2918)
+* Matthew Ballard, David Favero, [[Ludmil Katzarkov]], _A category of kernels for graded matrix factorizations and its implications for Hodge theory_, [arxiv/1105.3177](http://arxiv.org/abs/1105.3177)
 [[!redirects matrix factorization]]
 [[!redirects matrix factorizations]]
 [[!redirects matrix factorisation]]
