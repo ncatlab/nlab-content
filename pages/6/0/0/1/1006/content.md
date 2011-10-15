@@ -1,5 +1,7 @@
-# $n$-Lie algebras
-* tic
+
+
+# $n$-Lie algebras #
+* table of contents
 {: toc}
 
 
@@ -27,11 +29,13 @@ A discussion of $n$-Lie algebras (without the $L_\infty$-grading) is in
 
 ## Re-inventions
 
-The notion of $n$-Lie algebras, for $n=3$, was re-invented by string physicists in 
+The notion of $n$-Lie algebras, for $n=3$, was re-invented by string physicists in the [[BLG model]]
 
-* Jonathan Bagger, Neil Lambert, _Gauge Symmetry and Supersymmetry of Multiple M2-Branes_ ([arXiv](http://arxiv.org/abs/0711.0955))
+* [[Jonathan Bagger]], [[Neil Lambert]], _Gauge Symmetry and Supersymmetry of Multiple M2-Branes_ ([arXiv](http://arxiv.org/abs/0711.0955))
 
-which sparked a tremendous amount of [activity](http://people.physik.hu-berlin.de/~ahoop08/klose.pdf). See the blog entry
+which sparked a tremendous amount of [activity](http://people.physik.hu-berlin.de/~ahoop08/klose.pdf). 
+
+See the blog entry
 
 * [Lie 3-Algebras on the Membrane](http://golem.ph.utexas.edu/category/2008/11/linfinity_algebras_on_the_memb.html)
 
@@ -44,3 +48,5 @@ for discussion about the relation to proper $L_\infty$-algebraic formalism.
 Further re-inventions of the concept of $n$-Lie algebras in this context are appearing. For instance in 
 
 * Tamar Friedman, _Orbifold singularities, the LATKe, and Yang-Mills with Matter_ ([arXiv](http://arxiv.org/abs/0806.0024))
+
+[[!redirects n-Lie algebras]]
