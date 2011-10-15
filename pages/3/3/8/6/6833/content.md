@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[D-brane]] in [[type IIB string theory]] of [[dimension]] $7+1$.
+
+## Related concepts
+
+[[!include table of branes]]
+
+
+## References
+
+* Oliver DeWolfe, Tamas Hauer, Amer Iqbal, [[Barton Zwiebach]], _Uncovering Infinite Symmetries on [p,q] 7-branes: Kac-Moody Algebras and Beyond_  ([arXiv:hep-th/9812209](http://arxiv.org/abs/hep-th/9812209))
