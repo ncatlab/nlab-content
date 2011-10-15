@@ -58,3 +58,5 @@ on $X$.
 ## Related concepts
 
  $\cdots\to$ [[fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ **orthogonal group**
+
+[[!include table of orthogonal groups and related]]
