@@ -100,7 +100,7 @@ In [[type IIA supergravity]]
 
 In [[type IIB supergravity]]
 
-* [[D1-brane]], [[D3-brane]], [[D5-brane]]
+* [[D1-brane]], [[D3-brane]], [[D5-brane]], [[D7-brane]]
 
 ## Related concepts
 
