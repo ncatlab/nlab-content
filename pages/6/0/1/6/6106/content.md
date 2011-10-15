@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -6,6 +16,10 @@
 ## Idea
 
 The [[loop space]] of a [[topological group]] inherits itself the structure of a [[group]] under pointwise group multiplication of [[loops]]. This is called a _loop group_.
+
+## Properties
+
+Loop groups of [[compact space|compact]] [[Lie group]]s have canonical [[central extensions]], often called _Kac-Moody central extensions_ . A detailed discussion is in ([PressleySegal](#PressleySegal)). A review is in ([BCSS](#BCSS))
 
 
 ## Related concepts
@@ -18,6 +32,13 @@ The [[loop space]] of a [[topological group]] inherits itself the structure of a
 The standard textbook on loop groups is
 
 * Andrew Pressley, [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
+  {#PressleySegal}
+
+A review of some aspects is in 
+
+* BCSS, _From loop groups to 2-groups_ ([web](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos+--+references#BCSS))
+
+(with an eye towards the [[string 2-group]]).
 
 The relation between [[representation]]s of loop groups and [[twisted K-theory]] over the group is the topic of
 
@@ -29,3 +50,6 @@ The relation between [[representation]]s of loop groups and [[twisted K-theory]]
 
 [[!redirects loop group representation]]
 [[!redirects loop group representations]]
+
+[[!redirects Kac-Moody central extension]]
+[[!redirects Kac-Moody central extensions]]
