@@ -5,12 +5,21 @@
 
 ## Idea
 
-A special case of [[CFT]]: 2-dimensional and with [[supersymmetry]].
+[[SCFT]] in [[dimension]] $d = 2$.
 
 
-## Applications
+## Examples
 
-In the [[worldsheet]] description of the [[NSR string]].
+* [[superstring]] [[sigma-model]]
+
+  * [[spinning string]] [[superstring]]
+
+  * [[heterotic string]], [[type II superstring]]
+
+  * [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+## Related concepts
+
 
 [[!include table of branes]]
 
