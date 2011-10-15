@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+## Idea
+
+A general [[gauge field]] is a [[cocycle]] in [[differential cohomology]]. The case of the [[electromagnetic field]] and the [[Yang-Mills field]]s with 2-form [[curvature]] is just a very special case of this, in general a gauge field has higher [[curvature]] forms. For instance the [[B-field]] has a curvature 3-form, the [[C3-field]] has a curvature 4-form and the [[RR-field]] has a curvature form in every even or every odd degree.
+
+For emphasis, therefore, one sometimes speaks of **higher gauge fields** and **higher gauge theory** , where the "higher" is as in _[[higher category theory]]_ . Indeed, where an ordinary [[Yang-Mills field]] is a [[connection on a bundle]] defined in ordinary category theory, a higher gauge field is modeled by a [[connection on a 2-bundle]] or generally by a [[connection on a principal infinity-bundle]].
+
+See [[gauge theory]] for more.
+
+
+
+[[!redirects higher gauge theory]]
