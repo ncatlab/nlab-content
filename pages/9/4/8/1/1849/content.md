@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 #### Differential cohomology
 +--{: .hide}
@@ -751,6 +751,7 @@ This means that cocycles with coefficients in this subobject for $C = 0$ are coc
 
   * [[differential T-duality]]
 
+[[!include table of branes]]
 
 ## References
 
@@ -768,7 +769,12 @@ The discussion from the point of view of the $\infty$-Chern-Weil homomorphism is
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _Higher differential $Spin^c$-structures_
  {#FiSaSc}
 
+Section 4.3.4 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
 A detailed discussion of the [[quantum anomaly]] of the supergravity C-field -- and its cancellation -- is in
 
 * [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_ , Communications in mathematical physics,  Volume 263, Number 1, 89-132, DOI: 10.1007/s00220-005-1482-7  ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135))
 
+[[!redirects C3-field]]
