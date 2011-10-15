@@ -43,27 +43,39 @@
 
 ### Extended objects
 
-* [[sigma-model]]
-
-* [[string]]
-
-  * [[spinning string]], [[superstring]]
-
 * [[brane]]
 
-  * [[D-brane]]
+* **[[D-brane]]**
 
-    * [[differential K-theory]]
+  * [[D0-brane]], [[D2-brane]], [[D4-brane]]
+
+  * [[D1-brane]], [[D3-brane]], [[D5-brane]]
+
+  * [[RR-field]], [[differential K-theory]]
+
+* **[[NS-brane]]**
+
+  * [[string]], [[sigma-model]]
+
+    * [[spinning string]], [[superstring]]
+
+    * [[B2-field]]
 
   * [[NS5-brane]]
 
-    * [[Khovanov homology]]
+    * [[B6-field]]
+
+* **[[M-brane]]**
 
   * [[M2-brane]]
+
+    * [[C3-field]]
 
     * [[ABJM theory]], [[BLG model]]
 
   * [[M5-brane]]
+
+    * [[C6-field]]
 
     * [[6d (2,0)-supersymmetric QFT]]
 
