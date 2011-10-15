@@ -122,6 +122,10 @@ In [[string theory]] one speaks apart from the [[D-branes]] also about **fundame
 
 * etc.
 
+### Black branes
+
+See _[[black brane]]_ .
+
 
 ## Properties
 
