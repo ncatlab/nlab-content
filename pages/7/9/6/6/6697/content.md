@@ -40,6 +40,9 @@ where $x^i\colon \mathbb{R}^{d+2} \to \mathbb{R}$ denote the canonical [[coordin
 
 * [[AdS/CFT correspondence]]
 
+## Related concepts
+
+* [[anti de Sitter group]]
 
 ## References
 
