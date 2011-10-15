@@ -42,3 +42,4 @@ For $X$ an $n$-dimensional [[manifold]] a lift of [[generalized the|the]] classi
 
 $\cdots \to$ [[Fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ **special orthogonal group** $\to$ [[orthogonal group]].
 
+[[!include table of orthogonal groups and related]]
