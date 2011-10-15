@@ -1,15 +1,72 @@
 
 
-Supersymmetric [[CFT]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[CFT]] with [[supersymmetry]] 
 
 ## Examples
 
-* [[super WZW-model]]
+### $d = 2$
 
-* [[heterotic string]]
+* [[2d SCFT]]
+
+  * [[NSR string]]
+
+  * [[heterotic string]]
+
+### $d = 4$
+
+* [[N=4 D=4 super Yang-Mills theory]]
+
+### $d = 6$
+
+* [[6d (2,0)-superconformal QFT]]
 
 ## Applications
 
 * [[mirror symmetry]]
 
+## Related concepts
+
+* [[AdS/CFT correspondence]]
+
+
+## References
+
+### Classification
+ {#Classification}
+
+* S. Minwalla, _Restrictions imposed by superconformal invariance on quantum field theories_ Adv. Theor. Math. Phys. 2, 781 (1998)
+([arXiv:hep-th/9712074](http://arxiv.org/abs/hep-th/9712074)).
+
 [[!redirects supersymmetric conformal field theory]]
+[[!redirects superconformal field theory]]
+
+[[!redirects SCFTs]]
+[[!redirects supersymmetric conformal field theories]]
+[[!redirects superconformal field theories]]
