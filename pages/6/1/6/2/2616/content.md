@@ -239,6 +239,7 @@ In particular, an **elementary particle** in quantum physics is sometimes define
 
   * [[super Poincare Lie algebra]]
 
+[[!include table of orthogonal groups and related]]
 
 [[!redirects Poincare group]]
 [[!redirects Poincaré group]]
