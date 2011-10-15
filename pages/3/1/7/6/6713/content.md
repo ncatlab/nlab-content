@@ -1,4 +1,3 @@
-> under construction
 
 
 +-- {: .rightHandSide}
@@ -95,15 +94,14 @@ Starting with Kontsevich's [[homological algebra]] reformulation of [[homologica
 
 ## Examples
 
-* [[D0-brane]]
+In [[type IIA supergravity]]
 
-* [[D1-brane]]
+* [[D0-brane]], [[D2-brane]], [[D4-brane]].
 
-* [[D3-brane]]
+In [[type IIB supergravity]]
 
-* [[D4-brane]]
+* [[D1-brane]], [[D3-brane]], [[D5-brane]]
 
-* [[D5-brane]]
 ## Related concepts
 
 [[!include table of branes]]
