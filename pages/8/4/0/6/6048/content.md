@@ -43,4 +43,8 @@ In some situations stacks of M2-branes are accurately described by [[ABJM theory
 * [[Edward Witten]], _String Theory Dynamics In Various Dimensions_ ([arXiv](http://arxiv.org/abs/hep-th/9503124))
  {#Witten95}
 
+
+[[!redirects M2-branes]]
+
 [[!redirects M-theory membrane]]
+[[!redirects M-theory membranes]]
