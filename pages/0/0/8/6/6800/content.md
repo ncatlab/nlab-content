@@ -1,11 +1,20 @@
 
-   [[brane]]   |    in [[supergravity]]          |   has [[worldvolume]] theory
----------------|---------------------------------|----------------------------------
- [[D0-brane]]  |   [[type IIA supergravity]]     |     [[BFSS matrix model]]
- [[D1-brane]]  |   [[type IIB supergravity]]     | 2d [[CFT]] with [[BH entropy]]
- [[D3-brane]]  |   [[type IIB supergravity]]     |    [[super Yang-Mills theory]]
- [[D4-brane]]  |   [[type IIA supergravity]]     | [[Khovanov homology]] observables
- [[D5-brane]]  |   [[type IIB supergravity]]     |          ...
- [[NS5-brane]] |   [[type IIB supergravity]]     |    [[little string theory]]
- [[M2-brane]]  | [[11-dimensional supergravity]] |        [[ABJM theory]]
- [[M5-brane]]  | [[11-dimensional supergravity]] | [[6d (2,0)-superconformal QFT]]
+**Table of [[branes]] appearing in [[supergravity]]/[[string theory]]**
+
+|   [[brane]]    |    in [[supergravity]]          |[[charge]]d under [[gauge field]]|   has [[worldvolume]] theory
+|----------------|---------------------------------|---|-----------------------------------------
+|**[[D-brane]]** |[[type II supergravity|type II]]  |[[RR-field]]| [[super Yang-Mills theory]]
+|**$(D = 2n)$**  |[[type IIA supergravity|type IIA]]| $\,$ |         $\,$
+| [[D0-brane]]   |        $\,$                     | $\,$ |   [[BFSS matrix model]]
+| [[D2-brane]]   |        $\,$                     | $\,$ |      $\,$
+| [[D4-brane]]   |        $\,$                     | $\,$ | [[Khovanov homology]] observables
+|**$(D = 2n+1)$**|[[type IIB supergravity|type IIB]]| $\,$ |          $\,$
+| [[D1-brane]]   |        $\,$                     | $\,$ | 2d [[CFT]] with [[BH entropy]]
+| [[D3-brane]]   |        $\,$                     | $\,$ | [[N=4 D=4 super Yang-Mills theory]]
+| [[D5-brane]]   |        $\,$                     | $\,$ |          $\,$
+|**[[NS-brane]]**|[[supergravity|type I, II, heterotic]]|[[circle n-bundle with connection|circle n-connection]] |          $\,$
+|  [[string]]    |           $\,$                  |[[B2-field]]|  [[2d SCFT]]
+| [[NS5-brane]]  |           $\,$                  |[[B6-field]] | [[little string theory]]
+|**[[M-brane]]** |[[11-dimensional supergravity|11D]]|[[circle n-bundle with connection|circle n-connection]]|           $\,$     
+| [[M2-brane]]   |           $\,$                  |[[C3-field]]|         [[ABJM theory]]
+| [[M5-brane]]   |           $\,$                  |[[C6-field]]| [[6d (2,0)-superconformal QFT]]
