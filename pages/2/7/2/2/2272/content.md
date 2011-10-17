@@ -55,3 +55,6 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 [[!redirects Poisson structure]]
 
 [[!redirects Poisson bracket]]
+
+[[!redirects Poisson structure]]
+[[!redirects Poisson structures]]
