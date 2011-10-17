@@ -21,6 +21,8 @@
 
 ## Idea
 
+The notion of _higher algebra_ or _[[homotopical algebra]]_ refers to generalizations of [[algebra]] in the context of [[homotopy theory]] and more general of [[higher category theory]].
+
 Ordinary [[algebra]] concerns itself with [[monoid]]s [[internalization|internal to]] [[monoidal category|monoidal categories]]:
 
 * a [[monoid]] [[internalization|internal to]] [[Set]] is just an ordinary [[monoid]];
@@ -35,7 +37,7 @@ Ordinary [[algebra]] concerns itself with [[monoid]]s [[internalization|internal
 etc.
 
 
-**Higher algebra** is similarly the study of monoids internal to [[infinity-category|higher categories]].
+**Higher algebra** (or **[[homotopical algebra]]**) is similarly the study of monoids internal to [[infinity-category|higher categories]].
 
 A central motivating example example for or special case of the study of higher algebra was
 
@@ -150,7 +152,6 @@ The "higher algebra" embodied by [[commutative ring spectrum|commutative ring sp
 See also 
 
 * [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, Mathematical surveys and monographs 47, American Mathematical Society, 1997
-
 
 
 
