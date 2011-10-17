@@ -439,7 +439,7 @@ Useful related seminar notes are
 * [[Daniel Evans]], _Conformal field theory seminar notes_ ([pdf](http://math.berkeley.edu/~devans/CFT.pdf))
 
 
-### Formulation by algebra in modula tensor categories
+### Formulation by algebra in modular tensor categories
  {#FRSFormalism}
 
 For full CFT, The special case of _rational_ CFT has been essentially entirely formalized and classified. The classification result for full rational 2d CFT was given by Fjelstad--Fuchs--[[Ingo Runkel|Runkel]]--[[Christoph Schweigert|Schweigert]]
@@ -451,10 +451,14 @@ For full CFT, The special case of _rational_ CFT has been essentially entirely f
 
 
 * [[Anton Kapustin]], [[nLab:Natalia Saulina]] _Surface operators in 3d TFT and 2d Rational CFT
-_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1012.0911](http://arxiv.org/abs/1012.0911))
+ {#KapustinSaulina}
 
-* [[Liang Kong]] _Conformal field theory and a new geometry_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+* [[Liang Kong]] _Conformal field theory and a new geometry_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1107.3649](http://arxiv.org/abs/1107.3649))
+ {#Kong}
 
+
+...
 
 [[!redirects CFT]]
 [[!redirects CFTs]]
