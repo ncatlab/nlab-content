@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Conetnts#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The notion of _dg-scheme_ is a generalization of the notion of [[scheme]] to [[dg-geometry]].
+
+## Related concepts
+
+* [[dg-manifold]]
+
+* [[generalized scheme]]
+
+## References
+
+* [[Kai Behrend]], _Differential graded schemes I: prefect resolving algebras_ ([arXiv:0212225](http://arxiv.org/abs/math/0212225))
+
+* [[Kai Behrend]], _Differential Graded Schemes II: The 2-category of Differential Graded Schemes_ ([arXiv:0212226](http://arxiv.org/abs/math/0212226))
+
