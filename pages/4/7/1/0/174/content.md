@@ -161,6 +161,11 @@ The corresponding table has been called the **brane scan**
 
 ## References 
 
+### General
+
+* Joan Simon, _Brane Effective Actions, Kappa-Symmetry and Applications_ ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
+
+
 ### Boundary conditions / D-branes
 
 (...)
