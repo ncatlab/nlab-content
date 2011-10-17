@@ -242,6 +242,8 @@ $cdgAlg_k^- \hookrightarrow cdgAlg_k$ preserves this $(\infty,1)$-colimit.
 
 ## Applications
 
+* [[dg-manifold]], [[dg-scheme]]
+
 * [[Hochschild cohomology]]: section <a href="http://nlab.mathforge.org/nlab/show/Hochschild+cohomology#OvercdgAlgs">Higher order HH modeled on cdg-algebras</a>;
 
 * [[rational homotopy theory]]: [[function algebras on ∞-stacks]]
