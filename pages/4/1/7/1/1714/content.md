@@ -20,7 +20,7 @@
 
 In an $n$-[[n-category|category]], or most generally an $\infty$-[[infinity-category|category]], there are many levels of [[morphism]], parametrised by [[natural numbers]].  Those at level $k$ are called __$k$-morphisms__ or __$k$-cells__.
 
-* a 0-morphism is an [[object]]
+* a [[0-morphism]] is an [[object]]
 
 * a 1-morphism is a [[morphism]]
 
@@ -57,7 +57,7 @@ Also note that every $k$-morphism has $k + 1$ identity $(k+1)$-morphisms, which 
 
 ## Related concepts
 
-* [[object]]
+* [[object]], [[0-morphism]]
 
 * [[morphism]]
 
