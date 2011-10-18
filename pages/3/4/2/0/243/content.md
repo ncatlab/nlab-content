@@ -316,11 +316,11 @@ $$
 \coprod_c C(-,c) \times C(c,-) \,\to\, C(-,-)
 $$
 
-It is also a general fact (see e.g. [Kelly, ch. 3](#Kelly)) that weighted (co)limits are continuous in their weight: that is,
+It is also a general fact (see e.g. [Kelly, ch. 3](#Kelly)) that weighted (co)limits are cocontinuous in their weight: that is,
 $$ \{W \ast V, F\} \cong \{W, \{V-, F\}\}$$
 and
-$$ (W \ast V, G) \cong W \ast (V \ast G)$$
-This implies that $\{-,F\}$ takes the coequalizer above to an equalizer, which, after some fiddling with the [[Yoneda lemma]], turns out to be the same as (eq:endeq).
+$$ (W \ast V) \ast G \cong W \ast (V \ast G)$$
+This implies that $\{-,F\}$ takes the coequalizer above to an equalizer, which, after some fiddling with the [[Yoneda lemma]], turns out to be isomorphic to (eq:endeq).
 Similarly, $(- \ast F)$ takes the analogous coequalizer presentation of $C^{op}(-,-)$ to (eq:coendcoeq).
 
 
