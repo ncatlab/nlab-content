@@ -24,12 +24,14 @@ I\'m not sure that we really want to use the terminology that way, but Ronnie al
 
 * In his paper _On a topological topos_, Peter Johnstone described a [[Grothendieck topos]] $E$ which contains the category of [[sequential space|sequential]] topological spaces as a full reflective subcategory which is closed under many colimits (including all those used to define [[CW complex|CW complexes]]).  Since $E$ is a Grothendieck topos, it is locally presentable and locally cartesian closed.  Moreover, the [[geometric realization]] and [[singular complex]] functors form a [[geometric morphism]] between $E$ and the category of [[simplicial set|simplicial sets]].  The "underlying set" functor $E\to Set$ is not [[faithful functor|faithful]], but it is faithful on the full subcategory of [[subsequential space|subsequential spaces]], which contain the sequential spaces and form a [[quasitopos]].
 
-* One can just forget topological spaces and use the category of [[simplicial set]]s as the subject of homotopy theory.  The fact that every topological space has a simplicial set as its [[singularization]] then becomes an application of the homotopy theory of simplicial sets to the study of topological spaces, rather than a way to use simplicial sets to study the homotopy theory of topological spaces. 
-[[Jacob Lurie]] defines his $\infty$-category of spaces to be the simplicial nerve of the category (spanned by the collection) of Kan complexes.
+* One can just forget topological spaces and use the category of [[simplicial set]]s as the subject of [[homotopy theory]].  The fact that every topological space has a simplicial set as its [[singularization]] then becomes an application of the homotopy theory of simplicial sets to the study of topological spaces, rather than a way to use simplicial sets to study the homotopy theory of topological spaces. 
 
-#References#
+  For more on this see _[[Top]]_, _[[homotopy theory]]_ and [[infinity-groupoid]].
 
-* J. P. May, _[[A Concise Course in Algebraic Topology]]_ (Chapter 5, for compactly generated spaces)
+
+## References
+
+* [[Peter May]], _[[A Concise Course in Algebraic Topology]]_ (Chapter 5, for compactly generated spaces)
 
 * O. Wyler, _Convenient categories for topology_
 
