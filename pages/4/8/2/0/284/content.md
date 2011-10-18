@@ -275,6 +275,10 @@ The presentation of $(\infty,1)$-categories by [[homotopical categories]] and [[
   [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
 and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
 
+A survey with an eye towards [[higher algebra]] is in 
+
+* [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](http://www.math.uni-bonn.de/~mgroth/InfinityCategories.pdf))
+
 
 [[!redirects (∞,1)-category]]
 [[!redirects (∞,1)-categories]]
