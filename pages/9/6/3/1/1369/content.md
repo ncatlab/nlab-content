@@ -237,6 +237,11 @@ The general notion of an $\mathcal{O}$-monoidal $(\infty,1)$-category is around 
 * [[Jacob Lurie]], _[[Higher Algebra]]_ .
  {#Lurie}
 
+An introductory survey is in
+
+* [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](http://www.math.uni-bonn.de/~mgroth/InfinityCategories.pdf))
+
+
 [[!redirects monoidal (infinity,1)-categories]]
 [[!redirects monoidal (∞,1)-category]]
 [[!redirects monoidal (∞,1)-categories]]
