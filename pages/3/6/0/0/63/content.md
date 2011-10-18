@@ -39,11 +39,16 @@ The generators of the BRST complex are called
 
 ### Gauge theory of a Lie algebra valued connection
 
-We discuss the BRST complex for a field theory such as [[Yang-Mills theory]] or [[Chern-Simons theory]] whose [[configuration space]] is one of [[connection on a bundle|connections]] on $G$-[[principal bundles]] for some [[Lie group]] $G$ -- the _[[gauge group]]_ . For simplicity of the exposition we first restrict attention to the cases where the underlying bundles are trivial. 
+We discuss the BRST complex for a field theory such as [[Yang-Mills theory]] or [[Chern-Simons theory]] whose [[configuration space]] is one of [[connection on a bundle|connections]] on $G$-[[principal bundles]] for some [[Lie group]] $G$ -- the _[[gauge group]]_ . 
+
+
+#### The BRST complex
+
+For simplicity of the exposition we first restrict attention to the cases where the underlying bundles are trivial. 
 
 In that case, over a [[smooth manifold]] $X$, 
 
-* a field configuration is a [[differential form]] $A$ on $X$ with values in the [[Lie algebra]] $\mathfrak{g}$ of $G$
+* a field configuration is a [[differential form]] $A$ on $X$ with values in the [[Lie algebra]] $\mathfrak{g}$ of $G$, 
 
   $$
     A \in \Omega^1(X, \mathfrak{g})
@@ -114,7 +119,7 @@ The general kind of functions on the configuration space and on the space of gau
 
 But since the $\mathbf{c}^a(x)$ are functions on gauge transformations, which are [[1-morphism]]s in the [[groupoid of Lie algebra valued forms]], while the $\mathbf{A}^a(x)$ are functions on ordinary elements of this groupoid ([[0-morphisms]]) we declare them to be in degree 1, too. 
 
-(Fundamentally what is going in here is that we form [[function algebras on infinity-stacks]], as described there in more detail.)
+( Fundamentally what is going in here is that we form "[[function algebras on ∞-stacks]]" where the [[∞-stack]] in question is the [[action Lie algebroid]] $\Omega^1(X,\mathfrak{g})//\Omega^0(X, \mathfrak{g})$). 
 
 In other words, we regard the smooth functions on field configurations and on gauge transformations as forming a $\mathbb{N}$-[[graded algebra]], where
 
@@ -157,31 +162,94 @@ $$
 
 This operation $d_{BRST}$ of "shifting functionals of fields and gauge transformations by infinitesimal gauge transformations" promotes the [[graded algebra]] constructed so far to a [[differential graded algebra]]. This is the BRST-complex of the given system.
 
-In a precise sense, this differential graded algebra, encodes the infinitesimal [[groupoid of Lie algebra valued 1-forms]] that it is an algebra of functions on in the same way that an algebra of functions on some manifold characterizes that manifold.
+In a precise sense, this differential graded algebra, encodes the [[Lie algebroid|infinitesimal]] [[groupoid of Lie algebra valued 1-forms]] that it is an algebra of functions on in the same way that an algebra of functions on some manifold characterizes that manifold.
 
-Using this, we can now discuss [[observable]]s on the configurations of the gauge theory in question. 
+#### Observables
 
-First notice that if we had no gauge transformations, then configuration space were an ordinary manifold $X$, and an observable were simply a function on that
+Using the above discussion, we can now deduce the [[observable]]s on the configurations of the gauge theory in question. 
 
-$$
-  X \to \mathbb{R}
-  \,,
-$$
-
-namely an assignment of a number to each field configuration (say the energy or momentum, assigned to each field configuration).
-
-Similarly now an observable on the gauge system is a morphism
+First notice that if we had no gauge transformations, then configuration space would be an ordinary manifold $X$, and an observable would be simply a function 
 
 $$
+  O : X \to \mathbb{R}
+$$
+
+on that space namely an assignment of a number to each field configuration (say the energy or momentum, assigned to each field configuration).
+
+In the case at hand now the configuration space is not quite the manifold $\Omega^1(X, \mathfrak{g})$, but is that manifold equipped with the information of the infinitesimal gauge transformations in $\Omega^0(X,\mathfrak{g})$. One way to say this is that the confguration space now is the [[action Lie algebroid]] $\Omega^1(X,\mathfrak{g})//\Omega^0(X, \mathfrak{g})$ and that an observable is hence a function
+
+$$
+  O
+  :
   \Omega^1(X, \mathfrak{g})//\Omega^0(X,\mathfrak{g})
   \to 
   \mathbb{R}
   \,.
 $$
 
-We find that such morphism are precisely those functions $\Omega^1(X, \mathfrak{g}) \to \mathbb{R}$ which are gauge invariant.
+One can understand what this means in terms of [[functor]]s between [[groupoids]]. But the BRST complex provides an algebraic way of talking about this situation, and this is what we look at here.
 
-(...)
+So we need to formulate these maps between generalized manifolds algebraically. This is straightforward for the familiar case of manifolds:
+
+any [[smooth function]] of smooth manifolds $f : X \to Y$ induces [[Isbell duality|dually]] a [[homomorphism]] of their algebras of smooth functions, which goes the other way round 
+
+$$
+  f^* : C^\infty(Y) \to C^\infty(X)
+  \,.
+$$
+
+And in fact such a morphism of algebras characterizes the smooth function that it comes from. Therefore we can speak of morphisms of manifolds dually in terms of their algebras of functions. An observable on some configuration manifold $X$ is therefore equivalently an algebra homomorphism
+
+$$
+  C^\infty(X) \leftarrow C^\infty(\mathbb{R}) : O^*
+  \,.
+$$
+
+This may be most familiar from [[algebraic geometry]], where one considers bare rings of functions, without any smooth structure. For the application to physics we usually want to keep track of the smooth structure. This works seamlessly if we simply replace the notion of _algebra_ by that of _[[smooth algebra]]_ . 
+
+In any case, we can now grasp the way in which the configuration space of a gauge theory is not an ordinary manifold in terms of its dual function algebra: the BRST complex that we have described above is the function algebra on that configuration space, but it is not a plain algebra (or [[smooth algebra]]), but in fact a [[dg-algebra]], in that it carries a gradining and a differential. One therefore also says that the configuration space of a gauge theory is a _[[dg-manifold]]_ .
+
+Therefore, if we write $C^\infty(\Omega^1(X, \mathfrak{g})//\Omega^0(X, \mathfrak{g}))$ for our BRST complex, we find that an observable now is a homomorphism
+
+$$
+C^\infty(\Omega^1(X, \mathfrak{g})//\Omega^0(X, \mathfrak{g}))
+  \leftarrow
+  C^\infty(\mathbb{R})
+  : 
+  O^*
+  \,.
+$$
+
+But, clearly, this is now to be regarded as a homomorphism of [[dg-algebra]]s. We may regard any ordinary algebra, such as $C^\infty(\mathbb{R})$, as a dg-algebra by taking all its elements to be in degree 0 and taking its differential to vanish (to take the value 0 on all elements).
+
+Since a homomorphism of [[dg-algebra]]s preserves the grading and intertwines the differential, this implies two things.
+
+1. The morphism $O^*$ needs to send every element of $C^\infty(\mathbb{R})$ to an element of degree-0 in our BRST complex. As we have seen, these elements of degree 0 formed the algebra of functions $C^\infty(\Omega^1(X,\mathfrak{g}))$. So underlying the dg-algebra homomorphism $O^*$ is an ordinary algebra homomorphism $C^\infty(\mathbb{R}) \to C^\infty(\Omega^1(X,\mathfrak{g}))$. By duality, this is equivalently simply a single element
+
+   $$
+     O := O^*(id) \in C^\infty(\Omega^1(X,\mathfrak{g}))
+     \,,
+   $$  
+
+   namely the image of the identity function. 
+
+1. This morphism of algebras found this way still needs to respect the differentials in order to qualify as a homomorphism of dg-algebras. Since the differential of $C^\infty(\mathbb{R})$ vanishes, this gives the condition
+
+   $$
+     \begin{aligned}  
+       d_{BRST} O & :=
+       d_{BRST} O^*(id)
+       \\
+       & = O^*(d_{C^\infty(\mathbb{R})} id)
+       \\
+       & = O^*(0)
+       \\
+       & 0
+     \end{aligned}
+     \,.
+   $$
+
+In conclusion this shows that the observables in the BRST complex are precisely the BRST-closed elements in degree 0. These are precisely those functions on the space of field configurations, which are invariant under the gauge transformations of the fields.
 
 ## Related concepts
 
@@ -197,13 +265,19 @@ And expanded on in
 
 * Wheeler-Festschrift, Klauder (ed.): _Magic without Magic_ . (1972)
 
-A canonical textbook reference on the BRST complex is chapter 8 of 
+A canonical textbook reference on the BRST complex is (chapter 8 of) 
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_
 
-Also lecture 3 of 
+Discussion with more emphasis on the applications to quantum field theory of interest is in lecture 3 of 
 
 * [[Edward Witten]], _Dynamics of Quantum Field Theory_ in vol II, starting page 1119, of [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
 [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. 
+
+The perspective on the BRST complex as a formal dual to a space in [[dg-geometry]] is relatively clearly stated in section 2 of
+
+* [[Kevin Costello]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv](http://arxiv.org/abs/0706.1533)).
+
+For more along these lines see [[BV-BRST formalism]].
 
 [[!redirects BRST complexes]]
