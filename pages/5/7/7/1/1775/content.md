@@ -274,6 +274,8 @@ $$
 
 is a [[(∞,1)-pullback]] in $C$.
 
+$A^+$ is called **Cech nerve** if the equivalent conditions of this proposition are satisfied.
+
 =--
 
 ### Effective quotients {#Effective}
