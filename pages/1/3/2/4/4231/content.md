@@ -42,5 +42,6 @@ localiser _generated_ by $\Sigma$.
 * [[Denis-Charles Cisinski]] , _Th&#233;ories homotopiques
 dans les topos_, JPAA, Volume 174 (2002), p.43-82
 
-
 * [[André Joyal]], _[[joyalscatlab:Cisinski's theory]]_
+
+* [[Rick Jardine]], _Categorical homotopy theory_ ([K-theory](http://www.math.uiuc.edu/K-theory/0669/)) 
