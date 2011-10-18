@@ -37,7 +37,7 @@ $$
 
 of [[cocycle]] [[∞-groupoid]] (with respect to any ambient [[(∞,1)-topos]] $\mathbf{H}$, such as [[Top]] $\simeq$ [[∞Grpd]]), where $\beta_2$ is the [[Bockstein homomorphism|Bockstein morphism]] asociated with the multiplication by 2.
 
-The image via $\beta_2$ of the $n$-th [[Stiefel-Whitney class|Stiefel-Whitney map]] $w_n\in \mathbf{H}(X,\mathbf{B}^n\mathbb{Z}/2\mathbb{Z})$ in $\mathbf{H}(X,\mathbf{B}^{n+1}\mathbb{Z})$ is called the $(n+1)$-th **integral Stiefel-Whithey map** and is denoted by $W_{n+1}$. 
+The image via $\beta_2$ of the $n$-th [[Stiefel-Whitney class|Stiefel-Whitney map]] $w_n\in \mathbf{H}(X,\mathbf{B}^n\mathbb{Z}/2\mathbb{Z})$ in $\mathbf{H}(X,\mathbf{B}^{n+1}\mathbb{Z})$ is called the $(n+1)$st **integral Stiefel-Whithey map** and is denoted by $W_{n+1}$. 
 
 One usually uses the same symbol to denote the image of this characteristic map in [[cohomology]] (on [[0-truncated|connected components]] ) of $W_{n+1}$ in $H^{n+1}(X;\mathbb{Z})=\pi_0\mathbf{H}(X,\mathbf{B}^{n+1}\mathbb{Z})$, and calls this the $(n+1)$-th **integral Stiefel-Whitney class**.
 
@@ -52,8 +52,8 @@ $$
   \,.
 $$
 
-Since $H^2(X;\mathbb{Z})$ classifies [[isomorphism classes]] of $U(1)$-[[principal bundles]] over $X$ and $W_3(E)$ is the obstruction to the existence of a [[spin^c structure]] on $X$, we see that $X$ has a $spin^c$ structure if and only if there exists a principal $U(1)$-bundle on $X$ "killing" the second Stiefel-Whitney class of $X$. 
+Since $H^2(X;\mathbb{Z})$ classifies [[isomorphism classes]] of $U(1)$-[[principal bundles]] over $X$ and $W_3(T X)$ is the obstruction to the existence of a [[spin^c structure]] on $X$, we see that $X$ has a $spin^c$ structure if and only if there exists a principal $U(1)$-bundle on $X$ "killing" the second Stiefel-Whitney class of $X$. 
 
-In particular, when $w_2(T X)$ is killed by the trivial $U(1)$-bundle, i.e., when $w_2(T X)=0$, $X$ has a [[spin structure]].
+In particular, when $w_2(T X)$ is killed by the trivial $U(1)$-bundle, i.e., when $w_2(T X)=0$, then $X$ has a [[spin structure]].
 
 [[!redirects integral Stiefel-Whitney classes]]
