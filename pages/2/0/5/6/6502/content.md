@@ -37,7 +37,7 @@ Let $G$ be a [[Lie group]] and $H \hookrightarrow G$  a sub-Lie group. (So that 
 
 A $(H \hookrightarrow G)$-Cartan connection over a [[smooth manifold]] $X$ is;
 
-* a $G$-[[principal connection]] $\nabla$ on $X$;
+* a $G$-[[affine connection]] $\nabla$ on $X$;
 
 * such that 
 
