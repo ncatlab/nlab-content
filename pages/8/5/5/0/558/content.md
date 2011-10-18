@@ -129,7 +129,7 @@ where the [[left adjoint]] $|-|$ is [[geometric realization]] and the [[right ad
 
 This induces an [[equivalence of (∞,1)-categories]] of the corresponding [[presentable (infinity,1)-category|presented]] [[(∞,1)-categories]] 
 
-* [[Top]] \simeq [[∞Grpd]]
+* [[Top]] $\simeq$ [[∞Grpd]]
 
 =--
 
