@@ -55,7 +55,7 @@ More generally, one may think of a monoidal category as a [[bicategory]] with a 
 
 Let $V$ be a [[monoidal category]] with
 
-* tensor product $\otimes : C \times C \to C$;
+* tensor product $\otimes : V \times V \to V$;
 
 * tensor unit $I \in Obj(V)$;
 
