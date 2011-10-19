@@ -238,9 +238,15 @@ In $\mathbb{R}^n$ the distributions and generalized functions boil down to the s
 
 More generally one can study generalized differential $k$-forms in local coordinates they look like $\sum f_\alpha dx^{\alpha_1}\wedge \cdot \wedge dx^{\alpha_k}$. Usually they are called **currents**. They are useful e.g. in the study of higher dimensional residua in higher dimensional complex geometry (cf. *Principles of algebraic geometry* by Griffiths and Harris) and in geometric measure theory (cf. the monograph by Federer).  
 
-Sometimes one considers larger spaces of distributions, where worse singularities than in Schwarz theory are allowed. Most well known are the theory of [[hyperfunction]]s and the theory of **Coulombeau distributions**. Distributions can be alterantively described using [[nonstandard analysis]], see there. 
+Sometimes one considers larger spaces of distributions, where worse singularities than in Schwarz theory are allowed. Most well known are the theory of [[hyperfunction]]s and the theory of **Coulombeau distributions**. 
+
+#### Distributions from nonstandard analysis
+
+Distributions can be alterantively described using [[nonstandard analysis]], see there. 
 
 ## Literature
+
+See also [[hyperfunction]] and references therein.
 
 * [[I. M. Gel'fand]], G.E. Shilov, _Generalized functions_, 1&#8211;5 , Acad. Press  (1966&#8211;1968) transl. from &#1048;. &#1052;. &#1043;&#1077;&#1083;&#1100;&#1092;&#1072;&#1085;&#1076;, &#1043;. &#1045;. &#1064;&#1080;&#1083;&#1086;&#1074; &#1054;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080;, &#1074;&#1099;&#1087;. 1-3, &#1052;.:&#1060;&#1080;&#1079;&#1084;&#1072;&#1090;&#1075;&#1080;&#1079;, 1958; 1: &#1054;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080; &#1080; &#1076;&#1077;&#1081;&#1089;&#1090;&#1074;&#1080;&#1103; &#1085;&#1072;&#1076; &#1085;&#1080;&#1084;&#1080;, 2: &#1055;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1089;&#1090;&#1074;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1085;&#1099;&#1093; &#1086;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1093; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1081;, 3: &#1053;&#1077;&#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1074;&#1086;&#1087;&#1088;&#1086;&#1089;&#1099; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1076;&#1080;&#1092;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1091;&#1088;&#1072;&#1074;&#1085;&#1077;&#1085;&#1080;&#1081;
 * V. S. Vladimirov, _Generalized functions in mathematical physics_. Moskva, Nauka 1980, Mir 1979; _Equations of mathematical physics_, Mir 1984
@@ -249,6 +255,14 @@ Sometimes one considers larger spaces of distributions, where worse singularitie
 * Anders Kock, _Commutative monads as a theory of distributions_, [arxiv/1108.5952](http://arxiv.org/abs/1108.5952)
 * Springer online eom: [generalized function](http://eom.springer.de/g/g043810.htm)
 * N. N. Bogolyubov, A. A. Logunov, I.T. Todorov, _Introduction to axiomatic quantum field theory_, Benjamin  (1975)
+* M. Kunzinger, R. Steinbauer, _Foundations of a nonlinear distributional geometry_, Acta Appl. Math. __71__, 179-206 (2002)
+* M. Grosser, E. Farkas, M. Kunzinger, R. Steinbauer, _On the foundations of nonlinear generalized functions I, II_, Mem. Amer. Math. Soc. __153__ (2001)
+
+#### Literature on Colombeau's functions
+
+* J. F. Colombeau, _New generalized functions and multiplications of distributions_, North Holland, Amsterdam (1984); _Elementary introduction in new generalized functions_, North Holland (1985)
+* N. Djapi&#263;, S. Pilipovi&#263;, _Microlocal analysis of Colombeau's generalized functions on a manifold_, Indag. Math. N.S. 7, 293&#8211;309 (1996)
+* Stevan Pilipovi&#263;, Milica &#381;igi&#263;, _Suppleness of the sheaf of algebras of generalized functions on manifolds_, J. Math. Anal. Appl. __379__:2 (2011) 482&#8211;486, [arxiv/1101.4552](http://arxiv.org/abs/1101.4552), [MR2784335](http://www.ams.org/mathscinet-getitem?mr=2784335), [doi](http://dx.doi.org/10.1016/j.jmaa.2010.12.060)
 
 [[!redirects distributions]]
 [[!redirects generalized function]]
