@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+This page lists some (online) resources for the topic of [[physics]].
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Online question-and-answers
+
+* [Physics.Stack exchange](http://physics.stackexchange.com/)
+
+  basic physics
+
+* [Theoretical Physics.Stack Exchange](http://theoreticalphysics.stackexchange.com/)
+
+  research-level theoretical physics
+
+
+## Related entries 
+
+* [[mathematics resources]]
+
+* **physics resources**
+
+* [[philosophy resources]]
