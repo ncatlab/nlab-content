@@ -26,12 +26,32 @@ The [[target space]] spectrum of the [[string]] [[sigma-model]] contains  beyond
 
 ### General
 
+Original articles include
+
 * [[Mikhail Vasiliev]], _Higher-Spin Gauge Theories in Four, Three and Two Dimensions_ ([arXiv:hep-th/9611024](http://arxiv.org/abs/hep-th/9611024))
+
+Reviews and lecture notes include
 
 * [[Mikhail Vasiliev]], _Higher Spin Gauge Theories in Various Dimensions_ 27th Johns Hopkins Workshop on Current Problems in Particle Theory: Symmetries and Mysteries of M Theory ([pdf](http://www.pha.jhu.edu/events/jhworkshop/goteborg03/vasiliev.pdf))
  {#Vasiliev}
 
 * [[Mikhail Vasiliev]], _Higher spin gauge theories in any dimension_ talk at String2004 in Moscow ([pdf](http://strings04.lpthe.jussieu.fr/talks/Vasiliev.pdf))
+
+* R. Argurio, [[Glenn Barnich]], G. Bonelli, M. Grigoriev (eds.) _Higher spin gauge theories_ Solvay Workshops and Symposia  (2004) ([pdf](http://www.ulb.ac.be/sciences/ptm/pmif/Solvay1proc.pdf))
+
+Further developments include for instance
+
+* Johan Engquist, Olaf Hohm, _Geometry and dynamics of higher-spin frame fields_ ([arXiv:0708.1391](http://arxiv.org/abs/0708.1391))
+
+### Higher spin Chern-Simons theory
+
+[[Chern-Simons theory]] for higher spin fields is discussed in 
+
+* M P Blencowe, _A consistent interacting massless higher-spin field theory in $D=2+1$_ Classical and quantum gravity, volume 6 no 4 (1998)
+
+* E. S. Fradkin,  V. Ya. Linetsky, _a Superconformal Theory of Massless Higher Spin Fields in D=2+1_ ([web](http://adsabs.harvard.edu/abs/1989MPLA....4..731F))
+
+* Johan Engquist, Olaf Hohm, _Higher-spin Chern-Simons theories in odd dimensions_ ([arXiv:0705.3714](http://arxiv.org/abs/0705.3714))
 
 ### Relation to holography
 
@@ -40,5 +60,7 @@ We list references that discuss the relation of higher spin gauge theory to the 
 * Simone Giombi, Xi Yin, _Higher Spin Gauge Theory and Holography: The Three-Point Functions_ ([arXiv:0912.3462](http://arxiv.org/abs/0912.3462))
 
 * Simone Giombi, Xi Yin, _Higher Spins in AdS and Twistorial Holography_ ([arXiv:1004.3736](http://arxiv.org/abs/1004.3736))
+
+
 
 [[!redirects higher spin gauge theories]]
