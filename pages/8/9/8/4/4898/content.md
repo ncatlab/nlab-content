@@ -10,6 +10,8 @@
 =--
 
 
+
+
 We keep lists:
 
 * [[math blogs]] -- list of online communities like blogs and wikis ("Online Resources")
@@ -20,6 +22,19 @@ We keep lists:
 Main other lists are:
 
 * [Math on the Web](http://www.mathontheweb.org/mathweb/index.html) -- links maintained by American Mathematical Society
-* [MathOverflow](http://mathoverflow.net) question: [mathematical resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web)
+* [MathOverflow](http://mathoverflow.net) question: [mathematical resources on the 
+web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web)
+
+
+## Related entries 
+
+* **mathematics resources**
+
+* [[physics resources]]
+
+* [[philosophy resources]]
+
+
 
 [[!redirects mathematical resources]]
+[[!redirects mathematics resources]]
