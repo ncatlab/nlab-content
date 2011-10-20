@@ -12,7 +12,7 @@ We should limit to books which we can really recommend, either by their special 
 * Joe Harris, _Introductory algebraic geometry_ (varieties) 
 * Igor Shafarevich, _Basic algebraic geometry_ (varieties and schemes)
 * Shigeru Mukai, _An introduction to invariants and moduli_, Cambridge Studies in Adv. Math. __81__ 
-
+* William Fulton, _Algebraic curves. An introduction to algebraic geometry_, 3rd ed. 2008 (varieties)
 
 ## Schemes, standard sources
 
