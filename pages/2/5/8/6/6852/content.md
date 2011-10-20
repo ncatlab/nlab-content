@@ -1,0 +1,9 @@
+The entry [[distribution]] is about the notion of generalized function or generalized density. In [[differential geometry]] there is another notion of distribution which is discussed here.
+
+A __real distribution__ on a real smooth manifold $M$ is a [[vector bundle|vector subbundle]] of the [[tangent bundle]] $T M$. A __complex distribution__ is a complex vector subbundle of the complexified tangent space $T_{\mathbf{C}}M$ of $M$. A __distribution of hyperplanes__ is a distribution of codimension $1$ in $T M$; a __distribution of complex hyperplanes__ is a distribution of complex codimension $1$ in $T_{\mathbf{C}} M$. 
+
+One class of examples come from smooth [[foliation]]s by submanifolds of constant dimension $m\lt n$. Then the [[tangent vector]]s at all points to the submanifolds forming the foliation form a distribution of subspaces of dimension $m$. The distributions of that form are said to be __integrable__. 
+
+_say something about Frobenius theorem_
+
+* N. M. J. Woodhouse, _Geometric quantization_
