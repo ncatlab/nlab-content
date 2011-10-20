@@ -51,7 +51,7 @@ For a [[Courant algebroid]] $(\mathfrak{P}, \omega)$ this is called the _Courant
 
 The action functional was first deduced in
 
-* Noriaki Ikeda, _Chern-Simons Gauge Theory coupled with BF Theory_ Int. J. Mod. Phys. A18 (2003) 2689-2702 ([arXiv:hep-th/0203043](http://arxiv.org/abs/hep-th/0203043))
+* [[Noriaki Ikeda]], _Chern-Simons Gauge Theory coupled with BF Theory_ Int. J. Mod. Phys. A18 (2003) 2689-2702 ([arXiv:hep-th/0203043](http://arxiv.org/abs/hep-th/0203043))
 
 As an example of an [[AKSZ sigma-model]] it was later re-derived in
 
@@ -59,7 +59,7 @@ As an example of an [[AKSZ sigma-model]] it was later re-derived in
 
 Further discussion is in 
 
-* [[Alberto Cattaneo]], [[Jian Qiu]], [[Maxim Zabzine]], _2D and 3D topological field theories for generalized complex geometry_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/GC_BV.pdf))
+* [[Alberto Cattaneo]], Jian Qiu, [[Maxim Zabzine]], _2D and 3D topological field theories for generalized complex geometry_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/GC_BV.pdf))
 
 The interpretation in terms of [[infinity-Chern-Weil theory]] is discussed in
 
