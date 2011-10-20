@@ -248,9 +248,9 @@ More physically oriented discussion of this is in
 
 * Katrin Becker, Aaron Bergman, _Geometric Aspects of D-branes and T-duality_ ([arXiv:0908.2249](http://arxiv.org/abs/0908.2249))
 
-Geometric T-duality is identified as an [[isomorphism]] of [[standard Courant algebroid]]s in section 4 of
+Geometric T-duality is identified as an [[isomorphism]] of [[standard Courant algebroid]]s ([[generalized complex geometry]]) in section 4 of
 
-* Cavalcanti, [[Marco Gualtieri|Gualtieri]], _Generalized complex geometry and T-duality_ ([pdf](http://www.math.uu.nl/people/cavalcan/homepage/Research_files/t-duality.pdf))
+* [[Gil Cavalcanti]], [[Marco Gualtieri]], _Generalized complex geometry and T-duality_ ([arXiv:1106.1747](http://arxiv.org/abs/1106.1747))
 
 A discussion of the [[sigma-model]] description of T-duality in this context is in
 
