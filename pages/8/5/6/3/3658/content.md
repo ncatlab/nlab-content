@@ -40,13 +40,6 @@ This page is a draft, see:
 
 Note: the numbering - and indeed the actual number - of axioms varies depending on the source.  In many sources, several of the axioms below are combined.
 
-+--{: .query}
-
-[[Ian Durham]]: Can we add an axiom environment to the LaTeX template/CSS-style sheets?  According to the Instiki guide, it is supposedly relatively easy.  I just don't know how to do it on nLab.
-
-_Toby_: Just hijack another environment. See below.
-
-=--
 
 +-- {.num_defn}
 ###### Axiom
@@ -85,7 +78,10 @@ Any two field components $\phi_{i}(x)$ and $\phi_{j}(y)$ either commute or antic
 The set $D_{0}$ of finite linear combinations of vectors of the form $\phi_{i_1}(f_{1})\ldots\phi_{i_n}(f_{n})|0\rangle$ is dense in $\mathcal{H}$.
 =--
 
-## The Wightman Reconstruction Theorem
+## Properties
+
+### The Wightman Reconstruction Theorem
+
 The **vacuum expectation values** of the theory are all (tempered, by the axioms) distributions of the form 
 $$ 
 \langle0| \phi_{i_1}(f_{1})\ldots\phi_{i_n}(f_{n})|0\rangle 
@@ -93,10 +89,12 @@ $$
 The term "distribution" is used interchangably with "function" and "value" in the physics literature. The Wightman reconstruction theorem states properties that a set of tempered distributions $\{\mathcal{W}^n | n \in \N \}$ need to have to be the set of vacuum expectation values of a Wightman theory, and all such Wightman theories are then unitarily equivalent. 
 ...to be continued...
 
-## Equivalence to Euclidean Field Theory
-see [[Osterwalder–Schrader theorem]]
+### Equivalence to Euclidean Field Theory
 
-## Equivalence to the Haag--Kastler Axioms
+See [[Osterwalder–Schrader theorem]]
+
+### Equivalence to the Haag--Kastler Axioms
+
 See [[Haag–Kastler axioms]]. Since both the Wightman and the Haag-Kastler approach try to formulate an axiomatic approach to quantum field theory on Minkowski spacetime, the natural question to ask is what is their relationship? Three possible answers come to mind:
 
 * They are equivalent.
@@ -140,6 +138,7 @@ $\mathcal{M}(\mathcal{O}) := \{F(\Psi(f)) | f$ is a real test function with supp
 ## Examples
 
 ### Neutral Real (uncharged) Scalar Field
+
 A neutral real quantum scalar field on Minkowski spacetime $M$ with mass parameter $m \gt 0$ can be defined as follows:
 
 +-- {: .un_def}
@@ -191,6 +190,19 @@ $$
 \mathcal{F}{[(\Box + m) f]} = (-p^2 + m^2) f = 0 \; \text{on} \; X^+_m
 $$
 
+### Further examples
+
+The Wightman axioms have been established for the following theories.
+
+* Massive 2d scalar theories with polynomial interactions, see [this article](http://www.jstor.org/stable/1970959) by Glimm, Jaffe and Spencer.
+
+* Massive $\phi^4$ in 3d, see [this article](http://www.sciencedirect.com/science/article/pii/0003491676902232) by Feldman and Osterwalder as well as this one by Magnen and Seneor.
+
+* Massive Gross-Neveu in 2d see [this article](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104114300) by Gawedzki and Kupiainen and [this one](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104114625) by Feldman, Magnen, Rivasseau and Seneor.
+
+* Massive Thirring model, see [this article](http://dx.doi.org/10.5169/seals-114796) by Frohlich and Seiler and this more recent one by Benfatto, Falco and Mastropietro.
+
+
 ## References
 The classic reference already listed by Wikipedia is of course:
 
@@ -198,6 +210,10 @@ The classic reference already listed by Wikipedia is of course:
 
 
 Raymond Streater relates some historical background about the book and the approach [on his webpage] (http://www.mth.kcl.ac.uk/~streater/wightman.html).
+
+The list of examples above draws from
+
+* Abdesselam, _[TP.SE comment](http://theoreticalphysics.stackexchange.com/questions/308/which-qfts-were-rigorously-constructed/350#350)_
 
 [[!redirects Wightman theory]]
 [[!redirects Wightman approach]]
