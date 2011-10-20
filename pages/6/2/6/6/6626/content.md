@@ -54,7 +54,7 @@ Although usually presented as an axiom scheme, in many cases, all instances of s
 Full separation follows from the [[axiom of replacement]] and the principle of [[excluded middle]] (along with the axiom of the [[empty set]]).  Therefore, the axiom is often left out entirely of a description of [[ZFC]] (the usually accepted foundation of mathematics).  In versions of set theory for [[constructive mathematics]], however, we often have replacement but only bounded or limited separation, and in any case separation must be listed explicitly.
 
 
-category: foundation axiom
+category: foundational axiom
 
 [[!redirects axiom of separation]]
 [[!redirects axioms of separation]]
