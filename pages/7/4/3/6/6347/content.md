@@ -74,12 +74,16 @@ By a [[holographic principle]] realized in this case as [[AdS/CFT correspondence
 
 ## References
 
+### General
+
 A canonical textbook source is
 
 * [[Eric D'Hoker]], _String theory -- lecture 7: Free superstrings_ , in part 3 of
 
   [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
 [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+### Quantum anomalies
 
 Discussion of type II [[quantum anomalies]] is in 
 
@@ -90,8 +94,13 @@ Discussion of type II [[quantum anomalies]] is in
 * [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
   {#DFMII} 
 
+### Classical solutions / vacua
 
+Description of type II backgrounds in terms of [[generalized complex geometry]]/[[Courant Lie 2-algebroids]] is in 
 
+* Mariana Grana, Francesco Orsi, _N=1 vacua in Exceptional Generalized Geometry_ ([arXiv:1105.4855](http://arxiv.org/abs/1105.4855))
+
+### Holography
 
 A [[holographic principle|holographic]] description of type II by [[higher dimensional Chern-Simons theory]] is discussed in
 
