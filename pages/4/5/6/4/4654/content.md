@@ -1,6 +1,10 @@
 
 **[[∞-Chern-Weil theory]]**
 
+[[schreiber:∞-Chern-Simons theory]]
+
+[[schreiber:∞-Wess-Zumino-Witten theory]]
+
 * [[Chern-Weil theory]]
 
 * [[∞-Chern-Weil theory introduction]]
