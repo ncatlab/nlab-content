@@ -145,9 +145,23 @@ Here are some definitions of important terms. Unfortunately they are defined usi
 
 ## References
 
+### General
+
+A comprehensive review is
+
+* A. Echeverria-Enriquez, M.C. Munoz-Lecanda, N. Roman-Roy, C. Victoria-Monge, _Mathematical Foundations of Geometric Quantization_ Extracta Math. 13 (1998) 135-238 ([arXiv:math-ph/9904008](http://arxiv.org/abs/math-ph/9904008))
+
+A brief review is
+
+* William Gordon Ritter, _Geometric Quantization_ ([arXiv:math-ph/0208008](http://arxiv.org/abs/math-ph/0208008))
+
 The above "Overview" and "Basic Jargon" sections are taken from 
 
 * [[John Baez]], _Geometric Quantization_ ([web](http://math.ucr.edu/home/baez/quantization.html))
+
+
+### Refinements
+
 
 References on [[geometric quantization of symplectic groupoids]] are
 
