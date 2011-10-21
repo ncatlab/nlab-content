@@ -1,5 +1,9 @@
 
+[[∞-Chern-Weil theory]]
+
 **[[schreiber:∞-Chern-Simons theory]]**
+
+[[schreiber:∞-Wess-Zumino-Witten theory]]
 
 ## Ingredients
 
