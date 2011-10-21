@@ -23,7 +23,7 @@ Corecursion exploits the existence of a morphism from a [[coalgebra for an endof
 
    where $pred(x)$ is as defined at [[extended natural number]].
 
-   This makes $\bar{\mathbb{N}} \times \bar{\mathbb{N}}$ into an $H$-coalgebra. The unique arrow to the terminal coalgebra defines addition on the natural numbers extended with $\infty$.
+   Then $(\bar{\mathbb{N}} \times \bar{\mathbb{N}}, add)$ is an $H$-coalgebra. The unique coalgebra morphism ${+}\colon \bar{\mathbb{N}} \times \bar{\mathbb{N}} \to \bar{\mathbb{N}}$ (to the terminal coalgebra $\bar{\mathbb{N}}$) is addition on the extended natural numbers.
 
 
 ## Reference
