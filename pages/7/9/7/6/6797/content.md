@@ -43,6 +43,10 @@ Further developments include for instance
 
 * Johan Engquist, Olaf Hohm, _Geometry and dynamics of higher-spin frame fields_ ([arXiv:0708.1391](http://arxiv.org/abs/0708.1391))
 
+### Relation to other systems
+
+* [[Marc Henneaux]], Axel Kleinschmidt, [[Hermann Nicolai]], _Higher spin gauge fields and extended Kac-Moody symmetries_ ([arXiv:1110.4460](http://arxiv.org/abs/1110.4460))
+
 ### Higher spin Chern-Simons theory
 
 [[Chern-Simons theory]] for higher spin fields is discussed in 
