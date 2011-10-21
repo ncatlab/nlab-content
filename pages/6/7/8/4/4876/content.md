@@ -28,7 +28,7 @@ The [[vertex operator algebra]]s corresponding to the WZW model are [[current al
 
 A useful account of the WZW model that encompasses both its [[action functional]] and [[path integral]] quantization as well as the [[current algebra]] aspects of the QFT is in
 
-* [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
+* [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
 
 This starts in section 2 as a warmup with describing the 1d QFT of a particle propagating on a group manifold. Thee [[Hilbert space]] of [[state]]s is expressed in terms of the [[Lie theory]] of $G$ and its [[Lie algebra]] $\mathfrak{g}$.
 
