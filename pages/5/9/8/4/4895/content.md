@@ -362,3 +362,5 @@ An identification of boundary conditions and [[QFT with defects|defects]] as [[n
 See [[holographic principle of higher category theory]] for more on this.
 
 [[!redirects holographic duality]]
+
+[[!redirects holography]]
