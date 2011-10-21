@@ -1,0 +1,3 @@
+__Elementary functions__ are the functions of one complex variable obtained from identical function $x$, (possibly fractional) power function $x^\gamma$, trigonometric functions, exponential function and logarithmic function by the algebraic operations (addition, subtraction, multiplication, division) and composition. Elementary functions form a well-defined class. Some of them are multivalued and have singular points (e.g. the square root $x^{1/2}$ has a branch point at the origin).
+
+Functions of a complex variable which are not elementary are sometimes called transcendental. 
