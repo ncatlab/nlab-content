@@ -39,7 +39,7 @@ A **$V$-enriched model category** is
 
 * such that for every cofibration $i : A \to B$ and every fibration $p : X \to Y$ in $C_0$ the morphism in $V$ $C(B,X) \stackrel{i^* \times p_*}{\to} C(A,X) \times_{C(A,Y)} C(B,Y)$ is a fibration with respect to the model structure on $V$;
 
-* and such that this fibration is an acyclic fibration whenever either $i$ or $p$ are acyclic.
+* and such that this fibration is an [[acyclic fibration]] whenever either $i$ or $p$ are acyclic.
 
 The last two conditions here are equivalent to the fact that the [[copower]]
 
