@@ -35,6 +35,8 @@ So conformal blocks are something like "precorrelators" or "potential correlator
 
 ### For higher dimensional CFT
 
+Conformal blocks for [[self-dual higher gauge theory]] are discussed in
+
 * [[Kiyonori Gomi]], _An analogue of the space of conformal blocks in $(4k+2)$-dimensions_ ([pdf](http://www.math.kyoto-u.ac.jp/~kgomi/papers/acb.pdf))
 
 [[!redirects conformal blocks]]
