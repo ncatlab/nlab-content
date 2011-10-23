@@ -1,4 +1,3 @@
-
 > under construction -- am being interrupted...
 
 #Contents#
@@ -38,6 +37,12 @@ An extension of the equivalence to morphisms is discussed in
 
 * [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid I_ , Trans. Amer. Math. Soc. Volume 310, Number 2, (1988)
 
+The above equivalence of categories can in fact be lifted
+to an equivalence between
+the bicategory of localic groupoids, complete flat bispaces, and their morphisms and
+the bicategory of Grothendieck toposes, geometric morphisms, and natural transformations.
+The equivalence is implemented by the classifying topos functor,
+as explained in
 
-
-
+* [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid II_, 
+Cahiers de topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques 31, no.&#160;2 (1990), 137&#8211;168.
