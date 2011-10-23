@@ -84,6 +84,11 @@ The formulation of (3) above is still not manifestly coordinate indepdendent.  H
 A large class of examples of action functionals arises in [[schreiber:∞-Chern-Simons theory]]. See there for details.
 
 
+## Related concepts
+
+* [[effective action functional]]
+
+
 [[!redirects action functionals]]
 
 [[!redirects local action functional]]
