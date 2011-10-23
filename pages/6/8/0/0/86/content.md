@@ -400,9 +400,9 @@ The main point of the Lagrangian BV construction is that this resolution natural
 
 ### As a derived critical locus
 
-In ([CostelloGwilliam](#CostelloGwilliam)) it is obsserved that the BV-complex ought to play the role of the [[critical locus]] of the [[action functional]] as seen in [[derived geometry]].
+In ([CostelloGwilliam](#CostelloGwilliam)) it is observed that the BV-complex ought to play the role of the [[critical locus]] of the [[action functional]] as seen in [[derived geometry]].
 
-Some details on this are currently at [[schreiber:derived critical locus]].
+See _[[derived critical locus]]_ .
 
 
 ### Poincare duality on Hochschild (co)homology
