@@ -163,6 +163,10 @@ commutes, where $\sigma$ denotes the symmetry isomorphism in $sAb$ and $Ch_\bull
 
 * **Eilenberg-Zilber map**
 
+In the context of  filtered spaces $X_*, Y_*$ and their associated fundamental crossed complexes $\Pi X_*, \Pi Y_*$ there is a natural  Eilenberg-Zilber morphism  
+$$\eta: \Pi X_* \otimes \Pi Y_* \to \Pi (X_* \otimes Y_*)$$
+which is difficult to define directly because of the complications of the tensor product of crossed complexes,  but has a direct definition in terms of the associated cubical homotopy $\omega$--groupoids. For more on this, see the book [[Nonabelian Algebraic Topology]] p. 533. 
+
 ## References
 
 The Eilenberg-Zilber map was introduced in (5.3) of 
@@ -174,7 +178,7 @@ See also 29.7 of
 * [[Peter May]], _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, Chicago, (1967) ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
 {#May}
 
-* A.P. Tonks, _On the Eilenberg-Zilber theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220, 
+* [[Andy Tonks|A.P. Tonks]], _On the Eilenberg-Zilber Theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220, 
 
 and section 11.2 of
 
