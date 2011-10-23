@@ -1,6 +1,24 @@
-* [[Gabriele Vezzosi]], _Derived critical loci I - Basics_, [arxiv/1109.5213](http://arxiv.org/abs/1109.5213)
 
-* [[Urs Schreiber]]: _[[schreiber:derived critical locus]]_ Seminar notes, March 2011
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The refinement of the notion of [[critical locus]] from [[geometry]] to [[derived geometry]].
+
+The formal duals to derived critical loci are described by [[BV-BRST formalism]].
+
+
+## References
 
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory -- Derived critical locus_ ([web](http://math.northwestern.edu/~costello/factorization_public.html#[[Derived%20critical%20locus]])) 
 {#CostelloGwilliam}
+
+* [[Urs Schreiber]]: _[[schreiber:derived critical locus]]_ Seminar notes, March 2011
+
+* [[Gabriele Vezzosi]], _Derived critical loci I - Basics_, [arxiv/1109.5213](http://arxiv.org/abs/1109.5213)
+
+* [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimension 2 and 4_ ([pdf](http://www.math.northwestern.edu/~costello/sullivan.pdf))
+
+[[!redirects derived critical loci]]
