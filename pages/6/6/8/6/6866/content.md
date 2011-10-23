@@ -1,0 +1,51 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Variational calculus
++--{: .hide}
+[[!include variational calculus - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
+
+In the context of [[quantum field theory]] an *effective action* is an object obtained from a more fundamental [[action functional]] by "averaging out" the dependency on certain variables.
+
+There are two different notions of effective action
+
+1. The _one-particle irreducible action_ ("1PI action");
+
+1. The _Wilsonian effective action_ of [[effective quantum field theory]].
+
+### 1PI action
+
+(...)
+
+### Wilsonian effective action
+
+(...)
+
+## References
+
+A discussion (with an eye towards [[supersymmetric quantum field theory]] and [[Seiberg duality]]) is in  section 2.1 of 
+
+* Flip Tanedo, _Notes on Seibergology_ ([pdf](http://www.lns.cornell.edu/~pt267/files/notes/Seibergology.pdf))
+
+[[!redirects effective actions]]
+
+[[!redirects 1PI action]]
+[[!redirects 1PI actions]]
+
+[[!redirects 1PI action]]
+[[!redirects effective action]]
