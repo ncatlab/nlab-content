@@ -1,7 +1,11 @@
-[[!redirects gamma function]]
+
+# The $\Gamma$ function
+* table of contents
+{: toc}
+
 ## Idea and Definition 
 
-[[Euler]] solved the problem of finding a function of a continuous variable $x$ which for integer values of $x=n$ agrees with the factoriel function $n\mapsto n!$. In fact, gamma function is a shift by one of the solution of this problem.
+[[Leonhard Euler]] solved the problem of finding a function of a continuous variable $x$ which for integer values of $x=n$ agrees with the factoriel function $n\mapsto n!$. In fact, gamma function is a shift by one of the solution of this problem.
 
 For a complex variable $x\neq -1,-2,\ldots$, we define $\Gamma(x)$ by the formula 
 
@@ -34,7 +38,7 @@ $$\Gamma(x)\Gamma(1-x) = \frac{\pi}{\sin(\pi x)}.$$
 Quite remarkably, the Gamma function (this time as a function of a real variable) is uniquely characterized in the following theorem: 
 
 +-- {: .un_thm}
-######Theorem (Bohr-Mollerup) 
+###### Theorem (Bohr-Mollerup) 
 The restriction of the Gamma function to the interval $(0, \infty)$ is the unique function $f$ such that $f(x+1) = x f(x)$, $f(1) = 1$, and $\log f$ is convex. 
 =-- 
 
@@ -47,6 +51,11 @@ where $\gamma$ is [[Euler's constant]].
 * Integral representation: 
 $$\Gamma(x) = \int_{0}^{\infty} t^x e^{-t} \frac{d t}{t}.$$ 
 
+
 ## References 
 
 * George Andrews, Richard Askey, Ranjan Roy, _Special Functions_. Encyclopedia of Mathematics and Its Applications 71, Cambridge University Press, 1999. 
+
+
+[[!redirects gamma function]]
+[[!redirects Gamma function]]
