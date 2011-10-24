@@ -1,7 +1,7 @@
 
 
 
-John Roberts is a [[mathematical physicist]] who works on the mathematical foundations of [[quantum mechanics]] and [[quantum field theory]].
+John Roberts is a [[mathematical physicist]] who works on the mathematical foundations of [[quantum mechanics]] and [[quantum field theory]] in terms of [[AQFT]].
 
 #Contents#
 * table of contents
