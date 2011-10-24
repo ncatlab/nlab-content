@@ -101,6 +101,8 @@ Transportable endomorphisms naturally form the objects of a category, the [[DHR 
 
 ## Properties ##
 
+### General
+
 +-- {: .un_theorem}
 ###### Theorem
 
@@ -149,6 +151,10 @@ Let $\rho_1, \rho_2$ be transportable endomorphisms localized in $K_1, K_2$ resp
 =--
 
 Note that the product of equivalenc classes is well defined, and $\hat \rho_1 \hat \rho_2 = \widehat{\rho_1\rho_2}$. Therefore the theorem above implies that the product of equivalence classes is commutative.
+
+### In terms of local net cohomology
+
+The DHR superselection theory has a reformulation in terms of [[cohomology of local net of observables|cohomology of local nets of observables]]. For the moment, see there for more.
 
 ## References ##
 
