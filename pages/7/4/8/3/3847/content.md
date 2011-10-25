@@ -46,5 +46,6 @@ Canonical references on Hall algebras include the following.
 * sbseminar blog: [Hall algebras and Donaldson-Thomas invariants-i](http://sbseminar.wordpress.com/2009/03/25/hall-algebras-and-donaldson-thomas-invariants-i)
 * Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. (chap. 10: Ringel-Hall algebras) [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
 * David Hernandez, Bernard Leclerc, _Quantum Grothendieck rings and derived Hall algebras_, [arxiv/1109.0862](http://arxiv.org/abs/1109.0862)
+* Parker E. Lowrey, _The moduli stack and motivic Hall algebra for the bounded derived category_, [arxiv/1110.5117](http://arxiv.org/abs/1110.5117)
 
 [[!redirects Hall algebras]]
