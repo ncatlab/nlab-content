@@ -8,8 +8,7 @@ A Hopf algebra is a generalization of:
 
 * the [[universal enveloping algebra]] of a [[Lie algebra]]
 
-All these algebras are actually [[bialgebra|bialgebras]], but furthermore they have a 'antipode' operation which reflects or mimics the inverse operation of a group.
-
+All these algebras are actually [[bialgebra|bialgebras]], but furthermore they have a 'antipode' operation which reflects or mimics the inverse operation of a group. One important source is also [[combinatorics]], see [[combinatorial Hopf algebra]]s.
 
 #Definition#
 
@@ -102,29 +101,27 @@ Hopf algebras can be characterized among bialgebras by the fundamental theorem o
 
 For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http://en.wikipedia.org/wiki/Hopf_algebra#Formal_definition).
 
-Eiichi Abe: Hopf algebras. Cambridge UP 1980.
+* Eiichi Abe, _Hopf algebras_, Cambridge UP 1980.
 
-[[Pierre Cartier]]: A primer on Hopf algebras. IHES 2006, 81p, [pdf](http://inc.web.ihes.fr/prepub/PREPRINTS/2006/M/M-06-40.pdf)
+* [[Pierre Cartier]], A primer on Hopf algebras. IHES 2006, 81p, [pdf](http://inc.web.ihes.fr/prepub/PREPRINTS/2006/M/M-06-40.pdf)
 
-V. G. Drinfel'd, Quantum groups. Proceedings of the International Congress of Mathematicians 1986, Vol. 1, 2 798--820, AMS 1987.
+* V. G. [[Drinfel'd]], _Quantum groups_, Proceedings of the International Congress of Mathematicians 1986, Vol. 1, 2 798--820, AMS 1987, [djvu:1.3 M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf:2.5 M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.pdf)
 
-G. Hochschild, Introduction to algebraic group schemes, 1971
+* G. Hochschild, _Introduction to algebraic group schemes_, 1971
 
-S. Majid, Foundations of quantum group theory. Cambridge University Press 1995, 2000.
+* S. Majid, _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
 
-John Milnor, J. Moore: The structure of Hopf algebras.
-Annals of Math. 81 (1965), 211-264.
+* John Milnor, J. Moore, _The structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264.
 
-Susan Montgomery: Hopf algebras and their action on rings.
-AMS 1994, 240p.
+* Susan Montgomery, _Hopf algebras and their action on rings_, AMS 1994, 240p.
 
-B. Parshall, J.Wang, Quantum linear groups. Mem. Amer. Math. Soc. 89(1991), No. 439, vi+157 pp.
+* B. Parshall, J.Wang, _Quantum linear groups_, Mem. Amer. Math. Soc. 89(1991), No. 439, vi+157 pp.
 
-M. Sweedler: Hopf algebras. Benjamin 1969.
+* M. Sweedler, _Hopf algebras_, Benjamin 1969.
 
-William C. Waterhouse, Introduction to affine group schemes, Graduate Texts in Mathematics 66. Springer-Verlag, New York-Berlin, 1979. xi+164 pp.
+* William C. Waterhouse, _Introduction to affine group schemes_, Graduate Texts in Mathematics __66_, Springer 1979. xi+164 pp.
 
-# A Word of caution #
+# Caution: convention in topology#
 
 In algebraic topology, it is common to define Hopf algebras without mentioning the antipode, since in many topological cases of interest it exists automatically.  For example, this is the case if it is [[graded object|graded]] and "connected" in the sense that its degree-0 part is just the [[ground field]] (a property possessed by the homology or cohomology of any connected space).  In algebraic topology also the strict coassociativity is not always taken for granted.
 
