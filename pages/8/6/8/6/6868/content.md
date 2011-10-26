@@ -1,28 +1,28 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### AQFT
-+--{: .hide}
++-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 #### Cohomology
-+--{: .hide}
++-- {: .hide}
 [[!include cohomology - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 In the [[AQFT]] formalization of [[quantum field theory]] a system is characterized by its [[local net of observables]] on [[spacetime]], which is in particular a [[copresheaf]] of [[algebra]]s. Accordingly, one can consider notions of [[cohomology]] with coefficients in such a [[local net]].
 
 One such notion was introduced in ([Roberts 76](#Roberts76)), there called **local cohomology** or **net cohomology**.  It has been shown to encode the [[DHR superselection theory]] of local nets ([Roberts 90](#Roberts90)).
+
 
 ## References
 
@@ -80,5 +80,13 @@ dimensions was discussed in
 
 * Fabio Ciolli, _Net Cohomology and the Construction of Physical Models_ , talk at Vietri (2009) ([pdf](http://www.mat.uniroma2.it/~mp/OA/activities/09GENCO/slides/Ciolli-vietri09.pdf))
 
-[[!redirects cohomology of nets of local observables]]
+
+[[!redirects cohomology in a local net of observables]]
+[[!redirects cohomology in local nets of observables]]
+[[!redirects cohomology in a net of local observables]]
+[[!redirects cohomology in nets of local observables]]
+[[!redirects cohomology of local net of observables]]
+[[!redirects cohomology of a local net of observables]]
 [[!redirects cohomology of local nets of observables]]
+[[!redirects cohomology of a net of local observables]]
+[[!redirects cohomology of nets of local observables]]
