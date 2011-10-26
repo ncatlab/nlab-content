@@ -7,5 +7,8 @@
 
 * [[Chern-Weil theory]]
 
+* [[fiber integration in ordinary differential cohomology]]
 
 category: people
+
+[[!redirects Johan Dupont]]
