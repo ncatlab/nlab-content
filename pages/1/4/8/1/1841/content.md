@@ -273,7 +273,7 @@ $$
   \,,
 $$ 
 
-which is a manifold of the topology of the 3-sphere $S^3$.
+which is a manifold of the topology of ([[weak homotopy equivalence|weakly homotopy equivalent to]]) the 3-[[sphere]] $S^3$.
 
 He imagined a situation with a magnetic charge supported on the point located at the origin and removed that point in order to keep the field strength $F$ to be a _closed_ 2-form on all of $X$. 
 
@@ -332,39 +332,20 @@ $$
   \,.
 $$
 
-Which implies that with the magnetic charge being quantizes, also the electric charge is.
+Which implies that with the magnetic charge being quantized, also the electric charge is.
 
 (...)
 
-## Geometric origins of inhomogeneous media
+## Related concepts
 
-+-- {: .standout}
-This section is tentative and probably even controversial. By no means is it generally accepted to be correct, but it is worth writing down if for no other reason than to elicit disagreement in which case we'd learn something.
-=--
+* [[Yang-Mills field]]
 
-As inhabitants of the earth, we all sit in a bath of electromagnetic radiation, both man made and natural. This radiation permeates our bodies which are made up of dielectric, magnetic, and conducting materials, i.e. body tissue. Just as geometry is encoded in the metric tensor and manifests itself via the Hodge star, so too do the electromagnetic constitutive equations. For example, in linear media we have the simple constitutive relations
+* [[B-field]], [[C-field]]
 
-$$E = \frac{1}{\epsilon} D \quad\text{and}\quad B = \mu H.$$
+* [[ordinary differential cohomology]], [[circle n-bundle with connection]]
 
-In 4d, we have
+* [[geometric origin of inhomogeneous media]]
 
-$$F = B + E\wedge dt$$
-
-The 4d constitutive relation is 
-
-$$G = \star F,$$
-
-which under assumptions of linearity gives
-
-$$\star F = -\eta(D-H\wedge dt),$$
-
-where $\eta = \sqrt{\frac{\mu}{\epsilon}}$. This may be written in a form that more closely mimics the tradition relations via
-
-$$\star(v dt\wedge E) = \frac{1}{\epsilon} D\quad\text{and}\quad\star B = \mu H\wedge v dt,$$
-
-where $v = \frac{1}{\sqrt{\mu\epsilon}}$ (Note: $v = c$ in vacuum). For more details see [page 111](http://ncatlab.org/ericforgy/show/Dissertation).
-
-What this means is the the electromagnetic properties of matter can be interpreted geometrically and are encoded in the Hodge star. Conversely, it means that geometrical properties of matter can be interpreted electromagnetically.
 
 
 ## References
@@ -376,7 +357,7 @@ Maxwell's equations originate in
 
 Dirac's quantization argument appeared in
 
-* [[P.A.M. Dirac]] _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
+* [[Paul Dirac]] _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
 
 * [Differential Forms in Electromagnetic Theory](http://eceformsweb.groups.et.byu.net/forms-home.html)
 
