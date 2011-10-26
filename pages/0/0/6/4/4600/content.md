@@ -189,6 +189,10 @@ A good discussion is in
 
   * The relation to Chern-Weil theory is in section 3.3.
 
+A characterization by the two characteristic exact sequences is discussed in 
+
+* [[James Simons]], [[Dennis Sullivan]], _Axiomatic Characterization of Ordinary Differential Cohomology_ ([arXiv:math/0701077](http://arxiv.org/abs/math/0701077))
+
 In the general abstract context of [[cohesive (∞,1)-toposes]] differential cohomology is discussed in 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
