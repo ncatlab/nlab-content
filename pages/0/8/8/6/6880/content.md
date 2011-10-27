@@ -1,0 +1,4 @@
+
+* [Wikipedia entry](http://de.wikipedia.org/wiki/Sidney_Coleman)
+
+category: people
