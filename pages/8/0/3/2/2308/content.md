@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 For a [[cohomology theory]] $E$ with [[cohomology group]]s $E(X)$ the **reduced cohomology** of $E$ for [[pointed object|pointed]] [[topological space]]s $X$ is on $X$ the [[kernel]] 
 
 $$
@@ -7,7 +23,7 @@ $$
 
 of the map $E(X) \to E({*})$ induced from the point inclusion ${*} \to X$.
 
-#related entries#
+## Related entries
 
 See
 
