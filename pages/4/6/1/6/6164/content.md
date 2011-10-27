@@ -9,6 +9,10 @@ Every [[spectrum]] $K$ is the coefficient object of a [[generalized (Eilenberg-S
 
 For $K = H R$ an [[Eilenberg-MacLane spectrum]] this reduces to [[homology|ordinary homology]]
 
+## Related concepts
+
+* [[generalized cohomology]]
+
 
 ## References
 
@@ -23,3 +27,7 @@ See also
 
 * [[Friedrich Bauer]], _Remarks on universal coefficient theorems for generalized homology theories_ Quaestiones Mathematicae
 Volume 9, Issue 1 & 4, 1986, Pages 29 - 54 
+
+[[!redirects generalized homology theory]]
+[[!redirects generalized homology theories]]
+
