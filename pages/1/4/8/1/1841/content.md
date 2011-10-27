@@ -357,7 +357,7 @@ Maxwell's equations originate in
 
 Dirac's quantization argument appeared in
 
-* [[Paul Dirac]] _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
+* [[P.A.M. Dirac]] _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
 
 * [Differential Forms in Electromagnetic Theory](http://eceformsweb.groups.et.byu.net/forms-home.html)
 
