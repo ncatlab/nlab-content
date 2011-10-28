@@ -169,6 +169,8 @@ Chern-Simons actions for [[Lie algebra]]s $\mathfrak{g}$ but with higher-degree 
 
       * [[Chern-Simons theory]]
 
+  * [[1-dimensional Chern-Simons theory]]
+
 ## References
 
 ### General
