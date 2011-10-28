@@ -171,6 +171,8 @@ Chern-Simons actions for [[Lie algebra]]s $\mathfrak{g}$ but with higher-degree 
 
   * [[1-dimensional Chern-Simons theory]]
 
+* [[higher dimensional WZW models]]
+
 ## References
 
 ### General
@@ -254,6 +256,16 @@ Section 4.1.4 of
 Section 4.4 of 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+### Boundary theories
+
+Boundary [[higher dimensional WZW models]] for nonabelian [[higher dimensional Chern-Simons theory]] are discussed in
+
+* J. Gegenberg , G. Kunstatter, _Boundary Dynamics of Higher Dimensional Chern-Simons Gravity_ ([arXiv:hep-th/0010020](http://arxiv.org/abs/hep-th/0010020))
+
+* J. Gegenberg , G. Kunstatter, _Boundary Dynamics of Higher Dimensional AdS Spacetime_ ([arXiv:http://arxiv.org/abs/hep-th/9905228](http://arxiv.org/abs/hep-th/9905228))
+
+
 
 [[!redirects higher Chern-Simons theory]]
 [[!redirects higher Chern-Simons theories]]
