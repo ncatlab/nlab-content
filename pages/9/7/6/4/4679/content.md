@@ -37,7 +37,7 @@ the special orthogonal Lie algebra on $V$ is naturally isomorphism to the algebr
 
 ## Related Lie concepts
 
-* **special orthogonal Lie algebra** , [[Poincare Lie algebra]]
+* **special orthogonal Lie algebra** , [[unitary Lie algebra]], [[Poincare Lie algebra]]
 
 * [[string Lie 2-algebra]]
 
