@@ -95,7 +95,7 @@ Let $\Delta[1] = \{0 \to 1\}$ be the [[interval category]]. For every category $
 +-- {: .num_prop #RetractsOfMorphismWithLiftingProperty}
 ###### Proposition
 
-Classes of morphisms in a category $C$ that are given by a left or right [[lifting property]] are preserved under retracts in the [[arrow category]] $[\Delta[1],C]$.
+Classes of morphisms in a category $C$ that are given by a left or right [[lifting property]] are preserved under retracts in the [[arrow category]] $[\Delta[1],C]$. In particular the defining classes of a model category are closed under retracts.
 
 =--
 
