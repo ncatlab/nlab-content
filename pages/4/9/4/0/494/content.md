@@ -95,7 +95,7 @@ as discussed there.
 
 ### In terms of universal arrows / universal factorization through unit and counit {#UniversalArrows}
 
-Given $R : D\to C$, and $c\in C$, a _universal arrow_ from $c$ to $R$ is an [[initial object]] of the [[comma category]] $(c/R)$.  That is, it consists of an object $L(c)\in D$ and a morphism $i_c : :c\to R(L(c))$ -- the unit -- such that for any $d\in D$, any morphism $f : c\to R(d)$ factors through the unit $i_c$ as 
+Given $R : D\to C$, and $c\in C$, a _universal arrow_ from $c$ to $R$ is an [[initial object]] of the [[comma category]] $(c/R)$.  That is, it consists of an object $L(c)\in D$ and a morphism $i_c : c\to R(L(c))$ -- the unit -- such that for any $d\in D$, any morphism $f : c\to R(d)$ factors through the unit $i_c$ as 
 
 $$
   \array{
