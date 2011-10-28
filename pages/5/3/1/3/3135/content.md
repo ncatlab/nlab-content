@@ -95,6 +95,7 @@ The subgroup of unitary matrices with [[determinant]] equal to 1 is the [[specia
 
 The analog of the unitary group for real metric spaces is the [[orthogonal group]].
 
+The [[Lie algebra]] is the [[unitary Lie algebra]].
 
 [[!redirects unitary group]]
 [[!redirects unitary groups]]
