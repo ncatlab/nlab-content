@@ -94,4 +94,14 @@ A discussion of [[Chern-Simons element]]s in higher supergravity and their relat
 
 * _[[D'Auria-Fre formulation of supergravity]]_ .
 
+### Boundary theories
+
+Boundary [[higher dimensional WZW models]] for nonabelian [[higher dimensional Chern-Simons theory]] are discussed in
+
+* J. Gegenberg , G. Kunstatter, _Boundary Dynamics of Higher Dimensional Chern-Simons Gravity_ ([arXiv:hep-th/0010020](http://arxiv.org/abs/hep-th/0010020))
+
+* J. Gegenberg , G. Kunstatter, _Boundary Dynamics of Higher Dimensional AdS Spacetime_ ([arXiv:http://arxiv.org/abs/hep-th/9905228](http://arxiv.org/abs/hep-th/9905228))
+
+
+
 [[!redirects Chern-Simons supergravity]]
