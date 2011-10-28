@@ -3,7 +3,7 @@
 
 **[[schreiber:∞-Chern-Simons theory]]**
 
-[[schreiber:∞-Wess-Zumino-Witten theory]]
+[[infinity-Wess-Zumino-Witten theory - contents|∞-Wess-Zumino-Witten theory]]
 
 ## Ingredients
 
@@ -42,6 +42,8 @@
   * [[Chern-Simons gravity]]
 
   * Chern-Simons-[[supergravity]]
+
+* [[1-dimensional Chern-Simons theory]]
 
 * for higher abelian targets
 
