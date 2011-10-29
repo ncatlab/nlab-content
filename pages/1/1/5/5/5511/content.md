@@ -17,7 +17,7 @@
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 
 A [[morphism]] $f : Y \to X$ in an [[(∞,1)-category]] is an **effective epimorphism** if it has a [[Cech nerve]], of which it is the [[(∞,1)-colimit]]; in other words the augmented simplicial diagram
@@ -60,8 +60,9 @@ This appears as ([Lurie, prop. 6.2.3.15](#Lurie)).
 
 ## Examples
 
-+-- {: .un_prop}
++-- {: .num_prop #EffectiveEpisOfInfinityGroupoids}
 ###### Proposition
+**(effective epis of $\infty$-groupoids**)
 
 In $C = $ [[∞Grpd]] a morphism $f : Y \to X$ is an effective epimorphism precisely if it induces an [[epimorphism]] $\pi_0 f : \pi_0 Y \to \pi_0 X$ in [[Set]] on connected components.
  
