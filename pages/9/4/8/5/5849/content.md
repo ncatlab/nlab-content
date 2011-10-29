@@ -138,7 +138,7 @@ The following conditions are equivalent:
 
 * for all $X \in \mathcal{E}$ the morphism $\theta_X : p_*X \to p_! X$ is an [[epimorphism]];
 
-* for all $S \in \mathcal{S}$,, the morphism $\phi_S : p^*S \to p^! S$ 
+* for all $S \in \mathcal{S}$, the morphism $\phi_S : p^*S \to p^! S$ 
   is a [[monomorphism]];
 
 * $p_*$ is [[faithful functor|faithful]] on morphisms of the form $A \to p^* S$.
