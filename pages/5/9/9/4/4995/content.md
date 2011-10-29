@@ -57,7 +57,21 @@ In [[ETop∞Grpd]] and those contexts containing it, the internal notions of  [[
 
 ## Definition
 
+
+We state the definition in several equivalent ways.
+
+1. [externally](#ExternalDefinition) in the [[meta logic]];
+
+1. [internally](#InternalDefinition) to the cohesive $(\infty,1)$-topos itselfs;
+
+1. internally and [formulated in homotopy type theory](#DefinitionInHomotopyTypeTheory)
+
+
+### Externally
+ {#ExternalDefinition}
+
 The definition is the immediate analog of the definition of a [[cohesive topos]].
+
 
 +-- {: .num_defn #CohesiveInfinTopos}
 ###### Definition
@@ -114,6 +128,126 @@ $$
 induces [[monomorphism]]s on all [[categorical homotopy groups in an (infinity,1)-topos|homotopy sheaves]].
 
 =--
+
+### Internally
+ {#InternalDefinition}
+
+We reformulate the axioms on a cohesive $(\infty,1)$-topos without references to functors _on_ it, and instead entirely in terms of structures _in_ it.
+
++-- {: .num_lemma}
+###### Lemma
+
+A [[full sub-(∞,1)-category]] $\mathbf{B} \hookrightarrow \mathbf{H}$ is
+
+* [[reflective sub-(∞,1)-category|reflectively embedded]] precisely if for every [[object]] $X \in \mathbf{H}$ there is a [[morphism]] $loc_X : X \to L X$ with $L X \in \mathbf{B} \hookrightarrow \mathbf{H}$ such that for all $Y \in \mathbf{B} \hookrightarrow \mathbf{H}$ the value of the [[(∞,1)-categorical hom-space]]-functor 
+
+  $$
+    \mathbf{H}(loc_X, Y) : 
+    \mathbf{H}(L X, Y)
+    \stackrel{\simeq}{\to}
+    \mathbf{H}(X, Y)
+  $$
+
+  is an [[equivalence in an (∞,1)-category|equivalence]] (of [[∞-groupoid]]s. 
+
+* coreflectively embedded precisely if for every [[object]] $Y \in \mathbf{H}$ there is a [[morphism]] $coloc_Y : R Y \to Y$ with $R Y \in \mathbf{B} \hookrightarrow \mathbf{H}$ such that for all $X \in \mathbf{B} \hookrightarrow \mathbf{H}$ the value of the [[(∞,1)-categorical hom-space]]-functor 
+
+  $$
+    \mathbf{H}(X, coloc_Y) : 
+    \mathbf{H}(X, R Y)
+    \stackrel{\simeq}{\to}
+    \mathbf{H}(X, Y)
+  $$
+
+  is an [[equivalence in an (∞,1)-category|equivalence]] (of [[∞-groupoid]]s. 
+
+
+=--
+
+This is proven [here](http://ncatlab.org/nlab/show/reflective+sub-%28infinity,1%29-category#CharacterizationOfReflectors).
+
+Accordingly we have
+
++-- {: .num_corollary}
+###### Corollary
+
+The reflective and coreflective embedding $Disc : \mathbf{B} \hookrightarrow \mathbf{H}$ of [[discrete ∞-groupoid]]s in a cohesive $(\infty,1)$-topos is equivalent to the existence, for every object $X \in \mathbf{H}$, of 
+
+1. a morphism $X \to \mathbf{\Pi}(X)$ with $\mathbf{\Pi}(X) \in \mathbf{B} \hookrightarrow \mathbf{H}$;
+
+1. a morphism $\mathbf{\flat} X \to X$ with $\mathbf{\flat} X \in \mathbf{B} \hookrightarrow \mathbf{H}$;
+
+such that for all $Y \in \mathbf{B} \hookrightarrow \mathbf{H}$ the induced morphisms
+
+1. $\mathbf{H}(\mathbf{\Pi}X , Y) \stackrel{\simeq}{\to} \mathbf{H}(X,Y)$;
+
+1. $\mathbf{H}(Y, \mathbf{\flat}X) \stackrel{\simeq}{\to} \mathbf{H}(Y,X)$;
+
+are equivalences, as indicated.
+
+The reflective embedding $coDisc$ is analogously equivalent to the existence for every $X$ of a morphism $X \to \mathbf{Q}X $, such that, etc.
+
+The fact that $\Pi$ preserves the terminal object is equivalent to the morphism $* \to \mathbf{\Pi}(*)$ being an equivalence.
+
+=--
+
+
+### Formulation in homotopy type theory
+  {#DefinitionInHomotopyTypeTheory}
+
+We give the [internal definition](#InternalDefinition) of a cohesive $(\infty,1)$-topos in the formal language of [[homotopy type theory]].
+
+    Require Import Homotopy Utf8.
+
+There is a full subcategory of objects called _discrete_ .
+
+    Axiom is_discrete : Type &#8594; Type.
+
+    Axiom is_discrete_is_prop: &#8704; X, is_prop (is_discrete X).
+
+Every object has a reflection into a discrete object.
+
+    Axiom pi : Type &#8594; Type.
+
+    Axiom pi_is_discrete : &#8704; X, is_discrete (pi X).
+
+    Axiom map_to_pi : &#8704; X, X &#8594; pi X.
+
+    Axiom pi_is_reflection : &#8704; X Y, is_discrete Y &#8594; is_equiv (fun f: pi X &#8594; Y => f &#9675; (map_to_pi X)).
+
+The reflector preserves the terminal object.
+
+    Axiom pi_preserve_terminal: is_equiv (map_to_pi unit).
+
+Every object has a coreflection from a discrete object.
+ 
+    Axiom flat: Type &#8594; Type.
+
+    Axiom flat_is_discrete : &#8704; X, is_discrete (flat X).
+
+    Axiom map_from_flat : &#8704; X, flat X &#8594; X.
+
+    Axiom flat_is_coreflection: &#8704; X Y, is_discrete Y &#8594; is_equiv (fun f : Y &#8594; flat X => (map_from_flat X) &#9675; f).
+
+There is a full subcategory of objects called _codiscrete_ . 
+
+    Axiom is_codiscrete : Type &#8594; Type.
+
+    Axiom is_codiscrete_is_prop: &#8704; X, is_prop (is_codiscrete X).
+
+Every object has a reflection into a codiscrete object.
+
+    Axiom conc : Type &#8594; Type.
+
+    Axiom conc_is_codiscrete : &#8704; X, is_codiscrete (conc X).
+
+    Axiom map_to_conc : &#8704; X, X &#8594; conc X.
+
+    Axiom conc_is_reflection : &#8704; X Y, is_codiscrete Y &#8594; is_equiv (fun f: conc X &#8594; Y => f &#9675; (map_to_con X)).
+
+The following says that the coreflector of the discrete objects coincides with the reflector of the codiscrete objects.
+
+    ...
 
 ## Properties
 
