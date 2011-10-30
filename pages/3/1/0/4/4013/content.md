@@ -1,10 +1,13 @@
+
+# Contents
+* automatic table of contents goes here
+{: toc}
+
+## Idea
+
 In a [discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) with [[Vaughan Pratt]] on the categories mailing list, [[Peter Freyd]] gave a very sharp description of the commonalities and differences between [[abelian categories]] and [[topos]]es (or, in the first place, between abelian categories and [[pretopos]]es), by introducing a finitely axiomatized theory of "AT categories". As it turns out, this theory embodies the commonalities with such precision that every AT category splits as a [[product]] of an [[abelian category]] and a [[pretopos]]. 
 
 Remarkably, the properties in common are basically exactness conditions, and the sharp dichotomy between abelian categories and pretoposes can be concentrated solely in the behavior of the initial object. We have taken the liberty of slightly reformulating some of Freyd's axioms. 
-
-#Contents#
-* automatic table of contents goes here
-{:toc}
 
 
 ## Definition
@@ -28,7 +31,7 @@ Anyway, to follow what Freyd is saying here a bit: by making choices for each su
 The sharp dichotomy which separates "abelianness" from "toposness" is concentrated in the following definition: 
 
 +-- {: .un_def}
-######Definition
+###### Definition
 Let $0$ be the initial object, and let $\pi_1: 0 \times X \to 0$, $\pi_2: 0 \times X \to X$ be the two product projections. We say $X$ is of **type T** if $\pi_1$ is an isomorphism, and **type A** if $\pi_2$ is an isomorphism.
 =--
 
@@ -40,9 +43,9 @@ A category meeting the baseline assumptions above is an **AT category** if the f
 
 1. The category is an effective [[regular category]]. ("Yes this can be stated as universal Horn conditions on pullbacks and the special pushouts mentioned above.")
 
-1. The arrow $0 \to 1$ is monic. ("Note that it follows that all maps from $0$ are monic.")
+2. The arrow $0 \to 1$ is monic. ("Note that it follows that all maps from $0$ are monic.")
 
-1. If $i: A \to C$ is monic, then any pushout square 
+3. If $i\colon A \to C$ is monic, then any pushout square 
 $$\array{
 A & \stackrel{i}{\to} & C \\
 \downarrow & & \downarrow \\
@@ -50,9 +53,9 @@ B & \to & D
 }$$
 is also a pullback. A square that is simultaneously a pushout and a pullback will be called a "dolittle square". 
 
-1. The functor $0 \times -$ preserves pushouts of kernel pairs, and pushouts of pairs of arrows one of which is monic. 
+4. The functor $0 \times -$ preserves pushouts of kernel pairs, and pushouts of pairs of arrows one of which is monic. 
 
-1. If $f: B \to 0 \times C$ is epic and
+5. If $f\colon B \to 0 \times C$ is epic and
 $$\array{
 A & \to & B \\
 \downarrow & & \downarrow f \\
@@ -60,9 +63,9 @@ A & \to & B \\
 }$$
 is a pullback, then it's a dolittle square.
 
-1. Pushouts of pairs of morphisms, one of which is monic, are universal (i.e., stable under pullback).  
+6. Pushouts of pairs of morphisms, one of which is monic, are universal (i.e., stable under pullback).  
 
-1. Define a functor $T$ by the pushout diagram 
+7. Define a functor $T$ by the pushout diagram 
 $$\array{
 0 \times X & \stackrel{\pi_1}{\to} & 0 \\
 \pi_2 \downarrow & & \downarrow \\
@@ -70,25 +73,26 @@ X & \to & T X
 }$$
 Then $T$ preserves pullbacks. 
 
-1. Given a morphism $f: X \to Y$, if $T f$ and $0 \times f$ are isomorphisms, then so is $f$. 
+8. Given a morphism $f\colon X \to Y$, if $T f$ and $0 \times f$ are isomorphisms, then so is $f$. 
 
 This is the basic list of exactness assumptions which permit a sharp comparison between pretoposes and abelian categories. From this list alone one can prove that every AT category embeds faithfully in a product of a pretopos and an abelian category. To show that every AT category is _equivalent_ to such a product, Freyd appends the following axiom involving an existential Horn condition: 
 
-* **(AE)** For every object $X$, there is a map $\xi: T X \to X$ such that 
+* **(AE)** For every object $X$, there is a map $\xi\colon T X \to X$ such that 
 $$0 \times X \stackrel{\pi_1}{\to} X \stackrel{\xi}{\leftarrow} T X$$ 
 is a coproduct diagram, and the canonical map $X \to T X$ is a retraction of $\xi$.  
 
 To bring actual toposes into the picture, Freyd adds some more axioms, but let's first take stock and see what this gives us so far. 
 
+
 ## Basic consequences of the AT axioms
 
 +-- {: .un_prop}
-######Proposition
+###### Proposition
 For any $X$ the unique map $0 \to X$ is monic. 
 =--
 
 +-- {: .proof}
-######Proof
+###### Proof
 By axiom 2, the map $0 \to 1$ is monic. The pullback-preserving functor $- \times X$ preserves monos, so 
 
 $$0 \times X \stackrel{! \times 1_X}{\to} 1 \times X \cong X$$
@@ -97,22 +101,22 @@ $$0 \times X \stackrel{! \times 1_X}{\to} 1 \times X \cong X$$
 =-- 
 
 +-- {: .un_prop}
-######Proposition
+###### Proposition
 Binary coproducts exist. 
 =-- 
 
 +-- {: .proof} 
-######Proof
+###### Proof
 Because we can take the pushout of a pair of monos $0 \to X$, $0 \to Y$. 
 =-- 
 
 +-- {: .un_prop}
-######Proposition
+###### Proposition
 Coproducts are disjoint. 
 =-- 
 
 +-- {: .proof}
-######Proof
+###### Proof
 First observe that the pullback of the two coprojections is initial, as is obvious from axiom 3. 
 
 Now consider the pushout diagram 
@@ -130,29 +134,30 @@ i_{X}^* X & \underset{i_{X}^*(i_X)}{\to} & X
 but this is a pushout diagram by axiom 6. It follows that the bottom map is an iso, as desired.
 =-- 
 
+
 ## Category of type A objects is abelian
 
 In this section we show that the full subcategory of type A objects forms an abelian category. 
 
 +-- {: .un_lem}
-######Lemma
+###### Lemma
 An object is of type A if and only if there exists a map to $0$. 
 =-- 
 
 +-- {: .proof}
-######Proof
+###### Proof
 If $X$ is of type A, then we clearly have $X \cong 0 \times X \stackrel{\pi_1}{\to} 0$. Conversely, suppose there exists $p: X \to 0$. Note that since $0 \to 1$ is monic, there is at most one map $Y \to 0$ for any object $Y$. It follows quickly that maps $Y \to X$ are in natural bijective correspondence with maps $Y \to X \times 0$, so that $X \cong X \times 0$ by the Yoneda lemma.
 =--
 
 From this lemma, it follows that the full subcategory of type A objects in an AT category $C$ is equivalent to the category $C/0$, which is the category of coalgebras for the functor $A(X) = 0 \times X$. Hence the category of type A objects is coreflective. 
 
 +-- {: .un_lem}
-######Lemma
+###### Lemma
 Objects of type A are closed under binary products, finite coproducts, subobjects, and quotient objects (= cokernels of kernel pairs). 
 =-- 
 
 +-- {: .proof}
-######Proof
+###### Proof
 This follows from the fact that the category of type A objects is the slice category $C/0$. 
 =--
 
@@ -167,19 +172,19 @@ K & \to & A \\
 Cokernels are defined dually, and can be formulated dually as certain pushouts. Since pushouts along monos exist, we can take the cokernel of any mono, and in particular the cokernel of any kernel. 
 
 +--{: .un_lem}
-######Lemma
+###### Lemma
 In the category of type A objects, every mono is the kernel of its cokernel, and every epi is the cokernel of its kernel. 
 =--
 
 +-- {: .proof}
-######Proof
-Of course, $0$ is a zero object in the category of type A objects. If $i: A \to B$ is a mono in the category of type A objects, then the pushout 
+###### Proof
+Of course, $0$ is a zero object in the category of type A objects. If $i\colon A \to B$ is a mono in the category of type A objects, then the pushout 
 $$\array{
 A & \stackrel{i}{\to} & B \\
 \downarrow & & \downarrow \\
 0 & \to & coker(i)
 }$$
-exists and is also a pullback, by axiom 3, and hence $i$ is the kernel of its cokernel. Now suppose $f: A \to C$ is an epi in the category of type A objects. Since $0 \times C \cong C$, we have an epi $f: A \to 0 \times C$. Then, by axiom 5, the pullback 
+exists and is also a pullback, by axiom 3, and hence $i$ is the kernel of its cokernel. Now suppose $f: A \to C$ is an epi in the category of type A objects. Since $0 \times C \cong C$, we have an epi $f\colon A \to 0 \times C$. Then, by axiom 5, the pullback 
 $$\array{
 ker(f) & \to & A \\
 \downarrow & & \downarrow f \\
@@ -188,59 +193,61 @@ ker(f) & \to & A \\
 is also a pushout, so $f$ is the cokernel of its kernel. 
 =--
 
-+--{: .un_thm}
-######Theorem
++-- {: .un_thm}
+###### Theorem
 The category of type A objects is an abelian category. 
 =--
 
 +-- {: .proof}
-######Proof
+###### Proof
 Any category with zero objects, binary products and coproducts, and in which every mono is the kernel of its cokernel and every epi is the cokernel of its kernel, is in fact an abelian category. See Freyd-Scedrov, _Categories, Allegories_, 1.598 (p. 95). 
 =--
+
 
 ## Category of type T objects is a pretopos
 
 Now we show that the full subcategory of type T objects is a pretopos. It is clear that $0 \times 0 \cong 0$ (since $0 \to 1$ is monic), so $0$ is a type T object. 
 
 +-- {: .un_lem}
-######Lemma
+###### Lemma
 If $A$ is type A and $T$ is type T, then there exists exactly one map $A \to T$. Type T objects are characterized by this property. 
 =-- 
 
 +-- {: .proof}
-######Proof
+###### Proof
 There is exactly one morphism $A \to 0$. Hence morphisms $A \to T$ are in bijection with maps $A \to 0 \times T \cong 0$, of which there is exactly one. For the second statement, suppose that $X$ has the property that there is exactly one map $A \to X$ for each type A object. Such objects $X$ are closed under products, and $0$ is such an object; therefore $0 \times X$ is such an object. On the other hand, $0 \times X$ is of type A since it projects to $0$. Hence there is at most one morphism $0 \times X \to 0 \times X$, and it follows that $0 \times X \to 0 \to 0 \times X$ is the identity, so that $0 \times X \cong 0$. Thus $X$ is of type T. 
 =-- 
 
 +-- {: .un_cor}
-######Corollary
-The initial object $0$ is strict in the category of type T objects. 
+###### Corollary
+The initial object $0$ is [[strict initial object|strict]] in the category of type T objects. 
 =--
 
 +-- {: .proof}
-######Proof
+###### Proof
 Given $T$ of type T and $T \to 0$, we know $T$ is type A, and therefore there is exactly one map $T \to T$. Hence $T \to 0 \to T$ is the identity, and of course so is $0 \to T \to 0$. So $T$ is initial. 
 =--
 
 +-- {: .un_cor}
-######Corollary
+###### Corollary
 The full subcategory of objects of type T is closed under products, coproducts, subobjects, and quotient objects.
 =--
 
 +-- {: .proof}
-######Proof
+###### Proof
 Closure under products and subobjects is immediate from the lemma that characterizes type T objects in terms of maps out of type A objects. Closure under quotients and coproducts follows from axiom 4. 
 =--
 
 +-- {: .un_thm}
-######Theorem
+###### Theorem
 The full subcategory of objects of type T is a pretopos. 
 =--
 
 +-- {: .proof}
-######Proof
+###### Proof
 The previous proposition gives finite completeness, coproducts, and quotients of kernel pairs. One of the AT axioms is that a pushout along a mono is stable under pullback, and the initial object is stable under pullback in the category of T objects, because it is strict there. It follows that coproducts are universal in the category of T objects. They are also disjoint by an earlier result, so the category of T objects is extensive. It is also effective regular by axiom 1, hence a pretopos. 
 =-- 
+
 
 ## Splitting into type A and type T objects 
 
@@ -248,7 +255,7 @@ In this section we show that every AT category $C$ is the product of the abelian
 
 Let us first observe that the coreflector 
 
-$$0 \times -: C \to C_A$$ 
+$$0 \times {-}\colon C \to C_A$$ 
 
 is left exact (as all coreflectors are), and 
 
@@ -262,21 +269,21 @@ A functor between AT categories which is left exact and which preserves such cla
 
 Next let us observe that the subcategory $C_T \hookrightarrow C$ is _reflective_; the reflector is the functor $T$ defined above by means of a suitable pushout. The reflector clearly preserves any colimits that exist, and preserves pullbacks (by axiom 7), so 
 
-$$T: C \to C_T$$ 
+$$T\colon C \to C_T$$ 
 
 is also a morphism of AT categories. Therefore we have a morphism of AT categories 
 
-$$F = \langle 0 \times -, T \rangle : C \to C_A \times C_T$$ 
+$$F = \langle 0 \times {-}, T \rangle\colon C \to C_A \times C_T$$ 
 
 and now we wish to prove, under a suitable additional axiom (also satisfied by every abelian category and every pretopos), that this is an equivalence. 
 
 +-- {: .un_lem}
-######Lemma
+###### Lemma
 The functor $F$ is faithful. 
 =-- 
 
 +-- {: .proof}
-######Proof
+###### Proof
 The functor $F$ is left exact and therefore preserves kernels. By axiom 8, $F$ reflects isomorphisms. It follows immediately from these two facts that $F$ is faithful. 
 =--
 
@@ -289,7 +296,7 @@ $$0 \times X \stackrel{\pi_2}{\to} X \to coker(\pi_2)$$
 and that axiom AE asserts that this exact sequence splits (with splitting $\xi: coker(\pi_2) \to X$), in such a way that $X$ is the coproduct of the end terms. 
 
 +-- {: .un_prop}
-######Proposition
+###### Proposition
 The functor $F$ is full. 
 =--
 
@@ -304,12 +311,12 @@ Since $X = (0 \times X) + T X$, the two obvious arrows $0 \times X \to Y$, $T X 
 =-- 
 
 +-- {: .un_thm} 
-######Theorem
+###### Theorem
 The functor $F$ is an equivalence. 
 =-- 
 
 +-- {: .proof}
-######Proof
+###### Proof
 All that is left to check is that $F$ is essentially surjective, but this is clear because given a type A object $X$ and a type T object $Y$, we have $0 \times (X + Y) \cong X$ (use axiom 4 plus the fact that $0 \times Y \cong 0$), and 
 $$T(X + Y) \cong T X + T Y \cong 0 + T Y \cong Y$$
 which completes the proof. 
@@ -317,29 +324,30 @@ which completes the proof.
 
 This completes Freyd's "second task". 
 
+
 ## Topos-theoretic considerations 
  
 In order to beef up the type T objects to a topos, Freyd imposes some extra structure on top of the AT axioms. Since it is now the topos axioms that are in the ascendant, I will christen these categories _TA categories_. 
 
 Thus, a **TA category** is an AT category $C$ together with 
 
-* Functions $P, E: Ob(C) \to Ob(C)$, 
+* Functions $P, E\colon Ob(C) \to Ob(C)$, 
 
-* Functions $l, r: Ob(C) \to Mor(C)$, of the form $l X: E X \to P X$, $r X: E X \to X$,
+* Functions $l, r\colon Ob(C) \to Mor(C)$, of the form $l X\colon E X \to P X$, $r X\colon E X \to X$,
 
-* An operation $\Lambda$ which assigns to each pair of morphisms $f: R \to Y$, $g: R \to X$ (where $R$ and $Y$ are assumed to be type T), a morphism 
-$\Lambda(f, g): Y \to P X$. 
+* An operation $\Lambda$ which assigns to each pair of morphisms $f\colon R \to Y$, $g\colon R \to X$ (where $R$ and $Y$ are assumed to be type T), a morphism 
+$\Lambda(f, g)\colon Y \to P X$. 
 
 This data is to satisfy the following axioms: 
 
 1. $\langle l X, r X \rangle: E X \to P X \times X$ is monic and $P X$, $E X$ are of type T, 
 
-1. The composite of relations  
+2. The composite of relations  
 $$Y \stackrel{\Lambda(f, g)}{\to} P X \stackrel{(l X)^{op}}{\to} E X \stackrel{r X}{\to} X$$ 
 is equal to 
 $$Y \stackrel{f^{op}}{\to} R \stackrel{g}{\to} X,$$
 
-1. If 
+3. If 
 $$\array{
 R & \stackrel{g}{\to} & E X \\
 f \downarrow & & \downarrow l X \\
@@ -351,9 +359,9 @@ Freyd: "Note that in the full category of type-T objects, $P$ yields
 power-objects with $E$, $l$, $r$  naming the universal relations. (The third axiom provides the uniqueness condition.)" 
 
 And: "In any abelian category the only type T object is the zero
-object, which forces $P = E = 0$  for abelian categories."
+object, which forces $P = E = 0$ for abelian categories."
 
-And finally: "It's routine that both $0 \times -$ and $T$ preserve the new structure. We can now remove the existential from AE. Define $\xi: T X \to X$  as the image of $r X$. The third task is finished with:
+And finally: "It's routine that both $0 \times {-}$ and $T$ preserve the new structure. We can now remove the existential from AE. Define $\xi\colon T X \to X$  as the image of $r X$. The third task is finished with:
 
 1. For every $X$, $0 \times X \to X \stackrel{\xi}{\leftarrow} T X$ is a coproduct diagram." 
 
@@ -364,3 +372,8 @@ _This section is likely to be rewritten and cleaned up._
 [[!redirects AT categories]]
 [[!redirects AT-category]]
 [[!redirects AT-categories]]
+
+[[!redirects TA category]]
+[[!redirects TA categories]]
+[[!redirects TA-category]]
+[[!redirects TA-categories]]
