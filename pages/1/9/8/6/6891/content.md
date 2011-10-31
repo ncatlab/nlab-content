@@ -1,0 +1,50 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+On an [[orientation|oriented]] 3-dimensional [[manifold]]s, what [[Michael Atiyah]] and [[Edward Witten]] called a **2-framing** is a $p_1$-[[twisted differential c-structures|structure]], where $p_1$ is the first [[Pontryagin class]]
+
+$$
+  p_1 : B SO(3) \to K(\mathbb{Z},4)
+  \,.
+$$
+
+So a choice of 2-framing on an orientation $o_X : X \to B SO(3)$ is a choice of lift $\hat o_X$
+
+$$
+  \array{
+    && 
+    hofib(p_1) &\to& {*}
+    \\  
+    &{}^{\hat o_X}\nearrow& \downarrow && \downarrow
+    \\
+    X
+    &\stackrel{o_X}{\to}&
+    B SO(3)
+    &\stackrel{p_1}{\to}&
+    K(\mathbb{Z},4)
+  }
+$$
+
+to the [[homotopy fiber]] of $p_1$.
+
+## Related concepts
+
+The same idea applied to 3-manifolds with [[spin structure]] leads to [[string structure]].
+
+
+[[!redirects 2-framings]]
