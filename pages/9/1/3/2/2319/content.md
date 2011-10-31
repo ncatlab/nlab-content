@@ -80,6 +80,8 @@ It is the generalization of this anomaly computation from the worldlines of supe
 
     [[spin^c structure]], [[twisted spin^c structure]]
 
+  * [[2-framing]]
+
   * [[string structure]], [[differential string structure]]
 
   * [[fivebrane structure]], [[differential fivebrane structure]]
