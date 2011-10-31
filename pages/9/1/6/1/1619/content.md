@@ -336,6 +336,8 @@ The [[Pontryagin class]] $\frac{1}{2}p_1$ refines to the [[smooth first fraction
 
 * [[spin structure]], [[twisted spin structure]]
 
+* [[2-framing]]
+
 * **string structure**, [[differential string structure]]
 
 * [[fivebrane structure]], [[differential fivebrane structure]]
