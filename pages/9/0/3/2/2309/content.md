@@ -28,3 +28,4 @@ By _cohomology theory_ is usually meant more precisely an example of [[generaliz
 
 [[!redirects generalised cohomology theory]]
 [[!redirects generalised cohomology theories]]
+[[!redirects cohomology theories]]
