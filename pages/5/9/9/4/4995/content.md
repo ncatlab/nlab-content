@@ -82,7 +82,18 @@ An [[(∞,1)-topos]] $\mathbf{H}$ is **cohesive** if
 
 1. it is a [[local (∞,1)-topos]].
 
-This means equivalently: the [[global section]] [[(∞,1)-geometric morphism]] lifts to an [[adjoint quadruple]] of [[adjoint (∞,1)-functor]]s
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+
+As always in [[topos theory]] and [[higher topos theory]], such definitions can be made sense of over any _base_ . Here: over any [[base (∞,1)-topos]].
+
+Over the canonical base [[∞Grpd]] of [[∞-groupoid]]s, the definition of a cohesive $(\infty,1)$-topos is equivalently the following:
+
+the [[global section]] [[(∞,1)-geometric morphism]] lifts to an [[adjoint quadruple]] of [[adjoint (∞,1)-functor]]s
    
 $$
   (f_! \dashv f^* \dashv f_* \dashv f^!) : 
@@ -94,7 +105,13 @@ $$
 
 where $f_!$ preserves [[finite limit|finite]] [[(∞,1)-product]]s.
 
+Often we will tacitly assume to work over [[∞Grpd]]. But most statements and constructions have straightforward generalizations to arbitrary bases.
+In particular, below in the [internal definition](#InternalDefinition) of cohesion, it takes more to fix the base topos than to leave it arbitrary.
+
 =--
+
+
+Sometimes it is desireable to add further axioms, such as the following.
 
 +-- {: .num_defn #PiecesHavePoints}
 ###### Definition
@@ -128,6 +145,7 @@ $$
 induces [[monomorphism]]s on all [[categorical homotopy groups in an (infinity,1)-topos|homotopy sheaves]].
 
 =--
+
 
 ### Internally
  {#InternalDefinition}
