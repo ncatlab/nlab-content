@@ -49,7 +49,7 @@ fix a ground [[field]] $k$.
 
 Here we think of an algebra object $A \in (n-1)Vect$ as a basis for the $n$-vector space which is the $(n-1)$-category $A Mod$.
 
-With this defintion we have that $2 Vect$ is the [[2-category]] of $k$-[[algebra]]s, [[bimodule]]s and bimodule homomorphisms.
+With this definition we have that $2 Vect$ is the [[2-category]] of $k$-[[algebra]]s, [[bimodule]]s and bimodule homomorphisms.
 
 More generally, let $k$ here be a [[ring spectrum]]. Set
 
@@ -124,7 +124,7 @@ We think of this equivalently as its essential image in $Vect_k Mod$, where
 * an $A$-$B$ [[bimodule]] $N$ is a placeholder for the [[functor]]
 
   $$
-    Mod_A \stackrel{(-) \otimes_A N }{\to} N_B
+    Mod_A \stackrel{(-) \otimes_A N }{\to} Mod_B
   $$
 
 * a bimodule homomorphism is a placeholder for a [[natural transformation]] of two such functors.
@@ -136,7 +136,7 @@ $$
   \,.
 $$
 
-Compring this for the formula
+Comparing this for the formula
 
 $$
   V \simeq Set(S,k)
