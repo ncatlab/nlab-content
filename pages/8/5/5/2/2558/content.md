@@ -30,7 +30,7 @@ If $Y$ and $G$ are each $X$, with $a$ and $b$ each the [[identity morphism]] on 
 
 ## Pairings versus products
 
-Since taking the [[product]] (when these always exist) is a [[functor]], we can apply it to any two arbitrary morphisms.  That is, if $a\colon G \to X$ and $b\colon H \to Y$ are morphisms in a category $C$, and if the products $G \times H$ and $X \times Y$ exist, then we have a morphism $a \times b\colon G \times H \to X \times Y$.  This is *not* the pairing $(a,b)$, for which the source is always $G$.
+Since taking [[products]] (when these always exist) is a [[functor]], we can apply this operation to any two morphisms.  That is, if $a\colon G \to X$ and $b\colon H \to Y$ are morphisms in a category $C$, and if the products $G \times H$ and $X \times Y$ exist, then we have a morphism $a \times b\colon G \times H \to X \times Y$.  This is *not* the pairing $(a,b)$, for which the source is always $G$.
 
 A pairing is the composite of a product and a [[diagonal morphism]]:
 $$ G \overset{\Delta_G}\to G \times G \overset{a \times b}\to X \times Y ;$$
