@@ -70,6 +70,7 @@ Some forms of [[predicative mathematics]] find this concept more useful.  Hausdo
 The reader can now easily define a _sequentially $R_1$ space_.
 
 
+[[!redirects Hausdorff]]
 [[!redirects Hausdorff space]]
 [[!redirects Hausdorff spaces]]
 [[!redirects Hausdorff topological space]]
