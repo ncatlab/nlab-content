@@ -7,5 +7,9 @@ You can also say something about yourself here (no need to keep the current text
 
 ---[[Toby Bartels]]
 
++--{: .query}
+Thank you, I just created [[Stephan Alexander Spahn]] to these purposes and will announce my (substantial) edits on the forum. I did -up to now- not realize that [[Stephan]] exists and so did not intend to ignore your suggestions, sorry!
+=--
+
 
 category: people
