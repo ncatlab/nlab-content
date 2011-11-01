@@ -78,6 +78,7 @@ An **abelian Lawvere theory** $T$ is a morphism of Lawvere theories $ab_T : \mat
 
 For $T$ abelian, $T$-algebras have an underlying [[abelian group]], given by the functor
 
+
 $$
   ab_T^* : T Alg \to Ab
   \,.
@@ -241,7 +242,11 @@ $$
   \,.
 $$
 
-
++--{: .query}
+[[Stephan Alexander Spahn]]: I feel slightly uncomfortable with the notation of the bottom formula. As I understand it one may rather write
+$$j:(A:[k]\to A[k])\to ([n]\to T Alg(A[n],A[k]))$$
+(with $A[k]=A_k$ to be consistent).
+=--
 +-- {: .un_lemma}
 ###### Lemma
 {#simplicialYoneda}
@@ -254,6 +259,7 @@ $$
 $$
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
