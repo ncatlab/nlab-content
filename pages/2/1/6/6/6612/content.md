@@ -104,3 +104,4 @@ Discussion of what here we call "higher symplectic geometry over Lie 0-algebroid
 
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis ([arXiv](http://arxiv.org/abs/1106.4068)).
 
+For more references see [[multisymplectic geometry]].
