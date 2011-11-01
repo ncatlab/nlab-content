@@ -485,6 +485,11 @@ A [[higher category theory|higher categorial]] interpretation of [[n-plectic geo
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
 
 
+Higher order [[moment map]]s are considered in
+
+* Thomas Bruun Madsen, Andrew Swann, _Closed forms and multi-moment maps_ ([arXiv:1110.6541](http://arxiv.org/abs/1110.6541))
+ 
+
 ### On quantization of multisymplectic geometry {#RefsonQuantization}
 
 The following articles discuss the [[quantization]] procedure for multisymplectic geometry, generalizing [[geometric quantization]] of [[symplectic geometry]].
