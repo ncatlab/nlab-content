@@ -15,9 +15,6 @@
 
 The assumption that every set has a **Weakly Initial Set of Covers**, or $WISC$, is a weak form of the [[axiom of choice]].  Like the [[axiom of multiple choice]] and the axiom of [[small violations of choice]] (which both imply it), it says intuitively that "$AC$ fails to hold only in a small way" (i.e. not in a [[proper class|proper-class]] way).
 
-According to [[David Roberts]] ([here](https://plus.google.com/103404025783539237119/posts/SPn2gT1c2xA)), $WISC$ is equivalent (over [[ZF]] at least) to the statement that every category of [[anafunctors]] (between two given small [[categories]], with [[ananatural transformations]] between them) is [[essentially small category|essentially small]].  In other words, the [[bicategory]] of small categories and anafunctors is [[locally small|locally]] essentially small.
-
-
 ## Statement (for Sets)
 
 Precisely, $WISC$ is the statement that for any set $X$, the full subcategory $(Set/X)_{surj}$ of the [[slice category]] $Set/X$ consisting of the [[surjections]] has a [[weakly initial set]].  In other words, there is a family of surjections $\{f_i\colon P_i \twoheadrightarrow X\}_{i\in I}$ such that for any surjection $Q\twoheadrightarrow X$, there exists some $f_i$ which factors through $Q$.
@@ -33,9 +30,9 @@ Precisely, $WISC$ is the statement that for any set $X$, the full subcategory $(
 
 * WISC also follows from the assertion that the [[free exact completion]] of $Set$ is [[well-powered category|well-powered]], which in turn follows from assertion that $Set$ has a [[generic proof]] (so that $Set_{ex/lex}$ is a [[topos]]).  Both of these can also be regarded as saying that choice is only violated "in a small way."
 
-* WISC implies that the category of [[anafunctors]] between any two [[small categories]] is [[essentially small category|essentially small]]; see [here](/nlab/show/anafunctor#SizeQuestions).
+* WISC implies that the category of [[anafunctors]] between any two [[small categories]] is [[essentially small category|essentially small]]; see [here](/nlab/show/anafunctor#SizeQuestions), or below.
 
-## Equivalence to local smallness of anafunctor categories
+## Relation to local smallness of anafunctor categories
 
 +--{: .query}
 [[David Roberts]]: Some of the terms may need to be considered in terms of the bicategory of small categories and anafunctors, rather than the 2-category of small categories and functors, for example 'essential smallness'.
@@ -52,7 +49,7 @@ Let $X,Y$ be small categories and consider the category $Cat_{ana}(X,Y)$, with o
 $$
 (j,f) : X \stackrel{j}{\leftarrow} X[U] \stackrel{f}{\to} Y
 $$
-where $X[U] \to X$ is a surjective-on-objects, [[fully faithful]] functor. The underlying map on object sets is $U \to X_0$. By WISC there is a surjection $V \to X_0$ and a map $V\to U$ over X_0$. We can thus define a commuting triangle of functors
+where $X[U] \to X$ is a surjective-on-objects, [[fully faithful]] functor. The underlying map on object sets is $U \to X_0$. By WISC there is a surjection $V \to X_0$ and a map $V\to U$ over $X_0$. We can thus define a commuting triangle of functors
 $$
   \array{ 
     X[V] &  \to  &  X[U]    \\ 
@@ -62,9 +59,6 @@ $$
 $$
 where $X[V] \to X$ is the canonical fully faithful functor arising from $V\to X_0$ (the arrows of $X[V]$ are given by $V^2 \times_{X_0^2} X_1$). This gives rise to a transformation from $(j,f)$ to a span with left leg $k$. Thus $Cat_{ana}(X,Y)$ is equivalent to the [[full subcategory]] of anafunctors where the left leg has as object component an element of the weakly initial set of surjections. Since there is only a set of functors $X[V] \to Y$ for each $V\to X_0$, this subcategory is small.
 =--
-
-
-For the other direction... (to be filled in).
 
 
 ## In other sites
