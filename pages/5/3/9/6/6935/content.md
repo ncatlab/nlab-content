@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _inductive type_ is a [[type]] defined as an [[initial object|initial]] [[algebra for an endofunctor]].
+
+## Example
+
+### Natural numbers
+
+In [[Coq]]-[[syntax]] the [[natural number]]s are the inductive type defined by
+
+    Inductive nat : Type :=
+     | zero : nat
+     | succ : nat -> nat.
+
+## Related concepts
+
+[[!include notions of type]]
+
+## References
+
+Expositions (with an eye towards [[higher inductive types]]) include
+
+* [[Mike Shulman]], _Homotopy type theory IV_ ([web](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html))
+
+* [[Peter LeFanu Lumsdaine]], _Higher inductive types, a tour of the menageries_ ([blog post](http://homotopytypetheory.org/2011/04/24/higher-inductive-types-a-tour-of-the-menagerie/))
+
+[[!redirects inductive types]]
+
