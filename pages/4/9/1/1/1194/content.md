@@ -461,6 +461,9 @@ The following particular type theories are important enough to (potentially) hav
 
 * [[(∞,1)-type theory]], [[(∞,1)-logic]]
 
+[[!include notions of type]]
+
+
 ## Literature
 
 * N. G. de Bruijn, _On the roles of types in mathematics_, [pdf](http://alexandria.tue.nl/repository/freearticles/597627.pdf)
