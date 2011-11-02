@@ -15,6 +15,10 @@ Coq is a formal proof management system. It provides a formal language to write 
 * [[homotopy type theory]]
 
 
+## Related entries
+
+* [[Agda]]
+
 ## References
 
 ### General
