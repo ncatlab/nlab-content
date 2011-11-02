@@ -21,10 +21,7 @@ It is possible to build [[foundations]] of mathematics on [[type theory]] alone.
 
 ## Related concepts
 
-* [[inductive type]]
-
-* [[higher inductive type]]
-
+[[!include notions of type]]
 
 [[!redirects types]]
 [[!redirects domain of discourse]]
