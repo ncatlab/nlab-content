@@ -10,6 +10,8 @@
 
   * [[type]]
 
+    * [[inductive type]], [[higher inductive type]]
+
   * [[context]]
 
   * [[predicate]]
