@@ -150,14 +150,20 @@ induces [[monomorphism]]s on all [[categorical homotopy groups in an (infinity,1
 ### Internally
  {#InternalDefinition}
 
-We reformulate the axioms on a cohesive $(\infty,1)$-topos without references to functors _on_ it, and instead entirely in terms of structures _in_ it.
+We reformulate the [above axioms](#ExternalDefinition) for a cohesive $(\infty,1)$-topos without references to functors _on_ it, and instead entirely in terms of structures _in_ it.
 
-+-- {: .num_lemma}
++-- {: .num_lemma #ReflectiveEmbeddingInternally}
 ###### Lemma
 
 A [[full sub-(∞,1)-category]] $\mathbf{B} \hookrightarrow \mathbf{H}$ is
 
-* [[reflective sub-(∞,1)-category|reflectively embedded]] precisely if for every [[object]] $X \in \mathbf{H}$ there is a [[morphism]] $loc_X : X \to L X$ with $L X \in \mathbf{B} \hookrightarrow \mathbf{H}$ such that for all $Y \in \mathbf{B} \hookrightarrow \mathbf{H}$ the value of the [[(∞,1)-categorical hom-space]]-functor 
+* [[reflective sub-(∞,1)-category|reflectively embedded]] precisely if for every [[object]] $X \in \mathbf{H}$ there is a [[morphism]] 
+
+  $$
+    loc_X : X \to L X
+  $$ 
+
+  (the [[unit of an adjunction|unit]]) with $L X \in \mathbf{B} \hookrightarrow \mathbf{H}$ such that for all $Y \in \mathbf{B} \hookrightarrow \mathbf{H}$ the value of the [[(∞,1)-categorical hom-space]]-functor 
 
   $$
     \mathbf{H}(loc_X, Y) : 
@@ -166,9 +172,15 @@ A [[full sub-(∞,1)-category]] $\mathbf{B} \hookrightarrow \mathbf{H}$ is
     \mathbf{H}(X, Y)
   $$
 
-  is an [[equivalence in an (∞,1)-category|equivalence]] (of [[∞-groupoid]]s. 
+  is an [[equivalence in an (∞,1)-category|equivalence]] (of [[∞-groupoid]]s). 
 
-* coreflectively embedded precisely if for every [[object]] $Y \in \mathbf{H}$ there is a [[morphism]] $coloc_Y : R Y \to Y$ with $R Y \in \mathbf{B} \hookrightarrow \mathbf{H}$ such that for all $X \in \mathbf{B} \hookrightarrow \mathbf{H}$ the value of the [[(∞,1)-categorical hom-space]]-functor 
+* coreflectively embedded precisely if for every [[object]] $Y \in \mathbf{H}$ there is a [[morphism]] 
+
+  $$
+    coloc_Y : R Y \to Y
+  $$ 
+
+  (the [[unit of an adjunction|counit]]) with $R Y \in \mathbf{B} \hookrightarrow \mathbf{H}$ such that for all $X \in \mathbf{B} \hookrightarrow \mathbf{H}$ the value of the [[(∞,1)-categorical hom-space]]-functor 
 
   $$
     \mathbf{H}(X, coloc_Y) : 
@@ -177,12 +189,60 @@ A [[full sub-(∞,1)-category]] $\mathbf{B} \hookrightarrow \mathbf{H}$ is
     \mathbf{H}(X, Y)
   $$
 
-  is an [[equivalence in an (∞,1)-category|equivalence]] (of [[∞-groupoid]]s. 
+  is an [[equivalence in an (∞,1)-category|equivalence]] (of [[∞-groupoid]]s). 
 
 
 =--
 
 This is proven [here](http://ncatlab.org/nlab/show/reflective+sub-%28infinity,1%29-category#CharacterizationOfReflectors).
+
++-- {: .num_lemma}
+###### Lemma
+
+A reflective embedding 
+
+$$
+  coDisc : \mathbf{B} \stackrel{\overset{\tilde \Gamma}{\leftarrow}}{\underset{coDisc}{\hookrightarrow}} \mathbf{H}
+$$
+
+and a coreflective embedding 
+
+$$
+  Disc : \mathbf{B} \stackrel{\overset{Disc}{\hookrightarrow}}{\underset{\Gamma}{\leftarrow}} \mathbf{H}
+$$
+
+fit into a single [[adjoint triple]]
+
+$$
+  \mathbf{H}
+    \stackrel{
+      \overset{Disc}{\hookleftarrow}
+    }{
+     \stackrel{  
+       \overset{\Gamma}{\to}
+     }{
+       \underset{coDisc}{\hookleftarrow}
+     }
+   }
+  \mathbf{B}
+$$
+
+(hence that the coreflector $\tilde\Gamma$ of $Disc$ coincides with reflector $\Gamma$ of $coDisc$) precisely if for the [[unit of an adjunction|unit]] and counit given by  lemma \ref{ReflectiveEmbeddingInternally} we have that
+
+1. $coDisc \tilde \Gamma (Disc \Gamma X \to X)$
+
+1. $Disc \Gamma (X \to coDisc \tilde \Gamma X)$
+
+are [[equivalence in an (∞,1)-category|equivalences]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
 
 Accordingly we have
 
