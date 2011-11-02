@@ -49,7 +49,34 @@ Let $C$ be a given ambient [[(∞,1)-category]].
 
 denotes $Core(C)$, the [[core]] of $C$, hence the maximal [[∞-groupoid]] inside $C$.
 
+    X : Type
+
+An [[object]] in the $(\infty,1)$-category $C$. Equivalently an [[(∞,1)-functor]] $X : * \to C$.
+
+    X (y : Y) : Type
+
+A [[bundle]] $X \to Y$ in $C$. In a presentation of $C$ by a [[category of fibrant objects]]: a [[fibration]].
+
+    Term f : forall x : X, (Y x)
+
+a [[section]] of this bundle
+
+$$
+  \array{
+     && X
+     \\  
+     & {}^{\mathllap{f}}\nearrow& \downarrow
+     \\ 
+     Y &= & Y
+  }
+  \,.
+$$
+
     a ~~> b
+
+or
+
+    Id (a b : X) : Type
 
 for $a,b$ of type $X$ is the object of paths from $a$ to $b$ in $X$, hence the [[homotopy pullback]] of the form
 
@@ -74,6 +101,7 @@ $$
 
 * **$(\infty,1)$-type theory**
 
+[[!include notions of type]]
 
 ## References
  {#References}
@@ -107,6 +135,9 @@ Introductions to HoTT are at
 * [[Andrej Bauer]], ([GitHub](https://github.com/andrejbauer/Homotopy))
 
 * [[Peter LeFanu Lumsdaine]], ([GitHub](https://github.com/peterlefanulumsdaine/Oberwolfach-explorations))
+
+* [[Mike Shulman]], _Higher inductive types_ ([GitHub](https://github.com/HoTT/HoTT/tree/master/Coq/HIT))
+
 
 [[!redirects homotopy type theory]]
 [[!redirects (∞,1)-type theory]]
