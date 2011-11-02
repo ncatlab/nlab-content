@@ -1,0 +1,14 @@
+
+
+
+**[[type]]**, [[type theory]]
+
+* [[inductive type]]
+
+**[[dependent type]]**, [[dependent type theory]]
+
+* [[dependent sum type]], [[dependent product type]] 
+
+**[[homotopy type]]**, [[homotopy type theory]]
+
+* [[higher inductive type]]
