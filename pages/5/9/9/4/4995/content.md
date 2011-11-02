@@ -424,19 +424,19 @@ There is a full subcategory of objects called _codiscrete_ .
 
 Every object has a reflection into a codiscrete object.
 
-    Axiom hash : Type &#8594; Type.
+    Axiom sharp : Type &#8594; Type.
 
-    Axiom hash_is_codiscrete : &#8704; X, is_codiscrete (hash X).
+    Axiom sharp_is_codiscrete : &#8704; X, is_codiscrete (sharp X).
 
-    Axiom map_to_hash : &#8704; X, X &#8594; hash X.
+    Axiom map_to_sharp : &#8704; X, X &#8594; sharp X.
 
-    Axiom hash_is_reflection : &#8704; X Y, is_codiscrete Y &#8594; is_equiv (fun f: hash X &#8594; Y => f &#9675; (map_to_hash X)).
+    Axiom sharp_is_reflection : &#8704; X Y, is_codiscrete Y &#8594; is_equiv (fun f: sharp X &#8594; Y => f &#9675; (map_to_sharp X)).
 
-The coreflector of the discrete objects coincides with the reflector of the codiscrete objects.
+Finally, the categories of discrete and codiscrete objects are equivalent via the adjunction $\sharp\dashv\flat$, and when they are identified along this equivalence, the coreflector into discrete objects coincides with the reflector into codiscrete objects (both being $\Gamma$).
 
-    Axiom codiscrete_respects_discrete : &#8704; X, is_equiv ( hash ( map_from_flat X ) )
+    Axiom codiscrete_respects_discrete : &#8704; X, is_equiv ( functor_map sharp ( map_from_flat X ) )
 
-    Axiom discrete_respects_codiscrete : &#8704; X, is_equiv ( flat ( map_to_hash X ) ) 
+    Axiom discrete_respects_codiscrete : &#8704; X, is_equiv ( functor_map flat ( map_to_sharp X ) ) 
 
 
 ## Properties
