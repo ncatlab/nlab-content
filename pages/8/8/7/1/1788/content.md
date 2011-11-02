@@ -1,4 +1,7 @@
 
++-- {: .article}
+=--
+
 +-- {: .standout}
 Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
 =--
@@ -8,8 +11,6 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 * tic
 {: toc}
-
-+--{ .article}
 
 ## First
 
@@ -155,8 +156,6 @@ A test of **underlining**, with punctuation
 A test of __underlining__, with punctuation
 
 Only it wasn't *underlining*, it was **emphasis**.
-
-=--
 
 category: meta
 
