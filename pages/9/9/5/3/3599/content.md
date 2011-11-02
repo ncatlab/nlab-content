@@ -1,11 +1,22 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
 [[!include type theory - contents]]
-</div>
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 
-In [[type theory]], a **dependent type** is a family of types which vary over the elements (terms) of some other type.  It can be regarded as a formalization of the notion of "indexed family," providing a [[structural set theory|structural]] account of families (in contrast to the [[material set theory|material]] approach which requires sets to be able to contain other sets as elements).
+## Idea
 
-For example, when the theory of a [[category]] is phrased in dependent type theory, there is one type "$obj$" of objects, and a type $hom$ of arrows which is dependent on two terms of type $obj$, so that for any $x,y:obj$ there is a type $hom(x,y)$ of arrows from $x$ to $y$.  This dependency is usually written as $x,y:obj \vdash hom(x,y):Type$.  In some theories, it makes sense to say that the type of "$hom$" itself is $obj, obj\to Type$ (usually understood as $obj \to (obj \to Type)$ or $(\obj \times \obj) \to Type$), i.e. a function from pairs of elements of $A$ to the [[type-theoretic universe|universe]] $Type$ of types.
+In [[type theory]], a **dependent type** is a family of [[types]] which vary over the elements ([[terms]]) of some other type.  It can be regarded as a formalization of the notion of "indexed family," providing a [[structural set theory|structural]] account of families (in contrast to the [[material set theory|material]] approach which requires sets to be able to contain other sets as elements).
 
 In the [categorical semantics of type theory](http://ncatlab.org/nlab/show/type+theory#CategoricalSemantics), a dependent type 
 
@@ -15,12 +26,17 @@ $$
 
 is represented by a particular [[morphism]] $p\colon B\to A$, the intended meaning being that each type $B(x)$ is the [[fiber]] of $p$ over $x\in A$.  The morphism in a category may represent dependent types in this way are sometimes called [[display morphisms]] (especially when not every morphism is a display morphism).
 
-See also:
+## Examples
 
-* [[dependent type theory]]
-* [[Martin-Lof dependent type theory]]
-* [[dependent sum type]]
-* [[dependent product type]]
+When the [[theory]] of a [[category]] is phrased in dependent type theory, there is one type "$obj$" of [[objects]], and a type $hom$ of [[morphisms]] which is dependent on two terms of type $obj$, so that for any $x,y:obj$ there is a type $hom(x,y)$ of arrows from $x$ to $y$.  This dependency is usually written as $x,y:obj \vdash hom(x,y):Type$.  In some theories, it makes sense to say that the type of "$hom$" itself is $obj, obj\to Type$ (usually understood as $obj \to (obj \to Type)$ or $(\obj \times \obj) \to Type$), i.e. a function from pairs of elements of $A$ to the [[type-theoretic universe|universe]] $Type$ of types.
+
+
+## Related concepts
+
+* [[Martin-Löf dependent type theory]]
+
+[[!include notions of type]]
+
 
 
 [[!redirects dependent types]]
