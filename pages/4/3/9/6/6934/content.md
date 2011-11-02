@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[dependent type|dependently type]] programming language. 
+
+Can be used to implement [[homotopy type theory]].
+
+## Related concepts
+
+* [[Coq]]
+
+## References
+
+* [Agda Wiki](http://wiki.portal.chalmers.se/agda/pmwiki.php)
