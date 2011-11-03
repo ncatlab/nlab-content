@@ -2113,6 +2113,8 @@ $$
 
 =--
 
+A formalization of this in [[homotopy type theory]] is given in ([Brunerie](#BrunerieCohesiveHoTTFolder)).
+
 +-- {: .num_prop #DeRhamAdjunction}
 ###### Proposition
 
@@ -2788,6 +2790,9 @@ and the [above proposition](#LieValuesofDeRham).
 We call $\theta$ the **[[Maurer-Cartan form]]** on $G$.
 
 =--
+
+A formalization of this in [[homotopy type theory]] is given in ([Brunerie](#BrunerieCohesiveHoTTFolder)).
+
 
 +-- {: .num_note}
 ###### Note
@@ -3725,40 +3730,22 @@ See [[schreiber:∞-Chern-Simons theory]] for more discussion.
 
 ## References
 
-The [[category theory|category-theoretic]] definition of [[cohesive topos]] was proposed by [[Bill Lawvere]]. See the references at [[cohesive topos]].
+### General
 
-The observation that the further left adjoint $\Pi$ in a [[locally ∞-connected (∞,1)-topos]] defines an intrinsic notion of paths and [[geometric homotopy groups in an (∞,1)-topos]] was suggested by [[Richard Williamson]].
+For general references on [[cohesive (∞,1)-toposes]] see there.
 
-The observation that the further right adjoint $coDisc$ in a [[local (∞,1)-topos]] serves to characterize [[concrete sheaf|concrete (∞,1)-sheaves]] was amplified by [[David Carchedi]].
-
-Several aspects of the discussion here are, more or less explicitly, in 
-
-* [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
-{#SimpsonTeleman}
-
-For instance something similar to the notion of [[infinity-connected (infinity,1)-site|∞-connected site]] and the 
-[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] is the content of section 2.16.  The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3. The notion of geometric realization, \ref{GeometricRealization}, is touched on around remark 2.22, referring to
-
-* [[Carlos Simpson]], _The topological realization of a simplicial presheaf_ , [arXiv:q-alg/9609004](http://arxiv.org/abs/q-alg/9609004).
- {#Simpson} 
-
-But, more or less explicitly, the presentation of geometric realization of simplicial presheaves is much older, going back to Artin-Mazur. See [[geometric homotopy groups in an (∞,1)-topos]] for a detailed commented list of literature.
-
-A characterization of infinitesimal extensions and formal smoothness by adjoint functors (discussed at [[infinitesimal cohesion]]) is considered in 
-
-* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
- {#KontsevichRosenbergSpaces}
-
-in the context of _[[Q-categories]]_ .
-
-The material presented here is also in section 2 of
+The above list of structures in any cohesive $(\infty,1)$-topos is the topic of section 2.3 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
 
-A commented list of further related references is at
+### Formulation in homotopy type theory
 
-* [[schreiber:differential cohomology in an (∞,1)-topos -- references
-  |differential cohomology in a cohesive topos -- references]]
+Formalizations of some structures in cohesive $(\infty,1)$-toposes in terms of [[homotopy type theory]] -- _cohesive homotopy type theory_ -- are (in [[Coq]]-notation) in 
+
+* [[Guillaume Brunerie]], _[HoTT/Coq/Cohesion](https://github.com/guillaumebrunerie/HoTT/tree/master/Coq/Cohesion)_
+  {#BrunerieCohesiveHoTTFolder}
+
+
 
 [[!redirects cohesive (∞,1)-topos -- structures]]
 
