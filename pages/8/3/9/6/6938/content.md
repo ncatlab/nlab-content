@@ -3,7 +3,7 @@
 
 **[[type]]**, [[type theory]]
 
-* [[inductive type]]
+* [[propositions as types]], [[inductive type]], [[W-type]]
 
 **[[dependent type]]**, [[dependent type theory]]
 
