@@ -1,5 +1,15 @@
-# W-types
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+# W-types
 * toc
 {: toc}
 
@@ -59,11 +69,15 @@ The main distinction from the naive categorical theory above is that the map $f$
 
 However, in the absence of extensionality (i.e. in *intensional* type theory), W-types cannot be proven to be initial algebras for the corresponding polynomial endofunctor.  In particular, the constructors cannot be proven to be injective.  This applies already for the natural numbers: in ordinary Martin-Lof type theory the successor function on natural numbers cannot be proven to be injective.
 
+## Related concepts
+
+[[!include notions of type]]
 
 ## References
 
-* Moerdijk and Palmgren, "Wellfounded trees in categories"
-*  Benno van den Berg & Ieke Moerdijk (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
+* [[Ieke Moerdijk]] and Palmgren, "Wellfounded trees in categories"
+
+*  [[Benno van den Berg]],  [[Ieke Moerdijk]] (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
 
 [[!redirects W-types]]
 
