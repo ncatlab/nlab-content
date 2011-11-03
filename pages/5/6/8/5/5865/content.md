@@ -235,7 +235,7 @@ Notice that since the cohesive $(\infty,1)$-topos $\mathbf{H}$ has [[homotopy di
 
 We may therefore unambiguously speak of **concrete cohesive $\infty$-groups**.
 
-+-- {: .num_def}
++-- {: .num_defn}
 ###### Definition
 
   For $f : Y \to Z$ any morhism in $\mathbf{H}$
@@ -1192,7 +1192,8 @@ is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ 
 
 
 
-### Geometric homotopy and Galois theory {#Homotopy}
+### Geometric homotopy and Galois theory 
+ {#Homotopy}
 
 We discuss canonical internal realizations of the notions of [[homotopy group]], [[local system]] and [[Galois theory]] in $\mathbf{H}$.
 
@@ -1233,7 +1234,7 @@ In presentations of $\mathbf{H}$ by a [[model structure on simplicial presheaves
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 We say a **geometric [[homotopy]]** between two morphism $f,g : X \to Y$
@@ -1257,7 +1258,7 @@ such that $I$ is geometrically connected, $\pi_0^{geom}(I) = *$.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $f,g : X\to Y$ are geometrically homotopic in $\mathbf{H}$, then their images $\Pi(f), \Pi(g)$ are 
@@ -1311,7 +1312,7 @@ the equivalence $\Pi(f) \Rightarrow \Pi(g)$ in $\infty Grpd$.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathbf{H}$ a [[locally ∞-connected (∞,1)-topos]], also all its objects $X \in \mathbf{H}$ are locally $\infty$-connected, in the sense  their [[petit topos|petit]] [[over-(∞,1)-toposes]] $\mathbf{H}/X$ are locally $\infty$-connected.
@@ -1344,7 +1345,7 @@ and $X_!$ is given by sending $(Y \to X) \in \mathbf{H}/X$ to $Y \in \mathbf{H}$
 =--
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $\kappa$ a [[regular cardinal]] write 
@@ -1357,7 +1358,7 @@ for the [[∞-groupoid]] of $\kappa$-[[small (∞,1)-category|small ∞-groupoid
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 We have 
@@ -1372,7 +1373,7 @@ where the coproduct ranges over all $\kappa$-small [[homotopy type]]s $[F_i]$ an
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $X \in \mathbf{H}$ write
@@ -1386,7 +1387,7 @@ We call this the $\infty$-groupoid of **[[locally constant ∞-stack]]s** on $X$
 
 =--
 
-+-- {: .un_observation}
++-- {: .num_observation}
 ###### Observation
 
 Since $Disc$ is [[left adjoint]] and [[right adjoint]] it commutes with [[coproduct]]s and with [[delooping]] and therefore
@@ -1405,7 +1406,7 @@ Therefore a cocycle $P \in LConst(X)$ may be identified on each geometric connec
 
 The following proposition says that the central statements of [[Galois theory]] hold for these canonical notions of geometric homotopy groups and locally constant $\infty$-stacks.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathbf{H}$ [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]], we have
@@ -1506,7 +1507,7 @@ $$
 
 are preserved by $\Pi \circ inj : Conc(\mathbf{H}) \to \infty Grpd$. These colimits are computed by first computing them in $\mathbf{H}$ and then applying the concretization functor. So we have
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 Let $U_\bullet : K \to Conc(\mathbf{H})$ be a [[diagram]] such that
@@ -1526,7 +1527,7 @@ $$
 
 In the [Examples](#Examples) we discuss the cohesive $(\infty,1)$-topos $\mathbf{H} = (\infty,1)Sh(TopBall)$ of [[topological ∞-groupoid]]s For that case we recover the ordinary [[higher van Kampen theorem]]:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $X$ be a [[paracompact space|paracompact]] or [[locally contractible space|locally contractible]] [[topological space]]s and $U_1 \hookrightarrow X$, $U_2 \hookrightarrow X$ a [[covering]] by two [[open subsets]].
@@ -1593,7 +1594,7 @@ The proposition now follows with the above observation that $\Pi$ preserves all 
 The [above](#Homotopy) construction of the 
 [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] of objects in $\mathbf{H}$ as an object in  [[∞Grpd]] may be reflected back into $\mathbf{H}$, where it gives a notion of homotopy [[path n-groupoid]]s and a geometric notion of [[Postnikov tower]]s of objects in $\mathbf{H}$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $\mathbf{H}$ a [[locally ∞-connected (∞,1)-topos]]
@@ -1665,7 +1666,7 @@ $$
   \,.
 $$
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 If $\mathbf{H}$ is cohesive, then $\mathbf{\flat}$ has a [[right adjoint]] $\mathbf{\Gamma}$
@@ -1685,7 +1686,7 @@ and this makes $\mathbf{H}$ be $\infty$-connected and locally $\infty$-connected
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Proposition
 
 Let $\mathbf{H}$ be a [[locally ∞-connected (∞,1)-topos]]. If $X \in \mathbf{H}$ is [[small-projective]] then the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is 
@@ -1704,7 +1705,7 @@ The first statement is proven at [[locally ∞-connected (∞,1)-topos]], the se
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Proposition
 
 In a cohesive $(\infty,1)$-topos $\mathbf{H}$, if $X$ is 
@@ -1739,7 +1740,7 @@ where in the last step we used that $X$ is [[small-projective]] by assumption.
 
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $X \in \mathbf{H}$ we say that the **geometric Postnikov tower**
@@ -1759,7 +1760,7 @@ $$
 
 We discuss an intrinsic notion of [[Whitehead tower]]s in a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos]] $\mathbf{H}$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $X \in \mathbf{H}$ a [[pointed object]], the **[[Whitehead tower in an (∞,1)-topos|geometric Whitehead tower]]** of $X$ is the sequence of objects 
@@ -1801,7 +1802,7 @@ where the object $\mathbf{B}^n \mathbf{\pi}_n(X)$ is defined as the [[homotopy f
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Every object $X \in \mathbf{H}$ is covered by objects of the form $X^{\mathbf{(\infty)}}$ for different choices of base points in $X$, in the sense that every $X$ is the [[(∞,1)-colimit]] over a [[diagram]] whose vertices are of this form.
@@ -1832,7 +1833,7 @@ The left morphism is the [[(∞,1)-pullback]] along $i$ of this equivalence, hen
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The inclusion $\Pi(i^* *) \to \Pi(X)$ of the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] $\Pi(i^* *)$ of each of these objects into $\Pi(X)$ is homotopic to the point.
@@ -1867,7 +1868,8 @@ Then the bottom morphism is an equivalence by the $(\Pi \dashv Disc)$-[[zig-zag-
 
 
 
-### Flat $\infty$-connections and local systems {#FlatDifferentialCohomology}
+### Flat $\infty$-connections and local systems 
+  {#FlatDifferentialCohomology}
 
 We describe for a [[locally ∞-connected (∞,1)-topos]] $\mathbf{H}$ a canonical intrinsic notion of _flat_ [[connections on ∞-bundles]], _flat_ [[higher parallel transport]] and higher [[local system]]s.
 
@@ -1884,7 +1886,7 @@ $$
   \,.
 $$
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $X, A \in \mathbf{H}$ we write
@@ -1908,26 +1910,63 @@ we say is the [[forgetful functor]] that forgets flat connections.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The object $\mathbf{\Pi}(X)$ has the interpretation of the [path ∞-groupoid](#Paths) of $X$: it is a cohesive $\infty$-groupoid whose [[k-morphism]]s may be thought of as generated from the $k$-morphisms in $X$ and $k$-dimensional cohesive paths in $X$.
 
 Accordingly a mophism $\mathbf{Pi}(X) \to A$ may be thought of as assigning
 
-* to each point of $X$ a fiber in $A$;
+* to each point $x \in X$ a fiber $P_x$ in $A$;
 
-* to each path in $X$ an equivalence between these fibers;
+* to each path $\gamma : x_1 \to x_2$ in $X$ an [[equivalence in an (infinity,1)-category|equivalence]] $\nabla(\gamma) : P_{x_1} \to P_{x_2}$ between these fibers (the [[parallel transport]] along $\gamma$);
 
-* to each disk in $X$ a  2-equivalalence between these equivaleces associated to its boundary
+* to each disk $\Sigma$ in $X$ a [[2-morphism|2-equivalalence]] $\nabla(\Sigma)$ between these equivaleces associated to its boundary (the [[higher parallel transport]])
 
 * and so on.
 
-This we think of as encoding a flat [[higher parallel transport]] on $X$, coming from some flat $\infty$-connection and _defining_ this flat $\infty$-connection.
+$$
+  \array{
+     &&
+     && P_{x_2}
+     \\
+     A 
+     &&
+     & {}^{\mathllap{\nabla(\gamma_1)}}\nearrow  
+     &
+      \Downarrow^{\nabla(\Sigma)}
+     & 
+     \searrow^{\mathrlap{\nabla(\gamma_2)}}
+     \\
+     \uparrow^{\mathrlap{\nabla}} &&
+     P_{x_1}
+     &&\underset{\nabla(\gamma_3)}{\to}&&
+     P_{x_3}
+     \\
+     &&
+     && x_2
+     \\
+     \mathbf{\Pi}(X)
+     &&
+     & {}^{\mathllap{\gamma_1}}\nearrow &
+       \Downarrow^{\Sigma}
+     & \searrow^{\mathrlap{\gamma_2}}
+     \\
+     &&
+     x_1
+     &&\underset{\gamma_3}{\to}&&
+     x_3
+  }
+$$
+
+
+This we think of as encoding a flat [[higher parallel transport]] on $X$, coming from some flat $\infty$-connection and _defining_ this flat $\infty$-connection. 
+
+For a _non-flat_ $\infty$-connection the parallel transport $\nabla(\gamma_3^{-1}\circ \gamma_2\circ \gamma_1)$ around a contractible loop as above need not be equivalent to the identity. We will obtain a formal notion of non-flat parallel transport [below](#ChernWeilTheory).
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 
@@ -1961,7 +2000,9 @@ $$
 
 We call $\mathbf{\flat}A$ the **coefficient object for flat $A$-connections**. 
 
-+-- {: .un_prop}
+The following lists some basic properties of objects of the form $\mathbf{\flat}A$ and their interpretation in terms of flat $\infty$-connections.
+
++-- {: .num_prop}
 ###### Proposition
 
 For $G := Disc G_0 \in \mathbf{H}$ a [[discrete ∞-groupoid|discrete ∞-group]] the canonical morphism $\mathbf{H}_{flat}(X,\mathbf{B}G) \to \mathbf{H}(X,\mathbf{B}G)$ is an [[equivalence in an (∞,1)-category|equivalence]].
@@ -1975,7 +2016,7 @@ Since $Disc$ is a [[full and faithful (∞,1)-functor]] we have that the  [[unit
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This says that for discrete structure [[∞-group]]s $G$ there is an essentially unique flat $\infty$-connection on any $G$-[[principal ∞-bundle]]. Moreover, the further equivalence
@@ -1994,13 +2035,51 @@ of this unique $\infty$-connection.
 
 =--
 
++-- {: .num_remark #UnderlyingGroupoidOfFlat}
+###### Remark
+
+Since $(Disc \dashv \Gamma)$ is a [[reflective sub-(∞,1)-category|coreflection]], we have that for any cohesive $\infty$-groupoid $A$ the underlying [[discrete ∞-groupoid]] $\Gamma A$ coincides with the underlying $\infty$-groupoid $\Gamma \mathbf{\flat}A $ of $\mathbf{\flat}A$:
+
+$$  
+  \Gamma \mathbf{\flat} A \stackrel{\simeq}{\to} \Gamma A  
+  \,.
+$$
+
+To interpret this it is useful to think of $A$ as a [[moduli stack]] for principal $\infty$-bundles. This is most familiar in the case that $A$ is [[0-connected|connected]], in which case by [the above](#InfinGroups) we write it $A = \mathbf{B}G$ for some cohesive [[∞-group]] $G$. 
+
+In terms of this we may say that
+
+1. $\mathbf{B}G$ is the [[moduli stack|moduli ∞-stack]] of $G$-[[principal ∞-bundles]];
+
+1. $\mathbf{\flat} \mathbf{B}G$ is the moduli $\infty$-stack of $G$-principal $\infty$-bundles equipped with a flat $\infty$-connection.
+
+Therefore 
+
+$$
+  \Gamma \mathbf{B}G \simeq \mathbf{H}(*, \mathbf{B}G)
+$$ 
+
+is the [[∞-groupoid]] of $G$-principal $\infty$-bundles _over the point_ (the [[terminal object]] in $\mathbf{H}$). Similarly
+
+$$
+  \Gamma \mathbf{\flat}\mathbf{B}G \simeq \mathbf{H}(*, \mathbf{\flat}\mathbf{B}G)
+$$ 
+
+is the $\infty$-groupoid of _flat_ $G$-principal $\infty$-bundles over the point.
+
+So the equivalence $\Gamma \mathbf{\flat}\mathbf{B}G \simeq \Gamma \mathbf{B}G$ says that over the point every $G$-principal $\infty$-bundle carries an essentially unique flat $\infty$-connection. This is certainly what one expects, and certainly the case for ordinary [[connection on a bundle|connections]] on ordinary [[principal bundle]]s. 
+
+Notice here that the axioms of cohesion imply in particular that the terminal object $* \in \mathbf{H}$ really behaves like a geometric point: it has underlying it a single point, $\Gamma * \simeq *$, and its [geometric homotopy type](#Homotopy) is that of the point, $\Pi(*) \simeq *$.
+
+=--
+
 
 ### de Rham cohomology 
   {#deRhamCohomology}
 
 In every [[locally ∞-connected (∞,1)-topos]] $\mathbf{H}$ there is an intrinsic notion of [[nonabelian cohomology|nonabelian]] [[de Rham cohomology]].
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $X \in \mathbf{H}$ an object, write $\mathbf{\Pi}_{dR}X := * \coprod_X \mathbf{\Pi} X$
@@ -2034,7 +2113,7 @@ $$
 
 =--
 
-+-- {: .un_prop #DeRhamAdjunction}
++-- {: .num_prop #DeRhamAdjunction}
 ###### Proposition
 
 This construction yields a pair of [[adjoint (∞,1)-functor]]s 
@@ -2155,7 +2234,7 @@ $$
 
 =--
 
-+-- {: .un_prop #TripleOfDeRhamAdjunctions}
++-- {: .num_prop #TripleOfDeRhamAdjunctions}
 ###### Observation
 
 If $\mathbf{H}$ is also [[local (∞,1)-topos|local]], then there is a further [[right adjoint]] $\mathbf{\Gamma}_{dR}$
@@ -2187,7 +2266,7 @@ This follows by the same kind of argument as above.
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $X, A \in \mathbf{H}$ we write
@@ -2208,7 +2287,7 @@ is the **de Rham cohomology** of $X$ with coefficients in $A$.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Observation
 
 A [[cocycle]] in de Rham cohomology
@@ -2255,7 +2334,7 @@ $$
 The bottom horizontal morphism is a flat connection on the 
 $\infty$-bundle given by the cocycle $X \to \mathbf{\Pi}(X) \stackrel{\omega}{\to} A$. The diagram says that this is equivalent to the trivial bundle given by the trivial cocycle $X \to * \to A$.
 
-+-- {: .un_prop #deRhamWithDiscCoeffsIsTrivial}
++-- {: .num_prop #deRhamWithDiscCoeffsIsTrivial}
 ###### Proposition
 
 The de Rham cohomology with coefficients in discrete objects is trivial: for all $S \in \infty Grpd$ we have
@@ -2292,7 +2371,7 @@ since the pullback of an equivalence is an equivalence.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 In a cohesive $\mathbf{H}$  _[pieces have points](#PiecesHavePoints)_ precisely if for all $X \in \mathbf{H}$, the de Rham coefficient object $\mathbf{\Pi}_{dR} X $ is
@@ -2374,7 +2453,7 @@ $U \to * \to X$ of which there is by assumption at least one, this is the case.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 In summary this means that in a cohesive $(\infty,1)$-topos the objects $\mathbf{\Pi}_{dR} X$ have the abstract properties of [[de Rham schematic homotopy type|pointed geometric de Rham homotopy types]].
@@ -2389,7 +2468,7 @@ In degree 0 the intrinsic de Rham cohomology is necessrily trivial, while in deg
 ### Exponentiated $\infty$-Lie algebras {#LieAlgebras}
 
 
-+-- {: .un_def #ExponentiatedLieAsGeometricallyContractible}
++-- {: .num_def #ExponentiatedLieAsGeometricallyContractible}
 ###### Definition
 
 
@@ -2406,7 +2485,7 @@ $\exp(\mathfrak{g}) := \Omega_* \mathbf{B}\exp(\mathfrak{g})$ the  **[[Lie integ
 
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Set
@@ -2421,7 +2500,7 @@ $$
 
 =--
 
-+-- {: .un_prop #LieAsALeftAdjoint}
++-- {: .num_prop #LieAsALeftAdjoint}
 ###### Observation
 
 
@@ -2443,7 +2522,7 @@ $$
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Proposition/Example
 
 For all $X$ the object $\mathbf{\Pi}_{dR}(X)$ is geometrically contractible.
@@ -2476,7 +2555,7 @@ where we used that in the [[∞-connected (∞,1)-topos|∞-connected]] $\mathbf
 
 =--
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 We have for every $\mathbf{B}G$ that $\exp Lie \mathbf{B}G$ is geometrically contractible.
@@ -2487,7 +2566,7 @@ We have for every $\mathbf{B}G$ that $\exp Lie \mathbf{B}G$ is geometrically con
 We shall write $\mathbf{B}\exp(\mathfrak{g})$ for $\exp Lie \mathbf{B}G$, when the context is clear. 
 
 
-+-- {: .un_prop #LieValuesofDeRham}
++-- {: .num_prop #LieValuesofDeRham}
 ###### Proposition
 
 
@@ -2520,7 +2599,7 @@ $\exp Lie \mathbf{B}G \to \mathbf{B}G$.
 Therefore instead of speaking of a $G$-valued de Rham cocycle, it is less  redundant to speak of an $\exp(\mathfrak{g})$-valued de Rham cocycle. In particular we have the following.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Corollary
 
 Every morphism $\exp Lie \mathbf{B}H \to \mathbf{B}G$ from an exponentiated $\infty$-Lie algebra to an $\infty$-group factors through the exponentiated $\infty$-Lie algebra of that $\infty$-group
@@ -2539,7 +2618,7 @@ $$
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $\mathbf{H}$ is cohesive then we have 
@@ -2932,7 +3011,7 @@ that [defines](#CurvatureCharacteristics) $curv$ (using that $\mathbf{\flat}$ pr
 
 The following establishes the characteristic [[short exact sequences]] that characterizes intrinsic [[differential cohomology]] as an extension of curvature forms by flat $\infty$-bundles and of bare $\infty$-bundles by connection forms.
 
-+-- {: .un_prop #CurvatureExactSequence}
++-- {: .num_prop #CurvatureExactSequence}
 ###### Proposition
 
 Let $im F \subset H_{dR}^{n+1}(X, A)$ be the [[image]] of the curvatures. Then the differential cohomology group $H_{diff}^n(X,A)$ fits into a [[short exact sequence]]
@@ -3264,7 +3343,7 @@ $$
 
 for all $n \geq 1$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -3306,7 +3385,7 @@ $\infty$-Chern-Weil homomorphism from taking values in
 to values in [intrinsic differential cohomology](#DifferentialCohomology).
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $X \in \mathbf{H}$ any object, define the [[∞-groupoid]] $\mathbf{H}_{conn}(X,\mathbf{B}G)$ as the [[(∞,1)-pullback]]
@@ -3347,7 +3426,7 @@ We say
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 Under the [[curvature]] projection $[F] : H_{diff}^n (X,A) \to H_{dR}^{n+1}(X,A)$ the refined Chern-Weil homomorphism for $\mathbf{c}$ projects to the unrefined Chern-Weil homomorphism.
@@ -3419,15 +3498,17 @@ $$
 
 (...)
 
-### Higher holonomy and Chern-Simons functional 
-  {#ChernSimonsTheory}
+### Higher holonomy 
+ {#HigherHolonomy}
 
 The notion of [intrinsic ∞-connections](#ChernWeilTheory) in a 
-cohesive $(\infty,1)$-topos induces a notion of [[higher parallel transport|higher holonomy]] and [[Chern-Simons theory|Chern-Simons functionals]].
+cohesive $(\infty,1)$-topos induces a notion of [[higher parallel transport|higher holonomy]] 
 
-We shall define higher [[holonomy]] over $\Sigma \to X$ effectively as the value of the [[transgression]], in a slight refinement of the [above sense](#Transgression), of the given differential cocycle on $X$ to $[\Sigma,X]$.
 
-+-- {: .un_prop}
+
+We shall define [[higher holonomy]] over $\Sigma \to X$ effectively as the value of the [[transgression]], in a slight refinement of the [above sense](#Transgression), of the given differential cocycle on $X$ to $[\Sigma,X]$.
+
++-- {: .num_prop}
 ###### Observation
 
 If $\Sigma \in \mathbf{H}$ has [cohomological dimension](#CohomologicalDimension) $\leq n$ then its  [intrinsic de Rham cohomology](#deRhamCohomology) vanishes in degree $k \gt n$
@@ -3473,7 +3554,7 @@ Let now again $A$ be fixed as [above](#DifferentialCohomology).
 
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let $\Sigma \in \mathbf{H}$, $n \in \mathbf{N}$ with
@@ -3545,6 +3626,18 @@ $$
 $$ 
 
 =--
+
+
+
+### Chern-Simons functional 
+  {#ChernSimonsTheory}
+
+
+The notion of [intrinsic ∞-connections](#ChernWeilTheory) 
+and their [higher holonomy](#HigherHolonomy) in a 
+cohesive $(\infty,1)$-topos induces an intrinsic notion of
+and [[schreiber:∞-Chern-Simons theory|higher Chern-Simons functionals]].
+
 
 +-- {: .num_defn}
 ###### Definition
