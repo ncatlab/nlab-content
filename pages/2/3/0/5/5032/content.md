@@ -15,7 +15,7 @@
 
 ## Idea
 
-An _$(\infty,1)$-geometric morphism_ is a [[morphism]] between [[(∞,1)-topos]]es. 
+By [[categorification]] of the notion of [[geometric morphism]], an _$(\infty,1)$-geometric morphism_ is a pair of [[adjoint (∞,1)-functor]]s between [[(∞,1)-topos]]es where the leftadjoint is left-exact. 
 
 
 ## Definition
