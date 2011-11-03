@@ -19,7 +19,7 @@
 
 ### In components
 
-A ($\mathbb{Z}$-graded) **chain complex** in a [[category]] $C$ with a notion of [[zero morphism]] is a sequence of [[object]]s $V_n$, $n\in\mathbb{Z}$, and [[morphism]]s $\partial_n:V_n \to V_{n-1}$ called [[differential|codifferentials]] or _boundary maps_:
+A ($\mathbb{Z}$-graded) **chain complex** in a [[category]] $C$ with a notion of [[zero morphism]] (usually [[abelian category|abelian]]) is a sequence of [[object]]s $V_n$, $n\in\mathbb{Z}$, and [[morphism]]s $\partial_n:V_n \to V_{n-1}$ called [[differential|codifferentials]] or _boundary maps_:
 
 $$ 
 \cdots \overset{\partial_3}{\to} V_2 \overset{\partial_2}{\to} V_1 \overset{\partial_1}{\to} V_0 \overset{\partial_0}{\to} V_{-1} \overset{\partial_{-1}}{\to} \cdots
@@ -37,7 +37,14 @@ Note that in particular, a chain complex is a [[graded object]] with extra struc
 
 ## Examples
 
-In $C =$ [[Vect]] a chain complex is also called a [[differential graded vector space]], consistent with other terminology such as [[differential graded algebra]]. 
+### Over a field
+
+In $C =$ [[Vect]]$_k$ a chain complex is also called a [[differential graded vector space]], consistent with other terminology such as [[differential graded algebra]].  This is also a special case in other ways: every chain complex over a field is [[quasi-isomorphism|quasi-isomorphic]] to its [[homology]] (the latter considered as a chain complex with zero differentials).  Nothing of the sort is true for chain complexes in more general categories.
+
+### In chain complexes
+
+A chain complex in a category of chain complexes is called a [[double complex]].
+
 
 ## Properties
 
