@@ -10,7 +10,7 @@
 
   * [[type]]
 
-    * [[inductive type]], [[higher inductive type]]
+    * [[propositions as types]], [[inductive type]], [[dependent type]]
 
   * [[context]]
 
@@ -19,10 +19,6 @@
   * [[axiom]]
 
 * [[display map]]
-
-* [[dependent type]]
-
-* [[propositions as types]]
 
 * [[internal logic]], [[categorical semantics]]
 
