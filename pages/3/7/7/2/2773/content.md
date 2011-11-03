@@ -44,7 +44,7 @@ Although $Ho(Cat)$-categories are not very useful, there are some interesting th
 * Any [[2-functor]] between bicategories which induces an equivalence of underlying $Ho(Cat)$-categories is in fact itself an equivalence of bicategories (or "biequivalence").
 
 
-# Other limits and colimits
+# Other limits and colimits {#OtherLimits}
 
 Although $Ho(Cat)$ has products and coproducts, like most homotopy categories it is not well-endowed with other [[limits]].  The following concrete example shows that it (and also $Ho(Gpd)$) fails to have [[pullbacks]].
 
