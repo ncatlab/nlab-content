@@ -165,7 +165,7 @@ There is a model structure on $Ch^{\bullet\geq 0}(A)_{tot}$ whose
 +-- {: .num_example}
 ###### Example
 
-If $C = $ [[Vect]] is a category of [[vector space]]s over some field, we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence. 
+If $C = $ [[Vect]] is a category of [[vector space]]s over some field, we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence.  Moreover, in this case every chain complex is quasi-isomorphic to its [[homology]] (regarded as a chain complex with zero differentials).
 
 This is the model structure which induces the [[transferred model structure|transferred]] [[model structure on dg-algebra]]s over a field. 
 
