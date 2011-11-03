@@ -11,4 +11,4 @@
 
 **[[homotopy type]]**, [[homotopy type theory]]
 
-* [[higher inductive type]]
+* [[identity type]], [[higher inductive type]]
