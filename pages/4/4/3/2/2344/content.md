@@ -295,6 +295,10 @@ If $C$ is a [[model category]], then $Ho(C)$ is a derivator.
 
 Axioms (Der1), (Der2), and (Der5) are easy to check.  Axiom (Der3) is also easy, since [[homotopy limits]] and colimits in categories with weak equivalences are [[derived functor]]s of the usual limits and colimits, and so they supply left and right adjoints to derived pullback functors.  (This shows moreover that homotopy limits and Kan extensions in a model category coincide with the notions of homotopy limit and Kan extension in its homotopy derivator, so that by working in $Ho(C)$ we really are studying the things we want to study.)  Axiom (Der4) requires a bit of work; there is a proof for combinatorial model categories using the [[injective model structure]] in [(Groth)](#Groth).
 
+Note that if $C$ is any complete and cocomplete 1-category, we can equip it with its [[trivial model structure]] in which the only weak equivalences are isomorphisms.  Then the above derivator $Ho(C)$ is the same as the representable prederivator $D_C(X)$, which can easily be proven to be a derivator directly.
+
+In this connection, it is interesting to point out that a given homotopy category can admit multiple "enrichments" to a derivator.  For instance, the homotopy category of the model category of chain complexes over a field is equivalent to the category of graded modules over that field, which is itself complete and cocomplete.  Thus we have two distinct derivators, which have equivalent underlying homotopy categories $D(*)$.
+
 
 ### From $(\infty,1)$-categories
 
