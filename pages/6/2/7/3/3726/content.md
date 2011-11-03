@@ -25,11 +25,12 @@ The [[Whitehead tower]] construction produces $n$-connected objects.
 
 
 ## Definition
+ {#Definition}
 
 +-- {: .num_defn}
 ###### Definition
 
-An [[object]] $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **$n$-connected** for $n \in \mathbb{N}$ if
+An [[object]] $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **$n$-connected** for $ -1 \leq n \in \mathbb{Z}$ if
 
 1. the [[terminal object|terminal]] morphism $X \to *$ is an [[effective epimorphism]];
 
@@ -41,7 +42,7 @@ An [[object]] $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **$n$-connected
      \,.
    $$
   
-A [[morphism]] $f : X \to Y$ in an $(\infty,1)$-topos is $n$-connected if 
+A [[morphism]] $f : X \to Y$ in an $(\infty,1)$-topos is called **$n$-connected** if 
 
 1. it is an [[effective epimorphism in an (∞,1)-category]]
 
@@ -52,11 +53,16 @@ A [[morphism]] $f : X \to Y$ in an $(\infty,1)$-topos is $n$-connected if
 
 =--
 
-By convention every object is $(-2)$-connected.
-
-Notice that [[effective epimorphism in an (∞,1)-category|effective epimorphisms]] are precisely the $(-1)$-connected morphisms.
-
 This appears as [[Higher Topos Theory|HTT, def. 6.5.1.10]], but under the name "$(n+1)$-connective".  Another possible term is "$n$-simply connected"; see [[n-connected space]] for discussion.
+
+One adopts the following convenient terminology.
+
+* Every object is $(-2)$-connected.
+
+* A 0-connected object is simply called a **connected object**.
+
+Notice that [[effective epimorphism in an (∞,1)-category|effective epimorphisms]] are precisely the $(-1)$-connected morphisms. For more on this see _[[n-connected/n-truncated factorization system]]_.
+
 
 
 ## Properties
