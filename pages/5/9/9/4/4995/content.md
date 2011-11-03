@@ -382,7 +382,7 @@ Moreover, if $\mathbf{H}, \mathbf{B}$ both have a [[terminal object in an (∞,1
 ### Formulation in homotopy type theory
   {#DefinitionInHomotopyTypeTheory}
 
-We state the above [internal definition](#InternalDefinition) of a cohesive $(\infty,1)$-topos in the formal language of [[homotopy type theory]].
+We state the above [internal definition](#InternalDefinition) of a cohesive $(\infty,1)$-topos in the formal language of [[homotopy type theory]]. For [[Coq]]-implementations see the [references below](#ReferencesInHoTT).
 
     Require Import Homotopy Utf8.
 
@@ -659,13 +659,15 @@ and
 
 ## References
 
-The [[category theory|category-theoretic]] definition of [[cohesive topos]] was proposed by [[Bill Lawvere]]. See the references at [[cohesive topos]].
+### Precursors
+
+The [[category theory|category-theoretic]] definition of [[cohesive topos]] was proposed by [[Bill Lawvere]]. See the references at _[[cohesive topos]]_.
 
 The observation that the further left adjoint $\Pi$ in a [[locally ∞-connected (∞,1)-topos]] defines an intrinsic notion of paths and [[geometric homotopy groups in an (∞,1)-topos]] was suggested by [[Richard Williamson]].
 
 The observation that the further right adjoint $coDisc$ in a [[local (∞,1)-topos]] serves to characterize [[concrete sheaf|concrete (∞,1)-sheaves]] was amplified by [[David Carchedi]].
 
-Several aspects of the discussion here are, more or less explicitly, in 
+Some aspects of the discussion here are, more or less explicitly, in 
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 {#SimpsonTeleman}
@@ -685,6 +687,8 @@ A characterization of infinitesimal extensions and formal smoothness by adjoint 
 
 in the context of _[[Q-categories]]_ .
 
+### On cohesive $(\infty,1)$-toposes proper
+
 The material presented here is also in section 2 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
@@ -694,7 +698,14 @@ A commented list of further related references is at
 * [[schreiber:differential cohomology in an (∞,1)-topos -- references
   |differential cohomology in a cohesive topos -- references]]
 
+### In homotopy type theory
+  {#ReferencesInHoTT}
 
+Formalizations of cohesive $(\infty,1)$-category theory in [[homotopy type theory]] -- _cohesive homotopy type theory_ -- are (in [[Coq]]-notation) in 
+
+* [[Guillaume Brunerie]], _[HoTT/Coq/Cohesion](https://github.com/guillaumebrunerie/HoTT/tree/master/Coq/Cohesion)_
+
+* [[Jelle Herold]], _[HoTT/Coq/Cohesive.v](https://github.com/0x01/HoTT/blob/05db0bca04e5ffecf0f559940934f22b915c28fc/Coq/Cohesive.v)_
 
 [[!redirects cohesive (∞,1)-topos]]
 
@@ -703,6 +714,7 @@ A commented list of further related references is at
 
 [[!redirects cohesive (∞,1)-topoi]]
 [[!redirects cohesive (infinity,1)-topoi]]
+
 
 
 [[!redirects cohesive ∞-groupoid]]
