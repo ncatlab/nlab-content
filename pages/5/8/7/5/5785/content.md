@@ -47,6 +47,8 @@ but now over the new _base topos_ $\mathcal{S}$. This is a [[morphism]] in the [
 
 One can develop essentially all of [[topos theory]] in $Topos/\mathcal{S}$ instead of in $Topos$ itself.
 
+To some extent it is also possible to speak of a base topos entirely [[internal logic|internally]] to a given topos. See for instance ([AwodeyKishida](#AwodeyKishida)).
+
 ## Constructions
 
 +-- {: .num_defn}
@@ -95,9 +97,14 @@ By the discussion at [[indexed category]].
 
 ## References
 
-Section B3 of
+The general notion of base toposes is the topic of section B3 of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+An internal description of base toposes in the context of [[modal logic]] appears in
+
+* [[Steve Awodey]], Kohei Kishida, _Topology and modality: the topological interpretation of first-order modal logic_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/FoS4.phil.pdf))
+  {#AwodeyKishida}
 
 [[!redirects bases toposes]]
 
