@@ -36,7 +36,7 @@ We also consider dependent *sums*, which are actually simpler.
 
 For $C$ a [[category]], the **dependent product** of the morphism $g\colon B \to A$ indexed by the morphism $f\colon A \to I$ is an object $\prod_f g$ in the [[over category]] $C/I$, where the operation $\prod_f\colon C/A \to C/I$ is [[generalized the|the]] [[adjoint functor|right adjoint]] to the [[base change]] functor $f^*\colon C/I \to C/A$. For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ must exist.  So a category with all dependent products is necessarily a category with all [[pullback]]s.
 
-In [[type theory]], the operation of dependent product is typically taken as a primitive.  When employing the [[Curry–Howard correspondence]], one often writes $\Pi_{x \in X} P_x$ as written $\forall x\colon X, P x$, because dependent products correspond to [[universal quantification]].
+In [[type theory]], the operation of dependent product is typically taken as a primitive.  When employing the [[Curry–Howard correspondence]], one sometimes (such as in [[Coq]]) writes $\Pi_{x \in X} P_x$ as written $\forall x\colon X, P x$, because dependent products correspond to [[universal quantification]].
 
 The *left* adjoint to the base-change functor, the __dependent coproduct__ or __[[dependent sum]]__ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).  In the Curry--Howard correspondence, this corresponds to the [[particular quantification]] $\exists x\colon X, P x$.
 
