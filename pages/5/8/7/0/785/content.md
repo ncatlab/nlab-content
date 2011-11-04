@@ -131,9 +131,21 @@ Of particular interest are consecutive homotopy pullbacks of point inclusions. T
 
 ## Related concepts
 
-* [[infinity-limit]]
+* [[(infinity,1)-limit]]
 
 * [[homotopy limit]]
+
+## References
+
+### General
+
+See the references at _[[homotopy limit]]_ .
+
+### In terms of homotpy type 
+
+A formalization of homotopy pullbacks in terms of [[homotopy type theory]] is [[Coq]]-coded in 
+
+* [[Guillaume Brunerie]], _[HoTT/Coq/Limits/Pullbacks.v](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pullbacks.v)_
 
 [[!redirects homotopy pullback]]
 [[!redirects homotopy pullbacks]]
