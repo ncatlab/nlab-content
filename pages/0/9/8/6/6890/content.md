@@ -5,15 +5,44 @@
 
 ## Idea
 
-Coq is a formal proof management system. It provides a formal language to write mathematical [[definition]]s, executable [[algorithm]]s and [[theorem]]s together with an environment for semi-interactive development of machine-checked [[proof]]s. 
+_Coq_ is a formal [[proof]] management system. It provides a formal language to write mathematical [[definition]]s, executable [[algorithm]]s and [[theorem]]s together with an environment for semi-interactive development of machine-checked [[proof]]s. 
 
+Coq is named after [[Thierry Coquand]].
 
 ## Applications
 
+Computer systems such as Coq and [[Agda]] have been used to give machine-assisted and machine-verified proofs of extraordinary length, such as of the [[four-colour theorem]] and the [[Kepler conjecture]]. 
+
+More generally, they are being used to formalise and machine-verify large parts of mathematics as such, see the section
+
+* [Formalization of set-based mathematics](#FormalizationOfSetBasedMathematics)
+
+below. 
+
+One striking insight by [[Vladimir Voevodsky]] was that Coq naturally lends itself also to a formalization of higher mathematics that is founded not on sets, but on [[higher category theory]] and [[homotopy theory]]. For this see below the section
+
+* [Homotopy type theory](#HomotopyTypeTheory).
+
+
+
+### Formalization of set-based mathematics
+  {#FormalizationOfSetBasedMathematics}
+
+
+Projects include
+
+* [ForMath](#ForMath)
+
+* [MathClasses](#MathClasses)
+
 ### Homotopy type theory
+  {#HomotopyTypeTheory}
 
-* [[homotopy type theory]]
+For Coq-projects in [[homotopy type theory]] see
 
+* [Univalent Foundations](#UnivalentFoundations)
+
+(...)
 
 ## Related entries
 
@@ -27,11 +56,24 @@ Coq is a formal proof management system. It provides a formal language to write 
 
 * [Cocorico](http://coq.inria.fr/cocorico), the Coq wiki
 
-
 ### Tutorials
 
 * [[Andrej Bauer]], _Video tutorials for the Coq proof assistant_ ([web](http://math.andrej.com/2011/02/22/video-tutorials-for-the-coq-proof-assistant/)).
 
+### Applications to formal mathematics
 
-[[!redirects Coq]]
+* [[Thierry Coquand]], _ForMath: Formalisation of Mathematics_ research project ([web](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath))
+  {#ForMath}
+
+* Eelis van der Weegen, [[Bas Spitters]], Robbert Krebbers, Matthieu Sozeau, Tom Prince, [[Jelle Herold]], 
+
+  _Math Classes_, Coq Library for basic mathematical structures ([web](http://math-classes.org/))
+ {#MathClasses}
+
+For applications to [[homotopy type theory]] see there references listed there. Especially
+
+* [[Vladimir Voevodsky]], _[Univalent Foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
+  {#UnivalentFoundations}
+
+
 [[!redirects coq]]
