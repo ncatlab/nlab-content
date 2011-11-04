@@ -195,3 +195,5 @@ If we use instead a different logic over the same type theory, such as [[bracket
 [[!redirects Martin-Löf dependent type theory]]
 [[!redirects Martin-Lof type theory]]
 [[!redirects Martin-Löf type theory]]
+[[!redirects Martin-Löf type theories]]
+
