@@ -119,11 +119,6 @@ $$
 $$
 is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
 
-+-- {: .query}
-
-To Stephen: Yes you were right. It worth noting that it is generally better to post such queries on the nForum as they can easily be lost when posted in the Lab. (This query box will be deleted after a short time, as it is no longer really needed except to say thanks!)
-=--
-
 
 ## Fiber sequences 
 
@@ -141,9 +136,14 @@ Of particular interest are consecutive homotopy pullbacks of point inclusions. T
 
 See the references at _[[homotopy limit]]_ .
 
-### In terms of homotpy type 
+### In terms of homotpy type theory
+ {#ReferencesForHoTT}
 
-A formalization of homotopy pullbacks in terms of [[homotopy type theory]] is [[Coq]]-coded in 
+A proposal for a formalization of homotopy pushouts by [[higher inductive types]] in [[homotopy type theory]] has been given in
+
+* [[Mike Shulman]], _Homotopy Type Theory VI_ ([blog post](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html))
+
+A [[homotopy type theory|HoTT]]-[[Coq]]-coding of homotopy pullbacks and pushouts is in 
 
 * [[Guillaume Brunerie]], _[HoTT/Coq/Limits/Pullbacks.v](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pullbacks.v)_
 
