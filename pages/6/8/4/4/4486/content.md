@@ -22,7 +22,7 @@ To begin with, let $X$ and $Y$ be [[smooth manifolds]], and let $f\colon X \to Y
 
 * By [[recursion]], $f$ is __$n + 1$ times differentiable__ if $f$ is $n$ times differentiable and the $n$th derivative of $f$ is differentiable.  Similarly, $f$ is __$n$ times continuously differentiable__ or __$C^n$__ if $f$ is $n$ times differentiable and the $n$th derivative of $f$ is continuous.
 
-* The map $f$ is __[[smooth map|smooth]]__ or __infinitely differentiable__ or __$C^\infty$ if it is $n$ times differentiable for all $n$, or equivalently if it is $C^n$ for all $n$.  (There is no difference between infinite differentiability and infinite continuous differentiability.)
+* The map $f$ is __[[smooth map|smooth]]__ or __infinitely differentiable__ or __$C^\infty$__ if it is $n$ times differentiable for all $n$, or equivalently if it is $C^n$ for all $n$.  (There is no difference between infinite differentiability and infinite continuous differentiability.)
 
 * One step higher, we may ask whether $f$ is [[analytic function|analytic]] or $C^\omega$, but this takes us beyond smooth manifolds (to [[analytic manifold]]s).
 
