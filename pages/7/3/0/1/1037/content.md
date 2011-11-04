@@ -507,6 +507,12 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[descent for simplicial presheaves]]
 
+#### 6.2.3 Effective epimorphisms
+
+* [[(∞,1)-semitopos]]
+
+* [[effective epimorphism in an (∞,1)-category]]
+
 ### 6.3 The $\infty$-Category of $\infty$-Topoi
 
 #### 6.3.1 Geometric morphisms
