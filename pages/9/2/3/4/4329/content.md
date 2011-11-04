@@ -319,6 +319,16 @@ $$
 
 For more on this see [[fiber sequence]].
 
+## References
+
+### In homotopy type theory
+
+A formalization of homotopy pullbacks in [[homotopy type theory]] is [[Coq]]-coded in 
+
+* [[Guillaume Brunerie]], _[Hott/Coq/Limits/Pullbacks.v](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pullbacks.v)_ 
+
+
+
 [[!redirects (∞,1)-pullback]]
 [[!redirects (infinity,1)-pullbacks]]
 [[!redirects (∞,1)-pullbacks]]
