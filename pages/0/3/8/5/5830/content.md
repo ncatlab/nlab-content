@@ -41,7 +41,15 @@ See the [code page](http://homotopytypetheory.org/coq/) at the [HoTT site](#HoTT
 
 The following list displays some keywords defined in the [[Coq]]-implementation of homotopy type theory together with their meaning in the [[homotopy theory]]/[[(∞,1)-category theory]] that they describe.
 
-Let $C$ be a given ambient [[(∞,1)-category]]. 
+> Under construction. Needs to be scrutinized. Meanwhile, handle with care.
+
+Let $C$ be a given ambient [[(∞,1)-category]] which 
+
+* has a [[terminal object in an (∞,1)-category|terminal object]];
+
+* is [[(∞,1)-tensoring|tensored]] over [[∞Grpd]]. 
+
+Then
 
     Type
 
@@ -51,9 +59,37 @@ denotes $Core(C)$, the [[core]] of $C$, hence the maximal [[∞-groupoid]] insid
 
 denotes an [[object]] in the $(\infty,1)$-category $C$; equivalently an [[(∞,1)-functor]] $X : * \to C$.
 
+    unit : Type
+
+is the [[terminal object in an (∞,1)-category|terminal object]].
+
+For $X, Y \in C$ two objects
+
+    X -> Y : Type
+
+denotes the [[(∞,1)-categorical hom-space|∞-hom space]] $C(X,Y) \in $ [[∞Grpd]], regarded as an object of $C$ via the [[(∞,1)-tensoring]].
+
     P (x : X) : Type
 
-denotes a [[bundle]] $P \to X$ in $C$. In a presentation of $C$ by a [[category of fibrant objects]] it denotes a [[fibration]] $P \to X$.
+denotes a [[bundle]] $P \to X$ in $C$. In a [[presentable (∞,1)-category|presentation]] of $C$ by a [[category of fibrant objects]] it denotes a [[fibration]] $P \to X$.
+
+    P : X -> Type
+
+denotes the corresponding classifying map, via something like the [[(∞,1)-Grothendieck construction]].
+
+The total space object $P$ of this bundle (the _[[dependent sum]]_ of the bundle) is the type equivalently coded as
+
+    { x : X  & P x} : Type
+
+or
+
+    total (fun (x : X) => P x) : Type
+
+or
+
+    exists x : X , P x : Type
+
+The code
 
     forall x : X, P x
 
@@ -73,10 +109,6 @@ $$
   }
   \,.
 $$
-
-    exists x : X , P x
-
-denotes the total space $P$ of this bundle (the _[[dependent sum]]_ of the bundle).
 
     a ~~> b
 
