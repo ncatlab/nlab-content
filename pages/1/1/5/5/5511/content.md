@@ -56,6 +56,16 @@ In an [[(∞,1)-semitopos]], effective epimorphisms are stable under [[(∞,1)-p
 
 This appears as ([Lurie, prop. 6.2.3.15](#Lurie)).
 
+More generally, 
+
++-- {: .num_prop }
+###### Proposition
+
+The effective epimorphisms in any [[(∞,1)-topos]] are precisely the [[n-connected object of an (infinity,1)-topos|(-1)-connected morphisms]], and form a [[orthogonal factorization system in an (∞,1)-category|factorization system]] together with the [[monomorphism in an (∞,1)-category|monomorphisms]] (the (-1)-truncated morphisms).
+
+=--
+
+See [[n-connected/n-truncated factorization system]] for more on this.
 
 
 ## Examples
@@ -68,7 +78,8 @@ In $C = $ [[∞Grpd]] a morphism $f : Y \to X$ is an effective epimorphism preci
  
 =--
 
-This appears as [[Higher Topos Theory|HTT, cor. 7.2.1.15]].  More generally, the effective epimorphisms in any [[(∞,1)-topos]] are precisely the [[n-connected object of an (infinity,1)-topos|(-1)-connected morphisms]], and therefore form a [[orthogonal factorization system in an (∞,1)-category|factorization system]] together with the [[monomorphism in an (∞,1)-category|monomorphisms]] (the (-1)-truncated morphisms).
+This appears as [[Higher Topos Theory|HTT, cor. 7.2.1.15]].  
+
 
 
 ## Related concepts
