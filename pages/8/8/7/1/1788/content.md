@@ -9,10 +9,12 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 # Contents
 
-* tic
+* table of contents
 {: toc}
 
 ## First
+
+$\leftrightarrow$
 
 The first section
 
