@@ -165,6 +165,11 @@ Every $W^*$-algebra is $W^*$-isomorphic to a von Neumann algebra ("on a suitable
 Any objections to change the remarks accordingly? 
 =--
 
+## References
+ {#References}
+
+* [[Jacob Lurie]], _von Neumann algebras_, lecture series (2011) ([web](http://www.math.harvard.edu/~lurie/261y.html))
+
 [[!redirects W*-algebra]]
 [[!redirects W*-algebras]]
 [[!redirects W* algebra]]
