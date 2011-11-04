@@ -15,7 +15,35 @@
 
 ## Idea
 
-In [[type theory]], the paradigm of __propositions as types__ says that a [[proposition]] and a [[type]] are the same thing.  A proposition is identified with its type of proofs, and a type is identified with the proposition that it has an element.  Not all type theories follow this paradigm; among those that do, those of [[Per Martin-Löf]] are the most famous.
+### General
+
+In [[type theory]], the paradigm of __propositions as types__ says that a [[proposition]] and a [[type]] are the same thing.  A proposition is identified with its type of proofs, and a type is identified with the proposition that it has an element.  
+
+Moreover, in [[homotopy type theory]] where types may be thought of as [[∞-groupoid]]s (or rather [[∞-stack]]s, more generally), we may think for $A$ any type of
+
+* the [[object]]s of $A$ are proofs of some proposition;
+
+* the [[morphism]]s of $A$ are equivalences between these proofs;
+
+* the [[2-morphisms]] of $A$ are equivalences between these equivalences, and so on.
+
+So in terms of the notion of [[n-connected object of an (infinity,1)-topos|n-connected]] and [[truncated|n-truncated objects in an (∞,1)-category]] we have 
+
+* if $A$ is [[(-1)-connected]] then the corresponding proposition is [[true]]; 
+
+* if $A$ is [[(-2)-truncated]] (a [[(-2)-groupoid]]) then the corresponding proposition is true by a unique proof which is uniquely equivalent to itself, etc.;
+
+* if $A$ is [[(-1)-truncated]] (a [[(-1)-groupoid]]) then the corresponding proposition may be true or [[false]], but if it is true it is to by a unique proof as above;
+
+* if $A$ is [[0-truncated]] then there may be more than one proof, but none equivalent to itself in an interesting way;
+
+* if $A$ is [[1-truncated]] then there may be proofs of the corresponding proposition that are equivalent to themselves in interesting ways.
+
+Accordingly, [[logic]]al operations on propositions have immediate analogs on [[type]]s. For instance logical [[and]] coresponds to [[product]] types $A \times B$ (a proof of $A$ and a proof of $B$), the forall [[quantifier]] corresponds to [[dependent product]], the existential quantifier to [[dependent sum]] (of the $\infty$-groupoids corresponding to the types).
+
+### Variants
+
+Not all type theories follow this paradigm; among those that do, [[Martin-Löf type theories]] are the most famous.
 
 Even when the paradigm is not adopted, however, there is still a close relationship between logical and type-theoretic operations, called the __Curry--Howard isomorphism__ or (if it is not clear in which category this [[isomorphism]] is supposed to exist) the __Curry--Howard correspondence__.  This correspondence is most precise and well-developed for [[intuitionistic logic]].
 
