@@ -810,6 +810,8 @@ This is [[Higher Topos Theory|HTT, corollary 5.1.2.3]]
 
 ## References
 
+### General
+
 The definition of limit in quasi-categories is due to
 
 * [[André Joyal]], _Quasi-categories and Kan complexes_ Journal of Pure and Applied Algebra 175 (2002), 207-222.
@@ -823,6 +825,12 @@ A detailed account is in [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
+
+### In homotopy type theory
+
+A formalization of some aspects of $(\infty,1)$-limits in terms of [[homotopy type theory]] is [[Coq]]-coded in 
+
+* [[Guillaume Brunerie]], _[HoTT/Coq/Limits](https://github.com/guillaumebrunerie/HoTT/tree/master/Coq/Limits)_
 
 [[!redirects limit in a quasi-category]]
 
