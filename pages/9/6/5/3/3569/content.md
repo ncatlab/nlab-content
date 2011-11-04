@@ -116,4 +116,10 @@ Now...
 
 ...
 
+## Related concepts
+
+* [[internal logic]], [[type theory]]
+
+* **internal logic in an $(\infty,1)$-topos**, [[homotopy type theory]]
+
 [[!redirects internal logic of an (∞,1)-topos]]
