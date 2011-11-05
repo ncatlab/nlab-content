@@ -75,7 +75,9 @@ $$
   \,.
 $$
 
-Dually, the [[direct image]] $\forall$ expresses the [[universal quantifier]].
+In other words, we obtain the existential quantifier by applying the dependent sum, then (-1)-truncating the result.  This is equivalent to constructing the [[image]] as a subobject of the codomain.
+
+Dually, the [[direct image functor]] $\forall$ (dependent product) expresses the [[universal quantifier]].  (In this case, it is somewhat simpler, since the dependent product automatically preserves (-1)-truncated objects; no additional truncation step is necessary.)
 
 The same makes verbatim sense also in the [[(∞,1)-logic]] of any [[(∞,1)-topos]].
 
