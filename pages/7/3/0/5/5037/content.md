@@ -35,7 +35,7 @@ This basic temporal language does not yet really constitute a sensible logic tha
 
 ## Frames and Models for BTL
 
-A _frame_ for BTL will be a set, $T$, with two binary relations $R+F$ and $R_P$.  We have $R_F xy$ reads that 'at $x$, $y$ is in the future'  - but, in the ordinary common sense meaning of words, this should mean $R_P yx$ and conversely.  In other words $R_P$ should be the _converse_ or [[opposite relation]] of $R_F$. 
+A _frame_ for BTL will be a set, $T$, with two binary relations $R_F$ and $R_P$.  We have $R_F xy$ reads that 'at $x$, $y$ is in the future'  - but, in the ordinary common sense meaning of words, this should mean $R_P yx$ and conversely.  In other words $R_P$ should be the _converse_ or [[opposite relation]] of $R_F$. 
 
 (In general, if $R$ is a binary relation on a set $X$, then its [[opposite relation]] is defined by 
 
