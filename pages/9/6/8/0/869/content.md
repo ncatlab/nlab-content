@@ -13,3 +13,5 @@ You can interpret intuitionistic negation as 'denial' and paraconsistent negatio
 Accordingly, negation mediates [[de Morgan duality]] in classical and linear logic but not in intuitionistic or paraconsistent logic.
 
 In a [[topos]], the __negation__ of an object $A$ is the object $0^A$; this matches the intuitionistic notion of negation in that there is a [[natural transformation|natural morphism]] $A \to 0^{0^A}$ but not the other way around.
+
+[[!redirects not]]
