@@ -10,13 +10,21 @@
 _'Ask three modal logicians what modal logic is, and you are likely to get at least three different answers'_.
 
 
-(under construction)
-
-
 ## Idea
 
-The modal logics are the logic of [[relational structures]].  They are built on **modal languages**.
-It is usual to classify them using their axiom systems, but also in terms of the type of general interpretation applied to them, such as :
+*  In modal logics, the usual logical operations (and, or, not, and perhaps forall, etc.) are accompanied by more operators -- usually called _modalities_ -- that try to express the idea that some propositions may be true "in a certain way". The classical example is a system that means to model the idea of propositions being "possibly true" or "necessarily true", but other kinds of modalities can be considered, too. For instance, in the basic 'epistemic' modal logic, there will be a modality interpreted as saying _"I know that proposition _blah_ is true"_, and in 'provability logic', the basic modal operator interprets  as _"it is provable that blah"_. If we have the basic temporal logic, then there is a future truth operator, so that $F\phi$ is intended to mean _"$\phi$ will be true at some future time"_, and also a past operator $P$ so $P\phi$ is intended to mean "$\phi$ was true at some past time". 
+
+
+*  Modal logics are built on **modal languages**, that is the usual propositional language plus those extra modalities. The way the modalities work has to be laid down in an axiom system for the logic in question, for instance, for the temporal logic we might require an axiom saying
+'If $F F\phi$ is true, then $f\phi$ is true', which will read a 'if it is going be true in the future that $\phi$ is going to be true in the future, then ...', see [[temporal logic]].  (Is this going to be something what we might want in 'provability logic'; is it the case that we should expect that if it is provable that something is provable then that something must be itself provable. This concentrates the modelling process on exactly how we wish to have our 'context' to behave.) In this way the relational nature of a context that we are looking at can get encoded into the logic.
+
+
+*  Modal logics are thus also the logics of [[relational structures]], in fact,   Blackburn et al (see references) have as their first slogan: **Modal languages are simple but expressive languages for talking about relational structures.**
+The temporal logic that satisfies the axiom $(4)$ has models that are [[posets]], for instance, whilst many of the [[epistemic logics]] have models which are sets with equivalence relations on them. In each case, the idea is that the relational structure gives all the possible states of some system and the modal logic describes that system. This explains the great interest in computer science and artificial intelligence of applications of modal logics.
+
+
+
+It is usual to classify modal logics using their axiom systems, but also in terms of the type of general interpretation applied to them, such as :
 
 *  [[temporal logic|temporal logics]];
 
@@ -26,15 +34,18 @@ It is usual to classify them using their axiom systems, but also in terms of the
 
 *  [[arrow structures|arrow logics]];
 
+*  [[provability logics]]
+
 (this list may get added to later).
 
-Modal logics have semantics given in terms of [[frame (modal logic)|Kripke frames]], which are simply [[relational structures]]. For instance, [[temporal logic|temporal logics]] have [[posets]] as models.
+Modal logics have semantics given in terms of [[frame (modal logic)|Kripke frames]], which are simply [[relational structures]]. For instance, as we said above,  [[temporal logic|temporal logics]] have [[posets]] as models.
 
-The modal languages add one or more modal operator, often denoted $\square$ or $\Diamond$ in to the usual propositional logics. (For the moment, these will be unary operators and we will not be considering operators that have more than one input. The general case will be considered later on, but in any case is discussed in detail in some of the books on modal logic listed below.)
 
 
 ## Modal Languages
 {#modal+language}
+
+Modal languages add one or more modal operator, often denoted $\square$ or $\Diamond$ into the usual propositional logics. (For the moment, we will keep things fairly simple so assume these to  be unary operators and we will not be considering operators that have more than one input, for the moment at least. The general case will be considered later on, but in any case is discussed in detail in some of the books on modal logic listed below.)
 
 We will give a modal language with $n$ modal operators, $\Diamond_i$, $i = 1,\ldots, n$, which can  be applied to propositions of the language to form new propositions.  If $n=1$, we will refer to the language, defined below,  as the _basic modal language_.
 
@@ -107,7 +118,7 @@ that is the formula $(\psi_0\to (\psi_1\to (\ldots \to (\psi_m\to \phi)\ldots)$ 
 
 ## Semantics
 
-The usual semantics of modal languages is in terms of [[frame (modal logic)|frames]]. (These are quite often called 'Kripke frames' as Kripke was one of the first to use relational semantics in this context. A discussion of the history can be found in  the book by Blackburn, de Rijke and Vedema, (see below) page 42.) (As there is another sense to [[frame]] as the dual of a [[locale]], we need to consider the terminology here and where necessary will use [[frame (modal logic)]] as the entry name.) A more detailed discussion of [[frame (modal logic)|frames]], models and the whole question of the semantics of modal logics is to be found at that entry. 
+The usual semantics of modal languages is in terms of [[frame (modal logic)|frames]], and this is where the link with relational structures comes in. (These are quite often called 'Kripke frames' as Kripke was one of the first to use relational semantics in this context. A discussion of the history can be found in  the book by Blackburn, de Rijke and Vedema, (see below) page 42.) (As there is another sense to [[frame]] as the dual of a [[locale]], we need to consider the terminology here and where necessary will use [[frame (modal logic)]] as the entry name.) A more detailed discussion of [[frame (modal logic)|frames]], models and the whole question of the semantics of modal logics is to be found at that entry. 
 
 
 ## References
@@ -121,6 +132,8 @@ General books on modal logics include
 and more particularly on epistemic logics and their applications,
 
 * J.- J. Ch. Meyer and W. Van der Hoek, _Epistemic logic for AI and Computer Science_, Cambridge Tracts in Theoretical Computer Science, vol. 41, 1995. 
+
+The Stanford Encyclopedia of Philosophy entry on [modal logic](http://plato.stanford.edu/entries/logic-modal/) is also very useful.
 
 
 [[!redirects modal logic]]
