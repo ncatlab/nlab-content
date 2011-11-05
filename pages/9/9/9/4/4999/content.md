@@ -22,7 +22,7 @@ The term _modal logic_ refers to an enrichment of standard formal [[logic]] by c
 
 But the following points are usually considered.
 
-* In modal logics, the usual logical operations ([[and]], [[or]], [[not]], and perhaps [[universal quantifier|forall]], etc.) are accompanied by more operators -- usually called _modalities_ -- that try to express the idea that some propositions may be [[true]] (only) "_in a certain way_". 
+* In modal logics, the usual logical operations ([[and]], [[or]], [[not]], and perhaps [[universal quantifier|forall]], etc.) are accompanied by more operators -- usually called _modalities_ -- that try to express the idea that some propositions may be [[true]] (only) "*in a certain way*". 
 
   The classic example is a system that aims to model the idea of propositions being "possibly true" or "necessarily true". Notice, however, that the notions of possibility and necessity have different senses in ordinary language. For example, if I say '$P$ is possible', I may mean that $P$ is: *epistemically* possible, not ruled out by anything I know; *physically* possible, not ruled out by the laws of physics; *logically* possible, not ruled out by the laws of logic. Some suggest that there is a further type of possibility, *metaphysical* possibility intermediate between logical and physical possibility. Metaphysical possibility would allow that different laws of physics might apply. 
 
