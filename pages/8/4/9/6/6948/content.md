@@ -74,7 +74,7 @@ $$
   \,.
 $$
 
-Dually, the extra [[left adjoint]] $\exists$ expresses the [[existential quantifier]].
+Dually, the extra [[left adjoint]] $\exists$ expresses the [[existential quantifier]].  (The situation with the universal quantifier is somewhat simpler than for the existential one, since the dependent product automatically preserves (-1)-truncated objects, whereas the dependent sum does not.)
 
 The same makes verbatim sense also in the [[(∞,1)-logic]] of any [[(∞,1)-topos]].
 
