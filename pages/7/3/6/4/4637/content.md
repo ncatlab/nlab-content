@@ -274,7 +274,7 @@ $$Spec(G)(c) = [C, \mathcal{V}](G, C(c, -)) \hookrightarrow \int_{t: T} \mathcal
 
 ### Respect for limits
 
-Choose any [[class]] $L$ of [[limit]]s in $C$ and write $[C,\mathcal{V}]_\times \subset [C,\mathcal{V}]$ for the [[full subcategory]] on those functors that preserve these limits. 
+Choose any [[class]] $L$ of [[limit]]s in $C$ and write $[C,\mathcal{V}]_\times \subset [C,\mathcal{V}]$ for the [[full subcategory]] consisting of those functors preserving these limits. 
 
 +-- {: .un_prop}
 ###### Proposition
@@ -337,7 +337,7 @@ Therefore we have also the natural isomorphism
 
 $$
   \begin{aligned}
-     \mathcal{O} Spec \mathcal{V}(c,-) 
+     \mathcal{O} Spec \mathcal{V}(c,-)(d)
      & \simeq
      \mathcal{O} \mathcal{V}(-,c) (d)
      \\
