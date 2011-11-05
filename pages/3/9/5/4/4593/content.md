@@ -1,4 +1,3 @@
-[[!redirects quantifier]]
 
 # Quantifiers
 * table of contents
@@ -13,7 +12,7 @@ A quantifier is an operation in [[logic]] that moves a statement from one [[cont
 
 In [[first-order logic]], we have two basic quantifiers, each of which moves a [[predicate]] on one type to a [[proposition]] (a predicate on no types), or more generally moves a predicate on $n + 1$ types to a predicate on $n$ types.
 
-Given a predicate $P$ on a type $T$, the __universal quantification__ of $P$, denoted $\forall\, x\colon T, P(x)$ (and with many variations in punctuation), is intended to be true if and only if $P(a)$ is true for every possible element $a$ of $T$.  Similarly, the __existential quanification__ of $P$ (also called its __particular quantification__), denoted $\exists\, x\colon T, P(x)$, is intended to be true if and only if $P(a)$ is true for at least one element $a$ of $T$.  However, it is quite possible that $P(a)$ may be provable (in a given context $\Gamma$) for every *term* $a$ of type $T$ that *can actually be constructed* (in $\Gamma$), yet $\forall\, x\colon T, P(x)$ cannot be proved; conversely, it is quite possible that $\exists\, x\colon T, P(x)$ can be proved (in a given context) but $P(a)$ cannot be proved for any term $a$ of type $T$ that can actually be constructed.
+Given a predicate $P$ on a type $T$, the __[[universal quantification]]__ of $P$, denoted $\forall\, x\colon T, P(x)$ (and with many variations in punctuation), is intended to be [[true]] if and only if $P(a)$ is true for every possible element $a$ of $T$.  Similarly, the __[[existential quanification]]__ of $P$ (also called its __particular quantification__), denoted $\exists\, x\colon T, P(x)$, is intended to be true if and only if $P(a)$ is true for at least one element $a$ of $T$.  However, it is quite possible that $P(a)$ may be provable (in a given context $\Gamma$) for every *term* $a$ of type $T$ that *can actually be constructed* (in $\Gamma$), yet $\forall\, x\colon T, P(x)$ cannot be proved; conversely, it is quite possible that $\exists\, x\colon T, P(x)$ can be proved (in a given context) but $P(a)$ cannot be proved for any term $a$ of type $T$ that can actually be constructed.
 
 Therefore, we must define the quantifiers more carefully; one way to do this is as follows:
 
@@ -42,7 +41,7 @@ With these examples, one can see quite readily that quantification is about sayi
 
 ## Lawvere quantifiers: Quantification as adjunction
 
-Given two contexts $\Gamma$ and $\Delta$ and an interpretation $f\colon \Gamma \to \Delta$, we obtain an operation $f^*\colon Prop_\Delta \to Prop_\Gamma$ from the propositions in $\Delta$ to the propositions in $\Gamma$.  If this operation has a [[right adjoint]], then this right adjoint is the __universal quantifier__ along $f$; if it has a [[left adjoint]], then this is the __existential quantifier__ along $f$.  The ordinary quantifiers in first-order logic are simply special cases of this where $f$ is given by weakening.
+Given two contexts $\Gamma$ and $\Delta$ and an interpretation $f\colon \Gamma \to \Delta$, we obtain an operation $f^*\colon Prop_\Delta \to Prop_\Gamma$ from the propositions in $\Delta$ to the propositions in $\Gamma$.  If this operation has a [[right adjoint]], then this right adjoint is the __[[universal quantifier]]__ along $f$; if it has a [[left adjoint]], then this is the __[[existential quantifier]]__ along $f$.  The ordinary quantifiers in first-order logic are simply special cases of this where $f$ is given by weakening.
 
 To bring this down to earth, let $S$ and $T$ be [[sets]] and let $f\colon S \to T$ be a [[function]].  We will think of each set as defining a context with one free variable for an element of that set; then the propositions in one of those contexts correspond to the [[subsets]] of the corresponding set.  In this way, we are looking at $f^*\colon \mathcal{P}T \to \mathcal{P}S$, the [[preimage]] map between [[power sets]] (often denoted $f^{-1}$).  Then the adjoints $\forall_f$ and $\exists_f$ are maps from $\mathcal{P}S \to \mathcal{P}T$ as follows:
 
@@ -90,19 +89,6 @@ In the usual formulations of [[material set theory]], there is only one type (th
 [[!redirects quantification]]
 [[!redirects quantifications]]
 
-[[!redirects existential quantifier]]
-[[!redirects existential quantifiers]]
-[[!redirects existential quantification]]
-[[!redirects existential quantifications]]
-[[!redirects particular quantifier]]
-[[!redirects particular quantifiers]]
-[[!redirects particular quantification]]
-[[!redirects particular quantifications]]
-
-[[!redirects universal quantifier]]
-[[!redirects universal quantifiers]]
-[[!redirects universal quantification]]
-[[!redirects universal quantifications]]
 
 [[!redirects uniqueness quantifier]]
 [[!redirects uniqueness quantifiers]]
@@ -127,3 +113,4 @@ In the usual formulations of [[material set theory]], there is only one type (th
 [[!redirects bounded quantifiers]]
 [[!redirects bounded quantification]]
 [[!redirects bounded quantifications]]
+[[!redirects quantifier]]
