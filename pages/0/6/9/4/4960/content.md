@@ -85,7 +85,7 @@ For more general products, it would be a similar map $\Pi_0(\prod_i X_i) \to \pr
 ## Definition
 
 
-+-- {: .un_defn #CohesiveTopos}
++-- {: .num_defn #CohesiveTopos}
 ###### Definition
 
 A [[topos]] $\mathcal{E}$ over some base topos $\mathcal{S}$, i.e. equipped with a [[geometric morphism]]
@@ -124,9 +124,39 @@ such that $f_!$ preserves finite products.
 
 =--
 
+To reflect the geometric interpretation of these axioms we shall here and in related entries often name these functors as follows
+
+$$
+ (\Pi_0 \dashv Disc \dashv \Gamma \dashv coDisc) : 
+ \mathcal{E}
+  \stackrel{\stackrel{\overset{\Pi_0}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}
+  \mathcal{S}
+  \,.
+$$
+
++-- {: .num_remark #AdjointTriple}
+###### Remark
+
+The above [[adjoint quadruple]] canonically induces an [[adjoint triple]] of endofunctors on $\mathcal{E}$
+
+$$
+  (\mathbf{\Pi}_0 \dashv \mathbf{\flat} \dashv \mathbf{#})
+  : 
+  \mathcal{E}
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}
+  \mathcal{S}
+  \stackrel{\overset{Disc}{\to}}{\stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}}
+  \mathcal{E} 
+  \,.
+$$
+
+These endofunctors play a role in the internal characterization of cohesion.
+
+=--
+
 There are several further axioms that one may want to impose in order to formalize the concept of cohesion.
 
-+-- {: .un_defn #PiecesHavePoints}
++-- {: .num_defn #PiecesHavePoints}
 ###### Definition
 
 For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that **pieces have points** in $\mathcal{E}$ if the [[natural transformation]]
@@ -234,6 +264,10 @@ we discuss the induced notion of concrete objects that comes with every cohesive
 * [Objects with one point per cohesive piece](#ObjectsWithOnePointPerCohesivePiece)
 
 the induced subcategory of objects with one point per piece.
+
+Some of these phenomena have a natural 
+
+* [Modality interpretation](#Modality).
 
 For a long list of further structures that are canonically present in a cohesive context see
 
@@ -659,6 +693,73 @@ This implies the existence of $s_!$ and the fact that $X \to s^* s_! X$ is epi.
 =--
 
 
+### Internal modal logic
+  {#Modality}
+
+Every [[topos]] $\mathcal{E}$ comes with its [[internal logic]]. From this internal perspective, the existence of extra external functors on $\mathcal{E}$ -- such as the $\Pi_0$ and the $coDisc$ on a cohesive topos -- is manifested by the existence of extra internal logical operators. These may be understood as _modalities_ equipping the internal logic with a structure of a [[modal logic]].
+
+For the case of [[local toposes]], of which cohesive toposes are a special case, this internal modal interpretation of the extra external functor $coDisc$ been noticed in ([AwodeyBirkedal, section 4.2](#AwodeyBirkedal)). (Beware that in that reference the symbols "$\flat$" and "#" are used precisely oppositely to their use here).
+
++-- {: .num_defn #DiscreteModality}
+###### Definition
+
+
+For $\phi \hookrightarrow A$ a [[monomorphism]] in a cohesive topos, hence a [[proposition]] of [[type]] $A$ in the [[internal logic]], we say that it is  _discretely true_ if the [[pullback]]  $# \phi|_A \to A$ in
+
+$$
+  \array{
+    #\phi |_A &\to& # \phi
+    \\  
+    \downarrow && \downarrow
+    \\
+    A &\to& # A
+  }
+$$
+
+is an [[isomorphism]], where $A \to # A$ is the $(\Gamma\dashv coDisc)$-[[unit of an adjunction|unit]] on $A$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+If a proposition $\phi$ is true over all discrete objects, then it is discretely true. More precisely,
+if for $X = \mathbf{\flat} X$ any discrete object we have that 
+
+$$
+  \mathcal{E}(X, \phi)
+  \to 
+  \mathcal{E}(X, A)
+$$
+
+is an isomorphism, then $\phi$ is discretely true.
+
+Because if so, then 
+
+$$
+  \mathcal{E}(\flat X , \phi)
+  \to
+  \mathcal{E}(\flat X , A)  
+$$
+
+is an isomorphism and hence 
+
+$$
+  \mathcal{E}(\Gamma X , \Gamma \phi)
+  \to
+  \mathcal{E}(\Gamma X , \Gamma A)  
+$$
+
+is for all $X$. Therefore in this case $\Gamma \phi \to \Gamma A$ is an isomorphism and hence so is $# \phi \to # A$.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For $\mathcal{E} = Sh(CartSp)$ the [[sheaf topos]] over [[CartSp]]${}_{smooth}$ ([[smooth infinity-groupoid|smooth spaces]]) and $\Omega^n_{cl}(-) \hookrightarrow \Omega^n(-)$ the inclusion of all closed $n$-[[differential forms]] into all $n$-forms, the proposition is "the $n$-form $\omega$ is closed". This is of course not true generally, but it is discretely true: over a [[discrete space]] every form is closed.
+
+=--
 
 ## Examples
 
@@ -1212,6 +1313,12 @@ A good deal of the structure of cohesive toposes is also considered in
  {#KontsevichRosenbergSpaces}
 
 under the name _[[Q-categories]]_ .
+
+The [[internal logic]] of [[local toposes]] is discussed in 
+
+* [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_ Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
+  {#AwodeyBirkedal}
+
 
 [[!redirects cohesive topos]]
 [[!redirects cohesive toposes]]
