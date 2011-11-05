@@ -16,7 +16,7 @@
 
 ## Idea
 
-The term _model logic_ refers to an enrichment of standard formal [[logic]] by certain extra operations. What exactly this entails is not universally formalized. For instance in the preface to ([Blackburn-deRijke-Venema](#BlackburnDeRijkeVenema)) et al.) it says
+The term _modal logic_ refers to an enrichment of standard formal [[logic]] by certain extra operations. What exactly this entails is not universally formalized. For instance in the preface to ([Blackburn-deRijke-Venema](#BlackburnDeRijkeVenema)) et al.) it says
 
 >_'Ask three modal logicians what modal logic is, and you are likely to get at least three different answers'_.
 
@@ -24,7 +24,9 @@ But the following points are usually considered.
 
 * In modal logics, the usual logical operations ([[and]], [[or]], [[not]], and perhaps [[universal quantifier|forall]], etc.) are accompanied by more operators -- usually called _modalities_ -- that try to express the idea that some propositions may be [[true]] (only) "_in a certain way_". 
 
-  The classical example is a system that means to model the idea of propositions being "possibly true" or "necessarily true", but other kinds of modalities can be considered, too. For instance, in the basic 'epistemic' modal logic, there will be a modality interpreted as saying _"I know that proposition $\phi$ is true"_, and in 'provability logic', the basic modal operator interprets  as _"it is provable that $\phi$"_. If we have the basic temporal logic, then there is a future truth operator, so that $F\phi$ is intended to mean _"$\phi$ will be true at some future time"_, and also a past operator $P$ so $P\phi$ is intended to mean "$\phi$ was true at some past time". 
+  The classic example is a system that aims to model the idea of propositions being "possibly true" or "necessarily true". Notice, however, that the notions of possibility and necessity have different senses in ordinary language. For example, if I say '$P$ is possible', I may mean that $P$ is: *epistemically* possible, not ruled out by anything I know; *physically* possible, not ruled out by the laws of physics; *logically* possible, not ruled out by the laws of logic. Some suggest that there is a further type of possibility, *metaphysical* possibility intermediate between logical and physical possibility. Metaphysical possibility would allow that different laws of physics might apply. 
+
+Epistemic modalities are captured in 'epistemic' modal logic, where necessity is interpreted as saying _"I know that proposition $\phi$ is true"_, and in 'provability logic', the basic modal operator interprets  as _"it is provable that $\phi$"_. If we have the basic temporal logic, then there is a future truth operator, so that $F\phi$ is intended to mean _"$\phi$ will be true at some future time"_, and also a past operator $P$ so $P\phi$ is intended to mean "$\phi$ was true at some past time". 
 
 * Modal logics are built on **modal languages**, that is the usual propositional language plus those extra modalities. The way the modalities work has to be laid down in an axiom system for the logic in question, for instance, for the temporal logic we might require an axiom saying
 'If $F F\phi$ is true, then $f\phi$ is true', which will read a 'if it is going be true in the future that $\phi$ is going to be true in the future, then ...', see [[temporal logic]].  (Is this going to be something what we might want in 'provability logic'; is it the case that we should expect that if it is provable that something is provable then that something must be itself provable. This concentrates the modelling process on exactly how we wish to have our 'context' to behave.) In this way the relational nature of a context that we are looking at can get encoded into the logic.
