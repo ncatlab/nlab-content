@@ -23,6 +23,8 @@ A [[manifold]] whose transition functions are smooth functions is a [[smooth man
 
 Yet more generally, the morphisms between [[generalised smooth spaces]] are smooth maps.
 
+For functions between manifolds that fall short of full smoothness, see [[differentiable map]].
+
 
 ## Properties
 
