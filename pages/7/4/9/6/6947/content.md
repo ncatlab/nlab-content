@@ -50,7 +50,7 @@ Existential quantification is essentially the extra [[left adjoint]] of the cano
 
 $$
     \mathcal{E}/X
-    \stackrel{\overset{\exists}{\to}}{\stackrel{\overset{- \times X}{\leftarrow}}{\underset{\forall}{\to}}}
+    \stackrel{\overset{X_!}{\to}}{\stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}}
     \mathcal{E} 
   \,,
 $$
@@ -71,23 +71,25 @@ $$
   \array{
     \mathcal{E}/X
     & 
-    \stackrel{\overset{\exists}{\to}}{\stackrel{\overset{- \times X}{\leftarrow}}{\underset{\forall}{\to}}}
+    \stackrel{\overset{X_!}{\to}}{\stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}}
     &
     \mathcal{E}
     \\
-    \mathllap{\tau_{\leq_{-1}}}\downarrow \uparrow
+    {}^\mathllap{\tau_{\leq_{-1}}}\downarrow \uparrow
     &&
-    \mathllap{\tau_{\leq_{-1}}}\downarrow \uparrow
+    {}^\mathllap{\tau_{\leq_{-1}}}\downarrow \uparrow
     \\
     \tau_{\leq_{-1}} 
     \mathcal{E}/X
-    &&
+    &
+      \stackrel{\overset{\exists}{\to}}{\stackrel{\overset{}{\leftarrow}}{\underset{\forall}{\to}}}
+    &
     \tau_{\leq_{-1}} \mathcal{E}
   }
   \,.
 $$
 
-In other words, we obtain the existential quantifier by applying the dependent sum, then $(-1)$-truncating the result.  This is equivalent to constructing the [[image]] as a subobject of the codomain.
+In other words, we obtain the existential quantifier by applying the [[dependent sum]], then $(-1)$-[[truncated|truncating]] the result.  This is equivalent to constructing the [[image]] as a [[subobject]] of the [[codomain]].
 
 Dually, the [[direct image functor]] $\forall$ (dependent product) expresses the [[universal quantifier]].  (In this case, it is somewhat simpler, since the dependent product automatically preserves $(-1)$-truncated objects; no additional truncation step is necessary.)
 
