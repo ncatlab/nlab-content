@@ -1,5 +1,17 @@
-Given a [[ring]] (or $k$-algebra) $A$, a left $A$-[[module]] is __flat__ if tensoring with $A$ as a functor from left $A$-modules to left $A$-modules is an [[exact functor]] (sends short exact sequences to short exact sequences).  Note that tensoring with $A$ is automatically right exact, so it\'s equivalent to require that tensoring with $A$ be left exact.  Since [[Mod]] has is [[finitely complete category|finitely complete]], this is also eqivalent to requiring that tensoring with $A$ be a [[flat functor]].
+Given a [[ring]] (or $k$-algebra) $A$, a left $A$-[[module]], say $M$, is __flat__ if tensoring with $M$ over $A$ as a functor from left $A$-modules to left $A$-modules is an [[exact functor]] (sends short exact sequences to short exact sequences).  Note that tensoring with $M$ is automatically right exact, so it is equivalent to require that tensoring with $M$ be left exact.  Since [[Mod]] is [[finitely complete category|finitely complete]], this is also equivalent to requiring that tensoring with $M$ be a [[flat functor]].
 
-More explicitly, a left $A$-module $M$ is flat if and only if "everything (that happens in $M$) happens for a reason (in $A$)" --- that is, if whenever some identity $\sum_i a_i m_i = 0$ holds in $M$, we can write $m_i = \sum_j b_{i j} n_j$ for each $i$, with coefficients such that $\sum_i a_i b_{i j} = 0$ for each $j$.  This observation (Wraith, Blass) can be put into the more general context of modelling [[geometric theory|geometric theories]] by [[geometric morphism|geometric morphisms]] from their [[classifying topos|classifying toposes]], or equivalently, certain [[flat functor|flat functors]] from [[site|sites]] for such topoi.
+There is a characterisation of flatness that says that a left $A$-module $M$ is flat if and only if "everything (that happens in $M$) happens for a reason (in $A$)".
 
-In the case of an [[abelian category]], the notions of exact and [[flat functors]] coincide. The ring and/or the module above may be taken nonunital without any change.
+The meaning of this is a akin to the existence of bases in vector spaces.  In a vector space, say $V$, if we have an identity of the form $\sum_i \alpha_i v_i = 0$ then we cannot necessarily assume that the $\alpha_i$ are all zero.  However, if we choose a basis then we can write each $v_i$ in terms of the basis elements, say $v_i = \sum_j \beta_{i j} u_j$, and substitute in to get $\sum_{i j} \alpha_i \beta_{i j} u_j = 0$.  Now as $\{u_j\}$ forms a basis, we can deduce from this that for each $j$, $\sum_i \alpha_i \beta_{i j} = 0$.  These last identities happen in the coefficient field, which is standing in place of $A$ in the analogy.
+
+When translating this into the language of modules we cannot use bases so we have to be a little more relaxed.  The following statement is the right one.
+
+Suppose there is some identity in $M$ of the form $\sum_i a_i m_i = 0$ with $m_i \in M$ and $a_i \in A$.  Then there is a family $\{n_j\}$ in $M$ such that every $m_i$ can be written in the form $m_i = \sum_j b_{i j} n_n$ and the coefficients $b_{i j}$ have the property that $\sum_i a_i b_{i j} = 0$.
+
+The module $M$ being flat is equivalent to being able always to do this.
+
+This observation (Wraith, Blass) can be put into the more general context of modelling [[geometric theory|geometric theories]] by [[geometric morphism|geometric morphisms]] from their [[classifying topos|classifying toposes]], or equivalently, certain [[flat functor|flat functors]] from [[site|sites]] for such topoi.
+
+In the case of an [[abelian category]], the notions of exact and [[flat functors]] coincide.
+
+The ring may be taken non-unital without any change.
