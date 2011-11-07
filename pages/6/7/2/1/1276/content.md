@@ -20,7 +20,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-Given a [[ring]] (or $k$-algebra) $A$, a left $A$-[[module]], say $M$, is __flat__ if [[tensoring]] with $M$ over $A$ as a [[functor]] from left $A$-modules to left $A$-modules is an [[exact functor]] (sends [[short exact sequences]] to short exact sequences).  
+Given a [[ring]] (or $k$-algebra) $A$, a left $A$-[[module]], say $M$, is __flat__ if [[tensoring]] with $M$ over $A$ as a [[functor]] from left $A$-modules to left $k$-modules is an [[exact functor]] (sends [[short exact sequences]] to short exact sequences).  
 
 =--
 
