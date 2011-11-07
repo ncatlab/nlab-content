@@ -33,8 +33,11 @@ Therefore, we must define the quantifier more carefully; one way to do this is a
 
 *  $Q \vdash_{\Gamma}\forall\, x\colon T, P(x)$ if and only if $Q \vdash_{\Gamma, x\colon T} P(x)$.
 
-Here, $\Gamma$ is an arbitrary context, and $\Gamma, x\colon T$ is that context supplemented by a free variable $x$ of type $T$.  Note that $Q$ is (a priori) a statement in the context $\Gamma$ but also needs to make sense in the context $\Gamma, x\colon T$; therefore, our logic needs an appropriate [[weakening rule]] for this to make sense.  This definition also presumes that a statement (in any given context) can be identified precisely by placing it within the [[poset]] of statements (in that context) under entailment ($\vdash$), which is true for ordinary first-order logic.
+Here, $\Gamma$ is an arbitrary context, and $\Gamma, x\colon T$ is that context supplemented by a free variable $x$ of type $T$.  Note that $Q$ is (a priori) a statement in the context $\Gamma$ but also needs to make sense in the context $\Gamma, x\colon T$; therefore, our logic needs an appropriate [[weakening rule]] for this to make sense.  This definition also presumes that a statement (in any given context) can be identified precisely by placing it within the [[poset]] of statements (in that context) under entailment ($\vdash$), which is true for ordinary first-order logic. 
 
+In terms of semantics (as for example topos-theoretic semantics; see the next section), this weakening rule corresponds to pulling back along a product projection $\sigma(T) \times A \to A$, where $\sigma(T)$ is the interpretation of the type $T$, and $A$ is the interpretation of a type supplied by a context $\Gamma$. In other words, if a statement $Q$ read in context $\Gamma$ is interpreted as a subobject of $A$, then the statement $Q$ read in context $\Gamma, x \colon T$ is interpreted by pulling back along the projection, obtaining a subobject of $\sigma(T) \times A$. 
+
+As observed by Lawvere, we are not particularly constrained to product projections; we can pull back along any map $f \colon B \to A$. Alternatively, any pullback functor $f^\ast: Set/A \to Set/B$ can be construed as pulling back along an object $X = (f \colon B \to A)$, i.e., along the unique map $!: X \to 1$ corresponding to an object $X$ in the slice $Set/A$, since we have the identification $Set/B \simeq (Set/A)/X$. 
 
 ## In topos theory
 
@@ -46,7 +49,7 @@ In terms of the [[internal logic]] in some ambient [[topos]] $\mathcal{E}$,
 
 * a [[truth value]] is a [[(-1)-truncated]] object of $\mathcal{E}$ itself.
 
-Universal quantification is essentially the restriction of the [[direct image]] [[right adjoint]] of a canonical [[étale geometric morphism]]
+Universal quantification is essentially the restriction of the [[direct image]] [[right adjoint]] of a canonical [[étale geometric morphism]] $X_\ast$, 
 
 $$
     \mathcal{E}/X
