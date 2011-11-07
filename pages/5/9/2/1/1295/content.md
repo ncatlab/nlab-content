@@ -108,7 +108,7 @@ This statement and its proof remain valid in [[homotopy theory]]. More in detail
 
 ### Relation to quantification in logic
 
-In terms of the [[internal logic]] of categories, one has that
+In terms of the [[internal logic]] of categories, when one considers [[propositions as types]], one has that
 
 * dependent sum corresponds to [[existential quantification]];
 
