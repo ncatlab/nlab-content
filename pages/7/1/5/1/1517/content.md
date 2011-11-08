@@ -51,6 +51,7 @@ See [[coalgebra]] for examples on categories of modules.
 
 
 ### The real line as a terminal coalgebra
+ {#RealLine}
 
 Let $Pos$ be the category of [[poset]]s. Consider the endofunctor
 
