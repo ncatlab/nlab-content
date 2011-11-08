@@ -43,9 +43,146 @@ The meaning of this is a akin to the existence of bases in vector spaces.  In a 
 
 When translating this into the language of modules we cannot use bases so we have to be a little more relaxed.  The following statement is the right one.
 
-Suppose there is some identity in $M$ of the form $\sum_i a_i m_i = 0$ with $m_i \in M$ and $a_i \in A$.  Then there is a family $\{n_j\}$ in $M$ such that every $m_i$ can be written in the form $m_i = \sum_j b_{i j} n_n$ and the coefficients $b_{i j}$ have the property that $\sum_i a_i b_{i j} = 0$.
+Suppose there is some identity in $M$ of the form $\sum_i a_i m_i = 0$ with $m_i \in M$ and $a_i \in A$.  Then there is a family $\{n_j\}$ in $M$ such that every $m_i$ can be written in the form $m_i = \sum_j b_{i j} n_j$ and the coefficients $b_{i j}$ have the property that $\sum_i a_i b_{i j} = 0$.
 
-The module $M$ being flat is equivalent to being able always to do this. After some unwinding, it means that a module is flat if and only if it is a [[filtered colimit]] of free modules. 
+The module $M$ being flat is equivalent to being able always to do this.
+
+There is an alternative way to phrase this which is less element-centric.  The elements $m_i$ correspond to a morphism into $M$ from a free module, say $m \colon F \to M$.  The $a_i$ correspond to a morphism $a \colon F \to F$, multiplying the $i$th term by $a_i$.  That we have the identity $\sum_i a_i m_i = 0$ says that the composition $m a$ is zero, or that $m \colon F \to M$ factors through the coequaliser of $a$ and $0$.  Now we consider the elements $n_j$.  These define another morphism from a free module, say $n \colon E \to M$.  That the $m_i$ can be expressed in terms of the $n_j$ says that the morphism $m$ factors through $n$.  That is, there is a morphism $b \colon F \to M$ such that $m = n b$.  We therefore have to factorisations of $m$: one through $n$ and one through $\coker a$.  The question is as to whether these have any relation to each other.  In particular, does $\coker a \to M$ factor through $n$?  We can represent all of this in the following diagram.
+
++-- {: style="text-align:center"}
+<svg width="222" height="136" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="14804">
+ <g>
+  <title>Layer 1</title>
+  <foreignObject height="24.000001" width="30" font-size="16" id="svg_14804_1" y="56" x="0">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>F</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">F</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_14804_2" height="24.000001" width="30" font-size="16" y="56" x="80">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>F</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">F</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_14804_8" height="24.000001" width="30" font-size="16" y="56" x="192">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>M</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">M</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_14804_14" height="24.000001" width="60" font-size="16" y="112" x="121">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mo rspace="thinmathspace" lspace="0em">coker</mo>
+      <mi>a</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">\coker a</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_14804_20" height="24.000001" width="30" font-size="16" y="0" x="136">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">E</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <line marker-end="url(#se_marker_end_svg_14804_26)" id="svg_14804_26" y2="66" x2="80.009803" y1="66" x1="30" stroke-width="2" stroke="#000000" fill="none"/>
+  <line transform="rotate(45, 121.006, 94)" id="svg_14804_27" marker-end="url(#se_marker_end_svg_14804_27)" y2="94" x2="146.009803" y1="94" x1="96" stroke-width="2" stroke="#000000" fill="none"/>
+  <line id="svg_14804_29" transform="rotate(-45, 122.006, 39)" marker-end="url(#se_marker_end_svg_14804_29)" y2="39" x2="147.009803" y1="39" x1="97" stroke-width="2" stroke="#000000" fill="none"/>
+  <line id="svg_14804_30" transform="rotate(-45, 179.006, 95)" marker-end="url(#se_marker_end_svg_14804_30)" y2="95" x2="204.009803" y1="95" x1="154" stroke-width="2" stroke="#000000" fill="none"/>
+  <line id="svg_14804_31" transform="rotate(45, 179.006, 38)" marker-end="url(#se_marker_end_svg_14804_31)" y2="38" x2="204.009803" y1="38" x1="154" stroke-width="2" stroke="#000000" fill="none"/>
+  <foreignObject height="20" width="27.999999" font-size="16" id="svg_14804_32" y="44" x="40.000001">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>a</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">a</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_14804_33" height="20" width="27.999999" font-size="16" y="20" x="99.000001">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>b</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">b</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_14804_39" height="20" width="27.999999" font-size="16" y="17" x="177.000001">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">n</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_14804_45" height="20" width="27.999999" font-size="16" y="44" x="154.000001">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">m</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <line id="svg_14804_51" marker-end="url(#se_marker_end_svg_14804_51)" y2="66" x2="190" y1="66" x1="110" stroke-width="2" stroke="#000000" fill="none"/>
+  <line marker-end="url(#se_marker_end_svg_14804_52)" id="svg_14804_52" y2="25.291191" x2="149" y1="111" x1="149" stroke-dasharray="5,5" stroke-width="2" stroke="#000000" fill="none"/>
+ </g>
+ <defs>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_14804_26">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_14804_27">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_14804_29">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_14804_30">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_14804_31">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_14804_51">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_14804_52">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+ </defs>
+</svg>
+=--
+
+Saying that $M$ is flat says that this lift always occurs.
+
+Taking this a step further, we consider the filtered family of all finite subsets of $M$.  This generates a filtered family of finitely generated free modules with compatible morphisms to $M$.  So there is a morphism from the colimit of this family to $M$.  This morphism is surjective by construction.  To show that it is injective, we need to show that any element in one of the terms in the family that dies by the time it reaches $M$ has actually died on the way.  This is precisely what the above characterisation of flatness is saying: the element corresponding to $\sum_i a_i m_i$ that dies in $M$ is already dead by the time it reaches $E$.
+
+Hence a module is flat if and only if it is a [[filtered colimit]] of free modules. 
 
 This observation (Wraith, Blass) can be put into the more general context of modelling [[geometric theory|geometric theories]] by [[geometric morphism|geometric morphisms]] from their [[classifying topos|classifying toposes]], or equivalently, certain [[flat functor|flat functors]] from [[site|sites]] for such topoi.
 
