@@ -1,8 +1,36 @@
 
-Recall that the [[Mitchell–Bénabou language]] (MBL) of a [[topos]] is a [[higher-order logic|higher-order]] [[type theory]] in which one can write [[ordinary mathematics]], which can then be [[internalisation|interpreted in]] the topos using the [[Kripke-Joyal semantics|Kripke–Joyal semantics]] (KJS).  However, there is no direct interpretation of unbounded [[quantification]] in these semantics.  The __stack semantics__ extends the KJS to a version of the MBL with unbounded quantifiers.  This has several nice consequences:
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+##Idea
+
+Recall that the [[Mitchell–Bénabou language]] (MBL) of a [[topos]] is a [[higher-order logic|higher-order]] [[type theory]] in which one can write [[ordinary mathematics]], which can then be [[internalisation|interpreted in]] the [[topos]] using the [[Kripke-Joyal semantics]] (KJS).  
+
+However, there is no direct interpretation of unbounded [[quantification]] in these semantics.  The __stack semantics__ extends the KJS to a version of the MBL with unbounded quantifiers.  This has several nice consequences:
 
 *  It makes fully formal many arguments in the literature that claim to use the KJS but implicitly rely on the reader to properly interpret unbounded quantifiers.
 *  It makes it easy to interpret the [[internal language]] of more general categories, such as [[pretoposes]], where one cannot quantify over [[subobjects]] using the MBL.
 *  Dang, I had another one in my head, but now I forgot it!  Well, doubtless there are many other examples.
 
-See [[Mike Shulman]] (2010), _[Stack semantics and the comparison of material and structural set theories](http://arxiv.org/abs/1004.3802)_.
+## Related concepts
+
+* [[semantics]]
+
+  * [[Kripke-Joyal semantics]]
+
+## References
+
+* [[Mike Shulman]], _[Stack semantics and the comparison of material and structural set theories](http://arxiv.org/abs/1004.3802)_ (2010)
