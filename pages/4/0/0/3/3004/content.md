@@ -156,6 +156,12 @@ of geometric theories over $S$ induces a forgetful functor
 $T' Mod \to T Mod$ which leaves unchanged the $S$-topos of residence, which has a left adjoint $T Mod \to T' Mod$ which may change the topos.  For if $a: E \to S[T]$ is a $T$-model in $E$, [[base change|pulling]] $a$ back along $h$ yields a $T'$-model, not in $E$ but in the [[pullback]].  This is a consequence of general facts about finite [[2-limits]] of the [[2-category]] of 
 [[bounded topos|bounded]] $S$-toposes.
 
+## Properties
+
+* [[Barr's theorem]] says, that if a statement in [[geometric logic]] is deducible from a [[geometric theory]] using classical [[logic]] and the [[axiom of choice]], then it is also
+deducible from it in [[constructive mathematics]]. 
+
+
 
 [[!redirects geometric theory]]
 [[!redirects geometric theories]]
