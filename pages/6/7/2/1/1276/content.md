@@ -39,7 +39,7 @@ Given a [[ring]] (or $k$-algebra) $A$, a left $A$-[[module]], say $M$, is __flat
 
 There is a characterisation of flatness that says that a left $A$-module $M$ is flat if and only if "everything (that happens in $M$) happens for a reason (in $A$)".
 
-The meaning of this is a akin to the existence of bases in vector spaces.  In a vector space, say $V$, if we have an identity of the form $\sum_i \alpha_i v_i = 0$ then we cannot necessarily assume that the $\alpha_i$ are all zero.  However, if we choose a basis then we can write each $v_i$ in terms of the basis elements, say $v_i = \sum_j \beta_{i j} u_j$, and substitute in to get $\sum_{i j} \alpha_i \beta_{i j} u_j = 0$.  Now as $\{u_j\}$ forms a basis, we can deduce from this that for each $j$, $\sum_i \alpha_i \beta_{i j} = 0$.  These last identities happen in the coefficient field, which is standing in place of $A$ in the analogy.
+The meaning of this is akin to the existence of bases in vector spaces.  In a vector space, say $V$, if we have an identity of the form $\sum_i \alpha_i v_i = 0$ then we cannot necessarily assume that the $\alpha_i$ are all zero.  However, if we choose a basis then we can write each $v_i$ in terms of the basis elements, say $v_i = \sum_j \beta_{i j} u_j$, and substitute in to get $\sum_{i j} \alpha_i \beta_{i j} u_j = 0$.  Now as $\{u_j\}$ forms a basis, we can deduce from this that for each $j$, $\sum_i \alpha_i \beta_{i j} = 0$.  These last identities happen in the coefficient field, which is standing in place of $A$ in the analogy.
 
 When translating this into the language of modules we cannot use bases so we have to be a little more relaxed.  The following statement is the right one.
 
