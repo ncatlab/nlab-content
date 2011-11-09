@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[continuous map]] $i:A\hookrightarrow X$ is a **Hurewicz cofibration** if it satisfies the **homotopy extension property**. 
+A [[continuous map]] $i:A\hookrightarrow X$ is a **Hurewicz cofibration** if it satisfies the **[[homotopy extension property]]**. 
 
 This means that 
 
