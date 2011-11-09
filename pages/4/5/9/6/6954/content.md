@@ -233,3 +233,50 @@ $$
 
 is an [[inner product]].
 =--
+
+## Isometries on inner product spaces 
+
+Because lengths determine inner products, and because inner products respect linear structure, isometries must also respect linear (or affine) structure: 
+
++-- {: .un_thm}
+######Theorem 
+Let $V$ be a finite-dimensional vector space with a norm satisfying the parallelogram law. Then an isometry (distance-preserving function) $f \colon V \to V$ is an linear affine isomorphism. 
+=-- 
+
++-- {: .proof} 
+######Proof 
+Put $v = f(0)$. Then the map $x \mapsto f(x) - v$ is also an isometry, so that without loss of generality we may assume $f(0) = 0$, and prove that $f$ is a linear isomorphism. 
+
+Letting $d(x, y)$ denote the distance between $x$ and $y$, we have 
+
+$$\|x-y\| = d(x, y) = d(f(x), f(y)) = \|f(x)-f(y)\|$$ 
+
+and then, putting $y=0$, we have $\|x\| = \|f(x)\|$. Hence 
+
+$$\array{
+\langle x, y\rangle & = & \frac1{2}\left(\|x\|^2 + \|y\|^2 - \|x-y\|^2\right) \\
+ & = & \frac1{2}\left(\|f(x)\|^2 + \|f(y)\|^2 - \|f(x)-f(y)\|^2\right) \\ 
+ & = & \langle f(x), f(y) \rangle
+}$$ 
+
+i.e., $f$ preserves the inner product. 
+
+Thus, if $\{e_i\}_{i = 1, \ldots, n}$ is an orthonormal basis of $V$, then $\{u_i = f(e_i)\}_{i=1, \ldots, n}$ is also an orthonormal basis (since $f$ preserves the inner product). Next, for any linear combination $a x + b y$, 
+
+$$\array{
+\langle f(a x + b y), u_i \rangle & = & \langle a x + b y, e_i \rangle \\
+ & = & a \langle x, e_i\rangle + b\langle y, e_i\rangle \\
+ & = & a \langle f(x), u_i \rangle + b \langle f(y), u_i \rangle \\
+ & = & \langle a f(x) + b f(y), u_i \rangle
+}$$ 
+
+for all $i$, whence $f(a x + b y) = a f(x) + b f(y)$. Thus $f$ is a linear map, and a linear isomorphism because it carries a basis $e_i$ to a basis $u_i$. 
+
+Summarizing, any isometry $f \colon V \to V$ is of the form 
+
+$$f(x) = M x + b$$ 
+
+where $M \in O(V)$ is an orthogonal linear transformation and $b$ is a vector. 
+=-- 
+
+With a little more effort, one can remove the hypothesis that $V$ is finite-dimensional, and conclude that an isometry $f$ is an injective affine map. 
