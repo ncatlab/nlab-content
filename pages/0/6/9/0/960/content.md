@@ -41,4 +41,6 @@ If finite [[product]]s in $C$ preserve finite colimits, then the smash product i
 
 ### Of pointed topological spaces
 
-The most common case when $C$ is a category of [[topological spaces]].  In that case, the natural map $A\wedge B\wedge C\to (A\wedge B)\wedge C$ is a [[homeomorphism]] provided $C$ is a [[locally compact Hausdorff space]]. Thus if both $A$ and $C$ are locally compact Hausdorff, then we have the associativity $A\wedge(B\wedge C)\cong (A\wedge B)\wedge C$. Associativity fails in general for the category [[Top]] of all topological spaces; however, it is satisfied for pointed objects in any [[convenient category of topological spaces]], since such a category is cartesian closed.  In particular, the smash product is associative for pointed [[compactly generated spaces]].
+The most common case when $C$ is a category of [[topological spaces]].  In that case, the [[natural transformation|natural]] [[continuous function|map]] $A\wedge (B\wedge C)\to (A\wedge B)\wedge C$ is a [[homeomorphism]] provided $C$ is a [[locally compact Hausdorff space]]. Thus if both $A$ and $C$ are locally compact Hausdorff, then we have the [[associativity]] $A\wedge(B\wedge C)\cong (A\wedge B)\wedge C$. 
+
+Associativity fails in general for the category [[Top]] of all topological spaces; however, it is satisfied for pointed objects in any [[convenient category of topological spaces]], since such a category is cartesian closed.  In particular, the smash product is associative for pointed [[compactly generated spaces]].
