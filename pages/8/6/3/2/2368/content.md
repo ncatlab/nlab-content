@@ -67,22 +67,40 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 
 ## References
 
+### Original sources
+
+
+In the mid-1990s, several categories of spectra with nice smash products were discovered, and simultaneously,
+model categories experienced a major renaissance. 1993, Elmendorf, Kriz, Mandell and May
+introduced the S-modules and [[Jeff Smith]] gave the first talks about symmetric spectra; the details of
+the model structure were later worked out and written up in 
+
+* [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208.
+
+
+
+### Reviews and introductions
+
 A survey of the general theory, also of its history, is
 
-* A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* A. Elmendorf, [[Igor Kriz]], [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
-The definition of $S$-modules and their theory ca nbe found in 
+The definition of $S$-modules and their theory can be found in 
 
-* A. Elmendorf, I. Kriz, M. Mandell, [[Peter May|P. May]], *Rings, modules and algebras in stable homotopy theory* (aka "EKMM")
+* A. Elmendorf, [[Igor Kriz]], M. Mandell, [[Peter May|P. May]], *Rings, modules and algebras in stable homotopy theory* (aka "EKMM")
 
-The definition of the symmetric monoidal category of *symmetric* spectra is compiled in the seminar notes
+A textbook account of the theory of symmetric spectra is  
+
+* [[Stefan Schwede]], _Symmetric spectra_ ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
+Seminar notes on symmetric spectra are in
 
 * [[Sander Kupers]], _[[SymmetricSpectra.pdf:file]]_
 
+See also
+
 * wikipedia [highly structured ring spectrum](http://en.wikipedia.org/wiki/Highly_structured_ring_spectrum)
 
-* [[Stefan Schwede]], _An untitled book project
-about symmetric spectra_, a book in progress, [dvi](http://www.math.uni-bonn.de/~schwede/SymSpec.dvi), [pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf)
 
 [[!redirects S-module]]
 [[!redirects S-modules]]
