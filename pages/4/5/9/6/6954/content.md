@@ -9,6 +9,10 @@
 =--
 =--
 
+# The Parallelogram Identity
+* table of contents
+{: toc}
+
 ## Idea ##
 
 The **parallelogram identity** is an identity which characterises those [[norms]] which are the norms associated with [[inner products]].  An inner product can be considered as being the structure required to define the angle between two vectors and a norm can be considered as being the structure required to define the length of a vector.  From standard Euclidean geometry, lengths and angles (almost) determine each other so knowing one, we should be able to define the other.
