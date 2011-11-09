@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -34,8 +34,15 @@ If $X$ and $Y$ are compacta in $s$, then $X$ and $Y$ have the same shape if and 
 
 Chapman extended the association $X$ 'goes to' $Q\setminus X$ to a functor from the Borsuk shape category to the weak [[proper homotopy theory|proper homotopy]] category of complements in $Q$ of compacta.  This was the basis for Edwards-Hastings formulation of [[strong shape theory]], on replacing the weak form of proper homotopy by a strong form. 
 
+## Related concepts
+
+* [[shape theory]]
+
+  * [[strong shape theory]]
+
 
 ##References##
+
 * K. Borsuk, _Concerning homotopy properties of compacta_, Fund Math. 62 (1968) 223-254
 * K. Borsuk, _Theory of Shape_, Monografie Matematyczne Tom 59,Warszawa 1975.
 * T.A.Chapman, _On Some Applications of Infinite Dimensional Manifolds to the Theory of Shape_, Fund. Math. 6 (1972), 181 - 193.
