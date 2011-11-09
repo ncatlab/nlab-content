@@ -48,6 +48,8 @@
 
   * [[motivic cohomology]]
 
+* [[cohomology of operads]]
+
 * [[Hochschild cohomology]], [[cyclic cohomology]]
 
   * [[string topology]]
