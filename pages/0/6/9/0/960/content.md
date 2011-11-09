@@ -23,7 +23,7 @@ The __smash product__ $A \wedge B$ of two [[pointed set]]s $A$ and $B$ is the [[
 The subset that is 'smashed' here can be identified with the [[wedge sum]] $A \vee B$, so the definition of the smash product can be summarised as follows:
 $$ A \wedge B = \frac{A \times B}{A \vee B} $$
 
-This easily generalizes to the smash products of many spaces, but they do not necessarily agree with iterated version: it is not necessary that $A\wedge B\wedge C \cong (A\wedge B)\wedge C$. 
+This easily generalizes to the smash products of many spaces, but they do not necessarily agree with iterated version: it is not necessary that $A\wedge (B\wedge C) \cong (A\wedge B)\wedge C$. 
 
 The smash product is the [[tensor product]] in the [[closed monoidal category]] of pointed sets.  That is,
 $$ Fun_*(A \wedge B, C) \cong Fun_*(A, Fun_*(B, C)) $$
