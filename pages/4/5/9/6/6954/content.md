@@ -240,7 +240,7 @@ Because lengths determine inner products, and because inner products respect lin
 
 +-- {: .un_thm}
 ######Theorem 
-Let $V$ be a finite-dimensional vector space with a norm satisfying the parallelogram law. Then an isometry (distance-preserving function) $f \colon V \to V$ is an linear affine isomorphism. 
+Let $V$ be a vector space with a norm satisfying the parallelogram law. Then an isometry (distance-preserving function) $f \colon V \to V$ is an injective linear affine map. 
 =-- 
 
 +-- {: .proof} 
@@ -261,22 +261,20 @@ $$\array{
 
 i.e., $f$ preserves the inner product. 
 
-Thus, if $\{e_i\}_{i = 1, \ldots, n}$ is an orthonormal basis of $V$, then $\{u_i = f(e_i)\}_{i=1, \ldots, n}$ is also an orthonormal basis (since $f$ preserves the inner product). Next, for any linear combination $a x + b y$, 
+Let $W$ be the linear subspace spanned by the image $f(V)$. Then $W$ inherits an inner product, and if $\{e_i\}$ is an orthonormal basis of $V$ (without restriction on cardinality), then $\{u_i = f(e_i)\}$ is also an orthonormal basis of $W$, since $f$ preserves the inner product. Next, for any linear combination $a x + b y$, 
 
 $$\array{
-\langle f(a x + b y), u_i \rangle & = & \langle a x + b y, e_i \rangle \\
- & = & a \langle x, e_i\rangle + b\langle y, e_i\rangle \\
- & = & a \langle f(x), u_i \rangle + b \langle f(y), u_i \rangle \\
- & = & \langle a f(x) + b f(y), u_i \rangle
+\langle f(a x + b y), u_i \rangle_W & = & \langle a x + b y, e_i \rangle_V \\
+ & = & a \langle x, e_i\rangle_V + b\langle y, e_i\rangle_V \\
+ & = & a \langle f(x), u_i \rangle_W + b \langle f(y), u_i \rangle_W \\
+ & = & \langle a f(x) + b f(y), u_i \rangle_W
 }$$ 
 
-for all $i$, whence $f(a x + b y) = a f(x) + b f(y)$. Thus $f$ is a linear map, and a linear isomorphism because it carries a basis $e_i$ to a basis $u_i$. 
+for each $u_i$, whence $f(a x + b y) = a f(x) + b f(y)$. Thus $f$ is a linear map, and a linear isomorphism onto the subspace $W$ because it carries a basis $e_i$ of $V$ to a basis $u_i$. 
 
 Summarizing, any isometry $f \colon V \to V$ is of the form 
 
 $$f(x) = M x + b$$ 
 
-where $M \in O(V)$ is an orthogonal linear transformation and $b$ is a vector. 
+where $M$ is a linear injection and $b$ is a vector. 
 =-- 
-
-With a little more effort, one can remove the hypothesis that $V$ is finite-dimensional, and conclude that an isometry $f$ is an injective affine map. 
