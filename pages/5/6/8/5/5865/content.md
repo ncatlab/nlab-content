@@ -156,7 +156,7 @@ we have that $conc_n X$ is an $n$-concrete object.
   {#InfinGroups}
 
 Every [[(∞,1)-topos]] $\mathbf{H}$ 
-comes with a notion of [[group object in an (∞,1)-category|∞-group objects]] that generalizes the traditional notion of grouplike $A_\infty$ spaces in [[Top]] $\simeq$ [[∞Grpd]].
+comes with a notion of [[group object in an (∞,1)-category|∞-group objects]] that generalizes the traditional notion of grouplike $A_\infty$ spaces in [[Top]] $\simeq$ [[∞Grpd]]. For more details on the following see also _[[looping and delooping]]_.
 
 
 
