@@ -191,9 +191,20 @@ Introductions to HoTT are at
 ### Code
  {#Code}
 
-The basic [[Coq]]-code that sets up homotopy type theory:
+The basic [[Coq]]-code libraries that set up homotopy type theory are at
 
-* _HoTT-Coq code_ ([[HoTT-Coq-code.pdf:file]]) 
+* [https://github.com/HoTT/HoTT/tree/master/Coq](https://github.com/HoTT/HoTT/tree/master/Coq)
+
+A more pretty-printed ordered collection of these for human readers is in
+
+* _HoTT-Coq code_ ([[HoTT-Coq-code.pdf:file]]) .
+
+A collection of all this code equipped with html-functionality that does display also the proofs (which otherwise only display when the code is loaded into a Coq-system) is at 
+
+* _[Proviola/HoTT](http://mws.cs.ru.nl/proviola/HoTT/)_ .
+
+
+
 
 More is in the repositories of various authors:
 
