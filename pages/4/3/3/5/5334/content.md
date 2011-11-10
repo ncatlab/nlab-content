@@ -1,7 +1,7 @@
 
 # Errett Bishop
 
-Errett Bishop (1928--1983) was responsible for reviving interest in [[constructive mathematics]] as a branch of [[mathematics]].  Before this, he had a career in classical [[approximation theory]] and other fields.
+Errett Bishop (1928--1983) was responsible for reviving interest in [[constructive mathematics]] as a branch of [[mathematics]].  Before this, he had a career in areas of classical (i.e., non-constructive) analysis, including [[approximation theory]], [[several complex variables]], [[function algebras]], and other fields. 
 
 * table of contents
 {: toc}
