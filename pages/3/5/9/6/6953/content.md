@@ -49,6 +49,7 @@ Either of these is allowed to be infinite.  A space is said to be **type $2$** i
 ## Properties ##
 
 If we consider all Banach spaces that are either of type $2$ or cotype $2$ then we find that these split into the two obvious classes with Hilbert spaces sitting plum in the middle.  Not only are Hilbert spaces the intersection of these classes, but also a continuous linear operator from a space of type $2$ into a space of cotype $2$ factors through a Hilbert space.
+(This follows from a generalization/extension of Grothendieck's inequality.)
 
 More precisely:
 
