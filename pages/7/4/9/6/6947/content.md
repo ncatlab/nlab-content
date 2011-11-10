@@ -31,7 +31,7 @@ Note that it is quite possible that $\exists\, x\colon T, \phi x$ may be provabl
 
 We work in a [[logic]] in which we are concerned with which [[propositions]] entail which propositions (in a given [[context]]); in particular, two propositions which entail each other are considered equivalent.
 
-Let $\Gamma$ be an arbitrary [[context]] and $T$ a [[type]] in $\Gamma$ so that $\Delta \coloneqq \Gamma, x\colon T$ is $\Gamma$ extended by a [[free variable]] $x$ of type $T$.  We assume that we have a [[weakening]] principle that allows us to interpret any proposition $Q$ in $\Gamma$ as a proposition $Q[\hat{x}]$ in $\Delta$.  Fix a proposition $P$ in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the free variable $x$.  Then the __universal quantification__ of $P$ is any proposition $\forall\, x\colon T, P$ in $\Gamma$ such that, given any proposition $Q$ in $\Gamma$, we have
+Let $\Gamma$ be an arbitrary [[context]] and $T$ a [[type]] in $\Gamma$ so that $\Delta \coloneqq \Gamma, x\colon T$ is $\Gamma$ extended by a [[free variable]] $x$ of type $T$.  We assume that we have a [[weakening]] principle that allows us to interpret any proposition $Q$ in $\Gamma$ as a proposition $Q[\hat{x}]$ in $\Delta$.  Fix a proposition $P$ in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the free variable $x$.  Then the __existential quantification__ of $P$ is any proposition $\exists\, x\colon T, P$ in $\Gamma$ such that, given any proposition $Q$ in $\Gamma$, we have
 
 *  $\exists\, x\colon T, P \vdash_{\Gamma} Q$ if and only if $P \vdash_{\Gamma, x\colon T} Q[\hat{x}]$.
 
@@ -57,7 +57,7 @@ In terms of the [[internal logic]] in some ambient [[topos]] $\mathcal{E}$,
 
 * a [[truth value]] is a [[(-1)-truncated]] object of $\mathcal{E}$ itself.
 
-Existential quantification is essentially the extra [[left adjoint]] of the canonical [[étale geometric morphism]]
+Existential quantification is essentially the restriction of the extra [[left adjoint]] of a canonical [[étale geometric morphism]] $X_\ast$, 
 
 $$
     \mathcal{E}/X
@@ -66,9 +66,9 @@ $$
   \,,
 $$
 
-where $(-) \times X$ is the functor that forms the [[product]] with $X$, $\exists$ is the [[dependent sum]] and $\forall$ is the [[dependent product]] operation.
+where $X^\ast$ is the functor that takes an object $A$ to the [[product]] projection $\pi \colon X \times A \to X$, where $X_! = \Sigma_X$ is the [[dependent sum]] (i.e., forgetful functor taking $f \colon A \to X$ to $A$) that is left adjoint to $X^\ast$, and where $X_\ast = \Pi_X$ is the [[dependent product]] operation that is right adjoint to $X^\ast$.
 
-This operation restricts to [[propositions]] by pre- and postcomposition with the [[truncated|truncation]] [[adjunctions]]
+The dependent sum operation restricts to [[propositions]] by pre- and postcomposition with the [[truncated|truncation]] [[adjunctions]]
 
 $$
   \tau_{\leq -1} \mathcal{E}
@@ -76,7 +76,7 @@ $$
   \mathcal{E}
 $$
 
-to give
+to give existential quantification over the domain (or context) $X$:
 
 $$
   \array{
