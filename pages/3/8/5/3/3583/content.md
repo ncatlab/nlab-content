@@ -27,7 +27,7 @@ Moreover this has also a crystalline version: **crystals of affine schemes**. Th
 
 * [[Grothendieck connection]], [[D-module]], [[p-connection]]
 * [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_, notes in [[Dennis Gaitsgory]]'s seminar, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)
-
+* [[Dennis Gaitsgory]], Nick Rozenblyum, _Crystals and D-modules_, [arxiv/1111.2087](http://arxiv.org/abs/1111.2087)
 * A. [[Beilinson]], V. Drinfel'd, _Chiral algebras_ contains a section on D-schemes.
 
 * A. [[Grothendieck]], _Crystals and the de Rham cohomology of schemes_, in "Dix exposes sur la cohomologie des schemas"
