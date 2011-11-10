@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 #### Functional analysis
@@ -13,7 +14,7 @@
 * table of contents
 {: toc}
 
-## Idea ##
+## Idea
 
 The **parallelogram identity** is an identity which characterises those [[norms]] which are the norms associated with [[inner products]].  An inner product can be considered as being the structure required to define the angle between two vectors and a norm can be considered as being the structure required to define the length of a vector.  From standard Euclidean geometry, lengths and angles (almost) determine each other so knowing one, we should be able to define the other.
 
@@ -100,29 +101,30 @@ The cosine law for this special case leads to two formulae:
 
 $$
 \begin{aligned}
-\|u + v\|^2 &= \|u\|^2 + \|v\|^2 - 2\|u\|\|v\| \cos(\psi) \\
-\|u - v\|^2 &= \|u\|^2 + \|v\|^2 - 2\|u\|\|v\| \cos(\phi)
+{\|u + v\|^2} &= {\|u\|^2} + {\|v\|^2} - 2{\|u\|}{\|v\|} \cos(\psi) \\
+{\|u - v\|^2} &= {\|u\|^2} + {\|v\|^2} - 2{\|u\|}{\|v\|} \cos(\phi)
 \end{aligned}
 $$
 
 By imposing the assumption that angles should add correctly, we deduce that $\psi = \pi - \phi$ and thus $\cos (\psi) = - \cos(\phi)$.  Summing the two lines above leads to the parallelogram identity:
 
 $$
-\|u + v\|^2 + \|u - v\|^2 = 2 \|u\|^2 + 2 \|v\|^2
+{\|u + v\|^2} + {\|u - v\|^2} = 2 {\|u\|^2} + 2 {\|v\|^2}
 $$
 
 If a norm satisfies this identity, then the definition of angle (using the cosine identity) satisfies all the basic properties of angles that one can consider.
 
-## Inner Products ##
+
+## Inner Products
 
 A [[norm]] which satisfies the parallelogram identity is the norm associated with an  [[inner product]].
 Using the parallelogram identity, there are three commonly stated equivalent forumlae for the inner product.  The notation can vary a little, but it is usually some form of round or angled brackets.  These formulae hold for vector spaces over $\mathbb{R}$.  There are similar formulae for $\mathbb{C}$ but they have more terms.
 
 $$
 \begin{aligned}
-\langle u, v \rangle &= \frac{1}{2} \left(\|u + v\|^2 - \|u\|^2 - \|v\|^2 \right) \\
-&= \frac{1}{2} \left(\|u\|^2 + \|v\|^2 - \|u - v\|^2\right) \\
-&= \frac{1}{4} \left(\|u + v\|^2 - \|u - v\|^2\right)
+\langle u, v \rangle &= \frac{1}{2} \left({\|u + v\|^2} - {\|u\|^2} - {\|v\|^2} \right) \\
+&= \frac{1}{2} \left({\|u\|^2} + {\|v\|^2} - {\|u - v\|^2}\right) \\
+&= \frac{1}{4} \left({\|u + v\|^2} - {\|u - v\|^2}\right)
 \end{aligned}
 $$
 
@@ -147,13 +149,13 @@ All but the last of these is a simple deduction from the formulae. The last is a
 
 $$
 \begin{aligned}
-4\langle u, v + w \rangle &= \|u + v + w\|^2 - \|u - v - w\|^2 \\
-&=\left\|\left(\frac{1}{2}u + v\right) + \left(\frac{1}{2}u + w\right)\right\|^2 - \left\|\left(\frac{1}{2}u - v\right) + \left(\frac{1}{2}u - w \right)\right\|^2 \\
-&=\left\|\left(\frac{1}{2}u + v\right) + \left(\frac{1}{2}u + w\right)\right\|^2 + \left\|\left(\frac{1}{2}u + v\right) - \left(\frac{1}{2}u + w\right)\right\|^2 \\
-&\qquad -  \left\|\left(\frac{1}{2}u - v\right) - \left(\frac{1}{2}u - w\right)\right\|^2 - \left\|\left(\frac{1}{2}u - v\right) + \left(\frac{1}{2}u - w \right)\right\|^2 \\
-&=2\left\|\frac{1}{2}u + v\right\|^2 + 2\left\|\frac{1}{2}u + w\right\|^2 -  2\left\|\frac{1}{2}u - v\right\|^2 - 2\left\|\frac{1}{2}u - w\right\|^2 \\
-&= 2\left\|\frac{1}{2}u + v\right\|^2  -  2\left\|\frac{1}{2}u - v\right\|^2 \\
-&\quad+ 2\left\|\frac{1}{2}u + w\right\|^2 - 2\left\|\frac{1}{2}u - w\right\|^2\\
+4\langle u, v + w \rangle &= {\|u + v + w\|^2} - {\|u - v - w\|^2} \\
+&={\left\|\left(\frac{1}{2}u + v\right) + \left(\frac{1}{2}u + w\right)\right\|^2} - {\left\|\left(\frac{1}{2}u - v\right) + \left(\frac{1}{2}u - w \right)\right\|^2} \\
+&={\left\|\left(\frac{1}{2}u + v\right) + \left(\frac{1}{2}u + w\right)\right\|^2} + {\left\|\left(\frac{1}{2}u + v\right) - \left(\frac{1}{2}u + w\right)\right\|^2} \\
+&\qquad -  {\left\|\left(\frac{1}{2}u - v\right) - \left(\frac{1}{2}u - w\right)\right\|^2} - {\left\|\left(\frac{1}{2}u - v\right) + \left(\frac{1}{2}u - w \right)\right\|^2} \\
+&=2{\left\|\frac{1}{2}u + v\right\|^2} + 2{\left\|\frac{1}{2}u + w\right\|^2} -  2{\left\|\frac{1}{2}u - v\right\|^2} - 2{\left\|\frac{1}{2}u - w\right\|^2} \\
+&= 2{\left\|\frac{1}{2}u + v\right\|^2}  -  2{\left\|\frac{1}{2}u - v\right\|^2} \\
+&\quad+ 2{\left\|\frac{1}{2}u + w\right\|^2} - 2{\left\|\frac{1}{2}u - w\right\|^2}\\
 &= 8\langle \frac{1}{2}u,v \rangle + 8\langle \frac{1}{2}u,w\rangle
 \end{aligned}
 $$
@@ -165,7 +167,7 @@ The properties above were all reasonably straightforward deductions from the def
 
 +-- {: .num_lemma #ipcts}
 ###### Lemma
-The map $(u,v) \mapsto \frac{1}{2}(\|u + v\|^2 - \|u\|^2 - \|v\|^2)$ is continuous.
+The map $(u,v) \mapsto \frac{1}{2}({\|u + v\|^2} - {\|u\|^2} - {\|v\|^2})$ is continuous.
 =--
 
 +-- {: .proof}
@@ -229,10 +231,10 @@ $$
 
 
 +-- {: .num_corollary #scangip}
-If $\|-\|$ is a norm on a vector space satisfying the parallelogram law then the  function
+If ${\|{-}\|}$ is a norm on a vector space satisfying the parallelogram law then the  function
 
 $$
-(u,v) \mapsto \frac{1}{2}\left(\|u + v\|^2 - \|u\|^2 - \|v\|^2\right)
+(u,v) \mapsto \frac{1}{2}\left({\|u + v\|^2} - {\|u\|^2} - {\|v\|^2}\right)
 $$
 
 is an [[inner product]].
@@ -253,13 +255,13 @@ Put $v = f(0)$. Then the map $x \mapsto f(x) - v$ is also an isometry, so that w
 
 Letting $d(x, y)$ denote the distance between $x$ and $y$, we have 
 
-$$\|x-y\| = d(x, y) = d(f(x), f(y)) = \|f(x)-f(y)\|$$ 
+$${\|x-y\|} = d(x, y) = d(f(x), f(y)) = {\|f(x)-f(y)\|}$$ 
 
-and then, putting $y=0$, we have $\|x\| = \|f(x)\|$. Hence 
+and then, putting $y=0$, we have ${\|x\|} = {\|f(x)\|}$. Hence 
 
 $$\array{
-\langle x, y\rangle & = & \frac1{2}\left(\|x\|^2 + \|y\|^2 - \|x-y\|^2\right) \\
- & = & \frac1{2}\left(\|f(x)\|^2 + \|f(y)\|^2 - \|f(x)-f(y)\|^2\right) \\ 
+\langle x, y\rangle & = & \frac1{2}\left({\|x\|^2} + {\|y\|^2} - {\|x-y\|^2}\right) \\
+ & = & \frac1{2}\left({\|f(x)\|^2} + {\|f(y)\|^2} - {\|f(x)-f(y)\|^2}\right) \\ 
  & = & \langle f(x), f(y) \rangle
 }$$ 
 
