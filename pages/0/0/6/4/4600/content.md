@@ -81,7 +81,7 @@ The differential cohomology $H_{diff}^n(X)$ of $X$ fits into [[short exact seque
 
    \[
      \label{CurvatureSequence}
-     0 \to H^{n-1}(X, U(1)) \to H^n_{diff}(X) \stackrel{F}{\to} \Omega_{int}^n \to 0
+     0 \to H^{n-1}(X, U(1)) \to H^n_{diff}(X) \stackrel{F}{\to} \Omega_{int}^n(X) \to 0
    \]
 
 1. **characteristic class exact sequence**
