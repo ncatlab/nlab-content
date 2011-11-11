@@ -67,9 +67,19 @@ $$\array{(\Delta / A)^{op} & \overset{p}{\to} & A^{op}\times A\\
   ^!\downarrow & \swArrow_\alpha & \downarrow^v\\
   1& \underset{u}{\to} & B}
 $$
-The component of the transformation $\alpha$ at a simplex $x\colon [n] \to A$ is its composite, a morphism from $x(0) \to x(n)$ which we can therefore regard as a morphism from $(x(n),x(0))$ to $\star = u(1)$ in $B$.  Thus, to show that the definitions agree, it suffices to show that this square is homotopy exact.
+The component of the transformation $\alpha$ at a simplex $x\colon [n] \to A$ is its composite, a morphism from $x(0) \to x(n)$ which we can therefore regard as a morphism from $(x(n),x(0))$ to $\star = u(1)$ in $B$.
 
-(to be completed...)
+Thus, to show that the definitions agree, it suffices to show that this square is homotopy exact.  For this, it suffices for it to be homotopy exact when pasted with any comma square
+$$\array{Q_{a,b} & \overset{}{\to} & 1\\
+  \downarrow & \swArrow & \downarrow^{(b,a)}\\
+  (\Delta / A)^{op}& \underset{}{\to} & A^{op}\times A.}$$
+The objects of the category $Q_{a,b}$ are strings of composable $n\ge 2$ arrows starting at $a$ and ending at $b$.  Its morphisms are like those of $(\Delta / A)^{op}$, but the first and last face maps are also given by composition instead of forgetting.  In fact, it is precisely the category of simplices of the [[two-sided bar construction]] $B(A(-,b),A,A(a,-))$.
+
+Now we also have a comma square
+$$\array{A(a,b) & \overset{}{\to} & 1\\
+  \downarrow &\swArrow & \downarrow^{v\circ (b,a)}\\
+  1& \underset{}{\to} & B}$$
+and so it suffices for the induced functor $Q_{a,b} \to A(a,b)$ to be a nerve equivalence, where $A(a,b)$ is [[discrete category|discrete]].  However, the simplicial map $B(A(-,b),A,A(a,-)) \to A(a,b)$, with $A(a,b)$ a discrete simplicial set, is well-known to be a [[simplicial homotopy equivalence]] and thus a weak equivalence of simplicial sets.  Since the nerve of $Q_{a,b}$ is naturally equivalent to $B(A(-,b),A,A(a,-))$, and likewise for $A(a,b)$, this proves the desired result.
 
 [[!redirects end in a derivator]]
 [[!redirects ends in derivators]]
