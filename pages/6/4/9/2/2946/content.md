@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -26,7 +25,7 @@ A _filtered colimit_ is a suitable category such as [[Set]] is a [[colimit]] of 
 
 A __filtered colimit__ or **finitely filtered colimit** is a [[colimit]] of a [[functor]] $F\colon D \to C$ where $D$ is a [[filtered category]].  
 
-For $\kappa$ a [[cardinal number|regular cardinal]] a **$\kappa$-filtered colimit** is one over a $\kappa$-filtered category.
+For $\kappa$ a [[regular cardinal]] a **$\kappa$-filtered colimit** is one over a $\kappa$-filtered category.
 
 
 Similarly, a __cofiltered limit__ is a [[limit]] of a functor $F\colon D \to C$ where $D$ is a [[cofiltered category]], or equivalently of a [[contravariant functor]] $F\colon D \to C$ (that is a functor $F\colon D^{op} \to C$) where $D$ is a filtered category.  
