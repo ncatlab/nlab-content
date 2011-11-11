@@ -56,7 +56,7 @@ Let $f \colon E \to F$ an isometry between normed vector spaces, and suppose $F$
 
 +-- {: .proof} 
 ######Proof 
-To say that $f \colon E \to F$ is affine means that $f$ preserves linear combinations of the form $t x + (1-t)y$. It suffices to consider only the case where $0 \lt t \lt 1$ and, by continuity considerations, only the case of dyadic rationals between $0$ and $1$. Continuing this train of thought, it suffices to prove that $f(\frac1{2}(x + y)) = \frac1{2}(f(x) + f(y)$ for all $x, y$. 
+To say that $f \colon E \to F$ is affine means that $f$ preserves linear combinations of the form $t x + (1-t)y$. It suffices to consider only the case where $0 \lt t \lt 1$ and, by continuity considerations, only the case of dyadic rationals between $0$ and $1$. Continuing this train of thought, it suffices to prove that $f(\frac1{2}(x + y)) = \frac1{2}(f(x) + f(y))$ for all $x, y$. 
 
 In the case of strict convexity, midpoints $\frac1{2}(u+v)$ are determined in terms of the norm, as the unique point $w$ such that 
 
