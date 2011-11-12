@@ -47,7 +47,7 @@ see [[Killing vector field]]
 
 In practice, isometries $E \to F$ between [[normed vector space|normed vector spaces]] tend to be affine maps. The following theorem gives a precise meaning to this. 
 
-A norm on a vector space is **strictly convex** if, whenever ${\|u\|} = 1 = {\|v\|}$, we have ${\|t u + (1-t)v\|} \lt 1$ for $0 \lt t \lt 1$. In brief, no sphere contains a line segment. Examples of strictly convex spaces include spaces of type $L^p$ for $1 \lt p \lt \infty$. 
+A norm on a vector space is **strictly convex** if, whenever ${\|u\|} = 1 = {\|v\|}$, we have ${\|t u + (1-t)v\|} \lt 1$ for some (hence all!) $t$ in the range $0 \lt t \lt 1$. In brief, no sphere contains a line segment. Examples of strictly convex spaces include spaces of type $L^p$ for $1 \lt p \lt \infty$. 
 
 +-- {: .un_thm} 
 ######Theorem 
@@ -62,7 +62,7 @@ In the case of strict convexity, midpoints $\frac1{2}(u+v)$ are determined in te
 
 $${\|w - u\|} = \frac1{2}{\|u-v\|} = {\|w-v\|}.$$ 
 
-The midpoint satisfies these equations for any normed vector space, but the uniqueness is a consequence of strict convexity. For if there were two such points $w, w'$, then for any point $w''$ on the line segment between them, we would have both ${\|w'' - u\|} \lt \frac1{2}{\|u-v\|}$ and ${\|w''-v\|} \lt \frac1{2}{\|u-v\|}$. But these two inequalities taken together would violate the triangle inequality. 
+The midpoint satisfies these equations for any normed vector space, but the uniqueness is a consequence of strict convexity. For if there were two such points $w, w'$, then for some point $w''$ on the line segment between them, we would have ${\|w'' - u\|} \lt \frac1{2}{\|u-v\|}$, and ${\|w''-v\|} \leq \frac1{2}{\|u-v\|}$ by ordinary convexity. But these two inequalities taken together would violate the triangle inequality. 
 
 As a result, since $f$ is an isometry, $w = f(\frac1{2}(x+y))$ is forced to be the midpoint between $f(x)$ and $f(y)$ if $F$ is strictly convex. This completes the proof. 
 =-- 
