@@ -1,1 +1,1 @@
-Postdoc at University of Arizona, writer for AMS Math in the Media website, former AMS-AAAS Mass Media Fellow, [current website](www.math.arizona.edu/~bfinegold)
+Teaching postdoc at University of Arizona, writer for AMS Math in the Media website, former AMS-AAAS Mass Media Fellow, [current website](http://www.math.arizona.edu/~bfinegold)
