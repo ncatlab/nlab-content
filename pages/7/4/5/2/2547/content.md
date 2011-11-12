@@ -75,5 +75,14 @@ $$\tau(h,k) = \sum f^{-1}(h_{(1)})[h_{(2)}\triangleright f^{-1}(k_{(1)})]\sigma(
 The isomorphism $i$ is then given by
 $$i(u\sharp_\sigma h) = \sum u f(h_{(1)})\sharp_\tau h_{(2)}$$
 
+## Literature
+
+* Y. Doi, _Equivalent crossed products for a Hopf
+algebra_, Comm. Alg. __17__ (1989), 3053--3085, [MR91k:16027](http://www.ams.org/mathscinet-getitem?mr=1030610), [doi](ttp://dx.doi.org/10.1080/00927878908823895)
+
+* S. Montgomery, _Hopf algebras and their actions on
+rings_, CBMS Regional Conference Series in Mathematics __82__,
+AMS 1993.
+* S. Majid, _Foundations of quantum group theory_, Cambridge University Press 1995.
 [[!redirects Hopf smash product]]
 [[!redirects smash product algebra]]
