@@ -35,7 +35,7 @@ Equivalently, an __$\mathcal{M}$-category__ is a [[category]] of objects and __l
 
 *  Similarly, [[Ban]] (the category of [[Banach spaces]]) is an $\mathcal{M}$-category with all bounded linear operators as loose morphisms but only short linear operators as tight morphisms.  In [[functional analysis]], a loose isomorphism in $Ban$ is traditionally called an '[[norm isomorphism|isomorphism]]' while a tight isomorphism is called a '[[global isometry]]'.
 
-*  We can make [[Met]] (the category of [[metric spaces]]) into an $\mathcal{M}$-category is several ways, with [[short maps]] contained in [[Lipschitz map]]s contained in [[uniformly continuous map]]s contained in [[continuous maps]]; we can also take Lipschitz maps contained in [[bounded maps]].  (For linear operators between Banach spaces, the continuous and bounded operators are the same and are already Lipschitz.)
+*  We can make [[Met]] (the category of [[metric spaces]]) into an $\mathcal{M}$-category is several ways, with [[short maps]] contained in [[Lipschitz map]]s contained in [[uniformly continuous maps]] contained in [[continuous maps]]; we can also take Lipschitz maps contained in [[bounded maps]].  (For linear operators between Banach spaces, the continuous and bounded operators are the same and are already Lipschitz.)
 
 *  Any [[strict category]] is an $\mathcal{M}$-category with [[equality|equalities]] as the tight morphisms.  (Thus the wide subcategory of tight morphisms is [[skeletal category|skeletal]].)  In particular, the [[category of sets]] (or any category) in [[material set theory]] is an $\mathcal{M}$-category.
 
