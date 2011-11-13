@@ -7,7 +7,7 @@
 
 An $\mathcal{M}$-category is a [[category]] with two classes of [[morphisms]]: *tight* and *loose*.
 
-The [[categorification]] of the concept of $\mathcal{M}$-category to $2$-[[2-category|categories]] is the concept of $\mathcal{F}$-[[F-category|category]].
+A [[categorification]] of the concept of $\mathcal{M}$-category to $2$-[[2-category|categories]] is the concept of $\mathcal{F}$-[[F-category|category]].  (A perhaps more thorough categorification to $2$-categories would produce locally $\mathcal{M}$-enriched $\mathcal{F}$-categories.)  In particular, every $\mathcal{M}$-category is an $\mathcal{F}$-category with only trivial $2$-[[2-morphism|morphisms]].
 
 
 ## Definitions
@@ -35,7 +35,7 @@ Equivalently, an __$\mathcal{M}$-category__ is a [[category]] of objects and __l
 
 *  Similarly, [[Ban]] (the category of [[Banach spaces]]) is an $\mathcal{M}$-category with all bounded linear operators as loose morphisms but only short linear operators as tight morphisms.  In [[functional analysis]], a loose isomorphism in $Ban$ is traditionally called an '[[norm isomorphism|isomorphism]]' while a tight isomorphism is called a '[[global isometry]]'.
 
-*  We can make [[Met]] (the category of [[metric spaces]]) into an $\mathcal{M}$-category is several ways, with [[short maps]] contained in [[Lipschitz map]]s contained in [[uniformly continuous map]]s contained in [[continuous map]]s; we can also take Lipschitz maps contained in [[bounded maps]].  (For linear operators between Banach spaces, the continuous and bounded operators are the same and are already Lipschitz.)
+*  We can make [[Met]] (the category of [[metric spaces]]) into an $\mathcal{M}$-category is several ways, with [[short maps]] contained in [[Lipschitz map]]s contained in [[uniformly continuous map]]s contained in [[continuous maps]]; we can also take Lipschitz maps contained in [[bounded maps]].  (For linear operators between Banach spaces, the continuous and bounded operators are the same and are already Lipschitz.)
 
 *  Any [[strict category]] is an $\mathcal{M}$-category with [[equality|equalities]] as the tight morphisms.  (Thus the wide subcategory of tight morphisms is [[skeletal category|skeletal]].)  In particular, the [[category of sets]] (or any category) in [[material set theory]] is an $\mathcal{M}$-category.
 
@@ -54,7 +54,7 @@ Equivalently, an __$\mathcal{M}$-category__ is a [[category]] of objects and __l
 
 ## References
 
-$\mathcal{M}$-categories are discussed as $Subset$-categories (thinking of $\mathcal{M}$ as the category of [[subset]] inclusions) in
+$\mathcal{M}$-categories are mentioned as $Subset$-categories (thinking of $\mathcal{M}$ as the category of [[subset]] inclusions) in
 
 *  [[John Power]] (2002), Premonoidal categories as categories with algebraic structure, Theoretical Computer Science 278, [pdf](http://www.inf.ed.ac.uk/publications/online/0413.pdf).
 
