@@ -474,6 +474,8 @@ We discuss basic properties implied by the axioms for cohesive $(\infty,1)$-topo
 
 * [General](#General).
 
+* [Over arbitrary bases](#OverArbitraryBases)
+
 Then we discuss presentations over special [[site]]s in  
 
 * [Over an ∞-cohesive site](#OverAnInfinityCohesiveSite).
@@ -548,6 +550,62 @@ By the [above proposition](#PointLike) it has finite
 ###### Proposition
 
 For $\mathbf{H}$ a cohesive $(\infty,1)$-topos, the [[(n,1)-topos|(1,1)-topos]] $\tau_{\leq 1-1} \mathbf{H}$ of 0-[[truncated]] objects is a [[cohesive topos]].
+
+=--
+
+### Over arbitrary bases 
+ {#OverArbitraryBases}
+
+In the [internal definition](#InternalDefinition) the base of discrete objects is currently not axiomatized to be an [[(∞,1)-topos]] itself. Nevertheless, some properties are immediately implied by the axioms.
+
++-- {: .num_prop #LimitsInBase}
+###### Proposition
+
+The base $\mathbf{B}$ of cohesion has all [[(∞,1)-limits]] and [[(∞,1)-colimits]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is a general property of a reflectively and coreflectively embedded subcategory. The limits are computed by computing them in $\mathbf{H}$ and then applying $\Gamma$ and the colimits are computed by computing them in $\mathbf{H}$ and then applying $\Pi$. For $X : I \to \mathbf{B}$ any [[diagram]] we have
+
+$$
+  \begin{aligned}
+    \Gamma \lim_{\leftarrow_i} Disc X_i
+    & \simeq
+    \lim_{\leftarrow_i} \Gamma Disc X_i 
+    \\
+    & \simeq 
+    \lim_{\leftarrow_i}  X_i 
+  \end{aligned}
+$$
+
+$$
+  \begin{aligned}
+    \Pi \lim_{\to_i} Disc X_i
+    & \simeq
+    \lim_{\leftarrow_i} \Pi Disc X_i 
+    \\
+    & \simeq 
+    \lim_{\leftarrow_i}  X_i 
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Since $Disc$, being both a [[left adjoint]] as well as a [[right adjoint]] preserves limits and colimits, it follows that a (co)limit of discrete objects computed in $\mathbf{H}$ is itself again discrete and is the image under $Disc$ of the coresponding (co)limit computed in $\mathbf{B}$.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+Since [[loop space objects]] are [[(∞,1)-limits]] it follows that the loop space object of any discrete object is itself again a discrete object. 
 
 =--
 
