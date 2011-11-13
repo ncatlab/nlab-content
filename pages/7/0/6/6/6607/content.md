@@ -1,6 +1,16 @@
-In [[physics]], __contraction__ is a dilation with coefficient $\lambda\lt 1$. This notion is used in fixed point theory, theory of topological vector spaces etc.  
 
-This entry will be predominantly about another notion of a contraction: contraction of tensors, where by tensor we mean vectors in some tensor power $V^{\otimes n}$ of a vector $k$-space $V$ (or a projective $k$-module if $k$ is only a commutative ring). Let $V^* = Hom_k(V,k)$ be the dual vector space and $(V^*)^{\otimes m}$ be some tensor of $V^*$. Then one may define $(l,s)$-contraction
+# Contraction
+* table of contents
+{: toc}
+
+## Disambiguation
+
+In [[physics]], __contraction__ is a dilation with coefficient $\lambda\lt 1$. This notion is used in fixed point theory, theory of topological vector spaces etc. There is also a notion of contraction from [[metric space]] theory; see [[short map]].  This entry will be predominantly about another notion of a contraction.
+
+
+## Contraction of tensors
+
+This entry will be predominantly about contraction of tensors, where by [[tensor]] we mean a vector in some [[tensor power]] $V^{\otimes n}$ of a vector $k$-space $V$ (or a projective $k$-module if $k$ is only a commutative ring). Let $V^* = Hom_k(V,k)$ be the dual vector space and $(V^*)^{\otimes m}$ be some tensor of $V^*$. Then one may define $(l,s)$-contraction
 
 $$
 (V^*)^{\otimes m}\otimes V^{\otimes n}\to (V^*)^{\otimes (m-1)}\otimes V^{\otimes (n-1)}
@@ -31,7 +41,13 @@ $$(X,\omega)\mapsto \iota_X(\omega)$$
 
 and $\iota_X: \omega\mapsto \iota_X(\omega)$ is a graded derivation of the exterior algebra of degree $-1$. This is also done for the tangent bundle which is a $C^\infty(M)$-module $V = T M$, then one gets the contraction of vector fields and differential forms. It can also be done in vector spaces, fibrewise.  
 
+
+## References
+
 * wikipedia: [tensor contraction](http://en.wikipedia.org/wiki/Tensor_contraction)
+
 * Shlomo Sternberg, _Introduction to differential geometry_
 
+
+[[!redirects contraction]]
 [[!redirects contractions]]
