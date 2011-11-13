@@ -83,13 +83,14 @@ If $V$ and $W$ are pseudonormed vector spaces, then the **norm** of a linear fun
 
 For finite-dimensional spaces, any linear map has a well-defined finite norm.  In general, the following are equivalent:
 
-*  $f$ is continuous (as measured by the pseudometrics on $V$ and $W$) at $0$;
-*  $f$ is continuous;
-*  $f$ is uniformly continuous;
-*  $f$ is Lipschitz continuous;
-*  ${\|f\|}$ is finite.
+*  $f$ is [[continuous map|continuous]] (as measured by the pseudometrics on $V$ and $W$) at $0$;
+*  $f$ is continuous (everywhere);
+*  $f$ is [[uniformly continuous map|uniformly continuous]];
+*  $f$ is [[Lipschitz map|Lipschitz continuous]];
+*  ${\|f\|}$ is finite (and, in [[constructive mathematics]], [[located real number|located]]);
+*  $f$ is [[bounded map|bounded]] (as measured by the [[bornologies]] given by the pseudometrics on $V$ and $W$).
 
-In this case, we say that $f$ is **bounded**.  (In [[constructive mathematics]], it is necessary to further require that ${\|f\|}$ be [[located real number|located]].) If $f\colon V \to W$ is not assumed to be linear, then the above conditions are no longer equivalent.
+In this case, we say that $f$ is **bounded**.  If $f\colon V \to W$ is not assumed to be linear, then the above conditions are no longer equivalent.
 
 The bounded linear maps from $V$ to $W$ themselves form a pseudonormed vector space $\mathcal{B}(V,W)$.  This will be a Banach space if (and, except for degenerate cases of $V$, only if) $W$ is a Banach space.  In this way, the category $Ban$ of Banach spaces is a [[closed category]] with $\mathbb{R}$ as the unit.
 
