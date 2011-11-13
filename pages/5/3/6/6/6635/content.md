@@ -13,26 +13,34 @@
 =--
 =--
 
-# M-complete and E-cocomplete categories
+# $M$-complete and $E$-cocomplete categories
 * table of contents
 {:toc}
 
+## Idea
 
-## Definition
+A [[category]] is $M$-complete or $E$-cocomplete if has certain [[limits]] or [[colimits]] of [[morphisms]] in a given class $M$ or $E$.
+
+Not to be confused with an [[M-category]].
+
+
+## Definitions
 
 Let $C$ be a [[category]] and let $M$ be a class of [[monomorphisms]] in $C$.  (Often, $M$ will be the right class in an [[orthogonal factorization system]].)  We say that $C$ is **$M$-complete** if it admits all (even [[large category|large]]) [[intersections]] of $M$-[[subobjects]].  This means that it admits all (even large) [[wide pullbacks]] of families of $M$-morphisms, and such pullbacks are again in $M$.  (If $M$ is the right class of an OFS, then any intersection of $M$-morphisms which exists is automatically in $M$.)
 
 If $M$ is the class of all monomorphisms, we may say **mono-complete** for $M$-complete.
 
-Dually, if $E$ is a class of [[epimorphisms]], we say $C$ is **$E$-cocomplete** if it admits all cointersections of $E$-morphisms, and **epi-cocomplete** if $E$ is the class of all epimorphisms.
+Dually, if $E$ is a class of [[epimorphisms]], we say $C$ is **$E$-cocomplete** if it admits all [[cointersection]]s of $E$-morphisms, and **epi-cocomplete** if $E$ is the class of all epimorphisms.
+
 
 ## Examples
 
-* If $C$ is $M$-[[well-powered category|well-powered]], then no large limits are required in the definition of $M$-completeness.  Therefore, if $C$ is well-powered and complete, it is $M$-complete whenever $M$ is the right class in an OFS.  Dually, if $C$ is well-copowered and cocomplete, it is $E$-cocomplete whenever $E$ is the left class in an OFS.
+* If $C$ is $M$-[[well-powered category|well-powered]], then no large limits are required in the definition of $M$-completeness.  Therefore, if $C$ is well-powered and [[complete category|complete]], it is $M$-complete whenever $M$ is the right class in an OFS.  Dually, if $C$ is well-copowered and cocomplete, it is $E$-cocomplete whenever $E$ is the left class in an OFS.
 
-* For similar reasons, the category [[FinSet]] is mono-complete and epi-cocomplete---although it is not complete or cocomplete, it is finitely complete and cocomplete, and its subobject lattices are likewise essentially finite.
+* For similar reasons, the category [[FinSet]] is mono-complete and epi-cocomplete---although it is not complete or cocomplete, it is [[finitely complete category|finitely complete]] and [[finitely cocomplete category|cocomplete]], and its subobject lattices and quotient lattices are likewise [[essentially finite category|essentially finite]].
 
-* If $C$ is a [[topological concrete category]] over a category $D$ which is mono-complete, then $C$ is also mono-complete.  For the faithful forgetful functor $U\colon C\to D$ preserves and reflects monos, and so the initial $C$-structure on an intersection of underlying monos in $D$ gives an intersection in $C$.
+* If $C$ is a [[topological concrete category]] over a category $D$ which is mono-complete or epi-complete, then $C$ is also mono-complete or epi-complete.  For the faithful forgetful functor $U\colon C\to D$ preserves and reflects monos and epis, and so the [[weak structure|initial]] $C$-structure on an [[intersection]] of underlying monos in $D$ gives an intersection in $C$ and the [[strong structure|final]] $C$-structure on a [[cointersection]] of underlying epis in $D$ gives a cointersection in $C$.
+
 
 ## Construction of factorization systems
 
@@ -43,9 +51,9 @@ $M$-completeness is useful for constructing [[orthogonal factorization systems]]
 Let $M$ be a class of maps in a category $C$, and assume that
 
 1. $M$ consists of monomorphisms,
-1. $M$ is closed under composition,
-1. all pullbacks of $M$-morphisms exist in $C$ and are again in $M$, and
-1. $C$ is $M$-complete.
+2. $M$ is closed under [[composition]],
+3. all [[pullbacks]] of $M$-morphisms exist in $C$ and are again in $M$, and
+4. $C$ is $M$-complete.
 
 Then there is an orthogonal factorization system $(E,M)$, with $E = {}^\perp M$.
 =--
@@ -67,8 +75,8 @@ Note that if $M$ is already part of a [[prefactorization system]], then any comp
 Let $(E,M)$ be a [[prefactorization system]] on a category $C$, and assume that
 
 1. $M$ consists of monomorphisms,
-1. All pullbacks of $M$-morphisms exist in $C$, and
-1. $C$ is $M$-complete.
+2. All pullbacks of $M$-morphisms exist in $C$, and
+3. $C$ is $M$-complete.
 
 Then $(E,M)$ is an orthogonal factorization system.
 =--
@@ -90,9 +98,11 @@ Let $w = n g$ be the $(E',M')$-factorization of $w$.  Since $M' \subseteq M_S$, 
 
 This is useful in the construction of [[reflective factorization systems]].
 
+
 ## Related concepts
 
 * [[complete category]]
+
 
 ## References
 
@@ -102,11 +112,15 @@ This is useful in the construction of [[reflective factorization systems]].
 
 [[!redirects M-complete category]]
 [[!redirects M-complete categories]]
+
 [[!redirects mono-complete category]]
 [[!redirects mono-complete categories]]
+
 [[!redirects E-cocomplete category]]
 [[!redirects E-cocomplete categories]]
+
 [[!redirects epi-cocomplete category]]
 [[!redirects epi-cocomplete categories]]
+
 [[!redirects finitely well-complete category]]
 [[!redirects finitely well-complete categories]]
