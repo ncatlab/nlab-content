@@ -398,8 +398,12 @@ such that for all $Y \in \mathbf{B} \stackrel{Disc}{\hookrightarrow} \mathbf{H}$
 
 1. $\mathbf{H}(# X , \tilde Y) \stackrel{\simeq}{\to} \mathbf{H}(X,\tilde Y)$;
 
+1. $# (\flat X \to X)$;
 
-are [[equivalence in an (infinity,1)-category|equivalences]] (of [[∞-groupoids]]).
+1. $\flat (X \to # X)$
+
+are [[equivalence in an (infinity,1)-category|equivalences]] (the first three of [[∞-groupoids]] the last two in $\mathbf{H}$).
+
 
 Moreover, if $\mathbf{H}, \mathbf{B}$ both have a [[terminal object in an (∞,1)-category|terminal object]], then $\Pi$ preserves this precisely if the given morphism $* \to \mathbf{\Pi}(*)$ is an equivalence.
 
