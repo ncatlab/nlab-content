@@ -16,7 +16,7 @@ Let $X$ and $Y$ be [[uniform spaces]], each defined as a [[set]] equipped with a
 $$ \forall\, E\colon \mathcal{U}Y,\; \exists\, D\colon \mathcal{U}X,\; \forall\, a, b\colon X,\; a \approx_D b \;\Rightarrow\; f(a) \approx_E f(b) .$$
 Note that this definition is exactly like the definition of [[continuous map]] between uniform spaces, except for the order of the quantifiers $\exists\, D$ and $\forall\, a$.
 
-The definition with entourages extends immediately to [[quasiuniform spaces]], in which case we may speak of __quasiuniformly continuous maps__ since some authors use 'uniformly continuous' for a map which is uniformly continuous between the spaces' symmetrisations.  We also have the option of considering an __antiuniformly continuous map__, in which the order in which the points are compared is reversed:
+The definition with entourages extends immediately to [[quasiuniform spaces]], in which case we may speak of __quasiuniformly continuous maps__ since some authors use 'uniformly continuous' for a map which is uniformly continuous between the spaces\' symmetrisations.  We also have the option of considering an __antiuniformly continuous map__, in which the order in which the points are compared is reversed:
 $$ \forall\, E\colon \mathcal{U}Y,\; \exists\, D\colon \mathcal{U}X,\; \forall\, a, b\colon X,\; a \approx_D b \;\Rightarrow\; f(b) \approx_E f(a) .$$
 (Between uniform spaces viewed as symmetric quasiuniformly continuous spaces, quasiuniformly continuous maps, antiuniformly continuous maps, and uniformly continuous maps are the same.)
 
@@ -33,44 +33,53 @@ A __uniform [[homeomorphism]]__ is a uniformly continuous [[bijection]] whose [[
 
 Every uniformly continuous map between uniform spaces is [[continuous map|continuous]] (between the underlying [[topological spaces]]) and in fact [[Cauchy map|Cauchy continuous]] (between the underlying [[Cauchy spaces]]).  Also, every uniformly continuous or antiuniformly continuous map between quasiuniform spaces is Cauchy continuous.  Conversely, every [[short map|short]] or even [[Lipschitz map|Lipschitz]] map between metric spaces (or Lipschitz [[manifolds]]) is uniformly continuous.
 
-A [[composite]] of uniformly continuous maps is uniformly continuous, as is any [[identity function]] between (quasi)uniform spaces.  The composite of two antiuniformly continuous maps is uniformly continuous.  Thus uniform spaces are the [[objects]] of a [[category]] whose morphisms are the uniformly continuous maps as [[morphisms]], and quasiuniform spaces are the objects of two categories: one with uniformly continuous maps as morphisms and one with both uniformly continuous maps and anti-uniformly continuous maps as morphisms (so that quasiuniform spaces are the objects of an $\mathcal{M}$-[[M-category|category]]).
+A [[composite]] of uniformly continuous maps is uniformly continuous, as is any [[identity function]] between (quasi)uniform spaces.  The composite of two antiuniformly continuous maps is uniformly continuous.  Thus uniform spaces are the [[objects]] of a [[category]] whose morphisms are the uniformly continuous maps as [[morphisms]], and quasiuniform spaces are the objects of two categories: one with uniformly continuous maps as morphisms and one with both uniformly continuous maps and antiuniformly continuous maps as morphisms (so that quasiuniform spaces are the objects of an $\mathcal{M}$-[[M-category|category]]).
 
 
+[[!redirects uniform continuity]]
+[[!redirects uniformly continuous]]
 [[!redirects uniformly continuous map]]
 [[!redirects uniformly continuous maps]]
 [[!redirects uniformly continuous function]]
 [[!redirects uniformly continuous functions]]
-
-[[!redirects quasiuniformly continuous map]]
-[[!redirects quasiuniformly continuous maps]]
-[[!redirects quasi-uniformly continuous map]]
-[[!redirects quasi-uniformly continuous maps]]
-[[!redirects quasiuniformly continuous function]]
-[[!redirects quasiuniformly continuous functions]]
-[[!redirects quasi-uniformly continuous function]]
-[[!redirects quasi-uniformly continuous functions]]
-
-[[!redirects antiuniformly continuous map]]
-[[!redirects antiuniformly continuous maps]]
-[[!redirects anti-uniformly continuous map]]
-[[!redirects anti-uniformly continuous maps]]
-[[!redirects antiuniformly continuous function]]
-[[!redirects antiuniformly continuous functions]]
-[[!redirects anti-uniformly continuous function]]
-[[!redirects anti-uniformly continuous functions]]
-
 [[!redirects uniform homeomorphism]]
 [[!redirects uniform homeomorphisms]]
 [[!redirects uniformly homeomorphic]]
+
+[[!redirects quasiuniform continuity]]
+[[!redirects quasi-uniform continuity]]
+[[!redirects quasiuniformly continuous]]
+[[!redirects quasiuni-formly continuous]]
+[[!redirects quasiuniformly continuous map]]
+[[!redirects quasi-uniformly continuous map]]
+[[!redirects quasiuniformly continuous maps]]
+[[!redirects quasi-uniformly continuous maps]]
+[[!redirects quasiuniformly continuous function]]
+[[!redirects quasi-uniformly continuous function]]
+[[!redirects quasiuniformly continuous functions]]
+[[!redirects quasi-uniformly continuous functions]]
 [[!redirects quasiuniform homeomorphism]]
-[[!redirects quasiuniform homeomorphisms]]
-[[!redirects quasiuniformly homeomorphic]]
 [[!redirects quasi-uniform homeomorphism]]
+[[!redirects quasiuniform homeomorphisms]]
 [[!redirects quasi-uniform homeomorphisms]]
+[[!redirects quasiuniformly homeomorphic]]
 [[!redirects quasi-uniformly homeomorphic]]
+
+[[!redirects antiuniform continuity]]
+[[!redirects anti-uniform continuity]]
+[[!redirects antiuniformly continuous]]
+[[!redirects anti-uniformly continuous]]
+[[!redirects antiuniformly continuous map]]
+[[!redirects anti-uniformly continuous map]]
+[[!redirects antiuniformly continuous maps]]
+[[!redirects anti-uniformly continuous maps]]
+[[!redirects antiuniformly continuous function]]
+[[!redirects anti-uniformly continuous function]]
+[[!redirects antiuniformly continuous functions]]
+[[!redirects anti-uniformly continuous functions]]
 [[!redirects antiuniform homeomorphism]]
-[[!redirects antiuniform homeomorphisms]]
-[[!redirects antiuniformly homeomorphic]]
 [[!redirects anti-uniform homeomorphism]]
+[[!redirects antiuniform homeomorphisms]]
 [[!redirects anti-uniform homeomorphisms]]
+[[!redirects antiuniformly homeomorphic]]
 [[!redirects anti-uniformly homeomorphic]]
