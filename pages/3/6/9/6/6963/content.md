@@ -7,7 +7,7 @@
 
 An $\mathcal{M}$-category is a [[category]] with two classes of [[morphisms]]: *tight* and *loose*.
 
-A [[categorification]] of the concept of $\mathcal{M}$-category to $2$-[[2-category|categories]] is the concept of $\mathcal{F}$-[[F-category|category]].  (A perhaps more thorough categorification to $2$-categories would produce locally $\mathcal{M}$-enriched $\mathcal{F}$-categories.)  In particular, every $\mathcal{M}$-category is an $\mathcal{F}$-category with only trivial $2$-[[2-morphism|morphisms]].
+A [[categorification]] of the concept of $\mathcal{M}$-category to $2$-[[2-category|categories]] is the concept of $\mathcal{F}$-[[F-category|category]].  (There are other possible categorifications, such as locally $\mathcal{M}$-enriched 2-categories, or locally $\mathcal{M}$-enriched $\mathcal{F}$-categories.)  In particular, every $\mathcal{M}$-category is an $\mathcal{F}$-category with only identity $2$-[[2-morphism|morphisms]].
 
 
 ## Definitions
@@ -25,6 +25,8 @@ In more detail, an __$\mathcal{M}$-category__ consists of the following data:
   * $(f \circ g) \circ h = f \circ (g \circ h)$ whenever this makes sense.
 
 Equivalently, an __$\mathcal{M}$-category__ is a [[category]] of objects and __loose__ morphisms together with a [[wide subcategory]] of __tight__ morphisms.
+
+Note that the "underlying ordinary category" of an $\mathcal{M}$-category, in the usual sense that that phrase is used in [[enriched category]] theory, is its category of *tight* morphisms.  Nevertheless, it is frequently also useful to think of the category of loose morphisms as a sort of "underlying ordinary category" of an $\mathcal{M}$-category.
 
 
 ## Examples
@@ -47,7 +49,7 @@ Equivalently, an __$\mathcal{M}$-category__ is a [[category]] of objects and __l
 
 *  The __[[core]]__ of every category $C$ is an $\mathcal{M}$-category whose loose morphisms are the morphisms of $C$ and whose tight morphisms are the [[isomorphisms]] of $C$.
 
-*  $\mathcal{M}$ itself is an $\mathcal{M}$-category whose objects are sets, whose tight morphisms are injections, and whose loose morphisms are functions.
+*  $\mathcal{M}$ itself is an $\mathcal{M}$-category whose objects are sets equipped with a specified subset, whose tight morphisms are functions which map the subset into each other, and whose loose morphisms are arbitrary functions.
 
 *  Given any [[faithful functor]] $F\colon C \to D$, we may make $C$ into an $\mathcal{M}$-category whose tight morphisms are the original morphisms of $C$ and whose loose morphisms from $x$ to $y$ are the $D$-morphisms from $F(x)$ to $F(y)$.  This includes all of the examples above; up to [[equivalence of categories|equivalence]], this includes all examples.
 
