@@ -24,7 +24,12 @@ The analogs for the [[unitary group]] are the [[Chern class]]es.
 
 ## Definition
 
-(...)
+The universal Pontryagin [[characteristic classes]] on the [[classifying space]] $B O(n)$ are, up to a sign, the pullbacks of the [[Chern class]]es along the inclusion 
+
+$$
+  B O(n) \to B U(n)
+  \,.
+$$
 
 ## Related concepts
 
@@ -39,16 +44,24 @@ The analogs for the [[unitary group]] are the [[Chern class]]es.
 
 ## References
 
+
+Classical textbook references are
+
 * [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press
 
-A classical textbook reference is
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
+See also
 
 * Paul Bressler, _The first Pontryagin class_, [math.AT/0509563](http://arxiv.org/abs/math/0509563)
 
 * Ivan Panin, Charles Walter, _Quaternionic Grassmannians and Pontryagin classes in algebraic geometry_, [arxiv/1011.0649](http://arxiv.org/abs/1011.0649)
+
+A brief introduction is in chapter 23, section 7 
+
+* [[Peter May]], _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+
 
 [[!redirects Pontryagin classes]]
 
