@@ -1,3 +1,23 @@
-A line bundle is a [[vector bundle]] of rank (or dimension) $1$, i.e. a vector bundle whose typical fiber is a $1$-dimensional [[vector space]] (a [[line]]).
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
+A _line bundle_ is a [[vector bundle]] of rank (or [[dimension]]) $1$, i.e. a vector bundle whose typical fiber is a $1$-dimensional [[vector space]] (a [[line]]).
+
+For complex vector bundles, line bundles are [[associated bundles]] of [[circle group]]-[[principal bundles]].
+
+## Properties
 
 The class of line bundles has a nicer behaviour (in some ways) than the class of vector bundles in general.  In particular, the [[dual bundle|dual]] of a line bundle $L$ is a [[weak inverse]] of $L$ under the tensor product of line bundles.  Thus the isomorphism classes of line bundles form a [[group]].
+
+## Related concepts
+
+* [[bundle gerbe]]
+
+* [[circle n-bundle with connection]]
+
+[[!redirects line bundles]]
