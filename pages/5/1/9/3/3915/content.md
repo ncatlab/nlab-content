@@ -28,7 +28,7 @@ $$
   N_i X  \to X
 $$
 
-defined as the quotient bundle 
+defined as the [[fiber|fiberwise]] [[quotient]] bundle 
 
 $$
 N_i X =\frac{i^* T Y}{T X}  
