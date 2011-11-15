@@ -1,2 +1,4 @@
 
 A **vector** is an element in a [[vector space]].
+
+[[!redirects vectors]]
