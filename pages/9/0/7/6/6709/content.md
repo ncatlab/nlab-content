@@ -93,7 +93,11 @@ $$
 
 * [[Pontryagin class]]
 
-## References
+## References 
+
+A classic work on the subject is 
+
+* [[John Milnor]] and [[Jim Stasheff|James D. Stasheff]], Characteristic Classes. Annals of Mathematics Studies 76, Princeton University Press (1974). 
 
 A concise introduction is in chapter 23, section 3 of 
 
