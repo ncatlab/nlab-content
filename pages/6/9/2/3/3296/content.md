@@ -141,17 +141,26 @@ $$
 $$
 
 
-## Literature
+## References
 
-* J. Milnor, J. Stasheff, _Characteristic classes_, Princeton Univ. Press
+A standard textbook is
+
+* [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press
+
+A concise introduction is in chapter 23
+
+* [[Peter May]], _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+
+Further texts include
 
 * Jean-Pierre Schneiders, _Introduction to characteristic classes and  index theory_ (book), Lisboa (Lisabon) 2000
 
-* Johan L. Dupont, _Fibre bundles and Chern-Weil theory_, Lecture Notes Series __69__, Dept. of Math., University of Aarhus, 2003, 115 pp. [pdf](http://data.imf.au.dk/publications/ln/2003/imf-ln-2003-69.pdf)
-
-* R. Bott, L. W. Tu, _Differential forms in algebraic topology_, GTM __82__, Springer 1982.
+* [[Johan Dupont]], _Fibre bundles and Chern-Weil theory_, Lecture Notes Series __69__, Dept. of Math., University of Aarhus, 2003, 115 pp. [pdf](http://data.imf.au.dk/publications/ln/2003/imf-ln-2003-69.pdf)
 
 * Shigeyuki Morita, _Geometry of characteristic classes_, Transl. Math. Mon. __199__, AMS 2001
+
+* [[Raoul Bott]], L. W. Tu, _Differential forms in algebraic topology_, GTM __82__, Springer 1982.
+
 
 * D. B. Fuks, _&#1053;&#1077;&#1087;&#1088;&#1077;&#1088;&#1080;&#1074;&#1085;&#1099;&#1077; &#1082;&#1086;&#1075;&#1086;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1080; &#1090;&#1086;&#1087;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1075;&#1088;&#1091;&#1087;&#1087; &#1080; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1082;&#1083;&#1072;&#1089;&#1089;&#1099;_ , appendix to the Russian translation of K. S. Brown, _Cohomology of groups_, Moskva, Mir 1987.
  {#Fuks}
