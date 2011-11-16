@@ -1,10 +1,9 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-
-## Idea ##
+## Idea
 
 The similarity of the behaviour of various [[cohomologies]] of [[algebraic variety|varieties]] over a field suggest that there is a universal one among them with values in an intermediate [[abelian category]], called the category of _motives_. Thus we should have a variety $X$, which maps to its motive $M(X)$, and good cohomologies would factor through that projection. Of course, not every motive is the image of a single variety. There is supposedly also a version with further filtrations (need to be more specific), the [[mixed motive]]s. 
 
@@ -20,7 +19,7 @@ a _motive_ is sometimes realized as a [[complex]] of [[sheaf|sheaves]] on a cate
 $L$-functions (and $\zeta$-functions in particular) of varieties are also invariants of their motives. The [[Langlands program]] indirectly involves motives; in particular its essential part can be expressed as a general modularity conjecture relating $L$-functions to automorphic functions. Most of the deep properties of [[elliptic curve]]s are of motivic nature, and in particular a major step of the proof of [[Fermat's last theorem]] by Wiles and Taylor can be interpreted as a proof of a special case of the modularity conjecture (for elliptic curves). 
 
 
-## Voevodsky motives ##
+## Voevodsky motives
 
 Associated to a [[Noetherian scheme]] $S$ there is a [[category]] $Cor_S$ of "finite" [[correspondence]]s of [[scheme]]s, whose
 
@@ -37,24 +36,25 @@ The [[triangulated category]] of **motives** over a [[field]] $k$ is...
 It is a [[localization]] of the [[derived category]] of (bounded) complexes of sheaves on this category of correspondences, $Cor_S$.
 
 
-## Motivic cohomology ##
+## Motivic cohomology
 
 The derived [[hom-set]]s in the category of motives, at least between special objects, compute what is called [[motivic cohomology]].
 
 See [prop. 14.16, p. 114](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=126) of [MaVoWe](http://math.rutgers.edu/~weibel/motiviclectures.html).
 
 
-##Nori motives##
+## Nori motives
 
 [[Madhav Nori]] has an approach to the theory of motives based on a peculiar kind of Tannakian reconstruction, the so called _[[Nori's Tannakian theorem]]_. 
 
 
-## Related entries##
+## Related entries
 
 * [[pure motive]], [[mixed motive]], [[Voevodsky motive]], [[Nori motive]]
 * [[zeta function]]
 
-##Extensions##
+
+## Extensions
 
 Correspondences are interesting in [[noncommutative geometry]] of the [[operator algebra]] flavour. For example, KK-groups are in fact themselves sort of correspondences; Connes and Skandalis had an early reference very much paralleling some ideas from the algebraic world. More recently, motives in the operator algebraic setup have been approached by Connes, Marcolli and others. 
 
@@ -63,7 +63,7 @@ In derived [[noncommutative algebraic geometry]] based on $A_\infty$-categories,
 In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rigid analytic geometry]], $A^1$-homotopy theory is replaced by $B^1$-homotopy theory and the appropriate analogue of the Voevodsky's category of mixed motives has been constructed; the construction follows the same basic pattern. 
 
 
-## References ##
+## References
 
 A modern introduction to Voevodsky's theory is
 
@@ -114,7 +114,9 @@ Some other aspects
 * M.V. Bondarko, _Weight structures vs. $t$-structures; weight filtrations, spectral sequences, and complexes (for motives and in general)_, [arxiv/0704.4003](http://arxiv.org/abs/0704.4003)
 * [[Yuri Manin]], _Motives and quantum cohomology_, talk at Colloque Grothendieck, [video](http://www.dailymotion.com/video/x8juco_colloque-grothendieck-yuri-manin_tech)
 
+
 [[!redirects motif]]
 [[!redirects motive]]
 [[!redirects motives]]
 [[!redirects category of motives]]
+[[!redirects motivic]]
