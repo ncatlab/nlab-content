@@ -1,12 +1,19 @@
+
 The [[motive]]s in algebraic geometry can be adapted to derived noncommutative geometry. Such a theory has been developed by [[Maxim Kontsevich]]. There is a remarkable observation that the category of Chow motives can be after localizing at the Lefschetz motive can be embedded into the category of noncommutative motives. More recently this direction has been systematically studied by Cisinski and Tabuada. 
 
 There is another approach by [[Arne Ostvaer]].
 
 In noncommutative geometry a la Connes, Connes and Marcolli have also introduced some motivic ideas. Marcolli also has most recent collaboration with Tabuada on the algebraic side.
 
+
+## References
+
 * [[Denis-Charles Cisinski]], Goncalo Tabuada, _Symmetric monoidal structure on Non-commutative motives_, [arxiv/1001.0228](http://arxiv.org/abs/1001.0228)
-* [[Goncalo Tabuada]], _A guided tour through the garden of noncommutative motives_, [arxiv1108.3787](http://arxiv.org/abs/1108.3787);_Bivariant cyclic cohomology and Connes' bilinear pairings in Non-commutative motives_, [arxiv/1005.2336](http://arxiv.org/abs/1005.2336); _Products, multiplicative Chern characters, and finite coefficients via Non-commutative motives_, [arxiv/1101.0731](http://arxiv.org/abs/1101.0731);  _Chow motives versus non-commutative motives_, [arxiv/1103.0200](http://arxiv.org/abs/1103.0200); _A guided tour through the garden of noncommutative motives_, [arxiv/1108.3787](http://arxiv.org/abs/1108.3787) 
+* [[Goncalo Tabuada]]: _A guided tour through the garden of noncommutative motives_, [arxiv1108.3787](http://arxiv.org/abs/1108.3787); _Bivariant cyclic cohomology and Connes' bilinear pairings in Non-commutative motives_, [arxiv/1005.2336](http://arxiv.org/abs/1005.2336); _Products, multiplicative Chern characters, and finite coefficients via Non-commutative motives_, [arxiv/1101.0731](http://arxiv.org/abs/1101.0731);  _Chow motives versus non-commutative motives_, [arxiv/1103.0200](http://arxiv.org/abs/1103.0200); _A guided tour through the garden of noncommutative motives_, [arxiv/1108.3787](http://arxiv.org/abs/1108.3787) 
 * [[Matilde Marcolli]], [[Goncalo Tabuada]], _Kontsevich's noncommutative numerical motives_, [arxiv/1108.3785](http://arxiv.org/abs/1108.3785); _Noncommutative motives, numerical equivalence, and semi-simplicity_, [arxiv/1105.2950](http://arxiv.org/abs/1105.2950); _Noncommutative numerical motives, Tannakian structures, and motivic Galois groups_, [arxiv/1110.2438](http://arxiv.org/abs/1110.2438)
 * Ivo Dell'Ambrogio, Goncalo Tabuada, _Tensor triangular geometry of non-commutative motives_, [arxiv/1104.2761](http://arxiv.org/abs/1104.2761) 
 
+
+[[!redirects noncommutative motif]]
+[[!redirects noncommutative motive]]
 [[!redirects noncommutative motives]]
