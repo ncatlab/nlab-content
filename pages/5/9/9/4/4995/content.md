@@ -559,12 +559,12 @@ For $\mathbf{H}$ a cohesive $(\infty,1)$-topos, the [[(n,1)-topos|(1,1)-topos]] 
 
 =--
 
-### Over arbitrary bases 
+### Base of discrete and codiscrete objects
  {#OverArbitraryBases}
 
-In the [internal definition](#InternalDefinition) the base of discrete objects is currently not axiomatized to be an [[(∞,1)-topos]] itself (the [[base (∞,1)-topos]]). Nevertheless, some properties are immediately implied by the axioms.
+In the [internal definition](#InternalDefinition) the base of discrete/codiscrete objects is not explicitly axiomatized to be an [[(∞,1)-topos]] itself (the [[base (∞,1)-topos]]), but this is implied by the axioms. We deduce that and related properties in stages.
 
-In the following, let $\mathbf{H}$ be an [[(∞,1)-topos]] equipped with an [[adjoint quadruple]] of functors to an [[(∞,1)-category]] $\mathbf{B}$ --  the _base of cohesion_ -- as above, where we do not assume a priori any further properties of $\mathbf{B}$.
+In the following, let $\mathbf{H}$ be an [[(∞,1)-topos]] equipped with an [[adjoint quadruple]] of functors to an [[(∞,1)-category]] $\mathbf{B}$ --  the _base of cohesion_, where $Disc$ and $coDisc$ are full and faithful.
 
 +-- {: .num_prop #LimitsInBase}
 ###### Proposition
@@ -622,7 +622,7 @@ We have also the following stronger statement.
 +-- {: .num_prop}
 ###### Proposition
 
-The base of cohesion $\mathbf{B}$ is a [[presentable (∞,1)-category]].
+The base of cohesion $\mathbf{B}$ is a [[presentable (∞,1)-category]] and in fact an [[(∞,1)-topos]] itself.
 
 =--
 
@@ -643,6 +643,26 @@ $$
 $$
 
 Since $Disc$ even preserves all [[(∞,1)-colimits]], it is in particular an [[accessible (∞,1)-functor]], hence so is the above composite.
+
+Finally, since $\Gamma$ preserves all [[(∞,1)-limits]], hence in particular the [[finite limits]], $(\Gamma, coDisc)$ is a [[geometric embedding]] that exhibits an sub-[[(∞,1)-topos]].
+
+=--
+
+Notice that the reflection $(\Pi \dashv Disc)$ does not in general constitute a [[geometric embedding]], since $\Pi$ is only required to preserve finite products (and in interesting examples rarely preserves more limits than that).
+
+The following statement and its proof about [[cohesive topos|cohesive 1-toposes]] should hold verbatim also for cohesive $(\infty,1)$-toposes.
+
++-- {: .num_prop }
+###### Proposition
+
+The [[reflective subcategories]] of discrete objects and of codiscrete objects are both [[exponential ideals]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[exponential ideal]] a reflective subcategories of a [[cartesian closed category]] is an exponential ideal precisely if the [[reflector]] preserves [[products]]. For the codiscrete objects the reflector $\Gamma$ preserves even all [[limits]] and for the discrete objects the reflector $\Pi$ does so by assumotion of strong connectedness.
 
 =--
 
