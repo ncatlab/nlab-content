@@ -95,5 +95,6 @@ For [[metric spaces]], there is also a weaker notion, the [[approximate homotopy
 
 Morphism between [[quasi-categories]] that are left [[fibrations of quasi-categories]] satisfy the homotopy lifting property with respect to $\Delta[0] \hookrightarrow \Delta[1]$
 
+### For smooth bundles
 
 [[!redirects covering homotopy property]]
