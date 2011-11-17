@@ -24,5 +24,6 @@
 
 
 [[!redirects jim stasheff]]
+[[!redirects jim_stasheff]]
 
 category: people
