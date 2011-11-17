@@ -29,11 +29,11 @@ $$ \Phi : \text{reflective subcategories} \; \rightleftarrows \; \text{favorable
 
 Here subcategories form a (possibly [[large category|large]]) [[poset]] ordered by inclusion, and prefactorization systems form a poset ordered by inclusion of the right classes $M$.
 
-The [[unit of an adjunction|unit]] is of this adjunction is easily seen to be an [[isomorphism]].  That is, given a reflective subcategory $A$, if we construct $(E,M)$ from it as above, then $A \simeq M/1$.  Therefore, the adjunction allows us to identify reflective subcategories with certain favorable prefactorization systems.
+The [[unit of an adjunction|unit]] of this adjunction is easily seen to be an [[isomorphism]].  That is, given a reflective subcategory $A$, if we construct $(E,M)$ from it as above, then $A \simeq M/1$.  Therefore, the adjunction allows us to identify reflective subcategories with certain favorable prefactorization systems.
 
-The prefactorization systems arising in this way --- equivalently, those for which $(E,M) = \Psi \Phi (E,M)$ --- are called the **reflective prefactorization systems**.  A **reflective factorization system** is a reflective prefactorization system which happens to be a factorization system.
+The prefactorization systems arising in this way --- equivalently, those for which $(E,M) =  \Phi \Psi(E,M)$ --- are called the **reflective prefactorization systems**.  A **reflective factorization system** is a reflective prefactorization system which happens to be a factorization system.
 
-More generally, for any favorable factorization system $(E,M)$, we have a reflective prefactorization system $\Psi \Phi (E,M)$, called the **reflective interior** of $(E,M)$.  Dualizing, it also has a **coreflective closure**.
+More generally, for any favorable factorization system $(E,M)$, we have a reflective prefactorization system $ \Phi \Psi(E,M)$, called the **reflective interior** of $(E,M)$.  Dualizing, it also has a **coreflective closure**.
 
 ## Properties
 
