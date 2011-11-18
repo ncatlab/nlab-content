@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Notions of subcategory
++-- {: .hide}
+[[!include notions of subcategory]]
+=--
 =--
 =--
 
@@ -25,23 +29,6 @@ There are two different notions of a dense [[subcategory]] $D$ of a [[category]]
 
    This second notion is used in [[shape theory]]. An alternative name for this is a [[pro-reflective subcategory]], that is a subcategory for which the inclusion has a [[proadjoint]].
 
-## Related concepts
-
-* [[subcategory]]
-
-  * [[full subcategory]], [[wide subcategory]], **dense subcategory**, [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]]
-
-  * [[dense sub-site]]
-
-* [[sub-2-category]]
-
-  * [[full sub-2-category]]
-
-  * [[locally full sub-2-category]]
-
-* [[sub-(∞,1)-category]]
-
-  * [[reflective sub-(∞,1)-category]]
 
 
 [[!redirects dense subcategories]]
