@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include 2-category theory - contents]]
 =--
+#### Notions of subcategory
++-- {: .hide}
+[[!include notions of subcategory]]
+=--
 =--
 =--
 
@@ -25,22 +29,5 @@ A __locally full sub 2-category__ is one whose embedding [[2-functor]] $C\to D$ 
 
 Both of these examples are also [[wide subcategories]].  A wide and locally full sub-2-category is equivalent to an [[F-category]].  See also [[2-category equipped with proarrows]].
 
-## Related concepts
-
-* [[subcategory]]
-
-  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]]
-
-  * [[dense sub-site]]
-
-* [[sub-2-category]]
-
-  * [[full sub-2-category]]
-
-  * **locally full sub-2-category**
-
-* [[sub-(∞,1)-category]]
-
-  * [[reflective sub-(∞,1)-category]]
 
 [[!redirects locally full sub-2-categories]]
