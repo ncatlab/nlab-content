@@ -15,7 +15,7 @@
 
 ## Idea
 
-A [[Lawvere-Tierney topology]] on a [[topos]] defines naturally a certain closure operation on [[subobjects]]. A subobject inlcusion is called a _dense monomorphism_ if its closure is an isomorphism.  In other words, a _dense subobject_ of an object $B$ is a subobject whose closure is all of $B$.
+A [[Lawvere-Tierney topology]] on a [[topos]] defines naturally a certain closure operation on [[subobjects]]. A subobject inclusion is called _dense_ (a _dense monomorphism_) if its closure is an [[isomorphism]].  In other words, a _dense subobject_ of an object $B$ is a subobject whose closure is all of $B$.
 
 
 
@@ -62,3 +62,6 @@ Dense monomorphisms appear around p. 223 of
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 [[!redirects dense monomorphisms]]
+
+[[!redirects dense subobject]]
+[[!redirects dense subobjects]]
