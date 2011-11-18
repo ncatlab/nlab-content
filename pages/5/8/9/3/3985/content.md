@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
+#### Notions of subcategory
++-- {: .hide}
+[[!include notions of subcategory]]
+=--
 =--
 =--
 
@@ -941,23 +945,6 @@ which is a reflective embedding. It exhibits localization at $A^1$-[[cohomology]
 
 This is discussed at [[rational homotopy theory in an (∞,1)-topos]].
 
-## Related concepts
-
-* [[subcategory]]
-
-  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]]
-
-  * [[dense sub-site]]
-
-* [[sub-2-category]]
-
-  * [[full sub-2-category]]
-
-  * [[locally full sub-2-category]]
-
-* [[sub-(∞,1)-category]]
-
-  * **reflective sub-(∞,1)-category**
 
 ## References
 
