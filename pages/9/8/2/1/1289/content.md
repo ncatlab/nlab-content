@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Notions of subcategory
++-- {: .hide}
+[[!include notions of subcategory]]
+=--
 =--
 =--
 
@@ -32,7 +36,7 @@ The dual concept is that of a [[reflective subcategory]]. See there for more det
 +-- {: .un_theorem}
 ###### Theorem
 
-[[Vop?nka's principle]] is equivalent to the statement:
+[[Vopěnka's principle]] is equivalent to the statement:
 
 For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hookrightarrow C$ which is closed under [[colimit]]s is a [[coreflective subcategory]].
 
@@ -46,28 +50,9 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 * the inclusion of [[Kelley space]]s into [[Top]], where the right adjoint "kelleyfies"
 
 
-## Related concepts
-
-* [[subcategory]]
-
-  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], **coreflective subcategory**
-
-  * [[dense sub-site]]
-
-* [[sub-2-category]]
-
-  * [[full sub-2-category]]
-
-  * [[locally full sub-2-category]]
-
-* [[sub-(∞,1)-category]]
-
-  * [[reflective sub-(∞,1)-category]]
-
-
 ## References
 
-* [[Jiri Adamek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series 189
+* [[Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series 189
 {#AdamekRosicky}
 
 [[!redirects coreflective subcategories]]
