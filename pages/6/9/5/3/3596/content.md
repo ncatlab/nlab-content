@@ -16,13 +16,24 @@
 
 ## Idea
 
-In [[type theory]] under the [[propositions as types]] paradigm, an **identity type** is the incarnation of [[equality]].  That is, for any type $A$ and any terms $x,y:A$, the type $Id_A(x,y)$ is "the type of proofs that $x=y$" or "the type of reasons why $x=y$".
+In [[intensional type theory]] under the [[propositions as types]] paradigm, an **identity type** is the incarnation of [[equality]].  That is, for any [[type]] $A$ and any [[terms]] $x,y:A$, the type $Id_A(x,y)$ is "the type of [[proofs]] that $x=y$" or "the type of reasons why $x=y$".
 
-In *extensional* type theory, such as that modeled in the [[internal logic]] of a 1-category, equality is simply a [[proposition]], and hence each $Id_A(x,y)$ is a [[subsingleton]].  However, in the internal type theory of [[higher category theory|higher categories]], such as the [[internal logic of an (∞,1)-topos]], identity types represent [[path objects]] and are highly nontrivial.  In these cases, one may write for instance $Path_A(x,y)$ instead of $Id_A(x,y)$.
+In *[[extensional type theory|extensional]]* type theory, such as that modeled in the [[internal logic]] of a 1-category, equality is simply a [[proposition]], and hence each $Id_A(x,y)$ is a [[subsingleton]].  However, in the internal type theory of [[higher category theory|higher categories]], such as the [[internal logic of an (∞,1)-topos]], identity types represent [[path objects]] and are highly nontrivial.  One speaks of _[[homotopy type theory]]_. In these cases, one may write for instance $Path_A(x,y)$ instead of $Id_A(x,y)$.
 
 
 ## Definition
  {#Definition}
+
+Two different ways of encoding identity types are in use. The original one is
+
+* [by rewrite rules](#ByRewriteRules).
+
+With the understanding of the role of identity types in [[homotopy type theory]] another formulation appeared, 
+
+* [in terms of inductive types](#InTermsOfInductiveTypes) 
+
+### By rewrite rules
+ {#ByRewriteRules}
 
 The rules for forming identity types and terms are as follows (expressed in [[sequent calculus]]).  First the rule that defines the identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
 
@@ -60,6 +71,16 @@ $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
 
 These rules may seem a little ad-hoc, but they are actually a particular case of the general notion of [[inductive type]].
 
+### In terms of inductive types
+
+Using [[inductive types]] the notion of identity types is encoded in a single line. In [[Coq]] notation we have
+
+    Inductive paths {A} : A -> A -> Type := idpath : forall x, paths x x.   
+
+This and related [[Coq]] code forms the basis of [[homotopy type theory]]. 
+
+See [Paths.v](#Pathsv)
+
 
 ## Types are weak $\omega$-groupoids
 
@@ -73,10 +94,24 @@ There is a way to understand identity types as [[path object]]s that serve to pr
 
 ## References
 
+### By rewrite rules
+ {#ReferencesByRewriteRules}
+
+A survey is in chapter 1 of 
+
+* [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
+
+More on the interpretation of identities types as [[path space objects]] is in
+
 * [[Benno van den Berg]], [[Richard Garner]], _Types are weak $\omega$-groupoids_ , ([arXiv:0812.0298](http://arxiv.org/abs/0812.0298))
 
 * [[Peter LeFanu Lumsdaine]], _Weak $\omega$-categories from intensional type theory_ , ([arXiv:0812.0409](http://arxiv.org/abs/0812.0409))
 
+### By inductive types
+ {#ReferencesByInductiveTypes}
+
+* [https://github.com/HoTT/HoTT/blob/master/Coq/Paths.v](https://github.com/HoTT/HoTT/blob/master/Coq/Paths.v)
+ {#Pathsv}
 
 [[!redirects identity types]]
 [[!redirects equality type]]
