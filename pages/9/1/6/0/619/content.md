@@ -134,11 +134,11 @@ A reflective subcategory is always closed under [[limit|limits]] which exist in 
 
 A morphism in a reflective subcategory is monic iff it is monic in the ambient category. A reflective subcategory of a well-powered category is well-powered. 
 
-### reflective subcategories of locally presentable categories
+### Reflective subcategories of locally presentable categories
 
 Both the weak and strong versions of [[Vopěnka's principle]] are equivalent to fairly simple statements concerning reflective subcategories of locally presentable categories: 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The weak [[Vopěnka's principle]] is equivalent to the statement:
@@ -149,7 +149,7 @@ For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hook
 
 This is [AdamekRosicky, theorem 6.28](#AdamekRosicky)
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 The strong [[Vopěnka's principle]] is equivalent to:
 
@@ -158,14 +158,25 @@ For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hook
 (Remark after corollary 6.24 in [Adamek-Rosicky book](#AdamekRosicky)).
 
 ### Reflective subcategories of cartesian closed categories
+ {#ReflectiveSubcategoriesOfCartesianClosedCategotries}
 
 In showing that a given category is [[cartesian closed category|cartesian closed]], the following theorem is often useful (cf. A4.3.1 in the [[Elephant]]):
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 If $C$ is cartesian closed, and $D\subseteq C$ is a [[reflective subcategory]], then the reflector $L\colon C\to D$ preserves finite [[products]] if and only if $D$ is an [[exponential ideal]] (i.e. $Y\in D$ implies $Y^X\in D$ for any $X\in C$).  In particular, if $L$ preserves finite products, then $D$ is cartesian closed.
 =--
 
+### Reflective and coreflective subcategories
+
++-- {: .num_theorem}
+###### Theorem
+
+A subcategory of a [[category of presheaves]] $[A^{op}, Set]$ which is both reflective and coreflective is itself a category of presheaves $[B^{op}, Set]$, and the inclusion is induced by a functor $A \to B$.
+
+=--
+
+This is shown in ([BashirVelebil](#BashirVelebil)).
 
 ## Examples 
 
@@ -203,6 +214,9 @@ The relation of exponential ideals to [[reflective subcategories]] is discussed 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
   {#Johnstone}
 
+Reflective and coreflective subcategories of presheaf categories are discussed in
+
+* R. Bashir, J. Velebil, _Simultaneously reflective and coreflective subcategories of presheaves_, Theory and  Applicaitons of Physics, Vol 10. No. 16. (2002) ([pdf](http://www.emis.de/journals/TAC/volumes/10/16/10-16.pdf)).
 
 
 [[!redirects reflector]]
