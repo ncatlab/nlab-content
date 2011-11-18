@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Notions of subcategory
++-- {: .hide}
+[[!include notions of subcategory]]
+=--
 =--
 =--
 
@@ -132,12 +136,12 @@ A morphism in a reflective subcategory is monic iff it is monic in the ambient c
 
 ### reflective subcategories of locally presentable categories
 
-Both the weak and strong versions of [[Vop?nka's principle]] are equivalent to fairly simple statements concerning reflective subcategories of locally presentable categories: 
+Both the weak and strong versions of [[Vopěnka's principle]] are equivalent to fairly simple statements concerning reflective subcategories of locally presentable categories: 
 
 +-- {: .un_theorem}
 ###### Theorem
 
-The weak [[Vop?nka's principle]] is equivalent to the statement:
+The weak [[Vopěnka's principle]] is equivalent to the statement:
 
 For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hookrightarrow C$ which is closed under [[limit]]s is a reflective subcategory.
 
@@ -147,7 +151,7 @@ This is [AdamekRosicky, theorem 6.28](#AdamekRosicky)
 
 +-- {: .un_theorem}
 ###### Theorem
-The strong [[Vop?nka's principle]] is equivalent to:
+The strong [[Vopěnka's principle]] is equivalent to:
 
 For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hookrightarrow C$ which is closed under [[limit]]s is a reflective subcategory; further on, $D$ is then also locally presentable
 =--
@@ -184,31 +188,10 @@ This can always be made to work by brute force, but sometimes there is something
 
 A few sources (such as [[Categories Work]]) do not require a reflective subcategory to be full.  However, in light of the fact that non-full subcategories are not [[evil|invariant under equivalence]], consideration of non-full reflective subcategories seems of limited usefulness.  The general consensus among category theorists nowadays seems to be that "reflective subcategory" implies fullness.
 
-## Related concepts
-
-* [[subcategory]]
-
-  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], **reflective subcategory**, [[coreflective subcategory]]
-
-  * [[dense sub-site]]
-
-  * [[reflective factorization system]]
-
-* [[sub-2-category]]
-
-  * [[full sub-2-category]]
-
-  * [[locally full sub-2-category]]
-
-* [[sub-(∞,1)-category]]
-
-  * [[reflective sub-(∞,1)-category]]
-
-
 
 ## References
 
-* [[Jiri Adamek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
+* [[Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
 {#AdamekRosicky}
 
 * Springer eom: [reflective subcategory](http://eom.springer.de/r/r080550.htm)
