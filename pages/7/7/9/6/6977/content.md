@@ -1,0 +1,70 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+# Final lifts
+* table of contents
+{: toc}
+
+## Definition
+
+Let $U\colon C\to D$ be a [[functor]].
+
++-- {: .un_defn}
+###### Definition
+A **$U$-structured sink** is a [[sink]] of the form $\{f_i \colon U(X_i) \to Y\}$ in $D$.
+=--
+
+Note that like all sinks, a $U$-structured sink is not necessarily assumed to be [[small category|small]].
+
+Given such a structured sink, let $\{f_i\}/D$ denote the category whose objects are objects $Z\in C$ equipped with a morphism $h\colon Y\to U(Z)$ in $D$ and a sink $\{g_i\colon X_i \to Z\}$ in $C$, such that $U(g_i) = h \circ f_i$ for all $i$.  (Its morphisms are, of course, morphisms in $C$ commuting with the structure.)
+
+Note that if $U$ is faithful, then it suffices to demand merely that the $g_i$ exist, rather than giving them as part of the structure.
+
++-- {: .un_defn}
+###### Definition
+A **semi-final lift** of $\{f_i \colon U(X_i) \to Y\}$ is an initial object of $\{f_i\}/D$.  If $h$ is an isomorphism, then it is called a **final lift**.  If $h$ is an identity, we call it a **strictly final lift**.
+=--
+
+If objects of $C$ are regarded as objects of $D$ equipped with [[stuff, structure, property|structure]], in a (strictly) final lift we say that $Z$ is the **final structure** or **strong structure** on $Y$ induced by the sink.  Note that if $U$ is an [[isofibration]], then any final lift may be made into a strictly final one.
+
+The dual concept, which applies to cosinks ("sources"), is called a (perhaps semi- or strictly) **initial lift**, an **initial structure** or a **weak structure**.
+
+## Examples
+
+* An empty $U$-structured sink is just an object of $D$, and a semi-final lift of such a sink is a [[free object]] on $D$.  Thus $U$ admits semi-final lifts of empty sinks precisely when it has a [[left adjoint]].  Similarly, it admits final lifts of empty sinks precisely when it has a [[fully faithful functor|fully faithful]] left adjoint.
+
+* A singleton $U$-structured sink is just a morphism of the form $f\colon U(X) \to Y$.  A strictly final lift of such a sink is precisely an [[opcartesian arrow]] lying over $f$.  Thus $U$ admits strictly final lifts of singleton structured sinks precisely when it is a [[Grothendieck opfibration]] (and final lifts of such sinks precisely when it is a [[Street opfibration]]).
+
+* A [[topological concrete category]] is a functor that admits final lifts of *all* (not necessarily small) structured sinks.  This turns out to be equivalent to admitting initial lifts of all structured cosinks.
+
+* More generally, a [[solid functor]] is one that admits *semi-final* lifts of all structured sinks.
+
+* If $U$ has both a left and right adjoint, of which one (and hence also the other) is fully faithful, and $C$ is cocomplete, then $U$ admits final lifts of all *small* structured sinks.  See [[adjoint triple]] for a proof.  Dually, if $C$ is complete in this situation, then $U$ admits initial lifts of all small structured cosinks.
+
+
+[[!redirects final lift]]
+[[!redirects final lifts]]
+[[!redirects semi-final lift]]
+[[!redirects semi-final lifts]]
+[[!redirects strictly final lift]]
+[[!redirects strictly final lifts]]
+
+[[!redirects initial lift]]
+[[!redirects initial lifts]]
+[[!redirects semi-initial lift]]
+[[!redirects semi-initial lifts]]
+[[!redirects strictly initial lift]]
+[[!redirects strictly initial lifts]]
+
+[[!redirects weak structure]]
+[[!redirects strong structure]]
+[[!redirects initial structure]]
+[[!redirects final structure]]
