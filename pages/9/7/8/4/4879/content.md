@@ -139,3 +139,7 @@ Some alternate characterizations, and applications in [[Topos]], are discussed i
 [[!redirects Street fibrations]]
 [[!redirects weak fibration]]
 [[!redirects weak fibrations]]
+[[!redirects Street opfibration]]
+[[!redirects Street opfibrations]]
+[[!redirects weak opfibration]]
+[[!redirects weak opfibrations]]
