@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Notions of subcategory
++-- {: .hide}
+[[!include notions of subcategory]]
+=--
 =--
 =--
 
@@ -28,23 +32,6 @@ This means that equivalently we can say:
 A functor $F : S \to C$ exhibits $S$ as a **full subcategory** of $C$ precisely if it is a [[full and faithful functor]].
 ($S$ is the [[essential image]] of $F$).
 
-## Related concepts
-
-* [[subcategory]]
-
-  * **full subcategory**, [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]]
-
-  * [[dense sub-site]]
-
-* [[sub-2-category]]
-
-  * [[full sub-2-category]]
-
-  * [[locally full sub-2-category]]
-
-* [[sub-(∞,1)-category]]
-
-  * [[reflective sub-(∞,1)-category]]
 
 
 [[!redirects full subcategories]]
