@@ -602,7 +602,9 @@ I imagine that there would then be an $(\infty,1)$-version using whatever passes
 [[David Roberts]]: just stumbled on this old comment - I'm reading Makkai more closely, and I'm convinced that basically anything defined by a universal property is given by a saturated anafunctor. So this is a heads up for posterity, that a map is a fibration iff the fairly obvious span of functors defines a [[saturated anafunctor]].
 =--
 
+## Related pages
 
+* A Cartesian morphism is the special case of an [[initial lift]] of a structured [[cosink]] when the cosink is a singleton.
 
 ## References 
 
@@ -640,3 +642,7 @@ See also the references at [[Grothendieck fibration]].
 [[!redirects cartesian arrows]]
 [[!redirects Cartesian arrow]]
 [[!redirects Cartesian arrows]]
+[[!redirects opcartesian arrow]]
+[[!redirects opcartesian arrows]]
+[[!redirects opCartesian arrow]]
+[[!redirects opCartesian arrows]]
