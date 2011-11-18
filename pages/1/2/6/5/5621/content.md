@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include 2-category theory - contents]]
 =--
+#### Notions of subcategory
++-- {: .hide}
+[[!include notions of subcategory]]
+=--
 =--
 =--
 
@@ -31,23 +35,6 @@ If $C$ and $D$ are ordinaray [[categories]] regarded as 2-categories, a full sub
 
 If $D$ is a [[(2,1)-category]] a full sub-2-category is equivalently a [[full sub-(∞,1)-category]].
 
-## Related concepts
-
-* [[subcategory]]
-
-  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]]
-
-  * [[dense sub-site]]
-
-* [[sub-2-category]]
-
-  * **full sub-2-category**
-
-  * [[locally full sub-2-category]]
-
-* [[sub-(∞,1)-category]]
-
-  * [[reflective sub-(∞,1)-category]]
 
 [[!redirects full sub-2-categories]]
 
