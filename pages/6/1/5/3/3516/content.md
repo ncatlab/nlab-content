@@ -23,7 +23,7 @@ When $U$ is solid, [[colimit]]s in $A$ can be constructed in a natural way out o
 
 ## Definition
 
-Let $U\colon A\to X$ be a [[faithful functor]].  A **$U$-structured sink** is a [[sink]] in $X$ of the form $(U a_i \overset{f_i}{\to} x)$.  Note that the indexing family $i\in I$ need not be a [[set]], it can be a [[proper class]].  A **semi-final lift** of such a $U$-structured sink consists of a morphism $x\overset{g}{\to} U b$ in $X$ such that
+Let $U\colon A\to X$ be a [[faithful functor]].  A **$U$-structured sink** is a [[sink]] in $X$ of the form $(U a_i \overset{f_i}{\to} x)$.  Note that the indexing family $i\in I$ need not be a [[set]], it can be a [[proper class]].  A **[[semi-final lift]]** of such a $U$-structured sink consists of a morphism $x\overset{g}{\to} U b$ in $X$ such that
 
 1. Every composite $g \circ f_i\colon U a_i \to U b$ is in the image of $U$, i.e. is of the form $U(\tilde{g})$ for some $\tilde{g}\colon a_i\to b$ (necessarily unique, since $U$ is faithful), and
 
