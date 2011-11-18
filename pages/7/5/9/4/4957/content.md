@@ -81,8 +81,21 @@ Since a local geometric morphism has a [[left adjoint]] in the [[2-category]] [[
 ## Elementary Axiomatization
  {#ElementaryAxiomatization}
 
-For every local topos $\Gamma : E \to S$, $S$ is equivalent to the [[category of sheaves]] for a [[Lawvere-Tierney topology]] $j$ on $E$.  A sound and complete elementary axiomatization of local maps of (bounded) toposes can be given in terms of properties of topos $E$ and topology $j$
-([AwodeyBirkedal](#AwodeyBirkedal))
+Every local topos $\Gamma : \mathcal{E} \to \mathcal{S}$, $S$ is equivalent to the [[category of sheaves]] for a [[Lawvere-Tierney topology]] $j$ on $\mathcal{E}$.  A sound and complete elementary [[axiomaxiomatization]] of local maps of (bounded) toposes can be given in terms of properties of topos $E$ and topology $j$ ([AwodeyBirkedal](#AwodeyBirkedal))
+
+We discuss first
+
+* [the setup](#SetupForAxiomatization)
+
+and then
+
+* [the axioms](#TheAxioms)
+
+themselves.
+
+
+### The setup
+ {#SetupForAxiomatization}
 
 Let $\mathcal{E}$ be an [[elementary topos]] equipped with a [[Lawvere-Tierney topology]] $j : \Omega \to \Omega$.
 
@@ -104,10 +117,22 @@ $$
   }
 $$
 
+Write
+
+$$
+  (Disc \dashv \Gamma)
+  : 
+  Sh_j(\mathcal{E})
+   \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}  
+  \mathcal{E}
+$$
+
+for the [[reflective subcategory]] [[category of sheaves|of j-sheaves]].
+
 +-- {: .num_defn #EssentialTopology}
 ###### Definition
 
-Say that $j$ is an **[[essential geometric morphism|essential]] topology** if the closure operation $# : Sub(X) \to Sub(X)$ has a [[left adjoint]] $\flat \dashv #$:
+We say that $j$ is an **[[essential geometric morphism|essential]] topology** if for all objects $X$ the closure operation $# : Sub(X) \to Sub(X)$ on [[posets of subobjects]] on has a [[left adjoint]] $\flat \dashv #$:
 
 $$
   (U \hookrightarrow # V)
@@ -208,6 +233,54 @@ Moreover, by one of the equivalent characterizations of [[reflective subcategori
 
 
 =--
+
++-- {: .num_observation}
+###### Observation
+
+The left adjoints $\flat : Sub(X) \to Sub(X)$ for all $X \in \mathcal{E}$
+extend to a functor $\flat : \mathcal{E} \to \mathcal{E}$ on all of $\mathcal{E}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
++-- {: .num_defn #DiscreteObjects}
+###### Definition
+
+(...)
+
+=--
+
+
+### The axioms
+ {#TheAxioms}
+
++-- {: .num_defn }
+###### Definition
+
+On $\mathcal{E}$ a [[elementary topos]] with [[Lawvere-Tierney topology]] $j$ consider the following axioms.
+
+* **Axiom 1** $j$ is [essential](#EssentialTopology);
+
+* **Axiom 2** Every object is a [[subquotient]] of a [discrete object](#DiscreteObjects).
+
+* **Axiom 3**  
+
+=--
+
++-- {: .num_theorem }
+###### Theorem
+
+
+
+=--
+
+
 
 ## Examples
 
