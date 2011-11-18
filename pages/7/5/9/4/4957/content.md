@@ -256,9 +256,31 @@ extend to a functor $\flat : \mathcal{E} \to \mathcal{E}$ on all of $\mathcal{E}
 +-- {: .num_defn #DiscreteObjects}
 ###### Definition
 
-(...)
+An object $X \in \mathcal{E}$ is called **discrete** if 
+for all $\Gamma$-[[local isomorphisms]] $f : A \to B$ the induced morphism
+
+$$
+  \mathcal{E}(X,A) \to \mathcal{E}(X,B)
+$$
+
+is an [[isomorphism]] (of sets, hence a bijection).
 
 =--
+
++-- {: .num_defn #ODiscreteObjects}
+###### Definition
+
+An object $X \in \mathcal{E}$ is called **o-discrete** if $\flat X \simeq X$.
+
+=--
+
++-- {: .num_lemma }
+###### Lemma
+
+Every discrete object is o-discrete.
+
+=--
+
 
 
 ### The axioms
@@ -269,18 +291,20 @@ extend to a functor $\flat : \mathcal{E} \to \mathcal{E}$ on all of $\mathcal{E}
 
 On $\mathcal{E}$ a [[elementary topos]] with [[Lawvere-Tierney topology]] $j$ consider the following axioms.
 
-* **Axiom 1** $j$ is [essential](#EssentialTopology);
+* **Axiom 1**. $j$ is [essential](#EssentialTopology).
 
-* **Axiom 2** Every object is a [[subquotient]] of a [discrete object](#DiscreteObjects).
+* **Axiom 2**. Every object is a [[subquotient]] of a [discrete object](#DiscreteObjects).
 
-* **Axiom 3**  
+* **Axiom 3**. For all [discrete object](#DiscreteObjects) $D$, if the [[internal hom]] $[X,D]$ is  [o-discrete](#ODiscreteObjects), then $X$ is also discrete.
+
+* **Axiom 4**. [Discrete objects](#DiscreteObjects) are closed under binary [[products]].
 
 =--
 
 +-- {: .num_theorem }
 ###### Theorem
 
-
+(...)
 
 =--
 
