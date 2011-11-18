@@ -192,11 +192,15 @@ $$
 Therefore the $(Disc \dashv \Gamma)$-[[counit of an adjunction|counit]] provides morphisms
 
 $$
-  \flat X \to X
-  \,.
+  (\flat X \to X) = (\flat X \to U_x \hookrightarrow X)
+  \,,
 $$
 
-We need to show that these are $\sharp $-[[dense monomorphisms]], hence that 
+whose [[image]] factorization $U_x \hookrightarrow X$
+we claim provides the least dense subobjects. 
+
+To show that $U_X$ is dense it is sufficient to show
+that 
 
 $$
   \sharp (\flat X \to X)
@@ -204,7 +208,7 @@ $$
   (coDisc \Gamma Disc \Gamma \to coDisc \Gamma X)
 $$
 
-is an [[isomorphism]], and universally so. 
+is an [[isomorphism]].
 
 Composing this morphism with $coDisc$ of the $(Disc \dashv\Gamma)$-unit on $\Gamma X$ (which is an [[isomorphism]] since $Disc$ is a [[full and faithful functor]] by the discussion at [[adjoint triple]]) and using the $(Disc \dashv \Gamma)$ [[triangle identity]] we have 
 
