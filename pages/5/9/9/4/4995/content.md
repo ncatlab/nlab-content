@@ -404,10 +404,11 @@ such that for all $Y \in \mathbf{B} \stackrel{Disc}{\hookrightarrow} \mathbf{H}$
 
 are [[equivalence in an (infinity,1)-category|equivalences]] (the first three of [[∞-groupoids]] the last two in $\mathbf{H}$).
 
-
-Moreover, if $\mathbf{H}, \mathbf{B}$ both have a [[terminal object in an (∞,1)-category|terminal object]], then $\Pi$ preserves this precisely if the given morphism $* \to \mathbf{\Pi}(*)$ is an equivalence.
+Moreover, if $\mathbf{H}$ is a [[cartesian closed category]], then $\Pi$ preserves finite products precisely if the $Disc$-inclusion is an [[exponential ideal]].
 
 =--
+
+The last statement follows from the $(\infty,1)$-category analog of the discussion [here](http://ncatlab.org/nlab/show/reflective+subcategory#ReflectiveSubcategoriesOfCartesianClosedCategotries).
 
 
 ### Formulation in homotopy type theory
