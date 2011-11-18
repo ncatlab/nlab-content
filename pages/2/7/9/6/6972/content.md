@@ -1,0 +1,4 @@
+
+* [webpage](http://www2.tcs.ifi.lmu.de/~mhofmann/)
+
+category: people
