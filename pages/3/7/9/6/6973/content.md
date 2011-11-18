@@ -1,0 +1,4 @@
+
+* [website](http://www.mathematik.tu-darmstadt.de/fbereiche/logik/staff/streicher.php)
+
+category: people
