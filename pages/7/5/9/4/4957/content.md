@@ -14,6 +14,9 @@
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
 A **local geometric morphism** $f : E \to S$ between [[topos]]es $E,S$ is 
 
 *  a [[geometric morphism]]
@@ -38,6 +41,8 @@ A **local geometric morphism** $f : E \to S$ between [[topos]]es $E,S$ is
    1. $f$ is [[connected geometric morphism|connected]], i.e. $f^*$ is [[full and faithful functor|fully faithful]].
    1. The right adjoint $f^!$ is fully faithful.
    1. The right adjoint $f^!$ is [[cartesian closed functor|cartesian closed]].
+
+=--
 
 When we regard $E$ as a topos over $S$, so that $f$ is regarded as its [[global section]] geometric morphism in the category of toposes over $S$, then we say that $E$ is a **local $S$-topos**.  In this case we may label the functors involved as
 
@@ -74,11 +79,63 @@ and is a [[quasitopos]]. See [[concrete sheaf]] for details.
 Since a local geometric morphism has a [[left adjoint]] in the [[2-category]] [[Topos]], it is necessarily a [[homotopy equivalence of toposes]].
 
 ## Elementary Axiomatization
+ {#ElementaryAxiomatization}
 
-For every local topos $\Gamma : E \to S$, $S$ is equivalent to the 
-category of sheaves for a Lawvere-Tierney topology $j$ on $E$.  A sound and complete elementary axiomatization of local maps of (bounded) 
-toposes can be given in terms of properties of topos 
-$E$ and topology $j$, see the paper by Awodey and Birkedal in the references below. 
+For every local topos $\Gamma : E \to S$, $S$ is equivalent to the [[category of sheaves]] for a [[Lawvere-Tierney topology]] $j$ on $E$.  A sound and complete elementary axiomatization of local maps of (bounded) toposes can be given in terms of properties of topos $E$ and topology $j$
+([AwodeyBirkedal](#AwodeyBirkedal))
+
+Let $\mathcal{E}$ be an [[elementary topos]] equipped with a [[Lawvere-Tierney topology]] $j : \Omega \to \Omega$.
+
+Write $V \mapsto # V$ for the $j$-closure operation on [[subobjects]] $V \hookrightarrow X$
+
+$$
+  \array{
+    V &\to& {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    # V &\to& &\to& {*}
+    \\
+    \downarrow && \downarrow  &&  \downarrow 
+    \\
+    X &\stackrel{\chi_V}{\to}& \Omega 
+    &\stackrel{j}{\to}&
+    \Omega
+  }
+$$
+
++-- {: .num_defn #LocalReflection}
+###### Definition
+
+Say that $j$ is a **local reflection** if the closure operation $# : Sub(X) \to Sub(X)$ has a [[left adjoint]] $\flat$.
+
+$$
+  (\flat U \hookrightarrow V)
+  \Leftrightarrow
+  (U \hookrightarrow # V)
+  \,.
+$$
+
+=--
+
+This appears under the term "principal" in ([AwodeyBirkedal, def. 2.1](#AwodeyBirkedal)). 
+
++-- {: .num_remark}
+###### Remark
+
+Notice that we use the notation "$\flat$" and "$#$" oppositely to the use on p.14 of that article. Our convention is such that it harmonizes with the terminology at _[[cohesive topos]]_ and _[[cohesive (infinity,1)-topos]]_, where it makes interpretational sense to pronounce "$\flat$" as "flat".
+
+=--
+
++-- {: .num_prop #InternalCharacterizationOfLocalReflection}
+###### Proposition
+
+A [[Lawvere-Tierney topology]] $j$ is a [local reflection](#LocalReflection) $(\flat \dashv #)$ precisely if for all objects $X$ there exists a least $#$-[[dense monomorphism|dense subobject]] $U_X \hookrightarrow X$.
+
+=--
+
+This appears as ([AwodeyBirkedal, lemma 2.3](#AwodeyBirkedal)). 
+
 
 ## Examples
 
@@ -265,6 +322,7 @@ and
 A completely [[internal logic|internal]] characterization of local toposes is discussed in
 
 * [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_, Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz), [[AwodeyBirkedalLocalTopos.pdf:file]] )
+ {#AwodeyBirkedal}
 
 This is based on part 2 of
 
