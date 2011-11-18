@@ -184,6 +184,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[adjoint functor theorem]]
 
+* [[indexed adjoint functor theorem]]
+
 #### B2.5 Discrete opfibrations
 
 * [[discrete fibration|discrete opfibration]]
