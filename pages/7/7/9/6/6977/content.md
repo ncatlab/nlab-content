@@ -9,7 +9,7 @@
 =--
 =--
 
-# Final lifts
+# Final and initial lifts
 * table of contents
 {: toc}
 
@@ -37,13 +37,14 @@ If objects of $C$ are regarded as objects of $D$ equipped with [[stuff, structur
 
 The dual concept, which applies to cosinks ("sources"), is called a (perhaps semi- or strictly) **initial lift**, an **initial structure** or a **weak structure**.
 
+
 ## Examples
 
 * An empty $U$-structured sink is just an object of $D$, and a semi-final lift of such a sink is a [[free object]] on $D$.  Thus $U$ admits semi-final lifts of empty sinks precisely when it has a [[left adjoint]].  Similarly, it admits final lifts of empty sinks precisely when it has a [[fully faithful functor|fully faithful]] left adjoint.
 
 * A singleton $U$-structured sink is just a morphism of the form $f\colon U(X) \to Y$.  A strictly final lift of such a sink is precisely an [[opcartesian arrow]] lying over $f$.  Thus $U$ admits strictly final lifts of singleton structured sinks precisely when it is a [[Grothendieck opfibration]] (and final lifts of such sinks precisely when it is a [[Street opfibration]]).
 
-* A [[topological concrete category]] is a functor that admits final lifts of *all* (not necessarily small) structured sinks.  This turns out to be equivalent to admitting initial lifts of all structured cosinks.
+* A [[topological concrete category]] is a functor that admits final lifts of *all* (not necessarily small) structured sinks.  This turns out to be equivalent to admitting initial lifts of all structured cosinks.  The most famous example is then [[initial topology|initial topologies]] and [[final topology|final topologies]] for $U\colon Top \to Set$.
 
 * More generally, a [[solid functor]] is one that admits *semi-final* lifts of all structured sinks.
 
@@ -54,17 +55,24 @@ The dual concept, which applies to cosinks ("sources"), is called a (perhaps sem
 [[!redirects final lifts]]
 [[!redirects semi-final lift]]
 [[!redirects semi-final lifts]]
+[[!redirects semifinal lift]]
+[[!redirects semifinal lifts]]
 [[!redirects strictly final lift]]
 [[!redirects strictly final lifts]]
+[[!redirects final structure]]
+[[!redirects final structures]]
+[[!redirects strong structure]]
+[[!redirects strong structures]]
 
 [[!redirects initial lift]]
 [[!redirects initial lifts]]
 [[!redirects semi-initial lift]]
 [[!redirects semi-initial lifts]]
+[[!redirects semiinitial lift]]
+[[!redirects semiinitial lifts]]
 [[!redirects strictly initial lift]]
 [[!redirects strictly initial lifts]]
-
-[[!redirects weak structure]]
-[[!redirects strong structure]]
 [[!redirects initial structure]]
-[[!redirects final structure]]
+[[!redirects initial structures]]
+[[!redirects weak structure]]
+[[!redirects weak structures]]
