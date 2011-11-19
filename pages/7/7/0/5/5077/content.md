@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
 +--{: .hide}
 [[!include topology - contents]]
@@ -9,22 +9,26 @@
 =--
 =--
 
-# Contents
+# Induced topologies
 * table of contents
 {:toc}
 
-## Definition
+## Definitions
 
-Suppose $X$ is a [[set]], $\{ (X_i, T_i) \}_{i \in I}$ a [[family]] of [[topological space]]s and $\{ f_i \}_{i \in I}$ a family of [[function]]s from $X$ to the family $\{ X_i \}_{i \in I}$. That is, for each index $i \in I$, $f_i\colon X \to X_i$. Let $\Gamma$ be the set of all topologies $\tau$ on $X$ such that $f_i$ is a [[continuous map]] for every $i \in I$. Then the [[intersection]] $\bigcap_{\tau \in \Gamma} \tau$ is again a topology and also belongs to $\Gamma$. Clearly, it is the coarsest/weakest topology $\tau_0$ on $X$ such that each function $f_i: X \to X_i$ is a [[continuous map]].
+Suppose $S$ is a [[set]], $\{ (X_i, T_i) \}_{i \in I}$ a [[family]] of [[topological spaces]] and $\{ f_i \}_{i \in I}$ a family of [[functions]] from $S$ to the family $\{ X_i \}_{i \in I}$. That is, for each index $i \in I$, $f_i\colon S \to X_i$. Let $\Gamma$ be the set of all topologies $\tau$ on $S$ such that $f_i$ is a [[continuous map]] for every $i \in I$. Then the [[intersection]] $\bigcap_{\tau \in \Gamma} \tau$ is again a topology and also belongs to $\Gamma$. Clearly, it is the coarsest/weakest topology $\tau_0$ on $X$ such that each function $f_i\colon S \to X_i$ is a [[continuous map]].
 
-We call $\tau_0$ the **weak/coarse/initial topology induced** on $X$ by the family of mappings $\{ f_i \}_{i \in I}$.  Note that all terms 'weak topology', 'initial topology', and 'induced topology' are used.  The [[subspace topology]] is a special case, where $I$ is a [[singleton]] and the unique function $f_i$ is an [[injection]].
+We call $\tau_0$ the **weak/coarse/initial topology induced** on $S$ by the family of mappings $\{ f_i \}_{i \in I}$.  Note that all terms 'weak topology', 'initial topology', and 'induced topology' are used.  The [[subspace topology]] is a special case, where $I$ is a [[singleton]] and the unique function $f_i$ is an [[injection]].
+
+Dually, suppose $S$ is a [[set]], $\{ (X_i, T_i) \}_{i \in I}$ a [[family]] of [[topological spaces]] and $\{ f_i \}_{i \in I}$ a family of [[functions]] to $S$ from the family $\{ X_i \}_{i \in I}$. That is, for each index $i \in I$, $f_i\colon X_i \to S$. Let $\Gamma$ be the set of all topologies $\tau$ on $S$ such that $f_i$ is a [[continuous map]] for every $i \in I$. Then the [[intersection]] $\bigcap_{\tau \in \Gamma} \tau$ is again a topology and also belongs to $\Gamma$. Clearly, it is the finest/strongest topology $\tau_0$ on $X$ such that each function $f_i\colon X_i \to S$ is a [[continuous map]].
+
+We call $\tau_0$ the **strong/fine/final topology induced** on $S$ by the family of mappings $\{ f_i \}_{i \in I}$.  Note that all terms 'strong topology', 'final topology', and 'induced topology' are used.  The [[quotient topology]] is a special case, where $I$ is a [[singleton]] and the unique function $f_i$ is a [[surjection]].
 
 
 ## Generalisations
 
-We can perform the above construction in any [[topological concrete category]], where it is a special case of an [[initial structure]] for a [[source|sink]].
+We can perform the first construction in any [[topological concrete category]], where it is a special case of an [[initial structure]] for a [[source|sink]].
 
-The dual situtation is forming the [[strong topology]] on $X$ when equipped with a family of functions *to* $X$ from topological spaces.  (This generalises to forming a [[final structure]] for a [[sink]].)
+We can also perform the second construction in any [[topological concrete category]], where it is a special case of an [[final structure]] for a [[sink]].
 
 
 ## In functional analysis
@@ -32,6 +36,8 @@ The dual situtation is forming the [[strong topology]] on $X$ when equipped with
 In [[functional analysis]], the term 'weak topology' is used in a special way.  If $V$ is a [[topological vector space]] over the [[ground field]] $K$, then we may consider the continuous linear [[functional]]s on $V$, that is the [[continuous map|continuous]] [[linear maps]] from $V$ to $K$.  Taking $V$ to be the set $X$ in the general definition above, taking each $T_i$ to be $K$, and taking the continuous linear functionals on $V$ to comprise the family of functions, then we get the __weak topology__ on $V$.
 
 The [[weak-star topology]] is another special case of a weak topology.
+
+For the strong topology in functional analysis, see the [[strong operator topology]].
 
 
 ## References
@@ -45,3 +51,13 @@ The original version of this article was posted by [[Vishal Lama]] at [[nlabmeta
 [[!redirects coarse topologies]]
 [[!redirects initial topology]]
 [[!redirects initial topologies]]
+
+[[!redirects strong topology]]
+[[!redirects strong topologies]]
+[[!redirects fine topology]]
+[[!redirects fine topologies]]
+[[!redirects final topology]]
+[[!redirects final topologies]]
+
+[[!redirects induced topology]]
+[[!redirects induced topologies]]
