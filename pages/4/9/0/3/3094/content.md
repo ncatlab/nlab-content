@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -28,4 +28,4 @@ A topology may be induced by more than a [[function]] other than a subset inclus
 
 
 [[!redirects subspace topology]]
-[[!redirects induced topology]]
+[[!redirects subspace topologies]]
