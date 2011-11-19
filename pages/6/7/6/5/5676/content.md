@@ -7,14 +7,14 @@ This is nicely achieved in a formalism which significantly refines the standard 
 
 #### STEP 1: Category of Covers
 
-Given a $k$-algebra $R$, a $R$-[[coring]] $M = (M,\delta^M,\epsilon^M)$ is a comonoid in the category of $R$-bimodules (i.e. $R\otimes R^{op}$-modules). One defines a category of covers as the category of pairs $(R,M)$ where $R$ is a $k$-algebra and $M$ is a bimodule; one requires that $M$ is faithfully flat as the right  $R$-module i.e. tensoring $M\otimes_R$ is exact and faithful functor. The morphisms $(R_1,M_1)\to (R_2,M_2)$ are given by pairs of algebaric maps in opposite direction, i.e. an algebra map $f_R : R_2\to R_1$ and a bimodule map $f_M:M_2\to M_1$ satisfying the obvious compatibility conditions with the rest of the structure. This defines the category of covers, $Cover_k$. 
+Given a $k$-algebra $R$, a $R$-[[coring]] $M = (M,\delta^M,\epsilon^M)$ is a comonoid in the category of $R$-bimodules (i.e. $R\otimes R^{op}$-modules). One defines a category of covers as the category of pairs $(R,M)$ where $R$ is a $k$-algebra and $M$ is an $R$-coring; one requires that $M$ is faithfully flat as the right  $R$-module i.e. tensoring $M\otimes_R$ is exact and faithful functor. The morphisms $(R_1,M_1)\to (R_2,M_2)$ are given by pairs of algebraic maps in opposite direction, i.e. an algebra map $f_R : R_2\to R_1$ and a bimodule map $f_M:M_2\to M_1$ satisfying the obvious compatibility conditions with the rest of the structure. This defines the category of covers, $Cover_k$. 
 
 One also defines the category of quasicoherent modules $QCoh(R,M)$ as the category of left $M$-comodules, i.e. left $R$-modules $X$ together with the coaction $X\to M\otimes_R X$. 
 
 #### STEP 2: Introducing structure morphism $s_C$
 
 The objects of the category of "space covers" $Cover_k^{sp}$ is the category of pairs $(C,s_C)$ where $C = (R,M) = (R,M,\delta^M,\epsilon^M)$ is a cover
-and $s^C: R\otimes_k R\to M$ is a surjective homomorphism of colagebras in the category of $R$-bimodules. The morphisms in $Cover_k^{sp}$ are the morphisms in $Cover_k$ compatible with "structure morphisms" $s^C$. 
+and $s^C: R\otimes_k R\to M$ is a surjective homomorphism of coalgebras in the category of $R$-bimodules. The morphisms in $Cover_k^{sp}$ are the morphisms in $Cover_k$ compatible with "structure morphisms" $s^C$. 
 
 #### STEP 3: Equivalence relation for the morphisms
 
@@ -22,7 +22,7 @@ Still some morphisms induce the same inverse image functors for $QCoh$ categorie
 
 #### STEP 4: Localizing on refinements
 
-Any cover $(R,M)$ in $Cover_k$ together with a monomorphism of $k$-algebras $R\hookrightarrow S$ induces a cover $(S,S\otimes_R M\otimes_R S)$ together with a canonical morhism $(S,S\otimes_R M\otimes S)\to (R,M)$ in $Cover_k$. Morphisms of this type are called refinement morphisms; they are closed under composition and pullback. Thus one can define the localized category $Cover_k[Ref^{-1}]$; moreover, $(S,S\otimes_R M\otimes S)$ can be canonically equipped with a structure morphism and we can in this vain obtain the category of noncommutative spaces $NSpace_k := \tilde{Cover}^{sp}_k[Ref^{-1}]$.
+Any cover $(R,M)$ in $Cover_k$ together with a monomorphism of $k$-algebras $R\hookrightarrow S$ induces a cover $(S,S\otimes_R M\otimes_R S)$ together with a canonical morphism $(S,S\otimes_R M\otimes S)\to (R,M)$ in $Cover_k$. Morphisms of this type are called refinement morphisms; they are closed under composition and pullback. Thus one can define the localized category $Cover_k[Ref^{-1}]$; moreover, $(S,S\otimes_R M\otimes S)$ can be canonically equipped with a structure morphism and we can in this vain obtain the category of noncommutative spaces $NSpace_k := \tilde{Cover}^{sp}_k[Ref^{-1}]$.
 
 ### Properties 
 
