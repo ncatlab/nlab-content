@@ -1,0 +1,13 @@
+
+## Idea
+
+## Formalizations
+
+
+### In type theory
+
+In [[type theory]] any proof consists of exhibiting a [[term]] of a certain [[type]], the "type of proofs" of the given assertion.
+
+
+
+[[!redirects proofs]]
