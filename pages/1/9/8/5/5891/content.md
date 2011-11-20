@@ -5,7 +5,7 @@
 
 ## Idea
 
-(...)
+A [[semantics]] internal to a [[category]]. See [[internal logic]].
 
 ## Definition
 
