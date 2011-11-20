@@ -17,7 +17,7 @@
 
 ## Idea
 
-A _logical morphism_ or _logical functor_ is a [[homomorphism]] between [[elementary topos]]es that preserves the structure of a topos as a context for [[logic]]: a functor which preserves all the elementary topos structure, including in particular [[power objects]], but not necessarily any infinitary structure (such as present additionally in [[sheaf topos]]).  
+A _logical morphism_ or _logical functor_ is a [[homomorphism]] between [[elementary topos]]es that preserves the structure of a topos as a context for [[logic]]: a functor which preserves all the elementary topos structure, including in particular [[power objects]], but not necessarily any infinitary structure (such as present additionally in a [[sheaf topos]]).  
 
 If instead a topos is regarded as a context for [[geometry]] or specifically [[geometric logic]], then the notion of [[homomorphism]] preserving this is that of a  _[[geometric morphism]]_ . 
 
