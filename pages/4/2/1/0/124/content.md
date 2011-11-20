@@ -140,7 +140,8 @@ Any result in [[ordinary mathematics]] whose proof is [[finite mathematics|finit
 
 Therefore, one can prove results in toposes and similar categories by reasoning, not about the [[objects]] and [[morphisms]] in the topos themselves, but instead about [[sets]] and [[functions]] in the normal language of structural [[set theory]], which is more familiar to most mathematicians.  One merely has to be careful about what axioms one uses to get results of sufficient generality.
 
-For more on this idea, see [[internal logic]].
+The [[internal logic|internal language]] of a topos is called [[Mitchell-Bénabou language]].
+
 
 
 ## Examples {#Examples}
