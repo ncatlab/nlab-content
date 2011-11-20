@@ -72,7 +72,9 @@ Together with [[closed natural transformations]], closed categories and closed f
 
 * However, there does not seem to be a natural notion of "colax" functor between closed categories.  One could, of course, simply ask for transformations in the other direction, but such things do not seem to arise much in practice, and would not correspond to colax monoidal functors in the same way.
 
-* If $C$ and $D$ are [[cartesian closed categories]], then any functor $F\colon C\to D$ is automatically colax monoidal, and it is strong (hence also lax) monoidal iff it preserves products.  By the above argument, any product-preserving functor between cartesian closed categories is automatically a lax closed functor.  If it is moreover a *strong* closed functor, we call it a **cartesian closed functor**.
+* If $C$ and $D$ are [[cartesian closed categories]], then any functor $F\colon C\to D$ is automatically colax monoidal, and it is strong (hence also lax) monoidal iff it preserves products.  By the above argument, any product-preserving functor between cartesian closed categories is automatically a lax closed functor.  If it is moreover a *strong* closed functor, we call it a **cartesian closed functor**. (See also _[[locally cartesian closed functor]]_.)
+
+
 
 ## References
 
