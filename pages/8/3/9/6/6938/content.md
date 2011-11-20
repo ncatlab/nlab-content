@@ -5,11 +5,7 @@
 
 * [[propositions as types]], [[inductive type]], [[W-type]]
 
-* [[function type]]
-
 **[[dependent type]]**, [[dependent type theory]], [[Martin-Löf dependent type theory]]
-
-* [[dependent sum type]], [[dependent product type]] 
 
 **[[homotopy type]]**, [[homotopy type theory]]
 
