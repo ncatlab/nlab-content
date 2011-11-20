@@ -126,4 +126,8 @@ such that this is [[universal property|universal]] among all objects with maps f
 
 * A coproduct indexed by the [[empty set]] is an [[initial object]] in $C$.
 
+## Related concepts
+
+* [[sum type]]
+
 [[!redirects coproducts]]
