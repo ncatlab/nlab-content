@@ -1,4 +1,5 @@
 
+
 ## Idea
 
 ## Formalizations
@@ -6,7 +7,7 @@
 
 ### In type theory
 
-In [[type theory]] any proof consists of exhibiting a [[term]] of a certain [[type]], the "type of proofs" of the given assertion.
+In [[type theory]] a [[proposition]] is identitfied with the [[type]] of all its proofs ("[[propositions as types]]".) Here a proof consists of exhibiting a [[term]] of the corresponding type (showing that it is [[inhabited]]).
 
 
 
