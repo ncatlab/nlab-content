@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc} 
+
+
+## Idea
+
+In [[type theory]] the _unit type_ is the [[type]] with a unique [[term]].
+
+In a [[model]] by [[categorical semantics]] the unit type maps to a [[terminal object]].
+
+## Related concepts
+
+* [[bottom type]]
+
+[[!redirects unit types]]
