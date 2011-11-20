@@ -3,4 +3,6 @@
 
 * [webpage](http://www.math.bgu.ac.il/~amyekut/)
 
+
+[[!redirects amnon yekutieli]]
 category: people
