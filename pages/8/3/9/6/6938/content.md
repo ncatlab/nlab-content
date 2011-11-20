@@ -7,7 +7,7 @@
 
 * [[function type]]
 
-**[[dependent type]]**, [[dependent type theory]]
+**[[dependent type]]**, [[dependent type theory]], [[Martin-Löf dependent type theory]]
 
 * [[dependent sum type]], [[dependent product type]] 
 
