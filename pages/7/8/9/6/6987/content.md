@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Notions of subcategory
++-- {: .hide}
+[[!include notions of subcategory]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The following gives a characterization of [[reflective subcategories]] entirely in terms of the [[internal logic]]/[[type theory]] of the ambient [[category]].
+
+## Statement
+
+(...)
