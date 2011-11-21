@@ -197,4 +197,8 @@ Other references include
 
 * wikipedia: [list of first-order theories](http://en.wikipedia.org/wiki/List_of_first-order_theories), [Morley's categoricity theorem](http://en.wikipedia.org/wiki/Morley%27s_categoricity_theorem), [Decidability (logic)](http://en.wikipedia.org/wiki/Decidability_%28logic%29), [signature (logic)](http://en.wikipedia.org/wiki/Signature_%28logic%29)
 
+In [[Coq]] theories are specified with the 
+
+* _[Gallina specification language](http://coq.inria.fr/doc/Reference-Manual003.html)_
+
 [[!redirects theories]]
