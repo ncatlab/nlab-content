@@ -17,6 +17,9 @@
 
   * [[reflective sub-(∞,1)-category]] ([[reflective sub-(∞,1)-catgeory - internal formulation|internal formulation]])
 
+  * [[reflective product-preserving sub-(∞,1)-category]] ([[reflective product-preserving sub-(∞,1)-catgeory - internal formulation|internal formulation]])
+
+
 * [[thick subcategory]] (of a [[triangulated category]])
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/notions+of+subcategory)</div>
