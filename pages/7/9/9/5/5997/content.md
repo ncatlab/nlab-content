@@ -2,16 +2,23 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Category theory
+#### Factorization systems
 +--{: .hide}
-[[!include quasi-category theory contents]]
+[[!include factorization systems - contents]]
 =--
 #### $(\infty,1)$-Topos Theory
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
 =--
 =--
+=--
+
+
+
 
 #Contents#
 * table of contents
