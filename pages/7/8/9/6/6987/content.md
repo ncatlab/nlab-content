@@ -32,4 +32,11 @@ The following gives a characterization of [[reflective sub-(∞,1)-categories]] 
 
 (...)
 
+## References
+
+[[Coq]]-code for reflective subcategories in [[homotopy type theory]] is at
+
+* [[Mike Shulman]], _[ReflectiveSubcategory.v](https://github.com/mikeshulman/HoTT/blob/master/Coq/ReflectiveSubcategory.v
+)_
+
 [[!redirects reflective sub-(∞,1)-catgeory - internal formulation]]
