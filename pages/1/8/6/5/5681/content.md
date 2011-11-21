@@ -3,12 +3,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
 #### $(\infty,1)$-Category theory
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
