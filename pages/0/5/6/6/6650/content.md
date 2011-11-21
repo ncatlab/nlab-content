@@ -1,8 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 An [[orthogonal factorization system]] $(E,M)$ on a [[category]] $C$ with [[pullbacks]] is called **stable** if $E$ is [[stability under pullback|stable under pullback]].
+
+## Properties
 
 For a general (orthogonal) factorization system $(E,M)$, the factorizations show that the full inclusion $M/x \to C/x$ (where $M/x$ consists of morphisms in $M$ with [[target]] $x$) has a left adjoint.  The factorization system is stable if and only if these left adjoints form an [[indexed functor]] --- that is, they commute with the pullback functors $f^* \colon C/y \to C/x$.
 
-A [[reflective factorization system]] on a finitely complete category is stable if and only if its corresponding [[reflector]] preserves finite limits.  A stable reflective factorization system is sometimes called **local**.
+A [[reflective factorization system]] on a finitely complete category is stable if and only if its corresponding [[reflector]] preserves [[finite limits]].  A stable reflective factorization system is sometimes called **local**.
 
 [[!redirects stable factorization systems]]
 [[!redirects local factorization system]]
