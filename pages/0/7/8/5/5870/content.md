@@ -38,6 +38,8 @@
 
 * [[topological group]]
 
+## Lie groups
+
 * [[Lie group]]
 
 ## Super-Lie groups
@@ -64,6 +66,8 @@
   * [[spectrum]]
 
 * [[circle n-group]], [[string group]], [[string 2-group]], [[fivebrane Lie 6-group]]
+
+## Related concepts
 
 * [[quantum group]] 
 
