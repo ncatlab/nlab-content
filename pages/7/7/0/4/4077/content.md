@@ -23,6 +23,7 @@ where each inclusion $G_i \subseteq G_{i+1}$ is a [[normal subgroup]] and the qu
 
 Thus finite simple groups are in some sense the primitive building blocks of finite groups generally. The massive program of classifying all finite simple groups was announced as completed by Daniel Gorenstein in 1983, although some doubts remained because there were some gaps in proofs. Most if not all the gaps are considered by experts in the area to have been filled, but there remain some notable skeptics, including for example [[Jean-Pierre Serre]] and [[John H. Conway]] (verification needed here). See [[classification of finite simple groups]]. 
 
+But finite simple groups are not the only ones there are. There are simple groups of any cardinality $\kappa$; take for example the smallest normal subgroup of $Aut(\kappa)$ containing all 3-cycles (this is the infinite version of the alternating group).
 
 [[!redirects simple group]]
 [[!redirects simple groups]]
