@@ -77,7 +77,7 @@ in the category [[sSet]] of simplicial sets. Call this the  **left cone** over $
 
 The [[colimit]]s in [[sSet]] are computed componentwise, so that the set of vertices $C^{\triangleleft}(f)_0$ is the disjoint union of the vertices of $S$ and one extra vertex $v$, the **cone point**.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 ([[Higher Topos Theory|HTT, def. 2.1.4.5]])
@@ -101,7 +101,7 @@ A morphism $f : X \to Y$ is
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop #BasicProperties}
 ###### Proposition
 
 
@@ -130,7 +130,7 @@ We have
 
 ### Weak equivalences {#WeakEquivalences}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $S$ be any [[simplicial set]]. Every morphism
@@ -191,7 +191,8 @@ The pushout therefore glues in the remaining face of the tetrahedron and fills i
 =--
 
 
-### Change of base
+### Change of base 
+ {#ChangeOfBase}
 
 For every morphism $j : S \to S'$ we have the corresponding [[adjunction]] on [[overcategories]]
 
@@ -211,7 +212,7 @@ where
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(change of base)**
 
@@ -224,8 +225,9 @@ If $j$ is a [[model structure for quasi-categories|weak equivalence in]] $sSet_{
 =--
 
 ### Grothendieck construction
+ {#GrothendieckConstruction}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **($(\infty,1)$-Grothendieck construction)**
 
