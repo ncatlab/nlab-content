@@ -1,4 +1,4 @@
 
-* [website](http://www.math.columbia.edu/~lauda/)
+* [website](http://www-bcf.usc.edu/~lauda/)
 
 category: people
