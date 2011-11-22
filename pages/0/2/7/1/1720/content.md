@@ -82,7 +82,7 @@ But it is [[Quillen equivalence|Quillen equivalent]] to a model structure that _
 
 ### Right proper model categories ###
 
-* every model category in which eaxch object is fibrant is right proper.
+* every model category in which each object is fibrant is right proper.
 
   This includes for instance the standard [[model structure on topological spaces]]. 
 
