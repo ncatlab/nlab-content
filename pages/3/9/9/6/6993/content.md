@@ -1,0 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
+
+[[hyperconnected geometric morphism|Hyperconnected geometric morphisms]] are the left class of a 2-categorical [[orthogonal factorization system]] on the [[2-category]] [[Topos]] of [[toposes]]; the right class is the class of [[localic geometric morphisms]].
+
