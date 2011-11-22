@@ -1,4 +1,7 @@
 
-* [website](http://home.agh.edu.pl/~worytkie/KW/main.html)
+* [website](http://lama.univ-savoie.fr/~worytkiewicz/main.html)
+
+* [Papers](http://lama.univ-savoie.fr/~worytkiewicz/papers.html)
+
 
 category: people
