@@ -65,11 +65,11 @@ $$
 The local construction of $G$-principal bundles above ensures precisely that this satisfies [[descent]] and is hence a [[stack]].
 
 
-### In terms of fiber sequences 
+### In terms of fiber sequences
 
 This indicates the more fundamental way to _define_ $G$-principal bundles in the first place:
  
-Recall that for every [[group]] there is the the one-object [[groupoid]] $\mathbf{B}G$. Under the [[Yoneda embedding]] this [[representable functor|represents]] a [[simplicial presheaf|prestack]]. Write $\bar{\mathbf{B}G}$ for the corresponding [[stack]] obtained by [[(infinity,1)-sheafification|stackification]]. This is our $G Bund(-)$
+Recall (from [[fiber sequence]]) that for every [[group]] there is the the one-object [[groupoid]] $\mathbf{B}G$. Under the [[Yoneda embedding]] this [[representable functor|represents]] a [[simplicial presheaf|prestack]]. Write $\bar{\mathbf{B}G}$ for the corresponding [[stack]] obtained by [[(infinity,1)-sheafification|stackification]]. This is our $G Bund(-)$
 
 $$
   G Bund(-) = \bar{\mathbf{B} G}(-)
