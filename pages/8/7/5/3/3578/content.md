@@ -519,6 +519,8 @@ This appears as [[Higher Topos Theory|HTT, prop. 2.1.2.11]].
 
 * **right/left Kan fibration**, [[right/left anodyne map]]
 
+  * [[model structure for left fibrations]]
+
 * [[inner fibration]]
 
 * [[Cartesian fibration]]  
