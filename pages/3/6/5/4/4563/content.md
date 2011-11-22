@@ -71,8 +71,9 @@ The last bit is lemma 1.2 in ([Johnstone](#Johnstone)).
 ###### Proposition
 
 
-Localic geometric morphisms are the right class of a 2-categorical [[orthogonal factorization system]] on the 2-category of topoi. The corresponding left class is the class of [[hyperconnected geometric morphism]]s.
+Localic geometric morphisms are the right class of a 2-categorical [[orthogonal factorization system]] on the 2-category [[Topos]] of topoi. The corresponding left class is the class of [[hyperconnected geometric morphism]]s.
 
+([[(hyperconnected,localic) factorization system]])
 
 =--
 
