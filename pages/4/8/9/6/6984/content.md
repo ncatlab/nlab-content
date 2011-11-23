@@ -9,15 +9,16 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-In [[type theory]] a _product type_ of two [[types]] $A$ and $B$ is the type whose [[terms]] are pairs $(a,b)$ with $a : A$ and $b : B$.
+In [[type theory]] a _product type_ of two [[types]] $A$ and $B$ is the type whose [[terms]] are [[ordered pairs]] $(a,b)$ with $a\colon A$ and $b\colon B$.
 
-In a [[model]] of the type theory in [[categorical semantics]] a product type maps to a categorical [[product]].
+In a [[model]] of the type theory in [[categorical semantics]], this is a [[product]]. In [[set theory]], it is a [[cartesian product]]. In [[dependent type theory]], it is a special case of a [[dependent sum]].
+
 
 ## Related concepts
 
@@ -25,4 +26,6 @@ In a [[model]] of the type theory in [[categorical semantics]] a product type ma
 
 * [[dependent product type]]
 
+
+[[!redirects product type]]
 [[!redirects product types]]
