@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohesive $\infty$-Toposes
-+--{: .hide}
-[[!include cohesive infinity-toposes - contents]]
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
 =--
 =--
 =--
@@ -17,7 +17,7 @@
 
 ## Idea
 
-Given a [[category]] $Sp$ of [[space]]s equipped with a [[forgetful functor]] $\Gamma : Sp \to Set$ to [[Set]] thought of as producing for each space its underlying set of points, a **codiscrete space** $Codisc(S)$ on a [[set]] $S$ is, if it exists, the image under the [[right adjoint]] $Codisc : Set \to Sp$ of $\Gamma$.
+Given a [[category]] $Sp$ of [[space]]s equipped with a [[forgetful functor]] $\Gamma : Sp \to Set$ to [[Set]] thought of as producing for each space its underlying set of points, a **codiscrete space** ([[codiscrete object]]) $Codisc(S)$ on a [[set]] $S$ is, if it exists, the image under the [[right adjoint]] $Codisc : Set \to Sp$ of $\Gamma$.
 
 The dual concept is that of [[discrete space]].
 
