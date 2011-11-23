@@ -199,6 +199,7 @@ The first [[model]] for [[intensional type theory|intensional]] [[Martin-Löf ty
 The fact that every [[simplicial model category]] in which the cofibrations are [[monomorphisms]] provides a sound [[model]] for [[intensional type theory|intensional]] [[Martin-Löf type theory]] is discussed in 
 
 * [[Steve Awodey]], [[Michael Warren]], _Homotopy theoretic models of identity type_,  Mathematical Proceedings of the Cambridge Philosophical Society vol 146, no. 1 (2009) ([arXiv:0709.0248](http://arxiv.org/abs/0709.0248))
+ {#AwodeyWarren}
 
 and with more details in 
 
