@@ -49,6 +49,65 @@ $$
 
 We call $Conc(\mathbf{H})$ the [[(∞,1)-quasitopos]] of **concrete objects** of the local $(\infty,1)$-topos $\mathbf{H}$.
 
++-- {: .num_defn}
+###### Definition
+
+We say an object $X$ is **$n$-concrete** if the canonical morphism 
+$X \to coDisc \Gamma X$ is [[n-truncated|(n-1)-truncated]].
+
+If a [[0-truncated]] object $X$ is $0$-concrete, we call it just **concrete**.
+
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $C$ an [[∞-cohesive site]], a 0-truncated object in the 
+[[(∞,1)-topos]] over $C$ is concrete precisely if it is
+a [[concrete sheaf]] in the traditional sense.
+
+=--
+
++-- {: .num_defn #NConcretification}
+###### Definition
+
+For $X \in \mathbf{H}$ and $n \in \mathbb{N}$, the 
+**$(n+1)$-concretification** of $X$ is the morphism
+
+$$
+  X \to conc_{n+1} X
+$$
+
+that is the left factor in the decomposition with respect to the 
+[[n-connected/n-truncated factorization system]] of the 
+$(\Gamma \dashv coDisc)$-[[unit of an adjunction|unit]]
+
+$$
+  \array{   
+    && conc_{n+1} X
+    \\
+    & \nearrow && \searrow
+    \\
+    X &&\to&& coDisc \Gamma X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By that very [[n-connected/n-truncated factorization system]]
+we have that $conc_{n+1} X$ is an ${n+1}$-concrete object.
+
+=--
+
+
+
+
 ## Examples
 
 * [[concrete smooth ∞-groupoid]]
