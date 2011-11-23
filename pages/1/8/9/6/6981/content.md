@@ -2,7 +2,7 @@
  [[logic]]                      |   [[type theory]]
 --------------------------------|------------------------------
  [[true]]                       |   [[unit type]]
- [[false]]                      |   [[bottom type]]
+ [[false]]                      |   [[empty type]]
  [[conjunction]]                |   [[product type]]
  [[disjunction]]                |   [[sum type]]
  [[implication]]                |   [[function type]]
