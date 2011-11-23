@@ -1,3 +1,4 @@
+[[!redirects codiscrete objects]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
