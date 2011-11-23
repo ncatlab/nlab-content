@@ -35,7 +35,7 @@ $$
 
 The objects in $Fun(C,D)$ are the [[(∞,1)-functors]] from $C$ to $D$, the morphisms are the corresponding [[natural transformations]] or [[homotopy|homotopies]], etc.
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The simplicial set $Fun(C,D)$ is indeed a [[quasi-category]].
@@ -137,7 +137,7 @@ $$
   \,.
 $$
 
-+-- {: .un_prop }
++-- {: .num_prop #PresentationByModelStructuresOnFunctors}
 ###### Proposition
 
 This canonical morphism
@@ -181,7 +181,7 @@ identifies also $N([C,A]^\circ)$ with the exponential object in question.
 
 For $C$ an ordinary [[category]] that admits small [[limit]]s and [[colimit]]s, and for $K$ a [[small category]], the [[functor category]] $Func(D,C)$ has all small limits and colimits, and these are computed objectwise. See [[limits and colimits by example]]. The analogous statement is true for $(\infty,1)$-categories of $(\infty,1)$-functors
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Propositon
 
 Let $K$ and $C$ be [[quasi-categories]], such that $C$ has all [[limit in a quasi-category|colimits]] indexed by $K$. 
