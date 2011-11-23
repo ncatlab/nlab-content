@@ -96,6 +96,10 @@ from definition 2.10 on. Details are in
 * [[John Power]], _A 2-categorical pasting theorem_ , Journal of Algebra
 Volume 129, Issue 2, March 1990, Pages 439-445 
 
+Dominic Verity gave a bicategorical pasting theorem in 
+
+* [[Dominic Verity]], Enriched categories, internal categories, and change of base, PhD thesis, Cambridge University, 1992. Reprinted in TAC ([link](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)). 
+
 A definition and discussion of pasting diagrams in [[strict omega-categories]] is in
 
 * [[Sjoerd Crans]], _Pasting presentation for Omega-categories_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.4342))
