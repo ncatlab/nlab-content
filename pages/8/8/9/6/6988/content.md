@@ -22,6 +22,6 @@
 * [[(eso, fully faithful) factorization system|(eso, fully faithful)]], 
 [[(eso+full, faithful) factorization system|(eso+full, faithful)]], [[(bo, ff) factorization system|(bo, ff)]]
 
-* [[(hyperconnected,localic) factorization system|(hyperconnected,localic)]]
+* [[(hyperconnected, localic) factorization system|(hyperconnected, localic)]]
 
-* [[n-connected/n-truncated factorization system|(n-connected,n-truncated)]]
+* [[(n-connected, n-truncated) factorization system|(n-connected, n-truncated)]]
