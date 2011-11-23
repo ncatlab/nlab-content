@@ -238,7 +238,7 @@ $$
   [C, sSet_{Quillen}]
 $$
 
-between the model structure for left fibrations over $S$ and the [[global model structure on functors|global model structure on sSet-functors]]s on $C$ with values in [[sSet]] equipped with the standard [[model structure on simplicial sets]].
+between the model structure for left fibrations over $S$ and the [[global model structure on functors|global model structure on sSet-functors]] on $C$ with values in [[sSet]] equipped with the standard [[model structure on simplicial sets]].
 
 =--
 
