@@ -63,8 +63,6 @@ $(\Gamma \dashv \mathrm{coDisc})$ is indeed an
 [[(∞,1)-geometric morphism]]. 
 (See the general discussion at [[local (∞,1)-topos]].)
 
-
-
 =--
 
 +-- {: .num_prop }
@@ -95,14 +93,14 @@ This follows by general facts discussed at [[reflective sub-(∞,1)-category]].
 ###### Definition
 
 We say an object $X$ is **$n$-concrete** if the canonical morphism 
-$X \to coDisc \Gamma X$ is [[n-truncated]].
+$X \to coDisc \Gamma X$ is [[n-truncated|(n-1)-truncated]].
 
-If a [[0-truncated]] object $X$ is $(-1)$-concrete, we call it just **concrete**.
+If a [[0-truncated]] object $X$ is $0$-concrete, we call it just **concrete**.
 
-Recursively, we say an [[n-truncated]] object $X$ is **concrete** if there is an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] $U \to X$ from a concrete 0-truncated $U$, such that
-the [[(∞,1)-pullback]] $U \times_X U$ is concrete.
 
 =--
+
+See also _[[concrete (∞,1)-sheaf]]_.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -113,16 +111,14 @@ a [[concrete sheaf]] in the traditional sense.
 
 =--
 
-> [[Dave Carchedi]] has an argument that shows, at least over some sites, that, generally, concrete objects are presented by simplicial concrete sheaves. Details will go here, eventually.
-
 +-- {: .num_defn #NConcretification}
 ###### Definition
 
 For $X \in \mathbf{H}$ and $n \in \mathbb{N}$, the 
-**$n$-concretification** of $X$ is the morphism
+**$(n+1)$-concretification** of $X$ is the morphism
 
 $$
-  X \to conc_n X
+  X \to conc_{n+1} X
 $$
 
 that is the left factor in the decomposition with respect to the 
@@ -131,7 +127,7 @@ $(\Gamma \dashv coDisc)$-[[unit of an adjunction|unit]]
 
 $$
   \array{   
-    && conc_n X
+    && conc_{n+1} X
     \\
     & \nearrow && \searrow
     \\
@@ -146,7 +142,7 @@ $$
 ###### Remark
 
 By that very [[n-connected/n-truncated factorization system]]
-we have that $conc_n X$ is an $n$-concrete object.
+we have that $conc_{n+1} X$ is an $(n+1)$-concrete object.
 
 =--
 
