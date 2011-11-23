@@ -2,13 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Topos Theory
-+-- {: .hide}
-[[!include topos theory - contents]]
-=--
 #### Cohesive $\infty$-Toposes
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
+=--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
 =--
 =--
 =--
@@ -186,7 +190,7 @@ This is equivalent to the following condition (see the [proposition below](Piece
 +-- {: .num_defn #DiscreteObjectsAreConcrete}
 ###### Definition
 
-We say that **discrete objects are concrete** in $\mathcal{E}$ if the transformation
+We say that **[[discrete objects]] are [[concrete object|concrete]]** in $\mathcal{E}$ if the transformation
 
 $$
   f^* S \to f^! f_* f^* S \stackrel{\simeq}{\to} f^! S
@@ -487,14 +491,14 @@ This is ([Johnstone, theorem 3.4](#Johnstone)).
 +-- {: .num_prop }
 ###### Proposition
 
-The [[reflective subcategories]] of discrete objects and of codiscrete objects are both [[exponential ideals]].
+The [[reflective subcategories]] of [[discrete objects]] and of [[codiscrete objects]] are both [[exponential ideals]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the discussion at [[exponential ideal]] a reflective subcategories of a [[cartesian closed category]] is an exponential ideal precisely if the [[reflector]] preserves [[products]]. For the codiscrete objects the reflector $\Gamma$ preserves even all [[limits]] and for the discrete objects the reflector $\Pi$ does so by assumotion of strong connectedness.
+By the discussion at [[exponential ideal]] a reflective subcategories of a [[cartesian closed category]] is an exponential ideal precisely if the [[reflector]] preserves [[products]]. For the [[codiscrete objects]] the reflector $\Gamma$ preserves even all [[limits]] and for the [[discrete objects]] the reflector $\Pi$ does so by assumotion of strong connectedness.
 
 =--
 
@@ -630,7 +634,7 @@ which must correspond to another [[coverage]] $K$:  $Set \simeq Sh_K(C)$. Since 
 +-- {: .num_prop}
 ###### Proposition
 
-Precisely if the cohesive topos $\mathcal{E}$ satisfies the axiom _discrete objects are concrete_ (saying that for all $S \in Set$ the canonical morphism $Disc S \to coDisc \Gamma Disc S \simeq coDisc S$ is a [[monomorphism]]) then $Conc(\mathcal{E})$ is a **cohesive quasitopos** in that we have a quadrupled of [[adjoint functor]]s.
+Precisely if the cohesive topos $\mathcal{E}$ satisfies the axiom _[[discrete objects]] are [[concrete object|concrete]]_ (saying that for all $S \in Set$ the canonical morphism $Disc S \to coDisc \Gamma Disc S \simeq coDisc S$ is a [[monomorphism]]) then $Conc(\mathcal{E})$ is a **cohesive quasitopos** in that we have a quadrupled of [[adjoint functor]]s.
 
 $$
    Conc(\mathcal{E})
