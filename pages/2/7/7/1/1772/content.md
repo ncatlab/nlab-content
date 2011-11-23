@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
 #### Topos Theory
 +--{: .hide}
 [[!include topos theory - contents]]
