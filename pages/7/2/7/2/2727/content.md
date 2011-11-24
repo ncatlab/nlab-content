@@ -53,7 +53,7 @@ We would not say homotopy type theory has propositions as types in the same way 
 
 ## Related concepts
 
-[[!include notions of type]]
+* [[proofs as programs]]
 
 
 [[!redirects propositions as types]]
