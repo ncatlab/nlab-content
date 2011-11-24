@@ -44,6 +44,8 @@ There are categories which are cartesian closed and not locally cartesian closed
 
 * [[locally cartesian closed functor]]
 
+* [[locally cartesian closed (∞,1)-category]]
+
 ## References
 
 * [[François Conduché]],   _Au sujet de l'existence d'adjoints &#224; droite aux foncteurs "image r&#233;ciproque" dans la cat&#233;gorie des cat&#233;gories_ (French)  C. R. Acad. Sci. Paris S&#233;r. A-B  275  (1972), A891--A894.
