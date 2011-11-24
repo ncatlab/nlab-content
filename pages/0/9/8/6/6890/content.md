@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -83,10 +82,19 @@ A proviola-enhanced version of the Coq-library for [[homotopy type theory]] is a
 
 * _[http://mws.cs.ru.nl/proviola/HoTT/](http://mws.cs.ru.nl/proviola/HoTT/)_
 
-### Tutorials
+### Learning Coq
 
-* [[Andrej Bauer]], _Video tutorials for the Coq proof assistant_ ([web](http://math.andrej.com/2011/02/22/video-tutorials-for-the-coq-proof-assistant/)).
+To get an idea how to use Coq from Emacs, there are [[Andrej Bauer]]'s _Video tutorials for the Coq proof assistant_ ([web](http://math.andrej.com/2011/02/22/video-tutorials-for-the-coq-proof-assistant/)).
 
+Yet properly learning Coq can be quite daunting, luckily the right material can help a lot:
+
+1. [[Benjamin Pierce]]'s [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf/) is probably the most elementary introduction to Coq and functional progamming. The book is written in Coq so you can directly open the source files in CoqIDE and step through them to see what is going on and solve the exercises.
+
+1. In a similar style, [[Andrej Bauer]] and [[Peter LeFanu Lumsdaine]] wrote a nice [Coq tutorial](https://github.com/andrejbauer/Homotopy/tree/master/OberwolfachTutorial) ([pdf](https://github.com/andrejbauer/Homotopy/blob/master/OberwolfachTutorial/univalence.pdf)) on [homotopy type theory](#HomotopyTypeTheory).
+
+1. [[Adam Chlipala]]'s trimmed down version of [Certified Programming with Dependent Types](http://adam.chlipala.net/papers/CpdtJFR/) explains more advanced Coq techniques.
+
+ 
 ### Applications to formal mathematics
 
 * [[Thierry Coquand]], _ForMath: Formalisation of Mathematics_ research project ([web](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath))
