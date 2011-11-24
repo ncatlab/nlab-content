@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What [[homotopy type theory]] is for [[homotopy theory]]/[[(∞,1)-category theory]], _directed homotopy type theory_ is for [[directed homotopy theory]]/[[(∞,n)-category]] [[higher category theory|theory]].
+
+## References
+
+* [[Robert Harper]], [[Dan Licata]], _Canonicity for 2-Dimensional Type Theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/lh112tt/lh112tt.pdf))
+
+* [[Robert Harper]], [[Dan Licata]], _2-Dimensional directed dependent type theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt.pdf) [slides](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt-slides.pdf))
+
+Also chapters 7 and 8 fo
+
+* [[Dan Licata]], _Dependently Typed Programming
+with Domain-Specific Logics_ PhD thesis, ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf))
+
+[[!redirects directed homotopy type theories]]
