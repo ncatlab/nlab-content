@@ -46,6 +46,22 @@ then so are $C/X$ and $X/C$.
 
 The proofs are in ([OvMod](#OvMod)).
 
++-- {: .num_cor #ModelStructureInheritsCombinatorial}
+###### Proposition
+
+If $C$ is a [[combinatorial model category]], then so is $C/X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [basic properties](http://ncatlab.org/nlab/show/locally+presentable+category#Properties) of [[locally presentable categories]] they are stable under slicing. Hence with $C$ locally presentable also $C/X$ is, 
+and by prop. \ref{ModelStructureInheritsGoodProperties} with $C$ cofibrantly
+generated also $C/X$ is. 
+
+=--
+
 +-- {: .num_prop #PresentationOfSliceInfinityCat}
 ###### Proposition
 
