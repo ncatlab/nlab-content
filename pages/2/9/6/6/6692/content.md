@@ -9,7 +9,7 @@ Let X be a smooth algebraic variety over a field K containing the real numbers. 
 [survey](http://arxiv.org/abs/0801.3233)
 
 
-### 2. Nonabelian Multiplicative Integration on Surfaces ###
+### 2. Nonabelian Multiplicative Integration on Surfaces ### 
 
 We construct a 2-dimensional twisted nonabelian multiplicative
 integral. This is done in the context of a Lie crossed module
@@ -34,13 +34,13 @@ exponential map; piecewise smooth geometry of polyhedra; and
 some basic algebraic topology.
 
 The motivation for this work comes from twisted deformation
-quantization. In the paper [Ye2] we encountered a problem of
+quantization. In the paper (no. 1 above) we encountered a problem of
 gluing nonabelian gerbes, where the input was certain data in
 differential graded algebras. The 2-dimensional multiplicative
 integral gives rise, in that situation, to a nonabelian
 2-cochain; and the 3-dimensional Stokes Theorem shows that
 this cochain is a twisted 2-cocycle.
-(This was superseded by a simpler approach; see below.)
+(This was superseded by a simpler approach; see no. 3 below.)
 
 
 [eprint](http://arxiv.org/abs/1007.1250)
