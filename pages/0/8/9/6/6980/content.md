@@ -7,7 +7,7 @@
 
 ### In type theory
 
-In [[type theory]] a [[proposition]] is identitfied with the [[type]] of all its proofs ("[[propositions as types]]".) Here a proof consists of exhibiting a [[term]] of the corresponding type (showing that it is [[inhabited]]).
+In [[type theory]] a [[proposition]] is identitfied with the [[type]] of all its proofs ("[[propositions as types]]".) Here a proof consists of exhibiting a [[term]] of the corresponding type (showing that it is [[inhabited]]). See also _[[proofs as programs]]_.
 
 
 
