@@ -81,11 +81,11 @@ Let us say (without making any assertion that this is good or permanent terminol
 
 This is intended to complete the table of analogies:
 
-|some                   |all                |
-|-----------------------|-------------------|
-|regular category       |exact category     |
-|coherent category      |pretopos           |
-|pre-lextensive category|lextensive category|
+|some                       |all                    |
+|---------------------------|-----------------------|
+|[[regular category]]       |[[exact category]]     |
+|[[coherent category]]      |[[pretopos]]           |
+|pre-lextensive category    |lextensive category    |
 
 Regular/exact categories have quotients of (some) [[congruences]].  Exact categories have quotients of all congruences, while regular ones have quotients only of congruences that are [[kernel pairs]].  Another way to say that is that in a regular category, you can conclude that the quotient of some congruence exists if you can exhibit another object of which the quotient would be a [[subobject]] if it existed.  Similarly, pre-/lextensive categories have [[disjoint unions]].  Lextensive categories have all disjoint unions (= [[coproducts]]), while in a pre-lextensive category you can conclude that a pair of objects $X,Y$ have a disjoint union if you can exhibit another object in which $X$ and $Y$ can be embedded disjointly.  Finally, coherent categories/pretoposes have both quotients and
 disjoint unions, or equivalently quotients and not-necessarily-disjoint unions, with the same sort of relationship between the two.
