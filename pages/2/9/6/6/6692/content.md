@@ -63,4 +63,5 @@ classes of descent data. This result is used to construct the twisted quantizati
 
 
 [[!redirects amnon yekutieli]]
+[[!redirects A. Yekutieli]]
 category: people
