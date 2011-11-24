@@ -1,4 +1,6 @@
 
+**[[propositions as types]]**
+
  [[logic]]                      |   [[type theory]]
 --------------------------------|------------------------------
  [[true]]                       |   [[unit type]]
