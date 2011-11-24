@@ -50,6 +50,11 @@ The [[HoTT]]-[[Coq]] code is at
 
 * _[HoTT/Coq/UnivalenceAxiom.v](https://github.com/HoTT/HoTT/blob/master/Coq/UnivalenceAxiom.v)_
 
+A guided walk through the formal proof that univalence implies functional extensionality is at
+
+* [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
+
+
 For more references see _[[homotopy type theory]]_.
 
 
