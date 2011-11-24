@@ -286,9 +286,11 @@ In both the space is the rectangle with two smaller rectangles removed.  The pos
 ###Problem
 The first problem is to find a small model of such structures.  The [[fundamental category]] would be a model, but unlike with the [[fundamental groupoid]] in the non-directed case, it is not sufficient to take a 'base point' in each connected component.  That would ignore the order.
 
+## Related concepts
 
+* [[directed homotopy type theory]]
 
-##References and (a little) Discussion##
+##References
 
 (See also under [[directed space]].)
 
