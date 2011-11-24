@@ -30,7 +30,7 @@
 _Homotopy type theory_ is [[intensional type theory|intensional]] ([[Martin-Löf type theory|Martin-Löf]]-)[[dependent type theory]]  equipped with the [[univalence axiom]]. 
 
 Its [[semantics]] interprets [[types]] not as [[sets]] but as [[homotopy types]]/[[∞-groupoids]].
-Where [[extensional type theory]] is the [[internal language]] of [[locally cartesian closed categories]], [[intensional type theory]] with the [[identity types]] that it provides behaves and supplemented by univalence behaves like the [[internal language of an (∞,1)-topos]]. 
+Where [[extensional type theory]] is the [[internal language]] of [[locally cartesian closed categories]], [[intensional type theory]] with the [[identity types]] that it provides and supplemented by univalence behaves like the [[internal language of an (∞,1)-topos]]. 
 
 Some details are still being worked out, but the impression is that homotopy type theory thus should serve as a [[foundation]] for [[mathematics]] that is natively about [[homotopy theory]]/[[(∞,1)-category theory]].
 
