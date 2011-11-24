@@ -7,8 +7,7 @@
 
 In a [discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) with [[Vaughan Pratt]] on the categories mailing list, [[Peter Freyd]] gave a very sharp description of the commonalities and differences between [[abelian categories]] and [[topos]]es (or, in the first place, between abelian categories and [[pretopos]]es), by introducing a finitely axiomatized theory of "AT categories". As it turns out, this theory embodies the commonalities with such precision that every AT category splits as a [[product]] of an [[abelian category]] and a [[pretopos]]. 
 
-Remarkably, the properties in common are basically exactness conditions, and the sharp dichotomy between abelian categories and pretoposes can be concentrated solely in the behavior of the initial object. We have taken the liberty of slightly reformulating some of Freyd's axioms. 
-
+Remarkably, the properties in common are basically exactness conditions, and the sharp dichotomy between abelian categories and pretoposes can be concentrated solely in the behavior of the initial object. 
 
 ## Definition
 
@@ -43,27 +42,27 @@ A category meeting the baseline assumptions above is an **AT category** if the f
 
 1. The category is an effective [[regular category]]. ("Yes this can be stated as universal Horn conditions on pullbacks and the special pushouts mentioned above.")
 
-2. The arrow $0 \to 1$ is monic. ("Note that it follows that all maps from $0$ are monic.")
+1. The arrow $0 \to 1$ is monic. ("Note that it follows that all maps from $0$ are monic.")
 
-3. If $i\colon A \to C$ is monic, then any pushout square 
+1. If $i\colon A \to C$ is monic, then any pushout square 
 $$\array{
 A & \stackrel{i}{\to} & C \\
 \downarrow & & \downarrow \\
-B & \to & D
+B & \stackrel{j}{\to} & D
 }$$
-is also a pullback. A square that is simultaneously a pushout and a pullback will be called a "dolittle square". 
+is also a pullback, and $j$ is monic. 
 
-4. The functor $0 \times -$ preserves pushouts of kernel pairs, and pushouts of pairs of arrows one of which is monic. 
+1. The functor $0 \times -$ preserves pushouts of kernel pairs, and pushouts of pairs of arrows one of which is monic. 
 
-5. If $f\colon B \to 0 \times C$ is epic and
+1. If $f\colon B \to 0 \times C$ is epic and
 $$\array{
 A & \to & B \\
 \downarrow & & \downarrow f \\
 0 & \to & 0 \times C
 }$$
-is a pullback, then it's a dolittle square.
+is a pullback, then it's also a pushout. 
 
-6. Pushouts of pairs of morphisms, one of which is monic, are universal (i.e., stable under pullback).  
+1. In the full subcategory of type T objects, pushouts of pairs of morphisms, one of which is monic, are universal (i.e., stable under pullback). 
 
 +-- {: .query}
 Something has gone wrong in the modification of Freyd's axioms. This last condition never holds in a non-trivial abelian category. Consider the pushout
@@ -73,9 +72,11 @@ $$\array{
 A & \to & A+A
 }$$
 and now pullback along the diagonal $A\to A+A$.
+
+[[Todd Trimble]]: Thanks Steve; of course you're right. I have made the necessary adjustments (really, just following Freyd), and I hope everything is now fixed. You can click on "See Changes" to see what I did. 
 =--
 
-7. Define a functor $T$ by the pushout diagram 
+1. Define a functor $T$ by the pushout diagram 
 $$\array{
 0 \times X & \stackrel{\pi_1}{\to} & 0 \\
 \pi_2 \downarrow & & \downarrow \\
@@ -83,7 +84,7 @@ X & \to & T X
 }$$
 Then $T$ preserves pullbacks. 
 
-8. Given a morphism $f\colon X \to Y$, if $T f$ and $0 \times f$ are isomorphisms, then so is $f$. 
+1. Given a morphism $f\colon X \to Y$, if $T f$ and $0 \times f$ are isomorphisms, then so is $f$. 
 
 This is the basic list of exactness assumptions which permit a sharp comparison between pretoposes and abelian categories. From this list alone one can prove that every AT category embeds faithfully in a product of a pretopos and an abelian category. To show that every AT category is _equivalent_ to such a product, Freyd appends the following axiom involving an existential Horn condition: 
 
@@ -127,23 +128,8 @@ Coproducts are disjoint.
 
 +-- {: .proof}
 ###### Proof
-First observe that the pullback of the two coprojections is initial, as is obvious from axiom 3. 
-
-Now consider the pushout diagram 
-$$\array{
-0 & \to & Y \\
-\downarrow & & \downarrow i_Y \\
-X & \underset{i_X}{\to} & X + Y
-}$$
-We must prove that $i_X$, $i_Y$ are monic. It suffices to verify that on pulling back this diagram along $i_X$, that the pullback map $i_{X}^*(i_X)$ is an isomorphism (and similarly that $i_{Y}^*(i_Y)$ is an iso). We have just observed that $i_{X}^* Y$ is initial, and since $0 \to Y$ is monic and pulling back preserves monos, the map $i_{X}^*(0 \to Y)$ is monic (and therefore an isomorphism since monos to the initial object are isos in any category). Hence the pulled back diagram takes the form 
-$$\array{
-0 & \to & 0 \\
-\downarrow & & \downarrow \\
-i_{X}^* X & \underset{i_{X}^*(i_X)}{\to} & X
-}$$
-but this is a pushout diagram by axiom 6. It follows that the bottom map is an iso, as desired.
+By axiom 3, the two coprojections $i_X \colon X \to X + Y$, $i_Y \colon Y \to X + Y$ are monic, and their pullback is initial. 
 =-- 
-
 
 ## Category of type A objects is abelian
 
@@ -255,7 +241,7 @@ The full subcategory of objects of type T is a pretopos.
 
 +-- {: .proof}
 ###### Proof
-The previous proposition gives finite completeness, coproducts, and quotients of kernel pairs. One of the AT axioms is that a pushout along a mono is stable under pullback, and the initial object is stable under pullback in the category of T objects, because it is strict there. It follows that coproducts are universal in the category of T objects. They are also disjoint by an earlier result, so the category of T objects is extensive. It is also effective regular by axiom 1, hence a pretopos. 
+The previous proposition gives finite completeness, coproducts, and quotients of kernel pairs. One of the AT axioms is that in the full subcategory of $T$ objects, pushouts along monos are stable under pullback, and the initial object is stable under pullback in the category of T objects, because it is strict there. It follows that coproducts are universal in the category of T objects. They are also disjoint by an earlier result, so the category of T objects is extensive. It is also effective regular by axiom 1, hence a pretopos. 
 =-- 
 
 
