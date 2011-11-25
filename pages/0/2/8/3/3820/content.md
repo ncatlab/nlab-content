@@ -398,6 +398,8 @@ _Multisymplectic structures and the variational bicomplex_
 [doi](http://dx.doi.org/10.1017/S0305004109990259)
  {#BridgesHydonLawson}
 
+* Forger, M. and Romero, S. V. _Covariant poisson brackets in geometric field theory._ Communications in Mathematical Physics  256, 375-410. ([doi](http://dx.doi.org/10.1007/s00220-005-1287-8))
+
 ### Original articles on covariant phase space technology
 
 In the following we give a commented list of references following the hostorical development.
