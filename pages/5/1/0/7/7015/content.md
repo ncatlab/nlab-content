@@ -1,0 +1,3 @@
+Lax equation is used in [[integrable system]]s. 
+
+[[!redirects Lax equations]]
