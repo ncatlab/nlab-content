@@ -48,52 +48,59 @@ This forms the basis of  the _Univalent Foundations_ program ([Voevodsky](#Voevo
 
 See the [code page](http://homotopytypetheory.org/coq/) at the [HoTT site](#HoTTSite) for more.
 
-### Dictionary to homotopy theory
+## Dictionary HoTT-Coq / $(\infty,1)$-Category theory
  {#DictionaryToCoq}
 
 The following list displays some keywords defined in the [[Coq]]-implementation of homotopy type theory together with their meaning in the [[homotopy theory]]/[[(∞,1)-category theory]] that they describe.
 
-> Under construction. Needs to be scrutinized. Meanwhile, handle with care.
+Let $C$ be a given ambient [[(∞,1)-category]] which
 
-Let $C$ be a given ambient [[(∞,1)-category]] which 
+* is [[locally cartesian closed (∞,1)-category|locally cartesian closed]];
 
-* has [[(∞,1)-pullback]]s and [[(∞,1)-pushout]]s, 
 
-  * hence has a [[terminal object in an (∞,1)-category|terminal object]];
+* in addition has [[(∞,1)-colimits]]. 
 
-* is [[cartesian closed (∞,1)-category|cartesian closed]].
-
-Possibly an [[(∞,1)-topos]].
+For instance $C$ could be an [[(∞,1)-topos]] (in which case the homotopy type theory would be the [[internal language of an (∞,1)-topos]]).
  
-Then
+While Coq-HoTT is supposed to be the internal language for such $C$, the _strict [[models]]_ for it are actually [[homotopical category|homotopical]] [[1-categories]] equipped with extra structure that make them serve as [[presentable (infinity,1)-categories|presentations]] for $C$. These strict models take place in [[categories of fibrant objects]].
+
+We then have the following dictionary.
+
+The [[type]] [[Type]] of types
 
     Type
 
-denotes $Core(C)$, the [[core]] of $C$, hence the maximal [[∞-groupoid]] inside $C$. Or more precisely, a [[(sub)object classifier in an (infinity,1)-topos|object classifier]].
+denotes an [[object classifier]] in $C$ for a certain size of [[universe]]. The [[Coq]] system automatically performs [[universe enlargement]] as necessary.
+
+A [[term]] of [[type]] Type
 
     X : Type
 
 denotes an [[object]] in the $(\infty,1)$-category $C$; equivalently an [[(∞,1)-functor]] $X : * \to C$.
 
+The [[unit type]]
+
     unit : Type
 
 is the [[terminal object in an (∞,1)-category|terminal object]].
 
-For $X, Y \in C$ two objects
+For $X, Y \in C$ two objects, the [[function type]]
 
     X -> Y : Type
 
-denotes the [[internal hom]] $[X,Y] \in C$ (a formal proof of that is [here](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/AdjunctionProdHom.v)).
+denotes the [[internal hom]] $[X,Y] \in C$ (a formal proof of that fact is [here](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/AdjunctionProdHom.v)).
+
+A [[dependent type]]
 
     P (x : X) : Type
 
-denotes a [[bundle]] $P \to X$ in $C$, called a _$X$-[[dependent type]]_. In a [[presentable (∞,1)-category|presentation]] of $C$ by a [[category of fibrant objects]] it denotes a [[fibration]] $P \to X$.
+denotes a [[bundle]] $P \to X$ in $C$, called. In a [[presentable (∞,1)-category|presentation]] of $C$ by a [[category of fibrant objects]] it denotes a [[fibration]] $P \to X$.
 
     P : X -> Type
 
-denotes the corresponding classifying map, via something like the [[(∞,1)-Grothendieck construction]].
+denotes the corresponding classifying map, via an internal [[(∞,1)-Grothendieck construction]].
 
-The total space object $P$ of this bundle (the _[[dependent sum]]_ of the bundle) is the type equivalently coded as
+The total space object $P$ of this bundle -- the _[[dependent sum type]]_ -- is the type equivalently coded as
 
     { x : X  & P x} : Type
 
@@ -128,25 +135,58 @@ $$
   \,.
 $$
 
-    a ~~> b
+The [[identity type]]
+
+    paths X : X -> X -> Type
 
 or
 
-    Id (a b : X) : Type
+    Id (x y : X) : Type
 
-for $a,b$ of type $X$ denotes the [[path space object]] from $a$ to $b$ in $X$, hence the [[homotopy pullback]] of the form
+corresponds in a [[presentable (infinity,1)-category|presentation]] of $C$ by a [[category of fibrant objects]] to the [[path space object]] $X^I$. The fact that there is a [[weak equivalence]] $X \stackrel{\simeq}{\to} X^I$ given by the inclusion of [[identity]] [[morphisms]] is reflected in the [[inductive type]]-definition of <code>paths</code>, which says that any proposition about terms in the path type is already fixed by its value on all identity paths.
+
+Then for <code>x y : X</code> two [[terms]], the type (also called the [[identity type]]) denoted
+
+    paths X x y : Type
+
+or
+
+    x ~~> y : Type
+
+or
+  
+    x == y : Type
+
+denotes the [[homotopy pullback]] of the form
 
 $$
   \array{
-    a \times_X b &\to& {*}
+    x \times_X y &\to& {*}
     \\
-    \downarrow && \downarrow^{\mathrlap{a}}
+    \downarrow && \downarrow^{\mathrlap{x}}
     \\
-    {*} &\stackrel{b}{\to}&  X
+    {*} &\stackrel{y}{\to}&  X
+  }
+$$
+
+which in a presentation by a [[category of fibrant objects]] is given (see [[factorization lemma]]) by the ordinary pullback
+
+$$
+  \array{
+    P_{x,y} X &\to& &\to& {*}
+    \\
+    \downarrow && && \downarrow^{\mathrlap{x}}
+    \\
+    \downarrow && X^{\Delta[1]} &\to& X
+    \\  
+    \downarrow && \downarrow
+    \\
+    {*} &\stackrel{y}{\to}& X
   }
   \,.
 $$
 
+Beware that the [[identity type|path induction rule]] applies to <code>paths X</code> not to <code>paths X x y</code>. Where for the former a proposition is fixed by what it does on identity paths, for the latter this is not the case anymore.
 
 More generally, we can define arbitrary pullbacks. If `f : A -> C` and `g : B -> C`, the [[homotopy pullback]] of `f` and `g` is defined by
 
