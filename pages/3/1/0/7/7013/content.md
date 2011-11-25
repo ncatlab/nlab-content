@@ -15,19 +15,19 @@
 
 ## Definition
 
-An [[(∞,1)-category]] $C$ has [[finite limit]] [[(∞,1)-limits]] if it has a [[terminal object in a quasi-category|terminal object]] and the [[over-(∞,1)-category]] $C_{/x}$ has finite [[products]] for every [[object]] $x \in X$. 
+An [[(∞,1)-category]] $C$ has [[finite limit|finite]] [[(∞,1)-limits]] if it has a [[terminal object in a quasi-category|terminal object]] and for every [[object]] $x \in X$, the [[over-(∞,1)-category]] $C_{/x}$ has finite [[products]]. 
 
-An $(\infty,1)$-category $C$ with finite limits is **locally cartesian closed** if moreover $C_{/x}$ a [[cartesian closed (∞,1)-category]] for every object $x$.
+We say that such a $C$ is **locally cartesian closed** if moreover $C_{/x}$ is a [[cartesian closed (∞,1)-category]] for every object $x$.
 
 ## Examples
 
-* Every [[(∞,1)-topos]] is locally cartesian closed.
+* Every (Grothendieck) [[(∞,1)-topos]] is locally cartesian closed.  This follows from the [[universal colimit|universality of colimits]] and the [[adjoint functor theorem]].
 
 ## Properties
 
 ### Internal logic
 
-The [[internal logic]] of locally cartesian closed $(\infty,1)$-categories is conjectured ([Joyal2011](#Joyal)) to be precisely [[homotopy type theory]].
+The [[internal logic]] of locally cartesian closed $(\infty,1)$-categories is conjectured ([Joyal2011](#Joyal)) to be a sort of [[homotopy type theory]] (specifically, that with intensional [[identity types]] and [[dependent products]]).
 
 See also [[internal logic of an (∞,1)-topos]].
 
@@ -41,3 +41,5 @@ See also [[internal logic of an (∞,1)-topos]].
  {#Joyal}
 
 [[!redirects locally cartesian closed (∞,1)-category]]
+[[!redirects locally cartesian closed (infinity,1)-categories]]
+[[!redirects locally cartesian closed (∞,1)-categories]]
