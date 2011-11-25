@@ -37,6 +37,8 @@ These can be understood to some extent using higher categories.  For example, to
 
 ## Related concepts
 
+* [[identity type]]
+
 * [[equality]]
 
 * [[isomorphism]]
