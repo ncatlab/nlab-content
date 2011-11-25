@@ -10,3 +10,4 @@
  [[implication]]                |   [[function type]]
  [[universal quantification]]   |   [[dependent product type]]      
  [[existential quantification]] |   [[dependent sum type]]
+ [[equivalence]]                |   [[identity type]]
