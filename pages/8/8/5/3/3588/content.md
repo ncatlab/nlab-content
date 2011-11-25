@@ -1,32 +1,29 @@
-**[[type theory]]** ([[extensional type theory|extensional]], [[intensional type theory|intensional]])
 
-# Basic notions
+**[[type theory]]** ([[dependent type theory|dependent]], [[extensional type theory|extensional]], [[intensional type theory]])
+
+**[[syntax]]**
 
 * [[theory]]
 
-  * [[signature (in logic)]], [[type]], [[context]], [[predicate]], [[axiom]], [[proof]]
-
-# Notions of type
-
-[[!include notions of type]]
-
-# Types
+  * [[signature (in logic)|signature]], [[type]], [[context]], [[axiom]], [[proposition]], [[proof]]
 
 [[!include types and logic - table]]
 
-# Variants
+**[[homotopy levels]]**
 
-* [[type theory]], [[internal logic]]
+* [[type theory]] 
 
 * [[2-type theory]], [[michaelshulman:2-categorical logic]]
 
-* [[homotopy type theory]], [[internal logic of an (∞,1)-topos]]
+* [[homotopy type theory]], 
+
+  * [[homotopy type]]
+
+  * [[univalence]], [[function extensionality]], [[internal logic of an (∞,1)-topos]]
 
 * [[directed homotopy type theory]]
 
-# Models
-
-* [[display map]]
+**[[semantics]]**
 
 * [[internal logic]], [[categorical semantics]]
 
@@ -38,5 +35,6 @@
 
 * [[internal logic of an (∞,1)-topos]]
 
+  * [[display map]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/type+theory+-+contents)</div>
