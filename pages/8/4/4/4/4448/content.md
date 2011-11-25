@@ -15,6 +15,42 @@ given a category $\mathcal{T}$ and a [[functor]] $F: \mathcal{T} \to Set$, the A
 
 So the Freyd cover is the special case $F = \mathcal{T} (1, -)$.
 
+## Application 
+
+One of the first applications of the Freyd cover was to deduce facts about the initial topos (initial with respect to [[logical morphism|logical morphisms]]). They were originally proved by syntactic means; the conceptual proofs of the lemma and theorem below are due to Freyd. 
+
++-- {: .un_lem}
+###### Lemma 
+For any category $E$ with a terminal object $\mathbf{1}$, the terminal object of the Freyd cover $\widehat{C}$ is connected and projective, i.e., the representable $\Gamma = \widehat{C}(1, -) \colon \widehat{C} \to Set$ preserves any colimits that exist. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+To check that $\Gamma^{op} \colon \widehat{C}^{op} \to Set^{op}$ preserves limits, it suffices to check that the composite 
+
+$$\widehat{C}^{op} \stackrel{\Gamma^{op}}{\to} Set^{op} \stackrel{2^-}{\to} Set$$ 
+
+preserves limits, because the contravariant power set functor $P = 2^-$ is monadic. But it is easily checked that this composite is the contravariant representable given by $(2, \mathbf{1}, 2 \to \Gamma(\mathbf{1}))$. 
+=-- 
+
++-- {: .un_thm}
+###### Theorem 
+The terminal object in the initial topos $\mathcal{T}$ is connected and projective, i.e., $\Gamma = \hom(1, -) \colon \mathcal{T} \to Set$ preserves finite colimits. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+We divide the argument into three segments: 
+
+* The hom-functor preserves finite limits, so by general properties of Artin gluing, the Freyd cover $\widehat{\mathcal{T}}$ is also a topos. Observe that $\mathcal{T}$ is equivalent to the slice $\widehat{\mathcal{T}}/M$ where $M$ is the object $(\emptyset, \mathbf{1}, \emptyset \to \Gamma(\mathbf{1}))$. Since pulling back to a slice is a logical functor, we have a logical functor 
+$$\pi \colon \widehat{\mathcal{T}} \to \mathcal{T}$$ 
+Since $\mathcal{T}$ is initial, $\pi$ is a retraction for the unique logical functor $i \colon \mathcal{T} \to \widehat{\mathcal{T}}$. 
+
+* We have maps $\mathcal{T}(1, -) \to \widehat{\mathcal{T}}(i 1, i-) \cong \widehat{\mathcal{T}}(1, i-)$ (the isomorphism comes from $i 1 \cong 1$, which is clear since $i$ is logical), and $\widehat{\mathcal{T}}(1, i-) \to \mathcal{T}(\pi 1, \pi i-) \cong \mathcal{T}(1, -)$ since $\pi$ is logical and retracts $i$. Their composite must be the identity on $\mathcal{T}(1, -)$, because there is only one such endomorphism, using the Yoneda lemma and terminality of $1$. 
+
+Finally, since $\mathcal{T}(1, -)$ is a retract of a functor $\widehat{\mathcal{T}}(1, i-)$ that preserves finite colimits (by the lemma, and the fact that the logical functor $i$ preserves finite colimits), it must also preserve finite colimits. 
+=--
+
 ## References
 
 You can find more on Artin gluing in this important (and nice) paper:
