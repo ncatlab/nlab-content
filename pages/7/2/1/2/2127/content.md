@@ -24,7 +24,7 @@ Here, $X$ is called $\kappa$-compact if the [[representable functor|corepresenta
 
 ## Details ##
 
-We unwrap the definition further. Let $J$ be a $\kappa$-filtered [[poset]], i.e. one in wich every sub-poset $J' \subset J$ of cardinality $|J'| \lt \kappa$ has an upper bound in $J$.
+We unwrap the definition further. Let $J$ be a $\kappa$-filtered [[poset]], i.e. one in which every sub-poset $J' \subset J$ of cardinality $|J'| \lt \kappa$ has an upper bound in $J$.
 
 Let $C$ be a category and $F : J \to C$ a diagram, called a $\kappa$-filtered diagram. Let $X \in C$ be any [[object]].
 
