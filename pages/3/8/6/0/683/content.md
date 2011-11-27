@@ -53,7 +53,7 @@ One of the central theorems of the subject is that in good cases, the two give e
 
 Let $C$ be a [[category with weak equivalences]] and let $D$ be a (small) [[diagram]] category.  Make the [[functor category]] $[D,C]$ into a category with weak equivalences by taking the weak equivalences to be those [[natural transformation]]s which are objectwise weak equivalences in $C$.
 
-The ordinary [[limit]] and [[colimit]] operations over $D$-diagrams are (as described there) the left and right [[adjoint functor|adjoints]] of the functor $const : C \to [D,C]$, or equivalently left and right [[Kan extension]] along the unique functor $!\colon C\to *$ to the terminal category.
+The ordinary [[limit]] and [[colimit]] operations over $D$-diagrams are (as described there) the right and left [[adjoint functor|adjoints]] of the functor $const : C \to [D,C]$, or equivalently left and right [[Kan extension]] along the unique functor $!\colon C\to *$ to the terminal category.
 
 $$
   [D,C]
@@ -476,6 +476,7 @@ The dual version of this statement (for homotopy limits and homotopy pullbacks) 
  
 
 ### Homotopy pullbacks {#HomotopyPullbacks}
+
 
 Here we consider special cases of [[homotopy pullback]] in more detail.
 
