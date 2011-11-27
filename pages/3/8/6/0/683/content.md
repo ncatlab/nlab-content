@@ -1055,7 +1055,7 @@ Other references are
 
 * Andre Hirschowitz, [[Carlos Simpson]], [Descent pour les n-champs](http://arxiv.org/abs/math.AG/9807049).  Probably there is some good stuff in here about homotopy limits and limits in $(\infty,n)$-categories.
 
-*MathOverflow [universal-problem-that-motivates-the-definition-of-homotopy-limits](http://mathoverflow.net/questions/38047/what-is-the-universal-problem-that-motivates-the-definition-of-homotopy-limits)
+* MathOverflow question: [universal-problem-that-motivates-the-definition-of-homotopy-limits](http://mathoverflow.net/questions/38047/what-is-the-universal-problem-that-motivates-the-definition-of-homotopy-limits)
 
 ### In homotopy type theory
 
