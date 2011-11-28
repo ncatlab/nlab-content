@@ -360,3 +360,6 @@ Sullivan algebras and minimal algebras appear in def 1.10
 
 [[!redirects minimal Sullivan model]]
 [[!redirects minimal Sullivan models]]
+
+[[!redirects minimal model]]
+[[!redirects minimal models]]
