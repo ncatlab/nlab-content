@@ -50,6 +50,8 @@
 
   * [[A-∞ ring]], [[A-∞ space]]
 
+* [[C-∞ algebra]] 
+
 * [[E-∞ algebra]] 
 
   * [[E-∞ ring]]
