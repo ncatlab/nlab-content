@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _$C^\infty$-algebra_ is a [[commutative ring]] where the commutativity is relaxed up to [[coherence|coherent]] higher [[homotopy]].
+
+## Related concepts
+
+* [[A-∞ algebra]]
+
+* [[E-∞ algebra]]
+
+* [[L-∞ algebra]]
+
+Warning: no direct relation to _[[C-∞ ring]]_ (unfortunately a slight terminology clash).
+
+[[!redirects C-∞ algebra]]
