@@ -418,7 +418,26 @@ The generalization of this construction to non-torsion twists requires using [[v
 
 There the twisted cocycle equation discussed above appears on the bottom of page 7.
 
+### As 2-sections of 2-bundles
+ {#ReferencesAsSectionsOf2Bundles}
 
+The observation that twisted vector bundles may be understood as higher-order [[sections]] of [[2-vector bundle]]s associated with [[circle n-bundle with connection|circle 2-bundles]]/[[bundle gerbes]] appears in
+
+* [[Urs Schreiber]], _Quantum 2-States: Sections of 2-vector bundles_ Talk at _Higher categories and their applications_, Fields institute (2007) ([[Schreiber2States.pdf:file]]).
+
+A discussion of this with [[connection on a bundle|2-connections]] taken into account is in section 4.4.3 of 
+
+* [[Urs Schreiber]], [[Konrad Waldorf]], _Connections on non-abelian Gerbes and their Holonomy_ ([arXiv:0808.1923
+](http://arxiv.org/abs/0808.1923))
+
+A discussion in the context of [[principal infinity-bundles]] (as opposed to higher vector bundles), is in section "2.3.5 Twisted cohomology and sections" and then in section  "3.3.7.2 Twisted 1-bundles -- twisted K-theory"
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_.
+
+
+The observation then reappaears independently in 
+
+* [[Chris Rogers]], ...
 
 
 [[!redirects twisted bundles]]
