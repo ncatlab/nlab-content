@@ -189,3 +189,5 @@ In particular there is a natural injection $(\#V)\otimes (\#W) \to \#(V\otimes W
 
 [[!redirects graded module]]
 [[!redirects graded object]]
+
+[[!redirects graded vector spaces]]
