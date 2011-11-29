@@ -37,14 +37,32 @@ This is naturally also a [[smooth manifold]] of [[dimension]] $n$, with the [[sm
 ### Infinite dimensional spheres ###
 
 One can also talk about a sphere in an arbitrary (possibly infinite-dimensional) [[normed vector space]] $V$:
-$$ S(V) = \{ x: V \;\text{such that}\; \|x\| = 1 \} .$$
+$$ S(V) = \{ x: V \;\text{such that}\; {\|x\|} = 1 \} .$$
 
 If a [[LCTVS|locally convex topological vector space]] admits a continuous linear injection into a [[normed vector space]], this can be used to define its sphere.  If not, one can still define the sphere as a *quotient* of the space of non-zero vectors under the scalar action of $(0,\infty)$.
 
 Homotopy theorists define $S^\infty$ to be the sphere in the (incomplete) [[normed vector space]] (traditionally with the $l^2$ norm) of infinite [[sequence]]s almost all of whose values are $0$, which is the [[directed colimit]] of the $S^n$:
 $$ S^{-1} \hookrightarrow S^0 \hookrightarrow S^1 \hookrightarrow S^2 \hookrightarrow \cdots S^\infty .$$
-In themselves, these provide nothing new to [[homotopy theory]], as they are [[contractible space|contractible]].  However, they are a very useful source of big contractible spaces and so are often used as a starting point for making concrete models of [[classifying spaces]].  (See [Usenet discussion](http://www.math.niu.edu/~rusin/known-math/93_back/s-infty).)
+In themselves, these provide nothing new to [[homotopy theory]], as they are at least weakly contractible and usually [[contractible space|contractible]].  However, they are a very useful source of big contractible spaces and so are often used as a starting point for making concrete models of [[classifying spaces]].
 
+If the vector space is a [[shift space]], then contractibility is straightforward to prove.
+
++-- {: .num_theorem #thctr}
+###### Theorem
+Let $V$ be a [[shift space]] of some order.  Let $S V$ be its sphere (either via a norm or as the quotient of non-zero vectors).  Then $S V$ is contractible.
+=--
+
++-- {: .proof}
+###### Proof
+Let $T \colon V \to V$ be a [[shift map]].  The idea is to homotop the sphere onto the image of $T$, and then down to a point.
+
+It is simplest to start with the non-zero vectors, $V \setminus \{0\}$.  As $T$ is injective, it restricts to a map from this space to itself which commutes with the scalar action of $(0,\infty)$.  Define a homotopy $H \colon [0,1] \times (V \setminus
+ \{0\}) \to V \setminus \{0\}$ by $H_t(v) = (1 - t)v + t T v$.  It is clear that, assuming it is well-defined, it is a homotopy from the identity to $T$.  To see that it is well-defined, we need to show that $H_t(v)$ is never zero.  The only place where it could be zero would be on an eigenvector of $T$, but as $T$ is a [[shift map]] then it has none.
+
+As $T$ is a [[shift map]], it is not surjective and so we can pick some $v_0$ not in its image.  Then we define a homotopy $G \colon [0,1] \times (V \setminus \{0\}) \to V \setminus \{0\}$ by $G_t(v) = (1 - t)T v + t v_0$.  As $v_0$ is not in the image of $T$, this is well-defined on $V \setminus \{0\}$.  Combining these two homotopies results in the desired contraction of $V \setminus \{0\}$.
+
+If $V$ admits a suitable function defining a spherical subset (such as a norm) then we can modify the above to a contraction of the spherical subset simply by dividing out by this function.  If not, as the homotopies above all commute with the scalar action of $(0,\infty)$, they descend to the definition of the sphere as the quotient of $V \setminus \{0\}$.
+=--
 
 
 ## Properties
