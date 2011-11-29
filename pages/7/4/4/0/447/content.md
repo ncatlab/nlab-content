@@ -88,7 +88,7 @@ Every [[cohesive (∞,1)-topos]] $\mathbf{H}$ (in fact every [[locally ∞-conne
 The general abstract definition is at [[cohesive (∞,1)-topos]] in the section 
 <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos%20--%20structures#Homotopy">Geometric homotopy</a>.
 
-For the choicde $\mathbf{H} = $ [[∞Grpd]] this reproduces the [geometric realization of simplicial sets](#OfSimplicialSets), see at [[discrete ∞-groupoid]] the section <a href=""></a>
+For the choice $\mathbf{H} = $ [[∞Grpd]] this reproduces the [geometric realization of simplicial sets](#OfSimplicialSets), see at [[discrete ∞-groupoid]] the section <a href=""></a>
 
 For the choice $\mathbf{H} = $  [[ETop∞Grpd]] and [[Smooth∞Grpd]] this reproduces [geometric realization of simplicial topological spaces](#OfSimplicialTopologicalSpaces). See the sections <a href="http://nlab.mathforge.org/nlab/show/Euclidean-topological+infinity-groupoid#GeometricHomotopy">ETop∞Grpd -- Geometric homotopy</a> and <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#StrucGeometricHomotopy">Smooth ∞-groupoid --  Geometric homotopy</a>
 
