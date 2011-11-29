@@ -1,4 +1,3 @@
-[[!redirects homotopy levels]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,9 +9,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -21,9 +20,13 @@ In the context of [[homotopy type theory]] one speaks of **homotopy level** wher
 The traditional counting is, however, offset by two
 
  [[homotopy type theory]]  | [[(∞,1)-category theory]] |   groupoids
----------------------------|-------------------------------------------------------
+---------------------------|---------------------------|---------------------------
    hlevel 0                |   (-2)-truncated          | [[(-2)-groupoid]]
-   hlevel 1                |   (-1)-truncated          | [[(-1)-groupoid]]
+   hlevel 1                |   (-1)-truncated          | [[(-1)-groupoid]]/[[truth value]]
    hlevel 2                |   0-truncated             | [[0-groupoid]]/[[set]]
-   hlevel 3                |   1-truncated             | [[groupoid]]
+   hlevel 3                |   1-truncated             | [[1-groupoid]]/[[groupoid]]
    hlevel 4                |   2-truncated             | [[2-groupoid]]
+
+
+[[!redirects homotopy level]]
+[[!redirects homotopy levels]]
