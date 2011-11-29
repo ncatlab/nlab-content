@@ -1,5 +1,5 @@
 
+Syntax is the formal specification of a [[theory]], as opposed to [[semantics]].
 
-The formal specification of a [[theory]].
 
-As opposed to [[semantics]].
+[[!redirects syntax]]
