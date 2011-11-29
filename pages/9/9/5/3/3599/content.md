@@ -37,6 +37,8 @@ When the [[theory]] of a [[category]] is phrased in dependent type theory, there
 
 ## References
 
+* Blog post: [In praise of dependent types](http://golem.ph.utexas.edu/category/2010/03/in_praise_of_dependent_types.html)
+
 In [[Coq]]:
 
 * Yves Bertot, _Introduction to dependent types in Coq_ ([pdf](http://www-sop.inria.fr/members/Yves.Bertot/tsinghua/tsinghua-1.pdf))
