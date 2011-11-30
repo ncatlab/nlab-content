@@ -1,0 +1,75 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition in geometric quantization
+
+We consider the notion of quantum operators in the the context of [[geometric quantization]].
+
+### On a symplectic manifold
+
+Let $(X, \omega)$ be a [[symplectic manifold]], thought
+of as the [[phase space]] of a [[classical mechanics|physical system]].
+
+Let $\nabla : X \to \mathbf{B} U(1)_{conn}$ be a
+[[prequantum line bundle]] $E \to X$ [[connection on a bundle|with connection]] for $\omega$. Write $\Gamma_X(E)$ for its space of smooth [[sections]], the _prequantum space of states_.
+
+
++-- {: .num_defn}
+###### Definition
+
+For $f \in C^\infty(X, \mathbb{C})$ a function on phase space, the corresponding **quantum operator** is the linear map
+
+$$
+  \hat f : \Gamma_X(E) \to \Gamma_X(E)
+$$
+
+given by
+
+$$
+  \psi \mapsto -i \nabla_{v_f} \psi + f \cdot \psi
+  \,,
+$$
+
+where 
+
+* $v_f$ is the [[Hamiltonian vector field]]
+corresponding to $f$;
+
+* $\nabla_{v_f} : \Gamma_X(E) \to \Gamma_X(E)$ is the [[covariant derivative]] of sections along $v_f$ for the given choice of prequantum connection;
+
+* $f \cdot (-) : \Gamma_X(E) \to \Gamma_X(E)$ is the operation of degreewise multiplication pf sections.
+
+=--
+
+
+### On an $n$-plectic smooth $\infty$-groupoid
+
+(...)
+
+## Related concepts
+
+* [[Hamiltonian operator]]
+
+## References
+
+See the references at [[geometric quantization]].
+
+[[!redirects quantum operators]]
+
