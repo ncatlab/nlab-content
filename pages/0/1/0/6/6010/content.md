@@ -78,6 +78,38 @@ The case for an arbitrary $V$ is a simple adaptation of the above. As $V$ is inf
 composition $\mathbb{R} ^{(\infty )} \to V \xrightarrow{f_{j}} \mathbb{R} $ is the $j$th coordinate function.
 =--
 
+With an assumption on $V$ and a careful choice of partition of unity, we can ensure that our embedding so constructed has closed image.
+
++-- {: .num_theorem #theoremc .thplain}
+###### Theorem
+Using the notation from the proof of Theorem \ref{theorema}, we assume:
+
+1. The partition of unity chosen has compact supports,
+2. The family of functionals $\{\sum_{j \in F} f_j : {|F|} \lt \infty\}$ is [[equicontinuous]],
+3. $V$ is [[Hausdorff]],
+
+then the image of the embedding is closed in $V$.
+=--
+
++-- {: .proof}
+###### Proof
+We shall use the notation from the proof of Theorem \ref{theorema} with the additional assumption that the functions in the partition of unity have compact support in $M$.
+
+Let $(x_\lambda)$ be a net in $M$ for which $(\psi(x_\lambda))$ converges in $V$, say to $x$.
+The assumption on the functionals is there to show that $x \ne 0$.
+Let us show why this is the case.
+For a finite set $F \subseteq \mathbb{N}$, let $f_F = \sum_{j \in F} f_j$.
+The assumption of equicontinuity means that $\bigcap_F f_F^{-1}(-1,1)$ is an open neighbourhood of $0$ in $V$.
+Now for each $y \in M$, there is some finite $F \subseteq \N$ for which $\sum f_j(y) = 1$.  This is because we can choose $F$ to correspond to those terms in the partition of unity which are non-zero on $y$.
+Hence $\psi(M)$ has empty intersection with the above neighbourhood of $0$, and so no net in $\psi(M)$ can converge to $0$.
+
+Thus $x \ne 0$ and, moreover, there is some finite $F \subseteq \mathbb{N}$ for which $f_F(x) \ne 0$ and thus there is some $j \in \mathbb{N}$ for which $f_j(x) \ne 0$.  Since $(\psi(x_\lambda)) \to x$, there is therefore a cofinal subset on which $f_j$ is never zero.  Let us pass to that subnet.  Now on $M$, the functions $f_i \circ \psi$ are either the functions in the partition of unity or are dominated by them.  Hence there is some $i \in \mathbb{N}$ with the property that for all $\lambda$, $\rho_i(x_\lambda) \ne 0$ (now that we've passed to the subnet).  This means that $(x_\lambda)$ lies in the support of $\rho_i$, which is (by the first assumption) a compact subset of $M$.  It therefore has a convergent subnet with limit, say $x'$.  But by continuity of $\psi$ and uniqueness of limits in $V$, it must be the case that $\psi(x') = x$.
+
+Hence $\psi(M)$ is closed in $V$.
+=-- 
+
+Equicontinuity of the sums of the functionals follows, for example, if the infinite sum $\sum f_j$ is continuous.  This is the case for $\mathbb{R}^{(\infty)}$ and for $\ell^1$.
+
 +-- {: .num_section #sectionc }
 =--
 ### Contractibility of Embeddings ### {: .num_section}
