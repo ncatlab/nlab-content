@@ -45,6 +45,7 @@ Let $M$ be a [[smooth manifold]]. Let $V$ be an infinite dimensional locally con
 =--
 
 +-- {: .proof }
+###### Proof
 We shall start with the case $V = \mathbb{R} ^{(\infty )}$. The more general case will follow from that.
 
 As $M$ is a smooth manifold, we can choose a [[partition of unity]] $\{ \rho _{i} : i \in I\} $ on $M$ with the property that for each $\rho _{i}$, its support is contained in the domain of some chart for $M$ and the family of those domains is locally finite. Let us suppose that these charts are $\phi _{i} \colon U_{i} \to \mathbb{R} ^{n}$, where $n = \dim M$. As $M$ is second countable, this partition of unity will be countable.
@@ -89,6 +90,7 @@ Let $M$ be a smooth manifold. Let $V$ be a locally convex topological vector spa
 =--
 
 +-- {: .proof }
+###### Proof
 Recall that to have a [[shift map|split map]] on $V$ means that we have a decomposition $V \cong V \oplus V$ with a non-degeneracy property. This implies that one of the induced maps $V \to V$, called the *splitting map*, has no eigenvectors.
 
 Let $S^{+} \colon V \to V$ be a splitting map and let $S^{-}$ be the remainder. Then the map $H \colon [0,1] \colon V \to V$ given by $H(t,v) = H_{t}(v) = (1 - t) v + t S^{+} v$ is a homotopy between the identity on $V$ and $S^{+}$.
