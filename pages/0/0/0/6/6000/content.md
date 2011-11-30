@@ -11,13 +11,14 @@ $$
   \rho : G \times X \to X
 $$
 
-is _transitive_ if for every $x \in X$ the morphisms
+of a group $G$ on a set $X$ is _transitive_ 
+if for every $x \in X$ the morphisms
 
 $$
-  \rho_x : G \to G
+  \rho_x : G \to X
 $$
 
-is an [[epimorphism]].
+is an [[epimorphism]], i.e. for every two points $x,x'$ there exists $g\in G$ such that $x' = g x$. 
 
 ## Related concepts
 
