@@ -8,6 +8,7 @@ Some things I am considering trying to write about, or contribute to. (This is m
 * [projective, injective and flat Banach spaces][projective Banach space] (both in the metric and topological categories of [[Banach space]]s)
 * RKHS
 * the bidualization monad on Banach spaces
+* Richard Arens's paper using "phyla", or: where Banach algebras and SMC should have met
 * Categori(c)al basics of operator spaces
 * functorial aspects of the group von Neumann algebra construction
 * cabbages
