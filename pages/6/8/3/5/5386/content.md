@@ -24,6 +24,21 @@ The (large) $(\infty,n+1)$-category $(\infty,n)Cat$ is the collection of all (sm
 
 * [[k-morphism]]s for $k \geq 2$ are $(k-1)$-[[transfor]]s.
 
+There are various presentations for this. For general $n$ see for instance [this section](http://ncatlab.org/nlab/show/Theta-space#OfAll) at _[[Theta-space]]_. For low $n$ see the discussion at _[[(∞,1)Cat]]_ and _[[(∞,2)Cat]]_.
+
+Often it is useful to consider just the maximal [[(∞,1)-category]] inside $(\infty,n)Cat$. This is what is presented by various [[model category]] structures on models for $(\infty,n)$-categories.
+
+The discussion in ([BarwickSchommer-Pries](#BarwickSchommer-Pries)) shows that essentially all proposed models for $(\infty,n)Cat$ are in fact equivalent.
+
+
+## Properties
+
+### Automorphisms
+
+The [[automorphism ∞-group]] of $(\infty,n)Cat$ is equivalent to $(\mathbb{Z}_2)^n$.
+
+This is due to ([BarwickSchommer-Pries](#BarwickSchommer-Pries)).
+
 ## Related concepts
 
 * [[Cat]]
@@ -33,5 +48,10 @@ The (large) $(\infty,n+1)$-category $(\infty,n)Cat$ is the collection of all (sm
 * [[(∞,1)Cat]]
 
 * **$(\infty,n)Cat$**
+
+## References
+
+* [[Clark Barwick]], [[Chris Schommer-Pries]], _On the uniticity of the homotopy theory of higher categories_ ([pdf](http://dl.dropbox.com/u/8165870/Unicity.pdf))
+ {#BarwickSchommer-Pries}
 
 category: category
