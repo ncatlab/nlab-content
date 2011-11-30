@@ -82,18 +82,20 @@ With an assumption on $V$ and a careful choice of partition of unity, we can ens
 
 +-- {: .num_theorem #theoremc .thplain}
 ###### Theorem
-Using the notation from the proof of Theorem \ref{theorema}, we assume:
+Let $M$ be a smooth manifold.
+Let $V$ be a [[locally convex topological vector space]] and assume that there exists a family of continuous linear functionals $\{f_j : j \in \mathbb{N}\} \subseteq V^*$ with the properties:
 
-1. The partition of unity chosen has compact supports,
-2. The family of functionals $\{\sum_{j \in F} f_j : {|F|} \lt \infty\}$ is [[equicontinuous]],
-3. $V$ is [[Hausdorff]],
+1. For $j \in \mathbb{N}$, $f_j$ is non-trivial on $\bigcap_{k \ne j} \ker f_k$, and
+1. The family of functionals $\{\sum_{j \in F} f_j : {|F|} \lt \infty\}$ is [[equicontinuous]]
 
-then the image of the embedding is closed in $V$.
+then there is an embedding $\psi \colon M \to V$ with closed image.
 =--
 
 +-- {: .proof}
 ###### Proof
-We shall use the notation from the proof of Theorem \ref{theorema} with the additional assumption that the functions in the partition of unity have compact support in $M$.
+From the first property, we can find $v_j \in \bigcap_{k \ne j} \ker f_k$ such that $f_j(v_j) = 1$.  We use the family $\{v_j\}$ to define a linear injection $\mathbb{R}^{(\infty)} \to V$ (continuous by necessity).  The functionals $f_j$ provide the necessary coordinate projections so that the proof of Theorem \ref{theorema} works.
+
+In addition, we shall assume that our partition of unity used in the proof of Theorem \ref{theorema} is such that the functions therein have compact support.
 
 Let $(x_\lambda)$ be a net in $M$ for which $(\psi(x_\lambda))$ converges in $V$, say to $x$.
 The assumption on the functionals is there to show that $x \ne 0$.
@@ -108,7 +110,12 @@ Thus $x \ne 0$ and, moreover, there is some finite $F \subseteq \mathbb{N}$ for 
 Hence $\psi(M)$ is closed in $V$.
 =-- 
 
-Equicontinuity of the sums of the functionals follows, for example, if the infinite sum $\sum f_j$ is continuous.  This is the case for $\mathbb{R}^{(\infty)}$ and for $\ell^1$.
+There are various situations in which it is straightforward to find a suitable family of functionals.  If $V$ is [[barrelled]], then finding a family for which $\sum f_j$ weakly converges will do since then the family of partial sums is simply bounded and hence, as $V$ is barrelled, equicontinuous.
+
+Thus the coordinate projections will do for $\mathbb{R}^{(\infty)}$ and for $\ell^1$.  For $\ell^2$ we can take weighted projections, say $f_j = \frac{1}{j} p_j$.  In this case, our dual vectors will be $\{j e_j\}$.  For $\ell^\infty$ we can take weighted projections corresponding to a sequence in $\ell^1$.
+
+It is interesting to note what is going on in these latter cases where we take weighted projections.  If we embedded our manifold using the standard basis vectors as our "anchor points" then the structure of the ambient space is insufficient to guarantee that our manifold does not contain a convergent net with limit point outside.  More exactly, there could be a net in our manifold such that in the image it converges to zero.  The partition of unity is not enough to keep our points away from zero, since as we get further along the family in our partition we could need more and more terms.  That is, we could have the situation where we have a sequence $(x_n)$ in $M$ where $x_n$ is "seen" by $n$ of the functions in the partition of unity.  Then we could have $\psi(x_n)$ to be something like $(0,\dots,0,1/n,1/n,\dots,1/n,0,\dots)$.  In, say, $\ell^2$ then this sequence converges to $0$.  Essentially, $\psi(x_n)$ gets more and more diffuse.  Introducing the weights, or rather their inverses, counters this by ensuring that terms "far down" the sequence are given more consideration.
+
 
 +-- {: .num_section #sectionc }
 =--
