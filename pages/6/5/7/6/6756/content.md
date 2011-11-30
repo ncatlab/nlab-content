@@ -53,3 +53,6 @@ The notion of Hamiltonian vector field in [[n-plectic geometry]] is discussed in
 
 
 [[!redirects Hamiltonian vector fields]]
+
+[[!redirects hamiltonian vector field]]
+[[!redirects hamiltonian vector fields]]
