@@ -81,7 +81,7 @@ A **subobject classifier** for $C$ is an object that classifies the class $S$ of
 +-- {: .un_prop}
 ###### Proposition
 
-Every [[(∞,1)-topos]] has a subobject classifier.
+Every [[(∞,1)-topos]] has a [[subobject]] classifier.
 
 =--
 
