@@ -1,0 +1,12 @@
+
+> under construction. For the moment see _[[sigma-model]]_.
+
+## References
+
+* _Quasi-Topological Gauged Sigma Models, The Geometric Langlands Program, And Knots_ ([arXiv:1111.0691](http://arxiv.org/abs/1111.0691))
+
+* _Properties of gauged Sigma models_ ([pdf](http://sq2007.seenet-mtp.info/lectures/alikaya.pdf))
+
+(...)
+
+[[!redirects gauged field theory]]
