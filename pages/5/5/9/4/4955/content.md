@@ -29,10 +29,10 @@ $$
   \,.
 $$
 
-If one thinks of a [[tangent vector]] $v \in T_x X$ to be an equivalence class of a smooth path $\gamma_v : [-1,1] \to X$ with $\gamma(0) = x$, then the chain rule is the [[associativity]] of the composite
+If one thinks of a [[tangent vector]] $v \in T_x X$ to be an equivalence class of a smooth path $\gamma_v : [-\epsilon,\epsilon] \to X$, for some $\epsilon\gt 0$, with $\gamma(0) = x$, then the chain rule is the [[associativity]] of the composite
 
 $$
-  [-1,1] \stackrel{\gamma_v}{\to} X \stackrel{f}{\to} Y \stackrel{g}{\to} Z
+  [-\epsilon,\epsilon] \stackrel{\gamma_v}{\to} X \stackrel{f}{\to} Y \stackrel{g}{\to} Z
   \,.
 $$
 
