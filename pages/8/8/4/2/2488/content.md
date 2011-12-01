@@ -144,7 +144,7 @@ Notice that this expected statement does require the assumption that $X$ is $k$-
 
 In an $(\infty,1)$-category $C$ with finite limits, a morphism
 $f : X \to Y$ is $k$-truncated (for $k \geq -1$) precisely if the
-diagonal morphism $X \to X \times_Y X$ is $(k-1)$-truncated.
+[[diagonal]] morphism $X \to X \times_Y X$ is $(k-1)$-truncated.
 
 =--
 
