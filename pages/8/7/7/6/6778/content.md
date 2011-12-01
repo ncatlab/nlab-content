@@ -25,11 +25,11 @@ In fact, an analogous factorization system exists in any 2-exact 2-category and 
 
 ## Properties
 
-* When restricted to [[Grpd]], this is the special case of the [[n-connected/n-truncated factorization system]] in the [[(∞,1)-topos]] [[∞Grpd]] for the case that $(n = 0)$ and restricted to [[1-truncated]] [[object]]s.
+* When restricted to [[Grpd]], this is the special case of the [[n-connected/n-truncated factorization system]] in the [[(∞,1)-topos]] [[∞Grpd]] for the case that $(n = 0)$ and restricted to [[1-truncated]] [[objects]].
 
 * For $f : X \to Y$ a functor between groupoids, its factorization is through a groupoid $im_2 f$ which is, up to equivalence, given as follows;
   
-  * [[object]]s are those of $X$;
+  * [[objects]] are those of $X$;
 
   * a morphism $[\phi] : x_1 \to x_2$ is an equivalence class of morphisms in $X$ where $[\phi] = [\phi']$ if $f(\phi) = f(\phi')$.
 
