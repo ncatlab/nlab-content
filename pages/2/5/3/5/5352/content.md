@@ -14,11 +14,11 @@ where $x = (x^1,\ldots,x^n)$. Here the convention is that the upper index is a r
 
 In more general situation, if $f = (f^1(x),\ldots,f^m(x))$ is differentiable at a point $x$ (and possibly defined only in a neighborhood of $x$), we define the Jacobian $J_p f$ of map $f$ at point $x$ as a matrix with real values $(J_p f)^i_j = \frac{\partial f^i}{\partial x^j}|_x$. That is, the Jacobian is the matrix which describes the [[total derivative]]. The [[chain rule]] may be phrased by saying that the Jacobian matrix of the composition $\mathbf{R}^n\stackrel{f}\to\mathbf{R}^m\stackrel{g}\to\mathbf{R}^r$ is the product of the Jacobian matrices of $g$ and of $f$ (at appropriate points).  
 
-If $n=m$ the Jacobian is a square matrix, hence its [[determinant]] $det(J(f))$ is defined and called __the Jacobian of $f$__ (possibly only at a point). Sometimes one refers to Jacobian matrix rather ambigously by Jacobian as well. 
+If $n=m$ the Jacobian matrix is a square matrix, hence its [[determinant]] $det(J(f))$ is defined and called __the Jacobian of $f$__ (possibly only at a point). Sometimes one refers to Jacobian matrix rather ambigously by Jacobian as well. 
 
 If $g:M\to N$ is a $C^1$-map of $C^1$-manifolds, then the tangent map $T g: T M\to T N$ defined point by point abstractly by $(T_p g)(X_p)(f) = X_p(f\circ g)$, for $p\in M$, can in local coordinates be represented by a Jacobian matrix. Namely, if $(U,\phi)\ni p$ and $(V,\psi)\ni g(p)$ are charts and $X_p = \sum X^i\frac{\partial}{\partial x^i}|_p$ (i.e. $X_p(f)  = \sum_i X^i_p \frac{\partial (f\circ \phi^{-1})}{\partial x^i}|_{\phi(p)}$ for all germs $f\in \mathcal{F}_p$), then 
 $$
-(T_p g)(X_p) = \sum_{i,j} (J_p)_i^j(\psi \circ g\circ\phi^{-1}) X^i_p \frac{\partial}{\partial y^j}|_{g(p)}
+(T_p g)(X_p) = \sum_{i,j} J_p(\psi \circ g\circ\phi^{-1})_i^j X^i_p \frac{\partial}{\partial y^j}|_{g(p)}
 $$ 
 
 [[!redirects Jacobian matrix]]
