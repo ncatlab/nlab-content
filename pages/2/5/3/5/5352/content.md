@@ -12,7 +12,7 @@ $$
 $$
 where $x = (x^1,\ldots,x^n)$. Here the convention is that the upper index is a row index and the lower index is the column index; in particular $\mathbf{R}^n$ is the space of real column vectors of length $n$.
 
-In more general situation, if $f = (f^1(x),\ldots,f^m(x))$ is differentiable at a point $x$ (and possibly defined only in a neighborhood of $x$), we define the Jacobian $J_p f$ of map $f$ at point $x$ as a matrix with real values $(J_p f)^i_j = \frac{\partial f^i}{\partial x^j}|_x$. The [[chain rule]] may be phrased by saying that the Jacobian matrix of the composition $\mathbf{R}^n\stackrel{f}\to\mathbf{R}^m\stackrel{g}\to\mathbf{R}^r$ is the product of the Jacobian matrices of $g$ and of $f$ (at appropriate points).  
+In more general situation, if $f = (f^1(x),\ldots,f^m(x))$ is differentiable at a point $x$ (and possibly defined only in a neighborhood of $x$), we define the Jacobian $J_p f$ of map $f$ at point $x$ as a matrix with real values $(J_p f)^i_j = \frac{\partial f^i}{\partial x^j}|_x$. That is, the Jacobian is the matrix which describes the [[total derivative]]. The [[chain rule]] may be phrased by saying that the Jacobian matrix of the composition $\mathbf{R}^n\stackrel{f}\to\mathbf{R}^m\stackrel{g}\to\mathbf{R}^r$ is the product of the Jacobian matrices of $g$ and of $f$ (at appropriate points).  
 
 If $n=m$ the Jacobian is a square matrix, hence its [[determinant]] $det(J(f))$ is defined and called __the Jacobian of $f$__ (possibly only at a point). Sometimes one refers to Jacobian matrix rather ambigously by Jacobian as well. 
 
