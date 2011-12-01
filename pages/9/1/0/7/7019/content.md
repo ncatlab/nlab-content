@@ -17,7 +17,7 @@
 
 In the context of [[homotopy type theory]] one speaks of **homotopy level** where in [[(∞,1)-category theory]] one speaks of [[n-truncated|n-truncation]].
 
-The traditional counting is, however, offset by two
+The traditional counting is, however, offset by two. The correspondence between the various terminologies is indicated in the following table.
 
  [[homotopy type theory]]  | [[(∞,1)-category theory]] |   groupoids
 ---------------------------|---------------------------|---------------------------
@@ -30,3 +30,7 @@ The traditional counting is, however, offset by two
 
 [[!redirects homotopy level]]
 [[!redirects homotopy levels]]
+
+[[!redirects h-level 0]]
+[[!redirects h-level 1]]
+[[!redirects h-level 2]]
