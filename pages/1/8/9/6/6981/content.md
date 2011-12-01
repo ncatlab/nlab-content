@@ -1,5 +1,5 @@
 
-**[[propositions as types]]**
+**[[propositions as types]]** ([[bracket type]])
 
  [[logic]]                      |   [[type theory]]
 --------------------------------|------------------------------
