@@ -53,7 +53,7 @@ The above notion of "binary" factorization system can be generalized to factor a
 
 ## Examples
 
-* [[(epi, mono) factorization system|(epi, mono)]], 
+* [[(epi, mono) factorization system|(epi, mono)]] (= [[image]] factorization), 
 
 * [[(eso, fully faithful) factorization system|(eso, fully faithful)]], 
 [[(eso+full, faithful) factorization system|(eso+full, faithful)]], [[(bo, ff) factorization system|(bo, ff)]]
