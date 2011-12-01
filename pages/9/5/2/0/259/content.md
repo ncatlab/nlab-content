@@ -38,7 +38,7 @@ A **quasi-category** or **[[weak Kan complex]]** is a [[simplicial set]] $C$ sat
     sSet(\Delta[2],C) \to sSet(\Lambda[2]_1,C)
   $$
 
-  (induced from the inner horn inclusion $\Lambda[2]_1 \to \Delta[2]$)
+  (induced from the inner [[horn]] inclusion $\Lambda[2]_1 \to \Delta[2]$)
   is an acyclic [[Kan fibration]].
 
 =--
