@@ -1,4 +1,6 @@
 
 * [website](http://www.math.harvard.edu/~mazur/)
 
+[[!redirects B. Mazur]]
+
 category: people
