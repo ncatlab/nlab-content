@@ -1,26 +1,28 @@
 
-For $f : \mathbb{R}^k \to \mathbb{R}^l$ a [[differentiable]] [[function]], between [[Cartesian space]]s, its **Jacobian** [[matrix]] is the $(r \times s)$ matrix
-
+If $f : \mathbb{R}^n \to \mathbb{R}^m$ is a $C^1$-[[differentiable map]], between [[Cartesian space]]s, its **Jacobian matrix** is the $(m \times n)$ [[matrix]]
 
 $$
-  J(f) \in Mat_{r \times s}(C^0(\mathbb{R}, \mathbb{R}))
+  J(f) \in Mat_{m \times n}(C^0(\mathbb{R}, \mathbb{R}))
 $$
 
 of [[partial derivative]]s
 
 $$
-  J(f)_{i j} := \frac{\partial f_i}{\partial x_j} 
+  J(f)^i_j := \frac{\partial f^i}{\partial x^j},\,\,\,\,\,\,\,i=1,\ldots,m; j = 1,\ldots,n,
 $$
+where $x = (x^1,\ldots,x^n)$. Here the convention is that the upper index is a row index and the lower index is the column index; in particular $\mathbf{R}^n$ is the space of real column vectors of length $n$.
 
-Its [[determinant]] $det(J(f))$ is often called _the Jacobian of $f$_  .
+In more general situation, if $f = (f^1(x),\ldots,f^m(x))$ is differentiable at a point $x$ (and possibly defined only in a neighborhood of $x$), we define the Jacobian $J_p f$ of map $f$ at point $x$ as a matrix with real values $(J_p f)^i_j = \frac{\partial f^i}{\partial x^j}|_x$. The [[chain rule]] may be phrased by saying that the Jacobian matrix of the composition $\mathbf{R}^n\stackrel{f}\to\mathbf{R}^m\stackrel{g}\to\mathbf{R}^r$ is the product of the Jacobian matrices of $g$ and of $f$ (at appropriate points).  
+
+If $n=m$ the Jacobian is a square matrix, hence its [[determinant]] $det(J(f))$ is defined and called __the Jacobian of $f$__ (possibly only at a point). Sometimes one refers to Jacobian matrix rather ambigously by Jacobian as well. 
+
+If $g:M\to N$ is a $C^1$-map of $C^1$-manifolds, then the tangent map $T g: T M\to T N$ defined point by point abstractly by $(T_p g)(X_p)(f) = X_p(f\circ g)$, for $p\in M$, can in local coordinates be represented by a Jacobian matrix. Namely, if $(U,\phi)\ni p$ and $(V,\psi)\ni g(p)$ are charts and $X_p = \sum X^i\frac{\partial}{\partial x^i}|_p$ (i.e. $X_p(f)  = \sum_i X^i_p \frac{\partial (f\circ \phi^{-1})}{\partial x^i}|_{\phi(p)}$ for all germs $f\in \mathcal{F}_p$), then 
+$$
+(T_p g)(X_p) = \sum_{i,j} (J_p)_i^j(\psi \circ g\circ\phi^{-1}) X^i_p \frac{\partial}{\partial y^j}|_{g(p)}
+$$ 
 
 [[!redirects Jacobian matrix]]
 [[!redirects Jacobian determinant]]
 
 [[!redirects Jacobian matrices]]
 [[!redirects Jacobian determinants]]
-
----
-Fact: Every abelian variety can be embedded in a jacobian, over an arbitrary field. Proved by Gabber in "On space filling curves and Albanese varieties"
-
-nLab page on [[nlab:Jacobian]]
