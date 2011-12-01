@@ -59,8 +59,12 @@ Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] 
 * **pro-object** / [[pro-object in an (∞,1)-category]]
 
 ## References
+*  [[A. Grothendieck]],[Technique de descente ... II](http://archive.numdam.org/ARCHIVE/SB/SB_1958-1960__5_/SB_1958-1960__5__369_0/SB_1958-1960__5__369_0.pdf)
 
 * (SGA4-1) _Th&#233;orie des topos et cohomologie &#233;tale des sch&#233;mas. Tome 1: Th&#233;orie des topos_, S&#233;minaire de G&#233;om&#233;trie Alg&#233;brique du Bois-Marie 1963&#8211;1964 ([[SGA 4]]). Dirig&#233; par M. Artin, A. Grothendieck, et J. L. Verdier. Avec la collaboration de N. Bourbaki, P. Deligne et B. Saint-Donat. Lecture Notes in Mathematics __269__, Springer 1972. 
+*  [[M. Artin]] and [[B. Mazur]], _&#201;tale homotopy theory_, 1969, No. 100 in Lecture 
+Notes in Maths., Springer-Verlag, Berlin.
+
 * [[J.-M. Cordier]], [[Tim Porter]],  _Shape Theory_ , categorical methods of approximation, Dover (2008) (It is a reprint of the 1989 edition without amendments.)
 * [[Masaki Kashiwara]], [[Pierre Schapira]], [[Categories and Sheaves]]
 * [[Peter Johnstone]], _[[Stone Spaces]]_.
