@@ -55,6 +55,8 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * Michele Cirafici, Annamaria Sinkovics, Richard J. Szabo, _Instanton counting and wall-crossing for orbifold quivers_, [arxiv/1108.3922](http://arxiv.org/abs/1108.3922)
 
+* H.-Y. Chen, N. Dorey, K. Petunin, _Moduli space and wall-crossing formulae in higher-rank gauge theories_, JHEP 11 (2011) 020, <a href="http://dx.doi.org/10.1007/JHEP11(2011)020">doi</a>; _Wall crossing and instantons in compactified gauge theory_, JHEP 06 (2010) 024 [arXiv:1004.0703](ttp://arxiv.org/abs/1004.0703)
+
 Related entries [[BPS state]], [[D-module]], [[cluster algebra]], [[quiver]], [[representation theory]], [[Donaldson-Thomas invariant]].
 
 [[!redirects wall-crossing]]
