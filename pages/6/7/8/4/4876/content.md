@@ -83,6 +83,8 @@ By Chern-Simons [[holography]] (see there for more details) the 2d WZW [[CFT]] o
 
 * [[higher dimensional WZW model]]
 
+* [[Green-Schwarz action functional]]
+
 ## References
 
 ### General
