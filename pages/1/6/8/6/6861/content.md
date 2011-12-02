@@ -11,9 +11,13 @@
 
   * [[current algebra]]
 
+  * [[Green-Schwarz superstring]]
+
 * [[higher dimensional WZW theory]]
 
   * [[4d WZW theory]]
+
+  * [[Green-Schwarz action functional]]
 
 * [[WZW-type superstring field theory]]
 
