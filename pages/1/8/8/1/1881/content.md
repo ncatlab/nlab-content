@@ -15,7 +15,7 @@ We will give three definitions, which can all be shown equivalent.
 
 ### As functions
 
-An element of $S^*$ consists of a [[natural number]] $n$ (possibly $n = 0$) and function from $[n]$ to $S$, where $[n]$ is the [[subset]] $\{i: \mathbf{N} \;|\; i \lt n\}$ of $\mathbf{N} = \{0, 1, 2, \ldots\}$.  Such an element is called a __list__ or (to specify $n$) __$n$-tuple__ of elements of $S$.  The number $n$ is called the __length__ of the list.
+An element of $S^*$ consists of a [[natural number]] $n$ (possibly $n = 0$) and function from $[n]$ to $S$, where $[n]$ is the [[subset]] $\{i\colon \mathbf{N} \;|\; i \lt n\}$ of $\mathbf{N} = \{0, 1, 2, \ldots\}$.  Such an element is called a __list__ or (to specify $n$) __$n$-tuple__ of elements of $S$.  The number $n$ is called the __length__ of the list.
 
 The __[[empty list]]__ is the unique list of length $0$.  It may be written $()$, $*$, or $\epsilon$, perhaps with a subscript $S$ if desired.
 
@@ -32,12 +32,12 @@ One can now show that concatenation is associative with the empty list as identi
 
 The (underlying) set $S^*$ may be defined as an [[inductive type]] as follows.  There are two basic constructors, one with no arguments, and one with two arguments, of which one is an element of $S$ and the other is an element of $S^*$.  By the yoga of inductive types, that is a complete definition, but we spell it out in more detail while also giving terminology and notation.
 
-So, a __list__ is either the __[[empty list]]__ or the __cons__ (short for 'constructor' and deriving from Lisp) of an element $a$ of $S$ and a (previously constructed) list $x$.  The empty list may may be written $()$, $*$, or $nil$, perhaps with a subscript $S$ if desired; the cons of $a$ and $x$ may be written $s:x$, $(a) * x$, or $cons(a,x)$.  We interpret the definition [[recursion|recursively]], so we can list the elements of $S^*$ in the order in which they appear:
+So, a __list__ is either the __[[empty list]]__ or the __cons__ (short for 'constructor' and deriving from Lisp) of an element $a$ of $S$ and a (previously constructed) list $x$.  The empty list may may be written $()$, $*$, or $nil$, perhaps with a subscript $S$ if desired; the cons of $a$ and $x$ may be written $a : x$, $(a) * x$, or $cons(a,x)$.  We interpret the definition [[recursion|recursively]], so we can list the elements of $S^*$ in the order in which they appear:
 
 *  $()$,
-*  $a:()$,
-*  $a:b:()$,
-*  $a:b:c:()$,
+*  $a : ()$,
+*  $a : b : ()$,
+*  $a : b : c : ()$,
 *  etc.
 
 Here, $a, b, c, \ldots$ are elements of $S$.  We may continue the 'etc' as far as we like, but no farther; while there are lists of arbitrarily long finite length, there are no lists of infinite length.  (We would get such lists, however, if we interpreted the definition [[corecursion|corecursively]], known in computer science as a [[stream]].)  We normally abbreviate the lists above as follows:
@@ -51,7 +51,7 @@ Here, $a, b, c, \ldots$ are elements of $S$.  We may continue the 'etc' as far a
 We still must define the monoidal structure on $S^*$; we define the __concatenation__ $x * y$ of $x$ and $y$ recursively in $x$.  To be explicit:
 
 *  $() * y = y$;
-*  $(a:x) * y = a:(x * y)$ (with parentheses for grouping, but the parentheses can be dropped now that have this definition).
+*  $(a : x) * y = a : (x * y)$ (with parentheses for grouping, but the parentheses can be dropped now that have this definition).
 
 One can now show that concatenation is associative with the empty list as identity; hence $S^*$ is a monoid.
 
@@ -67,13 +67,13 @@ To be sure, meeting the solution set condition basically requires starting the c
 
 *  If $S$ is the [[empty set]], then $S^*$ consists only of the empty list; it is the trivial monoid, one manifestation of the [[point]].
 *  If $S$ is the point, then $S^*$ is $\mathbf{N}$; the only information in a list of indistinguishable points is the length of the list.  The monoid operation on $\mathbf{N}$ is addition.
-*  If $S$ is $\mathbf{N}$, then $\mathbf{N}^*$ is still a [[denumerable set]].  But note that $\mathbf{N} \cong \mathbf{N}^*$ only as sets (that is, $|\mathbf{N}^*| = |\mathbf{N}| = \aleph_0$ as [[cardinal numbers]]); they are quite different as monoids.
-*  Generalising the above, $|S^*| = |S|$ is $S$ is an [[infinite set]], or more generally $|S^*| = max(\aleph_0,S)$ if $S$ is an [[inhabited set]].  (These theorems probably require the [[axiom of choice]], but I haven\'t checked thoroughly.)
+*  If $S$ is $\mathbf{N}$, then $\mathbf{N}^*$ is still a [[denumerable set]].  But note that $\mathbf{N} \cong \mathbf{N}^*$ only as sets (that is, ${|\mathbf{N}^*|} = {|\mathbf{N}|} = \aleph_0$ as [[cardinal numbers]]); they are quite different as monoids.
+*  Generalising the above, ${|S^*|} = {|S|}$ is $S$ is an [[infinite set]], or more generally ${|S^*|} = max(\aleph_0,S)$ if $S$ is an [[inhabited set]].  (These theorems probably require the [[axiom of choice]], but I haven\'t checked thoroughly.)
 
 
 ## The free monoid monad
 
-If the free moniod functor $F: Set \to Mon$ is followed by the forgetful functor $U: Mon \to Set$, then we get a [[monad]] on $Set$.  This monad is very important in [[computer science]], where it is known as the __list monad__.
+If the free moniod functor $F\colon Set \to Mon$ is followed by the forgetful functor $U\colon Mon \to Set$, then we get a [[monad]] on $Set$.  This monad is very important in [[computer science]], where it is known as the __list monad__.
 
 The list monad bears the same relation to [[multicategories]] as the [[identity monad]] on $Set$ bears to ordinary [[categories]].  This relation should be explained at [[generalized multicategory]].
 
@@ -95,7 +95,7 @@ $$ \array {
    } $$
 The idea is that $push_A$ and $pop_A$ are as close to [[inverse morphism|inverses]] as reasonably possible, but $pop_A$ takes us to $S_A \otimes A + I$ rather than to $S_A \otimes A$, because of the empty stack.
 
-Queues are a little more complicated.  An object of __queues__ on $A$ is an object $Q_A$ equipped with morphisms $ins_A\colon A \otimes Q_A \to Q_A$ and $rem_A\colon Q_A \to Q_A \otimes A + I$.  These operations are far from inverses, whereas popping a stack returns the last item to be pushed onto it, removing an item from a queue returns the *first* item to have been inserted into it.
+Queues are a little more complicated.  An object of __queues__ on $A$ is an object $Q_A$ equipped with morphisms $ins_A\colon A \otimes Q_A \to Q_A$ ('insert') and $rem_A\colon Q_A \to Q_A \otimes A + I$ ('remove').  These operations are far from inverses; whereas popping a stack returns the last item to be pushed onto it, removing an item from a queue returns the *first* item to have been inserted into it.
 
 +-- {: .query}
 What are the diagrams for this?  I seem to recall that we need a [[distributive category]]; in particular, we need a [[cartesian monoidal category]], so that $\otimes$ is $\times$.  But perhaps a [[2-rig]] will be sufficient?
