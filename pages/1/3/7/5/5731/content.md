@@ -1,4 +1,12 @@
 
-A [[function]] $f$ on the [[complex plane|complex line]] $\mathbb{C}$ is _holomorphic_ if it is complex-differentiable. 
+A [[function]] $f$ on the [[complex plane|complex line]] $\mathbb{C}$ is _holomorphic_ if it is complex-[[differentiable function|differentiable]]. It is a famous theorem (due to Cauchy and Goursat) that all holomorphic functions are in fact [[smooth function|smooth]].
 
 Similarly for functions on $\mathbb{C}^n$ or any [[complex manifold]].
+
+Compare [[analytic function]].
+
+
+[[!redirects holomorphic function]]
+[[!redirects holomorphic functions]]
+[[!redirects holomorphic map]]
+[[!redirects holomorphic maps]]
