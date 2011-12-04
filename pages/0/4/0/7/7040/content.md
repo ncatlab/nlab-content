@@ -21,9 +21,9 @@ A __dream universe__ is any [[model]] of dream mathematics.  The most well known
 
 ## Consistency
 
-Solovay proved that dream mathematics is [[consistent theory|consistent]] if the existence of an [[inaccessible cardinal]] is consistent with [[ZFC]].  More precisely, Solovay showed how to construct a [[model]] of dream mathematics from any model of $ZFC$ with an inaccessible cardinal.
+Solovay proved that dream mathematics is [[consistent theory|consistent]] if the existence of an [[inaccessible cardinal]] is consistent with [[ZFC]].  More precisely, Solovay showed how to construct a [[model]] of dream mathematics (now called the _Solovay model_) from any model of $ZFC$ with an inaccessible cardinal.
 
-[[Shaharon Shelah]] later showed that one could start with any model of $ZFC$ and construct a model of $ZF + DC$ in which every set of reals has the Baire property; conversely, [[Ernst Specker]] had already shown that an inaccessible cardinal must be consistent if the perfect set property is. Various intermediate results for Lebesgue measurability are also known.
+[[Saharon Shelah]] later showed that one could start with *any* model of $ZFC$ and construct a model of $ZF + DC$ in which every set of reals has the Baire property; on the other hand, [[Ernst Specker]] had already shown that an inaccessible cardinal must be consistent if the perfect set property is. Various intermediate consistency results for Lebesgue measurability are also known, but a complete characterisation is still elusive.
 
 
 ## Properties
