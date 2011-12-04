@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
@@ -124,9 +124,9 @@ We have [[equivalences of categories]]
 
 and [[equivalences of (∞,1)-categories]]
 
-* $Sh_{(∞,1)}(CartSp_{top}) \simeq Sh_{(\infty,1)}(TopMfd)$;
+* $Sh_{(\infty,1)}(CartSp_{top}) \simeq Sh_{(\infty,1)}(TopMfd)$;
 
-* $Sh_{(∞,1)}(CartSp_{smooth}) \simeq Sh_{(\infty,1)}(Diff)$.
+* $Sh_{(\infty,1)}(CartSp_{smooth}) \simeq Sh_{(\infty,1)}(Diff)$.
 
 =--
 
@@ -135,7 +135,7 @@ and [[equivalences of (∞,1)-categories]]
 
 The first two statements follow by the [above proposition](#AsDenseSubsite) with the _comparison lemma_ discussed at [[dense sub-site]].
 
-For the second condition notice that since an [[∞-cohesive site]] is in particular an [[∞-local site]] we hat that $Sh_{(∞,1)}(CartSp)$ is a [[local (∞,1)-topos]]. As discussed there, this implies that it is a [[hypercomplete (∞,1)-topos]]. By the discussion at [[model structure on simplicial presheaves]] this means that it is [[presentable (∞,1)-category|presented]] by the Joyal-Jardine-[[model structure on simplicial sheaves]] $Sh(CartSp)^{\Delta^{op}}_{loc}$. The claim then follows with the first two statements.
+For the second condition notice that since an [[∞-cohesive site]] is in particular an [[∞-local site]] we hat that $Sh_{(\infty,1)}(CartSp)$ is a [[local (∞,1)-topos]]. As discussed there, this implies that it is a [[hypercomplete (∞,1)-topos]]. By the discussion at [[model structure on simplicial presheaves]] this means that it is [[presentable (∞,1)-category|presented]] by the Joyal-Jardine-[[model structure on simplicial sheaves]] $Sh(CartSp)^{\Delta^{op}}_{loc}$. The claim then follows with the first two statements.
 
 =--
 
