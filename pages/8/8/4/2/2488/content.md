@@ -1,21 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(\infty,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include quasi-category theory contents]]
 =--
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -673,28 +673,34 @@ A classical article that amplifies the expression of Postnikov towers in terms o
 [[!redirects k-truncated]]
 
 
-[[!redirects n-truncated object of an (∞,1)-topos]]
-[[!redirects n-truncated object in an (∞,1)-category]]
-[[!redirects n-truncated object in an (∞,1)-topos]]
-[[!redirects n-truncated object in an (infinity,1)-topos]]
-[[!redirects n-truncated object of an (infinity,1)-topos]]
-
+[[!redirects n-truncated object of an (infinity,1)-category]]
 [[!redirects n-truncated object of an (∞,1)-category]]
+[[!redirects n-truncated object in an (infinity,1)-category]]
 [[!redirects n-truncated object in an (∞,1)-category]]
-[[!redirects n-truncated object in an (infinity,1)-topos]]
 
-[[!redirects truncated object of an (∞,1)-topos]]
-[[!redirects truncated object in an (∞,1)-category]]
-[[!redirects truncated object in an (∞,1)-topos]]
-[[!redirects truncated object in an (infinity,1)-topos]]
-[[!redirects truncated object of an (infinity,1)-topos]]
-
+[[!redirects truncated object of an (infinity,1)-category]]
 [[!redirects truncated object of an (∞,1)-category]]
+[[!redirects truncated object in an (infinity,1)-category]]
 [[!redirects truncated object in an (∞,1)-category]]
-[[!redirects truncated object in an (infinity,1)-topos]]
 
 [[!redirects n-truncated object of an (infinity,1)-topos]]
+[[!redirects n-truncated object of an (∞,1)-topos]]
+[[!redirects n-truncated object in an (infinity,1)-topos]]
+[[!redirects n-truncated object in an (∞,1)-topos]]
 
+[[!redirects truncated object of an (infinity,1)-topos]]
+[[!redirects truncated object of an (∞,1)-topos]]
+[[!redirects truncated object in an (infinity,1)-topos]]
+[[!redirects truncated object in an (∞,1)-topos]]
+
+[[!redirects n-truncated object]]
+[[!redirects n-truncated objects]]
+
+[[!redirects truncated object]]
+[[!redirects truncated objects]]
+
+[[!redirects n-truncation]]
+[[!redirects n-truncations]]
 
 [[!redirects truncation]]
 [[!redirects truncations]]
