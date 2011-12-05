@@ -98,4 +98,6 @@ Simple examples of invariants under the Reidemeister Moves are given in, for ins
 
 Most modern texts on [[Knot Theory]] will contain discussions of the Reidemeister Moves.
 
+category: knot theory
+
 [[!redirects Reidemeister moves]]
