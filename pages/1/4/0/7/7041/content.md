@@ -25,6 +25,6 @@ One reason why smooth functions are important is that a good supply of bump func
 
 ## References
 
-* wikipedia, _[bumb function](http://en.wikipedia.org/wiki/Bump_function)_
+* wikipedia, _[bump function](http://en.wikipedia.org/wiki/Bump_function)_
 
 [[!redirects bump functions]]
