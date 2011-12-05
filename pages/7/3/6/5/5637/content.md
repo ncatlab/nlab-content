@@ -12,3 +12,4 @@
 
 The _Jones polynomial_ is a [[knot invariant]]. It is a special case of the [[HOMFLY-PT polynomial]]. See there for more details.
 
+category: knot theory
