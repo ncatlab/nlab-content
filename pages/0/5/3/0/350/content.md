@@ -306,7 +306,11 @@ Lawvere--Tierney topologies are discussed in section V.1 of
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
  {#MacLaneMoerdijk},
 
-the notion of sheaves in section V.3, the sheafification functor in section V.3 and the relation to Grothendieck topologies in section V.4.
+(the notion of sheaves in section V.3, the sheafification functor in section V.3 and the relation to Grothendieck topologies in section V.4);
+
+and in section A4.4.1 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 
 [[!redirects sheafification in a Lawvere-Tierney topos]]
