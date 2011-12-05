@@ -41,8 +41,9 @@ This appears ([Johnstone, p. 225](#Johnstone)).
 
 * If $g\colon C\to D$ is a [[functor]] between [[small categories]] which is both [[essentially surjective functor|essentially surjective]] and [[full functor|full]], then the induced geometric morphism $Set^C\to Set^D$ is hyperconnected.  In fact, instead of essentially surjective it suffices for $g$ to be [[Cauchy surjective functor|Cauchy surjective]], i.e. $D$ is the closure of $g(C)$ under retracts.
 
-* In particular, the [[global sections]] geometric morphism $Set^C\to Set$ is hyperconnected 
-iff $C$ is strongly connected (see Elephant, A4.6.9), i.e., inhabitated and for any two objects $A,B$ there exist morphisms $f:A\to B$ and $g:B\to A$. This includes the case when $C=M$ is a [[monoid]], and the topos of [[simplicial set|simplicial sets]].
+* In particular, the [[global sections]] geometric morphism $Set^C\to Set$ on the [[presheaf topos]] is hyperconnected  iff the [[category]] $C$ is strongly connected strongly connected ([Johnstone, A4.6.9](#Johnstone)), i.e., [[inhabited]] and for any two [[objects]] $A,B$ there exist morphisms $f:A\to B$ and $g:B\to A$. 
+
+  This includes for instance the case when $C=M$ is a [[monoid]], and the topos of [[simplicial set|simplicial sets]].
 
 * A [[locally connected topos|locally connected]] and [[local topos]] is hyperconnected precisely if as a [[cohesive topos]] it satisfies _pieces have points_ or equivalently _discrete objects are concrete_ . See [[cohesive topos]] for details.
 
