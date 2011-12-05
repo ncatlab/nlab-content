@@ -36,6 +36,8 @@ A __knot invariant__ is map from [[isotopy]] [[equivalence class]]es of [[knots]
 
 Many of these extend to [[link invariant|link invariants]] or have variants that depend on the knot being oriented.
 
+category: knot theory
+
 [[!redirects knot invariants]]
 [[!redirects Knot Invariant]]
 [[!redirects Knot Invariants]]
