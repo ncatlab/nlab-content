@@ -221,6 +221,8 @@ The meaning of $\kappa$-symmetry in terms of the [[supergeometry|super]]-[[Carta
 
 * R. R. Metsaev, _Type IIB Green-Schwarz superstring in plane wave Ramond-Ramond background_ ([arXiv:hep-th/0112044](http://arxiv.org/abs/hep-th/0112044))
 
+[[!redirects Green-Schwarz action]]
+
 [[!redirects Green-Schwarz string]]
 [[!redirects Green-Schwarz superstring]]
 
