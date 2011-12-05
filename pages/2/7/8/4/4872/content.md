@@ -30,4 +30,11 @@
   * [[Whitehead link]]
   * [[Hopf link]]
 
+* Related concepts
+  * [[singular knot]]
+  * [[Vassiliev skein relation]]
+
+
 [edit this sidebar](http://ncatlab.org/nlab/edit/knot+theory+-+contents)
+
+category: knot theory
