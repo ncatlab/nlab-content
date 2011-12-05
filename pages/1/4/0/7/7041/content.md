@@ -21,25 +21,29 @@
 
 A _bump function_ is a [[smooth function]] on a [[Cartesian space]] which has [[compact support]].
 
-One reason the category of smooth spaces and functions is important is that a good supply of bump functions exists; this fact accounts for the great flexibility of smooth objects, in stark contrast to analytic or algebraic objects (where bump functions do not exist in these categories). For instance, bump functions can be used to construct _[[partition of unity|partitions of unity]]_, which can in turn be used to smoothly patch together local structures into a global structure without obstruction, as for example [[Riemannian metric|Riemannian metrics]]. 
+One reason the category [[SmthMfd]] of [[smooth manifolds]] and [[smooth functions]] is important is that a good supply of bump functions exists; this fact accounts for the great flexibility of smooth objects, in stark contrast to [[analytic geometry|analytic]] or algebraic objects (where bump functions do not exist in these categories). For instance, bump functions can be used to construct _[[partition of unity|partitions of unity]]_, which can in turn be used to smoothly patch together local structures into a global structure without obstruction, as for example [[Riemannian metric|Riemannian metrics]]. 
 
 ## Basic construction 
 
-Define a function $\phi(x)$ on the standard open unit ball of $\mathbb{R}^n$ by 
+Define a function $\phi(x)$ on the standard [[open ball|open unit ball]] of $\mathbb{R}^n$ by 
 
-$$\phi(x) = \exp(\frac1{{\|x\|^2} - 1})$$ 
+$$
+  \phi(x) = \exp\left(
+   \frac1{{\|x\|^2} - 1}
+  \right)
+$$ 
 
-so that $\phi(x)$ and all of its higher derivatives vanish rapidly as $x$ approaches the boundary. This gives a smooth function compactly supported on the unit ball centered at the origin. 
+so that $\phi(x)$ and all of its higher [[derivatives]] vanish rapidly as $x$ approaches the [[boundary]]. This gives a [[smooth function]] [[compact support|compactly supported]] on the unit ball centered at the origin. 
 
 For $\varepsilon \gt 0$, define $\phi_\varepsilon(x) \coloneqq \phi(x/\varepsilon)$, and define 
 
 $$\psi_\varepsilon = \frac{\phi_\varepsilon}{{\|\phi_\varepsilon\|}_1}$$ 
 
-so that the $\psi_\varepsilon$ is a smooth approximation to the identity (= Dirac functional), compactly supported on the unit ball of radius $\varepsilon$ and having an $L^1$ norm equal to $1$. Then, it is standard that for any pair $K \subset V$ with $K$ compact and $V$ open in $\mathbb{R}^n$, we can choose an open $U$ containing $K$ and with compact closure contained in $V$, and then taking the convolution product 
+so that the $\psi_\varepsilon$ is a smooth approximation to the identity (= [[Dirac distribution|Dirac functional]]), compactly supported on the unit ball of radius $\varepsilon$ and having an $L^1$ norm equal to $1$. Then, it is standard that for any pair $K \subset V$ with $K$ [[compact space|compact]] and $V$ [[open subset|open]] in $\mathbb{R}^n$, we can choose an open $U$ containing $K$ and with compact [[closure]] contained in $V$, and then taking the [[convolution]] product 
 
 $$\psi_\varepsilon \ast \chi_U$$ 
 
-of $\psi_\varepsilon$ with the characteristic function $\chi_U$, for $\varepsilon$ sufficiently small, we obtain a function equal to $1$ on $K$ and $0$ outside $V$. 
+of $\psi_\varepsilon$ with the [[characteristic function]] $\chi_U$, for $\varepsilon$ sufficiently small, we obtain a function equal to $1$ on $K$ and $0$ outside $V$. 
 
 ## References
 
