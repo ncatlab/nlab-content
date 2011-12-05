@@ -117,15 +117,22 @@ $$
 
 The Green-Schwarz action has an extra fermionic symmetry, on top of the genuine supersymmetry, first observed in ([Siegel 83](#Siegel83)) for the [[superparticle]] and in ([Siegel 84](#Siegel84)) for the [[superstring]] in 3-dimensions, and finally in ([GreenSchwarz 84](#GreenSchwarz)) for the critical superstring in 10-dimensions. This is also called **$\kappa$-symmetry**. It has a natural interpretation in terms of the [[supergeometry|super]]-[[Cartan geometry]] of [[target space]] ([McArthur](#McArthur), [GKW](#GKW)).
 
-### Dimensions
+### Dimensions -- the brane scan
  {#BraneScan}
 
-The Green-Schwarz action functional of a $p$-brane propagating on an $d$-dimensional target spacetimes makes sense only for special combinations of $(p,d)$
+The Green-Schwarz action functional of a $p$-brane propagating on an $d$-dimensional target spacetimes makes sense only for special combinations of $(p,d)$, for which there are suitanble [[Lie algebra cohomology|super Lie algebra cocycles]] on the super translation Lie algebra
 (see [above](#DefinitionWZWTerm)).
 
-The corresponding table has been called the **brane scan**
+The corresponding table has been called the **brane scan** in the literature. In ([Duff](#Duff)) it is displayed as follows.
 
 [[branescan.gif:pic]]
+
+In the $D = 10$-row we see the critical [[superstring]] of [[string theory]] and
+its [[electric-magnetic duality|magnetic dual]], the [[NS5-brane]].
+The top row shows the [[M2-brane]] in [[11-dimensional supergravity]]. What is missing in the table is the [[M5-brane]] in that top dimension.
+
+The reason is that the M5 corresponds to a 7-cocycle not on the ordinary [[super Poincare Lie algebra]], but on its [[infinity-Lie algebra cohomology|L-infinity algebra extension]], the [[supergravity Lie 3-algebra]]. See the 7-cocycle at [[supergravity Lie 6-algebra]].
+
 
 ## Related concepts
 
