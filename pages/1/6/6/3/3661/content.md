@@ -32,6 +32,16 @@ A functor $p\colon E\to B$ is a **strict Conduch&#233; functor** if for any morp
 
 1. any two such factorizations in $E$ are connected by a zigzag of commuting morphisms which map to $id_c$ in $B$.
 
+(Here, 'commuting morphism' means a morphism $d \to d'$ in $E$ such that the pair of triangles in 
+
+$$\array{
+ & & d & \stackrel{\gamma}{\to} & b \\
+ & ^\mathllap{\beta} \nearrow & \downarrow & \nearrow^\mathrlap{\gamma'} & \\
+a & \underset{\beta'}{\to} & d' & & 
+}$$
+
+commute.) 
+
 The theorem is then that the following are equivalent:
 
 * $p$ is a Conduch&#233; functor.
