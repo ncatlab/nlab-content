@@ -147,7 +147,7 @@ for the [[reflective subcategory]] [[category of sheaves|of j-sheaves]].
 +-- {: .num_defn #EssentialTopology}
 ###### Definition
 
-We say that $j$ is an **[[essential geometric morphism|essential]] topology** if for all objects $X$ the closure operation $\sharp  : Sub(X) \to Sub(X)$ on [[posets of subobjects]] on has a [[left adjoint]] $\flat \dashv \sharp $:
+We say that $j$ is an **[[essential geometric morphism|essential]] topology** if for all objects $X$ the closure operation $\sharp  : Sub(X) \to Sub(X)$ on [[posets of subobjects]] has a [[left adjoint]] $\flat \dashv \sharp $:
 
 $$
   (U \hookrightarrow \sharp  V)
@@ -166,6 +166,22 @@ This appears under the term "principal" in ([Awodey-Birkedal, def. 2.1](#AwodeyB
 We use the notation "$\flat$" and "$\sharp $" oppositely to the use on p.14 of [Awodey-Birkedal](#AwodeyBirkedal). Our convention is such that it harmonizes with the terminology at _[[cohesive topos]]_ and _[[cohesive (infinity,1)-topos]]_, where it makes interpretational sense to pronounce "$\flat$" as "flat".
 
 =--
+
++-- {: .num_observation}
+###### Observation
+
+The left adjoints $\flat : Sub(X) \to Sub(X)$ for all $X \in \mathcal{E}$
+extend to a functor $\flat : \mathcal{E} \to \mathcal{E}$ on all of $\mathcal{E}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
 
 +-- {: .num_prop #InternalCharacterizationOfLocalReflection}
 ###### Proposition
@@ -253,20 +269,6 @@ Moreover, by one of the equivalent characterizations of [[reflective subcategori
 
 =--
 
-+-- {: .num_observation}
-###### Observation
-
-The left adjoints $\flat : Sub(X) \to Sub(X)$ for all $X \in \mathcal{E}$
-extend to a functor $\flat : \mathcal{E} \to \mathcal{E}$ on all of $\mathcal{E}$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-(...)
-
-=--
 
 +-- {: .num_defn #DiscreteObjects}
 ###### Definition
