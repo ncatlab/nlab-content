@@ -29,6 +29,7 @@ This may be regarded as the boundary theory of [[Chern-Simons theory]] for Lie g
 The [[vertex operator algebra]]s corresponding to the WZW model are [[current algebra]]s.
 
 ## Action functional
+ {#ActionFunctional}
 
 For $G$ a [[Lie group]], the [[configuration space]] of the WZW over a 2-[[dimension]]al [[manifold]] $\Sigma$ is the space of [[smooth function]]s $g : \Sigma \to G$.
 
@@ -42,11 +43,13 @@ $$
 
 
 ### Kinetic term
+ {#KineticTerm}
 
 The Lie group canonically carries a [[Riemannian metric]] and the kinetic term is the standard one for [[sigma-model]]s on Riemannian [[target space]]s.
 
 
 ### Topological term -- WZW term
+ {#TopologicalTerm}
 
 Let $G$ be [[compact space|compact]] and [[simply connected space|simply connected]]. 
 
@@ -74,12 +77,15 @@ $$
 $$
 
 ## Properties
+ {#Properties}
 
 ### Holography
 
 By Chern-Simons [[holography]] (see there for more details) the 2d WZW [[CFT]] on $G$ is related to $G$-[[Chern-Simons theory]] in $3d$.
 
 ## Related concepts
+
+* [[coset WZW model]]
 
 * [[higher dimensional WZW model]]
 
