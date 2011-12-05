@@ -90,7 +90,7 @@ The definitions and proofs of the above theorems, along with the 2-categorical g
 
 A description of the characterization in terms of lax normal functors can be found in
 
-* [[Ross Street], \'Powerful functors\', [pdf](http://www.math.mq.edu.au/~street/Pow.fun.pdf)
+* [[Ross Street]], \'Powerful functors\', [pdf](http://www.math.mq.edu.au/~street/Pow.fun.pdf)
 
 [[!redirects Conduche functors]]
 [[!redirects Conduché functor]]
