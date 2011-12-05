@@ -9,7 +9,7 @@ To include this picture in a page, write
 <nowiki><code>[[!include figure 8 knot - SVG]]</code></nowiki>.
 =--
 
-
+category: knot theory
 [[!redirects figure-eight knot]]
 [[!redirects figure-eight knots]]
 [[!redirects Figure-eight knot]]
