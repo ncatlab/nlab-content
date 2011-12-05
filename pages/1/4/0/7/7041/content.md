@@ -21,7 +21,20 @@
 
 A _bump function_ is a [[smooth function]] on a [[Cartesian space]] which has [[compact support]].
 
-One reason why smooth functions are important is that a good supply of bump functions does exist. See for instance _[[partition of unity]]_.
+One reason the category of smooth spaces and functions is important is that a good supply of bump functions exists; this fact accounts for the great flexibility of smooth objects, in stark contrast to analytic or algebraic objects. For instance, bump functions can be used to construct _[[partition of unity|partitions of unity]]_, which can in turn be used to patch together local structures into a global structure without obstruction, as for example [[Riemannian metric|Riemannian metrics]]. 
+
+## Basic construction 
+
+Define a function $\phi(x)$ on the open interval $(0, 1)$ by 
+
+$$\phi(x) = \exp(-\frac1{x} + \frac1{1-x})$$ 
+
+so that $\phi$ vanishes infinitely rapidly as $x$ approaches $0$ from the right and becomes infinite rapidly as $x$ approaches $1$ from the left. Then define 
+
+$$\psi(x) = \frac{\phi(x)}{1 + \phi(x)}$$ 
+
+so that the values of $\psi$ flatten out to $0$ near $x = 0$ and flatten out to $1$ near $x = 1$. Finally, for any 4-tuple $a \lt b \lt c \lt d$, define (to be continued). 
+ 
 
 ## References
 
