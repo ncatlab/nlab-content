@@ -22,7 +22,7 @@ The [[knot group]] of the trefoil knot (calculated either by the Dehn or Wirting
 ###### Note
 To include one of the above pictures on a page, write <nowiki><code>[[!include trefoil knot - SVG]]</code></nowiki> or <nowiki><code>[[!include trefoil knot (2 bridge) - SVG]]</code></nowiki>.
 
-
+category : knot theory
 [[!redirects trefoil knot]]
 [[!redirects trefoil knots]]
 [[!redirects Trefoil knot]]
