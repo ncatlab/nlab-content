@@ -21,7 +21,7 @@
 
 A _bump function_ is a [[smooth function]] on a [[Cartesian space]] which has [[compact support]].
 
-One reason the category [[SmthMfd]] of [[smooth manifolds]] and [[smooth functions]] is important is that a good supply of bump functions exists; this fact accounts for the great flexibility of smooth objects, in stark contrast to [[analytic geometry|analytic]] or algebraic objects (where bump functions do not exist in these categories). For instance, bump functions can be used to construct _[[partition of unity|partitions of unity]]_, which can in turn be used to smoothly patch together local structures into a global structure without obstruction, as for example [[Riemannian metric|Riemannian metrics]]. 
+One reason the category [[SmthMfd]] of [[smooth manifolds]] and [[smooth functions]] is important is that a good supply of bump functions exists; this fact accounts for the great flexibility of smooth objects, in stark contrast to [[analytic geometry|analytic]] or algebraic varieties (where bump functions do not exist in these categories). For instance, bump functions can be used to construct _[[partition of unity|partitions of unity]]_, which can in turn be used to smoothly patch together local structures into a global structure without obstruction, as for example [[Riemannian metric|Riemannian metrics]]. 
 
 ## Basic construction 
 
