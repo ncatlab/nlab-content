@@ -186,3 +186,4 @@ and then to find some examples of, say, 5-colourability. What knots are 5-colour
 
 [[!redirects colorability]]
 [[!redirects colourability]]
+category: knot theory
