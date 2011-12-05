@@ -44,6 +44,7 @@ Once given such a projection one can construct a diagram from it in the manner s
 
 The above discussion can be easily extended to handle [[links]] as well as knots.
 
+category: knot theory
 [[!redirects knot diagrams]]
 [[!redirects link diagram]]
 [[!redirects link diagrams]]
