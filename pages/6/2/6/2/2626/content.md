@@ -74,9 +74,9 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 For introductions to Knot Theory,
 
- * R. H. Crowell and R.H. Fox, Introduction to Knot Theory, Springer, Graduate Texts 57, 1963.
+ * [[R. H. Crowell]] and [[R.H. Fox]], Introduction to Knot Theory, Springer, Graduate Texts 57, 1963.
 
- * N. D. Gilbert and T. Porter, Knots and Surfaces, Oxford U.P., 1994.
+ * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
 
 These do not, of course, handle more modern developments.
 
@@ -86,7 +86,7 @@ Other classic sources are
 
 and
 
-* L. H. Kauffman, Knots and Physics, World Scientific, 1991.
+* [[L. H. Kauffman]], Knots and Physics, World Scientific, 1991.
 
 The second of these discusses many of the connections between knots and state sum calculations related to quantum field theories.
 
@@ -94,7 +94,7 @@ Another reference for the classical theory is
 
 * G. Burde and H. Zieschang, Knots, De Gruyter (1989).
 
-
+category: knot theory
 
 [[!redirects knot]]
 [[!redirects knots]]
