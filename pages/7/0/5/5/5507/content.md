@@ -26,7 +26,7 @@ An [[object]] in an [[(∞,1)-topos]] is said to have _cohomological dimension_ 
 +-- {: .num_defn}
 ###### Definition
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] and $n \in \mathbb{N}$ , an [[object]] $X \in \mathbf{H}$ is said to have **cohomological dimension $\leq n$** if for all [[Eilenberg-MacLane object]]s $\mathbf{B}^k A$ for $k \gt A$ the [[cohomology]] of $X$ with these coefficients vanishes:
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $n \in \mathbb{N}$ , an [[object]] $X \in \mathbf{H}$ is said to have **cohomological dimension $\leq n$** if for all [[Eilenberg-MacLane object]]s $\mathbf{B}^k A$ for $k \gt n$ the [[cohomology]] of $X$ with these coefficients vanishes:
 
 
 $$
