@@ -56,7 +56,7 @@ It remains to prove the factorization axioms.  Suppose given a functor $f\colon 
 
 Next, define $D$ to be the category of triples $(a,b,\phi)$ where $\phi\colon f(a)\cong b$ is an isomorphism in $B$.  In other words, it is the [[comma object|strict iso-comma category]] $(f/_\cong 1_b)$.  The projection $D\to B$ is easily shown to be an isofibration, while the functor $A\to D$ defined by $a \mapsto (a, f(a), 1_{f(a)})$ is an injective equivalence.
 
-This completes the proof.  Note that the two factorizations constructed above are in fact functorial.  This model structure is easily seen to be [[cofibrantly generated model category|cofibrantly generated]], although the above factorizations are not those constructed from the [[small object argument]] (though they are closely related to the [[natural weak factorization system]]s produced from Richard Garner's modified small object argument).
+This completes the proof.  Note that the two factorizations constructed above are in fact functorial.  This model structure is easily seen to be [[cofibrantly generated model category|cofibrantly generated]], although the above factorizations are not those constructed from the [[small object argument]] (though they are closely related to the [[algebraic weak factorization system]]s produced from Richard Garner's modified small object argument).
 
 
 ### Without choice
