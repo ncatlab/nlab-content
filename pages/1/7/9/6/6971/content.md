@@ -15,9 +15,9 @@
 
 ## Idea
 
-_Extensional type theory is_ the flavor of [[type theory]] in which two terms $f, g$ of [[function types]] are identified already if all their values agree. 
+_Extensional type theory is_ the flavor of [[type theory]] in which [[function extensionality]] holds by identities: two [[terms]] $f, g$ of [[function types]] are identified if all their values agree, if $\forall x, f(x) = g(x)$.
 
-If this distinction is not made, one speaks of [[intensional type theory]].
+If this distinction is not made, one speaks of [[intensional type theory]]. If, however, the [[univalence axiom]] is added to intensional type theory -- to obtain [[homotopy type theory]] -- then function extensionality holds again, but only by [[equivalence]].
 
 ## Properties
 
