@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
@@ -11,9 +11,10 @@
 
 This entry is about special properties of [[functor]]s on [[comma category|comma categories]]. See also [[category of presheaves]].
 
-#Contents#
+
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Presheaves on over-categories and over-categories of presheaves
 
@@ -92,7 +93,8 @@ and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure 
 
 See [[over-topos]] for more.
 
-## over-categories of (covariant) presheaf categories and (covariant) presheaves on categories of elements
+
+## Over-categories of presheaf categories and presheaves on categories of elements
 
 Generalizing the above,
 
@@ -138,7 +140,8 @@ The action of $\bar{\varphi}(\alpha)$ on arrows of $el(P)$, functoriality, etc i
 
 =--
 
-### relationship with the over-categories statement
+
+### Relationship with the over-categories statement
 
 Putting $D = C^{op}, P = Y(c)$ in the above yields:
 $$
@@ -149,8 +152,8 @@ $$
   \mathbf{Set}^{(C / c)^{op}} \simeq \mathbf{Set}^{C^{op}} / Y(c)
 $$
 
+
 ## In higher category theory
 
 For the analogous result in the context of [[(∞,1)-category]] theory see
 <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-category+of+(infinity%2C1)-presheaves#WithOvercategories">(∞,1)-Category of (∞,1)-presheaves -- Interaction with overcategories</a>
-
