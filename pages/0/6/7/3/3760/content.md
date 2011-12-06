@@ -20,7 +20,7 @@ For a presentation, you give a set of generators $X$, so there will be an epimor
 
 
 ##Definition##
-A  **presentation** of a group $G$ is a pair of sets, written $\langle X; R\rangle$ such that $F=\langle X\rangle$ is the [[free group]] on the set of letters $X$ and $N$ the [[normal subgroup|normal closure]] of the set of relators $R$, together with a specified isomorphism from $F/N$ to $G$.
+A  **presentation** of a group $G$ is a pair of sets, written $\langle X: R\rangle$ such that for $F=F(X)= \langle X\rangle =\langle X:\emptyset\rangle$ is the [[free group]] on the set of letters $X$ and $N$ the [[normal subgroup|normal closure]] of the set of relators $R$, there is  a specified isomorphism from $F/N$ to $G$.
 
 The specified isomorphism is often omitted, as usually the set $X$ of generators is chosen as a subset of the set of elements of $G$.  In this case, but the universal properties of free groups and quotients, there is a unique map $F\to G$ which restricts to the inclusion of $X$, and thereby at most one map $F/N \to G$ which does so; this map is then the one asserted to be an isomorphism.
 
@@ -28,13 +28,20 @@ Sometimes it is convenient to proceed otherwise, however, and to give a specific
 
 ##Examples##
 
-*  $G$ a cyclic group of order $n$ has presentation $\langle a ; a^n\rangle$.
+*  $G$ a cyclic group of order $n$ has presentation $\langle a : a^n\rangle$.
 
-*  $S_3$ has a presentation $\langle a,b ; a^3, b^2,(ab)^2 \rangle$.
+*  $S_3$ has a presentation $\langle a,b : a^3, b^2,(ab)^2 \rangle$.
+
+* The [[trefoil knot|trefoil]] [[knot group]] has two useful presentations:
+
+     * $\langle a,b : a^3= b^2\rangle$, which displays the fact hat the trefoil is a (2,3)-[[torus knot]]; and
+
+     * $\langle x,y : xyx=yxy\rangle$, which shows the link between this group and the Artin [[braid group]], $Br3$.
+
 
 ##Discussion##
 
-*  'Relations' and 'relators': In the discussion of $S_3$ above we had a **relation** $b a = a^2b$. so we are relating two words of $F(X)$. It is often the case that instead of relations we use **relators**, in other words a relation of form $r = 1$ where $r$ is a word in the generators. In the example $ b a = a^2b$ can be easily shown to imply and be implied by $ a b a b = 1$.
+*  '*Relations' and 'relators'*: In the discussion of $S_3$ above we had a **relation** $b a = a^2b$. so we are relating two words of $F(X)$. It is often the case that instead of relations we use **relators**, in other words a relation of form $r = 1$, where $r$ is a word in the generators. In the example $ b a = a^2b$ can be easily shown to imply and be implied by $ a b a b = 1$.
 
 
 *  Given a group presentation as above, we have a 
@@ -53,3 +60,20 @@ $$c = {}^{u_1}(r_1^{\varepsilon_1}){}^{u_2}(r_2^{\varepsilon_2})\ldots
 where each $\varepsilon_i$ is $ + 1$ or $ - 1$.  One also says such elements are **consequences** of 
 $R$.  Heuristically an [[identity among the relations]] of $\mathcal{P}$ is such an element $c$ 
 which equals 1. 
+
+
+##Transformations of a group presentation##
+
+Given a group presentation, it is natural to perform transformations using substitutions, say adding in one new symbol for a string of generators, and adjusting the presentation accordingly.  The valid transformations that do not change the group being presented are formalised as the [[Tietze transformation]]s.
+
+
+##Combinatorial group theory##
+The study of group presentations, their transformations etc. forms part of _combinatorial group theory_
+
+
+
+
+## References
+
+[[!redirects group presentations]]
+category: group theory
