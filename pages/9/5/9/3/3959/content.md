@@ -39,6 +39,12 @@ Basic facts about smooth functions are
 * the [[Steenrod-Wockel approximation theorem]]
 
 
+## Examples
+
+* [[analytic functions]]
+* [[bump functions]]
+
+
 [[!redirects smooth function]]
 [[!redirects smooth functions]]
 [[!redirects smooth map]]
