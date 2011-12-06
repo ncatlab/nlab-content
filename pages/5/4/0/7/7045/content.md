@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[type theory]], a _type of types_ is a [[universe]] of [[types]]. 
+
+In [[homotopy type theory]] a type of types is what [[semantics|semantically]] becomes an [[object classifier]].
+
+## References
+
+* [[Erik Palmgren]], _On Universes in Type Theory_  ([pdf](http://www2.math.uu.se/~palmgren/universe.pdf))
+
+[[!redirects types of types]]
+[[!redirects universe of types]]
+[[!redirects universes of types]]
