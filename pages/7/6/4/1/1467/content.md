@@ -115,3 +115,8 @@ Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even
 
 [[!redirects compact manifold]]
 [[!redirects compact manifolds]]
+
+[[!redirects compact subspace]]
+[[!redirects compact subspaces]]
+[[!redirects compact subset]]
+[[!redirects compact subsets]]
