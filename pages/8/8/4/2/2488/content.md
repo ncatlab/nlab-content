@@ -462,7 +462,7 @@ This simple relation between $n$-truncation and categorical homotopy groups is a
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathbf{H}$ be an [[(∞,1)-topos]] and $X \in \mathbf{H}$ an $n$-truncated object.
+Let $\mathbf{H}$ be an [[(∞,1)-topos]] and $A \in \mathbf{H}$ an $n$-truncated object.
 
 Then
 
@@ -477,7 +477,7 @@ This implies
 +-- {: .num_corollary}
 ###### Corollary
 
-If $X \in \mathbf{H}$ is truncated at all (for any value), then it is $n$-truncated precisely if all categorical homotopy groups vanish $\pi_k(A) = *$ for $k \gt n$.
+If $A \in \mathbf{H}$ is truncated at all (for any value), then it is $n$-truncated precisely if all categorical homotopy groups vanish $\pi_k(A) = *$ for $k \gt n$.
 
 =--
 
