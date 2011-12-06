@@ -47,7 +47,7 @@ Notice that this second proof relies crucially on the fact that free monads have
 
 * The monadicity of the above adjunctions can be used to give [[presentation]]s of monads in terms of generators and relations.  This has close connections with [[Lawvere theories]] and related ideas.
 
-* Free monads on pointed endofunctors play an important role in the construction of cofibrantly generated [[natural weak factorization systems]].
+* Free monads on pointed endofunctors play an important role in the construction of cofibrantly generated [[algebraic weak factorization systems]].
 
 
 ## References
