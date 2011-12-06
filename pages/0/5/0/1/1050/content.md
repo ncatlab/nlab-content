@@ -24,43 +24,34 @@
 
 ## Idea 
 
-In homological algebra, a central place is played by [[exact sequence]]s, originally of modules, and the fact that various functors destroy exactness to some extent gave vital information on those functors. For all modules, $M$, for instance, and a short [[exact sequence]], $0 \to A \to B \to C \to 0$  of modules (over some ring $R$), the sequence,
+In homological algebra, a central place is played by [[exact sequence]]s, (originally of modules), and the fact that various functors preserve or destroy exactness to some extent gave vital information on those functors.
+
+In this context, one says that an **exact functor** is one that preserves exact sequences.  However, many functors are only "exact on one side or the other".  For instance, for all modules $M$ and short [[exact sequence]]s $0 \to A \to B \to C \to 0$  of modules (over some ring $R$), the sequence
 
 $$0 \to Mod_R(M, A) \to Mod_R(M,B) \to Mod_R(M,C)$$ 
 
-is exact, (but note no right hand 0), so $F(-) = Mod_R(M,-)$ converts an exact sequence into a left exact sequence. It is a left exact functor.
+is exact, (but note no right hand 0).  Thus $F(-) = Mod_R(M,-)$ converts an exact sequence into a left exact sequence; such a functor is called a **left exact functor**.  Dually, one has **right exact functors**.
 
-It is easy to see that such a functor is left exact if it preserves finite limits, but that condition itself does not require the functor to be additive, so we get as a generalisation:
-
+It is easy to see that an [[additive functor]] between [[additive categories]] is left exact if and only if it preserves finite limits.  Since merely preserving left exact sequences does not require a functor to be additive, in a non-additive context one defines a **left exact functor** to be one which preserves finite limits, and dually.
 
 
 ## Definition#
-A [[functor]] is called _left exact_ or [[flat functor|flat]] if it preserves [[finite limits]], and _right exact_ if it preserves [[finite colimits]].
-A functor is called _exact_ if it is both left and right exact.
 
-Specifically [[Ab]]-[[enriched functor]]s between [[abelian categories]] are exact if they preserve [[exact sequence]]s.
+A [[functor]] between [[finitely complete categories]] is called __left exact__ (or [[flat functor|flat]]) if it preserves [[finite limits]].  Dually, a functor between finitely cocomplete categories is called __right exact__ if it preserves [[finite colimits]].  A functor is called __exact__ if it is both left and right exact.
+
+Specifically, [[Ab]]-[[enriched functor]]s between [[abelian categories]] are exact if they preserve [[exact sequence]]s.
 
 
 ##Characterisations
 
 +-- {: .un_prop}
 ###### Proposition
-* A [[functor]] $F : C \to D$ is **right exact** if for all [[objects]] $d \in D$ the [[comma category]] $F/d$ is [[filtered category|filtered]].
+* A [[functor]] $F : C \to D$ between finitely cocomplete categories is right exact if and only if for all [[objects]] $d \in D$ the [[comma category]] $F/d$ is [[filtered category|filtered]].
 
-* A [[functor]] $F : C \to D$ is **left exact** if for all [[objects]] $d \in D$ the [[opposite category|opposite]] [[comma category]] $(d/F)^{op}$ is [[filtered category|filtered]].
-
+* A [[functor]] $F : C \to D$ between finitely complete categories is left exact if and only if for all [[objects]] $d \in D$ the [[opposite category|opposite]] [[comma category]] $(d/F)^{op}$ is [[filtered category|filtered]].
 =--
 
-
-
-+-- {: .un_prop}
-###### Proposition
-
-A left exact functor preserves every [[finite limit]] that exists in $C$.
-
-If $C$ admits all [[finite limits]] then a functor is left exact if and only if it preserves these limits.  
-
-=--
+In other language, this says that a functor between finitely complete categories is left exact if and only if it is (representably) [[flat functor|flat]].  Conversely, one can show that a representably flat functor preserves all finite limits that exist in its domain.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -91,7 +82,7 @@ is the equalizer of $F(f), F(g): F(c) \stackrel{\to}{\to} F(d)$, whenever $i: e 
 +-- {: .un_remark}
 ###### Terminology
 
-Frequently the term "left exact" is restricted to the case that $C$ has all [[finite limits]]. If so,  then the general case is called a [[flat functor]]. 
+Some author use the term "left exact" when $C$ does not have all [[finite limits]], defining it to mean a [[flat functor]]. 
 
 'Left exact' is sometimes abbreviated **lex**.  In particular, [[Lex]] is the 2-category of categories with [[finite limits]] and lex functors.  See also [[continuous functor]].   Similarly, but more rarely, 'right exact' is sometimes abbreviated as **rex**.
 
