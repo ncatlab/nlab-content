@@ -18,21 +18,21 @@
 =--
 
 #Contents#
-* tic
+* table of contents
 {: toc}
 
 
 ## Idea 
 
-In homological algebra, a central place is played by [[exact sequence]]s, (originally of modules), and the fact that various functors preserve or destroy exactness to some extent gave vital information on those functors.
+In [[homological algebra]], a central role is played by [[exact sequence]]s (originally of [[modules]]) and the fact that various [[functors]] preserve or destroy exactness of sequences to some extent gave vital information on those functors.
 
-In this context, one says that an **exact functor** is one that preserves exact sequences.  However, many functors are only "exact on one side or the other".  For instance, for all modules $M$ and short [[exact sequence]]s $0 \to A \to B \to C \to 0$  of modules (over some ring $R$), the sequence
+In this context, one says that an **exact functor** is one that preserves exact sequences.  However, many functors are only "exact on one side or the other".  For instance, for all modules $M$ and [[short exact sequences]] $0 \to A \to B \to C \to 0$  of modules (over some ring $R$), the sequence
 
 $$0 \to Mod_R(M, A) \to Mod_R(M,B) \to Mod_R(M,C)$$ 
 
-is exact, (but note no right hand 0).  Thus $F(-) = Mod_R(M,-)$ converts an exact sequence into a left exact sequence; such a functor is called a **left exact functor**.  Dually, one has **right exact functors**.
+is exact -- but note that there is no 0 on the right hand.  Thus $F(-) = Mod_R(M,-)$ converts an exact sequence into a _left_ exact sequence; such a functor is called a **left exact functor**.  Dually, one has **right exact functors**.
 
-It is easy to see that an [[additive functor]] between [[additive categories]] is left exact if and only if it preserves finite limits.  Since merely preserving left exact sequences does not require a functor to be additive, in a non-additive context one defines a **left exact functor** to be one which preserves finite limits, and dually.
+It is easy to see that an [[additive functor]] between [[additive categories]] is left exact in this sense if and only if it preserves [[finite limits]].  Since merely preserving left exact sequences does not require a functor to be additive, in a non-additive context one defines a **left exact functor** to be one which preserves finite limits, and dually.
 
 
 ## Definition#
