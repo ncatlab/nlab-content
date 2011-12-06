@@ -60,6 +60,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[dsk]]
 * [[Edmund Harriss]]
 * [[Eduardo Ochs]]
+* [[Eduardo Pareja-Tobes]]
 * [[Emily Riehl]]
 * [[Eric Forgy]]
 * [[Eric Katerman]]
