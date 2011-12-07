@@ -30,9 +30,30 @@ A [[geometric morphism]] $ (f^* \dashv f_*) : F \underoverset{f_*}{f^*}{\leftrig
 
 ## Properties
 
+
 ### Relation to connectedness
 
 If $f$ is locally connected, then it makes sense to think of the left adjoint $f_!$ as assigning to an object of $F$ its "set of connected components" in $E$.  In particular, if $f$ is locally connected, then it is moreover [[connected geometric morphism|connected]] if and only if $f_!$ preserves the [[terminal object]].  However, not every connected geometric morphism is locally connected.
+
+### Over $Set$
+
+Over the [[base topos]] $E = $ [[Set]] every [[connected topos]] which is [[essential geometric morphism|essential]] is automatically locally connected.
+
+This is because the required [[Frobenius reciprocity]] condition 
+
+$$
+  f_!(A \times f^* (B)) \simeq f_!(A) \times B
+$$
+
+is automatically satisfied, using that [[cartesian product]] with a [[set]] is equivalently a [[coproduct]]
+
+$$
+  A \times B = \coprod_{a \in A} B
+  \,,
+$$
+
+that the [[left adjoint]] $f_!$ preserves coproducts, and that for $f^*$ [[full and faithful]] we have $f_! f^* \simeq Id$. 
+
 
 ### Coreflectivity
 
