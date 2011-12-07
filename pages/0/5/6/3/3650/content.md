@@ -54,6 +54,41 @@ $$
 
 that the [[left adjoint]] $f_!$ preserves coproducts, and that for $f^*$ [[full and faithful]] we have $f_! f^* \simeq Id$. 
 
+### Strong adjunctions
+ {#StrongAdjunctions}
+
+The pair of [[adjoint functors]] $(f_! \dashv f^*)$ in a locally connected geometric morphisms forms a "strong adjunction" in that it holds also for the [[internal homs]] in the sense that there is an [[natural isomorphism]]
+
+$$
+  [f_!(X), A] \simeq f_* [X, f^* A]
+$$
+
+for all $X, A$. This follows by duality from the [[Frobenius reciprocity]] that characterizes $f_*$ being a [[cartesian closed functor]]:
+
+by the [[Yoneda lemma]], the morphism in question is an [[isomorphism]]
+if for all objects $A,B, X$ the morphism
+
+$$
+  Hom(X, [f_!(A), B]) 
+   \stackrel{}{\to}
+  Hom(X,f_*[A,f^*(B)])
+$$
+
+is a bijection. By [[adjunction]] this is the same as
+
+$$
+  Hom(X \times f_!(A), B) \stackrel{\simeq}{\to}
+  Hom(f_!(f^*(X) \times A), B)
+  \,.
+$$
+
+Again by Yoneda, this is a bijection precisely if
+
+$$
+  f_!(f^*(X) \times A) \to X \times f_!(A)
+$$
+
+is an [[isomorphism]]. But this is the [[Frobenius reciprocity]] condition on $f^*$.
 
 ### Coreflectivity
 
