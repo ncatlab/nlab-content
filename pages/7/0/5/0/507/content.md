@@ -62,6 +62,9 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[cartesian closed category]]
 * [[locally cartesian closed category]]
 
+* [[cartesian closed functor]]
+* [[Frobenius reciprocity]]
+
 #### A1.6 Subobject classifiers
 
 * [[subobject classifier]]
