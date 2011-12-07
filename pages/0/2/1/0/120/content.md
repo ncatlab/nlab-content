@@ -1,7 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Equivalence
 * table of contents
 {: toc}
-
 
 ## Idea
 
@@ -29,11 +43,18 @@ There is also the more structured/coherent notion of an [[adjoint equivalence]],
 In addition to this, there is the notion of [[equivalence of categories]] (and higher categories), which is on a separate page.  But it is related: properly done, two $n$-categories are equivalent if and only if they\'re equivalent as objects in the $(n+1)$-category of $n$-categories.
 
 
-## In homotopy theory #
+## In homotopy theory 
 
-In the category of topological spaces, notions weaker than isomorphism become very important: [[homotopy equivalence]] and [[weak homotopy equivalence]].  The latter notion is generalized to [[weak equivalence]] for objects in any [[model category]].  There is also a notion of equivalence between model categories: [[Quillen equivalence]].  
+In the category [[Top]] of topological spaces, notions weaker than isomorphism become very important: [[homotopy equivalence]] and [[weak homotopy equivalence]].  The latter notion is generalized to [[weak equivalence]] for objects in any [[model category]].  There is also a notion of equivalence between model categories: [[Quillen equivalence]].  
 
 These can be understood to some extent using higher categories.  For example, topological spaces should be weakly homotopy-equivalent if and only if they have equivalent [[fundamental infinity-groupoid|fundamental infinity-groupoids]].  Similarly, Quillen equivalent model categories give rise to equivalent [[(infinity,1)-category|(infinity,1)-categories]].
+
+See [[equivalence in an (infinity,1)-category]].
+
+## In homotopy type theory
+
+In [[homotopy type theory]] equivalences can be axiomatized as those [[terms]] of [[function types]] all whose [[homotopy fibers]] are [[contractible]]:  have [[h-level]] 0.
+
 
 ## Related concepts
 
@@ -53,6 +74,12 @@ These can be understood to some extent using higher categories.  For example, to
 
 * [[equivalence of (∞,1)-categories]]
 
+
+## References
+
+An introduction to equivalences in [[homotopy theory]]/[[homotopy type theory]] is in 
+
+* [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
 
 [[!redirects equivalences]]
 [[!redirects equivalent]]
