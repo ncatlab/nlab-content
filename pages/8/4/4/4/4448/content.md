@@ -1,6 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -15,11 +29,13 @@ The Freyd cover is the special case $F = \mathcal{T} (1, -)$.
 
 The Freyd cover is sometimes known as the **Sierpinski cone** or **scone**, because in [[topos theory]] it behaves similarly to the [[cone]] on a space, but with the [[interval]] $[0,1]$ replaced by the [[Sierpinski space]].
 
-## Application 
+## Properties
+
+### Relation to the initial topos
 
 One of the first applications of the Freyd cover was to deduce facts about the initial topos (initial with respect to [[logical morphism|logical morphisms]]). They were originally proved by syntactic means; the conceptual proofs of the lemma and theorem below are due to Freyd. 
 
-+-- {: .un_lem}
++-- {: .num_lemma}
 ###### Lemma 
 For any category $C$ with a terminal object $\mathbf{1}$, the terminal object of the Freyd cover $\widehat{C}$ is connected and projective, i.e., the representable $\Gamma = \widehat{C}(1, -) \colon \widehat{C} \to Set$ preserves any colimits that exist. 
 =-- 
@@ -33,7 +49,7 @@ $$\widehat{C}^{op} \stackrel{\Gamma^{op}}{\to} Set^{op} \stackrel{2^-}{\to} Set$
 preserves limits, because the contravariant power set functor $P = 2^-$ is monadic. But it is easily checked that this composite is the contravariant representable given by $(2, \mathbf{1}, 2 \to \Gamma(\mathbf{1}))$. 
 =-- 
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ###### Theorem 
 The terminal object in the initial topos $\mathcal{T}$ is connected and projective, i.e., $\Gamma = \hom(1, -) \colon \mathcal{T} \to Set$ preserves finite colimits. 
 =-- 
@@ -51,15 +67,27 @@ Since $\mathcal{T}$ is initial, $\pi$ is a retraction for the unique logical fun
 Finally, since $\mathcal{T}(1, -)$ is a retract of a functor $\widehat{\mathcal{T}}(1, i-)$ that preserves finite colimits (by the lemma, and the fact that the logical functor $i$ preserves finite colimits), it must also preserve finite colimits. 
 =--
 
+### As a local topos
+ {#AsALocalTopos}
+
+The Freyd cover of a [[topos]] is a [[local topos]], and in fact freely so. Every local topos is a [[retract]] of a Freyd cover.
+
+See ([Johnstone, lemma C3.6.4](#Johnstone)).
+
 ## References
 
 You can find more on Artin gluing in this important (and nice) paper:
 
-* Aurelio Carboni, Peter Johnstone, _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science 5 (1995), 441--459
+* Aurelio Carboni, [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science 5 (1995), 441--459
 
 plus
 
-* Aurelio Carboni, Peter Johnstone, _Corrigenda to 'Connected limits...'_ , Mathematical Structures in Computer Science 14 (2004), 185--187.
+* Aurelio Carboni, [[Peter Johnstone]], _Corrigenda to 'Connected limits...'_ , Mathematical Structures in Computer Science 14 (2004), 185--187.
+
+See also section C3.6 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+  {#Johnstone}
 
 Some of the above material is taken from 
 
