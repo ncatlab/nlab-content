@@ -37,7 +37,7 @@ If a strongly connected topos is also a [[local topos]], then it is a [[cohesive
 ## Terminology
  {#Terminology}
 
-The "strong" in "strongly connected" may be read as referring to $f_! \dashv f^*$ being a "strong adjunction" in that we have a [[natural isomorphism]] for the [[internal homs]] in the sense that
+The "strong" in "strongly connected" may be read as referring to $f_! \dashv f^*$ being a [[strong adjoint functor|strong adjunction]] in that we have a [[natural isomorphism]] for the [[internal homs]] in the sense that
 
 $$
   [f_! X, A] \simeq f_* [X, f^* A]  
