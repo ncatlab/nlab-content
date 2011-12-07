@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea  ##
@@ -24,7 +24,7 @@ A [[model category]] $C$ is _cofibrantly generated_ if there is a [[set]]
 
 We need the following general terminology
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (cells and injectives)
 
 Let $C$ be a category with all [[colimit]]s and let $S \subset Mor(C)$ a class of morphisms. We write
@@ -38,7 +38,7 @@ Let $C$ be a category with all [[colimit]]s and let $S \subset Mor(C)$ a class o
 
 Moreover, we also write, now for $I \subset Mor(C)$: 
 
-* $cell(I)$ for the class of morphisms obtained by [[transfinite composition]] of [[pushout]]s of elements in $I$;
+* $cell(I)$ for the [[relative cell complexes]], the class of morphisms obtained by [[transfinite composition]] of [[pushout]]s of elements in $I$;
 
 * $cof(I)$ for the class of [[retract]]s (in the [[arrow category]] $Arr(C)$) of elements in $cell(I)$
 
@@ -46,7 +46,7 @@ Moreover, we also write, now for $I \subset Mor(C)$:
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (cofibrantly generated model category)
 
 
@@ -62,7 +62,7 @@ A [[model category]] with all [[colimit]]s is **cofibrantly generated** if there
 
 Since $I$ and $J$ are assumed to admit the [[small object argument]] the collection of cofibrations and acyclic cofibrations has the following simpler characterization:
 
-+-- {: .un_proposition}
++-- {: .num_proposition}
 ###### Proposition
 
 In a cofibrantly generated model category we have
@@ -125,7 +125,7 @@ Therefore $f \in cof(I)$.
 
 The following theorem allows to recognize cofibrantly generated model categories by checking fewer conditions.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem (recognition theorem for cofibrantly generated model categories)
 
 Let $C$ be a [[category]] with all small [[limit]]s and [[colimit]]s and  $W$ a class of maps satisfying [[category with weak equivalences|2-out-of-3]] 
