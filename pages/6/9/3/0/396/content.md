@@ -1,11 +1,29 @@
-#Definition#
 
-A **full and faithful functor** is, surprisingly enough, a [[functor]] which is both [[full functor|full]] and [[faithful functor|faithful]].  "Full and faithful" is sometimes shortened to "fully faithful" or "ff."   See also [[subcategory]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A **full and faithful functor** is a [[functor]] which is both [[full functor|full]] and [[faithful functor|faithful]].  "Full and faithful" is sometimes shortened to "fully faithful" or "ff."   See also [[subcategory]].
+
+## Properties
 
 Together with [[bo functor|bijective-on-objects functors]], ff functors form an [[bo-ff factorization system|orthogonal factorization system]] on $Cat$. Less [[evil]]ly, pair them with [[essentially surjective functor]]s to get a bicategorial factorization system.
 
 
-#Higher categorical generalizations#
+## Higher categorical generalizations
 
 There is a bigger pattern at work here which is indicated at [[stuff, structure, property]] and [[k-surjective functor]].
 
@@ -15,8 +33,9 @@ For [[(∞,1)-category|(∞,1)-categories]] the corresponding notion of fully fa
 
 
 
-
 [[!redirects fully faithful functor]]
 [[!redirects full and faithful functors]]
 [[!redirects fully faithful functors]]
 [[!redirects fully faithful]]
+
+[[!redirects full and faithful]]
