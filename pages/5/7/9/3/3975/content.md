@@ -89,3 +89,7 @@ Together with [[closed natural transformations]], closed categories and closed f
 [[!redirects closed functors]]
 [[!redirects closed monoidal functor]]
 [[!redirects closed monoidal functors]]
+[[!redirects lax closed functor]]
+[[!redirects lax closed functors]]
+[[!redirects strong closed functor]]
+[[!redirects strong closed functors]]
