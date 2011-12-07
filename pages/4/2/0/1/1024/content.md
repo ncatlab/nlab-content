@@ -74,8 +74,23 @@ An [[element in an abelian category]] is an equivalence class of generalised ele
 ## Relationship to type theory
 
 In the [[internal language|internal]] [[type theory]] of a category $C$, the generalized elements of $X$ at stage $U$ can be identified with [[terms]] of type $X$ in [[context]] $u\colon U$:
-$$ u\colon U \vdash x(u) \colon X. $$
+$$ 
+   u\colon U \vdash x(u) \colon X
+  \,. 
+$$
+See the references [below](#ReferencesInTypeTheory).
+
 The fact that all type-theoretic constructions can be performed in any context implies that we can manipulate ordinary elements, and end up speaking also about generalized elements defined at arbitrary stages.
+
+
+## References
+
+### In type theory
+ {#ReferencesInTypeTheory}
+
+The interpretation of [[terms]] in [[type theory]] as generalized elements of objects in a category is discussed for instance on p. 8 of
+
+* [[Steve Awodey]], [[Andrej Bauer]], _Propositions as $[$Types$]$_, Journal of Logic and Computation. Volume 14, Issue 4, August 2004, pp. 447-471 ([pdf](http://andrej.com/papers/brackets_letter.pdf))
 
 
 [[!redirects generalised element]]
