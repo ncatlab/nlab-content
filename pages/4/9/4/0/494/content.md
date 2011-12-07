@@ -566,7 +566,11 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 ## Related concepts
 
-* **adjoint functor**, [[adjoint triple]], [[adjoint quadruple]]
+* **adjoint functor**, [[adjunction]]
+
+  * [[strong adjoint functor]]
+
+  * [[adjoint triple]], [[adjoint quadruple]]
 
 * [[proadjoint]], [[Hopf adjunction]]
 
