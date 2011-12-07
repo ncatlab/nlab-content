@@ -1,0 +1,4 @@
+* [English Wikipedia entry](http://en.wikipedia.org/wiki/Beno_Eckmann)
+
+[[!redirects B. Eckmann]]
+category:people
