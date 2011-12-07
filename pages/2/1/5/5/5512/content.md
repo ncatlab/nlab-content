@@ -127,7 +127,11 @@ The term 'Frobenius reciprocity', in the context of hyperdoctrines, was introduc
 
 * F.W. Lawvere, _Adjointness in Foundations_, TAC Reprint, 2006. [(link)](http://www.tac.mta.ca/tac/reprints/articles/16/tr16abs.html)
 
-Manifestations of the Frobenius reciprocity formula, in the sense of this [section](http://ncatlab.org/nlab/show/Frobenius+reciprocity#in_category_theory_10), recur throughout mathematics in various forms (push-pull formula, projection formula); see for example this Math Overflow post: 
+A textbook source is around lemma 1.5.8 in 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+Manifestations of the Frobenius reciprocity formula, in the sense of [this section](#in cats), recur throughout mathematics in various forms (push-pull formula, projection formula); see for example this Math Overflow post: 
 
 * Andrea Ferretti, Ubiquity of the push-pull formula, MO Question 18799, March 20, 2010. [(link)](http://mathoverflow.net/questions/18799/ubiquity-of-the-push-pull-formula)
 
