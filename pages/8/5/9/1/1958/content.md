@@ -1,5 +1,5 @@
 
-Given a [[manifold]] (or [[generalized smooth space]]) $X$, the __cotangent bundle__ $T^*(X)$ of $X$ is the [[vector bundle]] over $X$ dual to the [[tangent bundle]] $T_*(X)$ of $X$.  A __cotangent vector__ or __covector__ on $X$ is an element of $T^*(X)$.  The __cotangent space__ of $X$ at a point $a$ is the [[fiber]] $T^*_a(X)$ of $T^*(X)$ over $a$; it is a [[vector space]].  A __covector field__ on $X$ is a [[section]] of $T^*(X)$.  (More generally, a [[differential form]] on $X$ is a section of the [[exterior algebra]] of $T^*(X)$; a covector field is a differential $1$-form.)
+Given a [[manifold]] (or [[generalized smooth space]]) $X$, the __cotangent bundle__ $T^*(X)$ of $X$ is the [[vector bundle]] over $X$ dual to the [[tangent bundle]] $T_*(X)$ of $X$.  A __cotangent vector__ or __covector__ on $X$ is an element of $T^*(X)$.  The __cotangent space__ of $X$ at a point $a$ is the [[fiber]] $T^*_a(X)$ of $T^*(X)$ over $a$; it is a [[vector space]].  A __covector field__ on $X$ is a [[section]] of $T^*(X)$.  (More generally, a [[differential form]] on $X$ is a section of the [[exterior algebra]] of $T^*(X)$; a covector field is a __differential $1$-form__.)
 
 Given a covector $\omega$ at $a$ and a [[tangent vector]] $v$ at $a$, the pairing $\langle{\omega,v}\rangle$ is a [[scalar]] (a [[real number]], usually).  This (with some details about linearity and universality) is basically what it means for $T^*(X)$ to be dual to $T_*(X)$.  More globally, given a covector field $\omega$ and a [[tangent vector field]] $v$, the paring $\langle{\omega,v}\rangle$ is a scalar [[function]] on $X$.
 
@@ -29,6 +29,10 @@ This fact can also be used as the basis of a definition of the cotangent bundle.
 [[!redirects covector fields]]
 [[!redirects cotangent vector field]]
 [[!redirects cotangent vector fields]]
+[[!redirects differential 1-form]]
+[[!redirects differential 1-forms]]
+[[!redirects 1-form]]
+[[!redirects 1-forms]]
 
 [[!redirects cotangent bundle]]
 [[!redirects cotangent bundles]]
