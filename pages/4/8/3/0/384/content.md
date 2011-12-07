@@ -37,6 +37,8 @@ A "relative" CW-complex $(X, A)$ is similar, except $X_0$ is the disjoint union 
 
 A _finite CW-complex_ is one which admits a presentation in which there are only finitely many attaching maps, and similarly a _countable CW-complex_ is one which admits a presentation with countably many attaching maps. 
 
+Formally this means that (relative) CW-complexes are (relative) [[cell complexes]] with respect to the [[cofibrantly generated model category|generating cofibrations]] in the standard [[model structure on topological spaces]].
+
 Milnor has argued that the category of spaces which are homotopy equivalent to CW-complexes, also called [[m-cofibrant space]]s, is a convenient category of spaces for algebraic topology.
 
 
@@ -56,9 +58,9 @@ Milnor has argued that the category of spaces which are homotopy equivalent to C
 
 ## References
 
-* J.P. May, [[A Concise Course in Algebraic Topology]], U. Chicago Press, 1999. 
+* [[Peter May]], _[[A Concise Course in Algebraic Topology]]_, U. Chicago Press, 1999. 
 
-* J. Milnor, On spaces having the homotopy type of a CW-complex, Trans. Amer. Math. Soc. 90 (2) (1959), 272-280.
+* [[John Milnor]], _On spaces having the homotopy type of a CW-complex_, Trans. Amer. Math. Soc. 90 (2) (1959), 272-280.
 
 
 [[!redirects CW complex]]
