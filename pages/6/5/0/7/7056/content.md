@@ -27,7 +27,7 @@ $$\array{
 \mathllap{\bot \times 1_X} \downarrow & & \downarrow \mathrlap{v} \\
 \mathbf{2} \times X & \to & s(X),
 }$$
-is a focal point. 
+is a focal point. This construction is in fact the same as generically adding a focal point to $X$. 
 
 ## Properties
 
