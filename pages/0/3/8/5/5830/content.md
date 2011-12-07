@@ -230,7 +230,11 @@ Introductions to the idea of homotopy type theory include
 * [[Vladimir Voevodsky]], _[Univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
   {#Voevodsky}
 
-A guided walk through the formal proof in [[Coq]] that the [[univalence axiom]] implies [[functional extensionality]] is at
+An introduction to the notion of [[equivalence]] in HoTT is in
+
+* [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
+
+A guided walk through the basics of HoTT and then the formal proof in [[Coq]] that the [[univalence axiom]] implies [[functional extensionality]] is at
 
 * [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
 
