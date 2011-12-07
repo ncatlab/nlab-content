@@ -75,6 +75,15 @@ The [[global section]] geometric morphism of any local $\mathcal{S}$-topos (over
 
 This appears in ([Shulman](#Shulman)).
 
++-- {: .num_prop}
+###### Proposition
+
+The [[Freyd cover]] of a [[topos]] is a [[local topos]], and in fact freely so. Every local topos is a [[retract]] of a Freyd cover.
+
+=--
+
+This appears as ([Johnstone, lemma C3.6.4](#Johnstone)).
+
 ### Concrete sheaves
 
 Every local topos $\Gamma : E \to S$ comes with a notion of [[concrete sheaves]], a [[reflective subcategory]] $Conc_\Gamma(E) \hookrightarrow E$ which factors the topos inclusion of $S$:
