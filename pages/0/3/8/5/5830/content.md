@@ -27,12 +27,21 @@
 
 ## Idea
 
-_Homotopy type theory_ is [[intensional type theory|intensional]] ([[Martin-Löf type theory|Martin-Löf]]-)[[dependent type theory]]  equipped with the [[univalence axiom]]. 
+_Homotopy type theory_ refers broadly to the interpretation of [[intensional type theory|intensional]] ([[Martin-Löf type theory|Martin-Löf]]-)[[dependent type theory]] in homotopy theory.  It is characterized by the viewpoint that [[identity types]] represent [[path spaces]], and are thereby used to define various concepts in homotopy theory.
 
-Its [[semantics]] interprets [[types]] not as [[sets]] but as [[homotopy types]]/[[∞-groupoids]].
-Where [[extensional type theory]] is the [[internal language]] of [[locally cartesian closed categories]], [[intensional type theory]] with the [[identity types]] that it provides and supplemented by univalence behaves like the [[internal language of an (∞,1)-topos]]. 
+In the categorical [[semantics]] of homotopy type theory, [[types]] are interpreted not as [[set]]-like objecst, but as [[homotopy type]] or [[∞-groupoid]]-like objects.  Thus, whereas [[extensional type theory]] can serve as the [[internal language]] of [[1-categories]] (such as [[pretoposes]], [[locally cartesian closed categories]], or [[elementary toposes]]), homotopy type theory can serve as an internal language for various kinds of [[(∞,1)-category]].  (At present, such models are usually constructed by way of 1-categorical presentations of (∞,1)-categories using [[model categories]] and related structures such as [[weak factorization systems]]).
 
-Some details are still being worked out, but the impression is that homotopy type theory thus should serve as a [[foundation]] for [[mathematics]] that is natively about [[homotopy theory]]/[[(∞,1)-category theory]].
+In addition to a viewpoint on identity types and a general class of categorical models, homotopy type theory is characterized by new homotopically motivated axioms and type-theoretic structures.  Notable among these are:
+
+* Voevodsky's [[univalence axiom]], which represents [[object classifiers]] in (∞,1)-categorical semantics.
+
+* Strong [[function extensionality]], which is a consequence of univalence.
+
+* [[higher inductive type|Higher inductive types]], which among other things enable the construction of finite (∞,1)-[[colimits]], [[cell complexes]], [[n-truncated object of an (infinity,1)-category|truncations]], [[localizations]], and other objects which in classical homotopy theory are constructed using the [[small object argument]].
+
+With all of these axioms included, homotopy type theory behaves like the [[internal language of an (∞,1)-topos]], and conjecturally should admit actual models in any (∞,1)-topos. 
+
+Many details are still being worked out, but the impression is that homotopy type theory thus should serve as a [[foundation]] for [[mathematics]] that is natively about [[homotopy theory]]/[[(∞,1)-category theory]] --- in other words, a foundation in which *homotopy types*, rather than sets, are basic objects.
 
 ## Properties
 
