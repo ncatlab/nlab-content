@@ -17,6 +17,18 @@
 
 A [[point]] of a [[topological space]] is called **focal** ([Freyd-Scedrov](#FreydScedrov)) is its only [[open neighbourhood]] is the entire space.
 
+## Examples 
+
+* The closed point $\bot$ of [[Sierpinski space]] $\mathbf{2}$ is a focal point. 
+
+* The vertex $v$ of a Sierpinski cone (or [[scone]]) $s(X)$ on a space $X$, given by a pushout in $Top$ 
+$$\array{
+1 \times X & \to & 1 \\
+\mathllap{\bot \times 1_X} \downarrow & & \downarrow \mathrlap{v} \\
+\mathbf{2} \times X & \to & s(X),
+}$$
+is a focal point. 
+
 ## Properties
 
 The [[category of sheaves]] over (the [[site of open subsets]]) of a topological space with focal point is a [[local topos]].
