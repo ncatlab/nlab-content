@@ -1,0 +1,73 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
+A _cartesian closed functor_ is a [[closed functor]] between [[cartesian closed categories]].
+
+## Properties
+
++-- {: .num_prop}
+###### Proposition
+**(Frobenius reciprocity)**
+
+Let $R : \mathcal{C} \to \mathcal{D}$ be a [[functor]] between [[cartesian closed categories]] with a [[left adjoint]] $L$. Then $R$ is cartesian closed precisely if the [[natural transformation]]
+
+$$
+  (L \pi_1, \epsilon_A L \pi_2)
+  : 
+  L(B \times R(A))
+  \to 
+  L(B) \times A
+$$
+
+is an [[isomorphism]].
+
+=--
+
+This is called the **[[Frobenius reciprocity]]** law.
+
+This is discussed for instance as ([Johnstone, lemma 1.5.8](#Johnstone)).
+
+Let still $R$ and $L$ be as above.
+
++-- {: .num_cor}
+###### Corollary
+
+If $R$ is [[full and faithful]] and $L$ preserves binary [[products]], then $R$ is cartesian closed.
+
+=--
+
+For instance ([Johnstone, corollary A1.5.9](#Johnstone)).
+
+
+## Related concepts
+
+* [[locally cartesian closed functor]]
+
+
+## References
+
+For instance section A1.5 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
+
+[[!redirects cartesian closed functors]]
