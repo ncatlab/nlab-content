@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[point]] of a [[topological space]] is called **focal** ([Freyd-Scedrov](#FreydScedrov)) is its only [[open neighbourhood]] is the entire space.
+A [[point]] of a [[topological space]] is called **focal** ([Freyd-Scedrov](#FreydScedrov)) if its only [[open neighbourhood]] is the entire space.
 
 ## Examples 
 
