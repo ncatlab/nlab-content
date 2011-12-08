@@ -214,6 +214,12 @@ A review is in
 
 * [[John Baez]], [[Alex Hoffnung]], _Convenient categories of smooth spaces_, to appear, Trans. AMS, ([arXiv](http://arxiv.org/abs/0807.1704))
 
+More generally, quasi-[[sheaf toposes]] are discussed in
+
+* [[Richard Garner]], [[Stephen Lack]], _Grothendieck quasitoposes_ ([arXiv:1106.5331](http://arxiv.org/abs/1106.5331))
+ {#GarnerLack}
+
+
 
 [[!redirects quasitopoi]]
 [[!redirects quasitoposes]]
