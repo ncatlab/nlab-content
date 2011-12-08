@@ -19,7 +19,7 @@
 For $G$ a [[group]] and $H \hookrightarrow G$ a subgroup, the left/right _cosets_ are the $H$-orbits in $G$ under the [[action]] by left/right multiplication. 
 
 $$
-  G/H = \{h K | h \in H\}
+  G/H = \{g H | g \in G\}
   \,.
 $$
 
@@ -27,3 +27,24 @@ $$
 
 The coset inherits the structure of a group if $H$ is a [[normal subgroup]].
 
+The natural projection $G\to G/H$, mapping the element $g$ to the element $g H$, realizes $G$ as an $H$-[[principal bundle]] over $G/H$. We therefore have a [[homotopy pullback]]
+$$
+  \array{
+   G & \to&* 
+   \\
+    \downarrow && \downarrow
+   \\
+   G/H &\to& \mathbf{B}H
+  }
+$$
+where $\mathbf{B}H$ is the [[delooping|delooping groupoid]] of $H$.
+By the 2-out-of-3 law for pasting homotopy pullbacks then we get the [[homotopy pullback]]
+$$
+  \array{
+   G/H & \to&\mathbf{B}H 
+   \\
+    \downarrow && \downarrow
+   \\
+   * &\to& \mathbf{B}G
+  }
+$$
