@@ -58,6 +58,10 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 * [Aarhus](http://www.imf.au.dk/forskning/publikationer/instituttets-serier/year/2010/series/pp) math institute, preprints and dissertations
 * encyclopaedias in Russian online: [dic.academic.ru](http://dic.academic.ru)
 
+#### Online computational engines
+
+* Wolphramalpha(http://www.wolframalpha.com)
+
 #### Not only math and physics
 
 * [JSTOR](http://www.jstor.org) -- a big repository of past issues of main, mainly American and English journals -- requires institution subscription
