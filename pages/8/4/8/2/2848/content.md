@@ -48,6 +48,8 @@ In [[propositional logic]], we fix a single context (considered the [[empty cont
 
 ## Related concepts
 
+* [[type of propositions]]
+
 * [[bracket type]]
 
 [[!redirects proposition]]
