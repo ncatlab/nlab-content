@@ -154,7 +154,8 @@ The application of $Span_n(\infty Grpd)/C$ to the construction of [[FQFT]]s is f
 
 A discussion of a version $Span(B)$for $B$ a [[2-category]] with $Span(B)$ regarded as a [[tricategory]] and then as a 1-object [[tetracategory]] is in
 
-* [[Alex Hoffnung]], _Spans in 2-categories_ ([pdf](http://mysite.science.uottawa.ca/hoffnung/papers_files/spans.pdf)) 
+* [[Alex Hoffnung]], _Spans in 2-Categories: A monoidal tricategory_ ([arXiv:1112.0560](http://arxiv.org/abs/1112.0560))
+ {#Hoffnung}
 
 
 [[!redirects (∞,n)-category of spans]]
