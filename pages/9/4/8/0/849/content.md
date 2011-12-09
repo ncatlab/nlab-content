@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
 +-- {: .hide}
 [[!include category theory - contents]]
@@ -13,11 +13,9 @@
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -46,21 +44,24 @@ $$
 $$
 Note that $hom_{SVect}$ is indeed a super vector space, with the even elements being those maps which preserve the grading and the odd elements being those which change it. One uses this definition to turn SVect into a [[closed monoidal category]]. 
 
+
 ### For Banach spaces
 
-A similar thing happens in the category $Ban$ of [[Banach space]]s.  The external hom consists of only the linear maps bounded by $1$:
-$$ Hom_Ban(V,W) = \{ f: Lin(V,W) \;|\; \|f\| \leq 1 \} .$$
-This definition of morphism recovers the proper notion of [[isomorphism]] of Banach spaces, as well as defining the [[product]] and [[coproduct]] as the [[direct sum]] completed with $p = \infty$ or $p = 1$ respectively.
+A similar thing happens in the category $Ban$ of [[Banach spaces]] and [[short map|short]] [[linear operators]].  The external hom consists of only the *short* linear maps (those bounded by $1$):
+$$ Hom_Ban(V,W) = \{ f\colon Lin(V,W) \;|\; {\|f\|} \leq 1 \} .$$
+This definition of morphism recovers the most specific notion of [[isomorphism]] of Banach spaces, as well as defining the [[product]] and [[coproduct]] as the [[direct sum]] completed with $p = \infty$ or $p = 1$ respectively.
 
-But the internal hom is the Banach space of all bounded linear maps:
-$$ hom_Ban(V,W) = \{ f: Lin(V,W) \;|\; \|f\| \lt \infty \} .$$
+But the internal hom is the Banach space of *all* bounded linear maps:
+$$ hom_Ban(V,W) = \{ f\colon Lin(V,W) \;|\; {\|f\|} \lt \infty \} .$$
 This is a Banach space and makes $Ban$ into a [[closed category]].
+
 
 ### For smooth spaces
 
 See
 
 * [[manifold structure of mapping spaces]].
+
 
 ## Related concepts
 
@@ -71,10 +72,12 @@ See
 A discussion query (R. Brown, T. Bartels, M. Shulman) about internal hom is at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=3372&Focus=27648).
 
 
+[[!redirects internal hom]]
 [[!redirects internal homs]]
 [[!redirects inner hom]]
 [[!redirects inner homs]]
 [[!redirects internal-hom]]
 [[!redirects internal-homs]]
+
 [[!redirects mapping space]]
 [[!redirects mapping spaces]]
