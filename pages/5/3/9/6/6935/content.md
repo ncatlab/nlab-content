@@ -18,21 +18,33 @@
 
 An _inductive type_ is a [[type]] defined as an [[initial object|initial]] [[algebra for an endofunctor]].
 
-## Example
+## Examples
 
 ### Natural numbers
 
-In [[Coq]]-[[syntax]] the [[natural number]]s are the inductive type defined by
+In [[Coq]]-[[syntax]] the [[natural numbers]] are the inductive type defined by
 
     Inductive nat : Type :=
      | zero : nat
      | succ : nat -> nat.
 
+### Identity types
+
+In [[Coq]]-[[syntax]] the [[identity types]] are the inductive types defined by
+
+    Inductive id {A} : A -> A -> Type := 
+      idpath : forall x, id x x.   
+
+
 ## Related concepts
 
-[[!include notions of type]]
+* [[higher inductive types]]
 
 ## References
+
+A very basic introduction to the concept, with an eye towards explaining [[identity types]] is in 
+
+* [[Mike Shulman]], _Induction on equality_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/induction.pdf))
 
 Expositions (with an eye towards [[higher inductive types]]) include
 
