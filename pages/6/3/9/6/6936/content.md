@@ -18,9 +18,14 @@
 
 The generalization of [[inductive types]] from [[type theory]] to [[homotopy type theory]].
 
+## Examples
+
+* [[interval type]], [[circle type]]
+
 ## Related concepts
 
-[[!include notions of type]]
+* [[inductive type]]
+
 
 ## References
 
