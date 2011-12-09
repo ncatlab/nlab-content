@@ -57,6 +57,10 @@ If the type theory has an extra [[axiom]] that implies this, one says that **fun
 
 ## Properties
 
+### Relation to interval types
+
+An [[interval type]] in [[homotopy type theory]] implies function extensionality.
+
 ### Relation to the univalence axiom
 
 The [[univalence axiom]] implies function extensionality. See for instance ([Bauer-Lumsdaine](#BauerLumsdaine)).
