@@ -89,16 +89,25 @@ So it is the homologically nontrivial parts of the chain complexes in negative d
 
 There are many "models" for spectra, all of which present the same homotopy theory (and in fact, nearly all of them are [[Quillen equivalence|Quillen equivalent]] [[model category|model categories]]).  
 
-### $\Omega$-spectra 
+### Spectra, CW-spectra
+
+A simple first definition is to define a spectrum $\mathbf{E}$ to be a sequence of pointed spaces $(E_n)_{n\in\mathbb{N}}$ together with structure maps $\Sigma{}E_n\to{}E_{n+1}$ (where $\Sigma$ denotes the [[reduced suspension]]).
+
+There are various conditions that can be put on the spaces $E_n$ and the structure maps, for example if the spaces are CW-complexes and the structure maps are inclusions of subcomplexes, the spectrum is called a **CW-spectrum**.
+
+Without any condition, this is just called a **spectrum**.
+
+### $\Omega$-spectra
  {#OmegaSpectrum}
 
-One fairly simple, and quite useful, approach is to define a spectrum $E$ to be a [[sequence]] of [[pointed object|based]] spaces $E_n$, for all natural numbers $n$, together with isomorphisms $E_n \cong \Omega E_{n+1}$, where $\Omega$ denotes the based [[loop space]].  
-This is called an [[Omega-spectrum]].
+If $\Omega$ denotes the [[loop space]] functor on the category of pointed spaces, we know that $\Sigma$ is left adjoint to $\Omega$.
+In particular, given a spectrum $\mathbf{E}$, the structure maps can be transformed into maps $E_n\to\Omega{}E_{n+1}$.
+If these maps are isomorphisms (depending on the situation it can be weak equivalences or homeomorphisms), then $\mathbf{E}$ is called an **$\Omega$-spectrum**.
 
+The idea is that $E_0$ contains the information of $\mathbf{E}$ in dimensions $k\ge 0$, $E_1$ contains the information of $\mathbf{E}$ in $k\ge -1$ (but shifted up by one, so that it is modeled by the $\ge 0$ information in the space $E_1$), and so on.
 
-The idea is that $E_0$ contains the information of $E$ in dimensions $k\ge 0$, $E_1$ contains the information of $E$ in $k\ge -1$ (but shifted up by one, so that it is modeled by the $\ge 0$ information in the space $E_1$), and so on.
-
-This is called an **$\Omega$-spectrum**.
+$\Omega$-spectra are special cases of spectra, and are in fact the fibrant objects for some model structure on the category of spectra.
+Given any spectrum $\mathbf{E}$, it is easy to transform it into an equivalent $\Omega$-spectrum $\mathbf{F}$ : just take $F_n=\lim_{m\to\infty}\Omega^m E_{n+m}$ and use the fact that $\Omega$ commutes with the filtered colimits.
 
 ### Coordinate-free spectrum 
 
@@ -164,5 +173,7 @@ Surveys include
 about symmetric spectra_, a book in progress, [dvi](http://www.math.uni-bonn.de/~schwede/SymSpec.dvi), [pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf)
 
 * [[Robert Thomason]], _Symmetric Monoidal Categories Model All Connective Spectra_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.8193))
+
+* J.F. Adams, _Infinite loop spaces_
 
 [[!redirects spectra]]
