@@ -28,7 +28,9 @@ To the extent that plain [[homotopy type theory]] is a formalization of [[homoto
 
 One way to arrive at cohesive homotopy type theory is to start with the external axioms for [[cohesive toposes|cohesion]] on a given [[topos]] in terms of an [[adjoint quadruple]] of functors _on_ the given [[topos]] and attempt to formulate them instead in the [[internal logic|internal]] [[Mitchell-Bénabou language|Mitchell-Bénabou]] [[type theory]] language of the topos. This fails, since for formulating the [[reflective subcategories]] of [[discrete objects]] and [[codiscrete objects]] internally one needs instead of the [[type of propositions]] a full [[type of types]], as exists only in [[homotopy type theory]]. Passing to this, the axioms for cohesion can be formulated ([Shulman](#ShulmanInternalizing)) and are automatically that of [[cohesive (∞,1)-topos|homotopy cohesion]].
 
+
 ## The Axioms
+  {#TheAxioms}
 
 We discuss the formulation in [[homotopy type theory]] of the [internal axioms](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InternalDefinition) on a [[cohesive (∞,1)-topos]].
 
@@ -82,8 +84,84 @@ $$
 
 for the reflector into [[discrete objects]].
 
+## Example phenomena
+
+Before looking at the consequences of the axioms formally, 
+we mention some example phenomena to illustrate the meaning of the axioms.
+
+### Geometric spaces and their homotopy types
+ {#GeometricSpacesAndTheirHomotopyTypes}
+
+The standard [[interval]] $I = [0,1]$ in [[topological space]]
+plays two rather different roles, depending on what kind of
+equivalence between spaces is considered. To make this more vivid,
+it serves to think of $[0,1]$ as equipped 
+even with its canonical structure
+of a [[smooth manifold]] ([[manifold with boundary|with boundary]]).
+
+The canonical map $I \to *$ to the [[point]] is certainly not
+a [[diffeomorphism]] and from the point of view of
+[[differential geometry]] the interval carries interesting structure.
+Notably its endpoints $0,1 : I$ are not equivalent points ([[terms]])
+in differential geometry, but are distinct. From the point of differential
+geometry the interval is a [[homotopy n-type|homotopy 0-type]]
+(has [[h-level]] 2) -- but one that is somehow equipped with geometric
+structure.
+
+This geometric structure, however, induces also a notion of 
+_[[path groupoid|geometric paths]]_ in the interval, such that 
+any two of its points are connected by such a path, after all.
+In other words, one can form the smooth [[fundamental ∞-groupoid]]
+$\Pi(I)$ of the interval and regard _that_ as a [[homotopy type]]
+_without_ further geometric structure (a [[discrete ∞-groupoid]]).
+
+As such, the canonical map $\Pi(I) \to *$ is an [[equivalence]]
+after all, namely a [[weak homotopy equivalence]]. Therefore
+after application of $\Pi$ what used to be a geometric 0-type
+becomes a [[(-1)-groupoid|(-1)-type]] and actually a
+[[(-2)-groupoid|(-2)-type]] ([[h-level]] 0), but without any geometry.
+
+This latter property is what makes the interval important in bare
+[[homotopy theory]], where it serves to model notions
+such as [[cylinder objects]], [[left homotopies]], etc. The former
+property, however, is what makes the interval important in geometry, where it serves to model [[Cartesian spaces]], [[manifolds]], etcs.
+
+In cohesive homotopy type theory these two roles of the interval
+can both be seen, via the reflective embedding of [[discrete objects]], 
+and the transition between them is present, via the 
+[[fundamental infinity-groupoid in a locally infinity-connected (infinity,1)-topos|fundamental ∞-groupoid reflector]] $\mathbf{\Pi}$.
+
+Specifically, there is a [[model]] for 
+[[cohesive (∞,1)-topos|homotopy cohesion]], called 
+[[Smooth∞Grpd]], in which [[smooth manifolds]] 
+([[manifold with boundary|with boundary]]) are 
+[[full and faithful functor|fully faithfully embedded]],
+where hence $I = [0,1]$ exists as a [[type]]
+that behaves as the interval in [[differential geometry]],
+and where $\mathbf{\Pi}(I)$ is equivalent to the [[unit type]].
+
+More generally, in this model every [[smooth manifold]]
+$X$ is a [[homotopy n-type|homotopy 0-type]]/[[0-truncated]]
+object, but the type $\mathbf{\Pi}(X)$ is a [[discrete ∞-groupoid]]
+whose [[homotopy type]] is that of the topological space underlying
+$X$, as regarded in the 
+[[model structure on topological spaces|standard]] [[homotopy category]] 
+of topological spaces.
+
+In particular, the smooth [[circle]] $S^1$ in this model is a 
+[[0-truncated|0-type]] such that $\mathbf{\Pi}(S^1)$ is the
+[[1-truncated|1-type]] $\mathbf{B}\mathbb{Z}$ (the [[delooping]]
+[[groupoid]] of the [[integers]]).
+
+One can turn this around and axiomatice a [[continuum]] [[line object]]
+in cohesive homotopy type theory as a [[ring object]] 
+$\mathbb{Z} \hookrightarrow \mathbb{A}^1$ such that 
+$\mathbf{\Pi}(\mathbb{A}^1) \simeq *$.
+
+
 
 ## Structures in cohesive homotopy type theory
+ {#Structures} 
 
 We discuss implications of the axioms of cohesive homotopy type theory and go through the discussion of the various [[structures in a cohesive (∞,1)-topos]].
 
@@ -123,6 +201,8 @@ Coq-code:
 ### Differential cohomology
 
 (...)
+
+
 
 ## References
 
