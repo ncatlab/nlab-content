@@ -95,7 +95,7 @@ A simple first definition is to define a spectrum $\mathbf{E}$ to be a sequence 
 
 There are various conditions that can be put on the spaces $E_n$ and the structure maps, for example if the spaces are CW-complexes and the structure maps are inclusions of subcomplexes, the spectrum is called a **CW-spectrum**.
 
-Without any condition, this is just called a **spectrum**.
+Without any condition, this is just called a **spectrum**, or sometimes a **pre-spectrum**.
 
 ### $\Omega$-spectra
  {#OmegaSpectrum}
@@ -107,7 +107,7 @@ If these maps are isomorphisms (depending on the situation it can be weak equiva
 The idea is that $E_0$ contains the information of $\mathbf{E}$ in dimensions $k\ge 0$, $E_1$ contains the information of $\mathbf{E}$ in $k\ge -1$ (but shifted up by one, so that it is modeled by the $\ge 0$ information in the space $E_1$), and so on.
 
 $\Omega$-spectra are special cases of spectra, and are in fact the fibrant objects for some model structure on the category of spectra.
-Given any spectrum $\mathbf{E}$, it is easy to transform it into an equivalent $\Omega$-spectrum $\mathbf{F}$ : just take $F_n=\lim_{m\to\infty}\Omega^m E_{n+m}$ and use the fact that $\Omega$ commutes with the filtered colimits.
+Given any spectrum $\mathbf{E}$, it is easy to transform it into an equivalent $\Omega$-spectrum $\mathbf{F}$ (a fibrant replacement of $\mathbf{E}$) : just take $F_n=\lim_{m\to\infty}\Omega^m E_{n+m}$ and use the fact that $\Omega$ commutes with the filtered colimits.
 
 ### Coordinate-free spectrum 
 
