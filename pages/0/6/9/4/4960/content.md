@@ -1282,6 +1282,7 @@ and
 
 
 ## References
+ {#References}
 
 The axioms for a cohesive topos originate in
 
