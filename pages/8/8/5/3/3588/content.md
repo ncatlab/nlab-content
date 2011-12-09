@@ -9,7 +9,9 @@
 
 [[!include types and logic - table]]
 
-* [[type of types]]
+* [[type of types]], [[type of propositions]]
+
+* [[inductive type]], [[higher inductive type]]
 
 **[[homotopy levels]]**
 
