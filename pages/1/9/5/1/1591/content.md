@@ -1,3 +1,5 @@
+> to be merged with [[discrete morphism]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -80,3 +82,6 @@ A general axiomatization of the notion of space is as an object in a [[cohesive 
 
 [[!redirects discrete locale]]
 [[!redirects discrete locales]]
+
+[[!redirects discrete object]]
+[[!redirects discrete objects]]
