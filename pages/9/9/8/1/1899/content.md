@@ -68,7 +68,7 @@ One postscript to this is that although the category of co-$V$-algebra objects i
 
 ## Examples
 
-* If $V$ is the theory of [[commutative ring|commutative unital rings]], a $V$-algebra is a commutative unital ring, and the corresponding sort of Tall--Wraith $V$-monoid is called a [[biring]].  
+* If $V$ is the theory of [[commutative ring|commutative unital rings]], a $V$-algebra is a commutative unital ring, a co-$V$-algebra object in $V$ is a [[biring]] and the corresponding sort of Tall--Wraith $V$-monoid is called, in Tall and Wraith's original paper, a *biring triple*.
 
 * If $V$ is the theory of [[commutative algebra|commutative associative algebras]] over a [[field]] $k$, then a $V$-algebra is a commutative associative algebra over $k$, and the corresponding sort of Tall--Wraith $V$-monoid is called a [[plethory]].
 
