@@ -15,17 +15,10 @@
 
 ## Definition
 
-For $X$ a [[pointed object|pointed]] [[topological space]], its **suspension spectrum** is [[spectrum]] $\Sigma^\infty X$, given as an [[Omega spectrum]] whose degree-$n$ space is the $n$-fold [[reduced suspension]] of $X$:
+For $X$ a [[pointed object|pointed]] [[topological space]], its **suspension spectrum** is the [[spectrum]] $\Sigma^\infty X$ whose degree-$n$ space is the $n$-fold [[reduced suspension]] of $X$:
 
 $$
-  (\Sigma^\infty X)_n = 
-  \left\{
-    \array{
-       \Sigma^n X & for n \geq 0
-       \\
-       * & for n \lt 0
-    }
-  \right.
+  (\Sigma^\infty X)_n = \Sigma^n X
 $$
 
 
