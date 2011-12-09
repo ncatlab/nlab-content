@@ -1,3 +1,10 @@
+
+# Multisets
+* table of contents
+{: toc}
+
+## Idea
+
 A multiset is like a [[set]], just allowing that the elements have multiplicities. Thus the multiset $\{1,1,2\}$ differs from the multiset $\{1,2\}$, while $\{1,2,1\}$ is the same as $\{1,1,2\}$. Multisets are useful in [[combinatorics]]. See [wikipedia](http://en.wikipedia.org/wiki/Multiset).
 
 
@@ -33,7 +40,7 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 
    $$\mathcal{X}\cup\mathcal{Y} = \langle X\cup Y, \max(\mu_X,\mu_Y)\rangle.$$
 
-+--{.query}
++-- {: .query}
 The following definition of set difference is tentative because it requires us to allow $\mu = 0$, which is under consideration.
 
 _Toby_ says:  If it were up to me, I wouldn\'t bother with these underlying $X$s and $Y$s at all, but just fix the ambient set $U$ and allow $\mu$ to take the value $0$ as a matter of course.  But if you want to avoid that, then you define the carrier of $\mathcal{X} \setminus \mathcal{Y}$ to consist of those elements $a$ of $X$ (or equivalently of $X \cup Y$, but they will all be elements of $X$) such that $\mu_X(a) \gt \mu_Y(a)$ (with $\mu_Y(a) \coloneqq 0$ for $a \notin Y$).
@@ -61,12 +68,14 @@ _Toby_ says:  If it were up to me, I wouldn\'t bother with these underlying $X$s
 
    $$\langle\mathcal{X},\mathcal{Y}\rangle = |\mathcal{X}\mathcal{Y}|.$$
 
+
 ## Examples
 
 ...
 
 
 * See also [[inner product of multisets]].
+
 
 ## References
 
@@ -84,7 +93,7 @@ Is there a reason that you moved these references up here?  We need them especia
 
 ## Discussion
 
-+--{.query}
++-- {: .query}
 [[Eric]]: What would a colimit over an MSet-valued functor $F:A\to MSet$ look like?
 
 _Toby_:  That depends on what the morphisms are.
@@ -93,6 +102,7 @@ _Toby_:  That depends on what the morphisms are.
 
 _Toby_:  I think that you might hope for the [[coproduct]] (but not a general colimit) of multisets to be a sum rather than a disjoint union.  Actually, you could argue that the sum *is* the proper notion of [[disjoint union]] for abstract multisets.
 =--
+
 
 ## Morphisms
 
@@ -105,8 +115,8 @@ What is a function between multisets?  I would be inclined to say that for multi
 Category $\mathbf{MSet}$ is a category of all possible multisets.
 
 1. The objects of the category consist of pairs $(A, P)$, where $A$ is a set and $P:A\to Set$ a presheaf on $A$.
-1. If $(A,P)$ and $(B,Q)$ are two objects of the category, an arrow between these objects is a pair $(f,\lambda)$, where $f:A\to B$ is a function and $\lambda:P\to Q\circ f$ is a natural transformation, i.e., a family of functions.
-1. Arrows compose as follows: suppose that $(A,P)\stackrel{(f,\lambda)}{\to}(B,Q)$ and $(B,Q) \stackrel{(g,\mu)}{\to}(C,R)$ are arrows of the category, then $(f,\lambda)\circ (g,\mu) = (g\circ f, \mu\times\lambda)$, where $g\circ f$ is the usual function composition and $\mu\times\lambda:P\to R\circ (g\circ f)$.
+2. If $(A,P)$ and $(B,Q)$ are two objects of the category, an arrow between these objects is a pair $(f,\lambda)$, where $f:A\to B$ is a function and $\lambda:P\to Q\circ f$ is a natural transformation, i.e., a family of functions.
+3. Arrows compose as follows: suppose that $(A,P)\stackrel{(f,\lambda)}{\to}(B,Q)$ and $(B,Q) \stackrel{(g,\mu)}{\to}(C,R)$ are arrows of the category, then $(f,\lambda)\circ (g,\mu) = (g\circ f, \mu\times\lambda)$, where $g\circ f$ is the usual function composition and $\mu\times\lambda:P\to R\circ (g\circ f)$.
 4. Given an object $(A,P)$, the identity arrow is $(id_A, id_P)$.
 =--
 
@@ -142,8 +152,7 @@ _Toby_:  At least $Set^{\mathbf{2}}$ is *different* from $Set$.  And how do you 
 >**Remark 1**. Any ordinary set $A$ is actually a multiset $\langle A,\chi_A\rangle$, where $\chi_A$ is its characteristic function.
 
 
-+--{.query}
-
++-- {: .query}
 [[Eric]]: Given $X = \{1,1,2\}$ and $Y = \{1,1,3\}$, is $X\cap Y = \{1,1\}$ or is $X\cap Y = \{1\}$?
 
 [[Todd Trimble|Todd]]: It's $\{1, 1\}$. (To make the question structural, we should think of $X$ and $Y$ as multisubsets of some other multiset, but never mind.) 
@@ -152,11 +161,10 @@ As a writer (perhaps Toby) was saying above, a locally finite multiset $M$ can b
 $X$ equipped with a function $\nu: X \to \mathbb{N}$ which is bounded above by $\mu$. To take the intersection of two multisubsets $\nu, \nu': X \to \mathbb{N}$, you take the minimum or inf of $\nu, \nu'$. Your question can then be translated to one where $X = \{1, 2, 3\}$, where $\nu(1) = 2, \nu(2) = 1, \nu(3) = 0$ and $\nu'(1) = 2, \nu'(2) = 0, \nu'(3) = 1$. 
 
 [[Eric]]: Thanks Todd! The reference [Mathematics of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/MathMSet.pdf) explains this nicely too.
-
 =--
 
 
-+--{.query}
++-- {: .query}
 [[Eric]]: What is the difference (aside from negatives) between multisets and abelian groups freely generate by some set $U$? It seems like a multiset $\langle X,\mu\rangle$ ($X$ s a set and $\mu:X\to\mathbb{N}$) can be thought of as a _vector_ with $\mu$ providing the coefficients. 
 
 For example, we could express the multiset $\mathcal{X} = \{1,1,1,2,3,3,3,3,3\}$ as
@@ -171,6 +179,11 @@ _Toby_:  Right; which they are for Eric, who specified $\mu\colon X \to \mathbb{
 =--
 
 
+[[!redirects multiset]]
+[[!redirects multisets]]
+
 [[!redirects multisubset]]
 [[!redirects multisubsets]]
-[[!redirects multisets]]
+
+[[!redirects bag]]
+[[!redirects bags]]
