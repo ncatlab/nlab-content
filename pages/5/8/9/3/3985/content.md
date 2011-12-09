@@ -948,9 +948,16 @@ This is discussed at [[rational homotopy theory in an (∞,1)-topos]].
 
 ## References
 
-section 5.2.7 of
+The general theory is discussed in section 5.2.7 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+A [[Coq]]-formalization of left-exact reflective sub-$(\infty,1)$-categories in [[homotopy type theory]] is in 
+
+* [[Mike Shulman]], _[HoTT/Coq/Subcategories/LexReflectiveSubcategory.v](https://github.com/mikeshulman/HoTT/blob/master/Coq/Subcategories/LexReflectiveSubcategory.v)_
+ {#Shulman}
+
+
 
 [[!redirects reflective sub-(∞,1)-category]]
 [[!redirects reflective sub-(∞,1)-categories]]
@@ -962,3 +969,13 @@ section 5.2.7 of
 [[!redirects reflective (∞,1)-subcategory]]
 [[!redirects reflective (∞,1)-subcategories]]
 
+[[!redirects coreflective sub-(∞,1)-category]]
+[[!redirects coreflective sub-(∞,1)-categories]]
+[[!redirects coreflective sub-(infinity,1)-category]]
+[[!redirects coreflective sub-(infinity,1)-categories]]
+
+
+[[!redirects coreflective (∞,1)-subcategory]]
+[[!redirects coreflective (∞,1)-subcategories]]
+[[!redirects coreflective (infinity,1)-subcategory]]
+[[!redirects coreflective (infinity,1)-subcategories]]
