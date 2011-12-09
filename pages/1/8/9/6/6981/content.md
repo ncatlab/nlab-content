@@ -3,7 +3,8 @@
 
  [[logic]]                      |   [[type theory]]
 --------------------------------|------------------------------
- [[true]]                       |   [[unit type]]
+ [[proposition]]                |   [[h-level]] 1
+ [[true]]                       |   [[unit type]] / [[h-level]] 0
  [[false]]                      |   [[empty type]]
  [[conjunction]]                |   [[product type]]
  [[disjunction]]                |   [[sum type]] ([[bracket type]] of)
