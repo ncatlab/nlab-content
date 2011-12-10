@@ -200,7 +200,7 @@ The structures of categories with weak equivalences have standard refinements to
 
 * the _projective_ [[model structure on chain complexes]] $Ch_\bullet$ has as weak equivalences the [[quasi-isomorphism]]s and as fibrations the chain maps that are surjections in each positive degree;
 
-* the _[[model structure on simplicial T-algebras|model structure on simplicial abelian groups]]_ has as weak equivalences and fibrations those of the underlying morphisms in [[sSet]] with respect to the standard [[model structure on simplicial sets]].
+* the _[[model structure on simplicial T-algebras|model structure on simplicial abelian groups]]_ has as weak equivalences and fibrations those whose underlying morphisms in [[sSet]] are fibrations ([[Kan fibrations]]) with respect to the standard [[model structure on simplicial sets]].
 
 +-- {: .un_prop }
 ###### Proposition
@@ -231,7 +231,7 @@ This is discussed for instance in [section 4.1](http://www.math.uic.edu/~bshiple
 
 The category $Ab^{\Delta^{op}}$ is -- being a [[category of simplicial objects]] of a category with colimits -- naturally an [[sSet]]-[[enriched category]] and with the model structure this makes it a [[simplicial model category]].
 
-Since the DK-correspondence is even an [[equivalence of categories]], this induces accordingly the structure of a simplicial model category also on $Ch_\bullet^+$. Therefore the above Quillen equivalence is even an [[sSet]]-Quillen equivalence of simplicial model categories.
+Since the DK-correspondence is even an [[equivalence of categories]], this induces accordingly the structure of a simplicial model category also on $Ch_\bullet^+$. Therefore the above Quillen equivalence is even a [[simplicial Quillen adjunction]].
 
 =--
 
