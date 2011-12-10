@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -6,13 +16,18 @@
 
 ## Idea
 
-A _presymplectic structure_ on a [[smooth manifold]] $X$  is a closed [[differential form|2-form]] $\omega \in \Omega^2(X)$, thought of as a relaxed version of a [[symplectic structure]] on $X$, for which this 2-form is required to be non-degenerate.
+A _presymplectic structure_ on a [[smooth manifold]] or more generally on a [[smooth space]] $X$  is a closed [[differential form|differential 2-form]] $\omega \in \Omega^2(X)$. 
+
+If the 2-form is moreover _non-degenerate_ then it is a _[[symplectic structure]]_ on $X$. 
+
+Give a presymplectic structure, the [[quotient]] of $X$ by the [[flow]] of the [[vector fields]] in the [[kernel]] of $\omega$ is, if it exists in a reasonable way, a [[symplectic manifold]].
+
+One speaks of closed 2-forms as presymplectic structures if one is interested in eventually forming this quotient and obtaining a symplectic structure. 
+
+The central application of this appears in the theory of [[quantization]] of [[action functionals]]. The [[covariant phase space]] of a [[local action functional]] is canonically presymplectic, and one is interested in its quotientient by symmetries to obtain a symplectic structure. This quotient generically is very ill behaved, though, when taken in the naive way. The [[BV-BRST formalism]] is all about forming this quotient "up to homotopy", such that it exists in a reasonable way. See [[derived critical locus]] for more on this.
 
 The notion of presymplectic structure is a weakening of the notion of [[symplectic structure]] roughly orthogonal to the notion of [[Poisson structure]].
 
-## Examples
-
-* Every [[covariant phase space]] for a [[local action functional]] canonically carries a presymplectic structure.
 
 ## References
 
@@ -27,3 +42,5 @@ The generalization of [[symplectic reduction]] for presymplectic manifolds is di
 [[!redirects presymplectic form]]
 [[!redirects pre-symplectic forms]]
 [[!redirects presymplectic forms]]
+
+[[!redirects presymplectic smooth space]]
