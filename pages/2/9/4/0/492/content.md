@@ -359,3 +359,4 @@ We check successively what this means for increasing $n$:
 * [[Cartesian fibration]]  
 
 
+[[!redirects Kan fibrations]]
