@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The structure of an _algebraic model category_ is a refinement of that of a [[model category]].
+
+Where a bare [[model category]] structure is a [[category with weak equivalences]] refined by two [[weak factorization systems]] ($(cofibrations, acyclic fibrations)$ and $(acyclic cofibrations, fibrations)$) in an algebraic model structure these are refined further to [[algebraic weak factorization systems]].
+
+This extra structure supplies more control over constructions in the model category. For instance its choice induces a [[weak factorization system]] also in every [[diagram]] [[category]] of the given model category.
+
+## Properties
+
+Every [[cofibrantly generated model category]] structure can be lifted to that of an algebraic model category
+
+## References
+
+The notion was introduced in 
+
+* [[Emily Riehl]], _Algebraic model structures_, New York J. Math. 17 (2011) 173-231 ([journa](http://nyjm.albany.edu/j/2011/17-10.html), [arXiv](http://arxiv.org/abs/0910.2733))
+
+The algebraic analog of [[monoidal model categories]] is discussed in 
+
+* [[Emily Riehl]], _Monoidal algebraic model structures_ ([arXiv:1109.2883](http://arxiv.org/abs/1109.2883))
+
+[[!redirects algebraic model categories]]
+
+[[!redirects algebraic model structure]]
+[[!redirects algebraic model structures]]
