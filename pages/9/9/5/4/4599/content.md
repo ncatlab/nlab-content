@@ -1463,3 +1463,5 @@ The above discussion is from
 
 [[!redirects circle n-bundle]]
 [[!redirects circle n-bundles]]
+
+[[!redirects line bundle with connection]]
