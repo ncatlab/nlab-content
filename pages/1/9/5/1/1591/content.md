@@ -1,5 +1,3 @@
-> to be merged with [[discrete morphism]]
-
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
