@@ -53,6 +53,10 @@ For cellular model categories $C$ that are [[proper model category|left proper m
 
 ## References ##
 
-Section 12 of
+A standard textbook reference is section 12 of
 
 * Hirschhorn, _Model categories and their localizations_
+
+In the context of [[algebraic model categories]] related discussion is in
+
+* [[Emily Riehl]], _Cellularity in algebraic model structures_ ([blog post](http://golem.ph.utexas.edu/category/2011/12/cellularity_in_algebraic_model.html#c040417))
