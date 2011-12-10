@@ -86,6 +86,8 @@ There are several extra conditions that strengthen the notion of a model categor
 
 * An [[enriched model category]] is an [[enriched category]] over a monoidal category, that is also a model category in a compatible way.
 
+* An [[algebraic model category]] is one where the two defining [[weak factorization systems]] are refined to [[algebraic weak factorization systems]].
+
 ### Weaker axiom systems
 
 There are several notions of [[category with weak equivalences]] with similar but less structure than a full model category.
