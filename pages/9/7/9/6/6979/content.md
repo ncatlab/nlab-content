@@ -17,13 +17,23 @@
 
 _Dependent type theory_ is the flavor of [[type theory]] that admits _[[dependent types]]_.
 
+Its [[categorical semantics]] is in [[locally cartesian closed categories]] $C$, where a [[dependent type]]
+
+$$
+  x : X \vdash E(x) : Type
+$$
+
+is interpreted as a [[morphism]]  $E \to X$, hence an [[object]] in the [[slice category]] $C_{/X}$.
+
+Then change of [[context]] corresponds to [[base change]] in $C$. See also _[[dependent sum]]_ and _[[dependent product]]_.
+
+Dependent type systems are heavily used for _software verification_. 
+
+They also seem to support a [[foundations]] of mathematics in terms of [[homotopy type theory]].
+
 ## Examples
 
 * [[Martin-Löf dependent type theory]].
-
-## Related concepts
-
-[[!include notions of type]]
 
 ## References
 
