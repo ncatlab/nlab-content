@@ -34,7 +34,7 @@
 
 * [[moment map]]
 
-* [[isotropic submanifold]], [[Lagrangian submanifold]]
+* [[isotropic submanifold]], [[Lagrangian submanifold]], [[polarization]]
 
 ## Constructions
 
