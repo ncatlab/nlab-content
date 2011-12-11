@@ -72,7 +72,7 @@ Ordinary [[fibration fibered in groupoids|categories fibered in groupoids]] have
 
 Then
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The functor $p : E \to B$ is an  [[fibration fibered in groupoids|fibration in groupoids]] precisely if the morphism $N(p) : N(E) \to N(B)$ is a right Kan fibration of simplicial sets
@@ -80,7 +80,7 @@ The functor $p : E \to B$ is an  [[fibration fibered in groupoids|fibration in g
 
 To see this, first notice the following facts:
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma 1
 
 For $C$ a [[category]], the [[nerve]] $N(C)$ is [[coskeletal|2-coskeletal]]. In particular all $n$-spheres for $n \geq 3$ have unique fillers
@@ -117,7 +117,7 @@ $$
 
 This is discussed at [[nerve]].
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma 2
 
 If $p : E \to B$ is an ordinary [[functor]], then $N(f) : N(E) \to N(B)$ is an [[inner fibration]], meaning that its has the [[right lifting property]] with respect to all _inner_ horn inclusions $\Lambda[n]_i \hookrightarrow \Delta[n]$ for $0 \lt i \lt n$.
@@ -226,7 +226,7 @@ for a Grothendieck fibration in groupoids.
 
 ## Properties
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Under the operation of forming the [[opposite quasi-category]], left fibrations turn into right fibrations, and vice versa: if $p : C \to D$ is a left fibration then $p^{op} : C^{op} \to D^{op}$ is a right fibration.
@@ -276,7 +276,7 @@ $$
 
 is an [[epimorphism]]. If it is even an [[isomorphism]] then the lift $\sigma$ exists _uniquely_ . This is the situation that the following proposition generalizes:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A morphism $p : X \to S$ of simplicial sets is a left fibration precisely if the canonical morphism
@@ -302,7 +302,7 @@ This is a corollary of the characterization of left anodyne morphisms in [Proper
 
 The notion of right fibration of quasi-categories generalizes the notion of [[category fibered in groupoids]]. This follows from the following properties.
 
-+-- {: .un_prop}
++-- {: .num_prop #OverKanComplex}
 ###### Proposition
 
 Over a [[Kan complex]] $T$, left fibrations $S \to T$ are automatically [[Kan fibration]]s.
@@ -318,7 +318,7 @@ This appears as [[Higher Topos Theory|HTT, prop. 2.1.3.3]].
 
 As an important special case of this we have
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 For $C \to *$ a right (left) fibration over the [[point]], $C$ is a [[Kan complex]], i.e. an [[∞-groupoid]].
@@ -333,7 +333,7 @@ This is originally due to [[Andre Joyal]]. Recalled at [[Higher Topos Theory|HTT
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop #PreservationByPullback}
 ###### Proposition
 
 Right (left) fibrations are preserved by [[pullback]] in [[sSet]]. 
@@ -341,7 +341,7 @@ Right (left) fibrations are preserved by [[pullback]] in [[sSet]].
 =--
 
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 It follows that the fiber $X_c$ of every right fibration $X \to C$ over every point $c \in C$, i.e. the [[pullback]]
@@ -361,7 +361,7 @@ is a [[Kan complex]].
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ and $D$ quasi-categories that are ordinary [[categories]] (i.e. simplicial sets that are [[nerve]]s of ordinary categories), a morphism $C \to D$ is a right fibration precisely if the correspunding ordinary [[functor]] exhibits $C$ as a [[category fibered in groupoids]] over $D$.
@@ -377,7 +377,7 @@ This is [[Higher Topos Theory|HTT, prop. 2.1.1.3]].
 
 A canonical class of examples of a [[fibered category]] is the [[codomain fibration]]. This is actually a [[bifibration]]. For an ordinary category, a bifiber of this is just a set. For an $(\infty,1)$-category it is an $\infty$-groupoid. Hence fixing only one fiber of the bifibration should yield a fibration in $\infty$-groupoids. This is asserted by the following statement.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $p : K \to C$ be an arbitrary morphism to a [[quasi-category]] $C$ and let $C_{p/}$ be the corresponding [[over quasi-category|under quasi-category]]. Then the canonical propjection $C_{p/} \to C$ is a left fibration.
@@ -390,7 +390,7 @@ Due to [[Andre Joyal]]. Recalled as [[Higher Topos Theory|HTT, prop 2.1.2.2]].
 
 ### (Left/)Right anodyne morphisms {#PropRightAnodyne}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The collection of left anodyne morphisms (those with [[left lifting property]] against left fibrations) is equivalently $LAn = LLP(RLP(LAn_0))$ for the following choices of $LAn_0$:
@@ -435,7 +435,7 @@ This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.
 =--
 
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 For $i : A \to A'$ left-anodyne and $j : B \to B'$ a cofibration in the [[model structure for quasi-categories]], the canonical morphism
@@ -454,7 +454,7 @@ This appears as [[Higher Topos Theory|HTT, cor. 2.1.2.7]].
 
 
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 For $p : X \to S$ a left fibration and $i : A \to B$ a cofibration of simplicial sets, the canonical morphism
@@ -470,7 +470,7 @@ is a left fibration. If $i$ is furthermore left anodyne, then it is an acyclic [
 This appears as [[Higher Topos Theory|HTT, cor. 2.1.2.9]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $f : A_0 \to A$ and $g : B_0 \to B$ two inclusions of [[simplicial set]]s with $f$ left anodyne, we have that the canonical morphism
@@ -487,7 +487,7 @@ into the [[join of simplicial sets]] is left anodyne.
 
 This is due to [[Andre Joyal]]. It appears as [[Higher Topos Theory|HTT, lemma 2.1.4.2]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(restriction of over-quasi-categories along left anodyne inclusions)**
 
@@ -504,7 +504,7 @@ is an acyclic [[Kan fibration]].
 This is a special case of what appears as [[Higher Topos Theory|HTT, prop. 2.1.2.5]], which is originally due to [[Andre Joyal]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $p : X \to S$ be a morphism of simplicial sets with [[section]] $s : S \to X$. If there is a fiberwise simplicial [[homotopy]] $X \times \Delta[1] \to S$ from $s \circ p $ to $Id_X$ then $s$ is left anodyne.
@@ -520,6 +520,8 @@ This appears as [[Higher Topos Theory|HTT, prop. 2.1.2.11]].
 * **right/left Kan fibration**, [[right/left anodyne map]]
 
   * [[model structure for left fibrations]]
+
+  * [[universal right fibration]]
 
 * [[inner fibration]]
 
