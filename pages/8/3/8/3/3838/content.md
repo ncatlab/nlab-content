@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
+=--
 #### $(\infty,1)$-Category theory
 +-- {: .hide}
 [[!include quasi-category theory contents]]
@@ -10,7 +14,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -52,6 +56,11 @@ Let $C$ be an $(\infty,1)$-category and $\kappa$ an uncountable [[regular cardin
 
 This is [[Higher Topos Theory|HTT, prop. 5.4.1.2]]
 
+## Related concepts
+
+* [[essentially small category]]
+
+* [[compact object in an (∞,1)-category]]
 
 ## References
 
