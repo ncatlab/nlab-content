@@ -26,6 +26,9 @@ The notion of [[compact object]] in an ordinary [[category]] is motivated by the
 
 (...)
 
++-- {: .num_defn}
+###### Definition
+
 An object $X$ in a [[stable (∞,1)-category]] is **compact** if the $(\infty,1)$-functor
 
 $$
@@ -33,6 +36,25 @@ $$
 $$
 
 commutes with all [[(∞,1)-colimits]].
+
+=--
+
+## Properties
+
+Let $\kappa$ be a [[regular cardinal]].
+
++-- {: .num_prop #StabilityUnderColimits}
+###### Proposition
+
+Let $C$ be an [[(∞,1)-category]] which admits small 
+$\kappa$-[[filtered (∞,1)-colimits]]. Then the full [[sub-(∞,1)-category]]
+of $\kappa$-compact objects in closed under $\kappa$-small [[(∞,1)-colimits]]
+in $C$.
+
+=--
+
+This is ([[Higher Topos Theory|HTT, cor. 5.3.4.15]]).
+
 
 
 ## Related concepts
