@@ -101,9 +101,9 @@ This appears as ([[Higher Topos Theory|HTT, prop. 6.1.6.3]]) and the remark belo
 ### Object classifier {#DetailsObjClassf}
 
 
-**Remark/Warning.** However, the point of having [[subobject]]s and hence [[monomorphism]]s classified by an object in an ordinary [[topos]] may be thought of as being solely due to the fact that in a 1-[[topos]], any object necessarily classifies a _set_  (or rather a [[poset]] i.e. a [[0-category]] or rather a [[(0,1)-category]]) of morphisms, and the point of subobjects/monomorphisms of a given object is that they don't have [[automorphism]]s and hence indeed form a set (or rather: [[poset]]).
+**Remark/Warning.** The point of having [[subobjects]] and hence [[monomorphisms]] classified by an object in an ordinary [[topos]] may be thought of as being solely due to the fact that in a 1-[[topos]], any object necessarily classifies a _[[poset]]_ i.e. a [[(0,1)-category]] of morphisms, and the point of subobjects/monomorphisms of a given object is that they do not have [[automorphisms]].
 
-In an $(\infty,1)$-topos we might thus expect an object that classifies _all_ morphisms, in that the assignment
+In an $(\infty,1)$-topos we thus expect an object that classifies _all_ morphisms, in that the assignment
 
 $$
   c \mapsto Core(C_{/c})
@@ -116,7 +116,7 @@ Indeed, this is _essentially_ the case -- up to size issues, that the following 
 +-- {: .num_defn #RelativelyKappaCompact}
 ###### Definition
 
-For $\kappa$ some [[cardinal]], say a morphism $f : x \to y$ in $C$ is **relatively $\kappa$-compact** if for all [[(∞-1)-pullbacks]] along $h : y' \to y$ to $\kappa$-[[compact object in an (∞,1)-category|compact object]]s, $y'$, the pulled back object $h^* x'$ is itself a $\kappa$-compact object.
+For $\kappa$ some [[cardinal]], say a morphism $f : x \to y$ in $C$ is **relatively $\kappa$-compact** if for all [[(∞,1)-pullbacks]] along $h : y' \to y$ to $\kappa$-[[compact object in an (∞,1)-category|compact object]]s, $y'$, the pulled back object $h^* x'$ is itself a $\kappa$-compact object.
 
 =--
 
@@ -142,19 +142,26 @@ This is due to [[Charles Rezk]]. The statement appears as [[Higher Topos Theory|
 ### Object classifier in $\infty Grpd$
   {#ObjectClassifierInInfinityGroupoid}
 
-Let $Z|_{\infty Grpd} \to \infty Grpd$ be the 
-[[universal right fibration]].
++-- {: .num_prop }
+###### Proposition
 
-Let 
+The $\kappa$-compact object classifier in [[∞Grpd]]
+is 
 
 $$
-  Type_\kappa := Core(\infty Grpd_\kappa) \to \infty Grpd
+  Type_\kappa := Core(\infty Grpd_\kappa)
+  \,,
 $$ 
 
-be the [[core]] of the full [[sub-(∞,1)-category]] of [[∞Grpd]] on the 
-$\kappa$-[[compact object in an (infinity,1)-category|compact ∞-groupoids]], regarded as a [[Kan complex]].
+the [[core]] of the [[full sub-(∞,1)-category]] of [[∞Grpd]] on the $\kappa$-[[small ∞-groupoids]].
 
-Let 
+The corresponding [[universal bundle]] is presented by the map of [[simplicial sets]]
+
+$$
+   \widehat Type_\kappa \to Type_\kappa
+$$
+
+which is the [[pullback]] of simplicial sets
 
 $$
   \array{
@@ -166,23 +173,27 @@ $$
   }
 $$
 
-be the [[pullback]] (of [[simplicial sets]]) of the universal right fibration along this inclusion.
+of the [[universal right fibration]] along the defining inclusion of (the [[Kan complex]] presenting) $Type_\kappa$.
 
-Since [[right fibrations]] are stable under pullback (see [here](http://ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#PreservationByPullback)), this is still a right fibration. Since, up to equivalence, every morphism into a [[Kan complex]] is a 
-right fibration (see [here](http://ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#OverKanComplex)), and since every
-morphism out of a Kan complex into $\infty Grpd_\kappa$ factors
-through the core $Type_\kappa$ it follows that
-$Type_\kappa$ classifies all morphisms $X \to Y$ in [[∞Grpd]]
-whose [[homotopy fibers]] 
+=--
+
++-- {: .num_lemma #RelativelyCompactInInfinityGroupods}
+###### Lemma
+
+In [[∞Grpd]] the relatively $\kappa$-compact morphisms, $X \to Y$, def. \ref{RelativelyKappaCompact} are precisely those all whose [[homotopy fibers]]
 
 $$
-  X_y \simeq X \times_Y \{y\}
+  X_{y} := X \times_{Y} \{y\}
 $$ 
 
-are $\kappa$-[[compact object in an (∞,1)-category|compact]].
+over all [[objects]] $y \in Y$ are $\kappa$-[[small infinity-groupoids]].
 
-Every such morphism $X \to Y$ is also relatively $\kappa$-compact, def. \ref{RelativelyKappaCompact}.
-Because, we may write $Y$ as an [[(∞,1)-colimit]] over itself (see there)
+=--
+
++-- {: .proof}
+###### Proof
+
+We may write $Y$ as an [[(∞,1)-colimit]] over itself (see there)
 
 $$
   Y \simeq {\lim_{\to}}_{y \in Y} \{y\} 
@@ -209,6 +220,45 @@ exhibiting $X$ as an $(\infty,1)$-colimit of $\kappa$-small objects
 over $Y$. By stability of $\kappa$-compact objects under
 $\kappa$-small colimits (see [here](http://ncatlab.org/nlab/show/compact+object+in+an+%28infinity%2C1%29-category#StabilityUnderColimits))
 it follows that $X$ is $\kappa$-compact if $Y$ is. 
+
+=--
+
++-- {: .proof}
+###### Proof of the proposition
+
+Since [[right fibrations]] are stable under pullback (see [here](http://ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#PreservationByPullback)), this is still a right fibration. Since, up to equivalence, every morphism into a [[Kan complex]] is a 
+right fibration (see [here](http://ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#OverKanComplex)), and since every
+morphism out of a Kan complex into $\infty Grpd_\kappa$ factors
+through the core $Type_\kappa$ it follows that
+$Type_\kappa$ classifies all morphisms $X \to Y$ in [[∞Grpd]] whose [[homotopy fibers]] 
+
+$$
+  X_y \simeq X \times_Y \{y\}
+$$ 
+
+are $\kappa$-[[compact object in an (∞,1)-category|compact]].
+
+The claim then follows with lemma \ref{RelativelyCompactInInfinityGroupods}.
+
+=--
+
+### Object classifier in presheaf $(\infty,1)$-toposes
+
+Let $C$ be an [[(∞,1)-category]] and
+
+$$
+  \mathbf{H} = PSh_{\infty}(C)
+$$
+
+the [[(∞,1)-category of (∞,1)-presheaves]] over $C$.
+
+
+
+By the [[(∞,1)-Yoneda lemma]], 
+the $\kappa$-compact object classifier here should be
+the presheaf which assigns to $U \in C$ the 
+$\infty$-groupoid of relatively $\kappa$-compact
+morphisms $X \to U$ in $\infty Grpd$.
 
 ## Related concepts
 
