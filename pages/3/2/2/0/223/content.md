@@ -50,6 +50,8 @@ A category is **$U$-moderate** if its set of objects and set of morphisms are bo
 
 * **small category**, [[locally small category]], [[complete small category]]
 
+* [[essentially small (∞,1)-category]]
+
 * [[large category]]
 
 
