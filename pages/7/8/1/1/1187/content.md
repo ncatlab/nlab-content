@@ -20,11 +20,28 @@
 
 ## Idea
 
-The notion of [[compact object]] in an ordinary [[category]] is motivated by the example of [[Top]].  But as $Top$ is an $(\infty,1)$-[[(infinity,1)-category|category]], it should also make sense in that context.
+The notion of _compact object in an $(\infty,1)$-category_ is the analogue in [[(∞,1)-category theory]] of the notion of [[compact object]] in [[category theory]].
 
 ## Definition
 
-(...)
++-- {: .num_defn}
+###### Definition
+
+Let $\kappa$ be a [[regular cardinal]] and $C$ an [[(∞,1)-category]]
+with $\kappa$-[[filtered (∞,1)-colimits]].
+
+Then an [[object]] $c \in C$ is called **$\kappa$-compact** if the [[(∞,1)-categorical hom space]] functor
+
+$$
+  C(c,-) : C \to \infty Grpd
+$$
+
+preserves $\kappa$-[[filtered (∞,1)-colimits]].
+
+=--
+
+This appears as ([[Higher Topos Theory|HTT, def. 5.3.4.5]]).
+
 
 +-- {: .num_defn}
 ###### Definition
@@ -57,7 +74,13 @@ This is ([[Higher Topos Theory|HTT, cor. 5.3.4.15]]).
 
 ## Examples
 
-*  [[essentially small (∞,1)-category]]
+*  In $C =$ [[(∞,1)Cat]] the $\kappa$-compact objects are precisely the
+   $\kappa$-[[essentially small (∞,1)-categories]]. (See there for more details.)
+
+*  In $C =$ [[∞Grpd]] the $\kappa$-compact objects are precisely the
+   $\kappa$-[[essentially small ∞-groupoids]].
+ 
+
 
 ## Related concepts
 
