@@ -676,7 +676,7 @@ For $X$ a [[pointed object]], there is the sub-dendroidal set $\Omega X \subset 
 
 
 
-## Homtopy localization induced from an interval 
+## Homotopy localization induced from an interval 
 
 Given a suitable interval obect in a [[site]] $C$, one may ask for [[∞-stack]]s on $C$ that are invariant under the notion of [[homotopy]] induced by $I$. These are obtained by [[homotopy localization]] of a full [[(∞,1)-category of (∞,1)-sheaves]] on $C$.
 
