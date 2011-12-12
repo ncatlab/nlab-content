@@ -30,7 +30,11 @@ $$
 
 that sends a representation to its underlying [[vector space]]. The [[Tannakian reconstruction theorem]] says that the group $G$ may be recovered essentially as the group of [[automorphism]]s of the fiber functor $F$.
 
++-- {: .query}
+Does some literature about the category Rep(G) exist? I'm interested in caegorical properties and how they are related to particular represenations. 
+=--
 
 [[!redirects representation category]]
 
 category: category
+
