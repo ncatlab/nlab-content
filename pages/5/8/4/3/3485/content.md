@@ -1,4 +1,6 @@
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -32,8 +34,12 @@ is the [[classifying topos]] for the group $G$.
 
 ## Related entries
 
-* [[representation theory]], [[linear representation]]
+* [[representation theory]], [[linear representation]],
+  [[category of representations]]
 
+## Related concepts
+
+* [[∞-permutation representation]]
 
 [[!redirects permutation representation]]
 [[!redirects permutation representations]]
