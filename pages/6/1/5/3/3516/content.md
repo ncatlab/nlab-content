@@ -247,6 +247,8 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
 
 * Any [[monadic functor]] into $Set$ is solid.
 
+* A [[fully faithful functor]] is solid if and only if it has a left adjoint.
+
 * If $U\colon A\to X$ is faithful and has a left adjoint, and moreover $A$ is [[cocomplete category|cocomplete]] and [[well-powered category|well-copowered]], then $U$ is solid.
 
 * For $C$ a [[cofibrantly generated model category]] with monic generating cofibrations, the forgetful functor from [[model structure on algebraic fibrant objects|algebraic fibrant objects]] to $C$ is solid. See there for details.
