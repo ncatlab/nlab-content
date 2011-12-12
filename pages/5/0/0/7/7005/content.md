@@ -19,15 +19,20 @@
 
 ## Idea
 
-In [[intensional type theory]] [[identity types]] behave like [[path space objects]]. This induces furthermore a notion of [[homotopy fibers]] hence of [[weak homotopy equivalence]]s between [[types]].
+In [[intensional type theory]], [[identity types]] behave like [[path space objects]]; this viewpoint is called [[homotopy type theory]].  This induces furthermore a notion of [[homotopy fibers]], hence of [[homotopy equivalence]]s between [[types]].
 
-The _univalence axiom_ says that the original notion of paths and the notion of weak equivalence that it induces are compatible, in that 
+On the other hand, if type theory contains a [[universe]] [[Type]], so that types can be considered as *points* of $Type$, then between two types we also have an [[identity type]] $Paths_{Type}(X,Y)$.  The _univalence axiom_ says that these two notions of "sameness" for types are the same.  Morally, this says that [[Type]] behaves like an [[object classifier]].
 
-**Univalence:** _For any two [[types]] $X,Y$, the type $X == Y$ of paths (in [[Type]]) between them is equivalent to the type $X \simeq Y$ of [[equivalences]] between them._
+The name *univalence* (due to Voevodsky) comes from the following reasoning.  A fibration or bundle $p\colon E\to B$ of some sort is commonly said to be *universal* if every other bundle of the same sort is a pullback of $p$ in a unique way (up to homotopy).  Less commonly, a bundle is said to be *versal* if every other bundle is a pullback of it in *some* way, not necessarily unique.  By contrast, a bundle is said to be *univalent* if every other bundle is a pullback of it in *at most one* way (up to homotopy).  The univalence axiom then says that the canonical fibration over $Type$ is univalent.
 
-If this axiom is added to [[intensional type theory|intensional]] ([[Martin-Löf dependent type theory|Martin-Löf]]) [[dependent type theory]], one ontains [[homotopy type theory]].
 
-The proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] goes by the name _Univalent Foundations Project_.
+## Definition
+
+Let $X$ and $Y$ be types.  There is a canonically defined map from the type $(X = Y)$ of paths (in [[Type]]) between them to the type $(X \simeq Y)$ of [[equivalences]] between them.  It can be defined by *path induction*, i.e. the eliminator for the identity types, by specifying that it takes the identity path $1_X \colon (X=X)$ to the identity equivalence of $X$.
+
+**Univalence:** _For any two [[types]] $X,Y$, this map $(X=Y)\to (X\simeq Y)$ is an equivalence._
+
+Univalence is a commonly assumed axiom in [[homotopy type theory]], and is central to the proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] (the _Univalent Foundations Project_.)
 
 ## Properties
 
