@@ -204,7 +204,7 @@ _Toby_:  I did the diagrams a bit, but I don\'t have any more time for a complet
 
 A discussion of avoiding evil in the very [[foundations]] of mathematics by replacing [[ZFC]] by [[homotopy type theory]] is in
 
-* [[Vladimir Voevodsky]], _Foundations/formalization of mathematics and homotopy theory_, talk at IAS ([video]())
+* [[Vladimir Voevodsky]], _Foundations/formalization of mathematics and homotopy theory_, talk at IAS ([video](http://video.ias.edu/node/68))
 
 
 [[!redirects evil]]
