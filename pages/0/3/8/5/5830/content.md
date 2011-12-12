@@ -39,19 +39,45 @@ In addition to a viewpoint on identity types and a general class of categorical 
 
 * [[higher inductive type|Higher inductive types]], which among other things enable the construction of finite [[(∞,1)-colimits]], [[cell complexes]], [[n-truncated|truncations]], [[localizations]], and other objects which in classical homotopy theory are constructed using the [[small object argument]].
 
-With all of these axioms included, homotopy type theory behaves like the [[internal language of an (∞,1)-topos]], and conjecturally should admit actual models in any (∞,1)-topos. 
+With all of these axioms included, homotopy type theory behaves like the [[internal language of an (∞,1)-topos]], and conjecturally should admit actual models in any (∞,1)-topos.  With fewer axioms and type constructors, it is known to admit models in more weakly structured $(\infty,1)$-categories --- see below.
 
 Many details are still being worked out, but the impression is that homotopy type theory thus should serve as a [[foundation]] for [[mathematics]] that is natively about [[homotopy theory]]/[[(∞,1)-category theory]] --- in other words, a foundation in which *homotopy types*, rather than sets, are basic objects.
 
 ## Properties
 
+### Advantages {#Advantages}
+
+As a [[foundation]] for mathematics, homotopy type theory (also called **univalent foundations**) has the following advantages.  Many of these advantages are shared with some other foundational systems, but no other known system shares all of these, and some are unique to HoTT.
+
+* It treats homotopy theory and $\infty$-groupoids natively.  This is an advantage for doing homotopical and higher-categorical mathematics, which is spreading slowly into other fields.
+
+* It inherits the good computational properties of intensional [[Martin-Lof type theory]].  Some of its new axioms, such as univalence and function extensionality, are not fully understood yet from a computational perspective, but progress is being made.
+
+* It is [[constructive mathematics|constructive]] by default, but can easily be made [[classical logic|classical]] by adding axioms.  This makes it potentially more expressive at essentially no cost.  (In fact, it is not entirely clear how possible it is to do homotopy theory constructively in other foundations.)
+
+* It can (conjecturally) be internalized in many categories and higher categories, providing an [[internal logic]] which enables a single proof to be reinterpreted in many places with many different meanings.
+
+* It is naturally [[isomorphism]]- and [[equivalence]]-invariant (non-[[evil]]).  This is a consequence of the [[univalence axiom]]: any property or structure (even one which speaks only about [[sets]] and makes no reference to homotopy theory) which is expressible in the theory must be invariant under isomorphism/equivalence.
+
+* Notions such as propositions and sets are *defined* objects, which inherit good computational properties from the underlying type theory.
+
+* It treats sets, groupoids, and higher groupoids on an equal footing.  One can easily remain entirely in the fragment of the theory which talks about sets, not worrying about groupoids or homotopy theory, but as soon as one starts to say something which naturally needs structures of higher [[homotopy level]] (such as talking about some collection of structured sets), the groupoidal and homotopical structure is already there.
+
+
 ### Models
 
-It is well known that [[extensional type theory|extensional]] [[dependent type theory]] is essentially the [[internal logic]] of [[locally cartesian closed categories]]. The step from extensional to [[intensional type theory]] and the [[identity types]] that this brings with it makes intensional dependent type theors have models in certain [[(∞,1)-categories]]. The conjecture is ([Joyal, 2011](#Joyal)) that intensional dependent type theory with the [[univalence axiom]], hence homotopy type theory, is the internal language of [[locally cartesian closed (∞,1)-categories]].
+It is well known that [[extensional type theory|extensional]] [[dependent type theory]] is an [[internal logic]] for [[locally cartesian closed categories]]. The step from extensional to [[intensional type theory]] and the [[identity types]] that this brings with it makes intensional dependent type theory have models in certain [[(∞,1)-categories]].  This connection is usually shown by means of a presentation of the $(\infty,1)$-category using a [[weak factorization system]], a [[category of fibrant objects]], a [[model category]], or other similar structure.
+
+It is conjectured (see for instance [Joyal, 2011](#Joyal)) that
+
+* intensional dependent type theory with dependent sums and products and [[function extensionality]] (a form of homotopy type theory) is an internal language for [[locally cartesian closed (∞,1)-categories]]; and
+
+* with the [[univalence axiom]] added, it becomes an internal language for [[(∞,1)-toposes]].
+
 
 ## Machine implementation
 
-An important aspect of HoTT is the fact that [[intensional type theory|intensional]] [[Martin-Löf type theory]] has a computational implementation in proof assistants like [[Coq]] and [[Agda]].
+An important aspect of HoTT is the fact that the [[intensional type theory|intensional]] [[Martin-Löf type theory]] on which it is built has a computational implementation in proof assistants like [[Coq]] and [[Agda]].
 
 This forms the basis of  the _Univalent Foundations_ program ([Voevodsky](#Voevodsky)), which uses Coq to generate and verify proofs with [[homotopy theory|homotopical]] content.
 
@@ -66,12 +92,11 @@ Let $C$ be a given ambient [[(∞,1)-category]] which
 
 * is [[locally cartesian closed (∞,1)-category|locally cartesian closed]];
 
-
 * in addition has [[(∞,1)-colimits]]. 
 
 For instance $C$ could be an [[(∞,1)-topos]] (in which case the homotopy type theory would be the [[internal language of an (∞,1)-topos]]).
  
-While Coq-HoTT is supposed to be the internal language for such $C$, the _strict [[models]]_ for it are actually [[homotopical category|homotopical]] [[1-categories]] equipped with extra structure that make them serve as [[presentable (infinity,1)-categories|presentations]] for $C$. These strict models take place in [[categories of fibrant objects]].
+Note that while Coq-HoTT is supposed to be the internal language for such $C$, the _strict [[models]]_ for it are actually [[homotopical category|homotopical]] [[1-categories]] equipped with extra structure (such as [[model categories]] or [[categories of fibrant objects]]) that make them serve as [[presentable (infinity,1)-categories|presentations]] for $C$.
 
 We then have the following dictionary.
 
@@ -79,13 +104,13 @@ The [[type]] [[Type]] of types
 
     Type
 
-denotes an [[object classifier]] in $C$ for a certain size of [[universe]]. The [[Coq]] system automatically performs [[universe enlargement]] as necessary.
+denotes an [[object classifier]] in $C$ for a certain size of [[universe]].   Both [[Coq]] and [[Agda]] have systems to manage universe sizes and [[universe enlargement]] automatically; Agda's is more advanced (universe polymorphism), whereas Coq's is good enough for many purposes but tends to produce "universe inconsistencies" when working with univalence.  As a stopgap measure until this is improved, some HoTT code must be compiled with a patch to Coq that turns off all universe consistency checks.
 
-A [[term]] of [[type]] Type
+A [[term]] of [[type]] Type (in the empty [[context]])
 
     X : Type
 
-denotes an [[object]] in the $(\infty,1)$-category $C$; equivalently an [[(∞,1)-functor]] $X : * \to C$.
+denotes an [[object]] in the $(\infty,1)$-category $C$.  In a presentation of $C$ by a model category or [[weak factorization system]], it denotes a *fibrant* object.
 
 The [[unit type]]
 
@@ -99,35 +124,35 @@ For $X, Y \in C$ two objects, the [[function type]]
 
 denotes the [[internal hom]] $[X,Y] \in C$ (a formal proof of that fact is [here](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/AdjunctionProdHom.v)).
 
-A [[dependent type]]
+A [[dependent type]] (that is, a type in context)
 
-    P (x : X) : Type
+    x : X  |-  P x : Type
 
-denotes a [[bundle]] $P \to X$ in $C$, called. In a [[presentable (∞,1)-category|presentation]] of $C$ by a [[category of fibrant objects]] it denotes a [[fibration]] $P \to X$.
+denotes a map $P \to X$ (regarded as a [[fibration]] or [[bundle]]) in $C$. In a [[presentable (∞,1)-category|presentation]] of $C$ by a [[category of fibrant objects]], it literally denotes a [[fibration]] $P \to X$.  In this case,
 
     P : X -> Type
 
 denotes the corresponding classifying map, via an internal [[(∞,1)-Grothendieck construction]].
 
-The total space object $P$ of this bundle -- the _[[dependent sum type]]_ -- is the type equivalently coded as
+The total space object $P$ of this bundle -- the _[[dependent sum type]]_ -- is the type equivalently coded as any of the following.
 
-    { x : X  & P x} : Type
+    { x : X  &  P x } : Type
+    sigT (fun (x : X) => P x) : Type.
+    sigT P : Type
 
-or
+The first one is syntactic sugar for the second.  The third is related to the second by [[eta expansion]], which (assuming [[function extensionality]]) is an equivalence in Coq, but not the identity.  In the next version of Coq, all three types above will be identical.
 
-    total (fun (x : X) => P x) : Type.
-
-It should also equivalently be called
+One might expect to also call the dependent sum type
 
     exists x : X, P x
 
-(see [[existential quantifier]]) but in the current [[Coq]] implementation that keyword is reserved for [[(-1)-truncated]] $P_x$ ([[proposition]]s).
+(see [[existential quantifier]]) but in the current [[Coq]] implementation that keyword is reserved for the corresponding operation on Coq's built-in universe `Prop`, which is not used by homotopy type theory.  In particular, it should not be confused with what HoTT calls [[proposition]]s, which are the [[(-1)-truncated]] types.  In fact, arguably in HoTT `exists` should refer not to the dependent sum itself, but to the (-1)-truncation thereof.
 
-The code
+The type
 
     forall x : X, P x
 
-for the [[universal quantifier]], denotes the object of [[homotopy]] [[section]]s of this bundle (the _[[dependent product]]_ of the bundle, see the section _[relation to spaces of sections](http://ncatlab.org/nlab/show/dependent+product#RelationToSpacesOfSections)_ there).
+denotes the object of [[homotopy]] [[section]]s of this bundle $P\to X$ --- that is, the _[[dependent product]]_ of the bundle.  (See the section _[relation to spaces of sections](http://ncatlab.org/nlab/show/dependent+product#RelationToSpacesOfSections)_ there).  It also denotes the [[universal quantifier]] when acting on (-1)-truncated objects [[propositions]].  A term of this type :
 
     f : forall x : X, P x
 
@@ -144,29 +169,22 @@ $$
   \,.
 $$
 
-The [[identity type]]
+Given a type $X$, its [[identity type]], denoted
 
     paths X : X -> X -> Type
+    Id X : X -> X -> Type
 
-or
+corresponds to the [[diagonal morphism]] $X\to X\times X$ in $C$, regarded as a bundle over $X\times X$.  In a [[presentable (infinity,1)-category|presentation]] of $C$ by a [[category of fibrant objects]], this means the [[path space object]] $X^I$, since dependent types must always be fibrations.
 
-    Id (x y : X) : Type
+The fact that there is a [[weak equivalence]] $X \stackrel{\simeq}{\to} X^I$ given by the inclusion of [[identity]] [[morphisms]] is reflected in the [[inductive type]]-definition of <code>paths</code>, which says that any proposition about terms in the path type is already determined by its value on all identity paths.
 
-corresponds in a [[presentable (infinity,1)-category|presentation]] of $C$ by a [[category of fibrant objects]] to the [[path space object]] $X^I$. The fact that there is a [[weak equivalence]] $X \stackrel{\simeq}{\to} X^I$ given by the inclusion of [[identity]] [[morphisms]] is reflected in the [[inductive type]]-definition of <code>paths</code>, which says that any proposition about terms in the path type is already fixed by its value on all identity paths.
-
-Then for <code>x y : X</code> two [[terms]], the type (also called the [[identity type]]) denoted
+Then for <code>x y : X</code> two [[terms]] regarded as morphisms $1\to X$, the application of the identity type $x$ and $y$ (also called the [[identity type]]) denoted variously
 
     paths X x y : Type
-
-or
-
     x ~~> y : Type
-
-or
-  
     x == y : Type
 
-denotes the [[homotopy pullback]] of the form
+(the latter two make use of Coq's ability to define new notations), denotes the [[homotopy pullback]] of the form
 
 $$
   \array{
@@ -195,7 +213,7 @@ $$
   \,.
 $$
 
-Beware that the [[identity type|path induction rule]] applies to <code>paths X</code> not to <code>paths X x y</code>. Where for the former a proposition is fixed by what it does on identity paths, for the latter this is not the case anymore.
+Beware that the [[identity type|path induction rule]] applies to <code>paths X</code> not to <code>paths X x y</code>.  Where for the former a proposition is fixed by what it does on identity paths, for the latter this is not the case anymore.
 
 More generally, we can define arbitrary pullbacks. If `f : A -> C` and `g : B -> C`, the [[homotopy pullback]] of `f` and `g` is defined by
 
@@ -268,13 +286,13 @@ and with more details in
 
 * [[Richard Garner]],  [[Benno van den Berg]], _Topological and simplicial models of identity types_. , ACM Transactions on Computational Logic ([pdf](http://www.mathematik.tu-darmstadt.de/~berg/papers/main.pdf))
 
-What is not yet shown is that these models also validate the [[univalence axiom]]. This is currently only known to be the case for the standard [[model structure on simplicial sets]], hence for the archetypical [[(∞,1)-topos]] [[∞Grpd]] of [[discrete ∞-groupoids]].
+What is not yet shown is that any of these models also validate the [[univalence axiom]]. This is currently only known to be the case for the standard [[model structure on simplicial sets]], hence for the archetypical [[(∞,1)-topos]] [[∞Grpd]] of [[discrete ∞-groupoids]].
 
 In
 
 * [[André Joyal]], _Remarks on homotopical logic_ Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
 
-is explicitly stated the conjecture that the models of HoTT are [[locally cartesian closed (∞,1)-categories]].
+is explicitly stated the conjecture that the models of HoTT with function extensionality are [[locally cartesian closed (∞,1)-categories]].
 
 ### Syntax
 
@@ -314,9 +332,12 @@ More is in the repositories of various authors:
 
 * [[Peter LeFanu Lumsdaine]], ([GitHub](https://github.com/peterlefanulumsdaine/Oberwolfach-explorations))
 
-* [[Mike Shulman]], _Higher inductive types_ ([GitHub](https://github.com/HoTT/HoTT/tree/master/Coq/HIT))
+* [[Mike Shulman]] and others, _Higher inductive types_ ([GitHub](https://github.com/HoTT/HoTT/tree/master/Coq/HIT))
+
+* [[Mike Shulman]], _Reflective subcategories and cohesive toposes_ ([GitHub](https://github.com/mikeshulman/HoTT/tree/master/Coq/Subcategories))
 
 * [[Vladimir Voevodsky]], _Foundations_ ([GitHub](https://github.com/vladimirias/Foundations/))
+
 
 
 [[!redirects homotopy type theory]]
