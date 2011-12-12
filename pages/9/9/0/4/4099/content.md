@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include 2-category theory - contents]]
 =--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
 =--
 =--
 
@@ -32,6 +36,18 @@ However, the two definitions do coincide for [[fibration in a 2-category|fibrati
 [[Mike Shulman]]: I believe that in cases when the two are different, it is the one given above (faithful and conservative) that is often the better one; hence my proposal in writing this page to change terminology slightly.  Disagreements are welcome.
 =--
 
+## Examples
+
+### Discrete categories
+
+A discrete object in the [[2-category]] [[Cat]] is, of course, a [[discrete category]].
+
+### Discrete groupoids
+
+A discrete object in the [[(2,1)-category]] [[Grpd]] of [[groupoids]] is also called a [[0-truncated]] object or [[0-groupoid]] or [[homotopy n-type|homotopy 0-type]] or just [[h-level|0-type]].
+
+See also the discussion at [[discrete space]] and [[discrete groupoid]].
+
 
 ## Factorization systems and discrete reflections
 
@@ -40,3 +56,5 @@ Discrete morphisms are often the right class of a [[factorization system in a 2-
 
 [[!redirects discrete morphism]]
 [[!redirects discrete morphisms]]
+
+[[!redirects discrete object in a 2-category]]
