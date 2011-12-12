@@ -52,8 +52,6 @@ that gives a family of paths necessarily gives a _continuous_ family of paths, s
 
 If the type theory has an extra [[axiom]] that implies this, one says that **function extensionality** holds. 
 
-(Beware that in what is called _[[extensional type theory]]_ function extensionality is assumed to hold by identities instead of just by equivalences. )
-
 
 ## Properties
 
