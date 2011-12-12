@@ -1,4 +1,6 @@
 
+> This entry is about the notion of _extenion_ in [[algebra]]. There is also [[extension (semantics)]].
+
 #Contents#
 * table of contents
 {:toc}
