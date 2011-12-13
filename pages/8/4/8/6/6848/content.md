@@ -1,15 +1,1 @@
-
-Welcome Stephan!
-
-We appreciate your recent edits and would like to ask you to announce them at [Latest Changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5).  (You can do so anonymously or create an account on that Forum.)
-
-You can also say something about yourself here (no need to keep the current text).  It might also be a good idea to sign your full name (in case more 'Stephan's come).
-
----[[Toby Bartels]]
-
-+--{: .query}
-Thank you, I just created [[Stephan Alexander Spahn]] to these purposes and will announce my (substantial) edits on the forum. I did -up to now- not realize that [[Stephan]] exists and so did not intend to ignore your suggestions, sorry!
-=--
-
-
-category: people
+&lt; [[Stephan]]
