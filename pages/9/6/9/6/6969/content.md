@@ -15,19 +15,13 @@
 
 ## Idea
 
-The version of [[type theory]] in which [[function extensionality]] does not hold as an identification: 
+_Intensional type theory_ is the flavor of [[type theory]] in which [[identity types]] are not necessarily [[propositions]] (that is, (-1)-truncated).  Martin-Lof's original definition of identity types, and the equivalent formulation as an [[inductive type]], are by default intensional; one has to impose extra axioms or rules in order to get [[extensional type theory]] (in which identity types are propositions).
 
-two [[terms]] $f, g$ of [[function types]] are _not_ necessarily identified if $\forall x : f(x) = g(x)$. Rather, the two functions may differ by _how_ they compute this result.
+In particular, [[homotopy type theory]] is intensional, because identity types represent [[path objects]].
 
-If this distinction is not made, one speaks of [[extensional type theory]].
+Note that some type theorists use "intensional type theory" to refer to type theory which fails to satisfy [[function extensionality]].  This is in general an orthogonal requirement to how we are using the term here.
 
 ## Properties
-
-### Identity types
-
-In particular two terms of a [[propositions as types|proposition type]] may give the same result ("[[true]]" or "[[false]]"), hence be [[proof]]s of the given proposition, but be _different_ proofs. This is implemented by the notion of [[identity types]] (as opposed to "equality types") in intensional type theory.
-
-However, intensional identity types induce (see [[homotopy type theory]]) a notion of [[equivalence]] and allow to formulate the [[univalence axiom]]. When this holds, then function extensionality holds by equivalences.
 
 ### Decidibility
 
@@ -35,6 +29,8 @@ Only the intensional but not the [[extensional type theory|extensional]] [[Marti
 
 ## Related concepts
 
+* [[homotopy type theory]]
+* [[extensional type theory]]
 * [[function extensionality]]
 
 ## References
