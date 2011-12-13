@@ -87,11 +87,36 @@ An essentially equivalent way to give the definition, due to Paulin-Mohring, is
 The difference here is that now $x$ is a *parameter* of the inductive definition rather than an *index*.  In other words, the first definition says "for each type $A$, we have an type $Id_A$ dependent on $A\times A$, inductively defined by a constructor $idpath$ which takes an element $x\colon A$ as input and yields output in $Id_A(x,x)$" while the second definition says "for each type $A$ and each element $x\colon A$, we have a type $Id_A(x)$ dependent on $A$, inductively defined by a constructor $idpath$ which takes *no* input and yields output in $Id_A(x)(x)$."  The two formulations can be proven equivalent, but sometimes one is more convenient than the other.
 
 
-## Types are weak $\omega$-groupoids
+## Categorical semantics
 
-There is a way to understand identity types as [[path object]]s that serve to present a [[homotopy theory]]. This leads to what is now called _[[homotopy type theory]]_.
+When type theory is considered as an internal language for various kinds of categories, identity types play an important role.
 
-...
+In categorical models of [[extensional type theory]], generally every morphism of the category is allowed to represent a dependent type, and the extensional identity types are represented by diagonal maps $A\to A\times A$.
+
+By contrast, in models of [[intensional type theory]], there is only a particular class of [[display map|display maps]] or [[fibrations]] which are allowed to represent dependent types, and intensional identity types are represented by [[path objects]] $P A \to A \times A$.
+
+Both of these cases apply in particular to models in the [[category of contexts]] of the type theory itself, i.e. the [[term model]].
+
+### WFS, Stability, and Coherence
+
+By the standard construction of [[mapping path spaces]] out of path objects, the existence of identity types allows one to construct a [[weak factorization system]].
+
+Conversely, since any weak factorization system gives rise to [[path objects]] by factorization of diagonal maps, one may hope to construct a model of type theory with identity types in a category equipped with a WFS $(L,R)$.  There are four obstacles in the way of such a construction.
+
+1. In order to handle the additional context $\Delta$ in the explicit definition above, it turns out to be necessary to assume that $L$-maps are preserved by pullback along $R$-maps between $R$-objects.  (Such a condition is also necessary in order to interpret type-theoretic [[dependent products]] in a [[locally cartesian closed category]].)
+
+1. This enables us to define identity types with their elimination and computation rules "locally", i.e. for each type individually.  However, every construction in type theory is stable under substitution.  This means that if $y\colon Y\vdash A(y)\colon Type$ is a dependent type and $f\colon X\to Y$ is a morphism, then the identity type $x\colon X \vdash Id_{A(f(x))}(-,-)\colon Type$ is the same whether we first construct $Id_{A(y)}$ and then substitute $f(x)$ for $y$, or first substitute $f(x)$ for $y$ to obtain $A(f(x))$ and then construct its identity type.  In order for this to hold up to isomorphism, we need to require that the WFS have *stable path objects* --- a choice of path object data in each slice category which is preserved by pullback.
+
+1. The eliminator term $J$ of identity types in type theory is also preserved by substitution.  This imposes an additional *coherence* requirement which is tricky to obtain categorically.  See the references by Warren and Garner-van den Berg for methods that ensure this.  It can also be handled *a la* Voevodsky by using a [[universe]].
+
+1. Finally, substitution in type theory is strictly functorial/associative, whereas it is modeled categorically by pullback which is generally not strictly so.  This is a general issue with the categorical interpretation of [[dependent type theory]], not something specific to identity types.  It can be resolved by passing to a [[split fibration]] which is equivalent to the [[codomain fibration]], or by making use of a [[universe]].
+
+### Weak $\omega$-groupoids
+
+Some of the first work noticing the homotopical / higher-categorical interpretation of identity types (see below) focused on the fact that the tower of iterated identity types of a type has the structure of an internal *algebraic* $\omega$-groupoid.
+
+In retrospect, this is roughly an algebraic version of the standard fact that every object of a model category (or more generally a [[category of fibrant objects]] or a category with a weak factorization system) admits a [[simplicial resolution]] which is an internal Kan complex, i.e. a nonalgebraic $\infty$-groupoid.  Note, however, that the first technical condition above (stability of $L$-maps under pullback along $R$-maps) seems to be necessary for the algebraic version of the result to go through.
+
 
 ## Related concepts
 
@@ -106,18 +131,31 @@ A survey is in chapter 1 of
 
 * [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
 
-More on the interpretation of identities types as [[path space objects]] is in
-
-* [[Benno van den Berg]], [[Richard Garner]], _Types are weak $\omega$-groupoids_ , ([arXiv:0812.0298](http://arxiv.org/abs/0812.0298))
-
-* [[Peter LeFanu Lumsdaine]], _Weak $\omega$-categories from intensional type theory_ , ([arXiv:0812.0409](http://arxiv.org/abs/0812.0409))
-
 ### By inductive types
  {#ReferencesByInductiveTypes}
 
 * [https://github.com/HoTT/HoTT/blob/master/Coq/Paths.v](https://github.com/HoTT/HoTT/blob/master/Coq/Paths.v)
  {#Pathsv}
 
+### Weak factorization systems
+
+* [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
+
+* [[Steve Awodey]] and [[Michael Warren]], _Homotopy theoretic models of identity types_, [arXiv](http://arxiv.org/abs/0709.0248).
+
+* [[Nicola Gambino]], [[Richard Garner]], _The identity type weak factorisation system_, [arXiv](http://arxiv.org/abs/0803.4349)
+
+* [[Richard Garner]], [[Benno van den Berg]], _Topological and simplicial models of identity types_, [arXiv](http://arxiv.org/abs/1007.4638).
+
+### Types as weak $\omega$-groupoids
+
+* [[Benno van den Berg]], [[Richard Garner]], _Types are weak $\omega$-groupoids_ , ([arXiv:0812.0298](http://arxiv.org/abs/0812.0298))
+
+* [[Peter LeFanu Lumsdaine]], _Weak $\omega$-categories from intensional type theory_ , ([arXiv:0812.0409](http://arxiv.org/abs/0812.0409))
+
+
 [[!redirects identity types]]
 [[!redirects equality type]]
 [[!redirects equality types]]
+[[!redirects path type]]
+[[!redirects path types]]
