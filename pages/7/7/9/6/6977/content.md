@@ -40,7 +40,7 @@ The dual concept, which applies to cosinks ("sources"), is called a (perhaps sem
 
 ## Examples
 
-* An empty $U$-structured sink is just an object of $D$, and a semi-final lift of such a sink is a [[free object]] on $D$.  Thus $U$ admits semi-final lifts of empty sinks precisely when it has a [[left adjoint]].  Similarly, it admits final lifts of empty sinks precisely when it has a [[fully faithful functor|fully faithful]] left adjoint.
+* An empty $U$-structured sink is just an object of $D$, and a semi-final lift of such a sink is a [[free object]] on $D$.  Thus $U$ admits semi-final lifts of empty sinks precisely when it has a [[left adjoint]].  Similarly, it admits final lifts of empty sinks precisely when it has a [[fully faithful functor|fully faithful]] left adjoint (i.e. it admits [[discrete objects]]).
 
 * A singleton $U$-structured sink is just a morphism of the form $f\colon U(X) \to Y$.  A strictly final lift of such a sink is precisely an [[opcartesian arrow]] lying over $f$.  Thus $U$ admits strictly final lifts of singleton structured sinks precisely when it is a [[Grothendieck opfibration]] (and final lifts of such sinks precisely when it is a [[Street opfibration]]).
 
