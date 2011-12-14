@@ -89,3 +89,12 @@ Note that this violates the convention that a $1$-foo is a foo; instead the ruli
 [[!redirects n-sphere]]
 [[!redirects spheres]]
 [[!redirects infinite sphere]]
+
+[[!redirects 1-sphere]]
+[[!redirects 1-spheres]]
+
+[[!redirects 2-sphere]]
+[[!redirects 2-spheres]]
+
+[[!redirects 3-sphere]]
+[[!redirects 3-spheres]]
