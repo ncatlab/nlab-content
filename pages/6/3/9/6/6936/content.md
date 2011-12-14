@@ -16,11 +16,169 @@
 
 ## Idea
 
-The generalization of [[inductive types]] from [[type theory]] to [[homotopy type theory]].
+*Higher inductive types* (HITs) are a generalization of [[inductive types]] which allow the constructors to produce, not just points of the type being defined, but also elements of its iterated [[identity types]].
+
+While HITs are already useful in [[extensional type theory]], they are most useful and powerful in [[homotopy type theory]], where they allow the construction of cell complexes, colimits, truncations, localizations, and many other objects from classical [[homotopy theory]].
 
 ## Examples
 
-* [[interval type]], [[circle type]]
+All higher inductive types described below are given together with some pseudo-[[Coq]] code, which would implement that HIT if Coq supported HITs natively.
+
+### The circle
+
+    Inductive circle : Type :=
+    | base : circle
+    | loop : base == base.
+
+Using the [[univalence axiom]], one can prove that the [[loop space]] `base == base` of the circle type is equivalent to the [[integers]]; see [this blog post](http://homotopytypetheory.org/2011/04/29/a-formal-proof-that-pi1s1-is-z/).
+
+### The interval
+
+    Inductive interval : Type :=
+    | zero : interval
+    | one : interval
+    | segment : zero == one.
+
+See [[interval type]].  The interval can be proven to be [[contractible type|contractible]].  On the other hand, if the constructors `zero` and `one` satisfy their elimination rules definitionally, then the existence of an interval type implies [[function extensionality]]; see [this blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/).
+
+### The 2-sphere
+
+    Inductive sphere2 : Type :=
+    | base2 : sphere2
+    | surf2 : idpath base2 == idpath base2.
+
+### Suspension
+
+    Inductive susp (X : Type) : Type :=
+    | north : susp X
+    | south : susp X
+    | merid : X -> north == south.
+
+This is the unpointed [[suspension]].  It is also possible to define the pointed suspension.  Using either one, we can define the $n$-sphere by induction on $n$, since $S^{n+1}$ is the suspension of $S^n$.
+
+### Mapping cylinders
+
+    Inductive cyl {X Y : Type} (f : X -> Y) : Y -> Type :=
+    | cyl_base : forall y:Y, cyl f y
+    | cyl_top : forall x:X, cyl f (f x)
+    | cyl_seg : forall x:X, intop x == inbase (f x).
+
+Using this construction, one can define a (cofibration, trivial fibration) [[weak factorization system]] for types.
+
+### Truncation
+
+    Inductive is_inhab (A : Type) : Type :=
+    | inhab : A -> is_inhab A
+    | inhab_path : forall (x y: is_inhab A), x == y.
+
+This is the $(-1)$-[[truncation]].  One can prove that `is_inhab A` is always a proposition (i.e. $(-1)$-truncated) and that it is the reflection of $A$ into propositions.  More generally, one can construct the (effective epi, mono) factorization system by applying `is_inhab` fiberwise to a fibration.
+
+Similarly, we have the 0-truncation:
+
+    Inductive pi0 (X:Type) : Type :=
+    | cpnt : X -> pi0 X
+    | pi0_axiomK : forall (l : Circle -> X), refl (l base) == map l loop.
+
+We can similarly define $n$-truncation for any $n$, and we should be able to define it inductively for all $n$ at once as well.
+
+### Pushouts
+
+The (homotopy) [[pushout]] of $f\colon A\to B$ and $g\colon A\to C$:
+
+    Inductive hpushout {A B C : Type} (f : A -> B) (g : A -> C) : Type :=
+    | inl : B -> hpushout f g
+    | inr : C -> hpushout f g
+    | glue : forall (a : A), inl (f a) == inr (g a).
+
+### Quotients of sets
+
+The [[quotient]] of an hProp-value [[equivalence relation]], yielding an hSet (a 0-truncated type):
+
+    Inductive quotient (A : Type) (R : A -> A -> hProp) : Type :=
+    | proj : A -> quot A R
+    | relate : forall (x y : A), R x y -> quot x == quot y
+    | contr1 : forall (x y : quot A R) (p q : x == y), p == q.
+
+This is already interesting in extensional type theory, where quotient types are not always included.  For more general homotopical quotients of "internal groupoids" as in the $(\infty,1)$-Giraud theorem, we first need a good definition of what such an internal groupoid is.
+
+### Localization
+
+Suppose we are given a family of functions:
+
+    Hypothesis I : Type.
+    Hypothesis S T : I -> Type.
+    Hypothesis f : forall i, S i -> T i.
+
+A type is said to be **local** if it sees each of these functions as an equivalence:
+
+    Definition is_local Z := forall i,
+      is_equiv (fun g : T i -> Z => g o f i).
+
+The following HIT can be shown to be a reflection of all types into the local types, constructing the [[localization]] of the category of types at the given family of maps.
+
+    Inductive localize X :=
+    | to_local : X -> localize X
+    | local_extend : forall (i:I) (h : S i -> localize X),
+        T i -> localize X
+    | local_extension : forall (i:I) (h : S i -> localize X) (s : S i),
+        local_extend i h (f i s) == h s
+    | local_unextension : forall (i:I) (g : T i -> localize X) (t : T i),
+        local_extend i (g o f i) t == g t
+    | local_triangle : forall (i:I) (g : T i -> localize X) (s : S i),
+        local_unextension i g (f i s) == local_extension i (g o f i) s.
+
+The first constructor gives a map from `X` to `localize X`, while the other four specify exactly that `localize X` is local (by giving adjoint equivalence data to the map that we want to become an equivalence).  See [this blog post](http://homotopytypetheory.org/2011/12/06/inductive-localization/) for details.  This construction is also already interesting in extensional type theory.
+
+### Spectrification
+
+A [[prespectrum]] is a sequence of pointed types $X_n$ with pointed maps $X_n \to \Omega X_n$:
+
+    Definition prespectrum :=
+      {X : nat -> Type & 
+       { pt : forall n, X n &
+        { glue : forall n, X n -> pt (S n) == pt (S n) &
+          forall n, glue n (pt n) == idpath (pt (S n)) }}}.
+
+A prespectrum is a [[spectrum]] if each of these maps is an equivalence.
+
+    Definition is_spectrum (X : prespectrum) : Type :=
+      forall n, is_equiv (pr1 (pr2 (pr2 X)) n).
+
+In classical algebraic topology, there is a **spectrification** functor which is left adjoint to the inclusion of spectra in prespectra.  For instance, this is how a [[suspension spectrum]] is constructed: by spectrifying the prespectrum $X_n \coloneqq \Sigma^n A$.
+
+The following HIT should construct spectrification in homotopy type theory (though this has not yet been verified formally).  (There are some abuses of notation below, which can be made precise using Coq typeclasses and implicit arguments; also the definition is not quite complete.)
+
+    Inductive spectrify (X : prespectrum) : nat -> Type :=
+    | to_spectrify : forall n, X n -> spectrify X n
+    | spectrify_glue : forall n, spectrify X n ->
+        to_spectrify (S n) (pt (S n)) == to_spectrify (S n) (pt (S n))
+    | spectrify_glue_pointed : forall n,
+        spectrify_glue n (to_spectrify n (pt n))
+        == idpath (to_spectrify (S n) (pt (S n)))
+    | to_spectrify_is_prespectrum_map1 : forall n (x : X n),
+        spectrify_glue n (to_spectrify n x) 
+        == loop_functor (to_spectrify (S n)) (glue n x)
+    | to_spectrify_is_prespectrum_map2 : forall n (x : X n),
+        to_spectrify_is_prespectrum_map1 n (pt n) 
+        == (* some composite of stuff *)
+    | spectrify_glue_inverse : forall n
+        (p : to_spectrify (S n) (pt (S n)) == to_spectrify (S n) (pt (S n))),
+        spectrify X n
+    | spectrify_glue_inverse_is_retraction : forall n (sx : spectrify X n),
+        spectrify_glue_inverse n (spectrify_glue n sx) == sx
+    | spectrify_glue_inverse_is_section : forall n
+        (p : to_spectrify (S n) (pt (S n)) == to_spectrify (S n) (pt (S n))),
+        spectrify_glue n (spectrify_glue_inverse n p) == p
+    | spectrify_glue_inverse_triangle : forall n (sx : spectrify X n),
+        map (spectrify_glue n) (spectrify_glue_inverse_is_retraction n sx)
+        == spectrify_glue_inverse_is_section n (spectrify_glue n sx).
+
+Unraveling this:
+
+* The first constructor `to_spectrify` says that `spectrify X` comes with a levelwise map from `X`.
+* The second and third constructors `spectrify_glue` and `spectrify_glue_pointed` say that `spectrify X` is a prespectrum.
+* The fourth and fifth constructors say that the map `X -> spectrify X` is a map of prespectra.
+* The sixth through ninth constructors say that `spectrify X` is a spectrum, by giving adjoint equivalence data as we did for localization.
 
 ## Related concepts
 
