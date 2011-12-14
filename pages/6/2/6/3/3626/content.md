@@ -187,7 +187,7 @@ A special commutative Frobenius algebra gives a 2d TQFT that is insensitive to t
 {#Street2004}
 
 (TO ADD: stuff from this [MO post](http://mathoverflow.net/questions/32193/why-did-people-originally-like-frobenius-algebras))
-
+(TO DO: $\epsilon$ is used for the comultiplication in the beginning, then for the linear form, and in the definition of symmetry for the bilinear pairing on a Frobenius algebra.  Use three different letters for these) 
 
 [[!redirects Frobenius algebra]]
 [[!redirects Frobenius algebras]]
