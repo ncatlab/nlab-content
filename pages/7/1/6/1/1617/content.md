@@ -33,7 +33,7 @@ $$
   \,,
 $$
 
-then the [[point of a topos|topos points]] of $E$ come precisely from the ordinmary points 
+then the [[point of a topos|topos points]] of $E$ come precisely from the ordinary points 
 
 $$
   (x : {*} \to X)   in  Top
@@ -68,7 +68,7 @@ for $F = C(-)$ a sheaf of functions on $X$, such an equivalence class, hence suc
 
 #### Testing sheaf morphisms on stalks
 
-For $E = Sh(X)$ a topos of sheaves on a topological space (or generally if the topos $E$ has "[[point of a topos|enough points]]"), the bahaviour of morphisms $f : A \to B$ in $E$ can be tested on stalks
+For $E = Sh(X)$ a topos of sheaves on a topological space (or generally if the topos $E$ has "[[point of a topos|enough points]]"), the behaviour of morphisms $f : A \to B$ in $E$ can be tested on stalks
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -81,7 +81,7 @@ A morphism $f : A \to B$ of sheaves on $X$ is a
 
 * resp. [[isomorphism]]
 
-if and only every induced map of stalk sets $stalk_x(f) : stalk_x(A) \to stalk_x(B)$ is, for all $x \in X$
+if and only if every induced map of stalk sets $stalk_x(f) : stalk_x(A) \to stalk_x(B)$ is, for all $x \in X$
 =--
 
 +-- {: .proof}
