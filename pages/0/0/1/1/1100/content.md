@@ -436,3 +436,6 @@ More on this with an eye on [[associated ∞-bundle]]s is in
 [[!redirects (∞,1)-topos]]
 [[!redirects (∞,1)-topoi]]
 [[!redirects (∞,1)-toposes]]
+
+[[!redirects (∞,1)-Giraud theorem]]
+[[!redirects (infinity,1)-Giraud theorem]]
