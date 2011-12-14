@@ -34,6 +34,8 @@ Using the [[univalence axiom]], one can prove that the [[loop space]] `base == b
 
 ### The interval
 
+The [[homotopy type]] of the [[interval]] can be encoded as
+
     Inductive interval : Type :=
     | zero : interval
     | one : interval
@@ -42,6 +44,8 @@ Using the [[univalence axiom]], one can prove that the [[loop space]] `base == b
 See [[interval type]].  The interval can be proven to be [[contractible type|contractible]].  On the other hand, if the constructors `zero` and `one` satisfy their elimination rules definitionally, then the existence of an interval type implies [[function extensionality]]; see [this blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/).
 
 ### The 2-sphere
+
+Similarly the [[homotopy type]] of the 2-[[dimensional]] [[sphere]]
 
     Inductive sphere2 : Type :=
     | base2 : sphere2
@@ -57,6 +61,9 @@ See [[interval type]].  The interval can be proven to be [[contractible type|con
 This is the unpointed [[suspension]].  It is also possible to define the pointed suspension.  Using either one, we can define the $n$-sphere by induction on $n$, since $S^{n+1}$ is the suspension of $S^n$.
 
 ### Mapping cylinders
+ {#MappingCylinders}
+
+The construction of [[mapping cylinders]] is given by
 
     Inductive cyl {X Y : Type} (f : X -> Y) : Y -> Type :=
     | cyl_base : forall y:Y, cyl f y
@@ -71,9 +78,9 @@ Using this construction, one can define a (cofibration, trivial fibration) [[wea
     | inhab : A -> is_inhab A
     | inhab_path : forall (x y: is_inhab A), x == y.
 
-This is the $(-1)$-[[truncation]].  One can prove that `is_inhab A` is always a proposition (i.e. $(-1)$-truncated) and that it is the reflection of $A$ into propositions.  More generally, one can construct the (effective epi, mono) factorization system by applying `is_inhab` fiberwise to a fibration.
+This is the [[(-1)-truncated|(-1)-truncation]] to [[h-level 1]].  One can prove that `is_inhab A` is always a [[proposition]] (i.e. $(-1)$-truncated) and that it is the reflection of $A$ into propositions.  More generally, one can construct the [[(effective epi, mono) factorization system]] by applying `is_inhab` fiberwise to a fibration.
 
-Similarly, we have the 0-truncation:
+Similarly, we have the [[0-truncated|0-truncation]] to [[h-level 2]]:
 
     Inductive pi0 (X:Type) : Type :=
     | cpnt : X -> pi0 X
@@ -83,7 +90,7 @@ We can similarly define $n$-truncation for any $n$, and we should be able to def
 
 ### Pushouts
 
-The (homotopy) [[pushout]] of $f\colon A\to B$ and $g\colon A\to C$:
+The ([homotopy) [[homotopy pushout|pushout]] of $f\colon A\to B$ and $g\colon A\to C$:
 
     Inductive hpushout {A B C : Type} (f : A -> B) (g : A -> C) : Type :=
     | inl : B -> hpushout f g
@@ -91,30 +98,31 @@ The (homotopy) [[pushout]] of $f\colon A\to B$ and $g\colon A\to C$:
     | glue : forall (a : A), inl (f a) == inr (g a).
 
 ### Quotients of sets
+ {#QuotientsOfSets}
 
-The [[quotient]] of an hProp-value [[equivalence relation]], yielding an hSet (a 0-truncated type):
+The [[quotient]] of an [[hProp]]-value [[equivalence relation]], yielding an [[hSet]] (a [[0-truncated]] type):
 
     Inductive quotient (A : Type) (R : A -> A -> hProp) : Type :=
     | proj : A -> quot A R
     | relate : forall (x y : A), R x y -> quot x == quot y
     | contr1 : forall (x y : quot A R) (p q : x == y), p == q.
 
-This is already interesting in extensional type theory, where quotient types are not always included.  For more general homotopical quotients of "internal groupoids" as in the $(\infty,1)$-Giraud theorem, we first need a good definition of what such an internal groupoid is.
+This is already interesting in [[extensional type theory]], where [[quotient types]] are not always included.  For more general homotopical quotients of "[[internal groupoids]]" as in the  [[(∞,1)-Giraud theorem]], we first need a good definition of what such an internal groupoid is.
 
 ### Localization
 
-Suppose we are given a family of functions:
+Suppose we are given a family of [[function type|functions]]:
 
     Hypothesis I : Type.
     Hypothesis S T : I -> Type.
     Hypothesis f : forall i, S i -> T i.
 
-A type is said to be **local** if it sees each of these functions as an equivalence:
+A type is said to be $I$-**[[local object|local]]** if it sees each of these functions as an [[equivalence]]:
 
     Definition is_local Z := forall i,
       is_equiv (fun g : T i -> Z => g o f i).
 
-The following HIT can be shown to be a reflection of all types into the local types, constructing the [[localization]] of the category of types at the given family of maps.
+The following HIT can be shown to be a [[reflection]] of all types into the local types, constructing the [[localization]] of the category of types at the given family of maps.
 
     Inductive localize X :=
     | to_local : X -> localize X
@@ -131,7 +139,7 @@ The first constructor gives a map from `X` to `localize X`, while the other four
 
 ### Spectrification
 
-A [[prespectrum]] is a sequence of pointed types $X_n$ with pointed maps $X_n \to \Omega X_n$:
+A [[prespectrum]] is a sequence of [[pointed object|pointed types]] $X_n$ with pointed maps $X_n \to \Omega X_n$:
 
     Definition prespectrum :=
       {X : nat -> Type & 
@@ -144,9 +152,9 @@ A prespectrum is a [[spectrum]] if each of these maps is an equivalence.
     Definition is_spectrum (X : prespectrum) : Type :=
       forall n, is_equiv (pr1 (pr2 (pr2 X)) n).
 
-In classical algebraic topology, there is a **spectrification** functor which is left adjoint to the inclusion of spectra in prespectra.  For instance, this is how a [[suspension spectrum]] is constructed: by spectrifying the prespectrum $X_n \coloneqq \Sigma^n A$.
+In classical [[algebraic topology]], there is a **spectrification** functor which is [[left adjoint]] to the inclusion of spectra in prespectra.  For instance, this is how a [[suspension spectrum]] is constructed: by spectrifying the prespectrum $X_n \coloneqq \Sigma^n A$.
 
-The following HIT should construct spectrification in homotopy type theory (though this has not yet been verified formally).  (There are some abuses of notation below, which can be made precise using Coq typeclasses and implicit arguments; also the definition is not quite complete.)
+The following HIT should construct spectrification in [[homotopy type theory]] (though this has not yet been verified formally).  (There are some abuses of notation below, which can be made precise using Coq typeclasses and implicit arguments; also the definition is not quite complete.)
 
     Inductive spectrify (X : prespectrum) : nat -> Type :=
     | to_spectrify : forall n, X n -> spectrify X n
