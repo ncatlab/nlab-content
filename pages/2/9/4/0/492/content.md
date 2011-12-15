@@ -189,16 +189,27 @@ projects down to the one in $X$:
     $$
 
 
-## Quasi-fibration
+## Variants
+
+### Quasi-fibration
 
 A **quasi-fibration** or **weak Kan fibration** or **inner Kan fibration** of simplicial sets is defined as above, but with the lifting property only imposed in _inner horns_: $\Lambda^n_k$ with $0 \lt k \lt (n-1)$, not the _outer horns_ $\Lambda^n_0$ and $\Lambda^n_n$.
 
 This weakened condition then says that _composition_ of cells may be lifted through the quasi-fibration, but not necessarily [[inverse|inversion]] of 1-cells.  See [[fibrations of quasi-categories]] for more details.
 
-## Left and right Kan fibration 
+### Left and right Kan fibration 
 
 Similarly, a **left Kan fibration** is one that has the lifting property for all horns except possibly the last one.
 and a **right Kan fibration** is one that has the lifting property for all horns except possibly the first one.  See [[fibrations of quasi-categories]] for more details.
+
+### Minimal Kan fibration
+
+A Kan fibration $p : E \to B$ is called 
+a **[[minimal Kan fibration]]** 
+if for all cells $x,y : \Delta[n] \to E$ 
+the condition $p(x) = p(y)$ and $\partial_i x = \partial_i y$ implies for all $k$ that $\partial_k x = \partial_k y$.
+
+
 
 
 ## Properties
