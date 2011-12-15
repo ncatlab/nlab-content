@@ -2,7 +2,7 @@ A [[functor]] is called **bijective on objects**, or **bo**, if it is, well, bij
 
 To be less [[evil]], one could require that the functor be bijective on objects only up to isomorphism; that is, it is [[essentially surjective functor|essentially surjective]] and [[full functor|full]] on isomorphisms.  However, from the point of view of [[factorization system]]s, the non-evil version of a bo functor is nothing more or less than an [[essentially surjective functor]], since essentially surjective functors and ff functors form a bicategorical factorization system on the [[bicategory]] $Cat$.
 
-[[R. Street]] in _Categorical and combinatorial aspects of descent theory_ proves
+[[R. Street]] in _[Categorical and combinatorial aspects of descent theory](http://arxiv.org/pdf/math/0303175)_ proves
 
 Proposition. A functor is bijective on objects if and only if it exhibits its
 codomain as the (2-categorical) codescent object of some simplicial category.
