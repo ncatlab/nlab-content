@@ -59,13 +59,13 @@ A **model category** is a [[complete category|complete]] and [[cocomplete catego
 
 **Terminology**
 
-* The morphisms in $W \cap Fib$ (the fibrations that are also weak equivalences) are called **trivial fibrations** or **acyclic fibrations** 
+* The morphisms in $W \cap Fib$ (the fibrations that are also weak equivalences) are called **trivial fibrations** or **[[acyclic fibrations]]** 
 
-* The morphisms in $W \cap Cof$ (the cofibrations that are also weak equivalences) are called **trivial cofibrations** or **acyclic cofibrations**. 
+* The morphisms in $W \cap Cof$ (the cofibrations that are also weak equivalences) are called **trivial cofibrations** or **[[acyclic cofibrations]]**. 
 
-* An object is called **cofibrant** if the unique morphism $\emptyset \to X$ from the [[initial object]] is a cofibration
+* An object is called **[[cofibrant]]** if the unique morphism $\emptyset \to X$ from the [[initial object]] is a cofibration
 
-* An object is called **fibrant** if the unique morphism $X\to *$ to the [[terminal object]] is a fibration.  
+* An object is called **[[fibrant]]** if the unique morphism $X\to *$ to the [[terminal object]] is a fibration.  
 
 Often, the fibrant and cofibrant objects are the ones one is "really" interested in, but the category consisting only of these is not well-behaved (as a 1-category).  The factorizations supply fibrant and cofibrant replacement functors which allow us to treat any object of the model category as a 'model' for its fibrant-cofibrant replacement.
 
