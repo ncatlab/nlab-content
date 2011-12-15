@@ -3,16 +3,26 @@
 * table of contents
 {:toc}
 
-
 ## Idea
 
 A _locally cartesian closed model category_ is a [[locally cartesian closed category]] which is equipped with the structure of a [[model category]] in a compatible way.
 
+## Definition
+
+A [[model category]] $\mathcal{C}$ which is additionally a [[locally cartesian closed category]] is called a **locally cartesian closed model category** if for any [[fibration]] $g\colon A\to B$ between [[fibrant objects]], the [[dependent product]] [[adjunction]]
+$$ g^* : \mathcal{C}/B \rightleftarrows \mathcal{C}/A : \Pi_g $$
+is a [[Quillen adjunction]].
+
+Concretely, this means that both [[cofibrations]] and [[trivial cofibrations]] are [[pullback-stability|stable]] under [[pullback]] along fibrations between fibrant objects.
+
+## Examples
+
+Any [[right proper model category]] which is locally cartesian closed and in which the cofibrations are the [[monomorphisms]] is a locally cartesian closed model category.  This includes the classical [[model structure on simplicial sets]], as well as the [[injective model structure|injective]] [[global model structure on simplicial presheaves]].
+
 ## Applications
 
-* Locally cartesian closed model categories provide [[categorical semantics]] for [[homotopy type theory]] with the [[univalence axiom]].
+* Modulo questions of strictness and coherence (see [[identity type]] for details), locally cartesian closed model categories provide [[categorical semantics]] for [[homotopy type theory]] with [[function extensionality]].
 
 ## Related concepts
 
 * [[cartesian closed model category]]
-
