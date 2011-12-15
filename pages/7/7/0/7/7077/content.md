@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+A _locally cartesian closed model category_ is a [[locally cartesian closed category]] which is equipped with the structure of a [[model category]] in a compatible way.
+
+## Applications
+
+* Locally cartesian closed model categories provide [[categorical semantics]] for [[homotopy type theory]] with the [[univalence axiom]].
+
+## Related concepts
+
+* [[cartesian closed model category]]
+
