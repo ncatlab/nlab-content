@@ -29,7 +29,7 @@ for each $V\in \alpha$, $V\subseteq \varphi(V)$. There is an obvious extension t
 
 $$\check{C}(X,-) : Cov(X)\to SSets.$$
 
-with the coherence being able to be spelled out completely, (see _Coverings, Hypercoverings and Homotopy Coherence_, thesis (1999) from Bangor, by Alinor Abdul Kadir, available [here](http://www.maths.bangor.ac.uk/research/ftp/theses/kadir.pdf).
+with the coherence being able to be spelled out completely, (see _Coverings, Hypercoverings and Homotopy Coherence_, thesis (1999) from Bangor, by Alinor Abdul Kadir, available [here](http://www.maths.bangor.ac.uk/research/ftp/theses/kadir.pdf)).
 
 ###Using the Vietoris complex: ### 
 
