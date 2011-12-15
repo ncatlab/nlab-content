@@ -28,16 +28,93 @@ The name *univalence* (due to Voevodsky) comes from the following reasoning.  A 
 
 ## Definition
 
+We state univalence first in ([[intensional type theory|intensional]]) [[type theory]] and then in its [[categorical semantics]].
+
 ### In the type theory
 
-Let $X$ and $Y$ be types.  There is a canonically defined map from the type $(X = Y)$ of paths (in [[Type]]) between them to the type $(X \simeq Y)$ of [[equivalences]] between them.  It can be defined by *path induction*, i.e. the eliminator for the identity types, by specifying that it takes the identity path $1_X \colon (X=X)$ to the identity equivalence of $X$.
+Let $X$ and $Y$ be [[types]].  There is a canonically defined map from the [[identity type]] $(X = Y)$ of paths (in [[Type]]) between them to the [[function type]] $(X \simeq Y)$ of [[equivalences]] between them.  It can be defined by *path induction*, i.e. the eliminator for the identity types, by specifying that it takes the identity path $1_X \colon (X=X)$ to the identity equivalence of $X$.
 
 **Univalence:** _For any two [[types]] $X,Y$, this map $(X=Y)\to (X\simeq Y)$ is an equivalence._
 
 Univalence is a commonly assumed axiom in [[homotopy type theory]], and is central to the proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] (the _Univalent Foundations Project_.)
 
+### In categorical semantics
+ {#InCategoricalSemantics}
 
-### In simplicial sets
+Let $\mathcal{C}$ be a [[locally cartesian closed model category]]. 
+
+By the [[categorical semantics]] of [[homotopy type theory]], a
+[[dependent type]]
+
+$$
+  b : B \vdash E(b) : Type
+$$
+
+corresponds to a [[morphism]] $E \to B$ in $\mathcal{C}$ such that 
+this is a fibration between fibrant objects.
+
+Then the dependent [[function type]]
+
+$$
+  b_1 b_2 : B \vdash ( E(b_1) \to E(b_2)) : Type
+$$
+
+is interpreted as the [[internal hom]] $[-,-]_{\mathcal{C}/_{B \times B}}$ in the [[slice category]] $\mathcal{C}/_{B \times B}$
+after extending $E$ to the [[context]] $B \times B$ along the two projections
+$p_1, p_2 : B \times B \to B$, respectively. Hence this is interpreted as
+
+$$
+  [E \times B \, , \, B \times E]_{\mathcal{C}/_{B \times B}}
+  \in 
+  \mathcal{C}/_{B \times B}
+  \,.
+$$
+
+Consider then the [[diagonal]] $\Delta_B : B \to B \times B$ morphism in $\mathcal{C}$ as an object of $\mathcal{C}/_{B \times B}$.
+
+The [[diagram]] in $\mathcal{C}$
+
+$$
+  \array{  
+    \Delta_B^* E \times B &\to& E \times B
+    \\
+    \downarrow && \downarrow
+    \\
+    B &\stackrel{\Delta_B}{\to}& B \times B
+    \\  
+    & {}_{\mathllap{\Delta_B}}\searrow & \downarrow^{\sigma}
+    \\
+    && B \times B
+  }
+  \,,
+$$
+
+where the top square is a [[pullback]] and where $\sigma : B \times B \to B \times B$ denotes the [[braided monoidal category|braiding]], exhibits a canonical morphism 
+
+$$
+  \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to 
+  B \times E
+$$
+
+in $\mathcal{C}/_{B \times B}$, ince the [[product]] in $\mathcal{C}/_{B \times B}$ is a [[pullback]] in $\mathcal{B}$, this . By the product-hom [[adjunction]] this is identified with a morphism
+
+$$
+  \Delta_B \to [E \times B , B \times E]_{\mathcal{C}/_{B \times B}}
+  \,.
+$$
+
+Finally, let $Eq(E) \hookrightarrow [E \times B , B \times E]_{\mathcal{C}/_{B \times B}}$ be the subobject (...) on the weak equivalences, and observe that the above morphisms factors (...)
+
+$$
+  \Delta_B \to Eq(E)
+  \,.
+$$
+
+Then $E \to B$ is univalent in $\mathcal{C}$ if this morphism is a weak equivalence.
+
+(...)
+
+#### In simplicial sets
  {#InSimplicialSets}
 
 Let $C = $ [[sSet]], equipped with the 
@@ -107,7 +184,7 @@ The fibration $E \to B$ is univalent, precisely when this morphism is  a weak eq
 
 This appears originally as [Voevodsky, def. 3.4](#UnivalentFoundationsProject)
 
-### In simplicial presheaves
+#### In simplicial presheaves
   {#InSimplicialPresheaves}
 
 (...)
