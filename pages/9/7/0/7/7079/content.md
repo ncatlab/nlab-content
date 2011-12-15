@@ -1,0 +1,12 @@
+In a [[model category]], an [[object]] $X$ is said to be **fibrant** if the unique map $X\to 1$ to the [[terminal object]] is a [[fibration]].
+
+Dually, $X$ is said to be **cofibrant** if the unique map $0\to X$ from the [[initial object]] is a [[cofibration]].
+
+[[!redirects fibrant object]]
+[[!redirects fibrant objects]]
+[[!redirects cofibrant object]]
+[[!redirects cofibrant objects]]
+[[!redirects fibrancy]]
+[[!redirects cofibrancy]]
+[[!redirects fibrant]]
+[[!redirects cofibrant]]
