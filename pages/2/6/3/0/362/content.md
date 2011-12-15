@@ -23,13 +23,13 @@ More generally, for any 2-categories $C$ and $D$, a 2-functor $C\times\mathbf{2}
 
 Following up on the last comment, $B\otimes C$ can be defined by
 $$ 2Cat(B\otimes C, D) \cong 2Cat(B, Ps(C,D)) $$
-where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, and modifications $C\to D$.  In other words, the category 2Cat of strict 2-categories  and strict 2-functors is a [[closed monoidal category]] whose tensor product is $\otimes$ and whose internal hom is $Ps(-,-)$.
+where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, and modifications $C\to D$.  In other words, the category 2Cat of strict 2-categories  and strict 2-functors is a [[closed monoidal category|closed]] [[symmetric monoidal category]], whose tensor product is $\otimes$ and whose internal hom is $Ps(-,-)$.
 
 ## Remarks 
 
 * When considered with this monoidal structure, 2Cat is often called Gray.  [[Gray-category|Gray-categories]], or categories [[enriched category|enriched]] over Gray, are a model for [[semi-strict infinity-category|semi-strict]] 3-categories.  Categories enriched over 2Cat with its cartesian product are _strict_ 3-categories, which are not as useful.  This is one precise sense in which the Gray tensor product is "more correct" than the cartesian product.
 
-* Gray is a rare example of a non-[[cartesian monoidal category|cartesian]] monoidal category whose unit object is nevertheless the terminal object.
+* Gray is a rare example of a non-[[cartesian monoidal category|cartesian]] monoidal category whose unit object is nevertheless the terminal object --- that is, a [[semicartesian monoidal category]].
 
 * There are also versions of the Gray tensor product in which pseudonatural transformations are replaced by lax or oplax ones.  (In fact, these were the ones originally defined by Gray.)
 
