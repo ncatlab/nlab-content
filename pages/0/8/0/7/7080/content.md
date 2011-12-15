@@ -1,0 +1,12 @@
+In a [[model category]], an **acyclic fibration** or **trivial fibration** is a [[morphism]] which is both a [[fibration]] and a [[weak equivalence]].
+
+Dually, an **acyclic cofibration** or **trivial cofibration** is a morphism which is both a [[cofibration]] and a weak equivalence.
+
+[[!redirects acyclic fibration]]
+[[!redirects acyclic fibrations]]
+[[!redirects acyclic cofibration]]
+[[!redirects acyclic cofibrations]]
+[[!redirects trivial fibration]]
+[[!redirects trivial fibrations]]
+[[!redirects trivial cofibration]]
+[[!redirects trivial cofibrations]]
