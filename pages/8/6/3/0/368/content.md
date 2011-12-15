@@ -5,7 +5,7 @@ To be less [[evil]], one could require that the functor be bijective on objects 
 [[R. Street]] in _[Categorical and combinatorial aspects of descent theory](http://arxiv.org/pdf/math/0303175)_ proves
 
 Proposition. A functor is bijective on objects if and only if it exhibits its
-codomain as the (2-categorical) codescent object of some simplicial category.
+codomain as the (2-categorical) [[descent object|codescent object]] of some simplicial category.
 
 This can be generalized to any [[regular 2-category]].
 
