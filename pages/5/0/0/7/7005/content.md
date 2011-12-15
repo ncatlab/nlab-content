@@ -119,7 +119,7 @@ The univalence axiom implies [[function extensionality]].
 
 ## References
 
-The univalence axiom was introduced and promoted independntly by [[Steve Awodey]] and [[Vladimir Voevodsky]] around 2005/06.
+The univalence axiom was introduced and promoted by Vladimir Voevodsky around 2005. (?)
 
 * [[Vladimir Voevodsky]], _Univalent Foundations Project_ ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf))
  {#UnivalentFoundationsProject}
