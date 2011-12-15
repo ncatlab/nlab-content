@@ -158,3 +158,5 @@ A survey is in chapter 1 of
 [[!redirects equality types]]
 [[!redirects path type]]
 [[!redirects path types]]
+[[!redirects stable path object]]
+[[!redirects stable path objects]]
