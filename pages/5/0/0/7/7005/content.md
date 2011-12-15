@@ -43,15 +43,14 @@ Univalence is a commonly assumed axiom in [[homotopy type theory]], and is centr
 
 Let $\mathcal{C}$ be a [[locally cartesian closed model category]]. 
 
-By the [[categorical semantics]] of [[homotopy type theory]], a
-[[dependent type]]
+By the [[categorical semantics]] of [[homotopy type theory]], a [[dependent type]]
 
 $$
   b : B \vdash E(b) : Type
 $$
 
 corresponds to a [[morphism]] $E \to B$ in $\mathcal{C}$ such that 
-this is a fibration between fibrant objects.
+this is a [[fibration]] between fibrant objects.
 
 Then the dependent [[function type]]
 
@@ -70,7 +69,7 @@ $$
   \,.
 $$
 
-Consider then the [[diagonal]] $\Delta_B : B \to B \times B$ morphism in $\mathcal{C}$ as an object of $\mathcal{C}/_{B \times B}$.
+Consider then the [[diagonal]] morphism $\Delta_B : B \to B \times B$  in $\mathcal{C}$ as an object of $\mathcal{C}/_{B \times B}$.
 
 The [[diagram]] in $\mathcal{C}$
 
@@ -96,28 +95,62 @@ $$
   B \times E
 $$
 
-in $\mathcal{C}/_{B \times B}$, ince the [[product]] in $\mathcal{C}/_{B \times B}$ is a [[pullback]] in $\mathcal{B}$, this . By the product-hom [[adjunction]] this is identified with a morphism
+in $\mathcal{C}/_{B \times B}$, since the [[product]] in $\mathcal{C}/_{B \times B}$ is the [[fiber product]] in $\mathcal{C}$ over $B \times B$. By the defining product-hom [[adjunction]] this is identified with a morphism
 
 $$
+  q
+  :
   \Delta_B \to [E \times B , B \times E]_{\mathcal{C}/_{B \times B}}
   \,.
 $$
 
-Finally, let $Eq(E) \hookrightarrow [E \times B , B \times E]_{\mathcal{C}/_{B \times B}}$ be the subobject (...) on the weak equivalences, and observe that the above morphisms factors (...)
+Using the [[path object]] factorization in $\mathcal{C}$
 
 $$
-  \Delta_B \to Eq(E)
+  \array{
+     B &&\stackrel{\simeq}{\hookrightarrow}&& B^I
+     \\
+     & {}_{\mathllap{\Delta_B}}\searrow
+     && \swarrow_{\mathrlap{}}
+     \\
+     && B \times B
+  }
+$$
+
+by an acyclic cofibration followed by a fibration, we obtain a fibrant replacement of $\Delta_B$ in the [[slice model category]] $\mathcal{C}_{B \times B}$.
+
+Since also $[E \times B, B \times E]_{\mathcal{C}/_{B \times B}}$ is fibrant by the axioms on the [[locally cartesian closed model category]] $\mathcal{C}$, we have a 
+lift $\hat q$ in the [[diagram]] in $\mathcal{C}/_{B \times B}$
+
+$$
+  \array{
+    B &\stackrel{q}{\to}& [E \times B, B \times E]_{\mathcal{C}/_{B \times B}}
+   \\
+   \downarrow &{}^{\mathllap{\hat q}}\nearrow& \downarrow
+   \\
+   B^I &\to& B \times B = *_{\mathcal{C}/_{B \times B}}
+  } 
   \,.
 $$
 
-Then $E \to B$ is univalent in $\mathcal{C}$ if this morphism is a weak equivalence.
+This lift is the interpretation of the [[identity type|path induction]] that decudes a map on all paths $\gamma \in B^I$ from one on just the identity paths $id_b \in B \hookrightarrow B^I$.
+
+
+Finally, let $Eq(E) \hookrightarrow [E \times B , B \times E]_{\mathcal{C}/_{B \times B}}$ be the subobject (...) on the weak equivalences, and observe that $q$ and $\hat q$ factor to give
+
+$$
+  \hat q : B^I \to Eq(E)
+  \,.
+$$
+
+The fibration $E \to B$ is **univalent** in $\mathcal{C}$ if this morphism is a weak equivalence.
 
 (...)
 
 #### In simplicial sets
  {#InSimplicialSets}
 
-Let $C = $ [[sSet]], equipped with the 
+We specialize the [general discussion](#InCategoricalSemantics) above to the realization in $\mathcal{C} = $ [[sSet]], equipped with the 
 standard [[model structure on simplicial sets]].
 
 For $E \to X$ any fibration ([[Kan fibration]])
