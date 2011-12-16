@@ -59,31 +59,11 @@ In particular, in [[homotopy type theory]], a **set** is formally defined as a [
 
     Definition is_set A := forall (x y : A) (p q : x == y), p == q
 
-(There are numerous other equivalent definitions.)  Because this operation is defined internally, it acts on paths as well as points and implies that for any two points of $A$, the [[identity type|type of paths]] between them is [[contractible space|contractible]] as soon as it is [[inhabited]].  Thus regarding types as [[∞-groupoids]], this definition takes care only of the discreteness requirement.
+(There are numerous other equivalent definitions.  See [[h-set]].)  Because this operation is defined internally, it acts on paths as well as points and implies that for any two points of $A$, the [[identity type|type of paths]] between them is [[contractible space|contractible]] as soon as it is [[inhabited]].  Thus regarding types as [[∞-groupoids]], this definition takes care only of the discreteness requirement.
 
 Regarding smallness, HoTT is usually formulated in [[Martin-Löf type theory]] with [[universes]] ([[type of types]]).  If we have chosen one particular universe as the universe of "small" things, then "setness" could be restricted to types belonging to that universe.
 
 Finally, skeletality is mostly meaningless in HoTT because paths are the only notion of (propositional) [[equality]] which we have to reason with.  (There is also the notion of "definitional" equality, but as we cannot assert or prove statements of the form "$x$ and $y$ are definitionally equal" inside the theory, this is mostly not relevant for the purposes of setness.)
-
-One interesting consequence of this definition is the following.
-
-+-- {: .num_theorem #DecidableIsSet}
-###### Theorem
-Suppose that $A$ is a [[type]] which has [[decidable equality]] in the [[propositions as types]] [[logic]] (which is not the logic of h-propositions usually used in HoTT).  In other words, the projection
-$$\array{Paths_A + (0\to A\times A)^{(Paths_A\to A\times A)}\\
-\downarrow\\
-A\times A}
-$$
-where $Paths_A$ is the [[path object|path type]] of $A$, has a section.  Then $A$ is a set.
-=--
-+-- {: .proof}
-###### Proof
-Let $d$ be the given [[section]].  Thus, for any $x,y\colon A$, $d(x,y)$ is either a path from $x$ to $y$ or a function from $Paths(x,y)$ to the empty type (implying that $Paths(x,y)$ is also empty).
-
-It suffices to exhibit an operation connecting any endo-path $p \in Paths(x,x)$ to the identity path $1_x$.  Given such a path, define $q = d(x,x)$.  If $d(x,x)$ lies in the second case, then $Paths(x,x)$ is empty, a contradiction since we know it contains $1_x$; hence we may assume $q\in Paths(x,x)$ as well.
-
-Let $r$ be the image of $(1_x,p) \in Paths_{A\times A}((x,x),(x,x)$ under the section $d$.  This is a path in the total space $Paths_A$ lying over the path $(1_x,p)$ in $A$.  Equivalently, it is a path in the fiber over $x$ from $(1_x,p)_*(d(x,x))$ to $d(x,x)$, where $(1_x,p)_*$ denotes transport in the fibration $Paths_A \to A\times A$ along the path $(1_x,p)$.  However, we have defined $d(x,x) = q$, and transport in a path-space is just composition, so $r$ may be regarded as a path from $q p$ to $q$.  Canceling $q$, we obtain a path from $p$ to $1_x$.
-=--
 
 
 [[!redirects set]]
