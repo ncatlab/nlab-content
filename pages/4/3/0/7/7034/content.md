@@ -17,7 +17,7 @@
 
 There are various different paradigms for the interpretation of predicate [[logic]] in [[type theory]].  In "logic-enriched type theory", there is a separate class of "propositions" from the class of "types".  But we can also identify propositions with particular types.  In the [[propositions as types]] paradigm, every proposition is a type, and also every type is identified with a proposition (the proposition that it is [[inhabited]]).
 
-By contrast, in the paradigm that may be called *propositions as some types*, every proposition is a type, but not every type is a proposition.  The types which are propositions are generally those which "have at most one inhabitant" --- in [[homotopy type theory]] this is called being of [[h-level 1]] or being a $(-1)$-type.  This paradigm is often used in the [[categorical semantics]] of type theory, such as the [[internal logic]] of various kinds of categories.
+By contrast, in the paradigm that may be called **propositions as some types**, every proposition is a type, but not every type is a proposition.  The types which are propositions are generally those which "have at most one inhabitant" --- in [[homotopy type theory]] this is called being of [[h-level 1]] or being a $(-1)$-type.  This paradigm is often used in the [[categorical semantics]] of type theory, such as the [[internal logic]] of various kinds of categories.
 
 Under "propositions as types", all type-theoretic operations represent corresponding logical operations ([[dependent sum]] is the [[existential quantifier]], [[dependent product]] the [[universal quantifier]], and so on).  However, under "propositions as some types", not every such operation preserves the class of propositions; this is particularly the case for [[dependent sum]] and [[or]].  Thus, in order to obtain the correct logical operations, we need to reflect these constructions back into propositions somehow, finding the "underlying proposition", corresponding to the [[truncated|(-1)-truncation]]/[[h-level 1|h-level 1-projection]].  This operation in type theory is called the **bracket type** (when denoted $[A]$); in [[homotopy type theory]] it can be identified with the [[higher inductive type]] $isInhab$.
 
@@ -82,3 +82,4 @@ The original articles are
 * [[Steve Awodey]], [[Andrej Bauer]], _Propositions as $[$Types$]$_, Journal of Logic and Computation. Volume 14, Issue 4, August 2004, pp. 447-471 ([pdf](http://andrej.com/papers/brackets_letter.pdf))
 
 [[!redirects bracket types]]
+[[!redirects propositions as some types]]
