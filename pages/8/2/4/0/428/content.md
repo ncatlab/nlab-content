@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -36,8 +36,8 @@ This simplicial object is a [[resolution]] of $A$.
 
 ## Properties
 
-+-- {: .un_prop}
-###### Propositioon
++-- {: .num_prop}
+###### Proposition
 
 Regard $A$ as a constant simplicial object. The canonical morphism 
 
