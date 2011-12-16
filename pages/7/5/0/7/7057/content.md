@@ -82,7 +82,13 @@ For instance ([Johnstone, corollary A1.5.9](#Johnstone)).
 
 ## Related concepts
 
-* [[locally cartesian closed functor]]
+* [[cartesian closed category]], [[locally cartesian closed category]]
+
+* **cartesian closed functor**, [[locally cartesian closed functor]]
+
+* [[cartesian closed model category]], [[locally cartesian closed model category]]
+
+* [[cartesian closed (∞,1)-category]] [[locally cartesian closed (∞,1)-category]]
 
 
 ## References
