@@ -45,6 +45,17 @@ $$
  \,.
 $$
 
+In terms of the canonical [[powering]] of simplicial sets over sets, this is equivalent to the morphisms
+
+$$
+  Y^{\Delta[n]}
+  \to 
+  Y^{\Lambda^k[n]} \times_{X^{\Lambda^k[n]}} X^{\Delta^k[n]}
+$$
+
+all being [[epimorphisms]]. (Here, for instance, $Y^{\Lambda^k[n]}$ is the set of tuples of $(n-1)$-cells in $Y$ that glue along their boundaries to an image of the $k$th $n$-[[horn]].)
+
+
 ## Illustration
 
 Kan fibrations are combinatorial analogs of [[Serre fibration|Serre]] [[fibrations]]  of [[topological spaces]].  In fact, under the [[Quillen equivalence]] of the standard [[model structure on topological spaces]] and the standard [[model structure on simplicial sets]], Kan fibrations map to Serre fibrations.
