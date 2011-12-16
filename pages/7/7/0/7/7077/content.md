@@ -20,14 +20,51 @@ A _locally cartesian closed model category_ is a [[locally cartesian closed cate
 ## Definition
 
 A [[model category]] $\mathcal{C}$ which is additionally a [[locally cartesian closed category]] is called a **locally cartesian closed model category** if for any [[fibration]] $g\colon A\to B$ between [[fibrant objects]], the [[dependent product]] [[adjunction]]
-$$ g^* : \mathcal{C}/B \rightleftarrows \mathcal{C}/A : \Pi_g $$
-is a [[Quillen adjunction]].
+$$ 
+  g^* : \mathcal{C}/B \rightleftarrows \mathcal{C}/A : \Pi_g 
+$$
+is a [[Quillen adjunction]] between the corresponding [[slice model structures]].
 
 Concretely, this means that both [[cofibrations]] and [[trivial cofibrations]] are [[pullback-stability|stable]] under [[pullback]] along fibrations between fibrant objects.
+
+## Properties
+ {#Properties}
+
+Let $\mathcal{C}$ be a locally cartesian closed model category, let $B$ be a fibrant object and $Q \to B$ a fibration. Then the [[internal hom]]
+$[Q,-]_{\mathcal{C}/_B} : \mathcal{C}/_B \to \mathcal{C}/_B$ 
+is a [[Quillen adjunction|right Quillen functor]].
+
+This is the dual statement of the defining property. For let $S \to T$ be an acyclic cofibration over $B$, and $X \to Y$ a fibration over $B$, then [[lifting property|lifts]] in the diagram on the left
+
+$$
+  \array{
+    S &\to & [Q,X]_{\mathcal{C}/_B}
+    \\
+    \downarrow && \downarrow
+    \\
+    T &\to& [Q, Y]_{\mathcal{C}/_{B}}
+  }
+  \;\;\;
+  \leftrightarrow
+  \;\;\;
+  \array{
+    S \times_{\mathcal{C}/_B} Q &\to & X
+    \\
+    \downarrow && \downarrow
+    \\
+    T \times_{\mathcal{C}/_B} Q &\to& Y
+  }
+$$
+
+correspond to lifts in the diagram on the right. Since by assumption on $\mathcal{C}$ we have that $S \times_{\mathcal{C}/_B} Q \to T \times_{\mathcal{C}/_B} Q$ is still an acyclic cofibration, we have a lift in the right diagram.
+
+Analogously for $S \to T$ a cofibration and $X \to Y$ an acyclic fibration.
 
 ## Examples
 
 Any [[right proper model category]] which is locally cartesian closed and in which the cofibrations are the [[monomorphisms]] is a locally cartesian closed model category.  This includes the classical [[model structure on simplicial sets]], as well as the [[injective model structure|injective]] [[global model structure on simplicial presheaves]].
+
+
 
 ## Applications
 
