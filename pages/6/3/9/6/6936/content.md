@@ -154,39 +154,34 @@ A prespectrum is a [[spectrum]] if each of these maps is an equivalence.
 
 In classical [[algebraic topology]], there is a **spectrification** functor which is [[left adjoint]] to the inclusion of spectra in prespectra.  For instance, this is how a [[suspension spectrum]] is constructed: by spectrifying the prespectrum $X_n \coloneqq \Sigma^n A$.
 
-The following HIT should construct spectrification in [[homotopy type theory]] (though this has not yet been verified formally).  (There are some abuses of notation below, which can be made precise using Coq typeclasses and implicit arguments; also the definition is not quite complete.)
+The following HIT should construct spectrification in [[homotopy type theory]] (though this has not yet been verified formally).  (There are some abuses of notation below, which can be made precise using Coq typeclasses and implicit arguments.)
+
 
     Inductive spectrify (X : prespectrum) : nat -> Type :=
     | to_spectrify : forall n, X n -> spectrify X n
     | spectrify_glue : forall n, spectrify X n ->
-        to_spectrify (S n) (pt (S n)) == to_spectrify (S n) (pt (S n))
-    | spectrify_glue_pointed : forall n,
-        spectrify_glue n (to_spectrify n (pt n))
-        == idpath (to_spectrify (S n) (pt (S n)))
-    | to_spectrify_is_prespectrum_map1 : forall n (x : X n),
-        spectrify_glue n (to_spectrify n x) 
+        to_spectrify (S n) basepoint == to_spectrify (S n) basepoint
+    | to_spectrify_is_prespectrum_map : forall n (x : X n),
+        spectrify_glue n (to_spectrify n x)
         == loop_functor (to_spectrify (S n)) (glue n x)
-    | to_spectrify_is_prespectrum_map2 : forall n (x : X n),
-        to_spectrify_is_prespectrum_map1 n (pt n) 
-        == (* some composite of stuff *)
-    | spectrify_glue_inverse : forall n
-        (p : to_spectrify (S n) (pt (S n)) == to_spectrify (S n) (pt (S n))),
+    | spectrify_glue_retraction : forall n
+        (p : to_spectrify (S n) basepoint == to_spectrify (S n) basepoint),
         spectrify X n
-    | spectrify_glue_inverse_is_retraction : forall n (sx : spectrify X n),
-        spectrify_glue_inverse n (spectrify_glue n sx) == sx
-    | spectrify_glue_inverse_is_section : forall n
-        (p : to_spectrify (S n) (pt (S n)) == to_spectrify (S n) (pt (S n))),
-        spectrify_glue n (spectrify_glue_inverse n p) == p
-    | spectrify_glue_inverse_triangle : forall n (sx : spectrify X n),
-        map (spectrify_glue n) (spectrify_glue_inverse_is_retraction n sx)
-        == spectrify_glue_inverse_is_section n (spectrify_glue n sx).
+    | spectrify_glue_retraction_is_retraction : forall n (sx : spectrify X n),
+        spectrify_glue_retraction n (spectrify_glue n sx) == sx
+    | spectrify_glue_section : forall n
+        (p : to_spectrify (S n) basepoint == to_spectrify (S n) basepoint),
+        spectrify X n
+    | spectrify_glue_section_is_section : forall n
+        (p : to_spectrify (S n) basepoint == to_spectrify (S n) basepoint),
+        spectrify_glue n (spectrify_glue_section n p) == p.
 
 Unraveling this:
 
-* The first constructor `to_spectrify` says that `spectrify X` comes with a levelwise map from `X`.
-* The second and third constructors `spectrify_glue` and `spectrify_glue_pointed` say that `spectrify X` is a prespectrum.
-* The fourth and fifth constructors say that the map `X -> spectrify X` is a map of prespectra.
-* The sixth through ninth constructors say that `spectrify X` is a spectrum, by giving adjoint equivalence data as we did for localization.
+* The first constructor `to_spectrify` says that `spectrify X` comes with a levelwise map from `X`.  This induces a basepoint `to_spectrify (pt n)` for each type `spectrify X n`.
+* The second constructor `spectrify_glue` gives the structure maps to make `spectrify X` into a prespectrum.
+* The third constructor says that the map `X -> spectrify X` commutes with the structure maps.  Since the basepoints of `spectrify X` are induced from `X`, this automatically implies that the maps `spectrify_glue` are pointed maps and that the `to_spectrify` commutes with these pointings, making it a map of prespectra.
+* The fourth through severth constructors say that `spectrify X` is a spectrum, by giving h-isomorphism data.  We could use adjoint equivalence data as we did for localization, but this approach avoids the presence of level-3 path constructors.  (We could have used h-iso data in localization too, thereby avoiding even level-2 constructors there.)
 
 ## Related concepts
 
