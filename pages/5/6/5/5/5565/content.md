@@ -58,7 +58,7 @@ This is originally due to ([Anderson](#Andeson)) and ([Bousfield](#Bousfield)). 
 ###### Observation
 
 The model structure $Grpd_{nat}$ is the restriction of the
-[[joyalscatlab:Model structures on Cat|natural model structure on Cat]] from [[categories]] to groupoids.
+[[canonical model structure on Cat]] from [[categories]] to groupoids.
 
 =--
 
