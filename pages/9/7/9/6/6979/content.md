@@ -39,6 +39,12 @@ They also seem to support a [[foundations]] of mathematics in terms of [[homotop
 
 * [[Nicola Gambino]], _Lectures on dependent type theory_ ([pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf))
 
-* [[Agda]] Tutorial: _Introduction to dependent type theory_ ([webpage](http://ocvs.cfv.jp/Agda/tutorial/node128.html))
+* [[Agda]] Tutorial: _Introduction to dependent type theory_ ([webpage](http://ocvs.cfv.jp/Agda/tutorial
+/node128.html))
+
+A discussion of dependent type theory as the [[internal language]] of [[locally cartesian closed categories]] is in 
+
+* R. A. G. Seely, _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
+
 
 [[!redirects dependent type theories]]
