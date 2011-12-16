@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -21,8 +31,18 @@ Any [[right proper model category]] which is locally cartesian closed and in whi
 
 ## Applications
 
-* Modulo questions of strictness and coherence (see [[identity type]] for details), locally cartesian closed model categories provide [[categorical semantics]] for [[homotopy type theory]] with [[function extensionality]].
+* Modulo questions of strictness and [[coherence]] (see [[identity type]] for details), locally cartesian closed model categories provide [[categorical semantics]] for [[homotopy type theory]] with [[function extensionality]].
 
 ## Related concepts
 
-* [[cartesian closed model category]]
+* [[cartesian closed category]], [[locally cartesian closed category]]
+
+* [[cartesian closed functor]], [[locally cartesian closed functor]]
+
+
+* [[cartesian closed model category]], **locally cartesian closed model category**
+
+
+* [[cartesian closed (∞,1)-category]] [[locally cartesian closed (∞,1)-category]]
+
+
