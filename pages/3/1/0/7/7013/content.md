@@ -33,7 +33,13 @@ See also [[internal logic of an (∞,1)-topos]].
 
 ## Related concepts
 
-* [[locally cartesian closed category]]
+* [[cartesian closed category]], [[locally cartesian closed category]]
+
+* [[cartesian closed functor]], [[locally cartesian closed functor]]
+
+* [[cartesian closed model category]], [[locally cartesian closed model category]]
+
+* [[cartesian closed (∞,1)-category]], **locally cartesian closed (∞,1)-category**
 
 ## References
 
