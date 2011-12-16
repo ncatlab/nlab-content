@@ -420,6 +420,10 @@ Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in gener
 
 * Paul Taylor\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is arguably all about this subject (although you wouldn\'t know it until about Chapter VIII), but from a different perspective.  In particular, Taylor allows us to replace having *all* pullbacks with pullbacks along a pullback-stable class of [[display morphisms]].
 
+A discussion of [[dependent type theory]] as the [[internal language]] of [[locally cartesian closed categories]] is in 
+
+* R. A. G. Seely, _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
+
 
 [[!redirects internal logic]]
 [[!redirects internal logics]]
