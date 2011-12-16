@@ -78,9 +78,9 @@ Using this construction, one can define a (cofibration, trivial fibration) [[wea
     | inhab : A -> is_inhab A
     | inhab_path : forall (x y: is_inhab A), x == y.
 
-This is the [[(-1)-truncated|(-1)-truncation]] to [[h-level 1]].  One can prove that `is_inhab A` is always a [[proposition]] (i.e. $(-1)$-truncated) and that it is the reflection of $A$ into propositions.  More generally, one can construct the [[(effective epi, mono) factorization system]] by applying `is_inhab` fiberwise to a fibration.
+This is the [[(-1)-truncated|(-1)-truncation]] into [[h-propositions]].  One can prove that `is_inhab A` is always a [[proposition]] (i.e. $(-1)$-truncated) and that it is the reflection of $A$ into propositions.  More generally, one can construct the [[(effective epi, mono) factorization system]] by applying `is_inhab` fiberwise to a fibration.
 
-Similarly, we have the [[0-truncated|0-truncation]] to [[h-level 2]]:
+Similarly, we have the [[0-truncated|0-truncation]] into [[h-sets]]:
 
     Inductive pi0 (X:Type) : Type :=
     | cpnt : X -> pi0 X
