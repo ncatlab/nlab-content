@@ -1,0 +1,75 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+# h-Sets
+* table of contents
+{:toc}
+
+## Idea
+
+In [[homotopy type theory]], the notion of **h-set** (or just a **set**, if no ambiguity will result) is an internalization of the notion of [[set]] / [[0-truncated]] object.
+
+hSets can be regarded as a way of embedding [[extensional type theory]] into [[intensional type theory]].
+
+## Definition
+
+Let $A$ be a [[type]] in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]].  We define a new type $isSet(A)$ as follows:
+
+$$isSet(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} isProp(x=y)$$
+
+(using any equivalent definition of the predicate [[isProp]] for [[h-propositions]]).  In other words, two elements of an h-set are either equal or not; there is no room for more than one path between them.  By beta-reducing this definition, we can express it as
+$$isSet(A) \coloneqq \prod_{x,y\colon A} \prod_{p,q\colon x=y} (p=q)$$
+In other words, any two parallel paths in $A$ are equal.
+
+A provably [[equivalence in homotopy type theory|equivalent]] definition is
+$$isSet(A) \coloneqq \prod_{x\colon A} \prod_{p\colon x=x} (p=id_x)$$
+This says that a version of Streicher's "axiom K" holds for h-sets.
+
+## Examples
+
+* Most (non-[[higher inductive type|higher]]) [[inductive types]] are h-sets (assuming that all their parameters and indices are so).  In particular, the type of [[natural numbers]] is an h-set.  This can be proven from Theorem \ref{DecidableIsSet} below.
+
+## Properties
+
+One interesting consequence of this definition is the following.
+
++-- {: .num_theorem #DecidableIsSet}
+###### Theorem
+Suppose that $A$ is a [[type]] which has [[decidable equality]] in the [[propositions as types]] [[logic]] (which is not the logic of h-propositions usually used in HoTT).  In other words, the projection
+$$\array{Paths_A + (0\to A\times A)^{(Paths_A\to A\times A)}\\
+\downarrow\\
+A\times A}
+$$
+where $Paths_A$ is the [[path object|path type]] of $A$, has a section.  Then $A$ is a set.
+=--
++-- {: .proof}
+###### Proof
+Let $d$ be the given [[section]].  Thus, for any $x,y\colon A$, $d(x,y)$ is either a path from $x$ to $y$ or a function from $Paths(x,y)$ to the empty type (implying that $Paths(x,y)$ is also empty).
+
+It suffices to exhibit an operation connecting any endo-path $p \in Paths(x,x)$ to the identity path $1_x$.  Given such a path, define $q = d(x,x)$.  If $d(x,x)$ lies in the second case, then $Paths(x,x)$ is empty, a contradiction since we know it contains $1_x$; hence we may assume $q\in Paths(x,x)$ as well.
+
+Let $r$ be the image of $(1_x,p) \in Paths_{A\times A}((x,x),(x,x)$ under the section $d$.  This is a path in the total space $Paths_A$ lying over the path $(1_x,p)$ in $A$.  Equivalently, it is a path in the fiber over $x$ from $(1_x,p)_*(d(x,x))$ to $d(x,x)$, where $(1_x,p)_*$ denotes transport in the fibration $Paths_A \to A\times A$ along the path $(1_x,p)$.  However, we have defined $d(x,x) = q$, and transport in a path-space is just composition, so $r$ may be regarded as a path from $q p$ to $q$.  Canceling $q$, we obtain a path from $p$ to $1_x$.
+=--
+
+## Remarks
+
+* h-sets are also called **h-level 2** types.
+
+
+[[!redirects h-set]]
+[[!redirects h-sets]]
+[[!redirects hSet]]
+[[!redirects hSets]]
+[[!redirects 0-truncated type]]
+[[!redirects 0-truncated types]]
+[[!redirects h-level 2]]
+[[!redirects h-level 2 type]]
+[[!redirects h-level 2 types]]
