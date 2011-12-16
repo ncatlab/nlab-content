@@ -1,0 +1,29 @@
++-- {: .num_defn}
+###### Definition
+Let $C$ be a category, let $E_1\stackrel{\stackrel{d_1}{\to}}{\stackrel{d_0}{\to}}E_0\xrightarrow{p}B$ be morphisms where the parallel arrows $\mathcal{E}:=\{d_0,d_1:E_1\to E_0\}$ are seen as _a_ diagram, let $X\in C_0$ be an object.
+
+Applying the functor $C(-,X)$ to this sequence gives
+
+$$C(E_1,X)\xleftarrow{C(d_0,X),C(d_1,X)}C(E_0,X)\xleftarrow{C(p,X)}C(B,X)$$
+
+If this diagram is for all $X\in C_0$ an equalizer diagram $B$ is called **codescent object for** the diagram $\mathcal{E}$. 
+
+=--
+
++-- {: .num_defn}
+###### Definition
+Let $E_0\to\E_1\to E_2$ be a diagram where $E_0\xrightarrow{\partial_0}E_1\xrightarrow{\partial_0}E_2$, $E_0\xleftarrow{\iota_0}E_1\xrightarrow{\partial_1}E_2$, $E_0\xrightarrow{\partial_1}E_1\xrightarrow{\partial_2}E_2$ satisfying $\partial_s\partial_r=\partial_r\partial_{s-1}$ for $r\lt s$ and $\iota_0\partial_0=\iota_0\partial_1$ (these are the identities characterizin a truncated cosimplicial category).
+
+Then the **descent category** $\Desc E$ of $E$ has as objects pairs $(F,f)$ where $F\in E_0$, $f:\partial_1 F\to \partial_0 F$ such that $\iota_0 f=\id_F$ and $\partial_0 f=\partial_2( f)\circ \partial_0 (f)$ and a morphism $(F,f)\to (G,g)$ consists of a morphism $(u:F\to G)\in E_1$ such that $\partial_0 u\circ f=g\circ \partial_1 u$.
+=--
+
++-- {: .num_instance}
+###### Instance
+Let $A$, $X$ be categories.
+
+Then $\Desc [N(A),X]\cong[A,X]$
+=--
+
+#### References
+
+Ross Street: categorical and combinatorial aspects of descent theory.
