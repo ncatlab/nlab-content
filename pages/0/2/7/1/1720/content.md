@@ -61,8 +61,7 @@ is a weak equivalence.
 
   and many model structures derived from these, such as 
 
-  * the injective global [[model structure on simplicial presheaves]]
-    over any small (simplicial) category;
+  * the injective global [[model structure on simplicial presheaves]] over any (simplicial) category;
 
 * the left [[Bousfield localization]] of every left proper [[combinatorial model category]] at a set of morphisms is again left proper.
 
@@ -95,7 +94,7 @@ Model categories which are both left and right proper include
 
 * [[sSet]]: [[model structure on simplicial sets]]
 
-* The _global_ [[model structure on simplicial presheaves]].
+* The _global_ [[model structure on simplicial presheaves]] and any local such model structure over a site with [[enough points|topos point]] and weak equivalences the [[stalk]]wise weak equivalences.
 
 * The standard [[model structures on chain complexes]].
 
