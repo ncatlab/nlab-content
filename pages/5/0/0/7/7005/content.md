@@ -41,7 +41,7 @@ Univalence is a commonly assumed axiom in [[homotopy type theory]], and is centr
 ### In categorical semantics
  {#InCategoricalSemantics}
 
-Let $\mathcal{C}$ be a [[locally cartesian closed model category]]. 
+Let $\mathcal{C}$ be a [[locally cartesian closed model category]] in which all objects are cofibrant. 
 
 By the [[categorical semantics]] of [[homotopy type theory]], a [[dependent type]]
 
@@ -49,8 +49,7 @@ $$
   b : B \vdash E(b) : Type
 $$
 
-corresponds to a [[morphism]] $E \to B$ in $\mathcal{C}$ such that 
-this is a [[fibration]] between fibrant objects.
+corresponds to a [[morphism]] $E \to B$ in $\mathcal{C}$ this is a [[fibration]] between fibrant objects.
 
 Then the dependent [[function type]]
 
@@ -71,12 +70,13 @@ Consider then the [[diagonal]] morphism $\Delta_B : B \to B \times B$  in $\math
 $$ q \colon \Delta_B \to [E \times B , B \times E]_{\mathcal{C}/_{B \times B}} \,.$$
 in $\mathcal{C}/_{B \times B}$.  By the defining product-hom [[adjunction]], it suffices to define a morphism
 $$ \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to B \times E $$
-in $\mathcal{C}/_{B \times B}$.  But now by the universal property of pullback, it suffices to define a morphism
+in $\mathcal{C}/_{B \times B}$.  But now by the 
+[[universal property]] of [[pullback]], it suffices to define a morphism
 $$ \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to \Delta_B \times_{\mathcal{C}/_{B \times B}} B \times E $$
 in $\mathcal{C}/_B$.  And since the composite pullback along either composite
 $$ B \xrightarrow{\Delta_B} B\times B \xrightarrow{\pi_1} B$$
 $$ B \xrightarrow{\Delta_B} B\times B \xrightarrow{\pi_2} B$$
-is the identity, both $\Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B$ and $\Delta_B \times_{\mathcal{C}/_{B \times B}} B \times E$ are isomorphic to $E$; thus here we can take the identity morphism.
+is the identity, both $\Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B$ and $\Delta_B \times_{\mathcal{C}/_{B \times B}} B \times E$ are isomorphic to $E$; thus here we can take the [[identity]] morphism.
 
 Now, using the [[path object]] factorization in $\mathcal{C}$
 
@@ -110,14 +110,14 @@ $$
 This lift is the interpretation of the [[identity type|path induction]] that decudes a map on all paths $\gamma \in B^I$ from one on just the identity paths $id_b \in B \hookrightarrow B^I$.
 
 
-Finally, let $Eq(E) \hookrightarrow [E \times B , B \times E]_{\mathcal{C}/_{B \times B}}$ be the subobject (...) on the weak equivalences, and observe that $q$ and $\hat q$ factor to give
+Finally, let $Eq(E) \hookrightarrow [E \times B , B \times E]_{\mathcal{C}/_{B \times B}}$ be the [[subobject]]  on the weak equivalences (...), and observe that $q$ and $\hat q$ factor through this to give a morphism
 
 $$
   \hat q : B^I \to Eq(E)
   \,.
 $$
 
-The fibration $E \to B$ is **univalent** in $\mathcal{C}$ if this morphism is a weak equivalence.  By the 2-out-of-3 property, of course, it is equivalent to ask that $q\colon B\to Eq(E)$ be a weak equivalence.
+The fibration $E \to B$ is **univalent** in $\mathcal{C}$ if this morphism is a weak equivalence.  By the [[2-out-of-3 property]], of course, it is equivalent to ask that $q\colon B\to Eq(E)$ be a weak equivalence.
 
 (...)
 
@@ -200,6 +200,8 @@ This appears originally as [Voevodsky, def. 3.4](#UnivalentFoundationsProject)
 
 The univalence axiom implies [[function extensionality]].
 
+A commented version of a formal proof of this fact can be found in ([Bauer-Lumsdaine](#BauerLumsdaine)).
+
 
 ## References
 
@@ -225,6 +227,7 @@ The [[HoTT]]-[[Coq]] code is at
 A guided walk through the formal proof that univalence implies functional extensionality is at
 
 * [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
+ {#BauerLumsdaine}
 
 
 For more references see _[[homotopy type theory]]_.
