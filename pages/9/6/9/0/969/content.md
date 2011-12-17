@@ -2,18 +2,15 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Category theory
+#### Locality and descent
 +--{: .hide}
-[[!include category theory - contents]]
+[[!include descent and locality - contents]]
 =--
-#### Homotopy theory
-+--{: .hide}
-[[!include homotopy - contents]]=--
 =--
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -69,7 +66,7 @@ Note:
 
 ### Reflective localization
 
-A special class of localizations are those where the functor $C \to L_W C$ has a [[full and faithful functor|full and faithful]] [[right adjoint]] $L_W C \hookrightarrow C$.
+A special class of localizations are _[[reflective localizations]]_, those where the functor $C \to L_W C$ has a [[full and faithful functor|full and faithful]] [[right adjoint]] $L_W C \hookrightarrow C$.
 
 In such a case
 
