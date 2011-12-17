@@ -7,8 +7,13 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
