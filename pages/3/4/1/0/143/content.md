@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
+=--
 #### Topos Theory
 +--{: .hide}
 [[!include topos theory - contents]]
@@ -10,10 +14,8 @@
 =--
 
 
-
-
 #Contents#
-* tic
+* table of contents
 {:toc}
 
 
