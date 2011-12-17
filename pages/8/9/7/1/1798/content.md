@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Topos Theory
+#### Locality and descent
 +--{: .hide}
-[[!include topos theory - contents]]
+[[!include descent and locality - contents]]
 =--
 =--
 =--
