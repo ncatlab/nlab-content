@@ -3,23 +3,16 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Category theory
+#### Locality and descent
 +--{: .hide}
-[[!include quasi-category theory contents]]
-=--
-#### $(\infty,1)$-Topos Theory
-+--{: .hide}
-[[!include (infinity,1)-topos - contents]]
-=--
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
+[[!include descent and locality - contents]]
 =--
 =--
 =--
 
+
 #Contents#
-* tic
+* table of contents
 {:toc}
 
 
