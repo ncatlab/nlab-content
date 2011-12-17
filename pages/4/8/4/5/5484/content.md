@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
+=--
 #### 2-Category theory
 +--{: .hide}
 [[!include 2-category theory - contents]]
@@ -12,6 +16,8 @@
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
