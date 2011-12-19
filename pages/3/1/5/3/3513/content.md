@@ -107,7 +107,7 @@ A morphism $f : X \to Y$ is
 
 This is a 
 
-* [[proper model category|proper]]
+* [[proper model category|left proper]]
 
 * [[simplicial model category|simplicial]]
 
