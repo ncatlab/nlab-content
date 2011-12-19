@@ -68,16 +68,16 @@ Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifol
 
 We give a discussion of smooth $G$-[[principal bundle]]s on $X$ in a manner that paves the way to a straightforward generalization to a description of [[principal ∞-bundle]]s.
 
-From the group $G$ we canonically obtain a [[groupoid]] that we write $\mathcal{B}G$ and call the [[delooping]] groupoid of $G$. Formally this groupoid is
+From the group $G$ we canonically obtain a [[groupoid]] that we write $\mathbf{B}G$ and call the [[delooping]] groupoid of $G$. Formally this groupoid is
 
 $$
-  \mathcal{B}G = (G \stackrel{\to}{\to} *)
+  \mathbf{B}G = (G \stackrel{\to}{\to} *)
 $$
 
 with composition induced from the product in $G$. A useful cartoon of this groupoid is
 
 $$
-  \mathcal{B}G = 
+  \mathbf{B}G = 
   \left\{
     \array{
       && \bullet
@@ -93,13 +93,13 @@ $$
 
 where the $g_i \in G$ are elements in the group, and the bottom morphism is labeled by forming the product in the group. (The order of the factors here is a convention whose choice, once and for all, does not matter up to equivalence.)
 
-But we get a bit more, even. Since $G$ is a [[Lie group]], there is smooth structure on $\mathcal{B}G$  that makes it a [[Lie groupoid]], an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifold]]s: its collections of objects (trivially) and of morphisms each form a smooth manifold, and all structure maps (source, target, identity, composition) are [[smooth function]]s. We shall write
+But we get a bit more, even. Since $G$ is a [[Lie group]], there is smooth structure on $\mathbf{B}G$  that makes it a [[Lie groupoid]], an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifold]]s: its collections of objects (trivially) and of morphisms each form a smooth manifold, and all structure maps (source, target, identity, composition) are [[smooth function]]s. We shall write
 
 $$
   \mathbf{B}G \in LieGrpd
 $$
 
-for $\mathcal{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbols, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[Smooth∞Grpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
+for $\mathbf{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbols, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[Smooth∞Grpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
 
 [^TwoForgetful]: There are actually two such forgetful functors, $\Gamma$ and $\Pi$. The first sends $\mathbf{B}G$ to $B G_{disc}$, which in [[topology]] is known as $K(G,1)$. The other sends $\mathbf{B}G$ to the [[classifying space]] $B G$. (see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">∞-Lie groupoid -- geometric realization</a>). This distinction is effectively the origin of differential cohomology.
 
@@ -361,13 +361,13 @@ between the [[functor category]] of smooth functors and smooth natural transform
 It is no coincidence that this statement looks akin to the maybe more familiar statement which says that _equivalence classes_ of $G$-principal bundles are classified by [[homotopy]]-classes of morphisms of [[topological space]]s 
 
 $$
-  \pi_0 Top(X, \mathcal{B}G)
+  \pi_0 Top(X, \mathbf{B}G)
   \simeq
   \pi_0 G Bund(X)
   \,,
 $$
 
-where $\mathcal{B}G \in $ [[Top]] is the topological [[classifying space]] of $G$. The category [[Top]] of topological spaces, regarded as an [[(∞,1)-category]], is the archetypical [[(∞,1)-topos]] the way that [[Set]] is the archetypical [[topos]]. And it is equivalent to [[∞Grpd]], the $(\infty,1)$-category of bare [[∞-groupoid]]s. What we are seeing above is a first indication of how [[cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra structure.
+where $\mathbf{B}G \in $ [[Top]] is the topological [[classifying space]] of $G$. The category [[Top]] of topological spaces, regarded as an [[(∞,1)-category]], is the archetypical [[(∞,1)-topos]] the way that [[Set]] is the archetypical [[topos]]. And it is equivalent to [[∞Grpd]], the $(\infty,1)$-category of bare [[∞-groupoid]]s. What we are seeing above is a first indication of how [[cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra structure.
 
 In fact, all of the statements that we have considered so far become conceptually _simpler_ in the $(\infty,1)$-topos. We had already remarked that the [[anafunctor]] span $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}G$ is really a model for what is simply a direct morphism $X \to \mathbf{B}G$ in the $(\infty,1)$-topos. But more is true: that pullback of $\mathbf{E}G$ which we considered is just a model for the [[homotopy pullback]] of just the _point_ 
 
@@ -3391,7 +3391,7 @@ To appreciate the construction so far, recall the
 +-- {: .un_prop}
 ###### Classical fact
 
-For $G$ a [[compact space|compact]] [[Lie group]], the [[rationalization]] $\mathcal{B}G \otimes k$ of the [[classifying space]] $\mathcal{B}G$ is the [[rational space]] whose [[Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[invariant polynomial]]s on the [[Lie algebra]] $\mathfrak{g}$.
+For $G$ a [[compact space|compact]] [[Lie group]], the [[rationalization]] $\mathbf{B}G \otimes k$ of the [[classifying space]] $\mathbf{B}G$ is the [[rational space]] whose [[Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[invariant polynomial]]s on the [[Lie algebra]] $\mathfrak{g}$.
 
 =--
 
