@@ -169,8 +169,16 @@ corresponding to $f$;
 
 =--
 
+### Polarizations
+ {#Polarizations}
 
+For $(X, \omega)$ a [[symplectic manifold]], a **[[polarization]]** is a [[foliation]] of $X$ by [[Lagrangian submanifolds]] with respect to $\omega$.
 
+After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **Bohr-Sommerfeld [[leaf]]** of a polarization is a leaf on which the prequantum line bundle is not just flat, but also trivializable as a [[circle bundle]].
+
+### Quantum state space
+
+(space of sections of the prequantum line bundle whose [[covariant derivative]] along the polarizaiton leaves vanishes...)
 
 ## Examples
 
@@ -291,6 +299,10 @@ A brief review is
 The above "Overview" and "Basic Jargon" sections are taken from 
 
 * [[John Baez]], _Geometric Quantization_ ([web](http://math.ucr.edu/home/baez/quantization.html))
+
+Some useful talk notes include
+
+* Eva Miranda, _From action-angle coordinates to geometric quantization and back_ (2011) ([pdf](http://fdis2011.uni-jena.de/Talks/Eva%20Miranda.pdf))
 
 
 ### Refinements
