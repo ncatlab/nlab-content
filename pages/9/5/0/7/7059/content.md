@@ -93,6 +93,8 @@ we mention some example phenomena to illustrate the meaning of the axioms.
 ### Geometric spaces and their cohesive homotopy types
  {#GeometricSpacesAndTheirHomotopyTypes}
 
+We indicate one central aspect of geometric homotopy theory that is not visible in plain [[homotopy type theory]], but is captured by its cohesive refinement.
+
 The standard [[interval]] $I = [0,1]$ in [[Top|topological spaces]]
 plays two rather different roles, depending on what kind of
 equivalence between spaces is considered. To make this more vivid,
