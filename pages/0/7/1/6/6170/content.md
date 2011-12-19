@@ -12,3 +12,7 @@
 ## Idea
 
 A [[manifold]] inside another manifold.
+
+See also [[embedding]].
+
+[[!redirects submanifolds]]
