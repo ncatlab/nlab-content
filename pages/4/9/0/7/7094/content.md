@@ -1,0 +1,5 @@
+
+
+A [[foliation]] consists of [[submanifolds]]. Each of them is called a _leaf_ of the foliation.
+
+[[!redirects leafs]]
