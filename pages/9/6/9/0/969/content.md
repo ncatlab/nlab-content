@@ -151,6 +151,10 @@ Every [[locally presentable (∞,1)-category]] is presented by a [[combinatorial
 
 See also [[localization of a simplicial model category]].
 
+## Related concepts
+
+* [[localizing subcategory]]
+
 
 ## References
 
