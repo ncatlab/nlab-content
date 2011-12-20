@@ -38,23 +38,14 @@ $$
 
 preserves $\kappa$-[[filtered (∞,1)-colimits]].
 
+For $\omega$-compact we just say _compact_. 
+
 =--
 
 This appears as ([[Higher Topos Theory|HTT, def. 5.3.4.5]]).
 
 
-+-- {: .num_defn}
-###### Definition
 
-An object $X$ in a [[stable (∞,1)-category]] is **compact** if the $(\infty,1)$-functor
-
-$$
-  C(X,-) : C \to C
-$$
-
-commutes with all [[(∞,1)-colimits]].
-
-=--
 
 ## Properties
 
