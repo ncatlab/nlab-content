@@ -1,0 +1,101 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+In the context of [[geometric quantization]] of a [[symplectic manifold]] $(X, \omega)$ equipped with a choice of [[prequantum line bundle]] $(E,\nabla)$, a [[Lagrangian submanifold]] $Q \hookrigtharrow X$ of a [[symplectic manifold]] is called a _Bohr-Sommerfeld leaf_ if the prequantum [[circle bundle]] $E|_Q$ restricted to $Q$ has not only vanishing [[curvature]] but is also trivializable as a [[circle bundle]]. Such a trivializaton as a circle bundle with connection is given by a [[covariant derivative|covariantly constant]] [[section]]. 
+
+## Examples
+
+### Harmonic oscillator
+
+For the single 1-dimensional [[Harmonic oscillator]], [[phase space]] is the [[symplectic manifold]] $\mathbb{R}^2$ equipped with the symplectic form
+
+$$
+  \omega = d_{dR} t \wedge d\theta
+  \,,
+$$
+
+where on $\mathbb{R}^2- \mathbb{R}_+$ $(t, \theta)$ are the canonical [[polar coordinates]].
+
+We may choose the trivial [[prequantum line bundle]] with [[connection on a bundle|connection]] given by the globally defined [[differential form|differential 1-form]]
+
+$$
+  \Theta := t \wedge d\theta
+  \,.
+$$
+
+Then a [[polarization]] is given by the [[foliation]] whose [[leaves]] are the [[submanifolds]] of constant $t$.
+
+The [[covariant derivative]] along any leaf acts as
+
+$$
+  (\nabla_\Theta \sigma)(t, \theta) 
+  = (\frac{\partial}{\partial \theta} \sigma)(t, \theta)
+  - i t \sigma(t, \theta)
+ \,.
+$$
+
+The covariantly sections covariantly constat on a leaf hence must be of the form
+
+$$
+  \sigma(t, \theta) = a(t) \exp( i t \theta)
+  \,.
+$$
+
+For this to be well-defined as a globally defined section on the whole leaf the condition
+
+$$
+  t = 2 \pi k \; \; k \in \mathbb{Z}
+$$
+
+has to hold. Hence the Bohr-Sommerfeld leaves here are the [[circles]] of radius $2 \pi k$ in $\mathbb{R}^2$.
+
+## Properties
+
++-- {: .num_theorem}
+###### Theorem
+**(Guillemin-Sternberg)**
+
+If a [[polarization]] of $X$ is a [[regular fibration]] with [[compact space|compact]] [[leaves]] over a [[simply connected]] base $B$, then the Bohr-Sommerfeld leaves form a discrete subset is is given by 
+
+$$
+  \{F_BS\} = \{
+    p \in X | (f_1(p), \cdots, f_n(p)) \in \mathbb{Z}^n
+  \}
+$$
+
+where the $\{f_i\}$ are global [[action coordinates]] on the base space $B$.
+
+=--
+
+
++-- {: .num_theorem}
+###### Theorem
+**(Sniatycki)**
+
+If the leaf space $B$ is [[Hausdorff space|Hausdorff]] and the projection $X \to B$ has [[compact space|compact]] fibers, then quantization dimension is given by the number of Bohr-Sommerfeld leaves.
+is a bration with compact bers, then quantization dimension is given by
+the sheer count of Bohr-Sommerfeld leaves.
+
+=--
+
+## References
+
+* Mark Hamilton, _Locally toric manifolds and singular Bohr-Sommerfeld leaves_
+
+* Eva Miranda, _From action-angle coordinates to geometric quantization and back_ (2011) ([pdf](http://fdis2011.uni-jena.de/Talks/Eva%20Miranda.pdf))
+
+[[!redirects Bohr-Sommerfeld leaves]]
