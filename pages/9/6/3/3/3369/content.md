@@ -564,4 +564,11 @@ might the Freed-Hopkins-Lurie-Teleman quantization prescription as indicated abo
 But on second thought, FHLT deals with a sort of presheaf of $\infty$-groupoids over $Bord_n$, so it is natural to think of it as a representable functor even when one does knot knows about its representability (or even when it is actually not representable). namely, one could think of a FHLT-presheaves on $Bord_n$ as $Bord_n(X)$ for a 'generalized object' $X$.
 =--
 
+## 3d Chern-Simons as a fully extended TQFT
+
+A summary of the FHLT-argument about realizing 3d [[Chern-Simons theory]] as a fully [[extended TQFT]] is given in 
+
+* [[Konrad Waldorf]], _Chern-Simons theory and the categorified group ring_ ([[WaldorfTalbot2010.pdf:file]])
+
+
 category: reference
