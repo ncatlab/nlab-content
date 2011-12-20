@@ -26,21 +26,21 @@ Categories generalize (are a [[horizontal categorification]] of) [[monoids]], [[
 
 For $C$ a [[category]] $C$, the **opposite category** $C^{op}$ has the same [[objects]] as $C$, but a [[morphism]] $f : x \to y$ in $C^{op}$ is the same as a morphism $f : y \to x$ in $C$, and a composite of morphisms $g f$ in $C^{op}$ is defined to be the composite $f g$ in $C$.
 
-More precisely, $C_0$ and $C_1$ are, respectively, the collections of [[objects]] and of [[morphisms]] of $C$, and if the structure maps of $C$ are
+More precisely, $C_{\mathrm{obj}}$ and $C_{\mathrm{mor}}$ are, respectively, the collections of [[objects]] and of [[morphisms]] of $C$, and if the structure maps of $C$ are
 
-* source and target: $s_C,t_C : C_1 \to C_0$
+* source and target: $s_C,t_C : C_{\mathrm{mor}} \to C_{\mathrm{obj}}$
 
-* identity-assignment: $i_C : C_0 \to C_1$
+* identity-assignment: $i_C : C_{\mathrm{obj}} \to C_{\mathrm{mor}}$
 
-* composition: $\circ_C : C_1 \times_{C_0} C_1 \to C_1$ 
+* composition: $\circ_C : C_{\mathrm{mor}} \times_{C_{\mathrm{obj}}} C_{\mathrm{mor}} \to C_{\mathrm{mor}}$ 
 
 then $C^{op}$ is the category with
 
 * the same (isomorphic) collections of objects and morphisms
 
-  $(C^{op})_0 := C_0$
+  $(C^{op})_{\mathrm{obj}} := C_{\mathrm{obj}}$
 
-  $(C^{op})_1 := C_1$ 
+  $(C^{op})_{\mathrm{mor}} := C_{\mathrm{mor}}$ 
 
 * the same identity-assigning map
 
@@ -61,13 +61,13 @@ then $C^{op}$ is the category with
   $$
     \circ_{C^{op}}
     : 
-    C_1^{op} {}_{s^{op}}\times_{t^{op}} C_1^{op}
+    C_{\mathrm{mor}}^{op} {}_{s^{op}}\times_{t^{op}} C_{\mathrm{mor}}^{op}
     =
-    C_1 {}_{t} \times_{s} C_1
+    C_{\mathrm{mor}} {}_{t} \times_{s} C_{\mathrm{mor}}
     \stackrel{\simeq}{\to}
-    C_1 {}_{s} \times_{t} C_1
+    C_{\mathrm{mor}} {}_{s} \times_{t} C_{\mathrm{mor}}
     \stackrel{\circ}{\to}
-    C_1
+    C_{\mathrm{mor}}
     \,,
   $$
 
