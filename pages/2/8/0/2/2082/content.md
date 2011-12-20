@@ -1,6 +1,11 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-Quantum groups denote various objects which are not necessarily groups, but have very similar properties to groups, and in particular to semisimple Lie groups. Most important are the Hopf algebras _deforming_ the function algebras on semisimple Lie groups or to the enveloping algebras of Kac-Moody Lie algebras.
+Quantum groups denote various objects which are not necessarily groups, but have very similar properties to groups, and in particular to semisimple Lie groups. Most important are the [[Hopf algebras]] _deforming_ the function algebras on [[semisimple Lie groups]] or to the enveloping algebras of Kac-Moody Lie algebras.
 
 ## Overview
 
