@@ -34,3 +34,4 @@ The following gives a characterization of full [[sub-(∞,1)-categories]] of an 
 
 (...)
 
+[[!redirects sub-(∞,1)-category - internal formulation]]
