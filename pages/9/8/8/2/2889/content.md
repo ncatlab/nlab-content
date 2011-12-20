@@ -1,10 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -79,13 +86,13 @@ Accordingly, by the general reasoning discussed at [Cohomology -- Gradings](http
 
 * the **categorical 1-sphere** $S^1 = \Delta^1/\partial \Delta^1$, i.e. the $\infty$-stack obtained by $\infty$-stackification from the presheaf constant on the [[groupoid]] $\mathbf{B}\mathbb{Z} = {*}//\mathbb{Z}$;
 
-* the  **geometric 1-sphere** $S^1_{t} := \mathbb{A}^1 - \{0\} = \mathbb{G}_m$ (the multiplicative group inside $\mathbb{A}^1$);
+* the  **geometric 1-sphere** $S^1_{t} := \mathbb{A}^1 - \{0\} = \mathbb{G}_m$ (the [[multiplicative group]] inside $\mathbb{A}^1$);
 
 whose [[smash product]] is called 
 
 * the **Tate sphere** $T := \mathbb{P}^1 := S^1 \wedge S^1_{\mathbb{A}^1}$ which is equivalent to $\cdots \simeq \mathbb{A}^1 / (\mathbb{A}^1 - \{0\})$;
 
-(e.g. [MoVo98, p. 79](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf#page=79)) and which induce a **[bigrading on cohomology](http://ncatlab.org/nlab/show/cohomology#BiGrading):
+(e.g. [MoVo98, p. 79](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf#page=79)) and which induce a **bigrading on cohomology**:
 
 $$
   H^{p,q}(X, A) := \pi_0 \mathbf{H}(X, \Omega_T^\infty \Sigma^{p-q} \Sigma_{t}^{q} A)
