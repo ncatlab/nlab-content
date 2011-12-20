@@ -19,19 +19,13 @@ By a (many-object) **[[relation]]** in $C$ we will mean a family of objects $\{A
 * [[symmetric relation|symmetric]] if $R_{i j}$ contains, hence is equal to, the transpose of $R_{j i}$ for all $i,j$, and
 * a [[congruence]] if it is reflexive, transitive, and symmetric; this is an internal notion of [[equivalence relation]].
 
-Abstractly, reflexive and transitive relations can be identified with categories [[enriched category|enriched]] in a suitable [[bicategory]]; see (Street 1984).
-
-+-- {: .query}
-Presumably, congruences can be identified with [[groupoid]]s enriched in this bicategory?
-
-Mike: One could say that; it's certainly at least morally true.  But I don't know a definition of "enriched groupoid" that works in generality greater than, say, enrichment over a [[cartesian monoidal category]].  The bicategory in question is locally posetal and equipped with an "involution" which allows you to define "symmetric" enriched categories, and this level of generality can also be used to construct [[sheaf|sheaves]] and recover ordinary [[metric space|metric spaces]] from Lawvere's asymmetric ones.   But I'm iffy about using the word "groupoid" because I don't know an abstract formalism that includes this situation and also includes ordinary groupoids.
-=--
+Abstractly, reflexive and transitive relations can be identified with categories [[enriched category|enriched]] in a suitable [[bicategory]]; see (Street 1984).  Congruences can be identified with enriched $\dagger$-[[dagger-categories|categories]].
 
 A _quotient_ for a relation is a [[colimit]] for the diagram consisting of all the $A_i$ and all the spans $A_i \leftarrow R_{i j} \to A_j$.  And the _kernel_ of a sink $\{f_i\colon A_i\to B\}$ is the relation on $\{A_i\}$ with $R_{i j} = A_i \times_B A_j$.  It is evidently a congruence.
 
 For example:
 
-* If ${|I|} = 1$, a congruence is the same as the ordinary internal notion of [[congruence]].  In this case [[quotient object|quotient]]s and [[kernel pair|kernels]] reduce to the usual notions.
+* If ${|I|} = 1$, a congruence is the same as the ordinary internal notion of [[congruence]].  In this case [[quotient object|quotients]] and [[kernel pair|kernels]] reduce to the usual notions.
 
 * If ${|I|} = 0$, a congruence contains no data and a sink is just an object in C.  The empty congruence is, trivially, the kernel of the empty sink with target B, and a quotient for the empty congruence is an [[initial object]].
 
@@ -43,14 +37,21 @@ For example:
 In what follows, we let $\kappa$ be a [[class]] of [[cardinal numbers]] with the following properties:
 
 1. $1\in \kappa$.
-1. If $\lambda\in\kappa$, then an indexed sum $\sum_{i\in\lambda} \alpha_i$ is in $\kappa$ if and only if each $\alpha_i$ is in $\kappa$.
+2. If $\lambda\in\kappa$, then an indexed sum $\sum_{i\in\lambda} \alpha_i$ is in $\kappa$ if and only if each $\alpha_i$ is in $\kappa$.
 
-At least in [[classical mathematics]], there are then only three possibilities: either $\kappa=\{1\}$, or $\kappa$ is the set of cardinal numbers smaller than some [[regular cardinal]] (including 2, but not including 1 or 0), or $\kappa$ is the [[proper class]] of all cardinal numbers.  However, the properties above are the important ones.
+At least in [[classical mathematics]], there are then only four possibilities:
+
+* $\kappa$ is the [[proper class]] of all cardinal numbers,
+* $\kappa$ is the set of cardinal numbers smaller than some infinite [[regular cardinal]],
+* $\kappa = \{0,1\}$ (the set of cardinal numbers less than $2$), or
+* $\kappa = \{1\}$.
+
+Arguably, one ought to *define* the term 'regular cardinal' to mean precisely such a collection.  In any case, the two properties above are what matter to us.
 
 We refer to a sink or relation as **$\kappa$-ary** if the cardinality ${|I|}$ is an element of $\kappa$.  The cases of most interest have special names:
 
-* When $\kappa=\{1\}$ we say **unary**.
-* When $\kappa=\omega$ is the set of finite cardinals, we say **finitary**.
+* When $\kappa = \{1\}$ we say **unary**.
+* When $\kappa = \omega$ is the set of finite cardinals, we say **finitary**.
 * When $\kappa$ is the class of all cardinal numbers, we say **infinitary**.
 
 We say that a finitely complete category $C$ is **$\kappa$-ary regular** if the following hold.
