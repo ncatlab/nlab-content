@@ -545,12 +545,16 @@ In fact, the history of the development of the theory of principal bundles and [
 ## Related concepts
 
 * **principal bundle** / [[torsor]] / [[groupoid principal bundle]] / [[associated bundle]]
+  
+  [[universal principal bundle]]
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
 
 * [[principal 3-bundle]] / [[2-gerbe]] /  [[bundle 2-gerbe]]
 
 * [[principal ∞-bundle]] / [[associated ∞-bundle]] / [[∞-gerbe]]
+
+  [[universal principal ∞-bundle]]
 
 * [[n-vector bundle]]
 
