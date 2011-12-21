@@ -20,7 +20,7 @@
 
 ## Idea 
 
-The **Kalb-Ramond field** or **B-field** is the [[gauge field]] that generalizes the [[electromagnetic field]] from point particles to [[string theory|strings]].
+The **Kalb-Ramond field** or **B-field** is the [[higher U(1)-gauge field]] that generalizes the [[electromagnetic field]] from point particles to [[string theory|strings]].
 
 Recall that the [[electromagnetic field]] is modeled as a [[cocycle]] in degree 2 [[ordinary differential cohomology]] and that this mathematical model is fixed by the fact that charged particles that trace out 1-dimensional trajectories couple to the electromagnetic field by an [[action functional]] that sends each trajectory to the holonomy of a $U(1)$-[[connection on a bundle|connection]] on it.
 
