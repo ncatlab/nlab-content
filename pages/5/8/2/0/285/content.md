@@ -65,6 +65,7 @@ In particular, in a category with a [[terminal object|terminal]] [[generator]] $
 [[!redirects homsets]]
 [[!redirects homset]]
 [[!redirects hom-sets]]
+[[!redirects hom sets]]
 [[!redirects external hom]]
 
 [[!redirects hom set]]
