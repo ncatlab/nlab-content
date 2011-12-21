@@ -49,6 +49,8 @@
 
   * [[higher dimensional Chern-Simons theory]]
 
+  * [[higher electric background charge coupling]]
+
 * **for [[symplectic Lie n-algebroid]] targets**
 
   * [[AKSZ theory]]
