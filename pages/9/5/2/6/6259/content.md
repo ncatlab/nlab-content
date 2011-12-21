@@ -20,7 +20,7 @@
 
 ## Idea
 
-The standard [[action functional]] for the higher abelian [[gauge field]] given by a [[circle n-bundle with connection]] $(P, \nabla)$ over a [[pseudo-Riemannian manifold|(pseudo)]] [[Riemannian manifold]] $(X,g)$ is 
+The standard [[action functional]] for the [[higher U(1)-gauge field]] given by a [[circle n-bundle with connection]] $(P, \nabla)$ over a [[pseudo-Riemannian manifold|(pseudo)]] [[Riemannian manifold]] $(X,g)$ is 
 
 $$
   \nabla \mapsto \int_X F_\nabla \wedge \star_g F_{\nabla}
