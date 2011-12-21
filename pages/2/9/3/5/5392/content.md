@@ -77,5 +77,7 @@ There is a canonical correspondence between [[topologizing filter]]s of a unital
 * [[Francis Borceux]], _Handbook of categorical algebra_, II.1
 * [[Henning Krause]], _The spectrum of a locally coherent category_, J. Pure Appl. Algebra __114__ (1997), 259-271, [pdf](http://www2.math.uni-paderborn.de/fileadmin/Mathematik/AG-Krause/publications_krause/publications_krause_mathscinet/MR1426488.pdf)
 
+* Ryo Takahashi, _On localizing subcategories of derived categories_ (2000) ([pdf](http://math.shinshu-u.ac.jp/~takahasi/pdf/hcls6.pdf))
+
 [[!redirects localizing subcategories]]
 
