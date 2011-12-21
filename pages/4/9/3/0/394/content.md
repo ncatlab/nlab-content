@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
 # Essentially surjective functors
 * table of contents
 {: toc}
@@ -38,6 +50,16 @@ $F\colon C \to D$ is **essentially surjective** if for every [[object]] $y$ of $
 
 * In any 2-category there is a notion of [[eso morphism]] which generalizes the essentially surjective functors in [[Cat]].  In a [[regular 2-category]], these form a [[factorization system in a 2-category]] together with the [[ff morphisms]].
 
+
+## Related concepts
+
+* [[full functor]]
+
+* [[faithful functor]]
+
+* [[full and faithful functor]]
+
+* [[equivalence of categories]]
 
 [[!redirects essentially surjective functor]]
 [[!redirects essentially surjective functors]]
