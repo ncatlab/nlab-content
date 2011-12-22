@@ -1,14 +1,15 @@
-Interloper from the land of additive 1-categories which aren't Barr exact...
+Interloper/dilettante. "Functional analyst", who sometimes wonders if the term meant something different in Britain that it does in North America. Keeps finding category-theoretic things all over the place in *old* analysis, never mind the brave new world of NCG, and is starting to feel that they should be collated somewhere.
 
-* [website](http://math.usask.ca/~choi/) which will hopefully get fleshed out one day
+* [website](http://math.usask.ca/~choi/)
 
-
-
+### To do list ###
 Some things I am considering trying to write about, or contribute to. (This is mainly meant as a list to remind or nag me to write things down.)
 * [projective, injective and flat Banach spaces][projective Banach space] (both in the metric and topological categories of [[Banach space]]s)
 * RKHS
-* the bidualization monad on Banach spaces
-* Richard Arens's paper using "phyla", or: where Banach algebras and SMC should have met
+* the bidualization monad on [[Banach space]]s
+* Kaijser and Wick-Pelletier's work on interpolation
+* Arens-Eells spaces, a.k.a. the adjunction between Banach spaces and metric spaces.
+* Richard Arens's paper using "phyla", or: where Banach algebras and [[symmetric monoidal categories]] should have met
 * Categori(c)al basics of operator spaces
 * functorial aspects of the group von Neumann algebra construction
 * cabbages
@@ -17,7 +18,7 @@ Some things I am considering trying to write about, or contribute to. (This is m
 
 
 ### I ATEN'T DEAD ###
-(just snowed under with other projects and commitments)
+(but have a backlog to clear)
 
 category: people
 
