@@ -43,6 +43,12 @@
 
 * [[Tannaka duality]]
 
+* [[Gabriel-Ulmer duality]]
+
+* [[small object argument]]
+
+* [[Freyd-Mitchell embedding theorem]]
+
 ## Extensions 
 
 * [[sheaf and topos theory]]
