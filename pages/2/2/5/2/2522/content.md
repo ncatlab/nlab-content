@@ -179,6 +179,10 @@ A quantitative analysis showing that locally supersymmetric [[spacetime]] theori
 * [[Keith Dienes]], Michael Lennek, David S&#233;n&#233;chal, Vaibhav Wasnik, _Is SUSY Natural?_ NewJ.Phys.10:085003,2008 ([arXiv:0804.4718](http://arxiv.org/abs/0804.4718))
  {#DLSW}
 
+A review of [[spontaneous symmetry breaking|supersymmetry breaking]] is in 
+
+* Yael Shadmi, _Supersymmetry breaking_ ([arXiv:hep-th/0601076](http://arxiv.org/abs/hep-th/0601076)) 
+
 [[!redirects supersymmetries]]
 
 [[!redirects supersymmetry algebra]]
