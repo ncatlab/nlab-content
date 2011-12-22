@@ -1,0 +1,5 @@
+
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Alfred_Tarski)
+
+category: people
