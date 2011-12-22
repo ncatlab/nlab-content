@@ -244,6 +244,31 @@ A category may be thought of as a [[categorification]] of a [[poset]] rather tha
 
 See [[category theory vs order theory]] for more discussion.
 
+## Theorems
+ {#Theorems}
+
+* [[Yoneda lemma]]
+
+* [[Isbell duality]]
+
+* [[Grothendieck construction]]
+
+* [[adjoint functor theorem]]
+
+* [[monadicity theorem]]
+
+* [[adjoint lifting theorem]]
+
+* [[Tannaka duality]]
+
+* [[Gabriel-Ulmer duality]]
+
+* [[small object argument]]
+
+* [[Freyd-Mitchell embedding theorem]]
+
+
+
 ## Related concepts
 
 * **category theory**
