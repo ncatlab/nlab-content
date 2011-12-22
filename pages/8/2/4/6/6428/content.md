@@ -144,6 +144,12 @@ Textbook discussion of broken symmetry in [[gravity]] and [[supergravity]] in th
 [[David Kazhdan]],  [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
  {#Strominger}
 
+Discussion of [[supersymmetry]] breaking is in 
+
+* Yael Shadmi, _Supersymmetry breaking_ ([arXiv:hep-th/0601076](http://arxiv.org/abs/hep-th/0601076)) 
+
+
 [[!redirects spontaneously broken symmetries]]
 
 [[!redirects spontaneous symmetry breaking]]
+
