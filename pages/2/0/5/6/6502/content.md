@@ -103,3 +103,5 @@ A standard textbook reference is
 See also
 
 * wikipedia [Cartan connection](http://en.wikipedia.org/wiki/Cartan_connection)
+
+[[!redirects Cartan connections]]
