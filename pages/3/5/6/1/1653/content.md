@@ -102,6 +102,9 @@ While measure theory only gets more complicated in constructive mathematics, it 
 
 ... more coming ...
 
+## Related concepts
+
+* [[measurable locale]]
 
 ## References
 
