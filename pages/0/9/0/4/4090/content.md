@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -14,7 +20,7 @@ The generalization of the notion of [[exact functor]] from [[category theory]] t
 
 ## Definition
 
-As for 1-catgeorical exact functors, there is a general definition of exact functors that restricts to the simple conditions that [[finite limit|finite (co)limits]] are preserved in the case that these exist.
+As for 1-categorical exact functors, there is a general definition of exact functors that restricts to the simple conditions that [[finite limit|finite (co)limits]] are preserved in the case that these exist.
 
 +-- {: .un_defn}
 ###### Definition
@@ -32,7 +38,7 @@ This is [[Higher Topos Theory|HTT, def. 5.3.2.1]].
 
 If $C$ has $\kappa$-small [[colimit]]s, then $F$ is $\kappa$-right exact precisely if it preserves these $\kappa$-small colimits.
 
-So in particular if $C$ has all [[finite colimit]]s, then $F$ is right exact, precisely if it reserves these.
+So in particular if $C$ has all [[finite (infinity,1)-limit|finite colimits]], then $F$ is right exact precisely if it preserves these.
 
 =--
 
