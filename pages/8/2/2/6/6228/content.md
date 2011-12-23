@@ -5,9 +5,9 @@
 
 ## Measure theory
 
-* [[measurable space]], [[measure space]] 
+* [[measurable space]], [[measurable locale]]
 
-* [[measure]]
+* [[measure]], [[measure space]] 
 
 * [[von Neumann algebra]]
 
