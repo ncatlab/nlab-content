@@ -60,6 +60,17 @@ $$\hom_{\mathcal{M}}((0, 1), (T, L)) \cong L.$$
 *  Given any [[faithful functor]] $F\colon C \to D$, we may make $C$ into an $\mathcal{M}$-category whose tight morphisms are the original morphisms of $C$ and whose loose morphisms from $x$ to $y$ are the $D$-morphisms from $F(x)$ to $F(y)$.  This includes all of the examples above; up to [[equivalence of categories|equivalence]], this includes all examples.
 
 
+## Applications
+
+* Any $\mathcal{M}$-category whose tight morphisms form a [[preorder]] can be made into a [[strict category]] in a canonical way: declare two objects to be equal if they are *tightly* isomorphic.  This is an unusual sort of strict category in that its "equality predicate" on objects may not be literal equality (even in a foundational system where the latter makes sense).  Many strict categories that arise in practice underlie $\mathcal{M}$-categories, such as the category of sets in material set theory.
+
+  Note that two *equivalent* $\mathcal{M}$-categories with posetal tight categories (in the usual sense of equivalence for enriched categories) have *isomorphic* underlying strict categories (in the appropriate sense, i.e. making use of the stipulated equality predicate on objects to define "isomorphism").  In this way, some examples which may seem on the surface to be [[evil]], by referring to an isomorphism of categories, can alternatively be described non-evilly by recognizing the presence of a neglected $\mathcal{M}$-enrichment.
+
+* For instance, let $G = Gal(E/F)$ be the [[Galois group]] of a finite [[Galois extension]] $E/F$.  Then there is an $\mathcal{M}$-category whose objects are intermediate [[fields]] $F\subset K\subset E$, whose loose maps are arbitrary field homomorphisms that fix $F$ pointwise, and whose tight maps are those which commute with the inclusions into $E$.  There is also an $\mathcal{M}$-category whose objects are [[orbits]] $G/H$, whose loose maps are arbitrary maps of $G$-sets, and whose tight maps are those which commute with the quotient maps from $G$.  The fundamental theorem of classical [[Galois theory]] says that these two $\mathcal{M}$-categories are equivalent *as $\mathcal{M}$-categories*.
+
+  This is a stronger statement than saying that their underlying categories of loose maps are equivalent.  An intermediate statement is to say that their underlying strict categories, as above, are isomorphic; see [this post](http://article.gmane.org/gmane.science.mathematics.categories/5877) by [[Peter May]].
+
+
 ## References
 
 $\mathcal{M}$-categories are mentioned as $Subset$-categories (thinking of $\mathcal{M}$ as the category of [[subset]] inclusions) in
