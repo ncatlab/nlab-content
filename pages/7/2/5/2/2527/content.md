@@ -1,9 +1,16 @@
-+-- {: .standout}
+
+# Strict categories
+* table of contents
+{: toc}
+
+## Warning
+
 To the extent that the contents of this page are precise at all, they are speculative.  As far as I know, nobody has formulated, much less proved, the logical consistency and independence results that would justify its formal claims.
 
 If you are content with [[set theory|set-theoretic]] foundations for category theory, you may ignore the adjective 'strict' in 'strict category'; in 'strict functor' it basically means 'non-[[anafunctor|ana]]' (the usual default, but not necessarily the best concept).  If you are content with set-theoretic foundations using the full strength of the global [[axiom of choice]], then you can even ignore the 'non-ana' bit.
-=--
 
+
+## Idea
 
 A __strict category__ is a [[category]] with a notion of [[equality]] (not merely [[isomorphism]]) of its [[objects]].  In contrast, a __weak category__ is a category *without* an equality predicate on its objects.  When taking the [[nPOV]], we often adopt the philosophical position that [[category theory]] is fundamentally about weak categories.
 
@@ -16,9 +23,20 @@ A [[2-category]] must have strict categories as its [[hom-categories]] to write 
 Even if one\'s foundations allow one to notice the difference between strict categories and weak categories, the practical content disappears in the presence of the [[axiom of choice]].  (This is just like the equivalence between functors and anafunctors in that case.)
 
 
+## Definition
+
+Ignoring [[size issues]], we have a [[bicategory]] $Cat$ consisting of weak [[categories]], [[functors]] (some of wich are [[essentially surjective functor|essentially surjective]]), and [[natural transformations]] (some of which are [[natural isomorphisms]]), a [[category]] $Set$ consisting of [[sets]] and [[functions]], and a [[functor]] $Disc\colon Set \to \Cat$ taking each set to the [[discrete category]] on that set.
+
+A __strict category__ $C$ consists of a set $Ob(C)$ (to be thought of as the set of [[objects]] of $C$), a category $Wk(C)$ (to be thought of as the underlying weak category of $C$), and an essentially surjective functor $cl(C)\colon Disc(Ob(C)) \to C$ (to be thought of as taking each object of $C$ to its [[clique]] in $C$).  A __strict functor__ $F$ from $C$ to $D$ (both strict categories) consists of a function $Ob(F)\colon Ob(C) \to Ob(D)$, a functor $Wk(F)\colon Wk(C) \to Wk(D)$, and a natural isomorphism $cl(F)\colon cl(C) ; Wk(F) \to Disc(Ob(F)) ; cl(D)$.  Strict functors $F, G\colon C \to D$ are __equal__ if $Ob(F) = Ob(G)$ and there is a (necessarily unique) natural isomorphism from $Wk(F)$ to $Wk(G)$ modulo which $cl(F)$ equals $cl(G)$.  There is an obvious notion of [[composition]] that defines a [[category]] $Str Cat$ of strict categories and strict functors.  (A natural transformation from $F$ to $G$ is simply a natural transformation from $Wk(F)$ to $Wk(G)$.)
+
+Equivalently, a strict category is an $\mathcal{M}$-[[M-category|category]] whose underlying category of tight morphisms is discrete.
+
+
 [[!redirects strict category]]
 [[!redirects strict categories]]
 [[!redirects strict functor]]
 [[!redirects strict functors]]
 [[!redirects strict groupoid]]
 [[!redirects strict groupoids]]
+[[!redirects StrCat]]
+[[!redirects Str Cat]]
