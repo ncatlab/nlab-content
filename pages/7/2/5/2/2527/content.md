@@ -32,6 +32,17 @@ A __strict category__ $C$ consists of a set $Ob(C)$ (to be thought of as the set
 Equivalently, a strict category is an $\mathcal{M}$-[[M-category|category]] whose underlying category of tight morphisms is discrete.
 
 
+## Categories vs strict categories
+
+In most [[foundations of mathematics]], every category $C$ is automatically a strict category: equality of objects in $C$ is simply equality in the set or class of objects of $C$.  In terms of the formal definition above, $Ob(C)$ is the ordinary set of objects of $C$, $Wk(C)$ is $C$ itself, and $cl(C)$ is the [[identity function]] on $Ob(C)$.  In [[type theory|type-theoretic]] foundations where types are interpreted as [[presets]], one normally has (following the [[type-theoretic definition of category]]) only a preset of objects instead of a set of objects, but still it is most common that every preset can be intepreted as a [[completely presented set]].
+
+There are a few exceptions, such as [[FOLDS]], [[SEAR+ϵ]], and intensional [[dependent type]] theory without [[identity types]].  Even ignoring these, it is possible that there is still a difference between categories and strict categories, for two reasons.
+
+First of all, ...
+
+Secondly, even if every category is automatically a strict category, it\'s possible that not every strict category arises (up to isomorphism) in this way.
+
+
 [[!redirects strict category]]
 [[!redirects strict categories]]
 [[!redirects strict functor]]
