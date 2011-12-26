@@ -15,7 +15,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea and motivation
 
@@ -39,11 +39,13 @@ Note: By the [[adjoint functor theorem]] (AFT) for posets, a frame also has all 
 The [[category]] [[Locale]] of **locales** is the [[opposite category|opposite]] of the category of frames
 
 $$
-  Loc := Frm^{op}
+  Loc \coloneqq Frm^{op}
   \,.
 $$
 
-That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f:X\to Y$ of locales is a frame homomorphism $f^*:O(Y)\to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
+That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f\colon X \to Y$ of locales is a frame homomorphism $f^*\colon O(Y) \to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
+
+It is also possible to think of $f\colon X \to Y$ as a map of [[posets]] $f\colon O(X) \to O(Y)$: a [[function]] that preserves all [[meets]] (and therefore is [[monotone function|monotone]] and has a [[left adjoint]] $f^*\colon O(Y) \to O(X)$) and such that the left adjoing $f^*$ preserves all finite meets.
 
 This category is naturally enhanced to a [[2-category]]:
 
@@ -54,15 +56,15 @@ The [[2-category]] [[Locale]] has
 
 * as [[object]]s $X$ [[frame]]s $Op(X)$;
 
-* as [[morphisms]] $f : X \to Y$ frame homomorphisms $f^* : Op(Y) \to Op(X)$;
+* as [[morphisms]] $f\colon X \to Y$ frame homomorphisms $f^*\colon Op(Y) \to Op(X)$;
 
-* a unique [[2-morphisms]] $f \Rightarrow g$ whenever for all $U \in Op(Y)$ we have a (then necessarily unique) morphism $f^* U \to g^* U$.
-
+* a unique [[2-morphism]] $f \Rightarrow g$ whenever for all $U \in Op(Y)$ we have a (then necessarily unique) morphism $f^* U \to g^* U$.
 =--
 
 (For instance [Johnstone, C1.4, p. 514](#Johnstone).)
 
 This [[2-category]] is in fact a [[(1,2)-category]]: a [[Poset]]-[[enriched category]].
+
 
 ## Properties
 
@@ -348,7 +350,7 @@ This is the beginning of a pattern in [[higher topos theory]], described at [[n-
 
 * The notion of locale may be identified with that of a [[Grothendieck topos|Grothendieck]] [[(0,1)-topos]]. See [[Heyting algebra]] for more on this.
 
-* A [[ionad]] is supposed to be to a [[topological space]] as a [[Grothendieck topos]] is to a [[locale]].
+* An [[ionad]] is supposed to be to a [[topological space]] as a [[Grothendieck topos]] is to a [[locale]].
 
 * A [[group object]] [[internalization|internal]] to locales or an [[internal groupoid]] in locales is a [[localic group]] or [[localic groupoid]], respectively. 
 
