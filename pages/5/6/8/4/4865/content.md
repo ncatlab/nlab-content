@@ -58,7 +58,7 @@ of which a textbook account is in
 {#CastellaniDAuriaFre}
 
 
-### Brane Solutions
+### Classical solutions
 	
 Bosonic solutions of eleven-dimensional supergravity were studied in the 1980s in the context of [[Kaluza-Klein mechanism|Kaluza-Klein]] supergravity. The topic received renewed attention in the mid-to-late 1990s as a result of the [[branes]] and duality paradigm and the [[AdS/CFT correspondence]].
 
@@ -75,3 +75,7 @@ Shortly after the original Freund-Rubin solution was discovered, Englert discove
 * Francois Englert, _Spontaneous Compactification of Eleven-Dimensional Supergravity_ Phys.Lett. B119 (1982) 339 ([inSPIRE](http://inspirehep.net/record/180130))
 
 Some of the above is taken from [this TP.SE thread](http://theoreticalphysics.stackexchange.com/questions/329/modern-avatar-of-englerts-solution).
+
+A classification of symmetric solutions is discussed in
+
+* [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_ ([arXiv:1112.4967](http://arxiv.org/abs/1112.4967))
