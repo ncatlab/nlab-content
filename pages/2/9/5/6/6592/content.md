@@ -61,6 +61,18 @@ The fact that a [[quotient]] is given by a [[homotopy fiber]] is a special case 
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+That fiber sequence continues to the left as
+
+$$
+  G \to H \to G//H \to \mathbf{B}G \to \mathbf{B}H
+  \,.
+$$
+
+=--
+
 +-- {: .num_prop}
 ###### Observation
 
