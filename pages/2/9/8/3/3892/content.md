@@ -57,4 +57,8 @@ The notion of _Klein geometry_ goes back to articles such as
 
 in the context of what came to be known as the [[Erlangen program]].
 
+A review is for instance in 
+
+* Vladimir Kisil, _Erlangen Programme at Large: An Overview_ ([arXiv:1106.1686](http://arxiv.org/abs/1106.1686))
+
 [[!redirects Klein geometries]]
