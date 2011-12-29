@@ -34,4 +34,7 @@ Elements of Klein geometry are recently being generalized fropm groups to [[grou
 
 * [[John Baez]], [webpage on the Erlangen program](http://math.ucr.edu/home/baez/erlangen)
 
+* Vladimir Kisil, _Erlangen Programme at Large: An Overview_ ([arXiv:1106.1686](http://arxiv.org/abs/1106.1686))
+
+
 [[!redirects Erlangen programme]]
