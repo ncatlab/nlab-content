@@ -121,14 +121,14 @@ $$
 +-- {: .num_cor}
 ###### Corollary
 
-The corresponding [[long exact sequence of homotopy groups]] starts out as
+The corresponding [[long exact sequence of homotopy groups]] is of the form
 
 $$
   \cdots \to \pi_{n+1} B \to \pi_n X \times_B Y \stackrel{(f_*, g_*)}{\to} \pi_n X \oplus \pi_n Y \stackrel{f_* - g_*}{\to} \pi_n B \to \cdots 
 $$
 
 $$
-  \cdots \to \pi_2 B \to \pi_1 X \times_B Y \stackrel{(f_+, g_*)}{\to}  \pi_1 X \times \pi_1 Y \stackrel{f_* \cdot g_*^{-1}}{\to} \pi_1 B \to \pi_0 X \times_B Y \to \pi_0 (X \times Y)
+  \cdots \to \pi_2 B \to \pi_1 X \times_B Y \stackrel{(f_+, g_*)}{\to}  \pi_1 X \times \pi_1 Y \stackrel{f_* \cdot g_*^{-1}}{\to} \pi_1 B \to \pi_0 (X \times_B Y) \to \pi_0 (X \times Y)
   \,.
 $$
 
@@ -263,6 +263,104 @@ Since [[∞-stackification]] preserves [[finite (∞,1)-limits]], this presents 
 
 =--
 
+More generally:
+
++-- {: .num_example #SimplicialGroupObjectAsBase}
+###### Example
+
+Let $\mathcal{C}$ be an [[(∞,1)-topos]] with a 1-[[site]] $S$ of definition (a [[n-localic (∞,1)-topos|1-localic (∞,1)-topos]]).
+
+Then (as discussed there) every [[∞-group]] object in $\mathcal{C}$
+has a presentation by a presheaf of [[simplicial groups]]
+
+$$
+  B \in [S^{op}, sGrp]_{proj} \to [S^{op}, sSet]_{proj}
+  \,.
+$$
+
+We claim that the canonical morphism $- : B \times B \to B$ is
+objectwise a [[Kan fibration]] and hence a fibration in the 
+projective [[model structure on simplicial presheaves]].
+
+Let $U \in S$ be any test object. A diagram
+
+$$
+  \array{ 
+    \Lambda[k]^i &\stackrel{(ha, hb)}{\to}& B(U) \times B(U)
+    \\
+    \downarrow^{\mathrlap{j}} && \downarrow
+    \\
+    \Delta[k] &\stackrel{\sigma}{\to}& B(U)
+  }
+$$
+
+corresponds to a $k$-cell $\sigma \in B(U)$ together with a 
+choice of decomposition of the $i$th [[horn]] $j^* \sigma$
+as a difference
+
+$$
+  (j^* \sigma)_l = ha_l \cdot hb_l^{-1}
+  \,.
+$$
+
+Since $B(U)$ itself is a [[Kan complex]] (being a [[simplicial group]], as discussed there) there is a filler $b : \Delta[k] \to B(U)$ 
+of the [[horn]] $hb : \Lambda[k]^i \to B(U)$.
+Define then 
+
+$$
+  a := \sigma \cdot b
+  \,.
+$$
+
+Since all the face maps are group homomorphisms, this is indeed a filler of $ha$:
+
+$$
+  \begin{aligned}
+    \delta_l(a) 
+      & = \delta_l(\sigma \cdot b)
+    \\
+      & = \delta_l(\sigma) \cdot \delta_l(b)
+    \\   
+      & = \delta_l(\sigma) \cdot hb_l
+    \\
+      & = ha_l
+  \end{aligned}
+  \,.
+$$
+
+Moreover, by construction, $(a,b)$ is a filler in 
+
+$$
+  \array{ 
+    \Lambda[k]^i &\stackrel{(ha, hb)}{\to}& B(U) \times B(U)
+    \\
+    \downarrow^{\mathrlap{i}} 
+    &{}^{(a,b)}\nearrow& 
+    \downarrow
+    \\
+    \Delta[k] &\stackrel{\sigma}{\to}& B(U)
+  }
+  \,.
+$$
+
+Since therefore $- : B \times B \to B$ is a projective fibration, it follows
+as before that the ordinary pullback
+
+$$
+  \array{
+    B &\to& *
+    \\
+    \downarrow^{\mathrlap{\Delta_B}} && \downarrow^{e}
+    \\
+    B \times B &\stackrel{-}{\to}& B
+  }
+$$
+
+is a [[homotopy pullback]].
+
+=--
+
+
 +-- {: .num_prop}
 ###### Observation
 
@@ -323,7 +421,7 @@ Here the composite bottom morphism is $(f - g)$.
 
 An original reference is
 
-* B. Eckmann and P. Hilton, _Unions and intersections in homotopy theory_, Comment. Math. Helv. 3 (1964),2 93-307.
+* [[Beno Eckmann]] and [[Peter Hilton]], _Unions and intersections in homotopy theory_, Comment. Math. Helv. 3 (1964),2 93-307.
  {#EckmannHilton}
 
 A more modern review that emphasizes the role of [[fiber sequences]] is in
