@@ -691,10 +691,11 @@ $$
 
 
 
-### Mayer-Vietoris sequences {#MayerVietoris}
+### Mayer-Vietoris sequences 
+ {#MayerVietoris}
 
 
-A **Mayer-Vietoris sequence** is a fibration sequence obtained from an $(\infty,1)$-pullback diagram:
+A **[[Mayer-Vietoris sequence]]** is a fiber sequence obtained from an $(\infty,1)$-pullback diagram of [[pointed objects]]:
 
 if 
 
@@ -708,20 +709,14 @@ $$
   }
 $$
 
-is an [[limit in a quasi-category|infinity-pullback]] diagram in $\mathbf{H}$, i.e. a [[homotopy pullback]] with $C$ a [[group object in an (infinity,1)-category|group object]], this corresponds to the fibration sequence
+is an [[limit in a quasi-category|infinity-pullback]] diagram in $\mathbf{H}$, then it naturally induces a fiber sequence that starts out as
 
 $$
-  \array{
-    A \times_C B &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    A \times B &\stackrel{f + g^{-1}}{\to}& C
-  }
+  \Omega C \to A \times_B C \to X \times Y
   \,.
 $$
 
-Fibration sequences of this form are called **Mayer-Vietoris sequences**. 
+This -- or its associated [[long exact sequence of homotopy groups]] -- is called the [[Mayer-Vietoris sequence]] of the pullback.
 
 #### Of a cover
 
@@ -783,8 +778,6 @@ Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfiel
 
 [[!redirects fiber sequences]]
 
-[[!redirects Mayer-Vietoris sequence]]
-[[!redirects Mayer-Vietoris sequences]]
 
 [[!redirects homotopy exact sequence]]
 [[!redirects homotopy exact sequences]]
