@@ -1,0 +1,13 @@
+# Higher doctrines
+* table of contents
+{: toc}
+
+The notion of logical theory in categorical logic, that is given by a 2-category of categories with additional structures, due to Lawvere and Ehresmann, may be straightforwardly generalized using the metalanguage of higher and homotopical (multi)-categories, in a way that is directly inspired by the Baez-Dolan categorification method.
+
+This setting, combined with a higher Yoneda lemma, is very natural to treat the semantics of mathematical theories in a coordinate free fashion, characterizing a theory by its universal property. This gives unicity statements.
+
+When combined with the axiom of choice and the classical methods of mathematical logic given by model theory (following Goedel's groundbreaking work), this formalism can be used to prove general existence results, for the models of coherent theories in doctrines with good finiteness properties.
+
+This vast program of generalizing model theory methods to higher doctrines may be at the heart of a categorical foundation to mathematics, a la Lawvere, but with a more concrete flavor, since the methods also allow to prove existence results (for objets, theories, and even proofs).
+
+Suppose given a metalanguage of homotopical higher (and even multi-) categories.
