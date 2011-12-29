@@ -54,32 +54,35 @@ The corresponding **Mayer-Vietoris sequence** is the [[fiber sequence]] of the i
 
 ### General
 
-+-- {: .num_prop}
++-- {: .num_prop #SequenceFromDiagonal}
 ###### Proposition
 
 Let $\mathcal{C}$ be a [[presentable (∞,1)-category]]. 
 
-Then the [[homotopy fiber]] of $X \times_B Y \to X \times Y$ is the [[loop space object]] $\Omega B$.
+Then $X \times_B Y$ is equivalently given by the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    X \times_B Y &\to& B
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\Delta_B}}
+    \\
+    X \times Y &\stackrel{(f,g)}{\to}& B \times B
+  }
+  \,,
+$$
+
+where the right vertical morphism is the [[diagonal]].
+
+Moreover, the [[homotopy fiber]] of $X \times_B Y \to X \times Y$ is the [[loop space object]] $\Omega B$.
 
 =--
  
 +-- {: .proof}
 ###### Proof
 
-One checks (for instance by choosing a presentation by a [[combinatorial model category]] and then proceeding as below in the discussion _[Presentation by fibrant objects](#PresentationByFibrantObjects)_) that the defining [[(∞,1)-pullback]] is equivalent to the $(\infty,1)$-pullback
-
-$$
-  \array{ 
-    X \times_B Y &\to& B
-    \\
-    \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\Delta_B}}
-    \\
-    Y \times Y &\stackrel{(f,g)}{\to}& B
-  }
-  \,,
-$$
-
-where the right vertical morphism is the [[diagonal]] on $B$. Then by the [[pasting law]] for $(\infty,1)$-pullbacks it follows that with the left square in 
+The first statement one checks for instance by choosing a presentation by a [[combinatorial model category]] and then proceeding as below in the discussion _[Presentation by fibrant objects](#PresentationByFibrantObjects)_.
+Then by the [[pasting law]] for $(\infty,1)$-pullbacks it follows that with the left square in 
 
 $$
   \array{
@@ -91,7 +94,7 @@ $$
   }
 $$
 
-an $(\infty,1)$-pullback, so is the total outer rectangle. But by the converse of the first claim, this is equivalent to the $(\infty,1)$-pullback
+an $(\infty,1)$-pullback, so is the total outer rectangle. But again by the first statement, this is equivalent to the $(\infty,1)$-pullback
 
 $$
   \array{
@@ -170,6 +173,151 @@ $$
 
 This implies in particular that the [[homotopy fiber]] of $X \times_B^h Y \to X \times Y$ is the [[loop space object]] $\Omega B$, being the [[fiber]] of the [[path space object]] projection.
 
+### Over an $\infty$-group
+ {#OverAGroupObject}
+
+We consider the special case where $B$ is an abelian [[∞-group]] in a [[presentable (∞,1)-category]] $\mathcal{C}$.
+
+In this case we have an [[(∞,1)-pullback]]
+
+$$
+  \array{
+    B &\to& *
+    \\
+    \downarrow^{\mathrlap{\Delta_B}} 
+    &\swArrow_{\simeq}& 
+    \downarrow^\mathrlap{0}
+    \\
+    B \times B
+    &\stackrel{-}{\to}&
+    B
+  }
+  \,,
+$$
+
+where the bottom horizontal morphism is the composite
+
+$$
+  - : B \times B \stackrel{(id, (-)^{-1})}{\to} B \times B \stackrel{+}{\to} B
+$$
+
+of a morphism that sends the second argument to its inverse with the group composition operation.
+
++-- {: .num_example}
+###### Example
+
+Let $S$ be a small [[site]] and let $\mathcal{C} = Sh_{(\infty,1)}(S)$ be the [[(∞,1)-category of (∞,1)-sheaves]] on $S$.
+
+This is [[presentable (∞,1)-category|presented]] by the projective [[model structure on simplicial presheaves]]
+
+$$
+  \mathcal{C} \simeq ([S^{op}, sSet]_{proj, loc})^\circ
+  \,.
+$$
+
+As discussed there, the [[Dold-Kan correspondence]] prolongs to a [[Quillen adjunction]] on [[presheaves]] whose [[right adjoint]] is
+
+$$
+  \Xi : 
+  [S^{op}, Ch_{\bullet \leq 0}(Ab)]_{proj}
+  \to 
+  [S^{op}, sAb]_{proj}
+  \to
+  [S^{op}, sSet]_{proj}
+  \,.
+$$
+
+Let then $B \in \mathcal{C}$ be an object with a presentation in $[S^{op}, sSet]$ in the image of this $\Xi$. We write $B$ also for this presentation, and hence $B = \Xi(\tilde B)$ for some presheaf of chain complexes $\tilde B$. 
+
+We claim now that such $B$ satisfies the above assumption.
+
+To see this, first notice that the evident morphism $- : \tilde B \times \tilde B \to \tilde B$ is degreewise an [[epimorphism]], hence it is a fibration in $[S^{op}, Ch_{\bullet \geq 0}(Ab)]_{proj}$, and since $\Xi$ is [[Quillen adjunction|right Quillen]], so is the corresponding morphism $- : B \times B \to B$ in $[S^{op}, sSet]_{proj}$. 
+
+Therefore the ordiary pullback of presheaves of chain complexes
+
+$$
+  \array{
+    \tilde B &\to& *
+    \\
+    \downarrow^{\mathrlap{\Delta_{\tilde B}}} && \downarrow^{\mathrlap{0}}
+    \\
+    \tilde B \times \tilde B &\stackrel{-}{\to}& \tilde B
+  }
+$$
+
+is a [[homotopy pullback]] in $[S^{op}, Ch_{\bullet \geq 0}(Ab)]_{proj}$, as is the ordinary pullback of simplicial presheaves
+
+$$
+  \array{
+    B &\to& *
+    \\
+    \downarrow^{\mathrlap{\Delta_B}} && \downarrow^{\mathrlap{0}}
+    \\
+    B \times B &\stackrel{-}{\to}& B
+  }
+$$
+
+in $[S^{op}, sSet]_{proj}$.
+
+Since [[∞-stackification]] preserves [[finite (∞,1)-limits]], this presents an [[(∞,1)-pullback]] also in $\mathcal{C}$.
+
+=--
+
++-- {: .num_prop}
+###### Observation
+
+For $B$ an [[∞-group]] object as above, the [[(∞,1)-pullback]] $X \times_B Y$ is equivalently given by the $(\infty,1)$-pullback
+
+$$
+  \array{
+   X \times_B Y &\to& * 
+   \\
+   \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{0}}
+   \\ 
+   X \times Y &\stackrel{f-g}{\to}& B
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{SequenceFromDiagonal} the object $X \times_B Y$ is the $(\infty,1)$-pullback in
+
+$$
+  \array{
+    X \times_B Y &\to& B
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\Delta_B}}
+    \\
+    X \times Y &\stackrel{(f,g)}{\to}& B \times B
+  }
+  \,.
+$$
+
+By the [[pasting law]] this is equivalently given by the  composite pullback of 
+
+$$
+  \array{
+    X \times_B Y &\to& B &\to& *
+    \\
+    \downarrow 
+    &\swArrow_{\simeq}& 
+    \downarrow^{\mathrlap{\Delta_B}}
+    &\swArrow_{\simeq}& 
+    \downarrow^{\mathrlap{0}}
+    \\
+    X \times Y &\stackrel{(f,g)}{\to}& B \times B
+    &\stackrel{-}{\to}& B
+  }
+  \,.
+$$
+
+Here the composite bottom morphism is $(f - g)$.
+
+=--
 
 ## References
 
