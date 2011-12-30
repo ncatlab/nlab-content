@@ -1,4 +1,10 @@
 
+# Equivalence relations
+* table of contents
+{: toc}
+
+## Definition
+
 An __equivalence relation__ on a set $S$ is a binary [[relation]] $\equiv$ on $S$ that is:
 * [[reflexive relation|reflexive]]: $x \equiv x$ for all $x: S$;
 * [[symmetric relation|symmetric]]: $x \equiv y$ if $y \equiv x$; and
@@ -6,20 +12,25 @@ An __equivalence relation__ on a set $S$ is a binary [[relation]] $\equiv$ on $S
 
 (One can also define it as a relation that is both reflexive and [[euclidean relation|euclidean]].)  The [[de Morgan duality|dual]] of an equivalence relation is an [[apartness relation]].
 
+
+## Setoids
+
 A __setoid__ is a set equipped with an equivalence relation.
 
-Equivalently, a setoid is a [[enriched category|groupoid enriched]] over the [[cartesian monoidal category]] of [[truth value]]s.  Then an equivalence relation on $S$ is a way of making $S$ into the set of objects of such a groupoid.
-
-Equivalently, a setoid is a [[groupoid]] that is [[0-truncated]].
-
-A __[[congruence]]__ is an [[internalization|internal]] equivalence relation.
+Equivalently, a setoid is a [[groupoid]] [[enriched category|enriched]] over the [[cartesian monoidal category]] of [[truth values]].  Equivalently, a setoid is a [[groupoid]] that is [[0-truncated]].  Then the equivalence relation on $S$ is a way of making $S$ into the set of objects of such a groupoid.
 
 It may well be useful to consider several possible equivalence relations on a given set.  When considering a single equivalence relation once and for all, however, it is common to take the [[quotient set]] $S/{\equiv}$ and use that instead.  As a groupoid, any setoid is [[equivalence of categories|equivalent]] to a [[set]] in this way.
 
 Setoids are still important in [[foundations]] of mathematics where quotient sets don\'t always exist and the above equivalence cannot be carried out.  However, arguably this is a terminological mismatch, and such people should say 'set' where they say 'setoid' and something else (such as '[[preset]]', '[[type]]', or '[[completely presented set]]') where they say 'set'.  (See page 9 of [these lecture notes](http://www.cs.chalmers.se/Cs/Research/Logic/TypesSS05/Extra/palmgren.pdf).)
 
 
+## Congruences
+
+A __[[congruence]]__ is an [[internalization|internal]] equivalence relation.
+
+
 [[!redirects equivalence relation]]
 [[!redirects equivalence relations]]
+
 [[!redirects setoid]]
 [[!redirects setoids]]
