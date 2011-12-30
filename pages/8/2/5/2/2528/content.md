@@ -57,7 +57,7 @@ See also the discussion at [[net]] about how to force the domain of a net to be 
 
 ## Fixing inadequate foundations
 
-Sometimes one finds a [[foundation]] of [[predicative mathematics]] in which it appears to be impossible to construct [[quotient sets]], leading to much hand-wringing.  (For a simple example, simply remove the axiom of [[power sets]] from [[ZFC]].)  However, if you reinterpret the nominal 'sets' as presets and define a set as a preset equipped with an equivalence prerelation, then quotient sets exist after all.  (In impredicative mathematics, there is a more familiar construction of a quotient set available, as a subset of a power set.)
+Sometimes one finds a [[foundation]] of [[predicative mathematics]] in which it appears to be impossible to construct [[quotient sets]], leading to much hand-wringing.  (For a simple example, simply remove the axiom of [[power sets]] from [[ZFC]] as normally presented.)  However, if you reinterpret the nominal 'sets' as presets and define a set as a preset equipped with an equivalence prerelation, then quotient sets exist after all.  (In impredicative mathematics, there is a more familiar construction of a quotient set available, as a subset of a power set.)
 
 Assuming that the original foundation had equality relations on its sets, there will be identity relations on the presets, leading to a special class of sets (those which arise from equipping a preset with its identity relation) which we may call the __completely presented sets__.
 
