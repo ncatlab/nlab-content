@@ -160,3 +160,8 @@ Comments on this point are also in
 
 [[!redirects effective low-energy quantum field theory]]
 [[!redirects effective low-energy field theory]]
+
+[[!redirects UV-completion]]
+[[!redirects UV completion]]
+[[!redirects UV-completions]]
+[[!redirects UV completions]]
