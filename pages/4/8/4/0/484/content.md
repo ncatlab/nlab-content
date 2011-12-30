@@ -10,6 +10,8 @@ A __setoid__ is a set equipped with an equivalence relation.
 
 Equivalently, a setoid is a [[enriched category|groupoid enriched]] over the [[cartesian monoidal category]] of [[truth value]]s.  Then an equivalence relation on $S$ is a way of making $S$ into the set of objects of such a groupoid.
 
+Equivalently, a setoid is a [[groupoid]] that is [[0-truncated]].
+
 A __[[congruence]]__ is an [[internalization|internal]] equivalence relation.
 
 It may well be useful to consider several possible equivalence relations on a given set.  When considering a single equivalence relation once and for all, however, it is common to take the [[quotient set]] $S/{\equiv}$ and use that instead.  As a groupoid, any setoid is [[equivalence of categories|equivalent]] to a [[set]] in this way.
