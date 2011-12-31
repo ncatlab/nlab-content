@@ -128,7 +128,7 @@ The characterization of final functors is also a special case of the characteriz
 
 ## Related concepts
 
-* **final functor**
+* **final functor**, [[cofinal diagram]]
 
 * [[homotopy final functor]]
 
