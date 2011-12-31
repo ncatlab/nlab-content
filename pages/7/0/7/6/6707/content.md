@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -34,7 +33,7 @@ $$
 
 where $W_3$ is the _third integral [[Stiefel-Whitney class]]_ . 
 
-By the definition at [[twisted cohomology]], for a given class $[c] \in H^3(X, \mathb{Z})$, a **$c$-twisted $spin^c$-structure** is a choice of [[homotopy]]
+By the definition at [[twisted cohomology]], for a given class $[c] \in H^3(X, \mathbb{Z})$, a **$c$-twisted $spin^c$-structure** is a choice of [[homotopy]]
 
 $$
   \eta : c \stackrel{\simeq}{\to} W_3(T X)
