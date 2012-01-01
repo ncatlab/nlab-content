@@ -1,11 +1,13 @@
 
-see
+See (or write):
 
-* [[cohesive topos]]
+* [[cohesive topos]],
 
-* [[cohesive homotopy type theory]]
+* [[cohesive homotopy type theory]],
 
-* [[cohesive (∞,1)-topos]]
+* [[cohesive (∞,1)-topos]],
+
+* [[cohesion]].
 
 
 category: adjective
