@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _combinatorial spectrum_ is to a [[spectrum]] of [[topological space]]s as a [[simplicial set]] is to a [[topological space]]: it is a graded set that behaves like a set of simplices constituting a space, where the special property is that the simplices are not just in non-negative degree $n \in \mathbb{N}$ but in all integral degrees $n \in \mathbb{Z}$.
+A _combinatorial spectrum_ is to a [[spectrum]] of [[topological space]]s as a [[simplicial set]] is to a [[topological space]]: it is a [[graded set]] that behaves like a set of simplices constituting a space, where the special property is that the simplices are not just in non-negative degree $n \in \mathbb{N}$ but in all integral degrees $n \in \mathbb{Z}$.
 
 ## Definition
 
