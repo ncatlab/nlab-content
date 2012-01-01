@@ -5,3 +5,5 @@
 * [[profinite homotopy theory]]
 
 category: people
+
+[[!redirects G. Quick]]
