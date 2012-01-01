@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Dold--Kan correspondence_ asserts there is an [[equivalence of categories]] between [[abelian group|abelian]] [[simplicial group]]s and [[connective]] [[chain complex]]es of [[abelian groups]].
+The _Dold--Kan correspondence_ asserts there is an [[equivalence of categories]] between [[abelian group|abelian]] [[simplicial group]]s and [[connective chain complex|connective]] [[chain complex]]es of [[abelian groups]].
 
 Since every [[simplicial group]] is in particular a [[Kan complex]] with [[group object|group structure]], hence an [[∞-groupoid]] with group structurem, hence an [[∞-group]], the Dold-Kan correspondence says that connective chain complexes are a model for abelian [[∞-group]]s. (This is part of the [[cosmic cube]] of [[higher category theory]]). The relevance of this is that chain complexes are typically easier to handle: all the tools of [[homological algebra]] apply. In fact, the [[functor]] that identifies simplicial abelian groups with their corresponding chain complexes -- the [[Moore complex|normalized chains functor]] -- does precisely this: it _normalizes_ an abelian group by discarding irrelevant information and constructing a smaller and less redundant model for it.
 
