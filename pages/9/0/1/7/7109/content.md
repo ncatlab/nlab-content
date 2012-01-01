@@ -1,7 +1,9 @@
-See:
+
+See (or write):
 
 * [[cofinal diagrams]],
 * [[cofinal functor]],
+* [[cofinal subset]],
 * [[cofinality]].
 
 
