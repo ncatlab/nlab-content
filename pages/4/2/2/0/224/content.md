@@ -1,36 +1,35 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential-graded objects
-+--{: .hide}
++-- {: .hide}
 [[!include differential graded objects - contents]]
 =--
 #### Homological algebra
-+--{: .hide}
++-- {: .hide}
 [[!include homological algebra - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Definition
 
 Given a set $G$, an __$G$-graded vector space__ is a map $V$
-assigning to each element $g \in G$ a [[vector space]] $V_g$.  Given $G$-graded vector spaces $V$ and $W$, a morphism $f : V \to W$ assigns to each element $g \in G$ a linear operator $f_g : V_g \to W_g$.
+assigning to each element $g \in G$ a [[vector space]] $V_g$.  Given $G$-graded vector spaces $V$ and $W$, a morphism $f\colon V \to W$ assigns to each element $g \in G$ a linear operator $f_g\colon V_g \to W_g$.  That is, the [[category]] of $G$-graded vector spaces is the [[functor category]] $Vect^G$.
 
-We can just as easily talk about a __$G$-graded [[module]]__ or a __$G$-graded object__ in any [[abelian category]] (and even more generally than that).
+We can just as easily talk about a __$G$-graded [[module]]__ or a __$G$-[[graded object]]__ in any [[category]].  However, a [[graded algebra]] has additional requirements (using a [[monoid]] structure on $G$, as below).
 
-In other words, a $G$-graded vector space is a functor $V: G \to Vect$, where the set $G$ is treated as a [[discrete category]], and [[Vect]] is the category of vector spaces. Similarly, a morphism of $G$-graded vector spaces is a natural transformation between such functors.  In short, the category of $G$-graded vector spaces is the [[functor category]] $Vect^G$.  
+In other words, a $G$-graded vector space is a functor $V\colon G \to Vect$, where the set $G$ is treated as a [[discrete category]], and [[Vect]] is the category of vector spaces. Similarly, a morphism of $G$-graded vector spaces is a natural transformation between such functors.  In short, the category of $G$-graded vector spaces is the [[functor category]] $Vect^G$.  
 
-People are usually interested in $G$-graded vector spaces when the set $G$ is equipped with extra structure.  If the set $G$ is a [[monoid]], $Vect^G$ is a [[monoidal category]].  If $G$ is a commutative monoid, $Vect^G$ is a [[symmetric monoidal category]].  If $G$ is a group, every finite-dimensional $G$-graded vector space has a [[left dual object|left dual]] and a [[right dual object|right dual]].  And if $G$ is an abelian group, these duals coincide.
+People are usually interested in $G$-graded vector spaces when the set $G$ is equipped with extra structure.  If the set $G$ is a [[monoid]], $Vect^G$ is a [[monoidal category]].  If $G$ is a commutative monoid, $Vect^G$ is a [[symmetric monoidal category]].  If $G$ is a group, every finite-dimensional $G$-graded vector space has a [[left dual object|left dual]] and a [[right dual object|right dual]].  And if $G$ is an [[abelian group]], these duals coincide.
 
 By far the most widely-used examples are $G = \mathbb{Z}$ and $G = \mathbb{N}$.  Indeed, the term _graded vector space_ is often used to mean a $G$-graded vector space with one of these choices of $G$.  The case $G = \mathbb{Z}/2$ is also important: a $\mathbb{Z}/2$-graded vector space is also called a [[supervector space]]. However, in this case one often uses a different braiding on $\Vect^G$, one which uses the [[ring]] structure of $\mathbb{N}$; see [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Super_vector_space#The_category_of_super_vector_spaces).
 
-It is also interesting to consider $G$-graded objects in other categories.  A _$G$-graded object_ in the category $C$ is a functor $F :G \to C$, and the category of $G$-graded objects in $C$ is the [[functor category]] $C^G$.
 
 ## Remarks
 
@@ -186,8 +185,7 @@ and is of degree $|f| + |g|$.
 In particular there is a natural injection $(\#V)\otimes (\#W) \to \#(V\otimes W)$, and this is an isomorphism if either $V$ or $W$ is of finite type.
 
 
-
-[[!redirects graded module]]
-[[!redirects graded object]]
-
+[[!redirects graded vector space]]
 [[!redirects graded vector spaces]]
+[[!redirects graded module]]
+[[!redirects graded modules]]
