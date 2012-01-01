@@ -471,7 +471,7 @@ Since this holds for all $s \in S$ and $x \in X_s$, by the basic properties of p
 Hence $[V_1,V_2]$ is a subset of a set and thus a set.
 =--
 
-Now that we have a locally small category, the next step is to show that the forgetful functor has a [[left adjoint]].  Firstly, we need to _define_ this forgetful functor.  As we are in the most general case, the forgetful functor does not go to $Set$ but to $S$-indexed tuples of sets (or an $S$-graded set), where $S$ is a choice of set of sorts for $\mathcal{D}$.  To make things a little simpler, we assume that the _sorting_ functor $S \to \mathcal{D}$ is injective on isomorphism classes so that if $s \ne s'$ in $S$ then $D_s \ncong D_{s'}$ in $\mathcal{D}$.  With this assumption, the forgetful functor $Prod[\mathcal{D},Set] \to Set^S$ is the evaluation functor:
+Now that we have a locally small category, the next step is to show that the forgetful functor has a [[left adjoint]].  Firstly, we need to _define_ this forgetful functor.  As we are in the most general case, the forgetful functor does not go to $Set$ but to $S$-indexed tuples of sets (or an $S$-[[graded set]]), where $S$ is a choice of set of sorts for $\mathcal{D}$.  To make things a little simpler, we assume that the _sorting_ functor $S \to \mathcal{D}$ is injective on isomorphism classes so that if $s \ne s'$ in $S$ then $D_s \ncong D_{s'}$ in $\mathcal{D}$.  With this assumption, the forgetful functor $Prod[\mathcal{D},Set] \to Set^S$ is the evaluation functor:
 $$
 V \mapsto \big(s \mapsto V(D_s)\big), \qquad \alpha \mapsto \big(s \mapsto \alpha_{D_s}\big).
 $$
