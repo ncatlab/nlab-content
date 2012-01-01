@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -19,7 +18,7 @@
 +-- {: .un_defn}
 ###### Definition
 
-A [[site]] is called a **local site** it 
+A [[site]] is called a **local site** if
 
 * it has a [[terminal object]] $*$;
 
