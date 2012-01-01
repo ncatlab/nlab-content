@@ -184,6 +184,9 @@ and is of degree $|f| + |g|$.
 
 In particular there is a natural injection $(\#V)\otimes (\#W) \to \#(V\otimes W)$, and this is an isomorphism if either $V$ or $W$ is of finite type.
 
+## Related concepts
+
+* [[graded set]]
 
 [[!redirects graded vector space]]
 [[!redirects graded vector spaces]]
