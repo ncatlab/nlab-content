@@ -1,5 +1,7 @@
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -22,7 +24,8 @@ When we talk about holomorphic functions in the following and do not specify the
 In the [[AQFT]] formalism (actually the following description is the Heisenberg picture of quantum mechanics in a nutshell) selfadjoint operators A on a Hilbert space $\mathcal{H}$ are the observables of a physical system, while normed vectors $x, y \in \mathcal{H}$ represent the states the system can be in. The real number $\langle y, Ax \rangle$ represents the probability that a system starting in state x will be in state y after a measurement of A. In [[AQFT]] we often encounter a set of operators indexed by several complex variables $z = (z_1, z_2, ...)$ and try to deduce properties of the theory from the function $f(z) := \langle y, A(z)x \rangle$. In this way, the theory of holomorphic functions of several variables is promoted to an irreplaceable tool in quantum field theory.   
 
 ### Hartogs' theorem
-One stricing difference of functions of several _real_ variables and several _complex_ variables is described by Hartogs' theorem on separate analyticity:
+
+One striking difference of functions of several _real_ variables and several _complex_ variables is described by Hartogs' theorem on separate analyticity:
 
 * Theorem (Hartogs): Let f be a $\mathbb{C}$-valued function defined in an open set $U \subset \mathbb{C}^n$. Suppose that f is analytic in each variable $z_j$ when the other coordinates $z_k$ are fixed. Then f is analytic as a function of all n
 coordinates.
@@ -72,7 +75,12 @@ with $0 \lt \theta \lt 1$ a constant that is independent from $x, B_r$, and $f$.
 
 _proof_: V.S.Vladimirov, "theory of functions of several complex variables" ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0125.31904&format=complete))
 
+## Related concepts
+
+* [[analytic space]]
+
 ## References
+
 ...besides those already mentioned by the cited wikipedia articles:
 
 A gentle and modern introduction to complex manifolds that starts with an extensive exposition of the local theory is this:
