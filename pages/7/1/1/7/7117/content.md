@@ -1,0 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $A$ a [[ring]], its _analytic spectrum_ is the set of multiplicative [[seminorms]] on $A$.
+
+This is regarded as a [[topological space]] when equipped with the coarsest topology that makes all evaluation maps continuous.
+
+## Related concepts
+
+* [[analytic geometry]], [[analytic space]]
+
+## References
+
+Course notes are around definition 4 of 
+
+* [[Frédéric Paugam]], _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
+
+[[!redirects analytic spectra]]
