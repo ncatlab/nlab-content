@@ -1,14 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Wikipedia says very succinctly
 
-> valuation is a function on a field that provides a measure of size or multiplicity of elements of the field. They generalize to commutative algebra the notion of size inherent in consideration of the degree of a pole or multiplicity of a zero in complex analysis, the degree of divisibility of a number by a prime number in number theory, and the geometrical concept of contact between two algebraic or analytic varieties in algebraic geometry.
+> A **valuation** is a [[function]] on a [[field]] that provides a measure of size or multiplicity of elements of the field. They generalize to commutative [[algebra]] the notion of size inherent in consideration of the degree of a pole or multiplicity of a zero in [[complex analysis]], the degree of divisibility of a number by a prime number in number theory, and the geometrical concept of contact between two algebraic or analytic varieties in algebraic geometry.
 
 ## Definition
 
-Given a totally ordered abelian group $G$ a $G$-valued __valuation__ $v$ on a (commutative) [[field]] $K$ is a (typically required to be surjective) function $v:K\to G\cup \infty$ such that $v(K^\times)\subset G$ and 
+Given a [[total order|totally ordered]] [[abelian group]] $G$, a $G$-valued __valuation__ $v$ on a (commutative) [[field]] $K$ is a (typically required to be surjective) [[function]] $v:K\to G\cup \infty$ such that $v(K^\times)\subset G$ and 
 
-* $v$ defines the homomorphism of groups $v|_K : K^\times\to G$ where $K^\times$ is the multiplicative group of $K$
+* $v$ defines the [[homomorphism]] of [[groups]] $v|_K : K^\times\to G$ where $K^\times$ is the [[multiplicative group]] of $K$
 
 * $v(0) = \infty$
 
@@ -16,7 +32,7 @@ Given a totally ordered abelian group $G$ a $G$-valued __valuation__ $v$ on a (c
 
 with usual conventions for $\infty$. Field equipped with a valuation is a __valued field__. 
 
-If the abelian group is the group of integers $\mathbf{Z}$ then we talk about [[discrete valuation]]s.
+If the abelian group is the group of [[integers]] $\mathbf{Z}$ then we talk about [[discrete valuation]]s.
 
 Sometimes one also discusses *exponential* (or *multiplicative*) *valuations* (also called valuation functions, and viewed as generalized absolute values) which look more like norms, and their equivalence classes, places. See [[discrete valuation]] and [[valuation ring]].
 
