@@ -120,6 +120,7 @@ This is called the **multiplicative group** of the line object, often denoted $\
 
   The additive group in this case the the additive [[Lie group]] of [[real numbers]]. The multiplicative group is the Lie group $\mathbb{R}^\times = \mathbb{R} - \{0\}$ of non-zero real numbers under multiplication.
 
+See also _[[p-adic affine line]]_.
 
 ### References
 
