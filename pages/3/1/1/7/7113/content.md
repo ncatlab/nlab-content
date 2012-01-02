@@ -1,0 +1,24 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _archimedean field_ is an [[order|ordered]] [[field]] in which every element is bounded above by a [[natural number]].
+
+So an archimedan field has no infinite elements (and thus no non-zero [[infinitesimal object|infinitesimal]] elements).
+
+## Examples
+
+Archimean fields include
+
+* [[real numbers]]
+
+Non-archimean fields include
+
+* [[p-adic numbers]].
+
+[[!redirects archimedean fields]]
+[[!redirects non-archimedean field]]
+[[!redirects non-archimedean fields]]
