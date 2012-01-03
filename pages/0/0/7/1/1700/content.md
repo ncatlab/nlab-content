@@ -149,6 +149,8 @@ If $E$ corresponds to $H$, then we have
 
 =--
 
+This appears for instance as [Lenstra, theorem 2.3](#Lenstra).
+
 This suggests that more fundamental than the subgroups of a Galois group $G$ are its quotients by subgroups, which can be identified with transitive $G$-sets.  This naturally raises the question of what corresponds to non-transitive $G$-sets.
 
 
@@ -283,6 +285,8 @@ Let $X$ be a [[connected]] [[scheme]]. Then there exists a [[profinite group]] $
 
 =--
 
+This appears for instance as [Lenstra, main theorem 1.11](#Lenstra).
+
 +-- {: .un_example}
 ###### Examples
 
@@ -395,6 +399,7 @@ Tim: I have a feeling that this anabelian question should have a form that gener
 Lecture notes on the Galois theory for schemes are in
 
 * [[Hendrik Lenstra]], _Galois theory for schemes_ , Mathematisch Instituut Universiteit van Amsterdam (1985) ([pdf](http://websites.math.leidenuniv.nl/algebra/GSchemes.pdf))
+ {#Lenstra}
 
 Some of the material above is taken from this.
 
