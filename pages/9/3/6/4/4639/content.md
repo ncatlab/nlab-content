@@ -108,9 +108,9 @@ This is called the **multiplicative group** of the line object, often denoted $\
 
 ### Examples
 
-* For $T$ the theory of ordinary commutative [[associative algebras]] over a [[ring]] $k$, we have that 
+* For $T$ the theory of ordinary commutative [[associative algebras]] over a [[ring]] $R$, we have that 
 
-  * $\mathbb{A}_T = \mathbb{A}_R$ is what is the _[[affine line]]_ over $K$;
+  * $\mathbb{A}_T = \mathbb{A}_R$ is what is the _[[affine line]]_ over $R$;
 
   * $\mathbb{G}_m$ is the standard [[multiplicative group]];
 
