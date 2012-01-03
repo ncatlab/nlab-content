@@ -62,7 +62,7 @@ In fact, these three conditions are closely related.
 
 * In any model category, all three conditions hold automatically.
 
-* If the weak equivalences admit a [[calculus of fractions]], or a well-behaved class of cofibrations or fibrations, then the three conditions are equivalent.  In the case of a calculus of fractions, a proof can be found in 7.1.20 of [[Categories and Sheaves]].  For the case of cofibrations, it can be found in [Blumberg-Mandell](#BlumbergMandell) (stated in the context of [[Waldhausen categories]]).
+* If the weak equivalences admit a [[calculus of fractions]], or a well-behaved class of cofibrations or fibrations, then the three conditions are equivalent.  See [[two-out-of-six property]] for the proofs, which are from [[Categories and Sheaves]] (for the calculus of fractions) and [Blumberg-Mandell](#BlumbergMandell) (for the case of cofibrations, in the context of a [[Waldhausen category]]).
 
 
 ## Remarks 
