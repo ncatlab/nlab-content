@@ -45,7 +45,7 @@ $$
 
 That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f\colon X \to Y$ of locales is a frame homomorphism $f^*\colon O(Y) \to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
 
-It is also possible to think of $f\colon X \to Y$ as a map of [[posets]] $f\colon O(X) \to O(Y)$: a [[function]] that preserves all [[meets]] (and therefore is [[monotone function|monotone]] and has a [[left adjoint]] $f^*\colon O(Y) \to O(X)$) and such that the left adjoing $f^*$ preserves all finite meets.
+It is also possible to think of $f\colon X \to Y$ as a map of [[posets]] $f\colon O(X) \to O(Y)$: a [[function]] that preserves all [[meets]] (and therefore is [[monotone function|monotone]] and has a [[left adjoint]] $f^*\colon O(Y) \to O(X)$) and such that the left adjoint $f^*$ preserves all finite meets.
 
 This category is naturally enhanced to a [[2-category]]:
 
