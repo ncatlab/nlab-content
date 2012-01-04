@@ -42,7 +42,7 @@ $$
 
 A quick survey is on page 159 of
 
-* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
+* [[André Joyal]], _The theory of quasicategories and its applications_, lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
 
 For more details see [definition 1.2.12.3, p. 46](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=46) in 
 
@@ -56,3 +56,7 @@ For more details see [definition 1.2.12.3, p. 46](http://arxiv.org/PS_cache/math
 [[!redirects terminal object in an (∞,1)-category]]
 [[!redirects terminal objects in an (∞,1)-category]]
 [[!redirects terminal objects in (∞,1)-categories]]
+
+[[!redirects terminal object in an (infinity,1)-category]]
+[[!redirects terminal objects in an (infinity,1)-category]]
+[[!redirects terminal objects in (infinity,1)-categories]]
