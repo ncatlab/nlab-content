@@ -1,4 +1,4 @@
-The __recollement__ situation is a diagram of 6 six additive functors 
+The __recollement__ situation is a diagram of 6 six [[additive functors]] (see also "[[six operations]]")
 
 $$
   \mathcal{A}' 
@@ -6,7 +6,8 @@ $$
   \mathcal{A}\stackrel{\overset{j_!}{\leftarrow}}{\stackrel{\overset{j^*}{\to}}{\underset{j_*}{\leftarrow}}}\mathcal{A}''
 $$
 
-among three [[abelian category|abelian]] or [[triangulated categories]] satisfying a strong list of exactness and adjointness axioms. The paradigmatic situation is about the categories of abelian sheaves $\mathcal{A}' = Sh(C)$, $\mathcal{A} = Sh(X)$, $\mathcal{A}'' = Sh(U)$, where $U\subset X$ is an open subset of a topological space, $C = X\backslash U$, and the functors among the sheaf categories are induced by the open embedding $j:U\hookrightarrow X$ and closed embedding $i:C\hookrightarrow X$. 
+among three [[abelian category|abelian]] or [[triangulated categories]] satisfying a strong list of [[exact functor|exactness]] and [[adjoint functor|adjointness]] axioms. The paradigmatic situation is about the categories of abelian [[sheaves]] $\mathcal{A}' = Sh(C)$, $\mathcal{A} = Sh(X)$, $\mathcal{A}'' = Sh(U)$, where $U\subset X$ is an [[open subset]] of a [[topological space]], $C = X\backslash U$, and the functors among the [[category of sheaves|sheaf categories]] are induced by the open embedding $j:U\hookrightarrow X$ and closed embedding $i:C\hookrightarrow X$. 
+
 
 A modern treatment for the recollement of abelian categories is in 
 
@@ -59,6 +60,8 @@ $$
 (e) $i_*, j_*, j_!$ are full embeddings.
 
 Again in good situations, less data is needed to provide the recollement. 
+
+## References
 
 In references
 
