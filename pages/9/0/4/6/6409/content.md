@@ -20,7 +20,7 @@ Wikipedia says very succinctly
 
 > A **valuation** is a [[function]] on a [[field]] that provides a measure of size or multiplicity of elements of the field. They generalize to commutative [[algebra]] the notion of size inherent in consideration of the degree of a pole or multiplicity of a zero in [[complex analysis]], the degree of divisibility of a number by a prime number in number theory, and the geometrical concept of contact between two algebraic or analytic varieties in algebraic geometry.
 
-Closely related, partly synonymous, is _[[absolute value]]_.
+Sometimes one also discusses *exponential* (or *multiplicative*) *valuations* (also called valuation functions, and viewed as generalized [[absolute value]]s) which look more like norms, and their equivalence classes, [[place]]s. See [[discrete valuation]] and [[valuation ring]].
 
 ## Definition
 
@@ -36,7 +36,6 @@ with usual conventions for $\infty$. Field equipped with a valuation is a __valu
 
 If the abelian group is the group of [[integers]] $\mathbf{Z}$ then we talk about [[discrete valuation]]s.
 
-Sometimes one also discusses *exponential* (or *multiplicative*) *valuations* (also called valuation functions, and viewed as generalized absolute values) which look more like norms, and their equivalence classes, places. See [[discrete valuation]] and [[valuation ring]].
 
 ## Properties
 
