@@ -77,3 +77,7 @@ and section 1 of
 [[!redirects analytic spectra]]
 
 [[!redirects Berkovich spectrum]]
+[[!redirects Berkovich spectra]]
+
+[[!redirects Bercovich spectrum]]
+[[!redirects Bercovich spectra]]
