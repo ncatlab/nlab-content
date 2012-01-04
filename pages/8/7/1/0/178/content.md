@@ -313,10 +313,28 @@ This follows as a special case of <a href="http://nlab.mathforge.org/nlab/edit/c
 In [[SynthDiff∞Grpd]] we have [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s as actual [[infinitesimal object]]s. See there for more details.
 
 
+### Truncations
 
+The [[(n,1)-topos|(1,1)-topos]] on the [[0-truncated]] smooth $\infty$-groupoids is
 
+$$
+  Sh(CartSp) 
+  \simeq 
+  Smooth \infty Grpd_{\leq 0} \hookrightarrow Smooth\infty Grpd
+  \,,
+$$
 
+the [[sheaf topos]] on [[SmthMfd]]/[[CartSp]] discussed at _[[smooth space]]_. 
 
+The [[concrete objects]] in there
+
+$$
+  Smooth\infty Grpd_{\leq 0}^{conc}
+  \hookrightarrow
+  Smooth \infty Grpd
+$$
+
+are precisely the [[diffeological spaces]].
 
 ## Structures in the cohesive $(\infty,1)$-topos $Smooth \infty Grpd$ {#InfSheavesOnCartSp}
 
