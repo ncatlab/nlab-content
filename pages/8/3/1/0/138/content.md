@@ -293,11 +293,15 @@ This is ([DuggerHollanderIsaksen, theorem 8.6](#DuggerHollanderIsaksen)).
 
 An early standard reference is
 
-* M. Artin and B. Mazur, _&Eacute;tale Homotopy_ , Lecture Notes in Mathematics 100, Springer- Verlag, Berline-Heidelberg-New York (1972).
+* [[Michael Artin]], [[Barry Mazur]], _&Eacute;tale Homotopy_ , Lecture Notes in Mathematics 100, Springer- Verlag, Berline-Heidelberg-New York (1972).
 
 The modern reformulation of their notion of hypercover in terms of simplicial presheaves is mentioned for instance at the end of section 2, on [p. 6](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=6) of
 
 * [[Rick Jardine]], _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+
+A disucssion of hypercovers of topological spaces is in 
+
+* [[Dan Dugger]], _Hypercovers in topology_ ([pdf](http://www.math.uiuc.edu/K-theory/0528/hypercover.pdf))
 
 A discussion in a topos with enough points in in 
 
