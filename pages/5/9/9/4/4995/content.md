@@ -847,7 +847,7 @@ is an equivalence.
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #PiEquivalencePiClosedFactorizationSystem}
 ###### Proposition
 
 The pair of classes
@@ -926,6 +926,38 @@ $$
 
 
 =--
+
++-- {: .num_prop }
+###### Observation
+
+For $f : X \to Y$ a 
+$\mathbf{\Pi}$-closed morphism and 
+$y : * \to Y$ a [[global element]], the [[homotopy fiber]]
+$X_y := y^* X$ is a discrete object.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the def. \ref{PiClosure} and the [[pasting law]] we have that $y^* X$ is equivalently the $\infty$-pullback in
+
+$$
+  \array{
+    y^* X &\to& &\to& \mathbf{\Pi} X
+    \\
+    \downarrow && && \downarrow
+    \\
+    * &\stackrel{y}{\to}& Y &\stackrel{}{\to}& \mathbf{\Pi}Y
+  }
+  \,.
+$$
+
+Since the [[terminal object in an (infinity,1)-category|terminal object]] is discrete, and since the [[right adjoint]] $Disc$ preserves $\infty$-pullbacks, this exhibits $y^* X$ as the image under $Disc$ of an $\infty$-pullback of $\infty$-groupoids.
+
+=--
+
+
 
 ## Structures in a cohesive $(\infty,1)$-topos 
   {#Structures}
