@@ -570,7 +570,7 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
   * [[strong adjoint functor]]
 
-  * [[adjoint triple]], [[adjoint quadruple]]
+  * [[adjoint triple]], [[adjoint quadruple]], [[recollement]]
 
 * [[proadjoint]], [[Hopf adjunction]]
 
