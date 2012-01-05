@@ -1,8 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 An **intersection** is a [[meet]] of [[subset]]s or (more generally) [[subobject]]s.
+
+The dual notion is that of [[union]]/[[join]].
 
 This includes the traditional [[set theory|set-theoretic]] intersection of subsets of some ambient set; intersections of completely arbitrary sets are considered [[evil]].
 
 In a [[finitely complete category]], the intersection of two [[monomorphism]]s $A\hookrightarrow X$ and $B\hookrightarrow X$ can be computed by a [[pullback]] of the [[cospan]] $A\to X \leftarrow B$.
 
+## Related concepts
+
+* [[product]]
+
+* [[union]]
 
 [[!redirects intersections]]
