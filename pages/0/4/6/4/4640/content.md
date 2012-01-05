@@ -272,3 +272,9 @@ $$
 $$
 
 that contract away cartesian factors of the affine line.
+
+## Related concepts
+
+* [[analytic affine line]]
+
+[[!redirects affine lines]]
