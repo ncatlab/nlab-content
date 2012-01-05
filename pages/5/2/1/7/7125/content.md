@@ -1,0 +1,181 @@
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea 
+
+Artin gluing is a fundamental construction in [[locale]] theory and [[topos]] theory. The original example is the way in which a space or locale $X$ may be glued together from an open subspace $i \colon U \hookrightarrow X$ and its closed complement $j \colon K \hookrightarrow X$. The analogous construction for toposes gives the sheaf topos $Sh(X)$ via a gluing together of $Sh(U)$ and $Sh(K)$, and applies more generally to give a sense of how to put two toposes together so that one becomes an open subtopos and the other a closed subtopos of the gluing. 
+
+## The topological case 
+
+Let us consider first the case of topological spaces. Let $X$ be a [[topological space]], $i \colon U \hookrightarrow X$ an open subspace, and $j \colon K \hookrightarrow X$ the complementary closed subspace. Let $O(X)$ denote the topology of $X$. There is an injective map 
+
+$$\langle i^\ast, j^\ast \rangle \colon O(X) \to O(U) \times O(K)$$ 
+
+$$V \mapsto (U \cap V, K \cap V)$$ 
+
+that is a map of [[frame|frames]]. The general problem is to characterize the image of this map: in terms of structure pertaining to $O(U)$ and $O(K)$, which pairs $(W, W')$ of relatively open sets in $U$ and $K$ "glue together" to form an open set $W \cup W'$ in $X$? 
+
+Let $int_X: P(X) \to P(X)$ denote the interior operation, assigning to a subset of $X$ its interior; this is a left exact comonad on $P(X)$. (Indeed, topologies on the set $X$ are in natural bijection with left exact comonads on $P(X)$.) Our problem is to understand when the inclusion 
+
+$$W \cup W' \hookrightarrow int_X(W \cup W')$$ 
+
+obtains. Since $W \in O(U)$ is already open when considered as a subset of $X$, this condition boils down to the condition that 
+
+$$W' \hookrightarrow int_X(W \cup W'). \qquad (1) $$ 
+
++-- {: .un_thm}
+######Proposition 
+A necessary and sufficient condition for (1) is that the inclusion $W' \hookrightarrow int_X(W \cup K)$ obtains. 
+=-- 
+
++-- {: .proof}
+######Proof 
+The necessity is clear since $W' \subseteq K$. The sufficiency is equivalent to having an inclusion 
+
+$$W' \cap int_X(W \cup K) \hookrightarrow int_X(W \cup W').$$ 
+
+Since $W'$ is relatively open in the subspace $K$, we may write $W' = K \cap V$ for some $V \in O(X)$, and so we must check that there is an inclusion 
+$$(K \cap V) \cap int_X(W \cup K) \hookrightarrow int_X(W \cup (K \cap V))$$ 
+
+or in other words, using distributivity and the fact that $int_X$ preserves intersections, an inclusion 
+
+$$K \cap V \cap int_X(W \cup K) \hookrightarrow int_X(W \cup K) \cap int_X(W \cup V).$$ 
+
+But this is clear, since we have 
+
+$$K \cap V \cap int_X(W \cup K) \hookrightarrow int_X(W \cup K)$$ 
+
+and 
+
+$$K \cap V \cap int_X(W \cup K) \hookrightarrow V \hookrightarrow W \cup V = int_X(W \cup V)$$ 
+
+where to derive the last equation, we use the fact that $W \in O(U)$ and $V$ are open in $X$. 
+=-- 
+
++-- {: .un_thm} 
+######Proposition 
+The operation 
+$$O(U) \ni W \mapsto int_X(W \cup K) = int_X(W \cup \neg U) \in O(X)$$ 
+is the right adjoint $i_\ast$ to $i^\ast: O(X) \to O(U)$. 
+=-- 
+
++-- {: .proof} 
+######Proof 
+This is well-known. Indeed, for $V \in O(X)$ we have 
+
+$$\frac{V \subseteq int_X(W \cup \neg U) \qquad \text{in _O(X)_}}{V \subseteq W \cup \neg U \qquad \text{in _P(X)_}}$$ 
+
+but the last condition is equivalent to having $U \cap V \subseteq W$ in $P(X)$, or to $i^\ast(V) = U \cap V \subseteq W$ in $O(X)$. 
+=-- 
+
+Summarizing, the gluing condition (1) above (for $W' \in O(K)$, $W \in O(U)$) translates into saying that there is an inclusion 
+
+$$W' \hookrightarrow j^\ast i_\ast W.$$ 
+
+where $i^\ast, j^\ast$ are restriction maps and $i^\ast \dashv i_\ast$. For future reference, observe that the operator $j^\ast i_\ast: O(U) \to O(K)$ is left exact. 
+
+We can turn all this around. Suppose $U$ and $K$ are topological spaces, and suppose $f: O(U) \to O(K)$ is left exact. Then we can manufacture a space $X$ which contains $U$ as an open subspace and $K$ as its closed complement, and (letting $i$, $j$ being the inclusions as above) such that $f = j^\ast i_\ast$. The open sets of $X$ may be identified with pairs $(W, W') \in O(U) \times O(K)$ such that $W' \subseteq f(W)$; here we are thinking of $(W, W')$ as a stand-in for $W \cup W'$. In particular, open sets $W$ of $U$ give open sets $(W, \emptyset)$ of $X$, while open sets $W'$ of $K$ also give open sets $U \cup W'$ of $X$. 
+
+## The localic case
+
+The development given above generalizes readily to the context of locales. 
+Thus, let $X$ be a locale, with corresponding frame denoted by $O(X)$. Each element $U \in O(X)$ gives rise to two distinct frames: 
+
+* The frame whose elements are algebras (fixed points) of the left exact idempotent monad $U \vee - \colon O(X) \to O(X)$. The corresponding locale is the [[closed sublocale]] $\neg U$ (more exactly, the frame surjection $O(X) \to Alg(U \vee -)$ is identified with a sublocale $\neg U \to X$). 
+
+* The frame whose elements are algebras of the left exact idempotent monad $U \Rightarrow - \colon O(X) \to O(X)$. (NB: for topological spaces, this is $U \Rightarrow V = int_X(V \cup \neg U)$.) The sublocale corresponding to the frame surjection $O(X) \to Alg(U \Rightarrow -)$ is the [[open sublocale]] corresponding to $U$. 
+
+Put $K = \neg U$, and let $i^\ast: O(X) \to O(U)$, $j^\ast: O(X) \to O(K)$ be the frame maps corresponding to the open and closed sublocales attached to $U$, with right adjoints $i_\ast$, $j_\ast$. Again we have a left exact functor 
+
+$$f = j^\ast i_\ast \colon O(U) \to O(K).$$
+
+Observe that this gives rise to a left exact comonad 
+
+$$O(U) \times O(K) \to O(U) \times O(K): (W, W') \mapsto (W, W' \wedge f(W)) \qquad (2)$$ 
+
+whose coalgebras are pairs $(W, W')$ such that $W' \leq f(W)$. The coalgebra category forms a frame.  
+
++-- {: .un_thm}
+######Theorem 
+The frame map $\langle i^\ast, j^\ast \rangle \colon O(X) \to O(U) \times O(K)$ is identified with the comonadic functor attached to the comonad (2). 
+=-- 
+
+Since $O(U + K) \cong O(U) \times O(K)$, we can think of the frame map $\langle i^\ast, j^\ast \rangle$ as giving a localic surjection $U + K \to X$. 
+
+Again, we can turn all this around and say that given any two locales $U$, $K$ and a left exact functor 
+
+$$f \colon O(U) \to O(K),$$ 
+
+we can manufacture a locale $X$ whose frame $O(X)$ is the category of coalgebras for the comonad 
+
+$$1_{O(U)} \times \wedge \circ (f \times 1_{O(K)}) \colon O(U) \times O(K) \to O(U) \times O(K) \qquad (3)$$ 
+
+so that $U$ is naturally identified with an open sublocale of $X$, $K$ with the corresponding closed sublocale, and with a localic surjection $U + K \to X$. This is the (Artin) **gluing construction** for $f$. 
+
+## The toposic case 
+
+Now suppose given [[topos|toposes]] $E$, $E'$ and a left exact functor $\Phi \colon E \to E'$. There is an induced left exact comonad 
+
+$$E \times E' \stackrel{\delta \times 1}{\to} E \times E \times E' \stackrel{1 \times \Phi \times 1}{\to} E \times E' \times E' \stackrel{1 \times prod}{\to} E \times E' \qquad (3)$$ 
+
+whose category of coalgebras is again (by a basic theorem of topos theory; see for instance [here](http://ncatlab.org/toddtrimble/published/Three+topos+theorems+in+one)) a topos, called the **Artin gluing** construction for $\Phi$, denoted $\mathbf{Gl}(\Phi)$. 
+
+Objects of $\mathbf{Gl}(\Phi)$ are triples $(e, e', f \colon e' \to \Phi(e))$. A morphism from $(e_0, e_0^', f_0)$ to $(e_1, e_1^', f_1)$ consists of a pair of maps $g \colon e_0 \to e_1$, $g': e_0^' \to e_1^'$ which respects the maps $f_0, f_1$ (in the sense of an evident commutative square). In other words, the Artin gluing is just the [[comma category]] $E' \downarrow \Phi$. 
+
++-- {: .un_thm} 
+######Theorem 
+Let $X$ be a locale, and let $U$, $K$ be an open sublocale and its closed complement. Let $Sh(X)$ denote the topos of sheaves on $X$ (presheaves on the frame $O(X)$ which become sheaves with respect to the canonical covering topology). Then the left exact left adjoint 
+$$\langle i^\ast, j^\ast \rangle \colon Sh(X) \to Sh(U) \times Sh(K)$$
+is canonically identified with the comonadic gluing construction $\mathbf{Gl}(j^\ast i_\ast) \to Sh(U) \times Sh(K)$. 
+=-- 
+
+For a proof, see the [[Elephant]] (to be tracked down more precisely). 
+
+Once again, the import of this theorem may be turned around. If $f \colon E \to F$ is any left exact functor, then the projection 
+
+$$\mathbf{Gl}(f) \to E \times F \stackrel{proj}{\to} E$$ 
+
+is easily identified with a [[logical functor]] $\mathbf{Gl}(f) \to \mathbf{Gl}(f)/X$ where $X$ is the [[subterminal object]] $(1, 0, 0 \to f(1)$. This realizes $E$ as an [[open subtopos]] of $\mathbf{Gl}(f)$. 
+On the other hand, for the same subterminal object $X \hookrightarrow 1$, the corresponding classifying map 
+
+$$[X] \colon 1 \to \Omega$$ 
+
+induces a [[Lawvere-Tierney topology]] $j$ given by 
+
+$$\Omega \cong 1 \times \Omega \stackrel{[X] \times 1}{\to} \Omega \times \Omega \stackrel{\wedge}{\to} \Omega.$$ 
+
+Then, the category of sheaves $Sh(j)$, or more exactly the left exact left adjoint $\mathbf{Gl}(f) \to Sh(j)$ to the category of sheaves, is naturally identified with the the projection 
+
+$$\mathbf{Gl}(f) \to E \times F \stackrel{proj}{\to} F,$$ 
+
+thus realizing $F$ as equivalent to the [[closed subtopos]] ([[Elephant]], A.4.5, pp. 205-206) attached to the subterminal object $X$. 
+
+**Remarks:** 
+
+* Artin gluing for toposes carries over in some slight extra generality, replacing left exact functors $f$ by pullback-preserving functors. 
+
+* Artin gluing applies also to other [[doctrine|doctrines]]: regular categories, pretoposes, quasitoposes, etc. See [Carboni-Johnstone](#CJ). 
+
+## Examples 
+
+Examples of the gluing construction abound. Here are a few:  
+
+* Let $E$ be an (elementary, not necessarily Grothendieck) topos, and let $\hom(1, -): E \to Set$ represent the terminal object $1$ -- this of course is left exact. The gluing construction $\mathbf{Gl}(\hom(1, -))$ is called the scone (Sierpinski cone), or the [[Freyd cover]] of $E$. 
+
+* If $E$ is a Grothendieck topos and $\Delta \colon Set \to E$ is the (essentially unique) left exact left adjoint, then we have a gluing construction $E \downarrow \Delta$. This gluing may be regarded as the result of attaching a generic open point to $E$. 
+
+## References 
+
+* Aurelio Carboni, [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science 5 (1995), 441--459
+{#CJ}
+
+See also: 
+
+* Aurelio Carboni, [[Peter Johnstone]], _Corrigenda to 'Connected limits...'_ , Mathematical Structures in Computer Science 14 (2004), 185--187.
+
+Some of the material above refers to 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+  {#Johnstone}
