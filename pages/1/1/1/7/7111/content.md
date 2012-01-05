@@ -58,14 +58,26 @@ The [[category]] of **$k$-affinoid spaces** is the [[opposite category]] of the 
 
 =--
 
-Via the [[analytic spectrum]] there is a [[topological space]] associated with any $k$-affinoid space.
+Via the [[analytic spectrum]] $Spec_{an}$ there is a [[topological space]] associated with any $k$-affinoid space. Often this underlying topological space is referred to as _the analytic space_. 
+
++-- {: .num_defn}
+###### Definition
+
+An **affinoid domain** in an affoinoid space $X = Spec_{an} A$ is a [[closed subset]] $V \subset X$ such that there is a [[homomorphism]] of $k$-affinoid spaces 
+
+$$
+  \phi : Spec_{an} A_V \to X
+$$
+
+for some $A_V$, whose [[image]] is $V$, and such that every other morphism of $k$-affinoid spaces into $X$ whose image is contained in $V$ uniquely factors through this morphism.
+
+=--
  
 +-- {: .num_defn}
 ###### Definition
 
-A **$k$-analytic space** is a space obtained by gluing of $k$-affinoid spaces. 
-
-More precisely (...)
+A **$k$-analytic space** is a [[topological space]] 
+equipped with an [[atlas]] by affinoid domains.
 
 =--
 
@@ -76,7 +88,7 @@ See [Berkovich 98, paragraph 2](#BerkovichReview).
 ### Local contractibility
  {#LocalContractibility}
 
-A [[complex numbers|complex]] analytic space is locally isomorphic to a [[polydisk]] and hence is trivially a [[locally contractible space]]. But over a [[non-archimedean field]] analytic spaces no longer need to be locally isomorphic to polydisks (but $p$-adic polydisks are still contractible ([Berkovich 90](#Berkovich90))). The following result establishes under mild conditions, that general analytic spaces are nevertheless locally contractible.
+A [[complex numbers|complex]] analytic space is locally isomorphic to a [[polydisk]] and hence is trivially a [[locally contractible space]]. But over a [[non-archimedean field]] analytic spaces no longer need to be locally isomorphic to polydisks (but $p$-adic polydisks are still contractible ([Berkovich 90](#Berkovich90))). The following result establishes, under mild conditions, that general analytic spaces are nevertheless locally contractible.
 
 
 
@@ -94,11 +106,15 @@ A $k$-analytic space $X$ is called _locally embeddable in a smooth space_ if eac
 
 Every $k$-analytic space which is locally embeddable in a smooth space, def. \ref{LocallyEmbeddableInASmoothSpace}, is a [[locally contractible space]].
 
-More precisely, every point of a locally smooth $k$-analytic space has an open neighbourhood $U$ which is contractible, and which is a union $U = \coprod_{i = 1}^\infty U_i$ of analytic domains.
+More precisely, every point of a locally smooth $k$-analytic space has an open neighbourhood $U$ which is contractible, and which is a [[union]] $U = \cup_{i = 1}^\infty U_i$ of analytic domains.
 
 =--
 
-The local contractibility is [Berkovich (1999), theorem 9.1](#BerkovichContractible). The refinement by inductive systems on analytic domains is in [Berkovich (2004)](#BerkovichContractibleII).
+The local contractibility is [Berkovich (1999), theorem 9.1](#BerkovichContractible). The refined statment in terms of inductive systems of analytic domains is in [Berkovich (2004)](#BerkovichContractibleII).
+
+## Examples
+
+* [[analytic affine line]]
 
 ## References
 
@@ -126,6 +142,9 @@ The Berkovich spectrum is discussed around section 2.1.4 in the course notes
 
 * [[Frédéric Paugam]], _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
 
+A exposition of examples of Berkovits spectra is in 
+
+* [[Scott Carnahan]], _Berkovich spaces I_ ([web](http://sbseminar.wordpress.com/2007/09/18/berkovich-spaces-i/))
 
 ### Original articles
 
