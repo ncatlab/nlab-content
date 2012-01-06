@@ -84,7 +84,7 @@ $$
 
 ### Models by homotopy pullbacks {#HomPullModel}
 
-To see what the definition of a free loop space objectamounts to in more detail, assume that the [[(∞,1)-category]] is modeled by a [[homotopical category]], say for simplicity a [[category of fibrant objects]], for instance the full subcategory on fibrant objects of a [[model category]]. 
+To see what the definition of a free loop space object amounts to in more detail, assume that the [[(∞,1)-category]] is modeled by a [[homotopical category]], say for simplicity a [[category of fibrant objects]], for instance the full subcategory on fibrant objects of a [[model category]]. 
 
 Then following the discussion at [[homotopy pullback]] and [[generalized universal bundle]] we can compute the about $(\infty,1)$-pullback as the ordinary [[limit]] 
 
