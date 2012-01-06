@@ -17,7 +17,7 @@
 
 A manifold is a space which looks locally like a [[Cartesian space]], most commonly a finite-dimensional Cartesian space $\mathbb{R}^n$.
 
-What "locally looks like" means really depends on what sort of structure we are considering a Cartesian space to embody. At one extreme, we can think of $\mathbb{R}^n$ as merely a [[topological space]]. Or, $\mathbb{R}^n$ may be considered as carrying more rigid types of structure, such as $C^k$-[[differential structure]], [[smooth structure]], piecewise-linear (PL) structure, real analytic structure, affine structure, hyperbolic structure, foliated structure, etc., etc. Accordingly we have notions of [[topological manifold]], [[differential manifold]], [[smooth manifold]], etc. By default these are modeled on finite [[dimension]]al spaces, but most notions have generalizations to a corresponding notion of [[infinite dimensional manifold]].
+What "locally looks like" means really depends on what sort of structure we are considering a Cartesian space to embody. At one extreme, we can think of $\mathbb{R}^n$ as merely a [[topological space]]. Or, $\mathbb{R}^n$ may be considered as carrying more rigid types of structure, such as $C^k$-[[differential structure]], [[smooth structure]], piecewise-linear (PL) structure, real [[analytic function|analytic structure]], affine structure, hyperbolic structure, foliated structure, etc., etc. Accordingly we have notions of [[topological manifold]], [[differential manifold]], [[smooth manifold]], etc. By default these are modeled on finite [[dimension]]al spaces, but most notions have generalizations to a corresponding notion of [[infinite dimensional manifold]].
 
 In any case, the type of geometry embodied in a particular flavor of manifold is controlled by a particular [[groupoid]] of transformations which preserves whatever geometric features one is interested in; cf. Felix Klein's _[[Erlangen program|Erlanger Programm]]_.
 
@@ -130,7 +130,7 @@ If the term "manifold" appears without further qualification, what is usually me
 
 A **topological $n$-manifold** is a manifold with respect to the pseudogroup of homeomorphisms between open sets of $\mathbb{R}^n$. Any continuous function between topological manifolds is a morphisms, and any homeomorphism is an isomorphism. A **piecewise-linear (PL) $n$-manifold** is where the pseudogroup consists of piecewise-linear homeomorphisms between such open sets; morphisms are called **piecewise-linear (PL) maps**.
 
-One can go on to define, in a straighforward way, real analytic manifolds, complex analytic manifolds, elliptic manifolds, hyperbolic manifolds, and so on, using the general notion of pseudogroup.
+One can go on to define, in a straighforward way, real [[analytic manifolds]], complex analytic manifolds, elliptic manifolds, hyperbolic manifolds, and so on, using the general notion of pseudogroup.
 
 Any space $X$ can always be turned into a manifold modelled on itself, using any pseudogroup $G$.  Simply take the inclusions of open sets as charts.
 
