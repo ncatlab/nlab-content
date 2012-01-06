@@ -6,7 +6,7 @@
 
 ## Definition
 
-For $k$ a [[field]] equipped with a [[valuation]] (most usually, a [[local field]] such as $\mathbb{R}$, $\mathbb{C}$, or a $p$-adic completion of a number field), a **norm** on a $k$-[[vector space]] $V$ is a [[function]] 
+For $k$ a [[field]] equipped with a [[valuation]] (most usually, a [[local field]] such as $\mathbb{R}$, $\mathbb{C}$, or a [[p-adic field|p-adic]] [[complete field|completion]] of a [[number field]]), a **norm** on a $k$-[[vector space]] $V$ is a [[function]] 
 
 $$
   {\vert-\vert} : V \to \mathbb{R}
@@ -14,14 +14,27 @@ $$
 
 such that for all $\lambda \in k$, $v,w \in V$ we have
 
-1.  ${\vert \lambda v \vert} = {\vert \lambda\vert} {\vert v \vert}$ (where $\vert \lambda \vert$ denotes the valuation)
+1.  ${\vert \lambda v \vert} = {\vert \lambda\vert} {\vert v \vert}$ (where $\vert \lambda \vert$ denotes the [[valuation]])
 
-1.  ${\vert v + w\vert } \leq {\vert v \vert } + {\vert w \vert}$ ("triangle inequality")
+1.  ${\vert v + w\vert } \leq {\vert v \vert } + {\vert w \vert}$ ("[[triangle inequality]]")
 
 1.  if ${\vert v\vert} = 0$ then $v = 0$.
 
-A vector space equipped with a norm is a **normed vector space**.
+If the third property is not required, one speaks of a **seminorm**.
 
+
+A vector space equipped with a norm is a **normed vector space**. A [[topological vector space]] is called **(semi-)normed** if its [[topology]] can be induced by a (semi-)norm.
+
+## Examples
+
+* The standard [[absolute value]] is a norm on the [[real numbers]].
+
+* More generally, on any [[Cartesian space]] $\mathbb{R}^n$ the **Euclidean norm** is given by
+
+  $$
+    (x^1, \cdots, x^n) \mapsto \sqrt(\sum_{i=1}^n (x^i)^2)
+    \,.
+  $$
 
 
 ## Related concepts
@@ -31,6 +44,8 @@ A vector space equipped with a norm is a **normed vector space**.
 * [[metric]]
 
 [[!redirects norms]]
+[[!redirects seminorm]]
+[[!redirects seminorms]]
 
 [[!redirects normed vector space]]
 [[!redirects normed vector spaces]]
