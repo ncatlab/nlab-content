@@ -63,6 +63,22 @@ If $k = \mathbb{C}$, then $\mathbb{A}_k = \mathbb{C}$ is the ordinary [[complex 
 
 ## References
 
+### Original
+
+The notion originates in 
+
+* [[Vladimir Berkovich]], _Spectral theory and analytic geometry over non-Archimedean fields_, Mathematical Surveys and Monographs, vol. 33, American Mathematical Society, Providence, RI, (1990) 169 pp.
+  {#Berkovich90}
+
+
+
+### Expositions
+
+An exposition of examples of Berkovich spectra is in
+
+* [[Scott Carnahan]], _Berkovich spaces I_ ([web](http://sbseminar.wordpress.com/2007/09/18/berkovich-spaces-i/))
+
+
 ### Lecture notes
 
 Course notes are around definition 4 of 
