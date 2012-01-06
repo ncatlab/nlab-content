@@ -121,6 +121,10 @@ The local contractibility is [Berkovich (1999), theorem 9.1](#BerkovichContracti
 * The proof of the [[local Langlands conjecture]]
 for $GL_n$ by Harris&#8211;Taylor uses [[étale cohomology]] on non-archimedean analytic spaces (in the sense of Berkovich) to construct the required Galois representations over local fields.
 
+## Related concepts
+
+* [[non-commutative analytic space]]
+
 ## References
 
 ### Introductions and reviews
