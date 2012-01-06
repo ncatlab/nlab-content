@@ -1,4 +1,6 @@
 
+> This page is about a certain notion of _generators_ in a [[category]]. There are many other notions of generators, which should eventually be linked to from here.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -18,11 +20,11 @@
 
 ## Definition
 
-A __generator__ in a category $C$ is an object $S$ such that the functor $h^S = C(S,-) : C\to\mathrm{Set}$ is [[faithful functor|faithful]]. This means that for any pair $f_1,f_2\in C(X,Y)$, if they are indistinguishable by morphisms from $S$ in the sense that
+A __generator__ in a [[category]] $C$ is an [[object]] $S$ such that the [[functor]] $h^S = C(S,-) : C\to\mathrm{Set}$ is [[faithful functor|faithful]]. This means that for any pair $f_1,f_2\in C(X,Y)$, if they are indistinguishable by [[morphisms]] from $S$ in the sense that
 $$ \forall (\theta: S \to X),\; f_1 \circ \theta = f_2 \circ \theta ,$$
 then $f_1 = f_2$.
 
-One often extends this notion to a __generating family__ of objects, which is a (usually [[small category|small]]) set $\mathcal{S} = \lbrace S_a, a\in A\rbrace$ of objects in $C$ such that the family $C(S_a,-)$ is jointly faithful. This means that for any pair $f_1,f_2\in C(X,Y)$, if they are indistinguishable by morphisms from $\mathcal{S}$ in the sense that
+One often extends this notion to a __generating family__ of objects, which is a (usually [[small set|small]]) [[set]] $\mathcal{S} = \lbrace S_a, a\in A\rbrace$ of objects in $C$ such that the family $C(S_a,-)$ is jointly faithful. This means that for any pair $f_1,f_2\in C(X,Y)$, if they are indistinguishable by morphisms from $\mathcal{S}$ in the sense that
 $$ \forall (a: A),\; \forall (\theta: S_a \to X),\; f_1 \circ \theta = f_2 \circ \theta ,$$
 then $f_1 = f_2$.
 
