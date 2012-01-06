@@ -13,6 +13,11 @@
 
 For $E$ a [[topos]], a **subtopos** is another topos $F$ equipped with a  [[geometric embedding]] $F \hookrightarrow E$.
 
+If this is an [[open geometric morphism]] one speaks of an **open subtopos**.
+
 [[!redirects Subtopos]]
 [[!redirects subtoposes]]
 [[!redirects Subtoposes]]
+
+[[!redirects open subtopos]]
+[[!redirects open subtoposes]]
