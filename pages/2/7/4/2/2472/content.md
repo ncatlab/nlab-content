@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-_Rigid analytic geometry_ is a form of [[analytic geometry]] over a [[nonarchimedean field]] which consider spaces glued from [[maximal spectra]]. In contrast to this are the Berkovich [[analytic spaces]] which are glued from [[analytic spectra]].
+_Rigid analytic geometry_ is a form of [[analytic geometry]] over a [[nonarchimedean field]] which considers spaces glued from [[maximal spectra]]. In contrast to this are the Berkovich [[analytic spaces]] which are glued from [[analytic spectra]].
 
 The idea goes back to [[John Tate]]. According to [Kedlaya, p. 18](#Kedlaya), the terminology "rigid" is because...
 
