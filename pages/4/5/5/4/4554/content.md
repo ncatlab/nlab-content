@@ -25,7 +25,7 @@ The _factorization lemma_ is a fundamental tool in [[categories of fibrant objec
 
 Let $C$ be a [[category of fibrant objects]]. 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 Every [[morphism]] $f : X \to Y$ in $C$ factors as
@@ -88,7 +88,7 @@ That establishes the claim.
 
 ## Corollaries
 
-+-- {: .num_corollary}
++-- {: .num_cor}
 ###### Corollary
 
 Let $F : C \to D$ be a functor from a [[category of fibrant objects]] to any [[category with weak equivalences]] that sends trivial fibrations to weak equivalences. Then this functor necessarily sends all weak equivalences to weak equivalences, hence is a [[homotopical functor]].
@@ -119,12 +119,12 @@ $$
 By the assumption that $F$ preserves trivial fibrations we have that both horizontal morphisms as well as the total vertical morphism and the bottom vertical morphism are weak equivalences. By 2-out-of-3 it then follows that also the top left vertical morphism is a weak equivalence and then finally that $F(f)$ is.
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 If $C$ is the full subcategory of fibrant objects in a [[model category]], then this corollary asserts that a [[Quillen adjunction|right Quillen functor]] $F$, which by its axioms is required only to preserve fibrations and trivial fibrations, preserves also weak equivalences between fibrant objects.
 =--
 
-+-- {: .num_corollary}
++-- {: .num_cor}
 ###### Corollary
 
 Let $A \to C \leftarrow B$ be a diagram between fibrant objects in a [[model category]]. Then the ordinary [[pullback]] $A \times_C^h B$
