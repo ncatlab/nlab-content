@@ -6,12 +6,18 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Langlands correspondence
++--{: .hide}
+[[!include Langlands correspondence -- contents
+]]
+=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
+
 
 
 
