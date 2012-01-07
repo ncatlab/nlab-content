@@ -17,7 +17,7 @@
 
 Analytic spaces are [[spaces]] that are locally modeled on [[Isbell duality|formal duals]] of sub-[[associative algebra|algebras]] of [[power series]] algebras on elements with certain [[convergence]] properties with respect to given [[seminorms]].
 
-In [[complex number|complex]] [[analytic geometry]] analytic spaces are a vast generalization of complex [[analytic manifolds]]. There are also analytic spaces over [[nonarchimedean fields]], the subject introduced by Tate and called [[rigid analytic geometry]]. 
+In [[complex number|complex]] [[analytic geometry]] analytic spaces are a vast generalization of complex [[analytic manifolds]]. There are also analytic spaces over [[nonarchimedean fields]], the subject introduced by [[John Tate]] and called _[[rigid analytic geometry]]_. 
 There are _rigid analytic spaces_, defined with respect to [[maximal spectra]] of these algebras, and more flexible _analytic spaces_ defined with respect to the [[analytic spectrum]], due to [[Vladimir Berkovich]]. For the former definition see _[[rigid analytic geometry]]_. This entry is concerned with the more flexible notion due to Berkovich.
 
 For more background see _[[analytic geometry]]_.
