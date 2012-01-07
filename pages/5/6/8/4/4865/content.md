@@ -79,3 +79,7 @@ Some of the above is taken from [this TP.SE thread](http://theoreticalphysics.st
 A classification of symmetric solutions is discussed in
 
 * [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_ ([arXiv:1112.4967](http://arxiv.org/abs/1112.4967))
+
+### Truncations and compactifications
+
+* [[Hermann Nicolai]], [[Krzysztof Pilch]], _Consistent truncation of $d = 11$ supergravity on $AdS_4 x S^7$_ ([arXiv:1112.6131](http://arxiv.org/abs/1112.6131))
