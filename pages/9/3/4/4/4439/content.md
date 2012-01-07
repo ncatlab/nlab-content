@@ -98,6 +98,8 @@ There is to date no textbook on string theory genuinely digestible by the standa
 
 ## Other lists of bibliography
 
+* [String Theory Wiki](http://www.stringwiki.org/w/index.php?title=String_Theory_Wiki)
+
 * [[books and reviews in mathematical physics]]
 
 * AdS/CFT [list](http://www.personal.uni-jena.de/~p5thul2/notes/adscft.html) in Jena (see also nlab page [[AdS-CFT]]).
