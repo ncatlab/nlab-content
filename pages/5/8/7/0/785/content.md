@@ -65,14 +65,68 @@ In good situations, such as when $X,Y,Z$ are [[fibrant object|fibrant]] in a [[m
 
 Note that in both cases, there is a canonical map from the actual pullback $X\times_Z Y$ to the homotopy pullback $X\times_Z^h Y$.  In the global case this comes by the definition of a derived functor; in the local case it comes because a commutative square is, in particular, a homotopy commutative one.
 
+## Properties
 
-## Concrete construction
+### Concrete constructions
+  {#ConcreteConstructions}
 
-Suppose now that $Z$ has a [[path object]] $Z^I$ that represents homotopies into $Z$.  (For instance, this is often the case when $C$ is a [[closed monoidal homotopical category]] with an [[interval object]] $I$.)  Then we can consider the (ordinary) [[limit]]
+We discuss various concrete constructions by ordinary [[pullbacks]] and ordinary [[limits]] such that under some sufficient conditions these compute homotopy pullbacks, up to weak equivalence.
+
++-- {: .num_prop #HomotopyPullbackByOrdinaryPullback}
+###### Proposition
+
+Let $A \to C \leftarrow B$ be a [[diagram]] in some [[model category]]. Then sufficient conditions for the ordinary (1-categorical) [[pullback]] $A \times_C B$ to present the homotopy pullback of the diagram are
+
+* one of the two morphisms is a [[fibration]] and all three objects are [[fibrant objects]];
+
+* one of the two morphisms is a [[fibration]] and the model category is [[right proper model category|right proper]].
+
+=--
+
+Both statements are classical. They are reviewed for instance as [Lurie, prop. A.2.4.4](#Lurie). The proof of the second statement is spelled out [here](http://ncatlab.org/nlab/show/proper+model+category#HomotopyLimits).
+
++-- {: .num_remark }
+###### Remark
+
+Notice that a fibrant [[resolution]] of the diagram in the injective [[model structure on functors]] has _both_ morphisms be a fibration. So the first point above says that (exceptionally) something weaker than this is sufficient for comuting the [[homotopy limit]] of the diagram
+
+=--
+
+Due to prop. \ref{HomotopyPullbackByOrdinaryPullback} one typically computes homotopy pullbacks of a diagram by first forming a [[resolution]] of one of the two morphisms by a fibration and then forming an ordinary pullback. 
+
+If all objects involved are already fibrant, then such a resolution is provided by the [[factorization lemma]]. This says that a fibrant resoltuion of $B \to C$ is given by the total composite vertical morphism in 
+
 $$
   \array{
-     X \times_{Z}^h Y
-     &\to&\to& \to& Y
+    C^I \times_C B &\to& B
+    \\
+    \downarrow && \downarrow
+    \\
+    C^I &\to& C
+    \\
+    \downarrow
+    \\
+    C
+  }
+  \,,
+$$
+
+where $C \stackrel{\simeq}{\to} C^I \to C \times C$ is a [[path object]] for the [[fibrant object]] $C$ (For instance, when $C$ is a [[closed monoidal homotopical category]] then this can be taken to be the [[internal hom]] with an [[interval object]] $I$.)
+
+Then by prop. \ref{HomotopyPullbackByOrdinaryPullback} we have
+
++-- {: .num_cor }
+###### Corollary
+
+If in $A \to C \leftarrow B$ all three objects are [[fibrant objects]], then
+the homotopy pullback of this diagram is presented by the ordinary [[limit]] 
+in 
+
+
+$$
+  \array{
+     A \times_{C}^h B
+     &\to&\to& \to& B
      \\
      \downarrow
      &\searrow&&& 
@@ -81,33 +135,44 @@ $$
      \downarrow
      &
      &
-     Z^I
+     C^I
      &\stackrel{d_1}{\to}&
-     Z
+     C
      \\
      \downarrow
      &
      &
      \downarrow^{d_0}
      \\
-     X
+     C
      &
      \to
      &
-     Z
+     C
   }
   \,.
 $$
-or equivalently as the ordinary pullback
-$$\array{X\times_Z^h Y & \to & Z^I\\
-  \downarrow && \downarrow \\
-  X\times Y & \to & Z\times Z.}
-$$
-In good situations, this will be a (local) homotopy pullback of $X \to Z \leftarrow Y$.  This is the case when $C = $ [[Top]] with its canonical [[interval object]] $[0,1]$ (the [[unit interval]]), and also in many [[model category|model categories]] (when $X,Y,Z$ are fibrant) and [[category of fibrant objects|categories of fibrant objects]].  
 
-The canonical morphism $X \times_{Z} Y \to X \times_Z^h Y$ here is induced by the section $Z \to Z^I$.
+or, which is the same up to [[isomorphism]], as the ordinary [[pullback]]
+
+$$
+  \array{
+     A\times_C^h B & \to & C^I
+    \\
+    \downarrow && \downarrow 
+    \\
+     A\times B & \to & C\times C
+  }
+  \,.
+$$
+
+=--
+
+
+The canonical morphism $A \times_{C} B \to A \times_C^h B$ here is induced by the [[section]] $Z \to Z^I$.
 
 The homotopy pullback constructed in this way is an example of a _strict homotopy limit_, as mentioned at [[homotopy limit]].  In such a case, one can say that an arbitrary homotopy-commutative square
+
 $$
   \array{
    W & \to& Y
@@ -117,24 +182,52 @@ $$
    X &\to& Z
   }
 $$
+
 is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
 
 
-## Fiber sequences 
+A useful class of example of this is implied by the following:
+
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathcal{C}$ be a category of [[simplicial presheaves]] over some [[site]]
+equipped with a _local_ projective [[model structure on simplicial presheaves]] with respect to that site.
+
+Then an ordinary pullback of $A \to C \leftarrow B$ in $\mathcal{C}$ is a homotopy pullback already when one of the two morphisms is an objectwise [[Kan fibration]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The _global_ projective [[model structure on simplicial presheaves]] is [[right proper model category|right proper]]. So by prop. \ref{HomotopyPullbackByOrdinaryPullback} the ordinary pullback in question presents the homotopy pullback in the global structure. By the discussion at [[homotopy limit]] and [[Bousfield localization of model categories]], this presents the [[(∞,1)-pullback]] of the diagram of [[(∞,1)-presheaves]], and the fibrant replacement of that pullback in the _local_ model structure presents the [[(∞,1)-sheafification]] of this [[(∞,1)-presheaf]]. This is (essentially by definition, see [[(∞,1)-topos]]) a [[left exact functor|left exact]] [[(∞,1)-functor]] and hence preserves finite [[(∞,1)-limits]]. 
+
+=--
+
+## Examples
+
+### Fiber sequences 
 
 Of particular interest are consecutive homotopy pullbacks of point inclusions. These give rise to [[fiber sequence]]s and [[loop space object]]s.
 
 ## Related concepts
 
-* [[(infinity,1)-limit]]
-
 * [[homotopy limit]]
+
+* [[(∞,1)-pullback]], [[(∞,1)-limit]]
+
 
 ## References
 
 ### General
 
 See the references at _[[homotopy limit]]_ .
+
+A fairly comprehensive resource is the appendix of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+  {#Lurie}
 
 ### In terms of homotpy type theory
  {#ReferencesForHoTT}
