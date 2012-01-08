@@ -1,9 +1,24 @@
 
-A [[function]] $f$ on the [[complex plane|complex line]] $\mathbb{C}$ is _holomorphic_ if it is complex-[[differentiable function|differentiable]]. It is a famous theorem (due to Cauchy and Goursat) that all holomorphic functions are in fact [[analytic functions|analytic]] and hence [[smooth function|smooth]].
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[function]] $f$ on the [[complex plane|complex line]] $\mathbb{C}$ is _holomorphic_ if it is complex-[[differentiable function|differentiable]]. 
+
+## Properties
+
+It is a famous theorem (due to Cauchy and Goursat) that all holomorphic functions are in fact [[analytic functions|analytic]] and hence [[smooth function|smooth]].
 
 Similarly for functions on $\mathbb{C}^n$ or any [[complex manifold]].
 
-Compare [[analytic function]].
+## Related concepts
+
+* [[analytic function]]
+
+* [[meromorphic function]]
 
 
 [[!redirects holomorphic function]]
