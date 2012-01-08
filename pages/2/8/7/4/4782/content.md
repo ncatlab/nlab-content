@@ -1,6 +1,6 @@
 
 
-* [wikipedia entry](http://de.wikipedia.org/wiki/Shiing-Shen_Chern)
+* [wikipedia entry](http://en.wikipedia.org/wiki/Shiing-Shen_Chern)
 
 ## related entries
 
