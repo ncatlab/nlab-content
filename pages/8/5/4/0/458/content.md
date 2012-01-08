@@ -189,49 +189,61 @@ This appears for instance as ([MacLaneMoerdijk, corollary IX.3 4](#MacLaneMoerdi
 ### Relation to toposes -- localic reflection
  {#RelationToToposes}
 
-The notion of [[Grothendieck topos]] can be seen as a categorification of the notion of locale, by relating both notions to the notion of [[total category|lex totality]]: 
+The notion of [[Grothendieck topos]] can be seen as a [[categorification]] of the notion of locale, by relating both notions to the notion of [[total category|lex totality]]: 
 
-+-- {: .un_prop} 
++-- {: .num_prop} 
 ######Proposition 
-A poset $P$ is a frame if and only if the Yoneda embedding 
-$$y \colon P \to \mathbf{2}^{P^{op}}$$ 
-has a [[exact functor|left exact]] left adjoint. (Here the poset $\mathbf{2} = \{0 \leq 1\}$ is the base of enrichment for posets seen as enriched categories.) 
+
+A [[poset]] $P$ is a [[frame]] if and only if the [[Yoneda embedding]]
+ 
+$$
+  y \colon P \to \mathbf{2}^{P^{op}}
+$$ 
+
+has a [[exact functor|left exact]] [[left adjoint]]. (Here the poset $\mathbf{2} = \{0 \leq 1\}$ is the base of enrichment for posets seen as [[enriched categories]].) 
+
 =-- 
 
-The analogous result for toposes involves a bit of set theory: under ZFC + (exists strong inaccessible cardinal $\kappa$), the foundational assumption of Mac Lane in [[Categories for the Working Mathematician]], call a category _moderate_ if its set of morphisms has size $\kappa$. For example, $Set$ is moderate. 
+The analogous result for toposes involves a bit of 
+[[set theory]]: under [[ZFC]] + (exists [[strong inaccessible cardinal]] $\kappa$), the foundational assumption of MacLane in [[Categories for the Working Mathematician]], call a category _[[moderate category|moderate]]_ if its set of morphisms has size $\kappa$. For example, $Set$ is moderate. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition 
 ([Street](#Street)) 
-A moderate locally small category $C$ is a Grothendieck topos if and only if the Yoneda embedding 
+
+A moderate [[locally small category]] $C$ is a [[Grothendieck topos]] if and only if the 
+[[Yoneda embedding]] 
 $$y \colon C \to Set^{C^{op}}$$ 
-has a left exact left adjoint. 
+has a [[left exact functor|left exact]]  [[left adjoint]]. 
+
 =-- 
 
-These results emphasize frames/toposes as algebras, where the morphisms are left exact left adjoints. The right adjoints to such morphisms are called [[geometric morphism|geometric morphisms]], and emphasize locales/toposes as spaces. This analogy, which plays an important but mostly tacit role in [Joyal and Tierney](#JT), can be developed further along the following lines. 
+These results emphasize frames/toposes as algebras, where the morphisms are left exact left adjoints. The [[right adjoints]] to such morphisms are called [[geometric morphism|geometric morphisms]], and emphasize locales/toposes as [[spaces]]. This analogy, which plays an important but mostly tacit role in [Joyal and Tierney](#JT), can be developed further along the following lines. 
 
-The [[frame]] of opens $O(X)$ corresponding to a locale $X$ is naturally a [[site]]:
+The [[frame of opens]] $O(X)$ corresponding to a locale $X$ is naturally a [[site]]:
 
 +-- {: .num_defn}
 ###### Definition
 
-Given a locale $X$, with [[frame]] of open $O(X)$, say that a family of [[morphism]]s $\{U_i \to U\}$ in $O(X)$ is a [[cover]] if $U$ is the [[join]] of the $U_i$:
+Given a locale $X$, with [[frame of opens]] $O(X)$, say that a family of [[morphisms]] $\{U_i \to U\}$ in $O(X)$ is a [[cover]] if $U$ is the [[join]] of the $U_i$:
 
 $$
   U = \vee_i U_i
   \,.
 $$
+
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 This defines a [[coverage]] on $O(X)$ and hence makes it a [[site]].
+
 =--
 
 For instance ([MacLaneMoerdijk, section 5](#MacLaneMoerdijk)).
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $X$ a locale, write
@@ -241,11 +253,12 @@ $$
 $$
 
 for the [[sheaf topos]] over the category $O(X)$ equipped with the above canonical structure of a [[site]].
+
 =--
 
-Write [[Topos]] for the category of [[Grothendieck topos]]es and [[geometric morphism]]s.
+Write [[Topos]] for the category of [[Grothendieck toposes]] and [[geometric morphisms]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 This construction defines a [[full and faithful functor]] $Sh(-) : $ [[Locale]] $\to$ [[Topos]].
@@ -253,13 +266,14 @@ This construction defines a [[full and faithful functor]] $Sh(-) : $ [[Locale]] 
 
 This appears for instance as [MacLaneMoerdijk, section IX.5 prop 2](#MacLaneMoerdijk).
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
-A topos in the image of $Sh(-) : Loc \to Topos$ is called a [[localic topos]].
+A topos in the [[image]] of $Sh(-) : Loc \to Topos$ is called a _[[localic topos]]_.
+
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The functor $Sh(-) : Loc \to Topos$ has a [[left adjoint]] 
@@ -274,6 +288,7 @@ $$
   O(L(\mathcal{E})) := Sub_{\mathcal{E}}(*)
   \,.
 $$
+
 =--
 
 This appears for instance as [MacLaneMoerdijk, section IX.5 prop 3](#MacLaneMoerdijk).
@@ -313,19 +328,21 @@ $$
   Sub_{\mathcal{E}}(*) \simeq \tau_{\leq -1} \mathcal{E}
   \,.
 $$
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-A $(-1)$-[[truncated]] sheaf $X$ is one whose values over any object are either the singleton set, or the [[empty set]]
+A [[(-1)-truncated]] sheaf $X$ is one whose values over any object are either the [[(-2)-groupoid|singleton set]], or the [[empty set]]
 
 $$
   X(X) \in \{*, \emptyset\} = \subset Set
   \,.
 $$
 
-A [[monomorphism]] of sheaves is a [[natural transformation]] that is degreewise a monomorphism of sets. Therefore the [[subobject]]s of the terminal sheaf (that assigns the singleton set to every object) are precisely the sheaves of this form.
+A [[monomorphism]] of [[sheaves]] is a [[natural transformation]] that is degreewise a monomorphism of sets (an [[injection]]). Therefore the [[subobjects]] of the [[terminal object|terminal]] sheaf (that assigns the singleton set to every object) are precisely the sheaves of this form.
+
 =--
 
 We may think of a [[frame]] as a [[(0,1)-topos]]. Then localic reflection is reflection of 1-toposes onto $(0,1)$-toposes and is given by $(-1)$-truncation: for $X$ a locale, $Sh(X)$ the corresponding [[localic topos]] and $\mathcal{E}$ any Grothendieck topos we have a natural equivalence
