@@ -45,6 +45,8 @@ A function from $D \subseteq \mathbb{C}$ to $W$ is analytic if and only if it is
 
 * [[analytic geometry]]
 
+* [[holomorphic function]], [[meromorphic function]]
+
 * [[smooth function]]
 
 ## References
