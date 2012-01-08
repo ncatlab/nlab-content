@@ -25,15 +25,15 @@ The traditional name for a coverage, with the extra saturation conditions impose
 A related notion is that of [[basis for a Grothendieck topology]], which is similar to the notion of coverage, and similarly induces a Grothendieck topology, but assumes existence of [[pullback]]s and closure of covering families under these pullbacks.
 
 
-## Definition  {#Definition}
+## Definition  
+ {#Definition}
 
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
-
-A **coverage** on a category $C$ consists of a function assigning to each object $U\in C$ a collection of families of morphisms $\{f_i:U_i\to U\}_{i\in I}$, called _covering families_, such that
+A **coverage** on a [[category]] $C$ consists of a [[function]] assigning to each [[object]] $U\in C$ a collection of families of [[morphisms]] $\{f_i:U_i\to U\}_{i\in I}$, called _[[covering]] families_, such that
 
 * If $\{f_i:U_i\to U\}_{i\in I}$ is a covering family and $g:V\to U$ is a morphism, then there exists a covering family $\{h_j:V_j\to V\}$ such that each composite $g h_j$ factors through some $f_i$.
 
@@ -50,7 +50,7 @@ $$
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
