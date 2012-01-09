@@ -10,6 +10,12 @@ In as far as the simplicial $n$-[[simplex]] $\Delta^n$ (a [[simplicial set]]) is
 
 The **boundary** $\partial \Delta^n$ of the simplicial $n$-[[simplex]] $\Delta^n$ is the simplicial set _generated_ from the simplicial set $\Delta^n$ minus its unique non-degenerate cell in dimension $n$.
 
+This may equivalently be described to be degreewise the coequalizer
+
+$$\coprod_{0\le i\lt j\le n}\Delta[n-2]\rightrightarrows\coprod_{0\le i\le n}\Delta[n-1]\to \partial \Delta[n]$$
+
+defined by the (induced coproduct maps of the) simplicial identities $d_i d_j=d_{j-1} d_i$.
+
 Regarding $\Delta^n$ as the [[presheaf]] on on the [[simplex category]] that is [[representable functor|represented]] by $[n] \in Obj(\Delta)$, then this means that $\partial \Delta^n$ is the simplicial set generated from $\Delta$ minus the identity morphism $Id_{[n]}$.
 
 There is a canonical [[monomorphism]]
