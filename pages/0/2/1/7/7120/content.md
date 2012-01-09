@@ -1,4 +1,4 @@
-The __recollement__ situation is a diagram of six [[additive functors]] (see also "[[six operations]]")
+The __recollement__ situation is a diagram of six [[additive functors]] 
 
 $$
   \mathcal{A}' 
