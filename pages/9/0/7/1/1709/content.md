@@ -446,7 +446,9 @@ Then **$A$-cohomology with local coefficients** on $X$ is nothing but the $c$-tw
 
 ## Related entries
 
-* . <a hrf="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#TwistedCohomology">twisted cohomology</a> in [[cohesive (∞,1)-topos -- structures]]
+* [[relative cohomology]]
+
+* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#TwistedCohomology">twisted cohomology</a> in [[cohesive (∞,1)-topos -- structures]]
 
 ## References 
 
