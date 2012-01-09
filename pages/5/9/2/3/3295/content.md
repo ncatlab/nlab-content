@@ -109,12 +109,12 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    * &\stackrel{f_*\mathbf{c}}{\to}& \mathbf{H}(Y,A)
+    * &\stackrel{i^* \mathbf{c}}{\to}& \mathbf{H}(Y,A)
   }
   \,.
 $$
 
-Comparison shows that this identifies $\mathbf{H}^I_{\mathbf{c}}(i,f)$ as the cocycle $\infty$-groupoid of the $[f_*\mathbf{c}]$-[[twisted cohomology]] of $Y$ with coefficients in the [[homotopy fiber]] of $f$.
+Comparison shows that this identifies $\mathbf{H}^I_{\mathbf{c}}(i,f)$ as the cocycle $\infty$-groupoid of the $[i^* \mathbf{c}]$-[[twisted cohomology]] of $Y$ with coefficients in the [[homotopy fiber]] of $f$.
 
 See for instance the example of [twisted bundles on D-branes](#TwistedBundlesOnDBranes) below.
 
@@ -122,7 +122,7 @@ See for instance the example of [twisted bundles on D-branes](#TwistedBundlesOnD
 
 ### In chain complexes
 
-A special case of the general definition of [[cohomology]] is _[[abelian sheaf cohomology]]_, obtained by taking the coefficient objects $A$ and $B$ to be in the image of [[chain complexes]] under the [[Dold-Kan corresponence]].
+A special case of the general definition of [[cohomology]] is _[[abelian sheaf cohomology]]_, obtained by taking the coefficient objects $A$ and $B$ to be in the image of [[chain complexes]] under the [[Dold-Kan correspondence]].
 
 If moreover we restrict attention to the case that $B = *$, then by remark \ref{AsAPullback} the relative cohomology is given by the [[homotopy fiber]] of a morphism of cochain complexes $C^\bullet(X,A) \to C^\bullet(Y,A)$, presenting the morphism $\mathbf{H}(X, A) \to \mathbf{H}(Y,A)$. Such homotopy fibers are given for instance by dual [[mapping cone]] complexes. Accordingly, in the abelian case the $A$-cohomology on $X$ relative to $Y$ is the [[cochain cohomology]] of this mapping cone complex. This is the definition one finds in much traditional literature.
 
