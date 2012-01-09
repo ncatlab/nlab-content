@@ -88,7 +88,9 @@ Both statements are classical. They are reviewed for instance as [Lurie, prop. A
 +-- {: .num_remark }
 ###### Remark
 
-Notice that a fibrant [[resolution]] of the diagram in the injective [[model structure on functors]] has _both_ morphisms be a fibration. So the first point above says that (exceptionally) something weaker than this is sufficient for comuting the [[homotopy limit]] of the diagram
+Notice that a fibrant [[resolution]] of the diagram in the injective [[model structure on functors]] has _both_ morphisms be a fibration. So the first point above says that (in the special case of pullbacks) something weaker than this is sufficient for comuting the [[homotopy limit]] of the diagram.
+
+This can be explained in model-categorical terms by the fact that the category of cospans also has a [[Reedy model structure]] in which the fibrant objects are precisely those considered in the first point above, and that homotopy limits can equally well be computed using this model structure (specifically, the adjunction $Const \dashv Lim$ is [[Quillen adjunction|Quillen]] with respect to it).
 
 =--
 
