@@ -22,4 +22,4 @@ category: meta
 [[!redirects sandboxfan]]
 [[!redirects typoHunter]]
 [[!redirects Spelling freak]]
-[[!redirects Elisabeth Constantine]]
+[[!redirects adjoing->adjoint]]
