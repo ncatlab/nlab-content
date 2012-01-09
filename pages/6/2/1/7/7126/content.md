@@ -1,1 +1,8 @@
-ORAN
+## Idea
+
+Analytic variety is an analogue of an algebraic variety in analytic context; it is more general than an analytic manifold in allowing the singularities. 
+While algebraic varieties are the loci of zeros of some set of polynomials, the analytic varieties are loci of zeros of some set of analytic functions. By Chow's theorem every complex projective analytic variety is algebraic; this is based on the machinery of Weierstrass ([[Weierstrass preparation theorem]] etc.).
+
+## Literature
+
+* P. Griffiths, J. Harris, _Principles of algebraic geometry_
