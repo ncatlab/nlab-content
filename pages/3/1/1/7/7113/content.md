@@ -53,6 +53,9 @@ Non-archimean fields include
 
 * [[p-adic numbers]].
 
+## Related concepts
+
+* [[archimedean valued field]]
 
 [[!redirects archimedean field]]
 [[!redirects archimedean fields]]
@@ -60,3 +63,8 @@ Non-archimean fields include
 [[!redirects non-archimedean fields]]
 [[!redirects nonarchimedean field]]
 [[!redirects nonarchimedean fields]]
+
+[[!redirects Archimedean field]]
+[[!redirects Archimedean fields]]
+[[!redirects non-Archimedean field]]
+[[!redirects non-Archimedean fields]]
