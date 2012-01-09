@@ -1,22 +1,25 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ##Idea##
 
-In as far as the simplicial $n$-[[simplex]] $\Delta^n$ (a [[simplicial set]]) is a combinatorial model for the $n$-ball, its _boundary_ $\partial \Delta^n$ is a combinatorial model for the $(n-1)$-[[sphere]].
+In as far as the simplicial $n$-[[simplex]] $\Delta^n$ (a [[simplicial set]]) is a combinatorial model for the $n$-[[ball]], its _[[boundary]]_ $\partial \Delta^n$ is a combinatorial model for the $(n-1)$-[[sphere]].
 
 ##Definition##
 
-The **boundary** $\partial \Delta^n$ of the simplicial $n$-[[simplex]] $\Delta^n$ is the simplicial set _generated_ from the simplicial set $\Delta^n$ minus its unique non-degenerate cell in dimension $n$.
+The **boundary** $\partial \Delta^n$ of the simplicial $n$-[[simplex]] $\Delta^n$ is the [[simplicial set]] _generated_ from the simplicial set $\Delta^n$ minus its unique non-degenerate cell in dimension $n$.
 
-This may equivalently be described to be degreewise the coequalizer
+This may equivalently be described to be degreewise the [[coequalizer]]
 
-$$\coprod_{0\le i\lt j\le n}\Delta[n-2]\rightrightarrows\coprod_{0\le i\le n}\Delta[n-1]\to \partial \Delta[n]$$
+$$
+  \coprod_{0\le i\lt j\le n}\Delta[n-2]\rightrightarrows\coprod_{0\le i\le n}\Delta[n-1]\to \partial \Delta[n]
+$$
 
-defined by the (induced coproduct maps of the) simplicial identities $d_i d_j=d_{j-1} d_i$.
+defined by the (induced [[coproduct]] maps of the) [[simplicial identities]] $d_i d_j=d_{j-1} d_i$.
 
-Regarding $\Delta^n$ as the [[presheaf]] on on the [[simplex category]] that is [[representable functor|represented]] by $[n] \in Obj(\Delta)$, then this means that $\partial \Delta^n$ is the simplicial set generated from $\Delta$ minus the identity morphism $Id_{[n]}$.
+Regarding $\Delta^n$ as the [[presheaf]] on the [[simplex category]] that is [[representable functor|represented]] by $[n] \in Obj(\Delta)$, then this means that $\partial \Delta^n$ is the simplicial set generated from $\Delta$ minus the [[identity]] morphism $Id_{[n]}$.
 
 There is a canonical [[monomorphism]]
 
@@ -27,14 +30,14 @@ $$
 
 the _boundary inclusion_ .
 
-The [[geometric realization]] of this is the inclusion of the $(n-1)$-sphere as the boundary of the $n$-disk.
+The [[geometric realization]] of this is the inclusion of the $(n-1)$-[[sphere]] as the [[boundary]] of the $n$-[[disk]].
 
 Simplicial boundary inclusions are one part of the [[cofibrantly generated model category|cofibrant generation]] of the classical [[model structure on simplicial sets]].
 
 
 ##Examples##
 
-For low $n$ the boundaries of $n$-simplices look like (see also the illustrations at [[oriental]])
+For low $n$ the boundaries of $n$-simplices look as follows (see also the illustrations at [[oriental]])
 
 * $\partial \Delta^0 = \emptyset$;
 
@@ -63,6 +66,9 @@ For low $n$ the boundaries of $n$-simplices look like (see also the illustration
   $
 
 
-##Remarks##
+## Related concepts
 
 * the closely related concept is that of [[horn]].
+
+[[!redirects boundaries of simplicies]]
+
