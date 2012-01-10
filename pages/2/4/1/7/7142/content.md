@@ -1,4 +1,7 @@
-[[!redirects Kan complex]]
+
+# Kan objects
+* table of contents
+{: toc}
 
 ## Idea
 
@@ -34,5 +37,8 @@ Note that this condition -called **internal horn-filler condition**- coincides w
 
 =--
 
+
+[[!redirects Kan object]]
+[[!redirects Kan objects]]
 
 category: groupoid, ∞-groupoid, simplicial object
