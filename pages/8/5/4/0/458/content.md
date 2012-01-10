@@ -30,11 +30,11 @@ One motivation for locales is that since they take the notion of open subspace a
 Another advantage of locales is that they are better-behaved than topological spaces in alternative [[foundations of mathematics]], including mathematics without the [[axiom of choice]], more generally [[constructive mathematics]], or mathematics [[internalization|internal]] to an arbitrary [[topos]].  For example, constructively the topological space $[0,1]$ need not be [[compact space|compact]], but the _locale_ $[0,1]$ is always compact (in a suitable sense).  It follows that the locale $[0,1]$, and hence also the locale $R$ of real numbers, is not necessarily spatial.  When it fails to be spatial, because there are "not enough real numbers," the locale or real numbers is generally a better-behaved object than the topological space of real numbers.
 
 
-## Definition
+## Definitions
 
 Recall that a **[[frame]]** $A$ is a [[partial order|poset]] with all [[join|joins]] and all finite [[meet|meets]] which satisfies the _infinite distributive law_:
 $$ x \wedge (\bigvee_i y_i) = \bigvee_i (x\wedge y_i) .$$
-A **frame homomorphism** $\phi\colon A\to B$ is a function which preserves finite meets and arbitrary joins.  Frames and frame homomorphisms form a [[category]] [[Frm]].
+A **frame [[homomorphism]]** $\phi\colon A\to B$ is a function which preserves finite meets and arbitrary joins.  Frames and frame homomorphisms form a [[category]] [[Frm]].
 
 Note: By the [[adjoint functor theorem]] (AFT) for posets, a frame also has all meets (at least assuming that it is a [[small set]], or more generally that we allow [[predicative mathematics|impredicative quantification]] over it), but a frame homomorphism need not preserve them.  Similarly, by the AFT, a frame is automatically a [[Heyting algebra]], but again a frame homomorphism need not preserve the [[Heyting implication]].
 
@@ -45,7 +45,7 @@ $$
 $$
 That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open subspaces of $X$", and a **[[continuous map]]** $f\colon X \to Y$ of locales is a frame homomorphism $f^*\colon O(Y) \to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
 
-It is also possible to think of a continuous map $f\colon X \to Y$ as a map of [[posets]] $f\colon O(X) \to O(Y)$: a [[function]] that preserves all [[meets]] (and therefore is [[monotone function|monotone]] and has a [[left adjoint]] $f^*\colon O(Y) \to O(X)$) and such that the left adjoint $f^*$ preserves all finite meets.  This has the arrow pointing in the "right" direction, at the cost of a less direct definition.  (In [[predicative mathematics]], we must explicitly add into this definition that $f$ has a left adjoint; compare the definition of [[geometric morphism]] one level up.)
+It is also possible to think of a continuous map $f\colon X \to Y$ as a map of [[posets]] $f_*\colon O(X) \to O(Y)$: a [[function]] that preserves all [[meets]] (and therefore is [[monotone function|monotone]] and has a [[left adjoint]] $f^*\colon O(Y) \to O(X)$) and such that the left adjoint $f^*$ preserves all finite meets.  This has the arrow pointing in the "right" direction, at the cost of a less direct definition.  (In [[predicative mathematics]], we must explicitly add into this definition that $f_*$ has a left adjoint; compare the definition of [[geometric morphism]] one level up.)
 
 This category is naturally enhanced to a [[2-category]]:
 +-- {: .num_defn}
@@ -61,7 +61,34 @@ The [[2-category]] [[Locale]] has
 =--
 (See for instance [Johnstone, C1.4, p. 514](#Johnstone).)
 
-Since [[parellel morphisms|parallel]] $2$-morphisms are equal, this [[2-category]] is in fact a [[(1,2)-category]]: a [[Poset]]-[[enriched category]].
+Since [[parallel morphisms|parallel]] $2$-morphisms are equal, this [[2-category]] is in fact a [[(1,2)-category]]: a [[Poset]]-[[enriched category]].
+
+
+## Subsidiary notions
+{#Subsidiaries}
+
+### Open and closed subspaces
+
+Given a locale $X$, the elements of the frame $O(X)$ are traditionally thought of as being the [[open subspaces]] of $X$ and are therefore called the __opens__ of $X$.  However, one may equally well view them as the [[closed subspaces]] of $X$ and call them the __closeds__ of $X$.  When viewed as closeds, the [[opposite relation|opposite]] containment relation is used; thus $O(X)$ is the __frame of opens__ of $X$, while the [[opposite poset]] $O(X)^{op}$ is the __coframe of closeds__ of $X$.
+
+An open may be thought of as a potentially *verifiable* property of a hypothetical point of the space $X$.  Thus we may verify the [[intersection]] of two opens by verifying both properties, and we may verify the [[union]] of any family of opens by verifying at least one of them; but we may not necessarily verify the intersection of infinitely many opens, because this would require us to do an infinite amount of work.  (The [[meet]] of an arbitrary family of opens does exist, but the construction is impredicative, and it does not behave like an intersection.)
+
+[[de Morgan duality|Dually]], a closed may be thought of as a potentially *refutable* property.  Thus we may refute the union of two closeds by refuting both of them, and we may refute the intersection of any family of closeds by refuting at least one of them; but we may not necessarily refute the union of infinitely many closeds.  (Again, the [[join]] of an arbitrary family of closeds does not behave like a union.)
+
+If one views an element of $O(X)$ as a [[subspace]] of $X$, one usually means to view it as an open subspace, but we have seen that one may also view it as a closed subspace.  This is given by two different maps (one covariant, one contravariant) from $O(X)$ to the lattice of subspaces of $X$.  See [[sublocale]] for further discussion.
+
+
+### Points
+
+As a locale, the __abstract [[point]]__ is the locale $q$ whose frame of opens is the frame of [[truth values]] (classically $\{\bot \lt \top\}$).  This is the [[terminal object]] in $Locale$, since we must have (for $f\colon X \to 1$) $f^*(\top) = \top_X$ and $f^*(\bot) = \bot_X$ (and most generally $f^*(p) = \bigvee \{\top_X \;|\; p\}$, since $p = \bigvee \{\top \;|\; p\}$).
+
+Given a locale $X$, a __concrete [[point]]__ of $X$ may be defined in any of the following equivalent ways:
+
+1.  A point of $X$ is a [[continuous map]] $f\colon 1 \to X$;
+2.  Unravelling this in terms of $f^*\colon O(X) \to O(1)$ and viewing this as a [[characteristic function]], a point of $X$ is a [[completely prime filter]] in $O(X)$;
+3.  Unravelling (1) in terms of $f_*\colon O(1) \to O(X)$, which classically (using [[excluded middle]]) is determined by $f_*(\bot)$, a point of $X$ is [[prime element]] of $O(X)$.
+
+Definition (3) is simpler than (2), being an element of $O(X)$ satisfying a finitary condition rather than a subset of $O(X)$ satisfying an infinitary condition; however, it doesn\'t work in [[constructive mathematics]], which provides much (but by no means all) of the motivation for studying locales).
 
 
 ## Properties
