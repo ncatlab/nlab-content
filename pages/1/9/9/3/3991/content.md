@@ -47,7 +47,7 @@ A ([[set theory|set-theoretic]]) **model** or **interpretation** $M$ of a signat
 
 * To each function symbol $f$ of type $\langle s_1, \ldots, s_n \rangle \to s$ a [[function]] $M(f): M(s_1) \times \ldots \times M(s_n) \to M(s)$. In the case of constants of type $s$, the empty product on the left is taken to be a terminal or 1-element set $1$, whose element needs no name but is often given a generic name like '$*$'. 
 
-More generally a signature may be interpreted in any [[category]] $C$ other than [[Set]]. See 
+More generally a signature may be interpreted in other [[category|categories]] $C$ besides [[Set]]; for this it is reasonable to suppose that $C$ is at least a [[regular category]]. See also 
 
 * [[categorical semantics]].
 
