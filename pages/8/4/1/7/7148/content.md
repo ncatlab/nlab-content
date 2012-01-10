@@ -1,0 +1,8 @@
+
+Some unrelated concepts that go by the term _frame_:
+
+* [[frame]] (in [[topos theory]])
+
+* [[frame of a vector space]] / [[frame bundle]]
+
+category: disambiguation
