@@ -35,9 +35,9 @@ Moreover, $e$ is also the split coequalizer of its [[kernel pair]], if the latte
 
 The "ur-example" of a split coequalizer is the following.  Let $A$ be an [[algebra for a monad|algebra]] for the [[monad]] $T$ on the category $C$, with structure map $a\colon T A \to A$.  Then the diagram
 
-$$ T^2 A \;\underoverset{\mu_A }{T a}{\rightrightarrows}\; T A \overset{a}{\rightarrow} A $$
+$$ T^2 A \;\underoverset{\mu_A }{T a}{\rightrightarrows}\; T A \overset{a}{\rightarrow} A\, , $$
 
-is a split coequalizer in the [[Eilenberg-Moore category|category of]] $T$-algebras.  The splittings are given by $s = \eta_A \colon A \to T A$ and $t = \eta_{T A} \colon T A \to T^2 A$.  (Here $\mu$ and $\eta$ are the multiplication and unit of the monad $T$.)
+called the [[canonical presentation]] of the algebra $(A,a)$, is a split coequalizer in $C$ (and a [[reflexive coequalizer]] in the [[Eilenberg-Moore category|category of]] $T$-algebras).  The splittings are given by $s = \eta_A \colon A \to T A$ and $t = \eta_{T A} \colon T A \to T^2 A$.  (Here $\mu$ and $\eta$ are the multiplication and unit of the monad $T$.)
 
 This split coequalizer figures prominently in Beck's [[monadicity theorem]].
 
