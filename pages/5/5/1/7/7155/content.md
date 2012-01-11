@@ -1,0 +1,5 @@
+Given indeterminates $t_1,\ldots, t_k$ a Laurent polynomial over a field $F$ is a polynomial in $t_1,\ldots,t_k,t_1^{-1},\ldots,t_k^{-1}$ over $F$. 
+
+Compare [[Laurent series]]. 
+
+[[!redirects Laurent polynomials]]
