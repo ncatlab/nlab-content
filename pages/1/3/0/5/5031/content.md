@@ -73,6 +73,13 @@ However, if we regard $Top$ as a [[(1,2)-category]] where the 2-cells are inequa
 
 There are similar full embeddings $ShTopos \hookrightarrow Sh 2 Topos$ and $ShTopos \hookrightarrow Sh(n,1)Topos$ of sheaf (1-)toposes into [[2-sheaf]] [[2-topos]]es and sheaf [[(n,1)-topos]]es for $2\le n\le \infty$.
 
+### From locally presentable categories to toposes
+ {#AdjunctionToLocallyPresentable}
+
+There is a canonical [[forgetful functor]] $ U : Topos \to$ [[Cat]] that lands, by definition, in the sub-2-category of [[locally presentable categories]] and [[functors]] which preserve all limits / are [[right adjoints]]. 
+
+This [[2-functor]] has a [[2-adjunction|right 2-adjoint]] ([Bunge-Carboni](#BungeCarboni)).
+
 
 
 ### Limits and colimits 
@@ -280,7 +287,12 @@ Limits and colimits of toposes are discussed in 6.3.2-6.3.4 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
  {#Lurie}
 
-There fore [[(∞,1)-topos]]es, but the statements are verbatim true also for ordinary toposes (in the [[(2,1)-category]] version of $Topos$).
+There this is discussed for for [[(∞,1)-topos]]es, but the statements are verbatim true also for ordinary toposes (in the [[(2,1)-category]] version of $Topos$).
+
+The adjunction between toposes and locally presentable categories is discussed in 
+
+* [[Martha Bunge]], Carboni, _The symmetric topos_, Journal of Pure and Applied Algebra 105:233-249, (1995)
+ {#BungeCarboni}
 
 category: category
 
