@@ -107,7 +107,14 @@ $$
   G//H \to \mathbf{B}H \stackrel{i}{\to} \mathbf{B}G
 $$
 
-for $i$ any morphism between two [[connected]] objects, as indicated. 
+for $i$ any morphism between two [[connected]] objects, as indicated, hence $\Omega i : H \to G$ any morphism of [[∞-group]] objects.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For $X$ an object equipped with a $G$-[[action]] and $f : Y \to X$ any morphism, the higher Klein geometry induced by "the shape $Y$ in $X$" is given by taking $i : H \to G$ be the [[stabilizer ∞-group]] $Stab(f) \to G$ of $f$ in $X$.
 
 =--
 
