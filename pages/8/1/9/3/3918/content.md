@@ -17,9 +17,9 @@ $$
  A u(x) = \frac{1}{(2 \pi)^n} \int \int e^{i (x-y) \theta} a(x, y, \theta) u(y) dy d\theta
 $$
 
-If $\mathcal{F}$ denotes the [[Fourier transform]] a short hand notation for this definition is $A u = \mathcal{F}^{-1} (a \, \mathcal{F}u)$, put in words: Fourier transform $u$, multiply with $a$ and transform back.
+where the function $a$, called the **symbol** of the pseudodifferential operator $A$, belongs to the space $S^m_{\rho, \delta}(X \times X \times \mathbb{R}^n)$ defined below.
 
-The function $a$ is called the **symbol** of the pseudodifferential operator $A$. If one uses the symbol space defined below, then $a$ is assumed to be an element of $S^m_{\rho, \delta}(X \times X \times \mathbb{R}^n)$.
+If $\mathcal{F}$ denotes the [[Fourier transform]] a short hand notation for this definition is $A u = \mathcal{F}^{-1} (a \, \mathcal{F}u)$, put in words: Fourier transform $u$, multiply with $a$ and transform back.
 
 ##every differential operator is a pseudodifferential operator
 We restrict ourselfes to one dimension for simplicity, let $D := -i \frac{d}{dx}$ and write a differential operator $P$ as
@@ -67,5 +67,7 @@ Symbols of order $- \infty$ are often called **smoothing** and their operators *
 An elementary and short introduction can be found here:
 
 * Xavier Saint Raymond: _Elementary Introduction to the Theory of Pseudodifferential Operators_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0847.47035&format=complete))
+* Sylvain Carpentier, Alberto De Sole, [[Victor G. Kac]], _Some algebraic properties of differential operators_, [arxiv/1201.1992](http://arxiv.org/abs/1201.1992)
+* [[Lars Hörmander]], _The analysis of linear partial differential operators_, in 4 vols.: I. Distribution theory and Fourier analysis, II. Differential operators with constant coefficients, III. Pseudo-differential operators, IV. Fourier integral operators.
 
 [[!redirects pseudodifferential operators]]
