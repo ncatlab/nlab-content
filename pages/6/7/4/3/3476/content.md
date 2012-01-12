@@ -61,13 +61,13 @@ Note that we do not necessarily have $q f = p$, so this is not just simply a pol
 
 In [[type theory]], W-types are introduced by giving explicit constructors and destructors, a.k.a. introduction and elimination rules.  If the type theory is *extensional*, i.e. [[identity type|identities]] have unique proofs and (dependent) function types are extensional ($f=g$ if and only if $f(x)=g(x)$ for all $x$), then this is more or less equivalent to the categorical version given above.  The type theories that are the [[internal logic]] of familiar kinds of categories are all extensional in this sense.
 
-The main distinction from the naive categorical theory above is that the map $f$ must be assumed to be a [[display map]], i.e. to exhibit $A$ as a [[dependent type]] over $B$, in order that the dependent product $\Pi_f$ be defined.  In the case of dependent polynomial functors, $q$ must also be a display map in order to define $\Sigma_q$.  (Actually, using adjointness, one can still define the W-type even if $q$ is not a display map, but its properties are not as good.  This extra generality is important, however; for example, [[identity type]]s arise as this more general kind of W-type.)
+The main distinction from the naive categorical theory above is that the map $f$ must be assumed to be a [[display map]], i.e. to exhibit $A$ as a [[dependent type]] over $B$, in order that the dependent product $\Pi_f$ be defined.  In the case of dependent polynomial functors, $q$ must also be a display map in order to define $\Sigma_q$.  (Actually, using adjointness, one can still define the W-type even if $q$ is not a display map, but its properties are not as good.  This extra generality is important, however.  For example, [[identity type]]s arise as this more general kind of W-type; see [this blog post](http://homotopytypetheory.org/2011/04/18/whats-special-about-identity-types/).)
 
 +--{: .query}
 [[Mike Shulman]]: Is the term "W-type" still used in this generality?  Or are they just called "inductive types"?
 =--
 
-However, in the absence of extensionality (i.e. in *intensional* type theory), W-types cannot be proven to be initial algebras for the corresponding polynomial endofunctor.  In particular, the constructors cannot be proven to be injective.  This applies already for the natural numbers: in ordinary Martin-Lof type theory the successor function on natural numbers cannot be proven to be injective.
+Note also that in [[intensional type theory]], a W-type is only an initial algebra with respect to propositional equality, not definitional equality.  In particular, the constructors are injective only propositionally, not definitionally.  This applies already for the natural numbers.
 
 ## Related concepts
 
