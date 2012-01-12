@@ -66,6 +66,9 @@ classes of descent data. This result is used to construct the twisted quantizati
 * [webpage](http://www.math.bgu.ac.il/~amyekut/)
 
 
+[[!redirects Amnon Yekutieli]]
 [[!redirects amnon yekutieli]]
 [[!redirects A. Yekutieli]]
+[[!redirects Amnon+Yekutieli]]
+
 category: people
