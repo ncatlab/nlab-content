@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -12,11 +23,13 @@ The notion of smooth $(\infty,1)$-algebra is the analog in [[higher category the
 
 A **smooth $\infty$-algebra** is an [[∞-algebra over an (∞,1)-algebraic theory]] $T$ for $T$ the ordinary [[Lawvere theory]] of [[smooth algebra]]s.
 
+## Properties
+
+The [[model structure on simplicial algebras]] on [[simplicial C-∞-ring]] is a [[presentable (infinity,1)-category|presentation]] for smooth $(\infty,1)$-algebras.
 
 ## Applications
 
-Smooth $(\infty,1)$-algebras appear as the algebras of functions in the theory 
-of [[derived smooth manifold]]s.
+Smooth $(\infty,1)$-algebras appear as the algebras of functions in [[derived differential geometry]], for instance on[[derived smooth manifolds]].
 
 [[!redirects smooth (∞,1)-algebra]]
 [[!redirects smooth (∞,1)-algebras]]
