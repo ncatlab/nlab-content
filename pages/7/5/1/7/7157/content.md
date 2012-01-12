@@ -1,0 +1,62 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _higher Segal space_ is a weakening of the notion of [[complete Segal space]]. As complete Segal spaces are models for [[(∞,1)-categories]], so higher Segal spaces are supposed to be models for [[(∞,n)-categories]] for higher $n$.
+
+## Definition
+
+### Lurie
+
+In ([Lurie, section 1.3](#Lurie)) a recursive definition is given: a (complete) $(n+1)$-Segal space is a [[complete Segal space]] object in an [[(∞,1)-category]] of complete $n$-Segal spaces.
+
+This is discussed at _[[n-fold complete Segal space]]_.
+
+### Dyckerhoff-Kapranov
+
+In ([DyckerhoffKapranov](#DyckerhoffKapranov)) a 2-Segal space is defined to be a simplicial space with a higher analog of the weak composition operation known from [[Segal spaces]].
+
+Let $X$ be a [[simplicial topological space]] or [[bisimplicial set]] or generally a [[simplicial object]] in a suitable [[simplicial model category]].
+
+
+For $n \in \mathbb{B}$ let $P_n$ be the $n$-[[polygon]]. For any [[triangulation]] $T$ of $P_n$ let $\Delta^T$ be the corresponding [[simplicial set]]. Regarding $\Delta^n$ as the cellular [[boundary]] of that polygon provides a morphism of simplicial sets $\Delta^T \to \Delta^n$.
+
+Say that $X$ is a **2-Segal object** if for all $n$ and all $T$ as above, the induced [[morphisms]]
+
+$$
+  X_n := [\Delta^n, X]
+  \to 
+  X_T := [\Delta^T,X]
+$$
+
+are [[weak equivalences]].
+
+
+
+## References
+
+* [[Jacob Lurie]], _$(\infty,2)$-categories and the Goddwillie calculus I_ ([pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf))
+  {#Lurie}
+
+The notion of 2-Segal space above is due to [[Mikhail Kapranov]] and Tobias Dyckerhoff.
+
+* Tobias Dyckerhoff, _Higher Segal spaces _, talk at  Yale (2011) ([video](http://www.mathnet.ru/php/presentation.phtml?presentid=3718&option_lang=eng))
+ {#DyckerhoffKapranov}
+
+[[!redirects higher Segal space]]
+[[!redirects higher Segal spaces]]
+
+[[!redirects higher complete Segal space]]
