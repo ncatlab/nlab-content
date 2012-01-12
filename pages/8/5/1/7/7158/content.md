@@ -1,0 +1,6 @@
+
+For the moment see [[polyhedron]].
+
+(...)
+
+[[!redirects polygons]]
