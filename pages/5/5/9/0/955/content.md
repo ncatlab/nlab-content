@@ -25,13 +25,15 @@ Given a [[category]] $\mathcal{T}$ of "test objects", one can consider "things" 
 
 +-- {: .num_defn #IsbellEnvelope}
 ###### Definition
-Let $\mathcal{T}$ be an [[small category|essentially small]] category.  The _Isbell envelope_ of $\mathcal{T}$, written $E(\mathcal{T})$, is the category whose objects are triples $(P,F,c)$ where
+Let $\mathcal{T}$ be an [[small category|essentially small]] category.  Then the _Isbell envelope_ of $\mathcal{T}$, written $E(\mathcal{T})$, is defined as follows. 
+An object is a triple $X = (P,F,c)$ where
 
 1. $P$ is a [[contravariant functor]] $\mathcal{T} \to Set$ (a [[presheaf]]),
 2. $F$ is a [[covariant functor]] $\mathcal{T} \to Set$ (a [[copresheaf]]),
 3. $c : P \times F \to \mathcal{T}(-,-)$ is a [[natural transformation]] of bifunctors $\mathcal{T}^{op} \times \mathcal{T} \to $ [[Set]].
 
-and where a morphism $X \to Y$ is a pair of natural transformations $(\alpha,\beta)$ with $\alpha : P_X \to P_Y$ $\beta : F_Y \to F_X$ which satisfy the relation $c_X(-,\beta -) = c_Y(\alpha -,-)$.
+(We conventionally write $X = (P_X, F_X, c_X)$.)
+A morphism $X \to Y$ is a pair of natural transformations $(\alpha,\beta)$ with $\alpha : P_X \to P_Y$ $\beta : F_Y \to F_X$ which satisfy the relation $c_X(-,\beta -) = c_Y(\alpha -,-)$. 
 =--
 
 The requirement that $\mathcal{T}$ be essentially small implies that the collections of natural transformations form sets, and thus that this is a [[locally small category]].
