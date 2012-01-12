@@ -226,6 +226,9 @@ Next, in order to handle $\infty T Alg$ and to compare it to other known structu
 
   Spaces locally ringed in such smooth $\infty$-algebras are called _derived smooth manifolds_ .
 
+## Examples
+
+* [[derived differential geometry]]
 
 ## References
 
@@ -269,3 +272,9 @@ The article
 * [[nLab:David Spivak]], _Derived smooth manifolds_ ([arXiv:0810.5174](http://arxiv.org/abs/0810.5174))
 
 discussed the $\infty$-version of [[nLab:smooth algebra|C-oo-rings]] -- the algebras over the Lawvere theory [[nLab:CartSp]] -- and the corresponding locally ringed spaces: [[nLab:derived smooth manifold]]s.
+
+Some of the above material is taken from the seminar notes
+
+* [[Urs Schreiber]], _[[schreiber:Seminar on derived differential geometry]]_ (2010)
+
+[[!redirects derived geometries]]
