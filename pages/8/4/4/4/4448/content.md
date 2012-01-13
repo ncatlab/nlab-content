@@ -33,7 +33,7 @@ The Freyd cover is sometimes known as the **Sierpinski cone** or **scone**, beca
 
 ### Relation to the initial topos
 
-One of the first applications of the Freyd cover was to deduce facts about the initial topos (initial with respect to [[logical morphism|logical morphisms]]). They were originally proved by syntactic means; the conceptual proofs of the lemma and theorem below are due to Freyd. 
+One of the first applications of the Freyd cover was to deduce facts about the [[initial topos]] (initial with respect to [[logical morphism|logical morphisms]] --- also called the *free topos*). They were originally proved by syntactic means; the conceptual proofs of the lemma and theorem below are due to Freyd. 
 
 +-- {: .num_lemma}
 ###### Lemma 
@@ -66,6 +66,15 @@ Since $\mathcal{T}$ is initial, $\pi$ is a retraction for the unique logical fun
 
 Finally, since $\mathcal{T}(1, -)$ is a retract of a functor $\widehat{\mathcal{T}}(1, i-)$ that preserves finite colimits (by the lemma, and the fact that the logical functor $i$ preserves finite colimits), it must also preserve finite colimits. 
 =--
+
+This is important because it implies that the [[internal logic]] of the free topos (which is exactly "intuitionistic higher-order logic") satisfies the following properties:
+
+* The *disjunction property*: if "P [[or]] Q" is provable in the empty [[context]], then either P is so provable, or Q is so provable.  (Note that this clearly fails in the presence of [[excluded middle]].)
+
+* The *existence property*: if "there exists an $x\in A$ such that $P(x)$" is provable in the empty context, then there exists a [[global element]] $x\colon 1\to A$ such that $P(x)$ is provable in the empty context.  (Again, this is clearly a [[constructive mathematics|constructivity]] property.)
+
+* The *negation property*: False is not provable in the empty context.
+
 
 ### As a local topos
  {#AsALocalTopos}
