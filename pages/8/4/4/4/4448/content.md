@@ -100,7 +100,11 @@ See also section C3.6 of
 
 Some of the above material is taken from 
 
-* [[Tom Leinster]], [reply at MathOverflow](http://mathoverflow.net/questions/12136/freyd-cover-of-a-category) 
+* [[Tom Leinster]], [reply at MathOverflow](http://mathoverflow.net/questions/12136/freyd-cover-of-a-category)
+
+The argument given above for properties of the free topos is an amplification of
+
+* [[Peter Freyd|Freyd]] and Scedrov, [[Categories, Allegories]], 1.(10)31 (page 192)
 
 [[!redirects scone]]
 [[!redirects Sierpinski cone]]
