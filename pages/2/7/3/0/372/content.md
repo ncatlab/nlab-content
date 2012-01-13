@@ -49,6 +49,7 @@ An initial object $\emptyset$ is called **strict** if any morphism $x\to \emptys
 
 * [[bottom type]]
 
+* [[initial object in an (∞,1)-category]]
 
 [[!redirects initial object]]
 [[!redirects initial objects]]
