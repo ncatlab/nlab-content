@@ -1,0 +1,35 @@
+## Idea
+
+The notion of groupoid object is a horizontal categorification of a [[group object]].
+
++-- {: .un_defn}
+###### Definition
+
+Let $C$ be a category with finite limits, let $\Grpd$ be the category of small groupoids.
+
+A **groupoid object in** $C$ is defined to be a functor $F:C\to \Grpd$ such that
+
+1. there is an object $g_0\in C_0$ such that there is a fuctorial identification $F(c)_0\simeq C(c,g_0)$
+
+1. there is an object $g_1\in C_0$ such that there is a fuctorial identification $F(c)_1\simeq C(c,g_1)$
+=--
+
+
+## Examples
+
+A groupoid in $\Top$ is a [[topological groupoid]].
+
+A groupoid in $\Diff$ is a [[Lie groupoid]].
+
+
+## Related concepts
+
+* [[monoid]], [[monoid object]], [[monoid object in an (∞,1)-category]]
+
+* [[group]], **group object**, [[group object in an (∞,1)-category]]
+
+* [[groupoid]], [[groupoid object]], [[groupoid object in an (∞,1)-category]]
+
+* [[infinity-groupoid]], [[infinity-groupoid object]], [[infinity-groupoid object in an (∞,1)-category]]
+
+* [[ring]], [[ring object]]
