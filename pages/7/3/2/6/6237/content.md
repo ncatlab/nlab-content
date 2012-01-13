@@ -12,7 +12,7 @@ There are many notions of a character for an algebraic structure, often topologi
 
 In [[representation theory]], one defines the character of the representation $\rho: G\to End(V)$ to be the function on $G$ (or equivalently on the set of conjugacy classes of elements in $G$) given by $g\mapsto Tr \rho(g)$, whenever the trace in $V$ makes sense.
 
-There is a different notion of an _infinitesimal character_ in Harish-Chandra theory and also a notion of the _formal character_.
+There is a different notion of an _infinitesimal character_ in [[Harish-Chandra module|Harish-Chandra theory]] and also a notion of the _formal character_.
 
 There are important formulas concerning characters in representation theory, like Weyl character formula, Kirillov character formula, Demazure character formula and so on. 
 
