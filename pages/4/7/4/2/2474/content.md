@@ -99,6 +99,9 @@ sends a commutative subalgebra $C \subset A$ to $f(C) \subset B$.
 $C^*$-algebras equipped with the [[action]] of a [[group]] by [[automorphisms]] of the algebra are called _[[C-star-systems]]_ .
 
 
+## Related concepts
+
+* [[state on an operator algebra]]
 
 ## References
 
