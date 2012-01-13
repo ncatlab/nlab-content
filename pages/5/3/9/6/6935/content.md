@@ -18,11 +18,11 @@
 
 An _inductive type_ is a [[type]] defined as an [[initial object|initial]] [[algebra for an endofunctor]]. 
 
-This has the usual meaning in ordinary category theory. In applications to $(\infty, 1)$-category theory, the uniqueness clause in the notion of initial object is modified to allow for a contractible space of choices, and this difference is reflected accordingly in the type-theoretic set-up. The syntax will give back the traditional meaning whenever equality is interpreted extensionally. 
+This has the usual meaning in ordinary [[category theory]]. In applications to [[(∞,1)-category theory]], the uniqueness clause in the notion of initial object is modified to allow for a [[contractible space]] of choices (as discussed at _[[initial object in an (∞,1)-category]]_), and this difference is reflected accordingly in the type-theoretic set-up. The [[syntax]] will give back the traditional meaning whenever equality is interpreted [[extensional type theory|extensionally]]. 
 
 ## Explanation 
 
-In ordinary category theory, the notion of an initial algebra $W$ for an endofunctor $F$ can be broken down into three parts: 
+In ordinary [[category theory]], the notion of an initial algebra $W$ [[algebra for an endofunctor|for an endofunctor]] $F$ can be broken down into three parts: 
 
 1. It is an $F$-algebra, given by a structure $F(W) \to W$. Typically this structure is delivered in terms of _constructors_. 
 
@@ -30,15 +30,15 @@ In ordinary category theory, the notion of an initial algebra $W$ for an endofun
 
 1. Any two algebra maps from $W$ to $A$ are equal. 
 
-In categorical interpretations of dependent type theory, particularly where equality predicates are not interpreted as monos $\delta \colon X \to X \times X$ (as in homotopy type theory), one has instead: 
+In [[categorical semantics|categorical interpretations]] of [[dependent type theory]], particularly where equality [[predicates]] are not interpreted as [[monomorphisms]] $\delta \colon X \to X \times X$ (as in [[homotopy type theory]]), one has instead: 
 
 1. An algebra structure $W$, prescribed by constructors. 
 
 1. For any algebra $A$, a _specified_ algebra map $W \to A$. 
 
-1. Given a display map (e.g., a fibration) $A \to W$, where $A$ is given an algebra structure and the display map is an algebra map, one has a specified section $W \to A$ that is also an algebra map. 
+1. Given a [[display map]] (e.g., a [[fibration]]) $A \to W$, where $A$ is given an algebra structure and the display map is an algebra map, one has a specified [[section]] $W \to A$ that is also an algebra map. 
 
-As a reality check, suppose that we assume that the diagonal map $\delta \colon A \to A \times A$ is a display map or fibration (as in the world of homotopy 0-types = sets), and suppose $f$ and $g$ are algebra maps from $W$ to $A$. We pull back to a display map over $W$,
+Notice that these axioms still imply that algebra maps out of $W$ are essentially unique, even though that is not stated explicitly. For suppose that we assume that the [[diagonal]] map $\delta \colon A \to A \times A$ is a display map or fibration (as in the world of [[homotopy type|homotopy 0-types]] = sets), and suppose $f$ and $g$ are algebra maps from $W$ to $A$. We pull back to a display map over $W$,
 
 $$\array{
 P & \to & A \\
@@ -46,7 +46,9 @@ P & \to & A \\
 W & \underset{\langle f, g \rangle}{\to} & A \times A,
 }$$ 
 
-and this $P \to W$ is also an algebra map. Therefore it has a (specified) section. But since $P \to W$ is also monic, the section forces it to be an isomorphism, whence $f$ and $g$ are equal as required. Notice that this is the induction principle (subalgebras of an initial algebra are the whole initial algebra). 
+and this $P \to W$ is also an algebra map. Therefore it has a (specified) section. But since $P \to W$ is also monic, the section forces it to be an [[isomorphism]], whence $f$ and $g$ are equal as required. 
+
+Notice that this is the [[induction]] principle (subalgebras of an initial algebra are the whole initial algebra). 
 
 ## Type-theoretic definition 
 
