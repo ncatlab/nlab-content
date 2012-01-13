@@ -69,3 +69,5 @@ Section A1.2 in
 [[!redirects finitely complete categories]]
 [[!redirects lex categories]]
 [[!redirects left exact categories]]
+[[!redirects category with finite limits]]
+[[!redirects categories with finite limits]]
