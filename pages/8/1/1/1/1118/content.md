@@ -144,11 +144,13 @@ The theory of group objects is an example of a [[Lawvere theory]].
 
 ## Related concepts
 
-* [[monoid]], [[monoid object]],
+* [[monoid]], [[monoid object]], [[monoid object in an (∞,1)-category]]
 
 * [[group]], **group object**, [[group object in an (∞,1)-category]]
 
 * [[groupoid]], [[groupoid object]], [[groupoid object in an (∞,1)-category]]
+
+* [[infinity-groupoid]], [[infinity-groupoid object]], [[infinity-groupoid object in an (∞,1)-category]]
 
 * [[ring]], [[ring object]]
 
