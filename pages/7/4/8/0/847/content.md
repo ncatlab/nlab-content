@@ -60,3 +60,8 @@ For more details see [definition 1.2.12.3, p. 46](http://arxiv.org/PS_cache/math
 [[!redirects terminal object in an (infinity,1)-category]]
 [[!redirects terminal objects in an (infinity,1)-category]]
 [[!redirects terminal objects in (infinity,1)-categories]]
+
+[[!redirects initial object in an (∞,1)-category]]
+[[!redirects initial objects in an (∞,1)-category]]
+[[!redirects initial object in an (infinity,1)-category]]
+[[!redirects initial objects in an (infinity,1)-category]]
