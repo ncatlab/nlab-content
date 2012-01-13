@@ -29,5 +29,7 @@ The effective topos construction alluded in the above paragraph can be performed
 *   J.M.E. [[Martin Hyland|Hyland]], 'The effective topos' in  A.S. Troelstra (ed.)  D. van Dalen (ed.) , _The L.E.J. Brouwer Centenary Symposium_, North-Holland  (1982)  pp. 165--216.
 
 * Andy Pitts, _The theory of [[tripos]]es_, thesis, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)
+* Sori Lee, Jaap van Oosten, _Basic subtoposes of the effective topos_, [arxiv/1201.2571](http://arxiv.org/abs/1201.2571)
+
 
 [[!redirects effective toposes]]
