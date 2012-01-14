@@ -10,9 +10,9 @@ $$M \colon I \times I \to \{1, 2, 3, \ldots, \infty\}$$
 
 such that $M(i, i) = 1$ for all $i \in I$, else $M(i, j) \gt 1$. Writing $m_{i,j} = M(i, j)$, the associated **Coxeter group** $W_M$ is the group presented as having generators $s_i$, $i \in I$, and relations 
 
-$$(s_i s_j)^{m_{i j}} = 1$$ 
+$$(s_i s_j)^{m_{i, j}} = 1$$ 
 
-for all $i, j \in I$, whenever $m_{i j} \neq \infty$. In other words, $m_{i j}$ is the order of $s_i s_j$ (as argued in theorem 1 below), and these orders determine the group. 
+for all $i, j \in I$, whenever $m_{i, j} \neq \infty$. In other words, $m_{i, j}$ is the order of $s_i s_j$ (as is easily shown), and these orders determine the group. 
 
 A Coxeter group is usually more properly regarded as a [[group presentation]] rather than as an abstract group, but there is less than perfect consistency on this point in the literature. The $s_i$ are involutions that play the role of reflections generating the group. 
 
@@ -65,7 +65,7 @@ There is also a coincidence $I_2(6) \cong G_2$ (which allows us to elide over th
 
 $$\{e^{2\pi i j/6}\} \cup \{e^{2\pi i j/6} + e^{2\pi (j+1)/6}\}$$ 
 
-#### The groups $E_8$, $E_7, $E_6$ 
+#### The groups $E_8$, $E_7$, $E_6$ 
 
 There is a rich and fascinating literature on these structures; we confine ourselves only to a very succinct (and cryptic) description. 
 
@@ -82,7 +82,7 @@ $E_6$ is the group of linear isometries of the subset of roots used for $E_8$ wh
 #### The group $F_4$ 
 
 The group $F_4$ is the isometry group of the [[24-cell]], which is a regular polyhedron in $\mathbb{R}^4$ consisting of the 8 unit quaternions $\pm 1$, $\pm i$, $\pm j$, $\pm k$ and the 16 unit quaternions given by 
-$\frac1{2}(\varepsilon_0 1 + \varepsilon_1 i + \varepsilon_2 j + \varepsilon_3 k$)$ where $(\varepsilon_0, \ldots, \varepsilon_3) \in \{-1, 1\}^4$. (These 24 quaternions form a group under multiplication, and this group is isomorphic to $D_4$.) The Coxeter diagram is: 
+$\frac1{2}(\varepsilon_0 1 + \varepsilon_1 i + \varepsilon_2 j + \varepsilon_3 k)$ where $(\varepsilon_0, \ldots, \varepsilon_3) \in \{-1, 1\}^4$. (These 24 quaternions form a group under multiplication, and this group is isomorphic to $D_4$.) The Coxeter diagram is: 
 
 #### The group $G_2$ 
 
