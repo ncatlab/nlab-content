@@ -40,7 +40,7 @@ In type theory, we break things down a bit differently, for a variety of reasons
 
 In fact, the second piece of structure is obtained as the special case of the third where $B = W\times A$ and the display map is the evident projection.  We refer to the specified section as the (dependent) *eliminator*, and to the fact that it is an algebra map as its *computation rule*.
 
-Notice that these axioms still imply that algebra maps out of $W$ are essentially unique, even though that is not stated explicitly. For suppose that we assume that the [[diagonal]] map $\delta \colon A \to A \times A$ is a display map or fibration (as in the world of [[homotopy type|homotopy 0-types]] = sets), and suppose $f$ and $g$ are algebra maps from $W$ to $A$. We pull back to a display map over $W$,
+Let us check that we get the usual notion of initial algebra from this in the case where equality is extensional (e.g., categories enriched in [[homotopy type|homotopy 0-types]] = sets). In other words, assume that the [[diagonal]] map $\delta \colon A \to A \times A$ is a display map or fibration, and suppose $f$ and $g$ are algebra maps from $W$ to $A$. We pull back to a display map over $W$,
 
 $$\array{
 P & \to & A \\
@@ -48,11 +48,11 @@ P & \to & A \\
 W & \underset{\langle f, g \rangle}{\to} & A \times A,
 }$$ 
 
-and this $P \to W$ is also an algebra map. Therefore it has a (specified) section. But since $P \to W$ is also monic, the section forces it to be an [[isomorphism]], whence $f$ and $g$ are equal as required.
+and this $P \to W$ is also an algebra map. Therefore it has a (specified) section. But since $P \to W$ is also monic, the section forces it to be an [[isomorphism]], whence $f$ and $g$ are equal. Thus in this case, the inductive type is an initial algebra (under the traditional meaning in ordinary category theory). 
 
 Notice that this is the [[induction]] principle (subalgebras of an initial algebra are the whole initial algebra). 
 
-In [[intensional type theory]], where the diagonal is not a display map, we can perform the same argument using a [[path object]] $P A \to A \times A$ (represented in type theory by an [[identity type]]), showing thereby that $f$ and $g$ are homotopic.  A fancier version of this argument enables us to show that the space of algebra maps $W\to A$ is actually contractible.
+In [[intensional type theory]], where the diagonal is not a display map, we can perform the same argument using a [[path object]] $P A \to A \times A$ (represented in type theory by an [[identity type]]), showing thereby that $f$ and $g$ are homotopic.  A fancier version of this argument enables us to show that the space of algebra maps $W\to A$ is actually contractible. In other words, the axioms for an inductive type still imply that algebra maps out of $W$ are essentially unique, even though the axioms do not state this explicitly. 
 
 
 ## Type-theoretic definition 
