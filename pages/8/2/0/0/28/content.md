@@ -60,6 +60,8 @@ A groupoid $G$ is _connected_, or _transitive_,  if $G(x,y)$ is nonempty for all
 
 1. If $\Gamma$ is a [[directed graph]] or [[quiver]], then the free groupoid $F(\Gamma)$ is well defined. It is the left [[adjoint functor]] to the [[forgetful functor]] from groupoids to directed graphs. This shows an advantage of groupoids: the notion of _free equivalence relation_ or _free action groupoid_ does not make sense. But we can still talk of a presentation of an equivalence relation or action groupoid by generators and relations, by considering presentations of groupoids instead. 
 
+1. The paper by Zivljevic listed below gives examples of groupoids used in combinatorics. 
+
 +--{: .query}
 [[Mike Shulman|Mike]]: It's not clear to me that the notion of "free equivalence relation" doesn't make sense.  Can't I talk about a left adjoint to the forgetful functor from equivalence relations to, say, directed graphs?  Maybe sets-equipped-with-a-binary-relation would be more appropriate, but either one works fine.
 
@@ -156,6 +158,8 @@ Categories, 7 (2005) pp 1--195.
 * P.J. Higgins, The fundamental groupoid of a graph of groups, J. London Math. Soc. (2) 13 (1976) 145--149. 
 
 * R. Brown, _Topology and groupoids_, Booksurge, 2006. 
+
+* Rade T. Zivaljevic,  Groupoids in combinatorics---applications of a theory of local symmetries. _Algebraic and geometric combinatorics_, 305--324, Contemp. Math., 423, Amer. Math. Soc., Providence, RI, 2006. 
 
 
 [[!redirects groupoids]]
