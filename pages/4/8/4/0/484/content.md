@@ -24,9 +24,13 @@ It may well be useful to consider several possible equivalence relations on a gi
 Setoids are still important in [[foundations]] of mathematics where quotient sets don\'t always exist and the above equivalence cannot be carried out.  However, arguably this is a terminological mismatch, and such people should say 'set' where they say 'setoid' and something else (such as '[[preset]]', '[[type]]', or '[[completely presented set]]') where they say 'set'.  (See page 9 of [these lecture notes](http://www.cs.chalmers.se/Cs/Research/Logic/TypesSS05/Extra/palmgren.pdf).)
 
 
-## Congruences
+## Variants and generalizations
 
-A __[[congruence]]__ is an [[internalization|internal]] equivalence relation.
+The notion of _equivalence relation_ [[internalization|internal]] to a suitable [[category]] is the notion of __[[congruence]]__.
+
+The generalization of this to [[(∞,1)-category theory]] is that of _[[groupoid object in an (∞,1)-category]]_.
+
+
 
 
 [[!redirects equivalence relation]]
