@@ -50,10 +50,25 @@ In such an [[internal logic]] context, a _family_ of anything must always mean "
 
     eta: forall x: X, f x == g x .
 
-we can deduce an actual path between $f$ and $g$.
+we can deduce an actual path between $f$ and $g$. 
 
-If the type theory has an extra [[axiom]] that implies this, one says that **function extensionality** holds.  There are actually several different flavors of function extensionality, depending on what properties this operation has; for now see ([Lumsdaine](#Lumsdaine)) below.
+Translating this into direct categorical terms, the term $\eta$ gives a map 
 
+$$1 \to \Pi_{X \to 1} [f x = g x]$$ 
+
+which in turn corresponds to a section $\sigma \colon X \to [f x = g x]$ of the [[display map]] on the left side of the [[pullback]] 
+
+$$\array{
+[f x = g x] & \to & P(Y) \\
+\downarrow & & \downarrow \\
+X & \underset{\langle f, g \rangle}{\to} & Y \times Y
+}$$ 
+
+where $P(Y)$ is the identity type or space of paths in $Y$. Such a section is tantamount to a lift $X \to P(Y)$ of $\langle f, g \rangle \colon X \to Y \times Y$. From this we would like to deduce an actual path $p \colon 1 \to P(Y^X)$. So, very simply, function extensionality means we are able to lift elements $h \colon 1 \to P(Y)^X$ through a canonical map $\phi \colon P(Y^X) \to P(Y)^X$. 
+
+Of course we are not just interested in [[global element|global elements]] here. What we really want is an actual section $P(Y)^X \to P(Y^X)$ of $\phi$ in the [[slice category|slice]] over $(Y \times Y)^X$ (although this can be derived from the global element formulation by using the [[Yoneda lemma]] together with [[currying]] and uncurrying tricks). This condition may be called "naive" or "weak" function extensionality, in view of an apparently stronger condition that this section (and therefore also $\phi$) be _equivalences_. This latter condition might be called "strong function extensionality". 
+
+Under reasonable assumptions on the type theory, it turns out that these and other versions of function extensionality are equivalent; for now see ([Lumsdaine](#Lumsdaine)) below. In any case, if the type theory has an extra [[axiom]] that implies some such version, one says that **function extensionality** holds. 
 
 ## Properties
 
