@@ -1,0 +1,13 @@
+## Definition 
+
+Given a [[monoidal category]] $M$, let $Coalg(M)$ denote the category of coalgebras (i.e., [[comonoid|comonoids]]) with respect to the tensor product of $M$. Let $U \colon Coalg(M) \to M$ be the forgetful functor. The **cofree coalgebra** refers to a functor _right_ adjoint to $U$, if it exists. 
+
+For example, a cofree coalgebra on a vector space $V$ consists of a coalgebra $C(V)$ and a linear map $\varepsilon \colon C(V) \to V$ which is universal in the sense that given a coalgebra $C$ and linear map $f \colon C \to V$, there exists a unique coalgebra map $g \colon C \to C(V)$ such that $f = \varepsilon \circ g$. 
+
+## Constructions 
+
+From an abstract point of view, the forgetful functor $U \colon Coalg(M) \to M$ preserves and reflects (creates) any colimits which happen to exist, analogous to the fact that the forgetful functor $Alg(M) \to M$ preserves and reflects limits. Therefore, under hypotheses of an adjoint functor theorem (which almost always obtain in cases of practical interest), $U$ will indeed have a right adjoint. For example, this is the case when $M$ is the category of vector spaces over a field. 
+
+It is of interest to have more explicit constructions available; we work this out for vector spaces. 
+
+(For now, linking here to Theo's answer at [MathOverflow](http://mathoverflow.net/questions/31109/is-there-an-explicit-construction-of-a-free-coalgebra/31126#31126). To be expanded on.)  
