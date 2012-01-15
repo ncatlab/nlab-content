@@ -23,7 +23,7 @@ Measure theory is the field of mathematics that grew out of the [[Lebesgue measu
 
 ## Some subfields and applications
 
-The general measure theory studies general notions and constructions in measure theory, like the connection to integration, the measure spaces, derivation by measure, Caratheodory construction and so on.
+The general measure theory studies general notions and constructions in measure theory, like the connection to integration, the measure spaces, derivation by measure, [[Caratheodory construction]] and so on.
 
 Probability theory studies special class of measures, so called [[probability measure]]s which are normalized to unity.
 
@@ -31,4 +31,4 @@ Measure theory is very much having a central role in studying so called [[ergodi
 
 [[geometric measure theory|Geometric measure theory]] is the geometric study of measures of subsets of Euclidean space and the measure theoretic aspects of various geometric objects, like the integration of classes of currents and their extremization properties.    
 
-There is a generalization, the noncommutative measure theory, which is more or less the study of von Neumann algebra, see [[Alain Connes]]' book Noncommutative geometry 1995.
+There is a generalization, the noncommutative measure theory, which is more or less the study of [[von Neumann algebra]], see [[Alain Connes]]' book [[Noncommutative geometry]] 1995.
