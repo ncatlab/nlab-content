@@ -50,8 +50,14 @@ Often in the literature this is considered for the case $C = $ [[Vect]] of [[vec
 Given a [[vector space]] $V$, the $n$-fold [[tensor product]] of this space with itself, $V \otimes \cdots \otimes V$, is usually denoted $V^{\otimes n}$ and called the $n$th **tensor power** of $V$.  
 
 
+## Related concepts
+
+* [[free monoid]]
+
+* [[cofree coalgebra]]
 
 [[!redirects tensor power]]
 [[!redirects tensor powers]]
+
 [[!redirects tensor algebra]]
 [[!redirects tensor algebras]]
