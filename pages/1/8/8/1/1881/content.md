@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Finite lists and free monoids
 * table of contents
 {: toc}
@@ -100,6 +111,12 @@ Queues are a little more complicated.  An object of __queues__ on $A$ is an obje
 +-- {: .query}
 What are the diagrams for this?  I seem to recall that we need a [[distributive category]]; in particular, we need a [[cartesian monoidal category]], so that $\otimes$ is $\times$.  But perhaps a [[2-rig]] will be sufficient?
 =--
+
+## Related concepts
+
+* [[tensor algebra]]
+
+* [[cofree coalgebra]]
 
 
 [[!redirects list]]
