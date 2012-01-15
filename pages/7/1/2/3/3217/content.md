@@ -26,6 +26,10 @@ The set of components of a foliation is typically non-[[Hausdorff space|Hausdorf
 
 There is a theory of [[characteristic class]]es for foliations. A most well known example is the Godbillon-Vey characteristic class. 
 
+## Related concepts
+
+* [[orbifold]]
+
 ## References
 
 * &#1044;. &#1041;. &#1060;&#1091;&#1082;&#1089;, _&#1057;&#1083;&#1086;&#1077;&#1085;&#1080;&#1103;_, &#1048;&#1090;&#1086;&#1075;&#1080; &#1085;&#1072;&#1091;&#1082;&#1080; &#1080; &#1090;&#1077;&#1093;&#1085;. &#1057;&#1077;&#1088;. &#1040;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072;. &#1058;&#1086;&#1087;&#1086;&#1083;. &#1043;&#1077;&#1086;&#1084;., 1981,  &#1090;&#1086;&#1084; __18__, &#1089;&#1090;&#1088;. 151&#8211;-213, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=inta&paperid=93&what=fullt&option_lang=rus)
@@ -48,4 +52,10 @@ There is a theory of [[characteristic class]]es for foliations. A most well know
 
 * Yu. A. Kordyukov, _Index theory and non-commutative geometry on foliated manifolds_, Russian Math. Surveys, 64:2 (2009), 273&#8211;391 (original: &#1059;&#1052;&#1053;, 64:2(386) (2009), 73&#8211;202)
 
+
 [[!redirects foliations]]
+
+[[!redirects leaf space]]
+[[!redirects leaf spaces]]
+
+[[!redirects foliation theory]]
