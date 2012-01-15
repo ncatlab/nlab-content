@@ -1,4 +1,21 @@
-__Orbit method__ (Kirillov's method, method of coadjoint orbits) is concerned with producing unitary representations of Lie groups via the geometric quantization of coadjoint orbits.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Orbit method_ (or _Kirillov's method_, or _method of coadjoint orbits_) is concerned with producing [[unitary representations]] of [[Lie groups]] via the [[geometric quantization]] of [[coadjoint orbit|coadjoint]] [[orbits]].
 
 The dual $g^*$ of a (say finite-dimensional real) [[Lie algebra]] has a structure of a [[Poisson manifold]] with the Poisson structure due to A. Kirillov and Souriau, namely for any $a\in g^*$, 
 
@@ -8,6 +25,8 @@ $$
 The Poisson manifold [[foliation|foliates]] into symplectic leaves which are the [[coadjoint orbit]]s. 
 
 The [[geometric quantization]] on the coadjoint orbit with the induced symplectic structure produces certain space of sections with natural action of the Lie group. Many important classes of unitary representations are obtained by that method. 
+
+## References
 
 * &#1042;. &#1040;. &#1043;&#1080;&#1085;&#1079;&#1073;&#1091;&#1088;&#1075;, _&#1052;&#1077;&#1090;&#1086;&#1076; &#1086;&#1088;&#1073;&#1080;&#1090; &#1074; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1081; &#1082;&#1086;&#1084;&#1087;&#1083;&#1077;&#1082;&#1089;&#1085;&#1099;&#1093; &#1075;&#1088;&#1091;&#1087;&#1087; &#1051;&#1080;_, &#1060;&#1091;&#1085;&#1082;&#1094;. &#1072;&#1085;&#1072;&#1083;&#1080;&#1079; &#1080; &#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1083;., 1981, &#1090;&#1086;&#1084; 15, &#1074;. 1, &#1089;&#1090;&#1088;. 23&#8211;37,  [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=1690&what=fullt&option_lang=rus); transl. V. A. Ginzburg, _Method of orbits in the representation theory of complex Lie groups_, Funct. Analysis and Its Appl. __1981__, 15:1, 18&#8211;28, [doi](http://dx.doi.org/10.1007/BF01082375)
 * wikipedia [orbit method](http://en.wikipedia.org/wiki/Orbit_method)
