@@ -151,6 +151,8 @@ Chern-Simons actions for [[Lie algebra]]s $\mathfrak{g}$ but with higher-degree 
 
 ## Related concepts
 
+* [[Wu classes]]
+
 * [[schreiber:infinity-Chern-Simons theory]]
 
   * [[Chern-Simons theory]]
