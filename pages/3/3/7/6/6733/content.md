@@ -37,6 +37,135 @@ On dimensional reduction of [[11-dimensional supergravity]] on a circle the M5-b
 
 The [[AdS/CFT correspondence]] for the 5-brane is $AdS_7/CFT_6$ and relates the [[6d (2,0)-superconformal QFT]] to [[7-dimensional supergravity]] obtained by [[Kaluza-Klein mechanism|reduction]] of [[11-dimensional supergravity]] on o 4-[[sphere]] to an and asymptotically 7d [[anti de Sitter spacetime]].
 
+### Conformal blocks and 7d Chern-Simons dual
+ {#7dCSDual}
+
+The [[self-dual higher gauge theory|self-dual 2-connection]]-field (see there for more details) on the 6-dimensional [[worldvolume]] M5-brane is supposed to have a [[holographic principle|holographic]] description in terms of a [[higher dimensional Chern-Simons theory|7-dimensional Chern-Simons theory]] ([Witten 1996](#Witten96)). We discuss the relevant "fractional" [[quadratic form]] on [[ordinary differential cohomology]] that defines the correct [[action functional]].
+
+Let $\hat G$ be the [[circle n-bundle with connection|circle 3-bundle with connection]] on a 7-dimensional manifold $X$ with boundary the M5-brane, thought of as the [[Kaluza-Klein mechanism|compactification]] of the [[supergravity C-field]] from [[11-dimensional supergravity]] down to [[7-dimensional supergravity]].
+
+As discussed there, the [[higher dimensional Chern-Simons theory|7-dimensional Chern-Simons theory]] [[action functional]] on these 3-connections is
+
+$$
+  \hat G_4 \mapsto
+  \exp(i \int_X \hat G_4 \cup \hat G_4)
+  \,,
+$$
+
+where 
+
+* $\exp(i \int_X (-))$ is the [[higher holonomy]] / [[fiber integration in ordinary differential cohomology]] from $X$ to the point
+
+* of the [[Beilinson-Deligne cup product]] [[circle n-bundle with connection|7-connection]] $\hat G_4 \cup \hat G_4$.
+
+The space of [[states]] of this 7d theory on the M5 worldvolume $\partial X$ would be the space of [[conformal blocks]] of the [[6d (2,0)-supersymmetric QFT]] on the [[worldvolume]].
+
+Except, that it turns out that the [[first Chern class]] of the corresponding [[prequantum line bundle]] is _twice_ that required from [[geometric quantization]].
+
+Therefore the above action functional is not yet the correct one, but only a fractional version of it is. However, the class $G_4 \cup G_4$ in [[integral cohomology]] has in general no reason to be divisible by 2.
+
+This is related to the fact that as a [[quadratic form]] on the [[ordinary differential cohomology]] group $\hat H^4(X)$, the above is not a [[quadratic refinement]] of 
+
+$$
+  (\hat G, \hat G') \mapsto \exp(i \int_X \hat G \cup \hat G') 
+  \,,
+$$
+
+but of twice that. In ([Witten 1996]{#Witten96}) it was argued, and later clarified in ([Hopkins-Singer](#HopkinsSinger)), that instead the action functional should be replaced by a proper [[quadratic refinement]].
+
+This is accomplished by shifting the center of the [[quadratic form]]
+by a lift $\lambda \in H^4(X, \mathbb{Z})$ of the degree-4 [[Wu class]] $\nu_4 \in H^4(X, \mathbb{Z}/2)$ from 0 to $\frac{1}{2}\lambda$. 
+
+(For that to make sense in [[integral cohomology]], either the [[Wu class]] $\lambda$ happens to be divisible by 2 on $X$, or else one has to regard it itself as a twisted differential character of sorts, as explained in ([Hopkins-Singer](#HopkinsSinger)). For the moment we will assume that $X$ is such that $\lambda$ is divisbible by 2.)
+
+Since $X$, being a [[spacetime]] for [[supergravity]], admits (and is thought to be equipped with) a [[spin structure]], by the discussion at [[Wu class]] it follows that $\lambda$ is the [[first fractional Pontryagin class]] $\frac{1}{2}p_1$
+
+$$
+  (\frac{1}{2}p_1 \; mod \; 2) 
+   \; 
+     =
+   \; 
+   \nu_4 \in H^4(X, \mathbb{Z}/2)
+  \,.
+$$
+
+By the very definition of [[Wu class]], it follows that for any $\hat \alpha \in \hat H^4(X)$ the combination
+
+$$
+  \hat \alpha \cup \hat \alpha + \hat \alpha \cup \hat \lambda = Sq^4(\hat \alpha) - \hat \alpha \cup \hat \lambda
+  \; =\;  0 \;  mod  \; 2
+$$
+
+is divisible by 2.
+
+Therefore define then the modified quadratic form
+
+$$
+  \exp(i S) 
+   \; : \; 
+  \hat a \mapsto \exp i \int_X 
+  \frac{1}{2}
+  \left(
+    \hat a \cup \hat a
+    + 
+    \hat a \cup \frac{1}{2}\hat \mathbf{\lambda}
+  \right)
+$$
+
+(see [[differential string structure]] for the definition of the differential refinement $\hat \mathbf{\lambda} = \frac{1}{2}\hat \mathbf{p}_1$),
+where, note, we have included a factor of 2, which is possible due to the inclusion of the integral lift of the [[Wu class]].
+
+Notice that where the [[equations of motion]] of the original [[action functional]] are $\hat a = 0$, those of this shifted one are $\hat a = - \frac{1}{2}\hat \mathbf{\lambda}$. One therefore also calls $-\frac{1}{2}\lambda$ here a _background [[charge]]_ for the 7-d Chern-Simons theory.
+
+This is now indeed a [[quadratic refinement]] of the [[intersection pairing]]:
+
+$$
+  \exp i \left( 
+    S\left(\hat a + \hat b \right)
+    - 
+    S\left( \hat a \right)
+    - 
+    S\left( \hat b \right)
+    + 
+    S\left( 0 \right)
+  \right)
+  = 
+  \exp i \int_X ( \hat a \cup \hat b  )
+  \,.
+$$
+
+To express the correct action functional for the 7d Chern-Simons theory it is useful to define the shifted [[supergravity C-field]]
+
+$$
+  \hat a  := \hat G_4 - \frac{1}{2}\hat \mathbf{\lambda}
+  \,,
+$$
+
+which the object whose [[equations of motion]] with respect to the 7d Chern-Simons theory are still $\hat a = 0$.
+
+Then in terms of the original $\hat G_4$ the action functional for the [[holographic principle|holographic dual]] [[higher dimensional Chern-Simons theory|7d Chern-Simons theory]] reads
+
+$$
+  \exp(i S(\hat G_4))
+  = 
+  \exp(i \int_X
+    \frac{1}{2}
+    (
+      \hat G_4 \cup \hat G_4  
+      -
+      (\frac{1}{2}\hat \mathbf{\lambda})^2
+    )
+  )
+  \,.
+$$
+
+This is the action as it appears in ([Witten96, (3.6)](#Witten96)).
+
+In terms of [[twisted differential c-structures]] we may summarize the outcome of this reasoning as follows:
+
+_The divisibility of the action functional requires a $2(G_4 - a)$-[[twisted Wu structure]] in $\mathbb{Z}/2$-cohomology. Its lift to integral cohomology is the $2(G_4 - a)$-[[twisted differential string structure]] known as the "Witten quantization condition" on the [[supergravity C-field]]_.
+
+
 ## Related concepts
 
 * [[string]]
@@ -47,6 +176,28 @@ The [[AdS/CFT correspondence]] for the 5-brane is $AdS_7/CFT_6$ and relates the 
 
 
 ## References
+
+### Worldvolume theory
+
+
+The original article suggesting the description of the [[self-dual higher gauge theory]] on the 5-brane [[holographic principle|holographically]] by a dual [[higher dimensional Chern-Simons theory]] is
+
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+ {#Witten96}
+
+A precise mathematical formulation of the proposal made there is given in
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+ {#HopkinsSinger}
+
+A discussion that embeds this argument into the larger context of [[AdS-CFT duality]] is in 
+
+* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
+ {#Witten98}
+
+See also the references at _[[6d (2,0)-supersymmetric QFT]]_.
+
+
 
 ### Surveys
 
@@ -89,8 +240,13 @@ Proposals for how to implement this are for instance in
 
 A formal proposal is [[schreiber:7d Chern-Simons theory and the 5-brane|here]].
 
-### Holography
+### More on the holographic description
 
 * A. J. Nurmagambetov, I. Y. Park, _On the M5 and the AdS7/CFT6 Correspondence_ ([arXiv:hep-th/0110192](http://arxiv.org/abs/hep-th/0110192))
+
+### More on the algebraic topology
+
+* [[Hisham Sati]], _Twisted topological structures related to M-branes II: Twisted $Wu$ and $Wu^c$ structures_ ([arXiv:1109.4461](http://arxiv.org/abs/1109.4461))
+ {#Sati}
 
 [[!redirects M5-branes]]
