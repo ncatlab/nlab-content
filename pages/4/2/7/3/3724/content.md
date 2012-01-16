@@ -14,7 +14,7 @@ In 1872, [[Richard Dedekind]] published _Stetigkeit und irrationale Zahlen_ (Con
 Dedekind had found great success understanding the 'ideal numbers' of [[ring theory]] as certain sets, which are what we now understand as [[ideal of a ring|ideals]].  So he defined a 'real number' as a pair of sets of rational numbers, the lower and upper sets shown above (actually a slight variation).  Such a pair of sets of rational numbers he called a 'Schnitt' (English 'cut'), nowadays called a 'Dedekind cut'.
 
 
-## Definitions
+## Definitions {#Definitions}
 
 Exactly which pairs of sets of rational numbers can appear this way?  We will define a __Dedekind cut__ to be any pair $(L,U)$ of sets of rational numbers satisfying these conditions:
 
