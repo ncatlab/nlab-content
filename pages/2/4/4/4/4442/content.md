@@ -191,3 +191,5 @@ Arguments for the $SO(5)$ [[R-symmetry]] group on the 6d theory from the 7d theo
 [[!redirects AdS-CFT correspondence]]
 
 [[!redirects AdS/CFT correspondence]]
+
+[[!redirects AdS-CFT duality]]
