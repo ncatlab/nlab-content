@@ -74,6 +74,8 @@ Twisted differential $\mathbf{c}$-structures appear in various guises in the [[b
 
   * [[twisted differential fivebrane structure]]
 
+  * [[twisted Wu structure]]
+
 * [[2-framing]]
 
 * [[differential T-duality]]
