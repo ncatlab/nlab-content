@@ -1063,6 +1063,11 @@ and given a rigorous treatment in
 
 [[!redirects differential string structures]]
 
+[[!redirects differential String structure]]
+[[!redirects differential String structures]]
+[[!redirects twisted differential String structure]]
+[[!redirects twisted differential String structures]]
+
 [[!redirects differential string-structure]]
 [[!redirects differential string-structures]]
 
