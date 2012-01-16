@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 # Differentiable maps
 * table of contents
 {: toc}
@@ -27,6 +38,12 @@ To begin with, let $X$ and $Y$ be [[smooth manifolds]], and let $f\colon X \to Y
 * One step higher, we may ask whether $f$ is [[analytic function|analytic]] or $C^\omega$, but this takes us beyond smooth manifolds (to [[analytic manifold]]s).
 
 If $X$ and $Y$ are [[topological manifolds]] but not smooth manifolds, the definitions above still may still make sense up to a certain point.  In general, if $X$ is a $C^{k+1}$-manifold then the [[tangent bundle]] $T X$ exists as a $C^k$-manifold, so we can define $n$ times differentiable maps or $C^n$ maps between $C^k$-manifolds whenever $n \leq k$.
+
+## Related concepts
+
+* [[extremum]]
+
+* [[smooth function]], [[analytic function]]
 
 
 [[!redirects differentiable map]]
