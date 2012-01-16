@@ -58,9 +58,9 @@ More generally, if $\mathcal{E}$ is a subclass of epimorphisms, we say that $\{S
 
 Of particular importance is the notion of **strong generator** which is obtained by taking $\mathcal{E}$ to be the class of [[strong epimorphism]]s.  This can be expressed equivalently, without requiring local smallness or the existence to coproducts, by saying that  the family $C(S_a,-)$ is jointly faithful and jointly [[conservative functor|conservative]].
 
-Taking $\mathcal{E}$ to be the class of [[extremal epimorphism]]s, we obtain a notion which is variously called "dense generator," "extremal generator," or (confusingly) "strong generator". This can also be expressed without local smallness or coproducts: The family $\{S_a\}$ is an extremal generating family if and only if the inclusion of the full subcategory on the objects $\{S_a\}$ is [[dense functor|dense]].  This is the strongest sort of generator.
+If we take $\mathcal{E}$ to be the class of [[extremal epimorphism]]s, we might call the resulting notion "extremal generator," but **dense generator** is more standard. The reason is that the family $\{S_a\}$ is an extremal generating family if and only if the inclusion of the full subcategory on the objects $\{S_a\}$ is [[dense functor|dense]] (and this definition makes sense without assuming coproducts or local smallness).  This is the strongest sort of generator.
 
-Recall that if $C$ has pushouts, then extremal epis reduce to strong ones, and so extremal generators are necessarily strong.
+If $C$ has pushouts, then extremal epis reduce to strong ones, and so extremal generators are necessarily strong. For this reason, some authors simply define "strong generator" to mean "dense generator."
 
 
 ## Related concepts
