@@ -27,7 +27,11 @@ The connecton of this work to the physics of the [[electromagnetic field]] and o
 
 To this date generalized [[differential cohomology]] theories keep being studied mostly with motivation from [[string theory]], but the work of Hopkins and Singer has put this subject on solid mathematical ground, and an independent mathematical field of differential cohomology is developing since then. See the list of references at [[differential cohomology]].
 
-## Some linked kewords 
+#Some linked keywords#
+* table of contents
+{:toc}
+
+## Differential cohomology
 
 * [[differential function complex]]
 
@@ -51,6 +55,14 @@ To this date generalized [[differential cohomology]] theories keep being studied
 
   * [[fiber integration in ordinary differential cohomology]]
 
+## Algebraic topology
+
+* [[intersection pairing]], [[quadratic refinement]]
+
+* [[Wu class]]
+
+
+## Gauge fields
 
 * [[gauge field]]
 
@@ -59,7 +71,11 @@ To this date generalized [[differential cohomology]] theories keep being studied
   * [[quantum anomaly]]
 
     * [[Green-Schwarz mechanism]]
- 
+
+* [[higher dimensional Chern-Simons theory]]
+
+* [[self-dual higher gauge theory]]
+
 
 category: reference
 
