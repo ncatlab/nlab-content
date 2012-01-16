@@ -85,6 +85,7 @@ This latter is actually a special case of a general situation.  If $T$ is a (2-)
 * [[Max Kelly]], [[Steve Lack]], _On property-like structures_, TAC 3(9), 1997.
 * Kock, _Monads for which structures are adjoint to units_, JPAA 104:41--59, 1995.
 * Power--Cattani--Winskel, _A representation result for free cocompletions_, JPAA 151:273--286, 2000.
+* Marmolejo--Wood, _Kan extensions and lax idempotent pseudomonads_, [TAC](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html) 26, p. 1--29 (2011)
 
 
 [[!redirects KZ monad]]
