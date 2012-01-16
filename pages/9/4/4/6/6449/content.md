@@ -128,7 +128,7 @@ See ([FRS, 4.1.4](#FRS)).
 
 Higher dimensional abelian Chern-Simons theories appear automatically as components of systems of higher [[supergravity]], for instance in [[11-dimensional supergravity]] (they are automatically induced by the requirement of  [[local supersymmetry]] in these higher dimensional supergravity theories).
 
-(...)
+* see at _[[M5-brane]]_ the section _[Conformal blocks and 7d Chern-Simons dual](http://ncatlab.org/nlab/show/M5-brane#7dCSDual)_.
 
 ### Properties
 
