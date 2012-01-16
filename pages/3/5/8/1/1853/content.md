@@ -178,6 +178,11 @@ For instance ([Brylinski, section (1.3)](#Brylinski)) spring
 
 For the case that of [[?ech cohomology|?ech]] [[hypercohomology]] with coefficients in [[Deligne complex]]es the above yields the _[[Beilinson-Deligne cup-product]]_ for [[ordinary differential cohomology]]. 
 
+
+## Related concepts
+
+* [[intersection pairing]]
+
 ## References 
 
 The cup product in &#268;ech cohomology is discussed for instance in section 1.3 of
