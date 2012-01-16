@@ -46,6 +46,7 @@ Let $\mathcal{C}$ be a [[category]], and $i_A : \mathcal{A} \subset \mathcal{C}$
 A [[monad]] $(T,\mu,\eta)$ on $\mathcal{C}$ is said to **have arities $\mathcal{A}$** if $\nu_{\mathcal{A}} \circ T$ sends canonical $\mathcal{A}$-cocones to [[colimit|colimiting cocones]].
 
 ##Nerve Theorem##
+ {#NerveTheorem}
 
 The nerve theorem consists of two statements:
 
