@@ -101,33 +101,33 @@ is divisible by 2.
 Therefore define then the modified quadratic form
 
 $$
-  \exp(i S) 
+  \exp(i S^\lambda) 
    \; : \; 
   \hat a \mapsto \exp i \int_X 
   \frac{1}{2}
   \left(
     \hat a \cup \hat a
     + 
-    \hat a \cup \frac{1}{2}\hat \mathbf{\lambda}
+    \hat a \cup \hat \mathbf{\lambda}
   \right)
 $$
 
 (see [[differential string structure]] for the definition of the differential refinement $\hat \mathbf{\lambda} = \frac{1}{2}\hat \mathbf{p}_1$),
-where, note, we have included a factor of 2, which is possible due to the inclusion of the integral lift of the [[Wu class]].
+where, note, we have included a global factor of 2, which is now possible due to the inclusion of the integral lift of the Wu class.
 
-Notice that where the [[equations of motion]] of the original [[action functional]] are $\hat a = 0$, those of this shifted one are $\hat a = - \frac{1}{2}\hat \mathbf{\lambda}$. One therefore also calls $-\frac{1}{2}\lambda$ here a _background [[charge]]_ for the 7-d Chern-Simons theory.
+Notice that where the [[equations of motion]] of the original [[action functional]] are $\hat a = 0$, those of this shifted one are $\hat a = - \frac{1}{2}\hat \mathbf{\lambda}$. By comparison with the [[Maxwell equations]] one therefore also calls $-\frac{1}{2}\lambda$ here a _background [[charge]]_ for the 7-d Chern-Simons theory.
 
 This is now indeed a [[quadratic refinement]] of the [[intersection pairing]]:
 
 $$
   \exp i \left( 
-    S\left(\hat a + \hat b \right)
+    S^\lambda\left(\hat a + \hat b \right)
     - 
-    S\left( \hat a \right)
+    S^\lambda\left( \hat a \right)
     - 
-    S\left( \hat b \right)
+    S^\lambda\left( \hat b \right)
     + 
-    S\left( 0 \right)
+    S^\lambda\left( 0 \right)
   \right)
   = 
   \exp i \int_X ( \hat a \cup \hat b  )
