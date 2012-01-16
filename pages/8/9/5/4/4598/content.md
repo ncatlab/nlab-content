@@ -31,6 +31,14 @@ $$
   \,.
 $$
 
+## Trivializations and structures
+
+The [[twisted differential c-structures]] corresponding to Pontryagin class include
+
+* [[twisted differential string structure]] for the first fractional Pontryagin class $1/2 p_1 : B Spin \to B^3 U(1)$;
+
+* [[twisted differential fivebrane structure]] for the second fractional Pontryagin class $\frac{1}{6}p_2 : B String \to B^7 U(1)$.
+
 ## Related concepts
 
 * **Pontryagin class**
@@ -67,3 +75,6 @@ A brief introduction is in chapter 23, section 7
 
 [[!redirects Pontrjagin class]]
 [[!redirects Pontrjagin classes]]
+
+[[!redirects first fractional Pontryagin class]]
+[[!redirects second fractional Pontryagin class]]
