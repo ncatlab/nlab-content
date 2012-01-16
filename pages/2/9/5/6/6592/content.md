@@ -67,7 +67,7 @@ The fact that a [[quotient]] is given by a [[homotopy fiber]] is a special case 
 That fiber sequence continues to the left as
 
 $$
-  G \to H \to G//H \to \mathbf{B}G \to \mathbf{B}H
+  H \to G \to G//H \to \mathbf{B}H \to \mathbf{B}G
   \,.
 $$
 
