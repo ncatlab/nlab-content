@@ -403,7 +403,7 @@ A variant of the nerve construction can also be applied _internally_ within a ca
 
 ## Related concepts
 
-* **nerve**
+* **nerve**, [[monad with arities]]
 
 * [[Duskin nerve]]
 
