@@ -20,7 +20,11 @@ Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is calle
 
 ## Examples
 
-A symmetric bilinear form is simply an [[inner product]].
+A symmetric bilinear form is an [[inner product]].
+
+## Related concepts
+
+* [[quadratic form]]
 
 
 [[!redirects bilinear form]]
