@@ -1,7 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-Wu classes are a type of [[universal characteristic class]] in $\mathbb{Z}_2$-[[cohomology]] that refine the [[Stiefel-Whitney classes]].
+_Wu classes_ are a type of [[universal characteristic class]] in $\mathbb{Z}_2$-[[cohomology]] that refine the [[Stiefel-Whitney classes]].
 
 ## Definition
 
@@ -27,7 +42,10 @@ $$
 
 for the [[Steenrod square]] operations.
 
-Then the **Wu class** 
++-- {: .num_defn #WuClassesBySteenrodSquares}
+###### Definition
+
+The **Wu class** 
 
 $$
   \nu_k
@@ -41,6 +59,8 @@ $$
   Sq^k(x) = \nu_k \cup x
   \,.
 $$
+
+=--
 
 
 ## Properties
@@ -58,6 +78,142 @@ $$
 
 ### For $Spin$-bundles
 
++-- {: .num_prop #InTermsOfPontryagin}
+###### Proposition
+
+Let $X$ be an [[orientation|oriented]] [[manifold]] $T X : X \to  B SO(n)$ woth [[spin structure]] $\hat T X : X : B Spin(n)$. Then the following classes in [[integral cohomology]] classes of $X$ built from [[Pontryagin classes]] coincide with Wu-classes under mod-2- reduction $\mathbb{Z} \to \mathbb{Z}_2$ as indicated in the following list
+
+* $\nu_4 = \frac{1}{2}_1$
+
+* $\nu_8 = \frac{1}{8}(11 p_1^2  - 20 p_2)$
+
+* $\nu_{12} = \frac{1}{16}(37 p_1^3 - 100 p_1 p_2 + 80 p_3)$.
+
+(all products are [[cup product|cup products]]).
+
+=--
+
+This is discussed in [Hopkins-Singer, page 101](#HopkinsSinger).
+
++-- {: .num_corollary #DivisibilityOfCupSquare}
+###### Corollary
+
+For $G \in H^4(X, \mathbb{Z})$ any integral 4-class, the expression
+
+$$
+  G \cup G - G \cup \frac{1}{2}p_1 \in H^4(X, \mathbb{Z})
+$$
+
+is always even (divisible by 2).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the basic properties of Steenrod squares, we have for the 4-class $G$ that 
+
+$$
+  G \cup G = Sq^4(G)
+  \,.
+$$
+
+By the definition \ref{WuClassesBySteenrodSquares} of Wu classes, the image of this integral class in $\mathbb{Z}_2$-coefficients equals the cup product with the Wu class
+
+$$
+  G \cup G - G \cup \frac{1}{2}p_1
+  = 
+  Sq^4(G) - G \cup \vu_4
+  = 
+  0 mod 2.
+  \,,
+$$
+
+where the first step is by prop. \ref{InTermsOfPontryagin}.
+
+=--
+
+## Applications
+
+### To higher dimensional Chern-Simons theory
+
++-- {: .num_remark}
+###### Remark
+
+The relation \ref{DivisibilityOfCupSquare} plays a central role in the definition of the [[higher dimensional Chern-Simons theory|7-dimensional Chern-Simons theory]] which is [[holographic principle|dual]] to the [[self-dual higher gauge theory]] on the [[M5-brane]]. In this context it was first pointed out in ([Witten 1996](#Witten)) and later elaborated on in ([Hopkins-Singer](#HopkinsSinger)).
+
+Specifically, in this context $G$ is the 4-class of the [[circle n-bundle with connection|circle 3-bundle]] underlying the [[supergravity C-field]], subject to the quantization condition
+
+$$
+  G_4 = \frac{1}{2}(\frac{1}{2}p_1) + a
+  \,,
+$$
+
+for some $a \in H^4(X, \mathbb{Z})$, which makes direct sense as an equation in $H^4(X, \mathbb{Z})$ if the [[spin structure]] on $X$ happens to be such $\frac{1}{2}p_1$ is further divisible by 2, and can be made sense of more generally in terms of [[twisted cohomology]] (which was suggested in ([Witten 1996](#Witten)) and made precise sense of in ([Hopkins-Singer](#HopkinsSinger)) ). 
+
+For simplicity, assume that $\frac{1}{2}p_1$ of $X$ is further divisible by 2 in the following. We then may consider direct refinements of the above ingredients to [[ordinary differential cohomology]] and so we consider [[circle n-bundle with connection|differential cocycles]] $\hat a, \hat G \in \hat H^4(X)$ with
+
+\[
+  \hat G = \frac{1}{2}(\frac{1}{2}\hat \mathbf{p}_1) + \hat a
+  \in \hat H^4(X)
+  \,,
+  \label{DifferentialQuantizationCondition}
+\]
+
+where the differential refinement $\frac{1}{2}\hat \mathbf{p}_1$ is discussed in detail at _[[differential string structure]]_.
+
+Now, after [[Kaluza-Klein mechanism|dimensional reduction]] on a 4-[[sphere]], the [[action functional]] of [[11-dimensional supergravity]] on the remaining 7-dimensional $X$ contains a [[higher dimensional Chern-Simons theory|higher Chern-Simons term]] which up to prefactors is of the form
+
+$$
+  \hat G \mapsto 
+  \exp i 
+  \int_X 
+    (
+      \hat G \cup \hat G - 
+      (\frac{1}{4}\hat \mathbf{p}_1)^2
+    )
+  \,,
+$$
+
+where 
+
+* the cup product now is the differential [[Beilinson-Deligne cup product]] refinement of the integral cup product;
+
+* the symbol $\exp(i \int_X (-))$ denotes [[fiber integration in ordinary differential cohomology]].
+
+Using (eq:DifferentialQuantizationCondition) this is 
+
+$$
+  \cdots
+   = 
+  \exp i 
+  \int_X 
+  \left(
+    \hat a \cup \hat a + \hat a \cup \frac{1}{2}\hat \mathbf{p}_1
+  \right)
+  \,.
+$$
+
+But by corollary \ref{DivisibilityOfCupSquare} this is further divisible by 2.
+Hence the generator of the group of higher Chern-Simons action functionals is one half of this
+
+$$
+  \hat G 
+   \mapsto 
+  \exp i 
+  \int_X 
+   \frac{1}{2}
+    (
+      \hat G \cup \hat G - 
+      (\frac{1}{4}\hat \mathbf{p}_1)^2
+    )
+  \,.
+$$
+
+In ([Witten 1996](#Witten)) it is discussed that the space of [[states]] of this "fractional" functional over a 6-dimensional $\Sigma$ is the space of [[conformal blocks]] of the [[self-dual higher gauge theory]] on the [[M5-brane]].
+
+=--
+
 ## References
 
 The original reference is 
@@ -67,5 +223,11 @@ The original reference is
 Details are reviewed in appendix E of
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+ {#HopkinsSinger}
+
+This is based on or motivated from observations in 
+
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+ {#Witten}
 
 [[!redirects Wu classes]]
