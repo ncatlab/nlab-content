@@ -55,6 +55,8 @@ The 5d $(2,0)$-[[SCFT]] has tensionless 1-[[brane]] configurations. From the poi
 Physical Mathematics_ , talk at Strings2011 ([pdf slides](http://www-conference.slu.se/strings2011/presentations/3%20Wednesday/930_Moore.pdf))
   {#Moore}
 
+See also the references and discussion at _[[M5-brane]]_.
+
 ### Models and special properties
  {#ModelsAndSpecialProperties}
 
@@ -93,7 +95,7 @@ Local Solutions_ ([arXiv:0806.0605](http://arxiv.org/abs/0806.0605))
 * [[Jerome Gauntlett]], [[Joaquim Gomis]], [[Paul Townsend]], _BPS Bounds for Worldvolume Branes_ ([arXiv:hep-th/9711205](http://arxiv.org/abs/hep-th/9711205))
  {#GGT}
 
-* P.S. Howe, N.D. Lambert, [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_ ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
+* P.S. Howe, [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_ ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
 
 [[!redirects 6d (2,0)-susy QFT]]
 [[!redirects 6d (2,0)-superconformal QFT]]
