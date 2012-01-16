@@ -1,0 +1,6 @@
+
+* [webpage](http://rg.kcl.ac.uk/staffprofiles/staffprofile.php?pid=1240)
+
+category: people
+
+[[!redirects Pete West]]
