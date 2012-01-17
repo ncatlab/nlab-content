@@ -175,9 +175,11 @@ We list and discuss explit examples of classifying toposes.
 
 ### For objects
 
-The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the classifying topos for the [[theory of objects]] , sometimes called the "object classifier" (not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]] ).
+The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the classifying topos for the [[theory of objects]], sometimes called the "object classifier" (not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]] ).
 
 For $E$ any [[topos]], a [[geometric morphism]] $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$.
+
+Similarly, the presheaf topos $[FinSet_*, Set]$ (where $FinSet_*$ is the category of finite [[pointed sets]]) classifies pointed objects; cf. [this question](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify) and answer.
 
 ### For groups
 
@@ -196,7 +198,7 @@ The discussion above for groups can be repeated verbatim for rings, since they t
 
 ### For intervals
 
-[[Andre Joyal]] showed that $Set^{{\Delta}^{op}}$, the category of [[simplicial sets]], is the classifying topos for [[interval objects]].  For example, a geometric morphism from $Set$ to $Set^{{\Delta}^{op}}$ is an **interval** in $Set$, meaning a linearly ordered set with a top and bottom element.  
+[[Andre Joyal]] showed that $Set^{{\Delta}^{op}}$, the category of [[simplicial sets]], is the classifying topos for [[interval objects]].  For example, a geometric morphism from $Set$ to $Set^{{\Delta}^{op}}$ is an **interval** in $Set$, meaning a [[totally ordered set]] with distinct top and bottom elements.  
 
 ### For local rings
 
