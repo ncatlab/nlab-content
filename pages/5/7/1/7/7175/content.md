@@ -8,9 +8,11 @@
 In general, a __maximum__ is a [[top element]], a __minimum__ is a [[bottom element]], and an __extremum__ is either.  However, these terms are typically used in an [[analysis|analytic]] context where the [[order theory|order-theoretic]] aspects are secondary.  One also usually speaks of extrema of a [[function]], meaning a top or bottom element of the [[range]] of the function under its induced order as a [[subset]] of an ordered codomain.
 
 
-## Extrema of differentiable functions
+## Local extrema of differentiable functions
 
-Let $f$ be a [[differentiable function]] and let $x$ in its [[domain]] be a point where its [[derivative]] / [[Jacobian]] vanishes. Let $H_x(F)$ be the [[Hessian matrix]] of the function. Then
+In [[analysis]] one considers _local_ extrema of functions.
+
+Let $f$ be a [[differentiable function]] and let $x$ in its [[domain]] be a [[critical point]], a point where its [[derivative]] / [[Jacobian]] vanishes. Let $H_x(F)$ be the [[Hessian matrix]] of the function. Then
 
 * if $H_x(f)$ is a [[positive definite form]], then $x$ is called a **strict local minimum**;
 
@@ -21,6 +23,7 @@ Let $f$ be a [[differentiable function]] and let $x$ in its [[domain]] be a poin
 * if $H_x(f)$ is a [[negative semidefinite form]], then $x$ is called a **local maximum**;
 
 * if $H_x(f)$ is an [[indefinite form]], then $x$ is called a **nondegenerate saddle point**.
+
 
 
 [[!redirects extremum]]
