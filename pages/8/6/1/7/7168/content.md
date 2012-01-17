@@ -5,34 +5,54 @@
 
 ## Definition
 
-For $V$ a [[vector space]] or $k$-[[module]], a _quadratic form_ on $V$ is a map
+For $V$ a [[vector space]] or $k$-[[module]], a _quadratic form_ on $V$ is a [[function]]
 
 $$
   q\colon V \to k
 $$
 
-such that there is a [[bilinear form]] $\langle -,- \rangle\colon V \otimes V \to k$ with $q(v) = \langle v,v\rangle$.
+such that for all $v \in V$, $t \in k$
+
+$$
+  q(t v) = t^2 q(v)
+$$
+
+and
+
+$$
+  (v,w) \mapsto q(v+w) - q(v) - q(w) 
+$$
+
+is a [[bilinear form]]. 
 
 
 ## Quadratic refinement
 
-Notice that we recover $\langle -,-\rangle$ up to a multiple of 2 from its qudratic form
+Let 
 
 $$
-  2 \langle v,w\rangle = 
-  q(v + w) - q(v) - q(w) + q(0)
-  \,.
-$$
+  \langle -,-\rangle
+  : 
+  V \otimes V \to k
+$$ 
 
-A function $q'\colon V \to k$ (not necessarily bilinear) for which this equation holds _without_ the factor of 2, 
+be a [[bilinear form]]. We say a function $q : V \to k$ is a **quadratic refinement** of $\langle -,-\rangle$ if
 
 $$
   \langle v,w\rangle = 
-  q'(v + w) - q'(v) - q'(w) + q(0)
-  \,,
+  q(v + w) - q(v) - q(w)
 $$
 
-then $q'$ is called a **quadratic refinement** of $\langle -,-\rangle$. This is nontrivial when 2 is not invertible in $k$.
+for all $v,w \in V$.
+
+If this exists, then 
+
+$$
+  \langle v , v \rangle = 2 q(v)
+  \,.
+$$
+
+So a quadratic refinement always exists when $2 \in k$ is invertible. Otherwise its existence is a non-trivial condition.
 
 
 ## References
@@ -40,6 +60,8 @@ then $q'$ is called a **quadratic refinement** of $\langle -,-\rangle$. This is 
 Course notes include for instance
 
 * _On the relation between quadratic and bilinear forms_ ([pdf](http://www.maths.manchester.ac.uk/~khudian/Etudes/Algebra/quadrform2.pdf))
+
+* _Bilinear and quadratic forms_ ([pdf](http://buzzard.ups.edu/courses/2007spring/projects/ott-paper-revised.pdf))
 
 Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerful tool in [[algebraic topology]] and [[differential topology]]. See
 
