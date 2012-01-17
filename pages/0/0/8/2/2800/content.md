@@ -28,3 +28,4 @@ See the references at [[dendroidal set]].
 
 
 [[!redirects tree category]]
+[[!redirects dendrex category]]
