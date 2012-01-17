@@ -25,6 +25,10 @@ The collection of all critical points is also called the **critical locus** of $
 
 * Critical loci of [[functional]]s on [[jet space]]s are studied in [[variational calculus]].
 
+## Related concepts
+
+* [[extremum]]
+
 [[!redirects critical locus]]
 
 [[!redirects critical points]]
