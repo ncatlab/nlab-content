@@ -265,7 +265,7 @@ $$
   \exp(i S^\lambda(\hat b))^{-1}
   \exp(i S^\lambda(0)
   = 
-  \exp(i \int_X \hat a \cup \hat b)
+  \exp(i \int_X \hat a \cup \hat b))
   \,.
 $$
 
