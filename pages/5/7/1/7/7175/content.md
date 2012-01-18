@@ -10,21 +10,18 @@ In general, a __maximum__ is a [[top element]], a __minimum__ is a [[bottom elem
 
 ## Local extrema of differentiable functions
 
-Let $f$ be a twice-[[differentiable function]] and let $x$ in its [[domain]] be a [[critical point]], a point where its [[derivative]] / [[Jacobian]] vanishes. Let $H_x(F)$ be the [[Hessian matrix]] of the function. Then
+Let $f$ be a twice-[[differentiable function]] and let $x$ in its [[domain]] be a [[critical point]], a point where its [[derivative]] / [[Jacobian]] vanishes. Let $H_x(F)$ be the [[Hessian matrix]] of the function. 
 
-* if $H_x(f)$ is a [[positive definite form]], then $x$ is called a **strict local minimum**;
+* for $x$ to be a **strict local minimum**, it is sufficient that  $H_x(f)$ is a [[positive definite form]];
 
-* if $H_x(f)$ is a [[positive semidefinite form]], then $x$ is called a **local minimum**;
+* for $x$ to be a **local minimum**, it is sufficient that $H_x(f)$ is a [[positive semidefinite form]];
 
-* if $H_x(f)$ is a [[negative definite form]], then $x$ is called a **strict local maximum**;
+* for $x$ to be a **strict local maximum**, it is sufficient that $H_x(f)$ is a [[negative definite form]];
 
-* if $H_x(f)$ is a [[negative semidefinite form]], then $x$ is called a **local maximum**;
+* for $x$ to be a **local maximum**, it is sufficient that $H_x(f)$ is a [[negative semidefinite form]];
 
-* if $H_x(f)$ is an [[indefinite form]], then $x$ is called a **nondegenerate saddle point**.
+* for $x$ to be a **nondegenerate saddle point**, it is sufficient that $H_x(f)$ is an [[indefinite form]] in a strict sense (?). A saddle point is not a local extremum but is a critical point. 
 
-
-
-[[!redirects extremum]]
 [[!redirects extrema]]
 
 [[!redirects minimum]]
