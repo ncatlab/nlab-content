@@ -231,6 +231,8 @@ A discussion of $\sigma$-models of higher gauge theory type is at
 
 Concrete applications of $\sigma$-models with target [[stack]]s (typically smooth ones, hence [[smooth infinity-groupoid|smooth groupoid]]s) in [[string theory]] and [[supergravity]] are discussed for instance in
 
+* [[Tony Pantev]], [[Eric Sharpe]], _String compactifications on Calabi-Yau stacks_, Nucl.Phys. B733 (2006) 233-296, ([arXiv:hep-th/0502044](http://arxiv.org/abs/hep-th/0502044))
+
 * [[Tony Pantev]], [[Eric Sharpe]], _Gauged linear sigma-models for gerbes (and other toric stacks)_, ([arXiv:hep-th/0502053](http://arxiv.org/abs/hep-th/0502053))
  {#PantevSharpe}
 
