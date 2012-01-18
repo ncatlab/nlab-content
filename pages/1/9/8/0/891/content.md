@@ -34,13 +34,13 @@ These notions have generalizations when $C$ is an [[(∞,1)-category]]:
 
 * it has an "effective quotient" if it is [[delooping|deloopable]].
 
-
+For instance an [[action groupoid]] is a quotient of a group action in 2-category theory.
 
 ## Related concepts
 
 * [[subquotient]]
 
-* [[quotient space]]
+* [[quotient space]], [[geometric invariant theory]]
 
 * In [[type theory]]/[[homotopy type theory]] the analogous concept is that of [[quotient types]].
 
