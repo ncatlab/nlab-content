@@ -5,7 +5,7 @@
 
 ## Idea
 
-In general, a __maximum__ is a [[top element]], a __minimum__ is a [[bottom element]], and an __extremum__ is either.  However, these terms are typically used in an [[analysis|analytic]] context where the [[order theory|order-theoretic]] aspects are secondary.  One also usually speaks of extrema of a [[function]], meaning a top or bottom element of the [[range]] of the function under its induced order as a [[subset]] of an ordered codomain.  In this context, one also considers *local* extrema of functions; a __local extremum__ of $f$ is an extremum of a [[restriction]] of $f$ to an [[open subspace]] of its original domain.
+In general, a __maximum__ is a [[top element]], a __minimum__ is a [[bottom element]], and an __extremum__ is either.  However, these terms are typically used in [[analysis]], where the [[order theory]] is secondary.  One also usually speaks of extrema of a [[function]], meaning a top or bottom element of the [[range]] of the function under its induced order as a [[subset]] of an ordered codomain.  In this context, one also considers *local* extrema of functions; a __local extremum__ of $f$ is an extremum of a [[restriction]] of $f$ to an [[open subspace]] of its original domain.
 
 
 ## Local extrema of differentiable functions
