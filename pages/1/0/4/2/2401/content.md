@@ -114,7 +114,7 @@ Notice well the two assumptions that were made to make this argument work:
 
 * [[representable functor]]
 
-* [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
+* [[classifying space]], [[classifying stack]], **moduli space**, [[moduli stack]], [[derived moduli space]], [[geometric invariant theory]]
 
 * [[classifying topos]]
 
