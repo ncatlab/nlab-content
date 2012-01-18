@@ -10,17 +10,25 @@ In general, a __maximum__ is a [[top element]], a __minimum__ is a [[bottom elem
 
 ## Local extrema of differentiable functions
 
-Let $f$ be a twice-[[differentiable function]] and let $x$ in its [[domain]] be a [[critical point]], a point where its [[derivative]] / [[Jacobian]] vanishes. Let $H_x(F)$ be the [[Hessian matrix]] of the function. 
+We list some sufficient and necessary conditions for a (nice) function $f$ on a [[smooth manifold]] to have a local extremum at a point $x$. As these are local conditions, we may assume $f$ is a function $U \to \mathbb{R}$ where $U$ is an open neighborhood of $\mathbb{R}^n$. These conditions fall under the rubric of "second derivative test". 
 
-* for $x$ to be a **strict local minimum**, it is sufficient that  $H_x(f)$ is a [[positive definite form]];
+Assume $f$ to be a twice-[[differentiable function]], and let $x$ in its [[domain]] be a [[critical point]]: a point where its [[derivative]] / [[Jacobian]] vanishes. Let $H_x(f)$ be the [[Hessian matrix]] of the function. Recall that $x$ is a **nondegenerate** critical point if the symmetric matrix $H_x$ is nondegenerate; equivalently, if $0$ is not an eigenvalue of $H_x$. 
 
-* for $x$ to be a **local minimum**, it is sufficient that $H_x(f)$ is a [[positive semidefinite form]];
+Let $x$ be a nondegenerate critical point. Then  
 
-* for $x$ to be a **strict local maximum**, it is sufficient that $H_x(f)$ is a [[negative definite form]];
+* For $x$ to be a **strict local minimum** (where $f(x)$ is strictly less than $f(y)$ for every $y \neq x$ in every sufficiently small neighborhood of $x$), it is necessary and sufficient that  $H_x(f)$ be a [[positive definite form]]. 
 
-* for $x$ to be a **local maximum**, it is sufficient that $H_x(f)$ is a [[negative semidefinite form]];
+* For $x$ to be a **strict local maximum**, it is necessary and sufficient that $H_x(f)$ be a [[negative definite form]]. 
 
-* for $x$ to be a **nondegenerate saddle point**, it is sufficient that $H_x(f)$ is an [[indefinite form]] in a strict sense (?). A saddle point is not a local extremum but is a critical point. 
+(The only other possibility left for a nondegenerate critical point is that $H_x$ be an indefinite (nondegenerate) matrix, having a mix of positive and negative eigenvalues. In this case, $x$ is a **saddle point**. For more on this, see [[Morse theory]].) 
+
+If $x$ is a _degenerate_ critical point (so $0$ is an eigenvalue of $H_x$), we have: 
+
+* For $x$ to be a **local minimum**, it is necessary that $H_x(f)$ be a [[positive semidefinite form]], i.e., that all eigenvalues are nonnegative.
+
+* For $x$ to be a **local maximum**, it is necessary that $H_x(f)$ be a [[negative semidefinite form]], i.e., that all eigenvalues are nonpositive.
+
+These conditions are not sufficient. For a simple example, the origin in $\mathbb{R}^2$ is a critical point of $f(x, y) = x^3 - y^3$, where the Hessian is the zero matrix (hence positive semidefinite and negative semidefinite), but clearly the origin is neither a local maximum nor a local minimum. 
 
 [[!redirects extrema]]
 
