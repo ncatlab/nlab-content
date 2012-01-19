@@ -76,11 +76,15 @@
 
 * [[∞-Lie algebra cohomology]]
 
-  * [[Lie algebra cohomology]], [[nonabelian Lie algebra cohomology]], [[Lie algebra extensions]], [[Gelfand-Fuks cohomology]]
+  * [[Lie algebra cohomology]], [[nonabelian Lie algebra cohomology]], [[Lie algebra extensions]], [[Gelfand-Fuks cohomology]], 
 
+* [[Gerstenhaber-Schack cohomology|bialgebra cohomology]]
 
- 
-* [[?ech cohomology]], [[hypercohomology]]
+### Special notions
+
+* [[?ech cohomology]]
+
+* [[hypercohomology]]
 
 
 ### Variants ###
