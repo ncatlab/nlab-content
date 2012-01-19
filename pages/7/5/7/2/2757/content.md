@@ -1,3 +1,20 @@
-In [[Set]], the [[initial algebra]] for the functor $F: X \to 1 + X$ is $\langle 0, s \rangle : 1 + \mathbb{N} \to \mathbb{N}$, where $\mathbb{N}$ is the set of [[natural numbers]], $0$ is the smallest natural number, and $s$ is the [[successor]] operation. The principle of induction states that there is no proper [[subobject|subalgebra]] of $\mathbb{N}$; that is, the only subalgebra is $\mathbb{N}$ itself. This follows from the general property of initial objects that [[monomorphisms]] to them are [[isomorphisms]].
+
+#Contents#
+* tabl of contents
+{:toc}
+
+## Idea
+
+In the [[category]] [[Set]], the [[initial algebra]] [[algebra for an endofunctor|for the endofunctor]] $F: X \to 1 + X$ is $\langle 0, s \rangle : 1 + \mathbb{N} \to \mathbb{N}$, where $\mathbb{N}$ is the set of [[natural numbers]], $0$ is the smallest natural number, and $s$ is the [[successor]] operation. The principle of induction states that there is no proper [[subobject|subalgebra]] of $\mathbb{N}$; that is, the only subalgebra is $\mathbb{N}$ itself. This follows from the general property of [[initial objects]] that [[monomorphisms]] to them are [[isomorphisms]].
 
 More generally, the corresponding property of any initial algebra may be called __induction__. We then have induction over [[lists]], [[trees]], terms in a [[logic]], and so on.
+
+The [[duality|dual]] notion is that of _[[coinduction]]_.
+
+## References
+
+* [[Jiří Adámek]], Stefan Milius, Lawrence Moss, _Initial algebras and terminal coalgebras: a survey_ ([pdf](https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf))
+
+* Bart Jacobs, Jan Rutten, _A tutorial on (Co)Algebras and (Co)Induction_ ([pdf](http://www.cs.ru.nl/~bart/PAPERS/JR.pdf))
+
+[[!redirects inductions]]
