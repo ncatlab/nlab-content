@@ -21,7 +21,7 @@
 
 [[Murray Gerstenhaber|Gerstenhaber]] and Schack introduced a [[cohomology]] related to [[deformation theory|deformation]] theory of [[bialgebras]]. Teillefer has proven that this cohomology computes in fact the [[Ext]]-groups in certain [[abelian category]] of "tetramodules" over the bialgebra. A somewhat more systematic writeup of the proof is in the appendix [Shoikhet 09](#Shoikhet). 
 
-Please distinguish the Gerstenhaber-Schack bialgebra cohomology from [[Shahn Majid]]'s bialgebra cohomology which is (in full generality) nonabelian. In the $n$Lab we choose to use the term [[bialgebra cocycle]] unadorned for the Majid's cocycles and always use Gerstenhaber-Schack cocycle/cohomology for the latter, as it is often referred nowdays. 
+Please distinguish the Gerstenhaber-Schack bialgebra cohomology from [[Shahn Majid]]'s [[bialgebra cohomology]] which is (in full generality) nonabelian and cohomologies associated to other categories of "modules" in bialgebra theory (Hopf modules, Yetter-Drinfeld modules etc.). In the $n$Lab we choose to use the term [[bialgebra cocycle]] unadorned for the Majid's cocycles and always use Gerstenhaber-Schack cocycle/cohomology for the latter, as it is often referred nowdays. 
 
 ## References
 
