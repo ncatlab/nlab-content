@@ -38,6 +38,11 @@ This formula is symbolically also written as $\partial\chi = (\partial_+\chi)(\p
 An invertible $\chi\in H^{\otimes n}$ is an __$n$-cocycle__ if $\partial\chi = 1$. The cocycle $\chi$ is __counital__ if
 for all $i$, $\epsilon_i\chi=1$ where $\epsilon_i =\id_B^{\otimes i-1}\otimes\epsilon\otimes\id_B^{\otimes n-i}$. 
 
+
+## Examples
+
+#### Low dimensions
+
 $\chi\in H$ is a 1-cocycle iff it is invertible and [[grouplike element|grouplike]] i.e. $\Delta\chi=\chi\otimes\chi$ (in particular it is counital).  A 2-cocycle is an invertible element $\chi\in H^{\otimes 2}$ satisfying
 
 $$
@@ -51,9 +56,9 @@ $$
 (1\otimes\phi)((id\otimes\Delta\otimes id)\phi)(\phi\otimes 1) = ((id\otimes id\otimes\Delta)\phi)((\Delta\otimes id\otimes id)\phi)
 $$
 
-A counital 3-cocycle is the famous Drinfel'd associator appearing in CFT and quantum group theory. The coherence for monoidal structures can be twisted with the help of Drinfel'd associator; Hopf algebras reconstructing them appear then as quasi-Hopf algebras where the comultiplication is associative only up to twisting by a 3-cocycle in $H$.  
+A counital 3-cocycle is the famous __Drinfel'd associator__ appearing in CFT and quantum group theory. The coherence for monoidal structures can be twisted with the help of Drinfel'd associator; Hopf algebras reconstructing them appear then as quasi-Hopf algebras where the comultiplication is associative only up to twisting by a 3-cocycle in $H$.  
 
-## Examples
+#### For particular Hopf algebras
 
 If $G$ is a finite group and $H=k(G)$ is the 
 [[Hopf algebra]] of $k$-valued functions on the group, then we recover the usual notions: e.g. the 2-cocycle is a function $\chi:G\times G\to k$ satisfying the cocycle condition
@@ -74,6 +79,8 @@ For example, if $\chi\in H\otimes H$ is a counital 2-cocycle, and $\partial\gamm
 $$ \chi^\gamma =  (\partial_+\gamma)\chi(\partial_-\gamma^{-1})= (\gamma\otimes\gamma)\chi\Delta\gamma^{-1} $$
 
 is another 2-cocycle in $H\otimes H$. In particular, if $\chi = 1$ we obtain that $\partial\gamma$ is a cocycle (that is every 2-coboundary is a cocycle). 
+
+## A dual theory
 
 In addition to cocycles "in" $H$ as above, Majid introduced a dual version -- cocycles on $H$. The usual Lie algebra cohomology $H^n(L,k)$, where $L$ is a $k$-Lie algebra, is a special case of that dual construction. 
 
