@@ -1,4 +1,30 @@
-[[Shahn Majid]] has introduced a notion of __bialgebra cocycles__ which as special cases comprise group cocycles, nonabelian Drinfel'd 2-cocycle and 3-cocycle, abelian Lie algebra cohomology and so on. Besides this case, by "bialgebra cohomology" many authors in the literature mean the abelian cohomology (Ext-groups) in certain category of "tetramodules" over a fixed bialgebra, which will be in $n$Lab referred as [[Gerstenhaber-Schack cohomology]]. 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+[[Shahn Majid]] has introduced a notion of __bialgebra cocycles__ which as special cases comprise [[group cohomology|group cocycles]], nonabelian Drinfel'd 2-cocycle and 3-cocycle, abelian [[Lie algebra cohomology]] and so on. 
+
+Besides this case, by "bialgebra cohomology" many authors in the literature mean the abelian cohomology ([[Ext|Ext-groups]]) in certain category of "tetramodules" over a fixed bialgebra, which will be in $n$Lab referred as [[Gerstenhaber-Schack cohomology]]. 
+
+## Definition
 
 Let $(H,\mu,\eta,\Delta,\epsilon)$ be a $k$-[[bialgebra]]. 
 Denote $\Delta_i : B^{\otimes n}\to B^{\otimes (n+1)} := \id_B^{\otimes (i-1)}\otimes\Delta\otimes\id_B^{\otimes(n-i+1)}$, for $i = 1,\ldots, n$, and $\Delta_0 := 1_B\otimes \id_B^{\otimes n}$, $\Delta_n := \id_B^{\otimes n}\otimes 1_B$. Notice that for the compositions $\Delta_i\circ\Delta_j = \Delta_{j+1}\circ\Delta_i$ for $i\leq j$.
@@ -27,7 +53,10 @@ $$
 
 A counital 3-cocycle is the famous Drinfel'd associator appearing in CFT and quantum group theory. The coherence for monoidal structures can be twisted with the help of Drinfel'd associator; Hopf algebras reconstructing them appear then as quasi-Hopf algebras where the comultiplication is associative only up to twisting by a 3-cocycle in $H$.  
 
-If $G$ is a finite group and $H=k(G)$ is the Hopf algebra of $k$-valued functions on the group, then we recover the usual notions: e.g. the 2-cocycle is a function $\chi:G\times G\to k$ satisfying the cocycle condition
+## Examples
+
+If $G$ is a finite group and $H=k(G)$ is the 
+[[Hopf algebra]] of $k$-valued functions on the group, then we recover the usual notions: e.g. the 2-cocycle is a function $\chi:G\times G\to k$ satisfying the cocycle condition
 
 $$
 \chi(b,c)\chi(a,b c) = \chi(a,b)\chi(a b,c)
@@ -73,10 +102,10 @@ However for all $n$ the Lie algebra cohomology also appears as a special case.
 
 (to be completed later)
 
-References
+## References
 
-[[Shahn Majid]], _Cross product quantisation, nonabelian cohomology and twisting of Hopf algebras_, in H.-D. Doebner, V.K. Dobrev, A.G. Ushveridze, eds., Generalized symmetries in Physics. World Sci. (1994) 13-41; ([arXiv:hep.th/9311184](http://front.math.ucdavis.edu/9311.3184))
+* [[Shahn Majid]], _Cross product quantisation, nonabelian cohomology and twisting of Hopf algebras_, in H.-D. Doebner, V.K. Dobrev, A.G. Ushveridze, eds., Generalized symmetries in Physics. World Sci. (1994) 13-41; ([arXiv:hep.th/9311184](http://front.math.ucdavis.edu/9311.3184))
 
-[[Shahn Majid]], _Foundations of quantum group theory_, Cambridge UP
+* [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge UP
 
 [[!redirects bialgebra cocycles]]
