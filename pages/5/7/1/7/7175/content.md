@@ -10,9 +10,9 @@ In general, a __maximum__ is a [[top element]], a __minimum__ is a [[bottom elem
 
 ## Local extrema of differentiable functions
 
-We list some sufficient and necessary conditions for a (nice) function $f$ on a [[smooth manifold]] to have a local extremum at a point $x$. As these are local conditions, we may assume $f$ is a function $U \to \mathbb{R}$ where $U$ is an open neighborhood of $\mathbb{R}^n$. These conditions fall under the rubric of "second derivative test". 
+We list some sufficient and necessary conditions for a (nice) function $f$ on a [[smooth manifold]] to have a local extremum at a point $x$. As these are local conditions, we may assume $f$ is a function $U \to \mathbb{R}$ where $U$ is an [[open neighborhood]] in a [[Cartesian space]] $\mathbb{R}^n$. These conditions fall under the rubric of "second derivative test". 
 
-Assume $f$ to be a twice-[[differentiable function]], and let $x$ in its [[domain]] be a [[critical point]]: a point where its [[derivative]] / [[Jacobian]] vanishes. Let $H_x(f)$ be the [[Hessian matrix]] of the function. Recall that $x$ is a **nondegenerate** critical point if the symmetric matrix $H_x$ is nondegenerate; equivalently, if $0$ is not an eigenvalue of $H_x$. 
+Assume $f$ to be a twice-[[differentiable function]], and let $x$ in its [[domain]] be a [[critical point]]: a point where its [[derivative]] / [[Jacobian]] vanishes. Let $H_x(f)$ be the [[Hessian matrix]] of the function. Recall that $x$ is a **nondegenerate** critical point if the symmetric [[matrix]] $H_x$ is nondegenerate; equivalently, if $0$ is not an [[eigenvalue]] of $H_x$. 
 
 Let $x$ be a nondegenerate critical point. Then  
 
