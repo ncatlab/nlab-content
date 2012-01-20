@@ -11,6 +11,10 @@ More generally, the corresponding property of any initial algebra may be called 
 
 The [[duality|dual]] notion is that of _[[coinduction]]_.
 
+## Related concepts
+
+* [[inductive type]]
+
 ## References
 
 * [[Jiří Adámek]], Stefan Milius, Lawrence Moss, _Initial algebras and terminal coalgebras: a survey_ ([pdf](https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf))
