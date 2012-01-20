@@ -18,15 +18,15 @@
 
 The notion of _Fivebrane structure_ is the next higher analog of that of [[spin structure]] and [[string structure]].
 
-Recall from the discussion there that a [[string structure]] on [[manifold]] $X$ with [[spin structure]] is a lift $\hat g$ of the classifying map $g : X \to \mathcal{B}Spin(n)$ of the [[tangent bundle]] associated to a [[Spin group]]-[[principal bundle]] through the next step in the [[Whitehead tower]] of $O(n)$, called $\mathcal{B}String(n)$ -- the [[delooping]] of the [[String group]]:
+Recall from the discussion there that a [[string structure]] on [[manifold]] $X$ with [[spin structure]] is a lift $\hat g$ of the classifying map $g : X \to B Spin(n)$ of the [[tangent bundle]] associated to a [[Spin group]]-[[principal bundle]] through the next step in the [[Whitehead tower]] of $O(n)$, called $B String(n)$ -- the [[delooping]] of the [[String group]]:
 
 $$
   \array{
-    && \mathcal{B} String(n)
+    && B String(n)
     \\
     & {\hat g}\nearrow & \downarrow
     \\
-    X &\stackrel{g}{\to}& \mathcal{B}Spin(n)
+    X &\stackrel{g}{\to}& B Spin(n)
   }
   \,.
 $$
@@ -38,22 +38,62 @@ They wrote $O(n)\langle 8\rangle$ for the next step in the [[Whitehead tower]] o
 
 It was [[Hisham Sati]] who first realized that a lift of the [[tangent bundle]] $T X$ to this highly connected structure group is related to $X$ serving as a target for "spinning 5-branes" -- super-5-branes -- in what is called [[dual heterotic string theory]]. Following the history of the term [[String group]] he gave the topological group $O(n)\langle 8\rangle$ the name [[Fivebrane group]]:  $Fivebrane(n)$.
 
-Accordingly, a **Fivebrane structure(n)** on a manifold $X$ with [[string structure]] is a lift of $\hat g : X \to \mathcal{B}String(n)$ to $\hat \hat g$
+Accordingly, a **Fivebrane structure(n)** on a manifold $X$ with [[string structure]] is a lift of $\hat g : X \to B String(n)$ to $\hat \hat g$
 
 $$
   \array{
-    && \mathcal{B} Fivebrane(n)
+    && B Fivebrane(n)
     \\
-    & {\hat g}\nearrow & \downarrow
+    & {\hat \hat g}\nearrow & \downarrow
     \\
-    X &\stackrel{g}{\to}& \mathcal{B}String(n)
+    X &\stackrel{\hat g}{\to}& B String(n)
+  }
+  \,.
+$$
+
+The obstruction class to this lift is a fractional multiply of the second [[Pontrjagin class]]. Namely the generator of $H^8(B String, \mathbb{Z})$ is $\frac{1}{6}p_2$, 
+
+$$
+  \array{
+     B String &\stackrel{1/6 p_2}{\to}& B^8 \mathbb{Z}
+     \\
+     \downarrow && \downarrow^{\mathrlap{\cdot 6}}
+     \\
+     B SO &\stackrel{p_2}{\to}& B^8 \mathbb{Z}
+  }
+  \,.
+$$
+
+(stated in [SSS2](#SSS2), then in [DHH](#DHH), also follows from the [[index theory]] argument leading to (3.3) in [Witten 96](#Witten96)).
+
+The [[Fivebrane group]] is the [[loop space object]] of the corresponding [[homotopy fiber]]
+
+$$
+  \array{
+    B Fivebrane &\to& * 
+    \\
+    \downarrow && \downarrow
+    \\
+    B String &\stackrel{\frac{1}{6}}{\to} B^7 U(1)&
+  }
+$$
+
+and so, by the [[universal property]] of the [[homotopy pullback]], String-structures $\hat g$ lift to Fivebrane structures precisely if $\frac{1}{6}p_2(\hat g)$ is trivial in [[cohomology]]
+
+$$
+  \array{
+    && B Fivebrane &\to& * 
+    \\
+    {}^{\mathllap{\hat \hat g}}\nearrow & \downarrow && \downarrow
+    \\
+    X &\stackrel{\hat g}{\to}& B String &\stackrel{\frac{1}{6}p_2}{\to}& B^7 U(1)
   }
   \,.
 $$
 
 In ([SSS2](#SSS2)) the physical interpretation of this topological lift was established by comparison with known [[quantum anomaly]] cancellaton conditions in [[dual heterotic string theory]].
 
-Thee term "Fivebrane" apparently quickly caught on in the mathematical community, for instance in ([DouglasHenriquesHill](#DHH)).
+The term "Fivebrane" apparently quickly caught on in the mathematical community, for instance in ([DouglasHenriquesHill](#DHH)).
 
 Since [[gauge theory]] is not just about [[principal bundle]]s, but about principal [[connection on a bundle|bundles with connection]], what matters in physics is not just the topological Spin-, String- and Fivebrane structures, but their refinement to [[schreiber:differential nonabelian cohomology]]. See [[differential fivebrane structure]].
 
@@ -76,6 +116,12 @@ The notion was introduced in
 It is briefly mentioned in
 
 * [[Chris Douglas]], [[André Henriques]], Michael Hill, _Homological obstructions to string orientations_ ([arXiv](http://arxiv.org/abs/0810.2131))
+ {#DHH}
+
+Related structures are also mentioned around p. 9 of 
+
+* [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_ ([arXiv:hep-th/9609122](http://arxiv.org/abs/hep-th/9609122))
+ {#Witten96}
 
 
 The differential refinement is discussed in 
