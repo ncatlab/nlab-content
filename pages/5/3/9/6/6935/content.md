@@ -99,5 +99,8 @@ Expositions (with an eye towards [[higher inductive types]]) include
 
 * [[Peter LeFanu Lumsdaine]], _Higher inductive types, a tour of the menageries_ ([blog post](http://homotopytypetheory.org/2011/04/24/higher-inductive-types-a-tour-of-the-menagerie/))
 
-[[!redirects inductive types]]
+A study of the "homotopy-initiality" of inductive types in [[homotopy type theory]] is in
 
+* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory*, [arXiv](http://arxiv.org/abs/1201.3898)
+
+[[!redirects inductive types]]
