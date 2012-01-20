@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -12,7 +12,6 @@
 # Locally compact spaces
 * table of contents
 {: toc}
-
 
 ## Definition
 
@@ -70,13 +69,15 @@ Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever 
 
 * [[Gelfand duality]]
 
+
 [[!redirects locally compact space]]
 [[!redirects locally compact spaces]]
+[[!redirects locally compact topological space]]
+[[!redirects locally compact topological spaces]]
+[[!redirects locally compact]]
 
 [[!redirects locally compact Hausdorff space]]
 [[!redirects locally compact Hausdorff spaces]]
-
-[[!redirects locally compact topological spaces]]
-
 [[!redirects locally compact Hausdorff topological space]]
 [[!redirects locally compact Hausdorff topological spaces]]
+[[!redirects locally compact Hausdorff]]
