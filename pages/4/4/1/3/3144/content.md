@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _simplicial ring_ is a [[simplicial object]] in the [[category]] [[Ring]] or [[ring]]s.
+A _simplicial ring_ is a [[simplicial object]] in the [[category]] [[Ring]] of [[ring]]s.
 
 It may be understood conceptually as follows:
 
@@ -85,7 +85,7 @@ Equip $A SMod$ with the structure of a [[model category]] by setting:
 
 ## References
 
-An introductin is in chapter 4 of
+An introduction is in chapter 4 of
 
 * [[Bertrand Toën]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
 
