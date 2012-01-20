@@ -16,11 +16,11 @@ Assume $f$ to be a twice-[[differentiable function]], and let $x$ in its [[domai
 
 Let $x$ be a nondegenerate critical point. Then  
 
-* For $x$ to be a **strict local minimum**, it is necessary and sufficient that $H_x(f)$ be a [[positive definite form]]. 
+* For $x$ to be a **strict local minimum** within some neighborhood, it is necessary and sufficient that $H_x(f)$ be a [[positive definite form]]. 
 
-* For $x$ to be a **strict local maximum**, it is necessary and sufficient that $H_x(f)$ be a [[negative definite form]]. 
+* For $x$ to be a **strict local maximum** within some neighborhood, it is necessary and sufficient that $H_x(f)$ be a [[negative definite form]]. 
 
-(The only other possibility left for a nondegenerate critical point is that $H_x$(f) be an [[indefinite form]], having a mix of positive and negative eigenvalues. In this case, $x$ is a **saddle point**. For more on this, see [[Morse theory]].) 
+(The only other possibility left for a nondegenerate critical point is that $H_x(f)$ be an [[indefinite form]], having a mix of positive and negative eigenvalues. In this case, $x$ is a **saddle point**. For more on this, see [[Morse theory]].) 
 
 If $x$ is a _degenerate_ critical point (so $0$ is an eigenvalue of $H_x$), we have: 
 
