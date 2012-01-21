@@ -24,7 +24,7 @@ It is an (∞,1)-[[categorification]] of the notion of a [[topos]] being [[conne
 
 ## Definition
 
-Let $\mathbf{H}$ be a ([[(∞,1)-sheaf (∞,1)-topos|(∞,1)-sheaf]]-)$(\infty,1)$-topos.  It therefore admits a unique [[geometric morphism]] $(\Gamma,LConst)\colon \mathbf{H}\to $ [[∞Grpd]] given by [[global section]]s.  We say that $\mathbf{H}$ is **$\infty$-connected** if $LConst$ is [[fully faithful (∞,1)-functor]|fully faithful]].
+Let $\mathbf{H}$ be a ([[(∞,1)-sheaf (∞,1)-topos|(∞,1)-sheaf]]-)$(\infty,1)$-topos.  It therefore admits a unique [[geometric morphism]] $(L\Const\dashv\Gamma)\colon \mathbf{H}\xrightarrow{\Gamma} $ [[∞Grpd]] given by [[global section]]s.  We say that $\mathbf{H}$ is **$\infty$-connected** if $LConst$ is [[fully faithful (∞,1)-functor|fully faithful]].
 
 More generally, we call a [[geometric morphism]] between $(\infty,1)$-toposes **connected** if its [[inverse image functor]] is [[full and faithful (∞,1)-functor|fully faithful]].
 
