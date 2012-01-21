@@ -1,0 +1,11 @@
+
+
+
+
+* [Faulty profile](http://www.math.northwestern.edu/people/facultyProfiles/andrei.suslin.html)
+
+
+* [Wikipedia (English)](http://en.wikipedia.org/wiki/Andrei_Suslin)
+
+
+category:people
