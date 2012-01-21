@@ -300,7 +300,7 @@ $$
     \,,
   \end{aligned}
 $$
-where we used the adjunction isomorphism and the fact that any [[hom-functor]] preserves limits (see there). Because this is natural in $x$ the [[Yoneda lemma]] implis that we have an [[isomorphism]]
+where we used the adjunction isomorphism and the fact that any [[hom-functor]] preserves limits (see there). Because this is natural in $x$ the [[Yoneda lemma]] implies that we have an [[isomorphism]]
 
 $$
   R {\lim_\leftarrow}_i y_i
