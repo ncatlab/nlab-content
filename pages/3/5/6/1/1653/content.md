@@ -125,9 +125,7 @@ A useful series of expositions along these lines is in
 
 ## Revision plan
 
-1.  Move [[Cheng measurable space]] to its own page.
-
-2.  Describe several variations of definition:
+1.  Describe several variations of definition:
     *  with a filter of full sets,
     *  localisable,
     *  Cheng,
@@ -136,9 +134,9 @@ A useful series of expositions along these lines is in
     *  finitary,
     *  noncommutative.
 
-3.  Do measurable functions only afterwards, stressing almost-everywhere equality.  Describe the relevant categories.
+2.  Do measurable functions only afterwards, stressing almost-everywhere equality.  Describe the relevant categories.
 
-4.  Mention measure spaces and anything else.
+3.  Mention measure spaces and anything else.
 
 
 [[!redirects measurable space]]
