@@ -1,0 +1,21 @@
+
+[[!redirects measurable set]]
+[[!redirects measurable sets]]
+[[!redirects measurable subset]]
+[[!redirects measurable subsets]]
+[[!redirects measurable subspace]]
+[[!redirects measurable subspaces]]
+
+[[!redirects relatively measurable subset]]
+[[!redirects relatively measurable subsets]]
+[[!redirects relatively measurable set]]
+[[!redirects relatively measurable sets]]
+
+[[!redirects sigma-measurable subset]]
+[[!redirects sigma-measurable subsets]]
+[[!redirects ∞-measurable subset]]
+[[!redirects ∞-measurable subsets]]
+[[!redirects sigma-measurable set]]
+[[!redirects sigma-measurable sets]]
+[[!redirects ∞-measurable set]]
+[[!redirects ∞-measurable sets]]
