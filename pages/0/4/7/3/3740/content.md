@@ -11,7 +11,7 @@ These are really concepts in [[constructive mathematics]].  Using [[excluded mid
 
 Actually, there is a small technicality: most naturally, a lower real may (classically) be either a real number or $\infty$, while an upper real may be either a real number or $-\infty$.  You can restrict to _bounded_ lower/upper reals to avoid that, or alternatively genralise to _extended_ lower/upper reals if you want to include both $\pm\infty$ at once.
 
-In [[topos]] theory, one-sided numbers are often called (upper or lower) *semicontinuous* numbers; in a [[sheaf topos]], internal semicontinuous numbers are external (upper or lower) [[semicontinuous function]]s.
+In [[topos theory]], one-sided numbers are often called (upper or lower) *semicontinuous* numbers; in a [[sheaf topos]], internal semicontinuous numbers are external (upper or lower) [[semicontinuous function]]s.
 
 Lower and upper reals don\'t interact well together; for a system that naturally includes both (and, constructively, much more), use the [[MacNeille real number]]s.
 
