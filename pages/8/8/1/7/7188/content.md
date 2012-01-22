@@ -1,0 +1,5 @@
+
+[[!redirects measurable function]]
+[[!redirects measurable functions]]
+[[!redirects measurable map]]
+[[!redirects measurable maps]]
