@@ -45,8 +45,8 @@ Special characters
 `\b`, `\B`
 : Match word boundaries and nonword boundaries respectively.  Thus `cat` matches against `category` and `cat` but `cat\b` only matches `cat` (and `scat`).
 
-`[character list]`
-: This matches against a single character in the list.  The characters `|`, `(`, `)`, `[`, `^`, `$`, `*`, `?` are treated as regular characters in such a list.  You can specify a range using `-`: thus, `a-z`.  To include a `]` or `-` it must come at the start of the list.  A `^` at the start negates the list.
+`[`...`]`
+: This matches against a single character in a list.  The characters `|`, `(`, `)`, `[`, `^`, `$`, `*`, `?` are treated as regular characters in such a list.  You can specify a range using `-`: thus, `a-z`.  To include a `]` or `-` it must come at the start of the list.  A `^` at the start negates the list.
 
 `\d`, `\s`, `\w`
 : These match, respectively, digits, spaces, and word characters.
@@ -57,24 +57,23 @@ Special characters
 `.` (period)
 : Matches any character except a newline.
 
-`(...)`
-: Parentheses group pieces of the regular expression.  This is important for the following modifications.  In these, `re` stands for a sub-expression which can be a single character, a `[...]`, or a grouped expression.
+`(`...`)`
+: Parentheses group pieces of the regular expression.  This is important for the following modifications.  In these, $x$ stands for a sub-expression which can be a single character, a `[`...`]`, or a `(`...`)`.
 
-`re*`
-: Matches zero or more occurrences of `re`.  Thus `ab*` matches `a`, `ab`, `abb`, and so forth.  Similarly, `(cat)*` matches `cat`, `catcat`, `catcatcat`, and so forth.  This will try to match as much as possible; use `re*?` to make it match as little as possible.
+$x$`*`
+: Matches zero or more occurrences of $x$.  Thus `ab*` matches `a`, `ab`, `abb`, and so forth.  Similarly, `(cat)*` matches `cat`, `catcat`, `catcatcat`, and so forth.  This will try to match as much as possible; use $x$`*?` to make it match as little as possible.
 
-`re+`
-: Matches one or more occurrences of `re`.  Thus `ab+` matches `ab`, `abb`, but not `a`.  This will try to match as much as possible; use `re+?` to make it match as little as possible.
+$x$`+`
+: Matches one or more occurrences of $x$.  Thus `ab+` matches `ab`, `abb`, but not `a`.  This will try to match as much as possible; use $x$`+?` to make it match as little as possible.
 
+$x$`{`$m$`,`$n$`}`
+: Matches at least $m$ and at most $n$ occurrences of $re$.  This will try to match as much as possible; use $x$`{`$m$`,`$n$`}?` to make it match as little as possible.
 
-`re{m,n}`
-: Matches at least `m` and at most `n` occurrences of re.  This will try to match as much as possible; use `re{m,n}?` to make it match as little as possible.
+$x$`?`
+: Matches zero or one occurrence of $x$.
 
-`re?`
-: Matches zero or one occurrence of `re`.
-
-`re1|re2`
-: Matches either `re1` or `re2`.
+$x_1$|$x_2$
+: Matches either $x_1$ or $x_2$.
 
 
 [[!redirects Searching nLab]]
