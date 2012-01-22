@@ -19,4 +19,8 @@ I am a C.L.E. Moore instructor and NSF postdoc at MIT. I study the interactions 
 
 * [[string 2-group]]
 
+* [[(infinity,n)-category]]
+
 category: people
+
+[[!redirects Christopher Schommer-Pries]]
