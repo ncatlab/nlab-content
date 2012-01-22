@@ -15,7 +15,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -91,7 +91,7 @@ The most common cases for $C$ are
 
 * By modular tensor n-categories?
 
-#Classification of ETQFT's#
+## Classification of ETQFT's
 
 Assume $Z: n Cob_d \rightarrow n Vect(R)$ is an extended TQFT. Since $Z$ maps the $(d-1)$-dimensional vacuum to $R$ as an $R$-vector space, by functoriality $Z$ is forced to map a $d$-dimensional closed manifold to an element of $R$. 
 Iterating this argument, one is naturally led to conjecture that, under the correct categorical hypothesis, the behaviour of $Z$ is enterely determined by its behaviour on $(d-n)$-dimensional manifolds. See details at [[cobordism hypothesis]].
@@ -117,6 +117,17 @@ More on extended QFTs is also at
 * [[John Baez]] and [[James Dolan]], Higher-dimensional Algebra and Topological Quantum Field Theory.  [arXiv](http://arxiv.org/abs/q-alg/9503002)
 
 * [[Jacob Lurie]],  _[[On the Classification of Topological Field Theories]]_  
+
+With an eye towards the full extension of [[Chern-Simons theory]]:
+
+* [[Dan Freed]], _Remarks on Fully Extended 3-Dimensional
+Topological Field Theories_ (2011) ([pdf](http://www.ma.utexas.edu/users/dafr/stringsmath_np.pdf))
+
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ , in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010) ([arXiv](http://arxiv.org/abs/0905.0731))
+
+
+***
+
 
 
 +-- {: .query}
