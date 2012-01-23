@@ -66,7 +66,7 @@ This is for instance in ([Johnstone]{#Johnstone}) and in ([Lurie, remark 2.5.11]
 
 * [[ringed space]], [[locally ringed space]]
 
-* [[ringed site]], [[locally ringed sire]]
+* [[ringed site]], [[locally ringed site]]
 
 * [[ringed topos]], **locally ringed topos**
 
