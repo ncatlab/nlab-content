@@ -4,7 +4,7 @@ This page describes some nice properties of the [[category]] $R Cocomm Coalg$ of
 
 ## References 
 
-Michael Barr, [Coalgebras over a commutative ring](ftp://ftp.math.mcgill.ca/pub/barr/coalgebra.pdf), J. Alg. 32 (1974), 600--610. 
+Michael Barr, [Coalgebras over a commutative ring](http://www.math.mcgill.ca/barr/ftp/pdffiles/coalgebra.pdf), J. Alg. 32 (1974), 600--610. 
 
 Hans-Eberhard Porst, [On corings and comodules](http://dml.cz/bitstream/handle/10338.dmlcz/108017/ArchMathRetro_042-2006-4_7.pdf), Archivum Mathematicum (2006), No. 4, 419-425. 
 
