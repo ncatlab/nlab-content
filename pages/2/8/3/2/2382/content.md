@@ -80,6 +80,8 @@
 
   * [[open geometric morphism]]
 
+  * [[proper geometric morphism]]
+
   * [[local geometric morphism]]
 
   * [[bounded geometric morphism]]
