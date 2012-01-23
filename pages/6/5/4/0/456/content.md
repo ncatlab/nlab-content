@@ -262,6 +262,8 @@ There are various special cases and types of classes of geometric morphisms. For
 
 * [[open geometric morphism]]
 
+* [[proper geometric morphism]]
+
 * [[local geometric morphism]]
 
 * [[bounded geometric morphism]]
