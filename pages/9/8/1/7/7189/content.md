@@ -1,0 +1,9 @@
+## Definition
+
+Let $j\colon A \to C$ be a [[functor]] between [[categories]].  Its **codensity monad** is the right [[Kan extension]] $Ran_j j$ of $j$ along itself, if this exists (as it certainly does when $A$ is [[small category|small]] and $C$ is [[complete category|complete]]).
+
+The name comes because $j$ is [[dense functor|codense]] just when its codensity monad is the identity.  Thus, in general, the codensity monad "measures the failure of $j$ to be codense".
+
+[[!redirects codensity monads]]
+[[!redirects density comonad]]
+[[!redirects density comonads]]
