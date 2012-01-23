@@ -39,7 +39,9 @@ These are important in analysis, and more generally whenever the [[quasiorder]] 
 The entire poset $P$ is also considered an __unbounded interval__ in itself.
 
 
-### Intervals in the real line
+### Examples
+
+#### Intervals in the real line
 
 Intervals of [[real numbers]] are important in [[analysis]] and [[topology]].  The bounded closed intervals in the real line are the original [[compact space]]s.
 
@@ -48,6 +50,10 @@ The __unit interval__ $[0,1]$ is primary in [[homotopy theory]]; a __[[homotopy]
 The usual [[integral]] in ordinary calculus is done over an interval in the real line, a compact interval for a 'proper' integral, or any interval for an 'improper' integral.  The theory of [[Lebesgue measure]] removes this restriction and allows integrals over any [[measurable subset]] of the real line.  Still, the Lebesgue measure on intervals (even compact intervals) generates all of the rest.
 
 To integrate a $1$-[[differential form|form]] on the real line requires orienting an interval; the standard orientation is from $x$ to $y$ in $[x,y]$.  If $x \gt y$, then $[x,y]$ (which by the definition above would be [[empty set|empty]]) may also be interpreted as $[y,x]$ with the reverse orientation.  This also matches the traditional notation for the integral.
+
+### Properties
+
+* The [[classifying topos]] for linear intervals is the category [[sSet]] of [[simplicial sets]]. See the section _[For intervals](http://ncatlab.org/nlab/show/classifying+topos#ForIntervals)_ at _[[classifying topos]]_.
 
 ## In homotopy theory
 
