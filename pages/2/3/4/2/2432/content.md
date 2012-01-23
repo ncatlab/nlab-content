@@ -42,8 +42,9 @@ The [[base change]] formulas for [[cohomology]] for proper and for smooth morphi
 ([Maltsiniotis](#Maltsiniotis)).
 
 ## Between toposes
-(...)
-I. Moerdijk, J.J.C. Vermeulen: Proper maps of toposes, American Mathematical Society (2000)
+
+See [[proper map of toposes]].
+
 
 ## References
 
