@@ -197,8 +197,9 @@ For any Grothendieck topos, say $E$, a left exact left adjoint functor $ f^*: S[
 The discussion above for groups can be repeated verbatim for rings, since they too are described by a finite products theory.
 
 ### For intervals
+ {#ForIntervals}
 
-[[Andre Joyal]] showed that $Set^{{\Delta}^{op}}$, the category of [[simplicial sets]], is the classifying topos for linear intervals (compare [[interval objects]]). For example, a geometric morphism from $Set$ to $Set^{{\Delta}^{op}}$ is an **interval** in $Set$, meaning a [[totally ordered set]] with distinct top and bottom elements. In general, a linear interval is a model for the one-sorted [[geometric theory]] whose [[signature]] consists of a binary [[relation]] $\leq$ and two [[constant|constants]] $0$, $1$, subject to the following [[axiom|axioms]]: 
+[[Andre Joyal]] showed that $Set^{{\Delta}^{op}}$, the category of [[simplicial sets]], is the classifying topos for linear [[intervals]] (compare [[interval objects]]). For example, a geometric morphism from $Set$ to $Set^{{\Delta}^{op}}$ is an **[[interval]]** in $Set$, meaning a [[totally ordered set]] with distinct top and bottom elements. In general, a linear interval is a model for the one-sorted [[geometric theory]] whose [[signature]] consists of a binary [[relation]] $\leq$ and two [[constant|constants]] $0$, $1$, subject to the following [[axiom|axioms]]: 
 
 * $\vdash (x \leq x)$
 * $\exists_y (x \leq y) \wedge (y \leq z) \vdash (x \leq z)$ 
