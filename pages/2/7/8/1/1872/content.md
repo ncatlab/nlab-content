@@ -1,7 +1,21 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -42,3 +56,4 @@ As a [[nonabelian cohomology|nonabelian]] [[Čech cohomology|Čech cocycle]] the
 
 [[!redirects Yang--Mills field]]
 [[!redirects Yang–Mills field]]
+[[!redirects Yang-Mills fields]]
