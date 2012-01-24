@@ -3,13 +3,25 @@
 {: toc}
 
 
-## Definition
+## Definition (categorical form)
 
 A **profinite group** is a [[pro-object]] in the category of [[finite group|finite groups]] (thus it might more precisely be called a pro-(finite group)).  
+
+###Commentary
 
 This means that it is a [[filtered category|cofiltered]] diagram of finite groups, which is thought of as a "formal limit" but the limit is not actually computed.  In most cases, the limit would not actually exist in the category of finite groups, and while it would exist in the category of all groups, it would be "wrong" category-theoretically: maps between profinite groups are not the same as maps between their honest limits in [[Grp]].
 
 However, because of [[Stone duality]], it turns out that maps between profinite groups _are_ the same as maps between their honest limits in the category of [[topological group|topological groups]], where the finite groups are given the discrete topology.  Thus, the category of profinite groups can alternately be defined as the category of topological groups that are filtered inverse limits of finite groups.  Moreover, the topological groups that arise in this way can be characterized as those which are [[Hausdorff space|Hausdorff]], [[compact space|compact]], and [[totally disconnected space|totally disconnected]], giving a more elementary definition. In other words, their underlying topological spaces are [[profinite space|profinite]].
+
+## Definition (inverse limit form)
+
+A   __profinite group__ is an inverse limit of a system of finite groups.
+
+###Commentary
+
+The finite groups are considered as compact discrete topological groups and so the inverse limit, as a closed subspace of the compact space that is the product of all those finite groups has the _inverse limit topology__, hence is, as is said above, a compact Hausdorff, totally disconnected group.
+
+Both ways of looking at profinite groups as useful, as sometimes a concept can be easier to understand in one of the settings. 
 
 
 ## Examples
@@ -36,6 +48,10 @@ However, because of [[Stone duality]], it turns out that maps between profinite 
 * Pro-p analytic groups have been introduced as an analogue of Lie groups, with certain rings of formal power series replacing differentiable functions.
 
 
+## Analogues of the group algebra construction
+
+If $G$ is a profinite or pro-p group, the best replacement for the group algebra of $G$  in this context will be  a [[pseudocompact algebra]].  This is the completed group algebra defined as the inverse limit of the ordinary group algebras $k[G/U]$ as $U$ varies through the open normal subgroups of $G$. Here the coefficient ring $k$ will be chosen itself to be a [[pseudocompact ring]]. As finite rings are pseudocompact, one of the most appropriate choices will be a $k = \mathbb{Z}_p$, the field of $p$ elements; (see the book by Dixon et al, below).
+
 ## References
 
  A recent textbook is
@@ -52,6 +68,10 @@ For the corresponding 'analytic theory' see:
 * J. Dixon, M. du Sautoy, A. Mann and D. Segal, _Analytic pro-p groups_, volume 61 of Cambridge Studies in Advanced Mathematics, 
 Cambridge Univ. Press 1999. 
 
+A standard starting point for the study of the homological properties of the completed group algebra of a profinite group is 
+
+
+* A. Brumer, _Pseudocompact algebras, profinite groups and class formations_,  J. Algebra __4__ (1966) 442-470, [MR202790](http://www.ams.org/mathscinet-getitem?mr=202790), <a href="http://dx.doi.org/10.1016/0021-8693(66)90034-2">doi</a>
 
 [[!redirects profinite group]]
 [[!redirects profinite groups]]
