@@ -23,12 +23,12 @@ It is the [[transferred model structure]] along the [[forgetful functor]] of the
 
 The model structure was given in
 
-* [[Ronnie Brown]], Marek Golasinski; _A model structure for the homotopy theory of crossed complexes_ ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1989__30_1_61_0))
+* [[Ronnie Brown]], Marek Golasinski; _A model structure for the homotopy theory of crossed complexes_ ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1989__30_1_61_0)) Cahiers Topologie G&#233;om. Diff&#233;rentielle 22 (1981), no. 4, 371&#8211;386. 
 {#BrownGolasinski}
 
 The relation to the model structure on strict $\omega$-categories was established in
 
-* Dimitri Ara, [[Francois Metayer]], _The Brown-Golasinski model structure on $\infty$-groupoids revisited_ ([pdf](http://hal.archives-ouvertes.fr/docs/00/52/58/42/PDF/folkgr.pdf))
+* Dimitri Ara, [[Francois Metayer]], _The Brown-Golasinski model structure on $\infty$-groupoids revisited_ ([pdf](http://hal.archives-ouvertes.fr/docs/00/52/58/42/PDF/folkgr.pdf)) Homology, Homotopy Appl. 13 (2011), no. 1, 121&#8211;142.
 {#AraMetayer}
 
 
