@@ -14,6 +14,7 @@ Roughly speaking, _vertical categorification_ is a procedure in which structures
 
 What precisely that means may depend on circumstances and authors, to some extent. The following lists some common procedures that are known as categorification. They are in general different but may in cases lead to the same categorified notions, as discussed in the examples.
 
+See also [[categorification in representation theory]].
 
 ## Variants
 
@@ -151,8 +152,7 @@ A bit of $n$-Caf&eacute; discussion on this subject can be found here:
 
 A general notion of categorification for structures defined by [[cartesian monads]], which specializes to produce weak [[n-categories]] in the sense of Leinster, can be found here:
 
-* Bourn and Penon, "Cat&#233;gorification de structures d&#233;finies par monade cart&#233;sienne", [link](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_2005__46_1_2_0).
-
+* [[D. Bourn]], J. Penon, _Cat&#233;gorification de structures d&#233;finies par monade cart&#233;sienne_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques __46__, no. 1 (2005), p. 2-52, [numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_2005__46_1_2_0).
 
 [[!redirects vertical categorification]]
 [[!redirects vertical categorifications]]
