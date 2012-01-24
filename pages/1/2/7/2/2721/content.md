@@ -766,3 +766,5 @@ An account in the more general context of Lie theory in [[cohesive (infinity,1)-
 
 [[!redirects algebra of invariant polynomials]]
 [[!redirects dg-algebra of invariant polynomials]]
+
+[[!redirects invariant polynomials]]
