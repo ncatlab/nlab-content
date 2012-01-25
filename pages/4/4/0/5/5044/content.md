@@ -65,4 +65,9 @@ The interpretation in terms of [[infinity-Chern-Weil theory]] is discussed in
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_ (2011)
 
+Relations to [[generalized complex geometry]] is discussed in
+
+* [[Alberto Cattaneo]], Jian Qiub, [[Maxim Zabzine]], _2D and 3D topological field theories for generalized complex geometry_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/GC_BV.pdf))
+
+
 [[!redirects Courant sigma model]]
