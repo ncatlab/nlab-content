@@ -746,7 +746,7 @@ More details for the moment at [[∞-Chern-Weil theory introduction]].
 
 * [[Chern-Simons element]]
 
-* **invariant polynomial**
+* **invariant polynomial**, [[invariant theory]]
 
 ## References
 
