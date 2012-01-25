@@ -72,3 +72,7 @@ A survey set of slides with an eye towards  the description of the [[Kalb-Ramond
 
 * [[Nigel Hitchin]], _B-Fields, gerbes and generalized geometry_ ([pdf](http://www.maths.dur.ac.uk/events/Meetings/LMS/2005/GCFTST/Talks/hitchin1.pdf)) 
 * [[Nigel Hitchin]], _Lectures on generalized geometry_, [arxiv/1008.0988](http://arxiv.org/abs/1008.0988)
+
+Relations to the [[Poisson sigma-model]] and the [[Courant sigma-model]] are discussed in
+
+* [[Alberto Cattaneo]], Jian Qiub, [[Maxim Zabzine]], _2D and 3D topological eld theories for generalized complex geometry_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/GC_BV.pdf))
