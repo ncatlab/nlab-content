@@ -150,14 +150,58 @@ It remains to identify the coalgebra structure on $k[x]_{(x)}$. This extends the
 
 $$\delta(x^N) = \sum_{m+n = N} x^m \otimes x^n.$$ 
 
-By duality, the definition of $\delta(\frac{x^i}{g^{rev}(x)})$ can be extracted from the multiplication table for residue classes $x^j \pmod g(x)$, but the algebra works out more cleanly if we assume if $k$ is algebraically closed. For in that case, we can take advantage of partial fraction decompositions of the form 
+We may as well focus on a typical subcoalgebra $(k[x]/(g(x)))^\ast$, with basis elements $\frac{x^i}{g^{rev}(x)}$. By duality, the definition of $\delta(\frac{x^i}{g^{rev}(x)})$ can be extracted from the multiplication table for residue classes $x^j \pmod g(x)$. 
+
+The calculations work out cleanest if we assume if $k$ is algebraically closed. For in that case, we can take advantage of partial fraction decompositions of the form 
 
 $$\frac{x^i}{g^{rev}(x)} = \sum_k \frac{A_k}{(1- r_k x)^{n_k}}$$ 
 
-so that it suffices to give $\delta(\frac1{(1 - r x)^n})$. 
+so that it suffices to give $\delta(\frac1{(1 - r x)^n})$, although the algebra works out better with a slightly different basis. 
 
-(To be continued. I need to work out a bit of combinatorics first. One nice thing that can be said is that $\frac1{1 - r x}$ is a grouplike element for 
-the coalgebra structure on $k[x]_{(x)}$ -- Todd.) 
+With this in mind, put $e_n(r) = \frac{(r x)^n}{(1 - r x)^{n+1}}$ for $n \geq 0$. The power series expansion is 
+
+$$e_n(r) = \sum_{k \geq 0} \binom{k}{n} r^k x^k$$ 
+
+and we _formally_ calculate 
+
+$$\array{
+\delta(e_n(r)) & = & \sum_k \binom{k}{n} r^k \delta(x^k) \\
+ & = & \sum_k \binom{k}{n} r^k \sum_{p+q=k} x^p \otimes x^q \\
+ & = & \sum_{p, q \geq 0} \binom{p+q}{n} r^p x^p \otimes r^q x^q \\
+ & = & \sum_{p, q} \sum_{i+j=n} \binom{p}{i} \binom{q}{j} r^p x^p \otimes r^q x^q \\
+ & = & \sum_{i+j=n} (\sum_p \binom{p}{i} r^p x^p) \otimes (\sum_q \binom{q}{j} r^q x^q) \\ 
+ & = & \sum_{i+j=n} e_i(r) \otimes e_j(r)
+}$$ 
+
+which exhibits comultiplication as deconcatenation, familiar from the usual coalgebra structure on $k[x]$. In particular, we have $\delta(e_0(r)) = e_0(r) \otimes e_0(r)$: the elements $e_0(r)$ are _grouplike_. 
+
+A more respectable-looking calculation (but really with the exact same content!) shows that the comultiplication thus defined on $k[x]_{(x)}$ is indeed adjoint to multiplication on $k[x]$: 
+
+$$\array{
+\langle x^p x^q, e_n(r) \rangle & = & \langle x^{p+q}, \sum_k \binom{k}{n} r^k x^k \rangle \\
+ & = & \binom{p+q}{n} r^{p+q} \\
+ & = & \sum_{i+j=n} \binom{p}{i} \binom{q}{j} r^p r^q \\
+ & = & \sum_{i+j=n} \langle x^p, e_i(r) \rangle \langle x^q, e_j(r) \rangle \\
+ & = & \sum_{i+j=n} \langle x^p \otimes x^q, e_i(r) \otimes e_j(r) \rangle \\
+ & = & \langle x^p \otimes x^q, \delta(e_n(r))
+}$$ 
+
+An analogous calculation shows that the counit $\varepsilon \colon k[x]_{(x)} \to k$ is defined by $\varepsilon(e_n(r)) = \delta_{0 n}$ (Kronecker delta). 
+
+We summarize the calculations above as follows. 
+
++-- {: .num_thm}
+###### Theorem 
+Let $k$ be an algebraically closed field. For each scalar $r \in k$ (including $r = 0$), let $L(r)$ denote the $k$-linear span of the elements $e_n(r) = \frac{(r x)^n}{(1 - r x)^{n+1}}$ in $k[x]_{(x)}$, with coalgebra structure given in each case by 
+
+$$\delta(e_n(r)) = \sum_{i+j=n} e_i(r) \otimes e_j(r), \qquad \varepsilon(e_n(r)) = \delta_{0 n}$$ 
+
+Then the cofree coalgebra over a 1-dimensional space $k$ is identified with $k[x]_{(x)}$, which decomposes as a direct sum of coalgebras 
+
+$$k[x]_{(x)} \cong \bigoplus_{r \in k} L(r)$$ 
+
+according to the partial fraction decomposition of rational functions. Each of the coalgebras $L(r)$ is isomorphic to $k[x]$ with its standard coalgebra structure. 
+=-- 
 
 ## Related concepts
 
