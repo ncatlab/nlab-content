@@ -218,7 +218,7 @@ The topos inherits most of the properties of $\mathcal{Z}$, notably:
   
   (chapter VI, below 5.4)
     
-* a version of [[nonstandard analysis]] is realized
+* invertible infinitesimally small and infinitesimally big numbers are realized (with some vague similarity to [[nonstandard analysis]], but without its basic features like transfer principle in full generality)
   
   (chapter VI, below 5.4).
 
