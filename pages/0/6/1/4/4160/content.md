@@ -9,7 +9,7 @@ The _Lebesgue measure_ is the usual [[measure]] on the [[real line]] (or on any 
 
 The Lebesgue measure's origins can be traced to the broader theory of Lebesgue integration.  The original purpose of the latter, in broad terms, was to expand the class of integrable functions in order to give meaning to functions that are _not_ Riemann integrable.  In order to accomplish this, the basic properties of the concept of the _length_ of an interval must be understood.  This then leads to the need to fully define the concept of _measure_, particularly in relation to sets.  We begin with a lemma and a corollary.
 
-**Lemma:** _Let I be an interval, $I=I_{1} \cup I_{2} \cup \cdots$ where $I_{1}, _{2}, \ldots$ are disjoint intervals.  Then ${|I|}=\sum_{j=1}^{\infty}{|I_{j}|}$ (interpreted to mean that if one side $+\infty$, then so is the other, where $\sum_{j=1}^{\infty}{|I_{j}|}$ can be $+\infty$, either because one of the summands is $+\infty$ or because the series diverges).
+**Lemma:** _Let I be an interval, $I=I_{1} \cup I_{2} \cup \cdots$ where $I_{1}, _{2}, \ldots$ are disjoint intervals.  Then ${|I|}=\sum_{j=1}^{\infty}{|I_{j}|}$ (interpreted so that $\sum_{j=1}^{\infty}{|I_{j}|}$ can be $+\infty$, either because one of the summands is $+\infty$ or because the series diverges).
 
 **Corollary:** _If I is any interval, then_
 
