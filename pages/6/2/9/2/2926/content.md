@@ -137,11 +137,11 @@ $$
 $$
 
 
-## On $\infty$-Lie groups {#OnInftyLieGroup}
+## On smooth $\infty$-groups {#OnInftyLieGroup}
 
-The theory of [[Lie group]]s embeds into the more general context of [[∞-Lie groupoid]]s. In this context the Maurer-Cartan form has an (even) more general abstract definition that does not even presuppose the notion of differential form as such:
+The theory of [[Lie groups]] embeds into the more general context of [[smooth ∞-groupoid]]s. In this context the Maurer-Cartan form has an (even) more general abstract definition that does not even presuppose the notion of differential form as such:
 
-for every Lie [[∞-group]] $G \in \infty LieGrpd$ with [[delooping]] $\mathbf{B}G$ there is canonically an [[∞-Lie groupoid]] $\mathbf{\flat}_{dR} \mathbf{B}G$ as described <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#CoeffsLieAlgForms">here</a>. Morphisms $X\to \mathbf{\flat}_{dR}\mathbf{B}G$ correspond to flat $\mathfrak{g}$-valued differential forms on $G$.
+for every [[smooth ∞-group]] $G \in Smooth\infty Grpd$ with [[delooping]] $\mathbf{B}G$ there is canonically an [[smooth ∞-groupoid]] $\mathbf{\flat}_{dR} \mathbf{B}G$ as described <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#CoeffsLieAlgForms">here</a>. Morphisms $X\to \mathbf{\flat}_{dR}\mathbf{B}G$ correspond to flat $\mathfrak{g}$-valued differential forms on $G$.
 
 This fits into a double [[(∞,1)-pullback]] diagram
 
