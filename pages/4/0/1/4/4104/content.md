@@ -6,7 +6,7 @@ If $G$ is a [[topological group]], a _Haar measure_ is a translation-invariant m
 
 The proper generality in which to discuss Haar measure is where the topological group $G$ is assumed to be [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]], and from here on we assume this. (For [[topological group]]s, the Hausdorff assumption is rather mild; it is equivalent to the $T_0$ separation condition. See the discussion at [[uniform space]].) 
 
-Let $C_c(G)$ denote the vector space of continuous real-valued functions with compact support on $G$. This is a [[locally convex topological vector space]] where the locally convex structure is specified by the family of seminorms 
+Let $C_c(G)$ denote the vector space of continuous real-valued functionals with compact support on $G$. This is a [[locally convex topological vector space]] where the locally convex structure is specified by the family of seminorms 
 
 $$\rho_K(f) = \sup_{x \in K} |f(x)|,$$ 
 
