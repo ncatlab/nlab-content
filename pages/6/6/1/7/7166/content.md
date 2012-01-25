@@ -103,7 +103,7 @@ Here, the cofree coalgebra $T(k)^\circ$ is the filtered colimit of finite-dimens
 
 $$(k[x]/I)^\ast$$ 
 
-where $k[x]/I$ is a (finite-dimensional) quotient of the polynomial algebra $k[x]$ modulo a non-zero ideal $I$. The adjoint of the quotient map $k[x] \to k[x]/I$ is an embedding $(k[x]/I)^\ast \hookrightarrow \prod_n k \cdot x^n$ into the space of formal power series in $x$. As a set, $T(k)^\circ$ is simply the union of the subspaces $(k[x]/I)^\ast \hookrightarrow \prod_n k \cdot x^n$. In other words, every $\xi \in T(k)^\circ$ belongs to some $(k[x]/I)^\ast$, and it suffices to consider first the structure of a typical such $\xi$ as a formal power series, and then how the comultiplication behaves on it. 
+where $k[x]/I$ is a (finite-dimensional) quotient of the polynomial algebra $k[x]$ modulo a non-zero ideal $I$. The adjoint of the quotient map $k[x] \to k[x]/I$ is an embedding $(k[x]/I)^\ast \hookrightarrow k[x]^\ast \cong \prod_n k \cdot x^n$ into the space of formal power series in $x$. As a set, $T(k)^\circ$ is simply the union of the subspaces $(k[x]/I)^\ast \hookrightarrow \prod_n k \cdot x^n$. In other words, every $\xi \in T(k)^\circ$ belongs to some $(k[x]/I)^\ast$, and it suffices to consider first the structure of a typical such $\xi$ as a formal power series, and then how the comultiplication behaves on it. 
 
 Now $I$ is a principal ideal $(g(x))$ for some polynomial $g(x) = b_0 + \ldots + b_n x^n$, where the top coefficient is of course assumed non-zero. We are trying to understand when a formal power series $\xi = \sum_{n \geq 0} a_n x^n \in \prod_n k \cdot x^n$ vanishes on $I$, in the sense that 
 
@@ -183,7 +183,7 @@ $$\array{
  & = & \sum_{i+j=n} \binom{p}{i} \binom{q}{j} r^p r^q \\
  & = & \sum_{i+j=n} \langle x^p, e_i(r) \rangle \langle x^q, e_j(r) \rangle \\
  & = & \sum_{i+j=n} \langle x^p \otimes x^q, e_i(r) \otimes e_j(r) \rangle \\
- & = & \langle x^p \otimes x^q, \delta(e_n(r))
+ & = & \langle x^p \otimes x^q, \delta(e_n(r)) \rangle. 
 }$$ 
 
 An analogous calculation shows that the counit $\varepsilon \colon k[x]_{(x)} \to k$ is defined by $\varepsilon(e_n(r)) = \delta_{0 n}$ (Kronecker delta). 
@@ -192,11 +192,11 @@ We summarize the calculations above as follows.
 
 +-- {: .num_thm}
 ###### Theorem 
-Let $k$ be an algebraically closed field. For each scalar $r \in k$ (including $r = 0$), let $L(r)$ denote the $k$-linear span of the elements $e_n(r) = \frac{(r x)^n}{(1 - r x)^{n+1}}$ in $k[x]_{(x)}$, with coalgebra structure given in each case by 
+Let $k$ be an algebraically closed field. For each nonzero scalar $r \in k$, let $L(r)$ denote the $k$-linear span of the elements $e_n(r) = \frac{(r x)^n}{(1 - r x)^{n+1}}$ in $k[x]_{(x)}$, with coalgebra structure given in each case by 
 
 $$\delta(e_n(r)) = \sum_{i+j=n} e_i(r) \otimes e_j(r), \qquad \varepsilon(e_n(r)) = \delta_{0 n}$$ 
 
-Then the cofree coalgebra over a 1-dimensional space $k$ is identified with $k[x]_{(x)}$, which decomposes as a direct sum of coalgebras 
+Let $L(0) = k[x]$ as a subspace of $k[x]_{(x)}$. The cofree coalgebra over a 1-dimensional space $k$, identified with $k[x]_{(x)}$, decomposes as a direct sum of coalgebras 
 
 $$k[x]_{(x)} \cong \bigoplus_{r \in k} L(r)$$ 
 
