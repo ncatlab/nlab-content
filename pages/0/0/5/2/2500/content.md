@@ -62,7 +62,7 @@ The condition of [[gauge invariance]] of an action functional on $\mathfrak{siso
 This uniqueness (under mild conditions) is one reason for interest in supergravity theories. Another important reason is that supergravity theories tend to remove some of the problems that are encountered when trying to realize [[gravity]] as a [[quantum field theory]]. Originally there had been high hopes that the maximally supersymmetric supergravity theory in 4-dimensions is fully [[renormalizable]]. This couldn't be shown computationally -- until recently: triggered by new insights recently there there has been lots of renewed activity on the renormalizability of maximal supergravity. 
 
 
-## As a gauge theory
+### As a gauge theory
 
 The non-spinorial part of [[action functional]]s of supergravity theories are typically given in [[first-order formulation of gravity|first order formulation]] as functional on a space of [[connection on a bundle|connections]] with values in the [[Poincare Lie algebra]] $\mathfrak{iso}(n,1)$. Including the fermionic fields, this becomes connections with values in the [[super Poincare Lie algebra]] $\mathfrak{siso}(10,1)$. 
 
@@ -70,7 +70,7 @@ This might suggest that supergravity is to be thought of as a [[gauge theory]]. 
 
 More generally ([DAuriaFreCastellani](#DauriaFreCastellani)) have shown that at least some versions, such as the maximal 11-dimensional supergravity are naturally understood as _higher_ gauge theories whose fields are [[∞-Lie algebra-valued forms]] with values in [[∞-Lie algebra]]s such as the [[supergravity Lie 3-algebra]]. This is described in detail at [[D'Auria-Fre formulation of supergravity]].
 
-## Solutions with global supersymmetry
+### Solutions with global supersymmetry
  {#SolutionsWithGlobalSupersymmetry}
 
 A solution to the bosonic [[Einstein equations]] of ordinary [[gravity]] -- some [[Riemannian manifold]] -- has a _global symmetry_ if it has a [[Killing vector]].
@@ -90,6 +90,85 @@ For more see
 * [[supersymmetry and Calabi-Yau manifolds]]
 
 
+## Properties
+
+### Scalar moduli spaces and $U$-duality
+ {#UDuality}
+
+The [[compact space|compact]] [[exceptional Lie groups]] form a series
+
+$$
+  E_8, E_7, E_6
+$$
+
+which is usefully thought of to continue as
+
+$$
+  E_5 := Spin(10), E_4 := SU(5), E_3 := SU(3) \times SU(2)
+  \,.
+$$
+
+Supergravity theories are controled by the corresponding
+[[split real forms]]
+
+$$
+  E_{8(8)}, E_{7(7)}, E_{6(6)}
+$$
+
+$$
+  E_{5(5)} := Spin(5,5), E_{4(4)} := SL(5, \mathbb{R}), 
+  E_{3(3)} := SL(3, \mathbb{R}) \times SL(2, \mathbb{R})
+  \,.
+$$
+
+For instance the [[scalar fields]] in the field [[supermultiplet]] of $3 \leq d \leq 11$-dimensional supergravity have [[moduli spaces]] parameterized by the [[homogeneous spaces]] 
+
+$$
+  E_{n(n)}/ K_n
+$$
+
+for 
+
+$$
+  n = 11 - d
+  \,,
+$$
+
+where $K_n$ is the [[maximal compact subgroup]] of $E_{n(n)}$:
+
+$$
+  K_8 \simeq Spin(16), K_7 \simeq SU(8), K_6 \simeq Sp(4)
+$$
+
+$$
+  K_5 \simeq Spin(5) \times Spin(5), 
+  K_4 \simeq Spin(5),
+  K_3 \simeq SU(2) \times SO(2)
+  \,.
+$$
+
+Therefore $E_{n(n)}$ acts as a [[global symmetry]] on the supergravity fields. 
+
+This is no longer quite true for their [[UV-completion]] by the corresponding [[Kaluza-Klein mechanism|compactifications]] of [[string theory]] (e.g. [[type II string theory]] for [[type II supergravity]], etc.). Instead, on these a [[discrete group|discrete subgroup]]
+
+$$
+  E_{n(n)}(\mathbb{Z}) \hookrightarrow E_{n(n)}
+$$
+
+acts as global symmetry. This is called the **[[U-duality]]** group of the supergravity theory.
+
+It has been argued that this pattern should continue in some way further to the remaining values $0 \leq d \lt 3$,
+with "groups" corresponding to the [[Kac-Moody algebras]]
+
+$$
+  \mathfrak{e}_9, \mathfrak{e}_10, \mathfrak{e}_{11}
+  \,.
+$$
+
+Continuing in the other direction to $d = 10$ ($n = 1$) connects to the [[T-duality]] group $O(d,d,\mathbb{Z})$ of [[type II string theory]].
+
+See the references ([below](#UDualityReferences)).
+
 ## Examples
 
 For supergravity Lagrangians "of ordinary type" it turns out that  
@@ -102,9 +181,16 @@ is the highest dimensional possible. All lower dimensional theories in this clas
 
 * [[7-dimensional supergravity]]
 
+* [[4-dimensional supergravity]]
+
+* [[3-dimensional supergravity]]
+
 In dimension $(1+0)$ supergravity coupled to [[sigma-model]] fields is the [[spinning particle]].
 
 In dimension $(1+1)$ supergravity coupled to [[sigma-model]] fields is the [[spinning string]]/[[NSR superstring]].
+
+
+
 
 ## Related concepts
 
@@ -121,6 +207,10 @@ A modern reference for the diverse flavours of supergravity theories is
 
 * Antoine Van Proeyen, _Structure of supergravity theories_ ([arXiv:hep-th/0301005](http://arxiv.org/abs/hep-th/0301005))
 
+Introductory lecture notes are in 
+
+* [[Bernard de Wit]], _Supergravity_ ([arXiv:hep-th/0212245](http://arxiv.org/abs/hep-th/0212245))
+
 A fair bit of detail on [[supersymmetry]] and on supergravity is in 
 
 * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
@@ -134,6 +224,42 @@ The standard textbook monograph on supergravity and [[string theory]] using thes
 * [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]
 {#DauriaFreCastellani}
 
+### U-duality
+ {#UDualityReferences}
+
+Some basic facts are recalled in
+
+* [[Jacques Distler]], _Split real forms_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001213.html)).
+
+The $E_{7(7)}$-symmetry was first discussed in 
+
+* [[Bernard de Wit]], [[Hermann Nicolai]], _$D = 11$ Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys.
+B 274, 363 (1986)
+
+and $E_{8(8)}$ in 
+
+* [[Hermann Nicolai]], _$D = 11$ Supergravity with Local $SO(16)$ Invariance_ , Phys. Lett. B 187, 316 (1987).
+
+* K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for $d = 11$
+supergravity?_, Class. Quant. Grav. 17, 3689 (2000) ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034)).
+
+A discussion in the context of [[generalized complex geometry]] is in 
+
+* Paulo Pires Pacheco, Daniel Waldram, _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
+
+* Nicholas Houston, _Supergravity and Generalized Geometry_ Thesis (2010) ([pdf](https://workspace.imperial.ac.uk/theoreticalphysics/Public/MSc/Dissertations/2010/Nicholas%20Houston%20Dissertation.pdf))
+
+The case of "$E_{10}$" is discussed in 
+
+* [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]], _$E(10)$ and a 'small tension expansion' of M
+theory_, Phys. Rev. Lett. 89, 221601 (2002) ([arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267));
+
+* A. Kleinschmidt, [[Hermann Nicolai]], _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
+041 (2004) ([arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101))
+
+and that of "$E_{11}$" in 
+
+* [[Peter West]], _$E_{11}$ and M-theory_, Class. Quant. Grav. 18, 4443 (2001) ([arXiv:hep-th/0104081](http://arxiv.org/abs/hep-th/0104081)).
 
 ### Gauged supergravity
 
@@ -174,3 +300,5 @@ Discussion of solutions with $N = 1$ global supersymmetry left and their relatio
   {#GMPT}
 
 [[!redirects supergravities]]
+
+[[!redirects U-duality]]
