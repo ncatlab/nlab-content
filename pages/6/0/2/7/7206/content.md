@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[supergravity]] in [[dimension]] 4.
+
+The $N = 8$-version arises from [[type II supergravity]] in 10 dimension by [[Kaluza-Klein mechanism|compactification]] on a 6-[[torus]].
+
+## References
+
+* Zvi Bern, Lance J. Dixon, Radu Roiban, _Is $N = 8$ Supergravity Ultraviolet Finite?_ ([arXiv:hep-th/0611086](http://arxiv.org/abs/hep-th/0611086))
+
+* [[Jacques Distler]], _Decoupling $N = 8$ supergravity_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001235.html))
+
+[[!redirects 4d supergravity]]
