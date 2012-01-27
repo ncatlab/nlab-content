@@ -32,7 +32,7 @@ Roughly speaking, a **factorization system** on a [[category]] consists of two c
 
 * In an [[enriched category]] it is natural to consider [[enriched factorization system|enriched (orthogonal) factorization systems]].  The enriched version of WFS falls under [[enriched model category|enriched model categories]].
 
-* In a [[bicategory]] (i.e. a possibly non-strict [[2-category]]) one wants instead the notion of [[factorization system in a 2-category]], which is like a Cat-enriched OFS "up to isomorphism."  The situtaion in an [[n-category]] is analogous.
+* In a [[bicategory]] (i.e. a possibly non-strict [[2-category]]) one wants instead the notion of [[factorization system in a 2-category]], which is like a Cat-enriched OFS "up to isomorphism."  The situation in an [[n-category]] is analogous; see for instance [[orthogonal factorization system in an (∞,1)-category]].
 
 * In a [[strict 2-category]] there is also the notion of an [[enhanced factorization system|enhanced (orthogonal) factorization system]], of which the main example is [[bo-ff factorization system|(bo,ff)]] in [[Cat]].
 
@@ -53,35 +53,6 @@ The above notion of "binary" factorization system can be generalized to factor a
 
 * The corresponding 3-ary version for *weak* factorization systems is closely related to the notion of [[model category]] (one of the main applications of weak factorization systems).
 
-## Examples
-
-### General 
-
-* [[(epi, mono) factorization system|(epi, mono)]] (= [[image]] factorization), 
-
-
-### In Cat
-
-In [[Cat]]:
-
-* [[(eso, fully faithful) factorization system|(eso, fully faithful)]], 
-[[(eso+full, faithful) factorization system|(eso+full, faithful)]], [[(bo, ff) factorization system|(bo, ff)]]
-
-### In $(\infty,1)Cat$
-
-In [[(∞,1)Cat]]:
-
-* [[(n-connected, n-truncated) factorization system|(n-connected, n-truncated)]]
-
-### In $Topos$
-
-In [[Topos]]:
-
-* [[(hyperconnected, localic) factorization system|(hyperconnected, localic)]]
-
-* [[(geometric surjection, embedding) factorization system]]
-
-
 
 ## Related concepts
 
@@ -94,9 +65,6 @@ In [[Topos]]:
 * [[factorization system in a 2-category]]
 
 * [[factorization system in an (∞,1)-category]]
-
-  * [[orthogonal factorization system in an (∞,1)-category]]
-
 
 ## References
 
