@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[supergravity]] in [[dimension]] 3.
+
+## References
+
+* [[Hermann Nicolai]], [[Henning Samtleben]], _Compact and Noncompact Gauged Maximal Supergravities in Three Dimensions_ ([arXiv:hep-th/0103032](http://arxiv.org/abs/hep-th/0103032))
+
+[[!redirects 3-dimensional supergravities]]
