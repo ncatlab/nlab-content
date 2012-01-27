@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 A **$\Delta$-generated space** is a [[topological space]] $X$ whose topology is the [[final structure|final topology]] induced by all maps $\Delta^n \to X$, where $\Delta^n$ runs over all the standard [[simplices]].
