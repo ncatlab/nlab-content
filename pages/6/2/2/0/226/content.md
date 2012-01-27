@@ -32,7 +32,9 @@ This category has vector spaces over $k$ as objects, and $k$-linear maps between
 ## Related concepts
 
 
-* **vector space**
+* **vector space**, [[dual vector space]], 
+
+  * [[topological vector space]], [[convenient vector space]]
 
 * [[2-vector space]]
 
