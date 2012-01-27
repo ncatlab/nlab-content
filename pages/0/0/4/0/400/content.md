@@ -38,6 +38,8 @@ Roughly speaking, a **factorization system** on a [[category]] consists of two c
 
 * A [[strict factorization system]] is one in which the factorizations are specified uniquely on the nose, rather than merely up to isomorphism.
 
+* A [[factorization system over a subcategory]] is a common generalization of orthogonal and strict factorization systems, which requires uniqueness of factorizations only up to specified zigzags.
+
 Particular examples of factorization systems of various sorts can be found on the individual pages referred to above.
 
 
