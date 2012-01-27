@@ -1,0 +1,4 @@
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Bernard_de_Wit)
+
+category: people
