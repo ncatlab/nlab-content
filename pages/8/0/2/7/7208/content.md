@@ -1,0 +1,6 @@
+
+## References
+
+* wikipedia, _[Kac-Moody algebra](http://en.wikipedia.org/wiki/Kac%E2%80%93Moody_algebra)_
+
+[[!redirects Kac-Moody algebras]]
