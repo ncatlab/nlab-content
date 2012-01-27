@@ -77,7 +77,7 @@ A solution to the bosonic [[Einstein equations]] of ordinary [[gravity]] -- some
 
 Accordingly, a configuration that solves the supergravity [[Euler-Lagrange equations]] is a _[[global supersymmetry]]_ if it has a [[Killing spinor]]: a [[covariantly constant spinor]].
 
-Here the notion of [[covariant derivative]] includes the usual [[Levi-Civita connection]], but also in general [[torsion]] components and contributions from other [[background gauge fields]] such as a [[Kalb-Ramond field]] and the [[RR-field]]s in [[type II string theory|type II supergravity]] or [[heterotic string theory|heterotic supergravity]].
+Here the notion of [[covariant derivative]] includes the usual [[Levi-Civita connection]], but also in general [[torsion]] components and contributions from other [[background gauge fields]] such as a [[Kalb-Ramond field]] and the [[RR-field]]s in [[type II supergravity]] or [[heterotic string theory|heterotic supergravity]].
 
 Of particular interest to phenomenologists around the turn of the millenium (but maybe less so today with new experimental evidence) has been in solutions of spacetime manifolds of the form $M^4 \times Y^6$ for $M^4$ the locally observed [[Minkowski spacetime]] (that plays a role as the background for all available particle accelerator experiments) and a small closed 6-dimensional [[Riemannian manifold]] $Y^6$. 
 
