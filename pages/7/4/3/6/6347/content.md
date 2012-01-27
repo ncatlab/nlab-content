@@ -30,7 +30,7 @@ Perturbative [[string theory]] is defined in terms of certain classes of 2d [[CF
 
 ### Effective QFT
 
-The [[effective quantum field theory]] of type II string theory containts --besides [[supergravity]] -- the [[self-dual higher gauge theory]] of [[RR-fields]] and [[Kalb-Ramond field]]s.
+The [[effective quantum field theory]] of type II string theory containts --besides [[type II supergravity]] -- the [[self-dual higher gauge theory]] of [[RR-fields]] and [[Kalb-Ramond field]]s.
 
 
 ### Anomaly cancellation
@@ -116,9 +116,7 @@ A [[holographic principle|holographic]] description of type II by [[higher dimen
 
 
 
-[[!redirects type II supergravity]]
 
 [[!redirects type IIA string theory]]
 [[!redirects type IIB string theory]]
-[[!redirects type IIA supergravity]]
-[[!redirects type IIB supergravity]]
+
