@@ -7,6 +7,8 @@
 
 * [[reflective factorization system|reflective]], [[stable factorization system|stable]]
 
+[[factorization system over a subcategory]]
+
 [[ternary factorization system]]
 
 **[[factorization system in a 2-category]]**
