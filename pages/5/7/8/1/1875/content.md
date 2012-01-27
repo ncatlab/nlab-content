@@ -17,8 +17,8 @@ A **differential graded $k$-quiver** (or simply **dg-quiver**) $\mathcal{Q}$ is 
 (More work to be done here.)
 ###References###
 
-*  V. Lyubashenko and O. Manzyuk, _Free $A_\infty$-categories_,  Theory and Applications of Categories, Vol. 16, 2006, No. 9, pp 174-205.([[pdf](http://www.tac.mta.ca/tac/volumes/16/9/16-09.pdf))
+*  V. Lyubashenko and O. Manzyuk, _Free $A_\infty$-categories_,  Theory and Applications of Categories, Vol. 16, 2006, No. 9, pp 174-205.([pdf](http://www.tac.mta.ca/tac/volumes/16/9/16-09.pdf))
 
-*  J. P. May, _Operadic categories, $A_\infty$-categories, and $n$-categories_, Talk given in Morelia, Mexico, May 25, 2001 available at: ([[pdf](http://www.math.uchicago.edu/~may/NCATS/PostMexico.pdf))
+*  J. P. May, _Operadic categories, $A_\infty$-categories, and $n$-categories_, Talk given in Morelia, Mexico, May 25, 2001 available at: ([pdf](http://www.math.uchicago.edu/~may/NCATS/PostMexico.pdf))
 
 [[Note on Formatting|✄]]
