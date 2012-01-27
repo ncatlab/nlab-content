@@ -163,3 +163,4 @@ Obviously there are some issues with this; for one thing, I don't see an obvious
 
 [[!redirects undirected graph]]
 [[!redirects graph theory]]
+[[!redirects simple directed graph]]
