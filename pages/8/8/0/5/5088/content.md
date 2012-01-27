@@ -8,8 +8,8 @@ Ordinary orthogonal factorization systems can be similarly characterized by:
 
 * using a type of [[pseudo distributive law]], as in the above paper;
 
-* by working in the bicategory of [[profunctors]] instead, as in [this paper](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html); or by
+* by working in the bicategory of [[profunctors]] instead, as in [this paper](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html) (see also [[factorization system over a subcategory]]); or by
 
 * using [[weak distributive law]]s, as in [this paper](http://arxiv.org/abs/1009.0732).
 
-[[!redirects strict distributive laws]]
+[[!redirects strict factorization systems]]
