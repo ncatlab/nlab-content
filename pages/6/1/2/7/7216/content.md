@@ -1,0 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $V$ a [[vector space]] over a [[field]] $k$, its **dual vector space** $V^*$ is the vector space of [[linear maps]] $V \to k$. 
+
+This is the [[internal hom]] in [[Vect]]
+
+$$
+  V^* := [V,k]
+  \,.
+$$
+
+## Properties
+
+For $V$ of finite [[dimension]], $V^*$ is its [[dual object]] with respect to the standard [[monoidal category]] structure on [[Vect]].
+
+[[!redirects dual vector spaces]]
