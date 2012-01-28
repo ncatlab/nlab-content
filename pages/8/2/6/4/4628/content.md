@@ -88,7 +88,7 @@ Apart from the above references...
 
 ...an introductory survey is for instance also in section 3 of 
 
-* Geillan Aly, _Abelian Categories and the Freyd-Mitchell Embedding Theorem_ ([pdf](http://math.arizona.edu/~galy/research/ab_categories.pdf))
+* Geillan Aly, _Abelian Categories and the Freyd-Mitchell Embedding Theorem_ ([pdf](http://www.u.arizona.edu/~geillan/research/ab_categories.pdf))
 
 
 [[!redirects Freyd-Mitchell embedding theorem]]
