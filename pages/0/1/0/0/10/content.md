@@ -159,7 +159,7 @@ Let $(\mathcal{C},J)$ be a [[small category|small]] [[cartesian site]] and let $
 $$
   Topos(\mathcal{E}, Sh(\mathcal{C}, J))
   \simeq
-  Site((\mathcal{J}, J), (\mathcal{E}, C))
+  Site((\mathcal{C}, J), (\mathcal{E}, C))
 $$
 
 between the [[geometric morphism]]s from $\mathcal{E}$ to $Sh(\mathcal{C}, J)$ and the morphisms of [[site]]s from $(\mathcal{C}, J)$ to the [[big site]] $(\mathcal{E}, C)$ for $C$ the [[canonical coverage]] on $\mathcal{E}$.
