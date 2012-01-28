@@ -9,6 +9,7 @@
 =--
 =--
 
+## Definition
 
 Every [[category]] $C$ with [[limit]]s and [[colimit]]s becomes a [[model category]] by setting
 
@@ -20,3 +21,6 @@ Every [[category]] $C$ with [[limit]]s and [[colimit]]s becomes a [[model catego
 
 This model structure regards $C$ as an [[(∞,1)-category]] with only trivial [[k-morphism]]s for $k \geq 2$.
 
+## Related concepts
+
+* [[2-trivial model structure]]
