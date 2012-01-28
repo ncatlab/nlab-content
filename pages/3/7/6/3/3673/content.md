@@ -174,6 +174,8 @@ which is the morphism induced from $U(X) \to U(Y)$. That this is indeed an (acyc
 
 * The [[model structure on algebraic fibrant objects]] is transferred from the underlying model category by forgetting the choice of fillers.
 
+* If $T$ is an [[accessible functor|accessible]] [[strict 2-monad]] on a [[locally finitely presentable category|locally finitely presentable 2-category]] $K$. then the category $T Alg_s$ of strict $T$-[[algebra over a monad|algebras]] admits a transferred model structure from the 2-trivial model structure on $K$.  (This is proven directly, rather than by appeal to the acyclicity as above.)
+
 ...
 
 +--{: .query}
