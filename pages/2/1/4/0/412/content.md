@@ -66,7 +66,7 @@ This model structure is sometimes called the **Hurewicz model structure**, since
 
 From the definitions, [[Hurewicz fibration]]s are necessarily [[Serre fibration]]s. It is well-known that [[homotopy equivalence]]s are [[weak homotopy equivalence]]s. If we write $(C_1, F_1, W_1)$ for the classes of the first model structure and $(C_2, F_2, W_2)$ for the classes of the second, we have $W_2 \subset W_1$ and $F_2 \subset F_1$. 
 
-In general given two model structures with these inclusions, we get a third **mixed model structure** $(C_m, F_2, W_1)$ where the cofibrations $C_m$ are determined by the other two classes.
+In general given two model structures with these inclusions, we get a third **[[mixed model structure]]** $(C_m, F_2, W_1)$ where the cofibrations $C_m$ are determined by the other two classes.
 
 On topological spaces, this model structure has 
 
