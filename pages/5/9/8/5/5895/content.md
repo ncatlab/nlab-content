@@ -37,7 +37,7 @@ Spelled out in components, this means the following:
 
 ### Externalization
 
-We discuss how to every internal site there is a corresponding external site such that the internal sheaf topos on the former agrees with the external sheaf topos on the latter.
+We discuss how to every internal site there is a corresponding external site such that the [[internal sheaf topos]] on the former agrees with the external sheaf topos on the latter.
 
 +-- {: .num_defn #TheExternalizedSite}
 ###### Definition
