@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given an ordinary [[category]] $C$, a pasting diagram in $C$ is nothing but a collection of sequences of composable morphisms in $C$
+Given an ordinary [[category]] $C$, a pasting diagram in $C$ is a sequence of composable morphisms in $C$
 
 $$
   a_1 \stackrel{f_1}{\to} a_2 \stackrel{f_2}{\to}
@@ -24,11 +24,9 @@ $$
   \,.
 $$
 
-We think of these arrows as not yet composed, but _pasted_ together at their objects, such as to form a sequence.
+We think of these arrows as not yet composed, but _pasted_ together at their objects, such as to form a composable sequence, and then say the _value_ of the sequence is the composite morphism in $C$. Or, we could say that a pasting diagram is a specified decomposition of whatever morphism $f$ it evaluates to, thus breaking down $f$ into morphisms $f_i$ which, in practice, are usually "more basic" than $f$ relative to some type of structure on $C$. For example, if $C$ is a [[monoidal category]], the $f_i$ might be instances of associativity isomorphisms. 
 
-Then in an [[n-category]] a pasting diagram is similarly a collection of [[k-morphism|n-morphism]] with a prescribed way how they are to fit together at their boundaries, subject to some conditions which guarantee that it can be uniquely composed or "pasted together" to form a single $n$-morphism.
-
-An simple example of a pasting diagram in a 2-category is
+Pasting decompositions become more elaborate in higher categories. An example of a pasting diagram in a (let's say strict) 2-category is a pasting of two squares 
 
 $$
   \array{
@@ -41,7 +39,7 @@ $$
   \,.
 $$
 
-If this is to be composed into a single 2-morphism we read this diagram explicitly as the vertical composite of the 2-morphism
+To evaluate this diagram as a single 2-morphism, we read this diagram explicitly as the vertical composite of the 2-morphism
 
 $$
   \array{
@@ -66,6 +64,8 @@ $$
   \,.
 $$
 
+(Notice that the two halves of the boundary of each of these two 2-morphisms are themselves 1-dimensional pasting diagrams.) Similarly, there can be situations where one pastes together other shapes (triangles, pentagons, etc.), and there may be multiple paths on the way to resolving the diagram into a single 2-morphism, but the idea is that all such paths evaluate to the same 2-morphism, at least in a strict 2-category. General theorems which refer to the uniqueness of pastings are called _pasting theorems_. 
+
 On the other hand, the following diagram is _not_ a pasting diagram: 
 
 $$
@@ -79,7 +79,11 @@ $$
   \,.
 $$
 
-Thus, the formal definition of pasting diagram will include conditions which impose a consistent "directionality" of the cells so they can be pasted together.
+Thus, formal definitions of pasting diagram include conditions which impose a consistent "directionality" of the cells so they can be pasted together.
+
+In an [[n-category]] a pasting diagram is similarly a collection of [[k-morphism|n-morphism]] with a prescribed way how they are to fit together at their boundaries. There are a number of ways of formalizing pasting diagrams, depending partly on the constituent shapes one allows, and also on the technical hypotheses that allow proofs of pasting theorems, which include directionality conditions but usually also "loop-freeness" conditions to ensure there exists a unique way to resolve or evaluate the diagram. (N.B.: usually a completely unambiguous evaluation is only possible in a strict $n$-category; in a weak $n$-category, one allows uniqueness up to a "contractible space of choices".) 
+
+Despite some technical differences among the formalizations, the core idea throughout is that the overall geometric shapes of pasting diagrams should be (contractible) $n$-dimensional polyhedra, broken down into smaller polyhedral cells which come equipped with directionality or orientations, that can be sensibly pasted together as in the above descriptions once the cells have been assigned values in an $n$-category. 
 
 ## References
 
