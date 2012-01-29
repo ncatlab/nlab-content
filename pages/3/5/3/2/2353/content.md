@@ -15,7 +15,7 @@
 {:toc}
 
 The notion of _cograph of a functor_ is dual to that of [[graph of a functor]]: for
-$f : C \to D$ a functo between [[n-categories]] is the fibration 
+$f : C \to D$ a functor between [[n-categories]] is the fibration 
 classified by the [[profunctor]] correspondence $\chi_f : C^{op}\times D \to (n-1)Cat$. But $f$ also determines a morphism $\bar f : I \to n Cat$ from the [[interval category]] $I$. The **cograph** of $f$ is the fibration classified by $\bar f$.
 
 
