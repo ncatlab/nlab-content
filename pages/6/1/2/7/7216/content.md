@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -10,12 +10,17 @@ For $V$ a [[vector space]] over a [[field]] $k$, its **dual vector space** $V^*$
 This is the [[internal hom]] in [[Vect]]
 
 $$
-  V^* := [V,k]
+  V^* \coloneqq [V,k]
   \,.
 $$
 
+
 ## Properties
 
-For $V$ of finite [[dimension]], $V^*$ is its [[dual object]] with respect to the standard [[monoidal category]] structure on [[Vect]].
+For $V$ of finite ($F$-[[F-finite|finite]]) [[dimension]], $V^*$ is its [[dual object]] with respect to the standard [[monoidal category]] structure on [[Vect]].
 
+In this case, we also have $V \cong V^*$, but this [[isomorphism]] is *not* [[natural isomorphism|natural]].  (Indeed, $V \mapsto V^*$ is only a [[contravariant functor]].)  However, we do have a natural isomorphism $V \cong V^{**}$.  More generally, we have a [[natural transformation]] $V \to V^{**}$, which is an isomorphism when $V$ has finite dimension.
+
+
+[[!redirects dual vector space]]
 [[!redirects dual vector spaces]]
