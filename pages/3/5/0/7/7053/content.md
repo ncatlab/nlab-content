@@ -5,7 +5,7 @@
 
 ## Idea
 
-Tietze transformations are a formalisation of the infromal substitution methods that are natural when working with [[group presentations]].
+Tietze transformations are a formalisation of the informal substitution methods that are natural when working with [[group presentations]].
 
 
 ## The four transformations
