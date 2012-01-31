@@ -213,3 +213,5 @@ Walter Michaelis, _Coassociative Coalgebras_, Handbook of Algebra Volume 3, Else
 {#WM} 
 
 [[!redirects cofree coalgebras]]
+[[!redirects free coalgebra]]
+[[!redirects free coalgebras]]
