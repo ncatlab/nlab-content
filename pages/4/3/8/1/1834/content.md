@@ -1,6 +1,10 @@
-__Nikolai Durov__  (&#1053;&#1080;&#1082;&#1086;&#1083;&#1072;&#1081; &#1042;&#1072;&#1083;&#1077;&#1088;&#1100;&#1077;&#1074;&#1080;&#1095; &#1044;&#1091;&#1088;&#1086;&#1074;) is a Russian mathematician from St. Petersburg with main current interests in [[arithmetic geometry]], currently employed at Steklov Institute in St. Petersburg ([link](http://www.mathnet.ru/php/person.phtml?&personid=34084&option_lang=eng)).
+__Nikolai Durov__  (&#1053;&#1080;&#1082;&#1086;&#1083;&#1072;&#1081; &#1042;&#1072;&#1083;&#1077;&#1088;&#1100;&#1077;&#1074;&#1080;&#1095; &#1044;&#1091;&#1088;&#1086;&#1074;) is a Russian mathematician from St. Petersburg with main current interests in [[arithmetic geometry]], currently employed at St. Petersburg  Department of the Steklov Institute of Mathematics.
 
-He obtained his Ph.D. in 2007 in Bonn under [Gerd Faltings](http://en.wikipedia.org/wiki/Gerd_Faltings):
+* [homepage](http://www.pdmi.ras.ru/eng/perso/durov.php) at Steklov 
+* [mathnet.ru](http://www.mathnet.ru/php/person.phtml?&personid=34084&option_lang=eng) entry
+* wikipedia: [Nikolai Durov](http://en.wikipedia.org/wiki/Nikolai_Durov)
+
+Durov obtained his Ph.D. in 2007 in Bonn under [Gerd Faltings](http://en.wikipedia.org/wiki/Gerd_Faltings):
 
 * _A new approach to Arakelov geometry_, [arxiv/0704.2030](http://arxiv.org/abs/0704.2030)
 
@@ -29,8 +33,6 @@ June 12, 2009, video: [link](http://www.mathnet.ru/php/presentation.phtml?option
 Other sources:
 
 * _Computation of derived absolute tensor square of the ring of integers_, talk at 2nd annual conference-meeting MIAN&#8211;POMI "Algebra and Algebraic Geometry", St. Petersburg, December 25, 2008, [link](http://www.mathnet.ru/php/presentation.phtml?option_lang=eng&presentid=267)  
-
-* wikipedia: [Nikolai Durov](http://en.wikipedia.org/wiki/Nikolai_Durov)
 
 [[!redirects Nikolai Durov]]
 [[!redirects Николай Дуров]]
