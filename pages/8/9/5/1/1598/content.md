@@ -150,6 +150,18 @@ Accordingly, so does the notion of Lie group generalize to [[Lie 2-group]], ... 
 
 * [[Hamiltonian dynamics on Lie groups]]
 
+## References
+
+
+### On infinite-dimensional Lie groups
+ {#ReferencesOnInfiniteDimensionalLieGroups}
+
+* [[Andreas Kriegl]], [[Peter Michor]], _Regular infinite dimensional Lie groups_ Journal of Lie Theory
+Volume 7 (1997) 61-99 ([pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PDF))
+
+* Rudolf Schmid, _Infinite-Dimensional Lie Groups and Algebras in Mathematical Physics_ Advances in Mathematical Physics Volume 2010, ([pdf](http://www.emis.de/journals/HOA/AMP/Volume2010/280362.pdf))
+
+* Josef Teichmann, _Innite dimensional Lie Theory from the point of view of Functional Analysis_ ([pdf](http://www.math.ethz.ch/~jteichma/diss.pdf))
 
 [[!redirects Lie groups]]
 
