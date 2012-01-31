@@ -148,7 +148,9 @@ Standard examples of non-finite groups include
 
 * group of [[real number]]s without 0 $\mathbb{R}\setminus \{0\}$ under [[multiplication]].
 
-Standard examples of [[Lie group]]s include
+* [[Prüfer group]]
+
+Standard examples of [[Lie groups]] include
 
 * [[orthogonal group]]
 
