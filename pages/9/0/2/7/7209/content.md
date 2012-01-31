@@ -17,13 +17,13 @@
 
 For $G$ a [[topological group]] a _compact subgroup_ is a topological [[subgroup]] $K \subset G$ which is a [[compact topological space]].
 
-A _maximal compact subgroup_ is a maximal subgroup with this property. This exists uniquely up to [[conjugation]].
+A _maximal compact subgroup_ is a maximal subgroup with this property. This exists uniquely up to [[conjugation]], if $G$ is a (finite-dimensional) [[Lie group]].
 
 ## Properties
 
 ### Topology for Lie groups
 
-For $G$ any [[connected topological space|connected]] [[Lie group]], regarded as a [[topoloigical group]], the inclusion of the maximal compact subgroup
+For $G$ any [[connected topological space|connected]] [[Lie group]], regarded as a [[topological group]], the inclusion of the maximal compact subgroup
 
 $$
   K \hookrightarrow G
