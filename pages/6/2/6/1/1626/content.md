@@ -103,6 +103,10 @@ As a contrast to a path-connected space, a **totally path-disconnected** space i
 
 * [[locally connected topos]]
 
+* [[contractible topological space]]
+
+* [[almost connected topological group]]
+
 
 [[!redirects connected space]]
 [[!redirects connected spaces]]
