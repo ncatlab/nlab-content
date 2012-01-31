@@ -13,6 +13,7 @@ The category [[FinSet]] of finite sets and functions between them is essentially
 
 
 ## Finiteness constructively and internally
+{#Constructivist}
 
 In [[constructive mathematics]], and internally to a [[topos]], a number of classically equivalent notions of finiteness become distinguishable:
 
@@ -32,6 +33,7 @@ Finite sets are always [[projective object|projective]]; that is, the "finite [[
 
 
 ## Finiteness without infinity
+{#Finitist}
 
 The above definition of "finite," and hence all the above definitions except for Dedekind-finiteness, only make sense given the set of natural numbers, i.e., given an axiom of infinity.  However, they can  all be rephrased to make sense even without an axiom of infinity (and thus in a topos without a [[natural numbers object]]).  Basically, you define (for a given set $S$) the concept of 'collection of subsets of $S$ that includes all of the finite subsets' by requiring it to be closed under inductive operations appropriate for the sense of 'finite' that you want; then $S$ is finite if and only if it is an element of all such collections.  Namely, for any set $S$ we define the following subsets of the [[power set]] $P(S)$.
 
@@ -42,11 +44,13 @@ The above definition of "finite," and hence all the above definitions except for
 
 
 ## Challenge: Finiteness predicatively without infinity
+{#Challenge}
 
 Can you think of a way to define these notions of finite without power objects and without a natural numbers object? More specifically (and generously), can you define them in an arbitrary [[locally cartesian closed category|locally cartesian closed]] [[pretopos]] with [[enough projectives]]?
 
 
 ## Finite objects in a topos
+{#External}
 
 In a topos, there are both "external" and "internal" versions of all the above notions of finiteness, depending on whether we interpret their meaning "globally" or in the [[internal logic]] of the topos.  See [[finite object]].
 
