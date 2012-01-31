@@ -1,0 +1,77 @@
+## Idea ##
+
+Relative adjoints with respect to a functor $J$ are a generalization of [[adjoint functor|adjoints]], where $J$ in the relative case plays the role of the identity in the standard setting: adjoints are the same as $Id$-relative adjoints.
+
+## Definition ##
+
+### hom-isomorphism definition ###
+
+Fix a functor $J\colon B \to D$. Then, a functor 
+
+\[
+	R \colon C \to D
+\] 
+
+has a _left $J$-relative adjoint_ (or $J$-left adjoint) if there is a functor 
+
+\[ 
+	L \colon B \to C
+\]
+
+and a natural isomorphism
+
+\[
+	Hom_C(L(-),-) \simeq Hom_D(J(-),R(-))
+\]
+
+Dually, $L \colon C \to D$ has a _$J$-right adjoint_ $R \colon B \to C$ if there's a natural isomorphism
+
+\[
+	Hom_C(-, R(-)) \simeq Hom_D(L(-), J(-))
+\]
+
+#### Notation ####
+
+- $L {\,\,}_J\!\dashv R$ stands for $L$ being the $J$-left adjoint of $R$
+- $L \dashv_J R$ stands for $R$ being the $J$-right adjoint of $L$
+
+## Properties ##
+
+### asymmetry ###
+
+The most important difference with regular adjunctions is the asymmetry of the concept. First, for $L {\,\,}_J\!\dashv R$ it makes no sense to ask for $R \dashv_J L$ (domains and comodomains do not typecheck). And secondly, and more importantly:
+
+* **$L$ is $J$-left adjoint to $R$:** $R$ _determines_ $L$ 
+* **$R$ is $J$-right adjoint to $L$:** $L$ _determines_ $R$
+
+Because of this, even if most of the properties of adjunctions have a generalization to the relative setting, they do that in a one-sided way.
+
+### relative monads and comonads ###
+
+Just as adjunctions give rise to [[monad|monads]] and [[comonad|comonads]], for relative adjoints
+
+1. If $L {\,\,}_J\!\dashv R$, then $RL$ is a [[relative monad]]
+2. If $L \dashv_J R$, then $LR$ is a [[relative comonad]]
+
+and there are relative analogues of [[Eilenberg-Moore category|Eilenberg-Moore]] and [[Kleisli category|Kleisli]] categories for these.
+
+## Examples ##
+
+- _partially defined adjoints_ as remarked in the [[adjoint functor|local definition of adjoint functor]], given a functor 
+\[
+	L \colon C \to D
+\]
+it may happen that $Hom_D(L(-),d)$ is [[representable functor|representable]] only for _some_ $d$, but not for all of them. In that case, taking 
+\[
+	J \colon B \to D
+\]
+be the inclusion of the [[full subcategory|full subcategory]] determined by $Hom_D(L(-),d)$ representable, and defining $R \colon B \to C$ accordingly, we have
+\[
+	L \dashv_J R
+\]
+This can be specialized to situations such as a category having _some_ but not all [[limit|limits]] of some kind, partially defined [[Kan extension|Kan extensions]], etc.
+
+### References ###
+
+- F Ulmer - _Properties of dense and relative adjoint functors_ Journal of Algebra :: [article at mendeley](http://www.mendeley.com/research/properties-dense-relative-adjoint-functors/)
+- Thorsten Altenkirch, James Chapman and Tarmo Uustalu - _Monads need not be endofunctors_ Foundations of Software Science :: [pdf](http://www.cs.nott.ac.uk/~txa/publ/Relative_Monads.pdf)
