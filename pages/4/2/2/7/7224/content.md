@@ -27,7 +27,7 @@ and a natural isomorphism
 Dually, $L \colon C \to D$ has a _$J$-right adjoint_ $R \colon B \to C$ if there's a natural isomorphism
 
 \[
-	Hom_C(-, R(-)) \simeq Hom_D(L(-), J(-))
+	 Hom_D(L(-), J(-)) \simeq Hom_C(-, R(-))
 \]
 
 #### Notation ####
@@ -75,3 +75,10 @@ This can be specialized to situations such as a category having _some_ but not a
 
 - F Ulmer - _Properties of dense and relative adjoint functors_ Journal of Algebra :: [article at mendeley](http://www.mendeley.com/research/properties-dense-relative-adjoint-functors/)
 - Thorsten Altenkirch, James Chapman and Tarmo Uustalu - _Monads need not be endofunctors_ Foundations of Software Science :: [pdf](http://www.cs.nott.ac.uk/~txa/publ/Relative_Monads.pdf)
+
+[[!redirects relative adjoint functors]]
+[[!redirects relative right adjoint]]
+[[!redirects relative left adjoint]]
+[[!redirects relative adjoint]]
+[[!redirects relative adjoints]]
+
