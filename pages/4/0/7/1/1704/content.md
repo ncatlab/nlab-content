@@ -696,6 +696,10 @@ Classes of examples include
   * the [[Chern-Simons bundle 2-gerbe]].
 
 
+### Normal morphisms of $\infty$-groups
+
+A principal $\infty$-bundle over a [[0-connected]] object / [[delooping]] object $\mathf{B}K$ is a _[[normal morphism of ∞-groups]]_. See there for more details.
+
 ## Related concepts
 
 * [[principal bundle]] / [[torsor]] / [[associated bundle]]
@@ -733,9 +737,9 @@ See also
 
 on [[associated ∞-bundle]]s.
 
-The fully general abstract formalization in [[(∞,1)-topos theory]] as discussed here was first inducated in 
+The fully general abstract formalization in [[(∞,1)-topos theory]] as discussed here was first indicated in 
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], [[schreiber:Twisted Differential String and Fivebrane Structures]]
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_
 
 A more comprehensive conceptual account is in 
 
