@@ -111,7 +111,7 @@ For details see for instance ([Hatcher, prop. 1.4](#Hatcher)) or ([Friedlander, 
 
 
 
-+-- {: .num_defn#DefinitionOfKClasses}
++-- {: .num_defn #DefinitionOfKClasses}
 ###### Definition
 
 Define an [[equivalence relation]] on the [[set]] of finite-[[rank]] [[vector bundle]]s $E \to X$ over $X$ by declaring that $E_1 \sim E_2$ if there exists $k,l \in \mathbb{N}$ such that there is an [[isomorphism]] of vector bundles between the (fiberwise) [[direct sum]] of $E_1$ with $I^k$ and of $E_2$ with $I^l$
@@ -357,7 +357,7 @@ The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topo
 
 The topological K-theory over a space $X$ is not
 identical with the _[[algebraic K-theory]]_ of the
-ring of functions on $X$, but the two are closely related. See for instance ([Paluch](#Paluch)).
+ring of functions on $X$, but the two are closely related. See for instance ([Paluch](#Paluch), [Rosenberg](#Rosenberg)).
 
 
 ## Related concepts
@@ -397,3 +397,7 @@ Relations to [[algebraic K-theory]] are discussed in
 
 * Michael Paluch, _Algebraic $K$-theory and topological spaces_ K-theory 0471 ([web](http://www.math.uiuc.edu/K-theory/0471/))
  {#Paluch}
+
+
+* [[Jonathan Rosenberg]], _Comparison Between Algebraic and Topological K-Theory for Banach Algebras and $C^*$-Algebras_, ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
+ {#Rosenberg}
