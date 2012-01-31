@@ -325,4 +325,8 @@ where much of the above material is taken from.
 [[!redirects Disc∞Grpd]]
 
 [[!redirects discrete ∞-group]]
+[[!redirects discrete ∞-groups]]
+
+
 [[!redirects discrete infinity-group]]
+[[!redirects discrete infinity-groups]]
