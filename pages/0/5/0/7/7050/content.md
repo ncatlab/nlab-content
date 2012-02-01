@@ -11,6 +11,34 @@ The theory was initially developed by Reidemeister, and then [[Henry Whitehead|W
 
 Further interesting approaches were developed by [[Eckmann]] and [[Siebenmann]] in 1970 (see references).
 
+##Elementary expansions and contractions
+
+
+We will work here with finite CW-complexes. These are built up by induction by gluing on $n$-cells, that is copies of $D^n=\{x\in \mathbb{R}^n\mid \sum x_i^2\leq 1\}$, at each stage.  Each $D^n$ has a boundary an $(n-1)$-sphere, $S^{n-1}=\{x\in \mathbb{R}^n\mid \sum x_i^2= 1\}$.  The construction of objects in the category of finite CW-complexes is by attaching cells by means of maps defined on part of all of the boundary of a cell.  This will usually change the homotopy type of the space, creating or filling in a 'hole'. The homotopy type will not be changed if the attaching map has domain a hemisphere.  We write $S^{n-1} = D^{n-1}_-\cup  D^{n-1}_+$, with each hemisphere homeomorphic to a $(n-1)$-cell, and their intersection being the equatorial $(n-2)$-sphere, $S^{n-2}$, of $S^{n-1}$.
+
+
+
+Given, now, a finite CW-complex, $X$, we can build a new complex $Y$, consisting of $X$ and two new cells, $e^n$ and $e^{n-1}$ together with a continuous map, $\varphi : D^n\to Y$ satisfying 
+
+(i) $\varphi(D^{n-1}_+)\subseteq X_{n-1}$;
+
+(ii) $\varphi(S^{n-2}) \subseteq X_{n-2}$;
+
+(iii) the restriction of $\varphi$ to the interior of $D^n$ is a homeomorphism onto $e^n$;
+
+and
+
+(iv) the restriction of $\varphi$ to the interior of $D^{n-1}_-$ is a homeomorphism onto $e^{n-1}$.
+
+
+There is an obvious inclusion map, $i: X\to Y$, which is called an _elementary expansion_.  There is also a retraction map $r : Y\to X$, homotopy inverse to $i$, and which is called an _elementary contraction_.  Both are [[homotopy equivalences]]. 
+
+* Can all homotopy equivalences between finite CW-complexes be built by composing such elementary ones? 
+
+More precisely, if we have a homotopy equivalence $f: X\to X^\prime$, is $f$ homotopic to a composite of a finite sequence of elementary expansions and contractions?  Such a homotopy equivalence would be called _simple_.  Whitehead showed that not all homotopy equivalences are simple and constructed a group of obstructions for the problem with given space $X$, each non-identity element of the group corresponding to a distinct homotopy class of non-simple homotopy equivalence.
+
+
+
 ## References
 
 Some original sources:
