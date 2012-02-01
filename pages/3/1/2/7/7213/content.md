@@ -1,3 +1,5 @@
+[[!redirects exceptional generalized complex geometry]]
+[[!redirects exceptional generalized complex geometry]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,13 +17,29 @@
 
 ## Idea
 
-A variant of the idea of [[generalized complex geometry]], which instead of the inclusion $O(d)\times O(d) \to O(d,d)$ is controled by incusions into [[split real forms]] of [[exceptional Lie groups]] such as 
+A variant of the idea of [[generalized complex geometry]] given by passing from generalization of [[complex geometry]] to generalization of [[exceptional geometry]]. Instead of by inclusions like $O(d)\times O(d) \to O(d,d)$ it is controled by incusions into [[split real forms]] of [[exceptional Lie groups]] such as 
 
 * $SU(8)/\mathbb{Z}_2 \to E_{7(7)}$. 
 
 This serves to neatly encode [[U-duality]] groups in [[supergravity]].
 
+## Related concepts
+
+* [[generalized complex geometry]], [[exceptional geometry]]
+
 ## References
+
+### General
+
+* David Baraglia, _Leibniz algebroids, twistings and exceptional generalized geometry_ ([arXiv:1101.0856](http://arxiv.org/abs/1101.0856))
+
+### In supergravity
+
+Survey slides include
+
+* David Baraglia, _Exceptional generalized geometry and $N = 2$ backgrounds_ ([pdf](http://mitchell.physics.tamu.edu/Conference/GeneralizedGeometries/Mon-1-Grana.pdf))
+
+Original articles include
 
 * Paulo Pires Pacheco, Daniel Waldram, _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
 
