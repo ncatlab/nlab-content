@@ -58,7 +58,7 @@ A very useful textbook is:
 * M. M. Cohen, _A course in Simple Homotopy Theory_, Grad. Texts in Math, 10, Springer, 1973.
 
 
-A more abstract approach to simple homotopy theory was explored in Cohen's book as well as in the papers by Eckmann, Eckmann and Maumary, and Siebenmann, listed above. Some of this is treated in
+A more abstract, but at the same time geometric, approach to simple homotopy theory was explored in Cohen's book as well as in the papers by Eckmann, Eckmann and Maumary, and Siebenmann, listed above. Some of this is treated in
 
 * K. H. Kamps, [[Tim Porter]], _Abstract homotopy and simple homotopy theory_, World Scientific 1997. 
 [[!redirects simple homotopy theory]]
