@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 The term **exact category** has several different meanings.  This page is about exact categories *in the sense of Barr*, also called "Barr-exact categories" or "effective regular categories."  This is distinct from the notion of [[Quillen exact category]].
 
 #Contents#
