@@ -1,3 +1,37 @@
-A real [[Lie group]] is **compact** if its underlying topological space is a [[compact space]].
 
-Compact Lie groups have a very well understood structure theory. All [[maximal torus|maximal tori]] of a compact Lie group are conjugate by [[inner automorphism]]s. The dimension of a maximal torus $T$ of a compact Lie group is called a _rank_ of $G$. The [[normalizer]] $N(T)$ of a maximal torus $T$ determines $G$. The [[Weyl group]] $W(G)=W(G,T)$ of $G$ with respect to a choice of a maximal torus $T$ is the group of automorphisms of $T$ which are restrictions of inner automorphisms of $G$. The maximal torus is of finite index in its normalizer; the quotient $N(T)/T$ is isomorphic to $W(G)$. The cardinality of $W(G)$ for a compact connected $G$, equals the [[Euler characteristic]] of the [[homogeneous space]] $G/T$ ("[[flag variety]]"). 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
+A real [[Lie group]] is **compact** if its underlying [[topological space]] is a [[compact space]].
+
+## Properties
+
+Compact Lie groups have a very well understood structure theory. 
+
+All [[maximal torus|maximal tori]] of a compact Lie group are conjugate by [[inner automorphism]]s. The dimension of a maximal torus $T$ of a compact Lie group is called a _rank_ of $G$. The [[normalizer]] $N(T)$ of a maximal torus $T$ determines $G$. The [[Weyl group]] $W(G)=W(G,T)$ of $G$ with respect to a choice of a maximal torus $T$ is the group of automorphisms of $T$ which are restrictions of inner automorphisms of $G$. The maximal torus is of finite index in its normalizer; the quotient $N(T)/T$ is isomorphic to $W(G)$. The cardinality of $W(G)$ for a compact connected $G$, equals the [[Euler characteristic]] of the [[homogeneous space]] $G/T$ ("[[flag variety]]"). 
+
+## Related concepts
+
+* [[locally compact topological group]], [[maximal compact subgroup]]
+
+* [[proper Lie groupoid]]
+
+[[!redirects compact Lie groups]]
