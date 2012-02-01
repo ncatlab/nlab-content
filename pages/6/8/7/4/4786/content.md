@@ -9,10 +9,26 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The classification of [[simple Lie group]]s consists of four infinite series -- the [[classical Lie group]]s, and five exceptional Lie groups, called
 
-$G_2$, $F_4$, $E_6$, $E_7$, and [[E8]].
+[[G2]], $F_4$, $E_6$, $E_7$, and [[E8]].
 
+## Related concepts
+
+* [[exceptional geometry]], [[exceptional generalized geometry]]
+
+## References
+
+* Ichiro Yokota, _Exceptional Lie groups_ ([arXiv:0902.0431](http://arxiv.org/abs/0902.0431))
+
+
+* J. R. Faulkner, J. C. Ferrar, _Exceptional Lie algebras and related algebraic and geometric structures, ([[FaulknerFerrar.pdf:file]])
 
 [[!redirects exceptional Lie group]]
 [[!redirects exceptional Lie groups]]
