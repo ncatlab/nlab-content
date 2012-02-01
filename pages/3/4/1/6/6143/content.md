@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 =--
 =--
 
@@ -15,12 +19,28 @@
 
 ## Definition
 
-A priori one may define a __locally compact topological group__ as a [[topological group]] $G$ whose underlying [[topological space]] is [[locally compact topological space|locally compact]]. In practice, one also assumes that $G$ is [[Hausdorff space|Hausdorff]]; we will follow this condition in the discussion of the properties (If not, then $G/\overline{\{1\}}$ is Hausdorff.). One often says just "locally compact group".
+A priori a __locally compact topological group__ is a [[topological group]] $G$ whose underlying [[topological space]] is [[locally compact topological space|locally compact]]. 
+
+Typically it is also assumed that $G$ is [[Hausdorff space|Hausdorff]]. (Notice that if not, then $G/\overline{\{1\}}$ is Hausdorff.). 
+
+One often says just "locally compact group".
 
 ## Properties
 
+### In harmonic analysis
+
+We take here locally compact groups $G$ to be also Hausdorff. 
+
 Locally compact topological groups are the standard object of study in classical abstract [[harmonic analysis]]. The crucial properties of locally compact groups is that they posses a left (right) [[Haar measure]] $\rho$ and that $L^1(\rho)$ has a structure of a 
-[[Banach algebra|Banach]] $*$-[[star-algebra|algebra]]. A left (right) [[Haar measure]] on a [[locally compact topological group]] is a nonzero [[Radon measure]] which is invariant under the left (right) multiplications by elements in the group. A topological subgroup $H$ of a locally compact topological group $G$ is itself locally compact (in [[induced topology]]) iff it is closed in $G$.  
+[[Banach algebra|Banach]] $*$-[[star-algebra|algebra]]. 
+
+A left (right) [[Haar measure]] on a locally compact topological group is a nonzero [[Radon measure]] which is invariant under the left (right) multiplications by elements in the group. A topological subgroup $H$ of a locally compact topological group $G$ is itself locally compact (in [[induced topology]]) iff it is closed in $G$.  
+
+## Related concepts
+
+* [[maximal compact subgroup]]
+
+* [[compact Lie group]]
 
 ## References
 
