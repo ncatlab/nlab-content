@@ -30,7 +30,7 @@ A **Lie group** is a [[group]] with [[smooth structure]].
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 A **Lie group** is a smooth [[manifold]] whose underlying set of points is equipped with a structure of a [[group]] and the multiplication and inverse maps for the group are smooth maps.  
@@ -41,9 +41,11 @@ In other words, it is a [[group object]] [[internalization|internal to]] [[Diff]
 
 Usually the manifold is assumed to be over the [[real numbers]] or the [[complex numbers]] and of finite [[dimension]] (f.d.), but extensions to some other ground fields and infinite-dimensional setting are also relevant, sometimes under other names (such as [[Fréchet Lie group]] when the underlying manifold is an infinite-dimensional [[Fréchet manifold]]). 
 
-A real Lie group is _compact_ (or _connected_, _simply connected_, etc) if its underlying space is [[compact space|compact]] (or [[connected space|connected]], [[simply connected space|simply connected]], etc). 
+A real Lie group is a _[[compact Lie group]]_ (or _connected_, _simply connected_ Lie group, etc) if its underlying space is [[compact space|compact]] (or [[connected space|connected]], [[simply connected space|simply connected]], etc). 
 
-Every connected f.d. real Lie group is homeomorphic to a [[product]] of a compact Lie group and an Euclidean space. Every abelian connected compact f.d. real Lie group is a [[torus]] (a product of circles $T^n = S^1\times S^1 \times \ldots \times S^1$).
+Every connected finite dimensiona real Lie group is [[homeomorphism|homeomorphic]] to a [[product]] of a [[compact Lie group]] (its [[maximal compact subgroup]]) and a [[Euclidean space]]. 
+
+Every [[abelian group|abelian]] connected compact finite dimensional real Lie group is a [[torus]] (a product of [[circles]] $T^n = S^1\times S^1 \times \ldots \times S^1$).
 
 There is an [[infinitesimal space|infinitesimal]] version of a Lie group, a so-called [[local Lie group]], where the multiplication and the inverse are only partially defined, namely if the arguments of these operations are in a sufficiently small neighborhood of identity. There is a natural equivalence of local Lie groups by means of agreeing (topologically and algebraically) on a smaller neighborhood of the identity. The category of local Lie groups is equivalent to the category of connected and simply connected Lie groups. 
 
@@ -144,9 +146,11 @@ Accordingly, so does the notion of Lie group generalize to [[Lie 2-group]], ... 
 
 ## Related concepts
 
+* [[semisimple Lie group]], [[simple Lie group]], [[exceptional Lie group]]
+
 * [[real form]]
 
-* [[maximal compact subgroup]]
+* [[compact Lie group]], [[maximal compact subgroup]]
 
 * [[Hamiltonian dynamics on Lie groups]]
 
