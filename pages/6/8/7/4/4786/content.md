@@ -17,7 +17,7 @@
 
 The classification of [[simple Lie group]]s consists of four infinite series -- the [[classical Lie group]]s, and five exceptional Lie groups, called
 
-[[G2]], $F_4$, $E_6$, $E_7$, and [[E8]].
+[[G2]], $F_4$, [[E6]], [[E7]], and [[E8]].
 
 ## Related concepts
 
