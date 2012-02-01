@@ -1,0 +1,13 @@
+
+## Idea
+
+One (or rather: three) of the [[exceptional Lie groups]].
+
+## Related concepts
+
+* [[G2 manifold]]
+
+## References
+
+* wikipedia, _[G2](http://en.wikipedia.org/wiki/G2_%28mathematics%29)_
+
