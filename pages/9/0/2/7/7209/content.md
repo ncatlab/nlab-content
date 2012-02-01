@@ -35,7 +35,7 @@ If it exists then, by definition, it is unique up to conjugation.
 +-- {: .num_defn #AlmostConnected}
 ###### Definition
 
-A [[locally compact topological space|locally compact]] [[topological group]] $G$ is called **[[almost connected topological group|almost connected]]** if the [[quotient]] [[topological space]] $G/G_0$ (of $G$ by the [[connected component]] of the neutral element) is  [[compact topological space|compact]].
+A [[locally compact topological group]] $G$ is called **[[almost connected topological group|almost connected]]** if the [[quotient]] [[topological space]] $G/G_0$ (of $G$ by the [[connected component]] of the neutral element) is  [[compact topological space|compact]].
 
 =--
 
@@ -99,7 +99,7 @@ is a [[homotopy equivalence]] of [[topological spaces]].
 ### For Lie groups
  {#ExamplesForLieGroups}
 
-The following table lists some [[Lie groups]] and their maximal compact subgroups.
+The following table lists some [[Lie groups]] and their maximal compact Lie subgroups. See also _[[compact Lie group]]_.
 
 
 |            Lie group                         |     maximal compact subgroup    |
@@ -117,7 +117,11 @@ The following table lists some [[Lie groups]] and their maximal compact subgroup
 
 A maximal compact subgroup may not exist at all without the almost connectedness assumption. An example is the [[Prüfer group]] $\mathbb{Z}[1/p]/\mathbb{Z}$ endowed with the discrete ($0$-dimensional) smooth structure. This is a union of an increasing sequence of finite cyclic groups, each obviously compact.
 
+## Related concepts
 
+* [[locally compact topological group]]
+
+* [[compact Lie group]]
 
 ## References
 
