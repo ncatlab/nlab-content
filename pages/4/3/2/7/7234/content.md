@@ -1,0 +1,8 @@
+
+## Idea
+
+One of the [[exceptional Lie groups]].
+
+## References
+
+* wikipedia, _[$E_6$](http://en.wikipedia.org/wiki/E6_%28mathematics%29)_
