@@ -1,0 +1,51 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The classification of [[Riemannian manifolds]] with [[special holonomy]] contains two "exceptional" cases: [[G2]]-[[holonomy]] in [[dimension]] 7, and [[spin group|Spin(7)]]-[[holonomy]] in dimension 8. Their study is the topic of _exceptional geometry_.
+
+Sometimes more generally, exceptional geometry is understod to study [[spaces]] controled by [[exceptional Lie groups]] in some way.
+
+## Related concepts
+
+* [[exceptional Lie group]], [[exceptional generalized geometry]]
+
+## References
+
+### General
+
+General discussion is in
+
+* [[Dominic Joyce]], _The exceptional holonomy groups and calibrated geometry_ ([pdf](http://gokovagt.org/proceedings/2005/ggt05-joyce.pdf))
+
+* [[Simon Salamon]], _A tour of exceptional geometry_ ([pdf](http://calvino.polito.it/~salamon/T/tour.pdf))
+
+* [[Simon Salamon]], _Self-duality and exceptional geometry_ ([pdf](http://calvino.polito.it/~salamon/G/baku.pdf))
+
+Discussion of [[G2 manifolds]] is in 
+
+* Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
+
+### In supergravity
+
+Applications to [[supergravity]] are discussed in 
+
+* K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_ ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
+
+For more along these lines see the references at _[[exceptional generalized geometry]]_.
+
+[[!redirects exceptional geometries]]
