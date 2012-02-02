@@ -74,6 +74,13 @@ Every ordinary normal subgroup inclusion $K \hookrightarrow G$ is also also a no
 
 =--
 
+## Properties
+
+### Recognition of homotopy-normal maps
+ {#Recognition}
+
+A recognition principle for normality of morphisms of [[∞-groups]] is ([Prezma, theorem 6.2](#Prezma)).
+
 ## Examples
 
 ### Normal sub-1-groups
