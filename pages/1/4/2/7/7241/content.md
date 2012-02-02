@@ -1,0 +1,9 @@
+
+* [Wikipedia (German)](http://de.wikipedia.org/wiki/Kurt_Reidemeister)
+
+* [Wikipedia (English)](http://en.wikipedia.org/wiki/Kurt_Reidemeister)
+
+[[!redirects Reidemeister]]
+[[!redirects K. Reidemeister]]
+
+category:people
