@@ -26,3 +26,4 @@ Recently he worked with [[Kirill Mackenzie]] on [[Lie groupoids]] and [[Lie alge
 
 
 category: people
+[[!redirects Higgins]]
