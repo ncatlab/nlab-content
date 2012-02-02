@@ -59,7 +59,7 @@ The [[inverse image]] restriction functor $i^* Sh(Sch_{/X,et}, Ab) \to Sh(X_{et}
 +-- {: .un_cor}
 ###### Corollary
 
-For $X$ a [[scheme]] and $F \in Sh(Sch_{/{X,et}, Ab)$ we have that the [[etale cohomology]] of $X$ with coefficients in $F$ may be computed on the small site:
+For $X$ a [[scheme]] and $F \in Sh(Sch_{/{X,et}}, Ab)$ we have that the [[etale cohomology]] of $X$ with coefficients in $F$ may be computed on the small site:
 
 $$
   H^p(X_{et}, F|_{et}) \simeq H^p(X,F)
