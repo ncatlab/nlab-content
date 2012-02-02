@@ -155,7 +155,7 @@ $$
   E_{n(n)}(\mathbb{Z}) \hookrightarrow E_{n(n)}
 $$
 
-acts as global symmetry. This is called the **U-duality** group of the supergravity theory.
+acts as global symmetry. This is called the **[[U-duality]]** group of the supergravity theory.
 
 It has been argued that this pattern should continue in some way further to the remaining values $0 \leq d \lt 3$,
 with "groups" corresponding to the [[Kac-Moody algebras]]
@@ -247,6 +247,18 @@ and $E_{8(8)}$ in
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for $d = 11$
 supergravity?_, Class. Quant. Grav. 17, 3689 (2000) ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034)).
 
+The discrete quantum subgroups were discussed in 
+
+* [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_ Nucl.Phys.B438:109-137 (1995) ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+
+which also introduced the term "U-duality".
+
+A careful discussion of the topology of the U-duality groups is in 
+
+* [[Arjan Keurentjes]], _The topology of U-duality (sub-)groups_ ([arXiv:hep-th/0309106](http://arxiv.org/abs/hep-th/0309106))
+
+* [[Arjan Keurentjes]], _U-duality (sub-)groups and their topology_ ([arXiv:hep-th/0312134](http://arxiv.org/abs/hep-th/0312134))
+
 A discussion in the context of [[generalized complex geometry]] / [[exceptional generalized complex geometry]] is in 
 
 * Paulo Pires Pacheco, Daniel Waldram, _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
@@ -309,3 +321,4 @@ Discussion of solutions with $N = 1$ global supersymmetry left and their relatio
 
 [[!redirects U-duality]]
 [[!redirects U-dualities]]
+
