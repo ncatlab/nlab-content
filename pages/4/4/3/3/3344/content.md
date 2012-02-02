@@ -66,6 +66,10 @@ Apart from the archeytpical example of the [[simplex category]] we have the foll
 
 * The [[groupoid]]-analog $\tilde \Theta$ of the [[Theta category]] is a test category ([Ara](#Ara)).
 
+## Related concepts
+
+* [[direct category]]
+
 ## References
 
 
