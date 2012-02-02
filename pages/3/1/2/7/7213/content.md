@@ -41,7 +41,7 @@ Survey slides include
 
 Original articles include
 
-* [[Chris Hull]], _Generalised Geometry for M-Theory_ ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
+* [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079 (2007) ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
  {#Hull}
 
 
