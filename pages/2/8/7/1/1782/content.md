@@ -2,9 +2,9 @@
 * automatic table of contents goes here
 {:toc}
 
-## Idea 
 
-###A little history:  the beginnings
+
+##A little history:  the beginnings
 
 Algebraic K-theory  grew out of two apparently unrelated areas of algebraic geometry and algebraic 
 topology. The second of these, historically, was the development by Grothendieck of (geometric 
@@ -24,19 +24,19 @@ He showed the answer was negative, and there was an invariant ([[Whitehead torsi
 
 This ties in, even at this basic level with the [[nPOV]] and the processes around categorification. For a ring, $R$, the [[Grothendieck group]], $K_0(R)$, looks at the [[core]] of the category of finitely generated projective modules, and takes its set of connected components, which is just the set of isomorphism classes. This becomes an abelian monoid under direct sum and then a group after group completion. For $K_1(R)$, you are taking the core again, but looking at the category of morphisms in it. If we take $K_0$ of that category we get $K_1$ of the ring. So $K_1$ looks at the loops whilst $K_0$ at the connected components.
 
-###Milnor's $K_2$
+##Milnor's $K_2$
 Notes for later use.
 [[Steinberg group]]
 [[universal central extension]]
 [[crossed module]]
 
-###Higher algebraic K-theory
+##Higher algebraic K-theory
 
 
-#### Quillen
+### Quillen
 
 
-####Volodin
+###Volodin
 
 
 ###Other forms:
