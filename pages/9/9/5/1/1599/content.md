@@ -20,7 +20,7 @@
 
 ## Definition
 
-A real [[Lie group]] is **compact** if its underlying [[topological space]] is a [[compact space]].
+A real [[Lie group]] is **compact** if its underlying [[topological group]] is a [[compact topological group]].
 
 ## Properties
 
@@ -30,7 +30,7 @@ All [[maximal torus|maximal tori]] of a compact Lie group are conjugate by [[inn
 
 ## Related concepts
 
-* [[locally compact topological group]], [[maximal compact subgroup]]
+* [[locally compact topological group]], [[compact topological group]], [[maximal compact subgroup]]
 
 * [[proper Lie groupoid]]
 
