@@ -1,4 +1,12 @@
 
-* [website](http://www.cs.cmu.edu/~rwh/)
+* [website](http://www.cs.cmu.edu/~rwh/), 
+
+* [blog](http://existentialtype.wordpress.com/)
+
+## Wrtings
+
+An introduction to programming languages in terms of [[type theory]]:
+
+* _Practical foundations for programming languages_ ([pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
 
 category: people
