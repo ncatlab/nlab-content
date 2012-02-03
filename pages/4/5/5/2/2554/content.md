@@ -2,9 +2,9 @@
 
 ## Background
 
-* [[homotopy theory]] (i.e., the theory of homotopy)
+* [[homotopy theory]]
 
-* [[algebraic topology]]
+* [[algebraic topology]], [[simplicial homotopy theory]]
 
 * [[homotopy]]
 
