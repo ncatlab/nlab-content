@@ -14,7 +14,7 @@ Some idea of its history is given in [[Algebraic K-theory, a historical perspect
 
 * [[Higher algebraic $K$-theory]] [[Quillen exact category]], [[Quillen's plus construction]], [[Volodin spaces]];
 
-* Links with other areas: [[The algebraic K-theory of spaces]]([[Waldhausen S-construction]]), [[topological cyclic homology]], ...
+* Links with other areas: [[The algebraic K-theory of spaces]]([[Waldhausen S-construction]]), [[topological cyclic homology]], [[algebraic K-theory of operator algebras]], ...
 
 ##More recent history and the nPOV.
 
