@@ -1,6 +1,7 @@
+[[!redirects Algebraic K-theory, a historical perspective]]
 ##A little history:  the beginnings
 
-Algebraic K-theory  grew out of two apparently unrelated areas of algebraic geometry and algebraic 
+[[algebraic K-theory|Algebraic K-theory]]  grew out of two apparently unrelated areas of algebraic geometry and algebraic 
 topology. The second of these, historically, was the development by Grothendieck of (geometric 
 and topological) K-theory based on projective modules over a ring, or finite dimensional vector 
 bundles on a space, that is the [[Grothendieck group]] of the given ring or of the ring of functions on the space. (The connection between these is that the space of global sections of a finite 
