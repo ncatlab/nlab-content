@@ -23,8 +23,14 @@
 
 A [[function]]  $f : X \to Y$ between [[topological space]]s  is called __open__ if the [[image]] of every [[open set]] in $X$ is also open in $Y$.
 
-Recall that $f$ is a __[[continuous map]]__ if the [[preimage]] of every [[open subspace|open set]] in $Y$ is open in $X$.  For defining open maps typically one restricts attention to open [[continuous map]]s, although it also makes sense to speak of open functions that are not continuous.
+Recall that $f$ is a __[[continuous map]]__ if the [[preimage]] of every [[open subspace|open set]] in $Y$ is open in $X$.  For defining open maps typically one restricts attention to open [[continuous map]]s, although it also makes sense to speak of open functions that are not continuous. 
 
+#### Examples 
+
+* For any two topological spaces $X$, $Y$, the projection map $\pi \colon X \times Y \to Y$ is open. 
+
+* If $G$ is a [[topological group]] and $H$ is a subgroup, then the projection to the coset space $p \colon G \to G/H$, where $G/H$ is provided with the quotient topology (making $p$ a quotient map), is open. This follows easily from the observation that if $U$ is open in $G$, then so is 
+$$p^{-1}(p(U)) = U H = \bigcup_{h \in H} U h$$ 
 
 ### For morphisms between locales
 
