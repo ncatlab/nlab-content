@@ -1,0 +1,8 @@
+
+* Mathematics Genealogy [entry](http://genealogy.math.ndsu.nodak.edu/id.php?id=154785)
+
+## Writings
+
+* with [[Pierre Gabriel]], _[[Calculus of fractions and homotopy theory]]_
+
+category: people
