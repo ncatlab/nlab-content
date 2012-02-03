@@ -1,9 +1,11 @@
-For the time being, the **plus construction** is described under [[sheaf]].
+The terminology 'plus construction' is used for two very different types of construction.
 
 
-+-- {: .query}
-[[David Roberts]]: We need a disambiguation with the [[Quillen plus construction]]. The version which sends a presheaf to a separated presheaf to a sheaf could be called [[Grothendieck plus construction]].
-=--
+
+ *  The version which sends a presheaf to a separated presheaf to a sheaf is described in detail under [[sheaf]].
+
+*  The process of killing a perfect normal subgroup of the fundamental group of a space is described under [[Quillen plus construction]]. 
+
 
 
 [[!redirects Grothendieck plus construction]]
