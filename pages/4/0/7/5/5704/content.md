@@ -32,8 +32,15 @@ Let $X$ be a [[topological space]] and $\sim$ an [[equivalence relation]] on (th
 
 The **quotient topology**, or **identification topology**, induced on $Y$ from $X$ says that a subset $U\subseteq Y$ is [[open subset|open]] if and only if $q^{-1}(U)\subseteq X$ is open.  With this topology $Y$ is a **quotient space** or **identification space** of $X$.
 
-Obviously, up to [[homeomorphism]], all that matters is the surjective function $X\to Y$.  For the above definition, we don't even need it to be surjective, and we could generalize to a [[sink]] instead of a single map; in such a case one generally says *[[final topology]]* or *[[strong topology]]*.  See [[topological concrete category]].
+Obviously, up to [[homeomorphism]], all that matters is the surjective function $X\to Y$.  For the above definition, we don't even need it to be surjective, and we could generalize to a [[sink]] instead of a single map; in such a case one generally says *[[final topology]]* or *[[strong topology]]*.  See [[topological concrete category]]. 
 
+**Remarks:** 
+
+1. Recall that a map $q \colon X \to Y$ is [[open map|open]] if $q(U)$ is open in $Y$ whenever $U$ is open in $X$. It is not the case that a quotient map $q \colon X \to Y$ is necessarily open. Indeed, the identification map $q \colon I \sqcup \{\ast\} \to S^1$, where the endpoints of $I$ are identified with $\ast$, takes the open point $\ast$ of the domain to a non-open point in $S^1$. 
+
+1. Nor is it the case that a quotient map is necessarily a closed map; the classic example is the projection map $\pi_1 \colon \mathbb{R}^2 \to \mathbb{R}$, which projects the closed locus $x y = 1$ onto a non-closed subset of $\mathbb{R}$. (This is a quotient map, by the next remark. 
+
+1. It is easy to prove that a continuous open surjection $p \colon X \to Y$ is a quotient map. For instance, projection maps $\pi \colon X \times Y \to Y$ are quotient maps, provided that $X$ is inhabited. 
 
 ### In $Loc$
 
