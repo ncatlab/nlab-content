@@ -23,11 +23,11 @@ Coordinate rings of general linear groups and of special general linear groups h
 
 ##Stable and unstable versions:
 
-The above is sometimes referred to as the unstable general linear group, whilst the result if one lets $n$ go to infinity is called the _stable general linear group_ of $R$, and is then written $GL(R)$ with no suffix.
+The above is sometimes referred to as the unstable general linear group, whilst the result if one lets $n$ go to infinity is called the [[stable general linear group]] of $R$, and is then written $GL(R)$ with no suffix.
 
 ## References and links 
 
-Related entries: [[Gauss decomposition]], [special linear group]], [[orthogonal group]], [[unitary group]], [[Borel subgroup]], [[flag variety]]. 
+Related entries: [[Gauss decomposition]], [[special linear group]], [[orthogonal group]], [[unitary group]], [[Borel subgroup]], [[flag variety]]. 
 
 * O.T. O'Meara, _Lectures on Linear Groups_, Amer. Math. Soc., Providence, RI, 1974.
 
