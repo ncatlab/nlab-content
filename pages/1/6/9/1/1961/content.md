@@ -157,8 +157,7 @@ See [[Frölicher space]] for the definition in that context.
 
 * [[normal bundle]]
 
-...
-
+* [[G-structure]]
 
 [[!redirects tangent vector]]
 [[!redirects tangent space]]
