@@ -19,6 +19,20 @@ A [[Riemannian manifold]] with [[special holonomy]] [[G2]].
 
 ## References
 
-For the moment see _[[exceptional geometry]]_ for references.
+### General
+
+Surveys include
+
+* Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
+
+
+For more see the references at _[[exceptional geometry]]_.
+
+ 
+### Application in supergravity
+
+The following references discuss the role of $G_2$-manifolds in [[11-dimensional supergravity]].
+
+* [[Mike Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
 
 [[!redirects G2 manifolds]]
