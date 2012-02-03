@@ -30,6 +30,55 @@ If $c$ is refined to a characteristic class $\mathbf{c}$ in [[Smooth∞Grpd]] th
 
 Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]], usually $\mathbf{H} = $ [[Smooth∞Grpd]] or [[SynthDiff∞Grpd]] or the like.
 
+Let $K, G$
+be [[∞-group]] objects in $\mathbf{H}$ and let 
+
+
+$$
+  \mathbf{c} : \mathbf{B}G \to \mathbf{B}K
+$$
+
+be a morphism of their [[delooping]] objects / [[moduli stacks]].
+
++-- {: .num_defn}
+###### Definition
+
+For $X \in \mathbf{H}$ any object and $P \to X$
+an $K$-[[principal ∞-bundle]] over $X$, the [[∞-groupoid]]
+
+$$
+  \mathbf{c}Struc_{[P]}(X)
+  :=
+  \mathbf{H}(X, \mathbf{B}G) \times_{\mathbf{H}(X, \mathbf{B}K)} \{P\}
+  \,,
+$$
+
+hence the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{c}Struc_{[P]}(X)
+    &\to&
+    *
+    \\
+    \downarrow^{\mathrlap{P}}
+    \\
+    \mathbf{H}(X, \mathbf{B}G)
+    &\stackrel{\mathbf{H}(X, \mathbf{c})}{\to}&
+    \mathbf{H}(X, \mathbf{B}K)
+  }
+$$
+
+we may call equivalently
+
+* the $\infty$-groupoid of $K$-structures on $P$ (with respect to the given $\mathbf{c}$);
+
+* the $\infty$-groupoid of $[P]$-twisted $\mathbf{c}$-structures.
+
+=--
+
+The following definition looks at a differential refinement of this situation.
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -72,6 +121,8 @@ Twisted differential $\mathbf{c}$-structures appear in various guises in the [[b
 
   * [[exceptional generalized geometry]]
 
+* [[lift of structure groups]]
+
 * Higher differential spin structures 
 
   * [[twisted spin structure]], [[differential spin structure]]
@@ -94,12 +145,12 @@ Twisted differential $\mathbf{c}$-structures appear in various guises in the [[b
 
 ## References
 
-The notion was conceived of in 
+The notion was introduced in
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_
   {#SSSIII}
 
-in terms of [[L-∞ algebra]]ic data. The full formalization in cohesive $\infty$-toposes is due to
+and expanded on in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]]_
  {#FSS}
