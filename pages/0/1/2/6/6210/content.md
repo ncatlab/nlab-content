@@ -64,9 +64,15 @@ $$
 
 Twisted differential $\mathbf{c}$-structures appear in various guises in the [[background gauge field]]s of  [[string theory]] application. 
 
-* Higher differential spin structures 
+* [[reduction of structure groups]]
 
   * [[orthogonal structure]] / [[Riemannian metric]]; see the discussion at _[[vielbein]]_ . 
+
+  * [[generalized complex geometry]]
+
+  * [[exceptional generalized geometry]]
+
+* Higher differential spin structures 
 
   * [[twisted spin structure]], [[differential spin structure]]
 
