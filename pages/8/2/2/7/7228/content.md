@@ -27,7 +27,7 @@ A [[locally compact topological space|locally compact]] [[topological group]] $G
 
 =--
 
-See for instance ([Hofmann-Morris, def. 4.24](#HofmannMorris)).
+See for instance ([Hofmann-Morris, def. 4.24](#HofmannMorris)). We remark that since the connected component $G_0$ is closed, the identity in $G/G_0$ is a closed point. It follows that $G/G_0$ is $T_1$ and therefore, because it is a uniform space, $T_{3 \frac1{2}}$ (a [[Tychonoff space]]; see [[uniform space]] for details). In particular, $G/G_0$ is compact Hausdorff. 
 
 +-- {: .num_defn }
 ###### Example
@@ -36,7 +36,8 @@ Every [[compact topological space|compact]] and every [[connected topological sp
 
 Also every [[quotient]] of an almost connected group is almost connected.
 
-=--
+=-- 
+
 
 ## Related concepts
 
