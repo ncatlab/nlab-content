@@ -1,0 +1,25 @@
+## Definition 
+
+For any prime $p$, the [[ring]] of $p$-**adic integers** $\mathbb{Z}_p$ (which, to avoid possible confusion with the ring $\mathbb{Z}/(p)$, is also written as $\widehat{\mathbb{Z}}_p$) may be described in one of several ways: 
+
+1. To the person on the street, it may be described as (the ring of) numbers written in base $p$, but allowing infinite expansions to the left. Thus, numbers of the form 
+$$\sum_{n \geq 0} a_n p^n$$ 
+where $0 \leq a_n \leq p-1$, added and multiplied with the usual method of carrying familiar from adding and multiplying ordinary integers. 
+
+1. More precisely, it is the [[metric space]] [[completion]] of the ring of integers $\mathbb{Z}$ with respect to the $p$-adic [[absolute value]]. Since addition and multiplication of integers are [[uniform space|uniformly continuous]] with respect to the $p$-adic [[absolute value]], they extend uniquely to a uniformly continuous addition and multiplication on $\mathbb{Z}_p$. Thus $\mathbb{Z}_p$ is a [[topological ring]]. 
+
+1. Alternatively, it is the [[limit]], in the [[category]] of (unital) [[ring|rings]], of the [[diagram]] 
+$$\ldots \to \mathbb{Z}/(p^{n+1}) \to \mathbb{Z}/(p^n) \to \ldots \to \mathbb{Z}/(p)$$ 
+also considered as a topological ring if the limit is taken in the category of topological rings, and taking the rings in the diagram to have [[discrete space|discrete]] topologies. 
+
+## Properties
+
+The $p$-adic integers have the following properties: 
+
+* As a [[topological space]], it is [[compact space|compact]], [[Hausdorff space|Hausdorff]], and [[totally disconnected space|totally disconnected]] (i.e., is a [[Stone space]]). Moreover, every point is an [[accumulation point]], and there is a countable basis of [[clopen set|clopen sets]] -- a Stone space with these properties must be [[homeomorphism|homeomorphic]] to [[Cantor space]]. 
+
+* As a topological group under addition, it is therefore an [[almost connected group]]. As a compact abelian group, it is [[Pontryagin duality|Pontryagin dual]] to the [[Prüfer group|Prüfer]] $p$-group as discrete group. 
+
+## Related notions 
+
+See also $p$-[[p-adic number|adic number]], [[adele]]. 
