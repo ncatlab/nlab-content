@@ -1,9 +1,9 @@
 
 +-- {: .un_def}
 ###### Definition
-The ring of **Hahn series** with [[value group]] $G$, denoted $k[x^G]$, is the ring of functions $f\colon G \to k$ such that $\{x \in G : f(x) \neq 0\}$ is a [[well-ordered]] subset of $G$. Addition is defined pointwise, and multiplication is defined by the [[convolution]] product: 
+The ring of **Hahn series** with [[value group]] $G$, denoted $k[x^G]$, is the ring of functions $f\colon G \to k$ such that $\{x \in G : f(x) \neq 0\}$ is [[well-ordered]] when considered as a subset of the opposite poset $G^{op}$. Addition is defined pointwise, and multiplication is defined by the [[convolution]] product: 
 $$(f \cdot g)(x) = \sum_{y+z = x \in G} f(y)g(z)$$
-The [[valuation ring|multiplicative valuation]] $v(f)$ is the least $x \in G$ for which $f(x) \neq 0$. 
+The [[valuation ring|multiplicative valuation]] $v(f)$ is the least $x \in G^{op}$ for which $f(x) \neq 0$. 
 =-- 
 
 We obtain a [[valuation ring]] from this construction since a valuation ring determines and is determined by a valuation on a [[field]].
