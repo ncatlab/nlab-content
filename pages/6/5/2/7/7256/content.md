@@ -5,7 +5,7 @@ In this article, we collect some results about representable functors $C(c, -) \
 
 When $C$ is an [[extensive category]] regarded as enriched in $Set$, we call $c$ a _[[connected object]]_, and this terminology matches well one's intuition about connectedness from familiar cases such as $C = Top$, or $C$ the category of graphs, etc. Some basic results with proofs may be found at [[connected object]], including 
 
-* A [[connected limit]] (i.e., a limit over a [[connected category|connected diagram]] of) connected objects is connected. 
+* A connected colimit (i.e., a colimit over a [[connected category|connected diagram]] of) connected objects is connected. 
 
 * If $X$ is connected and $X \to Y$ is epic, then $Y$ is connected. 
 
