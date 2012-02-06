@@ -144,7 +144,7 @@ The $\sigma$-model describing the relativistic particle is the following.
 
   * the equation is taken to hold in each [[cotangent space]] $T^*_{\gamma(\tau)} X$ for each $\tau \in \mathbb{R}$.
 
-To see what this means, consider some special cases. First regard the case that the background field strenght vanishes, $F = 0$. Then the equations of motion reduce to
+To see what this means, consider some special cases. First regard the case that the background field strength vanishes, $F = 0$. Then the equations of motion reduce to
 
 $$
   \nabla_{\dot \gamma} \dot \gamma = 0 
@@ -232,7 +232,7 @@ This is called the _[[action functional]]_ of the relativistic particle $\sigma$
 
 Typically one characterizes $\sigma$-models in terms of such action functionals, so that the [[covariant phase space]] is then given as their [[critical locus]]. This usually yields a simpler and deeper description of the model. 
 
-Notably the above action functional has an evident generalization to the case where the background [[electromagnetic field]] is not given by a globally defined 1-form, but more generally by a [[circle n-bundle with connection|cicle bundle with connection]] $\nabla$: if we pass to the exponentiated action functional
+Notably the above action functional has an evident generalization to the case where the background [[electromagnetic field]] is not given by a globally defined 1-form, but more generally by a [[circle n-bundle with connection|circle bundle with connection]] $\nabla$: if we pass to the exponentiated action functional
 
 $$
   \exp(i S(-)) : Conf \to U(1)
