@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Introduction 
 
 In this article, we collect some results about representable functors $C(c, -) \colon C \to V$ (where $V$ is some base of hom-enrichment) that preserve coproducts. 
