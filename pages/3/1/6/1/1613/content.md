@@ -34,11 +34,15 @@ It proceeds by constructing a kind of [[holographic principle of higher category
 
 ## References
 
-for the list of references see
+A brief summary on a few pages is in 
+
+* [[Jürgen Fuchs]], [[Ingo Runke]], [[Christoph Schweigert]], _Open strings and 3d topological field theory_ ([pdf](http://www.mth.kcl.ac.uk/staff/i_runkel/PDF/ost.pdf))
+
+For a list of references see
 
 * [FRS reviews](http://golem.ph.utexas.edu/string/archives/000747.html)
 
-a survey of the central theorem that the FRS construction solves the [[sewing constraints]] is at
+A survey of the central theorem that the FRS construction solves the [[sewing constraints]] is at
 
 * [The FRS theorem on CFT](http://golem.ph.utexas.edu/string/archives/000813.html)
 
