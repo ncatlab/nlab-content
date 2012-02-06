@@ -328,13 +328,9 @@ $$
    \to *
 $$
 
-and an [[isomorphism]]
+and
 
-$$
-  H^0(Y, E_8) \times H^2_{dR}(Y) 
-   \stackrel{\simeq}{\to} \pi_1 C Field(Y)_{P_{Spin}}
-  \,.
-$$
+(...)
 
 
 =--
