@@ -273,8 +273,12 @@ A diagram of the interrelation of all the models for stable $(\infty,1)$-categor
 
 
 [[!redirects stable (infinity,1)-category]]
+[[!redirects stable (infinity, 1)-category]]
 [[!redirects stable (infinity,1)-categories]]
+[[!redirects stable (infinity, 1)-categories]]
 [[!redirects stable (∞,1)-category]]
+[[!redirects stable (∞, 1)-category]]
 [[!redirects stable (∞,1)-categories]]
+[[!redirects stable (∞, 1)-categories]]
 
 [[!redirects stable (infinity,1)-topos]]
