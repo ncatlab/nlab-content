@@ -1,6 +1,8 @@
 
 **objects $d \in C$ such that $C(d,-)$ commutes with certain [[colimit]]s**
 
+* [[coproduct-preserving representable]]
+  
 * [[connected object]]
 
 * [[compact object]]
