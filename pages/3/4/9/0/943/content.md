@@ -134,6 +134,8 @@ Appreciation of the role of convenient categories was in full force by the early
 * [[Ronnie Brown]], Function spaces and product topologies,  Quart. J. Math. (2) 15 (1964), 238--250. [(pdf)](http://www.bangor.ac.uk/~mas010/functionspaces.pdf)
 {#Brown64}
 
+* [[Ronnie Brown]] _Topology and groupoids_, Booksurge (2006), Section 5.9: Spaces of functions and the compact-open topology. 
+
 * [[Norman Steenrod]], A convenient category of topological spaces, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
 {#Steenrod}
 
