@@ -8,5 +8,4 @@ Ergebnisse der Math. und ihrer Grenzgebeite, Springer.
 
 was one of the first to consider a strongly categorical approach to homotopy theory.
 
-[[!redirects Gabriel-Zisman]]
 
