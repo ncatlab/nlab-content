@@ -44,6 +44,8 @@ Discussion of [[G2 manifolds]] is in
 
 Applications to [[supergravity]] are discussed in 
 
+* G. Papadopoulos and [[Paul Townsend]], _Compactifications of $D = 11$ supergravity on spaces of exceptional holonomy_ ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
+
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_ ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
 
 * [[Chris Hull]], _Generalised Geometry for M-Theory_ ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
