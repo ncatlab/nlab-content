@@ -5,4 +5,6 @@
 
 * with [[Pierre Gabriel]], _[[Calculus of fractions and homotopy theory]]_
 
+
+[[!redirects M. Zisman]]
 category: people
