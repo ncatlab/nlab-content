@@ -206,6 +206,11 @@ Some heavywheight automated computations using this formalism are discussed in
 
 * D. J. Broadhurst, [[Dirk Kreimer]], _Renormalization automated by Hopf algebra_ ([arXiv:hep-th/9810087](http://arxiv.org/abs/hep-th/9810087))
 
+### Operadic description
+
+* [[Jean-Louis Loday]], Nikolay M. Nikolov, _Operadic construction of the renormalization group_ ([arXiv:1202.1206](http://arxiv.org/abs/1202.1206))
+
+
 [[!redirects renormalizable]]
 [[!redirects renormalizable theory]]
 
