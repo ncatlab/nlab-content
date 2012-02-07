@@ -236,3 +236,24 @@ For yet another introduction to model categories, with an eye towards their use 
 [[!redirects Quillen model categories]]
 [[!redirects closed model categories]]
 [[!redirects closed Quillen model categories]]
+
+[lianli](http://yawan.blogdetik.com/) blogdetik
+[kampret](http://lucubanget.inilahkita.com/) lucubanget
+[insane](http://deyong.dagdigdug.com/) dagdigdug
+[kambing](http://id4download.blog.com/) downloadblog
+[tonduw](http://kanduyung.wordpress.com/) wordpress
+
+[teler](http://katamutiarabijak.netai.net/) netai
+[minum](http://bentor.pressku.com/) pressyou
+[ballo](http://infonews.site90.net/) infonews
+[kemarin](http://mutiarabijak.wordpress.com/) mutiarabijak
+[sore](http://lucubro.blogspot.com/) blogspot
+
+[dialah](http://deyong.abatasa.com/) abatasa
+[anna la di ita](http://kandu.webnode.com/) webnode
+[kossi](http://wockee.weebly.com/index.html) wockee
+[ridwanaz](http://deyong.posterous.com/) posterous
+[puyeng](http://deyongbp.bravejournal.com/index.php) bravenet
+[dianlow](http://kandu.webs.com/) websin
+[tangngana](http://deyong.livejournal.com/) uberjournal
+
