@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
@@ -29,4 +29,7 @@ The book is written in a recognizable abstract, clean and precise language with 
 category: reference
 
 [[!redirects Gabriel-Zisman]]
+[[!redirects Gabriel–Zisman]]
 [[!redirects Gabriel--Zisman]]
+[[!redirects Gabriel and Zisman]]
+[[!redirects Calculus of fractions and homotopy theory]]
