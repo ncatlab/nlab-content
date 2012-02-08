@@ -1,18 +1,83 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
+
+The notion of _Kac-Moody Lie algebra_ is a generalization of that of _[[semisimple Lie algebra]]_ to infinite [[dimension]] of the underlying [[vector space]].
+
+## Definition
 
 (...)
 
+## Examples
+
+The higher Kac-Moody analogs of the [[exceptional Lie group|exceptional semisimple Lie algebras]] [[E7]], [[E7]], [[E8]] are
+
+* affine: [[E9]] 
+
+* hyperbolic: [[E10]],
+
+* Lorentzian: [[E11]], ...
+
 ## References
+
+### General
 
 Surveys include
 
 * wikipedia, _[Kac-Moody algebra](http://en.wikipedia.org/wiki/Kac%E2%80%93Moody_algebra)_
 
+Lecture notes include
+
+* [[Hermann Nicolai]], _Infinite dimensional symmetries_ (2009) ([pdf](http://www.itp.uni-hannover.de/~lechtenf/Events/Lectures/nicolai.pdf))
+
+The standard textbook is
+
+* [[Victor Kac]], _Infinite dimensional Lie algebras_, , Cambridge University Press (1990) 
+
+Collections of articles include
+
+* N. Sthanumoorty, K. Misra (eds.), _Kac-Moody Lie algebras and related topics_, Contemporary Mathematics 343 AMS (2002)
+
+### The $E$-series
+
+Surveys include
+
+* wikipedia, _[En](http://en.wikipedia.org/wiki/En_%28Lie_algebra%29)_
+
+The fact that every simply laced hyperbolic Kac-Moody algebra appears as a subalgebra of [[E10]] is in 
+
+* Sankaran Viswanath, _Embeddings of hyperbolic Kac-Moody algebras into $E_{10}$_ ([pdf](http://math.iisc.ernet.in/~svis/ehk.pdf))
+
+### Affine case
+
 Affine Kac-Moody algebras are discussed in 
 
 * David Hernandez, _An introduction to affine Kac-Moody algebras_ ([pdf](http://www.ctqm.au.dk/events/2006/October/Week42/Masterclassnotes.pdf))
 
+
+### In supergravity
+
+The following references discuss aspects of the Kac-Moody [[exceptional geometry]] of [[supergravity]] theories.
+
+Lecture notes:
+
+* [[Hermann Nicolai]], _Infinite dimensional symmetries_ (2009) ([pdf](http://www.itp.uni-hannover.de/~lechtenf/Events/Lectures/nicolai.pdf))
  
 
 [[!redirects Kac-Moody algebras]]
+
+[[!redirects Kac-Moody Lie algebra]]
+[[!redirects Kac-Moody Lie algebras]]
