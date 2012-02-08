@@ -1,0 +1,3 @@
+I'm a [theoretical biologist](http://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology). I currently work in the [Bergman Lab](http://www.bergmanlab.org) at the [Albert Einstein College of Medicine](http://www.einstein.yu.edu) in New York.
+
+category:people
