@@ -41,6 +41,9 @@ The corresponding cocycle $\langle -,[-,-]\rangle$ in [[Lie algebra cohomology]]
 
 Since we can classify [[simple Lie algebras]], we can classify semisimple Lie algebras; for each simple Lie algebra, we simply indicate how many times it appears in the direct-sum decomposition.  (There is a theorem to prove here: that the decomposition of a semisimple Lie algebra is unique.)
 
+## Related concepts
+
+An infinite-dimensional generalization of semisimple Lie algebras are [[Kac-Moody Lie algebras]].
 
 ## References
 
