@@ -19,14 +19,23 @@ The classification of [[simple Lie group]]s consists of four infinite series -- 
 
 [[G2]], $F_4$, [[E6]], [[E7]], and [[E8]].
 
+On the level of [[Kac-Moody Lie algebras]] the E-series continues as
+
+* [[E9]], [[E10]], [[E11]], ...
+
 ## Related concepts
 
 * [[exceptional geometry]], [[exceptional generalized geometry]]
 
 ## References
 
+### Lie groups
+
 * Ichiro Yokota, _Exceptional Lie groups_ ([arXiv:0902.0431](http://arxiv.org/abs/0902.0431))
 
+### Lie algebras
+
+* wikipedia, _[En](http://en.wikipedia.org/wiki/En_%28Lie_algebra%29)_
 
 * J. R. Faulkner, J. C. Ferrar, _Exceptional Lie algebras and related algebraic and geometric structures, ([[FaulknerFerrar.pdf:file]])
 
