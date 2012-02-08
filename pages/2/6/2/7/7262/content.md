@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A hyperbolic [[Kac-Moody Lie algebra]] in the E-series 
+
+... [[E8]], [[E9]], $E_{10}$, [[E11]], ...
+
+## References
+
+Lecture notes include
+
+* [[Hermann Nicolai]], _Infinite dimensional symmetries_ (2009) ([pdf](http://www.itp.uni-hannover.de/~lechtenf/Events/Lectures/nicolai.pdf))
+
+The fact that every simply laced hyperbolic Kac-Moody algebra is a sub Lie algebra of $E_{10}$ is due to
+
+* Sankaran Viswanath, _Embeddings of hyperbolic Kac-Moody algebras into $E_{10}$_ ([pdf](http://math.iisc.ernet.in/~svis/ehk.pdf))
