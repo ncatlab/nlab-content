@@ -731,9 +731,13 @@ A summary and rview of this is in
 
 * [[Greg Moore]], _Anomalies, Gauss laws, and Page charges in M-theory_ ([arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158))
 
-The discussion from the point of view of the $\infty$-Chern-Weil homomorphism appeared in
+The discussion in [[twisted differential c-structures|twisted nonabelian differential cohomology]] is given in
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane|M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory]]_ ([arXiv:1201.5277](http://arxiv.org/abs/1201.5277))
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], 
+
+  _[[schreiber:The moduli 3-stack of the C-field]]_,
+
+  _[[schreiber:7d Chern-Simons theory and the 5-brane|M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory]]_ ([arXiv:1201.5277](http://arxiv.org/abs/1201.5277))
  {#FiSaSc}
 
 See also section 4.3.4 of 
