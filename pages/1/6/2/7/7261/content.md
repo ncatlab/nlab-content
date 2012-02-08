@@ -1,0 +1,2 @@
+Vlad Patryshev vpatryshev@gmail.com
+programmer, amateur categorist
