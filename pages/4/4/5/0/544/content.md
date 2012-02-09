@@ -148,6 +148,8 @@ See [[ring spectrum]] and [[algebra spectrum]].
 
 * [[L-∞ algebra]], .
 
+[[!include k-monoidal table]]
+
 ## References
 
 A survey of $A_\infty$-algebras in chain complexes is in
