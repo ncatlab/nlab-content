@@ -21,4 +21,6 @@
 * [[Verity on descent for strict omega-groupoid valued presheave|Verity on descent for strict omega-groupoid valued presheaves]]
 
 
+[[!redirects D. Verity]]
+
 category: people
