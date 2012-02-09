@@ -19,7 +19,7 @@
 
 ## Idea
 
-The notion of _structured $(\infty,1)$-topos_ is a generalization of the notion of a [[locally ringed space]] and locally [[]ringed topos] generalized to [[(∞,1)-topos]]es. This is a way to formalize [[higher geometry]]/[[derived geometry]]-structure on [[little topos|little]] [[(∞,1)-topos]]s.
+The notion of _structured $(\infty,1)$-topos_ is a generalization of the notion of a [[locally ringed space]] and locally [[ringed topos]] generalized to [[(∞,1)-topos]]es. This is a way to formalize [[higher geometry]]/[[derived geometry]]-structure on [[little topos|little]] [[(∞,1)-topos]]s.
 
 So a structured $(\infty,1)$-topos is an [[(∞,1)-topos]] $\mathcal{X}$ equipped with an [[(∞,1)-sheaf|(∞,1)-]][[structure sheaf]] $\mathcal{O}$ that we think of as the collection of _functions_ on $\mathcal{X}$ that preserve extra geometric structure -- for instance [[topology|continuous structure]] or [[smooth structure]].
 
@@ -43,7 +43,7 @@ as being the [[(∞,1)-sheaf]] of structure-preserving functions on $C$ with val
 
 ## Definition
 
-Let $S$ be a [[geometry (for structured (∞,1)-toposes)|geometric]], i.e. essentially  an $(\infty,1)$-[[site]], i.e. some small [[(∞,1)-category]] equipped with a [[coverage]], and let $Sh(S)$ be the [[(∞,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves]] on $S$. 
+Let $S$ be a [[geometry (for structured (∞,1)-toposes)|geometry]] and let $Sh(S)$ be the [[(∞,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on $S$. 
 
 Notice that if $S = Op(X)$ is the nerve of the [[category of open subsets]] of some [[topological space]] $X$, then $Sh(X) := Sh(S)$ is the [[(∞,1)-category of (∞,1)-sheaves]] on $X$, as in the above motivating introduction. 
 
