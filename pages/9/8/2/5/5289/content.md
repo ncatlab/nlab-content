@@ -15,7 +15,8 @@
 
 ## Definition
 
-An **$E_n$-algebra** is an [[algebra over an operad]] over the [[little n-cube operad|little k-cube operad]].
+An **$E_n$-algebra** is an [[∞-algebra over an (∞,1)-operad|∞-algebra]] over the [[E-k operad]].
+
 
 ## Examples
 
@@ -33,11 +34,23 @@ The [[homology]] of an $E_2$-algebra in [[chain complex]]es is a [[BV-algebra]].
 
 See [[E-∞ algebra]].
 
+
+## Related concepts
+
+[[!include k-monoidal table]]
+
+
 ## References
 
-* [[Jacob Lurie]], _[[Ek-Algebras]]_
+Section 5 of
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
+* [[Jacob Lurie]], _[[Higher Algebra]]_,
+
+some summary of which is at _[[Ek-Algebras]]_.
+
+
+
+
 
 [[!redirects En-algebras]]
 
@@ -45,3 +58,15 @@ See [[E-∞ algebra]].
 [[!redirects E2-algebras]]
 
 [[!redirects Ek-algebra]]
+
+[[!redirects E-k algebra]]
+[[!redirects E-k algebras]]
+
+
+
+
+
+
+
+
+
