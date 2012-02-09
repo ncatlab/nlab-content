@@ -26,9 +26,14 @@ In [[homotopy theory]] infinite loop spaces are equivalent to [[connective spect
 
 Infinite loop spaces are the [[E-∞ algebras]] in [[Top]].
 
-See for instance ([Adams, pretheorem 2.3.2](#Adams)) and the references listed there.
+See for instance ([Adams, pretheorem 2.3.2](#Adams)) and the references listed there for traditional accounts. See ([Lurie, section 5.3.1](#Lurie)) for a modern formulation.
 
 (Compare to how just [[loop spaces]] are the [[A-∞ algebras]].)
+
+## Related concepts
+
+[[!include k-monoidal table]]
+
 
 ## References
 
@@ -40,5 +45,11 @@ See for instance ([Adams, pretheorem 2.3.2](#Adams)) and the references listed t
  {#Adams}
 
 * [[Peter May]], _The uniqueness of infinite loop space machines_, Topology, vol 17, pp. 205-224 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
+
+Section 5.1.3 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
+
 
 [[!redirects infinite loop spaces]]
