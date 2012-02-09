@@ -157,6 +157,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Hydrobates](http://alanrendall.wordpress.com) (dynamical systems, differential equations, biomedical modelling)
 
+* [Isomorphismes](http://isomorphismes.tumblr.com/tagged/mathematics) (maths about human beings)
+
 * [Learning Curves](http://learningcurves.blogspot.com) (mathematics education from the perspective of a retiring college professor; may contain vulgar language and expressions of anger)
 
 * [London Number Theory Blog](http://londonnumbertheory.wordpress.com) (arithmetics and arithmetic geometry)
@@ -212,13 +214,15 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Political Math](http://www.politicalmathblog.com/) Visualization of political information 
 
+* [Proof Math is Beautiful](http://proofmathisbeautiful.tumblr.com) Beautiful images of mathematical interest.
+
 * [QED Insight](http://qedinsight.wordpress.com) (by Santo D'Agostino; mathematics, physics, education, pitched mainly to high school and undergraduate university students and teachers, with some material for lay people as well) 
 
 * [qrazydragon](http://qrazydraqon.livejournal.com) (math, books, internet, in Russian)
 
 * [Quomodocumque](http://quomodocumque.wordpress.com/) University professor Jordan Ellenberg's blog
 
-* [Reasonable Deviations](http://stochastix.wordpress.com) (control and dynamical systems, game theory, information, optimization, statistical mechanics, chemical kinetics, technology, puzzles)
+* [Reasonable Deviations](http://stochastix.wordpress.com) (control and dynamical systems, game theory, information, optimization, statistical mechanics, chemical kinetics, technology, puzzles by Rod Carvalho)
 
 * [Rigorous Trivialities](http://rigtriv.wordpress.com) (mainly algebraic geometry, including well-organized introductory notes [algebraic geometry from the beginning](http://rigtriv.wordpress.com/ag-from-the-beginning)--last updated April 2011)
 
@@ -256,11 +260,15 @@ Note: To maintain the quality and relevance of this list, any new links not cont
  
 * [Three-Toed Sloth](http://bactra.org/weblog)  (Cosma Shalizi: books, science, automata, complex networks, stochastic processes, numerics and simulation, arts, literature, politics)
 
+* [Things of interest](http://blog.matthen.com/) (Mathematica visualisations, puzzles)
+
 * [Todd and Vishal's blog](http://topologicalmusings.wordpress.com)--last updated January 2011
 
 * [Travels in a Mathematical World](http://travelsinamathematicalworld.blogspot.com/) Blog of a British mathematics educator
 
 * [Uncover a few](http://uncoverafew.wordpress.com/) New blog of problems and teaching ideas 
+
+* [University of David](http://davidaedwards.tumblr.com/) Blog of an emeritus mathematical physicist.
 
 * [Vi Hart's blog](http://vihart.com/) Great videos and photos of mathematical art and story-telling
 
