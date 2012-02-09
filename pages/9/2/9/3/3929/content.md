@@ -1,4 +1,4 @@
-__George Maxwell Kelly__ (1930-2007) was a category theorist, the founder of the Australian category theory school.
+__Gregory Maxwell Kelly__ (1930-2007) was a category theorist, the founder of the Australian category theory school.
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Max_Kelly)
 
