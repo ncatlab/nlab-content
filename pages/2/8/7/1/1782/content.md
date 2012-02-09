@@ -10,7 +10,7 @@ Some idea of its history is given in [[Algebraic K-theory, a historical perspect
 
 * [[Algebraic K-theory, a historical perspective]] (Whitehead and Grothendieck);
 
-* [[Milnor's $K_2$]]([[Steinberg group]],[[universal central extension]],[[crossed module]])
+* [[Milnor's $K_2$]]([[Steinberg group]],[[universal central extension]])
 
 * [[Higher algebraic $K$-theory]] [[Quillen exact category]], [[Quillen's plus construction]], [[Volodin spaces]];
 
@@ -84,7 +84,7 @@ A reference for classical constructions is
 
 The $(\infty,1)$-categorical picture is described in
 
-* [[Andrew Blumberg]], [[David Gepner]], [[Gonzalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
+* [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
  {#BlumbergGepnerTabuada}
 
 For discussion of stable phenomena in algebraic K-theory, see section 4 of 
