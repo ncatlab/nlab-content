@@ -129,6 +129,8 @@ See [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for more
 
   * [[suspension]]
 
+[[!include k-monoidal table]]
+
 
 ## References
 
