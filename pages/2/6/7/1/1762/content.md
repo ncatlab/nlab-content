@@ -5,7 +5,6 @@ Ross Street is a major category theorist of the [[Australian school of category 
 
 * [[André Joyal|A. Joyal]], R. Street, _Pullbacks equivalent to pseudopullbacks_, Cahiers topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques 34 (1993) 153-156; [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_2_153_0) MR94a:18004.
 
-* [[A. Joyal]], [[M. Tierney]], _Strong stacks and classifying spaces_,  Category theory (Como, 1990),  213--236, Lecture Notes in Math. __1488__, Springer 1991. 
 
 * A. Joyal, R. Street, _An introduction to Tannaka duality and quantum groups_,  Category theory (Como, 1990),  413--492, Lecture Notes in Math. __1488__, Springer 1991 ([pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)).
 
