@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -36,7 +36,7 @@ When the spaces and spectra in question carry an [[action]] of a [[group]] $G$ t
 
 An excellent general survey is
 
-* A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* A. Elmendorf, [[Igor Kriz|I. Kriz]], [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
 A survey of formalisms used in stable homotopy theory -- tools to present the [[triangulated category|triangulated]] [[homotopy category]] of a  [[stable (infinity,1)-category]] -- is in
 
