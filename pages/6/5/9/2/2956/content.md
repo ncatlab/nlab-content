@@ -1,5 +1,6 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -27,3 +28,11 @@ Probably the first full proof in print is given in
 * [[Jacob Lurie]], _[[Ek-Algebras]]_ ,
 
 where it appears in example 1.2.3 as a direct consequence of a more general statement, corollary 1.1.10.
+
+
+## References
+
+Section 5.1.2 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
