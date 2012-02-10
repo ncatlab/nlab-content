@@ -1,11 +1,17 @@
-<div class="rightHandSide toc">
-[[!include stable homotopy theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -73,9 +79,18 @@ One writes
 
 For $C = Top$, $Stab(C)$ is the $(\infty,1)$-category version of the classical stable homotopy category of spaces: the [[stable (infinity,1)-category of spectra]].
 
+## Related concepts
+
+[[!include k-monoidal table]]
 
 ## References
 
 section 8 of
 
-* [[Jacob Lurie]], [[Stable Infinity-Categories]]
+* [[Jacob Lurie]], _[[Stable Infinity-Categories]]_
+
+Section 1.4.2 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
+[[!redirects spectrum objects]]
