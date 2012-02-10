@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $k$ a [[field]] and $V$ a $k$-[[vector space]], a _basis_ for $V$ is a [[basis of a free module]] for $V$ regarded as a [[free module]] over $k$.
+
+## Properties
+
+The [[basis theorem]] asserts that, with the [[axiom of choice]], every vector space admits a basis.
+
+## Related concepts
+
+* [[orthogonal basis]]
+
