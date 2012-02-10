@@ -177,7 +177,7 @@ $$
   }
 $$
 
-is a [[commuting diagram]] such that $g$ and $h$ are formally &#233;tale, then also $h$ is formally &#233;tale.
+is a [[commuting diagram]] such that $g$ and $h$ are formally &#233;tale, then also $f$ is formally &#233;tale.
 
 =--
 
