@@ -1,6 +1,7 @@
 [[!redirects Algebraic K-theory, a historical perspective]]
 ##A little history:  the beginnings
 
+
 [[algebraic K-theory|Algebraic K-theory]]  grew out of two apparently unrelated areas of algebraic geometry and algebraic 
 topology. The second of these, historically, was the development by Grothendieck of (geometric 
 and topological) K-theory based on projective modules over a ring, or finite dimensional vector 
@@ -19,3 +20,9 @@ He showed the answer was negative, and there was an invariant ([[Whitehead torsi
 
 This ties in, even at this basic level with the [[nPOV]] and the processes around categorification. For a ring, $R$, the [[Grothendieck group]], $K_0(R)$, looks at the [[core]] of the category of finitely generated projective modules, and takes its set of connected components, which is just the set of isomorphism classes. This becomes an abelian monoid under direct sum and then a group after group completion. For $K_1(R)$, you are taking the core again, but looking at the category of morphisms in it. If we take $K_0$ of that category we get $K_1$ of the ring. So $K_1$ looks at the loops whilst $K_0$ at the connected components.
 
+##References
+
+One of the best accounts of the history of K-theory is by [[Chuck Weibel]]:
+
+* [[Charles A. Weibel]], [The development of algebraic K-theory before 1980](http://www.math.rutgers.edu/~weibel/papers-dir/khistory.pdf) published in _Algebra, K-theory, groups, and education:
+on the occasion of Hyman Bass's 65th birthday_, a volume of _Contemporary Mathematics, American Mathematical Soc, 1999.
