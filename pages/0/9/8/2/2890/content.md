@@ -3,6 +3,9 @@
 
 * Charles Weibel, _[[An introduction to homological algebra]]_,  Cambridge Studies in Adv. Math. 38, CUP 1994
 
+* Charles Weibel,  [The development of algebraic K-theory before 1980](http://www.math.rutgers.edu/~weibel/papers-dir/khistory.pdf), published in _Algebra, K-theory, groups, and education:
+on the occasion of Hyman Bass's 65th birthday_, a volume of _Contemporary Mathematics_, American Mathematical Soc, 1999.
+
 #related $n$Lab entries#
 
 * [[homological algebra]]
@@ -15,4 +18,5 @@
 category: people
 
 [[!redirects C. Weibel]]
+[[!redirects Charles A. Weibel]]
 [[!redirects Chuck Weibel]]
