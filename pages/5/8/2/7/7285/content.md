@@ -1,0 +1,4 @@
+
+* [wikipedia entry](http://de.wikipedia.org/wiki/Robert_Stong)
+
+category: people
