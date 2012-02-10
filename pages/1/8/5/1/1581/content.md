@@ -1,17 +1,25 @@
-The **basis theorem** for [[vector space]]s states that every vector space $V$ admits a basis, or in other words is a free module over its [[ground field]] of scalars. It is a famous classical consequence of the axiom of choice (and is equivalent to it by a result of Andreas Blass, proved in 1984). 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The **basis theorem** for [[vector space]]s states that every [[vector space]] $V$ admits a [[basis of a vector space|basis]], or in other words is a [[free module]] over its [[ground field]] of scalars. It is a famous classical consequence of the [[axiom of choice]] (and is equivalent to it by a result of Andreas Blass, proved in 1984). 
 
 ## Statement and proofs
 
 +-- {: .un_theorem}
 ###### Basis theorem
 
-If $V$ is a [[vector space]] over any [[field]] $K$, then $V$ has a basis.
+If $V$ is a [[vector space]] over any [[field]] $K$, then $V$ has a [[basis of a vector space|basis]].
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-We apply [[Zorn's lemma]] as follows: consider the poset consisting of the linearly independent subsets of $V$, ordered by inclusion (so $S \leq S'$ if and only if $S \subseteq S'$). If $(S_\alpha)$ is a chain in the poset, then 
+We apply [[Zorn's lemma]] as follows: consider the [[poset]] consisting of the linearly independent [[subsets]] of $V$, ordered by inclusion (so $S \leq S'$ if and only if $S \subseteq S'$). If $(S_\alpha)$ is a chain in the poset, then 
 
 $$S = \bigcup_\alpha S_\alpha$$ 
 
