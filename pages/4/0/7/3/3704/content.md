@@ -112,6 +112,10 @@ More basic introductions are in
 * [[Bob Coecke]], _Categories for the practising physicist_ ([arXiv:0905.3010](http://arxiv.org/abs/0905.3010))
 {#CoeckePractising}
 
+A comprehensive collection of basics and of recent developments is in 
+
+* [[Bob Coecke]], [[Ross Duncan]], _Interacting Quantum Observables: Categorical Algebra and Diagrammatics_ ([arXiv:0906.4725](http://arxiv.org/abs/0906.4725))
+
 The formalization of orthogonal bases in $\dagger$-compact categories is in 
 
 * [[Bob Coecke]], [[Dusko Pavlovic]], [[Jamie Vicary]], _A new description of orthogonal bases_ ([arXiv:0810.0812](http://arxiv.org/abs/0810.0812))
