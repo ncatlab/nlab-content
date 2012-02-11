@@ -158,7 +158,7 @@ $$
 
 A standard textbook is
 
-* [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press
+* [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press (1974)
 
 A concise introduction is in chapter 23
 
