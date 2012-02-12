@@ -1,13 +1,24 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
 [[!include topology - contents]]
-</div>
+=--
+=--
+=--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 Algebraic topology is generally the study of [[functor]]s from [[nice categories of spaces]] to [[algebraic category|algebraic categories]].  This is in hindsight, in fact, [[category theory]] originally developed out of algebraic topology, where it was used first simply to describe what was going on and then to axiomatise [[Eilenberg-Steenrod cohomology]] theories.
 
 
-## Some related entries
+## Related entries
 
 *  [[basic problems of algebraic topology]], [[topology]], [[differential topology]]
 *  [[homotopy theory]], [[shape theory]], [[nonabelian algebraic topology]], [[rational homotopy theory]]
@@ -23,7 +34,13 @@ Algebraic topology is generally the study of [[functor]]s from [[nice categories
 *  [[fibration sequence]], [[cofibration sequence]] 
 *  [[Freudenthal suspension theorem]], [[Whitehead theorem]] 
 
+## References
 
-## Online resources
+A textbook with an emphasis on [[homotopy theory]] is in 
 
-There is [a thread on this at MathOverflow](http://mathoverflow.net/questions/18041/algebraic-topology-beyond-the-basicsany-texts-bridging-the-gap).
+* Marcelo Aguilar, Samuel Gitler, Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002)
+
+
+Online resources include
+
+* [a thread on this at MathOverflow](http://mathoverflow.net/questions/18041/algebraic-topology-beyond-the-basicsany-texts-bridging-the-gap).
