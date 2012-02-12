@@ -145,7 +145,7 @@ Totalization of cosimplicial strict [[2-groupoids]] is considered in
 
 and
 
-* Matan Prezma, _Descent data of cosimplicial 2-groupoids_ ([arXiv:1112.3072](http://arxiv.org/abs/1112.3072))
+* [[Matan Prezma]], _Descent data of cosimplicial 2-groupoids_ ([arXiv:1112.3072](http://arxiv.org/abs/1112.3072))
  {#Prezma}
  
 [[!redirects model structure on cosimplicial spaces]]
