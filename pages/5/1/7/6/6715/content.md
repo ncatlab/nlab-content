@@ -62,6 +62,10 @@ $H^n(X;\mathbb{Z}_m)\to H^{n}(X;U(1))$.
 
 * For $p$ any [[prime number]] the multiplication by $p$ on $\mathbb{Z}_{p^2}$ induces the short exact sequence $\mathbb{Z}_p \to \mathbb{Z}_{p^2} \to \mathbb{Z}_p$. The corresponding Bockstein homomorphism $\beta_p$ appears as one of the generators of the [[Steenrod algebra]].
 
+## Related concepts
+
+* [[Steenrod square]]
+
 
 ## References
 
