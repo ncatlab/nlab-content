@@ -9,10 +9,18 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
+## Idea
 
 The [[characteristic classes]] of [[universal principal ∞-bundles]] are called _universal characteristic classes_. Every other characteristic class arises by pullback from a universal characteristic class.
 
 See _[[characteristic class]]_ for more.
+
+## Related concepts
+
+* [[cohomology operation]]
 
 [[!redirects universal characteristic classes]]
