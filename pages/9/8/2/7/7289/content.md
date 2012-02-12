@@ -16,20 +16,20 @@
 
 ## Idea 
 
-The notion of parity complex, introduced by [[Ross Street]], is a notion of [[pasting diagram]] shape. It is based on some combinatorial axioms on subshapes of codimension at most 2 which permit the construction of a (strict) $\omega$-[[strict omega-category|category]] freely generated from the shape. 
+The notion of _parity complex_, introduced by [[Ross Street]], is a notion of [[pasting diagram]] shape. It is based on some combinatorial axioms on subshapes of codimension at most 2 which permit the construction of a (strict) $\omega$-[[strict omega-category|category]] [[free construction|freely generated]] from the shape. 
 
 ## Definition 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition 
-A **parity structure** is a graded set $\{C_n\}_{n \geq 0}$ together with, for each $n \geq 0$, functions 
+A **parity structure** is a [[graded set]] $\{C_n\}_{n \geq 0}$ together with, for each $n \geq 0$, functions 
 $$\partial^+_n \colon C_{n+1} \to P(C_n), \qquad \partial^-_n \colon C_{n+1} \to P(C_n);$$
 we assume throughout this article that $\partial^+_n(c)$, $\partial^-_n(c)$ are finite, nonempty, and disjoint. 
 =-- 
 
 Following Street, we abbreviate $\partial^+_n(c)$ to $c^+$, and $\partial^-_n(c)$ to $c^-$. The Greek letters $\varepsilon$, $\eta$ refer to values in the set $\{+, -\}$. 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 A parity structure is a **parity complex** if it satisfies the following axioms: 
 
@@ -39,22 +39,24 @@ A parity structure is a **parity complex** if it satisfies the following axioms:
 
 1. If $x, y \in c^\eta$ are distinct $n$-cells, then $x^+ \cap y^+ = \emptyset$ and $x^- \cap y^- = \emptyset$. 
 
-1. Define a relation $\lt$ by $x \lt y$ whenever $x^+ \cap y^- \neq \emptyset$, and let $\prec$ be the reflexive transitive closure of $\lt$. Then $\prec$ is antisymmetric, and if $x \prec y$ for $x \in c^\varepsilon$ and $y \in c^\eta$, then $\varepsilon = \eta$. 
+1. Define a [[relation]] $\lt$ by $x \lt y$ whenever $x^+ \cap y^- \neq \emptyset$, and let $\prec$ be the reflexive transitive closure of $\lt$. Then $\prec$ is antisymmetric, and if $x \prec y$ for $x \in c^\varepsilon$ and $y \in c^\eta$, then $\varepsilon = \eta$. 
 =--
 
 ## Examples 
 
-* Simplexes 
+* [[simplex|Simplexes]] 
 
-* Globes 
+* [[globe|Globes]] 
 
-* Cubes 
+* [[cube|Cubes]]
 
 * Products of parity complexes 
 
-* Polyhedra 
+* [[polyhedron|Polyhedra]] 
 
 ## Basic results 
+
+(...)
 
 ## Related notions 
 
@@ -63,6 +65,8 @@ A parity structure is a **parity complex** if it satisfies the following axioms:
 * [[direct category]]
 
 * [[test category]]
+
+* [[oriental]]
 
 ## References 
 
