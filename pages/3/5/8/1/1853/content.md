@@ -183,6 +183,7 @@ For the case that of [[?ech cohomology|?ech]] [[hypercohomology]] with coefficie
 
 * [[intersection pairing]]
 
+* [[cohomology operation]]
 ## References 
 
 The cup product in &#268;ech cohomology is discussed for instance in section 1.3 of
