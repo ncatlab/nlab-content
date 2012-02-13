@@ -45,9 +45,9 @@ There is a more abstract way to encode all this simply as a [[monoid]] in a suit
 ### Plain operads {#PedestrianDefOperad}
 
 Let $V$ be a [[symmetric monoidal category]]. A 
-( _permutative_ or _symmetric_) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the [[natural number]]s $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
+( _permutative_ or _[[symmetric operad|symmetric]]_) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the [[natural number]]s $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
 
-* Right actions of [[symmetric group]]s $\rho_n: S_n \to \hom(F(n), F(n))$; 
+* Right [[actions]] of [[symmetric group]]s $\rho_n: S_n \to \hom(F(n), F(n))$; 
 * A _unit_ $e: I \to F(1)$ [which we think of as picking out the identity map as unary operation]; 
 * Composition operations 
 $$F(k) \otimes F(n_1) \otimes F(n_2) \otimes \cdots \otimes F(n_k) \to F(n_1 + \ldots + n_k)$$
