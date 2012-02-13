@@ -101,5 +101,3 @@ For instance ([JoyalMoerdijk, section 1](#JoyalMoerdijk)).
 
 [[!redirects open maps]]
 
-[[!redirects open geometric morphism]]
-[[!redirects open geometric morphisms]]
