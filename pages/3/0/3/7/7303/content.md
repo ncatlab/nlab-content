@@ -1,0 +1,5 @@
+
+
+The [[category]] of [[dendroidal sets]].
+
+category: category
