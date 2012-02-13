@@ -217,7 +217,7 @@ This is cor. 6.17 in [CisMoe](http://arxiv.org/abs/0902.1954).
 A morphism $j : X \to Y$ between cofibrant objects in $dSet$ is a weak equivalence precisely if for all fibrant objects $A$ the morphism 
 
 $$
-  \tau dSet(Y,A) \to \tau dSet(X,A)
+  \tau : dSet(Y,A) \to \tau dSet(X,A)
 $$
 
 is an [[equivalence of categories]], where $\tau : SSet \to Cat$ is the [[left adjoint]] to the [[nerve]].
