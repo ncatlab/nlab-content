@@ -421,6 +421,14 @@ See
 
 On [[quadratic operads]] in chain complexes there is a duality operation called [[Koszul duality]]. See there for details.
 
+### The category of operads
+
+Operads and operad [[homomorphisms]] (for any given flavor of operads, as discussed above) form a [[category]], _[[Operad]]_.
+
+The [[Boardman-Vogt tensor product]] makes the category of symmetric colored operads over [[Set]] into a [[closed monoidal category]].
+
+
+
 ## Related concepts
 
 * [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
