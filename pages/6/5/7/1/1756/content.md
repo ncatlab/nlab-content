@@ -143,3 +143,8 @@ See [[simplicial Quillen adjunction]] for more details.
 
 
 [[!redirects Quillen adjunctions]]
+
+[[!redirects right Quillen functor]]
+[[!redirects left Quillen functor]]
+[[!redirects right Quillen functors]]
+[[!redirects left Quillen functors]]
