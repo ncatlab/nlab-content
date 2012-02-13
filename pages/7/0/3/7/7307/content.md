@@ -44,4 +44,6 @@ For $V$ a suitable [[monoidal model category]], the category of $V$-enriched sym
 
 * The operad [[Comm]] for [[commutative monoids]] is the [[terminal object]] in symmetric $V$-operads, for instance for $V = $ [[Set]], [[sSet]], [[Top]], etc.
 
+* For every [[symmetric monoidal category]] $C$, there is naturally the symmetric [[endomorphism operad]] $End(C)$.
+
 [[!redirects symmetric operads]]
