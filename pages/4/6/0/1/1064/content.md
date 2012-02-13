@@ -49,7 +49,7 @@ There are further refinements along these lines. In particular
 
 #Further refinements#
 
-Various further axiom structures are considered and of relevance on additive and abelian categories.
+Various further axiom structures are considered for additive (sometimes abelian) categories.
 
 * [[suspended category]]
 
@@ -58,6 +58,8 @@ Various further axiom structures are considered and of relevance on additive and
 * [[Quillen exact category]]
 
 * [[Grothendieck category]]:  an AB5-category with a [[generator]]
+
+* Gabriel's [[property sup]]
 
 # Generalizations #
 
