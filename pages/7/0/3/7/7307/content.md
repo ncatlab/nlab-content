@@ -1,0 +1,47 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _[[operad]]_ comes in two broad flavors (apart from the choice of enriching category): _symmetric operads_ and _[[planar operads]]_.
+
+Roughly, a planar operad consists of $n$-ary operations for all $n \in \mathbb{N}$ equipped with a suitable notion of compositon, while a _symmetric operad_ in addition is equipped with a compatible [[action]] of the [[symmetric group]] $\Sigma_n$ on the set (or [[object]] in the enriching category) of $n$-ary operations. A [[homomorphism]] of symmetric operads is then a morphism of planar operads that in additions respects this action.
+
+
+The extra "symmetry" structure carried by symmetric operads is crucial for the behaviour of the category of operads in many applications (see the examples below). Notice that it does not so much affect the idea of what a single operad is. In particular, symmetric operads are not restricted to encoding algebraic symmetric structures with symmetric $n$-ary operations! Rather, only the fixed points in the $n$-ary operations of the $\Sigma_n$-action are symmetric operations. If $\Sigma_n$ [[free action|acts freely]], then the corresponding $n$-ary operations are still maximally non-symmetric themselves.
+
+The central example illustrating this are the operads [[Comm]] and [[Assoc]]. Regarded as symmetric [[Set]]-enriched operads, [[Comm]] has the singleton set in each degree, with _trivial_ $\Sigma_n$-action, while [[Assoc]] has $\Sigma_n$ in each degree, freely acting on itself. 
+
+Therefore [[Comm]] is the [[terminal object]] in the [[category]] of symmetric operads (while [[Assoc]], regarded as a [[planar operad]], is the terminal object in that category). 
+
+
+## Structures on the category of symmetric operads
+
+### Boardman-Vogt tensor product
+
+The category of symmetric operads becomes a [[closed monoidal category|closed]] [[symmetric monoidal category]] for the [[Boardman-Vogt tensor product]].
+
+### Model structure
+
+For $V$ a suitable [[monoidal model category]], the category of $V$-enriched symmetric operads carries a good [[model structure on operads]]. See there for more details.
+
+
+## Examples
+
+* The operad [[Comm]] for [[commutative monoids]] is the [[terminal object]] in symmetric $V$-operads, for instance for $V = $ [[Set]], [[sSet]], [[Top]], etc.
+
+[[!redirects symmetric operads]]
