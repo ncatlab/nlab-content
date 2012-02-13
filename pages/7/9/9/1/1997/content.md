@@ -5,17 +5,17 @@
 
 ## Idea
 
-[[Grothendieck]] developed in [[EGA]] a number of notions of smoothness for a [[scheme]] and, more generally, for a morphism of schemes. For algebraic varieties over a field, one already had a classical notion of a nonsingular variety. 
+[[Grothendieck]] developed in [[EGA]] a number of notions of smoothness for a [[scheme]] and, more generally, for a [[smooth morphism of schemes|morphism]] of schemes. For algebraic varieties over a field, one already had a classical notion of a nonsingular variety. 
 
 ## Definition
 
 ### For schemes
 
-A [[scheme]] of finite type over a field $k$ is __smooth__ if after extension of scalars from $k$ to the [[algebraic closure]] $\bar{k}$ it becomes a __regular scheme__, i.e. the stalks of its structure sheaf are regular local rings in the sense of commutative algebra. 
+A [[scheme]] of finite type over a field $k$ is __smooth__ if after extension of scalars from $k$ to the [[algebraic closure]] $\bar{k}$ it becomes a __regular scheme__, i.e. the stalks of its structure sheaf are [[regular local ring]]s in the sense of commutative algebra. 
 
 A relative version of a smooth scheme is the notion of [[smooth morphism of schemes]].
 
-### For affines
+### For affine schemes
 
 Specifically, a finitely presented commutative [[associative algebra]] $A$ over a [[field]] $k$ is smooth if either of the following equivalent conditions holds
 
