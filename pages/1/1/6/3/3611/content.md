@@ -20,19 +20,23 @@
 
 ## Idea
 
-If $V$ is a [[symmetric monoidal category]] that is also a [[monoidal model category]], then under suitable conditions there is also the structure of a [[model category]] on the category of $V$-[[operad]]s. 
+If $V$ is a [[symmetric monoidal category]] that is also a [[monoidal model category]], then under suitable conditions there is also the structure of a [[model category]] on the category of [[symmetric operad|symmetric]] $V$-[[operads]]. 
 
-This is important for the notion of _homotopy_ [[algebra over an operad]], such as $A_\infty$- and $E_\infty$-algebras.
+This is important for the notion of _homotopy_ [[algebra over an operad]], such as [[A-∞ algebras]] and [[E-∞ algebras]].
 
 
 ## Definition
 
-Throughout, let $V$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category|closed]] [[monoidal model category]] with all small [[colimit]]s and finite [[limit]]s.
-
-### Collections
+Throughout, let $V$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category|closed]] [[monoidal model category]] with all small [[colimit]]s and finite [[limit]]s. 
 
 
-For $G$ a [[finite group]] also $V^{\mathbf{B}G}$ inherits the structure of a closed symmetric monoidal category with small colimits and finite limits. There is a [[forgetful functor]]/[[free functor]] [[adjunction]]
+### Symmetric collections
+
+We first consider the _collections_ of operations underlying a [[symmetric operad]] (with no notion of composition of operations yet).
+
+For $G$ a [[discrete group]] write $\mathbf{B}G$ for the [[delooping]] [[groupoid]]: the category with a single object and $G$ as its set of [[morphisms]]. Then for $V$ any other category, write $V^{\mathbf{B}G}$ for the [[functor category]] of functors $\mathbf{B}G \to V$. This is the category of [[actions]] of $G$ on [[objects]] in $V$. 
+
+For $G$ a [[finite group]] also $V^{\mathbf{B}G}$ inherits the structure of a [[closed monoidal category|closed]] [[symmetric monoidal category]] with small [[colimits]] and [[finite limits]]. There is a [[forgetful functor]]/[[free functor]] [[adjunction]]
 
 $$
   V^{\mathbf{B}G} \stackrel{(-)[G]}{\underset{U}{\to}}
@@ -40,7 +44,7 @@ $$
   \,.
 $$
 
-Write $\Sigma_n$ for the [[symmetric group]] on $n \in \mathbb{N}$ elements. Take $\Sigma_0$ and $\Sigma_1$ to be both the trivial group.
+Write $\Sigma_n$ for the [[symmetric group]] on $n \in \mathbb{N}$ elements. Take $\Sigma_0$ and $\Sigma_1$ both to be the trivial group.
 
 
 +-- {: .num_defn }
