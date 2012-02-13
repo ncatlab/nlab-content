@@ -152,8 +152,10 @@ On the category of [[dendroidal set]]s let
 
 =--
 
-## Properties {#Properties}
+## Properties 
+  {#Properties}
 
+### Of the model structure itself
 
 +-- {: .un_theorem }
 ###### Theorem
@@ -243,7 +245,23 @@ The model structure on [[SSet]] induced this way as the [[model structure on an 
 ###### Proof
 
 This is for instance proposition 8.4.3 in the lecture notes cited below.
+
 =--
+
+### Relation to model structure on enriched operads
+
+There exists also a class of
+[[model structure on operads|model structures on enriched operads]]
+for suitable enrichments.
+Notably for the cases of operads enriched over [[sSet]]
+with its [[model structure on simplicial sets]], or over
+[[Top]] with its [[model structure on topological spaces]] this is
+a [[Quillen equivalence|Quillen equivalent]] to the model structure
+on dendroidal sets.
+
+This Quillen equivalence is an operadic generalization of the Quillen equivalence between the [[model structure on sSet-categories]] and the [[model structure for quasi-categories]].
+
+(...) 
 
 ## References
 
