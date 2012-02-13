@@ -1,6 +1,6 @@
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -10,12 +10,15 @@ The [[simplex category]] may be regarded as the category of all linear [[directe
 
 ## Definition
 
+### Finite symmetric rooted trees
+
+We define the category $\Omega$ _finite symmetric rooted trees_.
+
 The objects of $\Omega$ are non-empty non-planar [[trees]] with specified root. 
 
-Each such tree may naturally be regarded as specifying an (colored) [[operad]] with one color per edge of the tree. A morphism of trees in $\Omega$ is a morphism of the corresponding operads. 
+Each such tree may naturally be regarded as specifying an (colored) [[symmetric operad]] with one color per edge of the tree. A morphism of trees in $\Omega$ is a morphism of the corresponding operads. 
 
-As such, $\Omega$ is by construction a full subcategory of that of [[operads]].,
-
+As such, $\Omega$ is by construction a full subcategory of that of [[symmetric operads]] enriched over [[Set]].
 
 ## Dendroidal sets
 
@@ -27,5 +30,10 @@ A [[presheaf]] on $\Omega$ is a [[dendroidal set]], a generalization of a [[simp
 See the references at [[dendroidal set]].
 
 
-[[!redirects tree category]]
+[[!redirects tree categories]]
+
 [[!redirects dendrex category]]
+[[!redirects dendrex categories]]
+
+[[!redirects category of trees]]
+[[!redirects categories of trees]]
