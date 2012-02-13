@@ -15,37 +15,48 @@
 
 ## Idea
 
-The notion of _enomorphism operad_ is the analog in [[operad]]-theory of the notion of the [[delooping]] [[category]] $\mathbf{B}A$ of an [[endomorphism monoid]] $End(A)$ in [[category theory]].
+The endomorphism operad of a [[monoidal category]] $C$ is an [[operad]] whose $n$-ary operations are the [[morphisms]] out of $n$-fold [[tensor products]] in $C$, i.e.
+
+$$
+  End(C)_n(c_1, \cdots, c_n,c)
+  := 
+  Hom_C(c_1\otimes \cdots \otimes c_n, c)
+  \,.
+$$
 
 
 ## Definition ##
 
+Endomorphism operads come in two favors, one being a [[planar operad]], the other a [[symmetric operad]].
 
-For $(C,\otimes, I)$ a [[symmetric monoidal category]] and $X \in C$ any [[object]], the **endomorphism operad** $End_C(X)$ of $X$ in $C$ is the [[operad]] whose set of $n$-ary operations is the [[hom-set]]
+
+For $(C,\otimes, I)$ a ([[symmetric monoidal category|symmetric]]) [[monoidal category]], the **endomorphism operad** $End_C(X)$ of $X$ in $C$ is the [[symmetric operad]]/ [[planar operad]] whose colors are the obejects of $C$, and whose objects of $n$-ary operations are the [[hom objects]]
 
 $$
-  End_C(X)_k := Hom_C(X \otimes \cdots k factors \cdots \otimes X, X)
+  End_C(X)(c_1, \cdots, c_n ; c) := 
+C(c_1 \otimes \cdots \otimes c_n,\; c)
   \,,
 $$
 
-This comes with the obvious composition operation induced from the composition in $C$.
+This comes with the obvious composition operation induced from the composition in $C$. Moreover, in the symmetric case there is a canoncial action of the symmetric group induced.
 
-If $C$ is a [[closed monoidal category]] then we may replace the [[hom-set]] by the corresponding [[hom-object]] in $C$ and get an operad in $C$.
+For $S \subset Obj(C)$ any subset of objects, the **$S$-colored endomorphism operad** of $C$ is the restrictoin of the endomorphism operad defined to the set of colors being $S$.
 
-Similarly, if $S \in Set$ is a [[set]] ( _of colours_ ) and $\{A_s | s \in S\}$ is a set of objects, the the **$S$-coloured endomorphism operad** $End(\{A_s\})$ is the [[coloured operad]] with objects $A_s$ and hom-objects
-
-$$
-  P(s_1, \cdots, s_n;s) :=
-  C(A_{s_1} \otimes  \cdots \otimes A_{s_n}; A_{s})
-$$
+In particular, the endomorphism operad of a single object $c \in C$, often denoted $End(c)$, is the single-colored operad whose $n$-ary operations are the morphism $c^{\otimes n}\to c$ in $C$.
 
 ## Properties
 
-For $C$ closed symmetric monoidal category and $P$ a $C$ operad, the structure of an [[algebra over an operad]] on an object $A \in C$ over $P$ is equivalently a [[morphism]] of operads
+### Algebras
+
+The structure of an [[algebra over an operad]] on an object $A \in C$ over $P$ is equivalently a [[morphism]] of operads
 
 $$
  \rho : P \to End(A)
 $$
+
+### Universal characterization 
+
+(...)
 
 ## Related concepts
 
@@ -54,5 +65,9 @@ $$
 * [[endomorphism monoid]], [[endomorphism ring]]
 
 * **endomorphism operad**
+
+## References
+
+* [[Claudio Hermida]], _Representable multicategories_, Adv. Math. 151 (2000), no. 2, 164-225 ([pdf](http://wslc.math.ist.utl.pt/s84.www/cs/claudio/articles/rep-mult.pdf))
 
 [[!redirects endomorphism operads]]
