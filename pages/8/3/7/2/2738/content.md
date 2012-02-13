@@ -501,7 +501,7 @@ and how one tends to visualize morphisms $n \to (n+1)$.
 
 =--
 
-### Relation to operads -- dendroidal nerve
+### Relation to $Set$-operads -- dendroidal nerve
  {#RelationToOperads}
 
 By the general notion of [[nerve and realization]], the 
@@ -560,6 +560,66 @@ $$
     \stackrel{\overset{\tau_d}{\leftarrow}}{\underset{N_d}{\to}}
   dSet
 $$
+
+### Relation to $sSet$-operads -- homotopy coherent dendroidal nerve
+ {#HomotopyCoherentNerve}
+
+
+The dendroidal nerve of [[Set]]-[[operads]] discussed 
+[above](#RelationToOperads) is important for setting up the model of
+dendroidal sets. But the usefulness of the model comes from 
+its relation to [[sSet]]/[[Top]]-enriched operads ([[topological operads]])
+via an operadic generalization of the [[homotopy coherent nerve]] that sends [[sSet-enriched categories]] to [[simplicial sets]].
+
+Write $Operad_sSet$ for the category of [[sSet]]-enriched operads ([[simplicial operads]]). Write
+
+$$ 
+  W_H : Operad_sSet \to Operad_sSet
+$$
+
+for the [[Boardman-Vogt resolution]] functor.
+
+The restriction of this along the inclusion of free Set-operads
+
+$$
+  \Omega \hookrightarrow Operad
+  \hookrightarrow
+  Operad_{sSet}
+  \stackrel{W_H}{\to}
+  Operad_{sSet}
+  \,,
+$$
+
+which will also be denoted just $W_H$ in the following, 
+canonically induces [[nerve and realization]] functors:
+
++-- {: .num_defn }
+###### Definition
+
+The **homotopy coherent nerve** of a simplicial operad $P$ is the dendroidal set $hcN_d(P)$ given by
+
+$$
+  hcN_d(P) : T \mapsto Hom_{Operad_{sSet}}(W_H(T), P)
+ \,.
+$$
+
+This extends to a [[functor]]
+
+$$  
+  hcN_d : Operad_{sSet} \to dSet
+  \,.
+$$
+
+=--
+
+We write
+
+$$
+  {\vert -\vert} : dSet \to Operad_{sSet}
+$$
+
+for the corresponding [[right adjoint]] [[nerve and realization|realization]].
+
 
 
 ### The full diagram of relations
