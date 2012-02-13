@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The notion of _[[operad]]_ comes in two broad flavors (apart from the choice of enriching category): _planar operads_ and _[[symmetric operads]]_. Accordingly, planar operads are also called _non-symmetric operads_.
+
+A planar operad is a collection ([[set]]/[[object]] in some enriching category) of $n$-ary operations for all $n \in \mathbb{N}$, equipped with a suitable notion of _composition_. In contrast, a _[[symmetric operad]]_ in addition carries an [[action]] of the [[symmetric group]] $\Sigma_n$ on the object on $n$-ary operations, and all structures are required to respect this action.
+
+The notion of planar operads takes its name from the fact that the operations in a planar operad may naturally be drawn as [[planar trees]] without, in general, a relation between two trees that cannot be related by a planar deformation into each other.
+
+## Examples
+
+* The operad [[Assoc]] for associative [[monoids]] is the [[terminal object]] in the category of planar $V$-operads, for choices such as $V = $  [[Set]], [[sSet]], [[Top]], etc.
+
+[[!redirects planar operads]]
+
+[[!redirects non-symmetric operad]]
+[[!redirects non-symmetric operads]]
