@@ -40,6 +40,10 @@ More generally, we can ask for a universal bundle for _numerable_ bundles, that 
 
 ## References
 
+Among the earliest references that consider the notion of universal bundles is
+
+* [[Shiing-shen Chern]], Sun, ... (1949)
+
 A review is for instance in
 
 * Stephen Mitchell, _Universal principal bundles and classifying spaces_ ([pdf](http://www-math.mit.edu/~mbehrens/18.906/prin.pdf))
