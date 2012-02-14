@@ -84,19 +84,27 @@ which is an [[isomorphism]] that identifies $A_n$ with the $n$-fold cartesian [[
 The morphisms $h \in Hom_A((c_1, \cdots, c_n), d)$ of $A$ are recovered as the collection of morphisms in $C_A$ from $(c_1, \cdots, c_n)$ to $(d)$ that cover the morphism $\langle n\rangle \to \langle 1\rangle$ in $FinSet_*$ whose [[preimage]] of the point contains just the point.
 
 
+### Relation to endomorphism operads
+
+Forming categories of operators is left 2-adjoint to forming _[[endomorphism operads]]_. For the moment, see there for more details.
+
+
+
 ## References
 
 The notion originates in
 
 * [[Peter May]], R. Thomason, _The uniqueness of infinite loop space machines_ , Topology  17(3) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
 
-A discussion of the [[category theory|general abstract nonsense]] behind the notion is at
+A discussion of the general logic behind the notion is at
 
 * [[Mike Shulman]], _Generalized operads in classical algebraic topology_ 
 ([blog](http://golem.ph.utexas.edu/category/2009/10/generalized_operads_in_classic.html))
 
 This summarizes aspects of
 
-* G. Cruttwell, [[Mike Shulman]], _A unified framework for generalized multicategories_ ([arXiv](http://arxiv.org/abs/0907.2460))
+* G. Cruttwell, [[Mike Shulman]], _A unified framework for generalized multicategories_ ([arXiv:0907.2460](http://arxiv.org/abs/0907.2460))
 
 See [example 11.20](http://arxiv.org/PS_cache/arxiv/pdf/0907/0907.2460v1.pdf#page=70) there.
+
+[[!redirects categories of operators]]
