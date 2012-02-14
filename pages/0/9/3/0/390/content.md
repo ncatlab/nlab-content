@@ -15,17 +15,50 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {: toc}
 
 
-##Definition#
+##Definition
+ {#Definition}
 
-An **orthogonal factorization system** can be defined as a [[weak factorization system]] in which solutions to lifting problems are unique.  It can also be defined more directly as a pair $(E,M)$ of classes of maps in a category $C$ such that
+### Orthogonal factorization systems
 
-* Every morphism in $C$ factors as an $E$-morphism followed by an $M$-morphism, and
-* $E$ is precisely the class of morphisms that are left [[orthogonality|orthogonal]] to every morphism in $M$.
-* $M$ is precisely the class of morphisms that are right [[orthogonality|orthogonal]] to every morphism in $E$.
++-- {: .num_defn }
+###### Definition
+
+Let $C$ be a [[category]] and let $(E,M)$ be two [[classes]] of [[morphisms]] in 
+$C$. We say that $(E,M)$ is an **orthogonal factorization system** if $(E,M)$ is a [[weak factorization system]] in which solutions to lifting problems are unique.  
+
+=--
+
+We spell out several equivalent explicit formulation of what this means.
+
++-- {: .num_defn #EquivalentDefinitions}
+###### Definition
+
+$(E,M)$ is an **orthogonal factorization system** if
+every morphism $f$ in $C$ factors $f = r\circ \ell$ as a morphism $\ell \in E$ followed by a morphism $r \in M$; and the following equivalent conditions hold
+
+1. We have:
+ 
+   1. $E$ is precisely the class of morphisms that are left [[orthogonality|orthogonal]] to every morphism in $M$;
+
+   1. $M$ is precisely the class of morphisms that are right [[orthogonality|orthogonal]] to every morphism in $E$.
+
+1. We have:
+
+   1. The factorization is unique up to unique [[isomorphism]].
+
+   1. $E$ and $M$ both contain all [[isomorphisms]] and are closed under composition.
+
+1. We have:
+
+   1. $E$ and $M$ are [[replete subcategories]] of the [[arrow category]] $C^I$.
+
+   1. Every morphism in $E$ is left [[orthogonality|orthogonal]] to every morphism in $M$.
+
+=--
 
 OFS's are traditionally called just **factorization systems**.
 See the _[[joyalscatlab:Factorization systems|Catlab]]_ for more of the theory.
@@ -33,7 +66,7 @@ See the _[[joyalscatlab:Factorization systems|Catlab]]_ for more of the theory.
 An orthogonal factorization system is called **proper** if every morphism in $E$ is an [[epimorphism]] and every morphism in $M$ is a [[monomorphism]].
 
 
-## Prefactorization systems
+### Prefactorization systems
 
 For any class $E$ of morphisms in $C$, we write $E^\perp$ for the class of all morphisms that are right orthogonal to every morphism in $E$.  Dually, given $M$ we write ${}^\perp M$ for the class of all morphisms that are  left orthogonal to every morphism in $M$.  The second condition in the definition of an OFS then says that $E= {}^\perp M$ and $M= E^\perp$.
 
@@ -49,6 +82,68 @@ If $C$ is a [[locally presentable category]], then for any *small set* of maps $
 
 On the other hand, if $(E,M)$ is any prefactorization system for which $M$ consists of monomorphisms and $C$ is [[complete category|complete]] and [[well-powered category|well-powered]], then $(E,M)$ is actually a factorization system.  (Of course, there is a dual statement as well.)  In fact something slightly more general is true; see [[M-complete category]] for this and other related ways to construct factorization systems.
 
+
+## Properties
+ {#Properties}
+
+### General
+
++-- {: .num_prop}
+###### Proposition
+
+The different characterization in def. \ref{EquivalentDefinitions} 
+are indeed all equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+For the moment see ([Joyal](#Joyal)).
+
+(...)
+
+=--
+
+### Cancellation properties
+ {#CancellationProperties}
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $(L,R)$ an orthogonal factorization system. Let
+
+$$
+  \array{
+    && Y
+    \\
+    & {}^{\mathllap{f}}\nearrow && \searrow^{\mathrlap{g}}
+    \\
+    X
+    &&
+    \stackrel{g \circ f}{\to}
+    &&
+    Z
+  }
+$$
+
+be two composable morphisms. Then
+
+* If $f$ and $g \circ f$ are in $L$, then so is $g$.
+
+* If $g$ and $g\circ f$ are in $R$, then so is $f$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
 
 ## Examples 
  {#Examples}
@@ -74,7 +169,7 @@ Several classical examples of OFS $(E,M)$:
 * if $F\to C$ is a [[fibered category]] in the sense of Grothendieck, then $F$ admits a factorization system $(E,M)$ where $E$ = arrows whose projection to $C$ is invertible, $M$ = cartesian arrows in $F$
 
 
-* See the _[[joyalscatlab:Factorization systems|Catlab]]_ for more examples. 
+* See the ([Joyal](#Joyal)) for more examples. 
 
 ## Related concepts
 
@@ -95,6 +190,13 @@ Several classical examples of OFS $(E,M)$:
   * [[orthogonal factorization system in an (∞,1)-category]]
 
 * [[factorization structure for sinks]]
+
+
+## References
+
+* [joyalscatlab:Home|Joyal's CatLab], _[[joyalscatlab:Factorization systems]]_
+ {#Joyal}
+
 
 [[!redirects orthogonal factorization system]]
 [[!redirects orthogonal factorization systems]]
