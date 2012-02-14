@@ -16,7 +16,7 @@
 
 ##  Idea
 
-The _associative operad_ $Assoc$ is the [[operad]] whose [[algebras over an operad]] are [[monoid]]s: objects equipped with an [[associative]] and [[unital]] binary operation.
+The _associative operad_ $Assoc$ is the [[operad]] whose [[algebras over an operad|algebras]] are [[monoid|monoids]]; i.e. objects equipped with an [[associative]] and [[unital]] binary operation.
 
 ## Definition
 
