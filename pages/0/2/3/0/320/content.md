@@ -71,6 +71,14 @@ For example, in Batanin's approach to (weak) $\infty$-[[infinity-category|catego
 
 Ordinary (permutative/symmetric) operads, and their generalization to [[symmetric multicategory|symmetric multicategories]], can also be treated in the framework of [[generalized multicategories]], but they require a framework more general than that of cartesian monads.
 
+### Relation to monoidal categories
+
+There is a [[faithful functor]] from [[monoidal categories]] to [[multicategories]], given by forming [[representable multicategories|represented multicategories]].
+
+## Examples and special cases
+
+See also the examples at _[[operad]]_.
+
 ## Related concepts
 
 * [[generalized multicategory]], [[operad]] 
