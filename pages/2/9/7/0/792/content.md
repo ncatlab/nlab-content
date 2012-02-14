@@ -23,7 +23,7 @@ Recall that ( _geometric_ ) [[T-duality]] is an operation acting on tuples rough
   modelling [[spacetime]]
 
 * equipped with a
-  [[circle n-bundle with connection|circle 2-bundle with connection]]
+  : [[circle n-bundle with connection|circle 2-bundle with connection]]
   -
   modelling the [[Kalb-Ramond field]]
 
