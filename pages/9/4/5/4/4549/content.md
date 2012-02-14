@@ -35,7 +35,11 @@ Proposition. If on a smooth principal bundle $P\to X$ there is a connection $\na
 
 (...)
 
-The [[Ambrose-Singer theorem]] states that the [[Lie algebra]] of the holonomy group of a [[connection on a bundle]] $\nabla$ on $X$ at a point $x \in X$ is spanned by the [[parallel transport]] $Ad_{tra_\nabla(\gamma)}(F_A(v \vee w))$ of the [[curvature]] $F_A$ evaluated on any $v \vee w \in \wedge^2 T_y X$ at $y \in X$ along any path $\gamma$ from $x \to y$.
++-- {: .un_theorem}
+###### Theorem
+**(Ambrose-Singer)**
+[[Ambrose-Singer theorem]]: the [[Lie algebra]] of the holonomy group of a [[connection on a bundle]] $\nabla$ on $X$ at a point $x \in X$ is spanned by the [[parallel transport]] $Ad_{tra_\nabla(\gamma)}(F_A(v \vee w))$ of the [[curvature]] $F_A$ evaluated on any $v \vee w \in \wedge^2 T_y X$ at $y \in X$ along any path $\gamma$ from $x \to y$.
+=--
 
 We may think of $Id + \Ad_{tra_\nabla(\gamma)}(F_A(\phi))$ as being the holonomy around the loop obtained by
 
@@ -45,23 +49,15 @@ We may think of $Id + \Ad_{tra_\nabla(\gamma)}(F_A(\phi))$ as being the holonomy
 
 1. coming back to $x$ along the reverse path $\gamma$.
 
-
-+-- {: .un_theorem}
-###### Theorem
-**(Ambrose-Singer)**
-
-(...)
-
-=--
-
-
 ## Applications
 
 (...)
 
 ## Higher holonomy
 
-The [[higher parallel transport|higher]] holonomy of [[circle n-bundles with connection]] is given by [[fiber integration in ordinary differential cohomology]].
+* Hossein Abbaspour, Friedrich Wagemann, _On 2-holonomy_, [arxiv/1202.2292](http://arxiv.org/abs/1202.2292)
+
+Also: The [[higher parallel transport|higher]] holonomy of [[circle n-bundles with connection]] is given by [[fiber integration in ordinary differential cohomology]].
 
 ## Related concepts
 
