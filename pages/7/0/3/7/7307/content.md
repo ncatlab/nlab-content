@@ -28,6 +28,7 @@ The central example illustrating this are the operads [[Comm]] and [[Assoc]]. Re
 
 Therefore [[Comm]] is the [[terminal object]] in the [[category]] of symmetric operads (while [[Assoc]], regarded as a [[planar operad]], is the terminal object in that category). 
 
+Multi-coured symmetric operads are equivalently known also as _[[symmetric multicategories]]_.
 
 ## Structures on the category of symmetric operads
 
@@ -39,11 +40,54 @@ The category of symmetric operads becomes a [[closed monoidal category|closed]] 
 
 For $V$ a suitable [[monoidal model category]], the category of $V$-enriched symmetric operads carries a good [[model structure on operads]]. See there for more details.
 
+## Properties
+
+### Relation to categories
+
+Every [[locally small category]] $C$ may be regarded as a coloured symmetric operation $j_!(C)$ over set, with the objects of $C$ and coulours, and with only unary operation, these being the morphisms in the category
+
+$$
+  j_!(C)(c_1, \cdots, c_n ; c)
+  = 
+  \left\{
+    \array{
+       C(c_1, c) & if \, n = 1
+       \\
+       \emptyset & otherwise
+    }
+  \right.
+  \,.
+$$
+
+This [[functor]] $j_! : Cat \to Operad$ has a [[right adjoint]] $j^* : Operad \to Cat$ which sends an operad to the underlying category obtained by discarding all $n$-ary operations for $n \neq 1$.
+
+Therefore there is a [[natural isomorphism]] $j * j_! \simeq id$. By the discussion at _[[adjoint functor]]_ this exhibits a [[coreflective subcategory]]
+
+$$
+  Cat 
+   \stackrel{\overset{j_!}{\hookrightarrow}}{\underset{j^*}{\leftarrow}}
+  Operad
+  \,.
+$$
+
+For more on this see at _[[dendroidal set]]_ the section _[The full diagram of relations](http://ncatlab.org/nlab/show/dendroidal%20set#FullDiagram)_.
 
 ## Examples
 
 * The operad [[Comm]] for [[commutative monoids]] is the [[terminal object]] in symmetric $V$-operads, for instance for $V = $ [[Set]], [[sSet]], [[Top]], etc.
 
 * For every [[symmetric monoidal category]] $C$, there is naturally the symmetric [[endomorphism operad]] $End(C)$.
+
+## Related concepts
+
+* [[planar operad]]
+
+* [[symmetric multicategory]]
+
+## References
+
+A survey of the basic notions of symmetric operads is for instance in section 1 of
+
+* [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ Contemp. Math. 431 (2007) 31-58 ([arXiv:0512576](http://arxiv.org/abs/math/0512576))
 
 [[!redirects symmetric operads]]
