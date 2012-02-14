@@ -29,7 +29,7 @@ $$
 for the [[Stiefel-Whitney classes]] of $X$. Moreover, write
 
 $$
-  \cup : H^k(X, \mathbb{Z}) \times H^l(X, \mathbb{Z}_2)
+  \cup : H^k(X, \mathbb{Z}_2) \times H^l(X, \mathbb{Z}_2)
   \to 
   H^{k+1}(X, \mathbb{Z}_2)
 $$
@@ -37,7 +37,7 @@ $$
 for the [[cup product]] on $\mathbb{Z}_2$-[[cohomology groups]] and write 
 
 $$
-  Sk^k(-) : H^l(X, \mathbb{Z}_2) \to H^{k+l}(X, \mathbb{Z}_2)
+  Sq^k(-) : H^l(X, \mathbb{Z}_2) \to H^{k+l}(X, \mathbb{Z}_2)
 $$
 
 for the [[Steenrod square]] operations.
@@ -93,7 +93,7 @@ One finds the first few Wu classes as [[polynomials]] in the Stiefel-Whitney cla
 +-- {: .num_prop #InTermsOfPontryagin}
 ###### Proposition
 
-Let $X$ be an [[orientation|oriented]] [[manifold]] $T X : X \to  B SO(n)$ woth [[spin structure]] $\hat T X : X : B Spin(n)$. Then the following classes in [[integral cohomology]] classes of $X$ built from [[Pontryagin classes]] coincide with Wu-classes under mod-2- reduction $\mathbb{Z} \to \mathbb{Z}_2$ as indicated in the following list
+Let $X$ be an [[orientation|oriented]] [[manifold]] $T X : X \to  B SO(n)$ with [[spin structure]] $\hat T X : X : B Spin(n)$. Then the following classes in [[integral cohomology]] classes of $X$ built from [[Pontryagin classes]] coincide with Wu-classes under mod-2- reduction $\mathbb{Z} \to \mathbb{Z}_2$ as indicated in the following list
 
 * $\nu_4 = \frac{1}{2} p_1$
 
@@ -135,7 +135,7 @@ By the definition \ref{WuClassesBySteenrodSquares} of Wu classes, the image of t
 $$
   G \cup G - G \cup \frac{1}{2}p_1
   = 
-  Sq^4(G) - G \cup \vu_4
+  Sq^4(G) - G \cup \nu_4
   = 
   0 mod 2.
   \,,
