@@ -1,0 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+A _symmetric multicategory_ is a [[multicategory]] equipped with an [[action]] of the [[symmetric group]] $S_n$ on the [[set]] of $n$-ary operations, for all $n$, such that composition respects this action.
+
+Symmetric multicategories are equivalently called _coloured [[symmetric operads]]_ over [[Set]]. See there for more details.
+
+[[!redirects symmetric multicategories]]
+
