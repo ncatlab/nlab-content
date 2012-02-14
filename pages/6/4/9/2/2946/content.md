@@ -14,7 +14,7 @@
 
 ## Idea
 
-A _filtered colimit_ is a suitable category such as [[Set]] is a [[colimit]] of shape such that it commutes with all [[finite limit]]s.
+A _filtered colimit_ in a suitable category such as [[Set]] is a [[colimit]] of shape such that it commutes with all [[finite limit]]s.
 
 
 
