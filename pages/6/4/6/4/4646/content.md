@@ -243,7 +243,7 @@ See [[higher parallel transport]] for details.
 
 * [[connection on a bundle]], [[connection on a 2-bundle]], [[connection on an infinity-bundle]],
 
-* **parallel transport**, [[higher parallel transport]]
+* **parallel transport**, [[higher parallel transport]], [[super parallel transport]]
 
 * [[holonomy]]
 
