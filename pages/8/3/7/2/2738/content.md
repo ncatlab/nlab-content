@@ -102,9 +102,28 @@ Some **terminology and notation**:
 
 ### Faces of trees and dendroidal sets 
 
-The _face maps_ on trees, regarded as dendroidal sets, are morphisms that generalize the face maps in the [[simplex category]] $\Delta$. Defining them in $\Omega$ requires a few case distinctions:
+A dendroidal set encodes actual _operations_ in analogy to how a [[simplicial set]] encodes composition by way of _[[horn]] extensions_. In order to formalize this one needs the dendroidal analog of _faces_ of a [[simplex]], generalized from the [[simplex category]] to the [[tree category]].
 
-there are
+To motivate the definition of dendroidal face maps, first consider the reformulation of simplicial faces under the map $i_! : sSet \to dSet$.
+
+Under this embedding the $n$-simpley $\Delta[n]$ becomes the operad that is deficted by
+
+$$
+  \stackrel{a}{\to} \bullet_{01} \stackrel{b}{\to} \bullet_{02} \stackrel{c}{\to} \cdots \to \bullet_{(n-1) n} \to
+$$
+
+with unary operations $\bullet_{i (i+1)}$.
+
+The face inclusion $\delta_i : \Delta[n-1] \to \Delta[n]$ which simplicially omits the $i$th vertex, operadically contracts away the $i$th color, i.e it is the morphism of operads that sends the unary operation $\bullet_{(i-1)i}$ to the unary operation 
+
+$$
+  \bullet_{i (i+1)} \circ \bullet_{(i-1) i }
+$$
+
+and sends all other generating unary operation to generating unary operations.
+
+From this it is clear that for any try the map that exhibits the contraction of one edge should be a dendroidal face map. However, there are also some more cases to be taken care of. One has
+
 
 1. inner face maps -- obtained by contracting an inner edge 
 
