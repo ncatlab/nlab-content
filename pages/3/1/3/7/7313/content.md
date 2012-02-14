@@ -1,0 +1,11 @@
+
+## Definition
+
+A **right Brown functor** between [[categories of fibrant objects]] is a [[functor]] that preserves [[weak equivalences]] between [[fibrant objects]].
+
+Dually for a _left Brown functor_ (for instance between [[Waldhausen categories]]).
+
+## Applications
+
+(...)
+
