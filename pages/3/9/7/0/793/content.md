@@ -54,7 +54,7 @@ Further generalisations let $X$ be a nontrivial torus bundle, but the T-dual is 
 We indicate how one can see T-duality from formal manipulations
 of the [[path integral]] for the [[string theory|string]] [[sigma-model]]. We look at the simplest situation, where the torus bundle in question is a trivial circle bundle over a [[Cartesian space]] carrying the metric induced from the standard flat metric on $\mathbb{R}^n$ and where there are no other nontrivial background fields. In fact, for the purpose of the following computation we can entirely ignore the base of this bundle and consider target space to be nothing but a circle. Since the [[sigma-model]] for this is on the worldsheet just the theory of a single free field with values in $S^1$, this is often also called the "free boson on the circle".
 
-This means that the only geometric datum termining the background geometry is the circumference $2 \pi R$ of the fiber of the circle bundle. The statement of T-duality in this situation is that the 2-dimensional $\sigma$-model on this background yields the same 2-dimensional [[CFT]] as that for this kind of background with circumference of the circle being $2 \pi 1/R$.
+This means that the only geometric datum determining the background geometry is the circumference $2 \pi R$ of the fiber of the circle bundle. The statement of T-duality in this situation is that the 2-dimensional $\sigma$-model on this background yields the same 2-dimensional [[CFT]] as that for this kind of background with circumference of the circle being $2 \pi 1/R$.
 
 ### A first rough look
 
@@ -70,7 +70,7 @@ $$
 This energy is clearly invariant under exchanging
 
 $$
-  (R, (\ell, p)) \mapsto (\frac{1}{R}, (p,\ell))
+  (R, (\ell, m)) \mapsto (\frac{1}{R}, (m,\ell))
   \,.
 $$
 
@@ -84,14 +84,14 @@ $$
 
 the $\sigma$-model field on the worldsheet $\Sigma = \mathbb{R}^2$ with values in target space $S^1_R$ then T-duality with respect to this circle may be thought of as exchanging worldsheet momentum $\partial_t X$ with worldsheet winding $\partial_\sigma X$.
 
-This then also means that for the open string it exchanges von Neumann boundary conditions $\partial_\sigma X|_{\sigma = 0} = 0$ with Dirichlet boundary conditions $\partial_t X|_{\sigma = 0} = 0$. The first boundary condition is that describing an open string whose endpoints are free to propagate in worldsheet time, whereas the second boundary condition describes a situation where the endpoint of te string is fixed at some point in target space. In terms of the language of geometric target space data, a sigma-model with such a constraint is said to describe a [[D-brane]] in target space: the locus where the endpoints of the string are fixed. This is a first indication that the T-duality operation on geometric background also involves the [[RR-field]].
+This then also means that for the open string it exchanges von Neumann boundary conditions $\partial_\sigma X|_{\sigma = 0} = 0$ with Dirichlet boundary conditions $\partial_t X|_{\sigma = 0} = 0$. The first boundary condition is that describing an open string whose endpoints are free to propagate in worldsheet time, whereas the second boundary condition describes a situation where the endpoint of the string is fixed at some point in target space. In terms of the language of geometric target space data, a sigma-model with such a constraint is said to describe a [[D-brane]] in target space: the locus where the endpoints of the string are fixed. This is a first indication that the T-duality operation on geometric background also involves the [[RR-field]].
 
 
 ### The path integral
 
 We follow [[Kentaro Hori]]'s [[path integral]] discussion of T-duality. Here the strategy is to consider a path integral over a certain space of auxiliary fields and show or argue that by "algebraically integrating out" some of these in two different ways, the path integral is equivalent to that over two different [[action functional]]s, which describe two T-dual geometric backgrounds.
 
-Let the bounary components of the worldsheet $\Sigma$ be labeled by
+Let the boundary components of the worldsheet $\Sigma$ be labeled by
 $\partial \Sigma_{(1)}$.
 
 We consider the following fields on the worldsheet:
@@ -102,7 +102,7 @@ We consider the following fields on the worldsheet:
 * $X_{i} : \partial \Sigma \to S^1_R$ -- the boundary values of this field;
 
 
-* $b \in \Omega^1(\Sigma, \mathbb{R})$ -- a 1-form; this is the auxiliary field that will not contribute to the dynamics but serve to make the T-duality manifest.
+* $b \in \Omega^1(\Sigma, \mathbb{R})$ -- a 1-form; this is the auxiliary field that will not contribute to the dynamics but serves to make the T-duality manifest.
 
 
 Consider then the [[action functional]] on this collection of fields given by the assignment
@@ -144,7 +144,7 @@ $$
 
 This is the action functional for a $\sigma$-model on $S^1_{1/R}$ with a D-brane at $\tilde X = a_i$.
 
-Now we evaluating the original path integral in a different way, this way first integrating over components of $\tilde X$. To do so, we imagine that we may re-encode the field $\tilde X$ in terms of its de Rham differential
+Now we evaluate the original path integral in a different way, this way first integrating over components of $\tilde X$. To do so, we imagine that we may re-encode the field $\tilde X$ in terms of its de Rham differential
 
 $$
   d \tilde X = d f + \frac{2\pi}{R}\sum_A \eta_A \omega_A
