@@ -131,6 +131,32 @@ $$
 
 Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin (notice however that a simplicial set by itself is not equipped with a notion of composition of simplices.  See [[quasicategory]] for a kind of simplicial set which does have such a notion).
 
+
+## Examples
+
+### Singular simplices
+
+Let $[n]$ denote the object of $\Delta$ corresponding to the totally ordered set $\{ 0, 1, 2,\ldots, n\}$. Then the represented presheaf $\Delta(-, [n])$, which we typically write as $\Delta[n]$ is an example of a simplicial set. By the Yoneda lemma, the $n$-simplices of a simplicial set $X$ are in natural bijective correspondence to maps $\Delta[n] \rightarrow X$ of simplicial sets.
+
+### Nerve of a category
+
+If $C$ is a small category, the **nerve** of $C$ is a simplicial set which we denote $NC$. If we intepret the poset $[n]$ defined above as a category, we define the $n$-simplices of $NC$ to be the set of functors $[n] \rightarrow C$. Equivalently, the $0$-simplices of $NC$ are the objects of $C$, the $1$-simplices are the morphisms, and the $n$-simplices are strings of $n$ composable arrows in $C$. Face maps are given by composition (or omission, in the case of $d_0$ and $d_n$) and degeneracy maps are given by inserting identity arrows.
+
+### Singular simplicial complex of a topological space
+
+Recall from [[simplex category]] or [[geometric realization]] the standard functor $\Delta \to Top$ which sends $[n] \in \Delta$ to the standard topological $n$-simplex $\Delta^n$.  This functor induces for every [[topological space]] $X$ the simplicial set
+$$
+  S X : [n] \mapsto Hom_{Top}(\Delta^n, X)
+$$
+called the **simplicial singular complex** of $X$. This simplicial set is always a [[Kan complex]] and may be regarded as the [[fundamental ∞-groupoid]] of $X$.
+
+### Bar construction
+
+For the moment see _[[bar construction]]_.
+
+
+## Properties
+
 ### Classifying topos
 
 The category of simplicial sets is a [[presheaf category]], and so in particular a [[Grothendieck topos]].  In fact, it is the [[classifying topos]] of the theory of "intervals", meaning [[totally ordered sets]] equipped with distinct top and bottom elements.
@@ -141,18 +167,15 @@ The corresponding [[geometric realization]]/[[nerve]] [[adjunction]] $E \leftrig
 
 The usual geometric realization into [[topological spaces]] cannot be obtained in this way precisely, since [[Top]] is not a topos.  However, there are [[Top]]-like categories which are toposes, such as [[Johnstone's topological topos]].
 
-## Examples
+### As models in homotopy theory
 
-* Let $[n]$ denote the object of $\Delta$ corresponding to the totally ordered set $\{ 0, 1, 2,\ldots, n\}$. Then the represented presheaf $\Delta(-, [n])$, which we typically write as $\Delta[n]$ is an example of a simplicial set. By the Yoneda lemma, the $n$-simplices of a simplicial set $X$ are in natural bijective correspondence to maps $\Delta[n] \rightarrow X$ of simplicial sets.
+(...) [[homotopy theory]] (...) [[Kan complex]] (...) [[quasi-category]] (...)
 
-* If $C$ is a small category, the **nerve** of $C$ is a simplicial set which we denote $NC$. If we intepret the poset $[n]$ defined above as a category, we define the $n$-simplices of $NC$ to be the set of functors $[n] \rightarrow C$. Equivalently, the $0$-simplices of $NC$ are the objects of $C$, the $1$-simplices are the morphisms, and the $n$-simplices are strings of $n$ composable arrows in $C$. Face maps are given by composition (or omission, in the case of $d_0$ and $d_n$) and degeneracy maps are given by inserting identity arrows.
+### Relation to dendroidal sets
 
-* Recall from [[simplex category]] or [[geometric realization]] the standard functor $\Delta \to Top$ which sends $[n] \in \Delta$ to the standard topological $n$-simplex $\Delta^n$.  This functor induces for every [[topological space]] $X$ the simplicial set
-$$
-  S X : [n] \mapsto Hom_{Top}(\Delta^n, X)
-$$
-called the **simplicial singular complex** of $X$. This simplicial set is always a [[Kan complex]] and may be regarded as the [[fundamental ∞-groupoid]] of $X$.
+For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial sets](#http://ncatlab.org/nlab/show/dendroidal+set#RelationToSimplicialSets)
 
+## Variants
 
 * A [[symmetric set]] is a simplicial set equipped with additional *transposition maps* $t^n_i: X_n \to X_n$ for $i=0,\ldots,n-1$.  These transition maps generate an [[action]] of the [[symmetric group]] on $X_n$ and satisfy certain commutation relations with the face and degeneracy maps.
 
