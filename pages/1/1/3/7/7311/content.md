@@ -7,21 +7,16 @@
 =--
 =--
 =--
-
-#Contents#
-* table of contents
-{:toc}
-
 ## Idea
 
-In an [[infinity-connected (infinity,1)-topos|∞-connected (∞,1)-topos]] $H$ possessing a [[∞-cohesive site]] of definition the $\mathbf{\Pi}$-closed morphisms into an object $X\in H$ may be identified with [[(∞,1)-sheaves]] which are [[locally constant ∞-stack|locally constant]] on $X$. The classification of locally constant (∞,1)-sheaves is called (higher) [[Galois theory]], too.
+In an [[infinity-connected (infinity,1)-topos|∞-connected (∞,1)-topos]] $H$ possessing a ∞-cohesive (∞,1)-site of definition the $\mathbf{\Pi}$-closed morphisms into an object $X\in H$ may be identified with (∞,1)-sheaves which are locally constant on $X$. The classification of locally constant (∞,1)-sheaves is called (higher) Galois theory, too.
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .un_defn}
 ###### Definition
 
-Let $(\Pi\dashv \Disc\dashv \Gamma):\mathbf{H}\to\infty\Grpd$ be an [[infinity-connected (infinity,1)-topos]], let ${\mathbf{\Pi}}:=\Disc \Pi$ be the [[fundamental infinity-groupoid in a locally infinity-connected (infinity,1)-topos|geometric path functor / geometric homotopy functor]], let $f:X\to Y$ be a $\mathbf{H}$-morphism, let $c_{\mathbf{\Pi}} f$ denote the [[(∞,1)-pullback]]
+Let $(\Pi\dashv \Disc\dashv \Gamma):H\to\infty\Grpd$ be an [[infinity-connected (infinity,1)-topos]], let ${\mathbf{\Pi}}:=\Disc \Pi$ be the geometric path functor / geometric homotopy functor, let $f:X\to Y$ be a $H$-morphism, let $c_{\mathbf{\Pi}} f$ denote the ∞-pullback
 
 
 $$\array{c_{\mathbf{\Pi}} f&\to& {\mathbf{\Pi}} X\\\downarrow&&\downarrow^{{\mathbf{\Pi}}_f}\\Y&\xrightarrow{1_{(\Pi\dashv \Disc)}}&{\mathbf{\Pi}}Y}$$
@@ -38,21 +33,18 @@ If a morphism $f:X\to Y$ factors into $f=g\circ h$ and $h$ is a $\mathbf{\Pi}$-e
 
 ## Properties
 
-* $\Pi$-closed morphisms are a right class of an [[orthogonal factorization system in an (infinity,1)-category]] and hence (see also [catlab](http://ncatlab.org/joyalscatlab/show/Factorisation+systems#orthogonality_16)) are closed under limits, composition, retracts and satisfy the left cancellation property.
+* $\Pi$-closed morphisms are a right class of an orthogonal factorization system and hence (see [catlab](http://ncatlab.org/joyalscatlab/show/Factorisation+systems#orthogonality_16)) are closed under limits, composition, retracts and satisfy the left cancellation property.
 
 * A consequence of the previous property is that the class of $\mathbf{\Pi}$-closed morphisms gives rise to an admissible structure (in the sense of [[structured (infinity,1)-topos|structured spaces]]) on an (∞,1)-connected (∞,1)-topos.
 
-+-- {: .num_prop}
++-- {: .un_prop}
 ###### Proposition
-
 Let $H$ be a cohesive (∞,1)-topos possessing a ∞-cohesive site of definition.
 Then for $X\in H$ the locally constant ∞-stacks $E\in \L\Const(X)$, regarded as ∞-bundle morphisms $p:E\to X$ are precisely the $\mathbf{\Pi}$-closed morphisms into $X$
-
 =--
 
 ## Reference
-
-* _[differential cohomology in a cohesive (∞,1)-topos](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos)_
+[differential cohomology in a cohesive (∞,1)-topos](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos)
 
 
 
