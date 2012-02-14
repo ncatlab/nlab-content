@@ -14,14 +14,18 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-# The idea #
+##  Idea 
 
-Recall that a [[category]] consists of a collection of arrows each having a single object as source or input, and a single object as target or output, together with laws for composition and identity obeying associativity and identity axioms. A multicategory is like a category, except that one allows multiple inputs and a single output.
+Recall that a [[category]] consists of a collection of [[morphisms]] each having a single [[object]] as source or input, and a single object as target or output, together with laws for composition and identity obeying associativity and identity axioms. A _multicategory_ is like a category, except that one allows multiple inputs and a single output.
 
-Thus a multicategory $C$ consists of
+## Definition
+
+### In components
+
+A **multicategory** $C$ consists of
 
 * A collection of _objects_, $C_0$.
 * A collection of _multimorphisms_, $C_1$.
@@ -30,17 +34,17 @@ Thus a multicategory $C$ consists of
 $$f \circ (f_1, \ldots, f_n): \vec{c}_1, \ldots, \vec{c}_n \to c$$ 
 where the source is obtained by concatenating lists in the evident way.
 
-These operations are subject to associativity and identity axioms which the reader can probably figure out, but see for example [[Tom Leinster]]'s <a href="http://arxiv.org/abs/math.CT/0305049">book</a>, page 35 ff., for details.
+These operations are subject to [[associativity]] and [[identity]] axioms which the reader can probably figure out, but see for example [[Tom Leinster]]'s <a href="http://arxiv.org/abs/math.CT/0305049">book</a>, page 35 ff., for details.
 
-Many people (especially non-category theorists) use _multicategory_ to mean what we would call a _symmetric multicategory_, in which there is also an action of the symmetric group $S_n$ on the multimorphisms $c_1, \ldots, c_n \to c$ and the composition is equivariant.
+Many people (especially non-category theorists) use _multicategory_ to mean what we would call a _symmetric multicategory_, in which there is also an action of the symmetric group $S_n$ on the multimorphisms $c_1, \ldots, c_n \to c$ and the composition is equivariant (also called a colored _[[symmetric operad]]_).
 
-# Further details and generalizations #
+### In terms of cartesian monads
 
-An efficient abstract method for defining multicategories and related structures is through the formalism of [[cartesian monad]]s. For ordinary categories, one uses the identity monad on [[Set]]; for ordinary multicategories, one uses the free monoid monad $(-)*: Set \to Set$.  This is a special case of the yet more general notion of [[generalized multicategory]].
+An efficient abstract method for defining multicategories and related structures is through the formalism of [[cartesian monads]]. For ordinary categories, one uses the identity monad on [[Set]]; for ordinary multicategories, one uses the [[free monoid]] monad $(-)*: Set \to Set$.  This is a special case of the yet more general notion of [[generalized multicategory]].
 
-We summarize here how the theory applies to the case of a [[cartesian monad]] $T$ on a category with pullbacks; see [[generalized multicategory]] for the fully general context.
+We summarize here how the theory applies to the case of a [[cartesian monad]] $T$ on a category with [[pullbacks]]; see [[generalized multicategory]] for the fully general context.
 
-* First, a $T$-span from $X$ to $Y$ is a [[span]] $p$ from $T X$ to $Y$, that is, a diagram
+* First, a **$T$-span** from $X$ to $Y$ is a [[span]] $p$ from $T X$ to $Y$, that is, a diagram
 $$T X \stackrel{p_1}{\leftarrow} P \stackrel{p_2}{\to} Y$$
 A $T$-span is often written as $p: X &#x21F8; Y$.
 
@@ -57,19 +61,25 @@ where $u: I \to T$ is the monad unit. The verification of the bicategory axioms 
 When $T$ is the free monoid monad on sets, then a $T$-multicategory is a multicategory as defined above.  For more examples and generalizations, see [[generalized multicategory]].
 
 
-# Connection with operads #
+## Properties
 
-A nonpermutative (or Stasheff) [[operad]] in [[Set]] may be defined as an ordinary multicategory with exactly one object.  Likewise, an operad in any symmetric [[monoidal category]] $V$ is equivalent to a $V$-[[enriched category|enriched]] multicategory with one object.  Furthermore, for each cartesian monad $T$, there is a corresponding notion of $T$-operad, namely a $T$-multicategory whose underlying $T$-span has the form $1 &#x21F8; 1$.
+### Relation to operads 
+
+A [[nonpermutative operad|nonpermutative]] (or Stasheff-) [[operad]] in [[Set]] may be defined as an ordinary multicategory with exactly one object.  Likewise, an operad in any [[symmetric monoidal category]] $V$ is equivalent to a $V$-[[enriched category|enriched]] multicategory with one object.  Furthermore, for each cartesian monad $T$, there is a corresponding notion of $T$-operad, namely a $T$-multicategory whose underlying $T$-span has the form $1 &#x21F8; 1$.
 
 For example, in Batanin's approach to (weak) $\infty$-[[infinity-category|categories]], a [[globular operad]] is a $T$-operad, where $T$ is the free (strict) $\omega$-[[strict omega-category|category]] monad on the category of [[globular set]]s.
 
 Ordinary (permutative/symmetric) operads, and their generalization to [[symmetric multicategory|symmetric multicategories]], can also be treated in the framework of [[generalized multicategories]], but they require a framework more general than that of cartesian monads.
 
-#References#
+## Related concepts
+
+* [[generalized multicategory]], [[operad]] 
+
+
+## References
 
 * [[Tom Leinster]], _Higher operads, higher categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
 
-Related entries: [[generalized multicategory]], [[operad]]. 
 
 [[!redirects multicategories]]
 [[!redirects symmetric multicategory]]
