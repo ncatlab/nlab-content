@@ -36,7 +36,7 @@ where the source is obtained by concatenating lists in the evident way.
 
 These operations are subject to [[associativity]] and [[identity]] axioms which the reader can probably figure out, but see for example [[Tom Leinster]]'s <a href="http://arxiv.org/abs/math.CT/0305049">book</a>, page 35 ff., for details.
 
-Many people (especially non-category theorists) use _multicategory_ to mean what we would call a _symmetric multicategory_, in which there is also an action of the symmetric group $S_n$ on the multimorphisms $c_1, \ldots, c_n \to c$ and the composition is equivariant (also called a colored _[[symmetric operad]]_).
+Many people (especially non-category theorists) use _multicategory_ to mean what we would call a _[[symmetric multicategory]]_, in which there is also an [[action]] of the [[symmetric group]] $S_n$ on the multimorphisms $c_1, \ldots, c_n \to c$ and the composition is equivariant (also called a coloured _[[symmetric operad]]_).
 
 ### In terms of cartesian monads
 
@@ -65,7 +65,11 @@ When $T$ is the free monoid monad on sets, then a $T$-multicategory is a multica
 
 ### Relation to operads 
 
-A [[nonpermutative operad|nonpermutative]] (or Stasheff-) [[operad]] in [[Set]] may be defined as an ordinary multicategory with exactly one object.  Likewise, an operad in any [[symmetric monoidal category]] $V$ is equivalent to a $V$-[[enriched category|enriched]] multicategory with one object.  Furthermore, for each cartesian monad $T$, there is a corresponding notion of $T$-operad, namely a $T$-multicategory whose underlying $T$-span has the form $1 &#x21F8; 1$.
+A [[nonpermutative operad|nonpermutative]] (or Stasheff-) [[operad]] in [[Set]] may be defined as an ordinary multicategory with exactly one object.  Likewise, a [[symmetric operad]] in any [[symmetric monoidal category]] $V$ is equivalent to a $V$-[[enriched category|enriched]] multicategory with one object.  
+
+More generally, the notion of _multi-colored [[planar operad]]_ is equivalent to that of multicategory, and the notion of _multi-colored [[symmetric operad]]_ is equivalent to that if [[symmetric multicategory]].
+
+Fully generally, for each cartesian monad $T$, there is a corresponding notion of $T$-operad, namely a $T$-multicategory whose underlying $T$-span has the form $1 &#x21F8; 1$.
 
 For example, in Batanin's approach to (weak) $\infty$-[[infinity-category|categories]], a [[globular operad]] is a $T$-operad, where $T$ is the free (strict) $\omega$-[[strict omega-category|category]] monad on the category of [[globular set]]s.
 
@@ -81,6 +85,8 @@ See also the examples at _[[operad]]_.
 
 ## Related concepts
 
+* [[symmetric multicategory]]
+
 * [[generalized multicategory]], [[operad]] 
 
 
@@ -90,6 +96,4 @@ See also the examples at _[[operad]]_.
 
 
 [[!redirects multicategories]]
-[[!redirects symmetric multicategory]]
-[[!redirects symmetric multicategories]]
 [[!redirects multicategories]]
