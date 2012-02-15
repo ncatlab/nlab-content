@@ -34,7 +34,7 @@ Throughout, let $V$ be a [[symmetric monoidal category|symmetric]] [[closed mono
 
 We first consider the _collections_ of operations underlying a [[symmetric operad]] (with no notion of composition of operations yet).
 
-For $G$ a [[discrete group]] write $\mathbf{B}G$ for the [[delooping]] [[groupoid]]: the category with a single object and $G$ as its set of [[morphisms]]. Then for $V$ any other category, write $V^{\mathbf{B}G}$ for the [[functor category]] of functors $\mathbf{B}G \to V$. This is the category of [[actions]] of $G$ on [[objects]] in $V$. 
+For $G$ a [[discrete group]] write $\mathbf{B}G$ for the [[delooping]] [[groupoid]]: the category with a single object and $G$ as its set of [[morphisms]]. Then for $V$ any other category, write $V^{\mathbf{B}G}$ for the [[functor category]], consisting of [[functors]] $\mathbf{B}G \to V$. This is the category of [[actions]] of $G$ on [[objects]] in $V$ (the [[category of representations]]). 
 
 For $G$ a [[finite group]] also $V^{\mathbf{B}G}$ inherits the structure of a [[closed monoidal category|closed]] [[symmetric monoidal category]] with small [[colimits]] and [[finite limits]]. There is a [[forgetful functor]]/[[free functor]] [[adjunction]]
 
