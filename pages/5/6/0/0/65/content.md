@@ -99,6 +99,8 @@ We had some blog discussion about this at
 
 ## Related concepts
 
+* [[canonical model structure on Operad]]
+
 * [[model structure on strict omega-categories]]
 
 * [[2-trivial model structure]]
