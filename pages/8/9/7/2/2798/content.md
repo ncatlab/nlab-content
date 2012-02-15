@@ -140,7 +140,7 @@ On the category of [[dendroidal set]]s let
 
 * the fibrant objects are the weak Kan complexes/quasi-operads
 
-* the fibrations between fibrant objects are the are the inner Kan fibrations $f : A \to B$ between quasi-operads such that the image $\tau_d(f)$ under the functor $\tau_d : dSet \to Operads$ is an operadic fibration
+* the fibrations between fibrant objects are the are the inner Kan fibrations $f : A \to B$ between quasi-operads such that the image $\tau_d(f)$ under the functor $\tau_d : dSet \to Operads$ is a fibration in the [[canonical model structure on Operad]].
 
 * the weak equivalences form the smallest class of maps that satisfy
 
@@ -262,6 +262,12 @@ on dendroidal sets.
 This Quillen equivalence is an operadic generalization of the Quillen equivalence between the [[model structure on sSet-categories]] and the [[model structure for quasi-categories]].
 
 (...) 
+
+## Related concepts
+
+* [[canonical model structure on Operad]],
+
+* [[model structure on operads]]
 
 ## References
 
