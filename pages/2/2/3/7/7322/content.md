@@ -1,0 +1,12 @@
+
+* [webpage](http://www.cs.nott.ac.uk/~txa/)
+
+## Talks
+
+_Towards higher dimensional type theoy_, Nottingham (2011) ([pdf](http://www.cs.nott.ac.uk/~txa/talks/aimxiii.pdf))
+
+## Related entries
+
+* [[type theory]], [[homotopy type theory]]
+
+category: people
