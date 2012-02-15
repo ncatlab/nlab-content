@@ -8,6 +8,10 @@ philosophy of mathematics, history of logic and analytic philosophy. For the 'n-
 
 * _Homotopy theory and type theory_, 2010, [pdf](http://www.andrew.cmu.edu/user/awodey/preprints/TTH.pdf)
 
+## Related entries
+
+* [[type theory]], [[homotopy type theory]]
+
 category: people
 
 [[!redirects Steven Awodey]]
