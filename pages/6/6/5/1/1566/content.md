@@ -24,7 +24,11 @@ Alternatively, just as a [[monoid]] can be seen as a [[category]] with one objec
 
 ## Examples
 
-* An [[abelian group]] is an commutative monoid that is also a [[group]].
+* An [[abelian group]] is a commutative monoid that is also a [[group]].
+
+* The natural numbers (together with 0) form a commutative monoid under addition.
+
+* Every bounded [[semilattice]] is an _idempotent_ commutative monoid, and every idempotent commutative monoid yields a semilattice, (see that entry).
 
 ## Related concepts
 
