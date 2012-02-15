@@ -21,6 +21,9 @@
 
 Recall that a [[category]] consists of a collection of [[morphisms]] each having a single [[object]] as source or input, and a single object as target or output, together with laws for composition and identity obeying associativity and identity axioms. A _multicategory_ is like a category, except that one allows multiple inputs and a single output.
 
+Another term for _multicategory_ is _coloured [[operad]]_.
+
+
 ## Definition
 
 ### In components
@@ -34,9 +37,9 @@ A **multicategory** $C$ consists of
 $$f \circ (f_1, \ldots, f_n): \vec{c}_1, \ldots, \vec{c}_n \to c$$ 
 where the source is obtained by concatenating lists in the evident way.
 
-These operations are subject to [[associativity]] and [[identity]] axioms which the reader can probably figure out, but see for example [[Tom Leinster]]'s <a href="http://arxiv.org/abs/math.CT/0305049">book</a>, page 35 ff., for details.
+These operations are subject to [[associativity]] and [[identity]] axioms which the reader can probably figure out, but see for example ([Leinster, page 35 ff.](#Leinster)), for details.
 
-Many people (especially non-category theorists) use _multicategory_ to mean what we would call a _[[symmetric multicategory]]_, in which there is also an [[action]] of the [[symmetric group]] $S_n$ on the multimorphisms $c_1, \ldots, c_n \to c$ and the composition is equivariant (also called a coloured _[[symmetric operad]]_).
+Many people (especially non-category theorists) use the word _multicategory_ or the word _colored [[operad]]_ to mean what we would call a _[[symmetric multicategory]]_ / _[[symmetric operad]]_. These are multicategories equipped with an [[action]] of the [[symmetric group]] $S_n$ on the multimorphisms $c_1, \ldots, c_n \to c$ such that the composition is equivariant with respect to these actions.
 
 ### In terms of cartesian monads
 
@@ -46,11 +49,11 @@ We summarize here how the theory applies to the case of a [[cartesian monad]] $T
 
 * First, a **$T$-span** from $X$ to $Y$ is a [[span]] $p$ from $T X$ to $Y$, that is, a diagram
 $$T X \stackrel{p_1}{\leftarrow} P \stackrel{p_2}{\to} Y$$
-A $T$-span is often written as $p: X &#x21F8; Y$.
+A $T$-span is often written as $p: X &#8696; Y$.
 
 When $T$ is the free monoid monad on $Set$, a $T$-span from $X$ to itself is called a _multigraph_ on $X$.
 
-* $T$-spans are the 1-cells of a [[bicategory]]. A 2-cell between $T$-spans $e, f: X &#x21F8; Y$ is a 2-cell between ordinary spans from $T X$ to $Y$. To horizontally compose $T$-spans $e: X &#x21F8; Y$ and $f: Y &#x21F8; Z$, take the ordinary span composite of
+* $T$-spans are the 1-cells of a [[bicategory]]. A 2-cell between $T$-spans $e, f: X &#8696; Y$ is a 2-cell between ordinary spans from $T X$ to $Y$. To horizontally compose $T$-spans $e: X &#8696; Y$ and $f: Y &#8696; Z$, take the ordinary span composite of
 $$(T X \stackrel{m X}{\leftarrow} T^2 X \stackrel{T e_1}{\leftarrow} T E \stackrel{T e_2}{\to} T Y) \circ (T Y \stackrel{f_1}{\leftarrow} F \stackrel{f_2}{\to} Z)$$
 where $m: T^2 \to T$ is the monad multiplication. The identity $T$-span from $X$ to itself is the span
 $$T X \stackrel{u X}{\leftarrow} X \stackrel{1_X}{\to} X$$
@@ -69,7 +72,7 @@ A [[nonpermutative operad|nonpermutative]] (or Stasheff-) [[operad]] in [[Set]] 
 
 More generally, the notion of _multi-colored [[planar operad]]_ is equivalent to that of multicategory, and the notion of _multi-colored [[symmetric operad]]_ is equivalent to that if [[symmetric multicategory]].
 
-Fully generally, for each cartesian monad $T$, there is a corresponding notion of $T$-operad, namely a $T$-multicategory whose underlying $T$-span has the form $1 &#x21F8; 1$.
+Fully generally, for each cartesian monad $T$, there is a corresponding notion of $T$-operad, namely a $T$-multicategory whose underlying $T$-span has the form $1 &#8696; 1$.
 
 For example, in Batanin's approach to (weak) $\infty$-[[infinity-category|categories]], a [[globular operad]] is a $T$-operad, where $T$ is the free (strict) $\omega$-[[strict omega-category|category]] monad on the category of [[globular set]]s.
 
@@ -95,6 +98,7 @@ See also the examples at _[[operad]]_.
 ## References
 
 * [[Tom Leinster]], _Higher operads, higher categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
+ {#Leinster}
 
 
 [[!redirects multicategories]]
