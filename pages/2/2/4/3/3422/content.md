@@ -980,6 +980,9 @@ for the moment see
 
 * [[universal fibration of (∞,1)-categories]]. 
 
+## Related concepts
+
+* [[operadic (∞,1)-Grothendieck construction]]
 
 ## References
 
