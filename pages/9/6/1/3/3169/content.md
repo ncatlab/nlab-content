@@ -73,11 +73,11 @@ Unfortunately, [[Maxim Kontsevich|Kontsevich]]'s [[monadicity theorem]] (July 20
 
 * [[Alexander Rosenberg|A. L. Rosenberg]], _Topics in noncommutative algebraic geometry, homological algebra and K-theory_, preprint MPIM Bonn 2008-57 [pdf](http://www.mpim-bonn.mpg.de/preblob/3589), page 36-37.
 
+Its proof is based on [[Verdier's abelianization functor]]. 
+
 See also, for another point of view, 
 
 * [[Paul Balmer]], _Descent in triangulated categories_, [pdf](http://www.math.ucla.edu/~balmer/research/Pubfile/Descent.pdf)
-
-Its proof is based on [[Verdier's abelianization functor]]. 
 
 A proposal for a formulation of monadic descent for [[simplicially enriched category|simplicially enriched categories]] is in
 
