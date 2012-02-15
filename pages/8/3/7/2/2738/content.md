@@ -858,6 +858,11 @@ The category $dSet$ carries the Cisinski-Moerdijk [[model structure on dendroida
 
 Together with the fact that $i^*: dSet \to sSet$ is a [[right Quillen functor]] (with respect to the [[model structure for quasi-categories]]) this imples that $dSet$ is an $sSet_{Joyal}$-[[enriched model category]] (but not, without further work, an $sSet_{Quillen}$-enriched model category!).
 
+## Related concepts
+
+* [[model structure on dendroidal sets]]
+
+* [[Cartesian fibration of dendroidal sets]]
 
 ## References ##
 
@@ -884,7 +889,7 @@ A discussion of inner Kan complexes (see also [[model structure on dendroidal se
 
 * [[Ieke Moerdijk]], [[Ittay Weiss]], _On inner Kan complexes in the category of dendroidal sets_, [math.CT/0701295](http://arxiv.org/abs/math/0701295)
 
-* Denis-Charles Cisinski, Ieke Moerdijk, _Dendroidal Segal spaces and infinity-operads_, [arxiv/1010.4956](http://arxiv.org/abs/1010.4956)
+* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_, [arxiv/1010.4956](http://arxiv.org/abs/1010.4956)
 
 Here two blog entries with some summaries and pointers to the literature
 
