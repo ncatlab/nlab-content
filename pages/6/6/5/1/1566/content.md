@@ -1,3 +1,4 @@
+[[!redirects abelian monoid]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,14 +17,14 @@
 
 ## Definition
 
-An _abelian monoid_ is a [[monoid]] where the multiplication satisfies the commutative law:
+A _commutative monoid_ is a [[monoid]] where the multiplication satisfies the commutative law:
 $$x y = y x.$$
 
-Alternatively, just as a [[monoid]] is a [[category]] with one object, an abelian monoid is a [[monoidal category]] with one object and one morphism.
+Alternatively, just as a [[monoid]] can be seen as a [[category]] with one object, a commutative monoid can be seen as a [[monoidal category]] with one object and one morphism.
 
 ## Examples
 
-* An [[abelian group]] is an abelian monoid that is also a [[group]].
+* An [[abelian group]] is an commutative monoid that is also a [[group]].
 
 ## Related concepts
 
