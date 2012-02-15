@@ -348,6 +348,8 @@ Hence $C_f$ is a weak equivalence.
 
     * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad]]
 
+* [[operadic (∞,1)-Grothendieck construction]]
+
 * [[cohomology of operads]]
 
 ## References
