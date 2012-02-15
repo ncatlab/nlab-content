@@ -356,6 +356,8 @@ For more see [[model structure on algebras over an operad]].
 
 * [[(∞,1)-operad]], **model structure on operads**
 
+  * [[canonical model structure on Operad]], [[model structure on dendroidal sets]]
+
   * [[algebra over an (∞,1)-operad]], [[model structure on algebras over an operad]]
 
     * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad]]
