@@ -119,10 +119,10 @@ We list some examples of [[Set]]-enriched symmetric operads.
 
 * For every [[symmetric monoidal category]] $C$, there is naturally the symmetric [[endomorphism operad]] $End(C)$.
 
-  This establishes a reflective inclusion
+  This establishes a reflective (but non-full) inclusion
 
   $$  
-    End : SymmMonCat \hookrightarrow SymmOperad
+    End : SymmMonCat \to SymmOperad
   $$
 
   and makes precise the way in which a (symmetric) operad is a generalization of a (symmetric) monoidal category.
