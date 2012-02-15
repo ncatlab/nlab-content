@@ -91,7 +91,7 @@ It is the generalization of this anomaly computation from the worldlines of supe
 A disccussion of the full [[groupoid]] of spin structures is in 
 
 * [[Johannes Ebert]], _Characteristic classes of spin surface bundles:
-Applications of the Madsen-Weiss theory_ Phd thesis (2006) ([pdf](http://www.math.uni-bonn.de/~GRK1150/dissertation-ebert.pdf))
+Applications of the Madsen-Weiss theory_ Phd thesis (2006) ([pdf](http://wwwmath.uni-muenster.de/wwwmath.uni-muenster.de/u/jeber_02/papers/thesis.pdf))
 
 [[!redirects Spin structure]]
 [[!redirects Spin-structure]]
