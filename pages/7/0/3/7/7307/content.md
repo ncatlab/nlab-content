@@ -74,7 +74,9 @@ For more on this see at _[[dendroidal set]]_ the section _[The full diagram of r
 
 ## Examples
 
-* The operad [[Comm]] for [[commutative monoids]] is the [[terminal object]] in symmetric $V$-operads, for instance for $V = $ [[Set]], [[sSet]], [[Top]], etc.
+* The operad [[Comm]] for [[commutative monoids]] is the [[terminal object]] in symmetric $V$-operads, for instance for $V = $ [[Set]], [[sSet]], [[Top]], etc. 
+
+  It has a single $n$-ary operation for all $n \in \mathbb{N}$, with the [[symmetric group]] necessarily acting trivially in each degree.
 
 * For every [[symmetric monoidal category]] $C$, there is naturally the symmetric [[endomorphism operad]] $End(C)$.
 
@@ -86,8 +88,14 @@ For more on this see at _[[dendroidal set]]_ the section _[The full diagram of r
 
 ## References
 
+An original source is
+
+* [[Peter May]], _The geometry of iterated loop spaces_, Lectures Notes in Mathematics, Vol. 271, Springer-Verlag, Berlin-New York, (1972).
+
 A survey of the basic notions of symmetric operads is for instance in section 1 of
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ Contemp. Math. 431 (2007) 31-58 ([arXiv:0512576](http://arxiv.org/abs/math/0512576))
+
+See the references at _[[operad]]_ for more.
 
 [[!redirects symmetric operads]]
