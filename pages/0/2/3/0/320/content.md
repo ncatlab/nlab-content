@@ -85,6 +85,8 @@ See also the examples at _[[operad]]_.
 
 ## Related concepts
 
+* [[fibration of multicategories]]
+
 * [[symmetric multicategory]]
 
 * [[generalized multicategory]], [[operad]] 
