@@ -2,9 +2,21 @@
 
 
 Charles Wells is Professor Emeritus of Mathematics at 
-Case Western Reserve University; his research interest has been in [[category theory]] and its connections with theoretical computer science, in mathematical discourse, and in the problems of teaching and understanding mathematics.
+[Case Western Reserve University](http://en.wikipedia.org/wiki/Case_Western_Reserve_University); his research interest has been in [[group theory]], [[category theory]] and its connections with theoretical computer science, in mathematical discourse, and in the problems of teaching and understanding mathematics.
 
 * [website](http://www.cwru.edu/artsci/math/wells/home.html)
+
+* [publications](http://www.cwru.edu/artsci/math/wells/pub/papers.html)
+
+## Books
+
+* _Toposes, Triples and Theories_ with [[Michael Barr]] ([web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html))
+
+  on [[topos theory]], [[monads]] and [[algebraic theories]];
+
+* _Category theory for computing science_ with [[Michael Barr]] ([web](http://www.cwru.edu/artsci/math/wells/pub/ctcs.html))
+
+  on [[category theory]].
 
 [[!redirects C. Wells]]
 
