@@ -226,7 +226,7 @@ $$
     \\
     I &\stackrel{r}{\to}& Z
   }
-  \,\,\,\,\,
+  \;\;\;\;\;\;\;
   \array{
     X &\stackrel{f}{\to}& Y &\stackrel{\ell}{\to}& I
     \\
