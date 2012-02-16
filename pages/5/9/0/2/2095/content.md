@@ -10,7 +10,7 @@ Charles Wells is Professor Emeritus of Mathematics at
 
 ## Books
 
-* _Toposes, Triples and Theories_ with [[Michael Barr]] ([web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html))
+* _[[Toposes, Triples, and Theories]]_ with [[Michael Barr]] ([web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html))
 
   on [[topos theory]], [[monads]] and [[algebraic theories]];
 
