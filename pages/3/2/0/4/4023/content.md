@@ -6,11 +6,11 @@
 
 We define the determinant after a few preliminaries 
 
-Let $Vect_k$ be the category of [[vector space|vector spaces]] over a field $k$, and assume for the moment that $char(k) \neq 2$. For each $j \geq 0$, let 
+Let [[Vect]]${}_k$ be the [[category]] of [[vector space|vector spaces]] over a [[field]] $k$, and assume for the moment that the [[characteristic]] $char(k) \neq 2$. For each $j \geq 0$, let 
 
 $$sgn_j \colon S_j \to \hom(k, k)$$ 
 
-be the 1-dimensional [[sign representation]] on the [[symmetric group]] $S_j$, taking each transposition $(i j)$ to $-1 \in k^\ast$. We may linearly extend the sign action of $S_j$, so that $sgn$ names a (right) $k S_j$-module with underlying vector space $k$. At the same time, $S_j$ acts on the $j^{th}$ tensor product of a vector space $V$ by permuting tensor factors, giving a left $k S_j$-module structure on $V^{\otimes j}$. We define the [[Schur functor]] 
+be the 1-dimensional [[sign representation]] on the [[symmetric group]] $S_j$, taking each transposition $(i j)$ to $-1 \in k^\ast$. We may linearly extend the sign action of $S_j$, so that $sgn$ names a (right) $k S_j$-[[module]] with underlying [[vector space]] $k$. At the same time, $S_j$ acts on the $j^{th}$ [[tensor product]] of a vector space $V$ by permuting tensor factors, giving a left $k S_j$-module structure on $V^{\otimes j}$. We define the [[Schur functor]] 
 
 $$\Lambda^j \colon Vect_k \to Vect_k$$ 
 
@@ -20,27 +20,32 @@ $$\Lambda^j(V) = sgn \otimes_{k S_j} V^{\otimes j}.$$
 
 It is called the $j^{th}$ **alternating product** (of $V$). 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition 
 If $V$ is $n$-[[dimension|dimensional]], then $\Lambda^j(V)$ has dimension $\binom{n}{j}$. In particular, $\Lambda^n(V)$ is 1-dimensional. 
 =-- 
 
 +-- {: .proof}
 ###### Proof 
-If $e_1, \ldots, e_n$ is a basis for $V$, then expressions of the form $e_{n_1} \otimes \ldots \otimes e_{n_j}$ form a basis for $V^{\otimes j}$. Let $e_{n_1} \wedge \ldots \wedge e_{n_j}$ denote the image of this element under the quotient map $V^{\otimes j} \to \Lambda^j(V)$. We have 
+If $e_1, \ldots, e_n$ is a basis for $V$, then expressions of the form $e_{n_1} \otimes \ldots \otimes e_{n_j}$ form a [[basis of a vector space|basis]] for $V^{\otimes j}$. Let $e_{n_1} \wedge \ldots \wedge e_{n_j}$ denote the [[image]] of this element under the [[quotient]] map $V^{\otimes j} \to \Lambda^j(V)$. We have 
 
 $$e_{n_1} \wedge \ldots \wedge e_{n_i} \wedge e_{n_{i+1}} \wedge \ldots \wedge e_{n_j} = -e_{n_1} \wedge \ldots \wedge e_{n_{i+1}} \wedge e_{n_i} \wedge \ldots \wedge e_{n_j}$$ 
 
 (consider the transposition in $S_j$ which swaps $i$ and $i+1$) and so we may take only such expressions on the left where $n_1 \lt \ldots \lt n_j$ as forming a spanning set for $\Lambda^j(V)$, and indeed these form a basis. The number of such expressions is $\binom{n}{j}$. 
 =-- 
 
-* **Remark:** In the case where $char(k) = 2$, the same development may be carried out by simply decreeing that $e_{n_1} \wedge \ldots \wedge e_{n_j} = 0$ whenever $n_i = n_{i'}$ for some pair of distinct indices $i$, $i'$. 
++-- {: .num_remark}
+###### Remark
 
-Now let $V$ be an $n$-dimensional space, and let $f \colon V \to V$ be a linear map. By the proposition, the map 
+In the case where $char(k) = 2$, the same development may be carried out by simply decreeing that $e_{n_1} \wedge \ldots \wedge e_{n_j} = 0$ whenever $n_i = n_{i'}$ for some pair of distinct indices $i$, $i'$. 
+
+=--
+
+Now let $V$ be an $n$-dimensional space, and let $f \colon V \to V$ be a [[linear map]]. By the proposition, the map 
 
 $$\Lambda^n(f) \colon \Lambda^n(V) \to \Lambda^n(V),$$ 
 
-being an endomorphism on a 1-dimensional space, is given by multiplying by a scalar $D(f) \in k$. It is manifestly functorial since $\Lambda^n$ is, i.e., $D(f g) = D(f) D(g)$. The quantity $D(f)$ is called the **determinant** of $f$. 
+being an [[endomorphism]] on a 1-dimensional space, is given by multiplying by a scalar $D(f) \in k$. It is manifestly [[functor|functorial]] since $\Lambda^n$ is, i.e., $D(f g) = D(f) D(g)$. The quantity $D(f)$ is called the **determinant** of $f$. 
 
 ### Determinant of a matrix 
 
@@ -48,17 +53,17 @@ We see then that if $V$ is of dimension $n$,
 
 $$\det \colon End(V) \to k$$ 
 
-is a homomorphism of multiplicative monoids; by commutativity of multiplication in $k$, we infer that 
+is a [[homomorphism]] of multiplicative [[monoids]]; by commutativity of multiplication in $k$, we infer that 
 
 $$\det(U A U^{-1}) = \det(A)$$ 
 
-for each invertible linear map $U \in GL(V)$. 
+for each [[inverse|invertible]] [[linear map]] $U \in GL(V)$. 
 
-If we choose a basis of $V$ so that we have an identification $GL(V) \cong Mat_n(k)$, then the determinant gives a function 
+If we choose a [[basis of a vector space|basis]] of $V$ so that we have an identification $GL(V) \cong Mat_n(k)$, then the determinant gives a [[function]]
 
 $$\det \colon Mat_n(k) \to k$$ 
 
-that takes products of $n \times n$ matrices to products in $k$. The determinant however is of course independent of choice of basis, since any two choices are related by a change-of-basis matrix $U$, where $A$ and its transform $U A U^{-1}$ have the same determinant. 
+that takes products of $n \times n$ [[matrices]] to products in $k$. The determinant however is of course independent of choice of basis, since any two choices are related by a change-of-basis matrix $U$, where $A$ and its transform $U A U^{-1}$ have the same determinant. 
 
 By following the definitions above, we can give an explicit formula: 
 
@@ -66,7 +71,7 @@ $$\det(A) = \sum_{\sigma \in S_n} sgn(\sigma) \prod_{i = 1}^n a_{i \sigma(i)}.$$
 
 ## Properties
 
-We work over fields of arbitrary characteristic. The determinant satisfies the following properties, which taken together uniquely characterize the determinant. Write a square matrix $A$ as a row of column vectors $(v_1, \ldots, v_n)$. 
+We work over [[fields]] of arbitrary [[characteristic]]. The determinant satisfies the following properties, which taken together uniquely characterize the determinant. Write a square [[matrix]] $A$ as a row of column [[vectors]] $(v_1, \ldots, v_n)$. 
 
 1. $\det$ is separately linear in each column vector: 
 $$\det(v_1, \ldots, a v + b w, \ldots, v_n) = a\det(v_1, \ldots, v, \ldots, v_n) + b\det(v_1, \ldots, w, \ldots, v_n)$$ 
@@ -89,8 +94,10 @@ Other properties may be worked out, starting from the explicit formula or otherw
 
 A simple observation which flows from these basic properties is 
 
-+-- {: .un_prop} 
-###### Cramer's Rule 
++-- {: .num_prop} 
+###### Proposition
+**(Cramer's Rule)**
+
 Let $v_1, \ldots, v_n$ be column vectors of dimension $n$, and suppose 
 $$w = \sum_j a_j v_j.$$
 Then for each $i$ we have 
@@ -109,12 +116,17 @@ $$A \cdot a = w$$
 
 and we easily conclude that $A$ is invertible if $\det(A) \neq 0$. 
 
-* **Remark:** This holds true even if we replace the field $k$ by an arbitrary commutative ring $R$, and we replace the condition $\det(A) \neq 0$ by the condition that $\det(A)$ is a unit. (The entire development given above goes through, _mutatis mutandis_.) 
++-- {: .num_remark}
+###### Remark
 
-+-- {: .un_cor} 
+This holds true even if we replace the field $k$ by an arbitrary commutative [[ring]] $R$, and we replace the condition $\det(A) \neq 0$ by the condition that $\det(A)$ is a unit. (The entire development given above goes through, _mutatis mutandis_.) 
+
+=--
+
++-- {: .num_cor} 
 ###### Corollary 
-If $V$ is a finitely generated free module over a commutative ring $R$ and 
-$f \colon V \to V$ is a surjective $R$-linear map, then it is an isomorphism. 
+If $V$ is a finitely generated [[free module]] over a commutative [[ring]] $R$ and 
+$f \colon V \to V$ is a surjective $R$-[[linear map]], then it is an [[isomorphism]]. 
 =-- 
 
 +-- {: .proof} 
@@ -122,23 +134,30 @@ $f \colon V \to V$ is a surjective $R$-linear map, then it is an isomorphism.
 Clearly $f$ admits a splitting $g \colon V \to V$, i.e., where $f \circ g = 1_V$. We conclude from $\det(f)\det(g) = 1$ that $\det(g)$ is a unit in $R$. Thus, by Cramer's rule, $g$ is also surjective, so that $g$ and therefore also $f$ are isomorphisms. 
 =-- 
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary 
-If $V$ is a finitely generated projective module and $f \colon V \to V$ is a surjective module map, then $f$ is an isomorphism. 
+If $V$ is a finitely generated [[projective object|projective]] [[module]] and $f \colon V \to V$ is a surjective module map, then $f$ is an [[isomorphism]]. 
 =-- 
 
 +-- {: .proof}
 ###### Proof (sketch) 
-There is a general result that $V$ is a projective module over $R$ if and only if for any prime ideal $\mathfrak{p}$ of $R$, the localization $V_{\mathfrak{p}} = R_{\mathfrak{p}} \otimes_R V$ is free over the local ring $R_{\mathfrak{p}}$. Of course, each localization $f_{\mathfrak{p}}$ is epic if $f$ is. The localizations $f_{\mathfrak{p}}$ are jointly exact and faithful and therefore jointly reflect isomorphisms, so the conclusion follows from the previous result. 
+There is a general result that $V$ is a projective module over $R$ if and only if for any [[prime ideal]] $\mathfrak{p}$ of $R$, the localization $V_{\mathfrak{p}} = R_{\mathfrak{p}} \otimes_R V$ is free over the [[local ring]] $R_{\mathfrak{p}}$. Of course, each [[localization]] $f_{\mathfrak{p}}$ is epic if $f$ is. The localizations $f_{\mathfrak{p}}$ are jointly [[exact functor|exact]] and [[faithful functor|faithful]] and therefore jointly [[reflected isomorphism|reflect isomorphisms]], so the conclusion follows from the previous result. 
 =-- 
 
-Remark: I think we could also argue as follows, at least over a ring whose only idempotents are $0$ and $1$: if $V$ is finitely generated projective, then $\Lambda^n(V)$ is 1-dimensional where $n$ is the **rank** of $V$ (the dimension of $V \otimes_R R_\mathfrak{p}/\mathfrak{m}_\mathfrak{p}$, for any prime $\mathfrak{p}$ -- the rank is locally constant over $Spec(R)$, and so if $Spec(R)$ is connected, i.e., if $0$ and $1$ are the only idempotents, then the rank is idependent of $\mathfrak{p}$). Then follow the preceding developments right up to the Cramer's rule argument used to prove the first corollary. 
+
+
++-- {: .num_remark}
+###### Remark
+
+I think we could also argue as follows, at least over a ring whose only [[idempotents]] are $0$ and $1$: if $V$ is finitely generated projective, then $\Lambda^n(V)$ is 1-dimensional where $n$ is the **rank** of $V$ (the dimension of $V \otimes_R R_\mathfrak{p}/\mathfrak{m}_\mathfrak{p}$, for any prime $\mathfrak{p}$ -- the rank is locally constant over $Spec(R)$, and so if $Spec(R)$ is connected, i.e., if $0$ and $1$ are the only idempotents, then the rank is idependent of $\mathfrak{p}$). Then follow the preceding developments right up to the Cramer's rule argument used to prove the first corollary. 
+
+=--
 
 ### Over the real numbers 
 
-A useful intuition to have for determinants of real matrices is that they measure _change of volume_. That is, an $n \times n$ matrix with real entries will map a standard unit cube in $\mathbb{R}^n$ to a parallelpiped in $\mathbb{R}^n$ (quashed to lie in a hyperplane if the matrix is singular), and the determinant is, up to sign, the volume of the parallelpiped. It is easy to convince oneself of this in the planar case by a simple dissection of a parallelogram, rearranging the dissected pieces in the style of Euclid to form a rectangle. In algebraic terms, the dissection and rearrangement amount to applying shearing or elementary column operations to the matrix which, by the properties discussed earlier, leave the determinant unchanged. These operations transform the matrix into a diagonal matrix whose determinant is the area of the corresponding rectangle. This procedure easily generalizes to $n$ dimensions. 
+A useful intuition to have for determinants of [[real number|real]] matrices is that they measure _change of volume_. That is, an $n \times n$ matrix with real entries will map a standard unit cube in $\mathbb{R}^n$ to a parallelpiped in $\mathbb{R}^n$ (quashed to lie in a hyperplane if the matrix is singular), and the determinant is, up to sign, the volume of the parallelpiped. It is easy to convince oneself of this in the planar case by a simple dissection of a parallelogram, rearranging the dissected pieces in the style of Euclid to form a rectangle. In algebraic terms, the dissection and rearrangement amount to applying shearing or elementary column operations to the matrix which, by the properties discussed earlier, leave the determinant unchanged. These operations transform the matrix into a diagonal matrix whose determinant is the area of the corresponding rectangle. This procedure easily generalizes to $n$ dimensions. 
 
-The sign itself is a matter of interest. An invertible transformation $f \colon V \to V$ is said to be **orientation-preserving** if $\det(f)$ is positive, and **orientation-reversing** if $\det(f)$ is negative. Orientations play an important role throughout geometry and algebraic topology, for example in the study of orientable manifolds (where the tangent bundle as $GL(n)$-bundle can be lifted to a $GL_+(n)$-bundle structure, $GL_+(n) \hookrightarrow GL(n)$ being the subgroup of matrices of positive determinant). See also [[KO-theory]]. 
+The sign itself is a matter of interest. An invertible transformation $f \colon V \to V$ is said to be **[[orientation]]-preserving** if $\det(f)$ is positive, and **orientation-reversing** if $\det(f)$ is negative. Orientations play an important role throughout geometry and algebraic topology, for example in the study of orientable manifolds (where the tangent bundle as $GL(n)$-bundle can be lifted to a $GL_+(n)$-bundle structure, $GL_+(n) \hookrightarrow GL(n)$ being the subgroup of matrices of positive determinant). See also [[KO-theory]]. 
 
 ## In terms of Berezinian integrals
 
