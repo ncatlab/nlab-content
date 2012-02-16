@@ -159,6 +159,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Isomorphismes](http://isomorphismes.tumblr.com/tagged/mathematics) (maths about human beings)
 
+* [Joel David Hamkins](http://jdh.hamkins.org) "mathematics and philosophy of the infinite", foundations
+
 * [Learning Curves](http://learningcurves.blogspot.com) (mathematics education from the perspective of a retiring college professor; may contain vulgar language and expressions of anger)
 
 * [London Number Theory Blog](http://londonnumbertheory.wordpress.com) (arithmetics and arithmetic geometry)
