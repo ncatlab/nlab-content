@@ -1,4 +1,4 @@
-<div style="float:left;margin:0 20px 10px 20px;"><img width = "100" src="http://www.abstractmath.org/Personal/index_files/image002.jpg" alt="Charles Wells" /></div>
+<div style="float:left;margin:0 20px 10px 20px;"><img width = "100" src="http://photos.academia.edu/26650/8691/8255/large_charles.wells.jpg?1323912173" alt="Charles Wells" /></div>
 
 
 Charles Wells is Professor Emeritus of Mathematics at 
