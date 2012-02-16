@@ -132,7 +132,7 @@ If $V$ is a finitely generated projective module and $f \colon V \to V$ is a sur
 There is a general result that $V$ is a projective module over $R$ if and only if for any prime ideal $\mathfrak{p}$ of $R$, the localization $V_{\mathfrak{p}} = R_{\mathfrak{p}} \otimes_R V$ is free over the local ring $R_{\mathfrak{p}}$. Of course, each localization $f_{\mathfrak{p}}$ is epic if $f$ is. The localizations $f_{\mathfrak{p}}$ are jointly exact and faithful and therefore jointly reflect isomorphisms, so the conclusion follows from the previous result. 
 =-- 
 
-Remark: I think we could also argue as follows: if $V$ is finitely generated projective, then $\Lambda^n(V)$ is 1-dimensional where $n$ is the **rank** of $V$ (the dimension of $V \otimes_R R_\mathfrak{p}/\mathfrak{m}_\mathfrak{p}$, for any prime $\mathfrak{p}$). Then follow the preceding developments right up to the Cramer's rule argument used to prove the first corollary. 
+Remark: I think we could also argue as follows, at least over a ring whose only idempotents are $0$ and $1$: if $V$ is finitely generated projective, then $\Lambda^n(V)$ is 1-dimensional where $n$ is the **rank** of $V$ (the dimension of $V \otimes_R R_\mathfrak{p}/\mathfrak{m}_\mathfrak{p}$, for any prime $\mathfrak{p}$ -- the rank is locally constant over $Spec(R)$, and so if $Spec(R)$ is connected, i.e., if $0$ and $1$ are the only idempotents, then the rank is idependent of $\mathfrak{p}$). Then follow the preceding developments right up to the Cramer's rule argument used to prove the first corollary. 
 
 ### Over the real numbers 
 
