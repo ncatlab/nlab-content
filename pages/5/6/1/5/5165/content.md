@@ -1,4 +1,4 @@
- Toposes, Triples, and Theories by  Michael Barr, and  Charles Wells, was published in as Grundlehren der math. Wissenschaften 278. Springer-Verlag, 1983, and has been [republished](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) in the [[TAC reprints series]].
+ Toposes, Triples, and Theories by  [[Michael Barr]], and  [[Charles Wells]], was published in as Grundlehren der math. Wissenschaften 278. Springer-Verlag, 1983, and has been [republished](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) in the [[TAC reprints series]].
 
 ## Contents
 
