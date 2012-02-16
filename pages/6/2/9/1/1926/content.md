@@ -76,15 +76,29 @@ When the objects of the geometry $\mathcal{G}$ are thought of as test spaces (af
 
 An **admissibility structure** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[Grothendieck topology]] on $\mathcal{G}$ that is generated from its intersection with a subcategory $\mathcal{G}^{ad} \subset \mathcal{G}$ whose morphisms -- called the  **admissible morphisms** have the following properties
 
-* admissible morphisms are stable under [[pullback]];
+* admissible morphisms are stable under [[(∞,1)-pullback]];
 
-* admissible morphism satisfy the [[2-out-of-3 property]].
+* admissible morphisms satisfy "left cancellability", meaning that whenever in 
+
+  $$
+    \array{
+      && Y 
+      \\
+      & {}^{\mathllap{f}}\nearrow && \searrow^{\mathrlap{g}}
+      \\
+      X &&\stackrel{h}{\to}&& Z
+    }
+  $$
+
+  $g$ and $h$ are admissible, then so is $f$.
+
+* admissible morphisms are closed under [[retracts]].
 
 Equivalently, this is a [[Grothendieck topology]] on $\mathcal{G}$ which is _generated_ from admissible morphisms.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Admissibility 
 
 As will become clear when looking at examples, the notion of
