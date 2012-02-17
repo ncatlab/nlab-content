@@ -4,7 +4,7 @@
 
 ## Definitions
 
-A [[ring]] $R$ is __Boolean__ if the operation of multiplication is [[idempotent]]; that is, $x^2 = x$ for every element $x$.
+A [[ring with unit]] $R$ is __Boolean__ if the operation of multiplication is [[idempotent]]; that is, $x^2 = x$ for every element $x$. Although the terminology would make sense for rings without unit, the common usage assumes a unit. 
 
 Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]] $Boo Rng$.
 
