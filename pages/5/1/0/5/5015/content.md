@@ -30,7 +30,7 @@ This means that we may regard an &#233;tale groupoid as an [[internal groupoid]]
 
 ### Cohomology and homology
 
-In the literature one finds, roughly speaking, two dierent approaches to the study of &#233;tale groupoids. One approach is based on the construction of the convolution algebras associated to an &#233;tale groupoid, in the spirit of Connes' [[noncommutative geometry]], and involves the study of [[cyclic homology|cyclic]] and [[Hochschild homology]] and [[Hochschild cohomology|cohomology]] of these algebras. The other approach uses methods of algebraic topology such as the construction of the [[classifying space]] of an
+In the literature one finds, roughly speaking, two different approaches to the study of &#233;tale groupoids. One approach is based on the construction of the convolution algebras associated to an &#233;tale groupoid, in the spirit of Connes' [[noncommutative geometry]], and involves the study of [[cyclic homology|cyclic]] and [[Hochschild homology]] and [[Hochschild cohomology|cohomology]] of these algebras. The other approach uses methods of algebraic topology such as the construction of the [[classifying space]] of an
 &#233;tale groupoid and its [[abelian sheaf cohomology|(sheaf) cohomology groups]].
 
 ## Examples
