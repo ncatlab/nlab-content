@@ -1,0 +1,16 @@
+#Contents#
+* table of contents
+{:toc}
+
+##Overview##
+
+**Symplectic duality** is the name of a hypothetical duality operation on conical [[symplectic singularities.]]  At moment, no rigorous definition exists, though there are a number of conjectured examples and a great number of connections that should tie together dual singularities.
+
+##Properties##
+For $\mathfrak{M}_0$ a conical symplectic singularity, there is an associated [[Harrison homology]] $HP^2( \mathfrak{M}_0)$ which is the base of a universal Poisson deformation of $\mathfrak{M}_0$; this group actually coincides with the quotient by a Coxeter group (called the **Weyl group** of $\mathfrak{M}_0$) of the $\mathbb{C}$-[[Picard group]] of a [[Q-factorial|$\mathfrak{Q}$-factorial]] [[terminal singularity|terminalization]] of $mathfrak{M}_0$ (a [[symplectic resolution]] is an example of such a terminalization, but not all symplectic singularities have resolutions).  
+
+Every conical symplectic singularity has a canonical [[deformation quantization]]: a family of filtered non-commutative algebras, each of whose associated graded 
+
+##Examples##
+
+##Connections to physics## 
