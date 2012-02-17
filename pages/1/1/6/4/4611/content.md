@@ -46,7 +46,7 @@ A colimit over a sifted diagram is called a [[sifted colimit]].
 +-- {: .un_prop}
 ###### Proposition
 
-An [[inhabited set|inhabited]] [[small category]] $D$ is sifted precisely if the diagonal functor 
+An [[inhabited set|inhabited]] [[small category]] $D$ is sifted precisely if the [[diagonal]] functor 
   
 $$
   D \to D \times D
