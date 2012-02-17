@@ -2,3 +2,5 @@
 * [wikipedia entry](http://en.wikipedia.org/wiki/Nathan_Seiberg)
 
 category: people
+
+[[!redirects N. Seiberg]]
