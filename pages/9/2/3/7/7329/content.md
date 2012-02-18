@@ -6,6 +6,8 @@
 
 **Symplectic duality** is the name of a hypothetical duality operation $\mathfrak{M}_0\mapsto \mathfrak{M}^!_0$ on conical [[symplectic singularities.]]  At moment, no rigorous definition exists, though there are a number of conjectured examples and a great number of connections that should tie together dual singularities.
 
+The reader should be warned that this page and this circle of ideas are works in progress.  At the moment, two papers by [[Tom Braden|Braden]], [[Anthony Licata|Licata]], [[Nicholas Proudfoot|Proudfoot]] and [[Ben Webster|Webster]] that will lay out lots of the ideas and details behind the claims made below are still in preparation;  links will be added when they are ready to be publicly shared.
+
 ##Correspondence between geometric data##
 For $\mathfrak{M}_0$ a conical symplectic singularity, there is an associated [[Harrison homology]] $HP^2( \mathfrak{M}_0)$ which is the base of a universal Poisson deformation of $\mathfrak{M}_0$; this group actually coincides with the quotient by a Coxeter group $W$ (called the **Weyl group** of $\mathfrak{M}_0$) of the $\mathbb{C}$-[[Picard group]] $H$ of a [[Q-factorial|$\mathfrak{Q}$-factorial]] [[terminal singularity|terminalization]] of $\mathfrak{M}_0$ (a [[symplectic resolution]] is an example of such a terminalization, but not all symplectic singularities have resolutions).  Let $H_{\mathbb{Z}}$ denote the Picard group of this variety.
 
@@ -14,6 +16,7 @@ The variety $\mathfrak{M}_0$ also has a finite-dimensional group of [[Hamiltonia
 Among the basic properties we expect of $\mathfrak{M}_0$ is 
 +-- {: .num_conj}
 ###### Conjecture 
+
 
 There are canonical isomorphisms of Coxeter groups $\mathbb{W}\cong W^!$ and $\mathbb{W}^!\cong W$ and 
 canonical equivariant  isomorphisms
@@ -121,6 +124,14 @@ The dual is again an S3 variety $\mathfrak{X}^{\mu}_{\nu}$ where $\mu$ and $\nu$
 
 ###Quiver varieties and affine Grassmannian slices###
 
+Perhaps the richest examples of symplectic singularities come from [[quiver varieties]]; these are varieties associated to a pair of weights in the weight lattice of a Kac-Moody algebra.  The category $\cO$'s of these varieties are derived equivalent to algebras studied in 
+
+* [[Ben Webster]], _Knot invariants and higher representation theory I: diagrammatic and geometric categorification of tensor products_, [arXiv:1001.2020](http://arxiv.org/abs/1001.2020).
+* [[Ben Webster]], _Knot invariants and higher representation theory II: the categorification of quantum knot invariants_, [arXiv:1005.4559](http://arxiv.org/abs/1005.4559).
+
+with the shuffling functors coinciding with the R-matrix action from the second paper above, and the twisting functors coinciding with the Chuang-Rouquier braid group action on the category (these statements will be proved in a forthcoming paper of [[Ben Webster]]).
+
+Heuristic considerations suggest that the dual variety to a quiver variety in finite type should be a slice between Schubert cells in the affine Grassmannian of the Langlands dual group.  Ongoing work of [[Joel Kamnitzer]], [[Ben Webster]] and [[Oded Yacobi]] is aimed at understanding the behavior of the quantization referred to above for an affine Grassmannian slice.
 
 ##Connections to physics## 
 
