@@ -65,6 +65,10 @@ $$
 
 and it makes $H$ not only an $H$-module, but in fact a monoid in the monoidal category of $H$-modules (usually called $H$-[[module algebra]]). 
 
+## Related concepts
+
+* [[adjoint representation]]
+
 [[!redirects adjoint actions]]
 
 [[!redirects conjugation]]
