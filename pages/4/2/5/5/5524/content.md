@@ -684,8 +684,7 @@ $i :$ [[Smooth∞Grpd]] $\hookrightarrow SynthDiff\infty Grpd$.
 +-- {: .num_prop #RecoveringLocalDiffeomorphisms}
 ###### Proposition
 
-
-Then a [[smooth function]] $f : X \to Y$ in [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] between [[smooth manifold]]s is a [[formally étale morphism]] according to the abstract definition at _[[cohesive (infinity,1)-topos|infinitesimal cohesion]]_ precisely if it is a [[local diffeomorphism]] in the traditional sense.
+A [[smooth function]] $f : X \to Y$ in [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] between [[smooth manifold]]s is a [[formally étale morphism]] with respect to the [[infinitesimal cohesion]] $Smooth \infty Grpd \hookrightarrow SynthDiff\infty Grpd$ precisely if it is a [[local diffeomorphism]] in the traditional sense.
 
 =--
 
