@@ -86,7 +86,7 @@ Other properties may be worked out, starting from the explicit formula or otherw
 
 * More generally, if $A$ is an upper (or lower) triangular matrix, then $\det(A)$ is the product of the diagonal entries. 
 
-* If $E/k$ is an extension field and $f$ is a $k$-linear map $V \to V$, then $\det(f) = \det(E \otimes_k f)$. Together with the preceding properties, this means that $\det(f)$ is the product of its eigenvalues (counted with multiplicity), as computed in the algebraic closure of $k$. 
+* If $E/k$ is an extension field and $f$ is a $k$-linear map $V \to V$, then $\det(f) = \det(E \otimes_k f)$. Using the preceding properties and the [[Jordan normal form]] of a matrix, this means that $\det(f)$ is the product of its eigenvalues (counted with multiplicity), as computed in the algebraic closure of $k$. 
 
 * If $A^t$ is the transpose of $A$, then $\det(A^t) = \det(A)$. 
 
@@ -125,7 +125,7 @@ This holds true even if we replace the field $k$ by an arbitrary commutative [[r
 
 ### Cayley-Hamilton theorem 
 
-+-- {: .un_lem}
++-- {: .num_lem}
 ###### Lemma 
 Let $R$ be a commutative ring, let $V$ be a finitely generated free module, and let $f \colon V \to V$ be an $R$-module map. Then there exists an $R$-module map $\tilde{f} \colon V \to V$ such that $f \circ \tilde{f} = \tilde{f} \circ f = \det(f)\cdot 1_V$. 
 =-- 
@@ -134,20 +134,69 @@ Let $R$ be a commutative ring, let $V$ be a finitely generated free module, and 
 ###### Proof 
 Pick a basis $v_1, \ldots, v_n$, and let $A = (a_{i j})$ be the matrix representation of $f$ with respect to this basis. In the case where $A$ is invertible ($\det(A)$ is a unit), we have a unique $\tilde{A}$ such that $A \tilde{A} = \det(A) = \tilde{A} A$, and the entries of $\tilde{A}$ are computed by Cramer's rule, 
 
-$$\tilde{A}_{j i} = \det(a_1, ldots, e_i, \ldots a_n),$$ 
+$$\tilde{A}_{j i} = \det(a_1, \ldots, e_i, \ldots a_n),$$ 
 
-the $a_i$ being columns of $A$ and $e_i$, the column vector with $1$ in the $i^{th}$ row and $0$'s elsewhere, appearing as the $j^{th}$ column. This formula gives $\tilde{A}_{j i}$ as a polynomial expression in the entries $a_{i j}$. We define $\tilde{A}$ by the same formula for any $A$, and the collection of polynomial identities $A \tilde{A} = \det(A) = \tilde{A} A$ over the polynomial ring $R[a_{i j}]$ holds on the Zariski-dense subset $GL(V) \hookrightarrow Mod_R(V, V)$. It therefore holds on the closure, i.e., on the entire endomorphism ring $Mod_R(V, V)$ (as can also be established by direct computation). 
+the $a_i$ being columns of $A$ and $e_i$, the column vector with $1$ in the $i^{th}$ row and $0$'s elsewhere, appearing as the $j^{th}$ column. This formula gives $\tilde{A}_{j i}$ as a polynomial expression in the entries $a_{i j}$. We define $\tilde{A}$ by the same formula for any $A$, and the collection of polynomial equations $A \tilde{A} = \det(A) = \tilde{A} A$ over the polynomial ring $R[a_{i j}]$ holds on the Zariski-dense subset $GL(V) \hookrightarrow Mod_R(V, V)$. It therefore holds on the closure, i.e., identically on the entire endomorphism ring $Mod_R(V, V)$ (as can also be established by direct computation). 
 =-- 
 
-+-- {: .un_thm}
-###### Cayley-Hamilton Theorem 
++-- {: .num_thm}
+
+###### Theorem 
+(**Cayley-Hamilton**) 
 Let $V$ be a finitely generated free module over a commutative ring $R$, and let $f \colon V \to V$ be an $R$-module map. Let $p(t) \in R[t]$ be the **characteristic polynomial** $\det(t 1_V - f)$ of $f$, and let $\phi_f \colon R[t] \to Mod_R(V, V)$ be the unique $R$-algebra map sending $t$ to $f$. Then $p(f) \coloneqq \phi_f(p)$ is the zero map $0 \colon V \to V$. 
+
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
+Via $\phi_f$, regard $V$ as an $R[t]$-module, and with regard to some $R$-basis $\{v_i\}_{1 \leq i \leq n}$ of $V$, represent $f$ by a matrix $A$. Now consider $t \cdot Id - A$ as an $n \times n$ matrix $B(t)$ with entries in $R[t]$. By definition of the module structure, this matrix $B(t)$, seen as acting on $V^n$, annihilates the length $n$ column vector $c$ whose $i^{th}$ row entry is $v_i$. 
 
+By the previous lemma, there is $\tilde{B}(t)$ such that $\tilde{B}(t) B(t)$ is $\det(t Id - f)$ times the identity matrix. It follows that 
 
+$$\det(t Id - f) V = \tilde{B}(t) B(t) c = \tilde{B}(t) 0 = 0$$ 
+
+i.e., $\det(t Id - f) \cdot v_i = 0$ for each $i$. Since the $v_i$ form an $R$-basis, the $R[t]$-scalar $\det(t Id - f)$ annihilates the $R[t]$-module $V$, as was to be shown. 
+=-- 
+
+We give an interesting and perhaps consequence of the Cayley-Hamilton theorem below, after establishing a lemma that is similar in spirit to [[Nakayama's lemma]]. 
+
++-- {: .num_lem} 
+###### Lemma 
+Suppose $V$ is a finitely generated $R$-module, and $g \colon V \to V$ is a module map such that $g(V) \subseteq I V$ for some ideal $I$ of $R$. Then there is a polynomial $p(t) = t^n + a_1 t^{n-1} + \ldots + a_n$, with all $a_i \in I$, such that $p(g) = 0$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+For some finite $n \geq 0$, we have a surjective map $R^n \to M$, and by hypothesis we have a surjective map $I^n \to im(g)$ in 
+
+$$\array{
+ & & & & I^n \\
+ & & & & \downarrow \\
+R^n & \to & M & \stackrel{g}{\to} & im(g)
+}$$
+
+By projectivity of $R^n$, we can lift the bottom composite to a map $R^n \to I^n$ making the diagram commute. Let $A$ be the $R$-module map $R^n \to I^n \hookrightarrow R^n$, regarded as a matrix. Then the characteristic polynomial of $A$ satisfies the conclusion, by the Cayley-Hamilton theorem. 
+=-- 
+
++-- {: .num_prop}
+{#surj} 
+###### Proposition 
+Let $V$ be a finitely generated module over a commutative ring $R$, and let $f \colon V \to V$ be a surjective module map. Then $f$ is an isomorphism. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Regard $V$ as a finitely generated $R[t]$-module via $\phi_f \colon R[t] \to Mod_R(V, V)$. Since $f$ is assumed surjective, we have $I V = V$ for the ideal $I = (t)$ of $R[t]$. Now take $g = 1_V$ as in the preceding lemma, a module map over the ring $R' = R[t]$. By the lemma, we see that 
+$g^n + a_1 g^{n-1} + \ldots + a_n = 0$ where $a_i \in (t)$, in other words the $R[t]$-scalar 
+
+$$(1 + a_1 + \ldots + a_n)1_V = 0$$ 
+
+as an operator on $V$. Write $a_i = b_i(t) t$ for polynomials $b_i(t) \in R[t]$. Now we may rewrite the previous displayed equation as 
+
+$$1_V(v) = -(\sum_i b_i(t)) t \cdot v$$ 
+
+for all $v \in V$, which translates into saying that $1_V = -\sum_i b_i(f) f$, i.e., that $-\sum_i b_i(f)$ is a retraction of $f$. Since $f$ is epi, we now see $f$ is an isomorphism. 
+=-- 
 
 
 ### Over the real numbers 
@@ -156,6 +205,11 @@ A useful intuition to have for determinants of [[real number|real]] matrices is 
 
 The sign itself is a matter of interest. An invertible transformation $f \colon V \to V$ is said to be **[[orientation]]-preserving** if $\det(f)$ is positive, and **orientation-reversing** if $\det(f)$ is negative. Orientations play an important role throughout geometry and algebraic topology, for example in the study of orientable manifolds (where the tangent bundle as $GL(n)$-bundle can be lifted to a $GL_+(n)$-bundle structure, $GL_+(n) \hookrightarrow GL(n)$ being the subgroup of matrices of positive determinant). See also [[KO-theory]]. 
 
+Finally, we include one more property of determinants which pertains to matrices with real coefficients (which works slightly more generally for matrices with coefficients in a [[local field]]): 
+
+* If $A$ is an $n \times n$ matrix, then $\det(\exp(A)) =$ $\exp($[[trace]]$(A))$ 
+
+
 ## In terms of Berezinian integrals
 
 see [[Pfaffian]] for the moment
@@ -163,5 +217,15 @@ see [[Pfaffian]] for the moment
 ## Related entries
 
 * [[Pfaffian]], [[determinant line]], [[determinant line bundle]], [[quasideterminant]], [[resultant]]
+
+## References 
+
+The proof of the Cayley-Hamilton theorem follows the treatment in 
+
+* Serge Lange, _Algebra_ ($3^{rd}$ edition), Addison-Wesley, 1993. 
+
+The proof of [Proposition 3](#surj) on surjective endomorphisms of finitely generated modules was extracted from 
+
+* Stacks Project, Commutative Algebra, section 13 ([pdf](http://math.columbia.edu/algebraic_geometry/stacks-git/algebra.pdf))
 
 [[!redirects determinants]]
