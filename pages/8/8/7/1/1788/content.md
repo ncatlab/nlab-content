@@ -162,6 +162,8 @@ A test of __underlining__, with punctuation
 Only it wasn't *underlining*, it was **emphasis**.
 
 
+$F\in\Gamma$
+
 category: meta
 
 [[!redirects Sandbox]]
