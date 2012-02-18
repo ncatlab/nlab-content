@@ -23,7 +23,7 @@ The reader should be warned that this page and this circle of ideas are works in
 
 For $\mathfrak{M}_0$ a conical symplectic singularity, there is an associated [[Harrison homology]] $HP^2( \mathfrak{M}_0)$ which is the base of a universal [[Poisson deformation]] of $\mathfrak{M}_0$; this group actually coincides with the quotient by a [[Coxeter group]] $W$ (called the **[[Weyl group]]** of $\mathfrak{M}_0$) of the $\mathbb{C}$-[[Picard group]] $H$ of a $\mathfrak{Q}$-[[Q-factorial|factorial]] [[terminal singularity|terminalization]] of $\mathfrak{M}_0$ (a [[symplectic resolution]] is an example of such a terminalization, but not all symplectic singularities have resolutions).  Let $H_{\mathbb{Z}}$ denote the Picard group of this variety.
 
-The variety $\mathfrak{M}_0$ also has a finite-dimensional group of [[Hamiltonian vector field|Hamiltonian]] [[automorphisms]] commuting with the conical structure.  Let $G$ be a Levi complement of this group, $T$ a maximal torus of $G$ and $\mathbb{W}=N_G(T)/T$ its [[Weyl group]].  For all these pieces of data, let the corresponding object for the (hypothetical) dual be denoted by $(-)^!$
+The variety $\mathfrak{M}_0$ also has a finite-dimensional group of [[Hamiltonian vector field|Hamiltonian]] [[automorphisms]] commuting with the conical structure.  Let $G$ be a [[Levi complement]] of this group, $T$ a [[maximal torus]] of $G$ and $\mathbb{W}=N_G(T)/T$ its [[Weyl group]].  For all these pieces of data, let the corresponding object for the (hypothetical) dual be denoted by $(-)^!$
 
 Among the basic properties we expect of $\mathfrak{M}_0$ is 
 +-- {: .num_conj}
@@ -159,7 +159,7 @@ them from this paper.
 
 The physical theories which concern us are certain 
 [[gauge theories]] in 3
-dimensions which carry $N=4$ [[supersymmetry]]; the most important examples
+dimensions which carry $N=4$ [[supersymmetry]] (see _[[N=4 D=3 super Yang-Mills theory]]_); the most important examples
 of these are associated to a [[compact topological space|compact]] [[simple Lie group]] $G$ and a
 complex [[representation]] $V$ of $G$ and are obtained by [[Kaluza-Klein mechanism|dimensional reduction]] from 6 dimensional [[super Yang-Mills theory|super Yang-Mills]], considered for example in  
 
@@ -180,7 +180,7 @@ preliminary version of the conjectures discussed above, it
 was pointed out (initially by [[Sergei Gukov]]) that there is a very
 large overlap between the list of examples above and
 the known list of Higgs/Coulomb pairs in physics.  For example,  Intriligator and Seiberg have shown that an ALE space forms a Higgs/Coulomb pair with the
-moduli space of an [[instanton] of the corresponding simply-laced Lie group on $\mathbb{R}^2$.
+moduli space of an [[instanton]] of the corresponding simply-laced Lie group on $\mathbb{R}^2$.
 
 In 
 
@@ -198,9 +198,7 @@ These examples strongly suggest that
 
 +-- {: .num_conj}
 ###### Conjecture 
-  If $\mathfrak{M}$ is the Higgs branch of a 3-dimensional $N=4$ supersymmetric
-  gauge theory, then the dual $\mathfrak{M}^!$ exists and is the Coulomb branch
-  of the same theory (equivalently, the Higgs branch of its mirror).
+  If $\mathfrak{M}$ is the [[Higgs branch]] of a [[N=4 D=3 super Yang-Mills theory]], then the dual $\mathfrak{M}^!$ exists and is the [[Coulomb branch]] of the same theory (equivalently, the Higgs branch of its [[mirror symmetry|mirror]]).
 
 =--
 
