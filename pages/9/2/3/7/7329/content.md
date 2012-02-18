@@ -63,7 +63,8 @@ Thus, if both $\mathfrak{M}_0$ and $\mathfrak{M}_0^!$ possess symplectic resolut
 +-- {: .num_conj}
 ###### Conjecture 
 
-The categories $\mathcal{O}_{\lambda+b;\xi^!}$ and $\mathcal{O}_{\lambda^!+b^!,\xi}^!$ are both [[Koszul]] and Koszul dual to each other.
+The categories $\mathcal{O}_{\lambda+b;\xi^!}$ and $\mathcal{O}_{\lambda^!+b^!,\xi}^!$ are both 
+[[Koszul algebra|Koszul]] and Koszul dual to each other.
 
 =--
 
