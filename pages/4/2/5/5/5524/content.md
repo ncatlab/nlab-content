@@ -738,6 +738,30 @@ $U_{i_0, \cdots, i_n}$ are [[Cartesian spaces]], and that
 $j_!$ coincides on [[representable functor|representables]] with the inclusion 
 $CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$.
 
+Let now $X_\bullet$ be a general simplicial manifold. Assume that in each degree there is a [[good open cover]] $\{U_{p,i} \to X_p\}$ such that these fit into a simplicial system giving a bisimplicial Cech nerve such that there is a morphism of [[bisimplicial object|bisimplicial presheaves]]
+
+$$
+  C(\mathcal{U})_{\bullet, \bullet} \to X_{\bullet}
+$$
+
+with $X_\bullet$ regarded as simplicially constant in one direction. Each 
+$C(\mathcal{U})_{p, \bullet} \to X_p$ is  a cofibrant resolution.
+
+We claim that the [[coend]]
+
+$$
+  \int^{[n] \in \Delta} C(\mathcal{U})_{n, \bullet} \cdot \mathbf{\Delta}[n]
+  \;\;\;
+  \to
+  \;\;\;
+  X
+$$
+
+is a cofibrant resolution of $X$, where $\mathbf{\Delta}$ is the [[fat simplex]]. 
+From this the proposition follows by again applying the left Quillen functor $j_!$ degreewise and pulling it through all the colimits.
+
+This remaining claim follows from the same argument as used 
+above in prop. \ref{RealCohomologyOfCompactLieGroup}.
 
 =--
 
