@@ -169,6 +169,10 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 
 * [[isotropic submanifold]], [[coisotropic submanifold]]
 
+* [[symplectic singularity]], [[symplectic resolution]]
+
+* [[symplectic reduction]]
+
 ## References
 
 See the references at [[symplectic geometry]].
