@@ -41,7 +41,7 @@ The basic ideas of the internal logic induced by a given a [[category]] $C$ is t
 
 * Logical operations are implemented by [[universal construction]]s on [[subobject]]s:
   
-  * the conjunction [[and]] is the [[product]] of subobject (their [[meet]]);
+  * the conjunction [[and]] is the [[product]] of subobjects (their [[meet]]);
 
   * the conjunction [[or]] is the [[coproduct]] of subobjects (their [[join]]);
 
