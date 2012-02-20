@@ -1,17 +1,24 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-For $k$ a [[field]] and $V$ a $k$-[[vector space]], a _basis_ for $V$ is a [[basis of a free module]] for $V$ regarded as a [[free module]] over $k$.
+For $k$ a [[field]] and $V$ a $k$-[[vector space]], a __basis__ for $V$ is a [[basis of a free module]] for $V$ regarded as a [[free module]] over $k$.  In [[functional analysis]], a basis in this sense is called a __Hamel basis__.
+
 
 ## Properties
 
 The [[basis theorem]] asserts that, with the [[axiom of choice]], every vector space admits a basis.
 
+
 ## Related concepts
 
 * [[orthogonal basis]]
+* [[basis in functional analysis]]
 
+
+[[!redirects Hamel basis]]
+[[!redirects Hamel bases]]
+[[!redirects Hamel basises]]
