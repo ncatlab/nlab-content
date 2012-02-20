@@ -123,8 +123,9 @@ $$
 $$
 
 ***
-d
-## Hidfdddddddddddddddddfdfd
+
+## Hi
+
 [[proper homotopy theory (unbroken copy)]]
 
 ***
