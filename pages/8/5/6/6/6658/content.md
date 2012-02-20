@@ -53,13 +53,16 @@ See ([ST](#ST)) and ([RST](#RST)) for proofs.
 
 ## General case
 
-In general, [[descent]] is about higher [[sheaf]] conditions (i.e. [[stack]] conditions).  In this language, saying that $p$ is an effective descent morphism says that the [[codomain fibration]] of $C$ is a stack (that is, a [[2-sheaf]]) for the singleton covering family $p$.  Similarly, $p$ is a descent morphism iff the codomain fibration is a pre-stack (that is, a 2-separated 2-presheaf) for $p$.
+In general, [[descent]] is about higher [[sheaf]] conditions (i.e. [[stack]] conditions). More precisely, being an $n$-stack means that all
+covers in the base are effective $n$-categorical descent morphism. Hence the morphism being of effective descent is a building block, the single morphism case of a stack condition. 
+
+Thus, being an effective descent morphism says that the corresponding fibered category is a 1-stack ("2-sheaf") for the singleton covering family $p$.  Similarly, $p$ is a descent morphism iff the codomain fibration is a pre-stack (that is, a 2-separated 2-presheaf) for $p$.
 
 More generally, we may use the terms "descent morphism" and "effective descent morphism" relativized to any [[fibration]] or [[indexed category]] rather than the codomain fibration.
 
 We can also, of course, generalize to higher categories: an [[n-category]] with pullbacks has an analogue of a "codomain fibration", and we can ask for stack conditions on it.  This is most common in the case of [[(infinity,1)-categories]]; see the page [[descent]] for more information and links.
 
-Descent can also be rephrased in terms of the [[monadicity theorem]]; see [[monadic descent]].
+Descent can sometimes (for this we need to have also the direct image functor) be rephrased in terms of the [[monadicity theorem]]; see [[monadic descent]].
 
 ## Examples
 
