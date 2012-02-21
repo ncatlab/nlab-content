@@ -860,6 +860,38 @@ precisely if $\mathcal{G}$ is an [[étale groupoid]].
 
 =--
 
+### Formally smooth / formally unramified morphisms
+
+As a direct consequence of prop. \ref{RecoveringLocalDiffeomorphisms} we have the following
+
++-- {: .num_prop}
+###### Proposition
+
+A [[smooth function]] $f : X \to Y$ between [[smooth manifolds]], 
+is a [[submersion]] or [[immersion]], respectively, precisely
+if, when canonically regarded as a morphism in $SynthDiff \infty Grpd$, it is a [[formally smooth morphism]] or [[formally unramified morphism]], respectively.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As in the proof of prop. \ref{RecoveringLocalDiffeomorphisms}
+we find that the pullback $i_* X \times_{i_* Y} i_! Y$
+is over the [[infinitesimal interval]] isomorphic to 
+
+$$
+  X \times_Y T Y
+$$
+
+and the canonical morphism from $i_! X $ into this pullback is
+
+$$
+  T X \to X \times_Y T Y
+  \,.
+$$
+
+=--
 
 ## Related concepts
 
