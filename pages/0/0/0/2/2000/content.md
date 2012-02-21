@@ -48,6 +48,8 @@ See also [[formally smooth morphism]].
 
 ## References
 
+* Arthur Ogus, _Smooth morphisms_ ([pdf](http://math.berkeley.edu/~ogus/Math%20_256A--08/smooth.pdf))
+
 * Peter Bruin, _Smooth morphisms_ ([ps](http://www.google.com/url?sa=t&source=web&cd=8&ved=0CEkQFjAH&url=http%3A%2F%2Fwww.math.leidenuniv.nl%2F~pbruin%2Fsmooth.ps&rct=j&q=%22relative%20dimension%22%20smooth&ei=1zn9TOesBIrrOZbr1NQK&usg=AFQjCNFRuNB5BNwI3hXEA9jsLajt0tZldQ&cad=rja))
 
 [[!redirects smooth morphisms of schemes]]
