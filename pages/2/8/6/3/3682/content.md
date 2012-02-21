@@ -271,7 +271,7 @@ $$
   \eta_a : A(a,G(-)) \to  A(a,f_* F(-))
 $$
 
-exhibits $A(a,G(-)) : C' \to sSet_{Quillen}$ as a homotopy right Kan extension of $A(a,G(-)) : C \to sSet_{Quillen}$.
+exhibits $A(a,G(-)) : C' \to sSet_{Quillen}$ as a homotopy right Kan extension of $A(a,F(-)) : C \to sSet_{Quillen}$.
 
 =--
 
