@@ -15,7 +15,7 @@ Let $f : X \to Y$ be a [[differentiable function]].
 The function $f : X \to Y$ is called an **immersion** precisely if the canonical morphism
 
 $$
-  T X \to X \times_Y T Y =: f^* T Y
+  T X \to X \times_Y T Y \eqqcolon f^* T Y
 $$
 
 is a [[monomorphism]]. 
