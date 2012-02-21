@@ -15,12 +15,53 @@
 
 ## Definition
 
-A [[differentiable map]] $f : X \to Y$ between two _finite dimensional_ [[manifold]]s is called a __submersion__ precisely if its [[differential]] $d f\colon T X \to T Y$ is for every point $x \in X$ a [[surjection]] $d f_x\colon T_x X \to T_{f(x)} Y$.
+Let $X$ and $Y$ be two [[smooth manifolds]] of finite [[dimension]] and let $f : X \to Y$ be a [[differentiable function]] between them
+
+In components, the definition of submersion reads as follows.
+
++-- {: .num_defn}
+###### Definition
+
+The function $f : X \to Y$ is called a __submersion__ precisely if its [[differential]] $d f\colon T X \to T Y$ is for every point $x \in X$ a [[surjection]] $d f_x\colon T_x X \to T_{f(x)} Y$.
+
+=--
+
+More abstractly formulated, this means equivalently the following.
+
++-- {: .num_defn}
+###### Definition
+
+
+The function  $f : X \to Y$ is a submersion precisely if the canonical morphism
+
+$$
+  T X \to X \times_Y T Y =: f^* X
+$$
+
+from the [[tangent bundle]] of $X$ to the [[pullback]] of the tangent bundle of $Y$ along $f$ is a [[surjection]].
+
+=--
+
+This morphism is the one induced by the [[universal property]] of the [[pullback]] from the [[commuting diagram]]
+
+$$
+  \array{
+    T X &\stackrel{d f}{\to}& T Y
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{f}{\to}& Y
+  }
+  \,.
+$$
+
 
 In terms of coordinates, the map $f$ is a submersion at a point $p\colon X$ if and only if there exists a [[coordinate chart]] on $X$ near $p$ and a coordinate chart on $Y$ near $f(p)$ relative to which $f$ is the projection $f(x_1,\ldots,x_n) = (x_1,\ldots,x_m)$.  This definition applies to infinite-dimensional manifolds, to non-differentiable maps, even between non-differentiable manifolds.
 
 
 ## Properties
+
+### General
 
 While the [[category]] [[Diff]] of (finite dimensional) [[smooth manifold]]s does not have all [[pullback]]s,  the [[pullback]] along a submersion always exists. This is because a submersion is [[transverse maps|transversal]] to every other smooth map into its codomain. Moreover, submersions are stable under pullback.
 
@@ -30,6 +71,13 @@ Surjective submersions form a singleton [[Grothendieck pretopology]] on [[Diff]]
 
 [[Ehresmann's theorem]] states that a [[proper morphism|proper]] submersion is a locally trivial [[fibration]].
 
+### Characterization in infinitesimal cohesion
+
+A [[smooth function]] $f : X \to Y$ between [[smooth manifolds]] is canonically regarded as a morphism in the [[cohesive (∞,1)-topos]] [[SynthDiff∞Grpd]]. With respect to the canonical [[infinitesimal cohesion|infinitesimal neighbourhood inclusion]] $i : $ [[Smooth∞Grpd]] $\hookrightarrow$ [[SynthDiff∞Grpd]] there is a notion of [[formally smooth morphism]] in $SynthDiff\infty Grpd$.
+
+$f$ is a submersion precisely if it is formally smooth with respect to this infinitesimal cohesion.
+
+See the discussion at [[SynthDiff∞Grpd]] for details.
 
 ## Variants
 
