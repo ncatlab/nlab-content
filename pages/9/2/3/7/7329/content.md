@@ -26,7 +26,7 @@ For $\mathfrak{M}_0$ a conical symplectic singularity, there is an associated [[
 The variety $\mathfrak{M}_0$ also has a finite-dimensional group of [[Hamiltonian vector field|Hamiltonian]] [[automorphisms]] commuting with the conical structure.  Let $G$ be a [[Levi complement]] of this group, $T$ a [[maximal torus]] of $G$ and $\mathbb{W}=N_G(T)/T$ its [[Weyl group]].  For all these pieces of data, let the corresponding object for the (hypothetical) dual be denoted by $(-)^!$
 
 Among the basic properties we expect of $\mathfrak{M}_0$ is 
-+-- {: .num_conj}
++-- {: .num_conjecture}
 ###### Conjecture 
 
 
@@ -51,7 +51,7 @@ Category $\mathcal{O}_{\la;\xi}$ for $\xi$ is the category of finitely generated
 
 Note that the definition of category $\mathcal{O}$ involved the choice of parameters $\lambda$ and $\xi$, and that under duality, the spaces where these parameters live switch places.
 
-+-- {: .num_conj}
++-- {: .num_conjecture}
 ###### Conjecture 
 
 There is a choice of "[[Kalb-Ramond field|b-fields]]" $b\in H, b^!\in H^!$ such that for $\lambda\in H_{\mathbb{Z}}, \lambda^!\in H_{\mathbb{Z}}^!$ generic, with $\xi,\xi^!$ the elements of $A^!$ and $A$ associated to these elements as described above,
@@ -63,7 +63,7 @@ generate equivalent triangulated subcategories of the [[triangulated category|tr
 
 ##The smooth case##
 
-+-- {: .num_conj}
++-- {: .num_conjecture}
 ###### Conjecture 
 
 The variety $\mathfrak{M}_0$ possesses a symplectic resolution of singularities $\mathfrak{M}$ if and only if $T^!$ acts on $\mathfrak{M}_0^!$ with a unique fixed point.
@@ -72,7 +72,7 @@ The variety $\mathfrak{M}_0$ possesses a symplectic resolution of singularities 
 
 Thus, if both $\mathfrak{M}_0$ and $\mathfrak{M}_0^!$ possess symplectic resolutions, they also both carry Hamiltonian torus actions with isolated fixed points.  In this case, the simple modules in category $\mathcal{O}_{\la;\xi}$ (for both $\la$ and $\xi$ generic)  are in bijection with $T$-fixed points on $\mathfrak{M}$.
 
-+-- {: .num_conj}
++-- {: .num_conjecture}
 ###### Conjecture 
 
 The categories $\mathcal{O}_{\lambda+b;\xi^!}$ and $\mathcal{O}_{\lambda^!+b^!,\xi}^!$ are both 
@@ -80,11 +80,26 @@ The categories $\mathcal{O}_{\lambda+b;\xi^!}$ and $\mathcal{O}_{\lambda^!+b^!,\
 
 =--
 
+Underlying this Koszul duality should be a bijection between fixed points.  This bijection should also appear on the level of equivariant cohomology.
+
+The map of equivariant homology $\scqup{x\in \mathfrak{M}^T} H_2^T(\{x\})\to H_2^T(\mathfrak{M})$ produces an arrangement of subspaces in $ H_2^T(\mathfrak{M})$.
+
++-- {: .num_conjecture}
+###### Conjecture 
+The vector spaces $H_2^T(\mathfrak{M})$ and $H_2^{T^!}(\mathfrak{M}^!)$ are canonically dual, with the spaces $H_2^T(\{x\})$ and $H_2^{T^!}(\{x^!\})$ mutual annihilators.
+=--
+
+In the paper 
+
+*  [[Tom Braden]], [[Anthony Licata]], [[Nicholas Proudfoot]] and [[Ben Webster]], _Localization algebras and deformations of Koszul algebras_, Selecta Mathematica  **17**, Issue 3 (2011), Page 533-572. [arXiv:arXiv:0905.1335](http://front.math.ucdavis.edu/arXiv:0905.1335)
+
+it's shown that Koszul algebras have a similar duality property when equivariant cohomology rings are replaced with the centers of certain deformations.
+
 ##Twisting and shuffling##
 
 The categories $\mathcal{O}_{\lambda;\xi}$ (for $\lambda$ generic) carry actions of topologically defined groups.  Let $V\subset \mathfrak{t}_{\mathbb{R}}$ be the subset of the Lie algebra of the compact real form of $T$ consisting of vector fields with isolated fixed points, and let $U\subset H_{\mathbb{R}}$ be the complement of the walls of all the Mori chambers of the $\mathbb{R}$-Picard group.  Then we have an action of $\pi_1(U/W,\la)$ by functors we call **twisting functors** and on $\pi_1(V/\mathbb{W},\xi)$ by  functors we call **shuffling functors**.
 
-+-- {: .num_conj}
++-- {: .num_conjecture}
 ###### Conjecture 
 
 The Koszul duality between $\mathcal{O}_{\lambda+b;\xi^!}$ and $\mathcal{O}_{\lambda^!+b^!,\xi}^!$ interchanges twisting and shuffling functors.
@@ -196,7 +211,7 @@ it is shown that
 
 These examples strongly suggest that
 
-+-- {: .num_conj}
++-- {: .num_conjecture}
 ###### Conjecture 
   If $\mathfrak{M}$ is the [[Higgs branch]] of a [[N=4 D=3 super Yang-Mills theory]], then the dual $\mathfrak{M}^!$ exists and is the [[Coulomb branch]] of the same theory (equivalently, the Higgs branch of its [[mirror symmetry|mirror]]).
 
