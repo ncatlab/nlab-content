@@ -1,8 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 Let $T\colon A\to B$ be a [[functor]] such that $A$ has a [[terminal object]] $1$.  Then $T$ can be factored as the composite
 $$ A \overset{T_1}{\to} B/T1 \overset{\Sigma_{T1}}{\to} B.$$
-We say that $T$ is a **parametric right adjoint**, or **p.r.a.**, if the functor $T_1$ has a left adjoint.
+We say that $T$ is a **parametric right adjoint**, or **p.r.a.**, if the functor $T_1$ is a [[right adjoint]].
 
 A [[monad]] is called **p.r.a.** if its functor part is p.r.a. and moreover its unit and multiplication are [[cartesian natural transformation|cartesian]].
 
