@@ -10,3 +10,6 @@
 
 * Donaldson, _The Seiberg-Witten equations and 4-manifold topology_ ([pdf](http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00625-8/S0273-0979-96-00625-8.pdf))
 
+A useful discussion of the physical origins of the Seiberg-Witten equations for mathematicians is in 
+
+* Siye Wu, _The Geometry and Physics of the Seiberg-Witten Equations_, Progress in mathematics, volume 205 (2002)
