@@ -1,8 +1,7 @@
-I'm a professor at the University of Oregon.
+Is a professor at Northeastern University.
 
-My research is on connections between [[representation theory]], geometry and topology, including Khovanov-Rozansky homology and the geometry of symplectic singularities.
-
-I'm a blogger at [Secret Blogging Seminar](http://sbseminar.wordpress.com/).  
+* [website](http://www.math.neu.edu/~bwebster/)
+* [Secret Blogging Seminar](http://sbseminar.wordpress.com/).  
 
 ##Expository posts:##
 
