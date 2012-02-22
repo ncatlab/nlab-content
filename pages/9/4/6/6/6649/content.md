@@ -57,6 +57,8 @@ The following examples are all for $V=Set$:
 
 * The class of [[finite limits]] is saturated.  It is the saturation of the finite class containing only terminal objects and [[pullbacks]], and also the saturation of the class containing only finite products and [[equalizers]].
 
+* The class of [[connected limits]] is saturated.  It is the saturation of the class consisting of [[wide pullbacks]] and equalizers.  Similarly, the class of finite connected limits is the saturation of the finite class of pullbacks and equalizers.  See also [[pullback]] and [[wide pullback]] for their saturations.
+
 There are also interesting examples for other $V$.
 
 * When $V=Cat$, the classes of [[PIE-limits]] and [[flexible limits]] are saturated.  The former is, essentially by definition, the saturation of the class containing products, [[inserters]], and [[equifiers]].  The latter can be proven to be the saturation of the class containing products, inserters, equifiers, and [[splitting of idempotents]].
