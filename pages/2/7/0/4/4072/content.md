@@ -34,13 +34,7 @@ For the analog notion in [[(∞,1)-category theory]] see [[finite (∞,1)-limit]
 +-- {: .un_prop}
 ###### Proposition
 
-A [[category]] that has all 
-
-* finite [[product]]s
-
-* [[equalizer]]s
-
-also has all finite limits.
+A [[category]] that has all finite [[product]]s and [[equalizer]]s also has all finite limits.
 
 =--
 
@@ -49,20 +43,13 @@ This is analogous to how a category with _all_ small products and equalizers has
 +-- {: .un_prop}
 ###### Proposition
 
-A [[category]] that has all 
-
-* [[pullbacks]] and a
-
-* [[terminal object]]
-
-also has all finite limits.
+A [[category]] that has all [[pullbacks]] and a [[terminal object]] also has all finite limits.
 
 =--
 
-More precisely, finite limits are the [[saturation of a class of limits|saturation]] of the class containing only finite products and equalizers, and also of the class containing only pullbacks and terminal objects.
+More precisely, finite limits are contained in the [[saturation of a class of limits|saturation]] of the class containing only finite products and equalizers, and also that of the class containing only pullbacks and terminal objects.  (The actual saturation is somewhat larger than this --- it is the class of [[L-finite limits]].)
 
 
 [[!redirects finite limits]]
-
 [[!redirects finite colimit]]
 [[!redirects finite colimits]]
