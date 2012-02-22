@@ -224,8 +224,9 @@ $$
 
 Then the left square and  the outer rectangle are pullbacks but the right square cannot be a pullback unless $i$ was already an [[isomorphism]].
 
+### Saturation
 
-
+The [[saturated class of limits|saturation]] of the class of pullbacks is the class of limits over categories $C$ whose groupoid reflection $\Pi_1(C)$ is trivial and such that $C$ is [[L-finite category|L-finite]].
 
 
 ## Related concepts
@@ -235,6 +236,11 @@ Then the left square and  the outer rectangle are pullbacks but the right square
 * [[lax pullback]], [[comma object]]
 
 * [[(∞,1)-pullback]], [[homotopy pullback]]
+
+## References
+
+* [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
+
 
 [[!redirects pullbacks]]
 [[!redirects pullback square]]
