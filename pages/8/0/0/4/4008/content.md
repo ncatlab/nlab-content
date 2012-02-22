@@ -18,48 +18,79 @@
 
 A **connected limit** is a [[limit]] over a [[connected category]]. Similarly, a **connected colimit** is a colimit over a connected category. 
 
+## Examples
 
-## Connection with wide pullbacks
+The following are all connected limits:
 
-A basic example of a connected limit is a [[wide pullback]], where the limit is taken over a [[diagram]] whose underlying shape is the [[poset]] obtained by [[free functor|freely]] adjoining a [[top element|terminal element]] to a [[set|discrete poset]]. 
+* [[pullbacks]]
 
-+-- {: .num_lemma}
-######Lemma 
-A [[category]] $C$ with all [[wide pullbacks]] and a [[terminal object]] $1$ is [[complete category|complete]]. If $C$ is complete and $F: C \to D$ preserves wide pullbacks and the terminal object, then it preserves all limits. 
-=-- 
+* [[wide pullbacks]]
 
+* [[equalizers]]
+
+* [[cofiltered limits]]
+
+* [[split idempotents]]
+
+## Properties
+
+### Construction from pullbacks and equalizers
+
++-- {: .num_theorem #PbEqToFinConnLim}
+###### Theorem
+If a category $C$ has [[pullbacks]] and [[equalizers]], then it has all [[finite limit|finite]] connected limits.
+=--
 +-- {: .proof}
-######Proof 
-To build up arbitrary products $\prod_{i \in I} c_i$ in $C$, take the wide pullback of the family $c_i \to 1$. Then to build equalizers of diagrams $f, g: c \stackrel{\to}{\to} d$, construct the pullback of the diagram 
-$$\array{
- & & d \\
- & & \downarrow \delta \\
-c & \underset{\langle f, g \rangle}{\to} & d \times d
-}$$ 
-From products and equalizers, we can get arbitrary limits. 
+###### Proof
+Let $I$ be a finite connected category and $F\colon I\to C$ a functor.  Since $I$ is connected, it is inhabited; choose some object $x_0\in I$.  For each object $x\in I$, let $\ell(x)$ be the length of the shortest [[zigzag]] from $x_0$ to $x$.  Now order the objects of $I$ as $x_0, x_1, \dots, x_n$ such that for all $i$ we have $\ell(x_i) \le \ell(x_{i+i})$.
+
+Now we inductively define objects $P_i\in C$, for $0\le i\le n$, with projections $p_{i j}\colon P_i \to F(x_j)$ for $j\le i$.  We begin with $P_0 = x_0$ and $p_{0 0}= 1_{x_0}$.  Assuming $P_i$ and $p_{i j}$ defined, choose a zigzag from $x_0$ to $x_{i+1}$ of minimal length, say
+$$ x_0 \leftrightarrow y_1 \leftrightarrow \dots \leftrightarrow y_k \leftrightarrow x_{i+1}. $$
+By our choice of the ordering of the objects of $I$, we have $y_k = x_j$ for some $j\le i$, and thus we have $q = p_{i j}\colon P_i \to y_k$.
+
+If the final arrow $y_k \leftrightarrow x_{i+1}$ in the zigzag is directed as $y_k \to x_{i+1}$, then let $P_{i+1} = P_i$, let $p_{i+1, i+1}$ be the composite $P_i \xrightarrow{q} F(y_k) \to F(x_{i+1})$, and keep the other $p_{i j}$ unchanged.  On the other hand, if $y_k \leftrightarrow x_{i+1}$ is directed as $y_k \leftarrow x_{i+1}$, let $P_{i+1}$ be the pullback
+$$ \array{
+& P_{i+1} & \to & P_i \\
+^{p_{i+1,i+1}} & \downarrow & & \downarrow^q \\
+& F(x_{i+1}) & \to & F(y_k)
+}$$
+and define $p_{i+1,j}$ for $j\le i$ by composition with $P_{i+1}\to P_i$.
+
+At the end of this procedure, we have an object $P_n$ with projections $p_{n,j}\colon P_n \to F(x_j)$ for all objects $x_j\in I$.  Now we order the morphisms in $I$ as $g_0,\dots,g_m$ and define, inductively, an object $Q_i$ with a morphism $q_i\colon Q_i \to P_n$.  We begin with $Q_0 = P_n$ and $q_0 = 1_{P_n}$.  Given $Q_i$ and $q_i$, we let $e\colon Q_{i+1} \to Q_{i}$ be the equalizer of $F(g_{i+1}) \circ p_{n,?} \circ q_i$ and $p_{n,?} \circ q_i$, where the ?s denote the indices of the objects that are the source and target of $g_{i+1}$.  We then set $q_{i+1} = q_i \circ e$.
+
+At the end of this procedure, we have an object $Q_{m+1}$ together with a cone over the diagram $F$, which is easily verified to be a limit of $F$.
 =--
 
-+-- {: .num_theorem}
-######Theorem
-Let $C$ be a complete category, and let $D$ be [[locally small category|locally small]]. Then a functor $G: C \to D$ preserves connected limits if and only if it preserves wide pullbacks. 
+Similarly, arbitrary connected limits may be built from [[wide pullbacks]] and equalizers.
+
+
+### Preservation from wide pullbacks
+
+Recall that a [[wide pullback]] is a limit over a [[diagram]] whose underlying shape is the [[poset]] obtained by [[free functor|freely]] adjoining a [[top element|terminal element]] to a [[set|discrete poset]], which is certainly connected.
+
+It is not true that if $C$ has wide pullbacks then it has connected limits.  The [[saturated class of limits|saturation]] of the class of wide pullbacks is the class of connected and "simply connected" limits (limits over categories $C$ whose groupoid reflection $\Pi_1(C)$ is trivial).
+
+However, the following is true.
+
++-- {: .num_theorem #PreservesWidePbToConnected}
+###### Theorem
+Let $C$ be a complete category, and let $D$ be [[locally small category|locally small]]. Then a functor $G\colon C \to D$ preserves connected limits if and only if it preserves wide pullbacks. 
 =-- 
 
 +-- {: .proof}
-######Proof
-The forward direction is clear since wide pullbacks are examples of connected limits. Now suppose $G: C \to D$ preserves wide pullbacks. Then 
-$$C \stackrel{G}{\to} D \stackrel{hom(d, -)}{\to} Set \qquad (1)$$ 
+###### Proof
+The forward direction is clear since wide pullbacks are examples of connected limits. Now suppose $G\colon C \to D$ preserves wide pullbacks. Then 
+\[C \stackrel{G}{\to} D \stackrel{hom(d, -)}{\to} Set \label{Gwithhom}  \]
 preserves wide pullbacks for every object $d$ of $D$. Put $I = hom(d, G 1)$. Then the underlying functor 
-$$\sum: Set/I \to Set$$ 
+$$\sum\colon Set/I \to Set$$ 
 reflects and preserves connected limits and in particular wide pullbacks, so that the evident lift 
-$$\hom(d, G-): C \to Set/I$$ 
-preserves wide pullbacks. It also preserves the terminal object, hence by the lemma it preserves arbitrary limits. Therefore the composite 
+$$\hom(d, G-)\colon C \to Set/I$$ 
+preserves wide pullbacks. It also preserves the terminal object, hence by [this proposition](/nlab/show/wide+pullback#WidePbToComplete) it preserves arbitrary limits. Therefore the composite 
 $$C \stackrel{\hom(d, G-)}{\to} Set/I \stackrel{\sum}{\to} Set$$ 
-preserves connected limits, for every object $d$. Since this is the same composite as in (1), and since the representables $\hom(d, -)$ jointly reflect arbitrary limits, we conclude that $G$ preserves connected limits. 
+preserves connected limits, for every object $d$. Since this is the same composite as in \eqref{Gwithhom}, and since the representables $\hom(d, -)$ jointly reflect arbitrary limits, we conclude that $G$ preserves connected limits. 
 =-- 
 
-In particular, for $C$ complete, a functor $G: C \to D$ that preserves wide pullbacks also preserves [[equalizers]].
-
-It is not true, however, that if $C$ has wide pullbacks then it has connected limits.  The [[saturated class of limits|saturation]] of the class of wide pullbacks is the class of connected and "simply connected" limits (limits over categories $C$ whose groupoid reflection $\Pi_1(C)$ is trivial).
+In particular, for $C$ complete, a functor $G\colon C \to D$ that preserves wide pullbacks also preserves [[equalizers]].
 
 
 ## Related pages
