@@ -1,5 +1,5 @@
-# $L$-finite categories
 
+# $L$-finite categories
 * table of contents
 {: toc}
 
@@ -12,6 +12,7 @@ A [[category]] $C$ is **$L$-finite** if the following equivalent conditions hold
 * $C$ has an [[initial functor|initial]] [[finitely generated category|finitely generated]] [[subcategory]].
 * $C$ admits an [[initial functor]] from a [[finite category]].
 
+
 ## Remarks
 
 The notion of L-finite category is a sort of [[vertical categorification|categorification]] of the notion of [[K-finite set]]:
@@ -20,8 +21,11 @@ The notion of L-finite category is a sort of [[vertical categorification|categor
 
 * A category $C$ is $L$-finite if the terminal object $1\in Set^C$ belongs to the closure of the representables under finite colimits.
 
+
 ## References
 
 * [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
 
+
+[[!redirects L-finite category]]
 [[!redirects L-finite categories]]
