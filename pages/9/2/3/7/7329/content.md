@@ -40,12 +40,12 @@ $\mathfrak{t}\cong H^!$ and $\mathfrak{t}^!\cong H$, inducing isomorphisms $HP^2
 
 Every conical symplectic singularity has a canonical [[deformation quantization]]: a family $A$ of filtered non-commutative algebras over $HP^2( \mathfrak{M}_0)$, each of whose [[associated graded]] is isomorphic to the [[coordinate ring]] $\mathbb{C}[\mathfrak{M}_0]$.  One of the most interesting manifestations of the (hypothetical) duality is the effect it seems to have on the representation theory of these algebras.
 
-Using the isomorphisms above, the choice of a quantization parameter $\lambda$ for $\mathfrak{M}_0$ thus corresponds to a $G^!$-conjugacy class of an element of $\mathfrak{g}^!$, which we can think of as a Hamiltonian vector field on $\mathfrak{M}_0^!$.  There is an element $\xi\in A_\lambda$ which corresponds to the [[Hamiltonian]] of this vector field under associated graded, and thus whose inner action on $A_\la$ is a lift of that of the vector field on functions on $\mathfrak{M}_0$.  
+Using the isomorphisms above, the choice of a quantization parameter $\lambda$ for $\mathfrak{M}_0$ thus corresponds to a $G^!$-conjugacy class of an element of $\mathfrak{g}^!$, which we can think of as a Hamiltonian vector field on $\mathfrak{M}_0^!$.  There is an element $\xi\in A_\lambda$ which corresponds to the [[Hamiltonian]] of this vector field under associated graded, and thus whose inner action on $A_\lambda$ is a lift of that of the vector field on functions on $\mathfrak{M}_0$.  
 
 +-- {: .num_defn}
 ###### Definition 
 
-Category $\mathcal{O}_{\la;\xi}$ for $\xi$ is the category of finitely generated $A_\lambda$-modules where $\xi$ acts locally finitely with generalized eigenvalues whose real parts bounded above.  
+Category $\mathcal{O}_{\lambda;\xi}$ for $\xi$ is the category of finitely generated $A_\lambda$-modules where $\xi$ acts locally finitely with generalized eigenvalues whose real parts bounded above.  
 
 =--
 
@@ -70,7 +70,7 @@ The variety $\mathfrak{M}_0$ possesses a symplectic resolution of singularities 
 
 =--
 
-Thus, if both $\mathfrak{M}_0$ and $\mathfrak{M}_0^!$ possess symplectic resolutions, they also both carry Hamiltonian torus actions with isolated fixed points.  In this case, the simple modules in category $\mathcal{O}_{\la;\xi}$ (for both $\la$ and $\xi$ generic)  are in bijection with $T$-fixed points on $\mathfrak{M}$.
+Thus, if both $\mathfrak{M}_0$ and $\mathfrak{M}_0^!$ possess symplectic resolutions, they also both carry Hamiltonian torus actions with isolated fixed points.  In this case, the simple modules in category $\mathcal{O}_{\lambda;\xi}$ (for both $\lambda$ and $\xi$ generic)  are in bijection with $T$-fixed points on $\mathfrak{M}$.
 
 +-- {: .num_conjecture}
 ###### Conjecture 
@@ -97,7 +97,7 @@ it's shown that Koszul algebras have a similar duality property when equivariant
 
 ##Twisting and shuffling##
 
-The categories $\mathcal{O}_{\lambda;\xi}$ (for $\lambda$ generic) carry actions of topologically defined groups.  Let $V\subset \mathfrak{t}_{\mathbb{R}}$ be the subset of the Lie algebra of the compact real form of $T$ consisting of vector fields with isolated fixed points, and let $U\subset H_{\mathbb{R}}$ be the complement of the walls of all the Mori chambers of the $\mathbb{R}$-Picard group.  Then we have an action of $\pi_1(U/W,\la)$ by functors we call **twisting functors** and on $\pi_1(V/\mathbb{W},\xi)$ by  functors we call **shuffling functors**.
+The categories $\mathcal{O}_{\lambda;\xi}$ (for $\lambda$ generic) carry actions of topologically defined groups.  Let $V\subset \mathfrak{t}_{\mathbb{R}}$ be the subset of the Lie algebra of the compact real form of $T$ consisting of vector fields with isolated fixed points, and let $U\subset H_{\mathbb{R}}$ be the complement of the walls of all the Mori chambers of the $\mathbb{R}$-Picard group.  Then we have an action of $\pi_1(U/W,\lambda)$ by functors we call **twisting functors** and on $\pi_1(V/\mathbb{W},\xi)$ by  functors we call **shuffling functors**.
 
 +-- {: .num_conjecture}
 ###### Conjecture 
@@ -107,6 +107,7 @@ The Koszul duality between $\mathcal{O}_{\lambda+b;\xi^!}$ and $\mathcal{O}_{\la
 =--
 
 ##Examples##
+
 
 All conjectured properties are proven for the following examples:
 
@@ -140,7 +141,7 @@ and the duality between twisting and shuffling in
   duals, Koszul dual functors, and applications_, Trans. Amer. Math. Soc.
   **361** (2009), no. 3, 1129-1172.
 
-More generally, given partitions $\la$ and $\mu$, there is a symplectic variety called an **S3-variety** $\mathfrak{X}^\nu_\mu$ which is the preimage in the cotangent bundle of the space of flags of type $\nu$ of the Slodowy slice to the nilpotent orbit with Jordan type $\mu$.  The algebra quantizing this variety is a primitive quotient of the W-algebra for the orbit of Jordan type $\mu$.  In 
+More generally, given partitions $\nu$ and $\mu$, there is a symplectic variety called an **S3-variety** $\mathfrak{X}^\nu_\mu$ which is the preimage in the cotangent bundle of the space of flags of type $\nu$ of the Slodowy slice to the nilpotent orbit with Jordan type $\mu$.  The algebra quantizing this variety is a primitive quotient of the W-algebra for the orbit of Jordan type $\mu$.  In 
 
 * [[Ben Webster]], _Singular blocks of parabolic category $\mathcal{O}$ and
   finite W-algebras_, Journal of Pure and Applied Algebra
@@ -164,13 +165,8 @@ Heuristic considerations suggest that the dual variety to a quiver variety in fi
 ##Connections to physics## 
 
 
-In this final section, we deal
-with a topic which is particularly speculative: the relationship of
-these constructions to [[physics]].  While we are not experts on the
-constructions occuring in the physics literature which seem to overlap
-with some of those given in this paper, enough tantalizing hints of
-connections have appeared that we could not in good conscience exclude
-them from this paper.
+This topicis particularly speculative: the relationship of
+these constructions to [[physics]].  
 
 The physical theories which concern us are certain 
 [[gauge theories]] in 3
