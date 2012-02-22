@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -57,18 +57,18 @@ $$
 along any morphism $U \to X$, where $U$ is [[representable presheaf|representable]], is a local isomorphism.
 
 
-#Relation to Grothendieck topologies#
+## Relation to Grothendieck topologies
 
 Systems of local isomorphisms on $PSh(S)$ are equivalent to [[Grothendieck topology|Grothendieck topologies]] on $S$.
 
 The following indicates how choices of systems of local isomorphisms are equivalent to choices of systems of [[local epimorphisms]]. The claim follows by the discussion at [[local epimorphism]].
 
-## Local epimorphisms from local isomorphisms ##
+### Local epimorphisms from local isomorphisms 
 
 A system of [[local epimorphisms]] is defined from a system of local isomorphisms by declaring that $f : Y \to X$ is a [[local epimorphism]] precisely if $im(f) \to X$ is a local isomorphism.
  
 
-## Local isomorphisms from local epimorphisms ##
+### Local isomorphisms from local epimorphisms 
 
 Given a [[Grothendieck topology]] in terms of a system of [[local epimorphisms]], a system of local isomorphisms is constructed as follows.
 
@@ -76,7 +76,7 @@ A **local monomorphism** with respect to this topology is a morphism $f : A \to 
 
 A **local isomorphism** with respect to a Grothendieck topology is a morphism in $[S^{op}, Set]$ that is both a [[local epimorphism]] as well as a local monomorphism in the above sense.
 
-#Relation to Lawvere-Tierney topologies#
+## Relation to Lawvere-Tierney topologies
 
 Recall that [[Grothendieck topology|Grothendieck topologies]] on a [[small category]] $S$ are in bijection with [[Lawvere-Tierney topology|Lawvere-Tierney-topologies]] on $PSh(S)$ and that [[sheafification]] with respect to a [[Lawvere-Tierney topology]] is encoded in terms of monomorphisms in $PSh(S)$ which are _[[dense monomorphism|dense]]_ with respect to the [[Lawvere-Tierney topology]].
 
@@ -86,19 +86,19 @@ the [[dense monomorphisms]] are precisely the local isomorphisms which are also 
 
 
 
-#Properties#
+## Properties
 
 * Local isomorphisms admit a left saturated [[calculus of fractions]].
 
 
-# Sheafification #
+### Sheafification 
 
 The [[sheafification]] functor which sends a [[presheaf]] $F$ to its weakly 
 equivalent [[sheaf]] $\bar F$ can be realized using a [[colimit]] over local
 isomorphisms. See there.
 
 
-#Characterization and relation to sieves#
+### Characterization and relation to sieves
 
 Often one concentrates on the local isomorphisms whose codomain is a [[representable functor|representable presheaf]], i.e. those of the form
 
@@ -182,7 +182,8 @@ $$
 is a limit over isomorphisms, hence an isomorphism.
 =--
 
-#References#
+
+## References
 
 This is in section 16.2 of
 
