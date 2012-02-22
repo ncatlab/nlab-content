@@ -66,4 +66,8 @@ A [[smooth function]] is a [[formally étale morphism]] in this sense precisely 
 
 See <a href="http://nlab.mathforge.org/nlab/show/synthetic+differential+infinity-groupoid#StructureSheaves">this section</a> for more details.
 
+## Related concepts
+
+* [[immersion of smooth manifolds|immersion]], [[submersion]]
+
 [[!redirects local diffeomorphisms]]
