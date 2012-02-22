@@ -63,7 +63,7 @@ Since simplicial sets that are [[Kan complex]]es are an incarnation of [[∞-gro
 
 Treating simplicial categories this way as models for $(\infty,1)$-categories is one of the central tools in [[homotopy coherent category theory]].
 
-Indeed, there is a [[model structure on simplicial categories]] whose fibrant objects are Kan-complex enriched categories, and which is one model for the [[(∞,1)-category of (∞,1)-categories]].
+Indeed, there is a [[model structure on simplicial categories]] whose fibrant objects are [[Kan complex|Kan-complex]]-enriched categories, and which is one model for the [[(∞,1)-category of (∞,1)-categories]].
 
 By a web of [[Quillen equivalence]]s this is related to the other incarnations of $(\infty,1)$-categories. Notably to [[quasi-categories]] and [[complete Segal space]]s. For more on this see
 
@@ -85,7 +85,7 @@ There is a [[model structure on sSet-categories]] that presents the [[(∞,1)-ca
 
 #### Homotopy Kan extension
 
-The notion of [[homotopy Kan extension]] and hence in particular that of [[homotopy limit]] and [[homotopy colimit]] has a direct formulation in terms of [[Kan-complex]] enriched categories.  See [[homotopy Kan extension]] for more..
+The notion of [[homotopy Kan extension]] and hence in particular that of [[homotopy limit]] and [[homotopy colimit]] has a direct formulation in terms of [[Kan complex|Kan-complex]]-enriched categories.  See [[homotopy Kan extension]] for more..
 
 #### Presentation of $(\infty,1)$-topos theory
 
