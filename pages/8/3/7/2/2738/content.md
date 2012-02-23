@@ -613,8 +613,34 @@ For more on this see _[[model structure on dendroidal sets]]_.
 
 =--
 
-### Normal morphisms and normal dendroidal sets
 
+### Skeletal filtration
+  {#SkeletalFiltration}
+
++-- {: .num_defn #SkeletalFiltration}
+###### Definition
+
+For $X \in dSet$ a dendroidal set and $n \in \mathbb{N}$, write
+$Sk_n(X) \in dSet$ for the dendroidal set which is generated from the 
+non-degenerate $T$-dendrices for ${\vert T\vert} \leq n$.
+
+The sequence of inclusions
+
+$$
+  Sk_0(X) \hookrightarrow Sk_1(X) \hookrightarrow Sk_2(X) \hookrightarrow
+  \cdots \hookrightarrow X
+$$
+
+is called the **skeletal filtration** of $X$.
+
+=--
+
+
+
+### Normal monomorphisms and normal dendroidal sets
+ {#NormalMonomorphisms}
+
+While the theories of [[simplicial sets]] and dendroidal sets proceed very much in parallel, one difference is that for dendroidal sets among all [[monomorphisms]] spme play a special role, called the _normal monomorphism_. 
 
 +-- {: .num_lemma }
 ###### Lemma (face maps are the monomorphisms)
@@ -667,29 +693,93 @@ $$
   \,.
 $$
 
-+-- {: .num_defn}
++-- {: .num_defn #NormalMorphism}
 ###### Definition
 
-A [[monomorphism]] $X \to Y$ of dendroidal sets is called **normal** if for any tree $T$, any non-degenerate dendrex $y \in Y(T)$ which does not belong to the image of $X(T)$ has a trivial stabilizer $Aut(T)_y \subset Aut(T)$. 
+A [[monomorphism]] $X \to Y$ of dendroidal sets is called **normal** if for any tree $T$, any non-degenerate dendrex $y \in Y(T)$ which does not belong to the image of $X(T)$ has a trivial [[stabilizer subgroup]] $Aut(T)_y \subset Aut(T)$ of the [[automorphism group]] of $T$.
 
-A dendroidal set $X$ is **normal** if $\emptyset \hookrightarrow X$ is a normal monomorphism. 
+A dendroidal set $X$ is called **normal** if $\emptyset \hookrightarrow X$ is a normal monomorphism. 
 
 =--
-
-For instance for any tree $T$, the dendroidal set $\Omega[T]$ is normal.
 
 +-- {: .num_remark}
 ###### Remark 
 
-This has nothing to do with the notion of [[normal monomorphism]] in a context with [[zero morphisms]].  
+This is unrelated to the notion of _[[normal monomorphism]]_ in a context with [[zero morphisms]].  
 
 =--
+
+Here are some equivalent characterizations of normality.
+
++-- {: .num_prop}
+###### Proposition
+
+A dendroidal set $X$ is normal precisely if 
+for every $n \in \mathbb{N}$ the canonical [[commuting diagram]]
+
+$$
+  \array{
+    \coprod_{\Omega[T] \stackrel{nd}{\to} X} \partial \Omega[T]
+    &\to&
+    Sk_n(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    \coprod_{\Omega[T] \stackrel{nd}{\to} X} \Omega[T]
+    &\to&
+    Sk_{n+1}(X)    
+  }
+$$
+
+is a [[pushout]] diagram, where $\{Sk_n(X)\}$ is the skeletal filtration, def. \ref{SkeletalFiltration} and where the coproduct is over non-degenerate dendrices.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+A monomorphism $f : X \to Y$ in $dSet$ is normal precisely if for every $T \in \Omega$ the [[action]] of the [[automorphism group]] $Aut(T)$ on $Y(T)-X(T)$ is a [[free action]].
+
+Accordingly, a dendroidal set $Y$ is normal precisely if for every $T \in \Omega$ the action of $Aut(T)$ on $Y(T)$ is [[free action|free]].
+
+=--
+
+This is  ([CisMoer09, prop 1.5](#CisMoer09)).
+
++-- {: .num_cor}
+###### Corollary
+
+For $f : X \to Y$ any morphism between dendroidal sets, then
+
+* if $Y$ is normal, then $X$ is normal;
+
+* if $Y$ is normal and $f$ is [[monomorphism|monic]], then $f$ is normal.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+* For every tree $T$, the dendroidal set $\Omega[T]$ is normal.
+
+* For every [[simplicial set]], the dendroidal set $i_!(X)$ is normal.
+
+=--
+
 
 
 +-- {: .num_prop}
 ###### Proposition
 
-The class of morphisms in $dSet$ generated from the boundary inclusions under [[pushout]] and [[transfinite composition]] is precisely the class of **normal monomorphisms**.
+The class of normal morphisms in $dSet$ is generated from the boundary inclusions under 
+
+* [[pushouts]];
+
+* [[transfinite compositions]];
+
+* [[retracts]].
+
+In particular it is closed under these operations.
 
 =--
 
@@ -731,6 +821,24 @@ of this functor, hence the unique such functor which preserves [[colimits]] in b
 =--
 
 With respect to this tensor product is $dSet$ a [[closed monoidal category]]. This is discussed [below](#ClosedMonoidalStructure).
+
++-- {: .num_prop}
+###### Proposition
+
+For $A \to B$ and $X \to Y$ in $dSet$ two normal monomorphisms, def. \ref{NormalMorphism}, 
+the canonical morphism out of their [[pushout-product axiom|pushout product]]
+
+$$
+  (A \otimes Y) \coprod_{A \otimes X} (B \otimes X)
+  \to
+  B \otimes Y
+$$
+
+is also normal.
+
+=--
+
+This is ([CisMoer09, prop 1.9](#CisMoer09)).
 
 
 ## Properties
