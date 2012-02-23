@@ -70,29 +70,29 @@ Perturbation theory in the context of [[AQFT]] is discussed in the following art
 
 The observation that in [[perturbation theory]] the [[renormalization|Stückelberg-Bogoliubov-Epstein-Glaser]] local [[S-matrix|S-matrices]] yield a [[local net of observables]] was first made in 
 
-* V. Il'in, D. Slavnov, _Observable algebras in the S-matrix approach_ Theor. Math. Phys. **36** , 32 (1978)
+* V. Il'in, D. Slavnov, _Observable algebras in the S-matrix approach_ Theor. Math. Phys. **36** , 32 (1978) 578-585
 
 which was however mostly ignored and forgotten. It is taken up again in
 
-* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_  Commun.Math.Phys.208:623-661 (2000) ([arXiv](http://arxiv.org/abs/math-ph/9903028))
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_  Commun. Math. Phys. 208:623-661 (2000) ([arXiv:math-ph/9903028](http://arxiv.org/abs/math-ph/9903028))
 
 (a quick survey is in section 8, details are in section 2).
 
 Further developments along these lines are then
 
-* [[Michael Dütsch]], [[Klaus Fredenhagen]], _Algebraic quantum field theory, perturbation theory, and the loop expansion_
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _Algebraic quantum field theory, perturbation theory, and the loop expansion_,
 Commun. Math. Phys. 219:5-30 (2001) ([arXiv:hep-th/0001129](http://xxx.uni-augsburg.de/abs/hep-th/0001129))
 
-* [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_,
 Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/ps/hep-th/0101079)) 
 
 (relation to [[deformation quantization]])
 
-* [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
+* [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
 
 (relation to [[renormalization]])
 
-* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of qed_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/ps/hep-th/9807078)). 
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of qed_, Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/ps/hep-th/9807078)). 
 
 (relation to [[gauge theory]] and [[QED]])
 
