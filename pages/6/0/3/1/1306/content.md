@@ -23,7 +23,7 @@
 
 ## Idea
 
-The notion of Reedy category, though useful, is in some contexts inconveniently restrictive, since no Reedy category can contain any nonidentity isomorphisms.  This is problematic for many "shape categories" such as Connes' [[category of cycles]] $\Lambda$, Segal's category $\Gamma$, the [[tree category]] $\Omega$, and so on.  The notion of *generalized Reedy category* lifts this restriction, while maintaining the truth of the main theorem about Reedy categories: the existence of the [[Reedy model structure]].
+The notion of Reedy category, though useful, is in some contexts inconveniently restrictive, since no Reedy category can contain any nonidentity isomorphisms.  This is problematic for many "shape categories" such as Connes' [[category of cycles]] $\Lambda$, [[Segal's category Gamma|Segal's category]] $\Gamma$, the [[tree category]] $\Omega$, and so on.  The notion of *generalized Reedy category* lifts this restriction, while maintaining the truth of the main theorem about Reedy categories: the existence of the [[Reedy model structure]].
 
 ## Definition
 
