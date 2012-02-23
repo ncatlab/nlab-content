@@ -40,6 +40,8 @@ A category $C$ has **enough projectives** if for every object $X$ there is an ep
 
 **Remarks**
 
+* Projective object generalizes the notion of [[projective module]] over a ring.
+
 * The [[duality|dual]] notion is [[injective object]]. 
 
 * There are variations of the definition where "epimorphism" is replaced by some other type of morphism, such as a [[regular epimorphism]] or [[strong epimorphism]] or the left class in some [[orthogonal factorization system]].  In this case one may speak of **regular projectives** and so on.  In a [[regular category]] "projective" almost always means "regular projective."
