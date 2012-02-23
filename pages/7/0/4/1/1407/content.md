@@ -92,47 +92,89 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 ## Subtopics
 
-* **string theory**
 
-  * [[sigma model]], [[string]], [[CFT]]
+### Ingredients
 
-  * [[string]], [[spinning string]], [[superstring]]
+* [[quantum field theory]]
 
-    * [[heterotic string theory]]
+* [[sigma-model]], 
 
-      * [[Green-Schwarz mechanism]]
+  * [[CFT]], [[perturbation theory]]
 
-      * [[dual heterotic string theory]]
+* [[effective QFT|effective background QFT]]
 
-    * [[type II string theory]]
+  * [[gravity]], [[supergravity]], [[Yang-Mills theory]], [[quantum gravity]]
 
-      * [[Freed-Witten anomaly cancellation]]
+### Critical string models
 
-* [[background gauge field]]s
+* [[heterotic string theory]]
 
-  * [[gravity]], [[Kalb-Ramond field]], [[dilaton field]]
+  * [[Green-Schwarz mechanism]], [[differential string structure]],
 
-  * [[Yang-Mills field]]
+  * [[dual heterotic string theory]]
 
-  * [[RR-field]]
+    * [[differential fivebrane structure]]
 
-* [[landscape of string theory vacua]]
+* [[type II string theory]]
 
 * [[string field theory]]
+
+* [[duality in string theory]]
+
+  * [[T-duality]], [[mirror symmetry]]
+
+  * [[S-duality]], [[electric-magnetic duality]]
+
+  * [[U-duality]]
 
 * [[11-dimensional supergravity]]
 
   * [[Hořava-Witten theory]]
 
+### Extended objects
+
 * [[brane]]
 
-  * [[string]]
+* **[[D-brane]]**
 
-  * [[D-brane]]
+  * [[D0-brane]], [[D2-brane]], [[D4-brane]]
+
+  * [[D1-brane]], [[D3-brane]], [[D5-brane]]
+
+  * [[RR-field]], [[differential K-theory]]
+
+* **[[NS-brane]]**
+
+  * [[string]], [[sigma-model]]
+
+    * [[spinning string]], [[superstring]]
+
+    * [[B2-field]]
 
   * [[NS5-brane]]
 
-  * [[M2-brane]], [[M5-brane]]
+    * [[B6-field]]
+
+* **[[M-brane]]**
+
+  * [[M2-brane]]
+
+    * [[C3-field]]
+
+    * [[ABJM theory]], [[BLG model]]
+
+  * [[M5-brane]]
+
+    * [[C6-field]]
+
+    * [[6d (2,0)-supersymmetric QFT]]
+
+
+### Topological strings
+
+* [[A-model]], [[B-model]]
+
+
 
 [[!include table of branes]]
 
@@ -169,11 +211,20 @@ String theory leads a life somewhere in between the usual physics literature and
 
 * [[string field theory]]
 
+* [[duality in string theory]]
+
 * [[T-duality]]
 
-  * [[topological T-duality]]
+  * [[topological T-duality]], [[differential T-duality]]
 
   * [[generalized complex geometry]]
+
+  * [[mirror symmetry]]
+
+* [[S-duality]], [[electric-magnetic duality]]
+
+* [[U-duality]]
+
 
 * [[quantum anomaly]] canellation [[Green-Schwarz mechanism]] 
 
