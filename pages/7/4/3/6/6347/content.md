@@ -47,7 +47,9 @@ For the open [[type II string]] the condition is known as the [[Freed-Witten ano
 
 A more detailed analysis of these type II anomalies is in ([DFMI](#DFMI)) and ([DFMII](#DFMII)).
 
+### F-theory description
 
+See _[[F-theory]]_.
 
 
 ### Holographic dual
