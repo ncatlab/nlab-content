@@ -54,15 +54,15 @@ Both [[AQFT]] and [[FQFT]] involve the language of [[category theory]] and  [[hi
 
 * [[John Roberts]] first conceived the idea of $\infty$-categorical [[nonabelian cohomology]] in the context of [[AQFT]].
 
-* the description of 2-dimensional [[CFT]] and 3-dimentional [[TFT]] in terms of [[modular tensor categories]] provides a major application of the theory of [[monoidal categories]];
+* the description of 2-dimensional [[CFT]] and 3-dimensional [[TFT]] in terms of [[modular tensor categories]] provides a major application of the theory of [[monoidal categories]];
 
-* the notion of the [[(∞,n)-category of cobordisms]], which is thought to play a role analogous to and as fundamental as the [[sphere spectrum]] was motivated from [[FQFT]];
+* the notion of the [[(∞,n)-category of cobordisms]], which is thought to play a role analogous to, and as fundamental as, that of the [[sphere spectrum]] was motivated from [[FQFT]];
 
 * In early 1990s [[A-∞ categories]] first appeared in works of [[Maxim Kontsevich|Kontsevich]] and Fukaya on the categorical description of twisted [[sigma model]]s what is then used in the formulation of [[homological mirror symmetry]].
 
-* the [[cobordism hypothesis]] was formulated by [[John Baez]] and [[Jim Dolan] in the context of extended [[topological quantum field theory|topological]] [[FQFT]].
+* the [[cobordism hypothesis]] was formulated by [[John Baez]] and [[Jim Dolan]] in the context of extended [[topological quantum field theory|topological]] [[FQFT]].
 
-* various structures involving [[(∞,1)-operad]]s, such as [[topological chiral homology]] and [[blob homology]] are motivated by and find their application in the algebraic description of quantum field theory;
+* various structures involving [[(∞,1)-operad]]s, such as [[topological chiral homology]] and [[blob homology]] are motivated by, and find their application in, the algebraic description of quantum field theory;
 
 * the description of higher background [[gauge field]]s very much motivated the development and study of [[differential cohomology]], which like all notions of [[cohomology]] is intrinsically about [[(∞,1)-topos]] theory.
 
@@ -117,7 +117,7 @@ See also
 * [[Albert Schwarz]], Quantum field theory and topology, Grundlehren der Math. Wissen. __307__, Springer 1993.  
 
 
-* [[Graeme Segal]}, _[[Three Roles of Quantum Field Theory]]_ , Felix Klein lectures, Bonn (2011)
+* [[Graeme Segal]], _[[Three Roles of Quantum Field Theory]]_ , Felix Klein lectures, Bonn (2011)
 
 For further references see [[FQFT]] and [[AQFT]].
 
