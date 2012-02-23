@@ -721,19 +721,19 @@ for every $n \in \mathbb{N}$ the canonical [[commuting diagram]]
 
 $$
   \array{
-    \coprod_{\Omega[T] \stackrel{nd}{\to} X} \partial \Omega[T]
+    \coprod_{[\Omega[T] \stackrel{nd}{\to} X]} \partial \Omega[T]
     &\to&
     Sk_n(X)
     \\
     \downarrow && \downarrow
     \\
-    \coprod_{\Omega[T] \stackrel{nd}{\to} X} \Omega[T]
+    \coprod_{[\Omega[T] \stackrel{nd}{\to} X]} \Omega[T]
     &\to&
     Sk_{n+1}(X)    
   }
 $$
 
-is a [[pushout]] diagram, where $\{Sk_n(X)\}$ is the skeletal filtration, def. \ref{SkeletalFiltration} and where the coproduct is over non-degenerate dendrices.
+is a [[pushout]] diagram, where $\{Sk_n(X)\}$ is the skeletal filtration, def. \ref{SkeletalFiltration} and where the coproduct is over [[isomorphism classes]] of non-degenerate dendrices.
 
 =--
 
