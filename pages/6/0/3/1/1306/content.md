@@ -25,11 +25,13 @@
 
 The notion of Reedy category, though useful, is in some contexts inconveniently restrictive, since no Reedy category can contain any nonidentity isomorphisms.  This is problematic for many "shape categories" such as Connes' [[category of cycles]] $\Lambda$, [[Segal's category Gamma|Segal's category]] $\Gamma$, the [[tree category]] $\Omega$, and so on.  The notion of *generalized Reedy category* lifts this restriction, while maintaining the truth of the main theorem about Reedy categories: the existence of the [[Reedy model structure]].
 
-## Definition
+In fact, there are two notions of generalized Reedy category in the literature, one due to Cisinski and one to Berger--Moerdijk.  They share many properties and examples.
 
-### Generalized Reedy category
+## Definitions
 
-A **generalized Reedy category** is a category $R$ together with two [[wide subcategories]] $R_+$ and $R_-$, and a function $d\colon ob(R)\to \alpha$ called *degree*, for some [[ordinal]] $\alpha$, such that
+### Generalized Reedy categories
+
+A **Berger-Moerdijk generalized Reedy category** is a category $R$ together with two [[wide subcategories]] $R_+$ and $R_-$, and a function $d\colon ob(R)\to \alpha$ called *degree*, for some [[ordinal]] $\alpha$, such that
 
 1. every non-isomorphism in $R_+$ raises degree,
 
@@ -41,29 +43,25 @@ A **generalized Reedy category** is a category $R$ together with two [[wide subc
 
 1. every morphism $f$ factors as a map in $R_-$ followed by a map in $R_+$, uniquely up to isomorphism, 
 
-1. the following holds
+1. if $f\in R_-$ and $\theta$ is an isomorphism such that $\theta f = f$, then $\theta = 1$ (isomorphisms see the maps in $R_-$ as [[epimorphism|epis]]).
 
-   * for the Cisinski version of the definition:
+The last condition implies that the isomorphism in the penultimate condition must be unique.  It is not self-dual, but has an obvious dual version.  A BM generalized Reedy category is said to be **dualizable** if it satisfies both this condition and its dual.
 
-     every morphism in $R_-$ admits a [[section]]; two such morphisms between gioven objects are equal precisely if they have the same sections.
+For a **Cisinski generalized Reedy category**, the final condition in the preceeding definition is replaced by
 
-   * for the Berger-Moerdijk version of the definition:
-
-     if $f\in R_-$ and $\theta$ is an isomorphism such that $\theta f = f$, then $\theta = 1$ (isomorphisms see the maps in $R_-$ as [[epimorphism|epis]]).
-
-     This last condition implies that the isomorphism in the penultimate condition must be unique.  It is not self-dual, but has an obvious dual version.  A generalized Reedy category is said to be **dualizable** if it satisfies both this condition and its dual.
+* every morphism in $R_-$ admits a [[section]], and two parallel morphisms in $R_-$ are equal precisely when they have the same sections.
 
 For clarity, in the context of generalized Reedy categories, an ordinary [[Reedy category]] may be called a *strict Reedy category*.
 
 ### Presheaves on Reedy categories. 
 
-For $R$ a generalized Reedy category, and $X$ a [[presheaf]] on $R$, there are the evident analog notions of $n$-cells in $X$, degenerate $n$-cells, faces, boundaries, horns, etc.
+For $R$ a generalized Reedy category, and $X$ a [[presheaf]] on $R$, there are the evident analogue notions of $n$-cells in $X$, degenerate $n$-cells, faces, boundaries, horns, etc.
 
 (..)
 
 ## Properties
 
-### Normal monomorphisms
+### Normal monomorphisms (Cisinski)
  {#NormalMorphisms}
 
 
@@ -187,13 +185,15 @@ This is ([Cisinski, prop. 8.1.31, 8.1.35](#Cisinski)).
 
 ## Examples
 
+### Examples (Berger-Moerdijk)
+
 * Any [[Reedy category]] is a generalized Reedy category, in particular the [[simplex category]].
 
 * Any [[groupoid]] $G$ is also a generalized Reedy category, with $G_+ = G_- = G$.
 
 * Connes' [[category of cycles]] $\Lambda$.
 
-* Segal's category $\Gamma$.
+* [[Segal's category Gamma|Segal's category]] $\Gamma$.
 
 * The Moerdijk-Weiss [[tree category]] $\Omega$ is generalized Reedy. The degree is given by the number of vertices in a tree. 
 
@@ -218,3 +218,7 @@ The Berger-Moerdijk definition of generalized Reedy category appears in
 
 
 [[!redirects generalized Reedy categories]]
+[[!redirects Berger-Moerdijk generalized Reedy category]]
+[[!redirects Berger-Moerdijk generalized Reedy categories]]
+[[!redirects Cisinski generalized Reedy category]]
+[[!redirects Cisinski generalized Reedy categories]]
