@@ -13,10 +13,21 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A _symmetric multicategory_ is a [[multicategory]] equipped with an [[action]] of the [[symmetric group]] $S_n$ on the [[set]] of $n$-ary operations, for all $n$, such that composition respects this action.
 
 Symmetric multicategories are equivalently called _coloured [[symmetric operads]]_ over [[Set]]. See there for more details.
+
+## Properties
+
+### Closed monoidal structure
+
+With respect to the [[Boardman-Vogt tensor product]] (see there for details) symmetric multicategories form a [[closed monoidal category|closed]] [[symmetric monoidal category]].
 
 [[!redirects symmetric multicategories]]
 
