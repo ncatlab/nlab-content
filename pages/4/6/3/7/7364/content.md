@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _elliptic fibration_ is a [[bundle]] of [[elliptic curves]].
+
+## Definition
+
+(...)
+
+## References
+
+* wikipedia, _[elliptic surface](http://en.wikipedia.org/wiki/Elliptic_surface)_
+
+[[!redirects elliptic fibrations]]
