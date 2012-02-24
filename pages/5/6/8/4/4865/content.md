@@ -189,4 +189,4 @@ See also the relevant references at _[[M5-brane]]_.
 
 * Paulo Pires Pacheco, Daniel Waldram, _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
 
-
+[[!redirects 11d supergravity]]
