@@ -36,6 +36,16 @@ The idea is that both these brane-phenomena are aspects of one single entity:
 
 This duality of the brane picture is at the heart of the [[AdS/CFT correspondence]]. See there for more details.
 
+## Examples
+
+* [[black hole]]
+
+* [[black string]]
+
+* [[black membrane]]
+
+* [[black fivebrane]]
+
 ## References
 
 Reviews include
