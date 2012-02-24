@@ -16,11 +16,54 @@
 
 ## Idea
 
-By the [[dualities in string theory]], 10-dimensional [[type II string theory]] is supposed to be obtained from the [[UV-completion]] of [[11-dimensional supergravity]] by first [[Kaluza-Klein mechanism|dimensionally reducing]] over a circle -- to obtain [[type IIA supergravity]] -- and then apply [[T-duality]] along another circle direction to obtain [[type IIB supergravity]].
+_F-theory_ is a toolbox for describing [[type IIB string theory]] -- _including_ non-perturbative effects induced from the presence of [[D7-branes]] and [[(p,q)-strings]] -- in terms of [[complex numbers|complex]] [[elliptic fibrations]] whose fiber modulus $\tau$ encodes enocdes the [[axio-dilaton]] (the coupling constant and the degree-0 [[RR-field]]) tranforming under the $SL(2, \mathbb{Z})$ [[S-duality]]/[[U-duality]].
 
-More precisely, this process relates 11-dimensional supergravity on 11-dimensional [[torus]]-bundles /  [[elliptic fibrations]] to [[type IIA supergravity]]. What is called _F-theory_ is the explicit description of [[type IIB supergravity]] [[vacua]] in terms of such elliptic fibrations.
+### Motivation from 11d supergravity
+ {#From11dSupergravity}
 
-In this description, the complex modulus $\tau$ of the torus fiber becomes re-interpreted as the _axio-dilaton_, where $Im(\tau) = g$ is the string coupling constant.
+By the [[dualities in string theory]], 10-dimensional [[type II string theory]] is supposed to be obtained from the [[UV-completion]] of [[11-dimensional supergravity]] by first [[Kaluza-Klein mechanism|dimensionally reducing]] over a circle $S^1_A$ -- to obtain [[type IIA supergravity]] -- and then applying [[T-duality]] along another circle $S^1_B$ to obtain [[type IIB supergravity]].
+
+To obtain type IIB sugra in noncompact 10 dimensions this way, also $S^1_B$ is to be compactified (since [[T-duality]] sends the radius $r_A$ of $S^1_A$ to the inverse radius $r_B = \ell_s^2 / R_A$ of $S^1_B$).
+Therefore type IIB sugra in $d = 10$ is obtained from 11d sugra compactified on the [[torus]] $S^1_A \times S^1_B$. More generally, this torus may be taken to be an [[elliptic curve]] and this may vary over the 9d base space as an [[elliptic fibration]]. 
+
+Applying T-duality to one of the compact direction yields a 10-dimensional theory which may now be thought of as encoded by a 12-dimensional elliptic fibration. This 12d elliptic fibration encoding a 10d type II supergravity [[vacuum]] is the input data that F-theory is concerned with.
+
+A schematic depiction of this story is the following:
+
+|  |  |  |
+|--|--|--|
+| [[11d supergravity|M-theory]] in $d = 11$ | | F-theory in $d = 12$ |
+| $\downarrow$ [[Kaluza-Klein mechanism|KK-reduction]] along [[elliptic fibration]] | | $\downarrow$ [[axio-dilaton]] is modulus of [[elliptic fibration]] |
+| [[type IIA string theory|IIA string theory]] in $d = 9$ | $\leftarrow$[[T-duality]]$\rightarrow$ | [[type IIB string theory|IIB string theory]] in $d = 10$ |
+
+In the simple case where the elliptic fiber is indeed just $S^1_A \times S^1_B$, the [[imaginary part]] of its complex modulus is
+
+$$
+  Im(\tau) = \frac{R_A}{R_B}
+  \,.
+$$
+
+By following through the above diagram, one finds how this determines the coupling constant in the type II theory:
+
+First, the KK-reduction of M-theory on $S^1_A$ yields a type IIA string coupling
+
+$$
+  g_{IIA} = \frac{R_A}{\ell_s}
+  \,.
+$$
+
+Then the T-duality operation along $S^1_B$ divides this by $R_B$:
+
+$$
+  \begin{aligned}
+    g_{IIB} & = g_{IIA} \frac{\ell_s}{R_B} 
+    \\
+    & = \frac{R_A}{R_B}
+    \\
+    & = Im(\tau)
+   \end{aligned}
+   \,.
+$$
 
 
 ## References
@@ -39,7 +82,7 @@ Lecture notes include
 
 A large body of literature is concerned with particle physics [[phenomenology]] modeled in the context of F-theory.
 
-* Chris Beasley, Jonathan J. Heckman, Cumrun Vafa, _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
+* Chris Beasley, Jonathan J. Heckman, [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
 
 (...)
 
