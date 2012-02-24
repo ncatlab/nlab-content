@@ -49,7 +49,7 @@ The category of cubes described above has also been described as the _restricted
 
 * The object $int$ may be thought of as the "generic interval" and the monoidal unit $I$ as a point; $x^{\otimes n}$ thus becomes the combinatorial $n$-cube. Indeed, the [[cubical set]] represented by $I$ is the standard cubical 0-cube, while the cubical set represented by $int$ is the standard cubical 1-cube.
 
-* An explicit description of the cube category by generators and relations is in section 2 of
+* An explicit description of the cube category by [[presentation of a category by generators and relations|generators and relations]] is in section 2 of
 
   * Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega-Cat$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
 
