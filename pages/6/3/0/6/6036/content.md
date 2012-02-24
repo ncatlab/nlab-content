@@ -40,3 +40,4 @@ Much of traditional [[quantum field theory]] on $X$ can be understood in terms o
 * [[string theory]]
 
 [[!redirects strings]]
+[[!redirects F1-brane]]
