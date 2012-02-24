@@ -41,7 +41,7 @@ See for instance ([Adams, pretheorem 2.3.2](#Adams)) and the references listed t
 
   _Infinite loop space theory revisited_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/28.pdf))
 
-* [[John Adams]], _Infinite loop spaces_, Herrmann Weyl lectures at IAS, Princeton University Press (1978)
+* [[John Adams]], _Infinite loop spaces_, Hermann Weyl lectures at IAS, Princeton University Press (1978)
  {#Adams}
 
 * [[Peter May]], _The uniqueness of infinite loop space machines_, Topology, vol 17, pp. 205-224 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
