@@ -1,0 +1,48 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[type IIB supergravity]] the [[dilaton]]/string coupling $g_s$ and the degree-1 [[RR-field]] $C_0$ combine into a [[complex number|complex]] function
+
+$$
+  \tau := C_0 + i g_2
+$$
+
+which transforms under the $SL(2,\mathbb{Z})$ [[S-duality]] $\subset$ [[U-duality]] as
+
+$$
+  \left(
+  \array{
+    a & b 
+    \\
+    c & d
+  }
+  \right)
+  :
+  \tau
+    \mapsto
+  \frac{a \tau + b}{c \tau + d}
+  \,.
+$$
+
+This combined field is also called the **axio-dilaton**.
+
+## Properties
+
+* In [[F-theory]] the variation of the axio-dilaton determines an [[elliptic fibration]] which encodes non-perturbative [[vacua]] of type IIB string theory.
+
+
