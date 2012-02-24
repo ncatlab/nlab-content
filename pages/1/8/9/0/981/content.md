@@ -14,7 +14,7 @@ The cycle category may be defined as the [[subcategory]] of [[Cat]] whose object
 
 The [[simplex category]] $\Delta$ can be identified with a subcategory of $\Lambda$, having the same objects but with fewer morphisms.  This identification does not respect the inclusions into $Cat$, however, since $[n]$ and $[n]_\Lambda$ are different categories.
 
-Denote the generator of $\Aut_\Lambda([n])$ by $\tau_n$; then of course $\tau_n^{n+1} = \mathrm{id}_{[n]}$. This enables more standard, and equivalent, presentation of $\Lambda$ by generators and relations. In addition to the cosimplicial identities between the coboundaries $\delta_i$ and codegeneracies $\sigma_j$ and $\tau^{n+1}_n = \mathrm{id}$ there are following identities:
+Denote the generator of $\Aut_\Lambda([n])$ by $\tau_n$; then of course $\tau_n^{n+1} = \mathrm{id}_{[n]}$. This enables more standard, and equivalent, presentation of $\Lambda$ by [[presentation of a category by generators and relations|generators and relations]]. In addition to the cosimplicial identities between the coboundaries $\delta_i$ and codegeneracies $\sigma_j$ and $\tau^{n+1}_n = \mathrm{id}$ there are following identities:
 $$\array{
 \tau_n\delta_i = \delta_{i-1}\tau_{n-1},\,\, 1\leq i \leq n\\
 \tau_n\delta_0 = \delta_n\\
