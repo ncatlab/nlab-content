@@ -66,7 +66,7 @@ General discussions of the "doctrine" concept:
 
 * [A duality relative to a limit doctrine](http://www.emis.de/journals/TAC/volumes/10/20/10-20abs.html) by C. Centazzo and E.M. Vitale 
 
-A pedadogically aimed study of higher doctrines, using the simple definition of doctrines as (weak) [[n-categories]] described by generators and relations:
+A pedadogically aimed study of higher doctrines, using the simple definition of doctrines as (weak) [[n-categories]] described by [[generators and relations]]:
 
 * [[Frédéric Paugam]]: Chapter 1 of
 [Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf).
