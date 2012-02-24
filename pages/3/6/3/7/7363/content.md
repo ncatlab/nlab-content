@@ -1,0 +1,9 @@
+
+## Idea
+
+A [[black brane]] of one spatial [[dimension]].
+
+## References
+
+* wikipedia, _[black string](http://en.wikipedia.org/wiki/Black_string)_
+
