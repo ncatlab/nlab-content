@@ -19,3 +19,4 @@ Did you do [these](http://ncatlab.org/nlab/revision/diff/convenient+category+of+
 category: people
 
 [[!redirects RonnieBrown]]
+[[!redirects R. Brown]]
