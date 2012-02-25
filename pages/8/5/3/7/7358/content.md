@@ -16,10 +16,19 @@ are [[weak equivalences]].  We include in this the $0$th Segal map $X(\underline
 
 ## Properties
 
-* Note that we have a functor $\Delta\to\Gamma$, where $\Delta$ is the [[simplex category]], which takes $[n]$ to $\underline{n}$.  Thus, every $\Gamma$-space has an underlying simplicial space.
+* Note that we have a functor $\Delta\to\Gamma$, where $\Delta$ is the [[simplex category]], which takes $[n]$ to $\underline{n}$.  Thus, every $\Gamma$-space has an underlying simplicial space. This simplicial space is in fact a [[special Delta-space]] which exhibits the 1-fold delooping of the corresponding $\Gamma$-space.
 
 * The [[topos]] $\Set^{\Gamma^{op}}$ of $\Gamma$-sets is the [[classifying topos]] for pointed objects ([MO question](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify)).
 
+* A model structure on $\Gamma$-spaces can be found in Bousfield and Friedlander below.
+
+## Related notions
+
+* [[$E_\infty$-space]]
+
+* [[special Delta-space]]
+
+* [[algebraic theory]]
 
 ## References
 
@@ -31,6 +40,9 @@ are [[weak equivalences]].  We include in this the $0$th Segal map $X(\underline
 
 *  C. Balteanu, Z. Fiedorowicz, R. Schwanzl and [[R. Vogt]], "Iterated
 Monoidal Categories", Advances in Mathematics (2003).
+
+* B. Badzioch, "Algebraic Theories in Homotopy Theory", Annals of Mathematics, 155, 895--913 (2002).
+
 
 [[!redirects Gamma-space]]
 [[!redirects Gamma-spaces]]
