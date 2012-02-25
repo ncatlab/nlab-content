@@ -33,3 +33,7 @@ category:people
 
 [[!redirects Vogt, Rainer ]]
 [[!redirects Vogt]]
+[[!redirects R. Vogt]]
+[[!redirects R. M. Vogt]]
+
+
