@@ -46,7 +46,7 @@ where
 +-- {: .proof}
 ###### Proof
 
-Let $X \stackrel{\simeq}{\to} X^I \stackrel{(d_0,d_1)}{\to} X \times X$ be a [[path space object]] for $X$. Let $\hat X := Y^I \times_Y X$ be the [[pullback]] of $f$ along one of its legs, to get the diagram
+Let $Y \stackrel{\simeq}{\to} Y^I \stackrel{(d_0,d_1)}{\to} Y \times Y$ be a [[path space object]] for $Y$. Let $\hat X := Y^I \times_Y X$ be the [[pullback]] of $f$ along one of its legs, to get the diagram
 
 $$
   \array{
