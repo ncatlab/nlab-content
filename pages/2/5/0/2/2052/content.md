@@ -11,10 +11,10 @@ Nowadays combinatorial group theory uses fruitful connections to [[topology]] an
 
 * [[Tietze transformation]];
 
+* [[Nielsen-Schreier theorem]];
 
 
 
-category: group theory
 
 
 ## References
@@ -36,3 +36,5 @@ or his earlier:
 * D. L. Johnson, Topics in Theory of Group Presentations, London Mathematical Society Lecture notes series 42) 1980, Cambridge Univ. Press,
 
 have some very useful material in them.
+
+category: group theory
