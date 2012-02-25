@@ -1,0 +1,1 @@
+[[!redirects Lawvere+theory]]
