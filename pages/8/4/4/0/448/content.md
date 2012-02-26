@@ -19,8 +19,9 @@ A polyhedron is a space made up of very simple bits 'glued' together. The 'bits'
 
 +--{: .un_defn}
 ######Definition#######
-A _simplicial complex_ $K$ is a set of objects, $V(K)$, called **vertices** and a set, $S(K)$, of finite non-empty subsets of $V(K)$, called **[[simplex|simplices]]**.  The simplices satisfy the condition that if $\sigma \subset V(K)$ is a simplex and $\tau \subset \sigma$, $\tau \ne \emptyset$, then $\tau$ is also a simplex.  
+A _simplicial complex_ $K$ is a set of objects, $V(K)$, called **vertices** and a set, $S(K)$, of finite non-empty subsets of $V(K)$, called **[[simplex|simplices]]**.  The simplices satisfy the following conditions: (1) that if $\sigma \subset V(K)$ is a simplex and $\tau \subset \sigma$, $\tau \ne \emptyset$, then $\tau$ is also a simplex; (2) every singleton $\{v\}$, $v \in V(K)$, is a simplex.  
 =--
+
 We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ elements it is said to be a **$p$-simplex**.  The set of $p$-simplices of $K$ is denoted by $K_p$. The **dimension** of $K$ is the largest $p$ such that $K_p$ is non-empty.
 
 ##Examples##
@@ -39,22 +40,34 @@ An important class of simplicial complexes is provided by the notion of [[buildi
 
 ##Simplicial complexes v. simplicial sets {#vsSSet}
 
-Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]], but only 'in some sense'. To get from a simplicial complex to a fairly small simplicial set, you  pick a [[total order]] on the set of vertices. Without an order on the vertices, you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$. (If you do not pick an order then you can still form a simplicial set where to each $n$-simplex of the original simplicial complex will correspond to $(n+1)!$ simplices of that associated simplicial set. The result is unwealdy to say the least, but can be useful under some circumstances.)
+Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]], but only 'in some sense'. To get from a simplicial complex to a fairly small simplicial set, you  pick a [[total order]] on the set of vertices. Without an order on the vertices, you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$. (If you do not pick an order then you can still form a simplicial set where to each $n$-simplex of the original simplicial complex will correspond to $(n+1)!$ simplices of that associated simplicial set. The result is unwieldy to say the least, but can be useful under some circumstances.)
 
 ##Simplicial complexes as sheaves on a site##
-Simplicial sets are essentially (that is, up to equivalence) [[presheaves]] on the [[simplex category]] of finite nonempty totally ordered sets, whereas simplicial complexes may be regarded as certain types of presheaves on the category $Fin_{inj}$ of finite nonempty sets and injections between them. This works as follows: given a simplicial complex, $K = (V(K), S(K))$, define a presheaf $K^\sim: Fin_{inj}^{op} \to Set$ whose values are sets of injections $\phi$: 
 
-$$K^\sim(B) \stackrel{def}{=} \{\phi: B \hookrightarrow V(K)| \phi(B) \in S(K)\}, \qquad K^\sim(i: A \to B)(\phi) \stackrel{def}{=} \phi \circ i$$ 
+Simplicial sets are essentially (that is, up to equivalence) [[presheaves]] on the [[simplex category]] of finite nonempty totally ordered sets, whereas simplicial complexes may be regarded as [[concrete sheaf|concrete presheaves]] on the category $Fin_{+}$ of finite nonempty sets and functions between them. This works as follows: given a simplicial complex, $K = (V(K), S(K))$, define a presheaf $K^\sim: Fin_{+}^{op} \to Set$ whose values are sets of functions $\phi$: 
+
+$$K^\sim(B) \stackrel{def}{=} \{\phi: B \to V(K)| \phi(B) \in S(K)\}, \qquad K^\sim(f: A \to B)(\phi) \stackrel{def}{=} \phi \circ f$$ 
 
 This defines an evident [[functor]] 
 
-$$SimpComplex \to Set^{Fin_{inj}^{op}}: K \mapsto K^\sim$$ 
+$$SimpComplex \to Set^{Fin_{+}^{op}}: K \mapsto K^\sim$$ 
 
-that is [[full and faithful functor|full and faithful]]. In fact, following a suggestion of James Dolan, Baez and Hoffnung characterize the category of simplicial complexes up to equivalence as the full subcategory of [[concrete sheaf|concrete sheaves]] on $Fin_{inj}$ with respect to the trivial [[Grothendieck topology|topology]] (where the only covering sieve $F \hookrightarrow hom(-, D)$ is the maximal sieve). 
+that is [[full and faithful functor|full and faithful]]. The essential image is the subcategory of concrete presheaves, where a presheaf $F \colon Fin_{+}^{op} \to Set$ is **concrete** if the canonical map 
 
-It follows from this characterization that the category of simplicial complexes is a [[quasitopos]], and in particular is locally cartesian closed. The category of simplicial sets on the other hand is a [[topos]]. 
+$$F(B) \to F(1)^{\hom(1, B)}$$ 
+
+is an injection. The point is that a morphism of concrete presheaves $F \to G$ is uniquely determined from the function $F(1) \to G(1)$ between their underlying sets (i.e., the underlying-set functor on concrete presheaves is [[faithful functor|faithful]], so that a concrete presheaf is a set equipped with extra [[stuff, structure, property|structure]] -- that's what makes it "concrete"). 
+
+(Equivalently but somewhat more elaborately, the category of concrete presheaves is the same as the full subcategory of [[concrete sheaf|concrete sheaves]] on $Fin_{+}$ with respect to the trivial [[Grothendieck topology|topology]], where the only covering sieve $F \hookrightarrow hom(-, D)$ is the maximal sieve.) 
+
+From this point of view, it is immediate that simplicial complexes are the [[separated presheaf|separated objects]] for the [[Lawvere-Tierney topology]] on $Set^{Fin_{+}^{op}}$ whose sheaves are sets, via the sheafification functor 
+
+$$\Gamma = \hom(\mathbf{1}, -) = ev_1 \colon Set^{Fin_{+}^{op}} \to Set$$ 
+
+which has a right adjoint. (See [[local topos]].) It follows from this characterization that the category of simplicial complexes is a [[quasitopos]], and in particular is locally cartesian closed. The category of simplicial sets on the other hand is a [[topos]]. 
 
 ##Geometric realisations and Polyhedra##
+
 An abstract simplicial complex is a combinatorial gadget that models certain aspects of a spatial configuration.  Sometimes it is useful, perhaps even necessary, to produce a topological space from that data in a simplicial complex. 
 
 ### Idea
