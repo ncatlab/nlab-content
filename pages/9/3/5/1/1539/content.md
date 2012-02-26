@@ -175,9 +175,11 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
   This includes the following examples:
 
-  * The category of [[simplicial complex]]es.
+  * The category of [[simplicial complex|simplicial complexes]].
 
-  * The category of [[diffeological space]]s.
+  * The category of [[diffeological space|diffeological spaces]]. 
+
+  * As a super-large example, the category of Spanier's [[quasi-topological space|quasi-topological spaces]], the category of concrete sheaves on the category of compact Hausdorff spaces with the finite covering topology. 
 
 ## Related concept
 
