@@ -1,5 +1,5 @@
-# Generators and relations
 
+# Generators and relations
 * table of contents
 {: toc}
 
@@ -13,6 +13,9 @@ in the category $C^T$ of $T$-algebras.  Here $G\in C$ is the *object of generato
 
 The $T$-algebra map $T G \to A$ corresponds to a unique morphism $G\to A$ in $C$, which we think of as the "inclusion" of the generators into $A$ (though in general it need not be any kind of [[monomorphism]]).  Similarly, the $T$-algebra maps $T R \;\rightrightarrows\; T G $ correspond to unique morphisms $R \;\rightrightarrows\; T G$ in $C$, which we think of as a [[binary relation]] on $T G$ (though in general, the maps need not be jointly monic either).
 
+This definition can be generalised to any [[concrete category]] with [[free objects]], not necessarily monadic.
+
+
 ## Examples
 
 ### Monads on Set
@@ -21,9 +24,11 @@ The classical case is when $C=$[[Set]].  Then $G$ and $R$ are sets, and a presen
 
 Probably the *most* classical case is when $T$ is the free [[group]] monad on $Set$.
 
+
 ### Categories
 
-[[Cat]] is the category of algebras for a monad on the category of [[quivers]].  Therefore, we have a notion of a [[presentation of a category by generators and relations]].
+[[Cat]] (to be precise, [[Str Cat]]) is the category of algebras for a monad on the category of [[quivers]].  Therefore, we have a notion of a [[presentation of a category by generators and relations]].
+
 
 ### Theories and Monads
 
@@ -43,7 +48,10 @@ $$ T^2 A \; \underoverset{\mu}{\T a}{\rightrightarrows}\; T A \xrightarrow{a} A$
 where $a\colon T A \to A$ is the structure map of the $T$-algebra $A$ and $\mu$ is the multiplication of the monad $T$.
 =--
 
-This particular presentation is of importance in the [[monadicity theorem]].  However, in practice one is usually interested in more "economical" presentations where $G$ and $R$ are smaller than $A$.
+This particular presentation is of importance in the [[monadicity theorem]].
+
+However, in practice one is usually interested in more "economical" presentations where $G$ and $R$ are smaller than $A$.  For example, for monads over [[Set]], when $G$ and $R$ are [[finite sets]], then we say that $A$ is __[[finitely presented object|finitely presented]]__.
+
 
 ## Remarks
 
@@ -52,7 +60,9 @@ Note that knowing only the category of $T$-algebras does not suffice to determin
 
 ## Categorifications
 
-If $C$ is an [[n-category]] and $T$ a suitable sort of monad, then we have a similar notion except that coequalizers must be replaced by ($n$-truncated) [[codescent objects]], i.e. [[geometric realization]].
+If $C$ is an [[n-category]] and $T$ a suitable sort of monad, then we have a similar notion except that coequalizers must be replaced by ($n$-truncated) [[codescent object|codescent objects]], i.e. [[geometric realization]].
 
+
+[[!redirects generators and relations]]
 [[!redirects presentation by generators and relations]]
 [[!redirects presentations by generators and relations]]
