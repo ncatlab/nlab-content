@@ -23,7 +23,7 @@ The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the mu
 
 ## In topos theory
 
-The category $FinSet$ is a [[topos]] and the inclusion $FinSet \hookrightarrow Set$ is a [[logical morphism]] of toposes. ([[Elephant|Elephant, example 2.1.2]]).
+The category $FinSet$ is an [[elementary topos]] and the inclusion $FinSet \hookrightarrow Set$ is a [[logical morphism]] of toposes. ([[Elephant|Elephant, example 2.1.2]]).
 
 Mathematics done within or about $\Fin\Set$ is [[finite mathematics]].
 
