@@ -396,6 +396,7 @@ Other references are
 
 * [[Steve Lack]], [[Jiri Rosicky]], _Notions of Lawvere theory_ ([arXiv:0810.2578](http://arxiv.org/abs/0810.2578))
 
+[[!redirects lawvere theory]]
 [[!redirects Lawvere theory]]
 [[!redirects Lawvere theories]]
 [[!redirects finitary Lawvere theory]]
