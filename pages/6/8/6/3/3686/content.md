@@ -1,1 +1,31 @@
-A **symplectomorphism** from a symplectic manifold $(M,\omega)$ to a sympletic manifold $(N,\nu)$ is a [[diffeomorphism]] preserving the sympletic form: in other words $f$ is a differentiable map with differentiable inverse and it satisfies $f^*(\nu)=\omega$. 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+### Symplectomorphisms
+
+A **symplectomorphism** from a [[symplectic manifold]] $(M,\omega)$ to a symplectic manifold $(N,\nu)$ is a [[diffeomorphism]] $f : M \to N$ preserving the [[sympletic form]]: in other words $f$ is a differentiable map with differentiable inverse and it satisfies $f^*(\nu)=\omega$. 
+
+### Auto-symplectomorphisms
+
+The symplectomorphisms from a [[symplectic manifold]] $(X, \omega)$ to itself form an infinite-dimensional [[Lie group]]. Its [[Lie algebra]] is that of [[symplectic vector fields]]: those vector fields $v \Gamma(T X)$ such that their [[Lie derivative]] preserves the [[symplectic form]]
+
+$$
+  \mathcal{L}_v \omega = 0
+  \,.
+$$
+
+[[!redirects symplectomorphisms]]
