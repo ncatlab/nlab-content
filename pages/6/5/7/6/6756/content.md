@@ -192,6 +192,18 @@ Now the same argument as above applies for $P_* X$.
 
 =--
 
+## Properties
+
+### Relation to symplectic vector fields
+
+Every Hamiltonian vector field is in particular a [[symplectic vector field]]. Where a symplectic vector field only preserves the [[symplectic form]], a Hamiltonian vector field also preserves the connection on its [[prequantum line bundle]].
+
+### Group of Hamiltonian symplectomorphisms
+
+The auto-[[symplectomorphisms]] on a [[symplectic manifold]] form a [[group]], of which the [[symplectic vector fields]] generate the connected component. The Hamiltonian vector fields among the symplectic ones generate the group of Hamiltonian symplectomorphisms.
+
+(...) 
+
 ## References
 
 For references on the ordinary notion of Hamiltonian vector fields see the references at _[[symplectic geometry]]_ and _[[geometric quantization]]_.
