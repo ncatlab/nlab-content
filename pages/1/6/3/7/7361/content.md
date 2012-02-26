@@ -62,6 +62,9 @@ Note that knowing only the category of $T$-algebras does not suffice to determin
 
 If $C$ is an [[n-category]] and $T$ a suitable sort of monad, then we have a similar notion except that coequalizers must be replaced by ($n$-truncated) [[codescent object|codescent objects]], i.e. [[geometric realization]].
 
+## Related concepts
+
+* [[finitely generated object]]
 
 [[!redirects generators and relations]]
 [[!redirects presentation by generators and relations]]
