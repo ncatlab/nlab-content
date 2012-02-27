@@ -19,10 +19,12 @@ A polyhedron is a space made up of very simple bits 'glued' together. The 'bits'
 
 +--{: .un_defn}
 ######Definition#######
-A _simplicial complex_ $K$ is a set of objects, $V(K)$, called **vertices** and a set, $S(K)$, of finite non-empty subsets of $V(K)$, called **[[simplex|simplices]]**.  The simplices satisfy the following conditions: (1) that if $\sigma \subset V(K)$ is a simplex and $\tau \subset \sigma$, $\tau \ne \emptyset$, then $\tau$ is also a simplex; (2) every singleton $\{v\}$, $v \in V(K)$, is a simplex.  
+A _simplicial complex_ $K$ (sometimes called an **abstract** simplicial complex) consists of a set of objects, $V(K)$, called **vertices** and a set, $S(K)$, of finite non-empty subsets of $V(K)$, called **[[simplex|simplices]]**.  The simplices satisfy the following conditions: (1) that if $\sigma \subset V(K)$ is a simplex and $\tau \subset \sigma$, $\tau \ne \emptyset$, then $\tau$ is also a simplex; (2) every singleton $\{v\}$, $v \in V(K)$, is a simplex.  
 =--
 
 We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ elements it is said to be a **$p$-simplex**.  The set of $p$-simplices of $K$ is denoted by $K_p$. The **dimension** of $K$ is the largest $p$ such that $K_p$ is non-empty.
+
+* Remark: the word 'polyhedron' is used here as it is often used by algebraic topologists, as a space described by a simplicial complex. Elsewhere in mathematics, it might mean a finite union of finite intersections of sets in Euclidean space defined by linear inequalities, usually assumed compact, and often with other assumptions as well (e.g., connected or convex). The various usages have a long history, as recounted in detail in Lakatos's _Proofs and Refutations_. 
 
 ##Examples##
 1. Any (undirected simple) graph gives a simplicial complex. The usual definition of graph is that it is an ordered pair $(V,E)$ where $V$ is a set of vertices, and $E$ a set of (unordered) pairs of vertices. This is the simplest form of graph; it is undirected, edges do not have a 'start' and 'finish', (or 'head' and 'tail') and 'simple', in as much as there can be at most one edge between a given pair of vertices. (The case of a 'multigraph' where there can be multiple edges between vertices, and perhaps loops at a vertex, does not correspond to a simplicial complex, but does give a [[simplicial set]].)  A graph is a 1-dimensional simplicial complex.
