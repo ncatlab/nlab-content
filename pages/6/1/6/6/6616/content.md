@@ -368,7 +368,7 @@ $$
   \,.
 $$
 
-## Hamiltonian vector fields on symplectic $n$-groupoids
+## Poisson $L_\infty$-algebras 
  {#HamiltonianVectorFields}
 
 ### Idea
@@ -401,14 +401,18 @@ be a [prequantization](#PrequantumBundles) [[circle n-bundle with connection]].
 
 Regard it as an object in the [[over-(∞,1)-topos]] $\mathbf{H}/\mathbf{B}^{n+2}U(1)_{conn}$.
 
-Then the internal [[automorphism ∞-group]]
+Consider the internal [[automorphism ∞-group]]
 
 $$
   \underline{Aut}_{\mathbf{H}/\mathbf{B}^{n+1}U(1)_{conn}}(X)
   \in \mathbf{H}
 $$
 
-of auto-[[equivalence in an (infinity,1)-category|equivalences]] that respect the [[connection on an infinity-bundle|∞-connection]] that refines $\omega$ we call the $\infty$-group of **Hamiltonian diffeomorphisms**  of $X$. Its [[∞-Lie algebra]] we call that of **Hamiltonian vector fields** on $X$.
+of auto-[[equivalence in an (infinity,1)-category|equivalences]] that respect the [[connection on an infinity-bundle|∞-connection]] that refines $\omega$. 
+
+* Its image under $p_! : \mathbf{H}_{/\mathbf{B}^n U(1)_{conn}} \to \mathbf{H}$ we call the **[[Hamiltonian symplectomorphism]] $\infty$-group.
+
+* Its [[∞-Lie algebra]] we call the **[[Poisson algebra|Poisson ∞-Lie algebra]]** of $(X, \omega)$.
 
 =--
 
@@ -523,7 +527,11 @@ Aspects of the relation to [[multisymplectic geometry]] are in
  {#Rogers}
 
 
-A discuss of higher symplectic geometry in a general context is in section 4.3 of 
+A discussion of higher symplectic geometry in a general context is in 
+
+* [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantization]]_
+
+See also section 4.3 of 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ .
 
