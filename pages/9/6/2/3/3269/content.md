@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -27,6 +27,9 @@ $$
 
 Chow groups appear as the [[cohomology group]]s of [[motivic cohomology]] (see there for details) with coefficients in suitable [[Eilenberg-MacLane object]]s.  
 
+## Related concepts
+
+* [[arithmetic Chow group]]
 
 ## References
 
