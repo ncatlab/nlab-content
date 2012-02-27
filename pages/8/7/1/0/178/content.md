@@ -306,7 +306,7 @@ where [[SynthDiff∞Grpd]] is the [[cohesive (∞,1)-topos]]  of
 +-- {: .proof}
 ###### Proof
 
-This follows as a special case of <a href="http://nlab.mathforge.org/nlab/edit/cohesive%20(infinity,1)-topos#InfinitesimalNeighbourhoodFromInfinitesimalSite">this proposition</a> after observing that $CartSp_{synthdiff}$ is an infinitesimal neighbourhood site of CartSp_{smooth}$ in the sense defined there.
+This follows as a special case of <a href="http://nlab.mathforge.org/nlab/edit/cohesive%20(infinity,1)-topos#InfinitesimalNeighbourhoodFromInfinitesimalSite">this proposition</a> after observing that $CartSp_{synthdiff}$ is an infinitesimal neighbourhood site of $CartSp_{smooth}$ in the sense defined there.
 
 =--
 
