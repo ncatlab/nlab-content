@@ -26,6 +26,7 @@ In an [[associated bundle]] with [[connection]] the _covariant derivative_ of a 
 
 
 ### In the context of connections on $\infty$-groupoid principal bundles
+ {#ForConnectionsOnInfinityBundles}
 
 We give here a definition of covariant derivatives that is natural in the general context of [[∞-Chern-Weil theory]] in that it applies to [[connections on ∞-bundles]]. 
 
