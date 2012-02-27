@@ -91,14 +91,14 @@ As a set, $|K|$ is constructed as follows:
 
 $|K|$ is the set of all functions from $V(K)$ to  the closed interval $[0,1]$ such that
 
-* if $\alpha \in |K|$, the set
+* if $\alpha \in {|K|}$, the set
  
 $$\{v \in V(K) \mid \alpha(v)  \neq  0\}$$
 
 is a simplex of $K$;
 
- * for each $v\in V(K)$,  
-$$\sum_{\alpha \in V(K)} \alpha (v) = 1.$$
+ * for each $\alpha \in {|K|}$,  
+$$\sum_{v \in V(K)} \alpha (v) = 1.$$
 
 There are two commonly used topologies on the set $|K|$. The first is the _metric topology_: we put a metric $d$ on $|K|$ by 
 
@@ -106,9 +106,9 @@ $$d(\alpha,\beta) = \Big(\sum_{v\in V(K)} (\alpha(v) - \beta(v))^2\Big)^\frac{1}
 
 $|K|$, when endowed with the metric space topology, will be denoted $|K|_d$. Notice that when $V(K)$ is finite, this gives $|K|_d$ as a subspace of the metric space $\mathbb{R}^{\#(V(K))}$ (which is usually of much higher dimension than might seem geometrically significant in a given context). 
 
-The second topology is the _coherent topology_: each geometric simplex $|s|$ consists of all $\alpha \in |K|$ supported in $s$, and is given the subspace topology inherited as a subset of $|K|_d$; then the coherent topology on $|K|$ is the largest topology for which all inclusions $|s| \hookrightarrow |K|$ are continuous. This topological space is normally denoted just $|K|$, reflecting the fact that the coherent topology is regarded as the default topology to put on the set $|K|$. 
+The second topology is the _coherent topology_: each geometric simplex $|s|$ consists of all $\alpha \in {|K|}$ supported in $s$, and is given the subspace topology inherited as a subset of $|K|_d$; then the coherent topology on $|K|$ is the largest topology for which all inclusions ${|s|} \hookrightarrow {|K|}$ are continuous. This topological space is normally denoted just $|K|$, reflecting the fact that the coherent topology is regarded as the default topology to put on the set $|K|$. 
 
-Note that if $s \subseteq t$ is an inclusion of simplices in $K$, then there is an induced subspace inclusion $|s| \hookrightarrow |t|$. The space $|K|$ may then be characterized as the colimit in $Top$ of the diagram consisting of geometric simplices $|s|$ and inclusions between them, so that a function $f: |K| \to X$ is continuous if and only if its restriction to each simplex $|s|$ is continuous. In particular, the identity function $|K| \to |K|_d$ is continuous, so that the coherent topology contains the metric topology (and is often strictly larger). 
+Note that if $s \subseteq t$ is an inclusion of simplices in $K$, then there is an induced subspace inclusion ${|s|} \hookrightarrow {|t|}$. The space $|K|$ may then be characterized as the colimit in $Top$ of the diagram consisting of geometric simplices $|s|$ and inclusions between them, so that a function $f: {|K|} \to X$ is continuous if and only if its restriction to each simplex $|s|$ is continuous. In particular, the identity function ${|K|} \to {|K|}_d$ is continuous, so that the coherent topology contains the metric topology (and is often strictly larger). 
 
 * **Warning:** The geometric realization of a simplicial complex does not preserve products. Indeed, the product of two intervals in the category of simplicial complexes is the tetrahedron! 
 
@@ -116,15 +116,13 @@ Note that if $s \subseteq t$ is an inclusion of simplices in $K$, then there is 
 
 If a topological space can be described up to homeomorphism as the geometric realization of a simplicial complex, we say it is **triangulable**, and a **triangulation** of a space $X$ is a simplicial complex $K$ together with a homeomorphism $h: |K| \to X$. (This is discussed in a bit more detail in the entry on [[classical triangulation]]. 
 
-There is another stronger notion of triangulation used by geometric topologists: a **piecewise-linear (PL) structure** on a space $X$ is a triangulation where the link of every simplex in $K$ is a PL triangulation of a sphere. 
+There is another stronger notion of triangulation used by geometric topologists: a **piecewise-linear (PL) structure** on a [[topological manifold]] $X$ is given by a [[manifold|PL atlas]], where the transition functions are piecewise-linear homeomorphisms. (A homeomorphism $U \to V$ is **piecewise linear** if its graph is the intersection of $U \times V$ with a semilinear set $S$, meaning that $S$ is given by a finite Boolean combination of solution sets of linear inequalities.)  
 
-+--{.query} 
-This is as best as I can make out from reading Wikipedia. The definition looks recursive. Obviously I haven't filled in the definition of link. 
-=-- 
+
 
 #### Examples from manifold theory
 
-* All [[manifold|smooth manifolds]] are triangulable and,  in fact, admit PL structures. 
+* All [[manifold|smooth manifolds]] are triangulable and, in fact, admit PL structures. 
 
 * All topological manifolds in dimensions 2 and 3 admit PL structures, and are in fact smoothable (admit a smooth manifold structure). 
 
@@ -142,7 +140,7 @@ As an important step:
 
 * The geometric realization of the nerve of a poset is triangulable. 
 
-(These statements should actually be treated as conjectures for the moment until I write out careful proofs. The basic technique is subdivision.) 
+The basic technique is to use [[subdivision]]. 
 
 
 ## References
