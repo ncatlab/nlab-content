@@ -96,10 +96,10 @@ Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes
 
 This is [[Ek-Algebras|EkAlg, theorem 1.3.16.]]
 
-+-- {: .num_remark}
++-- {: .num_remark #LoopingDeloopingDegree1InTopos}
 ###### Remark
 
-For $k = 1$ we have a leooping/delooping equivalence
+For $k = 1$ we have a looping/delooping equivalence
 
 $$
   \mathbf{H}_*
