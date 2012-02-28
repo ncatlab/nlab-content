@@ -138,7 +138,9 @@ Zuckerman states that on the reduced phase space of $GL(2,\mathbb{R})$-Chern-Sim
 
 ### Geometric quantization
 
-(...)
+Of the existing formalizations of [[quantization]], it is _[[geometric quantization]]_ that is naturally suited for the treatment of Chern-Simons theory.
+
+For the moment, see the references [below](http://ncatlab.org/nlab/show/Chern-Simons+theory#ReferencesGeometricQuantization).
 
 
 ## Classical Chern-Simons theory (general case)
@@ -333,7 +335,8 @@ The year 2009 marked the 20th anniversary of Witten's seminal paper _Quantum fie
 * (More here...)
 
 ### Geometric quantization and Chern--Simons theory?
-In [Quantum field theory and the Jones polynomial](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), Witten makes the tantalizing observation that the "trace" occuring in the "trace of the holonomy around the knot" term in the path integral should _itself_ be seen as a path integral. In this way one hopes to obtain a much more unified formalism. See [[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]] (password required).   
+In
+ [Quantum field theory and the Jones polynomial](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), Witten makes the tantalizing observation that the "trace" occuring in the "trace of the holonomy around the knot" term in the path integral should _itself_ be seen as a path integral. In this way one hopes to obtain a much more unified formalism. See [[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]] (password required).   
 
 ### Higher dimensional generalizations
 
@@ -414,9 +417,33 @@ The [[covariant phase space]] of Chern-Simons theory with its [[presymplectic st
 
 ### Quantization
 
-Discussion of the [[quantization]] of Chern-Simons theory is for instance in 
+We list discussions of [[quantizationn]] of Chern-Simons theory.
+
+#### Geometric quantization
+ {#ReferencesGeometricQuantization}
+
+The original method of quantization of Chern-Simons theory used already in ([Witten 89](#Witten)) is 
+_[[geometric quantization]]_.
+
+More discussion of this is in 
+
+* [[Scott Axelrod]], S. Della Pietra, [[Edward Witten]], _Geometric quantization of Chern-Simons gauge theory_, Jour. Diff. Geom. 33 (1991), 787-902.  ([EUCLID](http://projecteuclid.org/euclid.jdg/1214446565))
+
+* [[Scott Axelrod]], _Geometric Quantization of Chern-Simons Gauge Theory_ PhD thesis (1991)
+
+Decent expositions are for instance in 
+
+* M. B. Young, _Chern-Simons theory, knots and moduli spaces of connections_ 2010 ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
+
+and in section 3.3 of
+
+* [[Tudor Dimofte]], [[Sergei Gukov]], _Quantum Field Theory and the Volume Conjecture_, in Andersen, Boden, Hahn, Himpel (eds.)_Chern-Simons gauge theory: 20 years after_, AMS (2011) ([arXiv:1003.4808](http://arxiv.org/abs/1003.4808))
+
+#### Hamiltonian quantization
 
 * [[Anton Alexeev]], [[Harald Grosse]], [[Volker Schomerus]], _Combinatorial quantization of the Hamiltonian Chern-Simons theory_ ([pdf](http://www.mat.univie.ac.at/~esiprpr/esi079.pdf))
+
+#### Perturbative quantization
 
 Discussion of quantization using [[perturbation theory]] is in 
 
@@ -427,7 +454,7 @@ Discussion of quantization using [[perturbation theory]] is in
   _Chern--Simons Perturbation Theory II_ ([arXiv](http://arxiv.org/abs/hep-th/9304087))
 
 
-### As second quantization of the A- or B-model
+#### As second quantization of the A- or B-model
 
 In 
 
