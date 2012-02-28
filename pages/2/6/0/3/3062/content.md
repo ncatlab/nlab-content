@@ -30,32 +30,38 @@ This means that it is
 
 * a pair of [[vector space]]s $\mathfrak{g}_0, \mathfrak{g}_1$
 
-* equipped with [[linear function]]s
+* equipped with [[linear functions]] as follows:
+
+  a unary bracket $[-]$ encoding a _[[differential]]_ 
 
   $$
     \delta : \mathfrak{g}_1 \to \mathfrak{g}_0
+    \,
   $$
 
-  (the _[[differential]]_ )
+  and a binary bracket $[-,-]$, whose component on elements in degree 0
+  is a [[Lie bracket]]
 
   $$
     [-,-] : \mathfrak{g}_0 \vee \mathfrak{g}_0 \to \mathfrak{g}_0
   $$
 
-  (the _bracket_)
+  and whose component on elements in degree 0 and degree 1 is a _weak [[action]]_
 
   $$
     \alpha(-,-) : \mathfrak{g}_0 \otimes \mathfrak{g}_1 \to 
      \mathfrak{g}_1
+     \,;
   $$
-
-  (the weak [[action]])
   
+  and a trinary bracket
+
   $$
     [-,-,-] : \mathfrak{g}_0 \vee \mathfrak{g}_0 \vee \mathfrak{g}_0 \to \mathfrak{g}_1
   $$
 
-  (the _Jacobiator_)
+  called the _Jacobiator_;
+
 
 * such that
 
@@ -64,7 +70,14 @@ This means that it is
   * the [[differential]] respects the brackets: for all $x \in \mathfrak{g}_0$ and $h \in \mathfrak{g}_1$ we have
 
     $$
+      \delta [x,h] = [x, \delta h]
+    $$
+
+    hence
+
+    $$
       \delta \alpha(x,h) = [x, \delta h]
+      \,;
     $$
     
 
