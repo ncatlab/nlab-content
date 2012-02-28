@@ -1,0 +1,29 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The [[operad|operadic]] analog of the [[model structure for Segal categories]].
+
+## Properties
+
+[[!include table - models for (infinity,1)-operads]]
+
