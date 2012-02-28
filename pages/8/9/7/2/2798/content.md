@@ -298,7 +298,7 @@ $$
 
 this restricts to the Quillen equivalence 
 between the
-[[model structore on sSet-categories]] and the [[model structure for quasi-categories]] discussed at _[[relation between quasi-categories and simplicial categories]]_.
+[[model structure on sSet-categories]] and the [[model structure for quasi-categories]] discussed at _[[relation between quasi-categories and simplicial categories]]_.
 
 =--
 
