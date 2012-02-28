@@ -28,4 +28,8 @@ is a [[homotopy pullback]] square.
 
 One definition of $(\infty,n)$-[[(infinity,n)-category|category]] is in terms of [[complete Segal spaces]].
 
+## Related notions
+
+* [[reduced Segal space]]
+
 [[!redirects Segal spaces]]
