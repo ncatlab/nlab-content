@@ -244,6 +244,12 @@ between the model structure for left fibrations over $S$ and the [[global model 
 
 For more on this see [[(∞,1)-Grothendieck construction]].
 
+## Related concepts
+
+The [[operad|operadic]] generalization is the
+
+* [[model structure for dendroidal left fibrations]].
+
 
 ## References
 
