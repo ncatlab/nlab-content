@@ -17,5 +17,15 @@ Details depend on the particular flavor of operad being used (the choice of enri
 
 There are natural functors from and to $Opead$ to [[Cat]], [[dSet]], etc.
 
+* [[Cat]], **Operad**
+
+* [[2Cat]]
+
+* [[(∞,1)Cat]], [[(∞,1)Operad]]
+
+* [[(∞,n)Cat]]
+
+
+
 category: category
 
