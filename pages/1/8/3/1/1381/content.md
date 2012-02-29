@@ -14,7 +14,7 @@
 =--
 
 
-# Symmetric monoidal $(\infty,1)$-category
+# Contents
 * table of contents
 {: toc}
 
@@ -97,8 +97,14 @@ There is a functor $\varphi : \Delta^{op} \to FinSet_*$ such that the [[monoidal
 
 * [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
 
+## Properties
 
-## Commutative $\infty$-monoids
+### Model category structure
+
+
+A [[presentable (infinity,1)-category|presentation]] of the [[(∞,1)-category]] of all symmetric monoidal $(\infty,1)$-categories is provided by the [[model structure for dendroidal coCartesian fibrations]].
+
+### Commutative $\infty$-monoids
 
 See [[commutative monoid in a symmetric monoidal (∞,1)-category]].
 
