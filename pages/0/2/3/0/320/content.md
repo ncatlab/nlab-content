@@ -103,3 +103,5 @@ See also the examples at _[[operad]]_.
 
 [[!redirects multicategories]]
 [[!redirects multicategories]]
+
+[[!redirects pseudomonoidal category]]
