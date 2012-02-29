@@ -4,6 +4,8 @@ Rigid cohomology is certain extension of [[crystalline cohomology]] to schemes w
 
 It is also extending from the affine case the [[Monsky-Washnitzer cohomology]].
 
+The corresponding theory of coefficients is given by [[overconvergent isocrystals]] and more generally [[arithmetic D-modules]].
+
 * Kiran S. Kedlaya, Rigid cohomology and its coefficients, slides, [pdf](http://folk.uio.no/rognes/yff/kedlaya.pdf), workshop: p-adic Geometry and Homotopy Theory, Loen, 2009
 
 * Kiran Kedlaya, lecture 20, [pdf](http://www-math.mit.edu/~kedlaya/18.787/rigid-cohom.pdf) from a course on algebraic geometry
@@ -17,3 +19,5 @@ It is also extending from the affine case the [[Monsky-Washnitzer cohomology]].
 * David Brown, _Rigid cohomology for algebraic stacks_, Virginia 2010, [slides](http://www.math.wisc.edu/~brownda/slides/rigidCohStacksAMSVirginia.pdf)
 
 Warning: rigid cohomology in contemporary sense should *not* be confused with the topic of 1977 MacKenzie's paper _Rigid cohomology for topological groupoids_ ([pdf](http://kchmackenzie.staff.shef.ac.uk/publications/RCTG.pdf))
+
+See also [[arithmetic D-modules]].
