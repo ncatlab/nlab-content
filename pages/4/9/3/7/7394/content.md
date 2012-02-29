@@ -1,0 +1,8 @@
+
+## Idea 
+
+A [[model category]] structure whose fibrant objects are [[Segal categories]].
+
+## Properties
+
+...
