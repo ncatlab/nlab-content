@@ -95,5 +95,7 @@ Is there a dual model structure in which all categories are cofibrant?  This see
 
 * [[canonical model structure on groupoids|canonical model structure on Grpd]]
 
+* [[canonical model structure on Operad]]
+
 [[!redirects natural model structure on Cat]]
 [[!redirects folk model structure on Cat]]
