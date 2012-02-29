@@ -89,6 +89,10 @@ See also section A.3.2 of
 
 * [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus_, [GoodwillieI.pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf)
 
+## Related concepts
+
+[[!include table - models for (infinity,1)-operads]]
+
 
 [[!redirects model structure on SSet-categories]]
 [[!redirects model structure on simplicial categories]]
