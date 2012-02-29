@@ -34,15 +34,285 @@ $$
 
 where $T$ is an object of the [[tree category]], regarded as a free [[symmetric operad]], and $W_H(T)$ is its [[Boardman-Vogt resolution]].
 
+## Definition
+
+Throughout, let $\mathcal{E}$ be a [[symmetric monoidal category|symmetric]] [[monoidal model category]] equipped with an [[interval object]] $H$ as discussed at _[[model structure on operads]]_ and  at _[[Boardman-Vogt resolution]]_. We consider multi-coloured [[symmetric operads]] ([[symmetric multicategories]]) enriched in $\mathcal{E}$.
+
+Standard examples are $\mathcal{E} = $ [[Top]], [[sSet]], which yields [[topological operads]] and [[simplicial operads]], respectively.
+
+
+
+
+### BV resolution of trees
+ {#BVResolutionOfTrees}
+
+We discuss in detail what the [[Boardman-Vogt resolution]] of [[operads]] free on an object in the [[tree category]] $\Omega$ is like (see _[[dendroidal set]]_ for details on trees as operads).
+
++-- {: .num_prop}
+###### Observation
+
+For $T \in \Omega$, and $(e_1, \cdots, e_n; e)$ a tuple of colours (edges) of $T$, notice that the set of operations $T(e_1, \cdots, e_n, e)$ is the set of those subtrees $V \subset T$ such that $\{e_1, \cdots, e_n\}$ is the set of leaves and $e$ is the root of $V$.
+
+First regard $T$ as a [[topological operad]] (with a [[discrete space]] of operations in each degree). The corresponding [[Boardman-Vogt resolution]] $W(T)$ of $T$ is the topological operad whose [[topological space]] of operations $W(T)(e_1, \cdots, e_n; e)$ is the space of _labeled trees_ as follows.
+
+A point is a set of _lengths_ $\ell(e) \in [0,1]$, one for each inner edge $e \in I(T)$ of $T$. (...)
+
+Hence 
+
+$$
+  W(T)(e_1, \cdots, e_n; e) 
+    \simeq 
+  \coprod_{V \in T(e_1, \cdots, e_n; e)}
+  \Delta[1]^{i(V)}
+$$
+
+where the [[coproduct]] ranges over subtrees $V$, as just discussed, and where $i(V)$ is the set of inner edges of $V$.
+
+
+Regard then $T$ as a [[simplicial operad]]. The corresponding [[Boardman-Vogt resolution]] $W(T)$ of $T$ is the simplicial operad whose [[simplicial sets]] of operations are
+
+$$  
+  W(T)(e_1, \cdots, e_n; e)
+  =
+  \coprod_{V \in T(e_1, \cdots, e_n; e)}
+  \Delta[1]^{i(V)}
+  \,.
+$$
+
+In general, when $T$ is regarded as an $\mathcal{E}$-operad, we have
+
+$$  
+  W(T)(e_1, \cdots, e_n; e)
+  =
+  \coprod_{V \in T(e_1, \cdots, e_n; e)}
+  H^{\otimes i(V)}
+  \,,
+$$
+
+where $H$ is the given [[interval object]].
+
+=--
+
+Let
+
+$$
+  Symm : \mathcal{E} Operad_{planar} \to \mathcal{E} Operad
+$$
+
+be the symmetrization functor, the [[left adjoint]] to the [[forgetful functor]] from [[symmetric operads]] to [[planar operads]]. 
+
++-- {: .num_prop}
+###### Observation
+
+The BV resolution commutes with symmetrization: if $T = Symm(\bar T)$, then 
+
+$$
+  W(T) = Symm(W(\bar T))
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Observation
+
+The composition operations in $W(T)$
+
+$$
+  \array{
+    W(T)(e_1, \cdots, e_n; e_0) \otimes W(T)(f_1, \cdots, f_k; e_i)
+    \\
+    \downarrow^{\mathrlap{\circ_i}}
+    \\
+    W(T)(e_1, \cdots, e_{i-1}, f_1, \cdots, f_k, e_{i+1}, \cdots, e_n)
+  }
+$$
+
+correspond to grafting of trees $T_\sigma, T_\rho \subset T$ with the given in- and outputs and is given on the components as discussed above by 
+
+$$
+  \array{
+    H^{\otimes i(T_\sigma)} \otimes H^{\otimes i(T_\rho)}
+    &&
+    H^{\otimes i(T_\sigma \circ_i T_\rho)}
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    &&
+    \uparrow^{\mathrlap{\simeq}}
+    \\
+    H^{\otimes i(T_\sigma) \cup i(T_\rho)} \otimes I
+     &\stackrel{id \otimes I}{\to}&
+    H^{i(T_\sigma) \cup i(T_\rho)} \otimes H
+  }
+$$
+
+
+=--
+
+### The homotopy coherent nerve
+
+By the general discussion at [[nerve]] and realization, the functor
+
+$$
+  \Omega \hookrightarrow Operad \hookrightarrow sSet Operad 
+   \stackrel{W}{\to}
+  sSet Operad
+$$
+
+discussed [above](#BVResolutionOfTrees) induces a [[nerve]] functor as follows.
+
++-- {: .num_defn}
+###### Definition
+
+The **dendroidal homotopy coherent nerve** functor is the [[functor]]
+
+$$
+  hcN_d : sSet Cat \to dSet
+$$
+
+given by 
+
+$$
+  P \mapsto ( T \mapsto sSet Operad(W(T), P) )
+  \,.
+$$
+
+=--
+
+
+
 ## Properties
 
-The dendroidal homotopy coherent nerve induces a [[Quillen equivalence]] between the [[model structure on operads]] over [[Top]]/[[sSet]] and the [[model structure on dendroidal sets]] (see there for details).
+### Specialization to categories
+
++-- {: .num_prop}
+###### Proposition
+
+When restricted to $\mathcal{E}$-[[enriched categories]], the dendroidal homotopy coherent nerve reproduces the [[homotopy coherent nerve]] of enriched categories
+
+$$
+  \array{
+    \mathcal{E} Cat &\hookrightarrow& \mathcal{E} Operad
+    \\
+    {}^{\mathllap{hcN}}\downarrow && \downarrow^{\mathrlap{hcN_d}}
+    \\
+    sSet &\hookrightarrow& dSet
+  }
+  \,.
+$$
+
+In particular for $\mathcal{E} = $ [[Top]] / [[sSet]] it reproduces the original definition of homotopy coherent nerve.
+
+=--
 
 
+### Dendroidal inner Kan complexes
+
+
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $P \in \mathcal{E} Operad$ be such that each object of operation is fibrant in $\mathcal{E}$. Then its homotopy coherent nerve $hcN_d(P)$ is a [[model structure on dendroidal sets|dendroidal inner Kan complex]].
+
+=--
+
+This is ([Moerdijk-Weiss, theorem 7.1](#MoerdijkWeiss)).
+
+### Left adjoint 
+  {#LeftAdjoint}
+
++-- {: .num_defn}
+###### Definition
+
+Write
+
+$$
+  W_! : dSet \to sSet Operad
+$$
+
+for the [[Yoneda extension]] of 
+
+$$
+  \Omega \hookrightarrow Operad \hookrightarrow sSet Operad \stackrel{W}{\to} sSet Operad
+  \,;
+$$
+
+hence for the [[functor]] from [[dendroidal sets]] to [[simplicial operads]], which 
+
+* preserves [[colimits]];
+
+* on trees $\Omega \hookrightarrow Operad \hookrightarrow sSet Operad$ 
+  is given by the [[Boardman-Vogt resolution]] as discussed [above](#BVResolutionOfTrees).
+
+=--
+
+By the general lore of [[nerve and realization]] we have
+
++-- {: .num_prop}
+###### Proposition
+
+$W_!$ is [[left adjoint]] to $hcN_d$
+
+$$
+  (W_! \dashv hcN_d)
+  : 
+  sSet Operad
+  \stackrel{\overset{N_d}{\leftarrow}}{\underset{hcN_d}{\to}}
+ dSet
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For $P \in sSet Operad$, the [[unit of an adjunction|counit]]
+
+$$
+  W_! hcN_d (P) \to P
+$$
+
+is essentially the [[Boardman-Vogt resolution]] of $P$.
+
+For a cofibrant and fibrant $X \in dSet$, the [[unit of an adjunction|unit]]
+
+$$
+  X \to hcN_d W_!(X)
+$$
+
+may be viewed as a "strictification" of the [[(infinity,1)-operad]] given by $X$, in that  $W_!(X)$, being a simplicial operad, has strictly associative composition.
+
+=--
+
+
+
+### Quillen equivalence
+
++-- {: .num_theorem}
+###### Theorem
+
+The [[adjunction]] $(W_! \dashv hcN_d)$ from [above](#LeftAdjoint) is a [[Quillen equivalence]] between the [[model structure on operads]] over [[Top]]/[[sSet]] and the [[model structure on dendroidal sets]].
+
+=--
+
+## Related concepts
+
+[[!include table - models for (infinity,1)-operads]]
+  
 
 ## References
 
-See the references at _[[model structure on dendroidal sets]]_.
+Section 7 in 
+
+* [[Ieke Moerdijk]], [[Ittay Weiss]], _On inner Kan complexes in the category of dendroidal sets_, [math.CT/0701295](http://arxiv.org/abs/math/0701295)
+ {#MoerdijkWeiss}
+
+Section 4 in
+
+* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets and simplicial operads_ ([arXiv:1109.1004](http://arxiv.org/abs/1109.1004))
+ {#CisinskiMoerdijk}
 
 
 [[!redirects homotopy coherent dendroidal nerve]]
