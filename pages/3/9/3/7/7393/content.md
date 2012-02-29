@@ -25,5 +25,15 @@ The [[operad|operadic]] analog of the [[model structure for Segal categories]].
 
 ## Properties
 
-[[!include table - models for (infinity,1)-operads]]
+### Relation to other model structures
 
+We discuss the relation to various other model structures for operads. For an overview see _[[table - models for (infinity,1)-operads]]_.
+
+#### To dendroidal complete Segal spaces
+
+(...) [[model structure for dendroidal complete Segal spaces]]
+
+## References
+
+* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_ ([arXiv:1010.4956](http://arxiv.org/abs/1010.4956))
+ {#CisinskiMoerdijk}
