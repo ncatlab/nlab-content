@@ -17,9 +17,9 @@ If you need it, here is my email: david dot roberts (at symbol) adelaide dot edu
 
 ## Thesis ##
 
-*  This is the final accepted version of my PhD thesis ([pdf](http://ncatlab.org/davidroberts/files/DMRthesis_final.pdf)).
+*  _Fundamental bigroupoids and 2-covering spaces_, PhD thesis, University of Adelaide (2010). [pdf](http://ncatlab.org/davidroberts/files/DMRthesis_final.pdf)
 
- * **Abstract:** This thesis introduces two main concepts: the fundamental [[bigroupoid]] of a [[topological groupoid]] and 2-covering spaces, a [[nLab:vertical categorification|categorification]] of [[nLab:covering space|covering spaces]]. The first is applied to the second to show, among other things, that the [[fundamental 2-group]] of the 2-covering space is a sub-2-group of the fundamental 2-group of the base. Along the way we derive general results about [[bicategory of fractions|localisations]] of the 2-categories of categories and groupoids internal to a [[site]] at classes of [[weak equivalence of internal categories|weak equivalences]], construct a [[topological fundamental bigroupoid]] of [[nLab:well-connected space|locally well-behaved]] spaces, and finish by providing a rich source of examples of 2-covering spaces, including a [[functorial 2-connected cover|functorial]] 2-connected 2-covering space.
+**Abstract:** This thesis introduces two main concepts: the fundamental [[bigroupoid]] of a [[topological groupoid]] and 2-covering spaces, a [[nLab:vertical categorification|categorification]] of [[nLab:covering space|covering spaces]]. The first is applied to the second to show, among other things, that the [[fundamental 2-group]] of the 2-covering space is a sub-2-group of the fundamental 2-group of the base. Along the way we derive general results about [[bicategory of fractions|localisations]] of the 2-categories of categories and groupoids internal to a [[site]] at classes of [[weak equivalence of internal categories|weak equivalences]], construct a [[topological fundamental bigroupoid]] of [[nLab:well-connected space|locally well-behaved]] spaces, and finish by providing a rich source of examples of 2-covering spaces, including a [[functorial 2-connected cover|functorial]] 2-connected 2-covering space.
 
 
 category: people
