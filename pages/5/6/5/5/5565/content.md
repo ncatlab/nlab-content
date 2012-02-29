@@ -99,6 +99,8 @@ and $Grpd_{nat}$ is the [[transferred model structure]] obtained from $sSet_{Qui
 
 * **canonical model structure on $Grpd$**
 
+* [[canonical model structure on Operad]]
+
 ## References
 
 This model category structure appears originally in
