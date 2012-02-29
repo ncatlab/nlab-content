@@ -35,6 +35,7 @@ There is a fairly evident notion of [[∞-algebra over an (∞,1)-operad]]s. Exa
 
 * [[A-∞ algebra]]s.
 
+$(\infty,1)$-Operads form an [[(∞,2)-category]] [[(∞,1)Operad]].
 
 ## Definitions
 
