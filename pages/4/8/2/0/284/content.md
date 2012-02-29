@@ -210,6 +210,27 @@ to iteration and hence to an inductive definition of
 
 An $A_\infty$-[[A-infinity category|category]] can also be thought of as a category "weakly enriched" in spaces (i.e. $\infty$-groupoids), except that in contrast to the Segal approaches the "weakness" is specified [[algebraic definition of higher category|algebraically]] and parametrized by an [[operad]].  This approach can be generalized to the [[Trimble n-category|Trimble]] definition of $n$-category or $(\infty,n)$-category.
 
+## Properties
+
+### $(\infty,1)$-Category theory
+
+A crucial point about the notion of _$(\infty,1)$-category_ is that it supports all the standard constructions and theorems of [[category theory]], if only the consistent replacements are made ([[isomorphism]] becomes [[equivalence]], etc.).
+
+See _[[(∞,1)-category theory]]_.
+
+
+### The collection of all $(\infty,1)$-categories
+
+The collection of all $(\infty,1)$-categories
+forms an [[(∞,2)-category]] called [[(∞,1)Cat]].
+
+Often it is useful to regard that as a (large) $(\infty,1)$-category itself, by discarding the non-invertible [[natural transformations]].
+
+### Model category presentations
+
+There is a wealth of different presentations of $(\infty,1)$-categories. 
+
+See _[[table - models for (∞,1)-categories]]_.
 
 ## Related concepts
 
