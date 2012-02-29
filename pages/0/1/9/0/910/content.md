@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -146,7 +145,7 @@ Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Un
 
 * Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
 
-
+[[!redirects compactly generated topological spaces]]
 [[!redirects compactly generated space]]
 [[!redirects compactly generated spaces]]
 [[!redirects k-space]]
