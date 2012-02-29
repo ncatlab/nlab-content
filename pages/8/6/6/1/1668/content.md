@@ -822,6 +822,40 @@ x_{m 1} &amp; x_{m 2} &amp; \dots &amp; x_{m n}
 
 The operations that commute with a given set of operations in an algebraic theory form a subtheory. The __centre__ of an algebraic theory is given by the operations that commute with all the operations of the theory. An algebraic theory is __commutative__ if every pair of its operations commute. Another way of describing the centre is to say that it consists of those operations which are also [[homomorphisms]]; an algebraic theory is commutative if all of its operations are homomorphisms.
 
+Here is a more formal definition, expressed in terms of structure on the monad $T$ associated with the algebraic theory. 
+
++-- {: .num_def} 
+###### Definition 
+$T$ is _commutative_ if there is an equality between two maps 
+
+$$\alpha = \beta \colon T A \times T B \stackrel{\to}{\to} T(A \times B)$$ 
+
+where 
+
+* $\alpha$ is the composite 
+$$T A \times T B \stackrel{\sigma_{A, T B}}{\to} T(A \times T B) \stackrel{T(\tau_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
+Here $\sigma$ denotes a _strength_ of the monad $T$, and $\tau$ its symmetric counterpart. 
+
+* $\beta$ is the unique composite map 
+$$T A \times T B \stackrel{\tau_{T A, B}}{\to} T(T A \times B) \stackrel{T(\sigma_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
+
+=-- 
+
+It is worth checking what this description gives more explicitly. Starting with a pair of elements in $T A \times T B$, 
+
+$$\langle (\omega; a_1, \ldots, a_m), (\chi; b_1, \ldots, b_n)\rangle$$ 
+
+(and here we should be considering equivalence classes of such formal operations), the map $\alpha$ sends this to 
+
+$$(\omega(\chi, \ldots, \chi); (a_1, b_1), \ldots (a_1, b_n)), \ldots, (a_m, b_1), \ldots, (a_m, b_n))$$ 
+
+where $\omega(\chi, \ldots, \chi)$ is the evident operation of arity $m n = n + \ldots + n$. On the other hand, the map $\beta$ sends this pair to 
+
+$$(\chi(\omega, \ldots, \omega); (a_1, b_1), \ldots, (a_m, b_1), \ldots, (a_1, b_n), \ldots, (a_m, b_n))$$ 
+
+where $\chi(\omega, \ldots, \omega)$ is the evident operation of arity $n m = m + \ldots + m$. 
+
+
 ## Properties
 
 ### Closed monoidal structure on algebras
@@ -832,36 +866,9 @@ The monoidal structure $\otimes$ can be extracted by a straightforward generaliz
 
 $$A \otimes B \to C$$ 
 
-are equivalent to maps $f \colon A \times B \to C$ for which each $f(a, -) \colon B \to C$ and each $f(-, b) \colon A \to C$ is a $T$-homomorphism. This can be internalized as follows. 
+are equivalent to maps $f \colon A \times B \to C$ for which each $f(a, -) \colon B \to C$ and each $f(-, b) \colon A \to C$ is a $T$-homomorphism. This can be internalized as follows. (To be continued.) 
 
-+-- {: .num_def} 
-###### Definition 
-$A \otimes B$ is the coequalizer of two $T$-algebra maps 
 
-$$\alpha, \beta \colon T(T A \times T B) \stackrel{\to}{\to} T(A \times B)$$ 
-
-Here $\alpha$ is the unique $T$-algebra map whose restriction along $u \colon T A \times T B \to T(T A \times T B)$ is the composite 
-
-$$T A \times T B \stackrel{\sigma_{A, T B}}{\to} T(A \times T B) \stackrel{T(\tau_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
-
-Here $\sigma$ denotes a _strength_ of the monad $T$, and $\tau$ its symmetric counterpart. Similarly, $\beta$ is the unique $T$-algebra map whose restriction along the unit $u$ is the composite map 
-
-$$T A \times T B \stackrel{\tau_{T A, B}}{\to} T(T A \times B) \stackrel{T(\sigma_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
-=-- 
-
-It is worth seeing what this description gives more explicitly. Starting with a pair of elements in $T A \times T B$, 
-
-$$\langle (\omega; a_1, \ldots, a_m), (\chi; b_1, \ldots, b_n)\rangle$$ 
-
-(and here we should be considering equivalence classes of such formal operations), the map $\alpha \circ u$ sends this to 
-
-$$(\omega(\chi, \ldots, \chi); (a_1, b_1), \ldots (a_1, b_n)), \ldots, (a_m, b_1), \ldots, (a_m, b_n))$$ 
-
-where $\omega(\chi, \ldots, \chi)$ is the evident operation of arity $m n = n + \ldots n$. On the other hand, the map $\beta \circ u$ sends this pair to 
-
-$$(\chi(\omega, \ldots, \omega); (a_1, b_1), \ldots, (a_m, b_1), \ldots, (a_1, b_n), \ldots, (a_m, b_n))$$ 
-
-where $\chi(\omega, \ldots, \omega)$ is the evident operation of arity $n m = m + \ldots + m$. 
 
 ## References
 
