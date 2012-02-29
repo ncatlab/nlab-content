@@ -344,6 +344,7 @@ $$
 given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
 ## References
+ {#References}
 
 
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
