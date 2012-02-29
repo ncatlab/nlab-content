@@ -21,6 +21,8 @@ An **$A_\infty$-space** is an [[A-∞ algebra]] in [[Top]]. See there for more d
 
 * [[E-∞ space]]
 
+* [[model structure for dendroidal left fibrations]]
+
 ## References
 
 $A_\infty$-spaces were introduced by Jim Stasheff as a refinement of an $H$-[[H-space|group]] taking into account higher coherences.
