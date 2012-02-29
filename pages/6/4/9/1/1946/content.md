@@ -419,7 +419,9 @@ $$
 
 =--
 
+## Related concepts
 
+* [[generalized Reedy model structure]]
 
 ## References 
 
