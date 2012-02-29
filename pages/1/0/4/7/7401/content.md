@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+ {:toc}
+
+## Idea
+
+A class of [[model categories]] that generalizes the [[Reedy model structure]] when the underlying site is generalized from a [[Reedy category]] to a [[generalized Reedy category]].
+
+## Examples
+
+* The [[model structure for dendroidal complete Segal spaces]] is a [[Bousfield localization of model categories|left Bousfield localization]] of the generalized Reedy model structure over the [[tree category]].
+
+## References 
+
+* [[Clemens Berger]] and [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_ (2008) ([arXiv:0809.3341](http://arxiv.org/abs/0809.3341))
+ {#BergerMoerdijk}
