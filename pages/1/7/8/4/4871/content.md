@@ -4,5 +4,9 @@ I'm a grad student at UC Berkeley.  No, I'm not a member of the Logic group.
 There seem to be [four of you Adams](http://math.berkeley.edu/people_grads.html).  ---[[Toby Bartels]]
 =--
 
++-- {: .query}
+Adam - Just read your page on GATs. You got an email address? My email john.w.cartmell@gmail.com. Interesting speculations.
+=-- 
+
 
 category: people
