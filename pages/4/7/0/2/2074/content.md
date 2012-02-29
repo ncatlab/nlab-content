@@ -657,7 +657,9 @@ Indeed, the full sSet-enriched subcategory $(sSet_{Joyal})^\circ$ on fibrant-cof
 The resulting [[(∞,1)-category]] should have a presentation by a [[simplicial model category]]. And the model structure on marked simplicial sets does accomplish this.
 
 
+## Related concepts
 
+* [[model structure for dendroidal Cartesian fibrations]]
   
 ## References 
 
