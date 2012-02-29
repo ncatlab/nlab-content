@@ -1,3 +1,4 @@
+[[!redirects discrete space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -9,7 +10,7 @@
 =--
 =--
 
-# Discrete spaces
+
 * table of contents
 {: toc}
 
