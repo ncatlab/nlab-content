@@ -36,15 +36,31 @@ An amusing discussion on the differences between schemes and varieties can be fo
 
 
 [[!redirects algebraic varieties]]
+
 [[!redirects affine variety]]
 [[!redirects affine varieties]]
+[[!redirects affine algebraic variety]]
+[[!redirects affine algebraic varieties]]
+
 [[!redirects projective variety]]
 [[!redirects projective varieties]]
+[[!redirects projective algebraic variety]]
+[[!redirects projective algebraic varieties]]
+
 [[!redirects quasiaffine variety]]
 [[!redirects quasiaffine varieties]]
+[[!redirects quasiaffine algebraic variety]]
+[[!redirects quasiaffine algebraic varieties]]
+
 [[!redirects quasi-projective variety]]
 [[!redirects quasiprojective variety]]
 [[!redirects quasi-projective varieties]]
 [[!redirects quasiprojective varieties]]
+[[!redirects quasi-projective algebraic variety]]
+[[!redirects quasiprojective algebraic variety]]
+[[!redirects quasi-projective algebraic varieties]]
+[[!redirects quasiprojective algebraic varieties]]
+
+
 [[!redirects variety]]
 [[!redirects varieties]]
