@@ -1,9 +1,11 @@
+
 # Filters
+* table of contents
+{: toc}
+
+## Idea
 
 A _filter_ is [[duality|dual]] to an [[ideal]].
-
-* tic
-{: toc}
 
 
 ## Definitions
@@ -63,7 +65,7 @@ In a [[metric space]] $S$, a filter $F$ on $S$ is __Cauchy__ if it has elements 
 ## References
 
 * [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Filter_%28mathematics%29).
-* [[Peter Johnstone]] (1982). _[[Stone Spaces]]_. Cambridge University Press. ISBN 0-521-23893-5.
+* [[Peter Johnstone]], _[[Stone Spaces]]_. Cambridge University Press. (1982) ISBN 0-521-23893-5.
 
 
 [[!redirects filters]]
