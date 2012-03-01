@@ -191,3 +191,7 @@ A [[categorification]] of the Heisenberg algebra appears in
 
 * [[Mikhail Khovanov]], _Heisenberg algebra and a graphical calculus_ ([arXiv:1009.3295](http://arxiv.org/abs/1009.3295))
 
+[[!redirects Heisenberg Lie algebras]]
+
+[[!redirects Heisenberg algebra]]
+[[!redirects Heisenberg algebras]]
