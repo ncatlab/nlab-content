@@ -1,0 +1,10 @@
+
+
+## References
+
+The notion was introduced in 
+
+* [[Michael Makkai]], _The topos of types_, Logic Year 1979{80 (Proc. Seminars and Conf. Math. Logic, Univ. Connecticut, Storrs, Conn., 1979/80), Lecture Notes in Math., vol. 859, Springer, Berlin (1981) pp. 157-201.
+
+[[!redirects toposes of types]]
+[[!redirects topoi of types]]
