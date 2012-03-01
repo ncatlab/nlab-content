@@ -34,6 +34,14 @@ $$
 
 Inasmuch as a symplectic manifold $(M, \omega)$ carries a canonical [[volume form]] $\omega^{\wedge n}$, it is clear that a symplectomorphism is locally volume-preserving. 
 
+### Relation to Poisson brackets
+
+The [[Lie algebra]] give by the [[Poisson bracket]] of a [[symplectic manifold]] $(X, \omega)$ is that of a [[central extension]] of the group of Hamiltonian symplectomorphisms.
+
+The central extension results form the fact that the Hamiltonian associated with every [[Hamiltonian vector field]] is well defined only up to the addition of a constant function.
+
+If $(X, \omega)$ is a [[symplectic vector space]] then there is corresponding to it a [[Heisenberg Lie algebra]]. This sits inside the Poisson bracket algebra, and accordingly the [[Heisenberg group]] is a subgroup of the group of (necessarily Hamiltonian) symplectomorphisms of the symplectic vector space, regarded as a symplectic manifold.
+
 
 ## Examples
 
