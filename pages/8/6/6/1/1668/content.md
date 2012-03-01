@@ -836,7 +836,7 @@ where
 $$T A \times T B \stackrel{\sigma_{A, T B}}{\to} T(A \times T B) \stackrel{T(\tau_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
 Here $\sigma$ denotes a _strength_ of the monad $T$, and $\tau$ its symmetric counterpart. 
 
-* $\beta$ is the unique composite map 
+* $\beta$ is the composite 
 $$T A \times T B \stackrel{\tau_{T A, B}}{\to} T(T A \times B) \stackrel{T(\sigma_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
 
 =-- 
@@ -849,9 +849,13 @@ $$\langle (\omega; a_1, \ldots, a_m), (\chi; b_1, \ldots, b_n)\rangle$$
 
 $$(\omega(\chi, \ldots, \chi); (a_1, b_1), \ldots (a_1, b_n)), \ldots, (a_m, b_1), \ldots, (a_m, b_n))$$ 
 
-where $\omega(\chi, \ldots, \chi)$ is the evident operation of arity $m n = n + \ldots + n$. On the other hand, the map $\beta$ sends this pair to 
+where $\omega(\chi, \ldots, \chi)$ is the evident operation of arity $m n = n + \ldots + n$. In more detail, $\alpha(\langle (\omega; \vec{a}), (\chi; \vec{b} \rangle)$ is the end result of the sequence 
 
-$$(\chi(\omega, \ldots, \omega); (a_1, b_1), \ldots, (a_m, b_1), \ldots, (a_1, b_n), \ldots, (a_m, b_n))$$ 
+$$\langle (\omega; \vec{a}), (\chi; \vec{b}) \rangle \stackrel{\sigma}{\mapsto} (\omega; (a_1, (\chi; \vec{b})), \ldots, (a_m, (\chi; \vec{b}))) \stackrel{T\tau}{\mapsto} (\omega; (\chi; (a_1, \vec{b})), \ldots, (\chi; (a_m, \vec{b}))) \stackrel{m}{\mapsto} (\omega(\chi, \ldots, \chi); (a_1, \vec{b}), \ldots, (a_m, \vec{b})).$$ 
+
+Similarly, the map $\beta$ sends the pair $\langle (\omega; \vec{a}), (\chi; \vec{b} \rangle$ to 
+
+$$(\chi(\omega, \ldots, \omega); (\vec{a}, b_1), \ldots, (\vec{a}, b_n))$$ 
 
 where $\chi(\omega, \ldots, \omega)$ is the evident operation of arity $n m = m + \ldots + m$. 
 
