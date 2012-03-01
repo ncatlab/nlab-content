@@ -5,18 +5,20 @@
 
 ## Character on a group
 
-There are many notions of a character for an algebraic structure, often topologized. A character on the [[group]] $G$ is [[homomorphism]] into the group of units (invertible elements) of the ground field. Regarding that the codomain is abelian, the set of characters is an abelian group under the pointwise multiplication.
+There are many notions of a character for an algebraic structure, often topologized. A character on the [[group]] $G$ is a [[homomorphism]] into the group of units (invertible elements) of the [[ground field]]. Regarding that the codomain is abelian, the set of characters is an abelian group under the pointwise multiplication.
 
 For [[topological groups]] one considers continuous characters. Specifically, for a [[locally compact Hausdorff]] group $G$ (often further assumed to be an [[abelian group]]), a __character__ of $G$ is continuous homomorphism to the [[circle]] group $\mathbb{R}/\mathbb{Z}$. If $G$ is [[profinite group|profinite]], then this is the same as an continuous homomorphism to the [[discrete space|discrete]] group $\mathbb{Q}/\mathbb{Z}$.  (See [MO](http://mathoverflow.net/questions/86089/two-definitions-of-character-of-topological-groups).)
 
 
 ## Character of a representation
 
-In [[representation theory]], one defines the character of the representation $\rho\colon G\to End(V)$ to be the function on $G$ (or equivalently on the set of conjugacy classes of elements in $G$) given by $g \mapsto Tr \rho(g)$, whenever the trace in $V$ makes sense.
+In [[representation theory]], one defines the character of a representation $\rho\colon G\to End(V)$ to be the function on $G$ given by $g \mapsto Tr \rho(g)$, whenever the [[trace]] in $V$ makes sense (e.g. when $V$ is finite-dimensional).  Since such a function is invariant under conjugation, we may equivalently consider it a function on the set of conjugacy classes of elements in $G$.
+
+Sometimes we also extend a character linearly to the free vector space on the set of conjugacy classes.  This version of the character can be identified with the [[bicategorical trace]] of the identity map of the representation, considered as a $k[G]$-$k$-module.
 
 There is a different notion of an _infinitesimal character_ in [[Harish–Chandra theory]] and also a notion of the _formal character_.
 
-There are important formulas concerning characters in representation theory, like Weyl character formula, Kirillov character formula, Demazure character formula and so on. 
+There are important formulas concerning characters in representation theory, like Weyl character formula, Kirillov character formula, Demazure character formula and so on.  There is also a formula for the [[induced character]] of an [[induced representation]].
 
 
 ## Character of a topological space
