@@ -16,15 +16,15 @@
 
 ## Idea
 
-A _hyperdoctrine_ is a way of enriching a given category with a given kind of logic.  Specifically, a hyperdoctrine for a given notion of [[logic]] $L$ is a [[functor]]
+A _hyperdoctrine_ is a way of enriching a given [[category]] with a given kind of [[logic]].  Specifically, a hyperdoctrine on a category $T$ for a given notion of logic $L$ is a [[functor]]
 
 $$
   P \colon T^{op} \to \mathbf{C}
 $$
 
-to some [[2-category]] (or even [[higher category]]) $\mathbf{C}$, whose objects are categories whose [[internal logic]] corresponds to $L$.  Thus, each object $A$ of $T$ is assigned an "$L$-logic" (the internal logic of $P(A)$.
+to some [[2-category]] (or even [[higher category]]) $\mathbf{C}$, whose objects are categories whose [[internal logic]] corresponds to $L$.  Thus, each object $A$ of $T$ is assigned an "$L$-logic" (the internal logic of $P(A)$).
 
-In the most classical case, $L$ is [[propositional logic]], and $\mathbf{C}$ is a 2-category of posets (e.g. [[lattices]], [[Heyting algebras]], or [[frames]]).  A hyperdoctrine is then an incarnation of first-order [[predicate logic]].  A canonical class of examples of this case is where $P$ sends $A \in T$ to the [[poset of subobjects]] $Sub_T(A)$ of $A$.  The predicate logic we obtain in this way is the usual sort of [[internal logic]] of $T$.
+In the most classical case, $L$ is [[propositional logic]], and $\mathbf{C}$ is a 2-category of [[posets]] (e.g. [[lattices]], [[Heyting algebras]], or [[frames]]).  A hyperdoctrine is then an incarnation of [[first-order logic|first-order]] [[predicate logic]].  A canonical class of examples of this case is where $P$ sends $A \in T$ to the [[poset of subobjects]] $Sub_T(A)$ of $A$.  The predicate logic we obtain in this way is the usual sort of [[internal logic]] of $T$.
 
 We generally require also that for every morphism $f \colon A \to B$ the morphism $P(f)$ has both a [[left adjoint]] as well as a [[right adjoint]], typically required to satisfy [[Frobenius reciprocity]] and the [[Beck-Chevalley condition]].  These adjoints are regarded as the action of [[quantifiers]] along $f$.  Thus, a hyperdoctrine can also be regarded as a way of "adding quantifiers" to a given kind of logic.
 
@@ -81,7 +81,7 @@ nontrivial $P(X)$, but a syntactically presented one".
 
 ## References
 
-The notion was introdcued in 
+The notion was introduced in 
 
 * [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
