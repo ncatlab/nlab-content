@@ -50,7 +50,7 @@ $$
   \,.
 $$
 
-A free variable becomes a [[bound variable]] after application of a [[quantifier]]: for instance the image of $f : P \to X$ under [[base change]]
+A free variable becomes a **bound variabl** after application of a [[quantifier]]: for instance the image of $f : P \to X$ under [[base change]]
 
 $$
   \mathcal{C}_{/A} \stackrel{\to}{\stackrel{\leftarrow}{\to}}
@@ -69,7 +69,7 @@ $$
   \forall x : X , P(x)
 $$
 
-([[universal quantifier]]) in which now $x$ is a **bound variable**.
+([[universal quantifier]]) in which now $x$ is a _bound variable_.
 
 
 [[!redirects variables]]
