@@ -56,10 +56,19 @@ All of these can be found in chapter VI of Johnstone's book cited below.
 
 The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)$ is not equivalent to $Pro(FinGpd)$, in contrast to the case for groups.  (Of course, groupoids are not described by a Lawvere theory.)
 
+## Related concepts
+
+* [[canonical extension]]
 
 ## References
 
-[[Peter Johnstone]]\'s book _[[Stone Spaces]]_ is all about Stone duality.
+The book
+
+* [[Peter Johnstone]], _[[Stone Spaces]]_ 
+
+is all about Stone duality.
+
+See also
 
 * Olivia Caramello, _A topos-theoretic approach to Stone-type dualities_, [arxiv/1103.3493](http://arxiv.org/abs/1103.3493) 158 pp.
 
