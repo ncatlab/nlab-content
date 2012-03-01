@@ -191,6 +191,8 @@ This is ([Johnstone, prop. B1.3.17](#Johnstone)).
 
 * [[indexed topos]]
 
+* [[hyperdoctrine]]
+
 ## References
 
 Section B1.2 in 
