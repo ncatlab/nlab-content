@@ -22,7 +22,7 @@ A simplicial space $X:\Delta^{op}\to Top$ is called a reduced Segal space if:
 
 $X$ is called group-like reduced Segal space if in addition:
 
-(3) the monoid structure on $\pi_0 X_1$, induced from the $H$-space structure on $X_1$, admits inverses.
+(3) the monoid structure on $\pi_0 X_1$, induced from the $H$-space structure on $X_1$, admits inverses (i.e. it is a group).
 
 ## Properties
 
