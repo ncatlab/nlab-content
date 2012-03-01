@@ -48,3 +48,10 @@ $$
    * &\to& \mathbf{B}G
   }
 $$
+
+[[!redirects coset]]
+[[!redirects cosets]]
+[[!redirects left coset]]
+[[!redirects right coset]]
+[[!redirects left cosets]]
+[[!redirects right cosets]]
