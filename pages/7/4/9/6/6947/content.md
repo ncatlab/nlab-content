@@ -47,7 +47,7 @@ In terms of [[semantics]] (as for example topos-theoretic semantics; see the nex
 As observed by [[Lawvere]], we are not particularly constrained to product projections; we can pull back along any map $f \colon B \to A$. (Often we have a class of [[display maps]] and require $f$ to be one of these.) Alternatively, any pullback functor $f^\ast\colon Set/A \to Set/B$ can be construed as pulling back along an object $X = (f \colon B \to A)$, i.e., along the unique map $!\colon X \to 1$ corresponding to an object $X$ in the slice $Set/A$, since we have the identification $Set/B \simeq (Set/A)/X$. 
 
 
-## In topos theory
+## In topos theory / in terms of adjunctions
 
 In terms of the [[internal logic]] in some ambient [[topos]] $\mathcal{E}$, 
 
@@ -105,6 +105,8 @@ In other words, we obtain the existential quantifier by applying the [[dependent
 Dually, the [[direct image functor]] $\forall$ (dependent product) expresses the [[universal quantifier]].  (In this case, it is somewhat simpler, since the dependent product automatically preserves $(-1)$-truncated objects; no additional truncation step is necessary.)
 
 The same makes verbatim sense also in the [[(∞,1)-logic]] of any [[(∞,1)-topos]].
+
+This interpretation of existential quantification as the left adjoint to context extension is also used in the notion of _[[hyperdoctrine]]_.
 
 
 ## Examples
