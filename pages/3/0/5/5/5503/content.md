@@ -102,4 +102,8 @@ so that the *finite extensions* of $Th(V_\omega,\in)$ by suborders of $X$ are al
 
 By a similar argument, (if ZFC is consistent) there are models $M'$ of classical set theory satisfying the (higher-order) property that the natural numbers object $\omega_{M'}$ of $M'$ includes your favourite total order $(X,\lt)$ *as a suborder* --- of course, $M'$ isn't allowed to *know* this --- notably, there is **no object** $\xi$ in $M$ such that $\{y\mid y\epsilon \xi\} = \{c_x \mid x\in X\}$.
 
+## Related concepts
+
+* [[type (in model theory)]]
+
 [[!redirects model theory]]
