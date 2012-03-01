@@ -33,9 +33,9 @@ We spell out some special cases in detail.
 
 ### $H_3$ in components
 
-The simplest non-trivial example of a Heisenberg group is the unique [[simply connected topological space|simply connected]] Lie integration of the [[Heisenberg Lie algebra]] $Heis(\mathbb{R}^2, \omega ? d p \wedge dq)$ on the the canonical 2-dimensional [[symplectic vector space]] $\mathbb{R}^2$ with canonical [[coordinates]] $(p,q)$. 
+The simplest non-trivial example of a Heisenberg group is the unique [[simply connected topological space|simply connected]] Lie integration of the [[Heisenberg Lie algebra]] $Heis(\mathbb{R}^2, \omega = d p \wedge dq)$ on the the canonical 2-dimensional [[symplectic vector space]] $\mathbb{R}^2$ with canonical [[coordinates]] $(p,q)$. 
 
-This Heisenberg Lie algebra is [[generators and relations|generated]] from 3 elements, denoted $\matbbf{p}, \mathbf{q},\mathbg{e}$, subject to the single non-trivial [[Lie bracket]]
+This Heisenberg Lie algebra is [[generators and relations|generated]] from 3 elements, here to be denoted $\mathbf{p}, \mathbf{q},\mathbf{e}$, subject to the single non-trivial [[Lie bracket]]
 
 $$
   [\mathbf{q}, \mathbf{p}] = \mathbf{e}
