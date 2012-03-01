@@ -15,20 +15,177 @@
 
 ## Definition
 
+### General
 
-Suppose we are given a commutative unital [[ring]] $k$ and a [[module]] $M$ over $k$ equipped with a skew-symmetric form $\omega: M\otimes_k M\to k$ (Typically, one requires the non-degeneracy, but it is not needed for the definitions.). 
-
-The __Heisenberg Lie algebra__ corresponding to $(M,\omega)$ is the [[Lie algebra]] given by the $k$-module $M\oplus k$ together with the unit $k \hookrightarrow M\oplus k$, $s\mapsto (0,s) =: s 1$ and Lie $k$-algebra bracket
+Suppose we are given a commutative unital [[ring]] $k$ and a [[module]] $V$ over $k$ equipped with a skew-symmetric [[bilinear form]] 
 
 $$
-  [(m,s),(m',s')] = (0, \omega(m,m')1)
+  \omega: V\otimes_k V\to k
+  \,.
+$$ 
+
+(Typically, one requires $\omega$ to be non-degenerate, see [below](InSymplecticGeometry), but this is not needed for the following definition). 
+
+The __Heisenberg Lie algebra__ $Heis(V, \omega)$ corresponding to $(V,\omega)$ is the [[Lie algebra]] given by the $k$-module $V\oplus k$ together with the unit $k \hookrightarrow V\oplus k$, $s\mapsto (0,s) =: s 1$ and Lie $k$-algebra bracket
+
+$$
+  [(m,s),(m',s')] := (0, \omega(m,m')1)
+  \,.
 $$
 
-## Related concepts
+### In symplectic geometry
+ {#InSymplecticGeometry}
 
-* [[Heisenberg group]]
+The notion of Heisenberg algebra arose in the study of [[quantization]] by tools of [[symplectic geometry]]:
+
+A special case of the above definition is that where $(V,\omega)$ a [[symplectic vector space]] (hence $k$ a [[field]] and $\omega$ non-degenerate).
+
+In this case the Heisenberg algebra is a sub-Lie algebra of the Lie algebra underlying the [[Poisson algebra]] of $(V,\omega)$. For more on this see [below](#RelationToPoissonAlgebra).
+
+## Properties
+
+### Relation to Poisson algebra
+ {#RelationToPoissonAlgebra}
+
+We discuss how the notion of Heisenberg Lie algebra relates to that of _[[Poisson algebra]]_.
+
++-- {: .num_prop}
+###### Proposition
+
+For $(X, \omega)$ a [[symplectic vector space]], there is a [[natural transformation|natural]]
+[[Lie algebra]] [[homomorphism]]
+
+$$
+  Heis(V, \omega) \hookrightarrow \mathcal{P}(V,\omega)
+$$
+
+exhibiting the Heisenberg Lie algebra as a [[subobject|sub]]-Lie algebra of that underlying the [[Poisson algebra]] $\mathcal{P}(V,\omega)$ of $V$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $(V, \omega)$ be a [[symplectic vector space]] over the [[real numbers]]. Using the canonical [[isomorphism]]
+$\phi : T V \simeq V \times V$ of the [[tangent bundle]] of $V$ with the [[projection]] $p_1 : V \times V \to V$, we obtain from the [[bilinear form]] $\omega$ a [[differential form|differential 2-form]] $\mathbf{\omega} \in \Omega^2(V)$ by the assignment
+
+$$
+  \mathbf{\omega}(\mathbf{v}, \mathbf{w}) 
+   := 
+  \omega(p_2 \phi(\mathbf{v}), p_2 \phi(\mathbf{w}))
+$$
+
+for all $\mathbf{v}, \mathbf{w} \in \Gamma(T V)$.
+
+
+This way $(V, \mathbf{\omega})$ is a [[symplectic manifold]] and thus comes with a [[Poisson algebra]].
+Write $\mathcal{P}(V,\mathbf{\omega})$ for the [[Lie algebra]] underlying the [[Poisson algebra]] of $(V, \mathbf{\omega})$.
+
+Its underlying [[vector space]] is the space $C^\infty(V)$ of [[smooth functions]] $V \to \mathbb{R}$. To every element $f \in C^\infty(V)$ is associated its _[[Hamiltonian vector field]]_ $\mathbf{v}_f \in \Gamma(T X)$, defined (uniquely, due to the non-degeneracy of $\omega$) by the equation
+
+$$
+  d_{dR} f = \mathbf{\omega}(\mathbf{v}_f, -)  
+  \,.
+$$
+
+In terms of this, the [[Lie bracket]] of the Poisson algebra is defined to be
+
+$$
+  [f,g] := \mathbf{\omega}(\mathbf{v}_f, \mathbf{v}_g)
+  \,.
+$$
+
+Inside all smooth functions sit the [[linear functions]] $V \to \mathbb{R}$, which form the [[dual vector space]] to $V$:
+
+$$
+  V^* \hookrightarrow C^\infty(V)
+$$
+$$
+  \alpha \mapsto \alpha(-)
+  \,.
+$$
+
+
+By the non-degeneracy of $\omega$, for every $f \in V^*$ there is an element $v_f \in V$ such that
+
+$$
+  f = \omega(v_f,-) \in C^\infty(V)
+  \,.
+$$
+
+Moreover, the canonical extension $\mathbf{v}_f$ of $v_f$ to a vector field on $V$ is a [[Hamiltonian vector field]] for $f$
+
+$$
+  d_{dR} f = \mathbf{\omega}(\mathbf{v}_f,-) 
+  \,.
+$$
+
+
+It follows that the Lie bracket of two [[linear functions]] $f,g$ in the Poisson algebra is
+
+$$
+  \begin{aligned} 
+    [f,g]
+      & = 
+    \mathbf{\omega}(\mathbf{v}_f, \mathbf{v}_g)
+     \\
+    & =
+     \omega(v_f, v_g)
+  \end{aligned}
+  \,.
+$$
+
+Notice that on the right we have a _constant_ function on $V$.
+
+Write $\rho_2 : \mathbb{R} \hookrightarrow C^\infty(V)$ for the inclusion of the constant functions, and write
+
+$$
+  \rho_1
+  :
+  V 
+    \stackrel{\omega}{\to} 
+  V^* 
+    \hookrightarrow 
+  C^\infty(V)
+  \,.
+$$
+
+Then, by the above, the inclusion
+
+$$
+  \rho : V \oplus \mathbb{R} \stackrel{(\rho_1, \rho_2)}{\to} C^\infty(V)
+$$
+
+induces a Lie algebra [[homomorphism]]
+
+$$
+  \rho 
+  :
+  Heis(V,\omega) 
+    \hookrightarrow 
+  \mathcal{P}(V, \mathbf{\omega})
+$$
+
+which exhibits the Heisenberg Lie algebra as a [[subobject|sub]]-Lie algebra of that underlying the Poisson algebra.
+
+=--
+
+
+### Integration to Heisenberg group
+
+As for any [[Lie algebra]] one has [[Lie integration]] of the Heisenberg Lie algebra to a [[Lie group]]. This is called the _[[Heisenberg group]]_ (of the given [[symplectic vector space]]). 
 
 ## References
+
+Lecture notes on standard material include for instance
+
+section 4 of 
+
+* Iain Gordon, _Infinite-dimensional Lie algebras_, Lecture notes, Edinburgh (2008) ([pdf](http://www.maths.ed.ac.uk/~igordon/LA1.pdf))
+
+section 4 (relating to [[geometric quantization]]) of
+
+* Teruji Thomas, _Geometric quantization II: Prequantization and the Heisenberg group_ ([pdf](http://www.maths.ed.ac.uk/~jthomas7/GeomQuant/Lecture2.pdf))
 
 A [[categorification]] of the Heisenberg algebra appears in 
 
