@@ -859,6 +859,17 @@ $$(\chi(\omega, \ldots, \omega); (\vec{a}, b_1), \ldots, (\vec{a}, b_n))$$
 
 where $\chi(\omega, \ldots, \omega)$ is the evident operation of arity $n m = m + \ldots + m$. 
 
+### Commutative theory as monoidal monad 
+
+Let $T$ be the $Set$-monad of a commutative theory. Then the map 
+
+$$\alpha_{A, B}: T A \times T B \to T(A \times B)$$ 
+
+as defined above can be shown to be the structure map for a monoidal structure on $T$, i.e., making $T$ a lax (symmetric) monoidal functor, and in fact the monad multiplication and unit become monoidal transformations. 
+In other words, we get a monad in the 2-category of symmetric monoidal categories, lax symmetric monoidal functors, and monoidal transformations: a [[monoidal monad]]. 
+
+In fact, it may be shown that commutative Lawvere theories on $Set$ are precisely the same things as symmetric monoidal monad structures on $(Set, \times)$, as shown by Anders Kock. For more on this, see [[monoidal monad]]. 
+
 
 ## Properties
 
@@ -866,13 +877,27 @@ where $\chi(\omega, \ldots, \omega)$ is the evident operation of arity $n m = m 
 
 If $f_1,\ldots , f_n$ are homomorphisms $A \to B$ of models (algebras) of a commutative algebraic theory, and $\omega$ is an $n$-ary operation of it, then the function $A \to B$ given by sending $a \in A$ to $\omega(f_1(a),\ldots ,f_n(a)) \in B$ is again a homomorphism, which is naturally called $\omega(f_1,\ldots ,f_n)$. In this way $Hom(A,B)$ is enriched as a model of the algebraic theory, and we have a [[closed category]] of models and homorphisms. Furthermore, this internal $Hom$ has a left adjoint $\otimes$ for which the free model on one generator is a unit, so we have a [[closed monoidal category]], in fact a closed [[symmetric monoidal category]].
 
-The monoidal structure $\otimes$ can be extracted by a straightforward generalization of the usual tensor product of abelian groups (or of commutative monoids), where "bilinearity conditions" = "linearity in separate variables" is replaced by "$T$-homomorphicity in separate variables", where $T$ is the monad of the algebraic theory. In detail, if $A$ and $B$ are $T$-algebras, the tensor product $A \otimes B$ ought to be such that $T$-homomorphisms 
+The monoidal structure $\otimes$ can be extracted by a straightforward generalization of the usual tensor product of abelian groups (or of commutative monoids), where "bilinearity conditions" = "linearity in separate variables" is replaced by "$T$-homomorphicity in separate variables", where $T$ is the monad of the algebraic theory. In slightly more detail, if $A$ and $B$ are $T$-algebras, the tensor product $A \otimes B$ ought to be $T(A \times B)$ modulo equivalences 
 
-$$A \otimes B \to C$$ 
+$$\omega(a_1, \ldots, a_m) \otimes \chi(b_1, \ldots, b_n) \sim (\omega(\chi, \ldots, \chi); (a_1, b_1), \ldots, (a_m, b_n))$$ 
 
-are equivalent to maps $f \colon A \times B \to C$ for which each $f(a, -) \colon B \to C$ and each $f(-, b) \colon A \to C$ is a $T$-homomorphism. This can be internalized as follows. (To be continued.) 
+where the left side is represented by a composite 
 
+$$T A \times T B \stackrel{\xi_A \times \xi_B}{\to} A \times B \stackrel{u(A \times B)}{\to} T(A \times B)$$ 
 
+(the $\xi$'s are $T$-algebra structures), and the right side by the monoidal structure map on $T$, 
+
+$$\alpha_{A, B} \colon T A \times T B \to T(A \times B).$$ 
+
+In more detail still, $A \otimes B$ is the following coequalizer in $Alg_T$: 
+
+$$\array{
+T(T A \times T B) & \stackrel{T\alpha}{\to} & T T(A \times B) & \\
+ & ^\mathllap{T(\xi_A \times \xi_B)} \searrow & \downarrow^\mathrlap{m} & \\
+ & & T(A \times B) & \to & A \otimes B
+}$$ 
+
+This construction carries over to the wider context of monoidal monads. 
 
 ## References
 
