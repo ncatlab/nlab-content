@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -17,14 +19,37 @@
 
 ## Definition
 
-The **Heisenberg group** is the [[group]] structure on the [[Cartesian space]] $\mathbb{R}^3$ whose group operation is defined by
+### $H_3$ in components
+
+The **Heisenberg group** $H_3$ is the [[group]] structure on the [[Cartesian space]] $\mathbb{R}^3$ whose group operation is defined by
 
 $$
   (a_1, b_1, c_1) \circ (a_2 , b_2, c_3) = (a_1 + a_2 , b_1 + b_2, c_1 + c_2 + a_1 b_2)
   \,.
 $$
 
+### For a symplectic vector space
+
+Let $(V, \omega)$ be a [[symplectic vector space]]. 
+
+Regard $V$ with its [[abelian group]] structure underlying its [[vector space]] structure.
+
+The Heisenberg group $H(V,\omega)$ is the space $V \times U(1)$ (for $U(1)$ the [[circle group]]) equipped with the group product
+
+$$
+  (v_1, c_1) \cdot (v_2, c_2)
+  = 
+  (v_1 + v_2, c_1 c_2 \exp(i \omega(v,w)))
+  \,.
+$$
+
 ## Properties
+
+### Relation to Poisson algebra
+
+A [[symplectic vector space]] $(V, \omega)$ is in particular a [[symplectic manifold]]. Accordingly its algebra of [[smooth functions]] $C^\infty(V)$ is a [[Poisson algebra]]. The [[Lie algebra]] underlying the Poisson algebra contains the [[Heisenberg Lie algebra]] as the subspace of [[linear functions]] $V^* \subset C^\infty(V)$. 
+
+(...)
 
 ### Cocycle and extension
 
@@ -55,6 +80,16 @@ The Heisenberg group is the [[group extension]] of $\mathbb{R}^2$ by this cocycl
 
 * [[Stone-von Neumann theorem]]
 
+### Automorphism group
+
+The [[automorphism group]] of the Heisenberg group is the [[symplectic group]].
+
 ## Related concepts
 
 * [[Heisenberg Lie algebra]]
+
+## References
+
+Discussion in the context of [[geometric quantization]] is in 
+
+* _Geometric quantization II, Prequantization and the Heisenberg group_ ([pdf](http://www.maths.ed.ac.uk/~jthomas7/GeomQuant/Lecture2.pdf))
