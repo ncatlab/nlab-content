@@ -1,10 +1,59 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $C$ be [[coherent category]]. Write $\tau C$ for the [[full subcategory]] of its [[category of filters]] on the [[prime filters]]. Jet $J_p$ be the [[Grothendieck topology]] on $\tau C$ induced from the [[coherent topology]] on the category of filters. 
+
+The **topos of types** $T(C)$ of $C$ is the [[sheaf topos]]
+
+$$
+  T(C) := Sh_{J_p}(\tau C)
+  \,.
+$$
+
+([Makkai](#Makkai)).
+
+## Properties
+
+### In terms of the coherent hyperdoctrine
+
+Let $C$ be a [[coherent category]]. Its [[coherent hyperdoctrine]] $S_C^\delta$ is naturally an [[internal locale]] in the [[presheaf topos]] $[C^{op}, Set]$ (as well as in the [[sheaf topos]] $Sh_{coh}(C)$ for the [[coherent topology]] on $C$).
+
+The topos of types is equivalent to the topos of internal sheaves over this [[internal locale]].
+
+This is due to ([Coumans](#Coumans)).
+
+
+
+
+## Related concepts
+
+* [[canonical extension]]
+
 
 ## References
 
 The notion was introduced in 
 
 * [[Michael Makkai]], _The topos of types_, Logic Year 1979{80 (Proc. Seminars and Conf. Math. Logic, Univ. Connecticut, Storrs, Conn., 1979/80), Lecture Notes in Math., vol. 859, Springer, Berlin (1981) pp. 157-201.
+ {#Makkai}
+
+The relation to [[canonical extension]] is made explicit in 
+
+* Dion Coumans, _Generalizing canonical extension to the categorical setting_ 
 
 [[!redirects toposes of types]]
 [[!redirects topoi of types]]
