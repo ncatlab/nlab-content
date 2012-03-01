@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A __distributive lattice__ is a [[lattice]] that satisfies the _distributivity laws_:
 
 *  $x \vee (y \wedge z) = (x \vee y) \wedge (x \vee z)$,
@@ -14,7 +21,11 @@ Any lattice that satisfies one of the two binary distributivity laws must also s
 Any [[Boolean algebra]], and even any [[Heyting algebra]], is a distributive lattice.
 
 
-Distributive lattices and lattice homomorphisms form a [[concrete category]] [[DistLat]].
+Distributive lattices and lattice [[homomorphisms]] form a [[concrete category]] [[DistLat]].
+
+## Related concepts
+
+* [[canonical extension]]
 
 
 [[!redirects distributive lattices]]
