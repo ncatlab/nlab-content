@@ -232,6 +232,9 @@ should be a [[pretopos]].
 theory is interpreted in the [[internal logic]] of some
 [[ambient category]], often called a "category of classes".  See also [[stack semantics]].
 
+## Literature
+
+* [[Kenneth Kunen]], _Set theory,an introduction to independence proofs_, North-Holland, 
 
 [[!redirects set theory]]
 [[!redirects set theories]]
