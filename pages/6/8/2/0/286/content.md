@@ -34,6 +34,9 @@ The ideas here generalize in many directions.  For example not only properties, 
 
 The terminology 'evil' was originally intended as a joke and has not been used in any published paper.  It arguably also puts the emphasis on the wrong place, since what matters is what is *not* evil.  Other possibilities which have been proposed are:
 
+* [[Michael Makkai]] proposed [independently?] the _Principle of Isomorphism_, "all grammatically correct properties of objects of a fixed category are to be invariant under isomorphism", in his [paper](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.lnl/1235415906) "Towards a categorical foundation of mathematics", in Johann A. Makowsky, Elena V. Ravve, eds., Logic Colloquium '95: Proceedings of the Annual European Summer Meeting of the Association of Symbolic Logic, held in Haifa, Israel, August 9-18, 1995 (Berlin: Springer-Verlag, 1998), 153-190. People who are uneasy about using emotionally charged words can fall back on this phrase.
+
+
 *  'kosher' in place of 'non-evil'.  One could then say 'treif' or 'treyf' instead of 'evil', but this word is less well-known so probably 'non-kosher' would be easier to understand.
 
 *  An imprecise term suitable for motivation in serious papers is 'too strict' for 'evil', with 'sufficiently weak' for 'non-evil'.  But one would probably need to explain, at least the first time, *why* the concept being discussed is too strict.
