@@ -15,7 +15,7 @@
 
 ## Definition
 
-Let $C$ be [[coherent category]]. Write $\tau C$ for the [[full subcategory]] of its [[category of filters]] on the [[prime filters]]. Jet $J_p$ be the [[Grothendieck topology]] on $\tau C$ induced from the [[coherent topology]] on the category of filters. 
+Let $C$ be [[coherent category]]. Write $\tau C$ for the [[full subcategory]] of its category of [[filters]] on the [[prime filters]]. Jet $J_p$ be the [[Grothendieck topology]] on $\tau C$ induced from the [[coherent topology]] on the category of filters. 
 
 The **topos of types** $T(C)$ of $C$ is the [[sheaf topos]]
 
