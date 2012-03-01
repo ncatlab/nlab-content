@@ -52,6 +52,7 @@ A central r&#244;le in the whole theory plays **duality**, that is the study of 
 
 
 ## Important subclasses
+ {#ImportantSubclasses}
 
 Topological vector spaces come in many flavours. The following chart
 provides a first overview (chart originally created and published by
