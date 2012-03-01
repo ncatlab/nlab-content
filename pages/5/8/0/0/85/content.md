@@ -146,6 +146,8 @@ There is an equivalence of categories between the category of pro-monoidal struc
 
 =--
 
+A pro-monoidal $Set$-category $A$ induces a [[multicategory]] $\bar A$ as follows. The objects of $\bar A$ are the objects of $A$. The multimorphisms $a_1\dots a_n\to b$ in $\bar A$ are defined by induction on $n$ as follows: $\bar A(;b)=Jb$, and $\bar A(a_1,\dots,a_{n+1};b)=\int^x\bar A(a_1,\dots,a_n;x)\otimes P(b,x\diamond a_{n+1})$. Thus a promonoidal category is (roughly) a multicategory whose $n$-ary morphisms are determined by the binary morphisms and identities (see e.g. On centres and lax centres for promonoidal categories, Day, Panchadcharam and Street).
+
 ## Examples
 
 * Let $C$ be a [[discrete category]] over a set, which is hence a [[monoid]] (for instance a [[group]]) with product $\cdot$. 
