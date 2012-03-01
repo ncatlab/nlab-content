@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+In [[model theory]], a "type" is a set of [[first-order logic|first order formulas]] in a language $L$, which are true as a sequence of elements of an $L$-structure.
+
+**Warning** on terminology: This is unrelated to the notion of _[[type]]_ in [[type theory]].
+
+
+## Related concepts
+
+* [[topos of types]]
+
+## References
+
+* Wikipedia, _[Type - model theory](http://en.wikipedia.org/wiki/Type_%28model_theory%29)_
