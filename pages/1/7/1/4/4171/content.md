@@ -198,7 +198,7 @@ This satisfies
 So the Jacobi dientity fails up to an exact term. This will yield the structure of an [[L-infinity algebra]].
 
 
-**Theorem**
+**Proposition**
 
 Given an $n$-plectic manifold $(X,\omega)$ we get a [[Lie n-algebra]] structure on the complex
 
@@ -227,6 +227,8 @@ where
       }
     \right.
   $$
+
+This appears as ([Rogers, theorem 3.14](#Rogers)).
 
 For $n = 1$ this recovers the definition of the [[Lie algebra]] underlying a [[Poisson algebra]].
 
@@ -379,6 +381,7 @@ given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
 
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+ {#Rogers}
 
 
 * [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ ,  [arXiv:1005.2230](http://arxiv.org/abs/1005.2230).
