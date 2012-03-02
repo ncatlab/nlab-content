@@ -1,0 +1,3 @@
+Grad Student at JHU. 
+
+beardsle at math.jhu.edu
