@@ -878,7 +878,7 @@ $$\alpha_{A, B}: T A \times T B \to T(A \times B)$$
 as defined above can be shown to be the structure map for a monoidal structure on $T$, i.e., making $T$ a lax (symmetric) monoidal functor, and in fact the monad multiplication and unit become monoidal transformations. 
 In other words, we get a monad in the 2-category of symmetric monoidal categories, lax symmetric monoidal functors, and monoidal transformations: a [[monoidal monad]]. 
 
-In fact, it may be shown that commutative Lawvere theories on $Set$ are precisely the same things as symmetric monoidal monad structures on $(Set, \times)$, as shown by Anders Kock. For more on this, see [[monoidal monad]]. 
+In fact, it may be shown that commutative Lawvere theories on $Set$ are precisely the same things as (finitary) symmetric monoidal monad structures on $(Set, \times)$, as shown by Anders Kock. For more on this, see [[monoidal monad]]. 
 
 
 ## Properties
