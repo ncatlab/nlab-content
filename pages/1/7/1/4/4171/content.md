@@ -71,10 +71,15 @@ This is also called [[multisymplectic geometry]].
 
 
 
-## $\infty$-Poisson algebras   
+## Poisson $L_\infty$-algebras   
    
-Consider the ordinary case in $n=1$ for how a [[Poisson algebra]] 
-is obtained from a [[symplectic manifold]] $(X, \omega)$.
+To an ordinary [[symplectic manifold]] is associated its [[Poisson algebra]]. Underlying this is a [[Lie algebra]], whose Lie bracket is the _Poisson bracket_.
+
+We discuss here how to an $n$-plectic manifold for $n \gt 1$ there is correspondingly assoociated not a Lie algebra, but a [[Lie n-algebra]]. It is natural to call this a **Poisson Lie $n$-algebra**. 
+
+(Not to be confused with the Lie algebra of a [[Poisson Lie group]], which is a Lie group that itself is equipped with a compatible [[Poisson manifold]] structure. It is a bit unfortunate that there is no better established term for the Lie algebra underlying a Poisson algebra apart from "Poisson bracket".)
+
+Consider the ordinary case in $n=1$ for how a [[Poisson algebra]] is obtained from a [[symplectic manifold]] $(X, \omega)$.
 
 Here
 
