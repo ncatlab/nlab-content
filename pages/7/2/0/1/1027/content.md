@@ -15,37 +15,11 @@
 
 ## Definition
 
-A __fibre product__ or __fiber product__ is a [[product]] in a [[over category|slice category]] $\mathcal{C} \downarrow C$.  The fibre product of two morphisms $f\colon A \to C$, $g\colon B \to C$ is the same as their [[pullback]]; accordingly, a fiber product of more than two morphisms $f_i\colon A_i \to C$ is often called a __wide pullback__. 
+A __wide pullback__ in a [[category]] $\mathcal{C}$ is a [[product]] (of arbitrary [[cardinality]]) in a [[over category|slice category]] $\mathcal{C} \downarrow C$.  In terms of $\mathcal{C}$, this can be expressed as a [[limit]] over a category obtained from a [[discrete category]] by adjoining a [[terminal object]].
 
-More explicitly, for $f\colon A \to C$ and $g\colon B \to C$ two [[morphism]]s in a [[category]] $\mathcal{C}$, the fiber product $A \times_C B$ of $A$ with $B$ over $C$ is, if it exists, [[generalized the|the]] [[pullback]]
+Yet more explicitly, the wide pullback of a family of coterminal morphisms $f_i\colon A_i \to C$ is an object $P$ equipped with projection $p_i\colon P\to A_i$ such that $f_i p_i$ is independent of $i$, and which is universal with this property.
 
-$$
-  \array{
-     A \times_C B &\to& B
-     \\
-     \downarrow && \downarrow^g
-     \\
-     A &\stackrel{f}{\to}& C
-  }
-  \,.
-$$
-
-This term comes from thinking of $A$ and $B$ as [[bundle]]s over $C$; then the fiber of $A \times_C B$ over a [[generalized element]] $x$ of $C$ is the [[product]] of the fibers of $A$ and $B$ over $x$.  In other words, the fiber product is the product taken fiber-wise.
-
-Of course, the fiber of $A$ at the generalized element $x\colon I \to C$ is itself a fibre product $I \times_C A$; the terminology depends on your point of view.
-
-
-## Examples
-
-In $\mathcal{C} =$ [[Set]], the fiber product is given by the usual formula
-$$
-  A \times_C B = 
-  \left\{
-    (a,b) \in A \times B \;|\;
-    f(a) = g(b) 
-  \right\}
-  \,.
-$$
+Binary wide pullbacks are the same as ordinary [[pullbacks]], a.k.a. fiber products.
 
 ## Properties
 
@@ -84,13 +58,5 @@ From products and equalizers, we can get arbitrary limits.
 
 * [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
 
-[[!redirects fiber product]]
-[[!redirects fiber products]]
-[[!redirects fibre product]]
-[[!redirects fibre products]]
-[[!redirects fibered product]]
-[[!redirects fibered products]]
-[[!redirects fibred product]]
-[[!redirects fibred products]]
 [[!redirects wide pullback]]
 [[!redirects wide pullbacks]]
