@@ -21,7 +21,7 @@
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Let $C$ be an [[(∞,1)-category]] and $f : A \to B$ and $g : X \to Y$ two [[morphism]]s in $C$. Write $C_{A\sslash Y}$ for the [[over-(∞,1)-category|under-over-(∞,1)-category]].
@@ -51,7 +51,7 @@ in $C$ we have that $C_{A\sslash Y}(B,X) \simeq *$ is [[contractible]].
 Note that the notation $C_{A\sslash Y}(B,X)$ subtly includes the given commuting diagram, since $C_{A\sslash Y}$ is only defined relative to a particular given morphism $A\to Y$.  Here we take that to be the common composite of the given commuting square, with $B$ and $X$ regarded as objects of $C_{A\sslash Y}$ via the resulting commuting triangles.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Let $C$ be an [[(∞,1)-category]]. An **orthogonal factorization system** on $C$ is a pair $(S_L, S_R)$ of [[class]]es of [[morphism]]s in $C$ that satisfy the following axioms.
@@ -75,6 +75,44 @@ Let $C$ be an [[(∞,1)-category]]. An **orthogonal factorization system** on $C
    with $f \in S_L$ and $g \in S_R$.
 
 =--
+
+## Properties
+
++-- {: .num_defn}
+###### Definition
+
+
+Let $(L,R)$ be an orthogonal factorization system on an $(\infty,1)$-category $\mathcal{C}$. Write $\mathcal{C}^I_R \hookrightarrow \mathcal{C}^I$ for the [[full sub-(∞,1)-category]] of the arrow category on the morphisms in $R$.
+
+Then
+
+1. this is a [[reflective sub-(∞,1)-category]]
+
+   $$
+     \mathcal{C}^I_R \stackrel{\stackrel{}{\leftarrow}}{\hookrightarrow}
+     \mathcal{C}^I
+   $$
+
+1. The [[unit of an adjunction|adjunction units]] 
+   $\eta_f : f \to \bar f$ are of the form
+
+   $$
+     \array{
+        X &\stackrel{\in L}{\to}& \bar X
+        \\
+        {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{\bar f \in R} }
+        \\
+        Y &\stackrel{\simeq}{\to}& \bar Y
+     }
+     \,.
+   $$
+
+   (In words: the reflection into $\mathcal{C}^I_R$ is given by the factorization in $(L,R)$).
+
+=--
+
+This is ([Lurie, lemma 5.2.8.19](#Lurie)).
+
 
 ## Examples
 
@@ -100,6 +138,7 @@ Let $C$ be an [[(∞,1)-category]]. An **orthogonal factorization system** on $C
 Section 5.2.8 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 [[!redirects orthogonal factorization system in an (∞,1)-category]]
 
