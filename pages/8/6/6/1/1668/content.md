@@ -822,7 +822,7 @@ x_{m 1} &amp; x_{m 2} &amp; \dots &amp; x_{m n}
 
 The operations that commute with a given set of operations in an algebraic theory form a subtheory. The __centre__ of an algebraic theory is given by the operations that commute with all the operations of the theory. An algebraic theory is __commutative__ if every pair of its operations commute. Another way of describing the centre is to say that it consists of those operations which are also [[homomorphisms]]; an algebraic theory is commutative if all of its operations are homomorphisms.
 
-Here is a more formal definition, expressed in terms of structure on the monad $T$ associated with the algebraic theory. 
+Here is a more formal definition, expressed in terms of structure on the monad $T \colon Set \to Set$ associated with the algebraic theory. 
 
 +-- {: .num_def} 
 ###### Definition 
@@ -834,7 +834,7 @@ where
 
 * $\alpha$ is the composite 
 $$T A \times T B \stackrel{\sigma_{A, T B}}{\to} T(A \times T B) \stackrel{T(\tau_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
-Here $\sigma$ denotes a _strength_ of the monad $T$, and $\tau$ its symmetric counterpart. 
+Here $\sigma$ denotes the _strength_ of the monad $T$, and $\tau$ its symmetric counterpart. 
 
 * $\beta$ is the composite 
 $$T A \times T B \stackrel{\tau_{T A, B}}{\to} T(T A \times B) \stackrel{T(\sigma_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
@@ -853,11 +853,19 @@ where $\omega(\chi, \ldots, \chi)$ is the evident operation of arity $m n = n + 
 
 $$\langle (\omega; \vec{a}), (\chi; \vec{b}) \rangle \stackrel{\sigma}{\mapsto} (\omega; (a_1, (\chi; \vec{b})), \ldots, (a_m, (\chi; \vec{b}))) \stackrel{T\tau}{\mapsto} (\omega; (\chi; (a_1, \vec{b})), \ldots, (\chi; (a_m, \vec{b}))) \stackrel{m}{\mapsto} (\omega(\chi, \ldots, \chi); (a_1, \vec{b}), \ldots, (a_m, \vec{b})).$$ 
 
-Similarly, the map $\beta$ sends the pair $\langle (\omega; \vec{a}), (\chi; \vec{b} \rangle$ to 
+Similarly, the map $\beta$ sends the pair $\langle (\omega; \vec{a}), (\chi; \vec{b}) \rangle$ to 
 
 $$(\chi(\omega, \ldots, \omega); (\vec{a}, b_1), \ldots, (\vec{a}, b_n))$$ 
 
 where $\chi(\omega, \ldots, \omega)$ is the evident operation of arity $n m = m + \ldots + m$. 
+
+### Abstract formulation 
+
+The category $\mathbf{Th}$ of Lawvere theories is endowed with a symmetric monoidal product 
+
+$$\otimes \colon \mathbf{Th} \times \mathbf{Th} \to \mathbf{Th}$$ 
+
+whereby $(S \otimes T)$-algebras are $S$-algebras internal to $T$-algebras, or equally well $T$-algebras internal to $S$-algebras. Each Lawvere theory is a monoid with respect to $\otimes$, and we may define a commutative theory to be a commutative monoid in the symmetric monoidal category $\mathbf{Th}$. 
 
 ### Commutative theory as monoidal monad 
 
@@ -877,9 +885,9 @@ In fact, it may be shown that commutative Lawvere theories on $Set$ are precisel
 
 If $f_1,\ldots , f_n$ are homomorphisms $A \to B$ of models (algebras) of a commutative algebraic theory, and $\omega$ is an $n$-ary operation of it, then the function $A \to B$ given by sending $a \in A$ to $\omega(f_1(a),\ldots ,f_n(a)) \in B$ is again a homomorphism, which is naturally called $\omega(f_1,\ldots ,f_n)$. In this way $Hom(A,B)$ is enriched as a model of the algebraic theory, and we have a [[closed category]] of models and homorphisms. Furthermore, this internal $Hom$ has a left adjoint $\otimes$ for which the free model on one generator is a unit, so we have a [[closed monoidal category]], in fact a closed [[symmetric monoidal category]].
 
-The monoidal structure $\otimes$ can be extracted by a straightforward generalization of the usual tensor product of abelian groups (or of commutative monoids), where "bilinearity conditions" = "linearity in separate variables" is replaced by "$T$-homomorphicity in separate variables", where $T$ is the monad of the algebraic theory. In slightly more detail, if $A$ and $B$ are $T$-algebras, the tensor product $A \otimes B$ ought to be $T(A \times B)$ modulo equivalences 
+The monoidal structure $\otimes$ can be extracted by a straightforward generalization of the usual tensor product of abelian groups (or of commutative monoids), where "bilinearity conditions" = "linearity in separate variables" is replaced by "$T$-homomorphicity in separate variables", where $T$ is the monad of the algebraic theory. In slightly more detail, if $A$ and $B$ are $T$-algebras, the tensor product $A \otimes B$ ought to be $T(A \times B)$ modulo equivalences which we may write suggestively as 
 
-$$\omega(a_1, \ldots, a_m) \otimes \chi(b_1, \ldots, b_n) \sim (\omega(\chi, \ldots, \chi); (a_1, b_1), \ldots, (a_m, b_n))$$ 
+$$\omega(a_1, \ldots, a_m) \otimes \chi(b_1, \ldots, b_n) \sim (\omega(\chi, \ldots, \chi); a_1 \otimes b_1, \ldots, a_m \otimes b_n)$$ 
 
 where the left side is represented by a composite 
 
