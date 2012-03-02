@@ -937,7 +937,5 @@ Recently [[Nikolai Durov]] rediscovered that notion for the purposes of geometry
 
 [[!redirects commutative monad]]
 [[!redirects commutative algebraic monad]]
-[[!redirects monoidal monad]]
 [[!redirects commutative monads]]
 [[!redirects commutative algebraic monads]]
-[[!redirects monoidal monads]]
