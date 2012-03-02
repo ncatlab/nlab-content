@@ -1,0 +1,10 @@
+## Definition
+
+Given a well-generated tensor triangulated category $(T,\otimes, 1)$, let the Bousfield class of an object $X$, denoted $\langle X\rangle$, be the class $\{ Y\in obj(T): X\otimes Y=0\}$.  It was proven by Ohkawa that if $T$ is the stable homotopy category, $(\mathcal{S},\wedge,S)$, then the collection of all Bousfield classes is a set of cardinality at most $\beth_2$.  It was proven more generally by Iyengar and Krause that such a collection is always a set and not a proper class when $T$ is well-generated. This set has a partial ordering on it and the structure of a complete lattice. This lattice is called the _Bousfield lattice_ of $T$.
+
+
+
+
+##References
+
+S.B. Iyengar and H. Krause, _The Bousfield Lattice of a Triangulated Category and Stratification_ ([arXiv](http://arxiv.org/abs/1105.1799))
