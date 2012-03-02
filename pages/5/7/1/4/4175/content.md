@@ -32,5 +32,4 @@ A __monoidal monad__ on a monoidal category is a monad whose underlying endofunc
 
 [[!redirects Hopf monads]]
 [[!redirects bimonad]]
-[[!redirects monoidal monad]]
 [[!redirects opmonoidal monad]]
