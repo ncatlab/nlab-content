@@ -9,7 +9,7 @@ The notion of monoidal monad is equivalent to a suitable general notion of _comm
 
 ## Tensorial strengths and commutative monads 
 
-As a preliminary, let $V$ be a monoidal category, and let $T \colon V \to V$ be a **strong** monad on $V$, meaning here that there are left and right [[tensorial strength|tensorial strengths]] 
+As a preliminary, let $V$ be a monoidal category. We say a functor $T \colon V \to V$ is **strong** if there are given left and right [[tensorial strength|tensorial strengths]] 
 $$\tau_{A, B} \colon A \otimes T(B) \to T(A \otimes B)$$
 
 $$\,$$ 
@@ -20,7 +20,7 @@ which are suitably compatible with one another. The full set of coherence condit
 $$\tilde{V} \colon B V \times (B V)^{op} \to Cat$$ 
 ($B V$ is the one-object 2-category associated with a monoidal category $V$, and $(B V)^{op}$ is the same 2-category but with 1-cell composition (= tensoring) in reverse order), and the two-sided strength means we have a structure of [[lax natural transformation]] $\tilde{V} \to \tilde{V}$. 
 
-We remark that in the _symmetric_ monoidal setting, we will assume that the left and right strengths $\tau$ and $\sigma$ are related by the symmetry in the obvious way, by a commutative square 
+We remark that in the setting where $V$ is _symmetric_ monoidal, we will assume that the left and right strengths $\tau$ and $\sigma$ are related by the symmetry in the obvious way, by a commutative square 
 
 $$\array{
 A \otimes T(B) & \stackrel{\tau_{A, B}}{\to} & T(A \otimes B) \\
@@ -30,9 +30,11 @@ T(B) \otimes A & \underset{\sigma_{B, A}}{\to} & T(B \otimes A)
 
 where the $c$'s are instances of the symmetry isomorphism. 
 
+There is a category of strong functors $V \to V$, where the morphisms are transformations $\lambda \colon S \to T$ which are compatible with the strengths in the obvious sense. Under composition, this is a strict monoidal category. Monoids in this monoidal category are called **strong monads**. 
+
 +-- {: .un_def}
 ###### Definition 
-Let $T \colon V \to V$ be a strong functor. A monad structure $(m \colon T T \to T, u: 1 \to T)$ is **commutative** if there is an equality of natural transformations $\alpha = \beta$ where 
+A strong monad $(T \colon V \to V, m \colon T T \to T, u: 1 \to T)$ is **commutative** if there is an equality of natural transformations $\alpha = \beta$ where 
 
 * $\alpha$ is the composite 
 $$T A \otimes T B \stackrel{\sigma_{A, T B}}{\to} T(A \otimes T B) \stackrel{T(\tau_{A, B})}{\to} T T(A \otimes B) \stackrel{m(A \otimes B)}{\to} T(A \otimes B).$$ 
