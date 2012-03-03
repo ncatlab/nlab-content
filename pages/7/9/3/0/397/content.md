@@ -118,6 +118,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Marc Olschok]]
 * [[Mark Meckes]]
 * [[Martin Olbermann]]
+* [[Matan Prezma]]
 * [[Mathieu Dupont]]
 * [[Matthew Kahle]]
 * [[hilbertthm90|Matthew Ward]]
