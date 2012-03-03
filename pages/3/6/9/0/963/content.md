@@ -8,17 +8,44 @@ A **quantale** is a [[closed monoidal category|closed monoidal]] [[suplattice]].
 
 As a monoid in suplattices, a quantale is essentially the same thing as a 1-object [[quantaloid]], i.e., a 1-object category enriched in suplattices. 
 
+
 ## Quantales and Frames
 
 Additional conditions often imposed on a quantale include:
 
 * Commutativity: $x\otimes y = y\otimes x$
 * Idempotence: $x\otimes x = x$
-* The unit for $\otimes$ is the top element: $1=\top$.
+* Affineness: the unit for $\otimes$ is the top element: $1=\top$.
 
-If all three of commutativity, idempotence, and $1=\top$ are assumed, they force $\otimes$ to be the [[meet]] and therefore the quantale to be a [[frame]].  General quantales are sometimes considered to be a "noncommutative" version of a frame, whose [[opposite category]] would be a category of "noncommutative [[locale]]s."
+If all three of commutativity, idempotence, and affineness are assumed, they force $\otimes$ to be the [[meet]] and therefore the quantale to be a [[frame]].  General quantales are sometimes considered to be a "noncommutative" version of a frame, whose [[opposite category]] would be a category of "noncommutative [[locale]]s."
 
-(This is the origin of the name "quantale," a [portmanteau](http://en.wikipedia.org/wiki/Portmanteau) of "quantum" and "locale".  Note, though, that quantales seem to be generally treated in the literature more as "quantum frames" than "quantum locales," and in particular their morphisms usually go in the "frame direction."  Possibly this can be explained by the fact that in the past, it was common to use the word "locale" for what we now call a "frame" and simply distinguish between "locale homomorphisms" (now called "frame homomorphisms") and "continuous maps.")
+(This is the origin of the name "quantale," a [portmanteau](http://en.wikipedia.org/wiki/Portmanteau) of "quantum" and "locale".  Note, though, that quantales seem to be generally treated in the literature more as "quantum frames" than "quantum locales," and in particular their morphisms usually go in the "frame direction."  Possibly this can be explained by the fact that in the past, it was common to use the word "locale" for what we now call a "frame" and simply distinguish between "locale homomorphisms" (now called "frame homomorphisms") and "continuous maps.") 
+
+The following construction gives a simple means for passing from commutative affine quantales to frames: 
+
++-- {: .un_lem}
+###### Lemma 
+Let $(Q, \cdot, 1)$ be a commutative affine quantale, and let $Idem(Q)$ be the subposet of elements $x \cdot x = x$. Then $Idem(Q)$ is a frame, where the meet operation is given by multiplication in $Q$. The functor $Idem$ is right adjoint to the forgetful functor from commutative affine quantales to frames. 
+=-- 
+
++-- {: .proof}
+###### Proof 
+Notice that $x \cdot x \leq x \cdot 1 = x$ for any $x \in Q$, so the interest is in the other condition $x \leq x x$. If $x, y$ are idempotent, we easily have $x y$ idempotent using commutativity, and $x y \leq x 1 = x$ and $x y \leq 1 y = y$ by affineness. Thus $z \leq x y$ implies $z \leq x$ and $z \leq y$. Conversely, if $z$ is idempotent and $z \leq x$ and $z \leq y$, we have 
+
+$$z \leq z z \leq x y$$ 
+
+and we now conclude that $\cdot$ is the meet operation on $Idem(Q)$. Next, we show that $Idem(Q)$ is closed under taking joins in $Q$: if $x_i$ is a collection of idempotents, we have 
+
+$$x_i \leq x_i x_i \leq (\bigvee_i x_i) (\bigvee_i x_i)$$ 
+
+for all $i$, whence 
+
+$$\bigvee_i x_i \leq (\bigvee_i x_i) (\bigvee_i x_i),$$
+
+which is all we need. Since joins in $Idem(Q)$ are calculated just as they are in $Q$, and since multiplication in $Q$ distributes over arbitrary joins, we have that binary meets distribute over arbitrary joins in $Idem(Q)$. 
+
+Finally, if $A$ is a frame and $Q$ is a commutative affine quantale, it is clear that a quantale map $f \colon A \to Q$ takes elements in $A$ (which are idempotent under meet) to idempotents in $Q$. Hence $f$ factors uniquely through $Idem(Q) \hookrightarrow Q$, and the map $A \to Idem(Q)$ is a frame map. This shows that $Idem$ is the right adjoint as claimed. 
+=-- 
 
 ## Enrichment over quantales
 
