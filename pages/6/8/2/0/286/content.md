@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Higher category theory
-+--{: .hide}
++-- {: .hide}
 [[!include higher category theory - contents]]
 =--
 =--
@@ -15,7 +15,7 @@
 
 # Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -31,6 +31,7 @@ The ideas here generalize in many directions.  For example not only properties, 
 
 
 ## Terminology
+{#terminology}
 
 The terminology 'evil' was originally intended as a joke and has not been used in any published paper.  It arguably also puts the emphasis on the wrong place, since what matters is what is *not* evil.  Other possibilities which have been proposed are:
 
@@ -70,7 +71,9 @@ Does it make sense, then, to ask whether two arbitrary *sets* are equal?  In mat
 
 Now let us move from the foundations of [[set theory]] to those of [[category theory]].  Usually, category theory is founded on set theory, or something very much like it; if the [[objects]] of a category don\'t form a set, then this is only because of [[size issues]], and they still form a [[proper class]].  Accordingly, it makes sense to compare them for equality.  However, if the [[category of sets]] is itself an example of a category, then by the previous paragraph, it does *not* have to make sense (and is mathematically meaningless) to test the objects of this category for equality.  So we get the idea that we cannot compare objects of a given category for equality in general (although this may make sense for particular categories).  In other words, a [[category]] is not by default a [[strict category]] (a category equipped with the [[extra stuff]] of an explicit equality predicate on its objects).
 
-We can found mathematics on type theory without identity types, and then it is literally true that (in general) it makes no sense to compare objects of a given type for equality; one has to *define* a relevant equality predicate when there is one.  However, this is not a commonly used foundation.  Therefore, category theory is usually written in a language in which it does literally make sense to ask whether two objects of a given category are equal, whether two functors between two given categories are equal, etc.  If we want these definitions to make sense in the general mathematical situation (where $Set$ is an example of a category, even though comparing two arbitrary sets for equality makes no mathematical sense), then we need to check that our definitions are not evil.
+We can found mathematics on type theory without identity types, and then it is literally true that (in general) it makes no sense to compare objects of a given type for equality; one has to *define* a relevant equality predicate when there is one.  From the other direction, we can found mathematics on (weak) $\infty$-[[infinity-groupoid theory|groupoid theory]] (as in [[homotopy type theory]]), where the automatic notion of equality between object of a category is actually only isomorphism.
+
+However, these are not commonly used foundations.  Therefore, category theory is usually written in a language in which it does literally make sense to ask whether two objects of a given category are equal (meaning something stronger than that they are isomorphic), whether two functors between two given categories are equal, etc.  If we want these definitions to make sense in the general mathematical situation (where $Set$ is an example of a category, even though comparing two arbitrary sets for equality makes no mathematical sense), then we need to check that our definitions are not evil.
 
 
 ## How to be evil
@@ -81,12 +84,13 @@ Just as we can make use of [[basis|bases]] in [[linear algebra]], so we may make
 
 Much as the [[axiom of choice]] tells us that every vector space has a basis, so the global axiom of choice tells us that every category may be given the structure of a strict category.  Then we can use this extra structure (in either case), as long as we prove that the result is independent of the structure chosen.  Even if we don\'t wish to accept the axiom of choice, we can still prove a theorem about those vector spaces that have bases or those categories that can be given a strict structure.
 
-Perhaps the extreme case of this is using [[model categories]] to study [[homotopy theory]], which is (from the [[nPOV]]) really about $(\infty,1)$-[[(infinity,1)-category|categories]].  Even if model categories are not taken to be strict categories, they still form a $2$-groupoid and thus are still far more strict than $(\infty,1)$-categories, which form an $\infty$-[[infinity-groupoid|groupoid]].  Nevertheless, they are quite useful (at least assuming the axiom of choice?).
+Perhaps the extreme case of this is using [[model categories]] to study [[homotopy theory]], which is (from the [[nPOV]]) really about $(\infty,1)$-[[(infinity,1)-category|categories]].  Even if model categories are not taken to be strict categories, they still form a $2$-groupoid and thus are still far more strict than $(\infty,1)$-categories, which only form an $\infty$-[[infinity-groupoid|groupoid]].  Nevertheless, they are quite useful (at least assuming the axiom of choice?).
 
 
 ## Criticism
 
 Periodically, there is discussion on the [categories mailing list](http://www.mta.ca/~cat-dist/) about the concept, including objections to the term 'evil'. Please refer there for further details.
+
 
 ## General definition
 
@@ -114,7 +118,7 @@ Defining higher categorial structures using such evil equalities tends to lead t
 
 The concept of [[dagger-category|†-category]] is important in [[topological quantum field theory]] and [[quantum computation]].  A **[[†-category]]** is a category $C$ with a functor
 
-$$F: C \to C^{op} $$
+$$F\colon C \to C^{op} $$
 
 which is the identity on objects and has $F^2 = 1$.  
 
@@ -123,7 +127,7 @@ Often evil concepts (like the concept of "strict monoidal category") have non-ev
 
 It is possible that this problem will force a change in thinking in either the concept of evil or our thinking in quantum theory.
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman]]: Actually, I believe that $\dagger$-structure on a category *can* be transported along an equivalence of categories!  Suppose that $F\colon C \to D \colon G$ is an [[adjoint equivalence]] with unit $\eta\colon Id_C \overset{\cong}{\to} G F$ and counit $\varepsilon\colon F G \overset{\cong}{\to} Id_D$, where $D$ is a $\dagger$-category.  Given $f\colon x\to y$ in $C$, define $f^\dagger$ to be the following composite:
 $$ y \overset{\eta}{\to} G F y \overset{G((F f)^\dagger)}{\to} G F x \overset{\eta^{-1}}{\to} x. $$
 This evidently defines a functor $C^{op} \to C$ that is the identity on objects.  Now $F(f^\dagger)$ is given by
@@ -203,6 +207,7 @@ _Toby_:  I did the diagrams a bit, but I don\'t have any more time for a complet
 [[Mike Shulman]]: Okay, you are right.  "Transporting along an equivalence" should mean that the forgetful functor is an equiv-fibration, i.e. lifts entire adjoint equivalences rather than merely functors that happen to be equivalences.  I think I disagree, however, that primitive operations (in something that we want to think of as a kind of category theory) should be freely allowed to talk about objects and be strict; I think they should also be formulated in a dependent type theory that only uses equality of objects as a typing assertion.  Dagger categories also satisfy this property.
 =--
 
+
 ## References
  {#References}
 
@@ -213,3 +218,5 @@ A discussion of avoiding evil in the very [[foundations]] of mathematics by repl
 
 [[!redirects evil]]
 [[!redirects non-evil]]
+
+[[!redirects principle of isomorphism]]
