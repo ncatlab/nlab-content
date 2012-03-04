@@ -67,6 +67,45 @@ $$
   \,.
 $$
 
+The construction of the canonical morphism $WZW_{\mathbf{c}}$ goes as follows. Consider, inside $\mathbf{B}G_{conn}$ the substack $\mathbf{B}G_{\flat dR}$ of _trivialized_ principal $G$-bundles with _flat_ connections. The morphism $CS_{\mathbf{c}}$, restricted to $\mathbf{B}G_{\flat dR}$, factors as 
+
+$$
+\mathbf{B}G_{\flat dR}\to \Omega^3(-) \to \mathbf{B}^3 U(1)_{conn}
+$$
+
+where $\Omega^3(-)$ is identified with the 3-stack of trivialized circle bundles with connection whose connection form lives entirely in degree 3. Since $\mathbf{B}G_{\flat dR}\to \mathbf{B}G_{conn}$ factors through the stack $\flat\mathbf{B}G$ of principal $G$-bundles with flat conenctions, we have a homotopy commutative diagram
+
+$$
+\array{
+\mathbf{B}G_{\flat dR}&\to^{CS_{\mathbf{c}}}& \Omega^3(-)\\
+\downarrow && \downarrow\\
+\flat\mathbf{B}G& \to & \mathbf{B}^3 U(1)_{conn}
+}
+$$ 
+
+and so a canonically induced morphism $WZW_{\mathbf{c}}$ between the homotopy fibers over the distinguished points. Since we have homotopy pullbacks
+
+$$
+\array{
+G&\to& \mathbf{B}G_{\flat dR}\\
+\downarrow && \downarrow\\
+{*}& \to & \flat\mathbf{B}G
+}
+$$ 
+
+and
+
+$$
+\array{
+\mathbf{B}^2 U(1)_{conn}&\to & \Omega^3(-)\\
+\downarrow && \downarrow\\
+{*}& \to & \mathbf{B}^3 U(1)_{conn}
+},
+$$ 
+
+the morphism $WZW_{\mathbf{c}}$ can naturally be seen as a morphism from $G$ to $\mathbf{B}^2 U(1)_{conn}$.
+
+
 The [[higher holonomy|surface holonomy]] of this is the topological part of the WZW action functional:
 
 $$
