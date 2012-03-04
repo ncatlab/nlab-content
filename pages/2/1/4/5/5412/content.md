@@ -67,7 +67,7 @@ Moreover, since in the Grothendieck topos $\mathcal{T}$ we have [[universal coli
 +-- {: .num_remark}
 ###### Remark
 
-One also says that $X_1$ is the _[[dependent sum]]_ operation and $X_*$ the [[dependent product]] operation. As discussed there, this can be seen to compute spaces of [[section]]s of [[bundles]] over $X$.
+One also says that $X_!$ is the _[[dependent sum]]_ operation and $X_*$ the [[dependent product]] operation. As discussed there, this can be seen to compute spaces of [[section]]s of [[bundles]] over $X$.
 
 Moreover, in terms of the [[internal logic]] of $\mathcal{T}$ the functor $X_!$ is the _[[existential quantifier]]_ $\exists$ and $X_*$ is the _[[universal quantifier]]_ $\forall$.
 
@@ -78,7 +78,7 @@ Moreover, in terms of the [[internal logic]] of $\mathcal{T}$ the functor $X_!$ 
 ###### Definition
 
 A [[geometric morphism]] $\mathcal{E} \to \mathcal{T}$ equivalent to one of the form $(X_! \dashv X^* \dashv X_*)$ is called an
-**[[etale geometric morphism]]** .
+**[[etale geometric morphism]]**.
 
 =-- 
 
