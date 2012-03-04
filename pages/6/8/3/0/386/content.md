@@ -66,14 +66,14 @@ $$
 
 etc.
 
-The category $\Delta_a$ contains one more object, correspondig to the empty category $\emptyset$. When sticking to the above standard notation for the objects of $\Delta$, that extra object is naturally often denoted 
+The category $\Delta_a$ contains one more object, corresponding to the empty category $\emptyset$. When sticking to the above standard notation for the objects of $\Delta$, that extra object is naturally often denoted 
 
 $$
   [-1] = \emptyset
   \,.
 $$ 
 
-However, in contexts where only $\Delta_a$ and not $\Delta$ plays a role, one rathers starts counting with 0 instead of with $-1$. Then for instance the notation
+However, in contexts where only $\Delta_a$ and not $\Delta$ plays a role, some authors prefer to start counting with 0 instead of with $-1$. Then for instance the notation
 
 $$
   \mathbf{0} = \emptyset
