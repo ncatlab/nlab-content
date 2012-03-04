@@ -9,7 +9,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -36,17 +36,24 @@ have analogs for [[topos]]es, [[(n,1)-toposes]] and [[(∞,1)-topos]]es
 
 * **locally $\infty$-connected $(\infty,1)$-topos**
 
-The numbering mismatch is traditional from topology; see [[n-connected space]].  It reads a bit better if we say _locally $n$-simply connected_ for _locally $n$-connected_, since _locally $1$-(simply) connected_ is _locally simply connected_, but being locally $n$-simply connected is still a property of an $(n+1,1)$-topos.
+The numbering mismatch is traditional from [[topology]]; see [[n-connected space]].  It reads a bit better if we say _locally $n$-simply connected_ for _locally $n$-connected_, since _locally $1$-(simply) connected_ is _locally simply connected_, but being locally $n$-simply connected is still a property of an $(n+1,1)$-topos.
 
 
 ## Definitions
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A [[(∞,1)-sheaf (∞,1)-topos]] $\mathbf{H}$ is called 
 **locally $\infty$-connected** if the (essentially unique) 
-[[global section]] [[(∞,1)-geometric morphism]] $(\Delta\dashv\Gamma):H\xrightarrow{\Gamma}\infty\Grpd$ extends to an __essential $(\infty,1)$-geometric morphism__, i.e. there is a further left adjoint
+[[global section]] [[(∞,1)-geometric morphism]] 
+
+$$
+  (\Delta\dashv\Gamma):
+  \mathbf{H} \xrightarrow{\Gamma}\infty\Grpd
+$$ 
+
+extends to an __[[essential geometric messential]] $(\infty,1)$-geometric morphism__, i.e. there is a further [[left adjoint]] $\Pi$
 
 $$
   (\Pi \dashv \Delta \dashv \Gamma) : 
@@ -61,9 +68,18 @@ If in addition $\Pi$ preserves the [[terminal object]] we say that $\mathbf{H}$ 
 If $\Pi$ preserves even all [[finite limit|finite]] [[(∞,1)-product]]s we say that $\mathbf{H}$ is a [[strongly ∞-connected (∞,1)-topos]].
 
 If $\Pi$ preserves even all [[finite limit|finite]] [[(∞,1)-limit]]s we say that $\mathbf{H}$ is a [[totally ∞-connected (∞,1)-topos]].
+
 =--
 
-+-- {: .un_defn}
++-- {: .num_remark}
+###### Remark
+
+In ([Lurie, section A.1](#Lurie)) this is called an $(\infty,1)$-topos 
+of **locally constant [[shape of an (infinity,1)-topos|shape]]**.
+
+=--
+
++-- {: .num_defn}
 ###### Definition
 
 For $\mathbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos and $X \in \mathbf{H}$ an [[object]], we call $\Pi X \in $ [[∞Grpd]] the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] of $X$. The ([[categorical homotopy groups in an (∞,1)-topos|categorical]]) [[homotopy group]]s of $\Pi(X)$ we call the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$
@@ -72,11 +88,12 @@ $$
   \pi_\bullet^{geom}(X) := \pi_\bullet(\Pi (X))
   \,.
 $$
+
 =--
 
 Similarly we have:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $n \in \mathbb{N}$ an $(n+1,1)$-[[(n,1)-topos|topos]] $\mathbf{H}$ is called **locally $n$-connected** if the (essentially unique) [[global section]] geometric morphism is has an extra left adjoint.
@@ -92,7 +109,7 @@ For $n = 0$ this reproduces the case of a [[locally connected topos]].
 
 The follow proposition gives a large supply of examples.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ be a [[locally ∞-connected (∞,1)-site]]/[[∞-connected (∞,1)-site]]. Then the  [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$ is a 
@@ -101,7 +118,7 @@ locally $\infty$-connected $(\infty,1)$-topos.
 
 See [[locally ∞-connected (∞,1)-site]]/[[∞-connected (∞,1)-site]] for the proof.
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 In ([SimpsonTeleman, prop. 2.18](#SimpsonTeleman))
@@ -110,7 +127,7 @@ is stated essentially what the above proposition asserts at the level of [[homot
 
 This includes the following examples.
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 The sites [[CartSp]]${}_{top}$ $CartSp_{smooth}$ $CartSp_{synthdiff}$ are locally $\infty$-connected. 
@@ -120,7 +137,7 @@ The corresponding $(\infty,1)$-toposes are the [[cohesive (∞,1)-topos]]es [[ET
 
 ### Over locally $n$-connected topological spaces
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 For $X$ a [[locally contractible space]], $Sh_{(\infty,1)}(X)$ is a locally $\infty$-connected $(\infty,1)$-topos.
@@ -134,13 +151,13 @@ The full subcategory $cOp(X) \hookrightarrow Op(X)$ of the [[category of open su
 
 By the same kind of argument:
 
-+-- {: .un_exampke}
++-- {: .num_exampke}
 ###### Example
 
 For $n \in \mathbb{N}$ and for $X$ a locally $n$-[[n-connected space|connected]] [[topological space]], $Sh_{(n+1,1)}(X)$ is a locally $n$-connected $(n+1)$-topos.
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $X$ a [[locally contractible topological space]] we have that the 
@@ -169,7 +186,7 @@ By using the [[presentable (∞,1)-category|presentations]] of $Sh_{(\infty,1)}(
 
 ### Locally $\infty$-connected over-$(\infty,1)$-toposes
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos, also all its objects $X \in \mathbf{H}$ are locally $\infty$-connected, in that their [[petit topos|petit]] [[over-(∞,1)-toposes]] $\mathbf{H}/X$ are locally $\infty$-connected.
@@ -198,7 +215,7 @@ $$
 and $X_!$ is given by sending $(Y \to X) \in \mathbf{H}/X$ to $Y \in \mathbf{H}$.
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 If in the above $X$ is contractible in that $\Pi X \simeq *$ then $\mathbf{H}/X$ is even an [[∞-connected (∞,1)-topos]].
@@ -218,8 +235,20 @@ $$
 
 ## Properties {#LocInfConnProperties}
 
-...
++-- {: .num_prop}
+###### Proposition
 
+Let $\mathcal{X}$ be an $(\infty,1)$-topos and $\{U_i\}_i$ a collection of [[objects]] such that
+
+* the canonical morphism $\coprod_i U_i \to *$ out of their [[coproduct]] to the [[terminal object]] is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]];
+
+* all the [[over-(∞,1)-toposes]] $\mathcal{X}_{/U_i}$ are locally $\infty$-connected.
+
+Then also $\mathcal{X}$ itself is locally $\infty$-connected.
+
+=--
+
+This appears as ([Lurie, corollary A.1.7](#Lurie)).
 
 ## Further structures
 
@@ -261,6 +290,11 @@ Some discussion of the [[homotopy category of an (∞,1)-category|homotopy categ
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _de Rham's theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 {#SimpsonTeleman}
+
+Undet the term _locally constant shape_ the notion appears in section A.1 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
 
 For related references see 
 
@@ -378,3 +412,9 @@ For related references see
 [[!redirects essential (∞,1)-geometric morphisms]]
 [[!redirects essential (infinity,1)-geometric morphism]]
 [[!redirects essential (infinity,1)-geometric morphisms]]
+
+[[!redirects locally constant shape]]
+[[!redirects ((∞,1)-topos of locally constant shape)]]
+[[!redirects ((infinity,1)-topos of locally constant shape)]]
+[[!redirects ((∞,1)-toposes of locally constant shape)]]
+[[!redirects ((infinity,1)-toposes of locally constant shape)]]
