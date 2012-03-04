@@ -179,7 +179,7 @@ A locally constant sheaf / $\infty$-stack is also called a [[local system]].
 
 ## References
 
-Secton A.1 of
+Section A.1 of
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_ .
 
