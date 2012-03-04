@@ -1,0 +1,37 @@
+# Locally regular categories
+* table of contents
+{: toc}
+
+## Idea
+
+A *locally regular category* is a relative of a [[regular category]] in which the condition of [[finite limits]] is weakened to finite [[connected limits]].  It is so named because every [[slice category]] of a locally regular category is a regular category, although the converse is not quite true.
+
+## Definition
+
+A [[category]] $C$ is **locally regular** if
+
+1. It has finite [[connected limits]] --- equivalently, it has [[pullbacks]] and [[equalizers]];
+
+1. It has ([[extremal epi]], [[monomorphism|mono]]) factorizations which are stable under pullback; and
+
+1. Every [[span]] factors as an extremal epi followed by a jointly-monic span.
+
+## Examples
+
+* Every [[regular category]] is locally regular.  Factorizations of spans may be obtained by factorizations of single morphisms into a binary product.
+
+* The category $LH$ of [[topological spaces]] (or [[locales]]) and [[local homeomorphisms]] is locally regular, but not regular.  Its slice categories are precisely the [[sheaf toposes]] of spaces (or locales).
+
+## Properties
+
+* A locally regular category is regular if and only if it has a [[terminal object]].
+
+* Every locally regular category gives rise to a tabular [[allegory]] of binary relations (where we define a "binary relation" to mean a jointly-monic span).  For composition of relations, we require pullbacks and stable factorizations of spans.  For intersection of binary relations, we require equalizers.
+
+* Conversely, every tabular allegory has a locally regular category of maps (left adjoints).  So locally regular categories are essentially the same as tabular allegories.
+
+## References
+
+* [[Peter Johnstone]], [[Sketches of an Elephant]], A3.2.7
+
+[[!redirects locally regular categories]]
