@@ -1,3 +1,4 @@
+[[!redirects measure coalgebra]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,14 +11,14 @@
 =--
 
 
-# Measure coalgebras
+# Measuring coalgebras
 * table of contents
 {: toc}
 
 
 ## Idea
 
-_Measure coalgebras_ (or _measuring coalgebras_) are an [[enriched category|enrichment]] of the category of [[commutative rings]] (or commutative $\mathbb{Z}$-algebras) in the [[cartesian closed category]] $k$ [[Cocomm Coalg]] of [[cocommutative coalgebra|cocommutative]] [[coalgebras]] (which we will write simply as $Coalg$), given a [[ground field]] $k$. 
+_Measuring coalgebras_ are an [[enriched category|enrichment]] of the category of [[commutative rings]] (or commutative $\mathbb{Z}$-algebras) in the [[cartesian closed category]] $k$ [[Cocomm Coalg]] of [[cocommutative coalgebra|cocommutative]] [[coalgebras]] (which we will write simply as $Coalg$), given a [[ground field]] $k$. 
 
 The starting point is the observation that the category $Coalg$ acts on the category [[CommAlg|Alg]] of [[commutative algebras]]: there is a functor 
 
@@ -40,7 +41,7 @@ of algebras; here $Alg$ is sometimes described as an [[actegory]] over $Coalg$.
 +-- {: .num_defn}
 ###### Definition
 
-Given two algebras $A, B$, the **measure coalgebra** $\mu(A, B)$ is by definition the [[representing object]] of the [[functor]] 
+Given two algebras $A, B$, the **measuring coalgebra** $\mu(A, B)$ is by definition the [[representing object]] of the [[functor]] 
 
 $$Alg(A, \{-, B\}): Coalg^{op} \to Set$$ 
 
