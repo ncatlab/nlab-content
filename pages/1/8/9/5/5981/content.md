@@ -85,6 +85,11 @@ $$
 
 ([[universal quantifier]]) in which now $x$ is a _bound variable_.
 
+## Related concepts
+
+* [[quantification]]
+
+* [[proposition]]
 
 [[!redirects variable]]
 [[!redirects variables]]
