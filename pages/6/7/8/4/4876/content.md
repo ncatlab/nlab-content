@@ -197,3 +197,5 @@ Section 2.3.18 and section 4.7 of
 
 [[!redirects Wess-Zumino theories]]
 [[!redirects Wess-Zumino-theories]]
+
+Would someone translate the Topological term for an aging algebraic topologist? B^3U(1) aka K(Z,3) or is it 4? sub conn denotes the classifying space for bundles with connection? The morphism from G to B^2 is strict or up to homotopy?
