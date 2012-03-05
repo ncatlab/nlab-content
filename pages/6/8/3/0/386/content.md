@@ -241,7 +241,9 @@ When $\Delta_a$ is considered as a 2-category, a similar argument to the above s
 
 [[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]]. Presheaves on $\Delta_a$ are **[[augmented simplicial sets]]..
 
-Under the [[Yoneda embedding]] $Y : \Delta \to $ [[SSet]] the object $[n]$ induces the standard simplicial $n$-[[simplex]] $Y([n]) =: \Delta^n$.
+Under the [[Yoneda embedding]] $Y : \Delta \to $ [[SSet]] the object $[n]$ induces the standard simplicial $n$-[[simplex]] $Y([n]) =: \Delta^n$. So 
+in particular we have $(\Delta^n)[m] = Hom_{\Delta}([m],[n])$ and hence 
+$\Delta^n[m]$ is a finite set with $\binom{n+m+1}{n}$ elements. 
 
 The face and degeneracy maps and the relation they satisfy are geometrically best understood in terms of the [[full and faithful functor|full and faithful]] image under $Y$ in [[SSet]]: 
 
