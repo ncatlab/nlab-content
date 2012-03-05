@@ -234,7 +234,7 @@ Let $T$ be a monad on $Set/S$. The monad associated with the theory $Th(T)$ is i
 ######Proof 
 In other words, we claim the monad of the adjunction 
 
-$$Set/S \stackrel{\Pi^{op}}{\to} Kl(T) \stackrel{y}{\to} Prod(Kl(T)^{op}, Set)) \dhashv (Prod(Kl(T)^{op}, Set) \stackrel{Prod(\Pi, 1)}{\to} Prod((Set/S)^{op}, Set) \simeq Set/S$$ 
+$$Set/S \stackrel{\Pi^{op}}{\to} Kl(T) \stackrel{y}{\to} Prod(Kl(T)^{op}, Set)) \dashv (Prod(Kl(T)^{op}, Set) \stackrel{Prod(\Pi, 1)}{\to} Prod((Set/S)^{op}, Set) \simeq Set/S$$ 
 
 is isomorphic to $T$. Now the functor $\Pi^{op}: Set/S \to Kl(T)$ is left adjoint to the underlying functor $U: Kl(T) \to Set/S$, and the underlying monad there is of course $T$. It is obvious that the composite 
 
