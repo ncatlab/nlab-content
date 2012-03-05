@@ -212,13 +212,15 @@ $$
 
   * In particular, therefore, the [[derived category]] of any [[abelian category]] is a triangulated category, since it is the localization of the homotopy category at the null system of acyclic complexes.  This example is also the homotopy category of a stable $(\infty,1)$-category, and usually of a stable model category.
 
-## Related concepts
+## Related concepts and discussion 
 
 * [[well-generated triangular category]]
 
 * [[enhanced triangulated category]], [[pretriangulated dg-category]], [[stable (infinity,1)-category]]
 
 * [[Bousfield lattice]]
+
+* Discussion at the [nForum](http://nforum.mathforge.org/discussion/3638/triangulated-category/)
 
 
 ## References
