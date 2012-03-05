@@ -1,6 +1,12 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Definition 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition 
 A **monoidal monad** is a [[monad]] in the [[2-category]] of [[monoidal category|monoidal categories]], [[lax monoidal functor|lax monoidal functors]], and monoidal transformations. 
 =-- 
@@ -32,7 +38,7 @@ where the $c$'s are instances of the symmetry isomorphism.
 
 There is a category of strong functors $V \to V$, where the morphisms are transformations $\lambda \colon S \to T$ which are compatible with the strengths in the obvious sense. Under composition, this is a strict monoidal category. Monoids in this monoidal category are called **strong monads**. 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition 
 A strong monad $(T \colon V \to V, m \colon T T \to T, u: 1 \to T)$ is **commutative** if there is an equality of natural transformations $\alpha = \beta$ where 
 
@@ -57,7 +63,7 @@ $$\,$$
 
 $$\sigma_{A, B} = (T(A) \otimes B \stackrel{1 \otimes u B}{\to} T(A) \otimes T(B) \stackrel{\alpha_{A, B}}{\to} T(A \otimes B)).$$ 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition 
 $(m \colon T T \to T, u \colon 1 \to T)$ is a commutative monad. 
 =-- 
