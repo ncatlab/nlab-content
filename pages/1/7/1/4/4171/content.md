@@ -98,6 +98,7 @@ See also the definition at _[[multisymplectic geometry]]_.
 
 
 ## Poisson $L_\infty$-algebras   
+ {#PoissonLInfinityAlgebras}
    
 To an ordinary [[symplectic manifold]] is associated its [[Poisson algebra]]. Underlying this is a [[Lie algebra]], whose Lie bracket is the _Poisson bracket_.
 
