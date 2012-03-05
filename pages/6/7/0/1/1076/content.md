@@ -16,16 +16,16 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 A _triangulated category_ is a [[category]] that behaves like the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (infinity,1)-category]]. Indeed, most examples of triangulated categories that arise in practice appear this way, and in fact often from [[stable model categories]].
 
 Therefore, all the structure and properties of a triangulated category is best understood as a 1-categorical shadow of the corresponding properties of [[stable (infinity,1)-category|stable (infinity,1)-categories]], which are more natural and correct.  Triangulated categories are sometimes sufficient, and can be easier to work with since they are only 1-categorical rather than higher-categorical, but often one needs more information than is present in the triangulated category, usually relating to homotopy limits and colimits.  An intermediate notion, which contains a good deal of this information, is a [[stable derivator]] [[derivator]].
 
-#Definition#
+## Definition
 
 A __triangulated category__ is 
 
@@ -189,7 +189,7 @@ $$
 =--
 
 
-#Remarks#
+## Remarks
 
 * In the context of triangulated categories the translation functor $T : C \to C$ is often called the **suspension functor** and denoted $(-)[1] : X \mapsto X[1]$ (in an algebraic context) or $S$ or $\Sigma$ (in a topological context).  However unlike "translation functor", suspension functor is also the term used when the invertibility is not assumed, cf. [[suspended category]].
 
@@ -198,7 +198,7 @@ $$
     ^{id}\downarrow && ^{id} \downarrow && ^{-1} \downarrow && \downarrow^{id}\\
     X & \xrightarrow{f} & Y & \xrightarrow{-g} & Z & \xrightarrow{-h} & T X}$$
 
-#Examples#
+## Examples
 
 * The [[homotopy category]] of [[chain complexes]] in an [[abelian category]] (the category of chain complexes modulo [[chain homotopy]]) is a triangulated category: the translation functor is the shift functor on [[chain complexes]] and the distinguished triangles are those coming from the [[mapping cone]] construction $X \stackrel{f}{\to}Y \to Cone(f) \to T X$.
 
@@ -212,31 +212,30 @@ $$
 
   * In particular, therefore, the [[derived category]] of any [[abelian category]] is a triangulated category, since it is the localization of the homotopy category at the null system of acyclic complexes.  This example is also the homotopy category of a stable $(\infty,1)$-category, and usually of a stable model category.
 
+## Related concepts
 
-#Discussion#
+* [[well-generated triangular category]]
 
-The original definition of triangulated categories is apparently due to Verdier, who developed the theory upon guidelines by Grothendieck; Dold and Puppe developed independently a version without octahedron axiom with motivation in algebraic topology.  In the manuscript [[Pursuing Stacks]], Grothendieck mentions that the usual definition of triangulated categories and the corresponding [[derived category|derived categories]] seemed to be inadequate for some of the developments that he wished for.  He also says something to the effect that he had tried to interest various of his ex-students in doing a thorough treatment of the ideas, which he considered to be necessary for future development, and which he then proceeds to sketch out.
+* [[enhanced triangulated category]], [[pretriangulated dg-category]], [[stable (infinity,1)-category]]
 
-+--{+ .query}
-[[Zoran Skoda]]: I am not quite sure if this is entirely correct. Grothendieck indeed wanted more flexibility in homotopical algebra and went to develop these things; but if one talks
-only very specifically about the concept of triangulated category itself (not wider context) than the main complaint of everybody was about the crudeness of localization at quasiisomorphisms; the thing which for example Drinfel'd's "quotients of dg-categories" paper successfully rectifies (and then again Lyubashenko in quotients of $A_\infty$-categories).
-=--
+* [[Bousfield lattice]]
 
-That led to the theory of [[derivators]], where the idea is that in addition to looking at a basic category of 'things' such as chain complexes, you should also look at all categories of diagrams of such things, and the derived / homotopy Kan extensions between the corresponding derived categories that correspond to a change of the indexing category.  The basic idea behind this was also explored slightly later by Alex Heller (1988).  See the references on the pages [[derivator]], [[pointed derivator]], and [[stable derivator]].
 
-#References#
+## References
 
-* A. Neeman, 2001, Triangulated Categories , Princeton University Press.
+* [[Amnon Neeman]], 2001, _Triangulated Categories_ , Princeton University Press.
 
-* Kashiwara-Schapira, [[Categories and Sheaves]], section 10.
+* Kashiwara-Schapira, _[[Categories and Sheaves]]_, section 10.
 
-* J. Lurie, [[Stable Infinity-Categories]], section 3.
+* [[Jacob Lurie]], _[[Stable Infinity-Categories]]_, section 3.
 
-* B. Noohi, _Lectures on derived and triangulated categories_ ([arXiv](http://arxiv.org/abs/0704.1009)).
+* [[Behrang Noohi]], _Lectures on derived and triangulated categories_ ([arXiv](http://arxiv.org/abs/0704.1009)).
 
-* F. Muro's complementary slides surveying triangulated categories: [htag.pdf](http://personal.us.es/fmuro/htag.pdf).
+* [[Fernando Muro]]'s complementary slides surveying triangulated categories: [htag.pdf](http://personal.us.es/fmuro/htag.pdf).
 
-* [[Neil Strickland]], _Axiomatic stable homotopy - a survey_ ([arXiv:math.AT/0307143](http://front.math.ucdavis.edu/0307.5143)) is a survey of formalisms used in [[stable homotopy theory]] to present the triangulated [[homotopy category]] of a [[stable (infinity,1)-category]].
+* [[Neil Strickland]], _Axiomatic stable homotopy - a survey_ ([arXiv:math.AT/0307143](http://front.math.ucdavis.edu/0307.5143)) 
+
+is a survey of formalisms used in [[stable homotopy theory]] to present the triangulated [[homotopy category]] of a [[stable (infinity,1)-category]].
 
 [[!redirects triangulated categories]]
 [[!redirects distinguished triangle]]
