@@ -1,11 +1,20 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Categorification
++-- {: .hide}
 [[!include categorification - contents]]
-***
+=--
+#### Higher Category Theory
++-- {: .hide}
 [[!include higher category theory - contents]]
-</div>
+=--
+=--
+=--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -146,7 +155,7 @@ An early article where the concept of categorification is described is
 * Crane and Yetter, 
 [Examples of categorification](http://arxiv.org/abs/q-alg/9607028)
 
-A bit of $n$-Caf&eacute; discussion on this subject can be found here: 
+A bit of $n$-Caf&#233; discussion on this subject can be found here: 
 
 * [[John Baez]], _[What is categorification?](http://golem.ph.utexas.edu/category/2008/10/what_is_categorification.html)_
 
