@@ -37,3 +37,4 @@ For more details, see the page on the [[universal coefficient theorem]].
 [[!redirects Kuenneth formula]]
 [[!redirects Kunneth theorem]]
 [[!redirects Kunneth formula]]
+[[!redirects Künneth isomorphism]]
