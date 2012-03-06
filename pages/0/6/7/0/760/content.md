@@ -21,6 +21,12 @@ In such a situation one also says that $A$ is a [[retract]] of $B$, and that $A$
 
 The dual notion is that of [[split epimorphism]].
 
+### characterizations
+
+A split monomorphism can be equivalently defined as a morphism $m$ such that $C(m,X)$ is a [[surjection]] in $\mathbf{Set}$ for every object $X\colon C$; the retraction $r$ is given by the preimage of $1_A$ under $C(m,A)$.
+
+Alternatively, it is also possible to define a split monorphism as an _absolute_ [[monomorphism]]: one such that for every functor $F$ out of $C$ $F(m)$ is a monomorphism.
+
 ## Properties
 
 Any split monomorphism is automatically a [[regular monomorphism]] (it is the [[equalizer]] of $m\circ r$ and $1_B$), and therefore also a [[strong monomorphism]], an [[extremal monomorphism]], and (of course) a [[monomorphism]].
