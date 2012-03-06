@@ -25,9 +25,9 @@
 
 ## Idea
 
-A _Boardman-Vogt resolution_ or _W-construction_ is a particular choice of cofibrant [[resolution]] of [[Top]]-[[operad]]s. It is closely related to the operation of forming a [[homotopy coherent nerve]].
+A _Boardman-Vogt resolution_ or _W-construction_ is a particular choice of cofibrant [[resolution]] of [[topological operads]] (or [[simplicial operads]] or similar). It is closely related to the operation of forming the [[dendroidal homotopy coherent nerve]]. Its restriction to [[Top]]-[[enriched categories]] / [[simplicial categories]] is accordingly closely related to the ordinary [[homotopy coherent nerve]].
 
-This generalizes naturally to a cofibrant [[resolution]] in the [[model structure on operads]] of [[operad]]s enriched over any suitable [[monoidal model category]] that is equipped with a suitable [[comonoid]]al [[interval object]]. This general construction subsumes
+The original Boardman-Vogt resolution over [[Top]] generalizes naturally to a cofibrant [[resolution]] in the [[model structure on operads]] for operads enriched over any suitable [[monoidal model category]] that is equipped with a suitable [[comonoid|comonoidal]] [[interval object]]. In this general form the construction subsumes
 
 * the W-construction on topological operads ([BoardmanVogt](#BoardmanVogt));
 
@@ -35,9 +35,15 @@ This generalizes naturally to a cofibrant [[resolution]] in the [[model structur
 
 * the Godement simplicial resolution ([Godement](#Godement))
 
+
+
+## Definition  {#Definition}
+
+### Over $Top$
+
 Over [[Top]] the BV-resolution works as follows:
 
-for $P$ a topological operad, its [[free operad]] $F_*(P)$ has as $n$-ary operations all [[tree]]s with $n$ inputs, with each vertex of valence $k+1$ labeled by an element in $P(k)$. Composition is given by [[grafting]] of trees.
+for $P$ a [[topological operad]], its [[free operad]] $F_*(P)$ has as $n$-ary operations all [[trees]] with $n$ inputs, with each vertex of valence $k+1$ labeled by an element in $P(k)$. Composition is given by [[grafting]] of trees.
 
 The operad $W(P)$ is obtained from this by in addition 
 
@@ -53,16 +59,14 @@ $$
   F_*(P) \to W(P) \to P
 $$
 
-is the counit of the [[free functor|free]]/forgetful [[adjunction]] between operads and their underlying [[collection]]s and if $P$ is degreewise sufficiently nice, this factors that counit as a cofibration followed by a weak equivalence and exhibits $W(P)$ as a cofibrant [[resolution]] of $P$.
+is the [[unit of an adjunction|counit]] of the [[free functor|free]]/forgetful [[adjunction]] between operads and their underlying [[collection]]s and if $P$ is degreewise sufficiently nice, this factors that counit as a cofibration followed by a weak equivalence and exhibits $W(P)$ as a cofibrant [[resolution]] of $P$.
 
 
-## Definition  {#Definition}
+### General
 
-Write $\mathbb{T}$ for the [[groupoid]] of planar [[tree]]s and non-planar [[isomorphism]].
+Write $\mathbb{T}$ for the [[groupoid]] of planar [[trees]] and non-planar [[isomorphism]].
 
-Fix a suitable interval object $H$, as described at [[model structure on operads]].
-
-### Global
+Fix a suitable [[interval object]] $H$, as described at [[model structure on operads]].
 
 For $T$ a [[tree]], write
 
@@ -84,7 +88,7 @@ $$
   H_D(T) \hookrightarrow H(T)
 $$
 
-and, by the [[pushout-product axiom]], a trivial cofibration
+and, by the [[pushout-product axiom]], an acyclic cofibration
 
 $$
   H^-(T) := \coprod_{D \neq \emptyset} H_D(T) \hookrightarrow H(T)
@@ -192,13 +196,10 @@ The above pushout identifies points that contain lables of inner edges that are 
 =--
 
 
-### Relative
-
-(...)
 
 ## Examples
 
-* [[Jim Stasheff]]'s [[A-∞ operad]] is the relative Boardman-Vogt resolution $W([0,1], I_* \to Assoc)$ of [[Assoc]] in [[Top]] where $I_*$ is the operad for [[pointed object]]s [BergerMoerdijk](#BergerMoerdijkAlgebras).
+* [[Jim Stasheff]]'s [[A-∞ operad]] is the relative Boardman-Vogt resolution $W([0,1], I_* \to Assoc)$ of [[Assoc]] in [[Top]] where $I_*$ is the operad for [[pointed object]]s ([Berger-Moerdijk](#BergerMoerdijkAlgebras)).
 
 
 ## References
