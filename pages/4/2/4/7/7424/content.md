@@ -1,0 +1,10 @@
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Georges_de_Rham)
+
+## Related entries
+
+* [[de Rham cohomology]]
+
+* [[de Rham theorem]]
+
+category: people
