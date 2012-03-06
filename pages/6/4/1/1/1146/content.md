@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -54,7 +56,7 @@ $$
    & & \downarrow^{d_X^v} && \downarrow^{d_X^v}
    \\
     \cdots &\to & 
-    X_{n,m} &\stackrel{d_X^h}{\to}& X_{n,m-1}
+    X_{n-1,m} &\stackrel{d_X^h}{\to}& X_{n-1,m-1}
     & \to & \cdots
    \\
    & & \downarrow^{d_X^v} && \downarrow^{d_X^v}
