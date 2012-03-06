@@ -158,6 +158,11 @@ Slides of a talk summarizing this are at
 [[!redirects framed little disk operads]]
 [[!redirects framed little disks operads]]
 
+[[!redirects framed little disc operad]]
+[[!redirects framed little discs operad]]
+
+[[!redirects framed little disc operads]]
+[[!redirects framed little discs operads]]
 
 [[!redirects BV-operad]]
 
