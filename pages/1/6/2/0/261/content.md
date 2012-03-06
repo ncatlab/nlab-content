@@ -104,7 +104,7 @@ $$
   \,.
 $$
 
-On the other hand, the **degeneracy maps** go the other way round and send sets $S_n$ of $n$-simplices to sets $S_{n+1}$ of $(n+1)$-simplices by regarding an $n$-simplex as a degenerate or "thin" $(n+1)$-simplex in the various different ways that this is possible. For instance again for $n=1$ a degeneracy map may act by sending
+On the other hand, the **degeneracy maps** go the other way round and send sets $S_n$ of $n$-simplices to sets $S_{n+1}$ of $(n+1)$-simplices by regarding an $n$-simplex as a degenerate or "thin" $(n+1)$-simplex in the various different ways that this is possible. For instance, again for $n=1$, a degeneracy map may act by sending
 
 $$
   \left(
@@ -129,7 +129,7 @@ $$
   \,.
 $$
 
-Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin (notice however that a simplicial set by itself is not equipped with a notion of composition of simplices.  See [[quasicategory]] for a kind of simplicial set which does have such a notion).
+Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin. They depend on lower dimensional features,  (however notice however that a simplicial set by itself is not equipped with any notion of composition of simplices, nor really, therefore, of identities.  See [[quasicategory]] for a kind of simplicial set which does have such notions and [[simplicial T-complex]] for more on the intuitions behind this idea of ''thinness'').
 
 
 ## Examples
@@ -151,6 +151,8 @@ $$
   S X : [n] \mapsto Hom_{Top}(\Delta^n, X)
 $$
 called the **simplicial singular complex** of $X$. This simplicial set is always a [[Kan complex]] and may be regarded as the [[fundamental ∞-groupoid]] of $X$.
+
+Following up on the idea of ''thinness'', a singular simplex $f: \Delta^n \to X$ may be called **thin** if it factors through a [[retraction]] $r: \Delta^n \to \Lambda^{n-1}_i$ to some horn of $\Delta^n$,  then the well known [[Kan complex|Kan]] condition on $S X$ can be strengthened to say that every horn in $S X$ has a _thin_ filler. This also helps to give some intuitive underpinning to the idea of [[thin element]] in this simplicial context.
 
 ### Bar construction
 
