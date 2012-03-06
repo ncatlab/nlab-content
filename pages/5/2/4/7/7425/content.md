@@ -25,5 +25,5 @@ It is known that in the [[Bousfield lattice]] of the [[stable homotopy category]
 
 ## References
 
-* Ravenel, Douglas: _Nilpotence and Periodicity in Stable Homotopy Theory_, 1992, Princeton University Press.
+* D. Ravenel, _Nilpotence and Periodicity in Stable Homotopy Theory_, Annals of Mathematics Studies 128, Princeton University Press (1992).
 
