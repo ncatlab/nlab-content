@@ -82,7 +82,7 @@ Dual to the situation in Kan extensions, one is interested in whether a Kan lift
 
 - given $(\widetilde{f}, \varepsilon) = \mathop{Rift}_p f$, $g$ is said to _respect_ this right lift if $(\widetilde{f}g, \varepsilon \bullet g) = \mathop{Rift}_p(fg)$
 
-and analogously for left Kan lifts. A Kan lift $\widehat{f}$ is _absolute_ if it is respected by any 1-cell into $\mathop{dom}(\widehat{f})$. Absolute Kan lifts subsume adjunctions and relative adjunctions, and are prominently present in the axioms of a [[Yoneda Structure]]; for more see the examples below.
+and analogously for left Kan lifts. A Kan lift $\widehat{f}$ is _absolute_ if it is respected by any 1-cell into $\mathop{dom}(\widehat{f})$. Absolute Kan lifts subsume adjunctions and relative adjunctions, and are prominently present in the axioms of a [[Yoneda structure]]; for more see the examples below.
 
 ## Examples ## 
 
