@@ -22,6 +22,12 @@ In such a situation one also says that $B$ is a [[retract]] of $A$, and that $B$
 
 The dual notion is [[split monomorphism]].
 
+### characterizations
+
+A split epimorphism in $C$ can be equivalently defined as a morphism $e\colon A \to B$ such that for every object $X\colon C$ $C(X,e)$ is a [[surjection]] in $\mathbf{Set}$; the preimage of $1_B$ under $C(B,e)$ yields a section $s$.
+
+Alternatively, it can also be defined as an _absolute_ epimorphism: one that for every functor $F$ out of $C$, $Fe$ is an epimorphism. From the definition as a morphism having a section, it is obvious that any split epimorphism is absolute; conversely, that the image of $e$ under the representable functor $C(B,1)$ is an epimorphism reduces to the characterization above.
+
 ## Properties
 
 * Any split epimorphism is automatically a [[regular epimorphism]] (it is the [[coequalizer]] of $s\circ e$ and $1_A$), and therefore also a [[strong epimorphism]], an [[extremal epimorphism]], and (of course) an [[epimorphism]].
