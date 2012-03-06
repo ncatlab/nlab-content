@@ -16,7 +16,9 @@
 
 ## Idea
 
-The _de Rham complex_ $\Omega^\bullet(X)$ of a[[space]] $X$ is the [[cochain complex]] that in degree $n$ has the [[differential form]]s (which may mean: [[Kähler differential form]]s) of degree $n$, and whose [[differential]] is the **de Rham differential** or **exterior derivative**.
+The _de Rham complex_  $\Omega^\bullet(X)$ of a [[space]] $X$ is the [[cochain complex]] that in degree $n$ has the [[differential form]]s (which may mean: [[Kähler differential form]]s) of degree $n$, and whose [[differential]] is the **de Rham differential** or **exterior derivative**.
+
+(named after [[Georges de Rham]])
 
 ## For smooth manifolds
 
