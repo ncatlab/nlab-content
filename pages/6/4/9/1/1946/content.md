@@ -457,3 +457,5 @@ The model structure on towers is discussed in section 6 of
 
 [[!redirects latching object]]
 [[!redirects latching objects]]
+
+[[!redirects Reedy model structures]]
