@@ -91,7 +91,7 @@ $$
   (\Delta^1)^{\times i(V)}
 $$
 
-where the [[coproduct]] ranges over subtrees $V$, as just discussed, and where $i(V)$ is the set of inner edges of $V$.
+where the [[coproduct]] ranges over the set of subtrees $V$, as just discussed (which therefore is either the singleton set or is empty), and where $i(V)$ is the set of inner edges of $V$.
 
 
 Regard then $T$ as a [[simplicial operad]]. The corresponding [[Boardman-Vogt resolution]] $W(T)$ of $T$ is the simplicial operad whose [[simplicial sets]] of operations are
@@ -527,6 +527,60 @@ This appears as [Cisinski-Moerdijk, prop. 4.5](#CisinskiMoerdijk).
 
 
 (...)
+
+### Resolution and rectification
+
++-- {: .num_prop}
+###### Proposition
+
+Let $P$ be an [[operad]] in [[Set]], regarded as an $\mathcal{E}$-operad. Then the $(W_! \dashv hcN_d)$-[[unit of an adjunction|counit]]
+
+$$
+  W_! N_d(P) = W_! hcN_d (P) \to P
+$$
+
+is isomorphic to the [[Boardman-Vogt resolution]] $W_H(P)$ of $P$.
+
+In particular, therefore, there is a [[natural isomorphism]]
+
+$$
+  Hom_{\mathcal{E}Operad}(W_H(P), Q)
+  \simeq
+  Hom_{dSet}(N_d(P), hcN_d(Q))
+  \,.
+$$
+
+=--
+
+(Here we are using that on a discrete operad $P$ the homotopy coherent dendroidal nerve trivially coincides with the ordinary dendroidal nerve $N_d$.)
+
++-- {: .proof}
+###### Proof
+
+By inspection of the relevant formulas.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For a cofibrant and fibrant dendroidal set $X$, the $(W_! \dashv hcN_d)$-[[unit of an adjunction|unit]] 
+
+$$ 
+  X \to hcN_d W_! X
+$$
+
+is an equivalence.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Since composition of operations in a simplicial operad is strictly associative,  this may be understood as producing a semi-strictification of the $\infty$-operad $X$.
+
+=--
+
 ## Related concepts
 
 [[!include table - models for (infinity,1)-operads]]
@@ -534,15 +588,20 @@ This appears as [Cisinski-Moerdijk, prop. 4.5](#CisinskiMoerdijk).
 
 ## References
 
-Section 7 in 
+The fact that the homotopy coherent nerve if a locally fibrant operad is inner Kan is shown in section 7 of 
 
 * [[Ieke Moerdijk]], [[Ittay Weiss]], _On inner Kan complexes in the category of dendroidal sets_, ([math.CT/0701295](http://arxiv.org/abs/math/0701295))
  {#MoerdijkWeiss}
 
-Section 4 in
+The Quillen adjunction properties of the homotopy coherent dendroidal nerve are discussed in section 4 of
 
 * [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets and simplicial operads_ ([arXiv:1109.1004](http://arxiv.org/abs/1109.1004))
  {#CisinskiMoerdijk}
+
+Lecture notes on these two topics are in section 6 and 9 of
+
+* [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , lectures given at the Barcelona workshop on _[Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)_ (2008) ([preliminary writeup](http://www.crm.cat/HigherCategories/hc1.pdf))
+
 
 
 [[!redirects homotopy coherent dendroidal nerve]]
