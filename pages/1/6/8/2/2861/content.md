@@ -151,7 +151,7 @@ See [Rez09, 11.25](http://arxiv.org/PS_cache/arxiv/pdf/0901/0901.3602v2.pdf#page
 
 The theory of $\Theta$-spaces has been proposed in
 
-* [[Charles Rezk]], _A cartesian presentation of weak $n$-categories_ ([arXiv](http://arxiv.org/abs/0901.3602))
+* [[Charles Rezk]], _A cartesian presentation of weak $n$-categories_ ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602))
 
 The definition of the categories $\Theta_n$ goes back to [[Andre Joyal]] who also intended to define [[n-category|n-categories]] using it.
 
