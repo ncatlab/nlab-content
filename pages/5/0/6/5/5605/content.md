@@ -24,9 +24,9 @@ As a [[topological operad]] it is given by $\mathcal{E}_n := E \Sigma_n$, the [[
 
 ### As a simplicial operad
 
-We give the definition of the Barrat-Eccles operad as an object of the category of multi-colored [[symmetric operad|symmetric]] [[simplicial operads]] ([[sSet]]-[[enriched category|enriched]] [[symmetric multicategories]]). (See [Berger-Fress, section 1.1.5 ](#BerFre01).)
+We give the definition of the Barratt-Eccles operad as an object of the category of multi-colored [[symmetric operad|symmetric]] [[simplicial operads]] ([[sSet]]-[[enriched category|enriched]] [[symmetric multicategories]]). (See [Berger-Fress, section 1.1.5 ](#BerFre01).)
 
-The **Barrat-Eccles operad** $\mathcal{E}$ is the operad defined as follows.
+The **Barratt-Eccles operad** $\mathcal{E}$ is the operad defined as follows.
 
 It has a single color.
 
@@ -152,9 +152,9 @@ to the [[commutative operad]] (which has $Comm(n) = *$ for all $n \in \mathbb{N}
 
 ## References
 
-As a [[simplicial operad]], the Barrat-Eccles operad was introduced in 
+As a [[simplicial operad]], the Barratt-Eccles operad was introduced in 
 
-* M. Barratt, P. Eccles, _On $\Gamma^+$-structures I. A free group functor for stable homotopy theory_, Topology 13 (1974), 25-45.
+* [[M. Barratt]], [[P. Eccles]], _On $\Gamma^+$-structures I. A free group functor for stable homotopy theory_, Topology 13 (1974), 25-45.
 
 Its realization as a [[dg-operad]] is discussed in detail in
 
