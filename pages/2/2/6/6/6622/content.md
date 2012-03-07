@@ -192,7 +192,7 @@ unique strict morphism of monoidal categories $\mathcal{W}\to B$ with $
 
 Version 2 says that $\mathcal{W}$ is the free monoidal category on one
 generator $(-)$ (that is, that it is the object part of a universal
-arrow from $(-)$ to the forgetful functor $\mathbf{Set}\to\mathbf{Moncat}_s$, where
+arrow from $(-)$ to the forgetful (object) functor $\mathbf{Moncat}_s \to \mathbf{Set}$, where
 $\mathbf{Moncat}_s$ stands for monoidal categories with strict morphisms of
 monoidal categories) . As we shall see later, this version follows
 almost immediately  from version 1.  While this is not clear at a
