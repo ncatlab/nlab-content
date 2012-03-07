@@ -56,15 +56,7 @@ The above notion of "binary" factorization system can be generalized to factor a
 
 ## Related concepts
 
-* **factorization system**
-
-  * [[weak factorization system]]
-
-  * [[orthogonal factorization system]]
-
-* [[factorization system in a 2-category]]
-
-* [[factorization system in an (∞,1)-category]]
+* [[anodyne morphism]], [[small object argument]]
 
 ## References
 
@@ -75,5 +67,5 @@ The factorization systems were probably first introduced in
 * [[S. MacLane]], _Duality for groups_,  Bull. Amer. Math. Soc. __56__,  (1950). 485--516, [MR0049192](http://www.ams.org/mathscinet-getitem?mr=0049192), [doi](http://dx.doi.org/10.1090/S0002-9904-1950-09427-0)
 * J. R. Isbell, _Some remarks concerning categories and subspaces_, Canad. J. Math. __9__ (1957), 563--577; [MR0094405](http://www.ams.org/mathscinet-getitem?mr=0094405)
 
-* [[Ross Street]], Notes on factorization systems, [pdf](http://www.maths.mq.edu.au/~street/factoriz.pdf)
+* [[Ross Street]], _Notes on factorization systems_, ([pdf](http://www.maths.mq.edu.au/~street/factoriz.pdf))
 [[!redirects factorization systems]]
