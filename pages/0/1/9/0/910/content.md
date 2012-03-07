@@ -36,6 +36,7 @@ A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold. 
 
 
 ## Examples
+ {#Examples}
 
 Examples of compactly generated spaces include
 
