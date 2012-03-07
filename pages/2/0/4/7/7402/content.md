@@ -56,11 +56,23 @@ This is ([Heuts, prop. 2.4](#Heuts)).
 
 * [[model structure for dendroidal Cartesian fibrations]]
 
+* [[model structure on spectra]]
+
 For an overview of models for [[(∞,1)-operads]] see
 _[[table - models for (infinity,1)-operads]]_.
 
 ## References
 
+The model structure for dendroidal left fibrations is due to
+
 * [[Gijs Heuts]], _Algebras over infinity-Operads_ ([arXiv:1110.1776](http://arxiv.org/abs/1110.1776))
  {#Heuts}
+
+The [[model structure for dendroidal Cartesian fibrations]] that it arises from by Bousfield localization is due to
+
+* [[Gijs Heuts]], _Algebras over infinity-Operads_ ([arXiv:1110.1776](http://arxiv.org/abs/1110.1776))
+
+
+
+
 
