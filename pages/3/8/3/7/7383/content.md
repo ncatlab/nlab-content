@@ -48,10 +48,35 @@ Standard examples are $\mathcal{E} = $ [[Top]], [[sSet]], which yields [[topolog
 
 We discuss in detail what the [[Boardman-Vogt resolution]] of [[operads]] free on an object in the [[tree category]] $\Omega$ is like (see _[[dendroidal set]]_ for details on trees as operads).
 
+Let
+
+$$
+  Symm : \mathcal{E} Operad_{planar} \to \mathcal{E} Operad
+$$
+
+be the symmetrization functor, the [[left adjoint]] to the [[forgetful functor]] from [[symmetric operads]] to [[planar operads]]. 
+
+
+
 +-- {: .num_prop}
 ###### Observation
 
-For $T \in \Omega$, and $(e_1, \cdots, e_n; e)$ a tuple of colours (edges) of $T$, notice that the set of operations $T(e_1, \cdots, e_n, e)$ is the set of those subtrees $V \subset T$ such that $\{e_1, \cdots, e_n\}$ is the set of leaves and $e$ is the root of $V$.
+The BV resolution commutes with symmetrization: if $T = Symm(\bar T)$, then 
+
+$$
+  W(T) = Symm(W(\bar T))
+  \,.
+$$
+
+=--
+
+Therefore we describe in the following explicitly the BV-resolution of planar trees, that of non-planar trees then being the symmetrization of that construction.
+
+
++-- {: .num_prop #ComponentDescriptionofBVofTrees}
+###### Observation
+
+For $T \in \Omega_{planar}$, and $(e_1, \cdots, e_n; e)$ a tuple of colours (edges) of $T$, notice that the set of operations $T(e_1, \cdots, e_n, e)$ is the set of those subtrees $V \subset T$ such that $\{e_1, \cdots, e_n\}$ is the set of leaves and $e$ is the root of $V$.
 
 First regard $T$ as a [[topological operad]] (with a [[discrete space]] of operations in each degree). The corresponding [[Boardman-Vogt resolution]] $W(T)$ of $T$ is the topological operad whose [[topological space]] of operations $W(T)(e_1, \cdots, e_n; e)$ is the space of _labeled trees_ as follows.
 
@@ -63,7 +88,7 @@ $$
   W(T)(e_1, \cdots, e_n; e) 
     \simeq 
   \coprod_{V \in T(e_1, \cdots, e_n; e)}
-  \Delta[1]^{i(V)}
+  (\Delta^1)^{\times i(V)}
 $$
 
 where the [[coproduct]] ranges over subtrees $V$, as just discussed, and where $i(V)$ is the set of inner edges of $V$.
@@ -75,7 +100,7 @@ $$
   W(T)(e_1, \cdots, e_n; e)
   =
   \coprod_{V \in T(e_1, \cdots, e_n; e)}
-  \Delta[1]^{i(V)}
+  \Delta[1]^{\times i(V)}
   \,.
 $$
 
@@ -93,25 +118,6 @@ where $H$ is the given [[interval object]].
 
 =--
 
-Let
-
-$$
-  Symm : \mathcal{E} Operad_{planar} \to \mathcal{E} Operad
-$$
-
-be the symmetrization functor, the [[left adjoint]] to the [[forgetful functor]] from [[symmetric operads]] to [[planar operads]]. 
-
-+-- {: .num_prop}
-###### Observation
-
-The BV resolution commutes with symmetrization: if $T = Symm(\bar T)$, then 
-
-$$
-  W(T) = Symm(W(\bar T))
-  \,.
-$$
-
-=--
 
 +-- {: .num_prop}
 ###### Observation
@@ -128,7 +134,7 @@ $$
   }
 $$
 
-correspond to grafting of trees $T_\sigma, T_\rho \subset T$ with the given in- and outputs and is given on the components as discussed above by 
+correspond to grafting of trees $T_\sigma, T_\rho \subset T$ and "assigning unit length to the new inner edge". On the components as discussed above it is given by
 
 $$
   \array{
@@ -141,25 +147,39 @@ $$
     \uparrow^{\mathrlap{\simeq}}
     \\
     H^{\otimes i(T_\sigma) \cup i(T_\rho)} \otimes I
-     &\stackrel{id \otimes I}{\to}&
-    H^{i(T_\sigma) \cup i(T_\rho)} \otimes H
+     &\stackrel{id \otimes i_1}{\to}&
+    H^{\otimes (i(T_\sigma) \cup i(T_\rho))} \otimes H
   }
 $$
 
+=--
+
+
++-- {: .num_prop #BVResolutionAsFunctorOnOmega}
+###### Proposition
+
+The BV-resolution of trees extends to a [[functor]] on the category of [[simplicial operad]]
+
+$$
+  W : \Omega \to sSet Operad
+  \,.
+$$
 
 =--
 
 ### The homotopy coherent nerve
 
-By the general discussion at [[nerve]] and realization, the functor
+By the general discussion at _[[nerve and realization]]_, the functor
 
 $$
-  \Omega \hookrightarrow Operad \hookrightarrow sSet Operad 
-   \stackrel{W}{\to}
+  W
+  : 
+  \Omega 
+  \to  
   sSet Operad
 $$
 
-discussed [above](#BVResolutionOfTrees) induces a [[nerve]] functor as follows.
+from prop. \ref{BVResolutionAsFunctorOnOmega} induces a [[nerve]] functor as follows.
 
 +-- {: .num_defn}
 ###### Definition
@@ -177,11 +197,20 @@ $$
   \,.
 $$
 
+Its [[left adjoint]] (the corresponding "[[geometric realization]]") we denote
+
+$$
+  W_! : dSet \to sSet Operad
+  \,.
+$$
+
+
 =--
 
 
 
 ## Properties
+
 
 ### Specialization to categories
 
@@ -209,15 +238,48 @@ In particular for $\mathcal{E} = $ [[Top]] / [[sSet]] it reproduces the original
 ### Dendroidal inner Kan complexes
 
 
-
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $P \in \mathcal{E} Operad$ be such that each object of operation is fibrant in $\mathcal{E}$. Then its homotopy coherent nerve $hcN_d(P)$ is a [[model structure on dendroidal sets|dendroidal inner Kan complex]].
+Let $P \in \mathcal{E} Operad$ be such that each object of operations is fibrant in $\mathcal{E}$. Then its homotopy coherent nerve $hcN_d(P)$ is a [[model structure on dendroidal sets|dendroidal inner Kan complex]].
 
 =--
 
 This is ([Moerdijk-Weiss, theorem 7.1](#MoerdijkWeiss)).
+
++-- {: .proof}
+###### Proof
+
+Consider a tree $T$ and an inner edge $e$ of it. For each morphism $\Lambda^e[T] \to X$ we need to find a filler $\psi$ in
+
+$$
+  \array{
+    \Lambda^e[T] &\to& hcN_d(X)
+    \\
+    \downarrow & \nearrow_{\mathrlap{\psi}}
+    \\
+    \Omega[T]
+  }
+  \,.
+$$
+
+By the definition of dendroidal nerve, this is equivalently a diagram
+
+$$
+  \array{
+    \cup_{\partial^{i \neq e} \Omega[T]} W(\partial^i \Omega[T]) &\to& X
+    \\
+    \downarrow & \nearrow_{\mathrlap{\hat \psi}}
+    \\
+    W(\Omega[T])
+  }
+  \,.
+$$
+
+Now (...)
+
+=--
+
 
 ### Left adjoint 
   {#LeftAdjoint}
@@ -286,6 +348,72 @@ may be viewed as a "strictification" of the [[(infinity,1)-operad]] given by $X$
 
 =--
 
+### Relation to ordinary dendroidal nerve
+
+By the general properties of the [[Boardman-Vogt resolution]] 
+(but also immediately checked directly) we have
+
++-- {: .num_prop #CounitOfResolutionOnTrees}
+###### Proposition
+
+There is a [[natural transformation]]
+
+$$
+  \epsilon : W \Rightarrow \Omega(-) : \Omega \to sSet Operad
+$$
+
+$$
+  \epsilon_T : W(T) \to T
+$$
+
+(natural in the tree $T \in \Omega$), which is a bijection on colors and is 
+on the components of prop. \ref{ComponentDescriptionofBVofTrees} the canonical map
+
+$$
+  \Delta[1]^{i(V)} \to *
+  \,.
+$$
+
+Each $\epsilon_T$ is hence a weak equivalence of simplicial operads. In particular
+
+$$
+  \pi_0(W(T)) \to T
+$$
+
+is an [[isomorphism]].
+
+=--
+
+This induces hence a [[natural transformation]]
+
+$$
+  W_! \Rightarrow \tau_d : dSet \to sSet Operad
+$$
+
+to the left adjoint $\tau_d$ of the ordinary [[dendroidal nerve]] (the "fundamental operad" construction).
+
++-- {: .num_prop}
+###### Proposition
+
+For every [[dendroidal set]] $X$, the natural morphism
+
+$$
+  \pi_0 W_!(X) \to \pi_0 \tau_d (X) = \tau_d(X)
+$$
+
+is an [[isomorphism]] of simplicial operads.
+
+=--
+
+This appears as [Cisinski-Moerdijk, prop. 4.4](#CisinskiMoerdijk).
+
++-- {: .proof}
+###### Proof
+
+The functors $\pi_0 W_!$ and $\tau_d$, being [[left adjoints]], both preserve small [[colimits]]. Therefore it is sufficient to check the statement for $X = \Omega[T]$ a tree. There it is prop. \ref{CounitOfResolutionOnTrees}.
+
+=--
+
 
 
 ### Quillen equivalence
@@ -297,6 +425,19 @@ The [[adjunction]] $(W_! \dashv hcN_d)$ from [above](#LeftAdjoint) is a [[Quille
 
 =--
 
+We discuss some input to this statement.
+
++-- {: .num_prop}
+###### Proposition
+
+The functor $W_! : dSet \to sSet Operad$ sends normal monomorphisms to to cofibrations, and inner anodyne extensions to trivial cofibrations.
+
+=--
+
+This appears as [Cisinski-Moerdijk, prop. 4.5](#CisinskiMoerdijk).
+
+
+(...)
 ## Related concepts
 
 [[!include table - models for (infinity,1)-operads]]
