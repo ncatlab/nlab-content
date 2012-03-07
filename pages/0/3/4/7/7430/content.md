@@ -1,0 +1,12 @@
+
+* [genealogy](http://genealogy.math.ndsu.nodak.edu/id.php?id=43120)
+
+## Related entries
+
+* [[Reedy category]]
+
+* [[Reedy model structure]]
+
+category: people
+
+[[!redirects Chris Reedy]]
