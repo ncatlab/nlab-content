@@ -18,5 +18,51 @@ A [[presentable (∞,1)-category]] $C$  is an [[(∞,1)-topos]] precisely if
 
 =--
 
++-- {: .num_lemma #RelativelyCompactInInfinityGroupods}
+###### Lemma
+
+In [[∞Grpd]] the relatively $\kappa$-compact morphisms, $X \to Y$, def. \ref{RelativelyKappaCompact} are precisely those all whose [[homotopy fibers]]
+
+$$
+  X_{y} := X \times_{Y} \{y\}
+$$ 
+
+over all [[objects]] $y \in Y$ are $\kappa$-[[small infinity-groupoids]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We may write $Y$ as an [[(∞,1)-colimit]] over itself (see there)
+
+$$
+  Y \simeq {\lim_{\to}}_{y \in Y} \{y\} 
+$$
+
+and then use the fact that [[∞Grpd]] -- being an [[(∞,1)-topos]] -- has 
+[[universal colimits]], to obtain the [[(∞,1)-pullback]] diagram
+
+$$
+  \array{
+    {\lim_{\to}}_{y \in Y} X_y 
+      &\stackrel{\simeq}{\to}
+     & X
+    \\
+    \downarrow && \downarrow
+    \\
+    {\lim_{\to}}_{y \in Y} \{y\}
+    &\stackrel{\simeq}{\to}&
+    Y
+  }
+$$
+
+exhibiting $X$ as an $(\infty,1)$-colimit of $\kappa$-small objects
+over $Y$. By stability of $\kappa$-compact objects under
+$\kappa$-small colimits (see [here](http://ncatlab.org/nlab/show/compact+object+in+an+%28infinity%2C1%29-category#StabilityUnderColimits))
+it follows that $X$ is $\kappa$-compact if $Y$ is. 
+
+=--
+
 
 This is due to [[Charles Rezk]]. The statement appears as [[Higher Topos Theory|HTT, theorem 6.1.6.8]].
