@@ -1,0 +1,7 @@
+[[!redirects M. Barratt]]
+Michael Barratt, Professor of Mathematics from 1974-99 at the Northwestern University, Illinois, and Professor of Pure Mathematics from 1964-74 at the University of Manchester. He was a student of [[Henry Whitehead]].  His research interests were in algebraic topology.
+
+An uninformative [home page](http://www.math.northwestern.edu/people/emeritiProfiles/michael.barratt.html) is on the Northwestern University website.
+
+category:people
+
