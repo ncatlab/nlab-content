@@ -107,7 +107,7 @@ $$
   \Sigma_{n_1 + \cdots + n_r}
 $$
 
-that composes $r$ permutations with a permutation of $r$ elements to a permutation of $\Sum_{i = 0}^r n_r$ elements.
+that composes $r$ permutations with a permutation of $r$ elements to a permutation of $\sum_{i = 0}^r n_r$ elements.
 
 (This function is in fact that which gives the composition in [[Assoc]] when regarded as a [[symmetric operad]], $Assoc := Symm(*)$.)
 
