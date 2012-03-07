@@ -126,6 +126,11 @@ $$
 
 where we inserted the normalization factor $\frac{1}{2}$.
 
+## Related concepts
+
+* [[bicategorical trace]], 
+ 
+  * [[Reidemeister trace]]
 
 ## References
 
