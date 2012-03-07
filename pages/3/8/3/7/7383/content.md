@@ -166,7 +166,7 @@ $$
 
 as follows
 
-* on an inner face map $\delta : \partial^e\Omega[T] \to \Omega[T]$ the component of $W(\delta)$ on a subtree $V$ that contains the edge $e$ is the product of the inclusion
+* on an inner face map $\delta_e : \partial^e\Omega[T] \to \Omega[T]$ the component of $W(\delta)$ on a subtree $V$ of $T$ that contains the edge $e$ is the product of the inclusion
  
   $$
     i_0 : I \to H
@@ -176,9 +176,23 @@ as follows
 
   (meaning: if the label of an inner edge in a tree is 0, then the operations that it connects may be composed);
 
-* (...)
+* on a degenracy map $\sigma $ that sends two given unary vertices to a single one, the component of $W(\sigma)$ on subtrees containing these removes one of the factors $H$ by the map
+
+  $$
+    H \otimes H \to H
+  $$
+  
+  given by the [[interval object]] $H$. For both [[simplicial operads]] and [[topological operads]] this may be taken to be the map
+
+  $$
+    max : \Delta^1 \times \Delta^1 \to \Delta^1
+  $$
+
+  that sends $(x,y)$ to $max(x,y)$.
 
 =--
+
+This is discussed in section 4.2 of ([Cisinski-Moerdijk](#CisinskiMoerdijk)).
 
 ### The homotopy coherent nerve
 
