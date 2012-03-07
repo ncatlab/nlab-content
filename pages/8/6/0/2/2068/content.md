@@ -66,3 +66,6 @@ Similarly a morphism is called
 * [[Cartesian fibration]]  
 
 [[!redirects anodyne morphisms]]
+
+[[!redirects anodyne extension]]
+[[!redirects anodyne extensions]]
