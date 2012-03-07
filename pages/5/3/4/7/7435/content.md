@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A generalization of the notion of [[trace]] in a [[monoidal category]] to a [[bicategory]] context.
+
+## Examples
+
+The following traditional notions of "traces" turn out to be special cases of bicategorical traces
+
+* [[Reidemeister trace]]
+
+  hence [[Lefshetz numbers]], [[Nielsen numbers]]
+
+## References
+
+* [[Kate Ponto]], [[Michael Shulman]], _Shadows and traces in bicategories_ ([arXiv:0910.1306](http://arxiv.org/abs/0910.1306))
+
+A survey is in 
+
+* [[Mike Shulman]], _Traces in monoidal categories and bicategories_ (2008) ([pdf slides](http://www.math.ucsd.edu/~mshulman/papers/ccrtraces.pdf))
+
+[[!redirects 2-bicategorical traces]]
+
+[[!redirects 2-categorical trace]]
+[[!redirects 2-categorical traces]]
