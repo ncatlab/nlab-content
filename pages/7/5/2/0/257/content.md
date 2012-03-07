@@ -88,6 +88,12 @@ There are several extra conditions that strengthen the notion of a model categor
 
 * An [[algebraic model category]] is one where the two defining [[weak factorization systems]] are refined to [[algebraic weak factorization systems]].
 
+* A [[cofibrantly generated model category]] is one with a good compatible notion of [[cell complexes]].
+
+* A [[combinatorial model category]] is one that in addition is a [[locally presentable category]].
+
+* A left/right [[proper model category]] is one where the weak equivalences are stable under pushforward along cofibrations / pullback along fibrations
+
 ### Weaker axiom systems
 
 There are several notions of [[category with weak equivalences]] with similar but less structure than a full model category.
@@ -103,12 +109,38 @@ There is also a slight variant of the full notion of model category by Thomason 
 
 ## Properties
 
+### Closure of morphism classes under retracts
+
 As a consequence of the definition, the classes $Cof, Fib$, and $W$ are all closed under [[retract]]s in the [[arrow category]] $Arr C$ and under composition and contain the [[isomorphism]]s of $C$. 
 
 This is least obvious in the case of $W$. In the presence of functorial factorizations, it is easy to show that closure under retracts follows from axioms (i) and (ii); with a bit of cleverness, this can also be done without functoriality.
 
+### Redundancy in the defining factorization systems
+ {#RedundancyInTheAxioms}
 
-+-- {: .un_prop}
+It is clear that given a model category structure, any two of the three classes of special morphisms (cofibrations, fibrations, weak equivalences) determine the third:
+
+* given $W$ and $C$, we have $F = RLP(W \cap C)$;
+
+* given $W$ and $F$, we have $C = LLP(W \cap F)$;
+
+* given $C$ and $F$, we find $W$ as the class of morphisms which factor into a morphism in $C \cap W$ followed by a morphism in $F \cap W$.
+
+But, in fact, already the cofibrations and the fibrant objects determine the model structure.
+
++-- {: .num_prop}
+###### Proposition
+
+A model structure $(C,W,F)$ on a category $\mathcal{C}$ is determined by its class of cofibrations and its class of fibrant objects.
+
+=--
+
+This statement appears as ([Joyal, prop. E.1.10](#Joyal))
+
+
+### Opposite model structure
+
++-- {: .num_prop}
 ###### Proposition
 
 If a category $C$ carries a model category structure, then the [[opposite category]] $C^{op}$ carries the opposite model structure: 
@@ -186,16 +218,22 @@ and applying a general technique called [[Bousfield localization]] which forces 
 
 ## References
 
+An account is in
+
 * [[joyalscatlab:HomePage|Joyal's CatLab]], _[[joyalscatlab:Model categories]]_
+
+and appendix E of 
+
+* [[André Joyal]], _The theory of quasi-categories and its applications_ ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
+ {#Joyal}
 
 An introductory survey of some key concepts is in the set of slides
 
 * [[Peter May]], [[ModelCatPrimer.pdf:file]]
 
+There is an unpublished manuscript of [[Chris Reedy]] from around 1974 that's been circulating as an increasingly faded photocopy. It's been typed into LaTeX, and the author has given  [permission](http://www-math.mit.edu/~psh/#Other%20mathematics) for it to be posted on the net:
 
-There is an unpublished manuscript of Chris Reedy from around 1974 that's been circulating as an increasingly faded photocopy. It's been typed into LaTeX, and the author has given  [permission](http://www-math.mit.edu/~psh/#Other%20mathematics) for it to be posted on the net:
-
-* Chris Reedy, _Homotopy theory of model categories_ ([pdf](http://www-math.mit.edu/~psh/reedy.pdf))
+* [[Chris Reedy]], _Homotopy theory of model categories_ ([pdf](http://www-math.mit.edu/~psh/reedy.pdf))
 
 Recent review:
 
