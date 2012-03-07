@@ -40,7 +40,7 @@ There is a [[Quillen equivalence]] between this model structure and the [[model 
 
 ### Specific examples
 
-* The [[Barrat-Eccles operad]] has, as a simplicial operad, a single color, and its simplicial set of $n$-ary operations is the [[nerve]] $N(\Sigma_n//\Sigma_n)$ of the [[action groupoid]] $\Sigma_n // \Sigma_n$ of the [[symmetric group]] $\Sigma_n$ acting on itself. This is a [[contractible]] simplicial set in each degree, and, indeed, this operad is a [[resolution]] of [[Comm]], which has the point in each degree. 
+* The [[Barratt-Eccles operad]] has, as a simplicial operad, a single color, and its simplicial set of $n$-ary operations is the [[nerve]] $N(\Sigma_n//\Sigma_n)$ of the [[action groupoid]] $\Sigma_n // \Sigma_n$ of the [[symmetric group]] $\Sigma_n$ acting on itself. This is a [[contractible]] simplicial set in each degree, and, indeed, this operad is a [[resolution]] of [[Comm]], which has the point in each degree. 
 
 ## Related concepts
 
