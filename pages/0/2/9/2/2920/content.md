@@ -112,9 +112,7 @@ Such a localization is determined by the collection $S$ of _[[local object|local
 
 More in detail, the weak equivalences that are added under Bousfield localization are ''$S$-local weak equivalences" for some set $S \subset Mor(C)$. We will see [below](#LocHasToBeSLoc) why this is necessarily the case if $C$ is a [[cofibrantly generated model category]]. For the moment, we take the following to be a refined definition of left Bousfield localization.
 
-Let 
-
-* $C$ be a 
+Let $C$ be a 
 
 * [[proper model category|left proper]] 
 
@@ -871,12 +869,9 @@ Then the left enriched Bousfield localization $L_{S/V} C$ does exist and is [[pr
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This is theorem 4.46 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf))
+This is ([Barwick, theorem 4.46](#Barwick)).
 
-=--
 
 
 
@@ -1041,6 +1036,8 @@ The relation to [[localization of an (infinity,1)-category]] is also in [[Higher
 A detailed discussion of Bousfield localization in the general context of [[enriched model category]] theory is in
 
 * [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+ {#Barwick}
+
 
   * Expanded version: _On left and right model categories and left and right Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pdf))
 
