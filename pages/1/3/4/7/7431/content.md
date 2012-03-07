@@ -14,7 +14,7 @@ A [[presentable (∞,1)-category]] $C$  is an [[(∞,1)-topos]] precisely if
 
 1. it has [[universal colimits]];
 
-1. for sufficiently large regular [[cardinal]]s $\kappa$, $C$ has a classifying object for relatively $\kappa$-compact morphisms.
+1. for sufficiently large regular [[cardinal]]s $\kappa$, $C$ has a [[(sub)object classifier in an (infinity,1)-topos|classifying object]] for relatively $\kappa$-compact morphisms.
 
 =--
 
