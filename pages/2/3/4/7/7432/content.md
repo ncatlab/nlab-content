@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
+=--
+=--
+=--
+
+
 # Atoms
 * table of contents
 {: toc}
@@ -25,11 +36,11 @@ The [[singleton subsets]] are the atoms in a [[power set]].  Every power set is 
 
 ## Categorification 
 
-The result that an atomic complete Boolean algebra is isomorphic to a power set has a categorified analogue as follows. If $E$ is a locally small category, an [[tiny object|atomic object]] is an object $e$ such that $E(e, -)\colon E \to Set$ preserves all colimits that exist in $E$. Define a category $E$ to be **atomic** if it has a small [[generating set]] of atomic objects. 
+The result that an atomic complete Boolean algebra is isomorphic to a power set -- hence to a [[presheaf]] with values in the [[0-category]] $\mathbf{2} = (-1)Grpd$ of [[(-1)-groupoid|(-1)-groupoids]] -- has a categorified analogue as follows. If $E$ is a locally small category, an [[tiny object|atomic object]] is an object $e$ such that $E(e, -)\colon E \to Set$ preserves all [[colimits]] that exist in $E$. Define a category $E$ to be **[[atomic category|atomic]]** if it has a small [[generating set]] of atomic objects. 
 
-+-- {: .un_thm}
++-- {: .num_thm}
 ###### Theorem (Bunge)
-A category $E$ is equivalent to a presheaf topos if and only if it is cocomplete, atomic, and regular. 
+A category $E$ is equivalent to a [[presheaf topos]] (functors with values in the 1-category [[Set]] of [[0-groupoids]]) if and only if it is cocomplete, atomic, and [[regular category|regular]]. 
 =-- 
 
 
