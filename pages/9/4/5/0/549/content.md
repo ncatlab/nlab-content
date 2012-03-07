@@ -209,6 +209,10 @@ Additionally, in an [[enriched category|enriched]] situation, ideally one would 
 
 A modified version of Quillen's small object argument due to Richard Garner produces not just functorial factorization but those of an [[algebraic weak factorization system]]. Unlike Quillen's construction, his converges. Details are contained in _Understanding the small object argument_.
 
+## Related concepts
+
+* [[factorization system]], [[anodyne morphism]]
+
 ## References ##
 
 Standard textbook references are for instance 
