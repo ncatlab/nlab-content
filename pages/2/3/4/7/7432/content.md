@@ -1,0 +1,30 @@
+
+# Atoms
+* table of contents
+{: toc}
+
+## Idea
+
+An atom in a [[poset]] is a [[minimal element]] among those which are not actually the [[bottom element|minimum]].  Thus an atom is as small as possible without being nothing.  In an atomic poset, every element may be broken down (typically not uniquely) into atoms.
+
+
+## Definitions
+
+Let $S$ be a [[poset]] (or [[proset]]) with a [[bottom element]] $\bot$.  Recall that an element of $S$ is __[[positive element|positive]]__ if it is not a bottom element.  An element $a$ of $S$ is __atomic__ if, given any element $p \leq a$, $p$ is positive iff $a \leq p$.  An __atom__ of $S$ is simply an atomic element of $S$.  Note that every atom must be positive (since $a \leq a$).
+
+The atoms are precisely the [[minimal elements]] of the set of positive elements.  For a poset, $a$ is atomic iff every $p \leq a$ is positive iff $p = a$.  Using [[classical logic]] too, $a$ is atomic iff every $p \leq a$ satisfies $p = \bot$ [[xor]] $p = a$.
+
+The p(r)oset $S$ is __atomic__ if every element is a [[supremum]] of atoms.  In this case, every element $x$ is a supremum of those atoms $a \leq x$.  Note that $\bot$ is a supremum of no atoms, and every atom is a supremum of itself, so the condition is really about the nontrivial nonatomic elements.
+
+In [[constructive mathematics]], we require a more complicated definition of a [[positive element]], but the other definitions above remain correct (under the stated conditions), once we have that.  In [[predicative mathematics|predicative]] constructive mathematics, positivity cannot be defined at all, and $S$ must come equipped with a [[positivity predicate]] before we may consider its atoms.
+
+
+## Examples
+
+The [[singleton subsets]] are the atoms in a [[power set]].  Every power set is atomic, and in fact every atomic [[complete boolean algebra]] is (up to [[isomorphism]]) a power set.
+
+
+[[!redirects atom]]
+[[!redirects atoms]]
+[[!redirects atomic element]]
+[[!redirects atomic elements]]
