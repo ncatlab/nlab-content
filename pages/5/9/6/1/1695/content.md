@@ -131,6 +131,7 @@ See [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for more
 
 [[!include k-monoidal table]]
 
+* [[A-infinity space]], [[model structure for dendroidal Cartesian fibrations]]
 
 ## References
 
