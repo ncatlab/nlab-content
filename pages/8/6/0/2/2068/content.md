@@ -17,9 +17,22 @@
 * table of contents
 {:toc}
 
+## Idea
+
+In the presence of a notion of [[fibration]] and a given class of such, a morphism is called _anodyne_ if it has the [[left lifting property]] against all these.
+
+The standard example, often taken to be the default, is that of morphisms in the category [[sSet]] of [[simplicial sets]] which have the left lifting property against all [[Kan fibrations]]. In this case, anodyne morphisms are equivalent to [[acyclic cofibration]] in the standard [[model structure on simplicial sets]].
+
+Typically one says _anodyne morphism_ or, actually, _anodyne extension_ if one thinks of these morphisms produced by [[retracts]] and [[transfinite composition]] of [[pushouts]] of a certain generating set of morphisms.
+
+So in the standard example of left lifting against Kan fibrations, one typically speaks of _anodyne extension_ if one produces morphisms by these operations from the set of [[horn]] inclusions. (see for instance ([Jardine](#Jardine))).
+
+
 ## Definition
 
-A [[morphism]] $f : A \to B$ of [[simplicial set]]s is called **anodyne** if it has the left [[lifting property]] with respect to all [[Kan fibration]]s.
+### Relative to Kan fibrations of simplicial sets
+
+A [[morphism]] $f : A \to B$ of [[simplicial sets]] is called **anodyne** if it has the left [[lifting property]] with respect to all [[Kan fibration]]s.
 
 So $f$ is anodyne if for every [[Kan fibration]] $X \to Y$ and every commuting diagram
 
@@ -46,6 +59,9 @@ $$
   \,.
 $$
 
+See for instance ([Jardine](#Jardine)) for details.
+
+### Relative to left/right inner Kan fibrations of simplicial sets
 
 Similarly a morphism is called
 
@@ -55,7 +71,17 @@ Similarly a morphism is called
 
 * **inner anodyne** if it has the left [[lifting property]] with respect to all [[inner Kan fibration]]s
 
+See ([Lurie](#Lurie)) (following Joyal).
+
+### Relative to inner Kan fibrations of dendroidal sets
+
+In the category of [[dendroidal sets]] there is a notion of horn inclusions that generazies that of simplicial sets. The corresponding saturated class of morphisms is called that of dendroidal **inner anodyne morphisms**.
+
+See ([Cisinski-Moerdijk 09](#CisinskiMoerdijk09)).
+
 ## Related concepts
+
+* [[factorization system]], [[small object argument]]
 
 * [[Kan fibration]], **anodyne morphism**
 
@@ -64,6 +90,24 @@ Similarly a morphism is called
 * [[inner fibration]]
 
 * [[Cartesian fibration]]  
+
+## References
+
+The standard anodyne extensions as morphisms in the saturation class of the [[simplicial set|simplicial]] [[horn]] inclusions is discussed in some detail in 
+
+* [[Rick Jardine]], _Homotopy theory, lecture 5_ ([pdf](http://www.math.uwo.ca/~jardine/papers/HomTh/lecture005.pdf))
+ {#Jardine}
+
+Left/right and inner anodyne morphisms of simplicial sets are discussed in section 2 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
+
+Inner anodyne morphisms of [[dendroidal sets]] are discussed in 
+
+* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets as models for homotopy operads_ ([arXiv:0902.1954](http://arxiv.org/abs/0902.1954))
+ {#CisinskiMoerdijk09}
+
 
 [[!redirects anodyne morphisms]]
 
