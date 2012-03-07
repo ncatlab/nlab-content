@@ -1,4 +1,3 @@
-[[!redirects model structure on symmetric spectra]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -24,11 +23,17 @@
 
 A [[model category]] structure on a category of [[spectra]] presents a [[stable (∞,1)-category]] of [[spectrum object]]s.
 
+## Related concepts
+
+* [[model structure for dendroidal left fibrations]]
+
 ## References
 
-A discussiion of model structures on spectra in general ambiend model categories (general spectrum objects) is in
+A discussion of model structures on spectra in general ambiend model categories (general spectrum objects) is in
 
-* [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_ ([arXiv](http://arxiv.org/abs/math/0004051))
+* [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_ ([arXiv:0004051](http://arxiv.org/abs/math/0004051))
 
 
 [[!redirects model structure on symmetric spectrum objects]]
+
+[[!redirects model structure on symmetric spectra]]
