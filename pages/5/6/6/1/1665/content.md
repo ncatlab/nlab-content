@@ -27,6 +27,10 @@ A & \overset{f}{\to} & C
 
 Of course, lifts typically don't literally exist in the sense of an equation $p \circ \widetilde{f} = f$ or an [[isomorphism]] $p \circ \widetilde{f} \cong f$. But in good situations, one may have the next best thing: a [[2-morphism|2-cell]] $p \circ \widetilde{f} \Rightarrow f$ which is universal among 2-cells of this form. This gives the notion of _right_ Kan lift. The notion of _left_ Kan lift is similar, but with 2-cells in the opposite direction. 
 
+### terminology ###
+
+Usually, when working within a 2-categorical context, Kan lifts are simply refered to as _lifts/liftings_, just as what happens with [[Kan extension|Kan extensions]].
+
 ## Definition ## 
 
 As in the discussion at [[Kan extension]], there is a local notion of Kan lift and a global notion. Expanding on the informal description above, we give the local notion first, followed by the (conceptually more perspicuous) global notion in terms of [[adjoint functor]]s. 
@@ -106,3 +110,5 @@ $$\forall_{d: D} r(d, c) \Rightarrow s(d, b)$$
 * In $Cat$, if $A$ is small and $B$ is locally small, and if $F: A \to B$ is a functor, then we have a Yoneda embedding $y: A \to P A = Set^{A^{op}}$ and a functor $B(F-, -): B \to P A$, and there is a canonical map 
 $$y_A \to B(F-, -) \circ f$$ 
 (essentially, $hom(a, b) \to hom(F a, F b)$ taking $f: a \to b$ to $F f: F a \to F b$). This arrow exhibits $F$ as a left Kan lift of $y$ through $B(F-, -)$, which is moreover absolute. This example is important in the theory of Yoneda structures, due to Street and Walters; see Mark Weber's updated [development](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf) in the context of 2-topos theory. 
+
+[[!redirects Kan lifting]]
