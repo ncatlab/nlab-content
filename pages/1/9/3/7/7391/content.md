@@ -31,7 +31,7 @@ $$
   \,.
 $$
 
-Write $\otimes$ for the Boardman-Vogt tensor product on [[dendroidal sets]] (see there for details).
+Write $\otimes$ for the [[Boardman-Vogt tensor product]] on [[dendroidal sets]] (see there for details).
 
 
 ### Segal core
@@ -88,11 +88,26 @@ Call this the **model structure for complete dendroidal Segal spaces**. A fibran
 
 This is [Cisinski-Moerdijk, def. 5.4, def. 6.2](#CisinskiMoerdijk).
 
++-- {: .num_prop}
+###### Proposition
+
+The first localization at the Segal core inclusions is equivalently the [[Bousfield localization of model categories|left Bousfield localization]] at the set of dendroidal inner horn inclusions.
+
+=--
+
+This is [Cisinski-Moerdijk, prop. 5.5, def. 6.2](#CisinskiMoerdijk).
+
 ## Properties
+
 
 ### Relation to other model structures
 
 We discuss the relation to various other model structures for operads. For an overview see _[[table - models for (infinity,1)-operads]]_.
+
+
+#### To complete Segal spaces
+
+(...) [[model structure for complete Segal spaces]]
 
 #### To dendroidal sets
 
@@ -101,6 +116,7 @@ We discuss the relation to various other model structures for operads. For an ov
 #### To Segal operads
 
 (...) [[model structure for Segal operads]]
+
 
 ## References
 
