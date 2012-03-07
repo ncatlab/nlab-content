@@ -128,6 +128,8 @@ where we inserted the normalization factor $\frac{1}{2}$.
 
 ## Related concepts
 
+* [[Euler characteristic]]
+
 * [[bicategorical trace]], 
  
   * [[Reidemeister trace]]
