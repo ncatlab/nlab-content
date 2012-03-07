@@ -15,9 +15,95 @@
 
 ## Idea
 
-A class of [[model categories]] that generalizes the [[Reedy model structure]] when the underlying site is generalized from a [[Reedy category]] to a [[generalized Reedy category]].
+Generalized Reedy model structures are a class of [[model categories]] that generalize the [[Reedy model structures]] when the underlying site is generalized from a [[Reedy category]] to a [[generalized Reedy category]].
+
+So these model structures serve to present [[(∞,1)-categories of (∞,1)-functors]] on generalized Reedy categories.
+
+## Definition
+
+Let $S$ be a (Cisinski-Moerdijk) [[generalized Reedy category]].
+Let $\mathcal{C}$ be a category with limits and colimits.
+
++-- {: .num_defn}
+###### Definition
+
+For every [[object]] $s \in S$, every [[functor]] $X : S \to \mathcal{C}$ and every [[natural transformation]] $\phi : X \to Y$ write 
+
+* $S^+(s)$ for the [[full subcategory]] of the [[slice category]] $S/s$ on the non-invertible morphisms into $s$;
+
+* $S^-(s)$ for the [[full subcategory]] of the [[under category]] $s/S$ on the non-invertible morphisms out of $s$;
+
+* $L_s(X) := {\lim_\to}_{(r \to s) in S^+(s)} X(r)$ for the [[colimit]] of $X$ over $S^+(s)$, called the **latching object** of $X$ at $s$;
+
+* $M_s(X) := {\lim_\leftarrow}_{(s \to r) in S^-(s)} X(r)$ for the [[colimit]] of $X$ over $S^+(s)$, called the **matching object** of $X$ at $s$.
+
+* $X_s \coprod_{L_s(X)} L_s(Y) \to Y_s$ for the universal morphism induced from the morphism $L_s(X) \to X_s$, called the **relative latching map** of $\phi$ at $s$;
+
+* $X_s \to M_s(X) \coprod_{M_s(Y)} Y_s$ similarly the universal morphism, called the **relative matching map** of $\phi$ at $s$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+In the above situation, the [[automorphism]] group $Aut_S(s)$ of $s$ canonically acts on all objects that appear, and all morphisms that appear respect this action.
+
+Equivalently this means that for all $s$ the above objects and morphism take place in the presheaf category $[B Aut(s), \mathcal{E}]$.
+
+=--
+
+
++-- {: .num_defn #ReedyModelStructure}
+###### Definition
+
+Let $S$ be a (Cisinski-Moerdijk)-[[generalized Reedy category]]. And let $\mathcal{C}$ be a [[cofibrantly generated model category]]. Write $[S, \mathcal{C}]$ for the [[category of presheaves]] on $S^{op}$ with values in $\mathcal{C}$.
+
+Call a morphism $f : X \to Y$ in $[S^{op}, \mathcal{C}]$
+
+* a **Reedy cofibration** if for each $s \in S$ the relative latching map 
+
+  $$
+    X_s \cup_{L_s(X)} L_s(Y) \to Y_s
+  $$
+
+  is a cofibration in $[B Aut(s), \mathcal{C}]_{proj}$;
+
+* a **Reedy fibration** if for each $s \in S$ the relativ matching map 
+
+  $$
+    X_s \to M_s(X) \coprod_{M_s(Y)} Y_s
+  $$
+
+  is a fibration in $[B Aut(s), \mathcal{C}]_{proj}$;
+
+* a **Reedy weak equivalence** if for each $s \in S$ the morphism
+
+  $$
+    f_s : X_s \to Y_s
+  $$
+
+  is a weak equivalence in $\mathcal{C}$;
+
+where $[B Aut(r), \mathcal{C}]_{proj}$ is the projective [[model structure on functors]].
+
+=--
+
+## Properties
+
++-- {: .num_theorem }
+###### Theorem
+
+Let $S$ be a (Cisinski-Moerdijk)-[[generalized Reedy category]]. And let $\mathcal{C}$ be a [[cofibrantly generated model category]].
+
+Then with cofibrations, fibrations and weak equivalences as in def. \ref{ReedyModelStructure}, $[S, \mathcal{C}]$ is a [[model category]].
+
+=--
+
+This is ([Berger-Moerdijk, theorem 1.6](#BergerMoerdijk)).
 
 ## Examples
+
+* Every ordinary [[Reedy category]] is a generalized Reedy category, and in this case the above model structure reduces to the traditional [[Reedy model structure]].
 
 * The [[model structure for dendroidal complete Segal spaces]] is a [[Bousfield localization of model categories|left Bousfield localization]] of the generalized Reedy model structure over the [[tree category]].
 
