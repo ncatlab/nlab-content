@@ -26,7 +26,7 @@ We recall that to say an object $S$ is $\alpha$-small in a triangulated category
 
 ##References
 
-* Henning Krause, _On Neeman's Well Generated Triangulated Categories_ ([pdf](http://www.math.uiuc.edu/documenta/vol-06/07.pdf)).
+* Henning Krause, _On Neeman's Well Generated Triangulated Categories_, Documenta Mathenatica 6 (2001) ([pdf](http://www.math.uiuc.edu/documenta/vol-06/07.pdf)).
  {#Krause}
 
 * [[Amnon Neeman]], _Triangulated Categories_, Annals of Mathematics Studies 148, Princeton
