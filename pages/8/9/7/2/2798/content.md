@@ -68,7 +68,7 @@ and where
 
 Recall from the entry on [[dendroidal set]]s the definition of inner and outer faces, boundaries and inner and outer horns.
 
-The following definition are the obvious generalizations of the corresponding notions for the [[model structure on simplicial sets]], in particular for the [[Andre Joyal|Joyal]] model structure.
+The following definition are the obvious generalizations of the corresponding notions for the [[model structure on simplicial sets]], in particular for the [[model structure for quasi-categories]].
 
 +-- {: .num_defn #InnerAnodyneExtension}
 ###### Definition 
@@ -81,7 +81,7 @@ The class of morphisms in $dSet$ generated from the inner horn inclusions $\Lamb
 
 * [[retract]]s
 
-is called the **inner anodyne extensions**.
+is called the **inner [[anodyne extensions]]**.
 
 =--
 
@@ -169,7 +169,7 @@ On the category of [[dendroidal sets]] let
 
   * every [inner anodyne extension](#InnerAnodyneExtension) is a weak equivalence
 
-  * every trivial fibration between quasi-operads is a weak equivalence.
+  * every acyclic fibration between quasi-operads is a weak equivalence.
 
 =--
 
@@ -244,24 +244,11 @@ A set of generating cofibrations is guaranteed to exist, but no good explicit ch
 
 =--
 
-+-- {: .num_corollary }
-###### Corollary
-
-With this model structure and the standard [[model structure on operads]] the dendroidal [[nerve]] [[adjunction]]
-
-$$
-  \tau_d : dSet \stackrel{\leftarrow}{\to} Operad : N
-$$
-
-is a [[Quillen adjunction]] and both functors preserve all weak equivalences. So in particular a morphism of operads is a weak equivalence precisely if the induced morphism between dendroidal nerves is a weak equivalence.
-
-=--
-
 
 This is cor. 6.17 in [CisMoe](http://arxiv.org/abs/0902.1954).
 
 
-+-- {: .num_proposition }
++-- {: .num_prop }
 ###### Proposition
 
 
@@ -385,7 +372,7 @@ $$
 
 is a [[Quillen adjunction]] between the model structure on dendroidal sets, def. \ref{ModelStructureOnDendroidalSets}, and the [[canonical model structure on Operad]].
 
-Moreober, $N_d$ detects and preserves weak equivalences, while $\tau_d$ preserves weak equivalences.
+Moreover, $N_d$ detects and preserves weak equivalences, while $\tau_d$ preserves weak equivalences.
 
 =--
 
