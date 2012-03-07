@@ -28,7 +28,7 @@ Infinite loop spaces are the [[E-∞ algebras]] in [[Top]] ([[E-∞ space|E-∞ 
 
 See for instance ([Adams, pretheorem 2.3.2](#Adams)) and the references listed there for traditional accounts. See ([Lurie, section 5.3.1](#Lurie)) for a modern formulation.
 
-(Compare to how just [[loop spaces]] are the [[A-∞ algebras]].)
+(Compare to how just [[loop spaces]] are the grouplike [[A-∞ algebras]], see _[[looping and delooping]]_.)
 
 ## Related concepts
 
