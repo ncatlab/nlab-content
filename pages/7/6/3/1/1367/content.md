@@ -221,7 +221,7 @@ This is [[Higher Topos Theory|HTT, corollary 5.1.2.3]]
 
 ## Reference
 
-The intrinsic defintiion is in section 1.2.7 of
+The intrinsic definition is in section 1.2.7 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
@@ -229,6 +229,9 @@ The discussion of [[model category]] models is in A.3.4.
 
 
 [[!redirects (∞,1)-category of (∞,1)-functors]]
+
+[[!redirects (∞,1)-categories of (∞,1)-functors]]
+
 [[!redirects (infinity,1)-functor category]]
 [[!redirects functor (infinity,1)-category]]
 [[!redirects (∞,1)-functor categories]]
