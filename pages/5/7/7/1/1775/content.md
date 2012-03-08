@@ -6,13 +6,13 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
 #### $(\infty,1)$-Category theory
 +--{: .hide}
 [[!include quasi-category theory contents]]
-=--
-#### $(\infty,1)$-topos theory
-+--{: .hide}
-[[!include (infinity,1)-topos - contents]]
 =--
 =--
 =--
