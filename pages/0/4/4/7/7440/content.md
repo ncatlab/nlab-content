@@ -164,42 +164,6 @@ $$
 
 The corresponding model is that of _[[n-fold complete Segal space]]_.
 
-### $(\infty,1)$-Categories in a cohesive $(\infty,1)$-topos
- {#InACohesiveTopos}
-
-+-- {: .num_prop }
-###### Proposition
-
-Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] with an [[∞-cohesive site]] of definition. Then $\mathbf{H}$ is _well suited for internalization_ in the sense of 
-def. \ref{WellSuitedTopos}.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The first condition is trivially satisfied, by definition of 
-[[cohesive (∞,1)-topos|cohesion]]. 
-
-For the second condition, notice, by the lemma [here](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos#General), that over an $\infty$-cohesive site we have  for all $A \in \infty Grpd$ a [[natural equivalence]]
-
-$$
-  \mathbf{H}_{/Disc A} \simeq Func(A, \mathbf{H}) 
-  \,.
-$$
-
-Hence the functor $\chi$ is represented by $\mathbf{H}$ and hence 
-preserves $\infty$-limits.
-
-=--
-
-+-- {: .num_remark }
-###### Remark
-
-The assumption of an $\infty$-cohesive site of definition is probably not necessary, or at least probably much stronger than sufficient. 
-
-=--
-
 ## References
 
 A general abstract formulation is in 
