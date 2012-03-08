@@ -41,9 +41,9 @@ Any two of these definitions can be shown to be equivalent in the union of the c
 
 * In impredicative constructive mathematics, one can prove that every preorder has a unique positivity predicate, which must match Definition \ref{constdef}.
 
-* In predicative mathematics with classical logic, one can prove that every poset has a unique positivity predicate, which must match the Definition \ref{preddef}.
+* In predicative mathematics with classical logic, one can prove that every preorder has a unique positivity predicate, which must match Definition \ref{preddef}.
 
-* In [[classical mathematics]] (with [[classical logic]] and impredicativity), all the definitions are equivalent.
+* In [[classical mathematics]] (with [[classical logic]] and impredicativity), all of the definitions are equivalent.
 
 
 ## Examples
