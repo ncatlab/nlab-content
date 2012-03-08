@@ -34,6 +34,12 @@ In [[constructive mathematics]], we require a more complicated definition of a [
 
 The [[singleton subsets]] are the atoms in a [[power set]].  Every power set is atomic, and in fact every atomic [[complete boolean algebra]] is (up to [[isomorphism]]) a power set.
 
+## Properties
+
+If $a$ is an atom in an atomic (in the standard sense, not in the screwy definition currently on this page) [[lattice]] or more generally a [[meet]] [[semilattice]] and $b$ any other element then
+
+$$a \wedge b \in \{a, \bot\}$$
+
 ## Atoms and atomic objects 
 
 Recall that if $E$ is a locally small category, an [[tiny object|atomic object]] is an object $e$ such that $E(e, -)\colon E \to Set$ preserves all [[colimits]] that exist in $E$.
