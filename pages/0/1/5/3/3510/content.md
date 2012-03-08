@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include model category theory - contents]]
 =--
-#### $(\infty,1)$-Category theory
+#### Internal $(\infty,1)$-Categories
 +--{: .hide}
-[[!include quasi-category theory contents]]
+[[!include internal infinity-categories contents]]
 =--
 =--
 =--
