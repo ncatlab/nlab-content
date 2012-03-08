@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
 =--
 =--
 
