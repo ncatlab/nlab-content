@@ -44,11 +44,11 @@ There are a variety of [[model category]] structures that [[presentable (infinit
 
 (...)
 
-### Suitable ambient contexts
+### Nice ambient contexts
  {#SuitableAmbientContexts}
 
 We introduce some conditions on an ambient $(\infty,1)$-category $\mathcal{C}$
-such that it admits a "good" theory of internal $(\infty,1)$-category objects.
+such that it admits a "very good" theory of internal $(\infty,1)$-category objects.
 
 
 The following definition is the specialization of the notion termed _absolute distributor_ in [Lurie, def. 1.2.1, 1.3.3](#Lurie) to [[(∞,1)-toposes]].
@@ -56,11 +56,8 @@ The following definition is the specialization of the notion termed _absolute di
 +-- {: .num_defn #WellSuitedTopos}
 ###### Definition
 
-Call an [[(∞,1)-topos]] $\mathbf{H}$ **well-suited for internalization** if 
-
-1. it is [[locally ∞-connected (∞,1)-topos|locally]] and [[∞-connected (∞,1)-topos|globally ∞-connected]],
-
-1. its [[codomain fibration]] is a [[canonical topology|canonical]] [[(∞,2)-sheaf]] over the [[discrete objects]].
+Call an [[(∞,1)-topos]] $\mathbf{H}$ **very well-suited for internalization** if 
+it is [[locally ∞-connected (∞,1)-topos|locally]] and [[∞-connected (∞,1)-topos|globally ∞-connected]],
 
 =--
 
@@ -81,7 +78,19 @@ $$
 
 and that the [[inverse image]] $Disc$ is [[full and faithful]]. The corresponding [[full sub-(∞,1)-category]] is called that of _[[discrete objects]]_.
 
-The second condition says that the [[(∞,1)-functor]] 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the terminology of ([Lurie](#Lurie)) this is indeed equivalent to $Disc : \infty Grpd \to \mathbf{H}$ being an "absolute distributor". The formulation there corresponds to the formulation here as follows.
+
+Item 1) and 3) of ([Lurie, def. 1.2.1](#Lurie)) are automatically satisfied by assumption that $\mathbf{H}$ is an [[(∞,1)-topos]]. With this, item 2) of ([Lurie, def. 1.2.1](#Lurie)) and item 1) of ([Lurie, def. 1.3.3](#Lurie)) precisely encode [[locally ∞-connected (∞,1)-topos|local]] and global [[∞-connected (∞,1)-topos|∞-connectedness]] (notice that by the [[adjoint (∞,1)-functor theorem]] for [[presentable (∞,1)-categories]] the condition that $Disc$ preserves [[(∞,1)-limits]] is equivalent to it having the further [[left adjoint]] $\Pi$).
+
+Finally notice that the version of item 4) of ([Lurie, def. 1.2.1](#Lurie)) available at time of this writing has a typo: it is indeed $\mathbf{H}^{op} \to CAT_{(\infty,1)}$ that is supposed to preserve $\infty$-limits, not $\mathbf{H} \to CAT_{(\infty,1)}^{op}$. This is clear from comparing with the proof of the next statement there, which is ([Lurie, prop. 1.2.4](#Lurie)).
+
+So this condition is that the [[(∞,1)-functor]] 
 
 $$
   \chi_{cod} : \infty Grpd^{op} \to CAT_{(\infty,1)}
@@ -97,16 +106,7 @@ $$
 
 satisfies [[descent]] with respect to the [[canonical topology]], hence that it preserves [[(∞,1)-limits]] (sends [[(∞,1)-colimits]] in [[∞Grpd]] to [[(∞,1)-limits]] in $\mathbf{H}$).
 
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-In the terminology of ([Lurie](#Lurie)) this is indeed equivalent to $Disc : \infty Grpd \to \mathbf{H}$ being an "absolute distributor". The formulation there corresponds to the formulation here as follows.
-
-Item 1) and 3) of ([Lurie, def. 1.2.1](#Lurie)) are automatically satisfied by assumption that $\mathbf{H}$ is an [[(∞,1)-topos]]. With this, item 2) of ([Lurie, def. 1.2.1](#Lurie)) and item 1) of ([Lurie, def. 1.3.3](#Lurie)) precisely encode [[locally ∞-connected (∞,1)-topos|local]] and global [[∞-connected (∞,1)-topos|∞-connectedness]] (notice that by the [[adjoint (∞,1)-functor theorem]] for [[presentable (∞,1)-categories]] the condition that $Disc$ preserves [[(∞,1)-limits]] is equivalent to it having the further [[left adjoint]] $\Pi$).
-
-Finally notice that the version of item 4) of ([Lurie, def. 1.2.1](#Lurie)) available at time of this writing has a typo: it is indeed $\mathbf{H}^{op} \to CAT_{(\infty,1)}$ that is supposed to preserve $\infty$-limits, not $\mathbf{H} \to CAT_{(\infty,1)}^{op}$. This is clear from comparing with the proof of the next statement there, which is ([Lurie, prop. 1.2.4](#Lurie)).
+But over an [[(∞,1)-topos]] the [[codomain fibration]] is always a [[canonical topology|canonical]] [[(∞,2)-sheaf]] (see there).
 
 =--
 
