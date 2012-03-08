@@ -77,6 +77,14 @@ See [[fundamental ∞-groupoid]].
 
 * [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] / [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
+## References
+
+* R. Brown and G. Danesh-Naruie,  The fundamental groupoid as a
+topological groupoid, _Proc. Edinburgh Math. Soc._ 19 (1975)
+237-244.
+
+* R. Brown, _Topology and groupoids_, Booksurge (2006). (See particularly 10.5.8, using lifted topologies to topologise $(\pi_1 X)/N$ where $N$ is a normal, totally disconnected subgroupoid of $\pi_1 X$, and $X$ admits a universal cover). 
+
 
 [[!redirects fundamental groupoid]]
 [[!redirects fundamental groupoids]]
