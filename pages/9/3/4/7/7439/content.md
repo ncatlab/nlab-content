@@ -1,0 +1,10 @@
+
+* [genealogy](http://genealogy.math.ndsu.nodak.edu/id.php?id=98595)
+
+## Related pages
+
+* [[internal category]]
+
+* [[Lie algebroid]]
+
+category: people
