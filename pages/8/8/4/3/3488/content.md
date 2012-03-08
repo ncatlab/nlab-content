@@ -53,7 +53,7 @@ $$
   \mathbf{H} \xrightarrow{\Gamma}\infty\Grpd
 $$ 
 
-extends to an __[[essential geometric messential]] $(\infty,1)$-geometric morphism__, i.e. there is a further [[left adjoint]] $\Pi$
+extends to an __[[essential geometric morphism]] $(\infty,1)$-geometric morphism__, i.e. there is a further [[left adjoint]] $\Pi$
 
 $$
   (\Pi \dashv \Delta \dashv \Gamma) : 
