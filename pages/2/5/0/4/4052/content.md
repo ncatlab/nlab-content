@@ -52,6 +52,7 @@ The archetypical 2-topos is [[Cat]].
 
 * [[(∞,1)-topos]]
 
+* [[(∞,2)-topos]]
 
 ## References
 
@@ -68,3 +69,6 @@ The archetypical 2-topos is [[Cat]].
 
 
 [[!redirects (2,1)-topos]]
+
+[[!redirects Grothendieck 2-topos]]
+[[!redirects Grothendieck 2-toposes]]
