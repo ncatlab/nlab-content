@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher category theory - contents]]
 =--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
 =--
 =--
 
