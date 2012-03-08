@@ -247,3 +247,14 @@ Some related remarks are in
 [[!redirects over-(∞,1)-topoi]]
 [[!redirects over-(infinity,1)-toposes]]
 [[!redirects over-(infinity,1)-topoi]]
+
+[[!redirects slice-(∞,1)-topos]]
+[[!redirects slice (∞,1)-topos]]
+[[!redirects slice-(infinity,1)-topos]]
+[[!redirects slice (infinity,1)-topos]]
+
+[[!redirects slice-(∞,1)-toposes]]
+[[!redirects slice (∞,1)-toposes]]
+[[!redirects slice-(infinity,1)-toposes]]
+[[!redirects slice (infinity,1)-toposes]]
+
