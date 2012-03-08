@@ -394,7 +394,7 @@ should be.
 
 * **$(\infty,1)$-topos**
 
-
+* [[(∞,2)-topos]]
 
 ## References
 
