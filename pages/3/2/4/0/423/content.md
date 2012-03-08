@@ -29,6 +29,7 @@ There are many cousins of topological spaces, e.g. sites, locales, topoi, higher
 One of the tools of topology, [[homotopy theory]], has long since crossed the boundaries of topology and applies to many other areas, thanks to many examples and motivations as well as of abstract categorical frameworks for homotopy like Quillen [[model categories]], Brown's [[category of fibrant objects|categories of fibrant objects]] and so on.
 
 ## Related entries
+ {#RelatedEntries}
 
 * [[Top]], [[spectrum]], [[CW-complex]], [[general topology]]
 * [[induced topology]], [[subspace]], [[interior]], [[boundary]], [[closure]]
