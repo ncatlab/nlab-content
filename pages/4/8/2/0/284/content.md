@@ -248,7 +248,7 @@ See _[[table - models for (∞,1)-categories]]_.
 
 * [[(n,1)-category]]
 
-* **(∞,1)-category**
+* **(∞,1)-category**, [[internal (∞,1)-category]], [[∞-groupoid]]
 
 * [[(∞,2)-category]]
 
