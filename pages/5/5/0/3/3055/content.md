@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -347,9 +358,13 @@ is then a Quillen pair.
 
 Since the codomain fibration $cod : [I,C] \to C$ is a [[bifibration]] when $C$ has all [[pullback]]s, there is a notion of [[monadic descent]] in this case. Details on this are at [monadic descent for codomain fibrations](http://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs).
 
-## Categorification
+## In higher category theory
 
-A categorification in dimension 2 is a codomain 2-fibration, whose main example is $Cat^2$ over $Cat$.
+We discuss the codomain fibration in [[higher category theory]].
+
+### In 2-category theory
+
+A categorification in dimension 2  (see [[2-category theory]]) is a codomain 2-fibration, whose main example is $Cat^2$ over $Cat$.
 
 +--{: .query}
 [[Mike Shulman]]: I still don't believe that that is a 2-fibration.  How do you lift the 2-cells?
@@ -358,3 +373,50 @@ A categorification in dimension 2 is a codomain 2-fibration, whose main example 
 
 [[Mike Shulman]]: I think the guiding example of a 2-fibration should actually be $Fib \to Cat$, as in [Hermida's paper](http://www.cs.math.ist.utl.pt/s84.www/cs/claudio/articles/2-fib.ps).  There, you can lift the 2-cells, because in each fibration you can lift the 1-cells.
 =--
+
+### In $(\infty,1)$-category theory
+ {#InInfinityCategoryTheory}
+
+Let $\mathcal{X}$ be an [[(infinity,1)-category]].
+
++-- {: .num_prop }
+###### Proposition
+
+The codomain fibration 
+
+$$
+  Cod : \mathcal{X}^I \to \mathcal{X}
+$$
+
+is an [[coCartesian fibration]]. 
+
+It is classified under the [[(infinity,1)-Grothendieck construction]] by 
+
+$$
+  A \mapsto \mathcal{X}_{/A}
+  \,,
+$$
+
+where on the right we have the [[over-(infinity,1)-category]].
+
+=--
+
+This is a special case of ([Lurie, corollary 2.4.7.12](#Lurie)).
+
+For $\mathcal{X}$ an [[(infinity,1)-topos]], this is the canonical [[(infinity,2)-sheaf]].
+
+
+## Related concepts
+
+* [[tangent category]]
+
+* [[tangent (infinity,1)-category]]
+
+## References
+
+Secton 2.4.7 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+ {#Lurie}
+
+[[!redirects codomain fibrations]]
