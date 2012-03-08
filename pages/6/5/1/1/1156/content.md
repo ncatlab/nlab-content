@@ -67,6 +67,7 @@ Notice however that there is ambiguity in what precisely one may mean by an $\in
 
 * **$(\infty,1)$-sheaf** / [[∞-stack]]
 
+* [[(∞,2)-sheaf]]
 
 ## References
 
