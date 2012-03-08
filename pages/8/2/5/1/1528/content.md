@@ -20,6 +20,10 @@ The advantage of this definition as pairs is partly in giving a topology on $M(X
 
 The reference below defines $M_*(X)$ as a strict [[cubical omega-category|cubical]] $\omega$-category. It also has connections, which satisfy all the laws except cancellation of $\Gamma^-_i$ and $\Gamma^+_i$ under composition. This structure seems a sensible home for $n$-paths in $X$ for all $n \geq 0$, and has the advantage  over simplicial or globular versions of "$\infty$-groupoids" of easily encompassing multiple compositions. 
 
+## Related concepts
+
+* [[schedule]]
+
 
 ## Reference
 
@@ -28,3 +32,6 @@ The reference below defines $M_*(X)$ as a strict [[cubical omega-category|cubica
 
 [[!redirects Moor path category]]
 [[!redirects Moor path categories]]
+
+[[!redirects Moore path space]]
+[[!redirects Moore path spaces]]
