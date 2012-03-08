@@ -26,7 +26,7 @@ The notion of _[[(∞,1)-category]]_ may be formulated [[internalization|interna
 
 Let $\mathcal{C}$ be an [[(∞,1)-category]].
 
-A general abstract way of defining an $(\infty,1)$-category $A$ _internal to_ $\mathcal{C}$ -- also called a _$(\infty,1)$-category object_ in $\mathcal{C}$ is to say that this is a [[simplicial object]] $A : \Delta^{op} \to \mathcal{C}$. The condition that the object $A_k$ in degree $k \in \mathbb{N}$ is to be thought of as the _object of sequences of composable morphisms of length $k$_ of $A$ is formalized by asking the canonical morphisms $A_k \to A_1 \times_{A_0} \cdots \times_{A_0} A_1$ (into the iterated [[(∞,1)-pullback]] over the [[source]] and [[target maps]]) to be an [[equivalence in an (∞,1)-category|equivalence in]] $\mathcal{C}$. In fact, this is literally just the definition of an [[internal category]] but interpreted in the [[internal logic]] of the $(\infty,1)$-category $\mathcal{C}$. Accordingly one may just as well equivalently speak just of a category object_ in $\mathcal{C}$.
+A general abstract way of defining an $(\infty,1)$-category $A$ _internal to_ $\mathcal{C}$ -- also called a _$(\infty,1)$-category object_ in $\mathcal{C}$ is to say that this is a [[simplicial object]] $A : \Delta^{op} \to \mathcal{C}$. The condition that the object $A_k$ in degree $k \in \mathbb{N}$ is to be thought of as the _object of sequences of composable morphisms of length $k$_ of $A$ is formalized by asking the canonical morphisms $A_k \to A_1 \times_{A_0} \cdots \times_{A_0} A_1$ (into the iterated [[(∞,1)-pullback]] over the [[source]] and [[target]] maps) to be an [[equivalence in an (∞,1)-category|equivalence in]] $\mathcal{C}$. In fact, this is literally just the definition of an [[internal category]] but interpreted in the [[internal logic]] of the $(\infty,1)$-category $\mathcal{C}$. Accordingly one may just as well equivalently speak just of a category object_ in $\mathcal{C}$.
 
 Indeed, the obvious strengthening of this definition to enforce invertibility of [[morphisms]] yields the notion of [[groupoid object in an (∞,1)-category]], which could also be called an _[[internal ∞-groupoid]]_.
 
@@ -53,12 +53,12 @@ such that it admits a "good" theory of internal $(\infty,1)$-category objects.
 
 The following definition is the specialization of the notion termed _absolute distributor_ in [Lurie, def. 1.2.1, 1.3.3](#Lurie) to [[(∞,1)-toposes]].
 
-+-- {: .num_defn}
++-- {: .num_defn #WellSuitedTopos}
 ###### Definition
 
 Call an [[(∞,1)-topos]] $\mathbf{H}$ **well-suited for internalization** if 
 
-1. it is [[∞-connected (∞,1)-topos|∞-connected]],
+1. it is [[locally ∞-connected (∞,1)-topos|locally]] and [[∞-connected (∞,1)-topos|globally ∞-connected]],
 
 1. its [[codomain fibration]] is a [[canonical topology|canonical]] [[(∞,2)-sheaf]] over the [[discrete objects]].
 
@@ -88,7 +88,7 @@ $$
 $$ 
 
 to the [[universe enlargement|very large]] [[(∞,1)-category of (∞,1)-categories]] which 
-[[(∞,1)-Grothendieck construction|classies]] the [[codomain fibration]] $cod : \mathbf{H}^I \to \mathbf{H}$ 
+[[(∞,1)-Grothendieck construction|classifies]] the [[codomain fibration]] $cod : \mathbf{H}^I \to \mathbf{H}$ 
 restricted along $Disc$ to the [[discrete objects]], hence assigning to an [[∞-groupoid]] $S$ the [[over-(∞,1)-topos]]
 
 $$
@@ -102,11 +102,11 @@ satisfies [[descent]] with respect to the [[canonical topology]], hence that it 
 +-- {: .num_remark}
 ###### Remark
 
-In the terminology of ([Lurie](#Lurie)) this implies (but it much more special) that $Disc : \infty Grpd \to \mathbf{H}$ is an "absolute distributor":
+In the terminology of ([Lurie](#Lurie)) this is indeed equivalent to $Disc : \infty Grpd \to \mathbf{H}$ being an "absolute distributor". The formulation there corresponds to the formulation here as follows.
 
-item 1) and 3) of ([Lurie, def. 1.2.1](#Lurie)) are automatically satisfied by assumption that $\mathbf{H}$ is an [[(∞,1)-topos]]. With this, item 2) of ([Lurie, def. 1.2.1](#Lurie)) and item 1) of ([Lurie, def. 1.3.3](#Lurie)) precisely encode [[∞-connected (∞,1)-topos|∞-connectedness]] (notice that by the [[adjoint (∞,1)-functor theorem]] for [[presentable (∞,1)-categories]] the condition that $Disc$ preserves [[(∞,1)-limits]] is equivalent to it having the further [[left adjoint]] $\Pi$).
+Item 1) and 3) of ([Lurie, def. 1.2.1](#Lurie)) are automatically satisfied by assumption that $\mathbf{H}$ is an [[(∞,1)-topos]]. With this, item 2) of ([Lurie, def. 1.2.1](#Lurie)) and item 1) of ([Lurie, def. 1.3.3](#Lurie)) precisely encode [[locally ∞-connected (∞,1)-topos|local]] and global [[∞-connected (∞,1)-topos|∞-connectedness]] (notice that by the [[adjoint (∞,1)-functor theorem]] for [[presentable (∞,1)-categories]] the condition that $Disc$ preserves [[(∞,1)-limits]] is equivalent to it having the further [[left adjoint]] $\Pi$).
 
-Finally notice that the version of item 4) of ([Lurie, def. 1.2.1](#Lurie)) available at time of this writing has a type: it is indeed $\mathbf{H}^{op} \to CAT_{(\infty,1)}$ that is supposed to preserve $\infty$-limits, not $\mathcal{H} \to CAT_{(\infty,1)}^{op}$. This is clear from comparing with the proof of the next statement there, which is ([Lurie, prop. 1.2.4](#Lurie)).
+Finally notice that the version of item 4) of ([Lurie, def. 1.2.1](#Lurie)) available at time of this writing has a typo: it is indeed $\mathbf{H}^{op} \to CAT_{(\infty,1)}$ that is supposed to preserve $\infty$-limits, not $\mathbf{H} \to CAT_{(\infty,1)}^{op}$. This is clear from comparing with the proof of the next statement there, which is ([Lurie, prop. 1.2.4](#Lurie)).
 
 =--
 
@@ -121,11 +121,23 @@ Finally notice that the version of item 4) of ([Lurie, def. 1.2.1](#Lurie)) avai
 
 ### Model category presentations
 
-(...)
 
-### Classes of suitable ambient contexts
++-- {: .num_prop }
+###### Proposition
 
-(...)
+Let $C$ be a [[left proper model category|left proper]] [[combinatorial model category]] such that the [[(∞,1)-category]] that it [[presentable (∞,1)-category|presents]] is _well-suited for internalization_ in the sense discussed [above](#SuitableAmbientContexts).
+
+Then then category $[\Delta^{op}, C]$ of [[simplicial objects]] in $C$ admits a [[left proper model category|left proper]] [[combinagtorial model category]] structure characterized by the following properties:
+
+1. it is a [[Bousfield localization of model categories|left Bousfield localization]] of the injective [[model structure on functors]] $[\Delta^{op}, C]_{inj}$;
+
+1. an obect $\Delta^{op} \to C$ is [[fibrant object|fibrant]] precisely if it is fibrant in $[\Delta^{op}, C]_{inj}$ and if the corresponding simplicial object $\Delta^{op}\to C^\circ$ in the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by $C$ is a complete Segal object in the sense discussed [above](#Completeness).
+
+Moreover, the $(\infty,1)$-category [[presentable (∞,1)-category|presented]] by this is again _well suited for internalization_.
+
+=--
+
+This is ([Lurie, prop. 1.5.4](#Lurie)).
 
 
 ## Examples
@@ -150,7 +162,43 @@ $$
   \,.
 $$
 
-The corresponging model is that of _[[n-fold complete Segal space]]_.
+The corresponding model is that of _[[n-fold complete Segal space]]_.
+
+### $(\infty,1)$-Categories in a cohesive $(\infty,1)$-topos
+ {#InACohesiveTopos}
+
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] with an [[∞-cohesive site]] of definition. Then $\mathbf{H}$ is _well suited for internalization_ in the sense of 
+def. \ref{WellSuitedTopos}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first condition is trivially satisfied, by definition of 
+[[cohesive (∞,1)-topos|cohesion]]. 
+
+For the second condition, notice, by the lemma [here](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos#General), that over an $\infty$-cohesive site we have  for all $A \in \infty Grpd$ a [[natural equivalence]]
+
+$$
+  \mathbf{H}_{/Disc A} \simeq Func(A, \mathbf{H}) 
+  \,.
+$$
+
+Hence the functor $\chi$ is represented by $\mathbf{H}$ and hence 
+preserves $\infty$-limits.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The assumption of an $\infty$-cohesive site of definition is probably not necessary, or at least probably much stronger than sufficient. 
+
+=--
 
 ## References
 
@@ -164,6 +212,8 @@ The model given by complete Segal space objects is due to
 * [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_. Transactions of the American Mathematical Society 35 (2001), no. 3, 973-1007
 
 and has since seen a multitude of further developments.
+
+Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Clark Barwick]].
 
 [[!redirects internal (∞,1)-category]]
 [[!redirects (infinity,1)-category object]]
