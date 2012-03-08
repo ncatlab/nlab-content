@@ -1,6 +1,30 @@
-A [[cover]] $\{U_\alpha\}$ of a [[topological space]] $X$ is **locally finite** if for all $x\in X$, there is an neighbourhood $N \ni x$ such that $N \cap U_\alpha \neq \emptyset$ for only a finite number of $\alpha$.
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[cover]] ([[open cover]]) $\{U_\alpha\}$ of a [[topological space]] $X$ is **locally finite** if for all $x\in X$, there is an neighbourhood $N \ni x$ such that $N \cap U_\alpha \neq \emptyset$ for only a finite number of $\alpha$.
 
 Open covers defined by [[partitions of unity]] are locally finite. (CHECK!)
+
+## Related concepts
+
+* [[cover]], [[open cover]], 
+
+* [[paracompact topological space]]
 
 [[!redirects locally finite open cover]]
 [[!redirects locally finite covers]]
