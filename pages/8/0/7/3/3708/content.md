@@ -358,3 +358,5 @@ A discusson of $T_{SmoothAlg}$ is in
 
 * [[Herman Stel]], _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras]]_ 
 {#Stel}
+
+[[!redirects tangent categories]]
