@@ -373,7 +373,9 @@ The corresponding model category presentation is that of _[[n-fold complete Sega
 
 ## Related concepts
 
-* [[(n,r)-congruence]]
+* [[internal category]], [[internal functor]]
+
+* [[2-congruence]], [[(n,r)-congruence]]
 
 ## References
 
