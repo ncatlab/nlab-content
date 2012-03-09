@@ -59,6 +59,7 @@ If $\mathcal{S}$ has a [[terminal object]] $*$ we think of $\mathbb{C}^*$ as the
 
 ## Examples
 
+### Self indexing
 
 +-- {: .num_example #CanonicalSelfIndexing}
 ###### Example
@@ -76,7 +77,9 @@ and to a morphism $f : I \to J$ the functor $f^*$ that sends every $s \to I$ to 
 
 =--
 
-This indexed category represents $\mathcal{S}$ itself in the world of $\mathcal{S}$-indexed categories. 
+This indexed category represents $\mathcal{S}$ itself (or rather its [[codomain fibration]]) in the world of $\mathcal{S}$-indexed categories. 
+
+### Base change
 
 
 +-- {: .num_example #BaseChange}
@@ -91,6 +94,8 @@ If $F\colon \mathcal{S}\to \mathcal{T}$ is a [[functor]] and $\mathbb{C}$ is a $
 
 =--
 
+### Indexed category of a functor
+
 Combining these previous examples we get
 
 +-- {: .num_example #CartesianFunctorIndexing}
@@ -104,8 +109,26 @@ If the functor $F$ preserves [[pullback]]s then this induces a morphism $\mathbb
 
 =--
 
+### Index category of a topos over a base topos
 
-This situation frequently arises when $\mathcal{S}$ and $\mathcal{T}$ are [[toposes]] and $F$ is the [[inverse image]] part of a [[geometric morphism]].  In this way, if $\mathcal{S}$ is a topos, then any topos *over* $\mathcal{S}$ (i.e. an object of the [[slice 2-category]] [[Topos]]$/S$) gives rise to a topos *relative to* $\mathcal{S}$, i.e. a "topos object" in the 2-category of $\mathcal{S}$-indexed categories, and this operation can be shown to be fully faithful. See [[base topos]] for more on this.
+This situation frequently arises when $\mathcal{S}$ and $\mathcal{C}$ are [[toposes]] and $F := f^*$ is the [[inverse image]] part of a [[geometric morphism]].  
+
+$$
+  f 
+  : 
+  \mathcal{C}
+   \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
+  \mathcal{S}
+ \,.
+$$
+
+In this way, if $\mathcal{S}$ is a topos, then to be thought of as a _[[base topos]]_, then any topos *over* $\mathcal{S}$ (i.e. an object of the [[slice 2-category]] [[Topos]]$/S$) gives rise to a topos *relative to* $\mathcal{S}$, i.e. a "topos object" in the 2-category of $\mathcal{S}$-indexed categories, and this operation can be shown to be fully faithful. 
+
+See [[base topos]] for more on this.
+
+
+Also, via this indexed category, $f$ exhibits $\mathcal{C}$ as a [[2-sheaf]] (see there) over $\mathcal{C}$, with respect to the [[canonical topology]].
+
 
 ## Properties
 
