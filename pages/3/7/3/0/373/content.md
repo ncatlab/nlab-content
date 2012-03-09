@@ -238,7 +238,7 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 ## Related concepts
 
-* [[exact 2-category]], [[regular 2-category]]
+* [[regular 2-category]], [[exact 2-category]], [[coherent 2-category]], [[extensive 2-category]], [[2-pretopos]], [[2-topos]]
 
 * [[0-category]], [[(0,1)-category]]
 
