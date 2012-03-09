@@ -111,7 +111,20 @@ We discuss the relation to various other model structures for operads. For an ov
 
 #### To complete Segal spaces
 
-(...) [[model structure for complete Segal spaces]]
+Write $\eta \in \Omega \hookrightarrow dSet \hookrightarrow dsSet$ for the [[tree]] with a single edge and no non-trivial vertex. 
+
+Then [[slice category]] of $dsSet$ over $\eta$ is evidently equivalent to that of [[bisimplicial sets]]
+
+$$
+  ssSet \simeq dsSet_{/\eta} 
+  \hookrightarrow
+  dsSet
+  \,.
+$$
+
+By restriction along this inclusion, the 
+above model structure reproduces the
+[[model structure for complete Segal spaces]].
 
 #### To dendroidal sets
 
