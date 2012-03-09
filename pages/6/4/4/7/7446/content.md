@@ -23,7 +23,7 @@ A [[regular category|regular 1-category]] is [[exact category|exact]] when every
 
 +--{: .num_defn}
 ###### Definition
-Let $-1\lt n\le 2$ be directed (see [[michaelshulman:n-prefix]]).  A [[2-category]] is **$n$-exact** if it is [[regular 2-category|regular]] and every [[n-congruence]] is a kernel.
+Let $-1\lt n\le 2$ be directed (see [[(n,r)-category]]).  A [[2-category]] is **$n$-exact** if it is [[regular 2-category|regular]] and every [[(n,r)-congruence]] is a kernel.
 
 =--
 
@@ -41,9 +41,9 @@ Likewise, it is unreasonable to expect a (2,1)-category to be any more than (2,1
 
 * [[Cat]] is 2-exact.  Likewise, [[Gpd]] is (2,1)-exact, [[Pos]] is (1,2)-exact, and of course [[Set]] is 1-exact.
 
-* Every [[regular (0,1)-category]] (that is, every [[meet-semilattice]]) is (0,1)-exact, and in fact even 2-exact, since there are no nontrivial congruences of any sort in a poset.
+* Every regular (0,1)-category (that is, every [[meet-semilattice]]) is (0,1)-exact, and in fact even 2-exact, since there are no nontrivial congruences of any sort in a poset.
 
-* If $K$ is 2-exact, then by the [[n-congruence|classification of congruences]], $gpd(K)$ is (2,1)-exact, $pos(K)$ is (1,2)-exact, $disc(K)$ is 1-exact, and $Sub(1)$ is (0,1)-exact.
+* If $K$ is 2-exact, then by the [[2-congruence|classification of congruences]], $gpd(K)$ is (2,1)-exact, $pos(K)$ is (1,2)-exact, $disc(K)$ is 1-exact, and $Sub(1)$ is (0,1)-exact.
 
 * If $K$ is $n$-exact, then so is $K^{co}$, by the remarks about opposite [[2-congruences]].  For 1-categories and (2,1)-categories, of course, this is contentless, but for 2-categories and (1,2)-categories it is contentful.
 
@@ -53,6 +53,10 @@ Likewise, it is unreasonable to expect a (2,1)-category to be any more than (2,1
 The definition is originally due to
 
 * [[Michael Shulman]], _[[michaelshulman:exact 2-category]]_
+
+based on 
+
+* [[Ross Street]], _[[StreetCBS]]_
 
 [[!redirects exact 2-categories]]
 
