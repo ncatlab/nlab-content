@@ -94,6 +94,10 @@ Evidently a pre-lextensive category is lextensive as soon as any two objects can
 
 Being pre-lextensive is also sufficient to define the extensive topology and show that it is subcanonical, since it implies that whatever disjoint coproducts exist must be pullback-stable.  The codomain fibration of a pre-lextensive category is not necessarily a stack for its extensive topology, but this condition is weaker than extensivity.  It is true, however, that if $C$ is a pre-lextensive category whose codomain fibration is a stack for its extensive topology, and in which the disjoint coproduct $1+1$ exists, then $C$ is extensive, for arbitrary disjoint (binary) coproducts can then be obtained by descent along the covering family $(1\to 1+1, 1\to 1+1)$.
 
+## Related concepts
+
+* [[extensive 2-category]]
+
 
 ## References
 
