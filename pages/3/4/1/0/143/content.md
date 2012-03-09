@@ -690,3 +690,9 @@ A quick pedagogical introduction with an eye towrds the generalization to [[(∞
 * [[Dan Dugger]], Sheaves and Homotopy Theory ([pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 [[!redirects sheaves]]
+
+[[!redirects 1-sheaf]]
+[[!redirects (1,1)-sheaf]]
+
+[[!redirects 1-sheaves]]
+[[!redirects (1,1)-sheaves]]
