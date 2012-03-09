@@ -12,7 +12,7 @@
 
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -210,6 +210,15 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 ## 2-categorical concepts
 
+**extra properties**
+
+* [[regular 2-category]] 
+* [[exact 2-category]]
+* [[coherent 2-category]] 
+* [[extensive 2-category]] 
+* [[2-pretopos]]
+* [[2-topos]]
+
 **types of morphisms**
 
 * [[subcategory]]
@@ -237,8 +246,6 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 * [[2-trivial model structure]]
 
 ## Related concepts
-
-* [[regular 2-category]], [[exact 2-category]], [[coherent 2-category]], [[extensive 2-category]], [[2-pretopos]], [[2-topos]]
 
 * [[0-category]], [[(0,1)-category]]
 
