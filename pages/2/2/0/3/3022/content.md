@@ -1,4 +1,16 @@
-A __$1$-topos__, or __$(1,1)$-topos__, is simply a [[topos]] in the usual sense of the word.  The prefix $1$- may be added when also discussing higher types of topoi such as 2-topoi, $(\infty,1)$-[[(infinity,1)-topoi|topos]], or even $\infty$-[[infinity-topos|topos]].  Compare that a [[(0,1)-topos]] is a [[Heyting algebra]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
+A __$1$-topos__, or __$(1,1)$-topos__, is simply a [[topos]] in the usual sense of the word.  The prefix $1$- may be added when also discussing [[higher category theory|higher categorical]] types of topoi such as [[2-topos]], $(\infty,1)$-[[(infinity,1)-topoi|topos]], or even $\infty$-[[infinity-topos|topos]].  Compare that a [[(0,1)-topos]] is a [[Heyting algebra]].
 
 Similarly, a __Grothendieck $1$-topos__, or __Grothendieck $(1,1)$-topos__, is simply a [[Grothendieck topos]].  Compare that a [[Grothendieck (0,1)-topos]] is a [[frame]] (or [[locale]]).
 
@@ -20,3 +32,6 @@ $$ \array {
 [[!redirects (1,1)-topos]]
 [[!redirects Grothendeick 1-topos]]
 [[!redirects Grothendeick (1,1)-topos]]
+
+[[!redirects 1-toposes]]
+[[!redirects 1-topoi]]
