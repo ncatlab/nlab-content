@@ -17,13 +17,10 @@
 * table of contents
 {:toc}
 
-##Motivation
+## Idea
 
-An ordinary [[complete Segal space]] is a model for an $(\infty,1)$-[[(infinity,1)-category|category]].
+An _$n$-fold complete Segal space_ is  an $n$-fold [[category object in an (infinity,1)-category|category object]] in [[∞Grpd]], hence an object in  $Cat(Cat(\cdots Cat(\infty Grpd)))$. This is a model for an [[(∞,n)-category]].
 
-One may iterate this construction and define an $n$-fold complete Segal space as an complete Segal space in complete $(n-1)$-fold Segal spaces, roughly.
-
-Then $n$-fold complete Segal spaces are models for $(\infty,n)$-[[(infinity,n)-category|categories]].
 
 ##Definition
 
