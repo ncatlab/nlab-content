@@ -19,7 +19,7 @@ In [[higher topos theory]] there are corresponding analogs of this theorem
 
 * 1-category case: see _[[Grothendieck topos]]_;
 
-* [[2-category]] case: see [[michaelshulman:2-Giraud theorem]];
+* [[2-category]] case: see [[2-Giraud theorem]];
 
 * [[(infinity,1)-category]] case: see _[[(infinity,1)-topos]]_
 
