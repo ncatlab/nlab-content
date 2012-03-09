@@ -103,6 +103,31 @@ We are to think of $X([0])$ as the _$\mathcal{C}-$[[object]] of [[objects]]_ of 
 
 Accordingly, below a _category object_ is defined analogously, but demanding the above condition only for ordered decompositions.
 
+There will be one additional condition on category objects ("completeness"). In order to see where this comes, notice the following.
+
++-- {: .num_prop #EmbeddingOfConstantGroupoidObjects}
+###### Proposition
+
+There is a [[full and faithful (∞,1)-functor]]
+
+$$
+  const : \mathcal{C} \hookrightarrow Grpd(\mathcal{C})
+$$
+
+sending an [[object]] $X$ of $\mathcal{C}$ to the corresponding constant [[simplicial object]] $(const X) : [n] \mapsto X$.
+
+If $\mathcal{C}$ has [[small (∞,1)-category|small]] [[(∞,1)-colimits]], then this is a [[reflective sub-(∞,1)-category|reflective embedding]], whose reflector 
+
+$$
+  \lim_\to : Grpd(\mathcal{C}) \to \mathcal{C}
+$$
+
+forms the [[(∞,1)-colimit]] in $\mathcal{C}$ over the simplicial diagram underlying a groupoid object.
+
+=--
+
+See ([Lurie, example 1.1.4](#Lurie)). 
+
 
 
 ### Category objects in an $(\infty,1)$-topos
@@ -141,7 +166,7 @@ Under this inclusion the groupoid objects form a [[coreflective sub-(∞,1)-cate
 
 $$
   Grpd(\mathcal{C})
-  \stackrel{\hookrightarrow}{\overset{Core}{\leftarrow}}
+  \stackrel{\hookrightarrow}{\underset{Core}{\leftarrow}}
   PreCat(\mathcal{C})
   \,.
 $$
@@ -157,7 +182,7 @@ This is ([Lurie, prop. 1.1.14](#Lurie)).
 +-- {: .num_defn #CategoryObject}
 ###### Definition
 
-A **category object** in $\mathcal{C}$ is a pre-category object $X$, def. \ref{PreCategoryObject} such that its [[core]] $Core(X)$ is simplicially constant (all face and degeneracy maps are [[equivalence in an (infinity,1)-category|equivalences]]).
+A **category object** in $\mathcal{C}$ is a pre-category object $X$, def. \ref{PreCategoryObject} such that its [[core]] $Core(X)$ is in the image of the inclusion $\mathcal{C} \hookrightarrow Grpd(\mathcal{C})$, prop. \ref{EmbeddingOfConstantGroupoidObjects}.
 
 =--
 
@@ -280,12 +305,56 @@ By prop. \ref{CatIsReflectiveInSimpl} combined with ([[Higher Topos Theory|HTT, 
 
 ## Examples
 
-### $(\infty,n)$-category
+### Ordinary $(\infty,1)$-categories
+ {#OrdinaryInfinityCategories}
 
-Let $\mathcal{C} := Cat_{(\infty,1]}$ be the [[(∞,1)-category of (∞,1)-categories]]. Then the $(\infty,1)$-category $Cat_{(\infty,1)}(\mathcal{C})$ of $(\infty,1)$-category objects in $\mathcal{C}$ is, up to [[equivalence of (∞,1)-categories|equivalence]], the $(\infty,1)$-category of [[(∞,2)-categories]]
+An ordinary [[(∞,1)-category]] is equivalently a category object in the [[(∞,1)-topos]] $\mathcal{C} :=$ [[∞Grpd]]:
 
 $$
-  Cat_{(\infty,1)}(Cat_{(\infty,1)})
+  Cat_{(\infty,1)} \simeq Cat(\infty Grpd)
+  \,.
+$$
+
+Internal to [[∞Grpd]]
+
+* a pre-category object is known as a _[[Segal space]]_;
+
+* a [[connected]] pre-category object is known as a _[[reduced Segal space]]_;
+
+* a category object is known as a _[[complete Segal space]]_.
+
+The model category presentations for $Cat(\infty Grpd)$ discussed [above](#ModelCategoryPresentations) are given in this case by the _[[model structure for complete Segal spaces]]_.
+
+
+
+
+### $(\infty,n)$-categories
+
+By iterating the construction of category objects, one obtains 
+[[n-category]] objects. Externally these are [[(∞,n)-categories]]. 
+
+An [[∞-groupoid]] may be thought of as an [[(∞,0)-category]]. Write therefore
+
+$$
+  Cat_{(\infty,0)} := \infty Grpd
+  \,.
+$$
+
+Then by the [above](#OrdinaryInfinityCategories) the [[(∞,1)-category of (∞,1)-categories]] is
+
+$$
+  Cat_{(\infty,1)} \simeq Cat(Cat_{(\infty,0)})
+  \,.
+$$
+
+Then the $(\infty,1)$-category $Cat(\mathcal{C})$ of category objects in $\mathcal{C}$ is, up to [[equivalence of (∞,1)-categories|equivalence]], the $(\infty,1)$-category of [[(∞,2)-categories]]
+
+$$
+  Cat(Cat(\infty Grpd))
+  \simeq
+  Cat(Cat(Cat_{(\infty,0)}))
+  \simeq
+  Cat(Cat_{(\infty,1)})
   \simeq
   Cat_{(\infty,2)}
   \,.
@@ -294,13 +363,13 @@ $$
 This yields an inductive construction of [[(∞,n)Cat]], the [[(∞,1)-category]] of [[(∞,n)-categories]]
 
 $$
-  Cat_{(\infty,1)}(Cat_{(\infty,1)}(\cdots (Cat_{(\infty,1)})))
+  Cat(Cat(\cdots (Cat_{(\infty,0)})))
   \simeq
   Cat_{(\infty,n)}
   \,.
 $$
 
-The corresponding model is that of _[[n-fold complete Segal space]]_.
+The corresponding model category presentation is that of _[[n-fold complete Segal spaces]]_.
 
 ## References
 
@@ -319,6 +388,11 @@ Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Cl
 
 [[!redirects category object in an (∞,1)-category]]
 
+[[!redirects category objects in an (∞,1)-category]]
+[[!redirects category objects in (∞,1)-categories]]
+[[!redirects category objects in an (infinity,1)-category]]
+[[!redirects category objects in (infinity,1)-categories]]
+
 
 [[!redirects internal (∞,1)-category]]
 [[!redirects (infinity,1)-category object]]
@@ -333,3 +407,17 @@ Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Cl
 [[!redirects complete Segal space objects]]
 
 [[!redirects internal (infinity,1)-category]]
+
+[[!redirects pre-category object in an (infinity,1)-category]]
+[[!redirects pre-category object in an (∞,1)-category]]
+[[!redirects pre-category objects in an (infinity,1)-category]]
+[[!redirects pre-category objects in an (∞,1)-category]]
+[[!redirects pre-category objects in (infinity,1)-categories]]
+[[!redirects pre-category objects in (∞,1)-categories]]
+
+[[!redirects precategory object in an (infinity,1)-category]]
+[[!redirects precategory object in an (∞,1)-category]]
+[[!redirects precategory objects in an (infinity,1)-category]]
+[[!redirects precategory objects in an (∞,1)-category]]
+[[!redirects precategory objects in (infinity,1)-categories]]
+[[!redirects precategory objects in (∞,1)-categories]]
