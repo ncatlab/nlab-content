@@ -1,5 +1,5 @@
 
-**[[internal (∞,1)-category]]**, [[groupoid object in an (infinity,1)-category|internal ∞-groupoid]]
+**[[category object in an (∞,1)-category]]**, [[groupoid object in an (infinity,1)-category|groupoid object]]
 
 [[complete Segal space object]], [[complete Segal space]], 
 
@@ -24,4 +24,4 @@
 
 * [[model structure for dendroidal complete Segal spaces]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/internal+infinity-categories-contents)</div>
+<div markdown="1">[Edit this sidebar](/nlab/edit/internal+infinity-categories+contents)</div>
