@@ -21,9 +21,11 @@
 
 ## Idea
 
-_Complete [[Segal spaces]]_ are one model for [[(∞,1)-categories]].
+A _complete Segal space_ is a [[category object in an (∞,1)-category|category object]] in [[∞Grpd]] (a [[Segal space]] is a [[pre-category object in an (∞,1)-category|pre-category object]]).
 
-The rough idea is that a complete Segal space is the [[nerve]] of a [[enriched category|category enriched]] [[homotopical enrichment|weakly]] over [[Top]]/[[sSet]]: it is not a [[simplicial set]], but a simplicial [[topological space]] or [[bisimplicial set]] that satisfies the [[homotopy theory|homotopy theoretic]] analog of the condition that otherwise implies that a [[simplicial set]] is the [[nerve]] of a [[category]].
+Hence complete Segal spaces are models for [[(∞,1)-categories]].
+
+More explicitly, the rough idea is that a complete Segal space is the [[nerve]] of a [[enriched category|category enriched]] [[homotopical enrichment|weakly]] over [[Top]]/[[sSet]]: it is not a [[simplicial set]], but a simplicial [[topological space]] or [[bisimplicial set]] that satisfies the [[homotopy theory|homotopy theoretic]] analog of the condition that otherwise implies that a [[simplicial set]] is the [[nerve]] of a [[category]].
 
 A bit more precisely: to determine if a [[simplicial set]] $X_\bullet$ arises from a [[category]] by passing to its [[nerve]] one has to check the **Segal condition**s: that for all natural numbers $m,n$ the square
 
