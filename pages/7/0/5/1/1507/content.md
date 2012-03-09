@@ -25,7 +25,7 @@ A **split idempotent** in a [[category]] $C$ is a [[morphism]] $e: A \to A$ whic
 
 *  The splitting of an idempotent $e$ is both the [[limit]] and the [[colimit]] of the diagram containing only two [[parallel morphisms|parallel]] [[endomorphisms]] of $A$, namely $e$ and the identity.  Splittings of idempotents are preserved by any functor, making them [[absolute limit|absolute]] (co)limits.  In ordinary (i.e. [[enriched category|unenriched]]) categories, every absolute (co)limit can be constructed from split idempotents.  Thus, the [[Cauchy complete category|Cauchy completion]] of an ordinary ([[Set]]-enriched) category is just its completion under split idempotents.
 
-* The free completion of a category under split idempotents is also called its [[Karoubi envelope]].
+* A category in which all idempotents split is called [[idempotent complete (infinity,1)-category|idempotent complete]]. The free completion of a category under split idempotents is also called its [[Karoubi envelope]].
 
 [[!redirects split idempotents]]
 [[!redirects splitting]]
