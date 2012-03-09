@@ -1,6 +1,7 @@
 
 {:myproof: .proof style="margin-left:2em;"}
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+{:myrmk: .un_remark style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;font-size:90%;"}
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 +-- {: .rightHandSide}
@@ -32,7 +33,7 @@ The idea of a schedule is that it is a way of decomposing a length into pieces a
 
 To make this precise, we start with a set of labels.  Following Dyer and Eilenberg, let us write this as $A$.  Lengths are positive [[real numbers]] and so we also need the set of such, Dyer and Eilenberg denote this by $T$; thus $T \coloneqq \mathbb{R}_{\ge 0}$.
 
-+-- {: .num_defn #schmon}
++-- {: mynumdef #schmon}
 ###### Definition
 The **schedule monoid** of $A$ is the [[free monoid]] on the [[set]] $A \times T$.  It is written $S A$.  Its elements are **schedules** in $A$.
 =--
@@ -41,7 +42,7 @@ A schedule in $A$ is thus a finite [[order|ordered]] list of pairs $(a,t)$ where
 
 There are two notions of *length* for a schedule.  There is the *word length* which simply counts the number of pairs.  Then there is the function $l \colon S A \to T$ defined by $l((a_1,t_1) \cdots (a_k,t_k)) = t_1 + \cdots + t_k$.  There is also a right action of $T$ on $S A$ which simply multiplies all of the lengths: $((a_1,t_1) \cdots (a_k,t_k)) \cdot t = ((a_1,t_1 t) \cdots (a_k,t_k t))$.  Then $l(s t) = l(s) t$.
 
-+-- {: .num_defn #reduced}
++-- {: mynumdef #reduced}
 ###### Definition
 A schedule is said to be **reduced** if all of its terms, $(a,t)$, has non-zero length, i.e. $t \gt 0$.  The set of reduced schedules forms a submonoid of $S A$ which is written $R S A$.
 =--
@@ -57,7 +58,7 @@ The schedule monoid is given a [[topology]] so that the labels are discrete and 
 
 Let $X$ be a [[topological space]].  Let $P X$ denotes its [[Moore path space]].  Suppose that we have a family $\mathcal{U}$ of subsets of $X$ indexed by some set $A$.  Then we consider a schedule in $A$ as giving an ordered list of these subsets together with the times to be spent in each.  For a path in $X$, and a schedule of the appropriate length, then we can ask whether or not the path *fits* (or obeys) the schedule.  We make that precise as follows.
 
-+-- {: .num_defn #fits}
++-- {: mynumdef #fits}
 ###### Definition
 Suppose that we have $\alpha \in P X$ and $s \in S A$, and suppose that $s = (a_1, t_1) \cdots (a_k,t_k)$.  Then we say that $\alpha$ **fits the schedule** s, written $\alpha \Vert s$, if:
 
@@ -117,7 +118,7 @@ We need an initial technical result.
 There is a locally finite covering $\mathcal{W} = \{W_s \mid s \in A^*\}$ of $P X$ by numerable open sets such that for $\alpha \in W_s$ then $\alpha$ evenly fits the schedule $s$.
 =--
 
-As $\mathcal{W}$ is locally finite an its elements are numerable, we can choose a numeration that is also a partition of unity.  That is, we can choose continuous functions $q_s \colon X \to [0,1]$ with the property that $q_s^{-1}((0,1]) = W_s$ and $\sum_s q_s = 1$.
+As $\mathcal{W}$ is locally finite and its elements are numerable, we can choose a numeration that is also a partition of unity.  That is, we can choose continuous functions $q_s \colon X \to [0,1]$ with the property that $q_s^{-1}((0,1]) = W_s$ and $\sum_s q_s = 1$.
 
 Let $\mathcal{B}$ be the set of finite subsets of $A^* \setminus \Lambda$ (where $\Lambda$ is the empty word).  For $b \in \mathcal{B}$ we define
 
@@ -127,6 +128,12 @@ D_b &\coloneqq \{\alpha \in P X \mid \sum_{s \in b} q_s(\alpha) = 1 \} \\
 &=\{ \alpha \in P X \mid q_s(\alpha) = 0 \; \text{for all}\; s \notin b\}
 \end{aligned}
 $$
+
++-- {: myrmk}
+###### Remark
+Since the $q_s$ are a numeration of $\mathcal{W}$, if $q_s(\alpha) \ne 0$ then $\alpha$ evenly fits $s$.  Thus if $\alpha \in D_b$, it must be the case that $\alpha$ does not evenly fit any schedule other than those in $b$.
+=--
+
 
 This is a covering of $P X$ by closed sets.  As $\mathcal{W}$ is locally finite, for $\alpha \in P X$ there is some neighbourhood $V$ which meets only a finite number of the $\mathcal{W}$.  These are indexed by elements of $A^*$, indeed of $A^* \setminus \Lambda$, and so the set of indices is an element, say $b$, of$ \mathcal{B}$.  Then for $s \notin b$, $q_s \mid V = 0$ and so for $\beta \in V$, $\sum_{s \in b} q_s(\beta) = 1$, whence $V \subseteq D_b$.  Thus each $\alpha$ is contained in the interior of some $D_b$.
 
