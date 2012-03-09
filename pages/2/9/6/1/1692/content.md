@@ -164,3 +164,4 @@ Right, I agree. The Chu construction applied to a complete Heyting algebra is me
 category: category
 
 [[!redirects Chu space]]
+[[!redirects Chu spaces]]
