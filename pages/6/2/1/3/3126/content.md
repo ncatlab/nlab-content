@@ -10,9 +10,12 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### $(\infty,2)$-Topos theory
++--{: .hide}
+[[!include (infinity,2)-topos theory - contents]]
 =--
 =--
-
+=--
 
 
 #Contents#
