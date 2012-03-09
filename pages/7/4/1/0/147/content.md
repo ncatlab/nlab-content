@@ -494,3 +494,8 @@ sites are discussed in section C2.1 and morphism of sites in C2.3.
 
 [[!redirects morphism of sites]]
 [[!redirects morphisms of sites]]
+
+[[!redirects 1-site]]
+[[!redirects (1,1)-site]]
+[[!redirects 1-sites]]
+[[!redirects (1,1)-sites]]
