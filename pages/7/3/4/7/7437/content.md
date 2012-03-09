@@ -61,7 +61,7 @@ Let $X$ be a [[topological space]].  Let $P X$ denotes its [[Moore path space]].
 ###### Definition
 Suppose that we have $\alpha \in P X$ and $s \in S A$, and suppose that $s = (a_1, t_1) \cdots (a_k,t_k)$.  Then we say that $\alpha$ **fits the schedule** s, written $\alpha \Vert s$, if:
 
-1. $l(alpha) = l(s)$
+1. $l(\alpha) = l(s)$
 2. Split $\alpha$ into subpaths according to the times $\{t_i\}$.  Let $\alpha_i$ be the $i$th segment.  Then $\alpha_i \in P U_{a_i}$.
 =--
 
@@ -75,11 +75,14 @@ We can now state the main theorem.
 
 +-- {: .num_theorem #schthm}
 ###### Theorem
-Let $X$ be a [[topological space]].  Let $\mathcal{U}$ be a [[locally finite cover|locally finite]] [[open covering]] of $X$ by [[numerable]] open sets with indexing set $A$.  Then there is a [[local covering]] $\mathcal{F}$ of $P X$ and a family of [[continuous functions]] $f \colon F \to S A$, indexed by $F \in \mathcal{F}$ such that:
+Let $X$ be a [[topological space]].  Let $\mathcal{U}$ be a [[locally finite cover|locally finite]] [[open covering]] of $X$ by [[numerable]] open sets with indexing set $A$.  Then there is a covering $\mathcal{F}$ of $P X$ by [[closed sets]] and a family of [[continuous functions]] $f \colon F \to S A$, indexed by $F \in \mathcal{F}$ such that:
 
+1. for each $\alpha \in P X$, there some finite subfamily $\{F_1, \dots, F_k\} \subseteq \mathcal{F}$ such that $\alpha$ is in the interior of $\bigcup F_j$,
 1. for each $\alpha \in F$, $\alpha \Vert f_F(\alpha)$, and
 2. for each $\alpha \in F \cap F'$, $\rho(f_F(\alpha)) = \rho(f_{F'}(\alpha))$
 =--
+
+The first condition is purely about the covering.  Dyer and Eilenberg use the term *local covering* for a covering by closed sets with this property.
 
 +-- {: .num_corollary #schcor}
 ###### Corollary
@@ -87,6 +90,72 @@ There exists a [[continuous function]] $h \colon P X \to R S A$ such that $\alph
 =--
 
 Here, $\Lambda \in R S A$ is the empty word.
+
+## Globalisation Theorem
+{#secglobal}
+
+The original motivation for the notion of *schedules* was to prove the *globalisation theorem* for (Hurewicz) [[Hurewicz fibration|fibrations]].
+
++-- {: .num_theorem #global}
+###### Theorem
+Let $p \colon Y \to B$ be a continuous function.  Suppose that $\mathcal{U}$ is a locally finite covering of $B$ by numerable open sets with the property that for each $U \in \mathcal{U}$ then the restriction $p_U \colon Y_U \to U$ is a fibration.  Then $p$ is a fibration.
+=--
+
+The link between the globalisation theorem and the schedule theorem is the characterisation of Hurewicz fibrations in terms of [[Hurewicz connections]].
+
+## Proof of the Schedule Theorem
+{#secproof}
+
+Let $X$ be a topological space.  Let $\mathcal{U}$ be a locally finite open covering of $X$ by numerable open sets and indexing set $A$.
+
+Let us write $A^*$ for the free monoid on $A$.  Then there is a function $A^* \times T \to S A$ which takes $(a_1 a_2 \cdots a_k, t)$ to the schedule $(a_1,t/k)(a_2,t/k)\cdots (a_k,t/k)$.  We say that a path $\alpha \in P X$ *evenly fits* $s \in A^*$, and write this as $\alpha \Vert_e s$, if it fits the schedule corresponding to $(s,l(\alpha))$.
+
+We need an initial technical result.
+
++-- {: .num_lemma #even}
+###### Lemma
+There is a locally finite covering $\mathcal{W} = \{W_s \mid s \in A^*\}$ of $P X$ by numerable open sets such that for $\alpha \in W_s$ then $\alpha$ evenly fits the schedule $s$.
+=--
+
+As $\mathcal{W}$ is locally finite an its elements are numerable, we can choose a numeration that is also a partition of unity.  That is, we can choose continuous functions $q_s \colon X \to [0,1]$ with the property that $q_s^{-1}((0,1]) = W_s$ and $\sum_s q_s = 1$.
+
+Let $\mathcal{B}$ be the set of finite subsets of $A^* \setminus \Lambda$ (where $\Lambda$ is the empty word).  For $b \in \mathcal{B}$ we define
+
+$$
+\begin{aligned}
+D_b &\coloneqq \{\alpha \in P X \mid \sum_{s \in b} q_s(\alpha) = 1 \} \\
+&=\{ \alpha \in P X \mid q_s(\alpha) = 0 \; \text{for all}\; s \notin b\}
+\end{aligned}
+$$
+
+This is a covering of $P X$ by closed sets.  As $\mathcal{W}$ is locally finite, for $\alpha \in P X$ there is some neighbourhood $V$ which meets only a finite number of the $\mathcal{W}$.  These are indexed by elements of $A^*$, indeed of $A^* \setminus \Lambda$, and so the set of indices is an element, say $b$, of$ \mathcal{B}$.  Then for $s \notin b$, $q_s \mid V = 0$ and so for $\beta \in V$, $\sum_{s \in b} q_s(\beta) = 1$, whence $V \subseteq D_b$.  Thus each $\alpha$ is contained in the interior of some $D_b$.
+
+Now let us put a [[total ordering]] on $A^*$.  This induces a total ordering on each $b \in \mathcal{B}$ and thus allows us to define the partial sums of the summation $\sum_{s \in b} q_s$.  Write these as $Q_i$, with $Q_0$ as the zero function.
+
+Fix $b \in \mathcal{B}$ and write it as $b = \{s_1,s_2,\dots,s_k\}$ in the inherited ordering.  Let $e = (l_1,r_1,\dots,l_k,r_k)$ be a list of integers with the property that $1 \le l_i \le r_i \le \#s_i$ where $\#s_i$ is the word length of $s_i$.  Define:
+
+$$
+D_{(b,e)} = \left\{ \alpha \in D_b \mid \frac{l_i -1}{\# s_i} \le Q_{i - 1}(\alpha) \le \frac{l_i}{\# s_i} \; \text{and} \; \frac{r_i - 1}{\# s_i} \le Q_i(\alpha) \le \frac{r_i}{\# s_i} \right\}.
+$$
+
+This is closed in $D_b$ and the collection $\{D_{(b,e)}\}$ is a finite cover of $D_b$.
+The family $\{D_{(b,e)}\}$ ranging over all $b \in \mathcal{B}$ and suitable $e$ is the family $\mathcal{F}$ that we are looking for.  It has the required covering property since the interiors of the $D_b$ cover $P X$.
+
+Define $f_{(b,e)} \colon D_{(b,e)} \to S A$ as follows:
+
+$$
+f_{(b,e)}(\alpha) = \sigma_1 \cdots \sigma_k l(\alpha)
+$$
+
+where $\sigma_i$ is the schedule with $\# \sigma_i = r_i - l_i + 1$ and $l(\sigma_i) = q_{s_i}(\alpha)$, and if $s_i = a_1 \cdots a_n$ then if $l_i \lt r_i$ we have
+
+$$
+\sigma_i = \left( a_{l_1}, \frac{l_i}{n} - Q_{i - 1}(\alpha)\right) \left(a_{l_i+1}, \frac{1}{n} \right) \cdots \left(a_{r_i - 1}, \frac{1}{n} \right) \left( a_{r_i}, Q_i(\alpha) - \frac{r_i - 1}{n} \right)
+$$
+
+otherwise, $\sigma_i = (a_{l_i}, Q_i(\alpha) - Q_{i-1}(\alpha))$.
+
+This is continuous and for $\alpha \in D_{(b,e)}$ then $\alpha$ fits $f_{(b,e)}(\alpha)$.  Moreover, for $\alpha \in D_{(b,e)} \cap D_{(b',e')}$ then $\rho f_{(b,e)}(\alpha) = \rho f_{(b',e')}(\alpha)$.
 
 ## References
 {#refs}
