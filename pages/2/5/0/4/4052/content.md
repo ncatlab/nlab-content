@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Topos Theory
+#### $(\infty,2)$-Topos theory
 +--{: .hide}
-[[!include topos theory - contents]]
+[[!include (infinity,2)-topos theory - contents]]
 =--
 #### 2-Category theory
 +--{: .hide}
@@ -14,10 +14,8 @@
 =--
 
 
-
-
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
