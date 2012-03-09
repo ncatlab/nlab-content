@@ -103,6 +103,10 @@ Bicategorical 2-sites in
 {: #StreetCBS }
 
 [[!redirects 2-sites]]
+
+[[!redirects (2,2)-site]]
+[[!redirects (2,2)-sites]]
+
 [[!redirects bisite]]
 [[!redirects bisites]]
 [[!redirects Grothendieck 2-topology]]
