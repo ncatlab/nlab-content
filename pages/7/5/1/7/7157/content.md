@@ -19,7 +19,8 @@
 
 ## Idea
 
-The notion of _higher Segal space_ is a weakening of the notion of [[complete Segal space]]. As complete Segal spaces are models for [[(∞,1)-categories]], so higher Segal spaces are supposed to be models for [[(∞,n)-categories]] for higher $n$.
+An _$n$-fold Segal space_ is  an $n$-fold [[pre-category object in an (infinity,1)-category|pre-category object]] in [[∞Grpd]]. If this happens to be an actual $n$-fold [[category object in an (infinity,1)-category|category object]] it is an [[n-fold complete Segal space]].
+
 
 ## Definition
 
