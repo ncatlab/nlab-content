@@ -19,7 +19,7 @@ This entry is about the notion of [[site]] in [[2-category]] theory. For the not
 
 The notion of [[2-site]] is the generalization of the notion of [[site]] to the [[higher category theory]] of [[2-categories]] ([[bicategories]]).
 
-Over a 2-site one has a [[2-topos]] of [[2-sheaf|2-sheaves]].
+Over a 2-site one has a [[2-topos]] of [[2-sheaves]].
 
 ## Definition
 
@@ -83,7 +83,9 @@ As in the 1-categorical case, one can then show that every coverage generates a 
 
 ## Related concepts
 
-* [[site]]
+* [[(n,r)-site]]
+
+* [[1-site]]
 
 * **2-site**, [[(2,1)-site]]
 
@@ -101,6 +103,11 @@ Bicategorical 2-sites in
 
 * [[Ross Street]], [[zoranskoda:Characterization of Bicategories of Stacks]], [MR84d:18006](http://www.ams.org/mathscinet-getitem?mr=682967), p. 282-291 in: Category theory (Gummersbach 1981) Springer LNM __962__, 1982 
 {: #StreetCBS }
+
+More discussion is in 
+
+* [[Michael Shulman]], _[[michaelshulamn:2-site]]_
+
 
 [[!redirects 2-sites]]
 
