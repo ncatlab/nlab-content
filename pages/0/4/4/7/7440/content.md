@@ -44,11 +44,18 @@ There are a variety of [[model category]] structures that [[presentable (infinit
 
 (...)
 
-### Nice ambient contexts
- {#SuitableAmbientContexts}
+
+
+
+### Completeness
+  {#Completeness}
+
+(...)
+
+### Iterated internalization
 
 We introduce some conditions on an ambient $(\infty,1)$-category $\mathcal{C}$
-such that it admits a "very good" theory of internal $(\infty,1)$-category objects.
+such that its $(\infty,1)$-category of internal $(\infty,1)$-categories is itself again a good context for internalization.
 
 
 The following definition is the specialization of the notion termed _absolute distributor_ in [Lurie, def. 1.2.1, 1.3.3](#Lurie) to [[(∞,1)-toposes]].
@@ -56,7 +63,7 @@ The following definition is the specialization of the notion termed _absolute di
 +-- {: .num_defn #WellSuitedTopos}
 ###### Definition
 
-Call an [[(∞,1)-topos]] $\mathbf{H}$ **very well-suited for internalization** if 
+Call an [[(∞,1)-topos]] $\mathbf{H}$ **well-suited for iterated internalization** if 
 it is [[locally ∞-connected (∞,1)-topos|locally]] and [[∞-connected (∞,1)-topos|globally ∞-connected]],
 
 =--
@@ -110,12 +117,6 @@ But over an [[(∞,1)-topos]] the [[codomain fibration]] is always a [[canonical
 
 =--
 
-
-
-### Completeness
-  {#Completeness}
-
-(...)
 
 ## Properties
 
