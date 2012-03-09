@@ -18,13 +18,15 @@
 
 ## Idea
 
-Th term 1-stack, sometimes simply __stack__, is a traditional synonym for [[2-sheaf]] (in the same literature "sheaf of categories" would mean a strict 2-sheaf). Often it is an abbreaviation for stack in groupoids which is a [[(2,1)-sheaf]]:
+The term _stack_, is a traditional synonym for _[[2-sheaf]]_ (see there for more details).
 
-it is a [[1-truncated]] [[(∞,1)-sheaf]]/[[∞-stack]].
+It is also often used more restrictively as a synonym for _[[(2,1)-sheaf]].
 
-More generally $n$-stack corresponds to $(n+1)$-sheaf.
+This is part of a whole hierarchy of [[higher category theory|higher categorical]] generalizations of the notion of _[[sheaf]]_. A [[(2,1)-sheaf]] / stack is equivalently a [[1-truncated]] [[(∞,1)-sheaf]]/[[∞-stack]].
 
-More concretely this means that a 1-stack on a [[site]] $S$ (or more generally [[(2,1)-site]] or even (2,2)-site $S$) is 
+Generally, then, _[[n-stack]]_ is a synonym for _[[n-sheaf|(n+1)-sheaf]]_, or more restrictively for _[[(n,1)-sheaf|(n+1,1)-sheaf]]_.
+
+More concretely this means that a 1-stack on a [[site]] $S$ (or more generally [[(2,1)-site]] or even [[(2,2)-site]] $S$) is 
 
 * a ([[pseudofunctor|pseudo]]-)[[functor]] from  $S^{op}$ to the 2-category [[Cat]] of categories,
 
@@ -32,9 +34,9 @@ More concretely this means that a 1-stack on a [[site]] $S$ (or more generally [
 
 If the pseudofunctor takes values in the 2-subcategory [[Grpd]]$\subset Cat$ of groupoids, the stack is sometimes referred to as a stack of groupoids. This is the more commonly occurring case so the term 'stack' has come to mean 'stack of groupoids' in much of the literature. 
 
-In some circles the notion of a stack as a generalized groupoid is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoids]] and [[orbifolds]], while [[diffeological space]]s are only beginning to be investigated more in [[Lie theory]]. 
+In some circles the notion of a stack as a generalized [[groupoid]] is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoids]] and [[orbifolds]], while [[diffeological space]]s are only beginning to be investigated more in [[Lie theory]]. 
 
-Algebraic stack, differentiable stack etc. are 1-stacks over a site of schemes or differentiable manifolds with addiitonal representability conditions. 
+An [[algebraic stack]], [[differentiable stack]] etc. is a stack over a site of schemes or differentiable manifolds with additonal representability conditions. 
 
 
 ## Provisional discussion
