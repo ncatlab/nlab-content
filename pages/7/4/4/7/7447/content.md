@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _regular 2-catory_ is the anlog in [[2-category theory]] of the notion of _[[regular category]]_ in [[category theory]].
+
+## References
+
+* [[Michael Shulman]], _[[michaelshulman:regular 2-category]]_
+
+[[!redirects regular 2-categories]]
