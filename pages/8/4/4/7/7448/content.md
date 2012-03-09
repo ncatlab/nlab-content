@@ -13,7 +13,7 @@
 
 ## Idea 
 
-A classical theorem of Giraud's characterizes [[sheaf toposes]] abstractly as [[categories]] with certain [[properties]].
+A classical theorem of [[Jean Giraud|Giraud]] characterizes [[sheaf toposes]] abstractly as [[categories]] with certain [[properties]].
 
 In [[higher topos theory]] there are corresponding analogs of this theorem
 
