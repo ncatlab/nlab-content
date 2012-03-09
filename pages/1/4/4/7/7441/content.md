@@ -7,6 +7,11 @@
 
 * [[internal profunctor]]
 
+## In a [[(2,1)-category]]
+
+* [[2-congruence]]
+
+
 ## In [[∞Grpd]]
 
 * [[Segal space]], [[complete Segal space]], 
@@ -21,6 +26,10 @@
 
 * [[Theta space]]
 
+
+## In [[(n,r)-categories]]
+
+* [[(n,r)-congruence]]
 
 ## Model category presentations
 
