@@ -123,6 +123,13 @@ of the [[(∞,1)-category of (∞,1)-functors]] on those objects that are groupo
 
 This is [[Higher Topos Theory|HTT, prop. 6.1.2.6, item 4'']] with [[Higher Topos Theory|HTT, def. 6.1.2.7]].
 
++-- {: .num_remark}
+###### Remark
+
+If one requires the above condition only for those partitions that are order-preserving, then this yields the definition of a (pre-)[[category object in an (∞,1)-category]].
+
+=--
+
 
 +-- {: .num_defn}
 ###### Definition 
