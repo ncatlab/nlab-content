@@ -69,6 +69,8 @@ See _[[topos of types]]_.
 
 ## Related concepts
 
+* [[2-category]] version: [[coherent 2-category]]
+
 * [[finitely complete category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
 
 * [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
