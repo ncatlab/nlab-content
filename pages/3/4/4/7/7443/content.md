@@ -6,6 +6,8 @@ Jean Giraud (1936 &#8211; March 28, 2007) was a French mathematician, who worked
 
 ## Related entries
 
+* [[Giraud theorem]]
+
 * [[nonabelian cohomology]]
 
 * [[gerbe]]
