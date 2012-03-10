@@ -34,7 +34,7 @@ Of course, there is an obvious notion of an internal category in a 2-category, a
 
 Before we define 2-congruences below in def. \ref{2Congruence}, we need some preliminaries.
 
-### 2-Congruence
+### 2-Congruences
 
 +--{: .num_defn #HomWiseDiscreteInternalCategory}
 ###### Definition
@@ -87,7 +87,7 @@ In particular, if $f=1_A$ then $(1_A/1_A) = A^{\mathbf{2}}$, so we have a canoni
 +--{: .num_remark}
 ###### Remark
 
-It is easy to check that taking kernels of objects defines a functor $\Phi:K \to HDC(K)$; this might first have been noticed by [Street](http://www.springerlink.com/content/407n62422140864p/).
+It is easy to check that taking kernels of objects defines a functor $\Phi:K \to HDC(K)$; this might first have been noticed by [Street](http://www.springerlink.com/content/407n62422140864p/). See prop. \ref{InclusionOfKernelsInCongruences} below.
 
 =--
 
@@ -213,12 +213,340 @@ A 2-fork $D_1 \;\rightrightarrows\; D_0 \overset{f}{\to} X$ is called **exact** 
 
 This is the 2-categorical analogue of the notion of exact fork in a 1-category, and plays an analogous role in the definition of a [[regular 2-category]] and an [[exact 2-category]].
 
+### The 2-category of 2-conguences
+ {#2CategoryOf2Congruences}
+
+There is an evident but naive [[2-category]] of 2-congruences in 
+any 2-category. And there is a refined version where internal [[functors]]
+are replaced by internal [[anafunctors]].
+
++--{: .num_defn #2CongWithOrdinaryFunctors}
+###### Definition
+
+For $K$ a [[2-category]], write $2Cong_s(K)$ for the [[full sub-2-category]]
+of that of hom-wise discrete internal categories, def. \ref{HomWiseDiscreteInternalCategory} on the 2-congruences, def. \ref{2Congruence}
+
+$$
+  2 Cong_s(K) \hookrightarrow HDC(K)
+  \,.
+$$
+
+=--
+
++--{: .num_prop #InclusionOfKernelsInCongruences}
+###### Proposition
+
+There is a [[2-functor]] 
+
+$$
+   \Phi : K\to 2Cong_s(K)
+$$ 
+
+sending each object to its kernel, def. \ref{Kernel}.
+
+=-- 
+
+
++--{: .num_defn #2CongWithAnafunctors}
+###### Definition
+
+Let the 2-category $K$ be equipped with the structure of a [[2-site]]. 
+With this understood, write
+
+$$
+  2 Cong(K)
+$$
+
+for the [[2-category]] of 2-congruences with morphisms the [[anafunctors]] between them.
+
+=--
+
++--{: .num_remark }
+###### Remark
+
+
+The evident inclusion
+
+$$
+  2 Cong_s(K) \hookrightarrow 2 Cong(K)
+$$ 
+
+is a homwise-full sub-2-category closed under finite limits.
+
+=--
 
 ## Properties
 
 ### Opposites 
 
 The opposite of a homwise-discrete category is again a homwise-discrete category.  However, the opposite of a 2-congruence in $K$ is a 2-congruence in $K^{co}$, since [[nLab:opposite 2-category|2-cell duals]] interchange fibrations and opfibrations.  Likewise, passage to opposites takes 2-forks in $K$ to 2-forks in $K^{co}$, and preserves and reflects kernels, quotients, and exactness.
+
+### Regularity
+ {#Regularity}
+
+We discuss that when the ambient 2-category $K$ has finite [[2-limits]], 
+then its 2-category $2 Cong_s(K)$ of 2-congruences, def. \ref{2CongWithOrdinaryFunctors} is a _[[regular 2-category]]_. This is theorem \ref{regex} below. A sub-2-category of $Cong_s(K)$ is the _regular completion_ of $K$.
+
+In the following and throughout, "$n$" denotes either of (see [[(n,r)-category]])
+
+$$
+  n = (0,1), (1,1), (2,1), (2,2)
+  \,.
+$$
+
++--{: .num_lemma}
+###### Lemma
+Suppose that $K$ has finite [[2-limits]].  Then:
+
+1. $HDC(K)$ (def. \ref{HomWiseDiscreteInternalCategory}) has finite limits.
+
+1. $n Cong_s(K)$ is closed under finite limits in $HDC(K)$.
+
+1. The 2-functor $\Phi : K \to 2 Cong_s(K)$, prop. \ref{InclusionOfKernelsInCongruences}, is [[full and faithful 2-functor|2-fully-faithful]] (that is, an equivalence on hom-categories) and preserves finite limits.
+
+=-- 
++--{: .proof}
+###### Proof
+It suffices to deal with finite products, inserters, and equifiers.  Evidently $\Phi(1)$ is a terminal object.  If $D$ and $E$ are homwise-discrete categories, define $P_0 = D_0\times E_0$ and $P_1 = D_1\times E_1$; it is easy to check that then $P_1 \;\rightrightarrows\; P_0$ is a homwise-discrete category that is the product $D\times E$ in $HDC(K)$.  Since $(D_0\times E_0) ^{\mathbf{2}} \simeq (D_0) ^{\mathbf{2}} \times (E_0) ^{\mathbf{2}}$, and products preserve ffs, we see that $P$ is an $n$-congruence if $D$ and $E$ are and that $\Phi$ preserves products.
+
+For inserters, let $f,g:C \;\rightrightarrows\; D$ be functors in $HDC(K)$, define $i_0:I_0\to C_0$ by the pullback
+$$\array{I_0 & \to & D_1\\ i_0 \downarrow && \downarrow \\
+  C_0 & \overset{(f_0,g_0)}{\to} & D_0\times D_0,}$$
+and define $i_1:I_1 \to C_1$ by the pullback
+$$\array{I_1 & \to & X\\
+  i_1\downarrow && \downarrow\\
+  C_1 & \overset{(f_1,g_1)}{\to} & D_1\times D_1}$$
+where $X$ is the "object of commutative squares in $D$."  Then $I_1 \;\rightrightarrows\; I_0$ is a homwise-discrete category and $i:I\to C$ is an inserter of $f,g$.  Also, $I$ is an $n$-congruence if $C$ is, and $\Phi$ preserves inserters.
+
+Finally, for equifiers, suppose we have functors $f,g:C \;\rightrightarrows\; D$ and 2-cells $\alpha,\beta:f \;\rightrightarrows\; g$ in $HDC(K)$, represented by morphisms $a,b:C_0 \;\rightrightarrows\; D_1$ such that $(s,t) a \cong (f_0,g_0)\cong (s,t) b$.  Let $e_0:E_0\to C_0$ be the universal morphism equipped with an isomorphism $\phi:a e_0 \cong b e_0$ such that $(s,t)\phi$ is the given isomorphism $(s,t) a\cong (s,t) b$ (this is a finite limit in $K$.)  Note that since $(s,t):D_1\to D_0\times D_0$ is discrete, $e_0$ is ff.  Now let $E_1 = (e_0\times e_0)^*C_1$; then $E_1 \;\rightrightarrows\; E_0$ is a homwise-discrete category and $e:E\to C$ is an equifier of $\alpha$ and $\beta$ in $HDC(K)$. Also $E$ is an $n$-congruence if $C$ is, and $\Phi$ preserves equifiers.
+
+For any morphism $f:A\to B$ in $K$, $\Phi(f)$ is the functor $ker(A)\to ker(B)$ that consists of $f:A\to B$ and $f^{\mathbf{2}}: A^{\mathbf{2}} \to B^{\mathbf{2}}$.  A transformation between $\Phi(f)$ and $\Phi(g)$ is a morphism $A\to B ^{\mathbf{2}}$ whose composites $A\to B ^{\mathbf{2}} \;\rightrightarrows\; B$  are $f$ and $g$; but this is just a transformation $f\to g$ in $K$.  Thus, $\Phi$ is homwise fully faithful.  And homwise essential-surjectivity follows from the essential uniqueness of thin structures, or equivalently a version of Prop 6.4 in [FBMF][].
+=--
+
+Moreover, we have:
+
++--{: .num_theorem #regex}
+###### Theorem
+
+If $K$ is an $n$-category with finite limits, then $n Cong_s(K)$ is [[regular 2-category|regular]].
+
+=--
++--{: .proof}
+###### Proof
+
+It is easy to see that a functor $f:C\to D$ between $n$-congruences is ff in $n Cong_s(K)$ iff the square
+$$\array{C_1 & \to & D_1\\ \downarrow && \downarrow\\
+  C_0\times C_0 & \to & D_0\times D_0}$$
+is a pullback in $K$.
+
+We claim that if $e:E\to D$ is a functor such that $e_0:E_0\to D_0$ is split (that is, $e_0 s\cong 1_{D_0}$ for some $s:D_0\to E_0$), then $e$ is eso in $n Cong_s(K)$.  For if $e\cong f g$ for some ff $f:C\to D$ as above, then we have $g_0 s:D_0 \to C_0$ with $f_0 g_0 s \cong e_0 s \cong 1_{D_0}$, and so the fact that $C_1$ is a pullback induces a functor $h:D\to C$ with $h_0=g_0 s$ and $f h\cong 1_D$.  But this implies $f$ is an equivalence; thus $e$ is eso.
+
+Moreover, if $e_0:E_0\to D_0$ is split, then the same is true for any pullback of $e$.  For the pullback of $e:E\to D$ along some $k:C\to D$ is given by a $P$ where $P_0 = E_0 \times_{D_0} D_{iso} \times_{D_0} C_0$; here $D_{iso}\hookrightarrow D_1$ is the "object of isomorphisms" in $D$.  What matters is that the projection $P_0\to C_0$ has a splitting given by combining the splitting of $e_0$ with the "identities" morphism $D_0\to D_{iso}$.
+
+Now suppose that $f:D\to E$ is any functor in $n Cong_s(K)$.  It is easy to see that if we define $Q_0=D_0$ and let $Q_1$ be the pullback
+$$\array{ Q_1 & \to & E_1 \\ \downarrow && \downarrow\\
+  Q_0 \times Q_0 & \overset{f_0\times f_0}{\to} & E_0\times E_0}$$
+then $f \cong m e$ where $e:D \to Q$ and $m:Q\to E$ are the obvious functors.  Moreover, clearly $m$ is ff, and $e$ satisfies the condition above, so any pullback of it is eso.  It follows that if $f$ itself were eso, then it would be equivalent to $e$, and thus any pullback of it would also be eso; hence esos are stable under pullback.
+
+Since $m$ is ff, the kernel of $f$ is the same as the kernel of $e$, so to prove $K$ regular it remains only to show that $e$ is a quotient of that kernel.  If $C \;\rightrightarrows\; D$ denotes $ker(f)$, then $C$ is the comma object $(f/f)$ and thus we can calculate
+$$C_0 = D_0\times_{E_0} E_1 \times_{E_0} D_0 \cong Q_1.$$
+Therefore, if $g:D\to X$ is equipped with an action by $ker(f)$, then the action 2-cell is given by a morphism $Q_1=C_0\to X_1$, and the action axioms evidently make this into a functor $Q\to X$.  Thus, $Q$ is a quotient of $ker(f)$, as desired.
+=--
+
++--{: .num_remark }
+###### Remark
+
+There are three "problems" with the 2-category $n Cong_s(K)$.
+
+1. It is too big.  It is not necessary to include every $n$-congruence in order to get a regular category containing $K$, only those that occur as kernels of morphisms in $K$.
+1. It is too small.  While it is regular, it is not [[exact 2-category|exact]].
+1. It doesn't remember information about $K$.  If $K$ is already regular, then passing to $n Cong_s(K)$ destroys most of the esos and quotients already present in $K$.
+
+=--
+
+The solution to the first problem is straightforward.  
+
++--{: .num_defn }
+###### Definition
+
+If $K$ is a 2-category with finite limits, define 
+
+$$
+  K_{reg/lex} \hookrightarrow 2 Cong_s(K)
+$$ 
+
+to be the sub-2-category of $2 Cong_s(K)$ spanned by the 2-congruences which occur as kernels of morphisms in $K$.  
+
+=--
+
++--{: .num_remark }
+###### Remark
+
+If $K$ is an $n$-category then any such kernel is an $n$-congruence, so in this case $K_{reg/lex}$ is contained in $n Cong_s(K)$ and is an $n$-category.  Also, clearly $\Phi$ factors through $K_{reg/lex}$.
+
+=--
+
++--{: .num_theorem}
+###### Theorem
+
+For any finitely complete 2-category $K$, the 2-category $K_{reg/lex}$ is [[refular 2-category|regular]], and the functor $\Phi:K\to K_{reg/lex}$ induces an equivalence
+$$Reg(K_{reg/lex},L) \simeq Lex(K,L)$$
+for any regular 2-category $K$.
+
+=--
+
+Here $Reg(-,-)$ denotes the 2-category of regular functors, transformations, and modifications between two regular 2-categories, and likewise $Lex(-,-)$ denotes the 2-category of finite-limit-preserving functors, transformations, and modifications between two finitely complete 2-categories.
+
++--{: .proof}
+###### Proof
+It is easy to verify that $K_{reg/lex}$ is closed under finite limits in $2 Cong_s(K)$, and also under the eso-ff factorization constructed in Theorem \ref{regex}; thus it is regular.  If $F:K\to L$ is a lex functor where $L$ is regular, we extend it to $K_{reg/lex}$ by sending $ker(f)$ to the quotient in $L$ of $ker(F f)$, which exists since $L$ is regular.  It is easy to verify that this is regular and is the unique regular extension of $F$.
+=--
+
+In particular, if $K$ is a [[nlab:regular category|regular 1-category]], $K_{reg/lex}$ is the ordinary regular completion of $K$.  In this case our construction reduces to one of the usual constructions (see, for example, the [[nlab:Elephant|Elephant]]).
+
+To solve the second and third problems with $n Cong_s(K)$, we need to modify its morphisms.
+
+
+### Exactness
+ {#Exactness}
+
+Let now the ambient [[2-category]] $K$ be equipped with the  structure of a [[2-site]]. Recall from def. \ref{2CongWithAnafunctors} the 2-category $2Cong(K)$ whose objects are 2-congruences in $K$, and whose morpisms are internal [[anafunctors]] between these, with respect to the given 2-site structure.
+
+Notice that when $K$ is a [[regular 2-category]] it comes with a canonical structure of a 2-site: its [[regular coverage]].
+
++--{: .num_theorem}
+###### Theorem
+
+For any [[subcanonical topology|subcanonical]] and finitely complete [[2-site]] $K$ (such as a [[regular coverage]]), the 2-category $2Cong(K)$ from 
+def. \ref{2CongWithAnafunctors} 
+
+* is finitely complete;
+
+* contains $2Cong_s(K)$, def. \ref{2CongWithOrdinaryFunctors} as a homwise-full sub-2-category (that is, $2Cong_s(K)(D,E)\hookrightarrow 2Cong(K)(D,E)$ is ff) closed under finite limits.
+
+=--
++--{: .proof}
+###### Proof
+
+It is easy to see that products in $2 Cong_S(K)$ remain [[products]] in $n Cong(K)$.  Before dealing with [[inserters]] and [[equifiers]], we observe that if $A\leftarrow F \to B$ is an anafunctor in $2 Cong(K)$ and $e:X_0\to F_0$ is any eso, then pulling back $F_1$ to $X_0\times X_0$ defines a new congruence $X$ and an anafunctor $A \leftarrow X \to B$ which is isomorphic to the original in $2 Cong(K)(A,B)$.  Thus, if $A\leftarrow F\to B$ and $A\leftarrow G\to B$ are parallel anafunctors in $2 Cong(K)$, by pulling them both back to $F\times_A G$ we may assume that they are defined by spans with the same first leg, i.e. we have $A\leftarrow X \;\rightrightarrows\; B$.
+
+Now, for the inserter of $F$ and $G$ as above, let $E\to X$ be the inserter of $X \;\rightrightarrows\; B$ in $2 Cong_s(K)$.  It is easy to check that the composite $E\to X \to A$ is an inserter of $F,G$ in $2 Cong(K)$.  Likewise, given $\alpha,\beta: F \;\rightrightarrows\; G$ with $F$ and $G$ as above, we have transformations between the two functors $X \;\rightrightarrows\; B$ in $2 Cong_s(K)$, and it is again easy to check that their equifier in $2 Cong_s(K)$ is again the equifier in $2 Cong(K)$ of the original 2-cells $\alpha,\beta$.  Thus, $2 Cong(K)$ has finite limits.  Finally, by construction clearly the inclusion of $2 Cong_s(K)$ preserves finite limits.
+=--
+
+
++--{: .num_theorem #nCongExidempotent}
+###### Theorem
+
+If $K$ is a [[subcanonical coverage|subcanonical]] finitely complete $n$-site, then the functor $\Phi:K\to n Cong(K)$, prop. \ref{InclusionOfKernelsInCongruences}, 
+is [[full and faithful 2-functor|2-fully-faithful]].  
+If $K$ is an $n$-[[exact 2-category|exact]] $n$-category equipped with its [[regular coverage]], then 
+
+$$
+  \Phi : K \to n Cong(K)
+$$ 
+
+is an [[equivalence of 2-categories]].
+
+=--
++--{: .proof}
+###### Proof
+Since $\Phi:K \to n Cong_s(K)$ is 2-fully-faithful and $n Cong_s(K)\to n Cong(K)$ is homwise fully faithful, $\Phi:K \to n Cong(K)$ is homwise fully faithful.  For homwise essential-surjectivity, suppose that $ker(A) \leftarrow F \to ker(B)$ is an anafunctor. Then $h:F_0 \to A$ is a cover and $F_1$ is the pullback of $A ^{\mathbf{2}}$ along it; but this just says that $F_1 = (h/h)$.  The functor $F\to B$ consists of morphisms $g:F_0\to B$ and $F_1 = (h/h) \to B ^{\mathbf{2}}$, and functoriality says precisely that the resulting 2-cell equips $g$ with an action by the congruence $F$.  But since $F$ is precisely the kernel of $h:F_0\to A$, which is a cover in a subcanonical 2-site and hence the quotient of this kernel, we have an induced morphism $f:A\to B$ in $K$.  It is then easy to check that $f$ is isomorphic, as an anafunctor, to $F$.  Thus, $\Phi$ is homwise an equivalence.
+
+Now suppose that $K$ is an $n$-exact $n$-category and that $D$ is an $n$-congruence.  Since $K$ is $n$-exact, $D$ has a quotient $q:D_0\to Q$, and since $D$ is the kernel of $q$, we have a functor $D \to ker(Q)$ which is a weak equivalence.  Thus, we can regard it either as an anafunctor $D\to ker(Q)$ or $ker(Q)\to D$, and it is easy to see that these are inverse equivalences in $n Cong(K)$.  Thus, $\Phi$ is essentially surjective, and hence an equivalence.
+=--
+
+Note that by working in the generality of 2-sites, this construction includes the previous one.  
+
++--{: .num_remark}
+###### Remark
+
+If $K$ is a finitely complete 2-category equipped with its minimal coverage, in which the covering families are those that contain a [[split epimorphism]], then 
+
+$$
+  n Cong(K) \simeq n Cong_s(K)
+  \,.
+$$ 
+
+=--
+
++--{: .proof}
+###### Proof
+
+ This is immediate from the proof of Theorem \ref{regex}, which implies that the first leg of any anafunctor relative to this coverage is both eso and ff in $n Cong_s(K)$, and hence an equivalence.
+
+=--
+
++--{: .num_theorem #nCongOnGroupoidsAndDiscretes}
+###### Theorem
+
+If $K$ is a 2-exact 2-category with [[core in a 2-category|enough groupoids]], then 
+
+$$
+  K\simeq 2 Cong(gpd(K))
+  \,.
+$$  
+
+Likewise, if $K$ is 2-exact and has enough discretes, then 
+
+$$
+  K\simeq 2 Cong(disc(K))
+  \,.
+$$
+
+=--
++--{: .proof}
+###### Proof
+
+Define a functor $K\to 2Cong(gpd(K))$ by taking each object $A$ to the kernel of $j:J\to A$ where $j$ is eso and $J$ is groupoidal (for example, it might be the [[core]] of $A$).  Note that this kernel lives in $2Cong(gpd(K))$ since $(j/j)\to J\times J$ is discrete, hence $(j/j)$ is also groupoidal.  The same argument as in Theorem \ref{nCongExidempotent} shows that this functor is 2-fully-faithful for any regular 2-category $K$ with enough groupoids, and essentially-surjective when $K$ is 2-exact; thus it is an equivalence.  The same argument works for discrete objects.
+=--
+
+In particular, the 2-exact 2-categories having enough discretes are precisely the 2-categories of internal categories and anafunctors in 1-exact 1-categories.
+
+Our final goal is to construct the $n$-exact completion of a regular $n$-category, and a first step towards that is the following.
+
++--{: .num_theorem #almostExreg}
+###### Theorem
+If $K$ is a regular $n$-category, so is $n Cong(K)$.  The functor $\Phi:K\to n Cong(K)$ is regular, and moreover for any $n$-exact 2-category $L$ it induces an equivalence
+$$Reg(n Cong(K), L) \to Reg(K,L).$$
+=--
++--{: .proof}
+###### Proof
+
+We already know that $n Cong(K)$ has finite limits and $\Phi$ preserves finite limits.  The rest is very similar to Theorem \ref{regex}.  We first observe that an anafunctor $A \leftarrow F \to B$ is an equivalence as soon as $F\to B$ is also a weak equivalence (its reverse span $B\leftarrow F \to A$ then provides an inverse.)  Also, $A \leftarrow F \to B$ is ff if and only if
+$$\array{F_1 & \to & B_1\\ \downarrow && \downarrow \\
+  F_0\times F_0 & \to & B_0\times B_0}$$
+is a pullback.
+
+Now we claim that if $A\leftarrow F \to B$ is an anafunctor such that $F_0\to B_0$ is eso, then $F$ is eso.  For if we have a composition 
+$$\array{ &&&& F \\
+  &&& \swarrow && \searrow\\
+  && G &&&& M\\
+  & \swarrow && \searrow && \swarrow && \searrow\\
+  A &&&& C &&&& B}$$
+such that $M$ is ff, then $F_0\to B_0$ being eso implies that $M_0\to B_0$ is also eso; thus $M\to B$ is a weak equivalence and so $M$ is an equivalence.  Moreover, by the construction of pullbacks in $n Cong(K)$, anafunctors with this property are stable under pullback.
+
+Now suppose that $A \leftarrow F \to B$ is any anafunctor, and define $C_0=F_0$ and let $C_1$ be the pullback of $B_1$ to $C_0\times C_0$ along $C_0 = F_0 to B_0$.  Then $C$ is an $n$-congruence, $C\to B$ is ff in $n Cong_s(K)$ and thus also in $n Cong(K)$, and $A \leftarrow F \to B$ factors through $C$.  (In fact, $C$ is the image of $F\to B$ in $n Cong_s(K)$.)  The kernel of $A\leftarrow F\to B$ can equally well be calculated as the kernel of $F\to B$, which is the same as the kernel of $F\to C$.
+
+Finally, given any $A\leftarrow G \to D$ with an action by this kernel, we may as well assume (by pullbacks) that $F=G$ (which leaves $C$ unchanged up to equivalence).  Then since the kernel acting is the same as the kernel of $F\to C$, regularity of $n Cong_s(K)$ gives a descended functor $C\to D$.  Thus, $A\leftarrow F \to C$ is the quotient of its kernel; so $n Cong(K)$ is regular.
+
+Finally, if $L$ is $n$-exact, then any functor $K\to L$ induces one $n Cong(K) \to n Cong(L)$, but $n Cong(L)\simeq L$, so we have our extension, which it can be shown is unique up to equivalence.
+
+=--
+
+When $K$ is a regular 1-category, it is well-known that $1 Cong(K)$ (which, in that case, is the category of internal equivalence relations and functional relations) is the 1-exact completion of $K$ (the reflection of $K$ from regular 1-categories into 1-exact 1-categories).  Theorem \ref{almostExreg} shows that in general, $n Cong(K)$ will be the $n$-exact completion of $K$ whenver it is $n$-exact.  However, in general for $n\gt 1$ we need to "build up exactness" in stages by iterating this construction.
+
+It is possible that the iteration will converge at some finite stage, but for now, define $n Cong^r(K) = n Cong(n Cong^{r-1}(K))$ and let $K_{n ex/reg} = colim_r n Cong^r(K)$.
+
++--{: .num_theorem}
+###### Theorem
+For any regular $n$-category $K$, $K_{n ex/reg}$ is an $n$-exact $n$-category and there is a 2-fully-faithful regular functor $\Phi:K\to K_{n ex/reg}$ that induces an equivalence
+$$Reg(K_{n ex/reg},L) \simeq Reg(K,L)$$
+for any $n$-exact 2-category $L$.
+=--
++--{: .proof}
+###### Proof
+Sequential colimits preserve 2-fully-faithful functors as well as functors that preserve finite limits and quotients, and the final statement follows easily from Theorem \ref{almostExreg}.  Thus it remains only to show that $K_{n ex/reg}$ is $n$-exact.  But for any $n$-congruence $D_1 \;\rightrightarrows\; D_0$ in $K_{n ex/reg}$, there is some $r$ such that $D_0$ and $D_1$  both live in $n Cong^r(K)$, and thus so does the congruence since $n Cong^r(K)$ sits 2-fully-faithfully in $K_{n ex/reg}$ preserving finite limits.  This congruence in $n Cong^r(K)$ is then an object of $n Cong^{r+1}(K)$ which supplies a quotient there, and thus also in $K_{n ex/reg}$.
+=--
 
 ## Examples
  {#Examples}
@@ -346,11 +674,15 @@ hence are [[internal categories in an (∞,1)-category]] in the [[(2,1)-category
 ## References
 
 
-Much of the above material is taken from 
+The above material is taken from 
 
 * [[Mike Shulman]], _[[michaelshulman:2-congruence]]_
 
-using results from
+and
+
+* [[Mike Shulman]], _[[michaelshulman:exact completion of a 2-category]]_
+
+Some lemmas are taken from
 
 * [[Mike Shulman]], _Framed bicategories and monoidal fibrations_ ([arXiv:0706.1286](http://arxiv.org/abs/0706.1286))
  {#Shulman07}
