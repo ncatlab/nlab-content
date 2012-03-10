@@ -47,6 +47,11 @@ Likewise, it is unreasonable to expect a (2,1)-category to be any more than (2,1
 
 * If $K$ is $n$-exact, then so is $K^{co}$, by the remarks about opposite [[2-congruences]].  For 1-categories and (2,1)-categories, of course, this is contentless, but for 2-categories and (1,2)-categories it is contentful.
 
+## Properties
+
+### Exact completion
+
+See at _[[2-congruence]]_ the section _[Exactness](http://ncatlab.org/nlab/show/2-congruence#Exactness)_.
 
 ## References
 
