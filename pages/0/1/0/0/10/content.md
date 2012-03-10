@@ -487,6 +487,8 @@ we should expect there to be a topos analog of the total space, $E G$, for the c
 
 * [[classifying morphism]]
 
+* [[classifying (infinity,1)-topos]]
+
 
 
 ## References ##
