@@ -1,0 +1,9 @@
+Bob Thomason (5 Nov 1952-Nov 1995) was an American mathematician, who, towards the end of his short life,  worked in [[Max Karoubi]]'s lab. at Paris VII.  His biography is to be found
+
+* [here](http://www-groups.dcs.st-and.ac.uk/history/Biographies/Thomason.html)
+
+category:people
+[[!redirects Thomason]]
+[[!redirects Bob Thomason]]
+[[!redirects Robert W. Thomason]]
+[[!redirects R. W. Thomason]]
