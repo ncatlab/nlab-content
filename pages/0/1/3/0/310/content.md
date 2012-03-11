@@ -132,12 +132,18 @@ Thus $\neg\neg\colon L \to L_{\neg\neg}$ preserves finite joins and finite meets
 
 #### Proofs 
 
+We prove the lemma and theorem of the preceding section. 
+
 +-- {: .proof}
 ###### Proof of lemma
 Since $\neg \neg$ preserves order, it is clear that $\neg \neg(x \wedge y) \leq \neg \neg x$ and $\neg \neg(x \wedge y) \leq \neg \neg y$, so 
+
 $$\neg \neg (x \wedge y) \leq (\neg \neg x) \wedge (\neg \neg y)$$  
+
 follows. In the other direction, to show 
-$$\neg \neg x \wedge \neg \neg y \leq \neg \neg (x \wedge y),$$ 
+
+$$(\neg \neg x) \wedge (\neg \neg y) \leq \neg \neg (x \wedge y),$$ 
+
 we show $(\neg \neg x) \wedge (\neg \neg y) \wedge \neg (x \wedge y) \leq 0$. But we have $\neg (x \wedge y) = (y \Rightarrow \neg x)$, and we also have the general result 
 $$(a \Rightarrow b) \wedge (b \Rightarrow c) \leq (a \Rightarrow c).$$ 
 Putting $a = y$, $b = \neg x$, $c = 0$, we obtain 
@@ -151,13 +157,53 @@ as required.
 ###### Proof of theorem 
 Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins (and since this map is epic, this also gives the fact that $L_{\neg \neg}$ has joins). It also preserves meets by the preceding lemma, and $\neg \neg 1 = \neg 0 = 1$. So, when computed in $L_{\neg \neg}$ (where the join will be written $\vee_{\neg\neg}$ and the meet $\wedge_{\neg\neg}$), we have for any $x \in L_{\neg \neg}$ the equations 
 
-$$x \vee_\phi \neg x = \neg \neg (x \vee \neg x) = \neg (\neg x \wedge \neg \neg x) = \neg 0 = 1$$ 
+$$x \vee_{\neg \neg} \neg x = \neg \neg (x \vee \neg x) = \neg (\neg x \wedge \neg \neg x) = \neg 0 = 1$$ 
 
 $$\,$$ 
 
-$$x \wedge_\phi \neg x = x \wedge \neg x = 0$$ 
+$$x \wedge_{\neg\neg} \neg x = x \wedge \neg x = 0$$ 
 
-so that $\neg x$ is the complement of $x \in L_{\neg \neg}$. Also the distributive laws hold in $L_{\neg\neg}$ because they hold in $L$ and $L \to L_{\neg\neg}$ is a surjective map of lattices. Since $L_{\neg\neg}$ is a complemented distributive lattice, it is a Boolean algebra. 
+so that $\neg x$ is the complement of $x \in L_{\neg \neg}$. (Which also shows that $\neg\neg \colon L \to L_{\neg\neg}$ preserves negation, once we know $L_{\neg\neg}$ is a Boolean algebra.) Also the distributive laws hold in $L_{\neg\neg}$ because they hold in $L$ and $L \to L_{\neg\neg}$ is a surjective map of lattices. Since $L_{\neg\neg}$ is a complemented distributive lattice, it is a Boolean algebra. 
+
+To show $L \to L_{\neg\neg}$ preserves implication, we may start from the observation (see the following lemma) that in any Heyting algebra $L$, we have 
+
+$$\neg(a \Rightarrow b) = (\neg \neg a) \wedge (\neg b).$$ 
+
+Then 
+
+$$\array{
+\neg \neg(a \Rightarrow b) & = & \neg((\neg \neg a) \wedge (\neg b)) \\ 
+ & = & \neg ((\neg \neg a) \wedge (\neg \neg \neg b)) \\
+ & = & \neg \neg ((\neg a) \vee (\neg \neg b)) \\
+ & = & \neg a \vee_{\neg \neg} (\neg \neg b) \\
+ & = & \neg (\neg \neg a) \vee_{\neg \neg} (\neg \neg b)
+}$$ 
+
+where the last expression is $(\neg \neg a) \Rightarrow (\neg \neg b)$ as computed in the Boolean algebra $L_{\neg \neg}$, since in a Boolean algebra we have $(x \Rightarrow y) = (\neg x \vee y)$. 
+
+Therefore $L \to L_{\neg\neg}$ is a Heyting algebra quotient which is the coequalizer of $1, \neg\neg \colon L \stackrel{\to}{\to} L$. It follows that a Heyting algebra map $L \to B$ to any Boolean algebra $B$ factors uniquely through this coequalizer, and the induced map $L_{\neg \neg} \to B$ is a Boolean algebra map. In other words, $L \to L_{\neg\neg}$ is the universal Heyting algebra map to a Boolean algebra, which establishes the adjunction. 
+=-- 
+
++-- {: .un_lem}
+###### Lemma 
+In a Heyting algebra, $\neg(a \Rightarrow b) = (\neg \neg a) \wedge (\neg b)$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Since $\neg$ is contravariant and $a \Rightarrow -$ is covariant, we have 
+
+$$\neg(a \Rightarrow b) \leq \neg(a \Rightarrow 0) = (\neg \neg a).$$  
+
+Since $- \Rightarrow b$ is contravariant, we have 
+
+$$\neg(a \Rightarrow b) \leq \neg(1 \Rightarrow b) = (\neg b).$$ 
+
+We conclude that $\neg(a \Rightarrow b) \leq (\neg \neg a) \wedge (\neg b).$ On the other hand, we have 
+
+$$(\neg \neg a) \wedge (\neg b) \wedge (a \Rightarrow b) \leq (\neg \neg a) \wedge (\neg a) \leq 0$$ 
+
+whence $(\neg \neg a) \wedge (\neg b) \leq \neg (a \Rightarrow b)$, which completes the proof. 
 =-- 
 
 ### To toposes
