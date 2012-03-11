@@ -18,14 +18,14 @@ Let $L$ be a [[preordered set]], and let $x$ be an element of $L$.
 ###### Definition
 **(in [[classical mathematics]], and in [[predicative mathematics]] with [[classical logic]])**
 
-An element $x \in L$ is __positive__ if it is not a [[bottom element]], equivalently if there exists an element $y \in L$ such that $x \leq y$ is false.
+An element $x \in L$ is __positive__ if it is not a [[bottom element]], equivalently if there exists an element $y \in L$ such that $x \leq y$ is false: $\neg(x \leq \bigvee \empty)$.
 =--
 
 +-- {: .num_defn #constdef}
 ###### Definition
 **(in [[classical mathematics]], and in impredicative [[constructive mathematics]])**
 
-An element $x \in L$ is __positive__ if whenever $x$ is bounded above by a [[join]] of some [[subset]] $A$ of $L$, $A$ is [[inhabited subset|inhabited]].
+An element $x \in L$ is __positive__ if whenever $x$ is bounded above by a [[join]] of some [[subset]] $A$ of $L$, $A$ is [[inhabited subset|inhabited]]: $\forall A\,; x \leq \bigvee A \;\Rightarrow\; \exists\, u \in A$.
 =--
 
 +-- {: .num_defn #predconstdef}
