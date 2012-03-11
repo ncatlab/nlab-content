@@ -130,6 +130,35 @@ The unit of the [[adjoint functor|adjunction]], applied to a Heyting algebra $L$
 
 Thus $\neg\neg\colon L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i\colon L_{\neg\neg} \to L$, and this preserves meets but not joins, and negations but not implications generally. 
 
+#### Proofs 
+
++-- {: .proof}
+###### Proof of lemma
+Since $\neg \neg$ preserves order, it is clear that $\neg \neg(x \wedge y) \leq \neg \neg x$ and $\neg \neg(x \wedge y) \leq \neg \neg y$, so 
+$$\neg \neg (x \wedge y) \leq (\neg \neg x) \wedge (\neg \neg y)$$  
+follows. In the other direction, to show 
+$$\neg \neg x \wedge \neg \neg y \leq \neg \neg (x \wedge y),$$ 
+we show $(\neg \neg x) \wedge (\neg \neg y) \wedge \neg (x \wedge y) \leq 0$. But we have $\neg (x \wedge y) = (y \Rightarrow \neg x)$, and we also have the general result 
+$$(a \Rightarrow b) \wedge (b \Rightarrow c) \leq (a \Rightarrow c).$$ 
+Putting $a = y$, $b = \neg x$, $c = 0$, we obtain 
+$$\neg (x \wedge y) \wedge (\neg \neg x) \leq \neg y$$ 
+and so now 
+$$\neg (x \wedge y) \wedge (\neg \neg x) \wedge (\neg \neg y) \leq (\neg y) \wedge (\neg \neg y) \leq 0$$ 
+as required. 
+=-- 
+
++-- {: .proof}
+###### Proof of theorem 
+Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins (and since this map is epic, this also gives the fact that $L_{\neg \neg}$ has joins). It also preserves meets by the preceding lemma, and $\neg \neg 1 = \neg 0 = 1$. So, when computed in $L_{\neg \neg}$ (where the join will be written $\vee_{\neg\neg}$ and the meet $\wedge_{\neg\neg}$), we have for any $x \in L_{\neg \neg}$ the equations 
+
+$$x \vee_\phi \neg x = \neg \neg (x \vee \neg x) = \neg (\neg x \wedge \neg \neg x) = \neg 0 = 1$$ 
+
+$$\,$$ 
+
+$$x \wedge_\phi \neg x = x \wedge \neg x = 0$$ 
+
+so that $\neg x$ is the complement of $x \in L_{\neg \neg}$. Also the distributive laws hold in $L_{\neg\neg}$ because they hold in $L$ and $L \to L_{\neg\neg}$ is a surjective map of lattices. Since $L_{\neg\neg}$ is a complemented distributive lattice, it is a Boolean algebra. 
+=-- 
 
 ### To toposes
 
