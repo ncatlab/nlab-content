@@ -5,7 +5,7 @@
 
 ## Idea
 
-The cofinality of a [[quoset]] is a measure of the size of the poset and in particular of the size of its tails.  An important special case is the cofinality of an [[ordinal number]], and there is a related concept of the cofinality of a [[cardinal number]].
+The cofinality of a [[quoset]] (quasi-ordered set) is a measure of the size of the quoset and in particular of the size of its tails.  An important special case is the cofinality of an [[ordinal number]], and there is a related concept of the cofinality of a [[cardinal number]].
 
 
 ## Definitions
