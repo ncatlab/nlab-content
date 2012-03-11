@@ -45,13 +45,13 @@ Where the $\omega$-category itself provided rules for how exactly to compose [[k
 
 Accordingly, omega-nerves may be used to _define_ and identify $\omega$-categories. For instance
 
-* the $\omega$-nerve $N(C)$ is a simplicial set in wich _all_  [[horn]]s have _unique_ fillers precisely if $C$ is a 1-[[groupoid]];
+* the $\omega$-nerve $N(C)$ is a simplicial set in which _all_  [[horn]]s have _unique_ fillers precisely if $C$ is a 1-[[groupoid]];
 
-* the $\omega$-nerve $N(C)$ is a simplicial set in wich all _inner_ [[horn]]s have _unique_ fillers precisely if $C$ is an ordinary [[category]];
+* the $\omega$-nerve $N(C)$ is a simplicial set in which all _inner_ [[horn]]s have _unique_ fillers precisely if $C$ is an ordinary [[category]];
 
-* the $\omega$-nerve $N(C)$ is a simplicial set in wich _all_ [[horn]]s have any fillers precisely if $C$ is an [[∞-groupoid]] (see [[Kan complex]] for more on this);
+* the $\omega$-nerve $N(C)$ is a simplicial set in which _all_ [[horn]]s have any fillers precisely if $C$ is an [[∞-groupoid]] (see [[Kan complex]] for more on this);
 
-* the $\omega$-nerve $N(C)$ is a simplicial set in wich all _inner_ [[horn]]s have any fillers precisely if $C$ is an [[(∞,1)-category]].
+* the $\omega$-nerve $N(C)$ is a simplicial set in which all _inner_ [[horn]]s have any fillers precisely if $C$ is an [[(∞,1)-category]].
 
 * in full generality, a simplicial set is the $\omega$-nerve of an $\omega$-category if it is a [[weak complicial set]].
 
