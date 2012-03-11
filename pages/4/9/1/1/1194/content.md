@@ -491,7 +491,9 @@ Discussion of type theory in the context of programming languages includes
 
 * [[Robert Harper]] _Practical foundations for programming languages_ ([pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
 
+* [[Jean-Yves Giraud]], _Proofs and Types_, [book page](http://www.paultaylor.eu/stable/Proofs+Types.html) with download links.
 
+* [[Benjamin Pierce]], _Types and Programming Languages_, [book page](http://www.cis.upenn.edu/~bcpierce/tapl/index.html)
 
 
 Discussion aimed towards [[homotopy type theory]] includes
