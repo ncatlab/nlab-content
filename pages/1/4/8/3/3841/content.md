@@ -26,6 +26,7 @@ A cardinal that is not regular is called **singular**.
 
 
 ### Finite regular cardinals?
+{#finite}
 
 Traditionally, one requires regular cardinals to be infinite.  This clause may be removed, in which case $0$, $1$, and $2$ are all regular cardinals.
 
@@ -74,6 +75,8 @@ In the absence of the axiom of choice, it is not clear that there exist arbitrar
 * Assuming the consistency (with [[ZFC]]) of 'there is a [[proper class]] of [[strongly compact cardinal|strongly compact cardinals]]', it is consistent with $ZF$ that every uncountable cardinal is singular (and in fact every infinite well-orderable cardinal has [[cofinality]] $\aleph_0$), a result due to [[Moti Gitik]].  (Of course this conclusion is inconsistent with $ZFC$, in which many uncountable cardinals, starting with $\aleph_1$, are regular.)
 
 
+category: foundational axiom
+
 [[!redirects regular cardinal]]
 [[!redirects regular cardinals]]
 [[!redirects regular cardinal number]]
@@ -99,5 +102,3 @@ In the absence of the axiom of choice, it is not clear that there exist arbitrar
 [[!redirects regular extension axiom]]
 [[!redirects Regular Extension Axiom]]
 [[!redirects REA]]
-
-category: foundational axiom
