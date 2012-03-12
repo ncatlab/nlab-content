@@ -142,7 +142,7 @@ The assignment $H \mapsto Comp(H)$ is the object part of a right adjoint to the 
 
 #### Proofs 
 
-We prove the lemma and theorem of the preceding section. 
+We prove the lemma and theorems of the preceding section. 
 
 +-- {: .proof}
 ###### Proof of lemma
@@ -164,7 +164,7 @@ as required.
 =-- 
 
 +-- {: .proof}
-###### Proof of theorem 
+###### Proof of theorem 1
 Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins (and since this map is epic, this also gives the fact that $L_{\neg \neg}$ has joins). It also preserves meets by the preceding lemma, and $\neg \neg 1 = \neg 0 = 1$. So, when computed in $L_{\neg \neg}$ (where the join will be written $\vee_{\neg\neg}$ and the meet $\wedge_{\neg\neg}$), we have for any $x \in L_{\neg \neg}$ the equations 
 
 $$x \vee_{\neg \neg} \neg x = \neg \neg (x \vee \neg x) = \neg (\neg x \wedge \neg \neg x) = \neg 0 = 1$$ 
@@ -216,6 +216,27 @@ $$(\neg \neg a) \wedge (\neg b) \wedge (a \Rightarrow b) \leq (\neg \neg a) \wed
 whence $(\neg \neg a) \wedge (\neg b) \leq \neg (a \Rightarrow b)$, which completes the proof. 
 =-- 
 
++-- {: .proof} 
+###### Proof of theorem 2
+In a Heyting algebra $H$, the elements $0$ and $1$ are clearly complemented. If $x$ and $y$ are complemented, then so is $x \wedge y$ since 
+
+$$1 = 1 \wedge 1 = (x \vee \neg x \vee \neg y) \wedge (y \vee \neg x \vee \neg y) = (x \wedge y) \vee (\neg x \vee \neg y)$$ 
+
+$$\,$$ 
+
+$$(x \wedge y) \wedge (\neg x \vee \neg y) = (x \wedge y \wedge \neg x) \vee (x \wedge y \wedge \neg y) = 0 \vee 0 = 0.$$ 
+
+By a similar proof, $x \vee y$ is complemented. Finally, $x \Rightarrow y$ has complement $x \wedge \neg y$: writing $x \Rightarrow y = y^x$ for typographical clarity, we have 
+
+$$1 = 1 \wedge 1 = (\neg x \vee x) \wedge (y \vee \neg y) \leq (y^x \vee x) \wedge (y^x \vee \neg y) = y^x \vee (x \wedge \neg y),$$ 
+
+$$\,$$ 
+
+$$y^x \wedge x \wedge \neg y \leq y \wedge \neg y = 0.$$ 
+
+Thus the complemented elements form a Heyting subalgebra $Comp(H) \hookrightarrow H$. Clearly $Comp(H)$ is a Boolean algebra, and clearly if $B$ is Boolean, then any Heyting algebra map $B \to H$ factors uniquely through $Comp(H) \hookrightarrow H$. This proves the theorem. 
+=-- 
+ 
 ### To toposes
 
 
