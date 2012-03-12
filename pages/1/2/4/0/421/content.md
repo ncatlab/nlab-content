@@ -1,5 +1,28 @@
-The standard simplicial $n$-simplex is the [[simplicial set]] which is represented (as a [[presheaf]]) by the object $[n]$ in the [[simplex category]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $n \in \mathbb{N}$, the standard _simplicial $n$-simplex_ is the [[simplicial set]] which is represented (as a [[presheaf]]) by the object $[n]$ in the [[simplex category]].
 
 Likewise, there is a standard toplogical $n$-simplex, which is (more or less by definition) the [[geometric realization]] of the standard simplicial $n$-simplex.
+
+## Related concepts
+
+* [[horn]], [[boundary of a simplex]], [[spine]]
+
+* [[dendrex]]
 
 [[!redirects simplices]]
