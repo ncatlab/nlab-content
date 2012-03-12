@@ -140,7 +140,8 @@ The assignment $H \mapsto Comp(H)$ is the object part of a right adjoint to the 
 =-- 
 
 
-#### Proofs 
+#### Proofs
+{#proofs}
 
 We prove the lemma and theorems of the preceding section. 
 
