@@ -118,7 +118,7 @@ $$
   (p_1^* \dashv i_1^*)
   :
   [\Delta^{op}, Set]
-  \stackrel{\overset{i_1^*}{\leftarrow}}{\overset{p_1^*}{\to}}
+  \stackrel{\overset{i_1^*}{\leftarrow}}{\underset{p_1^*}{\to}}
   [\Delta^{op} \times \Delta^{op}, Set]
 $$
 
@@ -135,7 +135,7 @@ $$
   (t_! \dashv t^!)
   :
   [\Delta^{op} \times \Delta^{op}, Set]
-  \stackrel{\overset{t^!}{\leftarrow}}{\overset{t_!}{\to}}
+  \stackrel{\overset{t^!}{\leftarrow}}{\under{t_!}{\to}}
   [\Delta^{op}, Set]
 $$
 
@@ -170,7 +170,7 @@ The composite adjunction
 
 $$
   sSet
-    \stackrel{\overset{i_1^* t^!}{\leftarrow}}{\overset{t_! p_1^*}{\to}}
+    \stackrel{\overset{i_1^* t^!}{\leftarrow}}{\underset{t_! p_1^*}{\to}}
   sSet
 $$
 
@@ -189,7 +189,7 @@ This appears at the end of the proof of [JT, theorem 4.12](http://arxiv.org/PS_c
 +-- {: .num_prop}
 ###### Proposition
 
-Both these adjunctions are [[Quillen equivalence]]s between the [[model structure for quasi-categories]] on simplicial sets and the Rezk model structure for complete Segal spaces on bisimplicial sets.
+Both these adjunctions are [[Quillen equivalences]] between the [[model structure for quasi-categories]] on simplicial sets and the Rezk model structure for complete Segal spaces on bisimplicial sets.
 
 =--
 
@@ -231,7 +231,7 @@ By restriction along this inclusion, the
 
 Complete Segal spaces were originally defined in 
 
-* [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007
+* [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-ho-models-final-changes.pdf))
 
 The [[Quillen equivalence]] with the [[model structure for quasi-categories]] is discussed in 
 
