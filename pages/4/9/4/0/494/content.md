@@ -215,6 +215,7 @@ $C \star^L D \simeq (D^{op} \star^{R^{op}} C^{op})^{op}$.
 
 We say that $C \star^k D$ is the [[cograph of a functor|cograph of the functor]] $k$. See there for more on this.
 
+
 ### For $(\infty,1)$-functors 
 
 
@@ -249,7 +250,29 @@ For more on this see
 * [[adjoint (∞,1)-functor]].
 
 
+### in terms of Kan extensions/liftings
 
+Given $L \colon C \to D$, we have that it has a right adjoint $R\colon D \to C$ precisely if
+
+- $R = \mathop{Lan}_L 1_C$ and this Kan extension is [[Kan extension|absolute]]
+
+In this case, the universal 2-cell $1_C \to R L$ corresponds to the unit of the adjunction; the counit and the verification of the triangular identities can all be obtained through properties of Kan extensions and absoluteness.
+
+It is also possible to express this in terms of Kan liftings: $L$ has a right adjoint $R$ if and only if:
+
+- $R = \mathop{Rift}_L 1_D$ and this Kan lift is [[Kan lift|absolute]]
+
+In this case, we get the counit as given by the universal cell $L R \to 1_D$, while the rest of the data and properties can be derived from it through the absolute Kan lifting assumption.
+
+Dually, we have that for $R\colon D \to C$, it has a left adjoint $L \colon C \to D$ precisely if 
+
+- $L = \mathop{Ran}_R 1_D$, and this Kan extension is [[Kan extension|absolute]]
+
+or, in terms of left Kan liftings:
+
+- $L = \mathop{Lift}_R 1_C$, and this Kan lifting is [[Kan lift|absolute]]
+
+The formulations in terms of liftings generalize to [[relative adjoint|relative adjoints]] by allowing an arbitrary functor $J$ in place of the identity; see there for more.
 
 ## Properties
  {#Properties}
@@ -324,12 +347,15 @@ A partial converse to this fact is provided by the [[adjoint functor theorem]]. 
 ###### Proposition
 
 
-Let $L \dashv R$ be a pair of adjoint functors. Then the following holds.
+Let $L \dashv R$ be a pair of adjoint functors. Then the following holds:
 
 * $R$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is an [[epimorphism]] $L R x \stackrel{}{\to} x $;
 
+* $R$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is an [[split monomorphism]] $L R x \stackrel{}{\to} x $;
+
 * $L$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|unit]] over every object $x$ is a [[monomorphism]] $x \hookrightarrow R L x $;
 
+* $L$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|unit]] over every object $x$ is a [[split epimorphism]] $x \to R L x $;
 
 * $R$ is [[full and faithful functor|full and faithful]] 
   (exhibits a [[reflective subcategory]])
@@ -363,7 +389,7 @@ $$
   Hom(x, a) \to Hom(L R x, a)
 $$
 
-being an [[injection]] for all objects $a$. Then use that, by adjointness, we have an isomorphism  
+being an [[injection]] for all objects $a$. Then use that, by adjointness, we have an isomorphism
 
 $$
   Hom(L R x , a ) \stackrel{\simeq}{\to} Hom(R x, R a)
@@ -394,7 +420,11 @@ $$
   \,.
 $$
 
-Therefore $R_{x,a}$ is injective for all $x,a$, hence $R$ is faithful, precisely if $L R x \to x$ is an epimorphism for all $x$.
+Therefore $R_{x,a}$ is injective for all $x,a$, hence $R$ is faithful, precisely if $L R x \to x$ is an epimorphism for all $x$. The characterization of $R$ full is just the same reasoning applied to the fact that $\epsilon_x \colon L R x \to x$ is a [[split monomorphism]] iff for all objects $a$ the induced function
+\[
+  Hom(x, a) \to Hom(L R x, a)
+\]
+is a surjection.
 
 For the characterization of faithful $L$ by monic units notice that analogously (as discussed at [[monomorphism]]) $x \to R L x$ is a monomorphism if for all objects $a$ the function
 
@@ -408,7 +438,11 @@ $$
   L_{a,x} : Hom(a,x ) \to Hom(a, R L x) \stackrel{\simeq}{\to} Hom(L a, L x)
 $$
 
-being an injection. So $L$ is faithful precisely if all $x \to R L x$ are monos.
+being an injection. So $L$ is faithful precisely if all $x \to R L x$ are monos. For $L$ full, it's just the same applied to $x \to R L x$ [[split epimorphism]] iff the induced function
+$$
+  Hom(a,x ) \to Hom(a, R L x)
+$$
+is a surjection, for all objects $a$.
 
 The proof of the other statements proceeds analogously.
 
