@@ -92,7 +92,7 @@ Finally, one can instead adopt the *negation* of the axiom of choice, or a stren
 ### In dependent type theory
  {#InDependentTypeTheory}
 
-In [[dependent type theory]] there is a somewhat different perspective on the axiom of choice. See at _[[Martin-Löf dependent type theory]]_ the section _[Axiom of choice](nlab/show/Martin-L%C3%B6f+dependent+type+theory#AxiomOfChoice)_.
+In [[dependent type theory]] -- and its further variants/refinements such as [[homotopy type theory]] -- there is also a somewhat different perspective on the axiom of choice. See at _[[Martin-Löf dependent type theory]]_ the section _[Axiom of choice](nlab/show/Martin-L%C3%B6f+dependent+type+theory#AxiomOfChoice)_.
 
 
 
