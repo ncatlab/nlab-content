@@ -21,17 +21,87 @@
 
 ## Idea
 
-The notion of [[complete Segal space]] is a model for the notion of [[(∞,1)-category]]. The [[model category]] structure on the collection of all [[bisimplicial set]]s is a model for the [[(∞,1)-category]] of all Segal spaces, hence for the [[(∞,1)-category of (∞,1)-categories]].
+The notion of _[[complete Segal space]]_ is a model for the notion of [[(∞,1)-category]] regarded as an [[internal category in an (∞,1)-category]] in [[∞Grpd]]. 
+
+The _[[model category]] structure_ on the collection of all [[bisimplicial sets]] is a [[presentable (∞,1)-category|presentation]] the [[(∞,1)-category]] of all complete Segal spaces, hence for the [[(∞,1)-category of (∞,1)-categories]].
 
 ## Definition
 
-The following [[model category]] structure models the [[(∞,1)-category]] of [[complete Segal space]]s.
+Write [[sSet]] for the [[category]] of [[simplicial sets]], which here we always think of as equipped with the standard [[model structure on simplicial sets]]  that is a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category]] [[∞Grpd]].
+
+Write $[\Delta^{op}, sSet]$ for the category of [[simplicial objects]] in $sSet$, hence for hte category of [[bisimplicial sets]]. This inherits from $sSet$ in particular the 
+
+* [[Reedy model structure]] $[\Delta^{op}, sSet]_{Reedy}$, 
+
+which is a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category]] of [[simplicial objects]] in [[∞Grpd]]. In all of the following in its place one can also use the 
+
+* projective or injective [[model structure on functors]] $[\Delta^{op}, sSet]_{proj}$, $[\Delta^{op}, sSet]_{inj}$.
+
+
+Write $c : Set \to sSet$ for the inclusion of sets as [[discrete objects]] into [[simplicial sets]]. Write 
+
+$$
+   [\Delta^{op}, c] : sSet \to [\Delta^{op}, sSet]
+$$ 
+
+for the corresponding inclusion of simplicial sets into bisimplicial sets.
+
+When we think in the following of a simplicial set in the context of $[\Delta^{op}, sSet]$, we always do so via this inclusion (and not via the _other_ natural such inclusion!).
+
+
++-- {: .num_prop}
+###### Definition
+
+The _model structure for complete Segal spaces_ is the [[Bousfield localization of model categories|left Bousfield localization]] of $[\Delta^{op}, sSet]_{Reedy}$ at the set of morphisms
+
+$$
+  W 
+  :=
+  \{
+     Sp[n] \hookrightarrow \Delta[n]
+  \}_{n \in \mathbb{N}}
+  \cup
+  \{
+    N(\{a \stackrel{\simeq}{\to} b\}) \to *
+  \}
+  \,,
+$$
+
+where the first summand is the set of [[spine]] inclusions, while the second summand is the singleton containing the morphism from the [[nerve]] of the [[groupoid]] with two objects and precisely one non-identity morphism (and its inverse) from one to the other.
+
+=--
+
+
+This appears originally in section 12 of ([Rezk](#Rezk)).
+
++-- {: .num_remark}
+###### Remark
+
+Equivalently one can replace here the [[spine]] inclusions with the 
+[[inner Kan fibration|inner]] [[horn]] inclusions.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+An object $X \in [\Delta^{op}, sSet]$ being a [[local object]] with respect to the $n$th [[spine]] inclusion says that the morphism
+
+$$
+  X_n \to X_1 \times_{X_0} \cdots \times_{X_0} X_1
+$$
+
+(with $n$ factors on the right) is a [[weak homotopy equivalence]] of simplicial sets. Therefore the objects which are local with respect to all spine inclusions are precisely the [[Segal spaces]].
+
+Accordingly, an object is furthermore local also with respect to $J \to *$ if it is a [[complete Segal space]].
+
+=--
+The model category structure thus obtained is characterized as follows.
 
 +-- {: .num_prop}
 ###### Proposition
-**(Rezk model structure for complete Segal spaces)**
 
-The category $[\Delta^{op}\times \Delta^{op}, Set]$ of [[bisimplicial set]]s carries the structure of an [[sSet]]-[[enriched category]] with [[hom-object]] for two bisimplicial sets $X$ and $Y$ given by
+The category $[\Delta^{op}, sSet] = [\Delta^{op}\times \Delta^{op}, Set]$ of [[bisimplicial sets]] carries the structure of an [[sSet]]-[[enriched category]] with [[hom-object]] for two bisimplicial sets $X$ and $Y$ given by
 
 $$
   hom(X,Y) := i_2^*(Y^X)
@@ -48,59 +118,24 @@ This refines to the structure of a
 
 * [[left proper model category|left proper]]
 
-* [[cartesian closed category|cartesian]] [[monoidal model category|closed]]
+* [[cartesian monoidal category|cartesian]] [[closed monoidal category|closed]] [[monoidal model category|monoidal]]
 
 * [[simplicial model category]] 
 
 by setting
 
-* cofibrations are the [[monomorphism]]s
+* cofibrations are the [[monomorphisms]]
 
 * weak equivalences are the **Rezk weak equivalences**:. those morphisms $u : A \to B$ such that for all [[complete Segal space]]s $X$ the morphism $hom(u,X) : hom(B,X) \to hom(A,X)$ is a weak equivalence in the standard [[model structure on simplicial sets]].
 
-The fibrant objects in the structure are precisely the [[complete Segal space]]s.
+The fibrant objects in the structure are precisely the [[complete Segal spaces]].
 
 =--
 
-+-- {: .proof}
-###### Proof
+This is essentially ([Rezk, theorem 7.2](#Rezk)).
+See also ([Joyal-Tierney, theorem 4.1](#JoyalTierney)). 
 
-This appears as [JT, theorem 4.1](http://arxiv.org/PS_cache/math/pdf/0607/0607820v2.pdf#page=21). 
 
-=--
-
-For handling this it can be useful to realize it as a [[Bousfield localization of model categories|left Bousfield localization]] of the following model structure
-
-+-- {: .num_prop}
-###### Proposition
-**(vertical model structure on bisimplicial sets)**
-
-The category $[\Delta^{op}\times \Delta^{op}, Set]$ of [[bisimplicial set]] carries the structure of a 
-
-* [[proper model category|proper]]
-
-* [[cartesian closed category|cartesian]] [[monoidal model category|closed]]
-
-* [[simplicial model category]] 
-
-by setting
-
-* cofibrations are the [[monomorphism]]s
-
-* weak equivalences $X_{\bullet,\bullet} \to Y_{\bullet,\bullet}$
-  are the column-wise weak equivalences 
-  $X_{n,\bullet} \to Y_{n,\bullet}$ in the standard 
-  [[model structure on simplicial sets]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is due to Reedy.
-It appears as [JT, theorem 2.6](http://arxiv.org/PS_cache/math/pdf/0607/0607820v2.pdf#page=11). 
-
-=--
 
 
 ## Properties
@@ -135,7 +170,7 @@ $$
   (t_! \dashv t^!)
   :
   [\Delta^{op} \times \Delta^{op}, Set]
-  \stackrel{\overset{t^!}{\leftarrow}}{\under{t_!}{\to}}
+  \stackrel{\overset{t^!}{\leftarrow}}{\underset{t_!}{\to}}
   [\Delta^{op}, Set]
 $$
 
@@ -178,12 +213,9 @@ is the identity adjunction: both functors are [[isomorphic]] to the identity fun
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This appears at the end of the proof of [JT, theorem 4.12](http://arxiv.org/PS_cache/math/pdf/0607/0607820v2.pdf#page=26). 
+This appears at the end of the proof of ([Joyal-Tierney, theorem 4.12](#JoyalTierney)). 
 
-=--
 
 
 +-- {: .num_prop}
@@ -193,12 +225,9 @@ Both these adjunctions are [[Quillen equivalences]] between the [[model structur
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This appears [JT, theorem 4.11, 4.12](http://arxiv.org/PS_cache/math/pdf/0607/0607820v2.pdf#page=25). 
+This appears ([Joyal-Tierney, theorem 4.11, 4.12](#JoyalTierney)). 
 
-=--
 
 #### Model structure for dendroidal complete Segal spaces
 
@@ -232,11 +261,19 @@ By restriction along this inclusion, the
 Complete Segal spaces were originally defined in 
 
 * [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-ho-models-final-changes.pdf))
+ {#Rezk}
 
 The [[Quillen equivalence]] with the [[model structure for quasi-categories]] is discussed in 
 
-* [[Andre Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
+* [[André Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
+ {#JoyalTierney}
 
 A survey of the model structures and their relations is in 
 
 * [[Julia Bergner]], _A survey of $(\infty, 1)$-categories_ ([arXiv](http://arxiv.org/abs/math.AT/0610239)).
+ {#Bergner}
+
+The generalization to _complete Segal objects_ in model categories other than $sSet$ was considered in 
+
+* [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie calculus_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ {#Lurie}
