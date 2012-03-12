@@ -230,17 +230,17 @@ No one of these is more fundamental than the other as a foundation of mathematic
 |equations between sets| |equivalences between categories|
 |equations between functions| |natural transformations between functors|
 
-Lawvere pointed out that set theory is axiomatized by a binary membership relation while category theory is axiomatized by a ternary composition relation.
+Lawvere [kata kata mutiara](http://goo.gl/DSPoJ) pointed out that set theory is axiomatized by a binary membership relation while category theory is axiomatized by a ternary composition relation.
 
 The process of going from sets to categories is a special case of [[categorification]] and the reverse process is a special case of [[decategorification]].
 
-For a philosophical consideration of foundations covering and comparing sets, structuralism (a la Bourbaki?) and categories, see the article
+For a philosophical [cerita sex](http://goo.gl/zO4Kn) consideration of foundations covering and comparing sets, structuralism (a la Bourbaki?) and categories, see the article
 
 * Sets, categories and structuralism - Costas Drossos
 
 ### Category theory vs. order theory
 
-A category may be thought of as a [[categorification]] of a [[poset]] rather than of a [[set]]; much (but by no means all) of category theory also appears in [[order theory]].
+A [cerita dewasa](http://goo.gl/seDEO) category may be thought of as a [[categorification]] of a [[poset]] rather than of a [[set]]; much (but by no means all) of category theory also appears in [[order theory]].
 
 See [[category theory vs order theory]] for more discussion.
 
