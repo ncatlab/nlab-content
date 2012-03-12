@@ -87,23 +87,29 @@ Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid]
 * [[nilradical]]
 
 
-
-
 [[!redirects ring]]
 [[!redirects rings]]
 
 [[!redirects unital ring]]
 [[!redirects unital rings]]
+[[!redirects ring with unit]]
+[[!redirects rings with unit]]
+[[!redirects rings with units]]
 [[!redirects ring with identity]]
 [[!redirects rings with identity]]
+[[!redirects rings with identities]]
+
 [[!redirects associative ring]]
 [[!redirects associative rings]]
+
 [[!redirects associative unital ring]]
 [[!redirects associative unital rings]]
+
 [[!redirects noncommutative ring]]
 [[!redirects noncommutative rings]]
 
 [[!redirects commutative ring]]
 [[!redirects commutative rings]]
+
 [[!redirects commutative unital ring]]
 [[!redirects commutative unital rings]]
