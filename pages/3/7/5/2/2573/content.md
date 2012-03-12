@@ -19,6 +19,15 @@ So much for the hypothesis of the axiom; the conclusion asserts the existence of
 
 ...
 
+## References
+
+Section III.8 in 
+
+* George Tourlakis, _Lectures in Logic and Set Theory, Volume 2: Set Theory_, Cambridge University Press (2003)
+
+
+* [[André Joyal]], [[Ieke Moerdijk]], _A categorical theory of cumulative hierarchies of sets_, Comptes Rendus
+Math. Acad. Sci. 13 (1991) 55-58.
 
 [[!redirects axiom of replacement]]
 [[!redirects axioms of replacement]]
