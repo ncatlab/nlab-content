@@ -505,6 +505,11 @@ It should be noted, though, that pointwise Kan extensions can still exist, and h
 Non-pointwise Kan extensions seem to be very rare in practice.  However, the abstract notion of Kan extension (sometimes called simply "extension") in a 2-category, and its dual notion of lifting, can be useful in [[2-category theory]].  For instance, [[bicategories]] such as [[Prof]] admit all right extensions and right liftings; a bicategory with this property may be considered a [[horizontal categorification]] of a [[closed monoidal category]].
 
 
+### Absolute Kan extensions
+  {#AbsoluteKanExtension}
+
+To be discussed... For the moment see _[[absolute colimit]]_.
+
 ### in $(\infty,1)$-categories 
 
 The global definition of Kan extensions for
