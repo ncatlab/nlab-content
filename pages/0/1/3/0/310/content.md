@@ -118,7 +118,7 @@ The proof can be made purely equational, and is therefore internally valid in an
 
 Now let $L_{\neg\neg}$ denote the poset of _regular_ elements of $L$, that is, those elements $x$ such that $\neg\neg x = x$. (When $L$ is the topology of a space, an open set $U$ is regular if and only if it is the interior of its closure.) With the help of the lemma above, we may prove
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The poset $L_{\neg\neg}$ is a Boolean algebra. Moreover, the assignment $L \mapsto L_{\neg\neg}$ is the object part of a functor 
@@ -129,6 +129,16 @@ The unit of the [[adjoint functor|adjunction]], applied to a Heyting algebra $L$
 =--
 
 Thus $\neg\neg\colon L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i\colon L_{\neg\neg} \to L$, and this preserves meets but not joins, and negations but not implications generally. 
+
+Regular elements are not to be confused with _complemented elements_, i.e., elements $x$ in a Heyting algebra such that $x \vee \neg x = 1$, although it is true that every complemented element is regular. An example of a regular element which is not complemented is given by the unit interval $(0, 1)$ as an element of the topology of $\mathbb{R}$; a complemented element in a Heyting algebra given by a topology is the same as a [[clopen subset]]. 
+
+Complemented elements furnish another universal relation between Boolean algebras and Heyting algebras: the set of complemented elements in a Heyting algebra $H$ is a Boolean algebra $Comp(H)$. The inclusion $Comp(H) \to H$ is a Heyting algebra map which is universal among Heyting algebra maps $B \to H$ out of Boolean algebras $B$: 
+
++-- {: .num_theorem}
+###### Theorem 
+The assignment $H \mapsto Comp(H)$ is the object part of a right adjoint to the forgetful functor $Bool \to Heyt$. 
+=-- 
+
 
 #### Proofs 
 
