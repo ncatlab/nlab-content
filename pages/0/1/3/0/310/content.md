@@ -64,28 +64,24 @@ A Heyting algebra [[homomorphism]] is a homomorphism of the underlying [[lattice
 
 In [[logic]], Heyting algebras are precisely algebraic models for [[intuitionistic logic|intuitionistic]] [[propositional calculus]], just as [[Boolean algebra|Boolean algebras]] model [[classical logic|classical]] propositional calculus. As one might guess from this description, the "law of the [[excluded middle]]" does not generally hold in a Heyting algebra; see the discussion below.
 
-In a [[Heyting category]], every [[subobject poset]] $Sub(A)$ is a Heyting algebra.  In particular, this holds for every [[topos]].  Furthermore, in a topos, the [[power object]] $\mathcal{P}(A)$ is an internal Heyting algebra that corresponds to the external Heyting algebra $Sub(A)$.  In a [[boolean topos]], the internal Heyting algebras are all internal [[boolean algebras]].  In general, however, the [[internal logic]] of a topos (or other Heyting category) is intuitionistic.
+In a [[Heyting category]], every [[subobject poset]] $Sub(A)$ is a Heyting algebra.  In particular, this holds for every [[topos]].  Furthermore, in a topos, the [[power object]] $\mathcal{P}(A)$ is an [[internalisation|internal]] Heyting algebra that corresponds to the external Heyting algebra $Sub(A)$.  In a [[boolean topos]], the internal Heyting algebras are all internal [[boolean algebras]].  In general, however, the [[internal logic]] of a topos (or other Heyting category) is intuitionistic.
 
 
 ### To topology
 
-One of the chief sources of Heyting algebras is given by [[topology|topologies]]. As a poset, the topology of a topological space $X$ is a lattice (it has arbitrary, in particular finite joins and finite meets), and the implication operator is given by 
-
+One of the chief sources of Heyting algebras is given by [[topology|topologies]]. As a poset, the topology of a topological space $X$ is a [[complete lattice]] (it has arbitrary [[joins]] and [[meets]], although the infinitary meets are not in general given by [[intersection]]), and the implication operator is given by 
 $$(U \Rightarrow V) = int(U^c \vee V)$$ 
-
-where $U, V$ are open sets, $U^c$ is the set-theoretic complement of $U$, and $int(S)$ denotes the interior of a subset $S \subseteq X$. 
+where $U, V$ are open sets, $U^c$ is the set-theoretic complement of $U$, and $int(S)$ denotes the interior of a subset $S \subseteq X$.
 
 Somewhat more generally, a [[frame]] (a [[sup-lattice]] in which finite meets distribute over arbitrary sups) also carries a Heyting algebra structure. In a frame, we may define 
-
 $$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x$$ 
-
 and the distributivity property guarantees that the universal property for implication holds. (The detailed proof is a "baby" application of an [[adjoint functor theorem]].) 
 
 Thus frames are extensionally the same thing as _[[complete lattice|complete]] Heyting algebras_. However, _intensionally_ they are quite different; that is, a morphism of frames is not usually a morphism of complete Heyting algebras: they do not preserve the implication operator. 
 
 A [[locale]] is the same thing as a frame, but again the morphisms are different; they are reversed.
 
-Topologies that are Boolean algebras are the exception rather than the rule; basic examples include topologies of [[Stone duality|Stone spaces]]. Another example is the topology of a [[discrete space]] $X$.
+Topologies that are Boolean algebras are the exception rather than the rule; basic examples include topologies of [[Stone spaces]]; see [[Stone duality]]. Another example is the topology of a [[discrete space]] $X$.
 
 
 ### To Boolean algebras 
@@ -95,15 +91,11 @@ In any Heyting algebra $L$, we may define a [[negation]] operator
 $$\neg\colon L^{op} \to L$$ 
 
 by $\neg x = (x \Rightarrow 0)$, where $0$ is the bottom element of the lattice. A Heyting algebra is Boolean if the [[double negation]] 
-
-$$\neg \neg: L \to L$$ 
-
+$$\neg \neg\colon L \to L$$ 
 coincides with the identity map; this gives one of many ways of defining a Boolean algebra. 
 
 In any Heyting algebra $L$, we have for all $a, b \in L$ the inequality 
-
-$$(\neg a \vee b) \leq (a \Rightarrow b)$$ 
-
+$$ (\neg a \vee b) \leq (a \Rightarrow b) ,$$ 
 and another characterization of Boolean algebra is a Heyting algebra in which this is an equality for all $a, b$. 
 
 There are several ways of passing back and forth between Boolean algebras and Heyting algebras, having to do with the [[double negation]] operator. A useful lemma in this regard is 
@@ -111,26 +103,26 @@ There are several ways of passing back and forth between Boolean algebras and He
 +-- {: .un_lemma}
 ###### Lemma
 
-The double negation $\neg \neg: L \to L$ is a [[monad]] that preserves finite meets. 
+The double negation $\neg \neg\colon L \to L$ is a [[monad]] that preserves finite meets. 
 =--
 
-The proof can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg: \Omega \to \Omega$ defines a [[Lawvere–Tierney topology]]. Similarly, we get the [[double negation sublocale]] of any [[locale]].
+The proof can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg\colon \Omega \to \Omega$ defines a [[Lawvere–Tierney topology]]. Similarly, we get the [[double negation sublocale]] of any [[locale]].
 
-Now let $L_{\neg\neg}$ denote the poset of _regular_ elements of $L$, that is, those elements $x$ such that $\neg\neg x = x$. (When $L$ is the topology of a space, an open set $U$ is regular if and only if it is the interior of its closure.) With the help of the lemma above, we may prove
+Now let $L_{\neg\neg}$ denote the poset of _[[regular element]]s_ of $L$, that is, those elements $x$ such that $\neg\neg x = x$. (When $L$ is the topology of a space, an open set $U$ is [[regular open subspace|regular]] if and only if it is the interior of its closure, that is if it is a regular element of the Heyting algebra of open sets described above.) With the help of the lemma above, we may prove
 
 +-- {: .num_theorem}
 ###### Theorem
 
 The poset $L_{\neg\neg}$ is a Boolean algebra. Moreover, the assignment $L \mapsto L_{\neg\neg}$ is the object part of a functor 
-$$F: Heyt \to Bool$$
+$$F\colon Heyt \to Bool$$
 called _Booleanization_, which is left adjoint to the full and faithful inclusion 
-$$i: Bool \hookrightarrow Heyt.$$
+$$i\colon Bool \hookrightarrow Heyt.$$
 The unit of the [[adjoint functor|adjunction]], applied to a Heyting algebra $L$, is the map $L \to L_{\neg\neg}$ which maps each element $x$ to its _[[regular element|regularization]]_ $\neg\neg x$.
 =--
 
-Thus $\neg\neg\colon L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i\colon L_{\neg\neg} \to L$, and this preserves meets but not joins, and negations. Perhaps somewhat surprisingly, it also preserves implication. 
+Thus $\neg\neg\colon L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i\colon L_{\neg\neg} \to L$, and this preserves meets but not joins. Perhaps somewhat surprisingly, it also preserves implications (including negations). 
 
-Regular elements are not to be confused with _complemented elements_, i.e., elements $x$ in a Heyting algebra such that $x \vee \neg x = 1$, although it is true that every complemented element is regular. An example of a regular element which is not complemented is given by the unit interval $(0, 1)$ as an element of the topology of $\mathbb{R}$; a complemented element in a Heyting algebra given by a topology is the same as a [[clopen subset]]. 
+Regular elements are not to be confused with _[[complemented element]]s_, i.e., elements $x$ in a Heyting algebra such that $x \vee \neg x = 1$, although it is true that every complemented element is regular. An example of a regular element which is not complemented is given by the unit interval $(0, 1)$ as an element of the topology of $\mathbb{R}$; a complemented element in a Heyting algebra given by a topology is the same as a [[clopen subset]]. 
 
 Complemented elements furnish another universal relation between Boolean algebras and Heyting algebras: the set of complemented elements in a Heyting algebra $H$ is a Boolean algebra $Comp(H)$. The inclusion $Comp(H) \to H$ is a Heyting algebra map which is universal among Heyting algebra maps $B \to H$ out of Boolean algebras $B$: 
 
@@ -217,9 +209,12 @@ $$(\neg \neg a) \wedge (\neg b) \wedge (a \Rightarrow b) \leq (\neg \neg a) \wed
 whence $(\neg \neg a) \wedge (\neg b) \leq \neg (a \Rightarrow b)$, which completes the proof. 
 =-- 
 
-* **Remark:** It follows from this lemma that double negation on a Heyting algebra $\neg \neg \colon L \to L$ preserves implication, since 
++-- {: un_remark}
+###### Remark
+It follows from this lemma that double negation on a Heyting algebra $\neg \neg \colon L \to L$ preserves implication, since 
 $$\neg \neg(a \Rightarrow b) = \neg ((\neg \neg a) \wedge (\neg b)) = 0^{(\neg \neg a) \wedge (\neg b)} = (\neg \neg b)^{(\neg \neg a)} = (\neg \neg a) \Rightarrow (\neg \neg b).$$ 
 This is important for the [[double negation translation]]. 
+=--
 
 +-- {: .proof} 
 ###### Proof of theorem 2
@@ -241,11 +236,11 @@ $$y^x \wedge x \wedge \neg y \leq y \wedge \neg y = 0.$$
 
 Thus the complemented elements form a Heyting subalgebra $Comp(H) \hookrightarrow H$. Clearly $Comp(H)$ is a Boolean algebra, and clearly if $B$ is Boolean, then any Heyting algebra map $B \to H$ factors uniquely through $Comp(H) \hookrightarrow H$. This proves the theorem. 
 =-- 
- 
+
+
 ### To toposes
 
-
-An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra: the notion of Heyting algebra is essentially equivalent to that of [[(0,1)-topos]].  Note that a [[Grothendieck topos|Grothendieck]] $(0,1)$-topos is a [[locale]].
+An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra: the notion of Heyting algebra is essentially equivalent to that of [[(0,1)-topos]].  Note that a [[Grothendieck topos|Grothendieck]] $(0,1)$-topos is a [[frame]] or [[locale]].
 
 
 ## Examples
