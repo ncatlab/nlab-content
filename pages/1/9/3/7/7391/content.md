@@ -28,7 +28,7 @@ The _model structure for dendroidal complete Segal spaces_ is an [[operad|operad
 
 ## Definition
 
-Write $\Omega$ for the [[tree category]], the site for [[dendroidal sets]]
+Write $\Omega$ for the [[tree category]], the [[site]] for [[dendroidal sets]]
 
 $$
   dSet := [\Omega^{op}, Set]
@@ -38,36 +38,22 @@ $$
 Write $\otimes$ for the [[Boardman-Vogt tensor product]] on [[dendroidal sets]] (see there for details).
 
 
-### Segal core
-
-+-- {: .num_defn #SegalCore}
-###### Definition
-
-For $T \in \Omega$, write $Sc[T] \hookrightarrow \Omega[T]$ for the [[subobject]] of [[dendroidal sets]] consisting of all the subtree corolla inclusions.
-
-Call this the **Segal core** of $T$.
-
-=--
-
-See ([Cisinski-Moerdijk, section 2](#CisinskiMoerdijk)).
-
-### The model structure
-
-
 +-- {: .num_defn}
 ###### Definition
 
-Let $dsSet_{gReedy} := [\Omega^{op}, sSet]$ be the category of [[dendroidal set|dendroidal]] [[simplicial sets]], equipped with the [[generalized Reedy model structure]] induced from the [[generalized Reedy category]] $\Omega$.
+Let $dsSet_{genReedy} := [\Omega^{op}, sSet]$ be the category of [[dendroidal set|dendroidal]] [[simplicial sets]], equipped with the [[generalized Reedy model structure]] induced from the [[generalized Reedy category]] $\Omega$.
 
 Write 
 
 $$
   dsSet_{Segal}
   \stackrel{\leftarrow}{\to}
-  dsSet_{Reedy}
+  dsSet_{genReedy}
 $$ 
 
-for the [[Bousfield localization of model categories|left Bousfield localization]] at the set of Segal core inclusions $\{Sc[R] \to \Omega[T]\}_{T \in \Omega}$, def. \ref{SegalCore}, to be called the **model structure for dendroidal Segal spaces**. A fibrant object in this category is called a **dendroidal Segal space**.
+for the [[Bousfield localization of model categories|left Bousfield localization]] at the set of [[dendroidal spine]] ("Segal core") inclusions $\{Sp[T] \to \Omega[T]\}_{T \in \Omega}$, to be called the **model structure for dendroidal Segal spaces**. 
+
+A fibrant object in this category is called a **dendroidal Segal space**.
 
 Write 
 
@@ -86,23 +72,168 @@ $$
   \,.
 $$
 
-Call this the **model structure for complete dendroidal Segal spaces**. A fibrant object in here is called a **complete dendroidal Segal space**.
+Call this the **model structure for complete dendroidal Segal spaces**. 
+
+A fibrant object in here is called a **complete dendroidal Segal space**.
 
 =--
 
-This is [Cisinski-Moerdijk, def. 5.4, def. 6.2](#CisinskiMoerdijk).
+This is ([Cisinski-Moerdijk, def. 5.4, def. 6.2](#CisinskiMoerdijk)).
+
++-- {: .num_prop #SpineAndHornLocalization}
+###### Proposition
+
+The localization at the [[dendroidal spine]] inclusions is equivalently the [[Bousfield localization of model categories|left Bousfield localization]] at the set of dendroidal inner horn inclusions.
+
+=--
+
+By the propositions discussed at _[[spine]]_.
+
+This is [Cisinski-Moerdijk, prop. 5.5, def. 6.2](#CisinskiMoerdijk).
+
++-- {: .num_defn #Corollas}
+###### Definition
+
+Write $\eta \in \Omega $ for the tree with a single edge and no vertex. For $n \in \mathbb{N}$ write $C_n \in \Omega$ for the $n$-corolla, the tree with a single vertex and $n$ leaves (and the root).
+
+=--
+
+
++-- {: .num_defn #HomSpaces}
+###### Definition
+
+For $X$ a dendroidal Segal space, and for $(x_1, \cdots, x_n; x) \in (X(\eta)_0)^{n+1}$, write $X(x_1, \cdots, x_n; x) \in sSet$ for the [[pullback]] 
+
+$$
+  \array{
+    X(x_1, \cdots, x_n; x) &\to& X(C_n)
+    \\
+    \downarrow && \downarrow
+    \\
+    *  &\stackrel{(x_1, \cdots, x_n; x)}{\to}& (X(\eta))^{n+1}
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #HomotopyPropertyOfHomSpaces}
+###### Remark
+
+These simplicial sets $X(x_1, \cdots, x_n; x)$
+are [[Kan complexes]] and in fact are [[generalized the|the]] [[homotopy fibers]] of the right vertical morphism.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The inclusion $\eta^{n+1} \to \Omega(C_n)$ is a cofibration in $[\Omega^{op}, sSet]_{Segal}$. So in this [[simplicial model category]] the right vertical morphism in def. \ref{HomSpaces} are [[Kan fibrations]]. These are stable under ordinary pullback, and their ordinary pullback is a [[homotopy pullback]] (as discussed there).
+
+=--
+
++-- {: .num_defn #FullyFaithfulMorphism}
+###### Definition
+
+A morphism $f : X \to Y$ between dendroidal Segal spaces  is **[[full and faithful functor|fully faithful]]** if for all
+$(x_1, \cdots, x_n; x) \in X(\eta)^{n+1}$, for all $n \in \mathbb{N}$ the corresponding morphism
+
+$$
+  X(x_1, \cdots, x_n; x) \to Y(f(x_1), \cdots, f(x_n); f(x))
+$$
+
+is a [[homotopy equivalence]].
+
+=--
+
+
+## Properties
+
+### General 
+
++-- {: .num_prop #CompleteSegalBySpineLiftingAndHornLifting}
+###### Proposition
+
+The following conditions are equivalent
+
+* $X \in dsSet$ is a complete dendroidal Segal space;
+
+* for every [[spine]] inclusion $Sp[T] \hookrightarrow \Omega[T]$, the induced morphism  $X^{\Omega[T]} \to X^{Sp[T]}$ is an acyclic Kan fibration;
+
+* for every inner [[horn]] inclusion $\Lambda^e[T] \hookrightarrow \Omega[T]$, the induced morphism $X^{\Omega[T]} \to X^{\Lambda^e[T]}$ is an acyclic Kan fibration.
+
+=--
+
+This appears as ([Cisinski-Moerdijk, cor. 5.6](#CisinskiMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+This is a direct consequence of the nature of [[Bousfield localization of model categories|left Bousfield localization]] and prop. \ref{SpineAndHornLocalization}: according to this both the spin and the horn inclusion are acyclic cofibrations. Moreover $X$ is fibrant. Finally $dsSet_{cSegal}$ is a [[simplicial model category]], which implies the claim by the dual of the [[pushout-product axiom]]. 
+
+=--
+
++-- {: .num_prop #WEDetectedOnCorollas}
+###### Proposition
+
+A morphism $f : X \to Y$ between dendroidal Segal spaces is a weak equivalence in $[\Omega^{op}, sSet]_{Segal}$, and hence in $[\Omega^{op}, sSet]_{cSegal}$ precisely if its components on the trees $\eta$ and $C_n$ for all $n$, def. \ref{Corollas}, are [[weak homotopy equivalences]] of simplicial sets.
+
+=--
+
+This appears as ([Cisinski-Moerdijk, prop. 5.7](#CisinskiMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+By general properties of [[Bousfield localization of model categories|left Bousfield localization]], a morphism between [[local objects]] is a weak equivalence precisely if it is so already in the unlocalized model structure $[\Omega^{op}, sSet]_{genReedy}$. There the weak equivalences are the morphisms that are so over _every_ tree. But by prop. \ref{CompleteSegalBySpineLiftingAndHornLifting} these are already implied by weak equivalences over the [[spines]]. These are, finally, [[colimits]] which happen to be [[homotopy colimits]] of $\eta$ and of corollas, and hence it suffices to have weak equivalences over these components in order to have them over all components.
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
 
-The first localization at the Segal core inclusions is equivalently the [[Bousfield localization of model categories|left Bousfield localization]] at the set of dendroidal inner horn inclusions.
+A morphism $f : X \to Y$ of dendroidal Segal spaces is a weak equivalence in $[\Omega^{op}, sSet]_{Segal}$ precisely if it is
+
+1. fully faithful, def. \ref{FullyFaithfulMorphism};
+
+1. [[essentially surjective functor|essentially surjective]] in that $f(\eta) : X(\eta) \to Y(\eta)$ is a weak equivalence of simplicial sets.
 
 =--
 
-This is [Cisinski-Moerdijk, prop. 5.5, def. 6.2](#CisinskiMoerdijk).
+(See also _[[equivalence of categories]]_.)
 
-## Properties
+This appears as ([Cisinski-Moerdijk, cor. 5.10](#CisinskiMoerdijk)).
 
++-- {: .proof}
+###### Proof
+
+Being essentially surjective is equivalent to $f(\eta)$ being an equivalence. By prop. \ref{WEDetectedOnCorollas} it only remains to check that in this situation $f$ being fully faithful is equivalent to $f(C_n)$ being an equivalence, for all $n$.
+
+By remark \ref{HomotopyPropertyOfHomSpaces}, of $f(C_n) : X(C_n) \to Y(C_n)$ is a weak equivalence for all $n$ then $f$ is fully faithful, since weak equivalence are preserved by [[homotopy pullback]]. 
+
+For the converse, 
+consider for each $n$ the inclusion of _all_ input and output colors
+
+$$
+  \coprod_{(x_1, \cdots, x_n; x)}
+  * 
+  \to
+  X(\eta)^{n+1}
+$$
+
+and similarly for $Y$. Since this evidently hits all connected components of $X(\eta)^{n+1}$, it is an [[effective epimorphism in an (∞,1)-category]] in [[∞Grpd]]. These are stable under [[homotopy pullback]], and so also 
+
+$$
+  \coprod_{(x_1, \cdots, x_n; x)}
+  X(x_1, \cdots, x_n; x)
+  \to
+  X(C_n)
+$$
+
+is an effective epimorphism, and similarly for $Y$. If now $f$ is fully faithful, then by the definition of [[effective epimorphism in an (∞,1)-category]], this exhibits $f(C_n)$ as the [[homotopy colimit]] of a diagram of equivalences. Hence $f(C_n)$ is itself a weak equivalence.
+
+
+=--
 
 ### Relation to other model structures
 
