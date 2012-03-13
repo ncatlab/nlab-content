@@ -15,14 +15,14 @@
 
 ## Idea
 
-Generalized Reedy model structures are a class of [[model categories]] that generalize the [[Reedy model structures]] when the underlying site is generalized from a [[Reedy category]] to a [[generalized Reedy category]].
+Generalized Reedy model structures are a class of [[model categories]] that generalize the [[Reedy model structures]] when the underlying [[site]] is generalized from a [[Reedy category]] to a [[generalized Reedy category]].
 
 So these model structures serve to present [[(∞,1)-categories of (∞,1)-functors]] on generalized Reedy categories.
 
 ## Definition
 
 Let $S$ be a (Cisinski-Moerdijk) [[generalized Reedy category]].
-Let $\mathcal{C}$ be a category with limits and colimits.
+Let $\mathcal{C}$ be a category with small [[limits]] and [[colimits]].
 
 +-- {: .num_defn}
 ###### Definition
@@ -48,7 +48,7 @@ For every [[object]] $s \in S$, every [[functor]] $X : S \to \mathcal{C}$ and ev
 
 In the above situation, the [[automorphism]] group $Aut_S(s)$ of $s$ canonically acts on all objects that appear, and all morphisms that appear respect this action.
 
-Equivalently this means that for all $s$ the above objects and morphism take place in the presheaf category $[B Aut(s), \mathcal{E}]$.
+Equivalently this means that for all $s$ the above objects and morphisms take place in the presheaf category $[B Aut(s), \mathcal{E}]$.
 
 =--
 
