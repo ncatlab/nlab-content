@@ -1,31 +1,29 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 If $C$ is a [[finitely complete category]] (a category with all finite limits), then it is interesting to consider a left [[exact functor]] on $C$ (a functor that preserves all [[finite limit]]s).  Even if $C$ lacks some finite limits, then this concept still makes sense, but it may not be the correct one.  Instead we use the stronger concept of a _flat functor_, which may be thought of as a functor that preserves all finite limits ---even the ones that don\'t exist yet!
 
 
-
 ## Definitions
 
-It turns out that the most appropriate generality in which to speak of a flat functor $C\to D$ is when $D$ is a [[site]].  We build up to this definition in stages through several more classical notions, remarking at each stage on some basic properties and equivalences.  Proofs will be given in the following section.
+It turns out that the most appropriate generality in which to speak of a flat functor $C \to D$ is when $D$ is a [[site]].  We build up to this definition in stages through several more classical notions, remarking at each stage on some basic properties and equivalences.  Proofs will be given in the following section.
 
-### Set-valued functors
+
+### $Set$-valued functors
 
 The most classical notion is the following.
 
@@ -34,11 +32,11 @@ The most classical notion is the following.
 A functor $C\to Set$ is **flat** if the opposite of its its [[category of elements]], $el(C)^{op}$, is a [[filtered category]].
 =--
 
-For disambiguation with the later notions, we may refer to such a functor as being **Set-valued flat**.
+For disambiguation with the later notions, we may refer to such a functor as being **$Set$-valued flat**.
 
 +-- {: .un_prop}
 ###### Proposition
-When $C$ is [[small category|small]], a functor $F\colon C\to Set$ is Set-valued flat if and only if its [[Yoneda extension]] $[C^{op},Set] \to Set$ preserves finite limits.
+When $C$ is [[small category|small]], a functor $F\colon C\to Set$ is $Set$-valued flat if and only if its [[Yoneda extension]] $[C^{op},Set] \to Set$ preserves finite limits.
 =--
 
 This partially explains the terminology "flat", since the Yoneda extension is a sort of [[tensor product of functors|tensoring with]] $F$, and a [[flat module]] is one such that tensoring with it preserves finite limits.
@@ -53,7 +51,7 @@ If $F\colon C\to Set$ is flat, then it preserves all finite limits that exist in
 
 +-- {: .num_defn #RepresentablyFlat}
 ###### Definition
-A functor $F: C \rightarrow E$ is **flat** if for each [[object]] $e \in E$, the [[opposite category|opposite]] [[comma category]] $(e / F)^{op}$ is a [[filtered category]].
+A functor $F\colon C \rightarrow E$ is **flat** if for each [[object]] $e \in E$, the [[opposite category|opposite]] [[comma category]] $(e / F)^{op}$ is a [[filtered category]].
 =--
 
 Since $(e/F)$ is equivalent to the category of elements of the composite $C \xrightarrow{F} E \xrightarrow{E(e,-)} Set$, this is equivalent to saying  that $E(e,F-)\colon C\to Set$ is Set-valued flat for every $e\in E$.  Hence, this notion of flatness may be called **representably flat**.
@@ -82,7 +80,7 @@ However, if $C$ lacks finite limits, then representable flatness of $C\to Set$ c
 
 +-- {: .num_defn #InternallyFlat}
 ###### Definition
-Let $E$ be a [[cocomplete category|cocomplete]] [[topos]].  A functor $F\colon C\to E$ is **flat** if the statement "$F$ is Set-valued flat" is true in the [[internal logic]] of $E$.
+Let $E$ be a [[cocomplete category|cocomplete]] [[topos]].  A functor $F\colon C\to E$ is **flat** if the statement "$F$ is $Set$-valued flat" is true in the [[internal logic]] of $E$.
 
 Explicitly, this means that for any finite diagram $D\colon I\to C$, the family of factorizations through $\lim (F\circ D)$ of the $F$-images of all [[cones]] over $D$ in $C$ is [[epimorphism|epimorphic]] in $E$.
 =--
@@ -103,6 +101,7 @@ When $C$ is [[small category|small]], a functor $F\colon C\to E$ is internally f
 ###### Corollary
 If $F\colon C\to E$ is internally flat, then it preserves all finite limits that exist in $C$.  Conversely, if $C$ has finite limits and $F$ preserves them, then it is internally flat.
 =--
+
 
 ### Site-valued functors
 
@@ -194,9 +193,11 @@ $FlatFunc(A^{op},Set)$ has [[finite limits]] precisely if for every finite [[dia
 
 This is due to ([KarazerisVelebil](#KarazerisVelebil)).
 
+
 ## Examples
 
-* [[morphisms of sites]] are flat functors which additionally preserve covering families.
+* [[morphisms of site|Morphisms of sites]] are flat functors which additionally preserve covering families.
+
 
 ## References
 
@@ -223,12 +224,14 @@ Limits in the category of flat functors are discussed in
  {#KarazerisVelebil}
 
 
+[[!redirects flat functor]]
+[[!redirects flat functors]]
+
+[[!redirects representably flat functor]]
+[[!redirects representably flat functors]]
 
 [[!redirects internally flat functor]]
-[[!redirects representably flat functor]]
-[[!redirects covering-flat functor]]
-
-[[!redirects flat functors]]
 [[!redirects internally flat functors]]
-[[!redirects representably flat functors]]
+
+[[!redirects covering-flat functor]]
 [[!redirects covering-flat functors]]
