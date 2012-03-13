@@ -107,6 +107,8 @@ We (have to) distinguish the following cases:
 
    These define the _value_ of an extended functor on each object (each "point") by a [[weighted limit|weighted (co)limit]]. 
 
+   Furthermore, a pointwise Kan extension can be ["absolute"](#AbsoluteKanExtension).
+
 If the pointwise version exists, then it coincides with the "ordinary" or "weak" version, but the former may exist without the pointwise version existing. See [below](#pointwiseVsWeak) for more.
 
 Some authors (such as [Kelly](Kelly)) assert that only pointwise Kan extensions deserve the name "Kan extension," and use the term as 
@@ -124,39 +126,39 @@ Some authors (such as [Kelly](Kelly)) assert that only pointwise Kan extensions 
 Let 
 
 $$
-  f : C \to C'
+  p : C \to C'
 $$ 
 
 be a [[functor]]. For $D$ any other category, write
 
 $$
-  f^* : [C',D] \to [C,D]
+  p^* : [C',D] \to [C,D]
 $$
 
-for the induced functor on the [[functor categories]]: this sends a functor $h : C' \to D$ to the composite functor $f^* h : C \stackrel{f}{\to} C' \stackrel{h}{\to} D$.
+for the induced functor on the [[functor categories]]: this sends a functor $h : C' \to D$ to the composite functor $p^* h : C \stackrel{p}{\to} C' \stackrel{h}{\to} D$.
 
 
 +-- {: .num_defn}
 ###### Definition
 
-If $f^*$ has a [[left adjoint]], typically denoted
+If $p^*$ has a [[left adjoint]], typically denoted
 
 $$
-  f_! : [C,D] \to [C',D]
+  p_! : [C,D] \to [C',D]
 $$
 
 or 
 
 $$
-  Lan_f : [C,D] \to [C',D]
+  Lan_p : [C,D] \to [C',D]
 $$
 
-then this left adjoint is called the ( _ordinary_ or _weak_ ) **left Kan extension** operation along $f$. For $h \in [C,D]$ we call $f_! h$ the **left Kan extension of $h$** along $f$.
+then this left adjoint is called the ( _ordinary_ or _weak_ ) **left Kan extension** operation along $p$. For $h \in [C,D]$ we call $p_! h$ the **left Kan extension of $h$** along $p$.
 
-Similarly, if $f^*$ has a [[right adjoint]], this right adjoint is called the **right Kan extension** operation along $f$. It is typically denoted
+Similarly, if $p^*$ has a [[right adjoint]], this right adjoint is called the **right Kan extension** operation along $p$. It is typically denoted
 
 $$
-  f_* : [C,D] \to [C',D]
+  p_* : [C,D] \to [C',D]
 $$
 
 or 
@@ -184,30 +186,30 @@ If $C' = *$ is the [[terminal category]], then
 +-- {: .proof}
 ###### Proof
 
-The functor $f^*$ in this case sends objects $d$ of $D$ to the [[constant functor]] $\Delta_d$ on $d$. Notice that for $F \in [C,D]$ any functor, 
+The functor $p^*$ in this case sends objects $d$ of $D$ to the [[constant functor]] $\Delta_d$ on $d$. Notice that for $F \in [C,D]$ any functor, 
 
 * a [[natural transformation]] $\Delta_d \to F$ is the same as a [[cone]] over $F$;
 
 * a [[natural transformation]] $F \to \Delta_d$ is the same as a [[cocone]] under $F$.
 
 Therefore the natural hom-isomorphisms of the [[adjoint functor]]s 
-$(f_! \dashv f^*)$ and $(f^* \dashv f_*)$ 
+$(p_! \dashv p^*)$ and $(p^* \dashv p_*)$ 
 
 $$
-  D(d, f_* F) \simeq Func(\Delta_d, F)
+  D(d, p_* F) \simeq Func(\Delta_d, F)
 $$
 
 and
 
 $$
-  D(f_! F, d) \simeq Func(F, \Delta_d)
+  D(p_! F, d) \simeq Func(F, \Delta_d)
 $$
 
 assert that
 
-* $f_* F$ corepresents the [[cone]]s over $F$: this means by definition that $f_* F = \lim_\leftarrow F$ is the [[limit]] over $F$;
+* $p_* F$ corepresents the [[cone]]s over $F$: this means by definition that $p_* F = \lim_\leftarrow F$ is the [[limit]] over $F$;
 
-* $f_! F$ represents the [[cocone]]s under $F$: this means by definition that $f_! F = \lim_\to F$ is the [[colimit]] of $F$.
+* $p_! F$ represents the [[cocone]]s under $F$: this means by definition that $p_! F = \lim_\to F$ is the [[colimit]] of $F$.
 
 =--
 
@@ -215,7 +217,7 @@ assert that
 #### Local Kan extension
  {#LocalKanExtensions}
 
-There is also a *local* definition of "the Kan extension of a given functor $f$ along $p$" which can exist even if the entire functor defined above does not.  This is a generalization of the fact that a *particular* diagram of shape $C$ can have a limit even if not every such diagram does.  It is also a special case of the fact discussed at [[adjoint functor]] that an adjoint functor can fail to exist completely, but may still be partially defined.  If the local Kan extension of every single functor exists for some given $p\colon C\to C'$ and $D$, then these local Kan extensions fit together to define a functor which is the global Kan extension.
+There is also a *local* definition of "the Kan extension of a given functor $F$ along $p$" which can exist even if the entire functor defined above does not.  This is a generalization of the fact that a *particular* diagram of shape $C$ can have a limit even if not every such diagram does.  It is also a special case of the fact discussed at [[adjoint functor]] that an adjoint functor can fail to exist completely, but may still be partially defined.  If the local Kan extension of every single functor exists for some given $p\colon C\to C'$ and $D$, then these local Kan extensions fit together to define a functor which is the global Kan extension.
 
 
 Thus, by the general notion of "partial adjoints"; we say
@@ -223,16 +225,16 @@ Thus, by the general notion of "partial adjoints"; we say
 +-- {: .num_defn #LocalKanExtension}
 ###### Definition
 
-The local **left Kan extension** of  a functor $F\in [C,D]$ along $f : C \to C'$* is, if it exists, a functor
+The local **left Kan extension** of  a functor $F\in [C,D]$ along $p : C \to C'$* is, if it exists, a functor
 
 $$
-  Lan_f\,F : C'\to D
+  Lan_p\,F : C'\to D
 $$ 
 
 equipped with a [[natural isomorphism]]
 
 $$
-  Hom_{[C,D]}(F,f^*(-))\cong Hom_{[C',D]}(Lan_f\,F,-)
+  Hom_{[C,D]}(F,p^*(-))\cong Hom_{[C',D]}(Lan_p\,F,-)
   \,,
 $$
 
@@ -280,6 +282,11 @@ is an [[equivalence]] of $(n-2)$-categories.
 
 =--
 
+### Preservation of Kan extensions
+{#Preservation}
+
+We say that a Kan extension $Lan_p F$ is *preserved* by a functor $G$ if the composite $G \circ Lan_p F$ is a Kan extension of $G F$ along $p$, and moreover the universal natural transformation $G F \to G(Lan_p F)p$ is the composite of $G$ with the universal transformation $F\to (Lan_p F)f$.
+
 ### Pointwise or strong Kan extensions 
  {#Pointwise}
 
@@ -304,13 +311,11 @@ First, here is a characterization that doesn't rely on any computational framewo
 +-- {: .un_defn}
 ###### Definition
 
-A Kan extension, def. \ref{LocalKanExtension}, is called __pointwise__ if and only if it is preserved by all [[representable functor]]s.
+A Kan extension, def. \ref{LocalKanExtension}, is called __pointwise__ if and only if it is [preserved](#Preserved) by all [[representable functor]]s.
 
 =--
 
 ([[Categories Work]], theorem X.5.3)
-
-Here we say that a Kan extension $Lan_f F$ is *preserved* by a functor $G$ if the composite $G \circ Lan_f F$ is a Kan extension of $G F$ along $f$, and moreover the universal natural transformation $G F \to G(Lan_f F)f$ is the composite of $G$ with the universal transformation $F\to (Lan_f F)f$.
 
 
 #### in terms of weighted (co)limits 
@@ -374,29 +379,29 @@ Let
 
 * $D$ have all small [[limit]]s.
 
-Then the right Kan extension of a functor $F : C \to D$ of locally small categories along a functor $f : C \to C'$ exists 
+Then the right Kan extension of a functor $F : C \to D$ of locally small categories along a functor $p 'colon' C \to C'$ exists 
 and its value on an object $c' \in C'$ is given by the [[limit]]
 
 $$
     (Ran_p F)(c')
       \simeq 
-    \lim_\leftarrow \left((\Delta_{c'}/f) \to C \stackrel{F}{\to} D\right)
+    \lim_\leftarrow \left((\Delta_{c'}/p) \to C \stackrel{F}{\to} D\right)
   \,,
 $$
 
 where 
 
-* $\Delta_{c'}/f$ is the [[comma category]];
+* $\Delta_{c'}/p$ is the [[comma category]];
 
-* $\Delta_{c'}/f \to C$ is the canonical [[forgetful functor]].
+* $\Delta_{c'}/p \to C$ is the canonical [[forgetful functor]].
 
 Likewise, if $D$ admits small [[colimit]]s, 
 the left Kan extension of a functor exists and is pointwise given by the [[colimit]]
 
 $$
-    (Lan_f F)(c')
+    (Lan_p F)(c')
       \simeq 
-     \lim_\to \left((f/\Delta_{c'}) \to C \stackrel{F}{\to} D\right)
+     \lim_\to \left((p/\Delta_{c'}) \to C \stackrel{F}{\to} D\right)
   \,.
 $$
 
@@ -405,12 +410,12 @@ $$
 This appears for instance as ([Borceux, I, thm 3.7.2](#Borceux)).
 Discussion in the context of [[enriched category theory]] is in ([Kelly, section 3.4](#Kelly)).
 
-A cartoon picture of the forgetful functor out of the [[comma category]] $f/\Delta_{c'} \to C$, useful to keep in mind, is
+A cartoon picture of the forgetful functor out of the [[comma category]] $p/\Delta_{c'} \to C$, useful to keep in mind, is
 
 $$
   \left(
     \array{
-      f(c_1) &&\stackrel{f(\phi)}{\to}&& f(c_2)
+      p(c_1) &&\stackrel{p(\phi)}{\to}&& p(c_2)
       \\
       & \searrow && \swarrow
       \\
@@ -426,10 +431,10 @@ $$
   \,.
 $$
 
-The [[comma category]] here is equivalently the [[category of elements]] of the functor $C'(f(-), c') : C^{op} \to Set$
+The [[comma category]] here is equivalently the [[category of elements]] of the functor $C'(p(-), c') : C^{op} \to Set$
 
 $$
-  (f/\Delta_{c'}) \simeq el( C'(f(-), c') )
+  (p/\Delta_{c'}) \simeq el( C'(p(-), c') )
   \,.
 $$
 
@@ -443,23 +448,23 @@ First notice that the above pointwise definition of values of a functor canonica
 for $\phi : c'_1 \to c'_2$ any morphism in $C'$ we get a functor
 
 $$
-  \phi_* : f/\Delta_{c'_1} \to f/\Delta_{c'_2}
+  \phi_* : p/\Delta_{c'_1} \to p/\Delta_{c'_2}
 $$
 
 of comma categories, by postcomposition. This morphism of [[diagram]]s induces canonically a corresponding morphism of [[colimit]]s
 
 $$
-  (Lan_f F)(c'_1) \to (Lan_f F)(c'_2)
+  (Lan_p F)(c'_1) \to (Lan_p F)(c'_2)
   \,.
 $$
 
-Now for the universal property of the functor $Lan_f F$ defined  this way. For $c' \in C'$ denote the components of the colimiting [[cocone]] $(Lan_f F)(c') := \lim_{\to}( f/\Delta_{c'} \to C \stackrel{F}{\to} D) $ by $s_{(-)}$, as in
+Now for the universal property of the functor $Lan_p F$ defined  this way. For $c' \in C'$ denote the components of the colimiting [[cocone]] $(Lan_p F)(c') := \lim_{\to}( p/\Delta_{c'} \to C \stackrel{F}{\to} D) $ by $s_{(-)}$, as in
 
 $$
   \array{
-   (f(c_1)\stackrel{\phi}{\to} c') 
-      &&\stackrel{f(h)}{\to}&& 
-   (f(c_2)\stackrel{\lambda}{\to} c')
+   (p(c_1)\stackrel{\phi}{\to} c') 
+      &&\stackrel{p(h)}{\to}&& 
+   (p(c_2)\stackrel{\lambda}{\to} c')
     \\
     \\
     \\
@@ -467,7 +472,7 @@ $$
     \\
     & {}_{\mathllap{s_\phi}}\searrow && \swarrow_{\mathrlap{s_{\lambda}}}
     \\
-    && (Lan_f F)(c')
+    && (Lan_p F)(c')
   }
   \,.
 $$
@@ -475,28 +480,29 @@ $$
 We now construct in components a natural transformation
 
 $$
-  \eta_F : F \to f^* Lan_f F
+  \eta_F : F \to p^* Lan_p F
 $$
 
-for $Lan_f F$ defined as above, and show that it satisfies the required universal property.
+for $Lan_p F$ defined as above, and show that it satisfies the required universal property.
 The components of $\eta_F$ over $c \in C$ are morphisms
 
 $$
-  \eta_F(c) : F(c) \to (Lan_f F)(f (c))
+  \eta_F(c) : F(c) \to (Lan_p F)(p (c))
   \,.
 $$
 
 Take these to be given by 
 
 $$
-  \eta_F(c) := s_{Id_{f(c)}}
+
+  \eta_F(c) := s_{Id_{p(c)}}
 $$
 
 (this is similar to what happens in the proof of the [[Yoneda lemma]], all of these arguments are variants of the argument for the Yoneda lemma, and vice versa). It is straightforward, if somewhat tedious, to check that these are natural, and that the natural transformation defined this way has the required universal property.
 
 =--
 
-### Comparing the definitions   {#pointwiseVsWeak}
+#### Comparing the definitions   {#pointwiseVsWeak}
 
 We have seen that if $D$ has enough limits or colimits, then a pointwise Kan extension can be defined in terms of these limits, and will necessarily satisfy the universal property described first.  However, not all Kan extensions are pointwise: that is, having a universal transformation $F \to (Lan_p F)p$ does not necessarily imply that the individual values of $Lan_p F$ are limits or colimits in its codomain.  Non-pointwise Kan extensions can exist even when $D$ does not admit very many limits.
 
@@ -508,7 +514,21 @@ Non-pointwise Kan extensions seem to be very rare in practice.  However, the abs
 ### Absolute Kan extensions
   {#AbsoluteKanExtension}
 
-To be discussed... For the moment see _[[absolute colimit]]_.
+Am _absolute_ Kan extension $Lan_p F$ is one which is [preserved](#Preserved) by all functors $G$ out of the codomain of $f$:
+\[
+G (Lan_p F) \simeq Lan_p(G F)
+\]
+(same for right Kan extensions).
+
+The most prominent example of absolute Kan extensions is given by [[adjoint functor|adjoint functors]]; in fact they can be defined as certain absolute Kan extensions. See there for the precise statement.
+
+#### absolute vs pointwise
+
+Absolute Kan extensions are always pointwise, as the later can be defined as those preserved by representables; there are (lots of) examples of pointwise Kan extensions which are not absolute.
+
+Note that in a general 2-category, absolute Kan extensions make perfect sense, while for defining pointwise ones more structure is needed: [[comma object|comma objects]] and/or some structure which would let us work with (co)limits _inside_ that 2-category (such as a [Yoneda structure|(co)Yoneda structure] or a [2-category equipped with proarrows|proarrow equipment]).
+
+
 
 ### in $(\infty,1)$-categories 
 
