@@ -21,22 +21,12 @@ given a [[Reedy category]] $R$ and a [[model category]] $C$ the **Reedy model st
 
 As opposed to the [[global model structure on functors|projective and injective model structure]] on functors this does not require any further structure on $C$, but instead makes a strong assumption on $R$.
 
-There is a refinement to a notion of $V$-[[enriched Reedy category]] such that if $C$ is a $V$-[[enriched model category]] -- in particular when it is a [[simplicial model category]] for $V = $ [[SSet]] -- the [[enriched functor category]] $[R,C]$ is itself a $V$-[[enriched model category]] (see [Angeltveit](#Angeltveit)). 
-
-
-
-In the case that we do have extra assumptions on the codomain in that
-
-* $C$ is a [[combinatorial simplicial model category]] 
-
-* with  $C^\circ$ the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by $C$ 
-
-* and with the [[Reedy category]] $R$ an ordinary category regarded as a [[SSet]]-[[enriched category]], 
-
-the Reedy model structure, having the same weak equivalences as the [[global model structure on functors]], presents similarly the [[(∞,1)-category of (∞,1)-functors]] $Func_\infty(R,C^\circ)$, from $C$ into the [[(∞,1)-category]] [[presentable (∞,1)-category|presented by]] $C$.
+If all three exist, then, in a precise sense, the Reedy model structure sits _in between_ the injective and the projective model structure. As such, it has the advantage that _both_ the cofibrations as well as the fibrations can be fairly explicitly described and detected in terms of cofibrations and fibrations in $C$. 
 
 
 ## Definition
+
+### Plain version
 
 +-- {: .num_theorem #model}
 ###### Theorem
@@ -71,6 +61,23 @@ One then verifies that this defines a model structure; the details can be found 
 $$ L_r Z \amalg_{L_r X} X_r \to M_r Z \times_{M_r Y} Y_r$$
 in the appropriate way in $M$.
 
+### Enriched version
+
+For $V$ a [[cosmos|suitable enriching category]], there is a refinement of the notion of Reedy category to a notion of _$V$-[[enriched Reedy category]]_ such that if $C$ is a $V$-[[enriched model category]] -- in particular when it is a [[simplicial model category]] for $V = $ [[SSet]] -- the [[enriched functor category]] $[R,C]$ is itself a $V$-[[enriched model category]] (see [Angeltveit](#Angeltveit)). 
+
+
+
+In the case that we do have extra assumptions on the codomain in that
+
+* $C$ is a [[combinatorial simplicial model category]] 
+
+* with  $C^\circ$ the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by $C$ 
+
+* and with the [[Reedy category]] $R$ an ordinary category regarded as a [[SSet]]-[[enriched category]], 
+
+the Reedy model structure, having the same weak equivalences as the [[global model structure on functors]], presents similarly the [[(∞,1)-category of (∞,1)-functors]] $Func_\infty(R,C^\circ)$, from $C$ into the [[(∞,1)-category]] [[presentable (∞,1)-category|presented by]] $C$.
+
+
 ## Remarks
 
 * Any Reedy cofibration or fibration is, in particular, an objectwise one, but the converse does not generally hold.
@@ -91,7 +98,7 @@ in the appropriate way in $M$.
 
 ## Properties {#Properties}
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Observation
 
 Let $C$ be a [[combinatorial model category]] and $R$ a [[Reedy category]].
