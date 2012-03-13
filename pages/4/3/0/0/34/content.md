@@ -239,6 +239,7 @@ There are many different _models_ for bringing the abstract notion of higher cat
 
 * **higher category theory**
 
+* [[Circuitoids]]
 
 
 ## References
