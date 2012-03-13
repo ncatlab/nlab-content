@@ -492,6 +492,6 @@ For a pedagogical motivation of the general topic under consideration here see
 
 #20 Other Generalizations#
 
-[[circuitoid]]
+[[Circuitoids]]
 
 category: reference
