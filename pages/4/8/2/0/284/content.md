@@ -25,7 +25,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -190,20 +190,20 @@ Up to equivalence, this gives the same $(\infty,1)$-category as the Dwyer-Kan ha
 
 Other models for $(\infty,1)$-categories are
 
- * [[Segal category|Segal categories]];
+ * [[Segal categories]];
 
  * [[complete Segal spaces]].
  
-These notions can be thought of as categories which are
+Segal categories can be thought of as categories which are
 _weakly_ enriched in topological spaces/simplicial sets/Kan complexes,
 where the definition of "weak" makes use of the notion of [[homotopy]]
 and [[homotopy limit]] in [[Top]] or [[SimpSet|SSet]].
 
-(Actually, complete Segal spaces are actualy more like [[internal categories]] in spaces which satisfy an extra "completeness" condition specifying that the extra data are redundant.  But including this extra data turns out to be technically convenient in many ways.)
+Complete Segal spaces are like [[internal categories in an (∞,1)-category]].
 
 This construction principle in particular lends itself
 to iteration and hence to an inductive definition of 
-[[(∞,n)-category]].
+[[(∞,n)-category]] via [[Segal n-categories]] and [[n-fold complete Segal spaces]].
 
 
 ### $A_\infty$-categories
