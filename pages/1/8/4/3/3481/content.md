@@ -1,4 +1,13 @@
+
+# The axiom of multiple choice
+* table of contents
+{: toc}
+
+
+## Idea
+
 The **axiom of multiple choice** (AMC) is a weak version of the [[axiom of choice]] which can hold in [[constructive mathematics]].
+
 
 ## Statement
 
@@ -38,5 +47,6 @@ The second formulation seems to be the one originally given by M&P, below, while
 
 category: foundational axiom
 
-[[!redirects AMC]]
+[[!redirects axiom of multiple choice]]
 [[!redirects multiple choice]]
+[[!redirects AMC]]
