@@ -1,3 +1,4 @@
+
 A __regular element__ of a [[Heyting algebra]] is an element $x$ such that $\neg{\neg{x}} = x$.
 
 Thus a [[Boolean algebra]] is precisely a Heyting algebra in which every element is regular.
@@ -8,8 +9,18 @@ Analogously, a __regular open set__ in a [[topological space]] $X$ is a regular 
 
 The __regularisation__ of $x$ is $\neg{\neg{x}}$; note that this is regular.  In fact, any element of the form $\neg{y}$ is regular.
 
+
+[[!redirects regular element]]
 [[!redirects regular elements]]
+
 [[!redirects regular open]]
+[[!redirects regular opens]]
 [[!redirects regular open set]]
+[[!redirects regular open sets]]
+[[!redirects regular open subset]]
+[[!redirects regular open subsets]]
+[[!redirects regular open subspace]]
+[[!redirects regular open subspaces]]
+
 [[!redirects regularisation]]
 [[!redirects regularization]]
