@@ -249,6 +249,9 @@ The page on [[http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relation
 
 * [[enriched bicategory]]
 
+* In [[(∞,1)-category theory]] the idea of enrichment over [[∞Grpd]] is modeled by the notion of _[[Segal category]]_.
+
+
 ## References
 
 The standard reference on enriched categories is
