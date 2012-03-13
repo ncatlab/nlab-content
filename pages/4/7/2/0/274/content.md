@@ -56,6 +56,13 @@ A **Segal category** is
 +-- {: .num_remark}
 ###### Remark
 
+There is _no_ condition that a Segal category be [[fibrant object|fibrant]] with respect to the [[Reedy model structure]] on bisimplicial sets. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
 For $X$ a Segal category, the [[fiber product]] simplicial set $X_1 \times_{X_0} X_1$ is manifestly the space of pairs of composable 1-[[morphism]]s in $X$, and the [[weak equivalence]] 
 
 $$
@@ -140,10 +147,13 @@ A discussion with emphasis on the comparison of the various [[model category]] s
 
 * [[Julia Bergner]], _A survey of $(\infty, 1)$-categories_ ([arXiv:0610239](http://arxiv.org/abs/math.AT/0610239))
 
-The generalization to Segal $n$-categories is discussed in section 2 of
+The generalization to [[Segal n-categories]] is discussed in section 2 of
 
 * [[André Hirschowitz]], [[Carlos Simpson]], _Descente pour les $n$-champs (Descent for $n$-stacks)_ ([arXiv:9807049](http://arxiv.org/abs/math/9807049))
 
+In the more general context of homotopical enrichments, this is discussed in
+
+* [[Carlos Simpson]], _[[Homotopy Theory of Higher Categories]]_ ([arXiv:1001.4071](http://arxiv.org/abs/1001.4071))
 
 
 [[!redirects Segal categories]]
