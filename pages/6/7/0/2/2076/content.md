@@ -107,6 +107,7 @@ then every square $\Theta$ over $Q$ satisfies conditions (a-c) iff there is a ca
 d) $f^*\circ s_! \cong g_! \circ t^*$.
 =--
 
+* X. Guo, thesis, _Monadicity, purity and descent equivalence_, [pdf](http://www.collectionscanada.gc.ca/obj/s4/f2/dsk2/ftp02/NQ59136.pdf)
 
 [[!redirects Benabou–Roubaud theorem]]
 [[!redirects Benabou--Roubaud theorem]]
