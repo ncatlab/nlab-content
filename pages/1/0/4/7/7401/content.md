@@ -109,5 +109,5 @@ This is ([Berger-Moerdijk, theorem 1.6](#BergerMoerdijk)).
 
 ## References 
 
-* [[Clemens Berger]] and [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_ (2008) ([arXiv:0809.3341](http://arxiv.org/abs/0809.3341))
+* [[Clemens Berger]] and [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_, Math. Z. (2008) ([arXiv:0809.3341](http://arxiv.org/abs/0809.3341))
  {#BergerMoerdijk}
