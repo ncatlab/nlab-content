@@ -339,6 +339,8 @@ Hence $C_f$ is a weak equivalence.
 
 ## Related concepts
 
+* [[table - models for (∞,1)-operads]]
+
 * [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
 
 * [[monad]] / [[(∞,1)-monad]]
