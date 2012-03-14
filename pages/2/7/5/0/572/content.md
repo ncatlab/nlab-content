@@ -88,6 +88,8 @@ More precisely...
 
 * [[higher complete Segal space]]
 
+* [[table - models for (infinity,1)-operads]]
+
 ## References
 
 Complete Segal spaces were originally defined in 
