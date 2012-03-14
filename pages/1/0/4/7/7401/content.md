@@ -58,7 +58,7 @@ Equivalently this means that for all $s$ the above objects and morphisms take pl
 
 Let $S$ be a (Cisinski-Moerdijk)-[[generalized Reedy category]]. And let $\mathcal{C}$ be a [[cofibrantly generated model category]]. Write $[S, \mathcal{C}]$ for the [[category of presheaves]] on $S^{op}$ with values in $\mathcal{C}$.
 
-Call a morphism $f : X \to Y$ in $[S^{op}, \mathcal{C}]$
+Call a morphism $f : X \to Y$ in $[S, \mathcal{C}]$
 
 * a **Reedy cofibration** if for each $s \in S$ the relative latching map 
 
@@ -90,6 +90,8 @@ where $[B Aut(r), \mathcal{C}]_{proj}$ is the projective [[model structure on fu
 
 ## Properties
 
+### General
+
 +-- {: .num_theorem }
 ###### Theorem
 
@@ -100,6 +102,11 @@ Then with cofibrations, fibrations and weak equivalences as in def. \ref{ReedyMo
 =--
 
 This is ([Berger-Moerdijk, theorem 1.6](#BergerMoerdijk)).
+
+
+### Relation to other model structures
+
+(...)
 
 ## Examples
 
