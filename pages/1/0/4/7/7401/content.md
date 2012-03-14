@@ -29,17 +29,17 @@ Let $\mathcal{C}$ be a category with small [[limits]] and [[colimits]].
 
 For every [[object]] $s \in S$, every [[functor]] $X : S \to \mathcal{C}$ and every [[natural transformation]] $\phi : X \to Y$ write 
 
-* $S^+(s)$ for the [[full subcategory]] of the [[slice category]] $S/s$ on the non-invertible morphisms into $s$;
+* $S^+(s)$ for the [[full subcategory]] of the [[slice category]] $S^+/s$ on the non-invertible morphisms  into $s$;
 
-* $S^-(s)$ for the [[full subcategory]] of the [[under category]] $s/S$ on the non-invertible morphisms out of $s$;
+* $S^-(s)$ for the [[full subcategory]] of the [[under category]] $s/S^-$ on the non-invertible morphisms out of $s$;
 
-* $L_s(X) := {\lim_\to}_{(r \to s) in S^+(s)} X(r)$ for the [[colimit]] of $X$ over $S^+(s)$, called the **latching object** of $X$ at $s$;
+* $L_s(X) := {\lim_\to}_{(r \to s) \in S^+(s)} X(r)$ for the [[colimit]] of $X$ over $S^+(s)$, called the **latching object** of $X$ at $s$;
 
-* $M_s(X) := {\lim_\leftarrow}_{(s \to r) in S^-(s)} X(r)$ for the [[colimit]] of $X$ over $S^+(s)$, called the **matching object** of $X$ at $s$.
+* $M_s(X) := {\lim_\leftarrow}_{(s \to r) \in S^-(s)} X(r)$ for the [[limit]] of $X$ over $S^-(s)$, called the **matching object** of $X$ at $s$.
 
 * $X_s \coprod_{L_s(X)} L_s(Y) \to Y_s$ for the universal morphism induced from the morphism $L_s(X) \to X_s$, called the **relative latching map** of $\phi$ at $s$;
 
-* $X_s \to M_s(X) \coprod_{M_s(Y)} Y_s$ similarly the universal morphism, called the **relative matching map** of $\phi$ at $s$.
+* $X_s \to M_s(X) \prod_{M_s(Y)} Y_s$ for the dual universal morphism, called the **relative matching map** of $\phi$ at $s$.
 
 =--
 
@@ -63,18 +63,18 @@ Call a morphism $f : X \to Y$ in $[S^{op}, \mathcal{C}]$
 * a **Reedy cofibration** if for each $s \in S$ the relative latching map 
 
   $$
-    X_s \cup_{L_s(X)} L_s(Y) \to Y_s
+    X_s \coprod_{L_s(X)} L_s(Y) \to Y_s
   $$
 
   is a cofibration in $[B Aut(s), \mathcal{C}]_{proj}$;
 
-* a **Reedy fibration** if for each $s \in S$ the relativ matching map 
+* a **Reedy fibration** if for each $s \in S$ the relative matching map 
 
   $$
-    X_s \to M_s(X) \coprod_{M_s(Y)} Y_s
+    X_s \to M_s(X) \prod_{M_s(Y)} Y_s
   $$
 
-  is a fibration in $[B Aut(s), \mathcal{C}]_{proj}$;
+  is a fibration in $\mathcal{C}$;
 
 * a **Reedy weak equivalence** if for each $s \in S$ the morphism
 
