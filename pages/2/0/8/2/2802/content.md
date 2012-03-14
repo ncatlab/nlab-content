@@ -1,5 +1,9 @@
-See also [[homotopical enrichment]].
 
+## Related concepts
+
+* [[homotopical enrichment]];
+
+* [[enriched (∞,1)-category]]
 
 ## Discussion
 
