@@ -82,7 +82,10 @@ Usually this works well. If there is need for discussion, the
 The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  
 
 Notice that **you don't need to know any MathML**. Only your browser does. You write formulas into the $n$Lab between dollar signs in [iTeX](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html), which is designed to be very similar to ordinary LaTeX.
-
+* [foto lucu](http://carakata.blogspot.com/2012/02/foto-lucu.html)
+* [gambar lucu](http://carakata.blogspot.com/2012/02/gambar-lucu.html)
+* [cerita lucu](http://carakata.blogspot.com/2012/02/cerita-lucu.html)
+* [video lucu](http://carakata.blogspot.com/2012/02/video-lucu.html)
 Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display MathML automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
 
 
