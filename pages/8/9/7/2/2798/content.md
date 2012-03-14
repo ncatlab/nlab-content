@@ -405,6 +405,8 @@ See ([Heuts, remark 6.8.0.2](#Heuts)).
 
 * [[model structure for dendroidal complete Segal spaces]]
 
+* [[table - models for (infinity,1)-operads]]
+
 ## References
 
 
