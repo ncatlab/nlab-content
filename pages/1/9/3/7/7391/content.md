@@ -471,7 +471,7 @@ The model structures $[\Omega^{op}, sSet]_{Segal}$ and $[\Omega^{op}, sSet]_{cSe
 
 * are [[combinatorial simplicial model categories]];
 
-* have as cofibrations precisely the simplici-degreewise normal monomorphisms.
+* have as cofibrations precisely the simplicial-degreewise normal monomorphisms.
 
 =--
 
