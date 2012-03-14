@@ -26,6 +26,8 @@
 
 The _model structure for dendroidal complete Segal spaces_ is an [[operad|operadic]] generalization of the [[model structure for complete Segal spaces]]. It serves to [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] of [[(∞,1)-operads]].
 
+A _complete dendroidal Segal space_ $X$ is much like a [[dendroidal set]], only that it has for each [[tree]] $T$ not just a _set_ of [[dendrices]], but a [[simplicial set]] $X_T \in sSet$, subject to some conditions. The model structure discussed here is defined on the category of all [[simplicial presheaves]] over the [[tree category]], such that the fibrant objects are precisely the dendroidal complete Segal spaces.
+
 ## Definition
 
 Write $\Omega$ for the [[tree category]], the [[site]] for [[dendroidal sets]]
@@ -87,9 +89,15 @@ The localization at the [[dendroidal spine]] inclusions is equivalently the [[Bo
 
 =--
 
+This is [Cisinski-Moerdijk, prop. 5.5, def. 6.2](#CisinskiMoerdijk).
+
+
++-- {: .proof}
+###### Proof
+
 By the propositions discussed at _[[spine]]_.
 
-This is [Cisinski-Moerdijk, prop. 5.5, def. 6.2](#CisinskiMoerdijk).
+=--
 
 +-- {: .num_defn #Corollas}
 ###### Definition
@@ -148,94 +156,6 @@ is a [[homotopy equivalence]].
 
 
 ## Properties
-
-### Fibrant objects
-
-+-- {: .num_prop #CompleteSegalBySpineLiftingAndHornLifting}
-###### Proposition
-
-The following conditions are equivalent
-
-* $X \in dsSet$ is a complete dendroidal Segal space;
-
-* for every [[spine]] inclusion $Sp[T] \hookrightarrow \Omega[T]$, the induced morphism  $X^{\Omega[T]} \to X^{Sp[T]}$ is an acyclic Kan fibration;
-
-* for every inner [[horn]] inclusion $\Lambda^e[T] \hookrightarrow \Omega[T]$, the induced morphism $X^{\Omega[T]} \to X^{\Lambda^e[T]}$ is an acyclic Kan fibration.
-
-=--
-
-This appears as ([Cisinski-Moerdijk, cor. 5.6](#CisinskiMoerdijk)).
-
-+-- {: .proof}
-###### Proof
-
-This is a direct consequence of the nature of [[Bousfield localization of model categories|left Bousfield localization]] and prop. \ref{SpineAndHornLocalization}: according to this both the spin and the horn inclusion are acyclic cofibrations. Moreover $X$ is fibrant. Finally $dsSet_{cSegal}$ is a [[simplicial model category]], which implies the claim by the dual of the [[pushout-product axiom]]. 
-
-=--
-
-### Weak equivalences
-
-+-- {: .num_prop #WEDetectedOnCorollas}
-###### Proposition
-
-A morphism $f : X \to Y$ between dendroidal Segal spaces is a weak equivalence in $[\Omega^{op}, sSet]_{Segal}$, and hence in $[\Omega^{op}, sSet]_{cSegal}$ precisely if its components on the trees $\eta$ and $C_n$ for all $n$, def. \ref{Corollas}, are [[weak homotopy equivalences]] of simplicial sets.
-
-=--
-
-This appears as ([Cisinski-Moerdijk, prop. 5.7](#CisinskiMoerdijk)).
-
-+-- {: .proof}
-###### Proof
-
-By general properties of [[Bousfield localization of model categories|left Bousfield localization]], a morphism between [[local objects]] is a weak equivalence precisely if it is so already in the unlocalized model structure $[\Omega^{op}, sSet]_{genReedy}$. There the weak equivalences are the morphisms that are so over _every_ tree. But by prop. \ref{CompleteSegalBySpineLiftingAndHornLifting} these are already implied by weak equivalences over the [[spines]]. These are, finally, [[colimits]] which happen to be [[homotopy colimits]] of $\eta$ and of corollas, and hence it suffices to have weak equivalences over these components in order to have them over all components.
-
-=--
-
-+-- {: .num_prop #WeakEquivalencesAreFullyFaithfulEssentiallySurjective}
-###### Proposition
-
-A morphism $f : X \to Y$ of dendroidal Segal spaces is a weak equivalence in $[\Omega^{op}, sSet]_{Segal}$ precisely if it is
-
-1. fully faithful, def. \ref{FullyFaithfulMorphism};
-
-1. [[essentially surjective functor|essentially surjective]] in that $f(\eta) : X(\eta) \to Y(\eta)$ is a weak equivalence of simplicial sets.
-
-=--
-
-(See also _[[equivalence of categories]]_.)
-
-This appears as ([Cisinski-Moerdijk, cor. 5.10](#CisinskiMoerdijk)).
-
-+-- {: .proof}
-###### Proof
-
-Being essentially surjective is equivalent to $f(\eta)$ being an equivalence. By prop. \ref{WEDetectedOnCorollas} it only remains to check that in this situation $f$ being fully faithful is equivalent to $f(C_n)$ being an equivalence, for all $n$.
-
-By remark \ref{HomotopyPropertyOfHomSpaces}, of $f(C_n) : X(C_n) \to Y(C_n)$ is a weak equivalence for all $n$ then $f$ is fully faithful, since weak equivalence are preserved by [[homotopy pullback]]. 
-
-For the converse, 
-consider for each $n$ the inclusion of _all_ input and output colors
-
-$$
-  \coprod_{(x_1, \cdots, x_n; x)}
-  * 
-  \to
-  X(\eta)^{n+1}
-$$
-
-and similarly for $Y$. Since this evidently hits all connected components of $X(\eta)^{n+1}$, it is an [[effective epimorphism in an (∞,1)-category]] in [[∞Grpd]]. These are stable under [[homotopy pullback]], and so also 
-
-$$
-  \coprod_{(x_1, \cdots, x_n; x)}
-  X(x_1, \cdots, x_n; x)
-  \to
-  X(C_n)
-$$
-
-is an effective epimorphism, and similarly for $Y$. If now $f$ is fully faithful, then by the definition of [[effective epimorphism in an (∞,1)-category]], this exhibits $f(C_n)$ as the [[homotopy colimit]] of a diagram of equivalences. Hence $f(C_n)$ is itself a weak equivalence.
-
-
-=--
 
 ### Basic technical properties
 
@@ -403,7 +323,7 @@ $$
 
 =--
 
-The statement is ([Cisinski-Moerdijk, prop. 5.2](#CisinskiMoerdijk)). The followong proof follows remark 5.3 there.
+The statement is ([Cisinski-Moerdijk, prop. 5.2](#CisinskiMoerdijk)). The following proof proceeds in view of remark 5.3 there.
 
 +-- {: .proof}
 ###### Proof
@@ -483,6 +403,196 @@ The statement follows by using the [[small object argument]].
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+Being a [[category of presheaves]], $[\Omega^{op}, sSet]$ is a [[locally presentable category]]. Together with the cofibrant generation of the model structure from prop. \ref{CofibrantlyGenerated} this means that $[\Omega^{op}, sSet]_{gReedy}$ is a [[combinatorial model category]]. This implies that it has a good theory of [[Bousfield localization of model categories|left Bousfield localization]] at sets of morphisms.
+
+=--
+
++-- {: .num_prop #CofibrationsAreNormalMonomorphisms}
+###### Proposition
+
+The cofibrations in $[\Omega^{op}, sSet]_{gReedy}$ are precisely the simplicial-degree-wise _normal monomorphisms_ of [[dendroidal sets]] (see [here](nlab/show/dendroidal%20set#NormalMonomorphisms)).
+
+=--
+
+This is ([Cisinski-Moerdijk, cor. 4.3](#CisinskiMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+The generating inclusions in prop. \ref{CofibrantlyGenerated} are the boundary inclsuions of representables in the product site $\Delta \times \Omega$, regarded as a Cisinski-[[generalized Reedy category]]. By the discussion [there](nlab/show/generalized%20Reedy%20category#NormalMorphisms), these generate the normal monomorphisms on $\Delta \times \Omega$. But since $\Delta$ contains no non-trivial automorphisms, this are just the degreewise dendroidal normal monomorphisms.
+
+=--
+
++-- {: .num_prop #SimplicialEnrichment}
+###### Proposition
+
+The [[generalized Reedy model structure]] $[\Omega^{op}, sSet]_{gReedy}$
+equipped with the [[sSet]]-[[enriched category|enrichment]] from remark \ref{TensoringAndEnrichment} is an [[enriched model category]] over the standard [[model structure on simplicial sets]] -- a _[[simplicial model category]]_.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to check the [[pushout-product axiom]] for the [[tensoring]] operation. So for $a : S \to T$ a monomorphism of [[simplicial sets]] and $ f : X \to Y$ a degreewise normal monomorphisms in $[\Omega^{op}, sSet]$, we need to check, by prop \ref{CofibrationsAreNormalMonomorphisms}, that the canonical morphism
+
+$$
+  (S \cdot Y) \coprod_{(S \cdot X)} (T \cdot X) \to T \cdot Y
+$$
+
+is a simplicial-degreewise normal monomorphism, which is a weak equivalence if either of $a$ or $f$ is. Since this coproduct is computed objectwise, this morphism is over $[n] \in \Delta$ the pushout of simplicial sets
+
+$$
+  (S_n \cdot Y_n) \coprod_{(S_n \cdot X_n)} (T_n \cdot X_n) \to T_n \cdot Y_n
+  \,,
+$$
+
+where now the [[tensoring]] is that of [[dendroidal sets]] over sets, which is given by [[coproduct]] of dendroidal sets, $S_n \cdot Y_n = \coprod_{s \in S_n} Y_n$. It is clear that this is a [[monomorphism]].
+
+Moreover, the [[image]] of this morphism contains the image of $T_n \cdot f_n$, which for each summand $t \in T_n$ is the image of $f$. Therefore the [[dendrex|dendrices]] not in this image are also summand-wise not in the image of $f$, hence have trivial [[stabilizer groups]], by the assumption that $f$ is a normal monomorphism.
+
+Finally, to see that the above morphism out of the pushout is a weak equivalence if either of $a$ or $f$ is, use that in $[\Omega^{op}, sSet]_{fReedy}$ the weak equivalences are tree-wise those of simplicial sets. The statement then follows by $sSet_{Quillen}$ being a [[monoidal model category]] with respect to its [[cartesian monoidal category|cartesian monoidal]] category structure.
+
+=--
+
+Some of these properties are inherited by the actual model structure for dendroidal complete Segal spaces
+
++-- {: .num_cor }
+###### Corollary
+
+The model structures $[\Omega^{op}, sSet]_{Segal}$ and $[\Omega^{op}, sSet]_{cSegal}$ 
+
+* are [[combinatorial simplicial model categories]];
+
+* have as cofibrations precisely the simplici-degreewise normal monomorphisms.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since cofibrations and simplicial enrichment are preserved by left Bousfield localization, this follows from the analogous statements for $[\Omega^{op}, sSet]_{gReedy}$.
+
+=--
+
+### Fibrant objects
+
++-- {: .num_remark #FillerPropertyOfFibrantObjects}
+###### Remark
+
+An object $X \in [\Omega^{op}, sSet]_{gReedy}$ is fibrant, precisely if for
+every [[tree]] $T \in \Omega$, the morphism
+
+$$
+  X^{(\partial \Omega[T] \hookrightarrow \Omega[T])}
+  : 
+  X(T) \to X^{\partial \Omega[T]}
+$$
+
+is a [[Kan fibration]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{FibrationsInGenReedy}, using $Y = *$.
+
+=--
+
+
++-- {: .num_prop #CompleteSegalBySpineLiftingAndHornLifting}
+###### Proposition
+
+The following conditions are equivalent
+
+* $X \in dsSet$ is a complete dendroidal Segal space;
+
+* for every [[spine]] inclusion $Sp[T] \hookrightarrow \Omega[T]$, the induced morphism  $X^{\Omega[T]} \to X^{Sp[T]}$ is an acyclic Kan fibration;
+
+* for every inner [[horn]] inclusion $\Lambda^e[T] \hookrightarrow \Omega[T]$, the induced morphism $X^{\Omega[T]} \to X^{\Lambda^e[T]}$ is an acyclic Kan fibration.
+
+=--
+
+This appears as ([Cisinski-Moerdijk, cor. 5.6](#CisinskiMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{CofibrationsAreNormalMonomorphisms} both the spine and the horn inclusion are morphisms between cofibrant objects
+in $[\Omega^{op}, sSet]_{gReedy}$. 
+By the general properties of 
+[[Bousfield localization of model categories|left Bousfield localization]] and using that $[\Omega^{op}, sSet]_{gReedy}$ is a [[simplicial model category]] by prop. \ref{SimplicialEnrichment}, 
+it follows that a fibrant object $X \in [\Omega^{op}, sSet]_{gReedy}$ is local with respect to the spine / horn inclusions precisely if powering these into this object, remark \ref{TensoringAndEnrichment}, is a weak equivalence of simplicial sets. Since moreover the horn and spine inclusions are cofibrations, by prop. \ref{CofibrationsAreNormalMonomorphisms}, this will necessarily be an acyclic Kan fibration (by the dual of the [[pushout-product axiom]] in a [[simplicial model category]]).
+
+=--
+
+### Weak equivalences
+
++-- {: .num_prop #WEDetectedOnCorollas}
+###### Proposition
+
+A morphism $f : X \to Y$ between dendroidal Segal spaces is a weak equivalence in $[\Omega^{op}, sSet]_{Segal}$, and hence in $[\Omega^{op}, sSet]_{cSegal}$ precisely if its components on the trees $\eta$ and $C_n$ for all $n$, def. \ref{Corollas}, are [[weak homotopy equivalences]] of simplicial sets.
+
+=--
+
+This appears as ([Cisinski-Moerdijk, prop. 5.7](#CisinskiMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+By general properties of [[Bousfield localization of model categories|left Bousfield localization]], a morphism between [[local objects]] is a weak equivalence precisely if it is so already in the unlocalized model structure $[\Omega^{op}, sSet]_{genReedy}$. There the weak equivalences are the morphisms that are so over _every_ tree. But by prop. \ref{CompleteSegalBySpineLiftingAndHornLifting} these are already implied by weak equivalences over the [[spines]]. These are, finally, [[colimits]] which happen to be [[homotopy colimits]] of $\eta$ and of corollas, and hence it suffices to have weak equivalences over these components in order to have them over all components.
+
+=--
+
++-- {: .num_prop #WeakEquivalencesAreFullyFaithfulEssentiallySurjective}
+###### Proposition
+
+A morphism $f : X \to Y$ of dendroidal Segal spaces is a weak equivalence in $[\Omega^{op}, sSet]_{Segal}$ precisely if it is
+
+1. fully faithful, def. \ref{FullyFaithfulMorphism};
+
+1. [[essentially surjective functor|essentially surjective]] in that $f(\eta) : X(\eta) \to Y(\eta)$ is a weak equivalence of simplicial sets.
+
+=--
+
+(See also _[[equivalence of categories]]_.)
+
+This appears as ([Cisinski-Moerdijk, cor. 5.10](#CisinskiMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+Being essentially surjective is equivalent to $f(\eta)$ being an equivalence. By prop. \ref{WEDetectedOnCorollas} it only remains to check that in this situation $f$ being fully faithful is equivalent to $f(C_n)$ being an equivalence, for all $n$.
+
+By remark \ref{HomotopyPropertyOfHomSpaces}, of $f(C_n) : X(C_n) \to Y(C_n)$ is a weak equivalence for all $n$ then $f$ is fully faithful, since weak equivalence are preserved by [[homotopy pullback]]. 
+
+For the converse, 
+consider for each $n$ the inclusion of _all_ input and output colors
+
+$$
+  \coprod_{(x_1, \cdots, x_n; x)}
+  * 
+  \to
+  X(\eta)^{n+1}
+$$
+
+and similarly for $Y$. Since this evidently hits all connected components of $X(\eta)^{n+1}$, it is an [[effective epimorphism in an (∞,1)-category]] in [[∞Grpd]]. These are stable under [[homotopy pullback]], and so also 
+
+$$
+  \coprod_{(x_1, \cdots, x_n; x)}
+  X(x_1, \cdots, x_n; x)
+  \to
+  X(C_n)
+$$
+
+is an effective epimorphism, and similarly for $Y$. If now $f$ is fully faithful, then by the definition of [[effective epimorphism in an (∞,1)-category]], this exhibits $f(C_n)$ as the [[homotopy colimit]] of a diagram of equivalences. Hence $f(C_n)$ is itself a weak equivalence.
+
+
+=--
 
 ### Relation to other model structures
 
@@ -508,7 +618,7 @@ above model structure reproduces the
 
 #### To dendroidal sets
 
-(...)
+(...) [[model structure on dendroidal sets]]
 
 #### To Segal operads
 
