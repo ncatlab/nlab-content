@@ -265,6 +265,9 @@ above model structure reproduces the
 
 (...) [[model structure for Segal operads]]
 
+## Related concepts
+
+* [[table - models for (infinity,1)-operads]]
 
 ## References
 
