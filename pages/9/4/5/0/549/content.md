@@ -157,7 +157,7 @@ $$
 $$
 
 
-of this diagram defines an object $Z_1$ and morphisms $a_1 : Z_0 \rightarrow Z_1$ and $q_1 : Z_1 \rightarrow Y$ factoring $f$. Intuitively, if we think of all morphisms $i \in I$ as being inclusions of [[sphere]]s into balls, we have formed $Z_1$ by spheres for every attaching map from a domain of $I$ into $X=Z_0$.
+of this diagram defines an object $Z_1$ and morphisms $a_1 : Z_0 \rightarrow Z_1$ and $q_1 : Z_1 \rightarrow Y$ factoring $f$. Intuitively (following the example of [[boundary of a simplex|simplicial boundary]] inclusions) if we think of the morphisms $i \in I$ as being inclusions of [[spheres]] into [[balls]], we have formed $Z_1$ by sphere attachments for every attaching map from a domain of $I$ into $X=Z_0$.
 
 Now, we iterate this construction with $q_1 : Z_1 \rightarrow Y$ in place of $f$ and taking colimits to construct $Z_{\alpha}$ for limit [[ordinal number|ordinals]] $\alpha$.  
 
@@ -166,7 +166,7 @@ This construction does not converge. So we choose instead to stop at a sufficien
 $$
   (X \stackrel{f}{\to} Y)
   =
-  (X \stackrel{a}{\to} Z_\beta \stackrel{q}{\to})
+  (X \stackrel{a}{\to} Z_\beta \stackrel{q}{\to} Y)
   \,.
 $$
 
@@ -182,7 +182,7 @@ $$
   }
 $$
 
-the map from $K$ to $Z_\beta$ factors through some $Z_{\alpha}$, with $\alpha \lt \beta$, by the assumed small object property. Because $Z_{\alpha+1}$ was defined to be a pushout over squares including this one, we have a map $L \rightarrow Z_{\alpha +1} \rightarrow Z_{\beta} = colim_\alpha Z_{\alpha}$, which is the desired lift:
+the map from $K$ to $Z_\beta$ factors through some $Z_{\alpha}$, with $\alpha \lt \beta$, since $Z_\beta$ is a [[filtered colimit]] and using the assumed smallnes of $K$ (see _[[compact object]]_). Because $Z_{\alpha+1}$ was defined to be a pushout over squares including this one, we have a map $L \rightarrow Z_{\alpha +1} \rightarrow Z_{\beta} = colim_\alpha Z_{\alpha}$, which is the desired lift:
 
 $$
   \array{
