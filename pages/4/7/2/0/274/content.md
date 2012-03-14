@@ -126,7 +126,7 @@ are in fact [[isomorphisms]] / [[bijections]] of sets. This property of the [[ne
 
 * [[Gamma space]]
 
-[[!include table - models for (infinity,1)-operads]]
+* [[table - models for (infinity,1)-operads]]
 
 
 ## References
@@ -152,7 +152,7 @@ The generalization to [[Segal n-categories]] is discussed in section 2 of
 
 * [[André Hirschowitz]], [[Carlos Simpson]], _Descente pour les $n$-champs (Descent for $n$-stacks)_ ([arXiv:9807049](http://arxiv.org/abs/math/9807049))
 
-In the more general context of homotopical enrichments, this is discussed in
+In the more general context of [[enriched (∞,1)-categories]], this is discussed in
 
 * [[Carlos Simpson]], _[[Homotopy Theory of Higher Categories]]_ ([arXiv:1001.4071](http://arxiv.org/abs/1001.4071))
 
