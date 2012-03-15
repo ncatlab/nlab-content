@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
 In a [[partial order|poset]] $P$, a __bottom__ is an element $\bot$ of $P$ such that $\bot \leq a$ for every element $a$.  Such a bottom may not exist; if it does, then it is unique.
 
 In a [[preorder|proset]], a bottom may be defined similarly, but it need not be unique.  (However, it is still unique up the natural [[equivalence]] in the proset.)
