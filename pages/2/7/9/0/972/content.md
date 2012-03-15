@@ -1,9 +1,35 @@
-A **complete lattice** is a [[partial order|poset]] which has all [[join|joins]] and [[meet|meets]].  In particular, it is a [[lattice]].  By the [[adjoint functor theorem]] for posets, having either all joins or all meets is sufficient for the other.  However, a [[suplattice]] morphism may preserve only joins, while dually an [[inflattice]] morphism may preserve only meets.  Furthermore, a *large* poset with all *small* joins or meets need not have the other.
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+A **complete lattice** is a [[partial order|poset]] which has all small [[join|joins]] and [[meet|meets]] (as opposed to just finite joins and meets).  
+
+In particular, it is a [[lattice]].  
 
 Complete lattices and complete lattice homomorphisms form a [[concrete category]] [[CompLat]].
 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By the [[adjoint functor theorem]] for posets, having either all joins or all meets is sufficient for the other.  However, a [[suplattice]] morphism may preserve only joins, while dually an [[inflattice]] morphism may preserve only meets.  Furthermore, a *large* poset with all *small* joins or meets need not have the other.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
 Regarded as a [[small category]], a complete lattice is [[complete category|complete]].  Conversely, in [[classical logic]] and in any [[Grothendieck topos]], any [[complete small category]] is in fact a preorder, and hence a complete lattice.
 
+=--
 
 ## Examples
 
@@ -14,5 +40,9 @@ Regarded as a [[small category]], a complete lattice is [[complete category|comp
 
 Complete lattices are harder to come by in [[constructive mathematics]] and nearly impossible in [[predicative mathematics]] (at least if they are to be small).  In particular, one must use the Mac Neille reals (and be a bit careful about infinity) for the analytic examples to work constructively.
 
+
+## Related concepts
+
+* [[completely distributive lattice]]
 
 [[!redirects complete lattices]]
