@@ -6,12 +6,17 @@
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
 =--
 =--
+
 
 # Logic
 * table of contents
