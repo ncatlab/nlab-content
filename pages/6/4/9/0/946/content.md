@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 # The specialisation topology
 * table of contents
 {: toc}
@@ -131,7 +142,7 @@ This appears as ([Caramello, theorem 4.2](#Caramello)).
 ###### Proposition
 
 
-The category of Alexandroff locales is equivalent to that of completely distributive [[algebraic lattice]]s. 
+The category of Alexandroff locales is equivalent to that of [[completely distributive lattice|completely distributive]] [[algebraic lattice]]s. 
 =--
 
 This appears as ([Caramello, remark 4.3](#Caramello)).
@@ -181,3 +192,6 @@ A discussion of [[abelian sheaf cohomology]] on Alexandroff spaces is in
 [[!redirects Alexandroff locales]]
 [[!redirects Alexandrov locale]]
 [[!redirects Alexandrov locales]]
+
+[[!redirects completely distributive algebraic lattice]]
+[[!redirects completely distributive algebraic lattices]]
