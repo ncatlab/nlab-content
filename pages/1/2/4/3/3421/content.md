@@ -69,13 +69,7 @@ The [[universal construction]]s of [[category theory]] generalize, with unique e
 
 ## Related concepts
 
-* [[category theory]]
-
-* [[2-category theory]]
-
-* **$(\infty,1)$-category theory**
-
-* [[higher category theory]]
+[[!include table of category theories]]
 
 ## References
 
