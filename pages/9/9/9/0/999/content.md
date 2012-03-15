@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -10,7 +11,7 @@
 
 
 #Contents 
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -152,6 +153,8 @@ Hovey wants this result in view of a [[small object argument]] on the way to pro
 
 
 ## Related concepts
+
+* [[compact element]] (in a [[(0,1)-category]])
 
 * **compact object**
 
