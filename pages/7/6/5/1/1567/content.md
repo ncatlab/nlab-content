@@ -1,23 +1,51 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Definition
 
-A __distributive lattice__ is a [[lattice]] that satisfies the _distributivity laws_:
+
++-- {: .num_defn}
+###### Definition
+
+A __distributive lattice__ is a [[lattice]] in which [[join]] $\vee$ and [[meet]] $\wedge$ _distribute_ over each other, in that for all $x,y,z$ in the latiice, the _distributivity laws_ are satisfied:
 
 *  $x \vee (y \wedge z) = (x \vee y) \wedge (x \vee z)$,
 *  $x \wedge (y \vee z) = (x \wedge y) \vee (x \wedge z)$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
 
 The nullary forms of distributivity follow automatically:
 
 *  $x \vee \top = \top$,
 *  $x \wedge \bot = \bot$.
 
+Distributive lattices and [[lattice]] [[homomorphisms]] form a [[concrete category]] [[DistLat]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
 Any lattice that satisfies one of the two binary distributivity laws must also satisfy the other; isn\'t that nice?  This convenience does *not* extend to infintary distributivity, however.
 
-Distributive lattices and lattice [[homomorphisms]] form a [[concrete category]] [[DistLat]].
+=--
+
 
 
 ## Examples
@@ -26,12 +54,22 @@ Any [[Boolean algebra]], and even any [[Heyting algebra]], is a distributive lat
 
 ## Properties
 
-Every distributive lattice, regarded as a [[category]], is a _[[coherent category]]_.
+### Categorification
+
+Every distributive lattice, regarded as a [[category]] (a [[(0,1)-category]]), is a _[[coherent category]]_.
+
+Conversely, the notion of coherent category may be understood as a [[categorification]] of the notion of distributive lattices.
+
+### Completion
+
+
+
 
 ## Related concepts
 
+* [[completely distributive lattice]]
 
-A notion of extension of distributive lattices is  _[[canonical extension]]_.
+A notion of extension of distributive lattices to [[completely distributive lattices]] is  _[[canonical extension]]_.
 
 
 [[!redirects distributive lattices]]
