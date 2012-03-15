@@ -173,7 +173,7 @@ As discussed in the article on [[operad|operads]], the notion of Lawvere theory 
 
 ### Other examples
 
-* For $k$ a [[field], the category of _free $k$-associative algebras_ is the (syntactic category of the) theory of ordinary [[associative algebra]]s over $k$.
+* For $k$ a [[field]], the category of _free $k$-associative algebras_ is the (syntactic category of the) theory of ordinary [[associative algebra]]s over $k$.
 
 * The category [[CartSp]] is the (syntactic category of the) theory of [[smooth algebra]]s. This is also a [[Fermat theory]].
 
