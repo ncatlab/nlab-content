@@ -233,6 +233,14 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 * [[John Duskin]], _Simplicial methods and the interpretation of "triple" cohomology_, number  163 in Mem. Amer. Math. Soc., 3, Amer. Math. Soc. (1975)
 
+Discussion of _topological_ simplicial principal bundles is in
+
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460))
+ {#RobertsStevenson}
+
+* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
+ {#Stevenson}
+
 
 [[!redirects simplicial principal bundles]]
 
