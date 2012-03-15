@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Topos Theory
-+-- {: .hide}
-[[!include topos theory - contents]]
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
 =--
 #### Algebra
 +--{: .hide}
