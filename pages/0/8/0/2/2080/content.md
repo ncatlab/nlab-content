@@ -34,7 +34,7 @@ If, in some context, $p$ entails $q$ (either semantically or syntactically), the
 =--
 In particular, this holds for [[classical logic]] and [[intuitionistic logic]].
 
-You can think of entailment as being an [[external hom]] and the conditional as being an [[internal hom]].  In particular, we expect these to be related as in a [[closed category]]:
+You can think of entailment as being an [[external hom]] (in the ambient [[lattice]]) and the conditional as being an [[internal hom]].  In particular, we expect these to be related as in a [[closed category]]:
 
 *  $ q \to r \vdash (p \to q) \to (q \to r) $,
 *  $ p \equiv \top \to p $,
