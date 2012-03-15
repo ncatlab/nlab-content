@@ -198,7 +198,7 @@ There is a second model structure on $sSet$ -- the **[[model structure for quasi
 * The fibrations $F$ are called variously **isofibrations** or **[[Kan fibration|quasi-fibration]]s**. As always, these are determined by the classes $C$ and $W$.
 Quasi-fibrations between Kan complexes they have a relatively simple description; they are precisely the maps that have the right lifting property with respect to the inner [[horn]] inclusions and also the inclusion $j_0 : * \rightarrow J$ where $*$ is the terminal simplicial set and $J$ is the nerve of the groupoid on two objects with one non-trivial isomorphism. 
 
-All objects are cofibrantly generated. The fibrant objects are precisely the quasi-categories.
+All objects are cofibrant. The fibrant objects are precisely the quasi-categories.
 
 This model structure is cofibrantly generated. The generating cofibrations are the set $I$ described above. There is no known explicit description for the generating trivial cofibrations.
 
