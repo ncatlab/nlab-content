@@ -62,3 +62,5 @@ The rules above are written so as to remain valid in logics without the [[exchan
 
 [[!redirects logical conjunction]]
 [[!redirects and]]
+
+[[!redirects logical conjunctions]]
