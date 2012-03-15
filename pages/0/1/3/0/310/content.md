@@ -6,11 +6,17 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
 =--
 =--
 
+
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
