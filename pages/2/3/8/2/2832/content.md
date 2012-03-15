@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include higher category theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
 #Contents#
 * automatic toc goes here
 {:toc}
@@ -16,3 +22,5 @@ Order theory, the study of [[orders]], is one of the main branches of [[mathemat
 In the context of [[(n,r)-category]] theory, ordinary [[category theory]] is the study of $(1,1)$-[[1-category|categories]]. Following the spirit of [[negative thinking]], we find that one dimention below this is not just [[set theory]] as the study of $(0,0)$-[[0-category|categories]], but a richer theory, that of $(0,1)$-categories. These are [[poset]]s: sets with order. Thus order theory is the study of $(0,1)$-categories.
 
 A comparative discussion of order theory as compared to category theory is at [[category theory vs order theory]].
+
+[[!redirects order theories]]
