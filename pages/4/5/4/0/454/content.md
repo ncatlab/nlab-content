@@ -1,5 +1,6 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -37,6 +38,14 @@ Thus, a lattice is a poset (or even a semilattice) with [[property-like structur
 
 Lattices and lattice homomorphims form a [[concrete category]] [[Lat]].
 
+
+## Related concepts
+
+* [[complete lattice]]
+
+* [[distributive lattice]]
+
+* [[frame]]
 
 [[!redirects lattices]]
 [[!redirects bisemilattice]]
