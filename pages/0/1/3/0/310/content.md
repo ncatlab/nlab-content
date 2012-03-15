@@ -87,7 +87,7 @@ Thus frames are extensionally the same thing as _[[complete lattice|complete]] H
 
 A [[locale]] is the same thing as a frame, but again the morphisms are different; they are reversed.
 
-Topologies that are Boolean algebras are the exception rather than the rule; basic examples include topologies of [[Stone spaces]]; see [[Stone duality]]. Another example is the topology of a [[discrete space]] $X$.
+Topologies that are [[Boolean algebras]] are the exception rather than the rule; basic examples include topologies of [[Stone spaces]]; see [[Stone duality]]. Another example is the topology of a [[discrete space]] $X$.
 
 
 ### To Boolean algebras 
@@ -96,7 +96,7 @@ In any Heyting algebra $L$, we may define a [[negation]] operator
 
 $$\neg\colon L^{op} \to L$$ 
 
-by $\neg x = (x \Rightarrow 0)$, where $0$ is the bottom element of the lattice. A Heyting algebra is Boolean if the [[double negation]] 
+by $\neg x = (x \Rightarrow 0)$, where $0$ is the bottom element of the lattice. A Heyting algebra is [[Boolean algebra|Boolean]] if the [[double negation]] 
 $$\neg \neg\colon L \to L$$ 
 coincides with the identity map; this gives one of many ways of defining a Boolean algebra. 
 
