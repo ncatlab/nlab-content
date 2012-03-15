@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher category theory
+#### $(0,1)$-Category theory
 +--{: .hide}
-[[!include higher category theory - contents]]
+[[!include (0,1)-category theory - contents]]
 =--
 =--
 =--
