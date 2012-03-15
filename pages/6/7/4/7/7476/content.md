@@ -15,6 +15,8 @@
   
   * [[join]], [[logical disjunction]], [[or]]
 
+  * [[regular element]], [[compact element]]
+
 * [[lattice of subobjects]]
 
 * [[complete lattice]], [[algebraic lattice]]
@@ -24,6 +26,8 @@
 **[[(0,1)-topos]]**
 
 * [[Heyting algebra]]
+
+  * [[Boolean algebra]]
 
 * [[frame]], [[locale]]
 
