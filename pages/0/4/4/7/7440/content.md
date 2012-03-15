@@ -21,18 +21,14 @@
 ## Idea
 
 The notion of _[[(∞,1)-category]]_ may be formulated [[internalization|internal]] to any other $(\infty,1)$-category with sufficient properties (with a rich enough [[internal logic]]). 
-This generalizes the notion of _[[internal category]]_ from [[category theory]] to [[(∞,1)-category theory]]. In fact, a _category object_ internal to an $(\infty,1)$-category is automatically, externally, an [[(∞,1)-category]].
+This generalizes the notion of _[[internal category]]_ from [[category theory]] to [[(∞,1)-category theory]]. In fact, an internal category in an $(\infty,1)$-category is automatically, externally, itself an [[(∞,1)-category]].
 
 
-Let $\mathcal{C}$ be an [[(∞,1)-category]].
+A category internal to some given $(\infty,1)$-category $\mathcal{C}$ is a [[simplicial object]] $A : \Delta^{op} \to \mathcal{C}$ in $\mathcal{C}$, where the object in degree $k$ are to be thought of as "the object of $k$-tuples of composable morphisms" in $A$. This is formalized by requiring the canonical morphisms $A_k \to A_1 \times_{A_0} \cdots \times_{A_0} A_1$ (into the iterated [[(∞,1)-pullback]] over the [[source]] and [[target]] maps) to be an [[equivalence in an (∞,1)-category|equivalence in]] $\mathcal{C}$ (the "[[Segal category|Segal condition]]"). 
 
-A general abstract way of defining an $(\infty,1)$-category $A$ _internal to_ $\mathcal{C}$ -- also called a _$(\infty,1)$-category object_ in $\mathcal{C}$ is to say that this is a [[simplicial object]] $A : \Delta^{op} \to \mathcal{C}$. The condition that the object $A_k$ in degree $k \in \mathbb{N}$ is to be thought of as the _object of sequences of composable morphisms of length $k$_ of $A$ is formalized by asking the canonical morphisms $A_k \to A_1 \times_{A_0} \cdots \times_{A_0} A_1$ (into the iterated [[(∞,1)-pullback]] over the [[source]] and [[target]] maps) to be an [[equivalence in an (∞,1)-category|equivalence in]] $\mathcal{C}$. In fact, this is literally just the definition of an [[internal category]] but interpreted in the [[internal logic]] of the $(\infty,1)$-category $\mathcal{C}$. Accordingly one may just as well equivalently speak just of a category object_ in $\mathcal{C}$.
+If $\mathcal{C}$ happens to be just a 1-category, then this already makes $A$ an [[internal category]]. Generally, however, $\mathcal{C}$ comes with its own notion of [[homotopy]], and one must ask in addition that the notion of [[equivalence in an (∞,1)-category|equivalence]] in $A$ is compatible with that in $\mathcal{C}$ (the "[[complete Segal space|completeness condition]]").
 
-Indeed, the obvious strengthening of this definition to enforce invertibility of [[morphisms]] yields the notion of [[groupoid object in an (∞,1)-category]], which could also be called an _[[internal ∞-groupoid]]_.
-
-Therefore, a further condition is necessary to ensure that the notion of [[homotopy]] in $\mathcal{C}$ is compatible with that in $A$ (this is caled the "completeness condition", see [below](#Completeness)).
-
-A general abstract [[(∞,1)-category theory|(∞,1)-category theoretic]] way of formalizing this is given in [Lurie, sections 1.1, 1.2](#Lurie). For historical reasons, the notion of _internal $(\infty,1)$-category_ there goes by the name _complete Segal space object_, in honor of the notion of a _[[complete Segal space]]_, which may be thought of as perceiving an ordinary [[(∞,1)-category]] as an internal $(\infty,1)$-category in $\mathcal{C} = $ [[∞Grpd]].
+A general abstract way of formalizing this is given in [Lurie, sections 1.1, 1.2](#Lurie). For historical reasons, the notion of _internal $(\infty,1)$-category_ there goes by the name _complete Segal space object_, in honor of the notion of a _[[complete Segal space]]_, which is an internal $(\infty,1)$-category in $\mathcal{C} = $ [[∞Grpd]].
 
 There are a variety of [[model category]] structures that [[presentable (infinity,1)-category|present]] the $(\infty,1)$-category of all internal $(\infty,1)$-categories in a suitable $\mathcal{C}$, which typically go as models for _complete Segal space objects_. The soundness of these models is discussed below in _[Model category presentations](#ModelCategoryPresentations)_ ([Lurie, section 1.5](#Lurie)).
 
@@ -130,16 +126,16 @@ See ([Lurie, example 1.1.4](#Lurie)).
 
 
 
-### Category objects in an $(\infty,1)$-topos
+### Internal category in an $(\infty,1)$-topos
  {#CategoryObjectInTopos}
 
-Let $\mathcal{C}$ be an [[(∞,1)-topos]].
+Let $\mathcal{C}$ be an [[(∞,1)-topos]]. Then every object of $\mathcal{C}$ may be thought of as an [[groupoid object in an (∞,1)-category|internal groupoid]], which facilitates the definition of internal categories. The general case is discussed [below](#InAnInfinity1Category).
 
 
 +-- {: .num_defn #PreCategoryObject}
 ###### Definition
 
-A **pre-category object** $X$ in $\mathcal{C}$ is a [[simplicial object]]
+An **internal precategory** $X$ in $\mathcal{C}$ is a [[simplicial object]]
 
 $$
   X : \Delta^{op} \to \mathcal{C}
@@ -152,7 +148,7 @@ $$
   \,.
 $$
 
-Write $PreCat(\mathcal{C})$ for the $(\infty,1)$-category of pre-category objects in $\mathcal{C}$, the [[full sub-(∞,1)-category]] of the [[simplicial objects]] on the pre-category objects.
+Write $PreCat(\mathcal{C})$ for the $(\infty,1)$-category of internal pre-categories in $\mathcal{C}$, the [[full sub-(∞,1)-category]] of the [[simplicial objects]] on the internal precategories.
 
 =--
 
@@ -161,7 +157,7 @@ This is called a _category object_ in ([Lurie, def. 1.1.1](#Lurie)).
 +-- {: .num_prop }
 ###### Proposition
 
-Every [[groupoid object in an (∞,1)-category|groupoid object in]] $\mathcal{C}$ is canonically a pre-category object. 
+Every [[groupoid object in an (∞,1)-category|groupoid object in]] $\mathcal{C}$ is canonically an internal pre-category. 
 Under this inclusion the groupoid objects form a [[coreflective sub-(∞,1)-category]] of that of pre-catgegory objects.
 
 $$
@@ -182,80 +178,155 @@ This is ([Lurie, prop. 1.1.14](#Lurie)).
 +-- {: .num_defn #CategoryObject}
 ###### Definition
 
-A **category object** in $\mathcal{C}$ is a pre-category object $X$, def. \ref{PreCategoryObject} such that its [[core]] $Core(X)$ is in the image of the inclusion $\mathcal{C} \hookrightarrow Grpd(\mathcal{C})$, prop. \ref{EmbeddingOfConstantGroupoidObjects}.
+An **internal category** in $\mathcal{C}$ is an internal pre-category $X$, def. \ref{PreCategoryObject} such that its [[core]] $Core(X)$ is in the image of the inclusion $\mathcal{C} \hookrightarrow Grpd(\mathcal{C})$, prop. \ref{EmbeddingOfConstantGroupoidObjects}.
 
 =--
 
-This is called a _complete Segal space object_ in ([Lurie, def. 1.2.10](#Lurie)).
+This is called a _[[complete Segal space]] object_ in ([Lurie, def. 1.2.10](#Lurie)).
 
-### Category objects in an $(\infty,1)$-category
+### Internal category in an $(\infty,1)$-category
+ {#InAnInfinity1Category}
 
-(...)
+More generally, we have internal categories in a more general $(\infty,1)$-category $\mathcal{C}$ after equipping this with a notion of internal groupoids.
 
-## Iterated internalization
-
-We introduce some conditions on an ambient $(\infty,1)$-category $\mathcal{C}$
-such that its $(\infty,1)$-category of internal $(\infty,1)$-categories is itself again a good context for internalization.
-
-
-The following definition is the specialization of the notion termed _absolute distributor_ in [Lurie, def. 1.2.1, 1.3.3](#Lurie) to [[(∞,1)-toposes]].
-
-+-- {: .num_defn #WellSuitedTopos}
++-- {: .num_defn #ChoiceOfInternalGroupoids}
 ###### Definition
 
-Call an [[(∞,1)-topos]] $\mathbf{H}$ **well-suited for iterated internalization** if 
-it is [[locally ∞-connected (∞,1)-topos|locally]] and [[∞-connected (∞,1)-topos|globally ∞-connected]],
+For $\mathcal{C}$ an [[presentable (∞,1)-category]], a **choice of internal groupoids** is
+a choice of presentable [[full sub-(∞,1)-category]] $\mathcal{X} \hookrightarrow \mathcal{C}$ such that
+
+* the inclusion is closed under small [[(∞,1)-limits]] and [[(∞,1)-colimits]], hence (by the [[adjoint (∞,1)-functor theorem]]) the inclusion is one of "[[discrete objects]]"
+
+  $$
+    \mathcal{C}
+     \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\hookleftarrow}}{\underset{\Gamma}{\to}}}
+    \mathcal{X}
+    \,;
+  $$
+
+* [[base change]] $f^* : \mathcal{X}_{/X} \to \mathcal{C}_{/Y}$ along morphisms $f : Y \to X$ with $X \in \mathcal{X}$ preserves [[(∞,1)-colimits]];
+
+* the [[codomain fibration]] of $\mathcal{C}$ is an [[(∞,2)-sheaf]] when restricted to $\mathcal{X}$: its [[(∞,1)-Grothendieck construction|classifying functor]] $\chi : \mathcal{C}^{op} \to $ [[(∞,1)Cat]] preserves [[(∞,1)-limits]] when restricted along $\mathcal{X} \hookrightarrow \mathcal{C}$.
 
 =--
 
-+-- {: .num_remark}
-###### Remark
+This is the definition of "distributor" in ([Lurie, def. 1.2.1](#Lurie)).
 
-Spelled out, this definition says the following.
++-- {: .num_prop }
+###### Proposition
 
-The first condition says that the [[global section]] [[geometric morphism]] $(Disc \dashv \Gamma)$ admits an extra [[left adjoint]] $\Pi$
+If $\mathcal{X} \simeq \mathcal{C}$ then $\mathcal{X}$ being a choice of internal groupoids is equivalent to $\mathcal{C}$ being an [[(∞,1)-topos]].
+
+=--
+
+This is ([Lurie, remark 1.2.2](#Lurie)).
+
++-- {: .proof}
+###### Proof
+
+By the [[Giraud theorem|(∞,1)-Giraud theorem]]. 
+
+=--
+
+
+
+In the following, let $\mathcal{C}$ be a [[presentable (∞,1)-category]] eqipped with a choice of internal groupoids $\mathcal{X} \hookrightarrow \mathcal{C}$, def. \ref{ChoiceOfInternalGroupoids}.
+
++-- {: .num_defn #PreCategoryObject}
+###### Definition
+
+An **internal precategory** $X$ in $\mathcal{C}$ relative to the choice of internal groupoids $\mathcal{X} \hookrightarrow \mathcal{C}$ is a [[simplicial object]]
+
+$$
+  X : \Delta^{op} \to \mathcal{C}
+$$
+
+such that for all $n \in \mathbb{N}$ $X$ exhibits $X([n])$ as the [[(∞,1)-limit]] / iterated [[(∞,1)-pullback]]
+
+$$
+  X([n]) \simeq X(\{0,1\}) \times_{X([0])} \cdots \times_{X[0]} X(\{n-1,n\})
+$$
+
+_and_ such that 
+
+* $X_0 \in \mathcal{X} \hookrightarrow \mathcal{C}$.
+
+Write $PreCat_{\mathcal{X}}(\mathcal{C})$ for the $(\infty,1)$-category of internal pre-categories in $\mathcal{C}$ relative to $\mathcal{X}$, the [[full sub-(∞,1)-category]] of the [[simplicial objects]] on the internal precategories.
+
+=--
+
+This is the definition of _Segal object_ in ([Lurie, def. 1.2.7](#Lurie)).
+
++-- {: .num_prop }
+###### Proposition
+
+The inclusion
+
+$$
+  Grpd(\mathcal{X}) \hookrightarrow PreCat(\mathcal{X}) \hookrightarrow
+  PreCat_{\mathcal{X}}(\mathcal{C})
+$$
+
+has a [[right adjoint|right]] [[adjoint (∞,1)-functor]]
+
+$$
+  Core_{\mathcal{X}} : PreCat_{\mathcal{X}}(\mathcal{C}) \to Grpd(\mathcal{X})
+  \,.
+$$
+
+=--
+
+This is ([Lurie, prop. 1.1.14](#Lurie)).
+
++-- {: .num_defn }
+###### Definition
+
+An internal pre-category $A$ in $\mathcal{C}$ is called an **internal category** if 
+
+$$
+  Core_{\mathcal{X}}(A) \in \mathcal{X} \hookrightarrow Grpd(\mathcal{X})
+  \,.
+$$ 
+
+Write
+
+$$
+  Cat_{\mathcal{X}}(\mathcal{C}) \hookrightarrow PreCat_{\mathcal{X}}(\mathcal{C})
+$$
+
+for the [[full sub-(∞,1)-category]] of internal precategories on the internal categories.
+
+=--
+
+This is ([Lurie, def. 1.2.10](#Lurie)).
+
+
+### Enriched categories as internal categories
+
+The 1-categorical notion of [[enriched category]] is similar to that of [[internal category]], a main difference being that an internal category has an _object of objects_ in the ambient category $\mathcal{C}$, whereas an enriched category has a [[set]]/[[class]] of objects. If, however, $\mathcal{C}$ is equipped with a notion of [[discrete objects]], thought of as the inclusion of sets into $\mathcal{C}$, then $\mathcal{C}$-enriched categories may be thought of as those categories internal to $\mathcal{C}$ such that their object of objects is discrete.
+
+Accordingly, if for $\mathcal{C}$ a [[presentable (∞,1)-category]] equipped with a _choice of internal groupoids_ $\mathcal{X} \hookrightarrow \mathcal{C}$, def. \ref{ChoiceOfInternalGroupoids}, for $\mathcal{X} \simeq $ [[∞Grpd]], then an $A \in Cat_{\mathcal{X}}(\mathcal{C})$ by definition has a bare (external / [[discrete ∞-groupoid|discrete]]) $\infty$-groupoid "of objects". The underlying simplicial object is thus more like a [[Segal category]] object (though still different from that).
+
+In ([Lurie, def. 1.3.3](#Lurie)) such an choice of internal groupoids $\infty Grpd \hookrightarrow \mathcal{C}$ is called an "absolute distributor".
+
+
++-- {: .num_prop}
+###### Observation
+
+For $\mathcal{C} = \mathbf{H}$ an [[(∞,1)-topos]] over [[∞Grpd]], the [[inverse image]] of its [[global section]] [[geometric morphism]] $\infty Grpd \to \mathbf{H}$ is a _choice of internal groupoids_, def. \ref{ChoiceOfInternalGroupoids}, precisely if $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally]] and [[∞-connected (∞,1)-topos|globally ∞-connected]].
+
+=--
 
 $$
   (\Pi \dashv \Disc \dashv \Gamma)
   :
   \mathbf{H}
-   \stackrel{\stackrel{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}
+   \stackrel{\stackrel{\Pi}{\to}}{\stackrel{\overset{Disc}{\hookleftarrow}}{\underset{\Gamma}{\to}}}
    \infty Grpd
 $$
 
-and that the [[inverse image]] $Disc$ is [[full and faithful]]. The corresponding [[full sub-(∞,1)-category]] is called that of _[[discrete objects]]_.
-
-
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-In the terminology of ([Lurie](#Lurie)) this is indeed equivalent to $Disc : \infty Grpd \to \mathbf{H}$ being an "absolute distributor". The formulation there corresponds to the formulation here as follows.
-
-Item 1) and 3) of ([Lurie, def. 1.2.1](#Lurie)) are automatically satisfied by assumption that $\mathbf{H}$ is an [[(∞,1)-topos]]. With this, item 2) of ([Lurie, def. 1.2.1](#Lurie)) and item 1) of ([Lurie, def. 1.3.3](#Lurie)) precisely encode [[locally ∞-connected (∞,1)-topos|local]] and global [[∞-connected (∞,1)-topos|∞-connectedness]] (notice that by the [[adjoint (∞,1)-functor theorem]] for [[presentable (∞,1)-categories]] the condition that $Disc$ preserves [[(∞,1)-limits]] is equivalent to it having the further [[left adjoint]] $\Pi$).
-
-Finally notice that the version of item 4) of ([Lurie, def. 1.2.1](#Lurie)) available at time of this writing has a typo: it is indeed $\mathbf{H}^{op} \to CAT_{(\infty,1)}$ that is supposed to preserve $\infty$-limits, not $\mathbf{H} \to CAT_{(\infty,1)}^{op}$. This is clear from comparing with the proof of the next statement there, which is ([Lurie, prop. 1.2.4](#Lurie)).
-
-So this condition is that the [[(∞,1)-functor]] 
-
-$$
-  \chi_{cod} : \infty Grpd^{op} \to CAT_{(\infty,1)}
-$$ 
-
-to the [[universe enlargement|very large]] [[(∞,1)-category of (∞,1)-categories]] which 
-[[(∞,1)-Grothendieck construction|classifies]] the [[codomain fibration]] $cod : \mathbf{H}^I \to \mathbf{H}$ 
-restricted along $Disc$ to the [[discrete objects]], hence assigning to an [[∞-groupoid]] $S$ the [[over-(∞,1)-topos]]
-
-$$
-  \chi : S \mapsto \mathbf{H}_{/Disc(S)},
-$$
-
-satisfies [[descent]] with respect to the [[canonical topology]], hence that it preserves [[(∞,1)-limits]] (sends [[(∞,1)-colimits]] in [[∞Grpd]] to [[(∞,1)-limits]] in $\mathbf{H}$).
-
-But over an [[(∞,1)-topos]] the [[codomain fibration]] is always a [[canonical topology|canonical]] [[(∞,2)-sheaf]] (see there).
-
-=--
 
 
 ## Properties
@@ -265,10 +336,10 @@ But over an [[(∞,1)-topos]] the [[codomain fibration]] is always a [[canonical
 +-- {: .num_prop #CatIsReflectiveInSimpl}
 ###### Proposition
 
-The inclusion of category objects into all [[simplicial objects]]
+The inclusion of internal categories into all [[simplicial objects]]
 
 $$
-  Cat(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}
+  Cat_{\mathcal{X}}(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}
 $$
 
 is [[reflective sub-(∞,1)-category|reflective]].
@@ -290,7 +361,7 @@ Then then category $[\Delta^{op}, C]$ of [[simplicial objects]] in $C$ admits a 
 
 1. it is a [[Bousfield localization of model categories|left Bousfield localization]] of the injective or projective or [[Reedy model structure|Reedy]] [[model structure on functors]] $[\Delta^{op}, C]_{proj/inj/Reedy}$;
 
-1. an obect $\Delta^{op} \to C$ is [[fibrant object|fibrant]] precisely if it is fibrant in $[\Delta^{op}, C]_{proj/inj/Reedy}$ and if the corresponding simplicial object $\Delta^{op}\to C^\circ$ in the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by $C$ is a category object, def. \ref{CategoryObject}.
+1. an obect $\Delta^{op} \to C$ is [[fibrant object|fibrant]] precisely if it is fibrant in $[\Delta^{op}, C]_{proj/inj/Reedy}$ and if the corresponding simplicial object $\Delta^{op}\to C^\circ$ in the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by $C$ is an internal category.
 
 =--
 
@@ -308,7 +379,7 @@ By prop. \ref{CatIsReflectiveInSimpl} combined with ([[Higher Topos Theory|HTT, 
 ### Ordinary $(\infty,1)$-categories
  {#OrdinaryInfinityCategories}
 
-An ordinary [[(∞,1)-category]] is equivalently a category object in the [[(∞,1)-topos]] $\mathcal{C} :=$ [[∞Grpd]]:
+An ordinary [[(∞,1)-category]] is equivalently an internal category in the [[(∞,1)-topos]] $\mathcal{C} :=$ [[∞Grpd]]:
 
 $$
   Cat_{(\infty,1)} \simeq Cat(\infty Grpd)
@@ -317,11 +388,11 @@ $$
 
 Internal to [[∞Grpd]]
 
-* a pre-category object is known as a _[[Segal space]]_;
+* an internal pre-category is known as a _[[Segal space]]_;
 
-* a [[connected]] pre-category object is known as a _[[reduced Segal space]]_;
+* a [[connected]] internal pre-category is known as a _[[reduced Segal space]]_;
 
-* a category object is known as a _[[complete Segal space]]_.
+* an internal category is known as a _[[complete Segal space]]_.
 
 The model category presentations for $Cat(\infty Grpd)$ discussed [above](#ModelCategoryPresentations) are given in this case by the _[[model structure for complete Segal spaces]]_.
 
@@ -347,7 +418,7 @@ $$
   \,.
 $$
 
-Then the $(\infty,1)$-category $Cat(\mathcal{C})$ of category objects in $\mathcal{C}$ is, up to [[equivalence of (∞,1)-categories|equivalence]], the $(\infty,1)$-category of [[(∞,2)-categories]]
+Then the $(\infty,1)$-category $Cat(\mathcal{C})$ of internal categories in $\mathcal{C}$ is, up to [[equivalence of (∞,1)-categories|equivalence]], the $(\infty,1)$-category of [[(∞,2)-categories]]
 
 $$
   Cat(Cat(\infty Grpd))
