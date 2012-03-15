@@ -1,19 +1,215 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A [[semantics]] internal to a [[category]]. See [[internal logic]].
+One may interpret mathematical _[[logic]]_ as being a formal language for talking about the collection of [[monomorphisms]] into a given [[object]] of a given [[category]]: the [[poset of subobjects]] of that object.
+
+More generally, one may interpret [[type theory]] and notably [[dependent type theory]] as being a formal language for talking about [[slice categories]], consisting of all morphisms into a given object. 
+
+Conversely, starting with a given theory of logic or a given type theory, we say that it has a _categorical semantics_ if there is a category such that the given theory is that of its slice categories, if it is the _[[internal logic]]_ of that category.
+
+
 
 ## Definition
 
+### Of dependent type theory
+
+We discuss how to interpret judgements of [[dependent type theory]] in a given [[category]] $\mathcal{C}$ with [[finite limits]]. 
+
+Write $cod : \mathcal{C}^I \to \mathcal{C}$ for its [[codomain fibration]], and write 
+
+$$
+  \chi : \mathcal{C}^{op} \to Cat
+$$ 
+
+for the corresponding [[Grothendieck construction|classifying functor]], the self-[[indexed category|indexing]]
+
+$$
+  \chi : \Gamma \mapsto \mathcal{C}_{/\Gamma}
+$$ 
+
+that sends an [[object]] of $\mathcal{C}$ to the [[slice category]] over it, and sends a morphism $f : \Gamma \to \Gamma'$ to the [[pullback]]/[[base change]] functor 
+
+$$
+  f^\ast : \mathcal{C}_{/\Gamma'} 
+  \to 
+  \mathcal{C}_{/\Gamma}
+  \,.
+$$
+
+We give now rules for choices "$[x y z]$" that associate with every string "$x y z$" of symbols in [[type theory]] objects and morphisms in $\mathcal{C}$. A collection of such choices following these rules an _an interpretation_ / a choice of _categorical semantics_ of the type theory in the category $\mathcal{C}$.
+
+#### Contexts and type judgements
+
+1. The empty [[context]] $()$ in [[type theory]] is interpreted as the [[terminal object]] of $\mathcal{C}$
+
+   $$
+     [ () ] := *
+     \,.
+   $$
+
+1. If $\Gamma$ is a context which has already been given an interpretation $[\Gamma] \in Obj(\mathcal{C})$, then a judgement of the form
+
+   $$
+     \Gamma \vdash A : Type
+   $$
+
+   is interpreted as an object in the slice over $\Gamma$
+
+   $$
+     [\Gamma \vdash A : Type] \in Obj(\mathcal{C}_{/\Gamma})
+     \,,
+   $$
+
+   hence as a choice of morphism
+
+   $$   
+     \array{
+       [(\Gamma, x : A)]
+       \\
+       \downarrow^{\mathrlap{[\Gamma \vdash A : Type]}}
+       \\
+       [\Gamma]
+     }
+   $$
+
+   in $\mathcal{C}$.
+
+1. If a judgement of the form $\Gamma \vdash A : Type$ has already found an interpretation, as above, then an extended [[context]] of the form $(\Gamma, x : A)$ is interpreted as the domain object $[(\Gamma, x : A)]$ of the above choice of morphism.
+
+ 
+
+#### Terms
+
+Assume for a context $\Gamma$ and a judgement $\Gamma \vdash : A : Type$ we have already chosen an interpretation  $[\Gamma, x : A] \stackrel{[\Gamma \vdash A : Type]}{\to} [\Gamma]$ as above.
+
+A judgement of the form $\Gamma \vdash a : A$ (a [[term]] of [[type]] $A$) is to be interpreted as a [[section]] of this morphism, equivalently as a morphism in $\mathcal{C}_{/\Gamma}$ 
+
+$$   
+  [\Gamma \vdash : a : A] : * \to [\Gamma, x : A]
+$$
+
+from the [[terminal object]] to $[\Gamma \vdash A : Type]$, which in $\mathcal{C}$ is a [[commuting diagram|commuting triangle]]
+
+$$
+  \array{
+    [\Gamma] &&\stackrel{[(\Gamma \vdash a : A)]}{\to}&&
+    [\Gamma, x : A]
+    \\
+    & {}_\mathllap{[\Gamma]}\searrow
+    &&
+    \swarrow_{\mathrlap{[\Gamma \vdash A : Type]}}
+    \\
+    && [\Gamma]
+  }
+  \,.
+$$
+
+#### Variables
+
+For a term $\Gamma \vdash  a : A$ the context $\Gamma$ is the collection of [[free variables]] in $a$. 
+
 (...)
+
+
+#### Substitution 
+
+Assume that interpretations for judgements 
+
+$$
+  \Gamma , x : A \vdash B(x) : Type
+$$
+
+and
+
+$$
+  \Gamma \vdash  a : A
+$$
+
+have been given as above. Then the substitution judgement
+
+$$
+  \Gamma  \vdash B[a/x] : Type
+$$
+
+is to be interpreted as follows. The interpretation of the first two terms corresponds to a diagram in $\mathcal{C}$ of the form
+
+$$
+  \array{
+    &&&& [(\Gamma, x : A, y : B(x))]
+    \\
+    &&&&
+    \downarrow^{\mathrlap{[\Gamma, x : A \vdash B(x) : Type]}}
+    \\
+    [\Gamma] &&\stackrel{[\Gamma \vdash a : A]}{\to}&&
+     [(\Gamma, x : A)]
+    \\
+    & {}_{id}\searrow && \swarrow_{\mathrlap{[\Gamma \vdash A : Type]}}
+    \\
+    && [\Gamma]
+  }
+$$
+
+The interpretation of the substitution statement is then [[generalized the|the]] [[pullback]]
+
+$$
+  [\Gamma \vdash B[a/x] : Type]
+  :=
+  [\Gamma \vdash a : A]^* [\Gamma, x : A \vdash B(x) : Type]
+  \,,
+$$
+
+hence the morphism in $\mathcal{C}$ that universally completes the above diagram as
+
+$$
+  \array{
+    [(\Gamma, y : B[x/a])]
+    &&\to&& [(\Gamma, x : A, y : B(x))]
+    \\
+    {}^{\mathllap{[\Gamma \vdash B[a/x] : Type]
+}}\downarrow
+    &&&&
+    \downarrow^{\mathrlap{[\Gamma, x : A \vdash B(x) : Type]}}
+    \\
+    [\Gamma] &&\stackrel{[\Gamma \vdash a : A]}{\to}&&
+     [(\Gamma, x : A)]
+    \\
+    & {}_{id}\searrow && \swarrow_{\mathrlap{[\Gamma \vdash A : Type]}}
+    \\
+    && [\Gamma]
+  }
+$$
+
+
 
 ## References
 
-Section D1.2 of 
+A standard textbook reference for categorical semantics of logic is section D1.2 of 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
+A discussion of categorical semantics of type theory is for instance in 
+
+* [[Martin Hofmann]], _Syntax and semantics of dependent types_, Semantics and Logics of Computation (P. Dybjer and A. M. Pitts, eds.), Publications of the Newton Institute, Cambridge University Press, Cambridge, (1997) pp. 79-130.
+
+See also section B.3 of 
+
+* [[Michael Warren]], _Homotopy Theoretic Aspects of Constructive Type Theory_ ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
