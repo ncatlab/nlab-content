@@ -1002,10 +1002,13 @@ Some discussion of the $(\infty,1)$-category of $(\infty,1)$-sheaves on the cate
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 {#Dugger}
 
-Discussion of geometric realization of simplicial topological principal bundles is in 
+Discussion of [[geometric realization of simplicial topological spaces|geometric realization of simplicial topological]] principal bundles and of their [[classifying spaces]] is in 
 
-* [[nLab:David Roberts]], [[nLab:Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#StevensonRoberts">web</a>)
-{#RobertsStevenson}
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460))
+ {#RobertsStevenson}
+
+* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
+ {#Stevenson}
 
 
 [[!redirects Euclidean-topological infinity-groupoid]]
