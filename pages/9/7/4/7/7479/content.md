@@ -16,16 +16,36 @@
 
 ## Definition
 
-The _Sierpinski topos_ is the [[arrow category]] of [[Set]]. This is the [[category of presheaves]] over the [[interval category]] $\mathbf{2} = \{0 \to 1\}$. 
+The **Sierpinski [[topos]]** is the [[arrow category]] of [[Set]]. This is the [[category of presheaves]] over the [[interval category]] $\mathbf{2} = \{0 \to 1\}$. 
 
 The latter is, the category of non-empty [[open subsets]] of the [[Sierpinski space]], and its trivial [[Grothendieck topology]] is that inherited from the standard topology inherited from the inclusion into the [[category of opens]] of the Sierpinksi space.
 
+Similarly, the **Sierpinski [[(∞,1)-topos]]** is the arrow category $\infty Grpd^{\Delta[1]}$ of [[∞Grpd]]. This is the [[(∞,1)-category of (∞,1)-sheaves]] on $\Delta[1]$.
+
+
+
 ## Properties
 
-The Sierpinski topos is a [[cohesive topos]], see the discussion [here](http://ncatlab.org/nlab/show/cohesive+topos#FamiliesOfSets).
+### Homotopy type theory
+
+The [[Reedy model structure]] of [[simplicial presheaves]] on the [[interval category]] $[\Delta[1], sSet]_{Reedy}$ provides a [[univalence|univalent]] model for [[homotopy type theory]] in the Sierpinski $(\infty,1)$-topos ([Shulman](#Shulman))
+
+### Cohesion
+
+The Sierpinski topos is a [[cohesive topos]], see the discussion [here](cohesive+topos#FamiliesOfSets).
+
+The Sierpinski $(\infty,1)$-topos is a [[cohesive (∞,1)-topos]], see the discussion [here](cohesive+%28infinity%2C1%29-topos#CohesiveDiagramToposes).
 
 ## References
 
-Around remark B3.2.11 in 
+The Sierpinski topos is mentioned around remark B3.2.11 in 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+The homotopy type theory of the Sierpinski $(\infty,1)$-topos is discussed in 
+
+* [[Mike Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253)) 
+ {#Shulman}
+
+[[!redirects Sierpinski (∞,1)-topos]]
+[[!redirects Sierpinski (infinity,1)-topos]]
