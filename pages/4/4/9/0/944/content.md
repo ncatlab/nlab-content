@@ -23,6 +23,13 @@ The Sierpinski space is a classifier for closed subspaces of a [[topological spa
 
 In [[constructive mathematics]], it is important that $\{\top\}$ be open (and $\{\bot\}$ closed), rather than the other way around.  Indeed, the general definition (since we can\'t assume that every element is either $\top$ or $\bot$) is that a subset $P$ of $\Sigma$ is open as long as it is upward closed: $p \Rightarrow q$ and $p \in P$ imply that $q \in P$.  The ability to place a topology on $\Top(X,\Sigma)$ is fundamental to [[abstract Stone duality]], a constructive approach to general topology.
 
+## Related concepts
+
+* [[Sierpinski topos]]
+
+## References
+
+* [[Paul Taylor]],  _Foundations for computable topology -- 7 The Sierpinski space_ ([html](http://www.paultaylor.eu/ASD/foufct/sierpinski.html))
 
 [[!redirects Sierpiński space]]
 [[!redirects Sierpinski topology]]
