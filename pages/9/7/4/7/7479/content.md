@@ -66,7 +66,7 @@ That space $Sierp$, in turn, is
 
 * a [[locally contractible topological space]].
 
-By the discussion at _[[cohesive (∞,1)-topos]]_ every such may be thought of a a _fat point_, the abstract _cohesive blob_. In this case, this fat point _is_ the Sierpinski space.
+By the discussion at _[[cohesive (∞,1)-topos]]_ every such may be thought of as a _fat point_, the abstract _cohesive blob_. In this case, this fat point _is_ the Sierpinski space.
 
 
 ## References
