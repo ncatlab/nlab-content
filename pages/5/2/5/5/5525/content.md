@@ -273,7 +273,7 @@ $$
 =--
 
 The explicit statement that the sequence $G \to W G \to \bar W G$ is a model for the looping fiber sequence appears on p. 239 of _[[Crossed Menagerie]]_ .
-The universality of $W G \to \bar W G$ for $G$-principal simplicial bundles is the  topic of section 21 in ([May](#May)), where however it is not made explicit that the ``[[twisted cartesian product]]s'' considered there are precisely the models for the 
+The universality of $W G \to \bar W G$ for $G$-principal simplicial bundles is the  topic of section 21 in ([May](#May)), where however it is not made explicit that the "[[twisted cartesian product]]s" considered there are precisely the models for the 
 pullbacks as above. This is made explicit on page 148 of _[[Crossed Menagerie]]_.
 
 In _[[Euclidean-topological ∞-groupoid]]_ we discuss how this model of discrete principal $\infty$-bundles
