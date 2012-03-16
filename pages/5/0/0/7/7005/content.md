@@ -233,6 +233,9 @@ A guided walk through the formal proof that univalence implies functional extens
 * [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
  {#BauerLumsdaine}
 
+A discussion of univalence in [[categories of presheaves]] over an [[inverse category]] with values in a category for which univalence is already established is discussed in 
+
+* [[Michael Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
 
 For more references see _[[homotopy type theory]]_.
 
