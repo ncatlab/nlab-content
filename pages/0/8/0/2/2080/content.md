@@ -1,48 +1,44 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(0,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
 =--
 =--
 
-
-
-
 # Implication
 * table of contents
 {: toc}
-
 
 ## Definitions
 
 An _implication_ may be either an _entailment_ or a _conditional_ statement; these are closely related but not quite the same thing.
 
-__Entailment__ is a [[preorder]] on statements within a given [[context]] (including which [[logic]] is being used).  We say that $p$ entails $q$ _semantically_, written $p \vdash q$, if $q$ can be proved from the assumption $p$.  We say that $p$ entails $q$ _syntactically_, written $p \vDash q$, if $q$ holds in every [[model]] in which $p$ holds.  (These relations are often equivalent, by various [[soundness theorem|soundness]] and [[completeness theorem|completeness]] theorems.)  Notice that while $p$ and $q$ are statements in some _object language_ (the language that we are talking about), $p \vdash q$ and $p \vDash q$ are statements in the _metalanguage_ (the language that we are using to talk about the object language).
+__Entailment__ is a [[preorder]] on [[propositions]] within a given [[context]] in a given [[logic]].  We say that $p$ entails $q$ _syntactically_, written $p \vdash q$, if $q$ can be [[proof|proved]] from the assumption $p$.  We say that $p$ entails $q$ _semantically_, written $p \vDash q$, if $q$ holds in every [[model]] in which $p$ holds.  (These relations are often equivalent, by various [[soundness theorem|soundness]] and [[completeness theorem|completeness]] theorems.)  Notice that while $p$ and $q$ are statements in some _object language_ (the language that we are talking about), $p \vdash q$ and $p \vDash q$ are statements in the _metalanguage_ (the language that we are using to talk about the object language).
 
-A __conditional__ statement is the result of an operation on statements within a given context.  If $p$ and $q$ are statements in some logic, then so is the conditional statement $p \to q$ (at least if that logic has a notion of conditional).  Notice that $p$, $q$, and $p \to q$ are all statements in the _object_ language.
+A __conditional__ statement is the result of a [[binary operation]] on [[propositions]] within a given [[context]] in a given [[logic]].  If $p$ and $q$ are propositions in some context, then so is the conditional statement $p \to q$, at least if the logic has a notion of conditional.  Notice that $p$, $q$, and $p \to q$ are all statements in the _object_ language.
 
 
 ## Relation of these
 
 Depending on what logic one is using, $p \to q$ might be anything, but it\'s probably not fair to consider it a conditional statement unless it is related to entailment as follows:
 +-- {: .standout}
-If, in some context, $p$ entails $q$ (either semantically or syntactically), then $p \to q$ is a theorem (semantically) or a tautology (syntactically) in that context, and conversely.
+If, in some context, $p$ entails $q$ (either syntactically or semantically), then $p \to q$ is a [[theorem]] (syntactically) or a [[tautology]] (semantically) in that context, and conversely.
 =--
 In particular, this holds for [[classical logic]] and [[intuitionistic logic]].
 
-You can think of entailment as being an [[external hom]] (in the ambient [[lattice]]) and the conditional as being an [[internal hom]].  In particular, we expect these to be related as in a [[closed category]]:
+You can think of entailment as being an [[external hom]] (taking values in the poset of [[truth values]]) and the conditional as being an [[internal hom]] (taking values in the poset of [[propositions]]).  In particular, we expect these to be related as in a [[closed category]]:
 
 *  $ q \to r \vdash (p \to q) \to (p \to r) $,
 *  $ p \equiv \top \to p $,
 *  $ \top \vdash p \to p $,
 
-where $\top$ is an appropriate constant statement (not necessarily satisfying $p \vdash \top$; compare [[linear logic]] with $\lolli$ for $\to$ and $1$ for $\top$).
+where $\top$ is an appropriate constant statement (often satisfying $p \vdash \top$, although not always, as in [[linear logic]] with $\multimap$ for $\to$ and $1$ for $\top$).
 
-Most kinds of logic have a notion of entailment from a [[list]] of multiple premises; then we expect entailment and the conditional to be related as in a closed [[multicategory]].
+Most kinds of logic used in practice have a notion of entailment from a [[list]] of multiple premises; then we expect entailment and the conditional to be related as in a closed [[multicategory]].
 
 Just as we may identify the internal and external hom in [[Set]], so we may identify the entailment and conditional of [[truth values]].  In the $n$Lab, we tend to write this as $\Rightarrow$, a symbol that is variously used by other authors in place of $\vdash$, $\vDash$, and $\rightarrow$.
 
@@ -52,10 +48,16 @@ Just as we may identify the internal and external hom in [[Set]], so we may iden
 Although [[Heyting algebras]] were first developed as a way to discuss [[intuitionistic logic]], they appear in other contexts; but their characterstic feature is that they have an operation analogous to the conditional operation in logic, usually called __Heyting implication__ and denoted $\rightarrow$ or $\Rightarrow$.  If you use $\to$ and replace $\vdash$ above with the Heyting algebra\'s partial order $\leq$, then everything above applies.
 
 
-[[!redirects Heyting implication]]
+[[!redirects implication]]
+[[!redirects implications]]
+
 [[!redirects entailment]]
+[[!redirects entailments]]
+
 [[!redirects conditional]]
 [[!redirects conditionals]]
 [[!redirects conditional statement]]
 [[!redirects conditional statements]]
-[[!redirects implications]]
+
+[[!redirects Heyting implication]]
+[[!redirects Heyting implications]]
