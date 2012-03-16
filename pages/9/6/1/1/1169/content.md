@@ -19,11 +19,9 @@
 
 ## Idea
 
-A _Reedy category_ is a category $R$ equipped with a structure enabling the inductive construction of diagrams and natural transformations of shape $R$.  
+A _Reedy category_ is a [[category]] $R$ equipped with a structure enabling the inductive construction of [[diagrams]] and [[natural transformations]] of shape $R$.  
 
-The most important consequence of a Reedy structure on $R$ is the existence of a [[model category|model structure]] on the [[functor category]] $M^R$ whenever $M$ is a model category (no extra hypotheses on $M$ are required): the 
-
-* [[Reedy model structure]] .
+The most important consequence of a Reedy structure on $R$ is the existence of a certain [[model category|model structure]] on the [[functor category]] $M^R$ whenever $M$ is a [[model category]] (no extra hypotheses on $M$ are required): the _[[Reedy model structure]]_.
 
 ## Definition
 
@@ -70,7 +68,7 @@ Any ordinal is of course a direct category, and so is the subcategory $R_+$ of a
 
 ### Generalized Reedy category 
 
-One problem with the notion of Reedy category is that it is [[evil]]: it is not invariant under [[equivalence of categories]].  It's not hard to see that any Reedy category is necessarily skeletal.  In fact, it's even worse: no Reedy category can have _any_ nonidentity isomorphisms!  This is problematic for many $\Delta$-like categories such as the [[category of cycles]], Segal's category $\Gamma$, the [[tree category]] $\Omega$, and so on.  The concept of 
+One problem with the notion of Reedy category is that it is [[evil]]: it is not invariant under [[equivalence of categories]].  It's not hard to see that any Reedy category is necessarily [[skeletal category|skeletal]].  In fact, it's even worse: no Reedy category can have _any_ [[identity|nonidentity]] [[isomorphisms]]!  This is problematic for many $\Delta$-like categories such as the [[category of cycles]], Segal's category $\Gamma$, the [[tree category]] $\Omega$, and so on.  The concept of 
 
 * [[generalized Reedy category]],
 
