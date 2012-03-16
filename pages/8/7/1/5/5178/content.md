@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### $(\infty,2)$-Topos theory
++--{: .hide}
+[[!include (infinity,2)-topos theory - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -15,6 +21,8 @@
 
 ## Idea
 
+An _indexed category_ is a [[2-presheaf]].
+ 
 When doing [[category theory]] relative to a  [[base topos]] $S$ (or other more general sort of [[category]]), the objects of $S$ are thought of as replacements for [[sets]].  Since often in category theory we need to speak of "a set-indexed family of objects" of some category, we need a corresponding notion in "category theory over $S$."  An **$S$-indexed category** is a [[category]] $\mathbb{C}$ together with, for every [[object]] $X\in S$, a notion of "$X$-indexed family of objects of $\mathbb{C}$."
 
 ## Definition
@@ -211,6 +219,8 @@ This is ([Johnstone, prop. B1.3.17](#Johnstone)).
 
 
 ## Related concepts
+
+* [[indexed functor]]
 
 * [[indexed topos]]
 
