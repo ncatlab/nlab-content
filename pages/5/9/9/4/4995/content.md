@@ -994,9 +994,64 @@ This section is at
 * [[cohesive (∞,1)-topos -- structure ∞-sheaves]].
 
 
-## Examples {#Examples}
+## Examples 
+ {#Examples}
 
-+-- {: .un_prop}
+We list examples of cohesive $(\infty,1)$-toposes,
+both specific ones as well as classes of examples constructed in a certan way.
+
+### Cohesive diagrams in a cohesive $(\infty,1)$-topos
+ {#CohesiveDiagramToposes}
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathbf{H}$ be an cohesive $(\infty,1)$-topos.
+
+Let $D$ be a small [[diagram]] [[(∞,1)-category]] with [[initial object in an (∞,1)-category|initial object]] $\bottom$ and [[terminal object in an (∞,1)-category|terminal object]] $\top$. Write
+
+$$
+  (\bottom \dashv p \dashv \top)
+  :
+  D \stackrel{\overset{\bottom}{\hookleftarrow}}{\stackrel{\overset{p}{\to}}{\underset{\top}{\hookleftarrow}}}
+  *
+$$
+
+for the triple of [[adjoint (∞,1)-functors]] given by including $\bottom$ and $\top$.
+
+Then the [[(∞,1)-category of (∞,1)-functors|(∞,1)-functor category]] $\mathbf{H}^D$ is again a cohesive $(\infty,1)$-topos, the [[adjoint quadruple]] being the composite
+
+$$
+  \mathbf{H}^D
+   \stackrel{\overset{\top^*}{\to}}{\stackrel{\overset{p^*}{\hookleftarrow}}{\stackrel{\overset{\bottom^*}{\to}}{\underset{\bottom_*}{\hookleftarrow}}}}
+  \mathbf{H}
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\hookleftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\hookleftarrow}}}}
+  \infty Grpd
+  \,.
+$$
+
+=--
+
+In particular we have
+
++-- {: .num_cor}
+###### Corollary
+
+For $\mathbf{H}$ a cohesive $(\infty,1)$-topos, also its [[arrow category|arrow (∞,1)-category]] $\mathbf{H}^{\Delta[1]}$ is cohesive.
+
+=--
+
++-- {: .num_example #SierpinskiTopos}
+###### Example
+
+For $\mathbf{H} = $ [[∞Grpd]] ("discrete cohesion", see [below](#DiscreteInfinityGroupoids)) the corresponding cohesive $(\infty,1)$-topos $\infty Grpd^{\Delta[1]}$ is known as the _[[Sierpinski (∞,1)-topos]]_.
+
+=--
+
+
+### Over $\infty$-Cohesive sites of definition
+
++-- {: .num_prop}
 ###### Proposition
 
 Examples of [[∞-cohesive site]]s are
@@ -1013,26 +1068,27 @@ Examples of [[∞-cohesive site]]s are
 
 From this one obtains the following list of examples of cohesive $(\infty,1)$-toposes.
 
-### Discrete $\infty$-groupoids
+#### Discrete $\infty$-groupoids
+ {#DiscreteInfinityGroupoids}
 
 * [[discrete ∞-groupoid]]
 
 
-### Topological $\infty$-groupoids
+#### Topological $\infty$-groupoids
 
 * [[Euclidean-topological ∞-groupoid]]
 
 * [[locally contractible topological ∞-groupoid]]
 
 
-### Smooth $\infty$-groupoids
+#### Smooth $\infty$-groupoids
 
 * [[smooth ∞-groupoid]]
 
 * [[synthetic differential ∞-groupoid]]
 
 
-### Super $\infty$-groupoids
+#### Super $\infty$-groupoids
 
 * [[super ∞-groupoid]]
 
