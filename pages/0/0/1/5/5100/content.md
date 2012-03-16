@@ -6,12 +6,22 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### $(\infty,2)$-Topos theory
++--{: .hide}
+[[!include (infinity,2)-topos theory - contents]]
+=--
 =--
 =--
 
 #Contents#
 * table of contents
 {:toc}
+
+## Idea
+
+An _[[indexed category]]_ is a [[2-presheaf]]. An _indexed functor_ is a [[morphism]] of 2-presheaves.
+
+The "indexed"-terminology here is traditional in 1-[[topos theory]] and hence indexed functors are usually considered only between [[pseudofunctors]] (as opposed to more general [[2-functors]]).
 
 ## Definition
 
@@ -22,5 +32,11 @@ Then an **$\mathbb{E}$-indexed functor** $F:{\mathbb{C}}\to{\mathbb{D}}$ is a [[
 ## Related concepts
 
 * [[indexed adjoint functor theorem]]
+
+## References
+
+Section B1 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 [[!redirects indexed functors]]
