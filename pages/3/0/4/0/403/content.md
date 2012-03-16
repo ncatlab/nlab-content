@@ -219,7 +219,11 @@ A detailed discussion with emphasis on the correct [[anafunctor]] morphisms betw
 
 * [[David Roberts]], _Internal categories, anafunctors and localization_ (2010) ([pdf](http://nlab.mathforge.org/davidroberts/files/ICAL.pdf))
 
-Discussion with emphasis on [[topos theory]] is in section V7 of 
+Discussion with emphasis on [[topos theory]] is in section B.2.3 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+and in section V.7 of 
 
 * [[Sauders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
