@@ -13,6 +13,8 @@
 
   * [[locally full sub-2-category]]
 
+  * [[reflective sub-2-category]]
+
 * [[localizing subcategory]]
 
 * [[sub-(∞,1)-category]] ([[sub-(infinity,1)-category - internal formulation|internal formulation]])
