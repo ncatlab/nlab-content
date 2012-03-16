@@ -17,7 +17,7 @@
 
 A **Heyting category** is a [[coherent category]] in which each [[base change]] functor $f^*:Sub(Y)\to Sub(X)$ has a _[[right adjoint]]_ $\forall_f$ (in addition to the [[left adjoint]] that exists in any [[regular category]]).  
 
-It follows that each [[poset of subsets]] $Sub(X)$ is a [[Heyting algebra]] and the base-change functors $f^*$ are Heyting algebra homomorphisms.  Any Heyting category has an [[internal logic]] which is full (typed) [[first order logic|first-order]] [[intuitionistic logic]]. The extra right adjoint $\forall_f$ provided by the above axiom gives the [[universal quantifier]] in this logic.
+It follows that each [[poset of subobjects]] $Sub(X)$ is a [[Heyting algebra]] and the base-change functors $f^*$ are Heyting algebra homomorphisms.  Any Heyting category has an [[internal logic]] which is full ([[type theory|typed]]) [[first order logic|first-order]] [[intuitionistic logic]]. The extra right adjoint $\forall_f$ provided by the above axiom gives the [[universal quantifier]] in this logic.
 
 A **Heyting functor** is a [[coherent functor]] betwen Heyting categories which additionally preserves the right adjoints $\forall_f$.  Such functors also preserve the [[internal logic|internal interpretation]] of [[first-order logic]].
 
