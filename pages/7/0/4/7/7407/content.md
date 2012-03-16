@@ -36,10 +36,13 @@ $$
   (A \dashv S)
   :
   CoherentCat 
-   \stackrel{\overset{A}{\leftarrow}}{\underset{S}{\to}}
+   \stackrel{\overset{A}{\leftarrow}}{\underset{S}{\hookrightarrow}}
   CoherentHyperdoctrine
-  \,.
 $$
+
+with the [[right adjoint]] being a [[full and faithful 2-functor]], hence exhibiting $CoherentCat$ as a [[reflective sub-2-category]] of $CoherentHyperdoctrine$.
+
+(Here $CoherentCat$ has as [[2-morphisms]] those [[natural transformations]] that preserve finite products.)
 
 This appears as ([Coumans, prop. 8](#Coumans)).
 
