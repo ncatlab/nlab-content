@@ -101,7 +101,7 @@ $$
   [(\mathcal{C} \rtimes \mathbb{D})^{op}, Set]
 $$
 
-between the category of internal presheaves in $\mathcal{E}$ over the internal category $\mathbb{D}$, and external presheaves over the semidirect product site $\mathcal{C} \rtimes \mathbb{D}$.
+between the [[category of internal presheaves]] in $\mathcal{E}$ over the internal category $\mathbb{D}$, and external presheaves over the semidirect product site $\mathcal{C} \rtimes \mathbb{D}$.
 
 =--
 
@@ -127,7 +127,7 @@ $$
   Sh_{J \rtimes K}(\mathcal{C} \rtimes \mathbb{D})
 $$
 
-between internal [[sheaves]] in $\mathcal{E}$ on $\mathbb{D}$ and external sheaves on the semidirect product site $J \rtimes K$.
+between [[internal sheaves]] in $\mathcal{E}$ on $\mathbb{D}$ and [[sheaf|external sheaves]] on the semidirect product site $J \rtimes K$.
 
 Moreover, the [[projection]] [[functor]] $P : \mathcal{C} \rtimes \mathbb{D}$ is [[cover]]-reflecting and induces a [[geometric morphism]]
 
@@ -149,6 +149,8 @@ This appears as ([Johnstone, prop. C2.5.4](#Johnstone)).
 * [[site]]
 
 * [[internal locale]], [[internal sheaf]]
+
+* [[internalization]], [[internal logic]]
 
 ## References
 
