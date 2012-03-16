@@ -16,25 +16,58 @@
 
 ## Definition
 
-The **Sierpinski [[topos]]** is the [[arrow category]] of [[Set]]. This is the [[category of presheaves]] over the [[interval category]] $\mathbf{2} = \{0 \to 1\}$. 
+The **Sierpinski [[topos]]** is the [[arrow category]] of [[Set]]. This is the [[category of presheaves]] over the [[interval category]] $\Delta[1] := \mathbf{2} = \{0 \to 1\}$, or equivalently the [[category of sheaves]] over the [[Sierpinski space]].
 
-The latter is, the category of non-empty [[open subsets]] of the [[Sierpinski space]], and its trivial [[Grothendieck topology]] is that inherited from the standard topology inherited from the inclusion into the [[category of opens]] of the Sierpinksi space.
+$$
+  Sh(Sierp) \simeq PSh(\Delta[1]) \simeq Set^{\Delta[1]}
+  \,.
+$$
 
-Similarly, the **Sierpinski [[(∞,1)-topos]]** is the arrow category $\infty Grpd^{\Delta[1]}$ of [[∞Grpd]]. This is the [[(∞,1)-category of (∞,1)-sheaves]] on $\Delta[1]$.
+Similarly, the **Sierpinski [[(∞,1)-topos]]** is the arrow category $\infty Grpd^{\Delta[1]}$ of [[∞Grpd]]. This is the [[(∞,1)-category of (∞,1)-sheaves]] on $Sierp$ and on $\Delta[1]$
+
+$$
+  Sh_{(\infty,1)}(Sierp)
+  \simeq
+  PSh_{(\infty,1)}(\Delta[1])
+  \simeq
+  \infty Grpd^{\Delta[1]}
+  \,.
+$$
 
 
 
 ## Properties
 
-### Homotopy type theory
+### Presentation and Homotopy type theory
 
-The [[Reedy model structure]] of [[simplicial presheaves]] on the [[interval category]] $[\Delta[1], sSet]_{Reedy}$ provides a [[univalence|univalent]] model for [[homotopy type theory]] in the Sierpinski $(\infty,1)$-topos ([Shulman](#Shulman))
+Being a [[(∞,1)-category of (∞,1)-functors]], the Sierpinski [[(∞,1)-topos]] is [[presentable (∞,1)-category|presented]] by any of the [[model structure on simplicial presheaves]]  $[\Delta[1], sSet]$.
 
-### Cohesion
+Specifically the [[Reedy model structure]] of [[simplicial presheaves]] on the [[interval category]] $[\Delta[1], sSet]_{Reedy}$ provides a [[univalence|univalent]] model for [[homotopy type theory]] in the Sierpinski $(\infty,1)$-topos ([Shulman](#Shulman))
 
-The Sierpinski topos is a [[cohesive topos]], see the discussion [here](cohesive+topos#FamiliesOfSets).
+### Connectedness, locality, cohesion
+
+The Sierpinski topos is a _[[cohesive topos]]_, see the detailed discussion [here](cohesive+topos#FamiliesOfSets).
 
 The Sierpinski $(\infty,1)$-topos is a [[cohesive (∞,1)-topos]], see the discussion [here](cohesive+%28infinity%2C1%29-topos#CohesiveDiagramToposes).
+
+The fact that the Sierpienski $(\infty,1)$-topos is, therefore, in particular 
+
+* a [[locally ∞-connected (∞,1)-topos]];
+
+* an [[∞-connected (∞,1)-topos]];
+
+* a [[local (∞,1)-topos]]
+
+all follow directly from the fact that is the image, under [[localic reflection]], of the [[Sierpinski space]] (that it is [[n-localic (∞,1)-topos|0-localic]], its [[n-truncated|(-1)-truncation]] being the [[frame]] of opens of the Sierpinski space).
+
+That space $Sierp$, in turn, is
+
+* a [[contractible topological space]];
+
+* a [[locally contractible topological space]].
+
+By the discussion at _[[cohesive (∞,1)-topos]]_ every such may be thought of a a _fat point_, the abstract _cohesive blob_. In this case, this fat point _is_ the Sierpinski space.
+
 
 ## References
 
@@ -42,7 +75,7 @@ The Sierpinski topos is mentioned around remark B3.2.11 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
-The homotopy type theory of the Sierpinski $(\infty,1)$-topos is discussed in 
+The [[homotopy type theory]] of the Sierpinski $(\infty,1)$-topos is discussed in 
 
 * [[Mike Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253)) 
  {#Shulman}
