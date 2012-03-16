@@ -22,7 +22,7 @@ The latter is, the category of non-empty [[open subsets]] of the [[Sierpinski sp
 
 ## Properties
 
-The Sierpinski topos is a [[cohesive topos]], see the disussion [here](nlab/show/cohesive%20topos#FamiliesOfSets).
+The Sierpinski topos is a [[cohesive topos]], see the discussion [here](http://ncatlab.org/nlab/show/cohesive+topos#FamiliesOfSets).
 
 ## References
 
