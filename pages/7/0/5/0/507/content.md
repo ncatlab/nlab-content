@@ -213,6 +213,12 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[bounded topos]]
 
+#### B3.2 Diaconescu's theorem
+
+* [[Diaconescu's theorem]]
+
+* [[Sierpinski topos]]
+
 
 ## C Toposes as Spaces
 
