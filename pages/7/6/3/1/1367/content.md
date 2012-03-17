@@ -93,7 +93,7 @@ Let
   its full [[sSet]]-subcategory of fibrant cofibrant objects;
 
 * $[C,A]$ the [[sSet]]-[[enriched functor category]] equipped with either
-  the injective or projective [[global model structure on functors]] and
+  the injective or projective [[global model structure on functors]] -- here: the injective or injective [[model structure on sSet-enriched presheaves]] -- and
   $[C,A]^\circ$ its full [[sSet]]-[[subcategory]] 
   on fibrant-cofibrant objects.
 
@@ -153,17 +153,18 @@ is an $(\infty,1)$-equivalence in that it is a weak equivalence in the
 
 =--
 
+This is ([Lurie, prop. 4.2.4.4](#Lurie)).
+
 +-- {: .proof}
 ###### Proof
 
-This is [[Higher Topos Theory|HTT, prop. 4.2.4.4]].
 
 The strategy is to show that the objects on both sides are [[exponential object]]s in the [[homotopy category]] of $sSet_{Joyal}$, hence isomorphic there.
 
 That $Func(N(C), N(A^\circ)) \simeq (N(A^\circ))^{N(C)}$
 is an exponential object in the homotopy category is pretty immediate.
 
-That the left hand is an isomorphic exponential follows from [[Higher Topos Theory|HTT, corollary  A.3.4.12]], which asserts that for $C$ and $D$ $sSet$-[[enriched categories]] with $C$ cofibrant and $A$ as above, we have that composition with the evaluation map induces a bijection
+That the left hand is an isomorphic exponential follows from ([Lurie, corollary  A.3.4.12](#Lurie)), which asserts that for $C$ and $D$ $sSet$-[[enriched categories]] with $C$ cofibrant and $A$ as above, we have that composition with the evaluation map induces a bijection
 
 $$
   Hom_{Ho(sSet Cat)}(D, [C,A]^\circ)
@@ -194,12 +195,9 @@ Let $D$ be a small quasi-category. Then
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This is [[Higher Topos Theory|HTT, corollary 5.1.2.3]]
+This is ([Lurie, corollary 5.1.2.3](#Lurie)).
 
-=--
 
 
 
@@ -224,6 +222,7 @@ This is [[Higher Topos Theory|HTT, corollary 5.1.2.3]]
 The intrinsic definition is in section 1.2.7 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 The discussion of [[model category]] models is in A.3.4.
 
