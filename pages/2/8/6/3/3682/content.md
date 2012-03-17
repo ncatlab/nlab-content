@@ -80,7 +80,7 @@ be the [[sSet]]-[[enriched functor]] induced by precomposition with $f$.
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Definition/Proposition
 
 
@@ -161,7 +161,7 @@ The statement of the Quillen adjunctions appears as [[Higher Topos Theory|HTT, p
 =--
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Since intrinsically Kan extensions, as every universal construciton, are supposed to be only defined up to weak equivalence, it is sometimes useful to make the extra freedom of choosing any weakly equivalent object explicit by the following definition.
@@ -181,7 +181,7 @@ Recall that for $F : C \to A$ an ordinary [[functor]] between ordinary [[categor
 
 The analogous statement here is that all homotopy limits are determined by homotopy limits in $sSet_{Quillen}$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $F \in [C,A]$ and $G \in [C',A]$ be fibrant in the projective [[model structure on functors]]. Then a morphism $\eta : G \to f_* F$ exhibts $G$ as a homotopy right Kan extension of $F$ precisely if for each cofibrant $a \in A$ -- equivalently for each fibrant-cofibrant $a \in A$ -- the morphism
@@ -241,7 +241,7 @@ Conversely, if $\eta_a: A(a,G(-)) \to A(a,f_* F(-))$ is a weak equivalence for a
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Notice that the statement makes sense in the full $sSet$-subcategory $A^\circ$ on fibrant-cofibrant objects of $A$, without needing any further mentioning on the model category structure on $A$, only that on $sSet_{Quillen}$ is involved. This allows to define homotopy Kan extensions in arbitrary Kan-complex enriched categories, which may or may not arise as $A^\circ$ for A a simplicial model category. This is discussed below.
@@ -261,7 +261,7 @@ The above characterization of homotopy Kan extensions in simplicial combinatoria
 Accordingly, this characterization makes sense for $A$ any locally fibrant $sSet_{Quillen}$-enriched category, i.e. for every Kan-complex-enriched category:
 
 
-+-- {: .un_definition}
++-- {: .num_definition}
 ###### Definition
 
 For $A$ a [[Kan complex]]-[[enriched category]] and $f : C \to C'$ an [[enriched functor]] of small [[sSet]]-[[enriched categories]], 
@@ -281,7 +281,7 @@ If the diagram category $C'$ is the terminal $sSet$-category, the left and right
 
 #### Characterization in terms of hom-adjuncts
 
-In that case that we are homotopy Kan extending to the point, if $\eta : G \to f_* F$ exhibits a right homotopy Kan extension, $G \in A$ is  a single object of $A$ and by adjunction this corresponds to a [[natural transformation]] $f^* G = const G \to F$, whose components are a collection of morphisms
+In thae case that we are homotopy Kan extending to the point, if $\eta : G \to f_* F$ exhibits a right homotopy Kan extension, $G \in A$ is  a single object of $A$ and by adjunction this corresponds to a [[natural transformation]] $f^* G = const G \to F$, whose components are a collection of morphisms
 
 $$
   \{ \eta_c : G \to F(c) \}_{c \in C}
@@ -289,8 +289,8 @@ $$
 
 in $A$. Then 
 
-+-- {: .un_corollary}
-###### Corllary
++-- {: .num_cor}
+###### Corollary
 
 The fact that $\eta$ exhibits a right homotopy Kan extension is equivalent to the statement that for all $a \in A$ the morphism
 
@@ -316,7 +316,7 @@ Analogously for homotopy colimits.
 
 The above considerations can be used to show that under the [[homotopy coherent nerve]], homotopy colimits in a Kan-complex enriched categories as defined above are [[limit in a quasi-category|quasi-categorical colimits]]:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ and $A$ Kan-complex-enriched categories and $F \in [C,A]$, a morphism $\eta : F \to const_q$ exhibits $q \in A$ as a homotopy colimit in $A$ in the above sense precisely  if for $N(f) : N(C) \to N(A)$ the corresponding morphism of [[quasi-categories]] under the [[homotopy coherent nerve]] and $N(f)^\triangleright : N(C)^\triangleright \to N(A)$ the extension to cones given by $\eta$, $N(f)^{\triangleright}$ is a [[limit in a quasi-category|quasi-categorical colimit diagram]].
