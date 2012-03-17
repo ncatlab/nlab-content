@@ -16,14 +16,26 @@
 
 ## Definition
 
-The **Sierpinski [[topos]]** is the [[arrow category]] of [[Set]]. This is the [[category of presheaves]] over the [[interval category]] $\Delta[1] := \mathbf{2} = \{0 \to 1\}$, or equivalently the [[category of sheaves]] over the [[Sierpinski space]].
++-- {: .num_defn }
+###### Definition
+
+The **Sierpinski [[topos]]** is the [[arrow category]] of [[Set]]. 
+
+Equivalently, this is the [[category of presheaves]] over the [[interval category]] $\Delta[1] := \mathbf{2} = \{0 \to 1\}$, or equivalently the [[category of sheaves]] over the [[Sierpinski space]] $Sierp$
 
 $$
   Sh(Sierp) \simeq PSh(\Delta[1]) \simeq Set^{\Delta[1]}
   \,.
 $$
 
-Similarly, the **Sierpinski [[(∞,1)-topos]]** is the arrow category $\infty Grpd^{\Delta[1]}$ of [[∞Grpd]]. This is the [[(∞,1)-category of (∞,1)-sheaves]] on $Sierp$ and on $\Delta[1]$
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Similarly, the **Sierpinski [[(∞,1)-topos]]** is the arrow category $\infty Grpd^{\Delta[1]}$ of [[∞Grpd]]. 
+
+Equivalently this is the [[(∞,1)-category of (∞,1)-presheaves]] on $\Delta[1]$ and equivalently the [[(∞,1)-category of (∞,1)-sheaves]] on $Sierp$:
 
 $$
   Sh_{(\infty,1)}(Sierp)
@@ -34,7 +46,7 @@ $$
   \,.
 $$
 
-
+=--
 
 ## Properties
 
@@ -46,28 +58,111 @@ Specifically the [[Reedy model structure]] of [[simplicial presheaves]] on the [
 
 ### Connectedness, locality, cohesion
 
-The Sierpinski topos is a _[[cohesive topos]]_, see the detailed discussion [here](cohesive+topos#FamiliesOfSets).
++-- {: .num_prop}
+###### Proposition
 
-The Sierpinski $(\infty,1)$-topos is a [[cohesive (∞,1)-topos]], see the discussion [here](cohesive+%28infinity%2C1%29-topos#CohesiveDiagramToposes).
+The Sierpinski topos is a _[[cohesive topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+See the detailed discussion [here](cohesive+topos#FamiliesOfSets).
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The Sierpinski $(\infty,1)$-topos is a [[cohesive (∞,1)-topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+See the discussion [here](cohesive+%28infinity%2C1%29-topos#CohesiveDiagramToposes).
+
+=--
+
++-- {: .num_remark}
+###### Remark
 
 The fact that the Sierpienski $(\infty,1)$-topos is, therefore, in particular 
 
-* a [[locally ∞-connected (∞,1)-topos]];
+1. a [[locally ∞-connected (∞,1)-topos]];
 
-* an [[∞-connected (∞,1)-topos]];
+1. an [[∞-connected (∞,1)-topos]];
 
-* a [[local (∞,1)-topos]]
+1. a [[local (∞,1)-topos]]
 
-all follow directly from the fact that is the image, under [[localic reflection]], of the [[Sierpinski space]] (that it is [[n-localic (∞,1)-topos|0-localic]], its [[n-truncated|(-1)-truncation]] being the [[frame]] of opens of the Sierpinski space).
+all follow directly from the fact that it is the image, under [[localic reflection]], of the [[Sierpinski space]] (that it is [[n-localic (∞,1)-topos|0-localic]], its [[n-truncated|(-1)-truncation]] being the [[frame]] of opens of the Sierpinski space).
 
-That space $Sierp$, in turn, is
+That space $Sierp$, in turn,
 
-* a [[contractible topological space]];
+1. is a [[contractible topological space]];
 
-* a [[locally contractible topological space]].
+1. a [[locally contractible topological space]].
 
-By the discussion at _[[cohesive (∞,1)-topos]]_ every such may be thought of as a _fat point_, the abstract _cohesive blob_. In this case, this fat point _is_ the Sierpinski space.
+1. has a [[focal point]]
 
+which implies the coresponding three properties of the Sierpinski $\infty$-topos above.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By the discussion at _[[cohesive (∞,1)-topos]]_ every such may be thought of as a _fat point_, the abstract _cohesive blob_. In this case, this fat point _is_ the Sierpinski space. This space can be thought of as being the abstract "point with open neighbourhood".
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+Accordingly, the objects of the Sierpienski $(\infty,1)$-topos may be thought of as [[∞-groupoids]] equipped with the notion of [[cohesive (∞,1)-topos|cohesion]] modeled on this: they are [[bundles]] $[P \to X]$ of [[∞-groupoids]] whose [[fibers]] are regarded as being [geometrically contractible](cohesive+%28infinity%2C1%29-topos+--+structures#Homotopy), in that
+
+$$
+  \Pi([P \to X]) \simeq X
+$$
+
+and so in particular
+
+$$
+  \Pi([Q \to *]) \simeq *
+  \,.
+$$
+
+Hence these objects are [[discrete ∞-groupoids]] $X$, to each of whose points $ x : * \to X$ may be attached a contractible cohesive blob with inner structure given by the $\infty$-groupoid $P_x := P \times_X \{x\}$.
+
+Accordingly, the _underlying_ $\infty$-groupoid of such a bundle $[P \to X]$ is the union
+
+$$
+  \Gamma([P \to X]) \simeq P
+$$
+
+of the discrete base space and the inner structure of the fibers.
+
+The [[discrete object]] in the Sierpienski $(\infty,1)$-topos on a [[discrete ∞-groupoid]] $X$ is the bundle 
+
+$$
+  coDisc(X) \simeq [X \stackrel{id}{\to} X]
+$$ 
+
+which is $X$ with "no cohesive blobs attached".
+
+Finally the [[codiscrete object]] in the Sierpinski $(\infty,1)$-topos on a [[discrete ∞-groupoid]] $X$ is 
+
+$$
+  coDisc(X) \simeq [X \to *]
+  \,,
+$$ 
+
+the structure where all of $X$ is regarded as one single contractible cohesive ball.
+
+=--
 
 ## References
 
