@@ -175,5 +175,9 @@ The [[homotopy type theory]] of the Sierpinski $(\infty,1)$-topos is discussed i
 * [[Mike Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253)) 
  {#Shulman}
 
+Cohesion of the Sierpinski $\infty$-topos is discussed in section 2.2.4 of
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
 [[!redirects Sierpinski (∞,1)-topos]]
 [[!redirects Sierpinski (infinity,1)-topos]]
