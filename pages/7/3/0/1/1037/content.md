@@ -718,9 +718,9 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[simplicially enriched category]]
 
-
 * [[combinatorial simplicial model category]]
 
+* [[excellent model category]]
 
 * [[model structure on sSet-categories]]
 
