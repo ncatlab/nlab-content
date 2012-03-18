@@ -5,7 +5,7 @@
 
 ## Idea
 
-The generalisation of [[ordered pair]] to something having more positions is usually called a *tuple* (or _ordered tuple_). More particularly one gets the term _$n$-tuple_, which refers to a list, $(x_1, \ldots, x_n)$, with $n$ entries from some set, $X$; here $n$ is a [[natural number]].  It thus corresponds to an element in the $n$-fold [[product set]], $X^n$. The various elements $x_i$ of the $n$-tuple are usually called its **components** and sometimes it is useful to call the set of components the **support** of the tuple.
+The generalisation of [[ordered pair]] to something having more positions is usually called a *tuple* (or _ordered tuple_). More particularly one gets the term _$n$-tuple_, which refers to a list, $(x_1, \ldots, x_n)$, with $n$ entries from some set, $X$; here $n$ is a [[natural number]].  It thus corresponds to an element in the $n$-fold [[product set]], $X^n$. The various elements $x_i$ of the $n$-tuple are usually called its **components** and sometimes it is useful to call the set of components the **support** or **range** of the tuple.
 
 
 ## Variations
