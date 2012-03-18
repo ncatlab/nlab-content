@@ -15,6 +15,7 @@ There are several generalizations to the noncommutative case. A difficult part i
 The commutative version is classical, and there is an extensive literature. Some of the recent works on commutative case, related to homotopy theory and stacks are
 
 * M. Hovey, _Homotopy theory of comodules over a Hopf algebroid_, [pdf](http://math.wesleyan.edu/~mhovey/papers/comodule.pdf); _Morita theory of Hopf algebroids_, [pdf](http://math.wesleyan.edu/~mhovey/talks/hopfalgebroids.pdf)
+* P. Goess, _Quasi-coherent sheaves on the Moduli Stack of Formal Groups_[pdf](http://www.math.northwestern.edu/~pgoerss/papers/modfg.pdf)
 * B. Walker, _Hopf algebroids and stacks_, [pdf](http://www.math.umn.edu/~tlawson/old/stackstalk.pdf)
 
 
