@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### &#201;tale morphisms
++--{: .hide}
+[[!include etale morphisms - contents]]
+=--
 =--
 =--
 
