@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### &#201;tale morphisms
++--{: .hide}
+[[!include etale morphisms - contents]]
+=--
 =--
 =--
 
