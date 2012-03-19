@@ -93,15 +93,18 @@ The axioms of $Th(Lex)$ are the axioms of $Th(Cat)$ plus the following:
 
 1. (Uniqueness of map to terminal) $(s(g) = s(h) \wedge t(g) = 1 = t(h)) \vdash g = h$
 
-1. $p(f, g, h, k) \vdash (s(f) = t(h) \wedge s(g) = t(k) \wedge t(f) = t(g) \wedge s(h) = s(k))$ 
+1. (Shape of pullback square) $p(f, g, h, k) \vdash (s(f) = t(h) \wedge s(g) = t(k) \wedge t(f) = t(g) \wedge s(h) = s(k))$ 
 
 1. (Square commutes) $p(f, g, h, k) \vdash f \circ h = g \circ k$)
 
-1. (Pullback: existence clause) 
+1. (Definition of pullback: existence clause) 
 $$(p(f, g, h, k) \wedge f \circ h' = g \circ k') \vdash \exists_i (s(i) = s(h') \wedge t(i) = s(h) \wedge h \circ i = h' \wedge k \circ i = k')$$ 
 
-1. (Pullback: uniqueness clause) 
+1. (Definition of pullback: uniqueness clause) 
 $$(p(f, g, h, k) \wedge s(i) = s(i') \wedge t(i) = s(h) = t(i') \wedge h \circ i = h \circ i' \wedge k \circ i = k \circ i') \vdash i = i'$$
+
+1. (Pullbacks exist)
+$$t(f) = t(g) \vdash \exists_h \exists_k p(f, g, h, k)$$
 
 =--
 
