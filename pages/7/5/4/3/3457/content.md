@@ -62,7 +62,7 @@ Zoran: I do not understand this statement. Analytic spaces have a different stru
 
 ## Axiomatization
 
-The idea of _&#233;tale morphisms_ can be axiomatized in any [[topos]]. See ([Joyal-Moerdijk 1994](#JoyalMoerdijk)) and ([Dubuc 2000](#Dubuc)).
+The idea of _&#233;tale morphisms_ can be axiomatized in any [[topos]]. This idea goes back to lectures by [[André Joyal]] in the 1970. See ([Joyal-Moerdijk 1994](#JoyalMoerdijk)) and ([Dubuc 2000](#Dubuc)).
 
 ## Related concepts
 
