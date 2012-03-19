@@ -6,12 +6,14 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
-#### Topos Theory
-+-- {: .hide}
-[[!include topos theory - contents]]
+#### &#201;tale morphisms
++--{: .hide}
+[[!include etale morphisms - contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
