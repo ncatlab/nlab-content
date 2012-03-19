@@ -142,7 +142,7 @@ $$M(f, g) \vdash \exists_h \Lambda(f, g, h)$$
 $$(\Lambda(f, g, h) \wedge \Lambda(f, g, h')) \vdash h = h'$$
 
 1. (Relations obtained by pulling back along classifying map) 
-$$\vdash \Lambda(f, g, h) \Leftrightarrow \exists_j (p(l, h, j, f) \wedge g = r  \circ j)$$
+$$\vdash \Lambda(f, g, h) \Leftrightarrow \exists_{j,l} (p(l, h, j, f) \wedge g = r(j))$$
 
 =--
 
