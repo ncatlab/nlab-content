@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### &#201;tale morphisms
++--{: .hide}
+[[!include etale morphisms - contents]]
+=--
 #### Higher geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
