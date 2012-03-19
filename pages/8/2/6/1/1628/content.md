@@ -64,6 +64,8 @@ In general, for every [[sheaf]] $A$ of sets on $Y$; there is a local homeomorphi
 
 ## Related concepts
 
+* [[étale map]], [[étale morphism]]
+
 * [[locally homeomorphic geometric morphism]]
 
 
