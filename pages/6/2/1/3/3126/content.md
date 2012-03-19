@@ -219,6 +219,10 @@ The definition and study of the notion is tangent $(\infty,1)$-categories is fro
 * [[Jacob Lurie]], _[[Deformation Theory]]_
  {#Lurie}
 
+and section 7.3 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
 [[!redirects tangent (infinity,1)-categories]]
 [[!redirects tangent (∞,1)-category]]
 [[!redirects tangent (∞,1)-categories]]
