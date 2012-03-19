@@ -160,7 +160,7 @@ The signature of $Th(ETCS)$ is obtained by adjoining to the signature of $Th(Top
 The axioms of $Th(ETCS)$ are obtained by adjoining to the axioms of $Th(Topos)$ the following further axioms: 
 
 1. ([[well-pointed topos|Well-pointedness]]: equality of maps $x \to y$ is detected by points $1 \to x$) 
-$$(s(f) = s(g) \wedge t(f) = t(g)) \vdash \forall_h (s(h) = 1 \wedge t(h) = s(f) \wedge f \circ h = g \circ h) \Rightarrow f = g$$ 
+$$(s(f) = s(g) \wedge t(f) = t(g)) \vdash \forall_h (s(h) = 1 \wedge t(h) = s(f) \Rightarrow f \circ h = g \circ h) \Rightarrow f = g$$ 
 
 1. ([[axiom of choice|Axiom of Choice]]: every epi $f$ admits a section $i$) 
 $$(\forall_{g, h} (t(f) = s(g) = s(h) \;\wedge\; t(g) = t(h) \;\wedge\; g \circ f = h \circ f) \;\Rightarrow\; g = h) \vdash \exists_i (s(i) = t(f) \;\wedge\; t(i) = s(f) \;\wedge\; f \circ i = t(f))$$
