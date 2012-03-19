@@ -1,4 +1,3 @@
-[[!redirects formally étale morphism]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -314,3 +313,8 @@ The general abstract formulation in terms of [[Q-categories]] and the realizatio
 
 
 [[!redirects formally etale]]
+
+[[!redirects formally étale morphism]]
+[[!redirects formally étale morphisms]]
+
+[[!redirects formally etale morphisms]]
