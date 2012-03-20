@@ -788,7 +788,7 @@ $$
 =--
 
 
-##### Complete Dendroidal Segal spaces to quasi-operads
+##### Complete dendroidal Segal spaces to quasi-operads
  {#DendroidalSegalSpacesToQuasiOperads}
 
 Write 
@@ -920,3 +920,6 @@ The model structure for dendroidal complete Segal spaces was introduced in
 
 * [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_ ([arXiv:1010.4956](http://arxiv.org/abs/1010.4956))
  {#CisinskiMoerdijk}
+
+[[!redirects dendroidal complete Segal space]]
+[[!redirects dendroidal complete Segal spaces]]
