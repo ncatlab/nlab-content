@@ -29,7 +29,7 @@ Typically this arises in situations where $D$ consist of the "same" objects as $
 
 ## Definition and Existence
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -46,7 +46,7 @@ Say a morphism in $D$ is a fibration or weak equivalence precisely if its image 
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Sufficient conditions for this to define a cofibrantly generated model category structure on $D$ are
@@ -61,7 +61,7 @@ Sufficient conditions for this to define a cofibrantly generated model category 
 
    * $D$ has a fibrant [[resolution|replacement]] functor;
 
-   * and $D$ has functorial [[path object]]s for fibrant objects
+   * and $D$ has functorial [[path objects]] for fibrant objects
      
      (meaning: a factorization of the [[diagonal]] $\Delta : A \to A \times A$ as a weak equivalence followed by a fibration (under $U$) $\Delta : A \stackrel{\simeq}{\to} P(A) \stackrel{fib}{\to} A \times A$, functorial in $A$).
 
@@ -85,7 +85,7 @@ The argument goes back to section II.4 of ([Quillen](#Quillen)). A proof for one
 
 ### General
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 If $C$ carries the structure of a [[right proper model category]], then also the transferred model structure on $D$ is right proper.
@@ -132,7 +132,7 @@ is a pullback diagram in $C$. Since by definition of the transferred model struc
 
 Often the underlying model category $C$ is an [[enriched model category]] over some [[monoidal model category]] $S$ and one wishes to transfer also the model enrichment.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 Assume the adjunction
