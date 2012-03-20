@@ -628,7 +628,7 @@ $$
   i : dSet = [\Omega^{op}, Set] \hookrightarrow [\Omega^{op}, sSet]
 $$ 
 
-for the evident [[full subcategory]] inclusion induced by regarding a set as a [[discrete object]] in [[simplicial sets]].
+for the evident [[full subcategory]] inclusion of [[dendroidal sets]] into dendroidal simplicial sets induced by regarding a set as a [[discrete object]] in [[simplicial sets]].
 
 +-- {: .num_theorem }
 ###### Theorem
@@ -711,20 +711,7 @@ Therefore the cofibrations in the two model structures do coincide.
 
 (Notice that a similar statement holds for the acyclic cofibrations, only that the generating set of acyclic cofibrations in $dSet_{CM}$ is, while known to exist, not known explicitly.)
 
-Therefore, by the same argument as in prop. \ref{SimplicialEnrichment}, $[\Delta^{op}, sSet_{CM}]_{LocConst}$ is a [[combinatorial simplicial model category]]. This allows us, by general properties of [[Bousfield localization of model categories|left Bousfield localization]], to determine the fibrant objects 
-of $[\Delta^{op}, dSet_{CM}]_{LocConst}$ as precisely the fibrant objects of $[\Delta^{op}, dSet_{CM}]_{Reedy}$ which are [[local objects]] with respect to $\{\Delta[n] \cdot \Omega[T] \to \Omega[T]\}$, hence the Reedy-fibrant objects $X$ for which 
-
-$$
-  [\Delta^{op}, dSet](\Omega[T], X ) \to [\Delta^{op}, dSet](\Delta[n] \cdot \Omega[T], X)
-$$
-
-is a weak equivalence. By the definition of [[tensoring]], this means equivalently that
-
-$$
-  [\Delta^{op}, dSet](\Omega[T], X_0 ) \to [\Delta^{op}, dSet](\Omega[T], X_n)
-$$
-
-is a weak equivalence, for all $T \in \Omega$.
+Next, to see that the fibrant objects also coincide...
 
 (...)
 
