@@ -43,7 +43,7 @@ First-order [[theory|theories]] are typically presented in terms of a [[signatur
 
 To make the exposition more readable, the theory will be built up in stages, together with some explanations (in parentheses) which do not belong to the formal theory, but which may aid comprehension. We also employ the standard device of abbreviating formulas, by declaring at various junctures definitions and notational conventions. 
 
-In formalizing universal properties, one very helpful purely logical abbreviation is the "exists-unique" quantifier $\exists !$. Namely, if $Q(x)$ is a formula in which a variable $x$ appears freely, then $\exists !_x Q(x)$ is shorthand for the conjunction of 
+In formalizing universal properties, one very helpful purely logical abbreviation is the "exists-unique" quantifier $\exists !$. Namely, if $Q(x)$ is a formula in which a variable $x$ appears freely, then $\exists ! x: Q(x)$ is shorthand for the conjunction of 
 
 $$(\exists_x Q(x))$$ \wedge 
 
@@ -96,28 +96,19 @@ The notation $f \circ g$ denotes the unique $h$ for which $c(f, g, h)$, whenever
 
 We define the [[theory]] $Th(Lex)$ of [[finitely complete categories]].
 
-The [[signature]] of $Th(Lex)$ is obtained by adjoining to the signature of $Th(Cat)$ the following:  
-
-* A nullary function symbol (i.e., a constant) $1$, 
-
-* A quaternary predicate $p$. 
-
-(The intended interpretation is that $1$ is a [[terminal object]], and that $p(f, g, h, k)$ means $f \circ h = g \circ k$, forming a [[pullback]] square.) 
+(The intent is that there is a [[terminal object]] $\top$, and a [[pullback]] for each pair $f, g$ with common target.) 
 
 The axioms of $Th(Lex)$ are the axioms of $Th(Cat)$ plus the following: 
 
-1. ($1$ is an object) $\vdash 1 = s(1)$
+1. $\exists_\top (\top = s(\top)) \wedge (\forall_f (f = s(f)) \Rightarrow 
+(\exists ! g: (s(g) = f \wedge t(g) = 1))$
 
-1. ($1$ is terminal) $f = s(f) \vdash \exists !_g (s(g) = f \wedge t(g) = 1)$
-
-1. (Pullbacks exist)
+1. (Pullbacks exist) Define $p(f, g, h, k)$ to be the conjunction of the formulas  
+$$(\exists_j c(f, h, j) \wedge c(g, k, j))$$
+$$\,$$
+$$(\exists_{j'} (c(f, h', j') \wedge c(g, k', j')) \Rightarrow (\exists ! i: (c(h, i, h') \wedge c(k, i, k')))$$ 
+Then   
 $$t(f) = t(g) \vdash \exists_h \exists_k p(f, g, h, k)$$
-
-1. (Pullback square commutes) $p(f, g, h, k) \vdash \exists_j c(f, h, j) \wedge c(g, k, j)$)
-
-1. (Universal property of pullback) 
-$$(p(f, g, h, k) \wedge \exists_j c(f, h', j) \wedge c(g, k', j)) \vdash \exists !_i (c(h, i, h') \wedge c(k, i, k')$$ 
-
 
 =--
 
@@ -128,34 +119,29 @@ $$(p(f, g, h, k) \wedge \exists_j c(f, h', j) \wedge c(g, k', j)) \vdash \exists
 
 We define the [[theory]] $Th(Topos)$ of [[elementary toposes]].
 
-We introduce a binary predicate expression $M(f, g)$ to abbreviate the following formula in $Th(Cat)$:
+Let $M(f, g)$ denote the following formula in $Th(Cat)$:
 
-$$s(f) = s(g) \wedge (\forall_{h, i} (t(h) = s(g) = t(i) \wedge s(h) = s(i) \wedge f \circ h = f \circ i \wedge g \circ h = g \circ i) \Rightarrow h = i)$$
+$$s(f) = s(g) \wedge (\forall_{h, i, j, k} (c(f, h, j) \wedge c(f, i, j) \wedge c(g, h, k) \wedge c(g, i, k)) \Rightarrow h = i)$$
 
 ($M(f, g)$ means that the pair $(f, g)$ is a jointly monic span, aka a relation.) 
 
-The signature of $Th(Topos)$ is obtained by adding to the signature of $Th(Lex)$ the following: 
+The signature of $Th(Topos)$ is obtained by adding to the signature of $Th(Lex)$ unary function symbols $P, l, r$. 
 
-* Unary function symbols $P, l, r$, 
-
-* A ternary predicate $\Lambda$
-
-(The intended interpretation is that $P(f: X \to Y)$ is the [[power object]] of $Y$, and $\langle l(Y), r(Y) \rangle: E(Y) \hookrightarrow P(Y) \times Y$ is the elementhood relation, which we rewrite as a jointly [[monomorphism|monic]] [[span]], and consider as a [[universal property|universal]] relation from $P(Y)$ to $Y$. The notation $\Lambda(f, g, h)$ means that $(f, g)$ is a relation from $X$ to $Y$, and $h: X \to P(Y)$ is the unique map which classifies that relation by pulling back the universal relation that spans between $P(Y)$ and $Y$.) 
+(The intended interpretation is that $P(f: X \to Y)$ is the [[power object]] of $Y$, and $\langle l(Y), r(Y) \rangle: E(Y) \hookrightarrow P(Y) \times Y$ is the elementhood relation, which we rewrite as a jointly [[monomorphism|monic]] [[span]], and consider as a [[universal property|universal]] relation from $P(Y)$ to $Y$.) 
 
 The axioms of $Th(Topos)$ are obtained by adjoining to $Th(Lex)$ the following further axioms: 
 
-1. $\vdash P(f) = P(t(f)) = t(P(f)) = t(l(f)) \wedge t(r(f)) = t(f) \wedge s(l(f)) = s(r(f))$ 
+1. $\vdash (P(f) = P(t(f)) = t(P(f)) = t(l(f))) \wedge t(r(f)) = t(f)$ 
 
 1. $\vdash M(l(f), r(f))$
 
-1. $\Lambda(f, g, h) \vdash (M(f, g) \wedge s(h) = t(f) \wedge t(h) = P(g))$ 
-
-
-1. (Unique existence of classifying map for relations) 
+1. Define $\Lambda(f, g, h)$ to be the conjunction of formulas 
+$$M(f, g)$$ 
+$$\,$$
+$$s(h) = t(f) \wedge t(h) = P(g))$$ 
+$$\exists_{j,l} (p(l, h, j, f) \wedge g = r(j))$$
+Then
 $$M(f, g) \vdash \exists ! h: \Lambda(f, g, h)$$ 
-
-1. (Relations obtained by pulling back along classifying map) 
-$$\vdash \Lambda(f, g, h) \Leftrightarrow \exists_{j,l} (p(l, h, j, f) \wedge g = r(j))$$
 
 =--
 
