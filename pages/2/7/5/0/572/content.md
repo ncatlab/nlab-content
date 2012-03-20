@@ -53,6 +53,7 @@ The category $[\Delta^{op}, sSet]$ of [[simplicial presheaves]] on the [[simplex
 ## Examples
 
 ### Ordinary categories as complete Segal spaces
+ {#OrdinaryCategoriesAsCompleteSegalSpaces}
 
 We discuss how an ordinary [[small category]] is naturally regarded as a complete Segal space.
 
