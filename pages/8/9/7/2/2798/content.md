@@ -196,7 +196,7 @@ The above choices of cofibrations, fibrations and weak equivalences equips the c
 =--
 
 
-This is ([Cisisnki Moerdijk, theorem 2.4 and prop. 2.6](#CisinskiMoerdijk09)). 
+This is ([Cisinski Moerdijk, theorem 2.4 and prop. 2.6](#CisinskiMoerdijk09)). 
 
 +-- {: .num_remark }
 ###### Remark
@@ -214,6 +214,24 @@ A set of generating acyclic cofibrations is guaranteed to exist, but no good exp
 
 
 This is ([CisMoe, cor. 6.17](#CisinskiMoerdijk09)).
+
+
++-- {: .num_prop }
+###### Proposition
+
+
+A morphism $j : X \to Y$ between cofibrant objects in $dSet$ is a weak equivalence precisely if for all fibrant objects $A$ the morphism 
+
+$$
+  \tau : dSet(Y,A) \to \tau dSet(X,A)
+$$
+
+is an [[equivalence of categories]], where $\tau : SSet \to Cat$ is the [[left adjoint]] to the [[nerve]].
+
+=--
+
+
+This is in ([Moerdijk, section 8.4](#Moerdijk)).
 
 
 ### Enrichment
@@ -245,34 +263,127 @@ $sSet_{Joyal}$ is the [[model structure for quasi-categories]].
 +-- {: .proof}
 ###### Proof
 
-The functor $i^*: dSet \to sSet_{Joyal}$ is a [[right Quillen functor]].
+
+This follows from the fact that $dSet_{CM}$ is a [[monoidal model category]]
+and the fact that the 
+functor $i^*: dSet \to sSet_{Joyal}$ is a [[right Quillen functor]].
 
 =--
 
++-- {: .num_remark }
+###### Remark
 
+However, $dSet_{CM}$ is _not_ an [[enriched model category]] over $sSet_{Quillen}$, hence over the _standard_ [[model structure on simplicial sets]] (but see _[[model structure for dendroidal Cartesian fibrations]]_). But it comes close, as the following propositions show. 
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Write
+
+$$
+  \mathcal{Hom} : dSet^{op} \times dSet \to dSet
+$$
+
+for the [[internal hom]] corresponding to the [[Boardman-Vogt tensor product]]. 
+
+For $A$ normal and $X$ an inner Kan dendroidal set, write
+
+$$
+  \mathcal{hom}(A,X) := i^* \mathcal{Hom}(A,X)
+$$
+
+for the underlying [[quasi-category]], and write
+
+$$
+  k(A,X) := Core(\mathcal{hom}(A,X)) \in KanCplx
+$$
+
+for the maximal [[Kan complex]] inside the [[quasi-category]] inside the [[internal hom]].
+
+Write 
+
+$$
+  -^{(-)} : sSet^{op} \times dSet \to dSet
+$$
+
+for the corresponding [[powering]], characterized by the existence of a 
+[[natural isomorphism]]
+
+$$
+  Hom_{sSet}(K, k(A,X)) \simeq Hom_{dSet}(A, X^{(K)})
+  \,.
+$$
+
+=--
 
 
 +-- {: .num_prop }
 ###### Proposition
 
-
-A morphism $j : X \to Y$ between cofibrant objects in $dSet$ is a weak equivalence precisely if for all fibrant objects $A$ the morphism 
+For $p : X \to Y$ a fibration between fibrant dendroidal sets (hence an [[inner Kan fibration]] and an [[isofibration]] on the underlying [[homotopy category]]), and for $A \to B$ a normal monomorphism, the induced morphism
 
 $$
-  \tau : dSet(Y,A) \to \tau dSet(X,A)
+  k(B,X) \to k(B,Y) \times_{k(A,Y)} k(A,X)
 $$
 
-is an [[equivalence of categories]], where $\tau : SSet \to Cat$ is the [[left adjoint]] to the [[nerve]].
+is a [[Kan fibration]] between [[Kan complexes]].
 
 =--
 
+This is  ([Cis-Moer, prop. 6.7](#CisinskiMoerdijk09)).
 
-This is in ([Moerdijk, section 8.4](#Moerdijk)).
++-- {: .num_prop }
+###### Proposition
 
-### Properties of fibrations
+If $A \to B$ is the above is an [[anodyne extension]] (acyclic monomorphism) of simplicial sets, then 
 
-(...)
+$$
+  X^{(B)} \to Y^{(B)} \times_{Y^{(A)}} X^{(A)}
+$$
 
+is an acyclic fibration in $dSet_{CM}$.
+=--
+
+This is  ([Cis-Moer, cor. 6.9](#CisinskiMoerdijk09)).
+
++-- {: .num_prop }
+###### Proposition
+
+For $A$ normal and $X$ fibrant, the Kan complex 
+
+$$
+  k(A,X)
+  \simeq
+  \mathbb{R}Hom(A,X)
+$$ 
+
+is the correct
+[[derived hom-space]] of $dSet_{CM}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One checks that $n \mapsto X^{(\Delta[n])}$ is a fibrant resolution of
+$X$ in the [[Reedy model structure]] $[\Delta^{op}, dSet_{CM}]_{Reedy}$.
+By the discussion at _[[simplicial model category]]_ and _[[derived hom-space]]_ the latter is therefore given by the simplicial set
+
+$$
+  n \mapsto Hom_{dSet}(A, X^{(\Delta[n])})
+  \,.
+$$
+
+By the [[tensoring]]-definition of $X^{(\Delta[n])}$ this is isomorphic to
+
+$$
+  \cdots = Hom_{sSet}(\Delta[n], k(A,X)) = k(A,X)_n
+  \,.
+$$
+
+=--
 
 ### Relation to other model structures
 
