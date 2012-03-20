@@ -718,7 +718,7 @@ Next, to see that the fibrant objects also coincide...
 Claim: If $X  \in [\Delta^{op}, dSet_{CM}]_{Reedy}$ is fibrant, then $X^{(\Delta[\bullet])}$ is fibrant in $[\Delta^{op},[\Delta^{op}, dSet_{CM}]_{Reedy}]_{Reedy}$.
 
 We need to check for all $k \in \mathbb{N}$ that $X^{(\Delta[k])} \to X^{(\partial \Delta[k])}$ is 
-a fibration in $[\Delta^{op}, dSet_{CM}]_{Reedy}$. That is the case if for all $n \in \mathbb{N}$
+a fibration in $[\Delta^{op}, dSet_{CM}]_{Reedy}$. That is the case if for all $n \in \mathbb{N}$ the morphism
 
 $$
   X^{(\Delta[k])}_{\Delta[n]} 
@@ -728,7 +728,9 @@ $$
   X^{(\partial \Delta[k])}_{\partial \Delta[n]}
 $$
 
-Notice that for all $n$ the morphism $X_{\Delta[n]} \to X_{\partial \Delta[n]}$ is a fibration in $dSet_{CM}$, by assumption that $X$ is Reedy fibrant. So this follows with [CM 09, cor. 6.9].
+is a fibration in $dSet_{CM}$.
+
+Notice that for all $n$ the morphism $X_{\Delta[n]} \to X_{\partial \Delta[n]}$ is a fibration in $dSet_{CM}$, by assumption that $X$ is Reedy fibrant. Now...
 
 (...)
 
