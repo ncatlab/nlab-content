@@ -66,11 +66,11 @@ $$
 $$ 
 
 for the further left Bousfield localization at the set of morphisms 
-$\{\Omega[T]\otimes (J_d \to \eta) \}_{T \in \Omega, }$, where $J_d$ is the _dendroidal interval_
+$\{\Omega[T]\otimes (J_d \to \eta) \}_{T \in \Omega, }$, where $J_d$ is the _dendroidal groupoidal interval_
 
 $$
   J_d := 
-  i_!(N(\tau(\Delta[1])))
+  i_!(N(\{0 \stackrel{\simeq}{\to} 1\}))
   \,.
 $$
 
@@ -657,7 +657,7 @@ $$
 
 We can rewrite this more in the form of a [[nerve]] using the following object
 
-+-- {: .num_defn }
++-- {: .num_defn #SegalNerve}
 ###### Definition
 
 Write
@@ -688,8 +688,9 @@ $$
 
 $$
   \Delta_J : ([n], T) \mapsto \Delta_J[n] \otimes_{BV} \Omega[T]
-  \,.
 $$
+
+(where $\otimes_{BV}$ is the [[Boardman-Vogt tensor product]] on [[dendroidal sets]]).
 
 The induced [[nerve and realization]] [[adjunction]] we denote
 
@@ -729,9 +730,58 @@ a [[small category]], we have
 $$
   Sing_J(C)
   :
+  i_!(
   n 
     \mapsto 
   N(Core(C^{\Delta[n]}))
+  )
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The nerve and realization adjunction, def. \ref{SegalNerve} constitutes a [[Quillen equivalence]] to the [[model structure on dendroidal sets]].
+
+$$
+   ({|-|_J} \dashv Sing_J) : 
+   dSet_{CM}
+    \stackrel{\overset{{|-|_J}}{\leftarrow}}{\underset{{Sing_j}}{\to}}
+   [\Omega^{op}, sSet]_{cSegal}
+   \,.
+$$
+
+=--
+
+This appears as ([Cis-Moer, prop. 6.11](#CisinskiMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+First we show that ${\vert -\vert_J}$ is a [[left Quillen functor]]. Since $dSet_{CM}$ is a [[monoidal model category]], it follows from the [[pushout-product axiom]] in $(dSet_{CM}, \otimes_{BV})$ that ${\vert -\vert_J}$ sends the generating (acyclic) cofibrations of $[\Omega^{op}, sSet]_{Reedy}$ from prop. \ref{CofibrantlyGenerated} to (acyclic) cofibrations in $dSet_{CM}$. Since the cofibrations of $[\Omega^{op}, sSet]_{cSegal}$ are the same as those of $[\Omega^{op}, sSet]_{Reedy}$, it is sufficient to see that ${\vert -\vert_J}$ sends the morphisms that define the localization, def. \ref{ModelStructures}, to weak equivalences in $dSet_{CM}$. But since these moprhisms are in the image of the inclusion $dSet \hookrightarrow [\Omega^{op}, sSet]$, the functor indeed sends them to themselves, and they are indeed weak equibalences in $dSet_{CM}$ (since all inner [[anodyne morphisms]] are -- this gives that $\Lambda^e[T] \to \Omega[T]$ is a weak equivalence -- and all equivalences in the [[canonical model structure on operads]] are -- this gives that $\Omega[T] \otimes_{BV} J \to \Omega[T]$ is).
+
+So far this shows that ${\vert - \vert_J}$ is left Quillen. To see that it is a Quillen equivalence, use that its composition with the left Quillen functor $i : dSet_{CM} \to [\Omega^{op}, sSet]_{gReedy}$ discussed in the [companion section](#DendroidalSegalSpacesToQuasiOperads) is evidently a Quillen equivalence.
+
+(...)
+
+=--
+
++-- {: .num_prop }
+###### Observation
+
+If we write (as [here](http://ncatlab.org/nlab/show/model+structure+on+dendroidal+sets#Enrichment)), for $A \in dSet$ normal
+and $X \in dSet$ fibrant
+
+$$
+  k(A,X) := Core(i^* [A,X]_{\otimes})
+$$
+
+for the maximax Kan complex inside the [[internal hom]] of $(dSet, \otimes_{BV})$, then, still for $X$ fibrant, we have
+
+$$
+  Sing_J(X) : (T, n) \mapsto k(\Omega[T], X)_n
   \,.
 $$
 
