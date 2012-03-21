@@ -177,6 +177,7 @@ is a weak equivalence.
 The category $[\Delta^{op}, sSet]$ of [[simplicial presheaves]] on the [[simplex category]] ([[bisimplicial sets]]) supports a [[model category]] structure whose fibrant objects are precisely the complete Segal spaces: the _[[model structure for complete Segal spaces]]_. This presents the [[(∞,1)-category of (∞,1)-categories]].
 
 ## Examples
+ {#Examples}
 
 ### Ordinary categories as complete Segal spaces
  {#OrdinaryCategoriesAsCompleteSegalSpaces}
