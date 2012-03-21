@@ -1,0 +1,4 @@
+
+* [webpage](http://www.mathematics.pitt.edu/people/hales.php)
+
+category: people
