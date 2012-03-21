@@ -355,6 +355,7 @@ Any [[Reedy model structure|Reedy fibrant replacement]] of $N(C,W)$ is a complet
 This is ([Rezk, theorem 8.3](#Rezk)).
 
 ### Quasi-categories as complete Segal spaces
+ {#QuasiCategoriesAsCompleteSegal}
 
 +-- {: .num_defn}
 ###### Definition
