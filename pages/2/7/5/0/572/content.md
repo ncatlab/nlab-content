@@ -306,6 +306,48 @@ A functor $f : C \to D$ is an [[equivalence of categories]] precisely if $Sing_J
 
 This appears as ([Rezk, theorem 3.7](#Rezk)).
 
+### Model categories as complete Segal spaces
+
+Let $C$ be a [[simplicial model category]] with class $W \subset Mor(C)$ of weak equivalences. Then the [above](#OrdinaryCategoriesAsCompleteSegalSpaces) construction has the following evident variant.
+
++-- {: .num_prop}
+###### Definition
+
+Let $N(C,W) \in [\Delta^{op}, sSet]$ be given by
+
+$$
+  N(C,W) : n \mapsto N(Core_W(C^{\Delta[n]}))
+  \,,
+$$ 
+
+where now $Core_W(-)$ denotes the subcategory on those [[natural transformations]] whose components are [[weak equivalences]] in $C$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The typical model category is not a [[small category]] with respect to the base choice of [[universe]]. In this case $N(C,W)$ will be a "large" bisimplicial set. In other words, one needs to emply some [[universe enlargement]] to interpret this definition.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The object $N(C,W)$ is not in general a complete Reedy space. Of course one can always reflect it into one by passing to a fibrant replacement in the [[model structure for complete Segal spaces]]. But something better is true here: it suffices to make a _Reedy fibrant_ replacement (which does not change the [[homotopy type]] of the $N(Core_W(C^{\Delta[n]}))$, but only "arranges them more nicely").
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Any [[Reedy model structure|Reedy fibrant replacement]] of $N(C,W)$ is a complete Segal space.
+
+=--
+
+This is ([Rezk, theorem 8.3](#Rezk)).
+
+
 ## Related concepts
 
 * [[model structure for complete Segal spaces]]
