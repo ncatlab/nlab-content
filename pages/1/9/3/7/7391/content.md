@@ -655,7 +655,7 @@ $$
   \,.
 $$
 
-We can rewrite this more in the form of a [[nerve]] using the following object
+Recall also that this and its generalization to _[Complete Segal spaces of quasi-categories](complete+Segal+space#QuasiCategoriesAsCompleteSegal)_, amounts to simply forming a double-nerve with respect to the invertible interval object. We consider here the operadic generalization of this construction.
 
 +-- {: .num_defn #SegalNerve}
 ###### Definition
