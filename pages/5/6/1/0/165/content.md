@@ -87,7 +87,7 @@ topological groupoid, _Proc. Edinburgh Math. Soc._ 19 (1975)
 
 Discussion from the point of view of [[Galois theory]] is in
 
-* Luis Javier Hern&#225;ndez-Paricio, _Fundamental pro-groupoids and covering projections_([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm156/fm15611.pdf))
+* Luis Javier Hern&#225;ndez-Paricio, _Fundamental pro-groupoids and covering projections_, Fund. Math. (1998), ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm156/fm15611.pdf))
 
 
 [[!redirects fundamental groupoid]]
