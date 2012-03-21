@@ -23,7 +23,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -33,8 +33,9 @@ There are several ways to _model_ an [[(∞,1)-category]] $\mathbf{C}$ by an ord
 
 There are various equivalent explicit expressions for $\mathbf{R}Hom$. These are described and compared in the following.
 
+## Properties
 
-## Interrelation between the different constructions 
+### Interrelation between the different constructions 
 
 For $(C,W \subset Mor(C))$ a [[category with weak equivalences]], Dwyer-Kan [[simplicial localization]] produces an [[SSet]]-[[enriched category]] as follows
 
@@ -66,8 +67,9 @@ If the structure of a category with weak equivalences is enhanced to that of a [
 Suppose now that $Q : C \to C$ is a [[cofibrant replacement functor]] and $R : C \to C$ a [[fibrant replacement functor]], $\Gamma^\bullet : C \to (cC)_c$ a [[cosimplicial resolution functor]] and $\Lambda_\bullet : C \to (sC)_f$ a [[simplicial resolution functor]] in the [[model category]] $C$.
 
 
-+-- {: .un_theorem #DKTheorem}
-###### Theorem (Dwyer--Kan)
++-- {: .num_theorem #DKTheorem}
+###### Theorem 
+**(Dwyer--Kan)**
 
 There are natural weak equivalences between the following equivalent realizations of this [[SSet]] [[hom-object]]:
 
@@ -105,8 +107,46 @@ $$
 The weak equivalences 
 $Mor_C(\Gamma^\bullet X, R Y) \stackrel{\simeq}{\to} diag Mor_C(\Gamma^\bullet X, \Lambda_\bullet Y) \stackrel{\simeq}{\leftarrow} Mor_C(Q X, \Lambda_\bullet Y)$ appear also as ([Hovey, prop. 5.4.7](#Hovey)).
 
-    
-## Details 
+
+### Hom-spaces of equivalences
+ {#SpacesOfEquivalences}
+
++-- {: .num_theorem #DKTheorem}
+###### Theorem 
+
+For $C$ a [[simplicial model category]] and $X$ an object, the [[delooping]] of the [[automorphism ∞-group]]
+
+$$
+  Aut_W(X) \subset \mathbb{R}Hom(X,X)
+$$
+
+has the [[homotopy type]] of the component on $X$ of the [[nerve]] $N(C_W)$ of the [[subcategory]] of weak equivalences:
+
+$$
+  \mathbf{B} Aut_W(X) \simeq N(C_W)_X
+  \,.
+$$
+
+The equivalence is given by a finite sequence of [[zig-zags]] and is natural with respect to [[sSet]]-[[enriched functors]] of simplicial model categories that preserve weak equivalences and send a fibrant cofibrant model for $X$ again to a fibrant cofibrant object.
+
+=--    
+
+This is [Dwyer-Kan 84, 2.3, 2.4](#DK84).
+
++-- {: .num_cor }
+###### Corollary
+
+For $C$ a model category, the simplicial set $N(C_W)$ is a model for the 
+[[core]] of the [[(∞,1)-category]] determined by $C$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That core, like every [[∞-groupoid]] is equivalent to the disjoint union over its connected components of the deloopings of the automorphism $\infty$-groups of any representatives in each connected component.
+
+=--
 
 ### Enriched homs between cofibrant/fibrant objects {#EnrichedHomsCofToFib}
 
@@ -154,7 +194,7 @@ Similarly one has for all $X$ that $C(X,{*}) = {*}$.
 
 Using this, the second equivalent form of the enrichment axiom has as a special case the following statement.
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 In a [[simplicial model category]] $C$, for $X \in C$ cofibrant and $A \in C$ fibrant, the [[simplicial set]] $C(X,A)$ is a [[Kan complex]].
@@ -177,7 +217,7 @@ and $C(X,A)$ is a fibrant object in the standard [[model structure on simplicial
 =--
 
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 In a [[simplicial model category]] $C$, for $X \in C$ cofibrant and $f : A \to B$ a fibration, the morphism of [[simplicial set]]s $C(X,f) : C(X,A) \to C(X,B)$ is a [[Kan fibration]] that is a [[weak homotopy equivalence]] if $f$ is acyclic.
@@ -206,7 +246,7 @@ and hence that $C(X,A) \to C(X,B)$ is, indeed, a fibration, which is acyclic if 
 =--
 
 
-+-- {: .un_proposition }
++-- {: .num_proposition }
 ###### Proposition
 
 Let $C$ be a [[simplicial model category]]. 
@@ -292,7 +332,12 @@ that is homotopic to our $C(X,f)$. Therefore this is also a weak equivalence.
 
 ## References 
 
-For some original references by [[William Dwyer]] and [[Dan Kan]]  see  [[simplicial localization]].
+
+For some original references by [[William Dwyer]] and [[Dan Kan]]  see  [[simplicial localization]]. For instance
+
+* [[William Dwyer]], [[Dan Kan]], _A classication theorem for diagrams of simplicial sets_, Topology 23 (1984), 139-155.
+ {#DK84}
+
 
 A useful quick review of the interrelation of the various constructions of derived hom spaces is page 14, 15 of
 
