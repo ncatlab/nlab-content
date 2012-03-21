@@ -38,15 +38,15 @@ This is relevant in [[enriched homotopy theory]], which pairs [[enriched categor
 
 Let $C$ be a [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal category]] equipped with a [[model category]] structure. 
 
-Then $C$ satisfies the _pushout-product axiom_ if for any pair of cofibrations $f : X \to Y$ and $f' : X' \to Y'$ the induced map
+Then $C$ satisfies the _pushout-product axiom_ if for any pair of cofibrations $f : X \to Y$ and $f' : X' \to Y'$ the induced morphism out of the [[coproduct]]
 
 $$
-  (X \otimes Y') \cup_{X \otimes X'} (Y \otimes X')
+  (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
   \to
   Y \otimes Y'
 $$
 
-is a cofibration which is acyclic if $f$ or $f'$ is.
+is itself a cofibration, which, furthermore, is acyclic if $f$ or $f'$ is.
 
 This means that the [[tensor product]]
 
