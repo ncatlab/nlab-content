@@ -30,6 +30,11 @@ A theorem should be contrasted with a [[tautology]]: a proposition that is [[tru
 
 *  Lemmas do the work in mathematics: Theorems, like management, just take the credit.  ---[[Paul Taylor]]
 
+## References
+
+* [[Thomas Hale]], _Formal proof_ ([pdf](http://www.ams.org/notices/200811/tx081101370p.pdf))
+
+* John Harrison, _Formal proof -- theory and practice_ ([pdf](http://www.ams.org/notices/200811/tx081101395p.pdf))
 
 [[!redirects theorem]]
 [[!redirects theorems]]
