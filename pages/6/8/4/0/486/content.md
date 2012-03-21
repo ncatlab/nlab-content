@@ -21,11 +21,7 @@
 
 ### General
 
-A __pretopos__ is a [[coherent category]] which is both [[extensive category|extensive]] and [[exact category|exact]].  (See [[familial regularity and exactness]] for why extensivity and exactness deserve to be considered together.)
-
-+-- {: .standout}
-I think it's a bit reduntant to demand the category to be coherent, since the joins in the subobject lattices can be constructed using coproducts and image factorizations. A more minimal definition would be: "A pretopos is a regular category which is extensive and exact". -- Jonas
-=--
+A __pretopos__ is a [[category]] which is both [[exact category|exact]] and [[extensive category|extensive]].  (See [[familial regularity and exactness]] for why extensivity and exactness deserve to be considered together.)  This implies that it is a [[coherent category]].
 
 Frequently one is especially interested in pretoposes having additional properties, such as:
 
