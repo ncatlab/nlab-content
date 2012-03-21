@@ -57,7 +57,7 @@ Given a [[simplicial group]] $G$, the $\mathbb{N}$-graded chain complex complex 
 +-- {: .un_def}
 ###### Remark
 
-Equivalently one can take the  joint kernel of all but the $n$-face map and take that remaining face map to be the differential.
+Equivalently one can take the  joint kernel of all but the $n$-face map and take that remaining (alternating) face map $(-1)^n d_n^n$ to be the differential.
 
 =--
 
