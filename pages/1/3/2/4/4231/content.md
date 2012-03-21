@@ -55,7 +55,7 @@ So in particular a Cisinski model structure always exists.
 
 * The archetypical and motivating example is the standard [[model structure on simplicial sets]], which is a Cisinski model structure on the [[presheaf topos]] on the [[simplex category]].
 
-
+* The [[model structure on dendroidal sets]] is not exactly a Cisinki model structure, but is built from related results.
 
 ## References
 
@@ -67,3 +67,5 @@ dans les topos_, JPAA, Volume 174 (2002), p.43-82
 * [[André Joyal]], _[[joyalscatlab:Cisinski's theory]]_
 
 * [[Rick Jardine]], _Categorical homotopy theory_ ([K-theory](http://www.math.uiuc.edu/K-theory/0669/)) 
+
+[[!redirects Cisinski model structures]]
