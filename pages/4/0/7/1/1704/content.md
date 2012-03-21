@@ -155,7 +155,7 @@ Related notion: A similar description appears in section 5 of
 where the diagram above is used in the case of topological spaces 
 as the prototypical example of what is called a homotopy action of a loop space on a topological space. 
 
-There, the diagram above is characterized axiomatically as a map of simplicial objects $A_\bullet \to B_\bullet$ which can be considered as a relative (group-like) [[reduced Segal space]] in the sense that $A_0\simeq P$, $B__\bullet$ is a [[reduced Segal space]] for $G$ and certain maps built from the diagram are weak equivalences. It is then showed that every map of simplicial objects satisfying those axioms is weakly equivalent to the diagram above. 
+There, the diagram above is characterized axiomatically as a map of simplicial objects $A_\bullet \to B_\bullet$ which can be considered as a relative (group-like) [[reduced Segal space]] in the sense that $A_0\simeq P$, $B_\bullet$ is a [[reduced Segal space]] for $G$ and certain maps built from the diagram are weak equivalences. It is then showed that every map of simplicial objects satisfying those axioms is weakly equivalent to the diagram above. 
 
 +-- {: .num_prop}
 ###### Proposition
