@@ -212,3 +212,6 @@ Would we apply the lifting condition on all but three of the indices... and if s
 [[!redirects quasi-categories]]
 [[!redirects quasicategory]]
 [[!redirects quasicategories]]
+
+[[!redirects inner Kan complex]]
+[[!redirects inner Kan complexes]]
