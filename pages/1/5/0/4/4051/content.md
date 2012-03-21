@@ -19,29 +19,35 @@
 
 ## Introduction 
 
-Sometime around 1997-1998, there was a heated debate on the list FOM (Foundations of Mathematics) on the status of categorical foundations for mathematics, focusing particularly on the viability of _[[ETCS]]_ -- the _elementary theory of the category of sets_ -- as an categorical alternative to ZFC. At some point during the debate, the advocates of categorical foundations were "challenged" to give a fully formal presentation of ETCS, presumably with the idea that placing it side by side with ZFC, the relative merits between these theories could be discussed. 
+Sometime around 1997-1998, there was a heated debate on the list FOM (Foundations of Mathematics) on the status of categorical foundations for mathematics, focusing particularly on the viability of _[[ETCS]]_ -- the _elementary theory of the category of sets_ -- as an categorical alternative to ZFC. At some point during the debate, the advocates of categorical foundations were "challenged" to give a fully formal presentation of ETCS, presumably with the idea that placing it side by side with a formal presentation of ZFC, the advantages and disadvantages of each could be discussed. 
 
-For what it might be worth, we record here such a "fully formal" presentation of ETCS, noting that this is obviously not the best way to learn what ETCS is about. Instead of axiomatizing ETCS in fully formal and gory detail, a more human and comprehensible approach is to say 
+Just to have it on record, we present such a "fully formal" presentation of ETCS. This amounts to a routine translation of categorical axioms (best and most intuitively apprehended by studying diagrams of arrows that express familiar instances of universal properties) into full-blown logical syntax. Much of the syntax amounts to some tedious "machine-level" bookkeeping of the shapes of more or less obvious diagrams needed in the categorical descriptions[^note1]. 
 
-* A model of ETCS is a well-pointed [[topos]] with a [[natural numbers object]] that satisfies [[axiom of choice|AC]]. 
+For readers who came to this page hoping to learn what ETCS is, we advise looking elsewhere for more human explanations (see for example the references below). In a sentence, though, 
 
-The main concept that needs to be explained here is that of (elementary) topos: 
+* A model of ETCS is a well-pointed [[topos]] with a [[natural numbers object]] that satisfies [[axiom of choice|AC]] 
+
+where 
 
 * A topos is a finitely complete category such that every object $X$ has a power object $P X$, characterized by a universal property that maps $Y \to P X$ are in natural bijective correspondence with relations between $X$ and $Y$. 
 
-By now mathematicians are familiar and comfortable with notions like "finitely complete category" and "universal property", and the translation into fully formal logical terms is an utterly routine and not terribly enlightening exercise. For that reason, the categorical advocates in the FOM debates were perhaps reluctant to take on the 'challenge', as it wasn't going to help anyone understand the categorical side any better. 
+What is the purpose of this page, then? There are several: 
 
-So why carry out the exercise here? Only for those skeptics (or gadflies?) who harbor or maintain a suspicion that "won't do it" is the same as "can't do it". If you came here to learn about ETCS in a conceptually friendly way, you've undoubtedly come to the wrong place. (If you think those who advocate categorical foundations are full of hot air and won't put their money where their mouth is, this _might_ be for you.) 
+* To give logicians who are skeptical of categorical foundations (or who "challenge" category theorists to write down their theory in purely logical form) something to look at and ponder. 
 
-A more positive contribution of this page might be to point out which fragments of logic are actually involved in which axioms, something category theorists understand quite well. 
+* To counter the frequently made claim that the theory of categories somehow depends on a prior theory of collections (aka "set theory") in which to interpret it. This is no more true than to say that a theory of sets requires a prior theory of sets in which to interpret it. The proof is that the theory of categories, the theory of toposes, etc. is a first-order theory, just as ZFC (or whatnot) is. One proves theorems in ETCS by direct appeal to the theory at the level of syntax (however it might be presented), just as in the case of ZFC. 
+
+* To explain some senses in which the theory is simpler than say ZFC, where "simple" is in terms of what one needs to assume of a background environment in order to interpret the theory in a reasonable way. For example, except for one axiom, the theory is equivalently expressed in terms of [[coherent theory|coherent axioms]], and with some further adjustments on the signature, most of the axioms can be given in [[essentially algebraic theory|essentially algebraic]] form. 
+
+(NB: this page, like any other page at the nLab, is under construction and is always subject to further review, as is true of wiki pages generally. Queries, comments, criticisms, etc. should be tendered at the [[nForum]].) 
 
 ## Preliminaries 
 
-We assume familiarity with the standard notion of a [[algebraic theory|(finitary) first-order theory]] with equality; this includes the standard rules of deduction in the Gentzen [[sequent calculus]] for first-order logic[^note1]. 
+We assume familiarity with the standard notion of a [[algebraic theory|(finitary) first-order theory]] with equality; this includes the standard rules of deduction in the Gentzen [[sequent calculus]] for first-order logic[^note2]. 
 
 First-order [[theory|theories]] are typically presented in terms of a [[signature]] consisting of function and predicate symbols, together with axioms each of which is a closed formula in the first-order language generated by the signature. That mode of presentation will be followed here. Standard logical conventions are followed; for example, it is common to state axioms as formulas $P(x_1, \ldots, x_n)$ in which some of the variables $x_i$ may appear freely, with the implicit understanding that such variables are bound by unwritten [[universal quantifiers]] at the heads of formulas, to make the formulas closed. 
 
-To make the exposition more readable, the theory will be built up in stages, together with some explanations (in parentheses) which do not belong to the formal theory, but which may aid comprehension. We also employ the standard device of abbreviating formulas, by declaring at various junctures definitions and notational conventions. 
+To make the exposition more readable, the theory will be built up in layers, together with some explanations (in parentheses) which do not belong to the formal theory, but which may aid comprehension. We also employ the standard device of abbreviating formulas, by declaring at various junctures definitions and notational conventions. 
 
 In formalizing universal properties, one very helpful purely logical abbreviation is the "exists-unique" quantifier $\exists !$. Namely, if $Q(x)$ is a formula in which a variable $x$ appears freely, then $\exists ! x: Q(x)$ is shorthand for the conjunction of 
 
@@ -83,11 +89,6 @@ The axioms of $Th(Cat)$ are as follows:
 
 =--
 
-+-- {: .un_remark}
-###### Convention
-The notation $f \circ g$ denotes the unique $h$ for which $c(f, g, h)$, whenever it exists. 
-=--
-
 
 ## The theory of finitely complete categories
 
@@ -96,11 +97,11 @@ The notation $f \circ g$ denotes the unique $h$ for which $c(f, g, h)$, whenever
 
 We define the [[theory]] $Th(Lex)$ of [[finitely complete categories]].
 
-(The intent is that there is a [[terminal object]] $\top$, and a [[pullback]] for each pair $f, g$ with common target.) 
+(The axioms say there is a [[terminal object]] $1$, and a [[pullback]] for each pair $f, g$ with common target.) 
 
 The axioms of $Th(Lex)$ are the axioms of $Th(Cat)$ plus the following: 
 
-1. $\exists_\top (\top = s(\top)) \wedge (\forall_f (f = s(f)) \Rightarrow 
+1. $\exists_1 (1 = s(1)) \wedge (\forall_f (f = s(f)) \Rightarrow 
 (\exists ! g: (s(g) = f \wedge t(g) = 1))$
 
 1. (Pullbacks exist) Define $p(f, g, h, k)$ to be the conjunction of the formulas  
@@ -110,7 +111,7 @@ $$(\exists_{j'} (c(f, h', j') \wedge c(g, k', j')) \Rightarrow (\exists ! i: (c(
 Then   
 $$t(f) = t(g) \vdash \exists_h \exists_k p(f, g, h, k)$$
 
-=--
+=-- 
 
 ## The theory of elementary toposes 
 
@@ -119,29 +120,23 @@ $$t(f) = t(g) \vdash \exists_h \exists_k p(f, g, h, k)$$
 
 We define the [[theory]] $Th(Topos)$ of [[elementary toposes]].
 
-Let $M(f, g)$ denote the following formula in $Th(Cat)$:
+The signature of $Th(Topos)$ is obtained by adding to the signature of $Th(Lex)$ unary function symbols $P, \lambda, \rho$. 
+
+(The intended interpretation is that $P(f: X \to Y)$ is the [[power object]] of $Y$, and $\langle \lambda(Y), \rho(Y) \rangle: E(Y) \hookrightarrow P(Y) \times Y$ is the elementhood relation, which we rewrite as a jointly [[monomorphism|monic]] [[span]], and consider as a [[universal property|universal]] relation from $P(Y)$ to $Y$.) 
+
+The axioms of $Th(Topos)$ are obtained by adjoining to $Th(Lex)$ the following further axioms. In what follows, $M(f, g)$ denote the following formula in $Th(Cat)$:
 
 $$s(f) = s(g) \wedge (\forall_{h, i, j, k} (c(f, h, j) \wedge c(f, i, j) \wedge c(g, h, k) \wedge c(g, i, k)) \Rightarrow h = i)$$
 
-($M(f, g)$ means that the pair $(f, g)$ is a jointly monic span, aka a relation.) 
+($M(f, g)$ means that the pair $(f, g)$ is a jointly monic span, aka a relation. In other words, that $\langle f, g \rangle \colon s(f) \to t(f) \times t(g)$ is monic, and $(f, g)$ form a relation between $t(f)$ and $t(g)$.) 
 
-The signature of $Th(Topos)$ is obtained by adding to the signature of $Th(Lex)$ unary function symbols $P, l, r$. 
+1. ($P(f: X \to Y) = P(Y)$ is an object that depends only on the codomain of $f$, and $\lambda(f), \rho$ are morphisms that span between $P(Y)$ and $Y$, comprising a local elementhood relation) 
+$$\vdash (P(f) = P(t(f)) = t(P(f)) = t(\lambda(f))) \wedge (t(\rho(f)) = t(f))$$ 
 
-(The intended interpretation is that $P(f: X \to Y)$ is the [[power object]] of $Y$, and $\langle l(Y), r(Y) \rangle: E(Y) \hookrightarrow P(Y) \times Y$ is the elementhood relation, which we rewrite as a jointly [[monomorphism|monic]] [[span]], and consider as a [[universal property|universal]] relation from $P(Y)$ to $Y$.) 
+1. $\vdash M(\lambda(f), \rho(f))$
 
-The axioms of $Th(Topos)$ are obtained by adjoining to $Th(Lex)$ the following further axioms: 
-
-1. $\vdash (P(f) = P(t(f)) = t(P(f)) = t(l(f))) \wedge t(r(f)) = t(f)$ 
-
-1. $\vdash M(l(f), r(f))$
-
-1. Define $\Lambda(f, g, h)$ to be the conjunction of formulas 
-$$M(f, g)$$ 
-$$\,$$
-$$s(h) = t(f) \wedge t(h) = P(g))$$ 
-$$\exists_{j,l} (p(l, h, j, f) \wedge g = r(j))$$
-Then
-$$M(f, g) \vdash \exists ! h: \Lambda(f, g, h)$$ 
+1. (Universal property of power objects) 
+$$M(f, g) \vdash \exists ! h: \exists_k p(h, \lambda(f), g, k) \wedge c(\rho(f), k, f)$$ 
 
 =--
 
@@ -178,8 +173,11 @@ This completes the formal specification of $Th(ETCS)$.
 
 =--
 
-
 ## Remarks 
+
+### On $Th(Cat)$ 
+
+The theory of categories is usually presented as a two-sorted theory, where the sorts $O$ and $M$ are for objects and morphisms. 
 
 Despite the length of the list of axioms, it should be noted that they generally have an extremely simple logical structure. Indeed, with some slight modification, the theory $Th(Topos)$ may be rewritten so that it becomes an [[essentially algebraic theory]], at least in the sense that the models of $Th(Topos)$ are categorially equivalent (as categories = models of $Th(Cat)$) to models of an essentially algebraic theory. That is to say, the notion of "topos" can be [[internalization|internalized]] in any category with finite limits; this is even true of toposes with natural numbers object. 
 
@@ -197,8 +195,11 @@ Over the years various people at
 * _Foundations of Mathematics_ [mailing list](http://www.math.psu.edu/simpson/fom/) (around 1998)
 {#FOM}
 
-have challenged [[category theory|category theorists]] to write down a fully formal presentation of ETCS.
+have challenged [[category theory|category theorists]] to write down a fully formal presentation of ETCS. 
 
+[note1]: Note how cumbersome are the traditional "machine-level" logical scripts for expressing this theory, as opposed to the more visual and easily apprehended arrow-theoretic notations (which are just as rigorous). No doubt this was anticipated by those in the FOM debate who wished to portray categorical foundations in the worst possible light: traditional 1-dimensional logical notations tend to make the theory look as clumsy as possible! 
+
+[note2]: We use $\vdash$ to denote an entailment between formulas; axioms of our theory are written in the form $\Gamma \dash P$ where $\Gamma$ is a finite, possibly empty list of formulas which provide the _context_ in which $P$ is asserted. Obviously one could eschew this symbol entirely, and instead give each axiom in the form of a single formula with appropriately embedded implication symbols $\Rightarrow$. But, as explained in this article, this would obscure the later point that large fragments of ETCS, in fact all axioms except well-pointedness, are manifestly expressible in _coherent logic_. 
 
 [[!redirects fully formal ETCS]]
 [[!redirects fully formal definition of ETCS]]
