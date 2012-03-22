@@ -110,7 +110,7 @@ We discuss now that $P$ canonically has the structure of a $G$-[[principal ∞-b
 ###### Definition
 **(principal $G$-action)**
 
-Let $G$ be a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $\mathbf{H}$. A **principal [[action]]** of $G$ on an object $P \in \mathbf{H}$ is 
+Let $G$ be a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $\mathbf{H}$. A **principal [[action]]** of $G$ on a morphism $(P \to X) \in \mathbf{H}$ is 
 a [[groupoid object in an (∞,1)-category|groupoid object]] $P//G$ that sits over $*//G$ in that we have a 
   morphism of [[simplicial object|simplicial diagram]]s $\Delta^{op} \to \mathbf{H}$
 
@@ -133,15 +133,15 @@ $$
   }
 $$
 
-in $\mathbf{H}$.
+in $\mathbf{H}$;
 
-We say that the [[(∞,1)-colimit]]
+and such that $P \to X$ exhibits the [[(∞,1)-colimit]]
 
 $$
-  X : \lim_\to (P//G : \Delta^{op} \to \mathbf{H})
+  X \simeq \lim_\to (P//G : \Delta^{op} \to \mathbf{H})
 $$
 
-is the **base space** defined by this action.
+called the **base space** over which the action takes place.
 
 =--
 
@@ -754,6 +754,14 @@ The [[classifying spaces]] for a large class of principal $\infty$-bundles are d
 
 * [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
  {#Stevenson}
+
+Discussion of homotopy fiber sequences and homotopy action in terms of [[Segal spaces]] is in section 5 of
+
+* M. Prezma _Homotopy normal maps_ ([arXiv](http://arxiv.org/pdf/1011.4708v7.pdf)) 
+
+There, conditions are given for a morphism $A_\bullet \to B_\bullet$ to a [[reduced Segal space]] to have a fixed homotopy fiber, and hence encode an action of the loop group of $B$ on that fiber. 
+
+
 
 
 [[!redirects principal infinity-bundles]]
