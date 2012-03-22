@@ -68,3 +68,4 @@ category: people
 [[!redirects  Tim Porter]]
 [[!redirects T. Porter]]
 [[!redirects TIm Porter]]
+[[!redirects  Tim_Porter]]
