@@ -24,12 +24,21 @@ It can be specified as the [[realizability topos]] for [[Kleene's first algebra]
 
 The effective topos construction alluded in the above paragraph can be performed more generally, in every topos $E$ with a natural numbers object, replacing [[Set]]. To every such topos one constructs the corresponding "external" effective topos $e E$ and the correspondence $E \mapsto e E$ extends to a functor admitting a [[full and faithful functor|fully faithful]] [[right adjoint]].  Kleene's first algebra can also be replaced by any [[partial combinatory algebra]], or even some more general types of gadgets; toposes obtained in this way are called [[realizability topos]]es.
 
+The effective topos is the category obtained from the category of sets by first freely adjoining recursively-indexed coproducts (but being careful to preserve the empty set), and then adding quotients of (pseudo-)equivalence relations. ([RobinsonRosolini](#RobinsonRosolini)).
+
 ## References
 
-*   J.M.E. [[Martin Hyland|Hyland]], 'The effective topos' in  A.S. Troelstra (ed.)  D. van Dalen (ed.) , _The L.E.J. Brouwer Centenary Symposium_, North-Holland  (1982)  pp. 165--216.
+*   J.M.E. [[Martin Hyland|Hyland]], _The effective topos_ in  A. S. Troelstra (ed.)  D. van Dalen (ed.) , _The L.E.J. Brouwer Centenary Symposium_, North-Holland  (1982)  pp. 165--216.
 
-* Andy Pitts, _The theory of [[tripos]]es_, thesis, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)
+In the context of [[troposes]]:
+
+* Andy Pitts, _The theory of triposes_, thesis, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)
+
+Then
+
 * Sori Lee, Jaap van Oosten, _Basic subtoposes of the effective topos_, [arxiv/1201.2571](http://arxiv.org/abs/1201.2571)
 
+* Edmund Robinson, Giuseppe Rosolini, _Colimit completions and the effective topos_, The Journal of symbolic logic, 55, no 2 (1990) ([JSTOR](http://www.jstor.org/discover/10.2307/2274658?uid=3738736&uid=2129&uid=2134&uid=2&uid=70&uid=4&sid=47698789906927))
+ {#RobinsonRosolini}
 
 [[!redirects effective toposes]]
