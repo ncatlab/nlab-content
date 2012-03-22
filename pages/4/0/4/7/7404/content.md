@@ -1,6 +1,6 @@
 
 #Contents#
-* tableofcontents
+* table of contents
 {:toc}
 
 ## Definition
@@ -9,7 +9,7 @@ An _$E_\infty$-space_ is an [[E-∞ algebra]] in [[Top]].
 
 ## Properties
 
-$E_\infty$-spaces are equivalently [[infinite loop spaces]]. See there for more details.
+Grouplike $E_\infty$-spaces are equivalently [[infinite loop spaces]]. See there for more details.
 
 ## Related concepts
 
