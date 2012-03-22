@@ -839,7 +839,7 @@ for its [[Bousfield localization of model categories|left Bousfield localization
 Under the canonical identification of categories
 
 $$
-  [\Delta^{op}, dSet] \simeq [\Omega^{op}, set]
+  [\Delta^{op}, dSet] \simeq [\Omega^{op}, Set]
 $$
 
 the two model structures $[\Delta^{op}, dSet_{CM}]_{LocConst}$,
