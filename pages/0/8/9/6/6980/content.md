@@ -30,7 +30,7 @@ In [[type theory]] a [[proposition]] is identitfied with the [[type]] of all its
 ## References
 
 
-* [[Thomas Hale]], _Formal proof_ ([pdf](http://www.ams.org/notices/200811/tx081101370p.pdf))
+* [[Thomas Hales]], _Formal proof_ ([pdf](http://www.ams.org/notices/200811/tx081101370p.pdf))
 
 * John Harrison, _Formal proof -- theory and practice_ ([pdf](http://www.ams.org/notices/200811/tx081101395p.pdf))
 
