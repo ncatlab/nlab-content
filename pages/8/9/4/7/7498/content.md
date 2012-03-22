@@ -1,0 +1,46 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $X$ a [[topological space]], $G$ a [[topological group]] and $\rho : G \times X \to X$ a [[continuous map|continuous]] $G$-[[action]], the **Borel construction** of $\rho$ is [[generalized the|the]] [[topological space]] $X \times_G E G$, hence [[quotient]] of the [[product]] of $X$ with the total space of [[generalized the|the]] $G$-[[universal principal bundle]] $E G$ by the [[diagonal]] [[action]] of $G$ on both.
+
+This space is naturally understood as being the [[geometric realization of simplicial topological spaces|geometric realization]] of the [[topological groupoid|topological]] [[action groupoid]] $X // G$ of the action:
+
+the [[nerve]] of this topological groupoid is the [[simplicial topological space]]
+
+$$
+  (X // G)_\bullet =
+  \left(
+ \cdots X \times G \times G \stackrel{\to}{\stackrel{\to}{\to}} X \times G \stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to}} X
+  \right)
+  \,.
+$$ 
+
+Observing that $E G$ itself as a groupoid has the nerve
+
+$$
+  (E G)_\bullet
+   = 
+   \left(
+   \cdots 
+   G \times G \times G 
+     \stackrel{\to}{\stackrel{\to}{\to}}
+   G \times G \stackrel{\to}{\to} G
+  \right)
+$$
+
+and regarding $X$ and $G$ as topological 0-groupoids, hence with simplicially constant nerves, we have
+
+$$
+  (X //G)_\bullet 
+    \simeq_{iso}
+  X \times_G (E G)_\bullet
+  \,.
+$$
+
+If this is set up in a sufficiently nice category of topological spaces, then, by the discussion at [[geometric realization of simplicial topological spaces]], the geometric realization ${\vert -\vert} : Top^{\Delta^{op}} \to Top$ manifestly takes this to the Borel construction.
+
+[[!redirects Borel constructions]]
