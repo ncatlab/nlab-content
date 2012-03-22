@@ -140,6 +140,17 @@ See also ([Joyal-Tierney, theorem 4.1](#JoyalTierney)).
 
 ## Properties
 
+### Cartesian monoidal model structure
+
++-- {: .num_prop}
+###### Proposition
+
+The category $[\Delta^{op}, sSet]$ is a [[cartesian closed category]]. This [[closed monoidal category]]-structure is compatible with the model category structure in that it makes $[\Delta^{op}, sSet]_{cSegal}$ into a [[monoidal model category]].
+
+=--
+
+This is the last clause of ([Rezk, theorem 7.2](#Rezk)). The key lemma for establishing this clause is ([Rezk, prop. 9.2](#Rezk)).
+
 ### Relation to other model structures
 
 #### Model structure for quasi-categories 
