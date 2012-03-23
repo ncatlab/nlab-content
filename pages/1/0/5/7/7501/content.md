@@ -9,15 +9,16 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-In the context of [[factorization systems]] such as they appear notably in [[enriched model category]] one frequently needs to handle iterated [[lifting problems]]. In the appendix of ([Joyal-Tierney, 06](#JoyalTierney)) a symbolic calculus is introduced to facilitate these computations. 
+In the context of [[factorization systems]] such as they appear notably in [[enriched model category]] one frequently needs to handle iterated [[lifting problems]]. In the appendix of ([Joyal--Tierney, 06](#JoyalTierney)) a symbolic calculus is introduced to facilitate these computations. 
 
 A central point of it is to have the statement of prop. \ref{IteratedLifting} below be easily expressible in terms of "division on both sides"-operations.
+
 
 ## The calculus
 
@@ -341,7 +342,13 @@ Let $f : X \to Y$ be a morphism in $[\Delta^{op}, sSet]$. Then
 
 * [[pushout-product axiom]]
 
+
 ## References
 
 * [[André Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
  {#JoyalTierney}
+
+
+[[!redirects Joyal-Tierney calculus]]
+[[!redirects Joyal–Tierney calculus]]
+[[!redirects Joyal--Tierney calculus]]
