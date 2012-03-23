@@ -19,3 +19,5 @@ $$
 are the same as [[natural transformations]] between functors between $X$ and $Y$.
 
 * $Arr(C)$ is the [[comma category]] $(id/id)$ where $id\colon C \to C$ is the [[identity functor]].
+
+[[!redirects arrow categories]]
