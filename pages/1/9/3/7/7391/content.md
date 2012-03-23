@@ -369,7 +369,7 @@ $$
   }
 $$
 
-has a lift. A little reflection shows that this, in turn, is equivalent to that every diagram
+has a lift. A little reflection shows (see [[Joyal-Tierney calculus]]) that this, in turn, is equivalent to that every diagram
 
 $$
   \array{   
