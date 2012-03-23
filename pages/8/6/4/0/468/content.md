@@ -38,7 +38,7 @@ This is relevant in [[enriched homotopy theory]], which pairs [[enriched categor
 
 Let $C$ be a [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal category]] equipped with a [[model category]] structure. 
 
-Then $C$ satisfies the _pushout-product axiom_ if for any pair of cofibrations $f : X \to Y$ and $f' : X' \to Y'$ the induced morphism out of the [[coproduct]]
+Then $C$ satisfies the _pushout-product axiom_ if for any pair of cofibrations $f : X \to Y$ and $f' : X' \to Y'$ the [[pushout-product]] morphis, the induced morphism out of the [[coproduct]]
 
 $$
   (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
@@ -64,5 +64,10 @@ is a left [[Quillen bifunctor]].
 
 * The pushout-product axiom makes sense more generally in the context of a [[two-variable adjunction]] between model categories.  This is important in [[enriched homotopy theory]].
 
+## Related concepts
+
+* [[monoidal model category]], [[enriched model category]]
+
+* [[Joyal-Tierney calculus]]
 
 [[!redirects pushout product axiom]]
