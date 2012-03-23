@@ -1,0 +1,279 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[factorization systems]] such as they appear notably in [[enriched model category]] one frequently needs to handle iterated [[lifting problems]]. In the appendix of ([Joyal-Tierney, 06](#JoyalTierney)) a symbolic calculus is introduced to facilitate these computations. 
+
+A central point of it is to have the statement of prop. \ref{IteratedLifting} below be easily expressible in terms of "division on both sides"-operations.
+
+## Definitions
+
+### Lifting
+
+Let $\mathcal{E}$ be a [[category]] ([[locally small category|locally small]]).
+
++-- {: .num_defn}
+###### Notation
+
+For $f, g \in Mor(\mathcal{E})$, write
+
+$$
+  f \pitchfork g
+$$
+
+if $f$ has the [[left lifting property]] against $g$, or equivalently if $g$ has the [[right lifting property]] against $f$.
+
+For $S \in \mathcal{E}$ an [[object]], write
+
+$$
+  f \pitchfork S
+$$
+
+to indicate that for the morphism $f : X \to Y$ the induced [[hom set]] morphism
+
+$$
+  \mathcal{E}(f, S) : \mathcal{E}(S,Y) \to \mathcal{E}(S,X)
+$$
+
+is surjective, dually for
+
+$$
+  S \pitchfork f
+  \,.
+$$
+
+In the case that $\mathcal{E}$ has a [[terminal object]] $*$ we have equivalently
+
+$$
+  f \pitchfork S 
+  \;\;\Leftrightarrow\;\; 
+  f \pitchfork (S \to *)
+$$
+
+and if $\mathcal{E}$ has an [[initial object]] $\epmtyset$ we have equivalently 
+
+$$
+  S \pitchfork f 
+  \;\;\Leftrightarrow \;\;
+  (\emptyset \to S) \pitchfork f
+  \,.
+$$
+
+Accordingly, for $Q \subset Mor(\mathcal{E})$ write 
+${}^{\pitchfork}Q$ and $\mathcal{E}^Q$ for the class of morphisms with left or right lifting property against all elements of $Q$, respectively.
+
+=--
+
++-- {: .num_prop}
+###### Observation
+
+If $(L \dashv R) : \mathcal{E} \to \mathcal{F}$ is a pair of [[adjoint functors]], then
+
+$$
+  f \pitchfork R(g)
+  \;\;
+  \Leftrightarrow
+  \;\;
+  L(F) \pitchfork g
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A pair of classes of morphisms $(L,R)$ in $\mathcal{E}$ is a _[[weak factorization system]]_ precisely if 
+
+1. every morphism in $\mathcal{E}$ follows as a morphism in $L$ followed by a morphism in $R$;
+
+1. $R = L^\pitchfork$ and $L = {}^\pitchfork R$.
+
+=--
+
+
+### Tensoring
+
+Let $\mathcal{E}_1$, $\mathcal{E}_2$, $\mathcal{E}_3$ be three categories.
+
++-- {: .num_defn #Divisibility}
+###### Definition
+
+A [[functor]]
+
+$$
+  \otimes : \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3
+$$
+
+1. is called _divisible on the left_ if for every $A \in \mathcal{E}_1$ the functor $A \otimes (-)$ has a [[right adjoint]], to be denoted
+
+   $$
+     A \backslash (-) : \mathcal{E}_3 \to \mathcal{E}_2
+     \,;
+   $$
+
+1. is called _divisible on the right_ if for every $A \in \mathcal{E}_2$ the functor $(-) \otimes A$ has a [[right adjoint]], to be denoted
+
+   $$
+     (-)/ A : \mathcal{E}_3 \to \mathcal{E}_1
+     \,;
+   $$
+
+=--
+
++-- {: .num_prop}
+###### Observation
+
+If $\otimes$ is divisble on both sides, then there are [[natural isomorphisms]]  between the collections of morphisms
+
+$$
+  A \otimes B \to X
+$$
+
+and
+
+$$
+  B \to A\backslash X
+$$
+
+and
+
+$$
+  A \to X / B
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Observation
+
+For every $f \in Mor(\mathcal{E}_1)$, $g \in Mor(\mathcal{E}_2)$ and $X \in \mathcal{E}_3$ we have
+
+$$
+  f \pitchfork (X/g)
+  \;\;
+  \Leftrightarrow
+  \;\;
+  g \pitchfork (f \backslash X)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+If $\mathcal{E}$ is a [[closed monoidal category|closed]] [[symmetric monoidal category]], then its [[tensor product]] functor $\otimes : \mathcal{E} \times \mathcal{E} \to \mathcal{E}$ is divisible on both sides, the two divisions coincide and are given by the [[internal hom]] $[-,-] : \mathcal{E}^{op} \times \mathcal{E} \to \mathcal{E}$
+
+$$
+  X/A \simeq [A,X] \simeq A\backslash X
+  \,.
+$$
+
+=--
+
+### Pushout-tensoring
+
+Let now $\mathcal{E}_3$ have [[finite limits|finite]] [[colimits]] and $\otimes : \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ a functor.
+
++-- {: .num_defn}
+###### Definition
+
+for $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_2$, write
+
+$$
+  A \otimes Y \coprod_{A \otimes X} B \otimes Y
+  \to
+  B \otimes Y
+$$
+
+for the induced _[[pushout-product]]_ morphism, the canonical morphism out of the [[pushout]] induced from the commutativity of the diagram
+
+$$
+  \array{
+    A \otimes X &\to& B \otimes X
+    \\
+    \downarrow && \downarrow
+    \\
+    B \otimes X &\to& B \otimes Y
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Observation
+
+The pushout-product extends to a functor
+
+$$
+  \bar \otimes : \mathcal{E}_1^I \times \mathcal{E}_2^I \to \mathcal{E}_3^I
+  \,,
+$$
+
+where $C^I$ denotes the [[arrow category]] of $C$.
+=--
+
++-- {: .num_prop}
+###### Observation
+
+If in the above situation $\mathcal{E}_1$ and $\mathcal{E}_2$ have [[finite limits]] and $\otimes$ is divisble on both sides, def. \ref{Divisibility}, then also $\bar \otimes$ is divisible on both sides:
+
+1. for $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_3$, the left quotient is
+
+   $$  
+     f \backslash g : B \backslash X \to B \backslash Y \times_{A \backslash Y} A \backslash X
+     \,;
+   $$
+
+1. for $f : S \to T$ in $\mathcal{E}_2$ and $g : X \to Y$ in $\mathcal{E}_3$, the right quotient is
+
+   $$  
+      g / f : X / T \to Y / T \times_{Y / S} X / S
+     \,;
+   $$
+
+=--
+
++-- {: .num_prop #IteratedLifting}
+###### Proposition
+
+In the above situation, let $\mathcal{E}_1$, $\mathcal{E}_2$, $\mathcal{E}_3$ have all [[finite limit|finite]] [[limits]] and [[colimits]]. For all $u \in Mor(\mathcal{E}_1)$, $v \in Mor(\mathcal{E}_2)$, $f \in Mor(\mathcal{E}_3)$ we have
+
+$$
+  (u \bar \otimes v) \pitchfork f
+  \;\;
+  \Leftrightarrow
+  \;\;
+  U \pitchfork f/v
+  \;\;
+  \Leftrightarrow
+  \;\;
+  v \pitchfork u \backslash f
+  \,.
+$$
+
+=--
+
+## Related concepts
+
+* [[pushout-product axiom]]
+
+## References
+
+* [[André Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
+ {#JoyalTierney}
