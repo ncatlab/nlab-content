@@ -5,9 +5,19 @@
 
 ## Idea
 
+For $G$ a [[topological group]] [[action|acting]] on a [[topological space]] $X$, its _Borel construction_ or _Borel space_ is another topological space $X \times_G E G$ such that, in many cases, its ordinary [[cohomology]] is the $G$-[[equivariant cohomology]] of $X$.
+
+## Definition
+
 For $X$ a [[topological space]], $G$ a [[topological group]] and $\rho\colon G \times X \to X$ a [[continuous map|continuous]] $G$-[[action]], the **Borel construction** of $\rho$ is [[generalized the|the]] [[topological space]] $X \times_G E G$, hence [[quotient]] of the [[product]] of $X$ with the total space of [[generalized the|the]] $G$-[[universal principal bundle]] $E G$ by the [[diagonal]] [[action]] of $G$ on both.
 
-This space is naturally understood as being the [[geometric realization of simplicial topological spaces|geometric realization]] of the [[topological groupoid|topological]] [[action groupoid]] $X // G$ of the action:
+
+
+## Properties
+
+### As the realization of the action groupoid
+
+This Borel construction is naturally understood as being the [[geometric realization of simplicial topological spaces|geometric realization]] of the [[topological groupoid|topological]] [[action groupoid]] $X // G$ of the [[action]] of $G$ on $X$:
 
 the [[nerve]] of this topological groupoid is the [[simplicial topological space]]
 
@@ -19,7 +29,7 @@ $$
   \,.
 $$ 
 
-Observing that $E G$ itself as a groupoid has the nerve
+Observing that $E G = G//G$ itself as a groupoid has the nerve
 
 $$
   (E G)_\bullet
@@ -28,11 +38,11 @@ $$
    \cdots 
    G \times G \times G 
      \stackrel{\to}{\stackrel{\to}{\to}}
-   G \times G \stackrel{\to}{\to} G
+   G \times G \stackrel{\overset{\cdot}{\to}}{\underset{p_1}{\to}} G
   \right)
 $$
 
-and regarding $X$ and $G$ as topological 0-groupoids, hence with simplicially constant nerves, we have
+(where "$\cdot$" denotes the multiplication action of $G$ on itself) and regarding $X$ and $G$ as topological 0-groupoids ($G$ as a group object in topological 0-groupoids), hence with simplicially constant nerves, we have an [[isomorphism]] of simplicial topological spaces
 
 $$
   (X //G)_\bullet 
@@ -41,8 +51,18 @@ $$
   \,.
 $$
 
-If this is set up in a sufficiently nice category of topological spaces, then, by the discussion at [[geometric realization of simplicial topological spaces]], the geometric realization ${\vert{-}\vert}\colon Top^{\Delta^{op}} \to Top$ manifestly takes this to the Borel construction.
+If this is set up in a sufficiently nice category of topological spaces, then, by the discussion at [[geometric realization of simplicial topological spaces]], the geometric realization ${\vert{-}\vert}\colon Top^{\Delta^{op}} \to Top$ manifestly takes this to the Borel construction (since, by the discussion there, it preserves the product and the quotient).
 
+## References
+
+The nature of the Borel construction as the geometric realization of the action groupoid is mentioned for instance in 
+
+* Alejandro Adem, Michele Klaus, _Lectures on orbifolds and group cohomology_ ([pdf](http://www.math.ubc.ca/~adem/hangzhou.pdf))
+
+* [[Rick Jardine]], _Stacks and the homotopy theory of simplicial sheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0450/stacks3.pdf))
 
 [[!redirects Borel construction]]
 [[!redirects Borel constructions]]
+
+[[!redirects Borel space]]
+[[!redirects Borel spaces]]
