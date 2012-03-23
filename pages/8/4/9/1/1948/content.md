@@ -30,7 +30,7 @@ In the special case that $C = $ [[SSet]] is the standard [[model structure on si
 +-- {: .num_defn #ProjectiveAndInjectiveStructure}
 ###### Definition
 
-For $C$ a [[combinatorial model category]] (or, in the projective case, merely cofibrantly generated) and $D$ a [[small category]] there exists the following two (combinatorial) model category structures on the [[functor category]] $[D,C]$:
+For $C$ a [[combinatorial model category]] or, in the projective case, just a [[cofibrantly generated model category]], and $D$ a [[small category]] there exists the following two (combinatorial) model category structures on the [[functor category]] $[D,C]$:
 
 * the **projective** structure $[D,C]_{proj}$: weak equivalences and fibrations are the [[natural transformation]]s that are objectwise such morphisms in $C$. 
 
@@ -65,7 +65,7 @@ The projective and injective structures $[D,C]_{proj}$ and $[D,C]_{inj}$, def. \
 
 * are right or left [[proper model categories]] if $C$ is right or left proper, respectively.
 
-* are $\mathbf{S}$-[[enriched model categories]] (e.g.[[simplicial model categories]]) with respect to the [[sSet]]-[[enriched category|enrichment]] for which the [[sSet]]-[[copower|tensoring]] is objectwise that of $C$.
+* are $\mathbf{S}$-[[enriched model categories]] (e.g.[[simplicial model categories]]) with respect to the $\mathbf{S}$-[[enriched category|enrichment]] for which the $\mathbf{S}$-[[tensoring]] is objectwise that of $C$.
 
 =--
 
