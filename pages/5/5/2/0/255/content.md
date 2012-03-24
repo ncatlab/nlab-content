@@ -91,7 +91,7 @@ $$
  & x t t \\
  \mathllap{\mu^s x} \downarrow & & & & \downarrow \mathrlap{x \mu^t}
  \\
- s x & \to & \stackrel{\lambda}{\to} & \to & t x
+ s x & & \stackrel{\lambda}{\to} & & t x
 }
 $$
 Finally, a 2-cell $(x,\lambda) \Rightarrow (y, \kappa)$ is given by a 2-cell $m \colon x \Rightarrow y$ satisfying
