@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+## Idea
+
+In [[type theory]], a **negative type** is one whose *eliminators* are regarded as primary.  Its constructors are derived from these by the rule that "to construct an element of a negative type, it is necessary and sufficient to specify how that element behaves upon applying all of the eliminators to it".
+
+In [[categorical semantics]] of type theory, negative types correspond to "from the right" universal properties (i.e. for mapping in).
+
+## Examples
+
+* [[function type]]
+
+* [[dependent product type]]
+
+* [[coinductive type]]
+
+* cartesian [[product types]] can be presented both positively and negatively, as can binary [[sum types]].  The two definitions are equivalent in ordinary type theory, but distinct in [[linear logic]].
+
+[[!redirects negative types]]
