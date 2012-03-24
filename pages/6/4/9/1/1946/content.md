@@ -96,7 +96,26 @@ the Reedy model structure, having the same weak equivalences as the [[global mod
 
 * For a general Reedy category $R$, the diagonal functor $C\to C^R$ need not be either a right or a left [[Quillen adjunction|Quillen functor]] (although, of course, it has left and right adjoints given by colimits and limits over $R$).  One can, however, characterize those Reedy categories for which one or the other is the case, and in this case one can construct [[homotopy limit|homotopy limits]] and colimits using the derived functors of these Quillen adjunctions.
 
-## Properties {#Properties}
+## Properties 
+  {#Properties}
+
+### Enriched model structure
+ {#EnrichedModelStructure}
+
++-- {: .num_prop }
+###### Observation
+
+For $C$ a [[Reedy category]] and $A$ a [[symmetric monoidal category|symmetric]] [[monoidal model category]], the Reedy model structure on $[C,A]_{Reedy}$ is naturally an $A$-[[enriched model category]].
+
+If in addition $A$ is a $V$-[[enriched model category]] for some symmetric monoidal model category $V$, then so is $[C,A]_{Reedy}$
+
+=--
+
+This appears as ([Barwick, lemma 4.2, corollary 4.3](#Barwick)).
+
+(...check assumptions...)
+
+### Relation to other model structures
 
 +-- {: .num_prop }
 ###### Observation
