@@ -70,7 +70,7 @@ Conversely, given a topological groupoid $G$, we can consider the stackification
 +-- {: .un_defn}
 ###### Definition
 
-A 1-[[stack]] $X$ of [[groupoid]]s over $\mathrm{Top}$ is a __topological stack__ if it is [[]equivalence in an (infinity,1)-category|equivalent]] to the stack  $G Bund$ of groupoid-[[principal bundle]] for some [[topological groupoid]] $G$.
+A 1-[[stack]] $X$ of [[groupoid]]s over $\mathrm{Top}$ is a __topological stack__ if it is [[equivalence in an (infinity,1)-category|equivalent]] to the stack  $G Bund$ of groupoid-[[principal bundle]] for some [[topological groupoid]] $G$.
 
 =--
 
