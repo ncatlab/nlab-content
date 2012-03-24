@@ -5,7 +5,7 @@
 
 ## Disambiguation
 
-In [[physics]], __contraction__ is a dilation with coefficient $\lambda\lt 1$. This notion is used in fixed point theory, theory of topological vector spaces etc. There is also a notion of contraction from [[metric space]] theory; see [[short map]].  This entry will be predominantly about another notion of a contraction.
+In [[physics]], __contraction__ is a dilation with coefficient $\lambda\lt 1$. This notion is used in fixed point theory, theory of topological vector spaces etc. There is also a notion of contraction from [[metric space]] theory; see [[short map]].  Finally, the [[contraction rule]] is a structural rule in [[logic]] and [[type theory]].  This entry will be predominantly about another notion of a contraction.
 
 
 ## Contraction of tensors
