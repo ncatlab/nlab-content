@@ -19,6 +19,56 @@ In [[type theory]] a _sum type_ of two [[types]] $A$ and $B$ is the type whose [
 
 In a [[model]] of the type theory in [[categorical semantics]] this is a [[coproduct]]. In [[set theory]], it is a [[disjoint union]].
 
+## Definition
+
+Like all type constructors in type theory, to characterize sum types we must specify how to build them, how to construct elements of them, how to use such elements, and the computation rules.
+
+The way to build sum types is easy:
+
+$$ \frac{A\colon Type \qquad B\colon Type}{A+B \colon Type} $$
+
+### As a positive type
+
+Sum types are most naturally presented as [[positive types]], so that the constructor rules are primary.  These say that we can obtain an element of $A+B$ from an element of $A$, or from an element of $B$.
+
+$$ \frac{a\colon A}{inl(a)\colon A+B} \qquad \frac{b\colon B}{inr(b)\colon A+B} $$
+
+The eliminator is derived from these: it says that in order to use an element of $A+B$, it suffices to specify what should be done for the two ways in which that element could have been constructed.
+
+$$ \frac{p\colon A+B \qquad x\colon A\vdash c_A\colon C \qquad y\colon B \vdash c_B\colon C}{match(p, x.c_A, y.c_B) \colon C}$$
+
+The terms $c_A$ and $c_B$ can have [[free variables]] $x$ and $y$ respectively, but those variables become bound in the $match$ expression.  In [[dependent type theory]], we must generalize the eliminator to allow $C$ to depend on $A+B$.
+
+The [[beta reduction]] rules for a constructor followed by an eliminator:
+
+$$
+\begin{aligned}
+  match(inl(a), x.c_A, y.c_B) &\to_\beta c_A[a/x]\\
+  match(inr(b), x.c_A, y.c_B) &\to_\beta c_B[b/y]
+\end{aligned}
+$$
+
+And the [[eta reduction]] rule for the opposite composite:
+
+$$
+match(p, x.inl(x), y.inr(y)) \to_\eta p
+$$
+
+The positive presentation of sum types can be regarded as a particular sort of [[inductive type]].  In [[Coq]] syntax:
+
+    Inductive sum (A B:Type) : Type :=
+    | inl : A -> sum A B
+    | inr : B -> sum A B.
+
+Coq implements the beta reduction rule, but not the eta (although eta equivalence is provable for the inductively defined [[identity types]], using the dependent eliminator mentioned above).
+
+
+### As a negative type
+
+It is possible to present sum types as [[negative types]] as well, but only if we allow [[sequents]] with multiple conclusions.  This is common in [[sequent calculus]] presentations of [[classical logic]], but not as common in type theory and almost unheard of in [[dependent type theory]].
+
+The two definitions are provably equivalent, but only using the [[contraction rule]] and the [[weakening rule]].  Thus, in [[linear logic]] they become distinct; the positive sum type is "plus" $A\oplus B$ and the negative one is "par" $A \parr B$.
+
 
 ## Related concepts
 
