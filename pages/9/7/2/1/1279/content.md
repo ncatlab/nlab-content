@@ -22,7 +22,7 @@ $$
   \,,
 $$
 
-where $\phi$ and $\psi$ are [[formula]]s over $\Sigma$ and $\vec x$ is a [[context]].
+where $\phi$ and $\psi$ are [[formula]]s over $\Sigma$ and $\vec x$ is a [[context]].  Sometimes one allows $\phi$, or both $\phi$ and $\psi$, to be finite *lists* of formulas rather than single formulas.  In [[type theory]], $\vec x$ and a list of hypotheses $\phi$ can be combined into a single context.
 
 A [[theory]] formulated in $\Sigma$ is given by collection of sequents called the theory's [[axiom]]s.
 
