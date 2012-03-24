@@ -35,7 +35,7 @@ usually presented in terms of inference rules, it was
 apparently discovered by Girard while studying [[coherence
 space|coherent
 spaces]] (see [Wikipedia](http://en.wikipedia.org/wiki/Coherent_space)) (not
-the [[coherent space|topological kind]]).
+the [[coherent topological space|topological kind]]).
 
 
 ## Definition
