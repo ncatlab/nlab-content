@@ -74,6 +74,8 @@ The existence of the unenriched model structure apears as [[Higher Topos Theory|
 The enriched case is [[Higher Topos Theory|HTT, prop. A.3.3.2]] and the remarks following that.
 The statement about properness appears as [[Higher Topos Theory|HTT, remark A.2.8.4]].
 
+### Cofibrant generation
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -94,6 +96,9 @@ In particular, every cofibration if $[C,A]_{proj}$ is in particular a cofibratio
 =--
 
 This is argued in the beginning of the proof of [[Higher Topos Theory|HTT, lemma A.2.8.3]].
+
+
+### Relation to other model structures
 
 +-- {: .num_cor}
 ###### Corollary
