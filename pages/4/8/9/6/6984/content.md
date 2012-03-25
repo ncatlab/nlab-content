@@ -81,7 +81,7 @@ Positively defined products are naturally expressed as [[inductive types]].  For
 
 (Coq then implements beta-reduction, but not eta-reduction.  However, eta-equivalence is provable with the internally defined [[identity type]], using the dependent eliminator mentioned above.)
 
-Arguably, negatively defined products should be naturally expressed as [[coinductive types]], but this is not exactly the case for the presentation of coinductive types used in Coq.
+Arguably, negatively defined products should be naturally expressed as [[coinductive type]]s, but this is not exactly the case for the presentation of coinductive types used in Coq.
 
 
 ### Positive versus negative
