@@ -474,7 +474,7 @@ isomorphism in $Ho_S(C)$. Since that is a [[full subcategory]], it follows that 
 
 #### Every Bousfield localization is of this form {#LocHasToBeSLoc}
 
-We have considered two definitions of left Bousfield localization: in the first we just requires that cofibrantions are kept and weak equivalences increased. In the second we more specifically took the weak equivalences to be $S$-local weak equivalences.
+We have considered two definitions of left Bousfield localization: in the first we just required that cofibrantions are kept and weak equivalences are increased. In the second we more specifically took the weak equivalences to be $S$-local weak equivalences.
 
 We now show that every localiztion in the first sense is indeed of the second kind, if we demand that both the original and the localized category are left proper, cofibrantly generated simplicial model categories.
 
