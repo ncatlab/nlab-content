@@ -96,6 +96,8 @@ $$
 \end{aligned}
 $$
 
+In dependent type theory, in order to recover the *dependent* eliminator for the positive product type from the eliminators for the negative product type, we need the latter to satisfy the $\eta$-conversion rule so as to make the above definition well-typed.
+
 The computation rules then also correspond.  In the case of beta reduction, this is obvious.  For eta reduction, in the negative-to-positive direction we have
 
 $$
