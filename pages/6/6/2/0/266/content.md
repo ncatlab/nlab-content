@@ -335,7 +335,7 @@ $$
 $$
 exists for all $c'$, then they fit together into a left Kan extension $Lan_p F$.  These definitions evidently make sense in the generality of $V$-[[enriched category theory]] for $V$ a [[closed monoidal category|closed]] [[symmetric monoidal category]].  (In fact, they can be modified slightly to make sense in the full generality of a [[2-category equipped with proarrows]].)
 
-In particular, this means that if $C$ is [[small category|small] and $D$ is [[complete category|complete]] (resp. cocomplete), then all right (resp. left) Kan extensions of functors $F\colon C\to D$ exist along any functor $p\colon C\to C'$.
+In particular, this means that if $C$ is [[small category|small]] and $D$ is [[complete category|complete]] (resp. cocomplete), then all right (resp. left) Kan extensions of functors $F\colon C\to D$ exist along any functor $p\colon C\to C'$.
 
 One can prove that any Kan extension constructed in this way must be pointwise, in the sense of being preserved by all representables as above.  Moreover, conversely, if a Kan extension $Lan_p F$ is pointwise, then one can prove that $(Lan_p F)(c')$ must be in fact a $C'(p(-),c')$-weighted colimit of $F$, and dually; thus the two notions are equivalent.
 
