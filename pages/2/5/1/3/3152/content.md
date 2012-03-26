@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Being a [[Grothendieck fibration]] is a [[property-like structure]] on a [[functor]], like the existence of [[limits]] in a [[category]]: it is defined by the existence of certain objects (in this case, [[cartesian morphisms]]) which, when they exist, are unique up to unique isomorphism.  Any property-like structure can be "algebraicized" by requiring a specific *choice* of the objects that are required to exist; a *cleavage* is this "algebraicization" of being a fibration.
