@@ -48,11 +48,13 @@ $$
 \end{aligned}
 $$
 
-And the [[eta reduction]] rule for the opposite composite:
+The [[eta reduction]] rule for the opposite composite says that for any term $c\colon C$ in the context of $p\colon A+B$,
 
-$$
-match(p, x.inl(x), y.inr(y)) \to_\eta p
-$$
+$$match(p, x.c[inl(x)/z], y.c[inr(y)/z]) \to_\eta c[p/z].$$
+
+This says that if we unpack a term of type $A+B$, but only use the resulting term of type $A$ or $B$ by way of packing them back into $A+B$, then we might as well not have unpacked them to begin with.  Note that choosing $C\coloneqq A+B$ and $c \coloneqq z$, we obtain a simpler form of $\eta$-conversion:
+
+$$match(p, x.inl(x), y.inr(y)) \to_\eta p.$$
 
 The positive presentation of sum types can be regarded as a particular sort of [[inductive type]].  In [[Coq]] syntax:
 
