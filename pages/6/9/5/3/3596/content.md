@@ -197,3 +197,5 @@ A survey is in chapter 1 of
 [[!redirects path types]]
 [[!redirects stable path object]]
 [[!redirects stable path objects]]
+[[!redirects propositional equality]]
+[[!redirects propositionally equal]]
