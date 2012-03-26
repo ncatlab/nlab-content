@@ -10,7 +10,7 @@
 
 ## Idea ##
 
-Opetopes are one of the [[geometric shapes for higher structures|geometric shapes]] of cells in the approach to the [[higher category theory]] of [[n-category|n-categories]] and [[∞-categories]].
+Opetopes are one of the [[geometric shapes for higher structures|geometric shapes]] of cells in the approach to the [[higher category theory]] of [[n-category|n-categories]] and [[∞-categories]] put forward by John Baez and James Dolan.
 
 
 
