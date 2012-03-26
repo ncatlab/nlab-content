@@ -131,7 +131,7 @@ Under [[categorical semantics]], product types satisfying both beta and eta conv
 
 * the [[syntactic category]] of a type theory with product types has categorical products, as long as the type theory satisfies both beta and eta rules.
 
-Of course, the categorical notion of product matches the *negative* definition of a product most directly.  In linear logic, therefore, the categorical product intprets "with" $\&$, while an additional [[monoidal category|monoidal structure]] interprets "tensor" $\otimes$.
+Of course, the categorical notion of product matches the *negative* definition of a product most directly.  In linear logic, therefore, the categorical product interprets "with" $\&$, while an additional [[monoidal category|monoidal structure]] interprets "tensor" $\otimes$.
 
 
 ## Related concepts
