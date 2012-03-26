@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+# Dependent product types
+* table of contents
+{: toc}
+
+## Idea
+
+In [[dependent type theory]], a _dependent product type_ $\prod_{x\colon A} B(x)$, for a [[dependent type]] $x\colon A\vdash B(x)\colon Type$ is the [[type]] of "dependently typed [[functions]]" assigning to each $x\colon A$ an element of $B(x)$.
+
+In a [[model]] of the type theory in [[categorical semantics]], this is a [[dependent product]].  In [[set theory]], it is an element of an indexed product.
+
+It includes [[function types]] as the special case when $B$ is not dependent on $A$.  Note that a binary [[product type]] is rather different, being actually a special case of a [[dependent sum type]].
+
+## Definition
+
+Dependent products are almost always defined as a [[negative type]].
+
+...
+
+
+## Related concepts
+
+* [[dependent product]]
+* [[dependent sum type]]
+* [[function type]]
+
+
+[[!redirects dependent product type]]
+[[!redirects dependent product types]]
