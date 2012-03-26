@@ -24,12 +24,14 @@ So these model structures serve to present [[(∞,1)-categories of (∞,1)-funct
 Let $S$ be a (Cisinski-Moerdijk) [[generalized Reedy category]].
 Let $\mathcal{C}$ be a category with small [[limits]] and [[colimits]].
 
-+-- {: .num_defn}
+### The model structure
+
++-- {: .num_defn #FirstNotation}
 ###### Definition
 
 For every [[object]] $s \in S$, every [[functor]] $X : S \to \mathcal{C}$ and every [[natural transformation]] $\phi : X \to Y$ write 
 
-* $S^+(s)$ for the [[full subcategory]] of the [[slice category]] $S^+/s$ on the non-invertible morphisms  into $s$;
+* $S^+(s)$ for the [[full subcategory]] of the [[slice category]] $S^+/s$ on the non-invertible morphisms into $s$;
 
 * $S^-(s)$ for the [[full subcategory]] of the [[under category]] $s/S^-$ on the non-invertible morphisms out of $s$;
 
@@ -43,12 +45,14 @@ For every [[object]] $s \in S$, every [[functor]] $X : S \to \mathcal{C}$ and ev
 
 =--
 
+See _[[Joyal-Tierney calculus]]_ for more on these kinds of objects and morphisms.
+
 +-- {: .num_prop}
 ###### Proposition
 
 In the above situation, the [[automorphism]] group $Aut_S(s)$ of $s$ canonically acts on all objects that appear, and all morphisms that appear respect this action.
 
-Equivalently this means that for all $s$ the above objects and morphisms take place in the presheaf category $[B Aut(s), \mathcal{E}]$.
+Equivalently this means that for all $s$ the above objects and morphisms take place in the presheaf category $[B Aut(s), \mathcal{C}]$.
 
 =--
 
@@ -87,6 +91,151 @@ Call a morphism $f : X \to Y$ in $[S, \mathcal{C}]$
 where $[B Aut(r), \mathcal{C}]_{proj}$ is the projective [[model structure on functors]].
 
 =--
+
+### Global latching objects
+ {#GlobalLatchingObjects}
+
+We discuss here an alternative way of speaking about the latching objects, one where all indices at a given degree $n \in \mathbb{N}$ are unified.
+
+Recall from def. \ref{FirstNotation} that for $s \in S$ we write $S^+(s)$
+for the category of non-invertible degree-increasing morphisms into $s$. We introduce the union of these categories over all objects of a fixed degree.
+
++-- {: .num_defn #SecondNotation}
+###### Definition
+
+For $n \in \mathbb{N}$ write
+
+* $S^+(n) = \coprod_{d(r) = n} S^+(r)$;
+
+* $d_ n : S^+((n)) \to S$ for the restriction of the [[domain opfibration]] to objects that are non-invertible morphisms in $S^+$ with codomain in degree $n$ and to morphisms whose codomain is invertible, i.e. to diagrams of the form
+
+  $$
+    \array{
+       a &\to& b
+       \\
+       \downarrow^{\mathrlap{\in S^+}} && \downarrow^{\mathrlap{\in S^+}} & not\, invertible
+       \\
+       s & \stackrel{\simeq}{\to} & s' & deg = n
+    }
+    \,;
+  $$
+
+* $k_n : S^+(n) \hookrightarrow S^+((n))$ for the [[full subcategory]] inclusion on constant codomains;
+
+* $G_n(S) \subset Core(S)$ for the [[groupoid]] of objects of dgree $n$ and [[isomorphisms]] between them.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The above categories and functors arrange into a [[diagram]]
+
+$$
+  \array{
+    S &\stackrel{d_n}{\leftarrow}& S^+((n)) &\stackrel{cod}{\to}& G_n(S)
+    &\stackrel{j_n}{\to}& S
+    \\
+    &&
+    {}^{\mathllap{i_n}}\uparrow && \uparrow^{\mathrlap{i_n}}
+    \\
+    && S^+(n) &\stackrel{cod}{\to}& Obj(S)_n
+  }  
+  \,,
+$$
+
+where the vertical morphisms are (non-full) inclusions and the square is a [[pullback]] of an [[opfibration]].  Therefore it satisfies the [[Beck-Chevalley condition]] so that we have a [[natural isomorphism]]
+
+$$
+  cod_! i^* \simeq i^* cod_!
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #GlobalLatching}
+###### Definition
+
+For $n \in \mathbb{N}$, let $X \in [S, \mathcal{C}]$. Write 
+
+* $X_n := j_n^* X \in [G_n(S), \mathcal{C}]$;
+
+* the **$n$th latching object** is 
+
+  $$
+    L_n(X) := cod_! d_n^* X \in [G_n(S), \mathcal{C}]
+    \,.
+  $$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+For $s \in Obj(S)_n$ we have
+
+$$
+  L_n(X) : s \mapsto L_s(X)
+  \,.
+$$
+
+=--
+
+(...)
+
+## Proof of the model category axioms
+
+We discuss that for $S$ a Berger-Moerdijk-[[generalized Reedy category]] and $\mathcal{C}$ a [[cofibrantly generated model category]], def. \ref{ReedyModelStructure} indeed defines a [[model category]] structure on the [[functor category]] $[S,\mathcal{C}]$.
+
++-- {: .num_theorem }
+###### Theorem 
+
+Def. \ref{ReedyModelStructure} indeed defines a [[model category|model structure]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear that $[S,\mathcal{C}]$ has all limits and colimits (as for any [[category of presheaves]] they are computed objectwise in $\mathcal{E}$) and that the weak equivalences satisfy [[two-out-of-three]], since the weak equivalences in $\mathcal{E}$ do. Also, all three classes of morphisms are closed under [[retracts]], since, for instance, the relative latching morphism of a retract is the retract of a relative latching morphism and so the property follows with the retract-closure of the classes of morphisms in $\mathcal{E}$.
+
+It remains to show that the relevant lifting and factorization properties hold. This we discuss in a list of lemmas below in _[Lifting](#Lifting)_ and _[Factorization](#Factorization)_.
+
+=--
+
+### Lifting 
+ {#Lifting}
+
+We work with the "global" latching objects from [above](#GlobalLatchingObjects).
+
++-- {: .num_prop }
+###### Observation
+
+A morphism $f : X \to Y$ in $[S, \mathcal{C}]_{gReedy}$ is a cofibration
+precisely if for all $n \in \mathbb{N}$ the global relative latching morphism, def. \ref{GlobalLatching}
+
+$$
+  X_n \coprod_{L_n(X)} L_n(Y) \to Y_n
+$$
+
+is a cofibration in $[G_n(S), \mathcal{C}]$.
+
+=--
+
++-- {: .num_lemma }
+###### Lemma
+
+(...)
+
+=--
+
+(...)
+
+### Factorization
+ {#Factorization}
+
+(...)
 
 ## Properties
 
