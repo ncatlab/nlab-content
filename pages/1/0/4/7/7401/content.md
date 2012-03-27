@@ -35,13 +35,13 @@ For every [[object]] $s \in S$, every [[functor]] $X : S \to \mathcal{C}$ and ev
 
 * $S^-(s)$ for the [[full subcategory]] of the [[under category]] $s/S^-$ on the non-invertible morphisms out of $s$;
 
-* $L_s(X) := {\lim_\to}_{(r \to s) \in S^+(s)} X(r)$ for the [[colimit]] of $X$ over $S^+(s)$, called the **latching object** of $X$ at $s$;
+* $Latch_s(X) := {\lim_\to}_{(r \to s) \in S^+(s)} X(r)$ for the [[colimit]] of $X$ over $S^+(s)$, called the **latching object** of $X$ at $s$;
 
-* $M_s(X) := {\lim_\leftarrow}_{(s \to r) \in S^-(s)} X(r)$ for the [[limit]] of $X$ over $S^-(s)$, called the **matching object** of $X$ at $s$.
+* $Match_s(X) := {\lim_\leftarrow}_{(s \to r) \in S^-(s)} X(r)$ for the [[limit]] of $X$ over $S^-(s)$, called the **matching object** of $X$ at $s$.
 
-* $X_s \coprod_{L_s(X)} L_s(Y) \to Y_s$ for the universal morphism induced from the morphism $L_s(X) \to X_s$, called the **relative latching map** of $\phi$ at $s$;
+* $X_s \coprod_{Latch_s(X)} Latch_s(Y) \to Y_s$ for the universal morphism induced from the morphism $L_s(X) \to X_s$, called the **relative latching map** of $\phi$ at $s$;
 
-* $X_s \to M_s(X) \prod_{M_s(Y)} Y_s$ for the dual universal morphism, called the **relative matching map** of $\phi$ at $s$.
+* $X_s \to Match_s(X) \prod_{Match_s(Y)} Y_s$ for the dual universal morphism, called the **relative matching map** of $\phi$ at $s$.
 
 =--
 
@@ -55,6 +55,8 @@ In the above situation, the [[automorphism]] group $Aut_S(s)$ of $s$ canonically
 Equivalently this means that for all $s$ the above objects and morphisms take place in the presheaf category $[B Aut(s), \mathcal{C}]$.
 
 =--
+
+Choose now once and for all a [[model structure on functors]] on all $[B Aut(r), \mathcal{C}]$, for instance the projective or the injective one. We will write $[B Aut(r), \mathcal{C}]_{proj/inj}$ to indicate some fixed choice. 
 
 
 +-- {: .num_defn #ReedyModelStructure}
@@ -70,7 +72,7 @@ Call a morphism $f : X \to Y$ in $[S, \mathcal{C}]$
     X_s \coprod_{L_s(X)} L_s(Y) \to Y_s
   $$
 
-  is a cofibration in $[B Aut(s), \mathcal{C}]_{proj}$;
+  is a cofibration in $[B Aut(s), \mathcal{C}]_{proj/inj}$;
 
 * a **Reedy fibration** if for each $s \in S$ the relative matching map 
 
@@ -88,7 +90,7 @@ Call a morphism $f : X \to Y$ in $[S, \mathcal{C}]$
 
   is a weak equivalence in $\mathcal{C}$;
 
-where $[B Aut(r), \mathcal{C}]_{proj}$ is the projective [[model structure on functors]].
+where $[B Aut(r), \mathcal{C}]_{proj/inj}$ is the projective [[model structure on functors]].
 
 =--
 
@@ -105,7 +107,7 @@ for the category of non-invertible degree-increasing morphisms into $s$. We intr
 
 For $n \in \mathbb{N}$ write
 
-* $S^+(n) = \coprod_{d(r) = n} S^+(r)$;
+* $S^+(n) = \coprod_{d(s) = n} S^+(s)$;
 
 * $d_ n : S^+((n)) \to S$ for the restriction of the [[domain opfibration]] to objects that are non-invertible morphisms in $S^+$ with codomain in degree $n$ and to morphisms whose codomain is invertible, i.e. to diagrams of the form
 
@@ -120,26 +122,26 @@ For $n \in \mathbb{N}$ write
     \,;
   $$
 
-* $k_n : S^+(n) \hookrightarrow S^+((n))$ for the [[full subcategory]] inclusion on constant codomains;
+* $i_n : S^+(n) \hookrightarrow S^+((n))$ for the [[full subcategory]] inclusion on constant codomains;
 
 * $G_n(S) \subset Core(S)$ for the [[groupoid]] of objects of dgree $n$ and [[isomorphisms]] between them.
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #DiagramOfRestrictions}
 ###### Proposition
 
 The above categories and functors arrange into a [[diagram]]
 
 $$
   \array{
-    S &\stackrel{d_n}{\leftarrow}& S^+((n)) &\stackrel{cod}{\to}& G_n(S)
+    S &\stackrel{dom_n}{\leftarrow}& S^+((n)) &\stackrel{cod_n}{\to}& G_n(S)
     &\stackrel{j_n}{\to}& S
     \\
     &&
     {}^{\mathllap{i_n}}\uparrow && \uparrow^{\mathrlap{i_n}}
     \\
-    && S^+(n) &\stackrel{cod}{\to}& Obj(S)_n
+    && S^+(n) &\stackrel{cod_n}{\to}& Obj(S)_n
   }  
   \,,
 $$
@@ -154,6 +156,23 @@ $$
 
 =--
 
++-- {: .num_lemma}
+###### Observation
+
+The restricted [[codomain fibration|codomain opfibration]] $cod_n : S^+((n)) \to G_n$ is still an [[opfibration]]: it is the [[Grothendieck construction]] of the [[pseudofunctor]]
+
+$$
+  S^+(-) : G_n(S) \to Cat
+$$
+
+$$
+  s \mapsto S^+(s)
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_defn #GlobalLatching}
 ###### Definition
 
@@ -164,11 +183,13 @@ For $n \in \mathbb{N}$, let $X \in [S, \mathcal{C}]$. Write
 * the **$n$th latching object** is 
 
   $$
-    L_n(X) := cod_! d_n^* X \in [G_n(S), \mathcal{C}]
+    L_n(X) := cod_! dom_n^* X \in [G_n(S), \mathcal{C}]
     \,.
   $$
 
 =--
+
+The following proposition says that the "global" latching objects indeed contain all the ordinary latching objects in the given degree. 
 
 +-- {: .num_prop }
 ###### Proposition
@@ -194,7 +215,7 @@ $$
 for the [[full subcategory]]
 on the objects of degree $\leq n$.
 
-+-- {: .num_defn }
++-- {: .num_defn #SkeletaByAdjunction}
 ###### Definition
 
 Left and right [[Kan extension]] along $t_n$ defines an [[adjoint triple]]
@@ -247,7 +268,7 @@ $$
 $$
 
 $$
-  Match_n(X) cosk_{n-1}(X)
+  Match_n(X) \simeq cosk_{n-1}(X)
 $$
 
 
@@ -258,7 +279,7 @@ This is ([Ber-Moer, lemma 6.2](#BergerMoerdijk)).
 +-- {: .num_lemma #coSkeletonTower}
 ###### Lemma
 
-There are towers of [[natural trasnsformations]]
+There are towers of [[natural transformations]]
 
 $$
   \emptyset \to sk_0 X \to sk_1 X \to sk_2 X \to \cdots \to X
@@ -278,8 +299,16 @@ that exhibit $X$ as the [[colimit]] of its skeleton tower and as the [[limit]] o
 
 This is ([Ber-Moer, lemma 6.3](#BergerMoerdijk)).
 
++-- {: .proof}
+###### Proof
 
-(...)
+The morphisms in the tower come from the [[unit of an adjunction|adjunction units and counits]]. To see that for instance the first diagram is colimiting, 
+consider a cocone $\{sk_n X \to Y\}$. By adjointness this is equivalently
+a system of morphisms $\{X_{\leq n} \to Y_{\leq n}\}$. Hence there is a unique morphism
+$X \to Y$ that factors the original cocone.
+
+=--
+
 
 ## Proof of the model category axioms
 
@@ -321,29 +350,14 @@ is a cofibration in $[G_n(S), \mathcal{C}]$.
 =--
 
 
-+-- {: .num_lemma #ExtraPropertyOfAcyclicCofibrations}
++-- {: .num_lemma #LiftingLemma}
 ###### Lemma
-
-Let $f : X \to Y$ in $[S, \mathcal{C}]$ be an acyclic Reedy cofibration. Then for all $n \in \mathbb{N}$ the morphism $Latch_n(f) : Latch_n(X) \to Latch_n(Y)$ is over each $s \in S$ an acyclic cofibration in $\mathcal{C}$
-
-Dually, let $f : X \to Y$ in $[S, \mathcal{C}]$ be an acyclic Reedy fibration. Then for all $n \in \mathbb{N}$ the morphism $Match_n(f) : Match_n(X) \to Match_n(Y)$ is over each $s \in S$ an acyclic fibration in $\mathcal{C}$
-
-
-=--
-
-This is ([Ber-Moer, lemma 5.3 and lemma 5.5](#BergerMoerdijk)).
-
-
-
-
-+-- {: .num_prop }
-###### Proposition
 
 In the generalized Reedy model structure, def. \ref{ReedyModelStructure}, 
 
-* acylcic cofibrations have the [[left lifting property]] agains fibrations;
+* Reedy cofibrations $f$ such that for all $n \in \mathbb{N}$ the morphism $Latch_n(f)$ is an objectwise weak equivalence have the [[left lifting property]] against fibrations;
 
-* cofibrations have the [[left lifting property]] agains acyclic fibrations.
+* Reedy cofibrations have the [[left lifting property]] against Reedy fibrations $f$ with the special property that for all $n \in \mathbb{N}$ the morphism $Match_n(f)$ is an objectwise weak equivalence.
 
 
 =--
@@ -366,9 +380,9 @@ $$
   }
 $$
 
-by inductively constructing lifts in its image under $t_n^*$ (restriction to objects of degree $\leq n$, see [above](#SkeletaAndCoskeleta)).
+by stepwise constructing lifts in in the skeletal filtration, lemma \ref{coSkeletonTower}.
 
-First consider the case $n = 0$. Since $L_0(X) = \emptyset$ for all $X$, the fact that 
+At $n = 0$, observe that since $L_0(X) = \emptyset$ for all $X$, the fact that 
 
 $$
   A_0 \coprod_{L_0(A)} L_0(B) \to B_0
@@ -386,9 +400,9 @@ $$
   }
 $$
 
-is a lifting problem in $[G_0(S), \mathcal{C}]_{proj}$ of an acyclic cofibration against a fibration, and hence has a filler $\gamma_0 : B_0 \to Y_0$ there.
+is a lifting problem in $[G_0(S), \mathcal{C}]_{proj/inj}$ of an acyclic cofibration against a fibration, and hence has a filler $\gamma_0 : B_0 \to Y_0$ there.
 
-Now assume that a fillier $\gamma_{\leq (n-1)}$ in 
+Now assume that a filler $\gamma_{\leq (n-1)}$ in 
 
 $$
   \array{
@@ -402,29 +416,72 @@ $$
 
 has been found. By lemma \ref{LatchingIsSkeleton} this induces maps $Latch_n(B) \to Latch_{Y}$ and $Match_n(B) \to Match_n(Y)$ from which we can build the commuting diagram
 
+\[
+  \label{MainLiftingDiagram}
+  \array{
+    A_n \coprod_{Latch_n A} Latch_n B
+    &\to&
+    Y_n
+    \\
+    \downarrow^{\mathrlap{v_n}} && \downarrow^{\mathrlap{w_n}}
+    \\
+    B_n &\to& X_n \times_{Match_n X} Match_n Y
+  }
+  \,.
+\]
+
+Here for instance the top horizontal morphism comes from the commutativity of the square
+
+$$
+  \array{
+    Latch_n A &\to& Latch_n B &\to& Latch_n Y
+    \\
+    \downarrow && && \downarrow
+    \\
+    A_n &\to& &\to& Y_n
+  }
+$$
+
+by naturality of the $(sk_{n-1} \dashv t_{n-1}^*)$-counit.
+
+We observe now that a lift in (eq:MainLiftingDiagram) in $[G_n, \mathcal{C}]_{proj/inj}$ completes the induction step. For instance in the top left the lift
+
 $$
   \array{
     A_n \coprod_{Latch_n A} Latch_n B
     &\to&
     Y_n
     \\
-    \downarrow && \downarrow
+    \downarrow &\nearrow_{\gamma_n}& 
     \\
-    B_n &\to& X_n \times_{Match_n X} Match_n Y
+    B_n 
   }
-  \,.
 $$
 
-Staring at this for a while (...) one sees that a lift of this in $[G_n, \mathcal{C}]$ completes the induction step. 
+is 
 
-By assumption the left vertical morphism is a cofibration in $[G_n, \mathcal{C}]_{proj}$, and the right vertical morphism is a fibration there. It is now sufficient to show that the left morphism is also a weak equivalence, hence is a weak equivalence in $\mathcal{E}$ over each $s \in S$.
+* a lift in 
 
-By lemma \ref{ExtraPropertyOfAcyclicCofibrations} we know that $L_n(f)_s$ is an acyclic cofibration in $\mathcal{C}$ for all $s$. Hence so is its pushout $A_s \to 
+  $$
+    \array{
+       A_n &\to& Y_n
+       \\
+       \downarrow & \nearrow
+       \\
+       B_n
+    }
+  $$
+
+* which is compatible with the previously chosen $\gamma_{\leq (n-1^)}$
+
+By assumption the left vertical morphism is a cofibration in $[G_n, \mathcal{C}]_{proj/inj}$, and the right vertical morphism is a fibration there. It is now sufficient to show that the left morphism is also a weak equivalence, hence is a weak equivalence in $\mathcal{E}$ over each $s \in S$.
+
+By assumption we know that $L_n(f)_s$ is an acyclic cofibration in $\mathcal{C}$ for all $s$. Hence so is its pushout $A_s \to 
 (A_s \coprod_{L_n(A)_s} L_n(B)_s)$. The morphism $v_n(s)$ finally sits in the diagram
 
 $$
   \array{
-    A_r &\stackrel{f_r}{\to}&
+    A_r &\stackrel{f_r}{\to}& B_r
     \\
     \downarrow  & \nearrow_{\mathrlap{v_n(s)}}
     \\
@@ -437,7 +494,171 @@ and so is a weak equivalence by [[two-out-of-three]].
 =--
 
 
++-- {: .num_lemma #LatchingIntertwiner}
+###### Lemma
+
+Suppose $\phi : R \to S$ is a morphism of generalized Reedy categories such that the induced square (see prop. \ref{DiagramOfRestrictions})
+
+$$
+  \array{
+    R^+((k)) &\stackrel{cod_k^R}{\to}& G_k(R)
+    \\
+    \downarrow^{\mathrlap{\phi_k^+}} && \downarrow^{\mathrlap{\phi_k}}
+    \\
+    S^+((k)) &\stackrel{cod_k^S}{\to}& G_k(S)
+  }
+$$ 
+
+is a pullback. Then for each $X \in [S, \mathcal{C}]$, the natural comparison functor
+
+$$
+  L_k(\phi^*(X)) \to \phi_k^*(L_k X)
+$$
+
+is an isomorphism.
+
+Given a Reedy category $S$, examples of $\phi$ satisfying this condition include
+
+$$ 
+  \phi := dom_n i_n : S^+(n) \to S
+$$
+
+
+=--
+
+This is ([Ber-Moer, lemma 4.4](#BergerMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+The pullback square is part of the diagram 
+
+$$
+  \array{
+    R
+     &\stackrel{dom_k^R}{\leftarrow}&
+    R^+((k)) &\stackrel{cod_k^R}{\to}& G_k(R)
+    \\
+    \downarrow^\phi
+     &&
+    \downarrow^{\mathrlap{\phi_k^+}} && \downarrow^{\mathrlap{\phi_k}}
+    \\
+    S
+     &\stackrel{dom_k^S}{\leftarrow}&
+    S^+((k)) &\stackrel{cod_k^S}{\to}& G_k(S)
+  }
+$$ 
+
+whose rowes define, by prop. \ref{DiagramOfRestrictions}, the latching objects by pull-push. Since the pullback square satisfies the [[Beck-Chevalley condition]], we find the intertwining isomorphism as follows
+
+$$
+  \begin{aligned}
+     L_k \phi^* X 
+     & \simeq 
+     (cod^R_k)_! (dom^R_k)^* \phi^* X
+     \\
+      & \simeq 
+      (cod^R_k)_! (\phi^+_k)^* (dom^S_k)^* X
+     \\
+     & \simeq
+     (\phi_k)^* (cod^R_k)_! (dom^S_k)^* X
+     \\
+     & \simeq
+     (\phi_k)^*
+     L_k X
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_lemma #ExtraPropertyOfAcyclicCofibrations}
+###### Lemma
+
+Let $f : X \to Y$ in $[S, \mathcal{C}]$ be a Reedy cofibration, which is a weak equivalence on all objects of degree $\lt n$. Then the morphism $ Latch_n(f) :  Latch_n(X) \to  Latch_n(Y)$ is over each $s \in S$ an acyclic cofibration in $\mathcal{C}$
+
+Dually, let $f : X \to Y$ in $[S, \mathcal{C}]$ be a Reedy fibration which is a weak equivalence over all objects of degree $\lt n$. Then the morphism $Match_n(f) :  Match_n(X) \to  Match_n(Y)$ is over each $s \in S$ an acyclic fibration in $\mathcal{C}$.
+
+
+=--
+
+This is ([Ber-Moer, lemma 5.3 and lemma 5.5](#BergerMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+We show this by induction over $n$, using the skeletal filtration def. \ref{SkeletaByAdjunction}. For $n = 0$ we have for all $X$ that
+$L_n X = sk_{-1} X = \emptyset$, and hence the condition is trivially satisfied. 
+
+So assume now that the statement has been shown for all $(k \lt n)$-skeleta, then we need to show that $i_n^* L_n f$ is an acyclic cofibration, hence that every square of the form
+
+$$
+  \array{   
+    i_n^* L_n A &\to& Y
+    \\
+    \downarrow^{\mathrlap{i_n^* L_n f}} && \downarrow^{g}
+    \\
+    i_n^* L_n B &\to& X
+  }
+$$
+
+with $g$ a fibration in $[Obj(S)_n, \mathcal{C}]_{proj/inh}$ (hence over every object of degree $n$) has a lift. Since by lemma \ref{DiagramOfRestrictions} we have
+
+$$
+  i^*_n L_n = i_n^* cod_! dom_n^* = cod_! i_n^* dom_n^*
+$$
+
+such a filler is equivalently a filler in 
+
+$$
+  \array{
+     i_n^* dom_n^* A &\to& cod^* Y
+     \\
+     {}^{\mathllap{}}\downarrow && \downarrow
+     \\
+     i_n^* dom_n^* B &\to& cod^* X
+  }
+$$
+
+being a diagram in $[S^+(n), \mathcal{C}]$
+
+We now establish such a filler by using lemma \ref{LiftingLemma} with the Reedy category in question being $S^+(n)$. This has only $+$-morphisms and hence Reedy fibrations here are objectwise fibrations, so the morphism on the right is a Reedy fibration over $S^+(n)$.
+
+Moreover, $i_n^* dom_n^* f$ is a Reedy weak equivalence in this structure, since all its objects have degree $\lt n$. It remains to be shown that the assumptions of lemma \ref{LiftingLemma} are satisfied. 
+
+By lemma \ref{LatchingIntertwiner} the functor
+
+$$
+  (d_k i_k)^* : [G_k(S), \mathcal{C}] \to [G_k(S^+(n)), \mathcal{C}]
+$$
+
+intertwines the latching objects on both sides. Therefore the above morphism on the left is the image under $(dom_n i_n)^*$ of the $k$th relative latching morphism of $A \to B$. Since $(d_k i_k)$ is a faithful functor between groupoids, $(d_k i_k)^*$ preserves cofibrations, and so the left morphism above is a Reedy cofibration. Similarly, since $L_k(f)$ is an acyclic cofibration by assumption, so is $L_k((d_k i_k)^* f)$.
+
 (...)
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+In the generalized Reedy model structure, def. \ref{ReedyModelStructure}, 
+
+* acyclic cofibrations have the [[left lifting property]] against fibrations;
+
+* cofibrations have the [[left lifting property]] agains acyclic fibrations.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{ExtraPropertyOfAcyclicCofibrations} every Reedy cofibration induces a weak equivalence under $L_n$. By lemma \ref{LiftingLemma} this implies the left lifting property against Reedy fibrations. Dually for the second statement.
+
+=--
+
+
 
 ### Factorization
  {#Factorization}
