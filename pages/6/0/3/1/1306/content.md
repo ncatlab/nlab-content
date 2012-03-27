@@ -53,6 +53,13 @@ The last condition implies that the isomorphism in the penultimate condition mus
 
 =--
 
++-- {: .num_defn }
+###### Definition
+
+A [[morphism]] of generalized Reedy category $S \to R$ is a [[functor]] whish takes $S_+$ to $R_+$, takes $S_-$ to $R_-$ and preserves the degree.
+
+=--
+
 This appears as ([Berger-Moerdijk, def. 1.1](#BergerMoerdijk)).
 
 +-- {: .num_remark}
