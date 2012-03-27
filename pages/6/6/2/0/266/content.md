@@ -622,6 +622,33 @@ See
 
 ([Karazeris-Protsonis](#KarazerisProtsonis)).
 
+### Kan extension along (op)fibration
+ {#AlongFibrations}
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f : C \to D$ be a small [[opfibration]] of categories, and let $\mathcal{C}$ be a category with all small [[colimits]]. Then for each $d \in D$ the inclusion
+
+$$
+  f^{-1}(d) \to f/d
+$$
+
+of the [[fiber]] over $d$ into the [[comma category]] is a [[cofinal functor]]. Accordingly the local formula for the left Kan extension 
+
+$$
+  f_! : [C, \mathcal{D}] \to [D, \mathcal{D}]
+$$
+
+is equivalently given by taking the colimit over the [[fiber]]:
+
+$$
+  f_! X : d \mapsto \lim_{\underset{f^{-1}(d)}{\to}} X
+  \,.
+$$
+
+=--
+
 ## Examples
  {#Examples}
 
