@@ -97,7 +97,7 @@ where $[B Aut(r), \mathcal{C}]_{proj/inj}$ is the projective [[model structure o
 ### Global latching objects
  {#GlobalLatchingObjects}
 
-We discuss here an alternative way of speaking about the latching objects, one where all indices at a given degree $n \in \mathbb{N}$ are unified.
+We discuss here an alternative way of speaking about the latching objects, one where all indices at a given degree $n \in \mathbb{N}$ are collected.
 
 Recall from def. \ref{FirstNotation} that for $s \in S$ we write $S^+(s)$
 for the category of non-invertible degree-increasing morphisms into $s$. We introduce the union of these categories over all objects of a fixed degree.
