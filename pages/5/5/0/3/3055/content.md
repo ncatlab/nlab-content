@@ -420,3 +420,6 @@ Secton 2.4.7 of
  {#Lurie}
 
 [[!redirects codomain fibrations]]
+
+[[!redirects codomain opfibration]]
+[[!redirects codomain opfibrations]]
