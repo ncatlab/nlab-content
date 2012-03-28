@@ -120,10 +120,56 @@ The characterization of final functors is also a special case of the characteriz
 
 
 ## Examples
+ {#Examples}
 
-* If $D$ has a [[terminal object]] then the functor $F : {*} \to D$ that picks that terminal object is final: for every $d \in D$ the [[comma category]] $d/F$ is equivalent to $*$.  The converse is also true: if a functor $*\to D$ is final, then its image is a terminal object.
++-- {: .num_example }
+###### Example
+
+If $D$ has a [[terminal object]] then the functor $F : {*} \to D$ that picks that terminal object is final: for every $d \in D$ the [[comma category]] $d/F$ is equivalent to $*$.  The converse is also true: if a functor $*\to D$ is final, then its image is a terminal object.
 
   In this case the statement about preservation of colimits states that the colimit over a category with a terminal object is the value of the diagram at that object. Which is also readily checked directly.
+
+=--
+
+
++-- {: .num_example }
+###### Example
+
+Every [[right adjoint|right]] [[adjoint functor]] is cofinal.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $(L \dashv R) : C \to D$ be a pair of [[adjoint functors]].To see that $R$ is cofinal, we may for instance check that for all $d \in D$ the comma category $d / R$ is non-empty and connected:
+
+It is non-empty because it contains the [[unit of an adjunction|adjunction unit]] $(L(d), d \to R L (d))$. Similarly, for 
+
+$$
+  \array{
+    && d
+    \\
+    & {}^{\mathllap{f}}\swarrow && \searrow^{\mathrlap{g}}
+    \\
+    R(a) &&&& R(b)
+  }
+$$
+
+two objects, they are connected by a zig-zag going through the unit, by the [universal factorization property](#http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows) of adjunctions
+
+$$
+  \array{
+    && d
+    \\
+    & \swarrow &\downarrow& \searrow
+    \\
+    R(a) &\stackrel{R \bar f}{\leftarrow}& R L (d)& \stackrel{R(\bar g)}{\to} & R(b)
+  }
+  \,.
+$$
+
+=--
 
 
 ## Related concepts
