@@ -52,6 +52,7 @@ This appears as ([Lurie, prop. 6.2.3.15](#Lurie)).
 
 
 ### Characterization
+ {#Characterization}
 
 +-- {: .num_prop}
 ###### Proposition
