@@ -65,8 +65,8 @@ For every [[object]] $s \in S$, every [[functor]] $X : S \to \mathcal{C}$ and ev
 
 See _[[Joyal-Tierney calculus]]_ for more on these kinds of objects and morphisms.
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_remark}
+###### Remark
 
 In the above situation, the [[automorphism]] group $Aut_S(s)$ of $s$ canonically acts on all objects that appear, and all morphisms that appear respect this action.
 
@@ -74,7 +74,15 @@ Equivalently this means that for all $s$ the above objects and morphisms take pl
 
 =--
 
-Choose now once and for all on all on $[\coprod_{s \in S} B Aut(s), \mathcal{C}]$ either the projective or the injective [[model structure on functors]] (if they exist). We will write $[\coprod_{s \in S} B Aut(s), \mathcal{C}]_{proj/inj}$ to indicate some fixed choice. 
++-- {: .proof}
+###### Proof
+
+Since limits and colimits in [[presheaf categories]] are computed objectwise.
+
+=--
+
+
+Choose now once and for all on all on $[\coprod_{s \in S} B Aut(s), \mathcal{C}]$ either the projective or the injective [[model structure on functors]] (if they exist). We will use the subscript "${}_{proj/inj}$", as in $[\coprod_{s \in S} B Aut(s), \mathcal{C}]_{proj/inj}$, to indicate some fixed choice. 
 
 
 +-- {: .num_defn #ReedyModelStructure}
@@ -82,7 +90,7 @@ Choose now once and for all on all on $[\coprod_{s \in S} B Aut(s), \mathcal{C}]
 
 Let $S$ be a (Berger-Moerdijk)-[[generalized Reedy category]]. 
 
-And let $\mathcal{C}$ be such that the model structure $[\coprod_{s \in S} B Aut(s), \mathcal{C}]_{proj/inj}$ exists (sufficient for the projective structure is that $\mathcal{C}$ is a [[cofibrantly generated model category]] and sufficient for the injective structure is that it is a [[combinatorial model category]]). 
+And $\mathcal{C}$ be a [[model category]] such that the [[model structure on functors]] $[\coprod_{s \in S} B Aut(s), \mathcal{C}]_{proj/inj}$ exists (sufficient for the projective structure is that $\mathcal{C}$ is a [[cofibrantly generated model category]] and sufficient for the injective structure is that it is a [[combinatorial model category]]). 
 
 Write $[S, \mathcal{C}]$ for the [[category of presheaves]] on $S^{op}$ with values in $\mathcal{C}$.
 
@@ -117,7 +125,7 @@ Call a morphism $f : X \to Y$ in $[S, \mathcal{C}]$
 ### Degreewise latching and matching objects
  {#GlobalLatchingObjects}
 
-We discuss here an alternative way of speaking about the latching objects, one where all indices at a given _degree_ $n \in \mathbb{N}$ are collected.
+We discuss here an alternative way of speaking about the latching and matching objects, one where all indices at a given _degree_ $n \in \mathbb{N}$ are collected.
 
 Recall from def. \ref{FirstNotation} that for $s \in S$ we write $S^+(s)$
 for the category of non-invertible degree-increasing morphisms into $s$. We introduce the union of these categories over all objects of a fixed degree.
@@ -204,7 +212,7 @@ For $n \in \mathbb{N}$, let $X \in [S, \mathcal{C}]$. Write
 * the **$n$th latching object** is 
 
   $$
-    L_n(X) := cod_! dom_n^* X \in [G_n(S), \mathcal{C}]
+    L_n(X) := (cod_n)! dom_n^* X \in [G_n(S), \mathcal{C}]
     \,.
   $$
 
@@ -409,7 +417,7 @@ into the [[comma category]] is a [[cofinal functor]]:
 
 * similarly, since every morphism factors essentially uniquely in $S$, there is a zig-zag between any two objects in $d / i_s$ constructed from the isomorphisms that exhibit the essentially unique factorization.
 
-With this the statement follows from the fact that retsriction along cofinal functors preserves colimits and the pointwise description of left [[Kan extension]] by [[colimits]] over comma categories:
+With this the statement follows from the fact that restriction along cofinal functors preserves colimits and the pointwise description of left [[Kan extension]] by [[colimits]] over comma categories:
 
 $$
   \begin{aligned}
@@ -441,7 +449,7 @@ $$
 The tower of inclusions
 
 $$
-  S_{0} \hookrightarrow S_{\leq } \hookrightarrow \cdots \hookrightarrow S_{\leq n-1}
+  S_{0} \hookrightarrow S_{\leq 1} \hookrightarrow \cdots \hookrightarrow S_{\leq n-1}
   \stackrel{q_{n-1}}{\hookrightarrow} S_{\leq n} \hookrightarrow \cdots
 $$
 
@@ -510,6 +518,50 @@ which in turn is equivalently just a morphism $t_n^* X \to t_n^* Y$. So
 a cocone under the whole tower is an object $Y$ equipped for each $n$ with 
 a morphism $t_n^* X \to t_n^* Y$. Clearly $X$ itself is the [[initial object|inital]]
 such object.
+
+=--
+
++-- {: .num_lemma #IdempotenceOfCoSkeleta}
+###### Lemma
+
+For every $X \in [S, \mathcal{C}]$ and for all pairs $k,l \in \mathbb{N}$ with $k \leq l$, we have [[natural isomorphisms]]
+
+$$
+  sk_k sk_l \simeq sk_l sk_k \simeq sk_k
+$$
+
+and
+
+$$
+  cosk_k cosk_l \simeq cosk_l cosk_k \simeq cosk_k
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+With the above notation we have $t_k = t_l \circ q_k$. Therefore for instance
+
+$$
+  sk_k sk_l X 
+  \simeq
+  (t_l)_! (q_k)_! q_k^* t_l^* (t_l)_! t_l^* X
+  \,.
+$$
+
+Since the left adjoints here are [[full and faithful functors]] we have $t_l^* (t_l)_! \simeq id$ and hence
+
+$$
+  \cdots \simeq
+  (t_l)_! (q_k)_! q_k^* t_l^* (t_l)_! t_l^* X
+  \simeq
+  sk_k X
+  \,.
+$$
+
+Similarly for all the other cases.
 
 =--
 
@@ -799,7 +851,7 @@ By lemma \ref{SkeletalExtension}, this is precisely the data that characterizes 
 
 By assumption, the left vertical morphism in (eq:MainLiftingDiagram) is a cofibration in $[G_n, \mathcal{C}]_{proj/inj}$, and the right vertical morphism is a fibration there. Therefore to get the lift and hence complete the induction step, it is now sufficient to show that the left morphism is also a weak equivalence, hence is a weak equivalence in $\mathcal{C}$ over each $s \in S$.
 
-Also by assumption we have that $L_n(f)_s$ is an acyclic cofibration in $\mathcal{C}$ for all $s$. Hence so is its pushout $A_s \to 
+Also by assumption we have that $Latch_n(f)_s$ is an acyclic cofibration in $\mathcal{C}$ for all $s$. Hence so is its pushout $A_s \to 
 (A_s \coprod_{L_n(A)_s} L_n(B)_s)$. The morphism $v_n(s)$ finally sits in the diagram
 
 $$
@@ -933,8 +985,6 @@ We now show that the extra condition in prop. \ref{LiftingLemma} is in fact auto
 
 Let $f : X \to Y$ in $[S, \mathcal{C}]$ be a Reedy cofibration, which is a weak equivalence on all objects of degree $\lt n$. Then the morphism $ Latch_n(f) :  Latch_n(X) \to  Latch_n(Y)$ is over each $s \in S$ an acyclic cofibration in $\mathcal{C}$
 
-Dually, let $f : X \to Y$ in $[S, \mathcal{C}]$ be a Reedy fibration which is a weak equivalence over all objects of degree $\lt n$. Then the morphism $Match_n(f) :  Match_n(X) \to  Match_n(Y)$ is over each $s \in S$ an acyclic fibration in $\mathcal{C}$.
-
 
 =--
 
@@ -1011,6 +1061,24 @@ Similarly, since $Latch_k(f)$ is an acyclic cofibration by induction hypothesis,
 
 =--
 
++-- {: .num_lemma #ExtraPropertyOfAcyclicFibrations}
+###### Lemma
+
+Dually, let $f : X \to Y$ in $[S, \mathcal{C}]$ be a Reedy fibration which is a weak equivalence over all objects of degree $\lt n$. Then the morphism $Match_n(f) :  Match_n(X) \to  Match_n(Y)$ is over each $s \in S$ an acyclic fibration in $\mathcal{C}$.
+
+=--
+
+This is ([Ber-Moer, lemma 5.4](#BergerMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+(Essentially the dual proof to that above. 
+Except for one slight difference in the last part. Here -- and only here --
+do we need the last clause in the definition of [[generalized Reedy category]], the one that says that isomorphisms see the maps in $S_-$ as epimorphisms.)
+
+=--
+
 We can finally conclude:
 
 +-- {: .num_prop }
@@ -1079,9 +1147,12 @@ $$
   \,.
 $$
 
-If now $f$ is an acyclic cofibration, then by lemma \ref{ExtraPropertyOfAcyclicCofibrations} the morphism $Latch_n(X) \to Latch_n(Y)$ is an acyclic cofibration in $\mathcal{C}$ and then so is $u_n$ above, being the pushout of this morphism. It follows by [[two-out-of-three]] that also $v_n$ is a weak equivalence for all $n$.
+If now $f$ is an acyclic Reedy cofibration, then by lemma \ref{ExtraPropertyOfAcyclicCofibrations} the morphism $Latch_n(X) \to Latch_n(Y)$ is over each object an acyclic cofibration in $\mathcal{C}$ and then so is $u_n$ above, being the pushout of this morphism. It follows by [[two-out-of-three]] that also $v_n$ is a weak equivalence for all $n$.
 
-Conversely, if all $v_n$ here are weak equivalences, then an argument similar to lemma \ref{ExtraPropertyOfAcyclicCofibrations} shows that all $u_n$ are weak equivalences. (...)
+Conversely, assume that all $v_n$ here are weak equivalences. We show by induction on $n$ that then also the $u_n$ are weak equivalences, and hence that $f$ is a Reedy weak equivalence.
+
+For $n = 0$ we have $u_0 = id$, and so this case is satisfied. So assume now that all $u_k$ for $k \lt n$ are weak equivalences. Then the assumptions of 
+lemma \ref{ExtraPropertyOfAcyclicCofibrations} are again satisfied, and it follows that $Latch_n(f) : Latch_n(X) \to Latch_n(Y)$ is over each object an acyclic cofibration. Accordingly, so is $u_n$, being its pushout. Therefore, by induction, all $u_n$ are, in particular, weak equivalences.
 
 The argument for fibrations is dual to this.
 
@@ -1090,7 +1161,7 @@ The argument for fibrations is dual to this.
 +-- {: .num_prop }
 ###### Proposition
 
-Every morphism in $[S, \mathcal{C}]$ factors into an acyclic Reedy cofibration (according to def. \ref{ReedyModelStructure}) followed by a Reedy fibration, and into a Reedy cofibration followed by an acyclic Reedy fibration
+Every morphism in $[S, \mathcal{C}]$ factors as an acyclic Reedy cofibration (according to def. \ref{ReedyModelStructure}) followed by a Reedy fibration, and it factors as a Reedy cofibration followed by an acyclic Reedy fibration
 
 =--
 
@@ -1167,21 +1238,94 @@ By lemma \ref{SkeletalExtension}, the "righmost component" of this data defines 
 
 ## Properties
 
-### Skeletal filtration and coskeleton tower
+### Homotopy skeletal filtration and coskeleton tower
+ {#HomotopySkeletalFiltration}
 
-+-- {: .num_prop }
+We discuss conditions on an object $X$ such that the skeletal/coskeletal towers
+discussed [above](#SkeletaAndCoskeleta) are "homotopy good" in that they exhibit $X$ not just as the colimit/limit over the tower, but as the [[homotopy colimit]]/[[homotopy limit]].
+
++-- {: .num_lemma #QuillenPropertyOfCoSkeleta}
+###### Lemma
+
+For all $n \in \mathbb{N}$
+
+1. The left Kan extension
+
+   $$
+     (t_n)_! : [S_{\leq n}, \mathcal{C}]_{gReedy} \to [S,\mathcal{C}]_{gReedy}
+   $$
+
+   is a [[left Quillen functor]].
+
+1. The right Kan extension
+
+   $$
+     (t_n)_* : [S_{\leq n}, \mathcal{C}]_{gReedy} \to [S,\mathcal{C}]_{gReedy}
+   $$
+
+   is a [[right Quillen functor]].
+
+1. The restriction functor
+
+   $$
+     (t_n)^* : [S, \mathcal{C}]_{gReedy} \to [S_{\leq n},\mathcal{C}]_{gReedy}
+   $$
+
+   is both a left and a right Quillen functor.
+
+=--
+
+This is ([Ber-Moer, lemma 6.4](#BergerMoerdijk)).
+
+
++-- {: .num_prop #ReedyCoFibrantImpliesCoFibrantTowers}
 ###### Proposition
 
-Let $S$ be a Berger-Moerdijk-[[generalized Reedy category]] and $\mathcal{C}$ any [[model category]]. Let $X \in [S, \mathcal{C}]$ and let $n \in \mathbb{N}$ and $k \lt l \leq \infty$. Recall the skeleta/coskeleta towers from lemma \ref{coSkeletonTower}.
+1. If $X \in [S, \mathcal{C}]$ is Reedy cofibrant according to def. \ref{ReedyModelStructure}, then all $sk_n X$ are Reedy cofibrant and the canonical morphisms $sk_k X \to sk_l X$ are Reedy cofibrations. 
 
-1. If $X$ is Reedy cofibrant according to def. \ref{ReedyModelStructure} then all $sk_n X$ are Reedy cofibrant and the canonical morphisms $sk_k X \to sk_l X$ are Reedy cofibrations. 
-
-1. If $X$ is Reedy fibrant according to def. \ref{ReedyModelStructure} then all $cosk_n X$ are Reedy fibrant and the canonical morphisms $cosk_l X \to cosk_k X$ are Reedy fibrations. 
+1. If $X \in \mathcal{C}$ is Reedy fibrant according to def. \ref{ReedyModelStructure} then all $cosk_n X$ are Reedy fibrant and the canonical morphisms $cosk_l X \to cosk_k X$ are Reedy fibrations. 
 
 
 =--
 
 This is ([Ber-Moer, prop. 6.5](#BergerMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+We discuss the skeleta. The case of coskeleta is dual.
+
+By lemma \ref{IdempotenceOfCoSkeleta} it is sufficient to consider the
+case $sk_n X \to sk_\infty X = X$.
+
+To check that this is a Reedy cofibration if $X$ is Reedy cofibrant, consider the diagram that induces the relative latching object for this morphism
+
+$$
+  \array{
+    Latch_k(sk_n X) &\to& Latch_k (X)
+    \\
+    \downarrow && \downarrow
+    \\
+    sk_n(X)_k &\to& X_k
+  }
+  \,.
+$$ 
+
+For $k \leq n$,  the horizontal morphisms are both isomorphisms. Because by lemma \ref{LatchingIsSkeleton} the top morphism is 
+
+$$
+  (sk_{k-1} sk_n(X))_k \to (sk_{k-1} X)_k
+$$
+
+and this is an iso by lemma \ref{IdempotenceOfCoSkeleta}. The bottom morphism is isomorphic to $(t_k^* sk_{n}(X))_k \to (t_k^* X)_k$ which is isomorphic to the identity by the kind of argument in lemma \ref{IdempotenceOfCoSkeleta}.
+
+Therefore also the relative latching morphism is an isomorphism in this case (use that pushouts of isos are isos and use 2-out-of-3 for isos), hence in particular a cofibration. 
+
+Similarly, for $k \gt n$ the left vertical map is an isomorphism, so that the relative latching morphism in this case is $Latch_k(X) \to X_k$, which is a cofibration by the assumption that $X$ is Reedy cofibrant.
+
+Finally, that $sk_n X$ is cofibrant follows directly from lemma \ref{QuillenPropertyOfCoSkeleta}.
+
+=--
 
 ### Relation to other model structures
 
