@@ -327,7 +327,7 @@ $H^\bullet(X,A)$ form a graded [[ring]], the **cohomology ring** of $X$ with coe
 
 #### Twisted cohomology
 
-Given $A \in \mathbf{H}$ an object and $k : A \to B$ cocycle on $A$, classifying its [[homotopy fiber]] $C \to A$, the $A$-cohomology with specified $B$-[[characteristic class]] $[k]$ is $k$-**twised $C$-cohomology.
+Given $A \in \mathbf{H}$ an object and $k : A \to B$ cocycle on $A$, classifying its [[homotopy fiber]] $C \to A$, the $A$-cohomology with specified $B$-[[characteristic class]] $[k]$ is $k$-**twisted $C$-cohomology.
 
 For the moment see
 
