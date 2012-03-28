@@ -1096,7 +1096,7 @@ In the generalized Reedy model structure, def. \ref{ReedyModelStructure},
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{ExtraPropertyOfAcyclicCofibrations} every Reedy cofibration induces a weak equivalence under $Latch_n$. By lemma \ref{LiftingLemma} this implies the left lifting property against Reedy fibrations. Dually for the second statement.
+By lemma \ref{ExtraPropertyOfAcyclicCofibrations} every acyclic Reedy cofibration induces a weak equivalence under $Latch_n$. By lemma \ref{LiftingLemma} this implies the left lifting property against Reedy fibrations. Dually for the second statement.
 
 =--
 
