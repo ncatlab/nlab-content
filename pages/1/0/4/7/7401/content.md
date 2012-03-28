@@ -212,7 +212,7 @@ For $n \in \mathbb{N}$, let $X \in [S, \mathcal{C}]$. Write
 * the **$n$th latching object** is 
 
   $$
-    L_n(X) := (cod_n)! dom_n^* X \in [G_n(S), \mathcal{C}]
+    Latch_n(X) := (cod_n)! dom_n^* X \in [G_n(S), \mathcal{C}]
     \,.
   $$
 
@@ -652,7 +652,7 @@ A morphism $f : X \to Y$ in $[S, \mathcal{C}]_{gReedy}$ is a Reedy cofibration
 precisely if for all $n \in \mathbb{N}$ the global relative latching morphism, def. \ref{GlobalLatching}
 
 $$
-  X_n \coprod_{L_n(X)} L_n(Y) \to Y_n
+  X_n \coprod_{Latch_n(X)} Latch_n(Y) \to Y_n
 $$
 
 is a cofibration in $[G_n(S), \mathcal{C}]_{proj/inj}$.
@@ -852,7 +852,7 @@ By lemma \ref{SkeletalExtension}, this is precisely the data that characterizes 
 By assumption, the left vertical morphism in (eq:MainLiftingDiagram) is a cofibration in $[G_n, \mathcal{C}]_{proj/inj}$, and the right vertical morphism is a fibration there. Therefore to get the lift and hence complete the induction step, it is now sufficient to show that the left morphism is also a weak equivalence, hence is a weak equivalence in $\mathcal{C}$ over each $s \in S$.
 
 Also by assumption we have that $Latch_n(f)_s$ is an acyclic cofibration in $\mathcal{C}$ for all $s$. Hence so is its pushout $A_s \to 
-(A_s \coprod_{L_n(A)_s} L_n(B)_s)$. The morphism $v_n(s)$ finally sits in the diagram
+(A_s \coprod_{Latch_n(A)_s} Latch_n(B)_s)$. The morphism $v_n(s)$ finally sits in the diagram
 
 $$
   \array{
@@ -863,7 +863,7 @@ $$
     \downarrow^{\mathrlap{\simeq}} &&
     \downarrow^{\mathrlap{\simeq}}  & \nearrow_{\mathrlap{v_n(s)}}
     \\
-    Latch_n(B)_s &\to& (A_s \coprod_{L_n(A)_s} L_n(B)_s)
+    Latch_n(B)_s &\to& (A_s \coprod_{Latch_n(A)_s} Latch_n(B)_s)
   }
 $$ 
 
@@ -931,7 +931,7 @@ whose rows define, by prop. \ref{DiagramOfRestrictions}, the latching objects by
 
 $$
   \begin{aligned}
-     L_k \phi^* X 
+     Latch_k \phi^* X 
      & \simeq 
      (cod^R_k)_! (dom^R_k)^* \phi^* X
      \\
@@ -943,7 +943,7 @@ $$
      \\
      & \simeq
      (\phi_k)^*
-     L_k X
+     Latch_k X
   \end{aligned}
   \,.
 $$
@@ -994,7 +994,7 @@ This is ([Ber-Moer, lemma 5.3](#BergerMoerdijk)).
 ###### Proof
 
 We show this by induction over $n$, using the skeletal filtration def. \ref{SkeletaByAdjunction}. For $n = 0$ we have for all $X$ that
-$L_n X = sk_{-1} X = \emptyset$, and hence the condition is trivially satisfied. 
+$Latch_n X = sk_{-1} X = \emptyset$, and hence the condition is trivially satisfied. 
 
 So assume now that the statement has been shown for all $(k \lt n)$, then we need to show that $i_n^* Latch_n f$ is an acyclic cofibration in $[Obj(S)_n, \mathcal{C}]$, hence that every square of the form
 
@@ -1096,7 +1096,7 @@ In the generalized Reedy model structure, def. \ref{ReedyModelStructure},
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{ExtraPropertyOfAcyclicCofibrations} every Reedy cofibration induces a weak equivalence under $L_n$. By lemma \ref{LiftingLemma} this implies the left lifting property against Reedy fibrations. Dually for the second statement.
+By lemma \ref{ExtraPropertyOfAcyclicCofibrations} every Reedy cofibration induces a weak equivalence under $Latch_n$. By lemma \ref{LiftingLemma} this implies the left lifting property against Reedy fibrations. Dually for the second statement.
 
 =--
 
