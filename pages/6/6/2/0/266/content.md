@@ -379,7 +379,7 @@ Let
 
 * $D$ have all small [[limit]]s.
 
-Then the right Kan extension of a functor $F : C \to D$ of locally small categories along a functor $p 'colon' C \to C'$ exists 
+Then the right Kan extension of a functor $F : C \to D$ of locally small categories along a functor $p : C \to C'$ exists 
 and its value on an object $c' \in C'$ is given by the [[limit]]
 
 $$
@@ -543,6 +543,7 @@ See [[(∞,1)-Kan extension]].
   {#Properties}
 
 ### Left Kan extension on representables / fully faithfulness
+ {#LeftKanOnRepresentables}
 
 Let $\mathcal{V}$ be a suitable enriching category (a [[cosmos]]). Notably $\mathcal{V}$ may be [[Set]].
 
