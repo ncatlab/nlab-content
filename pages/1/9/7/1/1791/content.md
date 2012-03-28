@@ -113,6 +113,10 @@ Therefore the model structure on $sSet$-presheaves serves to model contexts of d
 
 (...)
 
+## Related concepts
+
+* [[enriched Reedy category]]
+
 ## References
 
 The theory of model structures on $sSet$-enriched presheaf categories was developed in
