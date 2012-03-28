@@ -223,6 +223,23 @@ and the component of the $n$th latching morphism on $s$ is the canonical $Latch_
 By remark \ref{RestrictedCodomainIsOpfibration} 
 $(cod_n)_!$ is the left Kan extension along an [[opfibration]]. By a standard fact (see [here](http://ncatlab.org/nlab/show/Kan+extension#AlongFibrations) at _[[Kan extension]]_) these are computed at any object by the colimit over the fiber over that object.
 
+By definition, that fiber is 
+
+$$
+  \left\{
+    \array{
+      a &&\stackrel{deg\;raising}{\to}&& b
+      \\
+      & \searrow && \swarrow  && deg\; raising
+      \\
+      && s
+    }
+  \right\}
+  \,.
+$$
+
+This is indeed $S^+(s)$ (by the essential uniqueness of the $S^+\circ S^-$-factorization, this necessarily has the morphisms $a \to b$ in $S^+$, too.)
+
 
 =--
 
@@ -262,7 +279,7 @@ $$
   [S,\mathcal{C}]
     \stackrel{\overset{(t_n)_!}{\leftarrow}}{\underset{t_n^*}{\to}}
   [S_{\leq n},\mathcal{C}]
-    \stackrel{\overset{t_n^*}{\leftarrow}}{\underset{(t_n)_*}{\to}}
+    \stackrel{\overset{t_n^*}{\leftarrow}}{\underset{t_n_*}{\to}}
   [S,\mathcal{C}]
 $$
 
@@ -331,6 +348,60 @@ The morphisms in the tower come from the [[unit of an adjunction|adjunction unit
 consider a cocone $\{sk_n X \to Y\}$. By adjointness this is equivalently
 a system of morphisms $\{X_{\leq n} \to Y_{\leq n}\}$. Hence there is a unique morphism
 $X \to Y$ that factors the original cocone.
+
+=--
+
+The following is a useful tool for inductively creating objects by adding higher degree components.
+
++-- {: .num_lemma #SkeletalExtension}
+###### Lemma
+
+Given 
+
+* an object $X_{\leq (n-1)} \in [S_{\leq (n-1)}, \mathcal{C}]$;
+
+* and an object $X_n \in [G_n(S), \mathcal{C}]$;
+
+the choice $X_{\leq n} \in [S_{\leq (n-1)}, \mathcal{C}]$
+such that 
+
+* $X_{\leq (n-1)} = t^*_{n-1} X_{\leq n}$ 
+
+* $X_n = j_n^* X$;
+
+are in bijection with choices of morphisms
+
+$$
+  Latch_n(X_{\leq (n-1)}) \to X_n \to Match_n(X_{\leq (n-1)})
+$$
+
+in $[G_n(S), \mathcal{C}]$.
+
+Accordingly, given morphisms $f_{\leq (n-1)} : X_{\leq (n-1)} \to Y_{\leq (n-1)}$ and $f_n : X_n \to Y_n$, then choice of extensions to a morphism $f_{\leq n} : X_{\leq n} \to Y_{\leq n}$ are in bijection with choices of vertical morphisms in commuting diagrams
+
+$$
+  \array{
+     Latch_n(X_{\leq (n-1)}) &\stackrel{Latch_n(f_{\leq (n-1)})}{\to}& Latch_n(Y_{\leq (n-1)})
+     \\
+     \downarrow && \downarrow
+     \\
+     X_n &\stackrel{f_n}{\to}& Y_n
+     \\
+     \downarrow && \downarrow
+     \\
+     Match_n(X_{\leq (n-1)})
+     &\stackrel{Match_n(f_{\leq (n-1)})}{\to}&
+     Match_n(Y_{\leq (n-1)})
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If the object exists, then the morphisms do, by the above definitions/discussion. Conversely, given these morphisms, we take $X_{\leq n} : S \to \mathcal{C}$ to be given by $X_{\leq (n-1)}$ on morphism of degree $\leq (n-1)$, to be given by $X_n$ on morphisms between objects of degree $n$, and need to define it on the degree-changing morphisms to and from objects of degree $n$. This information is provided precisely by the co-cone components of $Latch_n(X) \to X_n$ and by the cone-components of $X_n \to Match_n(X)$.
 
 =--
 
@@ -501,7 +572,7 @@ is
     \array{
        A_n &\to& Y_n
        \\
-       \downarrow & \nearrow
+       \downarrow & \nearrow_{\mathrlap{\gamma_n}}
        \\
        B_n
     }
@@ -519,9 +590,50 @@ is
     }
   $$
   
-  commute. 
+  commute;
 
-This is precisely the data needed to extend $\gamma_{\leq (n-1)}$ to $\gamma_{\leq n}$ (the first diagram defines $\gamma_{\leq n}$ on the new objects in degree $n$, the second says that this is indeed natural with respect to the components already contained in $\gamma_{\leq (n-1)}$).
+and in the bottom right the lift
+
+$$
+  \array{
+     && Y_n
+     \\
+     & {}^{\mathllap{\gamma_n}}\nearrow & \downarrow
+     \\
+     B_n &\to& X_n \prod_{Match_n X} Match_n Y
+  }
+$$
+
+is
+
+* a lift in 
+
+  $$
+    \array{
+      && Y_n
+      \\
+      & {}^{\mathllap{\gamma_n}}\nearrow & \downarrow
+      \\
+      B_n &\to& X_n
+    }
+  $$
+
+* such that it makes 
+
+  $$
+    \array{
+       B_n &\stackrel{\gamma_n}{\to}& Y_n
+       \\
+       \downarrow && \downarrow
+       \\
+       Match_n(B) &\to& Match_n(Y)
+    }
+  $$
+ 
+  commute.
+
+
+By lemma \ref{SkeletalExtension}, this is precisely the data that characterizes an extension of $\gamma_{\leq (n-1)}$ to $\gamma_{\leq n}$.
 
 
 By assumption, the left vertical morphism in (eq:MainLiftingDiagram) is a cofibration in $[G_n, \mathcal{C}]_{proj/inj}$, and the right vertical morphism is a fibration there. Therefore to get the lift and hence complete the induction step, it is now sufficient to show that the left morphism is also a weak equivalence, hence is a weak equivalence in $\mathcal{E}$ over each $s \in S$.
@@ -747,7 +859,7 @@ In the generalized Reedy model structure, def. \ref{ReedyModelStructure},
 
 * acyclic cofibrations have the [[left lifting property]] against fibrations;
 
-* cofibrations have the [[left lifting property]] agains acyclic fibrations.
+* cofibrations have the [[left lifting property]] against acyclic fibrations.
 
 
 =--
@@ -766,6 +878,54 @@ By lemma \ref{ExtraPropertyOfAcyclicCofibrations} every Reedy cofibration induce
 
 We demonstrate the factorization axiom in the Reedy model structure, def. \ref{ReedyModelStructure}.
 
++-- {: .num_lemma #AcyclicCoFibrationsByLatchingMatching}
+###### Lemma
+
+A morphism $f : X \to Y$ in $[S, \mathcal{C}]$ is both a cofibration and a weak equivalence according to def. \ref{ReedyModelStructure} precisely if the $n$th relative latching morphism (def. \ref{GlobalLatching})
+
+$$
+  X_n \coprod_{Latch_n(X)} Latch_n(Y) \to Y_n
+$$
+
+is an acyclic cofibration in $[G_n(S), \mathcal{C}]_{proj/inj}$ for all $n \in \mathbb{N}$.
+
+Dually, a morphism $f : X \to Y$ in $[S, \mathcal{C}]$ is both a fibration and a weak equivalence according to def. \ref{ReedyModelStructure} precisely if the $n$th relative matching morphism (def. \ref{GlobalLatching})
+
+$$
+  X_n \to Y_n \prod_{Match_n(X)} Match_n(Y) 
+$$
+
+is an acyclic fibration in $[G_n(S), \mathcal{C}]_{proj/inj}$ for all $n \in \mathbb{N}$.
+
+=--
+
+This is ([Ber-Moer, prop. 5.6](#BergerMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+
+By definition, the morphisms $f_n : X_n \to Y_n$ factor as
+
+$$
+  f_n : 
+  X_n 
+   \stackrel{u_n}{\to}
+  X_n
+  \coprod_{Latch_n(X)} Latch_n (Y)
+   \stackrel{v_n}{\to}
+  Y_n 
+  \,.
+$$
+
+If now $f$ is an acyclic cofibration, then by lemma \ref{ExtraPropertyOfAcyclicCofibrations} the morphism $Latch_n(X) \to Latch_n(Y)$ is an acyclic cofibration in $\mathcal{C}$ and then so is $u_n$ above, being the pushout of this morphism. It follows by [[two-out-of-three]] that also $v_n$ is a weak equivalence for all $n$.
+
+Conversely, if all $v_n$ here are weak equivalences, then an argument similar to lemma \ref{ExtraPropertyOfAcyclicCofibrations} shows that all $u_n$ are weak equivalences. (...)
+
+The argument for fibrations is precisely dual to this.
+
+=--
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -778,11 +938,17 @@ This is ([Ber-Moer, page 18](#BergerMoerdijk)).
 +-- {: .proof}
 ###### Proof
 
+Let $f : X \to Y$ be any morphism in $[S, \mathcal{C}]$. 
+We construct a factorization into an acyclic cofibration followed by a fibration by induction on the degree, i.e. by induction over the restrictions along $t_n^* : [S, \mathcal{C}] \to [S_{\leq n}, \mathcal{C}]$. The other case (cofibration followed by acyclic fibration) works dually.
 
-Let $f : X \to Y$ be any morphism. 
-We construct the factorization by induction on the degree, i.e. by induction over the restrictions along $t_n^* : [S, \mathcal{C}] \to [S_{\leq n}, \mathcal{C}]$.
+For $n = 0$ we have $S_{\leq 0} = G_0(S)$ and we factor $f_0$ in the model structure $[G_0(S), \mathcal{C}]_{proj/inj}$
 
-For $n = 0$ we have $S_{\leq 0} = G_0(S)$ and we factor $f_0$ in the model structure $[G_0(S), \mathcal{C}]_{proj/inj}$. Now assume that a factorization of 
+$$
+  f_0 : X_0 \stackrel{\simeq}{\to} A_0 \to Y_0
+  \,.
+$$
+
+Now assume for some $n \in \mathcal{N}$ that a factorization of 
 
 $$
   f_{\leq (n-1)}
@@ -798,7 +964,7 @@ has been found. This induces the commutative diagram
 
 $$
   \array{
-    Latch_n(A) &\to & Latch_n(A) &\to& Latch_n(Y)
+    Latch_n(X) &\to & Latch_n(A) &\to& Latch_n(Y)
     \\
     \downarrow && && \downarrow
     \\
@@ -832,22 +998,8 @@ $$
 
 in $[G_n(S), \mathcal{C}]_{proj/inj}$.
 
-This data defines an extension of $A_{\leq (n-1)}$ to $A_{\leq n}$ and defines an extended factorization of $f_{\leq n}$ through this object by a Reedy cofibration followed by a Reedy fibration (...).
+By lemma \ref{SkeletalExtension}, the "righmost component" of this data defines an extension of $A_{\leq (n-1)}$ to $A_{\leq n}$. The "leftmost component" defines a factorization of $f_n$ and the "middle component" says that this consistently extends the previously obtained factorization of $f_{\leq n}$.  With this, finally the two morphisms say that this new factorization is by an acyclic Reedy cofibration (by lemma \ref{AcyclicCoFibrationsByLatchingMatching}) followed by a Reedy fibration (by definition).
 
-To see that the first of these is acyclic, notice that $f_n$ here is the composite
-
-$$
-  X_{n} 
-   \to 
-  X_n \coprod_{Latch_n(X)} Latch_n(A)
-   \to 
-  A_{n}
-  \,,
-$$
-
-where the first is a weak equivalence by lemma \ref{ExtraPropertyOfAcyclicCofibrations}, the second one by construction. (...)
-
-The other kind of factorization works by the dual argument.
 
 =--
 
