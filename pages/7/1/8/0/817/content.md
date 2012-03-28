@@ -126,6 +126,9 @@ $$
 
 commutes. Evidently, this means that the elements $\eta$ of the [[end]] $\int_{c \in C} D(F(c), G(c))$ are precisely the [[natural transformation]]s between $F$ and $G$.
 
+## Related concepts
+
+* [[enriched Reedy category]], [[model structure on homotopical presheaves]], [[model structure on sSet-presheaves]]
 
 ## References
 
