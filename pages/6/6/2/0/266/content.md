@@ -784,7 +784,7 @@ The [[(∞,1)-category theory]] notion is discussed in section 4.3 of
 
 For uses of Kan extension in the study of [[algebra over a Lawvere theory|algebras over an algebraic theory]] see
 
-* [[Paul-André Mélliès]] and [[Nicholas Tabareau]], _Free models of T-algebraic theories computed as Kan extensions_ ([web](http://hal.archives-ouvertes.fr/hal-00339331/fr/))
+* [[Paul-André Melliès]] and [[Nicholas Tabareau]], _Free models of T-algebraic theories computed as Kan extensions_ ([web](http://hal.archives-ouvertes.fr/hal-00339331/fr/))
 
 Preservation of certain limits by left Kan extended functors is discussed in 
 
