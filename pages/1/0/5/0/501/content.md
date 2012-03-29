@@ -25,11 +25,41 @@ In [[constructive mathematics]], and internally to a [[topos]], a number of clas
 
 * A set is **subfinitely indexed** (also called **$\tilde{K}$-finite**) if it admits a surjection from a subfinite set, or equivalently admits an injection to a finitely indexed set; that is, it is a [[subquotient set]] of a finite set.
 
-* A set is **Dedekind-finite** if any injection from it to itself must be a bijection.  In contrast to the previous three notions, Dedekind-finite [[infinite sets]] can coexist with [[excluded middle|PEM]], although [[countable choice]] suffices to banish them.
+* A set $X$ is **Dedekind-finite** if it satisfies one of the following:
 
-In constructive mathematics, one is usually interested in the finite sets, although the finitely indexed sets are also sometimes useful. Note that a finitely indexed set with [[decidable object|decidable equality]] must actually be finite.
+  * any [[injection]] $X\hookrightarrow X$ must be a [[bijection]].
+  * for any function $f\colon \mathbb{N}\to X$ from the [[natural numbers]], there exist $n,m$ with $n\neq m$ such that $f(n)=f(m)$.
 
-Finite sets are always [[projective object|projective]]; that is, the "finite [[axiom of choice]]" always holds.  However, if a finite set with $2$ elements (or any set, finite or not, with at least $2$ distinct elements) is [[choice object|choice]], or if every finitely-indexed set (or even any $2$-indexed set) is projective, then the logic must be classical (see [[excluded middle]] for a proof).
+  In contrast to the previous three notions, Dedekind-finite [[infinite sets]] can coexist with [[excluded middle|PEM]], although [[countable choice]] suffices to banish them.  The above two versions of Dedekind-finiteness are equivalent under PEM, but constructively they may differ.
+
+In constructive mathematics, one is usually interested in the finite sets, although the finitely indexed sets are also sometimes useful, as are the Dedekind-finite sets in the second sense.
+
+
+### Properties and relationships
+
+Of course, we have
+
+$$
+\array{ & & finitely\;indexed\\
+  & \neArrow & & \seArrow\\
+  finite & & & & subfinitely\;indexed\\
+  & \seArrow & & \neArrow\\
+  & & subfinite }
+$$
+
+Moreover:
+
+* Finite and subfinite sets have [[decidable equality]].  Conversely, any [[complement|complemented]] subset of a finite set is finite.
+
+* Finite sets are closed under finite limits and colimits.
+
+* A finitely indexed set with decidable equality must actually be finite.  For it is then the quotient of a decidable equivalence relation, hence a coequalizer of finite sets.  In particular, a set which is both finitely indexed and subfinite must be finite, i.e. the above "commutative square" of implications is also a "pullback".
+
+* Finite sets are always [[projective object|projective]]; that is, the "finite [[axiom of choice]]" always holds.
+
+* However, if a finite set with $2$ elements (or any set, finite or not, with at least $2$ distinct elements) is [[choice object|choice]], or if every finitely-indexed set (or even any $2$-indexed set) is projective, then the logic must be classical (see [[excluded middle]] for a proof).
+
+* Finite sets are also Dedekind-finite (in either sense).
 
 
 ## Finiteness without infinity
