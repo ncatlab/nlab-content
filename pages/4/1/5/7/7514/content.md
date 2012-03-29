@@ -1,0 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[manifold]], possibly infinite-dimensional, is called a _convenient manifold_ -- implicitly meaning: convenient for _[[differential geometry]]_ -- if it is modeled on a [[convenient vector space]].
+
+## References
+
+A standard textbook reference is
+
+* [[Andreas Kriegl]], [[Peter Michor]]: _The convenient setting of global analysis_, AMS (1997) ([pdf](http://www.mat.univie.ac.at/~michor/apbookh.pdf))
+ {#KM}
+
+A survey is for instance in the slides
+
+* Richard Blute, _Convenient Vector Spaces, Convenient Manifolds and Differential Linear Logic_ (2011) ([pdf](http://aix1.uottawa.ca/~rblute/FMCS.pdf))
+ {#Blute}
+
