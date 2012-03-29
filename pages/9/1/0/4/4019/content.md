@@ -23,10 +23,8 @@ Linear operators on [[Hilbert spaces]] are continuous precisely iff they are bou
 The discussion below is about bornological CVSes, but there is a more general notion of [[bornological space]].
 =--
 
-## Abstract ##
-...
-
 ## Definition ##
+
 A [[locally convex]] [[topological vector space]] E is **bornological** if every circled, convex subset $A \subset E$ that absorbs every bounded set in E is a neighbourhood of $0$ in $E$. Equivalently every seminorm that is bounded on bounded sets is continuous.
 
 The **bornology** of a given [[TVS]] is the family of bounded subsets.
