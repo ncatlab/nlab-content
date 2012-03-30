@@ -49,7 +49,7 @@ $$
   Cod_C := Func(\Delta[1], C)
 $$
 
-equipped with the [[Cartesian fibration]] $Cod_C \to C$ induced from the endpoint inclusion $Delta[0] \to \Delta[1]$.
+equipped with the [[Cartesian fibration]] $Cod_C \to C$ induced from the endpoint inclusion $\Delta[0] \to \Delta[1]$.
 
 Write
 
