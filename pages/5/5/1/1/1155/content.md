@@ -90,43 +90,11 @@ In fact, this can be made precise: starting from a spectrum of simplicial sets, 
 
 An early reference seems to be
 
-* [[Dan Kan]], _Semisimplicial spectra_
+* [[Dan Kan]], _Semisimplicial spectra_, Illinois J. Math. Volume 7 (1963), 463-478. 
 
 The definition is recalled in part II, section 7 of 
 
 * Ken Brown, _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_
 
-***
 
-## Discussion
-
-A previous version of this entry triggered the following discussion:
-
-+--{: .query}
-[[Mike Shulman|Mike]]: Are you sure about that last condition?  I remember a condition more like "for each $x\in E_n$ there is some finite $m \lt n$ such that all faces of $x$ in $E_m$ are the basepoint.
-
-[[Urs Schreiber|Urs]]: on the bottom of page 437 in the reference by Brown it says: "each simplex of $E$ has only finitely many faces different from $*$".
-
-I see that my original phrasing reflected this only very imprecisely. I have tried to improve that now. But it also seems that this condition $m \lt n$ which you mention is not implied by Brown(?) In particular, it seems this condition does not harmoize with the fact that $n$ may be negative.
-
-But this looks like the condition which does appear in the definition of the $n$-simplex spectra (next page of Brown). I have added that in the list of examples now.
-
-Another question: what's the established term for these things here? I made up both "combinatorial spectrum" and "simplicial spectrum" after reading Brown's article, which just calls this "spectrum" without qualification. I am tending to think that "simplicial spectrum" would be a good term.
-
-Related to that: what's a more recent good reference on these combinatorial version of spectra?
-
-[[Mike Shulman|Mike]]: I was remembering a condition like that from Kan's original article "Semisimplicial spectra," which I unfortunately don't have access to a copy of right now.  I think the idea is that a spectrum of this sort is built out of a naive prespectrum of simplicial sets (that is, a sequence of based simplicial sets $X_n$ with maps $\Sigma X_n \to X_{n+1}$) by making the $k$-simplices of $X_n$ into $(k-n)$-simplices in the spectrum.  I thought the condition on $m\lt n$ is sort of saying that each simplex comes from $X_n$ for some $n\lt \infty$.  But possibly my memory is just wrong.
-
-Since Kan's original term was "semisimplicial spectrum" back when "semisimplicial set" meant what we now call a "simplicial set," it's hard to argue with "simplicial spectrum."  As far as I know, however, no algebraic topologist has really thought seriously about these things for quite some time, probably due largely to the appearance of symmetric monoidal categories of spectra (EKMM $S$-modules, orthogonal spectra, symmetric spectra, etc.) of which there is no known analogue for this sort of spectra.  It's kind of a shame, I think, since these spectra give a really good intuition of "an object with $k$-cells for all $k\in\mathbb{Z}$."  I spent a little while once trying to come up with a version of these that would have a symmetric monoidal smash product, maybe starting with simplicial symmetric spectra instead of naive prespectra, but I failed.
-
-[[Urs Schreiber|Urs]]: thanks, very useful. That's a piece of information that I was looking for. 
-
-Yes, this combinatorial spectrum is nicely suggestive of a $\mathbb{Z}$-category. It seems surprising that there shouldn't be a symmetric monoidal product on that. What goes wrong?
-
-Concerning terminology: now that I thought about it I feel that "simplicial spectrum" may tend to be misleading, as it collides with the use of "simplicial xyz" as a simplicial object internal to the category of $xyz$s. Surely some people out there will already be looking at functors $\Delta^{op} \to Spectra$ and call them "simplicial spectra" (?)
-
-[[Mike Shulman|Mike]]: Yes, you're quite right that "simplicial spectrum" should probably be reserved for a simplicial object in spectra; I wasn't thinking.  What we really need is a name for the shape category that arises here, analogous to "simplex category," "cube category," and so on.  Like "spectrix category."  Then combinatorial spectra would be "spectricial sets."  (I'm only half joking.)
-
-The thing that goes wrong with the symmetric monoidal product is, as far as I can tell, sort of the same thing that goes wrong for naive prespectra: there are automorphisms that don't get taken into account.  But it's possible that no one has just been clever enough.
-
-=--
+[[!redirects combinatorial spectra]]
