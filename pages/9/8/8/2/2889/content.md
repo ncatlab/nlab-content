@@ -30,7 +30,7 @@ Several different realizations of this hypothetical cohomology theory have been 
 
     More precisely, the full $\mathbf{H}_{Nis}$ knows about what would be called the [[nonabelian cohomology]] generalization of motivic cohomology: motivic cohomology proper is the special case of this where coefficient objects $A$ are taken to be [[spectrum object]]s with respect to the [[Tate sphere]] built from $\mathbb{A}^1$ and taken to be [[A1-homotopy theory|A1-homotopy invariant]]. 
 
-   This is described in the section [Homtopy stabilization of the (∞,1)-topos on Nis](#InfStackDef) below.
+   This is described in the section [Homotopy stabilization of the (∞,1)-topos on Nis](#InfStackDef) below.
 
 1. Another proposal has been put forward by Voevodsky. More on this in the section [Voevodsky's definition](#VoevodskysDef) below.
 
@@ -131,7 +131,7 @@ We have maps $\mathrm{Sym}^N (X) \rightarrow \mathrm{Sym}^{N+1} (X)$ (lengthenin
 
 These assemble to give the *motivic Eilenberg-MacLane spectrum* $H(\mathbb{Z}):=(*,\mathbf{K}(\mathbb{Z}(1),2),\mathbf{K}(\mathbb{Z}(2),4),\ldots)$ with bonding maps induced by $\mathbb{P}^1 \wedge \mathrm{Sym}^N ({\mathbb{P}^1}^{\wedge m}) \rightarrow \mathrm{Sym}^N ({\mathbb{P}^1}^{\wedge m+1}), (x, \sum x_i) \mapsto \sum (x,x_i)$ (i.e. take the extra $\mathbb{P}^1$-point as new coordinate in the bigger $\wedge$-product of $\mathbb{P}^1$s).
 
-The bigraded homology and cohomology theoriesassociated to this spectrum are called *motivic (co)homology*.
+The bigraded homology and cohomology theories associated to this spectrum are called *motivic (co)homology*.
 
 This definition works at least over characteristic 0. In general one has to take cycles as described by Denis-Charles Cisinski below. Intuitively the points of $(\mathrm{Sym}^{\infty} (X))^+$ are finite formal sums of points of X, i.e. zero-cycles, which links this story to the functor $L$ described below. In characteristic zero both coincide. The link to Chow groups however only becomes apparent in the cycle description.
 
