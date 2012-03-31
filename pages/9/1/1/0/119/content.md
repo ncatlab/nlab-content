@@ -15,23 +15,24 @@
 
 ## Idea 
 
-A preorder (also sometimes called a _[[quasi-order]]_) is like a [[partial order]], but without the requirement that $x \le y$ and $y \le x$ implies $x = y$.  
+A preorder (also sometimes called a _[[quasi-order]]_, especially if one works with $\lt$ instead of $\leq$) is like a [[partial order]], but without the requirement that $x \leq y$ and $y \leq x$ implies $x = y$.  
 
-One reason to drop this requirement is that if we think of a partially ordered set as a special sort of [[category]], it is [[evil]] to impose this equation between objects.  In a preordered set, if $x \le y$ and $y \le x$, we think of $x$ and $y$ as [[isomorphism|isomorphic]].
+If we think of a partially ordered set as a special sort of [[category]], then it is (in general) [[evil]] to talk about [[equality]] of objects; but if $x \le y$ and $y \le x$, then we think of $x$ and $y$ as [[isomorphism|isomorphic]], and we may as well say that they are equal (since they are isomorphic in only one way).  However, if we really want a [[strict category]] instead, then it is meaningful to talk of equality in sense such that isomorphic objects are not necessarily equal.  In this case, we should use a preordered set instead of a partially ordered set.
 
 
 ## Definition
 
 A **preorder** on a set $S$ is a [[reflexive relation|reflexive]] and [[transitive relation|transitive]] relation, generally written $\leq$.  A **preordered set**, or **proset**, is a set equipped with a preorder.  (This should not be confused with a [[pro-set]], i.e. a [[pro-object]] in [[Set]].)
 
-Equivalently, a proset is a [[thin category]]: a [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a [[category enriched]] over the [[cartesian monoidal category]] of [[truth value]]s.
+Equivalently, a proset is a (strict) [[thin category]]: a [[strict category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$.  In other words, it's a (strict) [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]].
 
 
 ## Properties
 
 ### Relation to partial orders
 
-Any preordered set is [[equivalence of categories|equivalent]] to a [[partial order|poset]]. This is a special case of the theorem that every category has a [[skeleton]], but (if you define 'equivalence' properly) this case does _not_ require the [[axiom of choice]].
+Any preordered set is [[equivalence of categories|equivalent]] to a [[partial order|poset]].  This is a special case of the theorem that every category has a [[skeleton]], but (if you define 'equivalence' weakly enough) this case does _not_ require the [[axiom of choice]].
+
 
 ### Cauchy completion
 
@@ -54,6 +55,7 @@ This appears as ([Rosolini, prop. 2.1](#Rosolini)).
 
 This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
+
 ## Related concepts
 
 * **preorder**
@@ -67,6 +69,7 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 * G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://www.disi.unige.it/person/RosoliniG/notccp.pdf))
  {#Rosolini}
+
 
 ## Discussion
 
@@ -186,7 +189,11 @@ _Toby_:  Well, I guess that I\'ll move things around then.  We can still discuss
 
 [[!redirects preorder]]
 [[!redirects preorders]]
+[[!redirects pre-order]]
+[[!redirects pre-orders]]
 [[!redirects proset]]
 [[!redirects prosets]]
 [[!redirects preordered set]]
 [[!redirects preordered sets]]
+[[!redirects pre-ordered set]]
+[[!redirects pre-ordered sets]]
