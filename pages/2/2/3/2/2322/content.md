@@ -252,7 +252,7 @@ By the [[(∞,1)-Yoneda lemma]],
 the $\kappa$-compact object classifier here should be
 the presheaf which assigns to $U \in C$ the 
 $\infty$-groupoid of relatively $\kappa$-compact
-morphisms $X \to U$ in $PSh_\infty(C).
+morphisms $X \to U$ in $PSh_\infty(C)$.
 
 ## Related concepts
 
