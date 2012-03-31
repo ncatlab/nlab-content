@@ -1,8 +1,19 @@
+
+# Quasiorders
+* table of contents
+{: toc}
+
+
+## Definitions
+
 A **quasiorder** on a set $S$ is a (binary) [[relation]] $\lt$ on $S$ that is both [[irreflexive relation|irreflexive]] and [[transitive relation|transitive]].  That is:
 * $x \nless x$ always;
 * If $x \lt y \lt z$, then $x \lt z$.
 
 A **quasiordered set**, or **quoset**, is a [[set]] equipped with a quasiorder.
+
+
+## Properties
 
 Unlike with other notions of [[order]], a set equipped with a quasiorder cannot be [[constructive mathematics|constructively]] understood as a kind of [[enriched category]] (at least, not as far as I know ...).  Using [[excluded middle]], however, a quasiorder is the same as a [[partial order]]; interpret $x \leq y$ literally to mean that $x \lt y$ or $x = y$, while $x \lt y$ conversely means that $x \leq y$ but $x \ne y$.
 
