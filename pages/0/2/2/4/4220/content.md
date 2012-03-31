@@ -7,7 +7,7 @@
 
 Consider the equation
 \[ \label{eqn} a x ^ 2 + b x + c = 0 ,\]
-which we wish to solve for $x$.
+which we wish to solve for $x$.  In certain contexts, the solutions are given by one or more versions of the quadratic formula.
 
 
 ## Discussion
@@ -35,7 +35,7 @@ There is also an interesting issue about whether $b^2 - 4 a c \ne 0$.  Everythin
 $$ \forall a , b , c \colon \mathbb{C} , \; \exists r \colon \mathbb{C} , \; r ^ 2 = b ^ 2 - 4 a c $$
 is false in (for example) the [[internal language]] of the [[sheaf topos]] over the [[real line]].  (Essentially, this is because there is no [[continuous map]] $\sqrt{}$ on any neighbourhood of $0$ in $\mathbb{C}$.)  If we are given that $a,b,c$ are real, or if we are given that $b^2 \ne 4 a c$, then there is no problem.  But in general, we cannot define this square root, which appears in every version of the quadratic formula.
 
-However, there is a more subtle sense in which $\mathbb{C}$ is algebraically closed even without WCC; essentially, this allows us to approximate the [[subset]] of $\mathbb{C}$ whose elements are the two solutions of (eq:eqn) (using two-element subsets of the field of, say, [[Gaussian number]]s) even if we can\'t approximate any one solution (using individual, say, Gaussian numbers).  See [Richman (1998)](#Richman) for details.
+However, there is a more subtle sense in which $\mathbb{C}$ is algebraically closed even without WCC; essentially, this allows us to approximate the [[subset]] of $\mathbb{C}$ whose elements are the two solutions of (eq:eqn) (using two-element subsets of the field of, say, [[Gaussian numbers]]) even if we can\'t approximate any one solution (using individual, say, Gaussian numbers).  See [Richman (1998)](#Richman) for details.
 
 Sometimes one considers the equation
 $$ a x ^ 2 + 2 p x + c = 0 $$
