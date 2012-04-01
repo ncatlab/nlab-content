@@ -225,3 +225,4 @@ As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricat
 [[!redirects equivalences of infinity-groupoids]]
 [[!redirects equivalence of higher groupoids]]
 [[!redirects equivalences of higher groupoids]]
+
