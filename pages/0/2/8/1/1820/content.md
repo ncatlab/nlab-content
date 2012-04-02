@@ -121,7 +121,7 @@ Here the notation is as described at [[cofibrantly generated model category]], s
 
 This statement was announced by [[Jeff Smith]] in 1998 at a conference in Barcelona and appararently first appeared in print as theorem 1.7 in
 
-* [[Tibor Beke]], _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0102087))
+* [[Tibor Beke]], _Sheafifiable homotopy model categories_ ([arXiv:0102087](http://arxiv1.library.cornell.edu/abs/math/0102087))
 
 The above formulation follows prop 2.2 in 
 
