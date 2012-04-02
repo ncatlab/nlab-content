@@ -318,7 +318,7 @@ The following establishes that more generally any morphism of Lawvere theories l
 
 
 Let $T_1$ and $T_2$ be Lawvere theories and $f : T_1 \to T_2$ a morphism. Write
-$f^* : T_2 Alg \to T_1 Alg $ for the functor on categories of algebras induced by precomosition with $f$.
+$f^* : T_2 Alg \to T_1 Alg $ for the functor on categories of algebras induced by precomposition with $f$.
 
 +-- {: .un_lemma}
 ###### Lemma
