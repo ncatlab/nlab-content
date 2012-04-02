@@ -203,7 +203,7 @@ We will often write "$\times$" also for the tensoring "$\cdot$".
 The essential uniqueness in the last clause follows, because by the [[co-Yoneda lemma]] every [[dendroidal set]] $S$ may be written as a [[colimit]] over its cells
 
 $$
-  S =_{iso} {\lim_{\to}}_{(\Omega[T] \to S)} \Omega[T]
+  S =_{iso} {\lim_{\underset{(\Omega[T] \to S)}{\to}}} \Omega[T]
   \,.
 $$
 
@@ -212,7 +212,7 @@ Therefore
 $$
   X^S
   = 
-  {\lim_\leftarrow}_{(\Omega[T] \to S)} X(T)
+  {\lim_{\underset{(\Omega[T] \to S)}{\leftarrow}}} X(T)
   \,.
 $$
 
