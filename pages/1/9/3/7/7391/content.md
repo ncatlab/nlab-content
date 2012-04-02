@@ -923,3 +923,5 @@ The model structure for dendroidal complete Segal spaces was introduced in
 
 [[!redirects dendroidal complete Segal space]]
 [[!redirects dendroidal complete Segal spaces]]
+
+[[!redirects model structure for complete dendroidal Segal spaces]]
