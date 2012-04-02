@@ -98,6 +98,7 @@ $$
   \,.
 $$
 
+
 This is the [[initial object]] in the category of Lawvere theories.
 
 
@@ -225,7 +226,7 @@ $$
   \,.
 $$
 
-The corresponding functor on $T$-algebras we write
+By precomposition with $i_T$ we obtain a corresponding functor on $T$-algebras, which we write
 
 $$
   U_T : T Alg \to Set
