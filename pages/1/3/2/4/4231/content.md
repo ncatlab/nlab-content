@@ -229,10 +229,10 @@ A morphism $f : X \to Y$ in $PSh(A)$ is called an **acyclic fibration** if it ha
 
 ([Cisinski 06, def. 1.2.18](#Cisinski06)).
 
-+-- {: .num_prop}
++-- {: .num_prop #SomePropertiesOfAcyclicFibrations}
 ###### Proposition
 
-Every trivial fibration in $PSh(A)$ is a $J$-homotopy equivalence, for every choice of interval $J$.
+Every acyclic fibration in $PSh(A)$ is a $J$-homotopy equivalence, for every choice of interval $J$.
 
 More is true: every trivial fibration $p : X \to Y$
 
@@ -618,7 +618,7 @@ The [[homotopy category]] of this model category is [[equivalence of categories|
 
 Before coming to the proof of this statement, the following two statements say that the terminology introduced so far is indeed consistent with the meaning of this theorem.
 
-+-- {: .num_prop }
++-- {: .num_prop #AcyclicFibrationsAreAcyclicFibrations}
 ###### Proposition
 
 The morphisms called _acyclic fibrations_ in def. \ref{AcyclicFibration} are indeed precisely the acyclic fibration with respect to the model structure of theorem \ref{ModelStructureFromHomotopicalStructure}.
@@ -637,7 +637,7 @@ Every anodyne extension, def. \ref{AnodyneExtensions}, is a weak equivalence in 
 Now we collect lemmas to prove theorem \ref{ModelStructureFromHomotopicalStructure}.
 
 
-+-- {: .num_lemma }
++-- {: .num_lemma #JHomotopyEquivsAreWeakEquivs}
 ###### Lemma
 
 Every $J$-homotopy equivalence, def. \ref{JHomotopyEquivalence}, is a weak equivalence.
@@ -656,6 +656,113 @@ In particular, therefore, the weak equivalences satisfy the [[two-out-of-three]]
 The first statement holds by definition of $Ho_J$. 
 
 (...)
+
+=--
+
++-- {: .num_lemma #SectionsOfAcyclicFibrationsAreDefRetracts}
+###### Lemma
+
+Every acyclic fibration is the dual of a [[strong deformation retract]].
+
+Every [[section]] of an acyclic fibration is a [[strong deformation retract]]. 
+
+=--
+
+([Cisinski 06, prop. 1.3.26](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+The first statement is a direct consequence of prop \ref{SomePropertiesOfAcyclicFibrations}.
+
+For the second statement, let $p : X \to Y$ be an acyclic fibration, and let $s : Y \to X$ be a [[section]]. This induces a commuting square
+
+$$
+  \array{
+    (I \otimes Y) \cup ((\partial I) \otimes X) 
+    &\stackrel{(s\circ \sigma_Y,(id_X, s \circ p))}{\to}& X
+    \\
+    \downarrow &\nearrow_{h}& \downarrow^{\mathrlap{p}}
+    \\
+    I \otimes X
+    &\stackrel{ p \circ \sigma_X}{\to}& Y
+  }
+  \,,
+$$
+
+where the lift $h$ exists by assumption on $p$ ($s$ is necessarily a [[monomorphism]], being a [[section]]).
+
+The resulting component triangle
+
+$$
+  \array{
+    (\partial I) \otimes X
+    &\stackrel{(id_X, s \circ p)}{\to}& X
+    \\
+    \downarrow &\nearrow_{h}&
+    \\
+    I \otimes X
+  }
+$$
+
+exhibits $s$ as a [[deformation retract]], and the other resulting component triangle
+
+$$
+  \array{
+    I \otimes Y
+    &\stackrel{s\circ \sigma_Y}{\to}& X
+    \\
+    \downarrow^{\mathrlap{I \otimes s}} &\nearrow_{h}
+    \\
+    I \otimes X
+  }
+$$
+
+says that $h\circ (I \otimes s) = s \circ \sigma_Y$, hence by [[natural transformation|naturality]] of cylinders $\cdots = \sigma_X \circ (I \otimes s)$, hence that the deformation retract is indeed strong.
+
+=--
+
++-- {: .proof}
+###### Proof 
+**of prop. \ref{AcyclicFibrationsAreAcyclicFibrations}**
+
+First to see that the acyclic fibrations of def. \ref{AcyclicFibration} are indeed fibrations and weak equivalences:
+
+By lemma \ref{SectionsOfAcyclicFibrationsAreDefRetracts} every acyclic fibration is in particular a $J$-homotopy equivalence, hence by lemma \ref{JHomotopyEquivsAreWeakEquivs} a weak equivalence. Moreover, by def. \ref{AcyclicFibration} the acyclic fibrations right-lift against monomorphisms, hence in particular against the acyclic cofibrations, hence are fibrations.
+
+Conversely, let $p : X \to Y$ be a fibration which is also a weak equivalence. We need to show that it has the right lifting property against all monomorphisms.
+
+By prop. \ref{PropertiesOfAnodyneExtensions} we may apply the [[small object argument]] to factor $p = q \circ j$ as a monomorphism $j$ followed by an acyclic fibration $q$. By the previous argument, $q$ is a weak equivalence, and so by lemma \ref{JHomotopyEquivsAreWeakEquivs} so is $j$. 
+Therefore, since $p$ is a fibration, we have a lift $\sigma$ in  
+
+$$
+  \array{
+    &\stackrel{id}{\to}&
+    \\
+    \downarrow^{\mathrlap{j}}
+    & \nearrow_\sigma&
+    \downarrow^{p}
+    \\
+    &\stackrel{q}{\to}&
+  }
+  \,.
+$$
+
+This equivalently exhibits $p$ as a [[retract]] of $q$
+
+$$
+  \array{
+     &\stackrel{j}{\to} & & \stackrel{\sigma}{\to} &
+   \\
+   \downarrow^{\mathrlap{p}} && \downarrow^{\mathrlap{q}}
+    && \downarrow^{\mathrlap{p}}
+   \\
+   & \stackrel{id}{\to} & & \stackrel{id}{\to} &
+  }
+  \,.
+$$
+
+So by lemma \ref{PropertiesOfAnodyneExtensions} with $q$ also $p$ is an acyclic fibration.
 
 =--
 
