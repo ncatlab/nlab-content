@@ -621,6 +621,7 @@ above model structure reproduces the
 [[model structure for complete Segal spaces]].
 
 #### To dendroidal sets / quasi-operads
+ {#RelationToDendroidalSets}
 
 The model structure for dendroidal complete Segal spaces is [[Quillen equivalence|Quillen equivalent]] to the [[model structure on dendroidal sets]], whose fibrant objects are the "quasi-operads" (the operadic generalization of [[quasi-categories]]).
  
