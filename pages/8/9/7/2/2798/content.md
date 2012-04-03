@@ -434,6 +434,8 @@ A morphism $f : X \to Y$ in $dSet$ between inner Kan complexes is a $J$-fibratio
 
 This is ([Cisinski Moerdijk, theorem 5.10](#CisinskiMoerdijk09)).
 
+
+
 ### Monoidal model category structure
  {#MonoidalModelCategoryStructure}
 
@@ -639,6 +641,25 @@ between the above model structure on dendroidal sets, and the
 By the proof of ([Cisinski-Moerdijk, cor. 2.10](#CisinskiMoerdijk09)) the model structure for quasi-categories is in fact the restriction, along $j_!$, of the model structure on dendroidal sets. Therefore $j_!$ is left Quillen.
 
 =--
+
+#### Model structure for dendroidal complete Segal spaces
+ {#RelationToModelStructureForDendroidalCompleteSegal}
+
+There is a [[Quillen equivalence]] to the [[model structure for dendroidal complete Segal spaces]] (see there). A crucial step in the proof is the following expression of the acyclic cofibrations on $dSet_{CM}$ in terms of the dendroidal interval $J_d$ as follows.
+
++-- {: .num_prop}
+###### Proposition
+
+The class of acyclic cofibrations between normal dendroidal sets is the smallest
+class of morphisms between normal dendroidal sets 
+
+* which contains the $J$-anodyne extensions;
+
+* with left cancellation property: if a composite $\stackrel{i}{\to} \stackrel{j}{\to}$ is in the class and $i$ is, then so is $j$.
+
+=--
+
+([Cis-Moer 09, prop. 3.16](#CisinskiMoerdijk09))
 
 #### Model structure on simplicial operads
 
