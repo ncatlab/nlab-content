@@ -86,7 +86,24 @@ In the following, let $J : PSh(A) \to Cyl(A)$ be a choice of functorial cylinder
 +-- {: .num_defn}
 ###### Definition
 
-For $f,g : X \to Y$ two morphisms in $PSh(A)$, we say an **elementary $J$-homotopy** $f \Rightarrow g$ from $f$ to $g$ [[left homotopy]] from $f$ to $g$ with respect to the chosen cylinder object $J$. We say **$J$-homotopy** for the [[equivalence relation]] _generated_ by this.
+For $f,g : X \to Y$ two morphisms in $PSh(A)$, we say an **elementary $J$-homotopy** $f \Rightarrow g$ from $f$ to $g$ is [[left homotopy]] from $f$ to $g$ with respect to the chosen cylinder object $J$, hence a morphism $\eta : I \otimes X \to Y$ fitting into a diagram
+
+$$
+  \array{
+    X &&
+    \\
+    \downarrow & \searrow^f
+    \\
+    I \otimes X &\stackrel{\eta}{\to}& Y
+    \\
+    \uparrow & \nearrow_g
+    \\
+    X
+  }
+  \,.
+$$
+
+We say **$J$-homotopy** for the [[equivalence relation]] _generated_ by this.
 
 =--
 
@@ -95,16 +112,99 @@ For $f,g : X \to Y$ two morphisms in $PSh(A)$, we say an **elementary $J$-homoto
 +-- {: .num_prop}
 ###### Proposition
 
-$J$-homotopy is compatible with composition in $PSh(A)$, so that the quotient category $Ho_J(A)$ exists. 
+$J$-homotopy is compatible with composition in $PSh(A)$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to show that elementary $J$-homotopies are compatible with 
+composition.
+
+So for 
+
+$$
+  \array{
+    X &&
+    \\
+    \downarrow & \searrow^f
+    \\
+    I \otimes X &\stackrel{\eta}{\to}& Y
+    \\
+    \uparrow & \nearrow_g
+    \\
+    X
+  }
+$$
+
+an elementary $J$-homotopy $f \Rightarrow g$, and for
+
+$$
+  \array{
+    Y &&
+    \\
+    \downarrow & \searrow^{f'}
+    \\
+    I \otimes Y &\stackrel{\eta}{\to}& Z
+    \\
+    \uparrow & \nearrow_{g'}
+    \\
+    Y
+  }
+$$
+
+one $f' \Rightarrow g'$, consider the functorial cyclinder of the former [[pasting diagram|pasted]] to the latter
+
+$$
+  \array{
+    && X
+    \\
+    & & \downarrow & \searrow^{\mathrlap{f}}
+    \\
+    & \swarrow& I \otimes X && Y
+    \\
+    && \downarrow & \searrow^{\mathrlap{I \otimes f}} & \downarrow & \searrow^{\mathrlap{f'}}
+    \\
+    I \otimes X &\stackrel{}{\to}&
+    I \otimes I \otimes X &\stackrel{I \otimes \eta}{\to}& I \otimes Y
+   &\stackrel{\eta'}{\to}& Z
+    \\
+    && \uparrow & \nearrow_{\mathrlap{I \otimes g}} & \uparrow & \nearrow_{\mathrlap{g'}}
+    \\
+    & \nwarrow & I \otimes X  && Y
+    \\
+    && \uparrow & \nearrow_{\mathrlap{g}}
+    \\
+    && X 
+  }
+  \,.
+$$
+
+This exhibits an elementary $J$-homotopy $f' \circ f \Rightarrow g' \circ g$.
+
+=--
+
+
+It follows that the following is well defined.
+
++-- {: .num_defn}
+###### Definition
+
+Write $Ho_J(A)$ exists for the category whose objects are those of $PSh(A)$, and whose morphisms are $J$-homotopy equivalence classes of morphisms in $PSh(A)$. Write
+
+$$
+  Q : PSh(A) \to Ho_J(A)
+$$
+
+for the projection functor.
 
 =--
 
 +-- {: .num_defn}
 ###### Definition
 
-Write $PSh(A) \to Ho_J(A)$ for the canonical projection. 
-
-A morphism $f : X \to Y$ in $PSh(A)$ is called a **$J$-homotopy equivalence** if it is sent to an [[isomorphism]] under this functor.
+A morphism $f : X \to Y$ in $PSh(A)$ is called a **$J$-homotopy equivalence** if it is sent by $Q$ to an [[isomorphism]].
 
 An object $X \in PSh(A)$ is called **$J$-contractible** if $X \to *$ is a $J$-homotopy equivalence.
 
@@ -126,9 +226,25 @@ A morphism $f : X \to Y$ in $PSh(A)$ is called an **acyclic fibration** if it ha
 
 Every trivial fibration in $PSh(A)$ is a $J$-homotopy equivalence.
 
+More is true: every trivial fibration $p : X \to Y$
+
+1. has a [[section]] $s : Y \to X$;
+
+1. which is also a $J$-homotopy left inverse;
+
+1. by an elementary $J$-homotopy $h : id \Rightarrow s \circ p$ which satisfies
+   $p \circ h = p \circ \sigma_X$.
+
 =--
 
 ([Cisinski 06, lemma 1.3.5](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
 
 +-- {: .num_defn}
 ###### Definition
