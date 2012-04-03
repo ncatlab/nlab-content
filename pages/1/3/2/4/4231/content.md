@@ -277,7 +277,7 @@ $$
 
 An **elementary homotopical datum** on $(PSh(A)$ is a functorial cylinder $J$ such that 
 
-1. the functor $X \mapsto J \otimes X$ commutes with small [[colimits]];
+1. the functor $X \mapsto I \otimes X$ commutes with small [[colimits]];
 
 1. for all [[monomorphisms]] $f : K \to L$ the [[diagrams]]
 
@@ -287,7 +287,7 @@ An **elementary homotopical datum** on $(PSh(A)$ is a functorial cylinder $J$ su
        \\
        {}^{\mathllap{(e,id)}}\downarrow && \downarrow^{\mathrlap{(e,id)}}
        \\
-       J \otimes K &\stackrel{J(f)}{\to}& J \otimes L
+       I \otimes K &\stackrel{I \otimes f}{\to}& I \otimes L
      } 
    $$
    
@@ -366,7 +366,7 @@ $$
   J \otimes K \cup (\partial J) \otimes L \to J \otimes L
 $$
 
-being a [[monomorphism]].
+is a [[monomorphism]].
 
 =--
 
@@ -388,7 +388,7 @@ $$
   }
 $$
 
-is a pullback, for $\epsilon = 1,2$, hence that 
+is a pullback, for $\epsilon = 0,1$, hence that 
 
 $$
   \array{
@@ -416,11 +416,11 @@ $$
     \\
     \downarrow && \downarrow^{\mathrlap{\partial^0}}
     \\
-    * &\stackrel{\partial^1}{\to}&
+    * &\stackrel{\partial^1}{\to}& I
   }
 $$
 
-is a [[pullback]] square. This induces a functorial sylinder by the assignment
+is a [[pullback]] square (here $\emptyset$ is the [[initial object]] in $PSh(A)$). This induces a functorial sylinder by the assignment
 
 $$
   X \mapsto I \times X
@@ -463,7 +463,7 @@ $$
 
 be the morphisms that classify [[top]] and [[bottom]], respectively, the terminal and the initial subobject of the [[terminal object]].
 
-This is a segment object in the sens of example \ref{SegmentObject} (the "[[Bill Lawvere|Lawvere]]-segment").
+This is a segment object in the sense of example \ref{SegmentObject} (the "[[Bill Lawvere|Lawvere]]-segment").
 
 =--
 
@@ -472,15 +472,15 @@ This is a segment object in the sens of example \ref{SegmentObject} (the "[[Bill
 +-- {: .proof}
 ###### Proof
 
-That the two points are separeted, in that 
+That the two points are separated, in that 
 
 $$
   \array{
-    \emptyset $\to$ *
+    \emptyset &\to& *
     \\
     \downarrow && \downarrow^{\mathrlap{\top}}
     \\
-    * &\stackrel{\bot}{\to}&
+    * &\stackrel{\bot}{\to}& \Omega
   }
 $$
 
@@ -520,36 +520,65 @@ For $J$ an elementary homotopical datum on $PSh(A)$, a **[[class]] of [[anodyne 
 
 ([Cisinski 06, def. 1.3.10](#Cisinski06)).
 
-+-- {: .num_prop}
++-- {: .num_prop #PropertiesOfAnodyneExtensions}
 ###### Proposition
 
 A class of anodyne extensions 
 
-* is closed under [[pushouts]], [[transfinite composition]] and [[retracts]];
-
-* admits a [[small object argument]];
+* is generated under [[pushouts]], [[transfinite composition]] and [[retracts]] from the morphisms in $\Lambda$;
 
 * is a subclass of the [[monomorphisms]]; 
 
-* contains all morphisms of the form $e : K \to J \otimes K$;
+* contains all morphisms of the form $e : K \to (I \otimes K)$;
 
-* is closed under $J\otimes(-)$;
+* is closed under $I\otimes(-)$;
 
 =--
 
 ([Cisinski 06, remark. 1.3.11](#Cisinski06)).
 
++-- {: .proof}
+###### Proof
+
+By the examples at _[[accessible category]]_ the functor co-represented by $X \in PSh(A)$, is commutes with $|Mor(A/X)|$-[[filtered colimits]]. Therefore the set $\Lambda$ admits a [[small object argument]], which shows the first statement (see there).
+
+Since monomorphisms are closed under these operations, the second statement follows.
+
+The third statement follows by choosing the morphism in the second item of def. \ref{AnodyneExtensions} to be $\emptyset \to K$ and using that by def. \ref{ElementaryHomotopicalDatum} the interval commutes with colimits, so that $I \otimes \emptyset \simeq \emptyset$.
+
+Finally, to see that with $j : K \to L$ also $I \otimes j : I \otimes L \to I \otimes L$ is anodyne, consider the naturality diagram of the endpoint inclusion 
+
+$$
+  \array{
+    K &\stackrel{j}{\to}& L 
+    \\
+    \downarrow^{\mathrlap{\partial^0_k}} && \downarrow
+    \\
+    I \otimes K &\stackrel{j'}{\to}& (I \otimes K) \cup \{0\}\otimes L
+    \\
+    & {}_{I \otimes j} \searrow & \downarrow^{\mathrlap{k}}
+    \\
+    && I \otimes L
+  }
+  \,,
+$$
+
+factored through the top pushout square, as indicated. Here $j'$ is anodyne, being a pushout of an anodyne morphism, and $k$ is anodyne by the second clause in def. \ref{PropertiesOfAnodyneExtensions}. Therefore also their composite $I \otimes j$ is anodyne.
+
+=--
+
+
 +-- {: .num_defn #HomotopicalStructure}
 ###### Definition
 
-A **homotopical structure** on $PSh(A)$ is a choice of elementery homotopical datum $J$, and a corresponding choice of a class of anodyne extensions $AnExt$.
+A **homotopical structure** on $PSh(A)$ is a choice of elementary homotopical datum $J$, def. \ref{ElementaryHomotopicalDatum} and a corresponding choice of a class of anodyne extensions $AnExt$, def. \ref{AnodyneExtensions}.
 
 =--
 
 ([Cisinski 06, def. 1.3.14](#Cisinski06)).
 
 
-+-- {: .num_defn #ModelStructureFromHomotopicalStructure}
++-- {: .num_defn #ModelStructureMorphismsFromHomotopicalStructure}
 ###### Definition
 
 Let $A$ be a [[small category]] and $(J, AnExt)$ a homotopical structure on $PSh(A)$. Define the following classes of objects and morphisms in $PSh(A)$:
@@ -574,7 +603,7 @@ Let $A$ be a [[small category]] and $(J, AnExt)$ a homotopical structure on $PSh
 +-- {: .num_theorem #ModelStructureFromHomotopicalStructure}
 ###### Theorem
 
-With the classes of morphisms as in def. \ref{ModelStructureFromHomotopicalStructure}, $PSh(A)$ is a [[cofibrantly generated model category]].
+With the classes of morphisms as in def. \ref{ModelStructureMorphismsFromHomotopicalStructure}, $PSh(A)$ is a [[cofibrantly generated model category]].
 
 =--
 
@@ -617,7 +646,7 @@ Further developments are in
 
 * [[Rick Jardine]], _Categorical homotopy theory_ (2003) ([K-theory](http://www.math.uiuc.edu/K-theory/0669/)) 
 
-* [[Marc Olshok]], _On constructions of left determined model structures_ PhD thesis (2009) ([pdf](http://is.muni.cz/th/183259/prif_d/diss.pdf)) 
+* [[Marc Olschok]], _On constructions of left determined model structures_ PhD thesis (2009) ([pdf](http://is.muni.cz/th/183259/prif_d/diss.pdf)) 
 
 See also
 
