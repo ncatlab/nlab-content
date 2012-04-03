@@ -837,8 +837,23 @@ for its [[Bousfield localization of model categories|left Bousfield localization
 ###### Proposition
 
 The fibrant objects in $[\Delta^{op}, dSet_{CM}]_{LocConst}$ are precisely
-the Reedy fibrant simplicial dendroidal sets $X$, such that for every $n \in \mathbb{N}$
-the morphism $X_n \to X_0$ is a weak equivalence in the [[model structure on dendroidal sets]].
+the Reedy fibrant simplicial dendroidal sets $X$, such that 
+
+* for every $n \in \mathbb{N}$ the morphism $X_n \to X_0$ is a weak equivalence in the [[model structure on dendroidal sets]];
+
+which is equivalent to:
+
+* the morphism $X \to *$ has the [[right lifting property]] against the set of morphisms
+
+  $$
+    \{
+      \Lambda^k[n] \cdot \Omega[T] \cup \Delta[n] \cdot \partial \Omega[T] \to 
+      \Delta[n]\cdot\Omega[T]
+    \}_{T \in \Omega, n \geq 1 , 0 \leq k \leq n}
+    \,.
+  $$
+
+
 
 =--
 
@@ -846,6 +861,8 @@ the morphism $X_n \to X_0$ is a weak equivalence in the [[model structure on den
 
 +-- {: .proof}
 ###### Proof
+
+We first consider the first item. 
 
 By standard facts of [[Bousfield localization of model categories|left Bousfield localization]] a simplicial dendroidal set is fibrant in the locally constant model structure precisely if it is fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{Reedy}$ and moreover the [[derived hom-space]] functor $RHom((\Delta[n]\cdot \Omega[T] \to \Omega[T]), X)$ is a weak equivalence. 
 
@@ -910,6 +927,10 @@ $$
 $$
 
 are weak equivalences. This is the case precisely if $X_n \to X_0$ is a weak equivalence.
+
+Now for the equivalence to the second item.
+
+(...)
 
 =--
 
