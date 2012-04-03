@@ -255,6 +255,10 @@ $$\array{X & \to & Z & \to & X\\
   Y & \to & W & \to & Y}$$
 such that the top and bottom rows compose to identities.
 
+## Related concepts
+
+* [[deformation retract]], [[neighbourhood retract]]
+
 ## References
 
 In 
