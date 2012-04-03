@@ -85,10 +85,10 @@ $$
   W : K \to V
 $$
 
-is, if it exists, the object $lim^W F \in C$ which [[representable functor|represents]] the functor
+is, if it exists, the object $lim^W F \in C$ which [[representable functor|represents]] the functor (in $c \in C$) 
 
 $$
-  [K,V](W, C(-,F(-))) : C^{op} \to V
+  [K,V](W, C(c,F(-))) : C^{op} \to V
   \,,
 $$
 
