@@ -56,7 +56,7 @@ is a [[strict 2-category]].
 Similarly for an $\omega$-category [[internalization|internal to]]  another ambient category $A$.
 
 The category $\omega Cat(A)$ of $\omega$-categories [[internalization|internal to]] $A$ has $\omega$-categories
-as its objects and morphism og the underlying globular objects respecting all the above extra structure as morphisms.
+as its objects and morphism of the underlying globular objects respecting all the above extra structure as morphisms.
 
 ## Remarks
 
