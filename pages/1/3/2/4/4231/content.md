@@ -321,7 +321,7 @@ $$
 is also a monomorphism, usually written as the morphism out of the [[union]]
 
 $$
-  T \cuo S \hookrightarrow U
+  T \cup S \hookrightarrow U
   \,.
 $$
 
@@ -416,10 +416,10 @@ For $J$ an elementary homotopical datum on $PSh(A)$, a **[[class]] of [[anodyne 
      AnExt = LLP(RLP(S))
    $$
   
-1. for $K \hookrightarrow L$ a monomorphism, the [[pushout-product axiom|pushout product]] morphism
+1. for $K \hookrightarrow L$ a monomorphism, the [[pushout-product axiom|pushout product]] morphisms
 
    $$
-     J \otimes K \cup \{e\} \otimes L \to J \otimes L
+     (J \otimes K) \cup (\{e\} \otimes L) \to J \otimes L
    $$
 
    are in $AnAxt$, for $e \in \{0,1\}$;
