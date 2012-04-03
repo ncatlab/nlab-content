@@ -77,7 +77,7 @@ The [[derived geometry]] of the &#233;tale site is the [[étale (∞,1)-site]]. 
 
 ## Related concepts
 
-* [[étale morphism]], **&#233;tale site**, [[étale topos]], [[étale cohomology]]
+* [[étale morphism]], **&#233;tale site**, [[étale topos]], [[étale cohomology]], [[étale homotopy]]
 
 * [[étale (∞,1)-site]]
 
