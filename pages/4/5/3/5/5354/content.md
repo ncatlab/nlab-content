@@ -32,7 +32,7 @@ The &#233;tale topology has similar cohomological properties to complex [[analyt
 
 Let $X$ be a [[scheme]]. 
 
-The **[[big site|big]] &#233;tale [[site]]** $Sch{/X,et}$ of $X$ is the [[over category]] $Sch_{/X}$ of [[scheme]]s over $X$ equipped with the [[coverage]] given by [[étale cover]]s (after forgetting the maps to $X$).
+The **[[big site|big]] &#233;tale [[site]]** $Sch_{/X,et}$ of $X$ is the [[over category]] $Sch_{/X}$ of [[scheme]]s over $X$ equipped with the [[coverage]] given by [[étale cover]]s (after forgetting the maps to $X$).
 
 The **[[small site|small]] &#233;tale [[site]]** $i : X_{et} \hookrightarrow Sch/{X,et}$ is the full [[subcategory]] of $Sch_{/X}$on the [[étale morphism]]s $U \to X$.
 
