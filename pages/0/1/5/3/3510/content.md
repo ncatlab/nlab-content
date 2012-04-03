@@ -29,7 +29,7 @@ The _[[model category]] structure_ on the collection of all [[bisimplicial sets]
 
 Write [[sSet]] for the [[category]] of [[simplicial sets]], which here we always think of as equipped with the standard [[model structure on simplicial sets]]  that is a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category]] [[∞Grpd]].
 
-Write $[\Delta^{op}, sSet]$ for the category of [[simplicial objects]] in $sSet$, hence for hte category of [[bisimplicial sets]]. This inherits from $sSet$ in particular the 
+Write $[\Delta^{op}, sSet]$ for the category of [[simplicial objects]] in $sSet$, hence for the category of [[bisimplicial sets]]. This inherits from $sSet$ in particular the 
 
 * [[Reedy model structure]] $[\Delta^{op}, sSet]_{Reedy}$, 
 
@@ -156,6 +156,28 @@ This is the last clause of ([Rezk, theorem 7.2](#Rezk)). The key lemma for estab
 #### Model structure for quasi-categories 
   {#RelQCat}
 
+We discuss the relation to the [[model structure for quasi-categories]]. (See also at _[[model structure for dendroidal complete Segal spaces]]_ the section _[Relation to quasi-operads](/model+structure+for+dendroidal+complete+Segal+spaces#RelationToDendroidalSets)_ .)
+
++-- {: .num_defn #GroupoidalSimplices}
+###### Definition
+
+For $n \in \mathbb{N}$, write 
+
+$$
+  \Delta_J[n] := N(0 \stackrel{\simeq}{\to} \cdots \stackrel{\simeq}{\to} n)
+  \in sSet
+$$
+
+for the [[nerve]] of the [[free construction|free]] [[groupoid]] on $\Delta[n]$
+(the [[codiscrete groupoid]] in $(n+1)$ objects.) This extends to a functor
+
+$$
+  \Delta_J : \Delta \to sSet
+  \,.
+$$
+
+=--
+
 We have the following pair of [[adjunction]]s between [[simplicial set]]s and [[bisimplicial set]]s.
 
 The first is
@@ -187,13 +209,13 @@ $$
 
 where 
 
-* $t_!$ assigns the total simplicial set to a bisimplicial set: it is the left [[Kan extension]] of the functor $t : \Delta \times \Delta \to BiSSet$ given by $([k],[l]) \mapsto \Delta[k]\times Ex^{\infty} (\Delta[l])$ (where $Ex^\infty$ is described at [[Kan fibrant replacement]]) along the [[Yoneda embedding]]
+* $t_!$ assigns the total simplicial set to a bisimplicial set: it is the left [[Kan extension]] of the functor $t : \Delta \times \Delta \to BiSSet$ given by $([k],[l]) \mapsto \Delta[k]\times \Delta_J[l]$ (with $J$ from def. \ref{GroupoidalSimplices}) along the [[Yoneda embedding]]
 
   $$
     t_!(X_{\bullet,\bullet})
     =
     \int^{[k],[l]}
-      X_{k,l} \cdot \Delta[k] \times Ex^\infty(\Delta[l])
+      X_{k,l} \cdot \Delta[k] \times \Delta_J[l]
       \,;
   $$
 
@@ -203,7 +225,7 @@ where
     t^! : X_\bullet \mapsto 
     \left(
      [m,n] \mapsto 
-      Hom_{sSet}( \Delta[m] \times Ex^{\infty} \Delta[n], X)
+      Hom_{sSet}( \Delta[m] \times \Delta_J[n], X)
     \right)
     \,.
   $$
