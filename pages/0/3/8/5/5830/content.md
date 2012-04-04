@@ -75,7 +75,7 @@ It is conjectured (see for instance [Joyal, 2011](#Joyal)) that
 
 * with the [[univalence axiom]] added, it becomes an internal language for [[(∞,1)-toposes]].
 
-
+For a short introduction to a simplicial model of homotopy type theory see [[T. Streicher - a model of type theory in simplicial sets - a brief introduction to Voevodsky' s homotopy type theory]].
 ## Machine implementation
 
 An important aspect of HoTT is the fact that the [[intensional type theory|intensional]] [[Martin-Löf type theory]] on which it is built has a computational implementation in proof assistants like [[Coq]] and [[Agda]].
