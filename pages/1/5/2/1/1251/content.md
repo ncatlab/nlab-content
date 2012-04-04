@@ -1,10 +1,22 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
+=--
+=--
+=--
+
+
 
 # Directed colimits
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Abstract definition 
@@ -70,8 +82,12 @@ The objects of an [[accessible category]] and of a [[presentable category]] are 
 
 A [[Pruefer group]] $Z_{p^\infty}$ (for $p$ a [[prime number]]) is an inductive limit of the [[cyclic group]]s $Z_{p^n}$ (for $n$ a [[natural number]]).  Here, $C$ is the category of [[group]]s, $I$ is the directed set of natural numbers, $A_i = Z_{p^i}$, and $f_{ij}: A_i \to A_j$ is induced by multiplication by $p$ (which must be proved well defined on $Z_{p^i}$ for $i \leq j$).
 
-A [[stalk]] $F_x$ (for $F$ a [[sheaf]] on a [[topological space $S$ and $x$ an element of $S$) is an inductive limit of $F(U)$ (for $U$ an open neighbourhood of $x$).
+A [[stalk]] $F_x$ (for $F$ a [[sheaf]] on a [[topological space]] $S$ and $x$ an element of $S$) is an inductive limit of $F(U)$ (for $U$ an open neighbourhood of $x$).
 
+
+## Related concepts
+
+* [[filtered colimit]]
 
 [[!redirects directed colimit]]
 [[!redirects directed colimits]]
