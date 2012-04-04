@@ -309,48 +309,32 @@ This appears as ([Rezk, theorem 3.7](#Rezk)).
 
 ### Model categories as complete Segal spaces
 
-Let $C$ be a [[simplicial model category]] with class $W \subset Mor(C)$ of weak equivalences. Then the [above](#OrdinaryCategoriesAsCompleteSegalSpaces) construction has the following evident variant.
+Let $C$ be a category with a class $W \subset Mor(C)$ of [[category with weak equivalences|weak equivalences]].  For instance, $C$ could be a [[model category]].  Then the [above](#OrdinaryCategoriesAsCompleteSegalSpaces) construction has the following evident variant.
 
 +-- {: .num_prop}
 ###### Definition
-
 Let $N(C,W) \in [\Delta^{op}, sSet]$ be given by
-
-$$
-  N(C,W) : n \mapsto N(Core_W(C^{\Delta[n]}))
-  \,,
-$$ 
-
+$$ N(C,W) : n \mapsto N(Core_W(C^{\Delta[n]})) \,, $$ 
 where now $Core_W(-)$ denotes the [[subcategory]] on those [[natural transformations]] whose components are [[weak equivalences]] in $C$.
-
 =--
 
 +-- {: .num_remark}
 ###### Remark
-
 The typical model category is not a [[small category]] with respect to the base choice of [[universe]]. In this case $N(C,W)$ will be a "large" bisimplicial set. In other words, one needs to emply some [[universe enlargement]] to interpret this definition.
-
 =--
 
 +-- {: .num_remark}
 ###### Remark
-
-The category $Core_W(C^{\Delta[n]})$ is the subcategory of weak equivalences in any of the standard [[model structures on functors]] on $C^{\Delta[n]}$. By a [classical fact](http://ncatlab.org/nlab/show/%28infinity%2C1%29-categorical+hom-space#SpacesOfEquivalences) discssed at _[[(∞,1)-categorical hom-space]]_, its [[nerve]] is a model for the [[core]] of the corresponding [[(∞,1)-category of (∞,1)-functors]].
-
+If $C$ is a model category, then $Core_W(C^{\Delta[n]})$ is the subcategory of weak equivalences in any of the standard [[model structures on functors]] on $C^{\Delta[n]}$. By a [classical fact](/nlab/show/%28infinity%2C1%29-categorical+hom-space#SpacesOfEquivalences) discssed at _[[(∞,1)-categorical hom-space]]_, its [[nerve]] is a model for the [[core]] of the corresponding [[(∞,1)-category of (∞,1)-functors]].
 =--
 
-+-- {: .num_remark}
-###### Remark
+The bisimplicial set $N(C,W)$ is not, in general, a complete Segal space.  It does, however, represent the same [[(∞,1)-category]] as the [[simplicial localization]] of $C$ at $W$; see [this MO question](http://mathoverflow.net/questions/92916/does-the-classification-diagram-localize-a-category-with-weak-equivalences/93139).
 
-The object $N(C,W)$ is not in general a complete Reedy space. Of course one can always reflect it into one by passing to a fibrant replacement in the [[model structure for complete Segal spaces]]. But something better is true here: it suffices to make a _Reedy fibrant_ replacement (which does not change the [[homotopy type]] of the $N(Core_W(C^{\Delta[n]}))$, but only "arranges them more nicely").
-
-=--
+We can, of course, always reflect $N(C,W)$ into a complete Segal space by passing to a fibrant replacement in the [[model structure for complete Segal spaces]].  But something better is true here: it suffices to make a _Reedy fibrant_ replacement (which does not change the [[homotopy type]] of the simplicial sets $N(Core_W(C^{\Delta[n]}))$, but only "arranges them more nicely").
 
 +-- {: .num_prop}
 ###### Proposition
-
 Any [[Reedy model structure|Reedy fibrant replacement]] of $N(C,W)$ is a complete Segal space.
-
 =--
 
 This is ([Rezk, theorem 8.3](#Rezk)).
