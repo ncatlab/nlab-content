@@ -31,7 +31,7 @@ We can now define the subdivision of a [[simplicial set]] as follows.  [Recall](
 
 ## Applications
 
-By construction (or the [[adjoint functor theorem]]), the subdivision functor $Sd$ on simplicial sets has a [[right adjoint]], called $Ex$.  An infinity iteration of $Ex$ can be used to construct [[Kan fibrant replacement]]s in the [[model structure on simplicial sets]].
+By construction (or the [[adjoint functor theorem]]), the subdivision functor $Sd$ on simplicial sets has a [[right adjoint]], called $Ex$.  A countably infinite iteration of $Ex$, called $Ex^\infty$, can be used to construct [[Kan fibrant replacement]]s in the [[model structure on simplicial sets]].
 
 This functorial subdivision corresponds to the classical [[barycentric subdivision]].  Other [[classical triangulation|classical subdivision]]s that are frequently encountered include the middle edge subdivision.  This latter is closely related to the [[ordinal subdivision]] of simplicial sets.
 
