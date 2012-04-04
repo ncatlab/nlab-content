@@ -219,3 +219,6 @@ and
 [[!redirects subobjects]]
 [[!redirects subalgebra]]
 [[!redirects subalgebras]]
+
+[[!redirects sub-object]]
+[[!redirects sub-objects]]
