@@ -532,19 +532,24 @@ For $J$ an elementary homotopical datum on $PSh(A)$, a **[[class]] of [[anodyne 
 1. for $K \hookrightarrow L$ a monomorphism, the [[pushout-product axiom|pushout product]] morphisms
 
    $$
-     (J \otimes K) \cup (\{e\} \otimes L) \to J \otimes L
+     (I \otimes K) \cup (\{e\} \otimes L) \to I \otimes L
    $$
+
+   (by [[Joyal-Tierney calculus]] to be thought of as "$(K \to L) \bar \otimes (\{e\} \to I)$")   
 
    are in $AnAxt$, for $e \in \{0,1\}$;
 
 1. if $K \to L$ is in $AnExt$, then so is
 
    $$   
-     J \otimes K \cup (\partial J) \otimes L 
+     (I \otimes K) \cup ((\partial I) \otimes L) 
     \to 
-     J \otimes L
+     I \otimes L
      \,.
    $$
+
+
+   (hence "$(K \to L) \bar \otimes (\partial I \to I)$").
 
 =--
 
@@ -570,7 +575,8 @@ A class of anodyne extensions
 +-- {: .proof}
 ###### Proof
 
-By the examples at _[[accessible category]]_ the functor co-represented by $X \in PSh(A)$, is commutes with $|Mor(A/X)|$-[[filtered colimits]]. Therefore the set $\Lambda$ admits a [[small object argument]], which shows the first statement (see there).
+By prop. \ref{PresheavesAreCompact}, 
+$X \in PSh(A)$ is $|Mor(A/X)|$-[[compact object|compact]]. Therefore the set $\Lambda$ admits a [[small object argument]], which shows the first statement (see there).
 
 Since monomorphisms are closed under these operations, the second statement follows.
 
@@ -593,7 +599,7 @@ $$
   \,,
 $$
 
-factored through the top pushout square, as indicated. Here $j'$ is anodyne, being a pushout of an anodyne morphism, and $k$ is anodyne by the second clause in def. \ref{PropertiesOfAnodyneExtensions}. Therefore also their composite $I \otimes j$ is anodyne.
+factored through the top pushout square, as indicated. Here $j'$ is anodyne, being a pushout of an anodyne morphism, and $k$ is anodyne by the second clause in def. \ref{AnodyneExtensions}. Therefore also their composite $I \otimes j$ is anodyne.
 
 =--
 
@@ -765,11 +771,19 @@ We discuss the lifting properties in the model structure of def. \ref{ModelStruc
 
 Since fibrations are defined to be the morphisms satisfying the [[right lifting property]] against acyclic cofibration, we only need to show that the fibrations which are also weak equivalences have the right lifting property against the monomorphisms. For this it is sufficient to show prop. \ref{AcyclicFibrationsAreAcyclicFibrations}. This we do now, after a lemma.
 
++-- {: .num_defn #DualDeformationRetract}
+###### Definition
+
+A _[[deformation retract]]_ $f : X \to Y$ in $PSh(A)$ is a [[retract]] with retraction $g : Y \to X$, which is also a [[section]] of $f$ up to a $J$-homotopy $h : id_Y \Rightarrow f \circ g$. It is _strong_ if $h \circ (I \otimes f) = \sigma_Y \circ (I \otimes f)$.
+
+A _dual deformation restract_ $f : X \to Y$ has a [[section]] by a morphism $g : Y \to X$ and is also a retract up to a $J$-homotopy $k : id_X \Rightarrow g \circ f$. Is is _strong_ if $f \circ k = f \circ \sigma_X$.
+
+=--
 
 +-- {: .num_lemma #SectionsOfAcyclicFibrationsAreDefRetracts}
 ###### Lemma
 
-Every acyclic fibration is the dual of a [[strong deformation retract]].
+Every acyclic fibration is a dual [[strong deformation retract]], def. \ref{DualDeformationRetract}.
 
 Every [[section]] of an acyclic fibration is a [[strong deformation retract]]. 
 
@@ -1078,7 +1092,7 @@ apply the [[small object argument]].
 
 We show now for def. \ref{ModelStructureMorphismsFromHomotopicalStructure} that every morphism factors as an acyclic cofibration followed by a fibration. Since the fibrations are defined by right lifting against acylcic cofibrations, for this it is sufficient to establish a set of [[cofibrantly generated model category|generating acyclic cofibrations]]. This is the statement of prop. \ref{GeneratingAcyclicCofibrationsExist} below. Establishing this takes a few technical lemmas.
 
-+-- {: .num_lemma }
++-- {: .num_lemma #FactorAnodyneFollowedByRLPAnodyne}
 ###### Lemma
 
 Every morphism admits a factorization into an anodyne extension, followed by a morphism having the right lifting property against anodyne extensions.
@@ -1097,16 +1111,16 @@ By the [[small object argument]], in view of prop. \ref{PropertiesOfAnodyneExten
 +-- {: .num_lemma #ElementaryJHomotopyIntoFibIsEquivRel}
 ###### Lemma
 
-If $T \in PSh(A)$ is fibrant, then for any $K \in PSh(A)$ elementary $J$-homotopy, def. \ref{ElementaryJHomotopy} is already an equivalence relation on $Hom_{PSh(A)}(K,T)$ and coincides with $J$-homotopy.
+If $T \in PSh(A)$ is fibrant, then for any $K \in PSh(A)$ elementary $J$-homotopy, def. \ref{ElementaryJHomotopy}, is already an equivalence relation on $Hom_{PSh(A)}(K,T)$ and coincides with $J$-homotopy.
 
 =--
 
 ([Cisinski 06, lemma 1.3.30](#Cisinski06)).
 
-+-- {: .num_prop }
++-- {: .num_prop #EveryAnodyneExtensionIsWeakEquivalence}
 ###### Proposition
 
-Every anodyne extension is a weak equivalence
+Every anodyne extension is a weak equivalence.
 
 =--
 
@@ -1157,7 +1171,7 @@ where the left morphism is anodyne, by the second clause of def. \ref{AnodyneExt
 
 =--
 
-+-- {: .num_lemma }
++-- {: .num_lemma #WeakEquivalencesBetweenFibrantObjects}
 ###### Lemma
 
 A morphism between fibrant objects is a weak equivalence precisely if it is a $J$-homotopy equivalence, def. \ref{JHomotopyEquivalence}. 
@@ -1169,14 +1183,14 @@ A morphism between fibrant objects is a weak equivalence precisely if it is a $J
 +-- {: .proof}
 ###### Proof
 
-Is is clear that $J$-homotopy is sufficient. Conversely, let $f : X \to Y$ be a weak equivalence between fibrant objects. Write $Ho_J^{fib} \hookrightarrow Ho_J$ for the [[full subcategory]] of $Ho_J$, def. \ref{JHomotopyEquivalence} on the fibrant objects. The localization $Q(f)$ is by definition in $Ho_J^{fib}$ and for all objects $T \in Ho_J^{fib}$ the morphism $Ho_J^{fib}(Q(f), T)$ is an [[isomorphism]]. By the [[Yoneda lemma]], therefore, $Q(f)$ itself is an isomorphism in $Ho_J^{fib}$, hence also in $Ho_J$, hence is a weak equivalence.
+Is is clear that every $J$-homotopy is a weak equivalence. Conversely, let $f : X \to Y$ be a weak equivalence between fibrant objects. Write $Ho_J^{fib} \hookrightarrow Ho_J$ for the [[full subcategory]] of $Ho_J$, def. \ref{JHomotopyEquivalence} on the fibrant objects. The localization $Q(f)$ is by definition in $Ho_J^{fib}$ and for all objects $T \in Ho_J^{fib}$ the morphism $Ho_J^{fib}(Q(f), T)$ is an [[isomorphism]]. By the [[Yoneda lemma]], therefore, $Q(f)$ itself is an isomorphism in $Ho_J^{fib}$, hence also in $Ho_J$, hence is a weak equivalence.
 
 =--
 
-+-- {: .num_lemma }
++-- {: .num_lemma #NaiveFibAndDualStrongDefRetractIsAcyclFib}
 ###### Lemma
 
-If a morphism has the [[right lifting property]] against anodyne extensions, then it is an acyclic fibration precisely if it is the dual of a [[strong deformation retract]].
+If a morphism has the [[right lifting property]] against the anodyne extensions, then it is an acyclic fibration precisely if it is a dual [[strong deformation retract]].
 
 =--
 
@@ -1185,11 +1199,47 @@ If a morphism has the [[right lifting property]] against anodyne extensions, the
 +-- {: .proof}
 ###### Proof
 
-That the former implies the latter was the statement of lemma \ref{SectionsOfAcyclicFibrationsAreDefRetracts}. Conversely...
+That the former implies the latter was the statement of lemma \ref{SectionsOfAcyclicFibrationsAreDefRetracts}. Conversely, let $p$ be a dual strong deformation retract, meaning that there is $s : Y \to X$ with $p \circ s = id$,  as well as a morphism $k : I \otimes X \to X$ exhibiting a $J$-homotopy $id \Rightarrow s \circ p$. This being _strong_ means that $p \circ k = p \circ \sigma_X$. 
+
+We need to show that this implies for 
+
+$$
+  \array{
+    K &\stackrel{a}{\to}& X
+    \\
+    \downarrow^{\mathrlap{i}} && \downarrow^{\mathrlap{p}}
+    \\
+    L &\stackrel{b}{\to}& Y
+  }
+$$
+
+a commuting diagram with $i$ a monomorphism, there is a lift. To this end, observe that the given structures induce a morphism
+
+$$
+  (I \otimes K) \cup (\{1\} \otimes L) \to X
+$$
+
+such that 
+
+$$
+  \array{
+    (I \otimes K) \cup (\{1\} \otimes L) 
+    &&\stackrel{(k \circ (I \otimes a), s \circ b)}{\to}&&
+    X
+    \\
+    \downarrow^{\mathrlap{j}} && && \downarrow^{\mathrlap{p}}
+    \\
+    I \otimes L &\stackrel{\sigma_L}{\to}& L
+    &\stackrel{b}{\to}& Y
+  }
+  \,.
+$$
+
+By the second clause of def. \ref{AnodyneExtensions} the morphism on the left is an anodyne extension, and so this diagram admits a lift $h : I \otimes L \to X$. One see that $l := h \circ \partial^0_L$ is a lift of the original square above.
 
 =--
 
-+-- {: .num_lemma }
++-- {: .num_lemma #NaiveFibIntoFibIsWeakEquivIffItIsAcyclicFib}
 ###### Lemma
 
 A morphism into a fibrant object with [[right lifting property]] against anodyne extensions is a weak equivalence precisely if it is an acyclic fibration.
@@ -1201,7 +1251,34 @@ A morphism into a fibrant object with [[right lifting property]] against anodyne
 +-- {: .proof}
 ###### Proof
 
-That's a little bit of work...
+We already know from prop. \ref{AcyclicFibrationsAreAcyclicFibrations} that acyclic fibrations are weak equivalences.
+
+So let $Y$ be fibrant and let $p : X \to Y$ be a weak equivalence that has rlp against anodyne extensions. We need to show that $p$ is an acyclic fibration. By lemma \ref{NaiveFibAndDualStrongDefRetractIsAcyclFib} it is sufficient to show that it is a dual strong deformation retract.
+
+
+By lemma \ref{WeakEquivalencesBetweenFibrantObjects} $p$ is also a $J$-homotopy equivalence. By lemma \ref{ElementaryJHomotopyIntoFibIsEquivRel} this is exhibited by an elementary $J$-homotopy $k : I \otimes Y \to Y$, which in particular gives a commuting diagram
+
+$$
+  \array{
+    Y &\stackrel{t}{\to}& X
+    \\
+    \downarrow^{\mathrlap{\partial^1_Y}} && \downarrow^{\mathrlap{p}}
+    \\
+    I \otimes Y &\stackrel{k}{\to}& Y
+  }
+  \,,
+$$
+
+from which we obtain a lift $k' : I \otimes Y \to X$. Set then 
+
+$$
+  s := k' \circ \partial^0_Y
+  \,.
+$$
+
+One finds then $p \circ s = id_Y$.
+
+Next ...
 
 =--
 
@@ -1217,7 +1294,23 @@ A cofibration into a fibrant object is a weak equivalence precisely if it is an 
 +-- {: .proof}
 ###### Proof
 
-(...)
+By lemma \ref{EveryAnodyneExtensionIsWeakEquivalence} we already know that every anodyne extension is a weak equivalence. So we need to show that a cofibration $i : A \to T$ into a fibrant object $T$ which is a weak equivalence is also an anodyne extension. By prop. \ref{FactorAnodyneFollowedByRLPAnodyne} we may factor this as $i = q \circ j$, with $j$ an anodyne extension and $Q$ having RLP against anodyne extensions. Since $j$ is a weak equivalence, by 2-out-of-3 so is $q$. By lemma \ref{NaiveFibIntoFibIsWeakEquivIffItIsAcyclicFib} $q$ is an acyclic fibration.
+
+Therefore we have a lift $s$ in 
+
+$$
+  \array{
+     &\stackrel{id}{\to}&
+    \\
+    \downarrow^{\mathrlap{q}}
+    &\nearrow_s&
+    \downarrow^{\mathrlap{i}}
+    \\
+    &\stackrel{j}{\to}&
+  }
+$$
+
+and this exhibits $i$ as a [[retract]] of $j$. Hence with $j$ also $i$ is an anodyne extension. 
 
 =--
 
@@ -1302,6 +1395,12 @@ There is a functorial factorization of every morphism into an acyclic cofibratio
 
 ([Cisinski 06, cor.  1.3.43](#Cisinski06)).
 
++-- {: .proof}
+###### Proof
+
+By prop. \ref{GeneratingAcyclicCofibrationsExist} and prop. \ref{PresheavesAreCompact} we may apply the [[small object argument]].
+
+=--
 
 #### Completeness
  {#Completeness} 
