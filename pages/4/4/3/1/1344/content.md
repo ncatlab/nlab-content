@@ -1,12 +1,12 @@
-#Definition#
+# Categories of simplices
+* table of contents
+{: toc}
+
+## Definition
 
 The **category of simplices** of a [[simplicial set]] $X_\bullet : \Delta^{op} \to Set$ is the [[category of elements]] of the [[presheaf]] $X_\bullet$. 
 
-#Remarks#
-
-We spell this out in detail:
-
-The category of simplices is the [[comma category]] $(Y,X_\bullet)$, where $Y$ is the [[Yoneda embedding]], hence the functor $Y : [n] \to \Delta^n$ 
+In more detail, the category of simplices is the [[comma category]] $(Y\downarrow X_\bullet)$, where $Y$ is the [[Yoneda embedding]], i.e. the functor $Y : [n] \to \Delta^n$.
 
 The [[object]]s of the category of simplices are therefore morphisms $c : \Delta^n \to X_\bullet$ from the standard simplicial [[simplex]] $\Delta$ to $X_\bullet$, hence are $n$-cells of $X_\bullet$, while morphisms $c \to c'$ are morphisms $f : \Delta^n \to \Delta^{n'}$ in the [[simplex category]] $\Delta$ such that
 
@@ -20,3 +20,34 @@ $$
   }
   \,.
 $$
+
+## Properties
+
+* The category of simplices is a [[Reedy category]].
+
+## Applications
+
+By the [[co-Yoneda lemma]], every simplicial set is isomorphic to the colimit of the standard simplices over its category of simplices:
+$$ X \cong colim_{(Y\downarrow X_\bullet)} \Delta^\bullet $$
+Therefore, a colimit-preserving [[functor]] $F\colon SSet \to C$ is uniquely determined by its action on the standard simplices:
+$$ F(X) \cong colim_{(Y\downarrow X_\bullet)} F(\Delta^\bullet). $$
+Examples abound:
+
+* [[geometric realization]] of simplicial sets
+* [[subdivision]] of simplicial sets
+* ...
+
+## Categories of nondegenerate simplices
+
+An $n$-simplex $x\in X_n$ is said to be *nondegenerate* if it is not in the image of any degeneracy map.  When $x$ is regarded, via the Yoneda lemma, as a morphism $\Delta^n \to X$, this means that this morphism is a [[monomorphism]] of simplicial sets.
+
+Therefore, the full subcategory $(Y\downarrow X_\bullet)_{nondeg}\hookrightarrow (Y\downarrow X_\bullet)$ on the nondegenerate simplices consists of the monomorphisms $\Delta^n \hookrightarrow X$.  Note that the morphisms in this subcategory are only the coface maps.
+
+Now the [[presheaf topos]] $SSet$ has [[image]] factorization, and the image of a map $x\colon \Delta^n \to X$ is the map $\Delta^k \to X$ that represents the unique nondegenerate simplex of which $x$ is a degeneracy.  It follows that this factorization is a [[left adjoint]] to the inclusion $(Y\downarrow X_\bullet)_{nondeg}\hookrightarrow (Y\downarrow X_\bullet)$, so that $(Y\downarrow X_\bullet)_{nondeg}$ is a [[reflective subcategory]].
+
+In particular, the inclusion $(Y\downarrow X_\bullet)_{nondeg}\hookrightarrow (Y\downarrow X_\bullet)$ is a [[final functor]].  Thus, the above colimits that compute cocontinuous functors on $SSet$ work equally well using only the category of nondegenerate simplices.
+
+
+[[!redirects categories of simplices]]
+[[!redirects category of nondegenerate simplices]]
+[[!redirects categories of nondegenerate simplices]]
