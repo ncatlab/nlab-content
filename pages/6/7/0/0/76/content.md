@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 ## Idea ##
