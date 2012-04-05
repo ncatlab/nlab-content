@@ -1278,6 +1278,8 @@ between the projective [[model structure on functors]] $[C^{op}, Ch_\bullet^+_{p
 
 ## Related concepts
 
+* [[local fibration]]
+
 * **model structure on simplicial presheaves**
 
 * [[model structure on simplicial sheaves]]
@@ -1300,6 +1302,9 @@ Detailed discussion of the injective model structures on simplicial presheaves i
 
 * [[Rick Jardine]], _Boolean localization, in practice_ ([web](http://www.math.uni-bielefeld.de/documenta/vol-01/13.html))
   {#Jardine96}
+
+* [[Rick Jardine]], _Local homotopy theory_ (2011) ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/book.pdf))
+
 
 The projective model structure is discussed in
 
