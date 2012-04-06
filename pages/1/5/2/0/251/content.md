@@ -90,7 +90,7 @@ Luckily, every pseudo double category is equivalent to a double category of the 
 
 ### Double bicategories
 
-One way to define a double category which is "weak in both directions" is a [[double bicategory]].   Double bicategories were defined in Dominic Verity's thesis, which unfortunately is unpublished and not available in electronic form.  However, the definition can be found in Jeffrey Morton's paper [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
+One way to define a double category which is "weak in both directions" is a [[double bicategory]].  Double bicategories were defined in [[Dominic Verity]]'s thesis. The definition can also be found in Jeffrey Morton's paper [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
 
 The definition of double bicategory takes as given two ordinary [[bicategories]], representing the vertical and horizontal bicategories, together with a set of squares which is "acted on" by both of these.  In the basic definition, there is no requirement that the 2-cells in the vertical (resp. horizontal) bicategory be exactly those squares whose vertical (resp. horizontal) 1-cell boundaries are identities, but such an axiom can easily be added.
 
