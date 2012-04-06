@@ -1,15 +1,17 @@
 
 +-- {: .standout}
-Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don\'t worry about messing things up.
+Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and don\'t worry about messing things up.
 =--
 
 ***
 
 [[vanilla.print.css:file]]
+[[MAXIMISED.vanilla.print.css:file]]
+
+$X^\sharp$ $X^\flat$ $X^\natural$
 
 ***
 
-$X^\sharp$ $X^\flat$ $X^\natural$
 
 category: meta
 
