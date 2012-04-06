@@ -3,7 +3,9 @@
 
 * [[weak factorization system|weak]], [[algebraic weak factorization system|algebraic weak]]
 
-* [[orthogonal factorization system|orthogonal]], [[enriched factorization system|enriched]]
+* [[orthogonal factorization system|orthogonal]]
+
+* [[enriched factorization system|enriched]]
 
 * [[reflective factorization system|reflective]], [[stable factorization system|stable]]
 
