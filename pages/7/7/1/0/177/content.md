@@ -1,5 +1,5 @@
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -9,13 +9,16 @@ The term _directed graph_ is used in both [[graph theory]] and [[category theory
 
 In [[graph theory]], _directed graph_ or _digraph_ usually means a [[simple directed graph]].  In [[category theory]], _directed graph_ or _digraph_ usually means a [[quiver]], which may have multiple edges and loops.
 
+
 ## Related concepts
 
 * [[graph]]
 
 * **directed graph**
 
-  * [[directed n-graph]]
+  * [[quiver]]
+
+  * [[n-quiver]]
 
 * [[ribbon graph]]
 
@@ -24,7 +27,5 @@ In [[graph theory]], _directed graph_ or _digraph_ usually means a [[simple dire
 [[!redirects directed graphs]]
 [[!redirects digraph]]
 [[!redirects digraphs]]
-[[!redirects directed pseudograph]]
-[[!redirects directed pseudographs]]
 [[!redirects Directed graph]]
 [[!redirects Directed graphs]]
