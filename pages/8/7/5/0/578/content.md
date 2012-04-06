@@ -1,6 +1,21 @@
-# Definition #
 
-Recall that an [[orthogonal factorization system|(orthogonal) factorization system]] in a [[category]] $C$ consists of two classes of maps $(E,M)$ such that every morphism in $C$ factors as an $E$-morphism followed by an $M$-morphism, and we have $e\perp m$ for any $e\in E$ and $m\in M$ (see [[orthogonality]]).
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition 
+
+An ([[orthogonal factorization system|orthogonal]]) [[factorization system]] in a [[category]] $C$ consists of two classes of [[morphisms]] $(E,M)$ such that every morphism in $C$ factors as an $E$-morphism followed by an $M$-morphism, and we have $e$ satisfies the [[left lifting property]] --uniquely for the orthogonal case, $e\perp m$, see [[orthogonality]] --  for any $e\in E$ and $m\in M$ .
 
 To [[enriched category|enrich]] this, we should first consider enriched orthogonality.  The statement $e\perp m$ for maps $e:A\to B$ and $m:X\to Y$ can be rephrased by saying that the square
 $$
@@ -8,7 +23,17 @@ $$
   \downarrow && \downarrow \\
   C(B,Y) & \to & C(A,Y)}
 $$
-is a [[pullback]] in [[Set]].  It is then clear that if $C$ is enriched over some [[monoidal category]] $V$, to say that $e\perp m$ in an enriched sense, we should instead require this square to be a pullback of enriched [[hom-objects]] in $V$.  Note, though, that $e$ and $m$ are still maps in the underlying ordinary category $C_0$ of $C$.  Likewise, the factorization property still only makes sense for maps in $C_0$.
+is a [[pullback]] in [[Set]].  
+
+More generally, the statement that there exists at least one lift is to say that the canonical morphism
+
+$$
+  C(B,X) \to C(A,X) \prod_{C(A,Y)} C(B,Y)
+$$
+
+into the [[pullback]] is a [[split epimorphism]].
+
+It is then clear that if $C$ is enriched over some [[monoidal category]] $V$, to say that $e\perp m$ in an enriched sense, we should instead require this square to be a pullback of enriched [[hom-objects]] in $V$.  Note, though, that $e$ and $m$ are still maps in the underlying ordinary category $C_0$ of $C$.  Likewise, the factorization property still only makes sense for maps in $C_0$.
 
 Therefore, we define an **enriched (orthogonal) factorization system** on an enriched category $C$ to consist of two classes of maps $(E,M)$ in $C_0$ such that
 
@@ -18,7 +43,7 @@ Therefore, we define an **enriched (orthogonal) factorization system** on an enr
 By the definition of $C_0$, enriched orthogonality implies ordinary orthogonality.  Therefore, an enriched factorization system on $C$ induces an ordinary factorization system on $C_0$.  Conversely, if $C$ has [[power]]s that preserve the maps in $M$, or [[copower]]s that preserve the maps in $E$, then unenriched orthogonality in $C_0$ implies enriched orthogonality by a Yoneda lemma argument.
 
 
-# Functoriality #
+## Functoriality 
 
 Moreover, the factorization functor can be made into an enriched functor in the following way.  There is a $V$-category $C^{\mathbf{2}}$ whose objects are morphisms in $C_0$ and whose hom-objects are defined by, for $f_1:X_1\to Y_1$ and $f_2:X_2\to Y_2$, a pullback
 $$
@@ -54,3 +79,12 @@ $$
 inducing a map $C^{\mathbf{2}}(f_1,f_2) \to C(Y_1,Y_2)$.  It is then straightforward to construct the rest of the functor.
 
 This argument, as it depends crucially on the universality of the pullback and hence the uniqueness part of orthogonality, fails for [[weak factorization system]]s.  Although they can be made functorial in many cases, rarely can their functoriality be made enriched (as far as is known).
+
+## References
+ {#References}
+
+Enriched lifting and enriched factorization are discussed around from page 133 on (section "April 3") in 
+
+* [[Emily Riehl]], _Categorical homotopy theory_ ([pdf](http://www.math.harvard.edu/~eriehl/266x/lectures.pdf))
+
+[[!redirects enriched factorization systems]]
