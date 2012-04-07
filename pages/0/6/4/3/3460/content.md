@@ -22,9 +22,9 @@ m : & A^e &\to & A  \\
      & a \otimes b & \mapsto & a b 
 }
 $$
-has a left inverse, that is a $A^e$-module morphism
+has a right inverse, that is a $A^e$-module morphism
 $$  f: A \to  A^e  $$
-with $f m = 1_{A^e}$.
+with $m f = 1_A$.
 
 It is easy to see that the third and fourth definitions are equivalent.  We have an epimorphism of $A^e$-modules
 $$  A^e \stackrel{m}{\longrightarrow} A \to 0 $$
