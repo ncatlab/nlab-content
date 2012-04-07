@@ -175,7 +175,7 @@ Above we defined homotopy (co)limits in general. There are various more specific
 
 ### Ordinary (co)limits over resolved diagrams
 
-The direct prescription for computing the value of a rigt or left [[derived functor]] between [[model categories]] is by evaluating the original functor on a fibrant or cofibrant [[resolution]] of the given object.
+The direct prescription for computing the value of a right or left [[derived functor]] between [[model categories]] is by evaluating the original functor on a fibrant or cofibrant [[resolution]] of the given object.
 
 For the derived functors of limit and colimit
 
