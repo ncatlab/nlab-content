@@ -134,7 +134,7 @@ Let $\otimes : C \times D \to E$ be a Quillen functor. Let
   $[S,C]$ and $[S^{op},C]$ be equipped with the corresponding[[Reedy model structure]].
   
 * _or_ assume that $C$ and $D$ are [[combinatorial model category|combinatorial model categories]]
-  and let $[S,C]$ and $[S^{op},A]$ be equipped, respective with the projective and
+  and let $[S,C]$ and $[S^{op},A]$ be equipped, respectively with the projective and
   the injective globel [[global model structure on functors|model structure on functor categories]].
   
 Then the [[coend]] [[functor]]
