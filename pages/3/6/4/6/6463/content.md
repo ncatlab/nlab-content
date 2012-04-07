@@ -198,8 +198,8 @@ is the composite
 $$
   \bar W 
    : 
-  sGrpd
-   \stackrel{B}{\to}
+  sGrp
+   \stackrel{\mathbf{B}}{\to}
   sGrpd
    \stackrel{N}{\to}
   ssSet
