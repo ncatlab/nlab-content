@@ -374,9 +374,9 @@ The total simplicial set functor goes back to
 
 The diagonal, total d&#233;calage and total simplicial set constructions are discussed in
 
-* Antonio Cegarra, Josu&#233; Remedios, _The relationship between the diagonal and the bar constructions on a bisimplicial set_, Topology and its applications, volume 153 (1)  (2005) ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf))
+* [[Antonio Cegarra]], Josu&#233; Remedios, _The relationship between the diagonal and the bar constructions on a bisimplicial set_, Topology and its applications, volume 153 (1)  (2005) ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf))
 
-* Antonio Cegarra, Josu&#233; Remedios, _The behaviour of the $\bar W$-construction on the homotopy theory of bisimplicial sets_, Manusripta Mathematica, volume 124 (4) Springer (2007)
+* [[Antonio Cegarra]], Josu&#233; Remedios, _The behaviour of the $\bar W$-construction on the homotopy theory of bisimplicial sets_, Manusripta Mathematica, volume 124 (4) Springer (2007)
  {#CegarraRemedios}
 
 * [[Danny Stevenson]], _D&#233;calage and Kan's simplicial loop group functor_ ([arXiv:1112.0474](http://arxiv.org/abs/1112.0474))
@@ -395,7 +395,7 @@ Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([ProjEuclid](http:/
 
 Discussion of respect of $\bar W$ for fibrant objects is discussed in fact 2.8 of 
 
-* Antonio M. Cegarra, Benjam&#237;n A. Heredia, Josu&#233; Remedios, _Double groupoids and homotopy 2-types_ ([arXiv:1003.3820](http://arxiv.org/abs/1003.3820))
+* [[Antonio M. Cegarra]], Benjam&#237;n A. Heredia, Josu&#233; Remedios, _Double groupoids and homotopy 2-types_ ([arXiv:1003.3820](http://arxiv.org/abs/1003.3820))
 
 [[!redirects bisimplicial sets]]
 
