@@ -72,7 +72,7 @@ When the objects of the geometry $\mathcal{G}$ are thought of as test spaces (af
 
 
 +-- {: .un_defn}
-###### Definition (admissibility structure, [[Structured Spaces|StSp]] )
+###### Definition (admissibility structure, [[Structured Spaces|StSp]] 1.2.1)
 
 An **admissibility structure** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[Grothendieck topology]] on $\mathcal{G}$ that is generated from its intersection with a subcategory $\mathcal{G}^{ad} \subset \mathcal{G}$ whose morphisms -- called the  **admissible morphisms** have the following properties
 
@@ -120,7 +120,7 @@ A **geometry (for $(\infty,1)$-toposes)** is
   
   * is [[idempotent complete category|idempotent complete]].
 
-* equipped with a _homotopical topology_ .
+* equipped with an admissibility structure.
 
 =--
 
