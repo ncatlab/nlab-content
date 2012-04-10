@@ -7,7 +7,9 @@
 
 An **exactness property** of a [[category]] asserts the existence of certain [[limits]] and [[colimits]], and moreover that the limits and colimits interact in a certain way.  Frequently, this includes stability of the colimits under [[pullback]], and also a condition expressing that some of the input data can be recovered from the colimit.
 
-Many types of exactness can be expressed in terms of "colimits in the left-exact world".
+Many types of exactness can be expressed in terms of "colimits in the left-exact world". 
+
+Exactness properties of a functor refer to preservation of limits or colimits of certain kind, existence of adjoints and possibly their exactness properties.
 
 ## Examples
 
