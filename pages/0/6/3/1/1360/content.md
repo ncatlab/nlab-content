@@ -92,7 +92,7 @@ Let $\mathcal{C}$ now be a simplicial model category.
 If $A \in \mathcal{C}$ is fibrant, and $X \hookrightarrow Y$ is a cofibration in [[sSet]], then 
 
 $$
-  X^Y \to X^A
+  A^Y \to A^X
 $$
 
 is a fibration in $\mathcal{C}$.
