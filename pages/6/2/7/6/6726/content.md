@@ -8,7 +8,9 @@ Given the partition $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$, the cor
 $$
 s_\lambda = det (x_i^{\lambda_j})
 $$
-
++-- {: .standout}
+This definition is wrong. This is some generalization of the van der Monde determinant, not the Schur function. I'll fix it when I have time. Maarten Bergvelt.
+=--
 ## Generalizations via Schur functors
 
 [[Schur functors]] may be viewed as a categorification of Schur functions. In fact, the Schur functors make sense in more general symmetric monoidal categories than vector spaces. It is a theorem in the case of vector space that the trace of 
