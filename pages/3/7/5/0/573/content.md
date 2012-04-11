@@ -118,6 +118,10 @@ Axiomatic characterization is in
 
 * [[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([pdf](http://arxiv.org/abs/1112.0040), [unusual slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
 
+Comparison of models is in 
+
+* [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories_ ([arXiv:1204.2013](http://arxiv.org/abs/1204.2013))
+
 [[!redirects (infinity,r)-category]]
 [[!redirects (infinity,k)-category]]
 [[!redirects (infinity,r)-categories]]
