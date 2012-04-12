@@ -48,4 +48,14 @@ A Segal space for which $X_0$ is a [[discrete space]] is called a _[[Segal categ
 
 * [[complete Segal space]], [[model structure for complete Segal spaces]]
 
+
+## References
+
+See generally the references at _[[complete Segal space]]_.
+
+The _invertible_ case of Segal spaces, hence models for [[groupoid objects in an (infinity,1)-category]] are discussed in section 3 of 
+
+* [[Julia Bergner]], _Adding inverses to diagrams II: Invertible homotopy theories are spaces_, Homology, Homotopy and Applications, Vol. 10 (2008), No. 2, pp.175-193. ([web](http://www.intlpress.com/hha/v10/n2/a9/), [arXiv:0710.2254](http://arxiv.org/abs/0710.2254))
+
+
 [[!redirects Segal spaces]]
