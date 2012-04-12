@@ -72,7 +72,7 @@ One goal of the $n$Lab is to help make information widely available and usefully
 * Conversely, any content contributed to $n$Lab is publicly available and you should be aware that others may use your contributions (whatever you decide to do with their content elsewhere) or indeed edit them. In the first case you trust that users will cite your contributions properly, in the second that they will respect and only improve on them. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
 
 Usually this works well. If there is need for discussion, the 
-[nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) is the forum to turn to. If se[rio](http://obtenir-rio.info/)us problems arise, the [steering committee](#SteeringCommitte) might intervene. 
+[nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
 
 
 ## Software requirements
