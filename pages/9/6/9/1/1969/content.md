@@ -29,7 +29,7 @@
 
 ## Idea 
 
-There are several ways to _model_ an [[(∞,1)-category]] $\mathbf{C}$ by an ordinary [[category]] $C$ equipped with some extra structure: for instance $C$ may be a [[category with weak equivalences]] or a [[model category]]. In all of these models, given two objects $X, Y \in C$, there is a way to construct an [[∞-groupoid]] $\mathbf{C}(X,Y)$ that is the correct [[hom-object]] of the [[(∞,1)-category]] $\mathbf{C}$ -- this is the _$(\infty,1)$-categorical hom-space_  modeled by $C$, often called the _derived hom space_  and then denoted $\mathbf{R}Hom(X,Y)$.
+There are several ways to _model_ an [[(∞,1)-category]] $\mathbf{C}$ by an ordinary [[category]] $C$ equipped with some extra structure: for instance $C$ may be a [[category with weak equivalences]] or a [[model category]]. In all of these models, given two objects $X, Y \in C$, there is a way to construct an [[∞-groupoid]] $\mathbf{C}(X,Y)$ that is the correct [[hom-object]] of the [[(∞,1)-category]] $\mathbf{C}$ -- this is the _$(\infty,1)$-categorical hom-space_  modeled by $C$, often called the _derived hom space_  and then denoted $\mathbf{R}Hom(X,Y)$, or called the _homotopy function complex_.
 
 There are various equivalent explicit expressions for $\mathbf{R}Hom$. These are described and compared in the following.
 
@@ -373,3 +373,6 @@ and in sections 16, 17 of
 [[!redirects hom infinity-groupoid]]
 [[!redirects hom (∞,0)-category]]
 [[!redirects hom (infinity,0)-category]]
+
+[[!redirects homotopy function complex]]
+[[!redirects homotopy function complexes]]
