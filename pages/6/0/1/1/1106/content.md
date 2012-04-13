@@ -11,7 +11,7 @@
 
 This entry is about the book
 
-* [[Sauders MacLane]], [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_.
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_.
 
 For more information on "sheaves in geometry and logic" see for instance
 
