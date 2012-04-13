@@ -1,18 +1,23 @@
 ## Idea
 
-The ring of symmetric polynomials in $n$ variables has a linear basis $\{s_\lambda\}$ of __Schur polynomials__ indexed by [[partition]]s  $\lambda=\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$ in $n$ parts. The Schur polynomials  are precisely the irreducible characters of finite dimensional polynomial representations of $GL_n$. 
+The ring of symmetric polynomials in $n$ variables has a linear basis $\{s_\lambda\}$ of __Schur polynomials__ indexed by [[partition]]s  $\lambda=\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$ in $n$ parts. 
 
+The Schur polynomials  are precisely the irreducible characters of finite dimensional polynomial representations of $GL_n$. Also, the character $\chi_{\lambda}$ of $V_\lambda$, the irreducible representation of $S_k$ attached to $\lambda$ (for $k$ the size $|\lambda|$ of the partition) maps to the Schur polynomial under the character map
+$ch$ from virtual characters to symmetric polynomials. This correspondance between representations of the symmetric groups and the general linear groups is called [[Schur Weyl Duality]] 
 ## Definition
 
-Given the partition $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$, the corresponding __Schur function__ is defined as follows. First define the $n\times n$-determinant (for any partition $\alpha$ in $n$ parts)
+Given the partition $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$, the corresponding __Schur polynomial__ is defined as follows. First define the $n\times n$-determinant (for any partition $\alpha$ in $n$ parts)
 $$
 a_\alpha = det (x_i^{\alpha_j}).
 $$
 Let $\delta=(n-1, n-2, \dots, 1, 0)$. Then the Schur polynomial
  attached to $\lambda$ is quotient
 $$
-s_{\lambda}=a_{\lambda+\delta}/a_{\delta}.
+s_{\lambda}(x_1,x_2,\dots,x_n)=a_{\lambda+\delta}/a_{\delta}.
 $$
+As is usual in the theory of symmetric functions one can also deal with formal series in infinitely many variables. To make this precise one uses an inverse limit (see Macdonald) and obtains a __Schur function__ $s_{\lambda}$ for each partition, depending on countably many variables $x_1, x_2,\dots,x_n,x_{n+1}, \dots$.
+
+
 
 ## Generalizations via Schur functors
 
