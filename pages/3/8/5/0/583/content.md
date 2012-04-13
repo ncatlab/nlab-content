@@ -27,7 +27,7 @@ One of the most important observations of [[category theory]] is that large part
 
 However, it turns out that if we assume some additional structure on the ambient category, then much more of mathematics can be internalized, potentially including [[field]]s, [[local ring]]s, [[finite set]]s, [[topological space]]s, even the field of [[real number]]s.  The idea is to exploit the fact that all mathematics can be written in the language of [[logic]], and seek a way to internalize logic in a category with sufficient structure.
 
-The basic ideas of the internal logic induced by a given a [[category]] $C$ is this:
+The basic ideas of the internal logic induced by a given [[category]] $C$ is this:
 
 * the [[object]]s $A$ of $C$ are regarded as collections of things of a given [[type]] $A$;
 
