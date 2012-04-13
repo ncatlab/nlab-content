@@ -40,7 +40,7 @@ The category of bundles over a given object $B$ is the [[over category]] $\mathc
 
 * Bundles tend to have [[sheaf|sheaves]] of local [[section]]s.
 
-* In [[physics]], [[gauge field]]s may be describe in terms of [[connection on a bundle|bundles with connection]].
+* In [[physics]], [[gauge field]]s may be described in terms of [[connection on a bundle|bundles with connection]].
 
 
 ## References
