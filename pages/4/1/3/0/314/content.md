@@ -149,7 +149,7 @@ By the above this can also be written as
 
 $$
   (\hat lim F)(c) = 
-  Hom_{[D^{op}, Set]}(pt , Hom_{[C^{op}, Set]}(c,F(-))
+  Hom_{[D^{op}, Set]}(pt , Hom_C(c,F(-))
 $$
 or, suppressing the subscripts for readability:
 $$
@@ -190,8 +190,8 @@ $$
 is, if it exists, the
 object representing the presheaf
 $$
- d \mapsto
-    Hom_{[D^{op}, Set]}(W , Hom_{[C^{op}, Set]}(c,F(-)))
+ c \mapsto
+    Hom_{[D^{op}, Set]}(W , Hom_C(c,F(-)))
   \,,
 $$
 
