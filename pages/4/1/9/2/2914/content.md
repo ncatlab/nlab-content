@@ -13,7 +13,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition ##
@@ -31,7 +31,6 @@ For $C$ a [[model category]] and $X \in C$ an [[object]], the [[over category]] 
 +-- {: .num_prop #ModelStructureInheritsGoodProperties}
 ###### Proposition
 
-
 If $C$ is
 
 * a [[cofibrantly generated model category]]
@@ -46,7 +45,7 @@ then so are $C/X$ and $X/C$.
 
 The proofs are in ([OvMod](#OvMod)).
 
-+-- {: .num_cor #ModelStructureInheritsCombinatorial}
++-- {: .num_prop #ModelStructureInheritsCombinatorial}
 ###### Proposition
 
 If $C$ is a [[combinatorial model category]], then so is $C/X$.
