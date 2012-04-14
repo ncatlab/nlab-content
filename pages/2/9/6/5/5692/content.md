@@ -15,7 +15,14 @@
 
 ## Idea
 
-The _model structure on reduced simplicial sets_ is a [[presentable (infinity,1)-category|presentation]] of the full [[sub-(∞,1)-category]] of [[∞Grpd]] $\simeq$ [[Top]] on those [[∞-groupoid]]s that are [[connected]].
+
+The _model structure on [[reduced simplicial sets]]_ is a [[presentable (infinity,1)-category|presentation]] of the full [[sub-(∞,1)-category]] 
+
+[[∞Grpd]]${}^{*/}_{\geq 1} \hookrightarrow$ [[∞Grpd]]${}^{*/}$ $\simeq$ [[Top]]${}^{*/}$ 
+
+of [[pointed object|pointed]] [[∞-groupoids]] on those that are [[connected]]. 
+
+By the [[looping and delooping]]-equivalence, this is [[equivalence of (∞,1)-categories|equivalent]] to the [[(∞,1)-category]] of [[∞-groups]] and this equivalence is presented by a [[Quillen equivalence]] to the [[model structure on simplicial groups]].
 
 
 ## Definition
@@ -24,7 +31,7 @@ The _model structure on reduced simplicial sets_ is a [[presentable (infinity,1)
 +-- {: .num_def }
 ###### Definition
 
-A _reduced simplicial set_ is a [[simplicial set]] $S$ with a single vertex:
+A _[[reduced simplicial set]]_ is a [[simplicial set]] $S$ with a single vertex:
 
 $$
   S_0 = *
@@ -93,11 +100,11 @@ The first statment appears as ([GoerssJardine, ch. V, lemma 6.6.](#GoerssJardine
 
 * **model structure on reduced simplicial sets**
 
-* [[groupoid object in an (∞,1)-category]]
+* [[groupoid object in an (∞,1)-category]], [[∞-group]], [[looping and delooping]]
 
 ## References
 
 A standard textbook reference is chapter V of
 
-* [[Paul Goerss]], Jardine, _Simplicial homotopy theory_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
+* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
 {#GoerssJardine}
