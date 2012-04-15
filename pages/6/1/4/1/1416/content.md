@@ -34,14 +34,14 @@ A functor $C\to Set$ is **flat** if the opposite of its its [[category of elemen
 
 For disambiguation with the later notions, we may refer to such a functor as being **$Set$-valued flat**.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 When $C$ is [[small category|small]], a functor $F\colon C\to Set$ is $Set$-valued flat if and only if its [[Yoneda extension]] $[C^{op},Set] \to Set$ preserves finite limits.
 =--
 
 This partially explains the terminology "flat", since the Yoneda extension is a sort of [[tensor product of functors|tensoring with]] $F$, and a [[flat module]] is one such that tensoring with it preserves finite limits.
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 If $F\colon C\to Set$ is flat, then it preserves all finite limits that exist in $C$.  Conversely, if $C$ has finite limits and $F$ preserves them, then it is flat.
 =--
@@ -58,17 +58,17 @@ Since $(e/F)$ is equivalent to the category of elements of the composite $C \xri
 
 Representably flat functors are sometimes referred to simply as "[[exact functor|left exact functors]]".  On the nLab we generally reserve the latter terminology for the case when $C$ has finite limits.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 A functor $F \colon C \to E$ between small categories is representably flat if and only if the operation $Lan_F\colon [C^{op}, Set] \to [E^{op},Set]$ of [[left Kan extension]] preserves finite limits.
 =--
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 If $F\colon C\to E$ is representably flat, then it preserves all finite limits that exist in $C$.  Conversely, if $C$ has finite limits and $F$ preserves them, then it is representably flat.
 =--
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 If $C$ has finite limits, then a functor $C\to Set$ is representably flat if and only if it is Set-valued flat, if and only if it preserves finite limits.
 =--
@@ -92,12 +92,12 @@ For disambiguation, this notion of flatness may be called **internally flat** si
 
 Since the internal logic of $Set$ is just ordinary logic, a functor $C\to Set$ is internally flat just when it is Set-valued flat.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 When $C$ is [[small category|small]], a functor $F\colon C\to E$ is internally flat if and only if its [[Yoneda extension]] $[C^{op},Set] \to E$ preserves finite limits.
 =--
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 If $F\colon C\to E$ is internally flat, then it preserves all finite limits that exist in $C$.  Conversely, if $C$ has finite limits and $F$ preserves them, then it is internally flat.
 =--
@@ -120,12 +120,12 @@ For disambiguation, we may refer to this notion as being **covering-flat**.  Thi
 * More generally, if $E$ is a cocomplete topos with its canonical topology, then covering-flatness reduces to internal flatness.
 * On the other hand, if $E$ has a [[trivial topology]], then covering-flatness reduces to representable flatness.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 If $C$ is a small category and $E$ is a [[small-generated site]], then a functor $F \colon C \to E$ is covering-flat if and only if its extension $[C^{op}, Set] \to Sh(E)$ preserves finite limits.
 =--
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 If $F\colon C\to E$ is covering-flat, where $E$ has finite limits and all covering families in $E$ are [[extremal epimorphism|extremal-epic]], then $F$ preserves all finite limits that exist in $C$.  Conversely, if $C$ has finite limits and $F$ preserves them, then it is covering-flat.
 =--
@@ -137,7 +137,7 @@ If $F\colon C\to E$ is covering-flat, where $E$ has finite limits and all coveri
 
 We now prove the asserted propositions about the equivalence of flatness with finite-limit-preserving extensions to presheaf categories.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 When $C$ is [[small category|small]], a functor $F\colon C\to Set$ is Set-valued flat if and only if its [[Yoneda extension]] $[C^{op},Set] \to Set$ preserves finite limits.
 =--
@@ -146,7 +146,7 @@ When $C$ is [[small category|small]], a functor $F\colon C\to Set$ is Set-valued
 This is prop. 6.1.3 in ([Borceux](#Borceux)).
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 When $C$ and $E$ are [[small category|small]], a functor $F \colon C \to E$ is representably flat if and only if $Lan_F\colon [C^{op}, Set] \to [E^{op},Set]$ preserves finite limits.
 =--
@@ -159,7 +159,7 @@ where $(e/F)$ is the corresponding [[comma category]] and $(e/F)^{op} \to C^{op}
 Now, by definition $F$ being representably-flat means that $(e/F)^{op}$ is a [[filtered category]]. So this is a [[filtered colimit]]. By the discussion there, it is precisely the filtered colimits that commute with finite limits.
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 When $C$ is [[small category|small]] and $E$ is a cocomplete topos, a functor $F\colon C\to E$ is internally flat if and only if its [[Yoneda extension]] $[C^{op},Set] \to E$ preserves finite limits.
 =--
