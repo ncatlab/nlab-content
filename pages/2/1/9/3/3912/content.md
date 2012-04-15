@@ -26,7 +26,7 @@ $$
   \,.
 $$
 
-from the [[cohomology]] of $X$ to the cohomology of the [[Thom space]] $Th(V$, induced by multiplication with a [[Thom class]] $u \in H^n(Th(V))$.
+from the [[cohomology]] of $X$ to the cohomology of the [[Thom space]] $Th(V)$, induced by multiplication with a [[Thom class]] $u \in H^n(Th(V))$.
 
 We think of this from left to right as wedging with a generalized [[volume form]] on the fibers, and from right to left as performing [[fiber integration]].
 
