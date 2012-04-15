@@ -180,41 +180,101 @@ For $X$ and $A$ any two objects and $Q X $ and $P A$ a cofibrant and fibrant rep
 ### Simplicial Quillen equivalent models 
   {#SimpEquivMods}
 
-While some model categories do not admit an $sSet_{Quillen}$-enrichment, for large classes of model categories one can find a [[Quillen equivalence]] to a model cateory that does have an $sSet_{Quillen}$-enrichment.
+While many model categories do not admit an $sSet_{Quillen}$-enrichment, for large classes of model categories one can find a [[Quillen equivalence]] to a model cateory that does have an $sSet_{Quillen}$-enrichment.
+
+These are constructed as [[Bousfield localization of model categories|Bousfield localization]] of [[Reedy model structures]] on the [[category of simplicial objects]] in the given model category. 
 
 
-+-- {: .num_theorem #ReedyModelStructureOnSimplicialObjects}
-###### Theorem
++-- {: .num_defn #LocalizationOfStructureOnSimplicalObjects}
+###### Definition
 
-Every [[proper model category|left proper]] [[combinatorial model category]] is [[Quillen equivalence|Quillen equivalent]] to a simplicial model category.
+Let $C$ be a 
 
-More precisely: let $A$ be a 
+* [[left proper model category|left proper]]
 
-* [[proper model category|left proper]];
+* [[combinatorial model category]].
 
-* [[combinatorial model category|combinatorial]] or [[cellular model category|cellular]]
-
-model category. Then the [[category of simplicial objects]] $s A := [\Delta^{op}, A]$  in $A$ carries the structure of a simplicial model category, with respect to its canonical $sSet$-enrichment, where
-
-* the weak equivalences are those morphisms that induce weak equivalences in $A$ under [[homotopy colimit]] over $\Delta$;
-
-* the cofibrations are cofibrations in the [[Reedy model structure]] on $[\Delta^{op}, A]$.
-
-* the fibrant objects are precisely the Reedy-fibrant objects all whose face and degeneracy maps are weak equivalences in $A$.
-
-With respect to this model structure the functor $ev_0 : s A \to A$ that sends a simplicial object to its degree 0 piece exhibits a [[Quillen equivalence]]
+By the discussion at _[[cofibrantly generated model category]]_ in the section _[Presentation and generation](http://ncatlab.org/nlab/show/cofibrantly+generated+model+category#PresentationAndGeneration)_ there exists a [[small set]] $E \subset Obj(C)$ of objects that detect weak equivalences. For some such choice of $E$, let 
 
 $$
-  (ev_0 \dashv c_*) 
-   : A 
-    \stackrel{\overset{ev_0}{\leftarrow}}{\underset{c_*}{\leftarrow}} 
-   s A 
-  \,.
+  S 
+   := 
+  \{ \; e \cdot (\Delta[k] \to \Delta[l]) \; \}_{e \in E, ([k] \to [l]) \in \Delta}
+ \subset Mor([\Delta^{op}, sSet])
 $$
+
+where $e \cdot \Delta[k] : [n] \mapsto \coprod_{\Delta([n],[k])} e$.
+
+Write
+
+$$
+  [\Delta^{op}, C]_{proj, S}
+  \stackrel{\leftarrow}{\to}
+  [\Delta^{op}, C]_{proj}
+$$
+
+for the [[Bousfield localization of model categories|left Bousfield localization]] of the projective [[model structure on functors]] at this set $S$ of morphisms.
+
+Similarly, write 
+
+$$
+  [\Delta^{op}, C]_{Reedy, S}
+  \stackrel{\leftarrow}{\to}
+  [\Delta^{op}, C]_{Reedy}
+$$
+
+for the left Bousfield localization of the [[Reedy model structure]] at $S$.
+
 
 =--
 
-This is ([Dugger, theorem 1.2](#Dugger)). The simplicial enrichment is theorem 6.1 there. The characterization of the fibrant objects is theorem 5.7.
++-- {: .num_theorem }
+###### Theorem
+
+The model structures from def. \ref{LocalizationOfStructureOnSimplicalObjects} have the following properties.
+
+1. The weak equivalences in both are precisely those morphisms which become weak equivalences under [[homotopy colimit]] over $\Delta^{op}$.
+
+1. The [[colimit]]/constant [[adjoint functors]]
+
+   $$
+     (\lim_{\to} \dashv const)
+     :
+     C
+     \stackrel{\overset{\lim_\to}{\leftarrow}}{\underset{const}{\to}}
+     [\Delta^{op}, C]_{proj, S}
+   $$
+
+   constitute a [[Quillen equivalence]], the identity functors constitute a Quillen equivalence
+
+   $$
+     [\Delta^{op}, C]_{Reedy, S}
+     \stackrel{}{\underset{id}{\to}}
+     [\Delta^{op}, C]_{proj, S}
+     \,,
+   $$
+
+   and the constant/[[limit]] [[adjoint functors]] (since $\Delta^{op}$ has an [[initial object]] the limit is evaluation in degree 0) constitute a Quillen equivalence
+
+   $$
+     (const \dashv ev_0) 
+      : 
+     [\Delta^{op}, C]_{Reedy,S}
+      \stackrel{\overset{const}{\leftarrow}}{\underset{ev_0}{\to}}
+     C
+     \,;
+   $$
+
+1. The fibrant objects in either structure are precisely those objects that are fibrant in the corresponding unlocalized structures, and such that all the face and degeneracy maps are weak equivalences in $C$.
+
+1. The canonical [[sSet]]-[[enriched category|enrichment]]/[[tensoring]]/[[powering]] of the [[category of simplicial objects]] $[\Delta^{op}, C]$ makes $[\Delta^{op}, C]_{Reedy,S}$ (but _not_ in general $[\Delta^{op}, C]_{proj,S}$) into a simplicial model category.
+
+=--
+
+This is ([Dugger, theorem 5.2, theorem 5.7, theorem 6.1](#Dugger)). 
+
+So in articular every [[proper model category|left proper]] [[combinatorial model category]] is [[Quillen equivalence|Quillen equivalent]] to a simplicial model category.
+
 
 +-- {: .num_theorem #AUniquenessTheorem}
 ###### Theorem
@@ -232,7 +292,7 @@ structure on $s A = [\Delta^{op}, A]$ such that
 
 =--
 
-This is ([RezkSchwedeShipley, theorem 3.1](#RezkSchwedeShipley)).
+This is ([Rezk-Schwede-Shipley, theorem 3.1](#RezkSchwedeShipley)).
 
 +-- {: .proof}
 ###### Proof
@@ -252,21 +312,6 @@ In this the fibrant objects are precisely the simplicial objects that are degree
 
 =--
 
-+-- {: .num_prop }
-###### Proposition
-
-The [[identity]] functor constitures a [[Quillen equivalence]] between 
-the model structures on $s A$ from theorem \ref{ProjectiveStructureOnSimplicialObjects} and prop. \ref{ReedyModelStructureOnSimplicialObjects}
-
-$$
-  s A_{Reedy, loc} \stackrel{\leftarrow}{\underset{id}{\to}} sA_{proj, loc}
-  \,.
-$$
-
-
-=--
-
-This is ([Dugger, theorem 1.3](#Dugger)).
 
 
 
