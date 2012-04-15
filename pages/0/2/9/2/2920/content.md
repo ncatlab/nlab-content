@@ -534,7 +534,36 @@ is a trivial fibration. Either by assumption or by the [characterization of S-lo
 
 =--
 
+#### Functoriality of localization
+ {#FunctorialityOfLocalization}
 
++-- {: .num_prop }
+###### Proposition
+
+Let $C$ and $D$ be categories for which left Bousfield localization exists, and let
+
+$$
+  (L \dashv R)
+  : 
+  C 
+  \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
+  D
+$$
+
+be a [[Quillen equivalence]]. Then for every small set $S \subset Mor(D)$ there is an induced Quillen equivalence of left Bousfield localizations
+
+$$
+  (L \dashv R)
+  : 
+  C_{L(S)} 
+  \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
+  D_{S}
+  \,.
+$$
+
+=--
+
+This is due to Hirschhorn.
 
 #### Further properties
 
