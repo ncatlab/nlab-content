@@ -1,0 +1,4 @@
+* [Home page](http://www.unige.ch/math/folks/haefliger/)
+
+category:people
+[[!redirects A. Haefliger]]
