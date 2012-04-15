@@ -451,6 +451,48 @@ $$
 
 =--
 
+##### Enrichment
+ {#EnrichmentOverTheSimplexCategory}
+
+The following proposition should be read as a **warning** that 
+an obvious idea about simplicial enrichment of Reedy model
+structures over the simplex category does _not_ work.
+
++-- {: .num_prop}
+###### Proposition
+
+For $C$ a [[model category]], the [[category of simplicial objects]] $[\Delta^{op}, C]$ in $C$ is canonically an [[sSet]]-[[enriched category]]. 
+
+However, this does **not** in general harmonize with the Reedy model structure to make $[\Delta^{op}, C]_{Reedy}$ a [[simplicial model category]].
+
+More precisely the following parts of the [[pushout-product axiom]] for the $sSet$-[[tensoring]] hold. Let $f : A \to B$ be a cofibration in $[\Delta^{op}, C]_{Reedy}$ and $s : S \to T$ be a cofibration in $sSet_{Quillen}$.
+
+1. the [[pushout-product]] $f \bar \otimes g$ is a cofibration in $[\Delta^{op}, C]_{Reedy}$ ;
+
+1. and it is an acyclic cofibration if $f$ is;
+
+1. it is **not necessarily** acyclic if $s$ is.
+
+=--
+
+That the first two items do hold is discussed for instance as ([Dugger, prop. 4.4](#Dugger)). A counterexample for the third item is in ([Dugger, remark 4.6](#Dugger)).
+
++-- {: .num_remark}
+###### Remark
+
+However, there are [[Bousfield localization of model categories|left Bousfield localizations]] of $[\Delta^{op}, sSet]_{Reedy}$ for which
+
+1. the above $sSet$-enrichment does constitute an $sSet$-[[enriched model category]];
+
+1. the result model structure is Quillen equivalent to $C$ itself.
+
+This is in fact a useful technique for replacing $C$ by a Quillen equivalent
+and $sSet$-enriched model structure. More discussion of this point is
+at _[[simplicial model category]]_ in the section
+_[Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)_.
+
+=--
+
 ## Related concepts
 
 * [[generalized Reedy model structure]]
@@ -480,10 +522,15 @@ The discussion of enriched Reedy model structures is in
 The main statement is theorem 4.7 there.
 
 
-The model structure on towers is discussed in section 6 of 
+The Reedy model structure on towers is discussed for instance in section 6 of 
 
 * [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
  {#GoerssJardine}
+
+The Reedy model structure on categories of simplicial objects is discussed in more detail for instance in 
+
+* [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. vol. 353, number 12 (2001), 5003-5027. ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf)) 
+  {#Dugger}
 
 
 [[!redirects Reedy model category]]
