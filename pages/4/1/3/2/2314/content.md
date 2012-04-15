@@ -82,4 +82,8 @@ DM-stacks are introduced in
 
 * [[Pierre Deligne]], D. Mumford, _The irreducibility of the space of curves of given genus_ . Publications Math&#233;matiques de l'IH&#201;S (Paris) 36: 75&#8211;109 (1969) [numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1969__36__75_0)
 
+Characterization of higher Deligne-Mumford stacks (see [[generalized scheme]]) are in
+
+* [[Jacob Lurie]], _Representability theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIV.pdf))
+
 [[!redirects Deligne-Mumford stacks]]
