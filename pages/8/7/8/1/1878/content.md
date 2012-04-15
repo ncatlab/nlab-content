@@ -122,12 +122,14 @@ Therefore $f \in cof(I)$.
 
 
 
-## Properties ##
+## Properties 
+
+### Recognition theorem
 
 The following theorem allows to recognize cofibrantly generated model categories by checking fewer conditions.
 
 +-- {: .num_theorem}
-###### Theorem (recognition theorem for cofibrantly generated model categories)
+###### Theorem 
 
 Let $C$ be a [[category]] with all small [[limit]]s and [[colimit]]s and  $W$ a class of maps satisfying [[category with weak equivalences|2-out-of-3]] 
 and closed under [[retract]]s (in the [[arrow category]]).
@@ -252,6 +254,25 @@ that exhibits $f$ as a weak equivalence.
 
 =--
 
+### Presentation and generation
+ {#PresentationAndGeneration}
+
++-- {: .num_prop }
+###### Proposition
+
+Let $C$ be a cofibrantly generated model category which is also [[proper model category|left proper]]. Then there exists a [[small set]] $S \subset Obj(C)$ of cofibrant objects which detect weak equivalences:
+
+a morphism $f : A \to B$ in $C$ is a weak equivalence, precisely if for all $s \in S$ the induced morphism of [[derived hom-spaces]] 
+
+$$
+  \mathbb{R}Hom(s,f) : \mathbb{R}Hom(s,A) \to \mathbb{R}Hom(s,B)
+$$
+
+is a weak equivalence.
+
+=--
+
+This appears as ([Dugger, prop. A.5](#Dugger)).
 
 ## Examples ##
 
@@ -276,7 +297,7 @@ The categories of symmetric and orthogonal spectra have similar cofibrantly gene
 
 * A cofibrantly generated model category that is also a [[locally presentable category]] is called a [[combinatorial model category]].
 
-* A cofibrantly generated model category for which the doamins of the morphisms in $I$ and $J$ are [[compact object]]s or [[small object]]s is a [[cellular model category]].
+* A cofibrantly generated model category for which the domains of the morphisms in $I$ and $J$ are [[compact object]]s or [[small object]]s is a [[cellular model category]].
 
 ## References ##
 
@@ -290,5 +311,9 @@ For the general case a useful reference is for instance the first section of
 
 For the case of a [[presentable category]] a useful reference is [[Higher Topos Theory|HTT section A.1.2]].
 
+Some useful facts are discussed in the appendix of 
+
+* [[Dan Dugger]], _Replacing model categories with simplicial ones_ ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf))
+ {#Dugger}
 
 [[!redirects cofibrantly generated model categories]]
