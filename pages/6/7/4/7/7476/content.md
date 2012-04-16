@@ -3,7 +3,7 @@
 
 **[[(0,1)-category]]**
 
-* [[proset]], [[poset]]
+* [[proset]], [[partially ordered set]]  ([[total order]], [[linear order]])
 
   * [[top]], [[true]], 
 
