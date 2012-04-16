@@ -56,7 +56,7 @@ $$
   FlatFunc(C, \mathcal{E})
 $$
 
-between the category of [[geometric morphism]]s $f : \mathcal{E} \to PSh(C)$ and the category of [[internally flat functor]]s $C \to \mathcal{E}$.
+between the category of [[geometric morphism]]s $f : \mathcal{E} \to PSh(C)$ and the category of [[internally flat functors]] $C \to \mathcal{E}$.
 
 This equivalence takes $f$ to the composite
 
