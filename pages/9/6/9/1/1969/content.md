@@ -148,7 +148,7 @@ $$
   \,,
 $$
 
-where we use that the [[copower|tensor]] [[Quillen bifunctor]] is required to respect [[colimit]]s and that the empty colimit is the [[initial object]]. (All equality signs here denote [[isomorphism]]s, to distinguish them from weak equivalences.)
+where we use that the [[copower|tensor]] [[Quillen bifunctor]] is required to respect [[colimit]]s and that the empty colimit is the [[initial object]]. (All equality signs here denote [[isomorphisms]], to distinguish them from weak equivalences.)
 
 Similarly one has for all $X$ that $C(X,{*}) = {*}$.
 
@@ -279,14 +279,120 @@ that is homotopic to our $C(X,f)$. Therefore this is also a weak equivalence.
 =--
 
 ### In terms of framings / simplicial Reedy resolutions
+ {#Framings}
 
-If $C$ is a left proper combinatorial model category which is 
-possibly not $sSet_{Quillen}$-enriched yet, the derived hom-space
-may be computed in $[\Delta^{op}, C]$ in terms of Reedy-resolutions of 
-constant simplicial objects on the given objects. 
+The derived hom spaces of a model category $C$ may always be computed
+in terms of simplicial resolutions with respect to the [[Reedy model structure]]
+$[\Delta^{op}, C]_{Reedy}$. These resolutions are often called
+_framings_ ([Hovey](#Hovey)). These constructions are originally due to
+([Dwyer-Hirschhorn-Kan](#DHK)).
 
-This is discussed in more detail at _[[simplicial model category]]_
-in the section _[Simplicial Quillen equivalent models](http://ncatlab.org/nlab/show/simplicial+model+category#SimpEquivMods)_.
+
+Let $C$ be any [[model category]].
+
++-- {: .num_prop }
+###### Observation
+
+There is an [[adjoint triple]]
+
+$$
+  (const \dashv ev_0 \dashv (-)^{\times^\bullet})
+  : 
+  C
+  \stackrel{\overset{const}{\to}}{\stackrel{\overset{ev_0}{\leftarrow}}{\underset{(-)^{\times^\bullet}}{\to}}}
+  \,,
+  [\Delta^{op}, C]
+  \,,
+$$  
+
+where
+
+1. $const X : [n] \mapsto X$;
+
+1. $ev_0 X_\bullet = X_0$;
+
+1. $X^{\times^\bullet} : [n] \mapsto X^{\times^n}$.
+
+
+=--
+
++-- {: .num_remark #CoDiscreteIsReedyFibrant}
+###### Remark
+
+For $X \in C$ fibrant, $X^{\times^\bullet}$ is fibrant in 
+the [[Reedy model structure]] $[\Delta^{op}, C]_{Reedy}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The matching morphisms are in fact [[isomorphisms]].
+
+=--
+
+
++-- {: .num_defn}
+###### Definition
+
+Let $C$ be a model category
+
+1. For $X \in C$ any object, a _simplicial frame_ on $X$ is a factorization of $const X \to X^{\times^\bullet}$ into a weak equivalence followed by a fibration in the [[Reedy model structure]] $[\Delta^{op}, C]_{Reedy}$.
+
+1. A _right framing_ in $C$ is a functor $(-)_\bullet :  C \to [\Delta^{op}, C]$
+   with a [[natural isomorphism]] $(X)_0 \simeq X$ such that $X_\bullet$ is a simplicial
+   frame on $X$.
+
+Dually for _cosimplicial frames_.
+   
+=--
+
+This appears as ([Hovey, def. 5.2.7](#Hovey)).
+
++-- {: .num_remark}
+###### Remark
+
+By remark \ref{CoDiscreteIsReedyFibrant} a simplicial frame $X_\bullet$ in the above is in particular fibrant in $[\Delta^{op}, C]_{Reedy}$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X \in C$ cofibrant and $A \in C$ fibrant, there
+are weak equivalences in $sSet_{Quillen}$
+
+$$
+  Hom_C(X^\bullet, A)
+  \stackrel{\simeq}{\to}
+  diag Hom_C(X^\bullet, A_\bullet)
+  \stackrel{\simeq}{\leftarrow}
+  Hom_C(X, A_\bullet)
+  \,,
+$$
+
+(where in the middle we have the diagonal of the [[bisimplicial set]] $Hom(X^\bullet, A_\bullet)$).
+
+=--
+
+This appears as ([Hovey, prop. 5.4.7](#Hovey)).
+
+Either of these simplicial sets is a model for the derived hom-space $\mathbb{R}Hom(X,A)$.
+
+
++-- {: .num_remark }
+###### Remark
+
+By developing these constructions further, one obtains 
+a canonical  [[simplicial model category]]-resolution of 
+(left proper and combinatorial) model categories $C$, such that 
+the simplicial resolutions given by framings are just the 
+cofibrant$\to$fibrant $sSet$-hom objects as 
+[above](#EnrichedHomsCofToFib).
+
+This is discussed at _[Simplicial Quillen equivalent models](http://ncatlab.org/nlab/show/simplicial+model+category#SimpEquivMods)_.
+
+=--
 
 ## Properties
 
@@ -355,22 +461,30 @@ For some original references by [[William Dwyer]] and [[Dan Kan]]  see  [[simpli
 * [[William Dwyer]], [[Dan Kan]], _A classication theorem for diagrams of simplicial sets_, Topology 23 (1984), 139-155.
  {#DK84}
 
+The theory of _framings_ is due to
+
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Dan Kan]], _Model categories and general abstract
+homotopy theory_, (1997) ([pdf](http://www.mimuw.edu.pl/~jacho/literatura/ModelCategory/DHK_ModelCateogories1.pdf))
+  {#DHK}
+
+and in parallel section 5 of 
+
+* [[Mark Hovey]], _Model categories_ ([ps](http://math.unice.fr/~brunov/SecretPassage/Hovey-Model%20Categories.ps))
+  {#Hovey}
+
+and in sections 16, 17 of
+
+* [[Philip Hirschhorn]], _Model categories and their localization_ .
+
+
 
 A useful quick review of the interrelation of the various constructions of derived hom spaces is page 14, 15 of
 
 * [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
 
-where the above diagram is taken from.
 
 
-The definition in terms of simplicial and fibrant/cofibrant resolutions is described in detail in section 5 of
 
-* [[Mark Hovey]], _Model categories_ ([ps](http://math.unice.fr/~brunov/SecretPassage/Hovey-Model%20Categories.ps))
-{#Hovey}
-
-and in sections 16, 17 of
-
-* Hirschhorn, _Model categories and their localization_ .
 
 
 [[!redirects (∞,1)-categorical hom-space]]
