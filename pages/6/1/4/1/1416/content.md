@@ -29,10 +29,25 @@ The most classical notion is the following.
 
 +-- {: .num_defn #SetValuedFlat}
 ###### Definition
+
 A functor $C\to Set$ is **flat** if the opposite of its its [[category of elements]], $el(C)^{op}$, is a [[filtered category]].
+
 =--
 
 For disambiguation with the later notions, we may refer to such a functor as being **$Set$-valued flat**.
+
++-- {: .num_remark }
+###### Remark
+
+Spelled out explicitly, this means that $E : C \to Set$ is flat precisely if the following three conditions hold.
+
+1. (non-emptiness) There is at least one [[object]] $c \in C$ such that $E(c)$ is an [[inhabited set]].
+
+1. (transitivity) For objects $c,d \in C$ and elements $y \in E(c)$, $z \in E(d)$, there exists an object $b \in C$, [[morphisms]] $\alpha : b \to c$, $\beta : b \to d$ and an element $w \in E(b)$ such that $E(\alpha) : w \mapsto y$ and $E(\beta) :w \mapsto z $.
+
+1. (freeness) For two parallel morphisms $\alpha, \beta : c \to d$ and $y \in E(c)$ such that $E(\alpha)(y) = E(\beta)(y)$, there exists a morphism $\gamma : b \to c$ and an element $z \in E(b)$ such that $\alpha \circ \gamma = \beta \circ \gamma$ and $E(\gamma) : z \mapsto y$.
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
@@ -56,13 +71,14 @@ A functor $F\colon C \rightarrow E$ is **flat** if for each [[object]] $e \in E$
 
 Since $(e/F)$ is equivalent to the category of elements of the composite $C \xrightarrow{F} E \xrightarrow{E(e,-)} Set$, this is equivalent to saying  that $E(e,F-)\colon C\to Set$ is Set-valued flat for every $e\in E$.  Hence, this notion of flatness may be called **representably flat**.
 
-Representably flat functors are sometimes referred to simply as "[[exact functor|left exact functors]]".  On the nLab we generally reserve the latter terminology for the case when $C$ has finite limits.
+Representably flat functors are sometimes referred to simply as "[[exact functor|left exact functors]]".  On the $n$Lab we try to generally reserve the latter terminology for the case when $C$ has [[finite limits]].
 
 +-- {: .num_prop}
 ###### Proposition
 A functor $F \colon C \to E$ between small categories is representably flat if and only if the operation $Lan_F\colon [C^{op}, Set] \to [E^{op},Set]$ of [[left Kan extension]] preserves finite limits.
 =--
 
+A proof of this is given below as prop. \ref{FlatnessIfYonedaExtensionPreservesFiniteLimits}.
 +-- {: .num_cor}
 ###### Corollary
 If $F\colon C\to E$ is representably flat, then it preserves all finite limits that exist in $C$.  Conversely, if $C$ has finite limits and $F$ preserves them, then it is representably flat.
@@ -77,10 +93,12 @@ However, if $C$ lacks finite limits, then representable flatness of $C\to Set$ c
 
 
 ### Topos-valued functors
+ {#ToposValuedFlatFunctors}
 
 +-- {: .num_defn #InternallyFlat}
 ###### Definition
-Let $E$ be a [[cocomplete category|cocomplete]] [[topos]].  A functor $F\colon C\to E$ is **flat** if the statement "$F$ is $Set$-valued flat" is true in the [[internal logic]] of $E$.
+
+Let $E$ be a [[cocomplete category|cocomplete]] [[topos]] (for instance a [[Grothendieck topos]]).  A functor $F\colon C\to E$ is **flat** if the statement "$F$ is $Set$-valued flat, def. \ref{SetValuedFlat}." is true in the [[internal logic]] of $E$.
 
 Explicitly, this means that for any finite diagram $D\colon I\to C$, the family of factorizations through $\lim (F\circ D)$ of the $F$-images of all [[cones]] over $D$ in $C$ is [[epimorphism|epimorphic]] in $E$.
 =--
@@ -89,8 +107,30 @@ For disambiguation, this notion of flatness may be called **internally flat** si
 
 * In [Johnstone, C2.3.7 and B3.2.3](#Johnstone) they are called "torsors".
 * In [Mac Lane-Moerdijk, VII.8](#MLM) they are called "filtering functors".
+* In [Moerdijk, II.2](#Moerdijk) they are called "principal functors".
 
-Since the internal logic of $Set$ is just ordinary logic, a functor $C\to Set$ is internally flat just when it is Set-valued flat.
++-- {: .num_remark }
+###### Remark
+
+Since the internal logic of $Set$ is just ordinary logic, a functor $C\to Set$ is internally flat just when it is $Set$-valued flat, def. \ref{SetValuedFlat}.
+
+=--
+
+More generally:
+
++-- {: .num_example }
+###### Example
+
+If $E$ has [[point of a topos|enough points]], then $F$ is internally flat precisely if for all [[stalks]] $x^* : E \to Set$ the composite $x^* \circ F$ is $Set$-valued flat.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In a topos $E$ with enough points, a morphism $f : X \to Y$ is an [[epimorphism]] precisely if $x^* f$ is an epimorphism in $Set$. By definition, the [[stalks]] $x^* : E \to Set$ commute with [[finite limits]].
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
@@ -146,9 +186,11 @@ When $C$ is [[small category|small]], a functor $F\colon C\to Set$ is Set-valued
 This is prop. 6.1.3 in ([Borceux](#Borceux)).
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #FlatnessIfYonedaExtensionPreservesFiniteLimits}
 ###### Proposition
-When $C$ and $E$ are [[small category|small]], a functor $F \colon C \to E$ is representably flat if and only if $Lan_F\colon [C^{op}, Set] \to [E^{op},Set]$ preserves finite limits.
+
+When $C$ and $E$ are [[small category|small]], a functor $F \colon C \to E$ is representably flat if and only if its [[Yoneda extension]] $Lan_F\colon [C^{op}, Set] \to [E^{op},Set]$ preserves finite limits.
+
 =--
 +-- {: .proof}
 ###### Proof
@@ -182,9 +224,9 @@ $$
 
 of the [[category of presheaves]] on $A$ 
 (which is the [[free cocompletion]] of $A$) on the flat functors is the 
-free cocompletion under [[filtered colimit]]s.
+free cocompletion under [[filtered colimits]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 $FlatFunc(A^{op},Set)$ has [[finite limits]] precisely if for every finite [[diagram]] $D$ in $A$, the category of [[cones]] on $D$ is [[filtered category|filtered]].
@@ -193,6 +235,38 @@ $FlatFunc(A^{op},Set)$ has [[finite limits]] precisely if for every finite [[dia
 
 This is due to ([KarazerisVelebil](#KarazerisVelebil)).
 
+
+### Classifying toposes and Diaconescu's theorem
+  {#DiaconescuTheorem}
+
+The following statement is known as _[[Diaconescu's theorem]]_, see there for more details. It says that the internally flat functors, def. \ref{InternallyFlat} $F \colon C \to \mathcal{E}$ are precisely the [[inverse images]] of [[geometric morphisms]] from $E$ into the [[presheaf topos]] over $C$.
+
++-- {: .num_theorem}
+###### Theorem
+**(Diaconescu's theorem)**
+
+There is an [[equivalence of categories]]
+
+$$
+  Topos(\mathcal{E}, PSh(C))
+   \simeq
+  FlatFunc(C, \mathcal{E})
+$$
+
+between the category of [[geometric morphisms]] $f : \mathcal{E} \to PSh(C)$ and the category of [[internally flat functors]] $C \to \mathcal{E}$.
+
+This equivalence takes $f$ to the composite
+
+$$
+  C \stackrel{j}{\to} PSh(C) \stackrel{f^*}{\to} \mathcal{E}
+  \,,
+$$
+
+where $j$ is the [[Yoneda embedding]] and $f^*$ is the [[inverse image]] of $f$.
+
+=--
+
+One says that $PSh(C)$ is the _[[classifying topos]]_ for internally flat functors out of $C$.
 
 ## Examples
 
@@ -204,15 +278,30 @@ This is due to ([KarazerisVelebil](#KarazerisVelebil)).
 * [[Francis Borceux]], _Handbook of categorical algebra_ , volume I, _Basic category theory_.  Representable flatness is discussed in chapter 6.
 {#Borceux}
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ .  Internally flat functors ("torsors") are discussed around B3.2, and representably flat functors around C2.3.7.
+In 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ .  
  {#Johnstone}
 
-* [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ .  Set-valued flat functors are discussed in VII.6, and internally flat functors in VII.8 (both called "filtering functors").
+internally flat functors ("torsors") are discussed around B3.2, and representably flat functors around C2.3.7.
+
+In 
+
+* [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ .  
  {#MLM}
+
+$Set$-valued flat functors are discussed in VII.6, and internally flat functors in VII.8 (both called "filtering functors").
+
+In section 2 of 
+
+* [[Ieke Moerdijk]], _Classifying spaces and classifying topoi_, Lecture Notes in Mathematics __1616__, Springer 1995. vi+94 pp. ISBN: 3-540-60319-0
+ {#Moerdijk}
+
+internally flat functors with values in a topos with enough points are discussed.
 
 For the relationship between the various notions of flatness, and the notion of covering-flatness, see
 
-* [[Panagis Karazeris]], _Notions of flatness relative to a Grothendieck topology_
+* [[Panagis Karazeris]], _Notions of flatness relative to a Grothendieck topology_, Theory and Applications of Categories, 12 (2004), 225-236 ([TAC](http://www.tac.mta.ca/tac/volumes/12/5/12-05abs.html))
  {#Karazeris}
 
 * [[Mike Shulman]], _[Flat Functors and Morphisms of Sites](http://golem.ph.utexas.edu/category/2011/06/flat_functors_and_morphisms_of.html)_
