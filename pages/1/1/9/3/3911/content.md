@@ -111,7 +111,7 @@ $$
 $$
 
 
-This operation is independend of the choices involved. It is the **fiber integration** of $H$-cohomology along $p : E \to B$.
+This operation is independent of the choices involved. It is the **fiber integration** of $H$-cohomology along $p : E \to B$.
 
 ## Examples
 
@@ -121,7 +121,7 @@ When $B$ is a point, one obtains integration aginst the [[fundamental class]] of
 $$
 \int_E:H^\bullet(E)\to H^{\bullet-dim E}(*)
 $$
-taking values in the coefficients of the given chomology theory. Note that in this case $\Sigma^n B_+=S^n$, and this hints to a relationship between the Thom-Pontryagin construction and [[Spanier-Whitehead duality]]. And indeed [[Atiyah duality]] gives a homotopy equivalence between the [[Thom spectrum]] of the stable normal bundle of $E$ and the Spanier-Whitehead dual of $E$.
+taking values in the coefficients of the given cohomology theory. Note that in this case $\Sigma^n B_+=S^n$, and this hints to a relationship between the Thom-Pontryagin construction and [[Spanier-Whitehead duality]]. And indeed [[Atiyah duality]] gives a homotopy equivalence between the [[Thom spectrum]] of the stable normal bundle of $E$ and the Spanier-Whitehead dual of $E$.
 ...
 
 ### In ordinary differential cohomology
