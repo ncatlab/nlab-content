@@ -1,7 +1,7 @@
 
 # Differential forms
 * tic
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -48,7 +48,7 @@ A little bit of discussion of this unoriented case is currently at [[orientifold
 
 Note that an $n$-morphism in $P_n(X)$ is an oriented $n$-dimensional submanifold of $X$.
 
-Such a functor (as described in more detail at [[connection on a bundle]]) assigns a real number to each parametrised $n$-dimensional cube of $X$, that is a subspace by a smooth map $\Sigma : [0,1]^n \to X$.  If the differential form that this $n$-functor defines is denoted $\omega \in \Omega^n(X)$, then this real number is denoted by the [[integration|integral]]
+Such a functor (as described in more detail at [[connection on a bundle]]) assigns a real number to each parametrised $n$-dimensional cube of $X$, that is a subspace by a smooth map $\Sigma\colon [0,1]^n \to X$.  If the differential form that this $n$-functor defines is denoted $\omega \in \Omega^n(X)$, then this real number is denoted by the [[integration|integral]]
 $$
   \int_{[0,1]^n} \Sigma^* \omega
   \,.
@@ -67,7 +67,7 @@ This integral in turn encodes the $n$-functoriality of the $n$-functor: it effec
 
 Since one can let $N$ increase arbitrarily in this prescription -- $N \to \infty$ -- it follows that the value of the functor on $\Sigma$ is already determined by all its values on all "infinitesimal $n$-cubes" in some sense. 
 
-+--{.query}
++-- {: .query}
 [[Eric]]: This is neat and goes toward answering my query about an "arrow theoretic" presentation on [[measure space]].
 =--
 
@@ -79,7 +79,7 @@ There are in turn different ways to make that last statement precise:
 
 * In [[synthetic differential geometry]] the statement is in essence the same one, but the difference is that there the notion of "infinitesimal $n$-cube" has a concrete meaning on the same footing of other $n$-cubes. If $D^n$ denotes the abstract infinitesimal $n$-cube in this context, then the mapping space $X^{D^n}$ of morphisms from $D^n\to X$ is the $n$-fold [[tangent bundle]] of $X$ and a differential form is precisely nothing but a morphism
   $$
-    \omega : X^{D^n} \times D^n \to \mathbb{R}
+    \omega\colon X^{D^n} \times D^n \to \mathbb{R}
   $$ 
   (where $\mathbb{R}$ is now the synthetic differential version of the real numbers) subject to three constraints. (These constraints can be seen as the infinitesimal analog of the $n$-functoriality discussed above).
 
@@ -164,10 +164,12 @@ On an $n$-dimensional manifold $X$, the space $\Omega^n(X)$ of $n$-forms is itse
 
 Given any real number $w$, there is a line bundle called the line bundle of $w$-[[weighted representation|weighted]] scalars; a form twisted by this line bundle is a __$w$-weighted form__.  Note that a $0$-weighted form is just an ordinary form; also, an $n$-pseudoform turns out to be equivalent to a $1$-weighted $0$-form.  (And thus a densitised form is equivalent to a $1$-weighted pseudoform.)
 
+The line bundle of $n$-pseudoforms (that is of $1$-weighted $0$-forms) is the [[absolute value]] of the line bundle of $n$-forms (that is of densitised $0$-forms), so we may take the absolute value of one of either and get one of the latter.
+
 
 ## Pulling back forms
 
-Given manifolds $X$ and $Y$ and a map $f: X \to Y$, any differential form $\eta$ on $Y$ defines a __pullback__ form $f^*(\eta)$ on $X$.  This is quite straightforward, once one knows how to push forward tangent vectors on $X$ to tangent vectors on $Y$; to apply $f^*(\eta)$ to a list of vectors on $X$, push them forward to $Y$ and apply $\eta$ to them there.  If $f$ and $\eta$ are smooth, continuous, etc, then so is $f^*(\eta)$.
+Given manifolds $X$ and $Y$ and a [[continuously differentiable map]] $f\colon X \to Y$, any differential form $\eta$ on $Y$ defines a __pullback__ form $f^*(\eta)$ on $X$.  This is quite straightforward, once one knows how to push forward tangent vectors on $X$ to tangent vectors on $Y$; to apply $f^*(\eta)$ to a list of vectors on $X$, push them forward to $Y$ and apply $\eta$ to them there.  If $f$ and $\eta$ are smooth, continuous, etc, then so is $f^*(\eta)$.
 
 Thus, the operation that maps $X$ to $\Omega^*(X)$ extends to a [[contravariant functor]] $\Omega^*$.  Perhaps confusingly, forms are traditionally known in physics as 'covariant' concepts, because of how the components transform under a change of coordinates.  (Ultimately, this confusion goes back to that between active and passive [[coordinate transformation]]s.)
 
@@ -200,13 +202,14 @@ Let $X$ be an $n$-dimensional manifold, and let $\omega$ be an $n$-pseudoform on
 _A priori_, this definition depends not only on the particular coordinate patches chosen but also on the partition of unity chosen to go with them.  Furthermore, the defintion could be done just as easily (perhaps even more easily) for something other than an $n$-pseudoform.  But the (perhaps surprising) fact that justifies it all is this:
 
 +-- {: .num_theorem #IntegrationTheorem}
+###### Theorem
 When $\omega$ is an $n$-pseudoform, the definition of $\int_E \omega$ is independent of the coordinates and partition chosen.  Furthermore, the map from $n$-pseudoforms to measures is linear.
 =--
 
-Note that, if $\omega$ were an $n$-form instead of a pseudoform, then the definition would depend on the orientation of the coordinates chosen.  We could fix that by using the absolute value $|\omega_U|$ in place of $\omega_U$ in (eq:absvalposs) and in the following equations, but then the map from forms to measures would not be linear.
+Note that, if $\omega$ were an $n$-form instead of a pseudoform, then the definition would depend on the orientation of the coordinates chosen.  We could fix that by using the absolute value ${|\omega_U|}$ in place of $\omega_U$ in (eq:absvalposs) and the following equations, but then the map from forms to measures would not be linear.
 
 
-It may also be enlightening to consider how to go back from a measure to an $n$-pseudoform.  If $\omega$ is an [[absolutely continuous measure|absolutely continuous]] (see [Wikipedia](http://en.wikipedia.org/wiki/absolute_continuity) until we get our own article) [[Radon measure]] on $X$, then it defines an $n$-pseudoform (which we may also call $\omega$) as follows:
+It may also be enlightening to consider how to go back from a measure to an $n$-pseudoform.  If $\omega$ is an [[absolutely continuous measure|absolutely continuous]] (see [Wikipedia](https://en.wikipedia.org/wiki/absolute_continuity) until we get our own article) [[Radon measure]] on $X$, then it defines an $n$-pseudoform (which we may also call $\omega$) as follows:
 
 *  Given a point $a$, choose one of the two local orientations at $a$.
 *  Given $n$ linearly independent vectors $(v_1,\ldots,v_n)$ at $a$, develop them into a coordinate system on a neighbourhood $U$ of $a$.
@@ -258,11 +261,11 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 
 * Schreiber & Waldorf, _Smooth Functors vs. Differential Forms_ ([arXiv](http://arxiv.org/abs/0802.0663))
 
-Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]], about whether integration of forms or pseudoforms is most fundamental (and about whether twisted forms in general are useful and interesting geometric objects or the bastard spawn of hell) may be found in [this giant Usenet thread](http://groups.google.com/group/sci.physics.research/browse_thread/thread/6a231426b3a313c0/2888a120a9b1f5ad).  More specifically:
-*  [John\'s alter ego the Wizard](http://groups.google.com/group/sci.physics.research/msg/3c6a1a7237b66c8c?dmode=source) explains why $n$-pseudoforms are the most natural things to integrate on an $n$-dimensional manifold;
-*  [applications of pseudoforms](http://groups.google.com/group/sci.physics.research/msg/2774cbbc982e200e?dmode=source) to classical contexts where absolute values appear;
-*  [the general notion of form](http://groups.google.com/group/sci.physics.research/msg/47bbd29289f208f8?dmode=source) corresponding to an arbitrary representation of the [[general linear group]] (towards the end of the post);
-*  [absolute values of forms](http://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90?dmode=source) and how to integrate them even when they don\'t exist (near the end of the post).
+Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]], about whether integration of forms or pseudoforms is most fundamental (and about whether twisted forms in general are useful and interesting geometric objects or the bastard spawn of hell) may be found in [this giant Usenet thread](https://groups.google.com/group/sci.physics.research/browse_thread/thread/6a231426b3a313c0/2888a120a9b1f5ad).  More specifically:
+*  [John\'s alter ego the Wizard](https://groups.google.com/group/sci.physics.research/msg/3c6a1a7237b66c8c?dmode=source) explains why $n$-pseudoforms are the most natural things to integrate on an $n$-dimensional manifold;
+*  [applications of pseudoforms](https://groups.google.com/group/sci.physics.research/msg/2774cbbc982e200e?dmode=source) to classical contexts where absolute values appear;
+*  [the general notion of form](https://groups.google.com/group/sci.physics.research/msg/47bbd29289f208f8?dmode=source) corresponding to an arbitrary representation of the [[general linear group]] (towards the end of the post);
+*  [absolute values of forms](https://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90?dmode=source) and how to integrate them even when they don\'t exist (near the end of the post).
 
 
 [[!redirects differential form]]
