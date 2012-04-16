@@ -329,7 +329,7 @@ So  [[functors]] between [[locally small category|locally small categories]] are
 +-- {: .un_prop}
 ###### Proposition
 
-A [[simplicial set]] $S$ is the nerve of a locally small category $C$ if and only if all the commuting squares
+A [[simplicial set]] $S$ is the nerve of a locally small category $C$ precisely if it satisfies the [[Segal conditions]]:  precisely if all the commuting squares
 
 $$
   \array{
