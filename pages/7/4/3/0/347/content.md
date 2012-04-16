@@ -38,7 +38,7 @@ More generally, you might need a cover to be *family* of maps $(\pi_i: Y_i \to X
 In the context of [[sheaf and topos theory]] a cover 
 on an [[object]] $U$ in a [[category]] $C$ is a collection of [[morphism]]s $\{U_i \to U\}_{i \in I}$.
 
-A specification of a collection of covers for each object of the category, subject to some compatibility condition, makes a [[coverage]] on $C$. If the collection of covers in a coverage is being closed under some operations, the result us called a [[Grothendieck topology]]. Equipped with a coverage/Grothendieck toplogy, the category is called a [[site]]. See there for more details.
+A specification of a collection of covers for each object of the category, subject to some compatibility condition, makes a [[coverage]] on $C$. If the collection of covers in a coverage is being closed under some operations, the result is called a [[Grothendieck topology]]. Equipped with a coverage/Grothendieck topology, the category is called a [[site]]. See there for more details.
 
 Covering families $\{U_i \to U\}$ in $C$ have incarnations as single morphisms in the [[category of presheaves]] $PSh(C)$ over $C$, and these are also sometimes called _covers_ : 
 
