@@ -228,6 +228,17 @@ for the left Bousfield localization of the [[Reedy model structure]] at $S$.
 
 =--
 
++-- {: .num_lemma #HocolimOverHomotopyConstantSimplicialDiagram}
+###### Lemma
+
+If $X \in [\Delta^{op}, C]$ is degreewise cofirbant and has all structure maps being weak equivalences, then all $X_i \to hocolim X$ are weak equivalences.
+
+If $C$ is moreover [[cofibrantly generated model category|cofibrantly generated]], then for any fibrant replacement $Z$ of $hocolim X$ there exists a weak equivalence $X \to const Z$.
+
+=--
+
+...
+
 +-- {: .num_theorem #LocalizationOfReedyOnSimplicialObjects}
 ###### Theorem
 
@@ -275,6 +286,135 @@ This is ([Dugger, theorem 5.2, theorem 5.7, theorem 6.1](#Dugger)).
 
 So in particular every [[proper model category|left proper]] [[combinatorial model category]] is [[Quillen equivalence|Quillen equivalent]] to a simplicial model category.
 
++-- {: .proof}
+###### Proof
+
+We first show that the fibrant objects in $[\Delta^{op}, C]_{proj,S}$ are the objectwise fibrant objects all whose structure maps are weak equivalences in $C$.
+
+By general properties of [[Bousfield localization of model categories|left Bousfield localization]], the 
+fibrant objects in $[\Delta^{op}, C]_{proj,S}$ are the projective fibrant objects $X$ for which all induced morphisms on [[derived hom spaces]]
+
+$$
+  \mathbb{R}Hom_{[\Delta^{op}, C]_{proj}}(s \cdot(\Delta[k] \to \Delta[l]), X)
+$$ 
+
+are weak equivalences. Since $s$ is cofibrant in $C$ by definition, also  $s \cdot \Delta[k]$ is cofibrant in 
+$[\Delta^{op}, C]_{proj}$. 
+
+So for $X \in [\Delta^{op}, C]_{proj}$ fibrant, 
+let $X_\bullet \in [\Delta^{op}, [\Delta^{op}, C]]$ 
+be a [simplicial framing](derived+hom+space#Framings) for it. 
+
+Notice that this means that for all $n \in \mathbb{N}$
+also $X_\bullet([n])$ is a simplicial framing for $X([n])$.
+This is because
+
+1. $const X \to X_\bullet$ being a weak equivalence means that for all $n$ the morphism $X \to X_n$ is a weak equivalence, which means that for all $k$ the morphism $X([k]) \to X_n([k])$ is a weak equivalence.
+
+1. $X_\bullet$ being fibrant in $[\Delta^{op}, [\Delta^{op}, C]_{proj}]_{Reedy}$ means that for all $n$ $X_{\Delta[n]} \to X_{\partial \Delta[n]}$ is a fibration in $[\Delta^{op}, C]_{proj}$, hence that for all $k$ $X_{\Delta[n]}([k]) \to X_{\partial \Delta[n]}([k])$ is a fibration in $C$.
+
+Then we find
+
+$$
+  \begin{aligned}
+    \mathbb{R}Hom_{[\Delta^{op}, C]_{proj}}( s \cdot(\Delta[k] \to \Delta[l]), X)
+	& \simeq
+	Hom_{[\Delta^{op}, C]}(s \cdot(\Delta[k] \to \Delta[l]), X_\bullet)
+	\\
+	& \simeq
+	Hom_{C}(s , X_\bullet([l]) \to X_\bullet([k]))	
+	\\
+	& \simeq
+	\mathbb{R}Hom_C(s, X([l]) \to X([k]))
+	\,.
+  \end{aligned}
+$$
+
+By assumption on the set $S$, this implies the claim.
+
+
+$\,$
+
+
+Now we show that the weak equivalences in $[\Delta^{op}, C]_{proj,S}$ are precisely
+those morphisms that become weak equivalences under 
+the [[homotopy colimit]].
+
+By functorial cofibrant resolution and 2-out-of-3, it is sufficient to  show that this holds for morphisms between cofibrant objects. 
+
+By lemma \ref{HocolimOverHomotopyConstantSimplicialDiagram}, we have weak equivalences
+
+$$
+  \mathbb{R}Hom_{[\Delta^{op}, C]}(A,X)
+  \stackrel{\simeq}{\to}
+  \mathbb{R}Hom_{[\Delta^{op}, C]}(A, const Z)
+  \stackrel{\simeq}{\to}
+  \mathbb{R}Hom_{C}(\lim_\to A , Z)
+$$
+
+seen by computing the derived homs by [simplicial framings](derived+hom+space#Framings).
+
+Now, by properties of left Bousfield localization, 
+$A \to B$ is a weak equivalence if for all $S$-[[local objects]] $X$ $\mathbb{R}Hom(A \to B, X)$ is a weak equivalence. Looking at the diagram
+
+$$
+  \array{
+    \mathbb{R}Hom_{[\Delta^{op}, C]}(A,X)
+    &\stackrel{\simeq}{\to}&
+    \mathbb{R}Hom_{[\Delta^{op}, C]}(A, const Z)
+    &\stackrel{\simeq}{\to}&
+    \mathbb{R}Hom_{C}(\lim_\to A , Z)
+   \\
+   \uparrow && \uparrow && \uparrow
+   \\
+    \mathbb{R}Hom_{[\Delta^{op}, C]}(B,X)
+    &\stackrel{\simeq}{\to}&
+    \mathbb{R}Hom_{[\Delta^{op}, C]}(B, const Z)
+    &\stackrel{\simeq}{\to}&
+    \mathbb{R}Hom_{C}(\lim_\to B , Z)
+  }
+$$
+
+we see that this is the case precisely if $\mathbb{R}Hom_{C}(\lim_\to A \to \lim_\to B, Z)$ is a weak equivalence for all fibrant $Z \in C$, which is the case if $\lim_\to A \to \lim_\to B$ is a weak equvlance. Since $A$ and $B$ here are cofibrant in $[\Delta^{op}, C]_{proj}$, the colimits here are indeed [[homotopy colimits]] (as discussed there). 
+
+$\,$
+
+
+Now we discuss that that $(\lim_\to \dashv const): C \to [\Delta^{op}, C]_{Reedy,S}$ 
+is a [[Quillen equivalence]].
+First observe that $const : C \to [\Delta^{op}, C]_{proj}$ is clearly a right Quillen functr, hence we have a Quillen adjunction on the unlocalized structure. Since both structures are left proper and combinatorial, 
+for this to descent to a Quillen equivalence on the localized
+structure it is sufficient, by ..., 
+that $const A$ is $S$-local for all $A \in C$. This is clearly the case,
+by the above.
+
+So we do have a Quillen adjunction. To see that this is a Quillen equivalence,
+it is sufficient to show that for $A \in [\Delta^{op}, C]_{proj}$ cofibrant
+and $Z \in C$ fibrant, a morphism $\lim_\to A \to Z$ is a weak equivalence in $C$
+precisely if the [[adjunct]] $A \to const Z$ becomes a weak equivalence under the homotopy colimit.
+
+
+For this notice that we have a commuting diagram
+
+$$
+  \array{  
+     hocolim A &\to& hocolim(const Z)
+     \\
+     \downarrow && \downarrow
+     \\
+     colim A &\to& colim (const Z) & \simeq Z
+  }
+$$
+
+and so our statement follows (by 2-out-of-3) once we know that the vertical morphisms here are weak equivalences. The left one is because $A$ is cofibrant, by assumption, as before.  To see that the right one is, too, consider the factorization
+
+$$
+  Z \to (const Z)_i \to hocolim (const Z) \to Z
+$$
+
+of the identity on $Z$, for any $i \in \mathbb{N}$. By lemma \ref{HocolimOverHomotopyConstantSimplicialDiagram} the first morphism is a weak equivalence, and hence so is the morphism in question.
+
+=--
 
 +-- {: .num_theorem #AUniquenessTheorem}
 ###### Remark
