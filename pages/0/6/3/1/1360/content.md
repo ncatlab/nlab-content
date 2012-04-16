@@ -159,8 +159,8 @@ $$
 
 ### Derived hom-spaces
 
-+-- {: .num_remark}
-###### Remark
++-- {: .num_prop #DerivedHomSpaceBySimplicialFunctionComplex}
+###### Proposition
 
 For $X$ and $A$ any two objects and $Q X $ and $P A$ a cofibrant and fibrant replacement, respectively, $\mathcal{C}(Q X, P A)$ is the correct [[derived hom-space]] between $X$ and $A$ (see the discussion there). In particular the full $sSet$-enriched [[subcategory]] on cofibrant fibrant objects is therefore an [[simplicially enriched category|sSet-enriched category]] which is fibrant in the [[model structure on simplicially enriched categories]]. Its [[homotopy coherent nerve]] is a [[quasi-category]]. All this are intrinsic incarnatons of the [[(∞,1)-category]] that is [[presentable (∞,1)-category|presented]] by $C$.
 
@@ -228,7 +228,7 @@ for the left Bousfield localization of the [[Reedy model structure]] at $S$.
 
 =--
 
-+-- {: .num_theorem }
++-- {: .num_theorem #LocalizationOfReedyOnSimplicialObjects}
 ###### Theorem
 
 The model structures from def. \ref{LocalizationOfStructureOnSimplicalObjects} have the following properties.
@@ -273,22 +273,22 @@ The model structures from def. \ref{LocalizationOfStructureOnSimplicalObjects} h
 
 This is ([Dugger, theorem 5.2, theorem 5.7, theorem 6.1](#Dugger)). 
 
-So in articular every [[proper model category|left proper]] [[combinatorial model category]] is [[Quillen equivalence|Quillen equivalent]] to a simplicial model category.
+So in particular every [[proper model category|left proper]] [[combinatorial model category]] is [[Quillen equivalence|Quillen equivalent]] to a simplicial model category.
 
 
 +-- {: .num_theorem #AUniquenessTheorem}
-###### Theorem
+###### Remark
 **(uniqueness)**
 
-Let $A$ be a [[model category]]. Then there is at most one model category 
-structure on $s A = [\Delta^{op}, A]$ such that
+Let $C$ be a [[model category]]. Then there is a unique model category 
+structure on $s C = [\Delta^{op}, C]$ such that
 
-* every morphism that is degreewise a weak equivalence in $A$ is a weak equivalence;
+* every morphism that is degreewise a weak equivalence in $C$ is a weak equivalence;
 
 * the cofibrations are those of the [[Reedy model structure]];
 
 * the fibrant objects are the Reedy-fibrant objects whose face and
-  degeneracy maps are weak equivalences in $A$.
+  degeneracy maps are weak equivalences in $C$.
 
 =--
 
@@ -297,22 +297,55 @@ This is ([Rezk-Schwede-Shipley, theorem 3.1](#RezkSchwedeShipley)).
 +-- {: .proof}
 ###### Proof
 
+By theorem \ref{LocalizationOfReedyOnSimplicialObjects}
+at least one such model structure exists.
 By the discussion at _[model category -- Redundancy of the axioms](model%20category#RedundancyInTheAxioms)_, the classes of cofibrations and fibrant objects already determine a model category structure.
 
 =--
 
++-- {: .num_cor #DerivedHomBySimplicialReplacement}
+###### Corollary
 
+For $C$ any [[proper model category|left proper]] 
+[[combinatorial model category]], the [[derived hom-space]]
+between two objects $X, A$ may be computed by
 
-+-- {: .num_theorem #ProjectiveStructureOnSimplicialObjects}
-###### Theorem
+* choosing a cofibrant replacement $\hat X$ of $X$ in $C$;
 
-There is a similar model structure on $s A$ where instead the cofibrations are the cofibrations with respect to the  projective [[global model structure on functors]] on $[\Delta^{op}, A]$.
+* choosing a Reedy fibrant replacement $\hat A$ of $const A$ in $[\Delta^{op}, C]$ such that all face and degeneracy maps are weak equivalences,
 
-In this the fibrant objects are precisely the simplicial objects that are degreewise fibrant in $A$, and for which all face and degeneracy maps are weak equivalences in $A$. 
+setting
+
+$$
+  Maps(X,A) : [n] \mapsto Hom_C(\hat X, \hat A_n)
+  \,.
+$$
 
 =--
 
++-- {: .proof}
+###### Proof
 
+By theorem \ref{LocalizationOfReedyOnSimplicialObjects} we may compute the
+[[derived hom space]] in $[\Delta^{op}, C]_{Reedy,S}$ after the inclusion $const : C \to [\Delta^{op}, C]$. Since by that theorem $[\Delta^{op}, C]_{Reedy,S}$ is a simplicial model category, by prop. \ref{DerivedHomSpaceBySimplicialFunctionComplex}
+the derived hom space is given by the simplicial function complex between a cofibrant replacement of $const X$ and a fibrant replacement of $const A$. If $\hat X$ is cofibrant, then $const \hat X$ is already Reedy cofibrant, and by the theorem $\hat A$ as stated is a a fibrant resolution of $const A$. Finally, the theorem says that the simplicial function complex is given by
+
+$$
+  \begin{aligned}
+    [\Delta^{op}, C](const \hat X, \hat A)_n
+    & =
+    Hom_{[\Delta^{op}, C]}((const \hat X) \cdot \Delta[n], \hat A)
+    \\
+    &  \simeq
+    Hom_{[\Delta^{op}, C]}((const \hat X) , \hat A^{\Delta[n]})
+    \\
+    & \simeq
+    Hom_C(\hat X, \hat A_n)
+  \end{aligned}
+  \,.
+$$
+
+=--
 
 
 There is also a version for stable model categories:
