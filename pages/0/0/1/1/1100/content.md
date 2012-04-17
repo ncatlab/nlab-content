@@ -392,7 +392,7 @@ should be.
 
 * [[2-topos]]
 
-* **$(\infty,1)$-topos**
+* **$(\infty,1)$-topos**, [[elementary (∞,1)-topos]]
 
 * [[(∞,2)-topos]]
 
