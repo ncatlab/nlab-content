@@ -30,6 +30,8 @@ A proposal for a definition, with an eye towards [[homotopy type theory]] is on 
 
 * [[Mike Shulman]], _Inductive and higher inductive types_ ([pdf](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/04induction.pdf))
 
+This proposal is [[predicative mathematics|predicative]], but could be made impredicative easily (to correspond closer to elementary 1-toposes rather than to types of 1-[[pretoposes]]) by adding a [[subobject classifier]] (i.e. a classifier for *all* subobjects, rather than merely the "classifiers for small subobjects" obtainable from object classifiers).
+
 [[!redirects elementary (∞,1)-topos]]
 
 [[!redirects elementary (∞,1)-toposes]]
