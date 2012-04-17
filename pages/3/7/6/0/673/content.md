@@ -1,9 +1,7 @@
-<div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="300" width="400" src="http://www.maths.adelaide.edu.au/david.roberts/images/MyPicture.jpg" alt="David Roberts" /></div>
+<div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="600" width="400" src="http://ncatlab.org/davidroberts/files/DavidRoberts2012.jpg" alt="David Roberts" /></div>
 
 
-
-
-I'm a visiting research fellow at the University of Adelaide (in Australia) and I work at the [National Centre for Vocational Education Research](http://www.ncver.edu.au/). I work on 2-bundles and internal groupoids/categories, with general interest in homotopy theory d'apr&egrave;s Grothendieck.
+I'm a visiting research fellow at the [University of Adelaide](http://www.maths.adelaide.edu.au/) and I work at the [National Centre for Vocational Education Research](http://www.ncver.edu.au/). I work on 2-bundles and internal groupoids/categories, and category theory more generally with a side interest in foundations.
 
 If you need it, here is my email: david dot roberts (at symbol) adelaide dot edu dot au
 
