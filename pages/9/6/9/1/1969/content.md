@@ -29,17 +29,34 @@
 
 ## Idea 
 
-There are several ways to _model_ an [[(∞,1)-category]] $\mathbf{C}$ by an ordinary [[category]] $C$ equipped with some extra structure: for instance $C$ may be a [[category with weak equivalences]] or a [[model category]]. In all of these models, given two objects $X, Y \in C$, there is a way to construct an [[∞-groupoid]] $\mathbf{C}(X,Y)$ that is the correct [[hom-object]] of the [[(∞,1)-category]] $\mathbf{C}$ -- this is the _$(\infty,1)$-categorical hom-space_  modeled by $C$, often called the _derived hom space_  and then denoted $\mathbf{R}Hom(X,Y)$, or called the _homotopy function complex_.
+Where an ordinary [[category]] has a [[hom-set]], an [[(∞,1)-category]] has an [[∞-groupoid]] of morphisms between any two objects, a _hom-space_.
+
+There are several ways to _present_ an [[(∞,1)-category]] $\mathbf{C}$ by an ordinary [[category]] $C$ equipped with some extra structure: for instance $C$ may be a [[category with weak equivalences]] or a [[model category]] or even a [[simplicial model category]]. In all of these presentations, given two objects $X, Y \in C$, there is a way to construct a [[simplicial sets]] $\mathbb{R}\mathbf{C}(X,Y)$ that prsesents the hom-[[∞-groupoid]] $\mathbf{C}(X,Y)$. This simplicial set -- or rather its [[homotopy type]] -- is called the 
+_derived hom space_ or  _homotopy function complex_ and denoted $\mathbf{R}Hom(X,Y)$ or similarly.
 
 ## Presentations
 
-There are various equivalent explicit expressions for $\mathbf{R}Hom$. These are described and compared in the following.
+There are many ways to present an [[(∞,1)-category]] by [[category theory|category theoretic data]], and for each of these there are corresponding tools for explicitly computing the derived hom spaces.
 
-### Interrelation between different presentations
+The most basic data is that of a [[category with weak equivalences]]. Here the derived hom spaces can be constructed in terms of zig-zags of morphisms by a process called _[[simplicial localization]]_. This we discuss below in _[For a category with weak equivalences](#ForACategoryWithWeakEquivalences)_.
 
-For $(C,W \subset Mor(C))$ a [[category with weak equivalences]], Dwyer-Kan [[simplicial localization]] produces an [[SSet]]-[[enriched category]] as follows
+Particularly useful extra structure on a [[category with weak equivalences]] that helps with computing the derived hom spaces is the structure of a _[[model category]]_. Using this one can construc simplicial resolutions of objects -- called _framings_ -- that generalize [[cylinder objects]] and [[path objects]], and then construct the derived hom spaces in terms of direct morphisms between these resolutions. This we discuss below in _[For a model category](#Framings)_.
 
-For $X,Y \in Obj(C)$ and for $n \in \mathbb{N}$ define a category $w Mor_C^n(X,Y)$ 
+Still a bit more helpful structure on top of a bare model category is that of a [[simplicial model category]]. Here, after a choice of cofibrant and fibrant resolutions of opjects, the derived hom spaces are given already by the [[sSet]]-[[hom objects]]. This we discuss below in _[For a simplicial model category](#EnrichedHomsCofToFib)_.
+
+
+
+
+### For a category with weak equivalences
+ {#ForACategoryWithWeakEquivalences}
+
+
+Let $(C,W \subset Mor(C))$ be a [[category with weak equivalences]].
+
++-- {: .num_defn #ZigZagCategories}
+###### Definition
+
+Fix $n \in \mathbb{N}$. For $X,Y \in Obj(C)$, define a category $wMor_C^n(X,Y)$ 
 
 * whose objects are [[zig-zag]]s of morphisms in $C$ of length $n$
 
@@ -47,71 +64,151 @@ For $X,Y \in Obj(C)$ and for $n \in \mathbb{N}$ define a category $w Mor_C^n(X,Y
     X = X_0 \leftarrow X_1 \to X_2 \leftarrow \cdots \to X_{n-1} \leftarrow X_n = Y
   $$
 
-  such that each morphism going to the left, $X_{2k}\leftarrow X_{2k +1}$, is a [[weak equivalence]], an element in $W$.
+  such that each morphism going to the left, $X_{2k}\leftarrow X_{2k +1}$, is a [[weak equivalence]], an element in $W$;
 
 * morphisms between such objects $(X,X_i,Y) \to (X',X'_i,Y')$ are collections of weak equivalences $(X_i \to X'_i)$ for all $0 \lt i \lt n $ such that all triangles and squares commute.
 
+=--
+
++-- {: .num_defn #HammockLocalization}
+###### Definition
+
 Write $N(wMor_C^n(X,Y))$ for the [[nerve]] of this category, a [[simplicial set]].
 
-Then the [[simplicial localization|hammock localization]] $L^H C$ of $C$ is the [[simplicially enriched category]] with objects those of $C$ and [[hom-object]]s given by the [[colimit]] over the length of these hammock hom-categories
+The _[[hammock localization]]_ $L_W^H C$ of $C$ is the [[simplicially enriched category]] with objects those of $C$ and [[hom-objects]] given by the [[colimit]] over the length of these hammock hom-categories
 
 $$
-  L^H C(X,Y) = colim_n N(wMor_C^n(X,Y))
+  L^H C(X,Y) := \lim_{\to_n} N(wMor_C^n(X,Y))
   \,.
 $$
 
-The [[Kan fibrant replacement]] of this simplicial set is the hom-space between $X$ and $Y$ of the $(\infty,1)$-category modeled by $(C,W)$.
-
-If the structure of a category with weak equivalences is enhanced to that of a [[model category]], then there are several other ways to construct hom-simplicial sets. The following diagram shows how all these different ways are related and equivalent to the Dwyer-Kan cnstruction $L^H C(X,Y)$ -- while being usually way more tractable.
-
-Suppose now that $Q : C \to C$ is a [[cofibrant replacement functor]] and $R : C \to C$ a [[fibrant replacement functor]], $\Gamma^\bullet : C \to (cC)_c$ a [[cosimplicial resolution functor]] and $\Lambda_\bullet : C \to (sC)_f$ a [[simplicial resolution functor]] in the [[model category]] $C$.
-
-
-+-- {: .num_theorem #DKTheorem}
-###### Theorem 
-**(Dwyer--Kan)**
-
-There are natural weak equivalences between the following equivalent realizations of this [[SSet]] [[hom-object]]:
-
-$$
-  \array{
-    Mor_C(\Gamma^\bullet X, R Y)
-    &&&&
-    Mor_C(Q X, \Lambda_\bullet Y)
-    \\
-    & \searrow^\simeq && {}^\simeq \swarrow
-    \\
-    &&
-    diag Mor_C(\Gamma^\bullet X, \Lambda_\bullet Y)
-    \\
-    &&
-    \uparrow^\simeq
-    \\
-    &&
-    hocolim_{p,q \in \Delta^{op} \times \Delta^{op}}
-    Mor_C(\Gamma^p X, \Lambda_q Y)
-    \\
-    &&\downarrow^\simeq
-    \\
-    &&N wMor_C^3(X,Y)
-    \\
-    &&\downarrow^\simeq
-    \\
-    &&Mor_{L^H C}(X,Y)
-  }
-  \,.
-$$
+The [[Kan fibrant replacement]] of this simplicial set is the derived hom-space between $X$ and $Y$ of the $(\infty,1)$-category modeled by $(C,W)$.
 
 =--
 
-The weak equivalences 
-$Mor_C(\Gamma^\bullet X, R Y) \stackrel{\simeq}{\to} diag Mor_C(\Gamma^\bullet X, \Lambda_\bullet Y) \stackrel{\simeq}{\leftarrow} Mor_C(Q X, \Lambda_\bullet Y)$ appear also as ([Hovey, prop. 5.4.7](#Hovey)).
 
-### In terms of zig-zags
 
-For the moment see _[[simplicial localization]]_.
+### For a model category
+ {#Framings}
 
-### In terms of simplicial function complexes between cofibrant/fibrant objects 
+
+The derived hom spaces of a model category $C$ may always be computed
+in terms of simplicial resolutions with respect to the [[Reedy model structure]]
+$[\Delta^{op}, C]_{Reedy}$. These resolutions are often called
+_framings_ ([Hovey](#Hovey)). These constructions are originally due to
+([Dwyer-Hirschhorn-Kan](#DHK)).
+
+
+Let $C$ be any [[model category]].
+
++-- {: .num_prop }
+###### Observation
+
+There is an [[adjoint triple]]
+
+$$
+  (const \dashv ev_0 \dashv (-)^{\times^\bullet})
+  : 
+  C
+  \stackrel{\overset{const}{\to}}{\stackrel{\overset{ev_0}{\leftarrow}}{\underset{(-)^{\times^\bullet}}{\to}}}
+  \,,
+  [\Delta^{op}, C]
+  \,,
+$$  
+
+where
+
+1. $const X : [n] \mapsto X$;
+
+1. $ev_0 X_\bullet = X_0$;
+
+1. $X^{\times^\bullet} : [n] \mapsto X^{\times^n}$.
+
+
+=--
+
++-- {: .num_remark #CoDiscreteIsReedyFibrant}
+###### Remark
+
+For $X \in C$ fibrant, $X^{\times^\bullet}$ is fibrant in 
+the [[Reedy model structure]] $[\Delta^{op}, C]_{Reedy}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The matching morphisms are in fact [[isomorphisms]].
+
+=--
+
+
++-- {: .num_defn}
+###### Definition
+
+Let $C$ be a model category
+
+1. For $X \in C$ any object, a _simplicial frame_ on $X$ is a factorization of $const X \to X^{\times^\bullet}$ into a weak equivalence followed by a fibration in the [[Reedy model structure]] $[\Delta^{op}, C]_{Reedy}$.
+
+1. A _right framing_ in $C$ is a functor $(-)_\bullet :  C \to [\Delta^{op}, C]$
+   with a [[natural isomorphism]] $(X)_0 \simeq X$ such that $X_\bullet$ is a simplicial
+   frame on $X$.
+
+Dually for _cosimplicial frames_.
+   
+=--
+
+This appears as ([Hovey, def. 5.2.7](#Hovey)).
+
++-- {: .num_remark}
+###### Remark
+
+By remark \ref{CoDiscreteIsReedyFibrant} a simplicial frame $X_\bullet$ in the above is in particular fibrant in $[\Delta^{op}, C]_{Reedy}$.
+
+=--
+
+
+
+
++-- {: .num_prop #SimplicialFunctionComplexes}
+###### Proposition
+
+For $X \in C$ cofibrant and $A \in C$ fibrant, there
+are weak equivalences in $sSet_{Quillen}$
+
+$$
+  Hom_C(X^\bullet, A)
+  \stackrel{\simeq}{\to}
+  diag Hom_C(X^\bullet, A_\bullet)
+  \stackrel{\simeq}{\leftarrow}
+  Hom_C(X, A_\bullet)
+  \,,
+$$
+
+(where in the middle we have the diagonal of the [[bisimplicial set]] $Hom(X^\bullet, A_\bullet)$).
+
+=--
+
+This appears as ([Hovey, prop. 5.4.7](#Hovey)).
+
+Either of these simplicial sets is a model for the derived hom-space $\mathbb{R}Hom(X,A)$.
+
+
++-- {: .num_remark }
+###### Remark
+
+By developing these constructions further, one obtains 
+a canonical  [[simplicial model category]]-resolution of 
+(left proper and combinatorial) model categories $C$, such that 
+the simplicial resolutions given by framings are just the 
+cofibrant$\to$fibrant $sSet$-hom objects as 
+[above](#EnrichedHomsCofToFib).
+
+This is discussed at _[Simplicial Quillen equivalent models](http://ncatlab.org/nlab/show/simplicial+model+category#SimpEquivMods)_.
+
+=--
+
+### For a simplicial model category
  {#EnrichedHomsCofToFib}
 
 We describe here in more detail properties of [[hom-object]]s in a [[simplicial model category]] for the case that the domain objects are cofibrant and the codomain objects are fibrant.
@@ -282,121 +379,52 @@ that is homotopic to our $C(X,f)$. Therefore this is also a weak equivalence.
 
 =--
 
-### In terms of framings / simplicial Reedy resolutions
- {#Framings}
-
-The derived hom spaces of a model category $C$ may always be computed
-in terms of simplicial resolutions with respect to the [[Reedy model structure]]
-$[\Delta^{op}, C]_{Reedy}$. These resolutions are often called
-_framings_ ([Hovey](#Hovey)). These constructions are originally due to
-([Dwyer-Hirschhorn-Kan](#DHK)).
+### Comparison
 
 
-Let $C$ be any [[model category]].
+Let $C$ be a [[model category]]. We discuss how its 
+simplicial function complexes from prop. \ref{SimplicialFunctionComplexes}
+are related to the simplicial localization from def. \ref{ZigZagCategories} and def. \ref{HammockLocalization}.
 
-+-- {: .num_prop }
-###### Observation
-
-There is an [[adjoint triple]]
-
-$$
-  (const \dashv ev_0 \dashv (-)^{\times^\bullet})
-  : 
-  C
-  \stackrel{\overset{const}{\to}}{\stackrel{\overset{ev_0}{\leftarrow}}{\underset{(-)^{\times^\bullet}}{\to}}}
-  \,,
-  [\Delta^{op}, C]
-  \,,
-$$  
-
-where
-
-1. $const X : [n] \mapsto X$;
-
-1. $ev_0 X_\bullet = X_0$;
-
-1. $X^{\times^\bullet} : [n] \mapsto X^{\times^n}$.
+Suppose now that $Q : C \to C$ is a [[cofibrant replacement functor]] and $R : C \to C$ a [[fibrant replacement functor]], $\Gamma^\bullet : C \to (cC)_c$ a [[cosimplicial resolution functor]] and $\Lambda_\bullet : C \to (sC)_f$ a [[simplicial resolution functor]] in the [[model category]] $C$.
 
 
-=--
++-- {: .num_theorem #DKTheorem}
+###### Theorem 
+**(Dwyer--Kan)**
 
-+-- {: .num_remark #CoDiscreteIsReedyFibrant}
-###### Remark
-
-For $X \in C$ fibrant, $X^{\times^\bullet}$ is fibrant in 
-the [[Reedy model structure]] $[\Delta^{op}, C]_{Reedy}$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The matching morphisms are in fact [[isomorphisms]].
-
-=--
-
-
-+-- {: .num_defn}
-###### Definition
-
-Let $C$ be a model category
-
-1. For $X \in C$ any object, a _simplicial frame_ on $X$ is a factorization of $const X \to X^{\times^\bullet}$ into a weak equivalence followed by a fibration in the [[Reedy model structure]] $[\Delta^{op}, C]_{Reedy}$.
-
-1. A _right framing_ in $C$ is a functor $(-)_\bullet :  C \to [\Delta^{op}, C]$
-   with a [[natural isomorphism]] $(X)_0 \simeq X$ such that $X_\bullet$ is a simplicial
-   frame on $X$.
-
-Dually for _cosimplicial frames_.
-   
-=--
-
-This appears as ([Hovey, def. 5.2.7](#Hovey)).
-
-+-- {: .num_remark}
-###### Remark
-
-By remark \ref{CoDiscreteIsReedyFibrant} a simplicial frame $X_\bullet$ in the above is in particular fibrant in $[\Delta^{op}, C]_{Reedy}$.
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-For $X \in C$ cofibrant and $A \in C$ fibrant, there
-are weak equivalences in $sSet_{Quillen}$
+There are natural weak equivalences between the following equivalent realizations of this [[SSet]] [[hom-object]]:
 
 $$
-  Hom_C(X^\bullet, A)
-  \stackrel{\simeq}{\to}
-  diag Hom_C(X^\bullet, A_\bullet)
-  \stackrel{\simeq}{\leftarrow}
-  Hom_C(X, A_\bullet)
-  \,,
+  \array{
+    Mor_C(\Gamma^\bullet X, R Y)
+    &\stackrel{\simeq}{\to}&
+    diag Mor_C(\Gamma^\bullet X, \Lambda_\bullet Y)
+    &\stackrel{\simeq}{\leftarrow}&
+    Mor_C(Q X, \Lambda_\bullet Y)
+    \\
+    &&
+    \uparrow^\simeq
+    \\
+    &&
+    hocolim_{p,q \in \Delta^{op} \times \Delta^{op}}
+    Mor_C(\Gamma^p X, \Lambda_q Y)
+    \\
+    &&\downarrow^\simeq
+    \\
+    &&N wMor_C^3(X,Y)
+    \\
+    &&\downarrow^\simeq
+    \\
+    &&Mor_{L^H C}(X,Y)
+  }
+  \,.
 $$
 
-(where in the middle we have the diagonal of the [[bisimplicial set]] $Hom(X^\bullet, A_\bullet)$).
-
 =--
 
-This appears as ([Hovey, prop. 5.4.7](#Hovey)).
+The top row weak equivalences are those of prop. \ref{SimplicialFunctionComplexes}
 
-Either of these simplicial sets is a model for the derived hom-space $\mathbb{R}Hom(X,A)$.
-
-
-+-- {: .num_remark }
-###### Remark
-
-By developing these constructions further, one obtains 
-a canonical  [[simplicial model category]]-resolution of 
-(left proper and combinatorial) model categories $C$, such that 
-the simplicial resolutions given by framings are just the 
-cofibrant$\to$fibrant $sSet$-hom objects as 
-[above](#EnrichedHomsCofToFib).
-
-This is discussed at _[Simplicial Quillen equivalent models](http://ncatlab.org/nlab/show/simplicial+model+category#SimpEquivMods)_.
-
-=--
 
 ## Properties
 
