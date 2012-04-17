@@ -535,6 +535,28 @@ it follows that a fibrant object $X \in [\Omega^{op}, sSet]_{gReedy}$ is local w
 
 =--
 
+Let $S = \{A \to B\}$ be a set of generating acyclic cofibrations for the [[model structure on dendroidal sets]], $dSet_{CM}$, chosen such that all domains and codomains are normal, hence cofibrant. 
+
++-- {: .num_prop #CompletenessByRightLifting}
+###### Proposition
+
+An object $X \in [\Omega^{op}, sSet]_{cSegal}$ is fibrant
+precisely if 
+
+1. it is fibrant in $[\Omega^{op}, sSet]_{Segal}$;
+
+1. it has the right lifting property against the set
+
+   $$
+     \{ (A \to B) \bar \cdot (\partial \Delta[n] \to \Delta[n]) \}_{(A \to B) \in S, n \in \mathbb{}N}
+     \,.
+   $$
+
+=--
+
+([Cis-Moer, cor. 6.5](#CisinskiMoerdijk))
+
+
 ### Weak equivalences
 
 +-- {: .num_prop #WEDetectedOnCorollas}
@@ -1072,9 +1094,54 @@ Therefore the cofibrations in the two model structures do coincide.
 
 (Notice that a similar statement holds for the acyclic cofibrations, only that the generating set of acyclic cofibrations in $dSet_{CM}$ is, while known to exist, not known explicitly.)
 
-Next, to see that the fibrant objects also coincide.
+Next, to see that the fibrant objects also coincide, write again $S = \{A \to B\}$ for a choice of set of generating acyclic cofibrations for $dSet_{CM}$ between normal dendroidal sets.
 
-(...) use prop. \ref{FibrantObjectsInTheLocallyConstantModelStructure} (...)
+By prop. \ref{FibrantObjectsInTheLocallyConstantModelStructure} the fibrant objects of 
+$[\Delta^{op}, dSet_{CM}]_{LocConst}$ are those that 
+
+1. are Reedy fibrant over $\Delta^{op}$, meaning that they have the right 
+   lifting property against
+
+   $$
+    \{  (A \to B) \bar \cdot (\partial \Delta[n] \to \Delta[n]) \}_{(A \to B) \in S, n \in \mathbb{N}}
+    \,;
+   $$
+
+1. are local, meaning, by prop. \ref{FibrantObjectsInTheLocallyConstantModelStructure}, that they have the right lifting property against
+
+   $$
+     \{ (\Lambda^k[n] \to \Delta[n]) \bar \cdot (\partial \Omega[T] \to \Omega[T]) \}
+     \,.
+   $$
+
+On the other hand, the fibrant objects in $[\Omega^{op}, sSet]_{cSegal}$ are those
+
+1. that are Reedy fibrant over $\Omega^{op}$, 
+   meaning that they have the right lifting property against
+
+   $$
+     \{ (\Lambda^k[n] \to \Delta[n]) \bar \cdot (\partial \Omega[T] \to \Omega[T]) \}_{n \in \mathbb{N}, 0 \leq k \leq n, T \in \Omega}
+     \,,
+   $$
+
+1. are Segal local, meaning by prop. \ref{SpineAndHornLocalization} that they have right lifting against
+
+   $$
+     \{
+        (\partial \Delta[n] \to \Delta[n]) \bar \cdot ( \Lambda^e [T] \to \Omega[T] )
+     \}
+   $$
+
+1. are complete Segal local, meaning by prop. \ref{CompletenessByRightLifting} that they have right lifting property against
+
+   $$
+    \{  (A \to B) \bar \cdot (\partial \Delta[n] \to \Delta[n]) \}_{(A \to B) \in S, n \in \mathbb{N}}
+    \,.
+   $$
+
+
+The union of the three respective sets coincides in both cases.
+
 
 =--
 
