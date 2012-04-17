@@ -478,8 +478,9 @@ Similarly, the second axiom of def. \ref{ElementaryHomotopicalDatum} holds becau
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #LawvereCylinder}
 ###### Example
+**(Lawvere cylinder)**
 
 Let $I := \Omega$ be the [[subobject classifier]] in the [[presheaf topos]] $PSh(A)$. This is the presheaf which to an object $U$ of $A$ assigns the set of [[subobjects]] of the [[representable functor]] given by $U$ (the [[sieves]] on $U$)
 
@@ -1438,6 +1439,67 @@ We list lemmas to show prop. \ref{ConditionsForCompleteness}.
 
 (...)
 
+### Localizers
+ {#ALocalizers}
+
+Let still $A$ be a [[small category]] and write $PSh(A)$ for its [[category of presheaves]].
+
++-- {: .num_defn #ALocalizer}
+###### Definition
+
+An **$A$-localizer** is a [[class]] of morphisms $W \subset Mor(PSh(A))$ satisfying the following axioms
+
+1. [[2-out-of-3]];
+
+1. every acyclic fibration, def. \ref{AcyclicFibration}, is in $W$;
+
+1. The class of [[monomorphisms]] that is in $W$ is stable under [[pushout]] and [[transfinite composition]].
+
+The elements of $W$ we call **$W$-equivalences**. For $S \subset Mor(PSh(A))$ a [[class]] of morphisms, the smallest $A$-localizer containing $S$ is called the $A$-localized **generated** by $S$. If an $A$-localizer is generated from a [[small set]], we call it **accessible**. The **minimal $A$-localizer** is $W(\emptyset)$. 
+
+=--
+
+([Cisinski 06, def. 1.4.1](#Cisinski06)))
+
++-- {: .num_prop}
+###### Proposition
+
+For $(J,AnExt)$ a homotopical structure, def. \ref{HomotopicalStructure} on $PSh(A)$, the class $W$ of weak equivalences of the induced model category structure of theorem \ref{ModelStructureFromHomotopicalStructure} is an $A$-localizer.
+
+If $\Lambda$ is a small set generating the anodyne extensions, $AnExt = LLP(RLP(\Lambda))$, then $W = W(\Lambda)$. 
+
+=--
+
+([Cisinski 06, prop. 1.4.2](#Cisinski06)))
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $W \subset Mor(PSh(A))$. The following are equivalent.
+
+1. $W$ is an $A$-localizer, def. \ref{ALocalizer};
+
+1. There is a set $S \subset Mor(PSh(A))$ of monomorphisms, such that $W$ is the class of weak equivalences of the model structure induced by theorem \ref{ModelStructureFromHomotopicalStructure} from the homotopical structure, def. \ref{HomotopicalStructure}, given by the Lawvere cylinder, def. \ref{LawvereCylinder}, and $AnExt := S$.
+
+1. There is some homotopical structure, def. \ref{HomotopicalStructure}, on $PSh(A)$, such that $W$ is the class of weak equivalences of the model structure corresponding to it by theorem \ref{ModelStructureFromHomotopicalStructure}.
+
+1. There exists a [[cofibrantly generated model category]] on $PSh(A)$ such that $W$ is its class of weak equivalences, and such that the cofibrations are the monomorphisms.
+
+In particular, $PSh(A)$ admits a model structure whose cofibrations are the monomorphisms and whose weak equivalences are the minimal localizer, $W(\emptyset)$. This is called the **minimal model structure** on $PSh(A)$. It is generated from the homotopical datum given by the Lawvere cylinder, example \ref{LawvereCylinder} and the empty set.
+
+=--
+
+([Cisinski 06, theorem 1.4.3](#Cisinski06)))
+
++-- {: .num_remark}
+###### Remark
+
+This may be compared to [[Jeff Smith's theorem]], which constructs a model structure on a [[locally presentable category]]. 
+
+=--
+
+([Cisinski 06, scholie 1.4.6](#Cisinski06)))
+
 
 ## Examples
 
@@ -1467,3 +1529,6 @@ See also
 
 
 [[!redirects Cisinski model structures]]
+
+[[!redirects Cisinski model category]]
+[[!redirects Cisinski model categories]]
