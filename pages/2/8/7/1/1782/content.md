@@ -1,5 +1,6 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Idea
@@ -86,6 +87,8 @@ The $(\infty,1)$-categorical picture is described in
 
 * [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
  {#BlumbergGepnerTabuada}
+
+* [[Clark Barwick]], _On the algebraic K-theory of higher categories, I. The universal property of Waldhausen K-theory_ ([arXiv:1204.3607](http://de.arxiv.org/abs/1204.3607))
 
 For discussion of stable phenomena in algebraic K-theory, see section 4 of 
 
