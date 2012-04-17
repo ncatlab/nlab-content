@@ -830,8 +830,47 @@ $$
   [\Delta^{op}, dSet_{CM}]_{Reedy}
 $$
 
-for its [[Bousfield localization of model categories|left Bousfield localization]] at the set $\{\Delta[n] \cdot \Omega[T] \to \Omega[T]\}_{n \in \Delta, T \in \Omega}$.
+for its [[Bousfield localization of model categories|left Bousfield localization]] at the set 
+
+$$
+  S = 
+  \{\Delta[n] \cdot \Omega[T] \to \Omega[T]\}_{n \in \Delta, T \in \Omega}
+  \,.
+$$
+
 We call this the **locally constant model structure** on simplicial dendroidal sets.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The functors
+
+$$  
+  (const \dashv ev_0)
+  :
+  [\Delta^{op}, dSet_{CM}]_{LocConst}
+   \stackrel{\overset{const}{\leftarrow}}{\underset{ev_0}{\to}}
+  dSet_{CM}
+$$
+
+constitute a [[Quillen equivalence]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The set $\{\Omega[T]\}_{T \in \Omega}$ is a set of generators,
+in that a morphism $f : X \to Y$ in $dSet_{CM}$ is a weak equivalence precisely
+if under the [[derived hom space]] functor 
+$\mathbb{R}Hom(\Omega[T], f)$ is a weak equivalence, for all $T$.
+
+Therefore the localization in def. \ref{LocallyConstantModelStructure}
+is of the general kind  discussed at _[[simplicial model category]]_
+in the section 
+_[Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)_.
 
 =--
 
