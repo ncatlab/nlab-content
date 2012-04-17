@@ -1,3 +1,6 @@
+## Related concepts
+
+[[hyperstructure]]
 
 ## References
 
