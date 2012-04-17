@@ -22,4 +22,5 @@ A useful (if old) survey article which contains a summary of early results on th
 *  E. Curtis, _Simplicial Homotopy Theory_, Advances in Math., 6, (1971), 107 &#8211; 209.
 
 
+[[!redirects minimal Kan fibrations]]
 
