@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _cohomolohgy operation_ is a family of [[morphism]] between [[cohomology groups]], which is [[natural transformation|natural]] with respect to the base space. 
+A _cohomology operation_ is a family of [[morphism]] between [[cohomology groups]], which is [[natural transformation|natural]] with respect to the base space. 
 
 Equivalently, if the [[cohomology theory]] has a [[classifying space]] (as it does for all usual notions of [[cohomology]], in particular for all [[generalized (Eilenberg-Steenrod) cohomology theories]]) then, by the [[Yoneda lemma]], cohomology operations are in natural bijection with [[homotopy]]-classes of morphisms between classifying spaces.
 
