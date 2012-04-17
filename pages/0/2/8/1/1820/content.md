@@ -556,6 +556,9 @@ Those combinatorial model categories that are at the same time [[simplicial mode
 See [[combinatorial simplicial model category]].
 
 
+## Related concepts
+
+* [[Cisinski model structure]]
 
 ## References 
 
