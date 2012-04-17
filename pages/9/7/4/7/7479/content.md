@@ -59,31 +59,37 @@ Specifically the [[Reedy model structure]] of [[simplicial presheaves]] on the [
 ### Connectedness, locality, cohesion
  {#Cohesion}
 
+We discuss the connectedness, locality and cohesion of the Sierpinski topos. We do so relative to an arbitrary [[base topos]]/[[base (∞,1)-topos]] $\mathbf{H}$, hence regard the [[global section geometric morphism]] 
+
+$$
+  \mathbf{H}^I \to \mathbf{H}
+  \,.
+$$
+
 +-- {: .num_prop}
 ###### Proposition
 
 The Sierpinski topos is a _[[cohesive topos]].
 
-=--
-
-+-- {: .proof}
-###### Proof
-
-See the detailed discussion [here](cohesive+topos#FamiliesOfSets).
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
 The Sierpinski $(\infty,1)$-topos is a [[cohesive (∞,1)-topos]].
 
+$$
+  (\Pi \dashv \Disc \dashv \Gamma \dashv coDisc)
+  : 
+  \mathbf{H}^I
+  \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}
+  \mathbf{H}
+  \,.
+$$
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-See the discussion [here](cohesive+%28infinity%2C1%29-topos#CohesiveDiagramToposes).
+For the first statement, see the detailed discussion at _[[cohesive topos]]_ _[here](cohesive+topos#FamiliesOfSets)_.
+
+For the second statement, see the discussion at _[[cohesive (∞,1)-topos]]_  _[here](cohesive+%28infinity%2C1%29-topos#CohesiveDiagramToposes)_.
 
 =--
 
@@ -123,7 +129,7 @@ By the discussion at _[[cohesive (∞,1)-topos]]_ every such may be thought of a
 ###### Remark
 
 
-Accordingly, the objects of the Sierpienski $(\infty,1)$-topos may be thought of as [[∞-groupoids]] equipped with the notion of [[cohesive (∞,1)-topos|cohesion]] modeled on this: they are [[bundles]] $[P \to X]$ of [[∞-groupoids]] whose [[fibers]] are regarded as being [geometrically contractible](cohesive+%28infinity%2C1%29-topos+--+structures#Homotopy), in that
+Accordingly, the objects of the Sierpinski $(\infty,1)$-topos may be thought of as [[∞-groupoids]] (relative to $\mathbf{H}$) equipped with the notion of [[cohesive (∞,1)-topos|cohesion]] modeled on this: they are [[bundles]] $[P \to X]$ of [[∞-groupoids]] whose [[fibers]] are regarded as being [geometrically contractible](cohesive+%28infinity%2C1%29-topos+--+structures#Homotopy), in that
 
 $$
   \Pi([P \to X]) \simeq X
@@ -146,7 +152,7 @@ $$
 
 of the discrete base space and the inner structure of the fibers.
 
-The [[discrete object]] in the Sierpienski $(\infty,1)$-topos on a [[discrete ∞-groupoid]] $X$ is the bundle 
+The [[discrete object]] in the Sierpinski $(\infty,1)$-topos on an object $X \in \mathbf{H}$ is the bundle 
 
 $$
   Disc(X) \simeq [X \stackrel{id}{\to} X]
@@ -154,7 +160,7 @@ $$
 
 which is $X$ with "no cohesive blobs attached".
 
-Finally the [[codiscrete object]] in the Sierpinski $(\infty,1)$-topos on a [[discrete ∞-groupoid]] $X$ is 
+Finally the [[codiscrete object]] in the Sierpinski $(\infty,1)$-topos on an object $X \in \mathbf{H}$ is 
 
 $$
   coDisc(X) \simeq [X \to *]
@@ -163,9 +169,61 @@ $$
 
 the structure where all of $X$ is regarded as one single contractible cohesive ball.
 
-The canonical morphism $\Gamma([P \to X]) \to \Pi([P \to X])$ from "points to pieces" is $P \to X$ itself. Hence 
+The $(\Pi \dashv Disc)$-[[unit |adjunction unit]] 
 
-1. the [[full sub-(∞,1)-category]] on those objects for which "[pieces have points](cohesive%20%28infinity,1%29-topos#PiecesHavePoints)", hence those for which $\Gamma \to \Pi$ is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]], is the $(\infty,1)$-category of effective epimorphisms in the ambient $(\infty,1)$-topos, hence the $(\infty,1)$-category of [[groupoid object in an (∞,1)-category|groupoid objects]] in the ambient $(\infty,1)$-topos;
+$$
+  i :  id \to Disc \Pi
+$$ 
+
+on $[P \to X]$ is
+
+$$
+  \array{
+    \mathllap{[}P &\to& X\mathrlap{]}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathllap{[}X &\to& X\mathrlap{]}
+  }
+  \,.
+$$
+
+The $(Disc  \dashv \Gamma)$-counit $ Disc \Gamma  \to id$ on $[P \to X]$ is
+
+$$
+  \array{
+    \mathllap{[}P &\to& P\mathrlap{]}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathllap{[}P &\to& X\mathrlap{]}
+  }
+  \,.
+$$
+
+
+Hence the canonical [[natural transformation]]
+
+$$
+  \array{
+    \Gamma && \to && \Pi
+    \\
+     & {}_{\mathllap{\Gamma(i)}}\searrow & & \nearrow_{\mathrlap{\simeq}}
+     \\
+     && \Gamma Disc \Pi
+  }
+$$
+
+from "points to pieces" is on $[P \to X]$ simply the morphism $P \to X$ itself
+
+$$
+  (\Gamma \to \Pi)([P \to X]) = (P \to X)
+  \,.
+$$
+
+Therefore
+
+1. the [[full sub-(∞,1)-category]] on those objects in $\mathbf{H}^I$ for which "[pieces have points](cohesive%20%28infinity,1%29-topos#PiecesHavePoints)", hence those for which $\Gamma \to \Pi$ is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]], is the $(\infty,1)$-category of effective epimorphisms in the ambient $(\infty,1)$-topos, hence the $(\infty,1)$-category of [[groupoid object in an (∞,1)-category|groupoid objects]] in the ambient $(\infty,1)$-topos;
 
 1. the full sub-$(\infty,1)$-category on the objects with "[one point per piece](cohesive+topos#ObjectsWithOnePointPerCohesivePiece)" is the ambient $(\infty,1)$-topos itself.
 
