@@ -12,9 +12,10 @@ I call these _absolute_ forms.  The term 'absolute' suggests a lack of additiona
 Examples of absolute forms from classical differential geometry include:
 *  Absolute $0$-forms are the same as ordinary $0$-forms.
 *  Absolute $n$-forms on an $n$-[[dimensional]] manifold are the same as $n$-pseudoforms (and hence the same as [[absolutely continuous measure|absolutely continuous]] [[Radon measures]]).
-*  The [[arclength]] element $\mathrm{d}s = {\|\mathrm{d}\vec{r}\|}$ on a [[Riemannian manifold]] is an absolute $1$-form.  Similarly, the [[surface area]] element is an absolute $2$-form (and we can continue into higher dimensions, although the classical [[volume element]] in $\mathbb{R}^3$ is already covered in the previous item).
+*  The [[arclength]] element $\mathrm{d}s = {\|\mathrm{d}\mathbf{x}\|}$ on a [[Riemannian manifold]] is an absolute $1$-form.  Neither $\mathrm{d}s$ nor $\mathrm{d}\mathbf{x}$ (in general) is actually the differential of anything, but $\mathrm{d}\mathbf{x}$ is the canonical [[tangent vector|vector]]-valued $1$-form (which, on a [[Cartesian space]], really is the differential of the [[identity map]] $\mathbf{x}$), and we really can use the metric to take the magnitude of such a form to get an absolute $1$-form.
+*  Similarly, the [[surface area]] element on a Riemannian manifold is an absolute $2$-form (and we can continue into higher dimensions, although the classical [[volume element]] in $\mathbb{R}^3$ is already covered as a $3$-pseudoform).
 *  In [[complex analysis]], ${|\mathrm{d}z|}$ is an absolute $1$-form sometimes used in [[contour integration]].
-*  Any of the above may be multiplied by a scalar field (which is the same as a $0$-form, hence the same as an absolute $0$-form) to produce another absolute form of the same rank.
+*  Any of the above may be multiplied by a scalar field (which is the same as a $0$-form, hence the same as an absolute $0$-form) to produce another absolute form of the same rank (so $f \,\mathrm{d}s$, $f \,{|\mathrm{d}z|}$, etc).
 
 The main theorem of absolute forms is that, if $\omega$ is a (pseudo)-$p$-form and $\Sigma$ is a (pseudo)-oriented $p$-dimensional submanifold, then
 $$ {|\int_\Sigma \omega|} \leq \int_{|\Sigma|} {|\omega|} ,$$
@@ -23,7 +24,7 @@ where ${|\omega|}$ is an absolute $p$-form (the absolute value of $\omega$), $|{
 
 ## Definitions
 
-Well, that\'s the tricky part, isn\'t it?
+Well, that\'s the tricky part, isn\'t it?  I have some ideas ...
 
 
 [[!redirects absolute differential form]]
