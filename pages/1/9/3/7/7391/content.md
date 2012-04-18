@@ -316,7 +316,7 @@ $$
 
 ([Cis-Moer, cor. 6.5](#CisinskiMoerdijk)).
 
-+-- {: .num_lemma }
++-- {: .num_lemma #JAnodyneExtensionsAreCompleteSegalEquivalences}
 ###### Lemma
 
 For every normal [[dendroidal set]] $A$, the morphism 
@@ -355,7 +355,21 @@ is a cSegal-equivalence by definition.
 
 The second statement now follows using that $[\Omega^{op}, sSet]_{cSegal}$
 is a [[left proper model category]], being the left Bousfield localization
-of a left proper model category.
+of a left proper model category. Using this we have that with
+$(\eta \to J_d) \otimes \partial \Omega[T]$ also its pushout
+$\Omega[T] \to \Omega[T] \cup J_d \otimes \partial \Omega[T]$
+is a weak equivalence, and so by [[two-out-of-three]] with
+the composite
+
+$$
+  (\eta \to J_d)\otimes \Omega[T]
+  =
+  \Omega[T] \to \Omega[T] \cup J_d \otimes \partial \Omega[T]
+  \stackrel{(\eta \to J_d)\bar \otimes (\partial \Omega[T] \to \Omega[T])}{\to}
+  J_d \otimes \Omega[T]
+$$
+
+also the pushout-product itself. 
 
 =--
 
@@ -366,8 +380,36 @@ of prop. \ref{LocalizationAtWeakOperadicEquivalences}
 By [this proposition](http://ncatlab.org/nlab/show/model+structure+on%20dendroidal%20sets#RelationToModelStructureForDendroidalCompleteSegal)
 the acyclic cofibrations between normal dendroidal sets are 
 generated from the $J$-anodyne extensions and closure under left cancellation property.
-Therefore by the above lemma and 2-out-of-3, they are all complete weak 
+Therefore by lemma \ref{JAnodyneExtensionsAreCompleteSegalEquivalences} and 
+[[two-out-of-three]], they are all complete weak 
 equivalences.
+
+Therefore by the [[pushout-product axiom]] in the [[simplicial model category]]
+$[\Omega^{op}, sSet]_{cSegal}$, their [[powering]] into a fibration is an
+acyclic Kan fibration. By [[Joyal-Tierney calculus]] this means that all the 
+pushout-products $(A \to B) \bar \cdot (\partial \Delta[n] \to \Delta[n])$
+have the left lifting property against fibrations, hence that they are weak 
+equivalences in $[\Omega^{op}, sSet]_{cSegal}$.
+
+Since therefore all the morphisms
+$(A \to B) \bar \cdot ( \partial \Delta[n] \to \Delta[n] ) $ are 
+weak equivalences in $[\Omega^{op}, sSet]_{cSegal}$, it is now sufficient
+to show, conversely, that the morphisms that define the complete Segal localization
+are weak equivalence in the localization at these morphisms.
+For the tree horn inclusions this is clear, since they are among the
+localizing maps for $n = 0$. For the morphisms
+$(J_d \to \eta) \otimes \Omega[T]$ observe that 
+
+$$
+  (\eta \to J_d) \bar \otimes (\emptyset \to \Omega[T])
+  = 
+  (\eta \to J_d) \otimes \Omega[T]
+$$
+
+is $J$-anodyne (see _[[Cisinski model structure]]_), hence by
+2-out-of-3 its [[retraction]] 
+$  (J_d \to \eta  ) \otimes \Omega[T]$ is a weak equivalence.
+
 
 =--
 
