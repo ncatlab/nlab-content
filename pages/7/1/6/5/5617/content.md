@@ -51,7 +51,7 @@ For $(X,g)$ an [[orientation|oriented]] (pseudo)-[[Riemannian manifold]] of [[di
 
 ## Generalisations
 
-If $(X,g)$ is unoriented, then the definitions above don't quite make sense, but (at least) the first three can be reinterpreted to give an $n$-[[pseudoform]] instead, the __volume pseudoform__.  (Whether a pseudoform is positive is independent of the orientation, the Hodge operator still takes forms to pseudoforms, and local coordinates for a pseudoform include a local orientation.)
+If $(X,g)$ is unoriented, then the definitions above don't quite make sense, but (at least) the first three can be reinterpreted to give an $n$-[[pseudoform]] instead, the __volume pseudoform__, or __volume element__.  (Whether a pseudoform is positive is independent of the orientation, the Hodge operator still takes forms to pseudoforms, and local coordinates for a pseudoform include a local orientation.)
 
 The concept of volume (pseudo)-form can also be axiomatised: on any $n$-dimensional manifold, a __volume form__ is any $n$-form that is [[positive n-form|positive]] (meaning that its [[integral]] on any [[open submanifold]] is nonnegative) and nondegenerate (meaning that it's nowhere zero).  Altogether, we may say that its integral on any [[inhabited subset|inhabited]] open submanifold is (strictly) positive.  Such a structure is actually equivalent to an [[absolutely continuous measure|absolutely continuous]] positive [[Radon measure]] on $X$.
 
@@ -64,3 +64,5 @@ If I remember correctly, every volume (pseudo)form comes from a metric, which is
 [[!redirects volume forms]]
 [[!redirects volume pseudoform]]
 [[!redirects volume pseudoforms]]
+[[!redirects volume element]]
+[[!redirects volume elements]]
