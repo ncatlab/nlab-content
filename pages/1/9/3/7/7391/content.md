@@ -514,7 +514,7 @@ By prop. \ref{FibrationsInGenReedy}, using $Y = *$.
 Let $X \in [\Omega^{op}, sSet]_{gReedy}$ be fibrant.
 Then the following conditions are equivalent
 
-* $X \in dsSet$ is a complete dendroidal Segal space;
+* $X \in dsSet$ is a dendroidal Segal space, hence fibrant in $[\Omega^{op}, sSet]_{Segal}$;
 
 * for every [[spine]] inclusion $Sp[T] \hookrightarrow \Omega[T]$, the induced morphism  $X^{\Omega[T]} \to X^{Sp[T]}$ is an acyclic Kan fibration;
 
@@ -527,7 +527,7 @@ This appears as ([Cisinski-Moerdijk, cor. 5.6](#CisinskiMoerdijk)).
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{CofibrationsAreNormalMonomorphisms} both the spine and the horn inclusion are morphisms between cofibrant objects
+By prop. \ref{SpineAndHornLocalization} Segal objects are equivalently spine-local and horn-local. By prop. \ref{CofibrationsAreNormalMonomorphisms} both the spine and the horn inclusion are morphisms between cofibrant objects
 in $[\Omega^{op}, sSet]_{gReedy}$. 
 By the general properties of 
 [[Bousfield localization of model categories|left Bousfield localization]] and using that $[\Omega^{op}, sSet]_{gReedy}$ is a [[simplicial model category]] by prop. \ref{SimplicialEnrichment}, 
@@ -545,10 +545,12 @@ precisely if
 
 1. it is fibrant in $[\Omega^{op}, sSet]_{Segal}$;
 
-1. it has the right lifting property against the set
+1. it has the [[right lifting property]] against the set
 
    $$
-     \{ (A \to B) \bar \cdot (\partial \Delta[n] \to \Delta[n]) \}_{(A \to B) \in S, n \in \mathbb{}N}
+     \{ 
+        (A \to B) \bar \cdot (\partial \Delta[n] \to \Delta[n]) 
+     \}_{(A \to B) \in S, n \in \mathbb{N}}
      \,.
    $$
 
@@ -823,7 +825,7 @@ $$
 
 for the evident [[full subcategory]] inclusion of [[dendroidal sets]] into dendroidal simplicial sets induced by regarding a set as a [[discrete object]] in [[simplicial sets]].
 
-+-- {: .num_theorem }
++-- {: .num_theorem #dSetsInjectedIntoSegalIsQuillenEquivalence}
 ###### Theorem
 
 The inclusion
@@ -865,7 +867,9 @@ We call this the **locally constant model structure** on simplicial dendroidal s
 
 =--
 
-+-- {: .num_prop }
+([Cis-Moer, def. 4.6](#CisinskiMoerdijk))
+
++-- {: .num_prop #QuillenEquivalencedSetToLocConst}
 ###### Proposition
 
 The functors
@@ -913,18 +917,12 @@ The fibrant objects in $[\Delta^{op}, dSet_{CM}]_{LocConst}$ are precisely
 +-- {: .proof}
 ###### Proof
 
+The proof is again a special case of the general discussion at _[Simplicial Quillen equivalent models](http://ncatlab.org/nlab/show/simplicial+model%20category#SimpEquivMods)_. Here is a self-contained proof, for completeness.
 
 By standard facts of [[Bousfield localization of model categories|left Bousfield localization]] a simplicial dendroidal set is fibrant in the locally constant model structure, def. \ref{LocallyConstantModelStructure}, precisely if it is fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{Reedy}$ and moreover the [[derived hom-space]] functor $\mathbb{R}Hom_{[\Delta^{op},dSet_{CM}]_{Reedy}}((\Delta[n]\cdot \Omega[T] \to \Omega[T]), X)$ is a weak equivalence for all $n \in \mathbb{N}$. 
 
 We compute this derived hom space now in a maybe slightly non-obvious way, in order to get the result in a form that we can compare to the derived hom in $dSet_{CM}$. First of all, since the derived hom space only depends on the weak equivalences, we may compute it working with the projective [[model structure on functors]]
-$[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$. Here in turn we use the discussion at _[[simplicial model category]]_ in the section _[Simplicial Quillen equivalent models](http://ncatlab.org/nlab/show/simplicial+model+category#SimpEquivMods)_ and compute it by starting with a fibrant object
-
-$$
-  X \in [\Delta^{op}, dSet_{CM}]_{Reedy} \stackrel{id}{\to}
-  [\Delta^{op}, dSet_{CM}]_{proj}
-$$ 
-
-(this identity functor is right Quillen, by the discussion at [[Reedy model structure]]) regarding this as a constant simplical object in $[\Delta^{op},[\Delta^{op}, dSet_{CM}]_{proj}]$ and produce a Reedy fibrant replacement $\hat X$ ("framing") of that:
+$[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$. Here in turn we use as [framing](http://ncatlab.org/nlab/show/%28infinity,1%29-categorical+hom-space#Framings) $\hat X$ of that:
 
 $$
   (const X \stackrel{\simeq}{\to}\hat X ) 
@@ -1068,7 +1066,7 @@ Conversely, one finds with ... and ... that the morphisms in the above set are a
 
 
 
-+-- {: .num_prop }
++-- {: .num_prop #SimplicialDendroidalCoincidesWithDendroidalSimplicial}
 ###### Proposition
 
 Under the canonical identification of categories
@@ -1166,6 +1164,20 @@ The union of the three respective sets coincides in both cases.
 
 =--
 
++-- {: .proof}
+###### Proof 
+**of theorem \ref{dSetsInjectedIntoSegalIsQuillenEquivalence}**
+
+Combining prop. \ref{QuillenEquivalencedSetToLocConst} and
+prop. \ref{SimplicialDendroidalCoincidesWithDendroidalSimplicial} we have
+a total Quillen equivalence
+
+$$
+  const : dSet_{CM} \to [\Delta^{op}, dSet_{CM}]_{LocConst} \simeq [\Omega^{op}, sSet]_{cSegal}
+  \,.
+$$
+
+=--
 
 #### To Segal operads
 
