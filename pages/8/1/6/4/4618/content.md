@@ -83,7 +83,7 @@ This appears as [[Higher Topos Theory|HTT, cor. A.3.7.2]].
 +-- {: .un_remark}
 ###### Remark
 
-This is in particular useful for finding simplicial Quillen adjunctions into [[Bousfield localization of model categories|left Bousfield localizations]] of left proper model categories: the left Bousfield localization preserves the left properness, and the fibrant objects in the Bousfield localized structure have a good characterization: they are the fibrant objects in the original model structure that are also [[local object]]s with respect to the set of morphisms at which one localizes. 
+This is in particular useful for finding simplicial Quillen adjunctions into [[Bousfield localization of model categories|left Bousfield localizations]] of left proper model categories: the left Bousfield localization keeps the cofibrations unchanged and preserves left properness, and the fibrant objects in the Bousfield localized structure have a good characterization: they are the fibrant objects in the original model structure that are also [[local object]]s with respect to the set of morphisms at which one localizes. 
 
 Therefore for $D$ the left Bousfield localization of a simplicial left proper model category $E$ at a [[class]] $S$ of morphisms, for checking the Quillen adjunction property of $(L \dashv R)$ it is sufficient to check that $L$ preserves cofibrations, and that $R$ takes fibrant objects $c$ of $C$ to such fibrant objects of $E$ that have the property that for all $f \in S$ the [[derived hom-space]] map $\mathbb{R}Hom(f,R(c))$ is a weak equivalence.
 
