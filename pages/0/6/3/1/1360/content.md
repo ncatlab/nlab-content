@@ -231,13 +231,16 @@ for the left Bousfield localization of the [[Reedy model structure]] at $S$.
 +-- {: .num_lemma #HocolimOverHomotopyConstantSimplicialDiagram}
 ###### Lemma
 
-If $X \in [\Delta^{op}, C]$ is degreewise cofirbant and has all structure maps being weak equivalences, then all $X_i \to hocolim X$ are weak equivalences.
+Let $C$ be a [[cofibrantly generated model category]].
 
-If $C$ is moreover [[cofibrantly generated model category|cofibrantly generated]], then for any fibrant replacement $Z$ of $hocolim X$ there exists a weak equivalence $X \to const Z$.
+If $X \in [\Delta^{op}, C]$ is degreewise cofibrant and has all structure maps being weak equivalences, then all $X_i \to hocolim X$ are weak equivalences.
+
+Hence $X \to const hocolim X$ is a weak equivalence.
 
 =--
 
-...
+
+It appears as ([Dugger, prop. 5.4 corollary 5.5](#Dugger)). 
 
 +-- {: .num_theorem #LocalizationOfReedyOnSimplicialObjects}
 ###### Theorem
@@ -245,6 +248,9 @@ If $C$ is moreover [[cofibrantly generated model category|cofibrantly generated]
 The model structures from def. \ref{LocalizationOfStructureOnSimplicalObjects} have the following properties.
 
 1. The weak equivalences in both are precisely those morphisms which become weak equivalences under [[homotopy colimit]] over $\Delta^{op}$.
+
+1. The fibrant objects in both are precisely those objects that are fibrant in the corresponding unlocalized structures, and such that all the face and degeneracy maps are weak equivalences in $C$.
+
 
 1. The [[colimit]]/constant [[adjoint functors]]
 
@@ -276,8 +282,6 @@ The model structures from def. \ref{LocalizationOfStructureOnSimplicalObjects} h
      \,;
    $$
 
-1. The fibrant objects in either structure are precisely those objects that are fibrant in the corresponding unlocalized structures, and such that all the face and degeneracy maps are weak equivalences in $C$.
-
 1. The canonical [[sSet]]-[[enriched category|enrichment]]/[[tensoring]]/[[powering]] of the [[category of simplicial objects]] $[\Delta^{op}, C]$ makes $[\Delta^{op}, C]_{Reedy,S}$ (but _not_ in general $[\Delta^{op}, C]_{proj,S}$) into a simplicial model category.
 
 =--
@@ -289,7 +293,7 @@ So in particular every [[proper model category|left proper]] [[combinatorial mod
 +-- {: .proof}
 ###### Proof
 
-We first show that the fibrant objects in $[\Delta^{op}, C]_{proj,S}$ are the objectwise fibrant objects all whose structure maps are weak equivalences in $C$.
+We first show that the fibrant objects in $[\Delta^{op}, C]_{proj,S}$ are the objectwise fibrant objects all whose structure maps are weak equivalences in $C$. The argument for the fibrant objects in $[\Delta^{op}, C]_{Reedy,S}$ is directly analogous.
 
 By general properties of [[Bousfield localization of model categories|left Bousfield localization]], the 
 fibrant objects in $[\Delta^{op}, C]_{proj,S}$ are the projective fibrant objects $X$ for which all induced morphisms on [[derived hom spaces]]
@@ -412,6 +416,65 @@ $$
 $$
 
 of the identity on $Z$, for any $i \in \mathbb{N}$. By lemma \ref{HocolimOverHomotopyConstantSimplicialDiagram} the first morphism is a weak equivalence, and hence so is the morphism in question.
+
+$\,$
+
+Now we show that the weak equivalences in $[\Delta^{op}, C]_{Reedy,S}$ are the hocolim-equivalences. 
+
+By a general result on [functoriality of localization](Bousfield+localization+of+model+categories#FunctorialityOfLocalization), we have that the $(id \dashv id ) : [\Delta^{op}, C]_{Reedy,S} \stackrel{\leftarrow}{\to} [\Delta^{op}, C]_{proj,S}$ is at least a [[Quillen adjunction]]. 
+
+Let then $A \to B$ be a morphism in $[\Delta^{op}, C]$ and consider two fibrant replacements
+
+$$
+  \array{
+    A &\to& \bar A &\to & \hat A
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    B &\to& \bar B &\to& \hat B
+  }
+  \,,
+$$
+
+where the first one ($\bar A \to \bar B$) is taken in $[\Delta^{op}, C]_{proj,S}$ and the second (\hat A \to \hat B) in $[\Delta^{op}, C]_{Reedy}$. 
+
+Assume first that $A \to B$ is a hocolim-equivalence. Then so is $\hat A \to \hat B$, because the horizontal morphisms are all objectwise weak equivalences. But $\hat A$ and $\hat B$ are fibrant in $[\Delta^{op}, C]_{Reedy}$, hence in $[\Delta^{op}, C]_{proj}$ by construction and at the same time all their structure maps are weak equivalences (use 2-out-of-3), so that they are in fact fibrant in $[\Delta^{op}, C]_{proj,S}$. By general properties of left Bousfield localization, weak equivalences between local fibrant objects are already weak equivalences in the unlocalized structure -- so $\hat A \to \hat B$ is indeed even an objectwise weak equivalence. It follows then that so is $\bar A \to \bar B$, which is therefore in partiular a weak equivalence in $[\Delta^{op}, C]_{Reedy, S}$. Finally the left horizontal morphisms are also weak equivalences in $[\Delta^{op}, C]_{Reedy,S}$, by the above Quillen adjunction. So finally by 2-out-of-3 in $[\Delta^{op}, C]_{Reedy,S}$ it follows that also $A \to B$ is a weak equivalence there.
+
+By an analogous diagram chase, one shows the converse implication holds, that $A \to B$ being a weak equivalence in $[\Delta^{op}, C]_{Reedy,S}$ implies that it is a hocolim-equivalence.
+
+With this now it is clear that the identity adjunction above is in fact a Quillen equivalence.
+
+$\,$
+
+Finally we show that $(const \dashv ev_0) : [\Delta^{op}, C]_{Reedy,S}
+\stackrel{\overset{const}{\leftarrow}}{\underset{ev_0}{\to}} C$ is a Quillen equivalence. 
+
+First, it is immediate to check that $const : C \to [\Delta^{op}, C]_{Reedy}$ is left Quillen, and since $id : [\Delta^{op}, C]_{Reedy} \to [\Delta^{op}, C]_{Reedy,S}$ is left Quillen by definition of Bousfield localization, the above is at least a Quillen adjunction.
+
+To see that it is a Quillen equivalence, let $A \in C$ be cofibrant and $X \in [\Delta^{op}, C]_{Reedy,S}$ be fibrant -- which by the above means that it is a simplicial resolution -- and consider a morphism $const A \to X$. We need to show that this is a weak equivalence, hence, by the above, that its hocolim is a weak equivalence, precisely if $A \to X_0$ is a weak equivalence in $C$.
+
+To that end, find a cofibrant resolution $const \tilde A \to \tilde X$ of $const A \to X$ in $[\Delta^{op}, C]_{proj}$ and consider the diagram
+
+$$
+  \array{
+    A &\stackrel{\simeq}{\leftarrow}&  \tilde A &\stackrel{\simeq}{\to}&
+    colim(const \tilde A)
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X_0 &\stackrel{\simeq}{\leftarrow}& \tilde X_0
+    &\stackrel{\simeq}{\to}& colim \tilde X
+  }
+  \,.
+$$
+
+The colimits on the right compute the homotopy colimit. By 2-out-of-3 it 
+follows that the right vertical morphism is a weak equivalence precisely
+if the left vertical morphisms is.
+
+$\,,$
+
+Finally it remains to show that $[\Delta^{op}, C]_{Reedy,S}$ is a simplicially enriched model category. (...)
 
 =--
 
