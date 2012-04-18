@@ -110,13 +110,13 @@ Nevertheless, if we fix a quiver $G$ and a category $D$, then a [[quiver represe
 
 ## Link to representation theory of algebras
 
-For $Q$ a quiver, write $k Q$ for the path algebra of $Q$
-over a ground field $k$.  Now $k Q$ is an algebra with $k$-basis given by finite composable sequences of arrows in $Q$, including a "lazy path" of
-length zero at each vertex.  
+For $Q$ a quiver, write $k Q$ for the _path algebra_ of $Q$
+over a ground field $k$.  That is, $k Q$ is an algebra with $k$-basis given by finite composable sequences of arrows in $Q$, including a "lazy path" of
+length zero at each vertex. The product of two paths composable paths is their composite, and the product of non-composable paths is zero. 
 
 A module over $k Q$ is the same thing as a representation of $Q$, so the theory of representations of quivers can be viewed within the broader context of representation theory of (associative) algebras.  
 
-If $Q$ is acyclic, then $k Q$ is finite-dimensional as a vector space, so in studying representations of $Q$, we are really studying representations of a finite dimensional algebra, for which many interesting tools exist 
+If $Q$ is acyclic, then $k Q$ is finite-dimensional as a vector space, so in studying representations of $Q$, we are really studying representations of a finite dimensional algebra, for which  many interesting tools exist 
 (Auslander-Reiten theory, tilting, etc.).
 
 
