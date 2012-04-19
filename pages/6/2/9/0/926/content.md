@@ -243,15 +243,21 @@ Orginal references include
 * P. I. Booth, _An explicit classification of three-stage Postnikov towers_, Homology, homotopy and applications 8 (2006), No. 2, 133--155
 * G. Ellis and R. Mikhailov, _A colimit of classifying spaces_, [arXiv:0804.3581](http://www.arxiv.org/abs/0804.3581).
 
-A standard textbook reference is section VI of 
-
-* [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_
-  {#GoerssJardine}
-
-A classical article that amplifies the expression of Postnikov towers in terms of [[coskeleton]]s is
+A classical article that amplifies the expression of Postnikov towers in terms of [[coskeleta]] is
 
 * [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
  {#DwyerKan}
+
+
+A standard textbook reference is section 8 of 
+
+* [[Peter May]], _Simplicial methods in algebraic topology_  ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
+
+and section VI of 
+
+* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_
+  {#GoerssJardine}
+
 
 Analogous remarks are also in
 
