@@ -17,14 +17,58 @@ Examples of absolute forms from classical differential geometry include:
 *  In [[complex analysis]], ${|\mathrm{d}z|}$ is an absolute $1$-form sometimes used in [[contour integration]].
 *  Any of the above may be multiplied by a scalar field (which is the same as a $0$-form, hence the same as an absolute $0$-form) to produce another absolute form of the same rank (so $f \,\mathrm{d}s$, $f \,{|\mathrm{d}z|}$, etc).
 
-The main theorem of absolute forms is that, if $\omega$ is a (pseudo)-$p$-form and $\Sigma$ is a (pseudo)-oriented $p$-dimensional submanifold, then
-$$ {|\int_\Sigma \omega|} \leq \int_{|\Sigma|} {|\omega|} ,$$
-where ${|\omega|}$ is an absolute $p$-form (the absolute value of $\omega$), $|{\Sigma}|$ is simply $\Sigma$ with its (pseudo)-orientation ignored, and the absolute value on the left is the ordinary absolute value of scalars.  (This theorem also applies if we start with an absolute $p$-form $\omega$, although in that case $\Sigma$ starts out unoriented and so is the same as ${|\Sigma|}$.)
+The main theorem of absolute forms is that, if $\omega$ is a (pseudo)-$p$-form and $R$ is a (pseudo)-oriented $p$-dimensional submanifold, then
+\[ {|\int_R \omega|} \leq \int_{|R|} {|\omega|} ,\label{subadditivity} \]
+where ${|\omega|}$ is an absolute $p$-form (the absolute value of $\omega$), $|{R}|$ is simply $R$ with its (pseudo)-orientation ignored, and the absolute value on the left is the ordinary absolute value of scalars.  (This theorem also applies if we start with an absolute $p$-form $\omega$, although in that case $R$ starts out unoriented and so is the same as ${|R|}$.)
 
 
 ## Definitions
 
-Well, that\'s the tricky part, isn\'t it?  I have some ideas ...
+Let $X$ be a [[smooth manifold]] (or similar sort of space), and let $p$ be a [[natural number]] (typically $0 \leq p \leq n$, where $n$ is the [[dimension]] of $X$).  Recall that an (exterior differential) __$p$-[[exterior differential form|form]]__ $\omega$ on $X$ is a [[function]] that assigns a [[real number] (or whatever is the relevant sort of scalar) $\omega_c(v_1,\ldots,v_n)$ to a point $c$ in $X$ and a $p$-[[tuple]] $(v_1,\ldots,v_p)$ of [[tangent vectors]] at $c$, [[multilinear form|multilinearly]] and [[alternating form|alternating]] in the $v_i$.  Similarly, a __$p$-[[pseudoform]]__ $\omega$ on $X$ is a function that assigns a scalar $\omega_c^o(v_1,\ldots,v_p)$ to a point $c$ in $X$, a local [[orientation]] $o$ at $c$, and a $p$-tuple $(v_1,\ldots,v_p)$ of tangent vectors at $c$, multilinearly and alternating in the $v_i$ and reversing sign under a reversal of $o$.
+
++-- {: .num_defn}
+###### Definition
+An __absolute $p$-form__ $\omega$ on $X$ is a function that assigns a scalar $\omega_c(v_1,\ldots,v_p)_S^o$ to a point $c$ in $X$, a $p$-dimensional subspace $S$ of the [[tangent space]] at $c$, an [[orientation]] $o$ of $S$, and a $p$-[[tuple]] $(v_1,\ldots,v_p)$ of tangent vectors in $S$, multilinearly and alternating in the $v_i$, reversing sign under a reversal of $o$, and (jointly) [[continuous map|continuous]] in $S$, $o$, and the $v_i$.
+=--
+
+Note that the multilinearity condition here is rather weaker than for a (pseudo)-form, since we specify $S$ first.  Since $S$ is determined by the $v_i$ (at least if they\'re linearly independent, and this case is enough to determine $\omega$ by linearity), this is essentially all that $S$ does.  Shifting $v_1$ slightly outside of $S$ loses all connection provided by the multilinearity condition, which is why we add a continuity condition.  (Continuity holds for (pseudo)-forms automatically, as a consequence of multilinearity.)
+
++-- {: .num_remark}
+###### Remark
+I\'m not sure that the continuity condition is actually strong enough.  Should it be uniformly continuous?  Do I even know what that means?
+=--
+
+Note also that an absolute $n$-form on an $n$-dimensional manifold $X$ is the same thing as an $n$-pseudoform.  ($S$ must be the entire tangent space $T_c{X}$, so $o$ is the same data either way, and continuity follows from multilinearity.)  Similarly, an absolute $0$-form on any manifold is the same thing as a $0$-form.  ($S$ must be the zero space, so $o$ is either positive or negative; we identify the absolute $0$-form $\omega$ with the $0$-form $\omega^+$.)
+
+An absolute $p$-form $\omega$ is __[[continuous map|continuous]]__ if it is jointly continuous in all of its data ($c$ as well as $S$, $o$, and the $v_i$).  For the moment, we decline to define differentiability of absolute $p$-forms.
+
+A [[real number|real]]-valued absolute $p$-form $\omega$ is (weakly) __positive__ if $\omega_c(v_1,\ldots,v_p)_S^o \geq 0$ whenever the $v_i$ are linearly independent and $o$ matches the orientation of $S$ induced by the $v_i$.  Then $\omega$ is __strictly positive__ if $\omega_c(v_1,\ldots,v_n)_S^o \gt 0$ under the same conditions.
+
+Given an absolute $p$-form $\omega$, its __[[absolute value]]__ ${|\omega|}$ is a positive absolute $p$-form.  We define ${|\omega|}$ as follows:
+$$ {|\omega|}_c(v_1,\ldots,v_n)_S^o \coloneqq {|\omega_c(v_1,\ldots,v_n)_S^o|} $$
+if the $v_i$ are linearly independent and $o$ matches the orientation of $S$ induced by the $v_i$, and this determines ${|\omega|}$ by multilinearity.  If we start with a $p$-form or a $p$-pseudoform $\omega$, then essentially the same definition defines a positive absolute $p$-form ${|\omega|}$.  (On the right-hand side, we leave out $S$, along with $o$ in the case of a $p$-form; for a $p$-pseudoform, we ignore the original $o$ and use either local orientation at $c$, since the result is the same either way.)  Note that ${|\omega|}$ is continuous if $\omega$ is.
+
+Given an absolute $p$-form $\omega$ and a $0$-form (a scalar field) $f$, their __product__ $f\omega$ is an absolute $p$-form.  We define $f\omega$ as follows:
+$$ (f\omega)_c(v_1,\ldots,v_n)_S^o \coloneqq f(c)\omega_c(v_1,\ldots,v_n)_S^o .$$
+For the moment, we decline to define products of absolute forms of aribtrary rank.
+
+Given an absolute $p$-form $\omega$ on $X$, a manifold $U$, and a map $R\colon U \to X$, the __pullback__ $R^*\omega$ is an absolute $p$-form on $U$.  We define $R^*\omega$ as follows:
+$$ R^*\omega_c(v_1,\ldots,v_n)_{T_c{U}}^o \coloneqq \omega_{R(c)}(R_*v_1,\ldots,R_*v_n)_S^{R_*o} .$$
+On the left-hand side, $T_c{U}$ is $p$-dimensional and so its only $p$-dimensional subspace; on the right-hand side, $R_*v_i$ is the [[pushforward]] of $v_i$ under $R$, $S$ is any subspace of $T_{R(c)}X$ that includes the $R_*v_i$, and $R_*o$ is any orientation of $S$ with the property that, if the $R_*v_i$ are linearly independent, then $R_*o$ is the pushforward of $o$ under $R$ (which exists because in that case $R$ must be an [[immersion]] at $c$).  The right-hand side is independent of the $S$ and $R_*o$ chosen, essentially because, if there is any choice to make, $R^*\omega_c$ must be zero regardless.  Note that $R^*\omega$ is continuous if $\omega$ is.
+
+Given a continuous absolute $p$-form $\omega$ on $X$, a $p$-dimensional manifold $U$, and a map $R\colon U \to X$, the __integral__ $\int_R \omega$ is a scalar.  We define $\int_R \omega$ as follows:
+$$ \int_R \omega \coloneqq \int_U R^*\omega .$$
+On the right-hand side, $R^*\omega$ is a continuous absolute $p$-form on $U$, but since $U$ is $p$-dimensional, this is the same as a continuous $p$-pseudoform on $U$, and we already know how to integrate this.
+
+
+## Examples
+
+(See the Idea section for now.)
+
+
+## References
+
+* A [Usenet post](https://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90?dmode=source) by [[Toby Bartels]] defines $\int_R {|\omega|}$ (for $\omega$ a (pseudo)-$p$-form and $R$ a $p$-dimensional submanifold), but without making sense of ${|\omega|}$ itself (near the end of the post).
 
 
 [[!redirects absolute differential form]]
