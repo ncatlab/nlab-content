@@ -70,7 +70,7 @@ from the [[arrow category]] of $C$.  (Note that unless $C$ has [[pullbacks]], th
 ### Adjunctions on overcategories
  {#Adjunction}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let
@@ -114,7 +114,7 @@ Let $C$ be a [[category]], $c$ an [[object]] of $C$ and let $C/c$ be the [[over 
 $PSh(C/c) = [(C/C)^{op}, Set]$ for the [[category of presheaves]] on $C/c$ and write
 $PSh(C)/Y(y)$ for the [[over category]] of [[presheaf|presheaves]] on $C$ over the presheaf $Y(c)$, where $Y : C \to PSh(c)$ is the [[Yoneda embedding]]. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -161,7 +161,7 @@ $$
 =--
 
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 Suppose the presheaf $F \in PSh(C/c)$ does not actually depend on the morphsims to $C$, i.e. suppose that it factors through the forgetful functor from the [[over category]] to $C$:
@@ -189,9 +189,9 @@ For the analog statement in [[(∞,1)-category]] theory see
 at [[(∞,1)-category of (∞,1)-presheaves]].
 
 
-### Limits
+### Limits and colimits
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A  [[limit]] in an [[under category]] is computed as a limit in the underlying category.
@@ -276,11 +276,17 @@ thus identifies it with $\lim F$.
 
 =--
 
-* Remark: One often says "$p$ reflects limits" to express the conclusion of this proposition. A conceptual way to consider this result is by appeal to a more general one: if $U: A \to C$ is [[monadic functor|monadic]] (i.e., has a left adjoint $F$ such that the canonical comparison functor $A \to (U F)-Alg$ is an equivalence), then $U$ both reflects and preserves limits. In the present case, the projection $p: A = t/C \to C$ is monadic, is essentially the category of algebras for the monad $T(-) = t + (-)$, at least if $C$ admits binary coproducts. (Added later: the proof is even simpler: if $U: A \to C$ is the underlying functor for the category of algebras of an _endofunctor_ on $C$ (as opposed to algebras of a monad), then $U$ reflects and preserves limits; then apply this to the endofunctor $T$ above.) 
+* Remark: One often says "$p$ [[reflected limit|reflects limits]]" to express the conclusion of this proposition. A conceptual way to consider this result is by appeal to a more general one: if $U: A \to C$ is [[monadic functor|monadic]] (i.e., has a left adjoint $F$ such that the canonical comparison functor $A \to (U F)-Alg$ is an equivalence), then $U$ both reflects and preserves limits. In the present case, the projection $p: A = t/C \to C$ is monadic, is essentially the category of algebras for the monad $T(-) = t + (-)$, at least if $C$ admits binary coproducts. (Added later: the proof is even simpler: if $U: A \to C$ is the underlying functor for the category of algebras of an _endofunctor_ on $C$ (as opposed to algebras of a monad), then $U$ reflects and preserves limits; then apply this to the endofunctor $T$ above.) 
 
 
++-- {: .num_prop }
+###### Proposition
 
+For $C$ a category, $X : D \to C$ a [[diagram]], $C/X$ the [[comma category]] (over-category if $D$ is the point) and $F : K \to C/X$ a diagram in the comma category, then the limit $\lim_{\leftarrow} F$ in $C/X$ coincides with the limit $\lim_{\leftarrow} F/X$ in $C$. 
+ 
+=--
 
+For a proof see at [[(∞,1)-limit]]  _[here](limit+in+a+quasi-category#InOvercategories)_.
 
 
 
