@@ -59,10 +59,10 @@ the [[counit of an adjunction|counit]] of this adjunction is the defining inclus
 
 So if $(* \to X) \in sSet^{*/}$ such that $X \in sSet$ is a [[Kan complex]] and [[n-connected|(n-1)-connected]], then the [[counit of an adjunction|counit]] $E_n(X,*) \to X$   is a [[homotopy equivalence]].
 
-Accordingly, the coreflection presents the inclusion of [[n-connected|(n-1)-connected]] [[infinity-groupoids]] into all [[pointed object|pointed]] [[infinity-groupoids]]
+Accordingly, the coreflection presents the inclusion of [[n-connected|(n-1)-connected]] [[pointed object|pointed]] [[infinity-groupoids]] into all [[pointed object|pointed]] [[infinity-groupoids]]
 
 $$
-  \infty Grpd_{\geq (n-1)} \hookrightarrow \infty Grpd^{*/}
+  \infty Grpd_{\geq (n-1)}^{*/} \hookrightarrow \infty Grpd^{*/}
   \,.
 $$
 
