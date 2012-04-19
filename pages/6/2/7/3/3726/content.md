@@ -250,6 +250,12 @@ and hence $f$ is full.
 
 See also [[(eso+full, faithful) factorization system]].
 
+## Related concepts
+
+* [[n-truncated object in an (infinity,1)-category]]
+
+* [[Eilenberg subcomplex]]
+
 ## References
 
 Section 6.5.1 of 
