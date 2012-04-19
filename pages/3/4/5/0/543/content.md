@@ -93,7 +93,7 @@ that naturally yield directly $A_\infty$-categories instead of dg-categories.
 
 ## More general $A_\infty$-categories ##
 
-In the widest sense, "$A_\infty$-category" may be used as a term for a category in which the [[composition]] operation constitutes an algebra over an [[operad]] which resolves in some sense the associative operad $Ass$.
+In the widest sense, ``$A_\infty$-category" may be used as a term for a category in which the [[composition]] operation constitutes an algebra over an [[operad]] which resolves in some sense the associative operad $Ass$.
 
 One should be aware, though, that this use of the term is not understood by default in the large body of literature concerned with the above linear notion.
 
