@@ -10,14 +10,14 @@
 =--
 
 # Contents
-* toc
+* table of contents
 {: toc}
 
-The assumption that every set has a **Weakly Initial Set of Covers**, or $WISC$, is a weak form of the [[axiom of choice]].  Like the [[axiom of multiple choice]] and the axiom of [[small violations of choice]] (which both imply it), it says intuitively that "$AC$ fails to hold only in a small way" (i.e. not in a [[proper class|proper-class]] way).
+The assumption that every [[set]] has a **Weakly Initial Set of Covers**, or $WISC$, is a weak form of the [[axiom of choice]].  Like the [[axiom of multiple choice]] and the axiom of [[small violations of choice]] (which both imply it), it says intuitively that "$AC$ fails to hold only in a small way" (i.e. not in a [[proper class|proper-class]] way).
 
 ## Statement (for Sets)
 
-Precisely, $WISC$ is the statement that for any set $X$, the full subcategory $(Set/X)_{surj}$ of the [[slice category]] $Set/X$ consisting of the [[surjections]] has a [[weakly initial set]].  In other words, there is a family of surjections $\{f_i\colon P_i \twoheadrightarrow X\}_{i\in I}$ such that for any surjection $Q\twoheadrightarrow X$, there exists some $f_i$ which factors through $Q$.
+Precisely, $WISC$ is the statement that for any [[set]] $X$, the [[full subcategory]] $(Set/X)_{surj}$ of the [[slice category]] $Set/X$ consisting of the [[surjections]] has a [[weakly initial set]].  In other words, there is a family of surjections $\{f_i\colon P_i \twoheadrightarrow X\}_{i\in I}$ such that for any surjection $Q\twoheadrightarrow X$, there exists some $f_i$ which factors through $Q$.
 
 
 ## Relationships to other axioms
