@@ -36,6 +36,13 @@ For applications in [[derived categories]] of [[D-brane]]s in [[Landau-Ginzburg 
 
 * Anatoly Preygel, _Thom-Sebastiani and duality for matrix factorizations_ [arXiv:1101.5834](http://arxiv.org/abs/1101.5834)
 
-* Jonathan Block, _Duality and equivalence of module categories in noncommutative geometry_, [pdf](http://www.math.upenn.edu/~blockj/papers/BottVolume.pdf), in R. Bott Memorial Volume
+An natural construction of curved dg-algebras as de Rham / Dolbeault complexes on a [[circle n-bundle with connection|circle 2-bundle with connection]] is in 
+
+* [[Jonathan Block]], _Duality and equivalence of module categories in noncommutative geometry_, [pdf](http://www.math.upenn.edu/~blockj/papers/BottVolume.pdf), in R. Bott Memorial Volume
+
+and with more details in section 2 of
+
+* [[Jonathan Block]], Calder Daenzer, _Mukai duality for gerbes with connection_ ([arXiv:0803.1529v2](http://arxiv.org/abs/0803.1529v2))
+
 
 [[!redirects curved dg-algebras]]
