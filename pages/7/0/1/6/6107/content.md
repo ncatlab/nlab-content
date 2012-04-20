@@ -34,6 +34,8 @@ For applications in [[derived categories]] of [[D-brane]]s in [[Landau-Ginzburg 
 
 * [[Dmitri Orlov]], _Derived Categories of Singularities and D-branes in Landau-Ginzburg models_ , ([arXiv:math.ag/0503632](http://arxiv.org/abs/math.ag/0503632))
 
-* Anatoly Preygel, _Thom-Sebastiani & Duality for Matrix Factorizations_ ([arXiv:1101.5834](http://arxiv.org/abs/1101.5834))
+* Anatoly Preygel, _Thom-Sebastiani and duality for matrix factorizations_ [arXiv:1101.5834](http://arxiv.org/abs/1101.5834)
+
+* Jonathan Block, _Duality and equivalence of module categories in noncommutative geometry_, [pdf](http://www.math.upenn.edu/~blockj/papers/BottVolume.pdf), in R. Bott Memorial Volume
 
 [[!redirects curved dg-algebras]]
