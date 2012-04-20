@@ -1,5 +1,5 @@
 
-* [website](http://geometrie.math.uni-potsdam.de/index.php/de/mitarbeiter/dr-frank-pfaeffle)
+* [website](http://www.math.uni-bonn.de/people/pfaeffle/)
 
 ## related $n$Lab entries
 
