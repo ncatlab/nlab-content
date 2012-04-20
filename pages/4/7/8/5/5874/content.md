@@ -30,3 +30,8 @@ $$
 on the classifying space of the circle 2-group, which is really the [[identity]] up to equivalence (a [[weak homotopy equivalence]]).
 
 This means conversely that the [[equivalence class]] of a [[bundle gerbe]] is entirely characterized by its Dixmier-Douady class.
+
+## References
+
+* [[Jacques Dixmier]], [[Adrien Douady]], ...
+
