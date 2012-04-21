@@ -19,7 +19,7 @@
 
   * [[first-order formulation of gravity]], [[D'Auria-Fre formulation of supergravity]]
 
-  * [[gravity as a BF-theory]], [[Plebanski formulation of gravity]]
+  * [[gravity as a BF-theory]], [[Plebanski formulation of gravity]], [[teleparallel gravity]]
 
 ## Spacetime configurations
 
