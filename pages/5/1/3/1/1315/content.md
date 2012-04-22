@@ -37,20 +37,20 @@ with
 
 which is _thin_ in that it doesn't sweep out any surface: every $2$-form pulled back to it vanishes:
 
-* $\forall B \in \Omega^2(X) : \Sigma^* B = 0$.
+* $\forall B \in \Omega^2(X)\colon \Sigma^* B = 0$.
 =--
 
 +-- {: .un_defn}
-######Definition
-A path $\gamma : [0,1] \to X$ has **[[sitting instant]]s** if there is a neighbourhood of the boundary of $[0,1]$ such that $\gamma$ is constant restricted to that.
+###### Definition
+A path $\gamma\colon [0,1] \to X$ has **[[sitting instants]]** if there is a neighbourhood of the boundary of $[0,1]$ such that $\gamma$ is locally constant restricted to that.
 =--
 
 +-- {: .un_defn}
-######Definition
+###### Definition
 The **path groupoid** $P_1(X)$ is the [[diffeological groupoid]] that has
 
 * $Obj(P_1(X)) = X$
-* $P_1(X)(x,y) = \{$thin-homotopy classes of paths $\gamma : x \to y $ with sitting instants $\}$.
+* $P_1(X)(x,y) = \{$thin-homotopy classes of paths $\gamma\colon x \to y $ with sitting instants$\}$.
 
 Composition of paths comes from concatenation and reparameterization of representatives. The quotient by thin-homotopy ensures that this yields an associative composition with inverses for each path.
 =--
