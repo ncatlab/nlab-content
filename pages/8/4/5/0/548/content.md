@@ -176,7 +176,12 @@ $$
 
 Moreover, if $G \in Grp^{\Delta^{op}}$ is an [[n-group]], then it is equivalent to a [[coskeleton|n-coskeletal]] simplicial group. For $n = 2$ one finds that these are naturally idetified with _[[crossed modules]]_ of groups (see there for more details).
 
-In conclusion, this means that the [[(2,1)-category]] $2Grp$ of 2-groups is [[equivalence of (infinity,1)-categories|equivalent]] to the [[simplicial localization]] of the [[category with weak equivalences]] whose
+In conclusion, this means that 
+
++-- {: .num_prop #PresentationOf2GrpByCrossedModules}
+###### Proposition
+
+The [[(2,1)-category]] $2Grp$ of 2-groups is [[equivalence of (infinity,1)-categories|equivalent]] to the [[simplicial localization]] of the [[category with weak equivalences]] whose
 
 * objects are [[crossed modules]]
 
@@ -184,9 +189,11 @@ In conclusion, this means that the [[(2,1)-category]] $2Grp$ of 2-groups is [[eq
 
 * weak equivalences are those morphisms of crossed modules which correspond to [[weak homotopy equivalences]] of the corresponding simplicial groups.
 
+=--
+
 A straightforward analysis shows that
 
-+-- {: .num_prop}
++-- {: .num_prop #HomotopyGroupsOfCrossedModule}
 ###### Proposition
 
 For $(G_1 \stackrel{\delta}{\to} G_0, G_0 \stackrel{\alpha}{\to} Aut(G_1))$ a [[crossed module]], the [[homotopy groups]] of the corresponding [[2-group]]/[[simplicial group]] are
@@ -210,11 +217,9 @@ Similar statements hold for 2-groups with extra structure. For instance the $(2,
 
 ## Examples 
 
-### Strict 2-groups
+### Specific examples
 
-Since strict 2-groups are equivalent to [[crossed module]]s, see the examples listed there.
-
-### Automorphism 2-groups 
+#### Automorphism 2-groups 
 
 For $C$ any [[2-category]] and $c \in C$ any object of it, the category $Aut_C(c) \subset Hom_C(c,c)$ of auto-equivalences of $c$ and invertible 2-morphisms between these is naturally a 2-group, whose group product comes from the horizontal composition in $C$.
 
@@ -228,13 +233,104 @@ $$
 
 corresponding to the [[crossed module]] $(H \stackrel{Ad}{\to} Aut(H))$, where $Aut(H)$ is the ordinary [[automorphism group]] of $H$.
 
-### Inner automorphism 2-groups
+#### Inner automorphism 2-groups
 
 See [[inner automorphism 2-group]].
 
-### String 2-group
+#### String 2-group
 
 See [[string 2-group]].
+
+### Equivalences of 2-groups
+ {#ExamplesForEquivalencesOf2Groups}
+
+We discuss some weak equivalences in the [[category with weak equivalences]] of [[crossed modules]] and crossed module homomorphisms, which presents $2Grp$ by the discussion [above](#PresentationByCrossedModules).
+
+#### From inclusions of normal subgroups
+ {#FromInclusionsOfNormalSubgroups}
+
+Let $G$ be a [[group]] and $N \hookrightarrow G$ the inclusion of a [[normal subgroup]]. Equipped with the canonical [[action]] of $G$ on $N$ by [[conjugation]], this inclusion constitutes a [[crossed module]]. There is a canonical morphism of crossed modules from $(N \hookrightarrow G)$ to $(1 \to G/N)$, hence to the ordinary [[quotient]] group, regarded as a crossed module.
+
++-- {: .num_prop}
+###### Observation
+
+The morphism $(N \hookrightarrow G) \to G/N$ is a weak equivalence of crossed modules,  prop. \ref{PresentationOf2GrpByCrossedModules}. Accordingly, it presents an [[equivalence in an (infinity,1)-category|equivalence]] of 2-groups.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The canonical morphism in question is given by the commuting diagram of groups
+
+$$
+  \array{
+    N &\stackrel{f_1}{\to}& 1
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\stackrel{f_2}{\to}& G/N
+  }
+  \,.
+$$
+
+By prop. \ref{HomotopyGroupsOfCrossedModule} we need to check that this induces an isomorphism on the [[kernel]] and [[cokernel]] of the vertical morphisms.
+
+The kernel of the left vertical morphism is the trivial group, because $N \hookrightarrow G$ is an inclusion, by definition. Clearly also the kernel of the right vertical morphisms is the trivial group. Hence $f_1$ restricted to the kernels is the unique morphism from the trivial group to itself, hence is an isomrphism.
+
+Moreover, the cokernel of the left vertical morphism is of course the quotient $G/N$ and $f_0$, being the quotient map, is manifestly an isomorphism on cokernels.
+
+=--
+
+This class of weak equivalence plays an important role as constituting [[∞-anfunctor|2-anafunctors]] that exhibit long [[fiber sequence]] extensions of [[short exact sequences]] of [[central extensions]] of groups.
+
++-- {: .num_prop}
+###### Observation
+
+Let $A \to \hat G$ be the inclusion of a [[center|central]] subgroup, exhibiting a [[central extension]] $A \to \hat G \to G$ with $G := \hat G/A$. Then this [[short exact sequence]] of groups extends to a long [[fiber sequence]] of 2-groups
+
+$$
+  A \to \hat G \to G \to \mathbf{B}A \to \mathbf{B}\hat G \to \mathbf{B}G \to \mathbf{B}2 A
+  \,,
+$$
+
+where $\mathbf{B}A$ denotes the 2-group given by the [[crossed module]] $(A \to 1)$, and similarly for the other cases.
+
+Here the [[connecting homomorphism]] $G \to \mathbf{B}A$ is presented in the category of crossed modules by a zig-zag / [[anafunctor]] whose left leg is the above weak equivalence:
+
+$$
+  (1 \to G) \stackrel{\simeq}{\leftarrow}
+  (A \to \hat G)
+   \to 
+  (A \to 1)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For smooth 2-groups, useful examples of the above are smooth refinements of various [[universal characteristic classes]]:
+
+* the second [[Stiefel-Whitney class]] 
+
+  $$
+    w_2 : \mathbf{B}Spin \to \mathbf{B}\mathbb{Z}_2
+  $$ 
+
+  is induced this way from the central extension $\mathbb{Z}_2 \to Spin \to SO$ of the [[special orthogonal group]] by the [[spin group]];
+
+* the first [[Chern class]]
+
+  $$
+    c_1 : \mathbf{B}U(1) \to \mathbf{B}^2 \mathbb{Z}
+  $$
+
+  induced from the central extension $\mathbb{Z} \to \mathbb{R} \to U(1)$.
+
+
+=--
 
 
 ## Related concepts
