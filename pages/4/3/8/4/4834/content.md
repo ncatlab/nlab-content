@@ -68,8 +68,8 @@ Some specific systems:
 name                                                  | $(\ast, \ast)$ | $(\ast, \square)$ | $(\square, \ast)$ | $(\square, \square)$ | 
 ------------------------------------------------------|----------------|-------------------|-------------------|----------------------|
 $\lambda\rightarrow$ [[simply typed lambda calculus]] | yes            |                   |                   |                      |
-$\lambda2$ [[system F]]                               | yes            | yes               |                   |                      |
-[[LF]]                                                | yes            |                   | yes               |                      |
+[[LF]]                               | yes            | yes               |                   |                      |
+$\lambda2$ [[system F]]                                                | yes            |                   | yes               |                      |
 [[calculus of constructions]]                          | yes            | yes               | yes               | yes                  |
 
 ### Inconsistent systems ### 
