@@ -10,8 +10,8 @@ It\'s well known that one can integrate a [[differential form]] on an [[orientat
 I call these _absolute_ forms.  The term 'absolute' suggests a lack of additional required structure, in this case some sort of orientation on the domain of integration.  It also suggests [[absolute value]], since many of the examples from classical differential geometry involve absolute values.  Indeed, we can define the absolute value of a form or a pseudoform to be an absolute form, although not every absolute form arises in this way.
 
 The main theorem of absolute forms is that, if $\omega$ is a (pseudo)-$p$-form and $R$ is a (pseudo)-oriented $p$-dimensional submanifold, then
-\[ {|\int_R \omega|} \leq \int_{|R|} {|\omega|} ,\label{subadditivity} \]
-where ${|\omega|}$ is an absolute $p$-form (the absolute value of $\omega$), $|{R}|$ is simply $R$ with its (pseudo)-orientation ignored, and the absolute value on the left is the ordinary absolute value of scalars.  (This theorem also applies if we start with an absolute $p$-form $\omega$, although in that case $R$ starts out unoriented and so is the same as ${|R|}$.)
+$$ {|\int_R \omega|} \leq \int_{|R|} {|\omega|} ,$$
+where ${|\omega|}$ is an absolute $p$-form (the absolute value of $\omega$), $|{R}|$ is simply $R$ with its (pseudo)-orientation ignored, and the absolute value on the left is the ordinary absolute value of scalars.  This theorem also applies if we start with an absolute $p$-form $\omega$, (although in that case $R$ starts out unoriented and so is the same as ${|R|}$).  If $R$ is a [[de Rham cohomology|de Rham]] chain (a formal [[linear combination]] of appropriately oriented submanifolds), we also take absolute values of the formal coefficients in ${|R|}$.
 
 
 ## Definitions
@@ -21,13 +21,13 @@ Let $X$ be a [[differentiable manifold]] (or similar sort of space), and let $p$
 +-- {: .num_defn}
 ###### Definition
 
-An __absolute $p$-form__ $\omega$ on $X$ is a function that assigns a scalar $\omega_c(v_1,\ldots,v_p)$ to a point $c$ in $X$ and a $p$-[[tuple]] $(v_1,\ldots,v_p)$ of [[tangent vectors]] at $S$ that satisfies the following conditions:
+An __absolute $p$-form__ $\omega$ on $X$ is a function that assigns a scalar $\omega_c(v_1,\ldots,v_p)$ to a point $c$ in $X$ and a $p$-[[tuple]] $(v_1,\ldots,v_p)$ of [[tangent vectors]] at $c$ and that satisfies the following conditions:
 
-1.  Fixing $c$, $\omega_c({-})$ shall be [[uniformly continuous map|continuous]].
+1.  Fixing $c$, $\omega_c({-})$ shall be [[uniformly continuous map|uniformly continuous]].
 
-2.  The $p$-tuple $(v_1,\ldots,v_n)$ shall be [[linearly independent subset|linearly independent]] if $\omega_c(v_1,\ldots,v_p) \ne 0$ (so although $\omega_c$ is not linear, we may still call it [[alternating form|alternating]]).
+2.  The $p$-tuple $(v_1,\ldots,v_n)$ shall be [[linearly independent subset|linearly independent]] if $\omega_c(v_1,\ldots,v_p) \ne 0$.  Thus, although $\omega_c$ is not linear, we may still call it [[alternating form|alternating]]; however (as a consequence of 3), it is actually [[symmetric function|symmetric]].
 
-3.  Fix a $p$-dimensional subspace $S$ of the tangent space at $c$ and an orientation $o$ of $S$.  Now given a linearly independent $p$-tuple $(v_1,\ldots,v_p)$ from $S$ (that is a [[basis]] of $S$), let $\omega_c(v_1,\ldots,v_p)_S^o$ be $\pm\omega_c(v_1,\ldots,v_p)$ according to whether the orientation of $S$ induced by the $v_i$ matches $o$, and extend this by continuity to all $p$-tuples from $S$ (which must be unique and exists by 1&2).  The resulting function $\omega_c({-})_S^o$ shall be [[multilinear form|multilinear]] (and so also alternating, by 2).
+3.  Fix a $p$-dimensional subspace $S$ of the tangent space at $c$ and an orientation $o$ of $S$.  Now given a linearly independent $p$-tuple $(v_1,\ldots,v_p)$ from $S$ (that is a [[basis]] of $S$), let $\omega_c(v_1,\ldots,v_p)_S^o$ be $\pm\omega_c(v_1,\ldots,v_p)$ according to whether the orientation of $S$ induced by the $v_i$ matches $o$, and extend this by continuity to all $p$-tuples from $S$ (which extension must be unique and exists by 1&2).  The resulting function $\omega_c({-})_S^o$ shall be [[multilinear form|multilinear]] (and so also alternating, by 2).
 =--
 
 The multilinearity condition here is rather weaker than for a (pseudo)-form, since it applies only within a $p$-dimensional subspace.  Shifting one vector even slightly outside of $S$ loses all connection provided by multilinearity, which is why we need a continuity condition; continuity holds for (pseudo)-forms automatically.
@@ -38,9 +38,21 @@ An absolute $0$-form is the same thing as a $0$-form.  An absolute $n$-form on a
 $$ \tilde\omega_c^o(v_1,\ldots,v_n) = \omega_c(v_1,\ldots,v_n)_{T_c{X}}^o $$
 to relate the $n$-pseudoform $\tilde{\omega}$ to the absolute $n$-form $\omega$.  Finally, the only absolute $p$-form for $p \gt n$ is $0$.
 
-An absolute $p$-form $\omega$ is __positive-semidefinite__ (or simply __positive__) at a point $c$ if $\omega_c(v_1,\ldots,v_p) \geq 0$ for every $p$-tuple of vectors at $c$ (it is enough when they are linearly independent); $\omega$ is __positive-definite__ at $c$ if $\omega_c(v_1,\ldots,v_n) \gt 0$ when the $v_i$ are linearly independent.  We define __negative-semidefinite__ (or __negative__) and __negative-definite__ forms similarly.  Also, $\omega$ is __indefinite__ at $c$ if $\omega_c(v_1,\ldots,v_n) \gt 0$ for some $p$-tuple of vectors and $\omega_c(v_1,\ldots,v_n) \lt 0$ for some $p$-tuple.  Finally, $\omega$ is positive/negative/in-(semi)-definite, tout court, if this condition holds for all $c$.
+At a point $c$, an absolute $p$-form $\omega$ is:
 
-Given an absolute $p$-form $\omega$, its __[[absolute value]]__ ${|\omega|}$ is a positive absolute $p$-form:
+* __indefinite__ if $\omega_c(v_1,\ldots,v_n) \gt 0$ for some (necessarily [[linearly independent subset|linearly independent]]) $p$-tuple of vectors and $\omega_c(v_1,\ldots,v_n) \lt 0$ for some $p$-tuple,
+
+* __semidefinite__ if not indefinite,
+
+* __definite__ (and hence semidefinite) if $\omega_c(v_1,\ldots,v_n) \ne 0$ for every independent $p$-tuple of vectors at $c$,
+
+* __positive__ (and hence semidefinite) if $\omega_c(v_1,\ldots,v_p) \geq 0$ for every $p$-tuple of vectors (it is enough when they are independent),
+
+* __negative__ (and hence semidefinite) if $\omega_c(v_1,\ldots,v_p) \leq 0$ for every (independent) $p$-tuple of vectors.
+
+All these are at a point $c$; $\omega$ satisfies the condition (tout court) if it holds for all $c$.
+
+Given an absolute $p$-form $\omega$, its __[[absolute value]]__ ${|\omega|}$ is a positive semidefinite absolute $p$-form:
 $$ {|\omega|}_c(v_1,\ldots,v_n) \coloneqq {|\omega_c(v_1,\ldots,v_n)|} .$$
 If we start with a $p$-form $\omega$, then the same definition defines a positive absolute $p$-form ${|\omega|}$.  If we start with a $p$-pseudoform $\omega$, then essentially the same definition still works; we use either orientation to evalute $\omega$ with the same result.  Note that ${|\omega|}$ is continuous if $\omega$ is.  However, we may *not* conclude that ${|\omega|}$ is differentiable even if $\omega$ is smooth.  On the other hand, ${|\omega|}$ inherits differentiability properties from $\omega$ wherever $\omega \ne 0$.  (Even then, however, we cannot inherit analyticity.)
 
@@ -76,7 +88,7 @@ Examples of absolute forms from classical differential geometry include:
 
 ## References
 
-* A [Usenet post](https://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90?dmode=source) by [[Toby Bartels]] (near the end) defines $\int_R {|\omega|}$ for $\omega$ a (pseudo)-$p$-form and $R$ a $p$-dimensional submanifold, but without making sense of ${|\omega|}$ itself.
+* Near the end of a [Usenet post](https://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90?dmode=source) by [[Toby Bartels]] and Ralph Hartley, we see a definition of $\int_R {|\omega|}$ for $\omega$ a (pseudo)-$p$-form and $R$ a $p$-dimensional submanifold, but without making sense of ${|\omega|}$ itself.
 
 
 [[!redirects absolute differential form]]
