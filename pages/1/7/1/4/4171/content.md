@@ -377,6 +377,10 @@ $$
 
 given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
+## Related concepts
+
+* [[symplectic infinity-groupoid]]
+
 ## References
  {#References}
 
