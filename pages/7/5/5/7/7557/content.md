@@ -1,0 +1,34 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+## Idea
+
+In [[type theory]], a [[term]] belonging to some [[type]] is said to be of **canonical form** if it is explicitly built up using the constructors of that type.  A canonical form is in particular a [[normal form]] (one not admitting any reductions), but the converse need not hold.
+
+For example, the terms of type $\mathbb{N}$ (a [[natural numbers type]]) of canonical form are the *numerals*
+$$ S(S(S(\cdots (0)\cdots ))). $$
+
+A type theory is said to enjoy **canonicity** if every term computes to a canonical form.  This is held to be an important meta-theoretic property of type theory, especially considered as a programming language or as a computational foundation for mathematics.
+
+## Canonicity vs axioms
+
+Adding [[axioms]] to type theory, such as the principle of [[excluded middle]] or the usual version of the [[univalence axiom]], can destroy canonicity.  The axioms result in "stuck terms" which are not of canonical form, yet neither can they be "computed" any further.
+
+For instance, if we assume the law of excluded middle, then we can build a term $case(LEM(Goldbach),0,1) \colon \mathbb{N}$ which is $0$ or $1$ according as the Goldbach conjecture is true or false.  Clearly this term doesn't "compute", but neither is it of canonical form (a numeral).
+
+Similarly, using the univalence axiom, we can obtain a term $p : (\mathbb{N}=\mathbb{N})$ corresponding to the automorphism of $\mathbb{N}$ which adds one to every even number and subtracts one from every odd number.  Then the term $transport(p,0)$ also has type $\mathbb{N}$, but doesn't "compute" because the computer gets "stuck" on the univalence term.
+
+It is conjectured that univalence, unlike excluded middle, can be given a "computational" interpretation.  Some partial progress towards this can be found [here](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/).
+
+[[!redirects canonical form]]
+[[!redirects canonical forms]]
+[[!redirects canonicity]]
+[[!redirects canonicity for type theory]]
+[[!redirects type-theoretic canonicity]]
