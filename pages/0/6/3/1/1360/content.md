@@ -385,9 +385,9 @@ $\,$
 
 Now we discuss that $(\lim_\to \dashv const): C \to [\Delta^{op}, C]_{proj,S}$ 
 is a [[Quillen equivalence]].
-First observe that on the global model structure $const : C \to [\Delta^{op}, C]_{proj}$ is clearly a right Quillen functor, hence we have a Quillen adjunction on the unlocalized structure. Moreover, by the above, $const$ takes fibrant objects to fibrant objects. Hence...
+First observe that on the global model structure $const : C \to [\Delta^{op}, C]_{proj}$ is clearly a right Quillen functor, hence we have a Quillen adjunction on the unlocalized structure. Moreover, by definition and by the above discussion, the [[derived functor]] of the [[left adjoint]] $\lim_\to$, namely the [[homotopy colimit]], takes the localizing set $S$ to weak equivalences in $C$. Therefore the assumptions of the discussion at _[Quillen equivalence - Behaviour under localization](http://ncatlab.org/nlab/show/Quillen+adjunction#BehaviourUnderLocalization)_ are met, and hence it follows that $(\lim_\to \dashv const)$ descends as a Quillen adjunction also to the localization.
 
-So we do have a Quillen adjunction. To see that this is a Quillen equivalence,
+To see that this is a Quillen equivalence,
 it is sufficient to show that for $A \in [\Delta^{op}, C]_{proj}$ cofibrant
 and $Z \in C$ fibrant, a morphism $\lim_\to A \to Z$ is a weak equivalence in $C$
 precisely if the [[adjunct]] $A \to const Z$ becomes a weak equivalence under the homotopy colimit.
