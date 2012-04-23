@@ -85,7 +85,7 @@ Every [[∞-group]] may be modeled by a [[simplicial group]] $G$. There is a sta
 
 This standard model $W G$ does happen to have the structure of a [[simplicial group]] itself, and this structure is compatible with that of $G$ in that the canonical inclusion $G \to W G$ is a homomorphisms of simplicial groups.
 
-This sounds like a statement that must be well known, but itwas maybe not in the literature. The simplicial group structure is spelled out explicitly in [Roberts07](#RobertsUniversal)
+This sounds like a statement that must be well known, but it was maybe not in the literature. The simplicial group structure is spelled out explicitly in [Roberts07](#RobertsUniversal)
 
 
 ## For $\infty$-groups in an arbitrary $(\infty,1)$-topos
@@ -139,7 +139,7 @@ The [[simplicial group]] structure on $G \to \mathbf{E}G$ for $G$ a general [[si
 * [[David Roberts]], _[[DRobertsUniversalSimpBunds.pdf:file]]_  
   {#RobertsUniversal}
 
-A general abstract construction of this simplicial group strufture is discussed in
+A general abstract construction of this simplicial group structure is discussed in
 
 * [[David Roberts]], [[Danny Stevenson]], _notes in preparation_
 
