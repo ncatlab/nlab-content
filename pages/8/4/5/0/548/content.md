@@ -77,7 +77,7 @@ A __coherent $2$-group__ is a monoidal category *equipped with*:
 
 *  for each object $x$ a specific object $x^{-1}$ and specific [[isomorphism]]s from $x \otimes x^{-1}$ and $x^{-1} \otimes x$ to $1$ which form an [[adjoint equivalence]].
 
-A theorem in HDA5 shows that every weak $2$-group may be made coherent.  For purposes of [[internalization]], one probably wants to use the coherent version.
+A theorem in HDA V (see references) shows that every weak $2$-group may be made coherent.  For purposes of [[internalization]], one probably wants to use the coherent version.
 
 
 ## Definition
