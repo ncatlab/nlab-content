@@ -1,8 +1,19 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 One of the [[exceptional Lie groups]].
 
 ## References
 
+General:
+
 * wikipedia, _[$E_6$](http://en.wikipedia.org/wiki/E6_%28mathematics%29)_
+
+Cohomological properties:
+
+* Mamoru Mimura, Yuriko Sambe, Michishige Tezuka, Cohomology mod 3 of the classifying space of the exceptional Lie group $E_6$, I : structure of Cotor ([arXiv:1112.5811](http://arxiv.org/abs/1112.5811)), _Cohomology mod 3 of the classifying space of the exceptional Lie group $E_6$, II : The Weyl group invariants_ ([arXiv:1201.3414](http://arxiv.org/abs/1201.3414))
+
