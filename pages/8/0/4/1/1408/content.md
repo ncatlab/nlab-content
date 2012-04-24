@@ -32,7 +32,7 @@ $$
   \,.
 $$
 
-Here we think of $\mathcal{X} = Sh_{(\infty,1)})(C)$ as being the [[(∞,1)-sheaf (∞,1)-topos]] on some [[(∞,1)-site]] $C$ and for any $V \in \mathcal{G}$ we think of
+Here we think of $\mathcal{X} = Sh_{(\infty,1)}(C)$ as being the [[(∞,1)-sheaf (∞,1)-topos]] on some [[(∞,1)-site]] $C$ and for any $V \in \mathcal{G}$ we think of
 
 $$
   \mathcal{O}_V \in Sh_{(\infty,1)}(C)
@@ -195,7 +195,7 @@ $$
 
 This means that structure sheaves 
 $\mathcal{O} : \mathcal{G} \to \mathcal{X}$ are equivalently encoded
-in [[geometric morphism]]s to the [[(∞,1)-category of (∞,1)-sheaves]] on the geoemtry.
+in [[geometric morphism]]s to the [[(∞,1)-category of (∞,1)-sheaves]] on the geometry.
 
 Formally we have:
 
@@ -806,7 +806,7 @@ This is ([Lurie, theorem, 2.4.1](#Lurie)).
 
 ## References
 
-The notion of structure $(\infty,1)$-toposes was introduced in
+The notion of structured $(\infty,1)$-toposes was introduced in
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_ 
 {#Lurie}
