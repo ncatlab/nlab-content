@@ -242,7 +242,7 @@ An original reference is
 
 * [[SGA]] IV 
 
-A textbook source is section 14.7 of 
+A textbook source is section 16.7 of 
 
 * [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
 {#deJong}
