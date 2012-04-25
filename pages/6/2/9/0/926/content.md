@@ -145,7 +145,7 @@ $$
   X \to \lim_{\leftarrow_n} X(n)
 $$
 
-is an [[isomorphism]], exhibiting $X$ as the [[limit]] over this tower diagram.
+is an [[isomorphism]], exhibiting $X$ as the [[limit]] ("[[inverse limit]]") over this tower diagram.
 
 =--
 
@@ -161,7 +161,7 @@ $$ 0 \to \pi_n \to C_n \to C_{n-1} \to \cdots \to C_2 \to C_1 $$
 together with an isomorphism $Coker(C_2 \to C_1) \cong \pi_1$. This
 gives an algebraic model of such an $n$-[[homotopy n-type|type]]. Advantages of
 algebraic models are that algebraic constructions can be made on
-them, such as forming [[limit]]s or colimits. The various [[higher
+them, such as forming [[limits]] or colimits. The various [[higher
 homotopy van Kampen theorem]]s are useful in the latter case. For
 example, it may be difficult or well nigh impossible to write down a
 determination of the Postnikov invariant of a pushout of crossed
@@ -270,4 +270,6 @@ A pedagogical introduction to Postnikov systems with an eye towards their $\inft
 
 
 [[!redirects Postnikov tower]]
+[[!redirects Postnikov towers]]
+
 [[!redirects Postnikov decomposition]]
