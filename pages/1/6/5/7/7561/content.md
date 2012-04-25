@@ -1,0 +1,14 @@
+A simple example of a solenoid is the dyadic solenoid.  This is the [[inverse limit]] of the **inverse sequence**, $(X(n),p_n)$, in which each $X(n)$ is a copy of $S^1$ and each 'structure map' $p_n:X(n)\to X(n-1)$ is given by the squaring map on the circle, that is $e^{i\theta}\mapsto e^{2i\theta}$.
+
+We will restrict attention, for the moment, to the class of solenoids defined by inverse sequences of circles:
+
+##General definition
+
+Let $P = (r_1,\ldots, r_n,\ldots)$ be a sequence of prime numbers.  The $P$-adic-soelnoid is the space,
+
+$S_P = Lim (X(n),p_n,\mathbb{N})$$
+
+where for each $n$, $X(n)= S^1$ and (considering $S^1$ as the unit circle in $\mathbb{C}$, $p_n(z) = z^{r_n}$.
+
+
+
