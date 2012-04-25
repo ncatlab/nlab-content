@@ -12,6 +12,7 @@ The action groupoid also goes by other names, including '[[weak quotient]]'.  It
 
 ## Definition
 
+### In category theory
 Given an [[action]] 
 $\rho : S \times G \to S$ of a group $G$ on the set $S$, the _action groupoid_ $S//G$ (or, more precisely, $S//_\rho G$) is the [[groupoid]] for which:
 
@@ -44,6 +45,59 @@ We can denote the morphisms in $S//G$ by
 
 $$S//G:=\{s\stackrel{g}{\to} \rho(s,g) | s\in S, g\in G\}.$$
 
+### In (∞,1)-category theory
+
++-- {: .num_defn #ActionInfinityGroupoid}
+###### Definition
+Let $C$ be an ($\infty$,1)-category, let $G\in Grpd(C)$ be a groupoid object in $C$, let $X\in C$ be an object. Then the simplicial object
+
+$$
+...
+\stackrel{\to}{\stackrel{\to}{\to}}
+
+X\times_{G_0}G\times_p G
+
+\stackrel{\to}{\to}
+
+X\times_{G_0}G
+
+\to
+
+X
+$$
+
+such that the degree-wise projections give a simplicial map
+
+$$\array{
+...
+X\times_{G_0}G\times_p G
+&
+\stackrel{\to}{\to}
+&
+X\times_{G_0}G
+&
+\to
+&
+X
+\\
+
+\downarrow&&\downarrow&&\downarrow^a
+\\
+G\times_p G
+&
+\stackrel{\to}{\to}
+&
+G
+&
+\xrightarrow{p}
+&
+G_0
+}$$
+
+is called an _action of_ $G$ _on_ $X$. The colimit $colim\; X\times_{G_0}^{\times_\bullet}$ is called _action $\infty$-groupoid of_ $G$ _on_ $X$.
+
+
+=--
 
 ## Interpretations
 
@@ -84,6 +138,8 @@ $$
 $$
 
 where the 2-morphism is uniquely specified and in components given by $s \mapsto (s \stackrel{g}{\to} \rho(s,g))$.
+
+
 
 ### As associated universal bundle 
 
