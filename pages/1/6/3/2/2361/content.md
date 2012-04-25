@@ -15,7 +15,20 @@
 
 An __inverse limit__ is the same thing as a [[limit]].  (Similarly, a [[direct limit]] is the same thing as a [[colimit]].)  In this context, an __inverse system__ is the same thing as a [[diagram]], and an __inverse cone__ is the same thing as a [[cone]].
 
-Many authors restrict this terminology to limits over [[codirected sets]] (or [[cofiltered categories]]), especially the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]]; see [[codirected limit]] (or [[cofiltered limit]]) for discussion of this case if you think that it may be what you want.
+Many authors restrict this terminology to limits over [[codirected sets]] (or [[cofiltered categories]]), especially the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]]. 
+
+$$
+  \array{
+     && && \lim_{\leftarrow_n} X(x) &&
+     \\
+     && &\swarrow& \downarrow & \searrow&
+     \\
+     \cdots & \to & X(2) & \to  & X(1) & \to & X(0)
+  }
+$$
+
+(A classical example is the theory of [[Postnikov towers]].)
+See [[codirected limit]] (or [[cofiltered limit]]) for discussion of this case if you think that it may be what you want.
 
 
 [[!redirects inverse limit]]
