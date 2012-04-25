@@ -39,7 +39,7 @@ which induces a comonad on simplicial sets whose underlying functor is precisely
 
 $$Dec: Set^{\Delta^{op}} \to Set^{\Delta^{op}}$$
 
-The map $d_{last}: Dec \to Id$ is the counit of this comonad. The comonad itself is analogous to a kind of unbiased path space comonad $P$ on $Top$ whose value at a space $X$ is a pullback 
+The map $d_{last}: Dec \to Id$ is the counit of this comonad. The comonad itself is analogous to a kind of unbased [[path space object]] comonad $P$ on $Top$ whose value at a space $X$ is a pullback 
 
 $$\array{
 P X & \to & X^I \\
