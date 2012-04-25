@@ -27,7 +27,12 @@ $$
   }
 $$
 
-(A classical example is the theory of [[Postnikov towers]].)
+Classical examples occur in the theory of [[Postnikov towers]] and also in the definition of the [[solenoid]]s.  As an example of the latter the dyadic solenoid is the 'inverse limit' of the **inverse sequence**, $(X(n),p_n)$, in which each $X(n)$ is a copy of $S^1$ and each 'structure map' $p_n:X(n)\to X(n-1)$ is given by the squaring map on the circle, that is $e^{i\theta}\mapsto e^{2i\theta}$.
+
+
+
+
+
 See [[codirected limit]] (or [[cofiltered limit]]) for discussion of this case if you think that it may be what you want.
 
 
