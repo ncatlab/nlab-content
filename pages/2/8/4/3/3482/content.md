@@ -77,6 +77,12 @@ More generally, for a non-singleton pretopology on $C$, we can reformulate WISC 
 Given a site $(C,J)$ with $J$ subcanonical, and $C$ finitely complete, we can define a (weak) 2-category $Ana(C,J)$ of internal categories, anafunctors and transformations. If WISC holds for $(C,J)$, then $Ana(C,J)$ is locally essentially small.
 
 
+## References
+
+* [[Benno van den Berg]], [[Ieke Moerdijk]], *The Axiom of Multiple Choice and Models for Constructive Set Theory*, [arXiv](http://arxiv.org/abs/1204.4045).  In this paper WISC is called the "axiom of multiple choice".
+
+* [[Thomas Streicher]], *Realizability Models for $CZF + \neg Pow$*, [unpublished note](http://www.mathematik.tu-darmstadt.de/~streicher/CIZF/rmczfnp.pdf).  In this note WISC is called $TTCA_f$ ($TTCA$ stands for "type-theoretic collection axiom).
+
 category: foundational axiom
 
 [[!redirects WISC]]
