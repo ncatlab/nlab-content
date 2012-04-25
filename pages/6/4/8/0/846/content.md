@@ -361,61 +361,9 @@ $$
 
 ## Definition
 
-We first define the **join of simplicial sets** as the restriction to simplicial sets of the extension of the **ordinal sum** operation on the augmented [[simplex category]] $\Delta_a$ to augmented simplicial sets.
+We first define the **join of simplicial sets** as the restriction to simplicial sets of the extension of the [[ordinal sum]] operation on the augmented [[simplex category]] $\Delta_a$ to augmented simplicial sets.
 
-Then we give the more explicit definition in terms of concrete formulas.
-
-
-### By ordinal sum
-
-The objects of the _augmented_ [[simplex category]] $\Delta_a$ can be identified with the finite [[total order|totally ordered]] [[set]]s, _including_ the [[empty set]], which we write in this context as
-
-$$
-  [-1] :=  \emptyset
-$$
-
-so that then
-
-$$
-  [0] = *
-$$
-
-is the singleton set, as usual and
-
-$$
-  [1] = \{ 0 \lt 1\}
-$$
-
-and so on, so that $[n] = \{ 0 \lt \ldots \lt n\}$
-
-This counting is off by one compared to the [[cardinality]] of these sets. 
-
-
-
-The monoidal structure on $\Delta_a$ that we are interested in now is, at the level of the sets, just union, but we have to consider the order on that 'union'. If we have $[n]$ and $[m]$, we form the union of the two sets, where we know the order on two elements we keep it, but it we have two elements one, $i$, say, from the $[n]$ and the other, $j$, from $[m]$ we put $i\lt j$.
-
-As an example, consider $[1] = \{ 0 \lt 1\}$ and $[2] =  \{ \overline{0} \lt \overline{1} \lt \overline{2}\}$, where the overlines are just so that we can keep track of where the different elements come from. We form the union of the two sets and the rule says that anything without an overline is less than anything with one.  This gives a linear order
-$$[1]+[2] = \{0 \lt 1\lt \overline{0} \lt \overline{1} \lt \overline{2}\},$$
-which is [[isomorphic]] as a [[poset]] to $[4]$. Similarly $[1]+[1] = [3]$, which helps explain the picture above.
-
-We can thus think of the operation as the **addition of cardinalities**, but must remember that $[n]$ has $n+1$ elements. In terms of the counting 'off-by-one', this reads
-
-$$
-  ([n], [m]) \mapsto [n + m + 1]
-  \,,
-$$
-
-but remember there is also the order to keep track of.
-
-This operation extends to give the **ordinal sum** structure  on $\Delta_a$ (for details see the discussion in the entry [[simplex category]]) making it a [[monoidal category]], whose product operation is
-
-$$
-  \boxplus: \Delta_a \times \Delta_a \to \Delta_a
-$$
-$$
-  ([n], [m]) \mapsto [n + m + 1]
-  \,.
-$$
+Then we give the more explicit definition in terms of concrete formulas. We first refer to the description of [[ordinal sum]], and then how it induces structure on the category of augmented simplicial sets.
 
 
 ### By Day convolution {#DayConvolution}
