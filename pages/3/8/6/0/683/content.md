@@ -936,6 +936,28 @@ into the [[singular simplicial complex]] of $X$ exhibits $Sing(X)$ as the [[homo
 
 See [[higher homotopy van Kampen theorem]] for details.
 
+### Sequential homotopy (co)limits
+ {#SequentialHocolims}
+
+For 
+
+$$
+  D = \{0 \to 1 \to 2 \to \cdots\}
+$$ 
+
+the cotower category, a colimit of shape $D$ is called a [[sequential colimit]]. For $C$ a [[combinatorial model category]] it is easy to characterize the cofibrant objects in the projective [[model structure on functors]] $[D, C]_{proj}$: these are those cotower diagrams all whose morphisms are cofibrations and whose 0th object (and hence all objects) are cofibrant.
+
+So given a cotower with such a property, its homotopy colimit is just the ordinary sequential colimit in $C$. 
+
+Dually for sequential limits over a tower diagram.
+
+
+A standard application for this is for instance the construction of the [[classifying space]] 
+$B U = \underset{\to_n}{\lim} B U(n)$ for reduced [[topological K-theory]]. See there for more.
+
+
+
+
 ### Descent objects
 
 _Descent objects_ as they appear in [[descent|descent and codescent]] are naturally conceived as homotopy limits. See also [[infinity-stack]].
