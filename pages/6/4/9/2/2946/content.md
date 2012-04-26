@@ -14,8 +14,10 @@
 
 ## Idea
 
-A _filtered colimit_ in a suitable category such as [[Set]] is a [[colimit]] of shape such that it commutes with all [[finite limit]]s.
+A _filtered colimit_ is a [[colimit]] over a [[diagram]] which is a [[filtered category]].
+Taken in a suitable category such as [[Set]] the colimit being filtered is equivalent to it commuting with [[finite limits]]. 
 
+More generally, for $\kappa$ a [[regular cardinal]], a _$\kappa$-filtered_ colimit is one over a $\kappa$-filtered category, and when taken with values in [[Set]] this are precisely the colimits that commute with $\kappa$-small limits. 
 
 
 ## Definition
@@ -172,6 +174,8 @@ Filtered colimits are also important in the theory of [[locally presentable cate
 
 
 ## Related concepts
+
+* [[filtered category]], [[compact object]]
 
 * [[filtered (∞,1)-colimit]]
 
