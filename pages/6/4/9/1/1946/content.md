@@ -226,6 +226,7 @@ So in accord with the proposition above one finds that this Reedy model structur
 
 
 ### Over the tower category 
+ {#OverTheTowerCategory}
 
 Let $R = \mathbb{N}^{op} = \{\cdots \to 2 \to 1 \to 0\}$ be the natural numbers regarded as a [[poset]] using the greater-than  relation.
 
@@ -233,7 +234,7 @@ With the degree as indicated, this is a Reedy category with $R_- = R$ and $R_+$ 
 
 Now the [[functor category]] $[R,C]$ is the category of _towers_ of morphisms in $C$. 
 
-The analysis of the Reedy model structure on this involves just a repetition of the steps invoilved in the analysis of the arrow category in the above example. One finds:
+The analysis of the Reedy model structure on this involves just a repetition of the steps involved in the analysis of the arrow category in the above example. One finds:
 
 * a natural transformation $\eta : F \to G$ is a fibration precisely if
 
