@@ -20,13 +20,22 @@
 
 ## Idea
 
-A Kan complex is a [[geometric definition of higher category|geometric model]] of an $\infty$-[[infinity-groupoid|groupoid]] based on the [[geometric shapes for higher structures|shape]] modeled by the [[simplex category]].
 
-A Kan complex is a collection of $k$-[[simplex]]-shaped [[k-morphism]]s for all $k \in \mathbb{N}$, such that for all composable $k$-morphisms a composite does exist (not necessarily uniquely) and  such that all $k$-morphisms are invertible under this composition.
+* The notion of a Kan complex is an abstraction of the structure found in the [[singular simplicial complex]] of a topological space. There the existence of retractions of a geometric simplex to any of its horns means that all horns in the singular complex can be filled.
 
-In a Kan complex there are no _specified_ composites. But one may _choose_ out for all composable $k$-morphisms a composite and thus arrive at an [[algebraic definition of higher category|algebraic model]] for $\infty$-groupoids: [[algebraic Kan complex]]es.
+* The notion of a Kan complex is an abstraction of the structure found in the [[nerve]] of a [[groupoid]]. If we have a groupoid, $G$, then if we take any [[inner horn]] in $N(G)$, it is determined by the sequence of arrows corresponding to $\{0\to 1\to \ldots \to n\}$, but that also determines a simplex which fills the horn. For the zeroth and last face horns, the [[outer horn]]s, you can also fill, but that takes a bit more thought, so is left to later. The 'fillers' are unique in this case, which suggests some generalisations.
+In a Kan complex there are no _specified_ 'composites' as in a groupoid or its nerve. But one may _choose_ out for all composable $k$-morphisms a composite and thus arrive at an [[algebraic definition of higher category|algebraic model]] for $\infty$-groupoids: [[algebraic Kan complex]]es.
 
-The notion of a Kan complex is an abstraction of the structure found in the [[singular simplicial complex]] of a topological space. 
+* Strict $\infty$-groupoids correspond to [[crossed complex]]es and various other related algebraic models. One of these is the [[simplicial T-complex]]. Such an object is the nerve of a crossed complex. There all horns have unique 'thin' fillers, so these are Kan complexes corresponding to a strict form of higher dimensional groupoid. Because of these facts, the following are not that surprising as ideas:
+
+
+* A Kan complex is a [[geometric definition of higher category|geometric model]] of an $\infty$-[[infinity-groupoid|groupoid]] based on the [[geometric shapes for higher structures|shape]] modeled by the [[simplex category]].
+
+* A Kan complex is a collection of $k$-[[simplex]]-shaped [[k-morphism]]s for all $k \in \mathbb{N}$, such that for all composable $k$-morphisms a composite does exist (not necessarily uniquely) and  such that all $k$-morphisms are invertible under this composition.
+
+
+
+ 
 
 ## Definition
 
@@ -217,7 +226,7 @@ $$
 
 All we can say for sure is that _at least_ one such 2-cell exists, and that the 2-cells themselves may be composed in some way. This is precisely what the horn-filler conditions in a Kan complex encode.
 
-We have already seen in low dimension how the existence of composites in an $\omega$-category is reflected in the fact that in a Kan-complex certain 22-simplices exist, and how the non-uniqueness of these 2-simplices reflects the existence of nontrivial 2-morphisms.
+We have already seen in low dimension how the existence of composites in an $\omega$-category is reflected in the fact that in a Kan-complex certain 2-simplices exist, and how the non-uniqueness of these 2-simplices reflects the existence of nontrivial 2-morphisms.
 
 To see in a similar fashion that the Kan condition ensures the existence of _inverses_ consider an _outer horn_ in $C$, a diagram of 1-cells of the form
 
