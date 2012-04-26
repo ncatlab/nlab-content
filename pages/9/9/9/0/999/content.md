@@ -22,6 +22,9 @@ An [[object]] of a [[category]] is *compact* if it is "finite" or "small" in som
 ## Definition 
 {#FinitelyPresentableObject}
 
++-- {: .num_defn }
+###### Definition
+
 Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact**, (or **finitely presented** or **finitely presentable** or **of finite presentation**), if the [[corepresentable functor]]
 
 $$
@@ -39,6 +42,60 @@ is an [[isomorphism]].
 
 More generally, if $\kappa$ is a [[regular cardinal]], then an object $X$ such that $C(X,-)$ commutes with $\kappa$-[[filtered colimits]] is called **$\kappa$-compact**, or **$\kappa$-presented** or **$\kappa$-presentable**.  An object which is $\kappa$-compact for some regular $\kappa$ is called a [[small object]].
 
+=--
+
+## Properties
+  {#Properties}
+
++-- {: .num_prop}
+###### Proposition
+
+A $\kappa$-small [[colimit]] of $\kappa$-compact objects is again a $\kappa$-small object.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $D$ be a $\kappa$-[[small category]] and $X : D \to C$ a [[diagram]] of $\kappa$-compact objects. Let $I$ be a $\kappa$-[[filtered category]] and $A : I \to C$ a $\kappa$-filtered diagram in $C$. Then
+
+$$
+  Hom(\lim_{\to_d} X_d, \lim_{\to_i} A_i)
+  \simeq
+  \lim_{\leftarrow_d} Hom(X_d, \lim_{\to_i} A_i)
+$$
+
+by general properties of the [[hom functor]]. Now using that every $X_d$ is $\kappa$-compact and $I$ is $\kappa$-filtered this is
+
+$$
+  \cdots 
+  \simeq
+  \lim_{\leftarrow_d} \lim_{\to_i} Hom(X_d, A_i)
+  \,.
+$$
+
+Since this (co)limit is taken in [[Set]] ,the $\kappa$-small limit over $D$ commutes with the $\kappa$-filtered colimit
+
+$$
+  \cdots 
+  \simeq
+  \lim_{\to_i} \lim_{\leftarrow_d}  Hom(X_d, A_i)
+  \,.
+$$
+
+We can take the limit again to a colimit in the first argument
+
+$$
+  \cdots 
+  \simeq
+  \lim_{\to_i}  Hom(\lim_{\to_d}  X_d, A_i)
+  \,,
+$$
+
+which proves the claim.
+
+
+=--
 
 ## Examples 
 
@@ -51,11 +108,6 @@ More generally, if $\kappa$ is a [[regular cardinal]], then an object $X$ such t
 * More generally, if $C$ is any [[variety of algebras]], then an object is compact precisely if it is [[finitely presented object|finitely presented]] as an algebra.  A proof can be found in Corollary 3.13 of [[LPAC]].
 
 * Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. Then an [[open subset]] $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].  (It is *not* true that $X$ is a compact object of $Top$ iff it is a compact topological space; see below.)
-
-
-## Generalizations 
-
-This definition has an obvious generalization to [[compact object in an (infinity,1)-category]].
 
 
 ## Subtleties and different meanings 
@@ -171,7 +223,7 @@ Compact objects are discussed under the term "finitely presentable" or "finitely
 
 * [[Locally Presentable and Accessible Categories]]
 
-* Kashiwara, Schapira, [[Categories and Sheaves]], Definition 6.3.2;
+* Kashiwara, Schapira, _[[Categories and Sheaves]]_, Definition 6.3.2;
 
 * [[Peter Johnstone]], [[Stone Spaces]], Definition VI.1.8.
 
