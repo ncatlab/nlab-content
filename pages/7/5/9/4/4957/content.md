@@ -64,6 +64,31 @@ This is especially common when $S=$ [[Set]], in which case the final condition i
 
 ## Properties
 
+### Equivalent characterizations
+ {#EquivalentCharacterizations}
+
++-- {: .num_prop}
+###### Proposition
+
+A geometric morphism $f : E \to S$ is local precisely if
+
+1. there exists a geometric morphism $c : S \to E$ such that $f \circ c \simeq id$;
+
+1. for every other geometric morphism $g : G \to S$ the composite $c\circ g$ is an [[initial object]] in the hom-category $Topos_{/S}(g,f)$ of the [[slice category|slice]] [[2-category]]  of [[Topos]] over $S$.
+
+=--
+
+This is ([Johnstone, theorem 3.6.1 vi)](#Johnstone)).
+
++-- {: .num_remark}
+###### Remark
+
+In particular this means that the category of [[topos points]] of a local topos has a [[contractible]] [[nerve]].
+
+=--
+
+
+
 ### General
 
 +-- {: .num_prop}
@@ -553,7 +578,8 @@ Standard references include
 
 and Chapter C3.6 of
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ {#Johnstone}
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ 
+ {#Johnstone}
 
 A completely [[internal logic|internal]] characterization of local toposes is discussed in
 
