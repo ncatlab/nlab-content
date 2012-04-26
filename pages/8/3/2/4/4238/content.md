@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 =--
 =--
@@ -26,7 +26,7 @@ The term _topological conformal field theory_ (TCFT) is used for a  linearizatio
 > As the classification result by Lurie discussed below shows, 
 > TCFTs are really $(\infty,2)$-TFTs.)
 
-This formalizes the physics notion of a _topologically twisted_ superconformal field theory, such as, notably, the [[A-model]] and the [[B-model]]. TCFTs are therefore a tool for formalizing [[homological mirror symmetry]]. 
+This formalizes the physics notion of "the [[topological string]]", a _topologically twisted_ superconformal field theory, such as, notably, the [[A-model]] and the [[B-model]]. TCFTs are therefore a tool for formalizing [[homological mirror symmetry]]. 
 
 Recall that an ordinary [[conformal field theory]] (CFT) is, in [[FQFT]]-language, a [[symmetric monoidal functor]] on a [[category]] $Bord_2^{conf}$ whose objects are disjoint unions of intervals and circles, and whose [[morphism]]s are [[Riemann surface]]s with these 1d manifolds as incoming and outgoing punctures.
 
