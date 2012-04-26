@@ -88,7 +88,9 @@
 
 ### Topological strings
 
-* [[A-model]], [[B-model]]
+* [[topological string]], [[TCFT]]
+
+  * [[A-model]], [[B-model]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/string+theory+-+contents)</div>
 
