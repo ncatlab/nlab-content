@@ -226,9 +226,9 @@ This is the statement of the [[homotopy hypothesis]] (which is a theorem for $\i
 
 ## How to think of Kan complexes as $\infty$-groupoids {#AsGrpds}
 
-We expand here a bit on how a Kan complex may naturally be thought of as an [[∞-groupoid]]: a [[higher category theory|higher category]] in which all [[k-morphism]]s for all $k \in \mathbb{N}$ are invertible.
+We expand here a bit on how a Kan complex may naturally be thought of as a _[[globular set|globular]]_ [[∞-groupoid]]: a [[higher category theory|higher category]] in which all [[k-morphisms]] for all $k \in \mathbb{N}$ are invertible.
 
-For this interpretation, one thinks of a $k$-dimensional cell $\phi \in C_K$ of a Kan complex $C$ as a [[k-morphism]] whose 
+For this interpretation, one thinks of a $k$-dimensional cell $\phi \in C_K$ of a Kan complex $C$ as a [[globular set|globular]] [[k-morphism]] whose 
 
 * _source_ is the $(k-1)$-morphism given by the pasting diagram of the $(k-1)$-cells that are the faces $d_{k} \phi, \; d_{k-2} \phi, d_{k-4} \phi \cdots$  of $\phi$;
 
