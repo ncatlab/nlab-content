@@ -1,5 +1,5 @@
 
-> this entry is about the notion of colimits in posets. For the notion of [[join of simplicial sets]] and [[join of quasi-categories]] see there.
+> this entry is about the notion of [[colimits]] in [[posets]]. For the notion of _[[join of simplicial sets]]_ and _[[join of quasi-categories]]_ see there.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
