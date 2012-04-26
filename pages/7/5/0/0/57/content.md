@@ -563,7 +563,7 @@ A detailed review of how the traditional Lie integration of [[Lie algebra]]s and
 * [[Marius Crainic]], [[Rui Fernandes]], _Integrability of Lie brackets_ ([arXiv:math.DG/0105033](http://arxiv.org/abs/math/0105033))
 {#Crainic}
 
-The description of Lie integration with values in [[smooth ∞-groupoid]]s regarded as simplicial presheaves on [[CartSp]] is in
+The description of Lie integration with values in [[smooth ∞-groupoid]s] regarded as simplicial presheaves on [[CartSp]] is in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
 
@@ -572,11 +572,15 @@ Essentially the same integration prescription is considered in
 * [[Dmitry Roytenberg]], _Differential graded manifolds and associated stacks: an overview_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#Roytenberg">web</a>)
 
 
-A characterization of the [[∞-stack]]s obtained by Lie integration as above is in [theorem 5.3](http://www.math.harvard.edu/~lurie/papers/moduli.pdf#page=12) of 
+A characterization of the [[∞-stacks]] obtained by Lie integration as above is in [theorem 5.3](http://www.math.harvard.edu/~lurie/papers/moduli.pdf#page=12) of 
 
 * [[Jacob Lurie]], _[[Moduli Problems and DG-Lie Algebras]]_ , 
 
 The Lie integration- of [[Lie infinity-algebroid representation|Lie algebroid representations]] $\mathfrak{a} \to end(V)$ to morphisms of [[∞-categories]] $A \to Ch_\bullet^\circ$ / [[higher parallel transport]] is discussed in
 
 * [[Camilo Arias Abad]], [[Florian Schätz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv:1011.4693](http://arxiv.org/abs/1011.4693))
+
+Application to the problem of Lie integrating ordinary but infinite-dimensional Lie algebras is in 
+
+* [[Christoph Wockel]], [[Chenchang Zhu]], _Integrating central extensions of Lie algebras via Lie 2-groups_ ([arXiv:1204.5583](http://arxiv.org/abs/1204.5583))
 
