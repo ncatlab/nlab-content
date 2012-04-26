@@ -105,6 +105,7 @@ $$
 
 * Whatever other definition of [[∞-groupoid]] one considers, it is expected to map to a Kan complex under the [[nerve]].
 
+
 * A slight weakening of the Kan condition, the _weak Kan condition_ leads to the definition of [[quasi-category]].
 
 * Kan complexes are the fibrant objects in the [[model structure on simplicial sets|model structures on simplicial sets]] for which fibrations are [[Kan fibration|Kan fibrations]].
@@ -230,7 +231,7 @@ We expand here a bit on how a Kan complex may naturally be thought of as a _[[gl
 
 For this interpretation, one thinks of a $k$-dimensional cell $\phi \in C_K$ of a Kan complex $C$ as a [[globular set|globular]] [[k-morphism]] whose 
 
-* _source_ is the $(k-1)$-morphism given by the pasting diagram of the $(k-1)$-cells that are the faces $d_{k} \phi, \; d_{k-2} \phi, d_{k-4} \phi \cdots$  of $\phi$;
+* _source_ is the $(k-1)$-morphism given by the pasting diagram ([[limit in a quasi-category|coproduct]]) of the $(k-1)$-cells that are the faces $d_{k} \phi, \; d_{k-2} \phi, d_{k-4} \phi \cdots$  of $\phi$;
 
 * _target_ is the $(k-1)$-morphism given by the pasting diagram of the $(k-1)$-cells that are the faces $d_{k-1} \phi, \; d_{k-3} \phi, d_{k-5} \phi \cdots$  of $\phi$
 
