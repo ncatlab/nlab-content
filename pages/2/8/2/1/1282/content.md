@@ -59,12 +59,12 @@ In the following examples, $D$ is a [[small category]], $C$ is any category and 
 
 ## In terms of other operations {#limitsintermsofotherops}
 
-the limit of $F : D^{op} \to C$ is always a [[nLab:subobject|subobject]] of the [[nLab:product|product]] of the $F(d)$, namely the [[nLab:equalizer|equalizer]] of
+If products and equalizers exist in $C$, then limit of $F : D^{op} \to C$ can be exhibited as a [[nLab:subobject|subobject]] of the [[nLab:product|product]] of the $F(d)$, namely the [[nLab:equalizer|equalizer]] of
 
 $$
   \prod_{d \in Obj(D)}
   F(d)
-  \stackrel{\prod_{f \in Mor(D)} (F(f) \circ p_{t(f)}) }{\to}  
+  \stackrel{\langle F(f) \circ p_{F(t(f))} \rangle_{f \in Mor(D)} }{\to}  
   \prod_{f \in Mor(D)}
   F(s(f))
 $$
@@ -74,7 +74,7 @@ and
 $$
   \prod_{d \in Obj(D)}
   F(d)
-  \stackrel{\prod_{f \in Mor(D)} (p_{s(f)}) }{\to}  
+  \stackrel{\langle p_{F(s(f))} \rangle_{f \in Mor(D)} }{\to}  
   \prod_{f \in Mor(D)}
   F(s(f))  
   \,.
