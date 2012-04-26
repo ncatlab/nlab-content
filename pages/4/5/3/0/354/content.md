@@ -395,9 +395,18 @@ Other concepts:
 
 ## References
 
-For Kan complexes in general see the references at _[[simplicial set]]_.
+For Kan complexes as such see the references at _[[simplicial set]]_ and at [[model structure on simplicial sets]].
 
-For Kan complexes as $\infty$-groupoids: [Eugenia Cheng - higher dimensional categories - an illustrated guide book](http://www.cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
+For Kan complexes as $\infty$-groupoids, see for instance 
+
+section 1.2.5 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+There is also discussion in section (???) of
+
+* [[Eugenia Cheng]], [[Aaron Lauda]], _Higher dimensional categories: an illustrated guidebook_ (2004) ([pdf](http://www.cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf))
+
 
 
 
