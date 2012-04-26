@@ -26,23 +26,24 @@ A locally presentable category is one where every [[object]] is a [[colimit]] ov
 
 There are many equivalent definitions of locally presentable categories.  The following is one of the most intuitive.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (locally presentable category)
 
 A [[category]] $C$ is called **locally presentable** if
 
 * $C$ is [[locally small category]];
 
-* it has all small [[colimit]]s;
+* it has all small [[colimits]];
 
-* there exists a [[set]] $S$ (not a proper [[class]]) of [[object]]s that generates $C$ under colimits (in the sense that every object of $C$ may be written as a colimit over a diagram with objects in $S$); and
+* there exists a [[small set]] $S$ of [[objects]] that generates $C$ under colimits (in the sense that every object of $C$ may be written as a colimit over a diagram with objects in $S$); and
 
 * every object is a [[small object]].
+
 =--
 
 Since a small object is one which is $\kappa$-[[compact object|compact]] for some $\kappa$, and any $\kappa$-compact object is also $\lambda$-compact for any $\lambda\gt\kappa$, it follows that there exists some $\kappa$ such that every object of the colimit-generating set $S$ is $\kappa$-compact.  This provides a "stratification" of the class of locally presentable categories, as follows.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (locally $\kappa$-presentable category)
 
 For $\kappa$ a [[regular cardinal]], a **locally $\kappa$-presentable category** is a locally presentable category such that the colimit-generating set $S$ may be taken to consist of $\kappa$-compact objects.
@@ -57,7 +58,7 @@ A locally $(\kappa = \aleph_0)$-presentable category is called a **locally finit
 
 There are many other equivalent definitions of locally presentable categories.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition (as limit sketches)
 
 Locally presentable categories are precisely the categories of [[sketch|models of limit-sketches]].
@@ -71,13 +72,13 @@ This is theorem _xyz_ in _AdRo_ .
 
 This proposition extrapolates part of the Gabriel--Ulmer duality (see below), which concerns locally finitely presentable categories: 
 
-+-- {: .un_prop} 
++-- {: .num_prop} 
 ###### Proposition (as finite limit sketches) 
 
 Locally finitely presentable categories are precisely the categories of finite limit preserving functors $C \to Set$, for small finitely complete categories $C$. 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition (as accessible reflective subcategories of presheaves)
 
 Locally presentable categories are precisely the [[accessible functor|accessively embedded]] full [[reflective subcategories]] 
@@ -109,7 +110,7 @@ Let $Lex$ denote the [[2-category]] of small finitely complete categories, finit
 
 Let $LFP$ denote the 2-category of locally finitely presentable categories, [[right adjoint]] functors which preserve [[filtered colimit]]s, and natural transformations between them. 
 
-+-- {: .un_prop} 
++-- {: .num_prop} 
 ###### Theorem (Gabriel--Ulmer duality) 
 
 There is a contravariant biequivalence 
@@ -190,7 +191,7 @@ This deserves to be expanded upon.
 
 * a [[poset]], regarded as a category, is locally finitely presentable if it is a complete [[lattice]] which is algebraic (each element is a directed [[join]] of finite elements).
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Counterexamples
 
 * the category [[FinSet]] of _finite_ sets is not locally finitely presentable, as it does not have all countable colimits.
@@ -215,24 +216,34 @@ The following three examples, being presheaf categories, are locally finitely pr
 
 More generally, 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A [[Grothendieck topos]] is locally presentable. 
 =--
 
-This appears as [Borceux, prop. 3.4.16, page 220](#Borceux)
+This appears as [Borceux, prop. 3.4.16, page 220](#Borceux).
 
+The main ingredient in the proof is:
+
++-- {: .num_prop}
+###### Proposition
+
+For $C$ a [[site]] and $\kappa$ a [[regular cardinal]] strictly larger than the [[cardinality]] of $Mor(C)$, every $\kappa$-[[filtered colimit]] in the [[sheaf topos]] $Sh(C)$ is computed objectwise.
+
+=--
+
+This implies that all [[representable functor|representables]] are $\kappa$-[[compact objects]]. 
 
 More generally still, we have the following stability theorems: 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 If $A$ is locally presentable and $C$ is a [[small category]], then the [[functor category]] $A^C$ is locally presentable. 
 =--
 
-+-- {: .un_theorem #AlgebrasOverAnAccessibleMonad}
++-- {: .num_theorem #AlgebrasOverAnAccessibleMonad}
 ###### Theorem
 
 If $T$ is an accessible [[monad]] (a monad whose underlying [[functor]] is an [[accessible functor]]) on a locally presentable category $A$, then the category $A^T$ of [[algebras over a monad|algebras over the monad]] is locally presentable. In particular, if $A$ is locally presentable and $i: B \to A$ is a [[reflective subcategory]], then $B$ is locally presentable if $i$ is accessible.  
@@ -270,7 +281,7 @@ More details are in
 
 Some further discussion is in 
 
-* [[Francis Borceux]], _Handbook of Categorical Algebra: Categories of Sheaves_ (proposition 3.4.16), page 220. 
+* [[Francis Borceux]], _Handbook of Categorical Algebra: III Categories of Sheaves_ (proposition 3.4.16), page 220. 
 {#Borceux}
 
 See also section A.1.1 of 
