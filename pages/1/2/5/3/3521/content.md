@@ -156,10 +156,10 @@ $$
   \,.
 $$
 
-In particular for $X$ connected we have
+In particular for $S \in sSet$ connected we have
 
 $$
-  C(X) = X \star \Delta[0]
+  C(S) = S \star \Delta[0]
   \,.
 $$
 
