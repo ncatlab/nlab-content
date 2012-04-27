@@ -1,0 +1,1 @@
+if R is a ring and I an ideal in R and a an element in R we define (I:a)={x in R such that xa belong ot I 
