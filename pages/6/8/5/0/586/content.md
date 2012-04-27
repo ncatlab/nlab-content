@@ -63,8 +63,7 @@ An "internally finitely indexed" object is generally called a **Kuratowski-finit
 
 There is a more general definition of K-finite objects that does not need to assume the presence of a [[natural number object]]. See ([Johnstone, theorem D5.4.13](#Johnstone)).
 
-
-
+Since it is still provable in the [[internal logic]] that any decidable finitely indexed set is finite, the "internally finite" objects (those that are locally isomorphic to a finite cardinal, as above) can be characterized as the __decidable $K$-finite objects__.
 
 
 ## Properties
@@ -114,8 +113,6 @@ The first statement appears as ([Johnstone, theorem 5.4.18](#Johnstone)).
 The full subcategory $\mathcal{T}_{dKf} \hookrightarrow \mathcal{T}$ can be regarded as the "[[stack]] completion" of the topos of finite cardinals.  
 
 =--
-
-Since it is still provable in the [[internal logic]] that any decidable finitely indexed set is finite, the "internally finite" objects can be characterized as the _decidable $K$-finite objects_.
 
 
 ### Relation to compact objects
