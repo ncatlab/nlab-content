@@ -19,6 +19,13 @@ A _proper map of toposes_ is the generalization to [[toposes]] of the notion of 
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
+A [[sheaf topos]] $\mathcal{E}$ is called **compact** if the [[direct image]] of the [[global section geometric morphism]] $\Gamma : \mathcal{E} \to Set$ preserves [[directed colimit|directed]] [[joins]] of [[subterminal objects]].
+
+=--
+
 A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is called _proper_ if it exhibits $\mathcal{F}$ as a [[compact topos]] over $\mathcal{E}$.
 
 (...)
