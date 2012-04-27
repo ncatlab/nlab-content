@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
@@ -39,7 +44,7 @@ For $S \in Set$
 
 ## Properties
 
-For an axiomatization of this situation see [[cohesive topos]].
+For an axiomatization of this situation see _[[codiscrete object]]_.
 
 [[!redirects discrete topology]]
 
@@ -55,3 +60,5 @@ For an axiomatization of this situation see [[cohesive topos]].
 [[!redirects codiscrete topological structures]]
 [[!redirects codiscrete topological space]]
 [[!redirects codiscrete topological spaces]]
+
+[[!redirects indiscrete topology]]
