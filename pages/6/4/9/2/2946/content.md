@@ -173,16 +173,14 @@ Elements in filtered colimits in [[Set]] and [[Grp]] are given as classes of equ
 
 (More was/is to be written here, including an application to [[geometric realization]], relation to [[Diaconescu's theorem]], and perhaps more.) 
 
-## Applications
-
-Filtered colimits are also important in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories.  See also [[pro-object]] and [[ind-object]].
-
 
 ## Related concepts
 
 * [[filtered category]], [[compact object]]
 
 * [[filtered (∞,1)-colimit]]
+
+Filtered colimits are also important in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories.  See also [[pro-object]] and [[ind-object]].
 
 ## References
 
