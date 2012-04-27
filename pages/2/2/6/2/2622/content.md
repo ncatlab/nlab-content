@@ -1,5 +1,5 @@
 
-**objects $d \in C$ such that $C(d,-)$ commutes with certain [[colimit]]s**
+**objects $d \in C$ such that $C(d,-)$ commutes with certain [[colimits]]**
 
 * [[coproduct-preserving representable]]
   
@@ -23,5 +23,17 @@
 * [[accessible category]]
 
   * [[presentable category]]
+
+## Models
+
+* [[compact topos]]
+
+* [[compact topological space]]
+
+## Relative version
+
+* [[proper geometric morphism]]
+
+* [[proper map]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/compact+object+-+contents)</div>
