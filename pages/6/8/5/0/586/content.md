@@ -124,6 +124,23 @@ An object in a sheaf topos is a [[compact object]] precisely if it is Kuratowski
 
 (??)
 
+### Relation to slice toposes
+
++-- {: .num_prop}
+###### Proposition
+
+An object $X \in \mathcal{T}$ is K-finite precisely if the [[étale geometric morphism]]
+
+$$
+  \mathcal{T}_{/X} \to \mathcal{T}
+$$
+
+out of the [[slice topos]] is a [[proper geometric morphism]].
+
+=--
+
+([Moerdijk-Vermeulen, examples 1.4](#MoerdijkVermeulen))
+
 ## Examples
 
 * In any [[Boolean topos]], all four internal notions coincide.  In a [[well-pointed topos]], each internal notion coincides with its external notion.  Therefore, in a well-pointed Boolean topos, including the topos [[Set]] as usually conceived, all notions of finiteness coincide.
@@ -157,7 +174,8 @@ See also
 
 * [[Peter Johnstone]], [[Fred Linton]], _Finiteness and decidability: II_ Cambridge Philosophical Society Mathematical Proceedings of the Cambridge Philosophical Society (1978),
 
-
+* [[Ieke Moerdijk]], J. Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) and _Proper maps of toposes_ , American Mathematical Society (2000)
+  {#MoerdijkVermeulen}
 
 [[!redirects finite object]]
 [[!redirects finite objects]]
