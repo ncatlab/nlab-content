@@ -16,7 +16,19 @@
 
 ## Idea
 
-An [[object]] of a [[category]] is *compact* if it is "finite" or "small" in some precise sense.
+An [[object]] of a [[category]] is called *compact* if it is "finite" or "small" in some precise sense. There are however different formalizations of this idea. Here discussed is the notion, usually going by this term, where an object $X$  is called _compact_ if mapping out of it commutes with [[filtered colimits]]. 
+
+This means that if any other object $A$ is given as the [[colimit]] of a "suitably increasing" family of objects $\{A_i\}$, then every morphism 
+
+$$
+  X \to A = \lim_{\to_i} A_i
+$$
+
+out of the compact object $X$ into that colimit factors through one of the inclusions $A_i \to \underset{\to_i}\lim A_i$.
+
+The notion of _[[small object]]_ is essentially the same, with a bit more flexibility on when the family $\{A_i\}$ is taken to be "suitably increasing". An important application of the above factorization property is accordingly named the _[[small object argument]]_.
+On the other hand, there is also the notion of _[[finite object]]_ (in a [[topos]]) which, while closely related, is different. See also _[Subtleties and different meanings](#SubtletiesAndDifferentMeanings)_ below.
+
 
 
 ## Definition 
@@ -34,8 +46,8 @@ $$
 [[preserved limit|preserves]] these [[filtered colimits]].  This means that for every [[filtered category]] $D$ and every functor $F : D \to C$, the canonical morphism
 
 $$
-  colim C(X,F(-)) \stackrel{\simeq}{\to} 
-  C(X, colim F)
+  \underset{\to_d}{\lim} C(X,F(d)) \stackrel{\simeq}{\to} 
+  C(X, \underset{\to_d}{\lim} F(d))
 $$
 
 is an [[isomorphism]].
@@ -102,9 +114,9 @@ which proves the claim.
 
 * In $C = $ [[Set]] an object is compact precisely if it is a ([[Kuratowski finite object|Kuratowski]]) [[finite set]].
 
-* For $C$ a [[topos]], $X$ is compact if it is a [[Kuratowski finite object]].
+* For $C$ a [[topos]], $X$ is compact if ... 
 
-* In $C = $ [[Grp]] an object is compact precisely if it is finitely presented as a group.
+* In $C = $ [[Grp]] an object is compact precisely if it is [[finitely presented object|finitely presented]] as a group.
 
 * More generally, if $C$ is any [[variety of algebras]], then an object is compact precisely if it is [[finitely presented object|finitely presented]] as an algebra.  A proof can be found in Corollary 3.13 of [[LPAC]].
 
@@ -112,8 +124,9 @@ which proves the claim.
 
 
 ## Subtleties and different meanings 
+ {#SubtletiesAndDifferentMeanings}
 
-One has to be careful about the following variations on this theme.
+One has to be careful about the following variations of the theme of compactness.
 
 
 ### Compactness in additive categories 
@@ -212,6 +225,8 @@ Hovey wants this result in view of a [[small object argument]] on the way to pro
 * **compact object**
 
 * [[compact object in an (∞,1)-category]]
+
+* [[small object]], [[small object argument]]
 
 * [[finitely presented object]]
 
