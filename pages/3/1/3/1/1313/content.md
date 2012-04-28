@@ -59,7 +59,7 @@ Of course, in any cartesian closed category every object is exponentiable and ex
 
 ### Exponentiation of sets and of numbers
 
-In the cartesian closed catgeory [[Set]] of [[set]]s, for $X,S \in Set$ to sets, their exponentiation $X^S$ is the set of [[function]]s $S\to X$.
+In the cartesian closed category [[Set]] of [[set]]s, for $X,S \in Set$ to sets, their exponentiation $X^S$ is the set of [[function]]s $S\to X$.
 
 Restricted to [[finite set]]s and under the [[cardinality]] operation $|-| : FinSet \to \mathbb{N}$ this induces an exponentiation operation on [[natural number]]s
 
