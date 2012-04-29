@@ -158,6 +158,8 @@ Every poset is a [[Cauchy complete category]]. Posets are the Cauchy completions
 
 ## References
 
+* Richard P. Stanley, Enumerative [[combinatorics]], vol I [pds](http://www-math.mit.edu/~rstan/ec/ec1.pdf)
+
 [[Cauchy completion]] of prosets and posets is discussed in 
 
 * G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://www.disi.unige.it/person/RosoliniG/notccp.pdf))
