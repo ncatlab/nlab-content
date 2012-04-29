@@ -19,6 +19,11 @@ As for ordinary [[sheafification]], _$(\infty,1)$-sheafification_ is the [[exact
 
 For more details see [[(∞,1)-category of (∞,1)-sheaves]].
 
+## References
+
+For instance section 6.5.3 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 ## Related concepts
 
