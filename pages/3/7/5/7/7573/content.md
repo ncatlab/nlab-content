@@ -1,0 +1,12 @@
+
+## Idea
+
+The _plus construction_ $(-)^+ : PSh(C) \to PSh(C)$ on presheaves over a [[site]] $C$ is an operation that replaces a [[presheaf]] via [[local isomorphisms]] first by a [[separated presheaf]] and then by a [[sheaf]].
+
+$$
+  PSh(C) \stackrel{(-)^+}{\to} SepPSh(C)
+  \stackrel{(-)^+}{\to} Sh(C)
+  \,.
+$$
+
+For the moment see at _[[sheaf]]_ for more...
