@@ -418,6 +418,11 @@ The generalization of this construction to non-torsion twists requires using [[v
 
 There the twisted cocycle equation discussed above appears on the bottom of page 7.
 
+Then there is
+
+* [[Max Karoubi]], _Twisted bundles and twisted K-theory_, Clay Mathematics Proceedings, Volume 19 (2011) ([pdf](http://www.math.jussieu.fr/~karoubi/Publications/89.pdf))
+ {#Karoubi}
+
 ### As 2-sections of 2-bundles
  {#ReferencesAsSectionsOf2Bundles}
 
