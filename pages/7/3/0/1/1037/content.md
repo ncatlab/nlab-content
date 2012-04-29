@@ -596,6 +596,8 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 #### 6.5.3 Hypercovering
 
+* [[(∞,1)-sheafification]]/[[∞-stackification]]
+
 * [[hypercover]]
 
 * [[hypercomplete (∞,1)-topos]]
