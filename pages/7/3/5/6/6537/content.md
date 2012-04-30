@@ -92,5 +92,7 @@
 
   * [[A-model]], [[B-model]]
 
+* [[topological M-theory]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/string+theory+-+contents)</div>
 
