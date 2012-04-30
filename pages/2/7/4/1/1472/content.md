@@ -586,17 +586,17 @@ The observation that generally [[differential cohomology]] is the correct formal
 Journal of High Energy Physics 0005 (2000) 044 ([pdf](http://web.me.com/teichner/Math/Smooth_Cohomology_files/Freed-Hopkins.pdf))
 {#FreedHopkins}
 
-Motivated by this the theory of differential cohomology itself was developed in
+Motivated by this, the theory of differential cohomology itself was developed in
 
 * [[Mike Hopkins]], I. Singer _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
 {#HopkinsSinger}
 
-and shown to encode sublte [[quantum anomaly]]-cancellation phenomena in gauge theory. A systematic formal description of the nature of these quantum anomalies and further discussion of applications on differential cohomology in physics is in 
+and shown to encode subtle [[quantum anomaly]]-cancellation phenomena in gauge theory. A systematic formal description of the nature of these quantum anomalies and further discussion of applications on differential cohomology in physics is in 
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
 {#Freed}
 
-This article startes with an introduction on just basic [[electromagnetism]] and points out that already there, in the presence of [[magnetic charge]], a careful analysis of [[quantum anomalies]] shows that there are higher gauge theoretic effects even in this familiar theory.
+This article starts with an introduction on basic [[electromagnetism]] and points out that already there, in the presence of [[magnetic charge]], a careful analysis of [[quantum anomalies]] shows that there are higher gauge theoretic effects even in this familiar theory.
 
 ### On topos-theoretic formulations of physics {#RefsOnToposTheoreticPhysics}
 
