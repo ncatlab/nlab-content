@@ -78,7 +78,7 @@ An notable exception to this is the article
 
 * Jardine, _Cocycle categories_ ([web](http://www.math.uiuc.edu/K-theory/0782/))
 
-that makes both the abstract concept and the terminology of coycles explicit and manifest. The author is mainly motivated from the [[model structure on simplicial presheaves]] and its variants, which in particular models cocycles and cohomology of [[abelian sheaf cohomology]]. But more generally it models [[nonabelian cohomology]]. Notably when the underlying space is the point, it models ordinary [[chain homology and cohomology|chain cohomology]] as well as [[group cohomology]] and [[nonabelian group cohomology]].
+that makes both the abstract concept and the terminology of cocycles explicit and manifest. The author is mainly motivated from the [[model structure on simplicial presheaves]] and its variants, which in particular models cocycles and cohomology of [[abelian sheaf cohomology]]. But more generally it models [[nonabelian cohomology]]. Notably when the underlying space is the point, it models ordinary [[chain homology and cohomology|chain cohomology]] as well as [[group cohomology]] and [[nonabelian group cohomology]].
 
 Notice that this article chooses to work with the full structure of a [[model category]] but presents constructions for cocycles entirely analogous to and in fact inspired by those used in a [[category of fibrant objects]] or in one equipped with a [[calculus of fractions]]. The author emphasizes that he can give a definition where the left leg of the cocycle spans are not required to be acyclic fibrations, but can be any weak equivalences. But all this is just a technical question of how exactly to model a cocycle, not a question of principle of concept. For instance in this context every cocycle defined with respect to a weak equivalence over its domain is cohomologous to one defined with respect to an acyclic fibration over its domain.
 
@@ -143,14 +143,14 @@ $$
   \,.
 $$
 
-It's commutativity means in formulas that
+Its commutativity means in formulas that
 
 $$
   \omega \circ \partial_V = d_V \omega = 0
   \,,
 $$
 
-wich is the cocycle condition from above.
+which is the cocycle condition from above.
 
 In most cases the morphism $\omega : V_\bullet \to \mathbf{B}^n k$ defined this way is already a morphism in the relevant [[(∞,1)-category]] $\mathbf{H}_{Ch_\bullet}$ of chain complexes: this is modeled for instance by the projective [[model structure on chain complexes]]. In this every object is fibrant, and the cofibrant objects are those consisting of projective $k$-[[module]]s. If we assume that all our modules are projective (for instance in the archetypical case that our modules are simply [[vector space]]s), then $\omega : V_\bullet \to \mathbf{B}^n k$ is a cocycle in $\mathbf{H}_{Ch_\bullet}$ from the above abstract nonsense point of view. For its cohomology class we may write
 
