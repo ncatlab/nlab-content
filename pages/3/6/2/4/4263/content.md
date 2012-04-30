@@ -28,7 +28,7 @@ Let $X$ be a [[topological space]].  Then we may define a [[locale]], denoted $\
 
 A locale is __topological__, or __spatial__, if it is [[isomorphism|isomorphic]] to $\Omega(X)$ for some topological space $X$.
 
-A locale $L$ has __[[point of a topos|enough points]]__ if, given any two opens $U$ and $V$ in $L$, $U = V$ if (hence iff) precisely the same [[point of a locale|points]] of $L$ belong to $U$ as belong to $V$.
+A locale $L$ has __enough points__ if, given any two opens $U$ and $V$ in $L$, $U = V$ if (hence iff) precisely the same [[point of a locale|points]] of $L$ belong to $U$ as belong to $V$.
 
 
 ## Properties
@@ -74,3 +74,10 @@ The really clear term for a topological locale is 'locale with enough points to 
 [[!redirects locale with enough points]]
 [[!redirects locales with enough points]]
 [[!redirects locale of opens]]
+[[!redirects locales of opens]]
+[[!redirects locale of open subspaces]]
+[[!redirects locales of open subspaces]]
+[[!redirects locale of open subsets]]
+[[!redirects locales of open subsets]]
+[[!redirects locale of open sets]]
+[[!redirects locales of open sets]]
