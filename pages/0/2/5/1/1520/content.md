@@ -4,7 +4,7 @@ The terminology 'plus construction' is used for two very different types of cons
 
  *  The version which sends a presheaf to a separated presheaf to a sheaf is described at _[[plus construction on presheaves]]_ and _[[sheaf]]_.
 
-*  The process of killing a perfect normal subgroup of the fundamental group of a space is described under [[Quillen plus construction]]. 
+*  The process of killing a perfect normal subgroup of the fundamental group of a space is described under [[Quillen plus construction]].
 
 
 
