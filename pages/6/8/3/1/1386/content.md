@@ -27,7 +27,7 @@ For instance section 6.5.3 of
 
 ## Related concepts
 
-* [[sheafification]]
+* [[sheafification]], [[plus-construction on presheaves]]
 
 * **(∞,1)-sheafification** / [[∞-stackification]]
 
