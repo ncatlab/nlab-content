@@ -29,3 +29,5 @@
  
 * [[Yasuyuki Kawahigashi]], _$N = 2$ Superconformal Field Theory
 and Operator Algebras_ ([pdf](http://www.rci.rutgers.edu/~yzhuang/math/papers/kawahigashi.pdf))
+
+[[!redirects 2d SCFTs]]
