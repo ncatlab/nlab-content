@@ -19,11 +19,19 @@
 
 ## Definition
 
-An **elegant Reedy category** is a [[Reedy category]] $R$ such that
+An **elegant Reedy category** is a [[Reedy category]] $R$ such that the following *equivalent* conditions hold
 
-* every [[span]] of codegeneracy maps in $R$ has an [[absolute colimit|absolute]] [[pushout]] in $R$ that also consists of codegeneracy maps.
+* For every monomorphism $A\hookrightarrow B$ of presheaves on $R$ and every $x\in R$, the induced map $A_x \amalg_{L_x A} L_x B \to B_x$ is a monomorphism.
 
-In particular, this implies that every codegeneracy map is a [[split epimorphism]].
+* Every [[span]] of codegeneracy maps in $R$ has an [[absolute colimit|absolute]] [[pushout]] in $R$ that also consists of codegeneracy maps.
+
+* Both the following conditions hold:
+
+  1. For every monomorphism $A\hookrightarrow B$ of presheaves on $R$, every nondegenerate element of $A$ remains nondegenerate in $B$.
+
+  1. Every element of a presheaf $R$ is a degeneracy of some nondegenerate element in a unique way.
+
+In particular, if $R$ is elegant, then every codegeneracy map is a [[split epimorphism]].
 
 ## Model structures
 
@@ -31,6 +39,12 @@ In particular, this implies that every codegeneracy map is a [[split epimorphism
 ###### Theorem
 If $R$ is an elegant Reedy category and $M$ is a [[model category]] in which the [[cofibrations]] are exactly the [[monomorphisms]], then the [[Reedy model structure]] and the [[injective model structure]] on $M^{R^{op}}$ coincide.
 =--
+
+## Examples
+
+* The [[simplex category]] $\Delta$ is an elegant Reedy category.
+
+* Joyal's [[Theta category|disk categories]] $\Theta_n$ are elegant Reedy categories.
 
 ## References
 
