@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 For a [[ringed space]] $X$ one can form the [[Picard group]]. When $X$ is a [[projective morphism|projective]] [[integral scheme]] over $k$ the [[Picard group]] underlies a $k$-scheme. This scheme varies in a family as $X$ varies in a family. From this starting point one can naturally generalize to more general relative situations. 
@@ -12,7 +17,7 @@ Note we must work with the relative functor because the global picard functor $P
 
 ## Representability
 
-For this section suppose $f:X\to S$ is s [[separated morphism|separated]] map, [[finite type]] map of schemes. Many general forms of [[representable functor|representability]] have been proven several of which are given in FGA Explained. Here we list several of the common forms:
+For this section suppose $f:X\to S$ is s [[separated morphism of schemes|separated]] map, [[finite type]] map of schemes. Many general forms of [[representable functor|representability]] have been proven several of which are given in FGA Explained. Here we list several of the common forms:
 
 * Suppose $\mathcal{O}_S\to f_*\mathcal{O}_X$ is universally an isomorphism (stays an [[isomorphism]] after any [[base change]]), then we have a comparison of relative Picard functors $Pic_{X/S}\hookrightarrow Pic_{X/S, zar}\hookrightarrow Pic_{X/S, et}\hookrightarrow Pic_{X/S, fppf}$. They are all isomorphisms if $f$ has a section.
 
@@ -37,6 +42,7 @@ This gives us an obstruction theory lying in $H^2(T, \mathbb{G}_m)$ for a point 
 The natural map $\mathcal{Pic}_{X/S}\to Pic_{X/S}$ is a $\mathbb{G}_m$-[[gerbe]]. But isomorphism classes of $\mathbb{G}_m$-gerbes over $T$ are in bijective correspondence with $H^2(T, \mathbb{G}_m)$ and so the above map could be thought of as a geometric realization of the universal obstruction class.
 
 
+## References
 
 * Springer eom: [Picard variety](http://eom.springer.de/p/p072690.htm), [Picard scheme](http://eom.springer.de/p/p072670.htm)
 * wikipedia [Picard group](http://en.wikipedia.org/wiki/Picard_group)
