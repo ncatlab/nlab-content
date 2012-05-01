@@ -1,0 +1,10 @@
+
+The general notion is that of
+
+* _[[separated geometric morphism]]_ between [[toposes]].
+
+Special cases include the notion
+
+* _[[separated morphism of schemes]]_.
+
+[[!redirects separated morphisms]]
