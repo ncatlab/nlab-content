@@ -190,6 +190,7 @@ at [[(∞,1)-category of (∞,1)-presheaves]].
 
 
 ### Limits and colimits
+ {#LimitsAndColimits}
 
 +-- {: .num_prop}
 ###### Proposition
