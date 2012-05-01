@@ -47,7 +47,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.3.3.3]].
 
 * [[sifted category]], [[sifted (∞,1)-category]];
 
-* [[filtered category]], **filtered (∞,1)-category**
+* [[directed set]], [[filtered category]], **filtered (∞,1)-category**
 
 ## Reference
 
