@@ -19,9 +19,12 @@
 
 ## Idea
 
-A _proper map of toposes_ is the generalization to [[toposes]] of the notion of [[proper map]] of [[topological spaces]].
+The notion of _compact topos_ is the generalization from [[topology]] to [[topos theory]] of the notion of _[[compact topological space]]_.
+
+More generally, over a general [[base topos]], the notion of _proper geometric morphism_ is the generalization to morphisms between toposes of the notion of _[[proper map]]_ between [[topological spaces]].
 
 ## Definition
+ {#Definition}
 
 +-- {: .num_defn #CompactTopos}
 ###### Definition
@@ -52,6 +55,8 @@ This are the first stages of a notion that in [[(∞,1)-topos theory]] continue 
 
 Let $\kappa$ be a [[regular cardinal]] and $ -1 \leq n \leq \infty$. Then an [[(∞,1)-topos]] is _$\kappa$-compact of height $n$_ if the [[global section geometric morphism]] preserves $\kappa$-[[filtered (∞,1)-category|filtered]] [[(∞,1)-colimits]] of [[n-truncated]] objects. 
 
+Accordingly a geometric morphism is _$\kappa$-proper of height $n$_ if it exhibits $\kappa$-compact of height $n$ $(\infty,1)$-topos over a [[base (∞,1)-topos]].
+
 =--
 
 In this terminology  
@@ -59,6 +64,8 @@ In this terminology
 * a topos _compact of height (-1)_ is the same as a _compact topos_;
 
 * a topos _compact of height 0_ is the same as a _strongly compact topos_;
+
+
 
 ## Properties
 
@@ -77,6 +84,7 @@ We discuss classes of [[sites]] such that their [[sheaf topos]] is a strongly co
 (...)
 
 ## Examples
+
 
 ### Strongly compact toposes
  {#StronglyCompactToposes}
@@ -106,14 +114,28 @@ Examples of strongly compact toposes $\mathcal{E}$, def. \ref{StronglyCompactTop
 +-- {: .num_prop #SliceOverCompactIsStronglyCompact}
 ###### Proposition
 
-Let $\mathbf{H}$ be a topos over [[Set]] and $X \in \mathbf{H}$ an object. If $X$ is a [[compact object]] (in the sense that the [[hom functor]] $\mathbf{H}(X,-)$ preserves [[filtered colimits]]) then the [[slice topos]] $\mathbf{H}_{/X}$ is strongly compact, def. \ref{StronglyCompactTopos}.
+Let $\mathbf{H}$ be a topos over [[Set]] and $X \in \mathbf{H}$ an object. Then the following are equivalent
+
+1. $X$ is a [[compact object]] (in the sense that the [[hom functor]] $\mathbf{H}(X,-)$ preserves [[filtered colimits]]) 
+
+1. the [[slice topos]] $\mathbf{H}_{/X}$ is strongly compact, def. \ref{StronglyCompactTopos}.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The [[global section geometric morphism]] $\Gamma : \mathbf{H}_{/X} \to Set $ is given by the [[hom functor]] out of the [[terminal object]], which in $\mathbf{H}_{/X}$ is $id_X : X \to X$. This takes any $E \to X$ in $\mathbf{H}_{/X}$ to the set of [[sections]]
+The [[direct image]] $\Gamma_X$ of the [[global section geometric morphism]] 
+
+$$
+  ((-) \times X \dashv  \Gamma_X) : \mathbf{H}_{/X} 
+    \stackrel{\overset{(-) \times X}{\leftarrow}}{\underset{\mathbf{\Gamma}_X}{\to}} 
+  \mathbf{H}
+   \stackrel{\overset{\Delta}{\leftarrow}}{\underset{\mathbf{H}(*,-)}{\to}}
+  Set 
+$$ 
+
+is given by the [[hom functor]] out of the [[terminal object]]. The terminal object in $\mathbf{H}_{/X}$ is the [[identity]] [[morphism]] $id_X : X \to X$. So the terminal geometric morphism  takes any $[E \to X]$ in $\mathbf{H}_{/X}$ to the set of [[sections]], given by the [[pullback]] of the [[hom set]] along the inclusion of the [[identity]]
 
 $$
   \Gamma_X([E \to X]) = \mathbf{H}(X,E) \times_{\mathbf{H}(X,X)} \{id\}
@@ -149,6 +171,45 @@ where in the second but last step we used that in the [[topos]] [[Set]] [[univer
 
 This shows that $\Gamma_X(-) : \mathbf{H}_{/X} \to Set$ commutes over filtered colimits if $X$ is a [[compact object]].
 
+Conversely, assume that $\Gamma_X(-)$ commutes over all filtered colimits. For every ([[filtered category|filtered]]) [[diagram]] $F_\bullet : I \to \mathbf{H}$ there is the corresponding filtered diagram $X \times F_\bullet : I \to \mathbf{H}_{/X}$, where $[X \times F_i \to X]$ is the projection. As before, the product with $X$ preserves forming colimits 
+
+$$
+  \underset{\longrightarrow_i}{\lim} ([X \times F_i \to X])
+  \simeq
+  [X \times  (\underset{\longrightarrow_i}{\lim} F_i) \to X]
+  \,.
+$$
+
+Moreover, sections of a trivial [[bundle]] are maps into the fiber
+
+$$
+  \Gamma_X([X \times F_i \to X]) \simeq \mathbf{H}(X,F_i)
+  \,.
+$$
+
+So it follows that $X$ is a compact object:
+
+$$
+  \begin{aligned}
+    \mathbf{H}(X, \underset{\longrightarrow_i}{\lim} F_i)
+    & 
+   \simeq 
+   \Gamma_X( [X \times (\underset{\longrightarrow_i}{\lim} F_i) \to X])
+    \\
+    & \simeq 
+   \Gamma_X(\underset{\longrightarrow_i}{\lim} [X \times  F_i \to X])
+   \\
+   & \simeq
+   \underset{\longrightarrow_i}{\lim}
+   \Gamma_X( [X \times  F_i \to X])   
+   \\
+   & \simeq
+   \underset{\longrightarrow_i}{\lim}
+   \mathbf{H}(X,F_i)     
+  \end{aligned}
+  \,.
+$$
+
 =--
 
 ### Finite objects
@@ -168,16 +229,26 @@ out of the [[slice topos]] is a proper geometric morphism. And precisely if $X$ 
 
 ([Moerdijk-Vermeulen, examples III 1.4](#MoerdijkVermeulen))
 
+## Related concepts
+
+* [[separated geometric morphism]], [[Hausdorff topos]]
 
 
 ## References
 
-* [[Ieke Moerdijk]], J. Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) and _Proper maps of toposes_ , American Mathematical Society (2000)
+* [[Ieke Moerdijk]], Jacob Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) and _Proper maps of toposes_ , American Mathematical Society (2000)
   {#MoerdijkVermeulen}
 
+[[!redirects proper map of toposes]]
 [[!redirects proper maps of toposes]]
 
-[[!redirects proper geometric morphism]]
 [[!redirects proper geometric morphisms]]
 
 [[!redirects compact topos]]
+[[!redirects strongly compact topos]]
+
+[[!redirects compact toposes]]
+[[!redirects strongly compact toposes]]
+
+[[!redirects compact topoi]]
+[[!redirects strongly compact topoi]]
