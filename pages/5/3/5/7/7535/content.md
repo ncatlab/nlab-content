@@ -20,9 +20,11 @@ Exactness properties of a functor refer to preservation of limits or colimits of
   * A [[pretopos]] is coherent and also extensive (see below).
   * A [[Grothendieck topos]] is an infinitary-pretopos that also has a [[generating set]].  Toposes play a universal role for lex colimits; see Garner-Lack.
 
-* An [[extensive category]] has [[coproducts]] that are disjoint and stable under pullback
+* An [[extensive category]] has [[coproducts]] that are disjoint and stable under pullback.
 
 * An [[adhesive category]] has pushouts of monomorphisms that are stable under pullback and "van Kampen".
+
+* An [[exhaustive category]] has colimits of sequences of monomorphisms that are pullback-stable and "exhaust" the colimit.
 
 * Having [[filtered colimits]] which commute with [[finite limits]] is also an exactness property.
 
@@ -30,7 +32,7 @@ Exactness properties of a functor refer to preservation of limits or colimits of
 
 * The various types of [[additive and abelian categories]] can also be considered "exactness properties" in a looser sense, though they are not lex colimits in the formal sense.  See also [[AT-category]].
 
-* A [[site]] can be considered as a category with "exactness [[structure]]", or as a way of specifying certain exactness conditions which ought to hold after "completion".
+* A [[site]] can be considered as a category with "exactness [[structure]]", or as a way of specifying certain exactness conditions which ought to hold after "completion".  See [[postulated colimit]] and [[exact completion]].
 
 ## References
 
@@ -40,3 +42,7 @@ Exactness properties of a functor refer to preservation of limits or colimits of
 [[!redirects exactness properties of categories]]
 [[!redirects lex colimit]]
 [[!redirects lex colimits]]
+[[!redirects exactness notion]]
+[[!redirects exactness notions]]
+[[!redirects notion of exactness]]
+[[!redirects notions of exactness]]
