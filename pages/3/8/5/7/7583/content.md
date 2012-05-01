@@ -1,0 +1,101 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+# Exhaustive categories
+
+* table of contents
+{: toc}
+
+## Idea
+
+A [[category]] is **exhaustive** if it has [[colimits]] of (transfinite) sequences of [[monomorphisms]] which interact well with [[pullbacks]].
+
+## Definition
+
+A category $C$ is **exhaustive** if the following two conditions hold.
+
+* Given a transfinite sequence 
+  $$ A_0 \to A_1 \to \cdots $$
+  (continuing through $A_\alpha$ for all $\alpha\lt\kappa$, where $\kappa$ is some limit [[ordinal]]) for which each transition map $A_\alpha \to A_\beta$ is a [[monomorphism]], there exists a colimit (a [[transfinite composition]]) $A_\kappa$.
+
+* Suppose given a diagram
+  $$\array{
+    B_0 & \to & B_1 & \to & \cdots & \to & B_\kappa\\
+    \downarrow && \downarrow &&&& \downarrow\\
+    A_0 & \to & A_1 & \to & \cdots & \to & A_\kappa\\
+  }$$
+  in which the bottom row is a transfinite composition, and for each $\alpha\lt\beta\lt\kappa$, the morphism $A_\alpha\to A_\beta$ is monic and the square
+  $$ \array{ B_\alpha & \to & B_\beta \\
+    \downarrow && \downarrow \\
+    A_\alpha & \to & A_\beta } $$
+  is a [[pullback]] (hence $B_\alpha \to B_\beta$ is also monic).  Then the top row is a transfinite composition if and only if for all $\alpha\lt\kappa$ the square
+  $$ \array{ B_\alpha & \to & B_\kappa \\
+    \downarrow && \downarrow \\
+    A_\alpha & \to & A_\kappa } $$
+  is a pullback.
+
+Note that half of the second condition is simply that the colimits in the first condition are stable under pullback.  One may obtain various weaker notions by restricting the allowable values of $\kappa$.
+
+We may refer to the transfinite composites of monomorphisms above as **transfinite unions**.
+
+
+## Examples
+
+* The category [[Set]] is easily verified to be exhaustive.
+
+* Since limits and colimits in presheaf categories are pointwise, any presheaf category $[D^{op},Set]$ is also exhaustive.
+
+* Since the condition involves only colimits and finite limits, it is preserved by any left exact localization.  Thus, every [[Grothendieck topos]] is exhaustive.
+
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+Given a transfinite union
+$$ A_0 \to A_1 \to \cdots \to A_\kappa$$
+in an exhaustive category (so that $A_\alpha \to A_\beta$ is monic for all $\alpha\lt\beta\lt\kappa$), the coprojections $A_\alpha\to A_\kappa$ are also monic.
+=--
++-- {: .proof}
+###### Proof
+For a fixed $\alpha$, consider the diagram
+$$\array{
+  A_0 & \to & A_1 & \to & \cdots & \to & A_\alpha & \to & A_\alpha & \to & \cdots & \to & A_\alpha\\
+  \downarrow && \downarrow &&&& \downarrow && \downarrow &&&& \downarrow\\
+  A_0 & \to & A_1 & \to & \cdots & \to & A_\alpha & \to & A_{\alpha+1} & \to & \cdots & \to & A_\kappa\\
+}$$
+It is easy to see that each intermediate square is a pullback, and of course the top row is a colimit.  Thus, in particular the square
+$$\array{ A_\alpha & \to & A_\alpha \\
+  \downarrow && \downarrow\\
+  A_\alpha & \to & A_\kappa}$$
+is a pullback, i.e. $A_\alpha\to A_\kappa$ is monic.
+=--
+
++-- {: .un_prop}
+###### Proposition
+If an exhaustive category is also finitary [[extensive category|extensive]], then it is infinitary extensive.
+=--
++-- {: .proof}
+###### Proof
+A coproduct of cardinality $\kappa$ can be constructed using transfinite compositions and finite coproducts:
+$$ \sum_{\alpha\lt 0} A_\alpha \to \sum_{\alpha\lt 1} A_\alpha \to \sum_{\alpha\lt 2} A_\alpha \to \cdots \to \sum_{\alpha\lt \kappa} A_\alpha $$
+Finitary extensivity implies that all the transition maps are monic, so that these transfinite composites exist in an exhaustive category.  Pullback-stability of coproducts follows easily from pullback-stability of transfinite unions and of finite coproducts.  Finally, exhaustiveness allows us to reduce disjointness of $\kappa$-ary coproducts to disjointness for finitary ones.
+=--
+
+## Related pages
+
+* [[exactness property]]
+
+## References
+
+* The name "exhaustive category" is a coinage; there seems to be no established name in the literature for this exactness property.  See [this MO question](http://mathoverflow.net/questions/93567/exactness-for-sequential-unions-of-monomorphisms).
+
+[[!redirects exhaustive category]]
+[[!redirects exhaustive categories]]
