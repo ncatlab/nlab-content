@@ -26,7 +26,14 @@ A category whose opposite is filtered is called **cofiltered**.
 
 ## Definitions
 
-A **(finitely) filtered category** (sometimes called a **filtrant category**, as for instance in Kashiwara--Schapira\'s book [[Categories and Sheaves]]) is a [[category]] $C$ in which any finite diagram has a [[cocone]].  That is, for any finite category $D$ and any functor $F:D\to C$, there exists an object $c\in C$ and a natural transformation $F\to \Delta c$ where $\Delta c:D\to C$ is the constant diagram at $c$.
++-- {: .num_defn}
+###### Definition
+
+A **(finitely) filtered category**  is a [[category]] $C$ in which every finite [[diagram]] has a [[cocone]].  
+
+=--
+
+That is, for any finite category $D$ and any [[functor]] $F:D\to C$, there exists an object $c\in C$ and a [[natural transformation]] $F\to \Delta c$ where $\Delta c:D\to C$ is the constant diagram at $c$.
 
 Equivalently, filtered categories can be characterized as those categories where, for every finite diagram $J$, the diagonal functor $\Delta : C \to C^J$ is [[final functor|final]]. This point of view can be generalized to other kinds of categories whose colimits are well-behaved with respect to a type of limit, such as [[sifted colimit|sifted]] categories.
 
@@ -43,7 +50,7 @@ More generally, if $\kappa$ is a [[regular cardinal]], then a **$\kappa$-filtere
 
 ## Examples
 
-* A filtered [[preorder]] is the same as a [[direction|directed]] one.
+* A filtered [[preorder]] is the same as a [[direction|directed]] one: a **filtered [[(0,1)-category]]**.
 
 * Every category with a [[terminal object]] is filtered.
 
@@ -56,7 +63,7 @@ More generally, if $\kappa$ is a [[regular cardinal]], then a **$\kappa$-filtere
 
 * [[sifted category]], [[sifted (∞,1)-category]]
 
-* **filtered category**, [[filtered (∞,1)-category]]
+* [[directed set]], **filtered category**, [[filtered (∞,1)-category]]
 
 * [[filtered colimit]]
 
