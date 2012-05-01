@@ -21,25 +21,51 @@ Hausdorff spaces are a kind of [[nice topological space]]; they do not form a pa
 
 
 ## Definitions
+ {#Definitions}
 
-The traditional definition is this:
+There are many equivalent ways of characterizing Hausdorff topological spaces. The traditional definition is this:
+
 +-- {: .num_defn #classical}
 ###### Definition
-Given points $x$ and $y$, if $x \neq y$, then there exist neighbourhoods $U$ of $x$ and $V$ of $y$ such that $U \cap V$ is the [[empty set]].
+
+A [[topological space]] is _Hausdorff_ precisely if
+
+for all pairs of points $x, y \in X$, if $x \neq y$, then there exist [[open neighbourhoods]] $U$ of $x$ and $V$ of $y$ such that $U \cap V$ is the [[empty set]].
+
 =--
-That is, any two distinct points can be separated by neighbourhoods.
+
+That is, any two distinct points can be _separated_ by open neighbourhoods.
+
 
 Here is a classically equivalent definition that is more suitable for [[constructive mathematics]]:
+
 +-- {: .num_defn #constructive}
 ###### Definition
+
 Given points $x$ and $y$, if every neighbourhood $U$ of $x$ meets every neighbourhood $V$ of $y$ (which means that $U \cap V$ is [[inhabited set|inhabited]]), then $x = y$.
+
 =--
 
-Here is an equivalent definition (constructively equivalent to Definition \ref{constructive}) that makes sense for arbitrary [[convergence space]]s:
+A more conceptual way of saying this is the following
+
++-- {: .num_defn #constructive}
+###### Definition
+
+A [[topological space]] $X$ is  called **Haussdorff** if the [[diagonal]] embedding $X \to X \times X$ is a [[proper map]].
+
+=--
+
+This way of stating the definition generalizes to [[topos theory]] and thus to many other contexts. See _[Beyond topological spaces](#BeyondTopologicalSpaces)_ below for more.
+
+Here is an equivalent definition (constructively equivalent to Definition \ref{constructive}) that makes sense for arbitrary [[convergence spaces]]:
+
 +-- {: .num_defn #convergence}
 ###### Definition
+
 Given a [[net]] (or equivalently, a proper [[filter]]), if it converges to both $x$ and $y$, then $x = y$.
+
 =--
+
 That is, convergence in a Hausdorff space is unique.
 
 
@@ -55,13 +81,14 @@ A compact Hausdorff locale (or space) is necessarily [[regular locale|regular]];
 Arguably, the desire to make spaces Hausdorff ($T_2$) in analysis is really a desire to make them $T_0$; nearly every space that arises in analysis is at least [[regular space|regular]], and a regular $T_0$ space must be Hausdorff.  Forcing a space to be $T_0$ is like forcing a [[category]] to be [[skeletal category|skeletal]]; indeed, forcing a [[preorder]] to be a [[partial order]] is a special case of both (see [[specialisation topology]] for how).  It may be nice to assume, when working with a particular space, that it is $T_0$ but not to assume, when working with a particular underlying set, that every topology on it is $T_0$.
 
 Whatever one thinks of that, there is a non-$T_0$ version of Hausdorff space, an __$R_1$ space__.  (The symbol here comes from being a weak version of a **r**egular space; in general a $T_i$ space is precisely both $R_{i-1}$ and $T_0$).  This is also called a __preregular space__ (in _[[HAF]]_) and a __reciprocal space__ (in convergence theory).
-+-- {: .un_defn}
+
++-- {: .num_defn}
 ###### Definition (of $R_1$)
 Given points $a$ and $b$, if every neighbourhood of $a$ meets every neighbourhood of $b$, then every neighbourhood of $a$ is a neighbourhood of $b$.  Equivalently, if any net (or proper filter) converges to both $a$ and $b$, then every net (or filter) that converges to $a$ also converges to $b$.
 =--
 
 There is also a notion of __sequentially Hausdorf space__:
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (of sequentially Hausdorff)
 Whenever a [[sequence]] converges to both $x$ and $y$, then $x = y$.
 =--
@@ -69,6 +96,18 @@ Some forms of [[predicative mathematics]] find this concept more useful.  Hausdo
 
 The reader can now easily define a _sequentially $R_1$ space_.
 
+## Beyond topological spaces
+ {#BeyondTopologicalSpaces}
+
+The notion of _Hausdorff topological space_ is a special case of that of _[[Hausdorff topos]]_ in [[topos theory]]. This also includes notion such as _[[separated scheme]]_ etc.
+
+The corresponding relative notion (over an arbitrary [[base topos]]) is that of _[[separated geometric morphism]]_. For schemes see _[[separated morphism of schemes]]_.
+
+## References
+
+Comments on the relation to [[topos theory]] are for instance in
+
+* S. Niefield, _A note on the locally Hausdorff property_, Cahier (1983) ([numdam](http://www.numdam.org/item?id=CTGDC_1983__24_1_87_0))
 
 [[!redirects Hausdorff]]
 [[!redirects Hausdorff space]]
