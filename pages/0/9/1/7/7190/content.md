@@ -69,6 +69,20 @@ In this terminology
 
 ## Properties
 
+### Stability and closure properties
+
++-- {: .num_prop }
+###### Proposition
+
+The [[pullback]] of a proper geometric morphism is again proper.
+
+The pullback of a tidy geometric morphism is again tidy.
+
+=--
+
+([VM, theorem 5.8](#MoerdijkVermeulen))
+
+
 ### Compact sites
  {#CompactSites}
 
@@ -85,6 +99,42 @@ We discuss classes of [[sites]] such that their [[sheaf topos]] is a strongly co
 
 ## Examples
 
+### Compact toposes
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathbf{H}$ be a [[topos]] and $X \in \mathbf{H}$ an [[object]]. Then the following are equivalent
+
+1. $X$ is a "[[compact topological space]]-object" in that:
+
+   for every set of morphisms $\{U_i \to X\}_{i \in I}$ such that $\coprod_{i \in I} U_i \to X$ is an epimorphism, there is a [[finite set|finite subset]] $J \subset I$ such that $\coprod_{i \in J} U_i \to X$ is still an epimorphism;
+
+1. The [[slice topos]] $\mathbf{H}_{/X}$ is a compact topos, def. \ref{CompactTopos}. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Beware that $X$ being a "compact topological space-object" is different from it being a [[compact object]] (the difference being that between compactness of height (-1) and height 0). For the latter case see prop. \ref{SliceOverCompactIsStronglyCompact} below.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[terminal object]] of $\mathbf{H}_{/X}$ is the [[identity]] $id_X : X \to X$ in $\mathbf{H}$. A [[subterminal object]] of $\mathbf{H}_{/X}$ is a [[monomorphism]] $U \hookrightarrow X$ in $\mathbf{H}$.
+
+The [[global section geometric morphism]] $\Gamma_X : \mathbf{H}_{/X} \to Set$ sends an object $[E \to X]$ to its set of [[sections]]
+
+$$
+  \Gamma_X([E \to X]) = \mathbf{H}(X, E) \times_{\mathbf{H}(X,X)} \{id_X\}
+  \,.
+$$
+
+Therefore (...)
+=--
 
 ### Strongly compact toposes
  {#StronglyCompactToposes}
