@@ -37,14 +37,28 @@ A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is called **proper** 
 ###### Definition
 
 
-A topos is called **strongly compact** if $\Gamma$ commutes even with all [[filtered colimits]] ([MV, p. 53](#MoerdijkVermeulen)).
+A topos is called **strongly compact** if $\Gamma$ commutes even with all [[filtered colimits]].
 
 A geometric morpjhism $f : \mathcal{F} \to \mathcal{E}$ is called **tidy** if it exhibits $\mathcal{F}$ as a strongly compact topos over $\mathcal{E}$.
 
+=--
+
+([MV, p. 53](#MoerdijkVermeulen))
+
+This are the first stages of a notion that in [[(∞,1)-topos theory]] continue as follows
+
++-- {: .num_defn #StronglyCompactTopos}
+###### Definition
+
+Let $\kappa$ be a [[regular cardinal]] and $ -1 \leq n \leq \infty$. Then an [[(∞,1)-topos]] is _$\kappa$-compact of height $n$_ if the [[global section geometric morphism]] preserves $\kappa$-[[filtered (∞,1)-category|filtered]] [[(∞,1)-colimits]] of [[n-truncated]] objects. 
 
 =--
 
+In this terminology  
 
+* a topos _compact of height (-1)_ is the same as a _compact topos_;
+
+* a topos _compact of height 0_ is the same as a _strongly compact topos_;
 
 ## Properties
 
