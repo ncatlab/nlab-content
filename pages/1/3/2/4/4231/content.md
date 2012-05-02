@@ -29,6 +29,12 @@ For $\mathcal{T}$ a [[topos]], a **Cisinski model structure** on $\mathcal{T}$ i
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Notice that every [[topos]] is an [[adhesive category]], so that monomorphisms are automatically preserved by [[pushout]].
+
+=--
 
 +-- {: .num_defn #Localizer}
 ###### Definition
