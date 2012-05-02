@@ -47,7 +47,7 @@ In an adhesive category, the pushout of a monomorphism is again a monomorphism.
 
 =--
 
-E.g. ([Lack, prop. 2.1](#Lack))
+E.g. ([Lack, prop. 2.1](#Lack)) Notice that generally [[monomorphisms]] (as discussed there) are preserved by [[pullback]].
 
 +-- {: .num_prop}
 ###### Proposition
@@ -58,8 +58,12 @@ An adhesive category with a [[strict initial object]] is automatically an [[exte
 
 
 ## Examples
+ {#Examples}
 
-* Any [[topos]] is adhesive.  For [[Grothendieck toposes]] this is easy, because $Set$ is adhesive and adhesivity is a condition on colimits and finite limits, hence preserved by functor categories and left-exact localizations.  For [[elementary toposes]] it is a theorem of Lack and Sobocinski, see references.
+* Any [[topos]] is adhesive.  For [[Grothendieck toposes]] this is easy, because $Set$ is adhesive and adhesivity is a condition on colimits and finite limits, hence preserved by functor categories and left-exact localizations.  For [[elementary toposes]] it is a theorem of [Lack and Sobocinski](#LackSobocinski).
+
+* The fact that monomorphisms are stable under pushouts in toposes plays a central role for [[Cisinski model structures]] such as notably the standard [[model structure on simplicial sets]], where the monomorphisms are [[cofibrations]] and as such required to be closed under pushout (in particular).
+
 
 
 ## Related concepts
@@ -71,6 +75,7 @@ Adhesiveness is an [[exactness property]], similar to being a [[regular category
 * [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, [web](http://www.maths.mq.edu.au/~slack/papers/adhesive.html)
 
 * [[Steve Lack]] and [[Pawel Sobocinski]], *Toposes are adhesive*, [PDF](users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf)
+ {#LackSobocinski}
 
 * [[Steve Lack]], *An embedding theorem for adhesive categories*, [TAC](http://www.tac.mta.ca/tac/volumes/25/7/25-07abs.html)
  {#Lack}
