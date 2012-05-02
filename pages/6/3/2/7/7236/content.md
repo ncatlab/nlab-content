@@ -26,9 +26,15 @@ The following conditions on a [[category]] $C$ are equivalent.  When they are sa
 
 1. $C$ has [[pullbacks]] and [[pushouts]] of [[monomorphisms]], and pushout squares of monomorphisms are also pullback squares and are stable under pullback.
 
-1. $C$ has pullbacks and pushouts of monomorphisms, and the latter are also [[2-colimit|(bicategorical)]] pushouts in the [[bicategory]] of [[spans]] in $C$.
+1. $C$ has pullbacks, and pushouts of monomorphisms, and the latter are also [[2-colimit|(bicategorical)]] pushouts in the [[bicategory]] of [[spans]] in $C$.
 
-1. $C$ has pullbacks and pushouts of monomorphisms, and admits a [[fully faithful functor|full embedding]] into a [[topos]] preserving pullbacks and pushouts of monomorphisms.
+1. (If $C$ is small) $C$ has pullbacks and pushouts of monomorphisms, and admits a [[fully faithful functor|full embedding]] into a [[Grothendieck topos]] preserving pullbacks and pushouts of monomorphisms.
+
+1. $C$ has pullbacks and pushouts of monomorphisms, and in any cubical diagram:
+
+   ![cube](http://quicklatex.com/cache3/ql_af6fe9cbb3a7ee55b65eda25feb2062b_l3.png)
+
+   if $X\to Y$ is a monomorphism, the bottom square is a pushout, and the left and back faces are pullbacks, then the top face is a pushout if and only if the front and right face are pullbacks.
 
 =--
 
@@ -53,7 +59,7 @@ An adhesive category with a [[strict initial object]] is automatically an [[exte
 
 ## Examples
 
-* Any [[topos]] is adhesive.
+* Any [[topos]] is adhesive.  For [[Grothendieck toposes]] this is easy, because $Set$ is adhesive and adhesivity is a condition on colimits and finite limits, hence preserved by functor categories and left-exact localizations.  For [[elementary toposes]] it is a theorem of Lack and Sobocinski, see references.
 
 
 ## Related concepts
@@ -63,6 +69,8 @@ Adhesiveness is an [[exactness property]], similar to being a [[regular category
 ## References
 
 * [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, [web](http://www.maths.mq.edu.au/~slack/papers/adhesive.html)
+
+* [[Steve Lack]] and [[Pawel Sobocinski]], *Toposes are adhesive*, [PDF](users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf)
 
 * [[Steve Lack]], *An embedding theorem for adhesive categories*, [TAC](http://www.tac.mta.ca/tac/volumes/25/7/25-07abs.html)
  {#Lack}
