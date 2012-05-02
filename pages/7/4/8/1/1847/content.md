@@ -134,6 +134,8 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
 ## Properties 
 
+### General
+
 * __Dieudonne's theorem__: Every paracompact Hausdorff space is [[normal space|normal]].
 
 * every paracompact finite-dimensional [[manifold]] has a [[partition of unity]]
@@ -142,11 +144,33 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
 Care should be taken as to which category one constructs partitions of unity on paracompact spaces. For example, analytic partitions of unity generally do not exist on smooth (finite dimensional) manifolds, even when smooth ones do.
 
-### Cohomology of paracompact spaces 
+### Homomotopy and Cohomology 
+ {#HomotopyAndCohomology}
 
 * On paracompact spaces, abelian [[Čech cohomology]] does compute [[abelian sheaf cohomology]], 
 
   i.e. the canonical morphism $\check{H}(X,A) \to H(X,A)$ for  $A$ any [[chain complex]] of [[sheaf|sheaves]] is an [[isomorphism]] when the [[topological space]] underlying $X$ is paracompact.
+
++-- {: .num_prop }
+###### Proposition
+
+On a paracompact space $X$, every [[hypercover]] of finite height is refined by the [[Cech nerve]] of an ordinary [[open cover]].
+
+=--
+
+For a hypercover of height $n \in \mathbb{N}$, this follows by intersecting the open covers that are produced by the following lemma for $0 \leq k \leq n$.
+
++-- {: .num_lemma }
+###### Lemma
+
+For $X$ a paracompact topological space, let $\{U_\alpha\}_{\alpha \in A}$ be an [[open cover]], and let each $(k+1)$-fold intersection $U_{\alpha_0, \cdots, \alpha_{k}}$ be equipped itself with an open cover $\{V^{\alpha_0, \cdots, \alpha_k}_{\beta}\}$.
+
+Then there exists a refinement $\{U'_{\alpha'}\}$ of the original cover, such that each $(k+1)$-fold intersection $U'_{\alpha'_0, \cdots, \alpha'_k}$ for all indices distinct is contained in one of the $V_\beta$.
+
+=--
+
+This appears as ([[Higher Topos Theory|HTT, lemma 7.2.3.5]]).
+
 
 ## References 
 
