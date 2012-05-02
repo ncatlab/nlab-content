@@ -84,7 +84,7 @@ To be sure, meeting the solution set condition basically requires starting the c
 
 ## The free monoid monad
 
-If the free moniod functor $F\colon Set \to Mon$ is followed by the forgetful functor $U\colon Mon \to Set$, then we get a [[monad]] on $Set$.  This monad is very important in [[computer science]], where it is known as the __list monad__.
+If the free monoid functor $F\colon Set \to Mon$ is followed by the forgetful functor $U\colon Mon \to Set$, then we get a [[monad]] on $Set$.  This monad is very important in [[computer science]], where it is known as the __list monad__.
 
 The list monad bears the same relation to [[multicategories]] as the [[identity monad]] on $Set$ bears to ordinary [[categories]].  This relation should be explained at [[generalized multicategory]].
 
