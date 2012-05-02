@@ -19,19 +19,42 @@ An *adhesive category* is a [[category]] in which [[pushouts]] of [[monomorphism
 
 ## Definition
 
-The following conditions on a category $C$ are equivalent.  When they are satisfied, we say that $C$ is **adhesive**.
++-- {: .num_defn}
+###### Definition
 
-1. $C$ has pullbacks and pushouts of monomorphisms, and pushout squares of monomorphisms are also pullback squares and are stable under pullback.
+The following conditions on a [[category]] $C$ are equivalent.  When they are satisfied, we say that $C$ is **adhesive**.
+
+1. $C$ has [[pullbacks]] and [[pushouts]] of [[monomorphisms]], and pushout squares of monomorphisms are also pullback squares and are stable under pullback.
 
 1. $C$ has pullbacks and pushouts of monomorphisms, and the latter are also [[2-colimit|(bicategorical)]] pushouts in the [[bicategory]] of [[spans]] in $C$.
 
 1. $C$ has pullbacks and pushouts of monomorphisms, and admits a [[fully faithful functor|full embedding]] into a [[topos]] preserving pullbacks and pushouts of monomorphisms.
 
+=--
+
 ## Properties
+
++-- {: .num_prop}
+###### Proposition
+
+In an adhesive category, the pushout of a monomorphism is again a monomorphism.
+
+=--
+
+E.g. ([Lack, prop. 2.1](#Lack))
+
++-- {: .num_prop}
+###### Proposition
+
+An adhesive category with a [[strict initial object]] is automatically an [[extensive category]].
+
+=--
+
+
+## Examples
 
 * Any [[topos]] is adhesive.
 
-* An adhesive category with a [[strict initial object]] is automatically an [[extensive category]].
 
 ## Related concepts
 
@@ -42,7 +65,9 @@ Adhesiveness is an [[exactness property]], similar to being a [[regular category
 * [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, [web](http://www.maths.mq.edu.au/~slack/papers/adhesive.html)
 
 * [[Steve Lack]], *An embedding theorem for adhesive categories*, [TAC](http://www.tac.mta.ca/tac/volumes/25/7/25-07abs.html)
+ {#Lack}
 
-* [[Richard Garner]] and [[Steve Lack]], *On the axioms for adhesive and quasiadhesive categories*, [arXiv](http://arxiv.org/abs/1108.2934)
+* [[Richard Garner]] and [[Steve Lack]], *On the axioms for adhesive and quasiadhesive categories*, ([arXiv:1108.2934](http://arxiv.org/abs/1108.2934))
+ {#GarnerLack}
 
 [[!redirects adhesive categories]]
