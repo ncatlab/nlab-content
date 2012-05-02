@@ -71,6 +71,34 @@ In this terminology
 
 ### Stability and closure properties
 
++-- {: .num_prop}
+###### Proposition
+1. Any equivalence is proper and the class of proper maps is closed under composition.
+
+
+
+
+
+1. If $p$ is surjective and $f$ is proper then so is $g$.
+$$\array{
+A&\xrightarrow{p}&B
+\\
+\downarrow^f&\swarrow^g
+\\C
+}$$
+
+1. If $h$ is proper and $g$ is an embedding then $p$ is proper.
+
+1. Any hyperconnected map is proper
+
+1. $f:F\to G$ is proper iff its localic reflection $Sh_G(X)\to G$ is, i.e. iff $X$ is a compact locale in $G$. 
+
+1. If in a pullback square the bottom morphism is open and surjective and the left morphism is proper then so is the right.
+=--
+
+([VM, I.1, I.2](#MoerdijkVermeulen))
+
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -81,6 +109,18 @@ The pullback of a tidy geometric morphism is again tidy.
 =--
 
 ([VM, theorem 5.8](#MoerdijkVermeulen))
+
+### Properness and Beck-Chevalley conditions
+
+A geometric morphism $f$ of toposes is called to satisfy the stable (weak) Beck-Chevalley condition if any pullback of $f$ satisfies the (weak) Beck-Chevalley condition ((weak)BCC).
+
++-- {: .num_prop}
+###### Proposition
+A map satisfies the stable weak BCC iff it is proper
+=--
+
+([MV, Corollary I.5.9](#MoerdijkVermeulen))
+
 
 
 ### Compact sites
