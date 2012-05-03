@@ -359,6 +359,14 @@ $$
 This is a small part of a pattern in [[higher topos theory]], described at [[n-localic (∞,1)-topos]].
 
 
+## Examples
+
+* [[the locale of real numbers]]
+
+* [[Cantor space]]
+
+
+
 ## Related concepts
 
 * The notion of locale may be identified with that of a [[Grothendieck topos|Grothendieck]] [[(0,1)-topos]]. See [[Heyting algebra]] for more on this.
@@ -377,16 +385,10 @@ There is also a notion of [[internal locale]], see also [[internal site]].
 * [[topos]]
 
 
-## Examples
-
-* [[the locale of real numbers]]
-
-* [[Cantor space]]
-
 
 ## References 
 
-An introduction to and survey of the use of locales instead of topological spaces is
+An introduction to and survey of the use of locales instead of topological spaces ("[[pointless topology]]") is in
 
 * [[Peter Johnstone]], _The point of pointless topology_ ,  Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1 (1983), 41-53. ([Bulletin AMS](http://www.ams.org/bull/1983-08-01/S0273-0979-1983-15080-2/home.html))
 
@@ -423,7 +425,7 @@ Lex totality is the subject of an article of Street,
 
 The connection between locales and toposes via lex totality plays a tacit role throughout the influential monograph 
 
-* [[André Joyal]] and [[Myles Tierney]], An Extension of the Galois Theory of Grothendieck, Memoirs of the American Mathematical Society 51 (1984). 
+* [[André Joyal]] and [[Myles Tierney]], _An Extension of the Galois Theory of Grothendieck_, Memoirs of the American Mathematical Society 51 (1984). 
 {#JT}
 
 
