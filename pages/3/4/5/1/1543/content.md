@@ -788,7 +788,7 @@ some of which is recollected in ([Palais](#Palais)).
 
 A standard textbook following this original perspective is
 
-* [[Dale Husemöller]], _Fiber bundles_ 
+* [[Dale Husemöller]], _Fiber bundles_, Springer (1994) 
  {#Husemoeller}
 
 For principal bundles in the smooth context see most textbooks on _[[differential geometry]]_, for instance
