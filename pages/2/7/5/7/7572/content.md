@@ -15,7 +15,7 @@
 
 ## Idea
 
-The classical _Heine--Borel theorem_ identifies those [[topological subspaces]] of [[Cartesian spaces]] that are [[compact space|compact]] in terms of simpler properties.  A generalisation apples to all [[metric spaces]] and even to [[uniform spaces]].
+The classical _Heine--Borel theorem_ identifies those [[topological subspaces]] of [[Cartesian spaces]] that are [[compact space|compact]] in terms of simpler properties.  A generalisation applies to all [[metric spaces]] and even to [[uniform spaces]].
 
 
 ## Versions
