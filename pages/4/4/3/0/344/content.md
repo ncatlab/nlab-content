@@ -22,7 +22,7 @@ A [[category]] is _extensive_ if it has [[coproducts]] that interact well with [
 
 An __finitely extensive category__ (or __finitary extensive category__) is a category $E$ with finite [[coproduct|coproducts]] such that one, and hence all, of the following equivalent conditions holds:
 
- 1. Pullbacks of coproduct injections along arbitrary morphisms exist and finite coproducts are [[disjoint coproduct|disjoint]] and [[pullback stability|stable under pullback]].
+ 1. Pullbacks of finite-coproduct injections along arbitrary morphisms exist and finite coproducts are [[disjoint coproduct|disjoint]] and [[pullback stability|stable under pullback]].
  2. For any objects $a,b$ the coproduct functor $E/a \times E/b \to E/(a+b)$ is an [[equivalence of categories]].
  3. In any commutative diagram
  $$\array{x & \to & z & \leftarrow & y\\
@@ -30,7 +30,15 @@ An __finitely extensive category__ (or __finitary extensive category__) is a cat
    a & \to & a+b & \leftarrow & b}$$
  the two squares are pullbacks if and only if the top row is a coproduct diagram.
 
-An __infinitary extensive category__ is a category $E$ with all (small) [[coproduct]]s such that coproducts are disjoint and stable under pullback.  In between, a __$\kappa$-ary extensive category__ (for $\kappa$ a [[cardinal number]]) is one with disjoint and stable coproducts of fewer than $\kappa$ objects.  The unqualified term **extensive category** can refer to either the finitary or infinitary version, depending on the author; the more usual meaning is the finitary version.
+An __infinitary extensive category__ is a category $E$ with all (small) [[coproduct]]s such that the following analogous equivalent conditions hold:
+
+ 1. Pullbacks of coproduct injections along arbitrary morphisms exist and finite coproducts are disjoint and stable under pullback.
+ 2. For any small family $(a_i)$ of objects, the coproduct functor $\prod_i (E/a_i) \to E/_{(\coprod_i a_i)}$ is an equivalence of categories.
+ 3. For any family of commutative squares
+ $$\array{ x_i & \to & z \\\downarrow &&\downarrow^f \\ a_i & \to & \coprod_i a_i } $$
+ in which the bottom family of morphisms is the coproduct injections and the right-hand morphism is always the same, the top family are the injections of a coproduct diagram (hence $z = \coprod_i x_i$) if and only if all the squares are pullbacks.
+
+In between, a __$\kappa$-ary extensive category__ (for $\kappa$ a [[cardinal number]]) is one with disjoint and stable coproducts of fewer than $\kappa$ objects.  The unqualified term **extensive category** can refer to either the finitary or infinitary version, depending on the author; the more usual meaning is the finitary version.
 
 Extensive categories are also called __positive categories__, especially if they are also [[coherent category|coherent]].  Note that any disjoint coproduct in a coherent category is automatically pullback-stable.  A positive coherent category which is also [[exact category|exact]] is called a [[pretopos]].  Infinitary pretoposes encapsulate all the exactness conditions of Giraud's theorem characterizing [[Grothendieck topos|Grothendieck toposes]] (the remaining condition is the existence of a small [[generating set]]).
 
@@ -45,7 +53,7 @@ If an extensive category also has [[finitely complete category|finite limits]], 
   $$\bigsqcup_{a\in A} X_a \cong
 X_{a_0} \sqcup \bigsqcup_{a\neq a_0} X_a \cong
 X_{a_0} \sqcup X_{a_1} \sqcup \bigsqcup_{a\neq a_0,a_1} X_a$$
-  for any $a_0, a_1\in A$.  Therefore, if a finitary-extensive category has infinitary pullback-stable coproducts, it is necessarily infinitary-extensive.  In particular, a cocomplete [[locally cartesian closed category]] is finitary extensive if and only if it is infinitary extensive.
+  for any $a_0, a_1\in A$.  Therefore, if a finitary-extensive category has infinitary pullback-stable coproducts, it is necessarily infinitary-extensive.  In particular, a cocomplete [[locally cartesian closed category]] is finitary extensive if and only if it is infinitary extensive.  Thus, for instance, any cocomplete [[elementary topos]] is infinitary extensive.
 
 * See [[familial regularity and exactness]] for a generalization of extensivity and its relationship to [[exact category|exactness]].
 
