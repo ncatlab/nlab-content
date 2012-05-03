@@ -1423,13 +1423,13 @@ This derivation
 We discuss details of Hochschild homology in the context of [[dg-geometry]]:  the [[(∞,1)-topos]] over an [[(∞,1)-site]] of formal duals of commutative [[dg-algebra]]s over a field, [[presentable (∞,1)-category|presented]] by the [[model structure on dg-algebras]].
 
 
-Fix a [[field]] $k$ of [[characteristic]] 0. We consider now the context of [[dg-geometry]] with its [[function algebras on ∞-stacks]] taking values in unbounded dg-algebras, exhibited by the [[adjoint (∞,1)-functor]]s
+Fix a [[field]] $k$ of [[characteristic]] 0. We consider now the context of [[dg-geometry]] with its [[function algebras on ∞-stacks]] taking values in unbounded dg-algebras, exhibited by the [[adjoint (∞,1)-functors]]
 
 $$
   (\mathcal{O} \dashv Spec) : 
    (cdgAlg_k^{op})^\circ
    \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
-   \mathbf{H} := Sh((cdgAlg_k^-)^{op})
+   \mathbf{H} := Sh_\infty((cdgAlg_k^-)^{op})
    \,.
 $$
 
@@ -1548,7 +1548,7 @@ $$
   \mathcal{O}(S^1) \simeq {\lim_{\leftarrow}}_{S^1} \mathcal{O}(*)
 $$
 
-in $cdgAlg_k^\circ$.  Since the point is representable, we have by the definition of $\mathcal{O}$ as the left $(\infty,1)$-[[Kan extension]] of the inclusion $(cdgAlg_^-k)^{op} \hookrightarrow (cdgAlg_k)^{op}$ that this is
+in $cdgAlg_k^\circ$.  Since the point is representable, we have by the definition of $\mathcal{O}$ as the left $(\infty,1)$-[[Kan extension]] of the inclusion $(cdgAlg_k^-)^{op} \hookrightarrow (cdgAlg_k)^{op}$ that this is
 
 $$
   \cdots \simeq {\lim_{\leftarrow}}_{S^1} k
