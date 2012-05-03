@@ -20,33 +20,33 @@ A [[category]] is **exhaustive** if it has [[colimits]] of (transfinite) sequenc
 
 ## Definition
 
-A category $C$ is **exhaustive** if the following two conditions hold.
+Given a transfinite sequence 
+$$ A_0 \to A_1 \to \cdots $$
+(continuing through $A_\alpha$ for all $\alpha\lt\kappa$, where $\kappa$ is some limit [[ordinal]]) for which each transition map $A_\alpha \to A_\beta$ is a [[monomorphism]], if $A_\kappa$ is a colimit of this sequence (a [[transfinite composition]]) we call it a **transfinite union**.
 
-* Given a transfinite sequence 
-  $$ A_0 \to A_1 \to \cdots $$
-  (continuing through $A_\alpha$ for all $\alpha\lt\kappa$, where $\kappa$ is some limit [[ordinal]]) for which each transition map $A_\alpha \to A_\beta$ is a [[monomorphism]], there exists a colimit (a [[transfinite composition]]) $A_\kappa$.
+A category $C$ is **exhaustive** if one, hence both, of the following two equivalent additional conditions hold.
 
-* Suppose given a diagram
-  $$\array{
-    B_0 & \to & B_1 & \to & \cdots & \to & B_\kappa\\
-    \downarrow && \downarrow &&&& \downarrow\\
-    A_0 & \to & A_1 & \to & \cdots & \to & A_\kappa\\
-  }$$
-  in which the bottom row is a transfinite composition, and for each $\alpha\lt\beta\lt\kappa$, the morphism $A_\alpha\to A_\beta$ is monic and the square
-  $$ \array{ B_\alpha & \to & B_\beta \\
-    \downarrow && \downarrow \\
-    A_\alpha & \to & A_\beta } $$
-  is a [[pullback]] (hence $B_\alpha \to B_\beta$ is also monic).  Then the top row is a transfinite composition if and only if for all $\alpha\lt\kappa$ the square
-  $$ \array{ B_\alpha & \to & B_\kappa \\
-    \downarrow && \downarrow \\
-    A_\alpha & \to & A_\kappa } $$
-  is a pullback.
+1. $C$ has transfinite unions which are stable under pullback and for which the coprojections $A_\alpha \to A_\kappa$ are also monomorphisms.
+
+1. $C$ has transfinite unions, and given any diagram
+   $$\array{
+     B_0 & \to & B_1 & \to & \cdots & \to & B_\kappa\\
+     \downarrow && \downarrow &&&& \downarrow\\
+     A_0 & \to & A_1 & \to & \cdots & \to & A_\kappa\\
+   }$$
+   in which the bottom row is a transfinite union and for each $\alpha\lt\beta\lt\kappa$, the square
+   $$ \array{ B_\alpha & \to & B_\beta \\
+     \downarrow && \downarrow \\
+     A_\alpha & \to & A_\beta } $$
+   is a [[pullback]] (hence $B_\alpha \to B_\beta$ is also monic), then the top row is a transfinite union (i.e. a colimit diagram) if and only if for all $\alpha\lt\kappa$ the square
+   $$ \array{ B_\alpha & \to & B_\kappa \\
+     \downarrow && \downarrow \\
+     A_\alpha & \to & A_\kappa } $$
+   is a pullback.
 
 Note that half of the second condition is simply that the colimits in the first condition are stable under pullback.  One may obtain various weaker notions by restricting the allowable values of $\kappa$.
 
-See Prop. \ref{AlternativeCharacterization} below for an alternative characterization of exhaustive categories.
-
-We may refer to the transfinite composites of monomorphisms above as **transfinite unions**.
+We will prove the equivalence of these two characterizations in Propositions \ref{CoprojectionsMonic} and \ref{AlternativeCharacterization} below.
 
 
 ## Examples
@@ -59,11 +59,13 @@ We may refer to the transfinite composites of monomorphisms above as **transfini
 
 ## Properties
 
+We first prove the equivalence of the above two definitions.
+
 +-- {: .num_prop #CoprojectionsMonic}
 ###### Proposition
-Given a transfinite union
+In a category which satisfies the second definition above, given a transfinite union
 $$ A_0 \to A_1 \to \cdots \to A_\kappa$$
-in an exhaustive category (so that $A_\alpha \to A_\beta$ is monic for all $\alpha\lt\beta\lt\kappa$), the coprojections $A_\alpha\to A_\kappa$ are also monic.
+(so that $A_\alpha \to A_\beta$ is monic for all $\alpha\lt\beta\lt\kappa$), the coprojections $A_\alpha\to A_\kappa$ are also monic.
 =--
 +-- {: .proof}
 ###### Proof
@@ -82,7 +84,7 @@ is a pullback, i.e. $A_\alpha\to A_\kappa$ is monic.
 
 +-- {: .num_prop #AlternativeCharacterization}
 ###### Proposition
-Suppose $C$ has colimits of transfinite sequences of monomorphisms for which the coprojections are also monic, as in Prop. \ref{CoprojectionsMonic}, and which are stable under pullback.  Then $C$ is exhaustive.
+Suppose $C$ satisfies the first condition above, i.e. it has pullback-stable transfinite unions for which the coprojections are also monic.  Then $C$ also satisfies the second condition above.
 =--
 +-- {: .proof}
 ###### Proof
@@ -114,6 +116,8 @@ $$ \array{ g^* B_\beta & \to & g^* B_\gamma \\
   (f_\kappa g)^* A_\beta & \to & (f_\kappa g)^* A_\gamma } $$
 is a pullback for $\beta\lt\gamma\lt\kappa$.  However, since $f_\kappa g$ factors through $A_\alpha$, the morphism $(f_\kappa g)^* A_\beta \to (f_\kappa g)^* A_\gamma$ is split epic whenever $\alpha\lt\beta\lt\gamma$, hence (since it is also monic) an isomorphism.  Thus, in this case so is its pullback $g^* B_\beta \to g^* B_\gamma$.  Since the coprojections into a transfinite composite of a sequence that eventually consists of isomorphisms are also eventually isomorphisms, $g^* B_\alpha \to X$ is an isomorphism; hence $g$ factors through $B_\alpha$ as desired.
 =--
+
+Exhaustiveness also interacts well with other [[exactness properties]]:
 
 +-- {: .num_prop #FinInfExtensive}
 ###### Proposition
