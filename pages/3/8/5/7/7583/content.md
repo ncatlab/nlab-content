@@ -24,7 +24,7 @@ Given a transfinite sequence
 $$ A_0 \to A_1 \to \cdots $$
 (continuing through $A_\alpha$ for all $\alpha\lt\kappa$, where $\kappa$ is some limit [[ordinal]]) for which each transition map $A_\alpha \to A_\beta$ is a [[monomorphism]], if $A_\kappa$ is a colimit of this sequence (a [[transfinite composition]]) we call it a **transfinite union**.
 
-A category $C$ is **exhaustive** if one, hence both, of the following two equivalent additional conditions hold.
+A category $C$ is **exhaustive** if one, hence both, of the following two equivalent conditions hold.
 
 1. $C$ has transfinite unions which are stable under pullback and for which the coprojections $A_\alpha \to A_\kappa$ are also monomorphisms.
 
@@ -127,7 +127,7 @@ If an exhaustive category is also finitary [[extensive category|extensive]], the
 ###### Proof
 A coproduct of cardinality $\kappa$ can be constructed using transfinite compositions and finite coproducts:
 $$ \sum_{\alpha\lt 0} A_\alpha \to \sum_{\alpha\lt 1} A_\alpha \to \sum_{\alpha\lt 2} A_\alpha \to \cdots \to \sum_{\alpha\lt \kappa} A_\alpha $$
-Finitary extensivity implies that all the transition maps are monic, so that these transfinite composites exist in an exhaustive category.  Pullback-stability of coproducts follows easily from pullback-stability of transfinite unions and of finite coproducts.  Finally, exhaustiveness allows us to reduce disjointness of $\kappa$-ary coproducts to disjointness for finitary ones.
+Finitary extensivity implies that all the transition maps are monic, so that these transfinite composites exist in an exhaustive category.  Pullback-stability of coproducts follows easily from pullback-stability of transfinite unions and of finite coproducts.  Finally, it is known (see [[extensive category]]) that if finite coproducts exist and are disjoint, then any infinite coproducts which exist are also disjoint.
 =--
 
 ## Related pages
