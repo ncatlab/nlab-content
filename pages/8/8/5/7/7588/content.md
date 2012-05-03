@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A formulation of [[topology]] not based on the notion of [[topological space]] as a _[[set]]_ -- of points -- equipped with extra structure. For instance in [[locale|locale theory]] it is instead the collection of [[open subsets]] that is taken as the fundamental notion.
+
+## References
+
+An introduction to [[locale|local theory]] is
+
+* [[Peter Johnstone]], _The point of pointless topology_, Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1 (1983), 41-53. ([Euclid](http://projecteuclid.org/euclid.bams/1183550014))
+
+This is, in its own words, to be read as the trailer for the book
+
+*  [[Peter Johnstone]], _[[Stone Spaces]]_
+
+that develops, among other things, much of standard [[topology]] entirely with the notion of locale used in place of that of [[topological spaces]]. See _[[Stone Spaces]]_ for details.
