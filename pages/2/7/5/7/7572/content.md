@@ -63,12 +63,12 @@ In the old days, one called a closed and bounded [[interval]] in the [[real line
 
 In [[constructive mathematics]], one sees several definitions of 'compact', which may make the theorem provable, refutable, or undecidable in various constructive systems.  In [[intuitionism]], Theorems \ref{classical} and \ref{cartesian} can be proved (using the [[fan theorem]]), but Theorems \ref{metric} and \ref{uniform} cannot, leading [[Jan Brouwer|Brouwer]] to *define* 'compact' (for a metric space) to mean complete and totally bounded.  In other literature, one sometimes sees the abbreviation 'CTB' used instead.  In [[Russian constructivism]], already Theorems \ref{classical} and \ref{cartesian} can be refuted, but CTB spaces are still important.
 
-In [[locale theory]] and other approaches to [[pointless topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$, but constructively requires a more nuanced construction.  (I need to find the reference for this, which is by [[Douglas Bridges]] et al.)
+In [[locale theory]] and other approaches to [[pointless topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to a compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$, but constructively requires a more nuanced construction.  (I need to find the reference for this, which is by [[Douglas Bridges]] et al.)
 
 
 ## References
 
-[According to Wikipedia](https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem#History_and_motivation), the theorem was first proved by [[Pierre Cousin]] in 1895.  It is named after [[Eduard Heine]] (who used it but did not prove it) and [[Émile Borel]] (who proved a limited version of it), an instance [[Baez's law]].
+[According to Wikipedia](https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem#History_and_motivation), the theorem was first proved by [[Pierre Cousin]] in 1895.  It is named after [[Eduard Heine]] (who used it but did not prove it) and [[Émile Borel]] (who proved a limited version of it), an instance of [[Baez's law]].
 
 A proof is spelled out for instance at
 
