@@ -130,6 +130,46 @@ $$ \sum_{\alpha\lt 0} A_\alpha \to \sum_{\alpha\lt 1} A_\alpha \to \sum_{\alpha\
 Finitary extensivity implies that all the transition maps are monic, so that these transfinite composites exist in an exhaustive category.  Pullback-stability of coproducts follows easily from pullback-stability of transfinite unions and of finite coproducts.  Finally, it is known (see [[extensive category]]) that if finite coproducts exist and are disjoint, then any infinite coproducts which exist are also disjoint.
 =--
 
+Colimits in an exhaustive category preserve finite limits.
+
++-- {: .num_lemma #UnionsPreserveIntersections}
+###### Lemma
+In an exhaustive category, if $X$ is the $\kappa$-indexed transfinite union of a sequence $(A_\alpha)_{\alpha\lt\kappa}$ and also a sequence $(B_\alpha)_{\alpha\lt\kappa}$, then it is also the transfinite union of the sequence $(A_\alpha\cap B_\alpha)_{\alpha\lt\kappa}$ (the [[intersection]] being taken as [[subobjects]] of $X$).
+=--
++-- {: .proof}
+###### Proof
+Since transfinite unions are stable under pullback, $X$ is the colimit of the $(\kappa\times\kappa)$-indexed diagram $(A_\alpha\cap B_\beta)_{\alpha\lt\kappa, \beta\lt\kappa}$.  But $\kappa$ is a [[filtered category]], so its diagonal functor is [[final functor|final]].
+=--
+
++-- {: .num_prop #UnionsPreservePullbacks}
+###### Proposition
+In an exhaustive category, given a pullback diagram of $\kappa$-indexed transfinite sequences of monomorphisms:
+$$ \left(\array{ A_\alpha & \to & B_\alpha \\
+    \downarrow && \downarrow\\
+    C_\alpha & \to & D_\alpha }\right)_{\alpha\lt\kappa} $$
+the induced square of colimits:
+$$ \array{ A_\kappa & \to & B_\kappa \\
+    \downarrow && \downarrow\\
+    C_\kappa & \to & D_\kappa } $$
+is also a pullback.
+=--
++-- {: .proof}
+###### Proof
+Define $P$ so that the following square is a pullback:
+$$ \array{ P & \overset{f}{\to} & B_\kappa \\
+    ^g\downarrow && \downarrow\\
+    C_\kappa & \to & D_\kappa } $$
+Since pullbacks preserve transfinite unions, $P$ is the transfinite union of the sequnece $(f^* B_\alpha)_{\alpha\lt\kappa}$ and also the sequence $(g^* C_\alpha)_{\alpha\lt\kappa}$.  Thus, by Lemma \ref{UnionsPreserveIntersections}, $P$ is also the transfinite union of $(f^* B_\alpha\cap g^* C_\alpha)_{\alpha\lt\kappa}$.  However, using the fact that the inclusions $D_\alpha \to D_\kappa$ are monic, it is straightforward to verify that
+$$f^* B_\alpha\cap g^* C_\alpha \cong B_\alpha \times_{D_\alpha} C_\alpha \cong A_\alpha.$$
+Thus, $P$ is the transfinite union of $(A_\alpha)_{\alpha\lt\kappa}$, hence $P\cong A_\kappa$.
+=--
+
++-- {: .num_cor #UnionsPreserveMonos}
+###### Corollary
+In an exhaustive category, transfinite unions preserve monomorphisms.  That is, given a transformation $(A_\alpha \to B_\alpha)_{\alpha\lt\kappa}$ of transfinite sequences of monomorphisms which is pointwise monic, also the induced map on colimits $A_\kappa\to B_\kappa$ is monic.
+=--
+
+
 ## Related pages
 
 * [[exactness property]]
