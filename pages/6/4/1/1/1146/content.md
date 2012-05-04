@@ -18,9 +18,9 @@
 
 ## Idea
 
-A **double complex** is a [[complex]] in a category of [[complex]]es. Accordingly, a **double chain complex** is a [[chain complex]] in a [[category of chain complexes]].
+A **double complex** is a [[complex]] in a category of [[complex]]es. Accordingly, a **double chain complex** is a [[chain complex]] in a [[category of chain complexes]]. That being said there are two conflicting traditions of notation; in the first the above is quite literally true, in the second a slight adjustment is performed to facilitate later constructions. We will give both.
 
-In the presence of enough [[product]]s and/or [[coproduct]]s, there is a _total complex_ associated to a double complex, and the interest in double complexes is usually that in these total complexes.
+In the presence of enough [[product]]s and/or [[coproduct]]s, there is a _total complex_ associated to a double complex, and the interest in double complexes is often that in these total complexes.
 
 Double chain complexes usually arise from the application of bifunctors ([[additive functor]]s of two variables) of [[additive category|additive categories]] $C_1, C_2, C_3$
 $$
@@ -38,11 +38,24 @@ The most important examples of this are induced by the [[hom-functor]] and the [
 Under the [[Dold-Kan correspondence]] then $\tilde F$ can be understood as the [[internal hom]] between [[infinity-groupoid|higher groupoids]].
 
 
-## Definition
+## Definition (First tradition)
 
 
-bla bla
+A double complex, $X$, is a commutative diagram in an additive category in which  the objects are bi-indexed by the integers, 
 
+$\{ X_{p,q} \mid p,q\in \mathbb{Z} \}$
+
+and with two classes of 'differentials' or 'boundary morphisms':
+
+* $d_X^v: X_{p,q}\to X_{p-1,q}$ called the 'vertical boundary morphisms' or 'vertical differentials', with $d_X^v d_X^= 0$;
+
+and
+
+* $d_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^hd_X^h= 0$;
+
+In addition $d_X^h d_X^v = d_X^v d_X^h$.
+
+This gives a commutative diagram:
 $$
   \array{
    && \vdots && \vdots
