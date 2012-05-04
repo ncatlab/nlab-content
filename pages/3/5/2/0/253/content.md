@@ -78,7 +78,7 @@ such that
 *  for each $f\colon a \to b$, the vertical composites $\rho_f \bullet \bar{\rho}_f\colon f \Rightarrow f$ and $\bar{\rho}_f \bullet \rho_f\colon \id_b \circ f \Rightarrow \id_b \circ f$ equal the appropriate identity $2$-morphisms,
 *  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d$, the vertical composites $\alpha_{f,g,h} \bullet \bar{\alpha}_{f,g,h}\colon (h \circ g) \circ f \Rightarrow (h \circ g) \circ f$ and $\bar{\alpha}_{f,g,h} \bullet \alpha_{f,g,h}\colon h \circ (g \circ f) \Rightarrow h \circ (g \circ f)$ equal the appropriate identity $2$-morphisms,
 *  for each $a \overset{f}\to b \overset{g}\to c$, the vertical composite $(\lambda_g \triangleleft f) \bullet \alpha_{f,\id_b,g}$ equals the whiskering $g \triangleright \rho_f$, and
-*  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d \overset{i}\to e$, the vertical composites $((\alpha_{g,h,i} \triangleleft f) \bullet \alpha_{f,h \circ g,i}) \bullet (i \triangleright \alpha_{f,g,h})$ and $\alpha_{g \circ f,h,i} \bullet \alpha_{f,g,i \circ h}$ are equal.
+*  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d \overset{i}\to e$, the vertical composites $((\alpha_{g,h,i} \triangleleft f) \bullet \alpha_{f,h \circ g,i}) \bullet (i \triangleright \alpha_{f,g,h})$ and $\alpha_{f,g,i \circ h}\bullet \alpha_{g \circ f,h,i} $ are equal.
 
 It is quite possible that there are errors or omissions in this list, although they should be easy to correct.  The point is not that one would *want* to write out the definition in such elementary terms (although apparently I just did anyway) but rather that one *can*.
 
