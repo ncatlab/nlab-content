@@ -20,7 +20,7 @@ Most of the earliest instances of [[limits]] and [[colimits]] used in mathematic
 Another very important class of early limits and colimits involved situations that generalised [[intersections]] and [[unions]].  If one is looking at a [[family of subsets]] of some [[set]], then one can close it up under finite intersections and/or unions (if they are not already included) and use it to index diagrams.  For instance, the family of [[continuous functions]] defined on [[open neighbourhoods]] of some point in a [[topological space]] will have this property.  It was noticed that these limits and colimits behaved very nicely and a closer look showed that it was the _(co)filtering_ nature of the indexing category that was the key.  This also leads us to filtered (co)limits.
 
 
-So, a _filtered colimit_ is a [[colimit]] over a [[diagram]] from a [[filtered category]], and a _filtered limit_ is a [[limit]] over a [[diagram]] from a [[cofiltered category]]. Taken in a suitable category such as [[Set]], a colimit\'s being filtered is equivalent to its commuting with [[finite limits]].
+So, a _filtered colimit_ is a [[colimit]] over a [[diagram]] from a [[filtered category]], and a _filtered limit_ is a [[limit]] over a [[diagram]] from a [[cofiltered category]]. Taken in a suitable category such as [[Set]], **a colimit being filtered is equivalent to its commuting with [[finite limits]]**.
 
 More generally, for $\kappa$ a [[regular cardinal]], a _$\kappa$-filtered colimit_ is one over a $\kappa$-filtered category (and dually), and when taken with values in [[Set]] these are precisely the colimits that commute with $\kappa$-[[small limit]]s. 
 
@@ -54,6 +54,8 @@ A [[functor]] that preserves all finitely filtered colimits is called a _[[finit
  {#Properties}
 
 ### General
+
+The following is the crucial property of filtered colimits: that they commute with [[finite limits]].
 
 +-- {: .num_remark}
 ###### Remark
@@ -132,7 +134,7 @@ $$
 +-- {: .num_prop}
 ###### Propositon
 
-In [[Set]], filtered colimits commute with [[finite limit]]s.
+In [[Set]], filtered colimits commute with [[finite limits]].
 
 In fact, [[filtered categories]] $C$ are precisely those shapes of [[diagram]] categories such that colimits over them commute with all finite limits.
 
@@ -166,7 +168,7 @@ For $C$ a [[small category]], the category of [[point of a topos|topos points]] 
 
 ### Description in Set, Grp, Top and alike
 
-Elements in filtered colimits in [[Set]] and [[Grp]] are given as classes of equivalences, so called [[germ]]s. Filtered limits in [[Set]] and [[Top]] are given as families of compatible elements, so called [[thread]]s.
+Elements in filtered colimits in [[Set]] and [[Grp]] are given as classes of equivalences, so called [[germs]]. Filtered limits in [[Set]] and [[Top]] are given as families of compatible elements, so called [[threads]].
 
 
 ### More
@@ -177,6 +179,8 @@ Elements in filtered colimits in [[Set]] and [[Grp]] are given as classes of equ
 ## Related concepts
 
 * [[filtered category]], [[compact object]]
+
+* [[sifted colimit]], [[sifted (∞,1)-colimit]]
 
 * [[filtered (∞,1)-colimit]]
 
