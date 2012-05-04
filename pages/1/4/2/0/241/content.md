@@ -90,9 +90,9 @@ Therefore a Grothendieck topos is also cototal.
 ### Giraud\'s axiomatic characterization
 {#Giraud}
 
-Giraud characterized Grothendieck toposes as categories satisfying certain exactness and small [[complete category|completeness]] properties (where "small" is again relative to the given category of sets $S$). The exactness properties are elementary (not depending on $S$), and are satisfied in any elementary [[topos]], or even a [[pretopos]].
+Giraud characterized Grothendieck toposes as categories satisfying certain [[exactness property|exactness]] and [[small set|small]] [[complete category|completeness]] properties (where "small" is again relative to the given category of sets $S$). The exactness properties are elementary (not depending on $S$), and are satisfied in any elementary [[topos]], or even a [[pretopos]].
 
-Giraud\'s theorem characterises a Grothendieck topos as follows:
+[[Giraud's theorem]] characterises a Grothendieck topos as follows:
 
 1. a [[locally small category]] with a small [[generating set]],
 2. with all finite [[limits]],
