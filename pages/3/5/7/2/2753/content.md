@@ -17,7 +17,9 @@ A _Lie--Rinehart-pair_ $(A,\mathfrak{g})$ is a pair consisting of an associative
 * $A$ acts as linear transformations of $\mathfrak{g}$ in a way obeying the Leibniz law: that is, we have an associative algebra homomorphism from $A \to End(\mathfrak{g})$, where $End(\mathfrak{g})$ is the algebra of all linear transformations of $\mathfrak{g}$, such that
 $$  [v, a w] = v(a) w + a [v,w]. $$ 
 
+CAUTION: Elsewhere in the literature, it is :
 
+a Lie algebra morphism from $\mathfrak{g} \to Der(A)$ 
 #Examples#
 
 In the case that $A = C^\infty(X)$ is the algebra of smooth functions on a smooth [[manifold]] $X$, Lie--Rinehart pairs $(C^\infty(X), \mathfrak{g})$ are naturally identified with [[Lie algebroid]]s over $X$: given the [[Lie algebroid]] in its incarnation as a [[vector bundle]] morphism
