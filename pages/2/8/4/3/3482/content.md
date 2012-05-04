@@ -32,6 +32,9 @@ Precisely, $WISC$ is the statement that for any [[set]] $X$, the [[full subcateg
 
 * WISC implies that the category of [[anafunctors]] between any two [[small categories]] is [[essentially small category|essentially small]]; see [here](/nlab/show/anafunctor#SizeQuestions), or below.
 
+* WISC implies (in [[ZF]]) that there exist arbitrarily large [[regular cardinals]].  Therefore, WISC is not provable in ZF.
+
+
 ## Relation to local smallness of anafunctor categories
 
 +--{: .query}
@@ -87,6 +90,8 @@ To consider an _internal_ version of WISC, which doesn't refer to an external no
 * [[Benno van den Berg]], [[Ieke Moerdijk]], *The Axiom of Multiple Choice and Models for Constructive Set Theory*, [arXiv](http://arxiv.org/abs/1204.4045).  In this paper WISC is called the "axiom of multiple choice".
 
 * [[Thomas Streicher]], *Realizability Models for $CZF + \neg Pow$*, [unpublished note](http://www.mathematik.tu-darmstadt.de/~streicher/CIZF/rmczfnp.pdf).  In this note WISC is called $TTCA_f$ ($TTCA$ stands for "type-theoretic collection axiom).
+
+* [[Benno van den Berg]], *WISC is independent from ZF*, [PDF](http://www.staff.science.uu.nl/~berg0002/papers/WISC.pdf)
 
 category: foundational axiom
 
