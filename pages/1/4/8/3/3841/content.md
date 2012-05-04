@@ -54,7 +54,9 @@ From this perspective, a regular cardinal is a [[full subcategory]] of $Set$ tha
 
 Note that if we require only conditions (1&2) on $Set_{\lt\kappa}$, then (even classically), $\{1\}$ is an acceptable (and finite) regular collection of cardinals, even though it is not actually of the form $Set_{\lt\kappa}$ for any cardinal number $\kappa$.
 
-In the absence of the axiom of choice, it is not clear that there exist arbitrarily large regular cardinals.  Thus in weaker foundations, regular cardinals (or "regular sets of cardinals") can be regarded as a [[large cardinal]] property.  The statement that *there exist arbitrarily large regular cardinals* is sometimes called the __Regular Extension Axiom__.
+In the absence of the axiom of choice, it is not clear that there exist arbitrarily large regular cardinals.  Thus in weaker foundations, regular cardinals (or "regular sets of cardinals") can be regarded as a [[large cardinal]] property.
+
+At least if "regular cardinal" has its classical meaning of a particular ordinal, then the statement that *there exist arbitrarily large regular cardinals* is independent of [[ZF]]; in fact it is consistent with ZF that all uncountable cardinals are singular.  A foundational axiom which is related to the existence of regular cardinals (but considers them as sets with various closure properties, rather than cardinal numbers) is the [[regular extension axiom]].
 
 
 ## Examples
@@ -74,8 +76,6 @@ In the absence of the axiom of choice, it is not clear that there exist arbitrar
 
 * Assuming the consistency (with [[ZFC]]) of 'there is a [[proper class]] of [[strongly compact cardinal|strongly compact cardinals]]', it is consistent with $ZF$ that every uncountable cardinal is singular (and in fact every infinite well-orderable cardinal has [[cofinality]] $\aleph_0$), a result due to [[Moti Gitik]].  (Of course this conclusion is inconsistent with $ZFC$, in which many uncountable cardinals, starting with $\aleph_1$, are regular.)
 
-
-category: foundational axiom
 
 [[!redirects regular cardinal]]
 [[!redirects regular cardinals]]
@@ -98,7 +98,3 @@ category: foundational axiom
 [[!redirects singular sets of cardinal numbers]]
 [[!redirects singular class of cardinal numbers]]
 [[!redirects singular classes of cardinal numbers]]
-
-[[!redirects regular extension axiom]]
-[[!redirects Regular Extension Axiom]]
-[[!redirects REA]]
