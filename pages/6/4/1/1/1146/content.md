@@ -53,7 +53,7 @@ and
 
 * $d_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^h d_X^h = 0$;
 
-In addition $d_X^h d_X^v = d_X^v d_X^h$. (To state the obvious, this means $d_X^h d_X^v - d_X^v d_X^h=0$, in contrast to the formula in the second version.)
+in addition $d_X^h d_X^v = d_X^v d_X^h$. (To state the obvious, this means $d_X^h d_X^v - d_X^v d_X^h=0$, in contrast to the formula in the second version.)
 
 This gives a commutative diagram:
 $$
@@ -93,7 +93,7 @@ and
 
 * $\bar{d}_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $\bar{d}_X^h \bar{d}_X^h = 0$;
 
-In addition $\bar{d}_X^h d_X^v + d_X^v \bar{d}_X^h = 0$.
+in addition $\bar{d}_X^h d_X^v + d_X^v \bar{d}_X^h = 0$.
 
 This gives an anticommutative diagram:
 $$
