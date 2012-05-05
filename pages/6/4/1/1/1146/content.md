@@ -43,15 +43,15 @@ Under the [[Dold-Kan correspondence]] then $\tilde F$ can be understood as the [
 
 A double complex, $X$, is a commutative diagram in an additive category in which  the objects are bi-indexed by the integers, 
 
-$\{ X_{p,q} \mid p,q\in \mathbb{Z} \}$
+$$\{ X_{p,q} \mid p,q\in \mathbb{Z} \}$$
 
 and with two classes of 'differentials' or 'boundary morphisms':
 
-* $d_X^v: X_{p,q}\to X_{p-1,q}$ called the 'vertical boundary morphisms' or 'vertical differentials', with $d_X^v d_X^= 0$;
+* $d_X^v: X_{p,q}\to X_{p-1,q}$ called the 'vertical boundary morphisms' or 'vertical differentials', with $d_X^v d_X^v = 0$;
 
 and
 
-* $d_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^h d_X^h= 0$;
+* $d_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^h d_X^h = 0$;
 
 In addition $d_X^h d_X^v = d_X^v d_X^h$. (To state the obvious, this means $d_X^h d_X^v - d_X^v d_X^h=0$, in contrast to the formula in the second version.)
 
@@ -83,15 +83,15 @@ $$
 
 A double complex, $X$, is an anticommutative diagram in an additive category in which the objects are bi-indexed by the integers, 
 
-$\{ X_{p,q} \mid p,q\in \mathbb{Z} \}$
+$$\{ X_{p,q} \mid p,q\in \mathbb{Z} \}$$
 
 and with two classes of 'differentials' or 'boundary morphisms':
 
-* $d_X^v: X_{p,q}\to X_{p-1,q}$ called the 'vertical boundary morphisms' or 'vertical differentials', with $d_X^v d_X^= 0$;
+* $d_X^v: X_{p,q}\to X_{p-1,q}$ called the 'vertical boundary morphisms' or 'vertical differentials', with $d_X^v d_X^v = 0$;
 
 and
 
-* $\bar{d}_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^h d_X^h= 0$;
+* $\bar{d}_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $\bar{d}_X^h \bar{d}_X^h = 0$;
 
 In addition $\bar{d}_X^h d_X^v + d_X^v \bar{d}_X^h = 0$.
 
@@ -106,7 +106,7 @@ $$
     X_{n,m} &\stackrel{\bar{d}_X^h}{\to}& X_{n,m-1}
     & \to & \cdots
    \\
-   & & \downarrow^{d_X^v} & \swArr^{-1} & \downarrow^{d_X^v}
+   & & \downarrow^{d_X^v} & \swArr_{-1} & \downarrow^{d_X^v}
    \\
     \cdots &\to & 
     X_{n-1,m} &\stackrel{\bar{d}_X^h}{\to}& X_{n-1,m-1}
