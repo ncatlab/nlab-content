@@ -78,10 +78,53 @@ $$
   }
 $$
 
+## Definition (Second tradition)
+
+
+A double complex, $X$, is an anticommutative diagram in an additive category in which the objects are bi-indexed by the integers, 
+
+$\{ X_{p,q} \mid p,q\in \mathbb{Z} \}$
+
+and with two classes of 'differentials' or 'boundary morphisms':
+
+* $d_X^v: X_{p,q}\to X_{p-1,q}$ called the 'vertical boundary morphisms' or 'vertical differentials', with $d_X^v d_X^= 0$;
+
+and
+
+* $\bar{d}_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^hd_X^h= 0$;
+
+In addition $\bar{d}_X^h d_X^v + d_X^v \bar{d}_X^h = 0$.
+
+This gives an anticommutative diagram:
+$$
+  \array{
+   && \vdots && \vdots
+   \\
+   & & \downarrow^{d_X^v} && \downarrow^{d_X^v}
+   \\
+    \cdots &\to & 
+    X_{n,m} &\stackrel{\bar{d}_X^h}{\to}& X_{n,m-1}
+    & \to & \cdots
+   \\
+   & & \downarrow^{d_X^v} & \swArr^{-1} & \downarrow^{d_X^v}
+   \\
+    \cdots &\to & 
+    X_{n-1,m} &\stackrel{\bar{d}_X^h}{\to}& X_{n-1,m-1}
+    & \to & \cdots
+   \\
+   & & \downarrow^{d_X^v} && \downarrow^{d_X^v}
+   \\
+   && \vdots && \vdots
+  }
+$$
+
+## Equivalence of the two definitions
+
+One makes a double complex $X$ with commutative squares into a double complex with anticommutative squares by using the same vertical differential $d^v$ but taking $\bar{d}^h : X_{p,q} \to X_{p,q-1}$ to be $(-1)^p d^h$. The same trick can be used to make a double complex with anticommutative squares into a double complex with commutative squares.
 
 ## Total complex of a double complex
 
-The **total complex** of a double complex is
+The **total complex** of a double complex (under the convention that squares commute) is
 
 $$
   tot_{\oplus}^k = \bigoplus_{m+n=k} X_{n,m}
@@ -102,7 +145,7 @@ $$
   d^v_X + (-1)^\bullet d_X^h 
 $$
 
-...
+Note that these two coincide when the set of non-zero objects $X_{n,m}$ such that $n + m = k$ is finite, for example, when $X$ is a first quadrant double complex.
 
 [[!redirects double complexes]]
 
