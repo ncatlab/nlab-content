@@ -118,6 +118,8 @@ $$
   }
 $$
 
+Which is 'better'? 'Commuting squares', i.e., the first version, is convenient if you want to define a double complex as a chain complex in the category of chain complexes. On the other hand, 'anticommuting squares' and version 2 is convenient for defining the total complex (for computing total homology). Does it matter which you use? The following says they are just two views of the same situation.
+
 ## Equivalence of the two definitions
 
 One makes a double complex $X$ with commutative squares into a double complex with anticommutative squares by using the same vertical differential $d^v$ but taking $\bar{d}^h : X_{p,q} \to X_{p,q-1}$ to be $(-1)^p d^h$. The same trick can be used to make a double complex with anticommutative squares into a double complex with commutative squares.
