@@ -22,7 +22,7 @@ This entry is about a generalized notion of [[topology]]. For the notion of _for
 
 Formal topology is a programme for doing [[topology]] in a [[finite mathematics|finite]], [[predicative mathematics|predicative]], and [[constructive mathematics|constructive]] fashion.
 
-It is a kind of pointless topology; in the context of [[classical mathematics]], it reproduces the theory of [[locales]] rather than [[topological spaces]] (although of course one can recover topological spaces from locales).
+It is a kind of [[pointless topology]]; in the context of [[classical mathematics]], it reproduces the theory of [[locales]] rather than [[topological spaces]] (although of course one can recover topological spaces from locales).
 
 The basic definitions can be motivated by an attempt to study locales entirely through the [[posites]] that generate them.  However, in order to recover all basic topological notions (particularly those associated with *closed* rather than *open* features) predicatively, we need to add a 'positivity' relation to the 'coverage' relation of sites.
 
@@ -80,6 +80,7 @@ The last example is not predicative, and this is in part *why* one studies forma
 *  [[Giovanni Sambin]] (1987), _Intuitionistic formal spaces_, [pdf](http://www.math.unipd.it/~sambin/txt/ifs87-97.pdf)
    *  This is the probably the main reference on the subject.
    *  Warning: you can ignore the material about [[foundations]] and [[type theory]], but if you do read any of it, the term 'category' means (roughly) [[proper class]]; this was common in type theory in the 1980s.
+
 *  [[Giovanni Sambin]] (2001), _Some points in formal topology_, [pdf](http://www.math.unipd.it/~sambin/txt/SP.pdf) --- this has newer results, alternative formulations, etc.
 
 
