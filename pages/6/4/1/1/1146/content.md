@@ -51,9 +51,9 @@ and with two classes of 'differentials' or 'boundary morphisms':
 
 and
 
-* $d_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^hd_X^h= 0$;
+* $d_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^h d_X^h= 0$;
 
-In addition $d_X^h d_X^v = d_X^v d_X^h$.
+In addition $d_X^h d_X^v = d_X^v d_X^h$. (To state the obvious, this means $d_X^h d_X^v - d_X^v d_X^h=0$, in contrast to the formula in the second version.)
 
 This gives a commutative diagram:
 $$
@@ -91,7 +91,7 @@ and with two classes of 'differentials' or 'boundary morphisms':
 
 and
 
-* $\bar{d}_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^hd_X^h= 0$;
+* $\bar{d}_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^h d_X^h= 0$;
 
 In addition $\bar{d}_X^h d_X^v + d_X^v \bar{d}_X^h = 0$.
 
@@ -132,7 +132,7 @@ $$
 
 $$
   d^k_{tot_\oplus}|_{X_{n,m}} = 
-  d^v_X \sqcup (-1)^\bullet d_X^h 
+  d^v_X + (-1)^\bullet d_X^h 
 $$
 
 bla bla
