@@ -46,7 +46,7 @@ $(\gamma, g) \to g$. A [[section]] $s$ of this can be identified with a
 
 Let $H$ be any group.  A decomposition of $H$ as an __internal__ semidirect product consists of a [[subgroup]] $\Gamma$ and a [[normal subgroup]] $G$, such that every element of $H$ can be written uniquely in the form $\gamma g$, for $\gamma \in \Gamma$ and $g \in G$.
 
-The internal and external concepts are equivalent.  In particuarl, any (external) semidirect product $\Gamma \rtimes G$ is an internal semidirect product of the [[images]] of $\Gamma$ and $G$ in it.
+The internal and external concepts are equivalent.  In particular, any (external) semidirect product $\Gamma \rtimes G$ is an internal semidirect product of the [[images]] of $\Gamma$ and $G$ in it.
 
 
 ### Right semidirect products
