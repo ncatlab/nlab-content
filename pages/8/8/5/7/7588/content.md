@@ -15,19 +15,19 @@
 
 ## Idea
 
-Pointless topology is any formulation of [[topology]] not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  Note that pointless topology *has* points, but they are not fundamental; and a particular [[space]] may well have no points and yet be far from [[empty space|empty]].  (A pointless space is still a set with [[extra stuff]], of course, as long as there is such a thing as a [[functor]] mapping a space to its set of points.)
+Pointless topology is any formulation of [[topology]] not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  (A pointless space must still be this set with [[extra stuff]], of course, as long as there is a [[functor]] mapping a space to its set of points.)  Pointless topology *has* points, but they are not fundamental; and a particular [[space]] may well have no points and yet be far from [[empty space|empty]].
 
-In [[locale theory]], for example, one studies the set of [[open subspaces]] (with the extra structure of a [[frame]]) as the fundamental notion.  In [[formal topology]], one studies a set of *[[base for a topology|basic]]* open subspaces (with the extra structure of a [[posite]] with [[positivity predicate|positivity]], although in fact the [[isomorphisms]] of formal spaces need not even respect these underlying sets).
+In [[locale theory]], for example, one studies the set of [[open subspaces]] (with the extra structure of a [[frame]]) as the fundamental notion.  In [[formal topology]], one studies a set of *[[base for a topology|basic]]* open subspaces (with the extra structure of a [[posite]] with [[positivity predicate|positivity]], although the [[isomorphisms]] of formal spaces don\'t respect these sets).
 
 
 ## References
 
-An introduction to [[locale|local theory]] is
+An introduction to [[locale theory]] is
 
-* [[Peter Johnstone]], _The point of pointless topology_, Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1 (1983), 41-53. ([Euclid](http://projecteuclid.org/euclid.bams/1183550014))
+* [[Peter Johnstone]] (1983); _The point of pointless topology_; Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1, 41--53; [Euclid](http://projecteuclid.org/euclid.bams/1183550014).
 
-This is, in its own words, to be read as the trailer for the book
+This is, in its own words, to be read as the trailer for Johnstone's book _[[Stone Spaces]]_, which see.
 
-*  [[Peter Johnstone]], _[[Stone Spaces]]_
+For [[formal topology]], see
 
-that develops, among other things, much of standard [[topology]] entirely with the notion of locale used in place of that of [[topological spaces]]. See _[[Stone Spaces]]_ for details.
+*  [[Giovanni Sambin]] (2001); _Some points in formal topology_; [pdf](http://www.math.unipd.it/~sambin/txt/SP.pdf).
