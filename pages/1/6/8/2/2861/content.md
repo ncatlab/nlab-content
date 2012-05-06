@@ -171,7 +171,12 @@ The note on the $(n+1,k+1)$-$\Theta$-space of all $(n,k)$-$\Theta$-spaces comes 
 [[!redirects Theta-Space]]
 [[!redirects ? Space]]
 [[!redirects ∞-Space]]
+[[!redirects ? space]]
+[[!redirects ∞-space]]
+
 [[!redirects Theta spaces]]
 [[!redirects Theta-Spaces]]
 [[!redirects ? Spaces]]
 [[!redirects ∞-Spaces]]
+[[!redirects ? spaces]]
+[[!redirects ∞-spaces]]
