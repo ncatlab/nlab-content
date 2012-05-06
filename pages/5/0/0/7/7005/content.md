@@ -74,7 +74,7 @@ in $\mathcal{C}/_{B \times B}$.  By the defining ([[product]] $\dashv$ [[interna
 $$ \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to B \times E $$
 in $\mathcal{C}/_{B \times B}$.  But now by the 
 [[universal property]] of [[pullback]], it suffices to define just in $\mathcal{C}_{/B}$ a morphism
-$$ \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to \Delta_B \times_{\mathcal{C}/_{B \times B}} B \times E\m,. $$  
+$$ \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to \Delta_B \times_{\mathcal{C}/_{B \times B}} B \times E\,. $$  
 And since the composite pullback along either composite
 $$ B \xrightarrow{\Delta_B} B\times B \xrightarrow{\pi_1} B$$
 $$ B \xrightarrow{\Delta_B} B\times B \xrightarrow{\pi_2} B$$
