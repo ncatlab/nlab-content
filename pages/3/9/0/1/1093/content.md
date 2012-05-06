@@ -407,7 +407,15 @@ prop. \ref{CharacterizationOfLocalObjects} we are reduced to showing that an obj
 
 =--
 
+### Exactness properties
 
+Every sheaf topos satisfies the following [[exactness properties]]. it is an 
+
+* [[extensive category]];
+
+* [[adhesive category]];
+
+* [[exhaustive category]].
 
 ## Related concepts
 
