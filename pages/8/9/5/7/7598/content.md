@@ -1,8 +1,8 @@
 +-- {: .num_defn}
 ###### Definition
-A [[diagram]] $F:P\to M$ is called _projectively [[cofibrant object|cofibrant]]_ if $0\to F$ has the left lifing property with respect to component-wise acyclic fibrations.
+A [[diagram]] $F:P\to M$ is called _projectively [[cofibrant object|cofibrant]]_ if $0\to F$ has the left lifing property with respect to (component-wise) acyclic fibrations.
 
-In other words $F$ is [[projective object|projectively]] cofibrant if for any component-wise acyclic fibration $A\to B$ and any morphism $X\to B$ there is a lift
+In other words $F$ is projectively cofibrant if for any acyclic cofibration $A\to B$ in $Fun(P,M)$ and any morphism $F\to B$ there is a lift
 
 $$\array{
 &&A
@@ -10,12 +10,12 @@ $$\array{
 &
 \nearrow&\downarrow
 \\
-X
+F
 &\to&
 B
 }$$
 
-making the triangle commute.
+making the triangle commute. In this case $F$ is [[cofibrant object|cofibrant]] since cofibrations and acyclic fibrations form a [[weak factorization system]] $(C,F\cap W)$.
 =--
 
 +-- {: .num_example}
