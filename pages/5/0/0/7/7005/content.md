@@ -73,9 +73,9 @@ $$ q \colon \Delta_B \to [E \times B , B \times E]_{\mathcal{C}/_{B \times B}} \
 in $\mathcal{C}/_{B \times B}$.  By the defining ([[product]] $\dashv$ [[internal hom]])-[[adjunction]], it suffices to define a morphism
 $$ \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to B \times E $$
 in $\mathcal{C}/_{B \times B}$.  But now by the 
-[[universal property]] of [[pullback]], it suffices to define a morphism
-$$ \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to \Delta_B \times_{\mathcal{C}/_{B \times B}} B \times E $$
-in $\mathcal{C}/_B$.  And since the composite pullback along either composite
+[[universal property]] of [[pullback]], it suffices to define just in $\mathcal{C}_{/B}$ a morphism
+$$ \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to \Delta_B \times_{\mathcal{C}/_{B \times B}} B \times E\m,. $$  
+And since the composite pullback along either composite
 $$ B \xrightarrow{\Delta_B} B\times B \xrightarrow{\pi_1} B$$
 $$ B \xrightarrow{\Delta_B} B\times B \xrightarrow{\pi_2} B$$
 is the identity, both $\Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B$ and $\Delta_B \times_{\mathcal{C}/_{B \times B}} B \times E$ are isomorphic to $E$; thus here we can take the [[identity]] morphism.
@@ -230,7 +230,7 @@ The [[HoTT]]-[[Coq]] code is at
 
 * _[HoTT/Coq/UnivalenceAxiom.v](https://github.com/HoTT/HoTT/blob/master/Coq/UnivalenceAxiom.v)_
 
-A guided walk through the formal proof that univalence implies functional extensionality is at
+A guided walk through the formal proof that univalence implies [[functional extensionality]] is at
 
 * [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
  {#BauerLumsdaine}
