@@ -21,6 +21,16 @@ In particular if $\mathcal{Y}$ is the [[terminal object]] in [[Topos]], hence th
 
 More generally, since there is a hierarchy of notions of _[[proper geometric morphism]]_, there is accordingly a hierarchy of separatedness conditions. 
 
+## Examples
+
++-- {: .num_prop}
+###### Proposition
+
+For $G$ a [[discrete group]] and $\mathbf{B}G = (G \stackrel{\to}{\to} *)$ its [[delooping]] [[groupoid]], the [[presheaf topos]] $G Set \simeq [\mathbf{B}G, Set]$ is Hausdorff precisely if $G$ is a [[finite group]].
+
+=--
+
+In ([Johnstone](#Johnstone)) this is example C3.2.24
 
 ## Related concepts
 
@@ -35,6 +45,10 @@ Chapter II of
 * [[Ieke Moerdijk]], Jacob Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) and _Proper maps of toposes_ , American Mathematical Society (2000)
   {#MoerdijkVermeulen}
 
+Around def. C3.2.12 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
 
 [[!redirects Hausdorff topos]]
 [[!redirects strongly Hausdorff topos]]
