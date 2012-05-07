@@ -20,20 +20,38 @@ In [[homotopy type theory]], the notion of **h-proposition** (or just a **propos
 h-Propositions are how [[logic]] is embedded into homotopy type theory, via the [[propositions as some types]] / [[bracket types]] approach.
 
 
+h-Propositions are also said to be of **[[h-level]] $1$**.
+
 ## Definition
 
-There are many equivalent definitions of h-propositions.  Perhaps the simplest is as follows.  Let $A$ be a [[type]] in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]].  We define a new type $isProp(A)$ as follows:
+Let $A$ be a [[type]] in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]].  
+There are many equivalent definitions of $A$ being an _h-proposition_.  Perhaps the simplest is as follows. 
+
++-- {: .num_defn}
+###### Definition
+
+Define a new type $isProp(A)$ as the [[dependent product]] of the [[identity types]] for all pairs of [[terms]] of $A$:
 
 $$ isProp(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} (x=y) $$
 
+We say that $A$ is an h-proposition if $isProp(A)$ is an [[inhabited type]].
+
+=--
+
 In [[propositions as types]] language, this can be pronounced as "every two elements of $A$ are equal".
 
-Here are two provably [[equivalence in homotopy type theory|equivalent]] definitions:
 
-$$ isProp(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} isContr(x=y) $$
-$$ isProp(A) \coloneqq (A \to isContr(A)) $$
++-- {: .num_prop}
+###### Proposition
 
-The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $\infty$-groupoid is an $n$-groupoid if all its hom-groupoids are $(n-1)$-groupoids.  The second says that being a proposition is equivalent to being "contractible if inhabited".
+The following are two provably [[equivalence in homotopy type theory|equivalent]] definitions of $isProp(A)$, in terms of the dependent type $isContr(-)$ that checks for [[contractible types]]:
+
+* $isProp(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} isContr(x=y) $
+* $ isProp(A) \coloneqq (A \to isContr(A)) $
+
+=--
+
+The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $\infty$-groupoid is an $n$-groupoid if all its hom-groupoids are $(n-1)$-groupoids.  The second says that being a proposition is equivalent to being "[[contractible]] if [[inhabited]]".
 
 
 ## Properties
@@ -43,9 +61,7 @@ The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $
 * If $A$ and $B$ are h-props and there exist maps $A\to B$ and $B\to A$, then $A$ and $B$ are [[equivalence in homotopy type theory|equivalent]].
 
 
-## Coq code
 
-* [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/HLevel.v)
 
 
 ## Semantics
@@ -63,9 +79,19 @@ $$\prod_{x\colon B} isProp(A(x))$$
 in global context, which has a global element precisely when $isProp(A)\to B$ has a section.
 
 
-## Remarks
+## Related concepts
 
-* h-Propositions are also said to be of **[[h-level]] $1$**.
+* [[isEquiv]]
+
+* [[isContr]]
+
+* **isProp**
+
+## References
+
+[[Coq]]-code for h-propositions is in 
+
+* [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/HLevel.v)
 
 
 [[!redirects h-propositions]]
