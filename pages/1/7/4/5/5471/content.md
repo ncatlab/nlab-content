@@ -229,3 +229,6 @@ The definition of affine $\mathcal{G}$-schemes (absolute spectra) is in section 
 
 [[!redirects locally representable structured (∞,1)-toposes]]
 [[!redirects locally representable structured (infinity,1)-toposes]]
+
+[[!redirects spectral Deligne-Mumford stack]]
+[[!redirects spectral Deligne-Mumford stacks]]
