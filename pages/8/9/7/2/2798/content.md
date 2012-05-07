@@ -285,7 +285,7 @@ This is ([Cis-Moer, 3.2](#CisinskiMoerdijk09)).
 +-- {: .num_prop }
 ###### Proposition 
 
-For $A \to B$ an $J$-anodyne extension and $X \to Y$ a normal monomorphism of [[dendroidal sets]], the [[pushout-product axiom|pushout-product morphism]]
+For $A \to B$ a $J$-anodyne extension and $X \to Y$ a normal monomorphism of [[dendroidal sets]], the [[pushout-product axiom|pushout-product morphism]]
 
 $$
   A \otimes Y \cup B \otimes X \to B\otimes Y
