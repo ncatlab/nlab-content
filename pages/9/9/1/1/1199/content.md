@@ -1,6 +1,6 @@
 
 # Contents
-* automatic table of contents goes here
+* table of contents 
 {: toc}
 
 ## Idea
@@ -17,22 +17,7 @@ then $x \in A$.  Such an $A$ may be called a _$\prec$-inductive subset_ of $S$. 
 Note that this is precisely what is necessary to validate induction over $\prec$: if we can show that a statement is true of $x\in S$ whenever it is true of everything $\prec$-below $x$, then it must be true of everything in $S$.  In the presence of [[excluded middle]] it is equivalent to other commonly stated definitions; see _Formulations in classical logic_ below.
 
 
-## Examples
-
-Let $S$ be a [[finite set]].  Then any relation on $S$ is well-founded.
-
-Let $S$ be the set of [[natural numbers]], and let $x \prec y$ if $y$ is the [[successor]] of $x$: $y = x + 1$.  That this relation is well-founded is the usual principle of _mathematical induction_.
-
-Again let $S$ be the set of natural numbers, but now let $x \prec y$ if $x \lt y$ in the usual order.  That this relation is well-founded is the principle of _strong induction_.
-
-More generally, let $S$ be a set of [[ordinal numbers]] (or even the proper class of all ordinal numbers), and let $x \prec y$ if $x \lt y$ in the usual order.  That this relation is well-founded is the principle of _transfinite induction_.
-
-Similarly, let $S$ be a set of [[pure sets]] (or even the proper class of all pure sets), and let $x \prec y$ if $x \in y$.  That this relation is well-founded is the _[[axiom of foundation]]_.
-
-Let $S$ be the set of [[integers]], and let $x \prec y$ mean that $x$ properly divides $y$: $y/x$ is an integer other than $\pm{1}$.  This relation is also well-founded, so one can prove properties of integers by induction on their proper divisors.
-
-
-## Formulations in classical logic
+### Formulations in classical logic
 
 While the definition above follows how a well-founded relation is generally *used* (namely, to prove properties of elements of $S$ by induction), it is complicated.  Two alternative formulations are given by the following:
 
@@ -44,8 +29,7 @@ In [[classical mathematics]], both of these conditions are equivalent to being w
 
 Even in constructive predicative mathematics, (1) is strong enough to establish the [[Burali-Forti paradox]].  In [[material set theory]], (2) is traditionally used to state the [[axiom of foundation]], although the impredicative definition could also be used as an axiom scheme (and must be in constructive versions).  In any case, either (1) or (2) is usually preferred by classical mathematicians as simpler.
 
-
-## Coalgebraic formulation 
+### Coalgebraic formulation 
 
 Many inductive or recursive notions may also be packaged in [[coalgebra|coalgebraic]] terms. For the concept of well-founded relation, first observe that a binary relation $\prec$ on a set $X$ is the same as a coalgebra structure $\theta\colon X \to P(X)$ for the covariant [[power-set]] endofunctor on $Set$, where $y \prec x$ if and only if $y \in \theta(x)$. 
 
@@ -64,7 +48,7 @@ Then, as usual, the $P$-coalgebra $(X, \theta)$ is well-founded if every $\theta
 Other relevant notions may also be packaged; for example, the $P$-coalgebra $X$ is [[extensional relation|extensional]] if $\theta\colon X \to P X$ is monic. See also [[well-founded coalgebra]]. 
 
 
-## Simulations
+### Simulations
 
 Given two sets $S$ and $T$, each equipped with a well-founded relation $\prec$, a [[function]] $f\colon S \to T$ is a __[[simulation]]__ of $S$ in $T$ if
 1.  $f(x) \prec f(y)$ whenever $x \prec y$ and
@@ -80,8 +64,7 @@ X & \stackrel{\theta_X}{\to} & P X \\
 Y & \underset{\theta_Y}{\to} & P Y.
 }$$ 
 
-
-## Remarks
+## Properties
 
 Every well-founded relation is [[irreflexive relation|irreflexive]]; that is, $x \nprec x$.  Sometimes one wants a reflexive version $\preceq$ of a well-founded relation; let $x \preceq y$ if and only $x \prec y$ or $x = y$.  Then the requirement that $x$ be a minimal element of a subset $A$ states that $t \preceq x$ only if $t = x$.  But infinite descent or direct proof by induction still require $\prec$ rather than $\preceq$.
 
@@ -90,6 +73,29 @@ A [[well-order|well order]] may be defined as a well-founded [[linear order]], o
 A [[well-quasi-order]] is a well-founded [[preorder]] (referring to the reflexive version of well-foundedness above) that in addition has no infinite [[antichain|antichains]]. 
 
 The [[axiom of foundation]] in material [[set theory]] states precisely that the membership relation $\in$ on the proper class of all [[pure sets]] is well-founded.  In structural set theory, accordingly, one uses well-founded relations in building structural models of well-founded pure sets.
+
+
+## Examples
+
+Let $S$ be a [[finite set]].  Then any relation on $S$ is well-founded.
+
+Let $S$ be the set of [[natural numbers]], and let $x \prec y$ if $y$ is the [[successor]] of $x$: $y = x + 1$.  That this relation is well-founded is the usual principle of _mathematical induction_.
+
+Again let $S$ be the set of natural numbers, but now let $x \prec y$ if $x \lt y$ in the usual order.  That this relation is well-founded is the principle of _strong induction_.
+
+More generally, let $S$ be a set of [[ordinal numbers]] (or even the proper class of all ordinal numbers), and let $x \prec y$ if $x \lt y$ in the usual order.  That this relation is well-founded is the principle of _transfinite induction_.
+
+Similarly, let $S$ be a set of [[pure sets]] (or even the proper class of all pure sets), and let $x \prec y$ if $x \in y$.  That this relation is well-founded is the _[[axiom of foundation]]_.
+
+Let $S$ be the set of [[integers]], and let $x \prec y$ mean that $x$ properly divides $y$: $y/x$ is an integer other than $\pm{1}$.  This relation is also well-founded, so one can prove properties of integers by induction on their proper divisors.
+
+
+
+
+
+
+
+
 
 
 [[!redirects well-founded relation]]
