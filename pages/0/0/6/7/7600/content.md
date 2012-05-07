@@ -1,0 +1,4 @@
+
+* [wikipedia entry](http://de.wikipedia.org/wiki/Ernst_Zermelo)
+
+category: people
