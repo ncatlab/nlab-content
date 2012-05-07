@@ -132,7 +132,10 @@ One can show that comma objects are always discrete fibrations, and dually cocom
     Set\Mod_{disc} \simeq Span(Set) 
     \,.
   $$
-  In this case, the representable profunctor induced by a map $f : C \to D$ of sets is the span
+
+  In particular a [[relation]] between sets is a special case of this. From this point of view the 2-category [[Prof]] of profunctors is a [[categorification]] of the category [[Rel]] of sets and relations.
+
+  Moreover, the representable profunctor between discrete category induced by a [[function]] $f : C \to D$ of sets is the span
   $$
   \array{
     && C
@@ -141,6 +144,7 @@ One can show that comma objects are always discrete fibrations, and dually cocom
     \\
     C &&&& D
   }
+  \,.
   $$
 
 * Similarly, the full sub-bicategory of internal profunctors in $S = (Set^{op}, \times)$ on "discrete categories" is the bicategory of [[cospans]]
