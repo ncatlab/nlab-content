@@ -341,9 +341,32 @@ out of the [[slice topos]] is a proper geometric morphism. And precisely if $X$ 
 
 
 ## References
+ {#References}
 
-* [[Ieke Moerdijk]], Jacob Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) and _Proper maps of toposes_ , American Mathematical Society (2000)
+The theory of proper geometric morphisms is largly due to
+
+* [[Ieke Moerdijk]], Jacob Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) 
   {#MoerdijkVermeulen}
+
+* [[Ieke Moerdijk]], Jacob Vermeulen, _Proper maps of toposes_ , Memoirs of the American Mathematical Society, no. 705 (2000)
+
+based on the [[locale|localic]] case discussed in 
+
+* Jacob Vermeulen, _Proper maps of locales_, J. Pure Applied Alg. 92 (1994)
+
+A textbook account is in section C3.2 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+Discussion of higher compactness conditions in [[(∞,1)-topos theory]] is in section 3 of 
+
+* [[Jacob Lurie]], _Spectral Schemes_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VII.pdf))
+
+and for the special case of [[spectral Deligne-Mumford stacks]] in section 1.4 of
+
+* [[Jacob Lurie]], _Quasi-Coherent Sheaves and
+Tannaka Duality Theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VIII.pdf))
+
 
 [[!redirects proper map of toposes]]
 [[!redirects proper maps of toposes]]
