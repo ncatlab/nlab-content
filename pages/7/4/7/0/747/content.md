@@ -420,7 +420,7 @@ Something related to a **fibrant replacement** functor ("$\infty$-stackification
 
 ### Cofibrant objects {#CofibrantObjects}
 
-In the injective [[local model structure on simplicial presheaves]] all objects are cofibrant. For the projective local structure we have the following useful statement.
+In the injective [[local model structure on simplicial presheaves]] all objects are cofibrant. For the projective local structure we have the following useful statement (see also _[[projectively cofibrant diagram]]_).
 
 
 +-- {: .num_defn }
