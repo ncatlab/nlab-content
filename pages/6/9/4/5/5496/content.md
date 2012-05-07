@@ -11,7 +11,7 @@
 =--
 =--
 
-Computer scientist and applied category theorist, 28th June 1941 &ndash; 3rd July 2006. His theoretical work includes the algebraic theory of abstract data types, initial model semantics, institutions, order sorted algebra, parameterized programming, database integration, hidden algebra, [[sheaf semantics|sheaf semantics of interacting objects]], and algebraic semiotics. Very important to computer science was his r&ocirc;le in founding algebraic specification, including abstract data types, modules and module composition, and the OBJ language family. Goguen wrote [[A Categorical Manifesto|_A Categorical Manifesto_]], which tried to encourage the use of category theory in computer science.
+Computer scientist and applied category theorist, 28th June 1941 &ndash; 3rd July 2006. His theoretical work includes the algebraic theory of abstract data types, initial model semantics, [[institution|institutions]], order sorted algebra, parameterized programming, database integration, hidden algebra, [[sheaf semantics|sheaf semantics of interacting objects]], and algebraic semiotics. Very important to computer science was his r&ocirc;le in founding algebraic specification, including abstract data types, modules and module composition, and the OBJ language family. Goguen wrote [[A Categorical Manifesto|_A Categorical Manifesto_]], which tried to encourage the use of category theory in computer science.
 
 ## Links ##
 
