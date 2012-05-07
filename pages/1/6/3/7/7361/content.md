@@ -3,6 +3,14 @@
 * table of contents
 {: toc}
 
+## Idea
+
+A mathematical structure is said to be _presented by generators and relations_ if it is obtained from a structure _[[free construction|freely]] generated_ by a [[set]] of _generators_ by imposing _relations_ among these generators. 
+
+For instance an [[associative algebra]] $A$ may be obtained by imposing on the [[tensor algebra]] of the underlying vector space (which is the [[free monoid|free algebra]] on that vector space) the product relations, which identify the formal juxtaposition of two elements with their intended product. This is for instance how _[[Clifford algebras]]_ or _[[universal enveloping algebras]]_ are traditionally defined.
+
+But the concept of _generators and relations_ is very general and applies to all kinds of structures. Below we discuss a general formalization using concepts from [[category theory]] and [[universal algebra]].
+
 ## Definition
 
 Let $C$ be a [[category]], $T$ a [[monad]] on $C$, and $A$ a $T$-[[algebra for a monad|algebra]].  A **presentation of $A$ by generators and relations** is a [[coequalizer]] diagram
