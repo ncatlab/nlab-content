@@ -30,7 +30,7 @@ A category $D$ is a **direct category** if the following *equivalent* conditions
 * $D$ contains no infinite descending chains of nonidentity morphisms $\cdots \to\cdot \to\cdot\to\cdot$ (including cycles of length $\gt 0$).
 * The relation $a\prec b$ on $ob(D)$ defined by "there exists a nonidentity morphism from $a$ to $b$" is [[well-founded relation|well-founded]].
 * There exists a function $d\colon ob(D)\to Ord$, where $Ord$ is the class of [[ordinals]], such that every nonidentity morphism of $D$ raises the degree.
-* $D$ is a [[Reedy category]] in which $D_-$ consists only of identity maps (or equivalently $D_+$ is all of $D$).
+* $D$ is a [[Reedy category]] (in particular an _[[elegant Reedy category]]_) in which $D_-$ consists only of identity maps (or equivalently $D_+$ is all of $D$).
 
 In particular, a [[poset]] is a direct category just when its strict order relation $\lt$ is well-founded.  Thus, direct categories can be seen as a categorification of well-founded relations.
 
@@ -58,7 +58,7 @@ However, a category can be inverse without having finite fan-out.  Let $S$ be an
 
 ## Model structures
 
-Every direct category (and every inverse category) is in particular a [[Reedy category]], and therefore whenever $M$ is a [[model category]] there is a [[Reedy model structure]] on $M^D$.  In the case of direct and inverse categories, these model structures are even easier to describe, since either the latching or the matching objects are degenerate.
+Every direct category (and every inverse category) is in particular a [[Reedy category]], in fact an _[[elegant Reedy category]]_. Therefore whenever $M$ is a [[model category]] there is a [[Reedy model structure]] on $M^D$.  In the case of direct and inverse categories, these model structures are even easier to describe, since either the latching or the matching objects are degenerate.
 
 ## Allowing automorphisms
 
