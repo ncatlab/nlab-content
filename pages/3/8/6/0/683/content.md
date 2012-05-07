@@ -186,10 +186,10 @@ $$
 
 let for instance 
 
-$Q_{proj} : [D,C] \to [D,C]$ be a cofibrant replacement for the projective [[model structure on functors]]. Then we have
+$Q_{proj} : [D,C] \to [D,C]$ be a cofibrant replacement for the projective [[model structure on functors]], so that for any diagram $F$ the diagram $Q_{proj} F$ is a [[projectively cofibrant diagram]] (see there for more details). Then the homotopy colimit is presented by the ordinary colimit over $Q_{proj} F$:
 
 $$
-  hocolim F \simeq colim Q_{proj}(F)
+  (\mathbb{L}\underset{\to}{\lim}) F \simeq \underset{\to}{\limt} Q_{proj}(F)
   \,.
 $$
 
