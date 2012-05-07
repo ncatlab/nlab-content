@@ -231,6 +231,12 @@ respectively.
 
 For more on this see [[homotopy Kan extension]]. For the case that $D' = *$ this reduces to [[homotopy limit]] and [[homotopy colimit]].
 
+## Examples
+
+Examples of cofibrant objects in the projective model structure are discussed at 
+
+* [[projectively cofibrant diagram]].
+
 ## Related concepts
 
 * [[Reedy model structure]], [[generalized Reedy model structure]],
