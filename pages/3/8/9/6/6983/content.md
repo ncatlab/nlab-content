@@ -96,7 +96,17 @@ where in the first conversion we use $c \coloneqq ()$ and in the second we use $
 
 As in the case of binary [[product types]], these translations require the [[contraction rule]] and the [[weakening rule]]; that is, they duplicate and discard terms.  In [[linear logic]] these rules are disallowed, and therefore the positive and negative unit types become different.  The positive product becomes "one" $\mathbf{1}$, while the negative product becomes "top" $\top$.
 
-## Categorical interpretation
+## Properties
+
+
++-- {: .num_prop}
+###### Proposition
+
+In [[homotopy type theory]] the unit type is a [[contractible type]], and every contractible type is [[equivalence in homotopy type theory|equivalent]] to the unit type.
+
+=--
+
+## Categorical semantics
 
 Under [[categorical semantics]], a unit type satisfying both beta and eta conversions corresponds to a [[terminal object]] in a [[category]].  More precisely:
 
@@ -111,6 +121,7 @@ Of course, the categorical notion of terminal object matches the *negative* defi
 
 * [[product type]]
 * [[empty type]]
+* [[contractible type]]
 
 
 [[!redirects unit type]]
