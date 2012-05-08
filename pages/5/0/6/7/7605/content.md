@@ -1,0 +1,35 @@
+[[!redirects presentation of homotopy type theory]]
+
+> under construction
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+[[homotopy type theory|Homotopy type theory]] has [[categorical semantics]] in suitable categories which in turn present certain [[(infinity,1)-categories]].
+
+Decomposing the structure in homotopy type theory in layers as
+
+1. [[dependent type theory]]
+
+1. with [[identity types]]
+
+1. and [[univalence|univalent]] [[universe]] types.
+
+a 1-[[category]] whose [[internal logic]] can interpret this needs to 
+
+1. be a [[locally cartesian closed category]]
+
+1. equipped with a [[weak factorization system]] with [[stable path objects]], such that [[acyclic cofibrations]] are preserved by [[pullback]] along [[fibrations]] between [[fibrant objects]]. 
+
+1. xyz
+
