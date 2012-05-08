@@ -85,20 +85,23 @@ This [[2-functor]] has a [[2-adjunction|right 2-adjoint]] ([Bunge-Carboni](#Bung
 ### Limits and colimits 
  {#Limits}
 
-The 2-category $Topos$ is not all that well-endowed with [[limit]]s, but its [[slice categories]] are finitely complete [[2-limit|as 2-categories]], and $ShTopos$ is closed under finite limits in $Topos/Set$.  In particular, the [[terminal object]] in $ShToposes$ is the topos [[Set]] $\simeq Sh(*)$.
+The 2-category $Topos$ is not all that well-endowed with [[limits]], but its [[slice categories]] are finitely complete [[2-limit|as 2-categories]], and $ShTopos$ is closed under finite limits in $Topos/Set$.  In particular, the [[terminal object]] in $ShToposes$ is the topos [[Set]] $\simeq Sh(*)$.
+
+#### Colimits
+ {#Colimits}
 
 The supply with colimits is better:
 
-{#ColimitsByInverseImageLimits}
-+-- {: .un_prop}
++-- {: .num_prop #ColimitsByInverseImageLimits}
 ###### Proposition
+
 All small (indexed) [[2-colimit]]s in $ShTopos$ exists and are computed as (indexed) [[2-limit]]s in [[Cat]] of the underlying [[inverse image]] functors.
 
 =--
 
 This appears as ([Moerdijk, theorem 2.5](#Moerdijk))
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let 
@@ -137,7 +140,7 @@ is a 2-pullback in [[Cat]] and so by the [above](#ColimitsByInverseImageLimits) 
 
 This appears as theorem 5.1 in ([BungeLack](#BungeLack))
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -146,6 +149,9 @@ The 2-category $Topos$ is an [[extensive category]]. Same for toposes bounded ov
 =--
 
 This is in ([BungeLack, proposition 4.3](#BungeLack)).
+
+#### Pullbacks
+ {#Pullbacks}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -263,6 +269,14 @@ is a [[pullback]] square.
 This appears for instance as ([Lurie, prop. 6.3.4.6](#Lurie)).
 
 
++-- {: .num_remark}
+###### Remark
+
+For [[localic toposes]] this reduces to the statement of [[localic reflection]]: the pullback of toposes is given by the of the underlying [[locales]] which in turn is the [[pushout]] of the corresponding [[frames]].
+
+=--
+
+
 ## Related concepts
 
 * **Topos**
@@ -291,7 +305,7 @@ There this is discussed for for [[(∞,1)-topos]]es, but the statements are verb
 
 The adjunction between toposes and locally presentable categories is discussed in 
 
-* [[Martha Bunge]], Carboni, _The symmetric topos_, Journal of Pure and Applied Algebra 105:233-249, (1995)
+* [[Marta Bunge]], Carboni, _The symmetric topos_, Journal of Pure and Applied Algebra 105:233-249, (1995)
  {#BungeCarboni}
 
 category: category
