@@ -57,7 +57,7 @@ a) To any augmented pre-ga $A$, one can associate a pre-gla, denoted $\bar{A}_L$
 
 b) If $A$ is a pre-cga and $L$ is a pre-gla, the tensor product $A\otimes L$ has a pre-gla structure with bracket
 
-$$[a\otimes l,a'\otimes l'] = (-1)^{|a||l|}aa' \otimes [l,l']$$
+$$[a\otimes l,a'\otimes l'] = (-1)^{|a'||l|}aa' \otimes [l,l']$$
 
 for $a,a', l, l'$ homogeneous.
 
