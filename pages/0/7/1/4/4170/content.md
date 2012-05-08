@@ -27,6 +27,11 @@ Let $C$ be a category equipped with a [[pretopology]] $J$ (i.e. a [[site]]) and 
 
 In the special case that $C$ is some category of spaces with a terminal object $t$, then sheaves on the big site of $t$ form a [[gros topos]]. Hence the category of sheaves on the big site of $a$ generalize this idea.
 
+## Examples
+ {#Examples}
+
+* For $C$ the category of ([[affine scheme|affine]]) [[schemes]], with one of its [[Grothendieck topologies]], notably the [[etale topology]] or [[Zariski topology]], for $X$ a [[scheme]], $Sch/S$ is traditionally called _the [[étale site]] of $X$_ or _the [[Zariski site]] of $X$_. See for instance ([[The Stacks Project|The Stacks project, def. 38.27.3]]).
+
 ## Related concepts
 
 * [[small site]];
