@@ -17,7 +17,7 @@
 
 In [[homotopy type theory]], the notion of **contractible [[type]]** is an internalization of the notion of [[contractible space]] / [[(-2)-truncated]] object.
 
-Contractible types are also called of **[[h-level]] $0$**.
+Contractible types are also called of **[[h-level]] $0$**. They represent the notion _[[true]]_ in homotopy type theory.
 
 
 ## Definition
@@ -27,25 +27,35 @@ We work in [[intensional type theory|intensional]] [[type theory]] with [[depend
 +-- {: .num_defn}
 ###### Definition
 
-For $A$ a type, define a new type
+For $X$ a [[type]], let
 
-$$isContr(A) \coloneqq \sum_{x\colon A} \prod_{y\colon A} (y=x)$$
+$$
+  isContr(X) \coloneqq \sum_{x\colon X} \prod_{y\colon X} (y=x)
+$$
 
-where $(y=x)$ denotes the identity type.
+be the [[dependent sum]] in one [[variable]] $x : X$ over the [[dependent product]] on the other [[variable]] $y \colon X$ of the $x,y$-[[dependent type|dependent]] [[identity type]] $(x = y)$.
 
-We say that $A$ is a **contracrible type** if $isContr(A)$ is an [[inhabited type]].
+We say that $X$ is a **contracrible type** if $isContr(X)$ is an [[inhabited type]].
 
 =--
 
-In [[propositions as types]] language, this can be pronounced as "there exists a point $x\colon A$ such that every other point $y\colon A$ is equal to $x$."  Under the [[homotopy theory|homotopy-theoretic]] interpretation, it should be thought of as the type of *contractions* of $A$ --- since the dependent product describes *continuous* functions, the paths from $y$ to $x$ depend continuously on $y$ and thus exhibit a contraction of $A$ to $x$.
++-- {: .num_remark}
+###### Remark
 
+In [[propositions as types]] language, this can be pronounced as "there exists a point $x\colon X$ such that every other point $y\colon X$ is equal to $x$."  
+
+Under the [[homotopy theory|homotopy-theoretic]] interpretation, it should be thought of as the type of *contractions* of $X$ --- since the dependent product describes *continuous* functions, the paths from $y$ to $x$ depend continuously on $y$ and thus exhibit a contraction of $X$ to $x$.
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
 
 A provably [[equivalence in homotopy type theory|equivalent]] definition is
+the [[product type]] of $X$ with the [[isProp]]-type of $X$:
+
 $$
-  isContr(A) \coloneqq A \;\times\; isProp(A) 
+  isContr(X) \coloneqq X \;\times\; isProp(X) 
   \,.
 $$
 
@@ -53,24 +63,41 @@ $$
 
 (Here of course we have to use a definition of [[isProp]] which doesn't refer to $isContr$).  
 
-In other words, $A$ is contractible iff $A$ is [[inhabited type|inhabited]] and an [[h-proposition]].
++-- {: .num_remark}
+###### Remark
 
+This now says that $X$ is contractible iff $X$ is [[inhabited type|inhabited]] and an [[h-proposition]].
+
+=--
 
 ## Properties
 
-* For any type $A$, the type $isContr(A)$ is an [[h-proposition]].  In particular, we can show $isContr(A) \to isContr(isContr(A))$: if a type is contractible, then its space of contractions is also contractible.
-
-* A type is contractible if and only if it is [[equivalence in homotopy type theory|equivalent]] to the [[unit type]].
-
++-- {: .num_prop}
+###### Proposition
 
 
-## Semantics
+For any type $A$, the type $isContr(A)$ is an [[h-proposition]].  In particular, we can show $isContr(A) \to isContr(isContr(A))$: if a type is contractible, then its space of contractions is also contractible.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+A type is contractible if and only if it is [[equivalence in homotopy type theory|equivalent]] to the [[unit type]].
+
+=--
+
+
+
+## Categorical semantics
+ {#CategoricalSemantics}
 
 We discuss the [[categorical semantics]] of contractible types.
 
-Let $\mathcal{C}$ be a [[locally cartesian closed category]] with sufficient structure to intepret all the above type theory.  This means that $C$ has a [[weak factorization system]] with [[stable path objects]], and that [[trivial cofibrations]] are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of coherence, which are not important for this discussion.)
+Let $\mathcal{C}$ be a [[locally cartesian closed category]] with [[presentation of homotopy type theory|sufficient structure]] to intepret all the above type theory.  This means that $C$ has a [[weak factorization system]] with [[stable path objects]], and that [[acyclic cofibrations]] are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of [[coherence]], which are not important for this discussion.)
 
-Then for a fibrant object $A$, the fibrant object $isContr(A)$ is obtained by taking the dependent product of the path-object $A^I \to A\times A$ along one projection $A\times A\to A$ (then forgetting the remaining map to $A$).
+Then for a [[fibrant object]] $A$, the fibrant object $isContr(A)$ is obtained by taking the dependent product of the path-object $A^I \to A\times A$ along one projection $A\times A\to A$ (then forgetting the remaining map to $A$).
 
 This means that to give a [[global element]] of $isContr(A)$ is to give a global element $a\colon 1\to A$ together with a right [[homotopy]] relating the composite $A\to 1\to A$ to the identity.  Thus, $A\to 1$ is a (right) [[homotopy equivalence]], and hence (since $A$ is [[fibrant]]) an [[acyclic fibration]].
 
@@ -88,6 +115,8 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 
 ## Related concepts
 
+* [[(-2)-groupoid]], [[true]], [[h-level|hlevel 0]]
+
 * [[isEquiv]]
 
 * **isContr**
@@ -96,7 +125,7 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 
 ## References
 
-[[Coq]]-code for contractive types is at
+[[Coq]]-code for contractible types is at
 
 * [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Contractible.v)
 
