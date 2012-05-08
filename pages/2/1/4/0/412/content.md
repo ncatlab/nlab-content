@@ -154,7 +154,7 @@ This statement is called the [[homotopy hypothesis]] (which here is a theorem). 
 
 ### Relation between $Top_{Quillen}$ and $Top_{Strom}$
 
-The identity functor constritutes a [[Quillen adjunction]]
+The identity functor constitutes a [[Quillen adjunction]]
 
 $$
   (Id \dashv Id)
@@ -164,7 +164,7 @@ $$
    Top_{Quillen}
 $$
 
-between the [Quillen model structure](#QuillenModelStructure) and the [Strom model structure](#StromModelStructure) on $Top$. Here $Top_{Strom} \to Top_{Quillen}$ is the [[Quilen adjunction|right Quillen functor]].
+between the [Quillen model structure](#QuillenModelStructure) and the [Strom model structure](#StromModelStructure) on $Top$. Here $Top_{Strom} \to Top_{Quillen}$ is the [[Quillen adjunction|right Quillen functor]].
 
 
 ## References 
