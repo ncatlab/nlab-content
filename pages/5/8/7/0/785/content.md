@@ -33,6 +33,8 @@ For more details see [[homotopy limit]].
 
 ## Definition 
 
+### In category theory
+
 As with all homotopy limits, there is both a _local_ and a _global_ notion of homotopy pullback.
 
 The _global_ definition says that the homotopy pullback of a [[co-span|cospan]] $X \to Z \leftarrow Y$ in a [[category with weak equivalences]] $C$ is its image under the right [[derived functor]] of the [[base change]] functor $pb: C^{\to \leftarrow} \to C$.
@@ -64,6 +66,36 @@ between the space of maps $T\to P$ and the space of homotopy commutative squares
 In good situations, such as when $X,Y,Z$ are [[fibrant object|fibrant]] in a [[model category]], the two constructions agree up to weak equivalence.
 
 Note that in both cases, there is a canonical map from the actual pullback $X\times_Z Y$ to the homotopy pullback $X\times_Z^h Y$.  In the global case this comes by the definition of a derived functor; in the local case it comes because a commutative square is, in particular, a homotopy commutative one.
+
+### In homotopy type theory
+ {#InHomotopyTypeTheory}
+
+In [[homotopy type theory]] the homotopy pullback of a [[term]] of [[function type]] 
+
+$$
+  f : A \to C
+$$
+
+along a term of function type
+
+$$
+  g : B \to C
+$$
+
+is given formally by precisely the same formula that would also define the ordinary [[fiber product]] of functions of sets, namely by 
+
+$$
+  \left\{
+     a : A, b : B \;\; | \;\; f(a) = g(b)
+  \right\}
+  \,.
+$$
+
+Spelled out, this is the [[dependent sum]] over the [[dependent type|dependent]] [[identity type]] over the [[evaluation]] of $f$ and $g$.
+
+Formal discussion of this is in ([Brunerie](#Brunerie)).
+
+What in classical logic is interpreted as the set of pairs $(a,b)$ such that $f(a)$ and $g(b)$ are equal here becomes the restriction of a [[mapping cocylinder]].
 
 ## Properties
 
@@ -253,6 +285,7 @@ A proposal for a formalization of homotopy pushouts by [[higher inductive types]
 A [[homotopy type theory|HoTT]]-[[Coq]]-coding of homotopy pullbacks and pushouts is in 
 
 * [[Guillaume Brunerie]], _[HoTT/Coq/Limits/Pullbacks.v](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pullbacks.v)_
+ {#Brunerie}
 
 [[!redirects homotopy pullback]]
 [[!redirects homotopy pullbacks]]
