@@ -21,7 +21,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -38,10 +38,12 @@ Free loop space objects come naturally equipped with various structures of inter
 
 ## Definition
 
-+-- {: .un_defn}
+### In higher category theory
+
++-- {: .num_defn}
 ###### Definition
 
-In an [[(∞,1)-category]] $C$ with [[(∞,1)-pullback]]s, for $X \in C$ an [[object]], its **free loop space object** $\mathcal{L}X$ is the $(\infty,1)$-pullback
+In an [[(∞,1)-category]] $C$ with [[(∞,1)-pullbacks]], for $X \in C$ an [[object]], its **free loop space object** $\mathcal{L}X$ is the $(\infty,1)$-pullback of the [[diagonal]] along itself
 
 $$
   \array{
@@ -56,7 +58,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 
@@ -78,6 +80,36 @@ $$
 $$
 
 =--
+
+### In homotopy type theory
+
+In the literature (see [below](#References)) the free loop space object $\mathcal{L}X$ is sometimes described heuristically as: "a point of $\mathcal{L}X$ is a choice of making two points of $X$ equal in two ways." In terms of [[homotopy type theory]] this heuristics becomes a theorem. In that higher categorical logic we have the expression
+
+$$
+  \begin{aligned}
+    \mathcal{L}X 
+    & \coloneqq 
+    \left\{
+       x,y : X \;|\; (x = y) \, and\, (x = y) 
+    \right\}
+    \\
+    & =
+    \left\{
+       x,y : X \;|\; (x,x) = (y,y) 
+    \right\}
+  \end{aligned} 
+  \,.
+$$
+
+Here on the right we have
+
+1. the [[dependent sum]];
+
+1. over the [[identity type]] $Id (X \times X)$;
+
+1. of the [[product type]] $X \times X$.
+
+See the discussion at _[[homotopy pullback]]_ in the section _[Construction in homotopy type theory](http://ncatlab.org/nlab/show/homotopy+pullback#ConstructionInHomotopyTypeTheory)_ for how this is equivalent to the previous definition.
 
 ## Properties
 
@@ -157,7 +189,7 @@ $$
 
 #### As a mapping space object {#AsMappingSpaceObject}
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition/Proposition
 
 Write 
@@ -208,7 +240,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Informally the $(\infty,1)$-pushout $* \coprod_{* \coprod *} *$ may be thought of as 
@@ -236,7 +268,7 @@ This equivalent way of modelling the circle not as a single point with an automo
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 
@@ -256,7 +288,7 @@ This is discussed at [[(∞,1)-topos]] in the section <a href="http://ncatlab.or
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 There is a natural [[equivalence in an (∞,1)-category|equivalence]]
@@ -296,7 +328,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Corollary
 
 We have that the free loop space object of $X \in \mathbf{H}$ is equivalently the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">powering</a> of $X$ by the $\infty$-groupoid $S^1$:
@@ -328,7 +360,7 @@ $$
 $$
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The connected component of $[S^1,S^1]$ on the identity is equivalent to $S^1$
@@ -339,7 +371,7 @@ $$
 
 =--
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 
 We say that
@@ -431,7 +463,7 @@ as depicting the unit loop around the circle (on the left, say) and the result o
 
 > Exercise: spell out the above discussion analogously for the equivalent model given by the [[fundamental groupoid]] $\Pi_1(S^1)$ of the standard circle. The is the groupoid with $S^1_{Top}$ as its set of objects homotopy classes of paths in the circle as morphisms. In this model things look more like one might expect from a circle action. Notice that $\mathbf{B}\mathbb{Z}$ is the [[skeleton]] of $\Pi_1(S^1)$.
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 Consider $\mathbf{H} = $ [[∞Grpd]], $G$ a [[group]] and  $X = \mathbf{B}G$ the [[delooping groupoid]]. Then $\mathcal{L}X = G//_{Ad}G$ (as discussed in detail [below](#LoopsInBG)). A morphism $(g \stackrel{h}{\to} Ad_h a)$ in $G//G$ corresponds to a natural transformation
@@ -519,7 +551,7 @@ In [[Top]] the notion of free loop space objects reproduces the standard notion 
 
 Let the ambient [[(∞,1)-category]] be [[∞Grpd]], let $G$ be an ordinary [[group]] and $\mathbf{B}G$ its one-object [[delooping]] [[groupoid]]. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 We have that the [[loop groupoid]]
@@ -731,6 +763,7 @@ In the case that $G=GL(\infty;\mathbb{C})$, the compatibility of the trace with 
 
 
 ## References
+ {#References}
 
 Free loop space objects in the [[(∞,1)-topos]] of [[derived stack]]s on the site of [[differential graded algebra]]s are discussed in
 
@@ -740,6 +773,6 @@ More information in the topological case is given in:
 
 * [[Ronnie Brown]] _Crossed modules and the homotopy 2-type of a free loop space_, ([arXiv](http://arxiv.org/abs/1003.5617))
 
-which gives complete information on the 2-type of $LX$ for a space $X$ which is the classifying space of a crossed module of groups. This generalises the above example of  $ \mathcal{L} \mathbf{B}G$. 
+which gives complete information on the 2-type of $\mathcal{L}X$ for a space $X$ which is the classifying space of a crossed module of groups. This generalises the above example of  $ \mathcal{L} \mathbf{B}G$. 
 
 [[!redirects free loop space objects]]
