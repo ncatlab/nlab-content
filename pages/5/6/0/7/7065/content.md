@@ -124,7 +124,7 @@ The interpretation $[\hat a : isContr(A)]$ of a [[term]] of $isContr(A)$ is prec
 +-- {: .num_prop}
 ###### Proposition
 
-An interpreted term of $isContr(A)$ induces a [[contraction]] [[right homotopy]] of the object $A$, hence with [[diagrams]] in $\mathcal{C}$ of the form
+An interpreted term of $isContr(A)$ induces a [[contraction]] [[right homotopy]] of the object $A$, hence a [[diagram]] in $\mathcal{C}$ of the form
 
 $$
   \array{
@@ -137,7 +137,7 @@ $$
   \,,
 $$
 
-where $pt_a$ is a morphism of the form $A \to * \stackrel{a}{\to} A$. And every contraction right homotopy arises from a term.
+where $pt_a$ is a morphism of the form $A \to * \stackrel{a}{\to} A$; and every contraction right homotopy arises from a term.
 
 =--
 
