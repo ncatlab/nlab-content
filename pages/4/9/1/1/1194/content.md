@@ -38,7 +38,11 @@ $$
   Lan 
 $$
 
-There are many different versions of this adjunction, depending on what kind of type theory we consider and what structure we impose on the categories in question.  In each case, the [[left adjoint]] $Con$ assigns to a type theory $T$ the *[[category of contexts]]* of $T$, which has structure (such as [[limits]], [[colimits]], etc.) derived from the operations in the type theory, while the [[right adjoint]] $Lan$ assigns to a category $C$ a canonically defined type theory, called its *[[internal language]]*.
+There are many different versions of this adjunction, depending on what kind of type theory we consider and what structure we impose on the categories in question.  In each case
+
+* the [[left adjoint]] $Con$ assigns to a type theory $T$ the *[[category of contexts]]* of $T$ (a review is for instance in [Taylor](#Taylor) [section 2.8](www.paultaylor.eu/ASD/foufct/cattype.html)), which has structure (such as [[limits]], [[colimits]], etc.) derived from the operations in the type theory, 
+
+* the [[right adjoint]] $Lan$ assigns to a category $C$ a canonically defined type theory, called its *[[internal language]]* (a review is for instance in [Taylor 99](#Taylor99) [section 7.6](http://www.cs.man.ac.uk/~pt/Practical_Foundations/html/s76.html)).
 
 A *[[model]]* of a [[theory]] $T$ in a category $C$ is equivalently a [[functor]] $Con(T)\to C$ or a morphism of type theories $T \to Lan(C)$.  This means that every $T$ has a tautological model in $Con(T)$, and for every category $C$ there is a tautological model of $Lan(C)$ in $C$.  For the category theorist who is most accustomed to think about categories, it is natural to approach type theory by studying the structure of $Lan(C)$ and how it is interpreted in $C$ via this tautological model.  We will do this in this section somewhat informally; in the next section we give a more formal definition of type theories.
 
@@ -50,8 +54,11 @@ A couple of side notes for experts:
 
 
 ### The internal language of a category
+ {#TheInternalLanguageOfACategory}
 
-Given a [[category]] $\mathcal{C}$, we may speak about its **internal language** as a type theory.  There is a whole page on [[internal logic]], but here our goal is to exhibit it as a particular type theory, to help explain the meaning of type-theoretic notions.  The [[syntax|syntactic]] constructs corresponding to [[object]]s and [[morphism]]s are called _[[type]]s_ and _[[terms]]_, respectively. The types correspond to [[object]]s (with various subtleties), while the [[terms]] denote [[morphism]]s by using _[[variables]]_ to indicate [[domain]]s.  
+Given a [[category]] $\mathcal{C}$, we may speak about its **internal language** as a type theory (see e.g. in [Taylor](#Taylor), [section 2.8](www.paultaylor.eu/ASD/foufct/cattype.html)).  
+
+There is a whole page on [[internal logic]], but here our goal is to exhibit it as a particular type theory, to help explain the meaning of type-theoretic notions.  The [[syntax|syntactic]] constructs corresponding to [[object]]s and [[morphism]]s are called _[[type]]s_ and _[[terms]]_, respectively. The types correspond to [[object]]s (with various subtleties), while the [[terms]] denote [[morphism]]s by using _[[variables]]_ to indicate [[domain]]s.  
 
 #### Types, terms, and variables
 
@@ -515,6 +522,9 @@ Discussion of type theory in the context of programming languages includes
 * [[Benjamin Pierce]], _Types and Programming Languages_, [book page](http://www.cis.upenn.edu/~bcpierce/tapl/index.html)
 
 Discussion aimed at [[foundations]] include
+
+* [[Paul Taylor]], _Practical Foundations of Mathematics_ Number 59 in Cambridge Studies in Advanced Mathematics. Cambridge University Press (1999) ([webpage](http://www.cs.man.ac.uk/~pt/Practical_Foundations/html/))
+ {#Taylor99}
 
 * [[Paul Taylor]], _Foundations for computable topology_ ([web](http://www.paultaylor.eu/ASD/foufct/abstract.html))
  {#Taylor}
