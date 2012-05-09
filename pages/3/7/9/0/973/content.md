@@ -48,3 +48,9 @@ Springer-Verlag, New York, 1985, republished in:
 That not only every sketchable category is [[accessible category|accessible]] but that conversely every [[accessible category]] is sketchable is due to
 
 * Christian Lair, _Cat&#233;gories modelables et cat&#233;gories esquissables_, Diagrammes (1981).
+
+
+[[!redirects sketches]]
+
+[[!redirects finite limit sketch]]
+[[!redirects finite limit sketches]]
