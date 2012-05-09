@@ -97,7 +97,7 @@ We discuss the [[categorical semantics]] of contractible types.
 
 Let $\mathcal{C}$ be a [[locally cartesian closed category]] with [[categorical semantics of homotopy type theory|sufficient structure]] to intepret all the above type theory.  This means that $C$ has a [[weak factorization system]] with [[stable path objects]], and that [[acyclic cofibrations]] are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of [[coherence]], which are not important for this discussion.)
 
-In this [[categorical semantics]], the interpretation of a type $\dashv A : Type$ is a [[fibrant object]] $[\dashv A : Type]$, which for short we will just write $A$. The interpretation of the [[identity type]] $x,y : A \dashv (x = y) : Type$ is as the [[path space object]] $A^I \to A \times A$.
+In this [[categorical semantics]], the interpretation of a type $\vdash A : Type$ is a [[fibrant object]] $[\vdash A : Type]$, which for short we will just write $A$. The interpretation of the [[identity type]] $x,y : A \vdash (x = y) : Type$ is as the [[path space object]] $A^I \to A \times A$.
 The interpretation of $isContr(A)$ is the object obtained by taking the [[dependent product]] of the [[path space object]] along one [[projection]] $p_2 : A\times A\to A$ and then forgetting the remaining morphism to $A$.
 
 $$
