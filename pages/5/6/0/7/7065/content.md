@@ -97,7 +97,7 @@ We discuss the [[categorical semantics]] of contractible types.
 
 Let $\mathcal{C}$ be a [[locally cartesian closed category]] with [[presentation of homotopy type theory|sufficient structure]] to intepret all the above type theory.  This means that $C$ has a [[weak factorization system]] with [[stable path objects]], and that [[acyclic cofibrations]] are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of [[coherence]], which are not important for this discussion.)
 
-Then for a [[fibrant object]] $A$, the fibrant object $isContr(A)$ is obtained by taking the dependent product of the path-object $A^I \to A\times A$ along one projection $A\times A\to A$ (then forgetting the remaining map to $A$).
+Then for a [[fibrant object]] $A$, the fibrant object $isContr(A)$ is obtained by taking the dependent product of the [[path space object]] $A^I \to A\times A$ along one [[projection]] $p_2 : A\times A\to A$ (then forgetting the remaining map to $A$).
 
 This means that to give a [[global element]] of $isContr(A)$ is to give a global element $a\colon 1\to A$ together with a right [[homotopy]] relating the composite $A\to 1\to A$ to the identity.  Thus, $A\to 1$ is a (right) [[homotopy equivalence]], and hence (since $A$ is [[fibrant]]) an [[acyclic fibration]].
 
