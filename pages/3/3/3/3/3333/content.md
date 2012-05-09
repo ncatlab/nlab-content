@@ -82,6 +82,7 @@ $$
 =--
 
 ### In homotopy type theory
+ {#InHomotopyTypeTheory}
 
 In the literature (see [below](#References)) the free loop space object $\mathcal{L}X$ is sometimes described heuristically as: "a point of $\mathcal{L}X$ is a choice of making two points of $X$ equal in two ways." In terms of [[homotopy type theory]] this heuristics becomes a theorem. In that higher categorical logic we have the expression
 
