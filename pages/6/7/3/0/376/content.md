@@ -37,7 +37,7 @@ In particular, such pullbacks preserve all [[colimits]]. Therefore, if a locally
 
 We show how the [[dependent product]] and the [[internal hom]] in the [[slice categories]] may be used to express each other.
 
-+-- {: .num_prop}
++-- {: .num_prop #DependentProductImpliesLocalCartesinClosure}
 ###### Proposition
 
 Let $\mathcal{C}$ be a [[category]] with [[pullbacks]] that has all [[dependent products]] $\prod_\bullet$,  equivalently that every morphism $f : E \to X$ in $\mathcal{C}$ induces an [[adjoint triple]]
@@ -176,7 +176,20 @@ There are categories which are cartesian closed and not locally cartesian closed
 
 ## Examples
 
-* Every [[topos]] is locally cartesian closed.
++-- {: .num_prop}
+###### Proposition
+
+Every [[sheaf topos]] is locally cartesian closed.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [[Giraud's theorem]], in a sheaf topos [[pullbacks]] preserve [[colimits]].
+With the [[adjoint functor theorem]] this implies that for every morphism $f : X \to Y$, the pullback functor $f^* : \mathcal{C}_{/Y} \to \mathcal{C}_{/X}$ has a [[right adjoint]] $\prod_f$. By prop. \ref{DependentProductImpliesLocalCartesinClosure} this yields the local cartesian closure.
+ 
+=--
 
 ## Related concepts
 
