@@ -198,7 +198,9 @@ $$
   }
 $$
 
+### Of homotopy type theory
 
+See _[[categorical semantics of homotopy type theory]]_.
 
 ## References
 
