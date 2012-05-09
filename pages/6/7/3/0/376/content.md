@@ -140,10 +140,9 @@ $$
     \\
     * &\stackrel{}{\to}& \mathcal{C}_{/Y}(\langle F \stackrel{}{\to} Y\rangle,[\langle X \stackrel{f}{\to}Y \rangle,\langle X \stackrel{f}{\to}Y \rangle]_{\mathcal{C}_{/Y}})
   }
-  \,.
 $$
 
-Using the $((-) \times_{\mathcal{C}_{/Y}} \langle X \stackrel{f}{\to}Y\rangle \dashv [\langle X \stackrel{f}{\to}Y\rangle, -]_{\mathcal{C}_{/Y}})$-adjunction  this is equivalently
+in [[Set]]. Using the $((-) \times_{\mathcal{C}_{/Y}} \langle X \stackrel{f}{\to}Y\rangle \dashv [\langle X \stackrel{f}{\to}Y\rangle, -]_{\mathcal{C}_{/Y}})$-adjunction  this is equivalently
 
 $$
   \array{
