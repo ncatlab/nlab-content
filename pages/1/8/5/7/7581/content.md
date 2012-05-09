@@ -35,7 +35,7 @@ In ([Johnstone](#Johnstone)) this is example C3.2.24
 ## Related concepts
 
 * [[Hausdorff topological space]]
-
+* [[quasi-separated scheme]]
 * [[separated scheme]], [[separated morphism of schemes]]
 
 ## References
