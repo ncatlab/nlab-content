@@ -15,7 +15,7 @@
 
 ## Idea
 
-The classical _Heine--Borel theorem_ identifies those [[topological subspaces]] of [[Cartesian spaces]] that are [[compact space|compact]] in terms of simpler properties.  A generalisation applies to all [[metric spaces]] and even to [[uniform spaces]].
+The classical _Heine--Borel theorem_ identifies those [[topological subspaces]] of [[Cartesian spaces]] ($\mathbb{R}^n$s) that are [[compact space|compact]] in terms of simpler properties.  A generalisation applies to all [[metric spaces]] and even to [[uniform spaces]].
 
 
 ## Versions
@@ -25,7 +25,7 @@ This is the classical theorem:
 +-- {: .num_theorem #classical}
 ###### Theorem
 
-Let $S$ be a [[topological subspace]] $S \subset \mathbb{R}^n$ of a [[Cartesian space]].  Then $S$ is a [[compact topological space]] (with the [[induced topology]]) precisely if it is [[closed subset|closed]] and [[bounded subset|bounded]] in $\mathbb{R}^n$.
+Let $S$ be a [[topological subspace]] of a [[Cartesian space]] ($S \subset \mathbb{R}^n$).  Then $S$ is a [[compact topological space]] (with the [[induced topology]]) precisely if it is [[closed subset|closed]] and [[bounded subset|bounded]] in $\mathbb{R}^n$.
 =--
 
 It\'s easy to prove that $S$ is closed precisely if it is a [[complete metric space]] as with the induced [[metric]], and similarly $S$ is bounded precisely if it is [[totally bounded metric space|totally bounded]].  This gives the next version:
@@ -33,7 +33,7 @@ It\'s easy to prove that $S$ is closed precisely if it is a [[complete metric sp
 +-- {: .num_theorem #cartesian}
 ###### Theorem
 
-Let $S$ be a [[topological subspace]] $S \subset \mathbb{R}^n$ of a [[Cartesian space]].  Then $S$ is a [[compact topological space]] (with the [[induced topology]]) precisely if it is [[complete space|complete]] and [[totally bounded space|totally bounded]] (with the [[induced metric]]).
+Let $S$ be a [[topological subspace]] of a [[Cartesian space]] ($S \subset \mathbb{R}^n$).  Then $S$ is a [[compact topological space]] (with the [[induced topology]]) precisely if it is [[complete space|complete]] and [[totally bounded space|totally bounded]] (with the [[induced metric]]).
 =--
 
 This refers entirely to $S$ as a metric space in its own right.  In fact it holds much more generally than for subspaces of a cartesian space:
@@ -59,11 +59,11 @@ We could also try to generalise Theorem \ref{classical} to subspaces of other me
 
 ## Logical status
 
-In the old days, one called a closed and bounded [[interval]] in the [[real line]] 'compact'; once closedness and boundedness were generalised from intervals to arbitrary [[subsets]] (of the real line), the definition of 'compact' also generalised.  The content of the theorem, then, is that this condition is equivalent to the modern definition of 'compact' using [[open covers]], and indeed the definition was only derived afterwards as a name for the conclusion of the theorem.
+In the old days, one called a closed and bounded [[interval]] in the [[real line]] 'compact'; once closedness and boundedness were generalised from intervals to arbitrary [[subsets]] (of the real line), the definition of 'compact' also generalised.  The content of Theorem \ref{classical}, then, is that this condition is equivalent to the modern definition of 'compact' using [[open covers]], and indeed the modern definition was only derived afterwards as a name for the conclusion of the theorem.
 
-In [[constructive mathematics]], one sees several definitions of 'compact', which may make the theorem provable, refutable, or undecidable in various constructive systems.  In [[intuitionism]], Theorems \ref{classical} and \ref{cartesian} can be proved (using the [[fan theorem]]), but Theorems \ref{metric} and \ref{uniform} cannot, leading [[Jan Brouwer|Brouwer]] to *define* 'compact' (for a metric space) to mean complete and totally bounded.  In other literature, one sometimes sees the abbreviation 'CTB' used instead.  In [[Russian constructivism]], already Theorems \ref{classical} and \ref{cartesian} can be refuted, but CTB spaces are still important.
+In [[constructive mathematics]], one sees several definitions of 'compact', which may make the theorem provable, refutable, or undecidable in various constructive systems.  Using the open-cover definition of 'compact', Theorems \ref{classical} and \ref{cartesian} are equivalent to the [[fan theorem]] (and so hold in [[intuitionism]]), but Theorems \ref{metric} and \ref{uniform} are stronger and [[Jan Brouwer|Brouwer]] could not prove them, leading him to *define* 'compact' (for a metric space) to mean complete and totally bounded.  In other literature, one sometimes sees the abbreviation 'CTB' used instead.  In [[Russian constructivism]], already Theorems \ref{classical} and \ref{cartesian} can be refuted using the open-cover definition, but CTB spaces are still important.
 
-In [[locale theory]] and other approaches to [[pointless topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to a compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$, but constructively requires a more nuanced construction; see [Vickers](#CTBlocale).
+In [[locale theory]] and other approaches to [[pointless topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to a compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$ but constructively requires a more nuanced construction; see [Vickers](#CTBlocale).
 
 
 ## References
