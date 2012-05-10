@@ -1,13 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A [[dependent type|dependently type]] programming language. 
+A [[dependent type|dependently typed]] programming language with applications to [[certified programming]].
 
-Can be used to implement [[homotopy type theory]].
+Besides [[Coq]], Agda is one of the languages in which [[homotopy type theory]] has been implements ([Brunerie](#Brunerie)).
 
 ## Related concepts
 
@@ -15,4 +26,11 @@ Can be used to implement [[homotopy type theory]].
 
 ## References
 
+General information on Agda is at
+
 * [Agda Wiki](http://wiki.portal.chalmers.se/agda/pmwiki.php)
+
+A tutorial for use of Agda as an implementation of [[homotopy type theory]] is at
+
+* [[Guillaume Brunerie]], _Agda for homotopy type theory_ ([web](https://github.com/guillaumebrunerie/HoTT/tree/master/Agda/tutorial))
+ {#Brunerie}
