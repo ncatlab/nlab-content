@@ -114,3 +114,5 @@ See also:
 [[!redirects categorical logic]]
 [[!redirects categorial logic]]
 [[!redirects category-theoretic logic]]
+
+[[!redirects symbolic logic]]
