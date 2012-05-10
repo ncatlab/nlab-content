@@ -9,7 +9,7 @@
 =--
 =--
 
-This page is meant to be useful for readers who are interested in [[homotopy theory]] but not (necessarily) in [[homotopy type theory]] as such (its role as a [[symbolic logic]], etc.) but who do care learning about whatever new methods that make them be better homotopy theorists, any new insights into homotopy theory itself that could be gained by applying methods that originate in homotopy type theory. In other words, this page is meant to help answer the question:
+This page is meant to be useful for readers who are interested in [[homotopy theory]] but not (necessarily) in [[homotopy type theory]] as such (its role as a [[symbolic logic]], etc.) but who do care learning about whatever new methods that may make them be better homotopy theorists, and about any new insights into homotopy theory itself that could be gained by applying methods that originate in homotopy type theory. In other words, this page is meant to help answer the question:
 
 > I am a homotopy theorist; what can homotopy type theory do for me?
 
@@ -31,18 +31,11 @@ From the perspective of [[dependent type theory]] [[categories]] $\mathcal{C}$ a
 
 Many familiar constructions are usefully expressed entirely in terms of these adjoint triples. For instance the [[internal hom]] in a slice category. 
 
-## Formulas for (detecting) $n$-truncation
+## Formulas for homotopy pullbacks and homotopy fibers
 
-The central insight (due to [[Vladimir Voevodsky]]) that boosts dependent type theory with identity types to genuine homotopy type theory is that in terms of [[identity types]] there are simple natural expressions for [[n-truncated|n-truncation]] and detection of $n$-truncation of objects and morphisms. Translated via [[categorical semantics]] to [[homotopy theory]], these formulas turn out to refomulate some basic yoga of model category computation in a new way that hasn't received attention before in homotopy theory, emphasizing the base change adjoint triple. 
+The yoga of [[homotopy pullbacks]], [[homotopy fibers]], [[loop space objects]], [[fiber sequences]] etc. is basic to [[homotopy theory]], and of course is also fairly elementary. Homotopy type theory can hardly add a previously unknown fact here. Nevertheless, it is noteworthy that many of these constructions, elementary as they are, look _even simpler_ when formulated in homotopy type theory. The homotopy theorist may at least enjoy to see this elegance of formalism given to the basis of his field.
 
-1. detecting if an object $X$ is [[(-2)-truncated]] is naturally expressed by the [[isContr]]-operation  
-
-   $$
-     isContr(X) = \sum_{x : X} \prod_{y : X} (x = Y)
-     \,.
-   $$
-
-1. The [[homotopy pullback]] of two morphisms $f : A \to C$, $g : B \to C$ including the [[factorization lemma]] used to compute it for [[fibrant objects]], is naturally by the base change operation expressed by the formula
+1. The [[homotopy pullback]] of two morphisms $f : A \to C$, $g : B \to C$ including the [[factorization lemma]] used to compute it for [[fibrant objects]], is naturally given by the base change operation expressed by the formula
 
    $$
      f \times_C^h g \simeq \{ a : A, b : B | (f(a) = g(b)) \}
@@ -57,6 +50,19 @@ The central insight (due to [[Vladimir Voevodsky]]) that boosts dependent type t
      \,.
    $$
 
+1. [[pasting law]] (...)
+
+
+## Formulas for (detecting) $n$-truncation
+
+The central insight (due to [[Vladimir Voevodsky]]) that boosts dependent type theory with identity types to genuine homotopy type theory is that in terms of [[identity types]] there are simple natural expressions for [[n-truncated|n-truncation]] and detection of $n$-truncation of objects and morphisms. Translated via [[categorical semantics]] to [[homotopy theory]], these formulas turn out to refomulate some basic yoga of model category computation in a new way that hasn't received attention before in homotopy theory, emphasizing the base change adjoint triple. 
+
+1. detecting if an object $X$ is [[(-2)-truncated]] is naturally expressed by the [[isContr]]-operation  
+
+   $$
+     isContr(X) = \sum_{x : X} \prod_{y : X} (x = Y)
+     \,.
+   $$
 
 1. A morphism $f : E \to X$ is [[n-truncated]] if "all of its" [[homotopy fibers]] are $n$-truncated, where "all" is given by the dependent product.
 
@@ -65,5 +71,21 @@ The central insight (due to [[Vladimir Voevodsky]]) that boosts dependent type t
 1. In particular, it is an [[equivalence in an (infinity,1)-category]] if "all of" its homotopy fiber are contractible.
 
    $isEquiv(f) = ( \prod_{x : {X}} isContr(hfiber(f,x) )$.
+
+(...)
+
+## Specific HoTT proofs in homotopy theory
+
+We list in the following theorems in homotopy theory together with such proofs of them in terms of homotopy type theory language that are either new (to the best of our knowledge), or else that are at least considerably simpler than earlier proofs with traditional homotopy theory tools.
+
+
+
+### Essential uniquenes of group units
+
+(...)
+
+### Equivalence of notions of stabilizer $\infty$-groups
+
+(...) [...](http://nforum.mathforge.org/discussion/3454/stabilizer-subgroup/?Focus=28287#Comment_28287)
 
 (...)
