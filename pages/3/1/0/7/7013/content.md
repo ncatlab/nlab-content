@@ -42,6 +42,7 @@ For a locally presentable $(\infty,1)$-category $C$, the following are equivalen
 
 1. $C$ is locally cartesian closed.
 1. [[(∞,1)-colimit|(∞,1)-Colimits]] in $C$ are [[universal colimits|stable under pullback]].
+1. $C$ admits a presentation by a [[combinatorial model category|combinatorial]] [[locally cartesian closed model category]].
 1. $C$ admits a presentation by a [[right proper model category|right proper]] [[Cisinski model category]].
 1. $C$ admits a [[presentable (infinity,1)-category|presentation]] by a right proper left Bousfield localization of an injective model category of simplicial presheaves.
 
@@ -50,9 +51,9 @@ For a locally presentable $(\infty,1)$-category $C$, the following are equivalen
 ###### Proof
 Since [[left adjoints]] preserve colimits, the first condition implies the second.  The converse holds by the [[adjoint functor theorem]] since each slice of $C$ is locally presentable.
 
-Suppose $M$ is a right proper Cisinski model category.  Then pullback along a fibration preserves cofibrations (since they are the monomorphisms) and weak equivalences (since $M$ is right proper).  Since $M$ is a locally cartesian closed 1-category, pullback also has a right adjoint, so it is a [[Quillen adjunction|left Quillen functor]], and hence preserves [[homotopy colimits]].  Thus the third condition implies the second.
+Suppose $M$ is a right proper Cisinski model category.  Then pullback along a fibration preserves cofibrations (since they are the monomorphisms) and weak equivalences (since $M$ is right proper).  Since $M$ is a locally cartesian closed 1-category, pullback also has a right adjoint, so it is a [[Quillen adjunction|left Quillen functor]]; thus the fourth condition implies the third.  Since left Quillen functors preserve homotopy colimits, the third condition implies the second.
 
-Clearly the fourth condition implies the third, so it suffices to show that the second condition implies the fourth.  For that, see [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306) by [[Denis-Charles Cisinski]].
+Clearly the fifth condition implies the fourth, so it suffices to show that the second condition implies the fifth.  For that, see [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306) by [[Denis-Charles Cisinski]].
 
 =--
 
