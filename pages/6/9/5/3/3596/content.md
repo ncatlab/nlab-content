@@ -126,27 +126,83 @@ This has none of the bad consequences of definitional $\eta$-conversion, and in 
 
 ## Categorical semantics
 
-When type theory is considered as an internal language for various kinds of categories, identity types play an important role.
+We discuss the [[categorical semantics]] for identity types in the extensional case, and identity types in the [[categorical semantics of homotopy type theory]] in the intensional case.
 
-In categorical models of [[extensional type theory]], generally every morphism of the category is allowed to represent a dependent type, and the extensional identity types are represented by [[diagonal]] maps $A\to A\times A$.
+In categorical models of [[extensional type theory]], generally every [[morphism]] of the category is allowed to represent a [[dependent type]], and the extensional identity types are represented by [[diagonal]] maps $A\to A\times A$.
 
 By contrast, in models of [[intensional type theory]], there is only a particular class of [[display maps]] or [[fibrations]] which are allowed to represent dependent types, and intensional identity types are represented by [[path objects]] $P A \to A \times A$.
 
 Both of these cases apply in particular to models in the [[category of contexts]] of the type theory itself, i.e. the [[term model]].
 
-### WFS, Stability, and Coherence
+### Weak factorization systems, Stability, and Coherence
 
-By the standard construction of [[mapping path spaces]] out of path objects, the existence of identity types allows one to construct a [[weak factorization system]].
+By the standard construction of [[mapping path spaces]] out of 
+[[path space objects]], the existence of identity types allows one to construct a [[weak factorization system]].
 
 Conversely, since any weak factorization system gives rise to [[path objects]] by factorization of [[diagonal maps]], one may hope to construct a [[model]] of type theory with identity types in a category equipped with a WFS $(L,R)$.  There are four obstacles in the way of such a construction.
 
 1. In order to handle the additional [[context]] $\Delta$ in the explicit definition above, it turns out to be necessary to assume that $L$-maps are preserved by [[pullback]] along $R$-maps between $R$-objects.  (Such a condition is also necessary in order to interpret type-theoretic [[dependent products]] in a [[locally cartesian closed category]].)
 
-1. This enables us to define identity types with their elimination and computation rules "locally", i.e. for each type individually.  However, every construction in type theory is stable under substitution.  This means that if $y\colon Y\vdash A(y)\colon Type$ is a dependent type and $f\colon X\to Y$ is a morphism, then the identity type $x\colon X \vdash Id_{A(f(x))}(-,-)\colon Type$ is the same whether we first construct $Id_{A(y)}$ and then substitute $f(x)$ for $y$, or first substitute $f(x)$ for $y$ to obtain $A(f(x))$ and then construct its identity type.  In order for this to hold up to isomorphism, we need to require that the WFS have *stable path objects* --- a choice of path object data in each slice category which is preserved by pullback.  In [(Warren)](#Warren) it is shown that any [[simplicial model category]] in which the [[cofibrations]] are the [[monomorphisms]] can be equipped with stable path objects, while [(Garner-van den Berg)](#vdBergGarner) it is shown that the presence of internal path-categories also suffices.
+1. This enables us to define identity types with their elimination and computation rules "locally", i.e. for each type individually.  However, every construction in type theory is stable under [[substitution]].  This means that if $y\colon Y\vdash A(y)\colon Type$ is a dependent type and $f\colon X\to Y$ is a morphism, then the identity type $x\colon X \vdash Id_{A(f(x))}(-,-)\colon Type$ is the same whether we first construct $Id_{A(y)}$ and then substitute $f(x)$ for $y$, or first substitute $f(x)$ for $y$ to obtain $A(f(x))$ and then construct its identity type.  In order for this to hold up to isomorphism, we need to require that the WFS have *stable path objects* --- a choice of path object data in each slice category which is preserved by pullback.  In [(Warren)](#Warren) it is shown that any [[simplicial model category]] in which the [[cofibrations]] are the [[monomorphisms]] can be equipped with stable path objects, while [(Garner-van den Berg)](#vdBergGarner) it is shown that the presence of internal path-categories also suffices.
 
 1. The eliminator term $J$ of identity types in type theory is also preserved by substitution.  This imposes an additional *[[coherence]]* requirement which is tricky to obtain categorically.  See the references by [Warren](#Warren) and [Garner-van den Berg](#vdBergGarner) for methods that ensure this, such as by invoking an [[algebraic weak factorization system]].  It can also be handled *a la* [[Vladimir Voevodsky|Voevodsky]] by using a (possibly [[univalence axiom|univalent]]) [[universe]].
 
 1. Finally, substitution in type theory is strictly functorial/[[associativity|associative]], whereas it is modeled categorically by pullback which is generally not strictly so.  This is a general issue with the categorical interpretation of [[dependent type theory]], not something specific to identity types.  It can be resolved by passing to a [[split fibration]] which is equivalent to the [[codomain fibration]], or by making use of a [[universe]].
+
+But assume then that a category $\mathcal{C}$ with suitable WFSs has been chosen, for instance a [[type-theoretic model category]]. Then
+
+* The interpretation of a type $ \vdash A : Type$ is as a [[fibrant object]] $[\vdash A : Type]$ which we will just write "$A$" for short. 
+
+* **type formation** 
+  
+  The identity type $a, b : A \vdash Id_A(a,b) : Type$ is interpreted as [[generalized the|the]] [[path space object]] [[fibration]] 
+  
+  $$
+    \array{
+       A^I
+       \\
+       \downarrow
+       \\
+       A \times A
+    }
+  $$
+
+* **term introduction**
+
+  By definition of [[path space object]], there exists a lift $\sigma$ in 
+  
+  $$
+    \array{
+       && A^I
+       \\
+       & {}^{\mathllap{\sigma}}\nearrow& \downarrow
+       \\
+       A &\stackrel{(id,id)}{\to}& A \times A
+    }
+    \,.
+  $$
+
+  By the [[universal property]] of the [[pullback]] this is equivalently a [[section]] of the [[pullback]] of the path space object along the [[diagonal]] morphism $(id,id) : A \to A \times A$.
+
+  $$
+    \array{
+       && (id,id)^* A^I &\to& A^I
+       \\
+       &{}^{\mathllap{\sigma}}\nearrow& \downarrow & & \downarrow
+       \\
+       A &=& A &\stackrel{(id,id)}{\to}& A \times A
+    }
+    \,.
+  $$
+
+  Since $(id, id)^* A^I$ is the interpretation of the [[substitution]]  
+  $a : A \vdash Id_A (a,a) : Type$ in this sense $\sigma$ is now the interpretation of a term $a : A \vdash r_A : Id_A (a,a)$. 
+
+* **term elemination**
+
+  (...)
+
+
 
 ### Weak $\omega$-groupoids
 
