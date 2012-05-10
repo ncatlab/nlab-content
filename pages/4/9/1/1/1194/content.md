@@ -502,7 +502,9 @@ Original articles include
 
 * [[Per Martin-Löf]], _Intuitionistic type theory_, Studies in Proof Theory 1, Bibliopolis, Naples, 1984.
 
-* [[Bart Jacobs]], _Categorical Logic and Type Theory_, Studies in Logic and the Foundations of Mathematics 141, North Holland, Elsevier, 1999.
+* [[Bart Jacobs]], _Categorical Logic and Type Theory_, Studies in Logic and the Foundations of Mathematics 141, North Holland, Elsevier (1999) 
+
+  _Categorical Type Theory_ PhD. Thesis, University of Nijmegen (1991) ([ps](http://www.cs.ru.nl/B.Jacobs/PAPERS/PhD.ps) [[JacobsCategoricalTypeTheory.pdf:file]])
 
 * [[Thomas Streicher]], _Investigations into intensional type theory_, habilitation 2003, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf); 
 
@@ -538,6 +540,7 @@ Discussion aimed towards [[homotopy type theory]] includes
 
 * [type-theory questions](http://mathoverflow.net/questions/tagged/type-theory) on MathOverflow
 * [type-theory questions](http://cstheory.stackexchange.com/questions/tagged/type-theory) on CS StackExchange
+
 
 
 [[!redirects type theories]]
