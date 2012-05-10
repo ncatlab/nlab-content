@@ -85,6 +85,8 @@ such that these operations are all compatible with each other in the way governe
 
 * A [[Fermat theory]] is a Lawvere theory equipped with a notion of differentiation.
 
+* A finite-product theory can also be presented without including all the products of the basic types as actual objects.  This yields the notion of [[cartesian multicategory]].
+
 ## Examples
 
 ### The theory of sets {#TheoryOfSets}
