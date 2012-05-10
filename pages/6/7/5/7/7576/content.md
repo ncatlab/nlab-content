@@ -16,7 +16,7 @@
 
 ## Idea
 
-Many aspects of the theory of "[[topological strings]]" (the [[A-model]] and the [[B-model]]) proceed in close analogy (just simpler) to the "physical" [[string theory]]. Accordingly, as the latter can usefully be organized as the dimensional reduction of a conjectured [[UV-completion]] of [[11-dimensional supergravity]] -- "M-theory" -- there seems to be an analogous higher dimensional organizational principle for topological strings, hence termed _topological M-theory_.
+Many aspects of the theory of "[[topological strings]]" (the [[A-model]] and the [[B-model]]) proceed in close analogy (just simpler) to the "physical" [[string theory]]. Accordingly, as the latter can usefully be organized as the dimensional reduction of a conjectured [[UV-completion]] of [[11-dimensional supergravity]] -- [[M-theory]] -- there seems to be an analogous higher dimensional organizational principle for topological strings, hence termed _topological M-theory_.
 
 One way to understand it is as a [[TQFT]]-analog of the [[M2-brane]] [[sigma-model]], the "topological membrane".
  
