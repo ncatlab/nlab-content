@@ -1,0 +1,18 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A certification of a computer program is a formalized guarantee -- a [[proof]] -- that the output of the program has given specified properties -- that it is of a specified [[type]].
+
+Therefore programming languages supporting certified programming are naturally based on [[type theory]]. Examples are _[[Coq]]_ or _[[Agda]]_.
+
+## References
+
+* [[Adam Chlipala]], _Certified programming with dependent types_ ([web](http://adam.chlipala.net/cpdt/))
+
+* [[Adam Chlipala]], _Implementing Certified Programming Language Tools in Dependent Type Theory_ PhD (2007) ([web](http://adam.chlipala.net/papers/ChlipalaPhD/))
+ 
