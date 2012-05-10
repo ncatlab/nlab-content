@@ -93,9 +93,11 @@ $$
 
 Spelled out, this is the [[dependent sum]] over the [[dependent type|dependent]] [[identity type]] over the [[evaluation]] of $f$ and $g$.
 
-Formal discussion of this is in ([Brunerie](#Brunerie)).
 
 What in classical logic is interpreted as the set of pairs $(a,b)$ such that $f(a)$ and $g(b)$ are equal here becomes the restriction of a [[mapping cocylinder]].
+
+
+Formal proof that this is the homotopy pullback in homotopy type theory is in ([Brunerie](#Brunerie)). Proof in the [[categorical semantics of homotopy type theory]] is [below](#ConstructionInHomotopyTypeTheory).
 
 
 ## Concrete constructions
