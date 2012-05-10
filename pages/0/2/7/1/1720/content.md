@@ -363,8 +363,32 @@ The proof for the second statement is the precise formal dual.
 
 =--
 
+### Slice categories
+
+For any model category $M$, and any morphism $f\colon A\to B$, the adjunction
+$$ \Sigma_f : M/A \rightleftarrows M/B : f^* $$
+is a [[Quillen adjunction]].  If this adjunction is a [[Quillen equivalence]], then $f$ must be a weak equivalence.  In general, the converse can be proven only if $A$ and $B$ are fibrant.
+
++-- {: .num_theorem #ViaSliceCategories}
+###### Theorem
+The following are equivalent:
+
+1. $M$ is right proper.
+1. If $f$ is any weak equivalence in $M$, then $\Sigma_f \dashv f^*$ is a Quillen equivalence.
+=--
+
+In other words, $M$ is right proper iff all slice categories have the "correct" Quillen equivalence type.
+
+Since whether or not a Quillen adjunction is a Quillen equivalence depends only on the classes of weak equivalences, not the fibrations and cofibrations, it follows that being right proper is really a property of a [[homotopical category]].  In particular, if one model structure is right proper, then so is any other model structure on the same category with the same weak equivalences.
+
+See [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041294).
 
 
+### Local cartesian closure
+
+Since most well-behaved model categories are equivalent to a model category in which all objects are fibrant --- namely, the model category of [[algebraically fibrant objects]] --- they are in particular equivalent to one which is right proper.  Thus, right properness by itself is not a property of an $(\infty,1)$-category, only of a particular presentation of it via a model category.
+
+However, if a [[Cisinski model category]] is right proper, then the $(\infty,1)$-category which it presents must be [[locally cartesian closed (∞,1)-category|locally cartesian closed]].  Conversely, any locally cartesian closed (∞,1)-category has a presentation by a right proper Cisinski model category; see [[locally cartesian closed (∞,1)-category]] for the proof.
 
 
 ## References ##
