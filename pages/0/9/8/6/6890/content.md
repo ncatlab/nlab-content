@@ -14,7 +14,7 @@
 
 ## Idea
 
-The computer software _Coq_ is a formal [[proof]] management system. It provides a formal language to write mathematical [[definition]]s, executable [[algorithm]]s and [[theorem]]s together with an environment for semi-interactive development of machine-checked [[proof]]s. 
+The computer software _Coq_ is a formal [[proof]] management system. It provides a formal language to write mathematical [[definition]]s, executable [[programs]] and [[theorems]] together with an environment for semi-interactive development of machine-checked [[proofs]], i.e. for [[certified programming]]. 
 
 Coq is named after [[Thierry Coquand]], and follows a tradition of naming languages after animals (compare OCaml).
 
