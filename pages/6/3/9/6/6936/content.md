@@ -18,7 +18,7 @@
 
 *Higher inductive types* (HITs) are a generalization of [[inductive types]] which allow the constructors to produce, not just points of the type being defined, but also elements of its iterated [[identity types]].
 
-While HITs are already useful in [[extensional type theory]], they are most useful and powerful in [[homotopy type theory]], where they allow the construction of cell complexes, colimits, truncations, localizations, and many other objects from classical [[homotopy theory]].
+While HITs are already useful in [[extensional type theory]], they are most useful and powerful in [[homotopy type theory]], where they allow the construction of [[cell complexes]], [[homotopy colimits]]], [[n-truncated|truncations]], [[Bousfield localization of model categories|localizations]], and many other objects from classical [[homotopy theory]].
 
 ## Examples
 
@@ -202,5 +202,7 @@ Expositions include
 * [[Peter LeFanu Lumsdaine]], _Higher inductive types, a tour of the menageries_ ([blog post](http://homotopytypetheory.org/2011/04/24/higher-inductive-types-a-tour-of-the-menagerie/))
 
 * [[Peter LeFanu Lumsdaine]], _Higher Inductive Types: The circle and friends, axiomatically_ ([pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS2011/Lumsdaine_slides.pdf))
+
+* [[Mike Shulman]], _Inductive and higher inductive types_ talk slides (2012) ([pdf](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/04induction.pdf))
 
 [[!redirects higher inductive types]]
