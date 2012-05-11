@@ -1,0 +1,6 @@
+* Oliver Lorscheid, _The geometry of blueprints. Part I: Algebraic background and scheme theory_, [arxiv/1103.1745](http://front.math.ucdavis.edu/1103.1745); _Blueprints - towards absolute arithmetic?_, [arxiv/1204.3129](http://front.math.ucdavis.edu/1204.3129)
+
+Spectra of blueprints glue to __blue schemes__ similarly like spectra of rings glue to [[algebraic scheme]]s. Blue schemes interpolate between the usual schemes and schemes over $\mathbf{F}_1$, i.e. [[absolute geometry]].
+
+[[!redirects blue scheme]]
+ 
