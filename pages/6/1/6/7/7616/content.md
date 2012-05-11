@@ -2,5 +2,7 @@
 
 Spectra of blueprints glue to __blue schemes__ similarly like spectra of rings glue to [[algebraic scheme]]s. Blue schemes interpolate between the usual schemes and schemes over $\mathbf{F}_1$, i.e. [[absolute geometry]].
 
+* some speculations on application of Reineke's theorem on quiver Grassmanians for the world of blue schemes and $\mathbf{F}_1$-schemes: [Lieven's blog](http://www.neverendingbooks.org/index.php/quiver-grassmannians-and-mathbbf_1-geometry.html)
+
 [[!redirects blue scheme]]
  
