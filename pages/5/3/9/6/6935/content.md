@@ -380,14 +380,85 @@ The categorical interpretation of this is as a morphism $p : \mathbb{N} \to P$ i
 
 
 ### Identity types
+ {#IdentityTypes}
+
+The introduction, elimination and computation rules for _[[identity types]]_ are discussed there.
 
 In [[Coq]]-[[syntax]] the [[identity types]] are the inductive types (or more precisely, the inductive *family*) defined by
 
     Inductive id {A} : A -> A -> Type := 
       idpath : forall x, id x x.
 
-This is the "initial algebra" for the endofunctor of the [[slice category]] over $A\times A$ which is constant at the [[diagonal]] $A\to A\times A$.
+#### Categorical semantic
 
+We may [[categorical semantics|interpret]] identity types in suitable categories $\mathcal{C}$ such as a [[type-theoretic model category]].
+
+The [[categorical semantics|categorical interpretation]] of identity types in a category $\mathcal{C}$ is as   [[initial algebra of an endofunctor|initial algebra]] for the [[endofunctor]] 
+
+$$
+  F : \mathcal{C}_{/A \times A} \to 
+  \mathcal{C}_{/A \times A}
+$$
+
+of the [[slice category]] $\mathcal{C}_{/A \times A}$ over $A\times A$ which is constant at the [[diagonal]] $A\to A\times A$:
+
+$$
+  F (\langle E \to A \times A\rangle) = \langle A \stackrel{\Delta}{\to} A \times A\rangle
+  \,.
+$$
+
+So an [[algebra for an endofunctor|algebra]] for this endofunctor is a morphism
+
+$$
+  \array{
+    A &&\to&& E
+    \\
+    & {}_{\mathllap{\Delta}}\searrow && \swarrow
+    \\
+    && A \times A
+  }
+$$
+
+and the [[initial object|initial]] such is the [[path space object]] $A^I \to A \times A$.
+
+#### Induction
+
+The [[induction principle]] for [[identity types]] is the principle of "substitution of equals for equals" or the like.
+
+To have an $F$-algebra $\langle E \to A\times A\rangle$ over $\langle A^I \to A \times A\rangle$ means precisely to have a diagram
+
+$$
+  \array{
+    && E 
+    \\
+    & \nearrow& \downarrow
+    \\
+    A &\to& A^I
+    \\
+    &\searrow& \downarrow
+    \\
+    && A \times A
+  }
+$$
+ 
+in $\mathcal{C}$.
+
+This is the interpretation of the elimination rule: $E \to A^I$ is the interpretation of a type 
+
+$$
+  a,b \in A , p : (a = b) \vdash E(a,b,p)
+$$
+
+and the lift $A \to E$ is a [[section]] of the [[pullback]] of $E$ to $A$, hence an interpretation of a [[term]] in the [[substitution]]
+
+$$
+  s : E(a,a,r_a)
+  \,.
+$$
+
+The elimination rule then says that this extends to a section $A^I \to E$, hence a "proof of $E$ over all identifications" $a = b$.
+
+(...)
 
 ## Related concepts
 
