@@ -17,11 +17,13 @@
 
 ## Definition 
 
- ... [[quasi-category]] ... Joyal's [[model structure for quasi-categories]] ...
+An [[(∞,1)-functor]] between [[(∞,1)-categories]] is an _[[equivalence in an (∞,1)-category|equivalence]]_ in [[(∞,1)Cat]] precisely if it is an [[essentially surjective (∞,1)-functor]] and a [[full and faithful (∞,1)-functor]].  
+
+When [[(∞,1)-categories]] are presented by [[quasi-categories]], an equivalence between them is presented by a [[weak equivalence]] in the  [[model structure for quasi-categories]].
 
 ## Properties 
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 An [[(∞,1)-functor]] $f : C \to D$ is an **equivalence** in [[(∞,1)Cat]] if  the following equivalent conditions hold
