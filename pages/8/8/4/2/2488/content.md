@@ -137,9 +137,10 @@ Notice that this expected statement does require the assumption that $X$ is $k$-
 
 ## Properties
 
-### Recursive definition {#RecursiveDefinition}
+### Recursive definition 
+ {#RecursiveDefinition}
 
-+-- {: .num_prop}
++-- {: .num_prop #DiagonalCharacterization}
 ###### Proposition
 
 In an $(\infty,1)$-category $C$ with [[finite limits]], a morphism
@@ -634,6 +635,42 @@ This shows that $KanCplx_{n+1}$ is indeed a full [[sub-(∞,1)-category]] of $Ka
 Moreover, by the fact discussed at <a href="http://ncatlab.org/nlab/show/adjoint+(infinity%2C1)-functor#SimplicialAndDerived">Simplicial and derived adjunctions</a> at [[adjoint (∞,1)-functor]] we have that the [[sSet]]-enriched adjunction $(tr_{n+1} \dashv cosk_{n+1})$ on $KanCplx$ indeed presents a pair of [[adjoint (∞,1)-functor]]s on [[∞Grpd]]. So $tr_{n+1} : KanCplx \to KanCplx$ indeed presents the [[left adjoint]] $\tau_{\leq} : \infty Grpd \to n Grpd$ to the inclusion $n Grpd \hookrightarrow \infty Grpd$.
 
 =--
+
+### Diagonals
+ {#DiagonalExamples}
+
++-- {: .num_example}
+###### Example
+
+In ordinary [[category theory]] we have that a morphism is a
+[[monomorphism]] (as discussed there), precisely if its [[diagonal]] is an [[isomorphism]]. Embedded into [[(∞,1)-category]] this becomes 
+the special case of prop. \ref{DiagonalCharacterization}
+for $n = 0$: a morphism is (-1)-truncated 
+(hence a [[monomorphism in an (∞,1)-category]]), precisely
+if its diagonal is (-2)-truncated (hence an [[equivalence in an (∞,1)-category]]).
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Let $X$ be an object that is $n$-truncated. This means that 
+$X \to *$ is an $n$-truncated morphism. So by 
+prop. \ref{DiagonalCharacterization} the [[diagonal]] on
+that object
+
+$$
+  \Delta : X \to X \times X
+$$
+
+is an $(n-1)$-truncated morphism, and precisely if it is $(n-1)$-truncated is $X$ $n$-truncated.
+
+In particular, the diaginal is a [[monomorphism in an (∞,1)-category]], 
+hence (-1)-truncated, precisely if $X$ is $0$-truncated (an [[h-set]]). 
+
+=--
+
 
 ## Related concepts
 
