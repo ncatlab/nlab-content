@@ -5,11 +5,31 @@
 
 ## Idea
 
-In the [[category]] [[Set]], the [[initial algebra]] [[algebra for an endofunctor|for the endofunctor]] $F: X \to 1 + X$ is $\langle 0, s \rangle : 1 + \mathbb{N} \to \mathbb{N}$, where $\mathbb{N}$ is the set of [[natural numbers]], $0$ is the smallest natural number, and $s$ is the [[successor]] operation. The principle of induction states that there is no proper [[subobject|subalgebra]] of $\mathbb{N}$; that is, the only subalgebra is $\mathbb{N}$ itself. This follows from the general property of [[initial objects]] that [[monomorphisms]] to them are [[isomorphisms]].
+The **principle of induction** says that if a [[proposition]] $n \in \mathbb{N} \vdash P(n)$ that [[dependent type|depends]] on the [[natural numbers]] has the property that 
 
-More generally, the corresponding property of any initial algebra may be called __induction__. We then have induction over [[lists]], [[trees]], terms in a [[logic]], and so on.
+1. it is [[true]] for $0 \in \mathbb{N}$;
+
+1. if it is true for $n \in \mathbb{N}$ then it is true for $n+1$;
+
+then it is true for every $n \in \mathbb{N}$.
+
+When formulated in one of the formalizations below, one finds that this principle is but the simplest special case of a very general notion of induction over _[[inductive types]]_. Other examples are induction over [[lists]], [[trees]], terms in a [[logic]], and so on.
+
 
 The [[duality|dual]] notion is that of _[[coinduction]]_.
+
+
+## Formalization
+
+### By initial algebras over endofunctors
+
+The induction principle my neatly be formalized in terms of the notion of [[initial algebras of an endofunctor]].
+
+In the [[category]] [[Set]], the [[initial algebra]] [[algebra for an endofunctor|for the endofunctor]] $F: X \to 1 + X$ is $\langle 0, s \rangle : 1 + \mathbb{N} \to \mathbb{N}$, where $\mathbb{N}$ is the set of [[natural numbers]], $0$ is the smallest natural number, and $s$ is the [[successor]] operation. 
+
+In terms of this the **principle of induction** is equivalent to saying that there is no proper [[subobject|subalgebra]] of $\mathbb{N}$; that is, the only subalgebra is $\mathbb{N}$ itself. This follows from the general property of [[initial objects]] that [[monomorphisms]] to them are [[isomorphisms]].
+
+
 
 ## Related concepts
 
@@ -22,3 +42,6 @@ The [[duality|dual]] notion is that of _[[coinduction]]_.
 * Bart Jacobs, Jan Rutten, _A tutorial on (Co)Algebras and (Co)Induction_ ([pdf](http://www.cs.ru.nl/~bart/PAPERS/JR.pdf))
 
 [[!redirects inductions]]
+
+[[!redirects induction principle]]
+[[!redirects principle of induction]]
