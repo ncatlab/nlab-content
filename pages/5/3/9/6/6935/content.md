@@ -93,7 +93,7 @@ For the special case that $B \to W$ is a [[projection]] $p_1 : W \times A \to W$
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #BothFormulationsOfInitialityAreEquivalent}
 ###### Proposition
 
 When interpreted in a category $\mathcal{C}$ of [[homotopy type|homotopy 0-types]] = sets,
@@ -158,6 +158,50 @@ of $F$-[[algebra for an endofunctor|algebra]] maps $W \to X$ is
 ## Examples
 
 ### Natural numbers
+ {#NaturalNumbers}
+
+#### Introduction, elimination, computation
+
++-- {: .num_defn #InterpretationOfTheRules}
+###### Definition
+
+The [[type of natural numbers]] $\mathbb{N}$ is the inductive type defined as follows.
+
+1. **introduction rule**
+
+   $$
+     \frac{}{0 \in \mathbb{N}}
+     \;\;
+     \frac{n \in \mathbb{N}}{s(n) \in \mathbb{N}}
+   $$
+
+1. **elimination rule**
+
+   $$
+     \frac{
+        \left(
+        x \in \mathbb{N} \vdash  P(x) : Type
+        \;\;
+        \vdash p_0 : C(0)
+        \;\;\;
+        x \in \mathbb{N}, p : C(x) \vdash p : P(s x)
+       \right)
+       \;\;
+       \vdash n \in \mathbb{N}
+     }{
+       p(n) : P(n)
+     }
+   $$
+
+   (check, this probably still has syntax errors...)
+   
+1. **computation rule**
+
+   (...)
+
+=--
+
+See for instance ([Pfenning, section 2](#Pfenning)).
 
 In [[Coq]]-[[syntax]] the [[natural numbers]] are the inductive type defined by
 
@@ -180,14 +224,160 @@ $$
   \,.
 $$
 
-That [[initial algebra for an endofunctor|initial algebra]] is (as explained there) precisely a [[natural number object]] $\mathbb{N}$. The two components of the morphism $F(\mathbb{N}) \to \mathbb{N}$ that defines the algebra structure are the 0-[[generalized element|element]] $zero : * \to X$ and the successor [[endomorphism]] $successor : X \to X$
+That [[initial algebra for an endofunctor|initial algebra]] is (as explained there) precisely a [[natural number object]] $\mathbb{N}$. The two components of the morphism $F(\mathbb{N}) \to \mathbb{N}$ that defines the algebra structure are the 0-[[generalized element|element]] $zero : * \to \mathbb{N}$ and the successor [[endomorphism]] $successor : \mathbb{N} \to \mathbb{N}$
 
 $$
-  (zero,successor) : * \coprod X \to X
+  (zero,successor) : * \coprod \mathbb{N} \to \mathbb{N}
   \,.
 $$
 
-The [[initial object|initiality]] of this object is the classical [[induction principle]] (...). 
+In the following we write of course for short $0 : * \to \mathbb{N}$ and $s : \mathbb{N} \to \mathbb{N}$.
+
+#### Induction
+
++-- {: .num_example}
+###### Example
+
+We spell out in detail how the [[initial object|initiality]] of this object is the classical [[induction principle]]. 
+
+That principle says informally that if a [[proposition]] $P$ depending on the natural numbers is true at $n = 0$ and such that if it is true for some $n$ then it is true for $n+1$, then it is true for all natural numbers.
+ 
+Here is how this is formalized in type theory and then [[categorical semantics|interpreted]] in some suitable ambient category $\mathcal{C}$.
+
+First of all, that $P$ is a proposition depending on the natural numbers means that it is a [[dependent type]]
+
+$$
+  n \in \mathbb{N} \vdash P(n) : Type
+  \,.
+$$ 
+
+The categorical interpretation of this is by a [[display map]]
+
+$$
+  \array{
+     P 
+     \\
+     \downarrow
+     \\
+     \mathbb{N}
+  }
+$$
+
+in the given category $\mathcal{C}$.
+
+Next, the fact that $P$ holds at 0 means that there is a ([[proof]]-)[[term]]
+
+$$
+  \vdash p_0 \in P(0)
+  \,.
+$$
+
+In the categorical semantics the [[substitution]] of $n$ for 0 that gives $P(0)$ is given by the [[pullback]] of the above fibration
+
+$$
+  \array{
+    0^* P &\to& P
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\stackrel{0}{\to}& \mathbb{N}
+  }
+$$
+
+and the [[term]] $p_0$ is interpreted as a [[section]] of the resultig fibration over the terminal object
+
+$$
+  \array{
+    * &\stackrel{p_0}{\to}& 0^* P &\to& P
+    \\
+    &\searrow& \downarrow && \downarrow
+    \\
+    && * &\stackrel{0}{\to}& \mathbb{N}
+  }
+  \,.
+$$
+
+But by the defining [[universal property]] of the pullback, this is equivalently just a [[commuting diagram]]
+
+$$
+  \array{
+    * &\stackrel{p_0}{\to}& P
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\stackrel{0}{\to}& \mathbb{N}
+  }
+  \,.
+$$
+
+Next the induction step. Formally it says that for all $n \in \mathbb{N}$ there is an [[implication]] $p_s(n) : P(n) \to P(n+1)$
+
+$$
+  n \in \mathbb{N} \vdash p_s(n)  : P(n) \to   P(n+1)
+$$
+
+The categorical semantics of the [[substitution]] of $n+1$ for $n$ is now given by the [[pullback]]
+
+$$
+  \array{
+     P((-)+1) \coloneqq & s^*P &\to& P
+     \\
+     & \downarrow && \downarrow 
+     \\
+     & \mathbb{N} &\stackrel{s}{\to}& \mathbb{N}
+  }
+$$
+
+and the interpretation of the implication term $p_s(n)$ is as a morphism $P \to s^* P$ in $\mathcal{C}_{/\mathbb{N}}$
+
+$$
+  \array{
+     P & \stackrel{p_s}{\to} &  s^*P &\to& P
+     \\
+     &\searrow & \downarrow && \downarrow 
+     \\
+     && \mathbb{N} &\stackrel{s}{\to}& \mathbb{N}
+  }
+  \,.
+$$
+
+Again by the [[universal property]] of the pullback this is the same as a [[commuting diagram]]
+
+$$
+  \array{
+     P &\stackrel{p_s}{\to}& P
+     \\
+     \downarrow && \downarrow 
+     \\
+     \mathbb{N} &\stackrel{s}{\to}& \mathbb{N}
+  }
+  \,.
+$$
+
+In summary this shows that the fact that $P$ is a proposition depending on natural numbers which holds at 0 and which holds at $n+1$ if it holds at $n$ is interpreted precisely as an $F$-[[algebra for an endofunctor|algebra homomorphism]]
+
+$$
+  \array{
+     P
+     \\
+     \downarrow
+     \\
+     \mathbb{N}
+  }
+  \,.
+$$
+
+The [[induction principle]] is supposed to deduce from this that $P$ holds for every $n$, hence that there is a proof $p_n : P(n)$ for all $n$:
+
+$$
+  n \in \mathbb{N} \vdash p(n) : P(n)
+  \,.
+$$
+
+The categorical interpretation of this is as a morphism $p : \mathbb{N} \to P$ in $\mathcal{C}_{/\mathbb{N}}$. The existence of this is indeed exactly what the interpretation of the elimination rule, def. \ref{InterpretationOfTheRules}, gives, or (equivalently by prop. \ref{BothFormulationsOfInitialityAreEquivalent}) exactly what the initiality of the $F$-algebra $\mathbb{N}$ gives.
+
+=--
+
 
 ### Identity types
 
@@ -241,5 +431,10 @@ The corresponding [[Coq]]-code is at
 Exposition and discussion of that result is in 
 
 * [[Steve Awodey]], _Inductive types in Hott_ ([blog post](http://homotopytypetheory.org/2012/01/19/inductive-types-in-hott/))
+
+Discussion of the inductive type of natural numbers is in 
+
+* Frank Pfenning, _Lecture notes on natural numbers_ (2009) ([pdf](http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/06-nat.pdf))
+  {#Pfenning}
 
 [[!redirects inductive types]]
