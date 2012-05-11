@@ -10,7 +10,7 @@
 =--
 
 # Natural numbers object
-* tic
+* table of contents
 {: toc}
 
 ## Idea
@@ -61,6 +61,10 @@ By the universal property, the natural numbers object is unique up to [[isomorph
 Note that this definition actually makes sense in any category $E$ having finite [[product]]s.  However, if $E$ is not [[cartesian closed category|cartesian closed]], then it is better to explicitly assume a stronger version of this definition "with parameters" (which follows automatically when $E$ is cartesian closed, such as when $E$ is a topos). What this amounts to is demanding that $(\mathbb{N}, z, s)$ not only be a natural numbers object (in the above, unparametrized sense) in $E$, but that also, for each object $A$, this is preserved by the free coalgebra functor into the [[Kleisli category]] of the [[comonad]] $X \mapsto A \times X$ (which may be thought of as the category of maps parametrized by $A$). (Put another way, the finite product structure of $E$ gives rise to a canonical [[self-indexing]], and we are demanding the existence of an (unparametrized) NNO within this [[indexed category]], rather than just within the base $E$).
 
 The functions which are constructable out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[primitive recursive function|primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F(1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F(\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. With cartesian closure, however, this identification no longer holds, since non-primitive recursive functions (such as the [[Ackermann function]]) become definable as well.
+
+### In type theory
+
+For the moment see at _[[inductive type]]_ the section _[Examples - Natural numbers](inductive+type#NaturalNumbers)_
 
 
 ## Finite colimit characterization
@@ -170,3 +174,5 @@ For a [[real numbers]] object, rather more care is needed; see [[real numbers ob
 [[!redirects natural number object]]
 [[!redirects natural number objects]]
 [[!redirects NNO]]
+
+[[!redirects type of natural numbers]]
