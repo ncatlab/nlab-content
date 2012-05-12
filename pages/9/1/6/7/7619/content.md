@@ -1,0 +1,24 @@
+
+**[[inductive type]]**, **[[higher inductive type]]**
+
+## Rules
+
+* [[induction]], [[coinduction]]
+* [[recursion]], [[corecursion]]
+
+## Categorical semantics
+
+* [[initial algebra of an endofunctor]], [[terminal coalgebra of an endofunctor]]
+
+* [[initial algebra of a presentable ∞-monad]]
+
+## Examples
+
+* [[natural numbers object]], [[list]], 
+
+* [[identity type]]
+
+* [[W-type]]
+
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/induction+-+contents)</div>
