@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
+=--
 =--
 =--
 
@@ -24,10 +28,24 @@ This has the usual meaning in ordinary [[category theory]]. In applications to [
 
 ## Definition
 
-### Rules for inductive types
+There are two _equivalent_ ways of defining the [[judgement]] rules for inductive types. The first describes elimination on [[dependent types]] over the given type. This is the formalization of the notion of [[induction]], and discussed below in 
 
-> To be written. ...there are introduction, elimination, and computation rules...
+* [Induction: dependent elimination, computation](#InductionRules).
 
+The second describes elimanation on absolute types. This is the formalization of the notion of [[recursion]], and discussed below
+
+* [Recursion: elimination, computation](#RecursionRules)
+
+
+### Induction: dependent elimination, computation
+ {#InductionRules}
+
+(...)
+
+### Recursion: elimination, computation
+ {#RecursionRules}
+
+(...)
 
 ### Categorical semantics
 
@@ -379,6 +397,11 @@ The categorical interpretation of this is as a morphism $p : \mathbb{N} \to P$ i
 =--
 
 
+#### Recursion
+
+
+
+
 ### Identity types
  {#IdentityTypes}
 
@@ -460,13 +483,18 @@ The elimination rule then says that this extends to a section $A^I \to E$, hence
 
 (...)
 
-## Related concepts
-
-* [[initial algebra of an endofunctor]]
+### W-types
 
 * [[W-type]]
 
-* [[higher inductive types]]
+
+## Related concepts
+
+* **inductive type, [[initial algebra of an endofunctor]]
+
+* [[higher inductive type]], [[initial algebra of a presentable ∞-monad]]
+
+
 
 ## References
 
