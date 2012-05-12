@@ -87,3 +87,6 @@ Texts on [[type theory]] typically deal with the subtleties of the notion of _eq
 [[!redirects equal]]
 [[!redirects identity relation]]
 [[!redirects diagonal relation]]
+
+[[!redirects definitional equality]]
+[[!redirects propositional equality]]
