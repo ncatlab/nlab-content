@@ -1,3 +1,4 @@
+[[!redirects terminal coalgebra]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -6,8 +7,14 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
 =--
 =--
+=--
+
+
 
 
 # Terminal coalgebras
@@ -190,18 +197,22 @@ aka the [[tree|category of trees]], where $\omega$ is the colimit of the finite 
 
 ## References 
 
-* P. Freyd, Real coalgebra. Mailing to the categories list, Dec. 22, 1999. ([link](http://www.mta.ca/~cat-dist/catlist/1999/realcoalg))
+* [[Peter Freyd]], _Real coalgebra_ Mailing to the categories list, Dec. 22, 1999. ([link](http://www.mta.ca/~cat-dist/catlist/1999/realcoalg))
 {#Freyd}
 
-* D. Pavlovic, V. Pratt, On coalgebra of real numbers, 1999. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204))
+* [[Dusco Pavlovic]], [[Vaughan Pratt]], _On coalgebra of real numbers_, 1999. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204))
 {#PP}
 
 Cross-relations between algebraic and coalgebraic aspects of real numbers may be found in this article: 
 
-* P. Freyd, Algebraic Real Analysis, Theor. Appl. Cat., vol. 20, no. 10 (2008), 215-308. ([link](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
+* [[Peter Freyd]], _Algebraic Real Analysis, Theor._ Appl. Cat., vol. 20, no. 10 (2008), 215-308. ([link](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
 
 
 [[!redirects terminal coalgebra]]
 [[!redirects terminal coalgebras]]
 [[!redirects final coalgebra]]
 [[!redirects final coalgebras]]
+
+[[!redirects terminal coalgebra of an endofunctor]]
+[[!redirects terminal coalgebras of an endofunctor]]
+
