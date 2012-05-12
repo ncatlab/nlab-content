@@ -17,6 +17,10 @@
 
 For the moment see [[(∞,1)-algebraic theory]].
 
+## Examples
+
+* [[initial algebra of a presentable ∞-monad]]
+
 ## Related concepts
 
 * [[algebra over a monad]]
