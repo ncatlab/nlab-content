@@ -18,7 +18,7 @@
 
 ## Idea and definition
 
-For the moment see the discussion at [[internal logic]].
+For the moment see the discussion at _[[internal logic]]_ and at _[[category of contexts]]_.
 
 ### Syntactic site
 
