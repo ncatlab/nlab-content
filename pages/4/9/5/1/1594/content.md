@@ -63,6 +63,9 @@ Original sources on orbifolds include
 * [[William Thurston]], _Three-dimensional geometry and topology, preliminary draft, University of Minnesota, Minnesota, (1992)
  {#Thurston}
 
+which in completed and revised form are available as [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf) of his book:_The Geometry and Topology of Three-Manifolds_.
+
+
 Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
 
 * [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_ ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100))
