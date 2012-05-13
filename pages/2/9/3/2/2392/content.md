@@ -69,7 +69,7 @@ In particular, any [[symmetric monoidal (∞,1)-category]] yields an example of 
 This is the approach described in ([LurieCommutative](#LurieCommutative))
 
 
-### Model for $(\infty,1)$-categories of operators {#ModelForinfOpera}
+#### Model for $(\infty,1)$-categories of operators {#ModelForinfOpera}
 
 There is a [[model category]] that [[presentable (infinity,1)-category|presents]] the [[(∞,1)-category]] $(\infty,1)Cat_{Oper}$ of $(\infty,1)$-categories of operations.
 
@@ -86,7 +86,7 @@ There exists a
 
 * whose underlying [[category]] has
 
-  * [[object]]s are [[marked simplicial set]] $S$ equipped with a morphism $S \to N(FinSet_*)$ such that marked edges map to inert morphisms in $FinSet_*$ (those for which the preimage of te marked point contains just the marked point)
+  * [[object]]s are [[marked simplicial set]] $S$ equipped with a morphism $S \to N(FinSet_*)$ such that marked edges map to inert morphisms in $FinSet_*$ (those for which the preimage of the marked point contains just the marked point)
 
   * [[morphism]]s are morphisms of [[marked simplicial set]]s $S \to T$ such that the triangle
 
