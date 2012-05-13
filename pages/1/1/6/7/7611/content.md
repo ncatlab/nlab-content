@@ -1,6 +1,12 @@
+
+# Cartesian multicategories
+* table of contents
+{: toc}
+
 ## Idea
 
 A **cartesian multicategory** is a [[multicategory]]-like structure which is related to categories with finite [[products]] in the same way that ordinary categories are related to [[monoidal categories]].
+
 
 ## Definition
 
@@ -15,6 +21,7 @@ A **cartesian multicategory** is a symmetric [[multicategory]] equipped with:
   $$ hom(c_0,\dots,c_k,c_{k+2},\dots,c_n \;;\; d) \to hom(c_0,\dots,c_k,c_{k+1},c_{k+2},\dots,c_n \;;\; d) $$
 
 which satisfy certain evident axioms.
+
 
 ### As a generalized multicategory
 
@@ -53,6 +60,8 @@ Cartesian multicategories are also a natural place to talk about the semantics o
 * [[generalized multicategory]]
 * [[Lawvere theory]]
 
+
+[[!redirects cartesian multicategory]]
 [[!redirects cartesian multicategories]]
 [[!redirects finite-product multicategory]]
 [[!redirects finite-product multicategories]]
