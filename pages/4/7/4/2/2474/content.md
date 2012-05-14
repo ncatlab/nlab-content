@@ -105,9 +105,21 @@ There is [[homotopy theory]] of $C^\ast$-algebras, being a non-commutative gener
 
 $C^*$-algebras equipped with the [[action]] of a [[group]] by [[automorphisms]] of the algebra are called _[[C-star-systems]]_ .
 
+## Examples
+
+* [[matric]] algebras;
+
+* [[uniformly hyperfinite algebra]]
+
+* [[von Neumann algebra]]
+
 ## Related concepts
 
 * [[state on an operator algebra]]
+
+* [[von Neumann algebra]], 
+
+* [[AQFT]]
 
 ## References
 
