@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Functional analysis
 +--{: .hide}
 [[!include functional analysis - contents]]
@@ -39,11 +43,22 @@ Every von Neumann algebra may be written as a direct integral over factors.
 
 ### Type I
 
+(...)
+
 ### Type II
+
+(...)
 
 ### Type III
 
+(...)
 
+
+## Related concepts
+
+* [[C-star algebra]]
+
+* [[uniformly hyperfinite algebra]]
 
 ## References
 
