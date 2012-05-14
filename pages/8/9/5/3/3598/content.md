@@ -83,7 +83,9 @@ Examples of categories with displays, def. \ref{CategoryWithDisplays}, include
 
 5. A [[locally cartesian category]] $\mathcal{C}$ (such as a [[topos]]) equipped with its class of [[monomorphisms]].
 
-6. (...) 
+6. A category equipped with a [[singleton pretopology]].
+
+7. (...) 
 =--
 
 ([Taylor, example 8.3.6](#Taylor))
