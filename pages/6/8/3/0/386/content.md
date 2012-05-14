@@ -149,9 +149,10 @@ $$
 
 ## Properties
 
-### Monoidal structure {#ordinal sum}
+### Monoidal structure 
+ {#ordinal sum}
 
-The addition of [[natural number]]s extends to a [[functor]] $\oplus : \Delta_a \times \Delta_a \to \Delta_a$  and $\oplus : \Delta \times \Delta \to \Delta$, by taking $\mathbf{m} \oplus \mathbf{n}$ to be the [[disjoint union]] of the underlying sets of $\mathbf{m}$ and $\mathbf{n}$, with the linear order that extends those on $\mathbf{m}$ and $\mathbf{n}$ by putting every element of $\mathbf{m}$ below every element of $\mathbf{n}$. This is called the _ordinal sum_ functor. If we visualise $\mathbf{n}$ as a totally ordered set $\{0 \lt 1 \lt \cdots \lt n-1\}$, and similarly for $\mathbf{m}$, then $\mathbf{m} \oplus \mathbf{n}$ looks like
+The addition of [[natural number]]s extends to a [[functor]] $\oplus : \Delta_a \times \Delta_a \to \Delta_a$  and $\oplus : \Delta \times \Delta \to \Delta$, by taking $\mathbf{m} \oplus \mathbf{n}$ to be the [[disjoint union]] of the underlying sets of $\mathbf{m}$ and $\mathbf{n}$, with the linear order that extends those on $\mathbf{m}$ and $\mathbf{n}$ by putting every element of $\mathbf{m}$ below every element of $\mathbf{n}$. This is called the _[[ordinal sum]]_ functor. If we visualise $\mathbf{n}$ as a totally ordered set $\{0 \lt 1 \lt \cdots \lt n-1\}$, and similarly for $\mathbf{m}$, then $\mathbf{m} \oplus \mathbf{n}$ looks like
 
 $$
 \mathbf{m} \oplus \mathbf{n} = \{0 \lt 1 \lt  \cdots \lt m-1 \lt 0^*\lt 1^* \lt \cdots \lt (n-1)^*\}
@@ -168,9 +169,9 @@ On morphisms, given $f : \mathbf{m} \to \mathbf{m}'$ and $g : \mathbf{n} \to \ma
 $$
   (f\oplus g)(i) = \left\lbrace
      \array{
-       f(i) & if 0 \leq i  \leq m - 1
+       f(i) & if \; 0 \leq i  \leq m - 1
        \\
-       m' + g(i-m) & if m \lt i \leq (m+n-1)
+       m' + g(i-m) & if \; m \leq i \leq (m+n-1)
      }
   \right.
   \,.
