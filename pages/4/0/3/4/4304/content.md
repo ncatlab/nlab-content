@@ -1,10 +1,37 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A __boson__ is a [[particle]]/[[quantum field]] that obeys [[Bose-Einstein statistics]].  By the [[spin-statistics theorem]], this is the same thing as a particle whose [[spin]] is an [[integer]].  Compare [[fermion]].
 
+## Examples
+
+* [[photon]]
+
+* [[gluon]]
+
+* [[graviton]]
+
+* [[Higgs boson]]
+
+## Related concepts
+
+* **boson**, [[fermion]], [[anyon]]
+
+* [[spin-statistics theorem]]
 
 [[!redirects boson]]
 [[!redirects bosons]]
