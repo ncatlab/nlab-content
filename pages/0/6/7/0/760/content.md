@@ -32,6 +32,17 @@ Alternatively, it is also possible to define a split monomorphism as an __absolu
 
 Any split monomorphism is automatically a [[regular monomorphism]] (it is the [[equalizer]] of $m\circ r$ and $1_B$), and therefore also a [[strong monomorphism]], an [[extremal monomorphism]], and (of course) a [[monomorphism]].
 
+## In higher category theory
+
+In [[higher category theory]], we may still consider the notion of "split monomorphism", i.e. a morphism $m\colon A \to B$ in $C$ such that there exists a morphism $r\colon B \to A$ with $r m$ being equivalent to the identity of $A$.  However, in a higher category, such a morphism $m$ will not necessarily be a "monomorphism", that is, it need not be [[truncated object|(-1)-truncated]].
+
+In general, we can say that in an $(n,1)$-category, a "split monomorphism" will be $(n-2)$-truncated.  Thus:
+
+* in a 1-category, a split mono is (-1)-truncated, i.e. a monomorphism;
+* in a [[(2,1)-category]], a split mono is 0-truncated, i.e. a [[discrete morphism]];
+* in a [[(0,1)-category]] (a [[proset]]), a split mono is (-2)-truncated, i.e. an isomorphism;
+* in an [[(∞,1)-category]], a split mono is not automatically truncated at any finite level.
+
 
 [[!redirects split monomorphism]]
 [[!redirects split monomorphisms]]
