@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the [[AQFT]] formalization of [[quantum field theory]] a [[local net of observables]] assigns to each region of [[spacetime]] the [[algebra]] of [[observables]] localized in that region. But in typical constructions of [[quantum field theories]] this algebra is obtained from an algebra of quantum fields that are _not_ all observable by quotienting out a [[gauge group]] [[action]]. A **field net** corresponding to a [[local net of observables]] is a [[net of C-star-systems]] which formalizes this idea, notably so that the quotient by the group action reproduces the given local net of observables.
+
+## References
+
+The construction of a field net for every local net of observables in [[DHR superselection theory]] is due to 
+
+* [[Sergio Doplicher]], [[John Roberts]], _Why there is a field algebra with a compact gauge group describing the superselection structure in particle physics_, Comm. Math. Phys. 131 (1) (1990)
+
+A detailed review is in sections 9 and 10 of 
+
+* [[Hans Halvorson]], _Algebraic quantum field theory_ ([pdf](http://www.princeton.edu/~hhalvors/aqft.pdf))
+
+[[!redirects field nets]]
