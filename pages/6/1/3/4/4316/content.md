@@ -34,7 +34,7 @@ After the definition of admissible representations we collect some notions that 
 ## Definition ##
 We start with a [[Haag-Kastler vacuum representation]] that we assume to be irreducible and [[Haag dual]].
 
-Let $\pi_0$ be the vacuum representation from now on, K denote double cones and $\mathcal{J}_0$ be the [[causal index set]] of double cones, just as $\mathcal{O}$ are bounded open sets and $\mathcal{J}$ the [[causal index set]] of bounded open sets.
+Let $\pi_0$ be the vacuum representation from now on, $K$ denote double cones and $\mathcal{J}_0$ be the [[causal index set]] of double cones, just as $\mathcal{O}$ are bounded open sets and $\mathcal{J}$ the [[causal index set]] of bounded open sets.
 
 Recall that the [[C-star algebra]]
 
@@ -68,7 +68,29 @@ is called a **unital endomorphism** if $\rho$ is linear, multiplicative ($\rho(A
 
 We will drop "unitarily" from now on.
 
-For any representation $\pi$ and endomorphism $\rho$ the composition $\pi \circ \rho$ is another representation. For this reason one can hope to gain some insights into the representations by studying the endomorphisms, while the set of endomorphisms has certainly more structure than that of representations: For example, endomorphisms may have inverses, and endomorphisms form a [[monoid]] by composition.
++-- {: .num_remark #RepresentationsFromEndomorphismsAndViceVersa}
+###### Remark
+
+For any representation $\pi$ and endomorphism $\rho$ the composition $\pi \circ \rho$ is another representation. 
+
+Conversely, under the assumption of [[Haag duality]] every DHR admissible representation $\rho$ comes from an endomorphism this way. For let $A \in \mathcal{A}(K)$ and $B \in \mathcal{A}(K^\pert)$ be any two causally unrelated localized obserbales. Then for $\rho : \mathcal{A} \to \mathcal{B}(\mathcal{H})$ a DHR representation, we have on the one hand
+
+$$
+  \rho(A B) = \rho(A) \pi_0(B)
+$$
+
+and on the other, due to the causal structure
+
+$$
+  \rho(A B) = \rho(B A) = \pi_0(B) \rho(A)
+  \,.
+$$
+
+This says that $\rho(A) \in \pi_0(\mathcal{A}(K'))'$ and hence by [[Haag duality]] $\cdots \in \pi_0(\mathcal{A}(K))''$. Under the assumption that the [[local net of observables]] takes values in [[von Neumann algebras]] this in turn in $\cdots = \pi_0(\mathcal{A}(K))$ and so $\rho$ indeed factors as an endomrphism of $\mathcal{A}$ followed by the vaccum representation.
+
+=--
+
+For this reason one can hope to gain some insights into the representations by studying the endomorphisms, while the set of endomorphisms has certainly more structure than that of representations: For example, endomorphisms may have inverses, and endomorphisms form a [[monoid]] by composition.
 
 First we define "unitarily equivalent" and "intertwiner" analog to the definition for [[representations of C-star algebras]]:
 
