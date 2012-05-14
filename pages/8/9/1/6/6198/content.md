@@ -1,6 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 See 
 
 * [[classical mechanical system]]
 
 * [[quantum mechanical system]]
+
+
+[[!redirects mechanical systems]]
+
+[[!redirects physical system]]
+[[!redirects physical systems]]
+
