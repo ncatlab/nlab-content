@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[quantum physics]] one speaks of the "statistics" of a [[particle]] species or other object when referring to the [[irreducible representation]] of the [[group]] which exchanges identical such particles that it belongs to. Typically this is the [[symmetric group]] and accordingly one speaks of [[boson]] and [[fermion]] statistics. But in special cases, namely whenever the codimension in space of the objects in question is 1 (e.g. point particlea in 2-dimensional [[quantum field theories]]), accordingly in this situation these may have what is then called _braid group statistics_ and one speaks of _[[anyons]]_.
+In [[quantum physics]] one speaks of the "statistics" of a [[particle]] species or other object when referring to the [[irreducible representation]] of the [[group]] which exchanges identical such particles that it belongs to. Typically this is the [[symmetric group]] and accordingly one speaks of [[boson]] and [[fermion]] statistics. But in special cases, namely whenever the codimension in space of the objects in question is 1 (e.g. point particles in 2-dimensional [[quantum field theories]]), accordingly in this situation these may have what is then called _braid group statistics_ and one speaks of _[[anyons]]_.
 
 ## Related concepts
 
@@ -19,5 +29,9 @@ In [[quantum physics]] one speaks of the "statistics" of a [[particle]] species 
 
   _II: Geometric aspects and conformal covariance_ ([pdf](ftp://ftp.theorie.physik.uni-goettingen.de/pub/papers/rehren/92/superselection_sectors_II_RMP.pdf))
 
+* [[Jürg Fröhlich]], F. Gabbiani, _Braid statistics in local quantum theory_, Reviews in Mathematical Physics, Volume 2, Issue 03, pp. 251-353 (1990).
+
 [[!redirects anyon]]
 [[!redirects anyons]]
+
+[[!redirects braid statistics]]
