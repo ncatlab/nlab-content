@@ -1,6 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ##Idea
 
-A _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n$ points at the top of the diagram with $n$-points at the bottom.
+The _braid group_ $Br_n$ is the [[group]] whose elements are [[isotopy]] classes of $n$ [[dimension|1-dimensional]] _braids_ running vertically in 3-dimensional [[Cartesian space]], the group operation being their concatenation.
+
+Here a _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n$ points at the top of the diagram with $n$-points at the bottom.
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -293,8 +312,8 @@ The identity consists of $n$ vertical strings, so the inverse is obtained by tur
 
 This is the inverse of the first 3-braid we saw. 
 
-There are useful [[group presentations]] of the braid groups. Here it is.  We will return later to the interpretation of the generators and relations in terms of diagrams. 
 
+There are useful [[group presentations]] of the braid groups.   We will return later to the interpretation of the [[generators and relations]] in terms of diagrams. 
 
 
 ##A presentation of $Br_{n+1}$
@@ -314,19 +333,20 @@ The **Artin braid group**, $Br_{n+1}$, defined using $n+1$ strands is a [[group]
 
 We will look at such groups for small values of $n$.
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### The group $Br_1$
 
 By default, $Br_1$ has no generators and no relations, so is trivial.
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### The group $Br_2$
 
 By default, $Br_2$ has one generator and no relations, so is infinite cyclic.
+
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### The group $Br_3$
 (We will simplify notation writing $u = y_1$, $v = y_2$.)
 
@@ -337,7 +357,7 @@ $$\mathcal{P} = ( u,v : r \equiv u v u v^{-1} u^{-1} v^{-1}).$$
 It is also the 'trefoil group', i.e., the fundamental group of the complement of a [[trefoil knot]]. 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### The group $Br_4$
 
 Simplifying notation as before, we have generators $u,v,w$ and relations
@@ -347,17 +367,20 @@ Simplifying notation as before, we have generators $u,v,w$ and relations
  *  $r_w \equiv  u v u v^{-1} u^{-1} v^{-1}$.
 =--
 
+## Related concepts
+
+* [[braid group statistics]]
 
 ## References
 
-Classic references is
+Classical references are
 
 * [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press, 1974.
 * [[R. H. Fox]], L. Neuwirth, _The braid groups_, Math. Scand. __10__ (1962) 119-126, [pdf](http://www.mscand.dk/article.php?id=1624), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)
 
 and in addition see
 
-* Wikipedia: [Braid group](http://en.wikipedia.org/wiki/Braid_group)
+* Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
 
 
 category : knot theory
