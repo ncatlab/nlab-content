@@ -1,17 +1,2 @@
-Hi Todd,
-I don't know your email, so if you see this, I have been working with Dave Reimer at TCNJ on the Stern-Brocot tree(an outgrowth of my interest in Wilf-Calkin trees, inspired by an elegy by Doron Zeilberger to Herb Wilf earlier this year), and thence to continued fractions. I have found a method(not like Gosper's or Hurwitz's recursive method) for directly writing down the continued fraction of the double or half of a continued fraction either greater than or less than one. You can see the papers(unpublished as yet) on this here
-math.rutgers.edu/~dupre/secret/papers
-my email is dupre@math.rutgers.edu and my cell number is 732-887-3484
-I am starting to program in maple in order to be able to speed up the examples I am looking at to solve multiplying or dividing a continued fraction by three. 
-The algorithm is more fault-tolerant than either Gosper's or Hurwitz's, i.e., a mistake in the beginning does not necessarily propagate. 
-
-Anyway, maple doesn't seem to be able to get the continued fraction expansion of sqrt(e), yet Hurwitz found cf expansions of e^(2/n). I have to get his paper and study it. 
-
-I'll probably get a chance to talk to Gosper at Neil Sloane's retirement party this Sunday(a week from today). I get a chance to talk to John Conway from time to time. I just learned of his unbeleivable(When he first told it to me I said that was the most hilarious theorem I had ever heard) theorem about the look and say sequence, and the quotients of the adjacent lengths converging to an algebraic number, whose irreducible polynomial has degree 71. All this by looking at the characteristic polynomial of the transition matrix of 92 "atoms", sequences which do not adjacently interact with one another.
-
-It looks as if you are working furiously on math, judging from all the notes you've written. 
-
-Keep up the good work,
-
-Art  
+deleted
  
