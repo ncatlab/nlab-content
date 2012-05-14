@@ -87,6 +87,12 @@ A **PCT theorem** in this context is a theorem that states sufficient conditions
 ## Examples ##
 ...
 
+## Related concepts
+
+* [[antiparticle]], 
+
+* [[charge sector]], [[DHR category]]
+
 ## References ##
 
 * Wikipedia: [CPT symmetry](http://en.wikipedia.org/wiki/CPT_symmetry)
