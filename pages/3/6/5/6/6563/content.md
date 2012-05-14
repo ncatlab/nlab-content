@@ -88,6 +88,12 @@ The following is a capsule history tabulating some important events in the histo
 |1998--99 | | Freedman, _et al._ | | First indications that the [[AdS/CFT correspondence]] and related implementations of gauge/gravity duality could lead to a "holographic $c$-theorem" generalising Zamolodchikov's work to higher dimensions |
 
 
+## Related concepts
+
+* [[statistical physics]]
+
+* [[thermodynamic limit]]
+
 
 ## References ##
 
@@ -131,3 +137,6 @@ Nonequilibrium critical phenomena:
 Dynamical maps and chaos theory:
 
 * P. Cvitanovic, ed. _Universality in Chaos_ (1983).
+
+
+[[!redirects universality classes]]
