@@ -38,9 +38,9 @@ They also seem to support a [[foundations]] of mathematics in terms of [[homotop
 
 The [[functors]] 
 
-* $Cont$, that form a [[category of contexts]] of a [[locally cartesian closed category]];
+* $Cont$, that form a [[category of contexts]] of a [[dependent type theory]];
 
-* $Lang$ that forms the [[internal language]] of a locally cartesian closed category
+* $Lang$ that forms the [[internal language]] of a [[locally cartesian closed category]]
 
 constitute an [[equivalence of categories]]
 
