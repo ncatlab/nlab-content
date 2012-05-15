@@ -49,6 +49,8 @@
 
 * [[Freyd-Mitchell embedding theorem]]
 
+* [[relation between type theory and category theory]]
+
 ## Extensions 
 
 * [[sheaf and topos theory]]
