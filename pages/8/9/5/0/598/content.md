@@ -460,7 +460,7 @@ satisfying the relations
 
 $$
 \array{
-  d_0 \phi(x) = (\phi(d_0 x))^{-1} \phi(d_1 x)
+  d_0 \phi(x) = \phi(d_1 x)(\phi(d_0 x))^{-1}
   \\
   d_i \phi(x) = \phi(d_{i+1}x), i\gt 0,
   \\
