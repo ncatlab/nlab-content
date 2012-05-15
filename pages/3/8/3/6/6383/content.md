@@ -19,4 +19,4 @@ For $p$ a [[prime number]] a group is **$p$-divisible** if the above formula hol
 
 ## Examples
 
-* The underlying abelian group of any [[vector space]] over the [[rational number]]s $\mathbb{Q}$ is divisible.
+* The rationals $\mathbb{Q}$ and (more generally) the underlying abelian group of any $\mathbb{Q}$-[[vector space]] are divisible.
