@@ -27,9 +27,9 @@ We say that such a $C$ is **locally cartesian closed** if moreover $C_{/x}$ is a
 
 ### Internal logic
 
-The [[internal logic]] of locally cartesian closed $(\infty,1)$-categories is conjectured ([Joyal2011](#Joyal)) to be a sort of [[homotopy type theory]] (specifically, that with intensional [[identity types]] and [[dependent products]]).
+The [[internal logic]] of locally cartesian closed $(\infty,1)$-categories is conjectured ([Joyal2011](#Joyal)) to be a sort of [[homotopy type theory]] (specifically, that with intensional [[identity types]] and [[dependent products]]). For more on this see _[[relation between type theory and category theory]]_.
 
-See also [[internal logic of an (∞,1)-topos]].
+See also _[[internal logic of an (∞,1)-topos]]_.
 
 ### Presentations
  {#Presentations}
