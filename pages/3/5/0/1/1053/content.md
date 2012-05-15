@@ -199,6 +199,8 @@ the product there coincides with the product in the base
 category.  The [[exponential object|exponential]] (unsurprisingly for a Kleisli
 category) is $B^A \cong !A\multimap B$.
 
+Particular monoidal and $*$-autonomous [[posets]] for modeling linear logic can be obtained by [[Day convolution]] from [[ternary frames]].  This includes Girard's *phase spaces* as a particular example.
+
 ### Polycategories
 
 A different way to explain linear logic categorically (though equivalent, in the end) is to start with a categorical structure which lacks any of the connectives, but has sufficient structure to enable us to characterize them with universal properties.  If we ignore the exponentials for now, such a structure is given by a [[polycategory]].  The polymorphisms
