@@ -15,7 +15,7 @@
 
 ## Idea
 
-In the category [[Set]] a 'pullback' is a [[subset]] of the [[cartesian product]] of two [[set]]s.  Given a [[diagram]] of [[set]]s and [[function]]s like this:
+In the category [[Set]] a 'pullback' is a [[subset]] of the [[cartesian product]] of two [[set]]s.  Given a [[diagram]] of [[set]]s and [[functions]] like this:
 
 $$
   \array{
@@ -101,6 +101,8 @@ Since this universal property expresses the concept of pullback purely arrow-the
 
 ## Definition
 
+### In category theory
+
 A **pullback** is a [[limit]] of a [[diagram]] like this:
 
 $$
@@ -150,6 +152,29 @@ and [[generalized the|the]] object $x$ is also called the **pullback**. It is we
 The last commutative square above is called a __pullback square__.
 
 The concept of pullback is dual to the concept of [[pushout]]: that is, a pullback in $C$ is the same as a pushout in the [[opposite category]] $C^{op}$.
+
+### In type theory
+
+In [[type theory]] a [[pullback]] $P$ in
+
+$$
+  \array{
+    P &\to& A
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    B &\stackrel{g}{\to}& C
+  }
+$$
+
+is given by the [[dependent sum]] over the [[dependent type|dependent]] [[equality type]]
+
+$$
+  P = \sum_{a : A} \sum_{b \in B} (f(a) = g(b))
+  \,.
+$$
+
+
 
 ## Properties
 
