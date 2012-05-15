@@ -110,33 +110,16 @@ $$
 
 =--
 
-##Extended Day Convolution
+## Promonoidal Day Convolution
 
-In Day's original paper, a stronger form of the Day convolution is discussed.  In the sequel, let $V$ be a complete-cocomplete symmetric monoidal closed category.
+In Day's original paper, a stronger form of the Day convolution is discussed, in which $A$ is assumed only to be a [[promonoidal category]].
 
-We define a pro-monoidal $V$-category $\mathfrak{P}=(A,P,J,\lambda,\rho,\alpha)$ with the following data specified:
+Let $V$ be a [[Benabou cosmos]], and $A$ a small $V$-[[enriched category]].
 
-1. A small $V$-category $A$.
-
-1. A $3$-ary functor $P:A^\op \otimes A \otimes A\to V^{A^{op}}$.  For notational clarity, we will write $P(a,b,c)$ as $P(a,b \diamond c)$.
-
-1. A $V$-functor $J:A^{op}\to V$
-
-and natural isomorphisms
-
-1. $\lambda_{ab}:\int^x (J(x) \otimes P(b,a \diamond x))\to A(b,a)$
-
-1. $\rho_{ab}: \int^x ( J(x)\otimes P(b,x \diamond a))\to A(b,a)$
-
-1. $\alpha_{abcd}: \int^x (P(x,a\diamond b)\otimes P(d,x\diamond c)) \to \int^x(P(x,b\diamond c)\otimes P(d,a\diamond x))$
-
-Satisfying some coherence diagrams (omitted, see references).
 
 +-- {: .un_prop}
 ###### Proposition
-
-There is an equivalence of categories between the category of pro-monoidal structures on $A$ with strong pro-monoidal functors between them and the category of biclosed monoidal structures on $V^{A^{op}}$ with strong monoidal functors between them.  
-
+There is an equivalence of categories between the category of [[pro-monoidal structures]] on $A$ with strong pro-monoidal functors between them and the category of biclosed monoidal structures on $V^{A^{op}}$ with strong monoidal functors between them.  
 =--
 
 +-- {: .proof}
@@ -146,7 +129,6 @@ There is an equivalence of categories between the category of pro-monoidal struc
 
 =--
 
-A pro-monoidal $Set$-category $A$ induces a [[multicategory]] $\bar A$ as follows. The objects of $\bar A$ are the objects of $A$. The multimorphisms $a_1\dots a_n\to b$ in $\bar A$ are defined by induction on $n$ as follows: $\bar A(;b)=Jb$, and $\bar A(a_1,\dots,a_{n+1};b)=\int^x\bar A(a_1,\dots,a_n;x)\otimes P(b,x\diamond a_{n+1})$. Thus a promonoidal category is (roughly) a multicategory whose $n$-ary morphisms are determined by the binary morphisms and identities (see e.g. On centres and lax centres for promonoidal categories, Day, Panchadcharam and Street).
 
 ## Examples
 
@@ -234,3 +216,5 @@ I have added this remark now explicitly to the entry above.
 
 
 [[!redirects day convolution]]
+[[!redirects Day tensor product]]
+[[!redirects Day tensor products]]
