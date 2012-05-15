@@ -61,7 +61,7 @@ Not every co-multicategory arises from a promonoidal one in this way.  Roughly, 
 
 * [[monoidal category]], [[multicategory]]
 * [[Day convolution]]
-* [[ternary frame]]
+* A (co-)promonoidal [[poset]] is called a [[ternary frame]], when its Day convolution monoidal category is used to model [[substructural logic]].
 
 ## References
 
