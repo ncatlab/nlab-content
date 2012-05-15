@@ -600,6 +600,14 @@ How many kinds of completion are there for an enriched category? I see some may 
 
 If two categories can be Morita equivalent, should this be reflected in the page [[Morita equivalence]]?
 
+## Related concepts
+
+* [[split idempotent]]
+
+* [[Karoubi envelope]]
+
+* [[idempotent complete (infinity,1)-category]]
+
 ## References
 
 The notion of Cauchy complete categories was introduced in
