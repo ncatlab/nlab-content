@@ -1,10 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
 
-The _Karoubi envelope_ of a [[category]] is the universal way to ensure that every [[idempotent]] is a [[split idempotent]].  It is the [[Set]]-enriched version of [[Cauchy completion]].
+The _Karoubi envelope_ of a [[category]] is the universal way to ensure that every [[idempotent]] is a [[split idempotent]].  It is the [[Set]]-enriched version of _[[Cauchy completion]]_.
 
 A category in which all idempotents split is called *Karoubi complete* or *Cauchy complete* or *idempotent-complete*.  Thus, the Karoubi envelope is a [[completion]] operation into such categories.
 
@@ -40,6 +53,11 @@ Then $\bar{F}$ is the unique extension of $F$ which preserves chosen splittings.
 
 If $D$ is a category in which every idempotent splits, then we can choose a splitting for each idempotent using the [[axiom of choice]] (AC); the extension $\bar{F}$ depends on how we do this but is unique up to unique [[natural isomorphism]].  Alternatively, we can define $\bar{F}$ as an [[anafunctor]]; then no AC is needed, and we still have $\bar{F}$ unique up to unique natural isomorphism.  (It is key here that a splitting of an idempotent is unique up to a coherent isomorphism.)
 
+## Related concepts
+
+* [[Cauchy completion]]
+
+* [[idempotent complete (infinity,1)-category]]
 
 
 ## References ##
@@ -62,7 +80,7 @@ references (to Neeman and Lurie) for an important result of Neeman's about Karou
 
 The Karoubi envelope for the additive case (see also [[additive envelope]]) is covered at 
 
-* Dror Bar-Natan, Scott Morrison, _The Karoubi envelope and Lee's degeneration of Khovanov homology_ ([arXiv](http://arxiv.org/abs/math/0606542))
+* [[Dror Bar-Natan]], [[Scott Morrison]], _The Karoubi envelope and Lee's degeneration of Khovanov homology_ ([arXiv](http://arxiv.org/abs/math/0606542))
 
 
 [[!redirects Karoubi completion]]
