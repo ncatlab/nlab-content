@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -19,14 +21,13 @@
 
 ## Idea
 
-To a large extent, [[type theory]] and [[category theory]] overlap or are equivalent. One may view type theory as a formal [[syntax|syntactic]] language or _calculus_ for category theory, and conversely one may think of category theory as providing [[categorical semantics|semantics]] for type theory. 
+To a large extent, [[type theory]] and [[category theory]] overlap or are equivalent, and more generally so are [[homotopy type theory]] and [[(∞,1)-category theory]]. One may view type theory as a formal [[syntax|syntactic]] language or _calculus_ for category theory, and conversely one may think of category theory as providing [[categorical semantics|semantics]] for type theory. 
 
 ## Theorems
 
 We discuss here formalizations and proofs of the relation/equivalence between various flavors of type theories and the corresponding flavors of categories.
 
-* [First order logic and hyperdoctrines]
- (#FirstOrderLogic)
+* [First order logic and hyperdoctrines](#FirstOrderLogic)
 
 * [Dependent type theory and locally cartesian closed categories](#DependentTypeTheory)
 
@@ -41,6 +42,30 @@ We discuss here formalizations and proofs of the relation/equivalence between va
 
 ### Dependent type theory and locally cartesian closed categories
  {#DependentTypeTheory}
+
++-- {: .num_theorem}
+###### Theorem
+
+The [[functors]] 
+
+* $Cont$, that form a [[category of contexts]] of a [[locally cartesian closed category]];
+
+* $Lang$ that forms the [[internal language]] of a locally cartesian closed category
+
+constitute an [[equivalence of categories]]
+
+$$
+  DependentTypeTheories
+    \stackrel{\overset{Lang}{\leftarrow}}{\underset{Cont}{\to}}
+  LocallyCartesianClosedCategories
+  \,.
+$$
+
+=--
+
+This ([Seely, theorem 6.3](#Seely)). 
+
+We now discuss this in detail...
 
 (...)
 
