@@ -16,6 +16,10 @@ where on the right we have $n$ summands.
 
 For $p$ a [[prime number]] a group is **$p$-divisible** if the above formula holds for all $n$ of the form $p^k$ for $k \in \mathbb{N}$.  (There is also an abstract notion of $p$-[[p-divisible group|divisible group]] in terms of [[group schemes]].)
 
+### For abelian groups
+
+If $G$ is abelian $G$ is divisible off it is an [[injective object]] in the the category of abelian groups - or equivalently iff $Hom(-,G)$ is [[exact functor|exact]].
+
 
 ## Examples
 
