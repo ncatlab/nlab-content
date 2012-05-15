@@ -46,13 +46,15 @@ Similarly, while plain vanilla type theory formalizes [[intuitionistic logic]]/[
 
 One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _[[syntax]] for describing the [[type constructor|construction]] of [[objects]] and [[morphisms]] in a category_.  (An introduction and historical background is for instance in [Taylor](#Taylor) [section 2](http://www.paultaylor.eu/ASD/foufct/cattype.html).) 
 
-This interpretation can be called *[[categorical semantics]]*.  More precisely, categorical semantics refers to an *[[adjunction]]* between type theories and categories 
+This interpretation can be called *[[categorical semantics]]*.  More precisely, categorical semantics refers to an *[[adjunction]]* or _[[equivalence of categories]]_ between type theories and categories 
 
 ([[category of contexts]] $\dashv$ [[internal language]]) $ :  (Con \dashv Lan) :
   TypeTheories 
     \stackrel{\overset{Lan}{\leftarrow}}{\underset{Con}{\to}}
   Categories 
 $.
+
+This is discussed in detail at _[[relation between type theory and category theory]]_.
 
 There are many different versions of this adjunction, depending on what kind of type theory we consider (e.g. [[dependent type theory|dependent]], with [[identity types]], etc.) and what structure we impose on the categories in question.  In each case
 
