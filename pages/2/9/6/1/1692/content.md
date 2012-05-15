@@ -11,7 +11,7 @@ Many concrete dualities in mathematics can be seen as embedded in a larger ambie
 
 ## Definition ## 
 
-The objects of $Chu(C, d)$ are triples $(a, b; r: a \otimes b \to d)$ (called _$d$-valued pairings_ between $a$ and $b$), where $a$ and $b$ are objects of $C$ and $r$ is a morphism of $C$. The special triple $(d, I; \rho: d \otimes I \cong d)$, where $rho$ is an instance of the canonical isomorphism (the right unitor) for the monoidal unit $I$, will play the role of [[dualizing object]] in $Chu(C, d)$. 
+The objects of $Chu(C, d)$ are triples $(a, b; r: a \otimes b \to d)$ (called _$d$-valued pairings_ between $a$ and $b$), where $a$ and $b$ are objects of $C$ and $r$ is a morphism of $C$. The special triple $(d, I; \rho: d \otimes I \cong d)$, where $\rho$ is an instance of the canonical isomorphism (the right unitor) for the monoidal unit $I$, will play the role of [[dualizing object]] in $Chu(C, d)$. 
 
 The morphisms of $Chu(C, d)$, 
 
