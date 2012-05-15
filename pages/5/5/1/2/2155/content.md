@@ -24,7 +24,9 @@
 
 A __Cartesian space__ is a [[topological space]] of the form $\mathbb{R}^n$ equipped with the [[Euclidean topology]]: 
 
-the $n$-fold [[Cartesian product]] in [[Top]] of the [[real line]] $\mathbb{R}$ with itself where $n$ is some [[natural number]] (possibly zero).
+the $n$-fold [[Cartesian product]] in [[Top]] of the [[real line]] $\mathbb{R}$ with itself where $n$ is some [[natural number]] (possibly zero). 
+Space $\mathbb{R}^n$ with its
+standard topology (and sometimes smooth structure) is also called __real $n$-dimensional space__ (distinguish from "real $n$-dimensional vector space" which is only isomorphic to it as a vector space). 
 
 =--
 
@@ -163,3 +165,4 @@ With an eye towards [[Frölicher space]]s the site is also considered in section
 [[!redirects Cartesian space]]
 [[!redirects cartesian spaces]]
 [[!redirects Cartesian spaces]]
+[[!redirects real n-dimensional space]]
