@@ -61,6 +61,9 @@ Notice that this second proof relies crucially on the fact that free monads have
 
 * Free monads on pointed endofunctors play an important role in the construction of cofibrantly generated [[algebraic weak factorization systems]].
 
+## Related concepts
+
+* [[algebra over an endofunctor]]
 
 ## References
 
