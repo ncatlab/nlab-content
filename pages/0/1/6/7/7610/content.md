@@ -44,6 +44,7 @@ the corresponding ([[homotopy type theory|homotopy]]) [[type theory]] is simply 
 |  [[pullback]] $\array{ f^* A &\to& A \\ \downarrow && \downarrow^{\mathrlap{f}} \\ Y &\stackrel{f}{\to} & X }$ | [[substitution]] $y : Y \vdash A(f(y)) : Type$ |
 | [[direct image]] $\array{ A && f_* A \\ {}^{\mathllap{p}}\downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[dependent product]] $ y : Y \vdash \underset{x : f^{-1}(y)}{\prod } A(x) : Type$ |
 | postcomposition $\array{ A &=& f_! A \\ \downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[dependent sum]] $y : Y \vdash \underset{x : f^{-1}(y)}{\sum} A(y) : Type$ |
+| [[Beck-Chevalley condition]] of [[codomain fibration]] | [[substitution]] commutes with [[existential quantifier|existential quantification]] |
 | [[path space object]] $\array{A^I \\ \downarrow^{\mathrlap{(d_1,d_0)}} \\ A \times A}$ | [[identity type]] $a,b : A \vdash (a = b)$ |
 | [[truncated object in an (infinity,1)-category|(-2)-truncated morphism]]/[[equivalence in an (infinity,1)-category|equivalence]] $\array{Y \\ \downarrow^{\mathrlap{\simeq}} \\ X}$ | [[true]]/[[unit type]] $x : X \vdash 1 : Type$ |
 | [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]]/[[monomorphism in an (infinity,1)-category|monomorphism]] $\array{\phi \\ \downarrow \\ X}$ | [[proposition]] $x : X \vdash \phi(x) : Type$ |
