@@ -13,6 +13,8 @@
 
 * [[inductive type]], [[higher inductive type]]
 
+  * [[W-type]], [[M-type]]
+
 **[[homotopy levels]]**
 
 * [[type theory]] 
