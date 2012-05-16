@@ -1,4 +1,3 @@
-[[!redirects initial algebra of a presentable infinity-monad]]
 
 
 +-- {: .rightHandSide}
@@ -43,3 +42,14 @@ On [[truncated object of an (∞,1)-category|0-truncated]] objects the notion re
 
 [[!redirects initial algebras of a presentable ∞-monad]]
 [[!redirects initial algebras of a presentable infinity-monad]]
+
+[[!redirects initial algebra of a presentable infinity-monad]]
+
+[[!redirects initial algebra of a presentable (∞,1)-monad]]
+[[!redirects initial algebras of a presentable (∞,1)-monad]]
+
+[[!redirects initial ∞-algebra of a presentable (∞,1)-monad]]
+[[!redirects initial ∞-algebras of a presentable (∞,1)-monad]]
+
+[[!redirects initial infinity-algebra of a presentable (infinity,1)-monad]]
+[[!redirects initial infinity-algebras of a presentable (infinity,1)-monad]]
