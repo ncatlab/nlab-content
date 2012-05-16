@@ -66,7 +66,12 @@ $$
   y : Y \vdash \sum_{x  \in X} (f(x) = y)
 $$
 
-being the [[dependent sum]] over $x$ of the [[substitution]] of $f(x)$ for $y_1$ in the [[dependent type|dependent]] [[identity type]] $(y_1 = y)$.
+being the [[dependent sum]] over $x$ of the [[substitution]] of $f(x)$ for $y_1$ in the [[dependent type|dependent]] [[identity type]] $(y_1 = y)$. Equivalently this is the $y$-[[dependent type|dependent]] [[homotopy fiber]] of $f$ at $y$
+
+$$
+  y : Y \vdash hfiber(f,y)
+  \,.
+$$
 
 
 ## Examples
