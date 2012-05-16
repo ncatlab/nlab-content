@@ -13,20 +13,20 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-An _algebra over an endofunctor_ is like an [[algebra over a monad]], but without a notion of [[associativity]].
+An _algebra over an endofunctor_ is like an [[algebra over a monad]], but without a notion of [[associativity]] (which would not make sense).
+
 
 ## Definition
 
-For a [[category]] $C$ and [[endofunctor]] $F$, an __algebra__ of $F$ is an [[object]] $X$ in $C$ and a [[morphism]] $\alpha: F(X) \to X$. ($X$ is called the __carrier__ of the algebra)
+For a [[category]] $C$ and [[endofunctor]] $F$, an __algebra__ (or __module__) of $F$ is an [[object]] $X$ in $C$ and a [[morphism]] $\alpha\colon F(X) \to X$. ($X$ is called the __carrier__ of the algebra)
 
-A [[homomorphism]] between two algebras $(X, \alpha)$ and $(Y, \beta)$ of $F$ is a morphism $m : X \to Y$ in $C$ such that the following [[commuting diagram|square commutes]]:
+A [[homomorphism]] between two algebras $(X, \alpha)$ and $(Y, \beta)$ of $F$ is a morphism $m\colon X \to Y$ in $C$ such that the following [[commuting diagram|square commutes]]:
 
 $$ 
   \array{ 
@@ -46,30 +46,34 @@ $$
   \,. 
 $$
 
-Composition of such morphisms of algebras is given by composition of the underlying morphisms in $C$.
+[[composition|Composition]] of such morphisms of algebras is given by composition of the underlying morphisms in $C$.
 
-The dual concept is a [[coalgebra for an endofunctor]]. Both algebras and coalgebras for endofunctors on $C$ are special cases of [[algebra for a C-C bimodule|algebras for C-C bimodules]].
+The dual concept is a [[coalgebra for an endofunctor]]. Both algebras and coalgebras for endofunctors on $C$ are special cases of [[algebra for a C-C bimodule|algebras for bimodules]].
+
 
 ## Properties
 
 ### Relation to algebras over a monad
 
-The concept of an [[algebra of an endofunctor]] itself is somewhat odd, the natural concept being that of an [[algebra over a monad]].
+If an [[algebra for a monad]] is like an [[action]] of a [[monoid]], then an algebra for a functor is like a [[binary function]] (an action of a [[set]]).
+
+This can be made quite precise.  It\'s immediate that a function $A \times B \to B$ is the same thing as an action of the [[free monoid]] $A^*$ on $B$.  Similarly, an algebra for the functor $F$ is the same thing as an algebra for the [[free monad]] of $F$.
 
 +-- {: .num_prop}
 ###### Proposition
 
-The [[category]] of [[algebras of an endofunctor]] $F : \mathcal{C} \to \mathcal{C}$ is [[equivalence of categories|equivalent]] to the category of [[algebras over a monad]] of the [[free monad]] on $F$.
-
+The [[category]] of algebras of the endofunctor $F\colon \mathcal{C} \to \mathcal{C}$ is [[equivalence of categories|equivalent]] to the category of [[algebra over a monad|algebras]] of the [[free monad]] on $F$.
 =--
 
 The proof is fairly straightforward, see for instance ([Maciej](#Maciej)).
+
 
 ## Related concepts
 
 * [[initial algebra of an endofunctor]]
 
 * [[algebra over a monad]], [[algebra over a profunctor]], [[coalgebra over an endofunctor]]
+
 
 ## References
 
@@ -82,19 +86,22 @@ The relation to [[free monads]] is discussed in
 * [Maciej](#http://maciejcs.wordpress.com/), _[Free monads and their algebras](http://maciejcs.wordpress.com/2012/04/17/free-monads-and-their-algebras/)_
  {#Maciej}
 
-[[!redirects algebra of an endofunctor]]
-[[!redirects algebra of a functor]]
-[[!redirects algebra for a functor]]
-[[!redirects algebra over an endofunctor]]
 
-[[!redirects algebras of an endofunctor]]
+[[!redirects algebra of a functor]]
+[[!redirects algebra of an endofunctor]]
+[[!redirects algebra for a functor]]
+[[!redirects algebra for an endofunctor]]
+[[!redirects algebra over a functor]]
+[[!redirects algebra over an endofunctor]]
 [[!redirects algebras of a functor]]
+[[!redirects algebras of an endofunctor]]
 [[!redirects algebras for a functor]]
 [[!redirects algebras for an endofunctor]]
+[[!redirects algebras over a functor]]
 [[!redirects algebras over an endofunctor]]
-
-[[!redirects algebras of endofunctors]]
 [[!redirects algebras of functors]]
+[[!redirects algebras of endofunctors]]
 [[!redirects algebras for functors]]
 [[!redirects algebras for endofunctors]]
+[[!redirects algebras over functors]]
 [[!redirects algebras over endofunctors]]
