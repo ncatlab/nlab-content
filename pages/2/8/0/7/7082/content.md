@@ -58,12 +58,31 @@ This is not true for $homotopyEquiv(f)$, which is not in general an h-prop even 
 
 We discuss the [[categorical semantics]] of equivalences in homotopy type theory.
 
-Let $\mathcal{C}$ be a [[locally cartesian closed category]] which is a [[model category]], in which the (acyclic cofibration, fibration) [[weak factorization system]] has [[stable path objects]], and acyclic cofibrations are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of coherence, which are not important for this discussion.)
+Let $\mathcal{C}$ be a [[locally cartesian closed category]] which is a [[model category]], in which the (acyclic cofibration, fibration) [[weak factorization system]] has [[stable path objects]], and acyclic cofibrations are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of coherence, which are not important for this discussion.) For instance $\mathcal{C}$ could be a [[type-theoretic model category]].
+
++-- {: .num_prop }
+###### Proposition
+
+For $A, B$ to [[cofibrant object|cofibrant]]-[[fibrant objects]] in $\mathcal{C}$,
+a morphism $f\colon A\to B$ is a [[weak equivalence]] or equivalently a [[homotopy equivalence]] in $\mathcal{C}$ precisely when the interpretation of $isEquiv(f)$ has a [[generalized element|global point]] $* \to isEquiv(f)$.
+
+=--
+
++-- {: .proof}
+###### Proof
 
 Note that for $f\colon A\to B$, the dependent type
 $$b\colon B \vdash hfiber(f,b)\colon Type$$
-is precisely the [[mapping path space]] construction, which is one way to factor $f$ as an [[acyclic cofibration]] followed by a [[fibration]].  By definition and the semantics of [[contractible types]], therefore, if $A$ and $B$ are cofibrant, then $isEquiv(f)$ has a [[global element]] precisely when in this factorization, the fibration $P f \to B$ is an acyclic fibration.  But by the 2-out-of-3 property, this is equivalent to $f$ being a weak equivalence --- and hence a homotopy equivalence, since it is a map between fibrant-cofibrant objects.
+is precisely the [[mapping path space]] construction $P f$, which is one way to factor $f$ as an [[acyclic cofibration]] followed by a [[fibration]]
 
+$$
+  f : A \stackrel{\simeq}{\to} P f \to B
+  \,.
+$$
+
+By definition and the semantics of [[contractible types]], therefore, if $A$ and $B$ are cofibrant, then $isEquiv(f)$ has a [[global element]] precisely when in this factorization, the fibration $P f \to B$ is an acyclic fibration.  But by the [[2-out-of-3 property]], this is equivalent to $f$ being a weak equivalence --- and hence a homotopy equivalence, since it is a map between fibrant-cofibrant objects.
+
+=--
 
 ## Related concepts
 
