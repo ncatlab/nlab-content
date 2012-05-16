@@ -1,0 +1,1 @@
+* David Mumford, _Towards An Enumerative Geometry of the Moduli Space of Curves_, Progress in Math., Vol. II (1983), pp. 271-328
