@@ -1,4 +1,4 @@
-[[!redirects initial algebra]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -24,6 +24,19 @@
 An __initial [[algebra for an endofunctor|algebra]]__ for an [[endofunctor]] $F$ on a [[category]] $C$ is an [[initial object]] in the category of [[algebra over an endofunctor|algebras]] of $F$.
 
 ## Properties
+
+### Relation to algebras over a monad
+
+The concept of an [[algebra of an endofunctor]] itself is somewhat odd, the natural concept being that of an [[algebra over a monad]].
+
++-- {: .num_prop}
+###### Proposition
+
+The [[category]] of [[algebras of an endofunctor]] $F : \mathcal{C} \to \mathcal{C}$ is [[equivalence of categories|equivalent]] to the category of [[algebras over a monad]] of the [[free monad]] on $F$.
+
+=--
+
+The proof is fairly straightforward, see for instance ([Maciej](#Maciej)).
 
 ### Lambek's theorem
  {#LambeksTheorem}
@@ -181,10 +194,19 @@ Theorem \ref{AdameksTheorem} applies in particular to any functor $F: Set \to Se
 
 ## References
 
-A review of some basics with an eye towards [[inductive types]] is in section 2 of
+A textbook account of the basic theory is in [chapter 10](http://www.andrew.cmu.edu/course/80-413-713/notes/chap10.pdf) of
+
+* [[Steve Awodey]], _Category theory_ lecture notes (2011) ([web](http://www.andrew.cmu.edu/course/80-413-713/))
+
+A brief review of some basics with an eye towards [[inductive types]] is in section 2 of
 
 * [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory* ([arXiv:1201.3898](http://arxiv.org/abs/1201.3898))
  {#AwodeyGambinoSojakova}
+
+The relation to [[free monads]] is discussed in 
+
+* [Maciej](#http://maciejcs.wordpress.com/), _[Free monads and their algebras](http://maciejcs.wordpress.com/2012/04/17/free-monads-and-their-algebras/)_
+ {#Maciej}
 
 [[!redirects initial algebras]]
 
@@ -195,3 +217,5 @@ A review of some basics with an eye towards [[inductive types]] is in section 2 
 [[!redirects initial algebra for an endofunctor]]
 [[!redirects initial algebras for an endofunctor]]
 [[!redirects initial algebras for endofunctors]]
+
+[[!redirects initial algebra]]
