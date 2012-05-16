@@ -103,17 +103,7 @@ $$
 $$
 
 
-precisely when in this factorization, the fibration $P f \to B$ is an acyclic fibration.  
-
-$$
-  \array{
-     B &\to& [b : B \vdash isContr(hfiber(f,b))] &\to& [b : B \vdash hfiber(f,b)]
-     \\
-     & {}_{\mathllap{id}}\searrow & \downarrow & \swarrow 
-     \\
-     && B
-  }
-$$
+precisely when in this factorization, the fibration $P f \to B$ is an acyclic fibration.  (See for instance ([Shulman, page 49](#www.math.ucsd.edu/~mshulman/hottminicourse2012/03models.pdf#page=49)) for more details.)
 
 
 But by the [[2-out-of-3 property]], this is equivalent to $f$ being a weak equivalence --- and hence a homotopy equivalence, since it is a map between fibrant-cofibrant objects.
@@ -134,6 +124,11 @@ But by the [[2-out-of-3 property]], this is equivalent to $f$ being a weak equiv
 An introduction to equivalence in homotopy type theory is in 
 
 * [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
+
+and basic ideas are also indicated around [slide 49](www.math.ucsd.edu/~mshulman/hottminicourse2012/03models.pdf#page=49) of 
+
+* [[Mike Shulman]], _Categorical models of homotopy type theory_ (2012) ([pdf](www.math.ucsd.edu/~mshulman/hottminicourse2012/03models.pdf))
+ {#Shulman}
 
 [[Coq]] code for homotopy equivalences is at
 
