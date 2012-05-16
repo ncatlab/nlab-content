@@ -30,8 +30,8 @@ To a large extent, [[type theory]] and [[category theory]] overlap or are equiva
 |--|--|--|--|
 |[[first-order logic]] |  | [[hyperdoctrine]] | ([Seely 1984a](#SeelyA)) |
 |[[dependent type theory]]|  | [[locally cartesian closed category]] | ([Seely 1984b](#Seely)) |
-|[[intensional type theory]] with [[identity types]] |  | [[locally cartesian closed (∞,1)-category]] | (conjectural) |
-|[[homotopy type theory]] with [[higher inductive types]] |  | [[elementary (∞,1)-topos]] | (conjectural) |
+|[[homotopy type theory]]|  | [[locally cartesian closed (∞,1)-category]] | (conjectural) |
+|[[homotopy type theory]] with [[higher inductive types]] and [[univalence]] |  | [[elementary (∞,1)-topos]] | (conjectural) |
 
 
 ## Theorems
@@ -56,7 +56,7 @@ The [[functors]]
 
 * $Cont$, that form a [[category of contexts]] of a [[first-order logic|first-order theory]];
 
-* $Lang$ that forms the [[internal language]] of a [[hyperdoctrine]]
+* $Lang$, that forms the [[internal language]] of a [[hyperdoctrine]]
 
 constitute an [[equivalence of categories]]
 
