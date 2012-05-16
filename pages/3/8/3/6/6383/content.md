@@ -18,7 +18,7 @@ For $p$ a [[prime number]] a group is **$p$-divisible** if the above formula hol
 
 ### For abelian groups
 
-If $G$ is abelian $G$ is divisible off it is an [[injective object]] in the the category of abelian groups - or equivalently iff $Hom(-,G)$ is [[exact functor|exact]].
+If $G$ is abelian $G$ is divisible iff it is an [[injective object]] in the the [[category]] [[Ab]] of [[abelian groups]] - or equivalently iff the [[hom functor]] $Hom(-,G)$ is [[exact functor|exact]].
 
 
 ## Examples
