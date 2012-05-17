@@ -12,13 +12,13 @@ $$
   \,,
 $$
 
-where on the right we have $n$ summands.
+where on the right we have $n$ summands. In other words, for every $n$ the 'multiply by $n$' map $G \stackrel{n}{\to} G$ is surjective.
 
 For $p$ a [[prime number]] a group is **$p$-divisible** if the above formula holds for all $n$ of the form $p^k$ for $k \in \mathbb{N}$.  (There is also an abstract notion of $p$-[[p-divisible group|divisible group]] in terms of [[group schemes]].)
 
 ### For abelian groups
 
-If $G$ is abelian $G$ is divisible iff it is an [[injective object]] in the the [[category]] [[Ab]] of [[abelian groups]] - or equivalently iff the [[hom functor]] $Hom(-,G)$ is [[exact functor|exact]].
+If $G$ is an abelian group, $G$ is divisible if and only if it is an [[injective object]] in the the [[category]] [[Ab]] of [[abelian groups]] if and only if the [[hom functor]] $Hom(-,G)$ is [[exact functor|exact]].
 
 
 ## Examples
