@@ -472,6 +472,20 @@ This means that
 
 =--
 
+### Web of Quillen equivalent model category presentations
+ {#WebOfQuillenEquivalences}
+
+We list [[model category]] structures that [[presentable (infinity,1)-category|present]] $Cat_{(\infty,n)}$ and [[Quillen equivalences]] between them.
+
+In the following $A$ is an [[model category]] presenting $Cat_{(\infty,n-1)}$ that is an "absolute distributor" in the sense discussed at _[[category object in an (∞,1)-category]]_. (That includes most of the model structures in the table, so that one can recurse over these constructions.)
+
+| [[model category]] | [[Quillen equivalence]] | [[model category]] | $n$Lab page | literature |
+|---|--|---|---|---|
+| [[model structure for Segal categories|projective structure for]]  $A$-[[Segal categories]] | $\stackrel{identity}{\leftrightarrow}$ | [[model structure for Segal categories|injective structure for]]  $A$-[[Segal categories]] | | ([Lurie, prop. 2.3.9](#Lurie))|
+| [[model structure for Segal categories|projective structure for]]  $A$-[[Segal categories]] | $\stackrel{inclusion}{\leftarrow}$ | $A$-[[enriched categories]] | | [Lurie, theorem 2.2.16](#Lurie) |
+| [[model structure for Segal categories|injective structure for]]  $A$-[[Segal categories]] | $\stackrel{UnPre}{\to}$ | [[model structure for complete Segal spaces|complete Segal space objects]] in $A$ | | [Lurie, prop 2.3.1](#Lurie) |
+| [[Theta-space|Theta-(n-1)-space]]-[[Segal categories]] | | [[Theta-space|Theta-(n-1)-space]]-[[enriched categories]] | | ([Bergner-Rezk, prop. 7.2](#BergnerRezk)) |
+
 ## Examples ##
 
 ### Special cases 
@@ -542,6 +556,7 @@ An axiomatic characterization is in
 Comparison of models is in 
 
 * [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories_ ([arXiv:1204.2013](http://arxiv.org/abs/1204.2013))
+ {#BergnerRezk}
 
 [[!redirects (infinity,r)-category]]
 [[!redirects (infinity,k)-category]]
