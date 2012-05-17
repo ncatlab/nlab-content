@@ -44,7 +44,7 @@ For a locally presentable $(\infty,1)$-category $C$, the following are equivalen
 1. [[(∞,1)-colimit|(∞,1)-Colimits]] in $C$ are [[universal colimits|stable under pullback]].
 1. $C$ admits a presentation by a [[combinatorial model category|combinatorial]] [[locally cartesian closed model category]].
 1. $C$ admits a presentation by a [[right proper model category|right proper]] [[Cisinski model category]].
-1. $C$ admits a [[presentable (infinity,1)-category|presentation]] by a right proper left Bousfield localization of an injective model category of simplicial presheaves.
+1. $C$ admits a [[presentable (infinity,1)-category|presentation]] by a [[right proper model category|right proper]] [[Bousfield localization of model categories|left Bousfield localization]] of an [[model structure on simplicial presheaves|injective model category of simplicial presheaves]].
 
 =--
 +-- {: .proof}
