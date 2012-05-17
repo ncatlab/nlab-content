@@ -1,10 +1,11 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ## 
 
-A club is a particular sort of [[doctrine]] or [[monad] on [[categories]], one which encapsulates the following frequently observed phenomenon: to describe [[free functor|free]] algebras $F(C)$ with respect to the monad, it frequently suffices to describe the free algebra $F(1)$ on the [[terminal category]], and then a certain "wreath product" gives the free algebra on $C$: 
+A club is a particular sort of [[doctrine]] or [[monad]] on [[categories]], one which encapsulates the following frequently observed phenomenon: to describe [[free functor|free]] algebras $F(C)$ with respect to the monad, it frequently suffices to describe the free algebra $F(1)$ on the [[terminal category]], and then a certain "wreath product" gives the free algebra on $C$: 
 
 $$F(C) \cong F(1) \int C$$
 
