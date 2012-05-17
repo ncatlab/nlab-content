@@ -62,7 +62,7 @@ This subcategory was considered in ([Rezk](#Rezk)). The term "gaunt" is due to (
 +-- {: .num_example #Globes}
 ###### Example
 
-For $k \leq n $ the $k$-[[globe]] is gaunt, $G_k Str n Cat_{gaunt} \hookrightarrow \in Str n Cat$.
+For $k \leq n $ the $k$-[[globe]] is gaunt, $G_k \in Str n Cat_{gaunt} \hookrightarrow \in Str n Cat$.
 
 Write
 
@@ -71,6 +71,8 @@ $$
 $$
 
 for the [[full subcategory]] of the [[globe category]] on the $k$-globes for $k \leq n$.
+
+Being a [[subobject]] of a gaunt $n$-category, also the [[boundary]] of a globe $\partial G_k \hookrightarrow G_k$ is gaunt, i.e. the $(k-1)$-[[skeleton]] of $G_k$.
 
 =--
 
@@ -93,23 +95,40 @@ for the smallest [[full subcategory]] that
 
 ([B-SP, def. 5.6](#BarwickSchommerPries))
 
++-- {: .num_defn #FundamentalPushouts}
+###### Definition
+
+Let $\nu : Str n Cat_{gaunt} \to PSh(Str n Cat_{gen})$ be the [[nerve]] operation induced by the above inclusion.
+
+Say that the _fundamental pushout morphisms_ in $PSh(Str n Cat_{gen})$ are
+
+1. (...) 
+
+1. (...)
+
+1. (...)
+
+1. (...)
+
+
+=--
+
 +-- {: .num_defn #AxiomaticDefinition}
 ###### Definition
 
-An **$(\infty,1)$-category of $(\infty,n)$-categories** is an [[(∞,1)-category]] $\mathcal{C}$ equipped with a [[full and faithful (∞,1)-functor]] 
+An **$(\infty,1)$-category of $(\infty,n)$-categories** $Cat_{(\infty,n)}$ is an [[(∞,1)-category]] equipped with a [[full and faithful (∞,1)-functor]] 
 
 $$
-  i :  \mathcal{Y}_n \to \tau_{\leq 0}\mathcal{C}
+  i :  Str n Cat_{gen} \to \tau_{\leq 0}Cat_{(\infty,n)}
 $$ 
 
 into its category of [[n-truncated object in an (infinity,1)-category|0-truncated]] objects, such that 
 
-1. $\mathcal{Y}_n \to \tau_{\leq 0} \mathcal{C} \hookrightarrow \mathcal{C} $ strongly generates $\mathcal{C}$;
+1. $\mathcal{Y}_n \to \tau_{\leq 0} Cat_{(\infty,n)} \hookrightarrow Cat_{(\infty,n)} $ strongly generates $\mathcal{C}$;
 
-1. $i$ preserves the [fundamental pushouts](#FundamentalPushouts) in $\mathcal{Y}_n$;
+1. $i$ preserves the [fundamental pushouts](#FundamentalPushouts);
 
-1. a [[base change]] [[adjoint triple]] in $\mathcal{C}$ exists along morphisms with codomain in the image of $i$;
-
+1. a [[base change]] [[adjoint triple]] in $Cat_{(\infty,n)}$ exists along morphisms with codomain in the image of $i$;
 
 and such that $\mathcal{C}$ is [[universal property|universal]] with respect to these properties.
 
@@ -117,6 +136,14 @@ and such that $\mathcal{C}$ is [[universal property|universal]] with respect to 
 
 ([B-SP, def. 6.8](#BarwickSchommerPries))
 
++-- {: .num_remark }
+###### Remark
+
+It is fairly immeidate that this definition characterizes $Cat_{(\infty,n)}$ uniquely, up to [[equivalence of (∞,1)-categories]].
+
+See prop. \ref{AutomorphismInfinityGroup} below.
+
+=--
 
 ### Via $\infty$-enrichment
  {#ViaEnrichment}
@@ -133,6 +160,42 @@ and such that $\mathcal{C}$ is [[universal property|universal]] with respect to 
 * [[n-fold complete Segal space]]
 
 
+## Properties
+
+### Uniqueness and equivalences
+
++-- {: .num_prop #AutomorphismInfinityGroup}
+###### Proposition
+
+Let $Models_{(\infty,n)} \hookrightarrow \hat Cat_{(\infty,1)}$
+be the [[core]] (maximal [[∞-groupoid]] inside) the full [[sub-(∞,1)-category]]
+of [[(∞,1)Cat]] on those that satisfy the definition \ref{AxiomaticDefinition}. 
+
+This is [[equivalence of (∞,1)-categories|equivalent]] to
+
+$$
+  Models_{(\infty,n)} \simeq B (\mathbb{Z}_2)^n
+$$
+
+the [[delooping]] [[groupoid]] of the [[group]] $(\mathbb{Z}_2)^n$, the $n$-fold [[product]] of the [[group of order 2]] with itself.
+
+The nontrivial element $\sigma \in \mathbb{Z}_2$ in the $k$th slot acts by passing to the $k$-opposite $(\infty,n)$-category.
+
+=--
+
+([B-SP, theorem 8.13](#BarwickSchommerPries))
+
++-- {: .num_remark }
+###### Remark
+
+This means that 
+
+1. the $(\infty,1)$-category $Cat_{(\infty,n)}$ from def. \ref{AxiomaticDefinition} is uniquely defined, up to [[equivalence of (∞,1)-categories]];
+
+1. the [[automorphism ∞-group]] of $Cat_{(\infty,n)}$ in $\hat Cat_{(\infty,1)}$ is $(\mathbb{Z}_2)^n$, hence the only auto-equivalences are given by reversal of [[k-morphisms]].
+
+=--
+
 ## Examples ##
 
 ### Special cases 
@@ -141,7 +204,6 @@ and such that $\mathcal{C}$ is [[universal property|universal]] with respect to 
 * [[(∞,1)-category]]
 * [[(∞,2)-category]]
 * etc ...
-* [[∞-category]] = $(\infty,\infty)$-category.
 
 In addition,
 * [[(n,r)-category|(m,n)-categories]] can be obtained as particular $(\infty,n)$-categories whose $k$-cells are trivial for $k\gt m$.
