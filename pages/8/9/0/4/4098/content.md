@@ -59,11 +59,18 @@ For a particular [[cocone]] $\mu \colon F \to \Delta A$ under a functor $F\colon
 
 * $\mu$ is a colimiting cocone which is is preserved by the [[Yoneda embedding]] $C \hookrightarrow [C^{op},Set]$.
 
+* $\mu$ is a colimiting cocone which is preserved by the representable functors $C(F(i),-)\colon C\to Set$ (for all $i\in I$) and $C(A,-)\colon C\to Set$.
+
 * There exists $i_0\in I$ and $d_0\colon A\to F(i_0)$ such that
   1. For every $i\in I$, $d_0 \circ \mu_i$ and $1_{F(i)}$ are in the same connected component of the [[comma category]] $(F(i) / F)$.
   1. $\mu_{i_0} \circ d_0 = 1_{A}$.
 
-The equivalence of the first two is basically because the Yoneda embedding is the [[free cocompletion]] of $C$.  The third characterization comes from looking at preservation by particular [[representable functors]].  Note that in particular, it means that $A$ is a [[retract]] of $F(i_0)$.  Also, the first half of the third condition by itself characterizes absolute [[weak colimits]].
+The equivalence of the first two is basically because the Yoneda embedding is the [[free cocompletion]] of $C$.  The third clearly follows from the second.  The fourth follows from the third by inspecting exactly what preservation by those representables means in terms of colimits in [[Set]] (as is explained in more detail in the special case of [[absolute coequalizers]]).  Finally, it is straightforward to check that the fourth implies that $\mu$ is colimiting, and it is clearly a property preserved by any functor.
+
+Note that in particular, the fourth condition implies that $A$ is a [[retract]] of $F(i_0)$.  Also, the first half of the fourth condition by itself characterizes absolute [[weak colimits]].
+
+It is also possible to prove directly that the third condition implies the first two, without extracting the fourth condition along the way.  Namely, Let $B$ be the full subcategory of $C$ consisting of the objects $F(i)$ and $A$.  Then $F$ defines a functor $I\to B$; call it $F'$.  Note that $A$ is also the colimit of $F'$ in $B$.  Moreover, by the equivalence of the first two conditions, $A$ is an *absolute* colimit of $F'$, since by hypothesis it is preserved by all representable functors out of $B$.  Therefore, this colimit is in particular preserved by the inclusion $B\hookrightarrow C$, along with its composite with any functor out of $C$; so $A$ is an absolute colimit of $F$.
+
 
 ### Weights for absolute colimits
 
