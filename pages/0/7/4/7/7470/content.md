@@ -40,11 +40,13 @@ $$
 
 For $\mathcal{V} \in$ [[∞Grpd]], this should be [[equivalence of (∞,1)-categories|equivalent]] to ordinary [[(∞,1)-categories]].
 
-A construction that should be a model for this notion in terms of a [[model category]] presentation for $\mathcal{V}$ is discussed in ([Simpson](#Simpson)). For the case that $\mathcal{V} = $ [[∞Grpd]] [[presentable (∞,1)-category|presented]] by the standard [[model structure on simplicial sets]] this reproduces the notion of _[[Segal categories]]_. (See there for further details and references.)
+A construction that should be a model for this notion in terms of a [[model category]] presentation for $\mathcal{V}$ is discussed in ([Simpson](#Simpson)). For the case that $\mathcal{V} = $ [[∞Grpd]] [[presentable (∞,1)-category|presented]] by the standard [[model structure on simplicial sets]] this reproduces the notion of _[[Segal categories]]_. (See there for further details and references.) The iteration of this construction yields [[Segal n-categories]], a model for [[(∞,n)-categories]].
 
 Once a model category $V$ for $\mathcal{V}$ has been chosen, one can consider [[semi-strict infinity-category|semi-strict]] $\infty$-enrichments given by ordinary $V$-[[enriched categories]] equipped with a notion of weak equivalence that remembers that these are presentations for enriched $(\infty,1)$-categories. See also _[[enriched homotopical category]]_. 
 
 ## Related concepts
+
+* [[Segal category]], [[Segal n-category]]
 
 * [[enriched homotopical category]]
 
