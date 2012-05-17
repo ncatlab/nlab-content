@@ -138,3 +138,5 @@ See the references at [[2-category]].
 
 [[!redirects bicategory]]
 [[!redirects bicategories]]
+
+[[!redirects coherence theorem for bicategories]]
