@@ -122,7 +122,7 @@ If you think of $Cat$ as the model category of categories and functors with the 
 
 ### Anaequivalence
 
-Two categories $C$ and $D$ are __anaequivalent__ if there exist [[anafunctor]]s $F\colon C \to D$ and $G\colon D \to C$ such that $F G$ and $G F$ are each ananaturally isomorphic (isomorphic in the relevant [[anafunctor category]]) to the appropriate [[identity anafunctor]].  In this case, we say that $F$ is an __anaequivalence__ from $C$ to $D$ (so $G$ is an anaequivalence from $D$ to $C$).  The functor $G$ is called an __anainverse__ of $F$ (so $F$ is an anainverse of $G$).
+Two categories $C$ and $D$ are __anaequivalent__ if there exist [[anafunctors]] $F\colon C \to D$ and $G\colon D \to C$ such that $F G$ and $G F$ are each ananaturally isomorphic (isomorphic in the relevant [[anafunctor category]]) to the appropriate [[identity anafunctor]].  In this case, we say that $F$ is an __anaequivalence__ from $C$ to $D$ (so $G$ is an anaequivalence from $D$ to $C$).  The functor $G$ is called an __anainverse__ of $F$ (so $F$ is an anainverse of $G$). See also _[[weak equivalence of internal categories]]_.
 
 Any strict functor is an anafunctor, so any strong equivalence is an anaequivalence.  Using the axiom of choice, any anafunctor is [[ananatural isomorphism|ananaturally isomorphic]] to a strict functor, so any anaequivalence defines a strong equivalence.  Using the definition of an anafunctor as an appropriate span of strict functors, a weak equivalence defines two anafunctors which form an anaequivalence; conversely, either anafunctor in an anaequivalence is (as a span) a weak equivalence.
 
@@ -179,7 +179,9 @@ As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricat
 
 * [[equivalence in an (∞,1)-category]]
 
-* **equivalence of categories**, [[adjoint functor]]
+* **equivalence of categories**, [[weak equivalence of internal categories]]
+
+  [[adjoint functor]]
 
 * [[equivalence of 2-categories]], [[2-adjunction]]
 
