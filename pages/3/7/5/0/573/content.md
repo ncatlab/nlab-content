@@ -47,15 +47,32 @@ and those that build them by [[internalization]] in the collection of $(\infty,n
 
 We discuss the axiomatic characterization of the [[(∞,1)-category]] of $(\infty,n)$-categories due to ([Barwick, Schommer-Pries](#BarwickSchommerPries)).
 
+The main definition is def. \ref{AxiomaticDefinition} below, which rouhgly says that the collection of $(\infty,n)$-categories is _generated_ from [[strict n-categories]] in a certain sense. Therefore we first need to fix some terminology and notions about strict $n$-categories.
+
 +-- {: .num_defn}
 ###### Definition
 
-Write $n Cat$ for the 1-[[category]] of [[strict n-categories]]. Write
-$n Cat_{gaunt} \hookrightarrow$ for the [[full subcategory]] on the _Gaunt $n$-categories_, those $n$-categories whose only invertible [[k-morphisms]] are the identities.
+Write $Str n Cat$ for the 1-[[category]] of [[strict n-categories]]. Write
+$Str n Cat_{gaunt} \hookrightarrow  Str n Cat$ for the [[full subcategory]] on the _gaunt $n$-categories_, those $n$-categories whose only invertible [[k-morphisms]] are the identities.
 
 =--
 
 This subcategory was considered in ([Rezk](#Rezk)). The term "gaunt" is due to ([Barwick, Schommer-Pries](#BarwickSchommerPries)).
+
++-- {: .num_example #Globes}
+###### Example
+
+For $k \leq n $ the $k$-[[globe]] is gaunt, $G_k Str n Cat_{gaunt} \hookrightarrow \in Str n Cat$.
+
+Write
+
+$$
+  \mathbb{G}_{\leq n} \hookrightarrow Str n Cat_{gaunt}
+$$
+
+for the [[full subcategory]] of the [[globe category]] on the $k$-globes for $k \leq n$.
+
+=--
 
 +-- {: .num_defn}
 ###### Definition
@@ -63,16 +80,20 @@ This subcategory was considered in ([Rezk](#Rezk)). The term "gaunt" is due to (
 Write
 
 $$
-  \mathcal{Y}_n \hookrightarrow Gaunt_n
+  Str n Cat_{gen} \hookrightarrow Str n Cat_{gaunt}
 $$
 
-for the smallest [[full subcategory]] that contains the [[globe category]] $G_{\leq n}$, has all [[retracts]] and [[fiber products]] over cells ()..
+for the smallest [[full subcategory]] that 
+
+1. contains the [[globe category]] $\mathbb{G}_{\leq n}$, example \ref{Globes};
+1. is closed under [[retracts]] in $Str n Cat_{gaunt}$; 
+1. has all [[fiber products]] over [[globes]].
 
 =--
 
 ([B-SP, def. 5.6](#BarwickSchommerPries))
 
-+-- {: .num_defn}
++-- {: .num_defn #AxiomaticDefinition}
 ###### Definition
 
 An **$(\infty,1)$-category of $(\infty,n)$-categories** is an [[(∞,1)-category]] $\mathcal{C}$ equipped with a [[full and faithful (∞,1)-functor]] 
