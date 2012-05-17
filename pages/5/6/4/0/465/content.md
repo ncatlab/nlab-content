@@ -47,6 +47,8 @@ On the other hand, every [[split epimorphism]] is regular, but the converse hold
 
 * In [[Set|the category of sets]], every epimorphism is regular. Thus, it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.  Frequently, regular epimorphisms are a good choice.  In particular, one may define a [[projective object]] (and hence the [[axiom of choice]]) using regular epimorphisms.
 
+* More generally, in every [[Grothendieck topos]] every epimorphism is regular (and in act [[effective epimorphism|effective]], see there).
+
 * In the category of [[monoid]]s, the inclusion $\mathbb{N}\hookrightarrow\mathbb{Z}$ is an epimorphism, even though it is far from a [[surjection]].  But in this or any other [[algebraic category]] (a category of models of an [[algebraic theory]]), the morphisms whose underlying function is surjective are precisely the regular epimorphisms.  Thus $\mathbb{N}\hookrightarrow\mathbb{Z}$ is not a regular epimorphism.
 
 * In [[Diff]], the category of smooth (paracompact) manifolds, regular epimorphisms are not as useful as in other settings. As any [[split epimorphism]] is regular, and split epimorphisms are badly behaved in $\Diff$ (for example, pullbacks of split epis do not necessarily exist), the usual procedure is to consider the smallest class of arrows inside regular epis of which all pullbacks exist, namely the surjective [[submersions]]. In the setting of [[differentiable stacks]] and [[Lie groupoids]] it is surjective submersions that play the role of regular epimorphisms.
