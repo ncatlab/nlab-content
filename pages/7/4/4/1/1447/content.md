@@ -23,6 +23,7 @@ Notably the inclusion $Sh(S) \hookrightarrow PSh(S)$ of a [[category of sheaves]
 
 Another perspective is that a geometric embedding $F \hookrightarrow E$ is the [[localizations]] of $E$ at the class $W$ or morphisms that the [[left adjoint]] $E \to F$ sends to isomorphisms in $F$.
 
+The induced geometric morphism of a topological immersion $X \hookrightarrow Y$ is a geometric embedding. The converse holds if $Y$ is a $T_0$ space. (Example A4.2.12(c) in ([Johnstone](#Johnstone)))
 
 ## Definition
 
@@ -670,10 +671,15 @@ See [[reflective sub-(∞,1)-category]] for more details.
 
 ## References
 
-section VII, 4 of 
+Section VII, 4 of 
 
 * [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
 {#MacLaneMoerdijk}
+
+and section A4.2 of
+
+* [[Peter Johnstone]], _[[Elephant|Sketches of an elephant: a topos theory compendium]]_. 
+{#Johnstone}
 
 [[!redirects geometric embeddings]]
 
