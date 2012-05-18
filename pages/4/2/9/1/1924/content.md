@@ -28,6 +28,9 @@
 
 * [[Lie integration]]
 
+* in [[combinatorics]]
+
+  * [[Euler integration]]
 
 ## References
 
