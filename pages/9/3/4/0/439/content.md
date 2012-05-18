@@ -22,7 +22,7 @@
 
 * [[string field theory]]
 
-
+[[!redirects James Stasheff]]
 [[!redirects jim stasheff]]
 [[!redirects jim_stasheff]]
 
