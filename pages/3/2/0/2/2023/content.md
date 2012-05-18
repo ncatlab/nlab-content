@@ -53,7 +53,9 @@ The entire poset $P$ is also considered an __unbounded interval__ in itself.
 
 #### Intervals in the real line
 
-Intervals of [[real numbers]] are important in [[analysis]] and [[topology]].  The bounded closed intervals in the real line are the original [[compact space]]s.
+Intervals of [[real numbers]] are important in [[analysis]] and [[topology]].  The bounded closed intervals in the real line are the original [[compact spaces]].
+
+The interval in the reals has a [[universal property|universal]] characterization: it [is the terminal coalgebra](http://ncatlab.org/nlab/show/terminal+coalgebra+of+an+endofunctor#UnitInterval) of the [[endofunctor]] on the category of all intervales that glues an interval end-to-end to itself.
 
 The __unit interval__ $[0,1]$ is primary in [[homotopy theory]]; a __[[homotopy]]__ from $f$ to $g$ (themselves continuous maps from $A$ to $B$) is a continuous map $h: A \times [0,1] \to B$ such that $h(x,0) = f(x)$ and $h(x,1) = g(x)$ always.  This generalises to the notion of [[interval object]] in an arbitrary category.
 
