@@ -21,7 +21,7 @@ In [[higher category theory]] an _$(\infty,n)$-category_ may be thought of as
 
 * an [[n-category]] up to [[coherence|coherent]] [[homotopy]];
 
-* [[(n,r)-category|(r,n)-category]] for $r = \infty$;
+* an [[(n,r)-category|(r,n)-category]] for $r = \infty$;
 
 * a [[weak omega-category]] for which all [[k-morphisms]] with $k \gt n$ are [[equivalences]].
 
@@ -184,6 +184,10 @@ and those that build them by [[internalization]] in the collection of $(\infty,n
  {#AxiomaticCharacterization}
 
 We discuss a characterization of the [[(∞,1)-category]] of $(\infty,n)$-categories as an $(\infty,1)$-category [[generators and relations|generated]] by [[strict n-categories]], due to ([Barwick, Schommer-Pries](#BarwickSchommerPries)).
+
+The blueprint for the following construction is the traditional fact that a [[category]] is characterized by the fact that its [[nerve]] is a [[simplicial set]] which satisfies the [[Segal conditions]], which reflect the existence of composition in a category. Since the simplicial nerve is induced from the [[total order|linear categories]] $\Delta[n] = \{0 \to 1 \to 2 \to \cdots \to n\}$ this can be taken as saying that these linear categories _generate_ [[Cat]], subject to the condition that there exists composites. 
+
+The following discussion takes this point of view and generalizes it to a similar presentation of $(\infty,n)$-categories by very simple [[strict n-categories]].
 
 #### Preliminaries
 
@@ -578,26 +582,75 @@ is an [[equivalence of (∞,1)-categories]]:
 
 ([B-SP, theorem 9.2](#BarwickSchommerPries)) 
 
-#### Presentation by theta-spaces
+#### Presentation by theta-spaces and $n$-fold complete Segal spaces
  {#PresentationByThetaSpaces}
 
-A closely related presentation is given by [[Theta spaces]].
+We discuss now presentations of $Cat_{(\infty,n)}$ over subcategories of $Str n Cat_{gen}$, according to prop. \ref{SufficientConditionsForPresentation}.
+
 
 +-- {: .num_prop }
 ###### Proposition
 
-The $n$th [[Theta category]] is a [[full subcategory]] $\Theta_n \hookrightarrow Str n Cat_{gen}$ and the localization that defines the $(\infty,1)$-category $\Theta_n Space$ of $(\infty,n)$-[[Theta-spaces]] satisfies the conditions of prop. \ref{SufficientConditionsForPresentation}. 
+The $n$th [[Theta category]] is a [[full subcategory]] 
 
-Hence $\Theta_n$-spaces are a model for $(\infty,n)$-categories, in the sense of def. \ref{AxiomaticDefinition}:
+$$
+  \Theta_n \hookrightarrow Str n Cat_{gen}
+$$ 
+
+and the localization of $PSh_\infty(\Theta_n)$ that defines the $(\infty,1)$-category $\Theta_n Space$ of $(\infty,n)$-[[Theta-spaces]] satisfies the conditions of prop. \ref{SufficientConditionsForPresentation}. 
+
+Hence $(\infty,n)$-[[Theta-spaces]] are a model for $(\infty,n)$-categories, in the sense of def. \ref{AxiomaticDefinition}:
 
 $$
   \Theta_n Space \simeq Cat_{(\infty,n)}
   \,.
 $$
 
+
 =--
 
 ([B-SP, theorem 11.15](#BarwickSchommerPries))
+
+There is a further restriction from the objects of $\Theta_n$ to  _$n$-fold simplices_ regarded as _[grid object](Theta+category#EmbeddingOfGrids)_, under the canonical embedding
+
+$$
+  \delta_n : \Delta^{\times n} \to \Delta^{\wr n} \simeq \Theta_n
+$$ 
+
+induced by the identification of the $n$th[[Theta-category]] (see there) with the $n$-fold [[categorical wreath product]] of the [[simplex category]] with itself.
+
+
++-- {: .num_prop #CompleteSegalOvernFoldSimplicialSetsIsPresentation}
+###### Proposition
+
+The inclusion
+
+$$
+  \Delta^{\times n} \stackrel{\delta_n}{\to} 
+  \Theta_n \hookrightarrow Str n Cat_{gen}
+$$ 
+
+and the localization of $PSh_\infty(\Delta^{\times n})$ that defines the $(\infty,1)$-category $CSS(\Delta^{\times n})$ of _[[n-fold complete Segal spaces]]_ satisfies the conditions of prop. \ref{SufficientConditionsForPresentation}. 
+
+Hence [[n-fold complete Segal spaces]] are a model for $(\infty,n)$-categories, in the sense of def. \ref{AxiomaticDefinition}:
+
+$$
+  CSS(\Delta^{\times n}) \simeq Cat_{(\infty,n)}
+  \,.
+$$
+
+
+=--
+
+([B-SP, theorem 12.6](#BarwickSchommerPries))
+
++-- {: .num_remark}
+###### Remark
+
+
+Below in [Via ∞-Internalization -- Presentation by complete Segal spaces](#PresentationByCompleteSegal) is discussed that $n$-fold complete Segal spaces also naturally model an alternative definition of $(\infty,n)$-categories by [iterated ∞-internalization](#ViaInternalization). Then prop. \ref{CompleteSegalOvernFoldSimplicialSetsIsPresentation} serves to show that this is equivalent to def. \ref{AxiomaticDefinition} above.
+
+=--
 
 
 ### Via $\infty$-enrichment
@@ -674,7 +727,8 @@ def. \ref{AxiomaticDefinition}.
 
 =--
 
-This is ([B-SP, theorem 12.6](#BarwickSchommerPries)), shown there via the presentations discussed [below](#PresentationByCompleteSegal).
+This is prop. \ref{CompleteSegalOvernFoldSimplicialSetsIsPresentation}
+in view of the presentation discussed [below](#PresentationByCompleteSegal).
 
 #### Presentation by $n$-fold complete Segal spaces
  {#PresentationByCompleteSegal}
@@ -695,28 +749,15 @@ which [[presentable (infinity,1)-category|presents]] $Cat^n(\infty Grpd)$.
 =--
 
 
-A presentation of $Cat^n(\infty Grpd)$ is given by [[n-fold complete Segal spaces]].
-
-
 +-- {: .num_prop }
 ###### Proposition
 
-The $n$-fold  product of the [[simplex category]] is naturally a [[full subcategory]] $\Delta{\times n} \hookrightarrow Str n Cat_{gen}$ and the localization that gives the $(\infty,1)$-category $CSS(\Delta^{\times n})$ of [[n-fold complete Segal space]] satisfies the conditions of prop. \ref{SufficientConditionsForPresentation}. 
-
-Hence $n$-fold complete Segal space are a model for $(\infty,n)$-categories, in the sense of def. \ref{AxiomaticDefinition}:
-
-$$
-  \Theta_n Space \simeq Cat_{(\infty,n)}
-  \,.
-$$
+$cSegal_n$ is equivalent to the $CSS(\Delta^{\times n})$
+from prop. \ref{CompleteSegalOvernFoldSimplicialSetsIsPresentation}.
 
 =--
 
-([B-SP, theorem 12.6](#BarwickSchommerPries))
-
-
 (...)
-
 
 ## Properties
 
@@ -822,6 +863,7 @@ In the following $A$ is an [[model category]] presenting $Cat_{(\infty,n-1)}$ th
 | [[model structure for Segal categories|projective structure for]]  $A$-[[Segal categories]] | $\stackrel{inclusion}{\leftarrow}$ | $A$-[[enriched categories]] | | [Lurie, theorem 2.2.16](#Lurie) |
 | [[model structure for Segal categories|injective structure for]]  $A$-[[Segal categories]] | $\stackrel{UnPre}{\to}$ | [[model structure for complete Segal spaces|complete Segal space objects]] in $A$ | | [Lurie, prop 2.3.1](#Lurie) |
 | [[Theta-space|Theta-(n-1)-space]]-[[Segal categories]] | | [[Theta-space|Theta-(n-1)-space]]-[[enriched categories]] | | ([Bergner-Rezk, prop. 7.2](#BergnerRezk)) |
+|$\vdots$| |$\vdots$| | |
 
 ## Examples ##
 
@@ -869,6 +911,10 @@ In addition,
 
 ## References ##
 
+Definition in terms of [[n-fold complete Segal spaces] and [[Segal n-categories]] are due to the (unpublished) thesis
+
+* [[Clark Barwick]], _$(\infty,n)$-$Cat$ as a closed model category_ PhD (2005)
+
 The definition in terms of [[Theta spaces]] is due to
 
 * [[Charles Rezk]], _A cartesian presentation of weak n-categories_ ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602))
@@ -887,7 +933,7 @@ A summary of definitions and some known comparison results can be found at
 
 An axiomatic characterization is in 
 
-* [[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [unusual slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
+* [[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
  {#BarwickSchommerPries}
 
 Comparison of models is in 
