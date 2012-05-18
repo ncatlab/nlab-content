@@ -17,9 +17,9 @@
 
 For $p$ any [[prime number]], the _$p$-adic numbers_ $\mathbb{Q}_p$ are a [[field]] that [[complete field|completes]] the field of [[rational numbers]]. As such they are analogous to [[real numbers]]. A crucial difference is that the reals form an [[archimedean field]], while the $p$-adic numbers form a [[non-archimedean field]].
 
-$p$-Adic numbers play a role in non-archimedean [[analytic geometry]] that is analogous to the role of the real numbers/[[Cartesian spaces]] in ordinary [[differential geometry]]. 
+$p$-Adic numbers play a role in non-archimedean [[analytic geometry]] that is analogous to the role of the [[real numbers]]/[[Cartesian spaces]] in ordinary [[differential geometry]]. 
 
-There have long been speculations (see the references [below](#ReferencesApplications)) that this must mean that $p$-adic numbers also play a central role in the description of [[physics]].
+There have long been speculations (see the references [below](#ReferencesApplications)) that this must mean that $p$-adic numbers also play a central role in the description of [[physics]], see _[[p-adic physics]]_.
 
 ## Definition
 
