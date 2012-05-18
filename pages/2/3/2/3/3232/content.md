@@ -127,6 +127,11 @@ More generally, $Mod(Span(C))$, for $C$ any category with coequalizers and pullb
 
 * [[John Isbell]], _Generic algebras_ Transactions of the AMS, vol 275, number 2 ([pdf](http://www.ams.org/journals/tran/1983-275-02/S0002-9947-1983-0682715-8/S0002-9947-1983-0682715-8.pdf))
 
+Discussion of [[model category]] structures on categories of [[coalgebras]] over [[comonads]] is in 
+
+* [[Kathryn Hess]], [[Brooke Shipley]], _The homotopy theory of coalgebras over a comonad_ ([arXiv:1205.3979](http://arxiv.org/abs/1205.3979))
+
+
 [[!redirects module of a monad]]
 [[!redirects module for a monad]]
 [[!redirects modules of a monad]]
