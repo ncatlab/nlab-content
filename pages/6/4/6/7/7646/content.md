@@ -3,3 +3,5 @@
 * [[wreath product of groups]]
 
 * [[categorical wreath product]]
+
+[[!redirects wreath products]]
