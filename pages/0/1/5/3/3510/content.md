@@ -27,6 +27,20 @@ The _[[model category]] structure_ on the collection of all [[bisimplicial sets]
 
 ## Definition
 
+We first discuss the model structure
+
+* [for complete Segal spaces](#ForCompleteSegalSpaces)
+
+as such, and then more generally model structures 
+
+* [for complete Segal space objects](#ForCompleteSegalSpaceObjects)
+
+in a suitable ambient model category $\mathcal{C}$, which reproduce
+the previous case when $\mathcal{C} = sSet_{Quillen}$.
+
+### For complete Segal spaces
+ {#ForCompleteSegalSpaces}
+
 Write [[sSet]] for the [[category]] of [[simplicial sets]], which here we always think of as equipped with the standard [[model structure on simplicial sets]]  that is a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category]] [[∞Grpd]].
 
 Write $[\Delta^{op}, sSet]$ for the category of [[simplicial objects]] in $sSet$, hence for the category of [[bisimplicial sets]]. This inherits from $sSet$ in particular the 
@@ -135,8 +149,17 @@ The fibrant objects in the structure are precisely the [[complete Segal spaces]]
 This is essentially ([Rezk, theorem 7.2](#Rezk)).
 See also ([Joyal-Tierney, theorem 4.1](#JoyalTierney)). 
 
+### For complete Segal space objects
+ {#ForCompleteSegalSpaceObjects}
 
++-- {: .num_prop}
+###### Proposition
 
+(...)
+
+=--
+
+([Lurie, prop. 1.5.4, remark 1.5.6](#Lurie))
 
 ## Properties
 
