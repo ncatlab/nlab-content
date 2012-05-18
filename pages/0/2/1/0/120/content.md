@@ -64,9 +64,9 @@ See _[[equivalence in homotopy type theory]]_.
 
 * [[equality]]
 
-* [[isomorphism]]
+* [[isomorphism]], [[natural isomorphism]]
 
-* **equivalence**
+* **equivalence**, [[natural equivalence]]
 
 * [[weak equivalence]]
 
@@ -79,11 +79,6 @@ See _[[equivalence in homotopy type theory]]_.
 * [[equivalence of (∞,1)-categories]]
 
 
-## References
-
-An introduction to [[equivalence in homotopy type theory]] is in 
-
-* [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
 
 [[!redirects equivalences]]
 [[!redirects equivalent]]
