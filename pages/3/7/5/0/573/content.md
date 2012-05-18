@@ -42,7 +42,117 @@ There is also a fairly simple axiomatization of the [[(∞,1)-category]] $Cat_{(
 
 Then there is a plethora of [[model category]] structures that [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] $Cat_{(\infty,n)}$.
 
+## Introduction
+
+Here are some introductory words for readers unfamiliar with the general idea. Other readers should skip [ahead](#Definition).
+
+
+
+### For 1-category theorists
+ {#1CatIntro}
+
+This section assumes that the reader is well familiar with [[category theory]] and maybe with [[strict omega-categories]] but in need of some introductory words on $(\infty,n)$-categories.
+
+Ordinary [[category theory]] provides various powerful tools for generating higher order structures, among them notably
+
+1. [[enriched category theory|enrichment]]
+
+1. [[internalization]].
+
+Here we are interested in higher order _[[categories]]_, so weconsider [[Cat]] itself as a 1-categorical context for either of these procedures. Since [[Cat]] naturally a [[cartesian monoidal category]] 
+
+$$
+  (\mathcal{V}, \otimes) \coloneqq (Cat, \times)
+$$ 
+
+we may form the [[category of V-enriched categories]] $\mathcal{V}Cat \coloneqq Cat Cat$. A $Cat$-category consists of
+
+* a collection of [[objects]];
+
+* for each pair of objects $A$, $B$ a _category_ of morphisms, hence to be thought of as collection of ordinary morphisms $A \to B$ together with _morphisms between these morphisms_: [[2-morphisms]];
+
+* such that composition is a _functor_ on these hom-categories.
+
+This is the structure of a _[[strict 2-category]]_. We have that
+
+$$
+  Cat Cat \simeq Str 2 Cat
+  \,.
+$$
+
+is the category of strict 2-categories.
+
+By general results of [[enriched category theory]] (or by immediate inspection), this is still a [[cartesian monoidal category]] and so we may iterate this and consider now the enriching category
+
+$$
+  (\mathcal{V}, \otimes) \coloneqq (Cat Cat, \times)
+$$
+
+and construct again $\mathcal{V}Cat$, which now is
+
+$$
+  (Cat Cat) Cat \simeq Str 3 Cat
+$$
+
+the category of strict _[[3-categories]]_. It continues this way, and so for every $n \in \mathbb{N}$ the $n$-fold iterated enrichment of $Cat$ is the category 
+
+$$
+  Str n Cat \simeq  (\cdots ((Cat Cat)Cat) \cdots) Cat
+$$
+
+of _[[strict n-categories]]_. The [[inductive limit]] of this construction finally is the category of [[strict omega-categories]].
+
+While this easily generates [[higher category theory|higher categorical structures]], it does so, as the terminology indicates, only in a very restrictive way: while every [[2-category]] still happens to be [[equivalence of 2-categories|equivalent]] to a [[strict 2-category]], already the general [[3-category]] is no longer equivalent to a strict 3-category, and the discrepancy only increases with $n$.
+
+But inspection in the case of [[2-categories]] already shows what the problem is: in a [[bicategory|weak 2-category]] structural relations such as [[associativity]] and [[unitality]] no longer hold as equations but only _up to_ an _invertible_ [[2-morphism]], whereas objects in  $Str 2 Cat \simeq Cat Cat$, by definition of [[enriched category]], satisfy these relations _strictly_ -- therefore the name. 
+
+But this problem directly corresponds to an evident shortcoming of the very starting point of the above recursive construction: that construction regarded [[Cat]] as a 1-category in order to fit it into the standard formulation of [[enriched category theory]]; however [[Cat]] is naturally rather a [[2-category]] itself. The enrichment procedure should be allowed to make use of this extra structure. On the other hand, as we have just seen, the failure of $Cat Cat$ to model all of [[2Cat]] is only in the lack of _invertible_ 2-morphisms. Therefore what should really matter for the improved enrichment is just the [[(2,1)-category]] underlying [[Cat]], which is the 2-category consisting of all [[categories]], all [[functors]] between them, but only _[[natural isomorphism]]_ instead of all [[natural transformations]] between those.
+
+This way one does arrive at a suitable refined notion of enrichment over the [[(2,1)-category]] $Cat$, and interpreted this way one does finds that $Cat Cat$ then indeed produces all of [[2Cat]].
+
+However, this only fixed the first step of the above recursive definition. In the next step we want $(2 Cat)Cat$ to produce all [[3-categories]], but their associativity and unitalness now involves invertible [[coherence]] _[[3-morphisms]]_ which do not appear in enriched $(2,1)$-category theory. And so on, as the recursion proceeds.
+
+This shows that the natural starting point for a construction of [[n-categories]] by recursive enrichment must be a conception of 1-[[category theory]] which knows already about _invertible_ [[k-morphisms]] for all $k$. The notion of category where all 1-categorical operations are relaxed up to _invertible_ higher morphisms is that of _[[(∞,1)-category]]_. And this now turns out to be a good starting point for producing $n$-categories by recursive enrichment. 
+
+If we then just replace in the above the naive [[Cat]] with [[(∞,1)Cat]], then the simple formula
+
+$$
+  Cat_{(\infty,n)} \coloneq (\cdots ((Cat_{(\infty,1)} Cat_{(\infty,1)})Cat_{(\infty,1)}) \cdots) Cat_{(\infty,1)}
+$$
+
+does produce a good general notion of $n$-categories, these are the _$(\infty,n)$-categories_ discussed here.
+
+There is also an alternative road to the same conclusion: another standard procedure for producing higher order structures from the 1-category [[Cat]] is to consider [[internal categories]] in $Cat$. For $E$ a category with [[finite limits]], write $Cat(E)$ for the category of $E$-[[internal categories]], and hence $Cat(Cat)$ for the category of $Cat$-internal categories.
+
+This gives _[[double categories]]_
+
+$$
+  DoubleCat \simeq Cat(Cat)
+$$
+
+and hence again not quite the [[2-categories]] that we are after. But it is of interest to note that now there are _two_ problems, not just the one above: while a $Cat$-internal category again has strict [[associativity]] and [[unitality]], instead of the desired version up to an invertible 2-morphism, in another direction it is more general than a [[strict 2-category]]: the latter only corresponds to those special double categories for which the "vertical" and the "horizontal" 1-morphisms come from the same 1-category and have sufficiently many degenerate 2-morphisms between them.
+
+The first problem turns out to be solved as before: instead of working with the 1-category [[Cat]] we should already regard that as a [[(2,1)-category]] and then formulate _internal (2,1)-categories_ in straightforward generalization of the ordinary notion. For the second problem it turns out that one needs to slightly enhance that straightforward generalization and add a condition known (somewhat undescriptively) as _[[complete Segal space|completeness]]_. But if this is understood then (as discussed in detail at [[internal category in an (∞,1)-category]]) the simple idea of iterated internalization does work out and we obtain $(\infty,n)$-categories by
+
+$$
+  Cat_{(\infty,n)} \simeq Cat(\cdots(Cat(Cat_{(\infty,0)}))\cdots)
+  \,.
+$$
+
+
+
+
+
+### For homotopy theorists
+ {#HomotopyIntro}
+
+This section assumes that the reader is well familiar with [[homotopy theory]] and maybe with [[(∞,1)-category theory]] but in need of some introductory words on $(\infty,n)$-categories.
+
+(...)
+
+
 ## Definitions
+ {#Definition}
 
 There are various different ways of defining $(\infty,n)$-categories, which are all natural in their own right, and all equivalent to each other. 
 
