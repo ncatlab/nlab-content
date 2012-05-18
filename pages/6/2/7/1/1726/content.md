@@ -19,12 +19,10 @@
 
 ## Idea
 
-An _$n$-fold complete Segal space_ is  an $n$-fold [[category object in an (infinity,1)-category|category object]] in [[∞Grpd]], hence an object in  $Cat(Cat(\cdots Cat(\infty Grpd)))$. This is a model for an [[(∞,n)-category]].
+An _$n$-fold complete Segal space_ is a model for an $n$-fold [[category object in an (infinity,1)-category|category object internal to]] [[∞Grpd]], hence an object in  $Cat(Cat(\cdots Cat(\infty Grpd)))$. This is a model for an _[[(∞,n)-category]]_.
 
 
-##Definition
-
-Recall that a [[complete Segal space]] is to be thought of as the [[nerve]] of a category which is _[[homotopy coherent category theory|homotopically]]_ [[enriched category|enriched]] over [[Top]]: it is a simplicial object in [[Top]], $X^\bullet : \Delta^{op} \to Top$ satisfying some conditions and thought of as a model for an $(\infty,1)$-[[(infinity,1)-category|category]]. 
+A [[complete Segal space]] is to be thought of as the [[nerve]] of a category which is _[[homotopy coherent category theory|homotopically]]_ [[enriched category|enriched]] over [[Top]]: it is a simplicial object in [[Top]], $X^\bullet : \Delta^{op} \to Top$ satisfying some conditions and thought of as a model for an $(\infty,1)$-[[(infinity,1)-category|category]]. 
 
 An $(\infty,n)$-category is in its essence the $(n-1)$-fold iteration of this process: recursively, it is a category which is _[[homotopy coherent category theory|homotopically]]_ [[enriched category|enriched]] over $(\infty,n-1)$-categories.
 
@@ -49,21 +47,39 @@ $$
 
 are [[homotopy coherent category theory|homotopy pullbacks]] of $(n-1)$-fold Segal spaces.
 
+## Definition
+
+(...)
+
 ## Related concepts
+
+* [[Theta-spaces]], [[Segal n-categories]]
 
 * [[higher Segal space]]
 
 ## References
 
-The definition is apparently due to the currently unpublished PhD thesis of Clark Barwick. It is being popularized and put to use in
+The definition originates in the thesis
 
-* [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
+* [[Clark Barwick]], _$(\infty,n)$-$Cat$ as a closed model category_ PhD (2005)
 
-A more detailed discussion of $(\infty,n)$-categories in terms of $n$-fold complete Segal spaces is in section 1 of
+which however remains unpublished. It appears in print in section 12 of 
 
-* [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv](http://arxiv.org/abs/0905.0462))
+* [[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
+ {#BarwickSchommerPries}
 
-A construction very close in spirit to $n$-fold complete Segal spaces are [[Charles Rezk]]'s [[Theta space]]s.
+
+The basic idea was being popularized and put to use in
+
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+
+A detailed discussion in the general context of [[internal categories in an (∞,1)-category]] is in section 1 of
+
+* [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ {#Lurie}
+
+
+For related references see at _[[(∞,n)-category]]_ .
 
 [[!redirects n-fold Segal space]]
 
