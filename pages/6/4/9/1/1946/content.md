@@ -254,7 +254,8 @@ $$
 
 in a model category $C$, whose fibrations and weak equivalences are the degreewise ones, and whose cofibrations are those transformations that are a cofibration in degree 0 and where the canonical pushout-morphisms in each square are cofibrations.
 
-### Over the simplex category {#SimplexCategory}
+### Over the simplex category 
+  {#SimplexCategory}
 
 The motivating and central example of [[Reedy categories]] is the 
 [[simplex category]] $\Delta$.
@@ -267,9 +268,9 @@ Recall that
 
 Dually, for the [[opposite category]] $\Delta^{op}$
 
-* a morphism $[n] \leftarrow [k]$ is in $\Delta_-^{op}$ precisely if the map underlying it is an injection;
+* a morphism $[n] \leftarrow [k]$ is in $(\Delta^{op})_-$ precisely if the map underlying it is an injection;
 
-* a morphism $[k] \leftarrow [n]$ is in $\Delta^{op}_+$ precisely if the map underlying it is a surjection.
+* a morphism $[k] \leftarrow [n]$ is in $(\Delta^{op})_+$ precisely if the map underlying it is a surjection.
 
 
 Let $C = sSet_{Quillen}$ be the category [[sSet]] equipped with the standard [[model structure on simplicial sets]] and consider the Reedy model structures on $[\Delta^{op}, sSet_{Quillen}]$ $[\Delta,sSet_{Quillen}]$. 
@@ -277,6 +278,31 @@ Let $C = sSet_{Quillen}$ be the category [[sSet]] equipped with the standard [[m
 #### Properties 
 
 We record some useful facts.
+
+##### Fibrant and cofibrant objects
+
+Let $\mathcal{C}$ be a [[model category]]
+
++-- {: .num_prop}
+###### Proposition
+
+For $X  \in [\Delta^{op},\mathcal{C}]$ a [[simplicial object]]
+and $n \in \mathbb{N}$,
+
+* the [[latching object]] $L_n X$ is the [[union]] of all degenerate $n$-cells;
+
+* the [[matching object]] is $M_n X \simeq X^{\partial \Delta[n]}$, the [[powering]] of the [[boundary of a simplex|boundary of the n-simplex]] into $X$, hence the $n$-cells of the $(n-1)$-[[skeleton]] of $X$.
+
+=--
+
+More details on this are currently at _[[generalized Reedy model structure]]_. 
+
++-- {: .num_example}
+###### Example
+
+If for instance in $\mathcal{C}$ all [[monomorphisms]] are cofibrations, then every object in $[\Delta^{op}, \mathcal{C}]_{Reedy}$ is cofibrant.
+
+=--
 
 ##### With values in simplicial sets
   {#OverDeltaWithValuesInSimplicialSets}
@@ -539,5 +565,9 @@ The Reedy model structure on categories of simplicial objects is discussed in mo
 
 [[!redirects latching object]]
 [[!redirects latching objects]]
+
+[[!redirects matching object]]
+[[!redirects matching objects]]
+
 
 [[!redirects Reedy model structures]]
