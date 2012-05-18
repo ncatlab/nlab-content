@@ -207,7 +207,7 @@ for the [[full subcategory]] on the _gaunt $n$-categories_, those $n$-categories
 
 =--
 
-This subcategory was considered in ([Rezk](#Rezk)). The term "gaunt" is due to ([Barwick, Schommer-Pries](#BarwickSchommerPries)).
+This subcategory was considered in ([Rezk](#Rezk)). The term "gaunt" is due to ([Barwick, Schommer-Pries](#BarwickSchommerPries)). See prop. \ref{GauntIs0Truncated} below for a characterization intrinsic to $(\infty,n)$-categories.
 
 +-- {: .num_example #Globes}
 ###### Example
@@ -749,7 +749,7 @@ is an equivalence of [[∞-groupoids]].
 
 ### Truncated objects
 
-+-- {: .num_prop }
++-- {: .num_prop #GauntIs0Truncated}
 ###### Proposition
 
 The [[truncated object in an (∞,1)-category|truncated objects]] in the [[(∞,1)-category]] $Cat_{(\infty,n)}$ are precisely the [gaunt](#GauntStrictNCategories) [[strict n-categories]]
