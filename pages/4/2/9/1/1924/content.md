@@ -1,12 +1,28 @@
 
 See also closely related entry [[integral]].
 
+
 #Contents#
 * table of contents
 {:toc}
 
 
 ...
+
+## Idea
+
+#### Generalizing sum
+
+Integration is a process involved in defining or computing [[integral]]s which are various generalizations of sums to more general ranges and distributions over them. 
+
+#### Opposite to differentiation
+
+Many integrals are supposed to be inverse to differentiation procedures of various kinds. Indeed, if integral is a generalization of a sum, then a difference between two partial sums is a value to be added at a step of summation, and its generalization is some sort of differentiation. Of course, the initial value has to be determined as the differentiation gives just a step of the addition.
+
+#### Solving differential equations and constraints
+
+In some cases, one solves a differential equation by reducing it to a relation of the form $d F = g$ and then $F = \int g$. One says that the equation is
+solvable in quadratures. Thus the integration is used in examples of solving differential equations and differential relations, hence finding objects satisfying some differential constraints is often also considered a sort of integration. For example, finding integral curves of vector fields and more generally finding integral submanifolds of distributions, is also called an integration. In this vain, also a Lie group is a global object which integrates a Lie algebra (indeed, infinitesimally this reduces to solving the Maurer-Cartan equations). For resolving differential relations there are solvability conditions/obstructions/constraints which are often of cohomological nature. There is sometimes a relation to [[rational homotopy theory]].
 
 ## Related entries
 
