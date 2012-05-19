@@ -19,28 +19,38 @@
 
 In [[higher category theory]] an _$(\infty,n)$-category_ may be thought of as
 
-* an [[n-category]] up to [[coherence|coherent]] [[homotopy]];
+* an [[n-category]] up to [[coherence|coherent]] [[homotopy theory|homotopy]];
 
 * an [[(n,r)-category|(r,n)-category]] for $r = \infty$;
 
 * a [[weak omega-category]] for which all [[k-morphisms]] with $k \gt n$ are [[equivalences]].
 
-There are two main [[recursion|recursive]] definitions of $(\infty,n)$-categories: by iterated [[enriched (∞,1)-category|(∞,1)-enrichment]]
+Accordingly, the notion of $(\infty,n)$-categories is a joint generalization of  _[[categories]]_, _[[2-categories]]_, _[[3-categories]]_, _[[4-categories]]_, etc. and of _[[∞-groupoids]]_ / _[[homotopy types]]_ and  _[[(∞,1)-categories]]_. From the point of [[homotopy theory]] they are a generalization to _[[directed homotopy theory]]_, from the point of view of [[homotopy type theory]] they are a generalization to _[[directed homotopy type theory]]_.
 
-$$
-  Cat_{(\infty,n)} \simeq (\cdots((Cat_{(\infty,0)} Cat) Cat) \cdots) Cat
-$$ 
+There are two main [[recursion|recursive]] definitions of $(\infty,n)$-categories: 
 
-and by iterated [[category object in an (∞,1)-category|(∞,1)-internalization]]
+1. by iterated [[enriched (∞,1)-category|(∞,1)-enrichment]]
 
-$$
-  Cat_{(\infty,n)} \simeq Cat(\cdots(Cat(Cat_{(\infty,0)}))\cdots)
-  \,.
-$$
+   $$
+     Cat_{(\infty,n)} \simeq (\cdots((Cat_{(\infty,0)} Cat) Cat) \cdots) Cat
+   $$ 
 
-There is also a fairly simple axiomatization of the [[(∞,1)-category]] $Cat_{(\infty,n)}$ itself, as something _generated_ by [[strict n-categories]]. 
+1. by iterated [[category object in an (∞,1)-category|(∞,1)-internalization]]
 
-Then there is a plethora of [[model category]] structures that [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] $Cat_{(\infty,n)}$.
+  $$
+    Cat_{(\infty,n)} \simeq Cat(\cdots(Cat(Cat_{(\infty,0)}))\cdots)
+    \,.
+  $$
+
+There is also a fairly simple axiomatization of the [[(∞,1)-category]] $Cat_{(\infty,n)}$ itself, as something _[[generators and relations|generated]]_ by [[strict n-categories]]. 
+
+Then there is also a plethora of [[model category]] structures that [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] $Cat_{(\infty,n)}$ of all $(\infty,n)$-categories, which means that there are many (and many different) very explicit ways to describe them.
+
+A central result of $(\infty,n)$-category theory is the proof of the [[cobordism hypothesis]], which revolves around the _[[(∞,n)-category of cobordisms]]_. This turns out to be the [[free construction|free]] _[[symmetric monoidal (∞,n)-category]]_ _[[(∞,n)-category with duals|with duals]]_ and provides deep relations between [[algebraic topology]], [[higher algebra]] and [[extended topological quantum field theory]].
+Other fundamental examples of $(\infty,n)$-categories, also in this context, are [[(∞,n)-categories of spans]] and of [[(∞,n)-vector spaces]].
+
+While the subject is still young, visible at the horizon is its role in [[higher topos theory]]. Where [[(∞,1)-toposes]] regarded as [[(∞,1)-categories of (∞,1)-sheaves]]/[[∞-stacks]] are by now fairly well understood, it is clear that the [[(∞,2)-categories]] of [[(∞,2)-sheaves]] -- such as the [[codomain fibration]]/[[indexed category|self-indexing]] of an [[(∞,1)-topos]] -- will form an [[(∞,2)-topos]] in generalization of the non-homotopic notion of [[2-topos]]. And so on.
+
 
 ## Introduction
 
