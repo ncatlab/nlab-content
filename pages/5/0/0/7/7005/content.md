@@ -109,7 +109,7 @@ $$
   \,.
 $$
 
-This lift is the interpretation of the [[identity type|path induction]] that decudes a map on all paths $\gamma \in B^I$ from one on just the identity paths $id_b \in B \hookrightarrow B^I$.
+This lift is the interpretation of the [[identity type|path induction]] that deduces a map on all paths $\gamma \in B^I$ from one on just the identity paths $id_b \in B \hookrightarrow B^I$.
 
 
 Finally, let $Eq(E) \hookrightarrow [E \times B , B \times E]_{\mathcal{C}/_{B \times B}}$ be the [[subobject]]  on the weak equivalences (...), and observe that $q$ and $\hat q$ factor through this to give a morphism
