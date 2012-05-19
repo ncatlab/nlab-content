@@ -459,11 +459,14 @@ In [[Coq]]-[[syntax]] the [[identity types]] are the inductive types (or more pr
     Inductive id {A} : A -> A -> Type := 
       idpath : forall x, id x x.
 
-#### Categorical semantic
+#### Categorical semantics
 
 We may [[categorical semantics|interpret]] identity types in suitable categories $\mathcal{C}$ such as a [[type-theoretic model category]].
 
-The [[categorical semantics|categorical interpretation]] of identity types in a category $\mathcal{C}$ is as   [[initial algebra of an endofunctor|initial algebra]] for the [[endofunctor]] 
++-- {: .num_example #EndofunctorForIdentityTypes}
+###### Example
+
+The [[categorical semantics|categorical interpretation]] of identity types in a category $\mathcal{C}$ is as  the [[initial algebra of an endofunctor|initial algebra]] for the [[endofunctor]] 
 
 $$
   F : \mathcal{C}_{/A \times A} \to 
@@ -476,6 +479,8 @@ $$
   F (\langle E \to A \times A\rangle) = \langle A \stackrel{\Delta}{\to} A \times A\rangle
   \,.
 $$
+
+=--
 
 So an [[algebra for an endofunctor|algebra]] for this endofunctor is a morphism
 
@@ -491,7 +496,8 @@ $$
 
 and the [[initial object|initial]] such is the [[path space object]] $A^I \to A \times A$.
 
-#### Induction
+#### Path induction
+ {#PathInduction}
 
 
 +-- {: .num_example}
@@ -533,6 +539,81 @@ $$
 The elimination rule then says that this extends to a section $A^I \to E$, hence a "proof of $E$ over all identifications" $a = b$.
 
 =--
+
+#### Path recursion
+ {#PathRecursion}
+
++-- {: .num_example}
+###### Example
+
+We spell out how the the [[recursion principle]] def. \ref{InterpretationOfTheSimpleRules} for [[identity types]] is related to the _[[complete Segal space|Segal-completeness condition]]_ and in particular to _[[univalence]]_. 
+
+Notice that an [[algebra for an endofunctor|algebra over the endofunctor]] that defines identity types, example \ref{EndofunctorForIdentityTypes},
+
+$$
+  \array{
+     X_0 &&\stackrel{\sigma_0}{\to}&& X_1
+     \\
+     & \searrow && \swarrow_{\mathrlap{\delta_0, \delta_1}}
+     \\
+     && X_0 \times X_0
+  }
+$$
+
+constitutes the [[simplicial skeleton|1-skeleton]] of a [[simplicial object]]
+
+$$
+  \array{
+     X_1
+     \\
+     {}^{\mathllap{\delta_0}}\downarrow \uparrow^{\mathrlap{\sigma_0}} \downarrow^{\mathrlap{\delta_1}}
+     \\   
+     X_0
+  }
+  \,.
+$$
+
+The [[recursion principle]] says that the [[simplicial identities|degenracy map]] $\sigma_0$ factors through the [[path space object]] of $X_0$ as a lift $\hat \sigma_0$ in the diagram
+
+$$
+  \array{
+     X_0 &\stackrel{\sigma_0}{\to}& X_1
+     \\
+     \downarrow &\nearrow_{\hat \sigma_0}& \downarrow
+     \\
+     X_0^I &\to& X_0 \times X_0
+  }
+  \,.
+$$
+
+[[categorical semantics|Semantically]], this lift exists because $X_0 \to X_0^I$ is an [[acyclic cofibration]] by definition of [[path space object]], and $X_1 \to X_0 \times X_0$ is a [[fibration]] ([[display map]]) by the interpretation rule for [[dependent types]].
+
+This morphism 
+
+$$
+  \hat \sigma_0 : X_0^I \to X_1
+$$
+
+lifts paths/[[morphisms]] that exist in $X_0$ to the morphisms exhibited by $X_1$, if we think of the above as the 1-skeleton of a simplicial object that represents an [[internal category in an (infinity,1)-category]].
+
+Suppose this exists, then there will be a notion of _equivalences_ in $X_1$, those morphisms that are invertible with respect to the given composition operation. In good situations this will give the [[core]] inclusion
+
+$$
+  Core(X_1) \hookrightarrow X_1
+  \,.
+$$
+
+In this case the [[complete Segal space|Segal-completeness condition]] in degree 1 says that the path recursion $\hat \sigma_0$ exhibits this inclusion
+
+$$
+  \hat \sigma_0 : X_0^I \simeq Core(X_1) \to X_1
+  \,.
+$$
+
+In the case that $X_\bullet$ is the classifier of the [[codomain fibration]], then this is called the _[[univalence]]-condition_.
+
+=--
+
 
 
 ### W-types
