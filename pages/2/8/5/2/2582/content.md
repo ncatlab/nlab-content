@@ -1,11 +1,32 @@
-#Contents#
 
-* automatic table of contents goes here
+#Contents#
+* table of contents
 {:toc}
+
+## Idea
+
+The _Whitehead tower_ of a [[pointed object|pointed]] [[homotopy type]] $X$ is an interpolation of the point inclusion $* \to X$ be a sequence of homotopy types
+
+$$
+  * \to \cdots \to X^{(2)} \to X^{(1)} \to X^{(0)} 
+  \simeq X
+$$
+
+that are obtained from right to left by _removing [[homotopy groups]] from below_, hence such that 
+
+* each $X^{(n)}$ is $(n-1)$-[[connected object in an (infinity,1)-topos|connected]] 
+
+* and each [[morphism]] $X^{(n+1)} \to X^{(n)}$ induces an [[isomorphism]] on all [[homotopy groups]] in degree $k \geq (n+1)$ (and the inclusion $1 \to \pi_n(X^{(n)})$ in degree $n$ as well as the identity $1 = 1$ in degree $k \lt n$).
+
+The notion of Whitehead tower is [[duality|dual]] to the notion of _[[Postnikov tower]]_, which instead is a factorization of the terminal morphism $X \to *$ into a tower, where homotopy groups are _added_ from right to left.
+
+In fact, the Whitehead tower may be constructed by taking each stage $X^{(n+1)} \to X^(n)$ to be the _[[homotopy fiber]]_ of the corresponding map into the $(n+1)$st stage of the [[Postnikov tower]].
 
 ## Definition
 
-The **Whitehead tower** of a [[topological space]] $X$ is a sequence of topological spaces 
+The construction of Whitehead towers is traditionally done for [[topological spaces]] regarded up to [[weak homotopy equivalence]], hence as objects of the [[(∞,1)-category]] [[Top]]. The discussion directly generalizes to any [[(∞,1)-topos]].
+
+The **Whitehead tower** of a [[homotopy type]] $X$ is a sequence of [[homotopy types]]
 
 $$* \to \cdots \to X^{(2)} \to X^{(1)} \to X^{(0)} \simeq X$$
 
@@ -62,11 +83,9 @@ In traditional models this construction is highly non-[[functor]]ial, except for
 
 ### Whitehead's construction 
 
-In
+In [WHitehead 1952](#Whitehead) is answered the question, posed by [[Witold Hurewicz]], of the existence of what we would now call $n$-connected \'covers\' of a given space $X$, taking this to mean a fibration $X\langle n\rangle \to X$ with $X\langle n\rangle$ $n$-connected and otherwise inducing isomorphisms on homotopy groups. 
 
-*  _Fiber Spaces and the Eilenberg Homology Groups_, PNAS **38**, No. 5 (1952)
-
-G. W. Whitehead answers the question, posed by Hurewicz, of the existence of what we would now call $n$-connected \'covers\' of a given space $X$, taking this to mean a fibration $X\langle n\rangle \to X$ with $X\langle n\rangle$ $n$-connected and otherwise inducing isomorphisms on homotopy groups. The construction proceeds as follows (using modern terminology). Given a pointed space $(X,x)$,
+The construction proceeds as follows (using modern terminology). Given a pointed space $(X,x)$,
 
 * Choose a representative for the [[Postnikov section]] $X_n$ such that $X \hookrightarrow X_n$ is a closed subspace (I would be tempted to make it a closed cofibration, but I don't know any reason for this to be necessary -DMR).
 
@@ -124,7 +143,12 @@ A good notion of geometric [[homotopy groups in an (∞,1)-topos]] exist in a [[
 
 ## References 
 
-The classical notion of Whitehead tower is reviewed for instance as  example 4.20 in
+The original reference is 
+
+*  [[George Whitehead]] _Fiber Spaces and the Eilenberg Homology Groups_, PNAS **38**, No. 5 (1952)
+ {#Whitehead}
+
+A textbook account is around example 4.20 in
 
 * [[Allen Hatcher]], _Algebraic Topology_ ([pdf](http://www.math.cornell.edu/~hatcher/AT/AT.pdf))
 
@@ -132,3 +156,6 @@ A more detailed useful discussion happens to be in section 2.A, starting on p. 1
 
 * [[Linus Kramer]], _Homogeneous Spaces, Tits Buildings, and Isoparametric Hypersurface_ Memoirs of the American Mathematical Society number 752 ([web](http://books.google.com/books?id=SA8O6ihrDFkC&printsec=frontcover&hl=de&source=gbs_v2_summary_r&cad=0#v=onepage&q=&f=false)) also ([arXiv] (http://arxiv.org/abs/math/0109133))
 
+
+[[!redirects Whitehead towers]]
+ 
