@@ -15,6 +15,68 @@ We discuss here aspects of a simple example in an elementary and expository way.
 ## General theory
  {#GeneralTheory}
 
+
+### Twisted cohomology
+
++-- {: .num_remark }
+###### Remark
+
+In the formulation of [[dependent type theory]] this statement reads as 
+follows.
+
+(check!)
+
+Let 
+
+$$
+  \array{
+     X &&&& A
+     \\
+     & {}_{\mathllap{\phi}}\searrow && \swarrow_{\mathrlap{c}}
+     \\
+     && 
+     B
+  }
+$$
+
+be two [[display maps]]. The one on the right is expressed as the [[dependent type]]
+
+$$
+  b : B \vdash A(b) : Type
+  \,.
+$$
+
+Then the pullback $f^* \langle A \to B\rangle$ is expressed by [[substitution]]
+
+$$
+   x : X \vdash A(\phi(x)) : Type
+$$
+
+and next the [[dependent product]] $\prod_f f^* \langle A \to B\rangle$ is
+
+$$
+   b : B  \vdash \prod_{x \in \phi^{-1}(b)} A(\phi(x)) : Type
+  \,.
+$$
+
+$$
+   b : B  \vdash \prod_{x \in X(b)} A(b) : Type
+   \,.
+$$
+
+And this in turn is by definition the [[dependent type|dependent]] [[function type]]
+
+$$
+  b : B \vdash X(b) \to A(b) : Type  
+  \,.
+$$
+
+which expresses the internal hom in the slice over $B$.
+
+=--
+
+
+
 ## Examples
  {#Examples}
 
