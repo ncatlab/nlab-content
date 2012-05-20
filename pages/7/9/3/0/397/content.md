@@ -85,6 +85,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Hugh Thomas]]
 * [[Ian Durham]]
 * [[Igor Bakovic]]
+* [[Ingo Blechschmidt]]
 * [[Itai Bar-Natan]]
 * [[Ivo]]
 * [[jdthomas|J. D. Thomas]]
