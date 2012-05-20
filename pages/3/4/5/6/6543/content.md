@@ -53,6 +53,22 @@ Of course, one can also embrace this second limitation and just live with a "par
 One can also embrace the first limitation and not worry about having multiple names for the same object.  This leads to notions such as a [[universe in a topos]] and the field of [[algebraic set theory]].
 
 
+## Relationship to locally internal categories
+
+The stack semantics for a topos $\mathcal{E}$ can be used to talk about locally internal categories $\mathcal{C}$ of $\mathcal{E}$ (in the sense of the appendix of ([Johnstone](#Johnstone))) as if they're ordinary locally small categories over $\mathrm{Set}$.
+
+Examples:
+
+* A geometric morphism $f: \mathcal{F} \to \mathcal{E}$ looks like
+like the canonical morphism $\mathcal{F} \to \mathrm{Set}$ when using the stack semantics of $\mathcal{E}$.
+
+* The internal statement "$\mathcal{F}$ is a compact topos" is equivalent to $f$ being a [[proper geometric morphism|proper morphism]].
+
+* The internal statement "$\mathcal{F}$ is an indiscrete topos" (i.e. "the canonical morphism $\mathrm{Sub}_{\mathcal{F}}(1) \to \mathrm{Sub}_{\mathrm{Set}}(1)$ is a bijection", where $\mathrm{Sub}$ refers to the corresponding [[poset of subobjects|posets of subobjects]]) is true iff $f$ is [[hyperconnected geometric morphism|hyperconnected]].
+
+* Because the proof that indiscrete toposes are compact is constructive, it immediately follows that hyperconnected morphisms are proper.
+
+
 ## Related concepts
 
 * [[semantics]]
@@ -62,3 +78,6 @@ One can also embrace the first limitation and not worry about having multiple na
 ## References
 
 * [[Mike Shulman]], _[Stack semantics and the comparison of material and structural set theories](http://arxiv.org/abs/1004.3802)_ (2010)
+
+* [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp.
+{#Johnstone}
