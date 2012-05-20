@@ -204,12 +204,10 @@ One can also look at this in [[higher category theory]] and consider internal [[
 ## Related concepts
 
 * [[weak equivalence of internal categories]]
-
 * [[internal site]]
-
 * [[internal logic]]
-
 * [[enriched category]]
+* [[locally internal category]]
 
 ## References
 
@@ -237,7 +235,7 @@ An introduction is also in
 
 * [[John Baez]], [[Alissa Crans]], _[Higher-Dimensional Algebra VI: Lie 2-Algebras](http://arxiv.org/abs/math/0307263)_
 
-
+An old discussion on variants of internal categories, crossed modules and 2-groups is archived [here](http://nforum.mathforge.org/discussion/621/internal-category/?Focus=29967#Comment_29967).
 [[!redirects internal categories]]
 [[!redirects internal groupoid]]
 [[!redirects internal groupoids]]
