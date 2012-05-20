@@ -55,7 +55,7 @@ One can also embrace the first limitation and not worry about having multiple na
 
 ## Relationship to locally internal categories
 
-The stack semantics for a topos $\mathcal{E}$ can be used to talk about locally internal categories $\mathcal{C}$ of $\mathcal{E}$ (in the sense of the appendix of ([Johnstone](#Johnstone))) as if they're ordinary locally small categories over $\mathrm{Set}$.
+The stack semantics for a topos $\mathcal{E}$ can be used to talk about [[locally internal category|locally internal categories]] $\mathcal{C}$ of $\mathcal{E}$ (in the sense of the appendix of ([Johnstone](#Johnstone))) as if they're ordinary locally small categories over $\mathrm{Set}$.
 
 Examples:
 
