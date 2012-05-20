@@ -224,11 +224,11 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-While equivalent under the [[relation between type theory and category theory]], the latter expression almost verbatim expresses the evident idea that
+While equivalent under the [[relation between type theory and category theory]], the latter expression almost verbatim expresses the evident idea that:
 
  (collection of internal homs parameterized over $B$) 
   = 
- ( collection of sections of the pullback pf $A$ to $X$ )
+ ( collection of sections of the pullback of $A$ to $X$ )
 
 =--
 
