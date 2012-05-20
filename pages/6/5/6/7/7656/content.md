@@ -1,0 +1,15 @@
+Locally internal category is a concept of a large category relative to an [[elementary topos]] which is generalizing the category of sets. 
+
+Given a topos $E$ and an object $X$ in $E$ one notices that the slice category $E/X$ is a symmetric monoidal category; hence we can consider categories enriched over $E/X$, i.e. $E/X$-categories. 
+
+A __locally internal category__ $C$ over $E$ is given by 
+
+* an $E/X$-category $C_X$ for each object $X$ in $E$ (which is thought of as $X$-indexed families of objects of $E$)
+* for each morphism $f: X\to Y$ in $E$ an $E/X$-ful embedding $\theta_f: f^* C_Y\to C_X$ such that $f\mapsto \theta_f$ is functorial up to coherent isomorphisms
+
+## References
+
+* J. Penon, _Categories localement internes_, C. R. Acad. Sci. Paris __278__ (1974) A1577-1580
+
+* Locally internal categories, Appendix in: P. Johnstone, Topos theory, 1977
+[[!redirects locally internal categories]]
