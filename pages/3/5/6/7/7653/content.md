@@ -156,33 +156,39 @@ While on the right this expresses the collection of the pullback bundle, the lef
 
 #### Whitehead tower
 
+
 $$
   \array{
-    B Fivebrane &\to& *
+    & Whitehead tower
     \\
-    \downrrow && \downarrow
+    &\vdots
     \\
-    B String &\stackrel{\tfrac{1}{6}p_2}{\to}&  B^7 U(1)
+    & B Fivebrane &\to& \cdots &\to& *
     \\
-    \downarrow && && \downarrow
+    & \downarrow && && \downarrow
     \\
-    B Spin && &\stackrel{\tfrac{1}{2}p_1}{\to}& B^3 U(1)
+    second frac Pontr. class & B String &\to& \cdots &\stackrel{\tfrac{1}{6}p_2}{\to}&  B^8 \mathbb{Z}
+    &\to& * 
     \\
-    \downarrow && && && \downarrow
+    & \downarrow && && \downarrow && \downarrow
     \\
-    B S O 
+    first frac Pontr. class & B Spin && && &\stackrel{\tfrac{1}{2}p_1}{\to}& B^4 \mathbb{Z} &\to & * 
+    \\
+    & \downarrow && && \downarrow && \downarrow && \downarrow
+    \\
+    second SW class & B S O 
     &\to&
     \cdots
     &\to&
     &\to&
     & \stackrel{w_2}{\to} &
     \mathbf{B}^2 \mathbb{Z}_2
-    \simeq
+    &\to&
     *
     \\
-    \downarrow && && && &&  \downarrow
+    & \downarrow && && \downarrow && \downarrow &&  \downarrow && \downarrow
     \\
-    B O 
+    first SW class & B O 
     &\to&
     \cdots
     &\to&
@@ -191,10 +197,12 @@ $$
     \tau_{\leq 4 } B O
     &\to&
     \tau_{\leq 2 } B O
-    &\to&
+    &\stackrel{w_1}{\to}&
     \tau_{\leq 1 } B O
     \simeq
     B \mathbb{Z}_2
+    &
+    Postnikov  tower
   }
 $$
 
