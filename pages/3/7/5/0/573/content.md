@@ -302,8 +302,19 @@ We are going to be interested in a full [[subcategory]] $Str n Cat_{gen} \hookri
 ###### Observation
 
 For $A,B$ two categories, a [[profunctor]] $A^{op} \times B \to Set$
-is equivalently a functor $K \to G_1$ equipped with an identification
-$A \simeq K_0$ and $B \simeq K_1$.
+is equivalently a category [[slice category|over]] the 1-globe functor, hence a functor 
+
+$$
+  \array{
+    K
+    \\
+    \downarrow
+    \\
+    G_1 & = \Delta[1]
+  }
+$$
+
+equipped with an identification $A \simeq K_0$ and $B \simeq K_1$.
 
 =--
 
@@ -499,7 +510,7 @@ $$
 
 from the generating strict $n$-categories, def. \ref{nCatGen} into its category of [[n-truncated object in an (infinity,1)-category|0-truncated]] objects, such that 
 
-1. $\mathcal{Y}_n \to \tau_{\leq 0} Cat_{(\infty,n)} \hookrightarrow Cat_{(\infty,n)} $ [strongly generates](#StrongGeneration) $\mathcal{C}$;
+1. $Str n Cat_{gen} \to \tau_{\leq 0} Cat_{(\infty,n)} \hookrightarrow Cat_{(\infty,n)} $ [strongly generates](#StrongGeneration) $\mathcal{C}$;
 
 1. $i$ preserves the [fundamental pushout](#FundamentalPushouts) relations;
 
@@ -774,11 +785,47 @@ discussed _[below](#ByEnrichedModelCategories)_
 
 #### General
 
-There is a general notion of _[[internal category in an (∞,1)-category]]_. For $\mathcal{C}$ an [[(∞,1)-category]] write $Cat(\mathcal{C})$ for the $(\infty,1)$-category of internal categories in $\mathcal{C}$. Write $Cat_{(\infty,1)} \coloneqq$ [[∞Grpd]] for the $(\infty,1)$-category of [[∞-groupoids]].
+
+There is a general notion of _[[internal category in an (∞,1)-category]]_ $\mathcal{C}$ provided that
+
+1. $\mathcal{C}$ has [[finite limit|finite]] [[(∞,1)-limits]] -- in order to formulate the [[Segal condition]];
+
+1. $\mathcal{C}$ is equipped with a "choice of internal [[∞-groupoids]]" -- in order to formulate the [completeness condition](complete%20Segal%20space#CompleteSegalSpaces).
+
+We can use this to define $Cat_{(\infty,n)}$ by iterative internalization.
+
++-- {: .num_defn }
+###### Proposition
+
+Write $Grpd(Cat_{(\infty,0)})$ for the catgeory of [[groupoid objects in an (∞,1)-category]] in $Cat_{(\infty,0)} \simeq $ [[∞Grpd]].
+
+Assume we have already defined $Cat_{(\infty,n)}$, either by one of the methods above, or by the induction in the following. Then the canonical inclusion
+
+$$
+  Grpd(Cat_{(\infty,0)}) \hookrightarrow PreCat_{Grpd(Cat_{(\infty,0)})} (Cat_{(\infty,n)})
+$$
+
+into the $(\infty,1)$-category of [[simplicial objects]] $X_\bullet$ in $Cat_{(\infty,n)}$ that
+
+1. satisfy the [[Segal conditions]]
+
+1. such that $X_0 \in Cat_{(\infty,0)}$ 
+
+has a [[right adjoint|right]] [[adjoint (∞,1)-functor]] $Core$.
+
+
+=--
+
+([Lurie, prop. 1.1.14](#Lurie)).
 
 
 +-- {: .num_defn #IteratedInternalization}
 ###### Definition
+
+An $(\infty,n+1)$-category is an object  $X \in PreCat_{Grpd(Cat_{(\infty,0)})}$
+such that $Core(X) \in \infty Grpd \hookrightarrow Grpd(Cat_{(\infty,0)})$.
+
+
 
 For $n \in \mathcal{N}$ the $(\infty,1)$-category of 
 $(\infty,n)$-categories is
@@ -794,7 +841,8 @@ $$
 
 =--
 
-([Lurie](#Lurie)).
+([Lurie, prop. 1.1.14](#Lurie)).
+
 
 
 +-- {: .num_prop }
