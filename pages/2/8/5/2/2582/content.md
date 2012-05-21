@@ -112,6 +112,7 @@ The $n$th stage of the Whitehead tower of $X$ is also the cofibrant replacement 
 ## Examples 
 
 ### Whitehead tower of the orthogonal group 
+ {#OfTheOrthogonalGroup}
 
 The Whitehead tower of the [[classifying space]]/[[delooping]] of the [[orthogonal group]] $O(n)$ starts out as
 
@@ -188,6 +189,8 @@ and where the obstruction classes are the [[universal characteristic classes]]
 * [[Pontryagin class|first fractional Pontryagin class]] $\tfrac{1}{2}p_1$
 
 * [[Pontryagin class|second fractional Pontryagin class]] $\tfrac{1}{6}p_2$
+
+and where every possible square in the above is a [[homotopy pullback]] square.
 
 In summary, more concisely, the tower is
 
