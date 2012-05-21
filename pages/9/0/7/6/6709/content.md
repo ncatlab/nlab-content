@@ -120,3 +120,6 @@ See also
 * wikipedia: _[Stiefel-Whitney class](http://en.wikipedia.org/wiki/Stiefel%E2%80%93Whitney_class)_
 
 [[!redirects Stiefel-Whitney classes]]
+
+[[!redirects first Stiefel-Whitney class]]
+[[!redirects second Stiefel-Whitney class]]
