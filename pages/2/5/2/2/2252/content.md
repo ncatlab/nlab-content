@@ -23,6 +23,22 @@ Formal [[power series]] [[ring]]s $k[\![x_1,\ldots,x_n]\!]$ are limits of their 
 
 They do not converge as a series (and make sense) in an open set or in any of the standard topologies (e.g. Zariski and complex topology over $\mathbb{Z}$), but they are rather "localized" in an *[[infinitesimal neighborhood|infinitesimal neighborhood]]* of the origin. One would like to be able to talk about functions supported only infinitesimally (in the transverse direction) to a [[closed subscheme]]. The formal schemes of [[Grothendieck]] are [[ringed spaces]] containing the information on all infinitesimal neighborhoods. Zariski's theorem on formal functions and establishing the theory of [[formal group]]s were some of the concrete motivations.
 
+## Definition
+
+There are roughly four equivalent definitions of a $k$-formal scheme for a field $k$:
+
+Let $Mf_k$ denote the category of finite dimensional $k$-rings.
+
+1. A $k$-scheme is called a $k$_-formal scheme_ if it is is equivalent to a codirected colimit of finite (affine) $k$-schemes.
+
+1. A $k$-scheme is a $k$-formal scheme if it is presented by a [[profinite ring|profinite]] $k$-ring or -equivalently- by a $k$-ring which is the limit of discrete quotients which are finite $k$-rings. If $A$ is such a topological $k$-ring $Spf_k(A)(R)$ denotes the set of continous morphisms from $A$ to the topological discrete ring $R$. We have $Spf_k$ is a contravariant equivalence between the category of profinite $k$-rings and the category $fSch_k$ of formal $k$-schemes.
+
+1. Instead of defining $fSch_k$ as the opposite of $Mf_k$ define it instead covariantly on the category of finite dimensional $k$-[[coring|corings]].
+
+1. A formal $k$-scheme is precisely a left exact (commutig with finite limits) functor $X:Mf_k\to Set$.
+
+([Demazure, p-divisible groups, chapter I](#Demp))
+
 
 ## Noetherian formal schemes
 
@@ -33,6 +49,7 @@ If $X$ is a [[scheme]], a [[closed subscheme]] $Y\subset X$ is given by an embed
 $$
   Spf\,R = \hat{X}
 $$ 
+
 
 (where $R$ is viewed as a topological ring). The formal spectrum is an [[ind-object]] in the [[category]] of [[algebraic scheme]]s, viewed as a formal colimit
 $colim_n Spec (R/I^n)$. 
@@ -82,7 +99,9 @@ A topologists viewpoint:
 
 * R. Hartshorne, _Algebraic geometry_, II.9
 
-* M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 
+* M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970
+
+* {#Demp}Michel Demazure, lectures on p-divisible groups [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
 
 * notes of Daniel Murfet, [Section2.9-FormalSchemes.pdf](http://therisingsea.org/notes/Section2.9-FormalSchemes.pdf)
 
