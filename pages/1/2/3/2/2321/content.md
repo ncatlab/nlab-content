@@ -10,7 +10,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition#
@@ -70,6 +70,9 @@ for the [[discrete group|discrete]] [[abelian group]] $\mathbb{R}$
 of [[real number]]s, orientation in $R$-cohomology is equivalent to the 
 ordinary notion of orientation described above.
 
+## Related concepts
+
+* [[orientation double cover]]
 
 [[!redirects orientable]]
 
