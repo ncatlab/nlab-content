@@ -1,0 +1,48 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _double cover_ is equivalently 
+
+* a $\mathbb{Z}_2$-[[principal bundle]];
+
+* an [[etale space]] with local [[sections]] the 2-element set.
+
+## Examples
+
+### Orientation double cover
+
+For $X$ a [[manifold]], not necessarily [[orientation|oriented]] or even orientable, write 
+
+$$
+  \array{
+    && B O
+    \\
+    & {}^{\mathllap{\hat T X}}\nearrow & \downarrow
+    \\
+    X &\stackrel{T X}{\to}& B GL
+  }
+$$ 
+
+for any choice of [[orthogonal structure]]. The **orientation double cover** of $X$ is bundle classified by the first [[Stiefel-Whitney class]]
+
+$$
+  w_1(\hat T X) :  X \stackrel{\hat T X}{\to} B O \stackrel{w_1}{\to} B \mathbb{Z}_2
+  \,.
+$$
+
+## Related concepts
+
+* [[orientifold]], [[Jandl gerbe]]
+
+[[!redirects double covers]]
+
+[[!redirects double covering]]
+[[!redirects double coverings]]
+
+
+[[!redirects orientation double cover]]
+[[!redirects orientation double covers]]
