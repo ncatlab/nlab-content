@@ -149,6 +149,8 @@ It was in particular motivated by the observation that this provides a natural f
 
 ## Related concepts
 
+* [[generalized tangent bundle]]
+
 * [[exceptional generalized complex geometry]]
 
 
