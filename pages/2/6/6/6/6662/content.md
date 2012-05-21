@@ -1,3 +1,4 @@
+[[!redirects Frobenius map]]
 
 #Contents#
 * table of contents
@@ -6,6 +7,7 @@
 
 ## Definition
 
+### Frobenius morphism of fields
 Suppose $k$ is a [[field]] of positive [[characteristic]] $p$. The **Frobenius morphism** is an [[endomorphism]] of the field $F:k\to k$ defined by $F(a)=a^p$. 
 
 Notice that this is indeed a [[homomorphism]] of fields: the identity $(a b)^p=a^p b^p$ evidently holds for all $a,b\in k$ and the [[characteristic]] of the field is used to show $(a+b)^p=a^p+b^p$. 
@@ -18,7 +20,7 @@ Notice that this is indeed a [[homomorphism]] of fields: the identity $(a b)^p=a
 
 * Frobenius is [[surjective]] if and only if $k$ is [[perfect field|perfect]].
 
-## Frobenius in algebraic geometry
+## Frobenius morphism of schemes
 
 Suppose $X$ is an $S$-[[scheme]] where $S$ is a [[scheme]] over $k$. The **absolute Frobenius** is the map $F^{ab}:X\to X$ which is the identity on [[topological space]]s and locally on sections of the structure sheaf the $p$-th power map. This is not a map of $S$-schemes in general since it doesn't respect the structure of $X$ as an $S$-scheme, i.e. the diagram:
 
