@@ -1,3 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Compact objects
++-- {: .hide}
+[[!include compact object - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 An object $X$ of a category $C$ is said to be [[finitely presentable object|finitely presentable]] (or finitary, sometimes called [[compact object|compact]]) if the [[representable functor]] $C(X,-)$ preserves [[filtered colimits]]. Write $C_{fp}$ for the full subcategory of $C$ on the finitely presentable objects.
 
 +--{: .query}
@@ -31,7 +52,7 @@ Replacing "finite" by "of cardinality less than $\kappa$" everywhere, for some [
    =--
 
 
-###Examples###
+## Examples
 
 * [[Set]], Graph, [[Pos]], [[Cat]], [[Ab]] are all lfp.
 
@@ -40,3 +61,6 @@ Replacing "finite" by "of cardinality less than $\kappa$" everywhere, for some [
 [[!redirects locally finitely presentable categories]]
 [[!redirects lfp category]]
 [[!redirects lfp categories]]
+
+[[!redirects finitely presentable category]]
+[[!redirects finitely presentable categories]]
