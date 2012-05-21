@@ -1,4 +1,3 @@
-
 > this entry is about the notion of _action_ in algebra (of one algebraic object on another object). For the notion of _[[action functional]]_ in [[physics]] see there.
 
 +-- {: .rightHandSide}
@@ -95,6 +94,8 @@ Yes, I think certainly all those types of action should eventually be described 
 
 
 [[Tim Porter|Tim]]: I have added some of this above.  There should be mention of actions of a monoid in a monoidal category on other objects, perhaps.
+
+Mac Lane, VII.4, only requires a monoidal category to define actions.  -- Uday
 =--
 
 ## Related concepts
