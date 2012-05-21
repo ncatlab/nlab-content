@@ -51,7 +51,8 @@ For $\kappa$ a [[regular cardinal]], a **locally $\kappa$-presentable category**
 
 Thus, a locally presentable category is one which is locally $\kappa$-presentable for some [[regular cardinal]] $\kappa$ (hence also for every $\lambda\gt\kappa$).  In fact, in this case the fourth condition is redundant; once we know that there is a colimit-generating set consisting of $\kappa$-compact objects, it follows automatically that every object is $\lambda$-compact for some $\lambda$ (though there is no uniform upper bound on the required size of $\lambda$).  Moreover, colimit-generation is also stronger than necessary; it suffices to have a [[strong generator]] consisting of small objects.
 
-A locally $(\kappa = \aleph_0)$-presentable category is called a **locally finitely presentable category**.
+A locally $(\kappa = \aleph_0)$-presentable category is called a 
+**[[locally finitely presentable category]]**.
 
 
 ### Equivalent definitions
@@ -70,12 +71,14 @@ Locally presentable categories are precisely the categories of [[sketch|models o
 This is theorem _xyz_ in _AdRo_ .
 =--
 
-This proposition extrapolates part of the Gabriel--Ulmer duality (see below), which concerns locally finitely presentable categories: 
+This proposition extrapolates part of the Gabriel--Ulmer duality (see below), which concerns [[locally finitely presentable categories]]: 
 
 +-- {: .num_prop} 
 ###### Proposition (as finite limit sketches) 
 
-Locally finitely presentable categories are precisely the categories of finite limit preserving functors $C \to Set$, for small finitely complete categories $C$. 
+Locally finitely presentable categories are precisely the categories of 
+[[finite limit]] preserving functors $C \to Set$, for small finitely complete categories $C$. 
+
 =--
 
 +-- {: .num_prop}
