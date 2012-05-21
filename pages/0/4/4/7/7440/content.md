@@ -49,7 +49,7 @@ $$
   X : \Delta^{op} \to \mathcal{C}
 $$ 
 
-such that for all $n \in \mathbb{N}$ and all partitions $[n] \simeq S \cup S'$  that share a single element $S \cap S' = \{s\}$, the [[(∞,1)-functor]] $X$ exhibits an [[(∞,1)-pullback]]
+that satisfies the groupoidal _[[Segal conditions]]_, meaning that for all $n \in \mathbb{N}$ and all partitions $[n] \simeq S \cup S'$  that share a single element $S \cap S' = \{s\}$, the [[(∞,1)-functor]] $X$ exhibits an [[(∞,1)-pullback]]
 
 $$
   X([n]) \simeq X(S) \times_{X(S \cap S')} X(S')
@@ -99,7 +99,7 @@ We are to think of $X([0])$ as the _$\mathcal{C}-$[[object]] of [[objects]]_ of 
 
 Accordingly, below a _category object_ is defined analogously, but demanding the above condition only for ordered decompositions.
 
-There will be one additional condition on category objects ("completeness"). In order to see where this comes, notice the following.
+There will be one additional condition on category objects ("completeness"). In order to see where this comes from, notice the following.
 
 +-- {: .num_prop #EmbeddingOfConstantGroupoidObjects}
 ###### Proposition
