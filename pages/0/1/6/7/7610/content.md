@@ -39,17 +39,19 @@ the corresponding ([[homotopy type theory|homotopy]]) [[type theory]] is simply 
 |----------------------|------------------|
 |  [[semantics]]       | [[syntax]] |
 | [[object]] $X$ | [[type]] $x : X$ |
-| [[fibration]] $\array{A \\ \downarrow^{\mathrlap{p}} \\ X}$  | [[dependent type]]  $x : X \vdash A(x) : Type$ |
+| [[fibration]]([[display map]]) $\array{A \\ \downarrow^{\mathrlap{p}} \\ X}$  | [[dependent type]]  $x : X \vdash A(x) : Type$ |
 | [[section]] $\array{ X &&\stackrel{t}{\to}&& A \\ & {}_{\mathllap{id}}\searrow && \swarrow_{p} \\ && X}$ | [[term]] $x : X \vdash t(x) : A(x)$ |
 |  [[pullback]] $\array{ f^* A &\to& A \\ \downarrow && \downarrow^{\mathrlap{f}} \\ Y &\stackrel{f}{\to} & X }$ | [[substitution]] $y : Y \vdash A(f(y)) : Type$ |
-| [[direct image]] $\array{ A && f_* A \\ {}^{\mathllap{p}}\downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[dependent product]] $ y : Y \vdash \underset{x : f^{-1}(y)}{\prod } A(x) : Type$ |
-| postcomposition $\array{ A &=& f_! A \\ \downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[dependent sum]] $y : Y \vdash \underset{x : f^{-1}(y)}{\sum} A(y) : Type$ |
+| [[direct image]] $\array{ A && f_* A \\ {}^{\mathllap{p}}\downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[dependent product]] $ y : Y \vdash \underset{x : X(y)}{\prod } A(x) : Type$ |
+| [internal hom in slice](locally%20cartesian%20closed%20category#EquivalentCharacterizations) $\array{ X \times f^* A && f_* f^* A & = [X,A]_Y \\ {}^{\mathllap{}}\downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[function type]] $ y : Y \vdash X(y) \to A(y) : Type$ |
+| postcomposition $\array{ A &=& f_! A \\ \downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[dependent sum]] $y : Y \vdash \underset{x : X(y)}{\sum} A(x) : Type$ |
+| [[fiber product|fiber]][[product]] $\array{ X \times f^* A &=& f_! f^* A & = X \times_Y A\\ \downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[product type]] $y : Y \vdash X(y) \times A(y) : Type$ |
 | [[Beck-Chevalley condition]] of [[codomain fibration]] | [[substitution]] commutes with [[dependent sum]] |
 | [[path space object]] $\array{A^I \\ \downarrow^{\mathrlap{(d_1,d_0)}} \\ A \times A}$ | [[identity type]] $a,b : A \vdash (a = b)$ |
 | [[truncated object in an (infinity,1)-category|(-2)-truncated morphism]]/[[equivalence in an (infinity,1)-category|equivalence]] $\array{Y \\ \downarrow^{\mathrlap{\simeq}} \\ X}$ | [[true]]/[[unit type]] $x : X \vdash 1 : Type$ |
 | [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]]/[[monomorphism in an (infinity,1)-category|monomorphism]] $\array{\phi \\ \downarrow \\ X}$ | [[proposition]] $x : X \vdash \phi(x) : Type$ |
-| [[direct image]] of [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]] | [[universal quantifier]] $y : Y \vdash \underset{x \in f^{-1}(y)}{\forall} \phi(x) : Type$ |
-| [[truncated object of an (infinity,1)-category|(-1)-truncation]] of postcomposition of [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]] | [[existential quantifier]] $y : Y \vdash \underset{x \in f^{-1}(y)}{\exists} \phi(x) $ |
+| [[direct image]] of [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]] | [[universal quantifier]] $y : Y \vdash \underset{x \in X(y)}{\forall} \phi(x) : Type$ |
+| [[truncated object of an (infinity,1)-category|(-1)-truncation]] of postcomposition of [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]] | [[existential quantifier]] $y : Y \vdash \underset{x \in X(y)}{\exists} \phi(x) $ |
 
 The symbols in the right column may be formally manipulated according to the rules of _[[type theory]]_.
 For the case of ordinary categories, this table defines a [[functor]] 
