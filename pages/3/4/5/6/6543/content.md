@@ -55,12 +55,11 @@ One can also embrace the first limitation and not worry about having multiple na
 
 ## Relationship to locally internal categories
 
-The stack semantics for a topos $\mathcal{E}$ can be used to talk about [[locally internal category|locally internal categories]] $\mathcal{C}$ of $\mathcal{E}$ (in the sense of the appendix of ([Johnstone](#Johnstone))) as if they're ordinary locally small categories over $\mathrm{Set}$.
+The stack semantics for a topos $\mathcal{E}$ can be used to talk about [[locally internal category|locally internal categories]] of $\mathcal{E}$ (in the sense of ([Penon 1974](#Penon))) as if they're ordinary locally small categories over $\mathrm{Set}$.
 
 Examples:
 
-* A geometric morphism $f: \mathcal{F} \to \mathcal{E}$ looks like
-like the canonical morphism $\mathcal{F} \to \mathrm{Set}$ when using the stack semantics of $\mathcal{E}$.
+* A geometric morphism $f: \mathcal{F} \to \mathcal{E}$ looks like the canonical morphism $\mathcal{F} \to \mathrm{Set}$ when using the stack semantics of $\mathcal{E}$.
 
 * The internal statement "$\mathcal{F}$ is a compact topos" is equivalent to $f$ being a [[proper geometric morphism|proper morphism]].
 
@@ -79,5 +78,8 @@ like the canonical morphism $\mathcal{F} \to \mathrm{Set}$ when using the stack 
 
 * [[Mike Shulman]], _[Stack semantics and the comparison of material and structural set theories](http://arxiv.org/abs/1004.3802)_ (2010)
 
-* [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp.
+* J. Penon, _Categories localement internes_, C. R. Acad. Sci. Paris __278__ (1974) A1577-1580
+{#Penon}
+
+* Locally internal categories, Appendix in: [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp.
 {#Johnstone}
