@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -190,7 +201,9 @@ and where the obstruction classes are the [[universal characteristic classes]]
 
 * [[Pontryagin class|second fractional Pontryagin class]] $\tfrac{1}{6}p_2$
 
-and where every possible square in the above is a [[homotopy pullback]] square.
+and where every possible square in the above is a [[homotopy pullback]] square (using the [[pasting law]]).
+
+Notice that for instance $w_2$ is identified as such by using that $[S^2,-]$ preserves [[homotopy pullbacks]] and sends $ B O \to \tau_{\leq 2} B O$ to a [[weak homotopy equivalence|equivalence]], so that $B SO \to B^2 \mathbb{Z}$ is an [[isomorphism]] on the second [[homotopy group]] and hence by the [[Hurewicz theorem]] is also an isomorphism on the [[cohomology group]] $H^2(-,\mathbb{Z}_2)$. Analogously for the other characteristic maps.
 
 In summary, more concisely, the tower is
 
