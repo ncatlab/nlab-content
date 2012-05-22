@@ -149,7 +149,7 @@ It was in particular motivated by the observation that this provides a natural f
 
 ## Related concepts
 
-* [[generalized tangent bundle]]
+* [[generalized tangent bundle]], [[generalized vielbein]]
 
 * [[exceptional generalized complex geometry]]
 
