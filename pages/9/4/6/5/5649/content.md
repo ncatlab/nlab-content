@@ -21,7 +21,7 @@
 
 ## Definition
 
-For $C$ a [[category]], a [[class]] $K \subset Mor(C)$ of [[morphism]]s in $C$ is said to satisfy **2-out-if-3** if for all composable $f,g \in Mor(C)$ we have that if two of the three morphisms $f$, $g$ and the composite $g \circ f$ is in $K$, then so is the third.
+For $C$ a [[category]], a [[class]] $K \subset Mor(C)$ of [[morphism]]s in $C$ is said to satisfy **2-out-of-3** if for all composable $f,g \in Mor(C)$ we have that if two of the three morphisms $f$, $g$ and the composite $g \circ f$ is in $K$, then so is the third.
 
 $$
   \array{
