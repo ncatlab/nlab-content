@@ -32,10 +32,11 @@ The original reference on the Witten genus is
 
   * _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986).
 
-
-A useful introduction and survey can be found in
+Surveys are in
 
 * [[Gerald Höhn]], _Complex elliptic genera and $S^1$-equivariant cobordism theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
+
+* Anand Dessai, _Some geometric properties of the Witten genus_ ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf))
 
 A discussion of the refinement of the Witten genus to a morphism of ring spectra is in remark 1.4 of
 
