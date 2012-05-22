@@ -61,3 +61,5 @@ Constructions of the [[sigma-model]] [[QFT]] that is supposed to give the Witten
 
 [[!redirects sigma-orientation]]
 
+[[!redirects elliptic genus]]
+[[!redirects elliptic genera]]
