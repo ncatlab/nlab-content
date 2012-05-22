@@ -1,4 +1,8 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A special case of _[[G-structure]]_.
@@ -14,5 +18,11 @@ $$
 $$
 
 the morphism $Spin(n) \to SO(n)$ is epi, while $SO(n) \to O(n)$ is mono.
+
+## Examples
+
+* [[vielbein]], [[orthogonal structure]],
+
+* [[generalized vielbein]]
 
 [[!redirects lift of structure groups]]
