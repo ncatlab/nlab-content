@@ -19,8 +19,13 @@ A _$B$-bordism_ is a [[cobordism]] $W$ equipped with extra "topological [[struct
 
 Commonly considered are lifts through the [[Whitehead tower]] of the [[orthogonal group]]), corresponding, in this order, to cobordisms with 
 
-* [[spin structure]], [[string structure]], [[fivebrane structure]], etc.
+* [[spin structure]] - [[spin bordism]] 
 
+* [[string structure]] - [[string bordism]] 
+
+* [[fivebrane structure]] - [[fivebrane bordism]]
+
+etc.
 
 
 ## References
