@@ -16,7 +16,7 @@
 * table of contents
 {:toc}
 
-## Definition
+## Idea
 
 For $R$ a [[ring]], an $R$-valued **genus** is a ring [[homomorphism]]
 
@@ -29,17 +29,28 @@ from the [[bordism ring]].
 
 The cobordism ring here may be replaced by rings of cobordisms with extra structure.  
 
-## Higher category theory interpretation
+### In homotopy theory / higher category theory
 
-The notion of genus finds its natural interpretation in [[higher category theory]], where it is refined to a morphism of [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[∞-groupoid]]s
+More generally, the notion of genus finds its natural interpretation in [[higher category theory]], where it is refined to a morphism of [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[∞-groupoid]]s
 
 $$
-  \sigma : Bord_{(\infty,\infty)} \to S
+  \sigma : Bord_{(\infty,\infty)} \to R
 $$
 
-from the [[(∞,n)-category of cobordisms]] for $n \to \infty$ to a [[ring spectrum]] $S$.
+from the [[(∞,n)-category of cobordisms]] for $n \to \infty$ to a [[ring spectrum]] $S$. This is equivalently the [[Thom spectrum]] (see at [[cobordism ring]] for more) and so a genus may be thought of as a morphism of [[spectra]]
 
-See [[cobordism ring]] for more.
+$$
+  \sigma : M O \to R
+  \,.
+$$
+
+
+
+### In terms of quantum field theory
+
+At least in some important cases, genera seem to be naturally understood as encoding [[sigma-model]] [[quantum field theories]]. For $G$ some structure, the [[Thom spectrum]] $M G$ is the classifying space of [[manifolds]] with [[G-structure]], and hence may be thought of as classifying [[target spaces]] for [[sigma-models]]. The codomain spectrum $R$ itself may then be thought of as a classifying space for a certain class of QFTs, and hence the genus $\sigma : M G \to R$ can be thought of as assigning to any target space the corresponding [[sigma-model]]. 
+
+This is for instance the case at least over the point for the [[A-hat genus]] $M Spin \to K O$, which may be thought of as sending manifolds with [[spin structure]] to the corresponding [[(1,1)-dimensional Euclidean field theories and K-theory|(1,1)-supersymmetric EFT]] ("[[spinning particle]]"); and for the [[Witten genus]] $M String \to tmf$, which can be thought of as sending a manifold with [[string structure]] to the corresponding [[(2,1)-dimensional Euclidean field theories and tmf|(2,1)-supersymmetric EFT]] ("[[heterotic string]]").
 
 ## Examples
 
