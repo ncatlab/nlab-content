@@ -15,18 +15,25 @@
 
 ## Definition
 
-A __group scheme__ is a [[group object]] in the category of [[schemes]]. 
+A __group scheme__ is a [[group object]] in the category of [[schemes]]; in particular a group scheme is a [[group functor]]. As explained at [[group object]] there are two equivalent ways of realizing this.
+
+One way is to define it as a functor $G:C Ring\to Set$ equipped with a transformation $m:G\times G\to G$ satisfying the properties spelled out at [[group object]].
+
+The other way is to define it as a functor $Sch\to Grp$ from the category of schemes to that of (discrete) groups whose composition with the forgetful functor $Grp\to Set$ is representable.
 
 
-In the [[functor of points]] formalism, a group scheme over a scheme $X$ is a functor
+Grothendieck emphasized to study schemes over a fixed base scheme. Following this idea in the [[functor of points]] formalism, a group scheme over a scheme $X$ is a functor
+
 $$
 G: (Sch /X)^{op} \to Grp
 $$
-(where [[Grp]] is the category of discrete [[groups]]) such that the composition with the forgetful functor $F: Grp \to Set$ is [[representable functor|representable]]. 
+## Generalizations
 
-See also [[formal group]].
+This construction generalizes to [[ind-object|ind-schemes]] as for example [[formal scheme|formal schemes]] to that of a [[formal group scheme]].
 
 ## Examples
+
+* For a field $k$ the terminal $k$-scheme $Sp_k k$ is a group scheme in a unique way.
 
 * Given any group $G$, one can form the constant group scheme $G_X$ over $X$. 
 
