@@ -128,8 +128,16 @@ Therefore the [[truncated|0-truncation]] of $\mathbf{c}Struc_{T X}$ is the space
 
 We may further lift this discussion to [[differential cohomology]] to get genuine _differential_ $T X$-twisted $\mathbf{c}$-structures. This introduces in addition the [[Levi-Civita connection]] in $X$ with respect to the given vielbein.
 
+## Related concepts
+
+* [[reduction of structure groups]], [[orthogonal structure]]
+
+* [[generalized vielbein]], [[exceptional generalized geometry]]
+
 
 [[!redirects vielbeine]]
+[[!redirects vielbeins]]
+
 
 [[!redirects soldering form]]
 [[!redirects soldering forms]]
