@@ -141,15 +141,6 @@ While on the right this expresses the collection of the pullback bundle, the lef
 | $\array{ \mathbf{B}^2 U(1) &\to& \mathbf{B}Aut(\mathbf{B}U(1)) \\ && \downarrow \\ && \mathbf{B}\mathb{Z}_2 }$ | [[double cover]] |  | [[Jandl gerbe]] | [[orientifold]] [[B-field]] | 
  
 
-### K-classes
- {#KClasses}
-
-(...)
-
-### Orientifold $B$-field
-
-(...)
-
 ### Spin-, String- and Fivebrane-structures
 
 Where a [[spin structure]] on [[spacetime]] is necessary to cancel a [[quantum anomaly]] of the [[spinning particle]]/[[superparticle]] [[sigma-model]], so the [[heterotic string|heterotic]] [[superstring]] requires a "higher spin structure", called a _[[string structure]]_. Or rather, in the presence of a nontrivial [[gauge field]] it involves a _[[twisted differential string structure|twisted string structure]]_, which in string theory is best known as showing up as part of the _[[Green-Schwarz mechanism]]_. Further up in dimension, _[[dual heterotic string theory]]_ involves a ([[twisted differential fivebrane structure|twisted, differential]]) _[[fivebrane structure]]_.
@@ -310,6 +301,17 @@ These problems are all fixed by refining the [[classifying space]] $B Spin \in \
 
 #### Smooth refinement
 
+[[differential geometry|Differential geometry]] is modeled on [[smooth manifolds]],
+and these in turn on smooth [[Cartesian spaces]] $\mathbb{R}^n \in CartSp$. A functor
+$X : CartSp^{op} \to \infty Grpd$ encodes a smooth family version of a [[homotopy type]].
+For this only the [[germs]] of [[open balls]] $D^n \hookrightarrow \mathbb{R}^n$
+matter. Therefore we say that a morphism $X \to Y$ of 
+[[smooth infinity-groupoid|smooth homotopy types]] is an 
+[[equivalence in an (infinity,1)-category|equivalence]] if it is one restricted to such germs of $n$-disks ("on each [[stalk]]").
+
+This defines a [[homotopy theory]] to be denoted _[[Smooth∞Grpd]]_. 
+
+
 **Theorem** There is a lift of the [above Whitehead tower](#WhiteheadTower) of [[homotopy type|bare homotopy types]] to a tower of [[smooth infinity-groupoid|smooth homotopy types]]/[[smooth infinity-stacks]] through the [[geometric realization]] map
 
 $$
@@ -400,6 +402,17 @@ $$
 #### Twisted refinement -- Green-Schwarz mechanism
 
 (...)
+
+
+### K-classes
+ {#KClasses}
+
+(...)
+
+### Orientifold $B$-field
+
+(...)
+
 
 
 ### $Spin^c$- $String^c$- and $Fivebrane^c$-structures
