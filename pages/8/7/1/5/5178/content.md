@@ -61,7 +61,7 @@ This appears for instance as ([Johnstone, def. B1.2.1](#Johnstone)).
 
 One may also call $\mathbb{C}$ a [[prestack]] in categories over $S$.
 
-Traditionally one writes the image of $X\in an object S$ under $\mathbb{C}$ as $\mathbb{C}^X$ and calls it _the category of $X$-indexed families of objects of $\mathbb{C}$_ .  Similarly, one write thes image of a [[morphism]] $u\colon X\to Y$ as $u^*\colon \mathbb{C}^Y\to \mathbb{C}^X$.
+Traditionally one writes the image of an object $X \in S$ under $\mathbb{C}$ as $\mathbb{C}^X$ and calls it _the category of $X$-indexed families of objects of $\mathbb{C}$_.  Similarly, one writes the image of a [[morphism]] $u\colon X\to Y$ as $u^*\colon \mathbb{C}^Y\to \mathbb{C}^X$.
 
 If $\mathcal{S}$ has a [[terminal object]] $*$ we think of $\mathbb{C}^*$ as the **underlying ordinary category** of the $\mathcal{S}$-indexed category $\mathbb{C}$. Part of the theory of indexed categories is about when and how to extend structures on $\mathbb{C}^*$ to all of $\mathbb{C}$.
 
