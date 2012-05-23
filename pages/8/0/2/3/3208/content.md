@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _theory_ is a collection of _axioms_ in some [[logic]].
+A _theory_ is a collection of formulas in the language of some [[logic]], viewed as _axioms_.
 
 ## Definition
 
@@ -26,7 +26,7 @@ There are several different viewpoint on theories:
 
   [syntactic view](#SyntacticView) 
 
-  is that the theory itself consists of the set of formulas in the first order language $Lang(\Sigma)$ of a [[signature (in logic)|signature]] $\Sigma$ together with the set of logical consequences (aka theorems) of the axioms in $A$, relative to (some specified) fragment of [[first-order logic]]. 
+  is that the theory itself consists of the set of formulas _without free variables_ in the first order language $Lang(\Sigma)$ of a [[signature (in logic)|signature]] $\Sigma$ together with the set of logical consequences (aka theorems) of the axioms in $A$, relative to (some specified) fragment of [[first-order logic]]. Regarding that the formulas have no free variables the formulas in the theory are either true or false. 
 
 * The 
 
