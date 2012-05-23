@@ -26,7 +26,7 @@ $$
 f = P\cdot h
 $$
 
-where $P$ is a Weierstrass polynomial of degree $d$ of $w$ and $h(0)=0$.
+where $P$ is a Weierstrass polynomial of degree $d$ of $w$ and $h(0) \neq 0$.
 
 
 ##Weierstrass division theorem##
