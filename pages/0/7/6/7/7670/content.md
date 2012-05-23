@@ -1,0 +1,7 @@
+__Saharon Shelah__ is a leading [[model theory|model theorist]]. He developed the classification theory. 
+
+Shelah's articles are numerated and often referred to according to this numeration.
+
+* [wikipedia](http://en.wikipedia.org/wiki/Saharon_Shelah)
+* [Shelah archive](http://shelah.logic.at)
+* [Shelah's books](http://shelah.logic.at/books.html)
