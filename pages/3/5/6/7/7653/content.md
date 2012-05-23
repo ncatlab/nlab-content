@@ -20,19 +20,7 @@
 
 The [[background gauge fields]] appearing in [[string theory]] are formally [[cocycles]] in [[twisted cohomology|twisted]] and [[differential cohomology|differential]] refinements of [[smooth infinity-groupoid|smooth]] [[cohomology]].
 
-This page contains 
 
-* a pedagogical introduction by way of the example of [[twisted bundle|twisted unitary bundles]] over [[D-branes]] representing classes in [[twisted K-theory]];
-
-* an indication how that example sits inside a more comprehensive theory;
-
-* a list list of further examples.
-
-## Introductory example: twisted unitary bundles with connection
-
-We discuss here aspects of a simple example in an elementary and expository way. This is meant to introduce basic ideas of the [general theory](GeneralTheory) discussed below by way of example, and serve as a backdrop for the more systematic discussion of the [examples below](#Examples).
-
-(...)
 
 ## General theory
  {#GeneralTheory}
@@ -140,10 +128,27 @@ While on the right this expresses the collection of the pullback bundle, the lef
 | $\array{ \mathbf{B}Fivebrane &\to& \mathbf{B} String  \\ && \downarrow^{\mathrlap{\tfrac{1}{6}\mathbf{p}_2}} \\ && \mathbf{B}^7 U(1)  }$ | [[circle n-bundle with connection|circle 7-bundle]]| [[string]] [[electric charge]]  | [[twisted differential fivebrane structure|twisted smooth fivebrane structure]] | [[gravity]]+[[B6-field]] |
 | $\array{ \mathbf{B}^2 U(1) &\to& \mathbf{B}Aut(\mathbf{B}U(1)) \\ && \downarrow \\ && \mathbf{B}\mathb{Z}_2 }$ | [[double cover]] |  | [[Jandl gerbe]] | [[orientifold]] [[B-field]] | 
  
+## Twisted unitary bundles
+
+We discuss here aspects of a simple example in an elementary and expository way. This is meant to introduce basic ideas of the [general theory](GeneralTheory) by way of example, and serve as a backdrop for the more systematic discussion of the [examples below](#Examples).
+
+(...)
+
+$$
+  \array{
+     \mathbf{B}U &\to& \mathbf{B} P U
+     \\
+     && \downarrow^{\mathrlap{dd}}
+     \\
+     && \mathbf{B}^2 U(1)
+  }
+$$
+
+(...)
 
 ### Spin-, String- and Fivebrane-structures
 
-Where a [[spin structure]] on [[spacetime]] is necessary to cancel a [[quantum anomaly]] of the [[spinning particle]]/[[superparticle]] [[sigma-model]], so the [[heterotic string|heterotic]] [[superstring]] requires a "higher spin structure", called a _[[string structure]]_. Or rather, in the presence of a nontrivial [[gauge field]] it involves a _[[twisted differential string structure|twisted string structure]]_, which in string theory is best known as showing up as part of the _[[Green-Schwarz mechanism]]_. Further up in dimension, _[[dual heterotic string theory]]_ involves a ([[twisted differential fivebrane structure|twisted, differential]]) _[[fivebrane structure]]_.
+Where a [[spin structure]] on [[spacetime]] is necessary to cancel a [[quantum anomaly]] of the [[spinning particle]]/[[superparticle]] [[sigma-model]], so the [[heterotic string|heterotic]] [[superstring]] requires a "higher spin structure", called a _[[string structure]]_. Or rather, in the presence of a nontrivial [[gauge field]] it involves a _[[twisted differential string structure|twisted string structure]]_, which in [[heterotic string theory]] is part of the _[[Green-Schwarz mechanism]]_. Further up in dimension, _[[dual heterotic string theory]]_ involves a ([[twisted differential fivebrane structure|twisted, differential]]) _[[fivebrane structure]]_.
 
 #### Whitehead tower
  {#WhiteheadTower}
@@ -235,7 +240,7 @@ where
 
 * every possible square in the above is a [[homotopy pullback]] square (using the [[pasting law]]).
 
-For instance $w_2$ is identified as such by using that $[S^2,-]$ preserves [[homotopy pullbacks]] and sends $ B O \to \tau_{\leq 2} B O$ to a [[weak homotopy equivalence|equivalence]], so that $B SO \to B^2 \mathbb{Z}$ is an [[isomorphism]] on the second [[homotopy group]] and hence by the [[Hurewicz theorem]] is also an isomorphism on the [[cohomology group]] $H^2(-,\mathbb{Z}_2)$. Analogously for the other characteristic maps.
+For instance $w_2$ is identified as such by using that $[S^2,-]$ preserves [[homotopy pullbacks]] and sends $ B O \to \tau_{\leq 2} B O$ to an isomorphism on connected components, so that $B SO \to B^2 \mathbb{Z}$ is an [[isomorphism]] on the second [[homotopy group]] and hence, by the [[Hurewicz theorem]], is also an isomorphism on the [[cohomology group]] $H^2(-,\mathbb{Z}_2)$. Analogously for the other characteristic maps.
 
 In summary, more concisely, the tower is
 
