@@ -2,6 +2,8 @@
 
 An **extremal epimorphism** (also called a **cover**) in a [[category]] $C$ is an [[epimorphism]] $e$ such that if $e = m g$ where $m$ is a [[monomorphism]], then $m$ is an isomorphism.
 
+The dual notion is an **extremal monomorphism**.
+
 # Remarks #
 
 * If $C$ has [[equalizer]]s, then any morphism with the property above must automatically be an epimorphism.
@@ -16,3 +18,12 @@ An **extremal epimorphism** (also called a **cover**) in a [[category]] $C$ is a
 [[!redirects extremal epimorphisms]]
 [[!redirects extremal epi]]
 [[!redirects extremal epis]]
+[[!redirects extremal epic]]
+[[!redirects extremal epics]]
+
+[[!redirects extremal monomorphism]]
+[[!redirects extremal monomorphisms]]
+[[!redirects extremal mono]]
+[[!redirects extremal monos]]
+[[!redirects extremal monic]]
+[[!redirects extremal monics]]
