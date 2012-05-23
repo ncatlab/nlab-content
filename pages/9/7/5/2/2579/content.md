@@ -22,7 +22,7 @@ One way is to define it as a functor $G:C Ring\to Set$ equipped with a transform
 The other way is to define it as a functor $Sch\to Grp$ from the category of schemes to that of (discrete) groups whose composition with the forgetful functor $Grp\to Set$ is representable.
 
 
-Grothendieck emphasized to study schemes over a fixed base scheme. Following this idea in the [[functor of points]] formalism, a group scheme over a scheme $X$ is a functor
+Grothendieck emphasized the study of schemes over a fixed base scheme. Following this idea in the [[functor of points]] formalism, a group scheme over a scheme $X$ is a functor
 
 $$
 G: (Sch /X)^{op} \to Grp
@@ -39,13 +39,29 @@ This construction generalizes to [[ind-object|ind-schemes]] as for example [[for
 
 * Every [[algebraic group]] is in particular a group scheme.
 
-* The functor $\mathbb{G}_m$ is a group scheme given by $\mathbb{G}_m(S)=\Gamma(S, \mathcal{O}_S)^\times$. A scheme is sent to the invertible elements of its global functions.
+* The functor $\mu:=\mathbb{G}_m$ is a group scheme given by $\mathbb{G}_m(S)=\Gamma(S, \mathcal{O}_S)^\times$. A scheme is sent to the invertible elements of its global functions.
 
-* The functor $\mathbb{G}_a$ is a group scheme given by $\mathbb{G}_a(S)=\Gamma(S, \mathcal{O}_S)$ the additive group of the ring of global functions.
+* The functor $\alpha:=\mathbb{G}_a$ is a group scheme given by $\mathbb{G}_a(S)=\Gamma(S, \mathcal{O}_S)$ the additive group of the ring of global functions.
 
-* $\alpha_p$ is the subgroup scheme of $\mathbb{G}_a$ of $p$-nilpotent elements.
+* the kernel of any group scheme morphism is a group scheme.
 
-* $\mu_p$ is the subgroup scheme of $\mathbb{G}_m$ of $p$-th roots of unity.
+In context of [[p-divisible group|p-divisible groups]] the kernels of the $k$-group scheme morphisms
+
+$$(-)^n:\begin{cases}
+\mu_k&\to& \mu_k
+\\
+x&\to &x^n
+\end{cases}$$
+
+and for $k$ a field with characteristic $p$
+
+$$(-)^{p^r}:\begin{cases}
+\alpha_k&\to& \alpha_k
+\\
+x&\to &x^{p^r}
+\end{cases}$$
+
+denoted by $\mu_n$ giving the group scheme of $n$-th root of unity  and $\alpha_p$ giving the group scheme of $p^n$-nilpotent elements are of particular interest.
 
 ## Morphisms
 
