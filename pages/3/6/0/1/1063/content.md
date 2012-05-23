@@ -17,7 +17,7 @@
 
 ## Definition
 
-A **pre-abelian category** is an [[additive category]] (an [[Ab-enriched category]] with finite biproducts) such that every morphism has a [[kernel]] and a [[cokernel]].  Equivalently, it is an [[Ab-enriched category]] category with all finite [[limits]] and [[colimits]], since an [[equalizer]] of $f$ and $g$ in an Ab-enriched category is the same as a kernel of $f-g$, and dually.
+A **pre-abelian category** is an [[additive category]] (an [[Ab-enriched category]] with finite [[biproduct|biproducts]]) such that every morphism has a [[kernel]] and a [[cokernel]].  Equivalently, it is an [[Ab-enriched category]] category with all finite [[limits]] and [[colimits]], since an [[equalizer]] of $f$ and $g$ in an Ab-enriched category is the same as a kernel of $f-g$, and dually.
 
 If $C$ is pre-abelian and $c\in C$, the operations $\ker$ and $\coker$ define a [[Galois connection]] between the [[preorder]]s $Sub(c)$ of monomorphisms into $c$ and $Quot(c)$ of epimorphisms out of $c$.  In particular, $f:b\to c$ is a kernel iff $f = ker(coker(f))$ and dually.  Furthermore, every morphism $f:A\to B$ in a pre-abelian category has a canonical decomposition
 $$
