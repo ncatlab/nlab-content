@@ -53,7 +53,7 @@ $$
 
 =--
 
-This ([Seely, theorem 6.3](#Seely)). For a more detailed discussion see at
+This ([Seely, theorem 6.3](#Seely)).  It is somewhat more complicated than this, because we need to strictify the category theory to match the category theory; see [[categorical model of dependent types]].  For a more detailed discussion see at
 _[[relation between type theory and category theory]]_.
 
 ## Examples
