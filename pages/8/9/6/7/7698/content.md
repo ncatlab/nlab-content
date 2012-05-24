@@ -85,16 +85,24 @@ Let $A$ be a commutative [[algebraic group|algebraic k-group]], such that $p id_
 
 +-- {: .num_prop}
 ###### Proposition
+Let $G$ be a $k$-formal group. Then $G$ is $p$-divisible iff the following conditions hold:
 
+1. $\pi_\circ(G)(\overline k)\simeq (\mathbb{Q}_p /\mathbb{Z}_p)^r$, $r$ finite.
+
+1. $G^\circ$ is of finite type, smooth, and $ker(V:G^{\circ (p)}\to G^\circ)$ is finite.
 =--
 
 +-- {: .num_example}
 ###### Example
-
+Let $A$ be an algebraic unipotent $k$-group, then $\hat A^\circ$ is never $p$-divisible unless $A$ is finite.
 =--
 
++-- {: .num_remark}
+###### Remark
+Let $G$ be $p$-divisible. Then we have $height(G)=dim(G)+dim(G^\prime)$
+=--
 
 +-- {: .num_prop}
 ###### Proposition
-
+Let $G$ be a connected, finite type, smooth formal group. There exist two subgroups $H$,K\subseteq G$ with $H$ is $p$-divisible, $p^n K = 0$ for large $n$, $H\cap K$ is finite, and $G=H+ K$.
 =--
