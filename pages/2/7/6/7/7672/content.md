@@ -1,0 +1,35 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _$J$-homomorphism_ is traditionally a family of [[group]] homomorphisms
+
+$$
+  J_i : \pi_i(O(n)) \to \pi_{n+i}(S^n)
+$$
+
+from the [[homotopy groups]] of the [[orthogonal group]] to those of the [[sphere spectrum]].
+
+This refines to a morphism of [[infinity-groups]]
+
+$$
+  J : O \to GL_1(\mathbb{S})
+$$
+
+to the [[infinity-group of units]] of the sphere spectrum, regarded as an [[E-infinity ring spectrum]].
+
+## Applications
+
+By postcomposition with $B J : B O \to B GL_1(\mathbb{S}) $ the $J$-homomorphism sends real [[vector bundles]] to sphere-spectrum bundles ([[(infinity,1)-vector bundles]] over the sphere spectrum). See also at _[[Thom space]]_.
+
+## Related concepts
+
+* [[orientation in generalized cohomology]]
+
+## References
+
+* [[Akhil Mathew]], _Notes on the J-homomorphism_ ([pdf](http://people.fas.harvard.edu/~amathew/j.pdf))
+
