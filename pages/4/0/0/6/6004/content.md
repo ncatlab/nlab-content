@@ -13,16 +13,17 @@
 =--
 =--
 
-This entry is is to record the textbook
-
+This entry is is to record the monograph 3 volumes
 * [[Francis Borceux]], _Handbook of Categorical Algebra_
 
-  1: Basic Category Theory
+  1: Basic Category Theory, [gBooks]()
 
-  2: Categories and Structures
+  2: Categories and Structures, [gBooks]()
 
-  3: Categories of Sheaves
+  3: Categories of Sheavesh, [gBooks](http://books.google.fr/books/about/Handbook_of_Categorical_Algebra_Categori.html?id=7jgots78faUC)
 
 on [[category theory]] and [[topos theory]].
+
+A book survey: Bull. London Math. Soc. __28__:4, 440-442, [doi](http://dx.doi.org/10.1112/blms/28.4.440)
 
 category: reference
