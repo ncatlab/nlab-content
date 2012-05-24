@@ -161,7 +161,7 @@ Conversely, since any weak factorization system gives rise to [[path objects]] b
 
 1. The eliminator term $J$ of identity types in type theory is also preserved by substitution.  This imposes an additional *[[coherence]]* requirement which is tricky to obtain categorically.  See the references by [Warren](#Warren) and [Garner-van den Berg](#vdBergGarner) for methods that ensure this, such as by invoking an [[algebraic weak factorization system]].  It can also be handled *a la* [[Vladimir Voevodsky|Voevodsky]] by using a (possibly [[univalence axiom|univalent]]) [[universe]].
 
-1. Finally, substitution in type theory is strictly functorial/[[associativity|associative]], whereas it is modeled categorically by pullback which is generally not strictly so.  This is a general issue with the categorical interpretation of [[dependent type theory]], not something specific to identity types.  It can be resolved by passing to a [[split fibration]] which is equivalent to the [[codomain fibration]], or by making use of a [[universe]].
+1. Finally, substitution in type theory is strictly functorial/[[associativity|associative]], whereas it is modeled categorically by pullback which is generally not strictly so.  This is a general issue with the categorical interpretation of [[dependent type theory]], not something specific to identity types.  It can be resolved by passing to a [[split fibration]] which is equivalent to the [[codomain fibration]], or by making use of a [[universe]].  See [[categorical model of dependent types]].
 
 ### Interpretation in a type-theoretic model category
 
