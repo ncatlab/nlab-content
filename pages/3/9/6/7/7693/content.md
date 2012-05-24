@@ -1,0 +1,19 @@
+Let $k$ be a field. Let $Mf_k$ denote the category of finite dimensional $k$-rings.
+
+1. A $k$-scheme is called a $k$_-formal scheme_ if it is is equivalent to a codirected colimit of finite (affine) $k$-schemes.
+
+1. A $k$-scheme is a $k$-formal scheme if it is presented by a profinite $k$-ring or -equivalently- by a $k$-ring which is the limit of discrete quotients which are finite $k$-rings. If $A$ is such a topological $k$-ring $Spf_k(A)(R)$ denotes the set of continous morphisms from $A$ to the topological discrete ring $R$. We have $Spf_k$ is a contravariant equivalence between the category of profinite $k$-rings and the category $fSch_k$ of formal $k$-schemes.
+
+1. Instead of defining $fSch_k$ as the opposite of $Mf_k$ define it instead covariantly on the category of finite dimensional $k$-corings.
+
+1. A formal $k$-scheme is precisely a left exact (commutig with finite limits) functor $X:Mf_k\to Set$.
+
+The inclusion $Mf_k\hookrightarrow M_k$ induces a functor
+
+$${}^\hat\; :Sch_k\to fSch_k$$
+
+called _completion functor_.
+
+## References
+
+* Michel Demazure, lectures on p-divisible groups [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
