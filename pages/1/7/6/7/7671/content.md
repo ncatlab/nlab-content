@@ -89,9 +89,9 @@ From now on ''$k$-group'' will mean by default ''commutative $k$-group'' and the
 
 [[II.10, smooth formal groups]]
 
-### 11. [[p-divisible formal groups]]
+### 11. p-divisible formal groups
 
-[[II.11, p-divisible formal group]]
+[[II.11, p-divisible formal groups]]
 
 ### 12 appendix
 
