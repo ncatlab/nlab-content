@@ -85,7 +85,7 @@ that naturally yield directly $A_\infty$-categories instead of dg-categories.
 
 * The [[Fukaya category]] $Fuk(X)$ of a topological space $X$ -- a [[Calabi-Yau A-∞ category]]
 
-* $A_\infty$-[[A-infinity-algebra|algebras]] as $A_\infty$-categories with one object.
+* $A_\infty$-[[A-infinity-algebra|algebras]] are the $A_\infty$-categories with one object.
 
 * The [[loop space]] $\Omega{X}$ of a topological space $X$
 
@@ -93,7 +93,7 @@ that naturally yield directly $A_\infty$-categories instead of dg-categories.
 
 ## More general $A_\infty$-categories ##
 
-In the widest sense, ``$A_\infty$-category" may be used as a term for a category in which the [[composition]] operation constitutes an algebra over an [[operad]] which resolves in some sense the associative operad $Ass$.
+In the widest sense, $A_\infty$-category may be used as a term for a category in which the [[composition]] operation constitutes an algebra over an [[operad]] which resolves in some sense the associative operad $Ass$.
 
 One should be aware, though, that this use of the term is not understood by default in the large body of literature concerned with the above linear notion.
 
@@ -117,7 +117,7 @@ in the context of dg-operads of the linear associative operad.
 
 # References #
 
-## For $A_\infty$-categories in the sense of homological algebra ##
+#### For $A_\infty$-categories in the sense of homological algebra ##
 
 For a short and precise introduction see
 
@@ -135,6 +135,7 @@ A very detailed treatment of $A_\infty$-categories is a recent book
 * Yu. Bespalov, V. Lyubashenko, O. Manzyuk, _Pretriangulated $A_\infty$-categories_, Proceedings of the Institute of Mathematics of NAS of Ukraine, vol. 76, Institute of Mathematics of NAS of Ukraine, Kyiv, 2008, 598 ([ps.gz](http://www.math.ksu.edu/~lub/cmcMonad.gz))
 
   * notice: the ps.gz file has different page numbers than the printed version, but the numbering of sections and formulae is final. Errata to published version are [here](http://www.math.ksu.edu/~lub/cmcMoCor.pdf).
+* Oleksandr Manzyk, _A-infinity-bimodules and Serre A-infinity-functors_, dissertation [pdf](https://kluedo.ub.uni-kl.de/files/1910/dissertation.pdf), [djvu](https://kluedo.ub.uni-kl.de/files/1910/dissertation.djvu);  _Serre $A_\infty$ functors_, talk at Categories in geometry and math. physics, Split 2007, slides, [pdf](http://www.irb.hr/korisnici/zskoda/manzyukslides.pdf), work with [[Volodymyr Lyubashenko]]
 
 The relation of $A_\infty$-categories to [[differential graded algebra]]s is emphasized in the introduction of
 
@@ -144,8 +145,7 @@ which mostly discusses just [[A-infinity-algebra]]s, but points out a generaliza
 
 Essentially the authors say that an $A_\infty$-category should be a non(-graded-)commutative [[NQ-supermanifold]]. Recall that a graded-commutative [[NQ-supermanifold]] is a [[L-infinity-algebroid]]. From this perspective one would want to think of a non-graded commutative [[NQ-supermanifold]] as an _$A_\infty$-algebroid_.
 
-
-## For $A_\infty$-categories in the wider sense ##
+#### For $A_\infty$-categories in the wider sense ##
 
 If one understands $A_\infty$-category as "operadically defined higher category", then relevant references would include:
 
