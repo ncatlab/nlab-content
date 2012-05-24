@@ -1,0 +1,13 @@
+## Idea
+
+Non-archimedean geometry is geometry over [[non-acrhimedean field]]s. While the concrete results are quite different, the basic formalism of algebraic [[scheme]]s and [[formal scheme]]s over a non-archimedean field $K$ is the special case of the standard formalism over any field. The "correct" [[analytic geometry]] over non-archimedean field, however, is _not_ a straightforward analogue of the complex analytic case. As Tate noticed, the sheaf of $K$-valued functions which can be locally written as converging power series over the affine space $K^n$ is too big  (too many analytic functions) due to the fact that the underlying topological space is totally disconnected. Also there are very few $K$-analytic manifolds. This naive approach paralleling the [[complex analytic geometry]] is called by Tate _wobbly $K$-analytic varieties_ an, apart from the case of non-archimedean _local_ fields it is of little use. For this reason Tate introduced a better $K$-algebra of analytic functions, locally takes its maximal spectrum and made a Grothendieck topology which takes into account just a certain _smaller_ set of open covers; this topology is viewed as _rigidified_, hence the varieties based on gluing in this approach is called [[rigid analytic geometry]]. Raynaud has shown how some classes of rigid $K$-varieties can be realized as generic fibers of formal schemes over the ring of integers of $K$; this is called a _formal model_ of a rigid variety. Different formal models are birationally equivalent, more precisely they are related via _admissible blow-ups_. Later more sophisticated approaches appeared: 
+
+* [[Berkovich analytic space]]s, which take prime spectra together with an extension of the abolsute value to the residue field 
+* Huber's [[adic space]]s which take into account also valuations of higher rank 
+* Fujiwara-Kato approach which takes a limit over all formal models; this has spirit of [[birational geometry]]  
+* [[global analytic geometry]]. 
+
+
+[[!redirects non-Archimedean analytic geometry]]
+[[!redirects nonarchimedean analytic geometry]]
+[[!redirects non-archimedean geometry]]
