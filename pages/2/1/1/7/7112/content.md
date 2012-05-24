@@ -3,6 +3,6 @@
 
 ## related entries
 
-* [[analytic geometry]], [[analytic space]]
+* [[non-archimedean analytic geometry]], [[Berkovich analytic space]]
 
 category: people
