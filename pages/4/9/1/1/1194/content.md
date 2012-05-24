@@ -287,7 +287,7 @@ In this case, the semantics involved is the more general _codomain fibration_ $p
 
 ### Syntactic categories and free models
 
-As mentioned above, there are two equivalent ways to describe formally the semantics of a given type theory (possibly with logic) in a category.  There is an [[adjunction]]
+As mentioned above, there are two equivalent ways to describe formally the semantics of a given type theory (possibly with logic) in a category.  There is an [[adjunction]] (which is at least sometimes an [[equivalence]]):
 
 $$ type theories \quad \underoverset{Lan}{Con}{\rightleftarrows} \quad categories $$
 
@@ -297,9 +297,9 @@ in which
 
 * the left adjoint $Con$ (sometimes called "syntax") builds the [[context|syntactic category]] of a type theory, whose objects, morphisms, and subobjects are the types (or contexts), terms, and propositions of the type theory.
 
-Thus, if $T$ is a type theory and $C$ a category with corresponding structure, it is equivalent to give a structure-preserving functor $Con(T) \to C$, or to give a translation of type theories $T\to Lan(C)$.  Either one is called a "model" of $T$ in $C$.  For more details on the construction of $Con$, see [[context]], and for more details on $Lan$, see [[internal logic]].
+Thus, if $T$ is a type theory and $C$ a category with corresponding structure, it is equivalent to give a structure-preserving functor $Con(T) \to C$, or to give a translation of type theories $T\to Lan(C)$.  Either one is called a "model" of $T$ in $C$.  For more details on the construction of $Con$, see [[syntactic category]], and for more details on $Lan$, see [[internal logic]].  For a description of the adjunction/equivalence, see [[relation between type theory and category theory]].
 
-By the way, it should be noted that there are various technical difficulties in making this precise.  For instance, categories of any sort form a 2-category (or something more, if they are higher categories themselves), so we have to make type theories into a 2-category as well.  Also, there is a bit of a mismatch in that *substitution* in type theory is usually "implicit," which implies that it is strictly associative, but the corresponding categorical operation of [[pullback]] is not generally strictly associative.  For this reason, various people have defined technical intermediaries between type theories and categories, which mostly boil down to a category equipped with a [[split fibration]] replacing its [[codomain fibration]].  These go by names like *comprehension category*, *category with attributes*, or *contextual category*; see [[categorical model of dependent types]].
+By the way, it should be noted that there are various technical difficulties in making this precise.  For instance, categories of any sort form a 2-category (or something more, if they are higher categories themselves), so we have to either make type theories into a 2-category as well, or consider strict categorical structures that form a 1-category.  Also, there is a bit of a mismatch in that *substitution* in type theory is usually "implicit," which implies that it is strictly associative, but the corresponding categorical operation of [[pullback]] is not generally strictly associative.  For this reason, various people have defined technical intermediaries between type theories and categories, which mostly boil down to a category equipped with a [[split fibration]] replacing its [[codomain fibration]].  These go by names like *comprehension category*, *category with attributes*, or *contextual category*; see [[categorical model of dependent types]].
 
 
 ## Syntax of type theory {#Syntax}
