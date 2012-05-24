@@ -29,35 +29,40 @@ However, it turns out that if we assume some additional structure on the ambient
 
 The basic ideas of the internal logic induced by a given [[category]] $C$ is this:
 
-* the [[object]]s $A$ of $C$ are regarded as collections of things of a given [[type]] $A$;
+* the [[object]]s $A$ of $C$ are regarded as collections of things of a given [[type]] $A$.
+
+* the [[morphisms]] $A\to B$ of $C$ are regarded as terms of type $B$ containing a free [[variable]] of type $A$ (i.e. in a [[context]] $x:A$).
 
 * a [[subobject]] $\phi \hookrightarrow A$ is regarded as a _proposition_ ([[predicate]]): by thinking of it as the sub-collection of all those things of type $A$ for which the statement $\phi$ is [[true]].
 
-  * the maximal subobject is hence the proposition that is always true, this is the logical object of [[truth]] $\top \hookrightarrow A$;
+  * the maximal subobject is hence the proposition that is always true, this is the logical object of [[truth]] $\top \hookrightarrow A$.
 
-  * the minimal subobject is hence the proposition that is always false, this is the logical object of [[falsity]] $\bottom \hookrightarrow A$;
+  * the minimal subobject is hence the proposition that is always false, this is the logical object of [[falsity]] $\bottom \hookrightarrow A$.
 
-  * one proposition [[implication|implies]] another if as subobjects of $A$ they are connected by a morphism in the [[poset]] of subobjects: $\phi \Rightarrow \psi$ means $\phi \hookrightarrow \psi$
+  * one proposition [[implication|implies]] another if as subobjects of $A$ they are connected by a morphism in the [[poset]] of subobjects: $\phi \Rightarrow \psi$ means $\phi \hookrightarrow \psi$.
 
-* Logical operations are implemented by [[universal construction]]s on [[subobject]]s:
+* Logical operations are implemented by [[universal construction]]s on [[subobject]]s.
   
-  * the conjunction [[and]] is the [[product]] of subobjects (their [[meet]]);
+  * the conjunction [[and]] is the [[product]] of subobjects (their [[meet]]).
 
-  * the conjunction [[or]] is the [[coproduct]] of subobjects (their [[join]]);
+  * the conjunction [[or]] is the [[coproduct]] of subobjects (their [[join]]).
 
   and so on.
 
-(There are other sorts of [[internalization]] that do not fit in this general framework.  For example, a [[monoid]] internal to a [[monoidal category]] is not an example of the sort of internalization discussed here; the framework we consider here can only deal with monoids in [[cartesian monoidal category|cartesian monoidal categories]], or at least cartesian [[multicategory|multicategories]].   However, [[linear logic]] holds out the hope of some reconciliation between the two.  See [[internalization]] for a discussion of the more  general notion in the context of [[doctrine]]s.)
+* A [[dependent type]] over an object $A$ of $C$ may be interpreted as a morphism $B\to A$ whose "fibers" represent the types $B(x)$ for $x:A$.  This morphism might be restricted to be a [[display map]] or a [[fibration]].
 
+Once we formalize the notion of "logical [[theory]]", the construction of the internal logic can be interpreted as a [[functor]] $Lang$ from suitably structured categories to theories.  The morphisms of theories are "interpretations", and so an internalization of some theory $T$ (such as the "theory of groups") into a category $C$ is a morphism of theories $T\to Lang(C)$.
 
-## Internal first-order logic 
+Moreover, the functor $Lang$ has a left [[adjoint functor]]: the [[syntactic category]] $Syn$ of a theory.  Thus, a model of $T$ in $C$ is equally well a functor $Syn(T)\to C$.  Frequently, this adjunction is even an [[equivalence of categories]]; see [[relation between type theory and category theory]].
+
 
 ### Kinds of internal logics in different categories
 
-There is a hierarchy of types of logical theories, each of which corresponds to a type of category in which such theories can be internalized.
+There are many different kinds of of "logical theories", each of which corresponds to a type of category in which such theories can be internalized (and yields a corresponding adjunction $Syn \dashv Lang$).
 
 |Theory| |Category|
 |------|-|--------|
+|[[finite product theory]]| category with [[finite products]]|
 |[[cartesian logic|finite limit]] (aka "left exact" or "cartesian")| |[[finitely complete category]]|
 |[[regular logic|regular]]| |[[regular category]]|
 |[[coherent logic|coherent]]| |[[coherent category]]|
@@ -66,13 +71,20 @@ There is a hierarchy of types of logical theories, each of which corresponds to 
 |[[first-order logic|first-order]]| |[[Heyting category]]|
 |[[dependent types]]| |[[locally cartesian closed category]]|
 |[[higher order logic|higher order]]| |[[topos|elementary topos]]|
+[[linear logic]]| [[symmetric monoidal category]]|
 
-Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]].  Not coincidentally, the corresponding types of category up through "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having all finite limits, such as finite product sketches or finite sum sketches, but the logical approach taken here seems to require at least finite limits.
+Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]].  Not coincidentally, the corresponding types of category up through "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having finite products, such as finite sum sketches, but the type-theoretic approach taken on this page requires at least finite products (or else something closely akin, such as a [[cartesian multicategory]]).
 
+However, there are other sorts of [[internalization]] that do not fit in this framework.  For instance, to describe a [[monoid]] internal to a [[monoidal category]], one needs an internal [[linear logic]].  See [[internalization]] for a discussion of the more  general notion in the context of [[doctrine]]s.
+
+
+## Internal first-order logic
+
+We begin with the interpretation of internal first-order logic, which is the most used in [[toposes]] and related categories.
 
 ### Theories
 
-For purposes of this page, what we mean by a _theory_ is a _[[type theory]]_.  This entails the following.
+In this section, what we mean by a _theory_ is a _[[type theory]]_ without dependent types, but with a dependent logic.  This entails the following.
 
 * The [[signature (in logic)|signature]] of the theory consists of
 
@@ -143,6 +155,33 @@ $$x:G,y:G,z:G | \top \vdash m(m(x,y),z) = m(x,m(y,z))$$
  means that the [[equalizer]] of the two morphisms $G\times G\times G \to G$ must be all of $G\times G\times G$, or equivalently that those two morphisms must be equal.  The same happens in most other cases.
 
 
+### The internal logic as a functor
+
+As described above, a model of a given theory $T$ in a category $C$ consists of an assignment
+
+|types of $T$|$\to$|objects of $C$|
+|function symbols of $T$|$\to$|morphisms of $C$|
+|relation symbols of $T$|$\to$|subobjects in $C$|
+|axioms of $T$|$\to$|containments in $C$|
+
+This is a sort of [[heteromorphism]] in that it changes the name of things as it operates on them.  We can describe it more simply as a "translation of theories" as follows.
+
+Given a category $C$ (which may be regular, coherent, geometric, Heyting, etc.), we define its **internal type theory (with first-order logic)** $Lang(C)$ to be the theory whose
+
+* types are the objects of $C$;
+* function symbols are the morphisms on $C$;
+* relation symbols are the subobjects in $C$;
+* axioms are the containments in $C$.
+
+Now a model of $T$ in $C$ can be described simply as a morphism of theories (a "translation" or "interpretation")
+
+$$T \to Lang(C).$$
+
+The functor $Lang : Categories \to Theories$ has a left adjoint, the [[syntactic category]] of a theory.  Thus we have a chain of natural isomorphisms
+
+$$ Theories(T,Lang(C)) \cong Models(T,C) \cong Categories(Syn(T),C)). $$
+
+
 ## Soundness and internal reasoning 
 
 Internal logic is not just a way to concisely describe internal structures in a category, but also gives us a way to _prove_ things about them by "internal reasoning."  We simply need to verify that the "usual" methods of logical reasoning (for example, from $\varphi\vdash \psi$ and $\psi\vdash \chi$ deduce $\varphi\vdash\chi$) are _internally valid_, in the sense that if the premises are satisfied in some model $C$ (in the example, if $[\varphi]\le [\psi]$ and $[\psi]\le [\chi]$) then so is the conclusion (in the example, $[\varphi]\le [\chi]$).  This is called the _Soundness Theorem_.
@@ -161,9 +200,11 @@ The third caveat is that one must take care to distinguish the _internal_ logic 
 ## Completeness, syntactic categories, and Morita equivalence
 {#syntactic_categories}
 
-The converse of the Soundness Theorem is called the _Completeness Theorem_, and states that if a sequent $\varphi\vdash\psi$ is valid in every model of a theory, then it is _provable_ from that theory.  This is noticeably less trivial.  In classical first-order logic, where the only models considered are set-valued ones, the completeness theorem is usually proven using [[ultraproduct]]s.  However, in categorical logic there is a more elegant approach (which additionally no longer depends on any form of the [[axiom of choice]]).  From any theory $T$ we can construct a category, called its **[[syntactic category]]** $C_T$, containing a "generic" model of the theory, in which the valid sequents are precisely those provable from the theory.  It turns out that $C_T$ is precisely the category of [[context]]s described on the page [[context]].  Therefore, if a sequent is valid in all models, it is also valid in the generic model in $C_T$, and hence provable from $T$.
+The converse of the Soundness Theorem is called the _Completeness Theorem_, and states that if a sequent $\varphi\vdash\psi$ is valid in every model of a theory, then it is _provable_ from that theory.  This is noticeably less trivial.  In classical first-order logic, where the only models considered are set-valued ones, the completeness theorem is usually proven using [[ultraproduct]]s.  However, in categorical logic there is a more elegant approach (which additionally no longer depends on any form of the [[axiom of choice]]).
 
-The [[syntactic category]] $C_T$ also has a universal property: any $T$-model in a category $D$ with suitable structure (regular, coherent, etc.) is the image of the generic model in $C_T$ under an essentially unique functor (of the appropriate type) $C_T\to D$.  In other words, the generic model is also the _initial_ model.  This can often be useful; for instance, sometimes one can prove something about the generic model and then carry it over to all models.
+The **[[syntactic category]]** $C_T = Syn(T)$ of a theory $T$ was mentioned above, as the left adjoint to the "internal logic functor" $Lang$.  By the [[Yoneda lemma]], the syntactic category $C_T$ contains a "generic" model of the theory.  Moreover, by the construction of $C_T$ (see [[syntactic category]]), the valid sequents in this model are *precisely* those provable from the theory.  Therefore, if a sequent is valid in all models, it is in particular valid in the generic model in $C_T$, and hence provable from $T$.
+
+The universal property of $C_T$ is also sometimes useful for semantic conclusions.  For instance, sometimes one can prove something about the generic model and then carry it over to all models.
 
 Furthermore, if $T$ lives in a sub-fragment of geometric logic (such as regular, coherent, lextensive, or geometric logic), then the [[Grothendieck topos]] of [[sheaf|sheaves]] on $C_T$ for its appropriate (regular, coherent, extensive, or geometric) [[coverage]] contains a $T$-model which is generic for models in Grothendieck toposes: any $T$-model in a Grothendieck topos is its image under the inverse image of a unique [[geometric morphism]].  This topos is called the **[[classifying topos]]** of the theory.
 
@@ -176,27 +217,21 @@ By first applying various "completion" processes to syntactic categories before 
 
 ## Kripke--Joyal semantics
 
-(to be written...)
+To be written, but see [[Kripke-Joyal semantics]].
+
+
+## Dependent type theory
+
+We now consider the internal language of a [[locally cartesian closed category]] as a [[dependent type theory]].
+
++--{: .standout}
+Material to be moved here from [[relation between type theory and category theory]].
+=--
 
 
 ## Higher-order logic 
 
-(to be written...)
-
-But see [[Mitchell–Bénabou language]] for the version in a [[topos]].
-
-## Relation to categories of contexts
-
-One can formalize the construction of the internal language of a (suitable) category to a [[functor]]
-
-$$
-  Lan : Categories \to TypeTheories
-$$
-
-with values in suitable [[type theories]]. This is the [[right adjoint]] of an [[adjunction]] whose left adjoint is forming the [[category of contexts]] of a type theory.
-
-For more on this see there at _[Categorical semantics](http://ncatlab.org/nlab/show/type+theory#CategoricalSemantics)_.
-
+To be written, but see [[Mitchell–Bénabou language]] for the version in a [[topos]].
 
 
 ## Examples
