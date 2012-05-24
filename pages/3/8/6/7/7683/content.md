@@ -1,0 +1,12 @@
+
+
++-- {: .num_defn}
+###### Definition
+Let $G$ be a commutative $k$-group functor. Then the *Cartier dual* $D(G)$ of $G$ is defined by
+
+$$D(G)(R)=Gr_R(G\otimes_k R,\mu_R)$$
+
+Moreover we have
+
+$$hom(G,D(H))=hom(H,D(G))=hom(G\times H,\mu_k)$$
+=--
