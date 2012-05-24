@@ -1,17 +1,27 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Local boundedness is a generalization of the notion of [[locally presentable category|local presentability]] that includes topological spaces.
+Local boundedness of a [[category]] is a generalization of the notion of [[locally presentable category|local presentability]] that includes the catgeory of [[topological spaces]].
 
 ## Context
 
-Let $C$ be a [[small category|small]] [[cocomplete category]] with a proper [[factorization system]], i.e., an orthogonal factorization system $(E,M)$ where every map in $E$ is an [[epimorphism]] and every map in $M$ is a [[monomorphism]].
+Let $C$ be a [[small category|small]] [[cocomplete category]] with a proper [[factorization system]], i.e., an [[orthogonal factorization system]] $(E,M)$ where every [[morphism|map]] in $E$ is an [[epimorphism]] and every map in $M$ is a [[monomorphism]].
 
-The $M$-**union** of a small family of $M$-subobjects $(A_j \to B)_{j \in J}$ is the unique $M$-subobject $A \to B$ containing the $A_j$ and so that the induced map $\sum_j A_j \to A$ is in $E$. The union is calculated by applying the $(E,M)$ factorization to the canonical map $\sum_j A_j \to B$. 
+The $M$-**union** of a small family of $M$-[[subobjects]] $(A_j \to B)_{j \in J}$ is the unique $M$-subobject $A \to B$ containing the $A_j$ and so that the induced map $\sum_j A_j \to A$ is in $E$. The union is calculated by applying the $(E,M)$ factorization to the canonical map $\sum_j A_j \to B$. 
 
 If the map $\sum_j A_j \to B$ is in $E$, we say $(A_j \to B)_{j \in J}$ is an $M$-**union**. The set $J$ is a preorder under the relation $j \leq k$ if $A_j \leq A_k$ as $M$-subobjects of $B$. Regarding the $A_j$ as a diagram of shape $J$, the family $(A_j \to B)_{j \in J}$ is an $M$-union if and only if the map colim$A_j \to B$ is in $E$. We say $(A_j \to B)_{j \in J}$ is a **filtered union of** $M$-**subobjects** if it is a union of $M$-subobjects and if the category $J$ is [[filtered category|filtered]].
 
@@ -24,7 +34,7 @@ Let $\lambda$ be a [[regular cardinal]], and let $C$ be a cocomplete category wi
 +-- {: .num_defn}
 ###### Definition (locally bounded)
 
-An object $X$ in $C$ is $\lambda$-**bounded** if $C(X,-)$ preserves $\lambda$-filtered unions of $M$-subobjects. 
+An object $X$ in $C$ is $\lambda$-**bounded** if $C(X,-)$ preserves $\lambda$-[[filtered colimit|filtered]] [[unions]] of $M$-subobjects. 
 
 =--
 
@@ -56,9 +66,7 @@ In a locally $\lambda$-presentable category, every $\lambda$-presentable object 
 +-- {: .proof}
 ###### Proof
 
-This appears as Lemma 2.3.1 of
-
-* Freyd, Kelly, _Categories of continuous functors_ J. Pure. Appl. Algebra 2 (1972) 169-191.
+This appears as Lemma 2.3.1 of [Freyd-Kelly](#FreydKelly)
 =--
 
 +-- {: .num_prop}
@@ -69,9 +77,7 @@ Locally bounded categories are necessarily complete
 +-- {: .proof}
 ###### Proof
 
-This appears as Corollary 2.2 of
-
-* Kelly,Lack , _$V$-cat is locally presentable or locally bounded if $V$ is so_, TAC (2001).
+This appears as Corollary 2.2 of [Kelly-Lack](#KellyLack).
 
 The essential point is an $(E,M)$-variant of the special adjoint functor theorem: if $C$ is cocomplete, has a proper factorization system $(E,M)$, admits arbitrary $E$-cointersections, and has an $(E,M)$-generator, then every cocontinuous functor $C \to D$ has a right adjoint.
 =--
@@ -95,10 +101,15 @@ The following examples are discussed in Section 6.1 of Kelly's _Basic concepts o
 
 The contents of this page are taken from:
 
-* [[Max Kelly]], [[Steve Lack]], _$V$-cat is locally presentable or locally bounded if $V$ is so_.
+* [[Max Kelly]], [[Steve Lack]], _$V$-cat is locally presentable or locally bounded if $V$ is so_ TAC (2001)
+ {#KellyLack}
 
 See also:
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_.
+
+* [[Peter Freyd]], [[Max Kelly]], _Categories of continuous functors_ J. Pure. Appl. Algebra 2 (1972) 169-191.
+ {#FreyKelly}
+
 
 [[!redirects locally bounded categories]]
