@@ -29,6 +29,9 @@ To a large extent, [[type theory]] and [[category theory]] overlap or are equiva
 
 | flavor of type theory  | $\;$equivalent to$\;$ | flavor of category theory | |
 |--|--|--|--|
+[[intuitionistic propositional logic]]/[[simply-typed lambda calculus]] | | [[cartesian closed category]] | |
+[[intuitionistic linear logic]] | | [[monoidal closed category]] | | 
+[[classical linear logic]] | | [[star-autonomous category ]] | |
 |[[first-order logic]] |  | [[hyperdoctrine]] | ([Seely 1984a](#SeelyA)) |
 |[[dependent type theory]]|  | [[locally cartesian closed category]] | ([Seely 1984b](#Seely)) |
 |[[homotopy type theory]]|  | [[locally cartesian closed (∞,1)-category]] | (conjectural) |
