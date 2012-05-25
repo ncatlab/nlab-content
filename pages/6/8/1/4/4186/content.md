@@ -21,6 +21,24 @@
 
 A _conformal net_ is a [[local net]] of observables that describes (2-dimensional) [[conformal field theory]] in the framework of [[AQFT]].
 
+## Definition
+
+(...)
+
+## Properties
+
+(...)
+
+## Examples
+
+### Free fermion
+
+$$
+  Fer_n(I) 
+    \coloneqq
+  Cl(L^2(I, \mathbb{R}^n \otimes S_+))
+$$
+
 ## Related concepts
 
 * [[conformal structure]], [[CFT]]
@@ -44,6 +62,8 @@ where conformal nets are arranged into a [[tricategory]]  with [[symmetric monoi
 More on this in
 
 * [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Branislav Jurčo]], [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+
+* [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
 
 * [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ , in [[Branislav Jurčo]], [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
