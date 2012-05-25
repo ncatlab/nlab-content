@@ -23,9 +23,13 @@ A _conformal net_ is a [[local net]] of observables that describes (2-dimensiona
 
 ## Definition
 
+
+
 (...)
 
 ## Properties
+
+### 3-Category of conformal nets
 
 (...)
 
@@ -33,10 +37,14 @@ A _conformal net_ is a [[local net]] of observables that describes (2-dimensiona
 
 ### Free fermion
 
+
+
+([DH, section 4](#DouglasHenriquesGeometric))
+
 $$
   Fer_n(I) 
     \coloneqq
-  Cl(L^2(I, \mathbb{R}^n \otimes S_+))
+  Cl(L^2(I, \mathbb{R}^n \otimes S))
 $$
 
 ## Related concepts
@@ -64,6 +72,7 @@ More on this in
 * [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Branislav Jurčo]], [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
 * [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
+ {#DouglasHenriquesGeometric}
 
 * [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ , in [[Branislav Jurčo]], [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
