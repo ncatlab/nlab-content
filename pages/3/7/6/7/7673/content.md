@@ -193,12 +193,17 @@ Suppose given a particular morphism $p:\widetilde{U} \to U$ in $C$.  We can then
 
 Type-forming operations can be extended strictly in this case by performing them once in the "universal" case, then acting by composition.  This construction is due to Voevodsky.  It also meshes quite well with type theories that contain internal universes, and in particular for modeling the [[univalence axiom]].
 
+## Related pages
+
+* [[categorical semantics]]
+
+* [[relation between type theory and category theory]]
 
 ## References
 
 A general overview can be found in
 
-* Martin Hofmann, *Syntax and semantics of dependent types*, Semantics and logics of computation (Cambridge, 1995), Publ. Newton Inst., vol. 14, Cambridge Univ. Press, Cambridge, 1997, pp. 79--130
+* [[Martin Hofmann]], *Syntax and semantics of dependent types*, Semantics and logics of computation (Cambridge, 1995), Publ. Newton Inst., vol. 14, Cambridge Univ. Press, Cambridge, 1997, pp. 79--130
 
 Comprehension categories are defined in
 
