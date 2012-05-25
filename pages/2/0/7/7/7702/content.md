@@ -1,0 +1,20 @@
+
+## Idea
+
+(...)
+
+## Properties
+
+### Index theorems
+
+* [[Atiyah-Singer index theorem]]
+
+## References
+
+Introductions include
+
+* Troels Roussau Johansen, _Introduction to the index theory of Dirac operators_ ([pdf](http://johansen.math.uni-kiel.de/lecture-on-dirac-operators))
+
+[[!redirects index of Dirac operators]]
+[[!redirects indices of Dirac operators]]
+
