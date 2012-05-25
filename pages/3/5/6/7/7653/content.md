@@ -128,7 +128,50 @@ While on the right this expresses the collection of the pullback bundle, the lef
 | $\array{ \mathbf{B}Fivebrane &\to& \mathbf{B} String  \\ && \downarrow^{\mathrlap{\tfrac{1}{6}\mathbf{p}_2}} \\ && \mathbf{B}^7 U(1)  }$ | [[circle n-bundle with connection|circle 7-bundle]]| [[string]] [[electric charge]]  | [[twisted differential fivebrane structure|twisted smooth fivebrane structure]] | [[gravity]]+[[B6-field]] |
 | $\array{ \mathbf{B}^2 U(1) &\to& \mathbf{B}Aut(\mathbf{B}U(1)) \\ && \downarrow \\ && \mathbf{B}\mathb{Z}_2 }$ | [[double cover]] |  | [[Jandl gerbe]] | [[orientifold]] [[B-field]] | 
  
-## Twisted unitary bundles
+### Generalized vielbein fields
+
+
+
+$$
+  \array{
+     GL(n)/O(n) &\to& \mathbf{B} O(n)
+     \\
+     && \downarrow^{\mathrlap{}}
+     \\
+     && \mathbf{B} GL(n)
+  }
+$$
+
+[[vielbein]]
+
+
+$$
+  \array{
+     O(n) \backslash O(n,n) / O(n) &\to& \mathbf{B} (O(n) \times O(n))
+     \\
+     && \downarrow^{\mathrlap{}}
+     \\
+     && \mathbf{B} O(n,n)
+  }
+$$
+
+
+[[generalized vielbein]]
+
+$$
+  \array{
+     E_n/H_n &\to& \mathbf{B} H_n
+     \\
+     && \downarrow^{\mathrlap{}}
+     \\
+     && \mathbf{B} E_n
+  }
+$$
+
+
+[[exceptional generalized geometry]]
+
+### Twisted unitary bundles
 
 We discuss here aspects of a simple example in an elementary and expository way. This is meant to introduce basic ideas of the [general theory](GeneralTheory) by way of example, and serve as a backdrop for the more systematic discussion of the [examples below](#Examples).
 
