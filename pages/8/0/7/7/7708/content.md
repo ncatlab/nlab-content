@@ -11,10 +11,11 @@ In [[model theory]], for a structure of a language $L$ is the same as [[model]] 
 Interpretation for an $L$-structure inductively defines an interpretation for well-formed formulas in $L$. We say that a sentence $\phi\in L$ is true in $M$ if $\phi^M$ is true. Given a [[theory]] $(L,T)$, which is a language $L$ 
 together with a given set $T$ of sentences in $L$, the interpretation in a structure $M$ makes those sentences true or false; if all the sentences in $T$ are true in $M$ we say that $M$ is a [[model]] of $(L,T)$. 
 
-As special case is of an __algebraic structure__, usually defined as a structure for a first order language with equality and $\epsilon$-relation, both with the standard interpretation, and no other relation symbols. Its function symbols are viewed as operations of various arity. They is a bit more general than an __algebraic theory__ in the monadic or operadic sense, as in those one needs to have free algebras, so (for example) fields do not form an algebraic theory, while they are the algebraic structures for the theory of fields. 
+A special case is of an __algebraic structure__ in the classical sense, usually defined as a structure for a first order language with equality and $\epsilon$-relation, both with the standard interpretation, and no other relation symbols. Its function symbols are viewed as operations of various arity. That is a bit more general than an [[algebra over a monad]] in $Set$ or [[algebra over an operad]] in $Set$, as in those one needs to have free algebras, so (for example) fields do not form an algebraic theory, while they are the algebraic structures for the theory of fields. On the other hand, in the monadic sense, the [[algebraic structure]] may be in a more general category.
 
 In [[category theory]] we may talk about functor forgetting structure (formalizing an intuitive, related and in a way more general sense), see
 
 * [[stuff, structure, property]]
 
 [[!redirects structures]]
+[[!redirects structure in model theory]]
