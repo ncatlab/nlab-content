@@ -33,6 +33,16 @@ It is clear how to define morphisms of internal diagrams: a morphism $F \to G$ i
 
 An internal diagram on $C^{op}$ is sometimes called an **internal presheaf** on $C$.
 
+## Formulation using dependent types
+
+Using the language of [[dependent type|dependent types]], the map $d: F_0 \to C_0$ can be seen as the interpretation of a dependent type $X:C_0 \vdash F(X):Type$. The action of $C_1$ on $F_0$ can equivalently be given by the interpretation of a closed term $p$ of type
+$$ \Pi_{X,Y:C_0} \Pi_{f:C_1(X,Y)} (F(X) \to F(Y)), $$
+where we let $C_1$ depend on $C_0 \times C_0$ by the canonical morphism $C_1 \to C_0 \times C_0$ induced by $s$ and $t$.
+
+The axioms then take a particularly familiar form, to be interpreted in the [[internal language]] of $E$:
+* $X:C_0 \;\vdash\; p(X,X,id_X) = id_{F(X)}$
+* $X,Y,Z:C_0, f:C_1(X,Y), g:C_1(Y,Z) \;\vdash\; p(X,Z,g \circ f) = p(Y,Z,g) \circ p(X,Z,f)$
+
 ## Properties
 
 From an internal diagram $(F,C,\lambda,e)$ one can equip $F =(F_0,F_1)$ with a structure of an internal category over $C$. In other words, there is a forgetful functor $E^C\to Cat(E)/C$ (where $Cat(E)/C$ is the corresponding [[slice category]]). This functor is fully faithful and its essential image consists precisely of all objects in $Cat(E)/C$ which are [[discrete opfibrations]].  Similarly, the objects of $E^{C^{op}}$ are the [[discrete fibrations]] in $Cat(E)/C$.
