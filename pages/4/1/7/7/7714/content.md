@@ -1,0 +1,6 @@
+
+A generalization of the notion of _[[tangent bundle]]_ in _[[exceptional generalized geometry]]_.
+
+(...)
+
+[[!redirects exceptional tangent bundles]]
