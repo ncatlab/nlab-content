@@ -52,7 +52,7 @@ For a 2-dimensional analogue see the slides from a 2010 talk by Makkai: [pdf](ht
 For a connection to Tannaka theory see
 
 * ncafe discussion [here](http://golem.ph.utexas.edu/category/2011/07/doctrinal_and_tannakian_recons.html)
-* [[Brian Day]], _Enriched Tannaka duality_, JPAA __108__ (1996) 17-22
+* [[Brian Day]], _Enriched Tannaka duality_, JPAA __108__ (1996) 17-22, [MR97d:18008](http://www.ams.org/mathscinet-getitem?mr=1382240) <a href="http://dx.doi.org/10.1016/0022-4049(95)00039-9">doi</a>
 
 [[!redirects Gabriel-Ulmer duality]]
 [[!redirects Gabriel–Ulmer duality]]
