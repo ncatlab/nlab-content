@@ -20,7 +20,7 @@
 
 ## Idea
 
-Sometimes in [[mathematics]] we want to consider objects equipped with two different types of [[structure]] which interact in a suitable way.  For instance, a [[ring]] is a [[set]] equipped with both (1) the structure of an (additive) [[abelian group]] and (2) the structure of a (multiplicative) [[monoid]], which satisfy the distributive laws $a\cdot (b+c) = a\cdot b + a\cdot c$ and $a\cdot 0 = 0$.
+Sometimes in [[mathematics]] we want to consider objects equipped with two different types of [[extra structure]] which interact in a suitable way.  For instance, a [[ring]] is a [[set]] equipped with both (1) the structure of an (additive) [[abelian group]] and (2) the structure of a (multiplicative) [[monoid]], which satisfy the distributive laws $a\cdot (b+c) = a\cdot b + a\cdot c$ and $a\cdot 0 = 0$.
 
 Abstractly, there are two [[monads]] on the [[category]] [[Set]], one (call it $\mathbf{T}$) whose [[algebra over a monad|algebras]] are abelian groups, and one (call it $\mathbf{S}$) whose algebras are monoids, and so we might ask "can we construct, from these two monads, a third monad whose algebras are rings?"  Such a monad would assign to each set $X$ the [[free object|free]] ring on that set, which consists of formal sums of formal products of elements of $X$---in other words, it can be identified with $T(S(X))$.  Thus the question becomes "given two monads $\mathbf{T}$ and $\mathbf{S}$, what further structure is required to make the composite $T S$ into a monad?"
 
