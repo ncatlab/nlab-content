@@ -8,3 +8,8 @@ We can also consider a _relative_ version of a definable set (definability with 
 
 Given definable sets $X,Y$, a _fixed_ model $M$ and a _fixed_ set $A\subset X(M)$, we say that an element $b\in Y(M)$ is definable over $A$ if there is $(a_1,\ldots,a_n)\in A^n$ and a $T$-definable function $f:X^n\to Y$ such that $f(a_1,\ldots,a_n)=b$. All elements $b$ definable over $A$ form the subset $Y(A)\subset Y(M)$. A subset $B\subset M$ is __definably closed__ if it is closed under definable functions. Given $A\subset M$, there is the minimal definably closed subset $B$ such that $A\subset B\subset M$, the __definable closure__ $B = dcl(A)$ of $A$.  
 
+For a fixed (multi-sorted) theory $T$, definable sets and definable functions form a category.
+
+One can also study [[ind-object]]s and [[pro-object]]s in the category of definable sets and definable functions. 
+
+* Moshe Kamensky, _Ind- and Pro- definable sets_, [math.LO/0608163](http://arxiv.org/abs/math/0608163)
