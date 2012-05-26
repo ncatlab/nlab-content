@@ -137,7 +137,7 @@ In particular, the proposition and its corollary apply to a [[cohesive topos]], 
 
 ### Specific examples
 
-* Given any [[ring]] [[homomorphism]] $f^\circ: R\to S$ (in commutative case dual to s an [[affine morphism]] $f: Spec S\to Spec R$ of [[affine schemes]]), there is an adjoint triple $f^*\dashv f_*\dashv f^*$ where $f^*: {}_R Mod\to {}_S Mod$ is an [[extension of scalars]], $f_*: {}_S Mod\to {}_R Mod$ the restriction of scalars and $f^! : M\mapsto Hom_R ({}_R S, {}_R M)$ its [[right adjoint]]. This triple is affine in the above sense. 
+* Given any [[ring]] [[homomorphism]] $f^\circ: R\to S$ (in commutative case dual to an [[affine morphism]] $f: Spec S\to Spec R$ of [[affine schemes]]), there is an adjoint triple $f^*\dashv f_*\dashv f^*$ where $f^*: {}_R Mod\to {}_S Mod$ is an [[extension of scalars]], $f_*: {}_S Mod\to {}_R Mod$ the restriction of scalars and $f^! : M\mapsto Hom_R ({}_R S, {}_R M)$ its [[right adjoint]]. This triple is affine in the above sense. 
 
 ## Related concepts
 
