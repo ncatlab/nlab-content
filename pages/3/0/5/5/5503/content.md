@@ -124,4 +124,4 @@ London Mathematical Society Lecture Note Series __383__, __384__
 * Valentin Goranko, Martin Otto, _Model theory of modal logic_, [pdf](http://www.mathematik.tu-darmstadt.de/~otto/papers/mlhb.pdf)
 * John T. Baldwin, _Fundamentals of stability theory_ 
 * H. Keisler. _Model theory for infinitary logic_, North-Holland, Amsterdam, 1971.
-[[!redirects model theory]]
+* Gerald E Sacks, _Saturated model theory_, Benjamin 1972	
