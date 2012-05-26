@@ -53,23 +53,96 @@ For $d=4$ this is the _vierbein_ , for $d = 3$ the _dreibein_ , etc.
 
 This terminology is used in the [[first-order formulation of gravity]]. 
 
-Globally we have that a $O(n) \hookrightarrow iso(n)$-[[Cartan connection]] on a manifold $X$ encodes a vielben and compatible [[spin connection]].
+Globally we have that a $O(n) \hookrightarrow iso(n)$-[[Cartan connection]] on a manifold $X$ encodes a vielbein and compatible [[spin connection]].
 
-### In terms of orthogonal structure / twisted cohomology
+### In terms of orthogonal structure / reduction of structure group
 
-We discuss the notion of vielbein / [[orthogonal structure]] on a [[smooth manifold]] as a special case of a [[twisted differential c-structure]].
+We discuss here how a choice of vielbein on a [[manifold]] is equivalently the [[reduction of structure groups|reduction of the structure group]] of the [[tangent bundle]] from the [[general linear group]] $GL(n)$ to its [[maximal compact subgroup]], the [[orthogonal group]].
 
-Let $X$ be of [[dimension]] $n$. Write $\mathbf{B} O(n)$ for the [[smooth infinity-groupoid|smooth]] [[moduli stack]] of [[orthogonal group]]-[[principal bundles]]. This is the [[delooping]] of $O(n)$ in $\mathbf{H} = $  [[Smooth∞Grpd]].
 
-Similarly, let $\mathbf{B} GL(n)$ be the [[delooping]] of the [[general linear group]], regarded as a [[Lie group]]. 
+#### The class of the tangent bundle
+ {#ClassOfTheTangentBundle}
 
-The canonical group embedding 
+For completeness, we first review how the [[tangent bundle]] of a [[smooth manifold]] is naturally incarnated as a [[cocycle]] in $GL(n)$-valued [[Cech cohomology]] and how this in turn is naturally formulated in terms of [[Lie groupoids]]/[[differentiable stack|smooth]] [[moduli stacks]]. The reader familiar with these basics should skip to the [next section](#ReductionOfTheStructureGroup).
+
+Let $X$ be a [[smooth manifold]] of [[dimension]] $n$. 
+
+By definition this means that there is an [[atlas]] $\{\phi_i : \mathbb{R}^n \simeq U_i \hookrightarrow X\}$ of [[coordinate charts]]. The [[derivatives]] of the corresponding [[coordinate transformations]] are [[smooth functions]]
+
+$$
+  g_{i j}
+  \coloneqq
+  \left[\frac{d}{d x^\nu} \phi_j {-1}\circ \phi_i (x^\mu)
+  \right]
+  :
+  U_i \cap U_j 
+  \to 
+  GL_n
+$$
+
+on double overlaps of coordinate charts, with values in the
+[[general linear group]]. By construction these satisfy on triple overlaps of coordinate charts the equation
+
+$$
+  g_{i j} g_{j k} = g_{i k}
+  \,.
+$$
+
+This is the [[cocycle]] condition for a [[Cech cohomology|Cech cocycle]] in degree 1 with coefficients in $GL(n)$
+
+$$
+  [T X] \in H^1_{smooth}(X, GL_n)
+  \,.
+$$
+
+It is useful to formulate this statement in the language of [[Lie groupoids]]/[[differentiable stacks]]. 
+
+* $X$ itself is trivially a Lie groupoid;
+
+* from the atlas $\{U_i \to X\}$ we get the corresponding [[Cech groupoid]] $C(\{U_i\})$;
+
+* any [[Lie group]] $G$ induces its [[delooping]] groupoid $\mathbf{B}G$.
+
+The above situation is then neatly encoded in the existence of a diagram of Lie groupoids of the form
+
+$$
+  \array{
+     C(\{U_i\}) &\stackrel{T X}{\to}& \mathbf{B} GL(n).
+     \\
+     {}^{\mathllap{\simeq}}\downarrow
+     \\
+     X
+  }
+$$
+
+For short we may write such morphisms as
+
+$$
+  T X : X \to \mathbf{B} GL(n) \;\; \in \mathbf{H}
+  \,.
+$$
+
+Since all real [[vector bundles]] on $X$ are encoded by such morphisms, we say that $\mathbf{B} GL(n)$ is the [[moduli stack]] for real vector bundles. 
+
+Of course there is a "smaller" Lie groupoid that also classifies real vector bundles. Passing to this "smaller" Lie groupoid is what the choice of vielbein accomplishes, to which we now turn.
+
+
+#### Reduction of the structure group
+ {#ReductionOfTheStructureGroup}
+
+
+Consider the defining inclusion of the [[orthogonal group]] into the [[general linear group]]
 
 $$
   O(n) \hookrightarrow GL(n)
+  \,.
 $$
 
-induces a corresponding morphism of moduli stacks
+We may understand this inclusion geometrically in terms of the canonical [[metric]] on $\mathbb{R}^n$, but we may also understand it purely Lie theoretically as the
+the inclusion of the [[maximal compact subgroup]] of $GL(n)$. This makes manifest that the inclusion is trivial at the level of [[homotopy theory]] (it is a [[homotopy equivalence]]) and hence _only_ encodes geometric information.
+
+
+The inclusion induces a corresponding morphism of moduli stacks
 
 $$
   \mathbf{B} O(n) \to \mathbf{B} GL(n)
@@ -77,15 +150,47 @@ $$
 $$
 
 
-Without any choices, there is a canonical morphism of [[smooth infinity-groupoid|smooth stacks]]
+A choice of [[orthogonal structure]] on $T X$ is a factorization of the above $GL(n)$-valued cocycle through $\mathbf{c}$, up to a smooth [[homotopy]].
 
 $$
-  T X : X \to \mathbf{B} GL(n)
+  \array{
+     X &&\stackrel{h}{\to}&& \mathbf{B} O(n)
+     \\
+     & {}_{\mathllap{\lambda}}\searrow &\swArrow_{E}& \swarrow
+     \\
+     && \mathbf{B}GL(n)
+  }
+  \,.
 $$
 
-corresponding to the [[tangent bundle]] of $X$.
+This consists of two pieces of data
 
-A choice of [[orthogonal structure]] on $T X$ is a factorization of this morphism through $\mathbf{c}$, up to a smooth [[homotopy]].
+* the morphism $h$ is a $O(n)$-valued 1-cocycle, hence on each overlap of coordinate patches a smooth function
+  
+  $$
+    (h_{i j}{}^a{}_b) : U_i \cap U_j \to O(n)
+    \,;
+  $$
+
+* the homotopy $E$ here is on each chart a function
+
+$$
+  E_i  = ((E_i)^a{}_\mu) : U_i \to GL(n)
+$$
+
+* such that on each double overlap the equation
+
+  $$
+    E^a{}_{\mu} \lambda^{\mu}{}_\nu
+    =
+    h^a{}_b E^b{}_\nu
+  $$
+
+  holds.
+
+This $E$ is the **vielbein**.
+
+#### The moduli space of orthogonal structures
 
 The [[groupoid]] / [[moduli stack]] of orthogonal structures is the groupoid of "$TX$-twisted" $\mathbf{c}$-structure" (in the sense discussed [[twisted differential c-structure|here]]), the [[homotopy pullback]]
 
@@ -125,6 +230,9 @@ $$
 Next, a [[morphism]] in $\mathbf{c}Struc_{T X}$ is an $O(n)$-[[gauge transformation]] of $P$ and hence of $e$.
 
 Therefore the [[truncated|0-truncation]] of $\mathbf{c}Struc_{T X}$ is the space of [[Riemannian metrics]] / [[orthogonal structures]] on $X$.
+
+
+#### Differential refinement: Spin connection
 
 We may further lift this discussion to [[differential cohomology]] to get genuine _differential_ $T X$-twisted $\mathbf{c}$-structures. This introduces in addition the [[Levi-Civita connection]] in $X$ with respect to the given vielbein.
 
