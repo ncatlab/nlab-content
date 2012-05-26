@@ -67,12 +67,20 @@ For completeness, we first review how the [[tangent bundle]] of a [[smooth manif
 
 Let $X$ be a [[smooth manifold]] of [[dimension]] $n$. 
 
-By definition this means that there is an [[atlas]] $\{\phi_i : \mathbb{R}^n \simeq U_i \hookrightarrow X\}$ of [[coordinate charts]]. The [[derivatives]] of the corresponding [[coordinate transformations]] are [[smooth functions]]
+By definition this means that there is an [[atlas]] $\{\phi_i^{-1} : \mathbb{R}^n \simeq U_i \hookrightarrow X\}$ of [[coordinate charts]]. On each overlap $U_i \cap U_j$ of two [[coordinate charts]] the [[partial derivatives]] of the corresponding [[coordinate transformations]]
 
 $$
-  g_{i j}
+  \phi_j\circ \phi_i^{-1}
+  : 
+  U_i \cap U_j \subset \mathbb{R}^n \to \mathbb{R}^n
+$$
+
+form the [[Jacobian matrix]] of [[smooth functions]]
+
+$$
+  ((\lambda_{i j})^{\mu}{}_{\mu})
   \coloneqq
-  \left[\frac{d}{d x^\nu} \phi_j {-1}\circ \phi_i (x^\mu)
+  \left[\frac{d}{d x^\nu} \phi_j \circ \phi_i^{-1} (x^\mu)
   \right]
   :
   U_i \cap U_j 
@@ -80,18 +88,28 @@ $$
   GL_n
 $$
 
-on double overlaps of coordinate charts, with values in the
-[[general linear group]]. By construction these satisfy on triple overlaps of coordinate charts the equation
+with values in invertible [[matrices]], hence in the
+[[general linear group]] $GL(n)$. By construction (by the [[chain rule]]), these functions satisfy on triple overlaps of coordinate charts the equations
 
 $$
-  g_{i j} g_{j k} = g_{i k}
-  \,.
+  (\lambda_{i j})^\mu{}_\lambda (\lambda_{j k})^\lambda{}_{\nu} 
+  = 
+  (\lambda_{i k})^\mu{}_{\nu}
+  \,,
 $$
+
+hence the equation
+
+$$
+  \lambda_{i j} \cdot \lambda_{j k} = \lambda_{i k}
+$$
+
+in $C^\infty(U_i \cap U_j, GL(n))$
 
 This is the [[cocycle]] condition for a [[Cech cohomology|Cech cocycle]] in degree 1 with coefficients in $GL(n)$
 
 $$
-  [T X] \in H^1_{smooth}(X, GL_n)
+  [(\lambda_{i j})] \in H^1_{smooth}(X, GL_n)
   \,.
 $$
 
@@ -107,7 +125,7 @@ The above situation is then neatly encoded in the existence of a diagram of Lie 
 
 $$
   \array{
-     C(\{U_i\}) &\stackrel{T X}{\to}& \mathbf{B} GL(n).
+     C(\{U_i\}) &\stackrel{\lambda}{\to}& \mathbf{B} GL(n).
      \\
      {}^{\mathllap{\simeq}}\downarrow
      \\
@@ -165,20 +183,26 @@ $$
 
 This consists of two pieces of data
 
-* the morphism $h$ is a $O(n)$-valued 1-cocycle, hence on each overlap of coordinate patches a smooth function
+* the morphism $h$ is a $O(n)$-valued 1-cocycle -- a collection of _orthogonal transition functions_ --  hence on each overlap of coordinate patches a smooth function
   
   $$
-    (h_{i j}{}^a{}_b) : U_i \cap U_j \to O(n)
+    ((h_{i j}){}^a{}_b) : U_i \cap U_j \to O(n)
+  $$
+  
+  such that 
+
+  $$
+    h_{i j} \cdot h_{j k} = h_{i k}
     \,;
   $$
 
-* the homotopy $E$ here is on each chart a function
+* the homotopy $E$ is on each chart a function
 
 $$
   E_i  = ((E_i)^a{}_\mu) : U_i \to GL(n)
 $$
 
-* such that on each double overlap the equation
+* such that on each double overlap it intertwines the transition functions $\lambda$ of the tangent bundle with the new orthogonal transition functions, meaning that the equation
 
   $$
     E^a{}_{\mu} \lambda^{\mu}{}_\nu
@@ -186,11 +210,31 @@ $$
     h^a{}_b E^b{}_\nu
   $$
 
-  holds.
+  holds. This exhibits the [[natural transformation|naturality]] [[diagram]] of $E$:
+
+  $$
+    \array{
+       * &\stackrel{E_i}{\to}& * 
+       \\
+       {}^{\mathllap{h_{i j}}}\downarrow && \downarrow^{\mathrlap{\lambda_{i j}}}
+       \\
+       * &\stackrel{E_j}{\to}& * 
+    }
+  $$
 
 This $E$ is the **vielbein**.
 
 #### The moduli space of orthogonal structures
+
+$$
+  \array{  
+    GL(n)/O(n) &\to& \mathbf{B} O(n)
+    \\
+    && \donwnarrow
+    \\
+    && \mathbf{B} GL(n)
+  }
+$$
 
 The [[groupoid]] / [[moduli stack]] of orthogonal structures is the groupoid of "$TX$-twisted" $\mathbf{c}$-structure" (in the sense discussed [[twisted differential c-structure|here]]), the [[homotopy pullback]]
 
@@ -234,7 +278,19 @@ Therefore the [[truncated|0-truncation]] of $\mathbf{c}Struc_{T X}$ is the space
 
 #### Differential refinement: Spin connection
 
-We may further lift this discussion to [[differential cohomology]] to get genuine _differential_ $T X$-twisted $\mathbf{c}$-structures. This introduces in addition the [[Levi-Civita connection]] in $X$ with respect to the given vielbein.
+We may further lift this discussion to [[differential cohomology]] to get genuine _differential_ $T X$-twisted $\mathbf{c}$-structures. 
+
+$$
+  \array{
+    GL(n)/ O(n) &\to& \mathbf{B} O(n)_{conn}
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B} GL(n)_{conn}
+  }
+$$
+
+This introduces in addition the [[Levi-Civita connection]] in $X$ with respect to the given vielbein.
 
 ## Related concepts
 
