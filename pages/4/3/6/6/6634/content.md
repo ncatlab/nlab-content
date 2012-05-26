@@ -15,7 +15,7 @@
 
 ## Idea
 
-In general, if $A$ and $B$ are [[categories]] (or, more generally, any category-like things, such as [[objects]] of some [[2-category]]) equipped with algebraic [[structure]], a *lax morphism* $f\colon A\to B$ is one which "preserves" the algebraic structure only up to a not-necessarily invertible transformation.
+In general, if $A$ and $B$ are [[categories]] (or, more generally, any category-like things, such as [[objects]] of some [[2-category]]) equipped with [[algebraic structure]], a *lax morphism* $f\colon A\to B$ is one which "preserves" the algebraic structure only up to a not-necessarily invertible transformation.
 
 Of course, this transformation goes in one particular direction; a *colax morphism* is one where the transformation goes in the other direction.  The case of 2-monads, below, provides an almost universally applicable way to decide which direction is "lax" and which is "colax".
 
