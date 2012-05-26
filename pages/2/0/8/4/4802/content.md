@@ -401,27 +401,24 @@ $$
   }
 $$
 
-is in components
+is in components a "[[spin connection]]"
 
+$$
+  \omega_\mu = E d E^{-1} + E \Gamma_\mu E^{-1}
+$$
 
-1. a "[[spin connection]]"
-
-   $$
-     \omega_\mu = E d E^{-1} + E \Gamma_\mu E^{-1}
-   $$
-
-   $$
-     \omega_\mu{}^a{}_b 
-      = 
-      E^a{}_\nu \partial_\mu E^\nu{}_b
-      +
-      E^a{}_\nu \Gamma_\mu{}^\nu{}_\lambda E^\lambda{}_b
-      \,.
-   $$
+$$
+  \omega_\mu{}^a{}_b 
+   = 
+   E^a{}_\nu \partial_\mu E^\nu{}_b
+   +
+   E^a{}_\nu \Gamma_\mu{}^\nu{}_\lambda E^\lambda{}_b
+   \,.
+$$
 
 This is the standard formula for the relation between the [[Christoffel symbols]] and the [[spin connection]] in terms of the vielbein.
 
-### Generalized vielbein fields
+#### Generalized and exceptional vielbein fields
 
 The above discussion seamlessly generalizes to many other related cases. For instance
 
