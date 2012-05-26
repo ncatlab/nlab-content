@@ -22,7 +22,7 @@ The [[background gauge fields]] on [[spacetime]] appearing in [[string theory]] 
 
 This page discusses such examples. An overview table of some is below in _[Table of twists](#TableOfTwists)_.
 
-We start with an introduction to the general notion of twisted smooth cohomology is given by way of a simple but rather useful example below in 
+We start with an introduction to the general notion of twisted smooth cohomology by way of a simple but useful example below in 
 
 * I) [Warmup example: generalized/exceptional vielbein fields](#VielbeinFields),
 
@@ -30,8 +30,9 @@ which already serves as a blueprint for all of the examples to follow.
 
 (The mathematically inclined reader wishing to see a more formal development of the general theory behind all of the discussion here should look at the section _[General theory](#GeneralTheory)_, but other readers should be able to safely skip this and possibly only come back to it later when in need of further detail.)
 
+We then discuss three main further classes of examples
 
-* II) [Twisted K-theory](#Twisted K-theory)
+* II) [Twisted K-theory](#TwistedK)
 
 * III) [Twisted Spin-, String-, and Fivebrane structures](#SpinStringFivebraneStructures)
 
@@ -44,7 +45,7 @@ which already serves as a blueprint for all of the examples to follow.
  {#GeneralTheory}
 
 
-We survey here some key aspects of a general theory of geometric twisted differential cohomology, following ([DCCT](#Schreiber)), in which all of the following examples find their formal home. This is meant as a reference and the reader should **skip** to the discussion of _[Examples](#Examples)_ below on first reading, and only come back here if and when need arises.
+We survey here some key aspects of a general theory of geometric twisted differential cohomology, following ([DCCT](#Schreiber)), in which all of the following examples find their formal home. This is meant as a reference. The reader should **skip** to the discussion of _[Examples](#Examples)_ below on first reading, and only come back here if and when need arises.
 
 
 
@@ -56,6 +57,7 @@ We base the formulation of [[physics]]/[[string theory]] on the [[foundations]] 
 |---|---|---|---|
 | [[homotopy type theory]] | [[(∞,1)-topos theory]] | [[∞Grpd]] | [[cohomology]], [[principal infinity-bundle|principal bundles]], [[twisted cohomology]], [[associated infinity-bundle|associated]] and [[twisted bundles]] |
 | [[cohesive homotopy type theory]] | [[cohesive (∞,1)-topos]] |  [[Smooth∞Grpd]], [[SynthDiff∞Grpd]], [[Super∞Grpd]] |  [[geometric realization]], [[differential cohomology]], [[infinity-Chern-Weil theory|Chern-Weil theory]] [[schreiber:infinity-Chern-Simons theory|Chern-Simons theory]], [[schreiber:infinity-geometric prequantization|geometric quantization]] |
+| | [[cohesive (infinity,1)-topos -- infinitesimal cohesion|differential (∞,1)-topos]] | [[de Rham space]], [[jet bundle]], [[etale groupoid]]  |
 
 
 
@@ -90,6 +92,7 @@ $$
 $$
 
 #### Twisted cohomology
+ {#TwistedCohomology}
 
 
 +-- {: .num_remark }
@@ -138,11 +141,15 @@ While on the right this expresses the collection of the pullback bundle, the lef
 
 ### Cohesive homotopy-type theory
 
+
+
 #### Geometric realization 
 
 #### Differential cohomology
 
 #### Chern-Weil theory
+
+
 
 ## Examples
  {#Examples}
@@ -150,7 +157,49 @@ While on the right this expresses the collection of the pullback bundle, the lef
 ### Overview: The Table of Twists
  {#TableOfTwists} 
 
-| | coefficient bundle | twisting bundle | twisting field | twisted bundle | twisted field |
+The following sections discuss classes of examples of [[twisted differential c-structures|twisted smooth structures]] in [[string theory]]. All these examples are governed by the the same general pattern of [[twisted cohomology]] discussed [above](#TwistedCohomology) and are specified by a _universal coefficient bundle_
+
+$$
+  \array{ 
+    F &\to& P  
+    \\ 
+    && 
+    \downarrow^{\mathrlap{\mathbf{c}}} 
+    \\ 
+    && \mathbf{B}G 
+   }
+$$
+
+in $\mathbf{H} = $ [[Smooth∞Grpd]], where
+
+* $G$ is a [[smooth ∞-group]];
+
+* $F$ is a coefficient object equipped with a $G$-[[action]] $\rho$;
+
+* $P \to \mathbf{B}G$ is the [[associated ∞-bundle|associated bundle]] to the $G$-[[universal principal ∞-bundle]] over the [[moduli ∞-stack]] $\mathbf{B}G$ of $G$-[[principal ∞-bundles]].
+
+Given such, and given a [[spacetime]]/[[target space]] $X$, we have
+
+* a morphism $\phi : X \to \mathbf{B}G$ determines a _twisting bundle_ or _twisting [[background gauge field]]_ on $X$;
+
+* a lift
+
+  $$
+    \array{
+      X &&\stackrel{\hat \phi}{\to}&& P
+      \\
+      & {}_{\mathllap{\phi}}\searrow &\swArrow& \swarrow_{\mathrlap{\mathbf{c}}}
+      \\
+      && \mathbf{B}G
+    }
+  $$
+
+  is a $\phi$-[[twisted infinity-bundle|twisted bundle]], or $\phi$-twisted background gauge field.
+
+The following table lists examples of such coefficient bundles and tabulates the correspondings twisting fields and twisted fields. More details are in the sections to follow.
+
+
+| | universal coefficient bundle | twisting bundle | twisting field | twisted bundle | twisted field |
 |---|---|---|---|---|---|
 | | $\array{ F &\to& P  \\ && \downarrow^{\mathrlap{\rho}} \\ && \mathbf{B}G }$ | $G$-[[principal infinity-bundle|principal bundle]] | $G$-[[higher gauge field|gauge field]] | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | | 
 | [[reduction of structure group]] | | | | | |
@@ -570,6 +619,7 @@ $$
 [[exceptional generalized geometry]]
 
 ### Twisted unitary bundles
+ {#TwistedK}
 
 We discuss here aspects of a simple example in an elementary and expository way. This is meant to introduce basic ideas of the [general theory](GeneralTheory) by way of example, and serve as a backdrop for the more systematic discussion of the [examples below](#Examples).
 
@@ -879,7 +929,7 @@ $$
 
 The string-theoretic aspects of the above discussion owe a lot to [[Hisham Sati]], who has pointed out the appearance of twisted structures in string theory notably in 
 
-* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), part _II: Twisted $String$ and $String^c$ structures_ ([arxiv/1007.5419](http://arxiv.org/abs/1007.5419)); part _III: Twisted higher structures_ ([http://arxiv.org/abs/1008.1755](http://arxiv.org/abs/1008.1755))
+* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), part _II: Twisted $String$ and $String^c$ structures_ ([arxiv/1007.5419](http://arxiv.org/abs/1007.5419)); part _III: Twisted higher structures_ ([http://arxiv.org/abs/1008.1755](1008.1755))
 
 The smooth and differential refinements of these structures have been jointly developed in articles such as
 
