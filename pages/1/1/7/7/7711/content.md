@@ -1,0 +1,15 @@
+Algebraic structure may mean either 
+
+* the same as [[algebra]] in the sense of [[universal algebra]]; 
+
+or may mean 
+
+* the [[extra structure]] which such an algebra has with respect to the underlying object. 
+
+There are several notions of an __algebraic structure__ on an object of some category or higher category, which differ in generality. It may be to be an algebra over an [[algebraic theory]], [[algebra over an operad]] (or higher operad) or an [[algebra over a monad]], or over a prop etc. 
+
+There is also an older notion which is a special case of a one-sorted [[structure in model theory]] where the only relations in the language involved are $\epsilon$ and equality. This notion includes for example fields which are not algebraic theory in the sense of monads. 
+
+There is a forgetful functor from the category of algebras/algebraic structures of some type (in any of the above formalisms) to the original category. This functor __forgets structure__ in the sense of [[stuff, structure, property]]. 
+
+[[!redirects algebraic structures]]
