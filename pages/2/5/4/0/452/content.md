@@ -150,6 +150,11 @@ gives a well defined element ${}^a b \in \pi_1(F)$ (abusing notation by confusin
 their homotopy classes).  With this action $(\pi_1(F), \pi(E), \pi_1(i))$ is a 
 crossed module.  This will not be proved here, but is not that difficult.  (Of course,  secretly, this example is 'really' the same as the previous one since a fibration of [[simplicial group]]s is just morphism that is an [[epimorphism]] in each degree, and the [[fibration sequence|fibre]] is thus just a [[simplicial group|normal simplicial subgroup]]. What is fun is that this generalises to 'higher dimensions'.)  
 
+* A particular case of this last example can be obtained from the inclusion of a subspace $A\to X$ into a pointed space $(X,x_0)$, (where we assume $x_0\in A$).  We can replace this inclusion by  a homotopic fibration, $\overline{A}\to X$ in 'the standard way', and then find that the fundamental group of its fibre is $\pi_2(X,A,x_0)$. This is especially useful when $X$ is a CW-complex and $A$ is a subcomplex, for instance the 1-skeleton of $X$. In this case, the crossed module is a [[free crossed module]].
+
+This last example was one of the first investigated by Whitehead and appears also in a little book by Hilton.
+
+
 
 ## Related concepts 
 
