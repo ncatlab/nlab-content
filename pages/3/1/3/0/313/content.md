@@ -1,5 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -198,6 +210,11 @@ If $J$ is a quiver, as is more common when we speak about "commutative" diagrams
 
   This is a non-finite commuting diagram.
 
+## Related concepts
+
+* [[commuting diagram]]
+
+* [[internal diagram]]
 
 [[!redirects diagram]]
 [[!redirects diagrams]]
