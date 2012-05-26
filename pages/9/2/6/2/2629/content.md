@@ -5,7 +5,7 @@
 
 ## Idea
 
-A 'structure type' is a type of [[structure]] that can placed on [[finite set]]s, e.g. a coloring, or ordering.  
+A 'structure type' is a type of [[extra structure]] that can placed on [[finite set]]s, e.g. a coloring, or ordering.  
 
 ## Definition
 
