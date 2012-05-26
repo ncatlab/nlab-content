@@ -5,7 +5,7 @@
 
 ## Idea
 
-In a restrictive sense, a homomorphism is a [[function]] between (the [[underlying sets]]) of two [[algebras]] that preserves the algebraic [[structure]].
+In a restrictive sense, a homomorphism is a [[function]] between (the [[underlying sets]]) of two [[algebras]] that preserves the [[algebraic structure]].
 
 More generally, a homomorphism is a function between [[structured sets]] that preserves whatever structure there is around. Even more generally, 'homomorphism' is just a synonym for '[[morphism]]' in any [[category]], the structured sets being generalised to arbitrary [[object]]s.
 
