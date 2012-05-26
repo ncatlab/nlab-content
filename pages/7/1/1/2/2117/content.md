@@ -15,7 +15,7 @@
 
 ## Idea
 
-A universe is a realm within which [[mathematics]] may be thought of as taking place.  Universes can be purely metamathematical, but we can also reflect upon them and bring them into mathematics.  There are several different kinds of 'universes'. For a physical notion of universe see [[observable universe]].
+A universe is a realm within which (some conceived part, naively and virtually all, of) [[mathematics]] may be thought of as taking place.  Universes can be purely metamathematical, but we can also reflect upon them and bring them into mathematics.  There are several different kinds of 'universes'. For a physical notion of universe see [[observable universe]].
 
 
 ## Categories as universes
@@ -35,7 +35,7 @@ More explicitly: for every [[ordinal number]] $\alpha$, we have a [[set]] $V_\al
 $$ V_\alpha \coloneqq \bigcup_{\beta \lt \alpha} \mathcal{P}V_\beta .$$
 Then $V$ itself is the union of all of the $V_\alpha$.
 
-A similar but more complicated definition allows us to define the universe $L$ of [[constructible set]]s.
+A similar but more complicated definition allows us to define the universe $L$ of [[constructible set]]s, called the [[constructible universe]].
 
 See also a [Wikipedia article](https://secure.wikimedia.org/wikipedia/en/wiki/Universe_%28mathematics%29) written largely by [[Toby Bartels]] in another lifetime.
 
