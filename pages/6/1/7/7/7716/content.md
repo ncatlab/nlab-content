@@ -1,3 +1,10 @@
+[[!redirects III.6, Dieudonné modules (p-torsion finite k-groups)]]
+
+
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+
 Recall from [[relation of certain classes of k-groups]] the following:
 
 1. $Feu_k$ denotes the category of formal &#233;tale unipotent affine $k$-groups.
