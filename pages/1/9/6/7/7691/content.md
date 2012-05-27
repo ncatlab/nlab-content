@@ -1,3 +1,9 @@
+[[!redirects I.1, k-functors]]
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+
+
 +-- {: .num_defn}
 ###### Definition
 (k-ring, k-functor,affine k-scheme)
