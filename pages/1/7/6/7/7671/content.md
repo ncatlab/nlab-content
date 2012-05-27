@@ -1,3 +1,4 @@
+[[!redirects lectures on p-divisible groups]]
 This entry is about the text
 
 * Michel Demazure, lectures on p-divisible groups [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
