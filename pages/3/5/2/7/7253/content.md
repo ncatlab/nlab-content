@@ -25,6 +25,10 @@ the morphism $Spin(n) \to SO(n)$ is epi, while $SO(n) \to O(n)$ is mono.
 
 * [[generalized vielbein]]
 
+  * [[generalized complex geometry]], [[type II geometry]], [[exceptional generalized geometry]]
+ 
 [[!redirects lift of structure groups]]
 
 [[!redirects reduction of structure group]]
+[[!redirects reduction of the structure group]]
+
