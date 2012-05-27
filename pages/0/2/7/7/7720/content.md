@@ -1,0 +1,31 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A generalization of the notion of [[Calabi-Yau manifold]] in the context of [[generalized complex geometry]].
+
+## Related concepts
+
+
+* [[Calabi-Yau object]]
+
+  * [[Calabi-Yau algebra]], [[Calabi-Yau manifold]], **generalized Calabi-Yau manifold**
+
+* [[supersymmetry and Calabi-Yau manifolds]]
+
+## References
+
+The notion was introduced in
+
+* [[Nigel Hitchin]], _Generalised Calabi-Yau Manifolds_, Quart. J. Math. Oxford Ser. 54:281-308, (2003) ([math.DG/0209099](http://arxiv.org/abs/math.dg/0209099))
+
+The role of generalized CY-manifolds as (factors of) [[target spaces]] in [[string theory]] is discussed for instance in 
+
+* [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Alessandro Tomasiello]], _Type II Strings and Generalized Calabi-Yau Manifolds_ ([arXiv:hep-th/0409176](http://arxiv.org/abs/hep-th/0409176))
+
+* [[Jan Louis]], _Generalized Calabi-Yau compactifications with D-branes and fluxes_, Forthschr. Phys. 53, no 7-8 (2005) ([pdf](http://www.desy.de/~jlouis/talks/770_a.pdf))
+
+[[!redirects generalized Calabi-Yau manifolds]]
