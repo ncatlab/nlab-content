@@ -1,4 +1,9 @@
+[[!redirects II.3, affine k-groups]]
 [[!redirects affine k-group]]
+
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
 
 Let $A\in M_k$, let $\Delta:A\to A\otimes_k A$.
 
