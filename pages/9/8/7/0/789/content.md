@@ -147,9 +147,15 @@ Generalized complex geometry thus generalizes and unifies
 
 It was in particular motivated by the observation that this provides a natural formalism for describing [[T-duality]].
 
+## Examples
+
+* [[generalized Calabi-Yau manifold]]
+
 ## Related concepts
 
 * [[generalized tangent bundle]], [[generalized vielbein]]
+
+* [[type II geometry]]
 
 * [[exceptional generalized complex geometry]]
 
