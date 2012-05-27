@@ -1,3 +1,9 @@
+[[!redirects III.9, Dieudonné modules (connected formal groups of finite type)]]
+
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+
 By a similar discussion (replacing $p$ by $F$) as in &#167; 8, we have:
  
 +-- {: .num_remark}
