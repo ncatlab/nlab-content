@@ -1,3 +1,8 @@
+[[!redirects III.3, the Witt rings over k]]
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+
 Let $k$ be a file of prime characteristic $p$. Let $W$ denote the [[Witt ring over Z]]
 
 +-- {: .num_defn}
