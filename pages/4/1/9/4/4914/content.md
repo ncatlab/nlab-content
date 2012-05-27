@@ -61,7 +61,7 @@ If the ambient category $E$ is a [[locally cartesian closed category]], so that 
 $$ p : \Pi_{X,Y:C_0} \Pi_{f:C_1(X,Y)} (F(X) \to F(Y)). $$
 
 The axioms then take a particularly familiar form, also to be interpreted in the [[internal language]] of $E$:
-* $(X:C_0), (a:F(X) \;\vdash\; p(X,X,id_X,a) = a $
+* $(X:C_0), (a:F(X)) \;\vdash\; p(X,X,id_X,a) = a $
 * $(X,Y,Z:C_0), (f:C_1(X,Y)), (g:C_1(Y,Z)), (a:F(X)) \;\vdash\; p(X,Z,g \circ f,a) = p(Y,Z,g,p(X,Y,f,a))$
 
 ## Properties
