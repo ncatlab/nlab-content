@@ -1,0 +1,7 @@
+
+
+If $A = (a_{i j})$ is a [[matrix]], then its _transpose_ $A^T$ is the matrix $A^T = (a_{j i})$.
+
+
+[[!redirects transpose matrices]]
+[[!redirects matrix transposition]]
