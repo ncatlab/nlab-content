@@ -1,3 +1,10 @@
+[[!redirects III.2, the Witt rings over Z]]
+
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+
+
 The [[Artin-Hasse exponential series]] $E$ can be written as
 
 $$E((a_0,\cdots),t)=exp(-\Sigma_{n\ge 0}t^{p^n}\Phi_n /p^n)$$
