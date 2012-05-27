@@ -44,7 +44,7 @@ If the base field is $\mathbb{C}$, then one can form the analyticification of $X
 
 * [[Calabi-Yau object]]
 
-  * [[Calabi-Yau algebra]], **Calabi-Yau manifold**
+  * [[Calabi-Yau algebra]], **Calabi-Yau manifold**, [[generalized Calabi-Yau manifold]]
 
 * [[supersymmetry and Calabi-Yau manifolds]]
 
