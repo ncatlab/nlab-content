@@ -1,8 +1,11 @@
 
 A __matrix__ is a [[list]] of lists.
 
-We usually use the term in a context where we can add and multiply matrices using [[matrix calculus]].
+Often one uses the term in a context where one can add and multiply matrices using [[matrix calculus]].
 
+## Related concepts
+
+* [[transpose matrix]]
 
 [[!redirects matrix]]
 [[!redirects matrices]]
