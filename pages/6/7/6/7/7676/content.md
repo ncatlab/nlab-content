@@ -1,3 +1,8 @@
+[[!redirects I.8, constant- and étale schemes]]
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+
 $Sch_k$ is [[copower|copowered (= tensored)]] over $Set$. We define the _constant $k$-scheme_ on a set $E$ by
 
 $$E_k:=E\otimes Sp_k k=\coprod_{e\in E}Sp_k k$$
