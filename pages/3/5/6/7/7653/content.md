@@ -900,6 +900,10 @@ $$
     B \mathbb{Z}_2
     &
     Postnikov  tower
+    \\
+    & \downarrow
+    \\
+    & B GL(n)
   }
 $$
 
@@ -1204,7 +1208,7 @@ We base the formulation of [[physics]]/[[string theory]] on the [[foundations]] 
 
 ### Homotopy-type theory
 
-[[homotopy type theory|Homotopy-type theory]] or [[homotopy theory]] is effectively the [[logic]] of [[gauge transformations]]. 
+_[[homotopy type theory|Homotopy-type theory]]_ or _[[homotopy theory]]_ is effectively the [[logic]] of [[gauge transformations]]. 
 
 Traditionally a _[[homotopy type]]_ is a [[topological space]] regarded up to [[weak homotopy equivalence]]. This is very different from regarding it up to [[homeomorphism]] and instead views it as an [[∞-groupoid]]: its [[fundamental ∞-groupoid]]. This models [[homotopy]] and hence [[gauge transformations]], but does not yet model [[geometry]]. 
 
@@ -1226,7 +1230,8 @@ $$
   \mathbf{H}_{\geq 1}^{*/}
 $$
 
-between group objects and [[pointed object|pointed]] [[connected object in a (∞,1)-topos|connected]] homtopy types.
+between group objects and [[pointed object|pointed]] 
+[[n-connected object in a (∞,1)-topos|connected]] homtopy types.
 
 For $A$ a group object which admits an $n$-fold [[delooping]] $\mathbf{B}^n A$ and $X \in \mathbf{H}$ any object, we write
 
@@ -1239,7 +1244,7 @@ For $A$ a group object which admits an $n$-fold [[delooping]] $\mathbf{B}^n A$ a
 
 #### Principal bundles
 
-For $G \in Grp(\mathbf{H})$, $G$-cocycles on $X$ have an equivalent geometric interpretation as $G$-[[ptincpal ∞-bundles]]: morphisms
+For $G \in Grp(\mathbf{H})$, $G$-cocycles on $X$ have an equivalent geometric interpretation as $G$-[[princpal ∞-bundles]]: morphisms
 
 $$
   \array{
@@ -1255,7 +1260,7 @@ equipped with a $G$-[[action]] $\rho : P \times G \to P$ such that the [[(∞,1)
 
 $$
   \mathbf{H}(X, \mathbf{B}G)
-   \stackrel{\overset{\underset{\to}{\lim}{\to}}{\leftarrow}}{\underoverset{fib}{\simeq}{\to}}
+   \stackrel{\overset{\underset{\to}{\lim}}{\leftarrow}}{\underoverset{fib}{\simeq}{\to}}
   G Bund(X)    
 $$
 
@@ -1297,7 +1302,7 @@ $$
 
 For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{B}G \in \mathbf{H}$, the collection of morphisms into $\mathbf{B}G$ is the [[slice (∞,1)-topos]] $\mathbf{H}_{/ \mathbf{B}G}$.
 
-The [[cohomology]] of $\mathbf{H}_{/\mathbf{B}G}$ is naturally interpreted as follows
+The [[cohomology]] in $\mathbf{H}_{/\mathbf{B}G}$ is naturally interpreted as follows
 
 1. a coefficient object $\mathbf{c} : E \to \mathbf{B}G$ is a _universal bundle of coefficients_;
 
@@ -1333,9 +1338,10 @@ The [[cohomology]] of $\mathbf{H}_{/\mathbf{B}G}$ is naturally interpreted as fo
 ###### Remark
 
 
-Equivalently, in the [[syntax]] of [[homotopy type theory]], this is the statement
+Equivalently, in the [[syntax]] of [[homotopy type theory]], the object of twisted cocycles is
 
 $$
+   \coloneqq
   \vdash \prod_{b \in \mathbf{B}G} (X(b) \to E(b)) : Type
   \;\;
   =
@@ -1343,6 +1349,8 @@ $$
   \vdash \prod_{b \in \mathbf{B}G} \prod_{x : X(b)} E(\phi(x)) : Type
   \,.
 $$
+
+(see [here](http://www.ncatlab.org/nlab/show/locally%20cartesian%20closed%20category#RelationCartesianClosureBaseChangeInTypeTheory))
 
 While on the right this expresses the collection of sections of the pullback bundle, the left hand side expresses explicitly a $\mathbf{B}G$-parameterized collection of cocycles $X(b) \to E(b)$.
 
@@ -1386,17 +1394,84 @@ $$
 
 ### Cohesive homotopy-type theory
 
-
+In general the [[geometry]] encoded by an [[(∞,1)-topos]] can be exotic. Two extra axioms ensure that it is modeled locally on $\infty$-connected geometrical archetypes, such as for instance on _[[open disks]]_ for [[Euclidean-topological ∞-groupoid|Euclidean-topological geometry]] and _smooth open disks_ for [[smooth ∞-groupoid|smooth geometry]]. Following [[Bill Lawvere|Lawvere]], we call this refinement _[[cohesive homotopy type theory]]_ [[categorical semantics|interpreted]] in _[[cohesive (∞,1)-toposes]]_.
 
 
 #### Geometric realization 
 
+
+A [[cohesive (∞,1)-topos]] is in particular equipped with a [[left adjoint|left]] [[adjoint (∞,1)-functor|derived adjoint]] $\Pi$ to the [[locally constant ∞-stack]]-functor $Disc$
+
+$$
+  (\Pi \dashv Disc)
+  : 
+  \mathbf{H}
+   \stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\hookleftarrow}}
+  \infty Grpd
+  \,.
+$$
+
+Under the identification (see _[[homotopy hypothesis|homotopy hypothesis theorem]]_)
+
+$$
+  \infty Grpd \stackrel{{\vert-\vert}}{\to} Top
+$$
+
+this identifies with [[geometric realization]] of geometric homotopy types / [[∞-stacks]].
+
+We say that a lift of a [[diagram]] in [[∞Grpd]] through $\Pi$ is a **geometric refinement** of the diagram.
+
+
 #### Differential cohomology
+
+Write $\mathbf{\Pi} \coloneqq Disc \circ \Pi$; 
+and $\flat \coloneqq Disc \circ \Gamma$.
+
+For $G$ an [[∞-group]], write $\flat_{dR} \mathbf{B}G \coloneqq * \times_{\mathbf{B}G} \flat \mathbf{B}G$: the _de Rham coefficient object_ for $\mathbf{B}G$.
+
+There is a canonical morphism $\theta : G \to \flat_{dR} \mathbf{B}G$: this identifies as the canonical _[[Maurer-Cartan form]]_ on the [[∞-group]] $G$.
+
+For $G = \mathbf{B}^n U(1)$ the [[circle n-group|circle (n+1)-group]] we call $curv  \coloneqq_{\mathbf{B}^n U(1)} : \mathbf{B}^n U(1) \to \flat_{dR} \mathbf{B}^{n+1} U(1)$ the _universal [[curvature]] class_ in degree $(n+1)$.
+
+The $curv$-[[twisted cohomology]] in $\mathbf{H}$ identifies with [[ordinary differential cohomology]]. 
+
+$$
+  \array{
+    \mathbf{B}^n U(1)_{conn} &\to& \Omega^{n+1}_{cl}(-)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}^n U(1) &\stackrel{curv}{\to}& \mathbf{B}^{n+1} U(1)_{conn}
+  }
+$$
+
 
 #### Chern-Weil theory
 
+[[∞-Chern-Weil theory introduction]]
+
+$$
+  \array{
+    \flat \mathbf{B}G &\stackrel{\flat \mathbf{c}}{\to}&
+    \flat \mathbf{B}^{n+1} U(1)
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathbf{B}G_{conn} &\hat \mathbf{c}& \mathbf{B}^{n+1} U(1)_{conn}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G 
+      &\stackrel{\mathbf{c}}{\to}&
+    \mathbf{B}^{n+1} U(1)
+  }
+$$
+
+
 
 ### Differential homotopy-type theory
+
+[[cohesive (infinity,1)-topos -- infinitesimal cohesion|infinitesimals]]
 
 #### de Rham stack
 
