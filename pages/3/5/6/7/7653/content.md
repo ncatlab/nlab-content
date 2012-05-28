@@ -95,8 +95,9 @@ The following table lists examples of such coefficient bundles and tabulates the
 | | universal coefficient bundle | twisting bundle | twisting field | twisted bundle | twisted field |
 |---|---|---|---|---|---|
 | | $\array{ F &\to& E  \\ && \downarrow^{\mathrlap{\rho}} \\ && \mathbf{B}G }$ | $G$-[[principal infinity-bundle|principal bundle]] | $G$-[[higher gauge field|gauge field]] | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | twisted $\Omega E$-[[gauge field]]  | 
-| [[reduction of structure group]]/geometric structure | | | | | |
+| [[reduction of structure group]]/[[G-structure|geometric structure]] | | | | | |
 | | $\array{ GL(n)/O(n) &\to& \mathbf{B} O(n) \\ && \downarrow \\ && \mathbf{B} GL(n) }$ | [[manifold]] structure / [[tangent bundle]] |  | [[vielbein]] | [[gravity]] |
+| | $\array{ GL(n)/O(n) &\to& \mathbf{B} O(n)_{conn} \\ && \downarrow \\ && \mathbf{B} GL(n)_{conn} }$ | [[affine connection]] |  | [[spin connection]] | [[gravity]] |
 | | $\array{ && \mathbf{B} U(d,d) \\ && \downarrow  \\ && \mathbf{B} O(2d,2d) }$ | [[generalized tangent bundle]] | | [[generalized complex geometry]] | [[generalized Calabi-Yau manifolds]] |
 | | $\array{ O(n)\backslash O(n,n)/O(n) &\to& \mathbf{B} O(n) \times O(n) \\ && \downarrow \\ && \mathbf{B} O(n,n) }$ | [[generalized  tangent bundle]] |  | [[type II geometry]] | DFT [[type II supergravity]] | 
 | | $\array{ SU(3)\backslash O(6,6) / SU(3) &\to& \mathbf{B} SU(3) \\ && \downarrow \\ && \mathbf{B} O(6,6) }$ | [[generalized tangent bundle]]  | | [[type II geometry]] | $d = 6$, $N=1$  [[type II supergravity]] [[Kaluza-Klein mechanism|comactifications]] | 
@@ -105,9 +106,11 @@ The following table lists examples of such coefficient bundles and tabulates the
 | | $\array{ \mathbf{B} U &\to& \mathbf{B} P U \\ && \downarrow^{\mathbf{dd}} \\ && \mathbf{B}^2 U(1) }$ | [[circle n-bundle with connection|circle 2-bundle]]/$U(1)$-[[bundle gerbe]] | [[B-field]] | [[twisted bundle|twisted unitary bundle]] | [[Yang-Mills field]] |
 | | $\array{ && \mathbf{B} E_8 \\ && \downarrow^{\mathrlap{\mathbf{a}}} \\ && \mathbf{B}^3 U(1)} $ | [[circle n-bundle with connection|circle 3-bundle]] / [[bundle 2-gerbe]] | [[supergravity C-field]] |  | [[E8]]-[[gauge field]] |
 | [higher spin structures](spin+structure#Higher) | | | | | |
-| | $\array{ \mathbf{B} Spin &\to& \mathbf{B} SO \\ && \downarrow^{\mathrlap{w}_2} \\ && \mathbf{B}^2 \mathbb{Z}_2 }$ | [[second Stiefel-Whitney class]] | | [[twisted spin structure]] |  |
-| | $\array{ \mathbf{B}String &\to& \mathbf{B} Spin  \\ && \downarrow^{\mathrlap{\tfrac{1}{2}\mathbf{p}_1}} \\ && \mathbf{B}^3 U(1)  }$ | [[circle n-bundle with connection|circle 3-bundle]]/$U(1)$-[[bundle 2-gerbe]] |  [[NS5-brane]] [[magnetic charge]] |  [[twisted differential string structure|twisted smooth string structure]] | [[Green-Schwarz mechanism]] [[gravity]]+[[B-field]] |
-| | $\array{ \mathbf{B}Fivebrane &\to& \mathbf{B} String  \\ && \downarrow^{\mathrlap{\tfrac{1}{6}\mathbf{p}_2}} \\ && \mathbf{B}^7 U(1)  }$ | [[circle n-bundle with connection|circle 7-bundle]]| [[string]] [[electric charge]]  | [[twisted differential fivebrane structure|twisted smooth fivebrane structure]] | [[gravity]]+[[B6-field]] |
+| | $\array{ \mathbf{B} Spin &\to& \mathbf{B} SO \\ && \downarrow^{\mathrlap{\mathbf{w}_2}} \\ && \mathbf{B}^2 \mathbb{Z}_2 }$ | [[second Stiefel-Whitney class]] | | [[twisted spin structure]] |  |
+| | $\array{ \mathbf{B}String &\to& \mathbf{B} Spin  \\ && \downarrow^{\mathrlap{\tfrac{1}{2}\mathbf{p}_1}} \\ && \mathbf{B}^3 U(1)  }$ | [[circle n-bundle with connection|circle 3-bundle]]/$U(1)$-[[bundle 2-gerbe]] |  [[NS5-brane]] [[magnetic charge]] |  [[twisted differential string structure|twisted smooth string structure]] |  |
+| | $\array{ \mathbf{B}String_{conn} &\to& \mathbf{B} Spin_{conn}  \\ && \downarrow^{\mathrlap{\tfrac{1}{2}\hat \mathbf{p}_1}} \\ && \mathbf{B}^3 U(1)_{conn}  }$ | [[circle n-bundle with connection|circle 3-bundle with connection]]| [[NS5-brane]] [[current|magnetic current]]  |  [[twisted differential string structure]] | [[Green-Schwarz mechanism]] [[gravity]]+[[B-field]] |
+| | $\array{ \mathbf{B}Fivebrane &\to& \mathbf{B} String  \\ && \downarrow^{\mathrlap{\tfrac{1}{6}\mathbf{p}_2}} \\ && \mathbf{B}^7 U(1)  }$ | [[circle n-bundle with connection|circle 7-bundle]]| [[string]] [[electric charge]]  | [[twisted differential fivebrane structure|twisted smooth fivebrane structure]] |  |
+| | $\array{ \mathbf{B}Fivebrane_{conn} &\to& \mathbf{B} String_{conn}  \\ && \downarrow^{\mathrlap{\tfrac{1}{6}\hat \mathbf{p}_2}} \\ && \mathbf{B}^7 U(1)_{conn}  }$ | [[circle n-bundle with connection|circle 7-bundle with connection]]| [[string]] [[current|electric current]] | [[twisted differential fivebrane structure]] | dual [[Green-Schwarz mechanism]] [[gravity]]+[[B6-field]] |
 | [higher spin^c-structures](spin^c+structure#Higher) | | | | | |
 | | $\array{ \mathbf{B}Spin^c &\to& \mathbf{B} (SO \times U(1))  \\ && \downarrow^{\mathrlap{ w_2 - c_1}} \\ && \mathbf{B}^2 \mathbb{Z}_2  }$ |  |   | [[twisted spin^c structure]] |  |
 |  | $\array{ && \mathbf{B} (PU \times SO) \\ && \downarrow^{\mathrlap{ \mathbf{dd} - \mathbf{W}_3 }} \\ && \mathbf{B}^2 U(1) }$ | [[circle n-bundle with connection|circle 2-bundle]] |  [[B-field]] | [[twisted spin^c structure]]  | Freed-Witten anomaly for type II string on D-brane  |
@@ -120,7 +123,7 @@ The following table lists examples of such coefficient bundles and tabulates the
 ### Geometric structure (generalized, exceptional)
  {#VielbeinFields}
 
-The ordinary notion of _[[vielbein]]_ in [[differential geometry]] (equivalently: _[[soldering form]]_ or _[[orthogonal structure]]_) turns out to be a simple special case of the general notion of twisted smooth cohomology that we are concerned with here, and viewed from this perspective it already contains the seeds of all the more sophisticated examples to be discussed below. Therefore we discuss this case here as a warmup such as to introduce the general theory by way of example. 
+The ordinary notion of _[[vielbein]]_ in [[differential geometry]] (equivalently: _[[soldering form]]_ or _[[orthogonal structure]]_) turns out to be a simple special case of the general notion of twisted smooth cohomology that we are concerned with here. Viewed from this perspective it already contains the seeds of all the more sophisticated examples to be considered below. Therefore we discuss this case here as a warmup such as to introduce the general theory by way of example. 
 
 (The reader who wishes to see a systematic discussion of the general theory should instead go to the section _[General Theory](#GeneralTheory)_ and then come back here for a first example.) 
 
@@ -185,6 +188,18 @@ It is useful to formulate this statement in the language of [[Lie groupoids]]/[[
   $$
     C(\{U_i\}) = 
     (\coprod_{i, j} U_i \cap U_j \stackrel{\to}{\to} \coprod_i U_i)
+    = 
+    \left\{
+      \array{
+         && (x,j)
+         \\
+         & \nearrow &=& \searrow
+         \\
+        (x,i) &&\to&& (x,k)
+      }
+      \;\;\;
+      for\, x \in U_i \cap U_j \cap U_k
+    \right\}
   $$
 
 * any [[Lie group]] $G$ induces its [[delooping]] [[Lie groupoid]] 
@@ -217,19 +232,50 @@ where
 
 * the horizontal functor has as components the functions $\lambda_{i j}$ and its functoriality is the cocycle condition $\lambda_{i j} \cdot \lambda_{j k} = \lambda_{i k}$.
 
+A [[natural transformation|transformation]] of smooth functors $\lambda_1 \Rightarrow \lambda_2 : C(\{U_i\}) \to \mathbf{B} GL(n)$ is precisely a [[coboundary]] between two such cocycles.
+
 #### Smooth moduli stacks
 
 We want to think of such a diagram as being directly a morphism of [[smooth infinity-groupoid|smooth groupoids]]
 
 
 $$
-  T X : X \to \mathbf{B} GL(n) \;\; \in \mathbf{H}
+  T X \; : \; X \to \mathbf{B} GL(n) \;\; \in \mathbf{H}
+$$
+
+such that this may be regarded as a smooth refinement of the underlying [[homotopy]] of a  map into the [[classifying space]] $B GL(n)$
+
+$$
+  X \to B GL(n) \in Top  
   \,.
 $$
 
-This is true in the [[(2,1)-category]] $\mathbf{H}$ in which stalkwise equivalences $W \subset Mor(PSh(SmthMfd, Grpd))$ have been [[simplicial localization|formally inverted]] to become [[homotopy equivalences]].
+Evidently, for this we need to turn the [[stalk]]-wise [[homotopy equivalence]] $C(\{U_i\}) \to X$ into an actual [[homotopy equivalence]]. This is a non-abelian/non-stable generalization of what happens in the construction of a [[derived category]], say in the discussion of [[topological string|topological branes]].
 
-Since all real [[vector bundles]] on $X$ are encoded by such morphisms, as are their [[gauge transformations]], we say that $\mathbf{B} GL(n)$ is the [[moduli stack]] for real vector bundles. 
+To make this precise, first notice that every Lie groupoid $A = (A_1 \stackrel{\to}{\to} A_0)$ yields on each smooth manifold $U$ a groupoid of maps from $U$ into $A$
+
+$$
+  A : U \mapsto (C^\infty(U,A_1) \stackrel{\to}{\to} C^\infty(U,A_0))
+  \,.
+$$
+
+Moreover, for every smooth function $U_1 \to U_2$ there is an evident restriction map $A(U_2) \to A(U_1)$ and so this yields a [[presheaf]] of groupoids, $A \in Func(SmthMfd^{op}, Grpd)$.
+
+Let therefore
+
+$$
+  \mathbf{H} \coloneqq Func(SmthMfd^{op}, Grpd)[\{stalkwise\, h.e\}^{-1}]
+$$
+
+be the [[simplicial localization|localization]] that universally turns [[stalk]]wise [[homotopy equivalences]] into actual homotopy equivalences. We call this the _[[(2,1)-topos]]_ of _[[smooth infinity-groupoid|smooth groupoids]]_ or _[[smooth infinity-groupoid|smooth stacks]]_.
+
+Then we have
+
+1. a morphism $X \to \mathbf{B} GL(n)$ in $\mathbf{H}$ is precisely a smooth real vector bundle on $X$;
+
+1. a homotopy between two such morphisms in $\mathbf{H}$ is precisely a smooth $GL(n)$-[[gauge transformation]] between the two vector bundles.
+
+Therefore $\mathbf{B}GL(n)$ regarded as an object of $\mathbf{H}$ is the _[[moduli stack]]_ of real vector bundles.
 
 Of course there is a "smaller" Lie groupoid that also classifies real vector bundles. Passing to this "smaller" Lie groupoid is what the choice of vielbein accomplishes, to which we now turn.
 
@@ -246,18 +292,17 @@ $$
 $$
 
 We may understand this inclusion geometrically in terms of the canonical [[metric]] on $\mathbb{R}^n$, but we may also understand it purely Lie theoretically as the
-the inclusion of the [[maximal compact subgroup]] of $GL(n)$. This makes manifest that the inclusion is trivial at the level of [[homotopy theory]] (it is a [[homotopy equivalence]]) and hence _only_ encodes geometric information.
+the inclusion of the [[maximal compact subgroup]] of $GL(n)$. This makes it manifest that the inclusion is trivial at the level of [[homotopy theory]] (it is a [[homotopy equivalence]]) and hence _only_ encodes geometric information.
 
 
-The inclusion induces a corresponding morphism of moduli stacks
+The inclusion induces a corresponding inclusion ([[truncated object of an (infinity,1)-category|0-truncated morphism]]) of moduli stacks
 
 $$
-  \mathbf{c} : \mathbf{B} O(n) \to \mathbf{B} GL(n)
+  \mathbf{OrthStruc} : \mathbf{B} O(n) \to \mathbf{B} GL(n)
   \,.
 $$
 
-
-A choice of [[orthogonal structure]] on $T X$ is a factorization of the above $GL(n)$-valued cocycle through $\mathbf{c}$, up to a smooth [[homotopy]].
+Now we can say what a [[Riemannian metric]]/[[orthogonal structure]] on $X$ is: A choice of [[orthogonal structure]] on $T X$ is a factorization of the above $GL(n)$-valued cocycle $\lambda$ through $\mathbf{c}$, up to a smooth [[homotopy]] $E$, hence a [[diagram]]
 
 $$
   \array{
@@ -267,8 +312,9 @@ $$
      \\
      && \mathbf{B}GL(n)
   }
-  \,.
 $$
+
+in $\mathbf{H}$.
 
 This consists of two pieces of data
 
@@ -291,28 +337,28 @@ $$
   E_i  = ((E_i)^a{}_\mu) : U_i \to GL(n)
 $$
 
-* such that on each double overlap it intertwines the transition functions $\lambda$ of the tangent bundle with the new orthogonal transition functions, meaning that the equation
+  * such that on each overlap of coordinate charts it intertwines the transition functions $\lambda$ of the tangent bundle with the new orthogonal transition functions, meaning that the equation
 
-  $$
-    (E_i)^a{}_{\mu} (\lambda_{i j})^{\mu}{}_\nu
-    =
-    (h_{i j})^a{}_b (E_j]^b{}_\nu
-  $$
+    $$
+      (E_i)^a{}_{\mu} (\lambda_{i j})^{\mu}{}_\nu
+      =
+      (h_{i j})^a{}_b (E_j)^b{}_\nu
+    $$
 
-  holds. This exhibits the [[natural transformation|naturality]] [[diagram]] of $E$:
+    holds. This exhibits the [[natural transformation|naturality]] [[diagram]] of $E$:
 
   $$
     \array{
        * &\stackrel{E_i}{\to}& * 
        \\
-       {}^{\mathllap{h_{i j}}}\downarrow && \downarrow^{\mathrlap{\lambda_{i j}}}
+       {}^{\mathllap{\lambda_{i j}}}\downarrow && \downarrow^{\mathrlap{h_{i j}}}
        \\
        * &\stackrel{E_j}{\to}& * 
     }
   $$
 
-Such a lift $(h,E)$ is an [[orthogonal structure]] on $T X$.
-The component $E$ is called the corresponding **vielbein**. It exhibits an [[isomorphism]] 
+The component $h$ defines an $O(n)$-[[principal bundle]] on $X$, or its [[associated bundle|associated]] [[vector bundle]].
+The component $E$ is the corresponding **vielbein**. It exhibits an [[isomorphism]] 
 
 $$
   E : T X \stackrel{\simeq}{\to} V
@@ -337,16 +383,20 @@ $$
 
 as being a bundle in $\mathbf{H}$ over the [[moduli stack]] $\mathbf{B}GL(n)$ with typical fiber $GL(n)/O(n)$. It is  the smooth [[associated infinity-bundle|associated bundle]] to the smooth [[universal principal bundle|universal GL(n)-bundle]] induced by the canonical [[action]] of $GL(n)$ on $O(n)\backslash GL(n)$.
 
-This means that if the tangent bundle $T X$ is trivializable, then the coset space $O(n)\backslash GL(n)$ is the moduli space for vielbein fields on $T X$, in that the space of these is 
+This means that if the tangent bundle $T X$ is trivializable, then the coset space $O(n)\backslash GL(n)$ is the moduli space for vielbein fields on $T X$: 
 
 $$
-  \mathbf{H}(X, O(n)\backslash GL(n)) = C^\infty(X, O(n)\backslashGL(n))
+  (T X \; trivializable)
+  \Rightarrow
+  SpaceOfVielbeinFieldsOn(T X)
+  =
+  \mathbf{H}(X, O(n)\backslash GL(n)) = C^\infty(X, O(n)\backslash GL(n))
   \,.
 $$
 
 However, if $T X$ is not trivial, then this is true only locally: there is then an [[atlas]] $\{U_i \to X\}$ such that restricted to each $U_i$ the moduli space of vielbein fields is $C^\infty(U_i, GL(n)/ O(n))$, but globally these now glue together in a non-trivial way as encoded by the tangent bundle: we may say that 
 
-the tangent bundle _twists_ the functions $X \to GL(n)/O(n)$. If -- as we may -- we think of an ordinary such function as a cocycle in degree-0 cohomology, then this means that a vielbein is a cocycle in $T X$-_[[twisted cohomology]]_ relative to the _twisting coefficient bundle_ $\mathbf{c}$.
+the tangent bundle _twists_ the functions $X \to GL(n)/O(n)$. If we think of an ordinary such function as a cocycle in degree-0 cohomology, then this means that a vielbein is a cocycle in $T X$-_[[twisted cohomology]]_ relative to the _twisting coefficient bundle_ $\mathbf{c}$.
 
 We can make this more manifest by writing equivalently
 
@@ -378,7 +428,7 @@ $$
   }  
 $$
 
-give the non-linear $T X$-associated bundle whose space of sections is the "twisted $O(n)\backslash GL(n)$-0-cohomology", hence the space of inequivalent vielbein fields.
+gives the non-linear $T X$-associated bundle whose space of sections is the "twisted $O(n)\backslash GL(n)$-0-cohomology", hence the space of inequivalent vielbein fields.
 
 
 #### Moduli stack of orthogonal structures
@@ -481,18 +531,267 @@ This is the standard formula for the relation between the [[Christoffel symbols]
 The above discussion of vielbein fields has straightforward generalizations to the [[generalized complex geometry]], [[type II geometry]] and [[exceptional generalized geometry]].
 
 
+We discuss how a type II geometry is the [[reduction of the structure group]] of the [[generalized tangent bundle]] along the inclusion $O(d) \times O(d) \to O(d,d)$.
+
++-- {: .num_defn #InclusionForTypeIIGeometry}
+###### Definition
+
+Consider  the [[Lie group]] inclusion
+$$
+  \mathrm{O}(d) \times \mathrm{O}(d)
+  \to 
+  \mathrm{O}(d,d)
+$$
+
+of those [[orthogonal group|orthogonal transformations]], that preserve the positive definite part
+or the negative definite part of the [[bilinear form]] of signature $(d,d)$, respectively.
+
+If $\mathrm{O}(d,d)$ is presented as the group of $2d \times 2d$-[[matrix|matrices]] that 
+preserve the [[bilinear form]] given by the $2d \times 2d$-matrix
+$$
+  \eta 
+  \coloneqq
+  \left( 
+     \array{
+       0 & \mathrm{id}_d
+       \\
+       \mathrm{id}_d & 0
+     }
+  \right)
+$$
+
+then this inclusion sends a pair $(A_+, A_-)$ of [[orthogonal group|orthogonal]] $n \times n$-matrices
+to the matrix
+$$
+  (A_+ , A_-) 
+    \mapsto 
+  \frac{1}{\sqrt{2}}
+  \left(
+    \array{
+	   A_+ + A_- & A_+ - A_-
+	   \\
+	   A_+ - A_- & A_+ + A_-
+     }
+  \right)
+  \,.
+$$
+
+=--
+
+This inclusion of [[Lie groups]] induces the corresponding morphism of 
+[[smooth infinity-groupoid|smooth]] [[moduli stacks]]
+of [[principal bundles]]
+
+$$
+  \mathbf{TypeII}
+  :
+  \mathbf{B}(\mathrm{O}(d) \times \mathrm{O}(d))
+  \to 
+  \mathbf{B} \mathrm{O}(d,d)  
+  \,.
+$$
+
++-- {: .num_prop }
+###### Proposition
+
+There is a [[fiber sequence]] of [[smooth infinity-groupoid|smooth stacks]] 
+
+  $$
+      O(d) \backslash O(d,d) / O(d)
+	 \to
+  \mathbf{B}(\mathrm{O}(d) \times \mathrm{O}(d))
+     \stackrel{\mathbf{TypeII}}{\to}
+    \mathbf{B} \mathrm{O}(d,d)  	
+  \,,
+  $$
+
+where the fiber on the left is the [[coset space]] of the [[action]] of $O(d) \times O(d)$ on $O(d,d)$.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+There is a canonical embedding
+$$
+  \mathrm{GL}(d) \hookrightarrow \mathrm{O}(d,d)
+$$
+
+of the [[general linear group]].
+
+In the above matrix presentation this is given by sending
+
+$$
+  a
+  \mapsto 
+  \left( 
+     \array{
+	    a & 0
+		\\
+		0 & a^{-T}
+      }
+  \right)
+  \,,
+$$
+
+where in the bottom right corner we have the [[transpose matrix|transpose]] of the inverse matrix of the invertble
+matrix $a$.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Under inclusion of def. \ref{InclusionForTypeIIGeometry}, the 
+[[tangent bundle]] of a $d$-[[dimension|dimensional]] 
+[[manifold]] $X$ defines an $\mathrm{O}(d,d)$-[[cocycle]]
+
+$$
+  T X \otimes T^* X
+  :
+  
+    X 
+     \stackrel{T X}{\to}
+    \mathbf{B}\mathrm{GL}(d)  
+      \stackrel{}{\to}
+    \mathbf{B} \mathrm{O}(d,d) 
+  \,.
+$$
+
+The [[vector bundle]] canonically associated to this composite cocycles may 
+canonically be identified with
+the [[tensor product]] vector bundle $T X \otimes T^* X$, and so we will
+refer to this cocycle by these symbols, as indicated. 
+This is also called the **[[generalized tangent bundle]]** of $X$.
+
+=--
+
+Therefore we may canonically consider the groupoid of 
+$T X \otimes T^* X$-twisted $\mathbf{TypeII}$-structures, 
+according to the general notion of [[twisted differential c-structures]].
+
+
++-- {: .num_defn }
+###### Definition
+
+A **type II generalized vielbein** on a [[smooth manifold]] $X$ is a diagram
+
 $$
   \array{
-     O(n) \backslash O(n,n) / O(n) &\to& \mathbf{B} (O(n) \times O(n))
-     \\
-     && \downarrow^{\mathrlap{}}
-     \\
-     && \mathbf{B} O(n,n)
+    X &&\stackrel{\widetilde(T X \otimes T^* X)}{\to}&& \mathbf{B}(O(n) \times O(n))
+    \\
+    & {}_{\mathllap{T X \otimes T^* X}}\searrow &\swArrow_{E}& \swarrow_{\mathrlap{\mathbf{TypeII}}}
+    \\
+    && \mathbf{B} O(n,n)
   }
 $$
 
+in $\mathbf{H} = $ [[Smooth∞Grpd]], hence a cocycle in the smooth [[twisted cohomology]]
 
-[[generalized vielbein]]
+$$
+  E 
+   \in 
+  \mathbf{TypeII}Struc(X)
+  \coloneqq
+  \mathbf{H}_{/\mathbf{B} O(n,n)}(T X \otimes T^* X, \mathbf{TypeII})
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop }
+###### Proposition / Definition
+
+  The [[groupoid]] $\mathbf{TypeII}\mathrm{Struc}(X)$
+  is that of "generalized vielbein fields" on $X$, as considered for instance 
+  around equation (2.24) of ([GMPW](#GMPW))
+  (there only locally, but the globalization is evident).
+  
+  In particular, its set of equivalence classes is the set of 
+  type-II generalized geometry structures on $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Over a local [[coordinate chart]] $\mathbb{R}^d \simeq U_i \hookrightarrow X$, the most general such generalized vielbein
+(hence the most general $\mathrm{O}(d,d)$-valued function)
+may be parameterized as
+$$
+  E = 
+  \frac{1}{2}
+  \left(
+    \array{
+	  (e_+ + e_-) + (e_+^{-T} - e_-^{-T})B & (e_+^{-T} - e_-^{-T})
+	  \\
+	  (e_+ - e_-) - (e_+^{-T} + e_-^{-T})B & (e_+^{-T} + e_-^{-T})
+     }
+  \right)
+  \,,
+$$
+
+where $e_+, e_- \in C^\infty(U_i, \mathrm{O}(d))$ are thought of as two 
+[[vielbein|ordinary vielbein]] fields, and where $B$ is any smooth skew-symmetric $n \times n$-matrix valued function on 
+$\mathbb{R}^d \simeq U_i$. 
+
+By an $\mathrm{O}(d) \times \mathrm{O}(d)$-[[gauge transformation]] this can always be brought
+into a form where $e_+ = e_- =: \tfrac{1}{2}e$ such that
+$$
+  E = 
+  \left(
+    \array{
+	  e & 0
+	  \\
+	  - e^{-T}B  & e^{-T}
+	}
+  \right)
+  \,.
+$$
+
+The corresponding "generalized metric" over $U_i$ is
+
+$$
+  E^T 
+  E
+  = 
+  \left(
+    \array{
+	  e^T & B e^{-1}
+	  \\
+	  0  & e^{-1}
+    }
+  \right)
+  \left(
+    \array{
+	  e & 0
+	  \\
+	  - e^{-T}B  & e^{-T}
+    }
+  \right)
+  = 
+  \left(
+    \array{
+	  g - B g^{-1} B & B g^{-1}
+	  \\
+	  - g^{-1} B  & g^{-1}
+     }
+  \right)
+  \,,
+$$
+
+where
+
+$$
+  g \coloneqq e^T e
+$$
+
+is the [[metric]] (over $\mathbb{R}^q \simeq U_i$ a smooth function with values in symmetric $n \times n$-matrices) 
+given by the [[vielbein|ordinary vielbein]] $e$.
+
+=--
+
 
 #### Exceptional generalized geometry: U-duality geometry
 
@@ -785,7 +1084,7 @@ $$
 
 
 
-### Spin<sup>c</sup>, String<sup>c</sup>, Fivebrane<sup>c</sup>-structures 
+### Spin<sup>c</sup>-, String<sup>c</sup>-, Fivebrane<sup>c</sup>-structures 
  {#TwistedK}
 
 
@@ -795,7 +1094,7 @@ Analogous unitary twists exists for the [[string 2-group]] and the [[fivebrane 6
 
 
 
-#### The smooth stable unitary group
+#### Twisted $(Spin^c)^{\mathbf{dd}}$-structures and twisted K-theory on D-branes
 
 $$
   \mathbf{B}U \coloneqq \underset{\rightarrow_n}{\lim} \mathbf{B} U(n)
@@ -815,8 +1114,6 @@ $$
 $$
 
 
-#### The universal $\mathbf{B}U$-2-bundle
-
 $$
   \array{
      \mathbf{B}U &\to& \mathbf{B} P U
@@ -829,7 +1126,6 @@ $$
 
 (...)
 
-#### Freed-Witten anomaly cancellation: twisted $Spin^{W_3}$-structures
 
 $$
   \array{
@@ -843,10 +1139,22 @@ $$
 
 (...)
 
+#### Twisted $String^{2\mathbf{a}}$-structures on M5-branes
 
-### Higher orientifold structures: Ho&rcaron;ava-Witten compactifications
+(...)
+
+
+### Higher orientifold structures 
  {#HigherOrientifold}
 
+
+#### Orientifolds
+
+(...)
+
+#### Ho&rcaron;ava-Witten compactifications
+
+(...)
 
 (...)
 
