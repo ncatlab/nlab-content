@@ -94,7 +94,10 @@ The following table lists examples of such coefficient bundles and tabulates the
 
 | | universal coefficient bundle | twisting bundle | twisting field | twisted bundle | twisted field |
 |---|---|---|---|---|---|
-| | $\array{ F &\to& E  \\ && \downarrow^{\mathrlap{\rho}} \\ && \mathbf{B}G }$ | $G$-[[principal infinity-bundle|principal bundle]] | $G$-[[higher gauge field|gauge field]] | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | twisted $\Omega E$-[[gauge field]]  | 
+| [[twisted differential c-structure|general pattern]] | | | | | |
+| | $\array{ F &\to& E  \\ && \downarrow^{\mathrlap{\mathbf{c}}} \\ && \mathbf{B}G }$ | $G$-[[principal infinity-bundle|principal bundle]] | $G$-[[higher gauge field|gauge field]] [[instanton]]-sector | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | twisted $\Omega E$-[[gauge field]] [[instanton]] sector |
+| | $\array{ \flat \mathbf{B}^n U(1) &\to& \mathbf{B}^n U(1) \\ && \downarrow^{\mathbf{curv}} \\ && \flat_{dR} \mathbf{B}^{n+1} U(1) }$ | [[de Rham cohomology|de Rham]] [[hypercohomology]] |  | [[circle n-bundle with connection]]  | [[higher gauge field|higher abelian gauge field]] |
+| | $\array{ F_{conn} &\to& E_{conn}  \\ && \downarrow^{\mathrlap{\hat \mathbf{c}}} \\ && \mathbf{B}G_{conn} }$ | $G$-[[connection on an infinity-bundle|connection]] | $G$-[[higher gauge field|gauge field]]  | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | twisted $\Omega E$-[[gauge field]]|
 | [[reduction of structure group]]/[[G-structure|geometric structure]] | | | | | |
 | | $\array{ GL(n)/O(n) &\to& \mathbf{B} O(n) \\ && \downarrow \\ && \mathbf{B} GL(n) }$ | [[manifold]] structure / [[tangent bundle]] |  | [[vielbein]] | [[gravity]] |
 | | $\array{ GL(n)/O(n) &\to& \mathbf{B} O(n)_{conn} \\ && \downarrow \\ && \mathbf{B} GL(n)_{conn} }$ | [[affine connection]] |  | [[spin connection]] | [[gravity]] |
@@ -1062,7 +1065,27 @@ where
 
 
 
+
 #### Differential refinement
+
+
+$$
+  \mathbf{curv} : \mathbf{B}^n U(1) \to \flat_{dR} \mathbf{B}^{n+1} U(1)
+$$
+
+$$
+  \mathbf{H}_{diff}(X, \mathbf{B}^n U(1))
+  =
+  \mathbf{curv}Struc_{\Omega^{n+1}}(X)
+$$
+
+$$
+  \array{
+     X &&\stackrel{}{\to}&& \mathbf{B}^n U(1)
+     \\
+     
+  }
+$$
 
 
 **Theorem** 
