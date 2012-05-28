@@ -214,20 +214,16 @@ $$
 
 ## Related concepts and discussion 
 
-* [[well-generated triangular category]]
-
 * [[enhanced triangulated category]], [[pretriangulated dg-category]], [[stable (infinity,1)-category]]
-
-* [[Bousfield lattice]]
-
-* Discussion at the [nForum](http://nforum.mathforge.org/discussion/3638/triangulated-category/)
-
+* [[derived category]], [[suspended category]], [[n-angulated category]]
+* [[Bousfield lattice]], [[thick subcategory]], [[additive category]], [[well-generated triangulated category]]
+* Discussion at the [nForum](http://nforum.mathforge.org/discussion/3638/triangulated-category)
 
 ## References
 
 * [[Amnon Neeman]], 2001, _Triangulated Categories_ , Princeton University Press.
 
-* Kashiwara-Schapira, _[[Categories and Sheaves]]_, section 10.
+* [[M. Kashiwara]], P. Schapira, _[[Categories and Sheaves]]_, section 10.
 
 * [[Jacob Lurie]], _[[Stable Infinity-Categories]]_, section 3.
 
