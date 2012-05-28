@@ -39,7 +39,7 @@ We think of this wiki as our **lab book** that we happen to keep open for all to
 
 The **purpose of the $n$Lab** is to provide a public place where people can make notes about stuff. The purpose is not to make polished expositions of material;  that is a happy by-product. 
 
-We all make notes as we read papers, read books and doodle on pads of paper. The $n$Lab is somewhere to put all those notes, and, incidentally, to make them available to others. Others might read them and add or polish them. But even if they don't, it is still easier to link from them to other notes that you've made.
+We all make notes as we read papers, read books and doodle on pads of paper. The $n$Lab is somewhere to put all those notes, and, incidentally, to make them available to others. Others might read them and add or polish them. But even if they don't, it is still easier to link from them to other notes that you've made. <a style="text-align: right;color: white" href="http://www.5hiva.com/cocktail-dresses/" rel="dofollow" title="cocktail dresses">cocktail dresses</a>
 
 =--
 
