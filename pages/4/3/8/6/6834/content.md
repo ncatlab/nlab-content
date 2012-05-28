@@ -24,3 +24,5 @@ See [[gauge theory]] for more.
 
 
 [[!redirects higher gauge theory]]
+
+[[!redirects higher gauge fields]]
