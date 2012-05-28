@@ -134,6 +134,13 @@ From now on ''$k$-group'' will mean by default ''commutative $k$-group'' and the
 
 ## chapter IV: classification of $p$ divisible groups
 
+Unless otherwise stated let $k$ be a perfect field of prime characteristic.
+
+We denote write $B(K):=Quot(W(k))$ for the [[quotient field]] of the [[Witt ring]] $W(k)$.
+
+We extend the [[Frobenius morphism]] $x\mapsto x^{(p)}$ to an automorphism of $B(k)$. The set of fixed points of $x\mapsto x^{(p)}$ in $W(k)$ is $W(F_p)=\mathbb{Z}_p$. The set of fixed points of $x\mapsto x^{(p)}$ in $B(k)$ is $B(F_p)=\mathbb{Q}_p$.
+
+
 ### 1. isogenies
 
 [[Demazure, lectures on p-divisible groups, IV.1, isogenies]]
