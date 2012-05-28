@@ -79,7 +79,7 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-For $\Sigma \hookrightarrow X$ a submanifold of dimension $n-1$, the **charge** of the conserved current $j$ with respect to $\Sigma$ is the [[integral]]
+For $\Sigma \hookrightarrow X$ a submanifold of dimension $n-1$, the **[[charge]]** of the conserved current $j$ with respect to $\Sigma$ is the [[integral]]
 
 $$
   Q_\Sigma := \int_\Sigma j
