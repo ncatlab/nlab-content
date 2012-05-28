@@ -214,6 +214,13 @@ $$
 
 which is the original definition.
 
+## Higher $spin^c$-structures
+ {#Higher}
+
+In parallel to the existence of [higher spin structures](spin+structure#Higher) there are higher analogs of $Spin^c$-structures, related to [[quantum anomaly]] cancellation of theories of higher dimensional [[branes]].
+
+* [[string^c structure]]
+
 ## Related concepts
 
 * [[spin^c]]
