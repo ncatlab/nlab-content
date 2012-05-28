@@ -97,8 +97,17 @@ $p$-adic [[differential equations]] are discussed in
 
 
 [[!redirects p-adic]]
+
+[[!redirects p-adic number]]
 [[!redirects p-adic numbers]]
-[[!redirects p-adic field]]
-[[!redirects p-adic valuation]]
 
 [[!redirects adic number]]
+[[!redirects adic numbers]]
+
+[[!redirects p-adic number field]]
+[[!redirects p-adic number fields]]
+[[!redirects p-adic field]]
+[[!redirects p-adic fields]]
+
+[[!redirects p-adic valuation]]
+[[!redirects p-adic valuations]]
