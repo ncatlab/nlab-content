@@ -493,13 +493,13 @@ $$
   \,.
 $$
 
-We may think of this for each $U$ as being the groupoid of $G$-gauge transformations acting on the trivial $G$-bundle. A [[connection on a bundle|connection]] on the trivial $G$-bundle is a [[Lie algebra]] valued form $A \in \Omega^1(U, \mathfrak{g})$. Accordingly, the presheaf of groupoids
+We may think of this for each $U$ as being the groupoid of $G$-gauge transformations acting on the trivial $G$-bundle over $U$. A [[connection on a bundle|connection]] on the trivial $G$-bundle is a [[Lie algebra]] valued form $A \in \Omega^1(U, \mathfrak{g})$. Accordingly, the presheaf of groupoids
 
 $$
   \mathbf{B}G_{conn} : U \mapsto (C^\infty(U,G) \times \Omega^1(U, \mathfrak{g}) \stackrel{\to}{\to} \Omega^1(U, \mathfrak{g}) )
 $$
 
-is that of $G$-connections and gauge transformations between them: the [[groupoid of Lie-algebra valued forms]]. As an object of $\mathbf{H} = $ [[smooth infinity-groupoid|SmoothGrpd]] this the [[moduli stack]] of $G$-[[connection on a bundle|connections]]:
+is that of $G$-connections and gauge transformations between them: the _[[groupoid of Lie-algebra valued forms]]_ over $U$. As an object of $\mathbf{H} = $ [[smooth infinity-groupoid|SmoothGrpd]] this the [[moduli stack]] of $G$-[[connection on a bundle|connections]]:
 
 $$
   \mathbf{H}(X, \mathbf{B}G_{conn})
@@ -512,31 +512,31 @@ The morphism $\mathbf{Orth}$ has an evident differential refinement to a morphis
 
 $$
   \mathbf{Orth}_{conn} : \mathbf{B}O(n)_{conn} \to \mathbf{B}GL(n)_{conn}
-  \,.
 $$
 
-The [[homotopy fiber]] of this differential refinement is still the same as before
+by acting on the differential forms with the induced inclusion of the [[orthogonal Lie algebra]] into the [[general linear Lie algebra]] $\mathfrak{o}(n) \hookrightarrow \mathfrak{gl}(n)$.
+
+The [[homotopy fiber]] of this differential refinement turns out to be the same moduli space as before
 
 $$
   \array{
     GL(n)/ O(n) &\to& \mathbf{B} O(n)_{conn}
     \\
-    && \downarrow^{\mathrlap{Orth}_{conn}}
+    && \downarrow^{\mathrlap{\mathbf{Orth}_{conn}}}
     \\
     && \mathbf{B} GL(n)_{conn}
   }
   \,,
 $$
 
-so that the moduli space of "differential vielbein fields" is the same as that of plain vielbein fields.
-
-Consider an [[affine connection]]
+so that the moduli space of "differential vielbein fields" is the same as that of plain vielbein fields. But we nevertheless do gain differential information: consider an [[affine connection]] on the tangent bundle, which is now given by a morphism from $X$ to the moduli stack
 
 $$
   \nabla_{T X} : X \to \mathbf{B}GL(n)
+  \,.
 $$
 
-hence a $GL(n)$-[[principal connection]] which locally on an atlas is given by the [[Christoffel symbols]] 
+This is a $GL(n)$-[[principal connection]] which locally on an atlas is given by the [[Christoffel symbols]] 
 
 $$
   \Gamma_i = ((\Gamma_i)_\mu{}{}^{\alpha}{}_\beta)
@@ -545,7 +545,7 @@ $$
   \,.
 $$
 
-A lift $(\nabla_V, E)$ in 
+A $\nabla_{T X}$-twisted differential cocycle is now a diagram
 
 $$
   \array{
@@ -553,36 +553,37 @@ $$
     \\
     & {}_{\mathllap{\nabla_{T X}}}\searrow 
      &\swArrow_{E^{-1}}& 
-    \swarrow_{\mathbf{c}_{conn}}
+    \swarrow_{\hat {\mathbf{Orth}}}
     \\
     && \mathbf{B}GL(n)_{conn}
   }
+  \,.
 $$
 
-is in components a "[[spin connection]]"
+In components over the atlas, $\nabla_V$ is a "[[spin connection]]" given by local 1-forms $\{\omega_i \in \Omega^1(U_i, \mathfrak{o}(n))\}$
 
 $$
-  \omega_\mu = E d E^{-1} + E \Gamma_\mu E^{-1}
+  \omega_i = E_i d_{dR} E_i^{-1} + E_i \Gamma E_i^{-1}
 $$
 
+and the vielbeing $E$ now exhibits on each chart $U_i$ the familiar relation between the components of the spin connection and the Christoffel-symbols:
+
 $$
-  \omega_\mu{}^a{}_b 
+  \omegai{}^a{}_b 
    = 
-   E^a{}_\nu \partial_\mu E^\nu{}_b
+   E_i^a{}_\nu d_{dR} E_i^\nu{}_b
    +
-   E^a{}_\nu \Gamma_\mu{}^\nu{}_\lambda E^\lambda{}_b
+   E_i^a{}_\nu \Gamma_i {}^\nu{}_\lambda E_i^\lambda{}_b
    \,.
 $$
-
-This is the standard formula for the relation between the [[Christoffel symbols]] and the [[spin connection]] in terms of the vielbein.
 
 
 #### Generalized vielbein fields: generalized complex and type II geometry
 
-The above discussion of vielbein fields has straightforward generalizations to the [[generalized complex geometry]], [[type II geometry]] and [[exceptional generalized geometry]].
+The above discussion of vielbein fields has straightforward generalizations to _[[generalized complex geometry]]_, _[[type II geometry]]_ and _[[exceptional generalized geometry]]_. 
 
 
-We discuss how a [[type II geometry]] is the [[reduction of the structure group]] of the [[generalized tangent bundle]] along the inclusion $O(d) \times O(d) \to O(d,d)$.
+We discuss, in the above language, how a [[type II geometry]] is the [[reduction of the structure group]] of the [[generalized tangent bundle]] along the inclusion $O(d) \times O(d) \to O(d,d)$.
 
 +-- {: .num_defn #InclusionForTypeIIGeometry}
 ###### Definition
@@ -757,7 +758,7 @@ $$
   The [[groupoid]] $\mathbf{TypeII}\mathrm{Struc}(X)$
   is that of "generalized vielbein fields" on $X$, as considered for instance 
   around equation (2.24) of ([GMPW](#GMPW))
-  (there only locally, but the globalization is evident).
+  (there only locally, though).
   
   In particular, its set of equivalence classes is the set of 
   type-II generalized geometry structures on $X$.
@@ -846,6 +847,8 @@ given by the [[vielbein|ordinary vielbein]] $e$.
 
 #### Exceptional generalized geometry: U-duality geometry
 
+(...)
+
 $$
   \array{
      E_n/H_n &\to& \mathbf{B} H_n
@@ -859,11 +862,13 @@ $$
 
 [[exceptional generalized geometry]], [[U-duality]]
 
+(...)
 
 ### **II)** Spin-, String- and Fivebrane-structure
  {#SpinStringFivebraneStructures}
 
-Above we have seen ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian metric|Riemannian structure]] given by lifts through the inclusion $\mathbf{B} O(n) \to \mathbf{B} GL(n)$. Now we consider further lifts, through the [[Whitehead tower]] of $\mathbf{B}O$. This encodes _[higher spin structures](spin structure#Higher)_.
+Above we have seen ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian metric|Riemannian structure]] given by lifts through the inclusion $\mathbf{B} O(n) \to \mathbf{B} GL(n)$. Now we consider further lifts, through the [[Whitehead tower]] of $\mathbf{B}O$. This encodes 
+_[higher spin structures](spin+structure#Higher)_.
 
 Where a _[[spin structure]]_ on [[spacetime]] is necessary to cancel a [[quantum anomaly]] of the [[spinning particle]]/[[superparticle]] [[sigma-model]], so the [[heterotic string|heterotic]] [[superstring]] requires, in the absence of a [[gauge field]], a "[higher spin structure](#spin+structure#Higher)", called a _[[string structure]]_.  Further up in dimension, _[[dual heterotic string theory]]_ in the absence of the gauge field involves a  _[[fivebrane structure]]_.
 
@@ -1003,13 +1008,13 @@ where each "hook" is a [[fiber sequence]].
 
 The [[universal property]] of [[homotopy pullbacks]] says that
 
-* the obstruction to lifting an [[orthogonal structure]] $T X : X \to B O$ to an [[orientation]] structure is the homotopy class $[w_1(T X)] \in H^1(B O, \mathbb{Z}_2)$ of $w_1(T X) : X \stackrel{T X}{\to} B O \stackrel{w_1}{\to} B \mathbb{Z}_2$, the [[first Stiefel-Whitney class]];
+* the [[obstruction]] to lifting an [[orthogonal structure]] $T X : X \to B O$ to an [[orientation]] structure is the homotopy class $[w_1(T X)] \in H^1(B O, \mathbb{Z}_2)$ of $w_1(T X) : X \stackrel{T X}{\to} B O \stackrel{w_1}{\to} B \mathbb{Z}_2$, the [[first Stiefel-Whitney class]];
 
-* the obstruction to lifting an [[orientation]] structure $T X : X \to B SO$ to an [[spin structure]] is the [[second Stiefel-Whitney class]] $w_2(T X) : X \stackrel{}{\to} B S \stackrel{w_2}{\to} B^2 \mathbb{Z}_2$;
+* the [[obstruction]] to lifting an [[orientation]] structure $T X : X \to B SO$ to an [[spin structure]] is the [[second Stiefel-Whitney class]] $w_2(T X) : X \stackrel{}{\to} B S \stackrel{w_2}{\to} B^2 \mathbb{Z}_2$;
 
-* the obstruction to lifting a [[spin structure]] $X \to B Spin$ to an [[string structure]] is the [[first fractional Pontryagin class]];
+* the [[obstruction]] to lifting a [[spin structure]] $X \to B Spin$ to an [[string structure]] is the [[first fractional Pontryagin class]];
 
-* the obstruction to lifting a [[string structure]] $X \to B String$ to a [[fivebrane structure]] is the [[second fractional Pontryagin class]].
+* the [[obstruction]] to lifting a [[string structure]] $X \to B String$ to a [[fivebrane structure]] is the [[second fractional Pontryagin class]].
 
 
 #### Necessity of smooth refinement
@@ -1037,12 +1042,26 @@ $X : CartSp^{op} \to \infty Grpd$ encodes a smooth family version of a [[homotop
 For this only the [[germs]] of [[open balls]] $D^n \hookrightarrow \mathbb{R}^n$
 matter. Therefore we say that a morphism $X \to Y$ of 
 [[smooth infinity-groupoid|smooth homotopy types]] is an 
-[[equivalence in an (infinity,1)-category|equivalence]] if it is one restricted to such germs of $n$-disks ("on each [[stalk]]").
+[[equivalence in an (infinity,1)-category|equivalence]] if it is one restricted to such germs of $n$-disks (is an equivalence "on each [[stalk]]").
 
-This defines a [[homotopy theory]] to be denoted _[[Smooth∞Grpd]]_. 
+This defines a [[homotopy theory]] to be denoted 
+$\mathbf{H} \coloneqq $ _[[Smooth∞Grpd]]_
 
+$$
+  \mathbf{H} \coloneqq Func(SmthMfd^{op}, sSet)[\{stalkwise\, w.h.e.\}^{-1}]
+  \,.
+$$
 
-**Theorem** There is a lift of the [above Whitehead tower](#WhiteheadTower) of [[homotopy type|bare homotopy types]] to a tower of [[smooth infinity-groupoid|smooth homotopy types]]/[[smooth infinity-stacks]] through the [[geometric realization]] map
+The way this is constructed, the formalism takes care of much of the [[∞-stackification]] involved. For instance, as a presheaf of groupoids the assignment $\mathbf{B}G : U \mapsto (C^\infty(U,G) \stackrel{\to}{\to} * )$ does not satisfy [[descent]] and hence is not a [[stack]]. Its [[stackification]] is instead $G Bund(-) : U \mapsto G Bund(U)$, which sends each manifold $U$ to the groupoid of smooth $G$-principal bundles over it. But in $\mathbf{H}$ both these objects are in fact equivalent
+
+$$
+  \mathbf{B}G \stackrel{\simeq}{\to} G Bund(-)
+  \,,
+$$
+
+hence under the above localization every presheaf of homotopy types is automatically regarded as the corresponding [[∞-stack]].
+
+**Theorem** There is a lift of the [above Whitehead tower](#WhiteheadTower) of [[homotopy type|bare homotopy types]] to a tower of [[smooth infinity-groupoid|smooth homotopy types]]/[[smooth ∞-stacks]] through the [[geometric realization]] map
 
 $$
   {\vert -\vert} : Smooth \infty Grpd \stackrel{\Pi}{\to} \infty Grpd \simeq Top
@@ -1096,6 +1115,31 @@ where
 #### Differential refinement
 
 While the [above](#SmoothWhitehead) smooth refinement of the Whitehead tower already improves on the [bare Whitehead tower](#WhiteheadTower) by remembering the correct spaces of [[gauge transformations]], it still only sees "[[instanton]] sectors" of [[gauge fields]] and [[higher gauge fields]], namely the underlying [[principal ∞-bundles]]. We add now the refinement from _smooth cohomology_ to [[differential cohomology]] such as to encode the actual [[higher gauge fields]] themselves. This differential cohomology in turn is naturally available in terms of _curvature twisted flat cohomology_ or equivalently _curvature-twisted [[local systems]]_.
+
+$\,$
+
+(...) [[Deligne complex]] (...)
+
+$$
+  \mathbf{B}^{n} U(1)_{conn}
+    =
+  \left[
+  C^\infty(-,U(1))
+  \stackrel{d_{dR} log}{\to}
+  \Omega^1(-)
+  \stackrel{d_{dR}}{\to}
+  \Omega^2(-)
+  \stackrel{d_{dR}}{\to}
+  \cdots
+  \stackrel{d_{dR}}{\to}
+  \Omega^n(- )
+  \right]
+  \,.  
+$$
+
+(...)
+
+$\,$
 
 For $A \in \mathbf{H}$ a smooth homotopy type, write $\flat A \coloneqq Disc \Gamma A$ for the [[discrete object]] on its underlying [[discrete infinity-groupoid|discrete homotopy type]]. We say that a morphism
 
@@ -1222,17 +1266,35 @@ $$
 This construction is a joint generalization of [[Chern-Weil theory]]
 and [[Chern-Simons theory]] to [[∞-Chern-Weil theory]] and [[schreiber:∞-Chern-Simons theory]]
 
-$$
-  \exp(i S_{\tfrac{1}{2}\mathbf{p}_1}) 
-    : 
-  [\Sigma, \mathbf{B}Spin_{conn}]
-    \stackrel{\tfrac{1}{2}\hat \mathbf{p}_1}{\to}
-  [\Sigma, \mathbf{B}^{n+1}U(1)_{conn}]
-    \stackrel{\exp(i \int_\Sigma(-))}{\to}
-  U(1)
-$$
+For instance 
 
-(...)
+* the differential refinement of the first fractional Pontryagin class above yields the action functional
+
+  $$
+    \exp(i S_{\tfrac{1}{2}\mathbf{p}_1}) 
+      : 
+    [\Sigma, \mathbf{B}Spin_{conn}]
+      \stackrel{\tfrac{1}{2}\hat \mathbf{p}_1}{\to}
+    [\Sigma, \mathbf{B}^{3}U(1)_{conn}]
+      \stackrel{\exp(i \int_\Sigma(-))}{\to}
+    U(1)
+  $$
+
+  of [[Spin]]-[[Chern-Simons theory]], refined to the integrated off-shell [[BRST-complex]] of the theory;
+
+* the differential refinement of the second fractional Pontryagin class above yields the action functional
+
+  $$
+    \exp(i S_{\tfrac{1}{6}\mathbf{p}_2}) 
+      : 
+    [\Sigma, \mathbf{B}String_{conn}]
+      \stackrel{\tfrac{1}{6}\hat \mathbf{p}_2}{\to}
+    [\Sigma, \mathbf{B}^{7}U(1)_{conn}]
+      \stackrel{\exp(i \int_\Sigma(-))}{\to}
+    U(1)
+  $$
+
+  of 7-dimensional Chern-Simons theory on nonabelian String 2-form fields ([FSSb](#FSSb))
 
 
 
@@ -1255,7 +1317,7 @@ The corresponding (twisted) $Spin^c$-, $String^c$- and $Fivebrane^c$-structures 
  {#BFieldInK}
 
 We discuss aspects of the twisted smooth cohomology involved
-over [[D-branres]] in [[type II string theory]].
+over [[D-branes]] in [[type II string theory]].
 
 
 For each $n$, the [[central extension]] of Lie groups
@@ -1329,7 +1391,7 @@ $$
 
 for the corresponding universal coefficient bundle.
 
-The corresponding twisted cohomology appears in string theory as [[relative cohomolology]] over [[D-branes]]. 
+The corresponding twisted cohomology appears in string theory as [[relative cohomology]] over [[D-branes]]. 
 
 Let therefore $i : Q \hookrightarrow X$ be a compact submanifold.
 Assume first that it is equipped with [[spin^c structure]].
@@ -1432,7 +1494,7 @@ $$
 
 In order to obtain the proper moduli stack, refining this conidition from gauge equivalence classes to [[cocycles]], we need to interpret this constraint in [[homotopy type theory]]. 
 
-This yields the moduli 2-stack of the supergravity C-field:
+This yields the moduli 2-stack of the supergravity C-field: in the logic of [[homotopy type theory]] it is simply
 
 $$
   \mathbf{CField}(X)
@@ -1447,6 +1509,8 @@ $$
       2 G_4(\phi_C)
   \right\}
 $$
+
+and in the interpretation in the [[(∞,1)-topos]] $\mathbf{H}$ it is the [[homotopy pullback]] ([FSSc](#FSSc))
 
 $$
   \array{
@@ -1832,8 +1896,11 @@ The smooth and differential refinements of these structures have been jointly de
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_
  {#FSSa}
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane|Multiple M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory]]_
  {#FSSb}
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_
+ {#FSSc}
 
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
  {#NSS}
@@ -1842,6 +1909,14 @@ A general theory of smooth homotopy-type theory is laid out in
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
  {#Schreiber}
+
+The notion of [[twisted cohomology]] by sections of twisting coeffcient $\infty$-bundles used here is similar to that in 
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81) ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ {#ABG}
+
+but considered in the non-stable contxt of [[nonabelian cohomology]] and refined from bare homotopy types to geometric homotopy types.
+
 
 For references on the example of _[[twisted K-theory|twisted]]_ and _[[differential K-theory|differential]] [[K-theory]]_, as well as on _[[orientifolds]]_, see there.
 
