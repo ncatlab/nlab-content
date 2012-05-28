@@ -298,17 +298,17 @@ the inclusion of the [[maximal compact subgroup]] of $GL(n)$. This makes it mani
 The inclusion induces a corresponding inclusion ([[truncated object of an (infinity,1)-category|0-truncated morphism]]) of moduli stacks
 
 $$
-  \mathbf{OrthStruc} : \mathbf{B} O(n) \to \mathbf{B} GL(n)
+  \mathbf{Orth} : \mathbf{B} O(n) \to \mathbf{B} GL(n)
   \,.
 $$
 
-Now we can say what a [[Riemannian metric]]/[[orthogonal structure]] on $X$ is: A choice of [[orthogonal structure]] on $T X$ is a factorization of the above $GL(n)$-valued cocycle $\lambda$ through $\mathbf{c}$, up to a smooth [[homotopy]] $E$, hence a [[diagram]]
+Now we can say what a [[Riemannian metric]]/[[orthogonal structure]] on $X$ is: A choice of [[orthogonal structure]] on $T X$ is a factorization of the above $GL(n)$-valued cocycle $\lambda$ through $\mathbf{Orth}$, up to a smooth [[homotopy]] $E$, hence a [[diagram]]
 
 $$
   \array{
      X &&\stackrel{h}{\to}&& \mathbf{B} O(n)
      \\
-     & {}_{\mathllap{\lambda}}\searrow &\swArrow_{E^{-1}}& \swarrow_{\mathrlap{\mathbf{c}}}
+     & {}_{\mathllap{\lambda}}\searrow &\swArrow_{E^{-1}}& \swarrow_{\mathrlap{\mathbf{Orth}}}
      \\
      && \mathbf{B}GL(n)
   }
@@ -433,31 +433,56 @@ gives the non-linear $T X$-associated bundle whose space of sections is the "twi
 
 #### Moduli stack of orthogonal structures
 
-The above says that the space of vielbein fields is the [[cohomology]] of $T X$ in the [[over-(infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B}GL(n)}$ with coefficients in $\mathbf{c} : \mathbf{B}O \to \mathbf{B}GL(n)$
+The above says that the space of vielbein fields is the [[cohomology]] of $T X$ in the [[over-(infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B}GL(n)}$ with coefficients in $\mathbf{Orth} : \mathbf{B}O \to \mathbf{B}GL(n)$
 
 $$
-  O Struc_{TX}(X) \simeq \mathbf{H}_{/\mathbf{B}GL(n)}(T X, \mathbf{c})
+  \mathbf{Orth} Struc_{TX}(X) 
+  \coloneqq
+  \mathbf{Orth}(T X)
+   \coloneqq
+  \mathbf{H}_{/\mathbf{B}GL(n)}(T X, \mathbf{Orth})
   \,.
 $$
 
 But also this space of choices of vielbein fields has a smooth structure, it is itself a smooth [[moduli stack]]. This is obtained by forming the [[internal hom]] in the slice over $\mathbf{B}GL(n)$ of the [[locally cartesian closed (infinity,1)-category|locally cartesian closed (2,1)-category]] $\mathbf{H}$.
 
 $$
-  O \mathbf{Struc}_{T X}(X)
-  = 
-  [X, \mathbf{B}O]_{\mathbf{B}GL(n)}
+  \mathbf{OrthStruc}_{T X}(X)
+  \coloneqq
+  [T X, \mathbf{Orth}]_{\mathbf{B}GL(n)}
+  \,.
 $$
 
 #### Differential refinement: Spin connection
 
-We may further lift this discussion to [[differential cohomology]] to get genuine _differential_ $T X$-twisted $\mathbf{c}$-structures. 
+We may further refine this discussion to [[differential cohomology]] to get genuine _differential_ $T X$-twisted $\mathbf{c}$-structures. 
 
-Write $\mathbf{B}G_{conn}$ for [[groupoid of Lie-algebra valued forms]]. As an object of $\mathbf{H} = $ [[smooth infinity-groupoid|SmoothGrpd]] this the [[moduli stack]] of $G$-[[connection on a bundle|connections]].
-
-The morphism $\mathbf{c}$ has an evident differential refinement
+Recall that the moduli stack $\mathbf{B}G$ is presented in $\mathbf{H}$ by the presheaf of groupoids
 
 $$
-  \mathbf{c}_{conn} : \mathbf{B}O(n)_{conn} \to \mathbf{B}GL(n)_{conn}
+  \mathbf{B} G : U \mapsto (C^\infty(U,G) \stackrel{\to}{\to} *)
+  \,.
+$$
+
+We may think of this for each $U$ as being the groupoid of $G$-gauge transformations acting on the trivial $G$-bundle. A [[connection on a bundle|connection]] on the trivial $G$-bundle is a [[Lie algebra]] valued form $A \in \Omega^1(U, \mathfrak{g})$. Accordingly, the presheaf of groupoids
+
+$$
+  \mathbf{B}G_{conn} : U \mapsto (C^\infty(U,G) \times \Omega^1(U, \mathfrak{g}) \stackrel{\to}{\to} \Omega^1(U, \mathfrak{g}) )
+$$
+
+is that of $G$-connections and gauge transformations between them: the [[groupoid of Lie-algebra valued forms]]. As an object of $\mathbf{H} = $ [[smooth infinity-groupoid|SmoothGrpd]] this the [[moduli stack]] of $G$-[[connection on a bundle|connections]]:
+
+$$
+  \mathbf{H}(X, \mathbf{B}G_{conn})
+  \simeq
+  G Bund_\nabla(X)
+  \,.
+$$
+
+The morphism $\mathbf{Orth}$ has an evident differential refinement to a morphism between such differentially refined moduli stacks
+
+$$
+  \mathbf{Orth}_{conn} : \mathbf{B}O(n)_{conn} \to \mathbf{B}GL(n)_{conn}
   \,.
 $$
 
@@ -467,7 +492,7 @@ $$
   \array{
     GL(n)/ O(n) &\to& \mathbf{B} O(n)_{conn}
     \\
-    && \downarrow
+    && \downarrow^{\mathrlap{Orth}_{conn}}
     \\
     && \mathbf{B} GL(n)_{conn}
   }
@@ -482,7 +507,7 @@ $$
   \nabla_{T X} : X \to \mathbf{B}GL(n)
 $$
 
-hence a $GL(n)$-[[principal connection]] which locally on out atas is given by the [[Christoffel symbols]] 
+hence a $GL(n)$-[[principal connection]] which locally on an atlas is given by the [[Christoffel symbols]] 
 
 $$
   \Gamma_i = ((\Gamma_i)_\mu{}{}^{\alpha}{}_\beta)
@@ -505,23 +530,20 @@ $$
   }
 $$
 
-is in components
+is in components a "[[spin connection]]"
 
+$$
+  \omega_\mu = E d E^{-1} + E \Gamma_\mu E^{-1}
+$$
 
-1. a "[[spin connection]]"
-
-   $$
-     \omega_\mu = E d E^{-1} + E \Gamma_\mu E^{-1}
-   $$
-
-   $$
-     \omega_\mu{}^a{}_b 
-      = 
-      E^a{}_\nu \partial_\mu E^\nu{}_b
-      +
-      E^a{}_\nu \Gamma_\mu{}^\nu{}_\lambda E^\lambda{}_b
-      \,.
-   $$
+$$
+  \omega_\mu{}^a{}_b 
+   = 
+   E^a{}_\nu \partial_\mu E^\nu{}_b
+   +
+   E^a{}_\nu \Gamma_\mu{}^\nu{}_\lambda E^\lambda{}_b
+   \,.
+$$
 
 This is the standard formula for the relation between the [[Christoffel symbols]] and the [[spin connection]] in terms of the vielbein.
 
@@ -531,7 +553,7 @@ This is the standard formula for the relation between the [[Christoffel symbols]
 The above discussion of vielbein fields has straightforward generalizations to the [[generalized complex geometry]], [[type II geometry]] and [[exceptional generalized geometry]].
 
 
-We discuss how a type II geometry is the [[reduction of the structure group]] of the [[generalized tangent bundle]] along the inclusion $O(d) \times O(d) \to O(d,d)$.
+We discuss how a [[type II geometry]] is the [[reduction of the structure group]] of the [[generalized tangent bundle]] along the inclusion $O(d) \times O(d) \to O(d,d)$.
 
 +-- {: .num_defn #InclusionForTypeIIGeometry}
 ###### Definition
@@ -1181,6 +1203,12 @@ We base the formulation of [[physics]]/[[string theory]] on the [[foundations]] 
 
 
 ### Homotopy-type theory
+
+[[homotopy type theory|Homotopy-type theory]] or [[homotopy theory]] is effectively the [[logic]] of [[gauge transformations]]. 
+
+Traditionally a _[[homotopy type]]_ is a [[topological space]] regarded up to [[weak homotopy equivalence]]. This is very different from regarding it up to [[homeomorphism]] and instead views it as an [[∞-groupoid]]: its [[fundamental ∞-groupoid]]. This models [[homotopy]] and hence [[gauge transformations]], but does not yet model [[geometry]]. 
+
+More generally, there are _geometric homotopy types_, traditionally called [[∞-stacks]] or [[(∞,1)-sheaves]].
 
 
 #### Cohomology
