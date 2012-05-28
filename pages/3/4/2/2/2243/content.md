@@ -14,6 +14,8 @@
 
   * [[principal ∞-bundle]], [[associated ∞-bundle]]
 
+* [[obstruction]]
+
 ### Special and general types ###
 
 * [[chain homology and cohomology|cochain cohomology]]
