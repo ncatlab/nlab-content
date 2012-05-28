@@ -1,0 +1,3 @@
+A *variety* is a topological space whose open sets are maximal ideals in a polynomial ring over a [[ring]].
+
+Often ''variety'' refers to an [[algebraic variety]]. A variety is hence a [[scheme]] where the underlying ring is not an arbitrary- but a ring with the properties specified above.
