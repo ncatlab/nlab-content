@@ -43,7 +43,7 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 ## Literature and related entries
 
-* [[foundations and logic]], [[history of mathematics]]
+* [[foundations and logic]], [[history of mathematics]], [[structuralism]]
 
 * wikipedia: [philosophy of mathematics](http://en.wikipedia.org/wiki/Philosophy_of_mathematics); wikipedia.ru [&#1060;&#1080;&#1083;&#1086;&#1089;&#1086;&#1092;&#1080;&#1103; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1082;&#1080;](http://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D0%B8%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8)
 
@@ -52,7 +52,7 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 #### Blog and forum discussions
 
 * Mathematical reality: [I](http://golem.ph.utexas.edu/category/2008/10/mathematical_reality.html), [II](http://golem.ph.utexas.edu/category/2008/11/mathematical_robustness.html)
-* [[GavinWraith|Gavin]] wrote about "The dangers of category theory", the query is now at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2472&Focus=21255#Comment_21255)
+* [[GavinWraith|Gavin]] wrote about "The dangers of category theory", the query is now at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2472&Focus=21255#Comment_21255)
 
 
 #### Books
