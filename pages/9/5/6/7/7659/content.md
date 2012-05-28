@@ -37,7 +37,7 @@ $$
   (g_{T X}, g^*_{T X}) X \to \mathbf{B} O(n,n)
 $$
 
-to the [[moduli stack]] which is the [[delooping]] of the [[orthogonal group]] of signature $(n,n)$.
+to the [[moduli stack]] which is the [[delooping]] of the [[Narain group]] $O(n,n)$.
 
 ### Reduction of structure group
 
