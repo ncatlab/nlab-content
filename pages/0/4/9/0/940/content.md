@@ -17,6 +17,36 @@ An __$A$-coring__ is a [[comonoid]] in the [[monoidal category]] of central [[bi
 
 This generalizes the notion of $A$-[[coalgebra]]s which are defined only if $A$ is commutative and where the bimodules in question are [[central bimodule|central]]. 
 
+## Base ring extension
+
+More generally, fix a ground commutative ring $R$. Corings will be now over $R$-algebras. So a coring will mean a pair $(A,C)$ where $A$ is an $R$-algebra and $C$ an $A$-coring.
+
+Let $\alpha:A\to B$ be a morphism of rings and $C$ an $A$-coring. Then the $B$-$B$-bimodule $B\otimes_A C\otimes_A B$ has an induced structure of a $B$-coring
+with comultiplication
+
+$$
+B\otimes_A C\otimes_A B \stackrel{B\otimes \Delta_C\otimes B}\longrightarrow
+ B\otimes_A C\otimes_A C\otimes_A B
+\stackrel{B\otimes C\otimes 1_B\otimes C\otimes B}\longrightarrow
+B\otimes_A C\otimes_A B\otimes_A C\otimes_A B \cong
+(B\otimes_A C\otimes_A B)\otimes_B (B \otimes_A C\otimes_A B)
+$$
+and the counit
+$$
+B\otimes_A C\otimes_A B \stackrel{B\otimes\epsilon_C\otimes B}\longrightarrow B\otimes_A A\otimes_A B \stackrel{B\otimes\phi\otimes B}\longrightarrow 
+B\otimes_A B\otimes_A B \stackrel{mult}\longrightarrow B
+$$
+
+## Morphisms of corings over different bases
+
+A morphism $(A,C)\to (B,D)$ is a pair $(\alpha,\gamma)$ where
+
+* $\alpha : A\to B$ is an $R$-algebra morphism; by restriction this makes $D$ an $A$-$A$-bimodule by restriction. Denote also by $p:D\otimes_A D\to D\otimes_B D$ the canonical projection of bimodules induced by $\alpha$.
+* $\gamma : C\to D$ is a map of $A$-$A$-bimodules
+* $\gamma$ commutes with counit $\alpha \circ \epsilon_C = \epsilon_D\circ \gamma$
+* $p\circ (\gamma\otimes_A\gamma)\circ \Delta_C = \Delta_D\circ \gamma$
+
+The last two conditions can be said that the base ring extension coring $B\otimes_A C\otimes_A B$ of $C$ maps to $D$ (via map induced by $\gamma$) as a morphism of $B$-corings. 
 
 ## Examples
 
