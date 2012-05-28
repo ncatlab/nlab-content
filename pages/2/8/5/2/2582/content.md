@@ -189,7 +189,19 @@ $\to$
 $\to$
 [[special orthogonal group]]
 $\to$
-[[orthogonal group]]
+[[orthogonal group]],
+
+where lifts through the stages correspond to 
+
+* [[orthogonal structure]]
+
+* [[orientation]]
+
+* [[spin structure]]
+
+* [[string structure]]
+
+* [[fivebrane structure]]
 
 and where the obstruction classes are the [[universal characteristic classes]]
 
