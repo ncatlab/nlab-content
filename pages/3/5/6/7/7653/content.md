@@ -92,12 +92,12 @@ Given such, and given a [[spacetime]]/[[target space]] $X$, we have
 The following table lists examples of such coefficient bundles and tabulates the correspondings twisting fields and twisted fields. More details are in the sections to follow.
 
 
-| | universal coefficient bundle | twisting bundle | twisting field | twisted bundle | twisted field |
+| class of examples | universal coefficient bundle | twisting bundle | twisting field | twisted bundle | twisted field |
 |---|---|---|---|---|---|
 | [[twisted differential c-structure|general pattern]] | | | | | |
-| | $\array{ F &\to& E  \\ && \downarrow^{\mathrlap{\mathbf{c}}} \\ && \mathbf{B}G }$ | $G$-[[principal infinity-bundle|principal bundle]] | $G$-[[higher gauge field|gauge field]] [[instanton]]-sector | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | twisted $\Omega E$-[[gauge field]] [[instanton]] sector |
+| | $\array{ F &\to& E  \\ && \downarrow^{\mathrlap{\mathbf{c}}} \\ && \mathbf{B}G }$ | $G$-[[principal infinity-bundle|principal bundle]] | $G$-[[higher gauge field|gauge field]] [[instanton]]-sector | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | twisted $\Omega F$-[[gauge field]] [[instanton]] sector |
 | | $\array{ \flat \mathbf{B}^n U(1) &\to& \mathbf{B}^n U(1) \\ && \downarrow^{\mathbf{curv}} \\ && \flat_{dR} \mathbf{B}^{n+1} U(1) }$ | [[de Rham cohomology|de Rham]] [[hypercohomology]] |  | [[circle n-bundle with connection]]  | [[higher gauge field|higher abelian gauge field]] |
-| | $\array{ F_{conn} &\to& E_{conn}  \\ && \downarrow^{\mathrlap{\hat \mathbf{c}}} \\ && \mathbf{B}G_{conn} }$ | $G$-[[connection on an infinity-bundle|connection]] | $G$-[[higher gauge field|gauge field]]  | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | twisted $\Omega E$-[[gauge field]]|
+| | $\array{ F_{conn} &\to& E_{conn}  \\ && \downarrow^{\mathrlap{\hat \mathbf{c}}} \\ && \mathbf{B}G_{conn} }$ | $G$-[[connection on an infinity-bundle|connection]] | $G$-[[higher gauge field|gauge field]]  | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | twisted $\Omega F$-[[gauge field]]|
 | [[reduction of structure group]]/[[G-structure|geometric structure]] | | | | | |
 | | $\array{ GL(n)/O(n) &\to& \mathbf{B} O(n) \\ && \downarrow \\ && \mathbf{B} GL(n) }$ | [[manifold]] structure / [[tangent bundle]] |  | [[vielbein]] | [[gravity]] |
 | | $\array{ GL(n)/O(n) &\to& \mathbf{B} O(n)_{conn} \\ && \downarrow \\ && \mathbf{B} GL(n)_{conn} }$ | [[affine connection]] |  | [[spin connection]] | [[gravity]] |
@@ -926,7 +926,7 @@ where
   $\to$
   [[orthogonal group]]
 
-* the obstruction classes are the [[universal characteristic classes]]
+* the [[obstruction]] classes are the [[universal characteristic classes]]
 
   * [[first Stiefel-Whitney class]] $w_1$
 
@@ -1003,6 +1003,7 @@ Problems include for instance:
 These problems are all fixed by refining the [[classifying space]] $B Spin \in \infty Grpd$ to the [[smooth infinity-groupoid|smooth]] [[moduli stack]] $\mathbf{B} Spin \in Smooth \infty Grpd$, and similarly for the other cases.
 
 #### Smooth refinement
+ {#SmoothWhitehead}
 
 [[differential geometry|Differential geometry]] is modeled on [[smooth manifolds]],
 and these in turn on smooth [[Cartesian spaces]] $\mathbb{R}^n \in CartSp$. A functor
@@ -1068,10 +1069,60 @@ where
 
 #### Differential refinement
 
+While the [above](#SmoothWhitehead) smooth refinement of the Whitehead tower already improves on the [bare Whitehead tower](#WhiteheadTower) by remembering the correct spaces of [[gauge transformations]], it still only sees "[[instanton]] sectors" of [[gauge fields]] and [[higher gauge fields]], namely the underlying [[principal ∞-bundles]]. We add now the refinement from _smooth cohomology_ to [[differential cohomology]] such as to encode the actual [[higher gauge fields]] themselves. This differential cohomology in turn is naturally available in terms of _curvature twisted flat cohomology_ or equivalently _curvature-twisted [[local systems]]_.
+
+For $A \in \mathbf{H}$ a smooth homotopy type, write $\flat A \coloneqq Disc \Gamma A$ for the [[discrete object]] on its underlying [[discrete infinity-groupoid|discrete homotopy type]]. We say that a morphism
 
 $$
-  \mathbf{curv} : \mathbf{B}^n U(1) \to \flat_{dR} \mathbf{B}^{n+1} U(1)
+  X \to \flat A
 $$
+
+is an _$A$-[[local system]]_ or _$A$-valued [flat ∞-connection](cohesive+%28infinity,1%29-topos+--+structures#FlatDifferentialCohomology)_ on $X$.
+For instance for $A = \mathbf{B} O$ a morphism $X \to \flat \mathbf{B}O$ is equivalently a flat vector bundle on $X$.
+
+There is a canonical forgetful morphism $\flat A \to A$ which forgets the flat connection. Consider the [[homotopy fiber]] of this morphism
+
+$$
+  \flat_{dR} \mathbf{B}G \coloneqq * \times_{\mathbf{B}G} \flat \mathbf{B}G
+  \,.
+$$
+
+By definition this classifies flat $\infty$-connections on _trivial_ $G$-[[principal ∞-bundles]]. This are equivalently $\mathfrak{g}$-[[infinity-Lie algebroid-valued differential form|∞-Lie algebra valued differential forms]] on $X$.
+
+There is a canonical morphism $\theta : G \to \flat_{dR} \mathbf{B}G$, hence a canonical $\mathfrak{g}$-valued form on any cohesive [[∞-group]] $G$: this identifies as the canonical _[[Maurer-Cartan form]]_ on the [[∞-group]] $G$.
+
+For $G = \mathbf{B}^n U(1)$ the [[circle n-group|circle (n+1)-group]] we call $curv  \coloneqq_{\mathbf{B}^n U(1)} : \mathbf{B}^n U(1) \to \flat_{dR} \mathbf{B}^{n+1} U(1)$ the _universal [[curvature]] class_ in degree $(n+1)$.
+
+Let $F_X : X \to \Omega^{n+1}_{cl}(-)$ be a closed [[differential form]] on $X$. Then a [[cocycle]] in $F_X$-[[twisted cohomology|twisted]] $\mathbf{curv}$-cohomology is equivalently a [[circle n-bundle with connection]]
+
+$$
+  \array{
+    X &&\stackrel{}{\to}&& \mathbf{B}^n U(1)
+    \\
+    & {}_{\mathllap{F}}\searrow &\swArrow_{\nabla}& \swarrow_{\mathrlap{\mathbf{curv}}}
+    \\
+    && \flat_{dR} \mathbf{B}^{n+1} U(1)_{conn}
+  }
+  \;\;
+  \in
+  \mathbf{H}_{\flat \mathbf{B}^{n+1}U(1)}(F_X, \mathbf{curv})
+  \,.
+$$
+
+For varying $F$, the $\mathbf{curv}$-[[twisted cohomology]] in $\mathbf{H}$ identifies with [[ordinary differential cohomology]]: the [[homotopy pullback]] $\mathbf{B}^n U(1)_{conn}$ in
+
+$$
+  \array{
+    \mathbf{B}^n U(1)_{conn} &\to& \Omega^{n+1}_{cl}(-)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}^n U(1) &\stackrel{curv}{\to}& \mathbf{B}^{n+1} U(1)_{conn}
+  }
+$$
+
+is presented by the [[Deligne complex]].
+
 
 $$
   \mathbf{H}_{diff}(X, \mathbf{B}^n U(1))
@@ -1087,8 +1138,28 @@ $$
   }
 $$
 
+If we have a smooth [[universal characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^{n+1} U(1)$ we say that a _differential refinement_ is a morphism $\hat \mathbf{c}$ fitting into the diagram
 
-**Theorem** 
+$$
+  \array{
+    \flat \mathbf{B}G &\stackrel{\flat \mathbf{c}}{\to}&
+    \flat \mathbf{B}^{n+1} U(1)
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathbf{B}G_{conn} &\hat \mathbf{c}& \mathbf{B}^{n+1} U(1)_{conn}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G 
+      &\stackrel{\mathbf{c}}{\to}&
+    \mathbf{B}^{n+1} U(1)
+  }
+$$
+
+
+
+**Theorem** ([SSS](#SSS), [FSSa](#FSS)) We have a smooth differential refinement of the Whitehead tower as follows:
 
 
 $$
@@ -1122,10 +1193,103 @@ $$
   \,.
 $$
 
-#### Twisted differential String-structure -- Green-Schwarz mechanism
+This construction is a joint generalization of [[Chern-Weil theory]]
+and [[Chern-Simons theory]] to [[∞-Chern-Weil theory]] and [[schreiber:∞-Chern-Simons theory]]
+
+$$
+  \exp(i S_{\tfrac{1}{2}\mathbf{p}_1}) 
+    : 
+  [\Sigma, \mathbf{B}Spin_{conn}]
+    \stackrel{\tfrac{1}{2}\hat \mathbf{p}_1}{\to}
+  [\Sigma, \mathbf{B}^{n+1}U(1)_{conn}]
+    \stackrel{\exp(i \int_\Sigma(-))}{\to}
+  U(1)
+$$
 
 (...)
 
+#### The supergravity $C$-field: flux quantization
+ {#SuGraFluxQuantization}
+
+
+We discuss the smooth moduli 2-stack of the [[supergravity C-field]].
+
+From the [[effective QFT]] of [[11-dimensional supergravity]] the bosonic massless field content consists of the [[graviton]] and a 3-form $C$. Due to the existence of [[spinors]] the graviton must be part of a [[spin connection]]
+
+$$
+  \phi_{gr} : X \to \mathbf{B}Spin_{conn}
+  \,.
+$$
+
+Due to the coupling to the [[M2-brane]] the 3-form must globally be a [[circle n-bundle with connection|circle 3-bundle with connection]]
+
+$$
+  \phi_C : X \to \mathbf{B}^3 U(1)_{conn}
+  \,.
+$$
+
+Fianlly, due to the coupling to the [[M5-brane]], there is an auxialary [[E8]]-bundle 
+
+$$
+  \phi_{ga} : X \to \matbf{B} E_8
+$$
+
+and these fields must satisfy the _flux quantization condition_, which says that in [[cohomology]]
+
+$$
+  [\frac{1}{2}p_1(\phi_{gr})]
+  +
+  [2\mathbf{a}(\phi_{ga})]
+  = 
+  [2G_4(\phi_C)]
+  \,.
+$$
+
+In order to obtain the proper moduli stack, refining this conidition from gauge equivalence classes to [[cocycles]], we need to interpret this constraint in [[homotopy type theory]]. 
+
+This yields the moduli 2-stack of the supergravity C-field:
+
+$$
+  \array{
+    \left\{
+      \phi_{gr}, \phi_{ga}, \phi_{C}
+      |
+      \frac{1}{2}p_1(\phi_{gr})
+      +
+      2\mathbf{a}(\phi_{ga})
+      \simeq_{\phi_H}
+      2 G_4(\phi_C)
+  \right\}
+    &\to&
+    [X, \mathbf{B}E_8]
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow^{2\mathrlap{a}}
+    \\
+    [X, \mathbf{B}Spin_{conn}]
+    &\underset{\tfrac{1}{2} \mathbf{p}_1}{\to}&
+    [X, \mathbf{B}^3 U(1)]
+  }
+$$
+
+
+
+#### Twisted differential String-structure -- Green-Schwarz mechanism
+
+
+The moduli 2-stack of anomaly-free heterotic string configurations (bosonic, massless) is
+
+$$
+  \array{
+    String^{\mathbf{a}} &\to& \mathbf{B} E_8 \times E_8_{conn}
+    \\
+    \downarrow &\swArrow& \downarrow^{2\hat \mathbf{a}}
+    \\
+    \mathbf{B} Spin_{conn} &\stackrel{\tfrac{1}{2}\hat \mathbf{p}_1}{\to}&
+    \mathbf{B}^3 U(1)_{conn}
+  }
+$$
+
+(...)
 
 #### Twisted differential Fivebrane structure -- dual Green-Schwarz mechanism
 
@@ -1514,10 +1678,13 @@ The string-theoretic aspects of the above discussion owe a lot to [[Hisham Sati]
 The smooth and differential refinements of these structures have been jointly developed in articles such as
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_
+ {#SSS}
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_
+ {#FSSa}
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_
+ {#FSSb}
 
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
  {#NSS}
