@@ -67,7 +67,7 @@ The obstruction cocycles in $\mathbf{H}(X, \mathbf{[B}^2 \mathbb{Z}_2)$ are $\ma
 
 ## Related concepts
 
-* [[cohomology]], [[twisted cohomology]], [[Whitehead tower]]
+* [[cohomology]], [[twisted cohomology]], [[Whitehead tower]], [[twisted smooth cohomology in string theory]]
 
 * [[orientation]]
 
