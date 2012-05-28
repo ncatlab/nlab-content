@@ -108,6 +108,7 @@ The following table lists some [[Lie groups]] and their maximal compact Lie subg
 | its connected component $GL(n,\mathbb{R})_0$ | [[special orthogonal group]] $SO(n)$ |
 | [[complex numbers|complex]] [[general linear group]] $GL(n, \mathbb{C})$  | [[unitary group]] $U(n)$        |
 | [[symplectic group]] $Sp(2n)$                | [[unitary group]] $U(n)$        |
+| [[Narain group]] $O(n,n)$ | two copies of the [[orthogonal group]] $O(n) \times O(n)$ |
 | [[unitary group]] $U(p,q)$ | $U(p) \times U(q)$ |
 | special [[Lorentz group|Lorentz]]/[[anti de Sitter group|AdS]] etc. group $SO(p,q)$ | $SO(p) \times SO(q)$ |
 | Lorentz / AdS [[spin group]] $Spin(q,p)$ | $Spin(q) \times Spin(q) / \{(1,1), (-1,-1)\}$ |
