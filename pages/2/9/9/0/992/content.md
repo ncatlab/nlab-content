@@ -175,9 +175,9 @@ In direct analogy to how a general [[(∞,1)-category]] may be [[presentable (�
 
 * [[stable model category]].
 
-Or a
+or a
 
-* [[pre-triangulated spectral category]].
+* pre-triangulated [[spectral category]].
 
 There are further variants and special cases of these models.
 The following three concepts are equivalent to each other and special cases of the above models, or equivalent in characteristic 0.
@@ -197,8 +197,6 @@ A [[triangulated category]] linear over a field $k$ can canonically be refined t
 * a stable $(\infinity,1)$-category.
 
 If $k$ has characteristic 0, then all these three concepts become equivalent.
-
-
 
 
 ## Stabilization and localization of presheaf $(\infty,1)$-categories {#StabGiraud}
@@ -229,7 +227,7 @@ This is [StabCat, example 10.13]() .
 **Proposition** **("stable Giraud theorem")**
  
 Every stable and [[presentable (∞,1)-category]] $C$ is equivalent to an
-(accessible) left-exact [[localization of an (∞,1)-category|localization of]] a stabilized $(\infty,1)$presheaf $(\infty,1)$-category: there exists a small $(\infty,1)$-category $E$ and an adjunction
+(accessible) left-exact [[localization of an (∞,1)-category|localization of]] a stabilized $(\infty,1)-/presheaf $(\infty,1)$-category: there exists a small $(\infty,1)$-category $E$ and an adjunction
 
 $$
   C \stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
@@ -259,7 +257,8 @@ A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-ca
 
 * [[stable homotopy theory]]
 
-* [[stabe model category]]
+* [[stable model category]]
+* [[spectral category]]
 
 ## References
 
@@ -269,7 +268,7 @@ The canonical reference is of course
 
 A diagram of the interrelation of all the models for stable $(\infty,1)$-categories with a useful list of literature for each are these seminar notes:
 
-* [[Stefan Schwede]], _Enhancements of triangulated categories_ ([pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf))
+* [[Stefan Schwede]], _Enhancements of triangulated categories_, [pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf)
 
 
 [[!redirects stable (infinity,1)-category]]
