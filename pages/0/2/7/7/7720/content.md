@@ -7,6 +7,30 @@
 
 A generalization of the notion of [[Calabi-Yau manifold]] in the context of [[generalized complex geometry]].
 
+## Definition
+
+### In terms of $G$-structure
+ {#InTermsOfGStructure}
+
+For $X$ a $2n$-[[dimension|dimensional]] [[smooth manifold]], a _[[generalized complex geometry|generalized complex structure]]_ on $X$ is a [[reduction of the structure group]] of the [[generalized tangent bundle]] $T X \oplus T^* X$ along the inclusion
+
+$$
+  U(n,n) \hookrightarrow O(2n,2n)
+$$
+
+into the [[Narain group]]. 
+
+Recall that for $X$ an ordinary [[compact topological space|compact]] [[complex manifold]] of real [[dimension]] $2n$, a [[Calabi-Yau manifold]] structure on $X$ is a [[reduction of the structure group]] along the inclusion $SU(n) \hookrightarrow U(n)$ of the [[special unitary group]] into the [[unitary group]].
+
+A **generalized Calabi-Yau structure** on a generalized complex manifold $X$ is a further [[reduction of the structure group]] along
+
+$$
+  SU(n,n) \hookrightarrow U(n,n) \hookrightarrow O(2n,2n)
+  \,.
+$$
+
+([Hitchin, section 4.5](#Hitchin))
+
 ## Related concepts
 
 
@@ -21,6 +45,7 @@ A generalization of the notion of [[Calabi-Yau manifold]] in the context of [[ge
 The notion was introduced in
 
 * [[Nigel Hitchin]], _Generalised Calabi-Yau Manifolds_, Quart. J. Math. Oxford Ser. 54:281-308, (2003) ([math.DG/0209099](http://arxiv.org/abs/math.dg/0209099))
+ {#Hitchin}
 
 The role of generalized CY-manifolds as (factors of) [[target spaces]] in [[string theory]] is discussed for instance in 
 
