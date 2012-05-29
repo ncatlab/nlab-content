@@ -1621,7 +1621,9 @@ The following table indicates the hierarchy of [[axioms]] that we invoke, the fr
 
 Traditionally a _[[homotopy type]]_ is a [[topological space]] regarded up to [[weak homotopy equivalence]], hence equivalently an _[[∞-groupoid]]_. More generally, we think of parameterized homotopy types -- of _[[∞-stacks]]_ or _[[(∞,1)-sheaves]]_ -- as _geometric homotopy types_. The collection of such forms an _[[(∞,1)-topos]]_ $\mathbf{H}$. One regards [[(∞,1)-topos theory]] as part of [[homotopy theory]], and, more specifically, the [[internal language]] of $\mathbf{H}$ is a _[[homotopy type theory|homotopy-type theory]]_.
 
-We discuss now some basic structures that are expressible in such bare homotopy-type theory. (The fundamentals are due to [[Charles Rezk|Rezk]] and [[Jacob Lurie|Lurie]], see _[[Higher Topos Theory]]_. We point out the perspective of [[twisted cohomology]] in slices and add some aspects about higher bundle theory from ([NSS](#NSS))).
+We discuss now some basic structures that are expressible in such bare homotopy-type theory. (The fundamentals are due to [[Charles Rezk|Rezk]] and [[Jacob Lurie|Lurie]], see _[[Higher Topos Theory]]_. We point out the perspective of [[twisted cohomology]] in slices and add some aspects about higher bundle theory from ([NSS](#NSS))). 
+
+Where useful, we indicate some of the discussion in formal [[homotopy type theory]] [[syntax]], see _[[HoTT methods for homotopy theorists]]_ for more along such lines.
 
 
 #### Cohomology
@@ -1638,20 +1640,32 @@ $$
 $$
 
 between group objects and [[pointed object|pointed]] 
-[[n-connected object of an (∞,1)-topos|connected]] homtopy types.
+[[n-connected object of an (∞,1)-topos|connected]] homotopy types.
+
++-- {: .num_remark #DeloopingInTypeTheory}
+###### Remark
+
+If $pt : \mathbf{B}G$ is the essentially uniqe point of the [[n-connected object of an (∞,1)-topos|connected]] type $\mathbf{B}G$, then the group type itself is simply
+
+$$
+  G \coloneqq (pt \simeq pt) : Type
+  \,,
+$$
+
+the type of auto-equivalences of $pt$ in $\mathbf{B}G$.
+
+=--
 
 For $A$ a group object which admits an $n$-fold [[delooping]] $\mathbf{B}^n A$ and $X \in \mathbf{H}$ any object, we write
 
-* $\mathbf{H}(X, \mathbf{B}^n A)$ for the space of degree-$n$ $A$-cocycles on $X$;
+* $\mathbf{H}(X, \mathbf{B}^n A)$ for the space of degree-$n$ $A$-[[cocycles]] $c : X \to A$;
 
-* $H^n(X,A) \coloneqq \pi_0 \mathbf{H}(X, \mathbf{B}^n A)$
-
-  for the degree-$n$ $A$-[[cohomology]] of $X$.
+* $H^n(X,A) \coloneqq \pi_0 \mathbf{H}(X, \mathbf{B}^n A)$ for the degree-$n$ $A$-[[cohomology]] of $X$.
 
 
 #### Principal bundles
 
-For $G \in Grp(\mathbf{H})$, $G$-cocycles on $X$ have an equivalent geometric interpretation as $G$-[[principal ∞-bundles]]: morphisms
+For $G \in Grp(\mathbf{H})$, $G$-cocycles on $X$ have an equivalent geometric interpretation as $G$-[[principal ∞-bundles]]: these are types 
 
 $$
   \array{
@@ -1663,7 +1677,9 @@ $$
   }
 $$
 
-equipped with a $G$-[[action]] $\rho : P \times G \to P$ over $X$ such that the [[(∞,1)-colimit|∞-quotient]] of the action is $X$.
+over $X$ equipped with a $G$-[[action]] $\rho : P \times G \to P$ over $X$ such that the [[(∞,1)-colimit|∞-quotient]] of the action is $X$.
+
+**Theorem** There is an [[equivalence of ∞-groupoids|equivalence]] between the [[∞-groupoid]] of $G$-principal bundles over $X$, and the cocycle $\infty$-groupoid of $G$-cohomology over $X$.
 
 $$
   \mathbf{H}(X, \mathbf{B}G)
@@ -1671,35 +1687,35 @@ $$
   G Bund(X)    
 $$
 
+In one direction the equivalence is established by sending a cocycle $X\to \mathbf{B}G$ to its [[homotopy fiber]].
+
 ([NSS](#NSS))
 
 
 +-- {: .num_remark }
 ###### Remark
 
-
-$g : X \to \mathbf{B}G$
-
-$$
-  G \coloneqq (*_{\mathbf{B}G} \simeq *_{\mathbf{B}G}) : Type
-$$
+With $G$ the type as in remark \ref{DeloopingInTypeTheory}, the principal bundle corresponding to a coycle $\phi : X \to \mathbf{B}G$ is
 
 $$
-  P \coloneqq \sum_{x : X} ( *_{\mathbf{B}G}  \simeq g(x)  ) : Type
+  P 
+    \coloneqq 
+  x : X \vdash ( \phi(x)  \simeq  pt ) : Type
 $$
+
+And the action is 
 
 $$
   \begin{aligned}
     & \rho : P \times G \to G
     \\
     & \;\;\coloneqq
-    (( x : X; p : (* \simeq g(x))), g : (* \simeq *) )
+    (( x : X; p : (\phi(x) \simeq pt)), g : (pt \simeq pt) )
     \mapsto
-    (x : X; p)
+    (x : X; g \circ \phi)
   \end{aligned}
 $$
 
-(...)
 
 =--
 
