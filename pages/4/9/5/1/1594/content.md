@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
 #### $\infty$-Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
@@ -9,8 +13,10 @@
 =--
 =--
 
+
+
 #Contents#
-* table of contents contents
+* table of contents
  {:toc}
 
 ## Idea
@@ -51,8 +57,9 @@ It has been noticed that the topological invariants of the underlying topologica
 
 ## Related concepts
 
-
 Orbifolds are in [[differential geometry]] what [[Deligne-Mumford stacks]] are in [[algebraic geometry]].
+
+Orbifolds may be regarded as a kind of _[[stratified spaces]]_.
 
 ## References
 
