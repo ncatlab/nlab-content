@@ -22,6 +22,7 @@ This serves to neatly encode [[U-duality]] groups in [[supergravity]] as well as
 ## Examples
 
 ### Higher supersymmetry
+ {#HigherSupersymmetry}
 
 Compactification of [[11-dimensional supergravity]] on a [[manifold]] of [[dimension]] 7 preserves $N = 1$ [[supersymmetry]] precisely if its [[generalized tangent bundle]] has [[G-structure]] for the inclusion 
 
