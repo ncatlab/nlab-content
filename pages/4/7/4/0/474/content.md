@@ -39,7 +39,11 @@ See Caf&#233; [discussion] (http://golem.ph.utexas.edu/category/2006/11/this_wee
 
 * **fundamental category**, [[fundamental (∞,1)-category]]
 
+* [[directed homotopy theory]]
+
 
 ## References
 
-* Marco Grandis, _Directed algebraic topology, categories and higher categorries_ ([pdf](http://www.dima.unige.it/~grandis/DAT.Intro.pdf))
+* [[Marco Grandis]], _Directed algebraic topology, categories and higher categories_ ([pdf](http://www.dima.unige.it/~grandis/DAT.Intro.pdf))
+
+[[!redirects fundamental categories]]
