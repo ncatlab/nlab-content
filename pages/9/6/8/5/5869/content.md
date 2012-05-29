@@ -36,6 +36,8 @@ This is naturally a [[topological group]]. For $\mathcal{H}$ of finite-[[dimensi
 
 ## Properties
 
+### Homotopy type
+
 +-- {: .num_prop #KZ2}
 ###### Prop
 
@@ -46,7 +48,7 @@ If $\mathcal{H}$ is an infinite-[[dimension]]al [[separable Hilbert space]] the 
 +-- {: .proof}
 ###### Proof
 
-The [[unitary group]] $U(\mathcal{H})$ in this case is [[contractible]] and the [[circle group]] $U(1)$ [[action|acts]] free and faithfully on it. Therefore the quotient map $U(\mathcal{H}) \to P U(\mathcal{H})$ is a model for the [[circle group]]-[[universal principal bundle]] and in particular the topological space underlying $P U(\mathcal{H})$ is equivalent to the [[classifying space]] $B U(1) \simeq B^2 \mathbb{Z} \simeq K(\mathbb{Z},2)$.
+The [[unitary group]] $U(\mathcal{H})$ in this case is [[contractible]] (by [[Kuiper's theorem]]) and the [[circle group]] $U(1)$ [[action|acts]] free and faithfully on it. Therefore the quotient map $U(\mathcal{H}) \to P U(\mathcal{H})$ is a model for the [[circle group]]-[[universal principal bundle]] and in particular the topological space underlying $P U(\mathcal{H})$ is equivalent to the [[classifying space]] $B U(1) \simeq B^2 \mathbb{Z} \simeq K(\mathbb{Z},2)$.
 
 =--
 
@@ -116,6 +118,14 @@ This means that the morphism that sends $P U(\mathcal{H})$-bundles to the twist 
 
 
 For more on this see also [[twisted K-theory]].
+
+### Action on Fredholm operators
+
+Let $\mathcal{H}$ be an infinite-dimensional separable Hilbert space.
+
+Since by the above $PU(\mathcal{H}) \simeq B U(1)$ and since there is a canonical action of [[line bundles]] on complex vector bundles, hence on the [[topological K-theory]] of a manifold $X$, there must also be a natural action of $PU(\mathcal{H}) \times Fred \to Fred$ of $PU(\mathcal{H})$ on the space of [[Fredholm operators]] (on connected components).
+
+This is given by letting a projective unitary act by conjugation on a Fredholm operator: $(g, F) \mapsto g F g^{-1}$.
 
 ## Related concepts
 
