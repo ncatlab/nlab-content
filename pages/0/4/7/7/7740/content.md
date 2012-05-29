@@ -1,0 +1,22 @@
+
+
+Nothing here yet. But we have:
+
+* [[elliptic differential operator]]
+
+* [[regular differential operator]], [[regular differential operator in noncommutative geometry]]
+
+* [[pseudodifferential operator]]
+
+* [[chiral differential operator]]
+
+* [[crystalline differential operator]]
+
+
+## Related concepts
+
+* [[index of a differential operator]]
+
+* [[D-module]]
+
+[[!redirects differential operators]]
