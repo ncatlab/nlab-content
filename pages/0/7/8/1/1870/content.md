@@ -164,6 +164,21 @@ shows that [[concordance]] classes in $\mathbf{H}^c(X,Vectr)$ yield twisted K-th
 
 ## References 
 
+A comprehensive account is in 
+
+* [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_ ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054))
+
+* [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory and cohomology_ ([arXiv:math/0510674](http://arxiv.org/abs/math/0510674))
+
+The seminal result on the relation to [[loop group]] representations is the series of articles
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted K-theory and loop group representations_ ([arXiv:math/0312155](http://arxiv.org/abs/math/0312155))
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Loop groups and twisted K-theory I_ ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906))
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Loop Groups and Twisted K-Theory II_ ([arXiv:math/0511232](http://arxiv.org/abs/math/0511232))
+
+
 The perspective of twisted K-theory by sections of a $K U$-bundle of spectra is discussed for instance in section 22 of 
 
 * [[Peter May|May]], Sigurdsson, _Parametrized homotopy theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf)) AMS Lecture notes 132
