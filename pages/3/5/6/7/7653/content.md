@@ -1648,7 +1648,7 @@ between group objects and [[pointed object|pointed]]
 If $pt : \mathbf{B}G$ is the essentially uniqe point of the [[n-connected object of an (∞,1)-topos|connected]] type $\mathbf{B}G$, then the group type itself is simply
 
 $$
-  G \coloneqq (pt \simeq pt) : Type
+  G \coloneqq \vdash (pt \simeq pt) : Type
   \,,
 $$
 
@@ -1679,7 +1679,7 @@ $$
 
 over $X$ equipped with a $G$-[[action]] $\rho : P \times G \to P$ over $X$ such that the [[(∞,1)-colimit|∞-quotient]] of the action is $X$.
 
-**Theorem** There is an [[equivalence of ∞-groupoids|equivalence]] between the [[∞-groupoid]] of $G$-principal bundles over $X$, and the cocycle $\infty$-groupoid of $G$-cohomology over $X$.
+**Theorem** There is an [[equivalence of (∞,1)-categories|equivalence]] between the [[∞-groupoid]] of $G$-principal bundles over $X$, and the cocycle $\infty$-groupoid of $G$-cohomology over $X$.
 
 $$
   \mathbf{H}(X, \mathbf{B}G)
@@ -1687,7 +1687,7 @@ $$
   G Bund(X)    
 $$
 
-In one direction the equivalence is established by sending a cocycle $X\to \mathbf{B}G$ to its [[homotopy fiber]].
+From left to righr the equivalence is established by sending a cocycle $X\to \mathbf{B}G$ to its [[homotopy fiber]].
 
 ([NSS](#NSS))
 
@@ -1699,7 +1699,9 @@ With $G$ the type as in remark \ref{DeloopingInTypeTheory}, the principal bundle
 
 $$
   P 
+   \;
     \coloneqq 
+   \;
   x : X \vdash ( \phi(x)  \simeq  pt ) : Type
 $$
 
@@ -1770,8 +1772,7 @@ The [[cohomology]] in $\mathbf{H}_{/\mathbf{B}G}$ is naturally interpreted as fo
 +-- {: .num_remark }
 ###### Remark
 
-
-It can be instructive to formulate this in the [[syntax]] of [[homotopy type theory]]. The object of twisted cocycles is
+In the [[syntax]] of [[homotopy type theory]] the type of twisted cocycles is
 
 $$
   [\phi, \mathbf{c}]
@@ -1881,6 +1882,8 @@ $$
 
 #### Chern-Weil theory
 
+(...)
+
 [[∞-Chern-Weil theory introduction]]
 
 $$
@@ -1890,7 +1893,7 @@ $$
     \\
     \downarrow && \downarrow 
     \\
-    \mathbf{B}G_{conn} &\hat \mathbf{c}& \mathbf{B}^{n+1} U(1)_{conn}
+    \mathbf{B}G_{conn} &\stackrel{\hat \mathbf{c}}{\to}& \mathbf{B}^{n+1} U(1)_{conn}
     \\
     \downarrow && \downarrow
     \\
