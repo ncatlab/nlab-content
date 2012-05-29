@@ -66,4 +66,5 @@ Discussion of the [[fundamental category]] of a (Whiteney-)stratified space is i
 
 * Jonathan Woolf, _Transversal homotopy theory_ ([arXiv:0910.3322](http://arxiv.org/abs/0910.3322))
 
+* M. Banagl, _Topological invariants of stratified spaces_, Springer Monographs in Math. 2000.
 [[!redirects stratified spaces]]
