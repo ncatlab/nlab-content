@@ -402,7 +402,11 @@ between a [[vector bundle]] $V \to X$ with [[structure group]] explicitly being 
 #### Moduli space of orthogonal structures: twisted cohomology
  {#ModuliSpaceOfOrhtogonalStructures}
 
-In order to understand the space of choices of vielbein fields on a given tangent bundle, hence the _[[moduli space]]_ or _[[moduli stack]]_ of [[orthogonal structures]]/[[Riemannian metrics]] on $X$, it is useful to first consider the [[homotopy fiber]] of the morphism $\mathbf{c} : \mathbf{B}O(n) \to \mathbf{B}GL(n)$. One finds that this is the [[coset]] $O(n) \backslash GL(n)$. We may think of the [[fiber sequence]]
+In order to understand the space of choices of vielbein fields on a given tangent bundle, hence the _[[moduli space]]_ or _[[moduli stack]]_ of [[orthogonal structures]]/[[Riemannian metrics]] on $X$, it is useful to first consider the [[homotopy fiber]] of the morphism $\mathbf{c} : \mathbf{B}O(n) \to \mathbf{B}GL(n)$. 
+
+> We need some basics of _[[homotopy pullbacks]]_: a) to compute them by the [[factorization lemma]], b) that the [[derived hom-space]] functor $\mathbf{H}(X,-)$ preserves them, and c) (further below) we need that they satisfy the [[pasting law]].
+
+One finds that the homotopy fiber  is the [[coset]] $O(n) \backslash GL(n)$. We may think of the [[fiber sequence]]
 
 $$
   \array{  
