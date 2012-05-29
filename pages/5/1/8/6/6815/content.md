@@ -33,3 +33,6 @@ Under [[Kaluza-Klein mechanism|reduction]] to [[type II supergravity]] the M2 an
 ## Related concepts
 
 [[!include table of branes]]
+
+[[!include M-branes]]
+
