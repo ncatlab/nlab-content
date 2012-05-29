@@ -267,9 +267,9 @@ $$
   B U(\mathcal{H}) \simeq *
 $$
 
-while $B U$ has nontrivial [[homotopy group]]s in arbitrary higher degree. (See below).
+while $B U$ has nontrivial [[homotopy group]]s in arbitrary higher degree (by [[Kuiper's theorem]]). 
 
-But there is the group $U(\mathcal{H})_{\mathcal{K}} \subset U(\mathcal{H})$ of unitary operators that differ from the [[identity]] by a [[compact operator]]. This is essentially $U = \Omega B U$ (...). See below (...)
+But there is the group $U(\mathcal{H})_{\mathcal{K}} \subset U(\mathcal{H})$ of unitary operators that differ from the [[identity]] by a [[compact operator]]. This is essentially $U = \Omega B U$. See [below](#Uk). 
 
 =--
 
@@ -345,6 +345,44 @@ $$
 
 =--
 
+There is another variant on the classifying space 
+
++-- {: .num_defn #Uk}
+###### Definition
+
+Let 
+
+$$
+  U_{\mathcal{K}}
+  = 
+  \left\{
+    g \in U(\mathcal{H}) | g - id \in \mathcal{K}
+  \right\}
+$$ 
+
+be the group of unitary operators on a [[separable Hilbert space]] $\mathcal{H}$ which differ from the identity by a [[compact operator]].
+
+=--
+
+Palais showed that
+
+
++-- {: .num_prop }
+###### Proposition
+
+$U_\mathcal{K}$ is a [[homotopy equivalence|homotopy equivalent]] model for $B U$. It is in fact the [[norm closure]] of the evident model of $B U$ in $U(\mathcal{H})$. 
+
+Moreover $U_{\mathcal{K}} \subset U(\mathcal{H})$ is a [[Banach Lie group|Banach Lie]] [[normal subgroup]].
+
+=--
+
+Since $U(\mathcal{H})$ is [[contractible]], it follows that 
+
+$$
+  B U_{\mathcal{K}} \coloneqq U(\mathcal{H})/U_{\mathcal{K}}
+$$
+
+is a model for the [[classifying space]] of reduced K-theory.
 
 ### Spectrum 
 
