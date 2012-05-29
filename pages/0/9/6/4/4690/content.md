@@ -49,7 +49,7 @@ where now
 
 * $e$ denotes the [[vielbein]], (the translation part of the connection 1-form);
 
-* $\langle -\rangle$ is the [[invriant polynomial]] which in terms of the canonical basis has components $(\epsilon_{a b c d})$.
+* $\langle -\rangle$ is the [[invariant polynomial]] which in terms of the canonical basis has components $(\epsilon_{a b c d})$.
 
 This extends to an [[action functional]] for gravity coupled to "matter" (which in the context of [[general relativity]] conventionally means every other field, for instance the [[electromagnetic field]]) by simply adding the matter action on a given gravitational background
 
