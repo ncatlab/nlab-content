@@ -273,3 +273,7 @@ Carlos Simpson has studied [[nonabelian Hodge theory]].
 Some links and references can be found at Alsani's descent and category theory [page](http://north.ecc.edu/alsani/descent.html).
 
 In as far as nonabelian cohomology is nothing but the study of [[(infinity,1)-categorical hom-space|hom-spaces]] between [[∞-stack]]s, see also the references at [[∞-stack]].
+
+
+[[!redirects non-abelian cohomology]]
+
