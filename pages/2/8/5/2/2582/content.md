@@ -217,7 +217,7 @@ and where the [[obstruction]] classes are the [[universal characteristic classes
 
 and where every possible square in the above is a [[homotopy pullback]] square (using the [[pasting law]]).
 
-Notice that for instance $w_2$ is identified as such by using that $[S^2,-]$ preserves [[homotopy pullbacks]] and sends $ B O \to \tau_{\leq 2} B O$ to a [[weak homotopy equivalence|equivalence]], so that $B SO \to B^2 \mathbb{Z}$ is an [[isomorphism]] on the second [[homotopy group]] and hence by the [[Hurewicz theorem]] is also an isomorphism on the [[cohomology group]] $H^2(-,\mathbb{Z}_2)$. Analogously for the other characteristic maps.
+For instance $w_2$ can be identified as such by representing $B O \to \tau_{\leq 2} B O \simeq BO/_{\sim_n}$ by a [[Kan fibration]] (see at [[Postnikov tower]]) between [[Kan complexes]] so that then the [[homotopy pullback]] (as discussed there) is given by an ordinary pullback. Since $sSet$ is a [[simplicial model category]], $sSet(S^2,-)$ can be applied and preserves the pullback as well as the homotopy pullback, hence sends $ B O \to \tau_{\leq 2} B O$ to an isomorphism on connected components. This identifies  $B SO \to B^2 \mathbb{Z}$ as being an [[isomorphism]] on the second [[homotopy group]]. Therefore, by the [[Hurewicz theorem]], it is also an isomorphism on the [[cohomology group]] $H^2(-,\mathbb{Z}_2)$. Analogously for the other characteristic maps.
 
 In summary, more concisely, the tower is
 
