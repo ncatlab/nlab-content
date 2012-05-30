@@ -1,5 +1,5 @@
 
-> still under construction: the first $~ 3/7 + {\vert\epsilon\vert} $ should be readable, the rest is still skeletal, check again tomorrow or the day after
+> still under construction: the first $~ 4/9 + {\vert\epsilon\vert} $ should be readable, the rest is still skeletal, check again tomorrow or the day after
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -973,7 +973,7 @@ where
 
 * every possible square in the above is a [[homotopy pullback]] square (using the [[pasting law]]).
 
-For instance $w_2$ is identified as such by using that $[S^2,-]$ preserves [[homotopy pullbacks]] and sends $ B O \to \tau_{\leq 2} B O$ to an isomorphism on connected components, so that $B SO \to B^2 \mathbb{Z}$ is an [[isomorphism]] on the second [[homotopy group]] and hence, by the [[Hurewicz theorem]], is also an isomorphism on the [[cohomology group]] $H^2(-,\mathbb{Z}_2)$. Analogously for the other characteristic maps.
+For instance $w_2$ can be identified as such by representing $B O \to \tau_{\leq 2} B O \simeq BO/_{\sim_n}$ by a [[Kan fibration]] (see at [[Postnikov tower]]) between [[Kan complexes]] so that then the [[homotopy pullback]] (as discussed there) is given by an ordinary pullback. Since $sSet$ is a [[simplicial model category]], $sSet(S^2,-)$ can be applied and preserves the pullback as well as the homotopy pullback, hence sends $ B O \to \tau_{\leq 2} B O$ to an isomorphism on connected components. This identifies  $B SO \to B^2 \mathbb{Z}$ as being an [[isomorphism]] on the second [[homotopy group]]. Therefore, by the [[Hurewicz theorem]], it is also an isomorphism on the [[cohomology group]] $H^2(-,\mathbb{Z}_2)$. Analogously for the other characteristic maps.
 
 In summary, more concisely, the tower is
 
@@ -1597,6 +1597,8 @@ We discuss aspects of the twisted smooth cohomology involved
 over [[D-branes]] in [[type II string theory]].
 
 
+#### Tiwsted unitary bundles
+
 For each $n$, the [[central extension]] of Lie groups
 
 $$
@@ -1616,16 +1618,40 @@ $$
   \mathbf{B} U(1) \to \mathbf{B} U(n) \to \mathbf{B} PU(n)
    \stackrel{\mathbf{dd}_n}{\to}
   \mathbf{B}^2 U(1)
-  \,.
 $$
 
-A morphism $\phi : X \to \mathbf{B}^2 U(1)$ is a [[circle n-bundle with connection|circle 2-bundle]]. With respect to a 
-
-and a $\phi$-twisted cocycle
+in $\mathbf{H}$. Here the last morphism is presented in simplicial presheaves by the zig-zag of sheaves of [[crossed modules]]
 
 $$
   \array{
-    X &&\stackrel{}{\to}&& \mathbf{B} PU(n)
+     [U(1) \to U(n)] &\to& [U(1) \to 1]   
+     \\
+     {}^{\mathllap{\simeq}}\downarrow
+     \\
+     PU(n)
+  }
+  \,.
+$$
+
+We have seen [above](#SmoothWhitehead) that a morphism $\phi : X \to \mathbf{B}^2 U(1)$ classifies a [[circle n-bundle with connection|circle 2-bundle]] encoded by a Cech 2-cocycle $(\phi_{i j k} : U_i \cap U_j \cap U_k \to U(1))$ . This means that the universal coefficient bundle
+
+$$
+  \array{
+     \mathbf{B} U(n) &\to& \mathbf{B} PU(n)
+     \\
+     && \downarrow^{\mathrlap{\mathbf{dd}_n}}
+     \\
+     && \mathbf{B}^2 U(1)
+  }
+$$
+
+will induce a notion of unitary bundles that are twisted by a 2-bundle.
+
+Indeed, unwinding the definition one finds that a $\phi$-twisted cocycle
+
+$$
+  \array{
+    X &&\stackrel{h}{\to}&& \mathbf{B} PU(n)
     \\
     & {}_{\mathllap{\phi}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{dd}_n}}
     \\
@@ -1634,7 +1660,20 @@ $$
   }
 $$
 
-is a unitary $\phi$-[[twisted bundle]]. 
+is with respect to the given [[open cover]] $\{U_i \to X\}$ given by a collection of uniary functions
+
+$$
+  (h_{i j} : U_i \cap U_j \to U(n))
+$$
+
+which satisfy the required 1-cocycle condition on $U_i \cap U_j \cap U_k$ only up to a twist by $\phi$:
+
+$$
+  h_{i j} h_{j k} = h_{i k} \phi_{i j k}
+  \,.
+$$
+
+We say that this defines a _$\phi$-[[twisted bundle|twisted unitary bundle]]_. 
 
 For each $n \in \mathbb{N}$ there is a canonical inclusion $\mathbf{B} U(n) \to \mathbf{B} U(n+1)$, exhibiting the fact that a rank-$n$ complex vector bundle canonically induces a rank-$(n+1)$-bundle by added a trivial line bundle.
 
