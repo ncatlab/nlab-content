@@ -397,9 +397,13 @@ This implies by claim by the [[pasting law]].
 
 ## Related concepts
 
-* [[spin group]], **$Spin^c$-group**
+* [[spin group]], **$Spin^c$-group**, [[spin structure]]
 
 * [[spin^c structure]], [[twisted spin^c structure]]
+
+* [[string 2-group]], [[string structure]]
+
+* [[string^c 2-group]]
 
 
 [[!redirects spin^c group]]
