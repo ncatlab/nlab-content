@@ -55,7 +55,8 @@ Comparison of various spectra and topologies is in
 Other accounts include
 
 * Ahmed Abbes, _&#201;l&#233;ments de G&#233;om&#233;trie Rigide_, vol. I. _Construction et &#233;tude g&#233;om&#233;trique des espaces rigides_, Progress in Mathematics __286__, Birkh&#228;user 2011, 496 p.[book page](http://perso.univ-rennes1.fr/ahmed.abbes/egr.html)
-* S. Bosch, U.  G&#252;ntzer, R. Remmert, _Non-archimedean analysis_, Springer (1984) [MR0746961](http://www.ams.org/mathscinet-getitem?mr=0746961)
+* S. Bosch, U.  G&#252;ntzer, R. Remmert, _Non-archimedean analysis_, Grundlehren der Mathem. Wissen. __261__, Springer 1984 [MR0746961](http://www.ams.org/mathscinet-getitem?mr=0746961)
+* Siegfried Bosch, _Lectures on formal and rigid geometry_, Preprints of SFB Geom. Struk. Math. Heft 378, [pdf](http://wwwmath.uni-muenster.de/sfb/about/publ/heft378.pdf) (revised 2008)
 * J. Fresnel, M. van der Put, _Rigid geometry and applications_, Birkh&#228;user (2004) [MR2014891](http://www.ams.org/mathscinet-getitem?mr=2014891)
 * F. Denef, L. van den Dries, _$p$-adic and real subanalytic sets_, Ann. of Math. __128__ (1988) no. 1, 79&#8211;138 [MR951508](http://www.ams.org/mathscinet-getitem?mr=951508), [doi](http://dx.doi.org/10.2307/1971463)
 * [[Yan Soibelman]], _On non-commutative analytic spaces over non-archimedean fields_, preprint IHES, [pdf](http://www.math.ksu.edu/~soibel/lapkin-spaces-2.ps)
