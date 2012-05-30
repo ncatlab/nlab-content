@@ -96,15 +96,15 @@ $$
   \,.
 $$
 
-Since the [[(∞,1)-topos]] [[Smooth∞Grpd]] has [[universal colimits]], it follows there is a [[fiber sequence]]
+Since the [[(∞,1)-topos]] [[Smooth∞Grpd]] has [[universal colimits]], it follows that there is a [[fiber sequence]]
 
 $$
   \array{
     \mathbf{B}U &\to& \mathbf{B} PU
     \\
-    \downarrow^{\mathbf{dd}}
+    && \downarrow^{\mathbf{dd}}
     \\
-    \mathbf{B}^2 U(1)
+    && \mathbf{B}^2 U(1)
   }
 $$
 
