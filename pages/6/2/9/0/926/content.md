@@ -152,7 +152,7 @@ $$
 +-- {: .num_prop #SimplPostnikovByCoskeletonQuotient}
 ###### Proposition
 
-This is a Postnikov tower, def. \ref{SimplicialPostnikovTower} and all morphisms are [[Kan fibration]]s.
+This is a Postnikov tower, def. \ref{SimplicialPostnikovTower}, and all morphisms are [[Kan fibrations]].
 
 Moreover the canonical morphism
 
