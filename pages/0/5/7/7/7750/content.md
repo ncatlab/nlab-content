@@ -1,0 +1,40 @@
+
+
+> under construction
+
+## Idea
+
+In analogy to how the [[Lie group]] [[spin^c]] is obtained by twisting the lift through the second stage of the [[Whitehead tower]] of $\mathbf{B}O$ by the [[first Chern class]]
+
+$$
+  \array{
+    \mathbf{B}Spin^c &\to& \mathbf{B}(SO \times U(1))
+    \\
+    && \downarrow^{\mathrlap{\mathbf{w}_1 - \mathbf{c}_1}}
+    \\
+    && \mathbf{B}^2 \mathbb{Z}
+  }
+$$
+
+there is a similar twist by the [[second Chern class]] of the lift through the next stage of the Whitehead tower
+
+$$
+  \array{
+    \mathbf{B}String^{\mathbf{c}_2} &\to& \mathbf{B}(Spin \times SU(n))
+    \\
+    && \downarrow^{\mathrlap{\tfrac{1}{2}\mathbf{p}_1 - \mathbf{c}_2}}
+    \\
+    && \mathbf{B}^3 U(1)
+  }
+  \,.
+$$
+
+For the moment see at _[[twisted smooth cohomology in string theory]]_ for more.
+
+## Related concepts
+
+* [[string 2-group]]
+
+[[!redirects string^c 2-group]]
+
+[[!redirects String^c 2-group]]
