@@ -1,6 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -11,6 +23,6 @@ Under the canonical [[representation]] $\mathbf{B}U(1) \to Vect_{\mathbb{C}}$ th
 
 ## Examples
 
-* A standard example of a nontrivial [[circle group]]-[[principal bundle]] is the [[Hopf fibration]] $S^3 \to S^2$.
+* A basic example of a nontrivial [[circle group]]-[[principal bundle]] is the [[Hopf fibration]] $S^3 \to S^2$.
 
 [[!redirects circle bundles]]
