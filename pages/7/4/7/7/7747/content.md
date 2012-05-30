@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+## Idea
+
+In one sense of the term, a _framing_ of a [[manifold]] is a choice of trivialization of its [[tangent bundle]], hence a choice of [[section]] of the corresponding [[frame bundle]].
+
+More generally, one means by a _framing_ not a trivialization of the tangent bundle itself, but
+
+* of the [[normal bundle]] if the manifold is understood  [[embedding|embedded]] in some [[Cartesian space]] $\mathbb{R}^d$
+
+* of the _stable tangent bundle_.
+
+
+Accordingly, a _framed cobordism_ is a [[cobordism]] equipped with a framing on the underlying manifold.
+
+[[!redirects framed manifolds]]
+
+[[!redirects framed cobordism]]
+[[!redirects framed cobordisms]]
