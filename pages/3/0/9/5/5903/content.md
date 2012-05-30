@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -12,9 +13,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -59,7 +60,7 @@ $$
 In other words, to give such a morphism we must give, for each type (or assumption) required by $\Delta$, a way to construct an element of that type (or a proof of that assumption) out of the data and assumptions contained in $\Gamma$.
 
 +-- {: .query}
-This might fit better after the motivating examples below; but maybe those examples don\'t make sense to a newcomer.  This is incomplete, however, since it doesn\'t address contexts that include equational hypotheses.  ---Toby
+This might fit better after the motivating examples below; but maybe those examples don\'t make sense to a newcomer.  This is incomplete, however, since it doesn\'t address contexts that include propositional hypotheses.  ---Toby
 =--
 
 
@@ -154,7 +155,8 @@ $$
 Its [[right adjoint]] is the [[dependent product]] functor $\prod_{x : X}$ giving the [[universal quantifier]] $\forall_{x : X}$, and its [[left adjoint]] is the [[dependent sum]] functor $\sum_{x : X}$ giving the [[existential quantifier]] $\exists_{x :X}$.
 
 
-### The theory of groups
+### The theory of a group
+{#group}
 
 For example, consider these contexts in the theory of a group $G$:
 $$ \Gamma \;=\; a\colon G,\; b\colon G $$
