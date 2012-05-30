@@ -1,2 +1,28 @@
 
-for the moment see _[[Chern class]]_.
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The first of the [[Chern classes]]. The unique [[characteristic class]] of [[circle bundles]] / complex [[line bundles]].
+
+## Definition
+
+### In bare homotopy-type theory
+
+As a [[universal characteristic class]], the first Chern class is the 
+[[weak homotopy equivalence]]
+
+
+$$
+  c_1 : B U(1) \stackrel{\simeq}{\to} K(\mathbb{Z},2)
+  \,.
+$$
+
+## Related concepts
+
+* [[Dixmier-Douady class]]
+
+
+
