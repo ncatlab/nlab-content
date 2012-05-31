@@ -1,0 +1,10 @@
+The amalgamation method for generating strongly minimal
+theories is introduced in
+
+* [[Ehud Hrushovski]], _A new strongly minimal set_. Ann. Pure Appl. Logic, 
+62(2):147--166, 1993. Stability in model theory, III (Trento, 1991).
+
+Recent references include 
+
+* [[Ehud Hrushovski]], _Groupoids, imaginaries and internal covers_, [arxiv/math.LO/0603413](http://arxiv.org/abs/math/0603413) 
+* Iru Andrews, _Amalgamation constructions and recursive model theory_, thesis, [pdf](http://www.math.wisc.edu/~andrews/andrewsthesis.pdf)
