@@ -40,15 +40,9 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 
    $$\mathcal{X}\cup\mathcal{Y} = \langle X\cup Y, \max(\mu_X,\mu_Y)\rangle.$$
 
-+-- {: .query}
-The following definition of set difference is tentative because it requires us to allow $\mu = 0$, which is under consideration.
-
-_Toby_ says:  If it were up to me, I wouldn\'t bother with these underlying $X$s and $Y$s at all, but just fix the ambient set $U$ and allow $\mu$ to take the value $0$ as a matter of course.  But if you want to avoid that, then you define the carrier of $\mathcal{X} \setminus \mathcal{Y}$ to consist of those elements $a$ of $X$ (or equivalently of $X \cup Y$, but they will all be elements of $X$) such that $\mu_X(a) \gt \mu_Y(a)$ (with $\mu_Y(a) \coloneqq 0$ for $a \notin Y$).
-=--
-
 *  The _[[set difference]]_ of multisets is the multiset given by
 
-   $$\mathcal{X}\backslash\mathcal{Y} = \langle X\cup Y,\max(0,\mu_X-\mu_Y)\rangle.$$
+   $$ \mathcal{X} \backslash \mathcal{Y} = \langle \{ a \in X \cup Y \;|\; mu_X(a) \gt \mu_Y(a) \}, \mu_X - \mu_Y \rangle .$$
 
 *  The __sum__ of multisets is the multiset whose cardinality is given by addition of cardinal numbers; this has no analogue for ordinary sets.
 
