@@ -14,7 +14,7 @@ In classical [[shape theory]] or [[Čech homotopy]], the polyhedra or simplicial
 
 ### History ###
 
-The earliest paper on strong shape would seem to be by D.E. Christie, in 1944. He looked at a 2-truncated version of the later theory. 
+The earliest paper on strong shape would seem to be by D.E. Christie, in 1944. He looked at a 2-truncated version of the later theory. The next appearance of the idea would seem to be in the 1970s when more or less independently, Edwards and Hastings, Porter, Mardesic and Quigley came out with various approaches to the problem of structuring shape theory in a richer manner. The availability of work on  homotopy coherence, homotopy limits and colimits, etc. would seem to have been one of the key steps n this development.
 
 ## Related concepts
 
