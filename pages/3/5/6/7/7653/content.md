@@ -1,5 +1,5 @@
 
-> the first $~ 2/3 + {\vert\epsilon\vert} $ of this page should be readable, the rest is still a bit skeletal, but check again tomorrow
+> the first $~ 3/4 + {\vert\epsilon\vert} $ of this page should be readable, the rest is still a bit skeletal, but check again tomorrow
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -1268,6 +1268,7 @@ and hence $\mathbf{B}^n U(1)$ is a smooth geometric refinement of $K(\mathbb{Z},
 We now apply this to the above Whitehead tower.
 
 #### Smooth Whitehead tower
+ {#SmoothWhitehead}
 
 We state the smooth refinement of the above Whitehead tower and then explain some aspects of how it is constructed.
 
@@ -1342,15 +1343,36 @@ This is constructed using essentially the following three tools for presenting p
 
    is equivalent to the image under the DK correspondence of the sheaf of chain complexes which is concentrated in degree $n$ on the group of $U(1)$-valued functions.
 
-1. Some [nonabelian generalizations](Dold-Kan+correspondence#StatementGeneral) of the Dold-Kan correspondence allow to use chain complexes of not entirely abelian groups -- _[[crossed complexes]]_ -- to present a few more classes of $\infty$-groupoids. Notably nonabelian 2-term chain complex called [[crossed modules]]
+1. Some [nonabelian generalizations](Dold-Kan+correspondence#StatementGeneral) of the Dold-Kan correspondence allow to use chain complexes of not entirely abelian groups -- _[[crossed complexes]]_ -- to present a few more classes of $\infty$-groupoids. Notably nonabelian 2-term chain complexes, 
 
    $$
-     G_1 \stackrel{\delta}{\to} G_0
+     G_1 \stackrel{\delta}{\to} G_0  
    $$
 
-   serve to present [[strict 2-groups]].
+   called _[[crossed modules]]_, due to them being equipped with a compatible action $G_0 \to Aut(G_1)$, serve to equivalently present [[strict 2-groups]].
 
-   For instance, one way to construct the [[string 2-group]] $String$ above is via the crossed module $\hat \Omega_* Spin \to P_* Spin$ induced from the [[Kac-Moody central extension]] of the [[loop group]] of $Spin$.
+   For instance, one way to construct the [[string 2-group]] $String$ above is via the crossed module $(\hat \Omega_* Spin \to P_* Spin)$ induced from the [[Kac-Moody central extension]] of the [[loop group]] of $Spin$.
+
+   For a given crossed module, the corresponding moduli 2-stack $\mathbf{B}(G_1 \stackrel{\delta}{\to} G_0)$ has [[2-morphism|2-cells]] that look like
+
+   $$
+      \mathbf{B}(G_1 \to G_0)
+      =
+      \left\{
+        \array{
+          && *
+          \\
+          & {}^{\mathllap{g_1}}\nearrow &\Downarrow^{\mathrlap{h}}& \searrow^{\mathrlap{g_2}}
+          \\
+          * &&\underset{\delta(h) g_2 g_1}{\to}&&
+        }
+        \;\;
+        |
+        \;\;
+        g_1,g_2 \in G_0, h \in G_1
+      \right\}
+     \,.
+   $$
 
 1. The [[Lie integration]] $\tau_{\leq n} \exp(\mathfrak{g})$ of an [[L-∞ algebra]] $\mathfrak{g}$ yields the corresponding [[smooth ∞-group]] $G$. For instance the [[string 2-group]] $String$ above is also equivalently given by $\mathbf{B} String \simeq \tau_{\leq 2} \exp(\mathfrak{string})$, where $\mathfrak{string}$ is the [[string Lie 2-algebra]].
 
@@ -1651,7 +1673,7 @@ $$
 
 which is $\mathbb{Z}_2$-[[associated infinity-bundle|associated]] to the [[universal principal bundle]] universal $\mathbb{Z}_2$-bundle.
 
-One finds that $\mathbf{B}Spin^c$ is the corresponding [[associated infinity-bundle|associated bundle]], namely the [[homotopy pullback]]
+One finds, using the presentation of these maps as discussed [above](#SmoothWhitehead), that $\mathbf{B}Spin^c$ is the corresponding [[associated infinity-bundle|associated bundle]], namely the [[homotopy pullback]]
 
 $$
   \array{
