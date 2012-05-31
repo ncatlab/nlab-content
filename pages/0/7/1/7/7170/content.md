@@ -93,7 +93,7 @@ One finds the first few Wu classes as [[polynomials]] in the Stiefel-Whitney cla
 +-- {: .num_prop #InTermsOfPontryagin}
 ###### Proposition
 
-Let $X$ be an [[orientation|oriented]] [[manifold]] $T X : X \to  B SO(n)$ with [[spin structure]] $\hat T X : X : B Spin(n)$. Then the following classes in [[integral cohomology]] classes of $X$ built from [[Pontryagin classes]] coincide with Wu-classes under mod-2- reduction $\mathbb{Z} \to \mathbb{Z}_2$ as indicated in the following list
+Let $X$ be an [[orientation|oriented]] [[manifold]] $T X : X \to  B SO(n)$ with [[spin structure]] $\hat T X : X \to B Spin(n)$. Then the following classes in [[integral cohomology]] of $X$, built from [[Pontryagin classes]], coincide with Wu-classes under mod-2-reduction $\mathbb{Z} \to \mathbb{Z}_2$:
 
 * $\nu_4 = \frac{1}{2} p_1$
 
