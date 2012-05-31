@@ -2018,10 +2018,10 @@ From the [[effective QFT]] of [[11-dimensional supergravity]] the bosonic massle
 
 1. Due to the existence of [[spinors]], the graviton must be part of a [[spin connection]]:
 
-  $$
-    \phi_{gr} : X \to \mathbf{B}Spin_{conn}
-    \,.
-  $$
+   $$
+     \phi_{gr} : X \to \mathbf{B}Spin_{conn}
+     \,.
+   $$
 
 1. Due to the coupling to the [[M2-brane]] the 3-form must lift to a well-dfined [[higher holonomy|3-holonomy]] and hence must globally be a [[circle n-bundle with connection|circle 3-bundle with connection]]
 
@@ -2036,18 +2036,20 @@ From the [[effective QFT]] of [[11-dimensional supergravity]] the bosonic massle
      \phi_{ga} : X \to \mathbf{B} E_8
    $$
 
-   and these fields must satisfy the _flux quantization condition_, which says that in [[cohomology]]
+   and these fields must satisfy what in string theory literature is called the _flux quantization condition_, and what in _[[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 05]]_ is called an _[[integral Wu structure]]_, meaning that in [[cohomology]]
 
    $$
      [\frac{1}{2}p_1(\phi_{gr})]
      +
      [2\mathbf{a}(\phi_{ga})]
      = 
-     [2G_4(\phi_C)]
+     [\phi_C]
+     \;\;
+     \in H^4(X, \mathbb{Z})
      \,.
    $$
 
-A discrete 1-groupoid model satisfying this has been given in the literature referenced at _[[supergravity C-field]]_. Using [[cohesive homotopy type theory]] and following ([FSSc](#FSSc)) we obtain naturally a genuine [[moduli infinity-stack|smooth moduli 3-stack]] of field configurations: the [[categorical semantics|interpretation]] of the naive-looking expression
+A discrete 1-groupoid model satisfying these points has been given in the literature referenced at _[[supergravity C-field]]_. Using [[cohesive homotopy type theory]] and following ([FSSc](#FSSc)) we now obtain naturally a genuine [[moduli infinity-stack|smooth moduli 3-stack]] of such field configurations: the [[categorical semantics|interpretation]] of the naive-looking expression
 
 $$
   \mathbf{CField}(X)
@@ -2059,7 +2061,7 @@ $$
       +
       2\mathbf{a}(\phi_{ga})
       \simeq_{\phi_H}
-      2 \mathbf{G}_4(\phi_C)
+      \phi_C
   \right\}
 $$
 
@@ -2073,12 +2075,12 @@ $$
 	 \\
 	 \downarrow &\swArrow_{\simeq}& \downarrow^{\tfrac{1}{2}\mathbf{p}_1 + 2\mathbf{a}}
 	 \\
-	 \mathbf{B}^3 U(1) &\stackrel{2 \mathbf{G}_4}{\to}& \mathbf{B}^3 U(1)
+	 \mathbf{B}^3 U(1)_{conn} &\stackrel{}{\to}& \mathbf{B}^3 U(1)
   }
   \,.
 $$
 
-On the right this has the universal coefficient bundle for $\mathbf{String}^{2\mathbf{a}}$ from [above](#HigherUnitaryTwistedCovers), and hence this identifies a [[gravity]]-[[supergravity C-field]] configuration as being (a partial differential refinement of) a $2 \mathbf{G}_4$-twisted $String^{2\mathbf{a}}$-structure, where $G_4$ is the underlying class of the naive $C$-field.
+On the right this has the universal coefficient bundle for $\mathbf{String}^{2\mathbf{a}}$ from [above](#HigherUnitaryTwistedCovers), and hence this identifies a [[gravity]]-[[supergravity C-field]] configuration as being (a partial differential refinement of) a $[\phi_C]$-twisted $String^{2\mathbf{a}}$-structure.
 
 
 
