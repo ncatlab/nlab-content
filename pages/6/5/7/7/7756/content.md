@@ -1,0 +1,5 @@
+## Idea
+
+A __first-order theory__ is a [[theory]] which allows for quantification over variables, but not over sets of variables. It is a theory (= language + axioms) in a language consisting of  the language of [[first-order logic]], plus additional relation, function and constant symbols.  
+
+[[!redirects first-order theories]]
