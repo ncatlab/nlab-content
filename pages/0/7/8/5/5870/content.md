@@ -53,11 +53,13 @@
 
 * [[2-group]]
   
-  * [[crossed module]]
+  * [[crossed module]], [[strict 2-group]]
 
 * [[n-group]]
 
 * [[∞-group]]
+
+  * [[simplicial group]]
 
   * [[crossed complex]]
 
