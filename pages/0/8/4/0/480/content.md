@@ -61,7 +61,7 @@ Topoi of sheaves for coherent topologies on coherent categories are called [[coh
 
 Just like the [[reg/lex completion]], there is a "coh/lex completion" which makes an arbitrary [[finitely complete category]] into a coherent one in a universal way.
 
-Similarly, there are "pretopos completions" analogous to the [[ex/reg completion]] and the [[ex/lex completion]].
+Similarly, there are "[[pretopos completion]]s" analogous to the [[ex/reg completion]] and the [[ex/lex completion]].
 
 ### Subobjects, slices and internal logic
  {#SlicesAndInternalLogic}
