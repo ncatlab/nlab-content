@@ -1,0 +1,6 @@
+In [[model theory]] abstract elementary classes are a vast generalizations of [[elementary class]]es of [[structure in model theory|structures]] for higher-order theories (and infnitary logics and more) introduced by [[Saharon Shelah]].
+
+* wikipedia [abstract elementary class](http://en.wikipedia.org/wiki/Abstract_elementary_class)
+* [[Saharon Shelah]], _Classification theory for elementary abstract classes I, II_, Studies in Logic (London), __18__, __20__, College Publications, London 2009
+
+[[!redirects abstract elementary classes]]
