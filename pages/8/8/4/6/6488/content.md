@@ -6,6 +6,6 @@ Stability is a highly overloaded word in mathematics.
 
 * the notion of stability of particles and bound states in physics: stability under decay
 
-* in [[model theory]] there is another theory of stability including a more recent [[geometric stability theory]]
+* in [[model theory]] there is another [[stability in model theory|theory of stability]] including a more recent [[geometric stability theory]]
 
-* in geometry, in the construction of moduli spaces there is a notion of stable and semistable objects (e.g. Mumford stability in [[geometric invariant theory]]); they can be taken with respect to some stability data; more recently those are important in physical applications and abstract versions appeared in the context of triangulated categories, most notably [[Bridgeland stability conditions]]. 
+* in geometry, in the construction of moduli spaces there is a notion of stable and semistable objects (e.g. __Mumford stability__ in [[geometric invariant theory]]); they can be taken with respect to some stability data; more recently those are important in physical applications and abstract versions appeared in the context of triangulated categories, most notably [[Bridgeland stability conditions]]. 
