@@ -22,7 +22,7 @@ M_k&\to& co Psh(M_k)
 A&\to& M_k(A,-)
 \end{cases}$$
 
- $Sp_k A$ (and every isomorphic functor) is called an _affine $k$-scheme_. $Sp_k$ restricts to an equivalence between the categories of $k$-rings and the category $Aff Sch_k$ of affine $k$-schemes. We think of this category as of $M_k^{op}$. The functor $Sp_k$ commutes with limits and skalar extension (see below). Consequently $Aff Sch_k$ is closed under limits and base change.
+ $Sp_k A$ (and every isomorphic functor) is called an _affine $k$-scheme_. (In most modern texts one uses the notation ''$Spec$'' instead of ''$Sp$''.) $Sp_k$ restricts to an equivalence between the categories of $k$-rings and the category $Aff Sch_k$ of affine $k$-schemes. We think of this category as of $M_k^{op}$. The functor $Sp_k$ commutes with limits and skalar extension (see below). Consequently $Aff Sch_k$ is closed under limits and base change.
 
 The affine line $O_k=M_k(k[t],-)$ is an affine $k$-scheme.
 
