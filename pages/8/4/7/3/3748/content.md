@@ -31,7 +31,7 @@ It should also be mentioned (I'm sure you know this) that in such mixed variance
 [[Todd Trimble]]: I'm pretty sure that it's a cartesian monad on $Cat$, and actually I don't know any real examples of Kelly's clubs which aren't.
 =--
 
-Clubs were introduced by [[Max Kelly], and are akin in spirit to [[operad|operads]].  In fact, many types of clubs are a special case of [[generalized multicategories|generalized operads]].
+Clubs were introduced by [[Max Kelly]], and are akin in spirit to [[operad|operads]].  In fact, many types of clubs are a special case of [[generalized multicategories|generalized operads]].
 
 ## Clubs over the permutation category 
 
