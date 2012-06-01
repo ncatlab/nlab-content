@@ -1,0 +1,7 @@
+category: algebra, algebraic geometry
+
+Given a commutative unital ring $R$ there is an equivalence of categories
+
+$${}_R Mod\to Qcoh(Spec R)$$
+
+between the category of $R$[[module|-modules]] and the category of [[quasicoherent sheaf|quasicoherent sheaves]] of $\mathcal{O}_{Spec R}$-modules given on objects by $M\mapsto \tilde{M}$ where $\tilde{M}$ is the unique sheaf such that the restriction on the principal Zariski open subsets is given by the localization $\tilde{M}(D_f) = R[f^{-1}]\otimes_R M$ where  $D_f$ is the principal Zariski open set underlying $Spec R[f^{-1}]\subset Spec R$, and the restrictions are given by the canonical maps among the localizations. The action of $\mathcal{O}_{Spec R}$ is defined using a similar description of $\mathcal{O}_{Spec R} = \tilde{R}$. Its right adjoint (quasi)inverse functor is given by the global sections functor $\mathcal{F}\mapsto\mathcal{F}(Spec R)$. 
