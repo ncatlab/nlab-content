@@ -29,6 +29,15 @@ The affine line $O_k=M_k(k[t],-)$ is an affine $k$-scheme.
 A _[[k-ring of functions on a k-functor|function on a]]_ $k$-scheme $X$ is defined to be an object $f\in O(X):=co Psh (M_k)(X,O_k)$. $O(X)$ is a $k$-ring by component-wise addition and -multiplication.
 =--
 
++-- {: .num_prop}
+###### Proposition
+There is an adjoint equivalence
+
+$$(Sp\dashv O):Sch_{aff}\stackrel{O}{\to}Ring_k$$
+
+of the categories of [[affine scheme|affine k-schemes]] and $k$-rings.
+=--
+
 +-- {: .num_remark}
 ###### Remark
 The category of $k$-functors has limits.
