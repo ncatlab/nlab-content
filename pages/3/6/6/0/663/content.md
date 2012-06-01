@@ -111,3 +111,7 @@ Categories of models of finitary essentially algebraic theories are precisely eq
 
 [[!redirects essentially algebraic theory]]
 [[!redirects essentially algebraic theories]]
+[[!redirects finite limits theory]]
+[[!redirects finite limits theories]]
+[[!redirects finite limit theory]]
+[[!redirects finite limit theories]]
