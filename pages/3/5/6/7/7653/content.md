@@ -1049,7 +1049,7 @@ These problems are all fixed by refining the [[classifying space]] $B Spin \in \
 
 
 #### Smooth refinement
- {#SmoothWhitehead}
+ {#SmoothRefinement}
 
 We considered [above](#SmoothModuliStacks) the smooth refinement of the [[classifying space]] $B G$ for $G$ a [[Lie group]] to a [[smooth infinity-groupoid|smooth]] [[moduli stack]] $\mathbf{B}G$. While that works well, one can see on general grounds that this cannot provide a smooth refinement of the higher stages of the Whitehead tower, if one asks the refinement to preserve [[obstruction]] theory. The problem is that a smooth stack is necessarily a smooth [[homotopy n-type|homotopy 1-type]] (even if its [[geometric realization]] is a higher type! see below), while the higher stages of the smooth Whitehead tower need to be smooth [[homotopy n-types]]/[[n-groupoids]] for higher $n$.
 
@@ -1315,9 +1315,9 @@ where
 
 and where 
 
-* $\tfrac{1}{2} \mathbf{p}_1$ classifies the universal [[Chern-Simons circle 3-bundle]];
+* $\tfrac{1}{2} \mathbf{p}_1$ classifies the universal [[Chern-Simons circle 3-bundle]] and hence identifies it with $\mathbf{B}String \to \mathbf{B}Spin$;
 
-* $\tfrac{1}{6} \mathbf{p}_2$ classifies the universal [[Chern-Simons circle 7-bundle]].
+* $\tfrac{1}{6} \mathbf{p}_2$ classifies the universal [[Chern-Simons circle 7-bundle]] and hence identifies it with $\mathbf{B}Fivebrane \to \mathbf{B}String$.
 
 This is constructed using essentially the following three tools for presenting presheaves of higher groupoids:
 
@@ -1403,21 +1403,48 @@ While the [above](#SmoothWhitehead) smooth refinement of the Whitehead tower alr
 
 $\,$
 
-We had seen above the smooth $n$-stack $\mathbf{B}^n U(1)$ realized as the image under the [[Dold-Kan correspondence]] by the chain complex of sheaves $C^\infty(-,U(1))$
+In order to get a feeling for what differential refinements of higher moduli stacks are going to be like, recall two structures that we have already seen above:
 
-$$
-  \mathbf{B}^n U(1)
-  \simeq
-  [
-    C^\infty(-,U(1))
-    \to 0
-    \to \cdots 
-    \to 0
-  ]
-  \,.
-$$
+1. For $G$ a [[Lie group]] the smooth moduli stack of smooth $G$-[[principal connections]] from [above](#SpinConnection) is presented by
 
-The chain complex on the right has an evident generalization to the [[Deligne complex]], where in the lower degrees we include the sheaves of [[differential forms]], and where the [[differentials]] are given by the [[de Rham differential]]
+   $$
+     \mathbf{B}G_{conn}
+     =
+     (C^\infty(-,G) \times \Omega^1(-, \mathfrak{g}) 
+        \stackrel{\overset{}{\to}}{\underset{}{\to}}
+      \Omega^1(-, \mathfrak{g}))
+     =
+     \left\{
+        A \stackrel{g}{\to} (g^{-1} A g + g^{-1} d g)
+        |
+        A \in \Omega^1(-,\mathfrak{g}),
+        g \in C^\infty(-,G)
+     \right\}
+     \,.
+   $$
+
+   In the special case that $G = U(1)$ is abelian, this is the image under the [[Dold-Kan correspondence]] of the length 1 complex of sheaves of abelian groups
+
+   $$
+     \mathbf{B}U(1)_{conn} = [C^\infty(-) \stackrel{d_{dR}}{\to} \Omega^1(-)]
+      \,.
+   $$
+
+1. The smooth $n$-stack $\mathbf{B}^n U(1)$ is realized as the image under the [[Dold-Kan correspondence]] by the chain complex of sheaves $C^\infty(-,U(1))$
+
+   $$
+     \mathbf{B}^n U(1)
+     \simeq
+     [
+       C^\infty(-,U(1))
+       \to 0
+       \to \cdots 
+       \to 0
+     ]
+     \,.
+   $$
+
+From the look of these expressions there is already a plausible candidate for the differential refinement $\mathbf{B}^n U(1)_{conn}$, the moduli $n$-stack of [[circle n-bundles with connection]] -- it should be the _[[Deligne complex]]_:
 
 $$
   \mathbf{B}^{n} U(1)_{conn}
@@ -1436,15 +1463,27 @@ $$
   \,.  
 $$
 
-For $n = 1$ we already know the smooth stack $\mathbf{B} U(1)_{conn}$ from [above](#SpinConnection): it is the smooth moduli stack of [[circle bundles]] with [[connection on a bundle|connection]]. For general $n$, a morphism $X \to \mathbf{B}^n U(1)_{conn}$ determines a _[[circle n-bundle with connection]]_, a higher generalization of a circle bundle with connection that has a [[curvature]] $(n+1)$-form. The cohomology
+For instance a cocycle $X \to \mathbf{B}^2 U(1)_{conn}$ in $\mathbf{H}$ is in $Funct(SmthMfd^{op}, sSet)$ and relative to a [[good open cover]] given by a morphism $C(\{U_i\}) \to \mathbf{B}^2 U(1)_{conn}$, which is
+
+* on each $U_i$ a [[connection on a 2-bundle|connection 2-form]] $B_i \in \Omega^2(U_i)$;
+
+* on each $U_i \cap U_j$ a 1-form $A_{i j} \in \Omega^1(U_i \cap U_j)$ such that $B_j - B_i = d_{dR} A_{i j} $;
+
+* on each $U_i \cap U_j \cap U_k$ a smooth functor $\phi_{i j k} \in C^\infty(U_i \cap U_j \cap U_k, U(1))$ such that $A_{i j} + A_{j k} - A_{i k} = d_{dR} log \phi_{i j k}$ and such that on each $U_i \cap U_j \cap U_k \cap U_l$ the equation $\phi_{i j k} \phi_{i k l} = \phi_{i j l} \phi_{j k l}$ holds.
+
+Tthe [[B-field]] on [[spacetime]] is (in the absence of various possible twists, to be discussed), such a cocycle $X \to \mathbf{B}^2 U(1)_{conn}$; and the [[C-field]] (similarly in the absence of possible twists, to be discussed below) is given by a morphism $X \to \mathbf{B}^3 U(1)_{conn}$.
+
+
+Such cocycles in [[Deligne complex|Deligne]] [[hypercohomology]] define classes in _[[ordinary differential cohomology]]_ $H_{diff}^{n+1}(X)$:
+
 
 $$
+  H_{diff}^{n+1}(X)   
+   = 
   \pi_0 \mathbf{H}(X, \mathbf{B}^n U(1)_{conn})
+  \,.
 $$
 
-is _[[ordinary differential cohomology]]_.
-
-For instance the [[B-field]] on [[spacetime]] is (in the absence of various possible twists, to be discussed), given by a morphism $X \to \mathbf{B}^2 U(1)_{conn}$, and the [[C-field]] (similarly in the absence of possible twists, to be discussed below) given by a morphism $X \to \mathbf{B}^3 U(1)_{conn}$,
 
 There is an evident morphism
 
@@ -1454,34 +1493,93 @@ $$
 
 which [[forgetful functor|forgets]] the connection data. We say that $\mathbf{B}^n U(1)_{conn}$ is a _differential refinement_ of $\mathbf{B}^n U(1)$. 
 
-We now want to construct a differential refinement of the above smooth Whitehead tower. To that end we first need a more conceptual way to think of $\mathbf{B}^n U(1)_{conn}$:
+We now want to construct a differential refinement of the above smooth Whitehead tower, hence of the smooth [[universal characteristic classes]] appearing in it. To do so, we now first provide a more conceptual way to think of $\mathbf{B}^n U(1)_{conn}$, a way to obtain this more abstractly from fundamental principles.
+
+The key is that the [[(∞,1)-topos]] $\mathbf{H}$ of [[smooth ∞-groupoids|smooth ∞-stacks]] comes with a canonical notion of _[[local system]]_ or _[[connection on an ∞-bundle|flat ∞-connection]]_, and that we can _twist_ this to find a notion of [[curvature]]-twisted and hence non-flat [[connection on an ∞-bundle|∞-connection]]. The notion of local systems is induced from two basic derived adjoint functors that exist on $\mathbf{H}$
+
+$$
+  \mathbf{H}
+   \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}
+  \infty Grpd
+  \,,
+$$
+
+where $\Gamma$ evaluates a presheaf on the point, and where $Disc$ sends an $\infty$-groupoid to the presheaf constant on that value. We form the composite 
+
+$$
+  \flat : \mathbf{H} \stackrel{\Gamma}{\to} \infty Grpd \stackrel{Disc}{\to} \mathbf{H}
+  \,,
+$$
+
+to be pronounced "flat": for $A \in \mathbf{H}$ a smooth homotopy type, we call $\flat A$ the corresponding _flat coefficient_ object. 
+
+For instance if $G$ is a [[Lie group]], then $\Gamma \mathbf{B}G \simeq B (G_{disc}) = K(G_{disc}, 1)$, and so a morphism $X \to \flat \mathbf{B}G$ is equivalently a cocycle $X \to \mathbf{B} (G_{disc})$, hence a $G_{disc}$-covering space, hence a flat $G$-[[principal connection]].
 
 
-For $A \in \mathbf{H}$ any smooth homotopy type, there is naturally associated with it a type $\flat A \coloneqq Disc \Gamma A$, which is the [[discrete object]] on the underlying [[discrete infinity-groupoid|discrete homotopy type]]: the smooth $\infty$-stack presented by the presheaf of Kan complexes that is constant on the value $A(*)$.
-
-We say that a morphism
+Generally, we say that a morphism
 
 $$
   X \to \flat A
 $$
 
 is an _$A$-[[local system]]_ or _$A$-valued [flat ∞-connection](cohesive+%28infinity,1%29-topos+--+structures#FlatDifferentialCohomology)_ on $X$.
-For instance for $A = \mathbf{B} O$ a morphism $X \to \flat \mathbf{B}O$ is equivalently a flat vector bundle on $X$.
 
-There is a canonical forgetful morphism $\flat A \to A$ which forgets the flat connection. Consider the [[homotopy fiber]] of this morphism
+There is a canonical forgetful morphism $u : \flat A \to A$ which forgets the flat connection: this is the $(\Disc \dashv \Gamma)$-[[counit of an adjunction|counit]]. Consider the coefficient object of those flat $G$-connections whose underlying $\mathbf{B}G$-[[principal ∞-bundle]] is trivial
+
+$$
+  \flat_{dR} \mathbf{B}G
+  \coloneqq
+  \left\{
+    \nabla \in \flat \mathbf{B}G | (u(\nabla) \simeq * )
+  \right\}
+  \,.
+$$
+
+From the example of ordinary [[principal connections]] it is familiar that flat $G$-connections on trivial $G$-principal bundles are equivalently flat [[Lie algebra valued differential forms]].
+Below we will see that for general [[smooth ∞-groups]] $G$, morphisms $X \to \flat_{dR} \mathbf{B}G$ are $\mathfrak{g}$-[[infinity-Lie algebroid-valued differential form|∞-Lie algebra valued differential forms]] on $X$.
+
+Reading the above expression in [[homotopy type theory]], its [[categorical semantics]] is  the [[homotopy fiber]] of the counit
 
 $$
   \flat_{dR} \mathbf{B}G \coloneqq * \times_{\mathbf{B}G} \flat \mathbf{B}G
   \,.
 $$
 
-By definition this classifies flat $\infty$-connections on _trivial_ $G$-[[principal ∞-bundles]]. This are equivalently $\mathfrak{g}$-[[infinity-Lie algebroid-valued differential form|∞-Lie algebra valued differential forms]] on $X$.
+By this construction and applying the [[pasting law]], there is a canonical morphism $\theta : G \to \flat_{dR} \mathbf{B}G$, hence a canonical $\mathfrak{g}$-valued form on any cohesive [[∞-group]] $G$: this identifies as the canonical _[[Maurer-Cartan form]]_ on the [[∞-group]] $G$.
 
-There is a canonical morphism $\theta : G \to \flat_{dR} \mathbf{B}G$, hence a canonical $\mathfrak{g}$-valued form on any cohesive [[∞-group]] $G$: this identifies as the canonical _[[Maurer-Cartan form]]_ on the [[∞-group]] $G$.
+$$
+  \array{
+    G &\to& *
+    \\
+    {}^{\mathllap{\theta}}\downarrow && \downarrow
+    \\
+    \flat_{dR} \mathbf{B}G &\to& \flat \mathbf{B}G
+    \\
+    \downarrow && \downarrow^{\mathrlap{u}}
+    \\
+    * &\to& \mathbf{B}G
+  }
+  \,.
+$$
 
-For $G = \mathbf{B}^n U(1)$ the [[circle n-group|circle (n+1)-group]] we call $curv_{\mathbf{B}^n U(1)}  \coloneqq  \mathbf{B}^n U(1) \to \flat_{dR} \mathbf{B}^{n+1} U(1)$ the _universal [[curvature]] class_ in degree $(n+1)$.
+For the special class of cases $G = \mathbf{B}^n U(1)$ the [[circle n-group|circle (n+1)-group]] we call $curv_{\mathbf{B}^n U(1)}  \coloneqq  \mathbf{B}^n U(1) \to \flat_{dR} \mathbf{B}^{n+1} U(1)$ the _universal [[curvature]] class_ in degree $(n+1)$. 
 
-Let $F_X : X \to \Omega^{n+1}_{cl}(-)$ be a closed [[differential form]] on $X$. Then a [[cocycle]] in $F_X$-[[twisted cohomology|twisted]] $\mathbf{curv}$-cohomology is equivalently a [[circle n-bundle with connection]]
+Due to the existence of the further functor $\Pi : \mathbf{H} \to \infty Grpd$ discussed [above](#SmoothWhitehead) it follows that $\flat : \mathbf{H} \to \infty Grpd$ is a [[right adjoint]] and hence commutes with homotopy pullback. This in turn implies that by forming one more homotopy fiber above, we obtain the following differential version of a universal coefficient bundle:
+
+$$
+  \array{
+    \flat \mathbf{B}^n U(1) &\to& \mathbf{B}^n U(1)
+    \\
+    && \downarrow^{\mathrlap{curv}}
+    \\
+    && \flat_{dR} \mathbf{B}^{n+1} U(1)
+  }
+  \,.
+$$
+
+By the general concept of [[twisted cohomology]], we see that this defines a notion of _curvature twisted flat differential cohomology_ -- hence of differential cohomology. 
+
+Specifically, for $F_X : X \to \Omega^{n+1}_{cl}(-)$ a closed [[differential form]] on $X$, a [[cocycle]] in $F_X$-[[twisted cohomology|twisted]] $\mathbf{curv}$-cohomology is equivalently a [[circle n-bundle with connection]] with that curvature
 
 $$
   \array{
@@ -1509,24 +1607,18 @@ $$
   }
 $$
 
-is presented by the [[Deligne complex]].
+is presented, under the [[Dold-Kan correspondence]],  by the [[Deligne complex]], discussed above. This exhibits ordinary differential cohomology as the curvature-twisted flat cohomology
 
 
 $$
   \mathbf{H}_{diff}(X, \mathbf{B}^n U(1))
   =
   \mathbf{curv}Struc_{\Omega^{n+1}}(X)
+  \,.
 $$
 
-$$
-  \array{
-     X &&\stackrel{}{\to}&& \mathbf{B}^n U(1)
-     \\
-     
-  }
-$$
-
-If we have a smooth [[universal characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^{n+1} U(1)$ we say that a _differential refinement_ of $\mathbf{c}$ is a morphism $\hat \mathbf{c}$ fitting into the diagram
+Using this geometric-homotopy-type theoretic description of ordinary differential cohomology, we obtain now a natural notion of differential refinement of smooth [[universal characteristic classes]]
+$\mathbf{c} : \mathbf{B}G \to \mathbf{B}^{n+1} U(1)$. We say that a _differential refinement_ of $\mathbf{c}$ is a morphism $\hat \mathbf{c}$ fitting into a diagram 
 
 $$
   \array{
@@ -1537,7 +1629,7 @@ $$
     \\
     \mathbf{B}G_{conn} &\stackrel{\hat \mathbf{c}}{\to}& \mathbf{B}^{n+1} U(1)_{conn}
     \\
-    \downarrow && \downarrow
+    \downarrow && \downarrow^{\mathrlap{curv}}
     \\
     \mathbf{B}G 
       &\stackrel{\mathbf{c}}{\to}&
@@ -1545,9 +1637,14 @@ $$
   }
 $$
 
+that factors the [[natural transformation|naturality]] square of $\flat$ on $\mathbf{c}$.
+
+
+
+
 #### Differential Whitehead tower
 
-**Theorem** ([SSS](#SSS), [FSSa](#FSS)) We have a smooth differential refinement of the [Whitehead tower of BO](#WhiteheadTower) as follows:
+**Theorem** ([SSS](#SSS), [FSSa](#FSS)) There exists a smooth differential refinement of the [Whitehead tower of BO](#WhiteheadTower) as follows:
 
 
 $$
@@ -1614,8 +1711,9 @@ For instance
 
   of 7-dimensional Chern-Simons theory on nonabelian String 2-form fields ([FSSb](#FSSb))
 
+We indicate briefly how this is constructed.
 
-
+(...)
 
 ### **III)** $Spin^c$-, $String^c$-, $Fivebrane^c$-structure 
  {#TwistedK}
