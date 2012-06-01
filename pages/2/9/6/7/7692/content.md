@@ -11,7 +11,7 @@ and
 
 $$D(E)(R):=\{x\in X(R)|f\in E, \text{the} f(x) \text{generate the unit ideal of} R\}$$
 
-For a transformation $u:Y\to X$ of $k$-functors and $Z\subseteq X$ a subfunctor we define
+(The ''unit ideal of $R$'' is just $R$ itself.) For a transformation $u:Y\to X$ of $k$-functors and $Z\subseteq X$ a subfunctor we define
 
 $$u^{-1}(Z)(U):=\{y\in Y(R)|u(Y)\in Z(R)\}$$
 
@@ -24,7 +24,7 @@ A $k$-functor $X$ is called a $k$_-scheme_ if the following two conditions hold:
 
 1. ($X$ is a sheaf for the Zarisky Grothendieck topology on $M_k^{op}$) For all $k$-rings and all families $(f_i)_i$ such that $R=\coprod_i R f_i$ we have: if for all $x_i\in R[f_i^{-1}]$ such that the images of $x_i$ and $x_j$ coincide in $X(R[f_i^{-1} f_j^{-1}])$ there is a unique $x\in X(R)$ mapping to the $x_i$.
 
-1. ($X$ has a cover of Zarisky open immersions of affine $k$-schemes) The exists a family $(U_i)_i$ of open affine subfunctors of $X$ such that for all fields $K\in M_k$ we have that $X(K)=\coprod_i U_i(K)$.
+1. ($X$ has a cover of Zarisky open immersions of affine $k$-schemes) There exists a family $(U_i)_i$ of open affine subfunctors of $X$ such that for all fields $K\in M_k$ we have that $X(K)=\coprod_i U_i(K)$.
 
 =--
 
