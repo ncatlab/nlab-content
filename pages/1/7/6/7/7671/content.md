@@ -186,3 +186,7 @@ We extend the [[Frobenius morphism]] $x\mapsto x^{(p)}$ to an automorphism of $B
 ### 3. structure of the $p$-divisible group $A(p)$
 
 [[Demazure, lectures on p-divisible groups, V.3, structure of the p-divisible group A(p)]]
+
+## Related nlab entries
+
+[[relations of certain classes of group schemes]]
