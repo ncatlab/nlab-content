@@ -1,50 +1,32 @@
 
-> under construction, am being interrupted...
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
 {:toc}
 
-## Idea
+## Defintion
 
-An _integral Wu structure_ in degree $2k$ on an [[orientation|oriented]] [[smooth manifold]] $X$  is a refinement of the [[Wu class]] $\nu_{2k} \in H^{2k}(X, \mathbb{Z}_2)$ by a [[cocycle]] $\phi$ in degree $2k$ [[ordinary differential cohomology]] $H^{2k}_{diff}(X)$, hence a [[circle n-bundle with connection|circle (2k-1)-bundle with connection]] whose underlying higher [[Dixmier-Douady class]] equals $\nu_{2k} mod 2$.
-
-## Definition
-
-
-## Properties
-
-### In terms of smooth $\infty$-stacks
-
-Integral Wu structures have a natural formulation in the [[(∞,1)-topos]]  [[Smooth∞Grpd]] as follows.
-
-If we read the defining expression for the collection of $\nu_{2k}$ integral Wu structures 
+A _differential integral Wu structure_ in degree $2k$ on an [[orientation|oriented]] [[smooth manifold]] $X$  is a refinement of the [[Wu class]] $\nu_{2k} \in H^{2k}(X, \mathbb{Z}_2)$ $\nu_{2k}$ by a [[cocycle]] $\phi$ in degree $2k$ [[ordinary differential cohomology]] $H^{2k}_{diff}(X)$, hence a [[circle n-bundle with connection|circle (2k-1)-bundle with connection]] $\nabla_{2k-1}$ whose underlying higher [[Dixmier-Douady class]] $DD(\nabla_{2k-1})$ equals $\nu_{2k}$ modulo 2-reduction
 
 $$
-  \hat \mathbf{Wu}_{\nu_{2k}}
-  \coloneqq
-  \left\{
-    \phi \in \mathbf{B}^{2k-1} U(1)_{conn}
-    |
-    (\phi \simeq \nu_{2k} mod 2)
-  \right\}
-$$
-
-in [[homotopy type theory]], its [[categorical semantics]] is given by the [[homotopy pullback]] of [[moduli ∞-stacks]]
-
-
-$$
-  \array{
-     \hat \mathf{Wu}_{\nu_{2k}} &\to& [X,\mathbf{B}^{2k-1} U(1)_{conn}]
-     \\
-     \downarrow && \downarrow
-     \\
-     * &\stackrel{\nu_{2k}}{\to}& [X, \mathbf{B}^{2k} \mathbb{Z}_2]
-  }
+  DD(\nabla_{2k-1}) mod 2 = \nu_{2k} \in H^{2k}(X, \mathbb{Z}_2)
   \,.
 $$
 
-(...)
+
+## Related concepts
+
+* [[Wu class]], [[twisted Wu structure]]
 
 ## References
 
