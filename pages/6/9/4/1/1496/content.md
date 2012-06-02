@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -94,11 +93,11 @@ In this case, we say that $f$ is **bounded**.  If $f\colon V \to W$ is not assum
 
 The bounded linear maps from $V$ to $W$ themselves form a pseudonormed vector space $\mathcal{B}(V,W)$.  This will be a Banach space if (and, except for degenerate cases of $V$, only if) $W$ is a Banach space.  In this way, the category $Ban$ of Banach spaces is a [[closed category]] with $\mathbb{R}$ as the unit.
 
-The clever reader will note that we have not yet defined $Ban$ as a category!  There are many (nonequivalent) ways to do so.
+The clever reader will note that we have not yet defined $\mathbf{Ban}$ as a category! (surprisingly in the _nLab_) There are many (nonequivalent) ways to do so.
 
 In [[functional analysis]], the usual notion of '[[isomorphism]]' for Banach spaces is a bounded bijective linear map $f\colon V \to W$ such that the [[inverse function]] $f^{-1}\colon W \to V$ (which is necessarily linear) is also bounded. In this case one can accept all bounded linear maps between Banach spaces as morphisms.  Analysts sometimes refer to this as the "isomorphic category".
 
-Another natural notion of isomorphism is a surjective linear isometry. In this case, we take a morphism to be a **short** linear map, or linear contraction: a linear map $f$ such that ${\|f\|} \leq 1$.  This category, which is what category theorists generally refer to as $Ban$, is sometimes referred to as the "isometric category" by analysts. Note that this makes the 'underlying set' (in the sense of $Ban$ as a [[concrete category]] like any closed category) of a Banach space its (closed) **unit ball**
+Another natural notion of isomorphism is a surjective linear isometry. In this case, we take a morphism to be a **short** linear map, or linear contraction: a linear map $f$ such that ${\|f\|} \leq 1$.  This category, which is what category theorists generally refer to as $\mathbf{Ban}$, is sometimes referred to as the "isometric category" by analysts. Note that this makes the 'underlying set' (in the sense of $\mathbf{Ban}$ as a [[concrete category]] like any closed category) of a Banach space its (closed) **unit ball**
 $$ Hom_Ban(\mathbb{R},V) \cong \{ v \;|\; {\|v\|} \leq 1 \} $$
 rather than the set of all vectors in $V$ (the underlying set of $V$ as a vector space).
 
@@ -144,7 +143,7 @@ The category $Ban$ of Banach spaces is [[complete category|small complete]], [[c
 $$\prod_{\alpha \in A} X_\alpha$$
 consisting of $A$-tuples $\langle x_\alpha \rangle$ which are _uniformly_ bounded (i.e., there exists $C$ such that $\forall \alpha \in A: {\|x_\alpha\|} \leq C$), taking the least such upper bound as the norm of $\langle x_\alpha \rangle$. This norm is called the $\infty$-norm; in particular, the product of an $A$-indexed family of copies of $\mathbb{R}$ or $\mathbb{C}$ is what is normally denoted as $l^{\infty}(A)$.
 
-* The category of Banach spaces admits [[equalizer]]s. Indeed, the equalizer of a pair of maps $f, g: X \rightrightarrows Y$ in $Ban$ is the [[kernel]] of $f-g$ under the norm inherited from $X$ (the kernel is closed since $f-g$ is continuous, and is therefore complete).
+* The category of Banach spaces admits [[equalizer]]s. Indeed, the equalizer of a pair of maps $f, g: X \rightrightarrows Y$ in $Ban$ is the [[kernel]] of $f-g$ under the norm inherited from $X$ (the kernel is closed since $f-g$ is continuous, and is therefore complete). In fact every equalizer is even a [[section]] by the [[Hahn-Banach theorem]]. Every [[extremal monomorphism]] is even already an equalizer (and a section): Let $f\colon X \to Y$ be an extremal monomorphism, $\iota\colon \Im(f) \to Y$ the embedding of $Im(f)$ into the codomain of $f$ and $f\prime \colon X \to Im(f)$ $f$ with restricted codomain. Since $f\prime$ is an epimorphism, $f=\iota f\prime$, and $f$ extremal, $f\prime$ is an isomorphism, thus $f$ is an embedding.
 
 * The category of Banach spaces admits small [[coproduct]]s. Given a small family of Banach spaces $\{X_\alpha\}_{\alpha \in A}$, its coproduct in $Ban$ is the completion of the vector space coproduct 
   $$\bigoplus_{\alpha \in A} X_\alpha$$ 
@@ -162,7 +161,7 @@ In the literature on Banach spaces it is usually called the __projective tensor 
 
 To be described:
 *  duals ($p + q = p q$); 
-*  completion ($Ban$ is a [[reflective subcategory]] of $PsNVect$).
+*  completion ($Ban$ is a [[reflective subcategory]] of $PsNVect$ (pseudo-normed vector spaces)).
 *  $Ban$ as a (somewhat larger) category with duals.
 
 
