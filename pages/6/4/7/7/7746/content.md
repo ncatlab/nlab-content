@@ -154,4 +154,7 @@ See also
 
 * [[Hiro Lee Tanaka]], _Manifold calculus is dual to factorization homology_, at [Talbot 2012:_ Calculus of functors](http://math.mit.edu/conferences/talbot/2012/_2012.php) ([pdf](http://math.mit.edu/conferences/talbot/2012/notes/14_Tanaka_FactorizationHomology%28hiro%29.pdf))
 
+Application to higher [[Hochschild cohomology]] is discussed in 
+
+* [[Grégory Ginot]], Thomas Tradler, [[Mahmoud Zeinalian]], _Higher Hochschild cohomology, Brane topology and centralizers of $E_n$-algebra maps_, ([arXiv:1205.7056](http://arxiv.org/abs/1205.7056))
 
