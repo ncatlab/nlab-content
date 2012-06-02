@@ -317,6 +317,7 @@ We discuss now $(\infty,1)$-vector bundles in more general [[(∞,1)-toposes]].
   $$
 
 ## References
+ {#References}
 
 A systematic discussion of discrete $(\infty,1)$-module bundles is in the triple of articles
 
@@ -329,6 +330,9 @@ A systematic discussion of discrete $(\infty,1)$-module bundles is in the triple
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
  {#ABGII}
 
+The last of these explains the relation to 
+
+* [[Peter May|May]], Sigurdsson, _[[Parametrized Homotopy Theory]]_
  
 [[!redirects (∞,1)-vector bundle]]
 
