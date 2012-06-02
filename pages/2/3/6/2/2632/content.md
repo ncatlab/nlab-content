@@ -268,6 +268,8 @@ For more on this see
 
   * [[Schrödinger picture]], [[Heisenberg picture]], [[Dirac picture]]
 
+  * [[Born-Oppenheimer approximation]]
+
   * [[supersymmetric quantum mechanics]]
 
 * [[quantum field theory]]
