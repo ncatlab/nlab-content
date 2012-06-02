@@ -123,6 +123,8 @@ See [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for more
 
   * [[infinite loop space]]
 
+  * [[formal loop space]]
+
   * [[derived loop space]]
 
 * [[suspension object]]
