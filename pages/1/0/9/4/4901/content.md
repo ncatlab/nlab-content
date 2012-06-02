@@ -47,8 +47,9 @@ Also see [[free loop space object]] for more informaiton.
 
   * [[delooping]]
 
-  * [[loop space]], [[free loop space]], **derived loop space**
+  * [[loop space]], [[free loop space]], 
 
+  * [[formal loop space]], **derived loop space**
 
 * [[suspension object]]
 
