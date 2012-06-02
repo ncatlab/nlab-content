@@ -2070,6 +2070,10 @@ A review of Deligne's conjecture and its solutions is in
 * [[Kathryn Hess]], _Deligne's Hochschild cohomology conjecture_ ([pdf](http://sma.epfl.ch/~hessbell/Pub_DeligneColloq.pdf))
 {#Hess}
 
+More developments are in 
+
+* [[Grégory Ginot]], Thomas Tradler, [[Mahmoud Zeinalian]], _Higher Hochschild cohomology, Brane topology and centralizers of $E_n$-algebra maps_, ([arXiv:1205.7056](http://arxiv.org/abs/1205.7056))
+
 
 For references on [[topological chiral homology]] see there.
 
