@@ -227,6 +227,12 @@ The attempted "Proof" of this is the motivation for the [[Stephan Stolz|Stolz]]-
 
 #References#
 
-* [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
+A comprehensive account is in
+
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+
+Construction of elliptic cohomology / [[tmf]] by [[FQFT]] is discussed at _[[(2,1)-dimensional Euclidean field theories and tmf]]_. The case of elliptic cohomology associated with the [[Tate curve]] is discussed in 
+
+* [[Pokman Cheung]], _Supersymmetric field theories and cohomology_ ([arXiv:0811.2267](http://arxiv.org/abs/0811.2267))
 
 [[!redirects elliptic cohomology theory]]
