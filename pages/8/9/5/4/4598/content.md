@@ -76,5 +76,12 @@ A brief introduction is in chapter 23, section 7
 [[!redirects Pontrjagin class]]
 [[!redirects Pontrjagin classes]]
 
+[[!redirects first Pontryagin class]]
+[[!redirects second Pontryagin class]]
+[[!redirects first Pontrjagin class]]
+[[!redirects second Pontrjagin class]]
+
+
 [[!redirects first fractional Pontryagin class]]
 [[!redirects second fractional Pontryagin class]]
+
