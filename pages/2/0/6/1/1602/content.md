@@ -449,7 +449,7 @@ For the moment, see there for further references.
 
 An account of historical developments is in section 7 of
 
-* [[John Schwarz]], _The Early Years of String Theory: A Personal Perspective_ in _The birth of string theory_ ([arXiv:0708.1917](http://arxiv.org/abs/0708.1917))
+* [[John Schwarz]], _The Early Years of String Theory: A Personal Perspective_ in _[The birth of string theory](books+about+string+theory#TheBirthOfStringTheory)_ ([arXiv:0708.1917](http://arxiv.org/abs/0708.1917))
 
 
 The full formula for the differential form data including the fermionic contributions is in 
