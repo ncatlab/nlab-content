@@ -1,3 +1,4 @@
+
 Momentum is, according to [[Isaac Newton|Newton]], the 'amount of motion' in an object.  For particles it is  proportional to the object\'s [[mass]] and to its [[velocity]], and thus measured in units of mass times velocity. For photons it is proportional to the frequency of the photon. 
 
 
@@ -20,3 +21,19 @@ In [[Hamiltonian mechanics]], the momentum coordinates are half of the basic coo
 In [[quantum mechanics]], the [[canonical quantization]] process formally replaces momentum by $-i \hbar \frac{\partial}{\partial x},$ where $x$ is position.  (Equivalently, in [[momentum space]], canonical quantization replaces $x$ by $i \hbar \frac{\partial}{\partial p}.)$  In this situation, position and momentum [[canonical commutation relation|fail to commute]].
 
 There is a generalization of momentum in symplectic geometry, so called [[moment map]].
+
+
+[[!redirects momentum]]
+[[!redirects momentums]]
+[[!redirects momenta]]
+
+[[!redirects linear momentum]]
+[[!redirects linear momentums]]
+[[!redirects linear momenta]]
+
+[[!redirects generalized momentum]]
+[[!redirects generalized momentums]]
+[[!redirects generalized momenta]]
+[[!redirects generalised momentum]]
+[[!redirects generalised momentums]]
+[[!redirects generalised momenta]]
