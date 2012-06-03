@@ -1,0 +1,7 @@
+It is convenient for the poset $\mathfrak{F}$ of filters to have the reverse order $\sqsubseteq$ to set-theoretic inclusion:
+
+$a \sqsubseteq b \Leftrightarrow a \supseteq b$.
+
+I will call it _the reverse poset_ of filters (or _reverse lattice_ when it is a lattice).
+
+We can denote the lattice operations on $\mathfrak{F}$ as $\sqsubseteq$, $\sqcap$, $\sqcup$, $\bigsqcap$, $\bigsqcup$.
