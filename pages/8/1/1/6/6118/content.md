@@ -77,6 +77,7 @@ If $\beta$ is treated as a monad on $Set$ instead of on $Rel$, then its algebras
 
 One might hope that there would be an analogous treatment of [[uniform spaces]] based on an [[equivalence relation]] between ultrafilters.  (In nonstandard analysis, this becomes a relation $\approx$ of infinite closeness between hyperpoints.)  The description in terms of generalized multicategories is known to generalize to a description of uniform spaces, but rather than using relations between ultrafilters, this description uses pro-relations between points.
 
+((We should research how relational $\beta$-module are related with [funcoids](http://www.mathematics21.org/algebraic-general-topology.html). I suspect relational $\beta$-modules are essentially a special case of funcoids. This may give rise of a monad associated with a funcoid. If anyone finds such a monad, mail porton@narod.ru))
 
 [[!redirects relational beta-module]]
 [[!redirects relational beta-modules]]
