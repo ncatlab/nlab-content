@@ -31,6 +31,10 @@ The higher Kac-Moody analogs of the [[exceptional Lie group|exceptional semisimp
 
 * Lorentzian: [[E11]], ...
 
+## Related concepts
+
+* [[Kac-Moody group]]
+
 ## References
 
 ### General
@@ -52,6 +56,8 @@ Collections of articles include
 * N. Sthanumoorty, K. Misra (eds.), _Kac-Moody Lie algebras and related topics_, Contemporary Mathematics 343 AMS (2002)
 
 ### The $E$-series
+
+* [[E7]], [[E8]], [[E9]], [[E10]], [[E11]], ...
 
 Surveys include
 
