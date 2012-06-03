@@ -28,6 +28,8 @@ $$
 
 * [[Wu class]], [[twisted Wu structure]]
 
+* [[canonical bundle]]
+
 ## References
 
 The notion was introduced in def. 2.12 of 
