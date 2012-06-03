@@ -39,6 +39,8 @@ The Dirac operator is involved in approaches to the [[Atiyah-Singer index theore
 
 * [[index of a Dirac operator]]
 
+* [[Spin^c Dirac operator]]
+
 ## Literature
 
 * C. Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
