@@ -1,13 +1,41 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-For $X$ a [[space]] with a notion of _[[dimension]]_ and a notion of ([[Kähler differential form|Kähler]]) [[differential forms]] on it, the _canonical bundle_ over $X$ is the [[line bundle]] of $n$-forms on $X$, the $n$-fold [[exterior product]] of the bundle of 1-forms.
+For $X$ a [[space]] with a notion of _[[dimension]]_ $dim X \in \mathbb{N}$ and a notion of ([[Kähler differential form|Kähler]]) [[differential forms]] on it, the _canonical bundle_ over $X$ is the [[line bundle]] of $n$-forms on $X$, the $dim(X)$-fold [[exterior product]] 
 
+$$
+  L_{can} \coloneqq \Omega^n_X 
+$$
 
+of the bundle $\Omega^1_X$ of 1-forms.
+
+The [[first Chern class]] of this bundle is also called the **canonical [[characteristic class]]** or just the **canonical class** of $X$.
+
+Often this bundle is regarded via its [[sheaf]] of [[sections]].
+
+A [[square root]] of the canonical class, hence another characteristic class $\Theta$ such that the [[cup product]] $2 \Theta = \Theta \cup \Theta$ equals the canonical class is called a _[[Theta characteristic]]_
+
+## Examples
+
+Notice that if $X$ is for instance a [[complex manifold]] regarded over the complex numbers, then [[Kähler differential forms]] are _holomorphic_ forms.
 
 
 ## Related concepts
@@ -26,3 +54,7 @@ See also
 
 [[!redirects canonical bundles]]
 
+[[!redirects canonical class]]
+[[!redirects canonical characteristic class]]
+[[!redirects canonical classes]]
+[[!redirects canonical characteristic classes]]
