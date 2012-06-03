@@ -41,8 +41,7 @@ If the signature of a manifold with dimension not divisible by 4 is taken to be 
 
 ## Related concepts
 
-* [[Kervaire invariant]]
-
+[[!include quadratic invariants - table]]
 
 ## References
 
