@@ -1,15 +1,22 @@
+## Definition
 
-##Idea 
+For a $k$-algebra $A$ and an (abelian) group $G$, the space of group morphisms with finite support
 
-Take the elements of a group, $G$, as labelling a basis for a vector space over a field $k$, then that multiplication of the group will extend to give that vector space the structure of an [[algebra]] over $k$. This is usually denoted $k[G]$.
+$$A[G]:=hom_{fin\,supp}(G,A)$$
 
+(i.e. space containing just those morphisms which send only finitely many elements of $G$ not to $0$) equipped with the multiplication defined by convolution of functions is called *group algebra of $A$ over $G$*. With pointwise addition $K[G]$ is an associative $A$-algebra. 
 
-If instead of a field we used the ring of integers, $\mathbb{Z}$, it is usual to call the result the __group ring__. For this we take the free abelian group on the set of elements of the group and extend the multiplication to give a ring structure  on the result.
- This is usually denoted $\mathbb{Z}[G]$. 
+Equivalently one can think of the multiplication inthe following way
 
-As a further generalisation, the field can be replaced by any commutative ring.
+Take the elements of a group, $G$, as labelling a module basis and define the multiplication of two elements by $x_g \cdot x_h:=x_{gh}$.
 
-## The multiplication:
+If $A$ is a ring one calls this construction also a *group ring*.
+
+The notion of group algebra is a special case of that of a [[category algebra]].
+
+Any group algebra is in particular a [[Hopf algebra]] and a [[graded algebra]].
+
+### The convolution product
 
 If we denote by $e_g$, the generator corresponding to $g\in G$, then an arbitrary element of $k[G]$ can be written as $\sum_{g\in G}n_ge_g$ where the $n_g$ are elements of $k$, and only finitely many of them are non-zero. 
 
@@ -17,19 +24,34 @@ The multiplication is then by what is sometimes called a 'convolution' product, 
 
 $$\Big(\sum_{g\in G}n_ge_g\Big)\Big(\sum_{g\in G}m_ge_g\Big) = \sum_{g\in G}\Big(\sum_{g_1\in G}n_{g_1}m_{g_1^{-1}g}e_g\Big).$$
 
+## Properties
 
-##Thoughts
++-- {: .num_remark}
+###### Remark
+(The universal property of a group ring)
+There is an [[adjunction]]
 
-Thinking of a [[group]], $G$,  as a special sort of [[category]], the **group algebra** (denoted $k[G]$ or $k G$) of a group  is just the [[category algebra]] of that category. 
+$$(R[-]\dashv (-)^\times):Alg_R \stackrel{(-)^\times}{\to}Grp$$
 
-##Extra structure
+where $R[-]$ forms group rings and $(-)^\times$ assigns to an $R$-algebra its [[group of units]].
+=--
 
-The group algebra is always a [[Hopf algebra]]. 
++-- {: .num_remark}
+###### Remark
+Let $V$ be an abelian group. A morphism of rings $K[G]\to End(V)$ of the group ring to the endomorphism ring of $V$ is a $K[G]$-module. And any morphism of groups $p:G\to End(V)$ can by extended to a morphism of rings  $P:K[G]\to End (V)$ by $p(g)\mapsto P(e_g)$. This observation is used extensively in the theory of [[group representation|group representations]].
+=--
 
-The group algebra is always a [[graded algebra]]. 
++-- {: .num_remark}
+###### Remark
+([[Maschke's theorem]])
+Let $G$ be a finite group, let $K$ be a field.
 
+Then $K[G]$ is a [[semi-simple algebra]] iff the order of $G$ is not divisible by the [[characteristic]] of K.
+=--
 
-Sometimes instead of working over a [[ground field]] $k$, one allows $k$ to be a [[commutative unital ring]]. Then we talk about __group ring__ (though it is in fact a commutative unital $k$-[[commutative unital algebra|algebra]]). The integer group ring $\mathbb{Z} G$ is the most important example, extensively used in the [[representation theory]] of finite groups.
+## References
+
+* Kiyoshi Igusa,algebra II, part D: representaions of groups, [pdf](http://people.brandeis.edu/~igusa/Math101bS07/Math101b_notesD1a.pdf)   
 
 
 [[!redirects group ring]]
