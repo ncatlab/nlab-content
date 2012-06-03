@@ -51,7 +51,7 @@ is exact.
 
 +-- {: .num_defn}
 ###### Definition
-(Serre dual of a $p$-divisible group)
+([[Serre dual]] of a $p$-divisible group)
 
 Let $G$ be a $p$-divisible group $G$. The *Serre dual* $G^\prime$ of $G$ is defined by: let $G_j:=ker(p^j id_G)$ and let $p_j:G_{j+1}\to G_j$ is the map induced by $p id_G$. Then we define
 
