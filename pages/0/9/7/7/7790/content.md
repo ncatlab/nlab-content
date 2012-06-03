@@ -1,0 +1,11 @@
+
+
+## Related entries
+
+* [[Kac-Moody algebra]]
+
+## References
+
+* Nitya Kitchloo, _Topology of Kac-Moody groups_, PhD thesis (1993) ([pdf](http://www.math.ucsd.edu/~nkitchlo/papers/Thesis.pdf))
+
+[[!redirects Kac-Moody groups]]
