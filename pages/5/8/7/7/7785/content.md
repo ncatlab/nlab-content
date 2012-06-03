@@ -1,24 +1,25 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 
 ## Idea
 
-In [[quantum mechanics]], the _Born-Oppenheimer approximation_ is a method for approximating the [[energy]] a [[quantum mechanical system]] by identifying "light" and "heavy" degrees of freedom and then treating the solving for the "light" dynamics as if depending only on the static configuration of the "heavy" degrees of freedom.
+In [[quantum mechanics]], the _Born--Oppenheimer approximation_ is a method for approximating the [[energy]] a [[quantum mechanical system]] by identifying "light" and "heavy" degrees of freedom and then treating the solving for the "light" dynamics as if depending only on the static configuration of the "heavy" degrees of freedom.
 
 Historically this is motivated from, and still heavily used in practice, for the computation of energy spectra of [[molecules]], where the [[atomic nuclei]] are much heavier than the [[electrons]], so that their dynamics can be split off to a good degree of approximation.
+
 
 ## References
 
@@ -34,5 +35,10 @@ An review is for instance in section [2.2 The Born-Oppenheimer approximation](ht
 
 * Peter David Haynes, _Linear-scaling methods in ab initio quantum-mechanical calculations_ PhD thesis (1998) ([web](http://www.tcm.phy.cam.ac.uk/~pdh1001/thesis/thesis.html))
 
-[[!redirects Born-Oppenheimer approximations]]
 
+[[!redirects Born-Oppenheimer approximation]]
+[[!redirects Born-Oppenheimer approximations]]
+[[!redirects Born–Oppenheimer approximation]]
+[[!redirects Born–Oppenheimer approximations]]
+[[!redirects Born--Oppenheimer approximation]]
+[[!redirects Born--Oppenheimer approximations]]
