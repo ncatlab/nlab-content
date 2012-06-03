@@ -62,3 +62,10 @@ The term "M-theory" occurs somewhere around
 * [[Mike Duff]], _M-Theory (the Theory Formerly Known as Strings)_, 	Int.J.Mod.Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
 
 For more references see also _[[M2-brane]]_.
+
+Surveys of the discussion of E-series [[Kac-Moody algebras]]/[[Kac-Moody groups]] in the context of M-theory include 
+
+* Sophie de Buyl, _Kac-Moody Algebras in M-theory_, PhD thesis ([pdf](http://theses.ulb.ac.be/ETD-db/collection/available/ULBetd-06072006-153117/unrestricted/kmalgebrasinmth.pdf))
+
+See also the references at _[[exceptional generalized geometry]]_. 
+
