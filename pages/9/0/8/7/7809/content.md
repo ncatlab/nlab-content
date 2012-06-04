@@ -68,9 +68,22 @@ Then a $3n$-display satisfying the $V$-nilpotence condition locally on the [[spe
 
 ## Properties
 
+The following theorem compares the Dieudonn&#233; theory in terms of displays and the [[crystalline Dieudonné theory]] of Grothendieck and Messing [Messing](#Messing).
+
++-- {: .num_theorem}
+###### Theorem
+Let $\mathcal{P}:=(P,Q,F,V^{-1})$ be a display over $R$. Then there is an isomorphism of [[crystal|crystals]]
+
+$$D_\mathcal{P}\stackrel{\sim}{\to}\mathbf{D}_{B T_\mathcal{P}}(S)$$
+
+where on the right side is the crystal defined in [Messing](#Messing).
+=--
+
 ## Examples
 
 ## References
+
+* L. Bree, P. Berthelot, William Messing, theorie de Dieudonn&#233; cristalline II {#Messing}
 
 * T. Zink, the display of a formal p-divisible group, to appear in Asterisque, [pdf](http://www.math.uni-bielefeld.de/~zink/display.pdf)
 
