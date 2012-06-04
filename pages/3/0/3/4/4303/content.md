@@ -32,6 +32,9 @@ Therefore the nontriviality of the Pfaffian line bundle is in these dimensions t
 
 * [[fermionic path integral]]
 
+[[!include square roots of line bundles - table]]
+
+
 ## References
 
 The general notion of Pfaffian line bundle is described in section 3 of
