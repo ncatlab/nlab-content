@@ -142,9 +142,9 @@ Therefore indeed the symplectic pairing vanishes on the self-dual and on the ant
 Therefore a [[state]] of higher Chern-Simons theory on $\Sigma$ may locally be thought of as a function of the self-dual forms on $\Sigma$. Under holography this is (therefore) identified with the [[correlator]] of a [[self-dual higher gauge theory]] on $\Sigma$.
 
 ### Partition function
+ {#PartitionFunction}
 
-(...)
-
+By the above discussion (...) the [[partition function]] of self-dual higher gauge theory is given by (a multiple of) the unique [[holomorphic section]] of a [[square root]] of the [[line bundle]] classified by the [[secondary intersection pairing]]. ([Witten I](#WittenI), [Hopkins-Singer](#HopkinsSinger)).
 
 ## Examples
 
@@ -208,6 +208,7 @@ The idea of describing self-dual higher gauge theory by abelian Chern-Simons the
 Motivated by this the [[ordinary differential cohomology]] of self-dual fields had been discussed in 
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+ {#HopkinsSinger}
 
 The generalization of this to generalized [[differential cohomology]] is discussed from p. 26 on in
 
