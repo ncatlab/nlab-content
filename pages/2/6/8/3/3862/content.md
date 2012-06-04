@@ -150,6 +150,11 @@ In dimens&#238;on $8^k+2$ for $k \in \mathbb{N}$ the determinant line bundle has
 See [[fermionic path integral]].
 
 
+## Related concepts
+
+[[!include square roots of line bundles - table]]
+
+
 ## References
 
 The relation between determinant line bundles and the first Chern class is stated explicitly for instance on p. 414 of
