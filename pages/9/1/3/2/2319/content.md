@@ -52,6 +52,10 @@ For $\eta(s)$ the $SO$-principal bundle for which the [[tangent bundle]] $T X$ i
 
 ## Properties
 
+### Over a Riemann surface
+
+Over a [[Riemann surface]] spin structures correspond to [[square roots]] of the [[canonical bundle]]. See at _[[Theta characteristic]]_.
+
 ### As quantum anomaly cancellation condition  {#QuantumAnomaly}
 
 In the context of [[quantum field theory]] the existence of a spin structure on a [[Riemannian manifold]] $X$ arises notably as the condition for [[quantum anomaly]] cancellation of the [[sigma-model]] for the spinning particle -- the superparticle -- propagating on $X$. 
