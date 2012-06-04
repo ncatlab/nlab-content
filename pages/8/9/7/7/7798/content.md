@@ -25,8 +25,11 @@ a _$\Theta$-characteristic of $X$ is a choice of [[square root]] of the [[canoni
 ## Examples
 
 ### Over Riemann surfaces
+ {#OverRiemannSurfaces}
 
 For $X$ a [[Riemann surface]], the choices of square roots of the canonical bundle correspond to the choice of [[spin structures]] ([Atiyah, prop. 3.2](#Atiyah)). For $X$ of [[genus of a surface|genus]] $g$, there are $2^{2g}$ many choices of square roots of the canonical bundle. 
+
+The function that sends a square root line bundle to the [[dimension]] of its space of [[holomorphic sections]] $mod 2$ is a [[quadratic refinement]] of the [[intersection pairing]] on $H^1(X, \mathbb{Z}_2)$ ([Atiyah, theorem 2](#Atiyah)).
 
 
 ## Related concepts
