@@ -1731,11 +1731,42 @@ After discussing some generalities of these higher unitary-twisted connected cov
 |  [[twisted differential fivebrane structure]] | [[Green-Schwarz mechanism]] in [[dual heterotic string theory]] |
 
 
-#### Higher gauge theory anomalies
+#### Fermionic anomalies cancelled by differential twists
 
-Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]] below, we make some introductory comments on the general origin of twisted differential structures in higher gauge theory. A nice account of that is given in ([Freed](#Freed)).
+Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]] below, we make some introductory comments on the general origin of twisted differential structures in higher gauge theory. A nice account of that is given in ([Freed](#Freed)). 
 
 (...)
+
+
+first: higher gauge fields are elements in the set of cohomology classes: gauge equivalence classes
+
+then: need to refine this to a [[groupoid]] where gauge fields are the [[objects]] and [[gauge transformations]] are the [[morphisms]] -- reasons: 
+
+Dirac's [famous argument](electromagnetic+field#ChargeQuantization) that leads to the observation that the [[electromagnetic field]] is modeled by a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]] only works in the absence of or outside of the [[support]] of [[magnetic charge]]. Because the [[Maxwell equations]] are
+
+* $d F = J_{mag}$ ([[magentic charge]] [[current]])
+
+* $d \star F = J_{el}$ ([[electric charge]] [[current]])
+
+and the first can be true for $F$ the [[curvature]] of a [[line bundle]] only if $J_{mag} = 0$.
+
+While for phenomenologically observed electromagnetism it is consistent to assume that $J_{mag} = 0$, this is not the case for general theories, notably not for [[heterotic supergravity]], as we discuss in a moment. There, 
+
+* $J^{NS5}_{mag} = \langle F_\omega \wedge F_\omega\rangle -\langle F_A \wedge F_A\rangle$
+
+is non-vanishing. So one needs to find another way to refine $d F  = J_{mag}$ to differential cohomology:
+
+interpret it as a morphism in the groupoid of differential cocycles
+
+$$
+  0 \stackrel{\hat F}{\to} \hat J_{mag}
+  \,.
+$$
+
+
+other reason to consider this groupoid: needed in order to construct the [[quadratic refinement]] of the [[secondary intersectoin pairing]] that defines the partition function of [[self-dual higher gauge theory]] ([Hopkins-Singer](#HopkinsSinger))
+
+
 
 
 #### Higher unitary-twisted covers of $O$
