@@ -1739,10 +1739,20 @@ Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-
 > under construction -- check again later
 
 Gauge theory starts maybe with Maxwell around 1850, who discovered, in modern language, that the [[field strength]] of the [[electromagnetic field]] on [[spacetime]] is encoded in a closed [[differential form|differential 2-form]] $F \in \Omega^2_{cl}(X)$.
+Then in the 1930s Dirac's [famous argument](electromagnetic+field#ChargeQuantization) showed that more precisely -- _in the absence_ of, or _outside of_ the [[support]] of [[magnetic charge]] [[current]] -- this 2-form is the [[curvature]] of a [[circle group]]-[[principal bundle]] [[connection on a bundle|with connection]], a 2-cocycle $\hat F$ in [[ordinary differential cohomology]].
 
-Then in the 1930s Dirac's [famous argument](electromagnetic+field#ChargeQuantization) showed that more precisely -- in the absence of, or outside of the [[support]] of [[magnetic charge]] [[current]] -- this 2-form is the [[curvature]] of a [[circle group]]-[[principal bundle]] [[connection on a bundle|with connection]], a 2-cocycle $\hat F$ in [[ordinary differential cohomology]].
+In view of this the [[gauge transformation|gauge]] [[equivalence classes]] of configurations of the electromagnetic field on $X$ form the set
 
-The [[Maxwell equations]] that the electromagnetic field has to satisfy are
+$$
+  H^2_{diff}(X) \coloneqq \tau_0 \mathbf{H}(X, \mathbf{B}U(1)_{conn})
+$$ 
+
+of differential cohomology classes in degree 2 on $X$.
+
+Dirac's argument works outside the support of the magnetic current, where it is easier to handle. The twists and anomalies that we are concerned with here arise when one completes Dirac's argument, and generalizes the model of the electromagnetic field to exist also over parts of spacetime where the magnetic current has support ([Freed](#Freed)).
+
+
+To see what happens in that case, notice that the original [[Maxwell equations]] on the [[field strength]]/[[curvature]] 2-form of the electromagnetic field are:
 
 1. $d_{dR} F = J_{mag}$ ([[magnetic charge]] [[current]])
 
@@ -1750,39 +1760,38 @@ The [[Maxwell equations]] that the electromagnetic field has to satisfy are
 
 where $\star$ is the [[Hodge star operator]] for the given [[pseudo-Riemannian metric|pseudo]] [[Riemannian metric]] (the field of [[gravity]]) on $X$.
 
-The first one equation the _kinematic_ constraint. For $J_{mag} = 0$ it just expresses that the cuvature 2-form is closed, which is part of the fact that $\hat F$ is a differential cocycle, so it is satisfied by all kinematic field configurations, meaning: by all points in the off-shell [[moduli stack]] $[X, \mathbf{B}U(1)_{conn}]$. 
+1. The first one is _[[kinematics]]_. For $J_{mag} = 0$ it just expresses that the cuvature 2-form is closed, which is part of the fact that $\hat F$ is a differential cocycle, so it is satisfied by all kinematic field configurations, meaning: all elements of $H^{n+1}_{diff}(X)$. 
 
-The second is _dynamics_, being the [[equations of motion]] of the system. The configurations that satisfy this form the [[covariant phase space]]
-$P \hookrightarrow [X, \mathbf{B}U(1)_{conn}]$ of the theory. For our purposes here this will not concern us, we work "off-shell".
+1. The second is _[[dynamics]]_, being the [[equations of motion]] of the system. The configurations that satisfy this form the [[covariant phase space]] ([[BV-BRST complex]]) $P \hookrightarrow [X, \mathbf{B}U(1)_{conn}]$ of the theory. For our purposes here this will not concern us, since the anomalies and twists are kinematic in nature, we work "off-shell".
 
-While for phenomenologically observed electromagnetism it is consistent to assume that $J_{mag} = 0$, this is not the case for general theories, notably not for [[heterotic supergravity]], as we discuss in a moment. There, 
+Once the electromagnetic field is identified as a degree-2 cocycle in ordinary differential cohomology, it is evident how to generalize 
 
-* $J^{NS5}_{mag} = \langle F_\omega \wedge F_\omega\rangle -\langle F_A \wedge F_A\rangle$
+While for experimentally observed electromagnetism it is consistent to assume that $J_{mag} = 0$, this is not the case for general gauge theories, notably not for [[heterotic supergravity]], as we discuss in a moment. There the gauge field and the field of gravity induce a non-vanishing "fivebrane magnetic current"
 
-is non-vanishing. So one needs to find another way to refine $d F  = J_{mag}$ to differential cohomology.
+* $J^{NS5}_{mag}(\phi_{gr}, \phi_{ga}) = \langle F_\omega \wedge F_\omega\rangle -\langle F_A \wedge F_A\rangle$
 
-Consider not just the _set_ 
+But for every [[circle n-bundle with connection]] the curvature is necessarily closed, $d_{dR} F = 0$. So one needs to find another way to refine $d F  = J_{mag}$ to differential cohomology.
 
-$$
-  H^2_{diff}(X) \coloneqq \tau_0 \mathbf{H}(X, \mathbf{B}U(1)_{conn})
-$$ 
+(Notice for later that the natural home of $J_{mag}$ is not plain [[de Rham cohomology]], but [[compactly supported cohomology]]. The equation $d_{dR} F = J_{mag}$ is a trivialization of the image of $J_{mag}$ in de Rham cohomology, but not in general a trivialization in compactly supported cohomology.)
 
-of differential cohomology classes in degree 2 on $X$, but the 1-groupoid 
+Consider therefore now the [[groupoid]]
 
 $$
   \mathcal{H}^{n+1}_{diff}(X) \coloneqq 
    \tau_1 \mathbf{H}(X, \mathbf{B}^n U(1)_{conn})
 $$ 
 
-whose 
+$H^{n+1}_{diff}(X)$, whose 
 
 * [[objects]] are [[cocycles]] in degree-$(n+1)$ differential cohomology: [[circle n-group]]-[[circle n-bundles with connection]];
 
-* [[morphisms]] are equivalence classes of [[gauge transformations]] between these.
+* [[morphisms]] are equivalence classes of [[gauge transformations]] between these, hence equivalence classes of morphisms of higher bundles _with connection_.
+
+This "[[categorification|categorifies]]" the cohomology set $H^{n+1}_{diff}(X)$ in that the letter is its [[decategorification]]: the set of [[isomorphism]] classes of objects.
 
 For instance if differential cohomology is modeled by the [[Deligne complex]] with [[differential]] $D = d_{dR} \pm \delta$, then a morphism $\hat \alpha : \hat F_1 \to \hat F_2$ in $\mathcal{H}_{diff}^3(X)$ is a Deligne [[coboundary]] $D \hat \alpha = \hat F_2 - \hat F_1$. 
 
-A morphism
+Notice that, since morphisms in $\mathcal{H}^{n+1}_{diff}(X)$ preserve the [[connection on an infinity-bundle|higher connection]], a morphism
 
 $$
   0 \to \hat F
@@ -1794,30 +1803,51 @@ $$
   \omega \to \hat F
 $$
 
-for some $\omega \in \Omega^n(X)$ is a possibly non-flat section. 
+for some $\omega \in \Omega^n(X) \hookrightarrow \mathcal{H}^{n+1}_{diff}(X)$ is a possibly non-flat section, hence a section just of the underlying [[circle n-group]]-[[principal ∞-bundle]].
 
-Using this, we may improve the definition of the electromagnetic field on $X$: take it to be a _morphism_:
+(Beware of this subtlety when comparing with ([Freed](#Freed)): a differential as on the fifth line of [p. 8](arxiv.org/pdf/hep-th/0011220v2.pdf#page=8) there changes the curvature, hence shifts the connection instead of just gauge-transforming it, in contrast to the coboundaries further below on that page and on [p. 9](arxiv.org/pdf/hep-th/0011220v2.pdf#page=9), which are the ones we are considering here.) 
+
+Using this, we may improve the definition of the electromagnetic field on $X$: take it to be a non-flat section 
 
 $$
   \hat \mathbf{c} \stackrel{\hat F}{\to} c_{mag}
   \,.
 $$
 
+of a _magnetic charge [[circle n-bundle with connection|circle 2-bundle with connection]]_ $\hat \mathbf{c} \in \mathcal{H}^{n+1}_{diff}(X)$.
+
 $$
-  D (g_{i j}, A_i)
-  = 
-  ((\delta g)_{i j k}, A_j - A_i + d_{dR} log g_{i j}, d_{dR} A_i)
-  = 
-  ( c_{i j k}^{-1}, -\gamma_{i j},  c_{mag} - \beta_i )
+  \array{
+    & \nearrow \searrow^{\mathrlap{\hat \mathbf{c}}}
+    \\
+    X &\Downarrow^{\mathrlap{\hat F}}& \mathbf{B}^n U(1)_{conn}
+    \\
+    & \searrow \nearrow_{c_{mag}}
+  }
+  \,.
 $$
 
-so with 
+If $\hat F$ is given by a Deligne cochain $(g_{i j}, A_i)$, $\hat \mathbf{c}$ by a cochain $(c_{i j k}, \gamma_{i j}, \beta_i)$ then this means that
+
+$$
+  \begin{aligned}
+    D (g_{i j}, A_i)
+    &= 
+    ((\delta g)_{i j k}, A_j - A_i + d_{dR} log g_{i j}, d_{dR} A_i)
+    \\
+    & = 
+    ( c_{i j k}^{-1}, -\gamma_{i j},  c_{mag} - \beta_i )
+  \end{aligned}
+$$
+
+We say that $\hat F$ is a _$\hat \mathbf{c}$-twisted bundle_ with _twisted curvature_ being
 
 $$
   F \coloneqq d A_i + \beta_i = c_{mag}
+  \,.
 $$ 
 
-the twisted curvature, we have the first [[Maxwell equation]]
+This now solves the first [[Maxwell equation]] in the presence of magnetic current
 
 $$
   d_{dR} F = J_{mag}
