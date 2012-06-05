@@ -1,5 +1,3 @@
-[[!redirects VictorPorton]]
-
 
 Victor Porton is the owner of a [math site](http://www.mathematics21.org/) with some research (mainly in general topology) and [math weblog](http://portonmath.wordpress.com/2009/05/). He wishes to be nominated for the Abel Prize ([link](http://www.mathematics21.org/abel-prize.html)).
 
@@ -12,4 +10,12 @@ You added a note to the top of [[Categories and Sheaves]] that seemed to be more
 ---[[Toby Bartels]]
 =--
 
+
 category: people
+
+[[!redirects VictorPorton]]
+[[!redirects Victor Porton]]
+[[!redirects generalized continuity]]
+[[!redirects circuitoid]]
+[[!redirects circuitoids]]
+[[!redirects Circuitoids]]
