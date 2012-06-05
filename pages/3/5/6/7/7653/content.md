@@ -1749,10 +1749,9 @@ $$
 
 of differential cohomology classes in degree 2 on $X$.
 
-Dirac's argument works outside the support of the magnetic current, where it is easier to handle. The twists and anomalies that we are concerned with here arise when one completes Dirac's argument, and generalizes the model of the electromagnetic field to exist also over parts of spacetime where the magnetic current has support ([Freed](#Freed)).
+Dirac's argument works outside the support of the magnetic current, where the situation is comparatively easier to handle. But the twists and anomalies that we are concerned with here arise when one completes Dirac's argument, and generalizes the model of the electromagnetic field to exist also over parts of spacetime where the magnetic current is non-trivial ([Freed](#Freed)). Among other things the following shows that twists by higher bundles and differential cohomology is not just something that arises in string theory, but is already present in dear-old electromagnetism.
 
-
-To see what happens in that case, notice that the original [[Maxwell equations]] on the [[field strength]]/[[curvature]] 2-form of the electromagnetic field are:
+To see what happens in that general case, notice that the original [[Maxwell equations]] on the [[field strength]]/[[curvature]] 2-form of the electromagnetic field are:
 
 1. $d_{dR} F = J_{mag}$ ([[magnetic charge]] [[current]])
 
@@ -1764,24 +1763,23 @@ where $\star$ is the [[Hodge star operator]] for the given [[pseudo-Riemannian m
 
 1. The second is _[[dynamics]]_, being the [[equations of motion]] of the system. The configurations that satisfy this form the [[covariant phase space]] ([[BV-BRST complex]]) $P \hookrightarrow [X, \mathbf{B}U(1)_{conn}]$ of the theory. For our purposes here this will not concern us, since the anomalies and twists are kinematic in nature, we work "off-shell".
 
-Once the electromagnetic field is identified as a degree-2 cocycle in ordinary differential cohomology, it is evident how to generalize 
-
 While for experimentally observed electromagnetism it is consistent to assume that $J_{mag} = 0$, this is not the case for general gauge theories, notably not for [[heterotic supergravity]], as we discuss in a moment. There the gauge field and the field of gravity induce a non-vanishing "fivebrane magnetic current"
 
 * $J^{NS5}_{mag}(\phi_{gr}, \phi_{ga}) = \langle F_\omega \wedge F_\omega\rangle -\langle F_A \wedge F_A\rangle$
 
-But for every [[circle n-bundle with connection]] the curvature is necessarily closed, $d_{dR} F = 0$. So one needs to find another way to refine $d F  = J_{mag}$ to differential cohomology.
+But for a [[circle n-bundle with connection]] in $H^{n+1}_{diff}(X)$, the curvature is necessarily closed, $d_{dR} F = 0$. So there must be another way to refine $d F  = J_{mag}$ to differential cohomology.
 
-(Notice for later that the natural home of $J_{mag}$ is not plain [[de Rham cohomology]], but [[compactly supported cohomology]]. The equation $d_{dR} F = J_{mag}$ is a trivialization of the image of $J_{mag}$ in de Rham cohomology, but not in general a trivialization in compactly supported cohomology.)
+(Notice for later that the natural home of $J_{mag}$ is not plain [[de Rham cohomology]], but [[compactly supported cohomology]]. The equation $d_{dR} F = J_{mag}$ is a trivialization of the image of $J_{mag}$ in de Rham cohomology, but not in general a trivialization of the magnetic current as an entity living in compactly supported cohomology.)
 
 Consider therefore now the [[groupoid]]
 
 $$
   \mathcal{H}^{n+1}_{diff}(X) \coloneqq 
    \tau_1 \mathbf{H}(X, \mathbf{B}^n U(1)_{conn})
+  \,,
 $$ 
 
-$H^{n+1}_{diff}(X)$, whose 
+whose 
 
 * [[objects]] are [[cocycles]] in degree-$(n+1)$ differential cohomology: [[circle n-group]]-[[circle n-bundles with connection]];
 
@@ -1789,7 +1787,21 @@ $H^{n+1}_{diff}(X)$, whose
 
 This "[[categorification|categorifies]]" the cohomology set $H^{n+1}_{diff}(X)$ in that the letter is its [[decategorification]]: the set of [[isomorphism]] classes of objects.
 
-For instance if differential cohomology is modeled by the [[Deligne complex]] with [[differential]] $D = d_{dR} \pm \delta$, then a morphism $\hat \alpha : \hat F_1 \to \hat F_2$ in $\mathcal{H}_{diff}^3(X)$ is a Deligne [[coboundary]] $D \hat \alpha = \hat F_2 - \hat F_1$. 
+For instance if differential cohomology is modeled by the [[Deligne complex]] with [[differential]] $D = d_{dR} \pm \delta$, then a morphism $\hat \alpha : \hat F_1 \to \hat F_2$ in $\mathcal{H}_{diff}^{n+1}(X)$ is a Deligne [[coboundary]] $D \hat \alpha = \hat F_2 - \hat F_1$. 
+
+Or in terms of our smooth moduli stacks, this is a homotopy
+
+$$
+  \array{
+    & \nearrow \searrow^{\mathrlap{\hat F_1}}
+    \\
+    X &\Downarrow^{ \hat \alpha }& \mathbf{B}^n U(1)_{conn}
+    \\
+    & \searrow \nearrow_{ \mathrlap{\hat F_2}  }
+  }
+  \,.
+$$
+
 
 Notice that, since morphisms in $\mathcal{H}^{n+1}_{diff}(X)$ preserve the [[connection on an infinity-bundle|higher connection]], a morphism
 
@@ -1800,12 +1812,14 @@ $$
 in $\mathcal{H}^{n+1}_{diff}(X)$ is a _flat section_ of the corresponding circle $n$-bundle, while a morphim
 
 $$
-  \omega \to \hat F
+  B \to \hat F
 $$
 
-for some $\omega \in \Omega^n(X) \hookrightarrow \mathcal{H}^{n+1}_{diff}(X)$ is a possibly non-flat section, hence a section just of the underlying [[circle n-group]]-[[principal ∞-bundle]].
+for some $B \in \Omega^n(X) \hookrightarrow \mathcal{H}^{n+1}_{diff}(X)$ is a possibly non-flat section, hence a section just of the underlying [[circle n-group]]-[[principal ∞-bundle]]: it exhibits the fact that if the underlying bundle has a section, then the connection is equivalently given by a globally defined $n$-form $B$.
 
-(Beware of this subtlety when comparing with ([Freed](#Freed)): a differential as on the fifth line of [p. 8](arxiv.org/pdf/hep-th/0011220v2.pdf#page=8) there changes the curvature, hence shifts the connection instead of just gauge-transforming it, in contrast to the coboundaries further below on that page and on [p. 9](arxiv.org/pdf/hep-th/0011220v2.pdf#page=9), which are the ones we are considering here.) 
+(Beware of this subtlety when comparing with ([Freed](#Freed)): a differential as on the fifth line of [p. 8](arxiv.org/pdf/hep-th/0011220v2.pdf#page=8) there may change the curvature by an exact term, hence may not preserve the connection, in contrast to the coboundaries further below on that page and on [p. 9](arxiv.org/pdf/hep-th/0011220v2.pdf#page=9), which are the ones we are considering here.) 
+
+(Another reason for considering the groupoid $\mathcal{H}^{n+1}_{diff}(X)$ is that it is needed in order to construct the [[quadratic refinement]] of the [[secondary intersection pairing]] that defines the partition function of [[self-dual higher gauge theory]] ([Hopkins-Singer](#HopkinsSinger)). This underlies the discussion of flux quantization [below](#SuGraFluxQuantization).)
 
 Using this, we may improve the definition of the electromagnetic field on $X$: take it to be a non-flat section 
 
@@ -1814,15 +1828,17 @@ $$
   \,.
 $$
 
-of a _magnetic charge [[circle n-bundle with connection|circle 2-bundle with connection]]_ $\hat \mathbf{c} \in \mathcal{H}^{n+1}_{diff}(X)$.
+of a _magnetic charge [[circle n-bundle with connection|circle 2-bundle with connection]]_ $\hat \mathbf{c} \in \mathcal{H}^{3}_{diff}(X)$.
 
 $$
   \array{
-    & \nearrow \searrow^{\mathrlap{\hat \mathbf{c}}}
+    X &\to&
     \\
-    X &\Downarrow^{\mathrlap{\hat F}}& \mathbf{B}^n U(1)_{conn}
+    {}^{\mathllap{c_{mag}}}\downarrow 
+     &\swArrow_{\hat F}& 
+    downarrow^{\mathrlap{\hat \mathbf{c}}}
     \\
-    & \searrow \nearrow_{c_{mag}}
+    \Omega^2(-) &\stackrel{}{\hookrightarrow}& \mathbf{B}^2 U(1)_{conn}
   }
   \,.
 $$
@@ -1832,36 +1848,47 @@ If $\hat F$ is given by a Deligne cochain $(g_{i j}, A_i)$, $\hat \mathbf{c}$ by
 $$
   \begin{aligned}
     D (g_{i j}, A_i)
-    &= 
-    ((\delta g)_{i j k}, A_j - A_i + d_{dR} log g_{i j}, d_{dR} A_i)
+    & \coloneqq 
+    ((\delta g)_{i j k},\; A_j - A_i + d_{dR} log g_{i j},\; d_{dR} A_i)
     \\
     & = 
-    ( c_{i j k}^{-1}, -\gamma_{i j},  c_{mag} - \beta_i )
+    ( c_{i j k}^{-1},\; -\gamma_{i j}, \;  c_{mag} - \beta_i )
   \end{aligned}
 $$
 
-We say that $\hat F$ is a _$\hat \mathbf{c}$-twisted bundle_ with _twisted curvature_ being
+We say that $\hat F$ is a _$\hat \mathbf{c}$-[[twisted infinity-bundle|twisted bundle]]_ with _twisted curvature_ being
 
 $$
-  F \coloneqq d A_i + \beta_i = c_{mag}
+  F \coloneqq d A_i + \beta_i
   \,.
 $$ 
 
-This now solves the first [[Maxwell equation]] in the presence of magnetic current
+This now correspondingly has a twisted [[Bianchi identity]], which is precisely so that it solves the first [[Maxwell equation]] in the presence of magnetic current: $d_{dR} F = J_{mag}$.
+
+While we have been discussing this here for ordinary electromagnetism, this is precisely the mechanism by which also the higher cases will work: for the [[heterotic string theory|heterotic]] [[Green-Schwarz mechanism]] the analogy is
 
 $$
-  d_{dR} F = J_{mag}
+  \array
+    F &=& d_{dR} A_i & &+& \beta_i
+    \\
+    \\
+    H_i &=& d_{dR} B_i &+& CS(\omega_i) - CS(A_i)
+  }
   \,.
 $$
 
-But what is then a gauge transformation? Clearly, for this we need the 2-groupoid of differential cocycles
+Before we get there, we need to observe that working with the 1-groupoid $\mathcal{H}^{n+1}_{diff}(X)$ is not sufficient. We discuss now that we necessarily need the full [[n-groupoid]] and moreover its smooth refinement to the full smooth $n$-stack $[X, \mathbf{B}^n U(1)_{conn}]$ in order to capture the physics situation.
+
+
+To see that we need the full higher groupoid, just consider the question:
+what is a gauge transformation between fields that are now morphisms $\hat \mathbf{c} \stackrel{\hat F}{\to} c_{mag}$ as above? Clearly, for this we need the 2-groupoid of differential cocycles
 
 $$
   \tau_2 \mathbf{H}(X, \mathbf{B}^n U(1)_{conn})
   \,,
 $$
 
-to next say that a gauge transformation is a [[2-morphism]]
+to next say that a gauge transformation $\hat F_1 \to \hat F_2$ is a [[2-morphism]]
 
 $$
   \array{
@@ -1874,7 +1901,6 @@ $$
   \,.
 $$
 
-(other reason to consider this groupoid: needed in order to construct the [[quadratic refinement]] of the [[secondary intersection pairing]] that defines the partition function of [[self-dual higher gauge theory]] ([Hopkins-Singer](#HopkinsSinger)))
 
 
 We also need a parameterized (notably: smoothly parameterized) refinement, for the following reasons
