@@ -1714,29 +1714,24 @@ We indicate briefly how this is constructed.
 
 (...)
 
-### **III)** $Spin^c$-, $String^c$-, $Fivebrane^c$-structure 
- {#TwistedK}
-
-In the [previous section](#SpinStringFivebraneStructures) we have considered higher differential structures originating in the [[orthogonal group]]. In applications to [[string theory]] these structures receive twists originating in the [[unitary group]] (or representations through the unitary group of groups like [[E8]]). (The orthogonal structures correspond to the field of [[gravity]], while the unitary structures correspond to [[gauge fields]].)
-
-Accordingly, the [above Whitehead tower](#WhiteheadTower) of $\mathbf{B}O$ has stage-wise _[[unitary group|unitary]] twistings_. In the first stage this is given by the familiar [[spin^c]]-group, then there is a [[String^c 2-group]], etc.
-
-After discussing some generalities of these higher unitary-twisted connected covers of the orthogonal group [below](#HigherUnitaryTwistedCovers) we then turn to discussing a list of twisted structures and their appearance in string theory:
-
-| unitary-twisted higher orthogonal structure| role in string theory |
-|--|--|
-| [[twisted spin^c structure|twisted differential spin^c structure]] | [[Freed-Witten anomaly cancellation]] for [[type II string theory|type II strings]] on [[D-branes]]|
-| [[supergravity C-field|twisted differential String^c-structure]] | flux quantization in [[11-dimensional supergravity|11d sugra]]/[[M-theory]] with [[M5-branes]] |
-|  [[twisted differential string structure]] | [[Green-Schwarz mechanism]] in [[heterotic string theory]] |
-|  [[twisted differential fivebrane structure]] | [[Green-Schwarz mechanism]] in [[dual heterotic string theory]] |
-
-
-#### Fermionic anomalies cancelled by differential twists
+### Interlude: the anomaly line bundle on the smooth moduli stack of higher gauge fields
  {#Anomalies}
+
 
 Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]] below, we make some introductory comments on the general origin of twisted differential structures in higher gauge theory, following ([Freed](#Freed)). We add some stacky aspects to that and explain why.
 
-> under construction -- check again later
+In summary, we discuss how the action functional of higher gauge theory in the presence of electric and magnetic charge is a [[circle n-bundle with connection|circle bundle with connection]] on the [[smooth ∞-groupoid|smooth ∞-stack]] of field configurations on a given [[spacetime]] $X$, given by a morphism
+
+$$
+  \nabla_{higher\;gauge\;anomaly}
+   : 
+  [X, \mathbf{Fields}]
+   \stackrel{}{\to}
+  \mathbf{B} U(1)
+  \,.
+$$
+
+#### Higher gauge fields in the presence of magnetic charge current
 
 Gauge theory starts maybe with Maxwell around 1850, who discovered, in modern language, that the [[field strength]] of the [[electromagnetic field]] on [[spacetime]] is encoded in a closed [[differential form|differential 2-form]] $F \in \Omega^2_{cl}(X)$.
 Then in the 1930s Dirac's [famous argument](electromagnetic+field#ChargeQuantization) showed that more precisely -- _in the absence_ of, or _outside of_ the [[support]] of [[magnetic charge]] [[current]] -- this 2-form is the [[curvature]] of a [[circle group]]-[[principal bundle]] [[connection on a bundle|with connection]], a 2-cocycle $\hat F$ in [[ordinary differential cohomology]].
@@ -1836,7 +1831,7 @@ $$
     \\
     {}^{\mathllap{c_{mag}}}\downarrow 
      &\swArrow_{\hat F}& 
-    downarrow^{\mathrlap{\hat \mathbf{c}}}
+    \downarrow^{\mathrlap{\hat \mathbf{c}}}
     \\
     \Omega^2(-) &\stackrel{}{\hookrightarrow}& \mathbf{B}^2 U(1)_{conn}
   }
@@ -1868,27 +1863,25 @@ This now correspondingly has a twisted [[Bianchi identity]], which is precisely 
 While we have been discussing this here for ordinary electromagnetism, this is precisely the mechanism by which also the higher cases will work: for the [[heterotic string theory|heterotic]] [[Green-Schwarz mechanism]] the analogy is
 
 $$
-  \array
-    F &=& d_{dR} A_i & &+& \beta_i
+  \array{
+    twisted\;curvature & & d_{dR}(gauge\;potential) && twist
+    \\
+    F &=& d_{dR} A_i &+& \beta_i && general case
     \\
     \\
-    H_i &=& d_{dR} B_i &+& CS(\omega_i) - CS(A_i)
+    H_i &=& d_{dR} B_i &+& CS(\omega_i) - CS(A_i) && heterotic\;sugra
   }
   \,.
 $$
 
-Before we get there, we need to observe that working with the 1-groupoid $\mathcal{H}^{n+1}_{diff}(X)$ is not sufficient. We discuss now that we necessarily need the full [[n-groupoid]] and moreover its smooth refinement to the full smooth $n$-stack $[X, \mathbf{B}^n U(1)_{conn}]$ in order to capture the physics situation.
+Before we get there, we need to observe that working with the 1-groupoid $\mathcal{H}^{n+1}_{diff}(X)$ is not sufficient. We discuss now that we necessarily need the full [[n-groupoid]] and moreover its smooth refinement to the full [[smooth infinity-groupoid|smooth n-stack]] $[X, \mathbf{B}^n U(1)_{conn}]$ in order to capture the physics situation.
 
+#### Gauge transformations
 
 To see that we need the full higher groupoid, just consider the question:
-what is a gauge transformation between fields that are now morphisms $\hat \mathbf{c} \stackrel{\hat F}{\to} c_{mag}$ as above? Clearly, for this we need the 2-groupoid of differential cocycles
+what is a [[gauge transformation]] between twisted electromagnetic fields, that are now identified with morphisms $\hat \mathbf{c} \stackrel{\hat F}{\to} c_{mag}$ as above? Clearly, for this we need the [[2-groupoid]] of differential cocycles $\tau_2 \mathbf{H}(X, \mathbf{B}^n U(1)_{conn})$
 
-$$
-  \tau_2 \mathbf{H}(X, \mathbf{B}^n U(1)_{conn})
-  \,,
-$$
-
-to next say that a gauge transformation $\hat F_1 \to \hat F_2$ is a [[2-morphism]]
+to next say that the equivalenc class of a gauge transformation of twisted fields $\hat a : \hat F_1 \to \hat F_2$ is a [[2-morphism]]
 
 $$
   \array{
@@ -1898,26 +1891,34 @@ $$
     \\
     & \searrow \nearrow_{\mathrlap{\hat F_2}}
   }
+  \;\;\;
+  \in \tau_{2} \mathbf{H}(X, \mathbf{B}^n U(1)_{conn})
   \,.
 $$
 
+That we moreover need the full [[smooth infinity-groupoid|smooth n-groupoid]] $[X, \mathbf{B}^n U(1)_{conn}]$ has several reasons, we discuss three. The third one of these is related to the higher gauge anomalies proper.
 
 
-We also need a parameterized (notably: smoothly parameterized) refinement, for the following reasons
+#### Magnetic current induced by background fields
 
-1. The magnetic twist $\hat \mathbf{c}$ will depend on other field configurations that induce magnetic charge. So the question is not so much to solve the above equation, but _where_ it has solutions.
 
-1. We need the [[BRST complex]] of the gauge fields. Claim: for ordinary gauge theory this is the [[Lie algebroid]] of the smooth version $[X, \mathbf{B}G_{conn}]$. Similarly for higher gauge theory it is the [[L-infinity algebroid]].
+The magnetic twist $\hat \mathbf{c}$ will depend on other field configurations that induce magnetic charge. So it is not a constant, but _varies with the fields_. 
 
-1. We need to consider the following "in families", hence as stacks (...).
+(In fact, only this way is it a non-trivial stricture, for if both $\hat c$ and $c_{mag}$ are independent of the fields, the above definition of the groupoid of $\hat F$s is [[equivalence of groupoids|equivalent]] to that of untwisted electromagnetic fields: because [[homotopy fibers]] only depend on the connected component of the base points, up to equivalence.)
 
-Let $G^{bg}$ be the gauge group of a [[background gauge field]], let $[X, \mathbf{B}G^{bg}_{conn}]$ be its moduli stack of field configurations, and let
+Let therefore $G^{bg}$ be the gauge group of another [[background gauge field]], and let $\mathbf{B}G^{bg}_{conn}$ be its moduli stack of gauge field configurations. If a $G^{bg}$-field _induces_ magnetic current, then $\hat \mathbf{c}$ must depend on the fields, hence it should be a map
 
 $$
-  \hat \mathbf{c} : \mathbf{B}G^{bg}_{conn}] \to \mathbf{B}^2 U(1)_{conn}
+  [X, \mathbf{B}G^{bg}_{conn}] \to [X, \mathbf{B}^2 U(1)_{conn}]
 $$
 
-be the above $\hat \mathbf{c}$, now depending on the background gauge field configurations. Then a twisted gauge field is now
+between these spaces of fields, and it should be a _smooth_ such map. Moreover, in general this is not expected to depend specifically the specific choice of $X$, but just on the notion of $G^{bg}$-fields in general, so it should be given just by postcompositon
+
+$$
+  \hat \mathbf{c} : \mathbf{B}G^{bg}_{conn} \to \mathbf{B}^2 U(1)_{conn}
+$$
+
+with a universal smooth map on moduli. With that given, the above picture for the $\hat \mathbf{c}$-twisted higher electric field becomes
 
 $$
   \array{
@@ -1925,32 +1926,85 @@ $$
     \\
     \downarrow &\swArrow_{\hat F}& \downarrow^{\mathrlap{\hat \mathbf{c}}}
     \\
-    \Omega^2(-) &\stackrel{}{\to}& \mathbf{B}^2 U(1)_{conn}
+    \Omega^2(-) &\stackrel{}{\to}& \mathbf{B}^n U(1)_{conn}
+  }
+  \,.
+$$
+
+We can then subsume all this and consider the smooth collection of all such twisting background fields $\phi^{bg}$ and twisted gauge fields $\hat F$. By general reasoning, this is given by the [[homotopy pullback]] that universally completes the above diagram
+
+$$
+  \array{
+    \mathbf{Fields} &\stackrel{\phi_{bg}}{\to}& \mathbf{B}G^{bg}_{conn}{}^{univ}
+    \\
+    \downarrow &\swArrow_{\hat F^{univ}}& \downarrow^{\mathrlap{\hat \mathbf{c}}}
+    \\
+    \Omega^2(-) &\stackrel{}{\to}& \mathbf{B}^n U(1)_{conn}
   }
 $$
 
+#### Infinitesimal moduli stacks: BRST complexes
 
-Next, to quantize we need the [[action functional]]. The kinetic piece is simply $\exp(i S_{kin}(\hat F)) = \exp(i \int_X F \wedge \ast F)$.
+So far we are talking about [[gauge fields]] and [[higher gauge fields]] on which we are evaluating an [[action functional]] (see below). Eventually one wants to [[quantization|quantize]] such a setup. There are two issues with this: first of all the action functional needs to be well-defined in the first place, we get to in the next point. But second, once we have a well-defined action functional on gauge fields, the only way to quantize this is to invove [[BV-BRST formalism]]: we need the [[BRST complex]] of the gauge fields. 
+
+or ordinary gauge theory this is the [[Lie algebroid]] of the smooth version $[X, \mathbf{B}G_{conn}]$
+
+$$
+  BRST  = C^\infty Lie([X, \mathbf{B}G_{conn}])
+  \,.
+$$
+
+Similarly for higher gauge theory it is the [[L-infinity algebroid]].
+
+#### Gauge interaction and the charge anomaly
+
+We discuss now how the action functional of the (higher) gauge theory in the presence of [[electric charge]] [[current]] and [[magnetic charge]] [[current]] has in general an [[quantum anomaly|anomaly]], but this anomaly exhibits itself, in traditional language, as something living over _families_ of gauge fields. But by the formula for the [[internal hom]] of sheaves/stacks
+
+$$
+  [X, \mathbf{Fields}] : U \mapsto 
+  \mathbf{H}(X \times U, \mathbf{B}G^{bg}_{conn})
+  = 
+  \{
+   background\;gauge\;fields\; on\; X \times U
+  \}
+  = 
+  \{
+    U-parameterized\;famlily\;of\;gauge\;fields\; on\; X 
+  \}
+$$
+
+this means effectively to work over the _smooth moduli stack of fields_ itself. Notably, the anomaly is going to be (the non-triviality of) a [[circle n-bundle with connection|circle bundle with connection]] on "the space of all fields", so we certainly need a smooth structure on that space. We indicate now how that line bundle 
+
+$$
+  \nabla_{anomaly} : [X, \mathbf{Fields}]  \to \mathbf{B}U(1)_{conn}
+$$ 
+
+appears.
+
+
+First, the kinetic piece of the action functional is simply $\exp(i S_{kin}(\hat F)) = \exp(i \int_X F \wedge \ast F)$.
 
 But suppose there is a charged particle with trajectory $\gamma : S^1 \to X$. Then there is an interaction term 
 $\exp(2\pi i \int_{S^1} \gamma^* A)$. Let $J_{el}$ be the [[Poincare duality|Poincare dual]] form. Then $\cdots = \exp(i \int_X A \wedge J_{el})$. 
 
-This may be expressed using the [[Beilinson-Deligne cup product]] and the [[fiber integration in ordinary differential cohomology]] as $\exp(2 \pi i \int_X \hat J_{el} \cup \hat F)$. (Here is where we need $J_{el}$ to have [[compact support]].) This is a differential 2-cocycle on the [[moduli stack]] of field configurations: by the formula for the [[internal hom]] and for forms on a stack, we are evaluating for each test manifold $U$ on families of fields over $X \times U$ and then integrate out over $X$.
+This may be expressed using the [[Beilinson-Deligne cup product]] and the [[fiber integration in ordinary differential cohomology]] as $\exp(2 \pi i \int_X \hat \mathbf{c}_{el} \cup \hat F)$. (Here is where we need $J_{el}$ to have [[compact support]].) This is a differential 2-cocycle on the [[moduli stack]] of field configurations: by the formula for the [[internal hom]] and for forms on a stack, we are evaluating for each test manifold $U$ on families of fields over $X \times U$ and then integrate out over $X$.
 
-But in the case where there is non-trivial $\hat J_{mag}$ this is no longer the case, there instead this is a trivialization of a twist
+But in the case where there is non-trivial $\hat \mathbf{c}_{mag}$ this is no longer the case, there instead this is a trivialization of a twist
 
 $$
-  0 \stackrel{\exp(2 \pi i \int_X \hat J_{el} \cup \hat F)}{\to}
-  \exp(2 \pi i \int_X \hat J_{el} \cup \hat J_{mag})
+  \omega \stackrel{\exp(2 \pi i \int_X \hat \mathbf{c}_{el} \cup \hat F)}{\to}
+  \exp(2 \pi i \int_X \hat \mathbf{c}_{el} \cup \hat \mathbf{c}_{mag})
   \,.
 $$
 
 Moreover, this twist matters in [[compactly supported cohomology]] (this is what [[fiber integration in ordinary differential cohomology]] sees), where it is in general not trivialized. So the action functional is not a function, but a [[section]] of a line bundle. Its [[first Chern class]] is the 2-class of 
 
 $$
-  [X, \mathbf{B}^n U(1)_{conn}]
+  \nabla_{higher\;gauge\;anomaly}
+  :
+  [X, \mathbf{Fields}]
   \stackrel{
-    \exp(2 \pi i \int_X \hat J_{el} \cup \hat J_{mag})
+    \exp(2 \pi i \int_X \hat \mathbf{c}_{el} \cup \hat \mathbf{c}_{mag})
   }
   {
     \to
@@ -1958,9 +2012,54 @@ $$
   \mathbf{B} U(1)_{conn}
 $$ 
 
-For this to cancel, there needs to be a fermionic anomaly of the same structure: [[Green-Schwarz mechanism]].
+This is the _anomaly line bundle with connection on the moduli stack of fields_.
 
-(...)
+For this to cancel, there needs to be a fermionic anomaly -- the [[Pfaffian line bundle]] of the [[Dirac operators]] on the fermions in the theory -- of the same structure. 
+
+$$
+  \nabla_{fermion\;anomaly}
+  :
+  [X, \mathbf{Fields}]
+  \to 
+  \mathbf{B} U(1)_{conn}
+  \,.
+$$
+
+The total action functional (higher gauge fields and fermions) is a section of the [[tensor product]] of these two
+
+$$
+  \nabla_{total\;anomaly}
+  = 
+  \nabla_{higher\;gauge\;anomaly} \otimes \nabla_{fermion\;anomaly}  :
+  [X, \mathbf{Fields}]
+  \to 
+  \mathbf{B} U(1)_{conn}
+  \,.
+$$
+
+The action functional needs to be a flat [[section]] of $\nabla_{total\;anomaly}$. Hence the two line bundles need to be inverse to each other. 
+This condition is the [[Green-Schwarz mechanism]].
+
+
+
+
+### **III)** $Spin^c$-, $String^c$-, $Fivebrane^c$-structure 
+ {#TwistedK}
+
+In the [previous section](#SpinStringFivebraneStructures) we have considered higher differential structures originating in the [[orthogonal group]]. In applications to [[string theory]] these structures receive twists originating in the [[unitary group]] (or representations through the unitary group of groups like [[E8]]). (The orthogonal structures correspond to the field of [[gravity]], while the unitary structures correspond to [[gauge fields]].)
+
+Accordingly, the [above Whitehead tower](#WhiteheadTower) of $\mathbf{B}O$ has stage-wise _[[unitary group|unitary]] twistings_. In the first stage this is given by the familiar [[spin^c]]-group, then there is a [[String^c 2-group]], etc.
+
+After discussing some generalities of these higher unitary-twisted connected covers of the orthogonal group [below](#HigherUnitaryTwistedCovers) we then turn to discussing a list of twisted structures and their appearance in string theory:
+
+| unitary-twisted higher orthogonal structure| role in string theory |
+|--|--|
+| [[twisted spin^c structure|twisted differential spin^c structure]] | [[Freed-Witten anomaly cancellation]] for [[type II string theory|type II strings]] on [[D-branes]]|
+| [[supergravity C-field|twisted differential String^c-structure]] | flux quantization in [[11-dimensional supergravity|11d sugra]]/[[M-theory]] with [[M5-branes]] |
+|  [[twisted differential string structure]] | [[Green-Schwarz mechanism]] in [[heterotic string theory]] |
+|  [[twisted differential fivebrane structure]] | [[Green-Schwarz mechanism]] in [[dual heterotic string theory]] |
+
+
 
 
 #### Higher unitary-twisted covers of $O$
