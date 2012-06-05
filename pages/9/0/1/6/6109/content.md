@@ -21,7 +21,7 @@
 
 ## Idea
 
-The [[path integral]] in [[quantization]] can be understood -- to the extent and in the cases that it can be understood at all -- as an [[integral transform] induced from a [[span]] that is given by [[hom-space]]s.  According to the general reasoning of [[integral transforms on sheaves]] this means that it is given by a _pull-push_ operation through spans.
+The [[path integral]] in [[quantization]] can be understood -- to the extent and in the cases that it can be understood at all -- as an [[integral transform]] induced from a [[span]] that is given by [[hom-space]]s.  According to the general reasoning of [[integral transforms on sheaves]] this means that it is given by a _pull-push_ operation through spans.
 
 
 ## Examples
