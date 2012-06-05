@@ -31,6 +31,9 @@ Every closed category may be seen as a category [[enriched category|enriched]] o
 
 ## Examples
 
+### In a sheaf topos
+
+(...) see [[closed monoidal structure on presheaves]] (...)
 
 ### For super vector spaces
 
