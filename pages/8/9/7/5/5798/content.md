@@ -1,3 +1,4 @@
+[[!redirects reduced ring]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -18,6 +19,8 @@
 For $R$ a [[commutative ring]], its **nilradical** $I \subset R$ is the [[ideal]] of nilpotent elements: the collection of those elements $a \in R$ such that there is $n \in \mathbb{N}$ with $a^n = 0$.
 
 The [[quotient]] $R/I$ is also called the _reduced_ part of $R$.
+
+(If $R$ is not commutative there are different generalization of the notion of nilradical. See wikipedia, for the moment.) 
 
 ## Related concepts
 
