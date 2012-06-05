@@ -23,7 +23,7 @@
 
 A **locally cartesian closed category** is a [[category]] $C$ whose [[slice categories]] $C/x$ are all [[cartesian closed category|cartesian closed]]. 
 
-If a locally cartesian closed category $C$ has a [[terminal object]], then $C$ is itself cartesian closed and in fact [[finitely complete category|has all finite limit]]s; often this requirement is included in the definition.
+If a locally cartesian closed category $C$ has a [[terminal object]], then $C$ is itself cartesian closed and in fact [[finitely complete category|has all finite limit]]s (because, cartesian products in $C/x$ are pullbacks in $C$); often this requirement is included in the definition.
 
 Equivalently, a locally cartesian category $C$ is a category with [[pullbacks]] (and a [[terminal object]], if required) such that each [[base change]] functor $f^*: C/y \to C/x$ has a [[right adjoint]] $\Pi_f$, called the _[[dependent product]]_. (This equivalence is discussed in detail [below](EquivalentCharacterizations).)
 
