@@ -53,3 +53,5 @@ Around lemma A1.4.18 in
 [[!redirects geometric categories]]
 [[!redirects infinitary coherent category]]
 [[!redirects infinitary coherent categories]]
+[[!redirects infinitary-coherent category]]
+[[!redirects infinitary-coherent categories]]
