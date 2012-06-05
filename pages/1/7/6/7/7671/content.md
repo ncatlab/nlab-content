@@ -80,7 +80,7 @@ From now on ''$k$-group'' will mean by default ''commutative $k$-group'' and the
 
 ### 8. multiplicative affine groups
 
-[[II.8, multiplicative affine groups]]
+[[II.8, multiplicative affine groups]], [[diagonalizable group scheme]]
 
 ###  9. unipotent affine groups, decomposition of affine groups
 
