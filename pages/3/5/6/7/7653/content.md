@@ -1807,7 +1807,20 @@ $$
   \,.
 $$
 
-Moreover, this twist matters in [[compactly supported cohomology]] (this is what [[fiber integration in ordinary differential cohomology]] sees), where it is in general not trivialized. So the action functional is not a function, but a [[section]] of a line bundle. Its [[first Chern class]] is the 2-class of $\exp(2 \pi i \int_X \hat J_{el} \cup \hat J_{mag})$. For this to cancel, there needs to be a fermionic anomaly of the same structure: [[Green-Schwarz mechanism]].
+Moreover, this twist matters in [[compactly supported cohomology]] (this is what [[fiber integration in ordinary differential cohomology]] sees), where it is in general not trivialized. So the action functional is not a function, but a [[section]] of a line bundle. Its [[first Chern class]] is the 2-class of 
+
+$$
+  [X, \mathbf{B}^n U(1)_{conn}]
+  \stackrel{
+    \exp(2 \pi i \int_X \hat J_{el} \cup \hat J_{mag})
+  }
+  {
+    \to
+  }
+  \mathbf{B} U(1)_{conn}
+$$ 
+
+For this to cancel, there needs to be a fermionic anomaly of the same structure: [[Green-Schwarz mechanism]].
 
 (...)
 
