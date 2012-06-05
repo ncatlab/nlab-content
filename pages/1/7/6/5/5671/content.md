@@ -24,7 +24,7 @@
 
 Let $C$ be an [[(∞,n)-category]]. We say that
 
-* $C$ **has adjoints for morphisms** if in its [[homotopy 2-category]] every [[morphism]] is a [[left adjoint]] and a [[right adjoint]];
+* $C$ **has adjoints for morphisms** if in its [[homotopy 2-category]] every [[morphism]] has a [[left adjoint]] and a [[right adjoint]];
 
 * for $1 \lt k \lt n$ that $C$ **has adjoints for [[k-morphism]]s** if for every pair $X,Y \in C$ of [[object]]s, the [[hom-set|hom-(∞,n-1)-category]] $C(X,Y)$ has adjoints for $(k-1)$-morphisms.
 
