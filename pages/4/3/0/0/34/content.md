@@ -1,19 +1,17 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Higher category theory
-+--{: .hide}
++-- {: .hide}
 [[!include higher category theory - contents]]
 =--
 =--
 =--
 
-
-
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -233,9 +231,10 @@ There are many different _models_ for bringing the abstract notion of higher cat
 
 [[!include table of category theories]]
 
+
 ## References
 
-For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://math.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there... keep clicking the links.
+For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://math.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there ...; keep clicking the links.
 
 For a slightly more formal but still pathetically easy introduction, try:
 
@@ -244,7 +243,7 @@ For a slightly more formal but still pathetically easy introduction, try:
 E. Moggi and G. Rosolini, Springer Lecture Notes in
 Computer Science vol. 1290, Springer, Berlin, 1997. 
 
-For a free introductory text on $n$-categories that's <i>full of pictures</i>, try this:
+For a free introductory text on $n$-categories that's *full of pictures*, try this:
 
 * [[Eugenia Cheng]] and [[Aaron Lauda]], [Higher-Dimensional Categories: An Illustrated Guidebook](http://www.cheng.staff.shef.ac.uk/guidebook/).
 
@@ -271,9 +270,7 @@ The theory of [[quasi-categories]] as [[(∞,1)-categories]] has reached a point
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
 
-
 There's a lot more to add here, even if we restrict ourselves to very general texts.  (More specialized stuff should go under more specialized subcategories!)
-
 
 
 [[!redirects higher category theory]]
