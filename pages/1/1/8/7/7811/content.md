@@ -15,7 +15,7 @@
 
 ## Idea
 
-In _compactly supported cohomology_ [[cocycles]] and [[coboundaries]] on some [[space]] are required to be non-trivial only over a [[compact topological space|compact subspace]]/[[compact object|compact subobject]] of the base. 
+In _compactly supported cohomology_ [[cocycles]] and [[coboundaries]] on some [[space]] are required to have [[compact support]]: to be non-trivial only over a [[compact topological space|compact subspace]]/[[compact object|compact subobject]] of the base. 
 
 ## References
 
