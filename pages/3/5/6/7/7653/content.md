@@ -1732,6 +1732,7 @@ After discussing some generalities of these higher unitary-twisted connected cov
 
 
 #### Fermionic anomalies cancelled by differential twists
+ {#Anomalies}
 
 Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]] below, we make some introductory comments on the general origin of twisted differential structures in higher gauge theory. A nice account of that is given in ([Freed](#Freed)). 
 
