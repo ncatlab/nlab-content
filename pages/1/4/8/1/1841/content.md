@@ -262,8 +262,10 @@ is a [[Čech cohomology|Čech cocycle]] with coefficients in the degree 2 [[Deli
 
 
 ## Charge quantization
+ {#ChargeQuantization}
 
 ### Dirac's original argument
+ {#DiracArgument}
 
 Dirac originally presented the following reasoning, which captures the main point of the above considerations.
 
@@ -300,6 +302,7 @@ In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. Whi
 
 
 ### Electric-magnetic charge quantization
+ 
 
 Suppose we had a [[circle bundle]] with [[connection on a bundle]] representing an electromagnetic field with net [[magnetic charge]] $Q$ given by some magnetic [[current]] $j_{mag}$
 
