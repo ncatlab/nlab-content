@@ -2307,33 +2307,6 @@ $$
   \mathbf{B}U \coloneqq \underset{\rightarrow_n}{\lim} \mathbf{B} U(n)
 $$
 
-$$
-  \mathbf{B} PU \coloneqq \underset{\rightarrow_n}{\lim} \mathbf{B} PU(n)
-  \,.
-$$
-
-On these we have the smooth universal class
-
-$$
-  \mathbf{dd} : \mathbf{B} PU \to \mathbf{B}^2 U(1)
-  \,.
-$$
-
-Since the [[(∞,1)-topos]] [[Smooth∞Grpd]] has [[universal colimits]], it follows that there is a [[fiber sequence]]
-
-$$
-  \array{
-    \mathbf{B}U &\to& \mathbf{B} PU
-    \\
-    && \downarrow^{\mathbf{dd}}
-    \\
-    && \mathbf{B}^2 U(1)
-  }
-$$
-
-
-exhibiting the moduli stack of smooth stable unitary bundles as the homotopy fiber of $\mathbf{dd}$.
-
 
 **Proposition** The smooth stack $\mathbf{B} U$ is a smooth refinement of the [[classifying space]] $B U$ of reduced [[K-theory]]. Also, for $X$ a [[compact topological space|compact]] [[smooth manifold]] smooth $U$-principal bundles and smooth $U$-gauge transformations on $X$ are represented by ordinary $U(n)$-bundles for some finite $n$.
 
@@ -2359,10 +2332,10 @@ We can consider then a cocycle in the $\iota$-[[relative cohomology]] with coeff
 
 $$
   \array{
-    Q &\stackrel{\phi_{ga}}{\to}& \mathbf{B} PU 
+    Q &\stackrel{\phi_{ga}}{\to}& \mathbf{B} P U(n) 
     \\
     {}^{\mathllap{i}}\downarrow 
-      &\swArrow_\simeq& \downarrow^{\mathrlap{\mathbf{dd}}}
+      &\swArrow_\simeq& \downarrow^{\mathrlap{\mathbf{dd}_n}}
     \\
     X &\stackrel{\phi_B}{\to}& \mathbf{B}^2 U(1)
   }
@@ -2370,7 +2343,7 @@ $$
    \leftrightarrow
   \;\;\;
   \array{
-    Q &&\stackrel{\phi_{ga}}{\to}&& \mathbf{B} PU
+    Q &&\stackrel{\phi_{ga}}{\to}&& \mathbf{B} P U(n)
     \\
     & {}_{\mathllap{\phi_B|_Q}}\searrow &\swArrow& \swarrow_{\mathrlap{\mathbf{dd}}}
     \\
@@ -2402,10 +2375,10 @@ More generally, if $Q$ does not necessarily have $Spin^c$-structure, we consider
 
 $$
   \array{
-    Q &\stackrel{(T X, \phi_{ga})}{\to}& \mathbf{B} ( SO \times PU) 
+    Q &\stackrel{(T X, \phi_{ga})}{\to}& \mathbf{B} ( SO \times P U(n)) 
     \\
     {}^{\mathllap{i}}\downarrow 
-      &\swArrow_\simeq& \downarrow^{\mathrlap{\mathbf{dd} - \mathbf{W}_3}}
+      &\swArrow_\simeq& \downarrow^{\mathrlap{\mathbf{dd}_n - \mathbf{W}_3}}
     \\
     X &\stackrel{\phi_B}{\to}& \mathbf{B}^2 U(1)
   }
@@ -2413,9 +2386,9 @@ $$
    \leftrightarrow
   \;\;\;
   \array{
-    Q &&\stackrel{(T X, \phi_{ga})}{\to}&& \mathbf{B} (SO \times PU)
+    Q &&\stackrel{(T X, \phi_{ga})}{\to}&& \mathbf{B} (SO \times P U(n))
     \\
-    & {}_{\mathllap{\phi_B|_Q}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{dd}-\mathbf{W}_3}}
+    & {}_{\mathllap{\phi_B|_Q}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{dd}_n-\mathbf{W}_3}}
     \\
     && \mathbf{B}^2 U(1)
   }
