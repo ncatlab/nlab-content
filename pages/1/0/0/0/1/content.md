@@ -89,8 +89,7 @@ Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how 
  {#SteeringCommitte}
 
 The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
-
-
+<center><h3><a href="http://www.5hiva.com/cocktail-dresses/" style="color:#FFFFFF">cocktail-dresses</a></h3></center>
 category: meta
 
 [[!redirects HomePage]]
