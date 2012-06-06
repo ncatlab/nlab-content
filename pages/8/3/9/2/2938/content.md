@@ -32,7 +32,7 @@ The HKR-theorem generalizes this to higher degrees.
 
 #### As an isomorphism of chain complexes
 
-For $n \geq 2$ write $\Omega^n(R/k) = \wedge^n_R \Omega(R/k)$ for the $n$-fold [[exterior algebra|wedge product]] of $Omega(R/k)$ with itself: the degree $n$-K&#228;hler forms.
+For $n \geq 2$ write $\Omega^n(R/k) = \wedge^n_R \Omega(R/k)$ for the $n$-fold [[exterior algebra|wedge product]] of $\Omega(R/k)$ with itself: the degree $n$-K&#228;hler forms.
 
 +-- {: .num_theorem }
 ###### Theorem
