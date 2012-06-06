@@ -14,7 +14,7 @@
 =--
 =--
 
-+-- {: .query}
++-- {: .query} 
 $\,$ 
  <div align="center" >
  <em>Search the nLab ([[Searching the nLab|hints]])</em> 
