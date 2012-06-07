@@ -1,0 +1,11 @@
++-- {: .num_defn}
+###### Definition
+
+A (topological) space whose only connected subspaces are the subspaces with at most one element is called *totally disconnected*.
+=--
+
+## Examples
+
+* [[discrete space|discrete spaces]] are totally disconnected
+
+* [[profinite group|profinite groups]] are totally disconnected and in particular the set of [[p-adic number|p-adic numbers]] is totally disconnected.
