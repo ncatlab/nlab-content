@@ -81,7 +81,7 @@ If now the [[characteristic]] of $k$ is a prime number $p$ there is a relation o
 ###### Proposition
 Let $X$ be a k-[[formal scheme]] resp. a [[locally algebraic scheme]].
 
-Then $X$ is &#233;tale off the [[Frobenius morphism]] $F:X\to X^{(p)}$ is a monomorphism resp. an isomorphism.
+Then $X$ is &#233;tale iff the [[Frobenius morphism]] $F:X\to X^{(p)}$ is a monomorphism resp. an isomorphism.
 =--
 
 ## References
