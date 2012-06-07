@@ -12,7 +12,7 @@ Notice that this is indeed a [[homomorphism]] of fields: the identity $(a b)^p=a
 
 ### Properties
 
-* Frobenius is always [[injective]].
+* Frobenius is always [[injective]]. Note that the Frobenius morphism of schemes (see below) is *not* always a monomorphism.
 
 * The [[image]] of Frobenius is the set of elements of $k$ with a $p$-th root and is sometimes denoted $k^{1/p}$.
 
@@ -126,6 +126,13 @@ X^p
 +-- {: .num_prop}
 ###### Proposition
 Let $X$ be a $k$-formal scheme (resp. a [[locally algebraic scheme]]) then $X$ is [[etale scheme|étale]] iff the [[Frobenius morphism]] $F_X:X\to X^{(p)}$is a monomorphism (resp. an isomorphism).
+=--
+
++-- {: .num_remark}
+###### Remark
+For any commutative affine [[group scheme]] $G$ the Frobenius- and the [[Verschiebung morphism]] correspond by ''completed [[Cartier duality|Cartier duality]]''; i.e. we have
+
+$$\hat D(V_G)=F_{\hat D(G)}$$
 =--
 
 ### Examples
