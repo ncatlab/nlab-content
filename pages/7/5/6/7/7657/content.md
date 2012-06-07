@@ -43,7 +43,7 @@ where $\overline k)$ denotes an algebraic closure of $k$, $k_s$ denotes the sube
 
 ## References
 
-Michel Demazure, lectures on p-divisible groups, sections I.8 and II.2, [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+Michel [[Demazure, lectures on p-divisible groups]], sections I.8 and II.2, [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
 
 
 [[!redirects etale scheme]]
