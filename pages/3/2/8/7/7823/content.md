@@ -1,6 +1,6 @@
 A *Galois module* is a $G$-module for a [[Galois group]] $G$; i.e. it is an abelian group on which a Galois group acts in a way compatible with the abelian group structure.
 
-The category of $G$-modules is equivalent to the category of [[module|modules]] over the [[group algebra|group ring]] $\mathbb{Z}]G]$.
+The category of $G$-modules is equivalent to the category of [[module|modules]] over the [[group algebra|group ring]] $\mathbb{Z}[G]$.
 
 As always is the case, a group representation $G\times A\to A$ can equivalently be written as $G\to Aut(A)$. This is why Galois modules are frequently called *Galois representations*.
 
@@ -10,7 +10,7 @@ As always is the case, a group representation $G\times A\to A$ can equivalently 
 ###### Proposition
 Let $K\hookrightarrow L$ be a [[Galois extension]] of a number field $K$.
 
-Then the ring of integers $O_L$ of this extension is a [[Galois module]] of $Gal(K/hookrightarrow L)$.
+Then the ring of integers $O_L$ of this extension is a [[Galois module]] of $Gal(K\hookrightarrow L)$.
 
 (see also [[Hilbert-Speiser theorem]])
 
@@ -26,7 +26,7 @@ Let $l$ be a prime number. Let $Gal(k\hookrightarrow \overline k)$ be the [[abso
 
 $$Gal(k\hookrightarrow \overline k)\to Aut (M)$$
 
-is called an *$l$-adic representation of $Gal(k\hookrightarrow \overline k)$. Here $M$ is either a unite dimensional [[vector space]] over the algebraic closure $\overline \mathbb{Q}_l$ or a finitely generated module over the [[integral closure]] $\overline \mathbb{Z}_l$.
+is called an *$l$-adic representation of $Gal(k\hookrightarrow \overline k)$. Here $M$ is either a unit dimensional [[vector space]] over the algebraic closure $\overline \mathbb{Q}_l$ or a finitely generated module over the [[integral closure]] $\overline \mathbb{Z}_l$.
 
 In particular the $l$-adic Tate-module is of this kind.
 =--
