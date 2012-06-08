@@ -406,6 +406,8 @@ ring of functions on $X$, but the two are closely related. See for instance ([Pa
 
   * [[topological index]]
 
+  * [[KR-theory]]
+
 * [[twisted K-theory]]
 
 * [[differential K-theory]]
