@@ -1,0 +1,40 @@
+
+
+## Idea
+
+(...)
+
+## Related concepts
+
+* [[index of an operator]]
+
+## References
+
+The $\eta$-invariant was introduced by Atiyah-Patodi-Singer in the series of articles
+
+* [[Michael Atiyah]], V. K. Patodi and [[Isadore Singer]], _Spectral asymmetry and Riemannian geometry I_ Proc. Cambridge Philos. Soc. 77 (1975), 43-69.
+
+   _Spectral asymmetry and Riemannian geometry II. Proc. Cambridge Philos. Soc.
+
+  _Spectral asymmetry and Riemannian geometry III_, Proc. Cambridge Philos. Soc. 79 (1976), 71-99.
+
+as the [[boundary]] correction term  for the [[index formula]] on
+a [[manifold with boundary]].
+
+
+Introductions and surveys include
+
+* Ken Richardson, _Introduction to the Eta Invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
+
+* Xianzhe Dai, _Eta invariant and holonomy_ Chern Centennial (2011) ([pdf slides](http://www.nim.nankai.edu.cn/activites/conferences/Chern-Centennial-20111024/ppt_pdf/1027pm-XZDai.pdf))
+
+* Wikipedia, _[Eta inavriant](http://en.wikipedia.org/wiki/Eta_invariant)_
+
+Further discussion of the relation to [[holonomy]] is in
+
+* Xianzhe Dai, Weiping Zhang, _Eta invariant and holonomy, the even dimensional case_ ([arXiv:1205.0562](http://arxiv.org/abs/1205.0562))
+
+
+[[!redirects eta invariant]]
+[[!redirects eta invariants]]
+[[!redirects Eta invariants]]
