@@ -29,7 +29,7 @@ A _cubical $T$-complex_ is a [[cubical set]] $K$ which is also a special kind of
 
 Cubical T-complexes are equivalent to [[crossed complex]]es, and also to [[cubical omega-groupoid]]s with connections.
 
-A modification of axiom T2) to be more like an axiom for a [[quasi-category]] is suggested in the paper by Steiner below. 
+A modification of axiom T2) to be more like an axiom for a [[quasi-category]] is suggested in the paper by Steiner referenced below. 
 
 ## Related concepts
 
@@ -47,7 +47,7 @@ A modification of axiom T2) to be more like an axiom for a [[quasi-category]] is
 
 * M.K. Dakin, _Kan complexes and multiple groupoid structures_ , PhD Thesis, University of Wales, Bangor, (1976).
 
-A main application of the idea of thin elements in the cubical case was to define the notion of commutative cube. In the case of cubical $\omega$-groupoids with connection, the boundary of a cube is commutative if and only if the boundary has a thin filler. One consequence is that any composition of thin elements is thin. This is a key element of the proof of the Higher Homotopy van Kampen theorem in the _colimits_ paper, which thus nicely generalises the proof of the 1-dimensional van Kampen theorem for the fundamental groupoid on a set of base points.  
+A main application of the idea of thin elements in the cubical case was to define the notion of commutative cube. In the case of cubical $\omega$-groupoids with connection, the boundary of a cube is commutative if and only if the boundary has a thin filler. One consequence is that _any well defined composition of thin elements is thin_. This is a key element of the proof of the Higher Homotopy van Kampen theorem in the _colimits_ paper, which thus nicely generalises the proof of the 1-dimensional van Kampen theorem for the fundamental groupoid on a set of base points.  
 
 
 Cubical T-complexes are thus a key concept in the long series of articles by  Brown and Higgins on [[strict omega-groupoid|strict omega-groupoids]]. For instance
@@ -58,9 +58,17 @@ Cubical T-complexes are thus a key concept in the long series of articles by  Br
 
 * R. Brown, P.J. Higgins, _Colimit theorems for relative homotopy groups_, J. Pure Appl. Algebra 22 (1981) 11-41.
 
+* R. Brown, P.J. Higgins, _Tensor products and homotopies for
+$\omega$-groupoids and crossed complexes_, J. Pure Appl.
+Alg. 47 (1987) 1-33.
+
+*  R. Brown, R. Street, _Covering morphisms  of  crossed
+complexes and of cubical omega-groupoids are closed under   tensor
+product_, Cah. Top. G\'eom. Diff. Cat., 52 (2011) 188-208.
+
 and generally
 
-* Ronald Brown, Philip J. Higgins and Rafael Sivera, _Nonabelian algebraic topology_ ([web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html)).
+* Ronald Brown, Philip J. Higgins and Rafael Sivera, _Nonabelian algebraic topology: filtered spaces, crossed complexes, cubical homotopy groupoids_, EMS Tracts in Mathematics Vol 15 (2011).  ([web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html)).
 
 For more on 'thinness' in a cubical context, see:
 
