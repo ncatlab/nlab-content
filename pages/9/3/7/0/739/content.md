@@ -28,6 +28,8 @@ Both ways of looking at profinite groups as useful, as sometimes a concept can b
 
 * A motivating example is the absolute [[Galois group]] of a number field.
 
+* For a prime number $l$ the (additive) group of [[p-adic integer|l-adic integers]] is profinite in that it is the directed limit $\mathbb{Z}_l=lim\; \mathbb{Z}/l^n\mathbb{Z}$.
+
 * In SGA1, Grothendieck defined the [[algebraic fundamental group]] of a scheme to be a profinite group.  (This is linked with his work on [[pro-representable functor|pro-representable functors]].)
 
 *  Any finite group is profinite!
