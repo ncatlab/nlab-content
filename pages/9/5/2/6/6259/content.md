@@ -229,7 +229,7 @@ Discussion of the [[quantum anomaly]] of self-dual theories is in
 
 * Samuel Monnier, _The anomaly line bundle of the self-dual field theory_ ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
 
-* Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_ ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639))
+* Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_ ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639), [pdf slides](http://www.physics.rutgers.edu/het/video/monnier11b.pdf))
 
 Discussion of the [[conformal blocks]] of self-dual higher gauge theories is in 
 
