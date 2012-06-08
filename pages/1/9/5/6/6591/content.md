@@ -97,4 +97,9 @@ $$
 
   * [[Atiyah-Singer index theorem]]
 
+* [[eta invariant]]
+
 [[!redirects topological indices]]
+
+[[!redirects index of an operator]]
+
