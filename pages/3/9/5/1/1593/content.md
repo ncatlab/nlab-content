@@ -259,6 +259,10 @@ More details are in
 * [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
  {#DistlerFreedMooreII}
 
+Related lecture notes / slides include
+
+* [[Jacques Distler]], _Orientifolds and Twisted KR-Theory_ (2008) ([pdf](http://www.perimeterinstitute.ca/pdf/files/731c5f3a-928f-453a-b569-db5c574d2a6c.pdf))
+
 A formulation of some of the relevant aspects of orientifolds in terms of the  [[schreiber:differential cohomology in an (∞,1)-topos -- survey|differential nonabelian cohomology]] with coefficients in the [[2-group]] $AUT(U(1))$ coming from the [[crossed module]] $[U(1) \to \mathbb{Z}_2]$ is indicated in 
 
 * [[Urs Schreiber]],  talk [[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]] at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] 
