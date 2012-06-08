@@ -5,10 +5,11 @@
 
 ## Idea
 
-A $p$-divisible group is special type of [[inductive system]] of finite [[group scheme]]s whose orders grow in a uniform way. They arise naturally in many arithmetic situations such as the $p$-torsion groups of [[abelian varieties]].
+In great generality for an integer $p$ a $p$-divisible group is a [[inductive system|codirected diagram]] of abelian-group objects in a category $C$ where the abelian-group objects are (equivalently) the [[kernel|kernels]] of the map given by multiplication with a power of $p$; these kernels are also called $p^n$-torsions.
 
-(There is also a more elementary notion of $p$-divisible group; see [[divisible group]].)
-
+In the classically studied case $p$ is a prime number, $C$ is the category of [[scheme|schemes]] over a commutative ring (mostly a field with prime characteristic) and the abelian [[group scheme|group schemes]] occurring in the diagram are assumed to be finite. In this case the diagram defining the $p$-divisible group can be described in terms of the growth of the order of the group schemes in the diagram.
+ 
+Note that there is also a notion of [[divisible group]].
 
 ## Definition
 
@@ -58,6 +59,7 @@ See [Lurie](#pLurie).
 ## Related concepts
 
 * Important tools in the study of $p$-divisible groups are [[Witt ring|Witt rings]], [[Dieudonné module|Dieudonné modules]] and more generally [[Dieudonné theory|Dieudonné theories]] assigning to a $p$-divisible group an object of [[linear algebra]] such as a [[display of a p-divisible group]].
+
 
 * [[formal group]]
 
