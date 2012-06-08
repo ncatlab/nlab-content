@@ -3,7 +3,7 @@
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Constantin Teleman]], 
 
-  _Loop groups and twisted K-theory I_ ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906))
+  _Loop groups and twisted K-theory I_, J. Topology, 4 (2011), 737-789  ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906))
 
   _Loop Groups and Twisted K-Theory II_ ([arXiv:0511232](http://arxiv.org/abs/math/0511232))
  {#PartII}
@@ -263,7 +263,7 @@ $$
   D_\xi^V := D^V + \psi(\xi)
 $$
 
-Theorem (FHT): Tge kernel of $D^V_\xi$ is supported on the orbit of $(\lambda + p)$ and equals $(Kirillov line bundle) \otimes (Spinors to normal bundle)$ In fact $D^V_\xi$ is a model for the Atiyah-Bott-Shapiro...
+Theorem (FHT): The kernel of $D^V_\xi$ is supported on the orbit of $(\lambda + p)$ and equals $(Kirillov line bundle) \otimes (Spinors to normal bundle)$ In fact $D^V_\xi$ is a model for the Atiyah-Bott-Shapiro...
 
 
 
