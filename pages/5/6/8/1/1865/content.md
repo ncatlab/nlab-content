@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -191,6 +191,11 @@ See also
 
 * Thomas Tradler, Scott O. Wilson, [[Mahmoud Zeinalian]], _Loop Differential K-theory_ ([arXiv:1201.4593](http://arxiv.org/abs/1201.4593))
 
+### Relation to index theory
+
+Relation to [[index theory]]: 
+
+* Kevin Klonoff, _An Index Theorem in Differential K-Theory_ PdD thesis (2008) ([pdf](http://www.lib.utexas.edu/etd/d/2008/klonoffk16802/klonoffk16802.pdf))
 
 ### In the context of QFT / string theory
 
