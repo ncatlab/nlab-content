@@ -87,10 +87,10 @@ The first set of axioms says that there exist well-behaved homotopy limits and c
 * **(Der4)** For any [[comma square]]
   $$\array{A & \overset{g}{\to} & B \\
   ^f\downarrow &\swArrow& \downarrow^v\\
-  C& \underset{u}{\to} & D}$$
+  C& \underset{u}{\to} & E}$$
   in $Dia$, the [[Beck-Chevalley transformation]]s
   $$ f_! g^* \to u^* v_! \quad \text{and} \quad v^* u_* \to g_* f^* $$
-  are [[isomorphism]]s.  Intuitively, this says that the Kan extensions in question are *[pointwise](http://ncatlab.org/nlab/show/Kan+extension#Pointwise)*.  In the presence of the second set of axioms, it suffices to require this when $C$ is the [[terminal category]] (for the first case) and when $D$ is so (for the second).
+  are [[isomorphism]]s.  Intuitively, this says that the Kan extensions in question are *[pointwise](http://ncatlab.org/nlab/show/Kan+extension#Pointwise)*.  In the presence of the second set of axioms, it suffices to require this when $C$ is the [[terminal category]] (for the first case) and when $B$ is so (for the second).
 
 The second set of axioms are "[[sheaf]]" conditions.  Of course, we cannot assert that $D$ is exactly a sheaf (in the appropriate [[stack|2-categorical sense]]), since the terminal category in $Dia$ is 2-categorically dense and so any sheaf on it is representable (and represented by $D(1)$), whereas we want to also allow non-representable derivators.  But we do need some sheaf-like properties in order to do [[category theory]].  All of the following axioms can be understood as asserting that for some [[cover|covering family]] $\{Y_i \to X\}$ in $Dia$, the canonical map $D(X) \to Desc(D,\{Y_i\})$ from $D(X)$ to the category of [[descent]] data for the covering, while not an [[equivalence of categories|equivalence]], has some weaker good properties.  They can also be understood as 2-categorical [[sketch]] conditions.
 
