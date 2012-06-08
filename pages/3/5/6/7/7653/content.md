@@ -57,7 +57,7 @@ There are various further examples. As an outlook we indicate aspects of
 ## Overview: The Table of Twists
  {#TableOfTwists} 
 
-The following sections discuss classes of examples of [[twisted differential c-structures|twisted smooth structures]] in [[string theory]]. All these examples are governed by the the same general pattern of [[twisted cohomology]] refined to [[smooth infinity-groupoid|smooth cohomology]] (a gentle explanation/example follows [in a moment](#VielbeinFields), for formal details see further [below](#TwistedCohomology)). They are specified by a _universal coefficient bundle_
+The following sections discuss classes of examples of [[twisted differential c-structures|twisted smooth structures]] in [[string theory]]. All these examples are governed by the the same general pattern of [[twisted cohomology]] refined to [[smooth infinity-groupoid|smooth cohomology]] (a gentle explanation/example follows [in a moment](#VielbeinFields), for formal details see further [below](#TwistedCohomology)). They are specified by a _universal local coefficient bundle_
 
 $$
   \array{ 
@@ -100,10 +100,10 @@ Given such, and given a [[spacetime]]/[[target space]] $X$, we have:
 
   is a $\phi$-[[twisted infinity-bundle|twisted bundle]], or $\phi$-twisted background gauge field.
 
-The following table lists examples of such coefficient bundles and tabulates the correspondings twisting fields and twisted fields. This is to be read as an extended table of contents. Explanations are in the sections to follow.
+The following table lists examples of such local coefficient bundles and tabulates the correspondings twisting fields and twisted fields. This is to be read as an extended table of contents. Explanations are in the sections to follow.
 
 
-| class of examples | universal coefficient bundle | twisting bundle | twisting field | twisted bundle | twisted field |
+| class of examples | universal local coefficient bundle | twisting bundle | twisting field | twisted bundle | twisted field |
 |---|---|---|---|---|---|
 | **[0)](#GeneralTheory)** [[twisted differential c-structure|general pattern]] | | | | | |
 | | $\array{ F &\to& E  \\ && \downarrow^{\mathrlap{\mathbf{c}}} \\ && \mathbf{B}G }$ | $G$-[[principal infinity-bundle|principal bundle]] | $G$-[[higher gauge field|gauge field]] [[instanton]]-sector | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | twisted $\Omega F$-[[gauge field]] [[instanton]] sector |
@@ -474,7 +474,7 @@ $$
 
 However, if $T X$ is not trivial, then this is true only locally: there is then an [[atlas]] $\{U_i \to X\}$ such that restricted to each $U_i$ the moduli space of vielbein fields is $C^\infty(U_i, GL(n)/ O(n))$, but globally these now glue together in a non-trivial way as encoded by the tangent bundle: we may say that 
 
-the tangent bundle _twists_ the functions $X \to GL(n)/O(n)$. If we think of an ordinary such function as a cocycle in degree-0 cohomology, then this means that a vielbein is a cocycle in $T X$-_[[twisted cohomology]]_ relative to the _twisting coefficient bundle_ $\mathbf{c}$.
+the tangent bundle _twists_ the functions $X \to GL(n)/O(n)$. If we think of an ordinary such function as a cocycle in degree-0 cohomology, then this means that a vielbein is a cocycle in $T X$-_[[twisted cohomology]]_ relative to the _twisting local coefficient bundle_ $\mathbf{c}$.
 
 We can make this more manifest by writing equivalently
 
@@ -725,7 +725,7 @@ $$
   \,.
 $$
 
-Forming the  [[homotopy fiber]] now yields the coefficient bundle 
+Forming the  [[homotopy fiber]] now yields the local coefficient bundle 
 
 $$
   \array{
@@ -1555,7 +1555,7 @@ $$
   \,,
 $$
 
-to be pronounced "flat": for $A \in \mathbf{H}$ a smooth homotopy type, we call $\flat A$ the corresponding _flat coefficient_ object. 
+to be pronounced "flat": for $A \in \mathbf{H}$ a smooth homotopy type, we call $\flat A$ the corresponding _flat local coefficient_ object. 
 
 For instance if $G$ is a [[Lie group]], then $\Gamma \mathbf{B}G \simeq B (G_{disc}) = K(G_{disc}, 1)$, and so a morphism $X \to \flat \mathbf{B}G$ is equivalently a cocycle $X \to \mathbf{B} (G_{disc})$, hence a $G_{disc}$-covering space, hence a flat $G$-[[principal connection]].
 
@@ -1608,7 +1608,7 @@ $$
 
 For the special class of cases $G = \mathbf{B}^n U(1)$ the [[circle n-group|circle (n+1)-group]] we call $curv_{\mathbf{B}^n U(1)}  \coloneqq  \mathbf{B}^n U(1) \to \flat_{dR} \mathbf{B}^{n+1} U(1)$ the _universal [[curvature]] class_ in degree $(n+1)$. 
 
-Due to the existence of the further functor $\Pi : \mathbf{H} \to \infty Grpd$ discussed [above](#SmoothWhitehead) it follows that $\flat : \mathbf{H} \to \infty Grpd$ is a [[right adjoint]] and hence commutes with homotopy pullback. This in turn implies that by forming one more homotopy fiber above, we obtain the following differential version of a universal coefficient bundle:
+Due to the existence of the further functor $\Pi : \mathbf{H} \to \infty Grpd$ discussed [above](#SmoothWhitehead) it follows that $\flat : \mathbf{H} \to \infty Grpd$ is a [[right adjoint]] and hence commutes with homotopy pullback. This in turn implies that by forming one more homotopy fiber above, we obtain the following differential version of a universal local coefficient bundle:
 
 $$
   \array{
@@ -2162,7 +2162,7 @@ $$
   \,.
 $$
 
-Equivalently we may write this as a [[Mayer-Vietoris sequence]] and thus obtain the universal $\mathbf{B}Spin^c$-coefficient bundle over $\mathbf{B}^2 \mathbb{Z}$
+Equivalently we may write this as a [[Mayer-Vietoris sequence]] and thus obtain the universal local $\mathbf{B}Spin^c$-coefficient bundle over $\mathbf{B}^2 \mathbb{Z}$
 
 $$
   \array{
@@ -2198,7 +2198,7 @@ This controls the [[supergravity C-field]] in [[M-theory]]/[[11-dimensional supe
 Before we come to that we consider another variant, since that leads to the most familiar twisting, that of [[twisted K-theory]]. 
 
 
-One finds that there is also a universal $\mathbf{B}Spin^c$-coefficient bundle over $\mathbf{B}^2 U(1)$, and this is given by the smooth third [[integral Stiefel-Whitney class]]:
+One finds that there is also a universal local $\mathbf{B}Spin^c$-coefficient bundle over $\mathbf{B}^2 U(1)$, and this is given by the smooth third [[integral Stiefel-Whitney class]]:
 
 $$
   \array{
@@ -2225,7 +2225,7 @@ $$
   \,.
 $$
 
-This universal coefficient bundle controls the [[Freed-Witten anomaly cancellation]] in [[type II string theory]]. To which we now turn.
+This universal local coefficient bundle controls the [[Freed-Witten anomaly cancellation]] in [[type II string theory]]. To which we now turn.
 
 
 
@@ -2271,7 +2271,7 @@ $$
   \,.
 $$
 
-We have seen [above](#SmoothWhitehead) that a morphism $\phi : X \to \mathbf{B}^2 U(1)$ classifies a [[circle n-bundle with connection|circle 2-bundle]] encoded by a Cech 2-cocycle $(\phi_{i j k} : U_i \cap U_j \cap U_k \to U(1))$ . This means that the universal coefficient bundle
+We have seen [above](#SmoothWhitehead) that a morphism $\phi : X \to \mathbf{B}^2 U(1)$ classifies a [[circle n-bundle with connection|circle 2-bundle]] encoded by a Cech 2-cocycle $(\phi_{i j k} : U_i \cap U_j \cap U_k \to U(1))$ . This means that the universal local coefficient bundle
 
 $$
   \array{
@@ -2420,7 +2420,7 @@ $$
 
 This is the _[[Freed-Witten anomaly cancellation]] condition_ for $D$-branes with [[spin^c structure]].
 
-More generally, if $Q$ does not necessarily have $Spin^c$-structure, we consider $\iota$-[[relative cohomology]] with coefficients in the universal coefficient bundle $\mathbf{dd} - \mathbf{W}_3$:
+More generally, if $Q$ does not necessarily have $Spin^c$-structure, we consider $\iota$-[[relative cohomology]] with coefficients in the universal local coefficient bundle $\mathbf{dd} - \mathbf{W}_3$:
 
 $$
   \array{
@@ -2531,7 +2531,7 @@ $$
   \,.
 $$
 
-On the right this has the universal coefficient bundle for $\mathbf{String}^{2\mathbf{a}}$ from [above](#HigherUnitaryTwistedCovers), and hence this identifies a [[gravity]]-[[supergravity C-field|C-field]] configuration as being (a partial differential refinement of) a $[\phi_C]$-twisted $String^{2\mathbf{a}}$-structure.
+On the right this has the universal local coefficient bundle for $\mathbf{String}^{2\mathbf{a}}$ from [above](#HigherUnitaryTwistedCovers), and hence this identifies a [[gravity]]-[[supergravity C-field|C-field]] configuration as being (a partial differential refinement of) a $[\phi_C]$-twisted $String^{2\mathbf{a}}$-structure.
 
 
 
@@ -2688,7 +2688,7 @@ $$
   }
 $$
 
-as the coefficient bundle, and considering $\epsilon$ as the twist: then an $\epsilon$-twisting as above is a cocycle in the twisted cohomology $\mathbf{H}_{/\mathbf{B}\mathbb{Z}_2}(\mathbf{B}\epsilon, \mathbf{e})$ given by a commuting triangle
+as the local coefficient bundle, and considering $\epsilon$ as the twist: then an $\epsilon$-twisting as above is a cocycle in the twisted cohomology $\mathbf{H}_{/\mathbf{B}\mathbb{Z}_2}(\mathbf{B}\epsilon, \mathbf{e})$ given by a commuting triangle
 
 $$
   \array{
@@ -2867,7 +2867,7 @@ For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{B}G \in \mathbf{H}$, the coll
 
 The [[cohomology]] in $\mathbf{H}_{/\mathbf{B}G}$ is naturally interpreted as follows
 
-1. a coefficient object $\mathbf{c} : E \to \mathbf{B}G$ is a _universal bundle of coefficients_;
+1. a local coefficient object $\mathbf{c} : E \to \mathbf{B}G$ is a _universal bundle of local coefficients_;
 
 1. a domain object $\phi : X \to \mathbf{B}G$ is a _twisting bundle_;
 
@@ -2905,7 +2905,7 @@ The [[cohomology]] in $\mathbf{H}_{/\mathbf{B}G}$ is naturally interpreted as fo
     \mathbf{H}_{/\mathbf{B}G}(\phi, \mathbf{c})
   $$
 
-  is the $\phi$-[[twisted cohomology]] of $X$ (with coefficients in the [[homotopy fiber]] $F$ of $\mathbf{c}$).
+  is the $\phi$-[[twisted cohomology]] of $X$ (with local coefficients in the [[homotopy fiber]] $F$ of $\mathbf{c}$).
 
 +-- {: .num_remark }
 ###### Remark
@@ -2931,7 +2931,7 @@ While on the right this expresses the collection of sections of the pullback bun
 +-- {: .num_remark }
 ###### Remark
 
-Cocycles in twisted cohomology relative to a coefficient bundle
+Cocycles in twisted cohomology relative to a local coefficient bundle
 $\mathbf{c} : E \to \mathbf{B}G$ do not pull back along morphisms in $\mathbf{H}$ (unless $G$ is trivial), but do pull back along morphisms in $\mathbf{H}$ that are lifted to morphisms in the slice $\mathbf{H}_{/ \mathbf{B}G}$.
 
 =--
@@ -2951,7 +2951,7 @@ $$
   }
 $$
 
-a universal coefficient bundle in $\mathbf{H}$ and $\phi : X \to \mathbf{B}G$ a twist and $\sigma : X \to \mathbf{B}\hat G$ a section, hence a cocycle in $\phi$-[[twisted cohomology]], the corresponding geometric object is the [[twisted ∞-bundle]] $\tilde \sigma$ on the total space $P$ of $\phi$
+a universal local coefficient bundle in $\mathbf{H}$ and $\phi : X \to \mathbf{B}G$ a twist and $\sigma : X \to \mathbf{B}\hat G$ a section, hence a cocycle in $\phi$-[[twisted cohomology]], the corresponding geometric object is the [[twisted ∞-bundle]] $\tilde \sigma$ on the total space $P$ of $\phi$
 
 $$
   \array{
