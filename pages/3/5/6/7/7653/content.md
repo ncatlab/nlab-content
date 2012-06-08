@@ -2661,9 +2661,53 @@ and exhibits $\phi_B$ as a genuine [[circle n-bundle with connection|circle 2-bu
 
 ### Further twists
 
-There are various further twisted cohomological structures in string theory known or conjectured (for which possibly no smooth refinement has been constructed yet).
+There are various further twisted cohomological structures in string theory known or conjectured (for which possibly no smooth refinement has been constructed yet). We briefly list some of them.
+
+#### Twisted super bundle
+ {#TwistedSuperBundle}
+
+In work like _[[Loop Groups and Twisted K-Theory]]_ the following structure plays a role:
+
+for $G$ a [[group]], let 
+
+$$
+  \epsilon : G \to \mathbb{Z}_2
+$$
+
+be a fixed group homomorphism. Then for $E = E_0 \oplus E_1 \to X$ a [[super vector bundle]], an "$\epsilon$-twist" of $E$ is an [[action]] of $G$ on $E$ such that an element $g \in G$ acts by an even automorphism if $\epsilon(g)$ is even, and by an odd automorphism if $\epsilon(g)$ is odd ([Freed ESI lecture, (1.13)](#FreedLecture)).
+
+This is a special case of the general notion of twist discussed here by considering the canonical morphism 
+
+$$
+  \array{
+    \mathbf{B}Aut(E)
+    \\
+    \downarrow^{\mathbf{e}}
+    \\
+    \mathbf{B} \mathbb{Z}_2
+  }
+$$
+
+as the coefficient bundle, and considering $\epsilon$ as the twist: then an $\epsilon$-twisting as above is a cocycle in the twisted cohomology $\mathbf{H}_{/\mathbf{B}\mathbb{Z}_2}(\mathbf{B}\epsilon, \mathbf{e})$ given by a commuting triangle
+
+$$
+  \array{
+     \mathbf{B}G &&\to&& \mathbf{B}Aut(E)
+     \\
+     & {}_{\mathllap{\mathbf{B}\epsilon}}\searrow && \swarrow_{\mathrlap{\mathbf{e}}}
+     \\
+     && \mathbf{B}\mathbb{Z}_2
+  }
+  \,.
+$$
+
+
+
+#### Twisted tmf
 
 * twisted [[tmf]] and charges for M5-branes ([Ando-Sati](#Ando-Sati)).
+
+#### Twisted Morava K-theory
 
 * twisted  [[Morava K-theory]] ([Sati-Westerland](#SatiWesterland)).
 
@@ -3095,4 +3139,9 @@ This page here originates in notes for an introductory lecture:
 
 * [[Urs Schreiber]], _[Twisted differential structures in string theory](http://maths-old.anu.edu.au/esi/2012/program.html#Schreiber)_ at _[ESI Program on K-Theory and Quantum Fields](http://maths-old.anu.edu.au/esi/2012/)_ (2012)
  {#SchreiberLect}
+
+Closely related lectures at the same program included
+
+* [[Dan Freed]], _Lectures on twisted $K$-theory and orientifolds_ at _[ESI Program on K-Theory and Quantum Fields](http://maths-old.anu.edu.au/esi/2012/)_ (2012)
+ {#FreedLecture}
 
