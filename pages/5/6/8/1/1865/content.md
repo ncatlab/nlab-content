@@ -151,6 +151,8 @@ see
 
 ## References
 
+### General
+
 A review is in
 
 * [[Ulrich Bunke]], [[Thomas Schick]], _Differential K-theory. A survey_ ([arXiv:1011.6663](http://arxiv.org/abs/1011.6663)).
@@ -180,17 +182,23 @@ A construction of [[differential cobordism cohomology]] theory in terms of expli
 
 By tensoring this with the suitable ring, this also gives a model for differential K-theory, as well as for [[differential elliptic cohomology]].
 
-
-
 A variant of this definition with the advantage that there is a natural morphism to [[Cheeger-Simons differential character]]s refining the total [[Chern class]] is (as opposed to the [[Chern character]]) is presented in
 
 * Alain Berthomieu, _A version of smooth K-theory adapted to the
 total Chern class_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0806/0806.4728v1.pdf))
 
+See also
+
+* Thomas Tradler, Scott O. Wilson, [[Mahmoud Zeinalian]], _Loop Differential K-theory_ ([arXiv:1201.4593](http://arxiv.org/abs/1201.4593))
+
+
+### In the context of QFT / string theory
+
+A survey of the role of differential $K$-theory in [[quantum field theory]] and [[string theory]] is in 
+
+* [[Dan Freed]], _K-Theory in Quantum Field Theory_, Current developments in Mathematics (2001) International Press Somerville ([arXiv:math-ph/0206031](http://arxiv.org/abs/math-ph/0206031))
+
 The operation of [[T-duality]] on [[twisted differential K-theory]] is discussed in
 
 * [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_
 
-See also
-
-* Thomas Tradler, Scott O. Wilson, Mahmoud Zeinalian, _Loop Differential K-theory_ ([arXiv:1201.4593](http://arxiv.org/abs/1201.4593))
