@@ -55,6 +55,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [Liber Mathematicae](http://www.libermath.org) -- site under construction, featuring a new free online journal and some expositional math resources
 
 * [Manifold Atlas Project](http://manifoldatlas.uni-bonn.de/index.php/Main_Page)
+* [mathematical structures wiki](http://math.chapman.edu/cgi-bin/structures.pl?HomePage)
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
 * [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
 * [Online Encyclopedia of Integer Sequences](https://oeis.org)
@@ -275,7 +276,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Vi Hart's blog](http://vihart.com/) Great videos and photos of mathematical art and story-telling
 
-* [Victor Porton's math blog](http://portonmath.wordpress.com) (filters, posets, funcoids and reloids)
+* [Victor Porton's math blog](http://portonmath.wordpress.com) (filters, posets, funcoids and reloids), abundant with self-centric claims of importance
 
 * [What's new](http://terrytao.wordpress.com) (Terence Tao)
 
