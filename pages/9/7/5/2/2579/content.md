@@ -38,16 +38,22 @@ This construction generalizes to [[ind-object|ind-schemes]] (as for example [[fo
 
 * For a field $k$ the terminal $k$-scheme $Sp_k k$ is a group scheme in a unique way.
 
+* An [[affine scheme|affine]] group scheme. Affine group [[variety|varieties]] are called [[linear algebraic group|linear algebraic groups]].
+
+* Complete group varieties are called [[abelian variety|abelian varieties]].
+
 * Given any group $G$, one can form the [[constant group scheme]] $G_X$ over $X$. 
 
-* [[etale group scheme]]
+* [[etale group scheme]] is the spectrum of a commutative [[Hopf algebra]]. In this case the multiplication- resp. inversion- reps. unit map are given by [[comultiplication]] reps. [[antipodism]] resp. [[counit]] in the hope algebra.
 
 
-* The functor $\mu:=\mathbb{G}_m$ is a group scheme given by $\mathbb{G}_m(S)=\Gamma(S, \mathcal{O}_S)^\times$. A scheme is sent to the invertible elements of its global functions. This group scheme is called *the multiplicative group scheme*.
+* The functor $\mu:=\mathbb{G}_m$ is a group scheme given by $\mathbb{G}_m(S)=\Gamma(S, \mathcal{O}_S)^\times$. A scheme is sent to the invertible elements of its global functions. This group scheme is called *the multiplicative group scheme*. In context of [[p-divisible group|p-divisible groups]] the kernels of the $k$-group scheme endomorphisms of $\mathbb{G}_m$ defined by $(-)^n:x\mapsto x^n$ for an integer $n$ are of particular interest. These kernels give the group schemes of the $n$-th [[root of unity]].
 
 * [[diagonalizable group scheme]]. Note that the multiplicative group scheme is diagonalizable.
 
 * [[multiplicative group scheme]] also called *group scheme of multiplicative type*. Every diagonalizable group scheme is in particular of multiplicative type.
+
+* The *additive group scheme* assigns to a ring its additive group. Also here the kernels of the powering-by-n map are of interest. These kernels give the group schemes of the $n$-th [[nilpotent object|nilpotent element]].
 
 * Group schemes can be constructed by [[restriction of scalars]].
 
@@ -57,23 +63,6 @@ This construction generalizes to [[ind-object|ind-schemes]] (as for example [[fo
 
 * Every [[algebraic group]] is in particular a group scheme.
 
-In context of [[p-divisible group|p-divisible groups]] the kernels of the $k$-group scheme morphisms
-
-$$(-)^n:\begin{cases}
-\mu_k&\to& \mu_k
-\\
-x&\to &x^n
-\end{cases}$$
-
-and for $k$ a field with characteristic $p$
-
-$$(-)^{p^r}:\begin{cases}
-\alpha_k&\to& \alpha_k
-\\
-x&\to &x^{p^r}
-\end{cases}$$
-
-denoted by $\mu_n$ giving the group scheme of $n$-th root of unity  and $\alpha_p$ giving the group scheme of $p^n$-nilpotent elements are of particular interest.
 
 ## Cartier dual
 
