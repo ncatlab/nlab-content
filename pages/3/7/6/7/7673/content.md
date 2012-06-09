@@ -169,7 +169,9 @@ such that $A_0 \in E^1$ and $A_{k+1} \in E^{1.A_0.A_1.\cdots .A_k}$ for all $k$.
 
 ## Examples
 
-There are several ways to construct categories with the above structure out of categories that occur "in nature".  But first we should mention the examples that come from type theory itself.
+Comprehension categories and display map categories are easy to come by "in nature", but it is more difficult to find examples of the "split" versions of the above structure (which are what is needed for modeling type theory).  Here we summarize some basic known constructions.
+
+However, first we should mention the examples that come from type theory itself.
 
 ### Syntactic categories
 
@@ -184,7 +186,7 @@ Of course, comprehension categories are easy to come by; perhaps they arise most
 
 It turns out that for modeling additional type-forming operations, however, not all splitting constructions are created equal.  Given $E\to C$, one classical construction (due to Power) defines $E'\to C$, where an object of $E'$ over $\Gamma\in C$ consists of a morphism $f:\Gamma \to \Delta$ in $C$ along with an object $A$ of $E$ over $\Delta$.  Type-theoretically, we can regard $(f,A)$ as a type $A$ with a "delayed substitution" $f$.  This produces a split fibration (the chosen cartesian arrows are given by composition of morphisms in $C$), but it seems impossible to define dependent sums and products on it in a strict way.
 
-A better choice is a construction due to Benabou, which defines the objects of $E'$ over $\Gamma\in C$ to be functors $C/\Gamma \to E$ over $C$ which map every morphism of $C/\Gamma$ to a cartesian arrow.  Type-theoretically, we can think of such an object as a type together with *specified* compatible substitutions along any possible morphism.  That type-formers can be extended in this case was proven by Martin Hofmann for dependent sums and products and extensional identity types, and by Michael Warren in the case of intensional identity types.
+A better choice is a construction due to Benabou, which defines the objects of $E'$ over $\Gamma\in C$ to be functors $C/\Gamma \to E$ over $C$ which map every morphism of $C/\Gamma$ to a cartesian arrow.  Type-theoretically, we can think of such an object as a type together with *specified* compatible substitutions along any possible morphism.  That type-formers can be extended in this case was proven by Martin Hofmann for dependent sums and products and extensional identity types, and by Michael Warren in the case of intensional identity types (but not for the eliminator).
 
 
 ### Universes
@@ -192,6 +194,24 @@ A better choice is a construction due to Benabou, which defines the objects of $
 Suppose given a particular morphism $p:\widetilde{U} \to U$ in $C$.  We can then define a category with attributes as follows: the discrete fibration $E\to C$ corresponds to the representable presheaf $C(-,U)$, and the functor $E\to C^I$ is defined by pullback of $p$.  We are thus treating $U$ as a "universe" of types.  We can then of course pass to a contextual category, as described above.
 
 Type-forming operations can be extended strictly in this case by performing them once in the "universal" case, then acting by composition.  This construction is due to Voevodsky.  It also meshes quite well with type theories that contain internal universes, and in particular for modeling the [[univalence axiom]].
+
+Particular important universes include:
+
+* Any [[Grothendieck universe]] in [[Set]], or more generally a [[universe in a topos]].  The resulting display maps are those with "$U$-small fibers".
+
+* In the category [[Gpd]], the groupoid of small groupoids.  The resulting display maps are the [[split opfibrations]] with small fibers.  Similarly, we can consider the groupoid of small sets, whose display maps are the [[discrete opfibrations]] with small fibers.
+
+* In the category [[sSet]] of [[simplicial sets]], there is a [[universal Kan fibration]] $p:\widetilde{U} \to U$ which classifies all [[Kan fibrations]] with small fibers.
+
+
+### Simple fibrations
+
+Let $C$ be any category with finite products, and define $E\to C$ to be the [[discrete fibration]] corresponding to the presheaf $C^{op}\to Set$ which is constant at $ob(C)$.  Thus, the objects of $E$ are pairs $(\Gamma,A)$ of objects of $C$, with the only morphisms being of the form $(\Gamma,A) \to (\Delta,A)$ induced by a morphism $\Gamma\to\Delta$ in $C$.
+
+Define the functor $E\to C^I$ to take $(\Gamma,A)$ to the projection $\Gamma\times A \to \Gamma$.  It is straightforward to check that this defines a category with attributes.  The corresponding (split) full comprehension category is called the *simple fibration* of $C$.
+
+The dependent type theory which results from this structure "has no nontrivial dependency".  That is, whenever we have a dependent type $\Gamma \vdash (A \;type)$, it is already the case that $A$ is a type in the empty context (that is, we have $\vdash (A\; type)$), and so it cannot depend nontrivially on $\Gamma$.  In effect, it is not really a dependent type theory, but a *simple* (non-dependent) type theory --- hence the name "simple fibration".
+
 
 ## Related pages
 
