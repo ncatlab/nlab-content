@@ -17,7 +17,7 @@ Let $\sigma$ denote the Frobenius morphism $W(k)\to W(k)$, let $a\mapsto a^{(p^n
 
 $$a * w:=a^{p^{1-n}} R\cdot w$$
 
-where $a^{p^{1-n} }R$ is the image of $a^{(p^{-n})}$ in $W(R)$, and $b\cdot w\in W_n(R)$, and $b\cdot w\in W_n(R)$ the product of $b\in W(R)$ and $w\in W_n(R)=W(R)/T^n W(R)$. By this definition $W_n(R)$ becomes a $W(k)$-module, and $T:W_n(R)\to W_{n+1}(R)$ is a homomorphism of $W(k)$-modules since we have
+where $a^{p^{1-n} }R$ is the image of $a^{(p^{-n})}$ in $W(R)$, and $b\cdot w\in W_n(R)$, the product of $b\in W(R)$ and $w\in W_n(R)=W(R)/T^n W(R)$. By this definition $W_n(R)$ becomes a $W(k)$-module, and $T:W_n(R)\to W_{n+1}(R)$ is a homomorphism of $W(k)$-modules since we have
 
 $$T(a* w)= T(a^{(p^{1-n)}} R\cdot w)=T(F(a^{(p^{-n})})R)\cdot w)=a^{p^{-n}}\cdot T w=a * Tw$$
 
@@ -78,7 +78,7 @@ Note that $D_K\simeq W(K)\otimes_{W(k)} D_k$ and the left hand side can also be 
 ###### Theorem
 The functor $M$ induces an (contravariant) equivalence
 
-$$Acu_k\to V-Tor D_k-Mod$$
+$$Acu_k\to Tor_V D_k Mod$$
 
 between $Acu_k$ and the category of all $D_k$-modules of $V$-torsion.
 
