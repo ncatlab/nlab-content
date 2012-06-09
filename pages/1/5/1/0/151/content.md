@@ -18,10 +18,17 @@ From a fundamental category theoretic perspective, there are two fundamental kin
 
 #Examples#
 
+* [[opposite category]]
+* [[dual vector space]]
 * the duality between [[space and quantity]]
-* [[Poincaré duality]]
-* [[Pontryagin duality]]
-* [[Grothendieck duality]]
+* [[Poincaré duality]] for finite dimensional (oriented) closed manifolds
+* [[Pontryagin duality]] for commutative ([[Hausdorff space|Hausdorff]]) [[topological group|topological groups]]
+* [[Cartier duality]] of a finite flat commutative [[group scheme]]
+* [[Serre duality]] on nonsingular projective algebraic varieties which has as a special case the statement of the [[Riemann-Roch theorem]]
+* [[Grothendieck duality]], [[coherent duality]] for [[coherentsheave|coherent sheaves]]
+* [[Verdier duality]] for abelian categories of sheaves; e.g. for a category of sheaves of abelian groups.
+* [[Artin-Verdier duality]] generalizing [[Tate duality]] for constructible sheaves over the spectrum of a ring of [[algebraic number|algebraic numbers]]
+* [[Koszul duality]]
 * [[Stone duality]]
 * [[Eckmann-Hilton duality]]
 * [[Spanier-Whitehead duality]]
