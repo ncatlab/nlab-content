@@ -235,4 +235,5 @@ Construction of elliptic cohomology / [[tmf]] by [[FQFT]] is discussed at _[[(2,
 
 * [[Pokman Cheung]], _Supersymmetric field theories and cohomology_ ([arXiv:0811.2267](http://arxiv.org/abs/0811.2267))
 
+* Nora Ganter, _The elliptic Weyl character formula_, [arxiv/1206.0528](http://arxiv.org/abs/1206.0528)
 [[!redirects elliptic cohomology theory]]
