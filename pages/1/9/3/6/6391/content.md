@@ -7,7 +7,7 @@
 
 In great generality for an integer $p$ a $p$-divisible group is a [[inductive system|codirected diagram]] of abelian-group objects in a category $C$ where the abelian-group objects are (equivalently) the [[kernel|kernels]] of the map given by multiplication with a power of $p$; these kernels are also called $p^n$-torsions.
 
-In the classically studied case $p$ is a prime number, $C$ is the category of [[scheme|schemes]] over a commutative ring (mostly a field with prime characteristic) and the abelian [[group scheme|group schemes]] occurring in the diagram are assumed to be finite. In this case the diagram defining the $p$-divisible group can be described in terms of the growth of the order of the group schemes in the diagram.
+In the classically studied case $p$ is a prime number, $C$ is the category of [[scheme|schemes]] over a commutative ring (mostly a field with prime characteristic) and the abelian [[group scheme|group schemes]] occurring in the diagram are assumed to be finite. In this case the diagram defining the $p$-divisible group can be described in terms of the growth of the [[order of a group|order]] of the group schemes in the diagram.
  
 Note that there is also a notion of [[divisible group]].
 
@@ -23,7 +23,7 @@ It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutati
 
 ## Examples
 
-* The motivating example is the Barsotti--Tate group of an [[abelian variety]]. Let $X$ be an [[abelian variety]] over $R$ of dimension $g$, then the multiplication map by $p^\nu$ has kernel $_{p^\nu}X$ which is a finite [[group scheme]] over $R$ of order $p^{2g \nu}$. The natural inclusions satisfy the conditions for the limit denoted $X(p)$ to be a $p$-divisible group of height $2g$.
+* The motivating example is the [[the Barsotti-Tate group of an abelian variety]]. Let $X$ be an [[abelian variety]] over $R$ of dimension $g$, then the multiplication map by $p^\nu$ has kernel $_{p^\nu}X$ which is a finite [[group scheme]] over $R$ of order $p^{2g \nu}$. The natural inclusions satisfy the conditions for the limit denoted $X(p)$ to be a $p$-divisible group of height $2g$.
 
 * Similarly, the kernel of raising to the $p^\nu$ power on $\mathbb{G}_m$ is a [[group scheme]] $\mu_{p^\nu}$. The limit $\lim_{\to} \mu_{p^\nu}=\mu_{p^\infty}$ is a $p$-divisible group of height $1$.
 
@@ -39,7 +39,7 @@ It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutati
 
 ### Examples
 
-* The dual $\mu_{p^\infty}^D\simeq \mathbb{Q}_p/\mathbb{Z}_p$. 
+* The dual $\mu_{p^\infty}^D\simeq \mathbb{Q}_p/\mathbb{Z}_p$.
 
 * For an abelian variety $X$, the dual is $X(p)^D=X^t(p)$ where $X^t$ denotes the dual abelian variety. Another proof that $X(p)$ has height $2g$ is to note that $X$ and $X^t$ have the same dimension $g$, so using our formula for height we get $ht(X(p))=2g$.
 
