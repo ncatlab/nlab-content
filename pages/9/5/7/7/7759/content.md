@@ -1,7 +1,8 @@
 In [[model theory]] abstract elementary classes are a vast generalizations of [[elementary class]]es of [[structure in model theory|structures]] beyond first-order theories (e.g. for some infinitary logics) as introduced by [[Saharon Shelah]].
 
-An __abstract elementary class__ is a __nonempty__ class of structures in a given signature, which is closed under isomorphisms and equipped with a strong substructure relation of partial order $\lt_K$ which satisfies the axioms on union of chains, coherence and Loewenheim-Skolem properties.
+An __abstract elementary class__ is a __nonempty__ class of structures in a given signature, which is closed under isomorphisms and equipped with a strong substructure relation of partial order $\prec_K$ (strong substructure relation means that if $M\prec_K N$ and $M_0\subset M$ is a substructure, then $M\prec_L N$), which satisfies the axioms on union of chains, coherence and Loewenheim-Skolem properties. 
 
+* related $n$Lab entries: [[amalgamation]]
 * wikipedia [abstract elementary class](http://en.wikipedia.org/wiki/Abstract_elementary_class)
 * [[Saharon Shelah]], _Classification theory for elementary abstract classes I, II_, Studies in Logic (London), __18__, __20__, College Publications, London 2009
 * Tibor Beke, Jiri Rosicky, _Abstract elementary classes and accessible categories_, [arxiv/1005.2910](http://arxiv.org/abs/1005.2910) 
