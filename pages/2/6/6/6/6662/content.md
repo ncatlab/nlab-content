@@ -1,3 +1,4 @@
+[[!redirects Frobenius endomorphism]]
 [[!redirects Frobenius map]]
 
 #Contents#
