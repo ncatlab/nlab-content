@@ -19,6 +19,8 @@
 
 It serves to refine the notion of [[de Rham cohomology]] for [[scheme]]s.
 
+Crystalline cohomology is in particular a [[Weil cohomology]] and is generalized by the notion of [[rigid cohomology]].
+
 ## Definition
 
 Let $X$ be a [[scheme]] overy a base $S$. The **[[crystalline site]]** $Cris(X/S)$ of $X$ is
