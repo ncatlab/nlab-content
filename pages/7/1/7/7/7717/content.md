@@ -22,7 +22,7 @@ then $M:=lim M_n$ is a finitely generated $W(k)$-module and the canonical map $M
 +-- {: .num_defn}
 ###### Definition
 ($p$-torsion formal group)
-A formal group $G$ is called *$p$-torsion formal group*if
+A formal group $G$ is called *$p$-torsion formal group* if
 
 1. $G=\cup ker p^n id_G$
 
