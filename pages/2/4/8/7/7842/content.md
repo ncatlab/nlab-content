@@ -1,0 +1,7 @@
+
+>'Imagine a person with a gift of ridicule \[He might say\] First that a negative quantity has no logarithm; secondly that a negative quantity has no square root; thirdly that the first non-existent is to the second as the circumference of a circle is to the diameter.'  (That is, $\ln(-1) \div \sqrt{-1} = \pi$.)
+
+Augustus de Morgan is a 19th-century mathematician and logician most famous for the [[de Morgan laws]], even though he did not formulate them.  He did, however, contribute (along with [[George Boole]], [[Charles Peirce]], etc) to the work of making [[logic]] into a mathematical discipline.
+
+
+category: people
