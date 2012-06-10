@@ -62,6 +62,9 @@ If we take $\mathcal{E}$ to be the class of [[extremal epimorphism]]s, we might 
 
 If $C$ has pullbacks, then extremal epis reduce to strong ones, and so extremal generators are necessarily strong. For this reason, some authors simply define "strong generator" to mean "dense generator."
 
++--{: .query}
+[[Daniel Schaeppi]] Something seems to be wrong here: strong epimorphisms are extremal, so the notion of extremal generator is weaker than the notion of strong generator. In general, not every strong generator is (Set-)dense (take the free abelian group on one generator, for example).
+=--
 
 ## Related concepts
 
