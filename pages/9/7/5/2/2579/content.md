@@ -1,3 +1,4 @@
+[[!redirects group schemes]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
