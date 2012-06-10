@@ -116,12 +116,82 @@ For a $k$-ring $R$ let $W^\prime(R)$ denote the [[ideal]] in $W(R)$ consisting o
 
 Let $E$ denote the [[Artin-Hasse exponential]]. Then we have $E(x,1)$ is a polynomial for $x\in W^\prime(R)$ and
 
-$$E(-,1):\begin{cases}W^prime\to \mu_k
+$$E(-,1):\begin{cases}W^\prime\to \mu_k
 \\
 w\mapsto E(w,1)\end{cases}$$
 
-is a morphism of [[group scheme]] 
+is a morphism of [[group schemes]] to the [[multiplicative group scheme]] $\mu_k$.
 
++-- {: .num_prop}
+###### Proposition
+a) $W^\prime (R)$ is an ideal in $W(R)$.
+
+b) $E(-,1): W^\prime\to \mu_k$ is an morphism of [[group schemes]].
+
+c) The morphism
+
+$$\begin{cases}
+W\times W^\prime\to \mu_k
+\\
+(x,y)\mapsto E(xy,1)
+\end{cases}$$
+
+is bilinear and gives an isomorphism of [[group schemes]]
+
+$$W^\prime\to D(W)$$
+
+where $D$ denotes the [[Cartier dual]] of $W$ (maybe it is equivalently the [[Pontryagin dual]] of the underlying group of the (plain) ring $W$). That this map is a morphism of group schemes follows from the definition of the [[Cartier dual]].
+
+d) For $x\in W(R)$ and $y\in W^\prime (R)$ we have $E(xy,1)\in R^\times$ and
+
+$$E(V^n x y,1)=E (T^n(x F^n y),1)=E(x F^n y,1)$$
+=--
+
++-- {: .num_defn}
+###### Definition and Theorem
+Let $ker(F_n^m):=ker (F^m:W_{nk}\to W_{nk})$ denote the [[kernel]] of $m$-times iterated [[Frobenius endomorphism]] of the $n$-truncated Witt ring.Let
+
+$$\sigma_n:\begin{cases}
+W_{nk}\to W_k
+\\
+(\alpha_0,\dots,\alpha_{n-1})\mapsto(\alpha_0,\dots,\alpha_{n-1},0,\dots)
+\end{cases}$$
+
+be the section of the restriction $R_n:W_k\to W_{nk}$. $\sigma_n$ sends $ker(F_n^m)$ in $W^\prime$. Note that $\sigma_n$ is not a morphism of groups.
+
+We define the bilinear map
+
+$$\lt-,-\gt:\begin{cases}
+ker(F^m_n)\times ker(F^n_m)\to R^\times
+\\
+\ltx,y\gt\mapsto E(\sigma_n(x),\sigma_m(y),1)
+\end{cases}$$
+then $\lt x,y\gt$ is bilinear and gives an isomorphism
+
+$$ker(F^m_n)\simeq D(ker(F^n_m)$$
+
+and satisfies
+
+$$\lt x,t y\gt=\lt f x,y\gt$$
+
+$$\lt x,r y\gt=\lt i x,y\gt$$
+
+where the morphisms are
+
+$$\array{
+ker(F^m_n)
+&\stackrel{t}{\to}&
+ker(F^m_{n+1}
+\\
+\downarrow^f&&\downarrow^r
+\\
+ker(F^{m-1}_n)
+&\stackrel{i}{\hookrightarrow}&
+ker(F^m_n)
+}$$
+
+where $i$ is the canonical inclusion, and $r,f,t$ are induced by $R,F,T$ where $F$ is [[Frobenius morphism|Frobenius]], $T$ is [[Witt ring|Verschiebung]] and $R:W\to W_n$ is [[Witt ring|restriction]]. $i$ and $t$ are monomorphisms, $f$ and $r$ are epimorphisms, and for $m^{W_n}$ we have $F=if$ and $V=rt$.
+=--
 
 ## Ring Properties
 
