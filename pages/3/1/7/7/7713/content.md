@@ -8,7 +8,7 @@ This entry is about a section of the text
 +-- {: .num_remark}
 ###### Remark
 
-Let $m, n\gt 1$ and define $m^{W_n}:=ker(F^m:W_{nk}\to W_{nk}$. Then there are morphisms
+Let $m, n\gt 1$ and define $m^{W_n}:=ker(F^m:W_{nk}\to W_{nk})$. Then there are morphisms
 
 $$\array{
 m^{W_n}
@@ -22,7 +22,7 @@ m^{W_{n+1}}
 m^{W_n}
 }$$
 
-where $i$ is the canonical inclusion, and $r,f,t$ are induced by $R,F,T$. $i$ and $t$ are monomorphisms, $f$ and $r$ are epimorphisms, and for $m^{W_n}$ we have $F=if$ and $V=rt$.
+where $i$ is the canonical inclusion, and $r,f,t$ are induced by $R,F,T$ where $F$ is [[Frobenius morphism|Frobenius]], $T$ is [[Witt ring|Verschiebung]] and $R:W\to W_n$ is [[Witt ring|restriction]]. $i$ and $t$ are monomorphisms, $f$ and $r$ are epimorphisms, and for $m^{W_n}$ we have $F=if$ and $V=rt$.
 =--
 
 +-- {: .num_defn}
