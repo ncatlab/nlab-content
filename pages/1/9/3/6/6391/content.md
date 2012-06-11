@@ -18,7 +18,7 @@ Note that there is also a notion of [[divisible group]].
 
 Fix a [[prime number]] $p$, a [[natural number|positive integer]] $h$, and a [[commutative ring]] $R$.
 
-A **$p$-divisible group of height $h$ over $R$** is a directed system $(G_\nu, i_\nu)_{\nu \in \mathbb{N}}$ where each $G_\nu$ is a finite commutative [[group scheme]] over $R$ of [[order of a group|order]] $p^{\nu h}$ that also satisfies the property that
+A **$p$-divisible group of height $h$ over $R$** is a [[codirected limit|codirected diagram]] $(G_\nu, i_\nu)_{\nu \in \mathbb{N}}$ where each $G_\nu$ is a finite commutative [[group scheme]] over $R$ of [[order of a group|order]] $p^{\nu h}$ that also satisfies the property that
 
 $$0\to G_\nu \stackrel{i_\nu}{\to} G_{\nu +1}\stackrel{p^\nu}{\to} G_{\nu +1}$$
 
