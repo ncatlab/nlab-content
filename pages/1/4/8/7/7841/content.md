@@ -117,6 +117,7 @@ For a $k$-ring $R$ let $W^\prime(R)$ denote the [[ideal]] in $W(R)$ consisting o
 Let $E$ denote the [[Artin-Hasse exponential]]. Then we have $E(x,1)$ is a polynomial for $x\in W^\prime(R)$ and
 
 $$E(-,1):\begin{cases}W^\prime\to \mu_k
+
 \\
 w\mapsto E(w,1)\end{cases}$$
 
@@ -164,7 +165,7 @@ We define the bilinear map
 $$\lt-,-\gt:\begin{cases}
 ker(F^m_n)\times ker(F^n_m)\to R^\times
 \\
-\ltx,y\gt\mapsto E(\sigma_n(x),\sigma_m(y),1)
+\lt x,y\gt\mapsto E(\sigma_n(x)\sigma_m(y),1)
 \end{cases}$$
 then $\lt x,y\gt$ is bilinear and gives an isomorphism
 
@@ -181,7 +182,7 @@ where the morphisms are
 $$\array{
 ker(F^m_n)
 &\stackrel{t}{\to}&
-ker(F^m_{n+1}
+ker(F^m_{n+1})
 \\
 \downarrow^f&&\downarrow^r
 \\
@@ -190,7 +191,7 @@ ker(F^{m-1}_n)
 ker(F^m_n)
 }$$
 
-where $i$ is the canonical inclusion, and $r,f,t$ are induced by $R,F,T$ where $F$ is [[Frobenius morphism|Frobenius]], $T$ is [[Witt ring|Verschiebung]] and $R:W\to W_n$ is [[Witt ring|restriction]]. $i$ and $t$ are monomorphisms, $f$ and $r$ are epimorphisms, and for $m^{W_n}$ we have $F=if$ and $V=rt$.
+where $i$ is the canonical inclusion, and $r,f,t$ are induced by $R,F,T$ where $F$ is [[Frobenius morphism|Frobenius]], $T$ is [[Witt ring|Verschiebung]] and $R:W\to W_n$ is [[Witt ring|restriction]]. $i$ and $t$ are monomorphisms, $f$ and $r$ are epimorphisms, and for $ker(F^n_m)$ we have $F=if$ and $V=rt$.
 =--
 
 ## Ring Properties
