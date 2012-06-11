@@ -1,0 +1,1 @@
+A commutative ring $R$ of [[characteristic]] $0$ is called a *ring of mixed characteristic* if $R$ has an Ideal $I$ such that the [[quotient]] $R/I$ is of prime characteristic.
