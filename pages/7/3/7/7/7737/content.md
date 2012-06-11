@@ -34,7 +34,7 @@ Maybe one can assign a [[fundamental category]] to a stratified space.
 
 A notion of purely topologically stratified sets was introduced in
 
-* [[Frank Quinn]], _Homotopically stratied sets_, J. Amer. Math. Soc. 1 (1988), 441{499. MR 89g:57050
+* [[Frank Quinn]], _Homotopically stratified sets_, J. Amer. Math. Soc. 1 (1988), 441{499. MR 89g:57050
  {#Quinn}
 
 Notions of smoothly stratified spaces were considered by
