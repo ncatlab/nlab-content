@@ -69,4 +69,8 @@ get such a result, using regular epimorphism pretopology, it seems to me. It is 
 
 =--
 
+## References
+
+Morita equivalence, wikipedia, [wiki](http://en.wikipedia.org/wiki/Morita_equivalence)
+
 [[!redirects Morita equivalences]]
