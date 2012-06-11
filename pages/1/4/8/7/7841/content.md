@@ -253,6 +253,8 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 
 * [[Dmitri Kaledin]], universal Witt vectors and the ''Japanese cocycle'', [pdf](http://imperium.lenin.ru/~kaledin/math/jap.pdf)
 
-* Lars Hesselholt, Ib Madsen, on the de Rham-Witt comples in [[mixed characteristic]], [pdf](http://www.math.uiuc.edu/K-theory/0551/paper.pdf)
+* [[Lars Hesselholt]], Ib Madsen, on the de Rham-Witt comples in [[mixed characteristic]], [pdf](http://www.math.uiuc.edu/K-theory/0551/paper.pdf)
+
+* [[Lars Hesselholt]], Witt vectors of non-commutative rings and topological cyclic homology, [pdf](http://www.math.uiuc.edu/K-theory/0135/derived.pdf)
 
 
