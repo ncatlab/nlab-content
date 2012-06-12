@@ -8,6 +8,8 @@ $$T_p(A):=lim_n A[p^n]:=lim_n ker(A\stackrel{\cdot p^n }{\to}A)$$
 
 of the directed diagram given by kernels of the endomorphism of $A$ defined by multiplication with $p^n$ and transition maps $d_i:=(\cdot p):A[p^{n+1}]\to A[p^n]$.
 
+The Tate module can equivalently be described in terms of the endorphism ring of the [[Prüfer group]].
+
 ## References
 
 * Faltings, Gerd (1983), "Endlichkeitss&#228;tze f&#252;r abelsche Variet&#228;ten &#252;ber Zahlk&#246;rpern", Inventiones Mathematicae 73 (3): 349&#8211;366, doi:10.1007/BF01388432
