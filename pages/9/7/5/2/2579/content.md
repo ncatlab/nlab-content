@@ -45,7 +45,7 @@ This construction generalizes to [[ind-object|ind-schemes]] (as for example [[fo
 
 * Given any group $G$, one can form the [[constant group scheme]] $G_X$ over $X$. 
 
-* [[etale group scheme]] is the spectrum of a commutative [[Hopf algebra]]. In this case the multiplication- resp. inversion- reps. unit map are given by [[comultiplication]] reps. [[antipodism]] resp. [[counit]] in the hope algebra.
+* [[etale group scheme]] is the spectrum of a commutative [[Hopf algebra]]. In this case the multiplication- resp. inversion- reps. unit map are given by [[comultiplication]] reps. [[antipodism]] resp. [[counit]] in the Hopf algebra.
 
 
 * The functor $\mu:=\mathbb{G}_m$ is a group scheme given by $\mathbb{G}_m(S)=\Gamma(S, \mathcal{O}_S)^\times$. A scheme is sent to the invertible elements of its global functions. This group scheme is called *the multiplicative group scheme*. In context of [[p-divisible group|p-divisible groups]] the kernels of the $k$-group scheme endomorphisms of $\mathbb{G}_m$ defined by $(-)^n:x\mapsto x^n$ for an integer $n$ are of particular interest. These kernels give the group schemes of the $n$-th [[root of unity]].
