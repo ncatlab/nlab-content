@@ -31,11 +31,11 @@ Brauer groups and Azumaya algebras are closely related to [[Morita theory]] and 
 
 For $R$ a [[ring]] and $H^n_{et}(-,-)$ the [[etale cohomology]], $\mathbb{G}_m$ the [[multiplicative group]] of the [[affine line]]; then
 
-* $H^0_{et}(R, \mathbb{G}_m) = R^\times$
+* $H^0_{et}(R, \mathbb{G}_m) = R^\times$ ([[group of units]])
 
-* $H^1_{et}(R, \mathbb{G}_m) = Pic(R)$ (iso classes of invertible $R$-modules)
+* $H^1_{et}(R, \mathbb{G}_m) = Pic(R)$ ([[Picard group]]: iso classes of invertible $R$-modules)
 
-* $H^2_{et}(R, \mathbb{G}_m) = Br(R)$ (Morita classes of Azumaya $R$-algebras)
+* $H^2_{et}(R, \mathbb{G}_m) = Br(R)$ ([[Brauer group]] Morita classes of Azumaya $R$-algebras)
 
 More generally, this works for $R$ a (connective) [[E-infinity ring]] 
 (the following is due to [[David Gepner]]). 
@@ -188,7 +188,7 @@ $$
 
 ## Related concepts
 
-* [[Picard group]], [[Brauer group]]
+* [[group of units]], [[Picard group]], [[Brauer group]]
 
 ## References 
 
