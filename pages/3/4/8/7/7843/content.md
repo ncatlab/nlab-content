@@ -1,5 +1,11 @@
 [[!redirects unipotent group schemes]]
 
+## Idea
+
+An element $r$ of a ring with multiplicative unit is called *unipotent element* if $r-1$ is nilpotent.
+
+(...)
+
 +-- {: .num_theorem}
 ###### Theorem and Definition
 Let $G$ be an [[affine scheme|affine]] [[group scheme|k-group]]. Then the following conditions are equivalent.
