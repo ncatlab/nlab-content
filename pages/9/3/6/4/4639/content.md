@@ -122,6 +122,20 @@ This is called the **multiplicative group** of the line object, often denoted $\
 
 See also _[[analytic affine line]]_.
 
+#### Properties
+
+##### Cohomology
+
+For $R$ a [[ring]] and $H^n_{et}(-,-)$ the [[etale cohomology]], $\mathbb{G}_m$ the [[multiplicative group]] of the [[affine line]]; then
+
+* $H^0_{et}(R, \mathbb{G}_m) = R^\times$ ([[group of units]])
+
+* $H^1_{et}(R, \mathbb{G}_m) = Pic(R)$ ([[Picard group]]: iso classes of invertible $R$-modules)
+
+* $H^2_{et}(R, \mathbb{G}_m) = Br(R)$ ([[Brauer group]] Morita classes of Azumaya $R$-algebras)
+
+
+
 ### References
 
 The notion of a line object over general abelian Lawvere theories has been considered in
