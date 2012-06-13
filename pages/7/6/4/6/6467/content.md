@@ -38,7 +38,7 @@ Another form the Picard group takes is from the isomorphism $Pic(X)\simeq H^1(X,
 
 ## Related concepts
 
-* [[Brauer group]], [[Azumaya algebra]]
+* [[group of units]], **Picard group**, [[Brauer group]], [[Azumaya algebra]]
 
 * [[Picard scheme]]
 
