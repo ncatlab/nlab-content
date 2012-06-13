@@ -29,7 +29,7 @@ Given a [[set]] $S$, a __total order__ on $S$ is a (binary) [[relation]] $\leq$ 
 * [[antisymmetric relation|antisymmetry]]: whenever $x \leq y \leq x$, then $x = y$;
 * [[total relation|totality]]: for any $x$ and $y$ in $S$, $x \leq y$ or $y \leq x$.
 
-A __toset__ is a set equipped with a partial order.
+A __toset__ is a set equipped with a total order.
 
 
 ## Relation to simplices
