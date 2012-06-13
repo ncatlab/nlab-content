@@ -19,27 +19,76 @@ Given a (typically [[algebraically closed field|algebarically closed]]) field $k
 
 
 
-## Special cases
+## Linear algebraic groups and abelian varieties
 
-An algebraic $k$-group is *linear* if it is a [[Zariski topology|Zariski]]-closed subgroup of the [[general linear group]] $GL(n,k)$ for some $n$. 
+There are two important classes of algebraic groups whose intersection is trivial (the identity group): Linear algebraic groups and abelian varieties.
+
+Any algebraic group contains a unique normal linear algebraic subgroup $H$ such that their quotient $G/H$ is an abelian variety.
+
+### Linear algebraic group
+
+An algebraic $k$-group is *linear* if it is a [[Zariski topology|Zariski]]-closed subgroup of the [[general linear group]] $GL(n,k)$ for some $n$.
+
+An algebraic group is linear iff it is affine.
+
+An algebraic group scheme is *affine* if the underlying scheme is [[affine scheme|affine]].
+
+The category of affine group schemes is the [[opposite category|opposite]] of the category of commutative [[Hopf algebras]].
+
+### Abelian variety
 
 Another important class are commutative algebraic $k$-groups whose underlying variety is [[projective variety|projective]], namely the *abelian varieties*; in dimension $1$ these are precisely the [[elliptic curve]]s. If $k$ is a [[perfect field]] and $G$ an algebraic $k$-group, the theorem of Chevalley says that there is a unique linear subgroup $H\subset G$ such that $G/H$ is an abelian variety.
+
+#### Elliptic curve
+
+An abelian variety of dimension $1$ is called an *[[elliptic curve]]*.
+
+## Other prominent classes of algebraic groups
+
+Some of the definitions of the following classes exist more generally for [[group schemes]].
+
+### Jacobian
+
+(...)
+
+### Unipotent algebraic groups
+
+(See also more generally [[unipotent group scheme]].)
+
++-- {: .num_defn}
+###### Definition
+An element $x$ of an affine algebraic group is called *unipotent* if its associated right translation operator $r_x$ on the affine [[coordinate ring]] $A[G]$ of $G$ is locally unipotent as an element of the ring of linear endomorphism of $A[G]$ where ''locally unipotent'' means that its restriction to any finite dimensional stable subspace of $A[G]$ is unipotent as a ring object.
+=--
+
++-- {: .num_theorem}
+###### Theorem
+([[Jordan-Chevalley decomposition]])
+Any commutative linear algebraic group over a perfect field is the  product of a unipotent and a [[semisimple object|semisimple algebraic group]].
+=--
+
+## Properties
 
 The group objects in the category of [[algebraic schemes]] and [[formal scheme]]s are called (algebraic) [[group schemes]] and [[formal groups]], respectively. 
 
 Among group schemes are 'the infinite-dimensional algebraic groups' of Shafarevich. 
 
-An algebraic group scheme is *affine* if the underlying scheme is [[affine scheme|affine]]. 
 
-Algebraic analogues of [[loop group]]s are in the category of [[ind-scheme]]s. All linear algebraic $k$-groups are affine. 
 
-The category of affine group schemes is the [[opposite category|opposite]] of the category of commutative [[Hopf algebras]].
+Algebraic analogues of [[loop group]]s are in the category of [[ind-scheme]]s. All linear algebraic $k$-groups are affine.
 
-## Concrete examples
+
+
+
+
+## Examples
 
 The [[affine line]] $\mathbb{A}^1$ comes canonically with the structure of a group under addition: the [[additive group]] $\mathbb{G}_a$.
 
 The affine line without its origin, $\mathbb{A}^1 - \{0\}$ comes canonically with the structure of a group under multiplication: the [[multiplicative group]] $\mathbb{G}_m$.
+
+## Generalizations
+
+* [[group scheme]]
 
 
 ## References
