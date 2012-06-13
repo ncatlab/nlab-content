@@ -11,7 +11,7 @@ __$Set$__ is the (or a) [[category]] with [[sets]] as [[objects]] and [[function
 
 This category has many marvelous properties, which make it a common choice for serving as a '[[foundations|foundation]]' of mathematics.  For instance:
 
-* It is a [[well-pointed category|well-pointed]] [[topos]], 
+* It is a [[well-pointed category|well-pointed]] {:yes} [[topos]]{:}, 
 
   So in particular it is [[locally cartesian closed category|locally cartesian closed]].
 
@@ -44,5 +44,43 @@ The category is {:yes} complete {:} but not {:no} cocomplete {:} (that is wrong,
 name="\(\mathbf{Set\}\)"
 wp="Category of sets"
 key=Set
+desc="Sets with functions"
+small="no"
+locally small="yes"
+concrete="yes"
+skeleton="Cardinals"
+imp_enrich=""
+imp_monoidal="cartesian product"
+imp_adj=""
+imp_equ=""
+Mono=Injections
+Epi=Surjections
+Ext-Mono=Injections
+Ext-Epi=Surjections
 Reg-Mono=Injections
+Reg-Epi=Surjections
+Eq=Injections
+Co-Eq=Surjections
+Co-Retr=Injections
+Retr=Surjections
+Bim=Bijections
+Iso=Bijections
+Const="Constant maps"
+Co-Const="\(\emptyset \to X\)"
+Null="\(\emptyset \to X\)"
+Gen="Non-empty sets"
+Co-Gen="Sets with at least two elements"
+Init="\(\emptyset\)"
+Term="\(\{x\\\}\)"
+Zero=none
+Empty="\(\emptyset\)"
+Co-Empty=none
+Strong-Init=none
+Strong-Term="\(\{x\\\}\)"
+complete=yes
+co-complete=yes
+Prod="Cartesian product"
+Co-Prod="Disjoint union"
+Equal="any (common subsets)"
+Co-Equal="any (by a minimal equivalence relation compatible with equality of the function values)"
 }
