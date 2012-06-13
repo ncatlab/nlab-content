@@ -44,6 +44,8 @@
 
   * [[etale cohomology]]
 
+    * [[group of units]], [[Picard group]], [[Brauer group]]
+
   * [[crystalline cohomology]]
 
   * [[syntomic cohomology]]
