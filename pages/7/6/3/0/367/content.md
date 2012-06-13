@@ -160,3 +160,4 @@ $$
 
 [[!redirects categories of simplicial objects]]
 [[!redirects categories of cosimplicial objects]]
+category: simplicial object
