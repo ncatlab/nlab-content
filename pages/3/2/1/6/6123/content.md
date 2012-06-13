@@ -23,6 +23,8 @@ For $R$ a [[ring]], its _group of units_, denoted $R^\times$ or $GL_1(R)$, is th
 
 ## Related concepts
 
+* **group of units**/[[multiplicative group]], [[Picard group]], [[Brauer group]]
+
 * [[∞-group of units]]
 
 [[!redirects groups of units]]
