@@ -273,4 +273,4 @@ attractors in topological spaces_, Nonlinear Analysis 60 (2005) 837 - 847
 
 and 
 
-*  J. Garc&#237;a Calcines, [[Luis Javier Hernández|L. J. Hernández]] and M.T. Rivas,  _Limit and end functors of dynamical systems via exterior spaces, _ [Preprint (2011)](http://www.unirioja.es/cu/luhernan/puben.html).
+*  J. Garc&#237;a Calcines, [[Luis Javier Hernández|L. J. Hernández]] and [[Teresa Rivas|M.T. Rivas]],  _Limit and end functors of dynamical systems via exterior spaces, _ [Preprint (2011)](http://www.unirioja.es/cu/luhernan/puben.html).
