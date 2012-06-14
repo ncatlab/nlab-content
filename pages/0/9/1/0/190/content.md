@@ -69,6 +69,12 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 ## Related concepts
 
+* [[Pos]]
+
+* [[Set]]
+
+* [[Grpd]], [[∞Grpd]]
+
 * **$Cat$**, [[Operad]]
 
 * [[2Cat]]
@@ -76,6 +82,7 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 * [[(∞,1)Cat]], [[(∞,1)Operad]]
 
 * [[(∞,n)Cat]]
+
 
 
 ## References
