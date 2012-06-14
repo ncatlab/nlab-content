@@ -69,5 +69,7 @@
 
   * [[string field theory]]
 
+* [[infinite-dimensional Chern-Simons theory]]
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-Chern-Simons+theory+-+contents)</div>
