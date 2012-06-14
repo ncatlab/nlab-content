@@ -351,6 +351,8 @@ Which is to say _What 3/4-dimensional structure is Khovanov homology hinting at?
 
 ## Related concepts
 
+* [[infinite-dimensional Chern-Simons theory]]
+
 * [[schreiber:∞-Chern-Simons theory]]
 
   * [[higher dimensional Chern-Simons theory]]
