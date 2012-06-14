@@ -1,3 +1,25 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 $Pos$ is the [[category]] whose [[objects]] are [[posets]] and whose [[morphisms]] are monotone (weakly increasing) maps.
 
+## Properties
+
 The [[hom-sets]] of $Pos$ themselves have the structure of posets, making $Pos$ into a [[2-poset]] (aka $(1,2)$-category) or [[locally posetal 2-category]].  If [[Set]] is the primordial example of a [[category]] and [[Cat]] is the primordial example of a [[2-category]], then $Pos$ is the primordial example of a $2$-poset.
+
+## Related categories
+
+* [[Set]]
+
+* [[Grpd]], [[∞Grpd]]
+
+* [[Cat]], [[(∞,1)Cat]]
+
+* [[(∞,n)Cat]]
+
+
+category: category
