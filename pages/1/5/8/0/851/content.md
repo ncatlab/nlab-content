@@ -12,10 +12,26 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
+
+For $C$ an [[(∞,1)-category]] and $X \in C$ an [[object]], the _over-$(\infty,1)$-category_ or _slice $(\infty,1)$-category_ $C_{/X}$ is the $(\infty,1)$-category whose [[objects]] are [[morphism]] $p : Y \to X$ in $C$, whose morphisms $\eta : p_1 \to p_2$ are [[2-morphisms]]
+
+$$
+  \array{
+     Y_1 &&\stackrel{}{\to}&& Y_2
+     \\
+     & {}_{\mathllap{p_1}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{p_2}}
+     \\
+     && X
+  }
+$$
+
+and generally whose [[n-morphisms]] are [[diagrams]] $\Delta[n+1] = \Delta[n] \star \Delta[0]\to C$ that take the tip of the [[cocone]] to $X$.
+
+This is the generalization of the notion of [[over-category]] in ordinary [[category theory]].
 
 ## Definition
 
@@ -24,7 +40,7 @@ We give the definition in terms of the model of [[(∞,1)-categories]] in terms 
 Recall from [[join of quasi-categories]] that there are two different but quasi-catgorically equivalent definitions of _join_, denoted $\star$ and $\diamondsuit$. Accordingly we have the following two different but quasi-categoricaly equivalent definitions of over/under quasi-categories.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Defnition/Proposition
 
 Let $C$ be a [[quasi-category]]. let $K$ be any [[simplicial set]] and let 
@@ -92,22 +108,18 @@ be an [[(∞,1)-functor]] -- a morphism of simplicial sets.
 
 The first definition in terms of the the mapping property is due to [[Andre Joyal]]. Together with the discussion of the concrete realization it appears as [[Higher Topos Theory|HTT, prop 1.2.9.2]]. The second definition appears in [[Higher Topos Theory|HTT]] above prop. 4.2.1.5.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The simplicial sets $C_{/F}$ and $C_{F/}$ are indeed themselves again [[quasi-categories]].
 
 =--
 
-+-- {: .proof}
-###### Proof
-
 This appears as [[Higher Topos Theory|HTT, prop. 1.2.9.3]]
 
-=--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The two definitions yield equivalent results in that the canonical morphism
@@ -121,12 +133,8 @@ is an equivalence of quasi-categories.
 
 =--
 
-+-- {: .proof}
-###### Proof
-
 This is [[Higher Topos Theory|HTT, prop. 4.2.1.5]]
 
-=--
 
 From the formula 
 
@@ -136,7 +144,7 @@ $$
 
 we see that
 
-* an object in the over quasi-category $C_{/F}$ is a **cone** over $F$;. 
+* an object in the over quasi-category $C_{/F}$ is a **[[cone]]** over $F$;. 
 
   For instance if $K = \Delta[1]$ then an object in $C_{/F}$ is a 2-cell
 
@@ -165,9 +173,9 @@ So we may think of the overcategory $C_{/F}$ as the **quasi-category of cones ov
 
 ## Properties
 
+### Relation to over-1-categories
 
-
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -180,14 +188,12 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
-
 This appears as [[Higher Topos Theory|HTT, remark 1.2.9.6]].
 
-=--
+### Functoriality of the slicing
 
-+-- {: .un_prop}
+
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -195,15 +201,35 @@ If $q : C \to D$ is a [[model structure for quasi-categories|categorical equival
 
 =--
 
-+-- {: .proof}
-###### Proof
-
 This appears as [[Higher Topos Theory|HTT, prop 1.2.9.3]].
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $C$ a [[quasi-category]] and $p : X \to C$ any morphism of simplicial sets, the canonical morphisms
+
+$$
+  C_{p/} \to C
+$$ 
+
+and
+
+$$
+  C^{p/} \to C
+$$
+
+are both [[left Kan fibrations]].
 
 =--
 
+This is a special case of [[Higher Topos Theory|HTT, prop 2.1.2.1]] and [[Higher Topos Theory|prop. 4.2.1.6]].
 
-+-- {: .un_prop}
+
+### Hom-spaces in a slice
+
+
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ an [[(∞,1)-category]] and $X \in C$ an [[object]] in $C$ and $f : A \to X$ and $g : B \to X$ two objects in $C/X$, the [[derived hom-space|hom-∞-groupoid]] $C/X(f,g)$ is equivalent to the [[homotopy fiber]] of
@@ -239,7 +265,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.5.5.12]].
 
   * [[model structure on an over category]] 
 
-  * [[over-(∞,1)-topos]]
+  * [[over-(∞,1)-topos]], [[etale geometric morphism]]
 
 
 ## References
