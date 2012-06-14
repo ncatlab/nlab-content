@@ -1,0 +1,5 @@
+**Cross-composition product** (including cross-composition product of [[funcoid]]s, [[reloid]]s, [[multifuncoid]]s, [[multireloid]]s) arise in the research of [[Victor Porton]].
+
+A **cross-composition product** is a [[pointfree funcoid]].
+
+TODO: Write here more.
