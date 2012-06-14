@@ -25,12 +25,53 @@
 
 In the context of [[infinity-Wess-Zumino-Witten theory - contents|higher dimensional WZW models]] the following 1-dimensional [[sigma-models]] are seen to be examples
 
-
 * the free non-relativistic [[particle]];
 
 * the massive [[Green-Schwarz action functional|Green-Schwarz]] [[superparticle]].
 
 See in ([AzcarragaIzqierdo](#AzcarragaIzqierdo)) section 8.3 and 8.7.
+
+## Examples
+
+### Free massive non-relativistic particle
+
+Write 
+
+$$
+  H \coloneqq G/R
+$$
+
+for the [[coset]] obtained as the [[quotient]] of the [[Galilei group]] in some [[dimension]] $d$ by the grup of [[rotations]]. This $H$ has a canonical global [[coordinate chart]] $(t,x, \dot x)$. We may regard it as the first order [[jet bundle]] to the bunde $\mathbb{R}^d \times \mathbb{R} \to \mathbb{R}$ whose [[sections]] are trajectories in [[Cartesian space]] $\mathbb{R}^d$.
+
+Among the $H$-left invariant 2-forms on $H$ is 
+
+$$
+  \omega_m \coloneqq m (d_{dR} x - \dot x d_{dR} t) \wedge d_{dR} \dot x
+$$
+
+for some $m \in \mathbb{R}$ (where a contraction of vectors is understood).
+
+This is a representative of degree-2 [[Lie algebra cohomology]] of $Lie(H)$. Taking it to be the [[curvature]] of a WZW 1-[[connection on a bundle|bundle with connection]] 1-form
+
+$$
+  A \coloneqq m \dot x (d_{dR} x - \frac{1}{2} \dot x d_{dR} t)
+  \,.
+$$
+
+Hence the value of the [[action functional]] of the corresponding 1d pure (topological) WZW model on a field configuration is 
+
+$$
+   m \int_{\Sigma_1} \dot  x (d_{dR} x - \frac{1}{2} \dot x d_{dR} t)
+   =
+   m \int_{\Sigma_1} \frac{\partial L}{ \partial \dot x}(d x - \dot x)+ L d t
+  \,,
+$$
+
+where $L(x, \dot x) d t = \frac{1}{2}m \dot x^2 d t$ is the [[Lagrangian]] of the the free non-relativistic [[particle]] of [[mass]] $m$.
+
+Applied to jet-prolongations of sections of the field bundle for which $d x = \dot x d t$ the first term vabishes and so the WZW-type action is that of the free non-relativistic particle.
+
+See ([Azcarraga-Izqierdo, section 8.3](#AzcarragaIzqierdo)) for a useful account.
 
 ## References
 
