@@ -159,6 +159,12 @@ $$
 
 ## Related concepts
 
+* [[Pos]]
+
+* [[Set]]
+
+* [[Grpd]], [[∞Grpd]]
+
 * [[Cat]], [[Operad]]
 
 * [[2Cat]]
