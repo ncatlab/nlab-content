@@ -30,7 +30,7 @@ It comes in both *typed* and *untyped* (or, more correctly, *single-typed*) vers
 
 ### Abstraction and application
 
-The basic constructs of lambda calculus are *lambda abstractions* and *applications*.  If $t$ is an expression of some sort involving a free variable $x$ (possibly vacuously), then the lambda abstraction
+The basic constructs of lambda calculus are *[[lambda abstractions]]* and *applications*.  If $t$ is an expression of some sort involving a free variable $x$ (possibly vacuously), then the lambda abstraction
 
 $$ \lambda x. t $$
 
