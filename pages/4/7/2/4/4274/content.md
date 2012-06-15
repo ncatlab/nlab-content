@@ -33,7 +33,7 @@ $$
  \sigma : MString \to tmf
 $$
 
-from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also called the _$\sigma$-[[orientation in generalized cohomology|orientation]]_.
+from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also called the _$\sigma$-[[orientation in generalized cohomology|orientation]]_, the [[string orientation of tmf]].
 
 
 ## References
@@ -53,7 +53,7 @@ Surveys are in
 
 * Anand Dessai, _Some geometric properties of the Witten genus_ ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf))
 
-THe discussion of the refinement of the Witten genus to a morphism of ring spectra is in
+The discussion of the refinement of the Witten genus to a morphism of ring spectra, to the [[string orientation of tmf]] is in
 
 * [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_ ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
   {#AndoHopkinsRezk}
