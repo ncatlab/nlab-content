@@ -1,7 +1,7 @@
 
 +-- {: .num_remark}
 ###### Remark
-By a _pre-category_ I mean a [[category]] without [[identity morphism|identities]].
+By a _pre-category_ I mean a [[category]] without [[identity morphism|identities]] (a [[semicategory]]).
 =--
 
 +-- {: .num_defn}
