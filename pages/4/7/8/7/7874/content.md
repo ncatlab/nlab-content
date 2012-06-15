@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A refinement of the [[Witten genus]] to a morphism of [[E-infinity rings]]
+
+$$  
+  M String \to tmf
+$$
+
+from the [[String structure]]-[[Thom spectrum]] to [[tmf]]: an [[orientation in generalized cohomology]].
+
+## References
+
+* [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_ ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
+  {#AndoHopkinsRezk}
