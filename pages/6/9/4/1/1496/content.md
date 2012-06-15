@@ -221,6 +221,7 @@ One standard reference for this paragraph is
 * [[reflexive Banach space]]
 * [[projective Banach space]]
 
+* [[Banach analytic space]]
 
 [[!redirects Banach space]]
 [[!redirects Banach spaces]]
