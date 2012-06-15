@@ -440,13 +440,14 @@ and
 
 ## References ##
 
+### General
 
 The original references are:
 
-* [[Tom Lada]] and [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv](http://arxiv.org/abs/hep-th/9209099))
+* [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
 
-* [[Tom Lada]], [[Martin Markl]], Communications in Algebra
-Volume 23, Issue 6, (1995) _Strongly homotopy Lie algebras_ ([arXiv](http://arxiv.org/abs/hep-th/9406095))
+* [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ Communications in Algebra
+Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
 
 A quick web entry is:
 
@@ -473,6 +474,10 @@ For more general 'weak Lie 2-algebras', see:
 
 * [[Dmitry Roytenberg]], _On weak Lie 2-algebras_,  ([arXiv](http://arxiv.org/abs/0712.3461))
 
+
+### Equipped with bilinear invariant polynomial
+
+* Yunfeng Jiang, _Motivic Milnor fiber of cyclic $L_\infty$-algebras_ ([arXiv:0909.2858](http://arxiv.org/abs/0909.2858))
 
 [[!redirects L-infinity-algebras]]
 [[!redirects Lie infinity-algebra]]
