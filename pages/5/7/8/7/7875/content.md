@@ -1,0 +1,116 @@
+
+#Contents#
+* tabe of contents
+{:toc}
+
+## In terms of cohomology
+
+Write $\mathbb{Z}_{10} = \mathbb{Z}/10\mathbb{Z}$ for the [[abelian group]] of [[addition]] of [[integers]] modulo 10. In the following we identify the elements as
+
+$$
+  \mathbb{Z}_{10} = \{0,1,2, \cdots, 9\}
+  \,,
+$$
+
+as usual.
+
+Being an abelian group, every [[delooping]] [[n-groupoid]] $\mathbf{B}^n \mathbb{Z}_{10}$ exists. 
+
+Carrying is a 2-[[cocycle]] in the [[group cohomology]], hence a morphism of [[infinity-groupoids]]
+
+$$
+  c : \mathbf{B} \mathbb{Z}_{10} \to \mathbf{B}^2\mathbb{Z}_{10}
+  \,.
+$$
+
+It sends
+
+$$
+  \array{
+    && \bullet
+    \\
+    & {}^{\mathllap{a}}\nearrow 
+     &\Downarrow^=& 
+    \searrow^{\mathrlap{b}}
+    \\
+    \bullet &&\stackrel{a+b mod 10}{\to}&&
+  }
+  \;\;\;
+  \mapsto
+  \;\;\;
+  \array{
+    && \bullet
+    \\
+    & {}^{\mathllap{id}}\nearrow 
+     &\Downarrow^{c(a,b)}& 
+    \searrow^{\mathrlap{id}}
+    \\
+    \bullet &&\stackrel{id}{\to}&& \bullet
+  }
+  \,,
+$$
+
+where 
+
+$$
+  c(a,b) = 
+  \left\{
+    \array{
+       1 & a + b \geq 10
+       \\
+       0 & a + b \lt 10
+       \,.
+    }
+  \right.
+$$
+
+The [[central extension]] classified by this 2-cocycle, hence the [[homotopy fiber]] of this morphism is $\mathbb{Z}_{100}$
+
+$$
+  \array{
+    \mathbf{B}\mathbb{Z}_{100} &\to& * 
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B} \mathbb{Z}_{10} &\stackrel{\mathbf{c}}{\to}& \mathbf{B}^2 \mathbb{Z}_{10}
+  }
+  \,.
+$$
+
+That now carries a 2-cocycle
+
+$$
+  \mathbf{B} \mathbb{Z}_{100} \to \mathbf{B}^2 \mathbb{Z}_{10}
+  \,,
+$$
+
+and so on. 
+
+$$
+  \array{
+    \vdots
+    \\
+    \downarrow 
+    \\
+    \mathbf{B}\mathbb{Z}_{1000}
+    &\stackrel{c}{\to}&
+    \mathbf{B}^2\mathbb{Z}_{10}
+    \\
+    \downarrow 
+    \\
+    \mathbf{B}\mathbb{Z}_{100}
+    &\stackrel{c}{\to}&
+    \mathbf{B}^2\mathbb{Z}_{10}
+    \\
+    \downarrow 
+    \\
+    \mathbf{B}\mathbb{Z}_{10}
+    &\stackrel{c}{\to}&
+    \mathbf{B}^2\mathbb{Z}_{10}
+  }
+$$
+
+## References
+
+* [[Dan Isaksen]], _A cohomological viewpoint on elementary school arithmetic_, The American Mathematical Monthly, Vol. 109, No. 9. (Nov., 2002), pp. 796-805. ([jstor](http://links.jstor.org/sici?sici=0002-9890%28200211%29109%3A9%3C796%3AACVOES%3E2.0.CO%3B2-2))
+
