@@ -9,6 +9,7 @@
  [[conjunction]]                |   [[product type]]
  [[disjunction]]                |   [[sum type]] ([[bracket type]] of)
  [[implication]]                |   [[function type]]
+ [[negation]]                   |   [[function type]] into [[empty type]]
  [[universal quantification]]   |   [[dependent product type]]      
  [[existential quantification]] |   [[dependent sum type]] ([[bracket type]] of)
  [[equivalence]]                |   [[identity type]]
