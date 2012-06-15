@@ -29,3 +29,5 @@ The generalization of [[Chern-Simons theory]] to [[manifolds]] of infinite [[dim
 
 * [[Sylvie Paycha]], Simon Scott, _Chern-Weil forms associated with superconnections_ ([pdf](http://math.univ-bpclermont.fr/~paycha/articles/PaychaScottfinalproceedings.pdf))
 
+* Raymond Vozzo, _Loop Groups and Characteristic Classes_ (2010) ([pdf](http://www.mpim-bonn.mpg.de/webfm_send/24))
+
