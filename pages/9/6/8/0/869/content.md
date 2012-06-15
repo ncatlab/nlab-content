@@ -1,3 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 In [[logic]], the __negation__ of a statement $p$ is a statement $\neg{p}$ which is true if and only if $p$ is false.
 
 In [[classical logic]], we have the [[double negation]] law:
@@ -12,6 +30,12 @@ You can interpret intuitionistic negation as 'denial' and paraconsistent negatio
 
 Accordingly, negation mediates [[de Morgan duality]] in classical and linear logic but not in intuitionistic or paraconsistent logic.
 
-In a [[topos]], the __negation__ of an object $A$ is the object $0^A$; this matches the intuitionistic notion of negation in that there is a [[natural transformation|natural morphism]] $A \to 0^{0^A}$ but not the other way around.
+## Categorical semantics
+
+The [[categorical semantics]] of negation is the [[internal hom]] into the [[initial object]]: $\not = [-, \emptyset]$.
+
+In a [[topos]], the __negation__ of an object $A$ (a [[proposition]] under the [[propositions as types]]-interpretation) is the [[internal hom]] object $0^A$, where $0 = \emptyset$ denotes the [[initial object]]. 
+
+This matches the [[intuitionistic mathematics|intuitionistic]] notion of negation in that there is a [[natural transformation|natural morphism]] $A \to 0^{0^A}$ but not the other way around.
 
 [[!redirects not]]
