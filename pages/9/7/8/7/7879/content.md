@@ -1,0 +1,11 @@
+*Haskell* is a purely [[fuctional programming language|functional programming]] [[language|language]]. It is named after [[Haskell Brooks Curry]].
+
+There is a [[category]] $\mathbf{Haskell}$ whose objects are Haskell [[type|types]] and whose morphisms are Haskell functions.
+
+## References
+
+* Haskell, language and library specification, [wiki](http://www.haskell.org/haskellwiki/Language_and_library_specification)
+
+* haskellwiki, [wiki](http://www.haskell.org/haskellwiki/Haskell)
+
+* category theory, haskellwiki, [wiki](http://www.haskell.org/haskellwiki/Category_theory)
