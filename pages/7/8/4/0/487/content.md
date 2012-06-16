@@ -28,7 +28,7 @@ A category is **balanced** if every [[monomorphism|monic]] [[epimorphism|epic]] 
 
 ## Examples and non-examples 
 
-* Any [[topos]] (in fact, any [[pretopos]]) is balanced.  Of course, this includes [[Set]].
+* Any [[topos]] (in fact, any [[pretopos]]) is balanced.  Of course, this includes [[Set]]. A [[quasitopos]], however, need not be.
 
 * Some algebraic categories, such as [[Grp|the category of groups]], are balanced.
 
