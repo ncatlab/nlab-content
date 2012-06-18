@@ -18,7 +18,17 @@
 
 ### General
 
-Given a [[fiber sequence]] $A \to B \stackrel{f}{\to} C$ of [[classifying spaces]]/[[moduli stacks]] and given a "$B$-structure" in the form of a morphism ([[cocycle]]) $c : X \to B$, then a lift $\hat c$ through $A \to B$ to an "$A$-structure" exists precisely if the induced $C$-structure $f(c) : X \to C$ is trivializable in $C$-[[cohomology]]. One says that $[f(c)]$ it is the **obstruction** to lifting the $B$-structure to an $A$-structure.
+Given a [[fiber sequence]] $F \to A \stackrel{\mathbf{c}}{\to} B$ of [[classifying spaces]]/[[moduli stacks]], hence $[\mathbf{c}]$ a [[universal characteristic class]],  and given an "$A$-structure" in the form of a morphism ([[cocycle]]) $f : X \to A$, then a lift $\hat f$ through $F \to A$ to an "$F$-structure" exists precisely if the induced $B$-structure $\mathbf{c}(f) : X \to B$ is trivializable in $B$-[[cohomology]]. One says that $[\mathbf{c}(f)]$ it is the **obstruction** to lifting the $A$-structure to an $F$-structure.
+
+$$
+  \array{
+    && F &\to& * 
+    \\
+    & {}^{\mathllap{\hat f}}\nearrow & \downarrow^{\mathrlap{i}} && \downarrow^{\mathrlap{pt_B}}
+    \\
+    X &\stackrel{f}{\to}& A &\stackrel{\mathbf{c}}{\to}& B
+  }
+$$
 
 ### Twisted cohomology
 
@@ -26,7 +36,55 @@ Conversely, by the [[universal property]] of [[fiber sequences]], $A$-cocycles a
 
 Therefore it makes sense to ask for the [[infinity-groupoid]] of $B$-cocycles whose class under $f$ has some other fixed value $\chi$. This gives $\chi$-_[[twisted cohomology]]_ with coefficients in $A$.
 
+### In terms of homotopy type theory
 
+Formulated in [[homotopy type theory]], obstruction theory reduces to a rather simple statement about factorization, or not, of [[functions]] through [[kernels]] of other functions. We spell out some details.
+
+Let $\mathbf{c} : A \to B$ be a [[term]] of [[function type]] and let $pt_B : * \to B$ be a global point of $B$. The [[homotopy fiber|fiber]] of $\mathbf{c}$ over $pt_B$
+
+$$
+  F \coloneqq \sum_{a : A} (\mathbf{c}(a) = pt_B)
+$$
+
+comes with a canonical "inclusion" function
+
+$$
+  i : F \to A
+$$
+
+given by
+
+$$
+  i : (a, \mathbf{c}(a) \stackrel{\simeq}{\to} pt_B) \mapsto a
+  \,.
+$$
+
+Now let 
+
+$$
+  f : X \to A
+$$
+
+be any other function. We are asking for the _obstruction_ to lift it to a function $\hat f : X \to F$ such that 
+
+$$
+  i \circ \hat f \simeq f
+  \,.
+$$
+
+This exists precisely if there is an equivalence
+
+$$
+  \phi : \mathbf{c}\circ f \stackrel{\simeq}{\to} pt_B
+$$
+
+hence if the obstruction class
+
+$$
+  f^* \mathbf{c} \coloneqq \mathbf{c} \circ f
+$$
+
+is trivial.
 
 ## Examples
 
