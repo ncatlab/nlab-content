@@ -36,11 +36,12 @@ Although by analogy, it would seem that a modern perspective should prefer the t
 ...
 
 
-## Literature
+## References
 
-* P. J. Cohen, _Set theory and the [[continuum hyupothesis]]_, Benjamin, New York 1966
+* P. J. Cohen, _Set theory and the [[continuum hypothesis]]_, Benjamin, New York 1966
 * G. E. Reyes, _Typical and generic in a Baire space for relations_, thesis 1967
 * [[Abraham Robinson]], _Infinite forcing in model theory_,  in Proc. 2nd Scand. Logic Synp. pp. 317-340, ed. J. E. Fenstad
 * Jon Barwise ed. _Handbook of mathematical logic_, 1977, in chapters by Macintyre, Burgess and Keisler
 * J. R. Schoenfield, _Unramified forcing_, pp. 383--395 in: Axiomatic set theory, vol. 1, ed. D. S. Scott, Proc. Symp. Pure Math. __13__ (1971)
 [[!redirects forcing]]
+* math overflow, what is the generic poset used in forcing really?, [web](http://mathoverflow.net/questions/51187/what-is-the-generic-poset-used-in-forcing-really)
