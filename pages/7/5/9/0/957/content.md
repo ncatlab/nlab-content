@@ -20,6 +20,7 @@ A **direction** on a set $S$ is a [[preorder]] on $S$ in which any (finite) set 
 
 Directedness is an asymmetric condition.  Sometimes a direction as defined here is called **upward-directed**; a preorder whose [[opposite category|opposite]] is upward-directed is called **downward-directed**.  Another term for downward-directed is **codirected**.
 
+A [[diagram]] in a [[category]] whose domain is a directed set (regarded as a [[thin category]]) is called a **directed diagram**, and dually.
 
 ## Definitions
 
@@ -120,3 +121,7 @@ Joins over directed index sets are [[directed joins]]; colimits over directed in
 [[!redirects downward-directed sets]]
 [[!redirects downward-directed posets]]
 [[!redirects downward-directed prosets]]
+[[!redirects directed diagram]]
+[[!redirects directed diagrams]]
+[[!redirects codirected diagram]]
+[[!redirects codirected diagrams]]
