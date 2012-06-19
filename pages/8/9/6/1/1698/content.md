@@ -668,9 +668,9 @@ $ yields the long exact sequence in cohomology
 
 $$
   \cdots 
-  H^{n-1}(X,\mathbb{Z}/\mathbb{R})
+  H^{n-1}(X,\mathbb{R}/\mathbb{Z})
   \to H^n(X,\mathbb{Z}) \to H^n(X,\mathbb{R}) \to 
-  H^n(X,\mathbb{Z}/\mathbb{R})
+  H^n(X,\mathbb{R}/\mathbb{Z})
   \to
   H^{n+1}(X,\mathbb{Z})
   \to
@@ -684,7 +684,7 @@ $$
   \cdots 
   \to H^n(X,\mathbb{Z}) 
   \to 0 \to 
-  H^n(X,\mathbb{Z}/\mathbb{R})
+  H^n(X,\mathbb{R}/\mathbb{Z})
   \to
   H^{n+1}(\mathbb{Z})
   \to
@@ -696,7 +696,7 @@ $$
 implies that in this case we have an [[isomorphism]]
 
 $$
-  H^n(X,\mathbb{Z}/\mathbb{R})
+  H^n(X,\mathbb{R}/\mathbb{Z})
   \stackrel{\simeq}{\to}
   H^{n+1}(\mathbb{Z})
   \,.
