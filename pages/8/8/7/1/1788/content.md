@@ -1,3 +1,4 @@
+
 +-- {: .standout}
 Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and don\'t worry about messing things up.
 =--
@@ -8,13 +9,9 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 +-- {: .query}
 
 No sand in this box.
-
 =--
 
-
-
 ***
-
 
 
 category: meta
