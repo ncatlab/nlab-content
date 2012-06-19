@@ -194,6 +194,10 @@ For a similar link list with considerable overlap see
 
 ##VI Topoi and Logic
 
+* [[ETCS]]
+
+* [[continuum hypothesis]]
+
 * [[logic]]
 
 * [[foundations and logic]]
@@ -285,3 +289,6 @@ Examples:
 * [[Giraud's theorem]]
 
 category: reference
+
+[[!redirects Sheaves in geometry and logic]]
+[[!redirects sheaves in geometry and logic]]
