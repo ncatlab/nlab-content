@@ -23,6 +23,12 @@ A **finite $(\infty,1)$-limit** is an [[(∞,1)-limit]] over a finitely presente
 
 If we model our (∞,1)-categories by [[quasicategories]], then this can be made precise by saying it is a limit over some [[simplicial set]] with finitely many nondegenerate simplices.  Note that such a simplicial set is rarely itself a quasicategory; we regard it instead as a finite presentation of a quasicategory.
 
+## Properties
+
+An [[(∞,1)-functor]] $F : C \to D$ out of an [[(∞,1)-category]] $C$ that has all finite $(\infty,1)$-limits preserves these finite $(\infty,1)$-limits as soon as it preserves [[(∞,1)-pullbacks]] and the [[terminal object]].
+
+(This is [[Higher Topos Theory|HTT, cor. 4.4.2.5]].)
+
 ## Examples
 
 * Binary products, pullbacks, and terminal objects are all finite $(\infty,1)$-limits.
