@@ -177,6 +177,10 @@ For a [[real numbers]] object, rather more care is needed; see [[real numbers ob
 [[!redirects natural numbers objects]]
 [[!redirects natural number object]]
 [[!redirects natural number objects]]
+[[!redirects natural-numbers object]]
+[[!redirects natural-numbers objects]]
+[[!redirects natural-number object]]
+[[!redirects natural-number objects]]
 [[!redirects NNO]]
 
 [[!redirects type of natural numbers]]
