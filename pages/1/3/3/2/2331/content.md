@@ -47,7 +47,7 @@ Formal deformation theory studies the **obstruction theory** of extensions to **
 
 A typical example of an _infinitesimal thickening_ is a _square-0-extension_ of a [[ring]]:
 
-let $R$ be a [[ring]], to be thought of as the ring of functions on the [[space]] $X$ in the above diagram. Let furthermore $N$ be an $R$-module, to be thought of as the $R$-modules of [[section]]s of a [[vector bundle]] over $X$.
+let $R$ be a [[ring]], to be thought of as the ring of functions on the [[space]] $X$ in the above diagram. Let furthermore $N$ be an $R$-module, to be thought of as the $R$-module of [[section]]s of a [[vector bundle]] over $X$.
 
 Then consider the new ring, whose underlying group is the [[direct sum]] $R \oplus N$, equipped with the product structure
 
