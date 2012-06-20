@@ -86,8 +86,9 @@ Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid]
 
 * [[nilradical]]
 
+* [[ring extension]]
 
-[[!redirects ring]]
+
 [[!redirects rings]]
 
 [[!redirects unital ring]]
