@@ -124,5 +124,7 @@ $$
 
 is trivial.
 
+A central example is where one considers refined Lie group cohomology on simply connected Lie groups and is asking for ways to push it down to discrete quotients, i.e. non-simply connected Lie groups integrating the same Lie algebra. This is often phrased in terms of "multiplicative bundle gerbes" over these Lie groups, but that is just another way of talking about the corresponding cohomology.
+
 (...)
 [[!redirects obstructions]]
