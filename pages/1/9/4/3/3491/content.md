@@ -63,7 +63,7 @@ $$
   \,.
 $$
 
-Morphisms with the [[left lifting property]] against all left/right fibrations are called **left/right anodyne** maps.
+Morphisms with the [[left lifting property]] against all left/right fibrations are called **left/right [[anodyne morphism]]** maps.
 
 Write
 
@@ -112,8 +112,9 @@ A [[morphism]] of [[simplicial set]]s $f : X \to S$ is an **inner fibration** or
 
 The morphisms with the [[left lifting property]] against all inner fibrations are called **inner anodyne**.
 
+#### minimal fibration
 
-
+[[minimal fibration]]
 
 ## Properties
 
@@ -127,6 +128,7 @@ $$
 $$
 
 with $X \to Z$ a left/right/inner anodyne cofibraiton and $Z \to Y$ accordingly a left/right/inner Kan fibration.
+
 
 
 =--
