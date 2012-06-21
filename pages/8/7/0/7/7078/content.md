@@ -3,6 +3,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A kind of [[fibration]] in the context of [[homotopy theory]].
+
 ## Definition
 
 A [[Kan fibration]] $p : E \to B$ is called 
@@ -14,6 +18,10 @@ the condition $p(x) = p(y)$ and $\partial_i x = \partial_i y$ implies for all $k
 ## Properties
 
 (...)
+
+## Related concepts
+
+* [[minimal Joyal fibration]]
 
 ##References
 
