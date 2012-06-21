@@ -41,7 +41,7 @@ In other words:
 
 +-- {: .standout}
 
-Formal deformation theory studies the **obstruction theory** of extensions to **infinitesimal** thickenings.
+Formal deformation theory studies the **[[obstruction|obstruction theory]]** of extensions to **infinitesimal** thickenings.
 
 =--
 
