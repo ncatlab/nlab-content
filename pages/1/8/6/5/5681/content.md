@@ -116,7 +116,9 @@ This is ([Lurie, lemma 5.2.8.19](#Lurie)).
 
 ## Examples
 
-* In an [[(∞,1)-topos]] the classe of [[n-connected]] and that of [[n-truncated]] morphisms form an orthogonal factorization system, for all $(-2) \leq n \leq \infty $.
+* In an [[(∞,1)-topos]] the classe of [[n-connected]] and that of [[n-truncated]] morphisms form an orthogonal factorization system, for all $(-2) \leq n \leq \infty $. 
+
+  See [[(n-connected, n-truncated) factorization system]].
 
 
 ## Related concepts
