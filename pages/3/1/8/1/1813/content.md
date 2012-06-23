@@ -1,3 +1,4 @@
+[[!redirects realization and nerve]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
