@@ -29,7 +29,3 @@ article of the EMS newsletter:
 * Jerome Poineau: [La droite de Berkovich sur Z], Asterisque 334 (2010). (fundamental properties of the affine line)
 
 * Jerome Poineau: [Espaces de Berkovich sur Z: etude locale](http://arxiv.org/abs/1202.0799). (coherence of the sheaf of analytic functions on higher dimensional affine spaces)
-
-Many references and ideas can be found in the master course (preliminary form):
-
-* Frederic Paugam: [Global analytic geometry and the functional equation](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf).
