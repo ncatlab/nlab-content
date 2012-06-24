@@ -38,7 +38,7 @@ For $C$ any [[SSet]]-[[enriched category]], the canonical morphism
     |N(C)| \to C
   $$
 
-  is an equivalence in that it is essentially surjective on the underlying homotopyy categories and a weak eqivalence of simplicial sets hom-wise (...details/links...)
+  is an equivalence in that it is essentially surjective on the underlying homotopy categories and a weak eqivalence of simplicial sets hom-wise (...details/links...)
 
   For $S$ any [[simplicial set]], the canonical morphism
 
@@ -121,7 +121,7 @@ There is an [[operad|operadic]] analog of the relation between quasi-categories 
 
 ## References
 
-The idea of a [[homotopy coherent nerve]] has been around for some time; see there for references.
+The idea of a [[homotopy coherent nerve]] has been around for some time.  It seems first to have been made explicit by [[Cordier]] in 1980, and the link with quasi-categories was first made explicit in the joint work of him with [[Tim Porter|Porter]], although that work owed a lot to earlier ideas of  [[Michael Boardman|Boardman]] and [[Rainer Vogt|Vogt]] about seven years earlier.  Precise references are given and the history discussed more fully at the entry, [[homotopy coherent nerve]]. 
 
 The [[Quillen equivalence]] between the [[model structure for quasi-categories]] and the [[model structure on sSet-categories]] is described in
 
