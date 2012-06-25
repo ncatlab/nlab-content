@@ -75,7 +75,28 @@ When [[type theory]] is used as a [[foundation of mathematics]], we have a freel
 In contrast, quantification over variables from *small* types (for a suitable notion of smallness) is called __bounded quantification__.
 
 In the usual formulations of [[material set theory]], there is only one type (the type of sets), which is not small.  However, we can consider quantification over small subtypes using the trick of guarded quantification (above).  So the axiom of separation in so-called 'bounded' variations of ZFC allows only statements in which all quantifiers are guarded by a set.
-
+<a href="http://www.seoweblog.net">Jasa SEO</a>
+<a href="http://www.seoweblog.net">Jasa SEO Murah</a>
+<a href="http://www.seoweblog.net">SEO Indonesia</a>
+<a href="http://www.seoweblog.net">SEO</a>
+<a href="http://www.bisnisukm.biz">Bisnis UKM</a>
+<a href="http://www.tertinggal.com">Tertinggal</a>
+<a href="http://www.bisnismodalkecil.org">Bisnis Modal Kecil</a>
+<a href="http://www.cheapes.info">Cheapes</a>
+<a href="http://www.hostgator-coupon.co">Hostgator Coupon</a>
+<a href="http://www.linkbooking.info">Link Booking</a>
+<a href="http://www.televisoriofferte.info">Televisori offerte</a>
+<a href="http://www.notebook-offerte.info">Notebook Offerte</a>
+<a href="http://www.govr.info">Govr</a>
+<a href="http://www.ezido.info">Edo Ziedo</a>
+<a href="http://www.portatileapple.info">Portatile Apple</a>
+<a href="http://www.rdanet.info">RDAnet</a>
+<a href="http://www.lorks.info">Lorks</a>
+<a href="http://www.karikaturmurah.com">Karikatur</a>
+<a href="http://www.pusatsepatuonline.com">Sepatu Online</a>
+<a href="http://www.pusatsepatuonline.com">Toko Sepatu Online</a>
+<a href="http://www.pusatsepatuonline.com">Sepatu</a>
+<a href="http://www.pusatsepatuonline.com">Sepatu Safety</a>
 
 ## Internalised quantifiers
 
