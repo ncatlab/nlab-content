@@ -8,4 +8,4 @@ There is a [[category]] $\mathbf{Haskell}$ whose objects are Haskell [[type|type
 
 * haskellwiki, [wiki](http://www.haskell.org/haskellwiki/Haskell)
 
-* category theory, haskellwiki, [wiki](http://www.haskell.org/haskellwiki/Category_theory)
+* category theory, in haskellwiki, [wiki](http://www.haskell.org/haskellwiki/Category_theory)
