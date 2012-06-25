@@ -1,0 +1,11 @@
+__AGT conjecture__ is raised in 
+
+* L.Alday, D.Gaiotto, Y.Tachikawa, _Liouville correlation functions from four-dimensional gauge theories_, [arXiv:0906.3219](http://arxiv.org/abs/0906.3219)
+
+See also 
+
+* A.Mironov, A.Morozov, _The power of Nekrasov functions_, [arxiv/0908.2190](http://arxiv.org/abs/0908.2190)
+* D. Galakhov, A. Mironov, A. Morozov, _S-duality as a beta-deformed Fourier transform_, [arxiv/1205.4998](http://arxiv.org/abs/1205.4998)
+
+
+See also [[Nekrasov function]].
