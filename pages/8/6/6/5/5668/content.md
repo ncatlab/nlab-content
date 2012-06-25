@@ -125,11 +125,12 @@ $V$-[[enriched category]].
 
 The theory of internal categories is an essentially algebraic theory (specifically, the theory for which a model is a category with a designated category internal to it).  Likewise, the theory of enriched categories is a GAT without sort equations (specifically, the theory for which a model is a category with a category enriched in it).
 
+
 ### Relationship to Type Theory ###
 
 Type theories with type operators and polymorphism but without
 dependent types (such as System [$F_\omega$](http://en.wikipedia.org/wiki/System_F#System_F.CF.89) and the [unbounded-rank
-polymorphic version](http://haskell.org/ghc/docs/latest/html/users_guide/other-type-extensions.html#universal-quantification) of the [Haskell](http://www.haskell.org/haskellwiki/Haskell) type system) can represent any GAT
+polymorphic version](http://haskell.org/ghc/docs/latest/html/users_guide/other-type-extensions.html#universal-quantification) of the [[Haskell]] type system) can represent any GAT
 without sort equations, encoding the sorts of the GAT as types and the operations of the algebraic theory of sorts as type operations.  Type
 theories without dependent types generally enjoy better [type inference](http://en.wikipedia.org/wiki/Type_inference#Hindley.E2.80.93Milner_type_inference_algorithm)
 properties than those with dependent types, making them
