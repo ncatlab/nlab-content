@@ -6,6 +6,7 @@ See also
 
 * A.Mironov, A.Morozov, _The power of Nekrasov functions_, [arxiv/0908.2190](http://arxiv.org/abs/0908.2190)
 * D. Galakhov, A. Mironov, A. Morozov, _S-duality as a beta-deformed Fourier transform_, [arxiv/1205.4998](http://arxiv.org/abs/1205.4998)
-
+* A. Mironov, _Spectral duality in integrable systems from AGT conjecture_, [arxiv/1204.0913](http://arxiv.org/abs/1204.0913)
+* A. Belavin, V. Belavin, _AGT conjecture and integrable structure of conformal field theory for $c=1$_, [arxiv/1102.0343](http://arxiv.org/abs/1102.0343)
 
 See also [[Nekrasov function]].
