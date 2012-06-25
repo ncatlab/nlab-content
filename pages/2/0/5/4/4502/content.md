@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -10,17 +14,15 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
-#### $\infty$-Lie theory
-+--{: .hide}
-[[!include infinity-Lie theory - contents]]
 =--
 =--
-=--
+
+
 
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
