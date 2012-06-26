@@ -58,7 +58,7 @@ with the obvious characteristic map, $g\amalg h : X \amalg Y \to B$.  With this 
 
 These $B$-manifolds are the objects of interest, but they have to be related by the analogue of [[cobordisms]] for this setting.
 
-A **$B$-cobordism**, $(W,F)$, from $(X_0,g)$ to $(X_1,h)$ is a [[cobordism]] $W : X_0 \to X_1$ endowed with a homotopy class of maps $F : W \to X$ relative to the boundary such that $F|_{X_0} = 
+A **$B$-cobordism**, $(W,F)$, from $(X_0,g)$ to $(X_1,h)$ is a [[cobordism]] $W : X_0 \to X_1$ endowed with a homotopy class of maps $F : W \to B$ relative to the boundary such that $F|_{X_0} = 
 g$ and $F|_{X_1} = h$. 
 
 Generally unless necessary in this entry, we will not make a notational distinction between the [[homotopy]] class $F$ and any of its representatives.  Finally a **$B$-isomorphism of $B$-cobordisms**, $\psi : (W,F) \to (W^\prime, F^\prime)$, is an isomorphism $\psi : W \to W^\prime$ such that 
@@ -84,7 +84,7 @@ However let us also give here a more basic definition of a homotopy quantum fiel
 
 * to any $n$-dimensional $B$-manifold, $(X,g)$, a vector space, $\tau{(X,g)}$, 
 
-* to any $B$-isomorphism, $\phi : (X, g) \to ( Y, h)$, of $n$-dimensional $B$-manifolds, a $K$-linear isomorphism $\tau(\phi)  : \tau{(X, g)} \to \tau{( Y, h)}$,\\ 
+* to any $B$-isomorphism, $\phi : (X, g) \to ( Y, h)$, of $n$-dimensional $B$-manifolds, a $K$-linear isomorphism $\tau(\phi)  : \tau{(X, g)} \to \tau{( Y, h)}$,
 
  and
 
