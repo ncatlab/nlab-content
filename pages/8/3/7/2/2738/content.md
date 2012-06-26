@@ -913,7 +913,7 @@ where
 
 * $i^*$ is given by precomposition with $i$;
 
-* $i_*$ is a [[full and faithful functor]] defined equivalently as
+* $i_!$ is a [[full and faithful functor]] defined equivalently as
 
   * the [[left adjoint]] to $i^*$;
 
