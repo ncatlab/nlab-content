@@ -25,12 +25,14 @@
 
 * [[subobject classifier]], [[object classifier]]
 
+
 ## Presentations
 
 * [[bundle gerbe]]
 
 * [[groupal model for universal principal ∞-bundles]]
 
+* [[microbundle]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/bundle+-+contents)</div>
