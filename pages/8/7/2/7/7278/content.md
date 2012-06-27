@@ -43,3 +43,6 @@ Section 5.1.3 of
  {#Lurie}
 
 [[!redirects iterated loop spaces]]
+
+[[!redirects n-fold loop space]]
+[[!redirects n-fold loop spaces]]
