@@ -26,6 +26,8 @@ Lagrangian submanifolds are of central importance in [[symplectic geometry]] and
 
 * [[polarization]]
 
+* [[Legendrean submanifold]]
+
 [[!redirects lagrangian submanifold]]
 [[!redirects lagrangian submanifolds]]
 [[!redirects Lagrangian submanifold]]
