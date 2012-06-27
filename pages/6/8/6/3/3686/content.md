@@ -36,7 +36,7 @@ Inasmuch as a symplectic manifold $(M, \omega)$ carries a canonical [[volume for
 
 ### Relation to Poisson brackets
 
-The [[Lie algebra]] give by the [[Poisson bracket]] of a [[symplectic manifold]] $(X, \omega)$ is that of a [[central extension]] of the group of Hamiltonian symplectomorphisms.
+The [[Lie algebra]] given by the [[Poisson bracket]] of a [[symplectic manifold]] $(X, \omega)$ is that of a [[central extension]] of the group of Hamiltonian symplectomorphisms. (It [[Lie integration|integrates]] to the [[quantomorphism group]].)
 
 The central extension results form the fact that the Hamiltonian associated with every [[Hamiltonian vector field]] is well defined only up to the addition of a constant function.
 
