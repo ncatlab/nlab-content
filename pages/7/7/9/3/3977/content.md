@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -24,5 +28,13 @@ Under the canonical [[representation]] $\mathbf{B}U(1) \to Vect_{\mathbb{C}}$ th
 ## Examples
 
 * A basic example of a nontrivial [[circle group]]-[[principal bundle]] is the [[Hopf fibration]] $S^3 \to S^2$.
+
+## Related concepts
+
+* [[circle bundle with connection]], [[contact manifold]]
+
+* [[prequantum circle bundle]]
+
+* [[line bundle]]
 
 [[!redirects circle bundles]]
