@@ -2,12 +2,19 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Symplectic geometry
 +--{: .hide}
 [[!include symplectic geometry - contents]]
 =--
 =--
 =--
+
+
+
 
 #Contents#
 * table of contents
