@@ -54,7 +54,8 @@
 
   * [[geometric quantization of symplectic groupoids]], [[prequantum line bundle]]
 
-
   * [[geometric quantization of symplectic ∞-groupoids]]
+
+  * [[quantomorphism group]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/symplectic+geometry+-+contents)</div>
