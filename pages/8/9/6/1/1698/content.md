@@ -25,7 +25,7 @@
 
 A _fibration sequence_ is a "long left-[[exact sequence]]" in an [[(∞,1)-category]].
 
-Traditionally fibration sequences have been considered in the context of [[homotopical category|homotopical categories]] such as [[model category|model categories]] and [[category of fibrant objects|Brown category of fibrant objects]] which [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] in question. In particular, classically this was considered for [[Top]] itself. In these cases they are obtained in terms of [[homotopy pullback]]s.
+Traditionally fiber sequences have been considered in the context of [[homotopical category|homotopical categories]] such as [[model category|model categories]] and [[category of fibrant objects|Brown category of fibrant objects]] which [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] in question. In particular, classically this was considered for [[Top]] itself. In these cases they are obtained in terms of [[homotopy pullbacks]]. Since, as discussed there, the homotopy fiber of a morphism may be computed as the ordinary 1-categorical [[fiber]] of any [[fibration]] [[resolution]] of this morphism, one often also speaks of _fibration sequences_.
 
 
 
