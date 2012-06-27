@@ -52,7 +52,7 @@ For more on this see [[Hamiltonian mechanics]].
 
 Symplectic geometry is also involved in [[geometric optics]], [[geometric quantization]] and the study of oscillatory integrals and [[microlocal analysis]]. Books concentrating on these topics include
 
-* V. Guillemin, S. Sternberg, _Geometric asymptotics_, Amer. Math. Soc. 1977 [free online](http://www.ams.org/online_bks/surv14)
+* [[Victor Guillemin]], [[Shlomo Sternberg]], _Geometric asymptotics_, Amer. Math. Soc. 1977 [free online](http://www.ams.org/online_bks/surv14)
 
 * Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
