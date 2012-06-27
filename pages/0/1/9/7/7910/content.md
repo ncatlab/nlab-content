@@ -51,3 +51,8 @@ A [[metric]]-structure on quantomorphisms groups is discussed in
 
 
 [[!redirects quantomorphism groups]]
+
+[[!redirects quantomorphism ∞-group]]
+[[!redirects quantomorphism ∞-groups]]
+[[!redirects quantomorphism infinity-group]]
+[[!redirects quantomorphism infinity-groups]]
