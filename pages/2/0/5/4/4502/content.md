@@ -31,7 +31,7 @@ For $G$ a model for an [[∞-group]], there is often a model for the [[universal
 
 ## For ordinary groups {#OrdinaryGroups}
 
-For $G$ an ordinary bare [[group], the [[action groupoid]] $\mathbf{E}G = G//G$ of the right multiplcation action of $G$ on itself 
+For $G$ an ordinary bare [[group]], the [[action groupoid]] $\mathbf{E}G = G//G$ of the right multiplcation action of $G$ on itself 
 
 $$
   G//G
@@ -138,12 +138,12 @@ A weak 3-group structure on $G \to \mathbf{E}G$ for $G$ a [[strict 2-group]] is 
 
 The [[simplicial group]] structure on $G \to \mathbf{E}G$ for $G$ a general [[simplicial group]] is stated explicitly in
 
-* [[David Roberts]], _[[DRobertsUniversalSimpBunds.pdf:file]]_  
+* [[David Roberts]], _The universal simplicial bundle is a simplicial group_, ([arXiv:1204.4886](http://arxiv.org/abs/1204.4886))  
   {#RobertsUniversal}
 
 A general abstract construction of this simplicial group structure is discussed in
 
-* [[David Roberts]], [[Danny Stevenson]], _notes in preparation_
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parameterized spaces_, ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460))
 
 The use of [[L-∞-algebra]]s $inn(\mathfrak{g})$ as $L_\infty$-algebraic models for universal $\mathfrak{g}$-principal bundle (evident as it is) was considered as such in 
 
