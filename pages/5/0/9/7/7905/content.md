@@ -11,6 +11,8 @@
 
 * [[principal bundle]], [[principal ∞-bundle]]
 
+  * [[circle bundle]], [[circle n-bundle with connection|circle n-bundle]]
+
 * [[associated bundle]], [[associated ∞-bundle]]
 
   * [[gerbe]], [[∞-gerbe]]
@@ -34,5 +36,11 @@
 
 * [[microbundle]]
 
+## Examples and Applications
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/bundle+-+contents)</div>
+* [[Hopf fibration]]
+
+* [[prequantum circle bundle]], [[prequantum circle n-bundle]]
+
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/bundles+-+contents)</div>
