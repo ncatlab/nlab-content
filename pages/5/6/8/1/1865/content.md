@@ -159,7 +159,7 @@ A review is in
 
 The Simons-Sullivan model is due to
 
-* [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
+* [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv:0810.4935](http://arxiv.org/abs/0810.4935))
  {#SimonsSullivan}
 
  {#BunkeSchickReferences}
