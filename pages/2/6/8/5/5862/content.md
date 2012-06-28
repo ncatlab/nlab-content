@@ -90,6 +90,10 @@ A speculation that [[11-dimensional supergravity]] is naturally to be understood
 
 * Petr Ho&#345;ava, _M-Theory as a Holographic Field Theory_ ([arXiv:hep-th/9712130](http://arxiv.org/abs/hep-th/9712130))
 
+Other approaches to 11d Chern-Simons supergravity include
+
+* Fernando Izaurieta, Eduardo Rodr&#237;guez, _On eleven-dimensional Supergravity and Chern-Simons theory_ ([arXiv:1103.2182](http://arxiv.org/abs/1103.2182))
+
 A discussion of [[Chern-Simons element]]s in higher supergravity and their relation to the _cosmo-cocycle condition_ is at
 
 * _[[D'Auria-Fre formulation of supergravity]]_ .
