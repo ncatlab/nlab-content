@@ -2785,6 +2785,71 @@ for the intrinsic Maurer-Cartan form and call this the intrinsic **universal [[c
 
 =--
 
+### Flat Ehresmann connections
+ {#FlatEhresmannConnections}
+
+We discuss now a general abstract notion of flat [[Ehresmann connections]] 
+in a cohesive $(\infty,1)$-topos $\mathbf{H}$.
+
+Let $G \in Grp(\mathbf{H})$ be an [[∞-group]]. 
+For $g : X \to \mathbf{B}G$ a [[cocycle]] that modulates a $G$-[[principal ∞-bundle]] $P \to X$, we saw [above](#FlatDifferentialCohomology) that lifts
+
+$$
+  \array{
+    && \flat \mathbf{B}G
+    \\
+    & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+    \\
+    X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+$$
+
+modulate flat $\infty$-connections $\nabla$ in $P \to X$. 
+
+We can think of $\nabla : X \to \flat \mathbf{B}G$ as the cocycle datum for the connection on base space, in generalization of the discussion at _[[connection on a bundle]]_. On the other hand, there is the classical notion of an [[Ehresmann connection]], which instead encodes such connection data in terms of differential form data on the total space $P$.
+
+We may now observe that such differential form data on $P$ is identified with the [[twisted ∞-bundle]] induced by the lift, with respect to the [[local coefficient ∞-bundle]] given by the [[fiber sequence]]
+
+$$
+  \array{
+     \flat_{dR} \mathbf{B}G &\to& \flat \mathbf{B}G
+     \\
+     && \downarrow
+     \\
+     && \mathbf{B}G
+  }
+$$
+
+that defines the de Rham coefficient object, discussed [above](#deRhamCohomology).
+
+Notice also that the $\flat_{dR}\mathbf{B}G$-[[twisted cohomology]] defined by this local coefficient bundle says that: _flat $\infty$-connections are locally flat $Lie(G)$-valued forms that are globally twisted by by a $G$-principal $\infty$-bundle._
+
+
+By the general discussion at [[twisted ∞-bundle]] we find that the flat connection $\nabla$ induces on $P$ the structure
+
+$$
+  \array{
+    G &\to& P &\stackrel{A}{\to}& \flat_{dR} \mathbf{B}G
+    \\
+    \downarrow && \downarrow && \downarrow 
+    \\
+    * &\stackrel{x}{\to}& X &\stackrel{\nabla}{\to}& \flat \mathbf{B}G &\stackrel{}{\to}& \mathbf{B}G
+  }
+$$
+
+consisting of
+
+* a (flat) $Lie(G)$-valued form datum $A : P \to \flat_{dR}\mathbf{B}G$ on the total space $P$
+
+* such that this intertwines the $G$-actions on $P$ and on $\flat_{dR}\mathbf{B}G$.
+
+In the model $\mathbf{H}$ = [[Smooth∞Grpd]] one finds that the last condition reduces indeed to that of an [[Ehresmann connection]] for $A$ on $P$ (this is discussed [here](smooth+infinity-groupoid+--+structures#FlatEhresmannConnections)). One of the two Ehresmann conditions is manifest alreadx abstractly: for every point $x : * \to X$ of base space, the restriction of $A$ to the fiber of $P$ over $X$ is the Maurer-Cartan form
+
+$$
+  \theta : G \to P \stackrel{A}{\to} \flat_{dR} \mathbf{B}G
+$$
+
+on the $\infty$-group $G$, discussed [above](#CurvatureCharacteristics).
 
 
 ### Differential cohomology 
