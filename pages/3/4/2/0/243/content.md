@@ -488,16 +488,19 @@ where the last step on the right uses the [[Yoneda lemma]].
 
 More specifically, traditionally this is thought of as applying to the case where $C = \Delta$ is the [[simplex category]] and where $F : \Delta \to Top$ regards the abstract $n$-[[simplex]] as the standard simplex as a [[topological space]]. 
 
+## Related concepts
+
+[[!include homotopy-homology-cohomology]]
 
 
 ## References
 
 The standard reference is
 
-
 * [[Max Kelly]], _Basic concepts in enriched category theory_ 
   ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
-  {#Kelly}
+   {#Kelly}
+
   * ends of $V$-valued bifunctors are discussed in section 2.1
 
   * the enriched functor category that they give rise to is discussed in section 2.2;
