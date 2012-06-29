@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Topos Theory
-+--{: .hide}
-[[!include (infinity,1)-topos - contents]]
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
 =--
 #### Cohomology
 +--{: .hide}
@@ -12,7 +12,6 @@
 =--
 =--
 =--
-
 
 #Contents#
 * table of contents
