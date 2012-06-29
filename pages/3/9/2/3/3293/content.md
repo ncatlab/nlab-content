@@ -82,6 +82,11 @@ Standard examples of Fr&#233;chet manifolds are smooth mapping spaces such as th
 
 * [[smooth loop space]].
 
+## Related concepts
+
+* [[convenient manifold]]
+
+* [[IHL manifold]]
 
 ## References
 
