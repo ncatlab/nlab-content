@@ -1,10 +1,16 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
 [[!include category theory - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Defintion
@@ -141,7 +147,7 @@ in [[Set]] is again a pullback diagram. A moment of reflection shows that this s
 
 ### Relation to profunctors
 
-The hom-functor $hom : C^{op}\times C\to Set$ is also the identity [[profunctor]] $1_C: C &#x21F8; C$.
+The hom-functor $hom : C^{op}\times C\to Set$ is also the identity [[profunctor]] $1_C: C &#8696; C$.
 
 One way to see this is to notice that its [[adjunct]] 
 
@@ -162,6 +168,14 @@ where $j$ is the [[Yoneda embedding]]. Profunctors $\mathbf{F} : C^{op} \times C
 ## Examples
 
 ...
+
+
+## Related concepts
+
+[[!include homotopy-homology-cohomology]]
+
+
+* [[internal hom]], [[enriched hom]], [[derived hom space]]
 
 [[!redirects hom-functors]]
 
