@@ -1,11 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -72,6 +78,10 @@ For example, consider the bicategory $V-Mat$ of $V$-valued [[matrix|matrices]] f
 A [[virtual double category]] is a common generalization of a multicategory and a bicategory (and actually of a [[double category]]).  Among other things, it has objects, 1-cells, and "multi-2-cells."  We leave it to the reader to define a notion of tensor product of 1-cells in such a context, analogous to the tensor product of objects in a multicategory.  A multicategory can be regarded as a 1-object virtual double category, so this generalizes the notion of tensor product in a multicategory.
 
 On the other hand, in any bicategory (in fact, any double category) there is a virtual double category whose objects are monads and whose 1-cells are bimodules, and the tensor product in this virtual double category is the tensor product of modules in a bicategory defined above.  Thus, tensor products in a virtual double category include all notions of tensor product discussed above.
+
+## Related concepts
+
+[[!include homotopy-homology-cohomology]]
 
 [[!redirects tensor products]]
 [[!redirects tensor product of functors]]
