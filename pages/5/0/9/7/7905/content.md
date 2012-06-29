@@ -11,11 +11,13 @@
 
 * [[principal bundle]], [[principal ∞-bundle]]
 
+  * [[principal 2-bundle]], [[principal 3-bundle]]
+
   * [[circle bundle]], [[circle n-bundle with connection|circle n-bundle]]
 
 * [[associated bundle]], [[associated ∞-bundle]]
 
-  * [[gerbe]], [[∞-gerbe]]
+  * [[gerbe]], [[2-gerbe]], [[∞-gerbe]], 
 
   * [[local coefficient bundle]]
 
