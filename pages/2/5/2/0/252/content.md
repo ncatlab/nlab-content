@@ -33,13 +33,17 @@ For $C$ more generally an [[enriched category]] over a [[closed monoidal categor
 
 * **hom-object**
 
-* [[hom-set]]
+* [[hom-set]], [[hom-functor]]
 
 * [[hom-category]]
 
 * [[hom-space]], [[derived hom-space]]
 
+[[!include homotopy-homology-cohomology]]
+
 
 [[!redirects hom-objects]]
 [[!redirects hom object]]
 [[!redirects hom objects]]
+
+[[!redirects enriched hom]]
