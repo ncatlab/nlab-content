@@ -33,6 +33,10 @@ $$
 
 or define $Ext^i$-groups as groups of extensions of length $i$. 
 
+## Related concepts
+
+[[!include homotopy-homology-cohomology]]
+
 ## References
 
 * H. Cartan, S. Eilenberg, _Homological algebra_, Princeton Univ. Press 1956.
