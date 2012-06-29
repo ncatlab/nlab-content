@@ -2445,7 +2445,7 @@ $$
 
 maps "infitesimal paths" to elements of $G$, and hence only hits "infinitesimal elements" in $G$. Therefore the object that such forms universally factor through we write $\mathbf{B} \exp(\mathfrak{g})$ and think of as the formal [[Lie integration]] of the $\infty$-Lie algebra of $G$.
 
-The reader should note here that all this is formulate without an explicit ("synthetic") notion of infinitesimals. Instead, it is infinitesimal in the same sense that $\mathbf{\Pi}_{dR}(X)$ is the _schematic de Rham homotopy type_ of $X$, as discussed above. But if we add a bit more structure to the cohesive $(\infty,1)$-topos $\mathbf{H}$, then these infinitesimals can be realized also synthetically. That extra structure is that of _[[cohesive (infinity,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]]_. See there for more details.
+The reader should note here that all this is formulated without an explicit ("synthetic") notion of infinitesimals. Instead, it is infinitesimal in the same sense that $\mathbf{\Pi}_{dR}(X)$ is the _[[schematic homotopy type|schematic de Rham homotopy type]]_ of $X$, as discussed above. But if we add a bit more structure to the cohesive $(\infty,1)$-topos $\mathbf{H}$, then these infinitesimals can be realized also synthetically. That extra structure is that of _[[cohesive (infinity,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]]_. See there for more details.
 
 
 +-- {: .num_def #ExponentiatedLieAsGeometricallyContractible}
