@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _IHL manifold_ is a [[topological manifold]] equipped with [[smooth structure]] of sorts which is stronger than than of a [[Frechet manifold]].
+
+## Related concepts
+
+* [[convenient manifold]]
+
+* [[Frechet manifold]]
+
+## References
+
+* H. Omori, _Infinite dimensional Lie transformation groups_, Springer lecture notes in mathematics 427 (1974)
+
+* H. Omori, _Infinite dimensional Lie groups_, translations of Mathematical monographs, 158
+
+[[!redirects IHL manifolds]]
+
+[[!redirects IHL-manifold]]
+[[!redirects IHL-manifolds]]
+
+[[!redirects ILH manifold]]
+[[!redirects ILH manifolds]]
+[[!redirects ILH-manifold]]
+[[!redirects ILH-manifolds]]
