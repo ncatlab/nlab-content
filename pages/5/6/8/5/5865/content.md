@@ -2431,7 +2431,21 @@ In degree 0 the intrinsic de Rham cohomology is necessrily trivial, while in deg
 =--
 
 
-### Exponentiated $\infty$-Lie algebras {#LieAlgebras}
+### Exponentiated $\infty$-Lie algebras 
+ {#LieAlgebras}
+
+We now use the intrinsic non-abelian  de Rham cohomology in the cohesive $(\infty,1)$-topos
+$\mathbf{H}$ discussed [above](#deRhamCohomology) to see that there is also an intrinsic notion of _exponentiated higher [[Lie algebra]] objects_ in $\mathbf{H}$. (The fact that for $\mathbf{H} = $ [[Smooth∞Grpd]] these abstractly defined objects are indeed presented by [[L-∞ algebras]] is disucssed at _[[smooth ∞-groupoid -- structures]]_.)
+
+The idea is that for $G \in Grp(\mathbf{H})$ an [[∞-group]], a $G$-valued differential form on some $X \in \mathbf{H}$, which by the above is given by a morphism
+
+$$
+  A : \mathbf{\Pi}_{dR}(X) \to \mathbf{B}G
+$$ 
+
+maps "infitesimal paths" to elements of $G$, and hence only hits "infinitesimal elements" in $G$. Therefore the object that such forms universally factor through we write $\mathbf{B} \exp(\mathfrak{g})$ and think of as the formal [[Lie integration]] of the $\infty$-Lie algebra of $G$.
+
+The reader should note here that all this is formulate without an explicit ("synthetic") notion of infinitesimals. Instead, it is infinitesimal in the same sense that $\mathbf{\Pi}_{dR}(X)$ is the _schematic de Rham homotopy type_ of $X$, as discussed above. But if we add a bit more structure to the cohesive $(\infty,1)$-topos $\mathbf{H}$, then these infinitesimals can be realized also synthetically. That extra structure is that of _[[cohesive (infinity,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]]_. See there for more details.
 
 
 +-- {: .num_def #ExponentiatedLieAsGeometricallyContractible}
