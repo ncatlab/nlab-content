@@ -92,7 +92,8 @@ Likewise if there is a [[cylinder functor]], one gets functorially defined [[cyl
 
 ## Related concepts
 
-* **homotopy**
+[[!include homotopy-homology-cohomology]]
+
 
 * [[transfor]]
 
