@@ -21,8 +21,52 @@ This is a [[circle group]]-[[central extension]] of the group of [[Hamiltonian s
 
 (Warning on terminology: A more evident name for the quantomorphism group might seem to be "Poisson group". But this already means something different, see _[[Poisson Lie group]]_.)
 
+### Traditional construction
+
+Over a [[symplectic manifold]] $(X, \omega)$ an explicit construction of the corresponding quantomorphism group is obtained by choosing $(P \to X, \nabla)$ a [[prequantum circle bundle]], regarded with an [[Ehresmann connection]] 1-form $A$ on $P$, and then defining
+
+$$
+  QuantomorphismGroup \hookrightarrow Diff(P)
+$$
+
+to be the [[subgroup]] of the [[diffeomorphism group]] $P \stackrel{\simeq}{\to} P$ on those [[diffeomorphisms]] that preserve $A$. In other words, the quantomorphism group is the group of equivalences of [[connection on a bundle|bundles with connection]] that need not cover the identity [[diffeomorphism]] on the base manifold $X$.
+
+Notice that the tuple $(P,A)$ is a [[regular contact manifold]] (see the discussion there), and so the quantomorphism group is equivalently that of contactomorphisms $(P,A) \to (P,A)$ of weight 0.
+
+### In higher geometry
+
+This perspective lends itself to a more abstract description: we may regard the [[prequantum circle bundle]] as being modulated by a morphism
+
+$$
+  \nabla : X \to \mathbf{B} U(1)_{conn}
+$$
+
+in the [[cohesive (∞,1)-topos]] $\mathbf{H} = $ [[Smooth∞Grpd]], with [[domain]] the given symplectic manifold and [[codomain]] the smooth [[moduli stack]] for [[circle n-bundle with connection|circle bundles with connection]]. This in turn may be regarded as an object $\nabla \in \mathbf{H}_{/\mathbf{B}U(1)_{conn}}$ in the [[slice (∞,1)-topos]]. Then the quantomorphism group is the [[automorphism group]]
+
+$$
+  QuantomorphismGroup = Aut(\nabla)
+$$
+
+formed in $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$ ([Sch](#Sch)).
+
+From this it is clear what the quantomorphism [[∞-group]] of an [[n-plectic ∞-groupoid]] should be: for
+
+$$
+  \nabla : X \to \mathbf{B}^n U(1)_{conn}
+$$
+
+the morphism modulating a [[prequantum circle n-bundle]], the corresponding quantomorphism $n$-group is again $Aut(\nabla)$, now formed in $\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}$
+
+## Properties
+
+### Smooth structure
+
+The quantomorphism group for a [[symplectic manifold]] may naturally be equipped with the structure of a [[group object]] in [[IHL manifolds]] ([Omori](Omori), [Ratiu-Schmid](RatiuSchmid)), as well as in [[convenient manifolds]] ([Vizman, prop. ](#Vizman)). 
+
 ## References
  {#References}
+
+### General
 
 An original account is in 
 
@@ -36,13 +80,35 @@ and in
 
 * Rudolf Schmid, _Infinite-dimensional Lie groups with applications to mathematical physics_
 
-See also
+The description in terms of automorphism in the slice $\infty$-topos over the moduli stack of (higher) connections is in section 4.4.17 of
+
+* _[[schreiber:differential cohomology in a cohesive topos]]_
+ {#Sch}
+
+and at _[[schreiber:∞-geometric prequantization]]_.
+
+
+
+
+### Smooth manifold structure
+
+The [[IHL manifold|IHL group]] structure on the quantomorphism group is discussed in 
+
+* H. Omori, _Infinite dimensional Lie transformation groups_, Springer lecture notes in mathematics 427 (1974)
+ {#Omori}
+
+* T. Ratiu, R. Schmid, _The differentiable structure of three remarkable diffeomorphism groups_, Math. Z.  177 (1981)
+ {#RatiuSchmid}
+
+The [[convenient manifold|regular convenient Lie group]] structure is discussed in
 
 * Cornelia Vizman, _Some remarks on the quantomorphism group_ ([[VizmanQuantomorphism.pdf:file]])
+ {#Vizman}
 
 A [[metric]]-structure on quantomorphisms groups is discussed in 
 
 * Y. Eliashberg,; L. Polterovich, _Partially ordered groups and geometry of contact transformations_. Geom.Funct.Anal.10(2000),no.6, 1448-1476.
+
 
 
 
