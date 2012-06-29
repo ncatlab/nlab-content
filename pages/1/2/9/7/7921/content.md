@@ -1,7 +1,7 @@
 
 
 
-| || [[homotopy]] | [[cohomology]] | [[homology]] |
+| || [[homotopy (as an operation)|homotopy]] | [[cohomology]] | [[homology]] |
 |--||--|--|--|
 |  || $[S^n,-]$ | $[-,A]$ | $(-) \otimes A$ |
 | [[category theory]] || [[covariant functor|covariant]] [[hom functor|hom]] | [[contravariant functor|contravariant]] [[hom functor|hom]] | [[tensor product]] |
