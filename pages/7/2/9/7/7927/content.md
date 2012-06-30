@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
 =--
 =--
 
@@ -15,9 +19,13 @@
 
 ## Idea
 
-An _IHL manifold_ is a [[topological manifold]] equipped with [[smooth structure]] of sorts which is stronger than than of a [[Frechet manifold]].
+An _ILH manifold_ -- for _[[inverse limit]] of [[Hilbert manifolds]]_ -- is a [[topological manifold]] equipped with [[smooth structure]] of sorts which is stronger than than of a [[Frechet manifold]].
 
 ## Related concepts
+
+* [[Banach manifold]]
+
+* [[Hilbert manifold]]
 
 * [[convenient manifold]]
 
@@ -29,12 +37,12 @@ An _IHL manifold_ is a [[topological manifold]] equipped with [[smooth structure
 
 * H. Omori, _Infinite dimensional Lie groups_, translations of Mathematical monographs, 158
 
+[[!redirects IHL manifold]]
 [[!redirects IHL manifolds]]
 
 [[!redirects IHL-manifold]]
 [[!redirects IHL-manifolds]]
 
-[[!redirects ILH manifold]]
 [[!redirects ILH manifolds]]
 [[!redirects ILH-manifold]]
 [[!redirects ILH-manifolds]]
