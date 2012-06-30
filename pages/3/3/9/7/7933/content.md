@@ -1,15 +1,32 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-Higher geometric quantization completes this table
+Higher geometric quantization is meant to complete this table:
 
 | [[classical mechanics]] | --[[quantization]]$\to$ | [[quantum mechanics]] |
 |--|--|--|
 | [[symplectic geometry]] | --[[geometric quantization]]$\to$ | [[quantum field theory]] |
 | [[higher symplectic geometry]] | --higher geometric quantization$\to$ | [[extended quantum field theory]] | 
 
+The basic ingredients are indicated in the following table
+
+| [[prequantum circle n-bundle]] | [[quantomoprhism group]] |
+|--|--|
+| $X \stackrel{\mathbf{c}_{conn}}{\to} \mathbf{B}^n \mathbb{G}_{conn}$ | $\mathbf{Aut}_{\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow} &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} } \right\}$ |
 
 ## Examples
 
 
+## References
 
+Higher geometric quantization over [[smooth manifolds]] is discussed in
+
+* [[Chris Rogers]], _Higher geometric quantization_, at _Higher Structures 2011_ ([pdf](http://www.crcg.de/wiki/images/2/21/CR_Higherstruct_2011.pdf))
+
+Higher geometric quantization over [[smooth ∞-groupoids]] is discussed in
+
+* _[[schreiber:infinity-geometric prequantization]]_
