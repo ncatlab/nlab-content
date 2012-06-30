@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
 =--
 =--
 
@@ -16,13 +20,19 @@
 
 ## Idea
 
-A [[manifold]], possibly infinite-dimensional, is called a _convenient manifold_ -- implicitly meaning: convenient for _[[differential geometry]]_ -- if it is modeled on a [[convenient vector space]].
+A [[manifold]], possibly [[infinite dimensional manifold|infinite-dimensional]], is called a _convenient manifold_ -- implicitly meaning: convenient for _[[differential geometry]]_ -- if it is modeled on a [[convenient vector space]].
 
 ## Related concepts
 
-* [[Frechet manifold]]
+* [[Banach manifold]]
+
+* [[Hilbert manifold]]
 
 * [[ILH manifold]]
+
+* [[Frechet manifold]]
+
+* [[convenient manifold]]
 
 ## References
 
