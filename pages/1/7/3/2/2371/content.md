@@ -26,7 +26,11 @@
 
   [[∞-algebra over an (∞,1)-operad]]
 
-* [[∞-representation]]
+* [[action]], [[∞-action]]  
+
+* [[representation]], [[∞-representation]]
+
+* [[associated bundle]], [[associated ∞-bundle]]
 
 ## Higher algebras
 
