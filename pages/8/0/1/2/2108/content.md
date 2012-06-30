@@ -276,7 +276,9 @@ $$
 
   * [[deformation quantization]]
 
-  * **geometric quantization**, [[geometric quantization of symplectic groupoids]]
+  * **geometric quantization**, [[higher geometric quantization]]
+
+    * [[geometric quantization of symplectic groupoids]] 
 
   * [[path integral]]
 
