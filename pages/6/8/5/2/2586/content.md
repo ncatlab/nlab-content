@@ -150,6 +150,7 @@ See [[spin structure]].
 
 ## Related concepts
 
+* [[spinor]], [[spin representation]], [[spinor bundle]]
 
 The [[Whitehead tower]] of the [[orthogonal group]] looks like
 
