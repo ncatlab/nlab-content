@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
+#### Geometric quantization
 +--{: .hide}
 [[!include geometric quantization - contents]]
 =--
