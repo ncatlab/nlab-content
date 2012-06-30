@@ -1,0 +1,38 @@
+
+**[[geometric quantization]]**
+**[[higher geometric quantization]]**
+
+## Prerequisites
+
+* [[symplectic geometry]], [[higher symplectic geometry]]
+
+  * [[n-plectic geometry]], [[multisymplectic geometry]]
+
+  * [[symplectic infinity-groupoid]]
+
+
+## Concepts
+
+* [[prequantum line bundle]], [[prequantum circle n-bundle]]
+
+  * [[contact manifold]]
+
+* [[quantomorphism group]]
+
+  * [[symplectomorphism]], [[contactomorphism]]
+
+  * [[Poisson algebra]], [[Hamiltonian vector field]]
+
+* [[prequantum space of states]]
+
+* [[prequantum operator]]
+
+* [[polarization]]
+
+  [[quantization]]
+
+## Theorems
+
+* [[orbit method]]
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/geometric+quantization+-+contents)</div>
