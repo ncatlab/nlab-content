@@ -177,6 +177,10 @@ A large collection of references on quantum entropy is in
 * Christopher Fuchs, _References for Research in Quantum Distinguishability
 and State Disturbance_ ([pdf](http://www.perimeterinstitute.ca/personal/cfuchs/BigRef.pdf))
 
+A discussion of entropy with an eye towards the [[presheaf topos]] over the [[site]] of finite [[measure spaces]] is in 
+
+* [[Mikhail Gromov]], _In a Search for a Structure, Part I: On Entropy_ (2012) ([pdf](http://www.ihes.fr/~gromov/PDF/structres-entropy-june-2012.pdf))
+
 [[!redirects entropy]]
 [[!redirects entropies]]
 
