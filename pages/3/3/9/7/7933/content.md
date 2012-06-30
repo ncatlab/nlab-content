@@ -1,0 +1,15 @@
+
+## Idea
+
+Higher geometric quantization completes this table
+
+| [[classical mechanics]] | --[[quantization]]$\to$ | [[quantum mechanics]] |
+|--|--|--|
+| [[symplectic geometry]] | --[[geometric quantization]]$\to$ | [[quantum field theory]] |
+| [[higher symplectic geometry]] | --higher geometric quantization$\to$ | [[extended quantum field theory]] | 
+
+
+## Examples
+
+
+
