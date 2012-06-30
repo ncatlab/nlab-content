@@ -32,6 +32,14 @@ The [[geometric quantization]] on the coadjoint orbit with the induced symplecti
 
 ## References
 
+Introductions and survey include
+
+* J. Maes, _An introduction to the orbit method_ Master thesis (2011) ([web](http://igitur-archive.library.uu.nl/student-theses/2011-0622-200341/UUindex.html))
+
+* Craig Jackson, _Symplectic manifolds, geometric quantization, and unitary representations of Lie groups_ ([pdf](http://go.owu.edu/~chjackso/Papers/topic.pdf))
+
+Original references include
+
 * &#1042;. &#1040;. &#1043;&#1080;&#1085;&#1079;&#1073;&#1091;&#1088;&#1075;, _&#1052;&#1077;&#1090;&#1086;&#1076; &#1086;&#1088;&#1073;&#1080;&#1090; &#1074; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1081; &#1082;&#1086;&#1084;&#1087;&#1083;&#1077;&#1082;&#1089;&#1085;&#1099;&#1093; &#1075;&#1088;&#1091;&#1087;&#1087; &#1051;&#1080;_, &#1060;&#1091;&#1085;&#1082;&#1094;. &#1072;&#1085;&#1072;&#1083;&#1080;&#1079; &#1080; &#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1083;., 1981, &#1090;&#1086;&#1084; 15, &#1074;. 1, &#1089;&#1090;&#1088;. 23&#8211;37,  [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=1690&what=fullt&option_lang=rus); transl. V. A. Ginzburg, _Method of orbits in the representation theory of complex Lie groups_, Funct. Analysis and Its Appl. __1981__, 15:1, 18&#8211;28, [doi](http://dx.doi.org/10.1007/BF01082375)
 
 * [[Bertram Kostant]], _Orbits and quantization theory_, Proc. ICM Nice 1970, 395-406, [djvu:597 K](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0395.0406.ocr.djvu), [pdf:1.1 M](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0395.0406.ocr.pdf)
@@ -42,5 +50,14 @@ The [[geometric quantization]] on the coadjoint orbit with the induced symplecti
 
 * L. Auslander, [[Bertram Kostant]], _Quantization and representations of solvable Lie groups_, Bull. Amer. Math. Soc. __73__, 1967, 692&#8211;695, [pdf](http://www.ams.org/journals/bull/1967-73-05/S0002-9904-1967-11829-9/S0002-9904-1967-11829-9.pdf); _Polarization and unitary representations of
 solvable Lie groups_, Invent. Math. __14__ (1971), 255&#8211;354, [MR293012](http://www.ams.org/mathscinet-getitem?mr=293012), [doi](http://dx.doi.org/10.1007/BF01389744)
+
+Further developments are in 
+
+* Gijs M. Tuynman, _Geometric Quantization of Superorbits: a Case Study_ ([arXiv:0901.1811](http://arxiv.org/abs/0901.1811))
+
+See also
+
+* wikipedia, _[orbit method](http://en.wikipedia.org/wiki/Orbit_method)_
+
 
 [[!redirects method of coadjoint orbits]]
