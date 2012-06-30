@@ -1,1 +1,35 @@
-A __Banach manifold__ is a [[manifold]] modelled on [[Banach spaces]].  By default, take the maps to be [[smooth map|smooth]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A notion of [[infinite-dimensional manifold]].
+A __Banach manifold__ is a [[manifold]] modelled on [[Banach spaces]].  By default, transition maps are taken to be [[smooth map|smooth]].
+
+## Related concepts
+
+* [[Hilbert manifold]]
+
+* [[ILH manifold]]
+
+* [[Frechet manifold]]
+
+* [[convenient manifold]]
+
+[[!redirects Banach manifolds]]
