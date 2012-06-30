@@ -27,23 +27,24 @@ In view of this, quantization is often understood as a [[retraction|right invers
 
 * **quantization**
 
-    * [[deformation quantization]]
+  * [[deformation quantization]]
 
-    * [[geometric quantization]]
+  * [[geometric quantization]], [[higher geometric quantization]]
 
-    * [[path integral]]
+  * [[path integral]]
 
-    * [[semiclassical approximation]]
+  * [[semiclassical approximation]]
 
-    * [[coherent state]]
+  * [[coherent state]]
 
-    * [[quantization via the A-model]]
+  * [[quantization via the A-model]]
 
 * [[gauge transformation]]
 
-    * [[BV-BRST formalism]]
+  * [[BV-BRST formalism]]
 
 * [[perturbation theory]]
+
 * overview: [[reductions deformations resolutions in physics]]
 
 ## References 
