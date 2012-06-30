@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
 #### Bundles
 +-- {: .hide}
 [[!include bundles - contents]]
-=--
-#### Symplectic geometry
-+--{: .hide}
-[[!include symplectic geometry - contents]]
 =--
 =--
 =--
@@ -83,6 +83,12 @@ $$
 $$
 
 =--
+
+## Related concepts
+
+* [[circle bundle]], [[circle n-bundle with connection]]
+
+* [[prequantum circle n-bundle]]
 
 
 ## References
