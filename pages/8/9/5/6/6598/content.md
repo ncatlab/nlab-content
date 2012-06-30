@@ -50,16 +50,14 @@
 
 * [[deformation quantization]]
 
-* **[[geometric quantization]]**
+* **[[geometric quantization]]**, [[higher geometric quantization]]
 
   * [[geometric quantization of symplectic groupoids]]
 
-  * [[prequantum line bundle]]
+  * [[prequantum line bundle]], [[prequantum circle n-bundle]]
 
     * [[contact manifold]], [[contactomorphism]]
 
-  * [[geometric quantization of symplectic ∞-groupoids]]
-
-  * [[quantomorphism group]]
+    * [[quantomorphism group]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/symplectic+geometry+-+contents)</div>
