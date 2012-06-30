@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+A [[representation]] of the [[spin group]].
+
+## Related entries
+
+* [[spinor]], [[spinor bundle]]
+
+## References
+
+* Anna Engels, _Spin representations_ ([pdf](http://www.math.uni-bonn.de/people/ag/ga/teaching/seminare/ws0304/repr.pdf))
+
+[[!redirects spin representations]]
+
+[[!redirects spinor representation]]
+[[!redirects spinor representations]]
