@@ -29,6 +29,10 @@
 
     * [[genus]]
 
+* [[infinite dimensional manifold]]
+
+  * [[Banach manifold]], [[Hilbert manifold]], [[ILH manifold]], [[Frechet manifold]], [[convenient manifold]]
+
 ## Genera and invariants
 
 * [[signature genus]], [[Kervaire invariant]]
