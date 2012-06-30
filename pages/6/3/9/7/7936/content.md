@@ -1,0 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+In the context of _[[geometric quantization]]_ the _prequantum space of states_ is a space of [[sections]] of the [[prequantum line bundle]].
+
+The actual space of [[states]] is a subspace of this, obtained after a choice of [[polarization]].
+
+[[!redirects prequantum spaces of states]]
