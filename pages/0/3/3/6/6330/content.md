@@ -19,7 +19,7 @@
 
 ## Idea
 
-[[dynamics|Dynamics]] in [[physics]] affects both [[observables]] and, dually, [[states]]; this is most well known in [[quantum physics]] but applies equally well to [[classical physics]]. The different "pictures" of physics differ in in how the dynamics is explicitly formalized:
+[[dynamics|Dynamics]] in [[physics]] affects both [[observables]] and, dually, [[states]]; this is most well known in [[quantum physics]] but applies equally well to [[classical physics]]. The different "pictures" of physics differ in how the dynamics is explicitly formalized:
 
 * In the [[Schrödinger picture]], states are propagated through [[time]], while observables are held fixed; the axiomatic formalization of this is given by [[cobordism category]] [[representation]]s in [[FQFT]].
 
@@ -39,7 +39,7 @@ The pictures are named after those physicists who first used or popularised thes
 
 For instance section 7.19.3 in
 
-* [[Eberhard Zeidler]], _Quantum field theory. A bridge between mathematicians and physicists -- volume I_ Springer (2009) ([web]([http://www.mis.mpg.de/zeidler/qft.html))
+* [[Eberhard Zeidler]], _Quantum field theory. A bridge between mathematicians and physicists -- volume I_ Springer (2009) ([web](http://www.mis.mpg.de/zeidler/qft.html))
 
 
 [[!redirects Dirac picture]]
