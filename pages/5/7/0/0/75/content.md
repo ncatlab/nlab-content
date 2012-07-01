@@ -18,6 +18,7 @@
 {: toc}
 
 ## Category theory and foundations
+{#categories}
 
 There are two big questions about [[category theory]] and the logical foundations of mathematics:
 
@@ -36,19 +37,21 @@ For a philosophical treatment of category theoretic foundations see [[foundation
 
 
 ### Mathematical foundations of category theory
+{#MFCT}
 
 The problem with mathematical foundations of category theory is that in category theory we frequently speak of [[large category|large categories]], which it is tricky to deal with rigorously in the usual sort of [[set theory|set theories]].
 
-One common view seems to be to found category theory on a theory of sets and classes; see [the English Wikipedia\'s definition](), for example. But the standard reference, Saunders Mac Lane\'s _Categories for the Working Mathematician_, assumes the existence of a universe (an inaccessible cardinal) instead. Both of these approaches rely on a distinction between *small* and *large* categories. There is a category of all [[small category|small categories]], but this category is not itself small; there is no category of all categories.
+One common view seems to be to found category theory on a theory of sets and classes; see [the English Wikipedia\'s definition](https://en.wikipedia.org/wiki/Category_%28mathematics%29#Definition), for example. But the standard reference, Saunders Mac Lane\'s _Categories for the Working Mathematician_, assumes the existence of a universe (an inaccessible cardinal) instead. Both of these approaches rely on a distinction between *small* and *large* categories. There is a category of all [[small category|small categories]], but this category is not itself small; there is no category of all categories.
 
 Alexander Grothendieck used more (although [apparently](http://permalink.gmane.org/gmane.science.mathematics.categories/6847) he did not need to); he used what we now call [[Grothendieck universes]]s\. He assumed that every set is contained within a universe; that is, for every cardinal number $\kappa$, there is a cardinal inaccessible from $\kappa$. (This is still a rather moderate axiom, compared to some of the large-cardinal axioms studied by set theorists.) Now one has a relative notion of small and large; the category of all $U$-small categories (where $U$ is some universe) is $U$-large but must be $U'$-small for some other universe $U'$, and there exists a category (which is both $U$-large and $U'$-large) of all $U'$-small categories.
 
 If one does not accept the [[axiom of choice]], then there are additional complications in general category theory. In particular, one must distinguish between a universal *property* (for example, having all [[product]]s) and having a universal *structure* realising that property (in the example, a functor taking each pair $(x,y)$ of objects to a specific product cone $x \leftarrow x \times y \rightarrow y$). This difficulty was overcome by Michael Makkai using [[anafunctor]]s, but these have not been widely adopted, even by constructivists.
 
-For a summary of the mathematical foundations of category theory, see Mike Shulman, _Set theory for category theory_, [arXiv:0810.1279]().
+For a summary of the mathematical foundations of category theory, see Mike Shulman, _Set theory for category theory_, [arXiv:0810.1279](http://arxiv.org/abs/0810.1279).
 
 
 #### The concept of _identity_
+{#Identity}
 
 One way to think of category theory is as a framework in which the idea is formalized that every kind of [[equality]] is really secretly a choice of [[isomorphism]] or [[equivalence]]. In some sense the notion of identity is potentially [[evil]], in a technical sense.
 
@@ -56,6 +59,7 @@ One way to think of category theory is as a framework in which the idea is forma
 
 
 ### Categorial foundations of mathematics
+{#CFM}
 
 Bill Lawvere proposed to found mathematics on a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, ...
 +-- {: .query}
@@ -86,7 +90,7 @@ Since the world of categories (about 50 years old) is currently less familiar th
 _Toby_:  Ah well, I agree that one should do locale theory!  OK, if your point is that, however convenient ETCS may be as a foundation of *existing* mathematics, working in ETCC is likely to be convenient for useful *future* mathematics, then you may be right!
 
 _Roger Witte_ says
-Mike, [A new look at pointfree metrization theorems]().  Two down, Three to go?
+Mike, [A new look at pointfree metrization theorems](http://eudml.org/doc/120303;jsessionid=4AED8400972C0D13F31D09DE29A0C666).  Two down, Three to go?
 
 Toby
 Yes - we already know how to do maths in ETCS but we need to learn how to do it in ETCC.
@@ -161,11 +165,13 @@ In contrast, many of the optional or controversial axioms of set theory (such as
 
 
 ### Categorial foundations of category theory
+{#CFCT}
 
 Relevant topics: [[ETCC]], [[FOLDS]], [[homotopy type theory]]
 
 
 ## Other topics
+{#Other}
 
 * There is also [[algebraic set theory]].
 
@@ -174,7 +180,8 @@ A big picture intro to the comparison between set theory, type theory and topos/
 * [[Steve Awodey]], _From Sets to Types to Categories to Sets_ [pdf](http://www.andrew.cmu.edu/user/awodey/preprints/stcsFinal.pdf)
 
 
-### Effect of foundations on concrete problems
+## Effect of foundations on concrete problems
+{#Concrete}
 
 It may seem on first sight that foundational questions in mathematics are remote from "real mathematics". This is not quite so. For a list of "real world" problems that do depend on foundations see
 
