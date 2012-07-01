@@ -1,31 +1,32 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 #### Manifolds and cobordisms
-+--{: .hide}
++-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The basic definition of a [[smooth manifold]] is as a space locally modeled on a finite-dimensional [[Cartesian space]]. This can be generalized to a notion of smooth manifolds locally modeled on infinite-dimensional [[topological vector spaces]]. Typical examples of these are [[mapping spaces]] between finite-dimensional manifolds, such as [[loop space]]s.
+The basic definition of a [[manifold]] (especially a [[smooth manifold]]) is as a space locally modeled on a finite-dimensional [[Cartesian space]]. This can be generalized to a notion of smooth manifolds locally modeled on infinite-dimensional [[topological vector spaces]]. Typical examples of these are [[mapping spaces]] between finite-dimensional manifolds, such as [[loop space]]s.
+
 
 ## Definitions
 
-* [[Banach manifold]],
+See specific versions:
+
+* [[Banach manifold]]
 
 * [[Hilbert manifold]]
 
@@ -35,22 +36,23 @@ The basic definition of a [[smooth manifold]] is as a space locally modeled on a
 
 * [[convenient manifold]]
 
+
 ## Classes of examples
 
 * [[manifold structure of mapping spaces]]
 
+
 ## Related concepts
-
-
 
 * [[orthogonal structure]]
 
-[[!redirects infinite dimensional smooth manifolds]]
 
 [[!redirects infinite dimensional manifold]]
 [[!redirects infinite dimensional manifolds]]
-
 [[!redirects infinite-dimensional manifold]]
 [[!redirects infinite-dimensional manifolds]]
+
+[[!redirects infinite dimensional smooth manifolds]]
+[[!redirects infinite dimensional smooth manifolds]]
 [[!redirects infinite-dimensional smooth manifold]]
 [[!redirects infinite-dimensional smooth manifolds]]
