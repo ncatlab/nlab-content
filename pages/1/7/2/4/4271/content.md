@@ -37,10 +37,16 @@ In classical [[Lagrangian mechanics]], a pure state is a [[global element|point]
 
 More generally, a _[[classical state]]_ is a [[linear function]] $\rho\colon A \to \mathbb{R}$ on the [[Poisson algebra]] $A$ underlying the [[classical mechanical system]] which satisfies _positivity_ and _normalization_.
 
+### In geometric quantization
+
+* [[space of states (in geometric quantization)]]
+
 
 ### In Hilbert-space quantum mechanics
 
 In [[quantum mechanics]] given by a [[Hilbert space]] $H$, a [[pure state]] is a ray in $H$, which we often call the Hilbert space of states.  Strictly speaking, the space of states is not $H$ but $(H \setminus \{0\})/\mathbb{C}$, or equivalently $S(H)/\mathrm{U}(1)$.  A mixed state is then a [[density matrix]] on $H$.
+
+
 
 
 ### In AQFT
@@ -79,6 +85,8 @@ In each case, a pure state is a state of maximal information, while a mixed stat
 
   * [[classical state]], [[quantum state]]
 
+  * [[space of states (in geometric quantization)]]
+
   * [[state in AQFT and operator algebra]]
 
 * [[observable]]
@@ -86,6 +94,8 @@ In each case, a pure state is a state of maximal information, while a mixed stat
   * [[algebra of observables]]
 
   * [[GNS construction]]
+
+  * [[quantum operator (in geometric quantization)]]
 
 
 [[!redirects state]]
