@@ -1,25 +1,26 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 #### Manifolds and cobordisms
-+--{: .hide}
++-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-An _ILH manifold_ -- for _[[inverse limit]] of [[Hilbert manifolds]]_ -- is a [[topological manifold]] equipped with [[smooth structure]] of sorts which is stronger than than of a [[Frechet manifold]].
+An _ILH manifold_ -- for _[[inverse limit]] of [[Hilbert manifolds]]_ -- is a [[topological manifold]] equipped with a kind of [[smooth structure]] that is more general than that of a Hilbert manifold but less general than that of a [[Fréchet manifold]].
+
 
 ## Related concepts
 
@@ -29,7 +30,8 @@ An _ILH manifold_ -- for _[[inverse limit]] of [[Hilbert manifolds]]_ -- is a [[
 
 * [[convenient manifold]]
 
-* [[Frechet manifold]]
+* [[Fréchet manifold]]
+
 
 ## References
 
@@ -37,12 +39,13 @@ An _ILH manifold_ -- for _[[inverse limit]] of [[Hilbert manifolds]]_ -- is a [[
 
 * H. Omori, _Infinite dimensional Lie groups_, translations of Mathematical monographs, 158
 
+
 [[!redirects IHL manifold]]
 [[!redirects IHL manifolds]]
-
 [[!redirects IHL-manifold]]
 [[!redirects IHL-manifolds]]
 
+[[!redirects ILH manifold]]
 [[!redirects ILH manifolds]]
 [[!redirects ILH-manifold]]
 [[!redirects ILH-manifolds]]
