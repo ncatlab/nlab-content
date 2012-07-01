@@ -9,6 +9,9 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -16,4 +19,11 @@ In the context of _[[geometric quantization]]_ the _prequantum space of states_ 
 
 The actual space of [[states]] is a subspace of this, obtained after a choice of [[polarization]].
 
+## Related concepts
+
+* [[space of states]]
+
+* [[quantum operator (in geometric quantization)]]
+
 [[!redirects prequantum spaces of states]]
+[[!redirects prequantum space of states]]
