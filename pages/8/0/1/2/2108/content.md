@@ -143,13 +143,13 @@ Here are some definitions of important terms. Unfortunately they are defined usi
 ### Quantum operators
 
 Let $\nabla : X \to \mathbf{B} U(1)_{conn}$ be a
-[[prequantum line bundle]] $E \to X$ [[connection on a bundle|with connection]] for $\omega$. Write $\Gamma_X(E)$ for its space of smooth [[sections]], the _prequantum space of states_.
+[[prequantum line bundle]] $E \to X$ [[connection on a bundle|with connection]] for $\omega$. Write $\Gamma_X(E)$ for its space of smooth [[sections]], the _[[prequantum space of states]]_.
 
 
 +-- {: .num_defn}
 ###### Definition
 
-For $f \in C^\infty(X, \mathbb{C})$ a function on phase space, the corresponding **quantum operator** is the linear map
+For $f \in C^\infty(X, \mathbb{C})$ a function on phase space, the corresponding **[[quantum operator (in geometric quantization)|quantum operator]]** is the linear map
 
 $$
   \hat f : \Gamma_X(E) \to \Gamma_X(E)
@@ -182,7 +182,11 @@ After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **Bohr
 
 ### Quantum state space
 
+
 (space of sections of the prequantum line bundle whose [[covariant derivative]] along the polarizaiton leaves vanishes...)
+
+For the moment see at **[[space of states (in geometric quantization)]]_.
+
 
 ## Examples
 
@@ -257,7 +261,7 @@ $$
   v_p = -\frac{\partial}{\partial q}  
 $$
 
-the action of the [[quantum operators]] $\hat q$ and $\hat p$ on these states is
+the action of the [[quantum operator (in geometric quantization)|quantum operators]] $\hat q$ and $\hat p$ on these states is
 
 $$
   \hat q \psi = - i \nabla_{\partial/\partial p}\psi + q \psi
