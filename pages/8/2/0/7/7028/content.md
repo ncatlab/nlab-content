@@ -25,7 +25,7 @@ An [[observable]] in [[quantum physics]].
 
 ## Definition in geometric quantization
 
-We consider the notion of quantum observables in the the context of [[geometric quantization]].
+We consider the notion of quantum observables in the the context of [[geometric quantization]]. See also [[quantum operator (in geometric quantization)]].
 
 ### On a symplectic manifold
 
