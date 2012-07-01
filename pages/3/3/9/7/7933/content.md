@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -46,6 +48,58 @@ With the notation as used there, the basic constructions that higher geometric q
 
 ## Examples
 
+### Of ordinary symplectic manifolds
+
+* [[prequantum circle bundle]]
+
+  $X \to \mathbf{B} U(1)_{conn}$
+
+* [[local coefficient bundle]]
+
+  $$
+    \array{
+      \mathbb{C} &\to& \mathbb{C}//U(1)
+      \\
+      && \downarrow
+      \\
+      && \mathbf{B} U(1)
+    }
+  $$
+
+### Of 2-plectic $\infty$-groupoids
+
+* [[prequantum circle n-bundle|prequantum circle 2-bundle]]
+
+* [[local coefficient bundle]]
+
+  $$
+    \array{
+      \mathbf{B}U(n) &\to& \mathbf{B}PU(n)
+      \\
+      && \downarrow^{\mathrlap{\mathbf{dd}_n}}
+      \\
+      && \mathbf{B}^2 U(1)
+    }
+  $$
+
+* [[space of states]]: [[twisted bundles]]
+
+
+### Extended 3d $\mathrm{Spin}$-Chern-Simons theory
+
+* [[prequantum circle n-bundle|prequantum circle 3-bundle]]:
+
+  [[differential string structure|differential first fractional Pontryagin class]] 
+
+  $\tfrac{1}{2}\hat \mathbf{p}_1 : \mathbf{B}Spin_{conn} \to \mathbf{B}^3 U(1)_{conn}$
+
+### Extended 7d $\mathrm{String}$-Chern-Simons theory
+
+* [[prequantum circle n-bundle|prequantum circle 7-bundle]]:
+
+  [[differential fivebrane structure|differential second fractional Pontryagin class]] 
+
+  $\tfrac{1}{6}\hat \mathbf{p}_2 : \mathbf{B}String_{conn} \to \mathbf{B}^z U(1)_{conn}$
 
 
 ## References
