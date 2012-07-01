@@ -11,7 +11,7 @@
   * [[symplectic infinity-groupoid]]
 
 
-## Concepts
+## Basic concepts
 
 * [[prequantum line bundle]], [[prequantum circle n-bundle]]
 
@@ -23,13 +23,17 @@
 
   * [[Poisson algebra]], [[Hamiltonian vector field]]
 
-* [[prequantum space of states]]
+* [[space of states (in geometric quantization)|space of states]]
 
-* [[prequantum operator]]
+* [[quantum operator (in geometric quantization)|quantum operator]]
 
 * [[polarization]]
 
   [[quantization]]
+
+## Further methods
+
+* [[coherent state (in geometric quantization)]]
 
 ## Theorems
 
