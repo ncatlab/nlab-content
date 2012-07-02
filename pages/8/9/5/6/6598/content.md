@@ -26,7 +26,7 @@
 
   * [[symplectic groupoid]]
 
-* [[symplectomorphism]]
+* [[symplectomorphism]], [[symplectomorphism group]]
 
   * [[symplectic vector field]], [[Hamiltonian vector field]]
 
