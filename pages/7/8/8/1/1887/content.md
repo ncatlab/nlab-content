@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -26,7 +26,7 @@ One of the definitions of the [[image]] of a morphism $f : c \to d$ is in terms 
 
 This definition can be generalized to the context of [[(infinity,1)-category|(infinity,1)-categories]] [[presentable (infinity,1)-category|presented]] by a [[model category]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (homotopy image)
 
 Let $C$ be an $S$ [[enriched model category]] satisfying some assumptions... . 
@@ -46,6 +46,8 @@ The above definition of _homotopy monomorphism_ [[presentable (infinity,1)-categ
 Because ([[Higher Topos Theory|HTT, lemma 5.5.6.15]]) a morphism is [[(-1)-truncated]] precisely if its [[diagonal]] is [[(-2)-truncated]], hence is an [[equivalence in an (∞,1)-category|equivalence]]. 
 
 Therefore in an [[(∞,1)-topos]] the homtopy image of a morphism is a presentation for the [[n-connected/n-truncated factorization system|(-1)-connected/(-1)-truncated factorization]] of the morphism.
+
+See _[[∞-image]]_.
 
 
 ## Related concepts
