@@ -194,6 +194,11 @@ Now the same argument as above applies for $P_* X$.
 
 ## Properties
 
+### Hamiltonian actions and moment maps
+
+An [[action]] of a [[Lie algebra]] by (flows of) 
+Hamiltonian vector fields is equivalently given by a _[[moment map]]_. See there for details.
+
 ### Relation to symplectic vector fields
 
 Every Hamiltonian vector field is in particular a [[symplectic vector field]]. Where a symplectic vector field only preserves the [[symplectic form]], a Hamiltonian vector field also preserves the connection on its [[prequantum line bundle]].
