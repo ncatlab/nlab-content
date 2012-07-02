@@ -300,6 +300,12 @@ $$
 
 Original references include
 
+* [[Jean-Marie Souriau]], _Structure des systemes dynamiques_ Dunod, Paris (1970)
+
+  Translated and reprinted as (see section V.18 for geometric quantization):
+
+  [[Jean-Marie Souriau]], _Structure of dynamical systems - A symplectic view of physics_, Brikh&#228;user (1997)
+
 * [[Bertram Kostant]], _Quantization and unitary representations_, in _Lectures in modern analysis and applications III_, Lecture Notes in Math. 170 (1970), Springer Verlag, 87&#8212;208
 
 * [[Bertram Kostant]], _On the definition of quantization_, in _G&#233;om&#233;trie Symplectique et Physique Math&#233;matique_, Colloques Intern. CNRS, vol. 237,
@@ -307,7 +313,7 @@ Paris (1975) 187&#8212;210
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], _Geometric Asymptotics_, Math. Surveys no. 14, Amer. Math. Soc. (1977) ([web](http://www.ams.org/online%5Fbks/surv14/))
 
-Aspects at least of of geometric prequantization are usefully discussed also in section II of 
+Aspects at least of geometric prequantization are usefully discussed also in section II of 
 
 * [[Jean-Luc Brylinski]], _Loop spaces, characteristic classes and geometric quantization_, Birkh&#228;user (1993)
 
