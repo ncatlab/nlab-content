@@ -2,12 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
 #### Geometric quantization
 +--{: .hide}
 [[!include geometric quantization - contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
@@ -43,7 +48,7 @@ Borel-Weil theorem_,
 
 Lecture notes include
 
-* Wilfried Schmid (notes by Matvei Libine), _Geometric methods in representaton theory_ ([pdf](http://www.math.harvard.edu/~schmid/articles/brussels_1_30_04.pdf))
+* Wilfried Schmid (notes by Matvei Libine), _Geometric methods in representation theory_ ([pdf](http://www.math.harvard.edu/~schmid/articles/brussels_1_30_04.pdf))
 
 * P. Woit, _Topics in representation theory: the Borel-Weil theorem_, ([pdf](www.math.columbia.edu/~woit/notes16.pdf)), _Quantum field theory and representation theory: A sketch_ ([pdf](http://www.math.columbia.edu/~woit/sketch.pdf))
 
