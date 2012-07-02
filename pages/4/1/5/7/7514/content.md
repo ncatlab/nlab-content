@@ -22,6 +22,8 @@
 
 A [[manifold]], possibly [[infinite dimensional manifold|infinite-dimensional]], is called a _convenient manifold_ -- implicitly meaning: convenient for _[[differential geometry]]_ -- if it is modeled on a [[convenient vector space]].
 
+One should note that this usage of the adjective 'convenient' is different to that in 'convenient category', for example of smooth spaces. In that case the _category_ is convenient, whereas here the _objects_ are convenient.
+
 ## Related concepts
 
 * [[Banach manifold]]
