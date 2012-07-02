@@ -18,7 +18,7 @@ If the manifold is a [[smooth manifold]], the charts are required to be smooth t
 
 * Every [[Lie groupoid]] gives a folitation on its space of [[object]]s: the leaves are the [[orbit]]s. Conversely, every regular foliation gives rise to its [[holonomy groupoid]]. This is a (not necessarily Hausdorff) Lie groupoid whose orbits are the leaves of the original foliation, and which in some sense is minimal with this condition.
 
-* Every [[Poisson manifold]] has a canonical structure of a foliation whose leaves are its maximal [[symplectic manifold|symplectic]] submanifolds, called *symplectic leaves*.
+* Every [[Poisson manifold]] has a canonical structure of a foliation whose leaves are its maximal [[symplectic manifold|symplectic]] submanifolds, called *[[symplectic leaves]]*.
 
 ## Properties
 
