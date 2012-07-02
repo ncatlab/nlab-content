@@ -209,6 +209,10 @@ The auto-[[symplectomorphisms]] on a [[symplectic manifold]] form a [[group]], o
 
 (...) 
 
+## Related concepts
+
+The Hamiltonian vector field of a given function may also be called its _[[symplectic gradient]]_.
+
 ## References
 
 For references on the ordinary notion of Hamiltonian vector fields see the references at _[[symplectic geometry]]_ and _[[geometric quantization]]_.
@@ -220,6 +224,8 @@ The notion of Hamiltonian vector field in [[n-plectic geometry]] is discussed in
 The notion of Hamiltonian vector field for $n$-plectic cohesive $\infty$-groupoids is discussed in section 4.8.1 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+See also at _[[higher geometric quantization]]_.
 
 [[!redirects Hamiltonian vector fields]]
 
