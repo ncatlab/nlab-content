@@ -172,6 +172,8 @@ $RO(G)$-graded Bredon cohomology has lots of formal advantages over the integer-
 
 ## References
 
+### General
+
 * [[Matvei Libine]], _Lecture Notes on Equivariant Cohomology_ ([arXiv](http://arxiv.org/abs/0709.3615))
 
 * [[Peter May]], _Equivariant homotopy and cohomology theory_ ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
@@ -181,3 +183,13 @@ $RO(G)$-graded Bredon cohomology has lots of formal advantages over the integer-
 Parts of the above material is taken from a blog discussion between [[Mike Shulman|Mike]] and [[Urs Schreiber|Urs]] [here](http://golem.ph.utexas.edu/category/2010/01/the_sacred_and_the_profane.html#c031280).
 
 * blog on [Localization techniques in Equivariant Cohomology](http://www.aimath.org/wiki/localization/index.php/Main_Page)
+
+
+### In differential geometry
+
+Equivariant degree-2 $U(1)$-[[Lie group cohomology]] is discussed in
+
+* Kai Behrend, Ping Xu, Bin Zhang, _Equivariant gerbes over compact simple Lie groups_ ([arXiv](http://arxiv.org/abs/math/0306183v1))
+
+
+
