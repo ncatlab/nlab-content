@@ -52,28 +52,6 @@ There is an [[infinitesimal space|infinitesimal]] version of a Lie group, a so-c
 The first order [[infinitesimal object|infinitesimal]] approximation to a Lie group is its [[Lie algebra]].
 
 
-## Examples {#Examples}
-
-The [[real line]] $\mathbb{R}$ with its standard [[smooth structure]] and the group operation being addition is a Lie group. So is every [[Cartesian space]] $\mathbb{R}^n$ with the componentwise addition of real numbers.
-
-The [[quotient]] of $\mathbb{R}$ by the subgroup of [[integer]]s $\mathbb{Z} \hookrightarrow \mathbb{R}$ is the [[circle group]] $S^1 = \mathbb{R}/\mathbb{Z}$. The quotient $\mathbb{R}^n/\mathbb{Z}^n$ is the $n$-[[dimension|dimensional]] [[torus]].
-
-The [[classical Lie group]]s include
-
-* the [[general linear group]] $GL(n)$
-
-* the [[orthogonal group]] $O(n)$ and [[special orthogonal group]] $SO(n)$;
-
-* the [[unitary group]] $U(n)$ and [[special unitary group]] $SU(n)$;
-
-* the [[symplectic group]] $Sp(2n)$.
-
-The [[exceptional Lie group]]s incude
-
-* ... [[E8]]
-
-
-
 
 
 ## Properties
@@ -85,7 +63,7 @@ The [[exceptional Lie group]]s incude
 
 ### Classification
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Prposition
 
 Every connected finite-dimensional real Lie group is [[homeomorphism|homeomorphic]] to a [[product]] of a compact Lie group and a [[Cartesian space|Euclidean space]]. Every abelian connected compact f.d. real Lie group is a [[torus]] (a product of circles $T^n = S^1\times S^1 \times \ldots \times S^1$).
@@ -105,7 +83,7 @@ and a finite snumber o
 
 For $G$ a bare [[group]] (without smooth structure) there may be more than one way to equip it with the [[stuff, structure, property|structure]] of a Lie group.
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 As bare [[abelian group]]s, the  [[Cartesian space]]s $\mathbb{R}^n$ are, for all $n$, [[vector space]]s over the [[rational number]]s $\mathbb{Q}$ whose [[dimension]] is the [[cardinality]] of the [[continuum]], $2^{\aleph_0}$.
@@ -142,6 +120,39 @@ In the [[physics]] of [[gauge field]]s -- [[gauge theory]] -- Lie groups appear 
 The notion of [[group]] generalizes in [[higher category theory]] to that of [[2-group]], ... [[∞-group]].
 
 Accordingly, so does the notion of Lie group generalize to [[Lie 2-group]], ... [[∞-Lie group]]. For details see [[∞-Lie groupoid]].
+
+## Examples 
+ {#Examples}
+
+### Basic examples
+
+The [[real line]] $\mathbb{R}$ with its standard [[smooth structure]] and the group operation being addition is a Lie group. So is every [[Cartesian space]] $\mathbb{R}^n$ with the componentwise addition of real numbers.
+
+The [[quotient]] of $\mathbb{R}$ by the subgroup of [[integer]]s $\mathbb{Z} \hookrightarrow \mathbb{R}$ is the [[circle group]] $S^1 = \mathbb{R}/\mathbb{Z}$. The quotient $\mathbb{R}^n/\mathbb{Z}^n$ is the $n$-[[dimension|dimensional]] [[torus]].
+
+### Classical Lie groups
+
+The [[classical Lie groups]] include
+
+* the [[general linear group]] $GL(n)$
+
+* the [[orthogonal group]] $O(n)$ and [[special orthogonal group]] $SO(n)$;
+
+* the [[unitary group]] $U(n)$ and [[special unitary group]] $SU(n)$;
+
+* the [[symplectic group]] $Sp(2n)$.
+
+### Exceptional Lie groups
+
+The [[exceptional Lie groups]] incude
+
+* [[G2]], [[F4]], [[E6]], [[E7]] [[E8]],
+
+### Infinite-dimensional examples
+
+* [[diffeomorphism group]]
+
+  * [[symplectomorphism group]], [[quantomorphism group]]
 
 
 ## Related concepts
