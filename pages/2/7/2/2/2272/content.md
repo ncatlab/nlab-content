@@ -48,6 +48,8 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 
 * [[isotropic submanifold]], [[coisotropic submanifold]]
 
+* [[symplectic leaf]]
+
 * [[Poisson Lie algebroid]]
 
 [[!redirects Poisson manifolds]]
