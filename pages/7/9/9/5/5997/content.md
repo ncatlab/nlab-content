@@ -63,7 +63,7 @@ In [[∞Grpd]] a morphism between _[[0-truncated]]_ [[object]]s ([[set]]s)
 
 Therefore between 0-truncated objects the (-1)-connected/(-1)-truncated factorization system is the [[epi/mono factorization system]] and hence [[image]] factorization.
 
-Generally, the (-1)-connected/(-1)-truncated factorization is through the **[[homotopy image]]** (see there for more details).
+Generally, the (-1)-connected/(-1)-truncated factorization is through the **[[∞-image]]** ([[homotopy image]]) (see there for more details).
 
 
 ### The case $n = 0$
