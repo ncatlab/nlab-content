@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -14,6 +15,8 @@
 
 ## Idea
 
+### Traditional
+
 For $(X,\omega)$ a [[symplectic manifold]], the _symplectomorphism group_
 
 $$
@@ -21,6 +24,10 @@ $$
 $$
 
 is the [[subgroup]] of the [[diffeomorphism group]] of $X$ on the [[diffeomorphisms]].
+
+### In higher symplectic geometry
+
+Analogous constructions apply when symplectic manifolds are generalized to [[n-plectic infinity-groupoids]].
 
 ## Related concepts
 
@@ -30,3 +37,8 @@ The [[Lie algebra]] of the symplectomorphism group is that of [[symplectic vecto
 
 
 [[!redirects symplectomorphism groups]]
+
+[[!redirects Hamiltonian symplectomorphism group]]
+
+[[!redirects n-plectomorphism ∞-group]]
+[[!redirects n-plectomorphism infinity-group]]
