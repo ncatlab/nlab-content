@@ -201,6 +201,8 @@ Notice that
 
 * this implies that the inclusion $im f \to d$ is a [[regular monomorphism]] in the $(\infty,1)$-category sense (described [here](http://ncatlab.org/nlab/show/regular+monomorphism#Infty1Version)).
 
+For more see _[[∞-image]]_.
+
 #### Examples {#InfImageExamples}
 
 Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of [[(∞,1)-functor]]s between [[∞-groupoid]]s and hence a notion of image of [[functor]]s between [[groupoid]]s, [[2-functor]]s between [[2-groupoid]]s, etc.
