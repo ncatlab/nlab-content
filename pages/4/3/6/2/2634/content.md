@@ -89,6 +89,7 @@ provided the Hamiltonian is time-independent.
 
 * [[quantum operator]]
 
+* [[Hamiltonian action]]
 
 [[!redirects Hamiltonian]]
 [[!redirects hamiltonian]]
