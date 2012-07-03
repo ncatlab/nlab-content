@@ -130,6 +130,12 @@ This is the way it is often written in the literature.
 
 (...)
 
+## Properties
+
+### Relation to constrained mechanics
+ {#RelationToConstrainedMechanics}
+
+In the context of [[constrained mechanics]] the components of the moment map (as the Lie algebra argument varies) are called [[first class constraints]]. See _[[symplectic reduction]]_ for more.
 
 ## Related concepts
 
