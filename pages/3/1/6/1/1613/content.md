@@ -58,3 +58,4 @@ An indication of how the FRS formalism follows from 3-dimensional [[Chern-Simons
 
 * [[Anton Kapustin]], [[Natalia Saulina]], _ Surface operators in 3d TFT and 2d Rational CFT_ in [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings in Symposia in Pure Mathematics, AMS, (2011)
 
+[[!redirects FFRS formalism]]
