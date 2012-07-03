@@ -1,0 +1,6 @@
+
+* [webpage](http://www.math.jussieu.fr/~vergne/)
+
+category: people
+
+[[!redirects Michele Vergne]]
