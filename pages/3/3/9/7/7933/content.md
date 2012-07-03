@@ -88,6 +88,50 @@ With the notation as used there, the basic constructions that higher geometric q
 * [[space of states]]: [[twisted bundles]]
 
 
+### Extended $(4k+3)d$ abelian Chern-Simons theory
+
+[[higher dimensional Chern-Simons theory]]
+
+[[prequantum circle n-bundle|prequantum circle (4k+3)-bundle]] 
+from [[Beilinson-Deligne cup product]]
+
+$$
+  \mathbf{B}^{2k+1}U(1)_{conn}
+  \stackrel{(-)\cup (-)}{\to}
+  \mathbf{B}^{4k+3}U(1)_{conn}
+$$
+
+The quantomorphism $\infty$-group of this should be
+
+$$
+  Quant((-)\cup(-)) \simeq \mathbb{Z}_2 \simeq Aut(U(1))
+  \,.
+$$
+
+For there is, up to equivalence, a unique autoequivalence
+
+$$
+  \mathbf{B}^{2k+1}U(1)_{conn} \stackrel{\simeq}{\to}
+  \mathbf{B}^{2k+1}U(1)_{conn}
+  \,,
+$$
+
+the one induced by the nontrivial automorphism of $U(1)$. Since the cup-product is strictly invariant under this, this extends to 
+
+$$
+  \array{
+     \mathbf{B}^{2k+1}U(1)_{conn} &&\stackrel{\simeq}{\to}&&
+     \mathbf{B}^{2k+1}U(1)_{conn}
+     \\
+     & {}_{\mathllap{(-)\cup(-)}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{(-)\cup(-)}}
+     \\
+     && \mathbf{B}^{4k+3}U(1)_\conn
+  }
+  \,.
+$$
+
+But for any further nontrivial such autoequivalence in the slice we would need in particular a gauge transformation parameterized by $(2k+1)$-forms over test manifolds from $C \wedge d C$ to itself. But the only closed $2k$-forms that we can produce naturally from $C$ are multiples of $C \wedge C$. But these all vanish since $C$ is of odd degree $2k+1$.
+
 ### Extended 3d $\mathrm{Spin}$-Chern-Simons theory
 
 * [[prequantum circle n-bundle|prequantum circle 3-bundle]]:
@@ -96,6 +140,18 @@ With the notation as used there, the basic constructions that higher geometric q
 
   $\tfrac{1}{2}\hat \mathbf{p}_1 : \mathbf{B}Spin_{conn} \to \mathbf{B}^3 U(1)_{conn}$
 
+The total space of the prequantum 3-bundle is
+
+$$
+  \array{
+    \mathbf{B}String_{conn'} &\to& \Omega^{1 \leq \bullet \leq 3} &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow 
+    \\
+    \mathbf{B}Spin_{conn} &\stackrel{\tfrac{1}{2}\hat \mathbf{p}_1}{\to}& \mathbf{B}^3 U(1)_{conn} &\to& \mathbf{B}^3 U(1)
+  }
+$$
+
 ### Extended 7d $\mathrm{String}$-Chern-Simons theory
 
 * [[prequantum circle n-bundle|prequantum circle 7-bundle]]:
@@ -103,6 +159,18 @@ With the notation as used there, the basic constructions that higher geometric q
   [[differential fivebrane structure|differential second fractional Pontryagin class]] 
 
   $\tfrac{1}{6}\hat \mathbf{p}_2 : \mathbf{B}String_{conn} \to \mathbf{B}^z U(1)_{conn}$
+
+The total space of the prequantum 7-bundle is
+
+$$
+  \array{
+    \mathbf{B}Fivebrane_{conn'} &\to& \Omega^{1 \leq \bullet \leq 7} &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow 
+    \\
+    \mathbf{B}String_{conn} &\stackrel{\tfrac{1}{6}\hat \mathbf{p}_2}{\to}& \mathbf{B}^7 U(1)_{conn} &\to& \mathbf{B}^7 U(1)
+  }
+$$
 
 
 ## References
