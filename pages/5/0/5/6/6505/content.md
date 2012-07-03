@@ -54,13 +54,16 @@ $$
 
 where there is a Lie bracket of vector fields on the right hand side.
 
-There is an exact sequence
+For $(M,\omega)$ a connected symplectic manifold,  there is an exact sequence of [[Lie algebras]]
 
 $$
-0 \to \mathbf{R}\to C^\infty(M)\to \chi(M,\omega)
+  0 \to \mathbf{R}\to (C^\infty(M), \{-,-\}) \to \chi(M,\omega) \to 0
+  \,.
 $$
 
-and $H^1(M, \mathbf{R})$ measures how far is the right-most map from the identity. Thus there is a possible difference between the set of symplectic vector fields and of Hamiltonian vector fields only if the manifold is not simply connected. 
+See at _[Hamiltonian vector field -- Relation to Poisson bracket](Hamiltonian+vector+field#RelationToFunctions)_.
+
+
 
 ### Hamiltonian action and moment map
  {#HamiltonianActionAndTheMomentMap}
