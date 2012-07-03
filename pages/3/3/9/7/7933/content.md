@@ -51,6 +51,8 @@ With the notation as used there, the basic constructions that higher geometric q
 
 ## Examples
 
+(...)
+
 ### Of ordinary symplectic manifolds
 
 * [[prequantum circle bundle]]
@@ -104,7 +106,7 @@ $$
 The quantomorphism $\infty$-group of this should be
 
 $$
-  Quant((-)\cup(-)) \simeq \mathbb{Z}_2 \simeq Aut(U(1))
+  \mathbb{Z}_2 \simeq Aut(U(1))
   \,.
 $$
 
@@ -152,6 +154,33 @@ $$
   }
 $$
 
+as it appears in [[schreiber:The moduli 3-stack of the C-field]].
+
+But the quantomorphism group of this will be small, as the [[Chern-Simons form]] is far from being gauge invariant.
+
+### Extended 3d $G \times G$-Chern-Simons theory
+
+However, when we consider $G \times G$ CS theory given by
+
+$$
+  \mathbf{B}(G \times G)_{conn}
+  \stackrel{\mathbf{c}^1_{conn}- \mathbf{c}^2_{conn}}{\to}
+  \mathbf{B}^3 U(1)_{conn}
+$$
+
+then diagonal gauge transformations $\mathbf{B}(G \times G)_{conn}
+ \to \mathbf{B}(G \times G)_{conn}$ have interesting extensions to quantomorphisms, because for $g : U \to G$ the given gauge transformation at stage of definition $U$, the Chern-Simons form transforms by an exact term
+
+$$
+  CS(A_1^g,A_2^g)
+  =
+  CS(A_1,A_2)
+  + 
+  d \langle A_1 - A_2, g^* \theta\rangle
+  \,.
+$$
+
+
 ### Extended 7d $\mathrm{String}$-Chern-Simons theory
 
 * [[prequantum circle n-bundle|prequantum circle 7-bundle]]:
@@ -182,3 +211,5 @@ Higher geometric quantization over [[smooth manifolds]] is discussed in
 Higher geometric quantization in a [[cohesive (∞,1)-topos]] over [[smooth ∞-groupoids]] is discussed in
 
 * _[[schreiber:infinity-geometric prequantization]]_
+
+[[!redirects higher geometric prequantization]]
