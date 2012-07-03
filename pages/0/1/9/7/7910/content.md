@@ -67,6 +67,9 @@ The quantomorphism group for a [[symplectic manifold]] may naturally be equipped
 
 [[!include geometric quantization extensions - table]]
 
+## Related concepts
+
+* [[Hamiltonian action]]
 
 ## References
  {#References}
