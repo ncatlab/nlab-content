@@ -54,7 +54,7 @@ $$
   \,.
 $$
 
-The further [[subgroup]] corresponding to those symplectic vector fields which are [[Hamiltonian vector fields]]
+The further [[subgroup]] corresponding to those symplectic vector fields which are [[flows]] of [[Hamiltonian vector fields]] coming from a smooth family of [[Hamiltonians]]
 
 $$
   \mathfrak{HamVect}(X, \omega) \hookrightarrow \mathfrak{SymplVect}(X, \omega) \hookrightarrow \mathfrak{Vect}(X)
@@ -126,9 +126,13 @@ is preserved by pulling back along $\phi \colon P_n/S_n \to Q_n$. Since symplect
 
 ## References 
 
-The relation to volumes of balls is discussed in 
+Lecture notes include
 
-* [[Andreas Blass]] and [[Stephen Schanuel]], On the volumes of balls ([ps](http://www.math.lsa.umich.edu/~ablass/vol.ps)).  
+* Augustin Banyaga, _Introduction to the geometry of hamiltonian diffeomorphisms_ ([pdf](http://www.math.psu.edu/wade/dakar.pdf))
+
+The example of volumes of balls is discussed in 
+
+* Andreas Blass, Stephen Schanuel, On the volumes of balls ([ps](http://www.math.lsa.umich.edu/~ablass/vol.ps)).  
 
 [[!redirects symplectomorphisms]]
 
