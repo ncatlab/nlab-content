@@ -109,7 +109,7 @@ This is a homomorphism of [[Poisson manifolds]].
 If one writes the evaluation pairing as
 
 $$
-  \langle -,-\rangle : \mathfrak{g}^* \otimes \mathfrak{g}^* \to \mathbb{R}
+  \langle -,-\rangle : \mathfrak{g}^* \otimes \mathfrak{g} \to \mathbb{R}
 $$
 
 then the equation characterizing $\mu$ reads for all $x \in X$ and $A \in \mathfrak{g}$
