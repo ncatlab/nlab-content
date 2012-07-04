@@ -1,9 +1,11 @@
 
-* in [[quantum mechanics]]:
+For _subsystem_ of a [[physical system]] in [[quantum mechanics]], see:
 
-  * [subsystem](http://ncatlab.org/nlab/show/quantum%20mechanics#Subsystems)
+* [subsystem](quantum%20mechanics#Subsystems)
 
-  * [independent subsystem](http://ncatlab.org/nlab/show/quantum%20mechanics#Subsystems)
+  * [independent subsystem](quantum%20mechanics#Subsystems), [[entanglement]]
+
+
 
 [[!redirects subsystems]]
 [[!redirects independent subsystems]]
