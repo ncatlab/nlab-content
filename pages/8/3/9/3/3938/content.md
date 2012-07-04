@@ -54,13 +54,13 @@ Thus the key to transgression is to understand the conditions where the map $g \
 
 A related construction called _transgression_ is the following
 
-For $P \to X$ a [[fiber bundle]] with typical fiber $i : F \hookrightarrow P $ and $[\omega] \in H_{dR}^n(F)$ a class in [[de Rham cohomology]] of the fiber, we say this is _transgessive_ if 
+For $P \to X$ a [[fiber bundle]] with typical fiber $i : F \hookrightarrow P $ and $[\omega] \in H_{dR}^n(F)$ a class in [[de Rham cohomology]] of the fiber, we say this is _transgressive_ if 
 
 * there exists a form $cs \in \Omega^{n}(P)$ on the total space of the bundle;
 
 * such that restricted along $F \hookrightarrow P$ to the fiber it is $\sim \omega$;
 
-* and such that $d \omega$ is the pull-back of a form $\kappa \in \Omega^{n+1}(X)$ on the based along the bundle projection .
+* and such that $d \omega$ is the pull-back of a form $\kappa \in \Omega^{n+1}(X)$ on the base along the bundle projection .
 
 See for instance section 9 of ([Borel](#Borel)).
 
@@ -150,7 +150,7 @@ There is much more to tell in this particular story.  It is possible to replacin
 
 > just a rough remark, for the moment
 
-At least for some cases of transgressoin to [[mapping space]]s, the concept has an [[nPOV]] description in terms of [[internal hom]]s.
+At least for some cases of transgression to [[mapping space]]s, the concept has an [[nPOV]] description in terms of [[internal hom]]s.
 
 This makes crucial use of the [[nPOV]] notion of [[cohomology]], as described there.
 
