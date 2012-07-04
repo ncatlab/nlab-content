@@ -60,6 +60,8 @@ See _[[equivalence in homotopy type theory]]_.
 
 ## Related concepts
 
+* [[principle of equivalence]]
+
 * [[identity type]]
 
 * [[equality]]
