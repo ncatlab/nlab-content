@@ -362,9 +362,12 @@ This is a [[Koszul resolution]]-type resolution of the 0-locus of $\exp(i S)$. M
 
 (...)
 
+## Related concepts
+
+[[!include symplectic reduction - table]]
+
 
 ## References
-
 
 ### Covariant phase space
 
