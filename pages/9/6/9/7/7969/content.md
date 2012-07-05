@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _theta function_ ($\theta$-function) is a [[holomorphic section]] of a [[holomorphic line bundle]] over a [[complex torus]] / [[abelian variety]]. 
+A _theta function_ ($\vartheta$-function, $\Theta$-function) is a [[holomorphic section]] of a [[holomorphic line bundle]] over a [[complex torus]] / [[abelian variety]]. 
 
 Expressed in local [[coordinates]] $\mathbb{C}^g$ it becomes an actual function, satisfying certain transformation properties. 
 
@@ -25,16 +25,50 @@ Theta functions are naturally thought of as being the [[space of states (in geom
 
 * [[Riemann theta function]]
 
-* 
+* [[Jacobi theta function]]
+
+* [[Ramanujan theta function]]
 
 ## Related concepts
 
 * [[special functions]]
 
+* [[mock theta function]]
+
 ## References
 
-* Andrei Tyurin, _Quantization, Classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466v1))
+Introductions to the traditional notion include
+
+* D.H. Bailey et al, _The Miracle of Theta Functions_ ([web](http://www.cecm.sfu.ca/organics/papers/borwein/paper/html/node12.html))
+
+* M. Bertola, _Riemann surfaces and theta  functions_ ([pdf](http://www.mathstat.concordia.ca/faculty/bertola/ThetaCourse/ThetaCourse.pdf))
+
+A modern textbook account is
+
+* [[Alexander Polishchuk]], _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003)
+
+Further discussion with an emphasis of the origin of theta functions in [[geometric quantization]] is in 
+
+* Arnaud Beuville, _Theta functions, old and new_ ([pdf](http://math.unice.fr/~beauvill/pubs/thetaon.pdf))
+
+* [[Andrei Tyurin]], _Quantization, Classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466v1))
+
+* Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
+ {#Nohara}
+
 
 [[!redirects theta functions]]
 [[!redirects theta-function]]
 [[!redirects theta-functions]]
+
+[[!redirects Theta function]]
+[[!redirects Theta functions]]
+[[!redirects Theta-function]]
+[[!redirects Theta-functions]]
+
+[[!redirects Riemann theta function]]
+[[!redirects Riemann theta functions]]
+[[!redirects Jacobi theta function]]
+[[!redirects Jacobi theta functions]]
+[[!redirects Ramanujan theta function]]
+[[!redirects Ramanujan theta functions]]
