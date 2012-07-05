@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _theta function_ ($\theta$-function) is a [[holomorphic section]] of a [[holomorphic line bundle]] over a [[complex torus]] / [[abelian variety]]. 
+
+Expressed in local [[coordinates]] $\mathbb{C}^g$ it becomes an actual function, satisfying certain transformation properties. 
+
+Theta functions are naturally thought of as being the [[space of states (in geometric quantization)|states]] in the [[geometric quantization]] of the given complex space, the given holomorphic line bundle being the [[prequantum line bundle]] and the condition of holomorphicity of the section being the [[polarization]] condition. See for instace ([Tyurin](#Tyurin)).
+
+## Examples
+
+* [[Riemann theta function]]
+
+* 
+
+## Related concepts
+
+* [[special functions]]
+
+## References
+
+* Andrei Tyurin, _Quantization, Classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466v1))
+
+[[!redirects theta functions]]
+[[!redirects theta-function]]
+[[!redirects theta-functions]]
