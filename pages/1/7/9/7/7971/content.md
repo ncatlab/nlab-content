@@ -1,0 +1,6 @@
+
+* [webpage](http://u.math.biu.ac.il/~leyenson/tyurin/)
+
+category: people
+
+[[!redirects Andrey Tyurin]]
