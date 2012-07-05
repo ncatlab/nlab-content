@@ -1,0 +1,17 @@
+category: calculus
+
+## Idea
+
+Cauchy's integral theorem states that path [[integration axiom|integrals]] of holomorphic functions over paths, in every simply connected open subset of the [[complex number|complex plane]] are invariant under [[homotopy]] of paths.
+
+## Statement
+
+Let $\gamma_1,\gamma_2$ be two homotopic [[loop|loops]] in a [[simply connected]] open subset $D\subseteq \mathbb{C}$. Let $f$ be a holomorphism on $D$. Then we have
+
+$$\int_{\gamma_1} f(z)dz=\int_{\gamma_2} f(z) dz$$
+
+In particular we have 
+
+$$\int_{\gamma_1} f(z)dz=0$$
+
+for $\gamma_2:=0$
