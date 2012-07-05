@@ -27,6 +27,8 @@ A more general setup of [[motive|motivic]] Donaldson-Thomas invariants is given 
 
 ## References
 
+* [[Simon Donaldson]], ...
+
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_ ([arXiv:0910.4315](http://arxiv.org/abs/0910.4315))
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435); _Motivic Donaldson-Thomas invariants: summary of results_, [0910.4315](http://arxiv.org/abs/0910.4315)
