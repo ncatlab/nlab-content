@@ -1,10 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
-#Idea#
+## Idea
+
+
+To a large extent [[quantum physics]] is a [[deformation theory|deformation]] of [[classical physics]] parameterized by [[Planck's constant]] $\hbar$. For a given [[quantum system]], the limit $\hbar \to 0$ (in as far as that can be made sense of), is called its _classical limit_.
 
 One imagines that from a [[quantum field theory]] one can derive a [[classical field theory]] of which the original quantum field theory may be regarded as a [[quantization]].  Whereas quantization may be haphazard, since quantum physics seems to be a more fundamental description of reality that need not be derivable from anything classical, we expect taking the classical limit to be more systematic, since the appearance of a classical world in some regimes should be explicable by fundamental quantum theories.  However, it may not be as systematic as some people would like, as in this [blog discussion](http://golem.ph.utexas.edu/category/2009/10/this_weeks_finds_in_mathematic_43.html#c028689).
 
@@ -13,9 +28,13 @@ What precisely this means and to which degree precisely it makes sense depends o
 Most prescriptions for taking classical limits are formulated in algebraic settings. To fit for instance a 1-dimensional [[FQFT]] into the discussion one is likely to find in the literature, one will have to encode it equivalently in its [[spectral triple]] (as described there) and then proceed with that.
 
 
-#Relations to coherent states#
+## Formalizations
 
-One method for producing [[classical mechanics]] from a quantum theory is by looking at [[coherent state]]s of the quantum theory. The standard (Glauber) coherent states 
+In various formalizations of (aspects of) quantum physics, the classical limit has a corresponding formalization. The following list discusses a few.
+
+### Relations to coherent states
+
+One method for producing [[classical mechanics]] from a quantum theory is by looking at [[coherent states]] of the quantum theory. The standard (Glauber) coherent states 
 have a localized probability distribution in classical [[phase space]] whose center follows the classical equations of motion when the Hamiltonian is quadratic in positions and momenta. 
 
 (For nonquadratic Hamiltonians, this only holds approximately over short times. For example, 
@@ -33,8 +52,12 @@ and for $N\to \infty$, one gets a good classical limit.
 For the Heisenberg group, $\phi^*\psi$ is a $1/\hbar$-th power, 
 and the $N$-th power corresponds to replacing $\hbar$ by $\hbar/N$. Thus one gets the standard classical limit.
 
+### Formulation in geometric quantization
 
-#References#
+In the context of [[geometric quantization]] the classical limit corresponds to taking high [[tensor powers]] of the [[prequantum line bundle]] with itself. See at _[[Planck's constant]]_ the section [Plancks's constant - In geometric quantization](Planck%27s%20constant#InGeometricQuantization). 
+
+
+## References 
 
 Basic literature on relations between [[coherent state]]s and the classical limit, based on irreducible unitary representations of Lie groups includes the book
 
