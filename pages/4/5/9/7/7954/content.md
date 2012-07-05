@@ -23,6 +23,10 @@
 
 The analog for [[presymplectic manifolds]] is [[presymplectic reduction]].
 
+[[!include symplectic reduction - table]]
+  
+
+
 
 ## References
 
