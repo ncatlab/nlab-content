@@ -75,3 +75,9 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 [[!redirects gauge transformations]]
 [[!redirects gauge symmetry]]
+
+[[!redirects global gauge symmetry]]
+[[!redirects local gauge symmetry]]
+
+[[!redirects global symmetry]]
+[[!redirects local symmetry]]
