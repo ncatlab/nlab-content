@@ -437,6 +437,10 @@ A proof appears as [[Higher Topos Theory|HTT, lemma 4.4.2.1]]
 
 ...
 
+#### Quotients
+
+* [[infinity-quotient]]
+
 #### Tensoring and cotensoring with an  $\infty$-groupoid {#Tensoring}
 
 ##### Recap of the 1-categorical situation
