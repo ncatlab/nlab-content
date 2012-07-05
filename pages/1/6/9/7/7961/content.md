@@ -1,0 +1,6 @@
+## References
+
+* John Baez, this week's finds in mathematical physics, week 202, [web](http://math.ucr.edu/home/baez/week202.html)
+
+
+* [[Tom Leinster]], objects of categories as complex numbers, [	arXiv:math/0212377v1](http://arxiv.org/abs/math/0212377)
