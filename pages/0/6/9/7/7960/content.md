@@ -8,9 +8,9 @@ category: type theory, calculus
 
 * Conor McBride, clowns to the left of me, jokers to tjhe right, [pdf](http://strictlypositive.org/CJ.pdf)
 
-* derivetives and dissections of data types, lambda the ultimate, [blog](http://lambda-the-ultimate.org/node/1957)
+* Conor McBride, differential calculus with data types, [web](http://strictlypositive.org/calculus/)
 
-* differential calculus with data types, [web](http://strictlypositive.org/calculus/)
+* derivetives and dissections of data types, lambda the ultimate, [blog](http://lambda-the-ultimate.org/node/1957)
 
 ## Related entries
 
