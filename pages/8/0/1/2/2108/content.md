@@ -286,6 +286,13 @@ $$
   \,.
 $$
 
+### Quantization of Chern-Simons theory
+
+The [[geometric quantization]] of [[Chern-Simons theory]]
+leads to invariants for 3-[[manifolds]]. 
+A detailed discussion is in ([Witten 89](#Witten)).
+
+
 ## Related concepts
 
 * [[reductions deformations resolutions in physics]]
@@ -340,6 +347,13 @@ The above "Overview" and "Basic Jargon" sections are taken from
 Some useful talk notes include
 
 * Eva Miranda, _From action-angle coordinates to geometric quantization and back_ (2011) ([pdf](http://fdis2011.uni-jena.de/Talks/Eva%20Miranda.pdf))
+
+### Examples
+
+Discussion of geoemtric quantization of [[Chern-Simons theory]] is for instance in 
+
+* [[Edward Witten]] (lecture notes by Lisa Jeffrey), _New results in Chern-Simons theory_, pages 81 onwards  in: S. Donaldson, C. Thomas (eds.) _Geometry of low dimensional manifolds 2: Symplectic manifolds and Jones-Witten theory_ (1989) ([pdf](http://cs5538.userapi.com/u11728334/docs/06f79688de6f/S_K_Donaldson_Geometry_of_LowDimensional_Ma.pdf))
+ {#Witten}
 
 ### Relation to other formalisms
 
