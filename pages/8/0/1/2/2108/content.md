@@ -308,6 +308,10 @@ a [[Kähler manifold]] there are natural choices of prequantization:
 
 Applied to a [[symplectic vector space]] this yields the [[Bargmann-Fock representation]] of the [[Heisenberg group]]. 
 
+### Theta functions
+
+See at _[[theta function]]_.
+
 ### Quantization of Chern-Simons theory
 
 The [[geometric quantization]] of [[Chern-Simons theory]]
@@ -390,6 +394,10 @@ Discussion of geoemtric quantization of [[abelian varieties]], [[toric varieties
 
 * Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
  {#Nohara}
+
+* Andrei Tyurin, _Quantization, Classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466v1))
+ {#Tyurin}
+
 
 An appearance of geometric quantization in [[mirror symmetry]] is pointed out in 
 
