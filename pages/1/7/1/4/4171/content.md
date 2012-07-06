@@ -412,9 +412,13 @@ See also the references at [[multisymplectic geometry]] and [[n-symplectic manif
 
 Some more references on application, on top of those mentioned in the articles [above](#ReferencesGeneral).
 
-A survey of some (potential) applications of 2-plectic geometry in [[string theory]] is in section 2 of
+A survey of some (potential) applications of 2-plectic geometry in [[string theory]] and [[M2-brane]] models is in section 2 of
 
 * [[Christian Saemann]], [[Richard Szabo]], _Groupoid quantization of loop spaces_ ([arXiv:1203.5921](http://arxiv.org/abs/1203.5921))
+
+and in 
+
+* [[Christian Saemann]], [[Richard Szabo]], _Quantization of 2-Plectic Manifolds_ ([arXiv:1106.1890](http://arxiv.org/abs/1106.1890))
 
 [[!redirects n-plectic manifold]]
 [[!redirects n-plectic manifolds]]
