@@ -61,8 +61,8 @@ The basic constructions that higher geometric quantization is concerned with are
 | [[Hamiltonian actions]] of a [[smooth ∞-group]] $G$ / dual [[moment maps]]| $ \mu : \mathbf{B}G \to \mathbf{B}\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn})$ | $G$-[[∞-action]] on the twisting |
 | [[gauge reduction]] | $\mathbf{c}_{conn}//G \,:\, X//G \to \mathbf{B}^n \mathbb{G}_{conn}$ | $G$-[[∞-quotient]] of the twisting  | 
 | [[Hamiltonian symplectomorphisms]] |  [[∞-image]] of $\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) \to \mathbf{Aut}_{/\Omega^{n+1}_{cl}(-,\mathbb{G})}(\omega)$  | twists in de Rham cohomology that lift to differential cohomology |
-| [[∞-representation]] of $\mathbf{B}^{n-1}\mathbb{G}$ on $V_n$| $\array{ V_n &\to& V_n//\mathbf{B}^{n-1}\mathbb{G} \\ && \downarrow^{\mathbf{p}} \\ && \mathbf{B}^n \mathbb{G} }$ | [[local coefficient bundle]] |
-|[[prequantum space of states]] | $\mathbf{\Gamma}_X(E) := [\mathbf{c},\mathbf{p}]_{/\mathbf{B}^n \mathbb{conn}} = \left\{ \array{ X &&\stackrel{\sigma}{\to}&& V//\mathbf{B}^{n-1}\mathbb{G} \\ & {}_{\mathllap{\mathbf{c}}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{p}}} \\ && \mathbf{B}^n \mathbb{G} } \right\} $ | [[cocycles]] in $[\mathbf{c}]$-[[twisted cohomology|twisted V-cohomology]] |
+| [[∞-representation]] of [[n-group]] $\mathbf{B}^{n-1}\mathbb{G}$ on $V_n$| $\array{ V_n &\to& V_n//\mathbf{B}^{n-1}\mathbb{G} \\ && \downarrow^{\mathbf{p}} \\ && \mathbf{B}^n \mathbb{G} }$ | [[local coefficient bundle]] |
+|[[prequantum space of states]] | $\mathbf{\Gamma}_X(E) := [\mathbf{c},\mathbf{p}]_{/\mathbf{B}^n \mathbb{G}} = \left\{ \array{ X &&\stackrel{\sigma}{\to}&& V//\mathbf{B}^{n-1}\mathbb{G} \\ & {}_{\mathllap{\mathbf{c}}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{p}}} \\ && \mathbf{B}^n \mathbb{G} } \right\} $ | [[cocycles]] in $[\mathbf{c}]$-[[twisted cohomology|twisted V-cohomology]] |
 | [[prequantum operator]] | $\widehat{(-)} : \mathbf{\Gamma}_X(E) \times \mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) \to \mathbf{\Gamma}_X(E)$ | [[∞-action]] of twist automorphisms on twisted cocycles |
 
 
