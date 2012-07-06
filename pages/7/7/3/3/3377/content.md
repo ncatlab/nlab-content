@@ -57,4 +57,8 @@ Around lemma 6.4.1 in
 
 * [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimension 2 and 4_ ([pdf](http://www.math.northwestern.edu/~costello/sullivan.pdf))
 
+See also 
+
+* Donu Arapura, _[MO comment on Higgs bundles](http://mathoverflow.net/questions/101326/what-is-the-current-state-of-the-mathematics-of-higgs-fields/101347#101347)_
+
 [[!redirects Higgs bundles]]
