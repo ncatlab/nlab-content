@@ -223,6 +223,9 @@ as it appears in [[schreiber:The moduli 3-stack of the C-field]].
 
 But the quantomorphism group of this will be small, as the [[Chern-Simons form]] is far from being gauge invariant.
 
+See the discussion at 
+_[Chern-Simons theory -- Geometric quantization -- In higher codimension](Chern-Simons%20theory#GeometricQuantHigher)_.
+
 #### Extended 3d $G \times G$-Chern-Simons theory
 
 However, when we consider $G \times G$ CS theory given by
