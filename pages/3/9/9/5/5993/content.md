@@ -71,6 +71,18 @@ $$
 
 =--
 
+## Pfaffian state
+
+Pfaffians appear in the expression of certain multiparticle wave functions. Most notable is the pfaffian state of $N$ spinless electrons
+
+$$
+\Psi_{Pf}(z_1,\ldots,z_N) = pfaff\left(\frac{1}{z_k-z_l}\right)\prod_{i\lt j}(z_i-z_j)^q
+exp(-\frac{1}{4}\sum |z|^2)
+$$
+where $pfaff(M_{k l})$ denotes the Pfaffian of the matrix whose labels are $k,l$ and $q= 1/\nu$ is the filling fraction, which is an even integer. For Pfaffian state see
+
+* [[Gregory Moore]], N. Read, _Nonabelions in the fractional quantum hall effect_, Nucl. Phys. 360B(1991)362 [pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
+
 ## Related entries
 
 * [[determinant]]
