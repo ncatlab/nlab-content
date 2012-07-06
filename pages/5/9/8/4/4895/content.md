@@ -139,7 +139,7 @@ Here is a list with aspects of this correspondence:
 
    A random source reviewing this is for instance ([Arcioni-Blau-Loughlin, p. 6](#ArcioniBlauLoughlin)).
 
-1. More abstractly, at least for simply connected compact $G$, the action functionals are also related by transgression of [[moduli stacks]] as discussed at _[[schreiber:infinity-Chern-Simons theory]]_. The action functional of $G$-Chern-Simons theory is induced by the morphism 
+1. More abstractly, at least for simply connected compact $G$, the action functionals are also related by [[transgression]] of [[moduli stacks]] as discussed at _[[schreiber:infinity-Chern-Simons theory]]_. The action functional of $G$-Chern-Simons theory is induced by the morphism 
 
    $$
      \mathbf{c}_{conn} : \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}
@@ -154,7 +154,7 @@ Here is a list with aspects of this correspondence:
 
    where the last morphism is given by [[fiber integration in ordinary differential cohomology]]. 
 
-   Now the topological term in the WZW-model is simply the term appearing in the differentially-twisted [[looping and delooping|looping]] of $\mathbf{c}_{conn}$ (discussed at [[schreiber:∞-Wess-Zumino-Witten theory]], [slides](http://ncatlab.org/schreiber/files/Erlangen2011Schreiber.pdf)) .
+   Topological term in the WZW-model (the [[B-field]] [[background gauge field]]) is similarly the term appearing in [[codimension]] 2. This is discussed at _[Chern-Simons theory -- Geometric quantization -- In higher codimension](Chern-Simons%20theory#GeometricQuantHigher)_.
 
 1. At the level of matching [[space of states]] of CS-theory with the [[partition function]] of the WZW model this is a computation obtained from the [[geometric quantization]] of the CS-action, originally due to ([Witten](#Witten)). A review is in ([Gawedzki, section 5](#Gawedzki)).
 
