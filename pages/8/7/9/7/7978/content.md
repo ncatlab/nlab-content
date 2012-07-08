@@ -1,0 +1,11 @@
+
+
+* [[Theodore Frankel]], 
+
+  _The Geometry of Physics - An introduction_
+
+  Cambridge University Press
+
+On methods of [[differential geometry]] and their meaning and use in [[physics]], especially [[gravity]] and [[gauge theory]].
+
+category: reference
