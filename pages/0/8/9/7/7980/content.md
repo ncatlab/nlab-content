@@ -1,0 +1,8 @@
+
+* [webpage](http://math.ucsd.edu/people/emeriti/Ted-Frankel/)
+
+## Books
+
+* [[The Geometry of Physics - An Introduction]]
+
+category: people
