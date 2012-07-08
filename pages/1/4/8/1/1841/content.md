@@ -14,7 +14,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -38,7 +38,8 @@ The analogous field modeled by a degree 3 [[Deligne cohomology|Deligne cocycle]]
 ...historical section eventually goes here..
 
 
-...electricity and magnetism were discovered independently, Maxwell's equations in classical vector analysis which allows the formulation as a tensor $F$ as below, and "magnetism is a consequence of electrostatics and covariance, hence the composite noun electromagnetism"...
+...electricity and magnetism were discovered independently, 
+[[Maxwell's equations]] in classical vector analysis which allows the formulation as a tensor $F$ as below, and "magnetism is a consequence of electrostatics and covariance, hence the composite noun electromagnetism"...
 
 (...)
 
@@ -52,7 +53,7 @@ We describe how this identification arises from experimental input.
 
 The input is two-fold
 
-1. [Maxwell's equations](MaxwellEquations) say that (using the experimentally observed absence of net [[magnetic charge]]) the [[field strength]] of electromagnetism is a closed [[differential form|differential 2-form]] on [[spacetime]];
+1. [Maxwell's equations](#MaxwellEquations) say that (using the experimentally observed absence of net [[magnetic charge]]) the [[field strength]] of electromagnetism is a closed [[differential form|differential 2-form]] on [[spacetime]];
 
 1. The _Dirac charge quantization argument_ shows that in order for the electromagnetic field to serve as the [[background gauge field]] to which a charged [[quantum mechanics|quantum mechanical]] [[particle]] couples (for instance an [[electron]]), it must be true that this 2-form is the [[curvature]] 2-form of a [[circle bundle]] with [[connection on a bundle|connection]].
 
@@ -61,7 +62,7 @@ We say this now in more detail.
 ### Maxwell's equations
  {#MaxwellEquations}
 
-We first discuss in [Field strength as a closed 2-form](#FieldStrengthAsClosed2Form) how Maxwell's equations state that the electromagnetic [[field strength]] is a closed [[differential form|differential 2-form]] on [[spacetime]]
+We first discuss in [Field strength as a closed 2-form](#FieldStrengthAsClosed2Form) how [[Maxwell's equations]] state that the electromagnetic [[field strength]] is a closed [[differential form|differential 2-form]] on [[spacetime]]
 
 #### Field strength is a closed 2-form
  {#FieldStrengthAsClosed2Form}
@@ -189,6 +190,9 @@ $$
 
 is constant. If one requires these constants all to be inside a discrete subgroup $\Gamma \hookrightarrow \mathbb{R}$, then the data $(\{A_i\}, \{\lambda_{i j} mod \Gamma\})$ defines a degree 2-[[cocycle]] in [[Cech cohomology|Cech]]-[[Deligne cohomology]] on $X$ with coefficients in $\mathbb{R}/\Gamma$. [Below](#AsBackgroundGaugeField) we see that experiment demands that such a subgroup exists and is given by the additive group of [[integer]]s.
 
+### Kirchhoff's laws
+
+[[Kirchhoff's laws]] are a kind of coarse graining of Maxwell's equations, where instead of infinitesimal quantities one considers actual macroscopic [[current]] and [[voltage]].
 
 ### Background gauge field for charge quantum 
  {#AsBackgroundGaugeField}
@@ -353,7 +357,7 @@ Which implies that with the magnetic charge being quantized, also the electric c
 
 ## References
 
-Maxwell's equations originate in
+[[Maxwell's equations]] originate in
 
 * [[James Clerk Maxwell]], _[A Dynamical Theory of the Electromagnetic Field](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field),_ Philosophical Transactions of the Royal Society of London 155, 459--512 (1865).
  {#Maxwell}
@@ -369,8 +373,3 @@ Dirac's quantization argument appeared in
 [[!redirects electromagnetic field]]
 [[!redirects electromagnetic fields]]
 
-[[!redirects Maxwell equation]]
-[[!redirects Maxwell's equation]]
-
-[[!redirects Maxwell equations]]
-[[!redirects Maxwell's equations]]
