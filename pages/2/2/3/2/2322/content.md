@@ -34,6 +34,35 @@ This statement is originally due to [[Charles Rezk]]. It is reproduced as theore
 
 In terms of [[homotopy type theory]] these object classifiers are _[[types of types]]_.
 
+## Definition
+For simplicity, the following is phrased in classical categorical terms. Of course, it can be translated into "$\infty$"-language by prefixing every word by "$\infty$-". We leave this translation to the reader.
+
+Let $C$ be a category, and let $S$ be a class of morphisms of $C$ which is stable under pullback. Then an **$S$-classifier** is a terminal object in the category of arrows of $S$ are objects and pullback squares in $C$ are morphisms.
+
+Explicitly, an $S$-classifier consists of 
+
+* An arrow $\Sigma: \Sigma_0 \to \Sigma_1$ in $S$ such that
+
+* For each $f: X \to Y$ in $S$, there exists a unique pullback square
+$$
+\begin{matrix}
+  X & \overset{f}{\to} & Y \\
+  \downarrow& &\, \downarrow \\
+  \Sigma_0 &\overset{\Sigma}{\to} & \Sigma_1
+\end{matrix}
+$$
+in $C$.
+
+For example,
+
+* When $S$ is the class of **all monomorphisms** in $C$, an $S$-classifier is called a **subobject classifier**. For instance, every topos has a subobject classifier.
+
+* When $S$ is the class of **all morphisms** in $C$, an $S$-classifier is called an **object classifier**. However, due to size issues, interesting categories tend not to have such objects, which is one reason to be interested in the next example:
+
+* When $S$ is the class of **all relatively $\kappa$-compact morphisms** (for some regular cardinal $\kappa$--see below for the definition), an $S$-classifier is called a **$\kappa$-compact-object classifier**.
+
+**Note on terminology:** In all cases, the "things" classified by an "(adjectives) object classifier" are _arrows_ -- this is no different from the most famous case of _subobject classifiers_, which classify _monos_. For each object $X$, a _subobject classifier_ classifies the _subobjects of $X$_. For each object $X$, an _object classifier_ classifies the _objects over $X$_.
+
 ## Details
 
 ### Subobject classifier {#DetailsSubObjClassf}
