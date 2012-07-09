@@ -193,7 +193,7 @@ $$
   \,.
 $$
 
-Notice that by definition of [[limit in a quasi-category]] the quasi-categorical pullback $\sigma(c) \times_{\sigma(f)} \sigma(d)$ is [[generalized the|the]] [[terminal object in a quasi-category|terminal object]] in $\mathcal{C}_{/\sigma(c,d,f)}$, while $\sigma(d) \times_{\sigma(d)} \sigma(e)$ is the terminal object in $\mathcal{C}_{/\sigma(b,d,e)}$. 
+Notice that by definition of [[limit in a quasi-category]] the quasi-categorical pullback $\sigma(c) \times_{\sigma(f)} \sigma(d)$ is [[generalized the|the]] [[terminal object in a quasi-category|terminal object]] in $\mathcal{C}_{/\sigma(c,d,f)}$, while $\sigma(d) \times_{\sigma(e)} \sigma(b)$ is the terminal object in $\mathcal{C}_{/\sigma(b,d,e)}$. 
 
 The strategy now is to show that both these morphisms $\phi$ and $\psi$ are acyclic [[Kan fibration]]s. That will imply that these terminal objects coincide as objects of $\mathcal{C}$.
 
@@ -285,7 +285,73 @@ We could also prove this by showing that this functor is [[homotopy final functo
 
 One of the <a href="http://ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#PropRightAnodyne">properties of left anodyne morphisms</a> is that restriction of [[over quasi-categories]] along left anodyne morphisms produces an acyclic [[Kan fibration]]. This shows the desired statement for $\psi$.
 
-To see that also $\phi$ is an acyclic fibration (...)
+To see that $\phi$ is also an acyclic fibration observe that 
+$\phi$ can be factored as 
+
+$$ 
+\mathcal{C}_{/\sigma(c,d,f)} \leftarrow 
+\mathcal{C}_{/\sigma(c,d,e,f)} \leftarrow 
+\mathcal{C}_{/\sigma(b,c,d,e,f)} 
+$$
+
+Observe that $\mathcal{C}_{/\sigma(c,d,e,f)}\leftarrow\mathcal{C}_{/\sigma(b,c,d,e,f)}$ 
+fits into a pullback diagram  
+
+$$ 
+   \array{
+      \mathcal{C}_{/\sigma(c,d,e,f)} 
+      & \leftarrow &
+      \mathcal{C}_{/\sigma(b,c,d,e,f)} \\ 
+      \downarrow & & \downarrow \\ 
+     \mathcal{C}_{/\sigma(c,e,f)} 
+     & \leftarrow & 
+     \mathcal{C}_{/\sigma(b,c,e,f)} 
+    }
+$$
+
+and hence is an acyclic Kan fibration since 
+$\mathcal{C}_{/\sigma(c,e,f)} \leftarrow \mathcal{C}_{/\sigma(b,c,e,f)}$ 
+is one, on account of the fact that the square 
+
+$$ 
+   \array{ 
+        \sigma(b) & \to & \sigma(c) \\ 
+        \downarrow & & \downarrow \\ 
+        \sigma(e) & \to & \sigma(f) 
+   } 
+$$ 
+
+is a pullback in $\mathcal{C}$.  Finally, 
+$\mathcal{C}_{/\sigma(c,d,f)} \leftarrow \mathcal{C}_{/\sigma(c,d,e,f)}$ 
+is a trivial fibration since 
+
+$$ 
+   \array{ 
+      \left( 
+          \array{ 
+              & & c \\ 
+              & & \downarrow \\ 
+           d & \to & f 
+          } 
+     \right) & \to & 
+     \left( 
+        \array{
+           & & & & c \\ 
+           & & & & \downarrow \\ 
+         d & \to & e & \to & f 
+         }
+     \right) 
+   }
+$$
+
+is left anodyne; clearly this is a pushout of 
+$(d\to f)\to (d\to e\to f)$ and so it suffices to show 
+that $\Delta^{\{0,2\}}\to \Delta^{\{0,1,2\}}$ is left 
+anodyne.  But this map factors as 
+$\Delta^{\{0,2\}}\to \Lambda^2_0 \to \Delta^{\{0,1,2\}}$ 
+and clearly $\Delta^{\{0,2\}}\to \Lambda^2_0$ is left 
+anodyne since it is a pushout of $\Delta^{\{0\}}\to 
+\Delta^{\{0,1\}}$.  
 
 =--
 
