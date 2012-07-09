@@ -47,8 +47,6 @@ More generally, a _[[classical state]]_ is a [[linear function]] $\rho\colon A \
 In [[quantum mechanics]] given by a [[Hilbert space]] $H$, a [[pure state]] is a ray in $H$, which we often call the Hilbert space of states.  Strictly speaking, the space of states is not $H$ but $(H \setminus \{0\})/\mathbb{C}$, or equivalently $S(H)/\mathrm{U}(1)$.  A mixed state is then a [[density matrix]] on $H$.
 
 
-
-
 ### In AQFT
 
 In [[AQFT]], a [[quantum mechanical system]] is given by a $C^*$-[[C-star-algebra|algebra]] $A$, and a [[quantum state]] is usually defined as a linear function $\rho\colon A \to \mathbb{C}$ which satisfies _positivity_ and _normalization_; see [[states in AQFT and operator algebra]].
@@ -70,13 +68,9 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
 ## Pure and mixed states
 
-In [[statistical physics]], a state may encode less than maximal information.  Fairly generally, we have a complex $C^*$-[[C-star-algebra|algebra]] $A$ of [[observables]] and a __state__ is a positive-semidefinite linear operator $\rho\colon A \to \mathbb{C}$ such that $\rho(1) = 1$.  A state $\rho$ is __pure__ if, whenever we have $\rho = a \sigma + b \tau$ for $\sigma, \tau$ also states and $0 \leq a, b \leq 1$, then either $a = 0$ (hence $b = 1$) or $b = 0$ (hence $a = 1$); conversely, a state $\rho$ is __mixed__ if we ever have $\rho = a \sigma + b \tau$ for $\sigma, \tau$ also states and $0 \lt a, b \lt 1$.
+In [[statistical physics]], a [[pure state]] is a state of maximal information, while a [[mixed state]] is a state with less than maximal information.  In the classical case, we may say that a pure state is a state of *complete* information, but this does not work in the quantum case; from the perspective of the information-theoretic or Bayesian interpretation of quantum physics, this inability to have complete information, even when having maximal information, is the key feature of [[quantum physics]] that distinguishes it from [[classical physics]].
 
-If $A$ is the algebra of continuous complex-valued functions on some [[compactum]] $X$, then the pure states on $A$ correspond precisely to the points in $X$; so pure states here are the states of classical mechanics (at least for a compact phase space).  Mixed states, however, correspond more generally to [[Radon measure|Radon]] [[probability measures]] on $X$, with the pure states as the [[Dirac delta measure]]s.
-
-On the other hand, if $A$ is the algebra of all [[bounded operators]] on some [[Hilbert space]] $H$, then the pure states on $A$ correspond precisely to the rays in $H$.  Mixed states, however, correspond more generally to [[density matrices]] on $H$, with the pure states those matrices of the form ${|\psi\rangle}{\langle\psi|}$ for some unit vector ${|\psi\rangle}$.
-
-In each case, a pure state is a state of maximal information, while a mixed state is a state with less than maximal information.  In the classical case, we may say that a pure state is a state of *complete* information, but this does not work in the quantum case; from the perspective of the information-theoretic or Bayesian interpretation of quantum physics, this inability to have complete information, even when having maximal information, is the key feature of quantum physics that distinguishes it from classical physics.
+See [[pure state]].
 
 
 ## Related concepts
