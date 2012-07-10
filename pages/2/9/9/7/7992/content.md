@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $(X, \omega)$ a [[symplectic manifold]] a _metaplectic structure_ on $X$ is a [[lift of structure groups]] of the [[tangent bundle]] from the [[symplectic group]] to the [[metaplectic group]] through the [[double cover]] map $Mp(n) \to Sp(n)$:
+
+$$
+  \array{
+    && \mathbf{B}Mp(n)
+    \\
+    & {}^{\mathllap{metaplectic \atop structure}}\nearrow & \downarrow
+    \\
+    X &\stackrel{T X}{\to}& \mathbf{B} Sp(n)
+  }
+  \,.
+$$
+
+## Related concepts
+
+* [[spin structure]]
+
+* [[metaplectic correction (in geometric quantization)]]
+
+
+[[!redirects metaplectic structures]]
+
