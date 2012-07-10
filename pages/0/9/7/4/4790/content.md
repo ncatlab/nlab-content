@@ -27,6 +27,10 @@ $$
 
 ## Properties
 
+### Maximal compact subgroup
+
+The [[maximal compact subgroup]] of the symplectic group $Sp(2n)$ is the [[unitary group]] $U(n)$.
+
 ### Homotopy groups
 
 The first [[homotopy group]] of the symplectic group is the [[integers]]
