@@ -28,7 +28,9 @@ the morphism $Spin(n) \to SO(n)$ is epi, while $SO(n) \to O(n)$ is mono.
 
 * reduction of [[tangent bundle]] along [[symplectic group]] inclusion $Sp(2n) \to GL(2n)$: [[almost symplectic structure]];
 
-  subsequent lift to the [[metaplectic group]] $Mp(2n) \to Sp(2n)$: [[metaplectic structure]];
+  subsequent lift to the [[metaplectic group]] $Mp(2n) \to Sp(2n)$: [[metaplectic structure]]
+
+  induced lift over [[Lagrangian submanifolds]] to the [[metalinear group]] $Ml(n) \to GL(n)$: [[metalinear structure]];
 
 * reduction of [[tangent bundle]] along inclusion of [[complex numbers|complex]] [[general linear group]] $GL(n, \mathbb{C}) \hookrightarrow GL(2n, \mathbb{R})$: [[almost complex structure]];
 
