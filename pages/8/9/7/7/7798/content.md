@@ -52,3 +52,8 @@ See also
 [[!redirects ? characteristic]]
 [[!redirects ∞-characteristic]]
 [[!redirects Theta-characteristic]]
+
+[[!redirects ? characteristics]]
+[[!redirects ∞-characteristics]]
+[[!redirects Theta characteristics]]
+[[!redirects Theta-characteristics]]
