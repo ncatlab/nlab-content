@@ -121,6 +121,10 @@ Moreover...
 
 See the reference [below](BunkeSchickReferences).
 
+### Properties
+
+The restriction of the cocycles in the Bunke-Schick model to those whose "auxialiary form" $\omega$ vanishes reproduces the Simons-Sullivan model above.
+
 ## The Hopkins-Singer model
 
 see
