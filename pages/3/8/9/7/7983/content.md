@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $G$ a [[group]] and $g \in G$ an element, the _conjugacy class_ of $g$ is the subset $\{ h g h^{-1} | h \in G \} \subset G$ of all elements in $G$ obtained from $g$ by [[conjugation]] with another group element.
+
+## Examples
+
+* The conjugacy class of the neutral element is always the whole group itself.
+
+## Related concepts
+
+* [[coset space]]
+
+[[!redirects conjugacy classes]]
