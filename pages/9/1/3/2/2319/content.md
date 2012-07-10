@@ -94,7 +94,7 @@ $$
     &\to&
     &\to&
     & \stackrel{w_2}{\to} &
-    \mathbf{B}^2 \mathbb{Z}_2
+    B^2 \mathbb{Z}_2
     &\to&
     *
     \\
