@@ -35,6 +35,7 @@ Under weak topological conditions (cf. Helgason), every topological homogeneous 
 
 * [[Klein geometry]]
 
+* [[conjugacy class]]
 
 [[!redirects homogeneous spaces]]
 [[!redirects coset space]]
