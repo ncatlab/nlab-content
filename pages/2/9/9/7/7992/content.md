@@ -17,15 +17,15 @@
 
 ## Idea
 
-For $(X, \omega)$ a [[symplectic manifold]] a _metaplectic structure_ on $X$ is a [[lift of structure groups]] of the [[tangent bundle]] from the [[symplectic group]] to the [[metaplectic group]] through the [[double cover]] map $Mp(n) \to Sp(n)$:
+For $(X, \omega)$ a [[symplectic manifold]] a _metaplectic structure_ on $X$ is a [[lift of structure groups]] of the [[tangent bundle]] from the [[symplectic group]] to the [[metaplectic group]] through the [[double cover]] map $Mp(2n, \mathbb{R}) \to Sp(2n, \mathbb{R})$:
 
 $$
   \array{
-    && \mathbf{B}Mp(n)
+    && \mathbf{B}Mp(2n, \mathbb{R})
     \\
     & {}^{\mathllap{metaplectic \atop structure}}\nearrow & \downarrow
     \\
-    X &\stackrel{T X}{\to}& \mathbf{B} Sp(n)
+    X &\stackrel{T X}{\to}& \mathbf{B} Sp(2n, \mathbb{R})
   }
   \,.
 $$
