@@ -22,8 +22,17 @@ the morphism $Spin(n) \to SO(n)$ is epi, while $SO(n) \to O(n)$ is mono.
 
 
 ## Examples
+ {#Examples}
 
-* reduction of [[tangent bundle]] along $O(n) \hookrightarrow GL(n)$:  [[vielbein]], [[orthogonal structure]],
+* reduction of [[tangent bundle]] along [[orthogonal group]] inclusion $O(n) \hookrightarrow GL(n)$:  [[vielbein]], [[orthogonal structure]],
+
+* reduction of [[tangent bundle]] along [[symplectic group]] inclusion $Sp(2n) \to GL(2n)$: [[almost symplectic structure]];
+
+  subsequent lift to the [[metaplectic group]] $Mp(2n) \to Sp(2n)$: [[metaplectic structure]];
+
+* reduction of [[tangent bundle]] along inclusion of [[complex numbers|complex]] [[general linear group]] $GL(n, \mathbb{C}) \hookrightarrow GL(2n, \mathbb{R})$: [[almost complex structure]];
+
+  further reduction to the [[unitary group]] $U(n) \hookrightarrow GL(n,\mathbb{C})$: [[almost Hermitian structure]];
 
 * reduction of [[generalized tangent bundle]] along $U(n,n) \hookrightarrow O(2n,2n)$: [[generalized complex geometry]], 
 
@@ -40,6 +49,7 @@ the morphism $Spin(n) \to SO(n)$ is epi, while $SO(n) \to O(n)$ is mono.
 
  
 [[!redirects lift of structure groups]]
+[[!redirects lift of the structure group]]
 
 [[!redirects reduction of structure group]]
 [[!redirects reduction of the structure group]]
