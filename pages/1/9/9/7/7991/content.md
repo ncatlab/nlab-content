@@ -19,6 +19,31 @@
 
 For $n \in \mathbb{N}$, the _metaplectic group_ $Mp(n)$ is the [[Lie group]] which is the unique [[double cover]] of the [[symplectic group]] $Sp(n)$.
 
+## Properties
+
+### Relation to the metalinear group
+
+Inside the [[symplectic group]] $Sp(n)$ sits the [[general linear group]] 
+
+$$
+  Gl(n) \hookrightarrow Sp(n)
+$$
+
+as the subgroup that preserves the standard [[Lagrangian submanifold]] $\mathbb{R}^n \hookrightarrow \mathbb{R}^{2n}$. Restriction of the metaplectic [[group extension]] along this inclusion defines the [[metalinear group]] $Ml(n)$
+
+$$
+  \array{
+    Ml(n) &\hookrightarrow& Mp(n)
+    \\
+    \downarrow && \downarrow
+    \\
+    Gl(n) &\hookrightarrow& Sp(n)
+  }
+  \,.
+$$
+
+Hence a [[metaplectic structure]] on a [[symplectic manifold]] induces a [[metalinear structure]] on its [[Lagrangian submanifolds]].
+
 ## Related concepts
 
 * [[metaplectic structure]]
