@@ -314,6 +314,9 @@ with further indications in
 * [[Chris Rogers]], _Higher geometric quantization_, at _Higher Structures 2011_ ([pdf](http://www.crcg.de/wiki/images/2/21/CR_Higherstruct_2011.pdf))
  {#Rogers}
 
+The special case of geometric quantization over infinitesimal [[action groupoids]] can be described in terms of [[BRST complexes]]. For references on this see _[Geometric quantization -- References -- Geometric BRST quantization](http://ncatlab.org/nlab/show/geometric+quantization#ReferencesBRST)_.
+
+
 
 Higher geometric quantization in a [[cohesive (∞,1)-topos]] over [[smooth ∞-groupoids]] is discussed in
 
