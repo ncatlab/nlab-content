@@ -69,6 +69,8 @@ and it makes $H$ not only an $H$-module, but in fact a monoid in the monoidal ca
 
 * [[adjoint representation]]
 
+* [[conjugacy class]]
+
 [[!redirects adjoint actions]]
 
 [[!redirects conjugation]]
