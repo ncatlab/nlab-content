@@ -189,7 +189,9 @@ After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **Bohr
 
 ### Metaplectic correction
 
-(...)
+For the moment see at _[[metaplectic correction (in geometric quantization)]]_.
+
+
 
 ### Quantum state space
 
