@@ -16,9 +16,9 @@
 
 ## Definition 
 
-For $n \in \mathbb{N}$, the **symplectic group** $Sp(2n)$ is one of the [[classical Lie group]]s.
+For $n \in \mathbb{N}$, the **symplectic group** $Sp(2n, \mathbb{R})$ is one of the [[classical Lie groups]].
 
-It is the subgroup of the [[general linear group]] $GL(2n)$ of elements preserving the canonical [[symplectic form]] $\Omega$ on $k^{2n}$, that is: the group consisting of those [[matrices]] $A$ such that
+It is the subgroup of the [[general linear group]] $GL(2n, \mathbb{R})$ of elements preserving the canonical [[symplectic form]] $\Omega$ on $k^{2n}$, that is: the group consisting of those [[matrices]] $A$ such that
 
 $$
   A^T \Omega A = \Omega
@@ -30,7 +30,7 @@ $$
 ### Maximal compact subgroup
  {#MaximalCompactSubgroup}
 
-The [[maximal compact subgroup]] of the symplectic group $Sp(2n)$ is the [[unitary group]] $U(n)$.
+The [[maximal compact subgroup]] of the symplectic group $Sp(2n, \mathbb{R})$ is the [[unitary group]] $U(n)$.
 
 ### Homotopy groups
  {#HomotopyGroups}
@@ -40,11 +40,11 @@ By the [above](#MaximalCompactSubgroup) the [[homotopy groups]] of the symplecti
 In particular rhe first [[homotopy group]] of the symplectic group is the [[integers]]
 
 $$
-  \pi_1(Sp(n)) \simeq \mathbb{Z}
+  \pi_1(Sp(2n,\mathbb{R})) \simeq \mathbb{Z}
   \,.
 $$
 
-The unique connected [[double cover]] obtained from this is the [[metaplectic group]] [[group extension|extension]] $Mp(n) \to Sp(n)$.
+The unique connected [[double cover]] obtained from this is the [[metaplectic group]] [[group extension|extension]] $Mp(2n) \to Sp(2n, \mathbb{R})$.
 
 ## Related concepts
 
