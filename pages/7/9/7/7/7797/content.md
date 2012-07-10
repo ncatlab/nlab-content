@@ -31,7 +31,7 @@ The [[first Chern class]] of this bundle is also called the **canonical [[charac
 
 Often this bundle is regarded via its [[sheaf]] of [[sections]].
 
-A [[square root]] of the canonical class, hence another characteristic class $\Theta$ such that the [[cup product]] $2 \Theta = \Theta \cup \Theta$ equals the canonical class is called a _[[Theta characteristic]]_
+A [[square root]] of the canonical class, hence another characteristic class $\Theta$ such that the [[cup product]] $2 \Theta = \Theta \cup \Theta$ equals the canonical class is called a _[[Theta characteristic]]_ (see also _[[metalinear structure]]_).
 
 ## Examples
 
