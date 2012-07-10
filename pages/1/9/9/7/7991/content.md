@@ -17,7 +17,7 @@
 
 ## Definition
 
-For $n \in \mathbb{N}$, the _metaplectic group_ $Mp(n)$ is the [[Lie group]] which is the unique [[double cover]] of the [[symplectic group]] $Sp(n)$.
+For $n \in \mathbb{N}$, the _metaplectic group_ $Mp(2n, \mathbb{R})$ is the [[Lie group]] which is the unique [[double cover]] of the [[symplectic group]] $Sp(2n, \mathbb{R})$.
 
 ## Properties
 
@@ -26,18 +26,18 @@ For $n \in \mathbb{N}$, the _metaplectic group_ $Mp(n)$ is the [[Lie group]] whi
 Inside the [[symplectic group]] $Sp(n)$ sits the [[general linear group]] 
 
 $$
-  Gl(n) \hookrightarrow Sp(n)
+  Gl(n,\mathbb{R}) \hookrightarrow Sp(2n,\mathbb{R})
 $$
 
 as the subgroup that preserves the standard [[Lagrangian submanifold]] $\mathbb{R}^n \hookrightarrow \mathbb{R}^{2n}$. Restriction of the metaplectic [[group extension]] along this inclusion defines the [[metalinear group]] $Ml(n)$
 
 $$
   \array{
-    Ml(n) &\hookrightarrow& Mp(n)
+    Ml(n, \mathbb{R}) &\hookrightarrow& Mp(2n, \mathbb{R})
     \\
     \downarrow && \downarrow
     \\
-    Gl(n) &\hookrightarrow& Sp(n)
+    Gl(n, \mathbb{R}) &\hookrightarrow& Sp(2n, \mathbb{R})
   }
   \,.
 $$
