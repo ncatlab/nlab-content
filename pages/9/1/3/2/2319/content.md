@@ -15,16 +15,16 @@
 
 ## Idea
 
-A _spin structure_ on a [[manifold]] $X$ with an [[orientation]] is a lift $\hat g$ of the classifying map $g : X \to \mathcal{B} S O(n)$ of the [[tangent bundle]] through the second step $\mathcal{B}Spin(n) \to \mathcal{B}S O(n)$ in the [[Whitehead tower]] of $O(n)$.
+A _spin structure_ on a [[manifold]] $X$ with an [[orientation]] is a lift $\hat g$ of the classifying map $g : X \to B S O(n)$ of the [[tangent bundle]] through the second step $B Spin(n) \to B S O(n)$ in the [[Whitehead tower]] of $O(n)$.
 
 $$
   \array{
-    && \mathcal{B}Spin(n)
+    && B Spin(n)
     \\
     & {}^{\hat g}\nearrow & \downarrow
     \\
     X &\stackrel{g}{\to}&
-    \mathcal{B}S O(n)
+    B S O(n)
   }
 $$
 
