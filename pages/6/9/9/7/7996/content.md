@@ -21,7 +21,7 @@ A _metalinear structure_ on a [[smooth manifold]] of [[dimension]] $n$ is a [[li
 
 ### Obstruction and existence
 
-A metalinear structure on a manifold $Q$ of [[dimension]] $n$ exists precisely if the [[Chern class]] of the [[canonical bundle]] $\wedge^n T^*Q$ is divisible by 2. So a metalinear structure is equivalent to the existence of a [[square root]] [[line bundle]] $\sqrt{\wedge^n T^* Q}$ (_[[Theta characteristic]]_).
+A metalinear structure on a manifold $Q$ of [[dimension]] $n$ exists precisely if the [[Chern class]] of the [[canonical bundle]] $\wedge^n T^*Q$ is divisible by 2. So a metalinear structure is equivalent to the existence of a [[square root]] [[line bundle]] $\sqrt{\wedge^n T^* Q}$ ( _[[Theta characteristic]]_ ).
 
 This means that for $E \to Q$ any hermitean [[line bundle]], [[sections]] of the tensor product $E \otimes \sqrt{\wedge^n T^* Q}$ have a canonical [[inner product]] (if $Q$ is compact and orientable). This is the use of metalinear structure in [[metaplectic correction]].
 
