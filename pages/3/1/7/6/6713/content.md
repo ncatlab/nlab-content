@@ -94,6 +94,8 @@ Starting with Kontsevich's [[homological algebra]] reformulation of [[homologica
 
 ## Examples
 
+### Various dimensions
+
 In [[type IIA supergravity]]
 
 * [[D0-brane]], [[D2-brane]], [[D4-brane]].
@@ -101,6 +103,10 @@ In [[type IIA supergravity]]
 In [[type IIB supergravity]]
 
 * [[D1-brane]], [[D3-brane]], [[D5-brane]], [[D7-brane]]
+
+### In the WZW model
+
+For D-branes in the [[WZW-model]] see _[WZW-model -- D-branes](Wess-Zumino-Witten+model#DBranes)_.
 
 ## Related concepts
 
