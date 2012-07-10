@@ -43,16 +43,17 @@ A special case of the above definition is that where $(V,\omega)$ a [[symplectic
 
 In this case the Heisenberg algebra is a sub-Lie algebra of the Lie algebra underlying the [[Poisson algebra]] of $(V,\omega)$. For more on this see [below](#RelationToPoissonAlgebra).
 
-### In $n$-plectic geometry
+### Heisenberg Lie $n$-algebras in $n$-plectic geometry
  {#InnplecticGeometry}
 
-We discuss a generalization of the notion of Heisenberg Lie algebra from ordinary [[symplectic geometry]] to a notion of _Heisenberg [[Lie n-algebra]]_  [[n-plectic geometry]]. For the moment, this is a bit experimental.
+We discuss a generalization of the notion of Heisenberg Lie algebra from ordinary [[symplectic geometry]] to a notion of _Heisenberg [[Lie n-algebra]]_  in [[higher geometric quantization]] of [[n-plectic geometry]]. 
 
 The following definition is naturally motivated from the fact that:
 
-1. The ordinary Heisenberg Lie algebra is the sub-Lie algebra of the Lie algebra underlying the corresponding [[Poisson algebra]] (see [below](RelationToPoissonAlgebra)) on the constant and linear functions.
+1. The ordinary Heisenberg Lie algebra is the sub-Lie algebra of the 
+[[Poisson bracket]] Lie algebra, the one underlying the corresponding [[Poisson algebra]] (see [below](#RelationToPoissonAlgebra)) on the constant and linear functions.
 
-1. The generalization of Poisson brackets to [[Poisson Lie n-algebras]] in [[n-plectic geometry]] for all $n$ is established (see there).
+1. The generalization of [[Poisson bracket|Poisson brackets]] to [[Poisson Lie n-algebras]] in [[n-plectic geometry]] for all $n$ is established (see there).
 
 In view of this, the following definition takes the Heisenberg Lie $n$-algebra to be the sub-Lie $n$-algebra of the [[Poisson Lie n-algebra]] on the linear and constant differential forms.
 
@@ -97,8 +98,7 @@ let $(V, \omega)$ be an [[n-plectic vector space]]
 and let $(V, \mathbf{\omega})$ be the corresponding
 [[n-plectic manifold]].
 
-The **Heisenberg Lie $n$-algebra** $Heis(V,\omega)$ is the sub-[[Lie n-algebra]] of the [[Poisson Lie n-algebra]] $\mathcal{P}(V, \omega)$ on those   
-[[differential forms]] which are either linear or constant (with respect to left/right translation on $V$).
+The **Heisenberg Lie $n$-algebra** $Heis(V,\omega)$ is the sub-[[Lie n-algebra]] of the [[Poisson Lie n-algebra]] $\mathcal{P}(V, \omega)$ on those [[differential forms]] which are either linear or constant (with respect to left/right translation on $V$).
 
 =--
 
