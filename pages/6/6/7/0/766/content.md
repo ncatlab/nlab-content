@@ -9,7 +9,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -103,10 +103,21 @@ Let $0 \to P \to Q \to R \to 0$ be an [[exact sequence]] of [[abelian groups]]. 
 
 
 ## References
+ {#References}
 
-The version for topological spaces and the [[fundamental infinity-groupoid]] functor is discussed in  Appendix A of
+The version for topological spaces and the [[fundamental infinity-groupoid]] functor is discussed in  [Appendix A.1](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf#page=134) of
 
-* [[Jacob Lurie]], _[[Ek-Algebras]]_
+* [[Jacob Lurie]], _[[Ek-Algebras]]_ (now part of _[[Higher Algebra]]_)
+
+A very similar result occurs before as prop. A.5 in
+
+* [[Graeme Segal]], _Classifying spaces related to foliations_, Topology, Vol 17, (1978) 367-382
+ {#Segal}
+
+A central lemma (the _small simplices theorem_) also appears as corollary 3.5 of 
+
+* [[Daniel Dugger]], [[Daniel Isaksen]], _Topological hypercovers and $\mathbb{A}^1$-realizations_, Mathematische Zeitschrift 246 (2004)
+ {#DuggerIsaksen}
 
 The version for filtered topological spaces and the strict homotopy $\infty$-groupoid functor is discussed in
 
