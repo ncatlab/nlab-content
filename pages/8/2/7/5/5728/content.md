@@ -1,7 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
+
 
 ## Definition
 
@@ -18,6 +29,12 @@ A classical example is the ring of [[dual numbers]] $\mathbb{K}[\epsilon]/(\epsi
 Passing from commutative rings to their spectra (in the sense of algebraic geometry), local Artin algebras correspond to infinitesimal pointed spaces. As such, they appear as bases of deformations in [[infinitesimal object|infinitesimal]] [[deformation theory]]. For instance $Spec(\mathbb{K}[\epsilon]/(\epsilon^2))$ is the base space for 1-dimensional first order deformations. Similarly, $Spec(\mathbb{K}[\epsilon]/(\epsilon^{n+1}))$ is the base space for 1-dimensional $n$-th order deformations.
 
 Note that, since a local Artin algebra has a unique [[prime ideal]], its spectrum consists of a single point, i.e., $Spec(A)$ is trivial as a topological space. It is however non-trivial as a ringed space, since its ring of functions is $A$. By this reason spectra of Artin algebras are occasionally called _[[infinitesimally thickened point|fat points]]_ in the literature.
+
+## References
+
+Local Artin $\infty$-algebras are discussed in
+
+* [[Jacob Lurie]], _Formal moduli problems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-X.pdf))
 
 [[!redirects Artin rings]]
 [[!redirects Artinian rings]]
