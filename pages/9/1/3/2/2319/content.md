@@ -217,7 +217,7 @@ where each "hook" is a [[fiber sequence]].
 
 ### General
 
-A disccussion of the full [[groupoid]] of spin structures is in 
+A discussion of the full [[groupoid]] of spin structures is in 
 
 * [[Johannes Ebert]], _Characteristic classes of spin surface bundles:
 Applications of the Madsen-Weiss theory_ Phd thesis (2006) ([pdf](http://wwwmath.uni-muenster.de/wwwmath.uni-muenster.de/u/jeber_02/papers/thesis.pdf))
