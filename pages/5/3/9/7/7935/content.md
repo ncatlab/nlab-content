@@ -27,7 +27,7 @@
 
 * [[quantum operator (in geometric quantization)|quantum operator]]
 
-* [[polarization]]
+* [[polarization]], [[Bohr-Sommerfeld leaf]]
 
   [[quantization]]
 
