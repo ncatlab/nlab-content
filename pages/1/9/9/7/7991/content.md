@@ -23,7 +23,7 @@ For $n \in \mathbb{N}$, the _metaplectic group_ $Mp(2n, \mathbb{R})$ is the [[Li
 
 ### Relation to the metalinear group
 
-Inside the [[symplectic group]] $Sp(n)$ sits the [[general linear group]] 
+Inside the [[symplectic group]] $Sp(2n, \mathbb{R})$ sits the [[general linear group]] 
 
 $$
   Gl(n,\mathbb{R}) \hookrightarrow Sp(2n,\mathbb{R})
