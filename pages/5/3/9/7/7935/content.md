@@ -29,7 +29,9 @@
 
 * [[polarization]], [[Bohr-Sommerfeld leaf]]
 
-  [[quantization]]
+* [[metaplectic correction]]
+
+* [[quantization]]
 
 ## Further methods
 
