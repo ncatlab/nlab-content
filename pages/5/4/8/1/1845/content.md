@@ -159,6 +159,8 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. (See
 
 * [[Morava K-theory]]
 
+* [[KK-theory]]
+
 * [[twisted K-theory]]
 
 * [[differential K-theory]]
