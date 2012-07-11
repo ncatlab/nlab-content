@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -75,6 +86,15 @@ A K-theory should be given by a sequence of [[functor]]s $K_i$ from some class o
 $$K_i(C)=\pi_i(\mathcal{K}(C)).$$  
 
 The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying space]] of the Quillen $Q$-construction applied to $C$. The $Q$-construction has been refined to more sophisticated [[delooping]] methods by Waldhausen, Karoubi and others.
+
+## Related concepts
+
+* [[K-theory of a permutative category]]
+
+* [[K-theory of a bipermutative category]]
+
+* [[KK-theory]]
+
 
 ## References 
 
