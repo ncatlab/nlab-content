@@ -15,7 +15,7 @@
 
 ## Definition
 
-Given a (typically [[algebraically closed field|algebarically closed]]) field $k$, an __algebraic $k$-group__ is a [[group object]] in the category of $k$-[[algebraic variety|varieties]]. 
+Given a (typically [[algebraically closed field|algebraically closed]]) field $k$, an __algebraic $k$-group__ is a [[group object]] in the category of $k$-[[algebraic variety|varieties]]. 
 
 
 
