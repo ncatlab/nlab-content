@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _bipermuatative category_ is a [[permutative category]] $(C, \oplus)$ with a second [[symmetric monoidal category]] structure $(C, \otimes)$ that [[distributive law|distributes]] over $\oplus$.
+
+## Definition
+
+([Elmendorf-Mandell, def. 3.6](#ElmendorfMandell))
+
+## Related concepts
+
+* [[K-theory of a bipermutative category]]
+
+## References
+
+* [[Anthony Elmendorf]], [[Michael Mandell]], _Rings, modules and algebras in infinite loop space theory_, K-Theory 0680 ([web](http://www.math.uiuc.edu/K-theory/0680/), [pdf](http://www.math.uiuc.edu/K-theory/0680/RMAsubmit.pdf))
+ {#ElmendorfMandell}
+
+
+[[!redirects bipermutative categories]]
