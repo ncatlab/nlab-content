@@ -24,7 +24,7 @@ For $G$ a [[group]] and $g \in G$ an element, the _conjugacy class_ of $g$ is th
 
 ## Properties
 
-For any finite group the number of its conjugacy classes is equal to the number of its [[irreducible representations]]. For finite [[group of Lie type|groups of Lie type]] this result can be strengthened to show that there is a canonical way to match conjugacy classes of a group $G$ to the irreducible representations of its dual group $G^{\ast}$. The dual group is defined in terms of the [[root datum]] of $G$ in Deligne-Lusztig theory.
+For any finite group the number of its conjugacy classes is equal to the number of its [[irreducible representations]]. For finite [[group of Lie type|groups of Lie type]] this result can be strengthened to show that, in heuristic terms, there is a canonical way to match conjugacy classes of a group $G$ to the irreducible representations of its dual group $G^{\ast}$. The dual group is defined in terms of the [[root datum]] of $G$ in Deligne-Lusztig theory.
 
 Taking symmetric groups as general linear groups over the [[field with one element]], we see they are self-dual, and so there is a correspondence between their conjugacy classes and their irreducible representations. This correspondence is encoded by [[Young diagrams]].
 
