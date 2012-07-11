@@ -1,0 +1,5 @@
+## Definition
+
+A group of Lie type $G(k)$ is a (not necessarily finite) group of rational points of a [[reductive group|reductive]] linear [[algebraic group]] $G$ with values in the field $k$.
+
+[[!redirects groups of Lie type]]
