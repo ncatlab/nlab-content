@@ -1,11 +1,18 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
 
 
 
 #Contents# 
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -32,4 +39,8 @@ This is in particular the case when the [[spectrum]] $E$ [[Brown representabilit
 
 ## Related entries
 
+* [[K-theory of a bipermutative category]]
+
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
+
+[[!redirects multiplicative cohomology theories]]
