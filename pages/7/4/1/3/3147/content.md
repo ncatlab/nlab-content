@@ -51,7 +51,11 @@ To this date generalized [[differential cohomology]] theories keep being studied
 
   * [[differential Thom class]]
 
-* [[fiber integration in ordinary differential cohomology]]
+* [[fiber integration in differential cohomology]]
+
+  * [[fiber integration in ordinary differential cohomology]]
+
+  * [[fiber integration in differential K-theory]]
 
 ## Algebraic topology
 
