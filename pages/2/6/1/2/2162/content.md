@@ -84,6 +84,10 @@ and also the projected matrix $\bar{J}$ which is the image of $J$ as a matrix ov
 * B. Chandler, W. Magnus, _The history of combinatorial group theory: a case study in the history of ideas_, Springer 1982
 
 * R. Lindon, P. Schupp, _Combinatorial group theory_, Ch. II.3, Springer 1977(Russian transl. Mir, Moskva 1980)
+* Valentino Zocca, _Fox calculus, symplectic forms and moduli spaces_, TRans. AMS__350__, 4, (1998) 1429-1466, [pdf](http://www.ams.org/journals/tran/1998-350-04/S0002-9947-98-02052-2/S0002-9947-98-02052-2.pdf)
 
+Connections to double brackets
+
+* Gwenael Massuyeau, Vladimir Turaev, _Quasi-Poisson structures on representation spaces of surfaces_, [arxiv/1205.4898](http://arxiv.org/abs/1205.4898), [irma pdf](http://www-irma.u-strasbg.fr/~massuyea/papers/double_brackets.pdf)
 
 [[!redirects Fox derivatives]]
