@@ -53,8 +53,10 @@ More generally, [[algebra]] is partially about [[algebraic theories]], about [[m
 
 The parts of algebra that we set aside at the end of the *idea* are not outside the  possible range of higher algebra, they just have not yet been that developed and it is not always clear in what directions they most naturally 'should' be developed. To take an example, [[Lie infinity-algebroid]] is clearly a higher algebraic analogue of a Lie algebra, and is a 'multi-object' one as well. Questions in representation theory are often phrased in terms of monoidal categories, and their higher algebraic analogues have new structural facets that look very interesting and useful. Finally Galois theory naturally falls into the context of Grothendieck's extensive work both on higher stacks but also the Grothendieck-Teichmuller theory. Here the theory is awaiting clear indications what higher Galois theory might mean.
 
+## Concepts
 
-## Monads, algebraic theories, operads
+
+### Monads, algebraic theories, operads
 
 * [[algebraic theory]] / [[2-algebraic theory]] / [[(∞,1)-algebraic theory]]
 
@@ -63,7 +65,7 @@ The parts of algebra that we set aside at the end of the *idea* are not outside 
 * [[operad]] / [[(∞,1)-operad]]
 
 
-## Algebras and modules
+### Algebras and modules
 
 * [[algebra over a monad]]
 
@@ -83,7 +85,7 @@ The parts of algebra that we set aside at the end of the *idea* are not outside 
 
 
 
-## Monoidal $(\infty,1)$-Categories
+### Monoidal $(\infty,1)$-Categories
 
 * [[monoidal category]]
 
@@ -97,7 +99,7 @@ The parts of algebra that we set aside at the end of the *idea* are not outside 
 * [[algebra in an (∞,1)-category]]
 
 
-## The monoidal structure on stable homotopy theory 
+### The monoidal structure on stable homotopy theory 
 
 * [[stable homotopy theory]]
 
@@ -110,7 +112,7 @@ The parts of algebra that we set aside at the end of the *idea* are not outside 
   * [[symmetric monoidal smash product of spectra]]
 
 
-## Symmetric monoidal $(\infty,1)$-categories and commutative algebra 
+### Symmetric monoidal $(\infty,1)$-categories and commutative algebra 
 
 * [[symmetric monoidal (infinity,1)-category]]
 
@@ -122,7 +124,7 @@ The parts of algebra that we set aside at the end of the *idea* are not outside 
 
   * [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
 
-## Commutative ring spectra 
+### Commutative ring spectra 
 
 * [[stable (infinity,1)-category of spectra]]
 
@@ -138,11 +140,16 @@ The parts of algebra that we set aside at the end of the *idea* are not outside 
 
   * [[E-infinity ring]]
 
-## Symmetric monoidal model categories 
+### Symmetric monoidal model categories 
 
 * [[model category]]
 
 * [[monoidal model category]]
+
+## Related concepts
+
+[[!include Isbell duality - table]]
+
 
 ## References
 
