@@ -97,6 +97,8 @@ Therefore the condition that the invariant polynomial is $n$-plectic amounts to 
 
 * [[symplectic ∞-groupoid]]
 
+[[!include Isbell duality - table]]
+
 
 ## References
 
