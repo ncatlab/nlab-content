@@ -348,6 +348,7 @@ A detailed discussion is in ([Witten 89](#Witten)).
 
   * [[semiclassical approximation]]
 
+[[!include Isbell duality - table]]
 
 
 ## References
