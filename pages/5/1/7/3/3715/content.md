@@ -12,8 +12,13 @@
 +--{: .hide}
 [[!include symplectic geometry - contents]]
 =--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
@@ -22,9 +27,20 @@
 
 ## Idea
 
-While usual [[quantization]] has to give a [[Hilbert space]] and self-adjoint operators acting on it as [[observable]]s, and [Planck constant](http://en.wikipedia.org/wiki/Planck_constant) $h$ has a definite value, the **deformation quantization** is concerned with more moderate aim of forming just a formal power series  depending on a formal variable, replacing the Planck constant. As any other quantization, the deformation quantization has as an input a description of a classical system, which is in this case most often a smooth [[Poisson manifold]]. The deformation quantization replaces the algebra of smooth functions on the Poisson manifold with the same vector space, but equipped with new noncommutative associative unital product which, up to order $h$, agrees with the underlying Poisson bracket. Of course the proper study of quantization of Poisson manifolds studied the appropriate notion at the level of sheaves of algebras. Gluing local solutions to the quantization problem involves [[stacks]] and [[gerbes]].  
+_Deformation quantization_ is one formalization of the general idea of [[quantization]] of a [[classical mechanical system]]/[[classical field theory]] to a [[quantum mechanical system]]/[[quantum field theory]].
 
-[[Vladimir Drinfel'd]] has sketched a proof (and gave main ingredients) to show that every [[Poisson Lie group]] can be deformation quantized to a [[Hopf algebra]]; this proof has been completed by Etingof and Kazhdan. [[Maxim Kontsevich]] proved a certain *[[Kontsevich formality|formality theorem]]* (formality is here in the sense of [[rational homotopy theory]]) whose main corollary (and motivation) was the statement that every Poisson manifold has a deformation quantization. 
+Deformation quantization focuses on the [[algebras of observables]] of a physical system (hence on the [[Heisenberg picture]]): it provides rules for how to [[deformation theory|deform]] the commutative algebra of classical observables to a non-commutative algebra of quantum observables. (This is in contrast to [[geometric quantization]], which focuses on the [[spaces of states]] and hence on the [[Schrödinger picture]].)
+
+Usually and traditionally, _deformation quantization_ refers to (just) _formal_ deformations, in the sense that it produces [[formal power series]] expansions in a formal parameter $\hbar$ (physically: [[Planck's constant]]) of the product in the deformed algebra of observables. But there are refinements of this to [[C-star algebraic deformation quantization]] which studies the proper deformation to a genuine [[C-star algebra]] of observables.
+
+
+As any other quantization, the deformation quantization has as an input a description of a [[classical mechanical system]], which is in this case most often a smooth [[Poisson manifold]]. The deformation quantization replaces the algebra of [[smooth functions]] on the Poisson manifold with the same [[vector space]], but equipped with new noncommutative [[associative algebra|associative unital product]] whose [[commutator]] agrees, up to order $\hbar$, with the underlying [[Poisson bracket]]. Of course the proper study of quantization of Poisson manifolds studied the appropriate notion at the level of [[sheaves]] of algebras. Gluing local solutions to the quantization problem furthermore involves [[stacks]] and specifically [[gerbes]].  
+
+## Properties
+
+### Existence results
+
+[[Vladimir Drinfel'd]] has sketched a proof (and gave main ingredients) to show that every [[Poisson Lie group]] can be deformation quantized to a [[Hopf algebra]]; this proof has been completed by Etingof and Kazhdan. [[Maxim Kontsevich]] proved a certain *[[Kontsevich formality|formality theorem]]* (formality is here in the sense of [[rational homotopy theory]]) whose main corollary (and motivation) was the statement that every Poisson manifold has a deformation quantization ([Kontsevich 03](#Kontsevich)). 
 
 For symplectic manifolds, the theory of deformation quantization is much simpler; [[Boris Fedosov]] gave a construction of star products on symplectic manifolds using symplectic connections on smooth manifolds.  An analogous argument was given by [[Roman Bezrukavnikov]] and [[Dmitry Kaledin]] in the context of an algebraic symplectic form.  
 
@@ -34,14 +50,11 @@ For symplectic manifolds, the theory of deformation quantization is much simpler
 
 * [[quantization]]
 
-  * **deformation quantization**
-
-  * [[geometric quantization]]
+  * **deformation quantization**, [[geometric quantization]]
 
   * [[path integral]]
 
   * [[semiclassical approximation]]
-
 
 
 ## References
@@ -49,6 +62,7 @@ For symplectic manifolds, the theory of deformation quantization is much simpler
 The result that every Poisson manifold admits a deformation quantization is due to 
 
 * [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds_,  Lett. Math. Phys. __66__ (2003),  no. 3, 157--216, [q-alg/9709040](http://arxiv.org/abs/q-alg/9709040).
+ {#Kontsevich}
 
 This secretly uses the [[Poisson sigma-model]] (see there for more details) induced by the given target [[Poisson Lie algebroid]].
 
