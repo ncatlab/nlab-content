@@ -325,6 +325,8 @@ Notice that there is an important subtlety of Lurie's theorem in the case of man
 
 * [[generalized tangle hypothesis]]
 
+[[!include Isbell duality - table]]
+
 
 ## References 
 
