@@ -117,6 +117,9 @@ The quantized [[electromagnetic field]] is discussed for instance in ([Dimock 92
 
   * [[FQFT]]
 
+[[!include Isbell duality - table]]
+
+
 
 ## References
 
