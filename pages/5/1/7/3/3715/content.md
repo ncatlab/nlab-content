@@ -57,6 +57,10 @@ For symplectic manifolds, the theory of deformation quantization is much simpler
   * [[semiclassical approximation]]
 
 
+[[!include Isbell duality - table]]
+
+
+
 ## References
 
 The result that every Poisson manifold admits a deformation quantization is due to 
