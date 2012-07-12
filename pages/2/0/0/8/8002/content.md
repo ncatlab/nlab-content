@@ -24,6 +24,8 @@ While a [[permutative category]] already induces a [[symmetric spectrum]], [[Bro
 
 ## References
 
+* [[Peter May]], _$E_\infty$ Ring Spaces and $E_\infty$ Ring spectra_, Springer lectures notes in mathematics, Vol. 533, (1977) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf)) chaper VI
+
 * [[Anthony Elmendorf]], [[Michael Mandell]], _Rings, modules and algebras in infinite loop space theory_, K-Theory 0680 ([web](http://www.math.uiuc.edu/K-theory/0680/), [pdf](http://www.math.uiuc.edu/K-theory/0680/RMAsubmit.pdf))
 
 * [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_ ([arXiv:0710.0082](http://arxiv.org/abs/0710.0082))
