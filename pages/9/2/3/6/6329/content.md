@@ -86,6 +86,10 @@ For example, these terms included also Schr&#246;dinger\'s use of typically [[wa
 
 This is entirely separate from the question of whether states or observables are taken to evolve with time.  Still, there is this connection: Schr&#246;dinger evolved states, and his approach was called 'wave mechanics' after his representation for states, while Heisenberg evolved observables, and his approach was called 'matrix mechanics' after his representation for observables.
 
+## Related concepts
+
+[[!include Isbell duality - table]]
+
 
 ## References
 
