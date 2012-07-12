@@ -91,6 +91,8 @@ See [[pure state]].
 
   * [[quantum operator (in geometric quantization)]]
 
+[[!include Isbell duality - table]]
+
 
 [[!redirects state]]
 [[!redirects states]]
