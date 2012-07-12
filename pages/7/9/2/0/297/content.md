@@ -199,6 +199,9 @@ As usual, the problem of constructing FQFT becomes much more tractable when line
 
     * [[(2,1)-dimensional Euclidean field theories and tmf]]
 
+[[!include Isbell duality - table]]
+
+
 
 [[!redirects FQFTs]]
 [[!redirects Functorial quantum field theory]]
