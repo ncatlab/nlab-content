@@ -303,6 +303,11 @@ studied in ([Rogers PhD, section 4.2](#RogersPhD)).
 
 (...)
 
+## Related concepts
+
+[[!include Isbell duality - table]]
+
+
 ## References
 
 2-geometric quantization over [[smooth manifolds]] is discussed in section 6 and section 7 of 
