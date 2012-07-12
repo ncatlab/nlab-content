@@ -48,6 +48,8 @@ Notice that this traditional terminology is off by one: the underlying $\hat X \
 
 * [[symplectic manifold]], [[geometric quantization]]
 
+* [[C-star algebraic deformation quantization]]
+
 * [[Poisson Lie algebroid]] $\stackrel{\exp(-)}{\mapsto}$ [[symplectic groupoid]] $\stackrel{central extension}{\mapsto}$ **geometric quantization of symplectic groupoids**
 
 * [[symplectic Lie n-algebroid]] $\stackrel{\exp(-)}{\mapsto}$ [[symplectic ∞-groupoid]] $\stackrel{central extension}{\mapsto}$ [[geometric quantization of symplectic ∞-groupoids]]
