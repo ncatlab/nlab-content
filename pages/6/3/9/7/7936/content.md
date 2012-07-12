@@ -25,5 +25,8 @@ The actual space of [[states]] is a subspace of this, obtained after a choice of
 
 * [[quantum operator (in geometric quantization)]]
 
+[[!include Isbell duality - table]]
+
+
 [[!redirects prequantum spaces of states]]
 [[!redirects prequantum space of states]]
