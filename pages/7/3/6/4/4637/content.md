@@ -537,6 +537,11 @@ for the moment see [[function algebras on ∞-stacks]]
 
 see [[Tannaka duality for geometric stacks]]
 
+## Related concepts
+
+[[!include Isbell duality - table]]
+
+
 ## References
 
 
