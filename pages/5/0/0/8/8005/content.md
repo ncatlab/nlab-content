@@ -15,17 +15,20 @@
 
 ## Idea
 
-A _bipermuatative category_ is a [[permutative category]] $(C, \oplus)$ with a second [[symmetric monoidal category]] structure $(C, \otimes)$ that [[distributive law|distributes]] over $\oplus$.
+A _bipermuatative category_ is a [[permutative category]] $(C, \oplus)$ with a second [[symmetric monoidal category]] structure $(C, \otimes)$ that [[distributive law|distributes]] over $\oplus$, with, again, some of the [[coherence laws]] required to hold strictly.
 
 ## Definition
 
-([Elmendorf-Mandell, def. 3.6](#ElmendorfMandell))
+([May, def. VI 3.3](#May)) ([Elmendorf-Mandell, def. 3.6](#ElmendorfMandell))
 
 ## Related concepts
 
 * [[K-theory of a bipermutative category]]
 
 ## References
+
+* [[Peter May]], _$E_\infty$ Ring Spaces and $E_\infty$ Ring spectra_, Springer lectures notes in mathematics, Vol. 533, (1977) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf)) chaper VI
+ {#May}
 
 * [[Anthony Elmendorf]], [[Michael Mandell]], _Rings, modules and algebras in infinite loop space theory_, K-Theory 0680 ([web](http://www.math.uiuc.edu/K-theory/0680/), [pdf](http://www.math.uiuc.edu/K-theory/0680/RMAsubmit.pdf))
  {#ElmendorfMandell}
