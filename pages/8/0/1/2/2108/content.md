@@ -25,33 +25,40 @@
 
 ## Idea
 
-With a [[symplectic manifold]] regarded as a [[classical mechanical system]], _geometric quantization_ is one formalization of the notion of [[quantization]] of this to a [[quantum mechanical system]].
+Geometric quantization is one formalization of the notion of _[[quantization]]_ of a [[classical mechanical system]]/[[classical field theory]] to a [[quantum mechanical system]]/[[quantum field theory]]. In comparison to _[[deformation quantization]]_ it focuses on [[spaces of states]], hence on the [[Schrödinger picture]] of [[quantum mechanics]].
 
-The idea is to 
+### Ingredients
 
-1. realize the [[symplectic form]] as the [[curvature]] of a $U(1)$-[[principal bundle]] with [[connection on a bundle|connection]] (which requires the form to have integral [[period]]s);
+With a [[symplectic manifold]] regarded as a [[classical mechanical system]], _geometric quantization_ produces [[quantization]] of this to a [[quantum mechanical system]] by 
+
+1. realize the [[symplectic form]] as the [[curvature]] of a $U(1)$-[[principal bundle]] with [[connection on a bundle|connection]] (which requires the form to have integral [[periods]]): called the [[prequantum circle bundle]];
 
 1. choose a [[polarization]] -- a splitting of the abstract [[phase space]] into "coordinates" and "momenta";
 
 and then form
 
-1. a [[Hilbert space]] of [[state]]s as the space of [[section]]s of the associated [[line bundle]] which depend only on the "coordinates" (not on the "momenta");
+1. a [[Hilbert space]] of [[states]] as the space of [[sections]] of the [[associated bundle|associated]] [[line bundle]] which depend only on the "coordinates" (not on the "momenta");
 
 1. associate with every function on the symplectic manifold -- every [[Hamiltonian]] -- an [[operator]] on this Hilbert space.
 
+### History and variants
 
-The approach is due to Kirillov ("orbit method"), Kostant and Souriau. It is closely related to [[Berezin quantization]] and the subject of [[coherent states]].
+The approach is due to [[Alexandre Kirillov]] ("[[orbit method]]"), [[Bertram Kostant]] and [[Jean-Marie Souriau]]. See the [References](#ReferencesGeneral) below. It is closely related to [[Berezin quantization]] and the subject of [[coherent states]].
 
-In a long term project [[Alan Weinstein]] and many of his students have followed the idea that the true story behind this prescription crucially involves [[symplectic Lie groupoid]]s: [[higher symplectic geometry]]. See [[geometric quantization of symplectic groupoids]] for more on this.
+In a long term project [[Alan Weinstein]] and many of his students have followed the idea that the true story behind geometric quantization crucially involves [[symplectic Lie groupoids]]: [[higher symplectic geometry]]. See [[geometric quantization of symplectic groupoids]] for more on this. 
+
+More generally, there is _[[higher geometric quantization]]_.
 
 
 ### Overview 
 
-Geometric quantization is a marvelous tool for understanding the relation between classical physics and [[quantum field theory|quantum physics]]. However, it's a bit like a power tool -- you have to be an expert to operate it without running the risk of seriously injuring your brain. Here's a brief sketch of how it goes. This is pretty terse; for the details you'll have to read the series of articles on geometric quantization on the sci.physics.research archive.
+> This overview is taken from ([Baez](#Baez)).
 
-1. We start with a *classical phase space*: mathematically, this is a [[manifold]] $X$ with a [[symplectic geometry|symplectic structure]] $\omega$.
+_Geometric quantization_ is a tool for understanding the relation between [[classical physics]] and [[quantum field theory|quantum physics]]. Here's a brief sketch of how it goes. 
 
-1. Then we do *prequantization*: this gives us a Hermitian [[vector bundle|line bundle]] $L$ over $X$, equipped with a $U(1)$ [[connection on a bundle|connection]] $D$ whose curvature equals $i \omega$. $L$ is called the **[[prequantum line bundle]]**.
+1. We start with a *classical [[phase space]]*: mathematically, this is a [[manifold]] $X$ with a [[symplectic geometry|symplectic structure]] $\omega$.
+
+1. Then we do *prequantization*: this gives us a Hermitian [[line bundle]] $L$ over $X$, equipped with a $U(1)$ [[connection on a bundle|connection]] $D$ whose curvature equals $i \omega$. $L$ is called the **[[prequantum line bundle]]**.
 
    **Warning:** we can only do this step if $\omega$ satisfies the *Bohr--Sommerfeld condition*, which says that $\omega/2\pi$ defines an [[integral cohomology]] class. If this condition holds, $L$ and $D$ are determined up to [[isomorphism]], but not canonically.
 
@@ -346,6 +353,7 @@ A detailed discussion is in ([Witten 89](#Witten)).
 ## References
 
 ### General
+ {#ReferencesGeneral}
 
 Original references include
 
@@ -381,6 +389,7 @@ Further reviews include
 The above "Overview" and "Basic Jargon" sections are taken from 
 
 * [[John Baez]], _Geometric Quantization_ ([web](http://math.ucr.edu/home/baez/quantization.html))
+ {#Baez}
 
 Some useful talk notes include
 
