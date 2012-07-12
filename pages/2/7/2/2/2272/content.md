@@ -52,6 +52,9 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 
 * [[Poisson Lie algebroid]]
 
+[[!include Isbell duality - table]]
+
+
 [[!redirects Poisson manifolds]]
 [[!redirects Poisson bivector]]
 [[!redirects Poisson structure]]
