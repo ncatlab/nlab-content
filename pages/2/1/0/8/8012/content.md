@@ -1,0 +1,5 @@
+* wikipedia [[Seifert surface]]
+
+Related entries: [[knot]], [[Alexander polynomial]]
+
+[[!redirects Seifert surfaces]]
