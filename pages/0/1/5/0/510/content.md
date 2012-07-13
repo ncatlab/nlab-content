@@ -159,7 +159,7 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 ## Related concepts
 
-* [[parametrized spectrum]]
+* [[sheaf of spectra]], [[parametrized spectrum]]
 
 * [[ring spectrum]], [[algebra spectrum]], [[module spectrum]]
 
