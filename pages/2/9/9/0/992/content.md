@@ -199,7 +199,12 @@ A [[triangulated category]] linear over a field $k$ can canonically be refined t
 If $k$ has characteristic 0, then all these three concepts become equivalent.
 
 
-## Stabilization and localization of presheaf $(\infty,1)$-categories {#StabGiraud}
+## Stabilization and localization of presheaf $(\infty,1)$-categories   
+ {#StabGiraud}
+
++-- {: .num_prop}
+###### Proposition
+
 
 Let $C$ and $D$ be [[(infinity,1)-category|(∞,1)-categories]] and
 $Func(C,D)$ the [[(∞,1)-category of (∞,1)-functors]] between them.
@@ -221,19 +226,25 @@ $$
   \,.
 $$
 
-This is [StabCat, example 10.13]() .
+=--
+
+This is [StabCat, example 10.13](#StabCat) .
 
 
-**Proposition** **("stable Giraud theorem")**
++-- {: .num_prop}
+###### Proposition
+**("stable Giraud theorem")**
  
 Every stable and [[presentable (∞,1)-category]] $C$ is equivalent to an
-(accessible) left-exact [[localization of an (∞,1)-category|localization of]] a stabilized $(\infty,1)-/presheaf $(\infty,1)$-category: there exists a small $(\infty,1)$-category $E$ and an adjunction
+(accessible) left-exact [[localization of an (∞,1)-category|localization of]] a stabilized $(\infty,1)$-presheaf $(\infty,1)$-category: there exists a small $(\infty,1)$-category $E$ and an adjunction
 
 $$
   C \stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
   Stab(PSh(E)) \simeq Func(E,Sp)
   \,.
 $$
+
+=--
 
 This is [StabCat prop 15.9]().
 
@@ -258,6 +269,7 @@ A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-ca
 * [[stable homotopy theory]]
 
 * [[stable model category]]
+
 * [[spectral category]]
 
 ## References
@@ -265,6 +277,7 @@ A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-ca
 The canonical reference is of course
 
 * [[Jacob Lurie]], _[[Stable Infinity-Categories]]_
+ {#StabCat}
 
 A diagram of the interrelation of all the models for stable $(\infty,1)$-categories with a useful list of literature for each are these seminar notes:
 
