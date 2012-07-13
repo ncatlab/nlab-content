@@ -23,6 +23,10 @@ A [[bundle]] of [[spectra]].
 
 In [[twisted cohomology]].
 
+## Related concepts
+
+* [[sheaf of spectra]]
+
 ## References
  {#References}
 
