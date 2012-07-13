@@ -7,13 +7,13 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 #### Symplectic geometry
 +--{: .hide}
 [[!include symplectic geometry - contents]]
-=--
-#### Algebra
-+--{: .hide}
-[[!include higher algebra - contents]]
 =--
 =--
 =--
