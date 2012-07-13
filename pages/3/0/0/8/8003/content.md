@@ -56,6 +56,9 @@ This is the _K-theory spectrum of $C$_.
 
 ## References
 
+* [[Graeme Segal]], _Catgeories and cohomology theories_, Topology vol 13 (1974)  ([pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
+ {#Segal}
+
 * [[Peter May]], _The spectra associated to permutative categories_, Topology 17 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/23.pdf))
 
 * [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories as a model of connective stable homotopy_, in: [[Birgit Richter]] (ed.) _Structured Ring spectra_, Cambridge University Press (2004)
