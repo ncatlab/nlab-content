@@ -1,5 +1,32 @@
-__Affine Lie algebras__ are the most important class of [[Kac-Moody Lie algebra]]s.
-They should be viewed as tangent Lie algebras to the [[loop group]]s, with a correction term which is sometimes related to quantization/quantum anomaly. 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+__Affine Lie algebras__ are the most important class of [[Kac-Moody Lie algebras]].
+They should be viewed as tangent Lie algebras to the [[loop groups]], with a correction term which is sometimes related to quantization/quantum anomaly. 
+
+## Related concepts
+
+* [[quantum affine algebra]]
+
+## References
 
 * David Hernandez, _An introduction to affine Kac-Moody algebras_, [pdf](http://www.ctqm.au.dk/events/2006/October/Week42/Masterclassnotes.pdf)
 * Victor G. Kac, _The idea of locality_, [q-alg/9709008](http://arxiv.org/abs/q-alg/9709008)
