@@ -451,7 +451,7 @@ This new definition actually converges, and makes sense. Apparantly the same tec
 ### Traces as a path integral?
  {#TraceAsAPathIntegral}
 
-In ([Witten 89](#Witten)) is the observation that the "[[trace]]" occuring in the "trace of the [[holonomy]] around the knot" term in the path integral should _itself_ be seen as a [[path integral]]. In this way one hopes to obtain a much more unified formalism. See [[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]] (password required).   
+In ([Witten 89](#Witten)) is the observation that the "[[trace]]" occuring in the "trace of the [[holonomy]] around the knot" term in the path integral should _itself_ be seen as a [[path integral]]. In this way one hopes to obtain a much more unified formalism. See [[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]] (the password is TQFT).   
 
 ### Higher dimensional generalizations
  {#HigherDimensionalGeneralization}
