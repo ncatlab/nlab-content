@@ -1,0 +1,52 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[stabilization]] of an [[(∞,1)-topos]] $\mathbf{H}$ 
+
+$$
+  (\Sigma^\infty \dashv \Omega^\infty) : 
+  \mathbf{H}
+   \stackrel{\overset{\Omega^\infty}{\leftarrow}}{\underset{\Sigma^\inft}{\to}}
+  Stab(\mathbf{H})
+$$
+
+consist of [[spectrum objects]] in $\mathbf{H}$. By the "[stable Giraud theorem](http://ncatlab.org/nlab/show/stable+%28infinity%2C1%29-category#StabGiraud)" this is the [[localization of an (∞,1)-category|localization]] of an [[(∞,1)-category of (∞,1)-functors]] with values in the [[stable (∞,1)-category of spectra]]: $\infty$-sheaves of spectra.
+
+## Related concepts
+
+* [[parameterized spectrum]]
+
+## References
+
+The [[homotopy categories]] of sheaves of [[combinatorial spectra]] are discussed in 
+
+part II of 
+
+* [[Kenneth Brown]], _[[Abstract homotopy theory and generalized sheaf cohomology]]_
+
+section 1.2 of 
+
+* [[Bertrand Toën]], _K-theory and cohomology of algebraic stacks: Riemann-Roch theorems, D-modules and GAGA theorems_ ([arXiv:math/9908097](http://arxiv.org/abs/math/9908097))
+
+[[!redirects sheaves of spectra]]
+[[!redirects stack of spectra]]
+[[!redirects stacks of spectra]]
+
