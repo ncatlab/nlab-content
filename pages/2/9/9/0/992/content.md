@@ -27,7 +27,7 @@ $$
   \Omega : C \to C
 $$
 
-an an _equivalence_ with inverse the [[suspension object]] functor
+is an _equivalence_ with inverse the [[suspension object]] functor
 
 $$
   C \leftarrow C : \Sigma
