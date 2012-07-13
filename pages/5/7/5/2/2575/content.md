@@ -422,7 +422,7 @@ However, the quantum theory exists nicely if one allows the larger configuration
 
 ### Chern--Simons theory and modular forms
 
-Trying to interest your [[number theory]] friends with Chern--Simons theory? How about this: the Chern--Simons [[path integral]] $Z(k)$ above is (in a certain precise sense) a _[[modular form]]_. This correspondence between the Chern--Simons quantum invariants and [[modular form]]s sheds light in both directions, and is a fascinating idea to [[Bruce Bartlett|me]]. The key words here (which I don't understand) are "Eichler integral" and  "mock theta function". See:
+Trying to interest your [[number theory]] friends with Chern--Simons theory? How about this: the Chern--Simons [[path integral]] $Z(k)$ above is (in a certain precise sense) a _[[modular form]]_. This correspondence between the Chern--Simons quantum invariants and [[modular form]]s sheds light in both directions, and is a fascinating idea to [[Bruce Bartlett|me]]. The key words here (which I don't understand) are "Eichler integral" and  "[[mock theta function]]". See:
 
 * Lawrence and Zagier, Modular forms and quantum invariants of 3-manifolds, Asian Journal of Mathematics vol 3 no 1 (1999).
 
@@ -451,7 +451,7 @@ This new definition actually converges, and makes sense. Apparantly the same tec
 ### Traces as a path integral?
  {#TraceAsAPathIntegral}
 
-In ([Witten 89](#Witten)) is the observation that the "[[trace]]" occuring in the "trace of the [[holonomy]] around the knot" term in the path integral should _itself_ be seen as a [[path integral]]. In this way one hopes to obtain a much more unified formalism. See [[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]] (the password is TQFT).   
+In ([Witten 89](#Witten)) is the observation that the "[[trace]]" occuring in the "trace of the [[holonomy]] around the knot" term in the path integral should _itself_ be seen as a [[path integral]]. In this way one hopes to obtain a much more unified formalism. The quote is reproduced at  _[[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]]_. 
 
 ### Higher dimensional generalizations
  {#HigherDimensionalGeneralization}
