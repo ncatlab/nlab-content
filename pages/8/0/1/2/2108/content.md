@@ -258,7 +258,7 @@ $$
   \,.
 $$
 
-The polarization condition is that the [[covariant derivative]] along the [[leafs]] vanishes
+The polarization condition is that the [[covariant derivative]] along the [[leaves]] vanishes
 
 $$
   \nabla_{\partial/\partial p} \psi = 0
