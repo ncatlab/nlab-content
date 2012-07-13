@@ -199,7 +199,7 @@ The Kontsevich and Soibelman references below are also good.
 
 [[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]
 
-
+* [[deformation quantization]]
 
 ## References
 
