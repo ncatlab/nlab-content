@@ -10,7 +10,7 @@ An ordered group is both a [[poset]] and a [[group]] in a compatible way.  The c
 
 ## Definition
 
-Let $G$ be a [[group]] (written additively but not necessarily [[abelian group|commutative]]), and let $\leq$ be a [[partial order]] on the [[underlying set]] of $G$.  Then $(G,\leq)$ is an __ordered group__ if this compatibility condition (_translation invariance_) holds:
+Let $G$ be a [[group]] (written additively but not necessarily [[abelian group|commutative]]), and let $\leq$ be a [[partial order]] on the [[underlying set]] of $G$.  Then $(G,\leq)$ is an __ordered group__ if this compatibility condition (*translation invariance*) holds:
 
 *  If $a \leq b$, then $a + c \leq b + c$ and $c + a \leq c + b$.
 
