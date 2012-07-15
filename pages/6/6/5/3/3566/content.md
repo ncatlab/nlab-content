@@ -29,10 +29,10 @@ For $C$ an [[(∞,1)-category]], a [[morphism]] $f : Y \to Z$ is a **monomorphis
 Equivalently this means that the projection
 
 $$
-  C_{/f} \to C_{/D}
+  C_{/f} \to C_{/Z}
 $$
 
-is a [[full and faithful (∞,1)-functor]].
+is a [[full and faithful (∞,1)-functor]]. This is in [Higher Topos Theory](#ref) after Example 5..5.6.13.
 
 Equivalently this means that for every object $X \in C$ the induced morphism
 
@@ -111,7 +111,7 @@ This is a special case of the general statement that $k$-[[truncated]] morphisms
 
 The definition appears after example 5.5.6.13 in
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_{#ref}
 
 with further discussion in section 6.2.
 
