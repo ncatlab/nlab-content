@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
@@ -117,6 +117,14 @@ A [[cocone]] in $C$ is precisely a cone in the [[opposite category]] $C^{op}$.
 ### Over a diagram in an $(\infty,1)$-category
 
 For $F : D \to C$ a [[diagram]] of [[(∞,1)-categories]], i.e. an [[(∞,1)-functor]], the $(\infty,1)$-category of $(\infty,1)$-cones over $F$ is the [[over quasi-category]] denoted $C_{/F}$. Its objects are cones over $F$. Its [[k-morphism]]s are $k$-homotopies between cones. The [[limit in a quasi-category|(∞,1)-categorical limit]] over $F$ is, if it exists, the [[initial object]] in $C_{/F}$.
+
+
+## See also
+
+These are shaped like the homotopy-theoretic cone, so maybe there is a deeper relationship:
+
+* [[positive cone]] (in an [[ordered group]], such as an [[operator algebra]]),
+* [[future cone]] (of an [[event]] in a [[Lorentzian manifold]], such as [[spacetime]]).
 
 
 [[!redirects cone]]
