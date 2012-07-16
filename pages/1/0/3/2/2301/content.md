@@ -67,6 +67,6 @@ One should note that Grothendieck school has occasionally studied ringed sites w
 
 Rosenberg considers generalized relative schemes as categories over an arbitrary base category with a relatively affine cover satisfying some exactness conditions. The scheme as a category is in fact abstracting the category of quasicoherent sheaves over some generalized scheme. Rosenberg calls the Zariski version of that formalism [[noncommutative scheme]]; some other versions of locally affine spaces can be also relativized.
 
-[[rigid analytic geometry|Rigid analytic geometry]] is featuring locally affinoid spaces (affinoid spaces are spectra of Banach algebras over complete ultrametric fields which belong to a special class called [[affinoid algebra]]s; Berkovits spectra are most often used) in so-called G-topology. 
+[[rigid analytic geometry|Rigid analytic geometry]] is featuring locally affinoid spaces (affinoid spaces are spectra of Banach algebras over complete ultrametric fields which belong to a special class called [[affinoid algebra]]s; Berkovich spectra are most often used) in so-called G-topology. 
 
 [[!redirects generalized schemes]]
