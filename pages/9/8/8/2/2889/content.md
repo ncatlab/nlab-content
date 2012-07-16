@@ -243,5 +243,7 @@ For a discussion of the relation betwen [[motive]]s and motivic cohomology, see 
 
 * [[Marc Hoyois]], _On the relation between algebraic cobordism and motivic cohomology_ ([pdf](http://math.northwestern.edu/~hoyois/papers/hopkinsmorel.pdf))
 
+* Marco Robalo, _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_ ([arXiv:1206.3645](http://arxiv.org/abs/1206.3645))
+
 [[!redirects motivic complex]]
 [[!redirects motivic complexes]]
