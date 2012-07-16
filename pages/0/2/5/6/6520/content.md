@@ -32,5 +32,17 @@ See also literature at [[Yang-Mills instanton]].
 
 * [[Werner Nahm]], _Self-dual monopoles and calorons_, in _Group theoretical methods in physics_ (Trieste, 1983), pages 189-200. Springer, Berlin (1984) ([journal](http://www.springerlink.com/index/y005405w74862327.pdf))
 
+A generalization is discussed in 
+
+* [[Edward Frenkel]], A. Losev, [[Nikita Nekrasov]], _Instantons beyond topological theory I_ ([arXiv:hep-th/0610149](http://arxiv.org/abs/hep-th/0610149))
+
+* [[Edward Frenkel]], A. Losev, [[Nikita Nekrasov]], _Instantons beyond topological theory II_ ([arXiv:hep-th/0610149](http://arxiv.org/abs/0803.3302))
+
+Expositions and summaries of this are in 
+
+* [[Edward Frenkel]], A. Losev, [[Nikita Nekrasov]], _Notes on instantons in topological field theory and beyond_ ([arXiv:hep-th/0702137](http://arxiv.org/abs/hep-th/0702137))
+
+* [[Jacques Distler]], _Localized_ (2006) ([blog](Localized))
+
 [[!redirects instanton]]
 [[!redirects instantons]]
