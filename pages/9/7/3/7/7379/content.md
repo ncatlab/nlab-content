@@ -1,8 +1,14 @@
+
+# Quasi-topological spaces
+* table of contents
+{: toc}
+
 ## Idea 
 
 Quasi-topological spaces were proposed by [[Edwin Spanier]] as a substitute for [[Top]] which has properties [[convenient category of topological spaces|convenient]] for the purposes of algebraic topology. In particular, they form a [[complete category|complete]] and [[cocomplete category|cocomplete]] [[cartesian closed category]]. 
 
 Quasi-topological spaces today seem to be regarded mostly as a historical curiosity, perhaps because working topologists were never comfortable with the set-theoretic issues that accompany them. In retrospect, however, they are an impressive testament to the conceptual insight of Spanier into ideas of topos theory which were at the time (early 1960's) barely in the air, and even not quite born yet (being an early example of [[quasitopos]], whose name perhaps derives from Spanier's notion). 
+
 
 ## Definition 
 
@@ -15,11 +21,13 @@ A **quasi-topological space** is a [[concrete sheaf]] on $\mathcal{C H}$.
 
 It follows that the (super-large) category of quasi-topological spaces is a [[quasitopos]], in particular, a [[locally cartesian closed category]]. 
 
+
 ## References 
 
 * Edwin Spanier, _Quasi-topologies_, Duke Mathematical Journal 30, number 1 (1963). 
 
 
-[[!redirects quasitopological space]]
+[[!redirects quasi-topological space]]
 [[!redirects quasi-topological spaces]]
+[[!redirects quasitopological space]]
 [[!redirects quasitopological spaces]]
