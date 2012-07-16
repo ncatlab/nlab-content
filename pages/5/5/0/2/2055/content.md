@@ -9,7 +9,7 @@
 =--
 =--
 
-This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog),  and online mathematical communities like forums and [wikis](http://en.wikipedia.org/wiki/Wiki). For links to main repositories of free books, lectures, videos, reviews and math papers see [[math archives]] and for a list of societies and institutions see [[math institutions]]. A higher level branch page is [[math resources]].
+This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog),  and online mathematical communities like forums and [wikis](http://en.wikipedia.org/wiki/Wiki). For links to main repositories of free books, lectures, videos, reviews and math papers see [[math archives]] and for a list of societies and institutions see [[math institutions]]. A higher level branch page is [[math resources]]. Math is here just a mnemo, this page partains also to the related areas of interest for $n$Lab like LaTeX, physics, philosophy, theoretical computer science etc. 
 
 For a quick introduction to math blogging, see
 
