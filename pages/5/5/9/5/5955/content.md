@@ -47,6 +47,7 @@ This is ([Lurie, cor. 1.5.15](#Lurie)).
 
 
 ### Stable Dold-Kan correspondence
+ {#StableDoldKanCorrespondence}
 
 For $R$ an ordinary [[ring]], write $H R$ for the corresponding [[Eilenberg-MacLane spectrum]]. 
 
