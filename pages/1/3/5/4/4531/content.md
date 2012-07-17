@@ -1,6 +1,6 @@
 * [[Maxim Kontsevich]] will teach a master class on [[wall crossing]] in Aarhus, August 16-20, 2010
 
-* [webpage](http://www.qgm.au.dk/events/wall-crossing)
+* [webpage](http://qgm.au.dk/cal/special/2010/wall/)
 
 Here we copy the abstract and future additional information:
 
