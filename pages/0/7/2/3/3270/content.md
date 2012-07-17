@@ -22,7 +22,7 @@ We should also mention the related wall crossing in [[representation theory]]. S
 
 ## Conferences and seminars
 
-* (future) [[Kontsevich]] in Aarhus, August 2010, [master class on wall crossing](http://www.qgm.au.dk/events/wall-crossing); we will keep a [[wall crossing in Aarhus|nlab page]] on it
+* (past) [[Kontsevich]] in Aarhus, August 2010, [master class on wall crossing](http://qgm.au.dk/cal/special/2010/wall/); we will keep a [[wall crossing in Aarhus|nlab page]] on it
 
 * (past) [Focus Week on New Invariants and Wall Crossing](http://member.ipmu.jp/domenico.orlando/FocusInvariants.html), May 18-22, 2009, Kashiwa Campus of the University of Tokyo
 
