@@ -51,9 +51,9 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 * S. Cecotti, C. Vafa, _BPS wall crossing and topological strings_, 
 [arXiv/0910.2615](http://arxiv.org/abs/0910.2615)
 
-* Davide Gaiotto, Gregory W. Moore, Andrew Neitzke, _Wall-crossing, Hitchin systems, and the WKB approximation, [arxiv/0907.3987](http://arxiv.org/abs/0907.3987)
+* Davide Gaiotto, [[Greg Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin systems, and the WKB approximation, ([arxiv/0907.3987](http://arxiv.org/abs/0907.3987))
 
-* E. Diaconescu, G. W. Moore, _Crossing the wall: branes vs. bundles_, [arXiv/0706.3193](http://arxiv.org/abs/0706.3193)
+* E. Diaconescu, [[Greg Moore]], _Crossing the wall: branes vs. bundles_, [arXiv/0706.3193](http://arxiv.org/abs/0706.3193)
 
 * E. Andriyash, [[Frederic Denef|F. Denef]], D. L. Jafferis, [[Greg Moore|G. W. Moore]], _Wall-crossing from supersymmetric galaxies_, [arxiv/1008.0030](http://arxiv.org/abs/1008.0030)
 
