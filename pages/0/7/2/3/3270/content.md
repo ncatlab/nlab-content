@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Overview
 
 In study of solitons, one can try a WKB-style approximation to nonlinear wave equation (cf. eikonal equation, [[Maslov index]] etc.). Stokes has observed that when trying to connect the local solutions, one has discontinuities along certain lines, now called **Stokes lines**. This is called the [[Stokes phenomenon]]. Similar issues appear in study of [[isomonodromic deformation]]s of nonlinear ODE-s in complex plane, what is also relevant in [[soliton]] theory, and [[integrable systems]], and special functions like [[Painlevé transcendent]]s. This has especially much been studied by Kyoto school (Jimbo, Miwa, Sato, [[Masaki Kashiwara|Kashiwara]] etc.), including using [[D-modules]] and [[microlocal analysis]]. Kyoto school found a connection of isomonodromic theory to the so-called [[holonomic quantum field]]s. 
@@ -26,7 +31,14 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * Description of seminar on stability conditions and Stokes factors in Bonn, [pdf](http://www.math.uni-bonn.de/people/compgeo/Hall.pdf)
 
-## Literature and related web pages
+## Related entries
+
+* [[BPS state]], [[D-module]], [[cluster algebra]], [[quiver]], [[representation theory]], [[Donaldson-Thomas invariant]].
+
+
+## Literature 
+
+### General
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
 
@@ -57,6 +69,10 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * H.-Y. Chen, N. Dorey, K. Petunin, _Moduli space and wall-crossing formulae in higher-rank gauge theories_, JHEP 11 (2011) 020, <a href="http://dx.doi.org/10.1007/JHEP11(2011)020">doi</a>; _Wall crossing and instantons in compactified gauge theory_, JHEP 06 (2010) 024 [arXiv:1004.0703](ttp://arxiv.org/abs/1004.0703)
 
-Related entries [[BPS state]], [[D-module]], [[cluster algebra]], [[quiver]], [[representation theory]], [[Donaldson-Thomas invariant]].
+### Introductions and lectures
+
+* Sergio Cecotti, _Trieste lectures on wall-crossing invariants_ (2010) ([pdf](http://people.sissa.it/~cecotti/ictptext.pdf))
+
+* [[Greg Moore]], _PiTP Lectures on BPS states and wall-crossing in $d = 4$, $\mathcal{N} = 2$ theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/PiTP_July26_2010.pdf))
 
 [[!redirects wall-crossing]]
