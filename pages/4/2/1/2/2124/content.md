@@ -31,11 +31,24 @@ Several mathematical theories in [[geometry]] are interpreted as counting BPS-st
 
 ### General
 
-*  J. A. Harvey, G. W. Moore, _Algebras, BPS states, and strings_, Nucl.Phys.B463:315--368 (1996) ([doi](http://dx.doi.org/10.1016/0550-3213%2895%2900605-2)); [hep-th/9510182](http://arxiv.org/abs/hep-th/9510182); _On the algebras of BPS states_, Comm. Math. Phys. __197__ (1998), 489&#8211;-519, [doi](http://dx.doi.org/10.1007/s002200050461), [hep-th/9609017](http://arxiv.org/abs/hep-th/9609017).
+The BPS bound derives its name from
 
 * (E. B. Bogomolnyj) &#1045;. &#1041;. &#1041;&#1086;&#1075;&#1086;&#1084;&#1086;&#1083;&#1100;&#1085;&#1080;&#1081;, _&#1059;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1100; &#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1088;&#1077;&#1096;&#1077;&#1085;&#1080;&#1081;_, &#1071;&#1076;. &#1060;&#1080;&#1079;. __24__ (1976) 449--454
 
 * M. K. Prasad, C . M. Sommerfield, _Exact classical solution for 't Hooft monopole and the Julia-Zee dyon_, Phys. Rev. Lett. __35__ (1975) 760--762.
+
+
+The original article identifying the role of BPS states in supersymmetric field theory is
+
+* [[Edward Witten]], D. Olive, _Supersymmetry algebras that include topological charges_ (2002) ([journal](http://www.sciencedirect.com/science/article/pii/037026937890357X))
+
+Further developments are in
+
+*  J. A. Harvey, [[Greg Moore]], _Algebras, BPS states, and strings_, Nucl.Phys.B463:315--368 (1996) ([doi](http://dx.doi.org/10.1016/0550-3213%2895%2900605-2)); [hep-th/9510182](http://arxiv.org/abs/hep-th/9510182); 
+
+*  J. A. Harvey, [[Greg Moore]],_On the algebras of BPS states_, Comm. Math. Phys. __197__ (1998), 489&#8211;-519, [doi](http://dx.doi.org/10.1007/s002200050461), [hep-th/9609017](http://arxiv.org/abs/hep-th/9609017).
+
+
 
 * A. H. Chamseddine, M. S. Volkov, _Non-abelian BPS
 monopoles in $N=4$ gauged supergravity_, Physical Review Letters 79: 3343&#8211;3346 (1997) [hep-th/9707176](http://arxiv.org/abs/hep-th/9707176).
@@ -72,6 +85,12 @@ A survey of progress on the most general picture is in
 
 * Katzutoshi Ohta, _BPS state counting and related physics_ (2005) ([pdf](http://www2.yukawa.kyoto-u.ac.jp/~qft/2005/slides/ohta.pdf))
 
+### Spectral networks
+ {#SpectralNetworksReferences}
+
+* [[Davide Gaiotto]], [[Greg Moore]], [[Andrew Neitzke]], _Spectral networks_ ([arXiv:1204.4824](http://arxiv.org/abs/1204.4824), 
+[illustrating animations](http://www.ma.utexas.edu/users/neitzke/spectral-network-movies/))
+ 
 
 
 [[!redirects BPS state]]
