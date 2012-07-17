@@ -10,6 +10,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 In an [[action functional]] on a space of [[pseudo-Riemannian manifold]]s -- such as the [[Einstein-Hilbert action]] functional for [[gravity]] -- a **cosmological constant** is a term proportional to the [[volume]]
@@ -37,3 +41,12 @@ $$
 
 In this context those solutions to the [[Euler-Lagrange equation]]s are of interest in which $\lambda(\phi)$ happens to be exactly or approximately constant. Many such models of not-really-constant-but-effectively-constant terms proportional to the volume are being proposed and considered in attempts to explain observed or speculated dynamics of the cosmos.
 
+
+## References
+
+### On the Cosmological constant problem
+ {#CCProblemReferences}
+
+A good review is in 
+
+* Stefanus Nobbenhuis, _The cosmological constant problem -- an inspiration for new physics_ PhD thesis (2006) ([web](http://igitur-archive.library.uu.nl/dissertations/2006-0615-200938/) [pdf](http://igitur-archive.library.uu.nl/dissertations/2006-0615-200938/c1.pdf))
