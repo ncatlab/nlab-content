@@ -42,6 +42,10 @@ If we regard the Hamiltonian as the generator of the [[Poincare Lie algebra]] in
 
 The data of a system of supersymmetric quantum mechanics may also be formalized in terms of a [[spectral triple]].
 
+## Related entries
+
+* [[Morse theory]]
+
 ## References
 
 * [[Edward Witten]], _Supersymmetry and Morse theory_  J. Differential Geom. Volume 17, Number 4 (1982), 661-692. ([Euclid](http://projecteuclid.org/euclid.jdg/1214437492))
