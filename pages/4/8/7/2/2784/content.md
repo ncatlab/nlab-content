@@ -1,20 +1,22 @@
 **categorification**
 
-## Background ##
+## Background
 
 * [[category theory]]
 * [[higher category theory]]
 
-##Contents##
+## Contents
 
 * [[vertical categorification]]
 
 * [[horizontal categorification]]
 
-* [[decategorification]]
+* [[decategorification]], [[Grothendieck group]]
 
 
-## Examples of categorification ##
+## Examples 
+
+* [[categorification in representation theory]]
 
 * [[Khovanov homology]]
 * [[Kazhdan-Lusztig theory]]
@@ -22,8 +24,5 @@
 * The [[geometric Langlands]] program
 :* [[geometric Satake]] 
 
-## Examples of decategorification ##
-
-* [[Grothendieck group]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/categorification+-+contents)</div>
