@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _AGT correspondence_ ([AGT](#AGT)) is a relation between the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] and [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$, (from which the SYM is obtained by compactifying the [[M5-brane]] on i.
+
+
+## References
+
+The original article is
+
+* Luis F. Alday, [[Davide Gaiotto]], Yuji Tachikawa, _Liouville Correlation Functions from Four-dimensional Gauge Theories_ ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
+ {#AGT}
