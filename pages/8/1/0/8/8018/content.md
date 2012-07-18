@@ -56,9 +56,9 @@ Let $V$ be a $W^*$-[[W-star-algebra|algebra]], and let $V_*$ be its [[predual]].
 This doesn\'t include the motivating example, but the following generalisation does:
 
 +-- {: .num_defn}
-###### Definition (positive cone of an ordered von Neumann module)
+###### Definition (positive cone of an ordered module over a von Neumann algebra)
 
-Let $V$ be a $W^*$-[[W-star-module|module]] acted on by the $W^*$-algebra $A$, and let $V$ have the structure of an ordered group such that the action of $A$ preserves order (in that a positive element acting on a positive element gives a positive element).  Then the __extended positive cone__ $\bar{V}^+$ of $V$ consists of formal $\bar{A}^+$-[[linear combination]]s of positive elements of $V$ modulo the obvious [[equivalence relation]].
+Let $V$ be a [[module]] over the $W^*$-algebra $A$, and let $V$ have the structure of an ordered group such that the action of $A$ preserves order (in that a positive element acting on a positive element gives a positive element).  Then the __extended positive cone__ $\bar{V}^+$ of $V$ consists of formal $\bar{A}^+$-[[linear combination]]s of positive elements of $V$ modulo the obvious [[equivalence relation]].
 =--
 
 When applied to the space of finite measures on a [[localisable measurable space]] $X$ (acted on by the $W^*$-algebra $L^\infty(X)$), this should give the positive measures on $X$ (but I need to check the details).
