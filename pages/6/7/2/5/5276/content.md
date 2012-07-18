@@ -9,6 +9,10 @@ The _flop transition_ is a continuous path in a space of _noncommutative 2-geome
 
 This was found and discussed in the context of [[string theory]] but the phenomenon is a general abstract one in the theory of S[[CFT]]s regarded as generalized geometries -- as described at [[2-spectral triple]].
 
+## Related concepts
+
+* [[conifold tansition]]
+
 ## References
 
 A survey is in
