@@ -1,3 +1,10 @@
-An exercise is for the reader to fill-in, in private.  He may seek help from whomever, but the idea is to practise.  A great many exercises have been publically solved, and a great many theorems have not, thus confusing which are which, though it's generally good practice to treat them *all* as exercises and ignore published proofs, within the constraints of available time and balancing of competing priorities.
+
+An exercise is for the reader to fill in, in private.  He may seek help from whomever, but the idea is to practise.  A great many exercises have been publicly solved, and a great many theorems have not, thus confusing which are which, though it's generally good practice to treat them *all* as exercises and ignore published proofs, within the constraints of available time and balancing of competing priorities.
 
 When a proposition is *called* an exercise, this means at least that the omission of a proof is deliberate (or that its inclusion is accidental), but the author is confident of being able to produce one, given enough patience.
+
+
+category: meta
+
+[[!redirects exercise]]
+[[!redirects exercises]]
