@@ -15,7 +15,7 @@
 
 ## Idea
 
-A [[group]] corresponding to a [[Kac-Moody algebra]].
+A [[group]] corresponding to a [[Kac-Moody algebra]] (not necessarily affine).
 
 ## Properties
 
@@ -57,6 +57,8 @@ in [[Smooth∞Grpd]].
 ## Related entries
 
 * [[Kac-Moody algebra]], [[loop group]]
+
+Kay moody groups appear as [[U-duality]] groups in [[11-dimensional supergravity]] [[Kaluza-Klein mechanism|compactified]] to low dimensions.
 
 ## References
 
