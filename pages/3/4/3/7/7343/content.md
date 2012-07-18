@@ -37,9 +37,9 @@ By [[Kaluza-Klein mechanism|dimensional reduction]] on $\mathbb{R}^3 \times S^1$
 
 * [[N=4 D=3 super Yang-Mills theory]]
 
-
 * [[electric-magnetic duality]], [[symplectic duality]]
-  
+
+* [[AGT correspondence]]  
 
 ## References
 
@@ -63,6 +63,16 @@ For references on [[wall crossing]] of [[BPS states]] see the references given t
 * Gaiotto, _Recent progress in $N=2$ $4d$ field theory_ (2009) ([pdf](http://www.physics.rutgers.edu/het/video/gaiotto09a.pdf))
 
 * [[Greg Moore]], _Surface Defects and the BPS Spectrum of $4d$ $N=2$ Theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/SolvayMay19Final.pdf))
+
+### Lifts to M-theory
+
+Seiberg-Witten theory ([Seiberg-Witten](SeibergWitten94)) for $N=2$, $D=4$ SYM has a nice geometrical description in terms of [[M5-brane]] compactifications, discussed in 
+
+* A. Klemm, W. Lerche, P. Mayr, [[Cumrun Vafa]], N. Warner, _Self-Dual Strings and N=2 Supersymmetric Field Theory_ ([arXiv:hep-th/9604034](http://arxiv.org/abs/hep-th/9604034))
+
+* [[Edward Witten]], _Solutions Of Four-Dimensional Field Theories Via M Theory_ ([arXiv:hep-th/9703166](http://arxiv.org/abs/hep-th/9703166))
+
+* [[Davide Gaiotto]], _N=2 dualities_ ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
 
 [[!redirects Coulomb branch]]
 [[!redirects Higgs branch]]
