@@ -33,9 +33,9 @@ It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutati
 
 ## Examples
 
-* The motivating example is the [[the Barsotti-Tate group of an abelian variety]]. Let $X$ be an [[abelian variety]] over $R$ of dimension $g$, then the multiplication map by $p^\nu$ has kernel $_{p^\nu}X$ which is a finite [[group scheme]] over $R$ of order $p^{2g \nu}$. The natural inclusions satisfy the conditions for the limit denoted $X(p)$ to be a $p$-divisible group of height $2g$.
+* The kernel of raising to the $p^\nu$ power on $\mathbb{G}_m$ (sometimes called [[p-torsion]]) is a [[group scheme]] $\mu_{p^\nu}$. The limit $\lim_{\to} \mu_{p^\nu}=\mu_{p^\infty}$ is a $p$-divisible group of height $1$.
 
-* Similarly, the kernel of raising to the $p^\nu$ power on $\mathbb{G}_m$ is a [[group scheme]] $\mu_{p^\nu}$. The limit $\lim_{\to} \mu_{p^\nu}=\mu_{p^\infty}$ is a $p$-divisible group of height $1$.
+* The eponymous ($p$-divisible groups are sometimes called Barsotti-Tate groups) example is a special case of the previous one - namely [[the Barsotti-Tate group of an abelian variety]]. Let $X$ be an [[abelian variety]] over $R$ of dimension $g$, then the multiplication map by $p^\nu$ has kernel $_{p^\nu}X$ which is a finite [[group scheme]] over $R$ of order $p^{2g \nu}$. The natural inclusions satisfy the conditions for the limit denoted $X(p)$ to be a $p$-divisible group of height $2g$.
 
 * A theorem of [Serre and Tate](#Tate) says that there is an [[equivalence of categories]] between divisible, commutative, formal [[Lie group]]s over $R$ and the category of connected $p$-divisible groups over $R$ given by $\Gamma \mapsto \Gamma (p)$, where $\Gamma(p)=\lim_{\to} \mathrm{ker}(p^n)$. In particular, every connected $p$-divisible group is smooth {#Tate}
 
