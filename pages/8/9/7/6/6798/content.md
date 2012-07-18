@@ -35,6 +35,19 @@ Special properties are enjoyed by
 
 See there for more details.
 
+## References
 
+A general introduction is for instance
+
+* [[Eric D'Hoker]], D. H. Phong, _Lectures on Supersymmetric Yang-Mills Theory and Integrable Systems_ ([arXiv:hep-th/9912271](http://arxiv.org/abs/hep-th/9912271))
+
+as well as various of the lectures in the collection
+
+* [[Pierre Deligne]] et al., _[[Quantum Fields and Strings]]_
+
+The [[deformation theory]] os SYM theories is discussed in 
+
+* [[Albert Schwarz]], [[Michael Movshev]], _Supersymmetric Deformations of Maximally Supersymmetric Gauge Theories_ ([arXiv:0910.0620](http://arxiv.org/abs/0910.0620))
+ {#SchwarzMovshev}
 
 
