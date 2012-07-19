@@ -1,6 +1,18 @@
-Recall that the multiplicative group scheme $\mu_k:R\mapsto R^\times$ assigns to a $k$-ring $R\in M_k$ the multiplicative group consisting of the invertible elements of $R$.
+## Reminder
 
-In generalization of this group $\mu_k$ is the following notion of multiplicative group scheme:
+Let $G$ be a commutative $k$-group functor (in cases of interest this is a finite flat commutative [[group scheme]]). Then the *Cartier dual* $D(G)$ of $G$ is defined by
+
+$$D(G)(R):=Gr_R(G\otimes_k R,\mu_R)$$
+
+where $\mu_k$ denotes the group scheme assigning to a ring its multiplicative group $R^\times$ consisting of the invertible elements of $R$.
+
+This definition deserves the name [[duality]] since we have
+
+$$hom(G,D(H))=hom(H,D(G))=hom(G\times H,\mu_k)$$
+
+## Discussion
+
+The notion of a *multipliciative group scheme* generalizes 
 
 +-- {: .num_defn}
 ###### Definition and Remmark
