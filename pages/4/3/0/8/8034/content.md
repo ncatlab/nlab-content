@@ -35,7 +35,7 @@ In fact the definition of $p$-torsion via the Frobenius has the advantage that w
 
 ## p-torsion of schemes
 
-If $X$ denotes some [[nLab:scheme]] over a $k$-ring for $k$ being a field of characteristic $p$, we define its $p$-torsion component-wise by $X^{(p)}(R):=X(R^{(p)})$.
+If $X$ denotes some [[nLab:scheme]] over a $k$-ring for $k$ being a field of characteristic $p$, we define its $p$-torsion component-wise by $X^{(p)}(R):=X(s_* R)$.
 
 ## p-torsion of group schemes
 
