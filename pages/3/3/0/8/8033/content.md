@@ -1,4 +1,11 @@
 
+## Related concepts
+
+* [[zeta function]]
+
+* [[motivic multiple zeta values]]
+
+* [[polylogarithm]]
 
 ## References
 
