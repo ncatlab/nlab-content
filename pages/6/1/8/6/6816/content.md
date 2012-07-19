@@ -73,4 +73,10 @@ Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.39
 
 ### Scattering amplitudes
 
-For the moment see also at [[motivic multiple zeta values]].
+For the moment see at 
+
+* _[[scattering amplitude]]_ 
+
+and also at
+
+* _[[motivic multiple zeta values]]_.
