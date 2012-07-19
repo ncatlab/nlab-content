@@ -80,6 +80,14 @@ Ours is the age to figure this out.
 
 * [[conformal field theory]]
 
+## Related concepts
+
+* [[[scattering amplitude]]
+
+* [[renormalization]]
+
+* [[AQFT]], [[FQFT]]
+
 ## References
 
 A short introduction to different aspects of QFT usually covered in a first course is this:
