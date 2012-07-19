@@ -9,8 +9,6 @@
 =--
 =--
 
-
-
 # Measurable locales
 * table of contents
 {: toc}
@@ -47,7 +45,7 @@ For purposes of [[constructive mathematics]], [[Toby Bartels|I]] suspect that it
 
 For this definition, we need not require that $L \cong Proj(A)$ be complete (or even a boolean algebra); this can be proved ... classically.  But constructively $Proj(A)$ need not be complete (although it is still a boolean algebra).  Indeed, consider the point (see the examples), based on $A \coloneqq \mathbb{C}$, which is *not* the complete [[Heyting algebra]] of *all* [[truth values]] but only the (possibly incomplete) boolean algebra $\{\bot, \top\}$ of *classical* truth values (corresponding to the self-adjoint idempotent complex numbers $0$ and $1$).
 
-It seems to me that there is some notion of completeness that applies here; $L$ should in some sense be 'measurably complete'.  In the point, for example, the [[subsingleton]] $\{* \;|\; P\}$, where $P$ is a truth value, is measurable iff $P$ is true or false, so the supremum of $\{\top \;|\; P\}$ exists in $L$ under the same circumstances.
+It seems to me that there is some notion of completeness that applies here; $L$ should in some sense be 'measurably complete'.  In the point, for example, the [[subsingleton]] $\{* \;|\; P\}$, where $P$ is a truth value, is measurable iff $P$ is true or false, so the supremum of $\{\top \;|\; P\}$ exists in $L$ under the same circumstances.  Figuring this out could allow the definitions through measurable spaces or normal measures to work.
 
 
 ## Examples
