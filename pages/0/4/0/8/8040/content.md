@@ -1,0 +1,8 @@
+
+
+A [[sporadic finite simple group]] of order 244823040. 
+
+## Related concepts
+
+* [[Mathieu moonshine]]
+
