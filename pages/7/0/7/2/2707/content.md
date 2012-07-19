@@ -65,6 +65,8 @@ In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rig
 
 ## References
 
+### General
+
 A modern introduction to Voevodsky's theory is
 
 * [[Alexander Beilinson|A. Beilinson]], V. Vologodsky, _A DG guide to Voevodsky's motives_, [math.AG/0604004](http://de.arxiv.org/abs/math/0604004)
@@ -114,6 +116,11 @@ Some other aspects
 * M.V. Bondarko, _Weight structures vs. $t$-structures; weight filtrations, spectral sequences, and complexes (for motives and in general)_, [arxiv/0704.4003](http://arxiv.org/abs/0704.4003)
 * [[Yuri Manin]], _Motives and quantum cohomology_, talk at Colloque Grothendieck, [video](http://www.dailymotion.com/video/x8juco_colloque-grothendieck-yuri-manin_tech)
 
+### In physics
+
+* A. Rej, [[Matilde Marcolli]], _Motives, an introductory survey for physicists_ ([pdf](http://www.its.caltech.edu/~matilde/ObiMotivesSurveyFinal.pdf))
+
+See also at _[[motivic multiple zeta values]]_.
 
 [[!redirects motif]]
 [[!redirects motive]]
