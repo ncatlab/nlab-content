@@ -1,0 +1,24 @@
+[[!redirects scattering amplitudes]]
+
+
+## Idea 
+
+(...)
+
+## Related concepts
+
+* [[quantum field theory]]
+
+* [[renormalization]]
+
+## References
+
+### General
+
+(...)
+
+### Analytic methods
+
+* Ruth Britto, _Loop amplitudes in gauge theories: modern analytic approaches_ ([arXiv:1012.4493](http://arxiv.org/abs/1012.4493))
+
+See also at _[[motivic multiple zeta values]]_.
