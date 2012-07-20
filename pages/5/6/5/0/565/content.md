@@ -1,22 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
-A _concrete category_ is a [[category]] that looks like a category of "[[set]]s with extra [[stuff, structure, property|structure]]".
+A _concrete category_ is a [[category]] that looks like a category of "[[set]]s with extra [[stuff, structure, property|structure]]", that is a category of [[structured sets]].
 
 
 ## Definition
@@ -57,12 +56,12 @@ This abstract nonsense indicates the usual collection of examples of concrete ca
 
 ## Characterization
 
-+--{: .un_theorem}
++-- {: .un_theorem}
 ###### Theorem
 A [[finitely complete category]] is concrete, in the sense that it admits a [[faithful functor]] to [[Set]], if and only if it is [[well-powered category|well-powered]] with respect to [[regular monomorphism|regular]] [[subobject]]s.
 
 =--
-+--{: .proof}
++-- {: .proof}
 ###### Proof
 "Only if" was proven in ([Isbell](#Isbell)).  To prove it, note that if $F: C\to D$ is a faithful functor, then it is injective on equivalence classes of regular subobjects.  For suppose that $m\colon a \to x$ is the [[equalizer]] of $f,g\colon x\rightrightarrows y$, and $n\colon b\to x$ is the equalizer of $h,k\colon x\rightrightarrows z$.  If $F(a) \cong F(b)$ as subobjects of $F(x)$, then since $f m = g m$ and so $F(f)\circ F(m) = F(g)\circ F(m)$, we must also have  $F(f)\circ F(n) = F(g)\circ F(n)$; hence (since $F$ is faithful) $f n = g n$, so that $n$ factors through $m$.  Conversely, $n$ factors through $m$, so we have $a\cong b$ as subobjects of $x$.  Since $Set$ is regularly well-powered, it follows that any category admitting a faithful functor to $Set$ must also be so.
 
@@ -76,16 +75,18 @@ A [[finitely complete category]] is concrete, in the sense that it admits a [[fa
 
 One can consider concrete categories over any base category $X$ instead of necessarily over $Set$.  This is the approach taken in [The Joy of Cats](#JoyOfCats).  Then the (small) concrete categories over $X$ form a [[2-category]] $Cat(X)$.
 
+
 ## References
 
 * _[[The Joy of Cats]]_
 {#JoyOfCats}
 
-* [[John Isbell]], _Two set-theoretical theorems in categories_ , Fund. Math 53 (1963)
+* [[John Isbell]], _Two set-theoretical theorems in categories_, Fund. Math 53 (1963)
 {#Isbell}
 
-* [[Peter Freyd]], _Concreteness_ , JPAA 3 (1973)
+* [[Peter Freyd]], _Concreteness_, JPAA 3 (1973)
 {#Freyd}
+
 
 [[!redirects concrete category]]
 [[!redirects concrete categories]]
