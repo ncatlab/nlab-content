@@ -1,0 +1,16 @@
+In [[type theory]], a **judgment** is a "meta-[[proposition]]"; that is, a proposition belonging to the [[meta-language]] rather than to the [[object language]].
+
+The paradigmatic example of a judgment is a *typing judgment*.  The assertion that a term $t$ has type $A$ (written "$t:A$") is not a statement *in type theory* (that is, not something which one could assert and prove inside the type-theoretic system) but a statement *about type theory*.
+
+Often, type theories include only a particular small set of judgments, such as:
+
+* typing judgments
+* judgments of typehood (usually written $A \;type$)
+* judgments of [[equality]] between typed terms, written say $(t=t'):A$
+
+These limited sets of judgments are often defined [[inductive definition|inductively]] by giving "introduction rules" that specify under what hypotheses one is allowed to conclude the given judgment.  These inductive definitions can be formalized by choosing a particular type theory to be the meta-language; usually a very simple type theory suffices (such as a [[dependent type theory]] with only [[dependent product types]]).  Such a meta-type-theory is often called a [[logical framework]].
+
+
+[[!redirects judgments]]
+[[!redirects judgement]]
+[[!redirects judgements]]
