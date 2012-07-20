@@ -38,7 +38,7 @@ $$ hom(R, -) : CommRing \to CommRing $$
 
 Birings form a [[monoidal category]] thanks to the fact that functors of this form are closed under composition.  A [[monoid object]] in this monoidal category is called a [[plethory]].  A plethory is an example of a [[Tall–Wraith monoid]].
 
-The most important example of a biring is $\Lambda$, the ring of [[symmetric polynomials]].  This is actually a plethory.
+The most important example of a biring is $\Lambda$, the ring of [[symmetric polynomials]].  This is actually a [[plethory]].
 
 ## Categorified Birings ##
 
