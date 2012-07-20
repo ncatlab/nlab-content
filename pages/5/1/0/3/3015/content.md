@@ -53,9 +53,19 @@ Technicality:  If $C$ is a [[large category]], then $T(A)$ might be a [[proper c
 
 Given a type $T$ of structure on sets, we cannot quite reconstruct the category $C$, but we can reconstruct its [[core]] $C_\cong$.  That is, we can say what the [[objects]] and [[isomorphisms]] of $C$ are, if not the [[morphisms]] of $C$ in general.
 
-An object of $C$ is simply a pair $(A,\sigma)$ consisting of a set $A$ and an element $\sigma$ of $T(A)$.  Given two such objects, an isomorphism from $(A,\sigma)$ to $(B,\tau)$ is simply a structure-preserving map from $A$ to $B$, that is a bijection $f\colon A \to B$ such that $T(f)(\sigma) = \tau$.  Then it is straightforward to check that this defines a [[groupoid]] $C_\cong$.  This groupoid is naturally equipped with a faithful [[forgetful functor]] $U\colon C_\cong \to Set$, given by $U(A,\sigma) \coloneqq A$.
+An object of $C$ is simply a pair $(A,\sigma)$ consisting of a set $A$ and an element $\sigma$ of $T(A)$.  Given two such objects, an isomorphism from $(A,\sigma)$ to $(B,\tau)$ is simply a structure-preserving map from $A$ to $B$, that is a bijection $f\colon A \to B$ such that $T(f)(\sigma) = \tau$.  Then it is straightforward to check that this defines a [[groupoid]] $C_\cong$.  This groupoid, the __groupoid of $T$-structured sets__, is naturally equipped with a faithful [[forgetful functor]] $U\colon C_\cong \to Set$, given by $U(A,\sigma) \coloneqq A$.
 
-While defining isomorphisms of structured sets is an exact science, choosing more general morphisms of structured sets is something of an art.
+While defining isomorphisms of structured sets is an exact science, choosing more general morphisms of structured sets is something of an art.  In principle, we may define a (*not* the!) __category of $T$-structured sets__ by picking, for each $(A,\sigma)$ and $(B,\tau)$, a collection $Hom_{\sigma,\tau}(A,B)$ of [[functions]] from $A$ to $B$, such that:
+
+*  whenever $f \in Hom_{\sigma,\tau}(A,B)$ and $g \in Hom_{\tau,\upsilon}(B,C)$, then $f ; g \in Hom_{\sigma,\upsilon}(A,C)$;
+
+*  the [[identity map]] on $A$ belongs to $Hom_{\sigma,\sigma}(A,A)$; and
+
+*  a [[bijection]] $f$ from $A$ to $B$ is an isomorphism (as defined above) if and only if both $f \in Hom_{\sigma,\tau}(A,B)$ and $f^{-1} \in Hom_{\tau,\sigma}(B,A)$.
+
+The last condition states precisely that the [[underlying groupoid]] of any concrete category of $T$-structured sets is the groupoid of $T$-structured sets.
+
+Any category of $T$-structured sets is still (like the groupoid of such sets) a concrete category.
 
 
 ### Back and forth
@@ -76,7 +86,8 @@ Almost everything in contemporary [[mathematics]] is an example of a structured 
 *  [[sets]] themselves (trivially);
 *  [[groups]], [[rings]], and other objects of [[universal algebra]];
 *  [[topological spaces]] and other concrete (based on sets of [[points]]) notions of [[spaces]];
-*  *not* other notions of [[spaces]] such as [[locales]] or [[homotopy types]];
+*  some other notions of [[spaces]] such as [[locales]], as long as we only consider isomorphisms, but *not* using functions as the other morphisms;
+*  *not* some other notions of spaces such as [[homotopy types]] (at least if defined via topological spaces);
 *  [[strict categories]] (where the underlying set is the set of [[morphisms]]) but *not* [[categories]] treated up to [[equivalence of categories|equivalence]].
 
 
