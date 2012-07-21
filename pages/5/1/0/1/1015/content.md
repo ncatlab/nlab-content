@@ -43,6 +43,7 @@ In [[constructive mathematics]], a foundation based on [[type theory]] is popula
 
 
 ## Material vs structural set theory
+   {#MaterialSetTheory}
 
 On the $n$Lab we like to distinguish between two types of set theory, especially in foundations:
 
