@@ -8,7 +8,8 @@ are not necessarily allowed, or are only allowed with restrictions.
 
 Some particular substructural logics include:
 
-* [[linear logic]], perhaps the best-known to category theorists
-* Some forms of [[relevant logic]] can be regarded as substructural logics.
+* [[linear logic]], perhaps the best-known to category theorists, omits the contraction and weakening rules.  "Noncommutative linear logic" omits also the exchange rule.
+* [[affine logic]] omits only the contraction rule.  One might call it "coaffine logic" if we omit only the weakening rule.
+* Some forms of [[relevant logic]] and [[paraconsistent logic]] can be regarded as substructural logics (often of the coaffine variety).
 
 [[!redirects substructural logics]]
