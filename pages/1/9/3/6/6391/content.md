@@ -82,10 +82,15 @@ See [Lurie](#pLurie).
 
 * [[formal group]]
 
+* [[group scheme]]
+
 * [[Artin–Mazur formal group]]
 
 * [[height of a variety]]
 
+## Related entries
+
+*  [[lectures on p-divisible groups|Lectures on p-divisible groups]]
 
 ## References
 
