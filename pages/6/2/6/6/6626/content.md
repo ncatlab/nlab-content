@@ -26,7 +26,7 @@ From weaker to stronger:
 
 *  For __large separation__, $P$ must be written in the language of first-order class theory; of course, this only makes sense *in* a class theory.  The difference in strength between the class theories $MK$ and $NBG$ is precisely that the former has large separation but the latter does not.
 
-*  Separation is sometimes called __restricted comprehension__; for __full comprehension__ aka simply __comprehension__, no set $X$ needs to be given ahead of time.  Full comprehension was proposed by [[Gottlob Frege]] but leads to [[Russell's paradox]].
+*  Separation is sometimes called __restricted comprehension__; for __full comprehension__ aka simply __comprehension__, no set $X$ needs to be given ahead of time.  Full comprehension was proposed by [[Gottlob Frege]], but leads to [[Russell's paradox]].  However, full comprehension can sometimes be allowed if the ambient logic is nonclassical, such as [[linear logic]] or [[paraconsistent logic]].
 
 *  For __stratified comprehension__, no set $X$ is given, but $P$ is restricted to stratified formulas, in which each [[variable]] $x$ can be given a consistent [[natural number]] $\sigma(x)$ (its stratification) such that $x \in y$ appears in the formula only if $\sigma(y) = \sigma(x) + 1$.  This is used in [[Van Quine]]\'s [[New Foundations]].
 
