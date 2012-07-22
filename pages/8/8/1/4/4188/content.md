@@ -15,7 +15,7 @@ $$
   \iota : L_{0,1} \hookrightarrow X^-_0 \times X_1
 $$
 
-with $dim(L_{0,1}) = \frac{1}{2}(dim(x_0) + dim(X_1))$
+with $dim(L_{0,1}) = \frac{1}{2}(dim(X_0) + dim(X_1))$
 
 and
 
