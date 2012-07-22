@@ -1,11 +1,11 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Definition
 
-In any category, a **cospan** is a diagram like this:
+In any [[category]], a **cospan** is a diagram like this:
 $$
   \array{
      && a &&&& b
@@ -27,7 +27,6 @@ A cospan that admits a [[cone]] is called a [[quadrable cospan]].
 A cospan in the category $C$ is the same as a [[span]] in the [[opposite category]] $C^{op}$.  So, all general facts about cospans in $C$ are general facts about spans in $C^{op}$, and the reader may turn to the entry on [[span|spans]] to learn more.
 
 
-
 ## See also
 
 * [[Cospans in Algebraic Topology]]
@@ -35,6 +34,8 @@ A cospan in the category $C$ is the same as a [[span]] in the [[opposite categor
 * the [cograph of a function](http://ncatlab.org/nlab/show/graph+of+a+function#cograph)
 * the [[cograph of a functor]]
 
+
+[[!redirects cospan]]
 [[!redirects cospans]]
 [[!redirects opspan]]
 [[!redirects opspans]]
