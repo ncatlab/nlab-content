@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 #### Operator algebra
-+--{: .hide}
++-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 =--
@@ -15,8 +15,7 @@
 
 # Contents
 * automatic table of contents goes here
-{:toc}
-
+{: toc}
 
 ## Definitions
 
@@ -30,7 +29,7 @@ There are different concepts for the [[tensor product]] of $C^*-algebras$, see f
 
 ### Concrete $C^*$-algebras
 
-Given a [[Hilbert space]] $H$, a __concrete $C^*$-algebra__ in $H$ is a $*$-[[subalgebra]] of the algebra of [[bounded operators]] on $H$ that is [[closed subspace|closed]] in the [[norm topology]].  
+Given a [[Hilbert space]] $H$, a __[[concrete structure|concrete]] $C^*$-algebra__ on $H$ is a $*$-[[subalgebra]] of the algebra of [[bounded operators]] on $H$ that is [[closed subspace|closed]] in the [[norm topology]].  
 
 Similarly, a __[[representation of a C-star algebra|representation]]__ of a $C^*$-algebra $A$ on a [[Hilbert space]] $H$ is a $*$-homomorphism from $A$ to the algebra of [[bounded operators]] on $H$.
 
@@ -53,9 +52,11 @@ For a discussion of this in the finite-dimensional case see
 
 See also [[operator algebras]].
 
+
 ### GNS construction
 
 The [[GNS construction]] shows that every abstract $C^*$-algebra as a concrete $C^*$-algebra: a subalgebra of an algebra of [[bounded operator]]s on some [[Hilbert space]].
+
 
 ### Gelfand duality
 
@@ -107,7 +108,7 @@ $C^*$-algebras equipped with the [[action]] of a [[group]] by [[automorphisms]] 
 
 ## Examples
 
-* [[matric]] algebras;
+* [[matrix]] algebras;
 
 * [[uniformly hyperfinite algebra]]
 
