@@ -25,6 +25,7 @@ Here is a list of distinctions between different notions of _equality_, in diffe
 *  the difference between axiomatic and defined equality;
 *  the difference between identity and equality,
 *  the difference between intensional and extensional equality,
+*  the difference between equality judgements and equality propositions,
 *  the difference between equality and [[isomorphism]],
 *  the difference between equality and [[equivalence]],
 *  the possibility of operations that might not preserve equality.
