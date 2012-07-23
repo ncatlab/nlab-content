@@ -41,7 +41,7 @@ There are a number of possible resolutions of Russell's paradox.
 
 * In the set theory called [[New Foundations]], the axiom of comprehension is restricted in a rather different way, by requiring the set-defining formula to be "stratifiable".  Since the formula $x\notin x$ is not stratifiable, the set $R$ cannot be formed.
 
-* In most [[structural set theories]], there is no need to artificially restrict the set-formation rules: if sets cannot be elements of other sets, then the "definition" of $R$ is just a [[type]] error.
+* In most [[structural set theories]], there is no need to artificially restrict the set-formation rules: if sets cannot be elements of other sets, then the "definition" of $R$ is just a [[type]] error.  The same is true in other [[foundations|foundational systems]] such as [[type theory]].
 
 * Alternatively, one can change the underlying logic.  Passing to [[constructive logic]] does not help: although there is a seeming appeal to [[excluded middle]] (either $R\in R$ or $R\notin R$), without using excluded middle we can obtain that $R$ is both not in $R$ and not not in $R$, which is also a contradiction.  However, passing to [[linear logic]] (or even [[affine logic]]) does help: there is an unavoidable use of [[contraction rule|contraction]] in the paradox.  There exist consistent [[linear set theory|linear set theories]] with the full comprehension axiom, in which $R\in R$ implies $R\notin R$ and vice versa, but we can never get both $R\in R$ and $R\notin R$ at the same time to produce a paradox.
 
