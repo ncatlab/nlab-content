@@ -97,7 +97,7 @@ Finally, an __extended measure__ takes values in the set $[-\infty,\infty]$ of e
 
 In Henry Cheng\'s [[constructive mathematics|constructive]] theory of measure, the definition of [[measurable space]] becomes more complicated; the main point is that a single measurable set $S$ is replaced by a _complemented pair_ $(S,T)$.  Once that is understood, very little needs to be changed to define a measure space.
 
-In the requirements (1--3), the constants $\empty$ and $X$ and the operation $\union$ are interpreted by formal [[de Morgan duality]], as explained at [[measurable space]].  The convergence requirement in (3) should be interpreted in the strong sense of located convergence and is no longer trivial for positive measures.  We must add a further requirement to enforce the idea that $\mu(S,T)$ is the measure of $S$ alone, as follows:
+In the requirements (1--3), the constants $\empty$ and $X$ and the operation $\union$ are interpreted by formal [[de Morgan duality]], as explained at [[Cheng measurable space]].  The convergence requirement in (3) should be interpreted in the strong sense of located convergence and is no longer trivial for positive measures.  We must add a further requirement to enforce the idea that $\mu(S,T)$ is the measure of $S$ alone, as follows:
 
 *  $\mu(S,T) = \mu(S,U)$ whenever $(S,T)$ and $(S,U)$ are both complemented pairs.
 
@@ -148,15 +148,15 @@ if this [[supremum]] converges.  Classically, the integral either converges or d
 
 For any measurable function $f\colon X \to [-\infty, \infty]$, define $f_+$ and $f_{-}$ by 
 $$ f_+(x) = \max\{f(x), 0\}, \qquad f_{-}(x) = \max\{-f(x), 0\} $$ 
-so that $f = f_+ - f_{-}$, $|f| = f_+ + f_{-}$.  Then the final definition is
+so that $f = f_+ - f_{-}$, ${|f|} = f_+ + f_{-}$.  Then the final definition is
 $$ \int f \,\mu = \int f_{+} \,\mu - \int f_{-} \,\mu $$
 if both integrals on the right converge.  Classically, the other possibilities are $\infty$, $-\infty$, and $\infty - \infty$; not much can be done with the latter.
 
 A measurable function $f$ is **integrable** with respect to $\mu$ if this integral converges.  It can be proved that all of the definitions above are consistent; that is, if the final definition is applied to a simple function, then it agrees with the original definition.
 
 
-If $f$ takes values in the field $\mathbb{C}$ of [[complex numbers]] or in some more general [[Banach space]] $V$, then we can still ask whether $|f|$ is integrable.  If it is, then we say that $f$ is __absolutely integrable__.  We can then define the integral of $f$; we always have
-$$ \| \int f \,\mu \| \leq \int \|f\| \,\mu .$$
+If $f$ takes values in the field $\mathbb{C}$ of [[complex numbers]] or in some more general [[Banach space]] $V$, then we can still ask whether ${|f|}$ is integrable.  If it is, then we say that $f$ is __absolutely integrable__.  We can then define the integral of $f$; we always have
+$$ {\|\int f \,\mu\|} \leq \int {\|f\|} \,\mu .$$
 This integral is easy to define if $V$ has a basis; for example, a measurable complex-valued function $f\colon X \to \mathbb{C}$ is integrable iff both its real and imaginary parts are integrable, and we have
 $$ \int f \,\mu = \int \Re{f} \,\mu + \mathrm{i} \int \Im{f} \,\mu .$$
 
@@ -165,11 +165,11 @@ I need to check [[HAF]] for more details here in the general case.  In particula
 =--
 
 The vector space of $V$-valued integrable functions is itself a Banach space, using the norm
-$$ \|f\|_1 \coloneqq \int \|f\| \,\mu .$$
+$$ {\|f\|_1} \coloneqq \int {\|f\|} \,\mu .$$
 Note that we must use the notion of measurable function as an equivalence class of functions to get a Banach space here; otherwise we have only a pre-Banach space (that is, a complete pseudonormed vector space).
 
-This Banach space is called a __[[Lebesgue space]]__ and is denoted $L^1(\mu,V)$, $L^1(X,V)$, or just $L^1$, depending on context.  The default value of $V$ is usually either $\mathbb{R}$ or $\mathbb{C}$, depending on the author.  More general Lebesgue spaces of the form $L^p$ also exist; $f$ is in $L^p$ precisely when $|f|^p$ is integrable, and we use
-$$ \|f\|_p \coloneqq \root p {\int \|f\|^p \,\mu} $$
+This Banach space is called a __[[Lebesgue space]]__ and is denoted $L^1(\mu,V)$, $L^1(X,V)$, or just $L^1$, depending on context.  The default value of $V$ is usually either $\mathbb{R}$ or $\mathbb{C}$, depending on the author.  More general Lebesgue spaces of the form $L^p$ also exist; $f$ is in $L^p$ precisely when ${|f|^p}$ is integrable, and we use
+$$ {\|f\|_p} \coloneqq \root p {\int {\|f\|^p} \,\mu} $$
 as the norm.
 
 
