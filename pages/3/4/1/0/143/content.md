@@ -138,7 +138,7 @@ $$
    \to 
   \prod_i A(U_i)
    \stackrel{\to}{\to}
-  \prod_{i,j} PSh_C(j(U_i) \times_{j(U)} j(U_j))
+  \prod_{i,j} PSh_C(j(U_i) \times_{j(U)} j(U_j), A)
 $$
 
 is an [[equalizer]] diagram for each covering family.
