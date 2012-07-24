@@ -85,12 +85,12 @@ This is ([Coumans, theorem 39](#Coumans)).
 
 The notion was introduced in 
 
-* [[Michael Makkai]], _The topos of types_, Logic Year 1979{80 (Proc. Seminars and Conf. Math. Logic, Univ. Connecticut, Storrs, Conn., 1979/80), Lecture Notes in Math., vol. 859, Springer, Berlin (1981) pp. 157-201.
+* [[Michael Makkai]], _The topos of types_, Logic Year 1979-80 (Proc. Seminars and Conf. Math. Logic, Univ. Connecticut, Storrs, Conn., 1979/80), Lecture Notes in Math. __859__, Springer, Berlin (1981) pp. 157-201, [doi](http://dx.doi.org/10.1007/BFb0090947).
  {#Makkai}
 
 The relation to [[canonical extension]] is made explicit in 
 
-* Dion Coumans, _Generalizing canonical extension to the categorical setting_ 
+* Dion Coumans, _Generalizing canonical extensions to the categorical setting_, [pdf](http://www.math.ru.nl/~coumans/Generalisingcanonicalextensiontothecategoricalsetting-DionCoumans-vs2.pdf), to appear in Annals of Pure and Applied Logic  {#Coumans}
 
 [[!redirects toposes of types]]
 [[!redirects topoi of types]]
