@@ -92,3 +92,7 @@ In some versions of [[relevance logic]], no sequent can be valid unless the hypo
 
 * [English Wikipedia](http://en.wikipedia.org/wiki/Paraconsistent_logic)
 * [Stanford Encyclopedia of Philosophy](http://plato.stanford.edu/entries/logic-paraconsistent/)
+
+Paraconsistent logics (among other topic related to inconsistency) are covered in the book
+
+* Chris Mortensen, _Inconsistent Mathematics_, Kluwer Mathematics and Its Applications Series, Vol 312 (1995)
