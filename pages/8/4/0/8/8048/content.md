@@ -1,0 +1,7 @@
+## Definition
+
+(**suggestion**) Synonym for [[semigroup]] with zero, i.e. with such element $0$ that for any $x$
+
+$$
+x\cdot 0 = 0\cdot x = 0
+$$
