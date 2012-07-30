@@ -25,18 +25,23 @@ We can also define a local equality predicate $=_A$ on subsets of $A$:
 $$ B =_A C \;\Leftrightarrow\; B \subseteq C \;\wedge\; C \subseteq B .$$
 In foundations that already have a global equality predicate on sets (and functions between equal sets), this local equality predicate must be interpreted as an [[equivalence relation]]; then a __subset__ of $A$ is technically an [[equivalence class]] of injections to $A$ rather than simply an injection to $A$.
 
+In any case, if $A$ is a subset of $B$, then $B$ is a __superset__ of $A$.
+
 
 ## Remarks
 
 As you can see from the right-hand sides of the above sequence of definitions, one usually suppresses the subscript $A$ from the notation.  Even the right-hand side of (eq:indef) may use a local equality relation on elements of $A$.  It may be necessary to distinguish $x\colon E$ (the _[[type|typing declaration]]_ introducing a variable $x$ for an element of a given set $E$) from $x \in_A E$ (the _[[proposition]]_ that a given element $x$ of a given set $A$ is a member of a given subset $E$ of $A$).  Some authors may use $x \in A$ for either or both of these, trusting on context (particularly whether $x$ has been introduced before) to distinguish them.  Another notational convenience is to suppress the injection $i$, writing $y$ instead of $i(y)$.
 
-The concept of subset as it appears here generalises to [[subobject]] in category theory.  To be precise, a subset of $A$ is exactly a subobject of $A$ when $A$ is thought of as an object of the category [[Set]].
+The concept of subset as it appears here generalises to [[subobject]] in category theory.  To be precise, a subset of $A$ is exactly a subobject of $A$ when $A$ is thought of as an object of the category [[Set]].  The concept of superset then generalises to a notion of [[extension]] analogous to that of [[field extension]].
 
 When the abstract set $A$ is fixed, a subset $B$ of $A$ may be thought of as a __[[concrete structure|concrete]] set__.
 
 
 [[!redirects subset]]
 [[!redirects subsets]]
+
+[[!redirects superset]]
+[[!redirects supersets]]
 
 [[!redirects concrete set]]
 [[!redirects concrete sets]]
