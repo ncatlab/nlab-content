@@ -14,7 +14,7 @@ Some of the [[abstract nonsense]] below is original research (by [[Toby Bartels]
 
 From a [[constructive mathematics|constructive]] perspective, there are a couple of related problems with the classical theory of measurable spaces.  One is that the notion of $\sigma$-[[sigma-algebra|algebra]] is highly suspicious, because it relies on an operation, [[complement]]ation, that behaves very differently in [[intuitionistic logic]].  The other is that, even you acept the definition of $\sigma$-algebra (after all, the Lebesgue-measurable sets on the real line do still form one), there may be very few measurable functions.  (It is possible in constructive mathematics that every function from the [[real line]] to itself, regardless of measurability, is [[continuous function|continuous]].)
 
-Indeed, if we set aside the general theory of measurable spaces and simply do Lebesgue measure ad hoc in a constructive (even predicative) way, we find that instead of measurable [[functions]] we really want measurable [[partial functions]] whose domain of definition is a [[full subset]].  This suggests that if we want to define the concept of measurable function, then we have to know what the full sets are, so we need a measurable space equipped with such a notion.
+Indeed, if we set aside the general theory of measurable spaces and simply do Lebesgue measure ad hoc in a constructive (even predicative) way, we find that instead of measurable [[functions]] we really want measurable [[partial functions]] whose domain of definition is a [[full subset]], the [[almost functions]].  This suggests that if we want to define the concept of measurable function, then we have to know what the full sets are, so we need a measurable space equipped with such a notion.  But since this is usually defined relative to a measure, well *after* the structure of the measurable space has been given, we are at an impasse.
 
 There is a way out, due to [[Henry Cheng]], for both of these problems at once.  Instead of dealing with individual subsets, we will deal with pairs of [[disjoint subsets]].  The intuition is that we use disjoint pairs $(A,B)$ such that $A \cup B$ is full ---with $(A,\neg{A})$ being the motivating example in the classical theory---, but we let the Cheng measurability structure itself tell us which pairs those are.  Once we fix a particular measure, we may find additional pairs whose union is full, somewhat like finding additional measurable sets when taking the completion in the classical theory (although taking the completion is a separate phenomenon here), but that\'s all right; the important thing is that each pair chosen really is full in any measure used (much as each set in a classical $\sigma$-algebra must actually be measurable by any measure used).
 
@@ -75,7 +75,7 @@ A [[subset]] $A$ of a Cheng space $X$ is __[[measurable subset|measurable]]__ if
 
 Given two Cheng measurable spaces $X$ and $Y$, an __[[almost function]]__ from $X$ to $Y$ is a [[partial function]] from $X$ to $Y$ such that the [[domain]] of $f$ is full.  An almost function is __[[measurable function|measurable]]__ if, given any complemented pair $(C,D)$ in $Y$, there is a complemented pair $(A,B)$ such that $\{p\colon X \;|\; p \in A \iff f(p) \in C\}$ and $\{p\colon X \;|\; p \in B \iff f(p) \in D)$ are both full.
 
-Two (measurable) functions are __almost equal__ if their [[equaliser]] is full.
+Two (measurable) functions are __[[almost equal]]__ if their [[equaliser]] is full.
 
 Cheng spaces, measurable almost functions between them, and almost equality between them form a [[category]] $Cheng Sp$.
 
@@ -95,7 +95,7 @@ When restricted to complete spaces, the definition of measurable function is sim
 
 We will define the notion of a [[positive measure]] on a Cheng space; it's straightforward to generalise to other sorts of measures as described at [[measure]].
 
-Given a Cheng space $(X,\mathcal{M}$, a __positive measure__ on $(X,\mathcal{M}$ is a [[function]] $\mu$ from $\mathcal{M}$ to $[0,\infty]$ such that:
+Given a Cheng space $(X,\mathcal{M})$, a __positive measure__ on $(X,\mathcal{M})$ is a [[function]] $\mu$ from $\mathcal{M}$ to $[0,\infty]$ such that:
 
 *  [[absolutely continuous measure|absolute continuity]]: $\mu(A,B) = 0$ if $B$ is full;
 *  [[inclusion-exclusion]]: $\mu(A \cap C, B \cup D) + \mu(A \cup C, B \cap D) = \mu(A,B) + \mu(C,D)$;
