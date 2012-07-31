@@ -30,7 +30,7 @@ In a given [[logic]], in a given [[context]], we have various [[propositions]] a
 
 Classically, a theorem is a proposition for which there *exists* a proof, but in some contexts (such as, perhaps, fully formalized [[constructive mathematics|constructive]] [[type theory]]), one may use "theorem" to mean a proposition *together with* a proof.
 
-A theorem should be contrasted with a [[tautology]]: a proposition that is [[truth|true]] in all [[models]].  If every tautology (in a given context) is a theorem, then we say that the context is __complete__ (relative to a given class of models); if every theorem is a tautology, then the context is __sound__.  (A logic is complete or sound if all of its contexts are.)
+A theorem should be contrasted with a [[tautology]]: a proposition that is [[truth|true]] in all [[models]].  If every theorem in a given logic is a tautology in a given class of models for that logic, then we say that the class of models is __sound__ for that logic; if conversely every tautology is a theorem, then we say that the class of models is __complete__.
 
 
 ## Examples
