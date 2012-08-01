@@ -2,22 +2,22 @@
 
 An _iterated monoidal category_, or $n$-fold monoidal category for varying $n$, is an algebraic analogue of the concept of [[n-fold loop space]]. By means of a suitable [[bar construction]], the [[geometric realization]] of an $n$-fold monoidal category, or rather its group completion, bears a structure of $n$-fold loop space. 
 
-Roughly speaking, the iterative idea is that an $(n+1)$-fold monoidal category is a (pseudo-)monoid in the monoidal 2-category of $n$-fold monoidal categories and (lax) $n$-fold monoidal functors. Were the laxity to be strengthened so that the relevant structure constraints become isomorphisms, we would get braided monoidal categories in the case $n = 2$, and symmetric monoidal categories at $n = 3$ and beyond (in other words, the concept stabilizes at $n = 3$). Without that strengthening, however, we get a new type of structure for each $n$, without stabilization. 
+Roughly speaking, the iterative idea is that an $(n+1)$-fold monoidal category is a (pseudo-)monoid in the monoidal 2-category of $n$-fold monoidal categories and (normal lax) $n$-fold monoidal functors. Were the laxity to be strengthened so that the relevant structure constraints become isomorphisms, we would get braided monoidal categories in the case $n = 2$, and symmetric monoidal categories at $n = 3$ and beyond (in other words, the concept stabilizes at $n = 3$). Without that strengthening, however, we get a new type of structure for each $n$, without stabilization. 
 
 ## Definition 
 
-Let $C$ be a 2-category with 2-products. Form a new 2-category with 2-products $Mon(C)$ whose 
+Let $C$ be a 2-category with 2-products. Form a new 2-category with 2-products $Mon_{norm}(C)$ whose 
 
 * $0$-cells are (pseudo)monoids in $C$. 
 
-* $1$-cells are lax homomorphisms of monoids. 
+* $1$-cells are _normal_ lax homomorphisms of monoids. 
 
-* $2$-cells are lax transformations between lax homomorphisms. 
+* $2$-cells are lax transformations between normal lax homomorphisms. 
 
 The 2-product structure on $Mon(C)$ is inherited from the 2-product structure of $C$. 
 
 +-- {: .num_def}
 ###### Definition 
-A $0$-fold monoidal category is an ordinary category; the 2-category of $0$-fold monoidal categories is $Cat$. By recursion, the 2-category of $n$-fold monoidal categories is $Mon(C)$ where $C$ is the 2-category of $(n-1)$-fold monoidal categories; objects of $Mon(C)$ are of course called $n$-fold monoidal categories. 
+A $0$-fold monoidal category is an ordinary category; the 2-category of $0$-fold monoidal categories is $Cat$. By recursion, the 2-category of $n$-fold monoidal categories is $Mon_{norm}(C)$ where $C$ is the 2-category of $(n-1)$-fold monoidal categories; objects of $Mon_{norm}(C)$ are of course called $n$-fold monoidal categories. 
 =-- 
 
