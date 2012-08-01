@@ -48,6 +48,8 @@ $$Tree \overset{\to}{\leftarrow} Forest$$
 
 which in one direction is the functor which sends a tree to the forest which results by excising the root and all edges incident to it, and in the other sends a forest to the tree gotten by adjoining a new root and joining the roots of the forest to that new root by new edges. 
 
+This equivalence can be exploited to relate the [[exponential generating function]] for finite rooted trees to the [[Lambert W-function]] (q.v.). 
+
 A tree in the form of an _undirected_ graph together with a chosen vertex can be regarded as a rooted tree in digraph form (with root the chosen vertex), by orienting all edges in the direction of paths going to the root. The category of rooted trees has very nice categorical properties not shared by the category of unrooted trees; see the following section. 
 
 
