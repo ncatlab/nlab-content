@@ -18,7 +18,13 @@ Some things I am considering trying to write about, or contribute to. (This is m
 
 
 ### I ATEN'T DEAD ###
-(but have a backlog to clear)
+(but am still rather snowed under)
+
+### A survey paper which is more rewarding than this page ###
+J.M.F. Castillo. The hitchhiker guide to categorical Banach space theory. Part I.
+Extracta Math. 25(2) (2010), 103--149.
+
+(Currently freely available on the [journal's website](http://www.eweb.unex.es/eweb/extracta/) )
 
 category: people
 
