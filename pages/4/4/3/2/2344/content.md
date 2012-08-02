@@ -148,11 +148,12 @@ In a representable derivator (i.e. in ordinary category theory), the colimit of 
 By contrast, in the derivator coming from a model category or $(\infty,1)$-category, the colimit of a constant diagram of shape $I$ is a copower with the [[nerve]] of $I$ regarded as an $\infty$-groupoid, so in this case any functor that induces a homotopy equivalence of nerves (a stronger condition) will be a $D$-equivalence.  In fact, one can show:
 
 +-- {: .num_theorem #NerveEquiv}
-###### Theorem (Cisinski)
-In any derivator $D$, any functor which induces a homotopy equivalence of nerves is a $D$-equivalence.
+###### Theorem
+**(Heller, Cisinski)**
+A functor which induces a homotopy equivalence of nerves is a $D$-equivalence for any derivator $D$.
 =--
 
-This theorem follows from Cisinski's theorem that the nerve equivalences are the smallest [[basic localizer]], once we verify that the $D$-equivalences are in fact a basic localizer.
+This was proven by [Heller](#Heller) using the canonical [[enriched derivator|enrichment]] of any derivator over $\infty$-groupoids.  It also follows from Cisinski's theorem that the nerve equivalences are the smallest [[basic localizer]], once we verify that the $D$-equivalences are in fact a basic localizer---as we will now proceed to do.
 
 +-- {: .num_lemma}
 ###### Lemma
@@ -360,6 +361,7 @@ The first fifteen chapters of a 2000 page manuscript of Grothendieck (in French)
 Independently, there is a version due to Heller (who called them "homotopy theories"):
 
 * Alex Heller, _Homotopy theories_ , Memoirs of the American Mathematical Society, Vol. 71, No 383 (1988).
+{#Heller}
 * Alex Heller, _Stable homotopy theories and stabilization_ , [MR](http://www.ams.org/mathscinet-getitem?mr=1431157) -- see [[pointed derivator]] and [[stable derivator]]
 
 Apparently also independent is the development by Franke, who takes an enriched approach to the pointed case and also assumes stability:
