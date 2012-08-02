@@ -158,7 +158,7 @@ In the even more special case that $X$ is [[Minkowski spacetime]], where we may 
 Remaining in the case that $X$ is [[Minkowski space]] but allowing now a nontrivial background field, notice that we may write the 2-form $F$ always as
 
 $$
-  F = \vec E_i \cdot d x^i \wedge d t + \vec B^i \epsilon_{i j k} d x^j \wedge d x^j
+  F = \vec E_i \cdot d x^i \wedge d t + \vec B^i \epsilon_{i j k} d x^j \wedge d x^k
   \,,
 $$
 
