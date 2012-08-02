@@ -42,7 +42,11 @@ Before this approach was advanced in Cartan-Eilenberg's _Homological algebra_, L
 
 $$Hom_{\mathfrak{g}}(U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g},M)\cong Hom_k(\Lambda^* \mathfrak{g},M),$$ 
 
-where the first argument $U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g}$ is naturally equipped with a differential to start with (see below). The first argument in the Hom, i.e. $U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g}$ is sometimes called the Chevalley-Eilenberg chain complex (cf. Weibel); the [[Chevalley-Eilenberg cochain complex]] is the whole thing, i.e. 
+where the first argument $U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g}$ is naturally equipped with a differential to start with (see below).
+
+WHERE  BELOW?
+
+ The first argument in the Hom, i.e. $U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g}$ is sometimes called the Chevalley-Eilenberg chain complex (cf. Weibel); the [[Chevalley-Eilenberg cochain complex]] is the whole thing, i.e. 
 
 $$CE(\mathfrak{g},M) := Hom_{\mathfrak{g}}(U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g},M)\cong Hom_k(\Lambda^* \mathfrak{g},M).$$
 
