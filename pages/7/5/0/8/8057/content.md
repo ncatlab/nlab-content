@@ -1,28 +1,37 @@
+
+# Fixed-point combinators
+* table of contents
+{: toc}
+
 ## Idea 
 
-In [[combinatory logic]], or in the pure or untyped [[lambda-calculus]], a fixed-point combinator is a term $Y$ which, when applied to any term $n$, yields a term $Y n$ that is a fixed-point: $n(Y n) = Y n$. 
+In [[combinatory logic]], or in the pure or untyped [[lambda-calculus]], a fixed-point combinator is a term $Y$ which, when applied to any term $n$, yields a term $Y n$ that is a fixed-point of $n$:
+$$ n (Y n) = Y n .$$
+
 
 ## Construction 
 
-There are many ways of constructing a fixed-point combinator. A traditional construction, as formulated in the lambda-calculus, is 
+There are many ways of constructing a fixed-point combinator. A traditional construction, as formulated in the [[lambda-calculus]], is 
 
-$$Y = \lambda n. (\lambda s. n(s s))(\lambda s. n(s s))$$ 
+$$ Y = \lambda n. (\lambda s. n (s s)) (\lambda s. n (s s)) $$ 
 
-For a given term $n$, put $t = \lambda s. n(s s)$. We then have $Y n = t t$, and we also have 
+For a given term $n$, put $t = \lambda s. n (s s)$. We then have $Y n = t t$, and we also have 
 
-$$\array{
-Y n & = & (\lambda s. n(s s))(\lambda s. n(s s)) \\
- & = & (\lambda s. n(s s))(t) \\ 
- & = & n(t t) \\ 
- & = & n(Y n)
+$$ \array {
+Y n & = & (\lambda s. n (s s)) (\lambda s. n (s s)) \\
+ & = & (\lambda s. n (s s)) (t) \\ 
+ & = & n (t t) \\ 
+ & = & n (Y n)
 }$$ 
 
 so that $Y n$ is a fixed point of $n$. Compare Lawvere's proof of [[Cantor's theorem]]. 
 
-In combinatory logic (based on combinators $S$, $K$, $I$), one construction is  
+In [[combinatory logic]] (based on the combinators $S$, $K$, and $I$), one construction is  
 
-$$Y = S (K (S I I)) (S (S (K S) K) (K (S I I)))$$ 
+$$ Y = S (K (S I I)) (S (S (K S) K) (K (S I I))) $$ 
 
 following the standard formulas $S x y z = (x z)(y z)$, $K x y = x$ and $I x = x$, and where bracketings left unspecified are by convention to the left. (To be expanded...) 
 
 
+[[!redirects fixed-point combinator]]
+[[!redirects fixed-point combinators]]
