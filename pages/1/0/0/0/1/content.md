@@ -80,7 +80,7 @@ Usually this works well. If there is need for discussion, the
 
 The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  
 
-Notice that **you don't need to know any MathML**. Only your browser does. You write formulas into the $n$Lab between dollar signs in [iTeX](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html), which is designed to be very similar to ordinary LaTeX.
+Notice that **you don't need to know any MathML**. Only your browser does. You write formulas into the $n$Lab between dollar signs in [iTeX](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html), which is designed to be [comparateur forfait mobile](http://www.forfait-mobile.info) very similar to ordinary LaTeX.
 
 Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display MathML automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
 
@@ -89,24 +89,7 @@ Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how 
  {#SteeringCommitte}
 
 The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have. 
-<a href="http://www.seoweblog.net">Jasa SEO</a>
-<a href="http://www.seoweblog.net">Jasa SEO Murah</a>
-<a href="http://www.seoweblog.net">SEO Indonesia</a>
-<a href="http://www.seoweblog.net">SEO</a>
-<a href="http://www.bisnisukm.biz">Bisnis UKM</a>
-<a href="http://www.tertinggal.com">Tertinggal</a>
-<a href="http://www.bisnismodalkecil.org">Bisnis Modal Kecil</a>
-<a href="http://www.cheapes.info">Cheapes</a>
-<a href="http://www.hostgator-coupon.co">Hostgator Coupon</a>
-<a href="http://www.linkbooking.info">Link Booking</a>
-<a href="http://www.televisoriofferte.info">Televisori offerte</a>
-<a href="http://www.notebook-offerte.info">Notebook Offerte</a>
-<a href="http://www.govr.info">Govr</a>
-<a href="http://www.ezido.info">Edo Ziedo</a>
-<a href="http://www.portatileapple.info">Portatile Apple</a>
-<a href="http://www.rdanet.info">RDAnet</a>
-<a href="http://www.lorks.info">Lorks</a>
-<a href="http://www.karikaturmurah.com">Karikatur</a>
+
 
 category: meta
 
