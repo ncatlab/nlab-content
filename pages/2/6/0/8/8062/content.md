@@ -1,0 +1,29 @@
+## Idea
+
+Continuous logic is a logic whose truth values can take continuous values in $[0,1]$. The main variant used in model theory is motivated by the model theory of Banach spaces and alike structures. The truth is interpreted as probability and there is a concept of random predicates. 
+
+## References
+
+Continuous logic is introduced in
+
+* C. W. Henson, J. Iovino, _Ultraproducts in analysis_ in: Analysis and Logic, London Math. Soc. Lecture Note Series __262__, Cambridge University Press 2002.
+
+motivated by
+
+* Chen-Chung Chang, Jerome H. Keisler, _Continuous Model Theory_,
+Annals of Mathematics Studies __58__, 1966.
+
+A recent version is in
+
+* Itay Ben-Yacoov, _Uncountable dense categoricity in cats_, J. Symb. Logic __70__, 829--860, 2005
+* I. Ben-Yacoov, _Continuous first-order logic and logical stability_, [pdf](http://math.univ-lyon1.fr/~begnac/articles/cfo.pdf)
+* Itay Ben-Yaacov, Alex Usvyatsov. _Logic of metric spaces and Hausdorff CATs_
+* Itay Ben Yaacov, Alexander Berenstein, Ward C. Henson, Alexander Usvyatsov,
+_Model Theory for metric structures_, in Model Theory with Applications to Algebra and Analysis, Volume 2, Cambridge University Press, 2008, [pdf](http://matematicas.uniandes.edu.co/~aberenst/mtfms.pdf)
+* Alexander Berenstein, Andres Villaveces, _Hilbert spaces with random predicates_, [pdf](http://matematicas.uniandes.edu.co/~aberenst/amalg10.pdf) 
+
+An older and rather _different system_ also called continuous logic of a Russian school is surveyed
+
+* Vitaly I. Levin, _Basic concepts of continuous logic_, Studies in logic grammar and rethoric, 11 (24) 2007, [pdf](http://math.univ-lyon1.fr/~begnac/articles/cfo.pdf)
+
+There is a version of [[abstract elementary classes]] in the setting of continuous logic, [[metric abstract elementary class]]es. 
