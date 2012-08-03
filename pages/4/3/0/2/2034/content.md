@@ -105,7 +105,7 @@ $$
   for\; n \gt 0: \pi_n GL_1(S) \simeq \pi_n 
 $$
 
-hence for $R \to S$ e&#233;tale
+hence for $R \to S$ &#233;tale
 
 $$
   \pi_n S \simeq \pi_n R \otimes_{\pi_0 R} \pi_0 S
