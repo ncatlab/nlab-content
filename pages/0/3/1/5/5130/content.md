@@ -4,3 +4,4 @@ His webpage is [here](http://www.pps.jussieu.fr/~mellies/).
 
 
 category: people
+[[!redirects Paul André Melliès]]
