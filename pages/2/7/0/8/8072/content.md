@@ -1,0 +1,5 @@
+__Rami Grossberg__ is a mathematician at Carnegie Mellon University. He specialized in [[model theory]], especially the classification theory of [[elementary class|nonelementary classes]], infinitary logics, combinatorial set theory and applications to algebra. He wrote his thesis at Hebrew University, Jerusalem in 1986 supervised by [[Saharon Shelah]].
+
+* [webpage](http://www.math.cmu.edu/~rami) with a list of publications
+* Rami Grossberg, _Classification theory for abstract elementary classes_, Logic and Algebra, ed. Yi Zhang, Contemporary Mathematics __302__, AMS, (2002) 165--204, [pdf](http://www.math.cmu.edu/~rami/Rami-NBilgi.pdf) 
+* Rami Grossberg, Monica VanDieren, _Galois-stability for tame abstract elementary classes_, Journal of Mathematical Logic __6__, No. 1 (2006) 25--49, [pdf](http://www.math.cmu.edu/~rami/tame.pdf)
