@@ -1,0 +1,4 @@
+The notion of __forking extension__ is introduced by Shelah, see
+
+* [[Saharon Shelah]], _Classification theory and the number of non-isomorphic models_, revised edition, North-Holland (1990)
+
