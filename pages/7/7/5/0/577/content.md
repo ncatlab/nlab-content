@@ -65,14 +65,23 @@ This monad is cartesian if
   is a pullback.
 
 
-## Examples
+## Examples and Non-Examples
 
-* The [[free monoid]] monad $(-)^*: Set \to Set$ is cartesian. 
+* The [[free monoid]] monad $(-)^*: Set \to Set$ is cartesian.
 
 * The [[free category]] monad acting on [[quivers]] is cartesian.
 
 * The free strict $\omega$-[[strict omega-category|category]] monad acting on [[globular set]]s, $T: Set^{G^{op}} \to Set^{G^{op}}$, is cartesian. 
 
+* The [[free strict monoidal category]] monad on $\mathrm{Cat}$ is cartesian.
+
+* The [[free symmetric strict monoidal category]] monad on $\mathrm{Cat}$ -- where all coherence cells are required to be identities _except_ the symmetries $A\otimes B \cong B \otimes A$ -- is cartesian.
+
+BUT:
+
+* The [[free commutative monoid]] monad on $\mathrm{Set}$ is **NOT** cartesian.
+
+* The [[free strict symmetric monoidal category]] monad on $\mathrm{Cat}$ -- where all the coherence cells are required to be identities _including_ the symmetry isomorphisms $A \otimes B \cong B \otimes A$ -- is **NOT** cartesian. In fact this is exactly the free commutative monoid monad on $\mathrm{Cat}$.
 
 ##Remarks
 
