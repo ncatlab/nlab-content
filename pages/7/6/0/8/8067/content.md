@@ -1,2 +1,2 @@
 
-This page us about amalgamation property in [[model theory]], related to amalgams = pushouts in category theory.
+This page is about the [[amalgamation property]] in [[model theory]], related to amalgams = [[pushouts]] in category theory.
