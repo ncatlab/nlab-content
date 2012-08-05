@@ -27,9 +27,14 @@
 
 ## Definition
 
-The category of **von Neumann algebras** (also known as **W\*-algebras**)
-is the [[subcategory]] of the category of [[C*-algebra|C*-algebras]]
-consisting of C\*-algebras that admit a predual and morphisms of C\*-algebras that admit a predual.
+A von Neumann algebra is a unital \*-subalgebra of the algebra of bounded operators on a complex Hilbert space, which is closed in weak operator topology.
+
+Clearly, they are automatically closed in norm topology, hence they form a (particularly nice) class of C\*-algebras.
+
+More intrinsically to the category of C\*-algebras, 
+its [[subcategory]] of **von Neumann algebras** (also known as **W\*-algebras**)
+is the full subcategory consisting of those [[C*-algebra|C*-algebras]]
+that admit a [[predual]] and morphisms of C\*-algebras that admit a predual.
 
 More precisely, a von Neumann algebra is a C\*-algebra $A$
 such that there exits a [[Banach space]] $V$ (a **predual**)
