@@ -1,3 +1,4 @@
+
 A class of [[structures in model theory]] has the __amalgamation property__ if for any three structures $A,B,C$ and embeddings $f_B: A\hookrightarrow B$, $f_C: A\hookrightarrow C$, there exist embeddings $g_B:B\hookrightarrow D$ and $g_C: C\hookrightarrow D$ such that $g_B\circ f_B = g_C\circ f_C$. 
 
 One of the simplest cases is when the free amalgam of structures $B\oplus_A C$ exists.  
@@ -15,3 +16,8 @@ Recent references include
 * John T. Baldwin, Alexei Kolesnikov, [[Saharon Shelah]], 
 _The amalgamation spectrum_, J. Symbolic Logic __74__:3 (2009) 914-928, [MR2548468](http://www.ams.org/mathscinet-getitem?mr=2548468), [doi](http:/dx.doi.org/10.2178/jsl/1245158091[euclid](http://projecteuclid.org/euclid.jsl/1245158091)
 * J D Brody, _Model theory of graphs_, thesis, [pdf](http://tarski.fandm.edu/brody/mainthesis.pdf)
+
+
+[[!redirects amalgamation]]
+[[!redirects amalgamations]]
+[[!redirects amalgamation property]]
