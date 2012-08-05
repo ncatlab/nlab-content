@@ -7,7 +7,7 @@
 
 An $\mathcal{M}$-category is a [[category]] with two classes of [[morphisms]]: *tight* and *loose*.
 
-A [[categorification]] of the concept of $\mathcal{M}$-category to $2$-[[2-category|categories]] is the concept of $\mathcal{F}$-[[F-category|category]].  (There are other possible categorifications, such as locally $\mathcal{M}$-enriched 2-categories, or locally $\mathcal{M}$-enriched $\mathcal{F}$-categories.)  In particular, every $\mathcal{M}$-category is an $\mathcal{F}$-category with only identity $2$-[[2-morphism|morphisms]], and a $\mathcal{F}$-category can be considered as a $\mathcal{M}$-category by forgetting its nonidentity 2-cells.
+A [[categorification]] of the concept of $\mathcal{M}$-category to $2$-[[2-category|categories]] is the concept of $\mathcal{F}$-[[F-category|category]].  (There are other possible categorifications, such as locally $\mathcal{M}$-enriched $2$-categories, or locally $\mathcal{M}$-enriched $\mathcal{F}$-categories.)  In particular, every $\mathcal{M}$-category is an $\mathcal{F}$-category with only identity $2$-[[2-morphism|morphisms]], and an $\mathcal{F}$-category becomes an $\mathcal{M}$-category upon forgetting its nonidentity $2$-cells.
 
 
 ## Definitions
@@ -59,7 +59,7 @@ $$\hom_{\mathcal{M}}((0, 1), (T, L)) \cong L.$$
 
 *  Given any [[faithful functor]] $F\colon C \to D$, we may make $C$ into an $\mathcal{M}$-category whose tight morphisms are the original morphisms of $C$ and whose loose morphisms from $x$ to $y$ are the $D$-morphisms from $F(x)$ to $F(y)$.  This includes all of the examples above; up to [[equivalence of categories|equivalence]], this includes all examples.
 
-* Let $T$ be a strict 2-monad on a strict 2-category. Then the strict $T$-algebras form an $\mathcal{M}$-category $T-\mathrm{Alg}$ where tight morphisms are the strict algebra morphisms and the loose morphisms are the pseudo algebra morphsims. This is just a decategorified version of the $\mathcal{F}$-category of $T$-algebras, which also includes the 2-cells between algebras. 
+* Let $T$ be a strict 2-monad on a strict 2-category. Then the strict $T$-algebras form an $\mathcal{M}$-category $T \mathrm{Alg}$ where tight morphisms are the strict algebra morphisms and the loose morphisms are the pseudo algebra morphsims. This is just a decategorified version of the $\mathcal{F}$-category of $T$-algebras, which also includes the 2-cells between algebras. 
 
 * More generally, any strict $\mathcal{F}$-category can be made into an $\mathcal{M}$-category by forgetting the non-identity 2-cells. 
 
