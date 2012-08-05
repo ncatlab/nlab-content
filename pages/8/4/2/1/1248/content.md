@@ -76,7 +76,7 @@ Given a set $S$, there is no [[injection]] from $\mathcal{P}S$ to $S$.
 +-- {: .proof}
 ###### Proof
 
-Let $i\colon \mathcal{P}S$ to $S$ be any function.  Define $f\colon S \to \mathcal{P}S$ as follows:
+Let $i\colon \mathcal{P}S \to S$ be any function.  Define $f\colon S \to \mathcal{P}S$ as follows:
 $$ f(a) = \{ b\colon S \;|\; \forall (U\colon \mathcal{P}S),\; i(U) = a \;\Rightarrow\; b \in U \} .$$
 If $i$ is an injection, then $f$ is a [[retraction]] of $i$ and hence a surjection, which is impossible by Theorem \ref{cantor}.
 =--
