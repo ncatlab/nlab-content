@@ -6,11 +6,11 @@ If $V$ is a [[closed category]] (for example a [[closed monoidal category]]), wi
 
 * The dual $X^\ast$ of a Banach space $X$ is generally not the dual in any sense that guarantees $X^\ast \otimes -$ is [[adjoint functor|left or right adjoint]] to $X \otimes -$, unless $X$ is finite-dimensional. (Here the monoidal product is the usual one that makes the closed category of Banach spaces a closed monoidal category.) In particular, there is generally no appropriate unit of the form $I \to X^\ast \otimes X$. 
 
-However, for a [[compact closed category]], a dual object (in one or another monoidal category sense; see [[category with duals]]) _is_ a dual in the closed category sense. In short, the former is a stronger notion. 
+For a [[compact closed category]], a dual object (in one or another monoidal category sense; see [[category with duals]]) _is_ the same as a dual in the closed category sense. But in general, monoidal duals are a stronger notion than duals in the closed category sense. 
 
 Of course, where the monoidal product is not [[braided monoidal category|braided or symmetric monoidal]], due care must be exercised in distinguishing between between different types of monoidal dual (left or right dual). 
 
-* If $V$ is a [[star-autonomous category]], "dual object" has a different meaning: it usually is taken to mean $A^\ast \cong A \multimap D$ where $D$ is the dualizing object. In a $\ast$-autonomous category where $D$ and $I$ are not isomorphic (e.g., a [[Boolean algebra]]), this gives something genuinely different from "dual" in the sense of this page. But again, these two meanings, $A \multimap I$ and $A \multimap D$, coincide in the case where the $\ast$-autonomous category is compact closed. 
+* If $V$ is a [[star-autonomous category]], "dual object" has a different meaning: it usually is taken to mean $A^\ast \cong A \multimap \bot$ where $\bot$ is the dualizing object. In a $\ast$-autonomous category where $\bot$ and $I = \top$ are not isomorphic (e.g., a [[Boolean algebra]]), this gives something genuinely different from "dual" in the sense of this page. But again, these two meanings, $A \multimap \top$ and $A \multimap \bot$, coincide in the case where the $\ast$-autonomous category is compact closed. 
 
 
 [[!redirects dual object in a closed monoidal category]]
