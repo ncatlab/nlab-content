@@ -1,7 +1,16 @@
+[[!redirects dual object in a closed monoidal category]]
 
-If $V$ is a [[closed monoidal category]] or otherwise a [[closed category]] (with the [[internal hom]] denoted as $A \multimap B$, and the unit object as $I$), then the **dual** of an object $A$ is usually taken to mean $A \multimap I$. This applies for example to categories of [[modules]] over a [[commutative ring]], to the category of [[Banach spaces]], etc., with their usual closed monoidal structures. 
+If $V$ is a [[closed category]] (for example a [[closed monoidal category]]), with the [[internal hom]] denoted as $A \multimap B$ and the unit object as $I$, then the **dual** of an object $A$ is usually taken to mean $A \multimap I$. This applies for example to categories of [[modules]] over a [[commutative ring]], to the category of [[Banach spaces]], etc., with their usual closed monoidal structures. 
 
-However, if $V$ is a [[star-autonomous category]], "dual object" has a different meaning. See there for more detail, but it usually is taken to mean $A^\ast \cong A \multimap D$ where $D$ is the dualizing object. These two meanings, $A \multimap I$ and $A \multimap D$, coincide if $V$ is a [[compact closed category]]. 
+**Warning:** A dual in the sense above might not be a [[dual object]] in other established senses of the word. For example, 
+
+* The dual $X^\ast$ of a Banach space $X$ is generally not the dual in any sense that guarantees $X^\ast \otimes -$ is [[adjoint functor|left or right adjoint]] to $X \otimes -$, unless $X$ is finite-dimensional. (Here the monoidal product is the usual one that makes the closed category of Banach spaces a closed monoidal category.) In particular, there is generally no appropriate unit of the form $I \to X^\ast \otimes X$. 
+
+However, for a [[compact closed category]], a dual object (in one or another monoidal category sense; see [[category with duals]]) _is_ a dual in the closed category sense. In short, the former is a stronger notion. 
+
+Of course, where the monoidal product is not [[braided monoidal category|braided or symmetric monoidal]], due care must be exercised in distinguishing between between different types of monoidal dual (left or right dual). 
+
+* If $V$ is a [[star-autonomous category]], "dual object" has a different meaning: it usually is taken to mean $A^\ast \cong A \multimap D$ where $D$ is the dualizing object. In a $\ast$-autonomous category where $D$ and $I$ are not isomorphic (e.g., a [[Boolean algebra]]), this gives something genuinely different from "dual" in the sense of this page. But again, these two meanings, $A \multimap I$ and $A \multimap D$, coincide in the case where the $\ast$-autonomous category is compact closed. 
 
 
 [[!redirects dual object in a closed monoidal category]]
