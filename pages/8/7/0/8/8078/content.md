@@ -1,0 +1,25 @@
+
+# Duals
+
+There are various kinds of duals.
+
+
+Specific:
+
+* [[dual vector space]],
+* [[Pontrjagin dual]],
+* etc.
+
+
+General:
+
+* [[category with duals]],
+* [[(infinity,n)-category with duals]],
+* etc.
+
+
+See also [[duality]].
+
+
+[[!redirects dual]]
+[[!redirects duals]]
