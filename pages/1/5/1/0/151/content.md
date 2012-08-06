@@ -1,3 +1,10 @@
+
+# Duality
+* table of contents
+{: toc}
+
+## Idea
+
 From a fundamental category theoretic perspective, there are two fundamental kinds of dualities:
 
 * _abstract duality_: formally nothing but the reversal of arrows in a category $C$, i.e. the passage from $C$ to the [[opposite category]] $C^{op}$;
@@ -16,8 +23,8 @@ From a fundamental category theoretic perspective, there are two fundamental kin
 
 >may be considered as the detailed study of the extent to which formal duality and concrete duality into a favorite $V$ correspond or fail to correspond. (p. 122)
 
-#Examples#
 
+## Examples
 * [[opposite category]]
 * [[dual vector space]]
 * the duality between [[space and quantity]]
@@ -34,26 +41,32 @@ From a fundamental category theoretic perspective, there are two fundamental kin
 * [[Spanier-Whitehead duality]]
 * [[Tannaka duality]]
 
-#Definition#
+
+## Definition
 
 A _duality_ or _[[dual equivalence]]_ is an [[equivalence of categories|equivalence]] between a category $C$ and the abstract dual (i.e. [[opposite category|opposite]]) of a category $D$.
 
-#Remarks#
+
+## Remarks
 
 * Often two categories are not related by a dual equivalence, but just by a [[dual adjunction]]: an [[adjoint functor|adjunction]] between $C^{op}$ and $C$. But every dual adjunction induces a _maximal dual equivalence_ between subcategories of $C$ and $D$, as described below.
 
-#Dualizing objects#
 
-Of particular interest are concrete dualities between concrete categories $C, D$, i.e. categories equipped with a faithful functor 
-$f : C \to Set$, $\hat f : D \to Set$
+## Dualizing objects
+
+Of particular interest are concrete dualities between [[concrete categories]] $C, D$, i.e. categories equipped with faithful functors
+$$ f : C \to Set$, $\hat f : D \to Set $$
 to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the same underlying set $f(a) = \hat f(\hat a)$. Such objects are known as [[dualizing object]]s. 
 
-#References#
+
+## References
 
 * H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) [pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf)
 * David Corfield: [More on duality](http://golem.ph.utexas.edu/category/2007/01/more_on_duality.html) (blog)
 * wikipedia [duality (mathematics)](http://en.wikipedia.org/wiki/Duality_%28mathematics%29)
 * MathOverflow: [the-concept-of-duality](http://mathoverflow.net/questions/73711/the-concept-of-duality)
 * W. G. Dwyer, J. P. C. Greenlees, S. Iyengar, _Duality in algebra and topology_, [Hopf archive](http://hopf.math.purdue.edu/cgi-bin/generate?/Dwyer-Greenlees-Iyengar/duality)
+
     
+[[!redirects duality]]
 [[!redirects dualities]]
