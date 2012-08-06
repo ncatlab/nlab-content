@@ -8,6 +8,7 @@ Specific:
 
 * [[dual vector space]],
 * [[Pontrjagin dual]],
+* [[dual object]]
 * etc.
 
 
