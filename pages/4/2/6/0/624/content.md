@@ -19,7 +19,7 @@ Being *dualizable* is often thought of as a [[category theory|category-theoretic
 
 A more precise intuition is that an object is dualizable if its "size" is no larger than the "additivity" of the monoidal category.  Since [[Vect]] and the stable homotopy category are finitely [[additive category|additive]], but not infinitely so, dualizability there is a notion of finiteness.  This is the case for many monoidal categories in which one considers dualizability.  However, in a monoidal category which is not additive at all, such as [[Set]] (or any cartesian monoidal category), only the terminal object is dualizable---whereas in an "infinitely additive" monoidal category such as [[Rel]] or [[Sup]], many "infinite" objects are dualizable.  (In $Rel$, *all* objects are dualizable.) 
 
-**Warning:** there are other notions of the term "dual object", distinct from this one. See for example [[dual object in a closed category]], and also the discussion at [[category with duals]]. 
+**Warning:** there are other notions of "dual object", distinct from this one. See for example [[dual object in a closed category]], and also the discussion at [[category with duals]]. 
 
 ## In a monoidal category
 
