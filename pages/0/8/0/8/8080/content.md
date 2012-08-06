@@ -1,5 +1,5 @@
 
-If $V$ is a [[closed monoidal category]] (with internal hom denoted as $A \multimap B$, and monoidal unit as $I$), then the **dual** of an object $A$ is usually taken to mean $A \multimap I$. This applies for example to categories of modules over a commutative ring, to the category of Banach spaces, etc., with their usual closed monoidal structures. 
+If $V$ is a [[closed monoidal category]] or otherwise a [[closed category]] (with the [[internal hom]] denoted as $A \multimap B$, and the unit object as $I$), then the **dual** of an object $A$ is usually taken to mean $A \multimap I$. This applies for example to categories of [[modules]] over a [[commutative ring]], to the category of [[Banach spaces]], etc., with their usual closed monoidal structures. 
 
 However, if $V$ is a [[star-autonomous category]], "dual object" has a different meaning. See there for more detail, but it usually is taken to mean $A^\ast \cong A \multimap D$ where $D$ is the dual of the monoidal unit. These two meanings, $A \multimap I$ and $A \multimap D$, coincide if $V$ is a [[compact closed category]]. 
 
