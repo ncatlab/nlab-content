@@ -14,17 +14,7 @@ The unit $u: 1 \to M$ is assumed to be a well-defined relation (therefore a func
 
 * A _hypermonoid_ is a structure of [[quantale]] on a power set $P(S)$, whose unit is a singleton and where the quantale multiplication $\cdot$ satisfies $T \cdot U \neq \bot$ whenever $T, U \neq \bot$. 
 
-(In the opinion of one of the article authors ([[Todd Trimble]]), one may legitimately ask what is the mathematical gain in restricting to total relations and in the * [geckoz](http://geckozz.site50.net/)
-[bloepets](http://bloepets.wordpress.com/)
-[colorez](http://colerez.blogspot.com/)
-[kanduyung](http://kanduyung.pun.bz/)
-[yestues](http://ystubes.blogdetik.com/)
-[kataku](http://kataku.ealios.info/wp/)
-[kambingks](http://kambing.trecions.us/)
-[galopets](http://galopets.pertigo.info/)
-[golomie](http://genduts.colopi.info/)
-[heiye](http://deyong.0fees.net/wp/)
-[gogonsf](http://golds.fey345.com/) condition that the unit is functional. Lifting these restrictions, one obtains the simpler notion of quantale.) 
+(In the opinion of one of the article authors ([[Todd Trimble]]), one may legitimately ask what is the mathematical gain in restricting to total relations and in the condition that the unit is functional. Lifting these restrictions, one obtains the simpler notion of quantale.) 
 
 ## Examples 
 
