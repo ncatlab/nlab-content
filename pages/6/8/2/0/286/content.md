@@ -63,7 +63,7 @@ However, these are not commonly used foundations.  Therefore, category theory is
 ## How to break equivalence-invariance
 {#Breaking}
 
-> Or: just because it looks equivalence-respecting doesn\'t mean that it really is
+> Or: just because it looks equivalence-breaking doesn\'t mean that it really is.
 
 Just as we can make use of [[basis|bases]] in [[linear algebra]], so we may make use of [[strict categories]] to discuss [[category theory]].  Philosophically, the concept of strict category is not in itself a breaking of equivalence-invariance; what does break equivalence-invariance is to say that $Set$ (and other well-known categories such as [[Grp]], etc) *are* strict categories.  Mathematically, strict categories form a $1$-[[1-groupoid|groupoid]] $Str Cat_\sim$ that is different from the $2$-[[2-groupoid|groupoid]] $Cat_\sim$, but there is still a canonical [[pseudo functor]] from $Str Cat_\sim$ to $Cat_\sim$ that we may find useful.
 
