@@ -1,1 +1,1 @@
-[[!redirects Witt vectors]]
+&lt; [[Witt vectors]]
