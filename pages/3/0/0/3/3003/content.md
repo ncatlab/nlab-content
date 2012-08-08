@@ -1,14 +1,35 @@
-# Idea #
 
-A **conical space** is a set equipped with a notion of taking [[real number|real]]-linear combinations with nonnegative coefficients of its elements.  We may tersely define it as a [[module]] of the [[rig]] $\mathbb{R}_{\ge 0}$: that is, the rig of nonnegative real numbers, with ordinary addition and multiplication as the rig operations.
+# Conical spaces
+* table of contents
+{: toc}
 
-# Relation to vector spaces #
+## Idea
+
+A **conical space** is a set equipped with a notion of taking [[real number|real]]-[[linear combination]]s with nonnegative coefficients of its elements.  We may tersely define it as a [[module]] of the [[rig]] $\mathbb{R}^+ = {[{0,\infty}[}$: that is, the rig of nonnegative real numbers, with ordinary addition and multiplication as the rig operations.
+
+The [[positive cone]] of any [[ordered group|ordered]] real [[vector space]] is a conical space.
+
+
+## Relation to vector spaces
 
 Any rig homomorphism $A \to B$ gives a 'restriction of scalars' functor $R: B Mod \to A Mod$ and 'extension of scalars' functor $L: A Mod \to B Mod$.  In particular, 
 the rig homomorphism 
-
-$$\mathbb{R}_{\ge 0} \hookrightarrow \mathbb{R}$$
-
-produces a pair of adjoint functors between the category of $\mathbb{R}$-modules (that is, real [[vector spaces]]) and $\mathbb{R}_{\ge 0}$-modules (that is, conical spaces).  
+$$\mathbb{R}^+ \hookrightarrow \mathbb{R}$$
+produces a pair of [[adjoint functors]] between the category of $\mathbb{R}$-modules (that is, real [[vector spaces]]) and $\mathbb{R}^+$-modules (that is, conical spaces).  
 
 In simple English: any real vector space has an underlying  conical space, and any conical space freely generates a real vector space.
+
+
+## Extended conical spaces
+
+An __extended conical space__ is a module over the rig $\bar{\mathbb{R}}^+ = [0,\infty]$ of nonnegative [[extended real numbers]], with $0 \cdot \infty \coloneqq 0$.  For purposes of [[constructive mathematics]], one should take $\bar{\mathbb{R}}^+$ to be the space of nonnegative [[lower real numbers]].
+
+Since we have a rig homomorphism $\mathbb{R}^+ \hookrightarrow \bar{\mathbb{R}}^+$, every extended conical space has an underlying conical space, and any conical space freely generates an extended conical space.  However, there is no direct relationship between vector spaces and extended conical spaces.
+
+That said, the [[extended positive cone]] of any [[ordered group|ordered]] real [[vector space]] is an extended conical space.
+
+
+[[!redirects conical space]]
+[[!redirects conical spaces]]
+[[!redirects extended conical space]]
+[[!redirects extended conical spaces]]
