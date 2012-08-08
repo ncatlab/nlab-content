@@ -88,7 +88,17 @@ $$
 
 ## Properties
 
-It follows from the [[Yoneda lemma]] that the functor $Y$ is [[full and faithful functor|full and faithful]]. It is also [[limit]] preserving (= [[continuous functor]]), but does in general not preserve [[colimit]]s. 
+It follows from the [[Yoneda lemma]] that * [geckoz](http://geckozz.site50.net/)
+[bloepets](http://bloepets.wordpress.com/)
+[colorez](http://colerez.blogspot.com/)
+[kanduyung](http://kanduyung.pun.bz/)
+[yestues](http://ystubes.blogdetik.com/)
+[kataku](http://kataku.ealios.info/wp/)
+[kambingks](http://kambing.trecions.us/)
+[galopets](http://galopets.pertigo.info/)
+[golomie](http://genduts.colopi.info/)
+[heiye](http://deyong.0fees.net/wp/)
+[gogonsf](http://golds.fey345.com/) the functor $Y$ is [[full and faithful functor|full and faithful]]. It is also [[limit]] preserving (= [[continuous functor]]), but does in general not preserve [[colimit]]s. 
 
 The Yoneda embedding of a [[small category]] $S$ into the category of [[presheaf|presheaves]] on $S$ gives a [[free cocompletion]] of $S$.
 
