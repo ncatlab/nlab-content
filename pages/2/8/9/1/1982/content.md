@@ -9,17 +9,19 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 Measure theory studies [[measurable spaces]] and [[measure spaces]].
 
+
 ## History
 
 Measure theory is the field of mathematics that grew out of the [[Lebesgue measure|Lebesgue integral]] and Kolmogorov\'s axioms for [[probability]].  
+
 
 ## Some subfields and applications
 
@@ -31,4 +33,12 @@ Measure theory is very much having a central role in studying so called [[ergodi
 
 [[geometric measure theory|Geometric measure theory]] is the geometric study of measures of subsets of Euclidean space and the measure theoretic aspects of various geometric objects, like the integration of classes of currents and their extremization properties.    
 
-There is a generalization, the noncommutative measure theory, which is more or less the study of [[von Neumann algebra]], see [[Alain Connes]]' book [[Noncommutative geometry]] 1995.
+There is a generalization, the noncommutative measure theory, which is more or less the study of [[von Neumann algebra]], see [Connes (1995)](#Connes1995).
+
+
+## References
+
+*  [[Alain Connes]] (1995); _[[Noncommutative Geometry]]_.
+   {#Connes1995}
+
+*  D.H. Fremlin (2001); _Measure Theory_; 5 volumes, [web](http://www.essex.ac.uk/maths/people/fremlin/mt.htm).
