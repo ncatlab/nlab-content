@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of [[module]] over an [[associative algebra]] has a generalization to a notion of mdules over an algebra that is an [[algebra over an operad]].
+The notion of [[module]] over an [[associative algebra]] has a generalization to a notion of modules over an algebra that is an [[algebra over an operad]].
 
 Note that sometimes an algebra over an operad is called a module over the operad, so here we have a module over a module.  (Whether algebras/modules over operads are more like algebras or more like modules depends on your point of view, so both terms are used.)
 
