@@ -33,7 +33,7 @@ We first give the simple pedestrian definition in terms of explicit components, 
 
 ### In terms of components
 
-For $(C,\otimes, I)$ a ([[symmetric monoidal category|symmetric]]) [[monoidal category]], the **endomorphism operad** $End_C(X)$ of $X$ in $C$ is the [[symmetric operad]]/ [[planar operad]] whose colors are the obejects of $C$, and whose objects of $n$-ary operations are the [[hom objects]]
+For $(C,\otimes, I)$ a ([[symmetric monoidal category|symmetric]]) [[monoidal category]], the **endomorphism operad** $End_C(X)$ of $X$ in $C$ is the [[symmetric operad]]/ [[planar operad]] whose colors are the objects of $C$, and whose objects of $n$-ary operations are the [[hom objects]]
 
 $$
   End_C(X)(c_1, \cdots, c_n ; c) := 
@@ -102,6 +102,7 @@ $$
  {#UniversalCharacterization}
 
 To every [[operad]] $P$ is associated its [[category of operators]] $P^{\otimes}$, which is a monoidal category. 
+
 With that suitably defined, forming endomorphism operads is  [[2-adjunction|right 2-adjoint]] to forming categories of operators. See ([Hermida, theorem 7.3](#Hermida)) for a precise statement in the context of [[non-symmetric operads]] and strict monoidal categories.
 
 
