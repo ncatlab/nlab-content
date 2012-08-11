@@ -68,9 +68,9 @@ Given a Banach space $A$, a __[[predual]]__ of $A$ is a Banach space $V$ whose d
 $$ V^* \overset{i}\to A .$$
 Similarly, given a morphism $f\colon A \to B$, a __predual__ of $f$ is a morphism $t\colon W \to V$ whose dual is isomorphic to $f$:
 $$ \array {
-   V^*                  & \overset{i}\to  & A \\
-   \llap{t^*}\downarrow &                 & \rlap{f}\downarrow \\
-   W^*                  & \underset{j}\to & B
+   V^*                      & \overset{i}\to  & A \\
+   \mathllap{t^*}\downarrow &                 & \downarrow\mathrlap{f} \\
+   W^*                      & \underset{j}\to & B
 } .$$
 
 With these preliminaries, a __$W^*$-algebra__ is a $C^*$-algebra that admits a predual, and a $W^*$-[[homomorphism]] is a $C^*$-homomorphism that admits a predual.  In this way, the [[category]] of $W^*$-algebras becomes a [[subcategory]] of the category of $C^*$-algebras.
@@ -193,6 +193,7 @@ on hypothetical connections between [[CFT]] and [[elliptic cohomology]], Stolz a
 * [[Stefan Stolz]] and [[Peter Teichner]], _What is an elliptic object?_ ([pdf](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf))
 
 See also the [Wikipedia entry](http://en.wikipedia.org/wiki/Von_Neumann_algebra) entry for more on von Neumann algebras and a list of references and links.
+
 
 ## General
 
