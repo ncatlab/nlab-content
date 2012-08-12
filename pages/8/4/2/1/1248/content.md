@@ -116,7 +116,7 @@ This interpretation relies on a good relationship between $\leq$ and $=$ on the 
 
 ## References
 
-*  Taylor 2009:  On the categories mailing list, Message-ID [E1MJ5TV-00066b-BI@mailserv.mta.ca](http://www.mta.ca/~cat-dist/archive/2009/09-6).
+*  Taylor 20 June 2009:  On the categories mailing list, Message-ID [E1MJ5TV-00066b-BI@mailserv.mta.ca](http://www.mta.ca/~cat-dist/archive/2009/09-6).
    {#Taylor2009}
 
 *  On constructivenews, a [discussion](https://groups.google.com/group/constructivenews/browse_thread/thread/5f65c7ac479c15dd) about Theorem \ref{taylor} in the case where $S$ and $V$ are both the set of [[natural numbers]].  (Apparently this fails in certain [[realizability topos]]es.)
