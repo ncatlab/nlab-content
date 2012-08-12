@@ -90,7 +90,7 @@ $$
 
 The existence of an ordinary [[spin structure]] on a space $X$ is, as discussed there, the condition for $X$ to serve as the [[target space]] for the [[spinning particle]] [[sigma-model]], in that the existence of this structure is precisely the condition that the corresponding fermionic [[quantum anomaly]] on the [[worldline]] vanishes.
 
-Twisted $spin^c$-structures appear similarly as the conditions for the analogous quantum anomaly cancellation, but now of the open [[type II superstring]] ending on a [[D-brane]]. This is also called the **Freed-Witten anomaly cancellation**. 
+Twisted $spin^c$-structures appear similarly as the conditions for the analogous quantum anomaly cancellation, but now of the open [[type II superstring]] ending on a [[D-brane]]. This is also called the **[[Freed-Witten anomaly cancellation]]**. 
 
 More precisely, in these applications the class of $W_3(TX) - H$ need not vanish, it only needs to be $n$-[[torsion]] if there is moreover a [[twisted bundle]] of rank $n$ on the $D$-brane.
 
@@ -130,7 +130,7 @@ The refinement to smooth twisted structures is discussed in section 4.1 of
 ### In physics
  {#ReferencesAnomalyCancellation}
 
-The need for twisted $Spin^c$-structures as [[quantum anomaly]]-cancellaton condition on the [[worldvolume]] of [[D-brane]]s in [[string theory]] was first discussed in
+The need for twisted $Spin^c$-structures as [[Freed-Witten anomaly cancellation]] condition on the [[worldvolume]] of [[D-branes]] in [[string theory]] was first discussed in
 
 * [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_ ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
 
@@ -160,5 +160,3 @@ In ([Laine](#Laine)) the discussion of FW-anomaly cancellation with finite-rank 
 [[!redirects twisted spin^c-structures]]
 
 
-[[!redirects Freed-Witten anomaly]]
-[[!redirects Freed-Witten anomaly cancellation]]
