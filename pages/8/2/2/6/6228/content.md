@@ -45,4 +45,8 @@
 
 * [[ergodic theory]]
 
+## Theorems
+
+* [[Riesz representation theorem]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/measure+theory+-+contents)</div>
