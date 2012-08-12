@@ -45,6 +45,8 @@
 
 * [[functional calculus]]
 
+* [[Riesz representation theorem]]
+
 * [[measure theory]]
 
 ## Topics in Functional Analysis
