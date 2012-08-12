@@ -111,6 +111,10 @@ in terms of [[differential cohomology]] in general and [[differential string str
 
 * **Fivebrane structure** the worldvolume anomaly for the super-5-brane in [[dual heterotic string theory]] vanishes (essentially) when $X$ has [[Fivebrane structure]]. See there.
 
+#### Freed-Witten anomaly
+
+see at _[[Freed-Witten anomaly]]_.
+
 
 ### Anomalous symmetry
 
