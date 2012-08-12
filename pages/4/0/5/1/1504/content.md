@@ -214,6 +214,7 @@ $$
 $$
 
 ### As an $\infty$-Chern-Simons theory
+ {#AsAnInfinityCSTheory}
 
 The above action functional for closed string field theory turns out to have a general abstract meaning in [[higher category theory]]/[[homotopy theory]].
 
