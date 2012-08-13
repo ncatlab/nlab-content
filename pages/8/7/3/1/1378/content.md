@@ -40,7 +40,7 @@ Of course, there are other aspects to algebra such as those resulting from non-a
 
 **Higher algebra** (or **[[homotopical algebra]]**) is similarly, but  in particular, the study of monoids internal to [[infinity-category|higher categories]].
 
-A central motivating example example for or special case of the study of higher algebra was
+A central motivating example for - or special case of the study of higher algebra was
 
 * monoids internal to the [[stable (infinity,1)-category of spectra]] -- called [[commutative ring spectrum|commutative ring spectra]]
 
