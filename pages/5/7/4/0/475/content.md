@@ -19,6 +19,11 @@
 
 A **tricategory** is a particular [[algebraic definition of higher category|algebraic]] notion of _weak_ [[3-category]].  The idea is that a tricategory is a category _weakly_ [[enriched category|enriched]] over [[Bicat]]: the [[hom-object|hom-objects]] of a tricategory are [[bicategories]], and the associativity and unity laws of [[enriched category|enriched categories]] hold only up to coherent equivalence.
 
+## Coherence theorems
+{#Coherence}
+
+One way to state the coherence theorem for tricategories is that every tricategory is [[equivalence|equivalent]] to a [[Gray-category]], which is a sort of semi-strict 3-category (everything is strict except for the [[interchange law]]).
+
 ## Examples {#Examples}
 
 For $R$ a commutative [[ring]], there is a [[symmetric monoidal bicategory]] $Alg(R)$ whose 
@@ -71,3 +76,4 @@ A discussion of [[monoidal category|monoidal]] tricategories, regarded by the di
 
 
 [[!redirects tricategories]]
+[[!redirects coherence theorem for tricategories]]
