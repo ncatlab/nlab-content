@@ -1,7 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 If $V$ is a [[closed category]] (for example a [[closed monoidal category]]), with the [[internal hom]] denoted as $A \multimap B$ and the unit object as $I$, then the **dual** of an object $A$ is usually taken to mean $A \multimap I$. This applies for example to categories of [[modules]] over a [[commutative ring]], to the category of [[Banach spaces]], etc., with their usual closed monoidal structures. 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Warning
 A dual in the sense above might not be a [[dual object]] in other established senses of the word. For example, 
 
