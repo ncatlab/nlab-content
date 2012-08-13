@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -28,6 +38,8 @@ The $p$-adic integers have the following properties:
 
 ## Related notions 
 
-See also $p$-[[p-adic number|adic number]], [[adele]]. 
+* $p$-[[p-adic number|adic number]], [[adele]].
+
+* [[Z-infinity-module]] 
 
 [[!redirects p-adic integers]]
