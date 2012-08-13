@@ -29,7 +29,7 @@ $$\frac{A\colon Type \qquad B \colon Type}{A\to B\colon Type}$$
 
 ### As a negative type
 
-Function types are almost always defined as a [[negative type]].  In this presentation, primacy is given to the eliminators.  The natural eliminator of a function type says that we can *apply* it to any input:
+Function types are almost always defined as a [[negative type]].  In this presentation, primacy is given to the eliminators.  The natural eliminator of a function type says that we can [[function application|apply]] it to any input:
 
 $$\frac{f\colon A\to B \qquad a\colon A}{f(a) \colon B}$$
 
