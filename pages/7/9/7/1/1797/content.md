@@ -137,6 +137,8 @@ In [[higher category theory]], one expects to have a similar "fully coherent" no
 
 * For [[Gray-categories]], the statement and proof is in [[Steve Lack]]'s paper [1001.2366](http://arxiv.org/abs/1001.2366) on the [[model structure for Gray-categories]].  See [[adjoint 2-equivalence]].
 
+* For [[tricategories]], the corresponding statement can be deduced from the Gray-categorical version using the [[coherence theorem for tricategories]].  A direct proof can also be found in [[Nick Gurski]]'s paper [Biequivalences in tricategories](http://www.tac.mta.ca/tac/volumes/26/14/26-14abs.html).
+
 * For [[strict omega-categories]], more or less this fact can be found in the study of "generic squares" in the paper [0712.0617](http://arxiv.org/abs/0712.0617) on the [[model structure for strict omega-categories]].
 
 * For [[quasicategories]], the theorem is true, where an "adjoint equivalence" means simply a map out of the [[nerve]] of the [[interval groupoid]]; see [[equivalence in a quasicategory]].
