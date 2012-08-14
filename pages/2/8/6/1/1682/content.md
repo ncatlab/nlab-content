@@ -160,6 +160,9 @@ For the case of $tmf$ one finds that the homotopy sheaves $\pi_q(\mathcal{O}(\ma
 This can be done quite explicitly in terms of a long but fairly elementary computation  in ordinary algebra. A detailed discussion of this computation is in ([Henriques](#Henriques))
 
 
+## Related concepts
+
+* [[taf]]
 
 ## References ##
 
