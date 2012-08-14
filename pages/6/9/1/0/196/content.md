@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -12,7 +12,7 @@ A function is sometimes called a __total function__ to distinguish it from a [[p
 
 ## Categorical perspective
 
-Functions are the [[morphisms]] in the [[category]] [[Set]].  Since Set is [[cartesian closed category|cartesian closed]], they can also be regarded as elements of the [[exponential object]], namely a [[function set]].
+Functions are the [[morphisms]] in the [[category]] [[Set]].  Since Set is [[cartesian closed category|cartesian closed]], they can also be regarded as elements of the [[exponential object]], which in this case is a [[function set]].
 
 
 ## Foundations
