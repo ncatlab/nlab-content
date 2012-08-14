@@ -13,7 +13,7 @@
 * table of contents
 {:toc}
 
-## Definition
+## Conventional Meaning
 
 If $V$ is a [[closed category]] (for example a [[closed monoidal category]]), with the [[internal hom]] denoted as $A \multimap B$ and the unit object as $I$, then the **dual** of an object $A$ is usually taken to mean $A \multimap I$. This applies for example to categories of [[modules]] over a [[commutative ring]], to the category of [[Banach spaces]], etc., with their usual closed monoidal structures. 
 
