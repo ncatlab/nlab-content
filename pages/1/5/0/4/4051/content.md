@@ -19,27 +19,29 @@
 
 ## Introduction 
 
-Sometime around 1997-1998, there was a heated debate on the list FOM (Foundations of Mathematics) on the status of categorical foundations for mathematics, focusing particularly on the viability of _[[ETCS]]_ -- the _elementary theory of the category of sets_ -- as an categorical alternative to ZFC. At some point during the debate, the advocates of categorical foundations were "challenged" to give a fully formal presentation of ETCS, presumably with the idea that placing it side by side with a formal presentation of ZFC, the advantages and disadvantages of each could be discussed. 
+This page addresses a frequently encountered but easily corrected misconception about [categorial](http://ncatlab.org/nlab/show/foundation+of+mathematics#CFM) approaches to foundations of mathematics. The misunderstanding is that there is something circular in using a categorial theory like [[ETCS]] (the elementary theory of the category of sets, due to Lawvere) to axiomatize a theory of collections: the argument is that the theory of "categories", which are certain structured collections, calls upon a prior theory of collections in which the notion is situated. 
 
-Just to have it on record, we present such a "fully formal" presentation of ETCS. This amounts to a routine translation of categorical axioms (best and most intuitively apprehended by studying diagrams of arrows that express familiar instances of universal properties) into full-blown logical syntax. Much of the syntax amounts to some tedious "machine-level" bookkeeping of the shapes of more or less obvious diagrams needed in the categorical descriptions[^note1]. 
+The most straightforward explanation is that the theory of categories, and of further elaborations like the theory of [[topos|toposes]] and the theory ETCS, are all first-order theories, just as [[ZFC]] is. This is a kind of "formalist" answer, which puts all such theories on an equal logical footing. 
+(A more precise formalist answer would compare the strengths of the various theories; for example, ETCS is bi-interpretable and equiconsistent with a form of set theory called BZC (Bounded Zermelo with Choice), a suitable strengthening of [[ETCS]] gives something equiconsistent with [[ZFC]].) 
+In any case, all we need to do here is write down a suitable signature that captures all the operations and relations one uses in ETCS, followed by all the usual axioms that hold. While it's clear in principle how to do this, one might as well do it "fully formally", just to settle any lingering doubts created by the above misunderstanding. 
 
-For readers who came to this page hoping to learn what ETCS is, we advise looking elsewhere for more human explanations (see for example the references below). In a sentence, though, 
+There are various ways one might think of to write down a first-order theory of ETCS, depending to some extent on style and how much one wants to wield [[Occam's razor]]. The choice that a categorical logician might make is likely different from another type of logician might make. In particular, if one is interested not just in the question of "founding mathematics" within [[ETCS]] (where one might prefer an Occam's razor approach as more aesthetically appealing), but also in the question of what sorts of things we want to call "morphisms" between different models of ETCS, then there is less leeway. Here, a categorially appropriate presentation, in particular the one given below, ensures that the logical notion of "homomorphism of models" matches what a categorial logician takes a morphism to be: a functor that preserves finite limits and power objects (up to isomorphism, as usual). Thus, for a categorical logician, it is appropriate to build all the relevant structure (that is to be preserved) directly into the _signature_ of ETCS, using predicates that stand for things like "pullbacks exist", "power objects exist" -- rather than just write these down as axioms. More on this below[^fine]. 
 
-* A model of ETCS is a well-pointed [[topos]] with a [[natural numbers object]] that satisfies [[axiom of choice|AC]] 
+When one carries this plan out, one sees that a large fragment of ETCS is expressed in the form of a [[geometric theory]]. To be precise, a model of ETCS is just a well-pointed topos with a natural numbers object and with Choice; dropping well-pointedness, the theory of toposes with natural numbers object and choice is a geometric theory. The theory of toposes with natural numbers object (which serves as a good foundation for much of [[constructive mathematics]]) is even better: by adjusting the signature in a technically harmless way (that makes morphisms preserve structure strictly instead of only up to isomorphism), it is an [[essentially algebraic theory]] or [[finite limit theory]]. All of these considerations are well-known and significant in categorical logic, clarifying for example the scope of possible categorical interpretations of these theories, but such considerations are likely not too well-known outside of categorial logic circles. 
 
-where 
+The precise logical vehicle we use to make these observations (on geometric logic, finite limit logic, etc.) manifest is [[sequent calculus]]. Other frameworks could be chosen, but sequent calculus is standard and well-adapted for defining, in syntactic terms, notions such as "geometric theory", "finite limit theory", etc. For background on this, see Johnstone's [[Elephant]]. 
 
-* A topos is a finitely complete category such that every object $X$ has a power object $P X$, characterized by a universal property that maps $Y \to P X$ are in natural bijective correspondence with relations between $X$ and $Y$. 
+The fully formal theory ETCS given here is built up in stages: 
 
-What is the purpose of this page, then? There are several: 
+* The theory of categories, as a one-sorted theory. (The usual presentation involves two sorts, objects and  morphisms. Our excuse for making it one-sorted is that many introductions to logic do not discuss any except one-sorted theories -- thus these are more familiar to logical novices, the very ones subject to the misconceptions recounted above.) In a morphisms-only approach, we have "source" and "target" operations and a ternary predicate $c(f, g, h)$, meaning "$f$ and $g$ are composable and their composite is $h$". 
 
-* To give logicians who are skeptical of categorical foundations (or who "challenge" category theorists to write down their theory in purely logical form) something to look at and ponder. 
+* The theory of categories with finite limits. This builds on the previous theory and adds some new predicates, namely an unary predicate $1$ where $1(x)$ means "$x$ is terminal", and a quaternary predicate $p$ where $p(f, g, h, k)$ means "$f$, $g$, $h$, $k$ are the arrows of a pullback square". As indicated above, we add these in as explicit predicates (rather than merely give axioms of existence) so that model homomorphisms are forced to preserve them. 
 
-* To counter the frequently made claim that the theory of categories somehow depends on a prior theory of collections (aka "set theory") in which to interpret it. This is no more true than to say that a theory of sets requires a prior theory of sets in which to interpret it. The proof is that the theory of categories, the theory of toposes, etc. is a first-order theory, just as ZFC (or whatnot) is. One proves theorems in ETCS by direct appeal to the theory at the level of syntax (however it might be presented), just as in the case of ZFC. 
+* The theory of toposes. Here we add in still more predicates to capture the notion of power object up to isomorphism. 
 
-* To explain some senses in which the theory is simpler than say ZFC, where "simple" is in terms of what one needs to assume of a background environment in order to interpret the theory in a reasonable way. For example, except for one axiom, the theory is equivalently expressed in terms of [[coherent theory|coherent axioms]], and with some further adjustments on the signature, most of the axioms can be given in [[essentially algebraic theory|essentially algebraic]] form. 
+* The theory of toposes with [[natural numbers object]] that are well-pointed (terminal objects are generators) and satisfy AC (every epi has a section).  
 
-(NB: this page, like any other page at the nLab, is under construction and is always subject to further review, as is true of wiki pages generally. Queries, comments, criticisms, etc. should be tendered at the [[nForum]].) 
+The sections below reflect this multi-stage approach. 
 
 ## Preliminaries 
 
@@ -47,7 +49,7 @@ We assume familiarity with the standard notion of a [[algebraic theory|(finitary
 
 First-order [[theory|theories]] are typically presented in terms of a [[signature]] consisting of function and predicate symbols, together with axioms each of which is a closed formula in the first-order language generated by the signature. That mode of presentation will be followed here. Standard logical conventions are followed; for example, it is common to state axioms as formulas $P(x_1, \ldots, x_n)$ in which some of the variables $x_i$ may appear freely, with the implicit understanding that such variables are bound by unwritten [[universal quantifiers]] at the heads of formulas, to make the formulas closed. 
 
-To make the exposition more readable, the theory will be built up in layers, together with some explanations (in parentheses) which do not belong to the formal theory, but which may aid comprehension. We also employ the standard device of abbreviating formulas, by declaring at various junctures definitions and notational conventions. 
+To make the exposition more readable, we add some explanations (in parentheses) which do not belong to the formal theory, but which may aid comprehension. We also employ the standard device of abbreviating formulas, by declaring at various junctures definitions and notational conventions. 
 
 In formalizing universal properties, one very helpful purely logical abbreviation is the "exists-unique" quantifier $\exists !$. Namely, if $Q(x)$ is a formula in which a variable $x$ appears freely, then $\exists ! x: Q(x)$ is shorthand for the conjunction of 
 
@@ -70,7 +72,7 @@ The [[signature]] of $Th(Cat)$ consists of
 
 * A ternary predicate $c$. 
 
-(The [[theory]] of [[categories]] is commonly presented as a two-sorted theory, with an object sort and a morphism sort. Here we instead use [[single-sorted definition of a category|the single-sorted theory]], whose terms are intended to be interpreted as _morphisms_ of a category. We generally use letters $f, g, h, \ldots$ for variable terms. If $e$ is any term, then the intended interpretation of $s(e)$ is: the identity morphism of the domain of $e$. Similarly, $t(e)$ means the identity morphism of the codomain of $e$. The intended interpretation of $c(f, g, h)$ is that $h = f \circ g$.) 
+(The [[theory]] of [[categories]] is commonly presented as a two-sorted theory, with an object sort and a morphism sort. Here we instead use [[single-sorted definition of a category|the single-sorted theory]], whose terms are to be interpreted as _morphisms_ of a category. We generally use letters $f, g, h, \ldots$ for variable terms. If $e$ is any term, then the intended interpretation of $s(e)$ is: the identity morphism of the domain of $e$. Similarly, $t(e)$ means the identity morphism of the codomain of $e$. The intended interpretation of $c(f, g, h)$ is that $h = f \circ g$.) 
 
 The axioms of $Th(Cat)$ are as follows:  
 
