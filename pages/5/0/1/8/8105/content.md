@@ -8,6 +8,10 @@
 Topological automorphic forms are a generalization of [[topological modular forms]]: where the latter come with the [[moduli space]] of [[elliptic curves]], topological automorphic forms are associated to a given [[Shimura variety]].
 Moreover, just as topological modular forms refine to the [[tmf]]-[[spectrum]] representing the corresponding [[cohomology theory]], so every Shimura variety induces a cohomology theory $taf$.
 
+| [[chromatic level]] $n = $ | 1 | 2 | $\geq 3$ |
+|--|--|--|--|
+| $E$ | [[topological K-theory|KO]] | [[TMF]] | TAF |
+
 ## Related concepts
 
 * [[topological modular forms]]
@@ -29,3 +33,5 @@ Moreover, just as topological modular forms refine to the [[tmf]]-[[spectrum]] r
 * _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
 
 [[!redirects automorphic forms]]
+[[!redirects automorphic form]]
+[[!redirects topological automorphic forms]]
